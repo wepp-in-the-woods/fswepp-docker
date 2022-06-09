@@ -14,6 +14,7 @@ RUN apt-get install -y wget
 RUN apt-get install -y gnupg
 RUN apt-get install -y gnuplot-qt
 RUN apt-get install -y libxml-simple-perl
+RUN apt-get install -y libcgi-session-perl
 RUN apt install -y curl
 RUN apt-get install -y vim
 
@@ -31,12 +32,19 @@ RUN apt-get install -y --install-recommends winehq-stable
 RUN DEBIAN_FRONTEND=noninteractive TZ=America/Los_Angeles apt-get -y install tzdata
 RUN dpkg-reconfigure -f non-interactive tzdata
 
+## Move perl dependencies
+COPY var/www/cgi-bin/BAERTOOLS/baer-db/Query.pl /etc/perl/
+COPY var/www/cgi-bin/BAERTOOLS/baer-db/PageCommon.pl /etc/perl/
+COPY var/www/cgi-bin/BAERTOOLS/baer-db/ShowProj.pl /etc/perl/
+
 ## Configure Apache
 RUN a2enmod cgid
 RUN rm -R /var/www/html
 COPY ./000-default.conf /etc/apache2/sites-enabled/
 RUN echo 'ServerName 0.0.0.0' >> /etc/apache2/apache2.conf
-CMD /etc/init.d/apache2 stop && /etc/init.d/apache2 start && /bin/bash
+CMD /etc/init.d/apache2 stop && \
+    /etc/init.d/apache2 start && \
+    /bin/bash
 
 EXPOSE 80
 
