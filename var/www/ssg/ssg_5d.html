@@ -1,0 +1,522 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+ <head>
+  <title>SSG Section 5D: Soil Slopes - Transition from Deterministic to Probabilistic Analyses</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <!--
+    Hall, D.E.; Long, M.T.; Remboldt, M.D., editors. 1994.
+    Slope Stability Reference Guide for National Forests in the United States.
+    Prellwitz, R.W.; Koler, T.E.; Steward, J.E., coordinators.
+    Publication EM-7170-13.
+    Washington, DC: U.S. Department of Agriculture, U.S. Forest Service, Engineering Staff. 
+    3 volumes, 1091 p.
+    Corrected [2006] electronic version at http://forest.moscowfsl.wsu.edu/ssg/
+  -->
+  <style type="text/css">
+<!--
+A{color:#0000CC; font-family:Verdana, Arial, Helvetica, sans-serif;} A:hover{color:#ff00cc;} A:visited{color:#660099;} A:visited:hover{color:#ff00cc;} 
+p, ul, ol, blockquote {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11pt}
+P.indent {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11pt; margin-left: 20px}
+.active {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11pt; color:#666666;}
+.fig {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9pt;}
+.shead {  font-family: trebuchet MS, verdana, arial, helvetica, sans-serif; font-size: 12pt; font-weight: bold}
+.head {  font-family: trebuchet MS, verdana, arial, helvetica, sans-serif; font-size: 20pt; font-weight: bold}
+.headssg {  font-family: trebuchet MS, verdana, arial, helvetica, sans-serif; font-size: 14pt; font-weight: bold}
+.symb {  font-family: symbol; font-size: 11pt; font-weight: bold;}
+BR.pageEnd {page-break-after:always;}
+.text {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11pt; text-indent: 40px;}
+.smtext { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt}
+.vari {  font-family: "Times New Roman", Times, serif; font-size: 11pt; font-style: italic; font-weight: bold}
+.figSymb { font-family: symbol; font-size: 9pt; font-style: italic }
+.figVari {  font-family: "Times New Roman", Times, serif; font-size: 9pt; font-style: italic; font-weight: bold}
+.eq_label { font-family: verdana, Helvetica, sans-serif; font-size: 11pt; text-align: right;}
+.underline {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11pt; text-decoration: underline}
+-->
+  </style>
+  <script language="javascript" type="text/javascript">
+  <!--
+
+  function workWindow(theURL,winName,features) {
+    window.open(theURL,winName,features);
+  }
+  //-->
+  </script>
+ </head>
+
+ <body bgcolor="#FFFFFF" link="#3333FF" vlink="#990099">
+  <!-- BEGIN TOP NAVIGATION --> 
+  
+<table width="635" border="1" cellspacing="0" cellpadding="8" bgcolor="#CCCC99">
+  <tr>
+    <td> 
+      <p align="center"><font face="Arial, Helvetica, sans-serif" size="2">
+        [ <a href="index.html">Slope Stability Reference Guide Home</A> ]<br>
+        [ <a href="ssg_5toc.html">Section 5 TOC</a> ] <br>
+        [ &lt; <a href="ssg_5c.html">Section 5C </a> ]
+        [ <a href="ssg_5e.html">Section 5E </a> &gt; ]
+      </font></p>
+    </td>
+   </tr>
+  </table>
+<!-- END TOP NAVIGATION -->
+
+  
+<table width="635" border="0" cellspacing="2" cellpadding="2">
+  <tr> 
+    <td colspan="5" align="center" valign="top"><font face="Arial, Helvetica, sans-serif"><font size="3"><b>Slope 
+      Stability Reference Guide for National Forests in the United States <br>
+      Volume II, Chapter 5, Section D</b></font> </font> <hr> </td>
+  </tr>
+  <tr> 
+    <td width="126" valign="top" > <div align="right"><strong><font face="Arial, Helvetica, sans-serif" size="4">5D.</font></strong></div></td>
+    <td valign="top" colspan="4" > <p><strong><font face="Arial, Helvetica, sans-serif" size="4"> 
+        Soil Slopes-Transition from Deterministic to Probabilistic Analyses </font></strong></p></td>
+  </tr>
+  <tr> 
+    <td colspan="5"> <hr> </td>
+  </tr>
+  <tr> 
+    <td width="126" valign="top" ><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+    <td class="fig" valign="top" colspan="4"> <p><font face="Arial, Helvetica, sans-serif" size="2"><i>Rodney 
+        W. Prellwitz, Geotechnical Engineer, Intermountain Research Station</i></font></p></td>
+  </tr>
+  <tr> 
+    <td colspan="5"> <hr> </td>
+  </tr>
+  <tr> 
+    <td c valign="top" width="126"><font face="Arial, Helvetica, sans-serif" size="3"><strong><a name="5D.1"></a>5D.1 
+      Introduction</strong></font> </td>
+    <td valign="top" colspan="4"> <p><font face="Arial, Helvetica, sans-serif" size="2">Thus 
+        far, the sample problems in section <a href="ssg_5toc.html">5</a> have 
+        illustrated deterministic analysis where single parametric values have 
+        been used in the solution. It is important to recognize that in nature 
+        everything varies to some degree, and in addition to this natural variability, 
+        there is uncertainty--the inability of the analyzer to measure values 
+        precisely for certain parameters. Sections <a href="ssg_5a.html#5A.12">5A.12</a> 
+        and <a href="ssg_5a.html#5A.13">5A.13</a> discuss how experienced deterministic 
+        and probabilistic analyzers treat variability and uncertainty differently. 
+        The deterministic analyzer must account for both of these factors in the 
+        selection of representative single parametric values. Values about which 
+        there is some uncertainty are likely to tend toward the conservative side 
+        of a possible range of values rather than toward the mean value of the 
+        range in the deterministic analysis. The probabilistic analyzer can use 
+        a range of values for a particular parameter selected according to whatever 
+        areal distribution is a reasonable match to what actually exists in nature, 
+        and the uncertainty in the determination must be taken into account in 
+        the selection of that representative range. In probabilistic analyses, 
+        such as the Monte Carlo simulation used in the computer programs LISA 
+        (Level I Stability Analysis ver. 2.0 1991) and SARA (Stability Analysis 
+        for Road Access), deterministic equations are used with many representative 
+        combinations of parametric values selected according to the probabilistic 
+        distributions defined by the user. Sample sizes of 500 to 1,000 or more 
+        are common in probabilistic analysis to reduce the amount of variation 
+        in results due to individual samples. One of the results reported is the 
+        "probability of failure"-the ratio of the number of solutions in a sampling 
+        indicating failure (factor of safety, <i>F</i>, less than or equal to 
+        one) to the total number of samples.</font></p></td>
+  </tr>
+  <tr> 
+    <td colspan="5" valign="top" > <hr> </td>
+  </tr>
+  <tr> 
+    <td  valign="top" width="126"><font face="Arial, Helvetica, sans-serif" size="3"><strong><a name="5D.2"></a>5D.2 
+      Levels I and II Sensitivity Analyses</strong></font><strong><font face="Arial, Helvetica, sans-serif">&nbsp;&nbsp;&nbsp;</font><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></strong></td>
+    <td valign="top" colspan="4"><p><font size="2" face="Arial, Helvetica, sans-serif">As 
+        a transition from single-value deterministic analysis to multi-value probabilistic 
+        analysis, this section will deal with sensitivity analyses for the level 
+        I and II deterministic algorithms presented in sections <a href="ssg_5b.html">5B</a> 
+        and <a href="ssg_5c.html">5C</a>. This differs somewhat from the probabilistic 
+        techniques of LISA and SARA in that only the range (minimum and maximum) 
+        and median (midpoint of the range) of the possible values are used for 
+        the parameters, not the probabilistic areal distributions. What is tested 
+        in a sensitivity analysis is how sensitive the analysis algorithms are 
+        to changes over the anticipated range of a value if all of the other parametric 
+        values remain at the median value. This will be illustrated with sample 
+        problems using level I and II algorithms and the parametric values for 
+        map unit 45 (<a href="#Table_5D.1">table 5D.1</a>). The mapping unit boundaries 
+        are defined by geomorphic feature, geologic origin, parent rock type, 
+        soil type, and parametric value criteria.</font></p>
+      <font size="2" face="Arial, Helvetica, sans-serif">The sensitivity analysis 
+      is a determination of the percent change in the results of the analysis 
+      (in the case of level I and II algorithms, the percent change in the factor 
+      of safety, <i>F</i>) in relation to the corresponding percent change in 
+      one of the input variables while all of the other variables remain constant 
+      at their median value. In the analysis, it is important to consider <i>only</i> 
+      the amount of variability that a parameter is expected to have (the anticipated 
+      range). This is because, even if the analysis is very sensitive to change 
+      in a specific variable, if that variable is nearly constant in nature, other 
+      variables may be more significant at a particular location. For example, 
+      in all of the following sample problems, the sensitivity graphs show that 
+      the analyses are very sensitive to the angle of internal friction of the 
+      soil, f, but for only a short range of possible change in output. For this 
+      type of soil, the practitioner skilled in measuring or predicting &phi; 
+      would place a greater effort on the determination of more significant parametric 
+      values.</font></td>
+  </tr>
+  <tr> 
+    <td  valign="top" width="126">&nbsp;</td>
+    <td valign="top" bgcolor="#CCCC99" colspan="4" height="268"> <div align="center"><a name="Table_5D.1"></a> 
+        <i><font size="2" face="Arial, Helvetica, sans-serif">Table 5D.1. Parametric 
+        values for map unit 45.</font></i> </div>
+      <CENTER>
+        <table width="75%" border="1" cellpadding="1" bgcolor="#FFFFFF">
+          <tr> 
+            <td width="31%" height="18">&nbsp;</td>
+            <td colspan="2" height="18"> <div align="center"><font face="Times New Roman, Times, serif" size="2">Parametric 
+                </font><font face="Times New Roman, Times, serif" size="2">Value</font></div></td>
+          </tr>
+          <tr> 
+            <td width="31%"> <div align="center"><font face="Times New Roman, Times, serif" size="2">Parameter</font></div></td>
+            <td width="39%"> <div align="center"><font face="Times New Roman, Times, serif" size="2">Range</font></div></td>
+            <td width="30%"> <div align="center"><font face="Times New Roman, Times, serif" size="2">Median</font></div></td>
+          </tr>
+          <tr> 
+            <td width="31%" height="17"> <div align="center"><font face="Times New Roman, Times, serif" size="2"><i>&gamma;<sub>d</sub> 
+                </i>(pcf)</font></div></td>
+            <td width="39%" height="17"> <div align="center"><font size="2" face="Times New Roman, Times, serif">90 
+                to 110</font></div></td>
+            <td width="30%" height="17"> <div align="center"><font face="Times New Roman, Times, serif" size="2">100</font></div></td>
+          </tr>
+          <tr> 
+            <td width="31%"> <div align="center"><font face="Times New Roman, Times, serif" size="2"><font face="Times New Roman, Times, serif"><font face="Times New Roman, Times, serif"><font size="2"><i>w</i> 
+                (%) </font></font></font></font></div></td>
+            <td width="39%"> <div align="center"><font face="Times New Roman, Times, serif" size="2">6 
+                to 18</font></div></td>
+            <td width="30%"> <div align="center"><font face="Times New Roman, Times, serif" size="2">12</font></div></td>
+          </tr>
+          <tr> 
+            <td width="31%"> <div align="center"><font face="Times New Roman, Times, serif" size="2"><font face="Times New Roman, Times, serif"><font face="Times New Roman, Times, serif"><font size="2"><i>C<sub>s</sub></i> 
+                (psf) </font></font></font></font></div></td>
+            <td width="39%"> <div align="center"><font face="Times New Roman, Times, serif" size="2">0 
+                to 60</font></div></td>
+            <td width="30%"> <div align="center"><font face="Times New Roman, Times, serif" size="2">30</font></div></td>
+          </tr>
+          <tr> 
+            <td width="31%"> <div align="center"><font face="Times New Roman, Times, serif" size="2"><font face="Times New Roman, Times, serif"><font face="Times New Roman, Times, serif"><font size="2"> 
+                &phi; (degrees) </font></font></font></font></div></td>
+            <td width="39%"> <div align="center"><font face="Times New Roman, Times, serif" size="2">28 
+                to 34</font></div></td>
+            <td width="30%"> <div align="center"><font face="Times New Roman, Times, serif" size="2">31</font></div></td>
+          </tr>
+          <tr> 
+            <td width="31%"> <div align="center"><font face="Times New Roman, Times, serif" size="2"><font face="Times New Roman, Times, serif"><font face="Times New Roman, Times, serif"><font size="2"><i>q<sub>o</sub></i> 
+                (psf) </font></font></font></font></div></td>
+            <td width="39%"> <div align="center"><font face="Times New Roman, Times, serif" size="2">0 
+                to 80</font></div></td>
+            <td width="30%"> <div align="center"><font face="Times New Roman, Times, serif" size="2">40</font></div></td>
+          </tr>
+          <tr> 
+            <td width="31%"> <div align="center"><font face="Times New Roman, Times, serif" size="2"><font face="Times New Roman, Times, serif"><font face="Times New Roman, Times, serif"><font size="2"><i>C<sub>r</sub></i> 
+                (psf) </font></font></font></font></div></td>
+            <td width="39%"> <div align="center"><font face="Times New Roman, Times, serif" size="2">20 
+                to 80</font></div></td>
+            <td width="30%"> <div align="center"><font face="Times New Roman, Times, serif" size="2">50</font></div></td>
+          </tr>
+          <tr> 
+            <td width="31%"> <div align="center"><font face="Times New Roman, Times, serif" size="2"><font face="Times New Roman, Times, serif"><font face="Times New Roman, Times, serif"><font size="2"><i>d</i> 
+                (ft) </font></font></font></font></div></td>
+            <td width="39%"> <div align="center"><font face="Times New Roman, Times, serif" size="2">6 
+                to 18</font></div></td>
+            <td width="30%"> <div align="center"><font face="Times New Roman, Times, serif" size="2">12</font></div></td>
+          </tr>
+          <tr> 
+            <td width="31%"> <div align="center"><font face="Times New Roman, Times, serif" size="2"><font face="Times New Roman, Times, serif"><font face="Times New Roman, Times, serif"><font size="2"><i>d<sub>w</sub>/d</i> 
+                (ratio) </font></font></font></font></div></td>
+            <td width="39%"> <div align="center"><font face="Times New Roman, Times, serif" size="2">0.00 
+                to 1.00</font></div></td>
+            <td width="30%"> <div align="center"><font face="Times New Roman, Times, serif" size="2">0.50</font></div></td>
+          </tr>
+          <tr> 
+            <td width="31%"> <div align="center"><font face="Times New Roman, Times, serif" size="2"><font face="Times New Roman, Times, serif"><font face="Times New Roman, Times, serif"><font size="2">&alpha; 
+                (%) </font></font></font></font></div></td>
+            <td width="39%"> <div align="center"><font face="Times New Roman, Times, serif" size="2">30 
+                to 60</font></div></td>
+            <td width="30%"> <div align="center"><font face="Times New Roman, Times, serif" size="2">45</font></div></td>
+          </tr>
+        </table>
+      </CENTER>
+      <div align="center"><i></i></div></td>
+  </tr>
+  <tr> 
+    <td  valign="top" width="126">&nbsp;</td>
+    <td valign="top" bgcolor="#FFFFFF" colspan="4" height="52"><font face="Arial, Helvetica, sans-serif" size="2">Results 
+      of sensitivity analyses are often plotted as percent change in the overall 
+      variable of interest (here, factor of safety, <i>F</i>) against percent 
+      change in one of the input variables, <i>X</i>. These are calculated as 
+      follows:</font></td>
+  </tr>
+  <tr> 
+    <td  valign="top" width="126">&nbsp;</td>
+    <td valign="top" bgcolor="#FFFFFF" width="415" ><font face="Arial, Helvetica, sans-serif" size="2"><img src="images/5/5d_eq.gif" width="219" height="112"></font></td>
+    <td valign="top" bgcolor="#FFFFFF" colspan="3"  width="126"> <p><font face="Arial, Helvetica, sans-serif" size="2">(5D.1)</font></p>
+      <p>&nbsp;</p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">(5D.2)</font></p></td>
+  </tr>
+  <tr> 
+    <td  valign="top" width="126">&nbsp;</td>
+    <td valign="top" bgcolor="#FFFFFF"  width="415"> <p><font face="Arial, Helvetica, sans-serif" size="2">where</font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">&Delta;X = percentage 
+        change in parameter X<BR>
+        </font><font face="Arial, Helvetica, sans-serif" size="2">x<sub>i</sub> 
+        = value for parameter X<BR>
+        <img src="images/xbar.gif" width="13" height="20"> = median value for 
+        parameter X<br>
+        </font><font face="Arial, Helvetica, sans-serif" size="2">&Delta;F = corresponding 
+        percentage change in factor of safety<br>
+        </font><font face="Arial, Helvetica, sans-serif" size="2">F[x<sub>i</sub>] 
+        = factor of safety using x<sub>i</sub><br>
+        </font><font face="Arial, Helvetica, sans-serif" size="2">F[<img src="images/xbar.gif" width="13" height="20">] 
+        = factor of safety using <img src="images/xbar.gif" width="13" height="20"></font></p></td>
+    <td valign="top" bgcolor="#FFFFFF" colspan="3" height="39" width="126"><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+  </tr>
+  <tr> 
+    <td height="21" colspan="5"  valign="top"> <hr> </td>
+  </tr>
+  <tr> 
+    <td rowspan="2" valign="top"><font size="2" face="Arial, Helvetica, sans-serif"><b><b><font size="3"><a name="5D.3"></a></font></b><font size="3">5D.3 
+      Level I and II Sensitivity Sample Problems</font></b></font> <p align="left"><font face="Arial, Helvetica, sans-serif"></font></p>
+      <font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font></td>
+    <td colspan="4"><font face="Arial, Helvetica, sans-serif" size="2">Figure 
+      <a href="#Fig_5D.1">5D.1</a> illustrates the median conditions used in all 
+      of the sample problems in this section.</font></td>
+  </tr>
+  <tr> 
+    <td valign="top" colspan="4" bgcolor="#CCCC99"> <p align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a name="Fig_5D.1"></a><a href="images/5/5d_f01.gif" target="_blank"><img src="images/5/5d_f01.gif" width="400" height="301" border="1"></a></font></p>
+      <p align="center"><font face="Arial, Helvetica, sans-serif" size="2"><i>Figure 
+        5D.1. - Median conditions used in the sensitivity analyses.</i></font></p></td>
+  </tr>
+  <tr> 
+    <td  colspan="4" valign="top" bgcolor="ivory"> <hr> <font face="Arial, Helvetica, sans-serif" size="2"><b>Problem 
+      1.</b></font> <p><font size="2" face="Arial, Helvetica, sans-serif">Make 
+        a sensitivity analysis of the natural slope conditions of map unit 45 
+        using DLISA. In DLISA, the user may specify a range of values for one 
+        variable and solve for another as a function of the first while holding 
+        all the others constant. This option is available for factor of safety 
+        as a function of all of the variables and for certain other combinations, 
+        such as soil friction angle as a function of soil cohesion or soil depth 
+        as a function of ground water height. This is a powerful feature for back-calculation 
+        analysis as well as for sensitivity analysis.</font></p></td>
+  </tr>
+  <tr> 
+    <td valign="top" colspan="4" bgcolor="#CCCC99" height="258"> <div align="center"> 
+        <p>&nbsp;</p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><a href="images/5/5d_p636a.gif" target="_blank"><img src="images/5/5d_p636a.gif" width="371" height="185" border="1"></a></font></p>
+      </div></td>
+  </tr>
+  <tr> 
+    <td valign="top" colspan="4" bgcolor="#CCCC99" height="266"> <div align="center"> 
+        <p><font size="2" face="Arial, Helvetica, sans-serif">Plot of the sensitivity 
+          analysis using results from DLISA:</font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><a href="images/5/5d_p636b.gif" target="_blank"><img src="images/5/5d_p636b.gif" width="324" height="209" border="1"></a></font></p>
+        <table width="78%" border="0" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF">
+          <tr> 
+            <td width="52%"><font face="Arial, Helvetica, sans-serif" size="2">DLISA 
+              Analysis of the Median Conditions </font></td>
+            <td width="48%"> <font face="Arial, Helvetica, sans-serif" size="2">Sample 
+              Output: <i>F</i> as a function of <i>C<sub>s</sub></i></font></td>
+          </tr>
+        </table>
+      </div></td>
+  </tr>
+  <tr> 
+    <td height="100" colspan="4" valign="top" bgcolor="ivory"> <div align="left"><font size="2" face="Arial, Helvetica, sans-serif">Note 
+        that in defining the sensitivity of the analysis to changes in soil depth, 
+        <i>d</i>, it is important to define whether the analysis is being made 
+        with constant <i>d<sub>w</sub></i> or constant <i>d<sub>w</sub>/d</i> 
+        ratio. The sensitivity of the analysis to the soil dry density, &gamma;<sub>d</sub>, 
+        to moisture content, <i>w</i>, or to surcharge, <i>q<sub>o</sub></i>, 
+        was insignificant and not plotted. In contrast, in sample problems 2 through 
+        5, it is shown that the level II analyses are sensitive to the anticipated 
+        changes in &gamma;<sub><i>d</i></sub> and <i>w</i>. Surcharge, <i>q<sub>o</sub></i>, 
+        is not considered in the level II analyses (<i>q<sub>o</sub></i> = 0).</font></div></td>
+  </tr>
+  <tr> 
+    <td height="151" colspan="4" valign="top" bgcolor="ivory"> <hr> <font face="Arial, Helvetica, sans-serif" size="2"><b>Problem 
+      2.</b></font> <p><font size="2" face="Arial, Helvetica, sans-serif">Make 
+        a sensitivity analysis of the natural slope conditions of map unit 45 
+        using DSARA. Because DSARA does a level I (natural slope) analysis of 
+        the natural slope conditions prior to a level II analysis of the constructed 
+        slope(s), it can also be used for a sensitivity analysis for level I. 
+        It is not as convenient for this as DLISA is, however, since it does not 
+        allow the incremental analysis. Also, DSARA does not consider surcharge 
+        (<i>q<sub>o</sub></i>).</font></p></td>
+  </tr>
+  <tr> 
+    <td valign="top" colspan="4" bgcolor="#CCCC99" height="297"> <p align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a href="images/5/5d_p637a.gif" target="_blank"><img src="images/5/5d_p637a.gif" width="466" height="290" border="1"></a></font></p></td>
+  </tr>
+  <tr> 
+    <td colspan="4" bgcolor="ivory"><font size="2" face="Arial, Helvetica, sans-serif">For 
+      map unit 45 conditions, comparison of the analyses with the median conditions 
+      using DLISA and DSARA shows little difference--<i>F</i> = 1.14 with <i>q<sub>o</sub></i> 
+      = 40 psf and <i>F</i> = 1.13 without <i>q<sub>o</sub></i>.</font> </td>
+  </tr>
+  <tr bgcolor="ivory"> 
+    <td colspan="4"> <hr> <font face="Arial, Helvetica, sans-serif" size="2"><b>Problem 
+      3.</b></font> <p><font face="Arial, Helvetica, sans-serif" size="2">Make 
+        a sensitivity analysis for a self-balance road template superimposed on 
+        map unit 45 site conditions using conditions shown in figure 5D.1, cut 
+        slopes ranging from 0.50:1 to 1.25:1, and fill slopes ranging from 1.00:1 
+        to 1.50:1.</font></p></td>
+  </tr>
+  <tr> 
+    <td colspan="4" bgcolor="#CCCC99" height="387"> <p align="center"><font size="2" face="Arial, Helvetica, sans-serif"><i>Level 
+        II sensitivity analysis, map unit 45, self-balance template</i></font></p>
+      <p align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a href="images/5/5d_p638a.gif" target="_blank"><img src="images/5/5d_p638a.gif" width="350" height="356" border="1"></a></font></p>
+      <p align="center"><font face="Arial, Helvetica, sans-serif" size="2">The 
+        plot is shown in figure 5D.2.</font></p></td>
+  </tr>
+  <tr> 
+    <td colspan="4" bgcolor="#CCCC99" > <div align="center"> 
+        <table width="80%" border="0" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF">
+          <tr> 
+            <td><font face="Arial, Helvetica, sans-serif" size="2">Self-balance 
+              Section, Cut Slope</font></td>
+            <td> <div align="right"><font face="Arial, Helvetica, sans-serif" size="2">Self-Balance 
+                Section , Fill Slope</font></div></td>
+          </tr>
+        </table>
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><a href="images/5/top.jpg" target="_blank"><img src="images/5/top.jpg" width="453" height="159" border="1"></a></font></p>
+      </div></td>
+  </tr>
+  <tr> 
+    <td><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font> 
+    </td>
+    <td colspan="4" bgcolor="#CCCC99"> <div align="center"> 
+        <table width="84%" border="0" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF">
+          <tr> 
+            <td><font face="Arial, Helvetica, sans-serif" size="2">Full-Bench 
+              Section</font></td>
+            <td> <div align="right"><font face="Arial, Helvetica, sans-serif" size="2">Through-Fill 
+                Section </font></div></td>
+          </tr>
+        </table>
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><a name="5D.2"></a><a href="images/5/5d_f02b.gif" target="_blank"><img src="images/5/5d_f02b.gif" width="400" height="139" border="1"></a></font></p>
+      </div>
+      <font size="2" face="Arial, Helvetica, sans-serif"><i>Figure 5D.2.-Level 
+      II sensitivity analysis of map unit 45 using DSARA from problems 2, 3, 4, 
+      and 5.</i></font> </td>
+  </tr>
+  <tr bgcolor="ivory"> 
+    <td colspan="4"> <hr> <font face="Arial, Helvetica, sans-serif" size="2"><b>Problem 
+      4. </b></font> <p><font face="Arial, Helvetica, sans-serif" size="2">Make 
+        a sensitivity analysis for a full-bench cut superimposed on the natural 
+        site conditions of map unit 45 using the conditions shown on figure 5D.1 
+        and cut slopes ranging from 0.50:1 to 1.25:1. </font></p></td>
+  </tr>
+  <tr> 
+    <td colspan="4" bgcolor="#CCCC99" height="422"> <div align="center"> 
+        <p><font size="2" face="Arial, Helvetica, sans-serif"><i>Level II sensitivity 
+          analysis, map unit 45, full-bench cut template</i></font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><a href="images/5/5d_p640a.gif" target="_blank"><img src="images/5/5d_p640a.gif" width="361" height="333" border="1"></a></font></p>
+      </div></td>
+  </tr>
+  <tr bgcolor="ivory"> 
+    <td colspan="4"><font face="Arial, Helvetica, sans-serif" size="2">The sensitivity 
+      plot is given in figure <a href="#5D.2">5D.2</a>.</font> </td>
+  </tr>
+  <tr bgcolor="ivory"> 
+    <td colspan="4" > <hr> <font size="2" face="Arial, Helvetica, sans-serif"><b>Problem 
+      5. </b></font> <p><font size="2" face="Arial, Helvetica, sans-serif">Make 
+        a sensitivity analysis for a through-fill road section superimposed on 
+        the natural slope conditions of map unit 45 using the conditions shown 
+        on figure <a href="#Fig_5D.1">5D.1</a> and fill slopes ranging from 1.00:1 
+        to 1.50:1. </font></p></td>
+  </tr>
+  <tr> 
+    <td colspan="4" bgcolor="#CCCC99" height="201"> <div align="center"> 
+        <p><font size="2" face="Arial, Helvetica, sans-serif"><i>Level II sensitivity 
+          analysis, map unit 45, through-fill template</i></font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><a href="images/5/5d_p641a.gif" target="_blank"><img src="images/5/5d_p641a.gif" width="296" height="268" border="1"></a></font></p>
+      </div></td>
+  </tr>
+  <tr bgcolor="ivory"> 
+    <td colspan="4"><font face="Arial, Helvetica, sans-serif" size="2">The plot 
+      of the sensitivity analysis is given in the figure <a href="#5D.2">5D.2</a>. 
+      </font></td>
+  </tr>
+  <tr> 
+    <td height="71" valign="top"><font size="2" face="Arial, Helvetica, sans-serif"><b><b><font size="3"><a name="5D.4"></a></font></b><font size="3">5D.4 
+      Comparison of Levels I and II Sensitivity Analysis Results</font></b></font><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font> 
+      <font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font> 
+    </td>
+    <td valign="top" colspan="4" height="71"> <div align="left"><font face="Arial, Helvetica, sans-serif" size="2">Comparison 
+        of the level I sensitivity analysis results of problem 1 to the level 
+        II results in figure <a href="#5D.2">5D.2</a> shows some interesting features. 
+        It is clear that some of the variables (such as &phi;,<i> C</i>, and &alpha;) 
+        affect each of the slopes in somewhat the same manner but with differences 
+        in degree. Other variables (such as <i>d</i> and <i>d<sub>w</sub></i>) 
+        affect each of the slopes in drastically different ways. Variables which 
+        affect the weight (such as soil dry unit weight, &gamma;<sub>d</sub>, 
+        soil moisture, <i>w</i>, and tree surcharge, <i>q<sub>o</sub></i>) may 
+        have some effect on the stability analysis, but can largely be ignored 
+        in the range that they normally occur. Some important, perhaps obvious, 
+        conclusions should be stated:</font></div>
+      <ul>
+        <li> <font size="2" face="Arial, Helvetica, sans-serif">Each set of natural 
+          slope conditions is unique in the way it is likely to affect stability 
+          conditions of not only the natural slopes, but of constructed slopes 
+          superimposed on them. (Sensitivity plots are likely to differ depending 
+          on the site conditions.)</font></li>
+        <li><font face="Arial, Helvetica, sans-serif" size="2">It is quite likely 
+          that a constructed slope can be more sensitive to changes in natural 
+          conditions than is the natural slope on which it is superimposed, and 
+          the constructed slope may become unstable first.</font></li>
+        <li><font face="Arial, Helvetica, sans-serif" size="2">Not all constructed 
+          slopes react the same way to changes in the natural slope conditions.</font></li>
+        <li><font face="Arial, Helvetica, sans-serif" size="2">A cut or fill slope 
+          in a self-balance section is less sensitive to natural slope changes 
+          than a cut or fill constructed to the same ratio in a full-bench or 
+          through-fill section, respectively, due to the reduced cut of fill height 
+          required for a given width of road.</font></li>
+        <li><font face="Arial, Helvetica, sans-serif" size="2">For a given width 
+          of road, the stability of a cut or fill slope is relatively insensitive 
+          to slope ratio within a reasonable range because as the slope steepens, 
+          the corresponding required slope height decreases, which helps balance 
+          the stability. This is especially true for the self-balance section. 
+          This would not be true if unreasonably steep (such as vertical) constructed 
+          slopes were used. Such other considerations as ease in revegetation, 
+          roadway obstruction and safety must also be considered in selection 
+          of slope ratio.</font></li>
+        <li><font face="Arial, Helvetica, sans-serif" size="2">Strength parameters 
+          are frequently easier variables for the experienced practitioner to 
+          evaluate for stability analyses than are subsurface variables such as 
+          soil depth and ground water depth. </font> </li>
+      </ul>
+      <p><font size="2" face="Arial, Helvetica, sans-serif">Some of these observations 
+        will be pursued in greater depth in the next section, which will use the 
+        same map unit 45 conditions in a comparison of the probabilistic characteristics 
+        of level I and level II analyses.</font></p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif">[Editor's note: At 
+        press time, the probabilistic level II program was not completed, so a 
+        comparison is not yet available.]</font></p></td>
+  </tr>
+</table>
+<p><!-- ======= FOOTER GRAPHIC =================================================== --></p>
+<p> 
+  <!-- ========================================================================= -->
+  <img src="images/navbar.gif" width="703" height="36" align="BOTTOM"
+   usemap="#b_pagingButtons.map" border="0" alt="Slope Stability Reference Guide for National Forests in the United States"> 
+  <br>
+  <!-- =======IMAGE MAP INFORMATION============================================== -->
+  <map name="b_pagingButtons.map"> 
+    <!--HOME-->    <area shape="RECT" coords="0,0 605,26" href="index.html" alt="SSG home">
+    <!--PREV-->    <area shape="rect" coords="609,0,630,26" href="ssg_5c.html" alt="Section 5C">
+    <!--NEXT-->    <area shape="rect" coords="633,-1,652,26" href="ssg_5e.html" alt="Section 5E">
+  </map>
+  <!-- ========================================================================= -->
+  <br>
+   <font face="Arial, Helvetica, sans-serif" size="1">USDA Forest Service<br>
+    <b>Slope Stability Reference Guide for National Forests in the United States, 1994.</b>
+    <br>
+    <a href="http://forest.moscowfsl.wsu.edu/ssg/">http://forest.moscowfsl.wsu.edu/ssg/</a> 
+    <br>Last Revised: 
+    <script language="javascript" type="text/javascript">
+     <!-- hide
+      document.write(document.lastModified)
+     // end hide -->
+    </script>
+   </font>
+  </p>
+ </body>
+</html>

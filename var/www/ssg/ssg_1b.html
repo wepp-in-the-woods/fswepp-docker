@@ -1,0 +1,410 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+ <head>
+  <title>SSG: Section 1B -- Introduction to the Three-Level Stability Analysis Concept</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <!--
+    Hall, D.E.; Long, M.T.; Remboldt, M.D., editors. 1994.
+    Slope Stability Reference Guide for National Forests in the United States.
+    Prellwitz, R.W.; Koler, T.E.; Steward, J.E., coordinators.
+    Publication EM-7170-13.
+    Washington, DC: U.S. Department of Agriculture, U.S. Forest Service, Engineering Staff. 
+    3 volumes, 1091 p.
+    Corrected [2006] electronic version at http://forest.moscowfsl.wsu.edu/ssg/
+  -->
+  <!--
+  source code consistency and formatting -- DEH 02/15/2002
+  title check -- DEH 02/15/2002
+  header / navigation -- DEH 02/15/2002
+  footer -- DEH 02/15/2002
+  spell check -- DEH 02/17/2002
+  compare to original -- DEH 02/17/2002
+  corrections from errata incorporated --
+  weblint check --
+  -->
+  <style type="text/css">
+  <!--
+A{color:#0000CC; font-family:Verdana, Arial, Helvetica, sans-serif;} A:hover{color:#ff00cc;} A:visited{color:#660099;} A:visited:hover{color:#ff00cc;} 
+p, ul, ol, blockquote {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11pt}
+P.indent {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11pt; margin-left: 20px}
+.active {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11pt; color:#666666;}
+.fig {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9pt;}
+.shead {  font-family: trebuchet MS, verdana, arial, helvetica, sans-serif; font-size: 12pt; font-weight: bold}
+.head {  font-family: trebuchet MS, verdana, arial, helvetica, sans-serif; font-size: 20pt; font-weight: bold}
+.headssg {  font-family: trebuchet MS, verdana, arial, helvetica, sans-serif; font-size: 14pt; font-weight: bold}
+.symb {  font-family: symbol; font-size: 11pt; font-weight: bold;}
+BR.pageEnd {page-break-after:always;}
+.text {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11pt; text-indent: 40px;}
+.smtext { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt}
+.vari {  font-family: "Times New Roman", Times, serif; font-size: 11pt; font-style: italic; font-weight: bold}
+.figSymb { font-family: symbol; font-size: 9pt; font-style: italic }
+.figVari {  font-family: "Times New Roman", Times, serif; font-size: 9pt; font-style: italic; font-weight: bold}
+.eq_label { font-family: verdana, Helvetica, sans-serif; font-size: 11pt; text-align: right;}
+.underline {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11pt; text-decoration: underline}
+-->
+  </style>
+  <script language="javascript" type="text/javascript">
+  <!--
+   function workWindow(theURL,winName,features) {
+    window.open(theURL,winName,features);
+   }
+  //-->
+  </script>
+ </head>
+ <body bgcolor="#FFFFFF" link="#3333FF" vlink="#990099">
+
+<!-- BEGIN TOP NAVIGATION -->
+  <table width="608" border="1" cellspacing="0" cellpadding="10" bgcolor="#CCCC99">
+   <tr>
+    <td> 
+     <p align="center">
+      <font face="Arial, Helvetica, sans-serif" size="2">
+       [ <a href="index.html">Slope Stability Reference Guide Home</A> ]&nbsp;<BR> 
+       [ <a href="ssg_1toc.html">Section 1 TOC</a> ]<br>
+       [&nbsp;&lt;&nbsp;<a href="ssg_1a.html">Section 1A</a>&nbsp;]
+       [ <a href="ssg_1ref.html">Section 1 references</a>&nbsp;&gt;&nbsp;]
+      </font>
+     </p>
+    </td>
+   </tr>
+  </table>
+<!-- END TOP NAVIGATION -->
+
+  
+<table width="609" border="0" cellspacing="2" cellpadding="2">
+  <tr> 
+    <td colspan="5" align="center" valign="top"> <font face="Arial, Helvetica, sans-serif"> 
+      <font size="3"><b>Slope Stability Reference Guide for<br>
+      National Forests in the United States<br>
+      --<br>
+      Introduction and suggestions for use</b></font> </font> <hr> </td>
+  </tr>
+  <tr> 
+    <td width="102" valign="top" align="right"> <font face="Arial, Helvetica, sans-serif" size="4"> 
+      1B. </font> </td>
+    <td valign="top" colspan="4" width="469"> <font face="Arial, Helvetica, sans-serif" size="4"> 
+      Introduction to the Three-Level Stability Analysis Concept </font> </td>
+  </tr>
+  <tr> 
+    <td colspan="5"> <hr> </td>
+  </tr>
+  <tr> 
+    <td valign="top" colspan="5" align="right"> <p align="center"> <font face="Arial, Helvetica, sans-serif" size="2"> 
+        <i><b>Rodney W. Prellwitz,</b> Research Geotechnical Engineer, Intermountain 
+        Research Station <br>
+        <b>Thomas E. Koler,</b> Research Engineering Geologist, Intermountain 
+        Research Station </i> </font> </p></td>
+  </tr>
+  <tr> 
+    <td colspan="5"> <hr> </td>
+  </tr>
+  <tr> 
+    <td class="shead" valign="top" width="102"> <font face="Arial, Helvetica, sans-serif" size="3"> 
+      <a name="1B.1"></a> 1B.1 Role of Analysis in the Decision - Making Process 
+      </font> </td>
+    <td valign="top" colspan="4" width="469"> <p> <font face="Arial, Helvetica, sans-serif" size="2"> 
+        Slope stability specialists must be able to predict how land management 
+        activities -- such as logging operations and road construction -- will 
+        impact land stability. This assessment is useful to the land manager, 
+        usually a district ranger, in evaluating the level of the potential watershed 
+        impacts among various alternatives. The land manager usually has no professional 
+        background in evaluating slope stability and therefore must rely on the 
+        knowledge, skills, and abilities of the district earth scientists and 
+        engineers or specialists from a zone office or forest headquarters. This 
+        predictive capability is the fundamental principle of the three-level 
+        stability analysis concept. By using this method the specialist will be 
+        successful in assisting the decision maker. </font> </p>
+      <p> <font face="Arial, Helvetica, sans-serif" size="2"> Determining which 
+        technique to use can be confusing for the specialist who does not routinely 
+        perform slope stability analyses. Effective communication between the 
+        specialist and the person requesting the analysis can minimize this confusion. 
+        With effective communication there is an understanding of the basic reasons 
+        for the work. Effective communication also leads to a slope stability 
+        analysis matched to the level and complexity of the problem and avoids 
+        analysis simply for its own sake. The common result of ineffective communication 
+        and inappropriate analysis is that the requester will not ask for this 
+        service in the future. </font> </p>
+      <p> <font size="2" face="Arial, Helvetica, sans-serif"> It is important 
+        for the specialist to understand that the data gathered will be used to 
+        define slope conditions. Moreover, he or she should know that the analysis 
+        is being made to model the current land stability conditions and potential 
+        impacts as a result of excavation, logging, construction, damming, or 
+        other management activities. Also, the engineer or scientist should know 
+        how the results fit into a rational decision-making framework. Considering 
+        the wide range of land management decisions requiring a supporting slope 
+        stability evaluation, it is important that the prudent specialist adapt 
+        the investigation and analysis to the decision being made. </font> </p></td>
+  </tr>
+  <tr> 
+    <td colspan="5" valign="top" class="shead"><hr></td>
+  </tr>
+  <tr> 
+    <td class="shead" valign="top" width="102"> <font face="Arial, Helvetica, sans-serif" size="3"> 
+      <a name="1B.2"></a> 1B.2 Land Management Decisions Requiring Stability Input 
+      </font> </td>
+    <td valign="top" colspan="4" width="469"> <p> <font face="Arial, Helvetica, sans-serif" size="2"> 
+        Many forested lands in the western United States have the potential to 
+        be unstable because of geologic and hydrologic conditions and material 
+        strength properties. The National Environmental Policy Act (NEPA) of 1969 
+        and the National Forest Management Act (NFMA) of 1976 require that the 
+        management of these lands includes stability assessment at all planning 
+        levels: resource allocation (forest plan, 10-year scheduling, and timber 
+        sale planning), project planning (timber sale environmental assessment 
+        and transportation planning), and project development and monitoring (site 
+        stabilization and implementation of the preferred alternative). This requirement 
+        has led to the development of the three-level stability analysis concept 
+        (Prellwitz et al., 1983; Prellwitz, 1985). Figure 1B.1 is a flowchart 
+        of this analysis system. </font> </p></td>
+  </tr>
+  <tr> 
+    <td width="102">&nbsp;</td>
+    <td valign="top" colspan="4" bgcolor="#CCCC99" width="469"> <p align="center"> 
+        <img src="images/1/1b_f01.jpg" width="367" height="289"> </p>
+      <p align="center"> <font size="2"> <i> Figure 1B.1.--Slope stability flowchart 
+        with the portion which section 1 pertains to highlighted. </i> </font> 
+      </p></td>
+  </tr>
+  <tr> 
+    <td width="102">&nbsp;</td>
+    <td valign="top" colspan="4" width="469"> <p> <font face="Arial, Helvetica, sans-serif" size="2"> 
+        The three levels are progressive in scale, detail, complexity, and accuracy. 
+        This progression focuses attention on specific problems in a logical order. 
+        It also allows the analyzer to draw from the previous analysis and data 
+        bases as new data are developed to support the higher analysis levels. 
+        At levels I and II, the analysis techniques have a probabilistic version 
+        to allow for the determination of parametric values over the areal extent 
+        of the analysis. Also, the probabilistic output lends itself well to the 
+        decision making process. A comparison of the combination of slope failure 
+        probability with the relative failure consequences eases this process, 
+        allowing the manager to base the decision on acceptable risk levels. The 
+        deterministic version of the analysis is still necessary to facilitate 
+        sensitivity analysis, parametric value evaluation, and back-analysis. 
+        </font> </p>
+      <p> <font size="2" face="Arial, Helvetica, sans-serif"> The following levels 
+        ensure that suitable investigation and analysis techniques are available 
+        for the qualified specialist to provide timely and efficient input to 
+        support decisions: </font> </p></td>
+  </tr>
+  <tr> 
+    <td colspan="5" valign="top"><hr></td>
+  </tr>
+  <tr> 
+    <td width="102" valign="top"> <a name="1B.2.1"></a><font face="Arial, Helvetica, sans-serif" size="2"><b>1B.2.1 
+      Level I: Resource Allocation </b> </font> </td>
+    <td valign="top" colspan="4" width="469"> <p> <font face="Arial, Helvetica, sans-serif" size="2"> 
+        The types of decisions at this level are made from data gathered at a 
+        watershed scale (usually 1:24,000 or greater), and the evaluation of the 
+        relative stability assesses hazards involved in the proposed activity. 
+        At this level the decision maker determines the resource allocations and 
+        where to develop them. The stability assessment usually uses available 
+        inventory data in the simplified stability analysis techniques. In most 
+        cases, these data are from a geographic information system (GIS), a geologic 
+        resource and conditions data base, or both. Because the stability of the 
+        entire land mass is being considered, the analysis techniques must model 
+        the failure mode of natural slopes. These failures may be either planar 
+        (translational) or circular (rotational) in shape, and the analysis must 
+        be able to model both modes. The stability of constructed slopes usually 
+        is not evaluated at this level. </font> </p></td>
+  </tr>
+  <tr> 
+    <td colspan="5" valign="top"><hr></td>
+  </tr>
+  <tr> 
+    <td width="102" valign="top"> <a name="1B.2.2"></a><font size="2" face="Arial, Helvetica, sans-serif"><b>1B.2.2 
+      Level II: Project Planning </b> </font> </td>
+    <td valign="top" colspan="4" width="469"> <p> <font face="Arial, Helvetica, sans-serif" size="2"> 
+        The next major level of decision making requiring slope stability input 
+        occurs in the project planning phase (e.g., timber sale environmental 
+        assessment, transportation planning, and road closure planning). Timber 
+        harvest decisions on tree removal and the impacts on the stability of 
+        natural slopes include the modeling of tree removal effects. The two important 
+        factors in this analysis are root strength and ground water. The stability 
+        of constructed slopes often is more significant than is that of natural 
+        slopes at the project level; however, a simplistic analysis that estimates 
+        the relative stability of the road slope is adequate at this level. Critical 
+        locations identified at this level will be considered for level III analysis. 
+        A primary difference between the level II and level III analyses is that 
+        the latter must allow the analyzer to evaluate many unique site conditions 
+        and stabilization measures. The data base used in the level II analysis 
+        must be more accurate than that used in level I. Project reconnaissance 
+        includes field-developed cross-sections measured at locations critical 
+        for this level. Measurements of the field-developed cross-sections are 
+        usually at a 1:600 to 1:3,600 scale; therefore, the data collected will 
+        be more accurate than that collected for level I, but less accurate than 
+        that collected for level III. </font> </p></td>
+  </tr>
+  <!-- <tr> 
+  <td width="100">&nbsp;</td>
+   <td valign="top" colspan="4">
+    <hr>
+   </td>
+ </tr> -->
+  <tr> 
+    <td colspan="5" valign="top"><hr></td>
+  </tr>
+  <tr> 
+    <td width="102" valign="top"> <a name="1B.2.3"></a> <font size="2" face="Arial, Helvetica, sans-serif"> 
+      <b> 1B.2.3 Level III: Site Stabilization </b> </font> </td>
+    <td valign="top" colspan="4" width="469"> <p> <font size="2" face="Arial, Helvetica, sans-serif"> 
+        Critical sites recognized during the level II analysis may require a level 
+        III analysis if the site cannot be avoided. For example, to gain access 
+        to a landing, the district transportation planner lays a proposed road 
+        corridor across an inactive landslide. For economic or ecological reasons 
+        the district ranger chooses this route. The level II analysis predicts 
+        slope stability problems will occur. The next step, then, is to complete 
+        a level III analysis to evaluate various stabilization methods -- such 
+        as buttresses, drainage, retaining walls, or additional excavation -- 
+        for the site. All options -- including the do-nothing alternative -- are 
+        available for consideration so that the manager can have a perspective 
+        of the inherent cost and resource risk of each. The report from this analysis 
+        allows the decision maker to compare possible stabilization alternatives 
+        and to make a decision based upon relative cost and resource risk. </font> 
+      </p>
+      <p> <font size="2" face="Arial, Helvetica, sans-serif">Section 6 of this 
+        guide includes a detailed description of these analyses. Measurements 
+        for site stabilization investigations are usually at a 1:120 to 1:600 
+        scale. These measurements and subsequent analysis techniques are more 
+        complex than those for levels I and II. This increase in data resolution 
+        is necessary to determine existing conditions and to evaluate all possible 
+        stabilization alternatives. </font> </p></td>
+  </tr>
+  <tr> 
+    <td colspan="5" valign="top"><hr></td>
+  </tr>
+  <tr> 
+    <td width="102" valign="top"> <font size="3" face="Arial, Helvetica, sans-serif"> 
+      <a name="1B.3"></a> <b>1B.3 Stability Analysis Applicable at the Three Levels</b> 
+      </font> </td>
+    <td valign="top" colspan="4" width="469"> <p> <font face="Arial, Helvetica, sans-serif" size="2"> 
+        There is a danger in fixing a certain analysis method to a certain decision 
+        level because there is some overlap in applicability. Consideration of 
+        the type of slope (natural or constructed) and the failure mode (translational 
+        or rotational) is always important. In a level I decision, stability of 
+        large land masses is of primary concern, whereas in level III decisions, 
+        stability of specific critical slopes (usually constructed) is the primary 
+        focus. In level II the decisions are somewhere between these two levels. 
+        The following analysis techniques are the most applicable: </font> </p></td>
+  </tr>
+  <tr> 
+    <td colspan="5" valign="top"><hr></td>
+  </tr>
+  <tr> 
+    <td width="102" valign="top"> <a name="1B.3.1"></a> <font face="Arial, Helvetica, sans-serif" size="2"> 
+      <b>1B.3.1 Level I: Infinite Slope Equation</b> </font> </td>
+    <td valign="top" colspan="4" width="469"> <p> <font size="2" face="Arial, Helvetica, sans-serif"> 
+        An explanation of this simple and versatile equation is presented in section 
+        5 of this guide. Although simple, it still does an adequate job of allowing 
+        one to model all of the important factors in analyzing the potential translational 
+        failures of natural slopes. In addition, the analysis is applicable to 
+        rotational characteristics (Prellwitz, 1975; Ristau, 1988). Together with 
+        a Monte Carlo simulation technique, this equation is a powerful tool for 
+        incorporating spatial variability of input parametric values and the uncertainty 
+        of the analyzer in determining what those values are (Hammond et al., 
+        1992). </font> </p></td>
+  </tr>
+  <tr> 
+    <td colspan="5" valign="top"><hr></td>
+  </tr>
+  <tr> 
+    <td width="102" valign="top"> <a name="1B.3.2"></a> <font size="2" face="Arial, Helvetica, sans-serif"> 
+      <b> 1B.3.2 Level II: Stability Number Solutions </b> </font> </td>
+    <td valign="top" colspan="4" width="469"> <p> <font size="2" face="Arial, Helvetica, sans-serif"> 
+        The infinite slope equation is still applicable to evaluate the impacts 
+        of timber harvest on the stability of natural slopes. The analyzer can 
+        anticipate changes in two important factors in his or her modeling that 
+        might result from the removal of trees: root strength and ground water 
+        in response to precipitation changes. To evaluate the relative stability 
+        of proposed constructed road cut and fill slopes on the natural slopes, 
+        two stability number solutions are available: </font> </p>
+      <p> <font face="Arial, Helvetica, sans-serif" size="2"> <b>Critical Height 
+        Analysis</b> </font> </p>
+      <p> <font face="Arial, Helvetica, sans-serif" size="2"> A critical height 
+        analysis predicts the maximum (critical) height for a stable constructed 
+        slope. A computer program using correction factors for subsurface conditions 
+        with Chen and Giger's method (1971) is currently under development. </font> 
+      </p>
+      <p> <font size="2" face="Arial, Helvetica, sans-serif"> <b>Estimated Factor 
+        of Safety</b> </font> </p>
+      <p> <font size="2" face="Arial, Helvetica, sans-serif"> This type of analysis 
+        predicts the factor of safety against failure that one might expect from 
+        a level III analysis of a simple constructed slope. This type of analysis 
+        lends itself well to a probabilistic approach using a Monte Carlo simulation 
+        similar to the one used for the infinite slope equation. This analysis 
+        method may be applicable to supporting level I decisions when the potential 
+        of road-related failures is a primary concern. A computer program using 
+        subsurface correction factors coupled with the Cousins method (Cousins, 
+        1978) is in development. </font> </p></td>
+  </tr>
+  <tr> 
+    <td colspan="5" valign="top"><hr></td>
+  </tr>
+  <tr> 
+    <td width="102" valign="top"> <a name="1B.3.3"></a> <font face="Arial, Helvetica, sans-serif" size="2"> 
+      <b>1B.3.3 Level III: Method of Slices<b> </b></b></font> </td>
+    <td valign="top" colspan="4" width="469"> <p> <font size="2" face="Arial, Helvetica, sans-serif"> 
+        At this level of decision making, the specialist must be able to model 
+        many unique critical site conditions and stabilization measure characteristics. 
+        This requires a more complex analysis technique than those used in levels 
+        I and II. The most common technique is to divide the potential failure 
+        mass into a series of slices and model the individual slice forces -- 
+        first individually and then collectively -- in a summation process to 
+        arrive at a prediction of the overall potential for failure. Several "method-of-slices" 
+        solution techniques are available, all having a common soil mechanics 
+        base but differing in the manner in which they are satisfied, the more 
+        complex and more difficult the analysis becomes. The computer program 
+        XSTABL (XSTABL Ver. 4.1, 1992) developed by Sharma for Level III analysis 
+        uses the simplified Bishop method for rotational failures and the simplified 
+        Janbu method for failures of any general shape. These methods are sufficiently 
+        accurate for most forest road applications. Sharma (1992) gives a comparison 
+        of these methods to other methods of slices. </font> </td>
+  </tr>
+</table>
+<!-- ======= FOOTER GRAPHIC =================================================== -->
+<p><IMG SRC="images/navbar.gif" WIDTH="703" HEIGHT="36" ALIGN="BOTTOM"
+   USEMAP="#b_pagingButtons.map" BORDER="0" ALT="Slope Stability Reference Guide for National Forests in the United States"> 
+  <!-- ========================================================================= -->
+  <br>
+  <!-- =======IMAGE MAP INFORMATION============================================== -->
+  <MAP Name="b_pagingButtons.map">
+    <!--HOME-->    <AREA SHAPE="RECT" COORDS="0,0 605,26" HREF="index.html" alt="SSG home">
+    <!--PREV-->    <AREA SHAPE="RECT" COORDS="608,0,629,26" HREF="ssg_1a.html" alt="Section 1A">
+    <!--NEXT-->    <AREA SHAPE="RECT" COORDS="632,0 652,26" HREF="ssg_1ref.html" alt="Section 1 references">
+  </map>
+  <!-- ========================================================================= -->
+  <!--
+<table width="660" border="0" cellspacing="0" cellpadding="8" bgcolor="#CCCC99">
+ <tr>
+  <td colspan=2>
+      <p><font face="Arial, Helvetica, sans-serif"><font size=1>
+    Hall, D.E.; Long, M.T.; Remboldt, M.D., editors. 1994.
+    <b>Slope 
+    Stability Reference Guide for National Forests in the United States.</b> Prellwitz, 
+    R.W.; Koler, T.E.; Steward, J.E., coordinators. Publication EM-7170-13. Washington, 
+    DC: U.S. Department of Agriculture, U.S. Forest Service, Engineering Staff. 
+    3 volumes, 1091 p.&nbsp;&nbsp;
+    Corrected [March 2002] electronic version at 
+    <a href="http://forest.moscowfsl.wsu.edu/ssg/">http://forest.moscowfsl.wsu.edu/ssg/</a>
+  </td>
+ </tr>
+ <tr>
+  <td align="left"><a href="">&lt;</a></td>
+  <td align="right"><a href="">&gt;</a></td>
+ </tr>
+</table>
+-->
+  <br>
+   <font face="Arial, Helvetica, sans-serif" size="1">USDA Forest Service<br>
+    <b>Slope Stability Reference Guide for National Forests in the United States, 1994.</b>
+    <br>
+    <a href="http://forest.moscowfsl.wsu.edu/ssg/">http://forest.moscowfsl.wsu.edu/ssg/</a> 
+    <br>Last Revised: 
+    <script language="javascript" type="text/javascript">
+     <!-- hide
+      document.write(document.lastModified)
+     // end hide -->
+    </script>
+   </font>
+  </p>
+ </body>
+</html>

@@ -1,0 +1,1130 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+ <head>
+  <title>SSG Section 5B: Soil Slopes - Level I Analysis - Natural Slopes</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <!--
+    Hall, D.E.; Long, M.T.; Remboldt, M.D., editors. 1994.
+    Slope Stability Reference Guide for National Forests in the United States.
+    Prellwitz, R.W.; Koler, T.E.; Steward, J.E., coordinators.
+    Publication EM-7170-13.
+    Washington, DC: U.S. Department of Agriculture, U.S. Forest Service, Engineering Staff. 
+    3 volumes, 1091 p.
+    Corrected [2006] electronic version at http://forest.moscowfsl.wsu.edu/ssg/
+  -->
+  <style type="text/css">
+<!--
+A{color:#0000CC; font-family:Verdana, Arial, Helvetica, sans-serif;} A:hover{color:#ff00cc;} A:visited{color:#660099;} A:visited:hover{color:#ff00cc;} 
+p, ul, ol, blockquote {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11pt}
+P.indent {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11pt; margin-left: 20px}
+.active {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11pt; color:#666666;}
+.fig {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9pt;}
+.shead {  font-family: trebuchet MS, verdana, arial, helvetica, sans-serif; font-size: 12pt; font-weight: bold}
+.head {  font-family: trebuchet MS, verdana, arial, helvetica, sans-serif; font-size: 20pt; font-weight: bold}
+.headssg {  font-family: trebuchet MS, verdana, arial, helvetica, sans-serif; font-size: 14pt; font-weight: bold}
+.symb {  font-family: symbol; font-size: 11pt; font-weight: bold;}
+BR.pageEnd {page-break-after:always;}
+.text {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11pt; text-indent: 40px;}
+.smtext { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt}
+.vari {  font-family: "Times New Roman", Times, serif; font-size: 11pt; font-style: italic; font-weight: bold}
+.figSymb { font-family: symbol; font-size: 9pt; font-style: italic }
+.figVari {  font-family: "Times New Roman", Times, serif; font-size: 9pt; font-style: italic; font-weight: bold}
+.eq_label { font-family: verdana, Helvetica, sans-serif; font-size: 11pt; text-align: right;}
+.underline {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11pt; text-decoration: underline}
+   -->
+  </style>
+  <script language="javascript" type="text/javascript">
+  <!--
+  function workWindow(theURL,winName,features) {
+    window.open(theURL,winName,features);
+  }
+  //-->
+  </script>
+ </head>
+
+ <body bgcolor="#FFFFFF" link="#3333FF" vlink="#990099">
+
+  <!-- BEGIN TOP NAVIGATION -->
+  
+  <table width="635" border="1" cellspacing="0" cellpadding="8" bgcolor="#CCCC99">
+   <tr>
+    <td> 
+     <p align="center">
+      <font face="Arial, Helvetica, sans-serif" size="2">
+        [ <a href="index.html">Slope Stability Reference Guide Home</a> ]<br>
+        [ <a href="ssg_5toc.html">Section 5 TOC</a> ]<br>
+        [ &lt; <a href="ssg_5a.html">Section 5A </a> ]
+        [ <a href="ssg_5c.html">Section 5C </a> &gt; ]
+      </font>
+     </p>
+    </td>
+   </tr>
+  </table>
+<!-- END TOP NAVIGATION -->
+
+  
+<table width="635" border="0" cellspacing="2" cellpadding="2">
+  <tr> 
+    <td colspan="5" align="center" valign="top"><font face="Arial, Helvetica, sans-serif"><font size="3"><b>Slope 
+      Stability Reference Guide for National Forests in the United States <br>
+      Volume II, Chapter 5, Section B </b></font> </font> <hr> </td>
+  </tr>
+  <tr> 
+    <td width="104" valign="top" > <div align="right"><font face="Arial, Helvetica, sans-serif" size="4"><b>5B.</b></font></div></td>
+    <td valign="top" colspan="4" > <p><strong><font face="Arial, Helvetica, sans-serif" size="4"> 
+        Soil Slopes - Level I</font> <font face="Arial, Helvetica, sans-serif" size="4"> 
+        Analysis - Natural Slopes </font></strong></p></td>
+  </tr>
+  <tr> 
+    <td colspan="5"> <hr> </td>
+  </tr>
+  <tr> 
+    <td width="104" valign="top" ><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+    <td valign="top" colspan="4" > <p><font face="Arial, Helvetica, sans-serif" size="2"><i>Rodney 
+        W. Prellwitz, Geotechnical Engineer, Intermountain Research Station</i></font></p></td>
+  </tr>
+  <tr> 
+    <td colspan="5"> <hr> </td>
+  </tr>
+  <tr> 
+    <td  valign="top" width="104"><font face="Arial, Helvetica, sans-serif" size="3"><strong><a name="5B.1"></a>5B.1 
+      Introduction </strong></font></td>
+    <td valign="top" colspan="4"> <p><font face="Arial, Helvetica, sans-serif" size="2">A 
+        level I slope stability analysis is used to support decisions in the resource 
+        allocation phase of land management and to provide an initial stability 
+        analysis of natural slopes prior to level II and III stability analyses 
+        of constructed slopes. For resource allocation, a probabilistic analysis 
+        is most appropriate because it allows the user to account for uncertainty 
+        and natural variability in evaluating relative landslide hazards of landforms 
+        for use in forest planning, timber sale environmental assessment, transportation 
+        planning, and cumulative effects assessment. In addition, the concept 
+        of probability of slope failure has more meaning to decision makers than 
+        does the factor of safety concept.</font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">For analysis of constructed 
+        slopes, the prudent designer will begin a level II or III analysis with 
+        a level I analysis of the natural slope on which the constructed slope 
+        is (or will be) superimposed to determine why the natural slope exhibits 
+        the degree of stability that it does. Once this basic link is made, the 
+        design of constructed slopes is likely to be more successful. Level I 
+        analyses performed prior to level II or III analyses may be either probabilistic 
+        or deterministic, but the user must be aware of the differences in the 
+        definition of stable which might exist between the two methods, as described 
+        in section <a href="ssg_5a.html#5A.14">5A.14</a>. Most of the subsurface 
+        conditions which are analyzed in level I also apply to level II. Level 
+        II analysis and the link to level I will be discussed in section <a href="ssg_5c.html">5C</a>.<br>
+        </font></p></td>
+  </tr>
+  <tr> 
+    <td colspan="5"  valign="top"><hr></td>
+  </tr>
+  <tr> 
+    <td  valign="top" width="104"><font face="Arial, Helvetica, sans-serif" size="3"><strong><a name="5B.2"></a>5B.2 
+      The Infinite Slope Equation</strong></font><strong><font face="Arial, Helvetica, sans-serif">&nbsp;&nbsp;&nbsp;</font></strong></td>
+    <td valign="top" colspan="4"> <p><font face="Arial, Helvetica, sans-serif" size="2">A 
+        stability analysis on natural slopes is most easily accomplished with 
+        the infinite slope equation. The LISA manual (Hammond et al., 1992) provides 
+        a derivation of that equation. Figure <a href="#Fig_5B.1">5B.1</a> illustrates 
+        and defines the terminology and variables used in that derivation. The 
+        infinite slope equation for the factor of safety against failure, <i>F</i>, 
+        of the entire soil mantle (with the failure surface at the soil/rock contact) 
+        is:</font></p></td>
+  </tr>
+  <tr> 
+    <td  valign="top" width="104">&nbsp;</td>
+    <td valign="top" colspan="4"> <table width="64%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td rowspan="2" width="10%"> <div align="left"><font face="Times New Roman, Times, serif" size="3"><i>F</i> 
+              =</font></div></td>
+          <td width="90%"> <div align="center"><font face="Times New Roman, Times, serif" size="3"><u><i>C</i></u><i><sub>r</sub></i><u> 
+              +<i> C</i></u><i><sub>s</sub></i><u> + [<i>q</i></u><i><sub>o</sub></i><u> 
+              + &gamma;<i>d</i> + (&gamma;</u><sub>sat</sub> <u>- &gamma;</u><sub><i>w</i></sub><u><i> 
+              </i>- &gamma;)<i>d</i></u><i><sub>w</sub></i><u>]cos</u><sup>2</sup><u>&alpha;tan&phi;&nbsp;</u></font></div></td>
+        </tr>
+        <tr> 
+          <td width="90%"> <div align="center"><font face="Times New Roman, Times, serif" size="3">[<i>q<sub>o</sub></i> 
+              + &gamma;<i>d</i> + (&gamma;<sub>ssat</sub> - &gamma;)d<sub>w</sub>]sin&alpha;cos&alpha;</font></div></td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr> 
+    <td  valign="top" width="104">&nbsp;</td>
+    <td valign="top" colspan="4"><font face="Arial, Helvetica, sans-serif" size="2">Except 
+      for the inclusion of terms for tree root strength, <i>C<sub>r</sub></i> 
+      and tree surcharge, <i>q<sub>o</sub></i>, equation 5B.1 is identical to 
+      equation 5A.5, which was derived in section <a href="ssg_5a.html">5A</a> 
+      as a special case of the ordinary method of slices. The equation is an expression 
+      for factor of safety against failure as the ratio of resisting stresses 
+      to driving forces.</font></td>
+  </tr>
+  <tr> 
+    <td  valign="top" width="104">&nbsp;</td>
+    <td colspan="4" valign="top" bgcolor="#CCCC99"> <p align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a name="Fig_5B.1"></a><img src="images/5/5b_f05.gif" width="401" height="266"></font></p>
+      <div align="center"> 
+        <table width="75%" border="0" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF">
+          <tr> 
+            <td> <p><font face="Arial, Helvetica, sans-serif" size="2">&alpha; 
+                = slope of the ground surface, phreatic surface, and failure surface 
+                (soil/rock contact), degrees</font></p>
+              <p><font face="Arial, Helvetica, sans-serif" size="2">d = total 
+                soil depth to soil/rock contact, ft</font></p>
+              <p><font face="Arial, Helvetica, sans-serif" size="2">d<sub>w</sub> 
+                = height of phreatic surface above soil/rock contact, ft</font></p>
+              <p><font face="Arial, Helvetica, sans-serif" size="2">q<sub>o</sub> 
+                = tree surcharge, psf</font></p>
+              <p><font face="Arial, Helvetica, sans-serif" size="2">C<sub>r</sub> 
+                = tree root strength expressed as cohesion, psf</font></p>
+              <p><font face="Arial, Helvetica, sans-serif" size="2">C<sub>s</sub> 
+                = effective soil cohesion, psf</font></p>
+              <p><font face="Arial, Helvetica, sans-serif" size="2">&phi; = effective 
+                soil angle of internal friction, degrees</font></p>
+              <p><font face="Arial, Helvetica, sans-serif" size="2">&gamma; = 
+                moist soil unit weight, pcf</font></p>
+              <p><font face="Arial, Helvetica, sans-serif" size="2">&gamma;<sub>sat</sub> 
+                = saturated soil unit weight, pcf</font></p>
+              <p><font face="Arial, Helvetica, sans-serif" size="2">&gamma;<sub>w</sub> 
+                = unit weight of water, pcf</font></p></td>
+          </tr>
+        </table>
+      </div>
+      <p align="center"><font face="Arial, Helvetica, sans-serif" size="2"><i>Figure 
+        5B.1. - Terminology and variables used in the infinite slope equation.</i></font></p></td>
+  </tr>
+  <tr> 
+    <td  valign="top" width="104">&nbsp;</td>
+    <td valign="top" colspan="4" rowspan="3" bgcolor="#FFFFFF"> <p><font face="Arial, Helvetica, sans-serif" size="2">A 
+        factor of safety greater than one thus implies a stable slope. Refer to 
+        section <a href="ssg_5a.html#5A.14">5A.14</a> for a discussion of how 
+        this may be interpreted differently in a deterministic analysis than in 
+        a probabilistic analysis. The equation has inherent inaccuracies stemming 
+        largely from the infinite slope assumptions which do not describe the 
+        actual conditions found in nature. These assumptions are:</font></p>
+      <ul>
+        <li><font face="Arial, Helvetica, sans-serif" size="2"> The failure plane, 
+          ground water (phreatic) surface, and ground surface are parallel to 
+          one another.</font></li>
+        <li><font face="Arial, Helvetica, sans-serif" size="2">The failure plane 
+          is of infinite extent.</font></li>
+        <li><font face="Arial, Helvetica, sans-serif" size="2">Only one soil type 
+          is considered.</font></li>
+        <li><font face="Arial, Helvetica, sans-serif" size="2">A two-dimensional 
+          analysis is applicable.</font><font face="Arial, Helvetica, sans-serif" size="2"> 
+          </font></li>
+      </ul>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">If properly used, 
+        however, the inaccuracies can be compensated for through back-calculation 
+        and minor parametric value adjustment, and the equation becomes a powerful 
+        analysis tool. For additional discussion on these inaccuracies, refer 
+        to chapter 3 of the LISA manual (Hammond et al., 1992). </font></p></td>
+  </tr>
+  <tr> 
+    <td  valign="top" height="99" width="104">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td  valign="top" height="52" width="104">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td colspan="5"><hr></td>
+  </tr>
+  <tr> 
+    <td width="104"><font size="2" face="Arial, Helvetica, sans-serif"><b><b><font size="3"><a name="5B.3"></a></font></b><font size="3">5B.3 
+      Level I Computer Programs</font></b></font></td>
+    <td valign="top" colspan="4"> <p><font size="2" face="Arial, Helvetica, sans-serif">Both 
+        deterministic and probabilistic personal computer programs are available 
+        for level I analysis. The level II programs may be used for level I analysis 
+        along road corridors, as well.</font></p></td>
+  </tr>
+  <tr> 
+    <td colspan="5"><hr></td>
+  </tr>
+  <tr> 
+    <td width="104" valign="top" > <p align="left"><font size="2" face="Arial, Helvetica, sans-serif"><b><b><font size="3"><a name="5B.3.1"></a></font></b>5B.3.1 
+        Deterministic</b></font></p></td>
+    <td valign="top" colspan="4"> <font face="Arial, Helvetica, sans-serif" size="2">An 
+      HP-41 programmable-calculator program, SSIS, was developed for the infinite 
+      slope equation. The SSIS manual (Prellwitz, 1988) gives additional background 
+      and correlation between the level I and level II analyses. The equations 
+      from SSIS have been programmed for the personal computer as a deterministic 
+      program DLISA (Deterministic Level I Stability Analysis ver. 1.02, 1991). 
+      This program is particularly useful for level I sensitivity analysis (described 
+      in section <a href="ssg_5d.html">5D</a>). </font></td>
+  </tr>
+  <tr> 
+    <td colspan="5" valign="top"><hr></td>
+  </tr>
+  <tr> 
+    <td width="104" valign="top"><font size="2" face="Arial, Helvetica, sans-serif"><b>5B.3.2 
+      <b><font size="3"><a name="5B.3.2"></a></font></b> Probabilistic</b></font></td>
+    <td valign="top" colspan="4"> <div align="left"><font size="2" face="Arial, Helvetica, sans-serif">LISA 
+        (Level I Stability Analysis ver 2.0, 1991) is the probabilistic personal 
+        computer program for level I stability analysis. The user enters probability 
+        distributions rather than single values for each of the variables in the 
+        infinite slope equation. Monte Carlo simulation is used to estimate the 
+        probability of slope failure.</font></div></td>
+  </tr>
+  <tr> 
+    <td colspan="5" valign="top" ><hr></td>
+  </tr>
+  <tr> 
+    <td width="104" valign="top" ><font size="2" face="Arial, Helvetica, sans-serif"><b>5B.3.3<b><font size="3"><a name="5B.3.3"></a></font></b> 
+      Road Corridor Analysis</b></font></td>
+    <td valign="top" colspan="4" > <p align="left"><font face="Arial, Helvetica, sans-serif" size="2">Although 
+        LISA's primary use is for assessing the relative landslide hazard of landforms 
+        for resource allocation, it is being integrated with the probabilistic 
+        level II personal computer program, Stability Analysis for Road Access 
+        (SARA), currently under development. Used with SARA, LISA is also a tool 
+        for level II analysis to analyze the stability of natural slopes along 
+        road corridors. Background fundamentals and the use of DLISA and LISA 
+        are thoroughly described in the LISA manual (Hammond et al., 1992).</font></p></td>
+  </tr>
+  <tr> 
+    <td colspan="5" ><hr></td>
+  </tr>
+  <tr> 
+    <td width="104" ><font size="2" face="Arial, Helvetica, sans-serif"><b><b><font size="3"><a name="5B.4"></a></font></b><font size="3">5B.4 
+      Comparison of DLISA to Manual Computation Results </font></b></font></td>
+    <td valign="top" colspan="4" bgcolor="#FFFFFF" ><font face="Arial, Helvetica, sans-serif" size="2">Figure 
+      <a href="#Fig_5B.2">5B.2</a> is an illustration of site conditions used 
+      for the comparison of the computation of equation 5B.1 to the results of 
+      DLISA shown in figure <a href="#Fig_5B.3">5B.3</a>.</font></td>
+  </tr>
+  <tr> 
+    <td width="104"><font size="2" face="Arial, Helvetica, sans-serif"><b> </b></font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font> 
+    </td>
+    <td valign="top" colspan="4" bgcolor="#CCCC99" > <div align="center"> 
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><a name="Fig_5B.2"></a><a href="Images/5/Images/5/5b_f02lg.gif"><img src="images/5/5b_f02lg.gif" width="485" height="272" border="1"></a></font></p>
+        <p><font size="2" face="Arial, Helvetica, sans-serif"><i>Figure 5B.2. 
+          - Site used for the DLISA-manual computation comparison.</i></font></p>
+      </div></td>
+  </tr>
+  <tr> 
+    <td  width="104">&nbsp;</td>
+    <td valign="top" colspan="4" bgcolor="#FFFFFF" rowspan="3"> <div align="left"> 
+        <p><font size="2" face="Arial, Helvetica, sans-serif">Factor of safety 
+          for the site conditions in figure 5B.2 according to equation 5B.1 is</font></p>
+      </div>
+      <table width="67%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td rowspan="2" width="7%"><font face="Times New Roman, Times, serif" size="3"><i>F</i> 
+            = </font></td>
+          <td width="93%"> <div align="center"><font face="Times New Roman, Times, serif" size="3"><u>C</u><sub>r</sub><u> 
+              + C</u><sub>s</sub><u> + [q</u><sub>o</sub><u> + &gamma;d + (&gamma;</u><sub>sat</sub><u> 
+              - &gamma;</u><sub>w</sub><u> - &gamma;)d</u><sub>w</sub><u>]cos</u><sup>2</sup><u>&alpha; 
+              tan&phi;&nbsp;</u></font></div></td>
+        </tr>
+        <tr> 
+          <td width="93%" height="37"> <div align="center"><font face="Times New Roman, Times, serif" size="3">[q<sub>w</sub> 
+              + &gamma;d + (&gamma;<sub>sat</sub> - &gamma;)d<sub>w</sub>]sin&alpha; 
+              cos&alpha;&nbsp;</font></div></td>
+        </tr>
+      </table>
+      <p>&nbsp;</p>
+      <table width="88%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td rowspan="2" width="7%"><font face="Times New Roman, Times, serif" size="3"><i>F 
+            </i>= </font></td>
+          <td width="93%"> <div align="center"><font face="Times New Roman, Times, serif" size="3"><u>40 
+              + [30 + 120 x 10.0 + (130 - 62.4 - 120) x 5.0] cos</u><sup>2</sup><u>(26.6</u><sup>o</sup><u>)tan 
+              32</u><sup>o</sup><u>&nbsp;</u></font></div></td>
+        </tr>
+        <tr> 
+          <td width="93%"> <div align="center"><font face="Times New Roman, Times, serif" size="3">[30 
+              + 120 x 10.0 + (130 - 120) x 5.0]cos 26.6<sup>o</sup> sin 26.6<sup>o</sup>&nbsp;</font></div></td>
+        </tr>
+      </table>
+      <p><font face="Arial, Helvetica, sans-serif" size="2"> <BR>
+        <i>F</i> = 1.02,</font></p>
+      <div align="left"><font size="2" face="Arial, Helvetica, sans-serif">which 
+        is what DLISA gives as shown in figure 5B.3.</font></div></td>
+  </tr>
+  <tr> 
+    <td height="3" width="104">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td height="221" width="104">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td height="19" width="104">&nbsp;</td>
+    <td valign="top" colspan="4" bgcolor="#CCCC99" height="423" rowspan="3"> <a name="Fig_5B.3"></a> 
+      <table width="489" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#FFFFFF">
+        <tr bgcolor="IVORY"> 
+          <td width="67"><font size="2" face="Arial, Helvetica, sans-serif">DLISA 
+            </font></td>
+          <td width="146"><font face="Arial, Helvetica, sans-serif" size="2">1.02</font></td>
+          <td width="49"> <div align="right"></div></td>
+          <td width="95"> <div align="center"><font size="2" face="Arial, Helvetica, sans-serif">08-08-1992 
+              </font></div></td>
+          <td width="65"><font size="2" face="Arial, Helvetica, sans-serif">12:40:06 
+            </font></td>
+          <td width="55"><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+        </tr>
+        <tr bgcolor="IVORY"> 
+          <td width="67" height="21"><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+          <td height="21" colspan="4"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">DETERMINISTIC 
+              LEVEL I STABILITY ANALYSIS</font></div></td>
+          <td width="55" height="21"><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+        </tr>
+        <tr bgcolor="IVORY"> 
+          <td width="67"><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+          <td width="146"><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+          <td colspan="2"> <div align="right"><font face="Arial, Helvetica, sans-serif" size="2">Infinite 
+              Slope Equation</font></div></td>
+          <td width="65"><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+          <td width="55"><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+        </tr>
+        <tr bgcolor="IVORY"> 
+          <td width="67"><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+          <td width="146"><font size="2" face="Arial, Helvetica, sans-serif"> 
+            Soil depth (ft) </font></td>
+          <td colspan="2"> <div align="right"><font size="2" face="Arial, Helvetica, sans-serif">10.00</font></div>
+            <font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+          <td width="65"><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+          <td width="55"><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+        </tr>
+        <tr bgcolor="IVORY"> 
+          <td width="67"><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+          <td width="146"><font size="2" face="Arial, Helvetica, sans-serif"> 
+            Surface slope (deg) </font></td>
+          <td colspan="2"> <div align="right"><font size="2" face="Arial, Helvetica, sans-serif">50.00</font></div>
+            <font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+          <td width="65"><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+          <td width="55"><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+        </tr>
+        <tr bgcolor="IVORY"> 
+          <td width="67"><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+          <td width="146"><font size="2" face="Arial, Helvetica, sans-serif"> 
+            Tree surcharge (psf) </font></td>
+          <td colspan="2"> <div align="right"><font size="2" face="Arial, Helvetica, sans-serif">30.00</font></div>
+            <font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+          <td width="65"><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+          <td width="55"><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+        </tr>
+        <tr bgcolor="IVORY"> 
+          <td width="67"><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+          <td width="146"><font size="2" face="Arial, Helvetica, sans-serif"> 
+            Root cohesion (psf) </font></td>
+          <td colspan="2"> <div align="right"><font size="2" face="Arial, Helvetica, sans-serif">20.00</font></div>
+            <font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+          <td width="65"><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+          <td width="55"><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+        </tr>
+        <tr bgcolor="IVORY"> 
+          <td width="67"><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+          <td width="146"><font size="2" face="Arial, Helvetica, sans-serif"> 
+            Groundwater height (ft) </font></td>
+          <td colspan="2"> <div align="right"><font size="2" face="Arial, Helvetica, sans-serif">5.00</font></div>
+            <font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+          <td width="65"><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+          <td width="55"><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+        </tr>
+        <tr bgcolor="IVORY"> 
+          <td width="67" height="31"><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+          <td width="146" height="31"><font size="2" face="Arial, Helvetica, sans-serif"> 
+            Friction angle (deg) </font></td>
+          <td height="31" colspan="2"> <div align="right"><font size="2" face="Arial, Helvetica, sans-serif">32.00</font></div>
+            <div align="right"></div>
+            <font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+          <td width="65" height="31"><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+          <td width="55" height="31"><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+        </tr>
+        <tr bgcolor="IVORY"> 
+          <td width="67"><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+          <td width="146"><font size="2" face="Arial, Helvetica, sans-serif"> 
+            Soil cohesion (psf) </font></td>
+          <td colspan="2"> <div align="right"><font size="2" face="Arial, Helvetica, sans-serif">20.00</font></div>
+            <font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+          <td width="65"><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+          <td width="55"><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+        </tr>
+        <tr bgcolor="IVORY"> 
+          <td width="67"><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+          <td width="146"><font size="2" face="Arial, Helvetica, sans-serif"> 
+            Dry unit weight (pcf) </font></td>
+          <td colspan="2"> <div align="right"><font size="2" face="Arial, Helvetica, sans-serif">109.00</font></div>
+            <font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+          <td width="65"><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+          <td width="55"><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+        </tr>
+        <tr bgcolor="IVORY"> 
+          <td width="67"><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+          <td width="146"><font size="2" face="Arial, Helvetica, sans-serif"> 
+            Moisture content (%) </font></td>
+          <td colspan="2"> <div align="right"><font size="2" face="Arial, Helvetica, sans-serif">10.00</font></div>
+            <font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+          <td width="65"><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+          <td width="55"><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+        </tr>
+        <tr bgcolor="IVORY"> 
+          <td width="67"><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+          <td width="146"><font size="2" face="Arial, Helvetica, sans-serif"> 
+            Specific gravity </font></td>
+          <td colspan="2"> <div align="right"><font size="2" face="Arial, Helvetica, sans-serif">2.65</font></div>
+            <font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+          <td width="65"><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+          <td width="55"><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+        </tr>
+        <tr bgcolor="IVORY"> 
+          <td width="67"><font face="Arial, Helvetica, sans-serif" size="2"> Solve 
+            for: </font></td>
+          <td width="146"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"> 
+              factor of safety </font></div></td>
+          <td width="49"><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+          <td width="95"><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+          <td width="65"><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+          <td width="55"><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+        </tr>
+        <tr bgcolor="IVORY"> 
+          <td width="67"><font face="Arial, Helvetica, sans-serif" size="2">Factor 
+            of safety</font></td>
+          <td width="146"><font face="Arial, Helvetica, sans-serif" size="2">Dry 
+            unit wt. (pcf) </font></td>
+          <td width="49"><font size="2" face="Arial, Helvetica, sans-serif">Moist 
+            unit wt. (pcf) </font></td>
+          <td width="95"><font size="2" face="Arial, Helvetica, sans-serif">Saturated 
+            unit wt. (pcf) </font></td>
+          <td width="65"><font size="2" face="Arial, Helvetica, sans-serif">Saturated 
+            moist. cont. (pcf) </font></td>
+          <td width="55"><font size="2" face="Arial, Helvetica, sans-serif">Moisture 
+            content (%)</font></td>
+        </tr>
+        <tr bgcolor="IVORY"> 
+          <td width="67"><font size="2" face="Arial, Helvetica, sans-serif">1.02 
+            </font></td>
+          <td width="146"><font size="2" face="Arial, Helvetica, sans-serif">109.00</font></td>
+          <td width="49"><font size="2" face="Arial, Helvetica, sans-serif">119.90</font></td>
+          <td width="95"><font size="2" face="Arial, Helvetica, sans-serif">130.27</font></td>
+          <td width="65"><font size="2" face="Arial, Helvetica, sans-serif">19.51</font></td>
+          <td width="55"><font size="2" face="Arial, Helvetica, sans-serif">10.00</font></td>
+        </tr>
+      </table>
+      <p><font face="Arial, Helvetica, sans-serif" size="2"><i>Figure 5B.3 - DLISA 
+        - results for the site conditions of figure <a href="#Fig_5B.2">5B.2</a></i></font></p></td>
+  </tr>
+  <tr> 
+    <td width="104">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="104">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td colspan="5"> <div align="left"> 
+        <hr>
+      </div></td>
+  </tr>
+  <tr> 
+    <td valign="top" width="104"><font size="2" face="Arial, Helvetica, sans-serif"><b><b><font size="3"><a name="5B.5"></a></font></b><font size="3">5B.5 
+      Deterministic Sample Problems</font></b></font><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font><font size="2" face="Arial, Helvetica, sans-serif">.</font><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font> 
+      <p>&nbsp;</p>
+      <font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font> 
+    </td>
+    <td colspan="4"><font size="2" face="Arial, Helvetica, sans-serif">The following 
+      deterministic level I sample problems will illustrate the application of 
+      the infinite slope equation to the analysis of natural slopes and to the 
+      back-analysis for reasonable parametric values. These values may be for 
+      use in either deterministic or probabilistic analyses; however, the user 
+      is cautioned that the singular values for deterministic analysis may not 
+      be the same as the mean values used in probabilistic analysis, as discussed 
+      in section <a href="ssg_5a.html#5A.13">5A.13</a>. The site conditions illustrated 
+      in figure <a href="#Fig_5B.4">5B.4</a> will be used for both level I and 
+      level II (<a href="ssg_5c.html">section 5C</a>) deterministic sample problems 
+      to establish a correlation between the stability of natural slopes and constructed 
+      slopes superimposed on those natural slopes.</font></td>
+  </tr>
+  <tr> 
+    <td valign="top" width="104">&nbsp;</td>
+    <td valign="top" align="center" colspan="4"> <div align="left"><font size="2" face="Arial, Helvetica, sans-serif">The 
+        interpretation of the results in terms of "What is stable?" is consistent 
+        with the deterministic concept described in section <a href="ssg_5a.html#5A.13">5A.13</a>: 
+        a factor of safety of one is the dividing line between stability and instability. 
+        To illustrate, note that in these level I and II deterministic sample 
+        problems that a factor of safety of one is used in conjunction with field 
+        observations of stability to judge the limiting values for such parameters 
+        in question as soil shear strength, surface slope, and depth of ground 
+        water. This factors the uncertainty in parametric value determination 
+        into the back-calculation analysis. If these predictions of stability, 
+        based on the level I and II stability analyses, do not match the field 
+        observations, this back-analysis will result in adjustment of the singular 
+        deterministic value for the parameter in question. The significance of 
+        variations in surface slope, soil depth, and ground water depth to the 
+        stability of a slope will be illustrated in these problems. The strength 
+        parameters for these level I deterministic problems were developed from 
+        back-analysis in sample problem <a href="ssg_5c.html">5C.1</a>.</font></div></td>
+  </tr>
+  <tr> 
+    <td valign="top" width="104">&nbsp;</td>
+    <td valign="top" align="center" colspan="4" bgcolor="#CCCC99"> <p><font size="2" face="Arial, Helvetica, sans-serif"><a name="Fig_5B.4"></a><a href="file://///Pc6007/cher/SSG%20Assets/chp5_assets/chp5_cleaned_scans/5b/5B_F04Lg.gif"><b><img src="images/5/5b_f04lg.gif" width="273" height="270" border="1"></b></a></font></p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif"><i>Figure 5B.4.-Site 
+        conditions for level I and II deterministic sample problems</i></font></p></td>
+  </tr>
+  <tr> 
+    <td valign="top" width="104">&nbsp;</td>
+    <td valign="top" align="center" colspan="4"> <div align="left"><font size="2" face="Arial, Helvetica, sans-serif">In 
+        these deterministic sample problems, root strength and effective soil 
+        cohesion are replaced by one cohesion value, C. This is the logical way 
+        to handle these two, because a combined value is the result of the back-analysis, 
+        and it is unnecessary to separate them for the purpose of these problems. 
+        That is not always the case, particularly when the management impacts 
+        of tree removal are part of the analysis. The user must be aware of this 
+        in the interpretation of the results. Also, it must be noted that the 
+        value of C can vary between the level I and level II analyses due to the 
+        differences in the shapes of the failure surfaces being analyzed.</font></div></td>
+  </tr>
+  <tr> 
+    <td valign="top" width="104">&nbsp;</td>
+    <td valign="top" align="center" colspan="4" bgcolor="#FFFFFF" > <div align="center"> 
+        <p align="left"><font size="2" face="Arial, Helvetica, sans-serif">Tree 
+          surcharge, <i>q<sub>o</sub></i> , is assumed to be zero in the following 
+          problems. The value is generally small and usually has little effect 
+          on the analysis. For example, in figure 5B.2, <i>q<sub>o</sub></i> = 
+          30 psf was used, and <i>F</i> = 1.02 was calculated. These same site 
+          conditions were used for problem 5C.11 with <i>q<sub>o</sub></i> = 0 
+          psf, and <i>F</i> = 1.02 was still the result of the analysis of the 
+          natural slope conditions.</font></p>
+        <p align="left"><font size="2" face="Arial, Helvetica, sans-serif">For 
+          simplicity, if <i>C </i>=<i> C<sub>s</sub></i> +<i> C<sub>r</sub></i> 
+          and <i>q<sub>o</sub></i> = 0, equation 5B.1 can be reduced further to:</font></p>
+      </div></td>
+  </tr>
+  <tr> 
+    <td valign="top" width="104">&nbsp;</td>
+    <td width="505" bgcolor="#FFFFFF" bordercolor="#CCCC99"> <div align="center"> 
+        <table width="59%" border="0" cellspacing="0" cellpadding="0">
+          <tr> 
+            <td rowspan="2" width="9%"><font face="Times New Roman, Times, serif" size="3"><i>F</i> 
+              = </font></td>
+            <td width="91%"> <div align="center"><font face="Times New Roman, Times, serif" size="3"><u><i>C</i> 
+                + [&gamma;<i>d</i> + (&gamma;</u><sub><i>sat</i></sub> <u>- &gamma;</u><sub><i>w</i></sub><u> 
+                - &gamma;)<i>d</i></u><i><sub>w</sub></i><u>]cos</u><sup>2</sup><u>&alpha;tan&phi;&nbsp;</u></font></div></td>
+          </tr>
+          <tr> 
+            <td width="91%"> <div align="center"><font face="Times New Roman, Times, serif" size="3">[&gamma;<i>d 
+                </i>+ (&gamma;<sub>sat</sub> - &gamma;)<i>d<sub>w</sub></i>]sin&alpha;cos&alpha;&nbsp;</font></div></td>
+          </tr>
+        </table>
+      </div></td>
+    <td colspan="3" bgcolor="#FFFFFF" bordercolor="#CCCC99" width="35"><font size="2" face="Arial, Helvetica, sans-serif">(5B.2)</font></td>
+  </tr>
+  <tr> 
+    <td valign="top" width="104">&nbsp;</td>
+    <td valign="top" colspan="4" > <p><font face="Arial, Helvetica, sans-serif" size="2">If 
+        d<sub>w</sub> = 0, this equation can be further reduced to: </font> </p></td>
+  </tr>
+  <tr> 
+    <td valign="top" width="104">&nbsp;</td>
+    <td valign="top" width="505" height="95"> <div align="center"> 
+        <table width="40%" border="0" cellspacing="0" cellpadding="0">
+          <tr> 
+            <td rowspan="2" width="13%"><font face="Times New Roman, Times, serif" size="3"><i>F</i> 
+              =</font></td>
+            <td width="87%"> <div align="center"><font face="Times New Roman, Times, serif" size="3"><u><i>C</i> 
+                + &gamma;<i>d</i>cos</u><sup>2</sup><u>&alpha; tan&phi;&nbsp;</u></font></div></td>
+          </tr>
+          <tr> 
+            <td width="87%"> <div align="center"><font face="Times New Roman, Times, serif" size="3">&gamma;<i>d</i> 
+                sin&alpha; cos&alpha;&nbsp;</font></div></td>
+          </tr>
+        </table>
+      </div></td>
+    <td valign="top" colspan="3" height="95" width="35"><font face="Arial, Helvetica, sans-serif" size="2">(5B.3)</font></td>
+  </tr>
+  <tr> 
+    <td valign="top" width="104">&nbsp;</td>
+    <td height="82" colspan="4" rowspan="2" valign="top" bgcolor="ivory"> <hr> 
+      <font size="2" face="Arial, Helvetica, sans-serif"><b><a name="Problem_1"></a>Problem 
+      1.</b></font> <p><font size="2" face="Arial, Helvetica, sans-serif">If ground 
+        water is not considered to be a problem (no phreatic surface develops) 
+        at location A, is 50 percent (26.6 degrees) the <i>maximum stable</i> 
+        natural slope?</font></p></td>
+  </tr>
+  <tr> 
+    <td width="104" height="70" valign="top">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td valign="top" width="104">&nbsp;</td>
+    <td valign="top" colspan="4" height="234" rowspan="3" bgcolor="ivory"> <div align="left"></div>
+      <table width="40%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td rowspan="2" width="13%"><font face="Times New Roman, Times, serif" size="3"><i>F</i> 
+            =</font></td>
+          <td width="87%"> <div align="center"><font face="Times New Roman, Times, serif" size="3"><u><i>C</i> 
+              + &gamma;<i>d</i>cos</u><sup>2</sup><u>&alpha; tan&phi;&nbsp;</u></font></div></td>
+        </tr>
+        <tr> 
+          <td width="87%"> <div align="center"><font face="Times New Roman, Times, serif" size="3">&gamma;<i>d</i> 
+              sin&alpha; cos&alpha;&nbsp;</font></div></td>
+        </tr>
+      </table>
+      <p>&nbsp;</p>
+      <table width="60%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td rowspan="2"><font face="Times New Roman, Times, serif" size="3"><i>F</i> 
+            =</font></td>
+          <td> <div align="center"><font face="Times New Roman, Times, serif" size="3"><u>(110 
+              psf) + (120 psf) (15 ft) cos</u><sup>2</sup><u> 26.6</u></font><font face="Arial, Helvetica, sans-serif" size="2">°</font><font face="Times New Roman, Times, serif" size="3"><u> 
+              tan 30</u></font><font face="Arial, Helvetica, sans-serif" size="2">°</font><font face="Times New Roman, Times, serif" size="3">&nbsp;</font></div></td>
+        </tr>
+        <tr> 
+          <td> <div align="center"><font face="Times New Roman, Times, serif" size="3">(120 
+              pcf) (15 ft) sin 26.6</font><font face="Arial, Helvetica, sans-serif" size="2">°</font><font face="Times New Roman, Times, serif" size="3"> 
+              cos 26.6</font><font face="Arial, Helvetica, sans-serif" size="2">°</font><font face="Times New Roman, Times, serif" size="3">&nbsp;</font></div></td>
+        </tr>
+      </table>
+      <p><u><font face="Arial, Helvetica, sans-serif" size="2"><i>F</i> = 1.31</font></u>. 
+      </p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif"><i>F</i> is greater 
+        than 1.00; therefore, 50 percent is not the maximum stable slope at Location 
+        A.</font> </p></td>
+  </tr>
+  <tr> 
+    <td valign="top" width="104">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td valign="top" width="104">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td valign="top" width="104">&nbsp;</td>
+    <td height="164" colspan="4" rowspan="4" valign="top" bgcolor="ivory"> <hr> 
+      <font face="Arial, Helvetica, sans-serif" size="2"><b><a name="Problem_2"></a>Problem 
+      2</b></font> <p><font face="Arial, Helvetica, sans-serif" size="2">At location 
+        B in figure <a href="#Fig_5B.4">5B.4</a>, is 70 percent the <i>maximum 
+        stable</i> natural slope if ground water is not considered to be a factor?</font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">From equation 5B.3,</font></p>
+      <div align="left"></div>
+      <table width="40%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td rowspan="2" width="13%"><font face="Times New Roman, Times, serif" size="3"><i>F</i> 
+            =</font></td>
+          <td width="87%"> <div align="center"><font face="Times New Roman, Times, serif" size="3"><u><i>C</i> 
+              + &gamma;<i>d</i>cos</u><sup>2</sup><u>&alpha; tan&phi;&nbsp;</u></font></div></td>
+        </tr>
+        <tr> 
+          <td width="87%"> <div align="center"><font face="Times New Roman, Times, serif" size="3">&gamma;<i>d</i> 
+              sin&alpha; cos&alpha;&nbsp;</font></div></td>
+        </tr>
+      </table>
+      <p>&nbsp;</p>
+      <table width="59%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td rowspan="2"><font face="Times New Roman, Times, serif" size="3"><i>F</i> 
+            =</font></td>
+          <td height="19"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><u>(110 
+              psf) + (120 psf) (10.0 ft) cos</u><sup>2</sup><u> 25.0</u>°<u> tan 
+              30</u>°&nbsp;</font></div></td>
+        </tr>
+        <tr> 
+          <td> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">(120 
+              pcf) (10.0 ft) sin 35° cos 35°&nbsp;</font></div></td>
+        </tr>
+      </table>
+      <p><u><font face="Arial, Helvetica, sans-serif" size="2"><i>F</i> = 1.02</font></u> 
+      </p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif"><i>F</i> is greater 
+        than 1.00; therefore, 70 percent is not the maximum stable slope at Location 
+        B, but it is closer to failure than is the 50 percent slope at Location 
+        A.</font> </p></td>
+  </tr>
+  <tr> 
+    <td valign="top" width="104">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td valign="top" width="104">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td valign="top" width="104">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td valign="top" width="104">&nbsp;</td>
+    <td height="271" colspan="4" rowspan="4" valign="top" bgcolor="ivory"> <hr> 
+      <font size="2" face="Arial, Helvetica, sans-serif"><b><a name="Problem_3"></a>Problem 
+      3.</b></font> <p><font size="2" face="Arial, Helvetica, sans-serif">Would 
+        you expect the natural slope at location B in figure <a href="#Fig_5B.4">5B.4</a> 
+        to be <i>stable</i> if the soil depth were 15 feet (ground water still 
+        not a factor)?</font></p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif">Using equation 5B.3,</font></p>
+      <div align="left"> 
+        <table width="38%" border="0" cellspacing="0" cellpadding="0">
+          <tr> 
+            <td rowspan="2" width="12%"><i>F</i> = </td>
+            <td width="88%"> <div align="center"><font face="Times New Roman, Times, serif" size="3"><u>C 
+                + &gamma;dcos</u><sup>2</sup><u>&alpha tan&phi;&nbsp;</u></font></div></td>
+          </tr>
+          <tr> 
+            <td width="88%"> <div align="center"><font face="Times New Roman, Times, serif" size="3">&gamma;d 
+                sin&alpha; cos&alpha;&nbsp;</font></div></td>
+          </tr>
+        </table>
+      </div>
+      <p align="left">&nbsp;</p>
+      <div align="left"> 
+        <table width="57%" border="0" cellspacing="0" cellpadding="0">
+          <tr> 
+            <td rowspan="2"><i>F</i> = </td>
+            <td> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><u>(110 
+                psf) + (120 pcf) (15.0) cos</u><sup>2</sup><u> 35.0</u>°<u> tan 
+                30</u>°</font></div></td>
+          </tr>
+          <tr> 
+            <td> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">(120 
+                pcf) (15.0 ft) sin 35° cos 35°</font></div></td>
+          </tr>
+        </table>
+      </div>
+      <p>&nbsp;</p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2"><i><u>F</u></i><u> 
+        = 0.95</u></font></p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif"><i>F</i> is less than 
+        1.00; therefore, the slope at Location B would be unstable, if the soil 
+        depth were 15 ft.</font> </p></td>
+  </tr>
+  <tr> 
+    <td valign="top" width="104">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td valign="top" width="104">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td valign="top" width="104">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td valign="top" width="104">&nbsp;</td>
+    <td valign="top" colspan="4" rowspan="4" bgcolor="ivory"> <hr> <font face="Arial, Helvetica, sans-serif" size="2"><b><a name="Problem_4"></a>Problem 
+      4.</b></font> <p><font face="Arial, Helvetica, sans-serif" size="2">Is the 
+        ground water phreatic surface at the critical level for the stability 
+        of the slope at location D? (Solve for the critical level by setting <i>F</i> 
+        = 1.00 and solving for <i>d</i><SUB>w</SUB>. Compare<i> d</i><SUB>w</SUB> 
+        to 14 ft.)</font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">Using equation 5B.2,</font></p>
+      <div align="left"> 
+        <table width="55%" border="0" cellspacing="0" cellpadding="0">
+          <tr> 
+            <td rowspan="2" width="11%"><font face="Times New Roman, Times, serif" size="3"><i>F 
+              </i>= </font></td>
+            <td width="89%"> <div align="center"><font face="Times New Roman, Times, serif" size="3"><u>C 
+                + [&gamma;<i>d</i> + (&gamma;</u><sub>sat</sub><u> - &gamma;</u><sub>w</sub><u> 
+                - &gamma;)<i>d</i></u><sub>w</sub><u>]cos</u><sup>2</sup><u>&alpha;tan&phi;&nbsp;</u></font></div></td>
+          </tr>
+          <tr> 
+            <td width="89%"> <div align="center"><font face="Times New Roman, Times, serif" size="3">[&gamma;<i>d</i> 
+                + (&gamma;<sub>sat</sub> - &gamma;)<i>d</i><sub>w</sub>]sin&alpha;cos&alpha;&nbsp;</font></div></td>
+          </tr>
+        </table>
+      </div>
+      <p align="left">&nbsp;</p>
+      <div align="left"> 
+        <table width="87%" border="0" cellspacing="0" cellpadding="0">
+          <tr> 
+            <td rowspan="2" width="12%"><font face="Arial, Helvetica, sans-serif" size="2">1.00 
+              =</font></td>
+            <td width="88%" height="17"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><u>(50 
+                psf) + [(120 pcf) (20.0 ft) + (130 - 62.4 - 120)<i>d</i></u><sub>w</sub><u>] 
+                cos</u><sup>2</sup><u>(20</u>°<u>)tan 20</u>°<u>&nbsp;</u></font></div></td>
+          </tr>
+          <tr> 
+            <td width="88%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">[(120 
+                psf)(20.0 ft) + (130 - 120)d<sub>w</sub>]sin 20° cos 20°&nbsp;</font></div></td>
+          </tr>
+        </table>
+        <p>&nbsp;</p>
+        <table width="34%" border="0" cellspacing="0" cellpadding="0">
+          <tr> 
+            <td rowspan="2"><font face="Arial, Helvetica, sans-serif" size="2">1.00 
+              =</font></td>
+            <td> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">50 
+                + 1223.55 - 26.71<i>d</i><sub>w</sub></font></div></td>
+          </tr>
+          <tr> 
+            <td> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">771.35 
+                + 3.21<i>d</i><sub>w</sub>&nbsp;</font></div></td>
+          </tr>
+        </table>
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><i>d<sub>w</sub></i> 
+          = 14.0' is <i>less than</i> the critical <i>d</i><sub>w</sub>, so the 
+          slope is <i>stable</i>.</font> </p>
+      </div></td>
+  </tr>
+  <tr> 
+    <td valign="top" width="104">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td valign="top" width="104">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td valign="top" width="104">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td valign="top" width="104">&nbsp;</td>
+    <td valign="top" colspan="4" rowspan="4" bgcolor="ivory"> <hr> <font face="Arial, Helvetica, sans-serif" size="2"><b><a name="Problem_5"></a>Problem 
+      5.</b></font> <p><font face="Arial, Helvetica, sans-serif" size="2">If, 
+        in the springtime, ground water is expected to concentrate at location 
+        A, how high could a phreatic surface rise in the soil column before the 
+        slope becomes <i>unstable</i>? (Solve for the "critical" level in a manner 
+        similar to problem 4.)</font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">Using equation 5B.2,</font></p>
+      <table width="55%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td rowspan="2" width="11%"><font face="Times New Roman, Times, serif" size="3"><i>F 
+            </i>= </font></td>
+          <td width="89%"> <div align="center"><font face="Times New Roman, Times, serif" size="3"><u>C 
+              + [&gamma;<i>d</i> + (&gamma;</u><sub>sat</sub><u> - &gamma;</u><sub>w</sub><u> 
+              - &gamma;)<i>d</i></u><sub>w</sub><u>]cos</u><sup>2</sup><u>&alpha;tan&phi;&nbsp;</u></font></div></td>
+        </tr>
+        <tr> 
+          <td width="89%"> <div align="center"><font face="Times New Roman, Times, serif" size="3">[&gamma;<i>d</i> 
+              + (&gamma;<sub>sat</sub> - &gamma;)<i>d</i><sub>w</sub>]sin&alpha;cos&alpha;&nbsp;</font></div></td>
+        </tr>
+      </table>
+      <p>&nbsp;</p>
+      <table width="89%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td rowspan="2" width="12%"><font face="Arial, Helvetica, sans-serif" size="2">1.00 
+            =</font></td>
+          <td width="88%" height="17"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><u>(50 
+              psf) + [(120 pcf) (15.0 ft) + (130 - 62.4 - 120)<i>d</i></u><sub>w</sub><u>] 
+              cos</u><sup>2</sup><u>(26.6</u><sup>o</sup><u>)tan 30</u><sup>o</sup><u>&nbsp;</u></font></div></td>
+        </tr>
+        <tr> 
+          <td width="88%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">[(120 
+              psf)(15.0 ft) + (130 - 120)d<sub>w</sub>]sin 26.6° cos 26.6°&nbsp;</font></div></td>
+        </tr>
+      </table>
+      <p>&nbsp;</p>
+      <table width="34%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td rowspan="2"><font face="Arial, Helvetica, sans-serif" size="2">1.00 
+            =</font></td>
+          <td> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><u>50 
+              + 830.88 - 24.19<i>d</i></u><sub>w</sub></font></div></td>
+        </tr>
+        <tr> 
+          <td> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">720.66 
+              + 4.00<i>d</i><sub>w</sub>&nbsp;</font></div></td>
+        </tr>
+      </table>
+      <p>&nbsp;</p>
+      <div align="center"></div>
+      <blockquote> 
+        <p><font size="2" face="Arial, Helvetica, sans-serif">720.66 psf + 4.00 
+          pcf <i>d<sub>w</sub></i> = 880.88 - 24.19<i>d<sub>w</sub></i></font></p>
+        <p><font size="2" face="Arial, Helvetica, sans-serif">28.19<i>d<sub>w</sub></i><sub> 
+          </sub>= 160.22</font></p>
+        <p><font size="2" face="Arial, Helvetica, sans-serif"><u>Critical <i>d</i></u><i><sub>w</sub></i><u> 
+          = 5.7ft</u></font></p>
+      </blockquote></td>
+  </tr>
+  <tr> 
+    <td valign="top" width="104">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td valign="top" width="104">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td valign="top" width="104">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td colspan="5"  valign="top"><HR></td>
+  </tr>
+  <tr> 
+    <td  valign="top" width="104"><font face="Arial, Helvetica, sans-serif" size="3"><strong><a name="5B.6"></a>5B.6 
+      What is &quot;Angle of Repose&quot;?</strong></font><strong><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;&nbsp;&nbsp;&nbsp;</font></strong><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+    <td valign="top" colspan="4"><font face="Arial, Helvetica, sans-serif" size="2">"Angle 
+      of repose" can be thought of as the <i>maximum</i> slope at which a cohesionless 
+      soil would be stable in its loosest state. Sometimes, however, those unfamiliar 
+      with slope stability analysis will refer to the "angle of internal friction," 
+      &phi;, as the angle of repose of the soil. From the results of the previous 
+      problems, it should be clear that all factors in the infinite slope equation 
+      must be properly accounted for in the determination of the repose angle 
+      for a soil and that the value of this angle depends on the specific set 
+      of conditions. There is only one set of conditions under which the angle 
+      of repose is equal to the angle of internal friction (as illustrated in 
+      <a href="#Problem_6">problem 6</a>). <i>If</i> the talus slope illustrated 
+      is truly at its angle of repose and <i>if</i> this is also the angle of 
+      internal friction, then soil cohesion, root strength, and ground water depth 
+      must all be zero and the deposit must be in its loosest state. Some (but 
+      not all) talus materials exist in nature at their <i>maximum stable</i> 
+      slope because of the nature of their origin. However, that is not always 
+      true due to the other factors that can control that slope angle. Rock talus 
+      deposits can be particularly troublesome if they have an angle of internal 
+      of friction of 40° or less and a stable road is to be constructed across 
+      them (as will be illustrated in problem <a href="ssg_5c.html#Problem_4">5C.4</a>).</font></td>
+  </tr>
+  <tr> 
+    <td  valign="top" width="104">&nbsp;</td>
+    <td colspan="4" rowspan="10" valign="top" bgcolor="IVORY"> <div align="left"> 
+        <hr>
+        <font size="2" face="Arial, Helvetica, sans-serif"><b><a name="Problem_6"></a></b><strong>Problem 
+        6.</strong></font> 
+        <p><font size="2" face="Arial, Helvetica, sans-serif">If the illustrated 
+          talus slope is at its angle of repose (maximum stable slope), what is 
+          the minimum value of the angle of internal friction, <i>&phi;</i>? In 
+          this problem, groundwater is not considered to be a factor (no phreatic 
+          surface is expected to develop in this case). What if it is?</font></p>
+        <p> <font size="2" face="Arial, Helvetica, sans-serif">Since d<sub>w</sub> 
+          = 0, use the equation for F in problem 1:</font></p>
+        <table width="44%" border="0" cellspacing="0" cellpadding="0">
+          <tr> 
+            <td rowspan="2" width="14%"> <div align="center"><font face="Times New Roman, Times, serif" size="3"><i>F</i> 
+                =</font></div></td>
+            <td width="86%"> <div align="center"><font face="Times New Roman, Times, serif" size="3"><u>C 
+                + &gamma;<i>d</i> cos</u><sup>2</sup><u>&alpha; tan&phi;&nbsp;</u></font></div></td>
+          </tr>
+          <tr> 
+            <td width="86%"> <div align="center"><font face="Times New Roman, Times, serif" size="3">&gamma;<i>d</i> 
+                sin&alpha; cos&alpha;&nbsp;</font></div></td>
+          </tr>
+        </table>
+        <p>&nbsp;</p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2">Since C = 0; </font></p>
+        <table width="65%" border="0" cellspacing="0" cellpadding="0">
+          <tr> 
+            <td rowspan="2" width="9%"><font face="Times New Roman, Times, serif" size="3"><i>F</i> 
+              = </font></td>
+            <td width="41%"> <div align="center"><font face="Times New Roman, Times, serif" size="3"><u>&gamma;<i>d</i> 
+                cos</u><sup>2</sup><u>&alpha; tan&phi;&nbsp;</u></font></div></td>
+            <td rowspan="2" width="5%"> <div align="center"><font face="Times New Roman, Times, serif" size="3">=</font></div></td>
+            <td width="21%"> <div align="center"><font face="Times New Roman, Times, serif" size="3"><u>cos&alpha;</u>&nbsp;</font></div></td>
+            <td rowspan="2" width="24%"><font face="Times New Roman, Times, serif" size="3">tan&phi;&nbsp;</font></td>
+          </tr>
+          <tr> 
+            <td width="41%"> <div align="center"><font face="Times New Roman, Times, serif" size="3">&gamma;<i>d</i> 
+                sin&alpha; cos&alpha;&nbsp;</font></div></td>
+            <td width="21%"> <div align="center"><font face="Times New Roman, Times, serif" size="3">sin&alpha;&nbsp;</font></div></td>
+          </tr>
+        </table>
+        <p>&nbsp; </p>
+        <font face="Arial, Helvetica, sans-serif" size="2"><img src="images/5/5b_eq592a.gif" width="206" height="266"></font></div>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">When F = 1.00:<BR>
+        &phi;<sub>min</sub> = &alpha; = 38.7° </font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">Note that when C and 
+        d<sub>w</sub> are both zero, soil depth, <i>d</i>, is no longer a factor 
+        in the analysis. If C is zero but d<sub>w</sub> is not, then the relationship 
+        between &alpha; and &phi; becomes:</font></p>
+      <font face="Arial, Helvetica, sans-serif" size="2">Note how similar this 
+      is to equation <a href="ssg_5a.html#Eq_5A1">5A.1</a> and to the simple block-failure 
+      analysis, but that is only because the radius of the circle has been factored 
+      out. This is the general form of the ordinary method of slices. A form more 
+      suitable for hand-calculation consistent with effective stress analysis 
+      with pore-water pressure computed from a phreatic surface can be developed 
+      by substitution of terms from figure <a href="ssg_5a.html#Fig_5A.5">5A.5</a>.</font> 
+      <div align="center"> 
+        <table width="65%" border="0" cellspacing="0" cellpadding="0">
+          <tr> 
+            <td rowspan="2" width="8%"><font face="Times New Roman, Times, serif" size="3"><i>F</i> 
+              = </font></td>
+            <td width="92%"> <div align="center"><font face="Times New Roman, Times, serif" size="3"><u>C 
+                + [&gamma;<i>d </i>+ (&gamma;</u><sub>sat</sub><u> - &gamma;</u><sub>w</sub><u> 
+                - &gamma;)<i>d</i></u><sub>w</sub><u>] cos</u><sup>2</sup><u>&alpha; 
+                tan&phi;&nbsp;</u></font></div></td>
+          </tr>
+          <tr> 
+            <td width="92%"> <div align="center"><font face="Times New Roman, Times, serif" size="3">[&gamma;<i>d</i> 
+                + (&gamma;<sub>sat</sub> - &gamma;)<i>d</i><sub>w</sub>] sin&alpha; 
+                cos&alpha;&nbsp;</font></div></td>
+          </tr>
+        </table>
+      </div>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">Since C = 0:</font> 
+      </p>
+      <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><img src="images/5/5b_eq592e.gif" width="288" height="54"> 
+        </font></div>
+      <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">However, 
+        at the extreme case, when <i>d<sub>w</sub></i> =<i> d</i>, then soil depth, 
+        <i>d</i>, is again no longer a factor:</font></div>
+      <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><img src="images/5/5b_eq592f.gif" width="175" height="52"></font></div>
+      <div align="left"> </div></td>
+  </tr>
+  <tr> 
+    <td  valign="top" width="104">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td  valign="top" width="104">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td  valign="top" width="104">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td  valign="top" width="104">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td  valign="top" width="104">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td  valign="top" width="104">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td  valign="top" width="104">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td  valign="top" width="104">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td  valign="top" width="104">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td  valign="top" width="104">&nbsp;</td>
+    <td colspan="4" valign="top" height="319" bgcolor="#CCCC99"> <div align="center"> 
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><b><a name="Fig_5B.5"></a></b><a href="images/5/5b_f01lg.gif"><img src="images/5/5b_f01lg.gif" width="299" height="285" border="1"></a></font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><i>Figure 5B.5.-Probabilistic 
+          comparison using LISA for the slope of figure <a href="#5B.3">5B.3</a>.</i></font></p>
+      </div></td>
+  </tr>
+  <tr> 
+    <td colspan="5"  valign="top"><hr></td>
+  </tr>
+  <tr> 
+    <td valign="top" width="104"><font size="2" face="Arial, Helvetica, sans-serif"><b><font size="3"><b><a name="5B.7"></a></b>5B.7 
+      Correlation Between Deterministic and Probabilistic Analyses</font></b></font></td>
+    <td valign="top" colspan="4" height="236"><font size="2" face="Arial, Helvetica, sans-serif">Section 
+      <a href="ssg_5a.html#5A.13">5A.13</a> discussed the differences between 
+      selection of single parametric values for deterministic analysis and a range 
+      of likely values for probabilistic analysis. It was noted that the single 
+      values used in deterministic analysis were more likely to be on the conservative 
+      end of the range, rather than the mean values from a probabilistic analysis 
+      for the same slope. In this section, that point is further illustrated through 
+      an example correlation between DLISA and LISA. <a href="#Fig_5B.5">Figure 
+      5B.5</a> is the printout of the results of LISA for the DLISA example from 
+      <a href="#Fig_5B.3">figure 5B.3</a>. The deterministic values from figure 
+      5B.3 were used as mean values for the LISA run. Even though not all of the 
+      distributions are normal, the distributions about the mean are fairly symmetrically 
+      distributed. The distribution of factors of safety, <i>F</i>, resulting 
+      from the analysis is also roughly equally distributed about the mean factor 
+      of safety. The mean factor of safety from LISA is shown to be very near 
+      the deterministic factor of safety (about 1.00) from DLISA and the probability 
+      of slope failure is estimated at about 0.5. From this example one can conclude 
+      that in probabilistic analysis, if parametric values are more or less symmetrically 
+      distributed about the mean, a factor of safety of one can be interpreted 
+      as having about a 50-50 chance of being stable or unstable. In deterministic 
+      analysis that is far from the dividing line between stability and instability, 
+      and single parametric values would be selected more conservatively through 
+      back-calculation analysis.</font></td>
+  </tr>
+</table>
+<p><!-- ======= FOOTER GRAPHIC =================================================== --></p>
+<p> 
+  <!-- ========================================================================= -->
+  <img src="images/navbar.gif" width="740" height="36" align="BOTTOM"
+   usemap="#b_pagingButtons.map" border="0" alt="Slope Stability Reference Guide for National Forests in the United States"> 
+  <br>
+  <!-- =======IMAGE MAP INFORMATION============================================== -->
+  <map name="b_pagingButtons.map"> 
+    <!--HOME-->    
+    <area shape="rect" coords="666,0,687,26" href="ssg_5b.html" alt="Section 5B">
+    <!--PREV-->    
+    <area shape="rect" coords="641,0,663,26" href="ssg_5a.html" alt="Section 5A">
+    <!--NEXT-->    
+    <area shape="RECT" coords="0,0,636,26" href="index.html" alt="SSG home">
+  </map>
+  <!-- ========================================================================= -->
+  <br>
+   <font face="Arial, Helvetica, sans-serif" size="1">USDA Forest Service<br>
+    <b>Slope Stability Reference Guide for National Forests in the United States, 1994.</b>
+    <br>
+    <a href="http://forest.moscowfsl.wsu.edu/ssg/">http://forest.moscowfsl.wsu.edu/ssg/</a> 
+    <br>Last Revised: 
+    <script language="javascript" type="text/javascript">
+     <!-- hide
+      document.write(document.lastModified)
+     // end hide -->
+    </script>
+   </font>
+  </p>
+ </body>
+</html>

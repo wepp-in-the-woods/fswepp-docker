@@ -1,0 +1,36 @@
+  <script type="text/javascript">
+   function popupfig(src,caption) {
+     height=620;
+     width=660;
+     popfig = window.open('','popfig','toolbar=no,location=no,status=no,directories=no,menubar=no,scrollbars=yes,resizable=yes,width='+width+',height='+height);
+     popfig.document.writeln('<html>')
+     popfig.document.writeln(' <head>')
+     popfig.document.writeln('  <title>Slope Stability ReferenceGuide for National Forests in the United States</title>')
+     popfig.document.writeln(' </head>')
+     popfig.document.writeln(' <body bgcolor="ivory" onLoad="self.focus">')
+     popfig.document.writeln('  <font face="trebuchet, tahoma, arial, helvetica, sans serif">')
+     popfig.document.writeln('   <center>')
+     popfig.document.writeln('    <h4>Slope Stability Reference Guide for National Forests in the United States</h4>')
+     popfig.document.writeln('     <img src='+src+'><br><br>')
+     popfig.document.writeln('   <font size=-1>')
+     popfig.document.writeln('     <i>'+caption+'</i>')
+     popfig.document.writeln('   </font>')
+     popfig.document.writeln('   <br><br>')
+     popfig.document.writeln('   </center>')
+     popfig.document.writeln('   <font size=-1>')
+     popfig.document.writeln('    USDA Forest Service<br>')
+     popfig.document.writeln('    Rocky Mountain Research Station<br>')
+     popfig.document.writeln('    Moscow Forestry Sciences Laboratory<br>')
+     popfig.document.writeln('    <b>Slope Stability Reference Guide for National Forests in the United States</b><br>')
+     popfig.document.writeln('    forest.moscowfsl.wsu.edu/ssg/')
+     popfig.document.writeln('   </font>')
+     popfig.document.writeln('  </font>')
+     popfig.document.writeln(' </body>')
+     popfig.document.writeln('</html>')
+     popfig.document.close()
+     popfig.focus()
+  }
+  </script>
+
+
+<a href="javascript:popupfig('','')">

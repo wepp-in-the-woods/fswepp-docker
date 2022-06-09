@@ -1,0 +1,161 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+ <head>
+  <title>SSG Section 5E: Soil Slopes - Levels I and II Probabilistic Analyses</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <!--
+    Hall, D.E.; Long, M.T.; Remboldt, M.D., editors. 1994.
+    Slope Stability Reference Guide for National Forests in the United States.
+    Prellwitz, R.W.; Koler, T.E.; Steward, J.E., coordinators.
+    Publication EM-7170-13.
+    Washington, DC: U.S. Department of Agriculture, U.S. Forest Service, Engineering Staff. 
+    3 volumes, 1091 p.
+    Corrected [2006] electronic version at http://forest.moscowfsl.wsu.edu/ssg/
+  -->
+  <style type="text/css">
+<!--
+A{color:#0000CC; font-family:Verdana, Arial, Helvetica, sans-serif;} A:hover{color:#ff00cc;} A:visited{color:#660099;} A:visited:hover{color:#ff00cc;} 
+p, ul, ol, blockquote {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11pt}
+P.indent {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11pt; margin-left: 20px}
+.active {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11pt; color:#666666;}
+.fig {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9pt;}
+.shead {  font-family: trebuchet MS, verdana, arial, helvetica, sans-serif; font-size: 12pt; font-weight: bold}
+.head {  font-family: trebuchet MS, verdana, arial, helvetica, sans-serif; font-size: 20pt; font-weight: bold}
+.headssg {  font-family: trebuchet MS, verdana, arial, helvetica, sans-serif; font-size: 14pt; font-weight: bold}
+.symb {  font-family: symbol; font-size: 11pt; font-weight: bold;}
+BR.pageEnd {page-break-after:always;}
+.text {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11pt; text-indent: 40px;}
+.smtext { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt}
+.vari {  font-family: "Times New Roman", Times, serif; font-size: 11pt; font-style: italic; font-weight: bold}
+.figSymb { font-family: symbol; font-size: 9pt; font-style: italic }
+.figVari {  font-family: "Times New Roman", Times, serif; font-size: 9pt; font-style: italic; font-weight: bold}
+.eq_label { font-family: verdana, Helvetica, sans-serif; font-size: 11pt; text-align: right;}
+.underline {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11pt; text-decoration: underline}
+-->
+  </style>
+  <script language="javascript" type="text/javascript">
+  <!--
+
+  function workWindow(theURL,winName,features) {
+    window.open(theURL,winName,features);
+  }
+  //-->
+  </script>
+ </head>
+
+ <body bgcolor="#FFFFFF" link="#3333FF" vlink="#990099">
+  <!-- BEGIN TOP NAVIGATION --> 
+  
+<table width="635" border="1" cellspacing="0" cellpadding="8" bgcolor="#CCCC99">
+  <tr>
+    <td> 
+      <p align="center">
+       <font face="Arial, Helvetica, sans-serif" size="2">
+        [ <a href="index.html">Slope Stability Reference Guide Home</A> ]<br>
+        [ <a href="ssg_5toc.html">Section 5 TOC</a> ] <BR>
+        [ &lt; <a href="ssg_5d.html">Section 5D </a> ]
+        [ <a href="ssg_5f.html">Section 5F </a> &gt; ]
+      </font>
+     </p>
+    </td>
+   </tr>
+  </table>
+<!-- END TOP NAVIGATION -->
+
+  
+<table width="635" border="0" cellspacing="2" cellpadding="2">
+  <tr> 
+    <td colspan="5" align="center" valign="top"> <font face="Arial, Helvetica, sans-serif" size="3"> 
+      <b>Slope Stability Reference Guide for National Forests in the United States<br>
+      Volume II, Chapter 5, Section E</b></font> <hr> </td>
+  </tr>
+  <tr> 
+    <td width="98" valign="top" > <div align="right"><strong><font face="Arial, Helvetica, sans-serif" size="4">5E.</font></strong></div></td>
+    <td valign="top" colspan="4" width="487"> <p><strong><font face="Arial, Helvetica, sans-serif" size="4"> 
+        Soil Slopes -- Levels I and II Probabilistic Analyses</font></strong></p></td>
+  </tr>
+  <tr> 
+    <td colspan="5"> <hr> </td>
+  </tr>
+  <tr> 
+    <td width="98" valign="top" ><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+    <td valign="top" colspan="4"  width="487"> <p><font face="Arial, Helvetica, sans-serif" size="2"><i>Rodney 
+        W. Prellwitz, Geotechnical Engineer, Intermountain Research Station</i></font></p></td>
+  </tr>
+  <tr> 
+    <td colspan="5"> <hr> </td>
+  </tr>
+  <tr> 
+    <td height="546" colspan="5" valign="top"><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif" size="2">In 
+      this section we intended to illustrate the use of probabilistic level I 
+      and II analyses. However, at the time of printing, the algorithms for the 
+      probabilistic level II program, SARA, were not completed; therefore, a comparative 
+      illustration of probabilistic level I and II analyses was not possible. 
+      Much of the pertinent information on probabilistic analysis at these levels 
+      is or will be covered in the LISA and SARA manuals. Intended to be covered 
+      here was a supplement to those references to demonstrate the application 
+      of these programs. When defining the areal distribution of parametric values 
+      for probabilistic analysis, it is important that the distribution is relative 
+      to the area under consideration. For example, in section <a href="ssg_5d.html">5D</a> 
+      the sensitivity sample problems were developed around map unit 45, which 
+      had some "broad brush" ranges for the parametric values. In this section, 
+      the intent was to define probabilistic distributions for parametric values 
+      as they are anticipated to vary over the entire map unit 45 and for subunits 
+      within the overall unit. The subunit distributions are expected to fall 
+      within the overall range but to be more representative of specific subunit 
+      characteristics. In this manner, the stability of draws, ridges, and other 
+      unique geomorphic features used in zonation of the area can be considered.</font> 
+      <p><font face="Arial, Helvetica, sans-serif" size="2">Probabilistic analyses 
+        for the natural slopes using LISA were intended to be run for both the 
+        overall unit and for the subunits. This can be visualized as conducting 
+        a probabilistic analysis for the natural slopes first with a level I data 
+        base and then with more refined data from a level II reconnaissance. It 
+        was anticipated that the probability of landslide occurrence in the natural 
+        slopes would be greater for some subunits than for others, and the overall 
+        probability of landslide occurrence on the entire map unit 45 would be 
+        lower than for some of the more sensitive subunits. This technique is 
+        very useful for correlation to landslide inventories and for doing a level 
+        II analysis to evaluate management impacts on natural slope stability 
+        of specific locations within the unit.</font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">A probabilistic analysis 
+        of constructed slopes using SARA was then intended. All three of the standard 
+        road templates were to be analyzed for the overall unit characteristics. 
+        For the subunits, only the most likely templates were to be analyzed-through-fill 
+        sections in the draws, full-bench sections at steeply plunging ridges, 
+        and self-balance sections for average slopes between the ridges and draws.</font></p>
+      <font face="Arial, Helvetica, sans-serif" size="2">Finally, a comparison 
+      of the probability of landslide occurrence on natural slopes and of the 
+      most likely constructed slopes was intended. It was anticipated that the 
+      results would better illustrate some of the observations made of the comparison 
+      of the sensitivity analyses in <a href="ssg_5d.html#5D.4">section 5D.4</a>.</font></td>
+  </tr>
+</table>
+<p><!-- ======= FOOTER GRAPHIC =================================================== --></p>
+<p> 
+  <!-- ========================================================================= -->
+  <img src="images/navbar.gif" width="703" height="36" align="BOTTOM"
+
+   usemap="#b_pagingButtons.map" border="0" alt="Slope Stability Reference Guide for National Forests in the United States"> 
+  <br>
+  <!-- =======IMAGE MAP INFORMATION============================================== -->
+  <map name="b_pagingButtons.map">
+    <!--HOME-->    <area shape="RECT" coords="0,0 605,26" href="index.html" alt="SSG home">
+    <!--PREV-->    <area shape="rect" coords="609,0,630,26" href="ssg_5d.html" alt="Section 5D">
+    <!--NEXT-->    <area shape="rect" coords="632,-1,651,26" href="ssg_5f.html" alt="Section 5F">
+  </map>
+  <!-- ========================================================================= -->
+  <br>
+   <font face="Arial, Helvetica, sans-serif" size="1">USDA Forest Service<br>
+    <b>Slope Stability Reference Guide for National Forests in the United States, 1994.</b>
+    <br>
+    <a href="http://forest.moscowfsl.wsu.edu/ssg/">http://forest.moscowfsl.wsu.edu/ssg/</a> 
+    <br>Last Revised: 
+    <script language="javascript" type="text/javascript">
+     <!-- hide
+      document.write(document.lastModified)
+     // end hide -->
+    </script>
+   </font>
+  </p>
+ </body>
+</html>

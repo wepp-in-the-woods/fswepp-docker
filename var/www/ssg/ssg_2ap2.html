@@ -1,0 +1,486 @@
+<html>
+ <head>
+  <title>SSG Appendix 2.2: LISA Problem Example</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style type="text/css">
+<!--
+A{color:#0000CC; font-family:Verdana, Arial, Helvetica, sans-serif;} A:hover{color:#ff00cc;} A:visited{color:#660099;} A:visited:hover{color:#ff00cc;} 
+p, ul, ol, blockquote {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11pt}
+P.indent {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11pt; margin-left: 20px}
+.active {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11pt; color:#666666;}
+.fig {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9pt;}
+.shead {  font-family: trebuchet MS, verdana, arial, helvetica, sans-serif; font-size: 12pt; font-weight: bold}
+.head {  font-family: trebuchet MS, verdana, arial, helvetica, sans-serif; font-size: 20pt; font-weight: bold}
+.headssg {  font-family: trebuchet MS, verdana, arial, helvetica, sans-serif; font-size: 14pt; font-weight: bold}
+.symb {  font-family: symbol; font-size: 11pt; font-weight: bold;}
+BR.pageEnd {page-break-after:always;}
+.text {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11pt; text-indent: 40px;}
+.smtext { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt}
+.vari {  font-family: "Times New Roman", Times, serif; font-size: 11pt; font-style: italic; font-weight: bold}
+.figSymb { font-family: symbol; font-size: 9pt; font-style: italic }
+.figVari {  font-family: "Times New Roman", Times, serif; font-size: 9pt; font-style: italic; font-weight: bold}
+.eq_label { font-family: verdana, Helvetica, sans-serif; font-size: 11pt; text-align: right;}
+.underline {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11pt; text-decoration: underline}
+-->
+</style>
+<script language="javascript" type="text/javascript">
+<!--
+
+function workWindow(theURL,winName,features) {
+  window.open(theURL,winName,features);
+}
+//-->
+</script>
+</head>
+<body bgcolor="#FFFFFF" link="#3333FF" vlink="#990099">
+<!-- BEGIN TOP NAVIGATION --> 
+<table width="602" border="1" cellspacing="0" cellpadding="10" bgcolor="#CCCC99">
+  <tr>
+    <td> 
+      <p align="center"><font face="Arial, Helvetica, sans-serif" size="2">
+        [ <a href="index.html">Slope Stability Reference Guide Home</A> ]<br>
+        [ <a href="ssg_2toc.html">Section 2 TOC</a> ]<br>
+        [ &lt; <a href="ssg_2ap1.html">Appendix 2.1</a> ]
+        [ <a href="ssg_2ap3.html">Appendix 2.3</a> &gt; ] </font></p>
+    </td>
+  </tr>
+</table>
+<!-- END TOP NAVIGATION -->
+<table width="605" border="0" cellspacing="2" cellpadding="8" height="5832">
+  <tr> 
+    <td colspan="5" align="center" valign="top">
+     <font face="Arial, Helvetica, sans-serif" size="3">
+      <b>Slope Stability Reference Guide for<br>
+      National Forests in the United States<br>
+      --<br>
+      Appendix 2.2</b></font>
+      <hr>
+    </td>
+  </tr>
+  <tr> 
+    <td width="87" valign="top" height="33"> 
+      <div align="right">
+       <font face="Arial, Helvetica, sans-serif" size="4">
+        <b>2.2</b>
+       </font>
+      </div>
+    </td>
+    <td class="head" valign="top" colspan="4" height="33" width="480">
+     <font face="Arial, Helvetica, sans-serif" size="4">
+      LISA Problem Example
+     </font>
+    </td>
+  </tr>
+  <tr> 
+    <td colspan="5" valign="top" height="30"> 
+      <hr>
+    </td>
+  </tr>
+  <tr> 
+    <td colspan="5" valign="top">
+      <p><font size="2" face="Arial, Helvetica, sans-serif">This example problem 
+        is reprinted from Level I Stability Analysis (LISA) documentation for 
+        Version 2.0 by C. Hammond, D. Hall, S. Miller, and P. Swetik, General 
+        Technical Report INT-285, U.S. Forest Service, Ogden, UT.</font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">There appears to be 
+        an error in <a href="#Table_6.2">Table 6.2</a>. The probability of failure 
+        (Pf) for polygon 5D (natural condition) should be about 0.08-0.09, for 
+        a moderate hazard rating.</font></p>
+    </td>
+  </tr>
+  <tr> 
+    <td class="shead" valign="top" colspan="5"> 
+      <hr>
+    </td>
+  </tr>
+  <tr> 
+    <td class="shead" valign="top" colspan="5" height="45"><font face="Arial, Helvetica, sans-serif" size="2"><b>CHAPTER 
+      6 - EXAMPLE APPLICATION: DARK 3 PLANNING AREA, GIFFORD PINCHOT NATIONAL 
+      FOREST </b></font></td>
+  </tr>
+  <tr> 
+    <td class="shead" valign="top" rowspan="20" width="87">&nbsp;</td>
+    <td valign="top" colspan="4" width="480"> 
+      <p><font size="2" face="Arial, Helvetica, sans-serif"><b>6.1 Introduction 
+        </b></font></p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif">The Dark 3 planning 
+        area is on the Randle Ranger District. Gifford Pinchot National Forest, 
+        in Washington (Pacific Northwest Region). Jones (1990) performed a Level 
+        I stability analysis over the entire area and evaluated three timber sale 
+        alternatives. Figure <a href="#Fig_6.1">6.1</a> shows the topographic 
+        map of the Dark 3 planning area and the Level I polygons. (Unlabeled polygons 
+        are primarily flood plain deposits and were not analyzed.) The District 
+        then requested additional analysis (Level II) on one harvest unit for 
+        which field observations supported by the initial LISA analysis indicated 
+        a high probability of failure after timber harvest. The District desired 
+        to harvest the potentially unstable unit for silvicultural reasons. Both 
+        analyses will be described in this chapter. (Using LISA to perform a Level 
+        II analysis is discussed in section 5.1.3.) </font></p>
+    </td>
+  </tr>
+  <tr> 
+    <td valign="top" colspan="4" rowspan="3" width="480"> 
+      <p><font size="2" face="Arial, Helvetica, sans-serif"><b>6.2 Geology, Soils, 
+        and Topography </b></font></p>
+      <p> <font size="2" face="Arial, Helvetica, sans-serif">The bedrock geology 
+        and soil conditions of the Dark 3 planning area are shown in the Geologic 
+        Resources and Conditions (GRC) map (fig. <a href="#Fig_6.2">6.2</a>). 
+        The bedrock geology of the western half of the area consists of extrusive 
+        igneous and minor pyroclastic rocks dipping to the west at 5 to 15 degrees. 
+        This bedrock forms a tablelike topographic surface with surface slopes 
+        ranging primarily from 20 to 50 percent. The overlying soils consist of 
+        2 to 5 (locally 10+) feet of colluvium and residuum (GW-SM) with minor 
+        amounts of glacial till (SM-GM and GMu). It was anticipated that this 
+        region would have few stability problems because of the gentle slopes 
+        and therefore was analyzed with only two LISA polygons (designated as 
+        3M and 4w in fig. <a href="#Fig_6.1">6.1</a>). </font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">A crescent-shaped 
+        area of steep ground with slopes generally greater than 70 percent extends 
+        from the northwestern to the southeastern boundary of the planning area. 
+        The soils of this steep crescent, which is the edge of the table of volcanic 
+        rocks, generally consist of 1 to 2 feet of coarse tephra overlying 2 to 
+        3 feet of colluvium and minor residuum developed from the underlying volcanics 
+        (sM-Gw). While most of the area appears dry and well drained, areas of 
+        springs and seeps are observed. The elevated groundwater and steep slopes 
+        apparently have caused rockfalls and debris avalanches, several of which 
+        are mapped on the GRC map. Because of the steep slopes and past failure 
+        activity, there was concern that timber harvest or road construction in 
+        the area would increase the mass failure potential with the possible impacts 
+        of loss of the soil resource and damage to the water quality and fisheries 
+        of Summit Prairie Creek. Therefore, the crescent was divided into several 
+        small polygons of four types (1D, 1M, 2D, 2M), differentiated by slope 
+        and groundwater conditions.</font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">In the northeastern 
+        third of the area, the bedrock consists of pyroclastic rocks with minor 
+        intrusive and extrusive igneous rocks. The bedrock is overlain by glacial 
+        till, colluvium, and residuum with minor alluvium, averaging 5 to 10 (locally 
+        30+) feet in thickness. The topography consists of moderate slopes (40 
+        to 90 percent). The area is generally considered to be dry with low failure 
+        potential and therefore was analyzed with one LISA polygon (5D).</font></p>
+    </td>
+  </tr>
+  <tr> </tr>
+  <tr> </tr>
+  <tr> 
+    <td valign="top" colspan="4" height="303" bgcolor="#CCCC99" width="480"> 
+      <div align="center"> 
+        <p><a name="Fig_6.1"></a><a href="images/2/app2_p102.gif" target="_blank"><img src="images/2/app2_p102.gif" width="249" height="245" border="1"></a></p>
+        <p><font size="2" face="Arial, Helvetica, sans-serif"><i>Figure 6.1 - 
+          Dark 3 planning area and Level I polygons.</i></font></p>
+      </div>
+    </td>
+  </tr>
+  <tr> 
+    <td valign="top" colspan="4" width="480"> 
+      <p><font size="2" face="Arial, Helvetica, sans-serif"><b>6.3 Polygon Delineation 
+        and Distribution Selection - Level I</b></font></p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif">Jones (1990) delineated 
+        polygons for the initial Level I analysis using 1:7,200 topographic maps 
+        and the soil/geology type as mapped in the GRC. In areas with slopes greater 
+        than 65 percent, additional polygons were delineated using low-altitude 
+        aerial photographs to better describe slope and groundwater characteristics. 
+        Initial soil type and soil depth estimates were obtained from the GRC 
+        map and the Soil Resource Inventory (SRI). Shear strength and unit weight 
+        values and distributions then were estimated from the USC classification 
+        and previous experience and by using table 5.4 and figure 5.11 of this 
+        manual. Groundwater distributions used were developed from the groundwater 
+        characteristics mapped on the GRC, field observations, and by using a 
+        catalog of distributions tied to various landforms developed by Wooten 
+        (1988). Root strength distributions used were those suggested by Wooten 
+        (1988) for a type B soil-root morphology class. Figure <a href="#Fig_6.3">6.3</a> 
+        contains Wooten's suggested distributions. Limited field checking was 
+        performed to verify office findings. Table <a href="#Table_6.1">6.1</a> 
+        gives the distributions used in the analysis.</font></p>
+    </td>
+  </tr>
+  <tr> 
+    <td valign="top" colspan="4" rowspan="2" width="480"> 
+      <p><font face="Arial, Helvetica, sans-serif" size="2"><b>8.4 Level I Results 
+        </b></font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">Table <a href="#Table_6.2">6.2</a> 
+        lists the ranges of the probabilities of failure for each polygon as estimated 
+        using the LISA program for both the natural and clearcut states. The range 
+        of probability of failure values was obtained from five simulations, each 
+        using a different seed number for the random number generator. The probabilities 
+        of failure for clearcut harvest are conditional on a "major" rainfall 
+        or rain-on-snow event occurring during the period of minimum root strength. 
+        Also given are relative probabilities of landslide hazard based on the 
+        experience and interpretation of the Gifford Pinchot National Forest geotechnical 
+        group. This scale can aid individuals not familiar with the LISA program 
+        and those uncomfortable with probability numbers in interpreting LISA 
+        results. It is not an absolute scale that would necessarily be applicable 
+        elsewhere; it is only a relative scale based on the experience of the 
+        geotechnical group on the Gifford Pinchot. </font></p>
+      <font face="Arial, Helvetica, sans-serif" size="2">The proposed cutting 
+      units for three timber sale alternatives were overlain on the LISA polygons, 
+      and the land area in low, moderate, and high failure-potential polygons 
+      was measured. These results are summarized in table <a href="#Table%206.3">6.3</a>. 
+      For each proposed cutting unit, the potential impacts should a failure occur 
+      were evaluated as either localized or as having the potential to deliver 
+      sediment to Summit Prairie Creek. One of the harvest units (unit 7) of timber 
+      sale alternative 1 was located partially in the high failure-potential polygon 
+      2M, with the potential impact of delivering sediment to the creek. Because 
+      of this LISA result, along with observations of instability along road 2325 
+      above unit 7, further analysis of the unit was deemed necessary. This analysis 
+      is discussed in the next two sections.</font></td>
+  </tr>
+  <tr> </tr>
+  <tr> 
+    <td valign="top" colspan="4" width="480"> 
+      <p><font size="2" face="Arial, Helvetica, sans-serif"><b>6.5 Polygon Delineation 
+        and Distribution Selection-Level II </b></font></p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif">Jones (1990) spent 
+        approximately 3.5 days in the field gathering slope, soil type, soil depth, 
+        and groundwater information to further evaluate the portion of the Dark 
+        3 planning unit surrounding harvest unit 7. Based on the field evaluation, 
+        Jones modified the polygons in that portion as shown in figure <a href="#Fig_6.4">6.4</a>. 
+        Slopes were measured with a cinometer and soil depth with a hand auger 
+        at random locations when a change in conditions was perceived. Jones recognized 
+        that depth measured to "refusal" using a hand auger may not necessarily 
+        be the depth to bedrock, as cobbles and boulders also can cause refusal. 
+        Therefore, the maximum depth used in the input distributions was somewhat 
+        greater than actually measured in the field. The soil type was finer textured 
+        (SP-SM) than was predicted by the GRC maps, with slightly plastic fines, 
+        and was easily excavated by hand (Dr of 25 to 45 percent). Shear strength 
+        and unit weight values for this different soil type were again estimated 
+        from table 5.4 and figure 5.11 of this manual. Several springs were observed 
+        in areas that were assumed to be dry in the Level I analysis, although 
+        the slopes were relatively dry overall. Therefore, distributions were 
+        developed to describe the observed conditions, rather than using the catalog 
+        of distributions developed by Wooten (1988). The distributions used for 
+        each polygon are given in table <a href="#Table_6.4">6.4</a>. 
+        </font></p>
+    </td>
+  </tr>
+  <tr> 
+    <td valign="top" colspan="4" bgcolor="#CCCC99" width="480"> 
+      <div align="center"> 
+        <p><i><a name="Fig_6.2"></a><a href="images/2/app2_p104.gif" target="_blank"><img src="images/2/app2_p104.gif" width="316" height="289" border="1"></a></i></p>
+        <p><i><font size="2" face="Arial, Helvetica, sans-serif">Figure 6.2 - 
+          Geologic Resources and Conditions (GRC) map for the Dark 3 planning 
+          area.</font></i></p>
+      </div>
+    </td>
+  </tr>
+  <tr> 
+    <td valign="top" colspan="4" bgcolor="#CCCC99" width="480"> 
+      <div align="center"> 
+        <p><i><a href="images/2/app2_p105a.gif" target="_blank"><img src="images/2/app2_p105a.gif" width="216" height="225" border="1"></a></i></p>
+        <p><i><font face="Arial, Helvetica, sans-serif" size="2">Fig 6.2 - Continued</font></i></p>
+      </div>
+    </td>
+  </tr>
+  <tr> 
+    <td valign="top" colspan="4" bgcolor="#CCCC99" width="480"> 
+      <div align="center"> 
+        <p><i><a name="Fig_6.3"></a><a href="images/2/app2_p106.gif" target="_blank"><img src="images/2/app2_p106.gif" width="362" height="269" border="1"></a></i></p>
+        <p><i><font size="2" face="Arial, Helvetica, sans-serif">Figure 6.3 - 
+          Root cohesion distributions suggested by Wooten (1988) for use on the 
+          Giffor Pinchot Natoinal Forest.</font></i></p>
+      </div>
+    </td>
+  </tr>
+  <tr> 
+    <td valign="top" colspan="4" bgcolor="#CCCC99" width="480"> 
+      <div align="center"> 
+        <p><i><font face="Arial, Helvetica, sans-serif" size="2"><a name="Table_6.1"></a><a href="images/2/app2_p107a.gif" target="_blank"><img src="images/2/app2_p107a.gif" width="307" height="224" border="1"></a></font></i></p>
+        <p><i><font face="Arial, Helvetica, sans-serif" size="2">Table 6.1 - Distributions 
+          used in the Dark 3 Level I analysis.</font></i></p>
+      </div>
+    </td>
+  </tr>
+  <tr> 
+    <td valign="top" colspan="4" bgcolor="#CCCC99" width="480"> 
+      <div align="center"> 
+        <p><i><font face="Arial, Helvetica, sans-serif" size="2"><a name="Table_6.2"></a><a href="images/2/app2_p107b.gif" target="_blank"><img src="images/2/app2_p107b.gif" width="340" height="240" border="1"></a></font></i></p>
+        <p><i><font face="Arial, Helvetica, sans-serif" size="2">Table 6.2 - Dark 
+          3 Level I results.</font></i></p>
+      </div>
+    </td>
+  </tr>
+  <tr> 
+    <td valign="top" colspan="4" bordercolor="#CCCCCC" bgcolor="#CCCC99" width="480"> 
+      <a name="Table 6.3"></a> 
+      <table width="94%" border="1" cellpadding=" " height="139">
+        <tr bgcolor="#FFFFFF"> 
+          <td width="35%" height="25"><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font></td>
+          <td colspan="3" height="25"> 
+            <div align="center"><font size="2" face="Arial, Helvetica, sans-serif">Acres 
+              affected</font></div>
+            <font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font></td>
+        </tr>
+        <tr bgcolor="#FFFFFF"> 
+          <td width="35%" height="19"><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font></td>
+          <td width="24%" height="19"> 
+            <div align="center"><font size="2" face="Arial, Helvetica, sans-serif">Alt. 
+              1</font></div>
+          </td>
+          <td width="19%" height="19"> 
+            <div align="center"><font size="2" face="Arial, Helvetica, sans-serif">Alt. 
+              2</font></div>
+          </td>
+          <td width="22%" height="19"> 
+            <div align="center"><font size="2" face="Arial, Helvetica, sans-serif">Alt. 
+              3</font></div>
+          </td>
+        </tr>
+        <tr bgcolor="#FFFFFF"> 
+          <td width="35%" height="19"><font size="2" face="Arial, Helvetica, sans-serif">Low 
+            hazard</font></td>
+          <td width="24%" height="19"> 
+            <div align="center"><font size="2" face="Arial, Helvetica, sans-serif">16.3</font></div>
+          </td>
+          <td width="19%" height="19"> 
+            <div align="center"><font size="2" face="Arial, Helvetica, sans-serif">13.7</font></div>
+          </td>
+          <td width="22%" height="19"> 
+            <div align="center"><font size="2" face="Arial, Helvetica, sans-serif">11.0</font></div>
+          </td>
+        </tr>
+        <tr bgcolor="#FFFFFF"> 
+          <td width="35%" height="20"><font size="2" face="Arial, Helvetica, sans-serif">Moderate 
+            hazard</font></td>
+          <td width="24%" height="20"> 
+            <div align="center"><font size="2" face="Arial, Helvetica, sans-serif">0.0</font></div>
+          </td>
+          <td width="19%" height="20"> 
+            <div align="center"><font size="2" face="Arial, Helvetica, sans-serif">0.0</font></div>
+          </td>
+          <td width="22%" height="20"> 
+            <div align="center"><font size="2" face="Arial, Helvetica, sans-serif">0.0</font></div>
+          </td>
+        </tr>
+        <tr bgcolor="#FFFFFF"> 
+          <td width="35%" height="4"><font size="2" face="Arial, Helvetica, sans-serif">High 
+            hazard</font></td>
+          <td width="24%" height="4"> 
+            <div align="center"><font size="2" face="Arial, Helvetica, sans-serif">4.5</font></div>
+          </td>
+          <td width="19%" height="4"> 
+            <div align="center"><font size="2" face="Arial, Helvetica, sans-serif">0.0</font></div>
+          </td>
+          <td width="22%" height="4"> 
+            <div align="center"><font size="2" face="Arial, Helvetica, sans-serif">0.0</font></div>
+          </td>
+        </tr>
+      </table>
+      <p align="center"><font size="2" face="Arial, Helvetica, sans-serif"><i>Table 
+        6.3 - Summary of potentially unstable slopes affected by timber harvest. 
+        </i> </font></p>
+    </td>
+  </tr>
+  <tr> 
+    <td valign="top" colspan="4" rowspan="2" width="480"> 
+      <p><font face="Arial, Helvetica, sans-serif" size="2"><b>6.6 Level II Results 
+        </b></font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">Table <a href="#Table_6.5">6.5</a> 
+        gives the probabilities of failure and relative landslide hazard for each 
+        polygon. The more detailed Level II analysis using the LISA program indicates 
+        that a large portion of harvest unit 7 has a very low to low probability 
+        of failure even after timber harvest, primarily because of the gentle 
+        slopes. How ever, approximately 4.7 acres lie in moderate landslide hazard 
+        ground with localized failure impact, and 3.9 acres lie in high landslide 
+        hazard ground with a high likelihood of sediment entering Summit Prairie 
+        Creek should a failure occur. </font></p>
+      <font size="2" face="Arial, Helvetica, sans-serif">Based on the Level II 
+      analysis, the District modified the unit boundary to omit the 3.9 acres 
+      having high landslide hazard. In addition, because of the observed indications 
+      of instability on the fill slope of road 2325 through the unit, Jones (1990) 
+      recommended that if timber sale alternative 1 was selected as the preferred 
+      alternative, further Level II analysis using the SARA program should be 
+      performed on the existing road and on any proposed new construction in harvest 
+      unit 7 to determine the need for further subsurface investigation, and stability 
+      analysis and design (Level III).</font></td>
+  </tr>
+  <tr> </tr>
+  <tr> 
+    <td valign="top" colspan="4" width="480" bgcolor="#CCCC99"> 
+      <div align="center"> 
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><a name="Fig_6.4"></a><a href="images/2/app2_p109.gif" target="_blank"><img src="images/2/app2_p109.gif" width="327" height="283" border="1"></a></font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><i>Figure 6.4 - 
+          Level II analysis polygons.</i></font></p>
+      </div>
+    </td>
+  </tr>
+  <tr> 
+    <td valign="top" colspan="4" width="480" bgcolor="#CCCC99"> 
+      <div align="center"> 
+        <p><i><font size="2" face="Arial, Helvetica, sans-serif"><a name="Table_6.4"></a><a href="images/2/app2_p110a.gif" target="_blank"><img src="images/2/app2_p110a.gif" width="233" height="258" border="1"></a></font></i></p>
+        <p><i><font size="2" face="Arial, Helvetica, sans-serif">Table 6.4 - Distributions 
+          used in the Dark 3 Level II analysis.</font></i></p>
+      </div>
+    </td>
+  </tr>
+  <tr> 
+    <td valign="top" colspan="4" hwidth="480" bgcolor="#CCCC99"> 
+      <div align="center"> 
+        <p><i><font face="Arial, Helvetica, sans-serif" size="2"><a name="Table_6.5"></a><img src="images/2/app2_p110b.gif" width="433" height="236"></font></i></p>
+        <p><i><font face="Arial, Helvetica, sans-serif" size="2">Table 6.5 - Dark 
+          3 Level II results.</font></i></p>
+      </div>
+    </td>
+  </tr>
+  <tr> 
+    <td class="shead" valign="top" width="87" height="136"><font face="Arial, Helvetica, sans-serif" size="3">References</font></td>
+    <td valign="top" colspan="4" height="136" width="480" bgcolor="#FFFFFF"> <font face="Arial, Helvetica, sans-serif" size="2">Jones, 
+      S. 1990. Dark 3 timber sale slope stability. Packwood, WA: U.S. Department 
+      of Agriculture, Forest Service, Gifford Pinchot National Forest. Unpublished 
+      report.</font> 
+      <p><font face="Arial, Helvetica, sans-serif" size="2">Wooten, R.M. 1988. 
+        Level I stability analysis validation report. Cook, WA: U.S. Department 
+        of Agriculture, Forest Service, Gifford Pinchot National Forest, Zone 
+        II Engineering. Unpublished report.</font></p>
+    </td>
+  </tr>
+</table>
+<p> 
+  <!-- ======= FOOTER GRAPHIC =================================================== -->
+  <img src="images/navbar.gif" width="703" height="36" align="BOTTOM"
+   usemap="#b_pagingButtons.map" border="0" alt="Slope Stability Reference Guide for National Forests in the United States"> 
+  <!-- ========================================================================= -->
+  <br>
+  <!-- =======IMAGE MAP INFORMATION============================================== -->
+  <map name="b_pagingButtons.map"> 
+    <!--HOME-->    <area shape="RECT" coords="0,0 605,26" href="/index.html">
+    <!--PREV-->    <area shape="rect" coords="608,0,629,26" href="ssg_2ap1.html">
+    <!--NEXT-->    <area shape="RECT" coords="632,0 652,26" href="ssg_2ap3.html">
+  </map>
+  <!-- ========================================================================= -->
+  <b><br>
+  </b><font size=1>USDA Forest Service <b><br>
+  Slope Stability Reference Guide for National Forests in the United States, 1994. 
+  <br>
+  <a href="http://forest.moscowfsl.wsu.edu/ssg/">http://forest.moscowfsl.wsu.edu/ssg/</a> 
+  </b></font><b> 
+  <!--
+<table width="660" border="0" cellspacing="0" cellpadding="8" bgcolor="#CCCC99">
+ <tr>
+  <td colspan=2>
+      <p><font face="Arial, Helvetica, sans-serif"><font size=1>
+    Hall, D.E.; Long, M.T.; Remboldt, M.D., editors. 1994.
+    <b>Slope 
+    Stability Reference Guide for National Forests in the United States.</b> Prellwitz, 
+    R.W.; Koler, T.E.; Steward, J.E., coordinators. Publication EM-7170-13. Washington, 
+    DC: U.S. Department of Agriculture, U.S. Forest Service, Engineering Staff. 
+    3 volumes, 1091 p.&nbsp;&nbsp;
+    Corrected [March 2002] electronic version at 
+    <a href="http://forest.moscowfsl.wsu.edu/ssg/">http://forest.moscowfsl.wsu.edu/ssg/</a>
+  </td>
+ </tr>
+ <tr>
+  <td align="left"><a href="">&lt;</a></td>
+  <td align="right"><a href="">&gt;</a></td>
+ </tr>
+</table>
+-->
+  <!-- ========================================================================= -->
+  <br>
+  </b><font face="Arial, Helvetica, sans-serif" size="1"> Last Revised: 
+  <script>
+<!-- hide
+document.write(document.lastModified)
+// end hide -->
+</script>
+  </font> </p>
+</body>
+</html>

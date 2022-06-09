@@ -1,0 +1,1520 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+ <head>
+  <title>SSG Section 5A: Fundamentals and Derivations</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <!--
+    Hall, D.E.; Long, M.T.; Remboldt, M.D., editors. 1994.
+    Slope Stability Reference Guide for National Forests in the United States.
+    Prellwitz, R.W.; Koler, T.E.; Steward, J.E., coordinators.
+    Publication EM-7170-13.
+    Washington, DC: U.S. Department of Agriculture, U.S. Forest Service, Engineering Staff. 
+    3 volumes, 1091 p.
+    Corrected [2006] electronic version at http://forest.moscowfsl.wsu.edu/ssg/
+  -->
+  <style type="text/css">
+   <!--
+A{color:#0000CC; font-family:Verdana, Arial, Helvetica, sans-serif;} A:hover{color:#ff00cc;} A:visited{color:#660099;} A:visited:hover{color:#ff00cc;} 
+p, ul, ol, blockquote {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11pt}
+P.indent {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11pt; margin-left: 20px}
+.active {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11pt; color:#666666;}
+.fig {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9pt;}
+.shead {  font-family: trebuchet MS, verdana, arial, helvetica, sans-serif; font-size: 12pt; font-weight: bold}
+.head {  font-family: trebuchet MS, verdana, arial, helvetica, sans-serif; font-size: 20pt; font-weight: bold}
+.headssg {  font-family: trebuchet MS, verdana, arial, helvetica, sans-serif; font-size: 14pt; font-weight: bold}
+.symb {  font-family: symbol; font-size: 11pt; font-weight: bold;}
+BR.pageEnd {page-break-after:always;}
+.text {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11pt; text-indent: 40px;}
+.smtext { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt}
+.vari {  font-family: "Times New Roman", Times, serif; font-size: 11pt; font-style: italic; font-weight: bold}
+.figSymb { font-family: symbol; font-size: 9pt; font-style: italic }
+.figVari {  font-family: "Times New Roman", Times, serif; font-size: 9pt; font-style: italic; font-weight: bold}
+.eq_label { font-family: verdana, Helvetica, sans-serif; font-size: 11pt; text-align: right;}
+.underline {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11pt; text-decoration: underline}
+   -->
+  </style>
+  <script language="javascript" type="text/javascript">
+   <!--
+   function workWindow(theURL,winName,features) {
+     window.open(theURL,winName,features);
+   }
+  //-->
+  </script>
+ </head>
+ <body bgcolor="#FFFFFF" link="#3333FF" vlink="#990099">
+
+<!-- BEGIN TOP NAVIGATION -->
+  <table width="655" border="1" cellspacing="0" cellpadding="8" bgcolor="#CCCC99">
+   <tr>
+    <td width="651"> 
+     <p align="center">
+      <font face="Arial, Helvetica, sans-serif" size="2">
+        [ <a href="index.html">Slope Stability Reference Guide Home</a> ]<br>
+        [ <a href="ssg_5toc.html">Section 5 TOC</a> ]<br>
+        [ &lt; <a href="ssg_5toc.html">Section 5 TOC</a> ]
+        [ <a href="ssg_5b.html">Section 5B</a> &gt; ]
+      </font>
+     </p>
+    </td>
+   </tr>
+  </table>
+<!-- END TOP NAVIGATION -->
+
+  
+<table width="664" border="0" cellspacing="2" cellpadding="2">
+  <tr> 
+    <td colspan="5" align="center" valign="top"><font face="Arial, Helvetica, sans-serif"><font size="3"><b>Slope 
+      Stability Reference Guide for National Forests in the United States <br>
+      Volume II, Chapter 5, Section A </b></font></font> <hr> </td>
+  </tr>
+  <tr> 
+    <td width="125" valign="top"><font face="Arial, Helvetica, sans-serif" size="4">&nbsp;</font></td>
+    <td valign="top" colspan="4"><strong><font face="Arial, Helvetica, sans-serif" size="4">5A. 
+      Fundamentals and Derivations </font></strong></td>
+  </tr>
+  <tr> 
+    <td colspan="5"> <hr> </td>
+  </tr>
+  <tr> 
+    <td width="125" valign="top"><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+    <td class="fig" valign="top" colspan="4"> <blockquote> 
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><i>Rodney W. Prellwitz, 
+          Geotechnical Engineer, Intermountain Research Station</i></font></p>
+        <p><i><font face="Arial, Helvetica, sans-serif" size="2">Michael D. Remboldt, 
+          Geotechnical Engineer, Payette National Forest</font></i></p>
+      </blockquote></td>
+  </tr>
+  <tr> 
+    <td colspan="5"> <hr> </td>
+  </tr>
+  <tr> 
+    <td  valign="top" rowspan="3"><font face="Arial, Helvetica, sans-serif" size="3"><strong><a name="5A.1"></a>5A.1 
+      Introduction and Suggestions for Use</strong></font><strong><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></strong></td>
+    <td valign="top" colspan="4"> <p><font face="Arial, Helvetica, sans-serif" size="2">In 
+        section <a href="ssg_4toc.html">4</a> a thorough discussion of soil and 
+        rock unit weight and shear strength was presented. Also presented were 
+        the principles of Mohr-Coulomb and effective stress. In this section, 
+        these principles will be assembled into stability analysis algorithms. 
+        These algorithms will be the core analyses for the three-level slope stability 
+        analysis system (figure <a href="#Fig_5A.1">5A.1</a>) as applicable to 
+        typical forest management activities.<br>
+        </font></p></td>
+  </tr>
+  <tr> 
+    <td bgcolor="#CCCC99" valign="top" colspan="4" height="346"> <div align="center"> 
+        <p><font size="2" face="Arial, Helvetica, sans-serif"><a name="Fig_5A.1"></a><img src="images/5/5a_f01.gif" width="369" height="294"></font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><i>Figure 5A.1. 
+          - Slope stability analysis flowchart with the portion section 5 deals 
+          with shaded.</i></font></p>
+      </div></td>
+  </tr>
+  <tr> 
+    <td bgcolor="#FFFFFF" valign="top" colspan="4"> <p align="left"><font face="Arial, Helvetica, sans-serif" size="2">All 
+        of the slope stability analysis techniques in the three-level system have 
+        been or are being programmed for the personal computer and are being made 
+        available to all Forest Service users. Every effort is being made to make 
+        these programs easy to use. In fact, they are so easy to use that anyone, 
+        with or without fundamental soil and rock mechanics skills, can use them 
+        to develop "answers." The danger is that by making these tools more functional 
+        for the qualified user, we increase the potential for misuse by the unqualified 
+        user. This poses a fundamental question of responsibility for the software 
+        developer. Where does the responsibility of the developer end in the application 
+        of the product? We software developers feel that it is our responsibility 
+        to develop functional software which, in the hands of the qualified user, 
+        will provide the vehicle on which sound forest management decisions can 
+        be made in a cost-effective manner. We also feel it is our responsibility 
+        to document and instruct the qualified user on the limitations and use 
+        of the techniques. </font></p>
+      <p align="left"><font face="Arial, Helvetica, sans-serif" size="2">It is 
+        the software user's responsibility to know and understand the basis for 
+        and the limitations of the software selected for analysis. If you are 
+        unfamiliar with slope stability analysis, it would be wise for you to 
+        read through the following algorithm derivations carefully and become 
+        familiar with the concepts on which the various methods are founded. None 
+        of the mathematics in the derivations goes beyond high-school-level algebra 
+        or trigonometry, so you should be able to follow it. It may take several 
+        times through before the mechanics become clear. If they do not become 
+        clear, please pursue additional training in fundamental soil and rock 
+        mechanics before using the software that employs these techniques as core 
+        algorithms. Even the experienced user will benefit from an occasional 
+        refresher in these fundamentals. If you are familiar with the derivations, 
+        you may want to skip over sections <a href="#5A.3">5A.3</a> through <a href="#5A.12">5A.12</a>.</font></p></td>
+  </tr>
+  <tr> 
+    <td colspan="5" valign="top" ><hr></td>
+  </tr>
+  <tr> 
+    <td  valign="top" width="125"><font face="Arial, Helvetica, sans-serif" size="3"><strong><a name="5A.2"></a>5A.2 
+      Mode of Failure</strong></font></td>
+    <td valign="top" colspan="4"> <p><font face="Arial, Helvetica, sans-serif" size="2">It 
+        is imperative that the slope stability analysis properly model the mode 
+        of slope failure most likely to occur under the prevailing site conditions. 
+        In static soil and rock mechanical analysis, two broad groups of failure 
+        modes, translational and rotational, are analyzed based primarily on the 
+        general shape of failure surface (Figure <a href="#Fig_5A.2">5A.2</a>).</font></p></td>
+  </tr>
+  <tr> 
+    <td width="125" valign="top"><b><font face="Arial, Helvetica, sans-serif" size="2">Translational</font></b></td>
+    <td valign="top" colspan="4"> <p><font face="Arial, Helvetica, sans-serif" size="2">Translational 
+        failures are the more planar-shaped failures with the slope of the failure 
+        surface fairly constant for the significant length of slope of interest. 
+        This is a common mode of relatively shallow failures in mountainous terrain 
+        due to the effects of ground water seepage parallel to a subsurface drainage 
+        barrier.</font></p></td>
+  </tr>
+  <tr> 
+    <td width="125" valign="top"><b><font face="Arial, Helvetica, sans-serif" size="2">Rotational</font></b></td>
+    <td valign="top" colspan="4"> <p><font face="Arial, Helvetica, sans-serif" size="2">Rotational 
+        failures have a circular-arc or logarithmic-spiral shaped failure surface. 
+        This is a common mode of relatively deep-seated failure for steep constructed 
+        slopes. Due to the circular shape, both a moment analysis and a force 
+        analysis can be made, as will be discussed in the derivations.</font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2"> Often the shape of 
+        the failure surface or sequence of failure is such that the analysis model 
+        does not fit completely into either the translational or rotational mold, 
+        but is somewhere between. Two common examples of such failure types are 
+        block failures and progressive failures (Figure <a href="#Fig_5A.2">5A.2</a>).</font></p></td>
+  </tr>
+  <tr> 
+    <td width="125" valign="top" ><b><font face="Arial, Helvetica, sans-serif" size="2">Block</font></b></td>
+    <td valign="top" colspan="4" > <p><font face="Arial, Helvetica, sans-serif" size="2">Block 
+        failures may have a failure surface which is circular-arc in shape except 
+        for a significant planar-shaped segment adjacent to a drainage barrier, 
+        or at a contact with a material of significantly higher shear strength, 
+        or both. Usually the shape is analyzed as a "block" with more than one 
+        planar surface. </font></p></td>
+  </tr>
+  <tr> 
+    <td width="125" >&nbsp;</td>
+    <td valign="top" colspan="4" bgcolor="#CCCC99" bordercolor="#FFFFFF" > <p align="center"><font size="2" face="Arial, Helvetica, sans-serif"><a name="Fig_5A.2"></a><a href="images/5/5a_f02.gif" target="_blank"><i><img src="images/5/5a_f02.gif" width="334" border="1"></i></a></font></p>
+      <p align="center"><i><font face="Arial, Helvetica, sans-serif" size="2">Figure 
+        5A.2. - Modes of slope failure.</font></i></p></td>
+  </tr>
+  <tr> 
+    <td width="125" valign="top"><font face="Arial, Helvetica, sans-serif" size="2"><b>Progressive</b></font></td>
+    <td valign="top" colspan="4"> <p><font face="Arial, Helvetica, sans-serif" size="2">Progressive 
+        failures do not occur instantaneously, but progress into different modes 
+        as a chain of cause-effect action-reaction events. Because we seldom observe 
+        slope failures as they occur, it is difficult to estimate how many failures 
+        on Forest Service lands occur in this manner, but postmortem back-calculation 
+        analyses indicate that there must be a significant number. Fill slope 
+        failures, a common type of progressive failure on Forest Service roads, 
+        begin as rotational failures with ground water entering the slide mass 
+        and progress into translational debris avalanches as the ground water 
+        builds up additional pore-water pressure due to the initial movement. 
+        This will be illustrated in the sample problems. Another example of a 
+        progressive failure is a "hummocky" slope, a series of circular-arc failures 
+        which interact into an overall translational failure of the entire slope. 
+        </font></p></td>
+  </tr>
+  <tr> 
+    <td colspan="5" valign="top"><hr></td>
+  </tr>
+  <tr> 
+    <td valign="top" width="125"><font size="2" face="Arial, Helvetica, sans-serif"><b><b><font size="3"><a name="5A.3"></a></font></b><font size="3">5A.3 
+      Mohr-Coulomb, Factor of Safety, and Limit Equilibrium</font></b></font><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font> 
+    </td>
+    <td valign="top" colspan="4" > <p><font face="Arial, Helvetica, sans-serif" size="2">All 
+        methods of slope stability analysis used in this guide conform to some 
+        degree of limiting equilibrium of static soil or rock mechanics. "Limit 
+        equilibrium" means that a relationship is established between the shear 
+        strength of the material available to resist failure and some condition 
+        of shear forces which are present to cause failure. This is commonly expressed 
+        in the form of a "factor of safety" equation: </font></p>
+      <CENTER>
+        <table width="50%" border="0" cellspacing="0" cellpadding="0" >
+          <tr> 
+            <td rowspan="2" width="44%"><font face="Arial, Helvetica, sans-serif" size="2">Factor 
+              of Safety =</font></td>
+            <td width="56%" > <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><u>Available 
+                Shear Strength</u></font></div></td>
+          </tr>
+          <tr> 
+            <td width="56%" > <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">Shearing 
+                Forces</font></div></td>
+          </tr>
+        </table>
+      </CENTER></td>
+  </tr>
+  <tr> 
+    <td valign="top" width="125">&nbsp;</td>
+    <td valign="top" colspan="4"> <p><font face="Arial, Helvetica, sans-serif" size="2">The 
+        available shear strength is usually defined in accordance with Mohr-Coulomb 
+        failure criteria with cohesive and frictional components:</font></p>
+      <p align="left"><font size="3" face="Times New Roman, Times, serif">&tau; 
+        = &Delta;<i>C</i> + &Delta;<i>N' </i>tan &#248;</font><font size="2" face="Arial, Helvetica, sans-serif"> 
+        . </font></p></td>
+  </tr>
+  <tr> 
+    <td valign="top" width="125">&nbsp;</td>
+    <td valign="top" colspan="4"><font face="Arial, Helvetica, sans-serif" size="2">Then: 
+      </font></td>
+  </tr>
+  <tr> 
+    <td valign="top" width="125">&nbsp;</td>
+    <td valign="top" colspan="2"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a name="Eq_5A1"></a></font> 
+        <table width="42%" border="0" cellspacing="0" cellpadding="0">
+          <tr> 
+            <td rowspan="2" width="18%"> <div align="right"><font face="Times New Roman, Times, serif" size="3"><i>F</i> 
+                =</font></div></td>
+            <td width="82%"> <div align="center"><font face="Times New Roman, Times, serif" size="3"><u>&Delta;<i>C</i> 
+                + &Delta;<i>N</i>' tan &phi;&nbsp;</u></font></div></td>
+          </tr>
+          <tr> 
+            <td width="82%"> <div align="center"><font face="Times New Roman, Times, serif" size="3">&Delta;<i>S</i>&nbsp;</font></div></td>
+          </tr>
+        </table>
+      </div></td>
+    <td valign="top" width="45" ><font face="Arial, Helvetica, sans-serif" size="2">(5A.1)</font></td>
+    <td valign="top" width="4" ><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+  </tr>
+  <tr> 
+    <td valign="top" width="125">&nbsp;</td>
+    <td valign="top" colspan="4"> <p align="left"><font face="Arial, Helvetica, sans-serif" size="2">where:</font></p>
+      <blockquote> 
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><i>F</i> = factor 
+          of safety against failure of the slope</font></p>
+        <p><font face="Times New Roman, Times, serif" size="3">&Delta;</font><font face="Arial, Helvetica, sans-serif" size="2"><i>C</i> 
+          = available cohesive strength of the material,ppf</font></p>
+        <p><font face="Times New Roman, Times, serif" size="3">&Delta</font><font face="Arial, Helvetica, sans-serif" size="2">;<I>N</I>' 
+          tan &#248; = available effective frictional strength,ppf</font></p>
+        <p><font face="Times New Roman, Times, serif" size="3">&Delta;</font><font face="Arial, Helvetica, sans-serif" size="2">S 
+          = shearing force acting on the material,ppf</font></p>
+        <p><font face="Times New Roman, Times, serif" size="3">&tau;</font><font face="Arial, Helvetica, sans-serif" size="2"> 
+          = available shear strength, ppf</font></p>
+      </blockquote></td>
+  </tr>
+  <tr> 
+    <td valign="top" width="125">&nbsp;</td>
+    <td valign="top" colspan="4"> <p align="left"><font face="Arial, Helvetica, sans-serif" size="2">Frictional 
+        strength is defined in an effective stress format, which will be consistent 
+        for all analyses in the three-level system. This means that pore-water 
+        pressure must be determined and incorporated into the calculation for 
+        the effective normal force, &Delta;N'. The units are in a unit force basis, 
+        pounds per foot of depth in the third dimension. This is consistent with 
+        two-dimensional analysis, which will be further explained.</font></p>
+      <p align="left"><font face="Arial, Helvetica, sans-serif" size="2">Equation 
+        <a href="#Eq_5A1">5A.1</a> can be rearranged and <font face="Times New Roman, Times, serif" size="3">&Delta;</font>S 
+        defined as "mobilized shear strength," which is the portion of the available 
+        shear strength required to prevent slope failure according to certain 
+        specific limit equilibrium criteria. This will be further explained in 
+        the derivation of the various "methods of slices" algorithms. Mobilized 
+        shear strength will be used in these derivations:</font></p></td>
+  </tr>
+  <tr> 
+    <td valign="top" width="125">&nbsp;</td>
+    <td valign="top" colspan="2"> <div align="center"> 
+        <table width="42%" border="0" cellspacing="0" cellpadding="0">
+          <tr> 
+            <td rowspan="2" width="18%"> <div align="right"><font face="Times New Roman, Times, serif" size="3"><i>&Delta;S</i> 
+                =</font></div></td>
+            <td width="82%"> <div align="center"><font face="Times New Roman, Times, serif" size="3"><u>&Delta;<i>C</i> 
+                + &Delta;<i>N</i>' tan &phi;&nbsp;</u></font></div></td>
+          </tr>
+          <tr> 
+            <td width="82%"> <div align="center"><font face="Times New Roman, Times, serif" size="3"><i>F&nbsp;</i></font></div></td>
+          </tr>
+        </table>
+      </div></td>
+    <td valign="top" width="45" ><font size="2" face="Arial, Helvetica, sans-serif">5A.2<a name="Eq_5a2"></a></font></td>
+    <td valign="top" width="4" ><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font></td>
+  </tr>
+  <tr> 
+    <td colspan="5" valign="top"><hr></td>
+  </tr>
+  <tr> 
+    <td width="125" valign="top"><font size="2" face="Arial, Helvetica, sans-serif"><b><b><font size="3"><a name="5A.4"></a></font></b><font size="3">5A.4 
+      Simple Three-Dimensional and Two-Dimensional Analyses</font> </b></font><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font> 
+      <font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font></td>
+    <td colspan="4"><font face="Arial, Helvetica, sans-serif" size="2">Consider 
+      a simple rectangular block of soil or rock with unit weight <font face="Times New Roman, Times, serif" size="3">&gamma;</font>, 
+      and dimensions <i>X</i>, Y, and Z (Figure <a href="#Fig_5A.3">5A.3</a>). 
+      In the simplest case, without ground water forces acting on it, the block 
+      is placed on a plane and the angle of inclination, &alpha;, increased until 
+      failure occurs. At the conditions of failure, limiting equilibrium is established 
+      so that all of the available shear strength is mobilized:</font> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">&Delta;S 
+        = &Delta;C + &Delta;N' tan &#248;.&nbsp;</font></div></td>
+  </tr>
+  <tr> 
+    <td width="125" valign="top">&nbsp;</td>
+    <td valign="top" colspan="4" bgcolor="#CCCC99" > <div align="center"> 
+        <p><font size="2" face="Arial, Helvetica, sans-serif"><a name="Fig_5A.3"></a><a href="images/5/5a_f03.gif" target="_blank"><img src="images/5/5a_f03.gif" width="426" height="238" border="1"></a></font></p>
+        <p><font size="2" face="Arial, Helvetica, sans-serif"><i>Figure 5A.3 - 
+          Simple block in three-dimensional and two-dimensional failure. </i></font></p>
+      </div></td>
+  </tr>
+  <tr> 
+    <td width="125" valign="top">&nbsp;</td>
+    <td valign="top" colspan="4"> <p><font face="Arial, Helvetica, sans-serif" size="2">In 
+        a three-dimensional analysis:</font></p>
+      <blockquote> 
+        <p><font face="Times New Roman, Times, serif" size="3">&Delta;</font><font face="Arial, Helvetica, sans-serif" size="2"><i>W</i> 
+          = &gamma; <i>X Y Z</i> = (120 pcf) (5 ft) (3 ft) (10 ft) = 18,000 lb 
+          </font></p>
+        <p><font face="Times New Roman, Times, serif" size="3">&Delta;</font><font face="Arial, Helvetica, sans-serif" size="2"><i>S</i> 
+          = &Delta;<i>W</i> sin &alpha; = (18,000 lb) (sin 36.9°) = 10,808 lb</font></p>
+        <p><font face="Times New Roman, Times, serif" size="3">&Delta;</font><font face="Arial, Helvetica, sans-serif" size="2"><i>N'</i> 
+          = &Delta;<i>W</i> cos &alpha; = (18,000 lb) (cos 36.9°) = 14,394 lb</font></p>
+        <p><font face="Times New Roman, Times, serif" size="3">&Delta;</font><font face="Arial, Helvetica, sans-serif" size="2"><i>C</i> 
+          = <i>C</i> (Area of Base) = C X Z = (50 psf) (5 ft) (10 ft) = 2,500 
+          lb</font></p>
+        <p><font face="Times New Roman, Times, serif" size="3">&Delta;</font><font face="Arial, Helvetica, sans-serif" size="2"><i>N' 
+          </i>tan &#248; = (14,394 lb) (tan 30°) = 8,311 lb</font></p>
+      </blockquote>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">where:</font></p>
+      <blockquote> 
+        <p><font face="Times New Roman, Times, serif" size="3">&Delta;</font><font face="Arial, Helvetica, sans-serif" size="2"><i>W</i> 
+          is the weight of the block,</font></p>
+        <p><font face="Times New Roman, Times, serif" size="3">&Delta;</font><font face="Arial, Helvetica, sans-serif" size="2"><i>S</i> 
+          is shear force or mobilized shear strength,</font></p>
+        <p><font face="Times New Roman, Times, serif" size="3">&Delta;</font><font face="Arial, Helvetica, sans-serif" size="2"><i>N'</i> 
+          </font><font face="Arial, Helvetica, sans-serif" size="2">is effective 
+          normal force (with no water),</font></p>
+        <p><font face="Times New Roman, Times, serif" size="3">&Delta;</font><font face="Arial, Helvetica, sans-serif" size="2"><i>C</i> 
+          is available cohesive strength,&Delta;N' tan &#248; is available frictional 
+          strength,</font></p>
+        <p><font face="Times New Roman, Times, serif" size="3">&alpha;</font><font face="Arial, Helvetica, sans-serif" size="2"> 
+          is angle of inclination,</font></p>
+        <p><font face="Times New Roman, Times, serif" size="3">&gamma;</font><font face="Arial, Helvetica, sans-serif" size="2"> 
+          is unit weight of the rock or soil.</font></p>
+      </blockquote>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">At failure when limit 
+        equilibrium is established, equation <a href="#Eq_5A1">5A.1</a> should 
+        yield a factor of safety against failure, F, of 1.00:</font></p>
+      <div align="center"> 
+        <table width="60%" border="0" cellspacing="0" cellpadding="0">
+          <tr> 
+            <td rowspan="2" width="10%"> <div align="right"><font face="Times New Roman, Times, serif" size="3"><i>F</i> 
+                = </font></div></td>
+            <td width="32%" height="37"> <div align="center"><font face="Times New Roman, Times, serif" size="3"><u>&Delta;<i>C</i>+ 
+                &Delta;<i>N'</i> tan &phi;</u></font></div></td>
+            <td rowspan="2" width="5%"> <div align="center"><font face="Times New Roman, Times, serif" size="3">=</font></div></td>
+            <td width="36%" height="37"> <div align="center"><font face="Times New Roman, Times, serif" size="3"><u>2500 
+                lb + 8311 lb</u></font></div></td>
+            <td rowspan="2" width="17%"> <div align="left"><font face="Times New Roman, Times, serif" size="3">= 
+                1.00</font></div></td>
+          </tr>
+          <tr> 
+            <td width="32%"> <div align="center"><font face="Times New Roman, Times, serif" size="3">&Delta;<i>S</i></font></div></td>
+            <td width="36%"> <div align="center"><font face="Times New Roman, Times, serif" size="3">10,808 
+                lb</font></div></td>
+          </tr>
+        </table>
+        <BR>
+      </div>
+      <font face="Arial, Helvetica, sans-serif" size="2">Note that all of the 
+      units in the three-dimensional analysis are in pounds, which is what you 
+      would expect for forces. However, except in the rock wedge-failure analysis, 
+      a two-dimensional analysis is much more common. A fundamental "plane-strain" 
+      assumption must be made in order for a two-dimensional analysis to be applicable: 
+      the failure mass extends far enough into the third dimension so that the 
+      end conditions are insignificant and need not be considered. In the case 
+      of this block, the edges in the "Z" direction have no constraint and the 
+      third dimension can be ignored. This assumption is never quite right but 
+      is pretty close for failures of considerable lateral extent. For failures 
+      which do have lateral constraint and "soil arching," the results of a two-dimensional 
+      analysis are conservative because these stabilizing effects are not considered. 
+      The characteristic force units in a two-dimensional analysis are in force 
+      per unit of depth into the third dimension, in this case, pounds per foot 
+      (ppf). The results of the two-dimensional analysis should be the same as 
+      for the previous three-dimensional analysis, if the assumption is valid:</font> 
+      <p><font face="Times New Roman, Times, serif" size="3">&Delta;</font><font size="2" face="Arial, Helvetica, sans-serif"><i>W 
+        </i>= <font face="Times New Roman, Times, serif" size="3">&gamma;</font> 
+        X Y = (120 pcf) (5 ft) (3 ft) (10 ft) = 1800 ppf</font></p>
+      <p><font face="Times New Roman, Times, serif" size="3">&Delta;</font><font face="Arial, Helvetica, sans-serif" size="2"><i>S</i> 
+        = </font><font face="Times New Roman, Times, serif" size="3">&Delta;</font><font face="Arial, Helvetica, sans-serif" size="2">W 
+        sin &alpha; = (18000 ppf) (sin 36.9°) = 1081 ppf</font></p>
+      <p><font face="Times New Roman, Times, serif" size="3">&Delta;</font><font face="Arial, Helvetica, sans-serif" size="2"><i>N' 
+        </i>= </font><font face="Times New Roman, Times, serif" size="3">&Delta;</font><font face="Arial, Helvetica, sans-serif" size="2">W 
+        cos &alpha; = (18000 ppf) (cos 36.9°) = 1439 ppf</font></p>
+      <p><font face="Times New Roman, Times, serif" size="3">&Delta;</font><font face="Arial, Helvetica, sans-serif" size="2"><i>C</i> 
+        = <i>C X</i> = (50 psf) (5 ft) = 250 ppf</font></p>
+      <p><font face="Times New Roman, Times, serif" size="3">&Delta;</font><font face="Arial, Helvetica, sans-serif" size="2"><i>N' 
+        </i>tan &#248; = (1439 ppf) (tan 30°) = 831 ppf</font></p>
+      <div align="center"> 
+        <table width="60%" border="0" cellspacing="0" cellpadding="0">
+          <tr> 
+            <td rowspan="2" width="9%"> <div align="right"><font face="Times New Roman, Times, serif" size="3"><i>F</i> 
+                = </font></div></td>
+            <td width="31%" height="37"> <div align="center"><font face="Times New Roman, Times, serif" size="3"><u>&Delta;<i>C</i>+ 
+                &Delta;<i>N'</i> tan &phi;</u></font></div></td>
+            <td rowspan="2" width="4%"> <div align="center"><font face="Times New Roman, Times, serif" size="3">=</font></div></td>
+            <td width="39%" height="37"> <div align="center"><font face="Times New Roman, Times, serif" size="3"><u>250 
+                ppf+ 831 ppf</u></font></div></td>
+            <td rowspan="2" width="17%"> <div align="left"><font face="Times New Roman, Times, serif" size="3"> 
+                = 1.00</font></div></td>
+          </tr>
+          <tr> 
+            <td width="31%"> <div align="center"><font face="Times New Roman, Times, serif" size="3">&Delta;<i>S</i></font></div></td>
+            <td width="39%"> <div align="center"><font face="Times New Roman, Times, serif" size="3">1081 
+                ppf </font></div></td>
+          </tr>
+        </table>
+      </div></td>
+  </tr>
+  <tr> 
+    <td colspan="5" valign="top"><hr></td>
+  </tr>
+  <tr> 
+    <td valign="top" width="125"> <font size="2" face="Arial, Helvetica, sans-serif"><b><b><font size="3"><a name="5A.5"></a></font></b><font size="3">5A.5 
+      Conditions of Static Equilibrium Used in Method-of-Slices Analyses</font></b></font><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font></td>
+    <td colspan="4"> <div align="left"> 
+        <p><font face="Arial, Helvetica, sans-serif" size="2">The various method-of-slices 
+          analysis techniques differ primarily in the conditions of static limit 
+          equilibrium used in the derivation of their algorithms. Historically, 
+          the simpler methods were developed before the age of computers and more 
+          complex methods followed after. Sharma (1992) shows that beyond a certain 
+          level of accuracy, the complexity of the analysis increases to a level 
+          requiring skill beyond that of the average practitioner. This threshold 
+          level of complexity occurs when interslice forces and more than two 
+          conditions of static equilibrium are included in the analysis. Unless 
+          the user is adept at analyzing the interslice forces, the analysis can 
+          become very complex and unworkable. The methods used in level III in 
+          this guide assume that the interslice forces acting on any slice are 
+          equal and opposite, canceling each other out of the analysis. This is 
+          not quite right, but the amount of error associated with this assumption 
+          is very small for typical forest applications. In level III analyses, 
+          a prudent practitioner using judgment will compensate for these errors 
+          by tailoring the analysis to match the existing field conditions. </font></p>
+      </div>
+      <div align="left"> 
+        <p><font face="Arial, Helvetica, sans-serif" size="2">There is one assumption 
+          made in each of the method-of-slices analyses that may be a more significant 
+          source of error - that the potential failure mass can be divided into 
+          "slices," and that the forces and/or moments acting on the individual 
+          slices can be summed for a total analysis of overall conditions. For 
+          this assumption to be valid, the factor of safety, <i>F</i>, must be 
+          the same on all slices, and the shearing resistance must be mobilized 
+          simultaneously along the entire failure surface. Because many failures 
+          mobilize progressively, the user is cautioned about the validity of 
+          this assumption. The best safeguard against these errors is constant 
+          field verification of the results. </font></p>
+      </div>
+      <div align="left"><font face="Arial, Helvetica, sans-serif" size="2">Figure 
+        <a href="#Fig_5A.4">5A.4</a> and table <a href="#Table_5A.1"> 5A.1</a> 
+        show the typical forces acting on a slice. For simplicity, only the internal 
+        forces are shown. For complete derivations (including external forces 
+        such as earthquake loading, surcharge, and external water forces) for 
+        the method-of-slices analyses used in our level III software, refer to 
+        the XSTABL technical manual (Sharma, 1992). A more detailed coverage of 
+        earthquake loading is given in section <a href="ssg_5f.html#5F.6">5F.6</a>. 
+        </font></div></td>
+  </tr>
+  <tr> 
+    <td width="125" height="249">&nbsp;</td>
+    <td valign="top" align="center" colspan="4" bgcolor="#CCCC99" height="249"> 
+      <div align="center"> 
+        <p><font size="2" face="Arial, Helvetica, sans-serif"><a name="Fig_5A.4"></a><a href="images/5/5a_f04.gif" target="_blank"><img src="images/5/5a_f04.gif" width="407" height="208" border="1"></a></font></p>
+        <p><font size="2" face="Arial, Helvetica, sans-serif"><i>Figure 5A.4. 
+          - Typical forces acting on a slice.</i></font></p>
+      </div></td>
+  </tr>
+  <tr bgcolor="#CCCC99"> 
+    <td colspan="5" height="347" bordercolor="#CCCC99"> <a name="Table_5A.1"></a> 
+      <table width="625" border="1" cellspacing="0" cellpadding="4" bgcolor="#FFFFFF">
+        <tr> 
+          <td width="142" height="32"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><b>Force</b></font></div></td>
+          <td width="181" height="32"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><b>Equation</b></font></div></td>
+          <td width="68" height="32"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><b>Direction</b></font></div></td>
+          <td width="80" height="32"> <p><font face="Arial, Helvetica, sans-serif" size="2"><b>Moment</b> 
+              <b>Arm </b></font></p></td>
+          <td width="102" height="32"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><b>Rotation</b></font></div></td>
+        </tr>
+        <tr> 
+          <td width="142" height="33"><font face="Arial, Helvetica, sans-serif" size="2">Slice 
+            Weight </font></td>
+          <td width="181" height="33"> <div align="center"><font face="Times New Roman, Times, serif" size="3">&Delta;</font><font face="Arial, Helvetica, sans-serif" size="2"><i></i></font><font face="Arial, Helvetica, sans-serif" size="2"><i>W</i> 
+              </font></div></td>
+          <td width="68" height="33"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">Down</font></div></td>
+          <td width="80" height="33"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><i>R</i> 
+              sin &alpha;</font></div></td>
+          <td width="102" height="33"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">Clockwise</font></div></td>
+        </tr>
+        <tr> 
+          <td width="142"><font face="Arial, Helvetica, sans-serif" size="2">Effective 
+            Normal</font></td>
+          <td width="181"> <div align="center"><font face="Times New Roman, Times, serif" size="3">&Delta;</font><font face="Arial, Helvetica, sans-serif" size="2"><i></i></font><font face="Arial, Helvetica, sans-serif" size="2"><i>N'</i></font></div></td>
+          <td width="68"> <div align="center"><font face="Arial, Helvetica, sans-serif"><font face="Arial, Helvetica, sans-serif"><font size="2">.</font></font></font></div></td>
+          <td width="80"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">0</font></div></td>
+          <td width="102"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">Through 
+              Center</font></div></td>
+        </tr>
+        <tr> 
+          <td width="142"><font face="Arial, Helvetica, sans-serif" size="2">Pore 
+            Water Force</font></td>
+          <td width="181"> <div align="center"><font face="Times New Roman, Times, serif" size="3">&Delta;</font><font face="Arial, Helvetica, sans-serif" size="2"><i></i></font><font face="Arial, Helvetica, sans-serif" size="2"><i>U</i><sub>&alpha;</sub></font></div></td>
+          <td width="68"> <div align="center"><font face="Arial, Helvetica, sans-serif"><font face="Arial, Helvetica, sans-serif"><font size="2">.</font></font></font></div></td>
+          <td width="80"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">0</font></div></td>
+          <td width="102"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">Through 
+              Center</font></div></td>
+        </tr>
+        <tr> 
+          <td width="142"><font face="Arial, Helvetica, sans-serif" size="2">Vertical 
+            &Delta;<i>N'</i> + &Delta;<i>U</i><sub>&alpha;</sub></font></td>
+          <td width="181"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">(</font><font face="Times New Roman, Times, serif" size="3">&Delta;</font><font face="Arial, Helvetica, sans-serif" size="2"><i></i></font><font face="Arial, Helvetica, sans-serif" size="2"><i>N'</i> 
+              + </font><font face="Times New Roman, Times, serif" size="3">&Delta;</font> 
+              <font face="Arial, Helvetica, sans-serif" size="2"><i>U</i><sub>&alpha;</sub>) 
+              cos &alpha; </font></div></td>
+          <td width="68"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">Up</font></div></td>
+          <td width="80"> <div align="center"><font face="Arial, Helvetica, sans-serif"><font face="Arial, Helvetica, sans-serif"><font size="2">.</font></font></font></div></td>
+          <td width="102"> <div align="center"><font face="Arial, Helvetica, sans-serif"><font face="Arial, Helvetica, sans-serif"><font size="2">.</font></font></font></div></td>
+        </tr>
+        <tr> 
+          <td width="142"><font face="Arial, Helvetica, sans-serif" size="2">Horizontal 
+            &Delta;<i>N'</i> + &Delta;<i>U</i><sub>&alpha;</sub></font></td>
+          <td width="181"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">(</font><font face="Times New Roman, Times, serif" size="3">&Delta;</font><font face="Arial, Helvetica, sans-serif" size="2"><i>N' 
+              </i>+ &Delta;<i>U</i><sub>&alpha;</sub>) sin &alpha;</font></div></td>
+          <td width="68"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">Left</font></div></td>
+          <td width="80"> <div align="center"><font face="Arial, Helvetica, sans-serif"><font face="Arial, Helvetica, sans-serif"><font size="2">.</font></font></font></div></td>
+          <td width="102"> <div align="center"><font face="Arial, Helvetica, sans-serif"><font face="Arial, Helvetica, sans-serif"><font size="2">.</font></font></font></div></td>
+        </tr>
+        <tr> 
+          <td width="142"><font face="Arial, Helvetica, sans-serif" size="2">Mobilized 
+            Shear</font></td>
+          <td width="181"> <div align="center"><font face="Times New Roman, Times, serif" size="3">&Delta;</font><font face="Arial, Helvetica, sans-serif" size="2"><i></i></font><font face="Arial, Helvetica, sans-serif" size="2"><i>S</i></font></div></td>
+          <td width="68"> <div align="center"><font face="Arial, Helvetica, sans-serif"><font face="Arial, Helvetica, sans-serif"><font size="2"></font></font></font></div></td>
+          <td width="80"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><i>R</i></font></div></td>
+          <td width="102"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">Counterclockwise</font></div></td>
+        </tr>
+        <tr> 
+          <td width="142"><font face="Arial, Helvetica, sans-serif" size="2">Vertical 
+            &Delta;<i>S</i></font></td>
+          <td width="181"> <div align="center"><font face="Times New Roman, Times, serif" size="3">&Delta;</font><font face="Arial, Helvetica, sans-serif" size="2"><i></i></font><font face="Arial, Helvetica, sans-serif" size="2"><i>S</i> 
+              sin &alpha;</font></div></td>
+          <td width="68"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">Up</font></div></td>
+          <td width="80"> <div align="center"><font face="Arial, Helvetica, sans-serif"><font face="Arial, Helvetica, sans-serif"><font size="2">.</font></font></font></div></td>
+          <td width="102"> <div align="center"><font face="Arial, Helvetica, sans-serif"><font face="Arial, Helvetica, sans-serif"><font size="2">.</font></font></font></div></td>
+        </tr>
+        <tr> 
+          <td width="142"><font face="Arial, Helvetica, sans-serif" size="2"> 
+            Horizontal &Delta;<i>S </i></font></td>
+          <td width="181"> <div align="center"><font face="Times New Roman, Times, serif" size="3">&Delta;</font><font face="Arial, Helvetica, sans-serif" size="2"><i></i></font><font face="Arial, Helvetica, sans-serif" size="2"><i>S</i> 
+              cos &alpha;</font></div></td>
+          <td width="68"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">Right</font></div></td>
+          <td width="80"> <div align="center"><font face="Arial, Helvetica, sans-serif"><font face="Arial, Helvetica, sans-serif"><font size="2">.</font></font></font></div></td>
+          <td width="102"> <div align="center"><font face="Arial, Helvetica, sans-serif"><font face="Arial, Helvetica, sans-serif"><font size="2">.</font></font></font></div></td>
+        </tr>
+      </table>
+      <p align="center"><font face="Arial, Helvetica, sans-serif" size="2"><i>Table 
+        5A.1 - Summary of forces other than interslice forces acting on the slice 
+        in figure 5A.4.</i></font></p></td>
+  </tr>
+  <tr> 
+    <td  valign="top" width="125"><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font> 
+    </td>
+    <td valign="top" colspan="4" bgcolor="#FFFFFF"> <p><font face="Arial, Helvetica, sans-serif" size="2">Both 
+        horizontal and vertical force equilibrium, as well as moment equilibrium 
+        (for rotational failures), are used in the development of the commonly 
+        used method-of-slices slope stability analysis methods. However, no more 
+        than any two of these conditions are used in the derivation of a specific 
+        method. Correlations are also made to the analysis algorithms for the 
+        level I infinite slope equation and for rock slope stability analysis. 
+        </font> </p></td>
+  </tr>
+  <tr> 
+    <td colspan="5"  valign="top"><hr></td>
+  </tr>
+  <tr> 
+    <td  valign="top" rowspan="9"><font face="Arial, Helvetica, sans-serif" size="3"><strong><a name="5A.6"></a>5A.6 
+      Ordinary Method of Slices</strong></font><strong><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;&nbsp;&nbsp;</font></strong><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></td>
+    <td valign="top" colspan="4"> <p><font face="Arial, Helvetica, sans-serif" size="2">The 
+        oldest method of slices, developed by Fellenius in 1936, satisfies only 
+        moment equilibrium (Lambe and Whitman, 1969; Sharma, 1992). This method 
+        is commonly called the "ordinary method of slices."</font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">To satisfy moment 
+        equilibrium (figure <a href="#Fig_5A.4"> 5A.4</a> and table <a href="#Table_5A.1"> 
+        5A.1</a>):</font></p></td>
+  </tr>
+  <tr> 
+    <td valign="top" colspan="4"> <p><font face="Arial, Helvetica, sans-serif" size="2">clockwise 
+        moments = counterclockwise moments</font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">&Delta;<i>W</i> (<i>R</i> 
+        sin&alpha;) = &Delta;<i>S R</i>.</font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">Substituting equation 
+        <a href="#Eq_5a2">5A.2</a> for &Delta;S and rearranging, for slice <i>i</i> 
+        only:</font></p></td>
+  </tr>
+  <tr> 
+    <td valign="top" colspan="4"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><img src="images/5/5a_eq570a.gif" width="279" height="54"></font></div></td>
+  </tr>
+  <tr> 
+    <td valign="top" colspan="4"><font face="Arial, Helvetica, sans-serif" size="2">This 
+      equation is rearranged and summed for all of the slices in the failure mass 
+      as an expression for the factor of safety against failure, <i>F</i>, along 
+      that failure surface:</font></td>
+  </tr>
+  <tr> 
+    <td colspan="4" valign="top"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><img src="images/5/5a_eq570b.gif" width="214" height="50"></font></div>
+      <div align="right"><font face="Arial, Helvetica, sans-serif" size="2">(5A.3)</font></div></td>
+  </tr>
+  <tr> 
+    <td colspan="4" valign="top"><font face="Arial, Helvetica, sans-serif" size="2">Note 
+      how similar this is to equation <a href="#Eq_5A1">5A.1</a> and to the simple 
+      block-failure analysis, but that is only because the radius of the circle 
+      has been factored out. This is the general form of the ordinary method of 
+      slices. A form more suitable for hand-calculation consistent with effective 
+      stress analysis with pore-water pressure computed from a phreatic surface 
+      can be developed by substitution of terms from figure <a href="#Fig_5A.5">5A.5</a>.</font></td>
+  </tr>
+  <tr> 
+    <td colspan="4" valign="top" height="213"> <div align="left"> 
+        <table width="29%" border="0" cellspacing="0" cellpadding="0">
+          <tr> 
+            <td rowspan="2" width="64%"><font face="Times New Roman, Times, serif" size="3">&Delta;<i>C</i> 
+              = <i>CL</i> = <i>C</i>&nbsp;</font></td>
+            <td width="36%"> <div align="center"><font face="Times New Roman, Times, serif" size="3"><u>__<i>_b</i>___</u></font></div></td>
+          </tr>
+          <tr> 
+            <td width="36%"> <div align="center"><font face="Times New Roman, Times, serif" size="3">cos 
+                &alpha;&nbsp;</font></div></td>
+          </tr>
+        </table>
+        <BR>
+        <table width="75%" border="0" cellspacing="0" cellpadding="0">
+          <tr> 
+            <td colspan="2"><font face="Times New Roman, Times, serif" size="3">&Delta;<i>N</i>' 
+              = &Delta;<i>N</i> - &Delta;<i>U</i><sub>&alpha;</sub>&nbsp;= &Delta;<i>W 
+              </i>cos&alpha; - &Delta;<i>U</i><sub>&alpha;</sub>&nbsp;</font></td>
+          </tr>
+        </table>
+        <BR>
+        <table width="31%" border="0" cellspacing="0" cellpadding="0">
+          <tr> 
+            <td rowspan="2" width="62%"> <div align="left"><font face="Times New Roman, Times, serif" size="3">&Delta;<i>U</i><sub>&alpha;</sub> 
+                = <i>uL</i> = <i>u</i>&nbsp;</font></div></td>
+            <td width="38%"> <div align="center"><font face="Times New Roman, Times, serif" size="3"><u>___<i>b</i>___</u></font></div></td>
+          </tr>
+          <tr> 
+            <td width="38%"> <div align="center"><font face="Times New Roman, Times, serif" size="3">cos 
+                &alpha;&nbsp;</font></div></td>
+          </tr>
+        </table>
+        <BR>
+        <table width="75%" border="0" cellspacing="0" cellpadding="0">
+          <tr> 
+            <td><font face="Times New Roman, Times, serif" size="3"><i>u</i> = 
+              &gamma;<sub>w</sub><i>d</i><sub>w</sub> cos<sup>2</sup>&alpha;<sub>w</sub>&nbsp;</font></td>
+          </tr>
+        </table>
+        <BR>
+        <table width="75%" border="0" cellspacing="0" cellpadding="0">
+          <tr> 
+            <td colspan="2"><font face="Times New Roman, Times, serif" size="3">&Delta;<i>W</i> 
+              = [&gamma;<i>d</i> + (&gamma;<sub>sat</sub> - &gamma;)<i>d</i><sub>w</sub>]<i>b</i>&nbsp;</font></td>
+          </tr>
+        </table>
+      </div></td>
+  </tr>
+  <tr> 
+    <td colspan="4" valign="top" bgcolor="#CCCC99"> <div align="center"> 
+        <p><font size="2" face="Arial, Helvetica, sans-serif"><a name="Fig_5A.5"></a><img src="images/5/5a_f05.gif" width="392" height="349"></font></p>
+        <p><font size="2" face="Arial, Helvetica, sans-serif"><i>Figure 5A.5. 
+          - Slice dimensions for hand-calculation </i></font></p>
+      </div></td>
+  </tr>
+  <tr> 
+    <td colspan="4" valign="top"><font face="Arial, Helvetica, sans-serif" size="2">The 
+      ordinary method of slices equation for hand-calculation for each slice <i>i</i> 
+      is:</font></td>
+  </tr>
+  <tr> 
+    <td  valign="top" colspan="5"> <div align="right"><font size="2" face="Arial, Helvetica, sans-serif"><a name="Eq_5A4"></a><img src="images/5/5a_eq571a.gif" width="610" height="160"></font></div></td>
+  </tr>
+  <tr> 
+    <td colspan="5" valign="top"> <hr> </td>
+  </tr>
+  <tr> 
+    <td valign="top" width="125"><font face="Arial, Helvetica, sans-serif" size="3"><b><a name="5A.7"></a>5A.7 
+      Infinite Slope Equation</b></font><font face="Arial, Helvetica, sans-serif" size="3">&nbsp;</font><font face="Arial, Helvetica, sans-serif" size="3">&nbsp;</font></td>
+    <td colspan="4" valign="top"> <p><font face="Arial, Helvetica, sans-serif" size="2">The 
+        Level I Stability Analysis (LISA) manual (Hammond et al. 1992) shows a 
+        derivation for the infinite slope equation used in the level I analysis. 
+        The correlation of equation 5A.4 to the infinite slope equation can be 
+        shown here by considering the "infinite slope with seepage parallel to 
+        the failure slope" as just a special "method of slices" case where all 
+        slices are exactly the same (in which case the slice width, <i>b</i>, 
+        can be factored out) and with seepage parallel to the failure slope, the 
+        slope of the phreatic surface, &alpha;<sub>w</sub>, is the same as the 
+        failure slope, &alpha;. </font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">Making these adjustments 
+        to equation 5A.4 results in the infinite slope equation:</font></p></td>
+  </tr>
+  <tr> 
+    <td valign="top" width="125">&nbsp;</td>
+    <td colspan="4" valign="top"> <div align="right"><font face="Arial, Helvetica, sans-serif" size="2">(5A.5)</font> 
+      </div>
+      <table width="63%" border="0" cellspacing="1" cellpadding="0">
+        <tr> 
+          <td rowspan="2" width="8%"> <div align="right"><font face="Times New Roman, Times, serif" size="3"><b>F 
+              = </b></font></div></td>
+          <td width="92%"> <div align="center"><font face="Times New Roman, Times, serif" size="3"><u>C 
+              + [&gamma;d + (&gamma;</u><sub>sat</sub><u> - &gamma; - &gamma;</u><sub>w</sub><u>)d</u><sub>w</sub><u>]cos</u><sup>2</sup><u>&alpha; 
+              tan &phi;&nbsp;</u></font></div></td>
+        </tr>
+        <tr> 
+          <td width="92%"> <div align="center"><font face="Times New Roman, Times, serif" size="3">[&gamma;d 
+              + (&gamma;<sub>sat</sub> - &gamma;)d<sub>w</sub>]sin&alpha; cos&alpha;&nbsp;</font></div></td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr> 
+    <td valign="top" width="125">&nbsp;</td>
+    <td colspan="4" valign="top"><font face="Arial, Helvetica, sans-serif" size="2">Note 
+      that the units are in psf. Although this is a two-dimensional analysis, 
+      only the slope, &alpha;, is used to define the conditions in the <i>X</i> 
+      dimension. This is almost a one-dimensional analysis where the assumption 
+      must be made that the "end" conditions in the <i>X</i> direction are insignificant 
+      and can be ignored in the analysis. This is never quite right and must be 
+      constantly safeguarded against in the level I analysis, as will be further 
+      discussed in section <a href="ssg_5b.html">5B</a>.</font></td>
+  </tr>
+  <tr> 
+    <td colspan="5" valign="top"><hr></td>
+  </tr>
+  <tr> 
+    <td valign="top" width="125"><font face="Arial, Helvetica, sans-serif" size="3" color="#000000"><b><a name="5A.8"></a>5A.8 
+      Simplified Bishop's Method of Slices</b></font></td>
+    <td colspan="4" valign="top"> <p><font face="Arial, Helvetica, sans-serif" size="2" color="#000000">The 
+        ordinary method of slices was generally found to be conservative when 
+        compared to actual failures (factor of safety, <i>F</i>, less than 1.00 
+        at failure). It was not until 1955 that Bishop developed a more accurate 
+        method for analyzing rotational failures by combining vertical force equilibrium 
+        with moment equilibrium (Lambe and Whitman, 1969). In order to reduce 
+        the amount of computational time required, Bishop also reduced his more 
+        rigorous analysis to a "simplified" version by eliminating the interslice 
+        forces from the analysis. When you consider that solutions in 1955 were 
+        truly "hand" solutions, aided only by slide rule, that simplification 
+        was almost a necessity for the practitioner. Even then, a hand-calculation 
+        for one probable failure surface could easily take up to 4 hours.</font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2" color="#000000">For 
+        vertical force equilibrium (figure <a href="#Fig_5A.4">5A.4</a> and table 
+        5A.2):</font></p>
+      <p align="center"><font face="Arial, Helvetica, sans-serif" size="2" color="#000000"> 
+        upward acting forces = downward acting forces</font></p></td>
+  </tr>
+  <tr> 
+    <td valign="top" width="125">&nbsp;</td>
+    <td colspan="4" valign="top" height="151"> <div align="right"><font size="2" face="Arial, Helvetica, sans-serif" color="#000000">(5A.6)</font> 
+      </div>
+      <div align="center"> 
+        <table width="75%" border="0" cellspacing="0" cellpadding="0">
+          <tr> 
+            <td><font face="Times New Roman, Times, serif" size="3">(&Delta;<i>N'</i> 
+              + &Delta;<i>U</i><sub>&alpha;</sub>) cos&alpha; + &Delta;<i>S </i>sin&alpha; 
+              = &Delta;<i>W</i>&nbsp;</font></td>
+          </tr>
+          <tr> </tr>
+        </table>
+        <font color="#000000"><BR>
+        </font> 
+        <table width="75%" border="0" cellspacing="0" cellpadding="0">
+          <tr> 
+            <td><font face="Times New Roman, Times, serif" size="3">&Delta;<i>N'</i> 
+              cos&alpha; = &Delta;<i>W</i> - &Delta;<i>U</i><sub>&alpha;</sub> 
+              cos&alpha; - &Delta;<i>S</i> sin&alpha;&nbsp;</font></td>
+          </tr>
+        </table>
+        <font color="#000000"><br>
+        </font> 
+        <table width="75%" border="0" cellspacing="0" cellpadding="0">
+          <tr> 
+            <td rowspan="2" width="17%"> <div align="right"><font face="Times New Roman, Times, serif" size="3">&Delta;<i>N'</i> 
+                =&nbsp;</font></div></td>
+            <td width="18%"> <div align="center"><font face="Times New Roman, Times, serif" size="3"><u>__1__</u></font></div></td>
+            <td rowspan="2" width="65%"><font face="Times New Roman, Times, serif" size="3">(&Delta;<i>W</i> 
+              - &Delta;<i>U</i><sub>&alpha;</sub> cos&alpha; - &Delta;<i>S</i> 
+              sin&alpha;)</font></td>
+          </tr>
+          <tr> 
+            <td width="18%"> <div align="center"><font face="Times New Roman, Times, serif" size="3">cos&alpha;&nbsp;</font></div></td>
+          </tr>
+        </table>
+      </div></td>
+  </tr>
+  <tr> 
+    <td valign="top" width="125">&nbsp;</td>
+    <td colspan="4" valign="top"><font size="2" face="Arial, Helvetica, sans-serif" color="#000000">Substituting 
+      for &Delta;S as in equation <a href="#Eq_5a2">5A.2,</a></font></td>
+  </tr>
+  <tr> 
+    <td valign="top" width="125">&nbsp;</td>
+    <td colspan="4" valign="top" height="229"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2" color="#000000"><img src="images/5/5a_eq572b.gif" width="510" height="232"></font></div></td>
+  </tr>
+  <tr> 
+    <td valign="top" width="125">&nbsp;</td>
+    <td colspan="4" valign="top"><font face="Arial, Helvetica, sans-serif" size="2" color="#000000">Let:</font></td>
+  </tr>
+  <tr> 
+    <td valign="top" width="125">&nbsp;</td>
+    <td colspan="4" valign="top"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2" color="#000000"><img src="images/5/5a_eq572c.gif" width="422" height="46">..............(5A.7)</font></div></td>
+  </tr>
+  <tr> 
+    <td valign="top" width="125">&nbsp;</td>
+    <td colspan="4" valign="top"><font face="Arial, Helvetica, sans-serif" size="2" color="#000000">Then:</font></td>
+  </tr>
+  <tr> 
+    <td valign="top" width="125">&nbsp;</td>
+    <td colspan="4" valign="top"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2" color="#000000"><b><img src="images/5/5a_eq572d.gif" width="321" height="47"></b>................(5A.8)</font></div></td>
+  </tr>
+  <tr> 
+    <td valign="top" width="125">&nbsp;</td>
+    <td colspan="4" valign="top"> <p><font face="Arial, Helvetica, sans-serif" size="2" color="#000000">For 
+        both moment and vertical force equilibrium, equation 5A.8 is substituted 
+        into equation 5A.3 and reduced to a new expression for <i>F</i>.</font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2" color="#000000">For 
+        slice <i>i</i> forces only, equation 5A.3 becomes </font></p></td>
+  </tr>
+  <tr> 
+    <td valign="top" colspan="5"> <div align="center"><font size="2" face="Arial, Helvetica, sans-serif"><img src="images/5/5a_eq572e.gif" width="552" height="166"></font></div></td>
+  </tr>
+  <tr> 
+    <td valign="top" width="125"><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font></td>
+    <td colspan="4" valign="top"><font size="2" face="Arial, Helvetica, sans-serif">Substituting 
+      <i>m</i><sub>&alpha;</sub> as in equation 5A.7 gives</font></td>
+  </tr>
+  <tr> 
+    <td valign="top" colspan="5" ><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font> 
+      <div align="center"><font size="2" face="Arial, Helvetica, sans-serif"><img src="images/5/5a_eq573a.gif" width="570" height="185"></font></div></td>
+  </tr>
+  <tr> 
+    <td valign="top" rowspan="5" width="125"><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font></td>
+    <td colspan="4" valign="top"><font size="2" face="Arial, Helvetica, sans-serif">Substituting 
+      <i>m</i><sub>&alpha;</sub> as from equation 5.7 again gives</font></td>
+  </tr>
+  <tr> 
+    <td colspan="4" valign="top"><font size="2" face="Arial, Helvetica, sans-serif">F&Delta;W 
+      sin&alpha; <i>m</i><sub>&alpha;</sub> = &Delta;C cos&alpha; + (&Delta;W 
+      - &DeltaU<sub>&alpha;</sub> cos&alpha;) tan &#248; &nbsp;</font></td>
+  </tr>
+  <tr> 
+    <td colspan="4" valign="top"><font size="2" face="Arial, Helvetica, sans-serif">Thus, 
+      the factor of safety equation for slice <i>i </i>forces only is</font></td>
+  </tr>
+  <tr> 
+    <td colspan="4" valign="top"> <div align="center"> 
+        <table width="65%" border="0" cellspacing="0" cellpadding="0">
+          <tr> 
+            <td rowspan="2" width="8%"><font face="Times New Roman, Times, serif" size="3">F 
+              =</font></td>
+            <td width="92%"> <div align="center"><font face="Times New Roman, Times, serif" size="3"><u>&Delta;C 
+                cos&alpha; + (&Delta;W - &Delta;U</u><sub>&alpha;</sub><u> cos&alpha;) 
+                tan &phi;&nbsp;</u></font></div></td>
+          </tr>
+          <tr> 
+            <td width="92%"> <div align="center"><font face="Times New Roman, Times, serif" size="3">&Delta;W 
+                sin&alpha; m<sub>&alpha;</sub>&nbsp;</font></div></td>
+          </tr>
+        </table>
+      </div></td>
+  </tr>
+  <tr> 
+    <td colspan="4" valign="top"><font size="2" face="Arial, Helvetica, sans-serif">Summing 
+      for all slices in a potential failure mass, the factor of safety against 
+      failure by the simplified Bishop's method is (form used is for ease of hand-calculation 
+      with pore pressure computed from a phreatic surface; see figure <a href="#Fig_5A.5">5A.5</a>):</font></td>
+  </tr>
+  <tr> 
+    <td valign="top" colspan="5"> <div align="right"><font size="2" face="Arial, Helvetica, sans-serif"><a name="Eq_5A9"></a>(5A.9)</font> 
+      </div>
+      <div align="right"><font size="2" face="Arial, Helvetica, sans-serif"><img src="images/5/5a_eq573c.gif" width="573" height="141"></font></div></td>
+  </tr>
+  <tr> 
+    <td valign="top" rowspan="3" width="125"><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font> 
+    </td>
+    <td colspan="4" valign="top"><font size="2" face="Arial, Helvetica, sans-serif">where, 
+      as before,</font></td>
+  </tr>
+  <tr> 
+    <td colspan="4" valign="top" height="69"> <div align="center"><font size="2" face="Arial, Helvetica, sans-serif"><img src="images/5/5a_eq573d.gif" width="211" height="46"></font></div></td>
+  </tr>
+  <tr> 
+    <td colspan="4" valign="top"><font size="2" face="Arial, Helvetica, sans-serif">Note 
+      that the equation for the factor of safety against failure, <i>F</i>, also 
+      contains <i>F</i> in the expression for m<sub>&alpha;</sub>. Therefore, 
+      the solution is not as direct as the ordinary method of slices solution. 
+      In practice, an assumed value of<i> F</i> is used to calculate <i>m</i><sub>&alpha;</sub> 
+      and the equation is solved for the calculated value of <i>F</i>. The solution 
+      is then recalculated using the new value of <i>F</i> until the two values 
+      of <i>F</i> are the same. This can be very time consuming in hand-calculations 
+      but converges rapidly in computer analysis. In section <a href="ssg_5e.html">5E</a>, 
+      a procedure to speed up the reiteration process for hand-calculation is 
+      presented. This procedure uses the more direct solution by the ordinary 
+      method of slices as a conservative first approximation to <i>F</i>.</font></td>
+  </tr>
+  <tr bgcolor="#FFFFFF"> 
+    <td colspan="5" valign="top"><hr></td>
+  </tr>
+  <tr bgcolor="#FFFFFF"> 
+    <td valign="top"> <p align="left"><font face="Arial, Helvetica, sans-serif" size="2"><b><b><font size="3"><a name="5A.9"></a></font></b><font size="3">5A.9 
+        Janbu's Simplified Method </font></b></font></p>
+      <p class="fig">&nbsp;</p>
+      <font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font> <p><font face="Times New Roman, Times, serif"><font face="Times New Roman, Times, serif"><font size="3"><font size="2"><font face="Arial, Helvetica, sans-serif"></font></font></font></font></font></p>
+      <font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font></td>
+    <td colspan="4" valign="top"> <p><font face="Arial, Helvetica, sans-serif" size="2" color="#000000">In 
+        1956, Janbu, Bjerrum, and Kjaernsli published a method of slices applicable 
+        to failures of any general shape (Lambe and Whitman, 1969). As does Bishop's 
+        method, the simplified version of this procedure ignores interslice forces. 
+        The procedure differs from the simplified Bishop's method by combining 
+        horizontal force equilibria, rather than moment equilibria, with vertical 
+        force equilibria. By eliminating moment equilibria, the analysis could 
+        be made applicable to other than rotational failures.</font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2" color="#000000">For 
+        horizontal force equilibrium (figure 5A.4 and table 5A.2):</font></p>
+      <p align="center"><font face="Arial, Helvetica, sans-serif" size="2" color="#000000">left-acting 
+        forces = right-acting forces</font></p></td>
+  </tr>
+  <tr> 
+    <td valign="top">&nbsp;</td>
+    <td colspan="4"><font face="Arial, Helvetica, sans-serif" size="2">(&Delta;<i>N' 
+      </i>+ &Delta;<i>U</i><sub>&alpha;</sub>)sin&alpha; = &Delta;<i>S</i> cos&alpha;&nbsp;</font></td>
+  </tr>
+  <tr> 
+    <td valign="top">&nbsp;</td>
+    <td colspan="4"> <p><font face="Arial, Helvetica, sans-serif" size="2">For 
+        both horizontal and vertical force equilibria, substitute equation 5A.6 
+        for &Delta;<i>N':</i> </font></p></td>
+  </tr>
+  <tr> 
+    <td valign="top">&nbsp;</td>
+    <td colspan="4"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><img src="images/5/5a_eq574a.gif" width="404" height="245"></font></div></td>
+  </tr>
+  <tr> 
+    <td valign="top">&nbsp;</td>
+    <td colspan="4"><font face="Arial, Helvetica, sans-serif" size="2">Using equation 
+      5A.2,</font></td>
+  </tr>
+  <tr> 
+    <td valign="top">&nbsp;</td>
+    <td colspan="4" height="114"> <p>&nbsp;</p>
+      <table width="42%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td rowspan="2" width="38%"> <div align="right"><font face="Times New Roman, Times, serif" size="3">&Delta;<i>W</i> 
+              tan &alpha; = &nbsp;</font></div></td>
+          <td width="62%"> <div align="center"><font face="Times New Roman, Times, serif" size="3"><u>&Delta;<i>C</i> 
+              + &Delta;<i>N'</i> tan &phi;&nbsp;</u></font></div></td>
+        </tr>
+        <tr> 
+          <td width="62%" height="2"> <div align="center"><font face="Times New Roman, Times, serif" size="3"><i>F</i> 
+              cos&alpha;&nbsp;</font></div></td>
+        </tr>
+      </table>
+      <table width="75%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td><font face="Times New Roman, Times, serif" size="3">&Delta;<i>W 
+            F </i>cos&alpha; tan&alpha; = &Delta;<i>C</i> + &Delta;<i>N'</i> tan&phi;&nbsp;</font></td>
+        </tr>
+      </table>
+      <p>&nbsp;</p></td>
+  </tr>
+  <tr> 
+    <td valign="top">&nbsp;</td>
+    <td colspan="4"><font face="Arial, Helvetica, sans-serif" size="2">Substitute 
+      equation 5A.8 for &Delta;<font face="Times New Roman, Times, serif" size="3"><i>N'</i></font>:</font></td>
+  </tr>
+  <tr> 
+    <td colspan="5"> <div align="center"><font size="2" face="Arial, Helvetica, sans-serif"></font><font face="Arial, Helvetica, sans-serif" size="2"><img src="images/5/5a_eq574c.gif" width="514" height="130"></font></div></td>
+  </tr>
+  <tr> 
+    <td width="125"><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font></td>
+    <td colspan="4"><font face="Arial, Helvetica, sans-serif" size="2">Substitute 
+      equation 5A.7 for <i>m</i><sub>&alpha;</sub>:</font></td>
+  </tr>
+  <tr> 
+    <td colspan="5" height="258"> <div align="center"><font size="2" face="Arial, Helvetica, sans-serif"></font><font size="2" face="Arial, Helvetica, sans-serif"><a href="images/5/5a_eq575a.gif" target="_blank"><img src="images/5/5a_eq575a.gif" width="600" height="232" border="1"></a></font></div></td>
+  </tr>
+  <tr> 
+    <td rowspan="12" width="125"><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+    <td colspan="4"><font size="2" face="Arial, Helvetica, sans-serif">But:</font></td>
+  </tr>
+  <tr> 
+    <td colspan="4" height="51"> <div align="center"> 
+        <table width="50%" border="0" cellspacing="0" cellpadding="0">
+          <tr> 
+            <td width="14%"> <div align="center"><u>__1__</u></div></td>
+            <td rowspan="2" width="86%"><font face="Times New Roman, Times, serif" size="3">= 
+              sec <sup>2</sup>&alpha; = 1 + tan<sup>2</sup>&alpha;&nbsp;</font></td>
+          </tr>
+          <tr> 
+            <td width="14%"> <div align="center"><font face="Times New Roman, Times, serif" size="3">cos<sup>2</sup>&alpha;&nbsp;</font></div></td>
+          </tr>
+        </table>
+      </div></td>
+  </tr>
+  <tr> 
+    <td colspan="4"><font face="Arial, Helvetica, sans-serif" size="2">For slice 
+      <i>i</i> forces only:</font></td>
+  </tr>
+  <tr> 
+    <td colspan="4" height="81"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><img src="images/5/5a_eq575c.gif" width="409" height="76"></font></div></td>
+  </tr>
+  <tr> 
+    <td colspan="4"><font face="Arial, Helvetica, sans-serif" size="2">Summing 
+      for all slices in a potential failure mass:</font></td>
+  </tr>
+  <tr> 
+    <td colspan="4"> <div align="center"><font size="2" face="Arial, Helvetica, sans-serif"><img src="images/5/5a_eq575d.gif" width="525" height="73"></font></div></td>
+  </tr>
+  <tr> 
+    <td colspan="4"><font size="2" face="Arial, Helvetica, sans-serif">Janbu recognized 
+      some difference in the results of the simplified version (without the interslice 
+      forces) and his generalized version (with interslice forces). To account 
+      for the difference, he developed a correction factor, &fnof;<sub>o</sub>, 
+      based on 40 solutions. Figure <a href="#Fig_5A.6">5A.6</a> is a plot of 
+      &fnof;<sub>o</sub>, showing how the correction factor varies with the shape 
+      of the failure surface and the shear strength of the material.</font></td>
+  </tr>
+  <tr> 
+    <td colspan="4"><font face="Arial, Helvetica, sans-serif" size="2">An equation 
+      for &fnof;<sub>o</sub>, developed from the graph in figure <a href="#Fig_5A.6">5A.6</a>, 
+      is programmed into XSTABL (Sharma, 1992):</font></td>
+  </tr>
+  <tr> 
+    <td height="68" colspan="2"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><img src="images/5/5a_eq575e.gif" width="215" height="55"></font></div></td>
+    <td height="68" width="45"><font face="Arial, Helvetica, sans-serif" size="2">(5A.10)</font></td>
+    <td height="68" width="4"><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+  </tr>
+  <tr> 
+    <td colspan="4" bgcolor="#FFFFFF"><font face="Arial, Helvetica, sans-serif" size="2">where 
+      k varies according to the soil type:</font> <blockquote> 
+        <blockquote> 
+          <blockquote> 
+            <blockquote> 
+              <blockquote> 
+                <p><font face="Arial, Helvetica, sans-serif" size="2">for C-only 
+                  soils, k = 0.69,</font></p>
+                <p><font face="Arial, Helvetica, sans-serif" size="2">for C and 
+                  &phi;-soils, k = 0.50, and</font></p>
+                <p><font face="Arial, Helvetica, sans-serif" size="2">for &phi;-only 
+                  soils, k = 0.31.</font></p>
+              </blockquote>
+            </blockquote>
+          </blockquote>
+        </blockquote>
+      </blockquote></td>
+  </tr>
+  <tr> 
+    <td colspan="4" height="271" bgcolor="#CCCC99"> <div align="center"> 
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><i><a name="Fig_5A.6"></a></i><img src="images/5/5a_f06.gif" width="292" height="209"></font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><i>Figure 5A.6.- 
+          Janbu's correction faction, &fnof;<sub>o</sub> (reprinted from <b>A 
+          technical manual for slope analysis with XSTABL </b>by S. Sharma, 1992).</i></font></p>
+      </div></td>
+  </tr>
+  <tr> 
+    <td colspan="4"><font face="Arial, Helvetica, sans-serif" size="2">In a form 
+      suitable for hand-calculations with pore pressure computed from a phreatic 
+      surface (figure <a href="#Fig_5A.5">5A.5</a>), the equation for Janbu's 
+      simplified method is</font></td>
+  </tr>
+  <tr> 
+    <td colspan="5"><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><img src="images/5/5a_eq576a.gif" width="548" height="56"> 
+        (5A.11)<a name="Eq_5A11"></a></font></div></td>
+  </tr>
+  <tr> 
+    <td rowspan="3" width="125"><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font> 
+    </td>
+    <td colspan="4"><font face="Arial, Helvetica, sans-serif" size="2">where:</font></td>
+  </tr>
+  <tr> 
+    <td colspan="4"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><img src="images/5/5a_eq576b.gif" width="226" height="47"></font></div></td>
+  </tr>
+  <tr> 
+    <td colspan="4"><font face="Arial, Helvetica, sans-serif" size="2">As with 
+      the simplified Bishop's method, because F appears on both sides of the equation, 
+      an iterative procedure is required. </font></td>
+  </tr>
+  <tr> 
+    <td colspan="5"><hr></td>
+  </tr>
+  <tr> 
+    <td width="125"><font size="2" face="Arial, Helvetica, sans-serif"><b><b><a name="5A.10"></a></b><font size="3">5A.10 
+      Hydrostatic Water Force in Tension Crack</font><b></b></b></font></td>
+    <td colspan="4"> <p><font face="Arial, Helvetica, sans-serif" size="2">Additional 
+        water force may also act hydrostatically in a tension crack (illustrated 
+        in figure <a href="#Fig_5A.7">5A.7</a>). Golder and Associates (1989) 
+        added this force as anadditional driving force-tending to cause failure-to 
+        the simplified Bishop's and simplified Janbu's analyses. A similar correction 
+        can also be made to the ordinary method of slices.</font></p>
+      <p>&nbsp;</p></td>
+  </tr>
+  <tr> 
+    <td width="125"><font face="Arial, Helvetica, sans-serif" size="2"><b><b><b><a name="5A.10.1"></a></b></b>5A.10.1 
+      Ordinary Methods of Slices Modified for Tension Crack Water Forces</b></font></td>
+    <td colspan="4"> <hr> <p><font face="Arial, Helvetica, sans-serif" size="2">Adding 
+        the additional driving force to equation 5A.4 in a moment format gives:</font></p>
+      <p align="center"><font face="Arial, Helvetica, sans-serif" size="2"><img src="images/5/5a_eq576c.gif" width="477" height="57"></font></p></td>
+  </tr>
+  <tr> 
+    <td width="125"><font face="Arial, Helvetica, sans-serif" size="2"><b><b><a name="5A.10.2"></a></b>5A.10.2 
+      Bishop's Simplified Method of Slices Modified for Tension Crack Water Forces</b></font></td>
+    <td colspan="4"> <hr> <p><font face="Arial, Helvetica, sans-serif" size="2">Including 
+        the additional driving force to equation 5A.11 in a force format gives:</font></p>
+      <p align="center"><font size="2" face="Arial, Helvetica, sans-serif"><img src="images/5/5a_eq577a.gif" width="420" height="57"></font></p>
+      <p>&nbsp;</p></td>
+  </tr>
+  <tr> 
+    <td width="125"><font face="Arial, Helvetica, sans-serif" size="2"><b><b><a name="5A.10.3"></a></b>5A.10.3 
+      Janbu's Simplified Method of Slices Modified for Tension Crack Water Forces</b></font></td>
+    <td colspan="4"> <hr> <p><font face="Arial, Helvetica, sans-serif" size="2">Including 
+        the additional driving force to equation 5A.9 in a moment format gives:</font></p>
+      <p align="center"><font size="2" face="Arial, Helvetica, sans-serif"><a href="images/5/5a_eq577b.gif" target="_blank"><img src="images/5/5a_eq577b.gif" width="462" height="63" border="1"></a></font></p></td>
+  </tr>
+  <tr> 
+    <td height="346" width="125"> <font size="2" face="Arial, Helvetica, sans-serif"><b><b></b></b></font> 
+    </td>
+    <td colspan="4" bgcolor="#CCCC99"> <div align="center"> 
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><i><a name="Fig_5A.7"></a></i><img src="images/5/5a_f07.gif" width="389" height="281"></font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><i>Figure 5A.7.-Hydrostatic 
+          water force in tension crack (reprinted with permission of Golder Associates 
+          from <b>Rock Slopes: Design, Excavation, Stabilization</b>).</i></font></p>
+      </div></td>
+  </tr>
+  <tr> 
+    <td height="9" colspan="5"><hr></td>
+  </tr>
+  <tr> 
+    <td width="125"><font size="2" face="Arial, Helvetica, sans-serif"><b><font size="2" face="Arial, Helvetica, sans-serif"><b><b><font size="3"><a name="5A.11"></a></font></b></b></font><font size="3">5A.11 
+      Rock Plane-Failure Analysis</font></b></font></td>
+    <td colspan="4" height="21"><font size="2" face="Arial, Helvetica, sans-serif">Rock 
+      plane-failure analysis is very similar to the block failure analysis discussed 
+      in section <a href="#5A.4">5A.4</a>. The simple equation for <i>F</i> is 
+      similar to equation <a href="#Eq_5A1">5A.1</a> (figure <a href="#Fig_5A.8">5A.8</a>):</font></td>
+  </tr>
+  <tr> 
+    <td rowspan="6" width="125"><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+    <td colspan="4" height="72"> <div align="center"> 
+        <table width="24%" border="0" cellspacing="0" cellpadding="0">
+          <tr> 
+            <td rowspan="2" width="25%"> <div align="right"><font face="Times New Roman, Times, serif" size="3"><i>F</i> 
+                =</font></div></td>
+            <td width="75%"> <div align="center"><font face="Times New Roman, Times, serif" size="3"><u><i>CL</i> 
+                + <i>N'</i> tan&phi;&nbsp;</u></font></div></td>
+          </tr>
+          <tr> 
+            <td width="75%"> <div align="center"><font face="Times New Roman, Times, serif" size="3"><i>W</i> 
+                sin<i>&theta;</i>&nbsp;</font></div></td>
+          </tr>
+        </table>
+      </div></td>
+  </tr>
+  <tr> 
+    <td colspan="4"><font size="2" face="Arial, Helvetica, sans-serif">where:</font></td>
+  </tr>
+  <tr> 
+    <td colspan="4"><font size="2" face="Arial, Helvetica, sans-serif"><i>N' </i>= 
+      <i>W</i> cos<i> &theta;</i> - <i>uL</i>, so</font></td>
+  </tr>
+  <tr> 
+    <td width="461" height="69"> <div align="center"> 
+        <table width="52%" border="0" cellspacing="0" cellpadding="0">
+          <tr> 
+            <td rowspan="2" width="13%"><font face="Times New Roman, Times, serif" size="3">F 
+              =</font></td>
+            <td width="87%"> <div align="center"><font face="Times New Roman, Times, serif" size="3"><u><i>CL</i> 
+                + (<i>W</i>cos<i>&theta;</i> - <i>uL</i>) tan&phi;&nbsp;</u></font></div></td>
+          </tr>
+          <tr> 
+            <td width="87%"> <div align="center"><font face="Times New Roman, Times, serif" size="3"><i>W 
+                </i>sin<i>&theta;</i>&nbsp;</font></div></td>
+          </tr>
+        </table>
+      </div></td>
+    <td colspan="3" height="69"><font size="2" face="Arial, Helvetica, sans-serif">(5A.12)</font></td>
+  </tr>
+  <tr> 
+    <td colspan="4"><font face="Arial, Helvetica, sans-serif" size="2">Section 
+      <a href="ssg_4e.html">4E</a> contains a detailed description of ground water 
+      in rock slopes and the computational procedure for calculating the ground 
+      water pressure, <i>u</i>, for various potential drainage conditions. Section 
+      <a href="ssg_5h.html#5H.2">5H.2</a> and sample problems <a href="ssg_5h.html#5H.1">5H.1</a> 
+      and 5H.2 contain an in-depth discussion of rock plane-failure analysis.</font></td>
+  </tr>
+  <tr> 
+    <td colspan="4" bgcolor="#CCCC99" height="293"> <div align="center"> 
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><i><a name="Fig_5A.8"></a></i><a href="images/5/5a_f08.gif" target="_blank"><img src="images/5/5a_f08.gif" width="360" height="257" border="1"></a></font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><i>Figure 5A.8.- 
+          Rock slope geometry for simple plane- and wedge-failure analyses (adapted 
+          with permission of Golder Associates from <b>Rock Slopes: Design, Excavation, 
+          Stabilization</b>).</i></font></p>
+      </div></td>
+  </tr>
+  <tr> 
+    <td colspan="5" valign="top"><hr></td>
+  </tr>
+  <tr> 
+    <td valign="top" width="125"><font face="Arial, Helvetica, sans-serif" size="3"><b><a name="5A.12"></a>5.A.12 
+      Rock Wedge-Failure Analysis </b></font><font size="3" face="Arial, Helvetica, sans-serif">&nbsp;</font><font size="3" face="Arial, Helvetica, sans-serif">&nbsp;</font><font size="3" face="Arial, Helvetica, sans-serif">&nbsp;</font></td>
+    <td colspan="4" bgcolor="#FFFFFF"> <p><font face="Arial, Helvetica, sans-serif" size="2">Simple 
+        rock wedge-failure analysis is also simplistic in principle, but becomes 
+        very complicated in application. A three-dimensional analysis similar 
+        to the three-dimensional block failure in section <a href="#5A.4">5A.4</a> 
+        is required. The complication comes in determining:</font></p>
+      <ul>
+        <li><font face="Arial, Helvetica, sans-serif" size="2"> The mobilized 
+          shear strength on two potential failure surfaces,</font></li>
+        <li><font face="Arial, Helvetica, sans-serif" size="2">The geometry and 
+          weight of the failure wedge,</font></li>
+        <li><font face="Arial, Helvetica, sans-serif" size="2">The wedge contact 
+          area on each failure surface,</font></li>
+        <li><font face="Arial, Helvetica, sans-serif" size="2">The ground water 
+          force acting on each failure surface, and</font></li>
+        <li><font face="Arial, Helvetica, sans-serif" size="2">The failure surface 
+          area on which the ground water force is acting.</font></li>
+        <li><font face="Arial, Helvetica, sans-serif" size="2">The general form 
+          of the wedge-failure analysis is:</font></li>
+      </ul></td>
+  </tr>
+  <tr> 
+    <td valign="top" width="125">&nbsp;</td>
+    <td width="461" height="74"> <div align="center"> 
+        <table width="75%" border="0" cellspacing="0" cellpadding="0">
+          <tr> 
+            <td rowspan="2"><font face="Times New Roman, Times, serif" size="3"><i>F</i> 
+              =</font></td>
+            <td> <div align="center"><font face="Times New Roman, Times, serif" size="3"><i><u>C</u><sub>A</sub><u>A</u><sub>A</sub></i><u> 
+                + </u><i><u>C</u><sub>B</sub><u>A</u><sub>B</sub></i><u> + </u><i><u>N'</u></i><sub><i>A</i></sub><u>tan&phi;</u><sub><i>A</i></sub><u> 
+                + </u><i><u>N'</u><sub>B</sub></i><u>tan&phi;</u><sub><i>B</i></sub>&nbsp;</font></div></td>
+          </tr>
+          <tr> 
+            <td> <div align="center"><font face="Times New Roman, Times, serif" size="3"><i>W</i> 
+                sin &Psi;<sub><i>i</i></sub></font></div></td>
+          </tr>
+        </table>
+      </div></td>
+    <td colspan="3" height="74"><font face="Arial, Helvetica, sans-serif" size="2">(5A.13)</font></td>
+  </tr>
+  <tr> 
+    <td valign="top" width="125">&nbsp;</td>
+    <td colspan="4"><font face="Arial, Helvetica, sans-serif" size="2">Section 
+      <a href="ssg_5h.html#5H.3">5H.3</a> and sample problem 5H.3 contain an in-depth 
+      discussion of rock wedge-failure analysis.</font></td>
+  </tr>
+  <tr> 
+    <td colspan="5" valign="top"><hr></td>
+  </tr>
+  <tr> 
+    <td valign="top" width="125"><font face="Arial, Helvetica, sans-serif" size="3"><b><a name="5A.13"></a>5A.13 
+      Deterministic or Probabilistic?</b></font><font size="3" face="Arial, Helvetica, sans-serif">&nbsp;</font><font size="3" face="Arial, Helvetica, sans-serif">&nbsp;</font><font size="3" face="Arial, Helvetica, sans-serif">&nbsp;</font><font size="3" face="Arial, Helvetica, sans-serif">&nbsp;</font> 
+      <font face="Arial, Helvetica, sans-serif" size="3">&nbsp;</font> </td>
+    <td colspan="4"> <p><font face="Arial, Helvetica, sans-serif" size="2">The 
+        above equations can be used in either a deterministic or a probabilistic 
+        analysis. In a deterministic analysis, a single value is used for each 
+        variable in the solution. This type of analysis is applicable when the 
+        user can measure, back-calculate, or otherwise select single parametric 
+        values applicable to the conditions of the analysis. In a back-calculation 
+        analysis, the value of one of the parameters in the equation about which 
+        there is some uncertainty is evaluated while the values of all of the 
+        other parameters are set. The results of the analysis must be compared 
+        to field observations of stability or instability of the slope being analyzed, 
+        and the parametric value in question is adjusted until the user is satisfied 
+        that the equation and the combination of parametric values is consistent 
+        with these field observations. These field conditions are usually extreme, 
+        and the prudent practitioner will use many observations and combinations 
+        of physically possible parametric values to test and adjust a single parametric 
+        value to gain confidence that the uncertainty in the parametric value 
+        determination and in the selection of the failure model are properly accounted 
+        for in the analysis. This tailors the analysis to "relative" failure conditions 
+        and is particularly functional for analysis levels II and III. Sample 
+        problem <a href="ssg_5c.html">5C.1</a> and section <a href="ssg_5f.html">5F</a> 
+        demonstrate the use of back-calculation analysis to evaluate single parametric 
+        values for deterministic analysis. Deterministic analysis is also very 
+        applicable in a "sensitivity" evaluation. As in back-calculation analysis, 
+        the sensitivity of the slope stability analysis to the anticipated variability 
+        of parametric values is tested by varying one value at a time through 
+        its entire anticipated range while the other parametric values are held 
+        constant. This will be demonstrated in section <a href="ssg_5d.html">5D</a>.</font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">When variability is 
+        anticipated in most of the parametric values in a slope stability analysis, 
+        the interaction of that variability can best be modeled with a probabilistic 
+        analysis. Both natural variability of the values and the uncertainty of 
+        the user in determining these values can be handled in a probabilistic 
+        analysis. Therefore, this type of analysis is most applicable to level 
+        I and II analyses where the spatial scope of the analysis is large and 
+        the data base is less than ideal. For levels I and II, the planned form 
+        of probabilistic analysis is the use of the Monte Carlo simulation. Simplistically, 
+        the Monte Carlo simulation allows the user to define parametric values 
+        according to a wide range of possible spatial distributions and then solves 
+        the appropriate deterministic equation using possible combinations of 
+        single values selected from these population distributions. Through this 
+        simulation, in the stability analysis setting the probability of landslide 
+        occurrence is the ratio of the number of solutions which result in a factor 
+        of safety less than or equal to one to the total number of solutions made 
+        in the simulation. This will be further described in section <a href="ssg_5d.html">5D</a>.</font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">A probabilistic version 
+        of analysis is also needed for level III. The decision analysis required 
+        to compare stabilization alternatives and select a stabilization measure 
+        could be aided by analyzing the inherent "probability of failure" of the 
+        possible alternatives. In a decision analysis, this "probability of failure" 
+        could be combined with the "consequences of failure" for each alternative 
+        and evaluated in a risk analysis format. Due to the complexity of the 
+        analyses used in level III, the Monte Carlo simulation technique may not 
+        be as applicable at this level as it is for levels I and II. This analysis 
+        complexity factor is offset somewhat by the quality of data available 
+        for level III analyses which reduces the amount of uncertainty. Section 
+        <a href="ssg_5e.html">5E</a> describes a few options available for a probabilistic 
+        level III analysis.</font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">Regardless of whether 
+        a deterministic or a probabilistic analysis is used, the factor of safety 
+        equation used becomes a relative comparison of the assumed shear strength 
+        to the assumed shearing forces acting in an assumed failure model and 
+        all are calculated from a certain combination of assumed parametric values. 
+        This is meant not to belittle the accuracy of the method, but to emphasis 
+        the importance of verification through parametric value and failure model 
+        evaluation by field observations.</font></p>
+      <p>&nbsp;</p></td>
+  </tr>
+  <tr> 
+    <td colspan="5" valign="top"><hr></td>
+  </tr>
+  <tr> 
+    <td valign="top" width="125"><font face="Arial, Helvetica, sans-serif" size="3"><b><a name="5A.14"></a>5A.14 
+      What Is Stable?</b></font><font size="3" face="Arial, Helvetica, sans-serif">&nbsp;</font></td>
+    <td colspan="4"><font face="Arial, Helvetica, sans-serif" size="2">It is important 
+      to consider some fundamental differences in how deterministic and probabilistic 
+      analyses are applied by experienced users. The basic differences lie in 
+      how the experienced user evaluates parametric values for the analysis, how 
+      uncertainty and variability are handled in that evaluation, and how one 
+      perceives when a slope can be considered to become unstable. In section 
+      <a href="ssg_5b.html#5B.4">5B.4</a>, it is demonstrated that the experienced 
+      deterministic analyzer judges whether a slope can be expected to be stable 
+      on whether the factor of safety is greater than or equal to one, and back-calculation 
+      analysis is used to evaluate parametric values with that as the standard. 
+      However, in section <a href="ssg_5b.html#5B.5">5B.5</a>, it is shown that 
+      if parametric values are somewhat normally distributed, a slope with a mean 
+      factor of safety of one still has a probability of failure of about 0.50 
+      (about a 50-50 chance of becoming unstable). To the experienced probabilistic 
+      analyzer, this is hardly a stable slope. Why the conflict on using a factor 
+      of safety of one as the dividing line between stability and instability? 
+      When does a slope become unstable? The basic difference in how these two 
+      experienced users view the dividing line between stability and instability 
+      stems from the manner in which each arrives at the parametric values to 
+      use in the analysis and when the degree of stability enters the analysis. 
+      For the example from section <a href="ssg_5b.html#5B.6">5B.6</a>, if the 
+      experienced deterministic analyzer used back-analysis based on a factor 
+      of safety of one as the dividing line between stability and instability, 
+      it is unlikely that each of the single parametric values selected for deterministic 
+      analysis would be identical to the mean values of the ranges that the experienced 
+      probabilistic analyzer used. They should be close and both should be physically 
+      possible, but the deterministic analyzer would typically use more conservative 
+      values for those parameters about which there is some uncertainty in value. 
+      If properly applied and the two concepts are kept separate, neither is more 
+      correct than the other. How successful they are in providing a stability 
+      analysis that realistically addresses the problem at hand will depend more 
+      on the individual's experience and ability to read and define the field 
+      conditions than on the type of analysis used.</font></td>
+  </tr>
+  <tr> 
+    <td colspan="5" valign="top"><hr></td>
+  </tr>
+  <tr> 
+    <td valign="top" width="125"><font face="Arial, Helvetica, sans-serif" size="2"><b><a name="5A.14.1"></a></b></font><font face="Arial, Helvetica, sans-serif" size="3"><b><font size="2">5A.14.1 
+      The Deterministic Concept</font></b></font><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font></td>
+    <td colspan="4"> <p><font face="Arial, Helvetica, sans-serif" size="2">The 
+        deterministic analyzer must select a single value to realistically represent 
+        a parameter in the analysis. The uncertainty in determination of the parametric 
+        value and in the equation to model the actual field and failure conditions 
+        can be accounted for either by applying a high factor of safety (much 
+        greater than one) to the results of the analysis or by evaluation of the 
+        parametric value through back-calculation analysis using a factor of safety 
+        of one as the stability standard. Through back-calculation analysis, this 
+        individual will develop parametric values that best define the observed 
+        slope stability conditions. In this manner, the values of which the user 
+        is most uncertain will normally tend toward the conservative side of the 
+        anticipated range rather than toward the mean values. Those values which 
+        are the result of back-calculation, even though they are determined to 
+        be physically possible, must be isolated from the measured values and 
+        must not be entered into a data base because they are relative values 
+        related to the assumptions used in model selection and to all of the other 
+        values used in the evaluation.</font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">To the deterministic 
+        analyzer who uses back-calculation analysis to evaluate parameters, a 
+        factor of safety of one is realistically the dividing line between stability 
+        and instability because all possible variations in parametric values should 
+        have been considered in the evaluation and selection of the single values. 
+        To the deterministic analyzer who is using this form of analysis in the 
+        evaluation of stabilization alternatives the discussion of "What is stable?" 
+        must also extend into "How stable should it be?" The degree of stability 
+        enters the picture in the evaluation of stabilization alternatives through 
+        comparison of the stabilized to the unstabilized conditions. The unstabilized 
+        conditions may have been used with back-calculation analysis to evaluate 
+        parametric values. In that case, this degree of stability is in part relative 
+        to the degree of conservatism used in the selection of the individual 
+        parametric values. It must be viewed as an increase in stability over 
+        the unstabilized slope, and the experienced user must balance the increase 
+        in stability against construction costs, maintenance costs, and the consequences 
+        of slope failure. That is why in section 6 there is a range of factors 
+        of safety being used for the design of stabilization alternatives. The 
+        discussion on the selection of a factor of safety for the design of stabilization 
+        alternatives is continued in section <a href="ssg_6a.html">6A</a>. Section 
+        6A also contains a discussion of selecting a "stable" factor of safety 
+        in a litigation or review capacity. </font> </p></td>
+  </tr>
+  <tr> 
+    <td colspan="5" valign="top"><hr></td>
+  </tr>
+  <tr> 
+    <td valign="top" width="125"><a name="5A.14.2"></a> <b><font face="Arial, Helvetica, sans-serif" size="2">5A.14.2 
+      The Probabilistic Concept</font></b></td>
+    <td colspan="4"><font face="Arial, Helvetica, sans-serif" size="2">The probabilistic 
+      analyzer can select a range of values for each parameter and let the analysis 
+      determine a degree of stability. Field observations are equally important 
+      to the probabilistic analyzer, but the comparison to observed slope stability 
+      conditions is made on a degree basis and not on a single factor of safety. 
+      Back-calculation analysis is just as likely to result in the adjustment 
+      of the range of possible values and not necessarily the mean value of a 
+      parameter about which there is uncertainty. However, the possible range 
+      of that value must still be physically possible, and adjustments through 
+      back-calculation must be made accordingly. To this individual, a factor 
+      of safety of one is viewed only as a means of comparison of the results 
+      of individual trial solutions using only one possible combination of parametric 
+      values to establish the degree of stability. It is that degree of stability 
+      that is the standard of comparison to observed field conditions.</font></td>
+  </tr>
+  <tr> 
+    <td colspan="5" valign="top"><hr></td>
+  </tr>
+  <tr> 
+    <td width="125" valign="top"><font size="3" face="Arial, Helvetica, sans-serif"><b><b><b><a name="5A.15"></a></b></b>5A.15 
+      Uncertainties About the Model</b></font></td>
+    <td colspan="4"><font size="2" face="Arial, Helvetica, sans-serif">Regardless 
+      of whether a deterministic or probabilistic analysis is used, the ability 
+      of the selected equation to accurately model the exact failure conditions 
+      anticipated in the field must always be considered. Does the infinite slope 
+      equation accurately account for such near-surface conditions as root strength? 
+      Can interslice forces be eliminated without introducing significant error? 
+      Is a two-dimensional analysis valid under these conditions? Is the failure 
+      surface going to be translational or rotational? These types of questions 
+      concerning the validity of the analysis selected to model a specific set 
+      of field conditions must be answered, and the model and/or parametric values 
+      used in the analysis must be tailored to the specific problem.</font></td>
+  </tr>
+</table>
+<p><!-- ======= FOOTER GRAPHIC =================================================== --></p>
+<p> 
+  <!-- ========================================================================= -->
+  <img src="images/navbar.gif" width="703" height="36" align="BOTTOM"
+   usemap="#b_pagingButtons.map" border="0" alt="Slope Stability Reference Guide for National Forests in the United States"> 
+  <br>
+  <!-- =======IMAGE MAP INFORMATION============================================== -->
+  <map name="b_pagingButtons.map"> 
+    <!--HOME-->    <area shape="RECT" coords="0,0 605,26" href="index.html" alt="SSG home">
+    <!--PREV-->    <area shape="rect" coords="609,0,630,26" href="ssg_5toc.html" alt="Section 5 TOC">
+    <!--NEXT-->    <area shape="rect" coords="633,0,653,26" href="ssg_5b.html" alt="Section 5B">
+  </map>
+  <!-- ========================================================================= -->
+  <br>
+   <font face="Arial, Helvetica, sans-serif" size="1">USDA Forest Service<br>
+    <b>Slope Stability Reference Guide for National Forests in the United States, 1994.</b>
+    <br>
+    <a href="http://forest.moscowfsl.wsu.edu/ssg/">http://forest.moscowfsl.wsu.edu/ssg/</a> 
+    <br>Last Revised: 
+    <script language="javascript" type="text/javascript">
+     <!-- hide
+      document.write(document.lastModified)
+     // end hide -->
+    </script>
+   </font>
+  </p>
+ </body>
+</html>

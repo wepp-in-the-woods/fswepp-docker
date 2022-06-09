@@ -1,0 +1,1241 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+ <head>
+  <title>SSG Section 5C: Soil Slopes - Level II Analysis - Constructed Slopes</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <!--
+    Hall, D.E.; Long, M.T.; Remboldt, M.D., editors. 1994.
+    Slope Stability Reference Guide for National Forests in the United States.
+    Prellwitz, R.W.; Koler, T.E.; Steward, J.E., coordinators.
+    Publication EM-7170-13.
+    Washington, DC: U.S. Department of Agriculture, U.S. Forest Service, Engineering Staff. 
+    3 volumes, 1091 p.
+    Corrected [2006] electronic version at http://forest.moscowfsl.wsu.edu/ssg/
+  -->
+  <style type="text/css">
+   <!--
+A{color:#0000CC; font-family:Verdana, Arial, Helvetica, sans-serif;} A:hover{color:#ff00cc;} A:visited{color:#660099;} A:visited:hover{color:#ff00cc;} 
+p, ul, ol, blockquote {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11pt}
+P.indent {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11pt; margin-left: 20px}
+.active {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11pt; color:#666666;}
+.fig {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9pt;}
+.shead {  font-family: trebuchet MS, verdana, arial, helvetica, sans-serif; font-size: 12pt; font-weight: bold}
+.head {  font-family: trebuchet MS, verdana, arial, helvetica, sans-serif; font-size: 20pt; font-weight: bold}
+.headssg {  font-family: trebuchet MS, verdana, arial, helvetica, sans-serif; font-size: 14pt; font-weight: bold}
+.symb {  font-family: symbol; font-size: 11pt; font-weight: bold;}
+BR.pageEnd {page-break-after:always;}
+.text {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11pt; text-indent: 40px;}
+.smtext { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt}
+.vari {  font-family: "Times New Roman", Times, serif; font-size: 11pt; font-style: italic; font-weight: bold}
+.figSymb { font-family: symbol; font-size: 9pt; font-style: italic }
+.figVari {  font-family: "Times New Roman", Times, serif; font-size: 9pt; font-style: italic; font-weight: bold}
+.eq_label { font-family: verdana, Helvetica, sans-serif; font-size: 11pt; text-align: right;}
+.underline {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11pt; text-decoration: underline}
+   -->
+  </style>
+  <script language="javascript" type="text/javascript">
+   <!--
+   function workWindow(theURL,winName,features) {
+     window.open(theURL,winName,features);
+   }
+   //-->
+  </script>
+  </head>
+  <body bgcolor="#FFFFFF" link="#3333FF" vlink="#990099">
+
+<!-- BEGIN TOP NAVIGATION -->
+  <table width="635" border="1" cellspacing="0" cellpadding="8" bgcolor="#CCCC99">
+   <tr>
+    <td> 
+      <p align="center"><font face="Arial, Helvetica, sans-serif" size="2">
+        [ <a href="index.html">Slope Stability Reference Guide Home</A> ]<BR>
+        [ <a href="ssg_5toc.html">Section 5 TOC</a> ] <BR>
+        [ &lt; <a href="ssg_5b.html">Section 5B</a> ]
+        [ <a href="ssg_5d.html">Section 5D</a> &gt; ] </font></p>
+    </td>
+   </tr>
+  </table>
+<!-- END TOP NAVIGATION -->
+
+  
+<table width="635" border="0" cellspacing="2" cellpadding="2">
+  <tr> 
+    <td colspan="5" align="center" valign="top"><font face="Arial, Helvetica, sans-serif"><font size="3"><b>Slope 
+      Stability Reference Guide for National Forests in the United States <br>
+      Volume II, Chapter 5, Section C</b></font></font> <hr> </td>
+  </tr>
+  <tr> 
+    <td width="116" valign="top" > <div align="right"><strong><font face="Arial, Helvetica, sans-serif" size="4">5C.</font></strong></div></td>
+    <td  valign="top" colspan="4" > <p><strong><font face="Arial, Helvetica, sans-serif" size="4"> 
+        Soil Slopes--Level II Analysis--Constructed Slopes </font></strong></p></td>
+  </tr>
+  <tr> 
+    <td colspan="5"> <hr> </td>
+  </tr>
+  <tr> 
+    <td width="116" valign="top" ><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+    <td class="fig" valign="top" colspan="4" > <p><font face="Arial, Helvetica, sans-serif" size="2"><i>Rodney 
+        W. Prellwitz, Geotechnical Engineer, Intermountain Research Station</i></font></p></td>
+  </tr>
+  <tr> 
+    <td colspan="5"><hr> </td>
+  </tr>
+  <tr> 
+    <td  valign="top" width="116"><font face="Arial, Helvetica, sans-serif" size="3"><strong><a name="5C.1"></a>5C.1 
+      Introduction </strong></font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font> 
+    </td>
+    <td valign="top" colspan="4"> <p><font face="Arial, Helvetica, sans-serif" size="2">Level 
+        II stability analysis is the type that will support decisions made during 
+        the project planning phase of land management. The infinite slope equation 
+        used in level I is also useful as a level II analysis to support those 
+        decisions involving natural slopes. For instance, the selection of timber-harvest 
+        techniques may be supported if the impact of tree removal on the stability 
+        of natural slopes can be modelled and analyzed with the infinite slope 
+        equation. Usually, the greater land management impact on slope stability 
+        results from road construction. This section will describe procedures 
+        useful in the preliminary analysis of constructed road cut and fill slopes. 
+        <a href="#Fig_5C.1">Figure 5C.1</a> illustrates the continuity and interaction 
+        of subsurface conditions between the two types of analysis. This figure 
+        also defines the geometric terms used in both methods. </font></p></td>
+  </tr>
+  <tr> 
+    <td  valign="top" width="116">&nbsp;</td>
+    <td colspan="4" bgcolor="#CCCC99" > <div align="center"> 
+        <p><font size="2" face="Arial, Helvetica, sans-serif"><a name="Fig_5C.1"></a><a href="images/5/5c_f01.gif" target="_blank"><img src="images/5/5c_f01.gif" width="432" height="242" border="1"></a></font></p>
+        <p><font size="2" face="Arial, Helvetica, sans-serif"><i>Figure 5C.1.-Relationship 
+          between the geometric terms used in level I and level II analyses.</i></font></p>
+      </div></td>
+  </tr>
+  <tr> 
+    <td  valign="top" width="116">&nbsp;</td>
+    <td colspan="4"><font size="2" face="Arial, Helvetica, sans-serif">The analysis 
+      of constructed slopes in level II consists of superimposing the anticipated 
+      road template on the natural slope conditions and estimating the stability 
+      of these slopes with stability number solutions. Stability number solutions 
+      are only empirical correlations to the more complicated level III analysis. 
+      This provides a rapid assessment of whether a planned road cut or fill slope 
+      can be expected to be stable under the anticipated site conditions (see 
+      section <a href="ssg_5a.html#5A.14">5A.14</a> for a discussion of "What 
+      is stable?" and how this interpretation can vary from deterministic to probabilistic 
+      analyses). This makes it very functional when used in conjunction with digital 
+      terrain models or computer-aided road design methods. Although the anticipated 
+      stability is predicted, the analysis tells the designer nothing about the 
+      shape of the potential failure surface such as the level III analysis does. 
+      There is also some loss in accuracy compared to the level III analysis. 
+      Researchers at the Intermountain Research Station are attempting to develop 
+      level II algorithms which will predict to within ±10 percent of the results 
+      of the simplified Bishop's level III method.</font></td>
+  </tr>
+  <tr> 
+    <td colspan="5"  valign="top"> <hr> </td>
+  </tr>
+  <tr> 
+    <td  valign="top"  width="116"> <font face="Arial, Helvetica, sans-serif" size="3"><strong><a name="5C.2"></a>5C.2 
+      Fundamentals</strong></font><strong><font face="Arial, Helvetica, sans-serif">&nbsp;</font></strong><font face="Arial, Helvetica, sans-serif">&nbsp;</font> 
+    </td>
+    <td colspan="4"><font size="2" face="Arial, Helvetica, sans-serif">There are 
+      two fundamental forms of stability number analyses: those that predict the 
+      critical height of a constructed slope under the anticipated site conditions, 
+      and those that estimate the factor of safety,<i> F</i>, of the level III 
+      analysis for the slope. Stability number solutions from Chen and Giger (1971) 
+      and Cousins (1978) have been selected by the Intermountain Research Station 
+      as the core analyses for these two approaches, respectively. The Cousins 
+      method is very similar in procedure and results to the methods presented 
+      by Duncan and Buchignani (1975) which were patterned after Janbu (1968). 
+      None of these methods was found to yield consistent results within 10 percent 
+      of the results of the simplified Bishop method of slices used in level III 
+      because they do not adequately account for the subsurface conditions. To 
+      improve the accuracy, correction factors are being developed by the Intermountain 
+      Research Station. These correction factors use dimensionless parameters 
+      to account for the subsurface conditions illustrated in <a href="#Fig_5C.2">figure 
+      5C.2</a>. Prellwitz (1988) documents the original algorithms for these correction 
+      factors developed for the HP41 programmable calculator program, SSCHFS (1988). 
+      Algorithms are now being developed to further improve the accuracy and extend 
+      the range of applicable shear strength parameters. These improved algorithms 
+      will be programmed into a deterministic program, DSARA. They will also be 
+      coupled with a Monte Carlo simulation technique for a probabilistic version, 
+      SARA. These programs will interact and share data files with their level 
+      I counterpart, LISA. The technical manual and user's guide for SARA will 
+      document all of the algorithms and suggestions for use in level II analysis 
+      much the same as the LISA manual (Hammond et al., 1992) has done for level 
+      I.</font></td>
+  </tr>
+  <tr> 
+    <td  valign="top"  width="116">&nbsp;</td>
+    <td valign="top"  colspan="4"><font size="2" face="Arial, Helvetica, sans-serif">SARA 
+      and DSARA will allow the user either to define the constructed slope geometry 
+      or to select a standard road template and let the computer solve for the 
+      slope geometry. Three standard road templates are available: a self-balance 
+      road section, a full-bench road section, and a through-fill road section. 
+      <a href="#Fig_5C.3">Figure 5C.3</a> illustrates these three sections. In 
+      the future, the "user-defined" option may be coupled to computer-aided road 
+      design computer programs. The road template option superimposes the defined 
+      template onto the anticipated site conditions and will function well in 
+      conjunction with a digital terrain model. The self-balance template also 
+      includes an analysis for compaction factor which is required to "balance" 
+      the cut volume with the fill volume. A discussion of compaction factor was 
+      included in <a href="ssg_4b.html">section 4B</a>. Construction losses and 
+      subsidence are modelled as "stripping depth", <i>d<sub>s</sub></i>, and 
+      shrinkage is analyzed in relation to the anticipated unit weights of the 
+      cut and fill material. Problems <a href="#Problem_11">11</a> through <a href="#Problem_13">13</a> 
+      in section <a href="#5C.9">5C.9</a> demonstrate the use of the template 
+      options that will be available with SARA.</font></td>
+  </tr>
+  <tr> 
+    <td  valign="top" width="116">&nbsp;</td>
+    <td valign="top" bgcolor="#CCCC99" colspan="4" > <p align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a name="Fig_5C.2"></a><a href="images/5/5c_f02.gif" target="_blank"><img src="images/5/5c_f02.gif" width="325" height="207" border="1"></a></font></p>
+      <p align="center"><font face="Arial, Helvetica, sans-serif" size="2"><i>Figure 
+        5C.2.-Dimensionless parameters used in correction factors for level II 
+        analysis.</i></font></p></td>
+  </tr>
+  <tr> 
+    <td colspan="5"  valign="top"><hr> </td>
+  </tr>
+  <tr> 
+    <td valign="top" width="116"> <font size="2" face="Arial, Helvetica, sans-serif"><b><b><font size="3"><a name="5C.3"></a></font></b><font size="3">5C.3 
+      Critical Height Analysis</font></b></font> <p align="left"><font face="Arial, Helvetica, sans-serif"></font></p>
+      <font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font> 
+    </td>
+    <td colspan="4"><font face="Arial, Helvetica, sans-serif" size="2">Using critical 
+      height analysis allows the designer to estimate the maximum or critical 
+      height, <i>H<sub>c</sub></i>, to which a given cut or fill slope might be 
+      stable under the anticipated site conditions. It is useful for back-calculation 
+      analysis to estimate the minimum shear-strength parameters for a soil (as 
+      demonstrated in problem 1). It is also quite useful in determining or testing 
+      road design limits and the effects of changes in alignment. This is demonstrated 
+      in problems <a href="#Problem_2">2</a> through <a href="#Problem_7">7</a>.</font></td>
+  </tr>
+  <tr> 
+    <td valign="top" width="116">&nbsp;</td>
+    <td valign="top" colspan="4" rowspan="2"> <p><font size="2" face="Arial, Helvetica, sans-serif">Figure 
+        <a href="#Fig_5C.4">5C.4</a> is a plot of Chen and Giger's (1971) stability 
+        number solution. Note that the stability number, <i>N</i>, approaches 
+        infinity as the constructed slope, ß, approaches the angle of internal 
+        friction, &phi;, of the soil. To account for this, Chen and Giger limited 
+        their analysis to ß greater than &phi; + 5°. Also note that when cohesion, 
+        <i>C</i>, is zero, <i>H<sub>c</sub></i> can be either zero or infinite 
+        depending on the value of <i>N</i>. This will be further illustrated in 
+        <a href="#Problem_4">problem 4</a>. </font></p></td>
+  </tr>
+  <tr> 
+    <td valign="top" width="116">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td valign="top" width="116">&nbsp;</td>
+    <td valign="top" colspan="4"> <div align="left"><font face="Arial, Helvetica, sans-serif" size="2"><a href="#Fig_5C.5">Figure 
+        5C.5</a> is a plot of the original correction factor, <i>S</i>, developed 
+        for Chen and Giger's solution. This figure will be used in the solutions 
+        of the sample problems. The algorithms now under development will improve 
+        on these original ones, and the answers may not be the same. When in question, 
+        the level III analysis should be used to determine the accuracy of the 
+        solution.</font></div></td>
+  </tr>
+  <tr> 
+    <td valign="top" width="116">&nbsp;</td>
+    <td valign="top" colspan="4" bgcolor="#CCCC99"> <div align="center"> 
+        <p><font size="2" face="Arial, Helvetica, sans-serif"><a name="Fig_5C.3"></a><a href="images/5/5c_f03.gif" target="_blank"><img src="images/5/5c_f03.gif" width="322" height="411" border="1"></a></font></p>
+        <p><font size="2" face="Arial, Helvetica, sans-serif"><i>Figure 5C.3- 
+          Road template options for level II analysis.</i></font></p>
+      </div></td>
+  </tr>
+  <tr> 
+    <td valign="top" width="116">&nbsp;</td>
+    <td valign="top" colspan="4" bgcolor="#CCCC99"> <div align="center"> 
+        <p><font size="2" face="Arial, Helvetica, sans-serif"><a name="Fig_5C.4"></a><a href="images/5/5c_f04.gif" target="_blank"><img src="images/5/5c_f04.gif" width="324" height="415" border="1"></a></font></p>
+        <p><font size="2" face="Arial, Helvetica, sans-serif"><i>Figure 5C.4.-Plot 
+          of Chen and Giger's stability number soultion (adapted with permission 
+          of the American Society of Civil Engineers from &quot;Limit analysis 
+          of stability of slopes&quot; in Proceedings of the <b>American Society 
+          of Civil Engineers, Journal of the Soil Mechanics and Foundations Division</b>, 
+          97 (SM1) by W.F. Chen and M.W. Giger, 1971).</i></font></p>
+      </div></td>
+  </tr>
+  <tr> 
+    <td valign="top" width="116">&nbsp;</td>
+    <td valign="top" colspan="4" bgcolor="#CCCC99" > <div align="center"> 
+        <p><font size="2" face="Arial, Helvetica, sans-serif"><a name="Fig_5C.5"></a><a href="images/5/5c_f05.gif" target="_blank"><img src="images/5/5c_f05.gif" width="313" height="418" border="1"></a></font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><i>Figure 5C.5 - 
+          Original correction factor, S, for the Chen and Giger solution.</i></font></p>
+      </div></td>
+  </tr>
+  <tr> 
+    <td valign="top" width="116">&nbsp;</td>
+    <td valign="top" colspan="4" bgcolor="#FFFFFF" rowspan="3"> <p><font face="Arial, Helvetica, sans-serif" size="2">The 
+        critical height of the slope is</font></p>
+      <blockquote> 
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><i>H<sub>c</sub></i> 
+          = SN(C/<font face="Times New Roman, Times, serif" size="3">&gamma;</font>) 
+          (5C.1)</font> </p>
+      </blockquote>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">where:</font></p>
+      <blockquote> 
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><i>H<sub>c</sub></i> 
+          = Critical or maximum stable height of the constructed slope, ft </font><font face="Arial, Helvetica, sans-serif" size="2"><BR>
+          <i>S</i> = Correction factor based on the parameters of figure 5C.2</font><font face="Arial, Helvetica, sans-serif" size="2"><BR>
+          <i>N</i> = Chen and Giger's stability number based on &alpha;, ß, and 
+          &phi;</font><font face="Arial, Helvetica, sans-serif" size="2"><BR>
+          &alpha; = Natural slope, degrees</font><font face="Arial, Helvetica, sans-serif" size="2"><BR>
+          ß = Constructed slope, degrees</font><font face="Arial, Helvetica, sans-serif" size="2"><BR>
+          &phi; = Effective angle of internal friction of the soil, degrees</font><font face="Arial, Helvetica, sans-serif" size="2"><BR>
+          <i>C</i> = Effective cohesive strength of the soil, psf</font><font face="Times New Roman, Times, serif" size="3"><BR>
+          &gamma;</font><font face="Arial, Helvetica, sans-serif" size="2"> = 
+          Moist or saturated unit weight of the soil, pcf.</font></p>
+      </blockquote></td>
+  </tr>
+  <tr> 
+    <td valign="top" width="116">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td valign="top" width="116">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td colspan="5" valign="top"> <div align="left"> 
+        <hr>
+      </div></td>
+  </tr>
+  <tr> 
+    <td valign="top" width="116"><font size="2" face="Arial, Helvetica, sans-serif"><b><b><font size="3"><a name="5C.4"></a></font></b><font size="3">5C.4 
+      Estimated Factor of Safety </font> </b></font><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font> 
+      <font face="Arial, Helvetica, sans-serif">&nbsp;</font><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font> 
+      <font size="2" face="Arial, Helvetica, sans-serif"><b><b></b></b></font> 
+    </td>
+    <td colspan="4"><div align="left"><font face="Arial, Helvetica, sans-serif" size="2">The 
+        estimated factor of safety analysis for level II has an advantage over 
+        the critical height analysis in that it provides a direct correlation 
+        to the anticipated results of the level III analysis for rotational failures 
+        (specifically, the simplified Bishop's method of slices). Because it is 
+        on a factor of safety basis, it also provides the best continuity between 
+        the level I and level III analyses.</font></div>
+      <p><font size="2" face="Arial, Helvetica, sans-serif">Section <a href="#5C.9">5C.9</a> 
+        provides a summary correlation between the estimated factor of safety 
+        analysis and the critical height analysis for sample problems <a href="#Problem_11">11</a>, 
+        <a href="#Problem_12">12</a>, and <a href="#Problem_13">13</a>. A comparison 
+        is also made for these problems to the results of three level III personal 
+        computer programs, DTIS*BISHOP (1969; Bailey and Christian, 1969), STABL3FW 
+        (1986; Siegel, 1984, modified to include phreatic surface analysis and 
+        Janbu's &fnof;<sub>o</sub> correction factor), and XSTABL (1992; Sharma, 
+        1991), using the simplified Bishop's option (see <a href="#Table_5C.1">table 
+        5C.1</a>). The original correction factor algorithms developed for the 
+        HP41 programmable calculator (Prellwitz, 1988) were used in the solution 
+        of these problems, and the user is reminded that improved algorithms are 
+        under development for use with SARA.</font></p>
+      <div align="left"><font size="2" face="Arial, Helvetica, sans-serif"><a href="#Fig_5C.6">Figure 
+        5C.6</a> is a plot of Cousins' (1978) stability number charts. Algorithms 
+        for computer analysis were developed by Pratt et al. (1984) from these 
+        data. Prellwitz (1988) added an original correction factor,<i> k</i>, 
+        to account for the dimensionless parameters of <a href="#Fig_5C.2">figure 
+        5C.2</a>. The estimated factor of safety expected from the simplified 
+        Bishop's method-of-slices analysis by this modified method is:</font></div></td>
+  </tr>
+  <tr> 
+    <td valign="top" width="116">&nbsp;</td>
+    <td valign="top" colspan="4" > <p align="center"><font face="Arial, Helvetica, sans-serif" size="2"><img src="images/5/5c_eq601.gif" width="183" height="62"> 
+        </font></p>
+      <p align="right"><font face="Arial, Helvetica, sans-serif" size="2">(5C.2)</font></p></td>
+  </tr>
+  <tr> 
+    <td valign="top" width="116">&nbsp;</td>
+    <td valign="top" colspan="4" rowspan="2"> <div align="left"><font size="2" face="Arial, Helvetica, sans-serif">where:</font></div>
+      <blockquote> 
+        <p><font size="2" face="Arial, Helvetica, sans-serif"><i>k</i> = Correction 
+          factor based on the parameters of figure <a href="#Fig_5C.2">5C.2</a></font><font size="2" face="Arial, Helvetica, sans-serif"><BR>
+          <i>N<sub>f</sub></i> = Cousins' stability number based on ß,<i> &lambda;</i>, 
+          and <i>r<sub>u</sub></i></font><font size="2" face="Arial, Helvetica, sans-serif"><bR>
+          ß = Constructed slope, degrees</font><font size="2" face="Arial, Helvetica, sans-serif"><i><font face="Times New Roman, Times, serif" size="3"><BR>
+          &lambda; </font></i><font face="Times New Roman, Times, serif" size="3">= 
+          (<i>&gamma;h</i> tan <i>&phi;</i>)/<i>C</i></font></font><font size="2" face="Arial, Helvetica, sans-serif"><i><BR>
+          r<SUB>u</SUB></i> = Pore-pressure ratio = <i><font face="Times New Roman, Times, serif" size="3">&gamma;<sub>w</sub>h<sub>w</sub>/&gamma;h</font></i></font><font size="2" face="Arial, Helvetica, sans-serif"><BR>
+          <i>h</i> = Height of the constructed slope, ft</font><font size="2" face="Arial, Helvetica, sans-serif"><i><BR>
+          h<sub>w</sub></i> = Height from the toe of the slope to the ground water 
+          surface, ft</font><font size="2" face="Arial, Helvetica, sans-serif"><i><font face="Times New Roman, Times, serif" size="3"><BR>
+          &gamma;</font><sub>w</sub></i> = Unit weight of water (62.4 pcf)</font><font size="2" face="Arial, Helvetica, sans-serif"><i><font face="Times New Roman, Times, serif" size="3"><BR>
+          &gamma;</font></i> = Moist or saturated unit weight of the soil, pcf</font><font size="2" face="Arial, Helvetica, sans-serif"><i><BR>
+          &phi;</i> = Effective angle of internal friction of the soil, degrees</font><font size="2" face="Arial, Helvetica, sans-serif"><i><BR>
+          C</i> = Effective cohesive strength of the soil, psf.</font></p>
+      </blockquote></td>
+  </tr>
+  <tr> 
+    <td valign="top" width="116">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td valign="top" width="116">&nbsp;</td>
+    <td valign="top" colspan="4" bgcolor="#CCCC99" height="333"> <p align="center"><font size="2" face="Arial, Helvetica, sans-serif"><a name="Fig_5C.6"></a><a href="images/5/5c_f06.gif" target="_blank"><img src="images/5/5c_f06.gif" width="318" height="271" border="1"></a></font></p>
+      <p align="center"><font size="2" face="Arial, Helvetica, sans-serif"><i>Figure 
+        5C.6.-Cousins' stability number charts. Limitation of the Cousins' data 
+        and Pratt's algorithims are: (1) <font face="Times New Roman, Times, serif" size="3">&lambda;</font> 
+        must be greater than zero and (2)</i> ß<i> must be less than 65<sup>o</sup>. 
+        (a)r<sub>u</sub> = 0 (b) r<sub>u</sub> = 0.25 (c) r<sub>u</sub> 0.50</i></font></p></td>
+  </tr>
+  <tr> 
+    <td  colspan="5" valign="top"> <div align="left"> 
+        <hr>
+      </div></td>
+  </tr>
+  <tr> 
+    <td valign="top" width="116"><font size="2" face="Arial, Helvetica, sans-serif"><b><font size="2" face="Arial, Helvetica, sans-serif"><b><b><font size="3"><a name="5C.5"></a></font></b></b></font><font size="3">5C.5 
+      Critical Height Sample Problems</font></b></font><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font> 
+    </td>
+    <td colspan="4" valign="top"><font face="Arial, Helvetica, sans-serif" size="2">The 
+      following seven problems demonstrate the use of deterministic level II analyses. 
+      These solutions are limited to the critical height analysis because it is 
+      the simpler of the two methods to demonstrate. Section <a href="#5C.9">5C.9</a> 
+      compares the results of the two methods using the original HP41 algorithms 
+      and a comparison to other methods of stability analysis.</font> </td>
+  </tr>
+  <tr> 
+    <td valign="top" width="116">&nbsp;</td>
+    <td valign="top" align="center" colspan="4"> <div align="left"><font face="Arial, Helvetica, sans-serif" size="2"><a href="ssg_5b.html#Fig_5B.4">Figure 
+        5B.4</a> shows four sites on a road location which have the same soil 
+        type. Three of these sites were used with the section <a href="ssg_5b.html">5B</a> 
+        problems to illustrate the application of the infinite slope equation 
+        to the analysis of the stability of natural slopes at these sites. They 
+        will be used with problems <a href="#Problem_1">1</a> through <a href="#Problem_3">3</a> 
+        and <a href="#Problem_5">5</a> through <a href="#Problem_7">7</a> to illustrate 
+        the application of level II analysis to the design of cut slopes.</font></div></td>
+  </tr>
+  <tr> 
+    <td valign="top" width="116">&nbsp;</td>
+    <td valign="top" align="center" colspan="4" rowspan="4"> <div align="left"> 
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><a href="#Problem_1">Problem 
+          1</a> is a back-calculation analysis for a cohesion value to use in 
+          road design. This value must include all but the frictional strength 
+          of the soil. In addition to the effective cohesion of the soil, additional 
+          strength from root strength, C<SUB>r</SUB>, and <i>apparent cohesion</i>, 
+          C<sub>a</sub>, are solved for in this type of back-analysis. These can 
+          be significant, however, because small values of "cohesion" often enable 
+          the construction of short, steep constructed slopes on low-volume roads. 
+          This back-calculation analysis, using a factor of safety of one as the 
+          dividing line between stability and instability, is consistent with 
+          the discussion of deterministic analysis in section <a href="ssg_5a.html#5A.13">5A.13</a>. 
+          The shear strength parameters of the soil are not measured; they are 
+          only assumed and must be considered as "relative" to the conditions 
+          under which they were evaluated. The user must keep that in mind and 
+          continue to monitor the accuracy of the stability predictions made with 
+          analyses using these parameters when the slopes are actually constructed. 
+          Also, because they are not measured, they should not be entered into 
+          a data base for that soil.</font></p>
+      </div>
+      <div align="left"> 
+        <p><font size="2" face="Arial, Helvetica, sans-serif">Problems <a href="#Problem_2">2</a> 
+          and <a href="#Problem_3">3</a> evaluate the stability of several ratios 
+          of cut slope available for design. There is no ground water influence 
+          on the stability of these constructed slopes. Note the effects of the 
+          steepness of the natural slope on the results. Problem <a href="#Problem_4">4</a> 
+          is similar but is unique in that the material is a truly cohesionless 
+          talus material. Construction difficulties in talus material are not 
+          uncommon if the slope of the talus is already at or near the angle of 
+          internal friction of the material due to the extremely low or absent 
+          cohesive strength. Refer to section <a href="ssg_5b.html#5B.5">5B.5</a> 
+          for additional discussion of the relationship between the angle of internal 
+          friction and the angle of repose.</font></p>
+      </div>
+      <div align="left"><font size="2" face="Arial, Helvetica, sans-serif">Problems 
+        <a href="#Problem_5">5</a> and <a href="#Problem_6">6</a> demonstrate 
+        the influence of ground water on the stability of the cut slope. Note 
+        how minor changes in the road alignment might stabilize a cut slope constructed 
+        where ground water is present. Problem <a href="#Problem_7">7</a> demonstrates 
+        that a cut slope is likely to become unstable long before a natural slope 
+        during seasonally high ground water. Subsurface drainage systems to prevent 
+        cut slope failures at locations such as this will be covered in <a href="ssg_6d.html">section 
+        6D</a>.</font></div></td>
+  </tr>
+  <tr> 
+    <td valign="top" width="116">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td valign="top" width="116">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td valign="top" width="116">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td valign="top" width="116">&nbsp;</td>
+    <td colspan="4" rowspan="7" align="center" valign="top" bgcolor="ivory"> <div align="left"> 
+        <hr>
+        <font size="2" face="Arial, Helvetica, sans-serif"><b><a name="Problem_1"></a>Problem 
+        1</b>.</font> 
+        <p><font size="2" face="Arial, Helvetica, sans-serif"> Use the soils data 
+          and site conditions given in figure <a href="ssg_5b.html#Fig_5B.4">5B.4</a> 
+          to estimate soil parametric values for use in the design of the road. 
+          Note that this type of back-analysis requires the assumption that the 
+          observed constructed slopes are at the maximum stable conditions. In 
+          practice, many observations must be made on which to base these calculations 
+          to reduce the inherent conservatism of this approach.</font></p>
+      </div>
+      <div align="left"> 
+        <p><font size="2" face="Arial, Helvetica, sans-serif">Soils Data</font> 
+        </p>
+        <table width="75%" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+          <tr> 
+            <td><font size="2" face="Arial, Helvetica, sans-serif">Unified Class:</font></td>
+            <td><font size="2" face="Arial, Helvetica, sans-serif">SM - Silty 
+              Sand</font></td>
+          </tr>
+          <tr> 
+            <td><font size="2" face="Arial, Helvetica, sans-serif">Plasticity 
+              Index:</font></td>
+            <td><font size="2" face="Arial, Helvetica, sans-serif">Nonplastic 
+              to 10 max.</font></td>
+          </tr>
+          <tr> 
+            <td><font size="2" face="Arial, Helvetica, sans-serif">In-place Density:</font></td>
+            <td><font size="2" face="Arial, Helvetica, sans-serif"><i><font face="Times New Roman, Times, serif" size="3">&gamma;</font></i> 
+              = 120 to 125 pcf</font></td>
+          </tr>
+          <tr> 
+            <td>&nbsp;</td>
+            <td><font size="2" face="Arial, Helvetica, sans-serif"><i><font face="Times New Roman, Times, serif" size="3">&gamma;</font><sub>D</sub></i> 
+              = 107 to 110 pcf</font></td>
+          </tr>
+          <tr> 
+            <td><font size="2" face="Arial, Helvetica, sans-serif">Specific Gravity:</font></td>
+            <td><font size="2" face="Arial, Helvetica, sans-serif">2.7</font></td>
+          </tr>
+        </table>
+        <p>&nbsp;</p>
+      </div>
+      <div align="center"> 
+        <p align="left"><font size="2" face="Arial, Helvetica, sans-serif"><U>From 
+          Fig. <a href="ssg_4B.html#4B_F04">4B.4</a></U> for <i><font face="Times New Roman, Times, serif" size="3">&gamma;</font></i> 
+          = 120 pcf,<font face="Times New Roman, Times, serif" size="3"> <i>&gamma;</i></font><i><sub>D</sub></i> 
+          = 107 pcf, and SM soil class,</font></p>
+      </div>
+      <p align="left"><font face="Arial, Helvetica, sans-serif" size="2">find: 
+        <U>&phi; = 30</U>° (most conservative value)</font></p>
+      <p align="left"><font face="Arial, Helvetica, sans-serif" size="2"><U>&gamma;</U><sub>sat</sub><U> 
+        = 130 pcf&nbsp;</U></font></p>
+      <div align="right"><font size="2" face="Arial, Helvetica, sans-serif">(<i><font face="Times New Roman, Times, serif" size="3">&gamma;<sub>b</sub> 
+        = &gamma;<sub>sat</sub></font></i><font face="Times New Roman, Times, serif" size="3"> 
+        - <i>&gamma;</i></font><i><sub>w</sub></i> = 130 pcf - 62.4 pcf = <U>67.7 
+        pcf</U>)</font></div>
+      <p><font face="Arial, Helvetica, sans-serif" size="2"><U>From Fig. <a href="#Fig_5C.4">5C.4</a></U> 
+        for Location A conditions (<i>h</i> = 12 ft, &alpha; = 26.6°, ß = ½:1) 
+        </font><font face="Arial, Helvetica, sans-serif" size="2">and</font><font face="Arial, Helvetica, sans-serif" size="2"> 
+        <i><font face="Times New Roman, Times, serif" size="3">&phi;'</font></i> 
+        = 30° as determined above, find:</font></p></td>
+  </tr>
+  <tr> 
+    <td valign="top" width="116">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td valign="top" width="116">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td valign="top" width="116">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td valign="top" width="116">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td valign="top" width="116">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td valign="top" width="116">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td valign="top" width="116">&nbsp;</td>
+    <td width="424" height="57" bgcolor="ivory" bordercolor="#CCCC99"> <div align="center"><font size="2" face="Arial, Helvetica, sans-serif"><img src="images/5/5c_eq604a.gif" width="147" height="35"></font></div></td>
+    <td colspan="3" height="57" bgcolor="ivory" bordercolor="#CCCC99" width="38"><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font></td>
+  </tr>
+  <tr> 
+    <td valign="top" width="116">&nbsp;</td>
+    <td height="35" colspan="4" valign="top" bgcolor="ivory"> <p><font face="Arial, Helvetica, sans-serif" size="2">set 
+        <i>h</i> to the critical height <i>H<sub>c</sub></i> = 12 ft and solve 
+        for <i>C</i>:</font></p></td>
+  </tr>
+  <tr> 
+    <td valign="top" width="116">&nbsp;</td>
+    <td width="424" height="56" valign="top" bgcolor="ivory"> <div align="center"> 
+        <table width="75%" border="0" cellspacing="0" cellpadding="0">
+          <tr> 
+            <td rowspan="2" width="8%"><font face="Times New Roman, Times, serif" size="3">C 
+              =</font></td>
+            <td width="22%"> <div align="center"><font face="Times New Roman, Times, serif" size="3"><u><i>h</i>&gamma;&nbsp;</u></font></div></td>
+            <td rowspan="2" width="3%"> <div align="center"><font face="Times New Roman, Times, serif" size="3">=</font></div></td>
+            <td width="38%"> <div align="center"><font face="Times New Roman, Times, serif" size="3"><u>(12 
+                ft) (120 pcf)</u></font></div></td>
+            <td rowspan="2" width="4%"> <div align="center"><font face="Times New Roman, Times, serif" size="3">=</font></div></td>
+            <td rowspan="2" width="25%"><font face="Times New Roman, Times, serif" size="3">109.1 
+              psf</font></td>
+          </tr>
+          <tr> 
+            <td width="22%"> <div align="center"><font face="Times New Roman, Times, serif" size="3">N</font></div></td>
+            <td width="38%"> <div align="center"><font face="Times New Roman, Times, serif" size="3">13.2</font></div></td>
+          </tr>
+        </table>
+      </div></td>
+    <td width="38" height="56" colspan="3" valign="top" bgcolor="ivory"><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font></td>
+  </tr>
+  <tr> 
+    <td valign="top" width="116">&nbsp;</td>
+    <td height="41" colspan="4" valign="top" bgcolor="ivory"> <div align="right"><font face="Arial, Helvetica, sans-serif" size="2">Use 
+        C = 110 psf above the phreatic surface </font></div></td>
+  </tr>
+  <tr> 
+    <td valign="top" width="116">&nbsp;</td>
+    <td height="41" colspan="4" valign="top" bgcolor="ivory"> <p><font size="2" face="Arial, Helvetica, sans-serif">For 
+        Location <i>C</i> conditions (<i>h<sub>w</sub></i>=<i>h</i>=14.2 ft., 
+        &alpha;=15°, <i>ß</i>=1:1)</font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">and &phi;' = 30°, 
+        &gamma;<sub>sat</sub> = 130 pcf as determined above, find:</font> </p></td>
+  </tr>
+  <tr> 
+    <td valign="top" width="116">&nbsp;</td>
+    <td width="424" height="66" valign="top" bgcolor="ivory"> <div align="center"><font size="2" face="Arial, Helvetica, sans-serif"><img src="images/5/5c_eq604c.gif" width="147" height="36"></font></div></td>
+    <td width="38" height="66" colspan="3" valign="top" bgcolor="ivory"><font face="Arial, Helvetica, sans-serif" size="2">Fig. 
+      5C.4.</font></td>
+  </tr>
+  <tr> 
+    <td valign="top" width="116">&nbsp;</td>
+    <td width="424" height="66" valign="top" bgcolor="ivory"> <div align="center"><font size="2" face="Arial, Helvetica, sans-serif"><img src="images/5/5c_eq604d.gif" width="375" height="46"></font></div></td>
+    <td width="38" height="66" colspan="3" valign="top" bgcolor="ivory"><font face="Arial, Helvetica, sans-serif" size="2">Fig 
+      5C.5.</font></td>
+  </tr>
+  <tr> 
+    <td valign="top" width="116">&nbsp;</td>
+    <td height="237" colspan="4" rowspan="6" valign="top" bgcolor="ivory"><font face="Arial, Helvetica, sans-serif" size="2">find: 
+      S = 0.31</font><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font> 
+      <div align="center"><font size="2" face="Arial, Helvetica, sans-serif"><img src="images/5/5c_eq604e.gif" width="201" height="50"></font></div>
+      <p><font size="2" face="Arial, Helvetica, sans-serif">Set <i>h</i> to the 
+        critical height <i>H<sub>c</sub></i> = 4.2 ft and solve for <i>C</i>:</font> 
+      </p>
+      <div align="center"> 
+        <table width="64%" border="0" cellspacing="0" cellpadding="0">
+          <tr> 
+            <td height="17" rowspan="2" width="10%"><font face="Times New Roman, Times, serif" size="3">C 
+              =</font></td>
+            <td height="17" width="22%"> <div align="center"><font face="Times New Roman, Times, serif" size="3"><u><i>h</i>&gamma;</u></font></div></td>
+            <td height="17" rowspan="2" width="5%"> <div align="center"><font face="Times New Roman, Times, serif" size="3">=</font></div></td>
+            <td height="17" width="37%"> <div align="center"><font face="Times New Roman, Times, serif" size="3"><u>(4.2 
+                ft) (130 pcf)</u></font></div></td>
+            <td height="17" rowspan="2" colspan="2" width="26%"> <div align="left"><font face="Times New Roman, Times, serif" size="3">= 
+                51.1 psf</font></div></td>
+          </tr>
+          <tr> 
+            <td width="22%"> <div align="center"><font face="Times New Roman, Times, serif" size="3">N</font></div></td>
+            <td width="37%"> <div align="center"><font face="Times New Roman, Times, serif" size="3">(0.31) 
+                (34.5)</font></div></td>
+          </tr>
+        </table>
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><U>Use <i>C</i> 
+          = 50 psf below the phreatic surface </U></font></p>
+      </div></td>
+  </tr>
+  <tr> 
+    <td valign="top" width="116">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td valign="top" width="116">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td valign="top" width="116">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td valign="top" width="116">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td valign="top" width="116">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td valign="top" width="116">&nbsp;</td>
+    <td  colspan="4" valign="top" bgcolor="ivory"> <hr> <font face="Arial, Helvetica, sans-serif" size="2"><b><a name="Problem_2"></a>Problem 
+      2</b></font> <p><font face="Arial, Helvetica, sans-serif" size="2">At location 
+        A of <a href="ssg_5b.html#Fig_5B.4">figure 5B.4</a>, the design calls 
+        for an additional 10 feet of road width to be added by extending the section 
+        into the cut. Using the parametric values from problem 1, evaluate the 
+        stability of 0.50:1, 0.75:1, 1.00:1, and 1.25:1 cut slopes with this 10 
+        feet of widening. Note that because the existing 0.50:1 cut slope at this 
+        location was used to estimate the value of "cohesion" to use in cut slope 
+        design, a 0.50:1 cut must be at its maximum height already at this location 
+        and cannot be constructed any higher. A cut slope flatter than 0.50:1 
+        at this location is dictated by this assumption.</font></p></td>
+  </tr>
+  <tr> 
+    <td valign="top" width="116">&nbsp;</td>
+    <td valign="top" colspan="4" bgcolor="ivory" rowspan="2"> <div align="center"><font size="2" face="Arial, Helvetica, sans-serif"><a href="images/5/5c_p605a.gif"><img src="images/5/5c_p605a.gif" width="264" height="287" border="1"></a></font></div></td>
+  </tr>
+  <tr> 
+    <td valign="top" width="116">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td valign="top" width="116">&nbsp;</td>
+    <td colspan="4" valign="top" bgcolor="ivory" > <hr> <font size="2" face="Arial, Helvetica, sans-serif"><b><a name="Problem_3"></a>Problem 
+      3.</b></font> <p><font size="2" face="Arial, Helvetica, sans-serif">At location 
+        B of <a href="ssg_5b.html#Fig_5B.4">figure 5B.4</a>, would the cut slope 
+        ratio selected for location A be stable for a full-bench cut to provide 
+        a 15-foot-wide subgrade width with no ditch? Compare the results to the 
+        results of problem 2 and note the effects that steep natural slopes have 
+        on the design of a stable cut slope.</font></p></td>
+  </tr>
+  <tr> 
+    <td valign="top" width="116">&nbsp;</td>
+    <td valign="top" colspan="4" bgcolor="ivory"> <div align="center"><font size="2" face="Arial, Helvetica, sans-serif"><a href="images/5/5c_p606a.gif"><img src="images/5/5c_p606a.gif" width="252" height="301" border="1"></a></font></div></td>
+  </tr>
+  <tr> 
+    <td valign="top" width="116">&nbsp;</td>
+    <td colspan="4" rowspan="2" valign="top" bgcolor="ivory"> <hr> <font face="Arial, Helvetica, sans-serif" size="2"><b><a name="Problem_4"></a>Problem 
+      4.</b></font> <p><font face="Arial, Helvetica, sans-serif" size="2">To further 
+        illustrate the effects of even small values of cohesion on the design 
+        of stable cut slopes, consider the design of a road through a clean talus 
+        rock material with the parametric values as shown in the following sketch 
+        and select a cut slope with the minimum stable cut height. Frequently, 
+        stable cut slopes of 1.00:1 or steeper are not possible in talus material. 
+        Compare also to the analysis of <a href="ssg_5b.html#5B.5">section 5B.5</a> 
+        for a correlation to the stability of a natural talus slope.</font></p></td>
+  </tr>
+  <tr> 
+    <td valign="top" width="116">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td valign="top" width="116">&nbsp;</td>
+    <td valign="top" colspan="4" bgcolor="ivory"> <div align="center"><font size="2" face="Arial, Helvetica, sans-serif"><a href="images/5/5c_p607a.gif"><img src="images/5/5c_p607a.gif" width="268" height="334" border="1"></a></font></div></td>
+  </tr>
+  <tr> 
+    <td valign="top" width="116">&nbsp;</td>
+    <td colspan="4" rowspan="2" valign="top" bgcolor="ivory"> <hr> <font face="Arial, Helvetica, sans-serif" size="2"><b><a name="Problem_5"></a>Problem 
+      5.</b></font> <p><font face="Arial, Helvetica, sans-serif" size="2">Will 
+        the design cut planned for location D as shown in the sketch be stable?</font></p></td>
+  </tr>
+  <tr> 
+    <td valign="top" width="116">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td valign="top" width="116">&nbsp;</td>
+    <td valign="top" colspan="4" height="436" bgcolor="ivory"> <div align="center"><font size="2" face="Arial, Helvetica, sans-serif"><a href="images/5/5c_p608a.gif"><img src="images/5/5c_p608a.gif" width="292" height="422" border="1"></a></font></div></td>
+  </tr>
+  <tr> 
+    <td valign="top" width="116">&nbsp;</td>
+    <td valign="top" colspan="4" bgcolor="ivory"> <hr> <font face="Arial, Helvetica, sans-serif" size="2"><b><a name="Problem_6"></a>Problem 
+      6.</b></font> <p><font size="2" face="Arial, Helvetica, sans-serif">If the 
+        design for location D is modified by shifting the alignment to the left, 
+        resulting in a slight fill and a reduced cut height, would the cut slope 
+        be stable under these ground water conditions?</font></p></td>
+  </tr>
+  <tr> 
+    <td valign="top" width="116">&nbsp;</td>
+    <td valign="top" colspan="4" bgcolor="ivory"> <div align="center"><font size="2" face="Arial, Helvetica, sans-serif"><a href="images/5/5c_p609a.gif"><img src="images/5/5c_p609a.gif" width="317" height="430" border="1"></a></font></div></td>
+  </tr>
+  <tr> 
+    <td valign="top" width="116">&nbsp;</td>
+    <td valign="top" colspan="4" bgcolor="ivory" rowspan="3"> <hr> <font size="2" face="Arial, Helvetica, sans-serif"><b><a name="Problem_7"></a>Problem 
+      7</b>. </font> <p><font size="2" face="Arial, Helvetica, sans-serif">Which 
+        would you expect to become unstable first under seasonally high ground 
+        water at location A: the natural slope or the 1.00:1 cut slope designed 
+        in problem 5C.2? (Refer to the solution of <a href="ssg_5b.html#Problem_5">problem 
+        5B.5</a> for the critical ground water depth for location A and determine 
+        the critical height of cut slope under those ground water conditions.)</font></p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif"><U>Solution:</U></font></p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif">(Plot Critical <i>d<sub>w</sub></i> 
+        from <a href="ssg_5b.html#Problem_5">problem 5B.5</a> on sketch, determine 
+        <i>h<sub>w</sub></i> and solve as in problems 5 and 6.)</font></p></td>
+  </tr>
+  <tr> 
+    <td valign="top" width="116">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td valign="top" width="116">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td valign="top" width="116">&nbsp;</td>
+    <td valign="top" colspan="4" bgcolor="ivory" rowspan="2"> <div align="center"><font size="2" face="Arial, Helvetica, sans-serif"><a href="images/5/5c_p610a.gif"><img src="images/5/5c_p610a.gif" width="275" height="334" border="1"></a></font> 
+      </div></td>
+  </tr>
+  <tr> 
+    <td valign="top" width="116">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td colspan="5"  valign="top"><hr></td>
+  </tr>
+  <tr> 
+    <td  valign="top" width="116"><font face="Arial, Helvetica, sans-serif" size="3"><strong><a name="5C.6"></a>5C.6 
+      Failure Mode and Ground Water Depth for Fill-Slope Stability Analysis</strong></font><strong><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;&nbsp;</font> 
+      </strong><font size="2" face="Arial, Helvetica, sans-serif"><font size="3"></font></font> 
+    </td>
+    <td valign="top" colspan="4"> <p><font face="Arial, Helvetica, sans-serif" size="2">The 
+        level II stability number methods used for fill slope analysis assume 
+        that the failure surface will exit at the toe of the fill slope. However, 
+        that is not always the case. <a href="#Fig_5C.7">Figure 5C.7</a> shows 
+        four possible modes of fill failure. A debris avalanche with a translational 
+        failure surface at the rock line is just as likely a mode of fill slope 
+        failure under high ground water conditions on steep slopes. This will 
+        be demonstrated further in <a href="ssg_5d.html">section 5D</a> in a discussion 
+        of progressive rotational-to-translational failures of fill slopes. To 
+        alert the user of the potential for this type of failure under extreme 
+        ground water conditions, a "red flag" option is available in SSCHFS and 
+        is being programmed into DSARA.</font></p></td>
+  </tr>
+  <tr> 
+    <td  valign="top" width="116">&nbsp;</td>
+    <td valign="top" colspan="4" bgcolor="#CCCC99" > <div align="center"> 
+        <p><font size="2" face="Arial, Helvetica, sans-serif"><b><a name="Fig_5C.7"></a></b><a href="images/5/5c_f07.gif" target="_blank"><img src="images/5/5c_f07.gif" width="329" height="230" border="1"></a></font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><i>Figure 5C.7.-Four 
+          modes of fill slope failure.</i></font></p>
+      </div></td>
+  </tr>
+  <tr> 
+    <td  valign="top" width="116">&nbsp;</td>
+    <td valign="top" colspan="4" > <p><font face="Arial, Helvetica, sans-serif" size="2"> 
+        This red flag option is in the form of an exaggerated ground water surface 
+        extending into the fill material. The ground water phreatic surface can 
+        be forced up into the fill material, and this phenomenon has been measured 
+        and monitored on occasion (<a href="ssg_4es.html#4E.6.1">section 4E.6.1</a>). 
+        Unfortunately, there is little measured data on which to base reliable 
+        predicting analysis. There may be several causes for this phenomenon--such 
+        as subsidence of the subsoil or organic surficial material, if it were 
+        not stripped before fill placement; infiltration of snowmelt or rain into 
+        the fill material developing a perched ground water surface within the 
+        fill; infiltration from inadequate ditch drainage, which is most likely 
+        to occur in a through-fill section without organic surficial material 
+        stripping; and a plugged culvert in a through-fill section (sample <a href="ssg_4e.html#Problem_8">problem 
+        4E.8</a>). The location of the exaggerated ground water surface in this 
+        red flag option is an arbitrary approach developed by Prellwitz (1988) 
+        based on the relationship between: (1) the ratio of the slope of the phreatic 
+        surface to the angle of internal friction of the subsoil, <i>&alpha;<sub>w</sub>/&phi;</i>, 
+        and (2) the ratio of the height of the fill to the depth of the subsoil, 
+        <i>h/d</i>, and the unexaggerated depth of ground water in the subsoil 
+        to the depth of the subsoil,<i> d<sub>w</sub>/d</i>.</font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2"><a href="#Fig_5C.8">Figure 
+        5C.8</a> shows the location of the exaggerated ground water surface (labeled 
+        <i>h<sub>w</sub></i>) in relationship to the other ground water options 
+        (drained and intercept) available in SSCHFS and DSARA.</font></p></td>
+  </tr>
+  <tr> 
+    <td  valign="top" width="116">&nbsp;</td>
+    <td valign="top" colspan="4" bgcolor="#CCCC99" rowspan="2"> <div align="center"> 
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><a name="Fig_5C.8"></a><a href="images/5/5c_f08.gif" target="_blank"><img src="images/5/5c_f08.gif" width="339" height="187" border="1"></a></font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><i>Figure 5C.8.-Ground 
+          water options available for programmed fill slope analysis.</i></font></p>
+      </div></td>
+  </tr>
+  <tr> 
+    <td  valign="top" width="116">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td colspan="5" valign="top"><HR></td>
+  </tr>
+  <tr> 
+    <td valign="top" width="116"><font size="2" face="Arial, Helvetica, sans-serif"><b><font size="2" face="Arial, Helvetica, sans-serif"><b><font size="3"><b><a name="5C.7"></a></b></font></b></font><font size="3">5C.7 
+      The Center-of-Gravity Infinite Slope (C.G.I.S.) Approximation</font></b></font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font></td>
+    <td colspan="4" valign="top" bgcolor="#FFFFFF"><p><font size="2" face="Arial, Helvetica, sans-serif">In 
+        <a href="ssg_5a.html#5A.6">section 5A.6</a>, it was demonstrated how the 
+        infinite slope equation relates to the fundamentals of the method-of-slices 
+        methods used in level III. This relationship suggests that the infinite 
+        slope equation can be used to estimate the factor of safety against failure, 
+        <i>F</i>, anticipated for a level III analysis. The following procedure 
+        (the C.G.I.S. approximation), documented by Prellwitz (1975), uses the 
+        infinite slope equation with the conditions that exist at the center of 
+        gravity of a potential failure mass (refer to <a href="#Fig_5C.9">figure 
+        5C.9</a>):</font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">Step 1. Replace the 
+        upper boundaries of the failure mass with one chord line and locate the 
+        center of gravity of the mass. For a circular arc failure surface, the 
+        following equation can be used to determine the distance from the arc 
+        origin along the arc angle bisector to the center of gravity, <i>R</i><sub><i>cg</i></sub>:</font></p></td>
+  </tr>
+  <tr> 
+    <td valign="top" width="116">&nbsp;</td>
+    <td valign="top" width="424"> <div align="center"><font size="2" face="Arial, Helvetica, sans-serif"><img src="images/5/5c_eq612a.gif" width="178" height="44"></font></div></td>
+    <td valign="top" colspan="3" width="38"><font size="2" face="Arial, Helvetica, sans-serif">(5C.3)</font></td>
+  </tr>
+  <tr> 
+    <td valign="top" width="116">&nbsp;</td>
+    <td valign="top" colspan="4" rowspan="3"> <p><font face="Arial, Helvetica, sans-serif" size="2">Where:</font></p>
+      <blockquote> 
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><i>R<sub>cg</sub></i> 
+          = Distance from the arc origin to the center of gravity<BR>
+          <i>R</i> = Radius of the arc<BR>
+          &Delta; = Central arc angle, degrees.</font></p>
+      </blockquote>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">Step 2. Graphically 
+        measure <i>&theta;</i>, <i>d</i>, and <i>d<sub>w</sub></i> on the vertical 
+        section through the center of gravity using the "effective" chord line 
+        used to replace the upper failure mass boundaries in step 1.</font></p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif">Step 3. Solve the 
+        infinite slope equation.</font></p></td>
+  </tr>
+  <tr> 
+    <td valign="top" width="116">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td valign="top" width="116">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td valign="top" width="116">&nbsp;</td>
+    <td valign="top" colspan="4" bgcolor="#CCCC99" rowspan="2"> <div align="center"> 
+        <p><font size="2" face="Arial, Helvetica, sans-serif"><a name="Fig_5C.9"></a><a href="images/5/5c_f09.gif"><img src="images/5/5c_f09.gif" width="334" height="168" border="1"></a></font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><i>Figure 5C.9.-Geometry 
+          of the center-of-gravity-infinate-slope (C.G.I.S.) approximation.</i></font></p>
+      </div></td>
+  </tr>
+  <tr> 
+    <td valign="top" height="165" width="116">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td colspan="5"  valign="top"><HR></td>
+  </tr>
+  <tr> 
+    <td  valign="top" width="116"><font face="Arial, Helvetica, sans-serif"><strong><a name="5C.8" id="5C.8"></a>5C.8 
+      C.G.I.S. Sample Problems&nbsp;&nbsp;&nbsp;</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;&nbsp;</font></td>
+    <td valign="top" colspan="4"><p><font face="Arial, Helvetica, sans-serif" size="2">Before 
+        the age of programmable calculators and personal computers, this technique 
+        was most useful as a substitute for the time-consuming method-of-slices 
+        methods. It will be used here to demonstrate the correlation to the level 
+        III analysis. One of the drawbacks of the level II analysis is that it 
+        tells the designer nothing about the mode of failure. The next three sample 
+        problems demonstrate the analysis of potential failure surfaces to locate 
+        the critical or most likely failure surface. Sample problems <a href="#Problem_8">8</a> 
+        and <a href="#Problem_9">9</a> are for 1.00:1 and 2.00:1 cut slopes at 
+        location D of figure <a href="ssg_5b.html#Fig_5B.4">5B.4</a>. In each 
+        case, there is a "critical" arc location where arcs on either side have 
+        higher factors of safety. Notice that "flattening the slope" from 1.00:1 
+        to 2.00:1 in an attempt to stabilize it increased the factor of safety 
+        only slightly, but increased the size of the failure mass which might 
+        be mobilized. This is not uncommon when seasonal ground water is present. 
+        Subsurface drainage systems (as described in <a href="ssg_6d.html">section 
+        6D</a>) would be more successful than flattening the slope. Problem <a href="#Problem_10">10</a> 
+        is a through-fill at the same location and demonstrates that the potential 
+        of a rotational failure progressing into a translational debris avalanche 
+        is great for a fill located on a steep slope with ground water in the 
+        subsoil.</font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">In using the C.G.I.S. 
+        approximation and making comparisons to the results of level III analyses, 
+        the user must remember that the infinite slope equation is a special case 
+        of the ordinary method of slices (as was shown in the derivation in section 
+        <a href="ssg_5a.html#5A.6">5A.6</a>) and that the results of the ordinary 
+        method of slices analysis are usually conservative compared to the simplified 
+        Bishop's or Janbu's results. The user must then expect conservatism (up 
+        to 15 percent) in the results of the C.G.I.S. approximation (as will be 
+        demonstrated in section <a href="#5C.9">5C.9</a> for these sample problems). 
+        However, this conservatism is a useful attribute for an approximate analysis 
+        which does not have the "search for critical failure surface" capabilities 
+        that computer programs do. </font></p></td>
+  </tr>
+  <tr> 
+    <td  valign="top" width="116">&nbsp;</td>
+    <td colspan="4" valign="top" bgcolor="ivory"> <hr> <b><font size="2" face="Arial, Helvetica, sans-serif"><a name="Problem_8"></a>Problem 
+      8.</font></b> <p><font size="2" face="Arial, Helvetica, sans-serif">Using 
+        the C.G.I.S. approximation, estimate where the critical failure surface 
+        might be for a full-bench 1.00:1 cut slope at location D of <a href="ssg_5b.html#Fig_5B.4">figure 
+        5B.4</a> as shown in the sketch. Use the parameters from <a href="#Problem_1">problem 
+        1</a>.</font></p></td>
+  </tr>
+  <tr> 
+    <td  valign="top" width="116">&nbsp;</td>
+    <td valign="top" colspan="4" bgcolor="ivory" > <div align="center"><font size="2" face="Arial, Helvetica, sans-serif"><a href="images/5/5c_p614a.gif"><img src="images/5/5c_p614a.gif" width="345" height="332" border="1"></a></font></div></td>
+  </tr>
+  <tr> 
+    <td  valign="top" width="116">&nbsp;</td>
+    <td valign="top" colspan="4" bgcolor="ivory" rowspan="2"> <div align="center"><font size="2" face="Arial, Helvetica, sans-serif"><a href="images/5/5c_p615a.gif"><img src="images/5/5c_p615a.gif" width="352" height="421" border="1"></a></font></div></td>
+  </tr>
+  <tr> 
+    <td  valign="top" width="116">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td  valign="top" width="116">&nbsp;</td>
+    <td colspan="4" valign="top" bgcolor="ivory"> <hr> <font face="Arial, Helvetica, sans-serif" size="2"><b><a name="Problem_9"></a>Problem 
+      9.</b></font> <p><font face="Arial, Helvetica, sans-serif" size="2">As predicted, 
+        the 1.00:1 cut failed the first year after construction as a result of 
+        seasonally high ground water. If the slope is reconstructed by "flattening" 
+        to 2.00:1, would that slope be stable with the same seasonally high ground 
+        water? Compare the shape and location of the "critical" failure surfaces 
+        and the amount of material mobilized for the two cut slope ratios. </font></p></td>
+  </tr>
+  <tr> 
+    <td  valign="top" width="116">&nbsp;</td>
+    <td valign="top" colspan="4" bgcolor="ivory" > <div align="center"><font size="2" face="Arial, Helvetica, sans-serif"><a href="images/5/5c_p616a.gif" target="_blank"><img src="images/5/5c_p616a.gif" width="324" height="377" border="1"></a></font></div></td>
+  </tr>
+  <tr> 
+    <td  valign="top" width="116">&nbsp;</td>
+    <td valign="top" colspan="4" bgcolor="ivory" rowspan="2"> <div align="center"><font size="2" face="Arial, Helvetica, sans-serif"><a href="images/5/5c_p617a.gif" target="_blank"><img src="images/5/5c_p617a.gif" width="340" height="396" border="1"></a></font></div></td>
+  </tr>
+  <tr> 
+    <td  valign="top" width="116">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td  valign="top" width="116">&nbsp;</td>
+    <td colspan="4" valign="top" bgcolor="ivory"> <hr> <font size="2" face="Arial, Helvetica, sans-serif"><b><a name="Problem_10"></a>Problem 
+      10.</b> </font> <p><font size="2" face="Arial, Helvetica, sans-serif">Rather 
+        than the full-bench cut of problem <a href="#Problem_8">8</a> or <a href="#Problem_9">9</a>, 
+        if a through-fill were constructed at location C, where would the location 
+        of the possible "critical" failure surface be? Note the "critical" location 
+        and the potential of this failure progressing into a translational debris 
+        avalanche. Based on these solutions, which would you expect to be most 
+        likely to be stable at this location under seasonally high ground water: 
+        a full-bench cut, a self-balance section, or a through-fill section?</font></p></td>
+  </tr>
+  <tr> 
+    <td  valign="top" width="116">&nbsp;</td>
+    <td valign="top" colspan="4" bgcolor="ivory" > <div align="center"><font size="2" face="Arial, Helvetica, sans-serif"><a href="images/5/5c_p618a.gif" target="_blank"><img src="images/5/5c_p618a.gif" width="342" height="370" border="1"></a></font></div></td>
+  </tr>
+  <tr> 
+    <td  valign="top" width="116">&nbsp;</td>
+    <td valign="top" colspan="4" bgcolor="ivory" > <div align="center"><font size="2" face="Arial, Helvetica, sans-serif"><a href="images/5/5c_p619a.gif" target="_blank"><img src="images/5/5c_p619a.gif" width="344" height="341" border="1"></a></font></div></td>
+  </tr>
+  <tr> 
+    <td  valign="top" width="116">&nbsp;</td>
+    <td colspan="4" valign="top" bgcolor="ivory"> <font face="Arial, Helvetica, sans-serif" size="2">Because 
+      both the full-bench cut and through-fill have potential for failure, the 
+      least likely section to have a failure would be the self-balance section, 
+      which would minimize both the cut and fill height. However, the design selection 
+      must also consider such other factors as (1) significance to the road alignment, 
+      (2) significance to surface drainage, and (3) consequences of failure (which 
+      type of failure has the least impact on the watershed and is easiest to 
+      mitigate).</font></td>
+  </tr>
+  <tr> 
+    <td colspan="5" valign="top" > <hr> </td>
+  </tr>
+  <tr> 
+    <td  valign="top" width="116"><font face="Arial, Helvetica, sans-serif" size="3"><strong><a name="5C.9"></a>5C.9 
+      Road Template Sample Problems and Analysis Comparisons</strong></font><strong><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font></strong></td>
+    <td valign="top" colspan="4"><font face="Arial, Helvetica, sans-serif" size="2">In 
+      this section, options to generate the road template sections shown in figure 
+      <a href="#Fig_5C.3">5C.3</a> will be demonstrated. These problems will also 
+      be used for comparison of the results of the two level II options to the 
+      results of level III analysis and to the results of the C.G.I.S. approximation. 
+      The summary of these analyses (table <a href="#Table_5C.1">5C.1</a>) shows 
+      the results of three computer programs that use the simplified Bishop's 
+      option: DTIS*BISHOP (1969), STABL3FW (1984), and XSTABL (1992).</font> </td>
+  </tr>
+  <tr> 
+    <td  valign="top" width="116">&nbsp;</td>
+    <td colspan="4" valign="top" bgcolor="ivory"> <hr> <font face="Arial, Helvetica, sans-serif" size="2"><a name="Problem_11"></a>Problem 
+      11. </font> <p><font face="Arial, Helvetica, sans-serif" size="2">For the 
+        self-balance road template in the sketch: </font></p>
+      <blockquote> 
+        <p><font face="Arial, Helvetica, sans-serif" size="2">a. Solve with the 
+          self-balance option of DSARA (with HP41 algorithms),</font><font face="Arial, Helvetica, sans-serif" size="2"><bR>
+          b. Solve with the self-balance option of SSCHFS,</font><font face="Arial, Helvetica, sans-serif" size="2"><BR>
+          c. Check with XSTABL (simplified Bishop option), and</font><font face="Arial, Helvetica, sans-serif" size="2"><BR>
+          d. Solve using the C.G.I.S. approximation option of SSIS.</font></p>
+      </blockquote></td>
+  </tr>
+  <tr> 
+    <td  valign="top" width="116">&nbsp;</td>
+    <td valign="top" colspan="4" bgcolor="ivory" > <div align="center"><font size="2" face="Arial, Helvetica, sans-serif"><a href="images/5/5c_p620a.gif" target="_blank"><img src="images/5/5c_p620a.gif" width="288" height="154" border="1"></a></font></div></td>
+  </tr>
+  <tr> 
+    <td  valign="top" width="116">&nbsp;</td>
+    <td valign="top" colspan="4" bgcolor="ivory" > <div align="center"><font size="2" face="Arial, Helvetica, sans-serif"><a href="images/5/5c_p621a.gif" target="_blank"><img src="images/5/5c_p621a.gif" width="253" height="327" border="1"></a></font></div></td>
+  </tr>
+  <tr> 
+    <td  valign="top" width="116">&nbsp;</td>
+    <td valign="top" colspan="4" bgcolor="ivory"> <div align="center"> 
+        <table width="29%" border="0" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF">
+          <tr bgcolor="#FFFFFF"> 
+            <td> <div align="center"><font size="2" face="Arial, Helvetica, sans-serif" color="#000000">1.00:1 
+                CUT SLOPE</font></div></td>
+          </tr>
+        </table>
+        <p>&nbsp;</p>
+        <p><font size="2" face="Arial, Helvetica, sans-serif"><a href="images/5/5c_p622a.gif"><img src="images/5/5c_p622a.gif" width="359" height="220" border="1"></a></font></p>
+      </div></td>
+  </tr>
+  <tr> 
+    <td  valign="top" width="116">&nbsp;</td>
+    <td valign="top" colspan="4" bgcolor="ivory" rowspan="2"> <div align="center"><font size="2" face="Arial, Helvetica, sans-serif"><a href="images/5/5c_p622b.gif" target="_blank"><img src="images/5/5c_p622b.gif" width="327" height="228" border="1"></a></font></div>
+      <font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font></td>
+  </tr>
+  <tr> 
+    <td  valign="top" width="116">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td  valign="top" width="116">&nbsp;</td>
+    <td valign="top" colspan="4" bgcolor="ivory"> <div align="center"> 
+        <hr>
+        <table width="28%" border="0" cellspacing="0" cellpadding="0">
+          <tr bgcolor="#FFFFFF"> 
+            <td> <div align="center"><font size="2" face="Arial, Helvetica, sans-serif">1:50:1 
+                FILL SLOPE</font></div></td>
+          </tr>
+        </table>
+        <p>&nbsp;</p>
+        <p><font size="2" face="Arial, Helvetica, sans-serif"><a href="images/5/5c_p623a.gif"><img src="images/5/5c_p623a.gif" width="250" height="168" border="1"></a></font></p>
+      </div></td>
+  </tr>
+  <tr> 
+    <td  valign="top" width="116">&nbsp;</td>
+    <td valign="top" colspan="4" bgcolor="ivory" rowspan="2"> <div align="center"><font size="2" face="Arial, Helvetica, sans-serif"><a href="images/5/5c_p623b.gif"><img src="images/5/5c_p623b.gif" width="359" height="273" border="1"></a></font></div></td>
+  </tr>
+  <tr> 
+    <td  valign="top" width="116">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td  valign="top" width="116">&nbsp;</td>
+    <td colspan="4" valign="top" bgcolor="ivory"> <hr> <font face="Arial, Helvetica, sans-serif" size="2"><a name="Problem_12"></a>Problem 
+      12. </font> <p><font face="Arial, Helvetica, sans-serif" size="2">For the 
+        full-bench road template in the sketch:</font></p>
+      <blockquote> 
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><a href="#A_1">a.</a> 
+          Solve with the full-bench option of DSARA (with HP41 algorithms),</font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><a href="#B_1">b</a>. 
+          Solve with the full-bench option of SSCHFS,</font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><a href="#c_1">c</a>. 
+          Check with XSTABL (simplified Bishop's option), and</font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><a href="#D_1">d</a>. 
+          Solve using the C.G.I.S. approximation option of SSIS.</font></p>
+      </blockquote></td>
+  </tr>
+  <tr> 
+    <td  valign="top" width="116">&nbsp;</td>
+    <td valign="top" colspan="4" bgcolor="ivory" > <div align="center"><font size="2" face="Arial, Helvetica, sans-serif"><a href="images/5/5c_p624a.gif" target="_blank"><img src="images/5/5c_p624a.gif" width="285" height="209" border="1"></a></font></div></td>
+  </tr>
+  <tr> 
+    <td  valign="top" width="116">&nbsp;</td>
+    <td valign="top" colspan="4" bgcolor="ivory" > <div align="center"> 
+        <p><font size="2" face="Arial, Helvetica, sans-serif"><a name="A_1"></a>a. 
+          DSARA printout for the 1.00:1 cut in the sketch.</font></p>
+        <p><font size="2" face="Arial, Helvetica, sans-serif"><a href="images/5/5c_p625a.gif"><img src="images/5/5c_p625a.gif" width="330" height="446" border="1"></a></font></p>
+      </div></td>
+  </tr>
+  <tr> 
+    <td  valign="top" width="116">&nbsp;</td>
+    <td valign="top" colspan="4" bgcolor="ivory" > <div align="center"> 
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><a name="B_1"></a>b. 
+          SSCHFS printouts</font></p>
+        <p><font size="2" face="Arial, Helvetica, sans-serif"><a href="images/5/5c_p625b.gif" target="_blank"><img src="images/5/5c_p625b.gif" width="297" height="111" border="1"></a></font></p>
+      </div></td>
+  </tr>
+  <tr> 
+    <td  valign="top" width="116">&nbsp;</td>
+    <td valign="top" colspan="4" bgcolor="ivory" > <p><font size="2" face="Arial, Helvetica, sans-serif"><a name="c_1"></a>c. 
+        XSTABL printout for the 1.00:1 cut (other cuts summarized in table 5C.1).</font></p>
+      <p align="center"><font size="2" face="Arial, Helvetica, sans-serif"><a href="images/5/5c_p626a.gif" target="_blank"><img src="images/5/5c_p626a.gif" width="357" height="258" border="1"></a></font></p></td>
+  </tr>
+  <tr> 
+    <td  valign="top" width="116">&nbsp;</td>
+    <td valign="top" colspan="4" bgcolor="ivory" > <div align="center"> 
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><a name="D_1"></a>d. 
+          C.G.I.S. approximation with SSIS</font></p>
+        <p><font size="2" face="Arial, Helvetica, sans-serif"><a href="images/5/5c_p627a.gif"><img src="images/5/5c_p627a.gif" width="327" height="245" border="1"></a></font></p>
+      </div></td>
+  </tr>
+  <tr> 
+    <td  valign="top" width="116">&nbsp;</td>
+    <td valign="top" colspan="4" bgcolor="ivory" rowspan="2"> <div align="center"><font size="2" face="Arial, Helvetica, sans-serif"><a href="images/5/5c_p627b.gif" target="_blank"><img src="images/5/5c_p627b.gif" width="280" height="159" border="1"></a></font></div></td>
+  </tr>
+  <tr> 
+    <td  valign="top" width="116">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td  valign="top" width="116">&nbsp;</td>
+    <td colspan="4" valign="top" bgcolor="ivory"> <hr> <font face="Arial, Helvetica, sans-serif" size="2"><a name="Problem_13"></a>Problem 
+      13. </font> <p><font face="Arial, Helvetica, sans-serif" size="2">For the 
+        through-fill road template in the sketch:</font></p>
+      <blockquote> 
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><a href="#a">a</a>. 
+          Solve with the through-fill option of DSARA (with HP41 algorithms),</font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><a href="#b">b</a>. 
+          Check with the stability analysis of SSCHFS,</font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><a href="#c">c</a>. 
+          Check with XSTABL (simplified Bishop's option), and</font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><a href="#d">d</a>. 
+          Solve using the C.G.I.S. approximation option of SSIS.</font></p>
+      </blockquote></td>
+  </tr>
+  <tr> 
+    <td  valign="top" width="116">&nbsp;</td>
+    <td valign="top" colspan="4" bgcolor="ivory"> <div align="center"><font size="2" face="Arial, Helvetica, sans-serif"><a href="images/5/5c_p628a.gif"><img src="images/5/5c_p628a.gif" width="381" height="212" border="1"></a></font></div></td>
+  </tr>
+  <tr> 
+    <td  valign="top" width="116">&nbsp;</td>
+    <td valign="top" colspan="4" bgcolor="ivory" > <div align="center"> 
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><a name="a"></a>a. 
+          DSARA printout for the 1.30:1 fill in the sketch</font></p>
+        <p><font size="2" face="Arial, Helvetica, sans-serif"><a href="images/5/5c_p628b.gif"><img src="images/5/5c_p628b.gif" width="444" height="175" border="1"></a></font></p>
+      </div></td>
+  </tr>
+  <tr> 
+    <td  valign="top" width="116">&nbsp;</td>
+    <td valign="top" colspan="4" bgcolor="ivory" > <div align="center"> 
+        <p><font size="2" face="Arial, Helvetica, sans-serif"><a name="b"></a>b. 
+          SSCHFS printouts</font></p>
+        <p><font size="2" face="Arial, Helvetica, sans-serif"><a href="images/5/5c_p629a.gif" target="_blank"><img src="images/5/5c_p629a.gif" width="375" height="223" border="1"></a></font></p>
+      </div></td>
+  </tr>
+  <tr> 
+    <td  valign="top" width="116">&nbsp;</td>
+    <td valign="top" colspan="4" bgcolor="ivory"> <div align="center"> 
+        <p><font size="2" face="Arial, Helvetica, sans-serif"><a name="c"></a>c. 
+          XSTABL printout for the 1.30:1 fill (other fills summarized in table 
+          5C.1)</font><font face="Arial, Helvetica, sans-serif" size="2"> </font></p>
+        <table width="75%" border="0" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF">
+          <tr> 
+            <td><font face="Arial, Helvetica, sans-serif" size="2">STA. 164+30, 
+              1.3:1, WET, EXAGGERATED<BR>
+              3 most critical surfaces, MINIMUM BISHOP FOS = 0.809</font></td>
+          </tr>
+        </table>
+        <p><font size="2" face="Arial, Helvetica, sans-serif"><img src="images/5/5c_p629b.gif" width="480" height="257"></font></p>
+      </div></td>
+  </tr>
+  <tr> 
+    <td  valign="top" width="116">&nbsp;</td>
+    <td valign="top" colspan="4" bgcolor="ivory" > <div align="center"> 
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><a name="d"></a>d. 
+          C.G.I.S. approximation with SSIS</font></p>
+        <table width="51%" border="0" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF">
+          <tr> 
+            <td> <div align="center"><font size="2" face="Arial, Helvetica, sans-serif">1.00:1 
+                AND 1.30:1 FILL SLOPES</font></div></td>
+          </tr>
+        </table>
+        <p><font size="2" face="Arial, Helvetica, sans-serif"><a href="images/5/5c_p630a.gif"><img src="images/5/5c_p630a.gif" width="305" height="444" border="1"></a></font></p>
+      </div></td>
+  </tr>
+  <tr> 
+    <td  valign="top" width="116">&nbsp;</td>
+    <td valign="top" colspan="4" bgcolor="ivory"> <div align="center"> 
+        <table width="29%" border="0" cellspacing="0" cellpadding="0">
+          <tr bgcolor="#FFFFFF"> 
+            <td> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">1.50:1 
+                FILL SLOPE</font></div></td>
+          </tr>
+        </table>
+        <p><font size="2" face="Arial, Helvetica, sans-serif"><a href="images/5/5c_p631a.gif" target="_blank"><img src="images/5/5c_p631a.gif" width="326" height="284" border="1"></a></font></p>
+      </div></td>
+  </tr>
+  <tr> 
+    <td  valign="top" width="116">&nbsp;</td>
+    <td valign="top" colspan="4" bgcolor="ivory" rowspan="2"> <div align="center"><font size="2" face="Arial, Helvetica, sans-serif"><a href="images/5/5c_p631b.gif" target="_blank"><img src="images/5/5c_p631b.gif" width="241" height="333" border="1"></a></font></div>
+      <div align="center"> </div></td>
+  </tr>
+  <tr> 
+    <td  valign="top" width="116">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td  valign="top" width="116">&nbsp;</td>
+    <td valign="top" colspan="4" bgcolor="#CCCC99"> <hr> <p><font face="Arial, Helvetica, sans-serif" size="2"><i><a name="Table_5C.1"></a>Table 
+        5C.1.-Comparison of the results of solutions of sample problems 11 through 
+        13.</i></font></p>
+      <p align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a href="images/5/5c_t01.gif" target="_blank"><img src="images/5/5c_t01.gif" width="400" height="423" border="1"></a></font></p></td>
+  </tr>
+</table>
+<p><!-- ======= FOOTER GRAPHIC =================================================== --></p>
+<p> 
+  <!-- ========================================================================= -->
+  <img src="images/navbar.gif" width="703" height="36" align="BOTTOM"
+   usemap="#b_pagingButtons.map" border="0" alt="Slope Stability Reference Guide for National Forests in the United States"> 
+  <br>
+  <!-- =======IMAGE MAP INFORMATION============================================== -->
+  <map name="b_pagingButtons.map"> 
+    <!--HOME-->    <area shape="RECT" coords="0,0 605,26" href="index.html" alt="SSG home">
+    <!--PREV-->    <area shape="rect" coords="609,0,630,26" href="ssg_5b.html" alt="Section 5B">
+    <!--NEXT-->    <area shape="rect" coords="633,0,653,26" href="ssg_5d.html" alt="Section 5D">
+  </map>
+  <!-- ========================================================================= -->
+  <br>
+   <font face="Arial, Helvetica, sans-serif" size="1">USDA Forest Service<br>
+    <b>Slope Stability Reference Guide for National Forests in the United States, 1994.</b>
+    <br>
+    <a href="http://forest.moscowfsl.wsu.edu/ssg/">http://forest.moscowfsl.wsu.edu/ssg/</a> 
+    <br>Last Revised: 
+    <script language="javascript" type="text/javascript">
+     <!-- hide
+      document.write(document.lastModified)
+     // end hide -->
+    </script>
+   </font>
+  </p>
+ </body>
+</html>

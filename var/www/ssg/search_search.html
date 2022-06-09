@@ -1,0 +1,49 @@
+<html>
+ <head>
+  <title>SSG Search Engine</title>
+ </head>
+ <body bgcolor=#FFFFFF text=#000000>
+  <h2 align="center">SSG Search Engine</h2>
+  <hr size=7 width=75%>
+  <p>
+  <form method=POST action="http://forest.moscowfsl.wsu.edu/cgi-bin/engr/search_ssg.pl">
+   <center>
+    <table border=0>
+     <tr>
+      <th>
+       Text to Search For:
+      </th>
+      <th>
+       <input type=text name="terms" size=40>
+      </th>
+     </tr>
+     <tr>
+      <th>Boolean: 
+       <select name="boolean">
+        <option>AND
+        <option>OR
+       </select>
+      </th>
+      <th>Case
+       <select name="case">
+        <option>Insensitive
+        <option>Sensitive
+       </select>
+      </th>
+      </tr>
+      <tr>
+       <th colspan=2>
+        <input type=submit value="Search!">
+        <input type=reset>
+       </th>
+      </tr>
+     </table>
+    </form>
+   </center>
+   <hr size=7 width=75%>
+   <p>
+   Simple Search created by Matt Wright and can be found at
+   <a href="http://www.scriptarchive.com/">Matt's Script Archive</a>. 
+ </body>
+</html>
+
