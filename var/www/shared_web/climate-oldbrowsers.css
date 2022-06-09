@@ -1,0 +1,163 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* GENERAL PAGE POSITIONING */
+
+/* --- PAGE WRAPPERS --- */
+
+
+#main01 {
+	}
+
+#section01 {
+	width:180px;
+	}
+
+#section02 {
+	}
+
+#section02 .contentbox01 {
+	min-height:0;
+	}
+
+ul.nobulletlist {
+	list-style-type:none;
+	margin:0 0 20px 0;
+	}
+		
+#footer01 {
+	clear:both;
+	}
+
+/* SPECIAL STYLES FOR Forest Service logo links on the left side */
+
+ul.fslinks {
+	margin:0 0 20px 0;
+	}
+		
+/* SPECIAL STYLES FOR Forest Service main content links on the right side */
+
+.main-content-nav {
+	margin:20px 0 0 0;
+	}
+	
+.main-content-nav ul {
+	margin:20px 0 0 0;
+	}
+	
+.main-content-nav h2 a  {
+	width:500px;
+	}
+
+/* SPECIAL STYLES FOR Climate Home page */
+
+.home #section02 ul.homenav {
+	margin:10px 0 20px 20px;
+	}
+	
+/* SPECIAL STYLES FOR sub content links on the right side, example: Current Climate download buttons/lists */
+
+.sub-content-nav ul {
+	margin:0 0 0 20px;
+	}
+	
+.sub-content-nav h2 a  {
+	width:500px;
+	}
+
+/* ------------- Styles for Breadcrumb Navigation ---------------- */
+
+ul.breadcrumb-nav {
+	margin:10px 0 20px 0;
+	padding:2px 0 2px 6px;
+	background-color:#ecead2;
+	border-top:1px dotted #dbd594;
+	border-bottom:1px dotted #dbd594;
+	font-size:1.0em;
+	height:22px;
+	}
+	
+ul.breadcrumb-nav li {
+	display:inline;
+	color:#2b4909;
+	font-size:1.0em;
+	}
+	
+		
+/* ------------- Special Styles for Future Climate Details page ---------------- */
+
+.future-details ul {
+	margin:10px 0 20px 0;
+	}
+	
+.future-details ol li ul {
+	margin:10px 0 20px 0;
+	}
+	
+.future-details ol {
+	margin:10px 0 20px 30px;
+	}
+	
+	
+/* ------------- Styles for Future Climate Download Data Forms ---------------- */
+
+.two-column-content {
+	display:block;
+	height:80px;
+	}
+	
+.two-column-content-row {
+	display:block;
+	}
+	
+.two-column-content-left {
+	display:block;
+	float:left;
+	width:200px;
+	}
+	
+.two-column-content-right {
+	display:block;
+	float:left;
+	width:auto;
+	}
+	
+.two-column-content-right .naming-key ul {
+	margin:10px 0 14px 0;
+	}
+
+.two-column-content-right .naming-key {
+	/*width:500px;*/
+	margin-left:0;
+	}
+	
+	
+/* ------------- Special Style for Closing a float - targeted at IE6 and IE7 ---------------- */
+
+p.closefloat {
+	content:".";
+	height:0px;
+	line-height:0em;
+	width:100%;
+	}
+	
+p.closefloat2 {
+	content:"<br /><br /><br /><br />";
+	height:1.0em;
+	line-height:1.0em;
+	width:100%;
+	}
+	
+/* ------------- Special Styles for writing out Thumbnail images with links to corresponding groups of files ---------------- */
+
+.thumbnail-file-group {
+	height:140px; /* these styles get rid of scroll bars in IE */
+	overflow:hidden;
+	}
+	
+.thumbnail-file-group .thumbnail-file-group-01 {
+	overflow:hidden;
+	}
+	
+	
+	

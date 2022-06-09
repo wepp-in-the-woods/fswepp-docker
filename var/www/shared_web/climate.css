@@ -1,0 +1,942 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* GENERAL PAGE POSITIONING */
+
+/* --- PAGE WRAPPERS --- */
+
+html { /* prevents page shift from vertical scrollbar in IE */
+	min-height:100%; 
+	margin-bottom:1px; 
+	}
+
+body {
+	margin:0; 
+	padding:0;
+	text-align:left;
+	font-family: verdana, arial, sans-serif;
+	color:#000;
+	background-color:#49572a;
+	font-size:76%;
+	}
+	
+#pagewrapper01 {
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:1;
+	width:80%;
+	margin:10px 10px 10px 10px;
+	padding:0 0 0 200px;
+	text-align:left;
+	background: #ffffff url(/shared_web/fs_climate_bkgd_200.gif) top left repeat-y;
+	}
+
+#main01 {
+	margin:0;
+	padding:0;
+	}
+
+#section01 {
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:6;
+	width:200px;
+	margin:10px 0 10px 10px;
+	padding:0;
+	vertical-align:top;
+	text-align:left;
+	background-color:#dbd594;
+	}
+
+#section02 {
+	margin:0;
+	padding:0;
+	text-align:left;
+	}
+
+.contentbox01 {
+	padding:20px;
+	}
+
+.contentbox02 {
+	padding:10px;
+	}
+
+div.footer-information {
+	margin-top:20px;
+	padding-top:20px;
+	border-top:2px dotted #dbd594;
+	clear:both;
+	}
+
+
+
+/* GENERAL TYPOGRAPHY */
+
+/* ------ TYPOGRAPHY STYLES ------------------------------- */
+
+/* GENERAL STYLES FOR ALL PAGES */
+
+p, li, h1, h2, h3, h4, h5, h6 {
+	font-family:verdana, arial, sans-serif;
+	line-height:1.6em;
+	color:#000000;
+	}
+
+p {
+	font-size:1.0em;
+	margin:0 0 16px 0;
+	padding:0;
+	}
+
+ul, ol, dl { /* to prevent disappearing list background bug in IE */ 
+	position: relative;  
+	}
+
+html>body ul, html>body ol, html>body dl { /* above prevents disappearing list background bug in IE; this reverts it back for Firefox to fix dissappearing links */ 
+	position:inherit;
+	}
+
+ul.nobulletlist {
+	list-style-type:none;
+	margin:0 0 20px -40px;
+	}
+		
+h1, h2, h3, h4, h5, h6  {
+	font-family:verdana, arial, sans-serif;
+	margin:10px 0 0 0;
+	padding:0;
+	color:#d97c18;
+	/*clear:both; ---- removed for photoleftwithcaption, etc. - why was this here?*/ 
+	}
+
+h1  {
+	color:#2b4909;
+	font-size:2.0em;
+	border-bottom:2px solid #dbd594;
+	}
+
+h2  {
+	font-size:1.4em;
+	}
+
+h3  {
+	font-size:1.2em;
+	}
+
+h4  {
+	font-size:1.1em;
+	}
+
+h5  {
+	font-size:1.0em;
+	}
+
+h6  {
+	font-size:1.0em;
+	}
+
+img {
+	border:0;
+	}
+
+abbr, acronym {
+	border-bottom:1px dotted #000000;
+	}
+
+a:link {
+	color:#1e64a4;
+	text-decoration:none;
+	font-weight:bold;
+	}
+		
+a:visited {
+	color:#1e64a4;
+	text-decoration:none;
+	font-weight:bold;
+	}
+		
+a:hover {
+	color:#000000;
+	text-decoration:underline;
+	font-weight:bold;
+	}
+		
+a:active {
+	color:#000000;
+	text-decoration:underline;
+	font-weight:bold;
+	}
+
+a:focus {
+	color:#000000;
+	text-decoration:underline;
+	font-weight:bold;
+	}
+
+/* ------ Two Column - TYPOGRAPHY STYLES ------------------------------- */
+
+/* SPECIAL STYLES FOR pagewrapper01, Forest Service Climate pages */
+
+h1 .umbrella-title  {
+	color:#788a51;
+	font-size:0.5em;
+	line-height:0.7em;
+	}
+
+.note  {
+	color:#d97c18;
+	}
+
+.emailimage {
+	vertical-align:text-bottom;
+	}
+	
+.quotation {
+	font-style:italic;
+	}
+	
+.signature {
+	font-weight:bold;
+	}
+	
+.new-info  {
+	color:#ab0534;
+	font-weight:bold;
+	}
+
+.error .design03 h2  {
+	font-size:2.2em;
+	margin:40px 0 30px 0;
+	}
+
+.error  {
+	color:#ab0534;
+	}
+
+.customData #section02 strong.error  {
+	color:#ab0534;
+	}
+
+.first-heading {
+	margin-top:0;
+	padding-top:0;
+	}
+	
+div.second-heading {
+	margin-top:20px;
+	}
+	
+.breaktext { /* put a break in the text after a floated "photoleftwithcaption" etc.  */
+	clear:both;
+	}
+
+/* ------------- Back to Species Link - looks similar to breadcrumb nav ---------------- */
+
+p.back-nav {
+	margin:0 0 20px 0;
+	padding:2px 0 3px 6px;
+	line-height:1.3em;
+	background-color:#ecead2;
+	border-top:1px dotted #dbd594;
+	border-bottom:1px dotted #dbd594;
+	}
+		
+
+/* SPECIAL STYLES FOR Forest Service logo links on the left side (section02) */
+
+#section01 h2  {
+	font-size:1.1em;
+	margin:10px 0 20px 0;
+	}
+
+#section01 h2 a:link  {
+	color:#2b4909;
+	text-decoration:none;
+	}
+
+#section01 h2 a:visited  {
+	color:#2b4909;
+	text-decoration:none;
+	}
+
+#section01 h2 a:hover  {
+	color:#000000;
+	text-decoration:underline;
+	}
+
+#section01 h2 a:focus  {
+	color:#000000;
+	text-decoration:underline;
+	}
+
+#section01 h2 a:active  {
+	color:#000000;
+	text-decoration:underline;
+	}
+
+ul.fslinks {
+	list-style-type:none;
+	margin:0 0 40px -40px;
+	text-align:center;
+	}
+		
+ul.fslinks li {
+	margin:0 0 20px 0;
+	}
+	
+#section01 p.contact-info {
+	font-size:0.8em;
+	color:#2b4909;
+	text-align:right;
+	}
+		
+p.closefloat {
+	}
+		
+ul.separated-list li, ol.separated-list li {
+	margin-bottom:10px;
+	}
+	
+ul.separated-list li ul, ol.separated-list li ul {
+	margin-top:10px;
+	}
+	
+		
+/* ------------- Styles for sub-content-nav Navigation on the right side ---------------- */
+	
+.sub-content-nav   {
+	padding:20px;
+	background-color:#fcfcfc;
+	border:1px solid #dbd594;
+	margin-bottom:30px;
+	}
+
+.sub-content-nav form   {
+	padding:0;
+	margin:0;
+	}
+
+.sub-content-nav h1  {
+	color:#2b4909;
+	font-size:2.0em;
+	border-bottom:2px solid #dbd594;
+	}
+
+.sub-content-nav h2  {
+	font-size:1.6em;
+	margin:0 0 10px 0;
+	border-top:1px dotted #cccccc;
+	border-bottom:1px dotted #cccccc;
+	padding:0 0 0 10px;
+	background-color:#eeeeee;
+	font-weight:bold;
+	min-width:500px;
+	display:block;
+	}
+
+.sub-content-nav h2.alternative-header  {
+	font-size:1.6em;
+	margin:20px 0 10px 0;
+	border-top:1px dotted #cccccc;
+	border-bottom:1px dotted #cccccc;
+	padding:0 0 0 10px;
+	background-color:#eeeeee;
+	font-weight:bold;
+	min-width:500px;
+	display:block;
+	color:#2b4909;
+	}
+
+.sub-content-nav h2 a:link {
+	color:#d97c18;
+	text-decoration:none;
+	}
+	
+.sub-content-nav h2 a:visited {
+	color:#d97c18;
+	text-decoration:none;
+	}
+	
+.sub-content-nav h2 a:hover {
+	color:#000000;
+	text-decoration:none;
+	}
+	
+.sub-content-nav h2 a:focus {
+	color:#000000;
+	text-decoration:none;
+	}
+	
+.sub-content-nav h2 a:active {
+	color:#000000;
+	text-decoration:none;
+	}
+	
+.sub-content-nav h3  {
+	font-size:1.2em;
+	margin:20px 0 10px 0;
+	padding:2px 0 2px 0;
+	border-bottom:2px dotted #cccccc;
+	font-weight:bold;
+	min-width:500px;
+	display:block;
+	}
+
+.sub-content-nav h3 a:link {
+	color:#d97c18;
+	text-decoration:none;
+	}
+	
+.sub-content-nav h3 a:visited {
+	color:#d97c18;
+	text-decoration:none;
+	}
+	
+.sub-content-nav h3 a:hover {
+	color:#000000;
+	text-decoration:none;
+	}
+	
+.sub-content-nav h3 a:focus {
+	color:#000000;
+	text-decoration:none;
+	}
+	
+.sub-content-nav h3 a:active {
+	color:#000000;
+	text-decoration:none;
+	}
+	
+.sub-content-nav h4  {
+	font-size:1.1em;
+	}
+
+.sub-content-nav h5  {
+	text-transform:uppercase;
+	font-size:1.0em;
+	color:#000000;
+	text-decoration:underline;
+	}
+
+.sub-content-nav h6  {
+	font-size:1.0em;
+	color:#000000;
+	text-decoration:underline;
+	}
+
+.sub-content-nav h4 a:link {
+	font-weight:bold;
+	color:#d97c18;
+	text-decoration:underline;
+	}
+	
+.sub-content-nav h4 a:visited {
+	font-weight:bold;
+	color:#d97c18;
+	text-decoration:underline;
+	}
+	
+.sub-content-nav h4 a:hover {
+	font-weight:bold;
+	color:#000000;
+	text-decoration:underline;
+	}
+	
+.sub-content-nav h4 a:focus {
+	font-weight:bold;
+	color:#000000;
+	text-decoration:none;
+	}
+	
+.sub-content-nav h4 a:active {
+	font-weight:bold;
+	color:#000000;
+	text-decoration:none;
+	}
+	
+.sub-content-nav h5 a:link, .sub-content-nav h6 a:link {
+	font-weight:bold;
+	color:#000000;
+	text-decoration:underline;
+	}
+	
+.sub-content-nav h5 a:visited, .sub-content-nav h6 a:visited {
+	font-weight:bold;
+	color:#000000;
+	text-decoration:underline;
+	}
+	
+.sub-content-nav h5 a:hover, .sub-content-nav h6 a:hover {
+	font-weight:bold;
+	color:#d97c18;
+	text-decoration:underline;
+	}
+	
+.sub-content-nav h5 a:focus, .sub-content-nav h6 a:focus {
+	font-weight:bold;
+	color:#d97c18;
+	text-decoration:none;
+	}
+	
+.sub-content-nav h5 a:active, .sub-content-nav h6 a:active {
+	font-weight:bold;
+	color:#d97c18;
+	text-decoration:none;
+	}
+	
+.sub-content-nav ul {
+	margin:0 0 20px -20px;
+	}
+	
+.sub-content-nav ul.firstul {
+	margin:0 0 0 -40px;
+	}
+	
+.sub-content-nav ul li {
+	font-size:1.0em;
+	}
+	
+.sub-content-nav ul li ul {
+	margin-bottom:14px;
+	}
+	
+.sub-content-nav ul li ul li {
+	list-style-type:disc;
+	}
+	
+.sub-content-nav ul li a {
+	}
+	
+.sub-content-nav ul li a:link {
+	color:#1e64a4;
+	text-decoration:none;
+	}
+	
+.sub-content-nav ul li a:visited {
+	color:#1e64a4;
+	text-decoration:none;
+	}
+	
+.sub-content-nav ul li a:hover {
+	color:#000000;/*#c7912b*/
+	text-decoration:underline;
+	}
+	
+.sub-content-nav ul li a:focus {
+	color:#000000;
+	text-decoration:underline;
+	}
+	
+.sub-content-nav ul li a:active {
+	color:#000000;
+	text-decoration:underline;
+	}
+	
+	
+/* ------------- Styles for Breadcrumb Navigation ---------------- */
+
+ul.breadcrumb-nav {
+	margin:10px 0 20px 0;
+	padding:0 0 2px 6px;
+	background-color:#ecead2;
+	border-top:1px dotted #dbd594;
+	border-bottom:1px dotted #dbd594;
+	line-height:1.3em;
+	}
+	
+ul.breadcrumb-nav li {
+	display:inline;
+	color:#2b4909;
+	font-size:1.0em;
+	}
+	
+/* ------------- Styles for Sub-site Navigation - looks like breadcrumb nav ---------------- */
+
+ul.subsite-nav {
+	margin:10px 0 20px 0;
+	padding:0 0 2px 6px;
+	line-height:1.3em;
+	}
+	
+ul.subsite-nav li {
+	display:inline;
+	color:#dbd594;
+	font-size:1.0em;
+	}
+	
+ul.subsite-nav li strong {
+	text-decoration:underline;
+	color:#2b4909;
+	}
+	
+/* ------------- Special Styles for Climate HOME page ---------------- */
+
+h2.mainlink {
+	margin-bottom:20px;
+	font-size:1.3em;	
+	font-weight:bold;
+	}
+
+
+/* ------------- Special Styles for Climate HOME page ---------------- */
+
+.simple-main-content-nav   {
+	padding:4px 20px 20px 20px;
+	background-color:#f2f2f2;
+	border:1px solid #dbd594;
+	margin:20px 0 30px 0;
+	}
+
+.moscowfsl .home .simple-main-content-nav   {
+	padding:4px 20px 20px 20px;
+	background-color:#f2f2f2;
+	border:1px solid #dbd594;
+	margin:20px 0 20px 0;
+	}
+
+.home ul   {
+	margin-top:4px;
+	}
+
+.home h2.nolink  {
+	margin-bottom:0;
+	font-weight:bold;
+	min-width:500px;
+	display:block;
+	}
+	
+.home h2 a {
+	margin-bottom:40px;
+	}
+		
+.home h2 a:link {
+	color:#1e64a4;
+	text-decoration:none;
+	font-weight:bold;
+	}
+		
+.home h2 a:visited {
+	color:#1e64a4;
+	text-decoration:none;
+	font-weight:bold;
+	}
+		
+.home h2 a:hover {
+	color:#000000;
+	text-decoration:underline;
+	font-weight:bold;
+	}
+		
+.home h2 a:active {
+	color:#000000;
+	text-decoration:underline;
+	font-weight:bold;
+	}
+
+.home h2 a:focus {
+	color:#000000;
+	text-decoration:underline;
+	font-weight:bold;
+	}
+
+/*.home ul.homenav {
+	margin:0 0 20px -20px;
+	}*/
+	
+	
+/* ------------- Styles for Future Climate Download Data Forms ---------------- */
+
+.two-column-content {
+	display:table;
+	}
+	
+.two-column-content-row {
+	display:table-row;
+	}
+	
+.two-column-content-left {
+	display:table-cell;
+	padding-top:0;
+	margin-top:0;
+	margin-bottom:10px;
+	}
+	
+.two-column-content-left p {
+	margin:0 0 10px 0;
+	padding:0;
+	}
+	
+.two-column-content-right {
+	display:table-cell;
+	}
+	
+.two-column-content-right .naming-key {
+	width:auto;
+	border:2px dotted #cccccc;
+	padding:10px;
+	margin:3px 0 10px 20px;
+	background-color:#ffffff;
+	}
+	
+.two-column-content-right .naming-key table {
+	border:none;
+	padding:0;
+	margin:0;
+	}
+	
+.two-column-content-right .naming-key th {
+	text-decoration:underline;
+	color:#d97c18;
+	vertical-align:bottom;
+	}
+	
+.two-column-content-right .naming-key th, .two-column-content-right .naming-key td {
+	padding-right:20px;
+	vertical-align:top;
+	}
+	
+.two-column-content-right .naming-key td.data , .two-column-content-right .naming-key th.data {
+	text-align:right;
+	}
+	
+.two-column-content-right .naming-key ul {
+	margin:6px 0 14px -40px;
+	}
+	
+.two-column-content-right .naming-key ul li {
+	list-style-type:none;
+	}
+
+.two-column-content-right .naming-key h4, .two-column-content-right .naming-key h5, .two-column-content-right .naming-key h6 {
+	text-decoration:underline;
+	}
+
+/* ------------- Special Styles for Naming Key (default/one column page) - used in Species page ---------------- */
+
+.naming-key {
+	width:auto;
+	border:2px dotted #cccccc;
+	padding:10px;
+	margin:10px 0 20px 0;
+	background-color:#ffffff;
+	}
+	
+.naming-key table {
+	border:none;
+	padding:0;
+	margin:0;
+	}
+	
+.naming-key th {
+	text-decoration:underline;
+	color:#d97c18;
+	vertical-align:bottom;
+	}
+	
+.naming-key th, .naming-key td {
+	padding-right:20px;
+	vertical-align:top;
+	}
+	
+.naming-key td.data , .naming-key th.data {
+	text-align:right;
+	}
+	
+.naming-key ul {
+	margin:6px 0 14px -40px;
+	}
+	
+.naming-key ul li {
+	list-style-type:none;
+	}
+
+.naming-key h4, .naming-key h5, .naming-key h6 {
+	text-decoration:underline;
+	}
+
+		
+	
+/* ------------- Special Styles for Future Climate Details page ---------------- */
+
+.showHide {
+	display:none;
+	}
+	
+.future-details ul {
+	margin:10px 0 20px -40px;
+	}
+	
+.future-details ul li {
+	font-size:1.0em;
+	list-style-type:none;
+	margin-bottom:0;
+	}
+	
+.future-details ol li ul {
+	margin:10px 0 20px -40px;
+	}
+	
+.future-details ol li ul li {
+	font-size:1.0em;
+	list-style-type:none;
+	margin-bottom:0;
+	}
+	
+.future-details ol li ul li ul {
+	margin-bottom:14px;
+	}
+	
+.future-details ol li ul li ul li {
+	list-style-type:none;
+	}
+	
+.future-details ol {
+	margin:10px 0 20px -20px;
+	list-style-position:outside;
+	}
+	
+.future-details ol li {
+	font-size:1.0em;
+	list-style-type:decimal;
+	margin-bottom:10px;
+	}
+	
+.future-details ol li ol {
+	margin-bottom:14px;
+	}
+	
+.future-details ol li ol li {
+	list-style-type:lower-alpha;
+	margin-bottom:0;
+	}
+
+.future-details ul.breadcrumb-nav {
+	margin:10px 0 20px 0;
+	}
+	
+	
+/* ------------- Special Styles for Custom Data Request page ---------------- */
+
+.customData fieldset {
+	border:none;
+	margin:0;
+	padding:0;
+	}
+	
+
+/* ------------- Special Styles for "thumbnail-file-group" class ---------------- */
+
+.thumbnail-file-group {
+	min-height:80px;
+	overflow:auto;
+	}
+	
+#section02 form select {
+	width:200px;
+	margin-right:16px;
+	}
+	
+.thumbnail-file-group h4 {
+	padding-bottom:10px;
+	}
+	
+.thumbnail-file-group p.no-thumbnail {
+	margin-bottom:10px;
+	padding-top:18px;
+	font-size:0.9em;
+	color:#666666;
+	width:102px;
+	height:58px;
+	display:block;
+	text-align:center;
+	vertical-align:middle;
+	background-color:#dddddd;
+	border:2px dotted #aaaaaa
+	}
+	
+.thumbnail-file-group .thumbnail-file-group-01 {
+	width:112px;
+	float:left;
+	padding:0 10px 20px 0;
+	}
+	
+.thumbnail-file-group .thumbnail-file-group-02 ul li {
+	list-style-type:none;
+	}
+	
+
+/* ------------- Special Styles for Species-Climate Profiles page ---------------- */
+	
+.speciesClimateProfiles #section02 form input.species-submit {
+	margin-top:20px;
+	}
+	
+
+/* ------------- Special Styles for Photos floated within text that need to have captions (used on "/ef/pref/index.php") ---------------- */
+
+.photowithcaptionleft { /* must designate width for each instance in HTML */
+	float:left;
+	border:0;
+	margin:0 16px 20px 0;
+	padding:0;
+	background-color:#ffffff;
+	}
+	
+.photowithcaptionright { /* must designate width for each instance in HTML */
+	float:right;
+	border:0;
+	margin:0 0 20px 16px;
+	padding:0;
+	background-color:#ffffff;
+	}
+	
+.photowithcaptionleft p, .photowithcaptionright p {
+	font-size:0.9em;
+	text-align:left;
+	padding:0;
+	margin:0;
+	}
+	
+.photonofloat { /* must designate width for each instance in HTML */
+	border:0;
+	margin:0 16px 20px 0;
+	padding:0;
+	text-align:center;
+	}
+	
+.photonofloat p {
+	font-size:0.9em;
+	text-align:center;
+	padding-bottom:0;
+	margin-bottom:0;
+	}
+	
+.photowithcaptionleft img, .photowithcaptionright img, .photonofloat img { 
+	margin:0;
+	padding:0;
+	border:0;
+	}
+	
+/* ------------- Special Styles for Priest River EF slideshow IFRAME (used on "/ef/pref/pref_facilities.php", etc.) ---------------- */
+
+iframe {
+	overflow:hidden;
+	border:0;
+	padding:0;
+	margin:20px 0 0 0;
+	}
+	
+div.references {
+	margin:6px 0 30px 0;
+	}
+	
+.references p {
+	text-indent:-20px;
+	margin:0 0 10px 20px;
+	}
+	
+
+

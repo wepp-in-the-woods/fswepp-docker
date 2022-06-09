@@ -1,0 +1,59 @@
+
+
+body {
+	margin:0; 
+	padding:0;
+	text-align:left;
+	font-family: verdana, arial, sans-serif;
+	color:#000;
+	font-size:76%;
+	}
+	
+p, li, h1, h2, h3, h4, h5, h6 {
+	line-height:1.6em;
+	}
+
+p {
+	margin:0 0 16px 0;
+	padding:0;
+	}
+
+/* ------------- Special Styles for Photos floated within text that need to have captions (used on "/ef/pref/index.php") ---------------- */
+
+.photowithcaptionleft { /* must designate width for each instance in HTML */
+	float:left;
+	border:0;
+	padding:0 16px 20px 0;
+	margin:0;
+	background-color:#ffffff;
+	}
+	
+.photowithcaptionright { /* must designate width for each instance in HTML */
+	float:right;
+	border:0;
+	padding:0 0 20px 16px;
+	margin:0;
+	background-color:#ffffff;
+	}
+	
+.photowithcaptionleft p, .photowithcaptionright p {
+	font-size:0.9em;
+	text-align:center;
+	padding-bottom:0;
+	margin-bottom:0;
+	}
+	
+.photonofloat { /* must designate width for each instance in HTML */
+	border:0;
+	padding:0 16px 20px 0;
+	margin:0;
+	text-align:center;
+	}
+	
+.photonofloat p {
+	font-size:0.9em;
+	text-align:center;
+	padding-bottom:0;
+	margin-bottom:0;
+	}
+	
