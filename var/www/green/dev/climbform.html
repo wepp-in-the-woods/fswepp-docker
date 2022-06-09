@@ -1,0 +1,590 @@
+<html>
+<head>
+<script language=javascript>
+function sub_total() {
+// alert('subtotal calc')
+e1p = Number(document.getElementById("e1_points").innerHTML)
+e2p = Number(document.getElementById("e2_points").innerHTML)
+e3p = Number(document.getElementById("e3_points").innerHTML)
+w1p = Number(document.getElementById("w1_points").innerHTML)
+w2p = Number(document.getElementById("w2_points").innerHTML)
+t1p = Number(document.getElementById("t1_points").innerHTML)
+t2p = Number(document.getElementById("t2_points").innerHTML)
+t3p = Number(document.getElementById("t3_points").innerHTML)
+r1p = Number(document.getElementById("r1_points").innerHTML)
+r2p = Number(document.getElementById("r2_points").innerHTML)
+r3p = Number(document.getElementById("r3_points").innerHTML)
+r4p = Number(document.getElementById("r4_points").innerHTML)
+p1p = Number(document.getElementById("p1_points").innerHTML)
+p2p = Number(document.getElementById("p2_points").innerHTML)
+p3p = Number(document.getElementById("p3_points").innerHTML)
+p4p = Number(document.getElementById("p4_points").innerHTML)
+s1p = Number(document.getElementById("s1_points").innerHTML)
+s2p = Number(document.getElementById("s2_points").innerHTML)
+s3p = Number(document.getElementById("s3_points").innerHTML)
+sub_tot=0
+sub_tot = sub_tot + e1p + e2p + e3p
+sub_tot = sub_tot + w1p + w2p
+sub_tot = sub_tot + t1p + t2p + t3p
+sub_tot = sub_tot + r1p + r2p + r3p + r4p
+sub_tot = sub_tot + p1p + p2p + p3p + p4p
+sub_tot = sub_tot + s1p + s2p + s3p
+document.getElementById("subtotal").innerHTML = sub_tot
+}
+function e_1(frm) {
+e1pts=0
+if (frm.e1[0].checked) {e1pts++}
+if (frm.e1[1].checked) {e1pts++}
+if (frm.e1[2].checked) {e1pts++}
+if (frm.e1[3].checked) {e1pts++}
+if (frm.e1[4].checked) {e1pts++}
+if (frm.e1[5].checked) {e1pts++}
+document.getElementById("e1_points").innerHTML = e1pts * 150
+sub_total()
+}
+function e_2(frm) {
+e2pts=0
+if (frm.e2[0].checked) {e2pts++}
+if (frm.e2[1].checked) {e2pts++}
+if (frm.e2[2].checked) {e2pts++}
+if (frm.e2[3].checked) {e2pts++}
+if (frm.e2[4].checked) {e2pts++}
+if (frm.e2[5].checked) {e2pts++}
+document.getElementById("e2_points").innerHTML = e2pts * 300
+sub_total()
+}
+function e_3(frm) {
+e3pts=0
+if (frm.e3[0].checked) {e3pts++}
+if (frm.e3[1].checked) {e3pts++}
+if (frm.e3[2].checked) {e3pts++}
+if (frm.e3[3].checked) {e3pts++}
+if (frm.e3[4].checked) {e3pts++}
+if (frm.e3[5].checked) {e3pts++}
+document.getElementById("e3_points").innerHTML = e3pts * 150
+sub_total()
+}
+ 
+function w_1(frm) {
+w1pts=0
+if (frm.w1[0].checked) {w1pts++}
+if (frm.w1[1].checked) {w1pts++}
+if (frm.w1[2].checked) {w1pts++}
+if (frm.w1[3].checked) {w1pts++}
+if (frm.w1[4].checked) {w1pts++}
+if (frm.w1[5].checked) {w1pts++}
+document.getElementById("w1_points").innerHTML = w1pts * 100
+sub_total()
+}
+function w_2(frm) {
+w2pts=0
+if (frm.w2[0].checked) {w2pts++}
+if (frm.w2[1].checked) {w2pts++}
+if (frm.w2[2].checked) {w2pts++}
+if (frm.w2[3].checked) {w2pts++}
+if (frm.w2[4].checked) {w2pts++}
+if (frm.w2[5].checked) {w2pts++}
+document.getElementById("w2_points").innerHTML = w2pts * 100
+sub_total()
+}
+ 
+function t_1(frm) {
+t1pts=0
+if (frm.t1[0].checked) {t1pts++}
+if (frm.t1[1].checked) {t1pts++}
+if (frm.t1[2].checked) {t1pts++}
+if (frm.t1[3].checked) {t1pts++}
+if (frm.t1[4].checked) {t1pts++}
+if (frm.t1[5].checked) {t1pts++}
+document.getElementById("t1_points").innerHTML = t1pts * 250
+sub_total()
+}
+function t_2(frm) {
+t2pts=0
+if (frm.t2[0].checked) {t2pts++}
+if (frm.t2[1].checked) {t2pts++}
+if (frm.t2[2].checked) {t2pts++}
+if (frm.t2[3].checked) {t2pts++}
+if (frm.t2[4].checked) {t2pts++}
+if (frm.t2[5].checked) {t2pts++}
+document.getElementById("t2_points").innerHTML = t2pts * 150
+sub_total()
+}
+function t_3(frm) {
+t3pts=0
+// if (frm.t3[0]>0 && frm.t3[0]<6) {t3pts++}
+// if (frm.t3[1].checked) {t3pts++}
+// if (frm.t3[2].checked) {t3pts++}
+// if (frm.t3[3].checked) {t3pts++}
+// if (frm.t3[4].checked) {t3pts++}
+// if (frm.t3[5].checked) {t3pts++}
+// document.getElementById("t3_points").innerHTML = t3pts * 100
+sub_total()
+}
+ 
+function r_1(frm) {
+r1pts=0
+if (frm.r1[0].checked) {r1pts++}
+if (frm.r1[1].checked) {r1pts++}
+if (frm.r1[2].checked) {r1pts++}
+if (frm.r1[3].checked) {r1pts++}
+if (frm.r1[4].checked) {r1pts++}
+if (frm.r1[5].checked) {r1pts++}
+document.getElementById("r1_points").innerHTML = r1pts * 150
+sub_total()
+}
+function r_2(frm) {
+r2pts=0
+if (frm.r2[0].checked) {r2pts++}
+if (frm.r2[1].checked) {r2pts++}
+if (frm.r2[2].checked) {r2pts++}
+if (frm.r2[3].checked) {r2pts++}
+if (frm.r2[4].checked) {r2pts++}
+if (frm.r2[5].checked) {r2pts++}
+document.getElementById("r2_points").innerHTML = r2pts * 300
+sub_total()
+}
+function r_3(frm) {
+r3pts=0
+if (frm.r3[0].checked) {r3pts++}
+if (frm.r3[1].checked) {r3pts++}
+if (frm.r3[2].checked) {r3pts++}
+if (frm.r3[3].checked) {r3pts++}
+if (frm.r3[4].checked) {r3pts++}
+if (frm.r3[5].checked) {r3pts++}
+document.getElementById("r3_points").innerHTML = r3pts * 100
+sub_total()
+}
+function r_4(frm) {
+r4pts=0
+// if (frm.r4[0]>0 && frm.r4[0]<6) {r4pts++}
+// if (frm.r4[1].checked) {r4pts++}
+// if (frm.r4[2].checked) {r4pts++}
+// if (frm.r4[3].checked) {r4pts++}
+// if (frm.r4[4].checked) {r4pts++}
+// if (frm.r4[5].checked) {r4pts++}
+// document.getElementById("r4_points").innerHTML = r4pts * 100
+sub_total()
+}
+ 
+function p_1(frm) {
+p1pts=0
+if (frm.p1[0].checked) {p1pts++}
+if (frm.p1[1].checked) {p1pts++}
+if (frm.p1[2].checked) {p1pts++}
+if (frm.p1[3].checked) {p1pts++}
+if (frm.p1[4].checked) {p1pts++}
+if (frm.p1[5].checked) {p1pts++}
+document.getElementById("p1_points").innerHTML = p1pts * 100
+sub_total()
+}
+function p_2(frm) {
+p2pts=0
+if (frm.p2[0].checked) {p2pts++}
+if (frm.p2[1].checked) {p2pts++}
+if (frm.p2[2].checked) {p2pts++}
+if (frm.p2[3].checked) {p2pts++}
+if (frm.p2[4].checked) {p2pts++}
+if (frm.p2[5].checked) {p2pts++}
+document.getElementById("p2_points").innerHTML = p2pts * 100
+sub_total()
+}
+function p_3(frm) {
+p3pts=0
+if (frm.p3[0].checked) {p3pts++}
+if (frm.p3[1].checked) {p3pts++}
+if (frm.p3[2].checked) {p3pts++}
+if (frm.p3[3].checked) {p3pts++}
+if (frm.p3[4].checked) {p3pts++}
+if (frm.p3[5].checked) {p3pts++}
+document.getElementById("p3_points").innerHTML = p3pts * 100
+sub_total()
+}
+function p_4(frm) {
+p4pts=0
+if (frm.p4[0].checked) {p4pts++}
+if (frm.p4[1].checked) {p4pts++}
+if (frm.p4[2].checked) {p4pts++}
+if (frm.p4[3].checked) {p4pts++}
+if (frm.p4[4].checked) {p4pts++}
+if (frm.p4[5].checked) {p4pts++}
+document.getElementById("p4_points").innerHTML = p4pts * 100
+sub_total()
+}
+ 
+function s_1(frm) {
+s1pts=0
+if (frm.s1[0].checked) {s1pts++}
+if (frm.s1[1].checked) {s1pts++}
+if (frm.s1[2].checked) {s1pts++}
+if (frm.s1[3].checked) {s1pts++}
+if (frm.s1[4].checked) {s1pts++}
+if (frm.s1[5].checked) {s1pts++}
+document.getElementById("s1_points").innerHTML = s1pts * 100
+sub_total()
+}
+function s_2(frm) {
+s2pts=0
+if (frm.s2[0].checked) {s2pts++}
+if (frm.s2[1].checked) {s2pts++}
+if (frm.s2[2].checked) {s2pts++}
+if (frm.s2[3].checked) {s2pts++}
+if (frm.s2[4].checked) {s2pts++}
+if (frm.s2[5].checked) {s2pts++}
+document.getElementById("s2_points").innerHTML = s2pts * 100
+sub_total()
+}
+function s_3(frm) {
+s3pts=0
+if (frm.s3[0].checked) {s3pts++}
+if (frm.s3[1].checked) {s3pts++}
+if (frm.s3[2].checked) {s3pts++}
+if (frm.s3[3].checked) {s3pts++}
+if (frm.s3[4].checked) {s3pts++}
+if (frm.s3[5].checked) {s3pts++}
+document.getElementById("s3_points").innerHTML = s3pts * 300
+sub_total()
+}
+ 
+</script>
+</head>
+<body>
+ 
+<form>
+<table border=1>
+<tr bgcolor="lightgreen"><th>FOCUS</th><th 
+colspan=6>WEEK</th><th>POINTS</th><th>ACTIVITY</th></tr>
+<tr><th></th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th><td 
+align=right><span id="subtotal">0</span></td></tr>
+<tr><th rowspan=3 bgcolor="lightgreen"><h3>Energy</h3></th>
+<th title='150 points'><input type=checkbox name=e1 
+onClick='javascript:e_1(this.form)'></th>
+<th title='150 points'><input type=checkbox name=e1 
+onClick='javascript:e_1(this.form)'></th>
+<th title='150 points'><input type=checkbox name=e1 
+onClick='javascript:e_1(this.form)'></th>
+<th title='150 points'><input type=checkbox name=e1 
+onClick='javascript:e_1(this.form)'></th>
+<th title='150 points'><input type=checkbox name=e1 
+onClick='javascript:e_1(this.form)'></th>
+<th title='150 points'><input type=checkbox name=e1 
+onClick='javascript:e_1(this.form)'></th>
+<td align=right><span id='e1_points'></span></td>
+<td>Turned off computer at night for at least 4 out of 5 
+workdays</td>
+</tr>
+<tr>
+<th title='300 points'><input type=checkbox name=e2 
+onClick='javascript:e_2(this.form)'></th>
+<th title='300 points'><input type=checkbox name=e2 
+onClick='javascript:e_2(this.form)'></th>
+<th title='300 points'><input type=checkbox name=e2 
+onClick='javascript:e_2(this.form)'></th>
+<th title='300 points'><input type=checkbox name=e2 
+onClick='javascript:e_2(this.form)'></th>
+<th title='300 points'><input type=checkbox name=e2 
+onClick='javascript:e_2(this.form)'></th>
+<th title='300 points'><input type=checkbox name=e2 
+onClick='javascript:e_2(this.form)'></th>
+<td align=right><span id='e2_points'></span></td>
+<td>Unplugged computer over the weekend</td>
+</tr>
+<tr>
+<th title='150 points'><input type=checkbox name=e3 
+onClick='javascript:e_3(this.form)'></th>
+<th title='150 points'><input type=checkbox name=e3 
+onClick='javascript:e_3(this.form)'></th>
+<th title='150 points'><input type=checkbox name=e3 
+onClick='javascript:e_3(this.form)'></th>
+<th title='150 points'><input type=checkbox name=e3 
+onClick='javascript:e_3(this.form)'></th>
+<th title='150 points'><input type=checkbox name=e3 
+onClick='javascript:e_3(this.form)'></th>
+<th title='150 points'><input type=checkbox name=e3 
+onClick='javascript:e_3(this.form)'></th>
+<td align=right><span id='e3_points'></span></td>
+<td>Used task lighting or natural light; this may include 
+overhead lights if 1/2 or more of the ballasts have been removed to 
+reduce glare and conserve energy.</td>
+</tr>
+ 
+<tr><th rowspan=2 bgcolor="lightgreen"><h3>Water</h3></th>
+<th title='100 points'><input type=checkbox name=w1 
+onClick='javascript:w_1(this.form)'></th>
+<th title='100 points'><input type=checkbox name=w1 
+onClick='javascript:w_1(this.form)'></th>
+<th title='100 points'><input type=checkbox name=w1 
+onClick='javascript:w_1(this.form)'></th>
+<th title='100 points'><input type=checkbox name=w1 
+onClick='javascript:w_1(this.form)'></th>
+<th title='100 points'><input type=checkbox name=w1 
+onClick='javascript:w_1(this.form)'></th>
+<th title='100 points'><input type=checkbox name=w1 
+onClick='javascript:w_1(this.form)'></th>
+<td align=right><span id='w1_points'></span></td>
+<td>Used your own bottle as a water source for the week</h3></th>
+</tr>
+<tr>
+<th title='100 points'><input type=checkbox name=w2 
+onClick='javascript:w_2(this.form)'></th>
+<th title='100 points'><input type=checkbox name=w2 
+onClick='javascript:w_2(this.form)'></th>
+<th title='100 points'><input type=checkbox name=w2 
+onClick='javascript:w_2(this.form)'></th>
+<th title='100 points'><input type=checkbox name=w2 
+onClick='javascript:w_2(this.form)'></th>
+<th title='100 points'><input type=checkbox name=w2 
+onClick='javascript:w_2(this.form)'></th>
+<th title='100 points'><input type=checkbox name=w2 
+onClick='javascript:w_2(this.form)'></th>
+<td align=right><span id='w2_points'></span></td>
+<td>While using the sink (for tooth-brushing, washing dishes or 
+hand washing), didn't let the water run continuously</td>
+</tr>
+ 
+<tr><th rowspan=3 bgcolor="lightgreen"><h3>Fleet &amp; 
+Transportation</h3></th>
+<th title='250 points'><input type=checkbox name=t1 
+onClick='javascript:t_1(this.form)'></th>
+<th title='250 points'><input type=checkbox name=t1 
+onClick='javascript:t_1(this.form)'></th>
+<th title='250 points'><input type=checkbox name=t1 
+onClick='javascript:t_1(this.form)'></th>
+<th title='250 points'><input type=checkbox name=t1 
+onClick='javascript:t_1(this.form)'></th>
+<th title='250 points'><input type=checkbox name=t1 
+onClick='javascript:t_1(this.form)'></th>
+<th title='250 points'><input type=checkbox name=t1 
+onClick='javascript:t_1(this.form)'></th>
+<td align=right><span id='t1_points'></span></td>
+<td>Utilized a carpooling initiative or used the most fuel 
+efficient vehicle for the job all week</h3></th>
+</tr>
+<tr>
+<th title='100 points'><input type=checkbox name=t2 
+onClick='javascript:t_2(this.form)'></th>
+<th title='100 points'><input type=checkbox name=t2 
+onClick='javascript:t_2(this.form)'></th>
+<th title='100 points'><input type=checkbox name=t2 
+onClick='javascript:t_2(this.form)'></th>
+<th title='100 points'><input type=checkbox name=t2 
+onClick='javascript:t_2(this.form)'></th>
+<th title='100 points'><input type=checkbox name=t2 
+onClick='javascript:t_2(this.form)'></th>
+<th title='100 points'><input type=checkbox name=t2 
+onClick='javascript:t_2(this.form)'></th>
+<td align=right><span id='t2_points'></span></td>
+<td>Actively practiced Eco-driving principles while using a work 
+vehicle</td>
+</tr>
+<tr>
+<th title='100 points/day'><input type=text size=1 value=0 
+name=t3 onClick='javascript:t_3(this.form)'></th>
+<th title='100 points/day'><input type=text size=1 value=0 
+name=t3 onClick='javascript:t_3(this.form)'></th>
+<th title='100 points/day'><input type=text size=1 value=0 
+name=t3 onClick='javascript:t_3(this.form)'></th>
+<th title='100 points/day'><input type=text size=1 value=0 
+name=t3 onClick='javascript:t_3(this.form)'></th>
+<th title='100 points/day'><input type=text size=1 value=0 
+name=t3 onClick='javascript:t_3(this.form)'></th>
+<th title='100 points/day'><input type=text size=1 value=0 
+name=t3 onClick='javascript:t_3(this.form)'></th>
+<td align=right><span id='t3_points'></span></td>
+<td>Teleworked, carpooled, used a hybrid vehicle, used public 
+transit, biked or walked to and from work (0 to 5) days per week</td>
+</tr>
+ 
+<tr><th rowspan=4 bgcolor="lightgreen"><h3>Waste Prevention &amp; 
+Recycling</h3></th>
+<th title='100 points'><input type=checkbox name=r1 
+onClick='javascript:r_1(this.form)'></th>
+<th title='100 points'><input type=checkbox name=r1 
+onClick='javascript:r_1(this.form)'></th>
+<th title='100 points'><input type=checkbox name=r1 
+onClick='javascript:r_1(this.form)'></th>
+<th title='100 points'><input type=checkbox name=r1 
+onClick='javascript:r_1(this.form)'></th>
+<th title='100 points'><input type=checkbox name=r1 
+onClick='javascript:r_1(this.form)'></th>
+<th title='100 points'><input type=checkbox name=r1 
+onClick='javascript:r_1(this.form)'></th>
+<td align=right><span id='r1_points'></span></td>
+<td>Used Good On One Side (GOOS) paper for notes all week</h3></th>
+</tr>
+<tr>
+<th title='100 points'><input type=checkbox name=r2 
+onClick='javascript:r_2(this.form)'></th>
+<th title='100 points'><input type=checkbox name=r2 
+onClick='javascript:r_2(this.form)'></th>
+<th title='100 points'><input type=checkbox name=r2 
+onClick='javascript:r_2(this.form)'></th>
+<th title='100 points'><input type=checkbox name=r2 
+onClick='javascript:r_2(this.form)'></th>
+<th title='100 points'><input type=checkbox name=r2 
+onClick='javascript:r_2(this.form)'></th>
+<th title='100 points'><input type=checkbox name=r2 
+onClick='javascript:r_2(this.form)'></th>
+<td align=right><span id='r2_points'></span></td>
+<td>Shared information about the recycling operations specific to 
+your location with other employees, new hires, temporary employees or 
+guests</h3></th>
+</tr>
+<tr>
+<th title='300 points'><input type=checkbox name=r3 
+onClick='javascript:r_3(this.form)'></th>
+<th title='300 points'><input type=checkbox name=r3 
+onClick='javascript:r_3(this.form)'></th>
+<th title='300 points'><input type=checkbox name=r3 
+onClick='javascript:r_3(this.form)'></th>
+<th title='300 points'><input type=checkbox name=r3 
+onClick='javascript:r_3(this.form)'></th>
+<th title='300 points'><input type=checkbox name=r3 
+onClick='javascript:r_3(this.form)'></th>
+<th title='300 points'><input type=checkbox name=r3 
+onClick='javascript:r_3(this.form)'></th>
+<td align=right><span id='r3_points'></span></td>
+<td>Recycled at least three different materials (paper, plastic, 
+aluminum, tin, glass, cardboard, compost) at your office</td>
+</tr>
+<tr>
+<th title='100 points/day'><input type=text size=1 value=0 
+name=r4 onClick='javascript:r_4(this.form)'></th>
+<th title='100 points/day'><input type=text size=1 value=0 
+name=r4 onClick='javascript:r_4(this.form)'></th>
+<th title='100 points/day'><input type=text size=1 value=0 
+name=r4 onClick='javascript:r_4(this.form)'></th>
+<th title='100 points/day'><input type=text size=1 value=0 
+name=r4 onClick='javascript:r_4(this.form)'></th>
+<th title='100 points/day'><input type=text size=1 value=0 
+name=r4 onClick='javascript:r_4(this.form)'></th>
+<th title='100 points/day'><input type=text size=1 value=0 
+name=r4 onClick='javascript:r_4(this.form)'></th>
+<td align=right><span id='r4_points'></span></td>
+<td>Packed a "no-impact" lunch (used re-usable containers, etc.) 
+for work (0 to 5) days per week</td>
+</tr>
+ 
+<tr><th rowspan=4 bgcolor="lightgreen"><h3>Green Purchasing</h3></th>
+<th title='100 points'><input type=checkbox name=p1 
+onClick='javascript:p_1(this.form)'></th>
+<th title='100 points'><input type=checkbox name=p1 
+onClick='javascript:p_1(this.form)'></th>
+<th title='100 points'><input type=checkbox name=p1 
+onClick='javascript:p_1(this.form)'></th>
+<th title='100 points'><input type=checkbox name=p1 
+onClick='javascript:p_1(this.form)'></th>
+<th title='100 points'><input type=checkbox name=p1 
+onClick='javascript:p_1(this.form)'></th>
+<th title='100 points'><input type=checkbox name=p1 
+onClick='javascript:p_1(this.form)'></th>
+<td align=right><span id='p1_points'></span></td>
+<td>Used rechargeable batteries</h3></th>
+</tr>
+<tr>
+<th title='100 points'><input type=checkbox name=p2 
+onClick='javascript:p_2(this.form)'></th>
+<th title='100 points'><input type=checkbox name=p2 
+onClick='javascript:p_2(this.form)'></th>
+<th title='100 points'><input type=checkbox name=p2 
+onClick='javascript:p_2(this.form)'></th>
+<th title='100 points'><input type=checkbox name=p2 
+onClick='javascript:p_2(this.form)'></th>
+<th title='100 points'><input type=checkbox name=p2 
+onClick='javascript:p_2(this.form)'></th>
+<th title='100 points'><input type=checkbox name=p2 
+onClick='javascript:p_2(this.form)'></th>
+<td align=right><span id='p2_points'></span></td>
+<td>Purchased a green product that replaced a product purchased 
+in the past</h3></th>
+</tr>
+<tr>
+<th title='100 points'><input type=checkbox name=p3 
+onClick='javascript:p_3(this.form)'></th>
+<th title='100 points'><input type=checkbox name=p3 
+onClick='javascript:p_3(this.form)'></th>
+<th title='100 points'><input type=checkbox name=p3 
+onClick='javascript:p_3(this.form)'></th>
+<th title='100 points'><input type=checkbox name=p3 
+onClick='javascript:p_3(this.form)'></th>
+<th title='100 points'><input type=checkbox name=p3 
+onClick='javascript:p_3(this.form)'></th>
+<th title='100 points'><input type=checkbox name=p3 
+onClick='javascript:p_3(this.form)'></th>
+<td align=right><span id='p3_points'></span></td>
+<td>Purchased 100% post-consumer recycled content paper</h3></th>
+</tr>
+<tr>
+<th title='100 points'><input type=checkbox name=p4 
+onClick='javascript:p_4(this.form)'></th>
+<th title='100 points'><input type=checkbox name=p4 
+onClick='javascript:p_4(this.form)'></th>
+<th title='100 points'><input type=checkbox name=p4 
+onClick='javascript:p_4(this.form)'></th>
+<th title='100 points'><input type=checkbox name=p4 
+onClick='javascript:p_4(this.form)'></th>
+<th title='100 points'><input type=checkbox name=p4 
+onClick='javascript:p_4(this.form)'></th>
+<th title='100 points'><input type=checkbox name=p4 
+onClick='javascript:p_4(this.form)'></th>
+<td align=right><span id='p4_points'></span></td>
+<td>Purchased from the Biopreferred catalog - 
+http://www.biopreferred.gov/bioPreferredCatalog/faces/jsp/catalogLanding.jsp</td>
+</tr>
+ 
+<tr><th rowspan=3 bgcolor="lightgreen"><h3>Sustainability 
+Leadership</h3></th>
+<th title='100 points'><input type=checkbox name=s1 
+onClick='javascript:s_1(this.form)'></th>
+<th title='100 points'><input type=checkbox name=s1 
+onClick='javascript:s_1(this.form)'></th>
+<th title='100 points'><input type=checkbox name=s1 
+onClick='javascript:s_1(this.form)'></th>
+<th title='100 points'><input type=checkbox name=s1 
+onClick='javascript:s_1(this.form)'></th>
+<th title='100 points'><input type=checkbox name=s1 
+onClick='javascript:s_1(this.form)'></th>
+<th title='100 points'><input type=checkbox name=s1 
+onClick='javascript:s_1(this.form)'></th>
+<td align=right><span id='s1_points'></span></td>
+<td>Visited the RMRS Green Team Website: 
+http://fsweb.rmrs.fs.fed.us/sustainable-operations</h3></th>
+</tr>
+<tr>
+<th title='100 points'><input type=checkbox name=s2 
+onClick='javascript:s_2(this.form)'></th>
+<th title='100 points'><input type=checkbox name=s2 
+onClick='javascript:s_2(this.form)'></th>
+<th title='100 points'><input type=checkbox name=s2 
+onClick='javascript:s_2(this.form)'></th>
+<th title='100 points'><input type=checkbox name=s2 
+onClick='javascript:s_2(this.form)'></th>
+<th title='100 points'><input type=checkbox name=s2 
+onClick='javascript:s_2(this.form)'></th>
+<th title='100 points'><input type=checkbox name=s2 
+onClick='javascript:s_2(this.form)'></th>
+<td align=right><span id='s2_points'></span></td>
+<td>Visited the Sustainable Operations Demonstration Website: 
+http://dvspdevpoc/sites/sus-ops</h3></th>
+</tr>
+<tr>
+<th title='350 points'><input type=checkbox name=s3 
+onClick='javascript:s_3(this.form)'></th>
+<th title='350 points'><input type=checkbox name=s3 
+onClick='javascript:s_3(this.form)'></th>
+<th title='350 points'><input type=checkbox name=s3 
+onClick='javascript:s_3(this.form)'></th>
+<th title='350 points'><input type=checkbox name=s3 
+onClick='javascript:s_3(this.form)'></th>
+<th title='350 points'><input type=checkbox name=s3 
+onClick='javascript:s_3(this.form)'></th>
+<th title='350 points'><input type=checkbox name=s3 
+onClick='javascript:s_3(this.form)'></th>
+<td align=right><span id='s3_points'></span></td>
+<td>Added SusOps tips to weekly staff notes or incorporated a 
+SusOps discussion into staff meetings</td>
+</tr>
+</table>
+<input type="reset" value="reset">
+</form>
+
