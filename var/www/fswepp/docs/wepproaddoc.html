@@ -1,0 +1,1472 @@
+<html>
+ <head>
+  <title>WEPP:Road Technical Documentation, Draft Version</title>
+  <!-- 04-May-2006 add self.focus() -->
+  <!-- 25-Jul-2002 -->
+ </head>
+ <body bgcolor=white text="black" link="1603F3" vlink="160A8C" onLoad="self.focus()">
+  <font face="Arial, Geneva, Helvetica">
+<a name="topofpage"></a>
+
+   <table width=93%>
+    <tr>
+     <td valign=top>
+      <a href="/fswepp/"><img src="images/fsweppic2.jpg" width=60 height=60 border=0></A><P>
+      <img src="/fswepp/images/road4.gif" width=50 height=50 border=2>
+     </td>
+     <th align=right>
+      <h2>
+       <font color=red>WEPP:Road</font> (Draft 12/1999)<BR>
+       <font color=red>WEPP</font> Interface for Predicting Forest <font color=red>Road</font><BR>
+       Runoff, Erosion and Sediment Delivery
+      </h2>
+      <h3>
+       Technical Documentation
+      </h3>
+     </th>
+    </tr>
+   </table>
+
+  <table width=93%>
+   <tr>
+    <th align=right>
+     William J. Elliot, Project Leader<BR>
+     David E. Hall, Computer Programmer/Analyst<BR>
+     Dayna L. Scheele, Civil Engineer
+     <hr width=20% align=right>
+     U.S.D.A. Forest Service<br>
+     Rocky Mountain Research Station and<br>
+     San Dimas Technology and Development Center
+     <hr width=20% align=right>
+     December 1999
+    </th>
+   </tr>
+  </table>
+
+<p>
+<center>
+<hr width=90%>
+<em>
+Preliminary documentation.<br>
+Please consult <a href="http://forest.moscowfsl.wsu.edu/fswepp/docs/wepproaddoc.html">http://forest.moscowfsl.wsu.edu/fswepp/docs/wepproaddoc.html</a>
+for the latest version.
+</em>
+<hr width=90%>
+[  <a href="#introduction" target="_top">Introduction</a>
+|  <a href="#model">WEPP&nbsp;model</a>
+|  <a href="#assumptions">Assumptions</a>
+|  <a href="#climate">Climate</a>
+|  <a href="#texture">Soil&nbsp;texture</a>
+|  <a href="#design">Road&nbsp;design</a>
+|  <a href="#gravel">Gravel</a>
+|  <a href="#topography">Topography</a>
+|  <a href="#roadwidth">Road&nbsp;width</a>
+|  <a href="#management">Management</a>
+|  <a href="#running">Running</a>
+|  <a href="#results">Results&nbsp;screen</a>
+|  <a href="#extendedoutput">Extended&nbsp;output</a>
+|  <a href="#logfile">Log&nbsp;file</a>
+|  <a href="#applications">Applications</a>
+|  <a href="#examples">Examples</a>
+|  <a href="#validation">Validation</a>
+|  <a href="#references">References</a>
+|  <a href="#appendices">Appendices</a>
+]
+<hr width=90%>
+</center>
+<p>
+
+<a name="introduction"></a>
+<h3><a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='WEPP:Road documentation'; return true"></a>WEPP:Road</h3>
+WEPP:Road is an interface to the Water Erosion Prediction Project (WEPP) soil erosion 
+model that allows users to easily describe numerous road erosion conditions.  
+
+The interface presents the results as a summary and extended WEPP output, and has an 
+optional log to store the results from a series of runs.  
+WEPP:Road is linked to the Rock:Clime climate generator with a database from more
+than 2600 weather stations.
+
+<a name="introduction"></a>
+<h3><a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='WEPP:Road documentation'; return true"></a>Introduction</h3>
+WEPP:Road is one in a series of the U.S.D.A. Forest Service's Internet-based computer 
+programs based on the Agricultural Research Service's <a href="http://forest.moscowfsl.wsu.edu/engr/wepp0.html">Water Erosion Prediction Project</a> 
+(WEPP) model.  
+<p>
+WEPP:Road is designed to predict runoff and sediment yield from:
+<ul><li>roads
+<li>compacted landings
+<li>compacted skid trails
+<li>compacted foot, cattle, or off-road vehicle trails
+</ul>
+
+WEPP:Road allows the user to specify the characteristics of the road in terms of
+<ul><li>climate 
+<li>soil and gravel addition
+<li>local topography
+<li>drain spacing
+<li>road design and surface condition
+<li>ditch condition
+</ul>
+Roads have been identified as the major source of sediment in most forest watersheds due to surface erosion or mass failure.
+Practices to control sedimentation from roads are well known, and have been incorporated into road designs for many years (for example, see <a href="#Packer">Packer and Christensen 1977</a>).
+Such guidelines, however, merely provide estimates of percentage of sediment reduction at best, and their applications are limited to the specific soils and climates where they were developed.
+There have been numerous cases in recent years in which forest planners have wanted to know the sediment yield from a given length of road, but have had no means to estimate the amount.  
+<p>
+One of the most common forest road conditions leading to sedimentation of streams is shown in <a href="#fig1">figure&nbsp;1</a>, where a forest road experiences erosion between cross drains.
+The runoff from the cross drain is routed over the fill slope and across a buffer area to the stream. 
+<p>
+<a name=fig1><center>
+<img src="images/template.gif"><br>
+<b>Figure&nbsp;1.</b>	<i>Relationship of road, fillslope, forest buffer and stream for the WEPP:Road Program</i>
+<br>
+</center>
+
+<a name="model"></a>
+<h3><a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='WEPP:Road documentation'; return true"></a>The WEPP Model</h3>
+The WEPP model (<a href="#Flanagan">Flanagan and Livingston 1995</a>) is a physically-based soil erosion model that can provide estimates of soil erosion and sediment yield considering the specific soil, climate, ground cover, and topographic conditions.  
+It was developed by an interagency group of scientists including the U.S. Department of Agriculture's 
+Agricultural Research Service (ARS), 
+Forest Service, and Natural Resources Conservation Service; 
+and the U.S. Department of Interior's Bureau of Land Management and 
+Geological Survey.  
+<p>
+WEPP simulates the conditions that impact erosion--such as the amount of vegetation canopy, the surface residue, and the soil water content for every day in a multiple-year run.
+For each day that has a precipitation event, WEPP determines whether the event is rain or snow, and calculates the infiltration and runoff.
+If there is runoff, WEPP routes the runoff over the surface, calculating erosion or deposition rates for at least 100 points on the hillslope.
+It then calculates the average sediment yield from the hillslope.  
+<p>
+<center>
+<table bgcolor="#f0f0f0" border=1 cellpadding=10>
+<tr><td>
+The WEPP:Road template has three overland flow elements: a road, a fillslope, and a forested buffer.
+</table>
+</center>
+<p>
+The WEPP model allows a hillslope to be divided into segments with similar soils and vegetation, called overland flow elements.
+For the scenario shown in <a href="#fig1">figure&nbsp;1</a>, WEPP:Road assumes there are three overland flow elements: a road, a fillslope, and a forest.
+<p>
+WEPP consists of a simulation engine and an interface.
+WEPP was released for public use in 1995 with an MS-DOS text-based interface.
+Updated versions of the engine were released in 1997, 1998, and 1999.
+
+The MS-DOS interface can be used to run WEPP in a DOS window on most personal computers.
+The management file builder, however, can be run only with a personal computer running 
+in DOS mode, and will not run in a DOS window.
+Elliot and Hall (<a href="#ElliotHall">1997</a>) developed a set of templates for forest road applications 
+for the MS-DOS interface.
+<p>
+There is also available a Windows-based interface for WEPP.
+Forest templates are under development for the Windows version.
+Both the DOS and Windows interfaces run the same WEPP engine.  The interface and the format of
+some of the internal data files are different.
+Both interfaces of the WEPP computer program can be retrieved from the USDA ARS National Soil Erosion Research
+Laboratory web site at
+ (<a href="http://topsoil.nserl.purdue.edu/weppmain/wepp.html">http://topsoil.nserl.purdue.edu/weppmain/wepp.html</a>).  
+<p>
+<a name="assumptions"></a>
+<h3><a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='WEPP:Road documentation'; return true"></a>WEPP:Road Assumptions</h3>
+Because WEPP is process-based, it can be applied to any condition where the necessary input data are known.
+WEPP is difficult to apply, however, because of the amount of input data required.
+To simplify the application of WEPP to forest roads anywhere in the U.S., a custom interface 
+was developed for the road/buffer template described by <a href="#fig1">figure&nbsp;1</a>.
+Users can select any climate they desire from a climate database.
+Soil properties are based on research findings.
+The road is assumed to be free of vegetation, the fillslope to be covered with sufficient vegetation to give about 50&nbsp;percent ground cover, and the buffer surface covered with litter from a 20-year old forest, generally 100&nbsp;percent.
+Climates with less than 500&nbsp;mm of precipitation may have somewhat less cover, as drought conditions will limit vegetation growth in WEPP.
+<p>
+<a name="climate"></a>
+<h3><a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='WEPP:Road documentation'; return true"></a>Climate</h3>
+Several climates (currently Birmingham, AL; Flagstaff, AZ; Mount Shasta, CA; 
+Denver, CO; Moscow, ID; and Charleston, WV) are listed in the climate list.  
+These climates are provided to allow the user to quickly select a regional climate for an 
+initial run.  
+Most users will prefer to click the
+<img src="images/wr-custclim.gif">
+button and use the Rock:Clime weather generator to select desired climates from the
+2600 sets of climate statistics in the database.  
+Users may prefer to select several nearby climates to determine the sensitivity of 
+their site to climate effects.  
+Up to five sets of custom climate statistics can be selected for the WEPP:Road interface.  
+<p>
+<center>
+<table bgcolor="#f0f0f0" border=1 cellpadding=10>
+<tr><td>30 years of simulation is generally adequate
+</table>
+</center>
+<p>
+The user must specify the number of years of simulation.  
+For climates with more than 500&nbsp;mm of precipitation, 30&nbsp;years of simulation is generally adequate to obtain an estimate of erosion.
+For drier climates, 50 or more years of simulation may be necessary to achieve an average value.
+In dry climates, there are more years with little or no erosion, so a greater total number of years is necessary to ensure that there have been an adequate number of wet years.
+Users may wish to carry out some preliminary runs for some typical local climates to determine how many years of run are necessary for their conditions to ensure a stable average erosion value.
+The interface limits the number of years of simulation to 200.
+
+
+<p>
+When the
+<img src="images/wr-runwepp.gif">
+button is activated, the ARS CLIGEN weather generator, distributed with WEPP,
+uses the climate statistics from the selected station to generate a daily weather
+sequence for the number of years specified.
+The WEPP model reads the generated daily weather to complete the erosion estimates.
+
+<a name="texture"></a>
+<h3><a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='WEPP:Road documentation'; return true"></a>Soil Texture</h3>
+The erosion potential of a given soil depends more on the vegetation cover than on the soil texture.
+Therefore, only four soil textures (sand, silt, clay, and loam) are listed for WEPP:Road.
+<a href="#table1">Table&nbsp;1</a> can aid in selecting the desired soil texture.
+<p>
+To fully describe each set of soils for WEPP requires 48 soil parameter values.
+These values are listed in <a href="#apdx1">appendix 1</a>.
+Further details describing these parameters are available in the WEPP Technical Documentation (<a href="#Alberts">Alberts and others 1995</a>).
+<p>
+<p>
+<a name="table1"></a>
+<blockquote>
+<table border=1>
+<tr><caption align=left><b>Table 1.
+<i>Categories of Common Forest Soils in relation to WEPP:Road soils</i>
+<tr><th bgcolor=85d2d2>Soil type<th bgcolor=85d2d2>   Soil Description<th bgcolor=85d2d2>    Universal Soil Classification 
+<tr><th>Clay loam<td>Native-surface roads on shales and similar decomposing fine-grained sedimentary rock <td>CH 
+<tr><th>Silt loam <td>Ash cap native-surface road; alluvial loess native-surface road<td>ML,CL 
+<tr><th>Sandy loam <td>Glacial outwash areas; granitics and sand <td>GP, GM, SW, SP
+<tr><th>Loam <td>Glacial tills, aluvium<td>GC, SM, SC, MH
+</table>
+</blockquote>
+
+<a name="design"></a>
+<h3><a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='WEPP:Road documentation'; return true"></a>Road Design</h3>
+There are four road designs options on the WEPP:Road menu (<a href="#fig2">figure 2</a> and <a href="#table2">table&nbsp;2</a>).
+
+<h4>Insloped, bare ditch</h4>
+The simplest road design is the "Insloped, bare ditch" design.
+This template assumes that there are no ruts on the road, and that all runoff is diverted to an inside road ditch.
+Road surface erosion is due to raindrop splash and shallow overland flow, and the road ditch is experiencing rill erosion from concentrated flow.
+The spacing of rills on the road in the WEPP management file is set by the interface at 4&nbsp;m 
+and the soil properties are assumed to be those measured by field researchers (<a href="#ElliotFoltzL">Elliot, Foltz and Luce 1995</a>; <a href="#Flerchinger">Flerchinger and Watt 1987</a>).
+This design is most applicable to new roads and road systems where ditch cleaning is practiced regularly.
+<p>
+If the insloped road has wheel ruts which are carrying runoff between cross drains, then
+the "outsloped, rutted" design may be more appropriate.
+<p>
+<a name="table2">
+<center>
+<table border=1 cellpadding=10>
+<tr><caption align=left><b>Table 2.  <i> Design options in the <b>WEPP:Road</b> interface</i>
+<tr><th bgcolor=85d2d2>Road design and application<th bgcolor=85d2d2>Description<th bgcolor=85d2d2>Soil assumption<th bgcolor=85d2d2>Width selection
+<tr><td valign=top>
+    <b>Insloped, bare ditch</b>
+      <p>New roads or roads with ditches that are regularly bladed
+      <td valign=top>All runoff is diverted to inside ditch
+      <p>Also describes road with two ditches
+    <td valign=top>Assumes typical road erodibility values
+      <p>Rill spacing is assumed to be 4&nbsp;m
+      <p>Critical shear of road element is 2&nbsp;N&nbsp;m<sup>-2</sup>
+    <td valign=top>Enter width of road traveled way plus ditch width
+      <p>For two ditches, enter half the width of traveled way plus the width of 
+         one ditch, and double the predicted sediment yields
+<tr><td valign=top>
+    <b>Insloped, vegetated or rocked ditch</b>
+       <p>Older roads with fully vegetated ditches or roads with rocked or graveled ditches
+    <td valign=top>All runoff is diverted to an inside ditch which has been covered in rock greater than 10&nbsp;mm dia, or channel in ditch is completely vegetated
+    <td valign=top>Critical shear is 10&nbsp;N&nbsp;m<sup>-2</sup>
+    <td valign=top>Enter width of road traveled way plus ditch width
+      <p>For two ditches, enter half the width of traveled way plus the width of 
+         one ditch, and double the predicted sediment yields
+<tr><td valign=top>
+    <b>Outsloped, unrutted</b>
+       <p>Outsloped roads with ruts less than 10&nbsp;mm deep
+       <p>Suited for roads that are outsloped and then closed
+    <td valign=top>Road is free from ruts
+       <p>Direction of surface runoff is determined by outslope slope and road gradient only
+    <td valign=top>Assumes typical road erodibility values.
+       <p>Rill spacing is 1&nbsp;m
+       <p>Interface calculates length of flow path on road and calculates an effective width of flow
+    <td valign=top>Enter width of road traveled way
+<tr><td valign=top>
+    <b>Outsloped, rutted</b>
+       <p>Outsloped or flat roads with wheel ruts more than 10&nbsp;mm deep
+       <p>Insloped, rutted roads
+    <td valign=top>Runoff follows ruts for the distance entered in road length
+       <p>If the length of a rut is not known, 100&nbsp;m is a reasonable assumption
+    <td valign=top>Assumes typical road erodibility values.
+       <p>Rut spacing is assumed to be 2&nbsp;m
+    <td valign=top>Enter width of road contributing runoff to ruts.
+       This will generally be about 4&nbsp;m
+       <p>For an insloped rutted road, enter the width of the road plus the ditch width
+</table>
+</center>
+
+<h4>Insloped, vegetated or rocked ditch</h4>
+The
+"Insloped, vegetated or rocked ditch"
+design option uses a critical shear for the road element of 10&nbsp;N&nbsp;m<sup>-2</sup>.
+The majority of erosion occurs on the road surface only due to raindrop splash and shallow overland flow.
+The main function of the ditch is to transport the sediment eroded from the road surface.
+Selecting this option will generally reduce road erosion by 50&nbsp;percent to 90&nbsp;percent.
+For example, for established roads in Oregon, Luce and Black (<a href="#Luce">1999</a>) observed that 
+road segments with vegetated ditches delivered only 10 to 20&nbsp;percent as much sediment as did
+segments with freshly graded ditches.
+Rocking or vegetating a ditch is particularly effective in reducing sediment delivery at stream crossings.
+It is less effective in reducing delivery across a forested buffer where sediment transport by runoff rather
+than detachment dominates the sediment delivery.
+<p>
+This design best models an older road where the traveled way is devoid of vegetation,
+but the ditches are completely covered in vegetation.
+It is also suited to conditions where rock or gravel is used to line the ditch to limit erosion.
+There may be some deposition of sediment in a vegetated ditch, but research has not been able to 
+support this supposition.
+Lining a channel with rock has not been effective in causing deposition (<a href="#Grace">Grace 1998</a>).
+<p>
+<a name="fig2">
+<center>
+<img src="images/wr-roads.gif"><br>
+<b>Figure 2.</b>  <i>Diagram of flow directions for road designs in WEPP:Road program</i>
+</center>
+<p>
+
+<h4>Outsloped, unrutted</h4>
+Two outsloped options are available--with and without ruts.
+The "Outsloped, unrutted" design best descibes the road condition immediately following blading.
+With traffic, however, wheel tracks soon begin to flatten, and runoff tends to follow wheel tracks--even if 
+rutting is barely discernable--from one surface cross drain to the next.
+The "Outsloped, rutted" option generally is the most appropriate selection for an outsloped road.
+Only in cases where a road is outsloped, and traffic is light or restricted, is the "Outsloped, unrutted"
+design appropriate.
+This may occur on a road that is closed, but prior to closure is bladed and outsloped. 
+<p>
+The "Outsloped, unrutted" option assumes that the road has an outslope slope of <font color=red>4&nbsp;percent</font>.
+The effective slope of the road is assumed to be the resolution of the road gradient and the outslope slope, calculated as
+<p>
+<center><img src="images/wr-eqn1.gif"></center>
+<p>
+The effective length (<a href="#fig2">figure 2</a>) of the flow path over the road surface is:
+<p>
+<center><img src="images/wr-eqn2.gif"></center>
+<p>
+In order to maintain the correct total road surface area, an effective width of the element is then calculated as
+<p>
+<center><img src="images/wr-eqn3.gif"></center>
+<p>
+These calculations are all carried out by the WEPP:Road interface.  
+In order to see the calculated values, users can request the
+<img src="images/wr-exout.gif">  
+option on the input screen.
+The <i>EffectiveLength</i> in meters is the length of the first overland flow element, and the <i>EffectiveWidth</i> is noted with the sediment yield data (<a href="#apdx2">appendix&nbsp;2</a>).
+
+<h4>Outsloped, rutted</h4>
+The outsloped, rutted option assumes a rill spacing of 2&nbsp;m, similar to the spacing of the wheel tracks.
+The user should enter the width of road contributing flow to the wheel ruts.
+If there is a ditch carrying runoff and subject to erosion, then the user should include the width of the ditch as well as the road (<a href="#ex6">Example 6</a>).
+<p>
+The "Outsloped, rutted" design may be appropriate for an insloped road with 
+wheel ruts which are carrying runoff between cross drains.
+This option specifies a rill spacing of 2&nbsp;m, whereas the insloped design uses
+2&nbsp;m.
+This will change the predicted road erosion rates.
+The user should enter the width of the road plus the ditch.  
+
+<h4>Crowned</h4>
+If the road is crowned with a ditch on either side, the erosion rate can be estimated by selecting
+either "insloped" (if there are no ruts) or "Outsloped, rutted" (if ruts are generally present).
+The width entered should include the ditches.
+If the ditches are vegetated, then the "Insloped, vegetated ditch" option--including the ditch width--or
+the rutted option--excluding the ditch--are the most appropriate choices.
+<p>
+For a crowned road, the user will need to consider both sides of the crown and one or both ditches.
+If there is only an uphill ditch, then half of the road width is insloped and half of the road width is outsloped.
+The total erosion is the sum of the insloped and outsloped erosion values.
+If the road has a ditch on both sides, then the road is effectively made up of two narrow insloped sections, 
+and it can be modeled with one of the insloped designs by summing the widths of the traveled way and the
+ditches in the width box.
+
+<a name="gravel"></a>
+<h3><a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='WEPP:Road documentation'; return true"></a>Gravel Addition</h3>
+One can predict the impacts of adding gravel by selecting 
+<img src="images/wr-grav.gif">.
+This selection alters the soil file by increasing the rock content and the hydraulic conductivity of the soil (<a href="#apdx1">appendix&nbsp;1</a>).
+<p>
+The addition of gravel has two major impacts on erosion rate.
+Research has shown that gravel alters the hydraulic conductivity of a soil, and it changes the flow path
+length of the road (<a href="#FoltzT">Foltz and Truebe 1995</a>).
+Generally, the addition of gravel increases the porosity and increases the hydraulic conductivity of the road, 
+which decreases the runoff (<a href="#Flerchinger">Flerchinger and Watts 1987</a>).
+<p>
+The increase in conductivity may not result in a decrease in erosion.
+In areas where runoff is due to saturated conditions rather than to rainfall rates exceeding hydraulic
+conductivity, runoff may be similar, or even greater, following an increase in road conductivity,
+because the road is more likely to be saturated.
+<p>
+The impacts of gravel on soil properties, however, are not as important in reducing road erosion rates 
+as is the impact of gravel on flow path length.
+Gravel reduces the formation of ruts (<a href="#FoltzT">Foltz and Truebe 1995</a>).
+On a gravel road that is outsloping, or that has a nonerodible ditch, the flow path is generally 10&nbsp;m long.
+On roads without gravel where flattening or rutting of wheel tracks is common, the flow path length will be
+the spacing between cross drains.
+The reduction in flow path length with the addition of gravel is likely the reason for the 80&nbsp;percent
+reduction in erosion often credited to the addition of gravel.
+<a href="#ex3">Example 3</a> demonstrates how gravel reduces road erosion through alteration of topography.
+
+<a name="topography"></a>
+<h3><a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='WEPP:Road documentation'; return true"></a>Topography</h3>
+The WEPP:Road interface allows users to specify any values for the horizontal lengths, road widths,
+and slopes within an acceptable range.
+<p>
+The topographic limitations for WEPP:Road are shown in <a href="#table3">table&nbsp;3</a>.
+All lengths in the WEPP model are horizontal, as would be measured directly from a contour map.
+WEPP adjusts the horizontal length internally to determine the true overland length.
+If the user has measured overland lengths during a site survey, the horizontal length can
+be found by multiplying the overland length by the cosine of the slope angle.
+The slope angle is the inverse tangent (arctangent) of the slope in decimal units (see <a href="#ex1">example 1</a>).
+<p>
+The effect of changes in topography tends to be consistent, so interpolation between values is acceptable.
+However, the effect is not linear, so extrapolation beyond predicted values is not recommended.
+On roads with no cross drains, flow path lengths along the road surface seldom exceed 
+120&nbsp;m unless the road is severely rutted, or the road is insloped with a long inside ditch.
+<p>
+
+<center>
+<table bgcolor="#f0f0f0" border=1 cellpadding=10>
+<tr><td>
+On roads with no cross drains, flow path lengths along the road surface seldom exceed 120&nbsp;m.
+</table></center>
+<p>
+<a name="table3">
+<center>
+<TABLE width="50%" border=1 cellpadding=5>
+<tr><caption align=left><b>Table 3. <i>Topographic limitations in the WEPP:Road interface</i>
+<TR><TH bgcolor=85d2d2>Variable<TH bgcolor=85d2d2>Range of Values</TR>
+<TR><TD>Road Gradient<TD>0.1 to 40&nbsp;percent</TR>
+<TR><TD>Road horizontal length<TD>1 to 300&nbsp;m</TR>
+<TR><TD>Road horizontal width<TD>0.3 to 100&nbsp;m</TR>
+<TR><TD>Fillslope slope<TD>0.1 to 150&nbsp;percent</TR>
+<TR><TD>Fillslope horizontal length<TD>0.3 to 100&nbsp;m</TR>
+<TR><TD>Buffer gradient<TD>0.1 to 100&nbsp;percent</TR>
+<TR><TD>Buffer horizontal length<TD>0.3 to 300&nbsp;m</TR>
+</TABLE>
+</center>
+<p>
+To estimate the sediment delivery at a stream crossing, the user can assume that all of the road prism
+erosion enters the stream.
+This method does not include any erosion from the fill slope.
+Alternatively, the minimum lengths can be selected for the fillslope and buffer lengths
+and the sediment leaving the buffer can be used as an estimate of sediment delivery.
+This method may overestimate deposition on the fill or buffer.
+<p>
+In some situations, runoff over the buffer may be channelized.
+WEPP:Road will not predict erosion or deposition in a channel.
+It will give only an estimate of the amount of sediment that was delivered to the channel.
+Templates using the WEPP watershed version are under development to address this condition.
+
+<a name="roadwidth"></a>
+<h3><a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='WEPP:Road documentation'; return true"></a>Road Width</h3>
+
+The road width specification should include the width of the ditch or ditches if they are eroding.
+If the road is outsloped and rutted, only that portion of the width of road contributing runoff to the
+ruts should be specified.
+This generally is the rut spacing plus the distance from the inside rut to the cutslope.  
+<p>
+<center>
+<table bgcolor="#f0f0f0" border=1 cellpadding=10>
+<tr><td>
+Forest roads are generally 4 to 6&nbsp;m wide
+</table>
+</center>
+<p>
+If the user is modeling narrow bicycle or foot trails, then an appropriate narrow width should be specified.
+For log landings, parking lots, compacted construction sites and similar wide disturbed areas,
+the width of the landing can be entered in the width box.
+
+<a name="management"></a>
+<h3><a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='WEPP:Road documentation'; return true"></a>Management (Vegetation Cover)</h3>
+
+The most complex input file in the WEPP model is the management file, which describes the vegetation.
+For the WEPP:Road program, the road has no vegetation, the fillslope has sufficient vegetation to provide
+about 50&nbsp;percent ground cover, and the forest buffer has a 20-year old forest with 100&nbsp;percent
+ground cover.
+The values are similar to those described for the PLUME3 template for WEPP in Elliot and Hall (<a href="#ElliotHall">1997</a>).
+For other conditions, such as a burned buffer or vegetated road, users will have to run the WEPP model.
+<p>
+If applied to skid trails or similar temporary trails, WEPP:Road can be run to determine the erosion rate
+for the first year.
+Generally, following revegetation, erosion rates rapidly decline to near zero within five years.
+The WEPP:Road erosion rate can be reduced by 20&nbsp;percent each year for five years following the disturbance
+to obtain an estimate of total erosion associated with the skid trail.
+<p>
+If the buffer is not forested, then the user may need to consider some other tool to predict sediment delivery.
+The sediment yield from the road will still be correct.
+Further work on the WEPP:Road interface may include alternative vegetation scenarios for the buffer.
+
+<a name="running"></a>
+<h3><a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='WEPP:Road documentation'; return true"></a>Running WEPP:Road</h3>
+
+The user should select the desired climate, the most appropriate soil, and the desired 
+road design and road surface.  
+He or she should then enter the appropriate topographic values.
+These values may be obtained from a field survey, a forest map, or a GIS database.
+After specifying the number of years to simulate,
+the user should click the
+<img src="images/wr-runwepp.gif">
+button.
+The user also may wish to check the
+<img src="images/wr-exout.gif">
+box to obtain more detailed information about the distribution of erosion and deposition,
+and the size distribution of the eroded sediment.
+
+<a name="results"></a>
+<h3><a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='WEPP:Road documentation'; return true"></a>Results Screen</h3>
+
+The results screen presents a table summarizing the input values specified on the input screen,
+followed by a table of mean annual output values (<a href="#fig3">figure&nbsp;3</a>).
+The results page can be printed or saved, or the information can be copied and pasted in such other programs as
+a spreadsheet, word processor, or presentation program.
+
+<h4>Mean Annual Averages</h4>
+The WEPP predictions are summarized in a table presenting the mean annual values from the generated weather
+sequence for the selected climate (<a href="#fig3">figure&nbsp;3</a>).
+<p>
+<a href="#fig3">Figure 3</a> shows that the average annual precipitation for the climate selected was 823&nbsp;mm per year,
+from a total of 3434 storms during the 30-year period simulated, which is about 100 storms per year.
+The average runoff from the rainfall-only events was less than 0.5&nbsp;mm per storm from 40 events,
+and the average runoff from snowmelt, or rain-on-snow, events was 1&nbsp;mm from 140 events.
+The average annual amount of sediment leaving the road traveled way or ditch was 18.27&nbsp;kg,
+and the average annual amount of sediment leaving the forest buffer and entering a stream system was 4.6&nbsp;kg.
+For many conditions, there will be some sediment delivered every year.
+For drier climates, the average value may include a number of years when there was little erosion, with only a
+few major runoff events during the period of simulation.
+<p>
+<center>
+<table bgcolor="#f0f0f0" border=1 cellpadding=10>
+<tr><td>
+The accuracy of a predicted runoff or erosion rate is, at best, plus or minus 50&nbsp;percent. 
+</table>
+</center>
+<p>
+Any predicted runoff or erosion value--by any model--will be, at best, within plus or minus 50&nbsp;percent
+of the true value.
+Erosion rates are highly variable, and the models predict only a single value.
+Replicated research has shown that observed erosion values vary widely for identical plots,
+and for the same plot from year to year (<a href="#ElliotFoltzR">Elliot and others 1994</a>; <a href="#ElliotFoltzL">Elliot and others 1995</a>; <a href="#Tysdal">Tysdal and others 1999</a>).
+<p>
+<a name="fig3">
+<center>
+<img src="images/wr-wrresults.gif">
+<br>
+<b>Figure 3.</b> <i>WEPP:Road Results screen</i>
+</center>
+
+<a name="extendedoutput"></a>
+<h3><a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='WEPP:Road documentation'; return true"></a>Extended Output Information</h3>
+
+By selecting the <img src="images/wr-exout.gif"> option, additional information about the WEPP run can be obtained.
+The information includes the presence and length of a sediment plume, and the size distribution of the sediment
+delivered from the bottom of the hill.
+The extra output is added to the bottom of the results screen and can be accessed by scrolling down the page.
+An example extended output is shown in <a href="#apdx2">appendix&nbsp;2</a>.
+
+<h4>Size of Eroded Sediments</h4>
+Users may wish to estimate the percent of the eroded sediment that is in the sand size class
+for environmental impact analysis.
+Some scientists say that sand is the size of concern, because it is readily deposited in stream systems,
+filling in spawning areas around and under gravel.
+Others are more concerned with the silt content as it is more of a problem because it decreases the clarity of
+the water and reduces the quality of the aquatic ecosytem on the channel bottom.  
+<p>
+WEPP predicts the size distribution of eroded sediment by dividing the sediment into sand, silt, and clay
+particles; small aggregates made up of organic matter, clay and silt; and large aggregates made up of organic
+matter, clay, silt, and sand.
+Typically, sand deposits first, and clay and small aggregates deposit last.
+At the end of the extended output is a table that shows the distribution of sediment in each of the size
+classes in the soil, and in the eroded sediment.
+<a href="#ex7">Example 7</a> shows how to calculate the sand content from the table at the end of <a href="#apdx2">appendix&nbsp;2</a>.
+
+<a name="logfile"></a>
+<h3><a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='WEPP:Road documentation'; return true"></a>Log File</h3>
+
+A log file can be created to list the inputs and outputs of a set of runs.
+The table can be saved for future reference, printed, or copied and pasted into another document.
+A new log table can be created by entering the project description on the input page, and clicking the
+<img src="images/wr-newlog.gif"> button.
+The results of a run can be entered into the log table from the output screen by clicking the
+<img src="images/wr-addlog.gif"> button.
+
+A run description can be entered in the run description box to assist with interpretation of the table.
+Once a line is entered in the table it can not be deleted within WEPP:Road.
+The user can copy the entire log page and paste it into a word processor or a spreadsheet, 
+and edit the output if desired.
+Examples <a href="#ex2">2</a>, <a href="#ex3">3</a>, and <a href="#ex4">4</a> all contain log pages that have been copied and edited to present the desired information.
+
+<a name="applications"></a>
+<h3><a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='WEPP:Road documentation'; return true"></a>Applications</h3>
+
+The primary application of WEPP:Road is to estimate the runoff and amount of sediment entering a stream
+system from a given road segment.
+If the user needs to analyze a large road network, it may be more efficient to run the X-DRAIN program 
+first to determine which segments are the primary sources of sediment.
+These segments can then be analyzed in more detail with WEPP:Road, to obtain more accurate estimates of
+sediment yields from problem road segments (examples <a href="#ex2">2</a> and <a href="#ex3">3</a>).
+<p>
+The second application of this program is to evaluate the impact of road topography on any road
+(including skid trails) on sediment delivery.
+The necessary input information is collected, and the output table is studied to determine what spacing
+will give an acceptable sediment yield (examples <a href="#ex4">4</a> and <a href="#ex5">5</a>).
+<p>
+Another application is as an aid to identifying sections of road that are the best candidates for closure
+or for mitigation measures, making best use of limited funding (<a href="#ex4">example 4</a>).
+<p>
+A summary of the application of WEPP:Road to various other road designs is given in <a href="#table4">table&nbsp;4</a>.
+<p>
+<a name="table4">
+<center>
+<TABLE border=1 cellpadding=5>
+<tr><caption align=left><b>Table 4. <i>Adapting WEPP:Road inputs to model different road designs</i>
+<TR><TH bgcolor=85d2d2>Condition<TH bgcolor=85d2d2>WEPP:Road application</TR>
+<TR><TD>Road with flat traveled way
+    <TD>Enter width of traveled way in width box and read output directly</TR>
+<TR><TD>Insloping road with no ditch treatment and no ruts
+    <TD>Enter width of traveled way plus inside ditch in width box</TR>
+<TR><TD>Insloping road with rocked or graveled ditch and no ruts
+    <TD>Select <B>Insloped, vegetated or rocked ditch</B> road design and enter width of traveled way plus ditch</TR>
+<TR><TD>Outsloping road without ruts
+    <TD>Select <B>Outsloped, unrutted</B> road design and enter width of traveled way </TR>
+<TR><TD>Outsloping road with ruts
+    <TD>Select <B>Outsloped, rutted</B> road design and enter width of traveled way</TR>
+<TR><TD>Addition of gravel
+    <TD>Click the <img src="images/wr-grav.gif"> button and read the "Gravel Addition" section</TR>
+<TR><TD>Crowned road, two ditches, no ruts
+    <TD>Select <B>Insloped, vegetated or rocked ditch</B> design and specify width including both ditches
+        (<a href="#ex6">example 6</a>)</TR>
+<TR><TD>More complex conditions
+    <TD>Run the WEPP model for the specific conditions</TR>
+</TABLE>
+</center>
+<p>
+<a name="examples"></a>
+<h3><a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='WEPP:Road documentation'; return true"></a>Examples</h3>
+<a name="ex1">
+<h4>Example 1</h4>
+
+<table><tr><td><img src="images/wr-ex1.gif">
+           <td>During a site survey, the steepness of the buffer is measured with a
+		clinometer to be 40&nbsp;percent and the overland length of the buffer
+                is measured with a range finder to be 80&nbsp;m.
+		What is the horizontal length of the buffer?
+<p>
+<b>Solution:</b><br>
+Find the angle, <i>A</i>, of the slope:<br>
+<i>A = </i>tan<i><sup>-1</sup>(0.40) = 21.8°</i>
+<br>
+Calculate the horizontal slope length <i>L</i>:<br>
+<i>L = 80&nbsp;</i>m<i> x </i>cosine<i> (21.8°) = 74.3&nbsp;</i>m
+
+</table>
+<p>
+<a name="ex2">
+<h4>Example 2</h4>
+An analysis of a road network in the Boise National Forest with X-DRAIN identified four road segments as the most likely sources of sediment from a given watershed.
+Two of the segments are on either side of a stream crossing so the buffer distance is small.
+The details of the segments are presented in the following table.
+Find the sediment yield from these segments, assuming the road width is 5&nbsp;m.
+The buffer slope is about 35&nbsp;percent.
+The fillslope length is 4&nbsp;m with a 50&nbsp;percent slope.
+The nearest climate station is Deadwood Dam.
+The site is on the Idaho Batholith, a coarse-grained soil most closely described as sandy loam.
+The road is well established with a vegetated ditch.
+<p>
+<a name="table5">
+<center>
+<table border=1>
+  <tr><caption align=left><b><i>Topographic details of problem road segments.</i>
+  <tr><th bgcolor=85d2d2>Segment<th bgcolor=85d2d2>Drain spacing<br>(m)<th bgcolor=85d2d2>Road gradient<br>(%)<th bgcolor=85d2d2>Buffer Length<br>(m)
+  <tr><td align=right>1<td align=right>90<td align=right>3.7<td align=right>120
+  <tr><td align=right>2<td align=right>56<td align=right>5<td align=right>70
+  <tr><td align=right>3<td align=right>80<td align=right>9<td align=right>1
+  <tr><td align=right>4<td align=right>70<td align=right>6<td align=right>1
+</table>
+</center>
+<p>
+<b>Solution:</b><br>
+A thirty-year WEPP:Road simulation was run for each of the segments, with the custom climate Deadwood Dam, ID, and
+each result was entered into the log.
+An abbreviated log table follows:
+<p>
+<center>
+<table border=1>
+<tr><th>Surface <th>Design <th>Road grad<th>Road len<th>Road width<th>Fill grad<th>Fill len<th>Buff grad<th>Buff len<th>RRO<th>SRO<th>Sed Road<th>Sed Profile<th>Comment
+<tr><td>native <td align=right>inveg <td align=right>3.7&nbsp;% <td align=right>90&nbsp;m <td align=right>5&nbsp;m <td align=right>50&nbsp;% <td align=right>4&nbsp;m <td align=right>35&nbsp;% <td align=right>120&nbsp;m <td align=right>0&nbsp;mm <td align=right>1&nbsp;mm <td align=right>45.87&nbsp;kg <td align=right>18.23&nbsp;kg <td align=right>Segment 1 
+<tr><td>native <td align=right>inveg <td align=right>5&nbsp;% <td align=right>56&nbsp;m <td align=right>5&nbsp;m <td align=right>50&nbsp;% <td align=right>4&nbsp;m <td align=right>35&nbsp;% <td align=right>70&nbsp;m <td align=right>0&nbsp;mm <td align=right>1&nbsp;mm <td align=right>23.95&nbsp;kg <td align=right>9.71&nbsp;kg <td align=right>Segment 2 
+<tr><td>native <td align=right>inveg <td align=right>9&nbsp;% <td align=right>80&nbsp;m <td align=right>5&nbsp;m <td align=right>50&nbsp;% <td align=right>4&nbsp;m <td align=right>35&nbsp;% <td align=right>1&nbsp;m <td align=right>4&nbsp;mm <td align=right>24&nbsp;mm <td align=right>164.67&nbsp;kg <td align=right>154.40&nbsp;kg <td align=right>Segment 3 
+<tr><td>native <td align=right>inveg <td align=right>6&nbsp;% <td align=right>70&nbsp;m <td align=right>5&nbsp;m <td align=right>50&nbsp;% <td align=right>4&nbsp;m <td align=right>35&nbsp;% <td align=right>1&nbsp;m <td align=right>3&nbsp;mm <td align=right>22&nbsp;mm <td align=right>56.98&nbsp;kg <td align=right>54.89&nbsp;kg <td align=right>Segment 4 
+</table>
+</center>
+<p>
+
+These results show that the second segment is not a great source of sediment, but the stream crossings
+(segments 3 and 4) are.
+The total sediment generated from these four problem segments is about 240&nbsp;kg.
+<a href="#ex3">Example 3</a> will consider outsloping and graveling all of these problem segments to see whether sedimentation
+can be reduced to an acceptable level.
+The addition of gravel will help to ensure that the outslope is not lost to rutting on these sensitive
+road segments.  
+<a name="ex3">
+<h4>Example 3</h4>
+What is the impact on the road segments in <a href="#ex2">example 2</a> if the problem segments are graveled and outsloped?
+If road segments 3 and 4 are outsloped, then the amount of road with only 1&nbsp;m of buffer is likely to
+be reduced to about 15&nbsp;m for each segment.
+This assumption requires field or map verification to see whether the road crossed directly over the stream as we have assumed,
+or was running parallel to the stream for some distance.  The buffer lengths for the <b>remaining</b> road segments
+ will be approximately 50 m for segment 3 and 45 m for segment 4.
+<p>
+<b>Solution:</b><br>
+The "graveled" button is clicked, and the shorter road lengths are specified for segments 3 and 4.
+The results are entered into a log file.
+The abbreviated log file shows:
+<p>
+<center>
+<table border=1 cellpadding=3>
+<tr><th>Design <th>Road grad<th>Road len<th>Road width<th>Buff grad<th>Buff len<th>RRO<th>SRO<th>Sed Road<th>Sed Profile<th>Comment
+<tr><td>outunrut <td align=right>3.7 %<td align=right>90&nbsp;m<td align=right>5&nbsp;m<td align=right>35 %<td align=right>120&nbsp;m<td align=right>0&nbsp;mm <td align=right>0&nbsp;mm <td align=right>83.24&nbsp;kg <td align=right>0.86&nbsp;kg<td align=right>Segment 1 
+<tr><td>outunrut <td align=right>5 %<td align=right>56&nbsp;m<td align=right>5&nbsp;m<td align=right>35 %<td align=right>70&nbsp;m<td align=right>0&nbsp;mm <td align=right>0&nbsp;mm <td align=right>65.21&nbsp;kg <td align=right>1.61&nbsp;kg<td align=right>Segment 2 
+<tr><td>outunrut <td align=right>9 %<td align=right>15&nbsp;m<td align=right>5&nbsp;m<td align=right>35 %<td align=right>1&nbsp;m<td align=right>3&nbsp;mm <td align=right>5&nbsp;mm <td align=right>34.20&nbsp;kg <td align=right>13.09&nbsp;kg<td align=right>Short Segment 3 
+<tr><td>outunrut <td align=right>9 %<td align=right>65&nbsp;m<td align=right>5&nbsp;m<td align=right>35 %<td align=right>50&nbsp;m<td align=right>0&nbsp;mm <td align=right>0&nbsp;mm <td align=right>147.54&nbsp;kg <td align=right>5.62&nbsp;kg<td align=right>Remaining Segment 3 
+<tr><td>outunrut <td align=right>6 %<td align=right>15&nbsp;m<td align=right>5&nbsp;m<td align=right>35 %<td align=right>1&nbsp;m<td align=right>2&nbsp;mm <td align=right>4&nbsp;mm <td align=right>21.14&nbsp;kg <td align=right>7.66&nbsp;kg<td align=right>Short Segment 4 
+<tr><td>outunrut <td align=right>6 %<td align=right>55&nbsp;m<td align=right>5&nbsp;m<td align=right>35 %<td align=right>45&nbsp;m<td align=right>0&nbsp;mm <td align=right>0&nbsp;mm <td align=right>124.84&nbsp;kg <td align=right>5.79&nbsp;kg<td align=right>Remaining Segment 4 
+</table>
+</center>
+<p>
+The total sediment from these four segments has been reduced from about 240&nbsp;kg to 35&nbsp;kg,
+a soil loss reduction of about 85&nbsp;percent due to gravel.
+Reductions of this magnitude have been measured by numerous researchers including Burroughs and King (<a href="#Burroughs">1989</a>)
+and Swift (<a href="#Swifta">1984a</a>).
+<a name="ex4">
+<h4>Example 4</h4>
+There are three old logging roads located on a hillside in the Boise National Forest with the same 
+climate, soil, and fillslope characteristics as in example 2.
+The road traveled way is 4&nbsp;m wide, and may experience some rutting.
+The forest wishes to retain the lowest road possible to allow access for recreational fishing and related
+wildlife administration.
+They wish to put in cross drains only every 120&nbsp;m to allow for ease of maintenance, and to minimize
+discomfort to road users.
+The gradients of all three roads are 4&nbsp;percent.
+The lower road is 10&nbsp;m from the stream with a 10&nbsp;percent buffer slope,
+the middle road is 80&nbsp;m from the stream with a 25&nbsp;percent buffer slope,
+and the upper road is 200&nbsp;m from the stream with a 60&nbsp;percent buffer slope.
+Which road should be retained?
+<p>
+<b>Solution:</b><br>
+For a road with ruts the width will be less than 4&nbsp;m because the part of the road between the
+outside rut and the fillslope generally does not contribute to the rut flow.
+Therefore, we will assume that the width is 3&nbsp;m.
+<p>
+Each of the three road segments is analyzed to produce the following results:
+<p>
+<center>
+<table border=1 cellpadding=3>
+<tr><th>Yrs<th>Surface <th>Design <th>Road width<th>Fill grad<th>Fill len<th>Buff grad<th>Buff len<th>RRO<th>SRO<th>Sed Road<th>Sed Profile<th>Comment
+<tr><td>30 <td align=right>native <td align=right>outrut <td align=right>3&nbsp;m <td align=right>50 % <td align=right>4&nbsp;m <td align=right>60 % <td align=right>200&nbsp;m <td align=right>0&nbsp;mm <td align=right>1&nbsp;mm <td align=right>449.64&nbsp;kg <td align=right>21.34&nbsp;kg <td align=right>Upper Road
+<tr><td>30 <td align=right>native <td align=right>outrut <td align=right>3&nbsp;m <td align=right>50 % <td align=right>4&nbsp;m <td align=right>25 % <td align=right>80&nbsp;m <td align=right>0&nbsp;mm <td align=right>1&nbsp;mm <td align=right>448.56&nbsp;kg <td align=right>13.95&nbsp;kg <td align=right>Middle Road 
+<tr><td>30 <td align=right>native <td align=right>outrut <td align=right>3&nbsp;m <td align=right>50 % <td align=right>4&nbsp;m <td align=right>10 % <td align=right>10&nbsp;m <td align=right>1&nbsp;mm <td align=right>11&nbsp;mm <td align=right>426.60&nbsp;kg <td align=right>62.91&nbsp;kg <td align=right>Lower Road 
+</table>
+</center>
+<p>
+It appears that the middle road will be the best one to keep open.
+The upper road, located on a steeper part of the hillside, is delivering more sediment.
+Users may wish to run the WEPP model for this template to be able to describe the hillside
+in greater detail than the WEPP:Road interface allows.
+<a name="ex5">
+<h4>Example 5</h4>
+A road is in the planning stages near Charleston, WV on a site with silt loam soil.
+The hillsides have slopes of about 25&nbsp;percent.
+The desired cross drain spacing is 60&nbsp;m.
+The fill has a slope of 50&nbsp;percent and is 5&nbsp;m long.
+The road width is 4&nbsp;m.
+How far should the road be located from the stream to ensure that there is a minimum amount of sediment reaching the stream?  Assume that the road will have a stable ditch.
+<p>
+<b>Solution:</b><br>
+The given values are entered into the WEPP:Road interface, selecting 40&nbsp;m as the length of the buffer.
+The
+<img src="images/wr-exout.gif">
+option is selected.  
+<p>
+The extended output from this analysis is given in <a href="#apdx2">appendix&nbsp;2</a>.
+The third column in section C of the extended output shows the predicted deposition rates for 100 points
+along the buffer.
+The negative numbers in this element show "negative" erosion, or net deposition in that part of the element.
+When the amount of deposition drops to 1&nbsp;kg/m<sup>2</sup> or less, the depth of deposition is less than
+1&nbsp;mm.
+This is the extent of the sediment plume, although sediment may be carried farther.
+In this example, the deposition first reaches zero at 91&nbsp;m, which is 26&nbsp;m from the toe of the fill.
+Hence, the minimum buffer length should be at least 26&nbsp;m.
+Note that at even 40&nbsp;m, there is still some sediment delivery to this stream.
+Greater buffer lengths will likely result in less sediment delivery, but reductions in sediment delivery
+will be small at buffer lengths greater than 26&nbsp;m.
+<a name="ex6">
+<h4>Example 6</h4>
+A graveled county road is located near Rhinelander, WI.
+It is crowned with a ditch on each side.
+The ditches are vegetated.
+The soil is loam.
+The width of the road including both ditches is 10&nbsp;m.
+A segment of the road intersects a sensitive stream.
+In the vicinity of the intersection,
+the road gradient is 1&nbsp;percent, and
+the length of road contributing to the stream is 220&nbsp;m from either side.
+How much sediment is entering the stream from both lengths of the road?
+<p>
+<b>Solution:</b><br>
+Select Rhinelander, WI as a custom personal climate.  Because the road intersects the stream, the length of the fill and buffer are set to the minimum allowable value of 0.3&nbsp;m.
+The gradient of the fill and buffer are set to be 1 percent--the same as the road.
+The "Insloped, vegetated or rocked ditch" design option is selected, and the width is entered as 10&nbsp;m.
+<p>
+The resulting predicted sediment delivery value is 1130&nbsp;kg of sediment from one side of the stream intersection.
+The value is doubled to an average annual value of 2260&nbsp;kg of total sediment delivered from both road
+segments to the stream.
+<p>
+<a name="ex7">
+<h4>Example 7</h4>
+What is the sand content and total amount of sand in the delivered sediment from the extended output presented
+in <a href="#apdx2">appendix&nbsp;2</a>?
+<p>
+<b>Solution:</b><br>
+The sediment size table in <a href="#apdx2">appendix&nbsp;2</a> is:<br>
+<blockquote>
+<font color=purple>
+<b><i>Summary of size distribution of upland and eroded sediment.</i></b>
+</font>
+<font face=courier><pre>
+     Sediment particle information leaving profile
+-------------------------------------------------------------------------------
+                                 Particle Composition         Detached Fraction
+Class  Diameter  Specific  ---------------------------------  Sediment  In Flow
+         (mm)    Gravity   % Sand   % Silt   % Clay   % O.M.  Fraction  Exiting
+-------------------------------------------------------------------------------
+  1      .002      2.60       .0       .0    100.0     53.3      .039     .043
+  2      .010      2.65       .0    100.0       .0       .0      .280     .299
+  3      .030      1.80       .0     78.6     21.4     11.4      .270     .280
+  4      .300      1.60     <font color=red>60.1</font>     20.8     19.1     10.2      .278     <font color=red>.262</font>
+  5      .200      2.65    <font color=red>100.0</font>       .0       .0       .0      .133     <font color=red>.116</font>
+-------------------------------------------------------------------------------
+</pre></font>
+</blockquote>
+The sand fraction makes up <font color=red>60.1</font>&nbsp;percent of size class 4 and <font color=red>100</font>&nbsp;percent of size class 5.  
+The total fraction of sand in the delivered sediment is 
+    <blockquote><i>60.1% x 0.262 + 100% x 0.116 = 0.273.</i></blockquote>
+This value can be compared to <font color=red>0.3</font> as the sand fraction of a silt soil for the road element (<a href="#apdx1">appendix&nbsp;1</a>).
+<p>
+The predicted annual amount of sediment delivered is 176&nbsp;kg.
+The average annual amount of sand delivered is 
+    <blockquote><i>176 x 0.273 = 48&nbsp;kg</i>.</blockquote>
+
+<a name="validation"></a>
+<h3><a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='WEPP:Road documentation'; return true"></a>Validation</h3>
+There has been no direct validation of the WEPP:Road program, and little data have been
+collected on the amount of sediment that enters a stream that was detached from a road 
+and transported across a forested buffer.
+There have been field observations on erosion rates from road surfaces and road prisms,
+and on lengths of sediment plumes.
+Some of these observations are presented in <a href="#table5">table&nbsp;5</a>, along with the sediment yields and
+sediment plume lengths predicted by the WEPP:Road program.
+
+<p>
+<a name="table5"></a>
+<blockquote>
+<table border=1>
+<tr><caption align=left><b>Table 5. <i>
+    Erosion rates and sediment plume lengths below for roads observed and predicted by WEPP:Road for 60-m long, 4&nbsp;percent gradient road, 4&nbsp;m wide unless otherwise stated
+<tr><th bgcolor=85d2d2>Site and Ecoregion<th bgcolor=85d2d2>Erosion Rate
+    <br>  (t ha<sup>-1</sup> yr<sup>-1</sup>)       
+    <th bgcolor=85d2d2>Source
+<tr><td bgcolor=f0f0f0>Observed at Zena Creek, ID
+    <td align=center bgcolor=f0f0f0>18
+    <td bgcolor=f0f0f0><a href="#Megahan">Megahan and Kidd 1972a</a>. (Included entire new road prism. Some sediment from landslides.)
+<tr><td>Predicted for Zena Creek, ID 
+    <td align=center>8.6
+    <td>Deadwood Dam, ID climate, bare ditch.  Prediction for surface erosion only 
+<tr><td bgcolor=f0f0f0>Observed bare and graveled road in Southern Appalachians
+    <td align=center bgcolor=f0f0f0>11 to 150
+    <td bgcolor=f0f0f0>Swift <a href="#Swifta">1984a</a> and <a href="#Swiftb">1984b</a>
+<tr><td>Predicted for Southern Appalachians 
+    <td align=center>13-119
+    <td>Coweeta, NC climate, Sandy loam, native outsloped with ruts and graveled outsloped unrutted
+<tr><td bgcolor=f0f0f0>Observed for Alum Creek, AR  
+    <td align=center bgcolor=f0f0f0>15 - 76
+    <td bgcolor=f0f0f0><a href="#Beasley">Beasley and others 1984</a>. (Vegetated fill slope and ditch.)
+<tr><td>Predicted for Alum Creek, AR
+    <td align=center>22, 34, 51
+    <td>Clarksville, AR climate, sandy loam with gravel, insloped vegetated ditch, outsloped no ruts, and insloped bare ditch designs
+<tr><td bgcolor=f0f0f0>Observed bare and gravelled road for Fernow NF, WV
+    <td align=center bgcolor=f0f0f0>13.5 - 118
+    <td bgcolor=f0f0f0><a href="#Kochenderfer">Kochenderfer and Helvey 1987</a>
+<tr><td>Predicted for Fernow NF, WV
+    <td align=center>16 - 30
+    <td>Clarksburg,WV climate, outsloped unrutted gravel and outsloped rutted native designs
+<tr><td bgcolor=85d2d2><br>
+    <th bgcolor=85d2d2>Sediment Plume Length<br>(m)
+    <td bgcolor=85d2d2><br>
+<tr><td bgcolor=f0f0f0>Observed on Silver Creek Watershed, ID  <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cross drain <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Below fill<p>
+    <td align=center bgcolor=f0f0f0 valign=bottom>11 - 183<br>(mean = 50)<br>0.4 - 66<br>(mean = 3.8)
+    <td bgcolor=f0f0f0><a href="#Ketcheson">Ketcheson and Megahan 1996</a>
+<tr><td bgcolor=f0f0f0>Observed in Nez Perce NF, Central ID<br>Below culverts
+    <td align=center bgcolor=f0f0f0>80 percent less than a mean of 24
+    <td bgcolor=f0f0f0><a href="#Wasniewski">Wasniewski 1994</a>
+<tr><td>Predicted for Silver Creek Watershed     <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cross drain    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Below fill
+    <td align=center valign=bottom> 30 <br> 0.9<td width="600">Deadwood Dam, ID climate.<br>Insloped, eroding ditch design.<br>Distance of plume on fill, no sediment made it to the forest buffer.  Outsloped, unrutted design.
+<tr><td>Predicted for Wine Springs Watershed, NC 
+    <td align=center><i>L = 5.1 + 0.00197 M<br>= 7.0
+    <td><a href="#McNulty">McNulty and others 1995</a>.  
+        <i>L</i> is length in meters, <i>M</i> is predicted sediment yield from road. Length with a WEPP:Road predicted yield of 1184 kg.
+<tr><td bgcolor=f0f0f0>Filter strip widths in SE U.S.
+    <td align=center bgcolor=f0f0f0>13 + 0.426 x percent slope = 24
+    <td bgcolor=f0f0f0><a href="#Swift86">Swift 1986</a>. Assumed slope of 25 percent.
+<tr><td>Predicted for SE U.S.
+    <td align=center>27 - 34
+    <td>For Coweeta, NC climate, graveled sandy loam soil.  Outsloped unrutted, and insloped vegetated ditch designs
+<tr><td bgcolor=f0f0f0>Observed in Tuskegee NF, AL
+    <td align=center bgcolor=f0f0f0>50 - 60
+    <td bgcolor=f0f0f0><a href="#Grace">Grace 1998</a>. Occurred Aug '97 - Jan '98
+<tr><td>Predicted for site<td align=center>45
+    <td>Montgomery, AL climate, Sandy loam, minimum fillslope, 10 percent buffer gradient
+</table>
+</blockquote>
+
+
+<a name="references"></a>
+<h3><a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='WEPP:Road documentation'; return true"></a>References</h3>
+<blockquote>
+<dl><dt>
+<a name="Alberts"><b>Alberts, E. E., M. A. Nearing, M. A. Weltz, L. M. Risse, F. B. Pierson, X. C. Zhang, J. M. Laflen, and J. R. Simanton.</b>  1995.
+   <dd><i>Chapter 7. Soil Component.</i> <b>In:</b> Flanagan, D. C. and M. A. Nearing (eds.) 
+   <b>USDA-Water Erosion Prediction Project Hillslope Profile and Watershed Model Documentation.</b>
+   NSERL Report No. 10.
+   W. Lafayette, IN: USDA-ARS-MWA.
+   <dt>
+<b><a name="Beasley">Beasley, R. S., E. L. Miller, and S. C. Gough.</b>  1984.
+   <dd><i>Forest road erosion in the Ouachita mountains.</i>
+   <b>Mountain Logging Symposium Proceedings</b>, June 5-7, 1984; West Virginia University.
+   Peters, P. A. and Luchok, J.  203-13.
+   <dt>
+<b><a name="Burroughs">Burroughs, E. R. Jr., and J. G. King.</b> 1989.
+   <dd><b>Reduction of soil erosion on forest roads.</b>
+    Gen. Tech. Rep. INT-264. 
+   Ogden, UT: U.S. Department of Agriculture, Forest Service, Intermountain Research Station. 21 p. 
+   <dt>
+<b><a name="ElliotHall">Elliot, W. J., and D. E. Hall.</b>  1997.
+   <dd><b>Water Erosion Prediction Project (WEPP) forest applications.</b>
+   General Technical Report INT-GTR-365.
+   Ogden, UT: U.S. Department of Agriculture, Forest Service, Rocky Mountain Research Station.
+   <dt>
+<b><a name="ElliotFoltzL">Elliot, W. J., R. B. Foltz, and C. H. Luce.</b>  1995.
+   <dd><i>Validation of the Water Erosion Prediction Project (WEPP) model for low-volume forest roads.</i>
+   <b>Proceedings of the Sixth International Conference on Low-Volume Roads.</b>
+   Washington D.C.:  Transportation Research Board.  178-186.
+   <dt>
+<b><a name="ElliotFoltzR">Elliot, W. J., R. B. Foltz, and M. D. Remboldt.</b>  1994.
+   <dd><i>Predicting sedimentation from roads at stream crossings with the WEPP model.</i>
+   Paper No. 947511. 
+   Presented at the 1994 ASAE International Winter Meeting.  St. Joseph, MI:  ASAE.
+   <dt>
+<b><a name="Flanagan">Flanagan, D. C., and S. J. Livingston.</b>  1995.
+   <dd><b>WEPP User Summary.</b>  NSERL Report No. 11, W. Lafayette, IN: National Soil Erosion Research Laboratory.  131 pp.
+   <dt>
+<b><a name="Flerchinger">Flerchinger, G. N., and F. J. Watts.</b>  1987.
+   <dd><i>Predicting infiltration parameters for a road sediment model.</i>
+   <b>Transactions of the ASAE.</b> 30(6):1700-1705.
+   <dt>
+<b><a name="Foltz">Foltz, R. B.</b>  1996.
+   <dd><i>Traffic and no-traffic on an aggregate surfaced road:  Sediment production differences.</i>
+   <b>Proceedings of the Seminar on Environmentally Sound Forest Road and Wood Transport</b>, 
+   Sinaia, Romania, June, 1996. Rome, Italy: FAO.
+   <dt>
+<b><a name="FoltzT">Foltz, R. B., and M. A. Truebe.</b>  1995.
+   <dd><i>Effect of aggregate quality on sediment production from a forest road.</i>
+   <b>Conference Proceedings of the Sixth International Conference on Low-Volume Roads</b>.  (1):57.
+   <dt>
+<b><a name="Grace">Grace, J. M., III.</b>  1998.
+   <dd><i>Sediment export from forest road turn-outs:  A study design and preliminary results</i>.
+   Paper No. 987026. 
+   Presented at the 1998 ASAE Annual International Meeting, Orlando, FL; 1998 July 12-15.   St. Joseph, MI: ASAE.  1-9.
+   <dt>
+<b><a name="Ketcheson">Ketcheson, G. L. and W.F. Megahan.</b>  1996.
+   <dd><b>Sediment production and downslope sediment transport from forest roads in granitic watersheds.</b>
+   Res. Pap. INT-RP-486.
+   Ogden, UT:  U.S. Department of Agriculture, Forest Service, Intermountain Research Station.  1-11.
+   <dt>
+<b><a name="Kochenderfer">Kochenderfer, J. N. and J. D. Helvey.</b>  1987.
+   <dd><i>Using gravel to reduce soil losses from minimum-standard forest roads.</i>
+   <b>Journal of Soil and Water Conservation.</b> 42(1): 46-50.
+   <dt>
+<b><a name="Luce">Luce, C. H., and T. A. Black.</b>  1999.
+   <dd><i>Sediment production from forest roads in western Oregon.</i>
+   <b>Water Resources Research.</b> 35(8):2561-2570.
+   <dt>
+<b><a name="McNulty">McNulty, S., L. Swift, Jr., J. Hays, and A. Clingenpeel.</b>  1995.
+   <dd><i>Predicting watershed erosion production and over-land sediment transport using a GIS.</i>
+   Carrying the Torch for Erosion control:  An Olympic Task.
+   <b>Proceedings, XXVI, International Erosion Control Association Conference;</b>
+   February 28 - March 3, 1995, Atlanta,GA.  Steamboat Springs, CO:  International Erosion Control Association.  397-400
+   <dt>
+<b><a name="Megahan">Megahan, W. F. and W.J. Kidd.</b>  1972a.
+   <dd><b>Effect of logging roads on sediment production rates in the Idaho batholith.</b>
+   Res. Pap. INT-123.
+   Ogden, UT:  U.S. Department of Agriculture, Forest Service, Intermountain Forest and Range Experiment Station.  1-14.
+   <dt>
+<!-- <b><a name="Morfin">Morfin, S., B. Elliot, R. Foltz, and S. Miller.</b>  1996.
+   <dd><i>Predicting effects of climate, soil and topography on road erosion with WEPP.</i>
+   Paper No. 965016.
+   Presented at the 1996 International Meeting of the American Society of Agricultural Engineers.  St. Joseph, MI:  ASAE.
+   <dt> -->
+<b><a name="Packer">Packer, P. E., and G. F. Christensen.</b>  1977.
+   <dd><b>Guides for controlling sediment from secondary logging roads.</b>
+   Ogden, UT: U.S. Department of Agriculture, Forest Service, Intermountain Forest and Range Experiment Station, and
+   Missoula, MT: U.S. Department of Agriculture, Forest Service, Northern Region.
+   <dt>
+<b><a name="Swiftb">Swift, L. W., Jr.</b>  1984b.
+   <dd><i>Gravel and grass surfacing reduces soil loss from mountain roads.</i>
+   <b>Forest Science.</b> 30(3): 657-70.
+   <dt>
+<b><a name="Swifta">Swift, L. W., Jr.</b>  1984a.
+   <dd><i>Soil losses from roadbeds and cut and fill slopes in the southern Appalachian mountains.</i>
+   <b>Southern Journal of Applied Forestry.</b> 8(4): 209-15.
+   <dt>
+<b><a name="Swift86">Swift, L. W., Jr.</b>  1986.
+   <dd><i>Filter strip widths for forest roads in the southern Appalachians.</i>
+   <b>Southern Journal of Applied Forestry.</b> 10(1): 27-34.
+   <dt>
+<b><a name="Tysdal">Tysdal, L. M., W. J. Elliot, C. H. Luce, and T. A. Black.</b> 1999.
+   <dd><i>Modeling erosion from insloping low-volume roads with WEPP watershed model.</i>
+   <b>Transportation Research Record.</b>
+   Washington, D.C.:Transportation Research Board, National Research Council. 2(1652):250-256.
+   <dt>
+<b><a name="Wasniewski">Wasniewski, L. W.</b>  1994.
+   <dd><b>Hillslope sediment routing below new forest roads in central Idaho.</b>
+   Masters of Forestry Thesis.  Corvalis, OR: Oregon State University.
+   <dt>
+<b><a name="WEPP">Water Erosion Prediction Project (WEPP) v. 97.3. </b>  1997.
+   <dd>West Lafayette, IN: Agricultural Research Service, National Soil Erosion Research Laboratory.
+   Computer program.
+   Available at: <a href="http://topsoil.nserl.purdue.edu/WEPP/">http://topsoil.nserl.purdue.edu/WEPP/</a>.
+</dl>
+</blockquote>
+<a name="appendices"></a>
+<h3><a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='WEPP:Road documentation'; return true"></a>Appendices</h3>
+
+<hr>
+<a name="apdx1">
+<H3>Appendix 1: Soil Parameter Values</H3>
+<center>
+<TABLE border cellpadding=3>
+<TR><TD><TD><TH colspan=5 bgcolor=85d2d2><center>Soil Type</TR>
+<TR><TH bgcolor=85d2d2>Element and Property<TH bgcolor=85d2d2>Units<TH bgcolor=85d2d2>Clay<BR>Loam<TH bgcolor=85d2d2>Silt<BR>Loam<TH bgcolor=85d2d2>Sandy<BR>Loam<TH bgcolor=85d2d2>Graveled<BR>Loam<TH bgcolor=85d2d2>Graveled<BR>Sand</TR>
+<TR><TH>Road Surface<TD> <TD><TD><TD><TD><TD></TR>
+<TR><TD>Albedo of the bare soil<TD align=center>Fraction<TD align=right>0.6<TD align=right>0.6<TD align=right>0.6<TD align=right>0.6<TD align=right>0.6</TR>
+<TR><TD>Initial saturation of the soil<TD align=center>m m<sup>-1</sup><TD align=right>0.5<TD align=right>0.5<TD align=right>0.5<TD align=right>0.5<TD align=right>0.5</TR>
+<TR><TD>Baseline interrill erodibility (<i>k<sub>i</sub></i>)<TD align=center>kg s m<sup>-4</sup><TD align=right>1.50E+06<TD align=right>2.00E+06<TD align=right>2.00E+06<TD align=right>1.50E+06<TD align=right>2.00E+06</TR>
+<TR><TD>Baseline rill erodibility (<i>k<sub>r</sub></i>)<TD align=center>s m<sup>-1</sup><TD align=right>0.0002<TD align=right>0.0003<TD align=right>0.0004<TD align=right>0.0002<TD align=right>0.0004</TR>
+<TR><TD>Baseline critical shear<TD align=center>N m<sup>-2</sup><TD align=right>0.04<TD align=right>0.04<TD align=right>0.04<TD align=right>0.04<TD align=right>0.04</TR>
+<TR><TD>Hydraulic conductivity <TD align=center>mm h<sup>-1<sup><TD align=right>0.1<TD align=right>0.27<TD align=right>3.8<TD align=right>8.4<TD align=right>10.2</TR>
+<TR><TD>Depth of soil layer<TD align=center>mm<TD align=right>200<TD align=right>200<TD align=right>200<TD align=right>200<TD align=right>200</TR>
+<TR><TD>Percentage of sand<TD align=center>%<TD align=right><font color=red>30</font><TD align=right>30<TD align=right>60<TD align=right>35<TD align=right>70</TR>
+<TR><TD>Percentage of clay<TD align=center>%<TD align=right>30<TD align=right>15<TD align=right>5<TD align=right>30<TD align=right>5</TR>
+<TR><TD>Organic matter (by volume)<TD align=center>%<TD align=right>0.01<TD align=right>0.01<TD align=right>0.01<TD align=right>0.01<TD align=right>0.01</TR>
+<TR><TD>Cation exchange capacity<TD align=center>Meq/100&nbsp;g <TD align=right>24<TD align=right>12<TD align=right>4<TD align=right>24<TD align=right>4</TR>
+<TR><TD>Rock fragments (by volume)<TD align=center>%<TD align=right>20<TD align=right>10<TD align=right>20<TD align=right>65<TD align=right>65</TR>
+<TR><TH>Fillslope<TD> <TD> <TD> <TD> </TR>
+<TR><TD>Albedo of the bare soil<TD align=center>Fraction<TD align=right>0.12<TD align=right>0.12<TD align=right>0.12<TD align=right>0.12<TD align=right>0.12</TR>
+<TR><TD>Initial saturation of the soil<TD align=center>m m<sup>-1</sup><TD align=right>0.45<TD align=right>0.45<TD align=right>0.45<TD align=right>0.45<TD align=right>0.45</TR>
+<TR><TD>Baseline interrill erodibility (<i>k<sub>i</sub></i>)<TD align=center>kg s m<sup>-4</sup><TD align=right>1.50E+06<TD align=right>2.00E+06<TD align=right>2.00E+06<TD align=right>1.50E+06<TD align=right>2.00E+06</TR>
+<TR><TD>Baseline rill erodibility (<i>k<sub>r</sub></i>)<TD align=center>s m<sup>-1</sup><TD align=right>0.0002<TD align=right>0.0003<TD align=right>0.0004<TD align=right>0.0002<TD align=right>0.0004</TR>
+<TR><TD>Baseline critical shear<TD align=center>N m<sup>-2</sup><TD align=right>2<TD align=right>2<TD align=right>2<TD align=right>2<TD align=right>2</TR>
+<TR><TD>Hydraulic conductivity <TD align=center>mm h<sup>-1</sup><TD align=right>6.3<TD align=right>8.9<TD align=right>12.5<TD align=right>7.1<TD align=right>14.3</TR>
+<TR><TD>Depth of soil layer<TD align=center>mm<TD align=right>300<TD align=right>300<TD align=right>300<TD align=right>300<TD align=right>300</TR>
+<TR><TD>Percentage of sand<TD align=center>%<TD align=right>30<TD align=right>30<TD align=right>60<TD align=right>30<TD align=right>60</TR>
+<TR><TD>Percentage of clay<TD align=center>%<TD align=right>30<TD align=right>15<TD align=right>5<TD align=right>30<TD align=right>5</TR>
+<TR><TD>Organic matter (by volume)<TD align=center>%<TD align=right>4<TD align=right>4<TD align=right>4<TD align=right>4<TD align=right>4</TR>
+<TR><TD>Cation exchange capacity<TD align=center>Meq/100&nbsp;g <TD align=right>26<TD align=right>13<TD align=right>4<TD align=right>26<TD align=right>4</TR>
+<TR><TD>Rock fragments (by volume)<TD align=center>%<TD align=right>20<TD align=right>10<TD align=right>20<TD align=right>30<TD align=right>30</TR>
+<TR><TH>Forest Buffer Soil<TD> <TD> <TD> <TD> </TR>
+<TR><TD>Albedo of the bare soil<TD align=center>Fraction<TD align=right>0.02<TD align=right>0.02<TD align=right>0.02<TD align=right>0.02<TD align=right>0.02</TR>
+<TR><TD>Initial saturation of the soil<TD align=center>m m<sup>-1</sup><TD align=right>0.4<TD align=right>0.4<TD align=right>0.4<TD align=right>0.4<TD align=right>0.4</TR>
+<TR><TD>Baseline interrill erodibility (<i>k<sub>i</sub></i>)<TD align=center>kg s m<sup>-4</sup><TD align=right>1.00E+04<TD align=right>1.20E+05<TD align=right>1.30E+05<TD align=right>1.00E+04<TD align=right>1.30E+05</TR>
+<TR><TD>Baseline rill erodibility (<i>k<sub>r</sub></i>)<TD align=center>s m<sup>-1</sup><TD align=right>0.0002<TD align=right>0.0003<TD align=right>0.0004<TD align=right>0.0002<TD align=right>0.0004</TR>
+<TR><TD>Baseline critical shear<TD align=center>N m<sup>-2</sup><TD align=right>2<TD align=right>2<TD align=right>2<TD align=right>2<TD align=right>2</TR>
+<TR><TD>Hydraulic conductivity <TD align=center>mm h<sup>-1</sup><TD align=right>20<TD align=right>25<TD align=right>30<TD align=right>20<TD align=right>30</TR>
+<TR><TD>Depth of soil layer<TD align=center>mm<TD align=right>300<TD align=right>300<TD align=right>300<TD align=right>300<TD align=right>300</TR>
+<TR><TD>Percentage of sand<TD align=center>%<TD align=right>30<TD align=right>30<TD align=right>60<TD align=right>30<TD align=right>60</TR>
+<TR><TD>Percentage of clay<TD align=center>%<TD align=right>30<TD align=right>15<TD align=right>5<TD align=right>30<TD align=right>5</TR>
+<TR><TD>Organic matter (by volume)<TD align=center>%<TD align=right>8<TD align=right>8<TD align=right>8<TD align=right>8<TD align=right>8</TR>
+<TR><TD>Cation exchange capacity<TD align=center>Meq/100&nbsp;g <TD align=right>27<TD align=right>14<TD align=right>5<TD align=right>27<TD align=right>5</TR>
+<TR><TD>Rock fragments (by volume)<TD align=center>%<TD align=right>20<TD align=right>10<TD align=right>20<TD align=right>20<TD align=right>20</TR>
+<CAPTION valign=bottom align=left>Adding gravel to the ditch increases the road critical shear to 10&nbsp;N m<sup>-2</sup></CAPTION>
+<CAPTION valign=bottom align=left>For further details of soil properties see <a href="#Alberts">Alberts et al. 1995</a>.</CAPTION>
+</table>
+</center>
+<hr>
+<a name="apdx2">
+<h3>Appendix 2:  Example of an Extended Output</h3>
+
+Comments are inserted in <font color=purple><b><i>bold italic</i></b></font> typeface<p>
+
+<H3>WEPP output</H3><p>
+
+<font color=purple><b><i>WEPP Version Information</i></B></font><BR>
+<pre><font face=courier>Annual; abbreviated (Metric Units)</font></pre><p>
+
+<blockquote>
+<font color=purple><b><i>"ms" in header means modified source code from Version 98.4;
+FORTRAN source code was modified to eliminate some mathematical problems.
+</i></B></font>
+</blockquote>
+<pre><font face=courier>
+          USDA<font color=red>ms</font> WATER EROSION PREDICTION PROJE
+          -------------------------------------
+
+          HILLSLOPE PROFILE AND WATERSHED MODEL
+                     VERSION    98.400
+          April 20,         1998
+
+
+               TO REPORT PROBLEMS OR TO BE PUT ON THE MAILING
+               LIST FOR FUTURE WEPP MODEL RELEASES, PLEASE CONTACT:
+
+                    WEPP TECHNICAL SUPPORT
+                    USDA-AGRICULTURAL RESEARCH SERVICE
+                    NATIONAL SOIL EROSION RESEARCH LABORATORY
+                    1196 BUILDING SOIL, PURDUE UNIVERSITY
+                    WEST LAFAYETTE, IN 47907-1196  USA
+
+                    PHONE: (765) 494-8673
+                      FAX: (765) 494-5948
+                    email:  wepp@ecn.purdue.edu
+                      URL:  http://soils.ecn.purdue.edu/~wepp/wepp.html   OR
+                      URL:  http://128.46.135.45/~wepp
+
+
+     HILLSLOPE INPUT DATA FILES - VERSION  98.400
+     April 20,         1998
+
+</font></pre>
+<font color=purple><b><i>Input Files built by WEPP:Road based on user specifications</i></B></font>
+<pre><font face=courier>    MANAGEMENT: data\3inslope.man                                 
+ MAN. PRACTICE: Road Section to collect water and then release through      
+                ditch and culvert to a fill and forest for deposition       
+                W. Elliot & H. Rhee 1/99  USDA Forest Service               
+         SLOPE: d:\fswepp\working\wrwepp.slp                      
+       CLIMATE: d:\fswepp\working\wv461570.cli                    
+       Station:  CHARLESTON KAN AP WV                           CLIGEN VERSION  4.30
+          SOIL: data\3silt10.sol                                  
+      PLANE  1 Road                silt loam           
+      PLANE  2 Fill                silt loam           
+      PLANE  3 Forest              silt loam           
+
+</font></pre>
+<font color=purple><b><i>Total and Average Annual summaries of Precipitation and Runoff</i></B></font>
+<pre><font face=courier>
+     ANNUAL AVERAGE SUMMARIES
+     ------------------------
+
+
+I.   RAINFALL AND RUNOFF SUMMARY
+     -------- --- ------ -------
+
+      total summary:  years    1 -   30
+
+      4471 storms produced                        33027.55 mm of precipitation
+      1240 rain storm runoff events produced        395.01 mm of runoff
+       342 snow melts and/or
+             events during winter produced           95.55 mm of runoff
+
+      annual averages
+      ---------------
+
+        Number of years                                   30
+        Mean annual precipitation                    1100.92    mm
+        Mean annual runoff from rainfall               13.17    mm
+        Mean annual runoff from snow melt
+          and/or rain storm during winter               3.19    mm
+
+</font></pre>
+<font color=purple><b><i>Total and Average Annual summaries of Distribution of Erosion and Deposition
+</i></B></font>
+<pre><font face=courier>
+II.  ON SITE EFFECTS  ON SITE EFFECTS  ON SITE EFFECTS
+     ---------------  ---------------  ---------------
+
+
+  A.  AREA OF NET SOIL LOSS
+
+      ** Soil Loss (Avg. of Net Detachment Areas) =    3.550 kg/m2 **
+      ** Maximum Soil Loss  =   48.188 kg/m2 at   60.30 meters **
+
+
+      Area of    Soil Loss   Soil Loss   MAX   MAX Loss   MIN   MIN Loss
+      Net Loss      MEAN      STDEV      Loss    Point    Loss   Point
+        (m)       (kg/m2)     (kg/m2)  (kg/m2)    (m)    (kg/m2)  (m)
+------------------------------------------------------------------------
+    .00-  65.00    3.593    21.031     48.188   60.30     1.016     2.40
+  95.40-  96.20     .020      .009       .027   95.80      .013    96.20
+
+  B.  AREA OF SOIL DEPOSITION
+
+      ** Soil Deposition (Avg. of Net Deposition Areas) =    -4.831 kg/m2 **
+      ** Maximum Soil Deposition  =   -18.442 kg/m2 at   73.40 meters **
+
+      Area of    Soil Dep   Soil Dep     MAX    MAX Dep   MIN   MIN Dep
+      Net Dep       MEAN     STDEV       Dep     Point    Dep    Point
+        (m)       (kg/m2)    (kg/m2)   (kg/m2)    (m)    (kg/m2)  (m)
+------------------------------------------------------------------------
+  65.00-  95.40   -6.052     5.350    -18.442   73.40     -.033    95.40
+  96.20- 105.00    -.612      .616     -2.662  105.00     -.051    96.60
+
+</font></pre>
+<font color=purple><b><i>Distribution of soil loss (positive values) and deposition (negative values) for 300 points along the road (flow elem 1), the fillslope (flow elem 2) and the buffer (flow elem 3).  The distance is the horizontal distance from the start of the road element.
+</i></B></font>
+<pre><font face=courier>
+  C.  SOIL LOSS/DEPOSITION ALONG SLOPE PROFILE
+
+          Profile distances are from top to bottom of hillslope
+
+
+ distance soil  flow    distance   soil  flow    distance   soil  flow
+    (m)   loss  elem       (m)     loss  elem       (m)     loss  elem
+         (kg/m2)                  (kg/m2)                  (kg/m2)
+------------------------------------------------------------------------
+
+    .60        1.  1       60.05        9.  2       65.40        0.  3
+   1.20        1.  1       60.10       19.  2       <font color=red>65.80</font>        0.  3
+   1.80        1.  1       60.15       28.  2       66.20       -2.  3
+   2.40        1.  1       60.20       37.  2       66.60       -4.  3
+   3.00        1.  1       60.25       45.  2       67.00       -7.  3
+   3.60        1.  1       60.30       48.  2       67.40       -9.  3
+   4.20        1.  1       60.35       48.  2       67.80      -10.  3
+   4.80        1.  1       60.40       48.  2       68.20      -16.  3
+   5.40        1.  1       60.45       47.  2       68.60      -15.  3
+   6.00        1.  1       60.50       47.  2       69.00      -14.  3
+   6.60        1.  1       60.55       47.  2       69.40      -13.  3
+   7.20        1.  1       60.60       46.  2       69.80      -14.  3
+   7.80        1.  1       60.65       46.  2       70.20      -14.  3
+   8.40        1.  1       60.70       46.  2       70.60      -15.  3
+   9.00        1.  1       60.75       45.  2       71.00      -15.  3
+   9.60        1.  1       60.80       45.  2       71.40      -15.  3
+  10.20        1.  1       60.85       44.  2       71.80      -15.  3
+  10.80        1.  1       60.90       44.  2       72.20      -15.  3
+  11.40        1.  1       60.95       44.  2       72.60      -17.  3
+  12.00        1.  1       61.00       43.  2       73.00      -17.  3
+  12.60        1.  1       61.05       43.  2       73.40      -18.  3
+  13.20        1.  1       61.10       42.  2       73.80      -15.  3
+  13.80        1.  1       61.15       42.  2       74.20      -11.  3
+  14.40        1.  1       61.20       42.  2       74.60       -9.  3
+  15.00        1.  1       61.25       42.  2       75.00       -9.  3
+  15.60        1.  1       61.30       41.  2       75.40       -7.  3
+  16.20        1.  1       61.35       41.  2       75.80       -7.  3
+  16.80        1.  1       61.40       40.  2       76.20       -7.  3
+  17.40        1.  1       61.45       40.  2       76.60       -8.  3
+  18.00        1.  1       61.50       40.  2       77.00       -6.  3
+  18.60        1.  1       61.55       39.  2       77.40       -7.  3
+  19.20        1.  1       61.60       39.  2       77.80       -7.  3
+  19.80        1.  1       61.65       39.  2       78.20       -7.  3
+  20.40        1.  1       61.70       39.  2       78.60       -7.  3
+  21.00        1.  1       61.75       38.  2       79.00       -7.  3
+  21.60        1.  1       61.80       38.  2       79.40       -6.  3
+  22.20        1.  1       61.85       38.  2       79.80       -6.  3
+  22.80        1.  1       61.90       37.  2       80.20       -5.  3
+  23.40        1.  1       61.95       36.  2       80.60       -4.  3
+  24.00        1.  1       62.00       37.  2       81.00       -4.  3
+  24.60        1.  1       62.05       36.  2       81.40       -4.  3
+  25.20        1.  1       62.10       36.  2       81.80       -6.  3
+  25.80        1.  1       62.15       35.  2       82.20       -7.  3
+  26.40        1.  1       62.20       35.  2       82.60       -5.  3
+  27.00        1.  1       62.25       34.  2       83.00       -5.  3
+  27.60        1.  1       62.30       34.  2       83.40       -4.  3
+  28.20        1.  1       62.35       34.  2       83.80       -4.  3
+  28.80        1.  1       62.40       33.  2       84.20       -3.  3
+  29.40        1.  1       62.45       33.  2       84.60       -2.  3
+  30.00        1.  1       62.50       33.  2       85.00       -2.  3
+  30.60        1.  1       62.55       33.  2       85.40       -2.  3
+  31.20        1.  1       62.60       32.  2       85.80       -2.  3
+  31.80        1.  1       62.65       32.  2       86.20       -2.  3
+  32.40        1.  1       62.70       32.  2       86.60       -2.  3
+  33.00        1.  1       62.75       31.  2       87.00       -2.  3
+  33.60        1.  1       62.80       30.  2       87.40       -2.  3
+  34.20        1.  1       62.85       30.  2       87.80       -2.  3
+  34.80        1.  1       62.90       29.  2       88.20       -2.  3
+  35.40        1.  1       62.95       29.  2       88.60       -2.  3
+  36.00        1.  1       63.00       29.  2       89.00       -2.  3
+  36.60        1.  1       63.05       28.  2       89.40       -2.  3
+  37.20        1.  1       63.10       28.  2       89.80       -2.  3
+  37.80        1.  1       63.15       28.  2       <font color=red>90.20</font>       -2.  3
+</font></pre>
+<font color=purple><b><i>Length of observed deposition is likely to be from 65 m to 90. m, which is about 25 m.  A "soil loss" value of -1. represents a deposition rate of 1 kg/sq m, which is about 1 mm in depth.  It is unlikely that this small amount of deposition would be discernable in a forest.</i></B></font>
+<pre><font face=courier>
+  38.40        1.  1       63.20       28.  2       90.60       <font color=red>-1.</font>  3
+  39.00        1.  1       63.25       28.  2       91.00        0.  3
+  39.60        1.  1       63.30       27.  2       91.40       -1.  3
+  40.20        1.  1       63.35       27.  2       91.80       -1.  3
+  40.80        1.  1       63.40       27.  2       92.20       -1.  3
+  41.40        1.  1       63.45       26.  2       92.60       -1.  3
+  42.00        1.  1       63.50       26.  2       93.00       -1.  3
+  42.60        1.  1       63.55       25.  2       93.40       -1.  3
+  43.20        1.  1       63.60       25.  2       93.80       -1.  3
+  43.80        1.  1       63.65       25.  2       94.20       -1.  3
+  44.40        1.  1       63.70       25.  2       94.60        0.  3
+  45.00        1.  1       63.75       24.  2       95.00        0.  3
+  45.60        1.  1       63.80       24.  2       95.40        0.  3
+  46.20        1.  1       63.85       23.  2       95.80        0.  3
+  46.80        2.  1       63.90       23.  2       96.20        0.  3
+  47.40        2.  1       63.95       21.  2       96.60        0.  3
+  48.00        2.  1       64.00       22.  2       97.00        0.  3
+  48.60        2.  1       64.05       21.  2       97.40        0.  3
+  49.20        2.  1       64.10       21.  2       97.80        0.  3
+  49.80        2.  1       64.15       21.  2       98.20        0.  3
+  50.40        2.  1       64.20       20.  2       98.60        0.  3
+  51.00        2.  1       64.25       20.  2       99.00       -1.  3
+  51.60        2.  1       64.30       20.  2       99.40        0.  3
+  52.20        2.  1       64.35       19.  2       99.80        0.  3
+  52.80        2.  1       64.40       20.  2      100.20        0.  3
+  53.40        2.  1       64.45       18.  2      100.60        0.  3
+  54.00        2.  1       64.50       19.  2      101.00        0.  3
+  54.60        2.  1       64.55       17.  2      101.40        0.  3
+  55.20        2.  1       64.60       17.  2      101.80        0.  3
+  55.80        2.  1       64.65       17.  2      102.20        0.  3
+  56.40        2.  1       64.70       17.  2      102.60        0.  3
+  57.00        2.  1       64.75       16.  2      103.00       -1.  3
+  57.60        2.  1       64.80       16.  2      103.40       -1.  3
+  58.20        2.  1       64.85       16.  2      103.80       -1.  3
+  58.80        2.  1       64.90       15.  2      104.20       -1.  3
+  59.40        2.  1       64.95       14.  2      104.60       -2.  3
+  <font color=red>60.00</font>        2.  1       65.00       14.  2      105.00       -3.  3
+</font></pre><font color=purple><b><i>60.00 m is effective length of road element for outsloped unrutted design, and specified length of road element for other designs
+</i></B></font>
+<pre><font face=courier>
+note:  (+) soil loss - detachment     (-) soil loss - deposition
+
+</font></pre>
+<font color=purple><b><i>Summary of sediment yield</i></B></font>
+<pre><font face=courier>III. OFF SITE EFFECTS  OFF SITE EFFECTS  OFF SITE EFFECTS
+     ----------------  ----------------  ----------------
+
+     A.  AVERAGE ANNUAL SEDIMENT LEAVING PROFILE
+            44.221   kg/m of width
+           176.884     kg (based on profile width of      <font color=red>4.000</font>      m)</font></pre>
+<font color=purple><b><i>Effective width of 4.000&nbsp;m for outsloped unrutted design and specified width for other designs</i></B></font>
+<pre><font face=courier>             4.212   t/ha (assuming contributions from      .042     ha)
+
+     B.  SEDIMENT CHARACTERISTICS AND ENRICHMENT
+
+</font></pre>
+<font color=purple><b><i>Summary of size distribution of upland and eroded sediment.</i></B></font>
+<pre><font face=courier>
+     Sediment particle information leaving profile
+-------------------------------------------------------------------------------
+                                 Particle Composition         Detached Fraction
+Class  Diameter  Specific  ---------------------------------  Sediment  In Flow
+         (mm)    Gravity   % Sand   % Silt   % Clay   % O.M.  Fraction  Exiting
+-------------------------------------------------------------------------------
+  1      .002      2.60       .0       .0    100.0     53.3      .039     .043
+  2      .010      2.65       .0    100.0       .0       .0      .280     .299
+  3      .030      1.80       .0     78.6     21.4     11.4      .270     .280
+  4      .300      1.60     60.1     20.8     19.1     10.2      .278     .262
+  5      .200      2.65    100.0       .0       .0       .0      .133     .116
+-------------------------------------------------------------------------------
+</font></pre>
+<font color=purple><b><i>
+Specific Surface Area (SSA) enrichment ratio<br> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    (= Specific surface of upland soil / Specific surface of eroded sediment)
+</i></B></font>
+<pre><font face=courier>
+     Average annual SSA enrichment ratio leaving profile =   1.02
+</font></pre>
+
+<hr>
+<a name="apdx3">
+<H3>Appendix 3: Useful Conversions</H3>
+<p>
+<blockquote>
+<table border=1 cellpadding=5>
+<tr><th bgcolor=85d2d2>Multiply <th bgcolor=85d2d2>	by	<th bgcolor=85d2d2>to get 
+<tr><th>mm (millimeters)<td>0.0394<td>in. (inches)
+<tr><th>m (meters)<td>39.4<td>in. (inches)
+<tr><th>m (meters)<td>3.28<td>ft (feet)
+<tr><th>m<sup>2</sup> (square meters)<td>10.8<td>ft<sup>2</sup> (square feet)
+<tr><th>kg (kilograms)<td>2.2<td>lbs (pounds mass)
+<tr><th>t (metric tonnes)<td>1,000<td>kg (kilograms)
+<tr><th>t (metric tonnes)<td>1.1<td>short tons
+<tr><th>short tons<td>2,000<td>lbs (pounds mass)
+<tr><th>kg&nbsp;m<sup>-2</sup><td>10<td>t ha<sup>-1</sup> (tonnes per hectare)
+<tr><th>kg&nbsp;m<sup>-2</sup><td>4.45<td>short&nbsp;tons per acre
+<tr><th>t ha<sup>-1</sup><td>0.445<td>short&nbsp;tons per acre
+</table>
+</blockquote>
+<p>
+
+<hr>
+<center>
+<a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='WEPP:Road documentation'; return true"></a> 
+</center>
+<hr>
+
+</body>
+</html>
+

@@ -1,0 +1,354 @@
+<html>
+<head>
+<title>FS WEPP Documentation, version 1.000</title>
+<SCRIPT Language="JavaScript">
+<!--  this is pgs comment
+function popup(url,which) {
+ width = screen.width-50;
+ // width=640;
+ height=510;
+ popupwindow = window.open(url,which,'toolbar=no,location=no,status=yes,directories=no,menubar=yes,scrollbars=yes,resizable=yes,width='+width+',height='+height);
+ popupwindow.focus()
+}
+// -->
+</SCRIPT>
+</head>
+<body bgcolor=white text="black" link="1603F3" vlink="160A8C">
+<font face="Arial, Geneva, Helvetica">
+<a name="topofpage"></a>
+
+<table width=93%>
+<tr><td valign=top><a href="/fswepp/"><img src="images/fsweppic2.jpg" width=60 height=60 border=0></A>
+    <th align=right>
+    <h2><font color=red>FS WEPP</font><BR>
+    <font color=red>F</font>orest
+    <font color=red>S</font>ervice Interfaces for the<BR>
+    <font color=red>W</font>ater
+    <font color=red>E</font>rosion
+    <font color=red>P</font>rediction
+    <font color=red>P</font>roject<BR>
+    Computer Model</h2>
+</table>
+
+<table width=93%>
+  <tr><th align=right>
+   William J. Elliot, Project Leader<BR>
+   David E. Hall, Computer Programmer/Analyst<BR>
+   Dayna L. Scheele, Civil Engineer<BR>
+  <hr width=20% align=right>
+   U.S.D.A. Forest Service<br>
+   Rocky Mountain Research Station and<br>
+   San Dimas Technology and Development Center
+  <hr width=20% align=right>
+  October 1999
+</table>
+
+<p>
+<center>
+<hr width=90%>
+[  <a href="#intro" target="_top">Introduction</a>
+|  <a href="#xd" target="_top">X-DRAIN</a>
+|  <a href="#wr">WEPP:Road</a>
+|  <a href="#rc">Rock:Clime</a>
+|  <a href="#wepp">WEPP</a>
+|  <a href="#availability">Availability</a>
+]
+<hr width=90%>
+</center>
+
+<p>
+<a name="intro"></a>
+<h3><a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0" alt="Return to top"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='FS WEPP documentation'; return true"></a>
+Introduction</h3>
+
+FS WEPP is a set of interfaces designed to allow users to quickly evaluate erosion and sediment delivery 
+potential from forest roads.  
+
+The erosion rates and sediment delivery are predicted by the Water Erosion Prediction Project (WEPP) model, 
+using input values for forest conditions developed by scientists at the Rocky Mountain Research Station.  
+
+<p>
+The initial FS WEPP screen (<a href="#fig1">Figure 1</a>) provides users with the option to select 
+the X-DRAIN program, 
+the WEPP:Road program, or
+the weather data generator, Rock:Clime.
+
+<a name="fig1"></a>
+<p>
+<center><img src="images/d-fsinitial.gif"><p><b>Figure 1.</b> <i>FS WEPP Initial Screen</i></center>
+<p>
+The accuracy of the predicted values from X-DRAIN and WEPP:Road are, at best, within plus or minus fifty percent.
+True erosion rates are highly variable due to large variations in local topography, climate, soil properties, 
+and vegetative properties, so predicted values are only a single estimate of a highly variable process.
+<p>
+<a name="xd"></a>
+<h3><a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0" alt="Return to top"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='FS WEPP documentation'; return true"></a>
+X-DRAIN</h3>
+
+The Cross Drain program, or X-DRAIN, is a simple interface to access the predicted sediment yields from about 130,000 WEPP runs.
+
+X-DRAIN is based on three overland flow elements consisting of a road, a fill slope, and a forested buffer.
+
+<a name="fig2"></a>
+<p>
+<center><img src="images/template.gif"><p><b>Figure 2.</b> <i>Template for X-DRAIN Program</i></center>
+<p>
+With X-DRAIN, the user selects from one of 82 climates, one of five soils, one of four buffer slope steepness values,
+and one of five buffer lengths on the input screen (<a href="#fig3">Figure 3</a>).
+
+The sediment yield from the buffer is then presented on the results screen for 20 different sets of road gradient and 
+cross drain spacing values (<a href="#fig4">Figure 4</a>).
+
+For example, in <a href="#fig4">Figure 4</a>, the sediment yield is 167 kg for a 60-m long road with a 4% gradient.  
+<p>
+<a name="fig3"></a>
+<p>
+<center><img src="images/d-xdin.gif"><p><b>Figure 3.</b> <i>X-DRAIN Input Screen</i></center>
+<p>
+<a name="fig4"></a>
+<p>
+<center><img src="images/d-xdout.gif"><p><b>Figure 4.</b>  <i>X-DRAIN Results Screen</i></center>
+<p>
+X-DRAIN is useful for determining sediment yields for typical road networks to aid in road design, 
+watershed sediment analysis, and road closure activities.  
+
+It can also be applied to log landings, parking lots, and compacted trails from skidding or recreation.
+
+
+<a name="wr"></a>
+<h3><a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0" alt="Return to top"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='FS WEPP documentation'; return true"></a>
+WEPP:Road</h3>
+
+X-DRAIN is useful for making rapid assessment of the sediment potential from a road network.  
+
+In some cases, greater site details are known, or the input options offered by X-DRAIN are not adequate.
+
+For these conditions, the WEPP:Road interface was developed.
+
+Like X-DRAIN, it describes the conditions shown in <a href="#fig2">Figure 2</a>, and has an input and a results screen.
+<p>
+On the WEPP:Road input screen, the user can select from the short list of climates, but will likely prefer 
+to generate a custom climate with the Rock:Clime interface to the CLIGEN weather generator.  
+
+After a climate is selected, the user can select a soil, specify the road surface condition, and specify 
+the road and buffer topographic features for slope steepnesses ranging from near zero to 100 percent, 
+and lengths ranging from 1 m to 300 m.  
+
+The user can specify the number of years of run.  
+
+At least 30 years are recommended, and 50 to 100 years is preferable for climates with rainfall below 500 mm.
+
+Users must also specify the road design, select the appropriate road width and specify the presence of gravel.  
+
+<a name="fig5"></a>
+<p>
+<center><img src="images/d-wrin.gif"><p><b>Figure 5.</b> <i>WEPP:Road Input Screen</i></center>
+<p>
+The output from WEPP:Road presents not only the amount of sediment delivered from the forest buffer to a stream, 
+but also the average precipitation, the runoff, and the amount of sediment leaving the eroding portion of the road prism.  
+
+For example <a href="#fig6">Figure 6</a> shows that for the specified conditions, the average annual values are: 
+precipitation, 640 mm;
+total runoff, 0 mm; 
+sediment leaving the road, 192 kg; and 
+sediment delivered to the stream some 40 m below the road, 4 kg.
+
+<a name"fig6"></a>
+<p>
+<center><img src="images/d-wrout.gif"><p><b>Figure 6.</b> <i>WEPP:Road Results screen</i></center>
+<p>
+The results from numerous runs of WEPP:Road can be added to a log file (<a href="#fig7">Figure 7</a>) for saving or printing.  
+
+For example, <a href="#fig7">Figure 7</a> shows that for the given segment of road, gravelling reduces road erosion by 63 percent 
+and sediment delivery by 56 percent.
+
+Outsloping the road without rutting reduces road erosion by 42 percent and eliminates all sediment delivery.
+
+<a name="fig7"></a>
+<p>
+<center><img src="images/d-wrlog.gif"><p><b>Figure 7.</b> <i>Example of WEPP:Road log file</i></center>
+<p>
+
+<a name="rc"></a>
+<h3><a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0" alt="Return to top"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='FS WEPP documentation'; return true"></a>
+Rock:Clime</h3>
+
+The Rock:Clime interface has been developed for the USDA Agricultural Research Service (ARS) 
+CLIGEN climate generator.
+
+More than 2,000 climates from all 50 states, Puerto Rico, and the Pacific Islands are available.
+
+Rock:Clime allows the user to select climates from the database to run WEPP:Road.  
+<p>
+Rock:Clime can be accessed either from WEPP:Road or from the FS WEPP initial screen.
+
+If it is accessed from the FS WEPP initial screen, a generated climate can be saved to any 
+directory on the user's local computer.
+<p>
+If Rock:Clime is accessed from within WEPP:Road (<a href="#fig8">Figure 8.<a/>), the selected climate is added to the user's 'personal' climate list.
+Each user can have up to five personal climates at any time.
+
+<a name="fig8"></a>
+<p>
+<center><img src="images/d-rcwrin.gif"><p><b>Figure 9.</b> <i>Rock:Clime initial screen as called from WEPP:Road</i></center>
+<p>
+
+<a name="wepp"></a>
+<h3><a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0" alt="Return to top"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='FS WEPP documentation'; return true"></a>
+Description of WEPP</h3>
+<p>
+The Water Erosion Prediction Project (WEPP) soil erosion model is being developed by an interagency group of 
+scientists including the USDA's Forest Service, Agricultural Research Service, and Natural Resources Conservation Service,
+and the Department of Interior's Bureau of Land Management and Geological Survey.
+
+Scientists from these agencies throughout the United States have been working since 1985 to develop WEPP to replace
+the Universal Soil Loss Equation (USLE).
+<p>
+The WEPP model is a complex computer program that describes the processes that lead to erosion.
+
+These processes include infiltration and runoff; soil detachment, transport, and deposition; and plant growth, 
+senescence, and residue decomposition.
+
+For each day of simulation, WEPP calculates the soil water content in multiple layers and plant growth/decomposition.  
+
+The effects of tillage processes and soil consolidation are also modeled.
+<p>
+WEPP can be run from an MS DOS set of input screens or from a Windows interface currently under development.  
+
+In both versions, a set of file builders assists the user in building or altering input files which can 
+include up to 400 input variables for a single run.
+
+<a name="weppver"></a>
+<h4><a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0" alt="Return to top"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='FS WEPP documentation'; return true"></a>
+Topographic Versions</h4>
+<p>
+The WEPP model is available in two versions.  
+
+The base model is a hillslope version that predicts soil erosion from a single hillslope profile of any length.
+
+The hillslope can have a complex shape, and can include numerous soils and crops along the hillslope.
+
+Each unique combination of soil and vegetation is considered an overland flow element (OFE)
+(<a href="#fig9">Figure 9</a>).
+
+This feature of WEPP allows modeling the three-element scenario, consisting of a road, a fillslope,
+and a forest for the X-DRAIN and WEPP:Road programs.
+
+<a name="fig9"></a>
+<p>
+<center><img src="images/ofe.gif"><br><b>Figure 9.</b> <i>Overland flow elements<p></i></center>
+<p>
+The watershed version links hillslope elements of specified widths together with channel and impoundment elements.  
+<p>
+WEPP will model basins that have a single storm basin-wide, and where upland, rather than channel, 
+processes dominate sediment yields.  
+
+For conditions where the climate is not uniform throughout the basin, or where channel sediment processes dominate 
+the sediment budget, WEPP is not the appropriate model.
+<p>
+
+<a name="input"></a>
+<h4><a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0" alt="Return to top"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='FS WEPP documentation'; return true"></a>
+Input Files</h4>
+
+The hillslope version contains four input files.  
+
+A daily climate file includes the description of daily precipitation, temperatures, radiation and wind.  
+
+The CLIGEN weather generator is distributed with the WEPP model to generate typical weather sequences 
+for non-mountainous terrain from a database of almost 2,000 weather station records.  
+<p>
+The slope file contains two or more sets of points describing the slope at intervals along the profile.
+
+The soil file can contain up to 10 layers of soil describing the texture and other physical properties of the soil.
+
+The most critical inputs are the erodibility and hydraulic conductivity of the surface layer.  
+<p>
+The management file contains descriptions of each of the plant communities and descriptions of each of the 
+tillage systems employed.  
+
+The file also contains the surface condition at the start of the simulation.
+
+<h4><a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0" alt="Return to top"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='FS WEPP documentation'; return true"></a>
+Forest Applications</h4>
+<p>
+In forests, the majority of sediment comes from forest roads, and in some conditions, 
+from skid trails or burned areas.
+
+Our research is ongoing to improve erosion prediction in forests.
+
+A set of typical templates for the MS DOS version of WEPP for forested areas and roads
+is available for the hillslope version from our Internet site.  
+
+Templates to accompany the Windows interface are under development.
+
+<a name="availability"></a>
+<h3><a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0" alt="Return to top"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='FS WEPP documentation'; return true"></a>
+Availability</h3>
+
+In addition to the stand-alone FS WEPP interfaces, the FS WEPP interfaces are also available 
+for running over the Internet via the World Wide Web.
+
+The Forest Service Intranet site and can be accessed by anyone
+within the Forest Service network and by some other federal agencies,
+and typically will be faster for users within the Forest Service
+than will the Internet site.
+<p>
+FS WEPP Internet site for all users:  
+<ul><li><a href="http://forest.moscowfsl.wsu.edu/fswepp/">http://forest.moscowfsl.wsu.edu/fswepp/</a></ul>
+
+FS WEPP Intranet site for Forest Service users:
+<ul><li><a href="http://fsweb.moscow.rmrs.fs.fed.us/fswepp/">http://fsweb.moscow.rmrs.fs.fed.us/fswepp/</a></ul>
+
+The network interfaces are constantly being improved, and potential users are encouraged to visit the FS WEPP 
+sites whenever faced with a sedimentation problem to evaluate the usability of the site for each problem.  
+
+Improved versions or upgrades of the stand-alone FS WEPP program will be announced on the web sites as they are 
+made available.
+<p>
+Users are also encouraged to 
+<a href="http://localhost/fswepp/comments.html">send comments</a>
+to the FS WEPP team to be kept apprised of updates.  
+
+We encourage all users to have an input into the development of more
+user-friendly interfaces.
+<p>
+For more information contact
+<pre>
+    W. Elliot, Project Leader
+    Rocky Mountain Research Station
+    Moscow Forestry Sciences Laboratory
+    (208) 883-2338
+    <a href="mailto://welliot@fs.fed.us">welliot@fs.fed.us</a>
+    <a href="http://forest.moscowfsl.wsu.edu/engr/">http://forest.moscowfsl.wsu.edu/engr/</a>
+</pre>
+</body>
+</html>
+

@@ -1,0 +1,1275 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 9">
+<meta name=Originator content="Microsoft Word 9">
+<link rel=File-List href="./0409_Draft_Watershed_Chapter__files/filelist.xml">
+<link rel=Edit-Time-Data
+href="./0409_Draft_Watershed_Chapter__files/editdata.mso">
+<link rel=OLE-Object-Data
+href="./0409_Draft_Watershed_Chapter__files/oledata.mso">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]-->
+<title>Watershed Analysis for Fuel Management Operations</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Subject>WEPP FumE; Fuel Management</o:Subject>
+  <o:Author>William J. Elliot</o:Author>
+  <o:Keywords>FumE, WEPP</o:Keywords>
+  <o:Description>Draft chapter, September 22, 2004</o:Description>
+  <o:LastAuthor>FSDefaultUser</o:LastAuthor>
+  <o:Revision>3</o:Revision>
+  <o:TotalTime>38</o:TotalTime>
+  <o:LastPrinted>2004-09-23T00:31:00Z</o:LastPrinted>
+  <o:Created>2004-11-19T19:43:00Z</o:Created>
+  <o:LastSaved>2004-11-19T19:44:00Z</o:LastSaved>
+  <o:Pages>10</o:Pages>
+  <o:Words>3599</o:Words>
+  <o:Characters>20518</o:Characters>
+  <o:Company>USDA Forest Service</o:Company>
+  <o:Lines>170</o:Lines>
+  <o:Paragraphs>41</o:Paragraphs>
+  <o:CharactersWithSpaces>25197</o:CharactersWithSpaces>
+  <o:Version>9.3821</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:DrawingGridHorizontalSpacing>6 pt</w:DrawingGridHorizontalSpacing>
+  <w:DisplayHorizontalDrawingGridEvery>2</w:DisplayHorizontalDrawingGridEvery>
+  <w:DisplayVerticalDrawingGridEvery>2</w:DisplayVerticalDrawingGridEvery>
+ </w:WordDocument>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:553679495 -2147483648 8 0 66047 0;}
+ /* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+h1
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:1;
+	font-size:14.0pt;
+	mso-bidi-font-size:16.0pt;
+	font-family:Arial;
+	mso-font-kerning:16.0pt;}
+h2
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:2;
+	font-size:12.0pt;
+	mso-bidi-font-size:14.0pt;
+	font-family:Arial;
+	mso-bidi-font-style:italic;}
+h3
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:3;
+	font-size:12.0pt;
+	mso-bidi-font-size:13.0pt;
+	font-family:Arial;
+	font-weight:normal;
+	mso-bidi-font-weight:bold;
+	font-style:italic;
+	mso-bidi-font-style:normal;}
+h4
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:4;
+	font-size:14.0pt;
+	font-family:"Times New Roman";}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	tab-stops:center 3.0in right 6.0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	tab-stops:center 3.0in right 6.0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:#606420;
+	text-decoration:underline;
+	text-underline:single;}
+p.Reference, li.Reference, div.Reference
+	{mso-style-name:Reference;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	text-indent:-.5in;
+	mso-pagination:lines-together;
+	mso-list:l1 level1 lfo2;
+	tab-stops:list .5in;
+	mso-layout-grid-align:none;
+	text-autospace:none;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	color:black;}
+p.Button, li.Button, div.Button
+	{mso-style-name:Button;
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:Arial;
+	mso-fareast-font-family:"Times New Roman";
+	border:solid windowtext .5pt;
+	padding:0in;}
+span.ButtonChar
+	{mso-style-name:"Button Char";
+	mso-ascii-font-family:Arial;
+	mso-hansi-font-family:Arial;
+	mso-bidi-font-family:Arial;
+	border:solid windowtext .5pt;
+	padding:0in;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;
+	mso-bidi-language:AR-SA;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:.5in 60.0pt .75in 60.0pt;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-footer:url("./0409_Draft_Watershed_Chapter__files/header.htm") f1;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+@list l0
+	{mso-list-id:841166619;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1960762670 1435251312 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l0:level1
+	{mso-level-tab-stop:.75in;
+	mso-level-number-position:left;
+	margin-left:.75in;
+	text-indent:-.25in;}
+@list l1
+	{mso-list-id:1020932922;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1874666220 -944608238 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l1:level1
+	{mso-level-style-link:Reference;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.5in;
+	mso-ansi-font-weight:bold;
+	mso-ansi-font-style:normal;}
+@list l2
+	{mso-list-id:1687172332;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-746945798 -1933027226 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l2:level1
+	{mso-level-number-format:roman-upper;
+	mso-level-tab-stop:.75in;
+	mso-level-number-position:left;
+	margin-left:.75in;
+	text-indent:-.5in;}
+@list l2:level2
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level3
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:1.5in;
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="2050"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=EN-US link=blue vlink="#606420" style='tab-interval:.5in'>
+
+<div class=Section1>
+
+<h1>Watershed Analysis for Fuel Management Operations</h1>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal>William J. Elliot, David E. Hall, Elena Velasquez</p>
+
+<p class=MsoNormal>USDA Forest Service, Rocky Mountain Research Station</p>
+
+<p class=MsoNormal>Draft September 22, 2004 (November 2004 DEH)</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal>This chapter discusses the main components for completing a
+watershed analysis to support fuel management activities.<span
+style="mso-spacerun: yes">  </span>The main tool is the Water Erosion
+Prediction Project Fuel Management Tool (WEPP FuMe).<span style="mso-spacerun:
+yes">  </span>Other tools will be discussed that provide more detailed
+analysis.</p>
+
+<h2>Introduction</h2>
+
+<p class=MsoNormal>One of the main products of many forests is surface
+water.<span style="mso-spacerun: yes">  </span>The main pollutant in most
+forest streams is sediment.<span style="mso-spacerun: yes">  </span>Upland
+management disturbances including fuel management activities and forest roads
+can cause erosion, leading to increased stream sedimentation and reduced water quality.<span
+style="mso-spacerun: yes">  </span>Forest managers need to evaluate the impact
+of most forest activities on stream sedimentation, including fuel
+management.<span style="mso-spacerun: yes">  </span></p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal>A special computer interface has been developed to assist
+with analyzing soil erosion rates associated with fuel management
+activities.<span style="mso-spacerun: yes">  </span>This interface estimates
+background erosion rates, and predicts erosion associated with mechanical
+thinning, prescribed fire, and the road network.<span style="mso-spacerun:
+yes">  </span>The interface uses the Water Erosion Prediction Project (WEPP)
+model to predict sediment yields from hillslopes and road segments to the
+stream network.<span style="mso-spacerun: yes">  </span>The WEPP model is a
+physically-based soil erosion model developed over the past 15 years to predict
+soil erosion and sediment yields for agriculture, rangeland, and forest
+conditions (Laflen et al., 1997).<span style="mso-spacerun: yes">  </span>The
+simple interface has a large database of climates, vegetation files, and forest
+soil properties to support this and other interfaces, including Disturbed WEPP
+for forests, and WEPP:Road for road segment analyses (Elliot, 2004).<span
+style="mso-spacerun: yes">  </span>The soil databases for roads and disturbed
+forested hillslopes are based on rainfall simulation and natural rainfall
+studies carried out over the past 20 years (Elliot and Hall, 1997).</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal>For this application, the WEPP hillslope interface is used
+to model a single strip of hillslope (Figure 1).<span style="mso-spacerun:
+yes">  </span>It is assumed that the sediment generated from this hillslope
+from a number of disturbances will be routed through the watershed.<span
+style="mso-spacerun: yes">  </span>In the year of the disturbance, there is
+likely to be considerable deposition of sediment from the disturbed hillslope
+in the stream network.<span style="mso-spacerun: yes">  </span>This sediment is
+gradually routed through the watershed in subsequent wet years.<span
+style="mso-spacerun: yes">  </span>If the years are dry, there is unlikely to
+be any sediment routed.<span style="mso-spacerun: yes">  </span>As the
+disturbed hillslope recovers, erosion from that hillslope will gradually
+decline.<span style="mso-spacerun: yes">  </span>This application assumes that
+road erosion occurs every year, with the magnitude dependent only on the
+weather during the year.</p>
+
+<h1>Description of the Tool</h1>
+
+<p class=MsoNormal>The WEPP FuMe interface carries out erosion prediction runs
+for seven forest conditions:</p>
+
+<p class=MsoNormal style='margin-left:.75in;text-indent:-.25in;mso-list:l0 level1 lfo3;
+tab-stops:list .75in'><![if !supportLists]>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><![endif]>Undisturbed mature forest</p>
+
+<p class=MsoNormal style='margin-left:.75in;text-indent:-.25in;mso-list:l0 level1 lfo3;
+tab-stops:list .75in'><![if !supportLists]>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><![endif]>Wildfire</p>
+
+<p class=MsoNormal style='margin-left:.75in;text-indent:-.25in;mso-list:l0 level1 lfo3;
+tab-stops:list .75in'><![if !supportLists]>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><![endif]>Prescribed fire</p>
+
+<p class=MsoNormal style='margin-left:.75in;text-indent:-.25in;mso-list:l0 level1 lfo3;
+tab-stops:list .75in'><![if !supportLists]>4.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><![endif]>Thinning</p>
+
+<p class=MsoNormal style='margin-left:.75in;text-indent:-.25in;mso-list:l0 level1 lfo3;
+tab-stops:list .75in'><![if !supportLists]>5.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><![endif]>No traffic roads</p>
+
+<p class=MsoNormal style='margin-left:.75in;text-indent:-.25in;mso-list:l0 level1 lfo3;
+tab-stops:list .75in'><![if !supportLists]>6.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><![endif]>Low traffic roads</p>
+
+<p class=MsoNormal style='margin-left:.75in;text-indent:-.25in;mso-list:l0 level1 lfo3;
+tab-stops:list .75in'><![if !supportLists]>7.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><![endif]>High traffic roads</p>
+
+<p class=MsoNormal>The climate, soil texture, topography, road density,
+wildfire cycle, prescribed fire cycle and thinning cycle are specified by the
+user.<span style="mso-spacerun: yes">  </span></p>
+
+<h2>Mechanics</h2>
+
+<p class=MsoNormal>From the simple online input screen (Figure 2), the input
+data are formatted for the WEPP model for each of the seven runs.<span
+style="mso-spacerun: yes">  </span>The WEPP model is then run on the server for
+each condition.<span style="mso-spacerun: yes">  </span>The results of the runs
+are converted into common units of tons sediment delivered per square mile per
+year and presented in a table with an accompanying summary narrative (Figures 3
+and 4).</p>
+
+<h3>Base Assumptions</h3>
+
+<p class=MsoNormal>The WEPP FuMe interface makes a number of simplifying
+assumptions for the seven runs (Table 1).<span style="mso-spacerun: yes"> 
+</span>If users wish to consider others levels of disturbance than those
+presented in Table 1 for disturbed forests, these runs can be carried out with
+the Disturbed WEPP interface (<a href="http://forest.moscowfsl.wsu.edu/fswepp/">http://forest.moscowfsl.wsu.edu/fswepp/</a>
+).<span style="mso-spacerun: yes">  </span></p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal>For the road analysis, roads may deliver sediment to a
+stream crossing, or may have runoff and sediment diverted across the specified
+buffer before entering a stream.<span style="mso-spacerun: yes">  </span>For
+“No Treatment,” it is assumed that some roads will have no traffic, while
+others have low traffic, so the predicted sediment yield range is from no
+traffic with a buffer to low traffic with no buffer.<span style="mso-spacerun:
+yes">  </span>For the treatment scenario, it is assumed that some of the roads
+will be low traffic and others will have high traffic with gravel.<span
+style="mso-spacerun: yes">  </span>Therefore sediment yields will range from
+the lowest value from low or high traffic with a buffer to the highest value
+from low traffic or high traffic with no buffer.<span style="mso-spacerun:
+yes">  </span>The true road impact will be somewhere between these two
+values.<span style="mso-spacerun: yes">  </span>Users who wish to make a more
+detailed analysis of road sediment generation should use either the WEPP:Road
+or WEPP:Road Batch interface (<a href="http://forest.moscowfsl.wsu.edu/fswepp/">http://forest.moscowfsl.wsu.edu/fswepp/</a>
+).</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<h3>Scope of WEPP FuMe</h3>
+
+<p class=MsoNormal>The WEPP FuMe interface can be used anywhere within the U.S.
+using the existing climate database.<span style="mso-spacerun: yes">  </span>It
+is intended to provide an overview of the sources of sediment on a given fuel
+management site.<span style="mso-spacerun: yes">  </span>Users who want more
+detailed analysis will have to use more complex interfaces available online ( <a
+href="http://forest.moscowfsl.wsu.edu/fswepp/">http://forest.moscowfsl.wsu.edu/fswepp/</a>
+) or standalone windows (USDA, 2004) or GIS interfaces (Renschler, 2004).</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal>Sediment predictions from WEPP FuMe are for surface erosion
+only.<span style="mso-spacerun: yes">  </span>In some watersheds, landslides
+may be a significant source of sediment, and in others, stream channels may be
+sources of sediment.<span style="mso-spacerun: yes">  </span>Users will need to
+obtain estimates for these potential sources of sediment from local
+specialists.</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<h2>Data Input Needs</h2>
+
+<p class=MsoNormal>The WEPP FuMe input screen (Figure 2) has several input
+fields for climate, soil, road density and length of simulation, hillslope and
+buffer lengths, hillslope steepness, and frequencies of wildfire and proposed
+treatments.<span style="mso-spacerun: yes">  </span></p>
+
+<h3>Selecting a Climate</h3>
+
+<p class=MsoNormal>In order to select a climate for a given site, the user
+should click the <span class=ButtonChar><span style='font-size:10.0pt;
+mso-bidi-font-size:12.0pt;font-family:Arial;border:none'><span
+style='border:none'><span style="mso-spacerun: yes"> </span>Custom Climate </span></span></span><span
+style="mso-spacerun: yes"> </span>button on the input screen.<span
+style="mso-spacerun: yes">  </span>This takes the user to the first screen of
+the Rocky Mountain Research Station Climate Generator (Rock Clime; Elliot,
+2004).<span style="mso-spacerun: yes">  </span>On this screen, they can delete
+unwanted climates from past analyses, or select a state for their study.<span
+style="mso-spacerun: yes">  </span>Once a state is selected, a list of weather
+stations for that state is presented.<span style="mso-spacerun: yes"> 
+</span>The user should select the weather station nearest the site of interest.<span
+style="mso-spacerun: yes">  </span>If the weather station has temperatures and
+precipitation values similar to the site, it can be selected by clicking <span
+style='font-size:10.0pt;font-family:Arial'><span style="mso-spacerun:
+yes"> </span>ADD TO PERSONAL CLIMATES </span><span style="mso-spacerun:
+yes"> </span>.<span style="mso-spacerun: yes">  </span>On many sites, this will
+not be the case because the weather station is in the valley, and the site is higher,
+cooler, and wetter.<span style="mso-spacerun: yes">  </span>In this case, the
+user should click <span style='font-size:10.0pt;font-family:Arial'><span
+style="mso-spacerun: yes"> </span>MODIFY CLIMATE </span><span
+style="mso-spacerun: yes"> </span>.<span style="mso-spacerun: yes">  </span>On
+the Modify Climate screen, the user can enter local monthly precipitation, wet
+day, and temperature values if they are known, or enter the latitude and
+longitude of the site (in degrees and decimal degrees) and click the <b
+style='mso-bidi-font-weight:normal'><span style='font-size:10.0pt'><span
+style="mso-spacerun: yes"> </span>PRISM </span></b><span style="mso-spacerun:
+yes"> </span>button on the upper right of the screen to enter into the PRISM
+precipitation and elevation database (Scheele et al. 2001).<span
+style="mso-spacerun: yes">  </span>This database contains monthly precipitation
+values and average elevations for a grid of approximately 2.5 miles, covering
+the entire U.S.<span style="mso-spacerun: yes">  </span>The user can navigate
+to adjacent cells on the PRISM Precipitation page until the desired cell is
+selected.<span style="mso-spacerun: yes">  </span>Ridges and valleys are
+apparent on this page, and can often aid the user in ensuring that the desired
+elevation and climate are selected.<span style="mso-spacerun: yes"> 
+</span>Once the desired grid is selected, the user clicks <span
+style='font-size:10.0pt;font-family:Arial'><span style="mso-spacerun:
+yes"> </span>Use PRISM Values </span><span style="mso-spacerun:
+yes"> </span>and returns to the Modify Climate screen.<span
+style="mso-spacerun: yes">  </span>On this screen, the user can further alter
+the climate variables if desired.<span style="mso-spacerun: yes">  </span>On the
+bottom of the screen is a box to select “Adjust temperature for elevation by
+lapse rate.”<span style="mso-spacerun: yes">  </span>This should be selected
+unless the user knows that temperature inversions are common in the area of
+interest.<span style="mso-spacerun: yes">  </span>The user should then enter
+the new climate name, click <span class=ButtonChar><span style='font-size:10.0pt;
+font-family:Arial;border:none'><span style='border:none'><span
+style="mso-spacerun: yes"> </span>Use these values </span></span></span><span
+style="mso-spacerun: yes"> </span>and <span class=ButtonChar><span
+style='font-size:10.0pt;mso-bidi-font-size:12.0pt;font-family:Arial;border:
+none'><span style='border:none'><span style="mso-spacerun: yes"> </span>Return
+to input screen </span></span></span><span style="mso-spacerun: yes"> </span>to
+make the climate available for WEPP FuMe.</p>
+
+<h3>Soil</h3>
+
+<p class=MsoNormal>The soil texture field contains four USDA soil
+textures.<span style="mso-spacerun: yes">  </span>Once a texture is selected,
+the appropriate erodibility values for that texture are used for all the soil
+components of the seven runs.<span style="mso-spacerun: yes">  </span>If a user
+wants to see the properties for a given texture, he should go to the WEPP:Road
+or Disturbed WEPP interfaces ( <a href="http://forest.moscowfsl.wsu.edu/fswepp/">http://forest.moscowfsl.wsu.edu/fswepp/</a>
+), select the texture and road or vegetation treatment, and click the <span
+style='font-family:Arial'>[</span><u><span style='font-size:11.0pt;font-family:
+Arial'>Describe</span></u><span style='font-family:Arial'>]</span> button to
+get a list of the assumed soil properties.</p>
+
+<h3>Road Density</h3>
+
+<p class=MsoNormal>The road density is the average miles of road per square
+mile of forest.<span style="mso-spacerun: yes">  </span>Typical values range
+from 2 to 6 or more miles of road per square mile of forest.<span
+style="mso-spacerun: yes">  </span>In some cases, roads may be on ridge
+tops.<span style="mso-spacerun: yes">  </span>Such roads, greater than about
+300 feet from any ephemeral channels, are unlikely to contribute sediment to
+the stream system, and can be ignored in the analysis.<span
+style="mso-spacerun: yes">  </span></p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<h3>Topography</h3>
+
+<p class=MsoNormal>In the topography fields, the user is asked to input values
+for a typical horizontal slope length and steepness.<span style="mso-spacerun:
+yes">  </span>Slope lengths and steepnesses can be obtained from field surveys
+or contour maps.<span style="mso-spacerun: yes">  </span>Users may also have
+access to GIS topographic analysis tools to aid in estimating these values,
+providing average values, or determining a range of topographic values to
+consider.<span style="mso-spacerun: yes">  </span></p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal>The buffer length is included in the overall slope
+length.<span style="mso-spacerun: yes">  </span>For example, a 400-ft long
+slope with a 50-ft buffer would have 350 ft of hillslope thinned and prescribed
+burned with a 50-ft undisturbed buffer.<span style="mso-spacerun: yes"> 
+</span>The entire 400 ft would be burned with a wildfire or be covered with
+undisturbed forest.<span style="mso-spacerun: yes">  </span>The road analysis
+assumes either delivery to a seasonal or perennial stream, or delivery across
+the specified buffer length.<span style="mso-spacerun: yes">  </span>Users may
+wish to evaluate several different buffer widths to determine the optimal width
+for their conditions.<span style="mso-spacerun: yes">  </span>They may also
+wish to evaluate several different slope lengths or steepnesses to evaluate a
+range of conditions and determine which sites are likely to generate more
+sediment.<span style="mso-spacerun: yes">  </span>In some of the wetter
+climates, the buffers may not reduce sediment delivery because they become
+sources of sediment as well.<span style="mso-spacerun: yes">  </span></p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal>The hillslope gradients represent the top of the hill, the
+overall average steepness, and the gradient of the toe of the hill. The top of
+the hill is zero if the area of interest starts at the crest of the hill.<span
+style="mso-spacerun: yes">  </span>It is likely the same as the average hillslope
+gradient if the treated area starts midslope.</p>
+
+<h3>Fire Cycles</h3>
+
+<p class=MsoNormal>The Fire Cycles are the periods between severe wildfire
+occurrence for the forest, and the planned period between prescribed fire
+treatments.<span style="mso-spacerun: yes">  </span>The wildfire cycle will
+likely range from 20 years with low elevation, dry forests, to 200 years with
+high elevation moist forests, to 300 years with very wet forests on the west
+slopes of the Cascades or the Coastal ranges (McDonald et al. 2000).<span
+style="mso-spacerun: yes">  </span>Prescribed fire cycles can vary from 2 to 40
+years, or more, and thinning cycles from 10 to 80 years.</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal>Once all of the input fields have been specified, the user
+should select the number of years for a run, 50 years are recommended, and
+click <span class=ButtonChar><span style='font-size:10.0pt;font-family:Arial;
+border:none'><span style='border:none'><span style="mso-spacerun:
+yes"> </span>Run WEPP </span></span></span>.<span style="mso-spacerun: yes"> 
+</span></p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<h2>Information Output</h2>
+
+<p class=MsoNormal>Once the seven WEPP runs are complete, and the data are
+adjusted to common units, the input and output tables (Figure 3), and narrative
+(Figure 4) are presented on the output page.<span style="mso-spacerun: yes"> 
+</span>The user may wish to print this page, save it, or copy all or part of it
+for pasting into a spreadsheet or word processor.</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal>On the output table, the results from each of the four
+hillslope erosion runs are presented as average annual erosion rates, converted
+to tons/mi<sup>2</sup>.<span style="mso-spacerun: yes">  </span>The erosion
+rates for each of these hillside disturbances are divided by the frequency of
+the disturbances to get an average annual sediment yield expected from a
+watershed.<span style="mso-spacerun: yes">  </span>The three road runs are
+summarized on a low access range (for no traffic and low traffic) and a high
+access range (for low traffic and high traffic with gravel).<span
+style="mso-spacerun: yes">  </span>Road erosion is assumed to occur every year.</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal>The narrative that follows (Figure 4) can serve as a basis
+for the report of the analysis.<span style="mso-spacerun: yes">  </span>Users
+will likely want to carry out several runs and modify the narrative to reflect
+what is learned from those runs within the final report.<span
+style="mso-spacerun: yes">  </span>Users may wish to add a value for sediment
+from landslides or from stream channel erosion to background or treatment
+values. </p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<h1>Example</h1>
+
+<p class=MsoNormal>For this example, a GIS topographic tool (GeoWEPP;
+Renschler, 2004)) was used to estimate the hillslope lengths and steepnesses on
+the burned area of the Sheafman Watershed in Montana.<span style="mso-spacerun:
+yes">  </span>The Six hillslope lengths in the area of interest varied from
+1020 to 2395 ft and steepnesses from 33.7 to 54.9 percent.<span
+style="mso-spacerun: yes">  </span>The average hillslope values of 1730 feet
+long, and 48.3 percent steepness were entered into the WEPP FuMe input
+screen.<span style="mso-spacerun: yes">  </span>The nearest weather station was
+Stevensville, MT, and monthly precipitation values were selected for the
+latitude (46.33 ° N) and longitude (114.28° W) of the site from the PRISM
+database.<span style="mso-spacerun: yes">  </span>The other assumptions can be
+noted on the input tables in Figures 2 and 3.</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal>The predicted sediment yield values for this average
+topography are shown on the output table in Figure 3.<span style="mso-spacerun:
+yes">  </span>The narrative that follows uses the information from the run in
+Figure 3 to present the following discussion.</p>
+
+<h4 style='margin-top:12.0pt;margin-right:.5in;margin-bottom:3.0pt;margin-left:
+.5in'><span style='font-size:10.0pt;font-family:Arial'>Summary of Analysis<o:p></o:p></span></h4>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:.5in;margin-bottom:0in;
+margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:10.0pt;
+font-family:Arial'>The output summary table presents the predicted sediment
+yield rates from seven runs with the WEPP model. The outputs from those runs
+were converted to common units of ton mi<sup>-2</sup> y<sup>-1</sup>. From
+these runs, several key watershed sedimentation values can be determined. <br>
+<br>
+<em><b>Background sedimentation.</b></em> The background sedimentation rate --
+the rate that will occur with no action -- can be estimated either with or
+without roads. In the absence of roads, the background sedimentation rate is
+from wildfire and erosion from an undisturbed forest. This value is the sum of
+lines 1 and 2, or 25.6 + 68.0 = 93.6 ton mi<sup>-2</sup> <br>
+y<sup>-1</sup>. If the existing low traffic road network is included in the
+background sediment rate, then the background rate will be the sum of lines 1,
+2, and 5, or 93.6 + (0.6 to 6.3) = 94.2 to 99.9 ton mi<sup>-2</sup> y<sup>-1</sup>,
+depending on what percent of the road network crosses live water during major
+runoff events. <br>
+<br>
+<em><b>Thinning effects.</b></em> From the summary table, line 4, thinning will
+generate 51.2 tons of sediment the year following thinning, and when averaged
+over the thinning frequency of once in 20 years, will average about 2.6 ton mi<sup>-2</sup>
+y<sup>-1</sup>. This is an increase of about 3 percent above background without
+roads. <br>
+<br>
+In order to carry out the thinning operation, however, traffic on the roads
+will have to be increased to the high traffic level to support the traffic
+associated with an ongoing thinning operation in the watershed. The total
+sediment yield from the watershed will then be the background value plus that
+from thinning and high traffic roads for a total of 93.6 + 96.2 + (1.5 to 7.8)
+= 113.7 to 120 ton mi<sup>-2</sup> y<sup>-1</sup>. This is an increase of 6 to
+31 percent above the background rate, if roads are not considered in the
+background, or 4 to 22 percent if the road network is considered in the
+background rate. <br>
+<br>
+Further comparisons can be made by assuming that thinning will eliminate
+wildfire from the watershed, thus reducing the wildfire sedimentation value, or
+that thinning will lead to a less severe wildfire, and the prescribed fire
+sedimentation rate from line 3 can be substituted for the wildfire erosion rate
+in line 2, reducing the background calculation. <br>
+<br>
+<em><b>Prescribed fire effects.</b></em> From the summary table, line 3,
+prescribed fire will generate 320 ton mi<sup>-2</sup> the year of the prescribed
+fire, or when averaged over the prescribed fire frequency of 20 y, it will
+generate 16.0 ton mi<sup>-2</sup> y<sup>-1</sup>. This is an increase of 19
+percent above background. As there will be no need for heavy traffic to carry
+out the prescribed burn, there is no increase in sedimentation from the road
+network. For a watershed with an active prescribed fire program, the total
+erosion will then be the background rate plus the low traffic road rate and the
+average erosion from prescribed fire, or 93.6 + (0.6 to 6.3) + 16.0 = 110.2 to
+115.9 tons mi<sup>-2</sup> y<sup>-1</sup>, or an increase of 17 to 23 percent
+above background, if roads are not included in the background value. <br>
+<br>
+If the prescribed fire eliminates the risk of wildfire, the background erosion
+rate will need to be set to 25.6 ton mi<sup>-2</sup> y<sup>-1</sup> (line 1 of
+the analysis) for the analysis. Alternatively, the impact of the prescribed
+fire program may be to reduce the intensity of the wildfire, in which case, the
+sedimentation associated with prescribed fire can be substituted for the
+wildfire prediction for the analysis. <br>
+<br>
+<em><b>Combined thinning and prescribed fire effects.</b></em> The combined
+effects of thinning and prescribed fire can be determined by summing up the
+background rate, the thinning rate, the prescribed fire rate, and the high
+traffic road rate. In this case, this leads to a total predicted erosion rate
+of 93.6 + 2.6 + 16.0 + (1.5 to 7.8) = 113.7 to 120 ton mi<sup>-2</sup> y<sup>-1</sup>,
+an increase of 25 to 50 percent above the background erosion rate without
+roads. <br>
+<br>
+If this intensive fuel management scenario can reduce the severity of wildfire
+in the watershed, then the prescribed fire sedimentation value of 320
+ton&nbsp;mi<sup>-2</sup>&nbsp;y<sup>-1</sup> can be substituted for the
+wildfire erosion rate once every 40 years to give an average value of 8 ton mi<sup>-2</sup>
+y<sup>-1</sup> (320 / 40). Using this value to determine the total impact of
+fuel management gives 8 + 28.2 + 16.0 + ( 1.5 to 7.8) = 53.7 to 60 ton mi<sup>-2</sup>
+y<sup>-1</sup>, a decrease of 36 to 43 percent compared to background. <br>
+<br>
+<em><b>Road Impacts.</b></em> The range of values given for road sedimentation
+represent the amount of sediment delivered across the buffer, and the amount
+delivered to a stream crossing. Roads with buffers greater than that specified
+will generate less sediment. The summary table shows that roads generate
+significant amounts of sediment within a watershed, even when traffic is low.
+Road management strategies -- including minimizing rutting, minimizing stream
+crossings, and maximizing the use of buffers between the road and the stream --
+are well established to minimize sedimentation. The WEPP:Road interface can be
+used to evaluate the impacts of some of these improved practices. Another
+alternative to reduce sedimentation from the road network is to reduce the road
+density within the watershed by removing roads that are no longer needed with
+modern timber operations. Watershed managers may wish to offset the increase in
+sediment associated with fuel management with a decrease in sediment from
+improved road management or a reduction in road density.<o:p></o:p></span></p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal>To complete this analysis, the user would most likely
+evaluate different buffer lengths, and consider some other hillside lengths and
+gradients.</p>
+
+<h3>Discussion</h3>
+
+<p class=MsoNormal>For this example, two other runs were carried out for the
+longest and the shortest hillslopes in the treatment area, and the results of
+the three runs are summarized in table 2.<span style="mso-spacerun: yes"> 
+</span>It is apparent that there is a range of sediment yield values from the
+hillslopes, but the slopes are not sufficiently different to make large
+differences in sediment delivery from the road network.<span
+style="mso-spacerun: yes">  </span>In this example the range of wildfire
+erosion rates averaged over 40 years (79 to 98 ton mi<sup>-2</sup> y<sup>-1</sup>)
+can be compared to erosion rates presented by Elliot and Robichaud (2004) from
+the Gallatin National Forest where they observed the equivalent of an average
+of 73 ton mi<sup>-2</sup> y<sup>-1</sup> in the year following the
+wildfire.<span style="mso-spacerun: yes">  </span>Measured rates vary
+considerably depending on the weather the year immediately following the fire,
+but the predicted wildfire values are similar to the observed value.<span
+style="mso-spacerun: yes">  </span>In studies of sediment delivery following
+low severity prescribed fire in Idaho and Montana, Covert et al. (under review)
+reported erosion rates of zero t/sq mile/yr when relatively dry years of 1993,
+1994, and 1995 immediately followed the prescribed fire.<span
+style="mso-spacerun: yes">  </span>After the sites had begun to recover, in the
+wet year of 1996, they reported observed sediment yields up to the equivalent
+of 1 ton mi<sup>-2</sup> y<sup>-1</sup>.<span style="mso-spacerun: yes"> 
+</span></p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<b><span style='font-size:14.0pt;mso-bidi-font-size:16.0pt;font-family:Arial;
+mso-fareast-font-family:"Times New Roman";mso-font-kerning:16.0pt;mso-ansi-language:
+EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA'><br clear=all
+style='page-break-before:always'>
+</span></b>
+
+<h1>References</h1>
+
+<p class=MsoNormal>Covert, S. A., P. R. Robichaud and W. J. Elliot.<span
+style="mso-spacerun: yes">  </span>Under Review.<span style="mso-spacerun:
+yes">  </span>Accuracy assessment of WEPP-Based erosion models for harvested
+and burned forest watersheds.<span style="mso-spacerun: yes">  </span>Rocky
+Mountain Research Station, Moscow, ID.</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal>Elliot, W. J.<span style="mso-spacerun: yes"> 
+</span>2004.<span style="mso-spacerun: yes">  </span>WEPP internet interfaces
+for forest erosion prediction.<span style="mso-spacerun: yes">  </span><i
+style='mso-bidi-font-style:normal'>Jour. of the Amer. Water Res. Assoc</i>.
+40(2):299-309.</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal>Elliot, W. J., and D. E. Hall. 1997.<span
+style="mso-spacerun: yes">  </span>Water Erosion Prediction Project (WEPP)
+forest applications.<span style="mso-spacerun: yes">  </span>General Technical
+Report INT-GTR-365.<span style="mso-spacerun: yes">  </span>Ogden, UT: USDA
+Forest Service, Rocky Mountain Research Station, 11 p.</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal>Elliot, W. J., and P. R. Robichaud.<span
+style="mso-spacerun: yes">  </span>2004.<span style="mso-spacerun: yes"> 
+</span>The effectiveness of postfire mitigation treatments.<span
+style="mso-spacerun: yes">  </span>Presented at the 2004 BAER Training
+Workshop, April 30, 2004, Denver, CO.<span style="mso-spacerun: yes"> 
+</span>Rocky Mountain Research Station, Moscow, ID.</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal>Laflen, J. M., W. J. Elliot, D. C. Flanagan, C. R. Meyer and
+M. A. Nearing.<span style="mso-spacerun: yes">  </span>1997.<span
+style="mso-spacerun: yes">  </span>WEPP–Predicting water erosion using a
+process-based model.<span style="mso-spacerun: yes">  </span><i>Journal of Soil
+and Water Conservation</i> 52(2), 96-102.</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal>McDonald, G. I., A. E. Harvey and J. R. Tonn.<span
+style="mso-spacerun: yes">  </span>2000.<span style="mso-spacerun: yes"> 
+</span>Fire, competition and forest pests: Landscape treatment to sustain
+ecosystem function.<span style="mso-spacerun: yes">  </span>IN Neuenschwander,
+L. F., and K. C. Ryan (eds.). Proceedings from the Joint Fire Science
+Conference and Workshop, Boise, ID. June 15-17, 1999.<span style="mso-spacerun:
+yes">  </span>Online at </p>
+
+<p class=MsoNormal>&lt;<a
+href="http://jfsp.nifc.gov/conferenceproc/T-11McDonaldetal.pdf">http://jfsp.nifc.gov/conferenceproc/T-11McDonaldetal.pdf</a>
+&gt; .<span style="mso-spacerun: yes">  </span>Accessed June, 2004.<span
+style="mso-spacerun: yes">  </span>17 p.</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal>Renschler, C. S.<span style="mso-spacerun: yes"> 
+</span>2004.<span style="mso-spacerun: yes">  </span>The Geo-spatial interface
+for the Water Erosion Prediction Project (GeoWEPP).<span style="mso-spacerun:
+yes">  </span>Online at </p>
+
+<p class=MsoNormal>&lt;<a href="http://www.geog.buffalo.edu/~rensch/geowepp/">http://www.geog.buffalo.edu/~rensch/geowepp/</a>
+&gt;.<span style="mso-spacerun: yes">  </span>Accessed June, 2004.</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal>Scheele, D. L., W. J. Elliot, D. E. Hall, 2001. Enhancements
+to the CLIGEN weather generator for mountainous terrain.<span
+style="mso-spacerun: yes">  </span>Proceedings of the ASAE International
+Symposium on Soil Erosion Research for the 21<sup>st</sup> Century.<span
+style="mso-spacerun: yes">  </span>Honolulu, HI. Jan. 3-5, 2001.<span
+style="mso-spacerun: yes">  </span>St. Joseph, MI:<span style="mso-spacerun:
+yes">  </span>ASAE, 4 p.</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal>USDA ARS National Soil Erosion Research Laboratory.<span
+style="mso-spacerun: yes">  </span>2004.<span style="mso-spacerun: yes"> 
+</span>WEPP Software.<span style="mso-spacerun: yes">  </span>Online at &lt; <a
+href="http://topsoil.nserl.purdue.edu/nserlweb/weppmain/wepp.html">http://topsoil.nserl.purdue.edu/nserlweb/weppmain/wepp.html</a>
+&gt;.<span style="mso-spacerun: yes">  </span>Accessed June, 2004.</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<b><span style='font-size:14.0pt;mso-bidi-font-size:16.0pt;font-family:Arial;
+mso-fareast-font-family:"Times New Roman";mso-font-kerning:16.0pt;mso-ansi-language:
+EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA'><br clear=all
+style='page-break-before:always'>
+</span></b>
+
+<h1>Tables</h1>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal>Table 1.<span style="mso-spacerun: yes">  </span>Main
+assumptions for WEPP FuMe runs</p>
+
+<table border=1 cellspacing=0 cellpadding=0 style='border-collapse:collapse;
+ border:none;mso-border-top-alt:solid windowtext .5pt;mso-border-bottom-alt:
+ solid windowtext .5pt;mso-padding-alt:0in 5.4pt 0in 5.4pt'>
+ <tr>
+  <td width=143 valign=top style='width:107.4pt;border-top:solid windowtext .5pt;
+  border-left:none;border-bottom:solid windowtext .5pt;border-right:none;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Run</p>
+  </td>
+  <td width=495 valign=top style='width:371.4pt;border-top:solid windowtext .5pt;
+  border-left:none;border-bottom:solid windowtext .5pt;border-right:none;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Main Assumptions</p>
+  </td>
+ </tr>
+ <tr>
+  <td width=143 valign=top style='width:107.4pt;border:none;border-bottom:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Undisturbed forest</p>
+  </td>
+  <td width=495 valign=top style='width:371.4pt;border:none;border-bottom:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>“20-yr forest” soil</p>
+  <p class=MsoNormal>Ground Cover 100 percent, including buffer</p>
+  <p class=MsoNormal>All buffer slopes assumed to be half the hillslope
+  steepness</p>
+  </td>
+ </tr>
+ <tr>
+  <td width=143 valign=top style='width:107.4pt;border:none;border-bottom:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Thinned forest</p>
+  </td>
+  <td width=495 valign=top style='width:371.4pt;border:none;border-bottom:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>“5-yr forest” soil</p>
+  <p class=MsoNormal>Ground cover 85% on treated hillslope, 100% on buffer</p>
+  </td>
+ </tr>
+ <tr>
+  <td width=143 valign=top style='width:107.4pt;border:none;border-bottom:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Prescribed fire</p>
+  </td>
+  <td width=495 valign=top style='width:371.4pt;border:none;border-bottom:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>“Low Intensity Fire” soil</p>
+  <p class=MsoNormal>Ground cover 85% on treated hillslope, 100% on buffer</p>
+  </td>
+ </tr>
+ <tr>
+  <td width=143 valign=top style='width:107.4pt;border:none;border-bottom:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Wildfire</p>
+  </td>
+  <td width=495 valign=top style='width:371.4pt;border:none;border-bottom:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>“High Intensity Fire” soil</p>
+  <p class=MsoNormal>Ground cover 30%, no buffer</p>
+  </td>
+ </tr>
+ <tr>
+  <td width=143 valign=top style='width:107.4pt;border:none;border-bottom:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>No traffic road</p>
+  </td>
+  <td width=495 valign=top style='width:371.4pt;border:none;border-bottom:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Gradient = 1/10 of hillside slope, road length = 300 ft,
+  width is 13 ft</p>
+  <p class=MsoNormal>Treatment is insloped vegetated ditch, native surface, no
+  traffic</p>
+  <p class=MsoNormal>Fillslope length is 30 feet, and steepness is twice the
+  hillslope steepness</p>
+  <p class=MsoNormal>Buffer length and steepness as specified</p>
+  </td>
+ </tr>
+ <tr>
+  <td width=143 valign=top style='width:107.4pt;border:none;border-bottom:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Low traffic road</p>
+  </td>
+  <td width=495 valign=top style='width:371.4pt;border:none;border-bottom:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Gradient = 1/10 of hillside slope, road length = 300 ft,
+  width is 13 ft</p>
+  <p class=MsoNormal>Treatment is insloped vegetated ditch, native surface, low
+  traffic</p>
+  <p class=MsoNormal>Fillslope length is 30 feet, and steepness is twice the
+  hillslope steepness</p>
+  <p class=MsoNormal>Buffer length and steepness as specified</p>
+  </td>
+ </tr>
+ <tr>
+  <td width=143 valign=top style='width:107.4pt;border:none;border-bottom:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>High traffic road</p>
+  </td>
+  <td width=495 valign=top style='width:371.4pt;border:none;border-bottom:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Gradient = 1/10 of hillside slope, road length = 300 ft,
+  width is 13 ft</p>
+  <p class=MsoNormal>Treatment is rutted, gravel surface, high traffic</p>
+  <p class=MsoNormal>Fillslope length is 30 feet, and steepness is twice the
+  hillslope steepness</p>
+  <p class=MsoNormal>Buffer length and steepness as specified</p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal>Table 2.<span style="mso-spacerun: yes">  </span>Comparison
+of sediment leaving three different hillslopes in the Sheafman Creek, MT,
+Watershed</p>
+
+<table border=1 cellspacing=0 cellpadding=0 style='border-collapse:collapse;
+ border:none;mso-border-top-alt:solid windowtext 1.0pt;mso-border-bottom-alt:
+ solid windowtext 1.0pt;mso-padding-alt:0in 5.4pt 0in 5.4pt'>
+ <tr>
+  <td width=111 valign=top style='width:83.4pt;border:none;border-top:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+  </td>
+  <td width=176 valign=top style='width:132.0pt;border-top:solid windowtext 1.0pt;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:none;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+  </td>
+  <td width=176 valign=top style='width:132.0pt;border-top:solid windowtext 1.0pt;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:none;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Hillslope</p>
+  </td>
+  <td width=175 valign=top style='width:131.4pt;border-top:solid windowtext 1.0pt;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:none;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=111 valign=top style='width:83.4pt;border:none;border-bottom:solid windowtext .75pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Source</p>
+  </td>
+  <td width=176 valign=top style='width:132.0pt;border:none;border-bottom:solid windowtext .75pt;
+  mso-border-top-alt:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Shortest, 1020 ft,
+  45.8% (t/sq mi/yr)</p>
+  </td>
+  <td width=176 valign=top style='width:132.0pt;border:none;border-bottom:solid windowtext .75pt;
+  mso-border-top-alt:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Average, 1730 ft,
+  48.3% (t/sq mi/yr)</p>
+  </td>
+  <td width=175 valign=top style='width:131.4pt;border:none;border-bottom:solid windowtext .75pt;
+  mso-border-top-alt:solid windowtext 1.0pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Longest, 2395 ft,
+  49.9% (t/sq mi/yr)</p>
+  </td>
+ </tr>
+ <tr>
+  <td width=111 valign=top style='width:83.4pt;border:none;mso-border-top-alt:
+  solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Background</p>
+  </td>
+  <td width=176 valign=top style='width:132.0pt;border:none;mso-border-top-alt:
+  solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>79.4</p>
+  </td>
+  <td width=176 valign=top style='width:132.0pt;border:none;mso-border-top-alt:
+  solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>93.6</p>
+  </td>
+  <td width=175 valign=top style='width:131.4pt;border:none;mso-border-top-alt:
+  solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>98.2</p>
+  </td>
+ </tr>
+ <tr>
+  <td width=111 valign=top style='width:83.4pt;border:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Thinning</p>
+  </td>
+  <td width=176 valign=top style='width:132.0pt;border:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>+ 1.9</p>
+  </td>
+  <td width=176 valign=top style='width:132.0pt;border:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>+ 2.6</p>
+  </td>
+  <td width=175 valign=top style='width:131.4pt;border:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>+ 2.9</p>
+  </td>
+ </tr>
+ <tr>
+  <td width=111 valign=top style='width:83.4pt;border:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Rx Fire</p>
+  </td>
+  <td width=176 valign=top style='width:132.0pt;border:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>+ 14.4</p>
+  </td>
+  <td width=176 valign=top style='width:132.0pt;border:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>+ 16.0</p>
+  </td>
+  <td width=175 valign=top style='width:131.4pt;border:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>+ 17.0</p>
+  </td>
+ </tr>
+ <tr>
+  <td width=111 valign=top style='width:83.4pt;border:none;border-bottom:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Road Network</p>
+  </td>
+  <td width=176 valign=top style='width:132.0pt;border:none;border-bottom:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>0.6 to 6.0</p>
+  </td>
+  <td width=176 valign=top style='width:132.0pt;border:none;border-bottom:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>0.6 to 6.3</p>
+  </td>
+  <td width=175 valign=top style='width:131.4pt;border:none;border-bottom:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>0.6 to 6.5</p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<b><span style='font-size:14.0pt;mso-bidi-font-size:16.0pt;font-family:Arial;
+mso-fareast-font-family:"Times New Roman";mso-font-kerning:16.0pt;mso-ansi-language:
+EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA'><br clear=all
+style='page-break-before:always'>
+</span></b>
+
+<h1>Figures</h1>
+
+<p class=MsoNormal>Figure 1.<span style="mso-spacerun: yes">  </span>Diagram of
+a WEPP FuMe hillslope within a watershed, and relationship of timing and
+magnitude of sediment generation from the hillslope and the watershed</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal>Figure 2.<span style="mso-spacerun: yes">  </span>Main WEPP
+FuMe input screen</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal>Figure 3.<span style="mso-spacerun: yes">  </span>WEPP FuMe
+output table</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal>Figure 4.<span style="mso-spacerun: yes">  </span>Contents
+of WEPP FuMe discussion paragraphs to aid in interpreting the WEPP FuMe output
+table (Figure 3) </p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal align=center style='text-align:center'><!--[if gte vml 1]><v:shapetype
+ id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"
+ path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:339pt;
+ height:339pt' o:ole="">
+ <v:imagedata src="./0409_Draft_Watershed_Chapter__files/image001.emz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=452 height=452
+src="./0409_Draft_Watershed_Chapter__files/image002.gif" v:shapes="_x0000_i1025"><![endif]><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="PowerPoint.Show.8" ShapeID="_x0000_i1025"
+  DrawAspect="Content" ObjectID="_1162369827">
+ </o:OLEObject>
+</xml><![endif]--></p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal>Figure 1.</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<span style='font-size:12.0pt;font-family:"Times New Roman";mso-fareast-font-family:
+"Times New Roman";mso-ansi-language:EN-US;mso-fareast-language:EN-US;
+mso-bidi-language:AR-SA'><br clear=all style='mso-special-character:line-break;
+page-break-before:always'>
+</span>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal><!--[if gte vml 1]><v:shape id="_x0000_i1026" type="#_x0000_t75"
+ style='width:468pt;height:339.75pt'>
+ <v:imagedata src="./0409_Draft_Watershed_Chapter__files/image003.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=624 height=453
+src="./0409_Draft_Watershed_Chapter__files/image004.jpg" v:shapes="_x0000_i1026"><![endif]></p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal>Figure 2.</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal><!--[if gte vml 1]><v:shape id="_x0000_i1027" type="#_x0000_t75"
+ style='width:468pt;height:336pt'>
+ <v:imagedata src="./0409_Draft_Watershed_Chapter__files/image005.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=624 height=448
+src="./0409_Draft_Watershed_Chapter__files/image006.jpg" v:shapes="_x0000_i1027"><![endif]></p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal>Figure 3.</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<span style='font-size:12.0pt;font-family:"Times New Roman";mso-fareast-font-family:
+"Times New Roman";mso-ansi-language:EN-US;mso-fareast-language:EN-US;
+mso-bidi-language:AR-SA'><br clear=all style='mso-special-character:line-break;
+page-break-before:always'>
+</span>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<div style='border:solid windowtext .5pt;padding:1.0pt 4.0pt 1.0pt 4.0pt'>
+
+<h4 style='margin-top:12.0pt;margin-right:132.0pt;margin-bottom:3.0pt;
+margin-left:.5in;border:none;mso-border-alt:solid windowtext .5pt;padding:0in;
+mso-padding-alt:1.0pt 4.0pt 1.0pt 4.0pt'><span style='font-family:Arial'>Summary
+of Analysis</span><span style='font-family:Tahoma'><br>
+</span><br>
+<em><span style='font-size:12.0pt;font-family:Arial;font-weight:normal'>Background
+sedimentation.</span></em><span style='font-size:12.0pt;font-family:Arial'> <o:p></o:p></span></h4>
+
+<h4 style='margin-top:12.0pt;margin-right:132.0pt;margin-bottom:3.0pt;
+margin-left:.5in;text-indent:.5in;border:none;mso-border-alt:solid windowtext .5pt;
+padding:0in;mso-padding-alt:1.0pt 4.0pt 1.0pt 4.0pt'><span style='font-size:
+12.0pt;font-family:Arial;font-weight:normal'>Wildfire + Undisturbed Forests<br>
+<span style='mso-tab-count:1'>            </span>With and without roads</span><span
+style='font-size:12.0pt;font-family:Arial'><br>
+<br>
+</span><em><span style='font-size:12.0pt;font-family:Arial;font-weight:normal'>Thinning
+effects.</span></em><span style='font-size:12.0pt;font-family:Arial'> <br>
+<span style='mso-tab-count:1'>            </span></span><span style='font-size:
+12.0pt;font-family:Arial;font-weight:normal'>With and without roads</span><span
+style='font-size:12.0pt;font-family:Arial'><br>
+</span><span style='font-size:12.0pt;font-family:Arial;font-weight:normal'><span
+style='mso-tab-count:1'>            </span>Impacts on wildfire occurrence or
+severity</span><span style='font-size:12.0pt;font-family:Arial'><br>
+<br>
+</span><em><span style='font-size:12.0pt;font-family:Arial;font-weight:normal'>Prescribed
+fire effects.</span></em><span style='font-size:12.0pt;font-family:Arial'> <br>
+<span style='mso-tab-count:1'>            </span></span><span style='font-size:
+12.0pt;font-family:Arial;font-weight:normal'>Without roads<br>
+<span style='mso-tab-count:1'>            </span>Impacts on wildfire occurrence
+or severity</span><span style='font-size:12.0pt;font-family:Arial'><br>
+<br>
+</span><em><span style='font-size:12.0pt;font-family:Arial;font-weight:normal'>Combined
+thinning and prescribed fire effects.</span></em><span style='font-size:12.0pt;
+font-family:Arial'> <br>
+<span style='mso-tab-count:1'>            </span></span><span style='font-size:
+12.0pt;font-family:Arial;font-weight:normal'>With and without roads</span><span
+style='font-size:12.0pt;font-family:Arial'><br>
+</span><span style='font-size:12.0pt;font-family:Arial;font-weight:normal'><span
+style='mso-tab-count:1'>            </span>Impacts on wildfire occurrence or
+severity</span><span style='font-size:12.0pt;font-family:Arial'><br>
+<br>
+</span><em><span style='font-size:12.0pt;font-family:Arial;font-weight:normal'>Road
+Impacts.</span></em><span style='font-size:12.0pt;font-family:Arial'> <br>
+<span style='mso-tab-count:1'>            </span></span><span style='font-size:
+12.0pt;font-family:Arial;font-weight:normal'>Effects of road design and
+management<br>
+<span style='mso-tab-count:1'>            </span>Benefits of road removal</span><span
+style='font-size:12.0pt;font-family:Arial'><br>
+<br>
+</span><em><span style='font-size:12.0pt;font-family:Arial;font-weight:normal'>Multiple
+Hillslopes.</span></em><span style='font-size:12.0pt;font-family:Arial'> <o:p></o:p></span></h4>
+
+</div>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal>Figure 4.</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+</div>
+
+</body>
+
+</html>

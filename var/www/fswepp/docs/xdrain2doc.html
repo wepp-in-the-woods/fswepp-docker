@@ -1,0 +1,1022 @@
+<html>
+ <head>
+  <title>X-DRAIN Technical Documentation, version 2.000</title>
+  <!-- 2006.05.04 add self.focus() -->
+  <!-- 25-Jul-2002 -->
+  <SCRIPT Language="JavaScript">
+   <!--
+    function popup(url,which) {
+     width = screen.width-50;
+     // width=640;
+     height=510;
+     popupwindow = window.open(url,which,'toolbar=no,location=no,status=yes,directories=no,menubar=yes,scrollbars=yes,resizable=yes,width='+width+',height='+height);
+     popupwindow.focus()
+    }
+   // -->
+  </SCRIPT>
+ </head>
+ <body bgcolor="white" text="black" link="1603F3" vlink="160A8C" onLoad="self.focus()">
+  <font face="Arial, Geneva, Helvetica">
+<a name="topofpage"></a>
+
+   <table width=93%>
+    <tr>
+     <td valign=top>
+      <a href="/fswepp/"><img src="images/fsweppic2.jpg" width=50 height=50 border=0></a>
+      <P>
+      <img src="/fswepp/images/e-drain.gif" width=50 height=50 border=2>
+     </td>
+     <th align=right>
+      <h2>
+       <font color=red>X-DRAIN</font><BR>
+       Cross Drain Spacing<BR>
+       and Sediment Yield Program<BR>
+       Version 2.000
+      </h2>
+      <h3>
+       Technical Documentation
+      </h3>
+     </th>
+    </tr>
+   </table>
+
+   <table width=93%>
+    <tr>
+     <th align=right>
+      William J. Elliot, Project Leader<BR>
+      David E. Hall, Computer Programmer/Analyst<BR>
+      Susan R. Graves, Hydrologist<BR>
+      Dayna L. Scheele, Civil Engineer
+      <hr width=20% align=right>
+      U.S.D.A. Forest Service<br>
+      Rocky Mountain Research Station and<br>
+      San Dimas Technology and Development Center
+      <hr width=20% align=right>
+      October 1999
+     </th>
+    </tr>
+   </table>
+
+<p>
+<center>
+<hr width=90%>
+[  <a href="#introduction" target="_top">Introduction</a>
+|  <a href="#WEPPmodel">The WEPP model</a>
+|  <a href="#methods">Methods and Results</a>
+|  <a href="#applications">Applications</a>
+|  <a href="#examples">Examples</a>
+|  <a href="#availability">Availability</a>
+|  <a href="#operation">Operation</a>
+|  <a href="#appendix">Appendix</a>
+]
+<hr width=90%>
+</center>
+
+<h3>X-DRAIN</h3>
+In a study on forest road erosion, the Water Erosion Prediction Project (WEPP) 
+model was run for more than 130,000 combinations of topography, soil types, and climates.
+
+The sediment yield from each of these results was collated, and stand-alone and network
+interfaces were developed to access the results.
+
+Examples are presented to apply these results to a variety of road conditions to aid in road
+planning and environmental analysis.
+
+<a name="introduction"></a>
+<h3><a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='X-DRAIN 2.000 documentation'; return true"></a>
+Introduction</h3>
+
+X-DRAIN is one in a series of the U.S.D.A. Forest Service's Internet-based 
+computer programs based on the Agricultural Research Service and others'
+<a href="http://forest.moscowfsl.wsu.edu/engr/wepp0.html">Water Erosion Prediction
+Project</a> (WEPP) model.
+<p>
+X-DRAIN is designed to estimate sediment yield from 
+<ul><li>roads, 
+    <li>landings,
+    <li>skid trails, and
+    <li>foot trails</ul> 
+as affected by 
+<ul><li>climate,
+    <li>soil,
+    <li>local topography, and
+    <li>transportation system characteristics.</ul>
+
+<center><table width=75% bgcolor="#f0f0f0" border=1 cellpadding=10>
+<tr><td>
+X-DRAIN can be used to determine optimum cross drain spacing for existing or
+planned roads, and for developing and supporting recommendations concerning road construction,
+reconstruction, realignment, closure, obliteration, or mitigation efforts based on sediment yield.
+</table></center>
+<p>
+
+<font color="green">
+Roads have been identified as the major source of sediment in most
+forest watersheds due to surface erosion or mass failure.</font>
+Practices to control sedimentation from roads are well known, and
+have been incorporated into road design and cross
+drain spacing guides for many years 
+(<a href="JavaScript:popup('xdrainrefs.html#Packer1977','references')"
+  onMouseOver="window.status='Guides for Controlling Sediment from Secondary Logging Roads'; return true"
+  onMouseOut="window.status=''; return true">Packer and Christensen 1977</a>).
+Such guidelines, however, merely provide percentage estimates of sediment
+reduction at best, and their applications are limited
+to the specific soils and climates where they were
+developed. There have been numerous cases in
+recent years where forest planners needed
+sediment yield predictions from a given road, but had limited
+tools for estimating the amount.
+<p>
+One of the most common forest road conditions leading to sedimentation of streams is
+where a forest road experiences erosion between cross drains. 
+
+<center>
+<blockquote>
+<a name="fig1"><img src="images/template.gif"><p><b>Figure 1.</b> <i>Relationship of road, fill slope, forest buffer, and stream for WEPP cross drain sediment yield study</i><p>
+</blockquote>
+</center>
+
+The runoff from the cross
+drain is routed over the fill slope and across a buffer area toward the stream.
+<p>
+
+<center><table width=75% bgcolor="#f0f0f0" border=1 cellpadding=10>
+<tr><td>
+ All insloping, flat, rutted, or outsloping roads can be described by this model.
+</table>
+</center>
+<p>
+Whether the cross drain is a culvert or an open drain will have minimal impact on the sediment delivery.
+<p>
+<font color=green> Outsloping roads generally have an
+equivalent cross drain spacing of about 10 m</font>
+(<a href="JavaScript:popup('xdrainrefs.html#Foltz1996','references')"
+   onMouseOver="window.status='Traffic and No-Traffic on an Aggregate Surfaced Road: Sediment Production Differences'; return true"
+   onMouseOut="window.status=''; return true">Foltz 1996</a>),<sup>a</sup>
+but this soon increases as wheel tracks begin to flatten the road surface,
+and water bars or cross drains are generally recommended on outsloping roads.
+Roads that cross streams or drain directly into streams have buffer width of zero.
+<p>
+
+<p>
+<b>Version 1 <i>vs</i> Version 2.000</b>
+<p>
+Version 1 of X-DRAIN was released in June 1998 by the San Dimas Technology and Development Center
+as a stand-alone program as part of their <em>Water/Road Interaction</em> series.
+At the same time it was also made available to run over the Internet using Forest Service servers.
+
+X-DRAIN version 1 was based on WEPP version 95.7 results.
+<p>
+X-DRAIN version 2.000:
+<ul><li>is based on WEPP version 98.4 with its improved snowmelt routines
+    <li>increases the number of available climates from 33 to 82
+    <li>changes available road lengths
+    <li>provides for zero buffer length
+    <li>uses improved climate data for some climates
+    <li>moves away from the version 1 standalone type of interface;
+        all users will use an Internet browser to access FS WEPP
+</ul>
+<p>
+
+<a name="WEPPmodel"></a>
+<h3><a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='X-DRAIN 2.000 documentation'; return true"></a>
+The WEPP Model</h3>
+The WEPP model 
+(<a href="JavaScript:popup('xdrainrefs.html#Flanagan1995','references')"
+   onMouseOver="window.status='WEPP User Summary'; return true"
+   onMouseOut="window.status=''; return true">Flanagan and Livingston 1995</a>)
+is a physically based soil erosion model that can provide estimates of soil erosion and sediment
+yield considering specific soil, climate, ground cover, and topographic conditions.
+<p>
+It was developed by a group of scientists from such agencies as the U.S. Department
+of Agriculture's Agricultural Research Service (ARS), Forest Service, and Natural Resources
+Conservation Service; and the U.S. Department of Interior's Bureau of Land Management and
+Geological Survey.
+
+<p>
+For every day being modeled, WEPP simulates the daily conditions that impact erosion--
+such as the amount of vegetation canopy, the surface residue, and the soil water content.
+For each day that has a precipitation event, WEPP determines whether the precipitation is 
+rain or snow, and calculates the infiltration and runoff.
+
+If there is runoff, WEPP routes the runoff over the surface, calculating erosion or deposition rates for
+at least 100 points on the hillslope.
+It then calculates the average sediment yield from the hillslope. 
+<p>
+For a run described in 
+<a href="#fig1">figure 1</a>,
+more than 400 input variables are required to describe 
+
+soil, 
+topography, and 
+management (vegetation)
+
+in addition to a daily weather data.
+The model has been validated for numerous conditions including forest roads 
+(<a href="JavaScript:popup('xdrainrefs.html#Elliot1995','references')"
+   onMouseOver="window.status='Validation of the Water Erosion Prediction Project (WEPP) Model for Low-Volume Forest Roads'; return true"
+   onMouseOut="window.status=''; return true">Elliot and others 1995</a>).
+Included with WEPP is a weather generator, 
+CLIGEN,
+along with a database of climate statistics covering the U.S.
+<p>
+
+<a name="methods"></a>
+<h3><a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='X-DRAIN 2.000 documentation'; return true"></a>
+Methods and Results</h3>
+
+<a name="assumptions"></a>
+<h4><a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='X-DRAIN 2.000 documentation'; return true"></a>
+Assumptions</h4>
+
+Because WEPP is process-based, it can be applied to any condition where the necessary input data 
+are known.
+WEPP is difficult to apply, however, because of the substantial quantity of input data required.
+
+To exploit the ability of WEPP to predict sedimentation from roads anywhere in the U.S., and to
+make the results available for field application, more than 130,000 runs of the WEPP model, 
+Version 98.4, were carried out for the road/buffer template described by 
+<a href="#fig1">figure 1</a>.
+
+The WEPP model code was modified to eliminate some floating point mathematical errors, and 
+a program was written to sequentially run all the combinations for a given climate on several
+Forest Service Corporate PCs.
+<p>
+To determine the road surface erosion rate, a 1-m wide nonerodible element was inserted between 
+the road and the fillslope.
+
+The fillslope was 4 m long and 50 percent steepness for all the runs.
+<p>
+For each run, both the erosion rate of the road and the sediment yield from the bottom 
+of the buffer was recorded.
+
+The output files from all runs were inspected to ensure that there were no missing values,
+and that the results were reasonable.
+The results from all the runs were stored by climate in hybrid text/binary files for
+access by the X-DRAIN programs.
+
+<p>
+<a name="climate"></a>
+<h4><a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='X-DRAIN 2.000 documentation'; return true"></a>
+Climate</h4>
+A 
+map of the <a href="ecoreg.html">ecoregions</a> in the U.S.
+was studied, and 
+82 stations
+were selected that covered all of the dominant ecoregions.
+We generated 30-year weather sequences using 
+CLIGEN
+for each of the stations selected.
+A list of the stations can be viewed by clicking the 'Climate' header on the 
+X-DRAIN input screen.
+
+The climates are listed by state in alphabetic order.
+<p>
+Users will generally select the station nearest to their site.
+In mountainous areas, however, a more distant station with a closer match in elevation may be 
+preferred.
+Comparisons between two nearby stations may also be helpful to note the local sensitivity of 
+erosion rates to climates.
+<p>
+Recently, there have been some errors identified in the CLIGEN database.
+These errors are currently in the database distributed by the Agricultural Research Service,
+but they have been corrected for all the climates in the X-DRAIN database.
+<p>
+
+<a name="soiltype"></a>
+<h4><a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='X-DRAIN 2.000 documentation'; return true"></a>
+Soil Type</h4>
+The erosion potential of a given soil depends more on the vegetation cover than on the soil 
+texture.  
+Hence, only three soil types were selected for the X-DRAIN database, plus two additional types 
+for graveled conditions (see
+<a href="#table1">Table 1</a>).
+ <p>
+When gravel is added to either silt loam or clay loam, there are sufficient fines in the gravel 
+to change the soil textural category to a loam.  
+To fully describe each set of soils for WEPP requires 48 
+soil parameter values.
+These values are listed in the 
+<a href="#appendix">Appendix</a>.
+Further details describing these parameters are available in the 
+
+WEPP Technical Documentation (<a href="JavaScript:popup('xdrainrefs.html#Alberts1995','references')"
+   onMouseOver="window.status='Chapter 7. Soil Component'; return true"
+   onMouseOut="window.status=''; return true">Alberts and others 1995</a>).
+
+<p>
+<a name="table1"></a>
+<blockquote>
+<table border=1>
+<tr><caption align=left><b>Table 1.  <i>Categories of Common Forest Soils in relation to cross-drain soils</i>
+<tr><th bgcolor=85d2d2>Soil type<th bgcolor=85d2d2> 	Soil Description<th bgcolor=85d2d2> 	Universal Soil Classification 
+<tr><th>Clay loam<td> 	Native-surface roads on shales and similar decomposing fine-grained sedimentary rock <td>MH, CH 
+<tr><th>Silt loam <td>Ash cap native-surface road; alluvial loess native-surface road<td> 	ML,CL 
+<tr><th>Sandy loam <td>Glacial outwash areas; finer-grained granitics and sand <td>SW, SP, SM, SC 
+<tr><th>Graveled loam <td>Clay and silt loams that have been graveled <td>GC 
+<tr><th>Graveled sand <td>Course-grained granitics, and fine-grained granitics and sandy loams that have been graveled <td>GM 
+</table>
+</blockquote>
+
+<p>
+<a name="gravel"></a>
+<h4><a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='X-DRAIN 2.000 documentation'; return true"></a>
+Gravel Addition</h4>
+<p>
+The addition of gravel has two major impacts on erosion rate.  
+Research has shown that gravel alters the hydraulic conductivity of a soil, 
+and it changes the water flow path length of the road 
+(<a href="JavaScript:popup('xdrainrefs.html#Foltz1995','references')"
+   onMouseOver="window.status='Foltz and Truebe 1995'; return true"
+   onMouseOut="window.status=''; return true">Foltz and Truebe 1995</a>).
+Generally, the addition of gravel increases the porosity and increases the 
+hydraulic conductivity of the road, decreasing the runoff
+(<a href="JavaScript:popup('xdrainrefs.html#Flerchinger1987','references')"
+   onMouseOver="window.status='Flerchinger and Watts 1987'; return true"
+   onMouseOut="window.status=''; return true">Flerchinger and Watts 1987</a>).
+Within the WEPP model, however, gravel is treated as part of the rock content of the soil.
+WEPP reduces the conductivity and porosity of the soil with increasing rock content.
+To offset the impacts of gravel on conductivity, the hydraulic conductivity values shown
+in the <A href="#appendix">appendix</a> have been increased for gravel.  
+In some drier climates, this increase may not have been enough to fully describe
+the effects of gravel.
+On roads where added gravel has been rolled into the base, the adjustment may be too much.  
+<p>
+The impacts of gravel on soil properties, however, are not as important in reducing road
+erosion rates as the impact of gravel on flow path length.
+Gravel reduces the formation of ruts 
+(<a href="JavaScript:popup('xdrainrefs.html#Foltz1995','references')"
+   onMouseOver="window.status='Effect of Aggregate Quality on Sediment Production From a Forest Road'; return true"
+   onMouseOut="window.status=''; return true">Foltz and Truebe 1995</a>).
+On a gravel road that is outsloping, or that has a nonerodible ditch, the flow path
+generally is 10 m long.  On roads without gravel where flattening or rutting of wheel tracks is common,
+the flow path length will be the spacing between cross drains.
+The reduction in flow path length with the addition of gravel is likely the reason
+for the 80 percent reduction in erosion often credited to the addition of gravel.
+(<a href="JavaScript:popup('example5.html','examples')">Example 5</a>
+demonstrates how gravel reduces road erosion through alteration of topography.)
+
+<p>
+<a name="topography"></a>
+<h4><a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='X-DRAIN 2.000 documentation'; return true"></a>
+Topography</h4>
+<p>
+The topographic options for X-DRAIN are shown in <a href="#table2">Table 2</a>.  
+The effect of changes in topography tends to be consistent, so interpolation between values is acceptable.  
+The effect is not, however, linear (<a href="#figure2">figure 2</a>), so extrapolation beyond these values is not recommended.  
+The 10-m value for cross drain spacing is reasonable for outsloped roads, considering road gradient, outslope steepness, 
+and effects of traffic 
+(<a href="JavaScript:popup('xdrainrefs.html#Elliot1997','references')"
+   onMouseOver="window.status='Water Erosion Prediction Project (WEPP) Forest Applications'; return true"
+   onMouseOut="window.status=''; return true">Elliot and Hall (1997)</a>, 
+ <a href="JavaScript:popup('xdrainrefs.html#Foltz1996','references')"
+   onMouseOver="window.status='Traffic and No-Traffic on an Aggregate Surfaced Road: Sediment Production Differences'; return true"
+   onMouseOut="window.status=''; return true">Foltz 1996</a>).  
+On roads with no cross drains, flow path lengths along the road surface seldom exceed 120&nbsp;m 
+unless the road is severely rutted, or the road is insloped with a long inside ditch.  
+
+<p>
+<a name="table2"></a>
+<blockquote>
+<table border=1>
+<tr><caption align=left><b>Table 2.	<i>Topographic conditions in X-DRAIN database</i>
+<tr><th align=left bgcolor=85d2d2>Variable <th bgcolor=85d2d2>Values
+<tr><td align=left>Steepness of buffer	<td>4, 10, 25, and 60 percent
+<tr><td align=left>Length of buffer between road and stream&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	<td>0, 10, 50, 100, and 200 m
+<tr><td align=left>Road gradient	<td>2, 4, 8, and 16 percent
+<tr><td align=left>Spacing of cross drains	<td>10, 30, 60, and 120 and 240 m
+</table>
+</blockquote>
+<p>
+If a road is crowned, then the user will need to consider both sides of the crown and combine the results.  
+If there are ditches which are either completely vegetated or lined with a non-erodible material, 
+and the ditch is not eroding, then only the surface will be eroding, and the user should select 
+the 10-m value for spacing of drains to describe the relatively short eroding path length.
+
+<p>
+<a name="roadwidth"></a>
+<h4><a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='X-DRAIN 2.000 documentation'; return true"></a>
+Road Width</h4>
+
+The road width specification should include the width of the ditch or ditches if they are eroding.
+If the user is modeling narrow bicycle or foot trails, then a narrow width should be specified.
+For log landings and similar wide disturbed areas, the width of the landing can be entered in the 
+width box.
+
+<p>
+<a name="vegetation"></a>
+<h4><a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='X-DRAIN 2.000 documentation'; return true"></a>
+Management (Vegetation Cover)</h4>
+<p>
+The most complex input file for the WEPP model is the management file, which describes the vegetation.  
+For the X-DRAIN program (<a href="#fig1">figure 1</A>), the road and border are described as having no vegetation, the 
+fillslope as sufficient vegetation to give about 50 percent ground cover, and the forest buffer as 
+a 20-year old forest with 100 percent ground cover.
+
+The values are similar to those described for the PLUME3 Template for WEPP in 
+<a href="JavaScript:popup('xdrainrefs.html#Elliot1997','references')"
+   onMouseOver="window.status='Water Erosion Prediction Project (WEPP) Forest Applications'; return true"
+   onMouseOut="window.status=''; return true">Elliot and Hall (1997)</a>.
+
+For other conditions, such as a burned buffer or a vegetated road, users will have to run the WEPP model.
+<p>
+If it is applied to skid trails, or similar temporary trails, X-DRAIN can be run to determine the 
+erosion rate the first year.
+Generally, following revegetation, erosion rates rapidly decline to near zero within five years.
+
+The X-DRAIN value can be reduced by 20 percent each year following the disturbance for five years
+to obtain an estimate of total erosion associated with the skid trail
+(<a href="JavaScript:popup('example2_4.html#ex4','examples')">example 4</a>).
+
+<p>
+<a name="sedyield"></a>
+<h4><a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='X-DRAIN 2.000 documentation'; return true"></a>
+Average Annual Sediment Yield</h4>
+<p>
+On the output screen, the sediment yield results from 20 WEPP runs are presented for different road gradients
+and cross drain spacings.
+The average annual sediment yields are presented in kg or lbs from 30 years of simulation for each
+topographic condition.  
+
+<a href="#figure2">Figure 2</a>
+shows a graph of some typical results.  
+<p>
+
+<a name="figure2"></a>
+<center>
+<blockquote>
+<img src="images/xdfig2.gif"><p>
+Figure 2. <i>Annual sediment yield vs. cross drain spacing for different road gradients for the Deadwood Dam, Idaho climate, with a buffer length of 50 m, a sandy loam soil, a buffer slope of 25%, and a road width of 5 m.</i>
+</blockquote>
+</center>
+<p>
+Interpolation between values is reasonable, but because the relationships are not linear, 
+the results should not be extrapolated.
+
+Although the values are presented to two decimal places, the user should not overly emphasize 
+small differences.
+Any predicted erosion value--by any model--will be, at best, within plus or minus 50 percent 
+of the true value.
+Erosion rates are highly variable, and most models predict only a single value.
+Replicated research has shown that observed values vary widely for seemingly identical plots, or the 
+same plot from year to year 
+
+(<a href="JavaScript:popup('xdrainrefs.html#Elliot1994','references')"
+   onMouseOver="window.status='Predicting Sedimentation from Roads at Stream Crossings with the WEPP Model'; return true"
+   onMouseOut="window.status=''; return true">Elliot and others 1994</a>;
+<a href="JavaScript:popup('xdrainrefs.html#Elliot1995','references')"
+   onMouseOver="window.status='Validation of the Water Erosion Prediction Project (WEPP) Model for Low-Volume Forest Roads'; return true"
+   onMouseOut="window.status=''; return true">Elliot and others 1995</a>;
+<a href="JavaScript:popup('xdrainrefs.html#Tysdal1999','references')"
+   onMouseOver="window.status='Modeling Insloped Road Erosion Processes with the WEPP Watershed Model'; return true"
+   onMouseOut="window.status=''; return true">Tysdal and others 1999</a>).
+
+Additional discussion of the results is presented in 
+<a href="JavaScript:popup('xdrainrefs.html#Morfin1996','references')"
+   onMouseOver="window.status='Predicting Effects of Climate, Soil and Topography on Road Erosion with WEPP'; return true"
+   onMouseOut="window.status=''; return true">Morfin and others (1996)</a>.  
+<p>
+<a name="size"></a>
+<h4><a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='X-DRAIN 2.000 documentation'; return true"></a>
+Size of Eroded Sediments</h4>
+<p>
+In some cases, users may wish to estimate for environmental impact analysis the percentage of the
+eroded sediment that is in the 'sand' size class.
+WEPP predicts the size distribution of eroded sediment by dividing the sediment into sand, silt, and
+clay particles; small aggregates made up of clay and silt; and large aggregates made up of clay, silt,
+and sand.
+Generally, sand deposits first, and clay and small aggregates deposit last.
+A series of runs were made with the WEPP 97.3 model for the Eagle, CO climate, to determine the
+predicted sand content values as particles and in the large aggregates for a range of sediment yields 
+(<a href="#table3">Table 3</a>).
+The predicted values appear to be reasonable, but users are encouraged to compare these predictions with
+local observations, as size distribution predictions have not been validated for forest conditions.
+<p>
+
+<a name="table3"></a>
+<blockquote>
+<table border=1>
+<tr><caption align=left><b>Table 3. <i>Predicted sand content as particles and in large aggregates for different sediment yield amounts for the Eagle, CO climate.</i>
+<tr><th bgcolor=85d2d2 colspan=6>Percent sand particles in large aggregates
+<tr><th>Soil	<th>Clay Loam<th>Silt Loam<th>Sandy Loam<th>Graveled loam<th>Graveled sand
+<tr><th>On site sand content<td  align=center>30<td  align=center>30<td  align=center>60<td  align=center>40<td  align=center>70
+<tr><th bgcolor=85d2d2>Sediment Yield (kg)<th bgcolor=85d2d2 colspan=5 align=center>Percent sand particles in delivered sediment
+<tr><td align=center>3<td align=center>28<td align=center>14<td align=center>60<td align=center>33<td align=center>63
+<tr><td align=center>5<td align=center>29<td align=center>9<td align=center>56<td align=center>33<td align=center>64
+<tr><td align=center>30<td align=center>30<td align=center>17<td align=center>55<td align=center>34<td align=center>60
+<tr><td align=center>60<td align=center>30<td align=center>20<td align=center>50<td align=center>34<td align=center>57
+<tr><td align=center>300<td align=center>29<td align=center>25<td align=center>(52)*<td align=center>33<td align=center>(58)*
+<tr><td colspan=6>*  These values predicted for Wallace, ID climate, the Eagle, CO climate did not have sediment yields as large as 300 kg for these soils.
+</table>
+</blockquote>
+
+<p>
+<a name="applications"></a>
+<h3><a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='X-DRAIN 2.000 documentation'; return true"></a>
+Applications</h3>
+<p>
+There are several applications for the X-DRAIN model.
+<p>
+Optimum cross drain spacing for existing or planned roads can be determined.
+Recommendations concerning road reconstruction, realignment, closure, obliteration,
+or mitigation can be developed and supported by X-DRAIN results.
+<p>
+<ol><li>
+<a href="JavaScript:popup('example1.html','examples')">Determine sediment yield from existing roads</a>.
+Planners can estimate sediment produced by a given road system by 
+summing sediment yields predicted by X-DRAIN for each road segment.
+The planner could consult the road design and a contour map or site survey for
+necessary parameter values.
+The road design or a survey specifies distance between cross drains, traveled way shape, and
+the gradient of the road for each segment.
+The slope and distance to a channel can be determined from a field survey or a contour map.
+An appropriate
+<a href="../xdrain/climates.html">climate</a>, and the 
+<a href="../xdrain/soils.html">soil</a> that best describes
+the onsite soil are selected.
+
+From this information, the sediment yield can be determined for each road segment, and the total
+sediment yield can be calculated.
+
+<li>
+<a href="JavaScript:popup('example2_4.html','examples')">Evaluate the impact of alternative cross drain or
+waterbar spacing</a> for any road (including skid trails) on sediment delivery.
+The necessary input information is collected, X-DRAIN runs are made,
+and the output table is studied to determine what spacing will
+give an acceptable sediment yield.
+
+<li>
+<a href="JavaScript:popup('example3.html','examples')">Identify sections of road that are the best candidates for
+closure</a>, reconstruction, realignment, or mitigation measures to make best use of funding.
+
+<li>
+<a href="JavaScript:popup('example5.html','examples')">
+Evaluate the application of gravel</a> by selecting the appropriate graveled soil type
+and adjusting flow path length.
+
+<li>
+<font color=green>Determine erosion from footpaths or bike trails</font>
+by specifying a narrow width such as 1 m (3 ft).
+
+<li>
+<font color=green>Analyze log landings or similar cleared areas</font> that are
+eroding and are less than 30 m (100 ft) wide.
+</ol>
+
+A summary of the application of X-DRAIN to various other road designs is given in
+<a href="#table4">Table 4</a>.
+<p>
+
+<a name="table4"></a>
+<blockquote>
+<table border=1>
+<tr><caption align=left><b>Table 4.	<i>Adapting X-DRAIN inputs to model different road designs.
+<tr><th bgcolor=85d2d2>Condition	<th  bgcolor=85d2d2>Cross drain application
+<tr><td>Road with flat travelled way	<td>Enter width of travelled way in width box and read output directly
+<tr><td>Insloping road with no ditch treatment and no ruts	<td>Enter width of travelled way plus inside ditch in width box
+<tr><td>Insloping road with rocked or gravel ditch and no ruts	<td>Enter width of travelled way in width box and select 10 m (30 ft) for spacing of cross drains, divide the answer by 10 m and multiply by the true road length
+<tr><td>Outsloping road without ruts	<td>Enter width of travelled way in width box and select 10 m (30 ft) for spacing of cross drains, divide the answer by 10 m and multiply by the true road length
+ (<a href="JavaScript:popup('example2_4.html','examples')">example 2</a>)
+<tr><td>Outsloping road with ruts	<td>Enter width of travelled way.  Read the results for the observed spacing of cross drains 
+<tr><td>Bladed and compacted skid trail	<td>Select appropriate native surface soil and appropriate topographic variables for first year erosion.  Subsequent years will decline rapidly as vegetation is reestablished on the skid trail, to near zero by year 5
+ (<a href="JavaScript:popup('example2_4.html#ex4','examples')">example 4</a>).
+<tr><td>Added gravel<td>Select graveled soil type, select cross drain spacing of 10 m
+ (<a href="JavaScript:popup('example5.html','examples')">example 5</a>).
+<tr><td>More complex conditions	<td>Run the WEPP model for the specific conditions
+</table>
+</blockquote>
+
+<a name="examples"></a>
+<h3><a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='X-DRAIN 2.000 documentation'; return true"></a>
+<a href="example1.html">Examples</a></h3>
+
+<p>
+<a name="validation"></a>
+<h3><a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='X-DRAIN 2.000 documentation'; return true"></a>
+Validation</h3>
+<p>
+There has been no direct validation of the X-DRAIN program, nor has anyone collected data on the amount of sediment that 
+enters a stream that was detached from a road and transported across a forested buffer.
+There have been field observations on erosion rates from road surfaces and road prisms, and on lengths of sediment plumes.  
+Some of these observations are presented in <a href="#table5">Table 5</a>, 
+along with the sediment yields and sediment plume lengths predicted by the X-DRAIN program.
+
+<p>
+<a name="table5"></a>
+<blockquote>
+<table border=1>
+<tr><caption align=left><b>Table 5. <i> Erosion rates and sediment plume lengths below for roads observed and predicted by X-DRAIN for 60-m long, 4 percent gradient road, 4 m wide.
+<tr><th bgcolor=85d2d2>Site and Ecoregion<th bgcolor=85d2d2>Erosion Rate<br>	(t/ha/yr)	<th bgcolor=85d2d2>Source
+<tr><td>Observed at Zena Creek, ID<td align=center delete>18<td>Megahan and Kidd 1972a. Included entire new road prism.
+<tr><td bgcolor=f0f0f0>Predicted for Zena Creek, ID <td align=center bgcolor=f0f0f0>13<td bgcolor=f0f0f0>Deadwood Dam, ID climate 
+<tr><td>Observed bare and graveled road in Southern Appalachians<td align=center>11 to 150<td>Swift 1984a and 1984b
+<tr><td bgcolor=f0f0f0>Predicted for Southern Appalachians <td align=center bgcolor=f0f0f0>42 - 51<td bgcolor=f0f0f0>Cullowhee, NC climate. Graveled sand and sandy loam soil types.
+<tr><td>Observed for Alum Creek, AR  <td align=center>15 - 76<td>Beasley and others 1984. Vegetated fill slope and ditch.
+<tr><td bgcolor=f0f0f0>Predicted for Alum Creek, AR<td align=center bgcolor=f0f0f0>53 - 57<td bgcolor=f0f0f0>Clarksville, AR climate. Graveled sand and sandy loam soil types.
+<tr><td>Observed bare and gravelled road for Fernow NF, WV  <td align=center>13.5 - 118<td>Kochenderfer and Helvey 1987
+<tr><td bgcolor=f0f0f0>Predicted for Fernow NF, WV<td align=center bgcolor=f0f0f0>26 - 69<td bgcolor=f0f0f0>Clarksburg, WV climate. Graveled sand and sandy loam soil types.
+<tr><td bgcolor=85d2d2><br><th bgcolor=85d2d2>Sediment Plume Length<br>(m)<td bgcolor=85d2d2><br>
+<tr><td>Observed on Silver Creek Watershed, ID  <br>    Cross drain <br>    Below fill
+         <td align=center>11 - 183<br>(mean = 50)<br>0.4 - 66<br>(mean = 3.8)<td>Ketcheson and Megahan 1996
+<tr><td>Observed in Nez Perce NF, Central ID<br> below culverts<td align=center>80 percent less than a mean of 24<td>Wasniewski 1994
+<tr><td bgcolor=f0f0f0>Predicted for Silvercreek              <br>          Cross drain    <br>  Below fill
+         <td align=center bgcolor=f0f0f0>&lt; 50 m <br> &lt; 50 m<td bgcolor=f0f0f0>Deadwood Dam, ID climate. Sediment carried past 10 m, but not past 50 m. Sandy loam soil.
+<tr><td bgcolor=f0f0f0>Predicted for Wine Springs Watershed, NC <td align=center bgcolor=f0f0f0><i>L = 5.1 + 0.00197 M<br>= 7.0 m<td bgcolor=f0f0f0>McNulty and others 1995.  
+        <i>L</i> is length in meters, <i>M</i> is predicted sediment yield from road. Length with a X-DRAIN predicted yield of 1013 kg.
+<tr><td>Filter strip widths in SE U.S.<td align=center>13 + 0.426 x percent slope = 24 m<td>Swift 1986. Assumed slope of 25 percent.
+<tr><td bgcolor=f0f0f0>Predicted for SE U.S.<td align=center bgcolor=f0f0f0>50 m<td bgcolor=f0f0f0>For Cullowhee, NC climate. Graveled sand soil. 700 of 1013 kg deposited within 50 m
+<tr><td>Observed in Tuskegee NF, AL<td align=center>50 - 60<td>Grace 1998. Occurred Aug '97 - Jan '98
+<tr><td bgcolor=f0f0f0>Predicted for Tuskegee NF, AL<td align=center bgcolor=f0f0f0>50 - 100<td bgcolor=f0f0f0>Birmingham, AL climate. Graveled sand soil. 10 percent buffer gradient.  1200 out of 1400 kg deposited within 50 m.
+</table>
+</blockquote>
+<p>
+The presence of a distinct sediment plume does not necessarily mean that sediment does not travel beyond the observed plume.
+Numerous runs with the WEPP model have shown that a deposition plume can develop in a buffer zone during small runoff events,
+but larger runoff events route sediment over the zone of deposition, across the buffer, delivering large amounts of sediment
+to the stream system.
+
+<p>
+<a name="availability"></a>
+<h3><a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='X-DRAIN 2.000 documentation'; return true"></a>
+Availability
+</h3>
+Run X-DRAIN across the
+<a href="http://forest.moscowfsl.wsu.edu/fswepp/">Internet</a> or
+the <a href="http://fsweb.moscow.rmrs.fs.fed.us/fswepp/">Forest Service Intranet</a>.
+<p>
+If you have X-DRAIN installed on your isolated PC, 
+<a href="c:\windows\startm~1\programs\fswepp\fsws.bat">start your web server</a>
+and run X-DRAIN <a href="http://localhost/fswepp/">locally</a>.
+<p>
+If you are running stand-alone, please register with us so we can inform
+you of updates to X-DRAIN.  Also, check either of the two Forest Service
+servers above frequently to keep current.
+<p>
+
+<a name="discussion"></a>
+<h3><a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='X-DRAIN 2.000 doscumentation'; return true"></a>
+Discussion</h3>
+<p>
+Field research shows that the range of sedimentation
+amounts observed will vary by at least 30 percent
+from the mean. Minimum observed values are
+frequently less than half the maximum observed
+values (<a href="JavaScript:popup('xdrainrefs.html#Elliot1994','references')"
+   onMouseOver="window.status='Predicting Sedimentation from Roads at Stream Crossings with the WEPP Model'; return true"
+   onMouseOut="window.status=''; return true">Elliot and others 1994</a>;
+<a href="JavaScript:popup('xdrainrefs.html#Elliot1995','references')"
+   onMouseOver="window.status='Validation of the Water Erosion Prediction Project (WEPP) Model for Low-Volume Forest Roads'; return true"
+   onMouseOut="window.status=''; return true">Elliot and others 1995</a>;
+<a href="JavaScript:popup('xdrainrefs.html#Tysdal1999','references')"
+   onMouseOver="window.status='Modeling Insloped Road Erosion Processes with the WEPP Watershed Model'; return true"
+   onMouseOut="window.status=''; return true">Tysdal and others 1999</a>).
+Validation work has shown values
+predicted by WEPP generally fall within the range
+of observed values. Users are encouraged to
+avoid placing too much emphasis on small
+differences between values. For conditions not
+modeled, the output relationships appear to be
+continuous, and interpolation between results
+appears to be valid. It is not advisable to
+extrapolate beyond the values presented, as the
+relationships are not linear.
+<p>
+In a limited analysis of the sensitivity of sediment
+yield to the various input factors, 
+<a href="JavaScript:popup('xdrainrefs.html#Morfin1996','references')"
+   onMouseOver="window.status='Predicting Effects of Climate, Soil and Topography on Road Erosion with WEPP'; return true"
+   onMouseOut="window.status=''; return true">Morfin and others (1996)</a>
+found sediment yield was particularly
+sensitive to cross drain spacing, road gradient, and
+buffer length. It was less sensitive to buffer slopes
+above 25 percent. In their study, sediment yield
+was sensitive to both climate and soil type.
+
+<p>
+This study assumed runoff water followed the road
+from one cross drain to the next. This 
+<a href="#fig1">template</a> can be applied to a 
+<a href="#table4">variety of conditions</a>
+and provides a reasonable estimate of sediment
+yield. If the site template is not adequate to describe the site
+conditions, then site-specific runs can be made
+with the WEPP model with the aid of the templates
+developed by
+<a href="JavaScript:popup('xdrainrefs.html#Elliot1997','references')"
+   onMouseOver="window.status='Water Erosion Prediction Project (WEPP) Forest Applications'; return true"
+   onMouseOut="window.status=''; return true">Elliot and Hall (1997)</a>.
+<p>
+If the road drains directly into channels, then the cross drain
+template is not valid, and the WEPP watershed version may be the more
+appropriate modeling tool
+(<a href="JavaScript:popup('xdrainrefs.html#Tysdal1999','references')"
+   onMouseOver="window.status='Modeling Insloped Road Erosion Processes with the WEPP Watershed Model'; return true">Tysdal and others 1999</a>).
+<p>
+<ul><li>Version 1 -- WEPP v. 95.8; snowmelt routines needed improving.
+<li>Version 1 update -- WEPP version 97.5; snowmelt routines improved
+<li>Version 2 -- WEPP version 98.4; more and better climates
+</ul>
+<p>
+<a name="operation"></a>
+<hr>
+<h2>X-DRAIN OPERATION</h2>
+<h3>Starting X-DRAIN</h3>
+
+There are two copies of X-DRAIN operating at our lab, and an unknown quantity of
+stand-alone copies have been distributed.
+<p>
+To run the most current version of X-DRAIN and the other FS WEPP interfaces to
+WEPP, go to the <a href="http://fsweb.moscow.rmrs.fs.fed.us/fswepp/">Forest
+Service Intranet FS WEPP</a> or the <a href="http://forest.moscowfsl.wsu.edu/fswepp/">
+Forest Service Internet FS WEPP</a> site.
+<p>
+If you have a local version, start the Forest Service server, <tt>fsws</tt>, then
+start your local <a href="http://localhost/fswepp/">FS WEPP interfaces</a>.
+<p>
+If X-DRAIN is started from the <a href="/fswepp/">FS WEPP screen</a>, 
+you can specify whether you want to use metric or English units in X-DRAIN.
+<p>
+The unit system is selected by clicking the hole next to the desired
+unit description on the FS WEPP screen.  
+
+<h3>X-DRAIN Input Screen</h3>
+On the <a href="xdrainimg.html">X-DRAIN input screen</a>, the user
+selects a 
+<ul><li>climate, 
+    <li>soil type,
+    <li>hillside topography, and
+    <li>road width
+</ul>
+to estimate sediment yield for different
+combinations of road gradients and cross drain
+spacings. Selections may be made using a mouse,
+or by using the Tab and the Shift-Tab keys.
+<p>
+<b>Climate</b>
+<p>
+A scroll bar located within the climate list allows
+the user to scroll among the various available
+climates.
+<p>
+Clicking on the "<a href="../xdrain/climates.html">Climate</a>" hyperlink located
+directly above the climate list produces a descriptive
+table for all of the climates.  This table is designed to assist
+the user in selecting a climate most appropriate to
+the location being studied. In some cases, the most
+appropriate climate may not be the one
+geographically closest to the location being
+simulated. Select the most appropriate climate
+based on the latitude, longitude, elevation, and
+annual precipitation.
+<p>
+<b>Soil Type</b>
+<p>
+Five <a href="../xdrain/soils.html">soil types</a> are available within X-DRAIN.
+<p>
+<b>Buffer Topography</b>
+<p>
+The buffer is assumed to be a forested area
+between the outlet from a road cross drain or
+waterbar and an ephemeral or perennial channel.
+The buffer slope steepness and horizontal length
+nearest to those of the site conditions being
+simulated are selected. Users may wish to look at
+several combinations of buffer length and
+steepness, and then interpolate between values
+to determine a more exact topography.
+Extrapolation beyond the largest or smallest values
+is discouraged.
+<p>
+<b>Road Width</b>
+<p>
+You may enter any numeric value for road width
+between 1 and 30 meters (3 and 100 feet).
+See <a href="#table3">table 3</a> for guidance on entries for
+road width; it may be only the traveled-way width
+or the sum of the traveled-way and ditch width,
+depending upon what is being modeled.
+<p>
+The rule of thumb is:  if it is eroding, include it as part
+of the road width.
+<p>
+<b>Run</b>
+<p>
+Once the required inputs have been selected by
+the user, click the "Run" button to display a table of sediment yield
+values on the X-DRAIN display screen.
+<p>
+<h3>X-DRAIN Results Screen</h3>
+
+The X-DRAIN <a href="xdrainimg.html#xdout">results screen</A> displays
+sediment yield information for the climate, soil type,
+buffer topography, and road width selected on the
+input screen. Input values are presented on the
+display screen. Values for buffer length, road width,
+sediment yield, and cross-drain spacing are
+reported in the specified unit system. The sediment
+yields are the average annual amounts predicted
+by the WEPP model after running the model for
+30 years for the given soil and topographic
+conditions, with a stochastic climate generated by
+the CLIGEN weather generator
+(<a href="JavaScript:popup('xdrainrefs.html#Flanagan1995','references')"
+   onMouseOver="window.status='WEPP User Summary'; return true"
+   onMouseOut="window.status=''; return true">Flanagan and Livingston 1995</a>).
+Sediment yields are displayed as kg of sediment delivered by the contributing road area.
+Yields are displayed to two decimal places, although this is false precision.
+
+<p>
+Examples of interpreting the sediment yield values
+provided by X-DRAIN are given in the report body.
+<p>
+<b>Saving and printing Results</b>
+<p>
+
+Use your browser's "File—Save-As" menu option to save the results 
+as a browser-readable file, or print the page with "File—Print...".
+
+<p>
+<b>Copy to Clipboard</b>
+<p>
+Sediment yield information may be copied to the
+Windows clipboard by selecting the text with the mouse, and
+using the standard CTRL-C or your browser's Edit—Copy command.
+<p>
+From the clipboard, sediment yield information may be
+pasted directly into other Windows applications
+such as word processors or spreadsheets for further processing.
+<p>
+<b>Exiting X-DRAIN</b>
+<p>
+If you are running a local copy of X-DRAIN, 
+return to the FS WEPP screen and click on "Close down FS WEPP interfaces"
+to quit X-DRAIN and shut down the FS WEPP server.
+<p>
+If you are running X-DRAIN from a remote server, there is nothing
+particular to do to quit X-DRAIN.  Simply shut down your browser,
+or travel else where with it.
+<p>
+
+<a name="examples"></a>
+<h3><a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='X-DRAIN 2.000 documentation'; return true"></a>
+<a href="xdrainrefs.html">References</a></h3>
+
+<a name="appendix"></a>
+<h3><a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='X-DRAIN 2.000 documentation'; return true"></a>
+Appendix: Soil Parameter Values</h3>
+
+<blockquote>
+<table border=1>
+<tr><td><td><th colspan=5 bgcolor=85d2d2>		Soil Type
+
+<tr><th bgcolor=85d2d2>Element and Property<th bgcolor=85d2d2>Units<th bgcolor=85d2d2>Clay<br>Loam<th bgcolor=85d2d2>Silt<br>Loam<th bgcolor=85d2d2>Sandy<br>Loam<th bgcolor=85d2d2>Graveled<br>Loam<th bgcolor=85d2d2>Graveled<br>Sand
+					
+<tr><th>Road Surface	 					
+<tr><td>Albedo of the bare soil<td bgcolor=eeeeee align=right>Fraction<td align=right >0.6<td bgcolor=eeeeee align=right>0.6<td align=right >0.6<td bgcolor=eeeeee align=right>0.6<td align=right >0.6
+<tr><td>Initial saturation of the soil<td bgcolor=eeeeee align=right>m/m<td align=right >0.5<td bgcolor=eeeeee align=right>0.5<td align=right >0.5<td bgcolor=eeeeee align=right>0.5<td align=right >0.5
+<tr><td>Baseline interrill erodibility (<i>k<sub>i</sub></i>)<td bgcolor=eeeeee align=right>kg*s/m<sup>4</sup><td align=right >1.50E+06<td bgcolor=eeeeee align=right>2.00E+06<td align=right >2.00E+06<td bgcolor=eeeeee align=right>1.50E+06<td align=right >2.00E+06
+<tr><td>Baseline rill erodibility (<i>k<sub>r</sub></i>)<td bgcolor=eeeeee align=right>s/m<td align=right >0.0002<td bgcolor=eeeeee align=right>0.0003<td align=right >0.0004<td bgcolor=eeeeee align=right>0.0002<td align=right >0.0004
+<tr><td>Baseline critical shear<td bgcolor=eeeeee align=right>N/m<sup>2</sup><td align=right >0.04<td bgcolor=eeeeee align=right>0.04<td align=right >0.04<td bgcolor=eeeeee align=right>0.04<td align=right >0.04
+<tr><td>Hydraulic conductivity <td bgcolor=eeeeee align=right>mm/h<td align=right >0.1<td bgcolor=eeeeee align=right>0.27<td align=right >3.8<td bgcolor=eeeeee align=right>8.4<td align=right >10.2
+<tr><td>Depth of soil layer<td bgcolor=eeeeee align=right>mm<td align=right >200<td bgcolor=eeeeee align=right>200<td align=right >200<td bgcolor=eeeeee align=right>200<td align=right >200
+<tr><td>Percentage of sand<td bgcolor=eeeeee align=right>%<td align=right >30<td bgcolor=eeeeee align=right>30<td align=right >70<td bgcolor=eeeeee align=right>35<td align=right >70
+<tr><td>Percentage of clay<td bgcolor=eeeeee align=right>%<td align=right>30<td bgcolor=eeeeee align=right>15<td align=right>5<td bgcolor=eeeeee align=right>30<td align=right>5
+<tr><td>Organic matter (by volume)<td bgcolor=eeeeee align=right>%<td align=right>0.01<td bgcolor=eeeeee align=right>0.01<td align=right>0.01<td bgcolor=eeeeee align=right>0.01<td align=right>0.01
+<tr><td>Cation exchange capacity<td bgcolor=eeeeee align=right>Meq/100 g <td align=right>24<td bgcolor=eeeeee align=right>12<td align=right>4<td bgcolor=eeeeee align=right>24<td align=right>4
+<tr><td>Rock fragments (by volume)<td bgcolor=eeeeee align=right>%<td align=right>20<td bgcolor=eeeeee align=right>10<td align=right>20<td bgcolor=eeeeee align=right>65<td align=right>65
+<tr><th>Border
+<tr><td>Albedo of the bare soil<td bgcolor=eeeeee align=right>Fraction<td align=right>0.6<td bgcolor=eeeeee align=right>0.6<td align=right>0.6<td bgcolor=eeeeee align=right>0.6<td align=right>0.6
+<tr><td>Initial saturation of the soil<td bgcolor=eeeeee align=right>m/m<td align=right>0.5<td bgcolor=eeeeee align=right>0.5<td align=right>0.5<td bgcolor=eeeeee align=right>0.5<td align=right>0.5
+<tr><td>Baseline interrill erodibility (<i>k<sub>i</sub></i>)<td bgcolor=eeeeee align=right>kg*s/m<sup>4</sup><td align=right>1<td bgcolor=eeeeee align=right>1<td align=right>1<td bgcolor=eeeeee align=right>1<td align=right>1
+<tr><td>Baseline rill erodibility (<i>k<sub>r</sub></i>)<td bgcolor=eeeeee align=right>s/m<td align=right>0.0001<td bgcolor=eeeeee align=right>0.0001<td align=right>0.0001<td bgcolor=eeeeee align=right>0.0001<td align=right>0.0001
+<tr><td>Baseline critical shear<td bgcolor=eeeeee align=right>N/m<sup>2</sup><td align=right>40<td bgcolor=eeeeee align=right>40<td align=right>40<td bgcolor=eeeeee align=right>40<td align=right>40
+<tr><td>Hydraulic conductivity <td bgcolor=eeeeee align=right>mm/h<td align=right>7.3<td bgcolor=eeeeee align=right>9.9<td align=right>15.3<td bgcolor=eeeeee align=right>8.1<td align=right>15.3
+<tr><td>Depth of soil layer<td bgcolor=eeeeee align=right>mm<td align=right>300<td bgcolor=eeeeee align=right>300<td align=right>300<td bgcolor=eeeeee align=right>300<td align=right>300
+<tr><td>Percentage of sand<td bgcolor=eeeeee align=right>%<td align=right>30<td bgcolor=eeeeee align=right>30<td align=right>60<td bgcolor=eeeeee align=right>30<td align=right>60
+<tr><td>Percentage of clay<td bgcolor=eeeeee align=right>%<td align=right>30<td bgcolor=eeeeee align=right>15<td align=right>5<td bgcolor=eeeeee align=right>30<td align=right>5
+<tr><td>Organic matter (by volume)<td bgcolor=eeeeee align=right>%<td align=right>0.01<td bgcolor=eeeeee align=right>0.01<td align=right>0.01<td bgcolor=eeeeee align=right>0.01<td align=right>0.01
+<tr><td>Cation exchange capacity<td bgcolor=eeeeee align=right>Meq/100 g <td align=right>24<td bgcolor=eeeeee align=right>12<td align=right>4<td bgcolor=eeeeee align=right>24<td align=right>4
+<tr><td>Rock fragments (by volume)<td bgcolor=eeeeee align=right>%<td align=right>20<td bgcolor=eeeeee align=right>10<td align=right>20<td bgcolor=eeeeee align=right>30<td align=right>30
+<tr><th>Fillslope<td align=right>
+<tr><td>Albedo of the bare soil<td bgcolor=eeeeee align=right>Fraction<td align=right>0.12<td bgcolor=eeeeee align=right>0.12<td align=right>0.12<td bgcolor=eeeeee align=right>0.12<td align=right>0.12
+<tr><td>Initial saturation of the soil<td bgcolor=eeeeee align=right>m/m<td align=right>0.45<td bgcolor=eeeeee align=right>0.45<td align=right>0.45<td bgcolor=eeeeee align=right>0.45<td align=right>0.45
+<tr><td>Baseline interrill erodibility (<i>k<sub>i</sub></i>)<td bgcolor=eeeeee align=right>kg*s/m<sup>4</sup><td align=right>1.50E+06<td bgcolor=eeeeee align=right>2.00E+06<td align=right>2.00E+06<td bgcolor=eeeeee align=right>1.50E+06<td align=right>2.00E+06
+<tr><td>Baseline rill erodibility (<i>k<sub>r</sub></i>)<td bgcolor=eeeeee align=right>s/m<td align=right>0.0002<td bgcolor=eeeeee align=right>0.0003<td align=right>0.0004<td bgcolor=eeeeee align=right>0.0002<td align=right>0.0004
+<tr><td>Baseline critical shear<td bgcolor=eeeeee align=right>N/m<sup>2</sup><td align=right>2<td bgcolor=eeeeee align=right>2<td align=right>2<td bgcolor=eeeeee align=right>2<td align=right>2
+<tr><td>Hydraulic conductivity <td bgcolor=eeeeee align=right>mm/h<td align=right>6.3<td bgcolor=eeeeee align=right>8.9<td align=right>12.5<td bgcolor=eeeeee align=right>7.1<td align=right>14.3
+<tr><td>Depth of soil layer<td bgcolor=eeeeee align=right>mm<td align=right>300<td bgcolor=eeeeee align=right>300<td align=right>300<td bgcolor=eeeeee align=right>300<td align=right>300
+<tr><td>Percentage of sand<td bgcolor=eeeeee align=right>%<td align=right>30<td bgcolor=eeeeee align=right>30<td align=right>60<td bgcolor=eeeeee align=right>30<td align=right>60
+<tr><td>Percentage of clay<td bgcolor=eeeeee align=right>%<td align=right>30<td bgcolor=eeeeee align=right>15<td align=right>5<td bgcolor=eeeeee align=right>30<td align=right>5
+<tr><td>Organic matter (by volume)<td bgcolor=eeeeee align=right>%<td align=right>4<td bgcolor=eeeeee align=right>4<td align=right>4<td bgcolor=eeeeee align=right>4<td align=right>4
+<tr><td>Cation exchange capacity<td bgcolor=eeeeee align=right>Meq/100 g <td align=right>26<td bgcolor=eeeeee align=right>13<td align=right>4<td bgcolor=eeeeee align=right>26<td align=right>4
+<tr><td>Rock fragments (by volume)<td align=right>%<td align=right>20<td bgcolor=eeeeee align=right>10<td align=right>20<td bgcolor=eeeeee align=right>30<td align=right>30
+<tr><th>Forest Buffer Soil
+<tr><td>Albedo of the bare soil<td bgcolor=eeeeee align=right>Fraction<td align=right>0.02<td bgcolor=eeeeee align=right>0.02<td align=right>0.02<td bgcolor=eeeeee align=right>0.02<td align=right>0.02
+<tr><td>Initial saturation of the soil<td bgcolor=eeeeee align=right>m/m<td align=right>0.4<td bgcolor=eeeeee align=right>0.4<td align=right>0.4<td bgcolor=eeeeee align=right>0.4<td align=right>0.4
+<tr><td>Baseline interrill erodibility (<i>k<sub>i</sub></i>)<td bgcolor=eeeeee align=right>kg*s/m<sup>4</sup><td align=right>1.00E+04<td bgcolor=eeeeee align=right>1.20E+05<td align=right>1.30E+05<td bgcolor=eeeeee align=right>1.00E+04<td align=right>1.30E+05
+<tr><td>Baseline rill erodibility (<i>k<sub>r</sub></i>)<td bgcolor=eeeeee align=right>s/m<td align=right>0.0002<td bgcolor=eeeeee align=right>0.0003<td align=right>0.0004<td bgcolor=eeeeee align=right>0.0002<td align=right>0.0004
+<tr><td>Baseline critical shear<td bgcolor=eeeeee align=right>N/m<sup>2</sup><td align=right>2<td bgcolor=eeeeee align=right>2<td align=right>2<td bgcolor=eeeeee align=right>2<td align=right>2
+<tr><td>Hydraulic conductivity <td bgcolor=eeeeee align=right>mm/h<td align=right>20<td bgcolor=eeeeee align=right>25<td align=right>30<td bgcolor=eeeeee align=right>20<td align=right>30
+<tr><td>Depth of soil layer<td bgcolor=eeeeee align=right>mm<td align=right>300<td bgcolor=eeeeee align=right>300<td align=right>300<td bgcolor=eeeeee align=right>300<td align=right>300
+<tr><td>Percentage of sand<td bgcolor=eeeeee align=right>%<td align=right>30<td bgcolor=eeeeee align=right>30<td align=right>60<td bgcolor=eeeeee align=right>30<td align=right>60
+<tr><td>Percentage of clay<td bgcolor=eeeeee align=right>%<td align=right>30<td bgcolor=eeeeee align=right>15<td align=right>5<td bgcolor=eeeeee align=right>30<td align=right>5
+<tr><td>Organic matter (by volume)<td bgcolor=eeeeee align=right>%<td align=right>8<td bgcolor=eeeeee align=right>8<td align=right>8<td bgcolor=eeeeee align=right>8<td align=right>8
+<tr><td>Cation exchange capacity<td bgcolor=eeeeee align=right>Meq/100 g <td align=right>27<td bgcolor=eeeeee align=right>14<td align=right>5<td bgcolor=eeeeee align=right>27<td align=right>5
+<tr><td>Rock fragments (by volume)<td bgcolor=eeeeee align=right>%<td align=right>20<td bgcolor=eeeeee align=right>10<td align=right>20<td bgcolor=eeeeee align=right>20<td align=right>20
+<tr><td colspan=7>For further details of soil properties see 
+<a href="JavaScript:popup('xdrainrefs.html#Alberts1995','references')"
+   onMouseOver="window.status='Chapter 7. Soil Component'; return true"
+   onMouseOut="window.status=''; return true">Alberts and others 1995</a>.
+</table>
+</blockquote>
+<hr>
+
+
+<p>
+<b>Useful Conversions</b>
+<p>
+<blockquote>
+<table border=1>
+<tr><th bgcolor=85d2d2>Multiply <th bgcolor=85d2d2>	by	<th bgcolor=85d2d2>to get 
+<tr><th>mm (millimeters)<td>0.0394<td>in. (inches)
+<tr><th>m (meters)<td>39.4<td>in. (inches)
+<tr><th>m (meters)<td>3.28<td>ft (feet)
+<tr><th>m<sup>2</sup> (square meters)<td>10.8<td>ft<sup>2</sup> (square feet)
+<tr><th>kg (kilograms)<td>2.2<td>lbs (pounds mass)
+<tr><th>t (metric tonnes)<td>1,000<td>kg (kilograms)
+<tr><th>t (metric tonnes)<td>1.1<td>short tons
+<tr><th>short tons<td>2,000<td>lbs (pounds mass)
+<tr><th>t/ha<td>0.445<td>short tons/acre
+</table>
+</blockquote>
+<p>
+
+<hr>
+<center>
+<a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='X-DRAIN 2.000 documentation'; return true"></a> 
+</center>
+<hr>
+
+</body>
+</html>
+

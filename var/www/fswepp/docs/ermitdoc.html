@@ -1,0 +1,555 @@
+<html>
+ <head>
+  <title>Erosion Management Rehabilitation Tool documentation</title>
+ </head>
+ <body bgcolor="ivory">
+  <font face="Arial, Geneva, Helvetica">
+  <table width=100% border=0>
+    <tr><td> 
+       <a href="http://forest.moscowfsl.wsu.edu/fswepp/">
+       <img src="fsweppic2.jpg" width=75 height=75
+       name="fswepplogo" align="left" alt="Back to FS WEPP menu" border=0></a>
+    <td align=right>
+       <hr>
+        <h3>
+                  <font color=red>E</font>rosion<br>
+                     <font color=red>R</font>isk<br>
+               <font color=red>M</font>anagement<br>
+                     <font color=red>T</font>ool<br>
+                                         (ERMiT)<br>
+                Users Manual for version 2006.01<br>
+                                   (ROUGH DRAFT)
+        </h3>
+<!-- P.R. Robichaud, W.J. Elliot, F.B. Pierson, D.E. Hall, C.A. Moffet, L.E. Ashmun -->
+       <hr>
+      </td>
+     </tr>
+    </table>
+
+[
+<a href="#purpose">Purpose</a> |
+<a href="#input">Input</a> |
+<a href="#process">Process</a>|
+<a href="#output">Output</a> |
+<a href="#implications">Management Implications</a> |
+<a href="#references">References</a> |
+<a href="#assumptions">Model Assumptions</a> |
+<a href="#example">Example</a> 
+]
+
+
+<h4><a name="abstract"></a>
+<a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='Disturbed WEPP documentation'; return true"></a>
+Abstract</h4>
+
+The decision of where, when, and how to apply the most effective postfire erosion mitigation treatments requires land managers to assess the risk of damaging runoff and erosion events occurring after a fire.
+To meet this challenge, the Erosion Risk Management Tool (ERMiT) was developed.
+<br><br>
+ERMiT is a web-based application that uses the Water Erosion Prediction Project (WEPP) technology to estimate erosion, in probabilistic terms, on burned and recovering forest, range, and chaparral lands with and without the application of erosion mitigation treatments.
+User inputs are processed by ERMiT to combine rain event variability with spatial and temporal variabilities of soil burn severity and soil properties, which are then used as WEPP input parameters.
+Based on 20 to 40 individual WEPP runs, ERMiT produces a distribution of rain event erosion rates with a probability of occurrence for each of five postfire years.
+In addition, rain event erosion rate distributions are generated for postfire hillslopes that have been treated with seeding, straw mulch, and erosion barriers such as contoured-felled logs or straw wattles.
+<br><br>
+This ERMiT Users Manual describes the input parameters, input interface, model processing, and output files for the current version (2006.01.18).
+ERMiT is a dynamic process-based model that can be readily updated as additional data and validation results become available.
+
+<h4><a name="purpose"></a>
+<a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='Disturbed WEPP documentation'; return true"></a>
+Purpose of Erosion Risk Management Tool</h4>
+
+Erosion Risk Management Tool (ERMiT) (Robichaud and others 2006) provides a distribution of event erosion rates with the likelihood of their occurrence.
+This is unlike most erosion prediction models, which typically have 'average annual erosion' as output.
+ERMiT is a web-based application that uses Water Erosion Prediction Project (WEPP) technology to predict erosion in probabilistic terms on burned and recovering forest, range, and chaparral lands, with and without the application of mitigation treatments.
+ERMiT combines rain event variability with spatial and temporal variabilities of soil properties to model the range of postfire rainfall characteristics, burn severity, and soil parameters that are likely to occur.
+Based on one 100-year WEPP run and 20, 30, or 40 ten-year WEPP runs, ERMiT produces a distribution of rain event sediment delivery rates with a probability of occurrence for each of five post-fire years.
+In addition, rain event sediment delivery rate distributions are generated for hillslopes that have been treated with seeding, straw mulch, straw wattles and contour-felled log erosion barriers.
+<br><br>
+ERMiT's 'event sediment yield probability' output can be used to decide where, when, and how to apply the most effective treatments to mitigate the impact of post-wildfire runoff and erosion on life, property, and natural resources.
+With ERMiT, managers can establish a maximum acceptable event sediment yield and use ERMiT to determine the probability of 'higher than acceptable' sediment yields occurring.
+The maximum acceptable event sediment yield will vary within a burned area.
+For example, a short term decline in water quality may be more acceptable than damage to a cultural heritage site, and modeling the hillslopes above these two resources would likely have different user-designated exceedance probabilities and treatment criteria.
+By modeling various hillslopes within a burned area, managers can determine the probabilities of erosion-producing rain events occurring, the expected event sediment deliveries, and rates of recovery for the postfire conditions that exist.
+
+
+<h4><a name="accessing"></a>
+<a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='Disturbed WEPP documentation'; return true"></a>
+Accessing ERMiT</h4>
+
+ERMiT can be found on the Internet on the FS WEPP web page (http://forest.moscowfsl.wsu.edu/fswepp/), which is maintained by the USDA Forest Service, Rocky Mountain Research Station.
+To run ERMiT, select metric or U.S. conventional units and click the 'ERMiT' graphic.
+The 'personality' field generally should be left empty; it is used to maintain individual user information when groups of users share a single Internet Protocol (IP) address.
+
+<h4><a name="input"></a>
+<a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='Disturbed WEPP documentation'; return true"></a>
+Input Data</h4>
+
+[
+<a href="#climate">Climate</a> |
+<a href="#soil_texture">Soil Texture</a> |
+<a href="#rock_content">Rock Content</a> |
+<a href="#veg_type">Vegetation Type and Prefire Community</a> |
+<a href="#hillslope">Hillslope Gradient and Horizontal Length</a> |
+<a href="#burn_severity">Soil Burn Severity Class</a>
+]
+<br><br>
+
+ <table width=80% cellpadding=15>
+  <tr>
+   <td valign="top" width=30%>
+    User input for ERMiT is climate station, soil texture, soil rock content, vegetation (forest, range, chaparral), hillslope gradient and horizontal length, soil burn severity class, and, for range and chaparral, pre-fire community description (relative distribution of shrub, grass, and bare soil cover).
+    User inputs are entered on a single interactive browser screen (fig.&nbsp;1).
+    Short hints about the input parameters are provided in the status bar (fig.&nbsp;2) with more extensive explanations on linked pages, which are accessed by clicking on the   icon next to the parameter name.
+   </td>
+   <td width=25>
+   <td><font size=-1><img src="images/fig01_.jpg" border=1><br><i>Figure 1 --	The ERMiT input screen with sample user designations.</i></font></td>
+   <td><font size=-1><img src="images/fig02_.jpg" border=1><br><i>Figure 2 -- The browser screen 'status bar' provides helpful hints as the curser moves over the input screen.</i></font></td>
+  </tr>
+ </table>
+
+<blockquote>
+<a name="climate"></a>
+<h5>Climate</h5>
+ERMiT is connected to Rock:Clime (version 2004.04.26) (Elliot and others 1999; Elliot and Hall 2000), which provides climate parameter files for more than 2600 weather stations across the United States.
+These parameter files specify:
+ 1)&nbsp;station name, latitude, longitude, and elevation;
+ 2)&nbsp;statistical characterizations of historical monthly precipitation, minimum, maximum, and dewpoint temperatures, and solar radiation;
+ 3)&nbsp;monthly probabilities of a wet day following a wet day and of a wet day following a dry day;
+ 4)&nbsp;a time-to-peak distribution; and
+ 5)&nbsp;wind data.
+Rock:Clime allows the user to create a custom climate parameter file by modifying monthly precipitation, monthly maximum and minimum temperature, and monthly number of wet days in an existing climate parameter file.
+<br><br>
+Monthly precipitation may be modified using data generated by PRISM (Parameter-elevation Regressions on Independent Slopes Model) (Daly and others 1994; Elliot 2004) or data provided by the user.
+PRISM provides elevation and monthly precipitation values on a 2.5 arc-minute grid across the conterminous United States (PRISM gridded data, normals, 1971-2000. http://www.ocs.orst.edu/prism/).
+<br><br>
+ERMiT sends the Rock:Clime climate parameter file (with all user modifications), to CLIGEN (Nicks and others 1995)
+ version 4.31 to generate a stochastic daily weather data file that is used by WEPP.
+These weather data include values for
+ 1)&nbsp;daily precipitation amount, duration, time-to-peak, and peak intensity;
+ 2)&nbsp;minimum, maximum, and dewpoint temperature; and
+ 3)&nbsp;solar radiation, wind velocity, and wind direction. 
+<br><br>
+<strong>Climate files-status designations</strong>-The input page of ERMiT will show a short list of standard climates and, in some cases, a list of 'custom climates' generated by users of that computer.
+The names of climate stations listed in the ERMiT climate pick list may be preceded by an ownership symbol.
+Lack of a preceding symbol indicates that the climate station is one of the standard stations available immediately to all users. 
+  <ul>
+   <li>A leading asterisk (*) indicates that the climate file is a 'custom climate' created on the computer currently being used.
+       These custom climates, visible only to the computer on which they were created, are generally available for at least one week after being created; however, they are deleted from the server intermittently.</li>
+   <li>A leading dash (-) indicates that the climate file for the station has been made available for a period of time, perhaps for an instructional session.</li>
+   <li>A trailing plus (+) sign following the climate station name indicates a modified climate file, i.e., some of the standard climate station parameter values within this file were modified.</li>
+  </ul>
+<strong>Viewing climate station files using the 'Climate' link</strong>-Clicking the underlined title, Climate, links the user to a new page with a summary of the monthly mean maximum, and minimum temperature, mean precipitation, and number of wet days for the highlighted climate station.
+A table of the weather stations used to determine the wind, dewpoint, solar radiation, and time-to-peak parameter values is also shown.
+From the climate page, the user can also view the entire climate parameter file and a simple line map (based on U.S. Census Bureau TIGER/Line® files) showing the location of the station based on the listed latitude and longitude.
+<br><br><strong>Selecting and modifying climates using the 'Custom Climate' button</strong>-To select a climate station that is not in the ERMiT selection list, or to generate a custom climate, click on the 'Custom Climate' button, which opens Rock:Clime.
+To add a new climate, select the state of interest and click on the 'SHOW ME THE CLIMATES' button.
+A list of available climate station parameter files for the selected state will be displayed.
+You have three choices:
+  <ul>
+   <li>You may add any of the listed climate stations to ERMiT's climate selection menu by selecting the climate station and clicking the 'ADD TO PERSONAL CLIMATES' button.</li>
+   <li>You can view the climate parameters for any station by clicking the 'DESCRIBE CLIMATE' button.</li>
+   <li>You can modify climate parameter values by clicking 'MODIFY THE CLIMATE' button, which will open an interactive screen with access to PRISM (generates custom climates based on latitude and longitude input) and the ability to enter user-generated climate data to an existing parameter set.</li>
+  </ul>
+To create a climate parameter file for areas outside the coverage area of available climate stations, find a similar climate within the United States and modify it to more closely match the climate of the area you are modeling.
+For climate files that are to be modified substantially from an existing parameter file, we have found that it is best to start with a climate that is drier than your target climate. 
+
+<a name="soil_texture"></a>
+<h5>Soil Texture</h5>
+Users may select from among four soil textures, clay loam, silt loam, sandy loam, and loam (fig. A), based on the USDA soil texture classification system.
+To aid in the selection of soil texture, soil descriptions and the corresponding Unified Soil Classification System (ASTM) group symbols are available by clicking the   icon next to the 'Soil Texture' title.
+For a selected soil texture, the soil parameter values used for ERMiT's initial 100-year WEPP run may be viewed by clicking the 'Soil Texture' title.
+[The available ranges of soil parameter values and the use of these values for the different WEPP runs are discussed in the Process section of this User's Guide and in Robichaud and others (2006).]  
+
+<a name="rock_content"></a>
+<h5>Rock content</h5>
+In ERMiT, rock content refers to the proportion of rocks found in the upper soil profile.
+Values up to 50 percent can be specified within the 'Rock Content' box (fig. A).
+Currently, there is no mechanism to adjust soil parameters for rock outcrops or surface rock cover.
+
+<a name="veg_type"></a>
+<h5>Vegetation Type and Range/Chaparral Prefire Community Description</h5>
+The user selects one of three vegetation types to be modeled: forest, range, or chaparral.
+If 'range' or 'chaparral' is chosen, the user may specify the proportion of shrub, grass, and bare soil in the prefire community.
+The default values are: for range communities-15 percent shrub, 75 percent grass, 10 percent bare; and for chaparral communities-80 percent shrub, 0 percent grass, and 20 percent bare.
+For values other than the default values, The user enters percent cover for shrub and for grass, and ERMiT adjusts percent bare to total 100 percent if possible; if not, ERMiT adjusts shrub or grass values to total 100 percent.
+These input fields are inactive when 'forest' vegetation is selected. 
+
+<a name="hillslope"></a>
+<h5>Hillslope Gradient and Horizontal Length</h5>
+The topographic inputs for ERMiT are hillslope horizontal length and hillslope top, middle, and toe gradients.
+Hillslope horizontal length is the length of the hillslope being modeled and includes the three sections (top, middle, and toe) of the slope (fig. 3).
+Top gradient is the steepness, in percent, of the upper 10 percent (by length) of the hillslope.
+Middle gradient is the steepness of the main portion (central 80 percent) of the hillslope.
+Toe gradient is the steepness of the lower 10 percent of the hillslope.
+These values may be obtained from field surveys, digital elevation models (DEMs), topographic maps, or geographical information system (GIS) data layers.
+Enter zero for top gradient if the top of the slope being modeled starts at the top of the hill.
+The maximum hillslope horizontal length that can be input is 1000 ft (300 m) and the gradient must be between 0 and 100 percent.
+ERMiT predicts the amount of sediment that will leave the hillslope profile.
+
+<a name="burn_severity"></a>
+<h5>Soil Burn Severity Class</h5>
+Soil burn severity is a description of the impact of a fire on the litter, forest floor, and soil.
+The soil burn severity of a fire varies widely in space, depending on fuel load, moisture conditions, weather (at the time of the fire), and topography (Robichaud & Miller 1999), and creates mosaic landscapes with varying proportions of low, moderate, and high soil burn severity.
+However, measurements of postfire runoff and erosion (using rainfall simulation experiments) only distinguishes two soil burn severity classes, high (H) and low (L) (Brady and others 2001; Pierson and others 2001; Robichaud 1996; Robichaud 2000).
+In other words, in terms of soil parameter values, only two 'levels' can be distinguished.
+For modeling purposes, the H and L parameter values are arranged on the hillslope in multiple configurations to model the three possible user-designated soil burn severity classifications.
+<br><br>
+The red and yellow graphic displayed on the ERMiT input page represents the four, six, or eight spatial arrangements of high and low soil burn severity parameters that are modeled based on the user-selected soil burn severity classification (fig. 4).
+Each combination of soil, vegetation, and topography is called an overland flow element (OFE), and each hillslope is modeled with three OFEs-each representing about one-third of the slope.
+In the graphic, each OFE is represented as a single square in the strip of three squares for the hillslope.
+Red represents high (H) and yellow represents low (L) soil burn severity soil parameter values.
+Patterns with bold colors are modeled for the first year following fire.
+Patterns with faint colors are modeled for succeeding  years (fig. 4).
+</blockquote>
+
+<h4><a name="process"></a>
+<a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='Disturbed WEPP documentation'; return true"></a>
+Process</h4>
+
+[
+<a href="#100_year">Initial 100-year WEPP Run</a> |
+<a href="#variability">Variability of ERMiT Input Parameters</a> |
+<a href="#wepp_runs">Multiple WEPP Runs</a> |
+<a href="#probs">Combined Occurrence Probability</a> |
+<a href="#mitigation">Erosion Mitigation Treatments</a>
+]
+
+<h5>Overview</h5>
+ERMiT uses WEPP as its erosion calculation engine.
+WEPP models the processes of interrill and rill erosion, evapotranspiration, infiltration, runoff, soil detachment, sediment transport, and sediment deposition to predict runoff and erosion at the hillslope scale (Flanagan and Livingston 1995). In addition, variability (spatial and temporal) in weather, soil parameter values, and soil burn severity is incorporated into ERMiT.
+The general process used to incorporate parameter variability is to 1) determine a range of parameter values, 2) select four or five representative values from the range, and 3) assign an 'occurrence probability' for each selected value.
+Temporal variation, the changes in soil parameter values over time due to recovery, are modeled by changes in the occurrence probabilities assigned to the selected values for each year of recovery. 
+<br><br>
+Initially, ERMiT runs WEPP for the user-specified climate, vegetation, and topography using the "most erodible" soil parameters and burn severity spatial pattern over a 100-year weather file generated using CLIGEN.
+ ERMiT selects the single event with the largest runoff value in each of the 100 years.
+From those 100 selected runoff events the 5th-, 10th-, 20th-, 50th-, and 75th-largest runoff events (and the year that those events occurred) are chosen for further analysis.
+Each of those years is rerun through WEPP for ten soil parameter sets and four, six, or eight soil burn severity scenarios.
+This results in 100, 150, or 200 sediment yield values, each with an occurrence probability (fig. 5).
+
+<a name="100_year"></a>
+<h5>Initial 100-year WEPP Run</h5>
+
+A 100-year weather file, generated using CLIGEN, is used by WEPP to produce a 100-year runoff record for the combination of soil and burn severity conditions which have the greatest potential to generate runoff for the site (three high soil burn severity OFEs that use the "most erodible" soil parameter set (Soil 5) values for interrill erodibility (Ki), rill erodibility (Kr), hydraulic conductivity (Ke), and critical shear (t?c).
+For each runoff event of interest (as described in the climate variability section below), ERMiT records the date of the event, runoff and precipitation amounts, duration, and 10- and 30-min peak intensity values. 
+
+<a name"variablity"></a>
+<h5>Variability of ERMiT Input Parameters</h5>
+<blockquote>
+[
+<a href="#climate_var">Climate variability</a> |
+<a href="#spatial_var">Spatial (soil burn severity) variability</a> |
+<a href="#soil_var">Soil property variability</a>
+]
+<br><br>
+
+<a name="climate_var"></a>
+<strong>Climate variability</strong>-ERMiT will re-run WEPP for the years in which the 5th-, 10th-, 20th-, 50th-, and 75th-largest runoff events occurred during the initial 100-year WEPP run (using CLIGEN-generated 100-yr weather file).
+The assigned runoff event occurrence probabilities are 7.5, 7.5, 20, 27.5, and 37.5 percent, respectively.
+For the selected runoff events, ERMiT records the date, runoff and precipitation amounts, duration, and 10- and 30-min peak intensity values, which can be viewed as an output table.
+<br><br>
+<a name="spatial_var"></a>
+<strong>Spatial (soil burn severity) variability</strong>-ERMiT uses two different sets of soil parameter values-one set for low soil burn severity (L) and one set for high soil burn severity (H).
+Hillslope topographic, vegetation, and soil parameter values are applied in combination for each overland flow element (OFE).
+ERMiT models each hillside with three overland flow elements (OFE),  and to incorporate variability due to soil burn severity, several patterns of OFEs are modeled.
+For the user-selection of high soil burn severity, four spatial arrangements of OFEs are modeled for the first postfire year-'HHH' (10 percent occurrence probability), 'LHH' (30 percent occurrence probability), 'HLH' (30 percent occurrence probability), and 'HHL' (30 percent occurrence probability), with the first letter of the triplet representing the upper OFE, the second the middle OFE, and the third the lower OFE (fig. 6 and table 1).
+For a user selection of moderate soil burn severity, the three OFEs are modeled as 'HLH' (25 percent occurrence probability), 'HHL' (25 percent occurrence probability), 'LLH' (25 percent occurrence probability), and 'LHL' (25 percent occurrence probability) for the first year following a fire.
+A low soil burn severity user selection, results in  'LLH' (30 percent occurrence probability), 'LHL' (30 percent occurrence probability), 'HLL' (30 percent occurrence probability), and 'LLL' (10 percent occurrence probability) (table 1).
+ To model postfire recovery (postfire years two to five), changes in assigned occurrence probabilities are applied and the 'LLH', 'LHL', 'HLL', and 'LLL' spatial arrangements are added for a high soil burn severity user selection, and the 'HLL', and 'LLL' spatial arrangements are added for the moderate soil burn severity user selection (fig. 6).
+Thus, eight OFE arrangements are modeled for a high burn severity user selection, six for a moderate burn severity user selection, and four for a low burn severity user selection to predict the event sediment yield for each of the five postfire years (fig. 6).
+The changes in assigned occurrence probabilities are delineated in table 1.
+<br><br>
+<a name="soil_var"></a>
+<strong>Soil property variability</strong>The variable effects of postfire ground cover, soil water repellency, and soil erodibility are modeled by using several values from a range of measured values for interrill erodibility (Ki), rill erodibility (Kr), hydraulic conductivity (Ke), and critical shear (t?c).
+The range of values for each parameter is dependent on soil texture and a high or low burn severity designation (table 2).
+From each value range, a cumulative distribution function is created and the 5th, 20th, 50th, 80th, and 95th percentile values are selected.
+The selected values for all four soil parameters are grouped by percentile ranking into five soil parameter sets, such that all the 5th percentile values are grouped in 'Soil 1' (10 percent occurrence probability); 20th percentile values are grouped in 'Soil 2' (20 percent occurrence probability); 50th percentile values are grouped in 'Soil 3' (40 percent occurrence probability), 80th percentile values are grouped in 'Soil 4' (20 percent occurrence probability), and 95th percentile values are grouped in 'Soil 5' (10 percent occurrence probability).
+The different soil parameter value ranges for low and high burn severity result in five soil parameter sets for high burn severity and another five parameter sets for low burn severity. 
+<br><br>
+In range and chaparral environments, field data have shown that post-fire values for Ki and Ke vary by the proportions of shrubs and grasses in the pre-fire vegetation cover as well as burn severity.
+This is accounted for by weighting Ki and Ke soil parameter values within each value range based on user-specified proportions of pre-fire shrub and grass cover with bare soil accounting for the remainder of 100 percent pre-fire cover.
+<br><br>
+To model change over time, the occurrence probabilities of Soil 1 and Soil 2 (the less erodible soil parameters sets) are increased and Soil 3, Soil 4, and Soil 5 (the more erodible soil parameters sets) are decreased for each year of postfire recovery (table 3).
+Postfire recovery is slower in areas affected by monsoons than in other environments because monsoon rains usually come in short bursts of rainfall and do not provide dependable wet cycles.
+ERMiT uses an empirical relationship (total precipitation is less than 600 mm/yr and total July, August, and September precipitation is greater than 30 percent of the annual precipitation) to predict whether a particular climate is monsoonal.
+If rainfall data reflects monsoon rainfall characteristics, then the postfire year 2 occurrence probabilities for the five soil parameter sets are adjusted to be nearly similar to Year 1 (table 3).
+
+
+</blockquote>
+<a name="probs"></a>
+<h5>Combined Occurrence Probability</h5>
+
+Each of the 100 first-year sediment yield outcomes has an occurrence probability, which is calculated as the product of the occurrence probabilities due to each source of variation.
+For example, the occurrence probability for the event sediment delivery prediction given the rain event associated with the 5th largest runoff (7.5 percent occurrence probability), the 'HHH' soil burn severity spatial arrangement (10 percent occurrence probability), and the 'Soil 3' soil parameter set (40 percent occurrence probability) is (0.075)*(0.10)*(0.40)=0.003, or 0.3 percent (table 4). 
+<br><br>
+The 100 sediment delivery predictions are paired with the combined occurrence probability, and sorted in descending order of sediment delivery amounts.
+The 'exceedance probability' for each sediment delivery prediction is computed as the sum of the occurrence probabilities for all greater sediment yield predictions (table 5).
+
+<a name="mitigation"></a>
+<h5>Erosion Mitigation Treatments</h5>
+<blockquote>
+[
+<a href="#seeding">Seeding</a> |
+<a href="#mulch">Mulch</a> |
+<a href="#leb">Log erosion barriers</a>
+]
+<br><br>
+WEPP is not re-run to model mitigation treatments; but rather, treatment effects are modeled by increasing the occurrence probabilities of the less erosive soil parameter sets and decreasing the occurrence probabilities of the more erosive soil parameter sets. 
+<br><br>
+<a name="seeding"></a>
+<strong>Seeding</strong>-Robichaud and others (2000) reported that seeding had little measured effect in reducing first year post-fire erosion; however, seeding effects are more evident in the second and subsequent years.
+In ERMiT, occurrence probabilities associated with the soil parameters sets are adjusted to reflect the increase in ground cover and subsequent small decrease in erosion after year 2 (table 6).
+The seeding rate is assumed to be approximately 8 lb ac-1 (9 kg ha-1). 
+<br><br>
+<a name="mulch"></a>
+<strong>Mulch</strong>-Four straw mulch application rates are modeled by ERMiT.
+The sediment delivery predictions based on each mulching rate are produced by adjusting the occurrence probabilities associated with the soil parameters sets (table 7), in a manner similar to the adjustments made for increases in natural ground cover during post-fire recovery years (table 3).
+<br><br>
+<a name="leb"></a>
+<strong>Log erosion barriers (contour-felled logs or straw wattles)</strong>-ERMiT models straw wattles and contour-felled log erosion barriers by applying a regression relationship, based on user-specified mean log or wattle diameter (in or cm), spacing between rows (ft or m) (fig. 7), and ground slope (%), to determine the potential storage capacity (PSC) for the hillslope: 
+where diameter is in cm, spacing is in m, and PSC is in m3 ha-1.
+Slope is in percent (0.05 to 100) and is obtained from the hillslope gradient entered on the input screen.
+Potential storage capacity is converted to a weight per unit volume based on measured sediment bulk densities (table 8).
+<br><br>
+Field observations indicate that the potential storage capacity is rarely fully utilized, and that sediment trapping efficiency (sediment stored by erosion barriers divided by the sum of the sediment leaving the hillslope and the stored sediment) varies with rainfall intensity.
+ERMiT calculates a weighted maximum 10-min rainfall intensity (I10-W) based on the maximum 10-min rainfall intensity (I10) estimated from each rain event associated with the 5th-, 10th-, 20th-, 50th-, and 75th-ranked runoff events.
+I10-W is calculated as the sum of the I10 for each storm multiplied by its respective occurrence probability, such that:
+<br>
+I10-W = (I10-5th rank*0.075)+(I10-10th rank*0.075)+(I10-20th rank*0.2)+(I10-50th rank*0.275)+(I10-75th rank*0.375)
+<br>
+where I10-W  (mm h-1) is the weighted maximum 10-min rainfall intensity and I10-5th rank, I10-10th rank, I10-20th rank, I10-50th rank, and I10-75th rank  are the maximum 10-min rainfall intensity (mm h-1) estimated from each rain event associated with the 5th-, 10th-, 20th-, 50th-, and 75th-ranked runoff events, respectively.
+A snowmelt event is taken to be zero and does not factor into the I10-W calculation.
+<br><br>
+Field data were used to determine erosion barrier sediment trapping efficiency functions based on I10-W for the first two post-fire years:
+<br>Year 1:  EFF = -0.84 (I10-W) + 114  				
+<br>Year 2:  EFF = -1.4 (I10-W) + 116<br>
+where EFF is the trapping efficiency (%) of the erosion barriers and I10-W  is the weighted maximum 10-min rainfall intensity (mm h-1). 
+<br><br>
+The sediment trapping efficiency of erosion barriers continues to decreases with time because of reduction in potential storage capacity and settlement, decay, and movement of the erosion barriers.
+After the second year, efficiency is estimated as a percentage of the preceding year, such that:
+<br>Year 3:  EFF = 0.75 * Year 2 EFF
+<br>Year 4:  EFF = 0.55 * Year 3 EFF
+<br>Year 5:  EFF = 0.45 * Year 4 EFF
+  </blockquote>
+
+
+
+<h4><a name="output"></a>
+<a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='Disturbed WEPP documentation'; return true"></a>
+Output</h4>
+
+[
+<a href="#summary">Summary</a> |
+<a href="#graph">Exceedance Probability Graph</a> |
+<a href="#calculator">Mitigation Treatment Comparisons Calculator</a> |
+<a href="#tables">Supporting Tables</a> |
+<a href="#saving">Saving Results</a>
+]
+
+<a name="summary"></a>
+ <h5>Summary of Input Selections and Initial 100-yr WEPP Run</h5>
+ <strong>Summary of user selections</strong>-The top of the ERMiT output screen reports the user inputs (fig. 8).
+If the climate was user-modified, the standard climate station and modified parameter values are reported.
+Maximum temperature by month in degrees Celsius or Fahrenheit (T MAX), maximum temperature by month in degrees Celsius or Fahrenheit (T MIN), mean precipitation by month in mm or inches (MEANP), and number of wet days by month (# WET) are included in the climate summary (fig. 8).
+User inputs for soil texture, rock content, hillslope gradient and length, soil burn severity, and vegetation type also reported.
+ <br><br>
+ <strong>Precipitation and runoff values from the initial WEPP run</strong>-The average annual precipitation and runoff values generated in the initial 100-year WEPP run are reported in the output screen (fig. 9).
+This initial WEPP run uses the "most erosive" parameters-in other words, soil parameter sets High-Soil 1 to Soil 5 and soil burn severity spatial arrangement HHH).
+ <br><br>
+ <strong>Selected storm characteristics</strong>-An output table shows some of the characteristics of the five rain events associated with the five runoff events selected for further analysis (fig. 10).
+The table row reports the largest (ranked 1st out of 100 for runoff) modeled runoff event, and is presented for user interest only.
+The storms listed on rows 2 through 6 (ranked 5th, 10th, 20th, 50th, and 75th for runoff) are used to determine the input to the 5- to 10- year weather file WEPP used for the multiple runs.
+Rain event descriptors include:
+  <ol>
+   <li><strong>Storm rank</strong>-rank of the total runoff amount from the largest to smallest;
+   <li><strong>Storm runoff (mm or in)</strong>-total runoff modeled by WEPP for the storm;
+   <li><strong>Storm precipitation (mm or in)</strong>-total precipitation (rain or snow) for that event;
+   <li><strong>Storm duration (h)</strong>-length of the storm event;
+   <li><strong>10-min and 30-min peak rainfall intensity (mm h-1 or in h-1)</strong>-estimated values of rainfall intensity for the given storm, calculated from information WEPP provides for the storm ["N/A" indicates that a value could not be calculated, and generally indicates a snowmelt event in which no precipitation occurred]; and
+   <li><strong>Storm Date</strong>-month and day in which the storm event occurred, and the nominal year (1 to 100) [The storm date can be useful in helping to determine what type of event it is (snowmelt, spring storm, etc.)].
+  </ol>
+<a name="graph"></a>
+ <h5>Sediment Delivery Exceedance Probability Graph for Untreated Condition</h5>
+ Below the inputs and selected rain event summaries, a graphical output shows hillslope sediment delivery exceedance probabilities plotted against the predicted event sediment delivery for each of the first five post-fire years (fig. 11).
+The spacing between the plotted lines for each year indicate the predicted recovery rate for the hillslope being modeled.
+ <br><br>
+ <strong>Interpreting the sediment delivery exceedance probability graph</strong>-As an example, draw an imaginary horizontal line across the graph (fig. 11) at 10 percent probability.
+ It crosses the 1st year (furthest right) curve at about 20.5 t ha-1 sediment delivery.
+ Thus there is a 10 percent probability that we might expect at least 20.5 t ha-1 sediment delivery to the base of the hillslope during the first year following a fire.
+The 2nd year curve crosses the imaginary horizontal 10 percent probability line at about 13 t ha-1 sediment delivery; the blue 3rd year curve at about 5.5 t ha-1; the 4th year at about 2.5 t ha-1; and the 5th year curve at about 2 t ha-1 (fig. 11).
+ Thus, each year the sediment delivery that has a 10 percent chance of exceedance decreases.
+ <br><br>
+ Alternatively, examine the target sediment delivery value, and observe the trends through time.
+ Draw an imaginary vertical line through the 5 t ha-1 sediment delivery on the horizontal axis.
+ The 1st year curve intersects the 5 t ha-1 line at about 42 percent probability-there is a 42 percent probability that the modeled hillslope will deliver at least 5 t ha-1 of sediment the first year following the fire.
+ The 5th year curve intersects at about 1 percent probability; thus the likelihood of delivering at least 5 t ha-1 of sediment has decreased from 42 to 1 percent between the 1st and 5th year following the fire (fig. 11).
+By clicking on the graph, the exceedance probabilities and sediment delivery are displayed in table format.
+
+<a name="calculator"></a>
+<h5>Mitigation Treatment Comparisons Calculator</h5>
+The Mitigation Treatment Comparisons calculator (fig. 12) is an interactive screen that allows the user to select an exceedance probability and have the corresponding event sediment delivery predictions displayed by year and by treatment.
+In terms of an untreated hillslope, this is analogous to drawing a line across the Sediment Exceedance Probability graph (fig. 11) at a selected exceedance probability value. 
+<br><br>
+The sediment delivery prediction calculator for treatment with erosion barriers (contour-felled logs and straw wattles) is embedded in the Mitigation Treatment Comparisons calculator (fig. 10).
+Predictions for contour-felled log or straw wattle erosion barrier treatments require a user-designated diameter (0.15 to 3.3 ft or 0.05 to 1 m) and erosion barrier spacing (10 to 165 ft or 3 to 50 m) (fig. 7). 
+<br><br>
+By using the interactive input box in the upper left corner of the Mitigation Treatment Comparisons calculator (fig. 12), the user can compare the predicted sediment delivery for a range of occurrence probabilities (1 to 99.9 percent).
+In addition, by clicking on the printer symbol to the right of each treatment label (or by using the text link further down the page), a full table of predicted event sediment deliveries and their occurrence probabilities by year for an individual treatment are displayed on screen. The tabular output screen allows the predicted event sediment deliveries of the untreated hillslope to be compared to the treated hillslope for each of five post-fire years. 
+
+<a name="tables"></a>
+<h5>Supporting Tables</h5>
+ERMiT provides nine supporting tables (fig. 13), which are accessible by clicking either on the small printer icons located within the Mitigation Treatment Comparisons calculator, or on the textual links near the bottom of the results page. These supporting tables include:
+   <ul>
+    <li>sediment yield-probability table (fig. 14);
+    <li>sediment delivery paragraphs (fig. 15);
+    <li>sediment delivery-probability of exceedance tables: Untreated (fig. 16), Seeding, and Mulching (47 percent, 72 percent, 89 percent, and 94 percent cover); and
+    <li>erosion barrier efficiency tables (fig. 17)
+   </ul>
+These are the same tables and figures that are linked from elsewhere (by clicking on various printer icons or graphs) in the output.
+<br><br>
+Each ERMiT run is assigned an identification number (Run ID wepp-000000), which is displayed on the screen with the graphs and supporting tables. This ID number allows the user to track results from a single run and compare results from different runs. In the footer at the bottom of the ERMiT output page, the ERMiT version, WEPP version, report on monsoon climate check, ERMiT run ID, and example citation are listed (fig. 18).
+
+
+<a name="saving"></a>
+<h5>Saving Results</h5>
+All results and supporting tables can be printed using the print function of the computer where ERMiT is being run. Alternatively, the "cut and paste" or "copy and paste" function can be used to transfer ERMiT output into appropriate Microsoft Office applications such as MS Word, but the mitigation treatment comparison table will not be interactive. If the output page is saved as a "Web page, HTML only," the functionality of the mitigation treatment comparison table will be retained but the graph and other images will be lost. Currently, no log file for accumulating ERMiT results is available.
+
+</blockquote>
+
+
+
+<h4><a name="implications"></a>
+<a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='Disturbed WEPP documentation'; return true"></a>
+Management Implications</h4>
+<blockquote>
+United States land management agencies have spent tens of millions of dollars on postfire emergency watershed stabilization measures intended to minimize flood runoff, peakflows, onsite erosion, offsite sedimentation, and other hydrologic damage to natural habitats, roads, bridges, reservoirs, and irrigation systems (General Accounting Office 2003). The decision to apply postfire treatments to reduce runoff and erosion is based on a cost-benefit analysis-assessing the probability that damaging erosion will occur, the need for and cost of restoring damaged resources, the probability of reducing erosion with applied mitigation treatments, the costs of treatment application, and the savings realized by reducing resource damage. Although the costs or value of potentially damaged resources and postfire mitigation treatments can be determined, the probability of damaging runoff and erosion occurring and the effectiveness of mitigation treatments are not well established. Consequently, managers often must assign these probabilities and estimate treatment effectiveness based on past experience and consensus of opinion. 
+<br><br>
+Land managers need more information and tools to determine hazard probabilities and balance the costs and potential benefits of treatments. Unlike most erosion prediction models, ERMiT does not provide 'average annual erosion rates;' rather, it provides a distribution of erosion rates with the likelihood of their occurrence. Such output can help managers make erosion mitigation treatment decisions based on the probability of high sediment yields occurring, the value of resources at risk for damage, cost, and other management considerations. ERMiT is most useful when managers determine an event sediment delivery amount they can accept and the probability of that event occurring (see example in Appendix 2). This would likely vary within a burned area. For example, short term declines in water quality may be more acceptable than damage to a unique cultural heritage site, and modeling the hillslopes above these two resources would likely require different user-designated exceedance probabilities and treatment criteria.
+<br><br>
+Application of postfire erosion mitigation treatments does not eliminate erosion, but treatments can reduce the hillslope response to many rain events. After wildfires, managers can use ERMiT to estimate the probabilities of erosion-producing rain events occurring, the expected event sediment deliveries, and predicted rates of recovery for the burned area. In addition, realistic expectations of treatment effectiveness, will allow managers to make more cost-effective choices of where, when, and how to treat burned landscapes.
+</blockquote>
+
+
+
+<h4><a name="references"></a>
+<a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='Disturbed WEPP documentation'; return true"></a>
+References</h4>
+<blockquote>
+<p class=reference">Brady, J.A.; Robichaud, P.R.; Pierson, F.B. 2001. Infiltration rates after wildfire in the Bitterroot Valley. Presented at: 2001 ASAE annual international meeting, American Society of Agricultural Engineers. Paper Number 01-8003. St. Joseph, MI: American Society of Agricultural Engineers. 
+<p class=reference">Daly, C.; Neilson, R.P.; D.L. Phillips, D.L. 1994. A statistical-topographic model for mapping climatological precipitation over mountainous terrain. Journal of Applied Meteorology. 33: 140-148.
+<p class=reference">Elliot, W.J. 2004. WEPP internet interfaces for forest erosion prediction. Journal of the American Water Resources Association. 40(2): 299-309.
+<p class=reference">Elliot, W.J.; Hall, D.E. 2000. Rock:Clime Beta CD Version Rocky Mountain Research Station Stochastic Weather Generator Technical Documentation. [online at http://forest.moscowfsl.wsu.edu/fswepp/docs/0007RockClimCD.html] Moscow, ID: US Department of Agriculture, Forest Service, Rocky Mountain Research Station. [accessed 23 March 2006]
+<p class=reference">Elliot, W.J.; Scheele, D.L.; Hall, D.E. 1999. Rock:Clime Rocky Mountain Research Station Stochastic Weather Generator Technical Documentation. [online at: http://forest.moscowfsl.wsu.edu/fswepp/docs/rockclimdoc.html] Moscow, ID: US Department of Agriculture Forest Service, Rocky Mountain Research Station. [accessed 23 March 2006]
+<p class=reference">Flanagan, D.C.; Livingston, S.J. (eds.) 1995. WEPP user summary. NSERL Report No. 11. West Lafayette, IN: US Department of Agriculture, National Soil Erosion Research Laboratory. 
+<p class=reference">General Accounting Office. 2003. Wildland fires: better information needed on effectiveness of emergency stabilization and rehabilitation treatments. Report GAO-03-430. US General Accounting Office, Washington, D.C., USA. 
+<p class=reference">Nicks, A.D.; Lane, L.J.; Gander, G.A. 1995. Weather generator. In: Flanagan, D.C.; Nearing, M.A. (Eds), USDA-Water Erosion Prediction Project Hillslope Profile and Watershed Model Documentation. NSERL Report No. 10. West Lafayette, IN: US Department of Agriculture, Agricultural Research Station, National Soil Erosion Research Laboratory.
+<p class=reference">Pierson, F.B.; Robichaud, P.R.; Spaeth, K.E. 2001. Spatial and temporal effects of wildfire on the hydrology of a steep rangeland watershed. Hydrological Processes. 15: 2905-2916. 
+<p class=reference">Robichaud, P.R. 1996. Spatially-varied erosion potential from harvested hillslopes after prescribed fire in the interior Northwest. PhD Thesis. University of Idaho, Moscow, ID, USA. 
+<p class=reference">Robichaud, P.R. 2000. Fire effects on infiltration rates after prescribed fire in Northern Rocky Mountain forests, USA. Journal of Hydrology. 231-232: 220-229.
+<p class=reference">Robichaud, P.R.; Miller, S.M. 1999. Spatial interpolation and simulation of post-burn duff thickness after prescribed fire. International Journal of Wildland Fire. 9(2): 137-143.
+<p class=reference">Robichaud, P.R.; Elliot, W.J.; Pierson, F.B.; Hall, D.E.; Moffet, C.A. [in press] Predicating postfire erosion and mitigation effectiveness with a web-based probabilistic erosion model. Catena. 
+<p class=reference">Robichaud, P.R.; Elliot, W.J.; Pierson, F.B.; Hall, D.E.; Moffet, C.A. 2006. Erosion Risk Management Tool (ERMiT) Ver. 2006.01.18. [Online at <http://forest.moscowfsl.wsu.edu/fswepp/>.] Moscow, ID: U.S. Department of Agriculture, Forest Service, Rocky Mountain Research Station.
+<p class=reference">Robichaud, P.R.; Beyers, J.L.; Neary, D.G. 2000. Evaluating the effectiveness of postfire rehabilitation treatments. Gen. Tech. Rep. RMRS-GTR-63. Fort Collins, CO: US Department of Agriculture, Forest Service, Rocky Mountain Research Station. 85 p.  
+</blockquote>
+
+
+<h4><a name="assumptions"></a>
+<a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='Disturbed WEPP documentation'; return true"></a>
+Model Assumptions</h4>
+
+<blockquote>
+ERMiT runs WEPP (version 2000.100) in cropland mode with adjustments in the management and soil files to simulate post-fire forest, range, and chaparral environments. These adjustments are based on the following assumptions in terms of the WEPP model:
+ <ul>
+  <li>The model year begins the day after the wildfire occurs and ends on the anniversary day of the fire.
+  <li>Ground cover effects are modeled by adjusting soil erodibility/cover values based on field measurements from a variety of soil types and soil burn severity conditions.
+  <li>Management file "Plant Section:"
+   <ul>
+    <li>o	No biomass 
+     <ul>
+      <li>§	'biomass energy ratio (beinp)' set to zero
+     </ul>
+    <li>o	No decomposition
+     <ul>
+      <li>§	'decomposition constant to calculate mass change of above-ground biomass (surface or buried) (oratea)' set to zero
+      <li>§	'decomposition constant to calculate mass of change of root-biomass (orater)' set to zero
+     </ul>
+    <li>o	Initial conditions set to give 1 percent cover
+     <ul>
+      <li>§	'initial canopy cover (0-1) (cancov)' set to 0.01
+      <li>§	'days since last tillage (daydis)' set to 9999
+      <li>§	'days since last harvest (dsharv)' set to 900
+      <li>§	'initial interrill cover (0-1) (inrcov) set to 0.01
+      <li>§	'initial residue cropping system (imngmt)' set to perennial
+      <li>§	'initial rill cover (0-1) (rilcov)' set to 0.01
+     </ul>
+    <li>o	No surface effects
+    <li>o	Yearly
+    <li>o	Harvest date set to September 1 (Julian day 244)
+     <ul>
+      <li>§	Planting date set to May 1
+     </ul>
+    </ul>
+    <li>·	Soil Input file:
+   <ul>
+    <li>o	One soil layer
+    <li>o	Percentage of organic matter (orgmat) in the layer is 5 percent by volume
+    <li>o	Albedo of the bare dry surface soil (salb) is 0.2
+    <li>o	Initial saturation level of the soil profile porosity (sat) is 0.75 m/m
+    <li>o	Depth of soil surface to bottom of soil layer (solthk) is 400 mm
+    <li>o	Percentage of sand in the layer (sand) varies by soil texture
+    <li>o	Percentage of clay in the layer (clay) varies by soil texture
+    <li>o	Cation exchange capacity in the layer (cec) varies by soil texture
+    <li>o	Rock fragment amount (rfg) is user-specified (maximum 50 percent)
+    <li>o	Interrill erodibility (ki) varies by soil texture and &lt;bs&gt; and &lt;sp&gt;1
+    <li>o	Rill erodibility (kr) varies by soil texture and &lt;bs&gt; and &lt;sp&gt;1
+    <li>o	Baseline critical shear (shcrit) varies by soil texture and &lt;bs&gt; and &lt;sp&gt;1
+    <li>o	Effective hydraulic conductivity (avke) varies by soil texture and &lt;bs&gt; and &lt;sp&gt;1
+  </ul>
+ </ul>
+
+1&lt;bs&gt; represents the discrete burn severity spatial arrangement ('HHH,' 'HHL,' 'LHH,' etc.) used in a WEPP run.  <sp> represents the discrete soil parameter set (High 'Soil 1' to 'Soil 5' and  Low 'Soil 1' to 'Soil 5') used in a WEPP run.  Individual runs of WEPP use each applicable burn severity spatial arrangement with each soil parameter set, generating a WEPP output file for each combination of these two variable sets for each selected rain event.
+
+</blockquote>
+
+<h4><a name="example"></a>
+<a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='Disturbed WEPP documentation'; return true"></a>
+Example</h4>
+
+<blockquote>
+An example ERMiT run is presented to illustrate the user interface and model output formats and to describe the sediment delivery prediction analyses. The context for this example run is the 2000 Valley Complex Fires that burned in the Bitterroot National Forest of Montana. These large wildfires burned many steep hillslopes at high severity. The water quality of the streams and rivers within the burned area are highly valued resources that were at risk from large increases in sedimentation. This example run is for a 250 m slope above Rye Creek, which has a sandy loam soil with 20 percent rock content. The hillslope gradients are 10 percent at the top, 40 percent at mid-slope, and 20 percent at the toe (Fig. 19).  
+<br><br>
+The postfire assessment team is determining the risk of postfire erosion that exceeds a manageable limit for event sediment delivery at the base of the hillslope. In order to use the Mitigation Treatment Comparisons calculator, the postfire assessment team established the following decision criteria:  1) 3 t ac-1 was the maximum manageable single event sediment delivery in postfire year 1; and 2) straw mulch treatment will be applied if the year 1 risk of exceeding the event sediment delivery limit (3 t ha-1) is greater than 10% and straw mulch application will reduce that risk to 10 percent or less.
+<br><br>
+By setting the output table to 10 percent exceedance probability (circled area in Fig 20), the postfire assessment team was able to compare the effects of mulching at different rates. On the untreated hillslope, sediment delivery estimates with 10 percent exceedance probability are nearly 9 t ac-1, which is well above the 3 t ac-1 manageable limit set by the assessment team. Mulching at a rate of 0.5 t ac-1 lowers the sediment delivery prediction with a 10 percent exceedance probability to 3.4 t ac-1, which is still above the manageable limit set by the postfire assessment team. However, mulching at a rate of 1.0 t ac-1 lowers the predicted sediment delivery with a 10 percent exceedance probability to 2.4 t ac-1, which is within the acceptable limits set by the team. Mulching at a higher rate does not lower the predicted event sediment delivery enough to justify the additional mulch (Fig. 20). These ERMiT predictions support the assessment team's decision to apply straw mulch at a 1 t ac-1 rate on the burned hillslope.
+</blockquote>
+
+ </body>
+</html>

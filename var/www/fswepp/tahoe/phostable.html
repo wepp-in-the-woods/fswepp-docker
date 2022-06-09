@@ -1,0 +1,164 @@
+<html>
+ <head>
+  <script type="text/javascript">
+   function erase_sr_delivery() {
+     document.getElementById('sr_delivery').innerHTML="";
+     document.getElementById('total').innerHTML="";
+   }
+   function erase_lf_delivery() {
+     document.getElementById('lf_delivery').innerHTML="";
+     document.getElementById('total').innerHTML="";
+   }
+   function erase_sed_delivery() {
+     document.getElementById('sed_delivery').innerHTML="";
+     document.getElementById('total').innerHTML="";
+   }
+   function reset_defaults() {
+     phosphate.sr_conc.value=1;    // calc_sr_delivery()
+     phosphate.lf_conc.value=1.5;  // calc_lf_delivery()
+     phosphate.sed_conc.value=100; // calc_sed_delivery()
+     calc_delivery();
+   }
+   function calc_sr_delivery() {
+     //  D mm x 10,000 sq m/ha x 1 m/1000mm x 1000 l/cu m = 10,000 D l/mm 
+     //  10,000 D l/mm x C mg/l x 1 kg/1,000,000 mg = D * C / 100 kg/ha
+     //  where D = depth of surface runoff (mm)
+     //        C = concentration of phosphorous in surface runoff (mg/l)
+     val='';
+     D = 14.6;    // ****
+     if (form_input_is_numeric(phosphate.sr_conc.value)) {
+        val = D * phosphate.sr_conc.value / 100
+     }
+     document.getElementById('sr_delivery').innerHTML=val;
+   }
+   function calc_lf_delivery() {
+     val='';
+     //  D mm x 10,000 sq m/ha x 1 m/1000mm x 1000 l/cu m = 10,000 D l/mm 
+     //  10,000 D l/mm x C mg/l x 1 kg/1,000,000 mg = D * C / 100 kg/ha
+     //  where D = depth of lateral flow (mm)
+     //        C = concentration of phosphorous in lateral flow (mg/l)
+     val='';
+     D = 40;    // ****
+     if (form_input_is_numeric(phosphate.lf_conc.value)) {
+       val = D * phosphate.lf_conc.value / 100
+     }
+     document.getElementById('lf_delivery').innerHTML=val;
+   }
+   function calc_sed_delivery() {
+     // S t/ha * 1,000 kg/t * C mg/kg * 1 kg/1,000,000 mg x SSA = S * C * SSA / 1,000 kg/ha
+     // where S = sediment leaving profile (t/ha)
+     //       C = concentration of phosphoros in eroded sediment (likely the same as on the hill)
+     //     SSA = average annual SSA enrichment ratio leaving profile
+     val='';
+     S = 1.87;    // ****
+     SSA=1.1;     // ****
+     if (form_input_is_numeric(phosphate.sed_conc.value)) {
+       val=S * phosphate.sed_conc.value * SSA / 1000;
+     }
+     document.getElementById('sed_delivery').innerHTML=val;
+   }
+   function calc_total_delivery() {
+     sr_num=form_input_is_numeric(phosphate.sr_conc.value);
+     lf_num=form_input_is_numeric(phosphate.lf_conc.value);
+     sed_num=form_input_is_numeric(phosphate.sed_conc.value);
+     val=''
+     if (sr_num && lf_num && sed_num) {
+       sr_del =parseFloat(document.getElementById('sr_delivery').innerHTML)
+       lf_del =parseFloat(document.getElementById('lf_delivery').innerHTML)
+       sed_del=parseFloat(document.getElementById('sed_delivery').innerHTML)
+       val=sr_del + lf_del + sed_del
+     }
+     document.getElementById('total').innerHTML=val;
+   }
+   function calc_delivery() {
+     calc_sr_delivery()
+     calc_lf_delivery()
+     calc_sed_delivery()
+     calc_total_delivery()
+   }
+  function form_input_is_numeric(input) {       // http://andrewpeace.com/javascript-is-numeric.html
+    return !isNaN(input);
+  }
+  function markRunoffs() {
+    document.getElementById('rro').style.background='lightgreen'
+    document.getElementById('sro').style.background='lightgreen'
+  }
+  function unmarkRunoffs() {
+    document.getElementById('rro').style.background='white'
+    document.getElementById('sro').style.background='white'
+  }
+  function markLatFlow() {
+    document.getElementById('lat').style.background='lightgreen'
+  }
+  function unmarkLatFlow() {
+    document.getElementById('lat').style.background='white'
+  }
+  function markSed() {
+    document.getElementById('sed').style.background='lightgreen'
+  }
+  function unmarkSed() {
+    document.getElementById('sed').style.background='white'
+  }
+
+  </script>
+ </head>
+ <body>
+
+  <table>
+   <tr><th colspan=5>		Mean annual averages for 30 years		</th></tr>
+   <tr><td align=right>1006.1</td><td>mm</td><td>precipitation from</td><td>2730</td><td>storms</td></tr>
+   <tr><td align=right id="rro">12.7</td><td>mm</td><td>runoff from rainfall from</td><td>117</td><td>events</td></tr>
+   <tr><td align=right id="sro">1.9</td><td>mm</td><td>runoff from snowmelt or winter rainstorm from</td><td>12</td><td>events</td></tr>
+   <tr><td align=right id="lat">40</td><td>mm</td><td>lateral flow</td></tr>
+   <tr><td align=right>2.18</td><td>t ha-1</td><td>upland erosion rate (0.218 kg m-2)</td></tr>
+   <tr><td align=right id="sed">1.87</td><td>t ha-1</td><td>sediment leaving profile (28.074 kg m-1 width)</td></tr>	
+   <tr><td align=right>1.1</td><td></td><td>average annual SSA enrichment ratio leaving profile</td></tr>
+  </table>
+<br>
+  <form name=phosphate>
+   <table border=1 cellpadding=5>
+    <tr>
+     <td colspan=7 bgcolor=yellow><b>Phosphate</b></td>
+    </tr>
+    <tr>
+     <th bgcolor=lightyellow>Source</th>
+     <th colspan=2 bgcolor=lightyellow>Amount</th>
+     <th colspan=2 bgcolor=lightyellow>Concentration</th>
+     <th colspan=2 bgcolor=lightyellow>Delivery</th>
+    </tr>
+    <tr>
+     <td bgcolor=lightyellow><b>Surface runoff</b></td>
+     <td align=right bgcolor=lightgreen onmouseover="markRunoffs()" onmouseout="unmarkRunoffs()">14.6</td>  <!-- **** surface runoff (rain + snow) **** -->
+     <td bgcolor=lightgreen>mm</td>
+     <td align=right><input type=text size=4 value='1' name='sr_conc' onkeypress="erase_sr_delivery()"></td>
+     <td>mg/l</td>
+     <td align=right><span id="sr_delivery">0.146 </span></td><td>kg/ha</td>
+    </tr>
+    <tr>
+     <td bgcolor=lightyellow><b>Lateral flow</b></td>
+     <td align=right bgcolor=lightgreen onmouseover="markLatFlow()" onmouseout="unmarkLatFlow()">40</td>  <!-- **** lateral flow **** -->
+     <td bgcolor=lightgreen>mm</td>
+     <td align=right><input type=text size=4 value='1.5' name='lf_conc' onkeypress="erase_lf_delivery()"></td>
+     <td>mg/l </td>
+     <td align=right><span id="lf_delivery">0.6</span></td>
+     <td>kg/ha</td>
+    </tr>
+    <tr>
+     <td bgcolor=lightyellow><b>Sediment</b></td>
+     <td align=right bgcolor=lightgreen onmouseover="markSed()" onmouseout="unmarkSed()">1.87</td>  <!-- **** sediment leaving profile **** -->
+     <td bgcolor=lightgreen>kg/ha</td>
+     <td align=right><input type=text size=4 value='100' name='sed_conc' onkeypress="erase_sed_delivery()"></td>
+     <td>mg/kg</td>
+     <td align=right><span id="sed_delivery">0.206</span></td>
+     <td>kg/ha</td>
+    </tr>
+    <tr>
+     <td colspan=3 bgcolor=lightyellow><b>Total</b></td>
+     <th><input type=button value="reset" onClick="reset_defaults()"></th>
+     <th><input type=button value="calculate =>" onClick="calc_delivery()"></th>
+     <td align=right><span id="total">0.952</span></td><td>kg/ha</td></tr>
+   </table>
+  </form>
+ </body>
+</html>
+

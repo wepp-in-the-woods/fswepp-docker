@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+  <title>Idaho Climate Station Map</title>
+
+   <script src="http://maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAAxtSgHZfocOyX4Q1NRSD7lxTdb71tKAVcyYX7Q1NgMeQp5FDfbhTys95CepsqJkxrb4JPQvtKA1SB5g"
+      type="text/javascript"></script>
+   <script type="text/javascript">
+    //<![CDATA
+    var map
+    function load() {   
+      // Looks if browser is compatible for the map
+      if (GBrowserIsCompatible()) {
+      	
+      	//Create new map opject
+        map = new GMap2(document.getElementById("map"));
+        
+        //Add map controls
+        map.addControl(new GSmallMapControl());
+        map.addControl(new GMapTypeControl());
+        
+        //Set standard map type to hybrid
+//        map.setCenter(new GLatLng(<?=$lat?>, <?=$lon?>), 13);
+        map.setCenter(new GLatLng(47.32, -116.57), 13);
+        map.setMapType( G_HYBRID_TYPE );
+        var icon = new GIcon();
+
+        //Create point for climate station
+
+//        var point = new GLatLng(<?=$lat?>, <?=$lon?>);
+//        map.addOverlay(new GMarker(point));
+
+        var point = new GLatLng( 42.50,-112.57); map.addOverlay(new GMarker(point))
+        var point = new GLatLng( 43.60,-115.92); map.addOverlay(new GMarker(point))
+        var point = new GLatLng( 42.88,-115.80); map.addOverlay(new GMarker(point))
+        var point = new GLatLng( 42.53,-113.77); map.addOverlay(new GMarker(point))
+        var point = new GLatLng( 48.08,-116.07); map.addOverlay(new GMarker(point))
+        var point = new GLatLng( 44.57,-116.68); map.addOverlay(new GMarker(point))
+        var point = new GLatLng( 45.08,-114.23); map.addOverlay(new GMarker(point))
+        var point = new GLatLng( 43.47,-113.57); map.addOverlay(new GMarker(point))
+        var point = new GLatLng( 44.32,-115.63); map.addOverlay(new GMarker(point))
+        var point = new GLatLng( 43.58,-116.75); map.addOverlay(new GMarker(point))
+        var point = new GLatLng( 44.25,-112.20); map.addOverlay(new GMarker(point))
+        var point = new GLatLng( 43.35,-114.80); map.addOverlay(new GMarker(point))
+        var point = new GLatLng( 46.10,-115.55); map.addOverlay(new GMarker(point))
+        var point = new GLatLng( 43.03,-112.43); map.addOverlay(new GMarker(point))
+        var point = new GLatLng( 43.52,-112.07); map.addOverlay(new GMarker(point))
+        var point = new GLatLng( 43.53,-112.95); map.addOverlay(new GMarker(point))
+        var point = new GLatLng( 44.42,-111.40); map.addOverlay(new GMarker(point))
+        var point = new GLatLng( 44.60,-113.92); map.addOverlay(new GMarker(point))
+        var point = new GLatLng( 42.32,-111.30); map.addOverlay(new GMarker(point))
+        var point = new GLatLng( 46.73,-117.00); map.addOverlay(new GMarker(point))
+        var point = new GLatLng( 46.48,-116.25); map.addOverlay(new GMarker(point))
+        var point = new GLatLng( 43.37,-111.23); map.addOverlay(new GMarker(point))
+        var point = new GLatLng( 45.42,-116.32); map.addOverlay(new GMarker(point))
+        var point = new GLatLng( 47.32,-116.57); map.addOverlay(new GMarker(point))
+        var point = new GLatLng( 45.18,-113.90); map.addOverlay(new GMarker(point))
+        var point = new GLatLng( 48.28,-116.57); map.addOverlay(new GMarker(point))
+        var point = new GLatLng( 44.22,-114.93); map.addOverlay(new GMarker(point))
+        var point = new GLatLng( 42.55,-114.35); map.addOverlay(new GMarker(point))
+        var point = new GLatLng( 47.50,-115.88); map.addOverlay(new GMarker(point))
+        var point = new GLatLng( 45.27,-115.67); map.addOverlay(new GMarker(point))
+
+      }
+    }
+    
+    //]]>
+    </script>
+ </head>
+ <body onload="load()">
+  IDAHO
+  <div id="map" style="height: 500px"></div>
+ </body>
+
+</html>

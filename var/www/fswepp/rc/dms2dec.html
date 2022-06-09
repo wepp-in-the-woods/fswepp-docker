@@ -1,0 +1,142 @@
+<html>
+<head>
+<title>
+Convert Degrees-Minutes-Seconds to decimal degrees and back
+</title>
+<script>
+
+function valid_deg() {
+
+   var degrees = document.dms.degrees.value;
+//   if (degrees == '') {document.dms.degrees.value=0; deg=0}
+   if (isNumber(degrees)) {
+     var deg = parseInt(degrees)
+     if (deg < -180) document.dms.degrees.value = -180; deg = -180;
+     if (deg > 180) document.dms.degrees.value = 180; deg = 180;
+     return true;
+   }
+   else {
+     return false;
+   }
+}
+function valid_min() {
+   var minutes = document.dms.minutes.value;
+//   if (minutes == '') {document.dms.minutes.value=0; min=0}
+   if (isNumber(minutes)) {
+     var min = parseInt(minutes)
+     if (min <  0) document.dms.minutes.value =  0
+     if (min > 59) document.dms.minutes.value = 59
+     return true;
+   }
+   else {
+     return false;
+   }
+}
+function valid_sec() {
+   var seconds = document.dms.seconds.value;
+//   if (seconds == '') {document.dms.seconds.value=0; sec=0}
+   if (isNumber(seconds)) {
+     var sec = parseInt(seconds)
+     if (sec <  0) document.dms.seconds.value =  0;
+     if (sec > 59) document.dms.seconds.value = 59;
+     return true;
+   }
+   else {
+     return false;
+   }
+}
+
+function valid_dec() {
+   if (isNumber(document.dms.decimal.value)) {
+     return true;
+   }
+   else {
+     return false;
+   }
+}
+
+function dms2dec(d,m,s) {
+
+   if (valid_deg() && valid_min() && valid_sec()) {
+     var degrees = parseInt(document.dms.degrees.value);
+     var minutes = parseInt(document.dms.minutes.value);
+     var seconds = parseInt(document.dms.seconds.value);
+     var sign = 1;
+     if (degrees < 0) {sign = -1; degrees = Math.abs(degrees)}
+     var decimal=round(degrees+(minutes/60)+(seconds/3600),4);
+     document.dms.decimal.value=decimal*sign;
+   }
+   else {
+     document.dms.decimal.value=""
+   }
+}
+
+function dec2dms() {
+  if (valid_dec()) {
+    var degrees = parseFloat(document.dms.decimal.value);
+    var sign = 1;
+    if (degrees < 0) {sign = -1; degrees = Math.abs(degrees)}
+    var deg = Math.floor(degrees);
+    var remains = (degrees - deg) * 60;
+    var min = Math.floor(remains);
+    var remains = (remains - min) * 60;
+    var sec = round(remains,0)
+     document.dms.degrees.value = deg * sign;
+     document.dms.minutes.value = min;
+     document.dms.seconds.value = sec;
+  }
+  else {
+     document.dms.degrees.value = "";
+     document.dms.minutes.value = "";
+     document.dms.seconds.value = "";
+  }
+}
+
+function round(realnumber,numdecs) {
+  var x = realnumber
+  var cnumdecs = Math.round(numdecs)
+  var factor = Math.pow(10,cnumdecs)
+  var intermed = x * factor + 0.5
+  var r = Math.floor(intermed) / factor
+  return r
+}
+
+function isNumber(inputVal) {
+  oneDecimal = false
+  inputStr = "" + inputVal
+  if (inputStr=='') return false;
+  for (var i = 0; i < inputStr.length; i++) {
+    var oneChar = inputStr.charAt(i)
+    if (i == 0 && oneChar == "-") {
+      continue
+    }
+    if (oneChar == "." && !oneDecimal) {
+      oneDecimal = true
+      continue
+    }
+    if (oneChar < "0" || oneChar > "9") {
+      return false
+    }
+  }
+  return true
+}
+</script>
+</head>
+<body bgcolor="ivory">
+<h3 align="center">Convert Degrees-Minutes-Seconds to decimal degrees and back</h3>
+<form name="dms">
+<table border=1 align=center>
+<tr><td bgcolor="#cc6633"><b>
+<input type="text" size=10 name="degrees" onChange="dms2dec()"> <sup>o</sup> Degrees<br>
+<input type="text" size=10 name="minutes" onChange="dms2dec()"> ' Minutes<br>
+<input type="text" size=10 name="seconds" onChange="dms2dec()"> " Seconds<br>
+<p>
+<input type="text" size=10 name="decimal" onChange="dec2dms()"> Decimal degrees
+</b></tr>
+</table>
+</form>
+<p>
+U.S.D.A. Forest Service, Rocky Mountain Research Station, Moscow, ID
+</body>
+</html>
+

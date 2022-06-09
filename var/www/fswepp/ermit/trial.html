@@ -1,0 +1,30 @@
+<html>
+ <head>
+  <script language="javascript">
+
+   var newin=null
+
+function RunningMsg () {                                              
+//       obj.value=text
+// popup up up                                                                 
+   newin = window.open('/fswepp/ermit/spinner.html','spinner','width=600,scrollbars=yes,height=25')
+ //   newin = window.open('/fswepp/ermit/spinner.html','spinner')
+//   newin.document.open()                 
+}
+
+function remove_spinner() {
+//   if (newin != null) {
+//   alert('close!')
+     newin = window.open('closeme.html','spinner');
+//     newin.close()
+//   }
+}
+
+  </script>
+ </head>
+ <body onLoad="remove_spinner()">
+  <form>
+   <input type="submit" onClick="javascript:RunningMsg()" value="go">
+  </form>
+ </body>
+</html>

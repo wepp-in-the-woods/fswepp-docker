@@ -1,0 +1,418 @@
+<HTML>
+ <HEAD>
+  <TITLE>
+   Forest Service WEPP Interfaces
+  </TITLE>
+
+<!-- 2004.06.21 DEH Add link to WEPP:Road Batch --> 
+<!-- 2004.06.21 DEH Reduce size of footer text  --> 
+
+  <script language="JavaScript">
+<!--
+function updateUnits(r) {
+  document.CrossDrain.units.value=r
+  document.RockClim.units.value=r
+  document.WeppRoad.units.value=r
+  document.WeppRoadBatch.units.value=r
+  document.WeppDist.units.value=r
+  document.ERMiT.units.value=r
+}
+function updateUnits2() {
+  var check=0
+  if (document.unitsform.units[1].checked) {check=1}
+  document.CrossDrain.units.value=document.unitsform.units[check].value
+  document.RockClim.units.value=document.unitsform.units[check].value
+  document.WeppRoad.units.value=document.unitsform.units[check].value
+  document.WeppRoadBatch.units.value=document.unitsform.units[check].value
+  document.WeppDist.units.value=document.unitsform.units[check].value
+  document.ERMiT.units.value=document.unitsform.units[check].value
+}
+function setCookie() {
+  cookie_name = "FSWEPPuser";
+  days_to_expire = 1;
+  expiration_date = new Date();
+  expiration_date.setTime(expiration_date.getTime()+ days_to_expire *(24 * 60 * 60 * 1000));
+  expiration_date.toGMTString();
+  //  document.cookie = cookie_name + "=" + document.unitsform.user_name.value;
+  document.cookie = cookie_name + "=" + document.unitsform.user_name.value +
+                  ";expires=" + expiration_date +
+                  ";path=/";
+  //  updateMe();
+}
+function getCookie() {     // fixed 04/19/2001
+   var cookie_name = "FSWEPPuser";
+   if (document.cookie) {
+      index = document.cookie.indexOf(cookie_name);
+      var cookiebeg = (document.cookie.indexOf("=",index)+1);
+      if (cookiebeg==0) {
+         document.unitsform.user_name.value = "";
+      }
+      else {
+         var ident = document.cookie.substring(cookiebeg,cookiebeg+1);
+         document.unitsform.user_name.value = ident;
+      }
+   }
+   else {
+      document.unitsform.user_name.value = "";
+   }
+}
+//   var cookie_name = "FSWEPPuser";
+//   if(document.cookie) {
+//      index = document.cookie.indexOf(cookie_name);
+//      var cookiebeg = (document.cookie.indexOf("=",index)+1);
+//      var cookieend = document.cookie.indexOf(";",index);
+//      if (cookieend==-1) {cookieend=document.cookie.length}
+//      var ident = document.cookie.substring(cookiebeg,cookiebeg+1);
+//      document.unitsform.user_name.value = ident;
+//   } else {
+//      document.unitsform.user_name.value = "";
+//   }
+//}
+// -->
+  </script>
+ </HEAD>
+
+ <BODY bgcolor="white" text="black" link="red" vlink="green" onLoad="getCookie()">
+  <font face="Arial, Geneva, Helvetica">
+
+   <center>
+    <table border=0 width=100%>
+     <tr>
+      <td align=center>
+       <a href="http://forest.moscowfsl.wsu.edu/engr/"><img src="images/fsweppic2.jpg" align=left alt="Moscow Forestry Sciences Lab Soil and Water Engineering" border=0></a>
+      </td>
+      <td align=center>
+       <img src="images/line_red2.gif" border=0><br>
+       <h2><font color="red">Forest Service WEPP Interfaces</font></h2>
+       <br><img src="images/line_red2.gif"><br>
+      </td>
+      <td align=center>
+       <a href="docs/fsweppimg.html"><img src="images/ipage.gif" align=right border=0 alt="FS WEPP documentation"></a>
+      </td>
+     </tr>
+    </table>
+   <p>
+
+   <table border=0 cellpadding=4>
+
+<!-- X-Drain -->
+
+    <tr>
+     <th bgcolor=85d2d2 colspan=2>Run Program</th>
+     <th bgcolor=85d2d2>Description</th>
+     <th bgcolor=85d2d2>Documentation</th>
+    </tr>
+    <tr>
+     <td align=center>
+      <a href="javascript:updateUnits2(); document.forms.CrossDrain.submit()">
+      <img src="images/e-drain.gif" 
+       height=50 width=50
+       border=2
+       alt="Run X-DRAIN"
+       onClick="updateUnits2(); document.forms.CrossDrain.submit()"
+       onMouseOver="window.status='Run X-DRAIN';return true"
+       onMouseOut="window.status='Forest Service WEPP Interfaces'; return true"></a>
+    </td>
+    <td align=center>
+     <form method="post" name="CrossDrain" action="/cgi-bin/fswepp/xdrain/xdrain.pl">
+      <input type="submit"
+             name="program"
+             value="Cross Drain"
+             title="Model sediment yield from a road segment across a buffer"
+             onMouseOver="window.status='Model sediment yield from a road segment across a buffer';return true"
+             onMouseOut="window.status='Forest Service WEPP Interfaces'; return true"
+             onClick="updateUnits2()">
+      <input type="hidden" name=units value="m">
+     </form>
+    <td>
+     <font size=+1>
+      Model sediment yield from a road segment across a buffer
+     </font>
+    </td>
+    <td align=center>
+     <a href="http:/fswepp/docs/xdrainimg.html" target="_documentation">
+      <img src="images/ipage.gif" border=0 width=50 height=50 border=0
+       alt="X-DRAIN documentation"
+       onMouseOver="window.status='X-DRAIN documentation';return true"
+       onMouseOut="window.status='Forest Service WEPP Interfaces'; return true"></a>
+    </td>
+   </tr>
+
+<!-- WEPP:Road -->
+
+   <tr>
+    <td align=center>
+     <a href="JavaScript:updateUnits2(); document.forms.WeppRoad.submit()">
+     <img src="/fswepp/images/road4.gif"
+          height=50 width=50
+          border=2
+          alt="Run WEPP:Road"
+          onClick="updateUnits2(); document.forms.WeppRoad.submit()"
+          onMouseOver="window.status='Run WEPP:Road';return true"
+          onMouseOut="window.status='Forest Service WEPP Interfaces'; return true"></a>
+    </td>
+    <td align=center>
+     <form method="post" name="WeppRoad" action="/cgi-bin/fswepp/wr/wepproad.pl">
+      <input type="hidden" name="units" value="m">
+      <input type="submit"
+             name="program"
+             value="WEPP:Road"
+             title="Model erosion from insloped or outsloped forest roads"
+             onMouseOver="window.status='Model erosion from insloped or outsloped forest roads';return true"
+             onMouseOut="window.status='Forest Service WEPP Interfaces'; return true"
+             onClick="updateUnits2()">
+     </form>
+    </td>
+    <td>
+     <font size=+1>
+      Model erosion from insloped or outsloped forest roads
+     </font>
+    </td>
+    <td align=center>
+     <a href="/fswepp/docs/wroadimg.html" target="_documentation">
+      <img src="/fswepp/images/ipage.gif"
+           border=0 width=50 height=50 border=0
+           alt="WEPP:Road documentation"
+           onMouseOver="window.status='WEPP:Road documentation';return true"
+           onMouseOut="window.status='Forest Service WEPP Interfaces'; return true"></a>
+    </td>
+   </tr>
+
+<!-- WEPP:Road Batch -->
+
+   <tr>
+    <td align=center>
+     <a href="JavaScript:updateUnits2(); document.forms.WeppRoadBatch.submit()">
+      <img src="/fswepp/images/roadb.gif" height=50 width=50 border=2
+           alt="Run WEPP:Road Batch"
+           onClick="updateUnits2(); document.forms.WeppRoadBatch.submit()"
+           onMouseOver="window.status='Run WEPP:Road Batch';return true"
+           onMouseOut="window.status='Forest Service WEPP Interfaces'; return true"></a>
+    </td>
+    <td align=center>
+     <form method="post" name="WeppRoadBatch" action="/cgi-bin/fswepp/wr/wepproadbat.pl">
+      <input type="hidden" name="units" value="m">
+      <input type="submit"
+             name="program"
+             value="WEPP:Road Batch"
+             title="Model erosion from insloped or outsloped forest roads"
+             onMouseOver="window.status='Model erosion from multiple insloped or outsloped forest roads';return true"
+             onMouseOut="window.status='Forest Service WEPP Interfaces'; return true"
+             onClick="updateUnits2()">
+     </form>
+    </td>
+    <td>
+     <font size=+1>
+      Model erosion from multiple insloped or outsloped forest roads
+    </td>
+    <td align=center></td>
+   </tr>
+
+<!-- Disturbed WEPP -->
+
+   <tr>
+    <td align=center>
+     <a href="JavaScript:updateUnits2(); document.forms.WeppDist.submit()">
+      <img src="/fswepp/images/disturb.gif"
+           alt="Run Disturbed WEPP"
+           height=50 width=50
+           border=2
+           onClick="updateUnits2(); document.forms.WeppDist.submit()"
+           onMouseOver="window.status='Run Disturbed WEPP';return true"
+           onMouseOut="window.status='Forest Service WEPP Interfaces'; return true"></a>
+    </td>
+    <td align=center>
+     <form method=post name="WeppDist" action="/cgi-bin/fswepp/wd/weppdist.pl">
+      <input type=hidden name=units value="m">
+      <input type="submit"
+             name="program"
+             value="Disturbed WEPP"
+             title="Model erosion from rangeland, forestland, and forest skid trails"
+             onMouseOver="window.status='Model erosion from rangeland, forestland, and forest skid trails';return true"
+             onMouseOut="window.status='Forest Service WEPP Interfaces'; return true"
+             onClick="updateUnits2()">
+     </form>
+    </td>
+    <td>
+     <font size=+1>
+      Model erosion from rangeland, forestland, and forest skid trails
+     </font>
+    </td>
+    <td align=center>
+     <a href="/fswepp/docs/distweppdoc.html" target="_documentation">
+      <img src="/fswepp/images/epage.gif" width=50 height=50
+           alt="Disturbed WEPP documentation" border=0
+           onMouseOver="window.status='Disturbed WEPP documentation to come...';return true"
+           onMouseOut="window.status='Forest Service WEPP Interfaces'; return true"></a>
+    </td>
+   </tr>
+
+<!-- Ermit -->
+
+   <tr>
+    <td align=center>
+     <a href="JavaScript:updateUnits2(); document.forms.ERMiT.submit()">
+      <img src="/fswepp/images/ermit.gif"
+           alt="Run ERMiT"
+           height=50 width=50
+           border=2
+           onClick="document.forms.ERMiT.submit()"
+           onMouseOver="window.status='Run ERMiT';return true"
+           onMouseOut="window.status='Forest Service WEPP Interfaces'; return true"></a>
+    </td>
+    <td align=center>
+     <form method=post name="ERMiT" action="http://forest.moscowfsl.wsu.edu/cgi-bin/fswepp/ermit/ermit.pl">
+      <input type=hidden name=units value="m">
+      <input type="submit"
+             name="program"
+             value="ERMiT"
+             title="Erosion Rehabilitation Management Tool -- model erosion from burned areas"
+             onMouseOver="window.status='Erosion Rehabilitation Management Tool';return true"
+             onMouseOut="window.status='Forest Service WEPP Interfaces'; return true"
+             onClick="updateUnits2()">
+     </form>
+    </td>
+    <td>
+     <font size=+1>
+      Draft: Model erosion and sedimentation from burned areas
+     </font>
+    </td>
+    <td align=center>
+     <a href="/engr/library/Elliot/Elliot2001j/2001j.html" target="_documentation">
+      <img src="/fswepp/images/epage.gif" width=50 height=50
+           alt="Paper describing ERMiT technology" border=0
+           onMouseOver="window.status='ERMiT paper';return true"
+           onMouseOut="window.status='Forest Service WEPP Interfaces'; return true"></a>
+    </td>
+   </tr>
+
+<!-- Rock:Clime -->
+
+   <tr>
+    <td align=center>
+     <a href="JavaScript:updateUnits2(); document.forms.RockClim.submit()">
+     <img src="images/climate2.gif"
+          width=50 height=50
+          border=2
+          alt="Run Rock:Clime"
+          onClick="document.forms.RockClim.submit()"
+          onMouseOver="window.status='Run Rock:Clime';return true"
+          onMouseOut="window.status='Forest Service WEPP Interfaces'; return true"></a>
+    <td align=center>
+     <form method=post name="RockClim" action="/cgi-bin/fswepp/rc/rockclim.pl">
+      <input type=hidden name=units value="m">
+      <input type=hidden name=action value="-download">
+      <input type="submit"
+             name="program"
+             value="Rock:Clime"
+             title="Create and download a WEPP climate file to your PC"
+             onMouseOver="window.status='Create and download a WEPP climate file to your PC';return true"
+             onMouseOut="window.status='Forest Service WEPP Interfaces'; return true"
+             onClick="updateUnits2()"> 
+     </form>
+    <td>
+     <font size=+1>
+      Create and download a WEPP climate file to your PC
+     </font>
+    </td>
+    <td align=center>
+     <a href="/fswepp/docs/rcimg.html" target="_documentation">
+      <img src="/fswepp/images/ipage.gif" width=50 height=50
+           alt="Rock:Clime documentation" border=0
+           onMouseOver="window.status='Rock:Clime documentation';return true"
+           onMouseOut="window.status='Forest Service WEPP Interfaces'; return true"></a>
+    </td>
+   </tr>
+
+<!-- ARS WEPP interfaces-->
+
+  <tr>
+   <td align=center>
+    <a href="WEPPlinks.html">
+     <img src="images/wepp_t.gif"
+          alt="Other WEPP resources"
+          height=50 width=50 border=2
+          onMouseOver="window.status='Other WEPP resources';return true"
+          onMouseOut="window.status='Forest Service WEPP Interfaces'; return true">
+    </td>
+    <td align=center>
+    </td>
+    <td>
+     <font size=+1>
+      Other WEPP resources
+     </font>
+    </td>
+   </tr>
+  </table>
+
+  <p>
+        <form name = "unitsform">
+           <input type=radio name=units value=m
+                  onClick="updateUnits('m');">metric
+           <input type=radio name=units value=ft checked
+                  onClick="updateUnits('ft');">English
+<br>
+           <input type="text" name="user_name" size="1" onChange="setCookie()"> 
+<a href="id_info.html">ID (a to z)</a> 
+        </form>
+<p><img src="images/line_red2.gif"><p>
+<font size=1>
+[
+<a href="docs/fsweppdoc.html"
+   onMouseOver="window.status='Documentation for FS WEPP Interfaces'; return true"
+   onMouseOut="window.status='Forest Service WEPP Interfaces'; return true">
+   Documentation for FS WEPP Interfaces</a>
+|
+<a href="fsw_help.html"
+   onMouseOver="window.status='FS WEPP Interfaces hints and requirements'; return true"
+   onMouseOut="window.status='Forest Service WEPP Interfaces'; return true">
+   FS WEPP Interfaces hints and requirements</a>
+]
+<br>
+[
+<a href="/fswepp/comments.html"
+   onMouseOver="window.status='Send us your comments on the Forest Service WEPP interfaces'; return true"
+   onMouseOut="window.status='Forest Service WEPP Interfaces'; return true">
+   E-mail comments on FS WEPP to the development team</a>
+]
+<br>
+[
+<a href="http://www.srs.fs.fed.us/customer/commentcard_rmrs.htm"
+   onMouseOver="window.status='Send a comment to the Forest Service bigwigs about this work';return true"
+   onMouseOut="window.status='Forest Service WEPP Interfaces'; return true">
+   <em>CUSTOMER COMMENT CARD</em> on FS WEPP done by RMRS in Moscow, ID to Forest Service</a>
+]
+
+  </font>
+  <p>
+   <font size=-1>
+   <img src="/fswepp/images/line_red2.gif"><p>
+   These interfaces funded in part by USFS
+   <a href=""
+    onMouseOver="window.status='Open in new window'; return true"
+    onMouseOut="window.status='Forest Service WEPP Interfaces'; return true"
+    onClick='window.open("http://fsweb.sdtdc.wo.fs.fed.us","sdtdc"); 
+    return false'>San Dimas Technology and Development Center</a>.
+    <br>
+    WEPP is an interagency model lead by the Agricultural Research Service's
+  <a href="http://topsoil.nserl.purdue.edu/nserlweb/" target="nserl"
+   onMouseOver="window.status='Open in new window'; return true"
+   onMouseOut="window.status='Forest Service WEPP Interfaces'; return true">National Soil Erosion Research Laboratory</a>.
+  </center>
+  <p>
+   <a href="fsw_help.html"><img src="images/wepp_t.gif" align=left border=0 alt="requirements"></a>
+   <img src="images/spacer.gif" width="25" height="50" align=left>  
+  
+   <a href="privacy.html"><img src="images/keyhole.gif" align=right border=0 alt="privacy disclaimer"></a>
+    Bill Elliot, Project Leader<br>
+    <a href="http://forest.moscowfsl.wsu.edu/engr/">USFS Soil &amp; Water Engineering,</a> Moscow, ID<br>
+    http://forest.moscowfsl.wsu.edu/fswepp/<br>
+    <SCRIPT>
+     <!-- hide
+      document.write(document.lastModified)
+     // end hide -->
+    </SCRIPT>
+   </font>
+  </font>
+ </BODY>
+</HTML>

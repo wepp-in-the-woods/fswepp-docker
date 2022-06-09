@@ -1,0 +1,100 @@
+<html>                                                                          
+ <head>                                                                         
+  <title>                                                                       
+   Experimental Wepp:Road batch input interface                                 
+  </title>                                                                      
+  <script language="javascript">                                                
+   function example_record() {                                                  
+    document.wrbat.spread.value="ib 12 100 4 45 12 75 20 n l 20 comment 1\niv 12 100 4 45 12 75 20 n l 20 comment 2";     
+   }                                              
+  </script>
+</head>                                                                        
+ <body bgcolor="#CCCCFF">                                                      
+<hr>
+<h1 align="center">WARNING! This Site Under CONSTRUCTION!!</h1>
+<hr>                                                                                
+  <h1 align="center"><font face="Tahoma">Experimental
+Wepp:</font><br><font face="Mistral">Road batch input interface</h1>
+<font face="Book Antiqua">      
+<hr>
+<center>
+  <form
+name="wrbat" action="http://forest.moscowfsl.wsu.edu/cgi-bin/fswepp/wrbat/wrbat.pl" method="post">                                                                    
+   Units: <input type="text" size="5" name="units" value="ft">                  
+   Years: <input type="text" size="5" name="years" value="20">                  
+   <br>
+   <TABLE border="1">                                                           
+    <TR>                                                                        
+     <th align="center" bgcolor="85d2d2">Climate                                
+     <th align="center" bgcolor="85d2d2">Soil Texture                           
+    <TR align=top>                                                              
+     <TD align="center">                                                        
+      <SELECT NAME="Climate" SIZE="5">              
+       <OPTION VALUE="../climates/co052220" selected> DENVER WB AP CO                    
+       <OPTION VALUE="../climates/al010831"> BIRMINGHAM WB AP AL                
+       <OPTION VALUE="../climates/az023010"> FLAGSTAFF WB AP AZ                 
+       <OPTION VALUE="../climates/ca045983"> MOUNT SHASTA CA                    
+       <OPTION VALUE="../climates/id106152"> MOSCOW U OF I ID                   
+       <OPTION VALUE="../climates/wv461570"> CHARLESTON KAN AP WV               
+      </SELECT>                                                                 
+    <TD align=center>                                                           
+     <SELECT NAME="SoilType" SIZE="4"                                           
+       onChange="showTexture()"                                                 
+       onBlur="blankStatus()">                                                  
+      <OPTION VALUE="clay" SELECTED>clay loam                                   
+      <OPTION VALUE="silt">silt loam                                            
+      <OPTION VALUE="sand">sandy loam                                           
+      <OPTION VALUE="loam">loam                                                 
+     </SELECT>                                                                  
+    </TD>                                                                       
+   </table>                                                                     
+   <br>
+   <b>                                                                          
+   <table>                                                                      
+    <tr>                                                                        
+     <td>                                                                       
+      <TEXTAREA name="spread" cols="70" rows="16"></TEXTAREA>                   
+     </td>                                                                      
+     <td>                                                                       
+     &nbsp;&nbsp;1. Design ('ib', 'iv', 'or', 'ou')<br>                         
+     &nbsp;&nbsp;2. Road gradient (decimal percent)<br>                         
+     &nbsp;&nbsp;3. Road length (m or ft)<br>                                   
+     &nbsp;&nbsp;4. Road width (m or ft)<br>                                    
+     &nbsp;&nbsp;5. Fill gradient (decimal percent)<br>                         
+     &nbsp;&nbsp;6. Fill length (m or ft)<br>                                   
+     &nbsp;&nbsp;7. Buffer gradient (decimal percent)<br>                       
+     &nbsp;&nbsp;8. Buffer length (m or ft)<br>                                 
+     &nbsp;&nbsp;9. Road Surface ('n', 'g', 'p')<br>                            
+     10. Traffic level ('h', 'l', 'n')<br>                                      
+     11. Rock fragment (decimal percent)<br>                                    
+     12. Comments                                                               
+     </td>                                                                      
+    </tr>                                                                       
+   </table>                                                                     
+  <br>                                                                          
+  <input type="submit" name="submit" value="check input">                       
+  <input type="submit" name="submit" value="run this puppy">                    
+  <input type="button" value="example data" onClick="javascript:example_record()">                                                                              
+  </form>
+  </center>    
+<hr>                                                                   
+<div align="left"><b><font face="Times New Roman,
+Times, serif">Experimetnal 
+  WEPP:</font></b><font face="Times New Roman, Times, serif"> Road
+batch version 
+  2002.12.12<br>
+  by <a href="mailto:dehall@fs.fed.us">Hall</a> 
+  and <a href="mailto:darrellanderson@fs.fed.us">Anderson</a>; Project
+leader 
+  Bill Elliot<br>
+  USDA Forest Service, Rocky Mountain Research Station, Moscow, ID
+83843<br>
+<br>
+<right>
+<script>
+var today=new Date()
+document.write('<center>'+today.toString()+'<br>'+window.location+'</center>')
+</script>
+  </font></div>
+ </body>                                                                        
+</html>                                                                         

@@ -1,0 +1,51 @@
+<html>
+<head>
+<script language=JavaScript>
+function convert() {
+var lat_d=Math.abs(document.prisloc.lat_d.value)
+var lat_m=Math.abs(document.prisloc.lat_m.value)
+var lat_s=Math.abs(document.prisloc.lat_s.value)
+document.prislocd.lat.value=lat_d+lat_m/60+lat_s/3600
+var lon_d=Math.abs(document.prisloc.lon_d.value)
+var lon_m=Math.abs(document.prisloc.lon_m.value)
+var lon_s=Math.abs(document.prisloc.lon_s.value)
+document.prislocd.lon.value=lon_d+lon_m/60+lon_s/3600
+}
+</script>
+</head>
+<body bgcolor=aa8585 link=green vlink=ivory>
+<center>
+<h2>Seek PRISM precipitation values</h2>
+<form name="prisloc">
+<table>
+<tr><td><br><th>Deg<th>Min<th>Sec<th><th>Range
+<tr><th>Latitude<th><input type=text size=6 name="lat_d" onChange="convert()"
+    value="46">
+		<th><input type=text size=6 name="lat_m" onChange="convert()">
+		<th><input type=text size=6 name="lat_s" onChange="convert()">
+<td> <sup>o</sup>N
+		<td>[ 24<sup>o</sup> to 
+                      50<sup>o</sup> N ]
+<tr><th>Longitude<th><input type=text size=6 name="lon_d" onChange="convert()"
+    value="107">
+		<th><input type=text size=6 name="lon_m" onChange="convert()">
+		<th><input type=text size=6 name="lon_s" onChange="convert()">
+<td> <sup>o</sup>W
+		<td>[ 65<sup>o</sup> to
+                      126<sup>o</sup> W ]
+</table>
+</form>
+<p>
+<form name="prislocd"
+action="http:/cgi-bin/fswepp/prism/pris.pl"
+method=get> 
+<input type=hidden name="lat" size=10 value="46">
+<input type=hidden name="lon" size=10 value="107">
+<input type=submit value="PRISM">
+<!--<input type=submit value="MAP"><p>-->
+</form>
+</center>
+<p>
+<a href="metad.html">prism metadata file</a>
+</body>
+</html>

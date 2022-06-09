@@ -1,0 +1,772 @@
+<html>
+ <head>
+  <title>Rock:Clime Documentation</title>
+  <!-- 04-May-2006 add self.focus() -->
+  <!-- 25-Jul-2002 -->
+  <SCRIPT Language="JavaScript">
+   <!--
+    function popup(url,which) {
+     width = screen.width-50;
+     width=640;
+     height=480;
+     popupwindow = window.open(url,which,'toolbar=no,location=no,status=yes,directories=no,menubar=yes,scrollbars=yes,resizable=yes,width='+width+',height='+height);
+    }
+    // -->
+  </SCRIPT>
+ </head>
+ <body bgcolor="white" text="black" link="1603F3" vlink="160A8C" onLoad="self.focus()">
+  <font face="Arial, Geneva, Helvetica">
+<a name="topofpage"></a>
+
+   <table width=93%>
+    <tr>
+     <td valign=top>
+      <a href="/fswepp/"><img src="images/fsweppic2.jpg" width=60 height=60 border=0></A>
+      <P>
+      <img src="/fswepp/images/climate2.gif" width=50 height=50 border=2>
+     </td>
+     <th align=right>
+      <h2>
+       <font color=red>Rock:Clime</font><br>
+       Rocky Mountain Research Station<br>
+       Stochastic Weather Generator
+      </h2>
+      <h3>Technical Documentation</h3>
+     </th>
+    </tr>
+   </table>
+
+   <table width=93%>
+    <tr>
+     <th align=right>
+      William J. Elliot, Project Leader<br>
+      Dayna L. Scheele, Civil Engineer<br>  
+      David E. Hall, Computer Programmer/Analyst<br>
+      <hr width=20% align=right>
+      U.S.D.A. Forest Service<br>
+      Rocky Mountain Research Station<br>
+      Moscow Forestry Sciences Laboratory
+      <hr width=20% align=right>
+      December 1999
+     </th>
+    </tr>
+   </table>
+
+<p>
+<center>
+<hr width=90%>
+<em>
+Preliminary documentation.<br>
+Please consult <a href="http://forest.moscowfsl.wsu.edu/fswepp/docs/rockclimdoc.html">http://forest.moscowfsl.wsu.edu/fswepp/docs/rockclimdoc.html</a>
+for the latest version.
+</em>
+<br>
+<font color="chocolate">
+Also, read the <a
+href="http://forest.moscowfsl.wsu.edu/fswepp/docs/0007RockClimCD.html">Rock:Clime
+Beta CD Version</a> documentation,
+which covers the climate data modification and PRISM functions of
+Rock:Clime.
+</font>
+
+<hr width=90%>
+[ <a href="#introduction">Introduction</a>
+| <a href="#applications">Applications</a>
+| <a href="#operation">Operation</a>
+| <a href="#screens">Screen descriptions</a>
+| <a href="#database">Database</a>
+| <a href="#generated">Generated</a>
+| <a href="#improvements">Improvements</a>
+| <a href="#validation">Validation</a>
+| <a href="#lifeex">Life Expectancy</a>
+| <a href="#future">The Future</a>
+| <a href="#references">References</a>
+| <a href="#appendix1">Appendix 1</a>
+| <a href="#appendix2">Appendix 2</a>
+]
+<hr width=90%>
+</center>
+
+<a name="introduction"></a>
+<h3><a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='Rock:Clime documentation'; return true"></a>
+Introduction</h3>
+
+<i>Rock:Clime,</i> the Rocky Mountain Research Station Stochastic Weather Generator,
+is a web browser-based interface to the 
+<a href="cligench2.pdf"><i>CLIGEN</i></a> climate generator developed by the
+U.S. Department of Agriculture Agricultural Research Service (ARS)
+as a part of the <i>WEPP</i>
+(<a href="http://forest.moscowfsl.wsu.edu/engr/wepp0.html">Water Erosion Prediction Project</a>)
+computer model.
+<p>
+<center><table bgcolor="#f0f0f0" border=1 cellpadding=10>
+<tr><td>
+Rock:Clime builds the climate files for the
+FS&nbsp;WEPP interfaces to the
+WEPP model.
+</table></center>
+<p>
+Behind <i>Rock:Clime</i> lies a database of more than 2,600 weather stations from all 50 states,
+the Pacific Islands, Puerto Rico, and the Virgin Islands.
+The climate database was derived from weather station data received from the
+ARS Hydrology Laboratory (USDA-ARS 1999). 
+<p>
+
+<a name="applications"></a>
+<h3><a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='Rock:Clime documentation'; return true"></a>
+Applications</h3>
+<i>Rock:Clime</i> has two applications.  
+It can be accessed directly from the initial <i>FS&nbsp;WEPP</i> interface screen to 
+generate a climate file for use outside of the <i>FS&nbsp;WEPP</i> suite of interfaces, 
+or as a secondary application through one of the <i>FS&nbsp;WEPP</i> interfaces, 
+to select a climate for that application.
+
+<blockquote>
+<h4>Download climate file</h4>
+If <i>Rock:Clime</i> is run directly from the initial <i>FS&nbsp;WEPP</i> screen,
+it can generate a climate file for the climate station and number of years specified.
+<a href="#appendix2">Appendix&nbsp;2</a> shows a sample climate file.
+
+The file is a <i>WEPP</i> continuous storm <tt>.cli</tt> file as created by
+<i>CLIGEN</i> version&nbsp;4.3.
+The generated climate file is downloaded and saved to the user's client computer for 
+use by <i>WEPP</i> or other programs that can make use of a daily weather file.
+<p>
+<i>WEPP</i> users will find this application to be useful because of the significant 
+increase in the number of climates available from <i>Rock:Clime</i> (2,600) over that in 
+the <i>WEPP</i> distribution (1,200).
+Of equal import is that the data for many of the stations distributed with the 
+ARS version of <i>WEPP</i> contained minor errors, and many of these errors have been 
+corrected for <i>Rock:Clime</i> (see <a href="#improvements">Improvements in Database</a>).
+The climate files generated by <i>Rock:Clime</i> should more accurately represent observed 
+weather patterns.
+<p>
+The generated climate files typically should be saved to the directories listed in 
+<a href="#table1">table&nbsp;1</a> for use with <i>WEPP</i>.
+<p>
+<a name="table1"></a>
+<table border=1 cellpadding=4><tr><caption align=top>
+<b>Table 1.  Directories for saving <i>Rock:Clime</i> climate files as input for <i>WEPP</i> applications.
+<tr><th width=25% bgcolor=85d2d2><i>WEPP</i> Version	<th bgcolor=85d2d2>Directory
+<tr><td>MS DOS or Unix<br>from command line
+    <td>Same directory as the <i>WEPP</i> executable,
+    or any directory specified in command file running <i>WEPP</i> or manually entered
+<tr><td>MS DOS interface
+    <td><i>X:</i>\WEPP\INPUT\CLIMATE\DATA\&nbsp;&nbsp;&nbsp;<sup>*</sup>
+<tr><td>Windows interface
+    <td><i>X:</i>\Program Files\Usda-ars\Wepp\input\climate\cligen\&nbsp;&nbsp;&nbsp;<sup>*</sup>
+<tr><td colspan=2><sup>*</sup>&nbsp;&nbsp;<i>X:</i> is the drive on which <i>WEPP</i>
+	was installed, typically <tt>C:</tt>
+</table>
+
+<h4><i>FS&nbsp;WEPP</i> Applications</h4>
+<i>Rock:Clime</i> can be accessed from one of the other
+<i>FS&nbsp;WEPP</i> programs, such as <i>WEPP:Road.</i>
+In this application, the user runs <i>Rock:Clime</i> through the "Custom Climate" button 
+to view a summary of the climate data for a selected station or to add or remove climate 
+stations in the "personal climates" list.
+<p>
+"Personal climates" are climates associated with an individual user's computer
+which can be selected for use in <i>WEPP:Road</i> and the
+other <i>FS&nbsp;WEPP</i> interfaces in addition to the short original list of climates.
+In the <i>FS&nbsp;WEPP</i> climate selection menus, personal climates are marked with an asterisk 
+(e.g. <b>*&nbsp;TELLURIDE&nbsp;CO</b>).  
+In <i>WEPP:Road,</i> each user can have up to five personal climates listed.  
+Climates can be added to or removed from this list at any time.
+<p>
+<a name="operation"></a>
+<h3><a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='Rock:Clime documentation'; return true"></a>
+Operation</h3>
+
+The steps to operate the two <i>Rock:Clime</i> applications are listed first.  
+These steps are followed by detailed discussion about each of the screens.
+
+<blockquote>
+<h4>Download Climate File</h4>
+<ol><li>Select <b><i>Rock:Clime</i></b> on the <b><i>FS&nbsp;WEPP</i></b> screen
+    <li>Select the desired region on the Region screen 
+        (<a href="javascript:popup('images/d-rcin.gif','figs')">figure&nbsp;1</a>) and
+	click <img src="images/showme.gif" ALT="SHOW ME THE CLIMATES">
+	<br>[Clicking the <b><i>FS&nbsp;WEPP</i></b> graphic <img src="../images/fsweppic2.jpg" width=35>
+	or <img src="../images/retreat.gif" ALT="Retreat"> returns to the <b><i>FS&nbsp;WEPP</i></b> screen]
+    <li>Select the desired station on the Climate Stations screen
+        (<a href="javascript:popup('images/d-rcshow.gif','figs')">figure&nbsp;2</a>)<br>
+	Click <img src="images/describig.gif" ALT="DESCRIBE CLIMATE"> to view the description 
+	of the climate if desired
+	(<a href="javascript:popup('images/d-rcdesc.gif','figs')">figure&nbsp;3</a>)
+	<br>[Click <img src="images/return.gif" ALT="Return to input screen"> when done viewing description]
+	<br>[Click <img src="../images/retreat.gif" ALT="Retreat"> to return to the Region screen]
+    <li>Specify the number of years of climate desired (1 to 200)
+    <li>Click <img src="images/download.gif" ALT="DOWNLOAD CLIMATE"> to save the climate 
+	<br>[The browser should display a file download dialog box]
+    <li>Click <b>"OK"</b> to <img src="images/savedisk.gif" ALT="Save this file to disk">
+    <li>Select the desired directory (table 1).
+    <li>Give the climate the desired name, generally 8 or fewer text and number 
+	characters followed by ".cli"
+	Some browsers add an extra extension to the file name.
+	Check whether this has happened (and correct it if necessary) with
+        Windows	Explorer or another file management program.
+    <li>Click <b>"Save"</b>
+    <li>Click <b>"Close"</b>
+</ol>
+<p>
+<center><img src="images/d-rcin.gif" ALT="Rock:Clime Region Screen"><p>
+<b>Figure 1.  Initial Screen for running <i>Rock:Clime</i> from <i>FS&nbsp;WEPP.</i>
+</center>
+<p>
+<center><img src="images/d-rcshow.gif" ALT="Rock:Clime Show Climates Screen"><p>
+<b>Figure 2.  Climate station screen in <i>Rock:Clime.</i></b>
+</center>
+<p>
+<center><img src="images/d-rcdesc.gif" ALT="Describe Climate Screen"><p>
+<b>Figure 3.  Climate description screen.</b>
+</center>
+
+<h4><i>FS&nbsp;WEPP</i></b> Application</h4>
+<ol><li>Click <img src="images/custom.gif" ALT="Custom Climate"> on the <b><i>WEPP:Road</i></b> input screen
+    <li>Currently, the <b><i>FS&nbsp;WEPP</i></b> applications allow the user five "personal climates." 
+	The user may manage this list by adding or removing climates.  
+	If a sixth personal climate is requested, one of the existing five climates 
+	will be replaced with the new climate
+	(<a href="javascript:popup('images/d-rcwrin.gif','figs')">figure&nbsp;4</a>).
+    <ol><li>Select a climate
+        <li>Click <img src="images/describe.gif" ALT="Describe"> to view the climate description
+	(<a href="javascript:popup('images/d-rcshow.gif','figs')">figure&nbsp;3</a>), or 
+	<br>click <img src="images/remove.gif" ALT="Remove"> to remove it from the list
+    </ol>
+    <li>Select the desired region on the initial screen
+	(<a href="javascript:popup('images/d-rcwrin.gif','figs')">figure&nbsp;4</a>) and 
+	<ol><li>click <img src="images/showme.gif" ALT="SHOW ME THE CLIMATES">
+            <br>Clicking <img src="images/return.gif" ALT="Return to input screen"> or clicking the <b><i>WEPP:Road</i></b>
+		image <img src="../images/road4.gif" width=30 height=30 ALT="WEPP:Road image" border=2> in the upper left corner instead returns to the <b><i>WEPP:Road</i></b> screen
+        </ol>
+    <li>Select the desired station on the Climate Stations screen
+	(<a href="javascript:popup('images/d-rcwrshow.gif','figs')">figure&nbsp;5</a>)
+	<br>Click <img src="images/describig.gif" ALT="DESCRIBE CLIMATE"> to View the description of the climate if desired
+	(<a href="javascript:popup('images/d-rcin.gif','figs')">figure&nbsp;3</a>)
+	<br>Click <img src="images/return.gif" ALT="Return to input screen"> when done viewing description
+	<br>Click <img src="../images/retreat.gif" ALT="Retreat"> to return to the Climate Station screen
+    <li>Click <img src="images/addpersonal.gif" ALT="ADD TO PERSONAL CLIMATES"> to add the selected station
+    <li>Repeat steps 2 through 5 to make a list of up to 5 personal climates for simulation.
+    <li>Click <img src="images/return.gif" ALT="Return to input screen"> or icon <img src="../images/fsweppic2.jpg" width=35> in the upper left corner to exit <b><i>Rock:Clime.</i></b>
+</ol>
+</blockquote>
+<p>
+<center><img src="images/d-rcwrin.gif"><p>
+<b>Figure 4.  Initial screen when accessed from an <i>FS&nbsp;WEPP</i> application</b>
+</center>
+<p>
+<center><img src="images/d-rcwrshow.gif"><p>
+<b>Figure 5.  Climate selection screen when accessing <i>Rock:Clime</i> from an 
+<i>FS&nbsp;WEPP</i> application</b>
+</center>
+</blockquote>
+
+<a name="screens"></a>
+<h3><a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='Rock:Clime documentation'; return true"></a>
+Screen Descriptions
+</h3>
+
+When <i>Rock:Clime</i> is selected from the <i>FS&nbsp;WEPP</i> interface,
+an initial screen allows the user to select the desired region
+(<a href="javascript:popup('images/d-rcin.gif','figs')">figure&nbsp;1</a>).
+Regions include the 50 states, Washington, D.C., Puerto Rico, the Virgin Islands,
+and the Pacific islands.
+<p>
+On the initial screen, the user can scroll through the list of regions to select the desired
+state or island group.
+Clicking the "SHOW ME THE CLIMATES" button accesses the Climate Station Screen for the 
+selected region (<a href="javascript:popup('images/d-rcshow.gif','figs')">figure&nbsp;2</a>).
+The user must select a station and specify the number of years of climate desired.  
+For climates with more than 500 mm (20 in.) of precipitation, 30 years are generally adequate.  
+For climates with less than 500 mm of precipitation, 50 or more years of climate may be 
+necessary to capture the high variability of rainfall associated with drier climates
+(Baffaut and others 1996).
+<p>
+Sometimes the closest climate may not be the best descriptor for a given site.  
+The user may wish to compare several climates to determine which climate best suits the site.  
+The station latitude, longitude, and elevation, and the monthly average values for maximum 
+and minimum temperature, precipitation amount, and number of wet days can be viewed by 
+clicking "DESCRIBE CLIMATE" (<a href="javascript:popup('images/d-rcshow.gif','figs')">figure&nbsp;3</a>).
+The units will be degrees Fahrenheit and inches or degrees Celsius and millimeters according 
+to the units selection made on the <i>FS&nbsp;WEPP</i> screen.
+<p>
+If <i>Rock:Clime</i> is called from within <i>WEPP:Road</i>
+(by clicking on the "Custom Climate" button),
+or from within other <i>FS&nbsp;WEPP</i> interfaces,
+the initial <i>Rock:Clime</i> screen will be
+different than it is when <i>Rock:Clime</i> is called directly
+(<a href="javascript:popup('images/d-rcwrin.gif','figs')">figure&nbsp;4</a>).
+This <i>FS&nbsp;WEPP</i> application interface works in the same way as does the direct
+application screen with the addition of the ability to manage the 'personal climates' stored on the 
+server. 
+This option is not available if <i>Rock:Clime</i> is not started from within another
+<i>FS&nbsp;WEPP</i> application.  
+An asterisk beside the station name indicates that the climate is a personal climate 
+stored on the <i>FS&nbsp;WEPP</i> server under the user's computer name.  
+This is consistent with the display in <i>WEPP:Road</i> where the stations with
+asterisks are personal climates and the stations without are the stock climates.
+<p>
+When <i>Rock:Clime</i> is run from an <i>FS&nbsp;WEPP</i> application,
+<i>Rock:Clime</i> will not ask for the number of years of simulation.
+Instead, the number of years of simulation is specified on the <i>FS&nbsp;WEPP</i>
+application screen.
+<p>
+After a new climate has been generated, the browser's "back" button should not be 
+used to return to <i>WEPP:Road,</i> because that will simply redisplay the
+<i>WEPP:Road</i> screen as it was before changes were made.
+If the previous climate list is displayed, return to the <i>FS&nbsp;WEPP</i>
+screen, and rerun <i>WEPP:Road.</i>
+(The browser "refresh" or "reload" button will not work here for the stand-alone version.)
+
+<a name="database"></a>
+<h3><a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='Rock:Clime documentation'; return true"></a>
+The <i>Rock:Clime</i> Database
+</h3>
+Each climate parameter file in the <i>Rock:Clime</i> database consists of station 
+identification information and monthly statistical weather data for the station
+(see <a href="#appendix1">appendix&nbsp;1</a> for a sample file).  
+These files are in the <i>CLIGEN</i> parameter file format (Flanagan 1998)
+except that each <i>Rock:Clime</i> station has its own file
+(rather than having all stations concatenated into one state file), and extra station
+information has been appended to the <i>Rock:Clime</i> files.
+
+Current versions of <i>CLIGEN</i> will handle the additional lines.
+<p>
+The station identification includes
+<ul><li>station name, state, and identification number
+    <li>station latitude and longitude
+    <li>station elevation (ft.)
+    <li>number of years of record on which the statistics are based
+    <li>climate type (1 to 4)
+    <li>maximum 30-min precipitation depth (in.) and maximum 6-hr precipitation depth (in.)
+</ul>
+The statistical weather data are monthly values for:
+<ul><li>mean, standard deviation, and skew coefficient of liquid equivalent precipitation depth for a day in which precipitation occurs (in.)
+    <li>probability of a wet day following a wet day (fraction)
+    <li>probability of a wet day following a dry day (fraction)
+    <li>means and standard deviations for maximum and minimum daily air temperature (ºF) 
+    <li>mean and standard deviation of daily solar radiation (Langleys) 
+    <li>maximum daily half-hour precipitation depth (in.) 
+    <li>mean daily dew point temperature (ºF) 
+    <li>cumulative distribution function shape for computed time to peak rainfall intensity
+    <li>mean, standard deviation, and skew coefficient of wind speed (mi. hr<sup>-1</sup>) from each of 16 compass points, and percent of time wind comes from that direction (decimal percent) 
+    <li>percent of time air is calm (decimal percent)
+</ul>
+<p>
+The precipitation and temperature data are from 40 or more years of weather records at the named station.  
+The remaining climate statistics are estimated from sets of data with fewer weather stations and for 
+generally shorter periods of record (Nicks and others 1995).  
+For each named station, the two or three "nearby" stations with more detailed information for a given 
+statistic were selected to estimate the appropriate values for the named station using weighted averages.  
+The "nearby" stations are selected according to distance and position relative to the desired station 
+using methods similar to those which created the original <i>CLIGEN</i> parameter files for
+<i>WEPP</i> (Jane Thurman, personal communication, ARS Water Data Center, Beltsville, MD).  
+The weighting factors are part of the <i>Rock:Clime</i> data base which can be viewed with a
+text editor with the standalone version of <i>FS&nbsp;WEPP,</i> but are not accessible from 
+the network sites.
+The path name to the database on the standalone version is:
+<blockquote>
+    X:\fswepp\cgi-bin\fswepp\rc\<i>ID</i>\
+</blockquote>
+where <i>X:</i> is the drive containing the <i>FS&nbsp;WEPP</i> program
+(usually <tt>C:</tt> or <tt>D:</tt>), and <i>ID</i> is the desired  state.  
+The key to the station codes (matching station name to station identification
+number and file name) is contained in the file named <tt><i>ID</i>_climates</tt>
+in each state directory.
+The last few lines of 
+<a href="#appendix1">appendix&nbsp;1</a> are an example of the weighted average report.
+
+<h3>
+<a name="generated">
+<a href="#topofpage" target="_top"><img src="images/backtotop.gif" border="0"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='Rock:Clime documentation'; return true"></a>
+Generated Climate File
+</h3>
+The generated climate file is a standard <i>WEPP</i> multiple year continuous storm <tt>.cli</tt> 
+climate input file, which consists of a daily sequence of simulated representative weather 
+for the number of years requested.
+The file has a ten-line header providing summary data for the file followed by one line of 
+weather values for each day of simulation.
+<a href="#appendix2">Appendix&nbsp;2</a> shows the beginning of a representative file.
+<p>
+For each day of simulation, the file contains the following information (Flanagan and Livingston 1995):
+<ol><li>day, month, and ordinal year of simulation
+    <li>precipitation amount (mm), duration (hours), time to peak intensity (fraction of duration) and peak intensity (ratio of maximum rainfall intensity to average rainfall intensity)
+    <li>maximum and minimum temperature (ºC)
+    <li>daily solar radiation (Langleys per day)
+    <li>average wind velocity (m s<sup>-1</sup>)
+    <li>wind direction (degrees from North)
+    <li>dew point temperature (ºC)
+</ol>
+
+The size of a generated climate file is about 26,000 bytes per year of simulation.
+<p>
+The <i>CLIGEN</i> version number (presented on the first line of the climate file) is set to 4.30.
+Some versions of <i>WEPP</i>  will not recognize that <i>CLIGEN</i> version.
+If you are in this situation, we recommend that you update your <i>WEPP</i> software.
+In the mean time, it should be safe to edit your new <i>CLIGEN</i> file to report version&nbsp;4.00 on the
+first line.
+<p>
+
+<a name="improvements"></a>
+<h3><a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='Rock:Clime documentation'; return true"></a>
+Improvements in the <i>Rock:Clime</i> Database
+</h3>
+We found and corrected a number of errors in the <i>CLIGEN</i> database distributed with <i>WEPP.</i>
+<ul>
+    <li>We worked with Agricultural Research Service Water Data Center, Hydrology Laboratory personnel
+	to realign certain shifted data in the data files used for calculating the precipitation and
+	temperature statistics.
+    <li>We adjusted several station names to correspond to the correct station numbers based on data from
+	the National Weather Service (NWS).
+    <li>The NWS data also were used to correct errors in elevation, latitude, longitude, and spelling.
+    <li>A record of the weather stations used for parameter interpolation, and the weighting factors,
+	was appended to each station climate parameter file.
+	This information was added in the same format as the existing records for interpolation of wind
+	data already listed in the CLIGEN parameter files.
+	We added records of the stations used for solar radiation and maximum half-hour precipitation,
+	dewpoint, and time to peak.
+    <li>We increased the number of wind stations available for interpolation.
+    <li>The disproportionate maximum half-hour precipitation values for November and December in
+	Boise, ID, were lowered.
+	This affected all stations that used Boise, ID for interpolating maximum half-hour precipitation. 
+    <li>A maximum distance check was added to the parameter file creation program so stations in
+	Hawaii, Alaska, and California no longer used with each other for interpolation.
+    <li>Some of the interpolation data contained zero values, which were verified to be incorrect.
+	Where we could not estimate proper values, the files were removed from the database.
+	Elevation values of zero also were checked and corrected if necessary.
+    <li>To make some of the new parameter files, storm type values were either found in the
+	Arlin Nicks database at the USDA-ARS Hydrology Laboratory Water Data Center, or were
+	chosen based on the predominant storm type reported for nearby stations.
+</ul>
+
+<a name="validation"></a>
+<h3><a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='Rock:Clime documentation'; return true"></a>
+Validation of Rock:Clime
+</h3>
+<i>Rock:Clime</i> is an interface for the USDA ARS
+<i>CLIGEN</i> Version&nbsp;4.3 climate generator.  
+Version&nbsp;4.3  reads individual parameter files instead of the state files which are 
+concatenations of many parameter files but is otherwise unchanged from version&nbsp;4.2 
+released with <i>WEPP.</i>
+There are numerous references providing validation support for <i>CLIGEN.</i>
+These should be valid for <i>Rock:Clime</i> in as far as they analyze the
+<i>CLIGEN</i> algorithms 
+rather than the specific generated climates.
+<p>
+The technical description and validation for small watersheds for <i>CLIGEN</i>
+(Nicks and others 1995) is in the <i>WEPP</i> Documentation.
+Nicks and Gander (1977) also performed a spatial analysis of the weather generator parameters.
+Baffaut and others (1996) studied the number of years of <i>CLIGEN</i> simulation
+necessary to obtain  an average erosion rate, and compared the erosivity of
+<i>CLIGEN</i>-generated climates to RUSLE erosivity values.  
+Elliot and others (1992) studied the suitability of <i>CLIGEN</i> version&nbsp;1 for
+driving a subsurface drainage model, and determined that this early version of
+<i>CLIGEN</i> was over-predicting storm duration.
+The predicted duration values have since been reduced, and Elliot and Arnold (under review) 
+indicated that current duration values are likely to be similar to observed values.  
+
+Arnold and Elliot (1996) found that monthly probability density functions for wet and dry 
+spells predicted by <i>CLIGEN</i> were similar to observed spell lengths for
+lower-elevation, storm-driven climates.  
+<i>CLIGEN</i> did not perform as well for higher elevation precipitation patterns with
+a greater frequency of low-intensity rains.
+
+<a name="lifeex"></a>
+<h3><a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='Rock:Clime documentation'; return true"></a>
+Climate file life expectancy
+</h3>
+With stand-alone operation, the personal climates will remain on the user's computer until the 
+user deletes them, or they are overwritten by new personal climates within <i>Rock:Clime.</i>
+<p>
+For network users, a user's "personal climates" for the <i>FS&nbsp;WEPP</i> programs are
+stored on the server and are associated with the user by the Internet Protocol (IP) address of
+his or her machine.
+The user can expect that the personal climate files may be purged on the server from time to time,
+but that they will generally be available for at least a week after creation.
+
+<a name="future"></a>
+<h3><a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='Rock:Clime documentation'; return true"></a>
+Future work
+</h3>
+We are investigating several methods to allow the user to customize the parameters from a given 
+station to more closely match known climate parameters.  
+
+<a name="references"></a>
+<h3><a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='Rock:Clime documentation'; return true"></a>
+References
+</h3>
+Arnold, C. D. and W. J. Elliot.  1996.
+ <i>CLIGEN weather generator predictions of seasonal wet and dry spells in Uganda.</i>
+ <b>Transactions of the ASAE</b> 39(3):969-972.
+<p>
+Baffaut, C., M. A. Nearing and A. D. Nicks.  1996.
+ <i>Impact of CLIGEN parameters on WEPP-predicted average annual soil loss.</i>
+ <b>Transactions of the ASAE</b> 39(2):447-457.
+<p>
+Elliot, W. J. and C. D. Arnold.  (Under Review).
+ <i>Validation of the weather generator CLIGEN with precipitation data from Uganda.</i>
+ <b>Transactions of the ASAE.</b>
+<p>
+Elliot, W. J., W. Qiong and A. V. Elliot.  1992.
+ <i>Suitability of CLIGEN for generating rainfall data for DRAINMOD.</i>
+ <b>Applied Engineering in Agriculture</b> 8(6):807-812.
+<p>
+Flanagan, D. C.  [1998].
+ <i>Format of CLIGEN weather station statistics input files for Cligen version&nbsp;4.1 as of 2/24/98.</i>
+ Beltsville, MD: USDA-ARS Hydrology Laboratory, Water Data Center.
+ Available online at: 
+ <a href="http://hydrolab.arsusda.gov/nicks/parameters.htm">
+ http://hydrolab.arsusda.gov/nicks/parameters.htm</a> (December&nbsp;1999).
+<p>
+Nicks, A. D., L. J. Lane, and G. A. Gander.  1995.
+ <i>Weather Generator.</i>
+ In: Flanagan and Nearing (eds.).
+ <b>USDA-Water Erosion Prediction Project Hillslope Profile and Watershed Model Documentation.</b>
+ NSERL Report No.&nbsp;10.
+ W. Lafayette, IN: U.S. Dept. of Agriculture, Agricultural Research Service, National Soil Erosion Research Laboratory.
+<p>
+Nicks, A. D. and G. A. Gander.  1997.
+ <i>Spatial Analyses of Weather Generator Parameters.</i>
+ In: Richardson, C.W., and others (eds.).
+ <b>Proceedings of the Workshop on Climate and Weather Research.</b>  Denver, CO.  July&nbsp;17-19, 1995.
+ Washington, D.C.: U.S. Dept. of Agriculture, Agricultural Research Service. pp.&nbsp;185-192.
+<p>
+USDA-ARS.  [1999].
+ <i>Arlin Nicks Climate Database.</i>
+ Beltsville, MD: USDA-ARS Hydrology Laboratory, Water Data Center.
+ Available online at: 
+ <a href="http://hydrolab.arsusda.gov/nicks/nicks.htm">
+ http://hydrolab.arsusda.gov/nicks/nicks.htm</a> (December&nbsp;1999).
+<p>
+USDA-ARS.  [n.d.].
+ <i>Climate Data</i> ["HTML document for the World Wide Web"].
+ In: <b>Wepp on-line user's guide.</b>
+ W. Lafayette, IN: U.S. Dept. of Agriculture, Agricultural Research Service, National Soil Erosion Research Laboratory.
+ Available online at:
+ <a href="http://topsoil.nserl.purdue.edu/weppdoc/ClimateData.html">
+ http://topsoil.nserl.purdue.edu/weppdoc/ClimateData.html</a> (December&nbsp;1999).
+<p>
+<hr>
+<p>
+<a name="appendix1"></a>
+<h3><a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='Rock:Clime documentation'; return true"></a>
+Appendix 1.  Contents of a <b><i>CLIGEN</i></b> Parameter File
+</h3>
+
+Example <i>Rock:Clime</i> input parameter file used to generate a <i>WEPP</i>
+continuous storm climate file.
+<pre><font face="Courier New, Courier">
+MOSCOW U OF I ID                        106152 0
+ LATT=  46.73 LONG=-117.00 YEARS= 45. TYPE= 3
+ ELEVATION = 2630. TP5 =  .85 TP6= 1.70
+ MEAN P    .20   .19   .16   .18   .21   .21   .20   .22   .19   .21   .21   .20
+ S DEV P   .23   .21   .17   .21   .25   .25   .22   .31   .21   .23   .24   .23
+ SKEW  P  1.96  2.44  2.03  2.03  2.29  2.49  1.67  3.20  2.26  2.07  2.47  2.20
+ P(W/W)    .63   .63   .64   .58   .54   .51   .36   .40   .52   .55   .66   .62
+ P(W/D)    .34   .27   .28   .25   .24   .20   .10   .11   .12   .18   .33   .35
+ TMAX AV 34.44 40.84 47.56 57.12 65.99 73.75 83.26 83.15 74.17 60.55 44.07 36.20
+ TMIN AV 23.22 27.14 30.36 35.06 40.59 45.88 48.71 48.75 43.35 36.69 30.44 25.14
+ SD TMAX  9.40  8.28  8.02  9.05  9.69  9.12  8.24  8.82 10.33 10.15  8.59  8.59
+ SD TMIN  9.84  8.29  6.51  6.15  6.61  6.30  6.23  6.30  6.89  7.27  7.96  8.87
+ SOL.RAD  122.  214.  338.  479.  571.  618.  672.  565.  420.  247.  136.   89.
+ SD SOL   28.5  31.4  41.6  50.7  63.5  67.0  37.6 105.2  54.8  33.0  30.1  30.0
+ MX .5 P   .10   .11   .10   .16   .31   .32   .53   .37   .36   .14   .13   .12
+ DEW PT  20.08 26.49 27.20 31.66 39.18 44.30 44.11 43.89 41.18 37.96 31.49 26.62
+Time Pk   .854  .921  .935  .944  .950  .952  .952  .956  .958  .966  .980 1.000
+% N       1.93  2.15  2.40  2.85  3.88  4.99  5.89  4.62  3.65  2.87  2.16  1.80
+MEAN      2.40  2.56  2.84  2.87  2.90  2.95  2.93  2.64  2.63  2.57  2.37  2.40
+STD DEV   1.15  1.18  1.19  1.22  1.27  1.24  1.23  1.17  1.10  1.06   .84   .88
+SKEW      1.19  1.90   .55   .81   .75   .76   .80   .92   .73   .87   .31   .52
+% NNE     2.43  2.36  2.24  2.61  2.97  3.50  4.32  3.42  3.08  2.23  2.17  2.22
+MEAN      2.65  3.22  3.39  3.69  3.43  3.18  3.06  2.77  2.89  3.16  2.51  2.06
+STD DEV   1.15  1.33  1.48  1.59  1.56  1.28  1.35  1.06  1.23  1.28   .83   .82
+SKEW       .60   .62   .35   .95   .60   .53   .68   .66   .70   .53   .36   .46
+% NE      5.52  5.69  5.99  6.27  7.36  8.11  7.90  6.67  6.87  5.52  4.94  4.70
+MEAN      3.06  3.28  3.30  4.05  3.35  3.34  2.84  2.81  3.22  3.04  2.94  3.03
+STD DEV   1.42  1.56  1.56  1.82  1.51  1.52  1.18  1.24  1.42  1.39  1.18  1.21
+SKEW      1.18  1.30  1.02   .66   .87   .85   .68   .81  1.03   .72   .67   .64
+% ENE     5.47  5.41  6.39  5.23  5.59  5.77  5.48  4.65  6.19  5.74  5.69  5.39
+MEAN      3.65  4.04  3.87  4.22  3.78  3.55  3.23  3.11  3.59  3.59  3.31  3.49
+STD DEV   1.63  1.66  1.57  1.71  1.48  1.38  1.28  1.22  1.37  1.50  1.38  1.25
+SKEW       .65   .66   .66   .60   .58   .65   .53   .47   .62   .51   .49   .40
+% E       8.96  8.80  9.23  7.84  7.35  7.68  7.94  6.99  9.31  8.87  8.82  9.54
+MEAN      3.34  3.76  3.80  3.52  3.37  3.11  2.95  3.07  3.21  3.29  3.36  3.40
+STD DEV   1.50  1.53  1.60  1.56  1.37  1.36  1.18  1.25  1.37  1.41  1.44  1.43
+SKEW       .71   .48   .57   .81   .63   .87   .55   .65   .79   .75   .51   .44
+% ESE     3.80  3.66  4.00  3.41  3.54  3.35  3.19  3.23  4.29  3.89  3.93  4.38
+MEAN      3.68  3.60  3.53  3.30  3.44  3.15  2.96  3.03  3.16  3.21  3.48  3.41
+STD DEV   1.73  1.36  1.46  1.28  1.32  1.24  1.10  1.13  1.18  1.26  1.52  1.50
+SKEW       .77   .59   .74   .56   .68   .71   .42   .42   .35   .73   .77   .73
+% SE      5.54  4.40  4.58  4.49  3.85  3.60  3.63  4.58  4.77  5.41  5.53  5.17
+MEAN      3.65  3.37  3.36  3.10  2.97  2.81  2.76  2.75  2.81  2.88  3.23  3.73
+STD DEV   2.02  1.62  1.47  1.27  1.25  1.17  1.18  1.13  1.09  1.17  1.56  1.98
+SKEW      1.20  1.00   .96   .85   .90   .64   .57   .69   .75   .98  1.12  1.14
+% SSE     4.58  4.15  3.88  3.26  3.45  2.69  2.41  3.28  3.17  4.45  4.86  5.05
+MEAN      4.31  3.98  3.40  3.25  3.09  2.97  2.85  2.86  2.89  3.11  3.56  4.17
+STD DEV   2.38  2.09  1.58  1.32  1.21  1.26  1.10  1.15  1.09  1.34  1.82  2.30
+SKEW      1.29  1.18   .98  1.24   .80   .94   .99   .87   .81   .99  1.48  1.09
+% S      11.65 10.87  8.33  6.77  6.54  6.18  5.16  6.63  5.85  8.36  9.94 11.35
+MEAN      4.82  4.46  4.07  3.57  3.36  3.26  3.09  3.06  3.15  3.53  4.27  4.76
+STD DEV   2.96  2.56  2.17  1.67  1.60  1.51  1.53  1.39  1.40  1.90  2.48  2.88
+SKEW       .98   .92  1.21  1.06  1.31  1.04  1.26  1.07  1.10  1.54  1.07   .96
+% SSW     7.90  7.88  7.20  6.59  5.40  6.05  5.06  5.32  4.87  6.22  7.12  8.48
+MEAN      6.04  6.12  5.25  4.57  3.94  3.79  3.64  3.59  3.57  4.60  5.88  6.36
+STD DEV   3.23  3.22  2.80  2.09  1.77  1.55  1.70  1.76  1.44  2.48  3.33  3.49
+SKEW       .57   .61   .79   .76   .70   .79   .93  1.12   .60   .93   .91   .83
+% SW      8.23  8.69  8.80  8.62  6.97  6.98  6.15  6.35  6.43  7.26  7.07  6.72
+MEAN      4.81  4.68  4.84  4.51  3.92  3.75  3.35  3.25  3.68  4.08  4.77  5.03
+STD DEV   2.98  2.69  2.68  2.33  1.98  1.72  1.40  1.48  1.79  2.22  2.66  2.99
+SKEW      1.00   .87  1.08   .94  1.01   .82   .49  1.12  1.07  1.10   .87  1.02
+% WSW     3.63  4.24  5.38  6.33  4.99  4.52  4.33  3.89  4.35  3.65  4.19  4.32
+MEAN      4.60  4.75  5.46  5.36  3.99  4.41  3.69  3.43  4.08  4.30  4.86  4.76
+STD DEV   3.13  2.80  3.15  2.79  1.98  2.38  1.83  1.44  2.13  2.23  2.83  2.76
+SKEW      1.55   .99   .74   .65  1.12  1.09  1.73   .67  1.11   .97   .97   .90
+% W       6.18  7.70  8.67  8.98  7.89  6.27  5.57  6.52  6.73  5.75  5.98  6.33
+MEAN      3.95  4.56  5.19  4.84  4.16  3.93  3.77  3.65  4.01  3.96  4.22  4.46
+STD DEV   2.53  2.84  2.96  2.69  2.26  2.10  2.07  1.97  2.24  2.40  2.75  2.77
+SKEW      1.50  1.17   .72   .88   .95  1.01  1.15  1.23  1.04  1.18  1.13   .96
+% WNW     3.36  4.53  5.11  6.84  6.57  5.56  5.86  6.94  5.81  4.30  4.00  3.34
+MEAN      4.33  4.60  5.09  5.15  4.69  4.59  4.54  4.23  4.56  4.34  4.44  4.00
+STD DEV   2.31  2.49  2.52  2.49  2.30  2.30  2.23  2.01  2.22  2.30  2.58  2.12
+SKEW       .83   .90   .63   .63   .73   .86   .62   .82   .83   .90   .88   .92
+% NW      3.19  3.49  4.12  5.50  7.14  7.98  9.23  9.82  7.01  4.46  4.00  2.78
+MEAN      3.05  3.56  4.07  4.04  3.99  3.88  3.94  3.82  3.81  3.23  3.26  3.09
+STD DEV   1.65  1.93  2.13  1.99  1.94  1.87  1.86  1.82  1.97  1.59  1.90  1.66
+SKEW       .99  1.15   .78   .78   .85   .68   .73   .69  1.01   .80  1.52  1.25
+% NNW     1.02  1.16  1.64  1.89  2.56  3.11  3.57  3.46  2.32  1.65  1.25   .88
+MEAN      2.64  2.99  3.50  3.60  3.63  3.60  3.60  3.46  3.30  3.03  2.75  2.61
+STD DEV   1.16  1.30  1.71  1.69  1.72  1.46  1.60  1.63  1.59  1.29  1.22  1.05
+SKEW       .81   .96   .93   .85   .82   .69   .73   .77   .90   .88  1.51  1.10
+CALM     16.59 14.81 12.07 12.46 13.98 13.65 14.25 13.55 15.36 19.26 18.28 17.63
+ 
+INTERPOLATED DATA (station & weighting factor)
+ 
+---Wind Stations---
+LEWISTON      ID     .599  SPOKANE       WA     .220  MULLAN PASS   ID     .181
+---Solar Radiation and Max .5 P Stations---
+ SPOKANE, WASHINGTO  .499   MEACHUM, OREGON     .304   KALISPELL, MONTANA  .197 
+---Dewpoint Stations---
+ID LEWISTON          .648  WA SPOKANE           .239  MT MISSOULA          .113 
+---Time Peak Stations---
+MOSCOW 5 NE ID       .782  DWORSHAK FSH HTRY I  .129  DAYTON 2 SE WA       .088 
+</font></pre>
+
+<a name="appendix2"></a>
+<h3><a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='Rock:Clime documentation'; return true"></a>
+Appendix 2.  <i>WEPP</i> climate input file
+</h3>
+
+First few lines of an example .cli file created by <i>Rock:Clime</i> for
+use in <i>WEPP</i>
+<pre><font face="Courier New, Courier">
+4.30
+   1   0   0
+   Station:  MOSCOW U OF I ID                               CLIGEN VERSION 4.3
+ Latitude Longitude Elevation (m) Obs. Years   Beginning year  Years simulated
+    46.73  -117.00         801          45           1              30
+ Observed monthly ave max temperature (C)
+   1.4   4.9   8.6  14.0  18.9  23.2  28.5  28.4  23.4  15.9   6.7   2.3
+ Observed monthly ave min temperature (C)
+  -4.9  -2.7   -.9   1.7   4.8   7.7   9.3   9.3   6.3   2.6   -.9  -3.8
+ Observed monthly ave solar radiation (Langleys/day)
+ 122.0 214.0 338.0 479.0 571.0 618.0 672.0 565.0 420.0 247.0 136.0  89.0
+ Observed monthly ave precipitation (mm)
+  75.4  57.0  55.1  51.2  56.7  46.4  21.3  26.8  29.0  47.2  78.8  75.5
+ da mo year  prcp  dur   tp     ip  tmax  tmin  rad  w-vl w-dir  tdew
+             (mm)  (h)               (C)   (C) (l/d) (m/s)(Deg)   (C)
+  1  1    1   8.8  2.42  .01   1.01   -.6  -5.6  53.  3.0  310.  -3.2
+  2  1    1   4.1  1.64  .05   1.01  -4.7  -9.2  92.  4.2  275.  -7.0
+  3  1    1  17.0   .86  .16   1.01  -2.9  -8.9 143.  3.2  105. -17.5
+  4  1    1    .0   .00  .00    .00   8.4  -9.9 115.  3.3  324. -17.0
+  5  1    1  34.1  3.15  .06   9.91   1.0    .8  87.  3.9  250.  -2.9
+  6  1    1   3.3  1.91  .02   6.32   6.8   1.9  81.  4.5  265.  -1.7
+  7  1    1    .0   .00  .00    .00  -2.8  -5.8 101.  3.0   70.  -8.4
+  8  1    1    .0   .00  .00    .00   5.9   -.6 146.  2.1  162.  -7.2
+  9  1    1    .8  3.99  .08   8.28   1.5    .5 139.  3.3   25.  -4.8
+ 10  1    1   2.3  3.68  .05   1.01   3.4  -7.1 130.   .0    0.  -2.8
+ 11  1    1    .0   .00  .00    .00   3.4  -9.0 156.   .0    0. -22.3
+ 12  1    1    .0   .00  .00    .00  -1.3  -8.0 179.   .0    0.  -4.8
+ 13  1    1    .0   .00  .00    .00  -3.3  -6.2 117.   .0    0.  -4.9
+ 14  1    1    .0   .00  .00    .00  -5.6  -6.5  83.  2.6  219. -11.6
+ 15  1    1    .0   .00  .00    .00  -4.2  -5.5  96.   .0    0. -18.9
+ 16  1    1    .0   .00  .00    .00  -2.7  -8.0  99.  2.0   85. -13.5
+ 17  1    1    .0   .00  .00    .00    .8  -1.9 118.  6.1  274. -11.8
+ 18  1    1    .0   .00  .00    .00   2.0 -10.3 105.   .0    0. -13.4
+ 19  1    1    .0   .00  .00    .00   4.8 -10.9  91.  4.6  171.  -6.7
+ 20  1    1    .0   .00  .00    .00  -8.8 -10.6 107.  2.7  298. -18.7
+ 21  1    1    .0   .00  .00    .00   6.4  -9.4  82.  3.5   84.  -1.7
+ 22  1    1   4.4  2.07  .06   1.01   -.6  -1.2  84.   .0    0.  -6.8
+ 23  1    1  10.6  4.38  .01  13.49   4.1   4.1  89.  2.6  172.  -4.8
+ 24  1    1   3.6  1.70  .02   1.01  -1.6  -3.4 144.  9.7  183. -20.6
+ 25  1    1   2.3  1.15  .00   1.01   5.0  -7.2 136.  3.8   77.  -1.3
+ 26  1    1   3.5  3.82  .05  30.15   6.2   -.4 175.   .4  312.   2.7
+ 27  1    1    .0   .00  .00    .00  -1.4  -5.7 128.  3.4  187.  -3.7
+ 28  1    1    .0   .00  .00    .00   6.7   1.5 115.  2.2  229. -14.9
+ 29  1    1  14.5  4.27  .06  39.47  12.9   1.0 149.  5.6  193.  -5.8
+ 30  1    1    .0   .00  .00    .00   2.3  -7.5 125.  2.3  152. ...
+ 31  1    1    .0   .00  .00    .00  10.4  -6.8 120.  4.6 ...
+  1  2    1    .0   .00  .00    .00  -3.1  -7.1 224. ...
+  2  2    1   2.4  1.65  .02   1.01   4.6  -7.1 ...
+  3  2    1    .0   .00  .00    .00  12.3 ...
+  4  2    1    .0   .00  .00    .00 ...
+  5  2    1    .0   .00  .00 ...
+  6  2    1    .0   .00 ...
+  7  2    1    .0 ...
+  8  2    1 ...
+  9  2 ...
+ 10 ...
+...
+</font></pre>
+
+<hr>
+<hr>
+<center>
+<h4><a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='Rock:Clime documentation'; return true"></a>
+</h4>
+</center>
+</body>
+</html>
+
+

@@ -1,0 +1,86 @@
+<html><head><title>Useful Conversions Calculator</title>
+<script language="javascript">
+
+//From JavaScript Handbook (Goodman) p. 374.
+function isNumber(inputVal) {
+  oneDecimal = false
+  inputStr = "" + inputVal
+  for (var i = 0; i < inputStr.length; i++) {
+    var oneChar = inputStr.charAt(i)
+    if (i == 0 && oneChar == "-") {
+      continue
+    }
+    if (oneChar == "." && !oneDecimal) {
+      oneDecimal = true
+      continue
+    }
+    if (oneChar < "0" || oneChar > "9") {
+      return false
+    }
+  }
+  return true
+}
+
+function a_to_b(a,b,c,d) {	// millimeters to inches
+  if (!isNumber(document.convert.elements[a].value)) {
+     alert('invalid!')
+     document.convert.elements[a].value=d
+  }
+  document.convert.elements[b].value=document.convert.elements[a].value*c
+  document.convert.elements[b].focus()
+}
+
+</script>
+</head>
+<body>
+<center>
+<H3>Useful Conversions</H3>
+<p>
+<form name="convert">
+<table border=1 cellpadding=5>
+<tr><th bgcolor=gold>Multiply <th bgcolor=gold>     by      <th bgcolor=gold>to get 
+<tr><td><input type=text size=8 value=1 name="mm2in" onChange="a_to_b(0,1,0.0394,1)"> mm (millimeters)
+    <th bgcolor=gold>0.0394
+    <td><input type=text size=8 value=0.0394 name="in2mm" onChange="a_to_b(1,0,1/0.0394,0.0394)"> in. (inches)
+<tr><td><input type=text size=8 value=1 name="m2in" onChange="a_to_b(2,3,39.4,1)"> m (meters)
+    <th bgcolor=gold>39.4
+    <td><input type=text size=8 value=39.4 name="in2m" onChange="a_to_b(3,2,1/39.4,39.4)"> in. (inches)
+<tr><td><input type=text size=8 value=1 name="m2ft" onChange="a_to_b(4,5,3.28,1)"> m (meters)
+    <th bgcolor=gold>3.28
+    <td><input type=text size=8 value=3.28 name="ft2m" onChange="a_to_b(5,4,1/3.28,3.28)"> ft (feet)
+<tr><td><input type=text size=8 value=1 name="msq2ftsq" onChange="a_to_b(6,7,10.8,1)"> m<sup>2</sup> (square meters)
+    <th bgcolor=gold>10.8
+    <td><input type=text size=8 value=10.8 name="ftsq2msq" onChange="a_to_b(7,6,1/10.8,10.8)"> ft<sup>2</sup> (square feet)
+<tr><td><input type=text size=8 value=1 name="kg2lb" onChange="a_to_b(8,9,2.2,1)"> kg (kilograms)
+    <th bgcolor=gold>2.2
+    <td><input type=text size=8 value=2.2 name="lb2kg" onChange="a_to_b(9,8,1/2.2,2.2)"> lbs (pounds mass)
+<tr><td><input type=text size=8 value=1 name="t2kg" onChange="a_to_b(10,11,1000,1)"> t (metric tonnes)
+    <th bgcolor=gold>1,000
+    <td><input type=text size=8 value=1000 name="kg2t" onChange="a_to_b(11,10,1/1000,1000)"> kg (kilograms)
+<tr><td><input type=text size=8 value=1 name="t2st" onChange="a_to_b(12,13,1.1,1)"> t (metric tonnes)
+    <th bgcolor=gold>1.1
+    <td><input type=text size=8 value=1.1 name="st2t" onChange="a_to_b(13,12,1/1.1,1.1)"> short tons
+<tr><td><input type=text size=8 value=1 name="st2lb" onChange="a_to_b(14,15,2000,1)"> short tons
+    <th bgcolor=gold>2,000
+    <td><input type=text size=8 value=2000 name="lb2st" onChange="a_to_b(15,14,1/2000,2000)"> lbs (pounds mass)
+<tr><td><input type=text size=8 value=1 name="kgsq2tha" onChange="a_to_b(16,17,10,1)"> kg&nbsp;m<sup>-2</sup>
+    <th bgcolor=gold>10
+    <td><input type=text size=8 value=10 name="tha2kgsq" onChange="a_to_b(17,16,1/10,10)"> t ha<sup>-1</sup> (tonnes per hectare)
+<tr><td><input type=text size=8 value=1 name="kgsq2sta" onChange="a_to_b(18,19,4.45,1)"> kg&nbsp;m<sup>-2</sup>
+    <th bgcolor=gold>4.45
+    <td><input type=text size=8 value=4.45 name="sta2kgsq" onChange="a_to_b(19,18,1/4.45,4.45)"> short&nbsp;tons per acre
+<tr><td><input type=text size=8 value=1 name="tha2sta" onChange="a_to_b(20,21,0.445,1)"> t ha<sup>-1</sup>
+    <th bgcolor=gold>0.445
+    <td><input type=text size=8 value=0.445 name="sta2tha" onChange="a_to_b(21,20,1/0.445,0.445)"> short&nbsp;tons per acre
+<tr><td><input type=text size=8 value=1 name="ha2ac"
+onChange="a_to_b(22,23,2.47,1)"> ha
+    <th bgcolor=gold>2.47
+    <td><input type=text size=8 value=2.47 name="ac2ha"
+onChange="a_to_b(23,22,1/2.47,2.47)"> acres
+</table>
+</form>
+</center>
+<p>
+</body>
+</html>
+

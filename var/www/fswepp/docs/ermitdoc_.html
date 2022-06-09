@@ -1,0 +1,164 @@
+<html>
+ <head>
+  <title>Erosion Management Rehabilitation Tool documentation</title>
+ </head>
+ <body bgcolor="lightgreen">
+  <font face="Arial, Geneva, Helvetica">
+  <table width=100% border=0>
+    <tr><td> 
+       <a href="http://forest.moscowfsl.wsu.edu/fswepp/">
+       <img src="http://forest.moscowfsl.wsu.edu/fswepp/images/fsweppic2.jpg" width=75 height=75
+       name="fswepplogo" align="left" alt="Back to FS WEPP menu" border=0></a>
+    <td align=right>
+       <hr>
+        <h2>
+                  <font color=red>E</font>rosion<br>
+           <font color=red>R</font>ehabilitation<br>
+               <font color=red>M</font>anagement<br>
+                     <font color=red>T</font>ool<br>
+                             Draft Documentation
+        </h2>
+       <hr>
+      </td>
+     </tr>
+    </table>
+
+<h3><a name="texture"></a>
+<a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='Disturbed WEPP documentation'; return true"></a>
+Soil Texture</h3>
+
+The erosion potential of a given soil depends on the vegetation cover, the
+surface residue cover,
+the soil texture, and other soil properies that influence soil strength.
+
+Because research in forest and range conditions is limited and data are
+not available to support a detailed database,
+only four soil textures (sand, silt, clay, and loam) are listed for
+<b><i>Disturbed WEPP.</i></b>
+
+<a href="#table2">Table&nbsp;2</a> can aid in selecting the desired soil texture.  
+The specific soil properties associated with each selection can be seen by selecting the
+desired soil and vegetation,and clicking the Soil Texture title.  As new information is accumulated,
+the values of the soil parameters and new soil options may be added to the database.
+<p>
+To fully describe each set of soils for WEPP requires 24 soil parameter values.
+Further details describing these parameters are available in the WEPP
+Technical Documentation (<a href="#Alberts">Alberts and others 1995</a>).
+
+<p>
+<a name="table2"></a>
+   <blockquote>
+    <table border=1>
+     <tr>
+      <caption align=left>
+             <font face="Arial, Geneva, Helvetica">
+              <b>Table 2. <i>Categories of Common Forest Soils in relation to Disturbed WEPP soils</i></b>
+     <tr>
+      <th bgcolor=85d2d2>
+       <font face="Arial, Geneva, Helvetica">
+        Soil type
+      </th>
+      <th bgcolor=85d2d2>
+       <font face="Arial, Geneva, Helvetica">
+        Soil Description
+      <th bgcolor=85d2d2>
+       <font face="Arial, Geneva, Helvetica">
+        Universal Soil Classification 
+      </th>
+     </tr>
+     <tr>
+      <th>
+       <font face="Arial, Geneva, Helvetica">
+        Clay loam
+      </th>
+      <td>
+       <font face="Arial, Geneva, Helvetica">
+        Soils derived from shales, limestone and similar decomposing fine-grained sedimentary rock.<br>
+        Lakebeds and similar areas of ancient lacustrian deposits
+      </td>
+      <td>
+       <font face="Arial, Geneva, Helvetica">
+        CH 
+      </td>
+     </tr>
+     <tr>
+      <th>
+       <font face="Arial, Geneva, Helvetica">
+        Silt loam
+      </th>
+      <td>
+       <font face="Arial, Geneva, Helvetica">
+        Ash cap and loess soils, soils derived from siltstone or similar sedimentary rock<br>
+        Highly-erodible mica/schist geologies
+      </td>
+      <td>
+       <font face="Arial, Geneva, Helvetica">
+        ML,CL 
+      </td>
+     </tr>
+     <tr>
+      <th>
+       <font face="Arial, Geneva, Helvetica">
+        Sandy loam
+      </th>
+      <td>
+       <font face="Arial, Geneva, Helvetica">
+        Glacial outwash areas; decomposed granites and sand stone, and sand deposits
+      </td>
+      <td>
+       <font face="Arial, Geneva, Helvetica">
+        GP, GM, SW, SP
+      </td>
+     </tr>
+     <tr>
+      <th>
+       <font face="Arial, Geneva, Helvetica">
+        Loam
+      </th>
+      <td>
+       <font face="Arial, Geneva, Helvetica">
+        Glacial tills, alluvium
+      <td>
+       <font face="Arial, Geneva, Helvetica">
+        GC, SM, SC, MH
+      </td>
+     </tr>
+    </table>
+   </blockquote>
+
+   <a name="rock"></a><h3>Rock fragment</h3>
+Rock content provides the ability of the interface to consider rock outcrops.
+<p>
+Rock fragments in WEPP are considered rocks in the soil. As such, WEPP
+assumes that as water moves through soil, it must flow around the
+rocks.  Therefore, WEPP reduces the hydraulic conductivity of the soil in
+direct proportion to the rock content (i.e. 20 percent rock will reduce
+the hydraulic conductivity by 20 percent).  WEPP will not accept a value
+for rock content higher than 50 percent, so even when the user puts 100
+percent rock into the rock content box, WEPP assumes that it is only 50
+percent.  In this context, as rock content increases up to 50 percent,
+runoff increases, as does rill erosion.  Above 50 percent, there is no
+further impact modeled from increased rock content.
+<p>
+Any surface rocks need to be accounted for in the surface cover.  For
+example, if after a fire there is 50 percent surface cover remaining from
+vegetation, and 20 percent of the bare soil is covered with rock, the
+correct surface cover including vegetation and rock is 60 percent (50
+percent vegetation + 20 percent rock * 50 percent bare).  In this context,
+as surface cover due to rock increases, the cover should be
+increased; both runoff and erosion will be reduced.  
+<p>
+Our interface currently does not automatically add rock content to surface
+cover, as there are cases where that may be inappropriate.
+<p>
+   <a name="vegtype"></a><h3>Vegetation type</h3>
+   <a name="gradient"></a><h3>Hillslope gradient</h3>
+   <a name="length"></a><h3>Hillslope horizontal length</h3>
+   <a name="severity"></a><h3>Fire severity class</h3>
+   <a name="prefire"></a><h3>Range/chaparral prefire community description</h3>
+ </body>
+</html>
+

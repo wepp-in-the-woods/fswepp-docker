@@ -1,0 +1,149 @@
+<html><head><title>Modify Climate Parameters instruction</title></head>
+<body bgcolor="ivory" link="green">
+<h2 align=center>Modify Climate Parameters instruction</h2>
+This screen, which is reached by clicking the "modify climate" button from
+the WEPP:Road or Disturbed WEPP input screens, has a <b><i>lot</i></b> of
+numbers on it.
+<p>
+
+Generally, users who wish to customize a climate have knowledge of mean
+precipitation or temperatures for a given site.
+They seldom have enough information to develop values for standard
+deviation or skew statistics.
+Hence, a technology was developed to allow users to customize the mean
+values for the site of interest, while using the other statistics from an existing
+(presumably nearby) CLIGEN station.
+As a minimum users can enter the average monthly precipitation amounts.
+Users can either enter exact values, or specify a percent increase or
+decrease over those at the existing station.
+If they have the data, they can also enter the number of wet days in a
+month, and the average monthly maximum and minimum temperatures.  
+
+<h3>Left-hand side: the base values</h3>
+The left-hand half of the table always shows a selection of climate parameters 
+from the climate station that is being modified.  
+These values can not be changed by the user.
+The station climate file has many other values which are not displayed.
+These include dewpoint, storm type, solar radiation, and wind parameters.
+
+<h3>Right-hand side: modified values</h3>
+The right-hand side of the table is adjustable by the user to hold any desired values.
+At the moment, not much error-checking is performed on the input values, so be careful.
+<p>
+There are a number of ways to modify the climate values displayed in the
+right-hand side of the table.
+
+<h4>Brute Force, cell by cell</h4>
+The user may enter a value for any or all monthly or annual values for
+mean maximum and minimum temperature, mean precipitation, and number of
+wet days.
+<h4>Change an entire column by a percentage or temperature</h4>
+At the bottom of the columns for mean maximum and minimum temperature,
+mean precipitation, and number of wet days
+are boxes into which one may specify a change to be applied to all of the
+monthly
+and annual values in the respective column.
+The values will not be updated on screen until the user presses the "tab"
+key or clicks the cursor into a different cell.
+<b><i>All of this type of adjustment are based on the base values displayed on the
+left-hand side of the table.  Existing values in the column are ignored.</i></b>
+For the temperature columns, the number of degrees increase or decrease is specified.
+For precipitation and number of wet days, a percentage change is specified.
+Entering a value of "0" (zero) for any column will reset the values to those shown
+in the respective left-hand column.
+
+<h4>Adjust temperatures for lapse rate</h4>
+The temperature values can be changed based on the difference in elevation for the
+base station and that shown at the top of the right-hand side of the table.
+<p>
+Lapse rates are specified as 6°C/km [17.4°F/mi]
+for maximum temperature and 5°C/km [14.5°F/mi] for minimum temperature.
+These values are comparable to 4.8 to 6.8°C/km found by Johnson et al.
+(1998) and the average 6°C/km given by Trewartha and Horn (1980).
+Generally, average minimum temperature lapse rates are not as great as maximum rates 
+because of temperature inversions that can occur during the evenings or during very 
+cold winter days.
+
+<h4>Retrieve PRISM precipitation data</h4>
+The PRISM (Parameter-Regressions on Independent Slopes Model) database was developed 
+cooperatively by the USDA-NRCS and ARS, and Oregon State University (Daly et al. 1997).
+The database contains the average monthly precipitation values and average elevations
+for a 2.5-min. grid covering the entire conterminous U.S.
+It was developed by interpolating and extrapolating precipitation amounts between 
+weather stations.
+Factors to allow for elevation, aspect, and other local effects were considered in 
+the development.  
+Numerous state climatologists have reviewed the PRISM database, and their observations 
+incorporated into it.
+<p>
+The user may retrieve monthly and annual precipitation data for any location in the
+conterminous U.S. by entering the location's decimal latitude and longitude in the
+boxes provided, and clicking on the "PRISM" button.
+When the "PRISM" button is pressed, a new screen (figure 2)
+will be displayed, from which one may roam around the PRISM dataset until just the
+right location is found (or the user may elect not to use the database).
+<p>
+<img src="images/mod.gif" align=center>
+<p>
+If one clicks on [PRISM], then the screen changes to:
+<p>
+<img src="images/mprism.gif" align=center>
+<p>
+The left-hand table displays the monthly and annual precipitation values for the 
+base station on the left and the values from the PRISM database on the right.
+<p>
+The right-hand table displays two 3-by-3 grids of PRISM data.
+The top grid displays the annual PRISM precipitation values for the 2.5-minute
+cell encompassing the specified latitude and longitude along with the precipitation
+values for the eight surrounding cells.
+The lower grid shows the equivalent for the PRISM elevation values.
+<p>
+The user may roam about the landscape by clicking on any of the eight surrounding
+cell values in either the precipitation grid or the elevation grid.
+The left-hand table will be updated with the new PRISM values, as will the
+right-hand grids.
+<p>
+When the user is satisfied with the PRISM values displayed in the left-hand
+table, he or she may press the [Use PRISM values] button to proceed to the
+screen shown in figure 3.
+Alternatively, the user may [Retreat] to the screen in figure 1.
+<p>
+<img src="images/modp.gif" align=center>
+<p>
+When press [Use PRISM values] button in screen in figure 2, the screen in
+figure 3 will be displayed.  It is the same as the screen in figure 1, except
+that one column heading is changed, and the latitude, longitude, elevation, and
+monthly and annual precipitation values from the PRISM query will be displayed.
+<p>
+One may well wish to check the "Adjust temperature for elevation by lapse rate"
+to modify the monthly and annual temperature values.
+<b>One should not enter a value in the "PRISM precipitation" cell in the 
+"Change entire column" row or the PRISM values will be lost.</b>
+<p>
+Change the text in the "New climate name" field to represent the new data,
+and press [Use these values] to create a new climate parameter file for yourself.
+<p>
+<hr align=center width=35%>
+
+<h3>References</h3>
+Daly, C., G. Taylor, and W. Gibson, 1997, 
+<i>The PRISM Approach to Mapping Precipitation and Temperature,</i>
+<b>10th Conf. on Applied Climatology,</b> Reno,NV, Amer. Meteor. Soc.,&nbsp;10-12.
+<p>
+Johnson, G. L., C. Daly and C. L. Hanson. 1998. 
+<i>Weather generator parameter spatial variability and mapping.</i>
+Presented at the <b>1998 ASAE Annual International Meeting,</b> Orlando, Florida.
+St. Joseph, Mich. : ASAE. July&nbsp;12-16,&nbsp;1998.
+[Technical papers: call No. CD-ROM S671.3.A5 1998]
+<p>
+Trewartha, G. T. and L. H. Horn. 1980. 
+<b>An Introduction to Climate.</b>  New York: McGraw-Hill Book Co. pp&nbsp;56-57.
+<p>
+<hr align=center width=35%>
+<p>
+<i>Modify Climate Parameters instruction.</i>
+Draft version.  D.E. Hall.  July 29, 2002.<br>
+http://forest.moscowfsl.wsu.edu/fswepp/
+</body>
+</html>
+

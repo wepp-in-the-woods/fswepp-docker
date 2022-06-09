@@ -1,0 +1,33 @@
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+  <title>WEPP:Road rock content help</title>
+ </head>
+ <body bgcolor="white" text="black" link="green" vlink="green" alink="red">
+  <font face="Tahoma, Arial, Helvetica">
+   <table width=100% border=0>
+    <tr>
+     <th bgcolor="#eeddcc">
+      <font face="trebuchet, tahoma, arial, sans serif">
+       <h3>WEPP:Road rock fragment content</h3>
+      </font>
+     </th>
+    </tr>
+   </table>
+    <br>
+    Rock fragments in WEPP are considered rocks in the soil.
+    As such, WEPP assumes that as water moves through soil, it must flow around the rocks.
+    Therefore, WEPP reduces the hydraulic conductivity of the soil in direct proportion to the rock content (i.e., 20 percent rock will reduce the hydraulic conductivity by 20 percent).
+    WEPP will not accept a value for rock content higher than 50 percent, so even when the user puts 100 percent rock into the rock content box, WEPP assumes that it is only 50 percent.
+    In this context, as rock content increases up to 50 percent, runoff increases, as does rill erosion.
+    Above 50 percent, there is no further impact modeled from increased rock content.
+    <br><br>
+    Any surface rocks need to be accounted for in the surface cover.
+    For example, if after a fire there is 50 percent surface cover remaining from vegetation, and 20 percent of the bare soil is covered with rock,
+    the correct surface cover including vegetation and rock is 60 percent (50 percent vegetation + 20 percent rock * 50 percent bare).
+    In this context, as surface cover due to rock increases, the cover should be increased; both runoff and erosion will be reduced.  
+    <br><br>
+    Our interface currently does not automatically add rock content to surface cover, as there are cases where that may be inappropriate.
+  </font>
+ </body>
+</html>

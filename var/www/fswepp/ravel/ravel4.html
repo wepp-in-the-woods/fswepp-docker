@@ -1,0 +1,257 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN""http://www.w3.org/TR/xhtml1-transitional.dtd">
+<html>
+ <head>
+  <title>Dry Ravel</title>
+
+  <SCRIPT LANGUAGE = "JavaScript" type="TEXT/JAVASCRIPT">
+  <!--
+  //burn depth parameters
+  var brunit = ' mm'
+  var brmin = 0
+  var brmax = 10
+  var brdef = 0.2
+  //soil bulk density parameters
+  var bkunit = ' kgs per cubic meter'
+  var bkmin = 500
+  var bkmax = 2000
+  var bkdef = 1300
+  //vegetation density parameters
+  var vdunit = ' stems per square meter'
+  var vdmin = 0
+  var vdmax = 20
+  var vddef = 1
+  //vegetation mean stem diameter parameters
+  var sdunit = ' meters'
+  var sdmin = 0
+  var sdmax = 0.5
+  var sddef = 0.05
+  //static friction angle parameters
+  var saunit = ' degrees'
+  var samin = 0
+  var samax = 75
+  var sadef = 30
+  //kinetic friction angle parameters
+  var kaunit = ' degrees'
+  var kamin = 0
+  var kamax = 75
+  var kadef = 20
+
+  function isNumber(inputVal) {
+    // Determine whether a suspected numeric input
+    // is a positive or negative number.
+    // Ref.: JavaScript Handbook. Danny Goodman. listing 15-4, p. 374.
+    oneDecimal = false                              // no dots yet
+    inputStr = "" + inputVal                        // force to string
+    for (var i = 0; i < inputStr.length; i++) {     // step through each char
+      var oneChar = inputStr.charAt(i)              // get one char out
+      if (i == 0 && oneChar == "-") {               // negative OK at char 0
+        continue
+      }
+      if (oneChar == "." && !oneDecimal) {
+        oneDecimal = true
+        continue
+      }
+      if (oneChar < "0" || oneChar > "9") {
+        return false
+      }
+    }
+    return true
+  }
+
+  function checkRange(obj,min,max,def,unit,thistext) {
+    if (isNumber(obj.value)) {                   // obj == document.dryrav.BS
+      if (obj.value < min) {                     // min == BSmin
+        alert_text=thistext + " must be between " + min + " and " + max + unit
+        obj.value=min
+        alert(alert_text)
+      }
+      if (obj.value > max){
+        alert_text=thistext + " must be between " + min + " and " + max + unit
+        obj.value=max
+        alert(alert_text)
+      }
+    } else {
+      obj.value=def
+      alert("Invalid entry for " + thistext + "!")
+    }
+  }
+
+  function showRange(obj, head, min, max, unit) {
+    range = head + min + " to " + max + unit
+    window.status = range
+    return true                           // p. 86
+  }
+
+  // end hide -->
+  </SCRIPT>
+ </head>
+
+ <BODY bgcolor="white" link="#555555" vlink="#555555">
+  <font face="Arial, Geneva, Helvetica">
+   <table width=100% border=0>
+    <tr>
+     <td>
+      <a href="http://forest.moscowfsl.wsu.edu/fswepp/">
+      <IMG src="http://forest.moscowfsl.wsu.edu/fswepp/images/fsweppic2.jpg" width=75 height=75
+      align="left" alt="Back to FS WEPP menu" border=0></a>
+     </td>
+     <td align=center>
+      <hr>
+      <h2>Dry Ravel</h2>
+      <hr>
+     </td>
+     <td>
+      <A HREF="http://forest.moscowfsl.wsu.edu/fswepp/docs/distweppdoc.html" target="docs">
+      <IMG src="http://forest.moscowfsl.wsu.edu/fswepp/images/epage.gif"
+       align="right" alt="Read the documentation" border=0></a>
+     </td>
+    </tr>
+   </table>
+   <center>
+   <br />
+
+   <FORM name="dryrav" method="post" action="/cgi-bin/fswepp/ravel/rav4.pl" ENCTYPE="multipart/form-data">
+    <table border=1 cellpadding=6>
+     <tr>
+      <th bgcolor="#85d2d2">
+       Run Decription
+      </th>
+     </tr>
+     <tr>
+      <td>
+       <input type="text" size="90" name="description">
+       <input type="hidden" name="units" value="m">
+      </td>
+     </tr>
+    </table>
+    <table border=0 align="center" cellpadding=6>
+     <tr>
+      <td>
+       <TABLE border="1" cellpadding=6>
+        <TR align="top">
+         <TD align="center" bgcolor="#85d2d2">
+          <b> Burn Impact Depth (mm) </b>
+          <a href="JavaScript:submitme('Describe Depth')"
+             onMouseOver="window.status='Describe burn impact depth';return true"
+             onMouseOut="window.status='Forest Service Dry Ravel'; return true">
+             <img src="/fswepp/images/quest_b.gif"></a>
+         </td>
+         <td>
+          <input type="text" size=5 name="brndep" value="0.2"
+           onChange="checkRange(brndep,brmin,brmax,brdef,brunit,'Burn Impact Depth')"
+           onFocus="showRange(this.form,'Burn Impact Depth: ',brmin,brmax,brunit)"
+           onBlur="blankStatus()">
+         </td>
+        </tr>
+        <tr align="top">
+         <td align="center" bgcolor="#85d2d2">
+          <b> Bulk Density (kg / m<sup>3</sup>) </b>
+          <a href="JavaScript:submitme('Describe Bulk')"
+           onMouseOver="window.status='Describe soil bulk density';return true"
+           onMouseOut="window.status='Forest Service Dry Ravel'; return true">
+           <img src="/fswepp/images/quest_b.gif"></a>
+         </td>
+         <td>
+          <input type="text" size=5 name="bulk" value="1300"
+           onChange="checkRange(bulk,bkmin,bkmax,bkdef,bkunit,'Bulk density')"
+           onFocus="showRange(this.form,'Bulk density: ',bkmin,bkmax,bkunit)"
+           onBlur="blankStatus()">
+         </td>
+        </tr>
+       </table>
+      <td>
+       <TABLE border="1" cellpadding=6>
+        <tr align="top">
+         <td align="center" bgcolor="#85d2d2">
+          <b>   Vegetation Density (stem / m<sup>2</sup>) </b>
+          <a href="JavaScript:submitme('Describe vegetation density')"
+             onMouseOver="window.status='Describe Vegetation density';return true"
+             onMouseOut="window.status='Forest Service Dry Ravel'; return true">
+             <img src="/fswepp/images/quest_b.gif"></a>
+         </td>
+         <td>
+          <input type="text" size=5 name="density" value="1"
+           onChange="checkRange(density,vdmin,vdmax,vddef,vdunit,'Vegetation density')"
+           onFocus="showRange(this.form,'Vegetation density: ',vdmin,vdmax,vdunit)"
+           onBlur="blankStatus()">
+         </td>
+        </tr>
+        <tr align="top">
+         <td align="center" bgcolor="#85d2d2">
+          <B> Mean Stem Diameter (m)</b>
+          <a href="JavaScript:submitme('Describe Size')"
+           onMouseOver="window.status='Describe mean stem diameter';return true"
+           onMouseOut="window.status='Forest Service Dry Ravel'; return true">
+           <img src="/fswepp/images/quest_b.gif"></a>
+         </td>
+         <td>
+          <input type="text" size=5 name="stemsize" value="0.05"
+           onChange="checkRange(stemsize,sdmin,sdmax,sddef,sdunit,'mean stem diameter')"
+           onFocus="showRange(this.form,'Mean stem diameter: ',sdmin,sdmax,sdunit)"
+           onBlur="blankStatus()">
+         </td>
+        </tr>
+       </table>
+      </td>
+     </tr>
+    </table>
+    <br />
+    <table border="1" cellpadding=6>
+     <tr align="top">
+      <td align="center" bgcolor="#85d2d2">
+       <B>   Static Friction Angle (deg)</b>
+       <a href="JavaScript:submitme('Describe Static')"
+             onMouseOver="window.status='Describe static friction angle';return true"
+             onMouseOut="window.status='Forest Service Dry Ravel'; return true">
+             <img src="/fswepp/images/quest_b.gif"></a>
+      </td>
+      <td>
+       <input type="text" size=5 name="static" value="30"
+        onChange="checkRange(static,samin,samax,sadef,saunit,'Static friction angle')"
+        onFocus="showRange(this.form,'Static friction angle: ',samin,samax,saunit)"
+        onBlur="blankStatus()">
+      </td>
+     </tr>
+     <tr align="top">
+      <td align="center" bgcolor="#85d2d2">
+       <b> Kinetic Friction Angle (deg) </b>
+       <a href="JavaScript:submitme('Describe Friction')"
+           onMouseOver="window.status='Describe kinetic friction angle';return true"
+           onMouseOut="window.status='Forest Service Dry Ravel'; return true">
+           <img src="/fswepp/images/quest_b.gif"></a>
+      </td>
+      <td>
+       <input type="text" size=5 name="kinetic" value="20"
+        onChange="checkRange(kinetic,kamin,kamax,kadef,kaunit,'Kinetic friction angle')"
+        onFocus="showRange(this.form,'Kinetic friction angle: ',kamin,kamax,kaunit)"
+        onBlur="blankStatus()">
+      </td>
+     </tr>
+    </table>
+    <br>
+    <label for="file">ASCII DEM file:</label>
+    <input type="file" name="uploadFileName" id="file">&nbsp;
+    <br><br>
+    <input type="submit" value=" Run Dry Ravel ">
+   </form>
+
+   <hr>
+   <table width=100%>
+    <tr>
+     <td align="left">
+      <font face="Tahoma, Arial, Geneva, Helvetica" size=-1>
+       Dry Ravel 1.000<br>
+       USDA Forest Service Rocky Mountain Research Station<br>
+       Forestry Sciences Laboratory, Moscow, Idaho<br>
+       Release 2010.5.1
+      </font>
+     </td>
+     <td>
+     <a href="http://forest.moscowfsl.wsu.edu/fswepp/comments.html" >
+      <img src="http://forest.moscowfsl.wsu.edu/fswepp/images/epaemail.gif" align="right" border=0></a>
+     </td>
+    </tr>
+   </table>
+  </font>
+ </body>
+</html>

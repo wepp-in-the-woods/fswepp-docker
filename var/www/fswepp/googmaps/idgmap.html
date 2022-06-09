@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+  <title>Idaho Climate Station Map</title>
+
+   <script src="http://maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAAxtSgHZfocOyX4Q1NRSD7lxTdb71tKAVcyYX7Q1NgMeQp5FDfbhTys95CepsqJkxrb4JPQvtKA1SB5g"
+      type="text/javascript"></script>
+   <script type="text/javascript">
+    //<![CDATA
+    var map
+    function load() {   
+      // Looks if browser is compatible for the map
+      if (GBrowserIsCompatible()) {
+      	
+      	//Create new map opject
+        map = new GMap2(document.getElementById("map"));
+        
+        //Add map controls
+        map.addControl(new GSmallMapControl());
+        map.addControl(new GMapTypeControl());
+        
+        //Set standard map type to hybrid
+//        map.setCenter(new GLatLng(<?=$lat?>, <?=$lon?>), 13);
+        map.setCenter(new GLatLng(42.50,-112.57), 13);
+        map.setMapType( G_HYBRID_TYPE );
+        var icon = new GIcon();
+
+// Creates a marker at the given point with the given number label
+function createMarker(point, number) {
+  var marker = new GMarker(point, {draggable: true});
+  GEvent.addListener(marker, "click", function() {  marker.openInfoWindowHtml(station[number]);  });
+  GEvent.addListener(marker, "dragstart", function() {  map.closeInfoWindow();  });
+  GEvent.addListener(marker, "dragend", function() {  alert('hah!'); marker.openInfoWindowHtml("Just bouncing along...");  });
+  return marker;
+}
+
+
+var station=[]
+
+        //Create point for climate station
+
+        var point0 = new GLatLng(42.50,-112.57);var stat0 = createMarker(point0,0);map.addOverlay(stat0);station[0]='station 0'
+      }
+    }
+    
+    //]]>
+    </script>
+ </head>
+ <body onload="load()">
+  IDAHO
+  <div id="map" style="height: 500px"></div>
+ </body>
+
+</html>

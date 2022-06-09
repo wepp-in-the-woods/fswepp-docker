@@ -1,0 +1,144 @@
+<html>
+<head>
+<title>
+Miles to Lat/Long converter
+</title>
+<script>
+//
+//  David Hall. U.S.D.A. Forest Service, Rocky Mountain Research Station
+//
+//  28 December 2000 add link to DMS <--> decimal degrees calculator
+//  19 December 2000 implement rounding to 4 decimal places
+//                   Need: isNumber checking, valid input numbers
+//  18 December 2000 change base latitude & longitude
+//      add equation deg-min-sec to decimal degrees to explanation
+//      change field "latitude" to "platitude" and "longitude" to "plongitude"
+//
+var browserName=navigator.appName;
+var browserVer=parseInt(navigator.appVersion);
+
+function load_latlon(obj)
+{
+    if (self.creator.document.prism.platitude) {
+       obj.baselat.value=self.creator.document.prism.platitude.value    }
+    if (self.creator.document.prism.plongitude) {
+       obj.baselon.value=-self.creator.document.prism.plongitude.value
+    }
+    newLatLong();
+}
+
+function apply_latlon(obj)
+{
+//  alert('applying...')
+    if (self.creator.document.prism.platitude) {
+       self.creator.document.prism.platitude.value=obj.newlat.value
+    }
+    if (self.creator.document.prism.plongitude) {
+       self.creator.document.prism.plongitude.value=-obj.newlon.value
+    }
+    window.close(self);
+}
+
+function newLongitude() {
+  // Length of 1 degree of longitude = cosine(latitude) * [length of degree at equator (in miles)]
+  // www.colorado.edu/geography/gcraft/warmup/aquifer/html/distance.html [12/5/2000]
+  // if (isNumber()) {}
+
+  var lode = 69.172             // [length of degree at equator (in miles)]
+  var torads = Math.PI / 180    // factor for degrees to radians
+  var milesEast=parseFloat(document.latlongmi.milesE.value)
+  var baselatitude=parseFloat(document.latlongmi.baselat.value)
+  var baselongitude=parseFloat(document.latlongmi.baselon.value)
+  var onedegreelong=Math.cos(baselatitude*torads)*lode
+  var deltalongitude=milesEast/onedegreelong
+  var newlongitude=round(baselongitude+deltalongitude,4)
+//  document.latlongmi.onedegree.value=onedegreelong
+//  document.latlongmi.deltalon.value=deltalongitude
+  document.latlongmi.newlon.value=newlongitude
+}
+
+function newLatitude() {
+  // Length of 1 degree of latitude ranges from
+  //    68.70 miles at  0 deg N to
+  //    68.83          25 deg N (tip of Florida not including the Keys)
+  //    69.12          50 deg N (approximate US/Canada border)   (range = 0.29 mile = 1531 feet = 510 yards)
+  //    69.41 miles at 90 deg N   (Compton's Encyclopedia Online v.3.0 www.comptons.com/encyclopedia/TABLES/150995113_T.html)
+  //    68.703 miles at equator to 69.407 at poles due to earth's slightly ellipsoid shape)
+  //           "What is the distance between a degree of latitude and longitude?"
+  //           www.geography.about.com/science/geography/library/faq/blqzdistancedegree.htm cached 12/05/00
+  var onedegreelat = 68.875     // length of degree latitude (average between 25 deg N and 50 deg N)
+  var milesNorth=parseFloat(document.latlongmi.milesN.value)
+  var baselatitude=parseFloat(document.latlongmi.baselat.value)
+  var deltalatitude=milesNorth/onedegreelat
+  var newlatitude=round(baselatitude+deltalatitude,4)
+  document.latlongmi.newlat.value=newlatitude
+}
+function newLatLong() {
+  newLatitude()
+  newLongitude()
+}
+function round(realnumber,numdecs) {
+  var x = realnumber
+  var cnumdecs = Math.round(numdecs)
+  var factor = Math.pow(10,cnumdecs)
+  var intermed = x * factor + 0.5
+  var r = Math.floor(intermed) / factor
+  return r
+}
+</script>
+</head>
+<body>
+<form name="latlongmi">
+<table border=1>
+  <tr><th bgcolor="darkseagreen">Base location
+  <tr><th><input type="text" size=10 value="46.45" name="baselat" onChange='newLatLong()'> <sup>o</sup> N Latitude&nbsp;&nbsp;
+          <input type="text" size=10 value="-114.87" name="baselon" onChange='newLongitude()'> <sup>o</sup> E Longitude
+  <tr><th bgcolor="darkseagreen">Shift by
+  <tr><th><input type="text" size=10 value="0" name="milesN" onChange='newLatitude()'> <a href="kmlatcon.html">miles</a> N&nbsp;&nbsp;
+          <input type="text" size=10 value="0" name="milesE" onChange='newLongitude()'> <a href="kmlatcon.html">miles</a> E
+  <tr><th bgcolor="aquamarine">New location
+  <tr><th><input type="text" size=10 value="46.45" name="newlat" onFocus='this.blur()'> <sup>o</sup> N Latitude&nbsp;&nbsp;
+          <input type="text" size=10 value="-114.87" name="newlon" onFocus='this.blur()'>  <sup>o</sup> E Longitude
+<!--
+  <tr><th>Intermediate results
+  <tr><th><input type="text" size=10 value="" name="deltalon" onFocus='this.blur()'> <sup>o</sup> E-W delta<br>
+          <input type="text" size=10 value="" name="onedegree" onFocus='this.blur()'> miles per <sup>o</sup> E-W
+-->
+</table>
+<p>
+<center>
+<script language="JavaScript">
+<!-- hide from old browsers
+//  alert(window.creator);
+//  if (browserName == "Netscape" && browserVer >= 3) {
+   if (window.creator) {
+     document.write(' <input type="button" value="Load" onClick="load_latlon(this.form)">');
+     document.write(' <input type="button" value="Apply" onClick="apply_latlon(this.form)">');
+   }
+//  }
+// end hiding-->
+</script>
+    <input type="button" value="Dismiss" onClick="window.close(self)">
+</center>
+</FORM>
+To convert, enter values for base location and the desired shift,
+then press "tab" or click elsewhere in the window.
+An approximate new latitude and longitude will be displayed.
+<p>
+Latitude and longitude are entered in decimal degrees.
+To <a href="dms2dec.html" target="dms2dec">translate degress, minutes,
+seconds to decimal degrees,</a> use:
+<blockquote>
+   decimal degrees = degrees + (minutes/60) + (seconds/3600)
+</blockquote>
+
+If your browser supports such actions, a [Load] button and an [Apply]
+button will be displayed.
+[Load] will attempt to load the base location values from the FS WEPP
+page which called this calculator.
+[Apply] will attempt to transfer the new loacation values into the FS WEPP
+page which called this calculator.
+[Dismiss] will close the calculator window.
+</form>
+</body>
+</html>

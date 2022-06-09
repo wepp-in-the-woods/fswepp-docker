@@ -1,0 +1,81 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+  <title>Hawaii Climate Station Map</title>
+
+   <script src="http://maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAAxtSgHZfocOyX4Q1NRSD7lxTdb71tKAVcyYX7Q1NgMeQp5FDfbhTys95CepsqJkxrb4JPQvtKA1SB5g"
+      type="text/javascript"></script>
+   <script type="text/javascript">
+    //<![CDATA
+    var map
+    function load() {   
+      // Looks if browser is compatible for the map
+      if (GBrowserIsCompatible()) {
+      	
+      	//Create new map opject
+        map = new GMap2(document.getElementById("map"));
+        
+        //Add map controls
+        map.addControl(new GSmallMapControl());
+        map.addControl(new GMapTypeControl());
+        
+        //Set standard map type to hybrid
+//        map.setCenter(new GLatLng(<?=$lat?>, <?=$lon?>), 13);
+        map.setCenter(new GLatLng(21, -157.), 13);
+        map.setMapType( G_HYBRID_TYPE );
+        var icon = new GIcon();
+
+// Creates a marker at the given point with the given number label
+function GMarker2(point, number) {
+  var marker = new GMarker(point, {draggable: true});
+  GEvent.addListener(marker, "click", function() {
+    marker.openInfoWindowHtml(station[number]);
+  });
+  return marker;
+}
+
+        //Create point for climate station
+
+//        var point = new GLatLng(<?=$lat?>, <?=$lon?>);
+//        map.addOverlay(new GMarker(point));
+var station = [];
+         map.addOverlay( GMarker2(new GLatLng(21.42,-157.82),0)) ; station[0]='KANEOHE MAUKA 781 HI<br>200 ft ele; 73.39" annual precip';
+         map.addOverlay( GMarker2(new GLatLng(20.83,-156.92),1)) ; station[1]='LANAI CITY 672 HI<br>1620 ft ele; 36.86" annual precip';
+         map.addOverlay( GMarker2(new GLatLng(20.02,-155.28),2)) ; station[2]='OOKALA 223 HI<br>430 ft ele; 115.37" annual precip'
+         map.addOverlay( GMarker2(new GLatLng(21.35,-158.03),3)) ; station[3]='EWA PLANTATION HI<br>50 ft ele; 21.89" annual precip'
+         map.addOverlay(new GMarker2(new GLatLng(20.85,-156.30),4)) ; station[4]='HALEAKALA EXP FARM HI<br>2100 ft ele; 73.59" annual precip'
+         map.addOverlay(new GMarker2(new GLatLng(20.77,-156.25),5)) ; station[5]='HALEAKALA R S 338 HI<br>7030 ft ele; 54.29" annual precip'
+         map.addOverlay(new GMarker2(new GLatLng(20.75,-155.98),6)) ; station[6]='HANA 354 HI<br>200 ft ele; 55.15" annual precip'
+         map.addOverlay(new GMarker2(new GLatLng(20.80,-156.02),7)) ; station[7]='HANA AP 355 HI<br>60 ft ele; 78.15" annual precip'
+         map.addOverlay(new GMarker2(new GLatLng(19.43,-155.27),8)) ; station[8]='HAWAII VOLCNS NP HQ 54<br>3970 ft ele; 106.26" annual precip'
+         map.addOverlay(new GMarker2(new GLatLng(19.72,-155.07),9)) ; station[9]='HILO WSO AP 87 HI<br>40 ft ele; 126.07" annual precip'
+         map.addOverlay(new GMarker2(new GLatLng(21.33,-157.93),10)) ; station[10]='HONOLULU WSFO 703 AP HI<br>10 ft ele; 21.86" annual precip'
+         map.addOverlay(new GMarker2(new GLatLng(20.93,-156.70),11)) ; station[11]='KAANAPALI AP 435.1 HI<br>10 ft ele; 16.84" annual precip'
+         map.addOverlay(new GMarker2(new GLatLng(21.68,-157.95),12)) ; station[12]='KAHUKU 912 HI<br>30 ft ele; 42.11" annual precip'
+         map.addOverlay(new GMarker2(new GLatLng(20.90,-156.22),13)) ; station[13]='KAILUA 446 HI<br>700 ft ele; 121.73" annual precip'
+         map.addOverlay(new GMarker2(new GLatLng(19.53,-155.93),14)) ; station[14]='KAINALIU 732 AP HI<br>1500 ft ele; 61.49" annual precip'
+         map.addOverlay(new GMarker2(new GLatLng(22.10,-159.32),15)) ; station[15]='KEALIA 1112 HI<br>10 ft ele; 43.36" annual precip'
+         map.addOverlay(new GMarker2(new GLatLng(21.97,-159.72),16)) ; station[16]='KEKAHA 944 HI<br>10 ft elev; 21.87" annual pcp'
+         map.addOverlay(new GMarker2(new GLatLng(21.92,-159.47),17)) ; station[17]='KOLOA 936 HI<br><br>240 ft ele; 67.45" annual precip'
+         map.addOverlay(new GMarker2(new GLatLng(21.15,-157.03),18)) ; station[18]='KUALAPUU HI<br>880 ft ele; 30.97" annual precip'
+         map.addOverlay(new GMarker2(new GLatLng(20.13,-155.57),19)) ; station[19]='KUKUIHAELE 206 HI<br>300 ft ele; 56.88" annual precip'
+         map.addOverlay(new GMarker2(new GLatLng(20.88,-156.67),10)) ; station[20]='LAHAINA 361 HI<br>50 ft ele; 15.60" annual precip'
+         map.addOverlay(new GMarker2(new GLatLng(21.98,-159.35),21)) ; station[21]='LIHUE WSO AP HI<br>120 ft ele; 42.35" annual precip'
+         map.addOverlay(new GMarker2(new GLatLng(21.32,-157.65),22)) ; station[22]='MAKAPUU POINT 724 HI<br>550 ft ele; 29.96" annual precip'
+         map.addOverlay(new GMarker2(new GLatLng(21.13,-157.22),23)) ; station[23]='MAUNALOA 511 HI<br>1100 ft ele; 27.39" annual precip'
+         map.addOverlay(new GMarker2(new GLatLng(19.27,-155.88),24)) ; station[24]='OPIHIHALE 2 HI<br>1300 ft ele; 43.09" annual precip'
+         map.addOverlay(new GMarker2(new GLatLng(19.98,-155.83),25)) ; station[25]='PUAKO 95.1 HI<br>10 ft ele; 9.37" annual precip'
+      }
+    }
+    
+    //]]>
+    </script>
+ </head>
+ <body onload="load()">
+  HAWAI'I
+  <div id="map" style="height: 500px"></div>
+ </body>
+
+</html>

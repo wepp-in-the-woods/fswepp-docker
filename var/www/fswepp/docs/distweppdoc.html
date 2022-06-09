@@ -1,0 +1,1132 @@
+<html>
+ <head>
+  <title>Disturbed WEPP Technical Documentation, Preliminary draft 02/00</title>
+  <script language="javascript">
+   function convert () {
+     var url = 'jsconvert.html'
+     popupwindow = window.open(url,'convert','toolbar=no,location=no,status=no,directories=no,menubar=no,scrollbars=yes,resizable=yes,width=500,height=450');
+     popupwindow.focus()
+   }
+  </script>
+   <!-- May 14, 2003 added rock/area addemdum from 'forest" doc -->
+   <!-- July 25, 2002 -->
+ </head>
+ <body onLoad="self.focus()" bgcolor=white text="black" link="1603F3" vlink="160A8C">
+  <font face="Arial, Geneva, Helvetica">
+<a name="topofpage"></a>
+
+   <table width=93%>
+   <tr>
+    <td valign=top>
+     <a href="/fswepp/"><img src="images/fsweppic2.jpg" width=60 height=60 border=0></A><P>
+     <img src="../images/disturb.gif" width=50 height=50 border=2>
+
+    <th align=right>
+     <h2>
+      <font color=red>Disturbed WEPP</font> (Draft 02/2000)<BR>
+      <font color=red>WEPP</font> Interface for
+      <font color=red>Disturbed</font> Forest and Range<br>
+                      Runoff, Erosion and Sediment Delivery
+     </h2>
+     <h3>
+      Technical Documentation
+     </h3>
+    </table>
+
+   <table width=93%>
+    <tr>
+     <th align=right>
+   William J. Elliot, Project Leader<BR>
+   David E. Hall, Computer Programmer/Analyst<BR>
+   Dayna L. Scheele, Civil Engineer
+  <hr width=20% align=right>
+   U.S.D.A. Forest Service<br>
+   Rocky Mountain Research Station and<br>
+   San Dimas Technology and Development Center
+  <hr width=20% align=right>
+  February 2000
+</table>
+
+<p>
+<center>
+<hr width=90%>
+<em>
+Very preliminary documentation.<br>
+Please consult <a href="http://forest.moscowfsl.wsu.edu/fswepp/docs/distweppdoc.html">http://forest.moscowfsl.wsu.edu/fswepp/docs/distweppdoc.html</a>
+for the latest version.
+</em>
+<hr width=90%>
+[  <a href="#introduction" target="_top">Introduction</a>
+|  <a href="#model">WEPP&nbsp;model</a>
+|  <a href="#assumptions">Assumptions</a>
+|  <a href="#climate">Climate</a>
+|  <a href="#texture">Soil&nbsp;texture</a>
+|  <a href="#treatment">Treatment</a>
+|  <a href="#topography">Topography</a>
+|  <a href="#running">Running</a>
+|  <a href="#results">Results&nbsp;screen</a>
+|  <a href="#applications">Applications</a>
+|  <a href="#examples">Examples</a>
+|  <a href="#validation">Validation</a>
+|  <a href="#references">References</a>
+|  <a href="#apdx1">Appendices</a>
+]
+<hr width=90%>
+</center>
+<p>
+
+<h3><a name="introduction"></a>
+<a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='Disturbed WEPP documentation'; return true"></a>
+Disturbed WEPP</h3>
+
+<b><i>Disturbed WEPP</i></b> is an interface to the Water Erosion Prediction Project soil erosion model 
+(WEPP) to allow users to easily describe numerous disturbed forest and rangeland erosion conditions.
+
+The interface presents the results as a summary and extended WEPP outputs, and also presents the
+probability of a given level of erosion occurring the year following a disturbance.
+<b><i>Disturbed WEPP</i></b> is linked to the Rock:Clime climate generator with a database of climate statistics
+for more than 2600 weather stations.
+
+<h3><a name="introduction"></a>
+<a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='Disturbed WEPP documentation'; return true"></a>
+Introduction</h3>
+<b><i>Disturbed WEPP</i></b> is one in a series of the U.S.D.A. Forest Service's Internet-based computer 
+programs based on the Agricultural Research Service's <a href="http://forest.moscowfsl.wsu.edu/engr/wepp0.html">Water Erosion Prediction Project</a> 
+(WEPP) model.
+<b><i>Disturbed WEPP</i></b> is designed to predict runoff and sediment yield from:
+<ul>	<li>young and old undisturbed forests
+	<li>prescribed and wild forest fires
+	<li>skid trails and harvested forests
+	<li>rangelands with short grass, tall grass, and shrub plant communities
+	<li>any condition with little soil disturbance (no tillage) but a definable amount of soil residue cover
+(such as parks, pastures, notill agriculture)
+</ul>
+<b><i>Disturbed WEPP</i></b> is not intended for:
+<ul>	<li>tilled agricultural conditions (use USDA-ARS templates (WEPP, 1999)) 
+	<li>sites where soil is severely disturbed or compacted, such as roads and trails (use WEPP:Road), construction sites, heavily-used playgrounds or trampled rangelands,
+</ul>
+<b><i>Disturbed WEPP</i></b> allows the user to specify the characteristics of the site in terms of
+<ul>	<li>climate 
+	<li>soil texture
+	<li>local topography
+	<li>plant community
+	<li>surface residue cover
+</ul>
+
+<h4>
+Forest Erosion Processes</h4>
+
+Forests generally have very low erosion rates unless they are disturbed.  
+
+Common disturbances include prescribed and wild fire, and harvesting operations.
+
+The impact of these operations, however, last only for a short time, perhaps one or two years.
+
+After that, the rapid regrowth of vegetation soon covers the surface with plant litter, 
+and potential erosion is quickly reduced.
+
+In one study, Robichaud and Brown (1999) reported that erosion rates dropped from almost 
+40&nbsp;Mg&nbsp;ha<sup>-1</sup> the first year after a fire to 
+2.3&nbsp;Mg&nbsp;ha<sup>-1</sup> the second, and
+1&nbsp;Mg&nbsp;ha<sup>-1</sup> the third year.
+
+The regrowth of vegetation and subsequent increase in canopy and ground cover overshadow any 
+differences due to climate variation among the years.
+
+For any one of the given years, however, the potential erosion depends on the climate.
+<p>
+If the year is normal or dry, then it is unlikely for there to be any significant erosion.
+
+If the year has above average precipitation, however, then there could be significant soil erosion.
+With such variation from one year to the next, the concept of "average annual erosion" is not 
+appropriate as there is no such thing as an "average" year.
+
+The erosivity of a given year is either above average, or below average.
+
+A more appropriate analysis of soil erosion following a forest disturbance may be the
+probability of a given level of erosion occurring.
+
+For example, some recent estimates of runoff and erosion after a wild fire required an 
+estimation of a 5-year return period event (an exceedance probability of 0.20).
+ 
+<h4>
+Rangeland Erosion Processes</h4>
+
+With rangelands, an average annual erosion rate may be more appropriate.
+
+Range managers generally manage grazing levels by the amount of remaining vegetation.
+<p>
+Over the past century, grazing in the west has led to a change in the plant species 
+composition in many rangelands.
+
+Prior to grazing, many rangelands were dominated by tall grass species, such as the bluestems.
+
+Overgrazing on many of the ranges has resulted in a domination of short grasses, 
+such as buffalo grass or bluegrass, on many ranges.
+
+Researchers are finding that runoff from short grass sites is greater than that from tall grass sites.
+<p>
+For example, on the same soil family in Nebraska, researchers measured a hydraulic conductivity of 
+ 3.3&nbsp;mm&nbsp;h<sup>-1</sup> on a site where the cover was dominated by Kentucky bluegrass
+(a "short" grass) and 
+15.3&nbsp;mm&nbsp;h<sup>-1</sup> where the dominant vegetation was big bluestem (a "tall" grass)
+(Flanagan and Livingston 1995).
+<p>
+As managers today seek to reduce grazing to increase levels of ground cover, they may not realize
+as great a reduction in upland erosion and runoff as would be expected from increased cover (Spaeth 1999).
+
+Hence, range soil hydrologic and erosion properties depend on both soil textural properties
+and the type of plant community.
+<p>
+To demonstrate the effect of these relationships, before European settlement of the west, 
+an undisturbed rangeland watershed may likely have had a groundcover of 60&nbsp;percent or greater,
+and a tall grass plant community.
+
+There was little runoff and little upland or channel erosion.
+
+Following a number of decades of overgrazing, or attempts to cultivate crops, the tall grass
+composition may have changed to short grass.
+
+Today, a range conservationist may restrict grazing to achieve a cover of 60&nbsp;percent, 
+but runoff, and hence upland and channel erosion, may be considerably greater than 
+presettlement levels when tall grasses dominated the vegetation.
+
+<h3><a name="model"></a>
+<a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='Disturbed WEPP documentation'; return true"></a>
+The WEPP Model</h3>
+
+The WEPP model (<a href="#Flanagan">Flanagan and Livingston 1995</a>) is a physically-based soil
+erosion model that can provide estimates of soil erosion and sediment yield considering the 
+specific soil, climate, ground cover, and topographic conditions.  
+
+It was developed by an interagency group of scientists including the U.S. Department of Agriculture's 
+Agricultural Research Service (ARS), 
+Forest Service, and Natural Resources Conservation Service; 
+and the U.S. Department of Interior's Bureau of Land Management and 
+Geological Survey.  
+<p>
+WEPP simulates the conditions that impact erosion--such as the amount of vegetation canopy, 
+the surface residue, and the soil water content for every day in a multiple-year run.
+
+For each day that has a precipitation event, WEPP determines whether the event is rain or snow, 
+and calculates the infiltration and runoff.
+
+If there is runoff, WEPP routes the runoff over the surface, calculating erosion or 
+deposition rates for at least 100 points on the hillslope.
+
+It then calculates the average sediment yield from the hillslope.  
+<p>
+The WEPP model has incorporated the EPIC crop growth model.
+
+During the growing season, WEPP daily grows a plant based on the amount of solar energy, 
+the temperature, and the availability of soil water.
+
+During a specified senescence period, part of the live biomass is converted to surface residue.
+
+The surface residue decomposes as a function of temperature.
+
+The height and spacing of the plants, the amount of biomass converted to surface residue, 
+and the residue decomposition rates are all values that must be included in the WEPP 
+management input file.
+
+The daily values for numerous plant and residue characteristics predicted by WEPP can be 
+observed in WEPP output files if the user desires.
+
+These values include surface residue cover and above ground live biomass.
+<p>
+<a href="#fig1">Figure 1</a> shows ten years of values predicted by WEPP for a Colorado rangeland.
+
+Careful inspection of figure 1 will show that the increase in cover occurs during 
+the specified senescence period when biomass is decreasing.
+
+The decrease in cover is due to residue decomposition, and occurs more rapidly 
+during the summer than during the winter periods.
+
+The decomposition rate also depends on the amount of residue present.
+
+<p>
+<a name=fig1><center>
+<img src="images/dw_fig1.gif"><br>
+<b>Figure&nbsp;1.</b>	<i>Daily variations in predicted residue cover and above ground live biomass
+ for tall grass vegetation for the Springfield, CO climate for ten years.</i>
+<br>
+</center>
+
+<p><center>
+<table bgcolor="#f0f0f0" border=1 cellpadding=10>
+  <tr><td>
+  The Disturbed WEPP template has two overland flow elements.
+</table>
+</center>
+<p>
+The WEPP model allows a hillslope to be divided into segments with similar soils and vegetation, 
+called overland flow elements.  
+
+<b><i>Disturbed WEPP</i></b> assumes there are two overland flow elements.
+
+This allows users to specify a buffer strip below a skid trail, prescribed fire, 
+or harvesting activity in forests.
+
+In rangelands, the user may wish to describe different vegetation in the riparian area
+than in the upland areas.
+<p>
+
+WEPP was released for public use in 1995 with an MS-DOS text-based interface.  
+
+Updated versions of the engine were released in 1997, 1998, and 1999.
+
+This interface still can be used to run WEPP in a DOS window on most personal computers.
+
+The management file builder, however, can be run only with a personal computer running
+in DOS mode, and will not run in a DOS window.
+
+Elliot and Hall (1997) developed a set of templates useful for forest conditions for the DOS
+interface to WEPP.
+<p>
+WEPP is also available in a Windows version.
+
+Forest templates are under development for this version.
+
+Both interfaces run the same WEPP model; only the user interface is changed.
+
+The WEPP computer program can be updated from the USDA ARS National Soil Erosion Laboratory web
+site at <a href="http://topsoil.nserl.purdue.edu/weppmain/wepp.html">http://topsoil.nserl.purdue.edu/weppmain/wepp.html</a>.
+
+<h3><a name="assumptions"></a>
+<a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='Disturbed WEPP documentation'; return true"></a>
+Disturbed WEPP Assumptions</h3>
+
+Because WEPP is process-based, it can be applied to conditions where the necessary input data are known.
+
+WEPP is difficult to apply, however, because of the amount of input data required.
+
+To simplify the application of WEPP to forest and rangeland conditions anywhere in the U.S.,
+we developed a custom interface.
+ 
+<p>
+Soil properties are based on research findings from Forest Service research (Robichaud 1996) 
+and USDA Agriculture Research Service (ARS) (Flanagan and Livingston 1995, Franks and others 1998).
+
+The soil file database includes four textural categories.
+
+Within each of these categories, there is a separate set of erodibility values for each of 
+the eight types of vegetation or disturbance.
+
+Thus, the database has a total of 32 soil/vegetation conditions.
+<p>
+<b><i>Disturbed WEPP</i></b> describes vegetation for the WEPP model in a cropland format 
+because that format provides greater flexibility. <!-- in describing vegetation conditions--
+including road maintenance activities--in the WEPP:Road interface.-->
+
+Because WEPP does not allow mixing cropland and rangeland format vegetation scenarios on a hillslope,
+all vegetation was described in the cropland format.
+<p>
+<b><i>Disturbed WEPP</i></b> gives both an average annual erosion, as predicted by most USLE-based 
+erosion technologies, and the probability of a given annual erosion rate following a disturbance.
+The average annual erosion is more appropriate for application to rangelands, whereas the 
+probabilities of annual erosion are more applicable to disturbed forest conditions, 
+where a forest quickly revegetates following a disturbance.
+<p>
+To estimate an average annual erosion, <b><i>Disturbed WEPP</i></b> generates a stochastic 
+climate for the climate selected, for the number of years specified.
+
+The WEPP model then runs a daily simulation for the specified period of time, 
+and calculates the average annual runoff, erosion, and sediment yield values.
+<p>
+To determine the probability values, <b><i>Disturbed WEPP</i></b> is run for the number 
+of years requested, and the annual values of runoff, erosion, and 
+sediment yield are generated by WEPP.
+
+<b><i>Disturbed WEPP</i></b> then sorts the annual values by magnitude.
+<p>
+For a 50-year run, 
+the largest values estimate a 50-year return period (or 0.02 probability of occurring) value;
+the second largest, a 25-year return period;
+the fifth largest a ten-year return;
+and the 20<sup>th</sup> largest a 2.5-year return period.
+<p>
+The average value is the same as a 2-year return period regardless of the number
+of years of simulation selected.
+<p>
+Table 1 shows the return period associated with the sorted position for different numbers of years of simulation.
+<p>
+<blockquote>
+<table border=1>
+<caption align=left><b>Table 1.  Relationship between magnitude of annual predicted value and return period for different lengths of simulation.
+<tr><th bgcolor=85d2d2>Order in magnitude<th colspan=4 bgcolor=85d2d2>Return Period for the given years of simulation
+<tr><td bgcolor=eeeeee>Years of simulation:<td bgcolor=eeeeee><center>10<td bgcolor=eeeeee><center>20<td bgcolor=eeeeee><center>50<td bgcolor=eeeeee><center>100
+<tr><td><b>Greatest<td><center>10<td><center>20<td><center>50<td><center>100
+<tr><td><b>Second<td><center>5<td><center>10<td><center>25<td><center>50
+<tr><td><b>Fifth<td><center>2<td><center>5<td><center>10<td><center>20
+<tr><td><b>Tenth<td><br><td><center>2<td><center>5<td><center>10
+<tr><td><b>Twentieth<td><br><td><br><td><center>2.5<td><center>5
+<tr><td><b>Middle<td><center>2<td><center>2<td><center>2<td><center>2
+</table>
+</blockquote>
+
+<h4>
+Forest Assumptions</h4>
+
+For forest conditions, there are two levels of forest age: 5-year-old and 20-year-old.
+
+By the time a forest reaches 20 years of age, the impact of the canopy and residue accumulation 
+is sufficient to provide as much erosion protection as can be achieved from vegetation.
+<p>
+The 5-year-old forest is considered a reasonable condition to describe a forest that has 
+been heavily logged, leaving some side trees and considerable groundcover, 
+or to describe a forest one to two years after a prescribed fire, 
+or two to three years after a wild fire.
+<p>
+The skid trail condition describes a compacted, bladed skid trail with very little cover.
+<p>
+The prescribed burn and wildfire conditions contain soil properties similar to those observed
+in research (Robichaud 1996).
+
+<h4>
+Range Assumptions</h4>
+
+Three plant communities are provided for rangeland conditions:  short grass, tall grass, and shrubs.  
+
+Typical heights and spacings for each of these communities are described in the 
+WEPP management file (see appendix 1).
+
+<h3><a name="climate"></a>
+<a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='Disturbed WEPP documentation'; return true"></a>
+Climate</h3>
+
+Several climates (Birmingham, AL; Flagstaff, AZ; Mount Shasta, CA; 
+Denver, CO; Moscow, ID; and Charleston, WV) are listed in the climate list as stock
+climates for <b><i>Disturbed WEPP</i></b>.
+
+These climates are provided to allow the user to quickly select a regional climate for an 
+initial run.  
+<p>
+Most users will prefer to click the
+<img src="images/wr-custclim.gif" alt="Custom Climate">
+button and use the Rock:Clime weather generator to select desired climates from the
+2,600 sets of climate statistics in the database.  
+<p>
+Users may select several nearby climates to determine the sensitivity of 
+their site to climate effects.  
+Up to five sets of custom climate statistics may be selected for the <b><i>Disturbed WEPP</i></b> interface.  
+<p>
+
+<center>
+<table bgcolor="#f0f0f0" border=1 cellpadding=10>
+<tr><td>30 years of simulation is generally adequate for average values, 
+and 50 or 100 years for Return Period Analyses.
+</table>
+</center>
+
+<p>
+The user must specify the number of years of simulation.
+
+For climates with more than 500&nbsp;mm of precipitation, 30&nbsp;years of simulation is generally 
+adequate to obtain an estimate of the average annual erosion,
+and 50&nbsp;years is adequate for the probability distribution of erosion.
+<p>
+For drier climates, 50 or more years of simulation may be needed to achieve an average value, 
+and 100&nbsp;years for the probability of a given amount of erosion occurring.
+
+In dry climates, there are more years with little or no erosion, so a greater total number of 
+years is necessary to ensure that there have been an adequate number of wet years for the analysis.
+
+The maximum number of years in <b><i>Disturbed WEPP</i></b> is 200.
+<p>
+Users may wish to carry out some preliminary runs for some typical local climates to determine 
+how many years of run are necessary for their conditions to ensure a stable average erosion value.
+<p>
+When the <img src="images/wr-runwepp.gif" alt="Run WEPP"> button is activated, the ARS CLIGEN weather
+generator uses the climate statistics from the selected station to generate a daily weather sequence
+for the number of years specified.
+
+The WEPP model reads the generated daily weather to predict the erosion for the specified conditions.
+
+<h3><a name="texture"></a>
+<a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='Disturbed WEPP documentation'; return true"></a>
+Soil Texture</h3>
+
+The erosion potential of a given soil depends on the vegetation cover, the surface residue cover,
+the soil texture, and other soil properies that influence soil strength.
+
+Because research in forest and range conditions is limited and data are not available to support a 
+detailed database,
+only four soil textures (sand, silt, clay, and loam) are listed for <b><i>Disturbed WEPP.</i></b>
+
+<a href="#table2">Table&nbsp;2</a> can aid in selecting the desired soil texture.  The specific soil
+properties associated with each selection can be seen by selecting the desired soil and vegetation,
+and clicking the Soil Texture title.  As new information is accumulated, the values of the soil parameters
+and new soil options may be added to the database.
+<p>
+To fully describe each set of soils for WEPP requires 24 soil parameter values.
+Further details describing these parameters are available in the WEPP Technical Documentation (<a href="#Alberts">Alberts and others 1995</a>).
+<p>
+<p>
+<a name="table2"></a>
+<blockquote>
+<table border=1>
+<tr><caption align=left><b>Table 2.
+<i>Categories of Common Forest Soils in relation to Disturbed WEPP soils</i>
+<tr><th bgcolor=85d2d2>Soil type<th bgcolor=85d2d2>   Soil Description<th bgcolor=85d2d2>    Universal Soil Classification 
+<tr><th>Clay loam<td>Soils derived from shales, limestone and similar decomposing fine-grained sedimentary rock.  
+<br>Lakebeds and similar areas of ancient lacustrian deposits <td>CH 
+<tr><th>Silt loam <td>Ash cap and loess soils, soils derived from siltstone or similar sedimentary rock
+    <br>Highly-erodible mica/schist geologies<td>ML,CL 
+<tr><th>Sandy loam <td>Glacial outwash areas; decomposed granites and sand stone, and sand deposits <td>GP, GM, SW, SP
+<tr><th>Loam <td>Glacial tills, alluvium<td>GC, SM, SC, MH
+</table>
+</blockquote>
+
+<h3><a name="treatment"></a>
+<a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='Disturbed WEPP documentation'; return true"></a>
+Vegetation Treatment</h3>
+
+There are eight categories of vegetation or treatment.  A default cover is associated with each vegetation treatment, but users are encouraged to alter this value to suit site conditions.  The vegetation treatments are:
+<ul>
+	<li>	Twenty-year old forest
+	<li>	Five-year old forest
+	<li>	Shrub dominated rangeland
+	<li>	Tall-grass dominated rangeland
+	<li>	Short-grass dominated rangeland
+	<li>	Low severity fire
+	<li>	High severity fire
+	<li>	Skid trail
+</ul>
+These categories can describe a wide range of forest and rangeland conditions.  
+Table 3 provides a description of each vegetation treatment.  
+The selection of a given vegetation treatment alters these key input values for the WEPP model:
+<ul>
+	<li>	Plant height, spacing, leaf area index and root depth
+	<li>	Percent of live biomass remaining after vegetation
+	<li>	Soil rill and interrill erodibility and hydraulic conductivity
+	<li>	Default radiation energy to biomass conversion ratio
+</ul>
+The user has the option to alter the desired amount of cover, which increases the range of conditions 
+that can be described (Examples 4 and 5).  
+<b><i>Disturbed WEPP</i></b> is very sensitive to cover, so this value should be carefully selected.
+The user may wish to consider several cover amounts to understand the impacts of varying cover on the 
+resulting soil erosion.
+<p>
+<a name="table3">
+<table border=1>
+<caption align="left"><b>Table 3.  Vegetation treatment options in the <b><i>Disturbed WEPP</i></b> interface
+<tr><th bgcolor=85d2d2>Vegetation Treatment<th bgcolor=85d2d2>	Description
+<tr><td>Twenty-year old forest
+	<td>Any well-established forest with trees spaced about 2&nbsp;m apart, about 5&nbsp;m tall or taller.
+	Ground is completely covered with a substantial layer of forest duff.
+<tr><td>Five-year old forest
+	<td>A vegetation that has become sufficiently well established to generate 100&nbsp;percent ground cover.
+	May be a reasonable estimate of a clear-cut forest between skid trails, where there is a 
+	considerable amount of brush, grass, or young trees remaining after harvest to maintain 
+	soil residue cover.
+<tr><td>Shrub-dominated rangeland
+	<td>Areas of shrubs with soil covered with residue beneath shrubs, and gaps between shrubs 
+	with minimal ground cover.
+	Plants are about 1.2&nbsp;m tall, with a 0.5&nbsp;m spacing.
+	The percent cover entered is an indication of the percent of the canopy or ground cover by the vegetation.
+	Examples of this vegetation may be sage-dominated rangeland, or sparsely vegetated pinyon-juniper
+	communities.
+	This treatment may also be a reasonable estimate of a harvested forest 3&nbsp;years after harvest
+	and prescribed burn, or a forest 4&nbsp;years after a severe wild fire.
+<tr><td>Tall grass prairie
+	<td>Areas covered by tall bunch grasses, with gaps between bunches.
+	Plants are about 0.6&nbsp;m tall and 0.3&nbsp;m average spacing.
+	The percent cover entered is an indication of the percent of the canopy or ground covered
+	by the vegetation.
+	This vegetation treatment would best describe blue-stem or similar range communities in the west,
+	or ryegrass, brome, or orchard grass pastures in the east.
+	It may also describe post-fire conditions where wheat or oats have germinated to provide 
+	post-fire erosion mitigation.
+	This treatment may also be a reasonable estimate of a harvested forest 2&nbsp;years after a 
+	prescribed burn, or 3&nbsp;years after a wild fire.
+<tr><td>Short-grass prairie
+	<td>Areas covered by short sod-forming grasses.
+	Plants are about 0.4&nbsp;m tall and with an average spacing of 0.2&nbsp;m.
+	The percent cover entered is an indication of the percent canopy or ground covered by the vegetation.
+	This vegetation treatment would best describe buffalo grass or similar sodding grasses in the west,
+	or Kentucky bluegrass in the east.
+	It may also best describe sparsely-covered reclaimed mine lands.
+	This treatment may best describe forest conditions 1&nbsp;year after a prescribed fire
+	or two years after a wild fire. 
+<tr><td>Low-severity fire
+	<td>This condition describes areas that have either had a low-severity fire,
+	or a successful prescribed fire.
+	Vegetation is assumed to reach an maximum height of 0.2&nbsp;m and at a spacing of 0.2&nbsp;m.
+	This is probably the most appropriate treatment to describe a sparsely vegetated, 
+	newly exposed surface following excavation where material has not been highly compacted, 
+	such as a road cut.  
+	The user enters an estimate of the vegetated cover, which may be zero.
+	This treatment may best describe forest conditions the year of a prescribed fire, or 
+	conditions 1&nbsp;year after a wild fire.
+	If there has been a high severity fire, and the soils are NOT hydrophobic, 
+	this is probably the best selection, but with a cover reduced to 15&nbsp;percent, or that 
+	observed on the site.
+<tr><td>High-severity fire
+	<td>This condition describes areas that have experienced a high-severity fire and soils 
+	are hydrophobic (or water repellant).
+	Vegetation is assumed to reach a maximum height of 0.15&nbsp;m with a spacing of 0.15&nbsp;m.
+<tr><td>Skid trail
+	<td>This condition describes a skid trail with vegetation reaching a maximum height of 
+	0.15&nbsp;m at a 0.1&nbsp;m spacing.
+	The soil is assumed to be compacted.
+	This treatment would also describe any site mechanically disturbed and compacted
+	--as long as the user estimates the amount of cover--such as landings, forwarder tracks, 
+	skyline paths, etc.
+	If the soils remain compacted during the regeneration period, then the user is advised 
+	to use the skid trail for the first five years of regeneration, 
+	using increasing amounts of cover to describe local conditions.
+	The time required to achieve 100&nbsp;percent cover may be as short as 2&nbsp;years
+	in Eastern forests.
+</table>
+
+<h4>Predicting erosion from regeneration</h4>
+
+After a disturbance in a forest, the vegetation regenerates.  The vegetation treatments in <b><i>Disturbed WEPP</i></b>
+allow users to analyze the erosion in the years following regeneration.  Table 4 provides a guideline to
+ selecting out-year vegetation treatments to determine the risk of erosion following disturbances.  
+Example 3 shows how to estimate erosion over an extended period of time for a forest recovering from harvesting.
+<p>
+<blockquote>
+<table border=1>
+<caption align=left><b>Table 4.  Suggested vegetation to estimate soil erosion in the years following a disturbance
+<tr><th ROWSPAN=2 bgcolor=85d2d2>Years after<br>disturbance<th colspan=3 bgcolor=85d2d2>Disturbance
+<tr><th bgcolor=85d2d2>	Forest harvest and prescribed burn<th bgcolor=85d2d2>	Wild fire<th bgcolor=85d2d2>	Range fire
+<tr><th>0<td>	Low severity fire<td>High severity fire<td>High severity fire
+<tr><th>1<td>	Short grass<td>Low severity fire<td>Low severity fire with observed cover
+<tr><th>2<td>	Tall grass<td>Short grass<td>Short grass with observed cover
+<tr><th>3<td>	Shrub<td>Tall grass<td>Increase amount of cover for short grass
+<tr><th>4<td>	Five-year-old forest<td>Shrub<td>Change to tall grass if appropriate and specify amount of cover
+<tr><th>5 to 15 years<td>	Five-year-old forest<td>Five-year-old forest<td>Change to tall grass if appropriate and specify amount of cover
+<tr><th>More than 15 years<td>	Twenty-year-old forest<td>Twenty-year-old forest<td>Change to tall grass if appropriate and specify amount of cover
+</table>
+</blockquote>
+<p>
+
+<h3><a name="cover"></a>
+<a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='Disturbed WEPP documentation'; return true"></a>
+Cover (%)</h3>
+
+The percent cover for a given vegetation is predicted by the WEPP model as a
+function of a biomass conversion ratio, the percent of biomass remaining after
+senescence, and the residue decomposition rate.
+These values are stored in the <b><i>Disturbed WEPP</i></b> database, and are
+entered in the WEPP management file for each WEPP run.
+The biomass conversion ratio is estimated from the percent cover by the
+relationship:
+<p>
+<blockquote>
+<table width=90%>
+  <tr><td><i>Ratio = 8.17 * </i>exp<i>(0.031 * Cover - 0.0023 *  Precipitation)</i>
+      <td align=right><i>(1)</i>
+</table>
+</blockquote>
+<p>
+where
+<i>Ratio</i> is the biomass conversion ratio in the WEPP Management input file for the respective 
+overland flow element, between 1 and 1,000; 
+<i>Cover</i> is the percent cover entered on the input screen, with a maximum value of 100 percent; and
+<i>Precipitation</i> is the average annual precipitation for the selected climate in mm, 
+with a maximum value of 450 mm.
+<p>
+The percent cover also varies with the distribution of precipitation, daily temperature values, and soil water content throughout the growing season.  In some cases, average cover may be over-predicted , in others under-predicted.  The predicted cover for a given set of conditions can be observed by selecting the desired vegetation, entering the desired cover, specifying at least 10 years of simulation, and clicking the Calibrate Vegetation button (Figure 2).  The WEPP model will then be run for the specified number of years, the average erosion values calculated, and the average above ground live biomass and percent cover determined from the daily values (figure 1)  The  <b><i>Disturbed WEPP</i></b> input screen is shown in figure 2, and the Vegetation calibration output page in figure 3.  
+<p>
+If the resulting average cover is too low or too high, the value entered on the input screen can be adjusted by trial and error until the desired cover is predicted by WEPP.  The user should make a note of  the input value necessary to achieve the desired cover for his/her conditions.  In the example shown in figures 2 and 3, the desired values of 40 and 60 percent were predicted as 18 and 52.  The user will need to adjust the input cover desired to larger numbers to obtain the desired cover of 40 and 60.  Example 4 demonstrates this procedure.  Future versions of <b><i>Disturbed WEPP</i></b> may automate this trial and error processes.
+<p>
+<p>
+<a name=fig2><center>
+<img src="images/dw_fig2.gif"><br>
+<b>Figure&nbsp;2.</b>	  <b><i>Disturbed WEPP</i></b> input page.
+<br>
+</center>  
+<p>
+
+<h3><a name="topography"></a>
+<a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='Disturbed WEPP documentation'; return true"></a>
+Topography</h3>
+
+<h4>Slope</h4>
+
+The topographic input for <b><i>Disturbed WEPP</i></b> includes two gradient or slope entries for the top element and two for the bottom (figure 2).  If the first element starts at the top of the hill, the first slope is zero.  The final slope is the steepness at the bottom of the hillslope.  The other two slopes are the steepness at the centers of the respective elements.  <b><i>Disturbed WEPP</i></b> calculates an average of these two values for the steepness where the two elements intersect.  Generally, WEPP is not real sensitive to detailed variations in slope.  The overall average slope, and the slope at the bottom of the hill are the two most important variables that impact slope.
+<p>
+<p>
+<a name=fig3>
+<center>
+<img src="images/dw_fig3.gif"><br>
+<b>Figure&nbsp;3.</b>     <b><i>Disturbed WEPP</i></b> vegetation calibration Results Screen.
+<br>
+</center> 
+
+<h4>Area and Width</h4>
+
+The area of the slope is also required by <b><i>Disturbed WEPP</i></b>.
+The program divides this area by the length of the hill to estimate an average width of hillslope 
+shown on the output screen (figures 3 and 4).
+The predicted soil erosion rates are presented in tonnes per hectare (tons per acre), 
+so the total erosion, or total sediment delivery from the hillslope is the result of these
+predictions multiplied by the area.
+<p>
+<p>
+<a name=fig4>
+<center>
+<img src="images/dw_fig4.gif"><br>
+<b>Figure&nbsp;4.</b>	Top half of the <b><i>Disturbed WEPP</i></b> Results Screen.<p>
+</center>
+
+<h3><a name="running"></a>
+<a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='Disturbed WEPP documentation'; return true"></a>
+Running <b><i>Disturbed WEPP</i></b></h3>
+
+The user should select the desired climate, the most appropriate soil, and the desired vegetation
+treatment for the upper and lower elements.  
+He or she should then enter the appropriate topographic values.
+These values may be obtained from a field survey, forest map, or a GIS database.
+After specifying the number of years, the user should click the   
+<b>Run WEPP</b>
+or the <b>Calibrate Vegetation</b> button.  
+The user may also wish to check the 
+<b>Extended output</b> box to obtain more detailed information about the distribution of erosion and deposition,
+and the size distribution of the eroded sediment.
+
+<h3><a name="results"></a>
+<a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='Disturbed WEPP documentation'; return true"></a>
+Result Screen</h3>
+
+The result screens for both the <b>Calibrate Vegetation</b> and <b>Run WEPP</b> buttons first 
+present a table summarizing the input values specified on the input screen (figures 3 and 4 ).  
+Both screens then give the average annual summary values for surface runoff depth, 
+upland erosion rate, and sediment yield rate from the hillslope.
+<p>
+The results pages can be printed, or some or all of the information can be copied and pasted in another 
+program such as a spreadsheet, word processor, or presentation program.
+
+<h3><a name="calibrate"></a>
+<a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='Disturbed WEPP documentation'; return true"></a>
+Calibrate Vegetation Results</h3>
+
+Following the erosion summaries, the calibrate vegetation results then present the average 
+above ground live biomass, and the percent ground by vegetative residue for both elements (figure&nbsp;3).
+If the predicted cover values are not within about 5&nbsp;percent of the desired cover,
+the user should return to the input screen and enter a greater or smaller value to more closely 
+predict the desired cover for the climate and soil selected.
+
+<h4>Run WEPP Results</h4>
+The bottom of the <b>Run WEPP</b>
+results presents a table of a return period analysis of the WEPP results (figure&nbsp;5).
+The <b><i>Disturbed WEPP</i></b> interface requested an annual output file when WEPP was run.  
+The predicted annual values were sorted in order of magnitude by <b><i>Disturbed WEPP</i></b>.  
+The return period was estimated from the position of a given annual precipitation, runoff, erosion, 
+or sediment yield value.  
+<p>
+Table 1 shows the relationship of return period to position in the order of magnitude.  
+The greatest erosion may not necessarily occur during the wettest year.
+
+<h5>Return Period Analysis</h5>
+To help interpret the table, note that a five-year value will be exceeded, on the average, 
+about once every five years, or twice every ten.  
+There is a 1/5, or 20&nbsp;percent, chance that a value equal to or greater than the five year 
+value will occur in a given year.  
+There is a <i>(100&nbsp;-&nbsp;20)</i>, or 80&nbsp;percent, chance
+that the precipitation, 
+runoff, erosion, or sediment yield will be less than the 5&nbsp;year value.
+<p>
+In the results shown in Figure&nbsp;5, there is a 20&nbsp;percent chance that the annual erosion 
+will exceed about 11 tonnes per hectare, and the sediment yield will exceed 6.6&nbsp;t&nbsp;ha<sup>-1</sup>.
+In all cases, the two year event, is by definition, the same as the average annual value.
+The is an equal probability that the precipitation, etc., could be greater or less than the 2-year 
+or average value.
+Differences between a 2-year value and average value are due to the differences in estimating 
+the number, one method by the order of annual values, and the other by averaging annual values.  
+The results from the two methods are generally close to the same value.
+
+<h5>Probability of No Event</h5>
+In many forest and range conditions, there is a likelihood that there will be no erosion 
+for a given set of conditions.  
+The probability of no runoff, erosion, or sediment yield is presented with three bar graphs
+near the end of the Results screen (figure&nbsp;5).
+The results in figure&nbsp;5 show that there is a 68&nbsp;percent chance there will be runoff and 
+delivered sediment for these conditions (or 32&nbsp;percent chance there will be none), but a 
+94&nbsp;percent chance there will be at least some upland erosion.  
+
+<h4>Accuracy of a Prediction</h4>
+
+<p>
+<center>
+<table bgcolor="#f0f0f0" border=1 cellpadding=10>
+  <tr><td>
+ The accuracy of a predicted runoff or erosion rate is, at best, plus or minus 50&nbsp;percent. 
+</table>
+</center>
+<p>
+At best, any predicted runoff or erosion value, by any model, will be within only plus or minus
+50&nbsp;percent of the true value.  
+Erosion rates are highly variable, and most models can predict only a single value.  
+Replicated research has shown that observed values vary widely for identical plots, 
+or the same plot from year to year (Elliot and others 1994; Elliot and others 1995; 
+Tysdal and others 1999).
+Also, spatial variability and variability of soil properties add to the complexity of 
+erosion prediction (Robichaud 1996).
+<p>
+If a better understanding of the range of possible sediment yield is desired, 
+users may wish to consider several different vegetation treatments and a range of cover
+amounts within each treatment.  
+<p>
+<p>
+<a name=fig5>
+<center>
+<img src="images/dw_fig5.gif"><p>
+Figure 5.  Bottom of the <b><i>Disturbed WEPP</i></b> Results screen
+</center>
+<p>
+
+<h3><a name="extended"></a>
+<a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='Disturbed WEPP documentation'; return true"></a>
+Extended Output Information</h3>
+
+By selecting the <b>Extended Output</b> option, additional information about the WEPP run can be obtained.  
+The information includes the presence and length of a sediment plume if there is significant 
+deposition in the lower element, and the size distribution of the sediment delivered from the
+bottom of the hill.
+The information is added to the bottom of the results screen and can be accessed by scrolling 
+down the page (see appendix 2).  
+
+<h4>Size of Eroded Sediments</h4>
+
+In some cases, users may wish to estimate the percent of the eroded sediment that is in the 
+sand size class for environmental impact analysis.  
+Some scientists say that sand is the size of concern, because it is readily deposited in 
+stream systems, filling in spawning areas around and under gravel.  
+Others are more concerned with the silt content as it is more of a problem in decreasing 
+the clarity of the water, as well as reducing the quality of the aquatic ecosystem on the 
+channel bottom.
+<p>
+WEPP predicts the size distribution of eroded sediment by dividing the sediment into 
+sand, silt, and clay particles, small aggregates made up of organic matter, clay and silt, 
+and large aggregates made up of organic matter, clay, silt, and sand.  
+Generally, sand deposits first, and clay and small aggregates last.  
+At the end of the extended output is a table that shows the distribution of sediment in 
+each of the size classes in the soil, and in the eroded sediment.  
+
+<h3><a name="applications"></a>
+<a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='Disturbed WEPP documentation'; return true"></a>
+Applications</h3>
+Section under development
+
+<h3><a name="examples"></a>
+<a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='Disturbed WEPP documentation'; return true"></a>
+Examples</h3>
+
+The following examples are provided to show the methods of applying 
+<b><i>Disturbed WEPP</i></b> to a number of conditions.  
+Users are encouraged to adapt the examples to their conditions as erosion varies 
+greatly with changes in climate and topography.
+
+<h4>Forest Applications</h4>
+
+<blockquote>
+<h5>Example 1</h5>
+<font size=+3 color=d27364>Q</font>
+A wildfire has raged through a forest in northern California, 
+with a high severity fire burning from the top of the hill to the stream.  
+The hillslopes in the area are about 55 percent steepness, and approximately 150 m long.  
+What is the five-year risk of annual erosion?  Assume that the soil has a loam texture.
+<p>
+<font size=+3 color=d27364>A</font>
+The Mt. Shasta climate and loam soil are selected.  A high severity fire is selected for both elements, and each element is specified as 75 m long.  The slope is assumed to start at zero, and the remainder of the steepness values are set at 55 percent.  <b><i>Disturbed WEPP</i></b> is then run for 50 years for a probability analysis.
+<p>
+The return period table generated is: <p>
+<blockquote>
+<img src="images/dw_ex1.gif">
+</blockquote>
+<p>
+From these results, the 5-year return period erosion and sediment delivery values are about 480 tonnes per hectare.  
+
+<h5>Example 2</h5>
+<font size=+3 color=d27364>Q</font>
+In Pennsylvania, a forest is clearcut, followed by a prescription burn.
+It is thought that such a management system is required to return the forest to a healthy condition,
+and that a similar operation will be necessary in 60&nbsp;years.
+The slope has about 40&nbsp;percent steepness all the way to the stream,
+and is about 160&nbsp;m long.
+A 10-m-wide undisturbed buffer is maintained.
+The soil is best described as a loam.
+What will be the "average" erosion rate over the 60 years of the growth cycle?
+<p>
+<font size=+3 color=d27364>A</font>
+The topographic values are entered into the <b><i>Disturbed WEPP</i></b> input page, 
+and the Charleston, WV climate is selected.
+The period of run is set for 30 years because average annual values are desired.
+The buffer is best described as a 20-year forest for every run.
+Table 4 is consulted for the uphill disturbances, and runs are made for each of the 
+regeneration conditions:
+<blockquote>
+<table border=1>
+<tr>	<th bgcolor=85d2d2>Years after disturbance
+	<th bgcolor=85d2d2>Forest harvest and prescribed burn
+	<th bgcolor=85d2d2>Erosion (t&nbsp;ha<sup>-1</sup>)
+	<th bgcolor=85d2d2>Sediment Yield (t&nbsp;ha<sup>-1</sup>)
+<tr><th>0<td>Low severity fire<td>124.88<td>49.27
+<tr><th>1<td>Short grass<td>94.00<td>39.12
+<tr><th>2<td>Tall grass<td>54.87<td>24.89
+<tr><th>3<td>Shrub<td>1.34<td>1.04
+<tr><th>4<td>Five-year-old forest<td>0.66<td>0.22
+<tr><th>5 to 15 years<td>Five-year-old forest<td>0.66 x 10<td>0.22 x 10
+<tr><th>More than 15 years<td>Twenty-year-old forest<td>0.10 x 45<td>0.10 x 45
+<tr><th>Total <td><td>286.85<td>121.24
+<tr><th>60-yr average<td><td>4.78<td>2.02
+</table>
+</blockquote>
+The observed sediment delivery values can be compared to those observed by Patric (1976),
+who reported forest sediment yields ranging from 0.06 to 0.11 t&nbsp;ha<sup>-1</sup> from 
+watersheds where regrowth was described as luxuriant following harvesting, 
+likely achieving groundcover much faster than was assumed by the default values in this example.
+Users may want to compare the above results with a faster regeneration scenario.
+</blockquote>
+<p>
+
+<h4>Rangeland Applications</h4>
+
+<blockquote>
+<h5>Example 4</h5>
+<font size=+3 color=d27364>Q</font>
+For a rangeland site near Denver, CO, a cover of 40&nbsp;percent is desired on the upper element 
+for a short grass prairie on a silt loam soil.
+What input value is necessary to achieve a cover of 40&nbsp;percent?
+<p>
+<font size=+3 color=d27364>A</font>
+A series of runs is made to determine the necessary "input" cover to achieve the desired output cover,
+with the following results:
+<p><blockquote>
+<table border=1>
+  <tr><th bgcolor=85d2d2>"Input" Cover
+      <th bgcolor=85d2d2>Predicted Cover
+  <tr><td align=center>40<td align=center>18
+  <tr><td align=center>50<td align=center>24
+  <tr><td align=center>60<td align=center>33
+  <tr><td align=center>70<td align=center>46
+  <tr><td align=center>66<td align=center>41
+</table>
+</blockquote><p>
+It appears that, to achieve a predicted cover of about 40&nbsp;percent, the user needs to specify <b>66</b> 
+in the Input Cover box.
+
+<h5>Example 5</h5>
+<font size=+3 color=d27364>Q</font>
+An overgrazed prairie of loam soil in Eastern Colorado is now dominated by buffalo grass, a "short" grass species.
+Slopes are typically 100&nbsp;m long with a 15&nbsp;percent steepness, dropping to 10&nbsp;percent at the bottom.
+Currently the cover is only about 20&nbsp;percent.
+What will be the reduction in average annual erosion if grazing is restricted to achieve a cover 
+of 40&nbsp;percent?
+<p>
+<font size=+3 color=d27364>A</font>
+The Denver, Colorado, climate is selected.
+From example 4, the "input" cover values need to be 40 to achieve about 20&nbsp;percent cover,
+and 66 to achieve a 40&nbsp;percent cover.
+To obtain an average erosion rate, the program is run for 30 years.
+<p>
+The results of the run predict an average upland erosion rate of 6&nbsp;t&nbsp;ha<sup>-1</sup>
+for the 20&nbsp;percent cover condition, and 2&nbsp;t&nbsp;ha<sup>-1</sup> for 40&nbsp;percent cover.
+By increasing cover, there is a 67&nbsp;percent reduction in upland soil erosion.
+These values can be compared to observed erosion rates in Colorado of 0.1 to 2&nbsp;t&nbsp;ha<sup>-1</sup>
+from a number of watersheds, most with slopes less steep than the example (von Guerard et al. 1987).
+</blockquote>
+
+<h3><a name="validation"></a>
+<a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='Disturbed WEPP documentation'; return true"></a>
+Validation</h3>
+Section under development<P>
+
+<h3><a name="references"></a>
+<a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='Disturbed WEPP documentation'; return true"></a>
+References</h3>
+
+<blockquote>
+<dl><dt>
+<a name="Alberts"><b>Alberts, E. E., M. A. Nearing, M. A. Weltz, L. M. Risse, F. B. Pierson, X. C. Zhang, J. M. Laflen, and J. R. Simanton.</b>  1995.
+   <dd><i>Chapter 7. Soil Component.</i> <b>In:</b> Flanagan, D. C. and M. A. Nearing (eds.) 
+   <b>USDA-Water Erosion Prediction Project Hillslope Profile and Watershed Model Documentation.</b>
+   NSERL Report No. 10.
+   W. Lafayette, IN: USDA-ARS-MWA.
+   <dt>
+<b><a name="ElliotHall">Elliot, W. J., and D. E. Hall.</b>  1997.
+   <dd><b>Water Erosion Prediction Project (WEPP) forest applications.</b>
+   General Technical Report INT-GTR-365.
+   Ogden, UT: U.S. Department of Agriculture, Forest Service, Rocky Mountain Research Station.
+   <dt>
+<b><a name="Flanagan">Flanagan, D. C., and S. J. Livingston.</b>  1995.
+   <dd><b>WEPP User Summary.</b>  NSERL Report No. 11, W. Lafayette, IN: National Soil Erosion Research Laboratory.  131 pp.
+   <dt>
+<b><a name="Franks">Franks, C. D., F. B. Pierson, A. G. Mendenhall, K.E. Spaeth, and M.A. Weltz.</b>  1998.
+   <dd><b>Interagency rangeland water erosion project report and state data summaries.</b>  Interagency rangeland water erosion team (IRWET) and National Range Study Team (NRST).
+   NWRC 98-1.  Boise, ID:  USDA ARS Northwest Watershed Research Center.  121 pp.
+   <dt>
+<b><a name="Patric">Patric, J.H.</b>  1976.
+   <dd><i>Soil erosion in the eastern forest.</i><b>Journal of Forestry.</b>  74:671-677.
+   <dt>
+<b><a name="Robichaud">Robichaud, P. R.</b>  1996.
+   <dd><b>Spatially-varied erosion potential from harvested hillslopes after prescribed fire in the interior northwest.</b>
+   Ph. D. dissertation.  Moscow, ID:University of Idaho.
+   <dt>
+<b><a name="RobichaudB">Robichaud, P. R., and R. E. Brown.</b>  1999.
+   <dd><i>What happened after the smoke cleared:  Onsite erosion rates after a wildfire in Eastern Oregon.</i>
+   <b>Proceedings AWRA Specialty Conference Wildland Hydrology.</b>  Bozeman, Montana, Jun 30 - Jul 2, 1999.
+   Herndon, VA: American Water Resources Assoc.  419-426.
+   <dt>
+<b><a name="Spaeth">Spaeth, K.</b>  1999.
+   <dd><b>Beyond RUSLE for rangelands:  What WEPP can and can't do for range.</b>
+   Presented at the Forest Service WEPP workshop, Boise, ID.  Apr 21-2.
+   <dt>
+<b><a name="VonG">Von Guerard, P., P. O. Abbott, and R. C. Nickless.</b>  1987.
+   <dd><b>Hydrology of the U.S. Army Pinon Canyon maneuver site, Las Animas County, Colorada.</b>
+   Water-Resources Investigations Report 87-4227.  Denver, CO: U.S. Dept. of the Interior.
+   <dt>
+<b><a name="WEPP">Water Erosion Prediction Project (WEPP) v. 99.5. </b>  1999.
+   <dd>West Lafayette, IN: Agricultural Research Service, National Soil Erosion Research Laboratory.
+   Computer program.
+   <a href="http://topsoil.nserl.purdue.edu/nserlweb/weppmain/wepp.html">http://topsoil.nserl.purdue.edu/nserlweb/weppmain/wepp.html.</a>
+   <dt>
+</dl>
+</blockquote>
+ 
+<a name="apdx1">
+<h3><a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='Disturbed WEPP documentation'; return true"></a>
+Appendix 1:  Plant parameter values in <b><i>Disturbed WEPP</i></b></h3>
+
+Appendix under development
+
+<a name="apdx2">
+<h3><a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='Disturbed WEPP documentation'; return true"></a>
+Appendix 2:  Example of an Extended Output</h3>
+
+Appendix under development
+
+<a name="apdx3">
+<H3><a href="#topofpage" target="_top">
+<img src="images/backtotop.gif" border="0"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='Disturbed WEPP documentation'; return true"></a>
+Appendix 3: <a href="javascript:convert()">Useful Conversions</a></H3>
+<p>
+<center>
+<table border=1 cellpadding=5>
+<tr><th bgcolor=85d2d2>Multiply <th bgcolor=85d2d2>	by	<th bgcolor=85d2d2>to get 
+<tr><th>mm (millimeters)<td>0.0394<td>in. (inches)
+<tr><th>m (meters)<td>39.4<td>in. (inches)
+<tr><th>m (meters)<td>3.28<td>ft (feet)
+<tr><th>m<sup>2</sup> (square meters)<td>10.8<td>ft<sup>2</sup> (square feet)
+<tr><th>kg (kilograms)<td>2.2<td>lbs (pounds mass)
+<tr><th>t (metric tonnes)<td>1,000<td>kg (kilograms)
+<tr><th>t (metric tonnes)<td>1.1<td>short tons
+<tr><th>short tons<td>2,000<td>lbs (pounds mass)
+<tr><th>kg&nbsp;m<sup>-2</sup><td>10<td>t ha<sup>-1</sup> (tonnes per hectare)
+<tr><th>kg&nbsp;m<sup>-2</sup><td>4.45<td>short&nbsp;tons per acre
+<tr><th>t ha<sup>-1</sup><td>0.445<td>short&nbsp;tons per acre
+</table>
+</center>
+<p>
+<p>
+<a name="rock"></a>
+  <h3>
+
+   <font color="red">
+    Addendum:
+   </font>
+  </h3>
+In October 2001, we removed the "area" input field (which was not of great
+use), and we added an input field for each element for <em>percentage of
+rock fragments by volume.</em>
+<p>
+We added the rock content feature to <b><i>Disturbed WEPP</i></b> because
+we have received a number of requests to improve the ability of the
+interface to consider rock outcrops.
+<p>
+Rock fragments in WEPP are considered rocks in the soil. As such, WEPP
+assumes that as water moves through soil, it must flow around the rocks.
+Therefore, WEPP reduces the hydraulic conductivity of the soil in direct
+proportion to the rock content (i.e. 20 percent rock will reduce the
+hydraulic conductivity by 20 percent).  WEPP will not accept a value for
+rock content higher than 50 percent, so even when the user puts 100
+percent rock into the rock content box, WEPP assumes that it is only 50
+percent.  In this context, as rock content increases up to 50 percent,
+runoff increases, as does rill erosion.  Above 50 percent, there is no
+further impact modeled from increased rock content.
+
+<p>
+Any surface rocks need to be accounted for in the surface cover.  For
+example, if after a fire there is 50 percent surface cover remaining from
+vegetation, and 20 percent of the bare soil is covered with rock, the
+correct surface cover including vegetation and rock is 60 percent (50
+percent vegetation + 20 percent rock * 50 percent bare).  In this context,
+as surface cover due to rock increases, the cover should be increased;
+both runoff and erosion will be reduced.  
+<p>
+Our interface currently does not automatically add rock content to surface
+cover, as there are cases where that may be inappropriate.
+  <br>
+  <hr>
+  <center>
+   <a href="#topofpage" target="_top">
+   <img src="images/backtotop.gif" border="0"
+ onMouseOver="window.status='Return to top'; return true"
+ onMouseOut="window.status='Disturbed WEPP documentation'; return true"></a> 
+  </center>
+  <hr>
+ </body>
+</html>
+

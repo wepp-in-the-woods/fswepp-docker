@@ -1,0 +1,174 @@
+<html>
+<head>
+<script language=JavaScript>
+<!--
+function HighChecked() {
+ document.man.hhh.checked=true
+ document.man.hhl.checked=true
+ document.man.hlh.checked=true
+ document.man.lhh.checked=true
+ document.man.llh.checked=false
+ document.man.lhl.checked=false
+ document.man.hll.checked=false
+ document.man.lll.checked=false
+ document.animated.src="images/high.gif"
+ for (j=1;j<500;j++) {
+   get_Image(1,4)
+ }
+}
+function ModerateChecked() {
+ document.man.hhh.checked=false
+ document.man.hhl.checked=false
+ document.man.hlh.checked=true
+ document.man.lhh.checked=true
+ document.man.llh.checked=true
+ document.man.lhl.checked=true
+ document.man.hll.checked=false
+ document.man.lll.checked=false
+ document.animated.src="images/med.gif"
+ for (j=1;j<500;j++) {
+   get_Image(3,4)
+ }
+}
+function LowChecked() {
+ document.man.hhh.checked=false
+ document.man.hhl.checked=false
+ document.man.hlh.checked=false
+ document.man.lhh.checked=false
+ document.man.llh.checked=true
+ document.man.lhl.checked=true
+ document.man.hll.checked=true
+ document.man.lll.checked=true
+ document.animated.src="images/low.gif"
+ for (j=1;j<500;j++) {
+   get_Image(5,4)
+ }
+}
+
+/*  You can get this script and many others 
+    by visiting JavaScript City at: http://www.javascriptcity.com . */
+
+pic_width=300;    /*change to match the height of all your images */
+pic_height=196;   /* change to match the width of all your images */
+border_size=1;    /* change to the border size you want on the images */
+alignment=1;      /* 0=left,1=center */
+
+/* define image urls */
+
+if (document.images)
+ {
+     pic1= new Image(pic_width,pic_height);
+     pic1.src="images/hhh.gif";  
+     pic2= new Image(pic_width,pic_height); 
+     pic2.src="images/hhl.gif"; 
+     pic3= new Image(pic_width,pic_height);
+     pic3.src="images/hlh.gif";  
+     pic4= new Image(pic_width,pic_height);
+     pic4.src="images/llh.gif";  
+     pic5= new Image(pic_width,pic_height);
+     pic5.src="images/llh.gif";  
+     pic6= new Image(pic_width,pic_height); 
+     pic6.src="images/lhl.gif"; 
+     pic7= new Image(pic_width,pic_height);
+     pic7.src="images/hll.gif";  
+     pic8= new Image(pic_width,pic_height);
+     pic8.src="images/lll.gif";  
+ }    
+
+/* no need to edit past this point (unless you want to add more image slots) */
+
+function get_random(maxNum)
+{
+  if (Math.random && Math.round)
+  {
+    var ranNum= Math.round(Math.random()*(maxNum-1));
+    ranNum+=1;
+    return ranNum;
+  }
+  else
+  {
+  today= new Date();
+  hours= today.getHours();
+  mins=   today.getMinutes();
+  secn=  today.getSeconds();
+  if (hours==19)
+   hours=18;
+  var ranNum= (((hours+1)*(mins+1)*secn)%maxNum)+1;
+  return ranNum;
+  }
+}
+
+function get_Image(lower,num)
+{
+ if (document.images)
+ {
+  var choose_one= get_random(num);
+//  choose_one = choose_one + lower - 2;
+  num = choose_one+lower-2;
+//  alert(lower + ', ' + num);
+//  choose_one--;
+
+  var pics= new Array(8)
+   pics[0]=pic1.src;
+   pics[1]=pic2.src;
+   pics[2]=pic3.src;
+   pics[3]=pic4.src;
+   pics[4]=pic5.src;
+   pics[5]=pic6.src;
+   pics[6]=pic7.src;
+   pics[7]=pic8.src;
+
+   document.random.src=pics[num]
+
+ }
+}
+//-->
+
+</script>
+</head>
+<body>
+<center>
+<font color=green>
+<h2>ERMiT</h2>
+</font>
+
+<p>
+<hr width=40%>
+<h3 align=center>Select a fire severity scenario</h3>
+<form name="man">
+<input type=radio name="management" onClick="HighChecked()">Higher severity<br>
+<input type=radio name="management" onClick="ModerateChecked()">Moderate severity<br>
+<input type=radio name="management" onClick="LowChecked()" checked>Lower severity<br>
+<p>
+<table border=1>
+<tr>
+<th bgcolor=gold>OFE	<th><input type=checkbox name="hhh">
+	<th><input type=checkbox name="hhl">
+	<th><input type=checkbox name="hlh">
+	<th><input type=checkbox name="lhh">
+	<th><input type=checkbox name="llh" checked>
+	<th><input type=checkbox name="lhl" checked>
+	<th><input type=checkbox name="hll" checked>
+	<th><input type=checkbox name="lll" checked>
+<tr>
+<th bgcolor=gold>Upper<br>Middle<br>Lower
+<th>h<br>h<br>h
+<th>h<br>h<br>l
+<th>h<br>l<br>h
+<th>l<br>h<br>h
+<th>l<br>l<br>h
+<th>l<br>h<br>l
+<th>h<br>l<br>l
+<th>l<br>l<br>l
+</table>
+</form>
+<p>
+<hr width=40%>
+
+<img name="random" src="images/lll.gif" border=2 width=300 height=196>
+<img name="animated" src="images/low.gif" border=2 width=300 height=196>
+
+</center>
+</body>
+</html>
+
