@@ -1,0 +1,92 @@
+<html>
+ <head>
+  <title>
+   What to do with ASC Ravel files
+  </title>
+ </head>
+ <body>
+  <font face="calibri, trebuchet, tahoma">
+   http://daac.ornl.gov/MODIS/ASCII_Grid_GIS_Help.pdf
+   <br><br>
+   Example data file
+   <pre>
+
+nrows 7
+xllcorner -7589988.98
+yllcorner 3995608.83
+cellsize 10
+nodata_value -99999
+5579 5846 5940 5769 5566 5869 5776
+6173 5722 5876 5912 5920 5882 5632
+5844 5812 5972 5904 5154 4966 5282
+5786 5765 5822 5695 5739 5817 5992
+5609 5094 4333 5790 5763 5793 5863
+5602 5499 5844 5811 5210 5436 5728
+4749 5674 5419 2617 4012 5607 5219
+
+</pre>
+
+========================
+
+   <h3>Importing the ASCII Grid data into ArcView 3.x</h3>
+
+   <ol>
+    <li>save as file on file system accessible to ArcView eg <i>my_deposition.asc</i>
+    <li>Open ArcView
+    <li>activate the Spatial Analyst extension
+    <li>Invoke "Import Data Source" tool
+    <li>Select "ASCII Raster" import file type
+    <li>Select the saved ASCII raster file eg <i>my_deposition.asc</i>
+    <li>Import file as a Theme into the View
+   </ol>
+
+========================
+
+   <h3>ESRI ArcGIS 9.x</h3>
+
+   <ol>
+    <li>save as file on file system accessible to ArcGIS eg <i>my_deposition.asc</i>
+    <li>Using ArcToolbox, 
+     <ol>
+      <li>select Conversion Tools &gt; To Raster &gt; ASCII to Raster
+      <li>Provide path to ASCII file (eg <i>my_deposition.asc</i>)
+      <li>Provide path to Output Raster (eg <i>my_deposition</i>)
+      <li>click OK -- after converting to Raster the output raster (eg <i>my_deposition</i>) should automatically load into ArcMap
+     </ol>
+    </li>
+    <li>Export output Raster file (eg <i>my_deposition</i>) into ArcGIS GRID; 
+     <ol>
+      <li>right click on the file to Export
+      <li>provide output filename (eg <i>my_deposition_a</i>)
+      <li>select GRID format
+     </ol>
+    </li>
+    <li>Set up the projection
+     <ol>
+      <li>Download file prj.adf from http://daac.ornl.gov/cgi-bin/MODIS/GR_common/prj.adf
+      <li>copy the prj.adf file into the GRID file directory (<i>my_deposition_a</i>) created in the previous step
+     </ol>
+    </li>
+    <li>Load the GRID file in ArcMap -- Make sure that the projection is defined on the dataset.
+    <li>If the projection isn't defined, use the following file to define the projection.
+     <ol>
+      <li>Download file modis.prj from http://daac.ornl.gov/cgi-bin/MODIS/GR_common/modis.prj
+      <li>Copy this file into &lt;ESRI installation Folder&gt;\Coordinate Systems\Projected Coordinate Systems\World\Sphere-based
+      <li>manually set the projection for the file
+     </ol>
+    </li>
+   </ol>
+
+========================
+<br>
+Importing data into:<br>
+.ArcGIS 9.x<br>
+.ENVI<br>
+.ArcView 3.x<br>
+.GRASS<br>
+instructions are at: 
+http://daac.ornl.gov/MODIS/ASCII_Grid_GIS_Help.pdf
+  </font>
+ </body>
+</html>
+

@@ -1,0 +1,141 @@
+<html>
+ <head>
+  <title>
+   FS RMRS Dry Ravel model
+  </title>
+  <style type="text/css">
+   <!--
+    P.Reference {
+      margin-top:0pt;
+      margin-left:.3in;
+      text-indent:-.3in;
+    }
+   -->
+  </style>
+ </head>
+ <body>
+  <font face="calibri, trebuchet, tahoma, arial, sans serif">
+   <h3>DRY RAVEL model RavelRat</h3>
+
+   <blockquote>
+    <a href="ravelrat-ca.html"><img src="images/ravlogo.jpg" width=50 height=50 border=0></a>
+    Run <a href="ravelrat-ca.html">FS RMRS Dry Ravel Model&ndash;California</a>
+    <br><br><br>
+    RavelRat ... 10-m DEM elevation data for California.
+    <br><br><br>
+    Model/interface use
+    <ul>
+     <li>model inputs
+      <font size=-1>
+      <table border=1>
+       <tr>
+        <th><font size=-1>Run Description</font></th>
+        <td colspan=3>&nbsp;</td>
+       </tr>
+       <tr>
+        <th><font size=-1>Northern Latitude (<sup>o</sup>N)</font></th>
+        <td><font size=-1>N or S bounding latitude;<br>enter in decimal degrees or degrees-minutes-seconds, eg. 34o25'55"<br>
+                 Range: 32.282 to 42.131<sup>o</sup>N</font></td>
+        <th><font size=-1>Southern Latitude (<sup>o</sup>N)</font></th>
+        <td><font size=-1>N or S bounding latitude;<br>enter in decimal degrees or degrees-minutes-seconds<br>
+                 Range: 32.282 to 42.131<sup>o</sup>N</font></td>
+       </tr>
+       <tr>
+        <th><font size=-1>Western Longitude (<sup>o</sup>E)</font></th>
+        <td><font size=-1>W or E bounding longitude;<br>Range: -124.556 to -113.956<sup>o</sup>E</font></td>
+        <th><font size=-1><b>Eastern Longitude (<sup>o</sup>E)</font></th>
+        <td><font size=-1>W or E bounding longitude;<br>Range: -124.556 to -113.956<sup>o</sup>E</font></td>
+       </tr>
+       <tr>
+        <th width=20%><font size=-1>Burn Impact Depth (mm)</font></th>
+        <td width=30%><font size=-1>Range: 0 to 10 mm</font></td>
+        <th width=20%><font size=-1>Mean Stem Diameter (m)</font></th>
+        <td width=30%><font size=-1>Range: 0 to 0.5 meters</font></td>
+       </tr>
+       <tr>
+        <th><font size=-1>Bulk Density (kg/m<sup>3</sup>)</font></th>
+        <td><font size=-1>Range: 1100 to 1600 kgs per cubic meter</font></td>
+        <th><font size=-1>Static Friction Angle (<sup>o</sup>)</font></th>
+        <td><font size=-1>Range: 26 to 36 decimal degrees</font></td>
+       </tr>
+       <tr>
+        <th><font size=-1>Vegetation Density (stem/m<sup>2</sup>)</font></th>
+        <td><font size=-1>Range: 0 to 20 stems per square meter</font></td>
+        <th><font size=-1>Kinetic Friction Angle (<sup>o</sup>)</font></th>
+        <td><font size=-1>Range: 20 to 36 decimal degrees</font></td>
+       </tr>
+      </table>
+     </font>
+     <li>input limits
+      <ul>
+       <li>watershed size 0.0025 km<sup>2</sup> to 1.2 km<sup>2</sup></li>
+      </ul>
+     </li>
+     <li>active output
+      <ul>
+       <li>click elevation plot for cell elevation</li>
+       <li>mouse over deposition plot for deposition amounts</li>
+       <li>click in deposition plot to generate W-E and N-S elevation transects with color-coded deposition</li>
+       <li>mouse over production plot for production amounts</li>
+       <li>click in production plot to generate W-E and N-S elevation transects with color-coded production</li>
+       <li>mouse over histogram bars to show count</li>
+       <li>click histogram axis to show bin count</li>
+      </ul>
+     </li>
+    </ul>
+    To print elevation, deposition, and production plots, activate "print background" (in newer browsers)
+    <ul>
+     <li><b>Internet Explorer</b> 8: <i>Print Preview</i> &gt; <i>Page Setup</i> &gt; <i>Paper&nbsp;Options: [X] Print&nbsp;Background&nbsp;Colors&nbsp;and&nbsp;Images</i></li>
+     <li><b>Mozilla Firefox</b> 4: <i>Print&nbsp;Preview</i> &gt <i>Page&nbsp;Setup</i> &gt; <i>[X] Print&nbsp;Background&nbsp;(colors&nbsp;and&nbsp;images)</i></li>
+    </ul>
+    <br>
+    How to use the elevation, deposition, and production data files
+    <ul>
+     <li>Paste into Excel file for custom analysis</li>
+     <li>These are ESRI <a href="http://en.wikipedia.org/wiki/Esri_grid" target="_other">Arc/Info ASCII Grid</a> files.
+         <a href="ASCIItoESRI.html">Instructions to use with Arc View and Arc GIS</a>
+     </li>
+    </ul>
+    <br><br>
+    
+  <table border=1>
+   <tr>
+    <th width=220>Before the fire</th>
+    <th width=220>Model initialization</th>
+    <th width=220>Iterations</th>
+   </tr>
+
+   <tr>
+    <td><img src="images/grid_before_half.png"></td>
+    <td><img src="images/grid_init_half.png"></td>
+    <td><img src="images/grid_iterate_half.png"></td>
+   </tr>
+   <tr>
+    <td valign=top>Grid cells may have vegetation with loose soil caught behind stems
+                   <hr><b>burn impact depth</b>, <b>vegetation density</b>, and <b>stem diameter</b> affect amount of soil available to travel</td>
+
+    <td valign=top>(Green) cell may produce sediment, deposited in neighboring (red) cells as sediment starts moving depending on static friction angle and cell slope
+                   <hr><b>static friction angle</b> and <b>slope</b> affect production</td>
+    <td valign=top>Cells may continue to be a source; ravel will move between cells &ndash; depending on the kinetic friction angle and the cell slope &ndash; until particles reach the angle of repose
+                   <hr><b>kinetic friction angle</b> and <b>slope</b> affect deposition</td>
+
+   </tr>
+  </table>
+<hr>
+Technical documentation ... <br><br>
+
+    <b>Citation:</b>
+    <p align="left" class="Reference">
+        Hall, David E.; Robichaud, Peter R.; Miller, Mary Ellen; Xiangyang Fu.
+        2011.
+        <b>RavelRAT-CA.</b>
+        Online at &lt;http://forest.moscowfsl.wsu.edu/BAERTOOLS/ravel/ravelrat-ca.html&gt;.
+        Moscow, ID: U.S. Department of Agriculture, Forest Service, Rocky Mountain Research Station.
+    </p>
+   </blockquote>
+   <font size=-1>
+    <a href="privacy.html">Dry Ravel privacy statement</a>
+   </font>
+  </font>
+ </body>
+</html>

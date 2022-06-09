@@ -1,0 +1,420 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN""http://www.w3.org/TR/xhtml1-transitional.dtd">
+<html>
+ <head>
+  <title>Dry Ravel -- CA</title>
+<!-- 2010.10.18 DEH allow DMS entries to pass through (which limits value-checking on entry)-->
+<!--		DEH swap Southern Latitude with Eastern Longitude to match results input report format -->
+  <SCRIPT LANGUAGE = "JavaScript" type="TEXT/JAVASCRIPT">
+  <!--
+  //burn depth parameters
+  var brunit = ' mm'
+  var brmin = 0
+  var brmax = 10
+  var brdef = 0.2
+  //soil bulk density parameters
+  var bkunit = ' kgs per cubic meter'
+  var bkmin = 1100
+  var bkmax = 1600
+  var bkdef = 1300
+  //vegetation density parameters
+  var vdunit = ' stems per square meter'
+  var vdmin = 0
+  var vdmax = 20
+  var vddef = 1
+  //vegetation mean stem diameter parameters
+  var sdunit = ' meters'
+  var sdmin = 0
+  var sdmax = 0.5
+  var sddef = 0.05
+  //static friction angle parameters
+  var saunit = ' decimal degrees'
+  var samin = 26
+  var samax = 36
+  var sadef = 30
+  //kinetic friction angle parameters
+  var kaunit = ' decimal degrees'
+  var kamin = 20
+  var kamax = 36
+  var kadef = 27
+  // coordinate box
+  var bndunit = ' decimal degrees'
+  var bndlat_min = 32.282
+  var bndlon_min = -124.556
+  var bndlat_max = 42.131
+  var bndlon_max = -113.956
+  var bndlat1_def = 34.618102
+  var bndlon1_def = -119.434273
+  var bndlat2_def = 34.621681
+  var bndlon2_def = -119.429660
+
+  //Miscellaneous variables
+   var version = '2010.05.01'
+winHeight=640
+winWidth=1280
+h_padding=0;
+v_padding=0;
+
+
+  function blankStatus() {
+    window.status = "Forest Service Dry Ravel model"
+    return true 
+  }
+
+  function isNumber(inputVal) {
+    // Determine whether a suspected numeric input
+    // is a positive or negative number.
+    // Ref.: JavaScript Handbook. Danny Goodman. listing 15-4, p. 374.
+    oneDecimal = false                              // no dots yet
+    inputStr = "" + inputVal                        // force to string
+    for (var i = 0; i < inputStr.length; i++) {     // step through each char
+      var oneChar = inputStr.charAt(i)              // get one char out
+      if (i == 0 && oneChar == "-") {               // negative OK at char 0
+        continue
+      }
+      if (oneChar == "." && !oneDecimal) {
+        oneDecimal = true
+        continue
+      }
+      if (oneChar < "0" || oneChar > "9") {
+        return false
+      }
+    }
+    return true
+  }
+
+  function checkRange(obj,min,max,def,unit,thistext) {
+    if (isNumber(obj.value)) {                   // obj == document.dryrav.BS
+      if (obj.value < min) {                     // min == BSmin
+        alert_text=thistext + " must be between " + min + " and " + max + unit
+        obj.value=min
+        alert(alert_text)
+      }
+      if (obj.value > max){
+        alert_text=thistext + " must be between " + min + " and " + max + unit
+        obj.value=max
+        alert(alert_text)
+      }
+    } else {
+//      obj.value=def
+//      alert("Invalid entry for " + thistext + "!")
+    }
+  }
+
+  function showRange(obj, head, min, max, unit) {
+    range = head + min + " to " + max + unit
+    window.status = range
+    return true                           // p. 86
+  }
+
+function hideBubble(e) {
+		 var bubble = document.getElementById('bubble');
+		 b = bubble.style;
+		 b.visibility='hidden';
+}
+
+function is_right_available(box,e) {
+		 if ((box.clientWidth+e.clientX+h_padding)>=winWidth){
+		   return false; // not available
+		 }
+		 return true;
+}
+
+function is_top_available(box,e) {
+		 if ((e.clientY-box.clientHeight-v_padding) < 0){
+		   return false;
+		 }
+		 return true;
+}
+
+function is_bot_available(box,e) {
+		 if ((e.clientY+box.clientHeight+v_padding) > winHeight){
+		   return false;
+		 }
+		 return true;
+}
+
+function is_left_available(box,e) {
+		 if ((e.clientX-box.clientWidth-h_padding)<0){
+          return false;
+		 }
+		 return true;
+}
+
+function  showBubble(e, str, area) {
+		 var relTarg;
+		 var bubble = document.getElementById('bubble');
+//		 var bubble = document.getElementById(area);
+		 if (!e) var e = window.event;
+		 if (e.relatedTarget) relTarg = e.relatedTarget;
+		 else if (e.fromElement) relTarg = e.fromElement;
+
+  var posRefX, posRefY = 0; 
+  posRefX= ((e.pageX && !e.clientX) ? e.pageX : e.clientX + document.body.scrollLeft);
+  posRefY= ((e.pageY && !e.clientY) ? e.pagey : e.clientY + document.body.scrollTop);
+
+		 b = bubble.style
+
+		 //str=str+"hello: "+bubble.clientWidth;
+		 document.getElementById('bubble').innerHTML=str;
+//		 document.getElementById(area).innerHTML=str;
+
+		 var mytop   = is_top_available(bubble,e);
+		 var mybot   = is_bot_available(bubble, e);
+		 var myright = is_right_available(bubble,e);
+		 var myleft  = is_left_available(bubble,e);
+
+		 if (mytop)
+		 {
+		 		 // move to the top
+		 		 //b.top=e.clientY-bubble.clientHeight-v_padding;
+		 		 bubble.ypos=posRefY-bubble.clientHeight-v_padding;
+		 		 //document.write(bubble.ypos);
+		 		 //alert(bubble.xpos);
+		 }
+
+		 if (myright)
+		 {
+		 		 // move to the right
+		 		 //b.left=e.clientX+h_padding;//+bubble.clientWidth;
+		 		 bubble.xpos=posRefX+h_padding;
+		 }
+
+		 if (myleft)
+		 {
+		 		 // move to the left
+		 		 //b.left=e.clientX-bubble.clientWidth-h_padding ;
+		 		 bubble.xpos=posRefX-bubble.clientWidth-h_padding ;
+		 }
+
+		 if (mybot)
+		 {
+		 		 // move to the bottom
+		 		 //b.top=e.clientY+v_padding;
+		 		 bubble.ypos=posRefY+v_padding;
+		 }
+
+		 b.visibility='visible';
+//		 moveBox()
+		 //moveBox(bubble);
+//		 window.setTimeout("moveBox()", 10);
+}
+
+
+  // end hide -->
+
+  </SCRIPT>
+ </head>
+
+ <BODY bgcolor="white" link="#555555" vlink="#555555">
+  <font face="Arial, Geneva, Helvetica">
+
+   <table width=100% border=0>
+    <tr>
+     <td>
+      <a href="http://forest.moscowfsl.wsu.edu/fswepp/">
+      <IMG src="http://forest.moscowfsl.wsu.edu/fswepp/images/fsweppic2.jpg" width=75 height=75
+      align="left" alt="Back to FS WEPP menu" border=0></a>
+     </td>
+     <td align=center>
+      <hr>
+      <h2>RavelRAT<br>RMRS Dry Ravel Model &ndash; California</h2>
+      <hr>
+     </td>
+     <td>
+      <A HREF="http://forest.moscowfsl.wsu.edu/fswepp/docs/distweppdoc.html" target="docs">
+      <IMG src="http://forest.moscowfsl.wsu.edu/fswepp/images/epage.gif"
+       align="right" alt="Read the documentation" border=0></a>
+     </td>
+    </tr>
+   </table>
+   <center>
+
+   <br />
+
+   <FORM name="dryrav" method="post" action="/cgi-bin/BAERTOOLS/ravel/ravelrat-cajs.pl" ENCTYPE="multipart/form-data">
+
+    <table border=1 cellpadding=6>
+     <tr>
+      <th bgcolor="#85d2d2"
+       onmouseover="showBubble(event,'', this)">
+       Run Description
+      </th>
+      <td colspan=3>
+       <input type="text" size="90" name="description" value='San Dimas watershed'>
+       <input type="hidden" name="units" value="m">
+      </td>
+     </tr>
+
+<!-- NORTHERN LATITUDE-->
+
+     <tr>
+      <th bgcolor="#85d2d2"
+       onmouseover="showBubble(event,'<h4>Northern Latitude</h4>Bounding box coordinates are used to retrieve DEM data needed to run the Dry Ravel model.<br><br>Enter coordinates in decimal (33.5) or DMS (33o30&rsquo;0&quot;). 10 meter DEM data are currently available for all of California. Latitudes can range from 32.282 to 42.131 degrees.<br><br>Maximum bounding box size is 1.2 km<sup>2</sup>', this)">
+       Northern Latitude
+      </th>
+      <td align=left>
+       <input type="text" size="20" name="bndlat2" value='34.621681'
+        onChange="checkRange(bndlat2,bndlat_min,bndlat_max,bndlat2_def,bndunit,'Upper bounding latitude')"
+        onFocus="showRange(this.form,'Latitude: ',bndlat_min,bndlat_max,bndunit)"
+        onBlur="blankStatus()"> <sup>o</sup> N
+      </td>
+
+<!-- SOUTHERN LATITUDE-->
+
+      <th bgcolor="#85d2d2"
+       onmouseover="showBubble(event,'<h4>Southern Latitude</h4>Bounding box coordinates are used to retrieve DEM data needed to run the Dry Ravel model.<br><br>Please enter your coordinates in decimal (33.5) or DMS (33o30&rsquo;0&quot;). 10 meter DEM data are currently available for all of California. Latitudes in California range from 32.282 to 42.131 degrees.<br><br>Maximum bounding box size is 1.2 km<sup>2</sup>', this)">
+       Southern Latitude
+      </th>
+      <td align=left>
+       <input type="text" size="20" name="bndlat1" value='34.618102'
+        onChange="checkRange(bndlat1,bndlat_min,bndlat_max,bndlat1_def,bndunit,'Lower bounding latitude')"
+        onFocus="showRange(this.form,'Latitude: ',bndlat_min,bndlat_max,bndunit)"
+        onBlur="blankStatus()"> <sup>o</sup> N
+      </td>
+     </tr>
+
+<!-- WESTERN LONGITUDE-->
+
+     <tr>
+      <th bgcolor="#85d2d2"
+       onmouseover="showBubble(event,'<h4>Western Longitude</h4>Bounding box coordinates are used to retrieve DEM data needed to run the Dry Ravel model.<br><br>Please enter your coordinates in decimal (-119.5) or DMS (-119o30&rsquo;10&quot;). 10 meter DEM data are currently available for all of California. Laongitudes can range from -124.556 to -113.956 degrees.<br><br>Maximum bounding box size is 1.2 km<sup>2</sup>', this)">
+       Western Longitude
+      </th>
+      <td align=left>
+       <input type="text" size="20" name="bndlon1" value='-119.434273'
+        onChange="checkRange(bndlon1,bndlon_min,bndlon_max,bndlon1_def,bndunit,'Western bounding longitude')"
+        onFocus="showRange(this.form,'Longitude: ',bndlon_min,bndlon_max,bndunit)"
+        onBlur="blankStatus()"> <sup>o</sup> E
+      </td>
+
+<!-- EASTERN LONGITUDE-->
+
+      <th bgcolor="#85d2d2"
+       onmouseover="showBubble(event,'<h4>Eastern Longitude</h4>Bounding box coordinates are used to retrieve DEM data needed to run the Dry Ravel model.<br><br>Please enter your coordinates in decimal (-119.5) or DMS (-119o30&rsquo;10&quot;). 10 meter DEM data are currently available for all of California. Longitudes for California can range from -124.556 to -113.956 degrees.<br><br>Maximum bounding box size is 1.2 km<sup>2</sup>', this)">
+       Eastern Longitude
+      </th>
+      <td align=left>
+       <input type="text" size="20" name="bndlon2" value='-119.429660'
+        onChange="checkRange(bndlon2,bndlon_min,bndlon_max,bndlon2_def,bndunit,'Eastern bounding longitude')"
+        onFocus="showRange(this.form,'Longitude: ',bndlon_min,bndlon_max,bndunit)"
+        onBlur="blankStatus()"> <sup>o</sup> E
+      </td>
+     </tr>
+
+<!-- BURN IMPACT DEPTH-->
+
+     <tr>
+      <th bgcolor="#85d2d2"
+       onmouseover="showBubble(event,'<h4>Burn Impact Depth</h4>Burn impact depth determines the volume of ravel freed when root systems are removed by fire.<br><br>The burn impact depth is a major source of dry ravel in the model. The volume of ravel produced from each production grid cell due to the removal of roots is equal to the area of the cell times the burn impact depth. Removing just a thin slice of top soil from all slopes greater than the static friction angle can quickly generate large amounts of ravel. Once burn impact depths exceed 0.1 mm the ravel generated from root loss far exceeds the amount stored behind vegetation stems. If the model is obviously over predicting ravel production and deposition, lowering this parameter will help.<br><img src=/fswepp/images/burndepth_t.gif width=450 align=center>', this)">
+       <b>Burn Impact Depth</b>
+      </th>
+      <td align=left>
+       <input type="text" size=5 name="brndep" value="0.2"
+        onChange="checkRange(brndep,brmin,brmax,brdef,brunit,'Burn Impact Depth')"
+        onFocus="showRange(this.form,'Burn Impact Depth: ',brmin,brmax,brunit)"
+        onBlur="blankStatus()"> mm
+      </td>
+
+<!-- MEAN STEM DIAMETER-->
+
+      <th bgcolor="#85d2d2"
+       onmouseover="showBubble(event,'<h4>Mean Stem Diameter</h4>Mean stem diameter is the average stem diameter of plants in the modeled area. Stem diameter affects the amount of ravel stored behind vegetation stems. <br><br>The model assumes ravel is trapped behind vegetation stems in the form of tetrahedra. The amount of ravel stored in tetrahedra is dependent upon the diameter of the vegetation stems, slope, and the static friction angle (angle of repose) of the ravel.<br><img src=/fswepp/images/stem_tet.gif width=450 align=center>', this)">
+       <b>Mean Stem Diameter</b>
+      </th>
+      <td align=left>
+       <input type="text" size=5 name="stemsize" value="0.05"
+        onChange="checkRange(stemsize,sdmin,sdmax,sddef,sdunit,'mean stem diameter')"
+        onFocus="showRange(this.form,'Mean stem diameter: ',sdmin,sdmax,sdunit)"
+        onBlur="blankStatus()"> m
+      </td>
+     </tr>
+
+<!-- BULK DENSITY -->
+
+     <tr align="top">
+      <th bgcolor="#85d2d2"
+       onmouseover="showBubble(event,'<h4>Bulk Density</h4>The bulk density (&rho;) of the ravel material is the ratio of its mass to its total volume. This parameter is important for determining the mass of ravel deposited and produced in the model domain. Total volume includes empty pore spaces and is usually measured when the soil sample has been oven dried. Bulk densities of most soils range from 1,100 - 1,600 (kg / m<sup>3</sup>).<br><style>td.upper_line { border-top:solid 1px black; } table.fraction { text-align: center; vertical-align: middle; margin-top:0.5em; margin-bottom:0.5em; line-height: 2em; }</style><table class=fraction align=center cellpadding=1 cellspacing=1><tr><td rowspan=2 nowrap=nowrap> &rho; = </td><td nowrap=nowrap>Mass</td></tr><tr><td class=upper_line>Volume <sub>total</sub></td></tr></table><br><font size=-1>Hillel, D. 1980. <b>Introduction to soil physics.</b> San Diego, CA: Academic Press. 364&nbsp;pp.</font>', this)">
+       <b>Bulk Density</b>
+      </th>
+      <td align=left>
+       <input type="text" size=5 name="bulk" value="1300"
+        onChange="checkRange(bulk,bkmin,bkmax,bkdef,bkunit,'Bulk density')"
+        onFocus="showRange(this.form,'Bulk density: ',bkmin,bkmax,bkunit)"
+        onBlur="blankStatus()"> kg / m<sup>3</sup>
+      </td>
+
+<!-- STATIC FRICTION ANGLE -->
+
+      <th bgcolor="#85d2d2"
+       onmouseover="showBubble(event,'<h4>Static Friction Angle</h4>The static friction angle of the ravel material is the maximum angle at which ravel material can accumulate before it starts sliding.&nbsp  For this reason it is also known as the angle of repose. Ravel will not originate on hill sides with slopes less than the static friction angle.&nbsp  In the San Dimas Experimental Forest in Southern California, the static friction angle of ravel ranged between 29 and 34 degrees.<br><br><img src=/fswepp/images/stem_stat.gif width=450 align=center><br><font size=-1>Lambe, T.W. and R. V. Whitman 1969. <b>Soil Mechanics.</b> New York, NY: John Wiley & Sons. 553&nbsp;pp.</font>', this)">
+       <b>Static Friction Angle</b>
+      </th>
+      <td align=left>
+       <input type="text" size=5 name="static" value="30"
+        onChange="checkRange(static,samin,samax,sadef,saunit,'Static friction angle')"
+        onFocus="showRange(this.form,'Static friction angle: ',samin,samax,saunit)"
+        onBlur="blankStatus()"> <sup>o</sup>
+      </td>
+     </tr>
+
+<!-- VEGETATION DENSITY -->
+
+     <tr>
+      <th bgcolor="#85d2d2"
+       onmouseover="showBubble(event,'<b>Vegetation density</b> is the number of plant stems per unit area.<br><br>The model assumes ravel is trapped behind vegetation stems in the form of tetrahedra. The density of vegetation controls how many tetrahedra of ravel are available for mobilization per unit area.&nbsp  Vegetation density also serves to limit the potential length of ravel tetrahedra.<br><img src=/fswepp/images/tetrahedron.gif width=450 align=center>', this)">
+       <b>Vegetation Density</b>
+      </th>
+      <td align=left>
+       <input type="text" size=5 name="density" value="1"
+        onChange="checkRange(density,vdmin,vdmax,vddef,vdunit,'Vegetation density')"
+        onFocus="showRange(this.form,'Vegetation density: ',vdmin,vdmax,vdunit)"
+        onBlur="blankStatus()"> stem / m<sup>2</sup>
+      </td>
+
+<!-- KINETIC FRICTION ANGLE-->
+
+      <th bgcolor="#85d2d2"
+       onmouseover="showBubble(event,'<h4>Kinetic Friction Angle</h4>The kinetic friction angle of the ravel material is the smallest angle at which ravel already in motion will continue traveling at a constant velocity down slope.&nbsp  The kinetic friction angle is typically less than the static friction angle.<br><br><font size=-1>Lambe, T.W. and R. V. Whitman 1969. <b>Soil Mechanics.</b> New York, NY: John Wiley & Sons. 553&nbsp;pp.</font>', this)">
+       <b> Kinetic Friction Angle</b>
+      </th>
+      <td align=left>
+       <input type="text" size=5 name="kinetic" value="27"
+        onChange="checkRange(kinetic,kamin,kamax,kadef,kaunit,'Kinetic friction angle')"
+        onFocus="showRange(this.form,'Kinetic friction angle: ',kamin,kamax,kaunit)"
+        onBlur="blankStatus()"> <sup>o</sup>
+      </td>
+     </tr>
+    </table>
+    <br>
+    <input type="submit" value=" Run Dry Ravel ">
+   </form>
+
+   </center>
+   <blockquote>
+    <font size=-1>
+     <span id="bubble"></span>
+    </font>
+   </blockquote>
+
+   <hr>
+
+   <table width=100%>
+    <tr>
+     <td align="left">
+      <font face="Tahoma, Arial, Geneva, Helvetica" size=-1>
+       Dry Ravel California<br>
+       USDA Forest Service Rocky Mountain Research Station<br>
+       Forestry Sciences Laboratory, Moscow, Idaho<br>
+       Release 2010.10.18
+      </font>
+     </td>
+     <td>
+     <a href="http://forest.moscowfsl.wsu.edu/fswepp/comments.html" >
+      <img src="http://forest.moscowfsl.wsu.edu/fswepp/images/epaemail.gif" align="right" border=0></a>
+     </td>
+    </tr>
+   </table>
+  </font>
+ </body>
+</html>
+
