@@ -1,0 +1,718 @@
+WR	wepp-32718	"10:21 am  Thursday November 10, 2011"	"TROUT CREEK RS MT 38.83+ +"	30	silt	graveled	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-32760	"10:25 am  Thursday November 10, 2011"	"FENN RS ID"	30	clay	graveled	5	4	15	15	50	130	25	20	inbare	ft
+WR	wepp-522	"12:02 pm  Monday December 12, 2011"	"MiddleBugs4500ft_Rd103 +"	30	silt	graveled	200	5	13	15	50	130	25	20	inveg	ft
+WR	wepp-528	"12:04 pm  Monday December 12, 2011"	"MiddleBugs4500ft_Rd103 +"	30	silt	graveled	200	5	13	15	50	1000	25	20	inveg	ft
+WR	wepp-533	"12:04 pm  Monday December 12, 2011"	"MiddleBugs4500ft_Rd103 +"	30	silt	graveled	200	5	13	15	50	300	25	20	inveg	ft
+WR	wepp-4386	"05:54 pm  Monday December 12, 2011"	"MiddleBugs4500ft_Rd103 +"	30	silt	graveled	500	5	25	20	50	500	25	20	inveg	ft
+WR	wepp-4391	"05:54 pm  Monday December 12, 2011"	"MiddleBugs4500ft_Rd103 +"	30	silt	graveled	500	5	25	20	50	1000	25	20	inveg	ft
+WR	wepp-4423	"05:55 pm  Monday December 12, 2011"	"MiddleBugs4500ft_Rd103 +"	30	silt	graveled	500	3	25	20	50	1000	25	20	inveg	ft
+WR	wepp-4428	"05:55 pm  Monday December 12, 2011"	"MiddleBugs4500ft_Rd103 +"	30	silt	graveled	500	3	25	20	50	1000	25	20	inveg	ft
+WR	wepp-4433	"05:56 pm  Monday December 12, 2011"	"MiddleBugs4500ft_Rd103 +"	30	silt	graveled	300	3	25	20	50	1000	25	20	inveg	ft
+WR	wepp-4438	"05:56 pm  Monday December 12, 2011"	"MiddleBugs4500ft_Rd103 +"	30	silt	graveled	300	3	25	20	50	300	25	20	inveg	ft
+WR	wepp-4443	"05:57 pm  Monday December 12, 2011"	"MiddleBugs4500ft_Rd103 +"	30	silt	graveled	300	3	20	20	50	1000	25	20	inveg	ft
+WR	wepp-4448	"05:57 pm  Monday December 12, 2011"	"MiddleBugs4500ft_Rd103 +"	30	silt	graveled	300	3	20	20	50	1000	25	20	outrut	ft
+WR	wepp-4453	"05:57 pm  Monday December 12, 2011"	"MiddleBugs4500ft_Rd103 +"	30	silt	graveled	300	3	20	20	50	1000	25	20	outrut	ft
+WR	wepp-4459	"06:00 pm  Monday December 12, 2011"	"MiddleBugs4500ft_Rd103 +"	30	silt	graveled	300	3	20	20	50	1000	25	20	inbare	ft
+WR	wepp-4483	"06:00 pm  Monday December 12, 2011"	"MiddleBugs4500ft_Rd103 +"	30	silt	graveled	300	3	20	20	50	1000	25	20	inveg	ft
+WR	wepp-4515	"06:00 pm  Monday December 12, 2011"	"MiddleBugs4500ft_Rd103 +"	30	silt	graveled	200	3	20	20	50	1000	25	20	inveg	ft
+WR	wepp-4520	"06:01 pm  Monday December 12, 2011"	"MiddleBugs5005ft_Rd555 +"	30	silt	graveled	200	3	20	20	50	1000	25	20	inveg	ft
+WR	wepp-4525	"06:01 pm  Monday December 12, 2011"	"TROUT CREEK RS MT 38.83+ +"	30	silt	graveled	200	3	20	20	50	1000	25	20	inveg	ft
+WR	wepp-4531	"06:01 pm  Monday December 12, 2011"	"MiddleBugs4500ft_Rd103 +"	30	silt	graveled	200	3	20	20	50	1000	25	20	inveg	ft
+WR	wepp-4536	"06:02 pm  Monday December 12, 2011"	"MiddleBugs4500ft_Rd103 +"	30	silt	graveled	200	3	20	20	50	1000	25	20	outunrut	ft
+WD	wepp-28496	"05:46 pm  Wednesday December 14, 2011"	"MiddleBugs4500ft_Rd103 +"	10	clay	HighFire	50	0	30	45	20	HighFire	50	30	5	45	20	0	ft	""
+WD	wepp-28546	"05:48 pm  Wednesday December 14, 2011"	"MiddleBugs4500ft_Rd103 +"	10	clay	HighFire	300	0	30	80	20	HighFire	300	30	5	80	20	0	ft	""
+WD	wepp-28566	"05:50 pm  Wednesday December 14, 2011"	"MiddleBugs4500ft_Rd103 +"	10	silt	LowFire	300	0	30	85	20	LowFire	300	30	5	85	20	0	ft	""
+WD	wepp-28586	"05:50 pm  Wednesday December 14, 2011"	"TROUT CREEK RS MT 38.83+ +"	10	silt	LowFire	300	0	30	85	20	LowFire	300	30	5	85	20	0	ft	""
+WD	wepp-28606	"05:51 pm  Wednesday December 14, 2011"	"TROUT CREEK RS MT 38.83+ +"	10	silt	LowFire	1000	0	30	85	20	LowFire	300	30	5	85	20	0	ft	""
+WD	wepp-28626	"05:52 pm  Wednesday December 14, 2011"	"TROUT CREEK RS MT 38.83+ +"	10	silt	LowFire	1000	0	30	85	20	LowFire	1000	30	30	85	20	0	ft	""
+WD	wepp-28646	"05:52 pm  Wednesday December 14, 2011"	"TROUT CREEK RS MT 38.83+ +"	10	silt	YoungForest	1000	0	30	100	20	YoungForest	1000	30	30	100	20	0	ft	""
+WD	wepp-28667	"05:53 pm  Wednesday December 14, 2011"	"TROUT CREEK RS MT 38.83+ +"	10	silt	OldForest	1000	0	30	100	20	OldForest	1000	30	30	100	20	0	ft	""
+WR	wepp-16304	"10:16 am  Friday December 16, 2011"	"MiddleBugs4500ft_Rd103 +"	30	silt	graveled	200	4	20	15	50	130	25	20	inveg	ft
+WR	wepp-16309	"10:17 am  Friday December 16, 2011"	"MiddleBugs4500ft_Rd103 +"	30	silt	graveled	200	4	20	15	50	130	25	20	inveg	ft
+WR	wepp-16314	"10:17 am  Friday December 16, 2011"	"MiddleBugs4500ft_Rd103 +"	30	silt	native	200	4	20	15	50	600	25	20	outrut	ft
+WR	wepp-21629	"01:32 pm  Friday December 16, 2011"	"MiddleBugs4500ft_Rd103 +"	30	silt	native	200	15	16	15	50	150	25	20	outrut	ft
+WR	wepp-21652	"01:33 pm  Friday December 16, 2011"	"MiddleBugs4500ft_Rd103 +"	30	silt	native	200	15	16	15	50	150	25	20	outunrut	ft
+WR	wepp-22710	"01:54 pm  Friday December 16, 2011"	"MiddleBugs4500ft_Rd103 +"	30	silt	native	300	15	16	15	50	150	25	5	outunrut	ft
+WR	wepp-22730	"01:55 pm  Friday December 16, 2011"	"MiddleBugs4500ft_Rd103 +"	30	silt	native	300	15	16	15	50	300	25	5	outunrut	ft
+WR	wepp-22897	"01:59 pm  Friday December 16, 2011"	"MiddleBugs4500ft_Rd103 +"	30	silt	native	300	15	14	15	50	300	25	5	outunrut	ft
+WR	wepp-22930	"01:59 pm  Friday December 16, 2011"	"FENN RS ID +"	30	silt	native	300	15	14	15	50	300	25	5	outunrut	ft
+WR	wepp-22951	"01:59 pm  Friday December 16, 2011"	"TROUT CREEK RS MT 38.83+ +"	30	silt	native	300	15	14	15	50	300	25	5	outunrut	ft
+WR	wepp-22987	"02:00 pm  Friday December 16, 2011"	"MiddleBugs4500ft_Rd103 +"	30	silt	native	300	15	14	15	50	500	25	5	outunrut	ft
+WR	wepp-23002	"02:00 pm  Friday December 16, 2011"	"MiddleBugs4500ft_Rd103 +"	30	silt	native	300	15	14	15	50	1000	25	5	outunrut	ft
+WR	wepp-29685	"10:17 am  Tuesday December 20, 2011"	"MiddleBugs4500ft_Rd103 +"	30	silt	native	350	12	14	9.5	60	350	40	20	outunrut	ft
+WR	wepp-29691	"10:18 am  Tuesday December 20, 2011"	"MiddleBugs4500ft_Rd103 +"	30	silt	native	350	12	14	9.5	60	550	40	20	outunrut	ft
+WR	wepp-29698	"10:19 am  Tuesday December 20, 2011"	"MiddleBugs4500ft_Rd103 +"	30	silt	native	350	15	14	9.5	60	550	40	20	outunrut	ft
+WR	wepp-29732	"10:24 am  Tuesday December 20, 2011"	"FENN RS ID +"	30	silt	native	350	15	14	9.5	60	550	40	20	outunrut	ft
+WR	wepp-29737	"10:25 am  Tuesday December 20, 2011"	"MiddleBugs4500ft_Rd103_Adjust  +"	30	silt	native	350	12	14	10	60	550	40	5	outunrut	ft
+WR	wepp-29742	"10:25 am  Tuesday December 20, 2011"	"MiddleBugs4500ft_Rd103_Adjust  +"	30	silt	native	350	12	14	10	60	550	40	20	outunrut	ft
+WR	wepp-29747	"10:25 am  Tuesday December 20, 2011"	"MiddleBugs4500ft_Rd103 +"	30	silt	native	350	12	14	10	60	550	40	20	outunrut	ft
+WR	wepp-29785	"10:28 am  Tuesday December 20, 2011"	"MiddleBugs4500ft_Rd103_Adjust  +"	30	silt	native	350	12	14	10	60	550	40	20	outunrut	ft
+WR	wepp-29790	"10:28 am  Tuesday December 20, 2011"	"MiddleBugs4500ft_Rd103_Adjust  +"	30	silt	native	350	12	14	10	60	550	40	5	outunrut	ft
+WR	wepp-29795	"10:28 am  Tuesday December 20, 2011"	"MiddleBugs4500ft_Rd103_Adjust  +"	30	silt	graveled	350	12	14	10	60	550	40	5	outunrut	ft
+WR	wepp-29879	"10:39 am  Tuesday December 20, 2011"	"MiddleBugs4500ft_Rd103_Adjust  +"	30	silt	native	350	12	14	10	60	550	40	20	outunrut	ft
+WR	wepp-29884	"10:39 am  Tuesday December 20, 2011"	"MiddleBugs4500ft_Rd103_Adjust  +"	30	silt	native	350	12	14	10	60	550	40	10	outunrut	ft
+WR	wepp-29889	"10:39 am  Tuesday December 20, 2011"	"MiddleBugs4500ft_Rd103_Adjust  +"	30	silt	native	350	12	14	10	60	550	40	5	outunrut	ft
+WR	wepp-29894	"10:39 am  Tuesday December 20, 2011"	"MiddleBugs4500ft_Rd103_Adjust  +"	30	sand	native	350	12	14	10	60	550	40	20	outunrut	ft
+WR	wepp-29957	"10:43 am  Tuesday December 20, 2011"	"MiddleBugs4500ft_Rd103_Adjust  +"	30	sand	native	350	12	14	10	60	550	40	20	outunrut	ft
+WR	wepp-29962	"10:44 am  Tuesday December 20, 2011"	"MiddleBugs4500ft_Rd103_Adjust  +"	30	sand	native	350	12	14	10	60	550	40	10	outunrut	ft
+WR	wepp-30076	"10:56 am  Tuesday December 20, 2011"	"MiddleBugs4500ft_Rd103_Adjust  +"	30	sand	native	350	12	14	10	60	750	40	10	outunrut	ft
+WR	wepp-30235	"11:16 am  Tuesday December 20, 2011"	"MiddleBugs4500ft_Rd103_Adjust  +"	30	sand	native	350	12	14	4	66	550	25	10	outunrut	ft
+WR	wepp-30240	"11:16 am  Tuesday December 20, 2011"	"MiddleBugs4500ft_Rd103_Adjust  +"	30	sand	native	350	12	14	4	66	550	40	10	outunrut	ft
+WR	wepp-30246	"11:17 am  Tuesday December 20, 2011"	"MiddleBugs4500ft_Rd103_Adjust  +"	30	sand	native	350	12	14	10	66	550	20	10	outunrut	ft
+WR	wepp-30278	"11:17 am  Tuesday December 20, 2011"	"MiddleBugs4500ft_Rd103_Adjust  +"	30	sand	native	350	12	14	4	66	550	20	10	outunrut	ft
+WR	wepp-30284	"11:18 am  Tuesday December 20, 2011"	"MiddleBugs4500ft_Rd103_Adjust  +"	30	sand	native	350	12	14	4	66	550	25	10	outunrut	ft
+WR	wepp-30289	"11:18 am  Tuesday December 20, 2011"	"MiddleBugs4500ft_Rd103_Adjust  +"	30	sand	native	750	12	14	4	66	550	25	10	outunrut	ft
+WR	wepp-30295	"11:19 am  Tuesday December 20, 2011"	"MiddleBugs4500ft_Rd103_Adjust  +"	30	sand	native	750	12	14	4	66	550	25	20	outunrut	ft
+WR	wepp-30329	"11:23 am  Tuesday December 20, 2011"	"MiddleBugs4500ft_Rd103_Adjust  +"	30	sand	native	800	12	14	4	66	1000	25	20	outunrut	ft
+WR	wepp-30334	"11:24 am  Tuesday December 20, 2011"	"MiddleBugs4500ft_Rd103_Adjust  +"	30	sand	native	800	12	14	4	66	1000	25	10	outunrut	ft
+WR	wepp-30339	"11:25 am  Tuesday December 20, 2011"	"MiddleBugs4500ft_Rd103_Adjust  +"	30	sand	native	800	12	14	4	50	1000	25	20	outunrut	ft
+WR	wepp-30371	"11:29 am  Tuesday December 20, 2011"	"MiddleBugs4500ft_Rd103_Adjust  +"	30	sand	native	800	12	14	4	66	1000	25	20	outunrut	ft
+WR	wepp-30376	"11:29 am  Tuesday December 20, 2011"	"TROUT CREEK RS MT 38.83+ +"	30	sand	native	800	12	14	4	66	1000	25	20	outunrut	ft
+WR	wepp-30381	"11:29 am  Tuesday December 20, 2011"	"MiddleBugs4500ft_Rd103_Adjust  +"	30	sand	native	800	12	14	4	66	1000	25	20	outunrut	ft
+WR	wepp-32654	"03:59 pm  Tuesday December 20, 2011"	"MiddleBugs4500ft_Rd103 +"	30	sand	native	200	4	13	15	50	40	25	20	inveg	ft
+WR	wepp-32659	"03:59 pm  Tuesday December 20, 2011"	"MiddleBugs4500ft_Rd103 +"	30	sand	native	200	4	13	15	50	40	25	20	outunrut	ft
+WR	wepp-32710	"04:00 pm  Tuesday December 20, 2011"	"MiddleBugs4500ft_Rd103_Adjust  +"	30	sand	native	350	4	13	15	50	40	25	20	outunrut	ft
+WR	wepp-32715	"04:01 pm  Tuesday December 20, 2011"	"MiddleBugs4500ft_Rd103_Adjust  +"	30	sand	native	350	12	14	10	66	550	40	20	outunrut	ft
+WR	wepp-32721	"04:03 pm  Tuesday December 20, 2011"	"HEMOLOCK_SNOTEL_5800 +"	30	sand	native	350	12	14	10	66	550	40	20	outunrut	ft
+WR	wepp-32726	"04:03 pm  Tuesday December 20, 2011"	"FENN RS ID +"	30	sand	native	350	12	14	10	66	550	40	20	outunrut	ft
+WR	wepp-9509	"08:12 am  Wednesday December 21, 2011"	"MiddleBugs4500ft_Rd103 +"	30	sand	native	500	2	14	4	66	1000	30	20	outunrut	ft
+WR	wepp-9514	"08:13 am  Wednesday December 21, 2011"	"MiddleBugs4500ft_Rd103_Adjust  +"	30	sand	native	500	2	14	4	66	1000	30	20	outunrut	ft
+WD	wepp-13266	"02:30 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	10	sand	OldForest	250	40	40	100	20	OldForest	250	40	40	100	20	0	ft	""
+WD	wepp-13288	"02:31 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	10	sand	Skid	250	40	40	20	20	Skid	250	40	40	20	20	0	ft	""
+WD	wepp-13308	"02:32 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	10	sand	OldForest	250	40	40	100	20	OldForest	250	40	40	100	20	0	ft	""
+WD	wepp-13328	"02:32 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	10	silt	OldForest	250	40	40	100	20	OldForest	250	40	40	100	20	0	ft	""
+WR	wepp-13439	"02:43 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	30	sand	native	300	5	14	10	66	1000	40	20	outunrut	ft
+WR	wepp-13491	"02:48 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	30	sand	native	450	5	14	10	66	500	40	20	outunrut	ft
+WR	wepp-13496	"02:49 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	30	sand	native	450	12	14	10	66	500	40	20	outunrut	ft
+WR	wepp-13501	"02:49 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	30	sand	native	450	5	14	10	66	500	40	20	outunrut	ft
+WR	wepp-13506	"02:50 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	30	sand	native	450	15	14	10	66	500	40	20	outunrut	ft
+WR	wepp-13511	"02:50 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	30	sand	native	450	5	14	10	66	500	40	20	outunrut	ft
+WR	wepp-14620	"03:59 pm  Wednesday December 21, 2011"	"FENN RS ID"	30	clay	native	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-14701	"04:07 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	30	sand	native	500	12	14	10	66	1000	40	15	outunrut	ft
+WR	wepp-14781	"04:16 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	30	sand	native	100	12	14	10	66	1000	40	15	outunrut	ft
+WR	wepp-14787	"04:17 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	30	sand	native	100	5	14	10	66	1000	40	15	outunrut	ft
+WR	wepp-14792	"04:21 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	30	sand	native	100	10	14	10	66	1000	40	5	outunrut	ft
+WR	wepp-14797	"04:21 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	30	sand	native	100	10	14	10	66	1000	30	5	outunrut	ft
+WR	wepp-14802	"04:21 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	30	sand	native	100	10	14	10	66	1000	20	5	outunrut	ft
+WR	wepp-14836	"04:21 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	30	sand	native	100	10	14	10	66	200	20	5	outunrut	ft
+WR	wepp-14841	"04:22 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	30	sand	native	100	10	14	10	66	300	20	5	outunrut	ft
+wt	wepp-14877	"Dec 21, 2011"	"MidBugsUnitC +"	volcanic	LowRoad	40	40	500	10	15	LowRoad	40	40	500	10	15	ft	""
+wt	wepp-15097	"Dec 21, 2011"	"MidBugsUnitC +"	volcanic	LowRoad	5	5	1000	10	15	OldForest	40	40	1000	100	15	ft	""
+wt	wepp-15119	"Dec 21, 2011"	"MidBugsUnitC +"	volcanic	LowRoad	12	12	1000	10	15	OldForest	40	40	1000	100	15	ft	""
+wt	wepp-15139	"Dec 21, 2011"	"MidBugsUnitC +"	volcanic	HighRoad	12	12	1000	10	15	OldForest	40	40	1000	100	15	ft	""
+wt	wepp-15185	"Dec 21, 2011"	"MidBugsUnitC +"	volcanic	LowRoad	12	12	1000	10	15	OldForest	40	40	1000	100	15	ft	""
+WR	wepp-15205	"04:38 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	30	sand	native	1000	12	14	10	66	1000	40	5	outunrut	ft
+WR	wepp-15268	"04:42 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	30	sand	native	1000	12	14	10	66	1000	40	5	outunrut	ft
+WR	wepp-15275	"04:44 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	30	sand	native	50	12	14	10	66	1000	40	5	outunrut	ft
+WR	wepp-15300	"04:45 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	30	sand	native	20	12	14	10	66	1000	40	5	outunrut	ft
+WR	wepp-15334	"04:47 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	30	sand	native	200	12	14	10	66	300	25	5	outunrut	ft
+WR	wepp-15339	"04:47 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	30	sand	native	200	12	14	10	66	300	30	5	outunrut	ft
+WR	wepp-15345	"04:47 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	30	sand	native	200	12	14	10	66	1000	30	5	outunrut	ft
+WR	wepp-15352	"04:47 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	30	sand	native	200	12	14	10	66	300	30	5	outunrut	ft
+WR	wepp-15357	"04:48 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	30	sand	native	200	12	14	10	66	1000	30	5	outunrut	ft
+WR	wepp-15362	"04:48 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	30	sand	native	200	12	14	10	66	100	30	5	outunrut	ft
+WR	wepp-15367	"04:48 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	30	sand	native	200	12	14	10	66	200	30	5	outunrut	ft
+WR	wepp-15372	"04:48 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	30	sand	native	200	12	14	10	66	300	30	5	outunrut	ft
+WR	wepp-15377	"04:48 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	30	sand	native	200	12	14	10	66	400	30	5	outunrut	ft
+WR	wepp-15382	"04:49 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	30	sand	native	200	12	14	10	66	1000	30	5	outunrut	ft
+WR	wepp-15387	"04:49 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	30	sand	native	200	12	14	10	66	300	30	5	outunrut	ft
+WR	wepp-15419	"04:51 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	30	sand	native	1000	5	14	2	66	1000	30	20	outunrut	ft
+WR	wepp-15424	"04:52 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	30	sand	native	1000	5	14	2	66	300	30	20	outunrut	ft
+WR	wepp-15430	"04:52 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	30	sand	native	1000	5	14	2	66	500	30	20	outunrut	ft
+WR	wepp-15435	"04:52 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	30	sand	native	1000	5	14	2	66	100	30	20	outunrut	ft
+WR	wepp-15440	"04:52 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	30	sand	native	1000	5	14	2	66	50	30	20	outunrut	ft
+WR	wepp-15446	"04:56 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	30	sand	native	700	10	14	4	66	1000	30	20	outunrut	ft
+WR	wepp-15451	"04:56 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	30	sand	native	700	10	14	4	66	500	30	20	outunrut	ft
+WR	wepp-15483	"04:56 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	30	sand	native	700	10	14	4	66	300	30	20	outunrut	ft
+WR	wepp-15489	"04:56 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	30	sand	native	700	10	14	4	66	200	30	20	outunrut	ft
+WR	wepp-15494	"04:57 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	30	sand	native	700	10	14	4	66	100	30	20	outunrut	ft
+WR	wepp-15500	"04:57 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	30	sand	native	700	10	14	4	66	20	30	20	outunrut	ft
+WR	wepp-15505	"04:57 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	30	sand	native	700	10	14	4	66	300	30	10	outunrut	ft
+WR	wepp-15510	"04:57 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	30	sand	native	700	10	14	4	66	500	30	10	outunrut	ft
+WR	wepp-15515	"04:58 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	30	sand	native	700	10	14	4	66	700	30	10	outunrut	ft
+WR	wepp-15521	"04:58 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	30	sand	native	700	10	14	4	66	1000	30	10	outunrut	ft
+WR	wepp-15526	"04:59 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	30	sand	native	700	10	14	4	66	400	30	20	outunrut	ft
+WR	wepp-15532	"04:59 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	30	sand	native	700	10	14	4	66	200	30	20	outunrut	ft
+WR	wepp-15537	"04:59 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	30	sand	native	700	10	14	4	66	200	30	20	outunrut	ft
+WR	wepp-15588	"05:02 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	30	sand	native	700	10	14	2	66	200	30	20	outunrut	ft
+WR	wepp-15593	"05:02 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	30	sand	native	700	10	14	10	66	200	30	20	outunrut	ft
+WR	wepp-15598	"05:02 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	30	sand	native	700	10	14	4	50	200	30	20	outunrut	ft
+WR	wepp-15603	"05:03 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	30	sand	native	700	10	14	4	66	200	30	20	outunrut	ft
+WR	wepp-15609	"05:03 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	30	sand	native	700	5	14	4	66	200	30	20	outunrut	ft
+WR	wepp-15614	"05:03 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	30	sand	native	700	15	14	4	66	200	30	20	outunrut	ft
+WR	wepp-15619	"05:03 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	30	sand	native	700	12	14	4	66	200	30	20	outunrut	ft
+WR	wepp-15625	"05:03 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	30	sand	native	700	10	14	4	66	200	30	20	outunrut	ft
+WR	wepp-15631	"05:04 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	30	sand	native	700	2	14	4	66	200	30	20	outunrut	ft
+WR	wepp-15636	"05:04 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	30	sand	native	700	2	14	4	66	1000	30	20	outunrut	ft
+WR	wepp-15642	"05:04 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	30	sand	native	350	2	14	4	66	1000	30	20	outunrut	ft
+WR	wepp-15647	"05:04 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	30	sand	native	700	2	14	4	66	1000	30	20	outunrut	ft
+WR	wepp-15652	"05:05 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	30	sand	native	100	2	14	4	66	1000	30	20	outunrut	ft
+WR	wepp-15657	"05:05 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	30	sand	native	700	10	14	4	66	300	30	20	outunrut	ft
+WR	wepp-15663	"05:05 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	30	sand	native	700	10	14	4	66	1000	30	20	outunrut	ft
+WR	wepp-15668	"05:05 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	30	sand	native	700	10	14	4	66	500	30	20	outunrut	ft
+WR	wepp-15673	"05:06 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	30	silt	native	700	10	14	4	66	500	30	20	outunrut	ft
+WR	wepp-15678	"05:06 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	30	sand	native	700	10	14	4	66	300	30	20	outunrut	ft
+WR	wepp-15710	"05:07 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	30	sand	native	350	10	14	4	66	300	30	20	outunrut	ft
+WR	wepp-15715	"05:07 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	30	sand	native	350	2	14	4	66	300	30	20	outunrut	ft
+WR	wepp-15720	"05:10 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	30	sand	native	350	2	14	4	66	135	30	20	outunrut	ft
+WR	wepp-15725	"05:11 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	30	sand	native	350	2	14	4	66	300	30	20	outunrut	ft
+WR	wepp-15757	"05:12 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	30	sand	native	450	12	14	10	66	500	40	20	outunrut	ft
+WR	wepp-15762	"05:12 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	30	sand	native	450	12	14	10	66	300	40	20	outunrut	ft
+WR	wepp-15767	"05:12 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	30	sand	native	450	12	14	10	66	200	40	20	outunrut	ft
+WR	wepp-15772	"05:12 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	30	sand	native	450	12	14	10	66	200	35	20	outunrut	ft
+WR	wepp-15777	"05:13 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	30	sand	native	450	12	14	5	66	200	35	20	outunrut	ft
+WR	wepp-15782	"05:13 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	30	sand	native	450	12	14	5	66	200	35	5	outunrut	ft
+WR	wepp-15788	"05:13 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	30	sand	native	450	12	14	5	66	200	35	20	outunrut	ft
+WR	wepp-15793	"05:13 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	30	sand	native	450	12	14	5	66	200	35	20	outunrut	ft
+WR	wepp-15798	"05:14 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	30	sand	native	450	12	14	5	66	130	35	20	outunrut	ft
+WR	wepp-15803	"05:14 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	30	sand	native	450	12	14	5	66	1000	35	20	outunrut	ft
+WR	wepp-15855	"05:18 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	30	sand	native	450	12	14	5	66	1000	35	20	outunrut	ft
+WR	wepp-15887	"05:22 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	30	sand	native	700	12	14	4	66	1000	30	20	outunrut	ft
+WR	wepp-15893	"05:23 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	30	sand	native	350	12	14	4	66	1000	30	20	outunrut	ft
+WR	wepp-15898	"05:23 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	30	sand	native	700	12	14	4	66	1000	30	20	outunrut	ft
+WR	wepp-15903	"05:24 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	30	sand	native	100	12	14	4	66	1000	30	20	outunrut	ft
+WR	wepp-15908	"05:24 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	30	sand	native	700	12	14	4	66	1000	30	20	outunrut	ft
+WR	wepp-15913	"05:26 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	30	sand	native	700	12	14	4	66	400	30	20	outunrut	ft
+WR	wepp-15918	"05:26 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	30	sand	native	700	12	13	4	66	400	30	20	outunrut	ft
+WR	wepp-15923	"05:26 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	30	sand	native	700	10	14	4	66	400	30	20	outunrut	ft
+WR	wepp-15928	"05:26 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	30	sand	native	700	15	14	4	66	400	30	20	outunrut	ft
+WR	wepp-15960	"05:27 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	30	sand	native	700	12	14	4	66	300	30	20	outunrut	ft
+WR	wepp-15966	"05:27 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	30	sand	native	700	12	14	4	66	200	30	20	outunrut	ft
+WR	wepp-15971	"05:27 pm  Wednesday December 21, 2011"	"MidBugsUnitC +"	30	sand	native	700	12	14	4	66	1000	30	20	outunrut	ft
+WR	wepp-23000	"08:15 am  Thursday December 22, 2011"	"MidBugsUnitC +"	30	silt	native	200	4	14	10	66	300	40	10	outunrut	ft
+WR	wepp-23005	"08:15 am  Thursday December 22, 2011"	"MidBugsUnitC +"	30	sand	native	200	4	14	10	66	300	40	10	outunrut	ft
+WR	wepp-23010	"08:15 am  Thursday December 22, 2011"	"MidBugsUnitC +"	30	sand	native	200	4	14	10	66	500	40	10	outunrut	ft
+WR	wepp-23015	"08:16 am  Thursday December 22, 2011"	"MidBugsUnitC +"	30	sand	native	200	4	14	10	66	1000	40	10	outunrut	ft
+WR	wepp-23020	"08:16 am  Thursday December 22, 2011"	"MidBugsUnitC +"	30	sand	native	200	4	14	10	66	200	40	10	outunrut	ft
+WR	wepp-23025	"08:16 am  Thursday December 22, 2011"	"MidBugsUnitC +"	30	sand	graveled	200	4	14	10	66	200	40	10	outunrut	ft
+WR	wepp-23030	"08:16 am  Thursday December 22, 2011"	"MidBugsUnitC +"	30	sand	graveled	200	4	14	10	66	200	30	10	outunrut	ft
+WR	wepp-24005	"11:09 am  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	350	12	14	10	66	100	40	10	outunrut	ft
+WR	wepp-24025	"11:10 am  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	350	12	14	10	66	550	20	10	outunrut	ft
+WR	wepp-24045	"11:10 am  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	sand	native	350	12	14	10	66	550	20	10	outunrut	ft
+WR	wepp-24141	"11:18 am  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	350	12	14	10	66	550	20	10	outunrut	ft
+WR	wepp-24163	"11:19 am  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	350	12	14	10	66	100	40	10	outunrut	ft
+WR	wepp-24183	"11:19 am  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	sand	native	350	12	14	10	66	100	40	10	outunrut	ft
+WR	wepp-24203	"11:20 am  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	350	12	14	10	66	100	25	10	outunrut	ft
+WR	wepp-24223	"11:20 am  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	350	12	14	10	66	600	25	10	outunrut	ft
+WR	wepp-24270	"11:23 am  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	350	12	14	10	66	300	25	10	outunrut	ft
+WR	wepp-24290	"11:25 am  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	350	12	14	10	66	680	25	10	outunrut	ft
+WR	wepp-24309	"11:26 am  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	350	12	14	10	66	660	24	10	outunrut	ft
+WR	wepp-24356	"11:27 am  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	350	12	14	4	66	660	24	10	outunrut	ft
+WR	wepp-24376	"11:27 am  Tuesday December 27, 2011"	"MidBugsUnitC +"	5	silt	native	350	12	14	4	66	660	24	10	outunrut	ft
+WR	wepp-24396	"11:27 am  Tuesday December 27, 2011"	"MidBugsUnitC +"	60	silt	native	350	12	14	4	66	660	24	10	outunrut	ft
+WR	wepp-24416	"11:28 am  Tuesday December 27, 2011"	"MidBugsUnitC +"	25	silt	native	350	12	14	4	66	660	24	10	outunrut	ft
+WR	wepp-24435	"11:28 am  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	350	12	14	4	66	660	24	10	outunrut	ft
+WR	wepp-24456	"11:28 am  Tuesday December 27, 2011"	"MidBugsUnitC +"	50	silt	native	350	12	14	4	66	660	24	10	outunrut	ft
+WR	wepp-24475	"11:28 am  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	350	12	14	4	66	660	24	10	outunrut	ft
+WR	wepp-24494	"11:29 am  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	350	12	14	4	66	400	24	10	outunrut	ft
+WR	wepp-24514	"11:29 am  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	350	12	14	4	66	300	24	10	outunrut	ft
+WR	wepp-24533	"11:29 am  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	350	12	14	4	66	200	24	10	outunrut	ft
+WR	wepp-24553	"11:29 am  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	350	12	14	4	66	100	24	10	outunrut	ft
+WR	wepp-24573	"11:29 am  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	350	12	14	4	66	700	24	10	outunrut	ft
+WR	wepp-24619	"11:30 am  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	350	12	14	4	66	1000	24	10	outunrut	ft
+WR	wepp-24705	"11:32 am  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	350	12	14	4	66	1000	20	10	outunrut	ft
+WR	wepp-24725	"11:32 am  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	350	12	14	4	66	1000	22	10	outunrut	ft
+WR	wepp-24745	"11:33 am  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	350	12	14	2	66	1000	20	10	outunrut	ft
+WR	wepp-24785	"11:36 am  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	800	12	14	4	66	1000	20	10	outunrut	ft
+WR	wepp-24832	"11:38 am  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	800	12	14	4	66	650	20	10	outunrut	ft
+WR	wepp-24852	"11:39 am  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	800	12	14	4	66	650	20	10	outunrut	ft
+WR	wepp-24872	"11:39 am  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	400	12	14	4	66	650	20	10	outunrut	ft
+WR	wepp-24891	"11:39 am  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	200	12	14	4	66	650	20	10	outunrut	ft
+WR	wepp-24911	"11:39 am  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	100	12	14	4	66	650	20	10	outunrut	ft
+WR	wepp-24931	"11:40 am  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	50	12	14	4	66	650	20	10	outunrut	ft
+WR	wepp-24951	"11:41 am  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	400	12	14	4	66	650	20	10	outunrut	ft
+WR	wepp-24970	"11:41 am  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	400	12	14	4	66	500	20	10	outunrut	ft
+WR	wepp-24990	"11:41 am  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	400	12	14	4	66	300	20	10	outunrut	ft
+WR	wepp-25067	"11:42 am  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	400	12	14	4	66	500	20	10	outunrut	ft
+WR	wepp-25087	"11:43 am  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	400	12	14	2	66	500	20	10	outunrut	ft
+WR	wepp-25126	"11:46 am  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	750	12	14	4	66	300	20	10	outunrut	ft
+WR	wepp-25146	"11:46 am  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	750	12	14	4	66	300	20	5	outunrut	ft
+WR	wepp-25166	"11:46 am  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	750	12	14	4	66	300	20	20	outunrut	ft
+WR	wepp-25213	"11:47 am  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	750	12	14	4	66	300	20	15	outunrut	ft
+WR	wepp-25233	"11:48 am  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	750	12	14	4	66	300	20	10	outunrut	ft
+WR	wepp-25253	"11:48 am  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	750	12	14	4	66	300	20	5	outunrut	ft
+WR	wepp-25273	"11:48 am  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	750	12	14	4	66	300	20	10	outunrut	ft
+WR	wepp-25293	"11:52 am  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	800	12	14	4	66	300	17	10	outunrut	ft
+WR	wepp-25340	"11:52 am  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	800	12	14	2	66	300	17	10	outunrut	ft
+WR	wepp-25363	"11:57 am  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	1000	10	14	4	66	1000	25	10	outunrut	ft
+WR	wepp-25413	"11:57 am  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	150	10	14	4	66	1000	25	10	outunrut	ft
+WR	wepp-25433	"11:57 am  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	150	12	14	4	66	1000	25	10	outunrut	ft
+WR	wepp-25504	"12:04 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	550	12	14	4	66	400	22	10	outunrut	ft
+WR	wepp-25526	"12:06 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	350	8	14	4	66	500	24	10	outunrut	ft
+WR	wepp-25545	"12:06 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	350	8	14	4	66	500	23	10	outunrut	ft
+WR	wepp-25565	"12:06 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	350	8	14	4	66	500	20	10	outunrut	ft
+WR	wepp-25585	"12:06 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	350	8	14	4	66	500	24	10	outunrut	ft
+WR	wepp-25632	"12:12 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	400	2	14	2	66	1000	30	10	outunrut	ft
+WR	wepp-25679	"12:12 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	400	5	14	2	66	1000	30	10	outunrut	ft
+WR	wepp-25699	"12:13 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	400	5	14	2	66	800	30	10	outunrut	ft
+WR	wepp-25719	"12:13 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	400	5	14	2	66	700	30	10	outunrut	ft
+WR	wepp-25739	"12:13 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	400	5	14	2	66	600	30	10	outunrut	ft
+WR	wepp-25759	"12:14 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	400	10	14	2	66	700	30	10	outunrut	ft
+WR	wepp-25779	"12:14 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	400	8	14	2	66	700	30	10	outunrut	ft
+WR	wepp-25799	"12:14 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	400	8	14	2	66	600	30	10	outunrut	ft
+WR	wepp-25819	"12:15 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	400	10	14	2	66	600	30	10	outunrut	ft
+WR	wepp-25858	"12:15 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	400	5	14	2	66	600	30	10	outunrut	ft
+WR	wepp-25878	"12:15 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	400	10	14	2	66	600	30	10	outunrut	ft
+WR	wepp-25898	"12:16 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	400	10	14	2	66	500	30	10	outunrut	ft
+WR	wepp-25918	"12:16 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	400	10	14	2	66	700	30	10	outunrut	ft
+WR	wepp-25939	"12:16 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	400	10	14	2	66	700	30	10	outunrut	ft
+WR	wepp-25985	"12:17 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	400	5	14	2	66	400	25	10	outunrut	ft
+WR	wepp-26005	"12:19 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	600	2	14	2	66	550	30	10	outunrut	ft
+WR	wepp-26025	"12:20 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	600	5	14	2	66	550	30	10	outunrut	ft
+WR	wepp-26045	"12:20 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	600	5	14	2	66	550	30	10	outunrut	ft
+WR	wepp-26092	"12:22 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	600	2	14	2	66	800	30	10	outunrut	ft
+WR	wepp-26112	"12:23 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	600	2	14	2	66	350	30	10	outunrut	ft
+WR	wepp-26143	"12:24 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	600	2	14	2	66	800	25	10	outunrut	ft
+WR	wepp-26165	"12:27 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	600	2	14	2	66	800	23	10	outunrut	ft
+WR	wepp-26233	"12:31 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	1000	2	14	2	66	1000	26	10	outunrut	ft
+WR	wepp-26252	"12:31 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	1000	5	14	2	66	1000	26	10	outunrut	ft
+WR	wepp-26272	"12:31 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	1000	5	14	2	66	1000	30	10	outunrut	ft
+WR	wepp-26294	"12:31 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	1000	5	14	2	66	1000	26	10	outunrut	ft
+WR	wepp-26314	"12:32 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	1000	5	14	2	66	900	26	10	outunrut	ft
+WR	wepp-26354	"12:32 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	1000	5	14	2	66	600	26	10	outunrut	ft
+WR	wepp-26361	"12:32 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	1000	5	14	2	66	1000	26	10	outunrut	ft
+WR	wepp-26408	"12:33 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	1000	2	14	2	66	800	23	10	outunrut	ft
+WR	wepp-26428	"12:33 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	1000	5	14	2	66	800	23	10	outunrut	ft
+WR	wepp-26448	"12:33 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	1000	5	14	2	66	800	25	10	outunrut	ft
+WR	wepp-26468	"12:35 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	1000	5	14	4	66	800	30	10	outunrut	ft
+WR	wepp-26488	"12:36 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	1000	5	14	4	66	1000	30	10	outunrut	ft
+WR	wepp-26508	"12:37 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	650	5	14	4	66	800	25	10	outunrut	ft
+WR	wepp-26557	"12:39 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	650	5	14	4	66	800	25	10	outunrut	ft
+WR	wepp-26581	"12:39 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	650	5	14	4	66	800	25	15	outunrut	ft
+WR	wepp-26683	"12:44 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	650	5	14	4	66	800	25	15	outunrut	ft
+WR	wepp-26703	"12:44 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	650	5	14	4	66	800	25	5	outunrut	ft
+WR	wepp-26723	"12:44 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	650	5	14	4	66	800	25	10	outunrut	ft
+WR	wepp-26763	"12:46 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	650	1	14	4	66	800	25	10	outunrut	ft
+WR	wepp-26783	"12:46 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	650	5	14	4	66	800	25	1	outunrut	ft
+WR	wepp-26804	"12:46 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	650	5	14	4	66	800	25	10	outunrut	ft
+WR	wepp-26825	"12:47 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	650	5	14	4	66	800	25	5	outunrut	ft
+WR	wepp-26872	"12:47 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	650	10	14	4	66	800	25	5	outunrut	ft
+WR	wepp-26892	"12:48 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	650	10	14	4	66	800	25	1	outunrut	ft
+WR	wepp-26912	"12:48 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	650	10	14	4	66	800	25	10	outunrut	ft
+WR	wepp-26932	"12:48 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	650	10	14	4	66	800	25	5	outunrut	ft
+WR	wepp-27087	"12:57 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	650	5	14	4	66	800	25	10	outunrut	ft
+WR	wepp-27246	"01:04 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	650	5	14	4	66	800	25	10	outunrut	ft
+WR	wepp-27267	"01:06 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	1000	5	14	4	66	1000	26	10	outunrut	ft
+WR	wepp-27289	"01:07 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	1000	5	14	4	66	1000	26	20	outrut	ft
+WR	wepp-27294	"01:07 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	1000	5	14	4	66	1000	26	10	outrut	ft
+WR	wepp-27326	"01:08 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	1000	5	14	4	66	1000	26	10	outunrut	ft
+WR	wepp-27407	"01:12 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	350	12	14	10	66	600	25	10	outunrut	ft
+WR	wepp-27474	"01:15 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	150	12	14	10	66	300	25	10	outunrut	ft
+WR	wepp-27529	"01:18 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	750	12	14	4	66	660	24	10	outunrut	ft
+WR	wepp-27550	"01:19 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	800	12	14	4	66	1000	20	10	outunrut	ft
+WR	wepp-27571	"01:20 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	800	12	14	4	66	1000	20	5	outunrut	ft
+WR	wepp-27591	"01:20 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	800	12	14	4	66	1000	20	10	outunrut	ft
+WR	wepp-27611	"01:20 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	800	12	14	4	66	1000	20	1	outunrut	ft
+WR	wepp-27631	"01:21 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	400	12	14	4	66	500	20	10	outunrut	ft
+WR	wepp-27652	"01:22 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	750	12	14	4	66	300	20	10	outunrut	ft
+WR	wepp-27673	"01:22 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	800	12	14	2	66	300	17	10	outunrut	ft
+WR	wepp-27693	"01:22 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	800	12	14	2	66	300	17	10	outunrut	ft
+WR	wepp-27741	"01:23 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	150	12	28	2	66	450	17	10	outunrut	ft
+WR	wepp-27761	"01:24 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	150	12	14	2	66	450	17	10	outunrut	ft
+WR	wepp-27782	"01:24 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	150	10	14	4	66	1000	25	10	outunrut	ft
+WR	wepp-27802	"01:25 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	300	10	14	4	66	1000	25	10	outunrut	ft
+WR	wepp-27823	"01:25 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	150	10	14	4	66	1000	25	10	outunrut	ft
+WR	wepp-27845	"01:26 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	200	10	14	4	66	500	25	10	outunrut	ft
+WR	wepp-27867	"01:27 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	200	12	14	4	66	500	22	10	outunrut	ft
+WR	wepp-27887	"01:27 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	550	12	14	4	66	400	22	10	outunrut	ft
+WR	wepp-27935	"01:28 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	350	8	14	4	66	500	24	10	outunrut	ft
+WR	wepp-27956	"01:28 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	600	8	14	4	66	200	24	10	outunrut	ft
+WR	wepp-27977	"01:29 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	250	5	14	4	66	400	25	10	outunrut	ft
+WR	wepp-28017	"01:30 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	400	10	14	4	66	750	30	10	outunrut	ft
+WR	wepp-28038	"01:31 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	600	5	14	4	66	550	25	10	outunrut	ft
+WR	wepp-28059	"01:32 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	700	5	14	4	66	800	25	10	outunrut	ft
+WR	wepp-28108	"01:33 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	550	5	14	4	66	800	23	10	outunrut	ft
+WR	wepp-28129	"01:34 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	1000	5	14	4	66	1000	26	10	outunrut	ft
+WR	wepp-28149	"01:35 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	650	5	14	4	66	800	25	10	outunrut	ft
+WR	wepp-28474	"01:50 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	300	10	14	4	66	800	20	10	outunrut	ft
+WR	wepp-28520	"01:51 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	300	10	14	2	66	800	20	10	outunrut	ft
+WR	wepp-28542	"01:51 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	300	10	14	2	66	800	20	10	outunrut	ft
+WR	wepp-28590	"01:55 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	300	5	14	4	66	1000	25	10	outunrut	ft
+WR	wepp-28611	"01:57 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	600	5	14	4	66	500	35	10	outunrut	ft
+WR	wepp-28660	"01:59 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	600	5	14	4	66	900	35	10	outunrut	ft
+WR	wepp-28699	"02:00 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	600	5	14	4	66	300	35	10	outunrut	ft
+WR	wepp-28722	"02:01 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	600	5	14	4	66	1000	35	10	outunrut	ft
+WR	wepp-28742	"02:02 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	600	5	14	4	66	250	35	10	outunrut	ft
+WR	wepp-28813	"02:03 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	600	10	14	4	66	400	35	10	outunrut	ft
+WR	wepp-28853	"02:03 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	600	2	14	4	66	400	35	10	outunrut	ft
+WR	wepp-28861	"02:03 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	600	5	14	4	66	400	35	10	outunrut	ft
+WR	wepp-28880	"02:04 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	600	5	14	4	66	400	30	10	outunrut	ft
+WR	wepp-28901	"02:05 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	600	5	14	4	66	1000	30	10	outunrut	ft
+WR	wepp-28941	"02:06 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	600	5	14	4	66	700	30	10	outunrut	ft
+WR	wepp-28991	"02:08 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	600	5	14	4	66	700	32	10	outunrut	ft
+WR	wepp-29011	"02:08 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	600	5	14	4	66	700	31	10	outunrut	ft
+WR	wepp-29054	"02:09 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	600	5	14	4	66	700	30	10	outunrut	ft
+WR	wepp-29101	"02:10 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	600	5	14	4	66	1000	30	10	outunrut	ft
+WR	wepp-29121	"02:10 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	600	5	14	4	66	900	30	10	outunrut	ft
+WR	wepp-29207	"02:15 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	600	5	14	4	66	900	30	10	outunrut	ft
+WR	wepp-29347	"02:18 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	600	5	14	4	66	1000	28	10	outunrut	ft
+WR	wepp-29511	"02:24 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	300	5	14	2	66	1000	20	10	outunrut	ft
+WR	wepp-29574	"02:27 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	300	5	14	4	66	600	30	10	outunrut	ft
+WR	wepp-29644	"02:28 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	450	5	14	4	66	600	30	10	outunrut	ft
+WR	wepp-29705	"02:30 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	450	5	14	4	66	500	30	10	outunrut	ft
+WR	wepp-29804	"02:35 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	800	5	14	4	66	700	30	10	outunrut	ft
+WR	wepp-29839	"02:35 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	800	5	14	4	66	600	30	10	outunrut	ft
+WR	wepp-29893	"02:35 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	800	5	14	4	66	500	30	10	outunrut	ft
+WR	wepp-29912	"02:36 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	800	5	14	4	66	750	30	10	outunrut	ft
+WR	wepp-29932	"02:36 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	800	5	14	4	66	700	30	10	outunrut	ft
+WR	wepp-30029	"02:39 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	800	2	14	4	66	700	30	10	outunrut	ft
+WR	wepp-30050	"02:42 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	300	10	14	4	66	650	25	10	outunrut	ft
+WR	wepp-30127	"02:44 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	300	10	14	4	66	600	30	10	outunrut	ft
+WR	wepp-30166	"02:47 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	200	8	14	4	66	700	25	10	outunrut	ft
+WR	wepp-30214	"02:50 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	400	8	14	2	66	800	20	10	outunrut	ft
+WR	wepp-30235	"02:51 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	200	8	14	2	66	800	20	10	outunrut	ft
+WR	wepp-30257	"02:53 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	150	8	28	4	66	700	20	10	outunrut	ft
+WR	wepp-30306	"02:55 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	300	8	14	2	66	550	15	10	outunrut	ft
+WR	wepp-30327	"02:57 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	200	5	14	2	66	400	15	10	outunrut	ft
+WR	wepp-30445	"03:00 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	300	10	14	2	66	150	20	10	outunrut	ft
+WR	wepp-30467	"03:01 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	200	5	14	2	66	180	15	10	outunrut	ft
+WR	wepp-30488	"03:03 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	250	10	14	6	66	350	30	10	outunrut	ft
+WR	wepp-30535	"03:04 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	250	10	14	4	66	400	30	10	outunrut	ft
+WR	wepp-30555	"03:04 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	250	10	14	4	66	300	30	10	outunrut	ft
+WR	wepp-30575	"03:05 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	250	10	14	4	66	500	30	10	outunrut	ft
+WR	wepp-30594	"03:06 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	250	10	14	4	66	450	30	10	outunrut	ft
+WR	wepp-30614	"03:06 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	250	10	14	4	66	450	30	10	outunrut	ft
+WR	wepp-31108	"03:32 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	600	18	14	2	66	650	15	10	outunrut	ft
+WR	wepp-31128	"03:32 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	600	8	14	2	66	650	15	10	outunrut	ft
+WR	wepp-31148	"03:32 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	600	8	14	2	66	700	15	10	outunrut	ft
+WR	wepp-31168	"03:33 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	600	8	14	2	66	500	15	10	outunrut	ft
+WR	wepp-31188	"03:33 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	600	8	14	2	66	700	15	10	outunrut	ft
+WR	wepp-31207	"03:33 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	600	8	14	2	66	500	15	10	outunrut	ft
+WR	wepp-31312	"03:36 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	400	5	14	2	66	600	25	10	outunrut	ft
+WR	wepp-31410	"03:39 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	700	10	14	4	66	800	35	10	outunrut	ft
+WR	wepp-31480	"03:40 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	700	10	14	4	66	700	35	10	outunrut	ft
+WR	wepp-31500	"03:41 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	700	10	14	4	66	400	35	10	outunrut	ft
+WR	wepp-31520	"03:41 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	700	10	14	4	66	400	32	10	outunrut	ft
+WR	wepp-31619	"03:43 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	700	10	14	4	66	350	32	10	outunrut	ft
+WR	wepp-31639	"03:43 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	700	10	14	4	66	350	30	10	outunrut	ft
+WR	wepp-31659	"03:43 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	700	10	14	4	66	500	30	10	outunrut	ft
+WR	wepp-31729	"03:44 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	700	10	14	4	66	600	30	10	outunrut	ft
+WR	wepp-31780	"03:44 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	700	10	14	4	66	500	30	10	outunrut	ft
+WR	wepp-31819	"03:45 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	700	10	14	4	66	400	30	10	outunrut	ft
+WR	wepp-31839	"03:45 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	700	10	14	4	66	550	30	10	outunrut	ft
+WR	wepp-31859	"03:45 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	700	10	14	4	66	600	30	10	outunrut	ft
+WR	wepp-31879	"03:45 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	700	10	14	4	66	500	30	10	outunrut	ft
+WR	wepp-31928	"03:50 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	300	5	14	10	66	650	40	10	outunrut	ft
+WR	wepp-31949	"03:52 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	300	5	14	10	66	1000	40	10	outunrut	ft
+WR	wepp-31969	"03:52 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	300	5	14	10	66	500	40	10	outunrut	ft
+WR	wepp-31989	"03:52 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	300	5	14	10	66	500	35	10	outunrut	ft
+WR	wepp-32016	"03:53 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	300	5	14	10	66	350	40	10	outunrut	ft
+WR	wepp-32036	"03:53 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	300	5	14	10	66	100	40	10	outunrut	ft
+WR	wepp-32056	"03:54 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	300	5	14	10	66	1000	40	10	outunrut	ft
+WR	wepp-32102	"03:54 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	300	10	14	10	66	500	40	10	outunrut	ft
+WR	wepp-32123	"03:57 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	300	10	14	10	66	500	35	10	outunrut	ft
+WR	wepp-32142	"03:58 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	300	10	14	10	66	400	35	10	outunrut	ft
+WR	wepp-32162	"03:58 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	300	10	14	4	66	400	35	10	outunrut	ft
+WR	wepp-32182	"03:58 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	300	10	14	4	66	400	33	10	outunrut	ft
+WR	wepp-32202	"03:58 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	300	8	14	4	66	400	33	10	outunrut	ft
+WR	wepp-32222	"03:58 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	300	8	14	4	66	400	30	10	outunrut	ft
+WR	wepp-32242	"03:59 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	300	8	14	4	66	400	32	10	outunrut	ft
+WR	wepp-32262	"03:59 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	300	8	14	4	66	400	31	10	outunrut	ft
+WR	wepp-32308	"03:59 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	300	8	14	4	66	600	30	10	outunrut	ft
+WR	wepp-32327	"04:00 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	300	8	14	4	66	600	32	10	outunrut	ft
+WR	wepp-32366	"04:00 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	300	8	14	4	66	300	30	10	outunrut	ft
+WR	wepp-32386	"04:00 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	300	8	14	4	66	400	30	10	outunrut	ft
+WR	wepp-32406	"04:00 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	300	5	14	4	66	400	30	10	outunrut	ft
+WR	wepp-32426	"04:00 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	300	5	14	4	66	400	32	10	outunrut	ft
+WR	wepp-32446	"04:00 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	300	5	14	4	66	400	30	10	outunrut	ft
+WR	wepp-32466	"04:01 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	300	5	14	4	66	500	30	10	outunrut	ft
+WR	wepp-32486	"04:01 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	300	5	14	4	66	600	30	10	outunrut	ft
+WR	wepp-32507	"04:01 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	300	5	14	4	66	600	32	10	outunrut	ft
+WR	wepp-32527	"04:02 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	300	5	14	4	66	400	30	10	outunrut	ft
+WR	wepp-32601	"04:12 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	200	10	14	4	66	900	24	10	outunrut	ft
+WR	wepp-32621	"04:13 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	150	5	14	4	66	400	24	10	outunrut	ft
+WR	wepp-32668	"04:14 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	150	5	14	4	66	400	24	10	outunrut	ft
+WR	wepp-32707	"04:15 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	180	5	14	4	66	600	24	10	outunrut	ft
+WR	wepp-32730	"04:19 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	200	5	14	2	66	650	15	10	outunrut	ft
+WR	wepp-306	"04:19 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	200	5	14	2	66	650	12	10	outunrut	ft
+WR	wepp-326	"04:20 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	200	5	14	2	66	750	15	10	outunrut	ft
+WR	wepp-348	"04:21 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	200	5	14	2	66	550	15	10	outunrut	ft
+WR	wepp-369	"04:22 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	550	5	14	2	66	350	25	10	outunrut	ft
+WR	wepp-416	"04:24 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	200	5	14	2	66	1000	20	10	outunrut	ft
+WR	wepp-3231	"04:30 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	800	5	14	2	66	600	20	10	outunrut	ft
+WR	wepp-3252	"04:31 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	800	5	14	2	66	600	15	10	outunrut	ft
+WR	wepp-3272	"04:31 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	800	5	14	2	66	500	20	10	outunrut	ft
+WR	wepp-3292	"04:32 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	800	5	14	2	66	650	20	10	outunrut	ft
+WR	wepp-3313	"04:34 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	350	5	14	2	66	900	20	10	outunrut	ft
+WR	wepp-3361	"04:36 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	400	5	14	2	66	650	25	10	outunrut	ft
+WR	wepp-3387	"04:39 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	700	10	14	4	66	550	30	10	outunrut	ft
+WR	wepp-3434	"04:41 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	700	10	14	4	66	650	30	10	outunrut	ft
+WR	wepp-3454	"04:41 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	700	10	14	4	66	550	28	10	outunrut	ft
+WR	wepp-3503	"04:44 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	600	5	14	4	66	600	30	10	outunrut	ft
+WR	wepp-3569	"04:45 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	1000	5	14	2	66	400	20	10	outunrut	ft
+WR	wepp-3589	"04:46 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	600	5	14	2	66	600	30	10	outunrut	ft
+WR	wepp-3638	"04:51 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	150	12	14	2	66	200	15	10	outunrut	ft
+WR	wepp-3659	"04:52 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	200	12	14	2	66	400	15	10	outunrut	ft
+WR	wepp-3680	"04:53 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	150	12	14	2	66	600	28	10	outunrut	ft
+WR	wepp-3728	"04:55 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	200	12	14	2	66	350	30	10	outunrut	ft
+WR	wepp-3748	"04:55 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	200	12	14	2	66	350	28	10	outunrut	ft
+WR	wepp-3771	"04:59 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	250	12	14	4	66	350	35	10	outunrut	ft
+WR	wepp-3838	"05:00 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	250	12	14	4	66	350	30	10	outunrut	ft
+WR	wepp-3864	"05:00 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	250	10	14	4	66	350	30	10	outunrut	ft
+WR	wepp-3884	"05:02 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	250	12	14	4	66	400	30	10	outunrut	ft
+WR	wepp-3904	"05:02 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	250	12	14	4	66	400	28	10	outunrut	ft
+WR	wepp-3923	"05:04 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	250	8	14	4	66	400	30	10	outunrut	ft
+WR	wepp-3943	"05:04 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	250	10	14	4	66	400	30	10	outunrut	ft
+WR	wepp-3989	"05:05 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	250	10	14	4	66	400	30	10	outunrut	ft
+WR	wepp-4009	"05:05 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	250	12	14	4	66	400	30	10	outunrut	ft
+WR	wepp-4055	"05:11 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	250	12	14	4	66	400	28	10	outunrut	ft
+WR	wepp-4080	"05:12 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	250	12	14	4	66	400	28	10	outunrut	ft
+WR	wepp-4101	"05:13 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	250	9	14	4	66	400	30	10	outunrut	ft
+WR	wepp-4121	"05:13 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	250	10	14	4	66	400	30	10	outunrut	ft
+WR	wepp-4141	"05:13 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	250	12	14	4	66	400	30	10	outunrut	ft
+WR	wepp-4162	"05:14 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	450	12	14	6	66	500	40	10	outunrut	ft
+WR	wepp-4182	"05:14 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	450	12	14	6	66	500	30	10	outunrut	ft
+WR	wepp-4202	"05:14 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	450	12	14	6	66	500	28	10	outunrut	ft
+WR	wepp-4269	"05:17 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	200	12	14	4	66	150	25	10	outunrut	ft
+WR	wepp-4289	"05:17 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	200	12	14	4	66	200	25	10	outunrut	ft
+WR	wepp-4309	"05:18 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	200	12	14	4	66	250	25	10	outunrut	ft
+WR	wepp-4328	"05:18 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	200	12	14	4	66	160	22	10	outunrut	ft
+WR	wepp-4375	"05:20 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	200	12	14	4	66	200	25	10	outunrut	ft
+WR	wepp-4394	"05:20 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	200	12	14	4	66	200	23	10	outunrut	ft
+WR	wepp-4414	"05:20 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	200	12	14	4	66	200	22	10	outunrut	ft
+WR	wepp-4435	"05:23 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	700	12	14	4	66	340	25	10	outunrut	ft
+WR	wepp-4455	"05:24 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	700	12	14	4	66	340	25	10	outunrut	ft
+WR	wepp-4503	"05:26 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	450	12	14	4	66	340	30	10	outunrut	ft
+WR	wepp-4523	"05:26 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	450	12	14	4	66	340	28	10	outunrut	ft
+WR	wepp-4546	"05:28 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	150	12	24	4	66	600	25	10	outunrut	ft
+WR	wepp-4612	"05:30 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	200	12	24	4	66	500	25	10	outunrut	ft
+WR	wepp-4632	"05:30 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	200	12	14	4	66	500	25	10	outunrut	ft
+WR	wepp-4653	"05:32 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	150	12	24	4	66	700	25	10	outunrut	ft
+WR	wepp-4673	"05:34 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	600	10	14	4	66	600	25	10	outunrut	ft
+WR	wepp-4724	"05:40 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	600	5	14	2	66	750	20	10	outunrut	ft
+WR	wepp-4770	"05:42 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	150	12	24	4	66	600	25	10	outunrut	ft
+WR	wepp-4865	"05:47 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	400	5	14	4	66	1000	25	10	outunrut	ft
+WR	wepp-4885	"05:47 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	400	5	14	2	66	1000	25	10	outunrut	ft
+WR	wepp-4905	"05:47 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	400	5	14	4	66	1000	25	10	outunrut	ft
+WR	wepp-4925	"05:48 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	400	5	14	4	66	1000	30	10	outunrut	ft
+WR	wepp-4945	"05:48 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	400	5	14	4	66	1000	28	10	outunrut	ft
+WR	wepp-4994	"05:51 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	850	5	14	4	66	1000	25	10	outunrut	ft
+WR	wepp-5049	"05:55 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	400	8	14	4	66	1000	23	10	outunrut	ft
+WR	wepp-5069	"05:55 pm  Tuesday December 27, 2011"	"MidBugsUnitC +"	30	silt	native	400	8	14	4	66	1000	23	10	outunrut	ft
+WR	wepp-16595	"10:44 am  Wednesday December 28, 2011"	"MidBugsUnitC +"	30	silt	native	150	10	14	2	66	400	15	10	inveg	ft
+WR	wepp-16615	"10:44 am  Wednesday December 28, 2011"	"MidBugsUnitC +"	30	silt	native	150	10	14	2	66	400	15	10	inbare	ft
+WR	wepp-16635	"10:44 am  Wednesday December 28, 2011"	"MidBugsUnitC +"	30	silt	native	150	10	14	2	66	400	15	10	outunrut	ft
+WR	wepp-16655	"10:44 am  Wednesday December 28, 2011"	"MidBugsUnitC +"	30	silt	native	150	8	14	2	66	400	15	10	outunrut	ft
+WR	wepp-16694	"10:45 am  Wednesday December 28, 2011"	"MidBugsUnitC +"	30	silt	native	150	8	14	2	66	500	15	10	outunrut	ft
+WR	wepp-16714	"10:45 am  Wednesday December 28, 2011"	"MidBugsUnitC +"	30	silt	native	150	8	14	2	66	400	15	10	outunrut	ft
+WR	wepp-16736	"10:46 am  Wednesday December 28, 2011"	"MidBugsUnitC +"	30	silt	native	150	8	14	2	66	400	15	10	outunrut	ft
+WR	wepp-16757	"10:47 am  Wednesday December 28, 2011"	"MidBugsUnitC +"	30	silt	native	200	8	14	2	66	500	22	10	outunrut	ft
+WR	wepp-16776	"10:47 am  Wednesday December 28, 2011"	"MidBugsUnitC +"	30	silt	native	200	10	14	2	66	500	22	10	outunrut	ft
+WR	wepp-17001	"11:10 am  Wednesday December 28, 2011"	"MidBugsUnitC +"	30	silt	native	160	10	14	10	66	400	40	10	outunrut	ft
+WR	wepp-17095	"11:15 am  Wednesday December 28, 2011"	"MidBugsUnitC +"	30	silt	native	160	10	14	10	66	400	30	10	outunrut	ft
+WR	wepp-17134	"11:15 am  Wednesday December 28, 2011"	"MidBugsUnitC +"	30	silt	native	160	10	14	10	66	800	30	10	outunrut	ft
+WR	wepp-17154	"11:16 am  Wednesday December 28, 2011"	"MidBugsUnitC +"	30	silt	native	160	10	14	10	66	800	30	10	outunrut	ft
+WR	wepp-17526	"11:31 am  Wednesday December 28, 2011"	"MidBugsUnitC +"	30	silt	native	160	10	14	4	66	800	30	10	outunrut	ft
+WR	wepp-17624	"11:33 am  Wednesday December 28, 2011"	"MidBugsUnitC +"	30	silt	native	300	10	14	4	66	800	25	10	outunrut	ft
+WR	wepp-17647	"11:36 am  Wednesday December 28, 2011"	"MidBugsUnitC +"	30	silt	native	300	10	14	4	66	700	28	10	outunrut	ft
+WR	wepp-17677	"11:36 am  Wednesday December 28, 2011"	"MidBugsUnitC +"	30	silt	native	300	10	14	4	66	1000	28	10	outunrut	ft
+WR	wepp-17785	"11:36 am  Wednesday December 28, 2011"	"MidBugsUnitC +"	30	silt	native	300	10	14	4	66	700	28	10	outunrut	ft
+WR	wepp-17882	"11:39 am  Wednesday December 28, 2011"	"MidBugsUnitC +"	30	silt	native	300	10	14	4	66	1000	28	10	outunrut	ft
+WR	wepp-18127	"11:45 am  Wednesday December 28, 2011"	"MidBugsUnitC +"	30	silt	native	400	8	14	4	66	1000	35	10	outunrut	ft
+WR	wepp-18154	"11:47 am  Wednesday December 28, 2011"	"MidBugsUnitC +"	30	silt	native	400	8	14	4	66	1000	30	10	outunrut	ft
+WR	wepp-18244	"11:48 am  Wednesday December 28, 2011"	"MidBugsUnitC +"	30	silt	native	400	10	14	4	66	1000	30	10	outunrut	ft
+WR	wepp-18264	"11:48 am  Wednesday December 28, 2011"	"MidBugsUnitC +"	30	silt	native	400	10	14	4	66	900	30	10	outunrut	ft
+WR	wepp-18286	"11:49 am  Wednesday December 28, 2011"	"MidBugsUnitC +"	30	silt	native	400	10	14	4	66	900	33	10	outunrut	ft
+WR	wepp-18306	"11:49 am  Wednesday December 28, 2011"	"MidBugsUnitC +"	30	silt	native	400	10	14	4	66	700	30	10	outunrut	ft
+WR	wepp-18376	"11:50 am  Wednesday December 28, 2011"	"MidBugsUnitC +"	30	silt	native	400	10	14	4	66	1000	30	10	outunrut	ft
+WR	wepp-18446	"11:51 am  Wednesday December 28, 2011"	"MidBugsUnitC +"	30	silt	native	400	10	14	4	66	500	35	10	outunrut	ft
+WR	wepp-18466	"11:51 am  Wednesday December 28, 2011"	"MidBugsUnitC +"	30	silt	native	400	10	14	4	66	300	35	10	outunrut	ft
+WR	wepp-18621	"11:55 am  Wednesday December 28, 2011"	"MidBugsUnitC +"	30	silt	native	400	10	14	4	66	250	40	10	outunrut	ft
+WR	wepp-18720	"11:59 am  Wednesday December 28, 2011"	"MidBugsUnitC +"	30	silt	native	400	10	14	6	66	1000	35	10	outunrut	ft
+WR	wepp-18740	"11:59 am  Wednesday December 28, 2011"	"MidBugsUnitC +"	30	silt	native	400	10	14	6	66	900	35	10	outunrut	ft
+WR	wepp-18779	"12:00 pm  Wednesday December 28, 2011"	"MidBugsUnitC +"	30	silt	native	400	10	14	4	66	900	35	10	outunrut	ft
+WR	wepp-18799	"12:00 pm  Wednesday December 28, 2011"	"MidBugsUnitC +"	30	silt	native	400	10	14	6	66	900	33	10	outunrut	ft
+WR	wepp-18869	"12:00 pm  Wednesday December 28, 2011"	"MidBugsUnitC +"	30	silt	native	400	8	14	6	66	900	33	10	outunrut	ft
+WR	wepp-18889	"12:01 pm  Wednesday December 28, 2011"	"MidBugsUnitC +"	30	silt	native	400	8	14	6	66	1000	33	10	outunrut	ft
+WR	wepp-18989	"12:04 pm  Wednesday December 28, 2011"	"MidBugsUnitC +"	30	silt	native	400	8	14	6	66	200	33	10	outunrut	ft
+WR	wepp-19009	"12:04 pm  Wednesday December 28, 2011"	"MidBugsUnitC +"	30	silt	native	400	8	14	6	66	200	32	10	outunrut	ft
+WR	wepp-19029	"12:04 pm  Wednesday December 28, 2011"	"MidBugsUnitC +"	30	silt	native	400	8	14	6	66	500	32	10	outunrut	ft
+WR	wepp-19049	"12:04 pm  Wednesday December 28, 2011"	"MidBugsUnitC +"	30	silt	native	400	10	14	6	66	500	32	10	outunrut	ft
+WR	wepp-19118	"12:05 pm  Wednesday December 28, 2011"	"MidBugsUnitC +"	30	silt	native	400	5	14	6	66	500	32	10	outunrut	ft
+WR	wepp-19138	"12:05 pm  Wednesday December 28, 2011"	"MidBugsUnitC +"	30	silt	native	400	10	14	6	66	500	30	10	outunrut	ft
+WR	wepp-19158	"12:06 pm  Wednesday December 28, 2011"	"MidBugsUnitC +"	30	silt	native	400	10	14	6	66	1000	35	10	outunrut	ft
+WR	wepp-19178	"12:07 pm  Wednesday December 28, 2011"	"MidBugsUnitC +"	30	silt	native	400	10	14	6	66	800	35	10	outunrut	ft
+WR	wepp-19203	"12:07 pm  Wednesday December 28, 2011"	"MidBugsUnitC +"	30	silt	native	400	10	14	6	66	800	40	10	outunrut	ft
+WR	wepp-19294	"12:08 pm  Wednesday December 28, 2011"	"MidBugsUnitC +"	30	silt	native	400	10	14	6	66	300	35	10	outunrut	ft
+WR	wepp-19314	"12:09 pm  Wednesday December 28, 2011"	"MidBugsUnitC +"	30	silt	native	400	10	14	6	66	300	30	10	outunrut	ft
+WR	wepp-19334	"12:09 pm  Wednesday December 28, 2011"	"MidBugsUnitC +"	30	silt	native	400	10	14	6	66	800	30	10	outunrut	ft
+WR	wepp-19354	"12:09 pm  Wednesday December 28, 2011"	"MidBugsUnitC +"	30	silt	native	400	10	14	6	66	800	32	10	outunrut	ft
+WR	wepp-19374	"12:09 pm  Wednesday December 28, 2011"	"MidBugsUnitC +"	30	silt	native	400	8	14	6	66	800	32	10	outunrut	ft
+WR	wepp-19409	"12:10 pm  Wednesday December 28, 2011"	"MidBugsUnitC +"	30	silt	native	400	8	14	6	66	900	32	10	outunrut	ft
+WR	wepp-19463	"12:10 pm  Wednesday December 28, 2011"	"MidBugsUnitC +"	30	silt	native	400	8	14	6	66	600	32	10	outunrut	ft
+WR	wepp-19482	"12:11 pm  Wednesday December 28, 2011"	"MidBugsUnitC +"	30	silt	native	400	8	14	6	66	600	35	10	outunrut	ft
+WR	wepp-19529	"12:14 pm  Wednesday December 28, 2011"	"MidBugsUnitC +"	30	silt	native	250	8	14	6	66	1000	35	10	outunrut	ft
+WR	wepp-19548	"12:14 pm  Wednesday December 28, 2011"	"MidBugsUnitC +"	30	silt	native	250	8	14	6	66	800	35	10	outunrut	ft
+WR	wepp-19595	"12:15 pm  Wednesday December 28, 2011"	"MidBugsUnitC +"	30	silt	native	250	8	14	6	66	900	35	10	outunrut	ft
+WR	wepp-19629	"12:15 pm  Wednesday December 28, 2011"	"MidBugsUnitC +"	30	silt	native	250	8	14	6	66	900	35	10	outunrut	ft
+WR	wepp-19883	"12:18 pm  Wednesday December 28, 2011"	"MidBugsUnitC +"	30	silt	native	250	8	14	6	66	900	35	10	inveg	ft
+WR	wepp-19915	"12:18 pm  Wednesday December 28, 2011"	"MidBugsUnitC +"	30	silt	native	250	8	14	6	66	900	35	10	outunrut	ft
+WR	wepp-19981	"12:18 pm  Wednesday December 28, 2011"	"MidBugsUnitC +"	30	silt	native	100	8	14	6	66	900	35	10	inveg	ft
+WR	wepp-20117	"12:19 pm  Wednesday December 28, 2011"	"MidBugsUnitC +"	30	silt	native	150	8	16	6	66	900	35	10	inbare	ft
+WR	wepp-20148	"12:19 pm  Wednesday December 28, 2011"	"MidBugsUnitC +"	30	silt	native	150	8	16	6	66	900	35	10	inveg	ft
+WR	wepp-20181	"12:19 pm  Wednesday December 28, 2011"	"MidBugsUnitC +"	30	silt	native	250	8	16	6	66	900	35	10	inveg	ft
+WR	wepp-20215	"12:19 pm  Wednesday December 28, 2011"	"MidBugsUnitC +"	30	silt	native	250	8	14	6	66	900	35	10	inveg	ft
+WR	wepp-20363	"12:21 pm  Wednesday December 28, 2011"	"MidBugsUnitC +"	30	silt	native	250	10	14	6	66	300	35	10	outunrut	ft
+WR	wepp-20398	"12:21 pm  Wednesday December 28, 2011"	"MidBugsUnitC +"	30	silt	native	250	10	14	6	66	1000	35	10	outunrut	ft
+WR	wepp-20626	"12:23 pm  Wednesday December 28, 2011"	"MidBugsUnitC +"	30	silt	native	250	5	14	6	66	1000	35	10	outunrut	ft
+WR	wepp-20695	"12:23 pm  Wednesday December 28, 2011"	"MidBugsUnitC +"	30	silt	native	250	10	14	6	66	500	35	10	outunrut	ft
+WR	wepp-20901	"12:25 pm  Wednesday December 28, 2011"	"MidBugsUnitC +"	30	silt	native	250	10	14	6	66	300	30	10	outunrut	ft
+WR	wepp-21019	"12:26 pm  Wednesday December 28, 2011"	"MidBugsUnitC +"	30	silt	native	250	10	14	6	66	300	32	10	outunrut	ft
+WR	wepp-21058	"12:26 pm  Wednesday December 28, 2011"	"MidBugsUnitC +"	30	silt	native	250	10	14	6	66	300	35	10	outunrut	ft
+WR	wepp-21099	"12:27 pm  Wednesday December 28, 2011"	"MidBugsUnitC +"	30	silt	native	250	10	14	6	66	400	35	10	outunrut	ft
+WR	wepp-21133	"12:27 pm  Wednesday December 28, 2011"	"MidBugsUnitC +"	30	silt	native	250	10	14	6	66	300	35	10	outunrut	ft
+WR	wepp-21195	"12:27 pm  Wednesday December 28, 2011"	"MidBugsUnitC +"	30	silt	native	250	10	14	6	66	300	35	10	outunrut	ft
+WR	wepp-21385	"12:29 pm  Wednesday December 28, 2011"	"MidBugsUnitC +"	30	silt	native	300	10	14	4	66	700	28	10	outunrut	ft
+WR	wepp-21648	"12:31 pm  Wednesday December 28, 2011"	"MidBugsUnitC +"	30	silt	native	250	8	14	4	66	300	35	10	outunrut	ft
+WR	wepp-21681	"12:31 pm  Wednesday December 28, 2011"	"MidBugsUnitC +"	30	silt	native	250	8	14	4	66	300	32	10	outunrut	ft
+WR	wepp-21714	"12:31 pm  Wednesday December 28, 2011"	"MidBugsUnitC +"	30	silt	native	250	8	14	4	66	300	35	10	outunrut	ft
+WR	wepp-22071	"12:35 pm  Wednesday December 28, 2011"	"MidBugsUnitC +"	30	silt	native	400	8	14	4	66	500	30	20	inveg	ft
+WR	wepp-22101	"12:35 pm  Wednesday December 28, 2011"	"MidBugsUnitC +"	30	silt	native	400	8	14	4	66	500	30	20	outunrut	ft
+WR	wepp-22784	"12:41 pm  Wednesday December 28, 2011"	"MidBugsUnitC +"	30	silt	native	150	10	14	4	66	400	28	20	outunrut	ft
+WR	wepp-22820	"12:41 pm  Wednesday December 28, 2011"	"MidBugsUnitC +"	30	silt	native	150	10	14	4	66	400	30	20	outunrut	ft
+WR	wepp-22854	"12:41 pm  Wednesday December 28, 2011"	"MidBugsUnitC +"	30	silt	native	150	10	14	4	66	400	28	20	outunrut	ft
+WR	wepp-24973	"01:01 pm  Wednesday December 28, 2011"	"MidBugsUnitC +"	30	silt	native	150	5	14	2	66	300	15	20	outunrut	ft
+WR	wepp-25223	"01:03 pm  Wednesday December 28, 2011"	"MidBugsUnitC +"	30	silt	native	100	5	14	2	66	150	15	20	outunrut	ft
+WR	wepp-25405	"01:05 pm  Wednesday December 28, 2011"	"MidBugsUnitC +"	30	silt	native	100	5	14	2	66	125	15	20	outunrut	ft
+WR	wepp-25757	"01:08 pm  Wednesday December 28, 2011"	"MidBugsUnitC +"	30	silt	native	125	5	14	2	66	125	20	20	outunrut	ft
+WD	wepp-27029	"01:23 pm  Wednesday December 28, 2011"	"MidBugsUnitC +"	10	silt	LowFire	50	30	35	85	10	LowFire	50	35	5	85	10	0	ft	""
+WD	wepp-27113	"01:24 pm  Wednesday December 28, 2011"	"MidBugsUnitC +"	10	silt	Skid	50	30	35	10	10	Skid	50	35	5	10	10	0	ft	""
+WD	wepp-27169	"01:24 pm  Wednesday December 28, 2011"	"MidBugsUnitC +"	10	silt	LowFire	1000	30	35	85	10	LowFire	1000	35	5	85	10	0	ft	""
+WD	wepp-27247	"01:25 pm  Wednesday December 28, 2011"	"MidBugsUnitC +"	10	silt	LowFire	500	30	35	85	10	LowFire	500	35	5	85	10	0	ft	""
+WD	wepp-27297	"01:25 pm  Wednesday December 28, 2011"	"TROUT CREEK RS MT 38.83+ +"	10	silt	LowFire	500	30	35	85	10	LowFire	500	35	5	85	10	0	ft	""
+WD	wepp-27338	"01:25 pm  Wednesday December 28, 2011"	"SEELEY LAKE RS MT 22.55 +"	10	silt	LowFire	500	30	35	85	10	LowFire	500	35	5	85	10	0	ft	""
+WD	wepp-27390	"01:26 pm  Wednesday December 28, 2011"	"MidBugsUnitC +"	10	silt	LowFire	250	30	35	85	10	LowFire	250	35	5	85	10	0	ft	""
+WD	wepp-27430	"01:26 pm  Wednesday December 28, 2011"	"MidBugsUnitC +"	10	silt	OldForest	250	30	35	100	10	OldForest	250	35	5	100	10	0	ft	""
+WD	wepp-27484	"01:26 pm  Wednesday December 28, 2011"	"MidBugsUnitC +"	10	silt	OldForest	500	30	35	100	10	OldForest	500	35	5	100	10	0	ft	""
+WD	wepp-27533	"01:27 pm  Wednesday December 28, 2011"	"MidBugsUnitC +"	10	silt	OldForest	500	30	30	100	10	OldForest	500	30	5	100	10	0	ft	""
+WD	wepp-27574	"01:27 pm  Wednesday December 28, 2011"	"MidBugsUnitC +"	10	silt	OldForest	500	25	25	100	10	OldForest	500	25	5	100	10	0	ft	""
+WD	wepp-27612	"01:27 pm  Wednesday December 28, 2011"	"MidBugsUnitC +"	10	silt	OldForest	500	20	20	100	10	OldForest	500	20	5	100	10	0	ft	""
+WD	wepp-27654	"01:28 pm  Wednesday December 28, 2011"	"MidBugsUnitC +"	10	silt	OldForest	500	10	10	100	10	OldForest	500	10	10	100	10	0	ft	""
+WD	wepp-27722	"01:28 pm  Wednesday December 28, 2011"	"MidBugsUnitC +"	10	silt	OldForest	150	20	20	100	10	OldForest	150	20	20	100	10	0	ft	""
+WD	wepp-27791	"01:28 pm  Wednesday December 28, 2011"	"MidBugsUnitC +"	10	silt	OldForest	150	25	25	100	10	OldForest	150	25	25	100	10	0	ft	""
+WD	wepp-27833	"01:29 pm  Wednesday December 28, 2011"	"MidBugsUnitC +"	10	silt	OldForest	150	30	30	100	10	OldForest	150	30	30	100	10	0	ft	""
+WD	wepp-16472	"02:35 pm  Tuesday January 3, 2012"	"MidBugsUnitC +"	10	silt	LowFire	50	5	25	85	10	OldForest	50	25	5	100	10	0	ft	""
+WD	wepp-16494	"02:39 pm  Tuesday January 3, 2012"	"MidBugsUnitC +"	10	silt	LowFire	150	5	25	85	10	OldForest	150	25	5	100	10	0	ft	""
+WD	wepp-16514	"02:39 pm  Tuesday January 3, 2012"	"MidBugsUnitC +"	30	silt	LowFire	150	5	25	85	10	OldForest	150	25	5	100	10	0	ft	""
+WD	wepp-16535	"02:39 pm  Tuesday January 3, 2012"	"MidBugsUnitC +"	30	silt	Skid	150	5	25	10	10	OldForest	150	25	5	100	10	0	ft	""
+WD	wepp-16585	"02:40 pm  Tuesday January 3, 2012"	"FENN RS ID +"	30	silt	LowFire	150	5	25	85	10	OldForest	150	25	5	100	10	0	ft	""
+WD	wepp-16605	"02:41 pm  Tuesday January 3, 2012"	"FENN RS ID +"	30	silt	LowFire	150	5	25	85	10	OldForest	300	25	5	100	10	0	ft	""
+WD	wepp-16625	"02:41 pm  Tuesday January 3, 2012"	"FENN RS ID +"	30	silt	LowFire	150	5	25	85	10	YoungForest	300	25	5	100	10	0	ft	""
+WD	wepp-16645	"02:41 pm  Tuesday January 3, 2012"	"MidBugsUnitC +"	30	silt	LowFire	150	5	25	85	10	YoungForest	300	25	5	100	10	0	ft	""
+WD	wepp-16694	"02:43 pm  Tuesday January 3, 2012"	"MidBugsUnitC +"	30	silt	LowFire	900	1	30	85	10	OldForest	150	30	5	100	10	0	ft	""
+WD	wepp-16713	"02:44 pm  Tuesday January 3, 2012"	"MidBugsUnitC +"	30	silt	OldForest	900	1	30	100	10	OldForest	150	30	5	100	10	0	ft	""
+WD	wepp-16782	"02:45 pm  Tuesday January 3, 2012"	"MidBugsUnitC +"	30	silt	OldForest	900	1	30	100	5	OldForest	150	30	5	100	5	0	ft	""
+WD	wepp-16802	"02:45 pm  Tuesday January 3, 2012"	"FENN RS ID +"	30	silt	OldForest	900	1	30	100	5	OldForest	150	30	5	100	5	0	ft	""
+WD	wepp-16886	"02:49 pm  Tuesday January 3, 2012"	"FENN RS ID +"	30	silt	LowFire	500	5	30	85	1	YoungForest	150	30	5	100	1	0	ft	""
+WD	wepp-16933	"02:50 pm  Tuesday January 3, 2012"	"SEELEY LAKE RS MT 22.55 +"	30	silt	LowFire	500	5	30	85	1	YoungForest	150	30	5	100	1	0	ft	""
+WD	wepp-16989	"02:55 pm  Tuesday January 3, 2012"	"AndreTest +"	30	silt	OldForest	500	5	20	100	1	OldForest	150	20	5	100	1	0	ft	""
+WD	wepp-17009	"02:56 pm  Tuesday January 3, 2012"	"AndreTest +"	30	silt	LowFire	500	5	20	85	1	YoungForest	150	20	5	100	1	0	ft	""
+WD	wepp-17040	"02:58 pm  Tuesday January 3, 2012"	"MiddleBugs4500ft_Rd103 +"	10	silt	LowFire	500	5	20	85	1	OldForest	150	20	5	100	1	0	ft	""
+WD	wepp-17060	"02:59 pm  Tuesday January 3, 2012"	"andreTestNoLapse +"	10	silt	LowFire	500	5	20	85	1	OldForest	150	20	5	100	1	0	ft	""
+WD	wepp-17125	"03:01 pm  Tuesday January 3, 2012"	"andreTestNoLapse +"	30	silt	LowFire	500	5	20	85	1	OldForest	150	20	5	100	1	0	ft	""
+WD	wepp-17147	"03:04 pm  Tuesday January 3, 2012"	"andreTestNoLapse +"	30	silt	OldForest	500	5	20	100	1	OldForest	150	20	5	100	1	0	ft	""
+WD	wepp-17167	"03:04 pm  Tuesday January 3, 2012"	"MidBugsUnitC +"	30	silt	OldForest	150	5	20	100	1	OldForest	150	20	5	100	1	0	ft	""
+WD	wepp-17189	"03:05 pm  Tuesday January 3, 2012"	"MidBugsUnitC +"	30	silt	LowFire	150	5	20	85	1	OldForest	150	20	5	100	1	0	ft	""
+WD	wepp-17234	"03:05 pm  Tuesday January 3, 2012"	"MidBugsUnitC +"	30	silt	LowFire	150	5	20	85	1	OldForest	300	20	5	100	1	0	ft	""
+WD	wepp-17254	"03:05 pm  Tuesday January 3, 2012"	"MidBugsUnitC +"	30	silt	LowFire	300	5	20	85	1	OldForest	300	20	5	100	1	0	ft	""
+WD	wepp-17274	"03:05 pm  Tuesday January 3, 2012"	"MidBugsUnitC +"	30	silt	LowFire	100	5	20	85	1	OldForest	500	20	5	100	1	0	ft	""
+WD	wepp-17293	"03:06 pm  Tuesday January 3, 2012"	"MidBugsUnitC +"	30	silt	LowFire	100	5	20	85	1	OldForest	1000	20	5	100	1	0	ft	""
+WD	wepp-17313	"03:07 pm  Tuesday January 3, 2012"	"MidBugsUnitC +"	30	silt	LowFire	300	5	30	85	1	OldForest	150	30	5	100	1	0	ft	""
+WD	wepp-17333	"03:07 pm  Tuesday January 3, 2012"	"MidBugsUnitC +"	30	silt	OldForest	300	5	30	100	1	OldForest	150	30	5	100	1	0	ft	""
+WD	wepp-17353	"03:08 pm  Tuesday January 3, 2012"	"MidBugsUnitC +"	30	silt	OldForest	300	5	30	100	1	OldForest	300	30	5	100	1	0	ft	""
+WD	wepp-17373	"03:09 pm  Tuesday January 3, 2012"	"MidBugsUnitC +"	30	silt	LowFire	300	5	30	85	1	OldForest	300	30	5	100	1	0	ft	""
+WD	wepp-17508	"03:22 pm  Tuesday January 3, 2012"	"MidBugsUnitC +"	20	silt	OldForest	150	5	30	100	5	OldForest	150	30	5	100	5	0	ft	"30Forest"
+WD	wepp-17528	"03:22 pm  Tuesday January 3, 2012"	"MidBugsUnitC +"	20	silt	LowFire	150	5	30	100	5	OldForest	150	30	5	100	5	0	ft	"30Regen"
+WD	wepp-17611	"03:30 pm  Tuesday January 3, 2012"	"MidBugsUnitC +"	30	silt	OldForest	150	5	30	100	5	OldForest	150	30	5	100	5	0	ft	"30Forest"
+WD	wepp-17630	"03:30 pm  Tuesday January 3, 2012"	"MidBugsUnitC +"	30	silt	LowFire	150	5	30	100	5	OldForest	150	30	5	100	5	0	ft	"30Regen"
+WD	wepp-17637	"03:30 pm  Tuesday January 3, 2012"	"MidBugsUnitC +"	30	silt	OldForest	150	5	20	100	5	OldForest	150	20	5	100	5	0	ft	"20Regen"
+WD	wepp-17644	"03:30 pm  Tuesday January 3, 2012"	"MidBugsUnitC +"	30	silt	LowFire	150	5	20	100	5	OldForest	150	20	5	100	5	0	ft	"20Regen"
+WD	wepp-17738	"03:42 pm  Tuesday January 3, 2012"	"FENN RS ID +"	30	silt	OldForest	150	5	30	100	5	OldForest	150	30	5	100	5	0	ft	"30Forest"
+WD	wepp-17760	"03:42 pm  Tuesday January 3, 2012"	"FENN RS ID +"	30	silt	LowFire	150	5	30	100	5	OldForest	150	30	5	100	5	0	ft	"30Regen"
+WD	wepp-17767	"03:42 pm  Tuesday January 3, 2012"	"FENN RS ID +"	30	silt	OldForest	150	5	20	100	5	OldForest	150	20	5	100	5	0	ft	"20Regen"
+WD	wepp-17774	"03:42 pm  Tuesday January 3, 2012"	"FENN RS ID +"	30	silt	LowFire	150	5	20	100	5	OldForest	150	20	5	100	5	0	ft	"20Regen"
+WD	wepp-17855	"03:45 pm  Tuesday January 3, 2012"	"FENN RS ID +"	30	silt	OldForest	150	1	30	100	5	OldForest	300	30	5	100	5	0	ft	"30Forest"
+WD	wepp-17875	"03:45 pm  Tuesday January 3, 2012"	"FENN RS ID +"	30	silt	LowFire	150	1	30	100	5	OldForest	300	30	5	100	5	0	ft	"30Regen"
+WD	wepp-17882	"03:45 pm  Tuesday January 3, 2012"	"FENN RS ID +"	30	silt	OldForest	150	1	20	100	5	OldForest	300	20	5	100	5	0	ft	"20Regen"
+WD	wepp-17889	"03:45 pm  Tuesday January 3, 2012"	"FENN RS ID +"	30	silt	LowFire	150	1	20	100	5	OldForest	300	20	5	100	5	0	ft	"20Regen"
+WD	wepp-17910	"03:48 pm  Tuesday January 3, 2012"	"MidBugsUnitC +"	30	silt	OldForest	150	1	30	100	5	OldForest	300	30	5	100	5	0	ft	"30Forest"
+WD	wepp-17930	"03:48 pm  Tuesday January 3, 2012"	"MidBugsUnitC +"	30	silt	LowFire	150	1	30	100	5	OldForest	300	30	5	100	5	0	ft	"30Regen"
+WD	wepp-17937	"03:48 pm  Tuesday January 3, 2012"	"MidBugsUnitC +"	30	silt	OldForest	150	1	20	100	5	OldForest	300	20	5	100	5	0	ft	"20Regen"
+WD	wepp-17944	"03:48 pm  Tuesday January 3, 2012"	"MidBugsUnitC +"	30	silt	LowFire	150	1	20	100	5	OldForest	300	20	5	100	5	0	ft	"20Regen"
+WD	wepp-17979	"03:51 pm  Tuesday January 3, 2012"	"MidBugsUnitC +"	30	silt	OldForest	150	1	30	100	5	OldForest	300	30	5	100	5	0	ft	"30Forest"
+WD	wepp-17999	"03:51 pm  Tuesday January 3, 2012"	"MidBugsUnitC +"	30	silt	LowFire	150	1	30	100	5	OldForest	300	30	5	100	5	0	ft	"30Regen"
+WD	wepp-18006	"03:51 pm  Tuesday January 3, 2012"	"MidBugsUnitC +"	30	silt	OldForest	150	1	20	100	5	OldForest	300	20	5	100	5	0	ft	"20Regen"
+WD	wepp-18013	"03:51 pm  Tuesday January 3, 2012"	"MidBugsUnitC +"	30	silt	LowFire	150	1	20	100	5	OldForest	300	20	5	100	5	0	ft	"20Regen"
+WD	wepp-18020	"03:51 pm  Tuesday January 3, 2012"	"MidBugsUnitC +"	30	silt	LowFire	150	1	20	100	5	OldForest	300	20	5	100	5	0	ft	"20Regen"
+WD	wepp-29968	"02:19 pm  Friday January 6, 2012"	"MidBugsUnitC +"	30	silt	OldForest	150	0	30	100	5	OldForest	50	30	5	100	5	0	ft	""
+WD	wepp-29987	"02:20 pm  Friday January 6, 2012"	"MidBugsUnitC +"	30	silt	OldForest	150	0	30	100	5	OldForest	150	30	5	100	5	0	ft	""
+WD	wepp-30007	"02:20 pm  Friday January 6, 2012"	"MidBugsUnitC +"	30	silt	LowFire	150	0	30	85	5	OldForest	150	30	5	100	5	0	ft	""
+WD	wepp-30027	"02:20 pm  Friday January 6, 2012"	"MidBugsUnitC +"	30	silt	OldForest	150	0	40	100	5	OldForest	150	40	5	100	5	0	ft	""
+WD	wepp-30047	"02:21 pm  Friday January 6, 2012"	"MidBugsUnitC +"	30	silt	LowFire	150	0	40	85	5	OldForest	300	40	5	100	5	0	ft	""
+WD	wepp-30067	"02:22 pm  Friday January 6, 2012"	"MidBugsUnitC +"	30	silt	OldForest	150	0	40	100	5	OldForest	300	40	5	100	5	0	ft	""
+WD	wepp-30087	"02:22 pm  Friday January 6, 2012"	"MidBugsUnitC +"	30	silt	OldForest	150	0	20	100	5	OldForest	300	20	5	100	5	0	ft	""
+WD	wepp-30133	"02:23 pm  Friday January 6, 2012"	"SEELEY LAKE RS MT 22.55 +"	30	silt	OldForest	150	0	20	100	5	OldForest	300	20	5	100	5	0	ft	""
+WD	wepp-30153	"02:23 pm  Friday January 6, 2012"	"AndreTest +"	30	silt	OldForest	150	0	20	100	5	OldForest	300	20	5	100	5	0	ft	""
+WD	wepp-30173	"02:23 pm  Friday January 6, 2012"	"AndreTest +"	30	silt	LowFire	150	0	20	85	5	OldForest	300	20	5	100	5	0	ft	""
+WD	wepp-30193	"02:23 pm  Friday January 6, 2012"	"MiddleBugs4500ft_Rd103 +"	30	silt	LowFire	150	0	20	85	5	OldForest	300	20	5	100	5	0	ft	""
+WD	wepp-30213	"02:24 pm  Friday January 6, 2012"	"TROUT CREEK RS MT 38.83+ +"	30	silt	LowFire	150	0	20	85	5	OldForest	300	20	5	100	5	0	ft	""
+WD	wepp-30233	"02:24 pm  Friday January 6, 2012"	"andreTestNoLapse +"	30	silt	LowFire	150	0	20	85	5	OldForest	300	20	5	100	5	0	ft	""
+WD	wepp-30253	"02:24 pm  Friday January 6, 2012"	"andreTestNoLapse +"	30	silt	LowFire	150	0	40	85	5	OldForest	150	40	5	100	5	0	ft	""
+WD	wepp-30272	"02:25 pm  Friday January 6, 2012"	"MidBugsUnitC +"	30	silt	LowFire	150	0	40	85	5	OldForest	150	40	5	100	5	0	ft	""
+WD	wepp-8346	"08:08 am  Wednesday January 11, 2012"	"MidBugsUnitC +"	10	silt	OldForest	150	0	30	100	5	OldForest	150	30	5	100	5	0	ft	""
+WD	wepp-8366	"08:08 am  Wednesday January 11, 2012"	"MidBugsUnitC +"	50	silt	OldForest	150	0	30	100	5	OldForest	150	30	5	100	5	0	ft	""
+WD	wepp-8386	"08:09 am  Wednesday January 11, 2012"	"MidBugsUnitC +"	30	silt	OldForest	150	0	30	100	5	OldForest	150	30	5	100	5	0	ft	""
+WD	wepp-8406	"08:09 am  Wednesday January 11, 2012"	"MidBugsUnitC +"	30	silt	OldForest	150	0	35	100	5	OldForest	150	35	5	100	5	0	ft	""
+WD	wepp-8427	"08:11 am  Wednesday January 11, 2012"	"MidBugsUnitC +"	30	silt	OldForest	150	0	30	85	5	OldForest	150	30	5	85	5	0	ft	""
+WD	wepp-8509	"08:12 am  Wednesday January 11, 2012"	"MidBugsUnitC +"	30	silt	OldForest	150	0	30	85	5	OldForest	300	30	5	85	5	0	ft	""
+WD	wepp-8558	"08:13 am  Wednesday January 11, 2012"	"TROUT CREEK RS MT 38.83+ +"	30	silt	OldForest	150	0	30	85	5	OldForest	300	30	5	85	5	0	ft	""
+WD	wepp-8627	"08:13 am  Wednesday January 11, 2012"	"TROUT CREEK RS MT 38.83+ +"	30	silt	OldForest	150	0	30	85	5	OldForest	150	30	5	85	5	0	ft	""
+WD	wepp-8682	"08:14 am  Wednesday January 11, 2012"	"MidBugsUnitC +"	30	silt	OldForest	150	0	35	100	5	OldForest	300	35	5	100	5	0	ft	""
+WD	wepp-8752	"08:14 am  Wednesday January 11, 2012"	"AndreTest +"	30	silt	OldForest	150	0	35	100	5	OldForest	300	35	5	100	5	0	ft	""
+WD	wepp-18219	"10:15 am  Wednesday January 11, 2012"	"MidBugsUnitC +"	30	silt	OldForest	150	0	35	100	5	OldForest	150	35	5	100	5	0	ft	""
+WD	wepp-18296	"10:16 am  Wednesday January 11, 2012"	"MidBugsUnitC +"	30	silt	LowFire	150	0	35	85	5	LowFire	150	35	5	85	5	0	ft	""
+WD	wepp-18615	"10:19 am  Wednesday January 11, 2012"	"MidBugsUnitC +"	30	silt	LowFire	150	0	35	85	5	LowFire	150	35	5	85	5	0	ft	""
+WD	wepp-18662	"10:19 am  Wednesday January 11, 2012"	"MidBugsUnitC +"	30	silt	OldForest	150	0	35	100	5	OldForest	150	35	5	100	5	0	ft	""
+WD	wepp-18786	"10:20 am  Wednesday January 11, 2012"	"MOSCOW U OF I ID"	30	silt	LowFire	150	0	35	85	5	LowFire	150	35	5	85	5	0	ft	""
+WD	wepp-2112	"03:11 pm  Wednesday January 11, 2012"	"MidBugsUnitC +"	30	silt	LowFire	150	0	30	85	5	OldForest	150	30	5	100	5	0	ft	""
+WR	wepp-26742	"10:11 am  Tuesday January 17, 2012"	"MidBugsUnitCWetDay +"	30	silt	native	350	12	14	10	66	600	25	5	outunrut	ft
+WR	wepp-26817	"10:12 am  Tuesday January 17, 2012"	"MidBugsUnitC +"	30	silt	native	350	12	14	10	66	600	25	5	outunrut	ft
+WR	wepp-26838	"10:13 am  Tuesday January 17, 2012"	"MidBugsUnitC +"	30	silt	native	350	12	14	10	66	600	25	10	outunrut	ft
+WR	wepp-26858	"10:13 am  Tuesday January 17, 2012"	"MidBugsUnitCWetDay +"	30	silt	native	350	12	14	10	66	600	25	10	outunrut	ft
+WR	wepp-10002	"09:13 am  Wednesday January 18, 2012"	"MidBugsUnitC +"	30	silt	graveled	200	4	16	15	66	300	25	20	inveg	ft
+WR	wepp-10022	"09:13 am  Wednesday January 18, 2012"	"MidBugsUnitC +"	30	silt	graveled	200	4	16	15	66	300	25	5	inveg	ft
+WR	wepp-10041	"09:14 am  Wednesday January 18, 2012"	"MidBugsUnitC +"	30	silt	graveled	200	4	16	15	66	300	25	5	inveg	ft
+WR	wepp-10061	"09:14 am  Wednesday January 18, 2012"	"MidBugsUnitC +"	30	silt	graveled	200	4	16	15	66	300	25	5	inveg	ft
+WR	wepp-10081	"09:15 am  Wednesday January 18, 2012"	"MidBugsUnitC +"	30	silt	graveled	200	4	16	15	66	300	25	5	outunrut	ft
+WR	wepp-10120	"09:15 am  Wednesday January 18, 2012"	"MidBugsUnitC +"	30	silt	graveled	200	4	16	15	66	300	25	5	outunrut	ft
+WR	wepp-10147	"09:15 am  Wednesday January 18, 2012"	"MidBugsUnitC +"	30	silt	graveled	200	4	16	15	66	150	25	5	outunrut	ft
+WR	wepp-10168	"09:16 am  Wednesday January 18, 2012"	"MidBugsUnitC +"	30	silt	graveled	200	4	8	15	66	40	25	5	inveg	ft
+WR	wepp-10188	"09:16 am  Wednesday January 18, 2012"	"MidBugsUnitC +"	30	silt	graveled	200	4	8	15	66	40	25	5	inveg	ft
+WR	wepp-10208	"09:16 am  Wednesday January 18, 2012"	"MidBugsUnitC +"	30	silt	graveled	200	4	8	15	66	40	25	5	inveg	ft
+WR	wepp-10279	"09:20 am  Wednesday January 18, 2012"	"MidBugsUnitC +"	30	silt	graveled	200	4	8	10	66	150	25	5	outunrut	ft
+WR	wepp-10299	"09:20 am  Wednesday January 18, 2012"	"MidBugsUnitC +"	30	silt	graveled	200	4	8	10	66	150	25	5	outunrut	ft
+WR	wepp-10319	"09:21 am  Wednesday January 18, 2012"	"MidBugsUnitC +"	30	silt	graveled	200	4	8	10	66	50	25	5	inveg	ft
+WR	wepp-10339	"09:21 am  Wednesday January 18, 2012"	"MidBugsUnitC +"	30	silt	graveled	200	4	8	10	66	50	25	5	inveg	ft
+WR	wepp-10389	"09:24 am  Wednesday January 18, 2012"	"MidBugsUnitC +"	30	silt	graveled	1000	4	8	10	66	50	25	5	inveg	ft
+WR	wepp-10409	"09:24 am  Wednesday January 18, 2012"	"MidBugsUnitC +"	30	silt	graveled	200	4	8	10	66	50	25	5	inveg	ft
+WR	wepp-10429	"09:25 am  Wednesday January 18, 2012"	"MidBugsUnitCWetDay +"	30	silt	graveled	200	4	8	10	66	50	25	5	inveg	ft
+WR	wepp-10449	"09:25 am  Wednesday January 18, 2012"	"MidBugsUnitC +"	30	silt	graveled	200	4	8	10	66	200	25	5	outunrut	ft
+WR	wepp-10469	"09:25 am  Wednesday January 18, 2012"	"MidBugsUnitC +"	30	silt	graveled	200	4	8	10	66	200	25	5	outunrut	ft
+WR	wepp-4315	"05:36 pm  Tuesday January 24, 2012"	"MidBugsUnitC +"	30	silt	native	150	5	14	2	66	300	15	10	outunrut	ft
+WR	wepp-4337	"05:38 pm  Tuesday January 24, 2012"	"MidBugsUnitC +"	30	silt	native	100	5	14	2	66	150	15	10	outunrut	ft
+WR	wepp-4384	"05:39 pm  Tuesday January 24, 2012"	"MidBugsUnitC +"	30	silt	native	100	5	14	2	66	125	15	10	outunrut	ft
+WR	wepp-4403	"05:40 pm  Tuesday January 24, 2012"	"MidBugsUnitC +"	30	silt	native	125	5	14	2	66	125	20	10	outunrut	ft
+WR	wepp-4423	"05:40 pm  Tuesday January 24, 2012"	"MidBugsUnitC +"	30	silt	native	400	8	14	4	66	500	30	10	outunrut	ft
+WR	wepp-4442	"05:42 pm  Tuesday January 24, 2012"	"MidBugsUnitC +"	30	silt	native	150	10	14	4	66	400	28	10	outunrut	ft
+WR	wepp-4462	"05:42 pm  Tuesday January 24, 2012"	"MidBugsUnitC +"	30	silt	native	150	10	14	4	66	400	30	10	outunrut	ft
+WR	wepp-4482	"05:42 pm  Tuesday January 24, 2012"	"MidBugsUnitC +"	30	silt	native	150	10	14	4	66	400	28	10	outunrut	ft
+WR	wepp-13041	"08:25 am  Wednesday January 25, 2012"	"MidBugsUnitC +"	30	silt	native	350	12	14	10	66	150	25	10	outunrut	ft
+WR	wepp-13097	"08:28 am  Wednesday January 25, 2012"	"MidBugsUnitC +"	30	silt	native	350	12	14	10	66	150	25	10	outunrut	ft
+WR	wepp-13205	"08:36 am  Wednesday January 25, 2012"	"MidBugsUnitC +"	30	silt	native	150	12	14	10	66	200	25	10	outunrut	ft
+WR	wepp-3949	"09:53 am  Thursday February 2, 2012"	"MidBugsUnitC +"	30	silt	native	350	12	14	10	50	200	25	10	outunrut	ft
+WR	wepp-4016	"09:53 am  Thursday February 2, 2012"	"MidBugsUnitC +"	30	silt	native	350	12	14	10	66	200	25	10	outunrut	ft
+WR	wepp-4036	"09:54 am  Thursday February 2, 2012"	"MidBugsUnitC +"	30	silt	native	350	12	14	10	66	200	25	10	outunrut	ft
+WR	wepp-4076	"09:55 am  Thursday February 2, 2012"	"MidBugsUnitC +"	30	silt	native	150	12	14	10	66	200	25	10	outunrut	ft
+WR	wepp-25384	"10:37 am  Monday February 27, 2012"	"MidBugsUnitC +"	30	clay	native	500	12	14	2	66	350	25	10	outunrut	ft
+WR	wepp-25405	"10:38 am  Monday February 27, 2012"	"MidBugsUnitC +"	30	silt	native	500	12	14	2	66	350	25	10	outunrut	ft
+WR	wepp-25575	"10:40 am  Monday February 27, 2012"	"MidBugsUnitC +"	30	silt	native	450	12	14	2	66	350	25	10	outunrut	ft

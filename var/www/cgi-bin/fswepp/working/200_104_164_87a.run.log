@@ -1,0 +1,5 @@
+wt	wepp-23301	"Nov 18, 2010"	""	granitic	OldForest	0	30	50	100	20	YoungForest	30	5	50	100	20	m	""
+wt	wepp-23327	"Nov 18, 2010"	"Drier Valdivia +"	granitic	OldForest	0	30	50	100	20	YoungForest	30	5	50	100	20	m	""
+wt	wepp-26643	"Nov 18, 2010"	"Rio Rana Cuenca +"	granitic	Sod	20	30	350	80	0	OldForest	40	20	50	100	0	ft	""
+wt	wepp-26667	"Nov 18, 2010"	"Rio Rana Cuenca +"	alluvial	Sod	20	30	235	80	0	YoungForest	40	20	15	100	0	m	""
+wt	wepp-26687	"Nov 18, 2010"	"Rio Rana Cuenca +"	alluvial	Bunchgrass	30	30	9	30	0	Shrub	40	20	3	100	0	m	""

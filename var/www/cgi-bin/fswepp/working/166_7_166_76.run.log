@@ -1,0 +1,96 @@
+WE	wepp-13398	"02:19 pm  Friday October 19, 2012"	"MOSCOW U OF I ID"	sand	20	forest	0	50	30	300	l			ft
+WE	wepp-13450	"02:20 pm  Friday October 19, 2012"	"BIRMINGHAM WB AP AL"	loam	5	forest	10	55	30	700	l			ft
+WE	wepp-13554	"02:22 pm  Friday October 19, 2012"	"FENN RS ID +"	loam	5	forest	10	55	30	700	l			ft
+WR	wepp-13869	"02:42 pm  Friday October 19, 2012"	"FENN RS ID +"	30	clay	native	200	4	13	15	50	130	25	20	inveg	ft
+WD	wepp-180183	"11:40 am  Monday June 3, 2019"	"FennRStest +"	10	sand	OldForest	600	50	55	100	20	OldForest	300	45	35	100	20	0	ft	""
+WD	wepp-181374	"11:46 am  Monday June 3, 2019"	"FennRS4500 +"	10	silt	OldForest	600	50	55	100	20	OldForest	300	45	35	100	20	0	ft	""
+WD	wepp-181744	"11:47 am  Monday June 3, 2019"	"FennRStest +"	10	silt	OldForest	600	50	55	100	20	OldForest	300	45	35	100	20	0	ft	""
+WD	wepp-182172	"11:51 am  Monday June 3, 2019"	"fenn5000ft +"	10	sand	OldForest	600	50	55	100	20	OldForest	300	45	35	100	20	0	ft	""
+WD	wepp-182227	"11:53 am  Monday June 3, 2019"	"fenn5000ft +"	10	silt	OldForest	600	50	55	100	20	OldForest	300	45	35	100	20	0	ft	""
+WD	wepp-187439	"12:44 pm  Monday June 3, 2019"	"FennRStest +"	10	silt	OldForest	600	55	50	100	20	OldForest	300	45	35	100	20	0	ft	""
+WD	wepp-187573	"12:47 pm  Monday June 3, 2019"	"FennRStest +"	10	sand	OldForest	600	55	50	100	20	OldForest	300	45	35	100	20	0	ft	""
+WD	wepp-187699	"12:51 pm  Monday June 3, 2019"	"FennRStest +"	30	silt	OldForest	50	55	50	100	20	OldForest	50	45	35	100	20	0	ft	""
+WD	wepp-187747	"12:52 pm  Monday June 3, 2019"	"FennRStest +"	30	sand	OldForest	600	55	50	100	20	OldForest	300	45	35	100	20	0	ft	""
+WD	wepp-187953	"01:02 pm  Monday June 3, 2019"	"fenn5000ft +"	30	sand	OldForest	600	50	55	100	20	OldForest	300	45	33	100	20	0	ft	""
+WD	wepp-188295	"01:14 pm  Monday June 3, 2019"	"fenn5000ft +"	30	sand	Shrub	600	50	55	80	20	OldForest	300	45	33	100	20	0	ft	""
+WD	wepp-188859	"01:18 pm  Monday June 3, 2019"	"fenn5000ft +"	30	sand	OldForest	600	50	55	100	20	OldForest	150	45	35	100	20	0	ft	""
+WD	wepp-189740	"01:20 pm  Monday June 3, 2019"	"fenn5000ft +"	30	sand	OldForest	600	50	55	100	20	OldForest	150	45	35	100	20	0	ft	""
+WD	wepp-189967	"01:21 pm  Monday June 3, 2019"	"fenn5000ft +"	30	sand	OldForest	600	50	55	100	20	OldForest	300	45	35	100	20	0	ft	""
+WD	wepp-190252	"01:22 pm  Monday June 3, 2019"	"fenn5000ft +"	30	sand	Shrub	600	50	55	80	20	OldForest	150	45	35	100	20	0	ft	""
+WD	wepp-190351	"01:25 pm  Monday June 3, 2019"	"fenn5000ft +"	30	sand	YoungForest	600	50	55	100	20	OldForest	300	45	35	100	20	0	ft	""
+WD	wepp-190442	"01:28 pm  Monday June 3, 2019"	"fenn5000ft +"	30	sand	YoungForest	600	50	55	100	20	OldForest	150	45	35	100	20	0	ft	""
+WD	wepp-190476	"01:28 pm  Monday June 3, 2019"	"fenn5000ft +"	30	sand	YoungForest	600	50	55	100	20	OldForest	150	45	35	100	20	0	ft	""
+WD	wepp-190489	"01:28 pm  Monday June 3, 2019"	"fenn5000ft +"	30	sand	YoungForest	600	50	55	100	20	OldForest	150	45	35	100	20	0	ft	""
+WD	wepp-190654	"01:31 pm  Monday June 3, 2019"	"fenn5000ft +"	30	silt	OldForest	600	50	55	100	20	OldForest	300	45	35	100	20	0	ft	""
+WD	wepp-190696	"01:33 pm  Monday June 3, 2019"	"fenn5000ft +"	30	silt	OldForest	50	50	55	100	20	OldForest	150	45	35	100	20	0	ft	""
+WD	wepp-190895	"01:35 pm  Monday June 3, 2019"	"fenn5000ft +"	30	silt	OldForest	600	50	55	100	20	OldForest	150	45	35	100	20	0	ft	""
+WD	wepp-191018	"01:36 pm  Monday June 3, 2019"	"fenn5000ft +"	30	silt	OldForest	600	50	55	100	20	OldForest	300	45	35	100	20	0	ft	""
+WD	wepp-191053	"01:36 pm  Monday June 3, 2019"	"fenn5000ft +"	30	silt	OldForest	600	50	55	100	20	OldForest	300	45	35	100	20	0	ft	""
+WD	wepp-191181	"01:37 pm  Monday June 3, 2019"	"fenn5000ft +"	30	silt	Shrub	600	50	55	80	20	OldForest	300	45	35	100	20	0	ft	""
+WD	wepp-191424	"01:39 pm  Monday June 3, 2019"	"fenn5000ft +"	30	silt	Shrub	600	50	55	80	20	OldForest	150	45	35	100	20	0	ft	""
+WD	wepp-191530	"01:44 pm  Monday June 3, 2019"	"fenn5000ft +"	30	silt	YoungForest	600	50	55	100	20	OldForest	300	45	35	100	20	0	ft	""
+WD	wepp-191669	"01:45 pm  Monday June 3, 2019"	"fenn5000ft +"	30	silt	YoungForest	600	50	55	100	20	OldForest	150	45	35	100	20	0	ft	""
+WD	wepp-191713	"01:47 pm  Monday June 3, 2019"	"fenn5000ft +"	30	silt	YoungForest	600	50	55	100	20	OldForest	300	45	35	100	20	0	ft	""
+WD	wepp-191752	"01:48 pm  Monday June 3, 2019"	"fenn5000ft +"	30	silt	YoungForest	600	50	55	100	20	OldForest	150	45	35	100	20	0	ft	""
+WD	wepp-192851	"02:41 pm  Monday June 3, 2019"	"FennRStest +"	30	sand	OldForest	600	50	55	100	20	OldForest	300	45	35	100	20	0	ft	""
+WD	wepp-192898	"02:43 pm  Monday June 3, 2019"	"FennRStest +"	30	sand	OldForest	600	50	55	100	20	OldForest	150	45	35	100	20	0	ft	""
+WD	wepp-193076	"02:45 pm  Monday June 3, 2019"	"FennRStest +"	30	silt	OldForest	600	50	55	100	20	OldForest	300	45	35	100	20	0	ft	""
+WD	wepp-193184	"02:46 pm  Monday June 3, 2019"	"FennRStest +"	30	silt	OldForest	600	50	55	100	20	OldForest	150	45	35	100	20	0	ft	""
+WD	wepp-193267	"02:48 pm  Monday June 3, 2019"	"fenn5000ft +"	30	sand	OldForest	600	50	55	100	20	OldForest	300	45	35	100	20	0	ft	""
+WD	wepp-193308	"02:49 pm  Monday June 3, 2019"	"fenn5000ft +"	30	sand	OldForest	600	50	55	100	20	OldForest	150	45	35	100	20	0	ft	""
+WD	wepp-193385	"02:51 pm  Monday June 3, 2019"	"fenn5000ft +"	30	silt	OldForest	600	50	55	100	20	OldForest	300	45	35	100	20	0	ft	""
+WD	wepp-193434	"02:53 pm  Monday June 3, 2019"	"fenn5000ft +"	30	silt	OldForest	600	50	55	100	20	OldForest	150	45	35	100	20	0	ft	""
+WD	wepp-193526	"02:56 pm  Monday June 3, 2019"	"FennRStest +"	30	sand	LowFire	50	50	55	90	20	OldForest	300	45	35	100	20	0	ft	""
+WD	wepp-193571	"02:57 pm  Monday June 3, 2019"	"FennRStest +"	30	sand	LowFire	600	50	55	90	20	OldForest	150	45	35	100	20	0	ft	""
+WD	wepp-193657	"03:00 pm  Monday June 3, 2019"	"FennRStest +"	30	silt	LowFire	600	50	55	100	20	OldForest	300	45	35	100	20	0	ft	""
+WD	wepp-193758	"03:01 pm  Monday June 3, 2019"	"FennRStest +"	30	silt	LowFire	600	50	55	90	20	OldForest	150	45	35	100	20	0	ft	""
+WD	wepp-193844	"03:02 pm  Monday June 3, 2019"	"FennRStest +"	30	silt	LowFire	600	50	55	90	20	OldForest	300	45	35	100	20	0	ft	""
+WD	wepp-193945	"03:04 pm  Monday June 3, 2019"	"FennRStest +"	30	sand	LowFire	50	50	55	90	20	OldForest	150	45	35	100	20	0	ft	""
+WD	wepp-193981	"03:04 pm  Monday June 3, 2019"	"FennRStest +"	30	sand	LowFire	50	50	55	90	20	OldForest	150	45	35	100	20	0	ft	""
+WD	wepp-194043	"03:05 pm  Monday June 3, 2019"	"FennRStest +"	30	sand	LowFire	600	50	55	90	20	OldForest	150	45	35	100	20	0	ft	""
+WD	wepp-194126	"03:07 pm  Monday June 3, 2019"	"fenn5000ft +"	30	sand	LowFire	600	50	55	90	20	OldForest	300	45	35	100	20	0	ft	""
+WD	wepp-194249	"03:08 pm  Monday June 3, 2019"	"fenn5000ft +"	30	sand	LowFire	600	50	55	90	20	OldForest	150	45	35	100	20	0	ft	""
+WD	wepp-194396	"03:10 pm  Monday June 3, 2019"	"fenn5000ft +"	30	silt	LowFire	600	50	55	90	20	OldForest	150	45	35	100	20	0	ft	""
+WD	wepp-194526	"03:11 pm  Monday June 3, 2019"	"fenn5000ft +"	30	silt	LowFire	600	50	55	90	20	OldForest	300	45	35	100	20	0	ft	""
+WD	wepp-195333	"03:32 pm  Monday June 3, 2019"	"FennRStest +"	30	sand	OldForest	600	50	55	100	20	OldForest	300	45	35	100	20	0	ft	""
+WD	wepp-195539	"03:39 pm  Monday June 3, 2019"	"FennRStest +"	30	sand	LowFire	600	50	55	90	20	OldForest	300	45	35	100	20	0	ft	""
+WD	wepp-195622	"03:43 pm  Monday June 3, 2019"	"FennRStest + +"	10	sand	LowFire	600	50	55	90	20	OldForest	300	45	35	100	20	0	ft	""
+WD	wepp-195723	"03:45 pm  Monday June 3, 2019"	"FennRStest +"	30	sand	LowFire	600	50	55	90	20	HighFire	300	45	35	45	20	0	ft	""
+WD	wepp-195816	"03:48 pm  Monday June 3, 2019"	"FennRStest + + +"	30	sand	LowFire	600	50	55	90	20	OldForest	300	45	35	100	20	0	ft	""
+WD	wepp-214992	"10:02 am  Tuesday June 4, 2019"	"fenn5000ft +"	30	sand	OldForest	600	50	55	100	20	OldForest	300	45	35	100	20	0	ft	"1"
+WD	wepp-215027	"10:02 am  Tuesday June 4, 2019"	"fenn5000ft +"	30	sand	OldForest	600	50	55	100	20	OldForest	150	45	35	100	20	0	ft	"2"
+WD	wepp-215034	"10:02 am  Tuesday June 4, 2019"	"fenn5000ft +"	30	sand	Shrub	600	50	55	80	20	OldForest	300	45	35	100	20	0	ft	"3"
+WD	wepp-215041	"10:02 am  Tuesday June 4, 2019"	"fenn5000ft +"	30	sand	Shrub	600	50	55	80	20	OldForest	150	45	35	100	20	0	ft	"4"
+WD	wepp-215048	"10:02 am  Tuesday June 4, 2019"	"fenn5000ft +"	30	sand	YoungForest	600	50	55	100	20	OldForest	300	45	35	100	20	0	ft	"5"
+WD	wepp-215057	"10:02 am  Tuesday June 4, 2019"	"fenn5000ft +"	30	sand	YoungForest	600	50	55	100	20	OldForest	150	45	35	100	20	0	ft	"6"
+WD	wepp-215064	"10:02 am  Tuesday June 4, 2019"	"fenn5000ft +"	30	silt	OldForest	600	50	55	100	20	OldForest	300	45	35	100	20	0	ft	"7"
+WD	wepp-215071	"10:02 am  Tuesday June 4, 2019"	"fenn5000ft +"	30	silt	OldForest	600	50	55	100	20	OldForest	150	45	35	100	20	0	ft	"8"
+WD	wepp-215078	"10:02 am  Tuesday June 4, 2019"	"fenn5000ft +"	30	silt	Shrub	600	50	55	80	20	OldForest	300	45	35	100	20	0	ft	"9"
+WD	wepp-215085	"10:02 am  Tuesday June 4, 2019"	"fenn5000ft +"	30	silt	Shrub	600	50	55	80	20	OldForest	150	45	35	100	20	0	ft	"10"
+WD	wepp-215093	"10:02 am  Tuesday June 4, 2019"	"fenn5000ft +"	30	silt	YoungForest	600	50	55	100	20	OldForest	300	45	35	100	20	0	ft	"11"
+WD	wepp-215102	"10:02 am  Tuesday June 4, 2019"	"fenn5000ft +"	30	silt	YoungForest	600	50	55	100	20	OldForest	150	45	35	100	20	0	ft	"12"
+WD	wepp-215109	"10:02 am  Tuesday June 4, 2019"	"fenn5000ft +"	30	sand	OldForest	600	50	55	100	20	OldForest	300	45	35	100	20	0	ft	"13"
+WD	wepp-215116	"10:02 am  Tuesday June 4, 2019"	"fenn5000ft +"	30	sand	OldForest	600	50	55	100	20	OldForest	150	45	35	100	20	0	ft	"14"
+WD	wepp-215123	"10:02 am  Tuesday June 4, 2019"	"fenn5000ft +"	30	sand	OldForest	600	50	55	100	20	OldForest	300	45	35	100	20	0	ft	"15"
+WD	wepp-215130	"10:02 am  Tuesday June 4, 2019"	"fenn5000ft +"	30	silt	OldForest	600	50	55	100	20	OldForest	150	45	35	100	20	0	ft	"16"
+WD	wepp-215137	"10:02 am  Tuesday June 4, 2019"	"fenn5000ft +"	30	sand	LowFire	600	50	55	90	20	OldForest	300	45	35	100	20	0	ft	"17"
+WD	wepp-215144	"10:02 am  Tuesday June 4, 2019"	"fenn5000ft +"	30	sand	LowFire	600	50	55	90	20	OldForest	150	45	35	100	20	0	ft	"18"
+WD	wepp-215151	"10:02 am  Tuesday June 4, 2019"	"fenn5000ft +"	30	silt	LowFire	600	50	55	90	20	OldForest	300	45	35	100	20	0	ft	"19"
+WD	wepp-215158	"10:02 am  Tuesday June 4, 2019"	"fenn5000ft +"	30	silt	LowFire	600	50	55	90	20	OldForest	150	45	35	100	20	0	ft	"20"
+WR	wepp-216080	"10:58 am  Tuesday June 4, 2019"	"fenn5000ft +"	30	silt	native	300	6	16	20	60	300	45	20	inbare	ft
+WR	wepp-216273	"11:02 am  Tuesday June 4, 2019"	"fenn5000ft +"	30	silt	native	300	6	16	20	60	300	45	20	inveg	ft
+WR	wepp-216367	"11:04 am  Tuesday June 4, 2019"	"fenn5000ft +"	30	silt	native	300	6	12	20	60	300	45	20	outrut	ft
+WR	wepp-216462	"11:07 am  Tuesday June 4, 2019"	"fenn5000ft +"	30	silt	native	300	6	14	20	60	300	45	20	outunrut	ft
+WR	wepp-216601	"11:09 am  Tuesday June 4, 2019"	"fenn5000ft +"	30	silt	native	300	6	16	20	60	150	45	20	inbare	ft
+WR	wepp-216686	"11:11 am  Tuesday June 4, 2019"	"fenn5000ft +"	30	silt	native	300	6	16	20	60	150	45	20	inveg	ft
+WR	wepp-216778	"11:13 am  Tuesday June 4, 2019"	"fenn5000ft +"	30	silt	native	300	6	16	1	6	1	6	20	inbare	ft
+WR	wepp-216868	"11:14 am  Tuesday June 4, 2019"	"fenn5000ft +"	30	silt	native	300	6	16	1	6	1	6	20	inveg	ft
+WR	wepp-217091	"11:16 am  Tuesday June 4, 2019"	"fenn5000ft +"	30	silt	native	300	6	16	1	6	1	6	20	inbare	ft
+WR	wepp-217182	"11:17 am  Tuesday June 4, 2019"	"fenn5000ft +"	30	silt	native	300	6	16	1	6	1	6	20	inveg	ft
+WR	wepp-217265	"11:19 am  Tuesday June 4, 2019"	"fenn5000ft +"	30	silt	graveled	300	6	16	1	1	1	1	20	inbare	ft
+WR	wepp-217350	"11:21 am  Tuesday June 4, 2019"	"fenn5000ft +"	30	silt	graveled	300	6	16	1	6	1	6	20	inbare	ft
+WR	wepp-217399	"11:23 am  Tuesday June 4, 2019"	"fenn5000ft +"	30	silt	graveled	300	6	16	1	6	1	6	20	inveg	ft
+WR	wepp-217439	"11:24 am  Tuesday June 4, 2019"	"fenn5000ft +"	30	silt	native	150	6	16	1	6	1	6	20	inbare	ft
+WR	wepp-217503	"11:25 am  Tuesday June 4, 2019"	"fenn5000ft +"	30	silt	graveled	150	6	16	1	6	1	6	20	inbare	ft
+WD	wepp-221333	"02:06 pm  Tuesday June 4, 2019"	"fenn5000ft +"	10	clay	Skid	300	6	6	100	20	OldForest	150	6	6	100	20	0	ft	""
+WE	wepp-222287	"02:49 pm  Tuesday June 4, 2019"	"FennRS4500 +"	clay	20	forest	50	45	30	300	l			ft

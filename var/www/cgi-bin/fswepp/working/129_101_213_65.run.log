@@ -1,0 +1,14 @@
+WR	wepp-147256	"11:36 am  Thursday May 6, 2021"	"USE ME +"	30	silt	graveled	200	4	13	15	50	1	25	20	inveg	ft
+WR	wepp-147391	"11:38 am  Thursday May 6, 2021"	"USE ME +"	30	silt	paved	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-147598	"11:43 am  Thursday May 6, 2021"	"USE ME +"	30	silt	graveled	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-147651	"11:45 am  Thursday May 6, 2021"	"USE ME +"	30	silt	graveled	200	4	13	15	50	1	25	20	outrut	ft
+WR	wepp-147866	"11:53 am  Thursday May 6, 2021"	"USE ME Low Ele + +"	30	clay	native	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-147906	"11:54 am  Thursday May 6, 2021"	"USE ME Low Ele + +"	30	silt	graveled	200	4	13	15	50	1	25	20	inveg	ft
+WD	wepp-148107	"12:00 pm  Thursday May 6, 2021"	"USE ME +"	10	silt	OldForest	400	0	30	100	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-148356	"12:04 pm  Thursday May 6, 2021"	"USE ME +"	10	silt	Sod	400	0	30	40	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-148403	"12:05 pm  Thursday May 6, 2021"	"USE ME +"	10	silt	Sod	400	0	30	40	20	OldForest	30	30	5	100	20	0	ft	""
+WD	wepp-148447	"12:07 pm  Thursday May 6, 2021"	"USE ME +"	10	silt	LowFire	400	0	30	85	20	LowFire	75	30	5	85	20	0	ft	""
+WD	wepp-148488	"12:07 pm  Thursday May 6, 2021"	"USE ME +"	10	silt	HighFire	400	0	30	45	20	HighFire	75	30	5	45	20	0	ft	""
+WD	wepp-148533	"12:08 pm  Thursday May 6, 2021"	"USE ME +"	10	silt	HighFire	400	0	30	20	20	HighFire	75	30	5	20	20	0	ft	""
+WD	wepp-149202	"12:24 pm  Thursday May 6, 2021"	"USE ME +"	10	silt	HighFire	400	45	30	45	20	HighFire	75	45	5	20	20	0	ft	""
+WD	wepp-149342	"12:25 pm  Thursday May 6, 2021"	"USE ME +"	10	silt	HighFire	400	0	30	0	20	HighFire	75	30	5	0	20	0	ft	""

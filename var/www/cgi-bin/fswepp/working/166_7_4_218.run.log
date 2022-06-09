@@ -1,0 +1,183 @@
+WR	wepp-15475	"01:46 pm  Thursday April 8, 2010"	"OROFINO ID"	30	clay	native	600	4	13	15	50	40	10	20	inbare	ft
+WD	wepp-29126	"02:13 pm  Tuesday June 29, 2010"	"SEELEY LAKE RS MT 22.55 +"	30	silt	tree5	1200	5	35	100	20	tree20	300	15	5	100	20	0	ft	""
+WD	wepp-29131	"02:14 pm  Tuesday June 29, 2010"	"SEELEY LAKE RS MT 22.55 +"	30	silt	tree5	1200	5	35	100	20	tree20	300	15	5	100	20	0	ft	""
+WD	wepp-29260	"02:21 pm  Tuesday June 29, 2010"	"SEELEY LAKE RS MT 22.55 +"	30	silt	tree5	1200	5	30	70	20	tree20	300	20	5	100	20	0	ft	""
+WD	wepp-29298	"02:26 pm  Tuesday June 29, 2010"	"SEELEY LAKE RS MT 22.55 +"	30	silt	tree5	1200	5	30	30	20	tree20	300	20	5	100	20	0	ft	""
+WD	wepp-29371	"02:30 pm  Tuesday June 29, 2010"	"SEELEY LAKE RS MT 22.55 +"	30	silt	tree20	1200	5	30	30	20	tree5	300	30	5	100	20	0	ft	""
+WR	wepp-14142	"07:01 am  Friday July 23, 2010"	"Colt_Summit +"	10	silt	graveled	800	2	20	1	70	110	70	20	inbare	ft
+WR	wepp-14232	"07:09 am  Friday July 23, 2010"	"Colt_Summit +"	10	silt	graveled	800	3	20	1	70	80	70	20	inveg	ft
+WR	wepp-14238	"07:10 am  Friday July 23, 2010"	"Colt_Summit +"	10	silt	graveled	800	4	20	1	75	140	5	20	inveg	ft
+WR	wepp-14243	"07:10 am  Friday July 23, 2010"	"Colt_Summit +"	10	silt	graveled	800	4	20	1	75	140	75	20	inveg	ft
+WR	wepp-14276	"07:13 am  Friday July 23, 2010"	"Colt_Summit +"	10	silt	graveled	630	1	20	1	60	10	60	20	inveg	ft
+WR	wepp-14314	"07:14 am  Friday July 23, 2010"	"Colt_Summit +"	10	silt	graveled	830	11	12	1	60	155	60	20	outrut	ft
+WR	wepp-14339	"07:16 am  Friday July 23, 2010"	"Colt_Summit +"	10	silt	graveled	530	5	12	1	2	10	2	20	outrut	ft
+WR	wepp-14372	"07:18 am  Friday July 23, 2010"	"Colt_Summit +"	10	silt	native	600	1	15	1	30	10	30	20	outrut	ft
+WR	wepp-14377	"07:18 am  Friday July 23, 2010"	"Colt_Summit +"	10	silt	native	600	1	15	1	30	10	30	20	outrut	ft
+WR	wepp-14382	"07:18 am  Friday July 23, 2010"	"Colt_Summit +"	10	silt	native	600	1	15	1	30	10	30	20	outrut	ft
+WR	wepp-14388	"07:19 am  Friday July 23, 2010"	"Colt_Summit +"	10	silt	native	300	1	15	1	30	10	30	20	outrut	ft
+WR	wepp-15200	"09:09 am  Friday July 23, 2010"	"Colt_Summit +"	10	silt	graveled	830	11	12	1	60	1	60	20	outrut	ft
+WR	wepp-15796	"10:17 am  Friday July 23, 2010"	"Colt_Summit +"	10	silt	graveled	830	11	12	1	60	5	60	20	outrut	ft
+WR	wepp-15805	"10:19 am  Friday July 23, 2010"	"Colt_Summit +"	10	silt	graveled	530	5	12	1	2	5	2	20	outrut	ft
+WR	wepp-6499	"08:21 am  Monday August 9, 2010"	"Colt_Summit +"	30	silt	graveled	200	11	12	1	60	5	60	20	inveg	ft
+WR	wepp-6506	"08:21 am  Monday August 9, 2010"	"Colt_Summit +"	10	silt	graveled	200	11	12	1	60	5	60	20	inveg	ft
+WR	wepp-6516	"08:22 am  Monday August 9, 2010"	"Colt_Summit +"	10	silt	graveled	400	11	12	1	60	5	60	20	inveg	ft
+WR	wepp-6686	"08:38 am  Monday August 9, 2010"	"Colt_Summit +"	10	silt	graveled	400	11	12	1	60	5	60	20	inveg	ft
+WR	wepp-6772	"08:45 am  Monday August 9, 2010"	"Colt_Summit +"	10	silt	graveled	400	5	12	1	2	5	2	20	inveg	ft
+WR	wepp-7351	"09:22 am  Monday August 9, 2010"	"Colt_Summit +"	10	silt	graveled	400	5	12	1	2	5	2	20	inveg	ft
+WR	wepp-7361	"09:24 am  Monday August 9, 2010"	"Colt_Summit +"	10	silt	graveled	400	1	20	1	60	10	60	20	inveg	ft
+WR	wepp-7645	"09:51 am  Monday August 9, 2010"	"Colt_Summit +"	30	silt	native	1000	2	20	1	70	110	70	20	outunrut	ft
+WR	wepp-7657	"09:52 am  Monday August 9, 2010"	"Colt_Summit +"	10	silt	native	1000	2	20	1	70	110	70	20	outunrut	ft
+WR	wepp-7770	"11:44 am  Thursday August 26, 2010"	"Colt_Summit +"	10	silt	native	1000	1	15	1	30	2	30	20	inbare	ft
+WR	wepp-7831	"11:48 am  Thursday August 26, 2010"	"Colt_Summit +"	10	silt	native	1000	3.5	15	1	30	10	30	20	inbare	ft
+WR	wepp-7837	"11:50 am  Thursday August 26, 2010"	"Colt_Summit +"	10	silt	native	1000	2.5	15	1	30	10	30	20	inbare	ft
+WR	wepp-8242	"12:45 pm  Thursday August 26, 2010"	"Colt_Summit +"	10	silt	graveled	445	1	15	1	30	2	30	20	inveg	ft
+WR	wepp-8274	"12:47 pm  Thursday August 26, 2010"	"Colt_Summit +"	10	silt	graveled	445	3.5	15	1	30	10	30	20	inveg	ft
+WR	wepp-8280	"12:48 pm  Thursday August 26, 2010"	"Colt_Summit +"	10	silt	graveled	445	2.5	15	1	30	10	30	20	inveg	ft
+WR	wepp-8285	"12:49 pm  Thursday August 26, 2010"	"Colt_Summit +"	10	silt	graveled	445	2	15	1	30	10	30	20	inveg	ft
+WR	wepp-23001	"08:40 am  Thursday September 16, 2010"	"OROFINO ID"	30	clay	native	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-31166	"10:06 am  Friday October 1, 2010"	"Fleecer Mtns +"	30	sand	native	200	4	13	15	50	130	25	20	inveg	ft
+WD	wepp-31176	"10:07 am  Friday October 1, 2010"	"OROFINO ID"	30	clay	tree20	50	0	30	100	20	tree5	50	30	5	100	20	0	ft	""
+WD	wepp-316	"01:19 pm  Friday October 1, 2010"	"OROFINO ID"	50	clay	tree20	50	0	30	100	20	tree5	50	30	5	100	20	0	ft	""
+WR	wepp-325	"01:20 pm  Friday October 1, 2010"	"OROFINO ID"	50	clay	native	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-2158	"08:02 am  Tuesday October 5, 2010"	"Fleecer Mtns +"	10	sand	graveled	667	1.6	16	1	60	120	17.2	20	inbare	ft
+WR	wepp-2163	"08:02 am  Tuesday October 5, 2010"	"Fleecer Mtns +"	10	sand	graveled	300	1.6	16	1	60	120	17.2	20	inbare	ft
+WR	wepp-2196	"08:03 am  Tuesday October 5, 2010"	"Fleecer Mtns +"	10	sand	graveled	667	0.3	16	1	60	120	17.2	20	inbare	ft
+WR	wepp-2201	"08:03 am  Tuesday October 5, 2010"	"Fleecer Mtns +"	10	sand	graveled	300	0.3	16	1	60	120	17.2	20	inbare	ft
+WR	wepp-2206	"08:04 am  Tuesday October 5, 2010"	"Fleecer Mtns +"	10	sand	graveled	667	2.1	16	1	60	120	17.2	20	inbare	ft
+WR	wepp-2901	"09:25 am  Tuesday October 5, 2010"	"Fleecer Mtns +"	30	sand	graveled	481	4.9	16	1	60	120	33	20	inveg	ft
+WR	wepp-2906	"09:26 am  Tuesday October 5, 2010"	"Fleecer Mtns +"	30	sand	graveled	300	4.9	16	1	60	120	33	20	inveg	ft
+WR	wepp-2911	"09:26 am  Tuesday October 5, 2010"	"Fleecer Mtns +"	10	sand	graveled	481	4.9	16	1	60	120	33	20	inveg	ft
+WR	wepp-2916	"09:27 am  Tuesday October 5, 2010"	"Fleecer Mtns +"	10	sand	graveled	300	4.9	16	1	60	120	33	20	inveg	ft
+WR	wepp-3302	"09:53 am  Tuesday October 5, 2010"	"Fleecer +"	10	sand	graveled	481	4.9	16	1	60	120	33	20	inveg	ft
+WR	wepp-3307	"09:54 am  Tuesday October 5, 2010"	"Fleecer +"	10	sand	graveled	481	4.9	16	1	60	120	33	20	inbare	ft
+WR	wepp-3315	"09:55 am  Tuesday October 5, 2010"	"Fleecer +"	10	sand	graveled	300	4.9	16	1	60	120	33	20	inbare	ft
+WR	wepp-3358	"09:59 am  Tuesday October 5, 2010"	"Fleecer +"	10	sand	graveled	445	3.8	16	1	60	145	17	20	inbare	ft
+WR	wepp-3382	"10:00 am  Tuesday October 5, 2010"	"Fleecer +"	10	sand	graveled	300	3.8	16	1	60	145	17	20	inbare	ft
+WR	wepp-3388	"10:02 am  Tuesday October 5, 2010"	"Fleecer +"	10	silt	native	163	8.1	12	1	60	300	27	20	inbare	ft
+WR	wepp-3394	"10:02 am  Tuesday October 5, 2010"	"Fleecer +"	10	silt	native	311	2.8	12	1	60	91	22	20	inbare	ft
+WR	wepp-3426	"10:03 am  Tuesday October 5, 2010"	"Fleecer +"	10	silt	native	306	2.3	12	1	60	231	19	20	inbare	ft
+WR	wepp-3432	"10:04 am  Tuesday October 5, 2010"	"Fleecer +"	10	silt	native	300	2.3	12	1	60	231	19	20	inbare	ft
+WR	wepp-3437	"10:05 am  Tuesday October 5, 2010"	"Fleecer +"	10	silt	native	320	4.3	12	1	60	211	38	20	inbare	ft
+WR	wepp-3442	"10:05 am  Tuesday October 5, 2010"	"Fleecer +"	10	silt	native	300	4.3	12	1	60	211	38	20	inbare	ft
+WR	wepp-3447	"10:06 am  Tuesday October 5, 2010"	"Fleecer +"	10	silt	graveled	198	4.1	12	1	60	200	38	20	inbare	ft
+WR	wepp-3452	"10:06 am  Tuesday October 5, 2010"	"Fleecer +"	10	silt	graveled	300	4.1	12	1	60	200	38	20	inbare	ft
+WR	wepp-3458	"10:07 am  Tuesday October 5, 2010"	"Fleecer +"	10	silt	native	192	2.5	12	1	60	474	15	20	inbare	ft
+WR	wepp-3463	"10:08 am  Tuesday October 5, 2010"	"Fleecer +"	10	silt	native	300	2.5	12	1	60	474	15	20	inbare	ft
+WR	wepp-3468	"10:08 am  Tuesday October 5, 2010"	"Fleecer +"	10	silt	graveled	404	9.4	12	1	60	320	25	20	inbare	ft
+WR	wepp-3473	"10:08 am  Tuesday October 5, 2010"	"Fleecer +"	10	silt	graveled	300	9.4	12	1	60	320	25	20	inbare	ft
+WR	wepp-3505	"10:09 am  Tuesday October 5, 2010"	"Fleecer +"	10	silt	graveled	179	6.1	12	1	60	250	25	20	inbare	ft
+WR	wepp-3510	"10:09 am  Tuesday October 5, 2010"	"Fleecer +"	10	silt	graveled	300	6.1	12	1	60	250	25	20	inbare	ft
+WR	wepp-3515	"10:10 am  Tuesday October 5, 2010"	"Fleecer +"	10	silt	graveled	543	7.6	12	1	60	164	24	20	inbare	ft
+WR	wepp-3520	"10:10 am  Tuesday October 5, 2010"	"Fleecer +"	10	silt	graveled	494	7.8	12	1	60	225	27	20	inbare	ft
+WR	wepp-3526	"10:12 am  Tuesday October 5, 2010"	"Fleecer +"	10	sand	native	1000	5.3	12	1	60	116	17	20	inbare	ft
+WR	wepp-3537	"10:12 am  Tuesday October 5, 2010"	"Fleecer +"	10	sand	native	300	5.3	12	1	60	116	17	20	inbare	ft
+WR	wepp-3568	"10:13 am  Tuesday October 5, 2010"	"Fleecer +"	10	sand	native	166	3.2	12	1	60	155	13	20	inbare	ft
+WR	wepp-3573	"10:14 am  Tuesday October 5, 2010"	"Fleecer +"	10	silt	native	630	6.6	12	1	60	167	18	20	inbare	ft
+WR	wepp-3578	"10:14 am  Tuesday October 5, 2010"	"Fleecer +"	10	silt	native	630	6.6	12	1	60	167	18	20	inbare	ft
+WR	wepp-3629	"10:15 am  Tuesday October 5, 2010"	"Fleecer +"	10	silt	native	1000	8.5	12	1	60	145	35	20	inbare	ft
+WR	wepp-3634	"10:16 am  Tuesday October 5, 2010"	"Fleecer +"	10	silt	native	353	0.8	12	1	60	275	25	20	inbare	ft
+WR	wepp-3639	"10:17 am  Tuesday October 5, 2010"	"Fleecer +"	10	silt	native	300	0.8	12	1	60	275	25	20	inbare	ft
+WR	wepp-3644	"10:18 am  Tuesday October 5, 2010"	"Fleecer +"	10	silt	native	722	8.6	12	1	60	88	23	20	inbare	ft
+WR	wepp-3649	"10:19 am  Tuesday October 5, 2010"	"Fleecer +"	10	silt	native	310	14.2	12	1	60	201	20	20	outrut	ft
+WR	wepp-3654	"10:19 am  Tuesday October 5, 2010"	"Fleecer +"	10	sand	native	300	5.2	12	1	60	201	20	20	outrut	ft
+WR	wepp-3686	"10:20 am  Tuesday October 5, 2010"	"Fleecer +"	10	sand	native	163	0.3	12	1	60	290	14	20	inbare	ft
+WR	wepp-3692	"10:21 am  Tuesday October 5, 2010"	"Fleecer +"	10	sand	native	120	2.8	12	1	60	266	8	20	inbare	ft
+WR	wepp-3697	"10:22 am  Tuesday October 5, 2010"	"Fleecer +"	10	sand	native	1000	2.6	12	1	60	246	16	20	inbare	ft
+WR	wepp-3703	"10:23 am  Tuesday October 5, 2010"	"Fleecer +"	10	sand	native	577	5.2	12	1	60	128	16	20	outrut	ft
+WR	wepp-3708	"10:23 am  Tuesday October 5, 2010"	"Fleecer +"	10	sand	native	300	5.2	12	1	60	128	16	20	outrut	ft
+WR	wepp-3713	"10:24 am  Tuesday October 5, 2010"	"Fleecer +"	10	sand	native	343	7.4	12	1	60	200	25	20	outrut	ft
+WR	wepp-3719	"10:24 am  Tuesday October 5, 2010"	"Fleecer +"	10	sand	native	300	7.4	12	1	60	200	25	20	outrut	ft
+WR	wepp-3724	"10:24 am  Tuesday October 5, 2010"	"Fleecer +"	10	sand	native	413	6.1	12	1	60	100	15	20	outrut	ft
+WR	wepp-3729	"10:25 am  Tuesday October 5, 2010"	"Fleecer +"	10	sand	native	300	6.1	12	1	60	100	15	20	outrut	ft
+WR	wepp-3761	"10:25 am  Tuesday October 5, 2010"	"Fleecer +"	10	sand	native	1000	6.1	12	1	60	65	15	20	inbare	ft
+WR	wepp-3766	"10:26 am  Tuesday October 5, 2010"	"Fleecer +"	10	sand	native	1000	2.5	12	1	60	109	9	20	inbare	ft
+WR	wepp-3771	"10:27 am  Tuesday October 5, 2010"	"Fleecer +"	10	sand	native	300	2.5	12	1	60	109	9	20	inbare	ft
+WR	wepp-3776	"10:27 am  Tuesday October 5, 2010"	"Fleecer +"	10	sand	native	723	2.3	12	1	60	150	7	20	inbare	ft
+WR	wepp-3781	"10:27 am  Tuesday October 5, 2010"	"Fleecer +"	10	sand	native	300	2.3	12	1	60	150	7	20	inbare	ft
+WR	wepp-3786	"10:28 am  Tuesday October 5, 2010"	"Fleecer +"	10	sand	native	203	2.8	12	1	60	273	18	20	inbare	ft
+WR	wepp-3791	"10:29 am  Tuesday October 5, 2010"	"Fleecer +"	10	sand	native	308	3.6	12	1	60	273	18	20	inbare	ft
+WR	wepp-3796	"10:29 am  Tuesday October 5, 2010"	"Fleecer +"	10	sand	native	300	2.2	12	1	60	273	18	20	inbare	ft
+WR	wepp-3820	"10:30 am  Tuesday October 5, 2010"	"Fleecer +"	10	sand	native	359	5.3	12	1	60	80	7	20	inbare	ft
+WR	wepp-3825	"10:30 am  Tuesday October 5, 2010"	"Fleecer +"	10	sand	native	300	5.3	12	1	60	80	7	20	inbare	ft
+WR	wepp-3857	"10:31 am  Tuesday October 5, 2010"	"Fleecer +"	10	sand	native	319	2.2	12	1	60	76	7	20	inbare	ft
+WR	wepp-3862	"10:31 am  Tuesday October 5, 2010"	"Fleecer +"	10	sand	native	300	2.2	12	1	60	76	7	20	inbare	ft
+WR	wepp-3868	"10:32 am  Tuesday October 5, 2010"	"Fleecer +"	10	sand	native	124	8.5	12	1	60	188	16	20	inbare	ft
+WR	wepp-3873	"10:32 am  Tuesday October 5, 2010"	"Fleecer +"	10	sand	native	383	4.9	12	1	60	243	25	20	inbare	ft
+WR	wepp-3878	"10:33 am  Tuesday October 5, 2010"	"Fleecer +"	10	sand	native	177	6.7	12	1	60	80	7	20	inbare	ft
+WR	wepp-3883	"10:33 am  Tuesday October 5, 2010"	"Fleecer +"	10	sand	native	300	6.7	12	1	60	80	7	20	inbare	ft
+WR	wepp-3888	"10:34 am  Tuesday October 5, 2010"	"Fleecer +"	10	sand	native	300	4.9	12	1	60	80	7	20	inbare	ft
+WR	wepp-3893	"10:34 am  Tuesday October 5, 2010"	"Fleecer +"	10	sand	native	734	11	12	1	60	269	22	20	outrut	ft
+WR	wepp-3898	"10:35 am  Tuesday October 5, 2010"	"Fleecer +"	10	sand	native	310	2.8	12	1	60	210	19	20	outrut	ft
+WR	wepp-3903	"10:35 am  Tuesday October 5, 2010"	"Fleecer +"	10	sand	native	427	9.9	12	1	60	148	20	20	outrut	ft
+WR	wepp-3935	"10:36 am  Tuesday October 5, 2010"	"Fleecer +"	10	sand	native	228	1.9	12	1	60	280	7	20	outrut	ft
+WR	wepp-3940	"10:37 am  Tuesday October 5, 2010"	"Fleecer +"	10	sand	native	140	3.4	12	1	60	170	18	20	outrut	ft
+WR	wepp-3945	"10:37 am  Tuesday October 5, 2010"	"Fleecer +"	10	sand	native	300	3.4	12	1	60	170	18	20	outrut	ft
+WR	wepp-3950	"10:38 am  Tuesday October 5, 2010"	"Fleecer +"	10	sand	native	221	8.2	12	1	60	170	18	20	outrut	ft
+WR	wepp-3955	"10:38 am  Tuesday October 5, 2010"	"Fleecer +"	10	silt	native	282	6.7	12	1	60	180	22	20	inbare	ft
+WR	wepp-3960	"10:39 am  Tuesday October 5, 2010"	"Fleecer +"	10	silt	native	300	6.7	12	1	60	180	22	20	inbare	ft
+WR	wepp-3965	"10:39 am  Tuesday October 5, 2010"	"Fleecer +"	10	silt	native	293	7.1	12	1	60	176	23	20	outrut	ft
+WR	wepp-3971	"10:39 am  Tuesday October 5, 2010"	"Fleecer +"	10	silt	native	300	7.1	12	1	60	176	23	20	outrut	ft
+WR	wepp-3976	"10:40 am  Tuesday October 5, 2010"	"Fleecer +"	10	sand	native	169	6.2	12	1	60	261	15	20	inbare	ft
+WR	wepp-3981	"10:40 am  Tuesday October 5, 2010"	"Fleecer +"	10	sand	native	169	6.2	15	1	60	261	15	20	inbare	ft
+WR	wepp-4013	"10:41 am  Tuesday October 5, 2010"	"Fleecer +"	10	silt	native	282	6.7	15	1	60	180	22	20	inbare	ft
+WR	wepp-4019	"10:41 am  Tuesday October 5, 2010"	"Fleecer +"	10	silt	native	300	6.7	15	1	60	180	22	20	inbare	ft
+WR	wepp-4072	"10:50 am  Tuesday October 5, 2010"	"Fleecer +"	10	sand	native	89	9.1	15	1	60	286	5	20	outrut	ft
+WR	wepp-4077	"10:51 am  Tuesday October 5, 2010"	"Fleecer +"	10	sand	native	42	2.3	15	1	60	300	10	20	outrut	ft
+WR	wepp-4083	"10:51 am  Tuesday October 5, 2010"	"Fleecer +"	10	sand	native	290	13	15	1	60	193	21	20	outrut	ft
+WR	wepp-4115	"10:52 am  Tuesday October 5, 2010"	"Fleecer +"	10	sand	native	100	2.8	15	1	60	260	15	20	outrut	ft
+WR	wepp-4120	"10:52 am  Tuesday October 5, 2010"	"Fleecer +"	10	sand	native	210	7.1	15	1	60	260	15	20	outrut	ft
+WR	wepp-4125	"10:54 am  Tuesday October 5, 2010"	"Fleecer +"	10	sand	native	324	6.6	15	1	60	270	19	20	outrut	ft
+WR	wepp-4130	"10:54 am  Tuesday October 5, 2010"	"Fleecer +"	10	sand	native	1000	5.5	15	1	60	180	33	20	outrut	ft
+WR	wepp-4135	"10:55 am  Tuesday October 5, 2010"	"Fleecer +"	10	sand	native	470	10.4	15	1	60	226	22	20	outrut	ft
+WR	wepp-4140	"10:56 am  Tuesday October 5, 2010"	"Fleecer +"	10	sand	native	346	1.1	15	1	60	276	11	20	outrut	ft
+WR	wepp-4145	"10:56 am  Tuesday October 5, 2010"	"Fleecer +"	10	sand	native	215	17.6	15	1	60	205	15	20	outrut	ft
+WR	wepp-4150	"10:57 am  Tuesday October 5, 2010"	"Fleecer +"	10	silt	native	212	32	15	1	60	217	18	20	outrut	ft
+WR	wepp-4182	"10:57 am  Tuesday October 5, 2010"	"Fleecer +"	10	silt	native	922	1.2	15	1	60	167	12	20	outrut	ft
+WR	wepp-4187	"10:58 am  Tuesday October 5, 2010"	"Fleecer +"	10	silt	native	26	2.6	15	1	60	286	14	20	outrut	ft
+WR	wepp-4193	"10:58 am  Tuesday October 5, 2010"	"Fleecer +"	10	silt	native	1000	8	15	1	60	94	11	20	outrut	ft
+WR	wepp-15709	"01:18 pm  Wednesday December 15, 2010"	"HorseshoeWest +"	30	silt	native	580	4	12	15	67	200	25	20	inveg	ft
+WR	wepp-15753	"01:24 pm  Wednesday December 15, 2010"	"HorseshoeWest +"	30	sand	native	580	4	12	15	67	200	25	20	inveg	ft
+WR	wepp-15797	"01:28 pm  Wednesday December 15, 2010"	"HorseshoeWest +"	30	sand	native	580	4	12	15	67	200	25	20	inveg	ft
+WR	wepp-15837	"01:30 pm  Wednesday December 15, 2010"	"HorseshoeWest +"	30	sand	native	580	4	12	15	67	200	25	20	inveg	ft
+WR	wepp-15865	"01:30 pm  Wednesday December 15, 2010"	"HorseshoeWest +"	30	sand	native	580	4	12	15	67	200	25	20	inveg	ft
+WR	wepp-15870	"01:32 pm  Wednesday December 15, 2010"	"HorseshoeWest +"	30	sand	native	400	4	14	15	67	200	25	20	inveg	ft
+WR	wepp-16007	"01:49 pm  Wednesday December 15, 2010"	"HorseshoeWest +"	30	silt	native	580	4	12	15	67	200	25	20	inveg	ft
+WR	wepp-16015	"01:50 pm  Wednesday December 15, 2010"	"HorseshoeWest +"	30	silt	native	580	4	12	15	67	200	25	20	inveg	ft
+WR	wepp-16020	"01:51 pm  Wednesday December 15, 2010"	"HorseshoeWest +"	30	silt	native	400	4	14	15	67	200	25	20	inveg	ft
+WR	wepp-16025	"01:52 pm  Wednesday December 15, 2010"	"HorseshoeWest +"	30	silt	native	400	4	10	15	67	200	25	20	inveg	ft
+WR	wepp-16030	"01:54 pm  Wednesday December 15, 2010"	"HorseshoeWest +"	30	silt	native	400	4	30	15	67	200	25	20	inveg	ft
+WR	wepp-16165	"02:11 pm  Wednesday December 15, 2010"	"HorseshoeWest +"	30	silt	native	300	4	12	15	67	5	5	20	inveg	ft
+WR	wepp-16170	"02:12 pm  Wednesday December 15, 2010"	"HorseshoeWest +"	30	silt	native	300	4	12	15	67	5	5	20	inveg	ft
+WR	wepp-16176	"02:13 pm  Wednesday December 15, 2010"	"HorseshoeWest +"	30	silt	native	300	4	14	15	67	5	5	20	inveg	ft
+WR	wepp-16181	"02:14 pm  Wednesday December 15, 2010"	"HorseshoeWest +"	30	silt	native	300	4	10	15	67	5	5	20	inveg	ft
+WR	wepp-16238	"02:19 pm  Wednesday December 15, 2010"	"HorseshoeWest +"	30	silt	native	300	4	30	15	67	5	5	20	inveg	ft
+WR	wepp-29038	"01:56 pm  Thursday December 16, 2010"	"HorseshoeWest +"	30	silt	native	400	4	12	15	67	200	25	20	inveg	ft
+WR	wepp-29091	"02:00 pm  Thursday December 16, 2010"	"HorseshoeWest +"	30	silt	native	400	4	12	15	67	200	25	20	inveg	ft
+WD	wepp-25900	"09:25 am  Friday February 25, 2011"	"Meadow_Crk +"	30	silt	tree20	50	0	30	100	20	tree20	50	30	5	100	20	0	ft	""
+WD	wepp-27596	"12:14 pm  Friday February 25, 2011"	"Meadow_Crk +"	50	silt	tree20	1000	0	10	100	40	tree20	300	10	30	100	40	0	ft	"Mead_Crk_1"
+WD	wepp-27623	"12:15 pm  Friday February 25, 2011"	"Meadow_Crk +"	50	silt	tree20	1000	0	10	100	40	tree5	300	10	30	100	40	0	ft	""
+WD	wepp-27655	"12:17 pm  Friday February 25, 2011"	"Meadow_Crk +"	50	silt	tree20	1000	0	10	100	40	tree20	300	10	30	100	40	0	ft	"Mead_Crk1"
+WD	wepp-27664	"12:19 pm  Friday February 25, 2011"	"Meadow_Crk +"	50	silt	tree5	1000	0	10	100	40	tree20	300	10	30	100	40	0	ft	"Mead_Crk2"
+WD	wepp-27674	"12:19 pm  Friday February 25, 2011"	"Meadow_Crk +"	50	silt	tree5	1000	0	10	90	40	tree20	300	10	30	100	40	0	ft	"Mead_Crk2"
+WD	wepp-2462	"09:12 am  Thursday March 3, 2011"	"Fleecer +"	30	clay	tree20	50	0	30	100	20	tree5	50	30	5	100	20	0	ft	""
+WD	wepp-2659	"09:28 am  Thursday March 3, 2011"	"Meadow_Crk +"	50	silt	tree20	1000	0	12	100	40	tree20	300	12	20	100	40	0	ft	""
+WD	wepp-2694	"09:31 am  Thursday March 3, 2011"	"Meadow_Crk +"	50	silt	tree5	50	0	12	90	40	tree20	50	12	20	100	40	0	ft	""
+WD	wepp-2735	"09:33 am  Thursday March 3, 2011"	"Meadow_Crk +"	50	silt	tree20	1000	0	22	100	40	tree20	150	22	33	100	40	0	ft	""
+WD	wepp-2740	"09:34 am  Thursday March 3, 2011"	"Meadow_Crk +"	50	silt	tree5	1000	0	22	90	40	tree20	150	22	33	100	40	0	ft	""
+WD	wepp-2799	"09:42 am  Thursday March 3, 2011"	"Fleecer +"	30	clay	tree20	50	0	30	100	20	tree5	50	30	5	100	20	0	ft	""
+WE	wepp-19633	"09:37 am  Wednesday June 1, 1969"	"Fleecer +"	clay	20	forest	0	50	30	300	l			ft
+WD	wepp-28548	"08:54 am  Wednesday August 3, 2011"	"Stonewalled +"	10	loam	LowFire	1200	26	37	85	20	OldForest	300	37	5	100	20	0	ft	""
+WD	wepp-28569	"08:54 am  Wednesday August 3, 2011"	"Stonewalled +"	10	loam	HighFire	1200	26	37	45	20	OldForest	300	37	5	100	20	0	ft	""
+WD	wepp-28590	"08:55 am  Wednesday August 3, 2011"	"Stonewalled +"	10	loam	HighFire	1200	26	37	45	20	OldForest	300	37	5	100	20	0	ft	""
+WD	wepp-28638	"08:56 am  Wednesday August 3, 2011"	"Stonewalled +"	10	loam	Skid	1200	26	37	100	20	OldForest	300	37	5	100	20	0	ft	""
+WD	wepp-28658	"08:57 am  Wednesday August 3, 2011"	"Stonewalled +"	10	loam	Skid	1200	26	37	100	20	OldForest	300	37	5	100	20	0	ft	""
+WD	wepp-28751	"09:07 am  Wednesday August 3, 2011"	"Stonewalled +"	30	loam	HighFire	1200	26	37	45	20	OldForest	300	37	5	100	20	0	ft	""
+WD	wepp-28771	"09:07 am  Wednesday August 3, 2011"	"Stonewalled +"	30	loam	LowFire	1200	26	37	85	20	OldForest	300	37	5	100	20	0	ft	""
+WD	wepp-28795	"09:10 am  Wednesday August 3, 2011"	"Stonewalled +"	30	loam	Skid	1200	26	37	100	20	OldForest	300	37	5	100	20	0	ft	""
+WD	wepp-28842	"09:13 am  Wednesday August 3, 2011"	"Stonewalled +"	30	loam	Skid	400	29	24	100	20	OldForest	100	24	0	100	20	0	ft	""
+WD	wepp-28912	"09:16 am  Wednesday August 3, 2011"	"Stonewalled +"	30	loam	HighFire	400	29	24	45	20	OldForest	100	24	0	100	20	0	ft	""
+WD	wepp-28932	"09:17 am  Wednesday August 3, 2011"	"Stonewalled +"	30	loam	LowFire	400	29	24	85	20	OldForest	100	24	0	100	20	0	ft	""
+WD	wepp-28951	"09:17 am  Wednesday August 3, 2011"	"Stonewalled +"	30	loam	HighFire	400	29	24	45	20	OldForest	100	24	0	100	20	0	ft	""
+WD	wepp-29215	"09:38 am  Wednesday August 3, 2011"	"Stonewalled +"	30	loam	OldForest	1200	37	36	100	20	OldForest	300	36	10	100	20	0	ft	""
+WD	wepp-29288	"09:45 am  Wednesday August 3, 2011"	"Stonewalled +"	30	loam	LowFire	1200	37	36	85	20	OldForest	300	36	10	100	20	0	ft	""
+WD	wepp-30987	"12:14 pm  Wednesday August 3, 2011"	"Fleecer +"	10	clay	OldForest	50	0	30	100	20	OldForest	50	30	5	100	20	0	ft	""

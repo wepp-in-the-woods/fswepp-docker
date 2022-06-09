@@ -1,0 +1,42 @@
+WR	wepp-21040	"02:43 pm  Tuesday May 3, 2011"	"Apache Maid AZ +"	50	sand	native	200	4	13	15	50	130	25	40	outrut	ft
+WR	wepp-21180	"02:49 pm  Tuesday May 3, 2011"	"Apache Maid AZ +"	50	sand	native	200	4	13	15	50	130	25	40	inbare	ft
+WR	wepp-21257	"02:50 pm  Tuesday May 3, 2011"	"Apache Maid AZ +"	50	sand	native	200	4	13	15	50	130	25	40	outrut	ft
+WR	wepp-21290	"02:50 pm  Tuesday May 3, 2011"	"Apache Maid AZ +"	50	sand	native	200	4	13	15	50	130	25	40	inveg	ft
+WR	wepp-21397	"02:52 pm  Tuesday May 3, 2011"	"Apache Maid AZ +"	50	sand	native	100	4	13	15	50	130	25	40	inveg	ft
+WR	wepp-21488	"02:54 pm  Tuesday May 3, 2011"	"Apache Maid AZ +"	50	sand	paved	200	4	13	15	50	130	25	40	inveg	ft
+WR	wepp-21585	"02:55 pm  Tuesday May 3, 2011"	"Apache Maid AZ +"	50	sand	graveled	200	4	13	15	50	130	25	40	inveg	ft
+WR	wepp-21748	"03:01 pm  Tuesday May 3, 2011"	"Apache Maid AZ +"	50	sand	graveled	200	4	13	15	50	130	25	40	outunrut	ft
+WR	wepp-21851	"03:03 pm  Tuesday May 3, 2011"	"Apache Maid AZ +"	50	sand	native	200	4	13	15	50	130	25	40	outunrut	ft
+WD	wepp-26097	"08:24 am  Wednesday May 4, 2011"	"../working/166_3_64_93w_w"	50	loam	tree20	300	6	14	100	15	tall	100	6	4	80	0	0	ft	"Red River - current"
+WD	wepp-26157	"08:24 am  Wednesday May 4, 2011"	"../working/166_3_64_93w_w"	50	loam	tree20	300	6	14	100	15	tall	100	6	4	80	0	0	ft	"Red River - current"
+WD	wepp-26162	"08:25 am  Wednesday May 4, 2011"	"../working/166_3_64_93w_w"	50	loam	tree20	300	6	14	100	15	tall	100	6	4	80	0	0	ft	"Red River - current"
+WD	wepp-26167	"08:25 am  Wednesday May 4, 2011"	"../working/166_3_64_93w_w"	50	loam	tree20	310	6	14	100	15	tall	90	6	4	80	0	0	ft	"Red River - current"
+WD	wepp-26173	"08:25 am  Wednesday May 4, 2011"	"../working/166_3_64_93w_w"	50	loam	tree20	310	6	14	100	15	tall	90	6	4	80	0	0	ft	""
+WD	wepp-26189	"08:26 am  Wednesday May 4, 2011"	"../working/166_3_64_93w_w"	50	loam	tree20	300	6	14	100	15	tree5	100	30	5	80	1	0	ft	"Red River - current"
+WD	wepp-26226	"08:29 am  Wednesday May 4, 2011"	"../working/166_3_64_93w_w"	50	loam	tree20	300	6	14	100	15	tall	50	6	4	80	0	0	ft	""
+WD	wepp-26232	"08:29 am  Wednesday May 4, 2011"	"../working/166_3_64_93w_w"	50	loam	tree20	300	6	14	100	15	tall	50	6	4	80	0	0	ft	""
+WD	wepp-26256	"08:30 am  Wednesday May 4, 2011"	"../working/166_3_64_93w_w"	50	loam	tree20	300	6	14	100	15	tall	50	6	4	80	0	0	ft	""
+WD	wepp-26263	"08:31 am  Wednesday May 4, 2011"	"../working/166_3_64_93w_w"	50	loam	tree20	300.1	6	14	100	15	tall	50	6	4	80	0	0	ft	"rr current"
+WD	wepp-26273	"08:32 am  Wednesday May 4, 2011"	"../working/166_3_64_93w_w"	50	loam	tree20	300.1	6	14	100	15	tall	49.9	6	4	80	0	0	ft	"rr current"
+WD	wepp-26286	"08:33 am  Wednesday May 4, 2011"	"../working/166_3_64_93w_w"	50	loam	tree20	300.1	6	14	100	15	tree5	49.9	6	4	80	0	0	ft	"rr current"
+WD	wepp-26296	"08:34 am  Wednesday May 4, 2011"	"../working/166_3_64_93w_w"	50	loam	tree20	300.1	6	14	100	15	tree5	49.9	6	4	80	1	0	ft	"rr current"
+WD	wepp-26310	"08:35 am  Wednesday May 4, 2011"	"../working/166_3_64_93w_w"	50	loam	tree20	250	6	14	100	15	tree5	100	6	4	80	1	0	ft	"rr current"
+WD	wepp-26397	"08:37 am  Wednesday May 4, 2011"	"../working/166_3_64_93w_w"	35	loam	tree20	250	6	14	100	15	tree5	100	6	4	80	1	0	ft	"rr current"
+WD	wepp-26402	"08:37 am  Wednesday May 4, 2011"	"SANDIA PARK NM"	35	loam	tree20	250	6	14	100	15	tree5	100	6	4	80	1	0	ft	"rr current"
+WD	wepp-26593	"08:43 am  Wednesday May 4, 2011"	"RED RIVER NM +"	50	loam	high	300	6	14	30	15	low	100	6	3	60	0	0	ft	""
+WF	wepp-26844	"09:00 am  Wednesday May 4, 2011"	"RED RIVER NM +"	loam	300	100	6	14	6	150	20	20	8	ft
+WE	wepp-28286	"09:35 am  Wednesday May 4, 1909"	"RED RIVER NM +"	loam	15	forest	6	14	6	300	h			ft
+WE	wepp-30879	"10:15 am  Wednesday May 4, 1996"	"SANDIA PARK NM"	loam	15	forest	6	14	6	300	h			ft
+WE	wepp-31524	"10:18 am  Wednesday May 4, 1909"	"RED RIVER NM +"	loam	15	forest	6	24	9	300	h			ft
+WD	wepp-31995	"10:45 am  Wednesday May 4, 2011"	"Apache Maid AZ +"	30	sand	short	50	0	30	20	20	tree5	50	30	5	20	20	0	ft	""
+WD	wepp-32053	"10:45 am  Wednesday May 4, 2011"	"Apache Maid AZ +"	30	sand	short	50	0	30	50	20	tree5	50	30	5	50	20	0	ft	""
+WD	wepp-32134	"10:47 am  Wednesday May 4, 2011"	"Apache Maid AZ +"	30	sand	short	300	5	10	50	20	tree5	100	30	5	75	20	0	ft	""
+WD	wepp-32206	"10:49 am  Wednesday May 4, 2011"	"Apache Maid AZ +"	50	sand	short	300	5	10	50	20	tree5	100	30	5	75	20	0	ft	""
+WD	wepp-32271	"10:50 am  Wednesday May 4, 2011"	"Apache Maid AZ +"	50	sand	short	300	5	10	20	20	short	100	30	5	75	20	0	ft	""
+WD	wepp-32277	"10:50 am  Wednesday May 4, 2011"	"Apache Maid AZ +"	50	sand	short	300	5	10	20	20	short	100	30	5	75	20	0	ft	""
+WD	wepp-32364	"10:56 am  Wednesday May 4, 2011"	"Apache Maid AZ +"	50	sand	short	300	5	10	50	20	short	100	30	5	50	20	0	ft	""
+WD	wepp-32415	"10:58 am  Wednesday May 4, 2011"	"Apache Maid AZ +"	50	sand	short	300	5	10	60	20	short	100	30	5	75	20	0	ft	""
+WD	wepp-32456	"10:58 am  Wednesday May 4, 2011"	"Apache Maid AZ +"	50	sand	short	300	5	10	60	20	short	100	30	5	75	20	0	ft	""
+WD	wepp-32566	"11:00 am  Wednesday May 4, 2011"	"Apache Maid AZ +"	50	sand	tall	300	5	10	50	20	tall	100	30	5	60	20	0	ft	""
+WD	wepp-32599	"11:01 am  Wednesday May 4, 2011"	"Apache Maid AZ +"	50	sand	tall	300	5	10	50	20	tall	100	30	5	60	20	0	ft	""
+WE	wepp-1022	"02:05 pm  Wednesday May 4, 1953"	"RED RIVER NM +"	loam	20	forest	30	40	10	1000	h			ft

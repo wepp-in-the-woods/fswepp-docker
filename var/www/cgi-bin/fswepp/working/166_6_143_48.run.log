@@ -1,0 +1,285 @@
+WF	wepp-169247	"01:06 pm  Tuesday March 3, 2015"	"Thomas Creek +"	silt	500	75	10	35	20	140	20	20	4	ft
+WR	wepp-169366	"01:07 pm  Tuesday March 3, 2015"	"Thomas Creek +"	50	silt	native	300	3.5	13	13	70	75	20	20	inveg	ft
+WF	wepp-169404	"01:09 pm  Tuesday March 3, 2015"	"Thomas Creek +"	clay	500	75	10	35	20	140	20	20	4	ft
+WF	wepp-169761	"01:21 pm  Tuesday March 3, 2015"	"Thomas Creek +"	clay	500	75	10	35	15	140	20	20	9.9	ft
+WF	wepp-169851	"01:21 pm  Tuesday March 3, 2015"	"Thomas Creek +"	clay	300	75	10	35	15	140	20	20	9.9	ft
+WF	wepp-169900	"01:21 pm  Tuesday March 3, 2015"	"Thomas Creek +"	clay	300	75	10	35	15	140	20	20	9.9	ft
+WF	wepp-170015	"01:23 pm  Tuesday March 3, 2015"	"Thomas Creek +"	clay	300	50	10	35	15	140	20	20	3	ft
+WF	wepp-170119	"01:25 pm  Tuesday March 3, 2015"	"Thomas Creek +"	silt	200	50	10	35	15	140	20	20	3	ft
+WF	wepp-170206	"01:25 pm  Tuesday March 3, 2015"	"Thomas Creek +"	silt	300	50	10	35	15	140	20	20	3	ft
+WF	wepp-170238	"01:25 pm  Tuesday March 3, 2015"	"Thomas Creek +"	silt	300	75	10	35	15	140	20	20	3	ft
+WF	wepp-170355	"01:27 pm  Tuesday March 3, 2015"	"Thomas Creek +"	silt	300	75	10	35	15	140	20	20	3	ft
+WF	wepp-170480	"01:28 pm  Tuesday March 3, 2015"	"Thomas Creek +"	clay	300	75	10	35	15	140	20	20	3	ft
+WF	wepp-170601	"01:29 pm  Tuesday March 3, 2015"	"Thomas Creek +"	clay	500	75	10	35	15	140	20	20	3	ft
+WD	wepp-170829	"01:31 pm  Tuesday March 3, 2015"	"Thomas Creek +"	10	clay	OldForest	300	10	35	90	20	OldForest	75	35	15	90	20	0	ft	""
+WD	wepp-170907	"01:32 pm  Tuesday March 3, 2015"	"Thomas Creek +"	30	silt	OldForest	300	10	35	90	20	OldForest	75	35	15	90	20	0	ft	""
+WD	wepp-171038	"01:34 pm  Tuesday March 3, 2015"	"Thomas Creek +"	30	silt	YoungForest	300	10	30	100	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-171097	"01:35 pm  Tuesday March 3, 2015"	"Thomas Creek +"	30	silt	YoungForest	300	10	30	100	20	YoungForest	75	30	5	100	20	0	ft	""
+WR	wepp-171160	"01:36 pm  Tuesday March 3, 2015"	"Thomas Creek +"	30	silt	native	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-171211	"01:37 pm  Tuesday March 3, 2015"	"Thomas Creek +"	30	silt	graveled	200	4	13	15	50	130	25	20	inveg	ft
+WE	wepp-171303	"01:39 pm  Tuesday March 3, 2015"	"Thomas Creek +"	silt	20	forest	10	35	15	300	l			ft
+WF	wepp-102156	"04:25 pm  Tuesday March 24, 2015"	"Thomas Creek +"	silt	200	10	20	60	15	40	20	20	0	ft
+WE	wepp-102246	"04:30 pm  Tuesday March 24, 2015"	"Thomas Creek +"	silt	20	forest	0	50	30	300	u			ft
+WE	wepp-102330	"04:31 pm  Tuesday March 24, 2015"	"Thomas Creek +"	silt	20	forest	0	50	30	300	l			ft
+WD	wepp-102599	"04:33 pm  Tuesday March 24, 2015"	"Thomas Creek +"	30	silt	OldForest	300	0	30	100	20	OldForest	300	30	5	100	20	0	ft	""
+WD	wepp-102638	"04:34 pm  Tuesday March 24, 2015"	"Thomas Creek +"	30	silt	OldForest	300	10	55	100	20	OldForest	10	55	15	100	20	0	ft	""
+WD	wepp-102676	"04:34 pm  Tuesday March 24, 2015"	"Thomas Creek +"	30	silt	LowFire	50	10	55	85	20	LowFire	10	55	15	85	20	0	ft	""
+WD	wepp-102727	"04:35 pm  Tuesday March 24, 2015"	"Thomas Creek +"	30	silt	LowFire	300	10	55	85	20	LowFire	10	55	15	85	20	0	ft	""
+WD	wepp-102769	"04:37 pm  Tuesday March 24, 2015"	"Thomas Creek +"	30	silt	YoungForest	300	10	55	90	20	OldForest	75	55	15	100	20	0	ft	""
+WD	wepp-102809	"04:38 pm  Tuesday March 24, 2015"	"Thomas Creek +"	30	silt	YoungForest	300	0	30	90	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-102961	"04:40 pm  Tuesday March 24, 2015"	"Thomas Creek +"	30	silt	YoungForest	300	10	35	85	20	OldForest	75	30	10	90	20	0	ft	""
+WD	wepp-102999	"04:42 pm  Tuesday March 24, 2015"	"Thomas Creek +"	30	silt	Skid	300	10	35	20	20	YoungForest	75	30	10	90	20	0	ft	""
+WD	wepp-103036	"04:43 pm  Tuesday March 24, 2015"	"Thomas Creek +"	30	silt	Skid	300	0	30	20	20	YoungForest	100	30	5	90	20	0	ft	""
+WD	wepp-103075	"04:43 pm  Tuesday March 24, 2015"	"Thomas Creek +"	30	silt	Skid	300	0	35	20	20	YoungForest	200	35	5	90	20	0	ft	""
+WD	wepp-103128	"04:45 pm  Tuesday March 24, 2015"	"Thomas Creek +"	30	silt	Skid	200	0	35	20	20	YoungForest	200	35	5	90	20	0	ft	""
+WD	wepp-103167	"04:48 pm  Tuesday March 24, 2015"	"Thomas Creek +"	30	silt	Skid	300	10	35	20	20	YoungForest	100	20	5	90	20	0	ft	""
+WD	wepp-103208	"04:49 pm  Tuesday March 24, 2015"	"Thomas Creek +"	30	silt	YoungForest	300	10	35	85	20	YoungForest	100	20	5	90	20	0	ft	""
+WD	wepp-103258	"04:50 pm  Tuesday March 24, 2015"	"Thomas Creek +"	30	silt	YoungForest	300	10	60	85	20	YoungForest	75	55	10	90	20	0	ft	""
+WD	wepp-103296	"04:51 pm  Tuesday March 24, 2015"	"Thomas Creek +"	30	silt	LowFire	300	10	60	80	20	YoungForest	75	55	10	90	20	0	ft	""
+WD	wepp-103333	"04:51 pm  Tuesday March 24, 2015"	"Thomas Creek +"	30	silt	LowFire	300	0	30	80	20	YoungForest	25	30	5	90	20	0	ft	""
+WD	wepp-103372	"04:53 pm  Tuesday March 24, 2015"	"Thomas Creek +"	30	silt	HighFire	300	0	30	45	20	YoungForest	75	30	5	90	20	0	ft	""
+WB	wepp-103723	"05:00 pm  Tuesday March 24, 2015"	"Thomas Creek +"	silt	200	50	0	30	15	40	20	20	4	ft
+WR	wepp-103795	"05:02 pm  Tuesday March 24, 2015"	"Thomas Creek +"	30	silt	native	200	4	13	15	50	25	25	20	outrut	ft
+WR	wepp-103831	"05:03 pm  Tuesday March 24, 2015"	"Thomas Creek +"	30	silt	native	200	4	13	15	50	25	25	20	outrut	ft
+WR	wepp-103868	"05:03 pm  Tuesday March 24, 2015"	"Thomas Creek +"	30	silt	native	200	4	13	15	50	130	25	20	inbare	ft
+WR	wepp-103904	"05:04 pm  Tuesday March 24, 2015"	"Thomas Creek +"	30	silt	native	200	4	13	15	50	25	25	20	inbare	ft
+WR	wepp-103940	"05:04 pm  Tuesday March 24, 2015"	"Thomas Creek +"	30	silt	native	200	4	13	15	50	25	25	20	inbare	ft
+WR	wepp-103988	"05:05 pm  Tuesday March 24, 2015"	"Thomas Creek +"	30	loam	native	200	4	13	15	50	25	25	20	inbare	ft
+WR	wepp-104036	"05:05 pm  Tuesday March 24, 2015"	"Thomas Creek +"	30	loam	native	200	4	13	15	50	25	25	20	inbare	ft
+WE	wepp-104113	"05:06 pm  Tuesday March 24, 2015"	"Thomas Creek +"	silt	20	forest	0	50	30	300	l			ft
+WE	wepp-104228	"05:06 pm  Tuesday March 24, 2015"	"Thomas Creek +"	silt	20	forest	0	50	30	300	l			ft
+WE	wepp-104372	"05:07 pm  Tuesday March 24, 2015"	"Thomas Creek +"	silt	20	forest	0	50	30	300	u			ft
+WE	wepp-104458	"05:08 pm  Tuesday March 24, 2015"	"Thomas Creek +"	silt	20	forest	0	50	30	300	l			ft
+WD	wepp-104636	"05:09 pm  Tuesday March 24, 2015"	"Thomas Creek +"	10	clay	OldForest	300	0	30	100	20	OldForest	75	30	5	100	20	0	ft	""
+WE	wepp-104705	"05:10 pm  Tuesday March 24, 2015"	"Thomas Creek +"	silt	20	forest	0	50	30	300	l			ft
+WD	wepp-104874	"05:11 pm  Tuesday March 24, 2015"	"Thomas Creek +"	10	silt	OldForest	300	0	30	100	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-104909	"05:11 pm  Tuesday March 24, 2015"	"Thomas Creek +"	10	silt	LowFire	300	0	30	85	20	LowFire	75	30	5	85	20	0	ft	""
+WD	wepp-104945	"05:12 pm  Tuesday March 24, 2015"	"Thomas Creek +"	10	silt	LowFire	300	0	30	85	20	LowFire	1.5	30	5	85	20	0	ft	""
+WD	wepp-104981	"05:12 pm  Tuesday March 24, 2015"	"Thomas Creek +"	10	silt	LowFire	300	0	60	100	20	LowFire	1.5	60	5	100	20	0	ft	""
+WD	wepp-105017	"05:12 pm  Tuesday March 24, 2015"	"Thomas Creek +"	10	silt	LowFire	300	10	60	85	20	LowFire	75	60	5	85	20	0	ft	""
+WD	wepp-105053	"05:13 pm  Tuesday March 24, 2015"	"Thomas Creek +"	30	silt	LowFire	300	10	30	85	20	LowFire	75	30	5	85	20	0	ft	""
+WR	wepp-130445	"12:42 pm  Tuesday March 31, 2015"	"Thomas Creek +"	30	silt	graveled	200	4	13	15	50	100	25	20	inveg	ft
+WR	wepp-130642	"12:48 pm  Tuesday March 31, 2015"	"Thomas Creek +"	30	silt	graveled	200	4	13	15	50	50	25	20	inbare	ft
+WD	wepp-130714	"12:49 pm  Tuesday March 31, 2015"	"Thomas Creek +"	10	silt	OldForest	300	0	30	100	20	OldForest	300	30	5	100	20	0	ft	""
+WD	wepp-130767	"12:50 pm  Tuesday March 31, 2015"	"Thomas Creek +"	10	silt	YoungForest	300	0	30	100	20	YoungForest	300	30	5	100	20	0	ft	""
+WD	wepp-130809	"12:50 pm  Tuesday March 31, 2015"	"Thomas Creek +"	10	silt	YoungForest	50	0	30	80	20	YoungForest	50	30	5	90	20	0	ft	""
+WD	wepp-130848	"12:50 pm  Tuesday March 31, 2015"	"Thomas Creek +"	10	silt	LowFire	50	0	30	85	20	YoungForest	50	30	5	90	20	0	ft	""
+WD	wepp-130887	"12:50 pm  Tuesday March 31, 2015"	"Thomas Creek +"	10	silt	HighFire	50	0	30	45	20	YoungForest	50	30	5	100	20	0	ft	""
+WD	wepp-130926	"12:51 pm  Tuesday March 31, 2015"	"Thomas Creek +"	10	silt	HighFire	300	0	30	45	20	YoungForest	50	30	5	100	20	0	ft	""
+WD	wepp-130965	"12:51 pm  Tuesday March 31, 2015"	"Thomas Creek +"	10	silt	HighFire	300	0	30	45	20	YoungForest	50	30	5	100	20	0	ft	""
+WD	wepp-131007	"12:51 pm  Tuesday March 31, 2015"	"Thomas Creek +"	30	silt	HighFire	50	0	30	45	20	YoungForest	50	30	5	100	20	0	ft	""
+WD	wepp-131047	"12:52 pm  Tuesday March 31, 2015"	"Thomas Creek +"	30	silt	HighFire	300	0	30	45	20	YoungForest	100	30	5	100	20	0	ft	""
+WD	wepp-131090	"12:52 pm  Tuesday March 31, 2015"	"Thomas Creek +"	30	silt	Skid	300	0	30	20	20	YoungForest	100	30	5	100	20	0	ft	""
+WD	wepp-131133	"12:53 pm  Tuesday March 31, 2015"	"Thomas Creek +"	30	silt	Skid	200	0	30	20	20	YoungForest	100	30	5	100	20	0	ft	""
+WD	wepp-131174	"12:53 pm  Tuesday March 31, 2015"	"Thomas Creek +"	30	silt	Skid	200	0	30	100	20	YoungForest	200	30	5	100	20	0	ft	""
+WD	wepp-131213	"12:53 pm  Tuesday March 31, 2015"	"Thomas Creek +"	30	silt	Skid	50	0	30	20	20	YoungForest	200	30	5	100	20	0	ft	""
+WD	wepp-131259	"12:54 pm  Tuesday March 31, 2015"	"Thomas Creek +"	30	silt	Skid	200	0	30	20	20	YoungForest	100	30	5	100	20	0	ft	""
+WD	wepp-131299	"12:54 pm  Tuesday March 31, 2015"	"Thomas Creek +"	30	silt	Skid	200	0	30	20	20	YoungForest	200	30	5	100	20	0	ft	""
+WD	wepp-131340	"12:54 pm  Tuesday March 31, 2015"	"Thomas Creek +"	30	silt	Skid	100	0	30	20	20	YoungForest	200	30	5	100	20	0	ft	""
+WB	wepp-131469	"12:56 pm  Tuesday March 31, 2015"	"Thomas Creek +"	silt	300	75	0	30	15	120	20	20	3	ft
+WB	wepp-136418	"04:26 pm  Tuesday March 31, 2015"	"Thomas Creek +"	silt	200	75	0	30	15	120	20	20	3	ft
+WB	wepp-136556	"04:30 pm  Tuesday March 31, 2015"	"Thomas Creek +"	silt	300	75	0	30	15	120	20	20	3	ft
+WB	wepp-136635	"04:32 pm  Tuesday March 31, 2015"	"Thomas Creek +"	silt	300	75	0	30	15	120	20	20	3.2	ft
+WB	wepp-136689	"04:33 pm  Tuesday March 31, 2015"	"Thomas Creek +"	silt	400	75	0	30	15	120	20	20	3.2	ft
+WB	wepp-137020	"04:40 pm  Tuesday March 31, 2015"	"Thomas Creek +"	silt	300	75	0	30	15	120	20	20	5.2	ft
+WB	wepp-137117	"04:42 pm  Tuesday March 31, 2015"	"Thomas Creek +"	silt	200	75	0	30	15	120	20	20	5.2	ft
+WB	wepp-137164	"04:42 pm  Tuesday March 31, 2015"	"Thomas Creek +"	silt	400	75	0	30	15	120	20	20	5.2	ft
+WB	wepp-137254	"04:45 pm  Tuesday March 31, 2015"	"Thomas Creek +"	loam	400	75	0	30	15	120	20	20	5.2	ft
+WB	wepp-137990	"05:04 pm  Tuesday March 31, 2015"	"Thomas Creek +"	silt	300	75	0	30	15	120	20	20	4.3	ft
+WB	wepp-138033	"05:05 pm  Tuesday March 31, 2015"	"Thomas Creek +"	silt	400	75	0	30	15	120	20	20	4.3	ft
+WB	wepp-138121	"05:07 pm  Tuesday March 31, 2015"	"Thomas Creek +"	silt	400	75	0	30	15	120	20	20	4.8	ft
+WB	wepp-138161	"05:07 pm  Tuesday March 31, 2015"	"Thomas Creek +"	silt	450	75	0	30	15	120	20	20	4.3	ft
+WB	wepp-138205	"05:08 pm  Tuesday March 31, 2015"	"Thomas Creek +"	silt	450	75	0	30	15	120	20	20	4.8	ft
+WF	wepp-181574	"02:41 pm  Wednesday April 1, 2015"	"Thomas Creek +"	silt	400	75	0	30	15	120	20	20	4.3	ft
+WF	wepp-182154	"02:45 pm  Wednesday April 1, 2015"	"Thomas Creek +"	silt	450	75	0	30	15	120	20	20	4.3	ft
+WR	wepp-182947	"02:56 pm  Wednesday April 1, 2015"	"Thomas Creek +"	30	silt	graveled	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-183078	"02:59 pm  Wednesday April 1, 2015"	"Thomas Creek +"	30	silt	graveled	200	4	13	15	50	130	25	20	outrut	ft
+WR	wepp-183161	"03:00 pm  Wednesday April 1, 2015"	"Thomas Creek +"	30	silt	graveled	200	4	13	15	50	130	25	20	inbare	ft
+WR	wepp-183226	"03:01 pm  Wednesday April 1, 2015"	"Thomas Creek +"	30	silt	graveled	200	4	13	15	50	100	25	20	inbare	ft
+WE	wepp-183347	"03:03 pm  Wednesday April 1, 2015"	"Thomas Creek +"	silt	20	forest	0	50	30	300	l			ft
+WE	wepp-183523	"03:03 pm  Wednesday April 1, 2015"	"Thomas Creek +"	silt	20	forest	0	50	30	300	u			ft
+WE	wepp-183630	"03:04 pm  Wednesday April 1, 2015"	"Thomas Creek +"	silt	20	forest	0	50	30	1000	u			ft
+WE	wepp-183724	"03:04 pm  Wednesday April 1, 2015"	"Thomas Creek +"	silt	20	forest	0	50	30	1000	l			ft
+WR	wepp-215356	"01:27 pm  Wednesday April 8, 2015"	"Thomas Creek +"	30	silt	graveled	200	4	16	45	50	75	25	20	inveg	ft
+WR	wepp-215405	"01:28 pm  Wednesday April 8, 2015"	"Thomas Creek +"	30	silt	graveled	200	4	16	45	50	50	25	20	inveg	ft
+WR	wepp-215581	"01:32 pm  Wednesday April 8, 2015"	"Thomas Creek +"	30	silt	graveled	200	4	16	45	50	50	25	20	inveg	ft
+WR	wepp-215722	"01:34 pm  Wednesday April 8, 2015"	"Thomas Creek +"	30	silt	graveled	200	4	16	45	50	100	25	20	inveg	ft
+WR	wepp-215771	"01:34 pm  Wednesday April 8, 2015"	"Thomas Creek +"	30	silt	graveled	200	4	16	45	50	100	25	20	inbare	ft
+WR	wepp-215830	"01:34 pm  Wednesday April 8, 2015"	"Thomas Creek +"	30	loam	graveled	200	4	16	45	50	100	25	20	inbare	ft
+WR	wepp-215895	"01:35 pm  Wednesday April 8, 2015"	"Thomas Creek +"	30	silt	graveled	200	4	16	45	50	100	25	20	inbare	ft
+WR	wepp-215940	"01:35 pm  Wednesday April 8, 2015"	"Thomas Creek +"	30	silt	graveled	200	4	16	45	50	100	25	20	inbare	ft
+WR	wepp-216005	"01:36 pm  Wednesday April 8, 2015"	"Thomas Creek +"	30	silt	graveled	200	4	16	45	50	100	25	20	outrut	ft
+WR	wepp-216062	"01:36 pm  Wednesday April 8, 2015"	"Thomas Creek +"	30	silt	graveled	200	4	16	45	50	100	25	20	inveg	ft
+WR	wepp-216107	"01:36 pm  Wednesday April 8, 2015"	"Thomas Creek +"	30	silt	graveled	200	4	16	45	50	50	25	20	inveg	ft
+WR	wepp-216160	"01:37 pm  Wednesday April 8, 2015"	"Thomas Creek +"	30	silt	graveled	200	4	16	45	50	50	25	20	inveg	ft
+WR	wepp-216209	"01:37 pm  Wednesday April 8, 2015"	"Thomas Creek +"	30	silt	graveled	200	4	16	45	50	100	25	20	inveg	ft
+WR	wepp-216256	"01:37 pm  Wednesday April 8, 2015"	"Thomas Creek +"	30	silt	graveled	200	4	16	45	50	100	25	20	inbare	ft
+WR	wepp-216304	"01:38 pm  Wednesday April 8, 2015"	"Thomas Creek +"	30	silt	graveled	200	4	16	45	50	50	25	20	inbare	ft
+WR	wepp-219992	"03:23 pm  Wednesday April 8, 2015"	"Thomas Creek +"	30	silt	graveled	200	4	16	45	50	50	25	20	inbare	ft
+WR	wepp-220041	"03:24 pm  Wednesday April 8, 2015"	"Thomas Creek +"	30	silt	graveled	200	4	16	45	50	100	25	20	inbare	ft
+WR	wepp-222676	"04:07 pm  Wednesday April 8, 2015"	"Thomas Creek +"	30	silt	graveled	200	4	16	45	50	100	25	20	inveg	ft
+WR	wepp-222792	"04:08 pm  Wednesday April 8, 2015"	"Thomas Creek +"	30	silt	graveled	200	4	16	45	50	50	25	20	inveg	ft
+WR	wepp-222859	"04:09 pm  Wednesday April 8, 2015"	"Thomas Creek +"	30	silt	native	200	4	16	45	50	50	25	20	inveg	ft
+WR	wepp-223029	"04:10 pm  Wednesday April 8, 2015"	"Thomas Creek +"	30	silt	graveled	200	4	16	45	50	50	25	20	inveg	ft
+WR	wepp-57337	"02:12 pm  Thursday April 9, 2015"	"Thomas Creek +"	30	silt	graveled	300	3	13	13	60	75	15	20	outrut	ft
+WR	wepp-57668	"02:18 pm  Thursday April 9, 2015"	"Thomas Creek +"	50	silt	graveled	300	3	13	13	60	75	15	20	outrut	ft
+WB	wepp-57841	"02:21 pm  Thursday April 9, 2015"	"Thomas Creek +"	silt	450	75	0	30	15	120	20	20	4.3	ft
+WB	wepp-58406	"02:35 pm  Thursday April 9, 2015"	"Thomas Creek +"	silt	450	75	0	30	15	90	20	20	4.3	ft
+WB	wepp-58483	"02:35 pm  Thursday April 9, 2015"	"Thomas Creek +"	silt	400	75	0	30	15	90	20	20	4	ft
+WB	wepp-58527	"02:35 pm  Thursday April 9, 2015"	"Thomas Creek +"	silt	400	75	0	30	15	90	20	20	4.3	ft
+WB	wepp-58591	"02:36 pm  Thursday April 9, 2015"	"Thomas Creek +"	silt	450	75	0	30	15	90	20	20	4.3	ft
+WB	wepp-58687	"02:37 pm  Thursday April 9, 2015"	"Thomas Creek +"	silt	500	75	0	30	15	90	20	20	4.3	ft
+WB	wepp-58748	"02:38 pm  Thursday April 9, 2015"	"Thomas Creek +"	silt	500	75	0	30	15	40	10	20	4.3	ft
+WB	wepp-58837	"02:38 pm  Thursday April 9, 2015"	"Thomas Creek +"	silt	300	75	0	30	15	90	20	20	4.3	ft
+WB	wepp-58935	"02:39 pm  Thursday April 9, 2015"	"Thomas Creek +"	silt	275	75	0	30	15	90	20	20	4.3	ft
+WB	wepp-59004	"02:40 pm  Thursday April 9, 2015"	"Thomas Creek +"	silt	300	75	0	30	15	90	20	20	4.3	ft
+WB	wepp-59493	"02:45 pm  Thursday April 9, 2015"	"Thomas Creek +"	silt	300	75	0	30	15	90	20	20	4.8	ft
+WF	wepp-60348	"03:02 pm  Thursday April 9, 2015"	"Thomas Creek +"	silt	300	75	0	30	15	90	20	20	4.3	ft
+WD	wepp-60692	"03:07 pm  Thursday April 9, 2015"	"Thomas Creek +"	50	silt	LowFire	225	0	30	85	20	OldForest	75	30	15	100	20	0	ft	""
+WR	wepp-60746	"03:08 pm  Thursday April 9, 2015"	"Thomas Creek +"	50	silt	graveled	300	3	13	13	60	75	15	20	outrut	ft
+WD	wepp-60832	"03:10 pm  Thursday April 9, 2015"	"Thomas Creek +"	50	silt	LowFire	225	0	30	85	20	OldForest	75	30	15	100	20	0	ft	""
+WD	wepp-61178	"03:21 pm  Thursday April 9, 2015"	"Thomas Creek +"	50	silt	LowFire	225	0	30	85	20	OldForest	75	30	15	100	20	0	ft	""
+WD	wepp-61311	"03:22 pm  Thursday April 9, 2015"	"Thomas Creek +"	50	silt	LowFire	225	0	30	85	20	OldForest	75	30	15	100	20	0	ft	""
+WD	wepp-61431	"03:24 pm  Thursday April 9, 2015"	"Thomas Creek +"	50	silt	LowFire	225	0	30	85	20	OldForest	75	30	15	100	20	0	ft	""
+WB	wepp-26640	"08:28 am  Tuesday May 26, 2015"	"Thomas Creek +"	silt	300	75	0	30	15	90	20	20	4.8	ft
+WB	wepp-26804	"08:32 am  Tuesday May 26, 2015"	"Thomas Creek +"	silt	300	75	0	30	15	90	20	20	4.3	ft
+WB	wepp-26922	"08:34 am  Tuesday May 26, 2015"	"Thomas Creek +"	silt	300	75	0	30	15	90	20	20	4.65	ft
+WB	wepp-27028	"08:35 am  Tuesday May 26, 2015"	"Thomas Creek +"	silt	300	75	0	30	15	90	20	20	5	ft
+WB	wepp-27156	"08:39 am  Tuesday May 26, 2015"	"Thomas Creek +"	silt	300	75	0	30	15	90	20	20	4.7	ft
+WB	wepp-27321	"08:40 am  Tuesday May 26, 2015"	"Thomas Creek +"	silt	300	75	0	30	15	90	20	20	4.9	ft
+WB	wepp-27426	"08:41 am  Tuesday May 26, 2015"	"Thomas Creek +"	silt	300	1	0	30	15	90	20	20	4.3	ft
+WB	wepp-27522	"08:42 am  Tuesday May 26, 2015"	"Thomas Creek +"	silt	300	1	0	30	15	120	20	20	4.3	ft
+WB	wepp-27624	"08:43 am  Tuesday May 26, 2015"	"Thomas Creek +"	silt	300	1	0	30	15	120	120	20	4.3	ft
+WB	wepp-27740	"08:45 am  Tuesday May 26, 2015"	"Thomas Creek +"	silt	600	1	0	30	15	90	20	20	4.3	ft
+WB	wepp-27831	"08:46 am  Tuesday May 26, 2015"	"Thomas Creek +"	silt	300	1	0	30	15	90	20	20	4.3	ft
+WB	wepp-27952	"08:48 am  Tuesday May 26, 2015"	"Thomas Creek +"	silt	400	1	0	30	15	90	20	20	4.3	ft
+WB	wepp-28063	"08:49 am  Tuesday May 26, 2015"	"Thomas Creek +"	silt	350	1	0	30	15	90	20	20	4.3	ft
+WB	wepp-28170	"08:50 am  Tuesday May 26, 2015"	"Thomas Creek +"	clay	375	1	0	30	15	90	20	20	4.3	ft
+WB	wepp-28255	"08:50 am  Tuesday May 26, 2015"	"Thomas Creek +"	silt	375	1	0	30	15	90	20	20	4.3	ft
+WB	wepp-28358	"08:52 am  Tuesday May 26, 2015"	"Thomas Creek +"	silt	375	75	0	30	15	90	20	20	4.9	ft
+WB	wepp-28544	"08:55 am  Tuesday May 26, 2015"	"Thomas Creek +"	silt	375	75	0	30	15	90	20	20	4.7	ft
+WB	wepp-28641	"08:57 am  Tuesday May 26, 2015"	"Thomas Creek +"	silt	375	75	0	30	15	90	20	20	4.8	ft
+WB	wepp-28734	"08:57 am  Tuesday May 26, 2015"	"Thomas Creek +"	silt	375	75	0	30	15	90	20	20	5	ft
+WF	wepp-28953	"09:02 am  Tuesday May 26, 2015"	"Thomas Creek +"	silt	375	1	0	30	15	90	20	20	4.3	ft
+WB	wepp-29090	"09:04 am  Tuesday May 26, 2015"	"Thomas Creek +"	silt	380	1	0	30	15	90	20	20	4.3	ft
+WB	wepp-29191	"09:05 am  Tuesday May 26, 2015"	"Thomas Creek +"	silt	380	1	0	35	15	90	20	20	4.3	ft
+WB	wepp-29280	"09:05 am  Tuesday May 26, 2015"	"Thomas Creek +"	silt	350	1	0	35	15	90	20	20	4.3	ft
+WB	wepp-29368	"09:06 am  Tuesday May 26, 2015"	"Thomas Creek +"	silt	340	1	0	35	15	90	20	20	4.3	ft
+WB	wepp-29456	"09:06 am  Tuesday May 26, 2015"	"Thomas Creek +"	silt	325	1	0	35	15	90	20	20	4.3	ft
+WB	wepp-29629	"09:07 am  Tuesday May 26, 2015"	"Thomas Creek +"	silt	325	75	0	35	15	90	20	20	4.3	ft
+WB	wepp-29692	"09:08 am  Tuesday May 26, 2015"	"Thomas Creek +"	silt	325	1	0	35	15	90	20	20	4.3	ft
+WB	wepp-29859	"09:13 am  Tuesday May 26, 2015"	"Thomas Creek +"	silt	325	75	0	35	15	90	20	20	4.3	ft
+WB	wepp-30039	"09:16 am  Tuesday May 26, 2015"	"Thomas Creek +"	silt	325	75	0	35	15	90	20	20	4.9	ft
+WB	wepp-30163	"09:18 am  Tuesday May 26, 2015"	"Thomas Creek +"	silt	325	75	0	35	15	90	20	20	4.8	ft
+WB	wepp-30257	"09:19 am  Tuesday May 26, 2015"	"Thomas Creek +"	silt	325	75	0	35	15	90	20	20	4.7	ft
+WB	wepp-30350	"09:20 am  Tuesday May 26, 2015"	"Thomas Creek +"	silt	325	75	0	35	15	90	20	20	5	ft
+WB	wepp-33895	"11:19 am  Tuesday May 26, 2015"	"Thomas Creek +"	silt	300	1	0	35	15	90	20	20	4.3	ft
+WB	wepp-34002	"11:20 am  Tuesday May 26, 2015"	"Thomas Creek +"	silt	310	1	0	35	15	90	20	20	4.3	ft
+WB	wepp-34173	"11:24 am  Tuesday May 26, 2015"	"Thomas Creek +"	silt	310	1	0	35	15	90	20	20	4.3	ft
+WB	wepp-34550	"11:36 am  Tuesday May 26, 2015"	"Thomas Creek +"	silt	310	75	0	35	15	90	20	20	4.3	ft
+WB	wepp-34649	"11:38 am  Tuesday May 26, 2015"	"Thomas Creek +"	silt	310	75	0	35	15	90	20	20	4.9	ft
+WB	wepp-34813	"11:41 am  Tuesday May 26, 2015"	"Thomas Creek +"	silt	310	1	0	35	15	90	20	20	4.9	ft
+WB	wepp-34924	"11:42 am  Tuesday May 26, 2015"	"Thomas Creek +"	silt	310	75	0	35	15	90	20	20	4.9	ft
+WB	wepp-35170	"11:48 am  Tuesday May 26, 2015"	"Thomas Creek +"	silt	310	75	0	35	15	90	20	20	4.3	ft
+WB	wepp-35325	"11:49 am  Tuesday May 26, 2015"	"Thomas Creek +"	silt	250	75	0	35	15	90	20	20	4.3	ft
+WB	wepp-35508	"11:50 am  Tuesday May 26, 2015"	"Thomas Creek +"	silt	400	75	0	35	15	90	20	20	4.3	ft
+WB	wepp-35626	"11:51 am  Tuesday May 26, 2015"	"Thomas Creek +"	silt	375	75	0	35	15	90	20	20	4.3	ft
+WB	wepp-35793	"11:54 am  Tuesday May 26, 2015"	"Thomas Creek +"	silt	360	75	0	35	15	90	20	20	4.3	ft
+WB	wepp-36129	"11:54 am  Tuesday May 26, 2015"	"Thomas Creek +"	silt	365	75	0	35	15	90	20	20	4.3	ft
+WB	wepp-36240	"11:55 am  Tuesday May 26, 2015"	"Thomas Creek +"	silt	360	75	0	35	15	90	20	20	4.3	ft
+WB	wepp-36343	"11:56 am  Tuesday May 26, 2015"	"Thomas Creek +"	silt	365	75	0	35	15	90	20	20	4.3	ft
+WB	wepp-36549	"12:05 pm  Tuesday May 26, 2015"	"Thomas Creek +"	silt	365	75	0	35	15	90	20	20	4.9	ft
+WB	wepp-36656	"12:06 pm  Tuesday May 26, 2015"	"Thomas Creek +"	silt	365	75	0	35	15	90	20	20	4.8	ft
+WB	wepp-36750	"12:07 pm  Tuesday May 26, 2015"	"Thomas Creek +"	silt	365	75	0	35	15	90	20	20	4.7	ft
+WB	wepp-36842	"12:07 pm  Tuesday May 26, 2015"	"Thomas Creek +"	silt	365	75	0	35	15	90	20	20	5	ft
+WD	wepp-37863	"12:45 pm  Tuesday May 26, 2015"	"Thomas Creek +"	30	silt	Skid	100	0	30	20	20	Skid	100	30	5	20	20	0	ft	""
+WB	wepp-38046	"12:50 pm  Tuesday May 26, 2015"	"Thomas Creek +"	silt	300	1	0	30	15	40	20	20	4.3	ft
+WR	wepp-38576	"12:52 pm  Tuesday May 26, 2015"	"Thomas Creek +"	30	silt	graveled	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-38620	"12:52 pm  Tuesday May 26, 2015"	"Thomas Creek +"	30	silt	graveled	200	4	13	15	50	50	25	20	inveg	ft
+WR	wepp-38662	"12:53 pm  Tuesday May 26, 2015"	"FLAGSTAFF WB AP AZ"	30	silt	graveled	200	4	13	15	50	50	25	20	inveg	ft
+WR	wepp-38710	"12:53 pm  Tuesday May 26, 2015"	"WALLA WALLA 9A AP WA +"	30	silt	graveled	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-38751	"12:53 pm  Tuesday May 26, 2015"	"Thomas Creek +"	30	silt	graveled	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-38848	"12:54 pm  Tuesday May 26, 2015"	"Thomas Creek +"	30	silt	graveled	200	4	13	15	50	50	25	20	inveg	ft
+WR	wepp-38891	"12:54 pm  Tuesday May 26, 2015"	"Thomas Creek +"	30	silt	paved	200	4	13	15	50	50	25	20	inveg	ft
+WR	wepp-38937	"12:54 pm  Tuesday May 26, 2015"	"Thomas Creek +"	30	silt	paved	200	4	13	15	50	50	25	20	inveg	ft
+WR	wepp-38995	"12:55 pm  Tuesday May 26, 2015"	"Thomas Creek +"	30	silt	paved	200	4	13	15	50	50	25	20	outunrut	ft
+WR	wepp-39040	"12:55 pm  Tuesday May 26, 2015"	"Thomas Creek +"	30	silt	graveled	200	4	13	15	50	50	25	20	outunrut	ft
+WR	wepp-39084	"12:55 pm  Tuesday May 26, 2015"	"Thomas Creek +"	30	silt	graveled	200	4	13	15	50	50	25	20	outrut	ft
+WR	wepp-39133	"12:56 pm  Tuesday May 26, 2015"	"Thomas Creek +"	30	silt	graveled	200	4	13	15	50	130	25	20	outrut	ft
+WR	wepp-39176	"12:56 pm  Tuesday May 26, 2015"	"Thomas Creek +"	30	silt	graveled	200	4	13	15	50	50	25	20	outrut	ft
+WR	wepp-39214	"12:56 pm  Tuesday May 26, 2015"	"Thomas Creek +"	30	silt	graveled	200	4	13	15	50	50	25	20	outrut	ft
+WR	wepp-39671	"01:07 pm  Tuesday May 26, 2015"	"Thomas Creek +"	30	silt	native	300	3.5	13	13	70	75	15	20	inveg	ft
+WB	wepp-40282	"01:23 pm  Tuesday May 26, 2015"	"Thomas Creek +"	silt	365	75	0	35	15	90	20	20	4.3	ft
+WR	wepp-40395	"01:24 pm  Tuesday May 26, 2015"	"Thomas Creek +"	50	silt	native	300	3.5	13	13	70	75	15	20	inveg	ft
+WR	wepp-40712	"01:33 pm  Tuesday May 26, 2015"	"Thomas Creek +"	50	silt	graveled	300	3.5	13	13	70	75	15	20	outrut	ft
+WR	wepp-40874	"01:38 pm  Tuesday May 26, 2015"	"Thomas Creek +"	50	silt	native	300	3.5	13	13	70	75	15	20	inveg	ft
+WR	wepp-40961	"01:40 pm  Tuesday May 26, 2015"	"Thomas Creek +"	30	silt	native	300	3.5	13	13	70	75	15	20	inveg	ft
+WR	wepp-41096	"01:42 pm  Tuesday May 26, 2015"	"Thomas Creek +"	30	silt	native	300	3.5	13	13	70	75	15	20	inveg	ft
+WB	wepp-42482	"02:02 pm  Tuesday May 26, 2015"	"Thomas Creek +"	silt	365	75	0	35	15	90	20	20	4.3	ft
+WR	wepp-42728	"02:02 pm  Tuesday May 26, 2015"	"Thomas Creek +"	50	silt	graveled	300	3.5	13	13	70	75	15	20	outrut	ft
+WR	wepp-43302	"02:06 pm  Tuesday May 26, 2015"	"Thomas Creek +"	30	silt	native	300	3.5	13	13	70	75	15	20	inveg	ft
+WR	wepp-43992	"02:21 pm  Tuesday May 26, 2015"	"Thomas Creek +"	30	silt	graveled	200	4	16	45	50	50	25	20	inveg	ft
+WR	wepp-44790	"02:38 pm  Tuesday May 26, 2015"	"Thomas Creek +"	50	silt	graveled	300	3.5	13	13	70	75	15	20	outrut	ft
+WR	wepp-44844	"02:39 pm  Tuesday May 26, 2015"	"Thomas Creek +"	50	silt	graveled	300	3.5	13	13	70	75	15	20	outrut	ft
+WR	wepp-44950	"02:42 pm  Tuesday May 26, 2015"	"Thomas Creek +"	30	silt	graveled	300	3.5	13	13	70	75	15	20	outunrut	ft
+WR	wepp-44989	"02:42 pm  Tuesday May 26, 2015"	"Thomas Creek +"	30	silt	graveled	300	3.5	13	13	70	75	15	20	outrut	ft
+WR	wepp-45347	"02:51 pm  Tuesday May 26, 2015"	"Thomas Creek +"	50	silt	native	300	3.5	13	13	70	75	15	20	inveg	ft
+WR	wepp-45359	"02:51 pm  Tuesday May 26, 2015"	"Thomas Creek +"	30	silt	native	300	3.5	13	13	70	75	15	20	inveg	ft
+WR	wepp-150575	"11:57 am  Thursday May 28, 2015"	"Thomas Creek +"	30	silt	graveled	200	3	16	15	50	50	25	20	inveg	ft
+WR	wepp-150612	"11:57 am  Thursday May 28, 2015"	"Thomas Creek +"	30	silt	graveled	200	3	16	15	50	50	25	20	inveg	ft
+WR	wepp-150653	"11:58 am  Thursday May 28, 2015"	"Thomas Creek +"	30	loam	graveled	200	3	16	15	50	50	25	20	inveg	ft
+WR	wepp-150700	"11:58 am  Thursday May 28, 2015"	"Thomas Creek +"	30	loam	graveled	200	3	16	15	50	50	25	20	inveg	ft
+WR	wepp-151136	"12:08 pm  Thursday May 28, 2015"	"Thomas Creek +"	30	loam	graveled	500	3	16	15	50	50	25	20	inveg	ft
+WR	wepp-151239	"12:10 pm  Thursday May 28, 2015"	"Thomas Creek +"	30	loam	graveled	200	3	14	15	50	50	25	20	inveg	ft
+WR	wepp-151277	"12:10 pm  Thursday May 28, 2015"	"Thomas Creek +"	30	silt	graveled	200	3	14	15	50	50	25	20	inveg	ft
+WR	wepp-151324	"12:11 pm  Thursday May 28, 2015"	"Thomas Creek +"	30	silt	graveled	200	3	14	15	50	25	25	20	inveg	ft
+WR	wepp-151389	"12:11 pm  Thursday May 28, 2015"	"Thomas Creek +"	30	silt	graveled	200	3	14	15	50	25	25	20	inveg	ft
+WR	wepp-151424	"12:11 pm  Thursday May 28, 2015"	"Thomas Creek +"	30	silt	graveled	200	3	14	15	50	25	25	20	inveg	ft
+WR	wepp-151558	"12:17 pm  Thursday May 28, 2015"	"Thomas Creek +"	30	silt	graveled	200	3	14	15	50	25	25	20	inveg	ft
+WR	wepp-151597	"12:17 pm  Thursday May 28, 2015"	"Thomas Creek +"	30	silt	graveled	200	3	14	15	50	25	25	20	inbare	ft
+WR	wepp-151638	"12:17 pm  Thursday May 28, 2015"	"Thomas Creek +"	30	silt	graveled	200	4	13	15	50	130	25	20	outunrut	ft
+WR	wepp-151676	"12:17 pm  Thursday May 28, 2015"	"Thomas Creek +"	30	silt	graveled	200	4	13	15	50	130	25	20	inbare	ft
+WR	wepp-151721	"12:18 pm  Thursday May 28, 2015"	"Thomas Creek +"	30	silt	graveled	200	3	14	15	50	25	25	20	inbare	ft
+WR	wepp-151760	"12:18 pm  Thursday May 28, 2015"	"Thomas Creek +"	30	silt	graveled	200	3	14	15	50	25	25	20	inveg	ft
+WR	wepp-151798	"12:18 pm  Thursday May 28, 2015"	"Thomas Creek +"	30	silt	graveled	200	4	13	15	50	25	25	20	inveg	ft
+WR	wepp-151835	"12:18 pm  Thursday May 28, 2015"	"Thomas Creek +"	30	silt	graveled	200	4	13	15	50	25	25	20	inbare	ft
+WR	wepp-151879	"12:19 pm  Thursday May 28, 2015"	"Thomas Creek +"	30	silt	graveled	200	4	13	15	50	50	25	20	inbare	ft
+WR	wepp-151919	"12:19 pm  Thursday May 28, 2015"	"Thomas Creek +"	30	silt	graveled	200	4	13	15	50	50	25	20	inveg	ft
+WR	wepp-151974	"12:19 pm  Thursday May 28, 2015"	"Thomas Creek +"	30	silt	graveled	200	3	13	15	50	50	30	20	inveg	ft
+WR	wepp-152029	"12:20 pm  Thursday May 28, 2015"	"Thomas Creek +"	30	silt	graveled	200	3	13	15	50	50	25	20	inveg	ft
+WR	wepp-152072	"12:20 pm  Thursday May 28, 2015"	"Thomas Creek +"	30	silt	graveled	200	3	14	15	50	50	25	20	inveg	ft
+WR	wepp-152112	"12:20 pm  Thursday May 28, 2015"	"Thomas Creek +"	30	silt	graveled	200	3	14	15	50	50	25	20	inveg	ft
+WR	wepp-152164	"12:20 pm  Thursday May 28, 2015"	"Thomas Creek +"	30	silt	graveled	200	3	14	15	50	50	25	20	inveg	ft
+WR	wepp-152284	"12:23 pm  Thursday May 28, 2015"	"Thomas Creek +"	30	silt	graveled	200	4	14	15	50	50	25	20	inveg	ft
+WR	wepp-152336	"12:23 pm  Thursday May 28, 2015"	"Thomas Creek +"	30	silt	graveled	200	4	14	15	50	50	25	20	inveg	ft
+WR	wepp-152491	"12:27 pm  Thursday May 28, 2015"	"Thomas Creek +"	30	silt	native	200	4	14	15	50	50	25	20	inveg	ft
+WR	wepp-152535	"12:27 pm  Thursday May 28, 2015"	"Thomas Creek +"	30	silt	native	200	4	14	15	50	50	25	20	inveg	ft
+WR	wepp-152580	"12:27 pm  Thursday May 28, 2015"	"Thomas Creek +"	30	silt	native	200	4	14	15	50	50	25	20	inveg	ft
+WR	wepp-152627	"12:28 pm  Thursday May 28, 2015"	"Thomas Creek +"	30	silt	native	200	4	14	15	50	50	25	20	inveg	ft
+WR	wepp-152691	"12:29 pm  Thursday May 28, 2015"	"Thomas Creek +"	30	silt	paved	200	4	14	15	50	50	25	20	inveg	ft
+WR	wepp-152732	"12:29 pm  Thursday May 28, 2015"	"Thomas Creek +"	30	silt	paved	200	4	14	15	50	50	25	20	inveg	ft
+WR	wepp-152785	"12:30 pm  Thursday May 28, 2015"	"Thomas Creek +"	30	silt	paved	200	4	20	15	50	50	25	20	outunrut	ft
+WR	wepp-152824	"12:30 pm  Thursday May 28, 2015"	"Thomas Creek +"	30	silt	paved	200	4	20	15	50	50	25	20	inveg	ft
+WR	wepp-152865	"12:30 pm  Thursday May 28, 2015"	"Thomas Creek +"	30	silt	paved	200	4	20	15	50	50	25	20	inveg	ft
+WR	wepp-152906	"12:31 pm  Thursday May 28, 2015"	"Thomas Creek +"	30	silt	paved	200	4	20	15	50	50	25	20	inveg	ft
+WR	wepp-152949	"12:31 pm  Thursday May 28, 2015"	"Thomas Creek +"	30	silt	native	200	4	20	15	50	50	25	20	inveg	ft
+WR	wepp-152987	"12:31 pm  Thursday May 28, 2015"	"Thomas Creek +"	30	silt	graveled	200	4	20	15	50	50	25	20	inveg	ft
+WR	wepp-153022	"12:32 pm  Thursday May 28, 2015"	"Thomas Creek +"	30	silt	paved	200	4	20	15	50	50	25	20	inveg	ft
+WR	wepp-153081	"12:32 pm  Thursday May 28, 2015"	"Thomas Creek +"	30	silt	paved	200	4	20	15	50	50	25	20	inveg	ft
+WR	wepp-153167	"12:34 pm  Thursday May 28, 2015"	"Thomas Creek +"	30	silt	paved	200	4	20	15	50	50	25	20	inveg	ft
+WR	wepp-153208	"12:34 pm  Thursday May 28, 2015"	"Thomas Creek +"	30	silt	paved	200	4	20	15	50	50	25	20	inveg	ft
+WR	wepp-153253	"12:35 pm  Thursday May 28, 2015"	"Thomas Creek +"	30	silt	paved	200	4	20	15	50	50	25	20	inveg	ft
+WR	wepp-153323	"12:36 pm  Thursday May 28, 2015"	"Thomas Creek +"	30	silt	paved	200	4	20	15	50	50	25	20	inveg	ft
+WR	wepp-44889	"04:18 pm  Thursday June 11, 2015"	"Thomas Creek +"	30	silt	paved	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-44962	"04:19 pm  Thursday June 11, 2015"	"Thomas Creek +"	30	silt	paved	200	4	20	15	50	50	25	20	inveg	ft
+WR	wepp-45004	"04:19 pm  Thursday June 11, 2015"	"Thomas Creek +"	30	silt	graveled	200	4	20	15	50	50	25	20	inveg	ft
+WR	wepp-45047	"04:19 pm  Thursday June 11, 2015"	"Thomas Creek +"	30	silt	graveled	200	4	20	15	50	50	25	20	inveg	ft
+WR	wepp-45099	"04:20 pm  Thursday June 11, 2015"	"Thomas Creek +"	30	silt	native	200	4	20	15	50	50	25	20	inveg	ft
+WR	wepp-45147	"04:20 pm  Thursday June 11, 2015"	"Thomas Creek +"	30	silt	graveled	200	4	20	15	50	50	25	20	inveg	ft
+WR	wepp-45328	"04:24 pm  Thursday June 11, 2015"	"Thomas Creek +"	30	silt	native	200	4	14	15	50	50	25	20	inveg	ft
+WR	wepp-45391	"04:25 pm  Thursday June 11, 2015"	"Thomas Creek +"	30	silt	paved	200	4	14	15	50	50	25	20	inveg	ft
+WR	wepp-45439	"04:25 pm  Thursday June 11, 2015"	"Thomas Creek +"	30	silt	graveled	200	4	14	15	50	50	25	20	inveg	ft
+WR	wepp-45480	"04:25 pm  Thursday June 11, 2015"	"Thomas Creek +"	30	silt	native	200	4	14	15	50	50	25	20	inveg	ft
+WE	wepp-897	"02:48 pm  Wednesday September 2, 2015"	"WALLA WALLA 9A AP WA +"	silt	20	forest	0	50	30	1000	l			ft
+WE	wepp-934	"02:49 pm  Wednesday September 2, 2015"	"Thomas Creek +"	silt	20	forest	0	50	30	1000	l			ft
+WE	wepp-932	"02:49 pm  Wednesday September 2, 2015"	"Thomas Creek +"	silt	20	forest	0	50	30	1000	l			ft

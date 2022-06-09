@@ -1,0 +1,13 @@
+WD	wepp-218575	"11:09 am  Friday July 24, 2015"	"LindseysModifiedClimate +"	30	silt	OldForest	350	50	30	100	0	OldForest	100	30	5	100	0	0	ft	""
+WD	wepp-219066	"11:15 am  Friday July 24, 2015"	"LindseysModifiedClimate +"	30	silt	YoungForest	350	50	30	100	0	OldForest	100	30	5	100	0	0	ft	""
+WD	wepp-219128	"11:16 am  Friday July 24, 2015"	"LindseysModifiedClimate +"	30	silt	LowFire	50	0	30	85	20	OldForest	50	30	5	100	20	0	ft	""
+WD	wepp-219255	"11:17 am  Friday July 24, 2015"	"LindseysModifiedClimate +"	30	sand	OldForest	50	5	5	100	0	OldForest	50	5	5	100	0	0	ft	""
+WD	wepp-219361	"11:19 am  Friday July 24, 2015"	"LindseysModifiedClimate +"	30	sand	OldForest	298	5	5	100	0	OldForest	150	5	5	100	0	0	ft	""
+WD	wepp-219705	"11:24 am  Friday July 24, 2015"	"LindseysModifiedClimate +"	30	sand	LowFire	298	5	5	85	0	OldForest	150	5	5	100	0	0	ft	""
+WD	wepp-220406	"11:36 am  Friday July 24, 2015"	"LindseysModifiedClimate +"	30	clay	OldForest	298	5	5	100	0	OldForest	150	5	5	100	0	0	ft	""
+WR	wepp-223704	"12:23 pm  Friday July 24, 2015"	"LindseysModifiedClimate +"	30	sand	native	365	3	12	1	0.3	1	0.3	20	outrut	ft
+WR	wepp-224183	"12:29 pm  Friday July 24, 2015"	"LindseysModifiedClimate +"	30	sand	native	365	3	12	1	0.3	1	0.3	20	outrut	ft
+WR	wepp-224280	"12:30 pm  Friday July 24, 2015"	"LindseysModifiedClimate +"	30	sand	graveled	200	4	13	15	50	130	25	20	outrut	ft
+WR	wepp-224397	"12:31 pm  Friday July 24, 2015"	"LindseysModifiedClimate +"	30	sand	graveled	350	3	12	1	0.3	1	0.3	0	outrut	ft
+WR	wepp-225305	"12:51 pm  Friday July 24, 2015"	"LindseysModifiedClimate +"	30	sand	graveled	350	0.3	12	1	0.3	1	0.3	0	outrut	ft
+WR	wepp-225410	"12:52 pm  Friday July 24, 2015"	"LindseysModifiedClimate +"	30	sand	native	350	0.3	12	1	0.3	1	5	20	outrut	ft

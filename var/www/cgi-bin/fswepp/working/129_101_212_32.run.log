@@ -1,0 +1,17 @@
+WR	wepp-105536	"11:29 am  Tuesday April 27, 2021"	"SAINT MARIES ID Custom 1 + +"	30	silt	graveled	200	4	13	15	50	1	25	20	inveg	ft
+WR	wepp-105583	"11:30 am  Tuesday April 27, 2021"	"SAINT MARIES ID Custom 1 + +"	30	silt	graveled	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-105621	"11:30 am  Tuesday April 27, 2021"	"SAINT MARIES ID Custom 1 + +"	30	silt	paved	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-105676	"11:31 am  Tuesday April 27, 2021"	"SAINT MARIES ID Custom 1 + +"	30	silt	graveled	200	4	13	15	50	1	25	20	outunrut	ft
+WR	wepp-105729	"11:32 am  Tuesday April 27, 2021"	"SAINT MARIES ID Custom 1 + +"	30	silt	graveled	200	4	13	15	50	1	25	20	outunrut	ft
+WR	wepp-105901	"11:37 am  Tuesday April 27, 2021"	"SAINT MARIES ID Custom Use +"	30	silt	graveled	200	4	13	15	50	1	25	20	inveg	ft
+WR	wepp-105941	"11:38 am  Tuesday April 27, 2021"	"SAINT MARIES ID Custom Use +"	30	silt	graveled	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-105995	"11:38 am  Tuesday April 27, 2021"	"SAINT MARIES ID Custom Use +"	30	silt	paved	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-106088	"11:39 am  Tuesday April 27, 2021"	"SAINT MARIES ID Custom Use +"	30	silt	graveled	200	4	13	15	50	1	25	20	outunrut	ft
+WR	wepp-106356	"11:51 am  Tuesday April 27, 2021"	"SAINT MARIES ID Custom low +"	30	silt	graveled	200	4	13	15	50	1	25	20	inveg	ft
+WR	wepp-106405	"11:52 am  Tuesday April 27, 2021"	"SAINT MARIES ID Custom low +"	30	silt	graveled	200	4	13	15	50	1	25	20	inbare	ft
+WD	wepp-106624	"12:02 pm  Tuesday April 27, 2021"	"SAINT MARIES ID Custom Use +"	10	silt	OldForest	50	0	30	100	20	OldForest	50	30	5	100	20	0	ft	""
+WD	wepp-106678	"12:02 pm  Tuesday April 27, 2021"	"SAINT MARIES ID Custom Use +"	10	silt	Sod	50	0	30	40	20	OldForest	50	30	5	100	20	0	ft	""
+WD	wepp-106742	"12:03 pm  Tuesday April 27, 2021"	"SAINT MARIES ID Custom Use +"	10	silt	OldForest	400	0	30	100	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-106869	"12:06 pm  Tuesday April 27, 2021"	"SAINT MARIES ID Custom Use +"	10	silt	Sod	400	0	30	40	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-107067	"12:09 pm  Tuesday April 27, 2021"	"SAINT MARIES ID Custom Use +"	10	silt	Sod	400	0	30	40	20	OldForest	30	30	5	100	20	0	ft	""
+WD	wepp-107183	"12:14 pm  Tuesday April 27, 2021"	"SAINT MARIES ID Custom Use +"	10	silt	LowFire	400	0	30	85	20	LowFire	75	30	5	85	20	0	ft	""

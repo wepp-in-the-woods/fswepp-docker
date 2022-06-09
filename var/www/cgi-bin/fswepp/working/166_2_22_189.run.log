@@ -1,0 +1,508 @@
+WD	wepp-30541	"05:12 pm  Thursday December 3, 2009"	"Heavenly Ski, CA +"	1	clay	tree20	15.2439024390244	0	30	100	20	tree5	15.2439024390244	30	5	100	20	0	ft	""
+WD	wepp-14559	"12:27 pm  Monday December 7, 2009"	"Heavenly Ski, CA +"	30	clay	high	15.2439024390244	0	30	45	0	high	15.2439024390244	30	5	45	0	0	ft	""
+WD	wepp-14567	"12:28 pm  Monday December 7, 2009"	"Heavenly Ski, CA +"	30	clay	high	15.2439024390244	0	30	45	0	high	15.2439024390244	30	5	45	0	0	ft	""
+WD	wepp-14572	"12:29 pm  Monday December 7, 2009"	"Heavenly Ski, CA +"	30	clay	high	15.2439024390244	0	30	45	30	high	15.2439024390244	30	5	45	30	0	ft	""
+WD	wepp-14596	"12:30 pm  Monday December 7, 2009"	"Heavenly Ski, CA +"	30	sand	high	15.2439024390244	0	30	45	0	high	15.2439024390244	30	5	45	0	0	ft	""
+WD	wepp-14601	"12:31 pm  Monday December 7, 2009"	"Heavenly Ski, CA +"	30	sand	high	15.2439024390244	0	30	45	30	high	15.2439024390244	30	5	45	30	0	ft	""
+WD	wepp-14633	"12:32 pm  Monday December 7, 2009"	"Heavenly Ski, CA +"	30	clay	high	15.2439024390244	0	30	45	50	high	15.2439024390244	30	5	45	50	0	ft	""
+WD	wepp-14638	"12:33 pm  Monday December 7, 2009"	"Heavenly Ski, CA +"	30	sand	high	15.2439024390244	0	30	45	50	high	15.2439024390244	30	5	45	50	0	ft	""
+WD	wepp-22905	"10:18 am  Thursday January 21, 2010"	"Heavenly Ski, CA +"	30	clay	tree20	15.2439024390244	0	30	100	20	tree5	15.2439024390244	30	5	100	20	0	ft	""
+WF	wepp-32569	"09:33 am  Monday January 25, 2010"	"East of Deadwd Dam ID +"	sand	500	50	20	40	30	40	20	20	4	ft
+WF	wepp-27499	"12:53 pm  Friday February 12, 2010"	"Gallatin MT +"	sand	400	50	10	40	30	40	20	20	4	ft
+WD	wepp-26517	"04:53 pm  Tuesday February 16, 2010"	"Heavenly Ski, CA +"	1	clay	skid	15.2439024390244	0	30	10	20	skid	15.2439024390244	30	5	10	20	0	ft	""
+WR	wepp-26524	"04:54 pm  Tuesday February 16, 2010"	"TAHOE CA"	1	clay	native	200	4	13	15	50	130	25	20	inveg
+WR	wepp-16290	"03:26 pm  Thursday April 8, 2010"	"TAHOE CA"	30	clay	native	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-9020	"09:41 am  Thursday April 15, 2010"	"TAHOE CA"	30	clay	native	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-9057	"09:43 am  Thursday April 15, 2010"	"ECHO PEAK CA"	30	clay	native	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-9062	"09:44 am  Thursday April 15, 2010"	"HEAVENLY VALLEY CA"	30	clay	native	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-9067	"09:44 am  Thursday April 15, 2010"	"ECHO PEAK CA"	30	clay	native	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-9072	"09:44 am  Thursday April 15, 2010"	"FALLEN LEAF CA"	30	silt	native	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-9078	"09:44 am  Thursday April 15, 2010"	"HAGEN'S MEADOW CA"	30	sand	native	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-9102	"09:45 am  Thursday April 15, 2010"	"HEAVENLY VALLEY CA"	30	sand	native	300	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-9107	"09:45 am  Thursday April 15, 2010"	"MARLETTE LAKE NV"	30	sand	graveled	300	4	13	15	50	130	25	20	outrut	ft
+WR	wepp-9113	"09:45 am  Thursday April 15, 2010"	"RUBICON #2 CA"	30	sand	graveled	300	4	13	15	50	130	25	20	outrut	ft
+WR	wepp-9118	"09:46 am  Thursday April 15, 2010"	"TAHOE CITY CROSS CA"	30	sand	graveled	300	4	13	15	50	20	25	20	outrut	ft
+WR	wepp-9124	"09:46 am  Thursday April 15, 2010"	"Lwr Homewood, CA +"	30	sand	graveled	300	4	13	15	50	20	25	20	outrut	ft
+WR	wepp-9129	"09:46 am  Thursday April 15, 2010"	"Heavenly Ski, CA +"	30	sand	graveled	300	4	13	15	50	20	25	20	outrut	ft
+WR	wepp-10984	"11:41 am  Thursday April 15, 2010"	"TAHOE CA"	30	clay	native	200	4	13	15	50	130	25	20	inveg	ft
+WD	wepp-11008	"11:42 am  Thursday April 15, 2010"	"Heavenly Ski, CA +"	30	silt	low	15.2439024390244	0	30	85	20	short	15.2439024390244	30	5	40	20	0	ft	""
+WD	wepp-11016	"11:43 am  Thursday April 15, 2010"	"TAHOE CITY CROSS CA"	30	silt	low	15.2439024390244	0	30	85	20	short	15.2439024390244	30	5	40	20	0	ft	""
+WD	wepp-11027	"11:44 am  Thursday April 15, 2010"	"HEAVENLY VALLEY CA"	30	silt	low	15.2439024390244	0	30	85	20	short	15.2439024390244	30	5	40	20	0	ft	""
+WD	wepp-11038	"11:44 am  Thursday April 15, 2010"	"MARLETTE LAKE NV"	30	silt	low	15.2439024390244	0	30	85	20	short	15.2439024390244	30	5	40	20	0	ft	""
+WD	wepp-11070	"11:45 am  Thursday April 15, 2010"	"RUBICON #2 CA"	30	silt	low	15.2439024390244	0	30	85	20	short	15.2439024390244	30	5	40	20	0	ft	""
+WD	wepp-11106	"11:46 am  Thursday April 15, 2010"	"ECHO PEAK CA"	30	silt	low	15.2439024390244	0	30	85	20	short	15.2439024390244	30	5	40	20	0	ft	""
+WD	wepp-11129	"11:47 am  Thursday April 15, 2010"	"Lwr Homewood, CA +"	30	silt	low	15.2439024390244	0	30	85	20	short	15.2439024390244	30	5	40	20	0	ft	""
+WD	wepp-11150	"11:47 am  Thursday April 15, 2010"	"HAGEN'S MEADOW CA"	30	silt	low	15.2439024390244	0	30	85	20	short	15.2439024390244	30	5	40	20	0	ft	""
+WD	wepp-11210	"11:49 am  Thursday April 15, 2010"	"TAHOE CA"	30	silt	low	15.2439024390244	0	30	85	20	short	15.2439024390244	30	5	40	20	0	ft	""
+WD	wepp-11221	"11:50 am  Thursday April 15, 2010"	"FALLEN LEAF CA"	30	silt	low	15.2439024390244	0	30	85	20	short	15.2439024390244	30	5	40	20	0	ft	""
+WW	wepp-11240	"04:11 pm  Monday April 19, 2010"	""			0	0	0	0	0	0		0	0	0	0	0	0		""			
+WW	wepp-11548	"04:40 pm  Monday April 19, 2010"	"Mica Ck ID +"	silt	short	76.219512195122	0	30	40	20	15	tree20	15.2439024390244	30	5	100	20	15	restricted	"decomposed granite"	25	1.42E-02	ft
+WW	wepp-11607	"04:42 pm  Monday April 19, 2010"	""	silt	short	76.219512195122	0	30	40	20	15	tree20	15.2439024390244	30	5	100	20	15	restricted	""			ft
+WW	wepp-11636	"04:43 pm  Monday April 19, 2010"	""	silt	short	76.219512195122	0	30	40	20	400	tree20	15.2439024390244	30	5	100	20	400	restricted	""			ft
+WW	wepp-11664	"04:45 pm  Monday April 19, 2010"	"Heavenly Ski, CA +"	silt	short	45.7317073170732	0	30	40	20	15	tree5	45.7317073170732	30	5	100	20	15	restricted	"decomposed granite"	25	1.42E-02	ft
+WW	wepp-11708	"04:47 pm  Monday April 19, 2010"	"Mica Ck ID +"	silt	short	76.219512195122	10	30	40	20	15	tree5	15.2439024390244	30	20	100	20	15	restricted	"decomposed granite"	25	1.42E-02	ft
+WW	wepp-11967	"05:12 pm  Monday April 19, 2010"	"Mica Ck ID +"	silt	short	150	0	30	85	20	400	tree20	50	30	5	100	20	400	restricted	"decomposed granite"	25	3.60E-01	m
+WW	wepp-12018	"05:14 pm  Monday April 19, 2010"	""	silt	tree20	150	0	30	100	20	400	tree20	50	30	5	100	20	400	restricted	""			m
+WW	wepp-12091	"05:16 pm  Monday April 19, 2010"	"Mica Ck ID +"	silt	tree20	250	0	30	100	20	400	tree5	50	30	5	100	20	400	restricted	"decomposed granite"	25	3.60E-01	m
+WW	wepp-31733	"04:08 pm  Tuesday April 20, 2010"	"Mica Ck ID +"	silt	tree20	100	10	40	100	20	400	tree20	50	35	20	100	20	400	restricted	"decomposed granite"	25	3.60E-01	m
+WW	wepp-31913	"04:14 pm  Tuesday April 20, 2010"	""	silt	tree20	100	10	40	100	20	400	tree20	50	35	20	100	20	400	restricted	""			m
+WW	wepp-32034	"04:19 pm  Tuesday April 20, 2010"	"Mica Ck ID 2060 +"	silt	tree20	100	10	40	100	20	400	tree20	50	35	20	100	20	400	restricted	"decomposed granite"	25	3.60E-01	m
+WD	wepp-9184	"08:49 am  Wednesday April 21, 2010"	"Mica Ck ID 2010 +"	30	silt	tree20	50	0	30	100	20	tree5	50	30	5	100	20	0	m	""
+WW	wepp-9218	"08:54 am  Wednesday April 21, 2010"	"Mica Ck ID 2010 +"	silt	tree20	100	10	40	100	20	400	tree20	50	35	20	100	20	400	restricted	"decomposed granite"	25	3.60E-01	m
+WW	wepp-10340	"09:16 am  Wednesday April 21, 2010"	""	silt	tree20	100	10	40	100	20	400	tree20	50	35	20	100	20	400	restricted	""			m
+WW	wepp-11388	"09:43 am  Wednesday April 21, 2010"	"Mica Ck ID 2060 +"	silt	tree20	150	10	40	100	20	400	tree20	50	35	20	100	20	400	restricted	"decomposed granite"	25	3.60E-01	m
+WW	wepp-23421	"02:39 pm  Friday April 23, 2010"	"Mica Ck ID 2010 +"	silt	tree20	150	0	30	100	20	400	tree20	50	30	5	100	20	400	restricted	"decomposed granite"	25	3.60E-01	m
+WE	wepp-17141	"02:34 pm  Monday May 10, 1930"	"Heavenly Ski, CA +"	clay	20	chap	0	50	30	300	l	80	0	ft
+WE	wepp-17270	"02:35 pm  Monday May 10, 1916"	"CHARLESTON KAN AP WV"	clay	20	chap	0	50	30	300	l	80	0	ft
+WE	wepp-17374	"02:36 pm  Monday May 10, 1968"	"CHARLESTON KAN AP WV"	sand	20	chap	0	50	30	300	l	80	15	ft
+WW	wepp-27853	"11:59 am  Tuesday May 11, 2010"	"Mica Ck ID 2060 +"	silt	tree20	100	20	40	100	20	400	tree20	50	35	30	100	20	400	restricted	"decomposed granite"	25	3.60E-01	m
+WW	wepp-27873	"12:00 pm  Tuesday May 11, 2010"	""	silt	tree20	100	20	40	100	20	400	tree20	50	35	40	100	20	400	restricted	""			m
+WW	wepp-27913	"12:01 pm  Tuesday May 11, 2010"	"Mica Ck ID 2060 +"	silt	tree20	150	40	40	100	20	400	tree20	50	35	40	100	20	400	restricted	"decomposed granite"	25	3.60E-01	m
+WW	wepp-27964	"12:06 pm  Tuesday May 11, 2010"	"Mica Ck ID 2060 +"	silt	tree20	150	40	40	100	20	400	tree5	50	35	5	100	20	400	restricted	"decomposed granite"	25	3.60E-01	m
+WW	wepp-27984	"12:06 pm  Tuesday May 11, 2010"	""	silt	tree20	150	40	40	100	20	400	tree5	50	35	5	100	20	400	restricted	""			m
+WW	wepp-28005	"12:08 pm  Tuesday May 11, 2010"	"Mica Ck ID 2010 +"	silt	tree20	150	40	40	100	20	400	tree20	50	35	5	100	20	400	restricted	"decomposed granite"	25	3.60E-01	m
+WW	wepp-28053	"12:09 pm  Tuesday May 11, 2010"	""	silt	tree20	150	40	40	100	20	400	tree20	50	35	30	100	20	400	restricted	""			m
+WW	wepp-28122	"12:12 pm  Tuesday May 11, 2010"	"Mica Ck ID 2010 +"	silt	tree20	150	40	40	100	20	400	tree20	50	30	30	100	20	400	restricted	"decomposed granite"	25	3.60E-01	m
+WW	wepp-28193	"12:17 pm  Tuesday May 11, 2010"	"Mica Ck ID 2010 +"	silt	tree20	150	40	40	100	20	400	tree20	50	35	30	100	20	400	restricted	"user-defined"	25	3.60	m
+WW	wepp-28271	"12:24 pm  Tuesday May 11, 2010"	"Mica Ck ID 2010 +"	sand	tree20	150	30	40	100	20	400	tree20	50	35	30	100	20	400	restricted	"user-defined"	25	3.60	m
+WW	wepp-12073	"12:50 pm  Wednesday May 12, 2010"	"Mica Ck ID 2010 +"	sand	tree20	150	20	30	100	20	400	tree20	50	40	30	100	20	400	restricted	"decomposed granite"	25	3.60E-01	m
+WW	wepp-30520	"01:43 pm  Thursday May 13, 2010"	"HEAVENLY VALLEY CA"	clay	short	150	0	30	40	20	400	tree20	50	30	5	100	20	400	restricted	"decomposed granite"	25	3.60E-01	m
+WD	wepp-20951	"01:41 pm  Monday May 17, 2010"	"Heavenly Ski, CA +"	30	clay	tree20	50	0	30	100	20	tree5	50	30	5	100	20	0	ft	""
+WD	wepp-22962	"09:24 am  Tuesday May 25, 2010"	"RUBICON #2 CA"	30	sand	tree20	50	0	30	100	20	tree5	50	30	5	100	20	0	ft	""
+wt	wepp-5394	"May 26, 2010"	""	granitic	OldForest	0	30	50	100	20	YoungForest	30	5	50	100	20	m	""
+wt	wepp-5456	"May 26, 2010"	"N of RUBICON CA +"	granitic	OldForest	0	30	15.2439024390244	100	20	YoungForest	30	5	15.2439024390244	100	20	ft	""
+wt	wepp-6448	"May 26, 2010"	"N of RUBICON CA +"	volcanic	Bare	30	30	15.2439024390244	0	20	Bare	30	20	15.2439024390244	20	20	ft	""
+wt	wepp-6596	"May 26, 2010"	"N of RUBICON CA +"	volcanic	Bare	30	30	15.2439024390244	0	20	Bare	30	20	15.2439024390244	20	20	ft	""
+wt	wepp-6676	"May 26, 2010"	"N of RUBICON CA +"	volcanic	Mulch	30	30	15.2439024390244	85	20	Mulch	30	20	15.2439024390244	85	20	ft	""
+wt	wepp-6707	"May 26, 2010"	"N of RUBICON CA +"	volcanic	Till	30	30	15.2439024390244	85	20	Till	30	20	15.2439024390244	85	20	ft	""
+wt	wepp-6779	"May 26, 2010"	"N of RUBICON CA +"	volcanic	Till	30	30	15.2439024390244	85	20	OldForest	30	20	15.2439024390244	100	20	ft	""
+wt	wepp-6993	"May 26, 2010"	"N of RUBICON CA +"	volcanic	Bare	30	30	15.2439024390244	0	20	OldForest	30	20	15.2439024390244	100	20	ft	""
+wt	wepp-9715	"May 26, 2010"	"Heavenly Ski, CA +"	granitic	OldForest	0	30	50	100	20	YoungForest	30	5	50	100	20	m	""
+wt	wepp-12350	"May 26, 2010"	"Heavenly Ski, CA +"	granitic	Shrub	0	30	50	60	20	Shrub	30	5	50	40	20	m	""
+wt	wepp-12370	"May 26, 2010"	"Heavenly Ski, CA +"	granitic	Shrub	0	30	50	60	20	Shrub	30	5	50	40	20	m	""
+WD	wepp-27923	"10:04 am  Tuesday June 1, 2010"	"Heavenly Ski, CA +"	30	clay	tall	50	0	30	60	20	tree5	50	30	5	100	20	0	ft	""
+WD	wepp-27965	"10:08 am  Tuesday June 1, 2010"	""				0	0	0	0	0		0	0	0	0	0	0		""
+WD	wepp-28038	"10:12 am  Tuesday June 1, 2010"	"Heavenly Ski, CA +"	30	silt	tall	200	0	30	60	20	tree5	100	30	5	100	20	0	ft	""
+wt	wepp-31596	"Jun 1, 2010"	"Heavenly Ski, CA +"	granitic	OldForest	0	30	15.2439024390244	100	20	OldForest	30	5	15.2439024390244	100	20	ft	""
+wt	wepp-7849	"Jun 14, 2010"	"HAGEN'S MEADOW CA SNOTEL"	granitic	Shrub	0	30	50	80	20	OldForest	30	5	50	100	20	m	""
+wt	wepp-7869	"Jun 14, 2010"	"HAGEN'S MEADOW CA SNOTEL"	granitic	HighFire	0	30	50	45	20	LowFire	30	5	50	85	20	m	""
+wt	wepp-7889	"Jun 14, 2010"	"HAGEN'S MEADOW CA SNOTEL"	granitic	HighFire	10	30	150	45	20	LowFire	30	20	50	85	20	m	""
+wt	wepp-7941	"Jun 14, 2010"	"HAGEN'S MEADOW CA SNOTEL"	alluvial	Mulch	40	40	150	60	20	YoungForest	30	20	50	100	20	m	""
+wt	wepp-7814	"Jun 18, 2010"	"Mica Ck ID 2010 +"	granitic	OldForest	0	30	200	100	20	YoungForest	30	5	50	100	20	ft	""
+wt	wepp-7862	"Jun 18, 2010"	"Mica Ck ID 2010 +"	granitic	OldForest	0	30	200	100	20	YoungForest	30	5	50	100	20	ft	""
+wt	wepp-7883	"Jun 18, 2010"	"Mica Ck ID 2010 +"	granitic	OldForest	0	30	200	100	20	YoungForest	30	5	50	100	20	ft	""
+WR	wepp-22986	"10:12 am  Thursday June 24, 2010"	"MC COOK TX"	30	sand	native	200	4	13	15	50	130	25	20	inveg	ft
+WE	wepp-25681	"02:15 pm  Thursday June 24, 1913"	"Mica Ck ID 2010 +"	clay	20	forest	0	50	30	300	h			ft
+WE	wepp-25841	"02:21 pm  Thursday June 24, 1913"	"Mica Ck ID 2010 +"	silt	20	forest	20	35	25	100	h			m
+WE	wepp-26462	"03:15 pm  Thursday June 24, 1913"	"Mica Ck ID 2010 +"	clay	20	forest	0	50	30	300	l			ft
+WR	wepp-7827	"02:23 pm  Friday June 25, 2010"	"Mica Ck ID 2010 +"	30	clay	native	200	4	13	15	50	400	25	20	inveg	ft
+WE	wepp-22665	"02:22 pm  Friday July 9, 1903"	"Mica_Ck_ID +"	sand	20	forest	18	35	14	1000	m			ft
+WE	wepp-22885	"02:41 pm  Friday July 9, 1903"	"Mica_Ck_ID +"	sand	20	forest	18	35	14	300	m			m
+WE	wepp-7587	"04:13 pm  Tuesday July 13, 1943"	"Mica_Ck_ID +"	silt	20	forest	18	35	14	300	l			m
+WE	wepp-23405	"10:33 am  Friday July 16, 1907"	"Mica_Ck_ID +"	sand	20	forest	10	35	30	100	m			ft
+WE	wepp-26306	"04:08 pm  Friday July 16, 1903"	"Mica_Ck_ID +"	sand	20	forest	18	35	14	300	m			m
+wt	wepp-6236	"Jul 22, 2010"	"POMEROY WA"	granitic	Bunchgrass	20	30	180	80	20	Sod	30	10	20	95	20	m	""
+wt	wepp-6256	"Jul 22, 2010"	"POMEROY WA"	granitic	Bunchgrass	20	30	180	80	20	Sod	30	5	20	95	20	m	""
+wt	wepp-6275	"Jul 22, 2010"	"POMEROY WA"	volcanic	Bunchgrass	20	30	180	80	20	Sod	30	5	20	95	20	m	""
+wt	wepp-6295	"Jul 22, 2010"	"POMEROY WA"	volcanic	Bunchgrass	20	30	180	70	20	Bunchgrass	30	5	20	70	20	m	""
+wt	wepp-6317	"Jul 22, 2010"	"POMEROY WA"	volcanic	Bunchgrass	20	30	180	40	20	Bunchgrass	30	5	20	70	20	m	""
+wt	wepp-6364	"Jul 22, 2010"	"POMEROY WA"	volcanic	Bunchgrass	20	30	180	40	20	Bunchgrass	30	5	20	40	20	m	""
+wt	wepp-6384	"Jul 22, 2010"	"POMEROY WA"	volcanic	Bunchgrass	20	30	180	40	20	Bunchgrass	30	5	20	40	20	m	""
+wt	wepp-6450	"Jul 22, 2010"	"POMEROY WA"	volcanic	Bunchgrass	20	30	180	30	20	Bunchgrass	30	5	20	40	20	m	""
+wt	wepp-6525	"Jul 22, 2010"	"POMEROY WA"	volcanic	Bunchgrass	10	30	50	40	20	Sod	30	5	50	60	20	m	""
+wt	wepp-6625	"Jul 22, 2010"	"POMEROY WA"	volcanic	Bunchgrass	10	30	50	70	20	Sod	30	5	50	85	20	m	""
+wt	wepp-6645	"Jul 22, 2010"	"POMEROY WA"	volcanic	Bunchgrass	10	30	50	70	20	Sod	30	20	50	85	20	m	""
+wt	wepp-6665	"Jul 22, 2010"	"POMEROY WA"	volcanic	Bunchgrass	10	30	180	70	20	Sod	30	20	20	85	20	m	""
+wt	wepp-6685	"Jul 22, 2010"	"POMEROY WA"	volcanic	Bunchgrass	10	30	180	70	20	Sod	30	5	20	85	20	m	""
+wt	wepp-6704	"Jul 22, 2010"	"POMEROY WA"	volcanic	Bunchgrass	10	30	180	60	20	Sod	30	5	20	85	20	m	""
+wt	wepp-6727	"Jul 22, 2010"	"POMEROY WA"	volcanic	Bunchgrass	20	50	180	50	20	Sod	50	5	20	85	20	m	""
+wt	wepp-6746	"Jul 22, 2010"	"POMEROY WA"	volcanic	Bunchgrass	20	50	180	50	20	Sod	50	20	20	85	20	m	""
+wt	wepp-6765	"Jul 22, 2010"	"POMEROY WA"	volcanic	Bunchgrass	20	50	180	40	20	Sod	50	20	20	80	20	m	""
+wt	wepp-6785	"Jul 22, 2010"	"POMEROY WA"	volcanic	Bunchgrass	20	50	180	30	20	Sod	50	20	20	70	20	m	""
+wt	wepp-6805	"Jul 22, 2010"	"POMEROY WA"	volcanic	Bunchgrass	20	50	180	20	20	Sod	50	20	20	60	20	m	""
+wt	wepp-6898	"Jul 22, 2010"	"POMEROY WA"	volcanic	Bunchgrass	20	50	180	20	20	Sod	50	10	20	60	20	m	""
+wt	wepp-6917	"Jul 22, 2010"	"POMEROY WA"	volcanic	Bunchgrass	20	50	180	10	20	Sod	50	10	20	50	20	m	""
+wt	wepp-6939	"Jul 22, 2010"	"POMEROY WA"	volcanic	Bunchgrass	20	50	180	10	30	Sod	50	10	20	50	30	m	""
+wt	wepp-6987	"Jul 22, 2010"	"POMEROY WA"	volcanic	Bunchgrass	20	50	199	10	30	Sod	50	10	1	50	30	m	""
+wt	wepp-7034	"Jul 22, 2010"	"POMEROY WA"	volcanic	HighRoad	1	1	200	10	30	Bunchgrass	4	4	10	40	30	m	""
+WE	wepp-17582	"01:33 pm  Friday July 23, 1907"	"POMEROY WA"	clay	20	forest	0	50	30	300	l			ft
+WE	wepp-13898	"01:41 pm  Wednesday July 28, 1945"	"POMEROY WA"	silt	20	range	10	40	30	400	m	15	75	ft
+wt	wepp-4168	"Aug 5, 2010"	"POMEROY WA"	granitic	OldForest	0	30	50	100	20	YoungForest	30	5	50	100	20	ft	""
+WF	wepp-12745	"03:36 pm  Monday August 9, 2010"	"Mica Ck ID 2010 +"	silt	400	50	10	30	15	40	20	20	4	ft
+WE	wepp-24697	"12:11 pm  Wednesday August 25, 1966"	"North 25 WA +"	sand	20	forest	50	39	30	222	h			m
+WE	wepp-24792	"12:13 pm  Wednesday August 25, 1966"	"North 25 WA +"	sand	20	forest	50	39	30	222	h			m
+WE	wepp-25802	"01:22 pm  Wednesday August 25, 1919"	"Mixing Fire CA +"	sand	20	forest	24	24	19	87	h			m
+WE	wepp-6468	"09:56 am  Thursday August 26, 1968"	"Valley Complex MT +"	loam	20	forest	46	39	30	127	h			m
+WE	wepp-6784	"10:19 am  Thursday August 26, 1968"	"Valley Complex MT +"	loam	20	forest	46	39	30	127	h			m
+WE	wepp-6905	"10:24 am  Thursday August 26, 1968"	"Valley Complex MT +"	loam	20	forest	46	39	30	127	h			m
+WE	wepp-6995	"10:25 am  Thursday August 26, 1968"	"Valley Complex MT +"	loam	20	forest	46	39	30	127	h			m
+WE	wepp-10489	"03:48 pm  Thursday August 26, 1968"	"Valley Complex MT +"	loam	20	forest	46	39	30	127	h			m
+WE	wepp-20148	"09:35 am  Friday August 27, 1942"	"North 25 WA +"	sand	20	forest	50	39	30	222	h			m
+WE	wepp-20972	"10:38 am  Friday August 27, 1971"	"Mixing CA +"	sand	20	forest	24	24	19	87	h			m
+WE	wepp-21569	"11:36 am  Friday August 27, 1902"	"Valley Fire MT +"	loam	20	forest	46	39	30	127	h			m
+WE	wepp-733	"02:37 pm  Monday August 30, 1922"	"Fridley MT +"	silt	20	forest	40	37	30	263	h			m
+WE	wepp-1253	"03:27 pm  Monday August 30, 1922"	"Fridley MT +"	silt	20	forest	40	37	30	263	m			m
+WE	wepp-1325	"03:28 pm  Monday August 30, 1922"	"Fridley MT +"	silt	20	forest	40	37	30	263	l			m
+WE	wepp-11339	"11:39 am  Tuesday August 31, 1948"	"Hayman Logs. CO +"	sand	40	forest	33	27	30	139	h			m
+WE	wepp-25724	"08:57 am  Wednesday September 1, 1988"	"Cannon CA +"	silt	20	forest	44	44	38	247	h			m
+WE	wepp-5602	"10:03 am  Thursday September 2, 1971"	"Mixing CA +"	sand	20	forest	24	24	19	87	h			m
+WE	wepp-19347	"08:52 am  Friday September 3, 1942"	"North 25 WA +"	sand	20	forest	50	39	30	222	h			m
+WE	wepp-19932	"09:49 am  Friday September 3, 1995"	"Valley Fire  MT +"	loam	20	forest	46	39	30	127	h			m
+WE	wepp-22525	"01:48 pm  Friday September 3, 1922"	"Fridley Fire MT +"	silt	20	forest	40	37	30	263	h			m
+WE	wepp-23006	"02:35 pm  Friday September 3, 1973"	"Hayman Fire CO +"	clay	40	forest	33	27	30	129	h			m
+WE	wepp-23711	"10:18 am  Thursday September 16, 1957"	"Hayman Fire CO +"	sand	40	forest	33	27	30	139	h			m
+WD	wepp-25017	"01:20 pm  Tuesday September 21, 2010"	"North 25 WA +"	30	sand	tree5	50	0	30	0	20	tree5	50	30	5	100	20	0	ft	""
+WD	wepp-25024	"01:21 pm  Tuesday September 21, 2010"	"North 25 WA +"	30	sand	shrub	50	0	30	80	20	tree5	50	30	5	100	20	0	ft	""
+WD	wepp-25039	"01:21 pm  Tuesday September 21, 2010"	"North 25 WA +"	30	sand	shrub	50	0	30	0	20	tree5	50	30	5	100	20	0	ft	""
+WD	wepp-25046	"01:21 pm  Tuesday September 21, 2010"	"North 25 WA +"	30	sand	tall	50	0	30	0	20	tree5	50	30	5	100	20	0	ft	""
+WD	wepp-25051	"01:22 pm  Tuesday September 21, 2010"	"North 25 WA +"	30	sand	short	50	0	30	0	20	tree5	50	30	5	100	20	0	ft	""
+WD	wepp-25056	"01:22 pm  Tuesday September 21, 2010"	"North 25 WA +"	30	sand	low	50	0	30	0	20	tree5	50	30	5	100	20	0	ft	""
+WD	wepp-25061	"01:22 pm  Tuesday September 21, 2010"	"North 25 WA +"	30	sand	skid	50	0	30	0	20	tree5	50	30	5	100	20	0	ft	""
+WE	wepp-25570	"02:01 pm  Tuesday September 21, 1957"	"Hayman Fire CO +"	sand	40	forest	33	27	30	139	h			m
+WE	wepp-1092	"11:04 am  Wednesday September 29, 1935"	"Hayman Fire CO +"	sand	20	forest	10	50	30	100	h			m
+WR	wepp-3764	"03:28 pm  Wednesday September 29, 2010"	"Valley Fire  MT +"	30	clay	native	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-3915	"03:34 pm  Wednesday September 29, 2010"	"Valley Fire  MT +"	30	sand	paved	200	4	13	1	50	130	25	20	inveg	ft
+WR	wepp-4012	"03:43 pm  Wednesday September 29, 2010"	"Valley Fire  MT +"	30	sand	paved	200	4	13	1	50	130	25	20	outunrut	ft
+wt	wepp-26825	"Oct 14, 2010"	"MARLETTE LAKE NV SNOTEL"	rockpave	Bare	4	4	12	0	50	Bunchgrass	4	4	2.5	40	20	ft	""
+wt	wepp-26942	"Oct 14, 2010"	"MARLETTE LAKE NV SNOTEL"	rockpave	Bare	4	4	12	0	50	Bunchgrass	4	4	2.5	40	20	ft	""
+wt	wepp-21782	"Oct 15, 2010"	"North 25 WA +"	granitic	YoungForest	0	30	50	80	20	YoungForest	30	5	50	80	20	ft	""
+WE	wepp-26994	"09:04 am  Thursday October 21, 1933"	"Cannon Fire, CA +"	silt	20	forest	44	44	38	247	h			m
+WE	wepp-22216	"11:35 am  Monday October 25, 1930"	"LOMPOC CA"	sand	5	forest	6	12	18	400	m			ft
+WE	wepp-22316	"11:39 am  Monday October 25, 1930"	"LOMPOC CA"	sand	5	forest	6	12	18	400	m			ft
+wt	wepp-5208	"Oct 29, 2010"	"MOUNT SHASTA CA"	granitic	YoungForest	0	30	200	80	20	OldForest	30	5	50	100	20	ft	""
+WR	wepp-13463	"04:34 pm  Monday November 8, 2010"	"Valdivia Chile final 3"	30	clay	native	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-13474	"04:34 pm  Monday November 8, 2010"	"Concepcion final 2"	30	sand	native	200	4	13	15	50	130	25	20	inveg	ft
+WE	wepp-13493	"04:35 pm  Monday November 8, 1926"	""	clay	20	forest	0	50	30	300	m			ft
+WE	wepp-13563	"04:36 pm  Monday November 8, 1926"	""	clay	20	forest	0	50	30	300	h			ft
+WD	wepp-13655	"04:37 pm  Monday November 8, 2010"	"Orense, Spain +"	30	sand	high	50	0	30	45	20	high	50	30	5	45	20	0	ft	""
+WR	wepp-14045	"02:46 pm  Wednesday December 8, 2010"	"Orense, Spain +"	30	clay	native	200	4	13	15	50	130	25	20	inveg	ft
+wt	wepp-14052	"Dec 8, 2010"	"North 25 WA +"	granitic	HighRoad	0	30	50	10	20	YoungForest	30	5	50	100	20	ft	""
+WW	wepp-12857	"09:42 am  Wednesday December 15, 2010"	"North 25 WA +"	sand	tree20	50	10	30	100	20	400	tree5	50	20	10	100	20	400		""	1	0	m
+WW	wepp-12909	"09:45 am  Wednesday December 15, 2010"	"North 25 WA +"	sand	high	50	0	30	45	20	400	low	50	30	5	100	20	400	restricted	"decomposed granite"	25	3.60E-01	m
+WW	wepp-12963	"09:47 am  Wednesday December 15, 2010"	""	sand	high	50	0	30	45	20	400	low	50	30	20	100	20	400	restricted	""			m
+WW	wepp-12991	"09:48 am  Wednesday December 15, 2010"	"North 25 WA +"	sand	high	50	5	30	45	20	400	low	50	30	10	100	20	400	restricted	"decomposed granite"	25	3.60E-01	m
+WW	wepp-15556	"01:07 pm  Wednesday December 15, 2010"	""	sand	tree20	50	5	30	100	20	400	tree20	50	30	10	100	20	400	restricted	""			m
+WW	wepp-15575	"01:08 pm  Wednesday December 15, 2010"	""	sand	tree20	50	5	30	100	20	400	tree20	50	30	10	100	20	400	restricted	""			m
+WW	wepp-15596	"01:10 pm  Wednesday December 15, 2010"	"North 25 WA +"	sand	tree20	50	5	30	100	20	400	tree20	50	20	10	100	20	400	restricted	"decomposed granite"	25	3.60E-01	m
+WE	wepp-9739	"02:28 pm  Thursday January 13, 1925"	"Orense, Spain +"	clay	20	range	5	50	30	300	h	15	75	ft
+WE	wepp-9828	"02:29 pm  Thursday January 13, 1931"	"Orense, Spain +"	silt	10	forest	5	10	5	110	m			ft
+WE	wepp-9897	"02:29 pm  Thursday January 13, 1919"	"Orense, Spain +"	sand	15	chap	1	20	3	150	l	80	0	ft
+WE	wepp-9946	"02:29 pm  Thursday January 13, 1926"	"Orense, Spain +"	loam	5	range	10	15	5	200	h	15	75	ft
+WE	wepp-10035	"02:29 pm  Thursday January 13, 1951"	"Orense, Spain +"	sand	20	forest	20	40	20	500	h			ft
+wt	wepp-14997	"Jan 28, 2011"	"North 25 WA +"	rockpave	Shrub	0	30	50	80	50	OldForest	30	5	50	100	20	ft	""
+wt	wepp-15161	"Jan 28, 2011"	"North 25 WA +"	granitic	HighFire	0	30	50	45	50	OldForest	30	5	50	100	20	ft	""
+wt	wepp-15257	"Jan 28, 2011"	"North 25 WA +"	granitic	LowFire	0	30	50	85	50	OldForest	30	5	50	100	20	ft	""
+wt	wepp-15461	"Jan 28, 2011"	"North 25 WA +"	granitic	Bunchgrass	0	30	50	40	50	OldForest	30	5	50	100	20	ft	""
+wt	wepp-15755	"Jan 28, 2011"	"North 25 WA +"	granitic	Sod	0	30	50	60	50	Sod	30	5	50	60	20	ft	""
+wt	wepp-15809	"Jan 28, 2011"	"North 25 WA +"	granitic	Bunchgrass	0	30	50	40	50	Bunchgrass	30	5	50	40	20	ft	""
+wt	wepp-15888	"Jan 28, 2011"	"North 25 WA +"	granitic	Shrub	0	30	50	80	50	Shrub	30	5	50	80	20	ft	""
+wt	wepp-14277	"Feb 4, 2011"	"MOUNT SHASTA CA"	volcanic	HighFire	0	30	50	45	20	HighFire	30	5	50	45	20	ft	""
+wt	wepp-14325	"Feb 4, 2011"	"MOUNT SHASTA CA"	volcanic	YoungForest	0	30	50	100	20	OldForest	30	5	50	100	20	ft	""
+wt	wepp-14448	"Feb 4, 2011"	"MOUNT SHASTA CA"	volcanic	HighFire	0	30	50	45	20	LowFire	30	5	50	85	20	ft	""
+wt	wepp-14514	"Feb 4, 2011"	"MOUNT SHASTA CA"	volcanic	LowFire	0	30	50	85	20	Bunchgrass	30	5	50	40	20	ft	""
+wt	wepp-14535	"Feb 4, 2011"	"MOUNT SHASTA CA"	volcanic	LowFire	0	30	50	85	20	Sod	30	5	50	60	20	ft	""
+wt	wepp-14584	"Feb 4, 2011"	"MOUNT SHASTA CA"	volcanic	Sod	0	30	50	60	20	OldForest	30	5	50	100	20	ft	""
+wt	wepp-14632	"Feb 4, 2011"	"MOUNT SHASTA CA"	volcanic	LowFire	0	30	50	85	20	Sod	30	5	50	60	20	ft	""
+wt	wepp-14679	"Feb 4, 2011"	"MOUNT SHASTA CA"	volcanic	Bunchgrass	0	30	50	40	20	Shrub	30	5	50	80	20	ft	""
+wt	wepp-26732	"Feb 11, 2011"	"North 25 WA +"	alluvial	OldForest	0	30	50	100	20	OldForest	30	5	50	100	20	ft	""
+wt	wepp-26801	"Feb 11, 2011"	"North 25 WA +"	alluvial	Bunchgrass	0	30	50	40	20	Shrub	30	5	50	80	20	ft	""
+wt	wepp-26867	"Feb 11, 2011"	"North 25 WA +"	alluvial	HighFire	0	30	50	45	20	HighFire	30	5	50	45	20	ft	""
+wt	wepp-26899	"Feb 11, 2011"	"North 25 WA +"	alluvial	HighFire	0	30	50	45	20	LowFire	30	5	50	85	20	ft	""
+wt	wepp-28920	"Feb 11, 2011"	""			0	0	0	0	0		0	0	0	0	0		""
+wt	wepp-28964	"Feb 11, 2011"	"North 25 WA +"	alluvial	LowFire	0	30	50	85	20	OldForest	30	5	50	100	20	ft	""
+wt	wepp-29005	"Feb 11, 2011"	"North 25 WA +"	alluvial	LowFire	20	40	400	85	20	OldForest	45	20	100	100	20	ft	""
+wt	wepp-29261	"Feb 11, 2011"	"North 25 WA +"	granitic	OldForest	20	40	400	100	20	OldForest	45	20	100	100	20	ft	""
+wt	wepp-29321	"Feb 11, 2011"	"North 25 WA +"	granitic	LowFire	20	40	400	85	20	LowFire	45	20	100	85	20	ft	""
+wt	wepp-29340	"Feb 11, 2011"	"North 25 WA +"	granitic	LowFire	20	40	400	85	20	LowFire	45	20	100	85	20	ft	""
+WD	wepp-3872	"11:13 am  Thursday March 3, 2011"	"Bob Marshal, Mt +"	30	silt	low	50	0	30	50	20	tree5	50	30	5	100	20	0	ft	""
+WD	wepp-3877	"11:14 am  Thursday March 3, 2011"	"Bob Marshal, Mt +"	30	silt	low	50	0	30	65	20	tree5	50	30	5	100	20	0	ft	""
+WD	wepp-3887	"11:14 am  Thursday March 3, 2011"	"Bob Marshal, Mt +"	30	silt	low	50	0	30	70	20	tree5	50	30	5	100	20	0	ft	""
+WD	wepp-4068	"11:31 am  Thursday March 3, 2011"	"Bob Marshal, Mt +"	50	silt	low	50	0	30	70	20	low	50	30	5	85	20	0	ft	""
+wt	wepp-1638	"Mar 8, 2011"	"North 25 WA +"	granitic	HighRoad	4	4	200	0	20	OldForest	25	20	50	100	20	ft	""
+wt	wepp-1688	"Mar 8, 2011"	"Olympic NP +"	granitic	HighRoad	4	4	200	5	20	YoungForest	30	20	200	100	20	ft	""
+wt	wepp-1789	"Mar 8, 2011"	"Olympic NP +"	volcanic	HighRoad	4	4	200	5	20	YoungForest	30	20	200	100	20	ft	""
+WR	wepp-1812	"02:32 pm  Tuesday March 8, 2011"	"Olympic NP +"	10	sand	graveled	200	4	13	15	50	200	30	20	outrut	ft
+wt	wepp-5202	"Mar 8, 2011"	"North 25 WA +"	granitic	Sod	0	30	50	40	20	Bunchgrass	30	5	50	60	20	ft	""
+wt	wepp-5222	"Mar 8, 2011"	"North 25 WA +"	granitic	Bunchgrass	0	30	50	60	20	Shrub	30	5	50	80	20	ft	""
+wt	wepp-5262	"Mar 8, 2011"	"North 25 WA +"	granitic	Sod	0	30	50	40	20	Bunchgrass	30	5	50	60	20	ft	""
+WD	wepp-31025	"04:58 pm  Monday March 14, 2011"	"North 25 WA +"	50	sand	low	100	20	40	40	20	low	30	45	35	50	15	0	m	"1"
+WD	wepp-31030	"04:58 pm  Monday March 14, 2011"	"North 25 WA +"	50	sand	low	120	20	40	40	20	low	30	45	35	50	15	0	m	"2"
+WD	wepp-31035	"04:58 pm  Monday March 14, 2011"	"North 25 WA +"	50	sand	low	140	20	40	40	20	low	30	45	35	50	15	0	m	"3"
+WD	wepp-31040	"04:58 pm  Monday March 14, 2011"	"North 25 WA +"	50	sand	low	160	20	40	40	20	low	30	45	35	50	15	0	m	"4"
+WD	wepp-31045	"04:58 pm  Monday March 14, 2011"	"North 25 WA +"	50	sand	low	180	20	40	40	20	low	30	45	35	50	15	0	m	"5"
+WD	wepp-31050	"04:58 pm  Monday March 14, 2011"	"North 25 WA +"	50	sand	low	200	20	40	40	20	low	30	45	35	50	15	0	m	"6"
+WD	wepp-31055	"04:58 pm  Monday March 14, 2011"	"North 25 WA +"	50	sand	low	300	20	40	40	20	low	30	45	35	50	15	0	m	"7"
+WD	wepp-29536	"09:19 am  Wednesday March 16, 2011"	"Mixing CA +"	50	sand	low	100	20	40	40	20	low	30	45	35	50	15	0	m	"1"
+WD	wepp-29544	"09:19 am  Wednesday March 16, 2011"	"Mixing CA +"	50	sand	low	120	20	40	40	20	low	30	45	35	50	15	0	m	"2"
+WD	wepp-29551	"09:19 am  Wednesday March 16, 2011"	"Mixing CA +"	50	sand	low	140	20	40	40	20	low	30	45	35	50	15	0	m	"3"
+WD	wepp-29558	"09:19 am  Wednesday March 16, 2011"	"Mixing CA +"	50	sand	low	160	20	40	40	20	low	30	45	35	50	15	0	m	"4"
+WD	wepp-29567	"09:19 am  Wednesday March 16, 2011"	"Mixing CA +"	50	sand	low	180	20	40	40	20	low	30	45	35	50	15	0	m	"5"
+WD	wepp-29574	"09:19 am  Wednesday March 16, 2011"	"Mixing CA +"	50	sand	low	200	20	40	40	20	low	30	45	35	50	15	0	m	"6"
+WD	wepp-29584	"09:19 am  Wednesday March 16, 2011"	"Mixing CA +"	50	sand	low	300	20	40	40	20	low	30	45	35	50	15	0	m	"7"
+WE	wepp-30325	"09:32 am  Wednesday March 16, 1903"	"North 25 WA +"	silt	20	forest	20	20	20	400	h			ft
+WE	wepp-30457	"09:32 am  Wednesday March 16, 1903"	"North 25 WA +"	silt	20	forest	20	20	20	400	h			ft
+WE	wepp-30562	"09:32 am  Wednesday March 16, 1903"	"North 25 WA +"	silt	20	forest	20	20	20	400	h			ft
+WE	wepp-30667	"09:32 am  Wednesday March 16, 1903"	"North 25 WA +"	silt	20	forest	20	20	20	400	h			ft
+WE	wepp-30770	"09:33 am  Wednesday March 16, 1971"	"North 25 WA +"	silt	20	forest	20	25	20	400	h			ft
+WE	wepp-30874	"09:33 am  Wednesday March 16, 1971"	"North 25 WA +"	silt	20	forest	20	30	20	400	h			ft
+WE	wepp-30978	"09:33 am  Wednesday March 16, 1971"	"North 25 WA +"	silt	20	forest	20	35	20	400	h			ft
+WE	wepp-31081	"09:34 am  Wednesday March 16, 1906"	"North 25 WA +"	silt	20	forest	20	40	20	400	h			ft
+WW	wepp-32617	"09:59 am  Wednesday March 16, 2011"	"North 25 WA +"	sand	tall	100	20	30	60	20	400	shrub	50	30	5	100	20	400	restricted	"decomposed granite"	25	3.60E-01	m
+WW	wepp-5920	"11:08 am  Wednesday March 16, 2011"	""	sand	tall	100	20	30	60	20	400	shrub	50	30	5	100	20	400	restricted	""			m
+WE	wepp-15232	"12:57 pm  Wednesday March 16, 1951"	"Orense, Spain +"	sand	20	forest	5	10	5	500	h			ft
+WE	wepp-15346	"12:57 pm  Wednesday March 16, 1951"	"Orense, Spain +"	sand	20	forest	10	20	10	500	h			ft
+WE	wepp-15461	"12:57 pm  Wednesday March 16, 1951"	"Orense, Spain +"	sand	20	forest	20	30	20	500	h			ft
+WE	wepp-15574	"12:57 pm  Wednesday March 16, 1951"	"Orense, Spain +"	sand	20	forest	30	40	30	500	h			ft
+WE	wepp-15686	"12:57 pm  Wednesday March 16, 1951"	"Orense, Spain +"	sand	20	forest	35	45	35	500	h			ft
+WD	wepp-18791	"01:22 pm  Wednesday March 16, 2011"	"North 25 WA +"	50	silt	tree20	150	20	35	100	20	tree20	50	40	30	100	20	0	m	"1"
+WD	wepp-18805	"01:22 pm  Wednesday March 16, 2011"	"North 25 WA +"	50	silt	tree5	150	20	35	95	20	tree20	50	40	30	100	20	0	m	"2"
+WD	wepp-18819	"01:22 pm  Wednesday March 16, 2011"	"North 25 WA +"	50	silt	shrub	150	20	35	90	20	tree5	50	40	30	95	20	0	m	"3"
+WD	wepp-18832	"01:22 pm  Wednesday March 16, 2011"	"North 25 WA +"	50	silt	tall	150	20	35	85	20	shrub	50	40	30	90	20	0	m	"4"
+WD	wepp-18850	"01:22 pm  Wednesday March 16, 2011"	"North 25 WA +"	50	silt	short	150	20	35	80	20	tall	50	40	30	85	20	0	m	"5"
+WD	wepp-18865	"01:22 pm  Wednesday March 16, 2011"	"North 25 WA +"	50	silt	low	150	20	35	60	20	short	50	40	30	80	20	0	m	"6"
+WD	wepp-18878	"01:22 pm  Wednesday March 16, 2011"	"North 25 WA +"	50	silt	high	150	20	35	40	20	low	50	40	30	60	20	0	m	"7"
+WE	wepp-25051	"09:37 am  Wednesday March 23, 1994"	"North 25 WA +"	clay	20	forest	0	50	30	300	m			ft
+WE	wepp-25349	"10:10 am  Wednesday March 23, 1908"	"Valley Fire  MT +"	silt	20	forest	20	20	20	400	h			ft
+WE	wepp-25439	"10:10 am  Wednesday March 23, 1908"	"Valley Fire  MT +"	silt	20	forest	20	20	20	400	h			ft
+WE	wepp-25528	"10:10 am  Wednesday March 23, 1908"	"Valley Fire  MT +"	silt	20	forest	20	20	20	400	h			ft
+WE	wepp-25617	"10:11 am  Wednesday March 23, 1908"	"Valley Fire  MT +"	silt	20	forest	10	20	10	400	h			ft
+WE	wepp-25733	"10:11 am  Wednesday March 23, 1991"	"Valley Fire  MT +"	silt	20	forest	20	25	20	400	h			ft
+WE	wepp-25822	"10:11 am  Wednesday March 23, 1991"	"Valley Fire  MT +"	silt	20	forest	20	30	20	400	h			ft
+WE	wepp-25911	"10:12 am  Wednesday March 23, 1991"	"Valley Fire  MT +"	silt	20	forest	25	35	30	400	h			ft
+WE	wepp-26000	"10:12 am  Wednesday March 23, 1938"	"Valley Fire  MT +"	silt	20	forest	20	40	35	400	h			ft
+WR	wepp-20508	"10:31 am  Tuesday March 29, 2011"	"Olympic NP +"	30	loam	graveled	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-20516	"10:33 am  Tuesday March 29, 2011"	"Olympic NP +"	30	loam	graveled	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-20522	"10:33 am  Tuesday March 29, 2011"	"Olympic NP +"	30	loam	graveled	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-20622	"10:39 am  Tuesday March 29, 2011"	"SAPPHO 8 E SNIDER RS WA"	30	loam	graveled	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-20628	"10:39 am  Tuesday March 29, 2011"	"SAPPHO 8 E SNIDER RS WA"	30	loam	graveled	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-20664	"10:41 am  Tuesday March 29, 2011"	"CONCRETE WA"	30	loam	graveled	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-20706	"10:42 am  Tuesday March 29, 2011"	"CONCRETE WA"	30	loam	graveled	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-20782	"10:46 am  Tuesday March 29, 2011"	"NE of COLVILLE WA +"	30	silt	graveled	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-20794	"10:46 am  Tuesday March 29, 2011"	"NE of COLVILLE WA +"	30	silt	graveled	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-23680	"02:14 pm  Tuesday March 29, 2011"	"Orense, Spain +"	30	clay	graveled	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-23733	"02:15 pm  Tuesday March 29, 2011"	"Orense, Spain +"	30	clay	graveled	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-23744	"02:16 pm  Tuesday March 29, 2011"	"BATTLE GROUND WA"	30	silt	native	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-23751	"02:16 pm  Tuesday March 29, 2011"	"BATTLE GROUND WA"	30	silt	native	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-23796	"02:20 pm  Tuesday March 29, 2011"	"SW of MAZAMA WA +"	30	silt	graveled	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-23829	"02:21 pm  Tuesday March 29, 2011"	"SW of MAZAMA WA +"	30	silt	graveled	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-23888	"02:26 pm  Tuesday March 29, 2011"	"CHEESMAN CO"	30	sand	graveled	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-23894	"02:27 pm  Tuesday March 29, 2011"	"CHEESMAN CO"	30	sand	graveled	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-24095	"02:54 pm  Tuesday March 29, 2011"	"CHEESMAN CO"	30	sand	graveled	200	4	13	15	50	130	25	20	inveg	ft
+wt	wepp-3039	"Apr 1, 2011"	"SOUTH ENTRANCE YNP CA"	volcanic	HighRoad	4	4	200	10	20	Bunchgrass	50	50	5	60	20	ft	""
+wt	wepp-3059	"Apr 1, 2011"	"SOUTH ENTRANCE YNP CA"	volcanic	LowRoad	4	4	200	10	20	Bunchgrass	50	50	5	60	20	ft	""
+WR	wepp-3081	"01:51 pm  Friday April 1, 2011"	"SOUTH ENTRANCE YNP CA"	30	sand	native	60	4	4	5	50	0.3	25	20	inveg	m
+WR	wepp-3113	"01:53 pm  Friday April 1, 2011"	"SOUTH ENTRANCE YNP CA"	30	sand	native	60	4	4	5	50	0.3	25	20	inveg	m
+WR	wepp-3122	"01:56 pm  Friday April 1, 2011"	"SOUTH ENTRANCE YNP CA"	30	sand	native	200	4	13	5	50	1	25	20	inveg	ft
+WR	wepp-3188	"02:02 pm  Friday April 1, 2011"	"SOUTH ENTRANCE YNP CA"	30	sand	native	200	4	13	5	50	1	25	20	inveg	ft
+WR	wepp-27547	"03:41 pm  Monday April 11, 2011"	"CASCADIA R S OR"	30	silt	graveled	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-27568	"03:42 pm  Monday April 11, 2011"	"CASCADIA R S OR"	30	silt	graveled	200	4	13	15	50	10	25	20	inveg	ft
+WR	wepp-27588	"03:43 pm  Monday April 11, 2011"	"CASCADIA R S OR"	30	silt	graveled	200	4	13	10	50	1	25	20	inveg	ft
+WR	wepp-27607	"03:44 pm  Monday April 11, 2011"	"CASCADIA R S OR"	30	silt	graveled	200	4	13	1	50	1	25	20	inveg	ft
+WR	wepp-27653	"03:45 pm  Monday April 11, 2011"	"CASCADIA R S OR"	30	silt	graveled	200	4	13	1	50	1	25	20	inveg	ft
+WR	wepp-27686	"03:45 pm  Monday April 11, 2011"	"CASCADIA R S OR"	30	silt	graveled	200	4	13	10	50	10	25	20	inveg	ft
+WR	wepp-27692	"03:46 pm  Monday April 11, 2011"	"CASCADIA R S OR"	30	silt	graveled	200	4	13	10	50	50	25	20	inveg	ft
+WR	wepp-27699	"03:47 pm  Monday April 11, 2011"	"CASCADIA R S OR"	30	silt	graveled	200	4	13	10	50	100	25	20	inveg	ft
+WR	wepp-27705	"03:47 pm  Monday April 11, 2011"	"CASCADIA R S OR"	30	silt	graveled	200	4	13	10	50	200	25	20	inveg	ft
+WR	wepp-27711	"03:48 pm  Monday April 11, 2011"	"CASCADIA R S OR"	30	silt	graveled	200	4	13	10	50	300	25	20	inveg	ft
+WR	wepp-27717	"03:49 pm  Monday April 11, 2011"	"CASCADIA R S OR"	30	silt	graveled	200	4	13	10	50	100	25	20	outunrut	ft
+wt	wepp-27754	"Apr 11, 2011"	"CASCADIA R S OR"	granitic	HighRoad	4	4	200	10	20	YoungForest	30	20	1.5	100	20	ft	""
+wt	wepp-27774	"Apr 11, 2011"	"CASCADIA R S OR"	volcanic	HighRoad	4	4	200	10	20	YoungForest	30	20	1.5	100	20	ft	""
+wt	wepp-27794	"Apr 11, 2011"	"CASCADIA R S OR"	volcanic	HighRoad	4	4	200	10	20	OldForest	30	20	1.5	100	20	ft	""
+wt	wepp-27813	"Apr 11, 2011"	"CASCADIA R S OR"	volcanic	HighRoad	4	4	200	10	20	OldForest	30	20	10	100	20	ft	""
+wt	wepp-27859	"Apr 11, 2011"	"CASCADIA R S OR"	volcanic	HighRoad	4	4	200	10	20	OldForest	30	20	50	100	20	ft	""
+wt	wepp-27879	"Apr 11, 2011"	"CASCADIA R S OR"	volcanic	HighRoad	4	4	200	10	20	OldForest	30	20	100	100	20	ft	""
+wt	wepp-27898	"Apr 11, 2011"	"CASCADIA R S OR"	volcanic	HighRoad	4	4	200	10	20	OldForest	30	20	200	100	20	ft	""
+wt	wepp-27918	"Apr 11, 2011"	"CASCADIA R S OR"	volcanic	HighRoad	4	4	200	10	20	OldForest	30	20	400	100	20	ft	""
+WR	wepp-28054	"04:14 pm  Monday April 11, 2011"	"CASCADIA R S OR"	30	silt	graveled	200	4	13	10	50	40	25	20	inveg	ft
+WD	wepp-28158	"04:22 pm  Monday April 11, 2011"	"CASCADIA R S OR"	30	silt	low	350	10	30	85	20	tree20	50	30	20	100	20	0	ft	""
+WR	wepp-5667	"11:59 am  Tuesday April 12, 2011"	"CASCADIA R S OR"	30	silt	graveled	60	4	4	5	50	40	25	20	inveg	m
+WR	wepp-5786	"12:01 pm  Tuesday April 12, 2011"	"Orense, Spain +"	30	clay	native	60	4	4	5	50	40	25	20	inveg	m
+WR	wepp-5796	"12:01 pm  Tuesday April 12, 2011"	"CASCADIA R S OR"	30	silt	graveled	60	4	4	5	50	40	25	20	inveg	m
+WR	wepp-5808	"12:02 pm  Tuesday April 12, 2011"	"CASCADIA R S OR"	30	silt	graveled	60	4	4	5	50	40	25	20	inveg	m
+WR	wepp-5911	"12:04 pm  Tuesday April 12, 2011"	"CASCADIA R S OR"	30	silt	graveled	60	4	4	5	50	40	25	20	inveg	m
+WR	wepp-6017	"12:07 pm  Tuesday April 12, 2011"	"CASCADIA R S OR"	30	silt	graveled	60	4	4	5	50	100	25	20	inveg	m
+WR	wepp-6147	"12:09 pm  Tuesday April 12, 2011"	"CASCADIA R S OR"	30	silt	graveled	60	4	4	5	50	100	25	20	inveg	m
+WD	wepp-3106	"10:27 am  Wednesday April 27, 2011"	"CHEESMAN CO"	10	sand	low	50	0	30	85	20	tree5	50	30	5	90	20	0	ft	""
+WD	wepp-3178	"10:28 am  Wednesday April 27, 2011"	"CHEESMAN CO"	10	sand	low	50	0	30	85	20	tree5	50	30	5	90	20	0	ft	""
+WD	wepp-3283	"10:32 am  Wednesday April 27, 2011"	"CHEESMAN CO"	10	sand	low	50	0	30	85	20	tree5	50	30	5	90	20	0	ft	""
+WD	wepp-3326	"10:33 am  Wednesday April 27, 2011"	"CHEESMAN CO"	10	sand	LowFire	50	0	30	85	20	YoungForest	50	30	5	90	20	0	ft	""
+wt	wepp-3399	"Apr 27, 2011"	"CHEESMAN CO"	granitic	LowFire	0	30	50	85	20	YoungForest	30	5	50	90	20	ft	""
+WD	wepp-3455	"10:44 am  Wednesday April 27, 2011"	"CHEESMAN CO"	10	sand	LowFire	50	0	30	85	20	YoungForest	50	30	5	90	20	0	ft	""
+WD	wepp-3535	"10:50 am  Wednesday April 27, 2011"	"North 25 WA +"	10	sand	YoungForest	50	0	30	85	20	OldForest	50	30	5	95	20	0	ft	""
+WD	wepp-3605	"10:53 am  Wednesday April 27, 2011"	"CHEESMAN CO"	10	sand	Shrub	50	0	30	80	20	Bunchgrass	50	30	5	60	20	0	ft	""
+WF	wepp-15082	"10:54 am  Thursday April 28, 2011"	"SOUTH ENTRANCE YNP CA"	sand	200	50	20	40	30	40	20	20	4	ft
+WD	wepp-18471	"05:06 pm  Thursday April 28, 2011"	"North 25 WA +"	10	clay	YoungForest	50	0	30	100	20	OldForest	50	30	5	100	20	0	ft	""
+WD	wepp-18520	"05:06 pm  Thursday April 28, 2011"	"North 25 WA +"	10	clay	OldForest	50	0	30	100	20	YoungForest	50	30	5	100	20	0	ft	""
+WE	wepp-14440	"11:46 am  Thursday May 12, 1903"	"PETOSKEY MI"	sand	20	forest	0.098	0.098	0.053	230.6431	m			ft
+WE	wepp-14536	"11:47 am  Thursday May 12, 1985"	"PETOSKEY MI"	sand	20	forest	0.075	0.075	0.049	230.6431	m			ft
+WE	wepp-14605	"11:47 am  Thursday May 12, 1978"	"PETOSKEY MI"	sand	20	forest	0.09	0.12	0.037	456.0367	m			ft
+WE	wepp-14674	"11:47 am  Thursday May 12, 1978"	"PETOSKEY MI"	sand	20	forest	0.082	0.082	0.071	89.23885	m			ft
+WE	wepp-14743	"11:47 am  Thursday May 12, 1917"	"PETOSKEY MI"	sand	20	forest	0.07	0.13	0.071	620.0787	m			ft
+WE	wepp-14813	"11:48 am  Thursday May 12, 1985"	"PETOSKEY MI"	sand	20	forest	0.1	0.095	0.057	488.8452	m			ft
+WE	wepp-14882	"11:48 am  Thursday May 12, 1985"	"PETOSKEY MI"	sand	20	forest	0.076	0.099	0.047	761.1548	m			ft
+WE	wepp-14952	"11:48 am  Thursday May 12, 1985"	"PETOSKEY MI"	sand	20	forest	0.047	0.06	0.053	410.105	m			ft
+WE	wepp-15021	"11:48 am  Thursday May 12, 1985"	"PETOSKEY MI"	sand	20	forest	0.029	0.038	0.036	698.8189	m			ft
+WE	wepp-15090	"11:48 am  Thursday May 12, 1985"	"PETOSKEY MI"	sand	20	forest	0.08	0.038	0.024	692.2572	m			ft
+WE	wepp-15159	"11:49 am  Thursday May 12, 1917"	"PETOSKEY MI"	sand	20	forest	0.029	0.029	0.038	125.9843	m			ft
+WE	wepp-15228	"11:49 am  Thursday May 12, 1978"	"PETOSKEY MI"	sand	20	forest	0.08	0.08	0.07	203.7402	m			ft
+WE	wepp-15297	"11:49 am  Thursday May 12, 1985"	"PETOSKEY MI"	sand	20	forest	0.044	0.044	0.043	220.1444	m			ft
+WE	wepp-15366	"11:49 am  Thursday May 12, 1985"	"PETOSKEY MI"	sand	20	forest	0.084	0.038	0.0045	715.2231	m			ft
+WE	wepp-15435	"11:50 am  Thursday May 12, 1978"	"PETOSKEY MI"	sand	20	forest	0.066	0.061	0.073	306.1024	m			ft
+WE	wepp-15504	"11:50 am  Thursday May 12, 1978"	"PETOSKEY MI"	sand	20	forest	0.068	0.068	0.051	241.4698	m			ft
+WE	wepp-15573	"11:50 am  Thursday May 12, 1985"	"PETOSKEY MI"	sand	20	forest	0.08	0.067	0.018	889.1076	m			ft
+WE	wepp-15642	"11:50 am  Thursday May 12, 1978"	"PETOSKEY MI"	sand	20	forest	0.063	0.074	0.067	390.42	m			ft
+WE	wepp-15711	"11:50 am  Thursday May 12, 1917"	"PETOSKEY MI"	sand	20	forest	0.085	0.085	0.082	198.1627	m			ft
+WE	wepp-15780	"11:51 am  Thursday May 12, 1978"	"PETOSKEY MI"	sand	20	forest	0.083	0.063	0.04	1000	m			ft
+WE	wepp-15849	"11:51 am  Thursday May 12, 1985"	"PETOSKEY MI"	sand	20	forest	0.15	0.12	0.058	567.5853	m			ft
+WE	wepp-15919	"11:51 am  Thursday May 12, 1985"	"PETOSKEY MI"	sand	20	forest	0.037	0.051	0.05	279.8557	m			ft
+WE	wepp-15988	"11:51 am  Thursday May 12, 1985"	"PETOSKEY MI"	sand	20	forest	0.15	0.12	0.077	311.0236	m			ft
+WE	wepp-16059	"11:52 am  Thursday May 12, 1985"	"PETOSKEY MI"	sand	20	forest	0.15	0.12	0.051	977.6903	m			ft
+WE	wepp-16153	"11:52 am  Thursday May 12, 1926"	"PETOSKEY MI"	sand	20	forest	0.051	0.051	0.067	124.3438	m			ft
+WE	wepp-16222	"11:52 am  Thursday May 12, 1903"	"PETOSKEY MI"	sand	20	forest	0.12	0.097	0.055	247.7034	m			ft
+WE	wepp-16291	"11:52 am  Thursday May 12, 1978"	"PETOSKEY MI"	sand	20	forest	0.1	0.083	0.04	505.2493	m			ft
+WE	wepp-16360	"11:52 am  Thursday May 12, 1978"	"PETOSKEY MI"	sand	20	forest	0.16	0.16	0.12	327.0997	m			ft
+WE	wepp-16430	"11:53 am  Thursday May 12, 1926"	"PETOSKEY MI"	sand	20	forest	0.12	0.12	0.089	145.3412	m			ft
+WE	wepp-16499	"11:53 am  Thursday May 12, 1926"	"PETOSKEY MI"	sand	20	forest	0.15	0.15	0.12	200.7874	m			ft
+WE	wepp-16568	"11:53 am  Thursday May 12, 1985"	"PETOSKEY MI"	sand	20	forest	0.098	0.088	0.15	971.1286	m			ft
+WE	wepp-16637	"11:53 am  Thursday May 12, 1946"	"PETOSKEY MI"	sand	20	forest	0.15	0.15	0.11	223.0971	m			ft
+WE	wepp-16706	"11:54 am  Thursday May 12, 1946"	"PETOSKEY MI"	sand	20	forest	0.18	0.18	0.11	237.8609	m			ft
+WE	wepp-16776	"11:54 am  Thursday May 12, 1985"	"PETOSKEY MI"	sand	20	forest	0.1	0.099	0.091	570.8661	m			ft
+WE	wepp-16845	"11:54 am  Thursday May 12, 1978"	"PETOSKEY MI"	sand	20	forest	0.079	0.082	0.073	843.1758	m			ft
+WE	wepp-16914	"11:54 am  Thursday May 12, 1946"	"PETOSKEY MI"	sand	20	forest	0.1	0.1	0.096	184.7113	m			ft
+WE	wepp-16983	"11:55 am  Thursday May 12, 1917"	"PETOSKEY MI"	sand	20	forest	0.16	0.16	0.11	157.1522	m			ft
+WE	wepp-17056	"11:55 am  Thursday May 12, 1985"	"PETOSKEY MI"	sand	20	forest	0.074	0.091	0.12	708.6614	m			ft
+WE	wepp-5352	"10:22 am  Tuesday May 31, 1994"	"North 25 WA +"	clay	20	forest	0	50	30	300	m			ft
+WD	wepp-15884	"09:51 am  Monday June 6, 2011"	""				0	0	0	0	0		0	0	0	0	0	0		""
+WE	wepp-29500	"11:38 am  Tuesday June 7, 1994"	"ALPINE AZ +"	sand	20	forest	13	20	21	140	h			m
+WE	wepp-32349	"04:33 pm  Tuesday June 7, 1917"	"ALPINE AZ +"	sand	20	forest	23	22	13	721.2954	h			ft
+WE	wepp-32439	"04:33 pm  Tuesday June 7, 1954"	"ALPINE AZ +"	sand	20	forest	35	29	12	789.9902	h			ft
+WE	wepp-32528	"04:33 pm  Tuesday June 7, 1986"	"ALPINE AZ +"	sand	20	forest	8.4	22	20	1000	h			ft
+WE	wepp-32617	"04:34 pm  Tuesday June 7, 1994"	"ALPINE AZ +"	sand	20	forest	28	23	18	345.4367	h			ft
+WE	wepp-32706	"04:34 pm  Tuesday June 7, 1986"	"ALPINE AZ +"	sand	20	forest	9.1	23	29	1000	h			ft
+WE	wepp-328	"04:34 pm  Tuesday June 7, 1917"	"ALPINE AZ +"	sand	20	forest	13	20	21	686.948	h			ft
+WE	wepp-417	"04:34 pm  Tuesday June 7, 1949"	"ALPINE AZ +"	sand	20	forest	3.6	8.4	8.4	1000	h			ft
+WE	wepp-506	"04:35 pm  Tuesday June 7, 1994"	"ALPINE AZ +"	sand	20	forest	13	17	20	505.3975	h			ft
+WE	wepp-596	"04:35 pm  Tuesday June 7, 1910"	"ALPINE AZ +"	sand	20	forest	14	13	12	554.4651	h			ft
+WE	wepp-687	"04:35 pm  Tuesday June 7, 1943"	"ALPINE AZ +"	sand	20	forest	7.6	13	12	1000	h			ft
+WE	wepp-20399	"10:28 am  Wednesday June 22, 1974"	"Horseshoe2 Fire AZ +"	sand	20	forest	20	40	30	350	h			ft
+WR	wepp-8582	"09:19 am  Thursday June 30, 2011"	"MOUNT SHASTA CA"	30	sand	native	200	6	4	5	50	35	45	20	inveg	m
+WR	wepp-8614	"09:20 am  Thursday June 30, 2011"	"MOUNT SHASTA CA"	30	sand	native	200	6	4	5	50	35	45	20	inveg	m
+WR	wepp-8619	"09:21 am  Thursday June 30, 2011"	"MOUNT SHASTA CA"	30	sand	native	200	6	4	5	50	45	35	20	inveg	m
+WR	wepp-8624	"09:21 am  Thursday June 30, 2011"	"MOUNT SHASTA CA"	30	sand	graveled	200	6	4	5	50	45	35	20	inveg	m
+WD	wepp-9079	"09:53 am  Thursday June 30, 2011"	"BIRMINGHAM WB AP AL"	30	sand	LowFire	200	10	20	85	20	LowFire	50	20	10	85	20	0	m	""
+WD	wepp-9099	"09:53 am  Thursday June 30, 2011"	"BIRMINGHAM WB AP AL"	100	sand	LowFire	200	10	20	85	20	LowFire	50	20	10	85	20	0	m	""
+WD	wepp-9119	"09:54 am  Thursday June 30, 2011"	"BIRMINGHAM WB AP AL"	100	sand	LowFire	200	10	20	65	20	LowFire	50	20	10	65	20	0	m	""
+WD	wepp-16948	"10:11 am  Friday August 19, 2011"	"North 25 WA +"	10	silt	Skid	50	20	30	20	20	OldForest	50	30	5	100	20	0	ft	""
+WR	wepp-13296	"01:33 pm  Wednesday September 7, 2011"	"CHEESMAN CO"	30	sand	paved	200	20	15	1	50	200	25	20	inveg	ft
+wt	wepp-13314	"Sep 7, 2011"	"CHEESMAN CO"	rockpave	LowRoad	20	20	50	10	50	OldForest	25	25	50	100	20	ft	""
+WE	wepp-28871	"10:21 am  Friday September 16, 2011"	"Horseshoe2 Fire AZ +"	sand	20	forest	20	40	30	400	h			ft
+WE	wepp-16244	"01:19 pm  Thursday October 6, 2011"	"PREF ID +"	sand	30	forest	042	45	37	1000	m			ft
+WE	wepp-16388	"01:30 pm  Thursday October 6, 2011"	"PREF ID +"	sand	30	forest	42	45	37	1000	m			ft
+wt	wepp-7595	"Oct 20, 2011"	"North 25 WA +"	granitic	LowFire	0	30	50	85	20	OldForest	30	5	50	100	20	ft	""
+wt	wepp-7615	"Oct 20, 2011"	"MOUNT SHASTA CA"	granitic	HighFire	0	30	50	45	20	OldForest	30	5	50	100	20	ft	""
+wt	wepp-7635	"Oct 20, 2011"	"MOUNT SHASTA CA"	granitic	HighFire	0	30	300	45	20	LowFire	30	5	100	85	20	ft	""
+wt	wepp-8118	"Oct 20, 2011"	"MOUNT SHASTA CA"	granitic	HighFire	10	30	100	45	20	LowFire	30	20	50	85	20	m	""
+WF	wepp-13836	"01:20 pm  Tuesday November 1, 2011"	"North 25 WA +"	clay	200	50	0	30	15	40	20	20	4	ft
+WR	wepp-6036	"11:37 am  Wednesday November 2, 2011"	"MOUNT SHASTA CA"	1	clay	native	200	4	13	15	50	130	25	20	inbare	ft
+WR	wepp-6095	"11:37 am  Wednesday November 2, 2011"	"MOUNT SHASTA CA"	30	clay	native	200	4	13	15	50	130	25	20	inbare	ft
+WR	wepp-6134	"11:37 am  Wednesday November 2, 2011"	"MOUNT SHASTA CA"	1	clay	native	200	4	13	15	50	130	25	20	inbare	ft
+WR	wepp-6159	"11:38 am  Wednesday November 2, 2011"	"MOUNT SHASTA CA"	30	clay	native	200	4	13	15	50	130	25	20	inbare	ft
+WR	wepp-6189	"11:38 am  Wednesday November 2, 2011"	"MOUNT SHASTA CA"	1	clay	native	200	4	13	15	50	130	25	20	inbare	ft
+WR	wepp-6224	"11:38 am  Wednesday November 2, 2011"	"MOUNT SHASTA CA"	30	clay	native	200	4	13	15	50	130	25	20	inbare	ft
+wt	wepp-23776	"Nov 7, 2011"	"G-18 +"	granitic	OldForest	0	30	50	100	20	YoungForest	30	5	50	100	20	m	""
+wt	wepp-23842	"Nov 7, 2011"	"G-18 +"	volcanic	HighRoad	4	4	200	10	20	YoungForest	20	20	50	100	20	m	""
+wt	wepp-23862	"Nov 7, 2011"	"G-18 +"	volcanic	HighRoad	4	4	200	10	20	YoungForest	9	6	50	100	20	m	""
+wt	wepp-23886	"Nov 7, 2011"	"G-18 +"	volcanic	LowRoad	4	4	200	10	20	YoungForest	9	6	50	100	20	m	""
+wt	wepp-23933	"Nov 7, 2011"	"G-18 +"	volcanic	HighRoad	4	4	60	10	20	YoungForest	9	6	15	100	20	m	""
+wt	wepp-23952	"Nov 7, 2011"	"G-18 +"	volcanic	LowRoad	4	4	60	10	20	YoungForest	9	6	15	100	20	m	""
+wt	wepp-23976	"Nov 7, 2011"	"G-18 +"	volcanic	LowRoad	4	4	9	10	20	YoungForest	9	6	15	100	20	m	""
+wt	wepp-23996	"Nov 7, 2011"	"G-18 +"	rockpave	LowRoad	4	4	60	10	50	YoungForest	9	6	15	100	20	m	""
+wt	wepp-24016	"Nov 7, 2011"	"G-18 +"	rockpave	HighRoad	4	4	60	10	50	YoungForest	9	6	15	100	20	m	""
+wt	wepp-24038	"Nov 7, 2011"	"G-18 +"	volcanic	HighRoad	4	4	30	10	50	YoungForest	9	6	15	100	20	m	""
+wt	wepp-24119	"Nov 7, 2011"	"G-18 +"	volcanic	OldForest	12	10	156	100	50	OldForest	10	6	30	100	20	m	""
+wt	wepp-24143	"Nov 7, 2011"	"G-18 +"	volcanic	HighFire	12	10	156	30	50	HighFire	10	6	30	50	20	m	""
+wt	wepp-24723	"Nov 7, 2011"	"G-18 +"	volcanic	YoungForest	12	10	156	85	50	OldForest	10	6	30	100	20	m	""
+wt	wepp-24743	"Nov 7, 2011"	"G-18 +"	volcanic	LowFire	12	10	156	85	50	OldForest	10	6	30	100	20	m	""
+wt	wepp-24763	"Nov 7, 2011"	"G-18 +"	volcanic	HighFire	12	10	156	40	50	LowFire	10	6	30	70	20	m	""
+wt	wepp-25057	"Nov 7, 2011"	"G-18 +"	volcanic	HighRoad	4	4	60	10	20	YoungForest	10	6	15	100	20	m	""
+wt	wepp-25113	"Nov 7, 2011"	"G-18 +"	volcanic	HighRoad	4	4	9	10	20	YoungForest	10	6	15	100	20	m	""
+wt	wepp-25134	"Nov 7, 2011"	"G-18 +"	rockpave	HighRoad	4	4	60	10	50	YoungForest	10	6	15	100	20	m	""
+wt	wepp-25157	"Nov 7, 2011"	"G-18 +"	volcanic	LowRoad	4	4	60	10	50	YoungForest	10	6	15	100	20	m	""
+wt	wepp-25177	"Nov 7, 2011"	"G-18 +"	volcanic	LowRoad	4	4	30	10	50	YoungForest	10	6	15	100	20	m	""
+wt	wepp-25197	"Nov 7, 2011"	"G-18 +"	volcanic	OldForest	12	10	156	100	50	OldForest	10	6	15	100	20	m	""
+wt	wepp-25244	"Nov 7, 2011"	"G-18 +"	volcanic	HighFire	12	10	156	30	50	LowFire	10	6	15	50	20	m	""
+wt	wepp-25270	"Nov 7, 2011"	"G-18 +"	volcanic	YoungForest	12	10	156	85	50	OldForest	10	6	15	100	20	m	""
+wt	wepp-25291	"Nov 7, 2011"	"G-18 +"	volcanic	LowFire	12	10	156	85	50	OldForest	10	6	15	100	20	m	""
+wt	wepp-25311	"Nov 7, 2011"	"G-18 +"	volcanic	HighFire	12	10	156	40	50	LowFire	10	6	15	70	20	m	""
+wt	wepp-25509	"Nov 7, 2011"	"G-18 +"	volcanic	HighRoad	4	4	60	10	20	YoungForest	9	6	15	100	20	m	""
+wt	wepp-25578	"Nov 7, 2011"	"G-18 +"	volcanic	HighRoad	4	4	60	10	20	YoungForest	10	6	15	100	20	m	""
+wt	wepp-25625	"Nov 7, 2011"	"G-18 +"	volcanic	LowRoad	4	4	60	10	20	YoungForest	10	6	15	100	20	m	""
+wt	wepp-25645	"Nov 7, 2011"	"G-18 +"	volcanic	HighRoad	4	4	9	10	20	YoungForest	10	6	15	100	20	m	""
+wt	wepp-25665	"Nov 7, 2011"	"G-18 +"	rockpave	HighRoad	4	4	60	10	50	YoungForest	10	6	15	100	20	m	""
+wt	wepp-25715	"Nov 7, 2011"	"G-18 +"	volcanic	HighRoad	4	4	30	10	50	YoungForest	10	6	15	100	20	m	""
+wt	wepp-25759	"Nov 7, 2011"	"G-18 +"	volcanic	OldForest	12	10	156	100	50	OldForest	10	6	30	100	20	m	""
+wt	wepp-25779	"Nov 7, 2011"	"G-18 +"	volcanic	HighFire	12	10	156	30	50	LowFire	10	6	30	50	20	m	""
+wt	wepp-25827	"Nov 7, 2011"	"G-18 +"	volcanic	YoungForest	12	10	156	85	50	OldForest	10	6	30	100	20	m	""
+wt	wepp-25849	"Nov 7, 2011"	"G-18 +"	volcanic	LowFire	12	10	156	85	50	OldForest	10	6	30	100	20	m	""
+wt	wepp-25870	"Nov 7, 2011"	"G-18 +"	volcanic	HighFire	12	10	156	40	50	LowFire	10	6	30	70	20	m	""
+WD	wepp-5505	"02:21 pm  Wednesday November 16, 2011"	"SAINT MARIES ID"	10	silt	OldForest	1000	50	35	100	20	OldForest	300	35	5	100	20	0	ft	""
+WD	wepp-6073	"02:37 pm  Wednesday November 16, 2011"	"SAINT MARIES ID"	10	silt	OldForest	1000	50	35	100	20	OldForest	300	35	5	100	20	0	ft	""
+WR	wepp-31878	"10:34 am  Thursday November 17, 2011"	"CASCADIA R S OR"	30	silt	native	200	4	13	15	50	50	25	20	inbare	ft
+WR	wepp-32179	"10:54 am  Thursday November 17, 2011"	"CONCRETE WA"	30	silt	native	200	4	13	15	50	50	25	20	inveg	ft
+WR	wepp-32184	"10:54 am  Thursday November 17, 2011"	"CONCRETE WA"	30	silt	native	200	4	13	15	50	50	25	20	inbare	ft
+WR	wepp-32189	"10:54 am  Thursday November 17, 2011"	"CONCRETE WA"	30	silt	native	200	4	13	15	50	50	25	20	outrut	ft
+WR	wepp-32203	"10:54 am  Thursday November 17, 2011"	"CONCRETE WA"	30	silt	native	200	4	13	15	50	100	25	20	outrut	ft
+WR	wepp-32209	"10:54 am  Thursday November 17, 2011"	"CONCRETE WA"	30	silt	native	200	4	13	15	50	150	25	20	outrut	ft
+WR	wepp-32252	"10:58 am  Thursday November 17, 2011"	"CONCRETE WA"	30	silt	native	200	4	13	15	50	300	25	20	outrut	ft
+WR	wepp-32257	"10:58 am  Thursday November 17, 2011"	"CONCRETE WA"	30	silt	native	200	4	13	15	50	200	25	20	outrut	ft
+WR	wepp-32262	"10:58 am  Thursday November 17, 2011"	"CONCRETE WA"	30	silt	native	200	4	13	15	50	300	25	20	outrut	ft
+wt	wepp-32315	"Nov 17, 2011"	"North 25 WA +"	alluvial	HighRoad	4	4	200	10	20	OldForest	30	20	50	100	20	ft	""
+wt	wepp-32368	"Nov 17, 2011"	"CONCRETE WA"	alluvial	HighRoad	4	4	200	10	20	YoungForest	30	25	50	100	20	ft	""
+wt	wepp-13468	"Nov 21, 2011"	"SOUTH ENTRANCE YNP CA"	granitic	LowFire	0	30	50	85	20	OldForest	30	20	50	100	20	m	""
+WD	wepp-24914	"10:29 am  Tuesday November 22, 2011"	"North 25 WA +"	10	silt	LowFire	50	0	30	85	20	YoungForest	50	30	5	95	20	0	ft	""
+WR	wepp-23310	"12:42 pm  Monday November 28, 2011"	"Perkins Ck, MI +"	30	sand	native	400	2	20	2	50	50	1	20	outrut	ft
+WR	wepp-23365	"12:49 pm  Monday November 28, 2011"	"Perkins Ck, MI +"	30	sand	native	400	2	20	2	50	1	1	20	outrut	ft
+WR	wepp-23398	"12:51 pm  Monday November 28, 2011"	"Perkins Ck, MI +"	50	sand	native	400	2	20	2	50	1	1	20	outrut	ft
+WR	wepp-23504	"12:55 pm  Monday November 28, 2011"	"Perkins Ck, MI +"	50	sand	native	400	2	20	2	50	1	1	20	outrut	ft
+WR	wepp-23587	"12:58 pm  Monday November 28, 2011"	"Perkins Ck, MI +"	50	sand	graveled	400	2	20	2	50	1	1	20	inveg	ft
+WR	wepp-23613	"01:00 pm  Monday November 28, 2011"	"Perkins Ck, MI +"	50	sand	paved	400	2	20	2	50	1	1	20	inveg	ft
+WR	wepp-23666	"01:03 pm  Monday November 28, 2011"	"Perkins Ck, MI +"	50	sand	graveled	350	2	20	2	50	50	1	20	inveg	ft
+WR	wepp-23672	"01:05 pm  Monday November 28, 2011"	"Perkins Ck, MI +"	50	sand	graveled	50	1	20	2	50	1	1	20	inveg	ft
+WD	wepp-24094	"01:33 pm  Monday November 28, 2011"	"Perkins Ck, MI +"	50	sand	OldForest	450	29	20	100	0	OldForest	50	20	2	100	0	0	ft	""
+WD	wepp-24172	"01:36 pm  Monday November 28, 2011"	"Perkins Ck, MI +"	50	sand	LowFire	450	29	20	50	0	LowFire	50	20	2	70	0	0	ft	""
+WD	wepp-24215	"01:41 pm  Monday November 28, 2011"	"Perkins Ck, MI +"	50	sand	YoungForest	450	29	20	85	0	OldForest	50	20	2	100	0	0	ft	""
+WD	wepp-24310	"01:42 pm  Monday November 28, 2011"	"Perkins Ck, MI +"	50	sand	LowFire	450	29	20	85	0	OldForest	50	20	2	100	0	0	ft	""
+WD	wepp-24369	"01:44 pm  Monday November 28, 2011"	"Perkins Ck, MI +"	50	sand	LowFire	450	29	20	60	0	LowFire	50	20	2	80	0	0	ft	""
+WR	wepp-24497	"01:52 pm  Monday November 28, 2011"	"Perkins Ck, MI +"	50	sand	native	400	3	20	4	50	1	2	0	outrut	ft
+WR	wepp-24503	"01:53 pm  Monday November 28, 2011"	"Perkins Ck, MI +"	50	sand	graveled	400	3	20	4	50	1	2	0	inveg	ft
+WR	wepp-24512	"01:55 pm  Monday November 28, 2011"	"Perkins Ck, MI +"	50	sand	paved	400	3	20	4	50	1	2	0	inveg	ft
+WR	wepp-24566	"01:57 pm  Monday November 28, 2011"	"Perkins Ck, MI +"	50	sand	graveled	350	3	20	4	50	50	2	0	inveg	ft
+WR	wepp-24629	"02:00 pm  Monday November 28, 2011"	"Perkins Ck, MI +"	50	sand	graveled	50	1	20	4	50	1	2	0	inveg	ft
+WD	wepp-26982	"04:31 pm  Monday November 28, 2011"	"MOSCOW U OF I ID"	30	silt	LowFire	500	0	15	85	20	OldForest	300	15	5	100	20	0	ft	""
+WD	wepp-27107	"04:37 pm  Monday November 28, 2011"	"Elk River, ID +"	30	silt	LowFire	50	0	30	85	20	OldForest	50	30	5	100	20	0	ft	""
+WD	wepp-27269	"04:48 pm  Monday November 28, 2011"	"Elk River +"	30	silt	LowFire	500	0	15	85	20	OldForest	300	15	5	100	20	0	ft	""
+WD	wepp-13873	"07:03 am  Wednesday November 30, 2011"	"North 25 WA +"	10	clay	OldForest	50	0	30	100	20	OldForest	50	30	5	100	20	0	ft	""
+WR	wepp-15460	"09:37 am  Wednesday November 30, 2011"	"Perkins CK, MI +"	50	clay	native	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-15493	"09:39 am  Wednesday November 30, 2011"	"Perkins CK, MI +"	50	sand	native	400	3	20	4	50	1	1	0	outrut	ft
+WR	wepp-15528	"09:41 am  Wednesday November 30, 2011"	"Perkins CK, MI +"	50	sand	graveled	400	3	20	4	50	1	1	0	inveg	ft
+WR	wepp-15534	"09:43 am  Wednesday November 30, 2011"	"Perkins CK, MI +"	50	sand	paved	400	3	20	4	50	1	1	0	inveg	ft
+WR	wepp-15588	"09:48 am  Wednesday November 30, 2011"	"Perkins CK, MI +"	50	sand	graveled	350	3	20	4	50	50	1	0	inveg	ft
+WR	wepp-15621	"09:49 am  Wednesday November 30, 2011"	"Perkins CK, MI +"	50	sand	graveled	50	1	20	4	50	1	1	0	inveg	ft
+WD	wepp-15657	"09:54 am  Wednesday November 30, 2011"	"Perkins CK, MI +"	50	sand	OldForest	334	23	7	100	0	OldForest	50	7	1	100	0	0	ft	""
+WD	wepp-15677	"09:55 am  Wednesday November 30, 2011"	"Perkins CK, MI +"	50	sand	LowFire	334	23	7	85	0	LowFire	50	7	1	85	0	0	ft	""
+WD	wepp-15697	"09:56 am  Wednesday November 30, 2011"	"Perkins CK, MI +"	50	sand	LowFire	334	23	7	50	0	LowFire	50	7	1	70	0	0	ft	""
+WD	wepp-15717	"09:57 am  Wednesday November 30, 2011"	"Perkins CK, MI +"	50	sand	YoungForest	334	23	7	85	0	OldForest	50	7	1	100	0	0	ft	""
+WD	wepp-15737	"09:58 am  Wednesday November 30, 2011"	"Perkins CK, MI +"	50	sand	LowFire	334	23	7	85	0	OldForest	50	7	1	100	0	0	ft	""
+WD	wepp-15783	"09:59 am  Wednesday November 30, 2011"	"Perkins CK, MI +"	50	sand	LowFire	334	23	7	60	0	LowFire	50	7	1	80	0	0	ft	""
+WD	wepp-19081	"02:04 pm  Wednesday November 30, 2011"	"Perkins CK, MI +"	10	clay	HighFire	50	0	30	45	20	LowFire	50	30	5	85	20	0	ft	""
+WF	wepp-31244	"11:07 am  Monday December 5, 2011"	"MOSCOW U OF I ID                        1"	silt	200	50	0	30	15	40	20	20	4	ft
+wt	wepp-17169	"Dec 6, 2011"	"SOUTH ENTRANCE YNP CA"	volcanic	LowFire	0	30	50	85	20	YoungForest	30	5	50	100	20	m	""
+wt	wepp-17190	"Dec 6, 2011"	"North 25 WA +"	granitic	OldForest	10	30	50	100	20	YoungForest	20	5	50	100	20	m	""
+wt	wepp-17211	"Dec 6, 2011"	"North 25 WA +"	granitic	LowFire	10	30	50	85	20	YoungForest	20	5	50	100	20	m	""
+wt	wepp-17231	"Dec 6, 2011"	"North 25 WA +"	granitic	LowFire	10	30	100	85	20	YoungForest	20	5	15	100	20	m	""
+wt	wepp-17251	"Dec 6, 2011"	"North 25 WA +"	granitic	LowFire	10	30	100	85	20	YoungForest	20	5	15	100	20	m	""
+wt	wepp-17274	"Dec 6, 2011"	"North 25 WA +"	granitic	LowFire	10	30	100	85	20	YoungForest	20	5	15	100	20	m	""
+wt	wepp-17904	"Dec 6, 2011"	"HEAVENLY VALLEY CA"	granitic	LowFire	20	40	200	85	20	YoungForest	20	10	50	100	20	m	""
+wt	wepp-18176	"Dec 6, 2011"	"HEAVENLY VALLEY CA"	volcanic	LowFire	20	35	220	85	20	YoungForest	30	25	30	100	20	m	""
+wt	wepp-18637	"Dec 6, 2011"	"HEAVENLY VALLEY CA"	volcanic	LowFire	20	35	220	85	20	YoungForest	30	30	30	100	20	m	""
+wt	wepp-18727	"Dec 6, 2011"	"HEAVENLY VALLEY CA"	volcanic	HighFire	20	35	220	45	20	YoungForest	30	30	30	100	20	m	""

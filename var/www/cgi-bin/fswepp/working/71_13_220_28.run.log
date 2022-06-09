@@ -1,0 +1,28 @@
+WR	wepp-21417	"05:32 am  Friday April 16, 2010"	"Calumet road +"	30	silt	native	200	4	13	15	50	1	25	20	inveg	ft
+WR	wepp-21477	"05:38 am  Friday April 16, 2010"	"Calumet road +"	30	silt	native	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-21533	"05:46 am  Friday April 16, 2010"	"Calumet road +"	30	silt	paved	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-21596	"05:55 am  Friday April 16, 2010"	"Calumet road +"	30	silt	paved	200	4	13	15	50	100	25	20	inbare	ft
+WR	wepp-21602	"05:55 am  Friday April 16, 2010"	"Calumet road +"	30	silt	paved	200	4	13	15	50	200	25	20	inbare	ft
+WR	wepp-21607	"05:55 am  Friday April 16, 2010"	"Calumet road +"	30	silt	paved	200	4	13	15	50	300	25	20	inbare	ft
+WR	wepp-21612	"05:55 am  Friday April 16, 2010"	"Calumet road +"	30	silt	paved	200	4	13	15	50	500	25	20	inbare	ft
+WR	wepp-21617	"05:56 am  Friday April 16, 2010"	"Calumet road +"	30	silt	paved	200	4	13	15	50	550	25	20	inbare	ft
+WR	wepp-21622	"05:56 am  Friday April 16, 2010"	"Calumet road +"	30	silt	paved	200	4	13	15	50	560	25	20	inbare	ft
+WR	wepp-21627	"05:56 am  Friday April 16, 2010"	"Calumet road +"	30	silt	paved	200	4	13	15	50	580	25	20	inbare	ft
+WR	wepp-21632	"05:56 am  Friday April 16, 2010"	"Calumet road +"	30	silt	paved	200	4	13	15	50	575	25	20	inbare	ft
+WR	wepp-21637	"05:56 am  Friday April 16, 2010"	"Calumet road +"	30	silt	paved	200	4	13	15	50	574	25	20	inbare	ft
+WR	wepp-21642	"05:57 am  Friday April 16, 2010"	"Calumet road +"	30	silt	paved	200	4	13	15	50	576	25	20	inbare	ft
+WR	wepp-21756	"06:09 am  Friday April 16, 2010"	"Calumet road +"	30	silt	graveled	200	4	13	15	50	1	25	20	outunrut	ft
+WR	wepp-21876	"06:20 am  Friday April 16, 2010"	"Calumet road #2 +"	30	silt	graveled	200	4	13	15	50	1	25	20	outunrut	ft
+WR	wepp-21881	"06:23 am  Friday April 16, 2010"	"Calumet road +"	30	silt	graveled	200	4	13	15	50	1	25	20	outunrut	ft
+WR	wepp-21886	"06:23 am  Friday April 16, 2010"	"Calumet road #2 +"	30	silt	graveled	200	4	13	15	50	1	25	20	outunrut	ft
+WR	wepp-21918	"06:23 am  Friday April 16, 2010"	"Calumet road +"	30	silt	graveled	200	4	13	15	50	1	25	20	outunrut	ft
+WD	wepp-22077	"06:45 am  Friday April 16, 2010"	"Calumet road +"	30	silt	tree20	121.951219512195	0	30	100	20	tree20	22.8658536585366	30	5	100	20	0	ft	""
+WD	wepp-22137	"06:54 am  Friday April 16, 2010"	"Calumet road +"	30	silt	tall	121.951219512195	0	30	60	20	tree20	22.8658536585366	30	5	100	20	0	ft	""
+WD	wepp-22188	"07:01 am  Friday April 16, 2010"	"Calumet road +"	30	silt	tall	121.951219512195	0	30	60	20	tree20	9.14634146341463	30	5	100	20	0	ft	""
+WD	wepp-22320	"07:09 am  Friday April 16, 2010"	"Calumet road +"	30	silt	high	121.951219512195	0	30	45	20	low	9.14634146341463	30	5	85	20	0	ft	""
+WD	wepp-22401	"07:15 am  Friday April 16, 2010"	"Calumet road +"	30	silt	high	121.951219512195	0	30	45	20	tree20	91.4634146341463	30	5	100	20	0	ft	""
+WD	wepp-22428	"07:16 am  Friday April 16, 2010"	"Calumet road +"	30	silt	high	121.951219512195	0	30	45	20	tree20	106.707317073171	30	5	100	20	0	ft	""
+WD	wepp-22433	"07:16 am  Friday April 16, 2010"	"Calumet road +"	30	silt	high	121.951219512195	0	30	45	20	tree20	103.658536585366	30	5	100	20	0	ft	""
+WD	wepp-22438	"07:17 am  Friday April 16, 2010"	"Calumet road +"	30	silt	high	121.951219512195	0	30	45	20	tree20	106.09756097561	30	5	100	20	0	ft	""
+WD	wepp-22443	"07:18 am  Friday April 16, 2010"	"Calumet road +"	30	silt	high	121.951219512195	0	30	45	20	tree20	105.182926829268	30	5	100	20	0	ft	""
+WD	wepp-22502	"07:25 am  Friday April 16, 2010"	"Calumet road +"	30	silt	high	121.951219512195	0	30	45	20	high	105.182926829268	30	5	45	20	0	ft	""

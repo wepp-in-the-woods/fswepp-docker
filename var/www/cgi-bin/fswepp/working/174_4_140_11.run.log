@@ -1,0 +1,25 @@
+WR	wepp-48508	"02:15 pm  Monday March 19, 2018"	"test +"	30	silt	native	200	4	13	15	50	1	25	20	inveg	ft
+WR	wepp-48756	"02:41 pm  Monday March 19, 2018"	"test +"	30	clay	native	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-48999	"02:58 pm  Monday March 19, 2018"	"Custom Climate +"	30	silt	native	200	4	13	15	50	1	25	20	inveg	ft
+WR	wepp-49440	"03:19 pm  Monday March 19, 2018"	"Custom Climate +"	30	silt	native	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-49482	"03:20 pm  Monday March 19, 2018"	"Custom Climate +"	30	silt	paved	200	4	13	15	50	1	25	20	inbare	ft
+WD	wepp-49586	"03:29 pm  Monday March 19, 2018"	"Custom Climate +"	10	silt	OldForest	400	0	30	100	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-49711	"03:38 pm  Monday March 19, 2018"	"Custom Climate +"	10	silt	OldForest	400	0	30	100	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-49817	"03:44 pm  Monday March 19, 2018"	"Custom Climate +"	10	silt	Bunchgrass	400	0	30	60	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-49865	"03:47 pm  Monday March 19, 2018"	"Custom Climate +"	10	silt	HighFire	400	0	30	45	20	LowFire	30	30	5	85	20	0	ft	""
+WD	wepp-49989	"03:51 pm  Monday March 19, 2018"	"Custom Climate +"	10	silt	HighFire	400	0	30	45	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-50027	"03:52 pm  Monday March 19, 2018"	"Custom Climate +"	10	silt	HighFire	400	0	30	45	20	OldForest	100	30	5	100	20	0	ft	""
+WD	wepp-50066	"03:52 pm  Monday March 19, 2018"	"Custom Climate +"	10	silt	HighFire	400	0	30	45	20	OldForest	200	30	5	100	20	0	ft	""
+WD	wepp-50104	"03:53 pm  Monday March 19, 2018"	"Custom Climate +"	10	silt	HighFire	400	0	30	45	20	OldForest	500	30	5	100	20	0	ft	""
+WD	wepp-50142	"03:53 pm  Monday March 19, 2018"	"Custom Climate +"	10	silt	HighFire	400	0	30	45	20	OldForest	600	30	5	100	20	0	ft	""
+WD	wepp-50182	"03:53 pm  Monday March 19, 2018"	"Custom Climate +"	10	silt	HighFire	400	0	30	45	20	OldForest	700	30	5	100	20	0	ft	""
+WD	wepp-50218	"03:54 pm  Monday March 19, 2018"	"Custom Climate +"	10	silt	HighFire	400	0	30	45	20	OldForest	900	30	5	100	20	0	ft	""
+WD	wepp-50254	"03:54 pm  Monday March 19, 2018"	"Custom Climate +"	10	silt	HighFire	400	0	30	45	20	OldForest	1100	30	5	100	20	0	ft	""
+WD	wepp-50290	"03:54 pm  Monday March 19, 2018"	"Custom Climate +"	10	silt	HighFire	400	0	30	45	20	OldForest	1200	30	5	100	20	0	ft	""
+WD	wepp-50326	"03:54 pm  Monday March 19, 2018"	"Custom Climate +"	10	silt	HighFire	400	0	30	45	20	OldForest	1150	30	5	100	20	0	ft	""
+WD	wepp-50363	"03:54 pm  Monday March 19, 2018"	"Custom Climate +"	10	silt	HighFire	400	0	30	45	20	OldForest	1175	30	5	100	20	0	ft	""
+WR	wepp-50811	"04:29 pm  Monday March 19, 2018"	"Custom Climate + +"	30	silt	native	200	4	13	15	50	1	25	20	inveg	ft
+WR	wepp-50848	"04:30 pm  Monday March 19, 2018"	"Custom Climate + +"	30	silt	native	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-50884	"04:30 pm  Monday March 19, 2018"	"Custom Climate + +"	30	silt	paved	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-50933	"04:31 pm  Monday March 19, 2018"	"Custom Climate + +"	30	silt	native	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-51038	"04:32 pm  Monday March 19, 2018"	"Custom Climate + +"	30	silt	native	200	4	13	15	50	1	25	20	inveg	ft

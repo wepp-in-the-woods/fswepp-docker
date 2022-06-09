@@ -1,0 +1,55 @@
+#Conifer species in Wallowa Subseries arranged by (decreasing) expected percent cover and rated for potential Armillaria impact				
+#Subseries	Species	Role*	Average Expected Cover (%)	Potential Disease Impact
+ColdF/DH	HCLIMAX			
+	PIEN	s/C	16.6	High
+	TSME	C	15.3	High
+	ABLA	s/C	9.4	High
+	PICO	S	5	Low 
+	PSME	S	3.2	Low
+	LAOC	s/S	1.9	Low
+	ABGR	a	0.2	Low
+ColdF/DS	LOW			
+	TSME	C	30	Low in this subseries
+	ABLA	C	13.5	Low in this subseries
+	PIEN	C	10.2	Low in this subseries
+	PICO	S	3.7	Low
+ColdF/MH	HCLIMAX			
+	PIEN	C	40	High
+	ABLA	C	7.5	High
+	PICO	s	2.1	Low
+	LAOC	s	1.8	Low
+	ABGR	s	0.8	Low
+CoolF/DH	HSERAL			
+	ABGR	C	30.6	High if disturbed
+	PSME	S	7.9	High
+	PIPO	s/S	6.9	High if planted from nonlocal seed
+	LAOC	s	2.1	Low
+	PIEN	s	1	High but low occurrence
+	PICO	s	0.7	Low
+CoolF/DS	LOW			
+	PIPO	S	24	Low in this subseries
+	PSME	S	11.6	Low in this subseries
+	ABGR	C	7.3	Low in this subseries
+CoolF/MH	HSERAL			
+	ABGR	C	32	High if disturbed
+	PIEN	S	12.1	High
+	PSME	S	11.4	High
+	LAOC	s	2.9	Low
+	PICO	s	0.6	Low
+CoolP/DH	HCLIMAX			
+	PICO	S	31.6	Low
+	LAOC	s	3.7	Low
+	PSME	s	1.5	Low
+	ABGR	s	0.9	Low
+	ABLA	c	0.4	High but low occurrence
+	PIEN	c	0.4	High but low occurrence
+DF/DH	HCLIMAX			
+	PSME	C	39.2	High
+	PIPO	S	9.2	Low
+DF/DS	LOW			
+	PIPO	S	27	Low in this subseries
+	PSME	C	25.5	Low in this subseries
+PP/DG	LOW			
+	PIPO	C	30	Low in this subseries
+PP/DS	LOW			
+	PIPO	C	33	Low in this subseries

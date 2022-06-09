@@ -1,0 +1,12 @@
+WR	wepp-832	"12:04 pm  Thursday November 29, 2012"	"SAINT MARIES ID +"	30	silt	native	200	4	13	15	50	1	25	20	inveg	ft
+WR	wepp-1024	"12:05 pm  Thursday November 29, 2012"	"SAINT MARIES ID +"	30	silt	native	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-1062	"12:07 pm  Thursday November 29, 2012"	"SAINT MARIES ID +"	30	silt	paved	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-1146	"12:10 pm  Thursday November 29, 2012"	"SAINT MARIES ID +"	30	silt	paved	200	4	13	15	50	1000	25	20	inbare	ft
+WR	wepp-1170	"12:12 pm  Thursday November 29, 2012"	"SAINT MARIES ID +"	30	silt	graveled	200	4	13	15	50	1	25	20	outunrut	ft
+WR	wepp-1352	"12:14 pm  Thursday November 29, 2012"	"new +"	30	silt	native	200	4	13	15	50	1	25	20	inbare	ft
+WD	wepp-1424	"12:17 pm  Thursday November 29, 2012"	"SAINT MARIES ID +"	10	silt	YoungForest	400	0	30	100	20	YoungForest	75	30	5	100	20	0	ft	""
+WD	wepp-1462	"12:20 pm  Thursday November 29, 2012"	"SAINT MARIES ID +"	10	silt	Bunchgrass	400	0	30	60	20	YoungForest	75	30	5	100	20	0	ft	""
+WD	wepp-1483	"12:22 pm  Thursday November 29, 2012"	"SAINT MARIES ID +"	10	silt	Bunchgrass	400	0	30	60	20	YoungForest	30	30	5	100	20	0	ft	""
+WD	wepp-1560	"12:24 pm  Thursday November 29, 2012"	"SAINT MARIES ID +"	10	silt	HighFire	400	0	30	45	20	LowFire	30	30	5	85	20	0	ft	""
+WD	wepp-1586	"12:25 pm  Thursday November 29, 2012"	"SAINT MARIES ID +"	10	silt	OldForest	400	0	30	100	20	OldForest	1000	30	5	100	20	0	ft	""
+WD	wepp-1609	"12:26 pm  Thursday November 29, 2012"	"SAINT MARIES ID +"	10	silt	HighFire	400	0	30	45	20	HighFire	30	30	5	45	20	0	ft	""

@@ -1,0 +1,66 @@
+#this files was modified by filegenwhrm.pl on: Wednesday, March 16, 2005.
+#taxgroup Small Mammals species Mazama pocket-gopher /  Thomomys mazama
+#
+# Rank
+1,-99,1,-99,-99
+# Nestsite
+-99
+# Reprorank
+-99
+# Foraging Habitat
+-99
+# Habitatrank
+-99
+# Forage/Prey Availability
+2,1:3,1
+# Preyrank
+1,-99:1,-99
+# Predator Avoidance
+-99
+# Avoidrank
+-99
+# Refugia/Shelter
+-99
+# Shelterrank
+-99
+# Coverrank
+-99
+# Literature
+Distribution
+Pacific northwest, along coast in Washington and Oregon; inland mountains in Oregon extending into northern California
+General Habitat
+areas with loose, moist soil
+Home or Activity Range
+< 1 ac
+Canopy Cover
+No information available
+Specific Habitat Preferences
+primarily ground-dwelling; seldom seen above ground; Maguire (2002) found a negative association with downed woody debris
+Nestsite Characteristics
+no information available
+Foraging Habitat Characteristics
+no information available
+Diet
+roots and tubers, grasses and forbs, PIPO vegetation
+Predators
+weasels, bobcat, coyotes, spotted and other owls, gopher snakes
+Shelter Habitats
+burrow in ground
+Response to Disturbance
+often eat PIPO seedlings/roots and can thwart reforestation efforts (Verts and Carraway 2000)
+Sources of Information used in the Model
+Verts and Carraway 2000
+General Sources of Background Information
+Burt 1980, Whitmer et al. 1996, Verts and Carraway 2000, Maguire 2002
+Summaries of Specific Studies
+Maguire, Chris C. 2002. Dead wood and the richness of small terrestrial vertebrates in southwestern Oregon. USDA Forest Service Gen. Tech. Rep. PSW-GTR-181: 331-345.
+
+Study Location: Umpqua National Forest, southwestern Oregon
+Habitat Description: mature PSME, with past history of thinning or salvage logging
+Summary: The association between small vertebrate richness and coarse woody debris volume was tested, with a positive correlation demonstrated across all taxa and also within the taxonomic groups of small mammals, insectivores, and amphibians. A number of individual species appear to be associated with coarse woody debris; the majority of these associations were positive. No evidence of an association between snag volume and small vertebrate richness was found. Because the coarse woody debris volumes in the study area were well above regional guidelines, the author predicts reduced small vertebrate richness in those areas where coarse woody debris guidelines are strictly followed. 
+
+Verts, B.J.; Carraway, Leslie N. 2000. Thomomys mazama. Mammalian Species. 641: 1-7.
+
+Study Location: species account throughout entire range
+Habitat Description: variety reviewed
+Summary: Species account of the mazama pocket gopher, including information on distribution, identification, ecology, and behavior.

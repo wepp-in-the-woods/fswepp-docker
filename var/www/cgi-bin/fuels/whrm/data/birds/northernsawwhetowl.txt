@@ -1,0 +1,102 @@
+#this files was modified by filegenwhrm.pl on: Wednesday, March 16, 2005.
+#taxgroup Birds species Northern saw-whet owl / Aegolius acadicus
+#
+# Rank
+2,1,-99,-99,3
+# Nestsite
+17,1:18,1
+# Reprorank
+1,-99:1,-99
+# Foraging Habitat
+-99
+# Habitatrank
+-99
+# Forage/Prey Availability
+-99
+# Preyrank
+-99
+# Predator Avoidance
+-99
+# Avoidrank
+-99
+# Refugia/Shelter
+20,1:24,1:25,1
+# Shelterrank
+1,-99:2,-99:2,-99
+# Coverrank
+1,-99:3,-99:3,-99
+# Literature
+Distribution
+southern Alaska and Canada into southern USA
+General Habitat
+found in riparian and savannah habitat types; narrow range of habitat selection for non-deciduous stands and even-aged, single-layered conifer habitats; ponderosa pine forest type
+Home or Activity Range
+250-1250 ac (O'Neil et al. 2001)
+Canopy Cover
+tree canopy cover 40-69% (Verner 1980)
+Specific Habitat Preferences
+pole-large sized trees, 40-69% canopy cover; well-developed mid-canopy layer and shrubs 1-2 m tall, singing locations have high shrubs and grass cover (Palmer 1986, Hayward and Garton 1988)
+Nestsite Characteristics
+snags; old woodpecker holes, particularly of flickers; breed in both montane coniferous forests and riparian deciduous woodlands
+Foraging Habitat Characteristics
+hunt from perches
+Diet
+mice, small rats, young red and flying squirrels, chipmunks, shrews, bats, microtine voles, redbacked voles, small birds, insects
+Predators
+Mexican spotted owl and other larger owls
+Shelter Habitats
+roosts near tree bole half of the time, other half > 1 m from bole in foliage of outer tree branches
+Response to Disturbance
+no information available
+Sources of Information used in the Model
+Verner 1980, Hayward and Garton 1984, Grove 1985, Palmer 1986, Cannings 1987, Hayward and Garton 1988 
+General Sources of Background Information
+reviewed in Scott and Patton 1975, Scott 1978, Verner 1980, Hayward and Garton 1984, Grove 1985, Palmer 1986, Cannings 1987, Hayward and Garton 1988, reviewed in Ward and Block 1995, Holt and Leroux 1996, reviewed in O'Neil et al. 2001, reviewed in Sallabanks et al. 2003
+Summaries of Specific Studies
+Cannings, Richard J. 1987. The breeding biology of northern saw-whet owls in southern British Columbia. In: Biology and Conservation of Northern Forest Owls symposium: proceedings; 1987 February 3-7; Winnipeg, Manitoba. Gen. Tech. Rep. RM-142. Fort Collins, CO: USDA, Forest Service, Rocky Mountain Range and Experiment Station: 193-198.
+
+Study Location: Okanagan Valley, southern British Columbia
+Habitat Description: PIPO-PSME, BEOC
+Summary: The breeding biology of northern saw-whet owls was compared in deciduous riparian areas and PIPO-PSME forest. Nests occurred either in boxes or in northern flicker cavities in PIPO snags. Nesting phenology, diet, and home range are discussed.
+
+Hayward, Gregory D.; Garton, Edward O. 1984. Roost habitat selection by three small forest owls. Wilson Bulletin 96: 692-694.
+
+Study Location: Frank Church Wilderness, central Idaho
+Habitat Description: PSME, PICO, PIPO
+Summary: Winter and spring roosts of boreal and saw-whet owls, and late winter, spring and summer roosts of screech owls were examined. All owls roosted in conifers or shrubs except for one individual boreal owl that roosted in a cavity. Only screech owls repeatedly used the same roost. Roost sites of all species were similar in that tree density immediately around roosts was greater than in adjacent forest. Roosts of the species differed in the amount of cover which the roost tree provided and the position of the perches on the branches. 
+
+Hayward, Gregory .D.; Garton, Edward.O. 1988. Resource partitioning among forest owls in the River of No Return Wilderness. Oecologia (Berlin). 75:253-265.
+
+Study Location: Frank Church Wilderness, central Idaho
+Habitat Description: PSME, PICO, PIPO, ABLA habitat type series
+Summary: Resource partitioning at the macro- and microhabitat scale was studied for five abundant species of forest owls. Owls differed in habitat preferences as well as activity periods and food habits. Screech owls had the most restricted niche, while pygmy and great-horned owls were more generalist in habitat ust. Patterns of resource use was interpreted as resulting from environmental factors, morphological limitations, behavioral adaptations, and interspecific competition.
+
+Holt, Denver; Leroux, Leslie A. 1996. Diets of northern pygmy-owls and northern saw-whet owls in west-central Montana. Wilson Bulletin. 108(1): 123-128.
+
+Study Location: west-central Montana
+Habitat Description: not stated
+Summary: Examination of the diets of two sympatric, small owls. Pygmy-owls were found to have a significant avian component to their diets, while they also ate a large number of voles. Microtine voles were the most significant component of saw-whet owl diets.The authors could not conclude that diet is shaping the sympatric distribution of these two owls.
+
+Palmer, David Andrew. 1986. Habitat selection, movements, and activity of boreal and saw-whet owls. Fort Collins, CO: Colorado State University. 101pp. M.S. Thesis.
+
+Study Location: north-central Colorado
+Habitat Description: mixed conifer, including: PIEN, PICO, PSME, PIPO, aspen, JUSC
+Summary: This study examined habitat selection, movement patterns (including home range), diet, and breeding season singing activity of boreal and saw-whet owls. Chapters are divided into potential competitive interactions, movement and roost site selection by boreal owls, and annual and seasonal variation in singing activity for both species. Boreal owls selected high-elevation mature spruce-fir forests while saw-whet owls were found at lower elevation deciduous or mixed forests. Both species avoided large, unbroken stands of PICO. Otherwise, macrohabitat selection for both species did not differ from what was available. At the microhabitat level, saw-whet owl territories had more small trees and a higher deciduous element than boreal owl territories. Boreal owls roosted in dense tree stands on steep slopes. Conifer trees were preferred, and roosts were seldom used more than once.
+
+Sallabanks, Rex; Marcot, Bruce G.; Riggs, Robert A.; Mehl, Carolyn A.; Arnett, Edward B. 2003. Wildlife of Eastside (Interior) Forests and Woodlands. In Wildlife-Habitat Relationships in Oregon and Washington. Corvallis, OR: Oregon State University Press. pp 213-238.
+
+Study Location: Blue Mountains, OR
+Habitat Description: ABGR
+Summary: This case history (1) evaluates bird-habitat relationships in primarily grand fir forests. The goals of this study were to assess how forest stand structure influences habitat selection by birds, to investigate bird use of specific forest structural classes, and to relate bird habitat use to potential management options that consider breeding bird habitat.
+
+Verner, Jared. 1980. Bird communities of mixed-conifer forests of the Sierra Nevada. In Management of western forests and grasslands for nongame birds: workshop proceedings. February 11-14, 1980, Salt Lake City, UT. USDA Forest Service Gen. Tech. Rep. INT-86, Ogden, UT. pp 198-223.
+
+Study Location: Sierra Nevada of California
+Habitat Description: ABCO/LIDE/PILA/PIPO/PSME
+Summary: Breeding bird species are predicted for the various habitat stages of mixed-conifer forest in the Sierra Nevada. Habitat is broken into groups based on tree size (exact diameters not given) and canopy closure. Relative suitability of habitats is listed; optimal habitat only was entered in this database. This species-habitat matrix was made from data from various studies in the region. Predictions were more accurate for later seral stages than early. Forest management in regards to bird communities is discussed, emphasizing the importance of late seral stages for breeding birds in the study region.
+
+Ward Jr., James P.; Block, William M. 1995. Mexican spotted owl prey ecology. Chapter 5. In Recovery Plan for the Mexican Spotted Owl. Vol II. Albuquerque, New Mexico: USDI Fish and Wildlife Service. pp 1-48.
+
+Study Location: range of Mexican spotted owl; case studies in northern Arizona and New Mexico
+Habitat Description: not stated; PIPO
+Summary: Literature review and synthesis of data from past studies concerning the ecology of prey of the Mexican Spotted Owl, including information on owl diet, identification of prey that might influence owl fitness, and quantification of habitat correlates of prey species. The authors found variation in diet regionally. Reproductive success of spotted owls was not linked to any single prey species, rather to many species in combination, or total prey biomass. However, certain species may be more important in specific regions. Overall, food resources were quite variable among vegetation communities and through time. Owl food is most abundant during the summer when young are being raised. Prey biomass decreases in late fall and early winter. Habitat correlates are presented from one study in northern Arizona (deer mouse, brush mouse, Mexican woodrat) and one in New Mexico.

@@ -1,0 +1,42 @@
+WR	wepp-21515	"03:23 am  Friday June 11, 2010"	"colderdryergoldbeach +"	30	clay	native	60	4	4	5	50	40	25	20	outrut	m
+WR	wepp-21570	"03:24 am  Friday June 11, 2010"	"colderdryergoldbeach +"	30	clay	native	30	4	4	5	50	40	25	20	outrut	m
+WR	wepp-21707	"03:27 am  Friday June 11, 2010"	"colderdryergoldbeach +"	30	clay	native	30	4	4	5	50	40	25	10	outrut	m
+WR	wepp-21738	"03:27 am  Friday June 11, 2010"	"colderdryergoldbeach +"	30	clay	native	30	4	4	5	50	40	25	10	inveg	m
+WD	wepp-22052	"03:42 am  Friday June 11, 2010"	"colderdryergoldbeach +"	30	clay	skid	50	0	15	10	20	tree20	50	30	5	100	20	0	m	""
+WD	wepp-22080	"03:42 am  Friday June 11, 2010"	"colderdryergoldbeach +"	30	clay	skid	50	0	15	10	20	tree20	50	30	5	100	20	0	m	""
+WD	wepp-22090	"03:42 am  Friday June 11, 2010"	"colderdryergoldbeach +"	30	clay	skid	50	0	15	10	20	tree20	50	30	5	100	20	0	m	""
+WD	wepp-22121	"03:43 am  Friday June 11, 2010"	"colderdryergoldbeach +"	30	clay	short	50	0	15	40	20	tree20	50	30	5	100	20	0	m	""
+WD	wepp-22197	"03:48 am  Friday June 11, 2010"	"colderdryergoldbeach +"	30	clay	skid	50	0	15	10	20	tree20	50	30	5	100	20	0	m	""
+WD	wepp-22210	"03:49 am  Friday June 11, 2010"	"colderdryergoldbeach +"	30	clay	skid	50	0	15	10	20	tree20	50	30	5	100	20	0	m	""
+WD	wepp-22220	"03:50 am  Friday June 11, 2010"	"colderdryergoldbeach +"	30	clay	skid	50	0	15	10	20	tree20	50	30	5	100	20	0	m	""
+WD	wepp-22271	"03:54 am  Friday June 11, 2010"	"colderdryergoldbeach +"	30	clay	skid	50	0	15	10	20	tree20	50	30	5	100	20	0	m	""
+WD	wepp-91042	"06:46 am  Monday October 26, 2015"	"CORVALLIS ST COL OR"	30	silt	Skid	100	20	20	20	20	OldForest	10	20	5	100	20	0	m	"skidtrail20%mit10mbuffermature"
+WD	wepp-91938	"06:58 am  Monday October 26, 2015"	"CORVALLIS ST COL OR"	30	silt	YoungForest	100	20	20	100	20	OldForest	10	20	5	100	20	0	m	"zwischenflächeskidtrail20%mit10mbuffermature"
+WD	wepp-92103	"07:00 am  Monday October 26, 2015"	"CORVALLIS ST COL OR"	30	silt	YoungForest	100	20	20	100	20	OldForest	10	20	5	100	20	0	m	"zwischenflächeskidtrail20%mit10mbuffermature"
+WD	wepp-92437	"07:09 am  Monday October 26, 2015"	"CORVALLIS ST COL OR"	30	silt	Skid	100	20	20	20	20	OldForest	10	20	5	100	20	0	m	"zwischenflächeskidtrail20%mit10mbuffermature"
+WD	wepp-92588	"07:12 am  Monday October 26, 2015"	"CORVALLIS ST COL OR"	30	silt	Skid	90	20	20	20	20	OldForest	10	20	5	100	20	0	m	"zwischenflächeskidtrail20%mit10mbuffermature"
+WD	wepp-92705	"07:12 am  Monday October 26, 2015"	"CORVALLIS ST COL OR"	30	silt	YoungForest	90	20	20	100	20	OldForest	10	20	5	100	20	0	m	"zwischenflächeskidtrail20%mit10mbuffermature"
+WD	wepp-92856	"07:13 am  Monday October 26, 2015"	"CORVALLIS ST COL OR"	30	silt	Skid	50	20	20	20	20	OldForest	10	20	5	100	20	0	m	"zwischenflächeskidtrail20%mit10mbuffermature"
+WD	wepp-92948	"07:14 am  Monday October 26, 2015"	"CORVALLIS ST COL OR"	30	silt	Skid	50	20	20	20	20	OldForest	50	20	5	100	20	0	m	"zwischenflächeskidtrail20%mit10mbuffermature"
+WD	wepp-120877	"03:28 am  Tuesday October 27, 2015"	"FREUDENSTADT + +"	20	clay	Skid	100	0	30	20	20	OldForest	10	30	5	100	20	0	m	""
+WD	wepp-120933	"03:30 am  Tuesday October 27, 2015"	"FREUDENSTADT + +"	20	clay	Skid	100	20	20	20	20	OldForest	10	20	5	100	20	0	m	""
+WD	wepp-121048	"03:33 am  Tuesday October 27, 2015"	"FREUDENSTADT + +"	20	clay	Skid	100	20	20	20	20	OldForest	10	20	5	100	20	0	m	""
+WD	wepp-121108	"03:36 am  Tuesday October 27, 2015"	"FREUDENSTADT + +"	30	clay	Skid	90	20	20	20	20	OldForest	10	20	5	100	20	0	m	"FREUDENSTAADT_AUFGABE_EINS"
+WD	wepp-121409	"03:46 am  Tuesday October 27, 2015"	"FREUDENSTADT_II + + +"	30	clay	Skid	90	20	20	20	20	OldForest	10	20	5	100	20	0	m	"FREUDENSTADT_A1"
+WD	wepp-122456	"04:26 am  Tuesday October 27, 2015"	"FREUDENSTADT_II + + +"	10	clay	Skid	90	20	20	20	20	OldForest	20	20	5	100	20	0	m	"FS_A1_1"
+WD	wepp-122491	"04:26 am  Tuesday October 27, 2015"	"FREUDENSTADT_II + + +"	10	clay	Skid	80	20	20	20	20	OldForest	20	20	5	100	20	0	m	"FS_A1_1"
+WD	wepp-122527	"04:27 am  Tuesday October 27, 2015"	"FREUDENSTADT_II + + +"	30	clay	Skid	80	20	20	20	20	OldForest	20	20	5	100	20	0	m	"FS_A1_1"
+WD	wepp-122641	"04:30 am  Tuesday October 27, 2015"	"FREUDENSTADT_II _ ND_5%+ + + +"	30	clay	Skid	90	20	20	20	20	OldForest	10	20	5	100	20	0	m	""
+WD	wepp-122726	"04:34 am  Tuesday October 27, 2015"	"FREUDENSTADT_II _ ND_5%+ + + +"	30	clay	Skid	80	20	20	20	20	OldForest	20	20	5	100	20	0	m	""
+WD	wepp-122899	"04:41 am  Tuesday October 27, 2015"	"FREUDENSTADT_II _ ND_5%+ + + +"	30	clay	Skid	90	20	20	20	20	OldForest	10	20	5	100	20	0	m	""
+WD	wepp-122936	"04:42 am  Tuesday October 27, 2015"	"FREUDENSTADT_II _ ND_5%+ + + +"	30	clay	Skid	80	20	20	20	20	OldForest	20	20	5	100	20	0	m	""
+WD	wepp-122989	"04:43 am  Tuesday October 27, 2015"	"FREUDENSTADT_II _ ND_5%+ + + +"	30	clay	Skid	80	20	20	20	20	OldForest	20	20	5	100	20	0	m	""
+WD	wepp-56921	"00:32 am  Wednesday October 25, 2017"	"FREUDENSTADT +"	60	clay	LowFire	50	30	30	85	0	LowFire	50	30	30	85	0	0	m	""
+WD	wepp-58192	"00:50 am  Wednesday October 25, 2017"	"FREUDENSTADT +"	60	clay	Skid	100	20	20	0	0	OldForest	10	20	20	100	0	0	m	""
+WD	wepp-58351	"00:51 am  Wednesday October 25, 2017"	"FREUDENSTADT +"	60	clay	Skid	100	20	20	0	0	OldForest	10	20	20	100	0	0	m	""
+WR	wepp-58919	"01:00 am  Wednesday October 25, 2017"	"FREUDENSTADT +"	30	clay	graveled	200	4	13	15	50	130	25	20	outrut	ft
+WR	wepp-61029	"02:26 am  Wednesday October 25, 2017"	"FREUDENSTADT  +"	60	clay	graveled	60	4	4	5	50	40	25	0	outrut	m
+WR	wepp-61147	"02:26 am  Wednesday October 25, 2017"	"FREUDENSTADT  +"	60	clay	graveled	60	4	4	5	50	40	25	0	inbare	m
+WR	wepp-61250	"02:27 am  Wednesday October 25, 2017"	"FREUDENSTADT  +"	60	clay	graveled	60	4	4	5	50	40	25	0	outunrut	m
+WR	wepp-61412	"02:28 am  Wednesday October 25, 2017"	"FREUDENSTADT  +"	60	clay	graveled	60	4	4	5	50	40	25	0	outunrut	m
+WR	wepp-61866	"02:32 am  Wednesday October 25, 2017"	"FREUDENSTADT  +"	60	clay	native	60	4	4	5	50	40	25	0	outunrut	m

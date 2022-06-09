@@ -1,0 +1,24 @@
+WR	wepp-4215	"05:22 pm  Monday November 30, 2009"	"ST MARIES Modified +"	30	silt	native	200	4	13	15	50	1	25	20	inveg
+WR	wepp-4251	"05:24 pm  Monday November 30, 2009"	"ST MARIES Modified +"	30	silt	native	200	4	13	15	50	1	25	20	inbare
+WR	wepp-4256	"05:25 pm  Monday November 30, 2009"	"ST MARIES Modified +"	30	silt	paved	200	4	13	15	50	1	25	20	inbare
+WR	wepp-4261	"05:26 pm  Monday November 30, 2009"	"ST MARIES Modified +"	30	silt	paved	200	4	13	15	50	100	25	20	inbare
+WR	wepp-4266	"05:26 pm  Monday November 30, 2009"	"ST MARIES Modified +"	30	silt	paved	200	4	13	15	50	120	25	20	inbare
+WR	wepp-4271	"05:26 pm  Monday November 30, 2009"	"ST MARIES Modified +"	30	silt	paved	200	4	13	15	50	110	25	20	inbare
+WR	wepp-4277	"05:26 pm  Monday November 30, 2009"	"ST MARIES Modified +"	30	silt	paved	200	4	13	15	50	113	25	20	inbare
+WR	wepp-4282	"05:27 pm  Monday November 30, 2009"	"ST MARIES Modified +"	30	silt	paved	200	4	13	15	50	112	25	20	inbare
+WR	wepp-4287	"05:27 pm  Monday November 30, 2009"	"ST MARIES Modified +"	30	silt	paved	200	4	13	15	50	112.5	25	20	inbare
+WR	wepp-4292	"05:28 pm  Monday November 30, 2009"	"ST MARIES Modified +"	30	silt	graveled	200	4	13	15	50	1	25	20	outunrut
+WD	wepp-4347	"05:31 pm  Monday November 30, 2009"	"ST MARIES Modified +"	30	silt	tree20	121.951219512195	0	30	100	20	tree20	22.8658536585366	30	5	100	20	0	ft	""
+WD	wepp-4354	"05:32 pm  Monday November 30, 2009"	"ST MARIES Modified +"	30	silt	tall	121.951219512195	0	30	60	20	tree20	22.8658536585366	30	5	100	20	0	ft	""
+WD	wepp-4359	"05:33 pm  Monday November 30, 2009"	"ST MARIES Modified +"	30	silt	tree20	121.951219512195	0	30	100	20	tree20	22.8658536585366	30	5	100	20	0	ft	""
+WD	wepp-4364	"05:34 pm  Monday November 30, 2009"	"ST MARIES Modified +"	30	silt	tall	121.951219512195	0	30	60	20	tree20	9.14634146341463	30	5	100	20	0	ft	""
+WD	wepp-4396	"05:34 pm  Monday November 30, 2009"	"ST MARIES Modified +"	30	silt	high	121.951219512195	0	30	45	20	low	9.14634146341463	30	5	85	20	0	ft	""
+WD	wepp-4401	"05:35 pm  Monday November 30, 2009"	"ST MARIES Modified +"	30	silt	high	121.951219512195	0	30	45	20	low	91.4634146341463	30	5	85	20	0	ft	""
+WD	wepp-4406	"05:35 pm  Monday November 30, 2009"	"ST MARIES Modified +"	30	silt	high	121.951219512195	0	30	45	20	low	121.951219512195	30	5	85	20	0	ft	""
+WD	wepp-4411	"05:36 pm  Monday November 30, 2009"	"ST MARIES Modified +"	30	silt	high	121.951219512195	0	30	45	20	low	152.439024390244	30	5	85	20	0	ft	""
+WD	wepp-4416	"05:36 pm  Monday November 30, 2009"	"ST MARIES Modified +"	30	silt	high	121.951219512195	0	30	45	20	low	304.878048780488	30	5	85	20	0	ft	""
+WD	wepp-4421	"05:36 pm  Monday November 30, 2009"	"ST MARIES Modified +"	30	silt	high	121.951219512195	0	30	45	20	low	365.853658536585	30	5	85	20	0	ft	""
+WD	wepp-4426	"05:37 pm  Monday November 30, 2009"	"ST MARIES Modified +"	30	silt	high	121.951219512195	0	30	45	20	high	365.853658536585	30	5	45	20	0	ft	""
+WD	wepp-18440	"03:58 pm  Tuesday December 1, 2009"	"ST MARIES Modified +"	30	silt	high	121.951219512195	0	30	0	20	low	9.14634146341463	30	5	85	20	0	ft	""
+WD	wepp-18467	"04:01 pm  Tuesday December 1, 2009"	"ST MARIES Modified +"	30	silt	high	121.951219512195	0	30	0	20	low	304.878048780488	30	5	85	20	0	ft	""
+WD	wepp-18472	"04:01 pm  Tuesday December 1, 2009"	"ST MARIES Modified +"	30	silt	high	121.951219512195	0	30	0	20	low	365.853658536585	30	5	85	20	0	ft	""

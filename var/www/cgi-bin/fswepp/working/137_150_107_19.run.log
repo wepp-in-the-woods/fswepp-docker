@@ -1,0 +1,12 @@
+WR	wepp-203936	"10:55 am  Friday February 27, 2015"	"TAHOE CA +"	30	clay	native	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-204019	"11:03 am  Friday February 27, 2015"	"EUREKA WBO CA +"	30	clay	native	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-204964	"11:21 am  Friday February 27, 2015"	"EUREKA WBO CA +"	30	clay	native	200	4	13	15	50	130	25	20	inveg	ft
+wt	wepp-57754	"Mar 10, 2015"	"N of Rubicon CA +"	granitic	HighRoad	4	4	100	10	20	YoungForest	20	15	50	100	20	ft	""
+wt	wepp-57976	"Mar 10, 2015"	"N of Rubicon CA + +"	granitic	HighRoad	4	4	100	10	20	YoungForest	20	15	50	100	20	ft	""
+wt	wepp-58194	"Mar 10, 2015"	"N of Rubicon CA + +"	volcanic	Bare	30	30	100	20	20	OldForest	30	20	50	100	20	ft	""
+WD	wepp-43377	"12:11 pm  Thursday March 24, 2022"	"EUREKA WBO CA +"	10	clay	OldForest	50	0	30	100	20	OldForest	50	30	5	100	20	0	ft	"one"
+WD	wepp-46343	"12:15 pm  Thursday March 24, 2022"	"EUREKA WBO CA +"	10	clay	OldForest	50	0	30	75	20	OldForest	50	30	5	75	20	0	ft	"one"
+WD	wepp-47364	"12:16 pm  Thursday March 24, 2022"	"EUREKA WBO CA +"	10	clay	OldForest	50	0	30	50	20	OldForest	50	30	5	50	20	0	ft	"one"
+WD	wepp-48555	"12:18 pm  Thursday March 24, 2022"	"EUREKA WBO CA +"	10	clay	OldForest	50	0	30	25	20	OldForest	50	30	5	25	20	0	ft	"one"
+WD	wepp-51548	"12:22 pm  Thursday March 24, 2022"	"EUREKA WBO CA +"	10	loam	OldForest	50	0	30	75	20	OldForest	50	30	5	75	20	0	ft	"one"
+WD	wepp-52102	"12:22 pm  Thursday March 24, 2022"	"EUREKA WBO CA +"	10	sand	OldForest	50	0	30	75	20	OldForest	50	30	5	75	20	0	ft	"one"

@@ -1,0 +1,254 @@
+WD	wepp-8642	"05:05 pm  Friday July 30, 2010"	"TRPP CA +"	30	sand	tree20	100	30	70	100	10	tree20	50	70	30	100	10	0	ft	"Unburned"
+WD	wepp-8647	"05:06 pm  Friday July 30, 2010"	"TRPP CA +"	30	sand	high	50	30	70	45	10	high	50	70	30	45	10	0	ft	"Unburned"
+WD	wepp-8652	"05:06 pm  Friday July 30, 2010"	"TRPP CA +"	30	sand	tree20	50	30	70	100	10	tree20	50	70	30	100	10	0	ft	"Unburned"
+WD	wepp-8657	"05:07 pm  Friday July 30, 2010"	"TRPP CA +"	30	sand	high	50	30	70	45	10	high	50	70	30	45	10	0	ft	"Unburned"
+WD	wepp-8662	"05:07 pm  Friday July 30, 2010"	"TRPP CA +"	30	sand	high	50	30	70	45	10	high	50	70	30	45	10	0	ft	"Wildfire"
+WD	wepp-8694	"05:08 pm  Friday July 30, 2010"	"TRPP CA +"	30	sand	tree20	50	30	70	100	10	tree20	50	70	30	100	10	0	ft	"Unburned"
+WD	wepp-8700	"05:11 pm  Friday July 30, 2010"	"TRPP CA +"	30	sand	tree20	50	30	70	70	10	tree20	50	70	30	70	10	0	ft	"70per cover"
+WD	wepp-8706	"05:12 pm  Friday July 30, 2010"	"TRPP CA +"	30	sand	tree20	50	30	70	50	10	tree20	50	70	30	50	10	0	ft	"50per cover"
+WD	wepp-8742	"05:14 pm  Friday July 30, 2010"	"TRPP CA +"	30	sand	low	50	30	70	85	10	low	50	70	30	85	10	0	ft	"50per cover"
+WD	wepp-8791	"05:15 pm  Friday July 30, 2010"	"TRPP CA +"	30	sand	low	50	30	70	85	10	low	50	70	30	85	10	0	ft	"low severity fire"
+WD	wepp-8796	"05:15 pm  Friday July 30, 2010"	"TRPP CA +"	30	sand	low	50	30	70	70	10	low	50	70	30	70	10	0	ft	"low severity fire"
+WD	wepp-8801	"05:16 pm  Friday July 30, 2010"	"TRPP CA +"	30	sand	low	50	30	70	50	10	low	50	70	30	50	10	0	ft	"low severity fire"
+WD	wepp-30291	"09:50 am  Monday August 30, 2010"	"U59_V88 CA +"	30	sand	tree20	35	20	30	70	10	tree20	35	30	10	100	10	0	ft	""
+WD	wepp-30296	"09:51 am  Monday August 30, 2010"	"U59_V88 CA +"	30	sand	tree20	35	20	30	70	10	tree20	35	30	10	100	10	0	ft	""
+WD	wepp-30301	"09:51 am  Monday August 30, 2010"	"U59_V88 CA +"	30	sand	low	35	20	30	85	10	low	35	30	10	85	10	0	ft	""
+WD	wepp-30306	"09:52 am  Monday August 30, 2010"	"U59_V88 CA +"	30	sand	high	35	20	30	45	10	high	35	30	10	45	10	0	ft	""
+WD	wepp-30343	"09:56 am  Monday August 30, 2010"	"U59_V88 CA +"	30	sand	tree20	100	20	35	70	10	tree20	50	35	10	100	10	0	ft	""
+WD	wepp-30438	"10:00 am  Monday August 30, 2010"	"U59_V88 CA +"	30	sand	low	100	20	35	85	10	low	50	35	10	85	10	0	ft	""
+WD	wepp-30443	"10:00 am  Monday August 30, 2010"	"U59_V88 CA +"	30	sand	high	100	20	35	45	10	high	50	35	10	45	10	0	ft	""
+WD	wepp-30448	"10:00 am  Monday August 30, 2010"	"U59_V88 CA +"	30	sand	low	100	20	35	85	10	high	50	35	10	45	10	0	ft	""
+WD	wepp-30930	"10:15 am  Monday August 30, 2010"	"U59_V88 CA +"	30	sand	tree20	100	20	35	100	10	tree20	50	35	10	100	10	0	ft	"Undisturbed - existing conditions"
+WD	wepp-30939	"10:17 am  Monday August 30, 2010"	"U59_V88 CA +"	30	sand	tree20	100	20	35	100	10	tree20	50	35	10	100	10	0	ft	"High Intensity Fire - no treatment"
+WD	wepp-30971	"10:17 am  Monday August 30, 2010"	"U59_V88 CA +"	30	sand	high	100	20	35	45	10	high	50	35	10	45	10	0	ft	"High Intensity Fire - no treatment"
+WD	wepp-31003	"10:18 am  Monday August 30, 2010"	"U59_V88 CA +"	30	sand	tree20	100	20	35	70	10	tree20	50	35	10	100	10	0	ft	"50 foot buffer pre-fire"
+WD	wepp-31009	"10:20 am  Monday August 30, 2010"	"U59_V88 CA +"	30	sand	low	120	20	35	85	10	high	30	35	10	45	10	0	ft	"50 foot buffer post-fire (with reach-in treatment)"
+WD	wepp-31042	"10:23 am  Monday August 30, 2010"	"U59_V88 CA +"	30	sand	low	100	20	35	85	10	low	50	35	10	85	10	0	ft	"Low Intensity - no treatment"
+WD	wepp-31048	"10:24 am  Monday August 30, 2010"	"U59_V88 CA +"	30	sand	low	75	20	35	85	10	high	75	35	10	45	10	0	ft	"Low Intensity - no treatment"
+WD	wepp-31053	"10:25 am  Monday August 30, 2010"	"U59_V88 CA +"	30	sand	low	95	20	35	85	10	high	55	35	10	45	10	0	ft	"75 foot buffer - 20 foot reach-in"
+wt	wepp-6373	"Feb 14, 2011"	"v88 Cooks Station +"	volcanic	OldForest	0	35	50	100	20	OldForest	35	5	50	100	20	ft	"Volcanic, frigid"
+wt	wepp-6408	"Feb 14, 2011"	"v88 Cooks Station +"	volcanic	LowFire	0	35	50	85	20	LowFire	35	5	50	85	20	ft	"Volcanic, frigid"
+wt	wepp-6455	"Feb 14, 2011"	"v88 Cooks Station +"	volcanic	LowFire	0	35	50	70	20	LowFire	35	5	50	70	20	ft	"Volcanic, frigid"
+wt	wepp-6475	"Feb 14, 2011"	"v88 Cooks Station +"	volcanic	HighFire	0	35	50	45	20	HighFire	35	5	50	45	20	ft	"Volcanic, frigid"
+wt	wepp-6495	"Feb 14, 2011"	"v88 Cooks Station +"	volcanic	OldForest	0	35	50	70	20	OldForest	35	5	50	70	20	ft	"Volcanic, frigid"
+wt	wepp-6635	"Feb 14, 2011"	"V88 Iron Mountain Ski Area +"	volcanic	OldForest	0	35	50	100	20	YoungForest	35	5	50	100	20	ft	""
+wt	wepp-6655	"Feb 14, 2011"	"V88 Iron Mountain Ski Area +"	volcanic	OldForest	0	35	50	100	20	OldForest	35	5	50	100	20	ft	""
+wt	wepp-6694	"Feb 14, 2011"	"V88 Iron Mountain Ski Area +"	volcanic	LowFire	0	35	50	70	20	LowFire	35	5	50	70	20	ft	""
+wt	wepp-6714	"Feb 14, 2011"	"V88 Iron Mountain Ski Area +"	volcanic	LowFire	0	35	50	70	20	LowFire	35	5	50	70	20	ft	""
+wt	wepp-6769	"Feb 14, 2011"	"V88 Iron Mountain Ski Area +"	granitic	LowFire	0	35	50	70	20	LowFire	35	5	50	70	20	ft	"volcanic, cryic prescribed burn"
+wt	wepp-6789	"Feb 14, 2011"	"V88 Iron Mountain Ski Area +"	volcanic	LowFire	0	35	50	70	20	LowFire	35	5	50	70	20	ft	"volcanic, cryic prescribed burn"
+wt	wepp-6808	"Feb 14, 2011"	"V88 Iron Mountain Ski Area +"	volcanic	HighFire	0	35	50	45	20	HighFire	35	5	50	45	20	ft	"volcanic, cryic high intensity burn"
+wt	wepp-6855	"Feb 14, 2011"	"V88 Iron Mountain Ski Area +"	granitic	OldForest	0	35	50	100	20	OldForest	35	5	50	100	20	ft	"granitic no action"
+wt	wepp-6912	"Feb 14, 2011"	"V88 Iron Mountain Ski Area +"	granitic	LowFire	0	35	50	70	20	LowFire	35	5	50	70	20	ft	"granitic prescribed fire"
+wt	wepp-6934	"Feb 14, 2011"	"V88 Iron Mountain Ski Area +"	granitic	HighFire	0	35	50	45	20	HighFire	35	5	50	45	20	ft	"granitic high severity fire"
+WD	wepp-7044	"02:29 pm  Monday February 14, 2011"	"V88 Iron Mountain Ski Area +"	100	loam	high	50	0	35	45	20	high	50	35	5	45	20	0	ft	""
+WD	wepp-7339	"02:43 pm  Monday February 14, 2011"	"Georgetown Scales CA +"	100	loam	tree20	50	0	35	100	20	tree20	50	35	5	100	20	0	ft	"volcanic, frigid no action"
+WD	wepp-7346	"02:43 pm  Monday February 14, 2011"	"Cooks Station CA +"	100	loam	tree20	50	0	35	100	20	tree20	50	35	5	100	20	0	ft	"volcanic, frigid no action"
+WD	wepp-7389	"02:45 pm  Monday February 14, 2011"	"Cooks Station CA +"	100	loam	low	50	0	35	85	20	low	50	35	5	85	20	0	ft	"volcanic, frigid prescribed fire"
+WD	wepp-7394	"02:46 pm  Monday February 14, 2011"	"Cooks Station CA +"	100	loam	high	50	0	35	45	20	high	50	35	5	45	20	0	ft	"volcanic, high intensity fire"
+WD	wepp-7446	"02:47 pm  Monday February 14, 2011"	"Cooks Station CA +"	100	loam	high	50	0	35	45	20	high	50	35	5	45	20	0	ft	"volcanic, high intensity fire"
+WD	wepp-7451	"02:48 pm  Monday February 14, 2011"	"Cooks Station CA +"	100	loam	tree20	50	0	35	70	20	tree20	50	35	5	70	20	0	ft	"volcanic, mech treatment"
+WD	wepp-7457	"02:49 pm  Monday February 14, 2011"	"V88 Iron Mountain Ski Area +"	100	loam	tree20	50	0	35	100	20	tree20	50	35	5	100	20	0	ft	"volcanic, cryic, no action"
+WD	wepp-7466	"02:51 pm  Monday February 14, 2011"	"V88 Iron Mountain Ski Area +"	100	loam	low	50	0	35	85	20	low	50	35	5	85	20	0	ft	"volcanic, cryic, prescribed fire"
+WD	wepp-7559	"03:00 pm  Monday February 14, 2011"	"V88 Iron Mountain Ski Area +"	100	loam	high	50	0	35	45	20	high	50	35	5	45	20	0	ft	"volcanic, cryic, high intensity fire"
+WD	wepp-7587	"03:02 pm  Monday February 14, 2011"	"V88 Iron Mountain Ski Area +"	100	sand	tree20	50	0	35	100	20	tree20	50	35	5	100	20	0	ft	"granitic, no action"
+WD	wepp-7619	"03:03 pm  Monday February 14, 2011"	"V88 Iron Mountain Ski Area +"	100	sand	low	50	0	35	85	20	low	50	35	5	85	20	0	ft	"granitic, prescribed burn"
+WD	wepp-7654	"03:04 pm  Monday February 14, 2011"	"V88 Iron Mountain Ski Area +"	100	sand	high	50	0	35	45	20	high	50	35	5	45	20	0	ft	"granitic, high severity fire burn"
+WE	wepp-31128	"04:23 pm  Wednesday March 23, 1924"	"U59_V88 CA +"	sand	10	chap	20	40	20	900	l	80	0	ft
+WE	wepp-31177	"04:23 pm  Wednesday March 23, 1924"	"U59_V88 CA +"	sand	10	chap	20	40	20	800	m	80	0	ft
+WE	wepp-31246	"04:24 pm  Wednesday March 23, 1924"	"U59_V88 CA +"	sand	10	chap	20	40	20	700	h	80	0	ft
+WE	wepp-31335	"04:24 pm  Wednesday March 23, 1924"	"U59_V88 CA +"	sand	10	chap	20	40	20	600	h	80	0	ft
+WE	wepp-31424	"04:24 pm  Wednesday March 23, 1924"	"U59_V88 CA +"	sand	10	chap	20	40	20	500	h	80	0	ft
+WE	wepp-31514	"04:25 pm  Wednesday March 23, 1924"	"U59_V88 CA +"	sand	10	chap	20	40	20	400	h	80	0	ft
+WE	wepp-31630	"04:29 pm  Wednesday March 23, 1924"	"U59_V88 CA +"	sand	10	chap	20	40	20	900	l	80	0	ft
+WE	wepp-31679	"04:29 pm  Wednesday March 23, 1924"	"U59_V88 CA +"	sand	10	chap	20	40	20	800	m	80	0	ft
+WE	wepp-31748	"04:29 pm  Wednesday March 23, 1944"	"U59_V88 CA +"	loam	10	chap	20	40	20	700	h	80	0	ft
+WE	wepp-31837	"04:29 pm  Wednesday March 23, 1924"	"U59_V88 CA +"	sand	10	chap	20	40	20	600	h	80	0	ft
+WE	wepp-31945	"04:30 pm  Wednesday March 23, 1924"	"U59_V88 CA +"	sand	10	chap	20	40	20	500	h	80	0	ft
+WE	wepp-32035	"04:30 pm  Wednesday March 23, 1924"	"U59_V88 CA +"	sand	10	chap	20	40	20	400	h	80	0	ft
+WD	wepp-13037	"12:50 pm  Thursday March 24, 2011"	"2chaix (mod Auburb) CA +"	50	silt	tree20	20	10	15	100	5	tree20	20	5	5	5	5	0	m	"1"
+WD	wepp-13118	"01:01 pm  Thursday March 24, 2011"	"2chaix (mod Auburb) CA +"	50	silt	tree20	25	10	35	100	10	tree20	25	35	10	100	10	0	ft	"existing"
+WD	wepp-13123	"01:01 pm  Thursday March 24, 2011"	"2chaix (mod Auburb) CA +"	50	silt	tree20	25	10	35	70	10	tree20	25	35	10	70	10	0	ft	"harvest"
+WD	wepp-13128	"01:01 pm  Thursday March 24, 2011"	"2chaix (mod Auburb) CA +"	50	silt	low	25	10	35	70	10	low	25	35	10	70	10	0	ft	"prescribed"
+WD	wepp-13133	"01:02 pm  Thursday March 24, 2011"	"2chaix (mod Auburb) CA +"	50	silt	high	25	10	35	40	10	high	25	35	10	40	10	0	ft	"wildfire"
+WD	wepp-13138	"01:02 pm  Thursday March 24, 2011"	"2chaix (mod Auburb) CA +"	50	silt	skid	25	10	35	50	10	skid	25	35	10	50	10	0	ft	"skidtrail"
+WD	wepp-14630	"03:57 pm  Thursday March 24, 2011"	"2chaix (mod Auburb) CA +"	50	silt	tree20	50	10	35	100	10	tree20	50	35	20	100	10	0	ft	"existing"
+WD	wepp-14635	"03:57 pm  Thursday March 24, 2011"	"2chaix (mod Auburb) CA +"	50	silt	tree20	50	10	35	70	10	tree20	50	35	20	70	10	0	ft	"harvest"
+WD	wepp-14640	"03:57 pm  Thursday March 24, 2011"	"2chaix (mod Auburb) CA +"	50	silt	low	50	10	35	70	10	low	50	35	20	70	10	0	ft	"prescribed"
+WD	wepp-14645	"03:57 pm  Thursday March 24, 2011"	"2chaix (mod Auburb) CA +"	50	silt	high	50	10	35	40	10	high	50	35	20	40	10	0	ft	"wildfire"
+WD	wepp-14650	"03:57 pm  Thursday March 24, 2011"	"2chaix (mod Auburb) CA +"	50	silt	skid	50	10	35	50	10	skid	50	35	20	50	10	0	ft	"skidtrails"
+WD	wepp-14838	"04:20 pm  Thursday March 24, 2011"	"2chaix (mod Auburb) CA +"	50	silt	tree20	50	10	35	100	10	tree20	50	35	20	100	10	0	ft	"existing"
+WD	wepp-14843	"04:20 pm  Thursday March 24, 2011"	"2chaix (mod Auburb) CA +"	50	silt	tree20	50	10	35	70	10	tree20	50	35	20	70	10	0	ft	"harvest"
+WD	wepp-14848	"04:20 pm  Thursday March 24, 2011"	"2chaix (mod Auburb) CA +"	50	silt	low	50	10	35	70	10	low	50	35	20	70	10	0	ft	"prescribed"
+WD	wepp-14853	"04:20 pm  Thursday March 24, 2011"	"2chaix (mod Auburb) CA +"	50	silt	high	50	10	35	40	10	high	50	35	20	40	10	0	ft	"wildfire"
+WD	wepp-14858	"04:20 pm  Thursday March 24, 2011"	"2chaix (mod Auburb) CA +"	50	silt	skid	50	10	35	50	10	skid	50	35	20	50	10	0	ft	"skidtrails"
+WD	wepp-14891	"04:22 pm  Thursday March 24, 2011"	"2chaix (mod Auburb) CA +"	40	silt	tree20	50	10	35	100	10	tree20	50	35	20	100	10	0	ft	"existing"
+WD	wepp-14896	"04:22 pm  Thursday March 24, 2011"	"2chaix (mod Auburb) CA +"	40	silt	tree20	50	10	35	70	10	tree20	50	35	20	70	10	0	ft	"harvest"
+WD	wepp-14901	"04:22 pm  Thursday March 24, 2011"	"2chaix (mod Auburb) CA +"	40	silt	low	50	10	35	70	10	low	50	35	20	70	10	0	ft	"prescribed"
+WD	wepp-14906	"04:22 pm  Thursday March 24, 2011"	"2chaix (mod Auburb) CA +"	40	silt	high	50	10	35	40	10	high	50	35	20	40	10	0	ft	"wildfire"
+WD	wepp-14911	"04:22 pm  Thursday March 24, 2011"	"2chaix (mod Auburb) CA +"	40	silt	skid	50	10	35	50	10	skid	50	35	20	50	10	0	ft	"skidtrails"
+WD	wepp-14918	"04:23 pm  Thursday March 24, 2011"	"2chaix (mod Auburb) CA +"	50	silt	tree20	50	10	35	100	10	tree20	50	35	20	100	10	0	ft	"existing"
+WD	wepp-14923	"04:23 pm  Thursday March 24, 2011"	"2chaix (mod Auburb) CA +"	50	silt	tree5	50	10	35	70	10	tree5	50	35	20	70	10	0	ft	"harvest"
+WD	wepp-14928	"04:24 pm  Thursday March 24, 2011"	"2chaix (mod Auburb) CA +"	50	silt	low	50	10	35	70	10	low	50	35	20	70	10	0	ft	"prescribed"
+WD	wepp-14933	"04:24 pm  Thursday March 24, 2011"	"2chaix (mod Auburb) CA +"	50	silt	high	50	10	35	40	10	high	50	35	20	40	10	0	ft	"wildfire"
+WD	wepp-14938	"04:24 pm  Thursday March 24, 2011"	"2chaix (mod Auburb) CA +"	50	silt	skid	50	10	35	50	10	skid	50	35	20	50	10	0	ft	"skidtrails"
+WD	wepp-14943	"04:25 pm  Thursday March 24, 2011"	"2chaix (mod Auburb) CA +"	50	silt	tree20	50	10	35	100	10	tree20	50	35	20	100	10	0	ft	"existing"
+WD	wepp-14948	"04:25 pm  Thursday March 24, 2011"	"2chaix (mod Auburb) CA +"	50	silt	tree20	50	10	35	70	10	tree20	50	35	20	70	10	0	ft	"harvest"
+WD	wepp-14953	"04:25 pm  Thursday March 24, 2011"	"2chaix (mod Auburb) CA +"	50	silt	low	50	10	35	70	10	low	50	35	20	70	10	0	ft	"prescribed"
+WD	wepp-14958	"04:26 pm  Thursday March 24, 2011"	"2chaix (mod Auburb) CA +"	50	silt	high	50	10	35	40	10	high	50	35	20	40	10	0	ft	"wildfire"
+WD	wepp-14963	"04:26 pm  Thursday March 24, 2011"	"2chaix (mod Auburb) CA +"	50	silt	skid	50	10	35	50	10	skid	50	35	20	50	10	0	ft	"skidtrails"
+WD	wepp-15003	"04:28 pm  Thursday March 24, 2011"	"2chaix (mod Auburb) CA +"	50	silt	tree20	50	10	35	100	10	tree20	50	35	20	100	10	0	ft	"existing"
+WD	wepp-15008	"04:28 pm  Thursday March 24, 2011"	"2chaix (mod Auburb) CA +"	50	silt	tree20	50	10	35	70	10	tree20	50	35	20	70	10	0	ft	"harvest"
+WD	wepp-15013	"04:28 pm  Thursday March 24, 2011"	"2chaix (mod Auburb) CA +"	50	silt	low	50	10	35	70	10	low	50	35	20	70	10	0	ft	"prescribed"
+WD	wepp-15018	"04:28 pm  Thursday March 24, 2011"	"2chaix (mod Auburb) CA +"	50	silt	high	50	10	35	40	10	high	50	35	20	40	10	0	ft	"wildfire"
+WD	wepp-15023	"04:28 pm  Thursday March 24, 2011"	"2chaix (mod Auburb) CA +"	50	silt	skid	50	10	35	50	10	skid	50	35	20	50	10	0	ft	"skidtrails"
+WD	wepp-15124	"04:38 pm  Thursday March 24, 2011"	"2chaix (mod Auburb) CA +"	50	silt	tree20	50	10	35	100	10	tree5	50	35	10	100	10	0	ft	""
+WD	wepp-15129	"04:39 pm  Thursday March 24, 2011"	"2chaix (mod Auburb) CA +"	50	silt	tree20	50	10	35	100	10	tree20	50	35	10	100	10	0	ft	""
+WD	wepp-15134	"04:40 pm  Thursday March 24, 2011"	"2chaix (mod Auburb) CA +"	50	silt	tree20	50	10	35	70	10	tree20	50	35	10	70	10	0	ft	""
+WD	wepp-15140	"04:40 pm  Thursday March 24, 2011"	"2chaix (mod Auburb) CA +"	50	silt	tree20	50	10	35	100	10	tree20	50	35	20	100	10	0	ft	"existing"
+WD	wepp-15146	"04:40 pm  Thursday March 24, 2011"	"2chaix (mod Auburb) CA +"	50	silt	tree20	50	10	35	70	10	tree20	50	35	20	70	10	0	ft	"harvest"
+WD	wepp-15158	"04:40 pm  Thursday March 24, 2011"	"2chaix (mod Auburb) CA +"	50	silt	low	50	10	35	70	10	low	50	35	20	70	10	0	ft	"prescribed"
+WD	wepp-15163	"04:41 pm  Thursday March 24, 2011"	"2chaix (mod Auburb) CA +"	50	silt	high	50	10	35	40	10	high	50	35	20	40	10	0	ft	"wildfire"
+WD	wepp-15168	"04:41 pm  Thursday March 24, 2011"	"2chaix (mod Auburb) CA +"	50	silt	skid	50	10	35	50	10	skid	50	35	20	50	10	0	ft	"skidtrails"
+WD	wepp-15254	"04:46 pm  Thursday March 24, 2011"	"2chaix (mod Auburb) CA +"	50	silt	tree20	50	10	35	100	10	tree20	50	35	10	100	10	0	ft	"existing"
+WD	wepp-15259	"04:46 pm  Thursday March 24, 2011"	"2chaix (mod Auburb) CA +"	50	silt	tree20	50	10	35	70	10	tree20	50	35	10	70	10	0	ft	"harvest"
+WD	wepp-15264	"04:46 pm  Thursday March 24, 2011"	"2chaix (mod Auburb) CA +"	50	silt	low	50	10	35	70	10	low	50	35	10	70	10	0	ft	"pres"
+WD	wepp-15269	"04:46 pm  Thursday March 24, 2011"	"2chaix (mod Auburb) CA +"	50	silt	high	50	10	35	40	10	high	50	35	10	40	10	0	ft	"wildfire"
+WD	wepp-15274	"04:46 pm  Thursday March 24, 2011"	"2chaix (mod Auburb) CA +"	50	silt	skid	50	10	35	50	10	skid	50	35	10	50	10	0	ft	"skidtrail"
+WE	wepp-21204	"10:44 am  Tuesday April 5, 1980"	"TRPP CA +"	loam	30	forest	20	40	20	900	l			ft
+WE	wepp-21267	"10:44 am  Tuesday April 5, 1980"	"TRPP CA +"	loam	30	forest	20	40	20	800	l			ft
+WE	wepp-21328	"10:44 am  Tuesday April 5, 1980"	"TRPP CA +"	loam	30	forest	20	40	20	700	l			ft
+WE	wepp-21378	"10:44 am  Tuesday April 5, 1980"	"TRPP CA +"	loam	30	forest	20	40	20	600	l			ft
+WE	wepp-21446	"10:45 am  Tuesday April 5, 1980"	"TRPP CA +"	loam	30	forest	20	40	20	500	l			ft
+WE	wepp-21495	"10:45 am  Tuesday April 5, 1966"	"TRPP CA +"	silt	10	forest	20	40	20	400	l			ft
+WE	wepp-21544	"10:45 am  Tuesday April 5, 1966"	"TRPP CA +"	silt	10	forest	20	40	20	400	l			ft
+WE	wepp-21594	"10:45 am  Tuesday April 5, 1966"	"TRPP CA +"	silt	10	forest	20	40	20	400	l			ft
+WE	wepp-21643	"10:45 am  Tuesday April 5, 1966"	"TRPP CA +"	silt	10	forest	20	40	20	400	l			ft
+WE	wepp-21693	"10:46 am  Tuesday April 5, 1966"	"TRPP CA +"	silt	10	forest	20	40	20	400	l			ft
+WE	wepp-21742	"10:46 am  Tuesday April 5, 1980"	"TRPP CA +"	loam	30	forest	20	40	20	400	l			ft
+WE	wepp-21791	"10:46 am  Tuesday April 5, 1980"	"TRPP CA +"	loam	30	forest	20	40	20	400	l			ft
+WE	wepp-21840	"10:46 am  Tuesday April 5, 1980"	"TRPP CA +"	loam	30	forest	20	40	20	400	l			ft
+WE	wepp-21889	"10:46 am  Tuesday April 5, 1980"	"TRPP CA +"	loam	30	forest	20	40	20	400	l			ft
+WE	wepp-21938	"10:47 am  Tuesday April 5, 1980"	"TRPP CA +"	loam	30	forest	20	40	20	400	l			ft
+WE	wepp-21987	"10:47 am  Tuesday April 5, 1980"	"TRPP CA +"	loam	30	forest	20	40	20	400	l			ft
+WE	wepp-22036	"10:47 am  Tuesday April 5, 1980"	"TRPP CA +"	loam	30	forest	20	40	20	400	l			ft
+WE	wepp-22085	"10:47 am  Tuesday April 5, 1980"	"TRPP CA +"	loam	30	forest	20	40	20	400	l			ft
+WE	wepp-22134	"10:47 am  Tuesday April 5, 1980"	"TRPP CA +"	loam	30	forest	20	40	20	400	l			ft
+WE	wepp-22183	"10:48 am  Tuesday April 5, 1966"	"TRPP CA +"	silt	10	forest	20	40	20	400	l			ft
+WE	wepp-22243	"10:48 am  Tuesday April 5, 1966"	"TRPP CA +"	silt	10	forest	20	40	20	400	l			ft
+WE	wepp-22308	"10:48 am  Tuesday April 5, 1966"	"TRPP CA +"	silt	10	forest	20	40	20	400	l			ft
+WE	wepp-22364	"10:48 am  Tuesday April 5, 1966"	"TRPP CA +"	silt	10	forest	20	40	20	400	l			ft
+WE	wepp-22460	"10:49 am  Tuesday April 5, 1966"	"TRPP CA +"	silt	10	forest	20	40	20	400	l			ft
+WE	wepp-22510	"10:49 am  Tuesday April 5, 1966"	"TRPP CA +"	silt	10	forest	20	40	20	400	l			ft
+WE	wepp-22559	"10:49 am  Tuesday April 5, 1980"	"TRPP CA +"	loam	30	forest	20	40	20	400	l			ft
+WE	wepp-22608	"10:49 am  Tuesday April 5, 1980"	"TRPP CA +"	loam	30	forest	20	40	20	400	l			ft
+WE	wepp-22657	"10:49 am  Tuesday April 5, 1980"	"TRPP CA +"	loam	30	forest	20	40	20	400	l			ft
+WE	wepp-22720	"10:50 am  Tuesday April 5, 1980"	"TRPP CA +"	loam	30	forest	20	40	20	400	l			ft
+WE	wepp-22782	"10:50 am  Tuesday April 5, 1980"	"TRPP CA +"	loam	30	forest	20	40	20	400	l			ft
+WE	wepp-22838	"10:50 am  Tuesday April 5, 1980"	"TRPP CA +"	loam	30	forest	20	40	20	400	m			ft
+WE	wepp-22907	"10:50 am  Tuesday April 5, 1980"	"TRPP CA +"	loam	30	forest	20	40	20	400	m			ft
+WE	wepp-22976	"10:50 am  Tuesday April 5, 1980"	"TRPP CA +"	loam	30	forest	20	40	20	400	m			ft
+WE	wepp-23054	"10:51 am  Tuesday April 5, 1980"	"TRPP CA +"	loam	30	forest	20	40	20	400	m			ft
+WE	wepp-23144	"10:51 am  Tuesday April 5, 1980"	"TRPP CA +"	loam	30	forest	20	40	20	400	m			ft
+WE	wepp-23217	"10:51 am  Tuesday April 5, 1966"	"TRPP CA +"	silt	10	forest	20	40	20	400	m			ft
+WE	wepp-23286	"10:52 am  Tuesday April 5, 1966"	"TRPP CA +"	silt	10	forest	20	40	20	400	m			ft
+WE	wepp-23356	"10:52 am  Tuesday April 5, 1966"	"TRPP CA +"	silt	10	forest	20	40	20	400	m			ft
+WE	wepp-23425	"10:52 am  Tuesday April 5, 1966"	"TRPP CA +"	silt	10	forest	20	40	20	400	m			ft
+WE	wepp-23494	"10:52 am  Tuesday April 5, 1966"	"TRPP CA +"	silt	10	forest	20	40	20	400	m			ft
+WE	wepp-23563	"10:53 am  Tuesday April 5, 1980"	"TRPP CA +"	loam	30	forest	20	40	20	400	m			ft
+WE	wepp-23632	"10:53 am  Tuesday April 5, 1980"	"TRPP CA +"	loam	30	forest	20	40	20	400	m			ft
+WE	wepp-23701	"10:53 am  Tuesday April 5, 1980"	"TRPP CA +"	loam	30	forest	20	40	20	400	m			ft
+WE	wepp-23771	"10:54 am  Tuesday April 5, 1980"	"TRPP CA +"	loam	30	forest	20	40	20	400	m			ft
+WE	wepp-23841	"10:54 am  Tuesday April 5, 1980"	"TRPP CA +"	loam	30	forest	20	40	20	400	m			ft
+WE	wepp-23910	"10:54 am  Tuesday April 5, 1980"	"TRPP CA +"	loam	30	forest	20	40	20	400	h			ft
+WE	wepp-23999	"10:54 am  Tuesday April 5, 1980"	"TRPP CA +"	loam	30	forest	20	40	20	400	h			ft
+WE	wepp-24088	"10:55 am  Tuesday April 5, 1980"	"TRPP CA +"	loam	30	forest	20	40	20	400	h			ft
+WE	wepp-24177	"10:55 am  Tuesday April 5, 1980"	"TRPP CA +"	loam	30	forest	20	40	20	400	h			ft
+WE	wepp-24266	"10:56 am  Tuesday April 5, 1980"	"TRPP CA +"	loam	30	forest	20	40	20	400	h			ft
+WE	wepp-24356	"10:56 am  Tuesday April 5, 1966"	"TRPP CA +"	silt	10	forest	20	40	20	400	h			ft
+WE	wepp-24445	"10:56 am  Tuesday April 5, 1966"	"TRPP CA +"	silt	10	forest	20	40	20	400	h			ft
+WE	wepp-24534	"10:57 am  Tuesday April 5, 1966"	"TRPP CA +"	silt	10	forest	20	40	20	400	h			ft
+WE	wepp-24624	"10:57 am  Tuesday April 5, 1966"	"TRPP CA +"	silt	10	forest	20	40	20	400	h			ft
+WE	wepp-24714	"10:57 am  Tuesday April 5, 1966"	"TRPP CA +"	silt	10	forest	20	40	20	400	h			ft
+WE	wepp-24803	"10:58 am  Tuesday April 5, 1980"	"TRPP CA +"	loam	30	forest	20	40	20	400	h			ft
+WE	wepp-24892	"10:58 am  Tuesday April 5, 1980"	"TRPP CA +"	loam	30	forest	20	40	20	400	h			ft
+WE	wepp-24981	"10:58 am  Tuesday April 5, 1980"	"TRPP CA +"	loam	30	forest	20	40	20	400	h			ft
+WE	wepp-25071	"10:59 am  Tuesday April 5, 1980"	"TRPP CA +"	loam	30	forest	20	40	20	400	h			ft
+WE	wepp-25160	"10:59 am  Tuesday April 5, 1980"	"TRPP CA +"	loam	30	forest	20	40	20	400	h			ft
+WE	wepp-25301	"11:06 am  Tuesday April 5, 1943"	"TRPP CA +"	loam	30	forest	20	10	20	900	l			ft
+WE	wepp-25350	"11:07 am  Tuesday April 5, 1943"	"TRPP CA +"	loam	30	forest	20	30	20	800	l			ft
+WE	wepp-25400	"11:07 am  Tuesday April 5, 1943"	"TRPP CA +"	loam	30	forest	20	50	20	700	l			ft
+WE	wepp-25449	"11:07 am  Tuesday April 5, 1943"	"TRPP CA +"	loam	30	forest	20	70	20	600	l			ft
+WE	wepp-25498	"11:07 am  Tuesday April 5, 1943"	"TRPP CA +"	loam	30	forest	20	90	20	500	l			ft
+WE	wepp-25547	"11:07 am  Tuesday April 5, 1967"	"TRPP CA +"	silt	10	forest	20	10	20	400	l			ft
+WE	wepp-25597	"11:08 am  Tuesday April 5, 1958"	"TRPP CA +"	silt	10	forest	20	30	20	400	l			ft
+WE	wepp-25646	"11:08 am  Tuesday April 5, 1958"	"TRPP CA +"	silt	10	forest	20	50	20	400	l			ft
+WE	wepp-25695	"11:08 am  Tuesday April 5, 1974"	"TRPP CA +"	silt	10	forest	20	70	20	400	l			ft
+WE	wepp-25744	"11:08 am  Tuesday April 5, 1974"	"TRPP CA +"	silt	10	forest	20	90	20	400	l			ft
+WE	wepp-25793	"11:08 am  Tuesday April 5, 1908"	"TRPP CA +"	loam	30	forest	20	10	20	400	l			ft
+WE	wepp-25843	"11:09 am  Tuesday April 5, 1980"	"TRPP CA +"	loam	30	forest	20	30	20	400	l			ft
+WE	wepp-25892	"11:09 am  Tuesday April 5, 1943"	"TRPP CA +"	loam	30	forest	20	50	20	400	l			ft
+WE	wepp-25941	"11:09 am  Tuesday April 5, 1943"	"TRPP CA +"	loam	30	forest	20	70	20	400	l			ft
+WE	wepp-25990	"11:09 am  Tuesday April 5, 1943"	"TRPP CA +"	loam	30	forest	20	90	20	400	l			ft
+WE	wepp-26040	"11:09 am  Tuesday April 5, 1908"	"TRPP CA +"	loam	30	forest	20	10	20	400	l			ft
+WE	wepp-26136	"11:09 am  Tuesday April 5, 1980"	"TRPP CA +"	loam	30	forest	20	30	20	400	l			ft
+WE	wepp-26188	"11:10 am  Tuesday April 5, 1943"	"TRPP CA +"	loam	30	forest	20	50	20	400	l			ft
+WE	wepp-26237	"11:10 am  Tuesday April 5, 1943"	"TRPP CA +"	loam	30	forest	20	70	20	400	l			ft
+WE	wepp-26286	"11:10 am  Tuesday April 5, 1974"	"TRPP CA +"	silt	10	forest	20	90	20	400	l			ft
+WE	wepp-26335	"11:10 am  Tuesday April 5, 1967"	"TRPP CA +"	silt	10	forest	20	10	20	400	l			ft
+WE	wepp-26384	"11:10 am  Tuesday April 5, 1958"	"TRPP CA +"	silt	10	forest	20	30	20	400	l			ft
+WE	wepp-26433	"11:11 am  Tuesday April 5, 1958"	"TRPP CA +"	silt	10	forest	20	50	20	400	l			ft
+WE	wepp-26483	"11:11 am  Tuesday April 5, 1974"	"TRPP CA +"	silt	10	forest	20	70	20	400	l			ft
+WE	wepp-26532	"11:11 am  Tuesday April 5, 1974"	"TRPP CA +"	silt	10	forest	20	90	20	400	l			ft
+WE	wepp-26581	"11:11 am  Tuesday April 5, 1908"	"TRPP CA +"	loam	30	forest	20	10	20	400	l			ft
+WE	wepp-26630	"11:11 am  Tuesday April 5, 1980"	"TRPP CA +"	loam	30	forest	20	30	20	400	l			ft
+WE	wepp-26679	"11:12 am  Tuesday April 5, 1943"	"TRPP CA +"	loam	30	forest	20	50	20	400	l			ft
+WE	wepp-26728	"11:12 am  Tuesday April 5, 1943"	"TRPP CA +"	loam	30	forest	20	70	20	400	l			ft
+WE	wepp-26777	"11:12 am  Tuesday April 5, 1943"	"TRPP CA +"	loam	30	forest	20	90	20	400	l			ft
+WE	wepp-26829	"11:12 am  Tuesday April 5, 1908"	"TRPP CA +"	loam	30	forest	20	10	20	400	m			ft
+WE	wepp-26898	"11:12 am  Tuesday April 5, 1980"	"TRPP CA +"	loam	30	forest	20	30	20	400	m			ft
+WE	wepp-26967	"11:13 am  Tuesday April 5, 1943"	"TRPP CA +"	loam	30	forest	20	50	20	400	m			ft
+WE	wepp-27036	"11:13 am  Tuesday April 5, 1943"	"TRPP CA +"	loam	30	forest	20	70	20	400	m			ft
+WE	wepp-27105	"11:13 am  Tuesday April 5, 1943"	"TRPP CA +"	loam	30	forest	20	90	20	400	m			ft
+WE	wepp-27174	"11:13 am  Tuesday April 5, 1967"	"TRPP CA +"	silt	10	forest	20	10	20	400	m			ft
+WE	wepp-27243	"11:14 am  Tuesday April 5, 1958"	"TRPP CA +"	silt	10	forest	20	30	20	400	m			ft
+WE	wepp-27314	"11:14 am  Tuesday April 5, 1958"	"TRPP CA +"	silt	10	forest	20	50	20	400	m			ft
+WE	wepp-27386	"11:14 am  Tuesday April 5, 1974"	"TRPP CA +"	silt	10	forest	20	70	20	400	m			ft
+WE	wepp-27455	"11:14 am  Tuesday April 5, 1974"	"TRPP CA +"	silt	10	forest	20	90	20	400	m			ft
+WE	wepp-27543	"11:15 am  Tuesday April 5, 1908"	"TRPP CA +"	loam	30	forest	20	10	20	400	m			ft
+WE	wepp-27612	"11:15 am  Tuesday April 5, 1980"	"TRPP CA +"	loam	30	forest	20	30	20	400	m			ft
+WE	wepp-27681	"11:15 am  Tuesday April 5, 1943"	"TRPP CA +"	loam	30	forest	20	50	20	400	m			ft
+WE	wepp-27750	"11:15 am  Tuesday April 5, 1943"	"TRPP CA +"	loam	30	forest	20	70	20	400	m			ft
+WE	wepp-27820	"11:16 am  Tuesday April 5, 1943"	"TRPP CA +"	loam	30	forest	20	90	20	400	m			ft
+WE	wepp-27889	"11:16 am  Tuesday April 5, 1908"	"TRPP CA +"	loam	30	forest	20	10	20	400	h			ft
+WE	wepp-27978	"11:16 am  Tuesday April 5, 1980"	"TRPP CA +"	loam	30	forest	20	30	20	400	h			ft
+WE	wepp-28067	"11:17 am  Tuesday April 5, 1943"	"TRPP CA +"	loam	30	forest	20	50	20	400	h			ft
+WE	wepp-28156	"11:17 am  Tuesday April 5, 1943"	"TRPP CA +"	loam	30	forest	20	70	20	400	h			ft
+WE	wepp-28245	"11:17 am  Tuesday April 5, 1943"	"TRPP CA +"	loam	30	forest	20	90	20	400	h			ft
+WE	wepp-28334	"11:18 am  Tuesday April 5, 1967"	"TRPP CA +"	silt	10	forest	20	10	20	400	h			ft
+WE	wepp-28423	"11:18 am  Tuesday April 5, 1958"	"TRPP CA +"	silt	10	forest	20	30	20	400	h			ft
+WE	wepp-28512	"11:18 am  Tuesday April 5, 1958"	"TRPP CA +"	silt	10	forest	20	50	20	400	h			ft
+WE	wepp-28602	"11:19 am  Tuesday April 5, 1974"	"TRPP CA +"	silt	10	forest	20	70	20	400	h			ft
+WE	wepp-28693	"11:19 am  Tuesday April 5, 1974"	"TRPP CA +"	silt	10	forest	20	90	20	400	h			ft
+WE	wepp-28809	"11:19 am  Tuesday April 5, 1908"	"TRPP CA +"	loam	30	forest	20	10	20	400	h			ft
+WE	wepp-28899	"11:20 am  Tuesday April 5, 1980"	"TRPP CA +"	loam	30	forest	20	30	20	400	h			ft
+WE	wepp-28988	"11:20 am  Tuesday April 5, 1943"	"TRPP CA +"	loam	30	forest	20	50	20	400	h			ft
+WE	wepp-29077	"11:20 am  Tuesday April 5, 1943"	"TRPP CA +"	loam	30	forest	20	70	20	400	h			ft
+WE	wepp-29166	"11:20 am  Tuesday April 5, 1943"	"TRPP CA +"	loam	30	forest	20	90	20	400	h			ft
+WD	wepp-3622	"10:03 am  Thursday August 18, 2011"	"Tobacco CA +"	30	clay	OldForest	100	0	35	100	5	OldForest	100	35	5	100	5	0	ft	"Sedimentary, no action"
+WD	wepp-3654	"10:04 am  Thursday August 18, 2011"	"Tobacco CA +"	100	clay	OldForest	100	0	35	100	5	OldForest	100	35	5	100	5	0	ft	"Sedimentary, no action"
+WD	wepp-3701	"10:05 am  Thursday August 18, 2011"	"Tobacco CA +"	100	clay	YoungForest	100	0	35	100	5	YoungForest	100	35	5	100	5	0	ft	"Sedimentary, no action"
+WD	wepp-3721	"10:06 am  Thursday August 18, 2011"	"Tobacco CA +"	100	clay	YoungForest	100	0	35	50	5	YoungForest	100	35	5	50	5	0	ft	"Sedimentary, no action"
+WD	wepp-3741	"10:07 am  Thursday August 18, 2011"	"Tobacco CA +"	100	clay	YoungForest	100	0	35	50	5	YoungForest	100	35	5	50	5	0	ft	"Sedimentary, Action Alternatives"
+WD	wepp-3761	"10:08 am  Thursday August 18, 2011"	"Tobacco CA +"	100	clay	LowFire	100	0	35	85	5	LowFire	100	35	5	85	5	0	ft	"Sedimentary, Action Alternatives"
+WD	wepp-3781	"10:08 am  Thursday August 18, 2011"	"Tobacco CA +"	100	clay	LowFire	100	0	35	85	5	LowFire	100	35	5	85	5	0	ft	"Sedimentary, prescribed fire"
+WD	wepp-3802	"10:10 am  Thursday August 18, 2011"	"Tobacco CA +"	100	clay	HighFire	100	0	35	45	5	HighFire	100	35	5	45	5	0	ft	"Sedimentary, wildfire"
+WD	wepp-3850	"10:11 am  Thursday August 18, 2011"	"Tobacco CA +"	100	loam	Shrub	100	0	35	80	50	Shrub	100	35	5	80	50	0	ft	"Sedimentary, wildfire"
+WD	wepp-3870	"10:12 am  Thursday August 18, 2011"	"Tobacco CA +"	100	loam	Shrub	100	0	35	80	50	Shrub	100	35	5	80	50	0	ft	"Shallow"
+WD	wepp-3894	"10:15 am  Thursday August 18, 2011"	"Tobacco CA +"	100	loam	Skid	100	0	35	100	50	OldForest	100	35	5	100	35	0	ft	"Shallow"
+WD	wepp-4129	"10:28 am  Thursday August 18, 2011"	"Tobacco CA +"	100	loam	OldForest	100	0	35	100	35	OldForest	100	35	5	100	35	0	ft	"volcanic, no action"
+WD	wepp-4160	"10:30 am  Thursday August 18, 2011"	"Tobacco CA +"	100	loam	LowFire	100	0	35	85	35	LowFire	100	35	5	85	35	0	ft	"volcanic, prescribed fire"
+WD	wepp-4341	"10:30 am  Thursday August 18, 2011"	"Tobacco CA +"	100	loam	LowFire	100	0	35	85	35	LowFire	100	35	5	85	35	0	ft	"volcanic, prescribed fire"
+WD	wepp-4368	"10:31 am  Thursday August 18, 2011"	"Tobacco CA +"	100	loam	HighFire	100	0	35	45	35	HighFire	100	35	5	45	35	0	ft	"volcanic, wildfire"
+WD	wepp-4389	"10:33 am  Thursday August 18, 2011"	"Tobacco CA +"	100	loam	Skid	100	0	35	100	35	YoungForest	100	35	5	100	35	0	ft	"volcanic, wildfire"
+WD	wepp-4411	"10:34 am  Thursday August 18, 2011"	"Tobacco CA +"	100	loam	YoungForest	100	0	35	100	50	YoungForest	100	35	5	100	35	0	ft	"volcanic, action alternatives"

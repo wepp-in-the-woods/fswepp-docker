@@ -1,0 +1,274 @@
+WE	wepp-147669	"04:03 pm  Monday October 29, 2018"	"FLAGSTAFF WB AP AZ"	sand	20	range	20	30	20	500	l	0	5	ft
+WE	wepp-148008	"04:11 pm  Monday October 29, 2018"	"FLAGSTAFF WB AP AZ"	sand	20	range	20	30	20	500	h	0	5	ft
+WR	wepp-198075	"04:05 pm  Wednesday October 31, 2018"	"FLAGSTAFF WB AP AZ"	30	clay	native	890	4.5	12	15	50	130	25	20	outrut	ft
+WR	wepp-198377	"04:17 pm  Wednesday October 31, 2018"	"SPRINGERVILLE AZ"	30	clay	native	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-198425	"04:17 pm  Wednesday October 31, 2018"	"SPRINGERVILLE AZ"	30	sand	native	890	4.5	12	15	50	130	25	40	outrut	ft
+WR	wepp-198465	"04:18 pm  Wednesday October 31, 2018"	"SPRINGERVILLE AZ"	30	sand	native	890	4.5	12	15	50	130	25	40	outrut	ft
+WR	wepp-198502	"04:18 pm  Wednesday October 31, 2018"	"SPRINGERVILLE AZ"	30	clay	native	890	4.5	12	15	50	130	25	40	outrut	ft
+WR	wepp-198566	"04:20 pm  Wednesday October 31, 2018"	"SPRINGERVILLE AZ"	30	clay	native	890	4.5	12	2	50	82	5	40	outrut	ft
+WR	wepp-198602	"04:20 pm  Wednesday October 31, 2018"	"SPRINGERVILLE AZ"	30	clay	native	890	4.5	12	890	50	82	5	40	outrut	ft
+WR	wepp-198671	"04:23 pm  Wednesday October 31, 2018"	"SPRINGERVILLE AZ"	30	clay	native	890	4.5	12	1	1	1	1	40	outrut	ft
+WR	wepp-198708	"04:24 pm  Wednesday October 31, 2018"	"SPRINGERVILLE AZ"	30	clay	native	890	4.5	12	1	1	1	1	40	inbare	ft
+WR	wepp-198747	"04:24 pm  Wednesday October 31, 2018"	"SPRINGERVILLE AZ"	30	clay	native	890	4.5	12	1	1	1	1	40	outrut	ft
+WR	wepp-212615	"08:08 am  Thursday November 1, 2018"	"SPRINGERVILLE AZ"	30	clay	native	890	4.5	13	1	10	1	10	20	outunrut	ft
+WR	wepp-212656	"08:08 am  Thursday November 1, 2018"	"SPRINGERVILLE AZ"	30	silt	native	890	4.5	13	1	10	1	10	20	outunrut	ft
+WR	wepp-212692	"08:08 am  Thursday November 1, 2018"	"SPRINGERVILLE AZ"	30	sand	native	890	4.5	13	1	10	1	10	20	outunrut	ft
+WR	wepp-212729	"08:08 am  Thursday November 1, 2018"	"SPRINGERVILLE AZ"	30	loam	native	890	4.5	13	1	10	1	10	20	outunrut	ft
+WR	wepp-212828	"08:09 am  Thursday November 1, 2018"	"SPRINGERVILLE AZ"	30	clay	native	890	5	13	10	10	1	10	20	outunrut	ft
+WR	wepp-212867	"08:09 am  Thursday November 1, 2018"	"SPRINGERVILLE AZ"	30	clay	native	890	5	13	10	10	1	10	20	inbare	ft
+WR	wepp-213016	"08:15 am  Thursday November 1, 2018"	"SPRINGERVILLE AZ"	30	clay	native	890	5	13	10	10	1	10	30	inbare	ft
+WR	wepp-213098	"08:15 am  Thursday November 1, 2018"	"SPRINGERVILLE AZ"	30	clay	native	890	5	13	10	10	1	10	20	inbare	ft
+WR	wepp-213669	"08:39 am  Thursday November 1, 2018"	"SPRINGERVILLE AZ"	30	clay	native	780	4	13	10	10	1	10	20	inbare	ft
+WR	wepp-213887	"08:51 am  Thursday November 1, 2018"	"SPRINGERVILLE AZ"	30	clay	native	780	4	13	10	10	82	5	20	inbare	ft
+WR	wepp-213923	"08:51 am  Thursday November 1, 2018"	"SPRINGERVILLE AZ"	30	clay	native	780	4	13	10	10	82	5	20	inbare	ft
+WR	wepp-213967	"08:52 am  Thursday November 1, 2018"	"SPRINGERVILLE AZ"	30	clay	native	780	4	13	1	10	82	5	20	inbare	ft
+WR	wepp-214196	"09:05 am  Thursday November 1, 2018"	"SPRINGERVILLE AZ"	30	clay	native	780	4	13	1	10	100	5	20	inbare	ft
+WR	wepp-214244	"09:06 am  Thursday November 1, 2018"	"SPRINGERVILLE AZ"	30	clay	native	780	4	13	1	10	1	10	20	inbare	ft
+WR	wepp-214299	"09:08 am  Thursday November 1, 2018"	"SPRINGERVILLE AZ"	30	clay	native	890	5	13	1	10	100	5	20	inbare	ft
+WR	wepp-214423	"09:14 am  Thursday November 1, 2018"	"SPRINGERVILLE AZ"	30	clay	native	100	5	13	1	10	100	5	20	inbare	ft
+WR	wepp-214460	"09:14 am  Thursday November 1, 2018"	"SPRINGERVILLE AZ"	30	clay	native	82	5	13	1	10	82	5	20	inbare	ft
+WR	wepp-214555	"09:15 am  Thursday November 1, 2018"	"SPRINGERVILLE AZ"	30	clay	native	90	4	13	1	10	90	5	20	inbare	ft
+WR	wepp-219826	"02:24 pm  Thursday November 1, 2018"	"SPRINGERVILLE AZ"	30	clay	native	700	4	13	1	10	1	25	20	inbare	ft
+WR	wepp-219866	"02:24 pm  Thursday November 1, 2018"	"SPRINGERVILLE AZ"	30	clay	native	700	4	13	1	10	1	25	20	inbare	ft
+WE	wepp-138438	"04:04 pm  Thursday February 28, 2019"	"SPRINGERVILLE AZ"	clay	20	range	0	50	30	300	l	15	75	ft
+WE	wepp-138601	"04:05 pm  Thursday February 28, 2019"	"SPRINGERVILLE AZ"	clay	20	range	0	50	30	300	l	15	75	ft
+WE	wepp-138730	"04:06 pm  Thursday February 28, 2019"	"SPRINGERVILLE AZ"	clay	20	range	0	50	30	300	l	15	75	ft
+WE	wepp-154761	"07:07 am  Friday March 1, 2019"	"SPRINGERVILLE AZ"	clay	20	range	5	5	5	890	u	15	75	ft
+WE	wepp-154827	"07:08 am  Friday March 1, 2019"	"SPRINGERVILLE AZ"	clay	20	range	5	5	5	890	l	15	75	ft
+WE	wepp-154948	"07:08 am  Friday March 1, 2019"	"SPRINGERVILLE AZ"	clay	20	range	5	5	5	890	l	15	75	ft
+WR	wepp-155755	"07:34 am  Friday March 1, 2019"	"SPRINGERVILLE AZ"	30	clay	native	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-155825	"07:34 am  Friday March 1, 2019"	"SPRINGERVILLE AZ"	30	clay	native	200	4	13	15	50	95	25	20	inveg	ft
+WR	wepp-155794	"07:34 am  Friday March 1, 2019"	"SPRINGERVILLE AZ"	30	clay	native	200	4	13	15	50	95	25	20	inveg	ft
+WR	wepp-155838	"07:34 am  Friday March 1, 2019"	"SPRINGERVILLE AZ"	30	clay	native	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-156059	"07:35 am  Friday March 1, 2019"	"SPRINGERVILLE AZ"	30	clay	native	200	4	13	15	50	95	5	20	inveg	ft
+WR	wepp-156100	"07:35 am  Friday March 1, 2019"	"SPRINGERVILLE AZ"	30	clay	native	200	4	13	15	50	100	5	20	inveg	ft
+WR	wepp-156142	"07:35 am  Friday March 1, 2019"	"SPRINGERVILLE AZ"	30	clay	native	90	4	13	1	50	100	5	20	inveg	ft
+WR	wepp-156192	"07:35 am  Friday March 1, 2019"	"SPRINGERVILLE AZ"	30	clay	native	90	4	13	1	50	95	5	20	inveg	ft
+WR	wepp-156241	"07:36 am  Friday March 1, 2019"	"SPRINGERVILLE AZ"	30	clay	native	90	4	13	1	50	105	5	20	inveg	ft
+WR	wepp-156278	"07:36 am  Friday March 1, 2019"	"SPRINGERVILLE AZ"	30	clay	native	90	4	13	1	50	105	5	20	inbare	ft
+WR	wepp-156317	"07:36 am  Friday March 1, 2019"	"SPRINGERVILLE AZ"	30	clay	native	90	4	13	1	50	110	5	20	inbare	ft
+WR	wepp-156353	"07:36 am  Friday March 1, 2019"	"SPRINGERVILLE AZ"	30	clay	native	90	4	13	1	50	120	5	20	inbare	ft
+WR	wepp-156389	"07:36 am  Friday March 1, 2019"	"SPRINGERVILLE AZ"	30	clay	native	90	4	13	1	50	125	5	20	inbare	ft
+WR	wepp-156426	"07:36 am  Friday March 1, 2019"	"SPRINGERVILLE AZ"	30	clay	native	90	4	13	1	50	123	5	20	inbare	ft
+WR	wepp-156463	"07:37 am  Friday March 1, 2019"	"SPRINGERVILLE AZ"	30	clay	native	90	4	13	1	50	124	5	20	inbare	ft
+WR	wepp-156506	"07:37 am  Friday March 1, 2019"	"SPRINGERVILLE AZ"	30	clay	native	90	4	13	1	50	125	5	20	inbare	ft
+WR	wepp-157926	"09:02 am  Friday March 1, 2019"	"SPRINGERVILLE AZ"	30	silt	native	90	5	13	1	50	125	5	20	inbare	ft
+WR	wepp-157964	"09:02 am  Friday March 1, 2019"	"SPRINGERVILLE AZ"	30	silt	native	90	5	13	1	50	125	5	20	inbare	ft
+WE	wepp-6382	"01:45 pm  Tuesday April 30, 2019"	"Willow Creek +"	clay	20	forest	10	55	30	670	h			ft
+WE	wepp-27803	"02:22 pm  Monday June 17, 2019"	"Willow Creek +"	clay	20	forest	0	50	30	300	m			ft
+WE	wepp-108346	"11:30 am  Thursday June 20, 2019"	"Willow Creek +"	silt	20	forest	57	57	57	1000	h			ft
+WE	wepp-112623	"02:55 pm  Thursday June 20, 2019"	"Willow Creek +"	clay	20	forest	25	25	10	1000	h			ft
+WE	wepp-112822	"02:56 pm  Thursday June 20, 2019"	"Willow Creek +"	clay	50	forest	25	25	10	1000	h			ft
+WE	wepp-113137	"03:02 pm  Thursday June 20, 2019"	"Willow Creek + +"	clay	50	forest	10	25	20	1000	l			ft
+WE	wepp-113281	"03:06 pm  Thursday June 20, 2019"	"Willow Creek + +"	clay	50	forest	0	50	30	300	h			ft
+WE	wepp-113572	"03:13 pm  Thursday June 20, 2019"	"Willow Creek + +"	clay	50	forest	10	25	10	1000	h			ft
+WE	wepp-184663	"10:20 am  Monday June 24, 2019"	"Willow Creek + +"	clay	20	forest	40	40	40	865	m			ft
+WE	wepp-184860	"10:23 am  Monday June 24, 2019"	"Willow Creek + +"	clay	20	forest	40	40	40	865	h			ft
+WE	wepp-186968	"12:45 pm  Monday June 24, 2019"	"Willow Creek + +"	clay	50	forest	0	27	0	1000	h			ft
+WE	wepp-189325	"02:26 pm  Monday June 24, 2019"	"Willow Creek + +"	clay	50	forest	0	27	0	1000	h			ft
+WE	wepp-189540	"02:27 pm  Monday June 24, 2019"	"Willow Creek + +"	clay	50	forest	0	27	0	500	h			ft
+WE	wepp-190252	"02:55 pm  Monday June 24, 2019"	"ANIMAS NM +"	clay	20	forest	0	50	30	300	l			ft
+WE	wepp-190389	"02:55 pm  Monday June 24, 2019"	"ANIMAS NM +"	clay	20	forest	0	50	30	900	l			ft
+WE	wepp-190515	"02:56 pm  Monday June 24, 2019"	"Willow Creek + +"	clay	20	forest	0	40	0	300	h			ft
+WE	wepp-190727	"02:56 pm  Monday June 24, 2019"	"Willow Creek + +"	clay	20	forest	0	40	0	900	h			ft
+WE	wepp-191135	"03:07 pm  Monday June 24, 2019"	"Willow Creek + +"	clay	20	forest	0	58	0	1000	h			ft
+WE	wepp-191609	"03:15 pm  Monday June 24, 2019"	"Willow Creek + +"	clay	20	forest	0	36	0	1000	h			ft
+WE	wepp-191870	"03:17 pm  Monday June 24, 2019"	"Willow Creek + +"	clay	20	forest	0	58	0	1000	m			ft
+WE	wepp-192087	"03:22 pm  Monday June 24, 2019"	"Willow Creek + +"	clay	20	forest	0	36	0	1000	h			ft
+WE	wepp-192320	"03:24 pm  Monday June 24, 2019"	"Willow Creek + +"	clay	20	forest	0	16	0	1000	h			ft
+WE	wepp-192548	"03:26 pm  Monday June 24, 2019"	"Willow Creek + +"	clay	20	forest	0	58	0	1000	m			ft
+WE	wepp-192726	"03:27 pm  Monday June 24, 2019"	"Willow Creek + +"	clay	20	forest	0	36	0	1000	h			ft
+WE	wepp-192941	"03:27 pm  Monday June 24, 2019"	"Willow Creek + +"	clay	20	forest	0	27	0	1000	h			ft
+WE	wepp-193168	"03:28 pm  Monday June 24, 2019"	"Willow Creek + +"	clay	20	forest	0	17	0	1000	h			ft
+WE	wepp-193389	"03:29 pm  Monday June 24, 2019"	"Willow Creek + +"	clay	20	forest	0	27	0	1000	h			ft
+WE	wepp-193667	"03:31 pm  Monday June 24, 2019"	"Willow Creek + +"	clay	20	forest	0	70	0	1000	m			ft
+WE	wepp-193842	"03:32 pm  Monday June 24, 2019"	"Willow Creek + +"	clay	20	forest	0	58	0	1000	h			ft
+WE	wepp-194048	"03:33 pm  Monday June 24, 2019"	"Willow Creek + +"	clay	20	forest	0	36	0	1000	h			ft
+WE	wepp-194267	"03:34 pm  Monday June 24, 2019"	"Willow Creek + +"	clay	20	forest	0	36	0	1000	m			ft
+WE	wepp-194441	"03:35 pm  Monday June 24, 2019"	"Willow Creek + +"	clay	20	forest	0	34	0	1000	m			ft
+WE	wepp-194632	"03:36 pm  Monday June 24, 2019"	"Willow Creek + +"	clay	20	forest	0	30	0	1000	h			ft
+WE	wepp-194852	"03:37 pm  Monday June 24, 2019"	"Willow Creek + +"	clay	20	forest	0	36	0	1000	h			ft
+WE	wepp-195071	"03:38 pm  Monday June 24, 2019"	"Willow Creek + +"	clay	20	forest	0	36	0	1000	m			ft
+WE	wepp-195315	"03:40 pm  Monday June 24, 2019"	"Willow Creek + +"	clay	20	forest	0	26	0	950	h			ft
+WE	wepp-195547	"03:42 pm  Monday June 24, 2019"	"Willow Creek + +"	clay	20	forest	0	83	0	1000	h			ft
+WE	wepp-195766	"03:44 pm  Monday June 24, 2019"	"Willow Creek + +"	clay	20	forest	0	26	0	1000	h			ft
+WE	wepp-196042	"03:45 pm  Monday June 24, 2019"	"Willow Creek + +"	clay	20	forest	0	57	0	1000	h			ft
+WE	wepp-196260	"03:46 pm  Monday June 24, 2019"	"Willow Creek + +"	clay	20	forest	0	37	0	1000	h			ft
+WE	wepp-196479	"03:48 pm  Monday June 24, 2019"	"Willow Creek + +"	clay	20	forest	0	27	0	1000	h			ft
+WE	wepp-196746	"03:55 pm  Monday June 24, 2019"	"Willow Creek + +"	clay	20	forest	0	36	0	1000	h			ft
+WE	wepp-196964	"03:56 pm  Monday June 24, 2019"	"Willow Creek + +"	clay	20	forest	0	38	0	1000	h			ft
+WE	wepp-197179	"03:58 pm  Monday June 24, 2019"	"Willow Creek + +"	clay	20	forest	0	36	0	1000	l			ft
+WE	wepp-197321	"03:59 pm  Monday June 24, 2019"	"Willow Creek + +"	clay	20	forest	0	27	0	1000	h			ft
+WE	wepp-197590	"04:01 pm  Monday June 24, 2019"	"Willow Creek + +"	clay	20	forest	0	36	0	844	u			ft
+WE	wepp-197658	"04:02 pm  Monday June 24, 2019"	"Willow Creek + +"	clay	20	forest	0	27	0	1000	h			ft
+WE	wepp-197882	"04:04 pm  Monday June 24, 2019"	"Willow Creek + +"	clay	20	forest	0	46	0	1000	h			ft
+WE	wepp-198091	"04:05 pm  Monday June 24, 2019"	"Willow Creek + +"	clay	20	forest	0	27	0	1000	h			ft
+WE	wepp-198338	"04:06 pm  Monday June 24, 2019"	"Willow Creek + +"	clay	20	forest	0	27	0	1000	m			ft
+WE	wepp-198534	"04:08 pm  Monday June 24, 2019"	"Willow Creek + +"	clay	20	forest	0	27	0	1000	h			ft
+WE	wepp-198813	"04:10 pm  Monday June 24, 2019"	"Willow Creek + +"	clay	20	forest	0	27	0	528	h			ft
+WE	wepp-199024	"04:12 pm  Monday June 24, 2019"	"Willow Creek + +"	clay	20	forest	0	36	0	580.8	h			ft
+WE	wepp-199240	"04:14 pm  Monday June 24, 2019"	"Willow Creek + +"	clay	20	forest	0	27	0	844.8	h			ft
+WE	wepp-199500	"04:15 pm  Monday June 24, 2019"	"Willow Creek + +"	clay	20	forest	0	27	0	1000	h			ft
+WE	wepp-199720	"04:17 pm  Monday June 24, 2019"	"Willow Creek + +"	clay	20	forest	0	27	0	897.6	u			ft
+WE	wepp-199792	"04:18 pm  Monday June 24, 2019"	"Willow Creek + +"	clay	20	forest	0	17	0	792	h			ft
+WE	wepp-200007	"04:20 pm  Monday June 24, 2019"	"Willow Creek + +"	clay	20	forest	0	27	0	792	h			ft
+WE	wepp-200222	"04:21 pm  Monday June 24, 2019"	"Willow Creek + +"	clay	20	forest	0	17	0	1000	h			ft
+WE	wepp-200443	"04:22 pm  Monday June 24, 2019"	"Willow Creek + +"	clay	20	forest	0	27	0	1000	h			ft
+WE	wepp-200677	"04:24 pm  Monday June 24, 2019"	"Willow Creek + +"	clay	20	forest	0	17	0	686.4	h			ft
+WE	wepp-200891	"04:26 pm  Monday June 24, 2019"	"Willow Creek + +"	clay	20	forest	0	17	0	950.4	h			ft
+WE	wepp-201116	"04:27 pm  Monday June 24, 2019"	"Willow Creek + +"	clay	20	forest	0	36	0	844.8	m			ft
+WE	wepp-201289	"04:28 pm  Monday June 24, 2019"	"Willow Creek + +"	clay	20	forest	0	17	0	1000	h			ft
+WE	wepp-201499	"04:30 pm  Monday June 24, 2019"	"Willow Creek + +"	clay	20	forest	0	27	0	1000	u			ft
+WE	wepp-201656	"04:30 pm  Monday June 24, 2019"	"Willow Creek + +"	clay	20	forest	0	8.7	0	1000	u			ft
+WE	wepp-201723	"04:31 pm  Monday June 24, 2019"	"Willow Creek + +"	clay	20	forest	0	36	0	1000	u			ft
+WE	wepp-201789	"04:31 pm  Monday June 24, 2019"	"Willow Creek + +"	clay	20	forest	0	15	0	1000	u			ft
+WE	wepp-201855	"04:31 pm  Monday June 24, 2019"	"Willow Creek + +"	clay	20	forest	0	17	0	1000	u			ft
+WE	wepp-201920	"04:32 pm  Monday June 24, 2019"	"Willow Creek + +"	clay	20	forest	0	70	0	1000	u			ft
+WE	wepp-201987	"04:32 pm  Monday June 24, 2019"	"Willow Creek + +"	clay	20	forest	0	36	0	1000	u			ft
+WE	wepp-202053	"04:33 pm  Monday June 24, 2019"	"Willow Creek + +"	clay	20	forest	0	17	0	1000	u			ft
+WE	wepp-202128	"04:33 pm  Monday June 24, 2019"	"Willow Creek + +"	clay	20	forest	0	27	0	1000	u			ft
+WE	wepp-202192	"04:34 pm  Monday June 24, 2019"	"Willow Creek + +"	clay	20	forest	0	21	0	1000	m			ft
+WE	wepp-202375	"04:36 pm  Monday June 24, 2019"	"Willow Creek + +"	clay	20	forest	0	36	0	633.6	h			ft
+WE	wepp-202592	"04:37 pm  Monday June 24, 2019"	"Willow Creek + +"	clay	20	forest	0	20	0	1000	m			ft
+WE	wepp-202759	"04:38 pm  Monday June 24, 2019"	"Willow Creek + +"	clay	20	forest	0	27	0	1000	l			ft
+WE	wepp-202882	"04:38 pm  Monday June 24, 2019"	"Willow Creek + +"	clay	20	forest	0	36	0	1000	l			ft
+WE	wepp-203066	"04:40 pm  Monday June 24, 2019"	"Willow Creek + +"	clay	20	forest	0	27	0	1000	h			ft
+WE	wepp-203277	"04:41 pm  Monday June 24, 2019"	"Willow Creek + +"	clay	20	forest	0	30	0	1000	h			ft
+WE	wepp-23458	"08:16 am  Thursday June 27, 2019"	"Willow Creek + +"	clay	20	forest	0	27	0	1000	h			ft
+WE	wepp-23679	"08:20 am  Thursday June 27, 2019"	"Willow Creek + +"	clay	20	forest	0	15	0	580.8	l			ft
+WE	wepp-23805	"08:21 am  Thursday June 27, 2019"	"Willow Creek + +"	clay	20	forest	0	30	0	1000	h			ft
+WE	wepp-24016	"08:22 am  Thursday June 27, 2019"	"Willow Creek + +"	clay	20	forest	0	27	0	1000	h			ft
+WE	wepp-24224	"08:23 am  Thursday June 27, 2019"	"Willow Creek + +"	clay	20	forest	0	36	0	1000	h			ft
+WE	wepp-26233	"10:41 am  Thursday June 27, 2019"	"ANIMAS NM +"	clay	20	forest	0	50	30	300	l			ft
+WE	wepp-29545	"01:29 pm  Thursday June 27, 2019"	"Willow Creek + +"	clay	20	forest	0	50	30	300	l			ft
+WE	wepp-30101	"01:42 pm  Thursday June 27, 2019"	"Willow Creek + +"	clay	20	forest	0	50	0	300	h			ft
+WE	wepp-30318	"01:43 pm  Thursday June 27, 2019"	"Willow Creek + +"	clay	20	forest	0	20	0	300	h			ft
+WE	wepp-30532	"01:44 pm  Thursday June 27, 2019"	"Willow Creek + +"	clay	20	forest	0	50	0	300	m			ft
+WE	wepp-24248	"11:48 am  Tuesday February 23, 2021"	"Willow Creek + +"	loam	20	forest	0	50	30	1000	m			ft
+WE	wepp-24568	"11:51 am  Tuesday February 23, 2021"	"Willow Creek + +"	loam	20	forest	0	58	30	1000	h			ft
+WE	wepp-24798	"11:53 am  Tuesday February 23, 2021"	"Willow Creek + +"	sand	20	forest	0	58	0	1000	h			ft
+WE	wepp-25035	"11:54 am  Tuesday February 23, 2021"	"Willow Creek + +"	silt	20	forest	0	58	0	1000	h			ft
+WE	wepp-25249	"11:55 am  Tuesday February 23, 2021"	"Willow Creek + +"	clay	20	forest	0	58	0	1000	h			ft
+WE	wepp-25492	"11:58 am  Tuesday February 23, 2021"	"Willow Creek + +"	clay	20	forest	0	27	0	1000	h			ft
+WE	wepp-25802	"12:02 pm  Tuesday February 23, 2021"	"Willow Creek + +"	loam	20	forest	0	27	0	1000	h			ft
+WE	wepp-26098	"12:04 pm  Tuesday February 23, 2021"	"Willow Creek + +"	clay	30	forest	0	27	0	1000	h			ft
+WE	wepp-26339	"12:07 pm  Tuesday February 23, 2021"	"Willow Creek + +"	clay	30	forest	0	27	0	500	h			ft
+WE	wepp-32703	"02:38 pm  Tuesday February 23, 2021"	"Willow Creek + +"	clay	30	forest	0	27	0	1000	h			ft
+WE	wepp-33131	"02:46 pm  Tuesday February 23, 2021"	"Willow Creek + +"	loam	30	forest	0	16	0	1000	h			ft
+WE	wepp-33336	"02:47 pm  Tuesday February 23, 2021"	"Willow Creek + +"	loam	30	forest	0	17	0	1000	h			ft
+WE	wepp-33541	"02:47 pm  Tuesday February 23, 2021"	"Willow Creek + +"	loam	30	forest	0	26	0	1000	h			ft
+WE	wepp-33761	"02:48 pm  Tuesday February 23, 2021"	"Willow Creek + +"	loam	30	forest	0	27	0	1000	h			ft
+WE	wepp-34051	"02:49 pm  Tuesday February 23, 2021"	"Willow Creek + +"	loam	30	forest	0	30	0	1000	h			ft
+WE	wepp-34260	"02:50 pm  Tuesday February 23, 2021"	"Willow Creek + +"	loam	30	forest	0	27	0	1000	h			ft
+WE	wepp-34483	"02:51 pm  Tuesday February 23, 2021"	"Willow Creek + +"	loam	30	forest	0	30	0	1000	h			ft
+WE	wepp-34714	"02:51 pm  Tuesday February 23, 2021"	"Willow Creek + +"	loam	30	forest	0	36	0	1000	h			ft
+WE	wepp-34933	"02:52 pm  Tuesday February 23, 2021"	"Willow Creek + +"	loam	30	forest	0	37	0	1000	h			ft
+WE	wepp-35140	"02:53 pm  Tuesday February 23, 2021"	"Willow Creek + +"	loam	30	forest	0	38	0	1000	h			ft
+WE	wepp-35356	"02:54 pm  Tuesday February 23, 2021"	"Willow Creek + +"	loam	30	forest	0	46	0	1000	h			ft
+WE	wepp-35578	"02:55 pm  Tuesday February 23, 2021"	"Willow Creek + +"	loam	30	forest	0	57	0	1000	l			ft
+WE	wepp-35702	"02:55 pm  Tuesday February 23, 2021"	"Willow Creek + +"	loam	30	forest	0	57	0	1000	h			ft
+WE	wepp-35927	"02:56 pm  Tuesday February 23, 2021"	"Willow Creek + +"	loam	30	forest	0	58	0	1000	h			ft
+WE	wepp-36155	"02:57 pm  Tuesday February 23, 2021"	"Willow Creek + +"	loam	30	forest	0	46	0	1000	h			ft
+WE	wepp-36374	"02:58 pm  Tuesday February 23, 2021"	"Willow Creek + +"	loam	30	forest	0	83	0	1000	h			ft
+WE	wepp-36610	"02:59 pm  Tuesday February 23, 2021"	"Willow Creek + +"	loam	30	forest	0	15	0	1000	l			ft
+WE	wepp-36736	"03:00 pm  Tuesday February 23, 2021"	"Willow Creek + +"	loam	30	forest	0	27	0	1000	l			ft
+WE	wepp-36864	"03:00 pm  Tuesday February 23, 2021"	"Willow Creek + +"	loam	30	forest	0	36	0	1000	l			ft
+WE	wepp-36993	"03:01 pm  Tuesday February 23, 2021"	"Willow Creek + +"	loam	30	forest	0	20	0	1000	m			ft
+WE	wepp-37164	"03:02 pm  Tuesday February 23, 2021"	"Willow Creek + +"	loam	30	forest	0	21	0	1000	m			ft
+WE	wepp-37330	"03:02 pm  Tuesday February 23, 2021"	"Willow Creek + +"	loam	30	forest	0	27	0	1000	m			ft
+WE	wepp-37509	"03:03 pm  Tuesday February 23, 2021"	"Willow Creek + +"	loam	30	forest	0	34	0	1000	m			ft
+WE	wepp-37695	"03:03 pm  Tuesday February 23, 2021"	"Willow Creek + +"	loam	30	forest	0	36	0	1000	m			ft
+WE	wepp-37866	"03:04 pm  Tuesday February 23, 2021"	"Willow Creek + +"	loam	30	forest	0	58	0	1000	m			ft
+WE	wepp-38103	"03:04 pm  Tuesday February 23, 2021"	"Willow Creek + +"	loam	30	forest	0	70	0	1000	m			ft
+WE	wepp-38282	"03:05 pm  Tuesday February 23, 2021"	"Willow Creek + +"	loam	30	forest	0	8.7	0	1000	u			ft
+WE	wepp-38342	"03:05 pm  Tuesday February 23, 2021"	"Willow Creek + +"	loam	30	forest	0	15	0	1000	u			ft
+WE	wepp-38403	"03:06 pm  Tuesday February 23, 2021"	"Willow Creek + +"	loam	30	forest	0	70	0	1000	u			ft
+WE	wepp-38475	"03:06 pm  Tuesday February 23, 2021"	"Willow Creek + +"	loam	30	forest	0	36	0	1000	u			ft
+WE	wepp-149459	"04:03 pm  Tuesday November 9, 2021"	"FLAGSTAFF WB AP AZ"	sand	45	forest	0	50	30	300	m			ft
+WE	wepp-163161	"12:39 pm  Wednesday November 10, 2021"	"FLAGSTAFF WB AP AZ"	silt	20	forest	0	50	30	300	m			ft
+WE	wepp-163547	"01:03 pm  Wednesday November 10, 2021"	"FLAGSTAFF WB AP AZ"	clay	20	forest	0	50	30	300	l			ft
+WE	wepp-178476	"10:29 am  Thursday November 11, 2021"	"CHARLESTON KAN AP WV"	silt	35	forest	6	15	25	300	h			ft
+WE	wepp-56366	"03:32 pm  Wednesday November 17, 2021"	"FLAGSTAFF WB AP AZ"	sand	20	forest	10	20	25	1000	m			ft
+WE	wepp-56527	"03:32 pm  Wednesday November 17, 2021"	"FLAGSTAFF WB AP AZ"	sand	20	forest	10	20	25	1000	m			ft
+WE	wepp-151269	"07:38 am  Monday November 22, 2021"	"FLAGSTAFF WB AP AZ"	clay	40	forest	0	50	30	300	m			ft
+WE	wepp-151653	"07:57 am  Monday November 22, 2021"	"FLAGSTAFF WB AP AZ"	sand	50	forest	25	20	10	100	m			ft
+WE	wepp-151814	"07:57 am  Monday November 22, 2021"	"FLAGSTAFF WB AP AZ"	sand	50	forest	25	20	10	1000	m			ft
+WE	wepp-152134	"08:09 am  Monday November 22, 2021"	"FLAGSTAFF WB AP AZ"	sand	50	forest	10	45	50	1000	h			ft
+WE	wepp-154848	"10:52 am  Monday November 22, 2021"	"FLAGSTAFF WB AP AZ"	sand	15	forest	25	20	10	1000	m			ft
+WE	wepp-155029	"10:54 am  Monday November 22, 2021"	"FLAGSTAFF WB AP AZ"	sand	20	forest	40	15	5	1000	l			ft
+WE	wepp-155157	"10:56 am  Monday November 22, 2021"	"FLAGSTAFF WB AP AZ"	sand	20	forest	45	25	15	1000	m			ft
+WE	wepp-155329	"11:00 am  Monday November 22, 2021"	"FLAGSTAFF WB AP AZ"	sand	20	forest	55	15	35	1000	m			ft
+WE	wepp-155561	"11:04 am  Monday November 22, 2021"	"FLAGSTAFF WB AP AZ"	sand	20	forest	30	20	10	1000	m			ft
+WE	wepp-155729	"11:05 am  Monday November 22, 2021"	"FLAGSTAFF WB AP AZ"	sand	20	forest	55	15	35	1000	l			ft
+WE	wepp-155855	"11:07 am  Monday November 22, 2021"	"FLAGSTAFF WB AP AZ"	sand	40	forest	30	55	15	1000	m			ft
+WE	wepp-156082	"11:12 am  Monday November 22, 2021"	"FLAGSTAFF WB AP AZ"	sand	30	forest	40	55	35	1000	m			ft
+WE	wepp-156332	"11:19 am  Monday November 22, 2021"	"FLAGSTAFF WB AP AZ"	sand	15	forest	35	10	45	280	h			ft
+WE	wepp-156687	"11:34 am  Monday November 22, 2021"	"FLAGSTAFF WB AP AZ"	sand	25	forest	45	55	25	1000	h			ft
+WE	wepp-156934	"11:38 am  Monday November 22, 2021"	"FLAGSTAFF WB AP AZ"	sand	15	forest	20	45	50	1000	h			ft
+WE	wepp-157205	"11:44 am  Monday November 22, 2021"	"FLAGSTAFF WB AP AZ"	sand	25	forest	55	55	35	700	m			ft
+WE	wepp-157379	"11:45 am  Monday November 22, 2021"	"FLAGSTAFF WB AP AZ"	sand	25	forest	55	55	35	1000	m			ft
+WE	wepp-157555	"11:48 am  Monday November 22, 2021"	"FLAGSTAFF WB AP AZ"	sand	30	forest	40	50	55	1000	m			ft
+WE	wepp-158168	"12:08 pm  Monday November 22, 2021"	"FLAGSTAFF WB AP AZ"	sand	30	forest	55	55	35	1000	l			ft
+WE	wepp-158469	"12:20 pm  Monday November 22, 2021"	"FLAGSTAFF WB AP AZ"	sand	35	forest	50	60	25	1000	l			ft
+WE	wepp-158598	"12:21 pm  Monday November 22, 2021"	"FLAGSTAFF WB AP AZ"	sand	40	forest	35	20	10	625	u			ft
+WE	wepp-158669	"12:23 pm  Monday November 22, 2021"	"FLAGSTAFF WB AP AZ"	sand	30	forest	10	45	50	1000	h			ft
+WE	wepp-158893	"12:26 pm  Monday November 22, 2021"	"FLAGSTAFF WB AP AZ"	sand	25	forest	50	35	15	1000	h			ft
+WE	wepp-159106	"12:29 pm  Monday November 22, 2021"	"FLAGSTAFF WB AP AZ"	sand	20	forest	10	50	25	1000	h			ft
+WE	wepp-159323	"12:33 pm  Monday November 22, 2021"	"FLAGSTAFF WB AP AZ"	sand	40	forest	55	35	5	1000	m			ft
+WE	wepp-159538	"12:34 pm  Monday November 22, 2021"	"FLAGSTAFF WB AP AZ"	sand	40	forest	55	35	5	1000	h			ft
+WE	wepp-160089	"12:45 pm  Monday November 22, 2021"	"FLAGSTAFF WB AP AZ"	sand	25	forest	55	35	20	1000	m			ft
+WE	wepp-160294	"12:48 pm  Monday November 22, 2021"	"FLAGSTAFF WB AP AZ"	sand	35	forest	50	55	5	1000	m			ft
+WE	wepp-160564	"12:49 pm  Monday November 22, 2021"	"FLAGSTAFF WB AP AZ"	sand	35	forest	40	30	5	1000	m			ft
+WE	wepp-160729	"12:51 pm  Monday November 22, 2021"	"FLAGSTAFF WB AP AZ"	sand	35	forest	40	30	5	1000	h			ft
+WE	wepp-160998	"12:56 pm  Monday November 22, 2021"	"FLAGSTAFF WB AP AZ"	sand	40	forest	35	35	15	1000	l			ft
+WE	wepp-161128	"12:58 pm  Monday November 22, 2021"	"FLAGSTAFF WB AP AZ"	sand	40	forest	45	40	15	1000	l			ft
+WE	wepp-161254	"01:01 pm  Monday November 22, 2021"	"FLAGSTAFF WB AP AZ"	sand	30	forest	40	25	15	825	l			ft
+WE	wepp-161383	"01:02 pm  Monday November 22, 2021"	"FLAGSTAFF WB AP AZ"	sand	20	forest	45	35	25	1000	l			ft
+WE	wepp-161570	"01:04 pm  Monday November 22, 2021"	"FLAGSTAFF WB AP AZ"	sand	25	forest	55	40	25	1000	m			ft
+WE	wepp-161735	"01:05 pm  Monday November 22, 2021"	"FLAGSTAFF WB AP AZ"	sand	25	forest	55	40	25	1000	h			ft
+WE	wepp-161962	"01:07 pm  Monday November 22, 2021"	"FLAGSTAFF WB AP AZ"	sand	20	forest	45	25	5	1000	m			ft
+WE	wepp-162183	"01:09 pm  Monday November 22, 2021"	"FLAGSTAFF WB AP AZ"	sand	40	forest	45	30	15	1000	u			ft
+WE	wepp-162245	"01:10 pm  Monday November 22, 2021"	"FLAGSTAFF WB AP AZ"	sand	30	forest	55	35	10	1000	m			ft
+WE	wepp-162410	"01:11 pm  Monday November 22, 2021"	"FLAGSTAFF WB AP AZ"	sand	15	forest	5	10	5	650	u			ft
+WE	wepp-162473	"01:12 pm  Monday November 22, 2021"	"FLAGSTAFF WB AP AZ"	sand	10	forest	5	10	5	650	u			ft
+WE	wepp-162536	"01:13 pm  Monday November 22, 2021"	"FLAGSTAFF WB AP AZ"	sand	20	forest	55	35	10	1000	l			ft
+WE	wepp-162685	"01:15 pm  Monday November 22, 2021"	"FLAGSTAFF WB AP AZ"	sand	20	forest	25	55	30	1000	l			ft
+WE	wepp-162814	"01:17 pm  Monday November 22, 2021"	"FLAGSTAFF WB AP AZ"	sand	40	forest	55	40	30	1000	u			ft
+WE	wepp-162876	"01:18 pm  Monday November 22, 2021"	"FLAGSTAFF WB AP AZ"	sand	25	forest	60	55	15	1000	m			ft
+WE	wepp-163738	"02:27 pm  Monday November 22, 2021"	"FLAGSTAFF WB AP AZ"	sand	50	forest	10	45	50	1000	u			ft
+WE	wepp-163800	"02:28 pm  Monday November 22, 2021"	"FLAGSTAFF WB AP AZ"	sand	50	chap	10	45	50	1000	u	80	0	ft
+WE	wepp-177314	"10:03 am  Tuesday November 23, 2021"	"FLAGSTAFF WB AP AZ"	sand	40	forest	35	55	20	1000	m			ft
+WE	wepp-177540	"10:04 am  Tuesday November 23, 2021"	"FLAGSTAFF WB AP AZ"	sand	30	forest	30	55	35	1000	l			ft
+WE	wepp-177668	"10:06 am  Tuesday November 23, 2021"	"FLAGSTAFF WB AP AZ"	sand	30	forest	40	45	55	1000	h			ft
+WE	wepp-177890	"10:08 am  Tuesday November 23, 2021"	"FLAGSTAFF WB AP AZ"	sand	15	forest	25	35	55	1000	m			ft
+WE	wepp-178119	"10:10 am  Tuesday November 23, 2021"	"FLAGSTAFF WB AP AZ"	sand	25	forest	50	40	15	1000	h			ft
+WE	wepp-178327	"10:12 am  Tuesday November 23, 2021"	"FLAGSTAFF WB AP AZ"	sand	25	forest	50	40	45	1000	h			ft
+WE	wepp-178570	"10:14 am  Tuesday November 23, 2021"	"FLAGSTAFF WB AP AZ"	sand	30	forest	40	45	55	1000	h			ft
+WE	wepp-178781	"10:15 am  Tuesday November 23, 2021"	"FLAGSTAFF WB AP AZ"	sand	40	forest	45	50	10	1000	m			ft
+WE	wepp-178950	"10:17 am  Tuesday November 23, 2021"	"FLAGSTAFF WB AP AZ"	sand	30	forest	40	55	10	1000	m			ft
+WE	wepp-179179	"10:19 am  Tuesday November 23, 2021"	"FLAGSTAFF WB AP AZ"	sand	25	forest	50	40	15	1000	h			ft
+WE	wepp-179396	"10:21 am  Tuesday November 23, 2021"	"FLAGSTAFF WB AP AZ"	sand	25	forest	50	55	20	1000	h			ft
+WE	wepp-179608	"10:23 am  Tuesday November 23, 2021"	"FLAGSTAFF WB AP AZ"	sand	40	forest	55	40	5	1000	m			ft
+WE	wepp-179775	"10:25 am  Tuesday November 23, 2021"	"FLAGSTAFF WB AP AZ"	sand	40	forest	60	25	15	1000	m			ft
+WE	wepp-179939	"10:26 am  Tuesday November 23, 2021"	"FLAGSTAFF WB AP AZ"	sand	10	forest	20	5	5	1000	l			ft
+WE	wepp-180069	"10:27 am  Tuesday November 23, 2021"	"FLAGSTAFF WB AP AZ"	sand	25	forest	30	50	50	1000	l			ft
+WE	wepp-180193	"10:29 am  Tuesday November 23, 2021"	"FLAGSTAFF WB AP AZ"	sand	25	forest	30	50	50	1000	u			ft
+WE	wepp-180262	"10:31 am  Tuesday November 23, 2021"	"FLAGSTAFF WB AP AZ"	sand	20	forest	40	50	25	1000	m			ft
+WE	wepp-180426	"10:32 am  Tuesday November 23, 2021"	"FLAGSTAFF WB AP AZ"	sand	25	forest	30	55	40	1000	m			ft
+WE	wepp-180690	"10:35 am  Tuesday November 23, 2021"	"FLAGSTAFF WB AP AZ"	sand	35	forest	55	50	20	1000	m			ft
+WE	wepp-180855	"10:37 am  Tuesday November 23, 2021"	"FLAGSTAFF WB AP AZ"	sand	25	forest	35	25	50	1000	m			ft
+WE	wepp-181075	"10:39 am  Tuesday November 23, 2021"	"FLAGSTAFF WB AP AZ"	sand	30	forest	25	55	25	1000	h			ft
+WE	wepp-181290	"10:43 am  Tuesday November 23, 2021"	"FLAGSTAFF WB AP AZ"	sand	35	forest	25	55	35	1000	m			ft
+WE	wepp-181459	"10:45 am  Tuesday November 23, 2021"	"FLAGSTAFF WB AP AZ"	sand	35	forest	20	45	5	1000	h			ft
+WE	wepp-181664	"10:46 am  Tuesday November 23, 2021"	"FLAGSTAFF WB AP AZ"	sand	25	forest	20	45	5	1000	h			ft
+WE	wepp-181871	"10:47 am  Tuesday November 23, 2021"	"FLAGSTAFF WB AP AZ"	sand	30	forest	20	45	5	1000	h			ft
+WE	wepp-182400	"11:14 am  Tuesday November 23, 2021"	"FLAGSTAFF WB AP AZ"	sand	40	forest	60	50	20	1000	m			ft
+WE	wepp-182635	"11:19 am  Tuesday November 23, 2021"	"FLAGSTAFF WB AP AZ"	sand	15	forest	25	35	55	1000	m			ft
+WE	wepp-182797	"11:20 am  Tuesday November 23, 2021"	"FLAGSTAFF WB AP AZ"	sand	25	forest	25	35	55	1000	m			ft
+WE	wepp-182962	"11:22 am  Tuesday November 23, 2021"	"FLAGSTAFF WB AP AZ"	sand	25	forest	30	35	55	1000	m			ft
+WE	wepp-183124	"11:23 am  Tuesday November 23, 2021"	"FLAGSTAFF WB AP AZ"	sand	25	forest	30	35	55	1000	h			ft
+WE	wepp-183351	"11:31 am  Tuesday November 23, 2021"	"FLAGSTAFF WB AP AZ"	sand	25	forest	55	40	20	1000	h			ft
+WE	wepp-183555	"11:32 am  Tuesday November 23, 2021"	"FLAGSTAFF WB AP AZ"	sand	25	forest	60	50	20	1000	h			ft
+WE	wepp-185557	"01:21 pm  Tuesday November 23, 2021"	"FLAGSTAFF WB AP AZ"	sand	20	forest	0	50	30	300	l			ft
+WE	wepp-185684	"01:22 pm  Tuesday November 23, 2021"	"FLAGSTAFF WB AP AZ"	sand	20	forest	55	45	30	1000	h			ft
+WE	wepp-187366	"03:06 pm  Tuesday November 23, 2021"	"ANIMAS NM +"	clay	20	forest	0	50	30	300	l			ft

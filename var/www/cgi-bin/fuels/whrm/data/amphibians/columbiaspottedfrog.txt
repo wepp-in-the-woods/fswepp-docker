@@ -1,0 +1,90 @@
+#this files was modified by filegenwhrm.pl on: Wednesday, March 16, 2005.
+#taxgroup Amphibians species Columbia spotted frog /  Rana luteiventris
+#
+# Rank
+3,1,1,-99,2
+# Nestsite
+8,1
+# Reprorank
+1,-99
+# Foraging Habitat
+3,1
+# Habitatrank
+1,-99
+# Forage/Prey Availability
+-99
+# Preyrank
+-99
+# Predator Avoidance
+3,1:8,1
+# Avoidrank
+1,-99:1,-99
+# Refugia/Shelter
+3,1:8,1
+# Shelterrank
+1,-99:1,-99
+# Coverrank
+1,-99:1,-99
+# Literature
+Distribution
+western Canada, south along the Rocky Mountain chain through eastern Washington, Idaho, Montana and Wyoming; also fragmented populations in Oregon, Wyoming, Nevada and Utah
+General Habitat
+closely associated with ponds, marshes, streams, and rivers
+Home or Activity Range
+&lt 2.5 ac (O'Neil et al. 2001)
+Canopy Cover
+no information available
+Specific Habitat Preferences
+wet areas, including pond and stream margins; presence of willows for protection and maintenance of stable water table
+Nestsite Characteristics
+breeds in warm, shallow margins of ponds or streams; eggs are deposited in eddies of streams, backwash pools and oxbows, beaver ponds, improved spring ponds
+Foraging Habitat Characteristics
+favor areas that are moist, with vegetative cover and an abundance of insect prey
+Diet
+opportunistic, adults feed mostly on invertebrates; tadpoles feed on aquatic vegetation (mostly algae) and detritus
+Predators
+introduced trout, garter snakes, sandhill cranes, giant water bugs, ravens, crows, raptors, black bears, minks, coyotes, weasels, California gulls, great gray owls, great horned owls, Swainson's hawk, northern harrier, American robins, gray jays, great blue herons, dabbling ducks, osprey, Brewer's blackbirds
+Shelter Habitats
+hibernate in spring-fed ponds or permanent and intermittent streams with willows, subterranean channels of spring seeps; newly metamorphosed frogs need most vegetative cover as they disperse from natal ponds in late summer and fall
+Response to Disturbance
+negatively impacted by grazing (reviewed in Sallabanks et al. 2003); road building has eliminated breeding sites (reviewed in Bull and Wales 2001); high- and low-water events, ice events, beaver activity, livestock grazing, and introduction of exotic predators could influence populations (reviewed in Bull and Wales 2001); water pumping systems that eliminate or change habitat may have resulted in 78% decline over decades in a population in the Greater Yellowstone Ecosystem (Patla 1997)
+Sources of Information used in the Model
+Engle 2001, Bull and Marx 2002
+General Sources of Background Information
+Patla 1997, James 1998, reviewed in Bull and Wales 2001, Engle 2001, Bull and Marx 2002, Pilliod et al. 2002, reviewed in Sallabanks et al. 2003, Stebbins 2003
+Summaries of Specific Studies
+Bull, Evelyn L.; Marx, David B. 2002. Influence of fish and habitat on amphibian communities in high elevation lakes in northeastern Oregon. Northwest Science. 76(3): 240-248.
+
+Study Location: northeastern Oregon
+Habitat Description: not stated
+Summary: High elevation lakes in Oregon were surveyed to determine if amphibian abundances were related to introduced fish species, habitat characteristics, or both. Long-toed salamander and Pacific treefrog abundances were negatively affected by introduced trout, while habitat characteristics, including CWD, exerted more influence on the abundance of eggs and larvae of western toads and Columbia spotted frogs.
+
+Bull, Evelyn; Wales, Barbara C. 2001. Effects of disturbance on amphibians of conservation concern in eastern Oregon and Washington. Northwest Science. 75:174-179.
+
+Study Location: eastern Oregon and Washington
+Habitat Description: primarily PIPO
+Summary: The authors review the habitat needs of amphibian species of concern in eastern Oregon and Washington, focusing on how disturbances (natural and anthropogenic) would alter habitat for these species. Species of concern include the Oregon spotted frog, Columbia spotted frog, northern leopard frog, Cascades frog, Tailed frog, Larch Mountain salamander, and Cope's giant salamander.
+
+Engle, Janice Carol. 2001. Population biology and natural history of Colombia spotted frogs (Rana luteiventris) in the Owyhee uplands of southwest Idaho: Implications for monitoring and management. Boise, ID: Boise State University. 66 p. M.S. Thesis.
+
+Study Location: southwest Idaho
+Habitat Description: sagebrush-steppe
+Summary: The natural history of a specific population of Columbia spotted frogs is outlined, including information on breeding and movement. Unlike other studies, movements of frogs in this area was restricted to riparian corridors. Numerous barriers existed that limited movement potential for individual frogs. Livestock grazing is cited as the most common land-use activity impacting breeding, overwintering, and foraging areas.
+
+James, Janice D. 1998. Status of the Columbia spotted frog (Rana luteiventris) in Alberta. Alberta Environmental Protection, Fisheries and Wildlife Management Division, and Alberta Conservation Association, Wildlife Status Report No. 17, Edmonton, AB. 21 p.
+
+Study Location: Alberta
+Habitat Description: variety reviewed
+Summary: In Alberta, Columbia spotted frogs are most common within the Rocky mountain and foothills region, inhabiting cool, relatively permanent water sources. They will use upland habitat if water sources are in close proximity, and are found in a variety of forest types.
+
+Patla, Debra A. 1997. Changes in a population  of spotted frogs in Yellowstone National Park between 1953 and 1995: The effects of habitat modification. Pocatello, ID: Idaho State University. 214 p. M.S. Thesis.
+
+Study Location: Yellowstone National Park, WY
+Habitat Description: not stated
+Summary: This study aimed to verify and describe a suspected decline in spotted frog populations in the Greater Yellowstone Ecosystem. Hypotheses to explain the decline included adverse weather patterns and habitat changes. Spotted frogs populations experienced a 78% decline since an earlier study, with currently low reproductive rates and recruitment. Environmental conditions have occurred in the area, as have had frog spatial relationships such as activity ranges, dispersion, distribution, and seasonal movements. This decline and change in life history traits is attributed to habitat alterations, specifically water pumping, which has resulted in changes in the location, quality, importance, and connectivity of habitat features. 
+
+Pilliod, David S.; Peterson, Charles; Ritson, Peter I. 2002. Seasonal migration of Columbia spotted frogs (Rana luteiventris) among complimentary resources in a high mountain basin. Canadian Journal of Zoology. 80: 1849-1862.
+
+Study Location: central Idaho
+Habitat Description: ABLA, PICO
+Summary: Habitat use and movement patterns were examined for Columbia spotted frogs in a high mountain basin in central Idaho. Juvenile and adult frogs occupied a variety of widely distributed wetlands from June to September. The portion of frogs moving from breeding ponds to summer habitat varied between juveniles, males, and females. The scale of movement ranged between hundreds and thousands of meters annually to reach complementary resources, though migratory males stayed much closer to breeding sites than migratory females. Migration to overwintering lakes occurred quickly and followed the shortest-distance travel routes through dry, open forest even when stream corridors were available nearby. These results suggest that both spatially separated complementary resources and corridors between them need to be protected.

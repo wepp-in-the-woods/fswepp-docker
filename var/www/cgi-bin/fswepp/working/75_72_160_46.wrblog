@@ -1,0 +1,923 @@
+WEPP Road Hydro Problem 6
+ LA CROSSE WB AP WI                     
+clay loam
+ft
+50
+30.87
+1
+Insloped, bare ditch
+native low
+4
+50
+19
+50
+16
+30
+15
+10
+2.42
+0.08
+453.04
+250.72
+Lower Road
+30.87
+2
+Insloped, bare ditch
+native low
+4
+100
+19
+50
+16
+30
+15
+10
+3.45
+0.19
+969.06
+610.30
+Lower Road
+30.87
+3
+Insloped, bare ditch
+native low
+4
+200
+19
+50
+16
+30
+15
+10
+4.61
+0.39
+2079.21
+1497.13
+Lower Road
+30.87
+4
+Insloped, vegetated or rocked ditch
+native low
+4
+50
+19
+50
+16
+30
+15
+10
+2.42
+0.08
+437.89
+241.62
+Lower Road
+30.87
+5
+Insloped, vegetated or rocked ditch
+native low
+4
+100
+19
+50
+16
+30
+15
+10
+3.45
+0.19
+906.78
+569.44
+Lower Road
+30.87
+6
+Insloped, vegetated or rocked ditch
+native low
+4
+200
+19
+50
+16
+30
+15
+10
+4.61
+0.39
+1835.48
+1322.48
+Lower Road
+30.87
+7
+Outsloped, unrutted
+native low
+4
+50
+16
+50
+16
+30
+15
+10
+1.58
+0.02
+162.32
+97.57
+Lower Road
+30.87
+8
+Outsloped, unrutted
+native low
+4
+100
+16
+50
+16
+30
+15
+10
+1.58
+0.02
+324.64
+195.14
+Lower Road
+30.87
+9
+Outsloped, unrutted
+native low
+4
+200
+16
+50
+16
+30
+15
+10
+1.58
+0.02
+649.28
+390.29
+Lower Road
+30.87
+10
+Insloped, bare ditch
+graveled low
+4
+50
+19
+50
+16
+30
+15
+10
+2.06
+0.02
+270.77
+180.56
+Lower Road
+30.87
+11
+Insloped, bare ditch
+graveled low
+4
+100
+19
+50
+16
+30
+15
+10
+2.65
+0.05
+542.53
+395.83
+Lower Road
+30.87
+12
+Insloped, bare ditch
+graveled low
+4
+200
+19
+50
+16
+30
+15
+10
+3.21
+0.09
+1054.24
+874.43
+Lower Road
+30.87
+13
+Insloped, vegetated or rocked ditch
+graveled low
+4
+50
+19
+50
+16
+30
+15
+10
+2.06
+0.02
+264.82
+176.09
+Lower Road
+30.87
+14
+Insloped, vegetated or rocked ditch
+graveled low
+4
+100
+19
+50
+16
+30
+15
+10
+2.65
+0.05
+517.26
+376.16
+Lower Road
+30.87
+15
+Insloped, vegetated or rocked ditch
+graveled low
+4
+200
+19
+50
+16
+30
+15
+10
+3.21
+0.09
+960.70
+797.99
+Lower Road
+30.87
+16
+Outsloped, unrutted
+graveled low
+4
+50
+16
+50
+16
+30
+15
+10
+1.52
+0.01
+127.01
+90.85
+Lower Road
+30.87
+17
+Outsloped, unrutted
+graveled low
+4
+100
+16
+50
+16
+30
+15
+10
+1.52
+0.01
+254.02
+181.70
+Lower Road
+30.87
+18
+Outsloped, unrutted
+graveled low
+4
+200
+16
+50
+16
+30
+15
+10
+1.52
+0.01
+508.04
+363.39
+Lower Road
+30.87
+19
+Insloped, bare ditch
+native low
+4
+50
+19
+50
+16
+70
+350
+10
+0.53
+0.00
+459.72
+169.09
+Middle Road
+30.87
+20
+Insloped, bare ditch
+native low
+4
+100
+19
+50
+16
+70
+350
+10
+0.60
+0.00
+978.50
+310.91
+Middle Road
+30.87
+21
+Insloped, bare ditch
+native low
+4
+200
+19
+50
+16
+70
+350
+10
+0.74
+0.00
+2136.20
+676.26
+Middle Road
+30.87
+22
+Insloped, vegetated or rocked ditch
+native low
+4
+50
+19
+50
+16
+70
+350
+10
+0.53
+0.00
+445.33
+166.58
+Middle Road
+30.87
+23
+Insloped, vegetated or rocked ditch
+native low
+4
+100
+19
+50
+16
+70
+350
+10
+0.60
+0.00
+916.98
+302.47
+Middle Road
+30.87
+24
+Insloped, vegetated or rocked ditch
+native low
+4
+200
+19
+50
+16
+70
+350
+10
+0.74
+0.00
+1889.44
+644.72
+Middle Road
+30.87
+25
+Outsloped, unrutted
+native low
+4
+50
+16
+50
+16
+70
+350
+10
+0.50
+0.00
+158.94
+162.19
+Middle Road
+30.87
+26
+Outsloped, unrutted
+native low
+4
+100
+16
+50
+16
+70
+350
+10
+0.50
+0.00
+317.88
+324.38
+Middle Road
+30.87
+27
+Outsloped, unrutted
+native low
+4
+200
+16
+50
+16
+70
+350
+10
+0.50
+0.00
+635.75
+648.77
+Middle Road
+30.87
+28
+Insloped, bare ditch
+graveled low
+4
+50
+19
+50
+16
+70
+350
+10
+0.54
+0.00
+272.23
+158.56
+Middle Road
+30.87
+29
+Insloped, bare ditch
+graveled low
+4
+100
+19
+50
+16
+70
+350
+10
+0.59
+0.00
+548.48
+272.35
+Middle Road
+30.87
+30
+Insloped, bare ditch
+graveled low
+4
+200
+19
+50
+16
+70
+350
+10
+0.70
+0.00
+1091.79
+571.23
+Middle Road
+30.87
+31
+Insloped, vegetated or rocked ditch
+graveled low
+4
+50
+19
+50
+16
+70
+350
+10
+0.54
+0.00
+266.71
+156.92
+Middle Road
+30.87
+32
+Insloped, vegetated or rocked ditch
+graveled low
+4
+100
+19
+50
+16
+70
+350
+10
+0.59
+0.00
+524.07
+266.64
+Middle Road
+30.87
+33
+Insloped, vegetated or rocked ditch
+graveled low
+4
+200
+19
+50
+16
+70
+350
+10
+0.70
+0.00
+999.41
+549.99
+Middle Road
+30.87
+34
+Outsloped, unrutted
+graveled low
+4
+50
+16
+50
+16
+70
+350
+10
+0.50
+0.00
+123.09
+164.47
+Middle Road
+30.87
+35
+Outsloped, unrutted
+graveled low
+4
+100
+16
+50
+16
+70
+350
+10
+0.50
+0.00
+246.19
+328.95
+Middle Road
+30.87
+36
+Outsloped, unrutted
+graveled low
+4
+200
+16
+50
+16
+70
+350
+10
+0.50
+0.00
+492.38
+657.89
+Middle Road
+30.87
+37
+Insloped, bare ditch
+native low
+4
+50
+19
+50
+16
+30
+750
+10
+0.29
+0.00
+420.50
+118.71
+Upper Road
+30.87
+38
+Insloped, bare ditch
+native low
+4
+100
+19
+50
+16
+30
+750
+10
+0.32
+0.00
+957.71
+183.58
+Upper Road
+30.87
+39
+Insloped, bare ditch
+native low
+4
+200
+19
+50
+16
+30
+750
+10
+0.36
+0.00
+2095.40
+339.00
+Upper Road
+30.87
+40
+Insloped, vegetated or rocked ditch
+native low
+4
+50
+19
+50
+16
+30
+750
+10
+0.29
+0.00
+405.35
+117.37
+Upper Road
+30.87
+41
+Insloped, vegetated or rocked ditch
+native low
+4
+100
+19
+50
+16
+30
+750
+10
+0.32
+0.00
+894.00
+179.13
+Upper Road
+30.87
+42
+Insloped, vegetated or rocked ditch
+native low
+4
+200
+19
+50
+16
+30
+750
+10
+0.36
+0.00
+1842.99
+325.82
+Upper Road
+30.87
+43
+Outsloped, unrutted
+native low
+4
+50
+16
+50
+16
+30
+750
+10
+0.28
+0.00
+152.34
+143.76
+Upper Road
+30.87
+44
+Outsloped, unrutted
+native low
+4
+100
+16
+50
+16
+30
+750
+10
+0.28
+0.00
+304.67
+287.51
+Upper Road
+30.87
+45
+Outsloped, unrutted
+native low
+4
+200
+16
+50
+16
+30
+750
+10
+0.28
+0.00
+609.35
+575.03
+Upper Road
+30.87
+46
+Insloped, bare ditch
+graveled low
+4
+50
+19
+50
+16
+30
+750
+10
+0.30
+0.00
+247.25
+115.90
+Upper Road
+30.87
+47
+Insloped, bare ditch
+graveled low
+4
+100
+19
+50
+16
+30
+750
+10
+0.32
+0.00
+537.35
+175.49
+Upper Road
+30.87
+48
+Insloped, bare ditch
+graveled low
+4
+200
+19
+50
+16
+30
+750
+10
+0.36
+0.00
+1084.96
+312.03
+Upper Road
+30.87
+49
+Insloped, vegetated or rocked ditch
+graveled low
+4
+50
+19
+50
+16
+30
+750
+10
+0.30
+0.00
+241.65
+115.01
+Upper Road
+30.87
+50
+Insloped, vegetated or rocked ditch
+graveled low
+4
+100
+19
+50
+16
+30
+750
+10
+0.32
+0.00
+511.22
+172.28
+Upper Road
+30.87
+51
+Insloped, vegetated or rocked ditch
+graveled low
+4
+200
+19
+50
+16
+30
+750
+10
+0.36
+0.00
+988.30
+302.64
+Upper Road
+30.87
+52
+Outsloped, unrutted
+graveled low
+4
+50
+16
+50
+16
+30
+750
+10
+0.29
+0.00
+118.29
+148.06
+Upper Road
+30.87
+53
+Outsloped, unrutted
+graveled low
+4
+100
+16
+50
+16
+30
+750
+10
+0.29
+0.00
+236.57
+296.11
+Upper Road
+30.87
+54
+Outsloped, unrutted
+graveled low
+4
+200
+16
+50
+16
+30
+750
+10
+0.29
+0.00
+473.15
+592.23
+Upper Road

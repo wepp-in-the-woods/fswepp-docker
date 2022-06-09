@@ -1,0 +1,35 @@
+WR	wepp-20870	"02:40 pm  Tuesday May 3, 2011"	"Apache Maid AZ +"	50	sand	native	200	4	13	15	50	130	20	40	outrut	ft
+WR	wepp-21007	"02:43 pm  Tuesday May 3, 2011"	"Apache Maid AZ +"	50	sand	native	200	4	13	15	50	130	20	40	outrut	ft
+WR	wepp-21227	"02:49 pm  Tuesday May 3, 2011"	"Apache Maid AZ +"	50	sand	native	200	4	13	15	50	130	20	40	inbare	ft
+WR	wepp-21308	"02:51 pm  Tuesday May 3, 2011"	"Apache Maid AZ +"	50	sand	native	200	4	13	15	50	130	20	40	inveg	ft
+WR	wepp-21415	"02:52 pm  Tuesday May 3, 2011"	"Apache Maid AZ +"	50	sand	native	100	4	13	15	50	130	20	40	inveg	ft
+WR	wepp-21513	"02:54 pm  Tuesday May 3, 2011"	"Apache Maid AZ +"	50	sand	paved	200	4	13	15	50	130	20	40	inveg	ft
+WR	wepp-21609	"02:55 pm  Tuesday May 3, 2011"	"Apache Maid AZ +"	50	sand	paved	200	4	13	15	50	130	20	40	inveg	ft
+WR	wepp-21781	"03:01 pm  Tuesday May 3, 2011"	"Apache Maid AZ +"	50	sand	graveled	200	4	13	15	50	130	20	40	outunrut	ft
+WR	wepp-21876	"03:03 pm  Tuesday May 3, 2011"	"Apache Maid AZ +"	50	sand	native	200	4	13	15	50	130	20	40	outunrut	ft
+WF	wepp-22633	"04:03 pm  Tuesday May 3, 2011"	"Apache Maid AZ +"	loam	200	50	0	30	15	40	20	20	4	ft
+WR	wepp-22681	"04:07 pm  Tuesday May 3, 2011"	"UBC +"	50	loam	native	200	4	13	15	25	100	10	20	inveg	ft
+WD	wepp-26127	"08:24 am  Wednesday May 4, 2011"	"UBC NM +"	50	loam	tree20	300	6	14	100	15	tall	100	6	4	80	0	0	ft	""
+WD	wepp-26381	"08:36 am  Wednesday May 4, 2011"	"UBC NM +"	50	loam	tree5	300	6	14	85	15	tall	100	6	4	80	0	0	ft	""
+WD	wepp-26455	"08:39 am  Wednesday May 4, 2011"	"UBC NM +"	50	loam	low	300	6	14	85	15	tall	100	6	4	80	0	0	ft	""
+WD	wepp-26651	"08:44 am  Wednesday May 4, 2011"	"UBC NM +"	50	loam	high	300	6	14	30	15	low	100	6	4	60	0	0	ft	""
+WF	wepp-26853	"09:00 am  Wednesday May 4, 2011"	"UBC NM +"	loam	300	100	6	14	6	150	20	20	8	ft
+WE	wepp-28173	"09:34 am  Wednesday May 4, 1950"	"UBC NM +"	loam	15	forest	6	14	6	300	h			ft
+WE	wepp-30653	"10:12 am  Wednesday May 4, 1950"	"UBC NM +"	loam	15	forest	6	14	6	300	h			ft
+WE	wepp-30947	"10:15 am  Wednesday May 4, 1985"	"UBC NM +"	loam	15	forest	14	50	15	300	h			ft
+WD	wepp-31960	"10:45 am  Wednesday May 4, 2011"	"Apache Maid AZ +"	30	sand	short	50	0	30	20	20	short	50	30	5	20	20	0	ft	""
+WD	wepp-32018	"10:45 am  Wednesday May 4, 2011"	"Apache Maid AZ +"	30	sand	short	50	0	30	45	20	short	50	30	5	20	20	0	ft	""
+WD	wepp-32048	"10:45 am  Wednesday May 4, 2011"	"Apache Maid AZ +"	30	sand	short	50	0	30	53	20	short	50	30	5	20	20	0	ft	""
+WD	wepp-32111	"10:47 am  Wednesday May 4, 2011"	"Apache Maid AZ +"	30	sand	short	300	5	10	50	20	short	100	30	5	75	20	0	ft	""
+WD	wepp-32196	"10:49 am  Wednesday May 4, 2011"	"Apache Maid AZ +"	50	sand	short	300	5	10	50	20	short	100	30	5	75	20	0	ft	""
+WD	wepp-32359	"10:56 am  Wednesday May 4, 2011"	"Apache Maid AZ +"	50	sand	short	300	5	10	50	20	short	100	30	5	50	20	0	ft	""
+WD	wepp-32512	"10:59 am  Wednesday May 4, 2011"	"Apache Maid AZ +"	50	sand	short	300	5	10	50	20	short	100	30	5	75	20	0	ft	""
+WD	wepp-32536	"11:00 am  Wednesday May 4, 2011"	"Apache Maid AZ +"	50	sand	short	300	5	10	50	20	short	100	30	5	95	20	0	ft	""
+WD	wepp-32544	"11:00 am  Wednesday May 4, 2011"	"Apache Maid AZ +"	50	sand	short	300	5	10	50	20	short	100	30	5	95	20	0	ft	""
+WD	wepp-32579	"11:00 am  Wednesday May 4, 2011"	"Apache Maid AZ +"	50	sand	short	300	5	10	50	20	short	100	30	5	95	20	0	ft	""
+WD	wepp-32640	"11:01 am  Wednesday May 4, 2011"	"Apache Maid AZ +"	50	sand	short	300	5	10	50	20	short	100	30	5	95	20	0	ft	""
+WD	wepp-32652	"11:01 am  Wednesday May 4, 2011"	"Apache Maid AZ +"	50	sand	tall	300	5	10	60	20	tall	100	30	5	60	20	0	ft	""
+WD	wepp-32657	"11:02 am  Wednesday May 4, 2011"	"Apache Maid AZ +"	50	sand	tall	300	5	10	60	20	tall	100	30	5	60	20	0	ft	""
+WD	wepp-32663	"11:02 am  Wednesday May 4, 2011"	"Apache Maid AZ +"	50	sand	tall	300	5	10	60	20	tall	100	30	5	60	20	0	ft	""
+WE	wepp-1035	"02:05 pm  Wednesday May 4, 1981"	"UBC NM +"	loam	20	forest	30	40	10	1000	h			ft
+WE	wepp-1521	"02:06 pm  Wednesday May 4, 1981"	"UBC NM +"	loam	20	forest	30	40	10	1000	h			ft

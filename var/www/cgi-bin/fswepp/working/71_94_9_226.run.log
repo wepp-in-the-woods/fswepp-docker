@@ -1,0 +1,120 @@
+WR	wepp-24310	"06:37 am  Friday February 12, 2010"	"TAHOE CA"	30	sand	native	100	4	14	1	0.3	1	0.3	20	outrut
+WR	wepp-27568	"02:09 am  Monday February 15, 2010"	"TAHOE CA"	30	sand	native	100	4	14	3	30	130	4	20	outrut
+WR	wepp-27603	"02:11 am  Monday February 15, 2010"	"TAHOE CA"	30	sand	native	100	4	14	3	30	130	4	20	outrut
+WR	wepp-27613	"02:13 am  Monday February 15, 2010"	"TAHOE CA"	30	sand	native	100	4	14	3	30	130	4	20	outrut
+WD	wepp-32646	"04:38 am  Monday February 15, 2010"	"TAHOE CA"	30	sand	skid	30.4878048780488	4	4	0	20	tall	1.52439024390244	30	30	70	20	0	ft	""
+WD	wepp-32655	"04:42 am  Monday February 15, 2010"	"TAHOE CA"	30	sand	skid	121.951219512195	4	4	0	20	tall	1.52439024390244	30	30	70	20	0	ft	""
+WR	wepp-487	"05:15 am  Monday February 15, 2010"	"TAHOE CA"	30	clay	native	400	4	40	5	30	100	4	20	outrut
+WR	wepp-492	"05:16 am  Monday February 15, 2010"	"TAHOE CA"	30	sand	native	400	4	14	5	30	100	4	20	outunrut
+WR	wepp-19412	"11:56 am  Saturday February 27, 2010"	"TAHOE CA"	30	sand	native	200	2	8	15	50	130	25	20	outunrut
+WD	wepp-25204	"00:12 am  Sunday February 28, 2010"	"sunset +"	30	clay	tree20	15.2439024390244	0	30	100	20	tree5	15.2439024390244	30	5	100	20	0	ft	""
+WD	wepp-25209	"00:13 am  Sunday February 28, 2010"	"TAHOE CA"	30	clay	tree20	15.2439024390244	0	30	100	20	tree5	15.2439024390244	30	5	100	20	0	ft	""
+WR	wepp-2345	"08:11 pm  Sunday February 28, 2010"	"TAHOE CA"	30	sand	native	1000	20	6.5	1	0.3	1	0.3	20	outrut
+WR	wepp-2350	"08:12 pm  Sunday February 28, 2010"	"TAHOE CA"	30	sand	native	1000	20	6.5	1	0.3	1	0.3	20	outunrut
+WR	wepp-2384	"08:14 pm  Sunday February 28, 2010"	"TAHOE CA"	30	sand	native	1000	20	6.5	1	0.3	1	0.3	20	inveg
+WR	wepp-2409	"08:15 pm  Sunday February 28, 2010"	"TAHOE CA"	30	sand	native	1000	20	6.5	1	0.3	1	0.3	20	inbare
+WR	wepp-2448	"08:23 pm  Sunday February 28, 2010"	"TAHOE CA"	30	sand	native	1000	20	6.5	1	0.3	1	0.3	20	inbare
+WR	wepp-2454	"08:23 pm  Sunday February 28, 2010"	"TAHOE CA"	30	sand	native	1000	20	6.5	1	0.3	1	0.3	20	inveg
+WR	wepp-2527	"08:29 pm  Sunday February 28, 2010"	"TAHOE CA"	30	sand	native	1000	20	6.5	1	0.3	1	0.3	20	outunrut
+WR	wepp-3810	"10:28 pm  Sunday February 28, 2010"	"TAHOE CA"	30	sand	native	1000	20	6.5	1	0.3	1	0.3	20	outrut
+WR	wepp-3815	"10:29 pm  Sunday February 28, 2010"	"TAHOE CA"	30	sand	native	1000	20	6.5	1	0.3	1	0.3	20	inveg
+WR	wepp-4032	"10:41 pm  Sunday February 28, 2010"	"TAHOE CA"	30	sand	native	100	10	6	1	0.3	1	0.3	20	inbare
+WR	wepp-4057	"10:43 pm  Sunday February 28, 2010"	"TAHOE CA"	30	sand	native	100	10	6	1	0.3	1	0.3	20	inbare
+WR	wepp-4077	"10:44 pm  Sunday February 28, 2010"	"TAHOE CA"	30	sand	native	100	10	6	1	0.3	1	0.3	20	inveg
+WR	wepp-4101	"10:45 pm  Sunday February 28, 2010"	"TAHOE CA"	30	sand	native	100	10	6	1	0.3	1	0.3	20	inbare
+WR	wepp-4134	"10:46 pm  Sunday February 28, 2010"	"TAHOE CA"	30	sand	native	100	10	6	1	0.3	1	0.3	20	inveg
+WR	wepp-4139	"10:48 pm  Sunday February 28, 2010"	"TAHOE CA"	30	sand	native	100	10	6	1	0.3	1	0.3	20	outrut
+WR	wepp-4144	"10:48 pm  Sunday February 28, 2010"	"TAHOE CA"	30	sand	native	100	10	6	1	0.3	1	0.3	20	outunrut
+WR	wepp-4149	"10:50 pm  Sunday February 28, 2010"	"TAHOE CA"	30	sand	native	100	10	12	1	0.3	1	0.3	20	inbare
+WR	wepp-4155	"10:50 pm  Sunday February 28, 2010"	"TAHOE CA"	30	sand	native	100	10	12	1	0.3	1	0.3	20	inbare
+WR	wepp-4187	"10:51 pm  Sunday February 28, 2010"	"TAHOE CA"	30	sand	native	100	10	12	1	0.3	1	0.3	20	inbare
+WR	wepp-4192	"10:51 pm  Sunday February 28, 2010"	"TAHOE CA"	30	sand	native	100	10	12	1	0.3	1	0.3	20	inveg
+WR	wepp-4197	"10:52 pm  Sunday February 28, 2010"	"TAHOE CA"	30	sand	native	100	10	12	1	0.3	1	0.3	20	inveg
+WR	wepp-4202	"10:53 pm  Sunday February 28, 2010"	"TAHOE CA"	30	sand	native	100	10	12	1	0.3	1	0.3	20	outrut
+WR	wepp-4207	"10:53 pm  Sunday February 28, 2010"	"TAHOE CA"	30	sand	native	100	10	12	1	0.3	1	0.3	20	outunrut
+WR	wepp-4213	"10:55 pm  Sunday February 28, 2010"	"TAHOE CA"	30	sand	native	100	10	6	1	0.3	1	0.3	20	outunrut
+WR	wepp-4302	"11:00 pm  Sunday February 28, 2010"	"TAHOE CA"	30	sand	native	100	10	6	1	0.3	1	0.3	20	inbare
+WR	wepp-4339	"11:02 pm  Sunday February 28, 2010"	"TAHOE CA"	30	sand	native	100	10	6	1	0.3	1	0.3	20	outrut
+WR	wepp-4344	"11:02 pm  Sunday February 28, 2010"	"TAHOE CA"	30	sand	native	100	10	6	1	0.3	1	0.3	20	outrut
+WR	wepp-4354	"11:02 pm  Sunday February 28, 2010"	"TAHOE CA"	30	sand	native	100	10	6	1	0.3	1	0.3	20	outunrut
+WR	wepp-4370	"11:03 pm  Sunday February 28, 2010"	"TAHOE CA"	30	sand	native	100	10	12	1	0.3	1	0.3	20	outunrut
+WR	wepp-12671	"02:28 pm  Monday March 1, 2010"	"TAHOE CA"	30	clay	native	200	4	13	15	50	130	25	20	inveg
+WR	wepp-12685	"02:29 pm  Monday March 1, 2010"	"TAHOE CA"	30	clay	native	200	4	13	15	50	130	25	20	inveg
+WR	wepp-15935	"11:06 am  Friday March 12, 2010"	"TAHOE CA"	30	sand	native	100	10	8	1	1	1	1	20	outunrut	ft
+WR	wepp-15942	"11:07 am  Friday March 12, 2010"	"TAHOE CA"	30	sand	native	100	10	8	1	1	1	1	20	outrut	ft
+WR	wepp-16003	"11:09 am  Friday March 12, 2010"	"TAHOE CA"	30	sand	native	21.54	10.77	8	1	1	1	1	20	inveg	ft
+WR	wepp-19230	"03:09 pm  Sunday March 14, 2010"	"TAHOE CA"	30	sand	native	100	8	9	1	1	1	1	20	outunrut	ft
+WR	wepp-19972	"04:48 pm  Sunday March 14, 2010"	"TAHOE CA"	30	sand	native	74	3	9	1	1	1	1	20	inveg	ft
+WD	wepp-31801	"01:19 pm  Monday March 15, 2010"	"TAHOE CA"	30	sand	high	15.2439024390244	20	20	0	25	low	15.2439024390244	20	20	0	25	0	ft	""
+WD	wepp-512	"02:14 pm  Monday March 15, 2010"	"TAHOE CA"	30	clay	tree20	15.2439024390244	20	20	100	20	tree20	15.2439024390244	20	20	100	20	0	ft	""
+WD	wepp-537	"02:16 pm  Monday March 15, 2010"	"TAHOE CA"	30	sand	tree20	15.2439024390244	20	20	100	20	tree20	15.2439024390244	20	20	100	20	0	ft	""
+WD	wepp-573	"02:18 pm  Monday March 15, 2010"	"TAHOE CA"	1	sand	tree20	15.2439024390244	20	20	100	20	tree20	15.2439024390244	20	20	100	20	0	ft	""
+WD	wepp-903	"02:39 pm  Monday March 15, 2010"	"TAHOE CA"	1	sand	low	15.2439024390244	20	20	0	20	low	15.2439024390244	20	20	0	20	0	ft	""
+WD	wepp-920	"02:40 pm  Monday March 15, 2010"	"TAHOE CA"	1	sand	tree20	15.2439024390244	20	20	100	20	tree20	15.2439024390244	20	20	100	20	0	ft	""
+WD	wepp-927	"02:41 pm  Monday March 15, 2010"	"TAHOE CA"	1	sand	tree20	15.2439024390244	20	20	100	20	tree20	15.2439024390244	20	20	100	20	0	ft	""
+WD	wepp-4371	"05:28 pm  Monday March 15, 2010"	"TAHOE CA"	30	sand	high	0.798780487804878	30	30	0	20	tree5	0.798780487804878	30	30	0	20	0	ft	""
+WD	wepp-8144	"10:53 pm  Monday March 15, 2010"	"TAHOE CA"	1	sand	low	15.2439024390244	30	30	0	20	tree5	15.2439024390244	30	30	0	20	0	ft	""
+WR	wepp-8152	"10:55 pm  Monday March 15, 2010"	"TAHOE CA"	1	sand	native	200	4	13	15	50	130	25	20	inveg	ft
+WD	wepp-8296	"11:10 pm  Monday March 15, 2010"	"TAHOE CA"	1	sand	high	15.2439024390244	30	30	0	20	low	15.2439024390244	30	30	0	20	0	ft	""
+WD	wepp-8479	"11:37 pm  Monday March 15, 2010"	"TAHOE CA"	1	silt	high	15.2439024390244	30	30	0	20	low	15.2439024390244	30	30	0	20	0	ft	""
+WD	wepp-8559	"11:46 pm  Monday March 15, 2010"	"TAHOE CA"	1	silt	high	15.2439024390244	30	30	0	20	low	15.2439024390244	30	30	0	20	0	ft	""
+WD	wepp-8594	"11:51 pm  Monday March 15, 2010"	"TAHOE CA"	1	silt	tree20	15.2439024390244	0	30	0	20	tree5	15.2439024390244	30	5	0	20	0	ft	""
+WD	wepp-8599	"11:52 pm  Monday March 15, 2010"	"TAHOE CA"	1	silt	tree20	15.2439024390244	0	30	0	20	tree5	15.2439024390244	30	5	0	20	0	ft	""
+WD	wepp-8633	"11:55 pm  Monday March 15, 2010"	"TAHOE CA"	1	silt	low	15.2439024390244	0	30	0	20	low	15.2439024390244	30	5	0	20	0	ft	""
+WD	wepp-27598	"04:04 am  Wednesday March 17, 2010"	"TAHOE CA"	1	silt	high	15.2439024390244	0	30	45	20	high	15.2439024390244	30	5	45	20	0	ft	""
+WD	wepp-27794	"05:08 am  Wednesday March 17, 2010"	"TAHOE CA"	1	silt	tree20	15.2439024390244	0	30	100	20	tree20	15.2439024390244	30	5	100	20	0	ft	""
+WD	wepp-27825	"05:09 am  Wednesday March 17, 2010"	"TAHOE CA"	1	silt	skid	15.2439024390244	0	30	10	20	skid	15.2439024390244	30	5	10	20	0	ft	""
+WR	wepp-28201	"06:02 am  Wednesday March 17, 2010"	"TAHOE CA"	30	clay	native	200	4	13	15	50	130	25	20	inbare	ft
+WR	wepp-12873	"09:35 pm  Tuesday March 23, 2010"	"TAHOE CA"	30	sand	native	200	4	13	15	50	130	25	20	outrut	ft
+WR	wepp-12878	"09:35 pm  Tuesday March 23, 2010"	"TAHOE CA"	30	sand	native	200	4	13	15	50	130	25	20	outunrut	ft
+WR	wepp-12912	"09:40 pm  Tuesday March 23, 2010"	"TAHOE CA"	30	sand	native	16	8.7	9	1	1	1	1	20	inveg	ft
+WR	wepp-12944	"09:43 pm  Tuesday March 23, 2010"	"TAHOE CA"	30	sand	native	16	8.7	9	1	1	1	1	20	inveg	ft
+WR	wepp-12949	"09:44 pm  Tuesday March 23, 2010"	"TAHOE CA"	30	sand	native	16	8.7	9	1	1	1	1	20	outrut	ft
+WR	wepp-12973	"09:45 pm  Tuesday March 23, 2010"	"TAHOE CA"	30	sand	native	16	8.7	9	1	1	1	1	20	outunrut	ft
+WR	wepp-13006	"09:50 pm  Tuesday March 23, 2010"	"TAHOE CA"	30	sand	native	16	8.7	9	1	1	1	1	20	outrut	ft
+WD	wepp-13791	"11:36 pm  Tuesday March 23, 2010"	"ctc_aa +"	30	clay	tree20	15.2439024390244	0	30	100	20	tree5	15.2439024390244	30	5	100	20	0	ft	""
+WR	wepp-621	"12:14 pm  Thursday March 25, 2010"	"ctc_aa +"	65	sand	native	74	3	1	1	1	1	1	20	outrut	ft
+WR	wepp-751	"12:25 pm  Thursday March 25, 2010"	"ctc_aa +"	65	sand	native	74	3	1	1	1	1	1	20	inveg	ft
+WR	wepp-786	"12:36 pm  Thursday March 25, 2010"	"ctc_aa +"	65	sand	native	74	3	9	1	1	1	1	20	inveg	ft
+WR	wepp-797	"12:41 pm  Thursday March 25, 2010"	"ctc_aa +"	65	sand	native	74	3	9	1	1	1	1	20	inveg	ft
+WR	wepp-802	"12:42 pm  Thursday March 25, 2010"	"ctc_aa +"	65	sand	native	74	3	9	1	1	1	1	20	inveg	ft
+WR	wepp-807	"12:44 pm  Thursday March 25, 2010"	"ctc_aa +"	65	sand	native	74	3	9	1	1	1	1	20	outrut	ft
+WR	wepp-834	"12:45 pm  Thursday March 25, 2010"	"ctc_aa +"	65	sand	native	74	3	9	1	1	1	1	20	outrut	ft
+WE	wepp-988	"06:44 pm  Thursday May 13, 1964"	"TAHOE CA"	sand	20	forest	29	29	29	6	m			ft
+WD	wepp-12881	"01:08 pm  Friday May 14, 2010"	"TAHOE CA"	30	sand	low	4.5	22	22	0	35	low	4.5	22	22	0	35	0	ft	""
+WD	wepp-12993	"01:21 pm  Friday May 14, 2010"	"TAHOE CA"	30	sand	low	4.5	22	22	30	35	low	4.5	22	22	30	35	0	ft	""
+WD	wepp-13025	"01:23 pm  Friday May 14, 2010"	"TAHOE CA"	30	sand	low	4.5	29.2	29.2	30	25	low	4.5	29.2	29.2	30	25	0	ft	""
+WD	wepp-13142	"01:38 pm  Friday May 14, 2010"	"TAHOE CA"	30	sand	low	4.5	29.2	29.2	30	25	low	4.5	29.2	29.2	30	25	0	ft	""
+WD	wepp-13476	"01:45 pm  Friday May 14, 2010"	"TAHOE CA"	30	sand	low	4.5	29.2	29.2	0	25	low	4.5	29.2	29.2	0	25	0	ft	""
+WD	wepp-13529	"01:48 pm  Friday May 14, 2010"	"TAHOE CA"	30	sand	low	4.5	29.2	29.2	0	25	low	4.5	29.2	29.2	0	25	0	ft	""
+WD	wepp-14028	"02:52 pm  Friday May 14, 2010"	"TAHOE CA"	30	sand	low	4.5	29.2	29.2	0	25	low	4.5	29.2	29.2	0	25	0	ft	""
+WD	wepp-14033	"02:52 pm  Friday May 14, 2010"	"TAHOE CA"	30	sand	low	4.5	0	29.2	0	25	low	4.5	29.2	29.2	0	25	0	ft	""
+WD	wepp-14072	"02:53 pm  Friday May 14, 2010"	"TAHOE CA"	30	sand	tree5	4.5	0	29.2	100	25	tree5	4.5	29.2	29.2	100	25	0	ft	""
+WD	wepp-26105	"01:47 pm  Saturday May 15, 2010"	"TAHOE CA"	30	sand	low	4.5	29.2	29.2	0	25	low	4.5	29.2	29.2	0	25	0	ft	""
+WD	wepp-26519	"02:28 pm  Saturday May 15, 2010"	"TAHOE CA"	60	sand	low	4.5	29.2	29.2	0	25	low	4.5	29.2	29.2	0	25	0	ft	""
+WD	wepp-26544	"02:30 pm  Saturday May 15, 2010"	"TAHOE CA"	30	sand	high	4.5	29.2	29.2	45	25	high	4.5	29.2	29.2	45	25	0	ft	""
+WD	wepp-26549	"02:30 pm  Saturday May 15, 2010"	"TAHOE CA"	30	sand	low	4.5	29.2	29.2	0	25	low	4.5	29.2	29.2	0	25	0	ft	""
+WD	wepp-26744	"02:58 pm  Saturday May 15, 2010"	"TAHOE CA"	30	sand	tree5	4.5	29.2	29.2	100	25	tree5	4.5	29.2	29.2	100	25	0	ft	""
+WD	wepp-26798	"03:04 pm  Saturday May 15, 2010"	"TAHOE CA"	1	sand	low	4.5	29.2	29.2	0	25	low	4.5	29.2	29.2	0	25	0	ft	""
+WD	wepp-26804	"03:05 pm  Saturday May 15, 2010"	"TAHOE CA"	1	sand	low	4.5	0	29.2	0	25	low	4.5	29.2	29.2	0	25	0	ft	""
+WD	wepp-26810	"03:06 pm  Saturday May 15, 2010"	"TAHOE CA"	1	sand	low	4.5	0	29.2	0	25	low	4.5	29.2	0	0	25	0	ft	""
+WD	wepp-26842	"03:09 pm  Saturday May 15, 2010"	"TAHOE CA"	1	sand	low	4.5	29.2	29.2	0	25	low	4.5	29.2	29.2	0	25	0	ft	""
+WD	wepp-26876	"03:10 pm  Saturday May 15, 2010"	"TAHOE CA"	1	sand	low	9	29.2	29.2	0	25	tree20	4.5	29.2	29.2	100	25	0	ft	""
+WD	wepp-26881	"03:12 pm  Saturday May 15, 2010"	"TAHOE CA"	1	sand	low	9	29.2	29.2	0	25	tree20	4.5	29.2	29.2	100	25	0	ft	""
+WD	wepp-26886	"03:12 pm  Saturday May 15, 2010"	"TAHOE CA"	1	sand	low	1.64	29.2	29.2	0	25	low	1.64	29.2	29.2	0	25	0	ft	""
+WD	wepp-9772	"08:10 pm  Sunday May 16, 2010"	"TAHOE CA"	30	sand	tree20	50	0	30	100	20	tree20	50	30	5	100	20	0	ft	""
+WD	wepp-18907	"10:18 am  Monday May 17, 2010"	"TAHOE CA"	30	sand	low	4.5	29	29	0	25	low	4.5	29	29	0	25	0	ft	""
+WD	wepp-19198	"10:57 am  Monday May 17, 2010"	"TAHOE CA"	1	sand	low	4.5	29	29	0	25	low	4.5	29	29	0	25	0	ft	""
+WD	wepp-20946	"01:41 pm  Monday May 17, 2010"	"ctc_aa +"	30	clay	tree20	50	0	30	100	20	tree5	50	30	5	100	20	0	ft	""
+WE	wepp-19065	"04:15 am  Wednesday March 2, 1956"	"TAHOE CA"	clay	20	forest	0	50	30	300	l			ft
+WD	wepp-6183	"06:47 pm  Saturday March 12, 2011"	"TAHOE CA"	100	sand	low	6	0	9	0	15	low	6	30	9	0	15	0	ft	""
+wt	wepp-6190	"Mar 12, 2011"	"TAHOE CA"	granitic	Bare	9	9	6	0	15	Bare	9	9	6	0	15	ft	""
+WR	wepp-5929	"06:34 pm  Saturday April 9, 2011"	"TAHOE CA"	30	sand	paved	200	4	13	1	50	1	25	20	inbare	ft
+WR	wepp-5934	"06:36 pm  Saturday April 9, 2011"	"TAHOE CA"	30	sand	paved	50	4	13	1	50	1	25	20	inbare	ft
+WR	wepp-5967	"06:38 pm  Saturday April 9, 2011"	"TAHOE CA"	30	sand	paved	60	4	13	1	50	1	25	20	inbare	ft
+WR	wepp-5972	"06:39 pm  Saturday April 9, 2011"	"TAHOE CA"	30	sand	paved	20	4	13	1	50	1	25	20	inbare	ft
+WR	wepp-5977	"06:40 pm  Saturday April 9, 2011"	"TAHOE CA"	30	sand	paved	1000	4	13	1	50	1	25	20	inbare	ft
+WR	wepp-5983	"06:43 pm  Saturday April 9, 2011"	"TAHOE CA"	30	sand	paved	300	4	13	1	50	1	25	20	inbare	ft
+WR	wepp-6015	"06:44 pm  Saturday April 9, 2011"	"TAHOE CA"	30	sand	paved	310	4	13	1	50	1	25	20	inbare	ft
+WR	wepp-6039	"06:46 pm  Saturday April 9, 2011"	"TAHOE CA"	30	sand	paved	1000	4	13	1	0.3	1	0.3	20	inbare	ft
+WR	wepp-6044	"06:47 pm  Saturday April 9, 2011"	"TAHOE CA"	30	sand	paved	300	4	13	1	0.3	1	0.3	20	inbare	ft

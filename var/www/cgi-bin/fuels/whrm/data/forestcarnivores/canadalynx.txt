@@ -1,0 +1,78 @@
+#this files was modified by filegenwhrm.pl on: Wednesday, March 16, 2005.
+#taxgroup Forest Carnivores species Canada lynx / Lynx canadensis
+#
+# Rank
+3,1,2,1,1
+# Nestsite
+8,1
+# Reprorank
+1,-99
+# Foraging Habitat
+22,1:23,1
+# Habitatrank
+2,-99:2,-99
+# Forage/Prey Availability
+22,1:23,1
+# Preyrank
+1,-99:1,-99
+# Predator Avoidance
+8,1
+# Avoidrank
+1,-99
+# Refugia/Shelter
+8,1
+# Shelterrank
+1,-99
+# Coverrank
+1,-99
+# Literature
+Distribution
+Alaska and Canada, south into parts of Washington, Idaho, Oregon, Montana, Wyoming and Utah
+General Habitat
+cool, coniferous forest at upper elevations
+Home or Activity Range
+3700-15000 ac (Smith 1984)
+Canopy Cover
+no information available
+Specific Habitat Preferences
+early successional forests for hunting, late successional forest for denning and reproducing, respond positively to edge
+Nestsite Characteristics
+den and rear kittens in late-successional forests; presence of CWD
+Foraging Habitat Characteristics
+densely stocked, early and mid-successional, high elevation PICO; avoid hunting in open areas
+Diet
+snowshoe hares, birds, other mammals, carrion
+Predators
+wolf, fisher, mountain lion, bobcat, coyote, wolverine
+Shelter Habitats
+CWD as thermal and predator cover for kittens
+Response to Disturbance
+salvage or thinning operations reduce the availability of forest structures for denning, may reduce habitat for prey species; reductions in understory would adversely impact snowshoe hare densities; increased human presence as a result of management activities may have adverse effects on rare forest carnivores; used old stands more than expected and young and intermediate-aged stands less than expected (Hahr 2001)
+Sources of Information used in the Model
+Koehler et al. 1979, Koehler 1990, Koehler and Aubry 1994
+General Sources of Background Information
+Koehler et al. 1979, Brainerd 1985, Koehler 1990, reviewed in Koehler and Aubry 1994, reviewed in Hagar et al. 1995, reviewed in Bull et al. 2001, Hahr 2001
+Summaries of Specific Studies
+Hahr, Meg. 2001. Winter distribution and habitat use of lynx, fisher, and wolverine in Glacier National Park, Montana. Missoula, MT: University of Montana. 97 p. M.S. Thesis.
+
+Location of Study:  northwest Montana
+Habitat Description: entire Glacier National Park; includes dry herbaceous, mesic herbaceous, deciduous trees and shrubs, dense mesic coniferous forest, open dry coniferous forest, barren rock, snow or ice
+Summary: Lynx, fisher, and wolverine use of forest age classes and vegetative cover types was assessed in winter in Glacier National Park. Lynx use of deciduous and dry coniferous forest types was greater than expected while dry herb/shrub and mesic conifer cover types were used less than expected. Fisher used deciduous and dry coniferous forest types more than both shrub cover types. Wolverines used both conifer cover types less than expected while deciduous forest stands and dry herb/shrub were used significantly more than expected. Tracks of a variety of other carnivores, including marten, coyote, and mountain lion,  were also recorded. 
+
+Koehler, Gary M. 1990. Population and habitat characteristics of lynx and snowshoe hares in north central Washington. Canadian Journal of Zoology. 68: 845-851.
+
+Study Location: north central Washington
+Habitat Description: PSME-PIPO at low elevations; PIEN, ABLA, PICO, aspen at high elevations
+Summary: Lynx and snowshoe hare population characteristics and habitat use were studied in north-central Washington. Lynx commonly used areas above 1500 m in elevation that were dominated by PICO-ABLA-PIEN cover types. Snowshoe hares, the primary prey item of lynx in this study, were found most abundantly in young PICO stands. This stand type is limited in the study area, resulting in a patchy prey base that might explain the relatively large home ranges, low density of adults, and high kitten mortality rates demonstrated by lynx.
+
+Koehler, Gary; Aubry, Keith B. 1994. Lynx. In The Scientific basis for conserving Forest carnivores: American marten, fisher, lynx and wolverine in the western United States. Gen. Tech. Rep. RM-254. Fort Collins, CO:  USDA Forest Service, Rocky Mountain Forest and Range Experiment Station. 74-98.
+
+Location of Study:  Washington
+Habitat Description:  PICO
+Summary:  Literature review of basic lynx ecology, including information on distribution, population ecology, reproductive biology, food habits, home range, habitat relationships, and response to disturbance. The habitat needs of lynx incorporate both extremes of a successional gradient. Foraging habitat is discussed largely in terms of prey, specifically the snowshoe hare. Hares prefer early successional areas with high amounts of horizontal cover, including dense PICO stands or areas with a high density of shrubs or saplings. Late successional areas with high amounts of DWD and vertical and horizontal complexity are used for denning and rearing kittens. Overall quality lynx habitat would include a mosaic of early and late successional habitats with enough cover to travel between.
+
+Koehler, Gary M.; Hornocker. Maurice G.; Hash, Howard S. 1979. Lynx movements and habitat use in Montana. Canadian Field Naturalist. 93(4): 441-442.
+
+Location of Study:  north-west Montana
+Habitat Description:  mix of PICO, ABLA, PIEN, PIPO, PSME
+Summary: One male and one female lynx were radio-tracked. Most locations occurred in densely stocked stands of PICO. These stands also had the highest local abundances of snowshoe hares.

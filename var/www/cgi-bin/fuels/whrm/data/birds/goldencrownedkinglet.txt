@@ -1,0 +1,115 @@
+#this files was modified by filegenwhrm.pl on: Wednesday, March 16, 2005.
+#taxgroup Birds species Golden-crowned kinglet / Regulis satrapa
+#
+# Rank
+2,3,3,-99,-99
+# Nestsite
+20,1:22,1:24,1:25,1:26,1
+# Reprorank
+3,-99:1,-99:1,-99:2,-99:2,-99
+# Foraging Habitat
+20,1:24,1:25,1:26,1
+# Habitatrank
+2,-99:1,-99:3,-99:3,-99
+# Forage/Prey Availability
+-99
+# Preyrank
+-99
+# Predator Avoidance
+-99
+# Avoidrank
+-99
+# Refugia/Shelter
+-99
+# Shelterrank
+-99
+# Coverrank
+-99
+# Literature
+Distribution
+most of Canada and USA, northern Mexico
+General Habitat
+stem exclusion or mature, closed canopy mixed conifer stands
+Home or Activity Range
+2-62 ac (O'Neil et al. 2001)
+Canopy Cover
+high canopy volumes at nest sites (Mannan and Meslow 1984); abundance linked to high percent canopy cover (Verner 1980 (>40%), Marzluff and Lyon 1983)
+Specific Habitat Preferences
+high canopy cover, large and medium diameter stems, high basal area
+Nestsite Characteristics
+nest in branch of conifer 30-60 ft above ground; nest made of lichen and moss with a lining of bark chips; nest in areas with high canopy closure and dense, small trees
+Foraging Habitat Characteristics
+forage in trees and shrubs, mainly in conifers, occasionally hawk (2% of foraging).
+Diet
+mostly insects (small beetles, gnats, caterpillars, scale insects, aphids, and also spiders), but also tree sap
+Predators
+no information available
+Shelter Habitats
+no information available
+Response to Disturbance
+negatively affected by fire; less abundant on sites with overstory removal (Franzreb and Omhart 1978); less abundant in cut areas than unlogged forest (Tobalske et al. 1991); occurred in greater abundance in old-growth vs. managed stands (Mannan and Meslow 1984); less abundant in low shrub- and high shrub- stage clearcuts and partially cut forest compared to uncut forest (Hejl et al. 1995); not found in stands burned by stand-replacement wildfire, found in unburned controls (Kreisel and Stein 1999)
+Sources of Information used in the Model
+Verner 1980,  Airola and Barrett 1981, Marzluff and Lyon 1983, Franzreb 1984, Mannan and Meslow 1984
+General Sources of Background Information
+Franzreb and Omhart 1978, Taylor and Barmore 1980, Verner 1980, Marzluff and Lyon 1983, Franzreb 1984, Mannan and Meslow 1984, Tobalske et al. 1991, Hejl et al. 1995,  National Geographic Society 1996, Kreisel and Stein 1999, Alsop 2001, reviewed in O'Neil et al. 2001, Sallabanks et al. 2003
+Summaries of Specific Studies
+Airola, Daniel A.; Barrett, Reginald H. 1985. Foraging and habitat relationships of insect-gleaning birds in a Sierra Nevada mixed-conifer forest. Condor. 87:205-216.
+
+Study Location: central Sierra Nevada, California
+Habitat Description: PIPO, PILA, ABCO, PSME, CADE, QUKE
+Summary: Foraging habitat preferences, niche relationships, patterns of relative abundance vs. niche breadth and differences between migrant and resident species were examined for 12 species of insect gleaning birds in the Sierras. Tree species, and to a lesser extent, tree height were used selectively by the guild. Incense-cedar was avoided by all species, while other tree species were preferred by individual or groups of gleaners. In differentiating between niche of each species, foraging site was the most important foraging characteristic, followed by tree species, foraging technique, and foraging height. No correlation was found between niche breadth and species abundance, though a positive correlation existed for all 5 resident species. 
+
+Franzreb, Kathleen E. 1984. Foraging habits of ruby-crowned and golden-crowned kinglets in an Arizona montane forest. The Condor. 86:139-145.
+
+Study Location: Arizona
+Habitat Description: PSME, PIPO, PIST
+Summary: Foraging behaviors of ruby- and golden-crowned kinglets were examined. Both species showed similar foraging behavior, though they differed in methods of prey attack, tree species selection, and relative foraging location. Both species foraged on tall trees (>27m).
+
+Franzreb, Kathleen, E.; Ohmart, Robert D. 1978. The effects of timber harvesting on breeding birds in a mixed-coniferous forest. Condor. 80: 431-441.
+
+Study Location: Apache-Sitgreaves National Forest, Arizona
+Habitat Description: PSME and PIPO dominated
+Summary: Birds were significantly more abundant in unlogged plots than modified plots, while composition overlapped. Species richness was more influenced by year than treatment. Birds gleaning on foliage or timber were most adversely affected by logging. Ground or slash foragers were much more abundant in harvested plots. Aerial foragers and most flycatchers were more abundant on logged plots. Cup nesting species were more abundant on unlogged plots.
+
+Hejl, Sallie J.; Hutto, Richard L.; Preston, Charles R.; Finch, Deborah M. 1995. Effects of silvicultural treatments in the Rocky Mountains. In:Martin, Thomas E.; Finch, Deborah M. (eds.). Ecology and Management of Neotropical Migratory Birds. New York, Oxford: Oxford University Press. 220-244.
+
+Study Location: Rocky Mountains
+Habitat Description: forest types across the Rocky mountains
+Summary: Synthesis of the effects of different silvicultural treatments on neotropical migrants in forests of the Rocky Mountains. Outlines current forest structure, natural disturbance, logging history, and current silvicultural recommendations. General bird-habitat relationships in natural forest, including stands of different ages, are contrasted with stands that are silviculturally manipulated. Contains detailed species lists for rare to abundant bird species that are found in 8 forest types commonly found in the Rockies (Table 8-2). Also lists species by their likelihood to be more or less abundant in managed stands (classified as one of three types of clearcuts or partial cuts) compared to uncut forest. (Table 8-3)
+
+Kreisel, Karen J.; Stein, Steven J. 1999. Bird use of burned and unburned forests during winter. Wilson Bulletin. 111(2): 243-250.
+
+Study Location:northeast Washington
+Habitat Description: mixed conifer, includes: PSME, PIPO, ABLA, PIEN, LAOC, PICO
+Summary: This study examined bird use of burned and unburned forest in the winter season. Species richness was similar, but composition was distinctly different. Composition and abundance also changed with time; some species disappeared from the area while others moved in. Trunk and branch foraging species were more abundant in burned forest, though their abundance significantly decreased from the first to the fourth winter post-fire. Foraging behavior was documented for four woodpecker species within the burned area. Foraging took place on snags > 23 cm dbh.
+
+Mannan, R. William; Meslow, E.Charles. 1984. Bird populations and vegetation characteristics in managed and old-growth forests, northeastern Oregon. Journal of Wildlife Management. 48:1219-1238.
+
+Study Location: northeastern Oregon
+Habitat Description: ABGR zone, includes PIPO, PSME, LAOC, PICO, ABGR
+Summary: Bird communities and vegetation differences were examined in managed and old-growth stands. Three variables, including large snags, large trees, and understory tree components, appeared to be responsible for the higher abundance of some species in old growth forest. Species more abundant in managed forest appeared to be attracted to the open structure of managed stands. Managed forest supported more breeding birds, due largely to the abundance of a few species.
+
+Sallabanks, Rex; Marcot, Bruce G.; Riggs, Robert A.; Mehl, Carolyn A.; Arnett, Edward B. 2003. Wildlife of Eastside (Interior) Forests and Woodlands. In Wildlife-Habitat Relationships in Oregon and Washington. Corvallis, OR: Oregon State University Press. pp 213-238.
+
+Study Location: Blue Mountains, OR
+Habitat Description: ABGR
+Summary: This case history (1) evaluates bird-habitat relationships in primarily grand fir forests. The goals of this study were to assess how forest stand structure influences habitat selection by birds, to investigate bird use of specific forest structural classes, and to relate bird habitat use to potential management options that consider breeding bird habitat.
+
+Taylor, Dale L.; Barmore, William J.1980. Post-fire succession of avifauna in coniferous forests of Yellowstone and Grand Teton National Parks, Wyoming. In Management of western forests and grasslands for nongame birds: workshop proceedings. February 11-14, 1980, Salt Lake City, UT. USDA Forest Service Gen. Tech. Rep. INT-86, Ogden, UT. pp 130-145.
+
+Study Location: Grand Teton and Yellowstone National Parks, Wyoming
+Habitat Description: PICO, ABLA/PIEN
+Summary: Bird density, composition, and diversity were monitored across a series of fire severities in burned PICO or spruce-fir forest in Grand Teton and Yellowstone National Parks. Highest populations and greatest biomass occurred from 5-29 years post-fire. Density, composition, and diversity on moderately burned spruce-fir-PICO were more like those on unburned spruce-fir than other seral stages. Changes in bird communities by feeding category were also examined. Overall, canopy closure was a habitat variable that appeared to affect avifauna more than the presence of fire.
+
+Tobalske, Bret W.; Shearer, Raymond C.; Hutto, Richard L. 1991. Bird populations in logged and unlogged western larch/Douglas-fire forest in northwestern Montana. Res. Pap. INT-442.Ogden, UT: USDA, Forest Service, Intermountain Research Station. 12 p.
+
+Study Location: northwestern Montana
+Habitat Description: LAOC cover type; includes ABLA, LAOC, PSME, PIEN, PICO, BEPA, aspen, cottonwood
+Summary: Populations of 10 breeding bird species were monitored in harvested and immediately adjacent uncut areas. A number of species were more abundant in harvested areas. Responses by feeding and nesting guilds are also included. Foliage-foraging species and tree gleaners were less abundant in harvested areas, while flycatching and ground foragers were more common there. Conifer tree-nesting species were least abundant in clearcuts, while ground nesters were more common within the cutover habitats.Management recommendations are made, including the retention of broadleaf trees within cutting units and investigating the importance of slash piles in logged habitat. Slash piles were used by winter wrens, Townsend's solitaires, and dark-eyed juncos as perches, food sources, or nest sites.
+
+Verner, Jared. 1980. Bird communities of mixed-conifer forests of the Sierra Nevada. In Management of western forests and grasslands for nongame birds: workshop proceedings. February 11-14, 1980, Salt Lake City, UT. USDA Forest Service Gen. Tech. Rep. INT-86, Ogden, UT. pp 198-223.
+
+Study Location: Sierra Nevada of California
+Habitat Description: ABCO/LIDE/PILA/PIPO/PSME
+Summary: Breeding bird species are predicted for the various habitat stages of mixed-conifer forest in the Sierra Nevada. Habitat is broken into groups based on tree size (exact diameters not given) and canopy closure. Relative suitability of habitats is listed; optimal habitat only was entered in this database. This species-habitat matrix was made from data from various studies in the region. Predictions were more accurate for later seral stages than early. Forest management in regards to bird communities is discussed, emphasizing the importance of late seral stages for breeding birds in the study region.
+

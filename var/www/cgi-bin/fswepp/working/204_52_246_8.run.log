@@ -1,0 +1,397 @@
+WE	wepp-146225	"06:59 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	20	forest	20	30	10	300	m			ft
+WE	wepp-146429	"07:01 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	20	forest	5	10	3	600	l			ft
+WE	wepp-146571	"07:01 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	20	forest	30	30	20	500	l			ft
+WE	wepp-146685	"07:01 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	20	forest	50	50	60	300	l			ft
+WE	wepp-146800	"07:01 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	20	forest	70	70	70	150	l			ft
+WE	wepp-146914	"07:02 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	20	forest	90	90	90	75	l			ft
+WE	wepp-147028	"07:02 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	20	range	5	10	3	600	l	15	75	ft
+WE	wepp-147143	"07:02 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	20	range	30	30	20	500	l	15	75	ft
+WE	wepp-147258	"07:02 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	20	range	50	50	60	300	l	15	75	ft
+WE	wepp-147372	"07:02 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	20	range	70	70	70	150	l	15	75	ft
+WE	wepp-147486	"07:03 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	20	chap	5	10	3	600	l	80	0	ft
+WE	wepp-147600	"07:03 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	20	chap	30	30	20	500	l	80	0	ft
+WE	wepp-147714	"07:03 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	20	chap	50	50	60	300	l	80	0	ft
+WE	wepp-147830	"07:03 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	20	chap	70	70	70	150	l	80	0	ft
+WE	wepp-147944	"07:03 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	20	chap	90	90	90	75	l	80	0	ft
+WE	wepp-148058	"07:03 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	50	forest	5	10	3	600	l			ft
+WE	wepp-148172	"07:04 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	50	forest	30	30	20	500	l			ft
+WE	wepp-148286	"07:04 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	50	forest	50	50	60	300	l			ft
+WE	wepp-148401	"07:04 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	50	forest	70	70	70	150	l			ft
+WE	wepp-148515	"07:04 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	50	forest	90	90	90	75	l			ft
+WE	wepp-148629	"07:04 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	50	range	5	10	3	600	l	15	75	ft
+WE	wepp-148743	"07:04 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	50	range	30	30	20	500	l	15	75	ft
+WE	wepp-148868	"07:05 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	50	range	50	50	60	300	l	15	75	ft
+WE	wepp-148982	"07:05 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	50	range	70	70	70	150	l	15	75	ft
+WE	wepp-149097	"07:05 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	50	range	90	90	90	75	l	15	75	ft
+WE	wepp-149211	"07:05 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	50	chap	5	10	3	600	l	80	0	ft
+WE	wepp-149325	"07:05 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	50	chap	30	30	20	500	l	80	0	ft
+WE	wepp-149439	"07:05 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	50	chap	50	50	60	300	l	80	0	ft
+WE	wepp-149553	"07:06 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	50	chap	70	70	70	150	l	80	0	ft
+WE	wepp-149753	"07:06 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	5	forest	5	10	3	600	l			ft
+WE	wepp-149874	"07:06 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	5	forest	30	30	20	500	l			ft
+WE	wepp-149992	"07:06 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	5	forest	50	50	60	300	l			ft
+WE	wepp-150132	"07:06 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	5	forest	70	70	70	150	l			ft
+WE	wepp-150279	"07:07 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	5	forest	90	90	90	75	l			ft
+WE	wepp-150398	"07:07 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	5	range	5	10	3	600	l	15	75	ft
+WE	wepp-150517	"07:07 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	5	range	30	30	20	500	l	15	75	ft
+WE	wepp-150634	"07:07 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	5	range	50	50	60	300	l	15	75	ft
+WE	wepp-150752	"07:07 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	5	range	70	70	70	150	l	15	75	ft
+WE	wepp-150870	"07:07 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	5	range	90	90	90	75	l	15	75	ft
+WE	wepp-150986	"07:08 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	5	chap	5	10	3	600	l	80	0	ft
+WE	wepp-151104	"07:08 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	5	chap	30	30	20	500	l	80	0	ft
+WE	wepp-151223	"07:08 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	5	chap	50	50	60	300	l	80	0	ft
+WE	wepp-151341	"07:08 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	5	chap	70	70	70	150	l	80	0	ft
+WE	wepp-151491	"07:08 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	5	chap	90	90	90	75	l	80	0	ft
+WE	wepp-151607	"07:08 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	20	forest	5	10	3	600	l			ft
+WE	wepp-151736	"07:09 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	20	forest	30	30	20	500	l			ft
+WE	wepp-151854	"07:09 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	20	forest	50	50	60	300	l			ft
+WE	wepp-151973	"07:09 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	20	forest	70	70	70	150	l			ft
+WE	wepp-152089	"07:09 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	20	forest	90	90	90	75	l			ft
+WE	wepp-152207	"07:09 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	20	range	5	10	3	600	l	15	75	ft
+WE	wepp-152325	"07:09 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	20	range	30	30	20	500	l	15	75	ft
+WE	wepp-152454	"07:10 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	20	range	50	50	60	300	l	15	75	ft
+WE	wepp-152577	"07:10 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	20	range	70	70	70	150	l	15	75	ft
+WE	wepp-152844	"07:10 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	20	chap	5	10	3	600	l	80	0	ft
+WE	wepp-152962	"07:10 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	20	chap	30	30	20	500	l	80	0	ft
+WE	wepp-153081	"07:10 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	20	chap	50	50	60	300	l	80	0	ft
+WE	wepp-153235	"07:11 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	20	chap	70	70	70	150	l	80	0	ft
+WE	wepp-153354	"07:11 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	20	chap	90	90	90	75	l	80	0	ft
+WE	wepp-153474	"07:11 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	50	forest	5	10	3	600	l			ft
+WE	wepp-153595	"07:11 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	50	forest	30	30	20	500	l			ft
+WE	wepp-153713	"07:11 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	50	forest	50	50	60	300	l			ft
+WE	wepp-153831	"07:11 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	50	forest	70	70	70	150	l			ft
+WE	wepp-153954	"07:12 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	50	forest	90	90	90	75	l			ft
+WE	wepp-154072	"07:12 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	50	range	5	10	3	600	l	15	75	ft
+WE	wepp-154190	"07:12 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	50	range	30	30	20	500	l	15	75	ft
+WE	wepp-154308	"07:12 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	50	range	50	50	60	300	l	15	75	ft
+WE	wepp-154426	"07:12 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	50	range	70	70	70	150	l	15	75	ft
+WE	wepp-154592	"07:12 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	50	range	90	90	90	75	l	15	75	ft
+WE	wepp-154712	"07:13 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	50	chap	5	10	3	600	l	80	0	ft
+WE	wepp-154831	"07:13 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	50	chap	30	30	20	500	l	80	0	ft
+WE	wepp-154953	"07:13 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	50	chap	50	50	60	300	l	80	0	ft
+WE	wepp-155071	"07:13 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	50	chap	70	70	70	150	l	80	0	ft
+WE	wepp-155188	"07:13 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	50	chap	90	90	90	75	l	80	0	ft
+WE	wepp-155307	"07:13 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	5	forest	5	10	3	600	l			ft
+WE	wepp-155428	"07:14 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	5	forest	30	30	20	500	l			ft
+WE	wepp-155547	"07:14 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	5	forest	50	50	60	300	l			ft
+WE	wepp-155664	"07:14 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	5	forest	70	70	70	150	l			ft
+WE	wepp-155917	"07:14 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	5	forest	90	90	90	75	l			ft
+WE	wepp-156097	"07:14 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	5	range	5	10	3	600	l	15	75	ft
+WE	wepp-156224	"07:15 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	5	range	30	30	20	500	l	15	75	ft
+WE	wepp-156342	"07:15 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	5	range	50	50	60	300	l	15	75	ft
+WE	wepp-156461	"07:15 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	5	range	70	70	70	150	l	15	75	ft
+WE	wepp-156580	"07:15 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	5	range	90	90	90	75	l	15	75	ft
+WE	wepp-156698	"07:15 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	5	chap	5	10	3	600	l	80	0	ft
+WE	wepp-156817	"07:15 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	5	chap	30	30	20	500	l	80	0	ft
+WE	wepp-156937	"07:16 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	5	chap	50	50	60	300	l	80	0	ft
+WE	wepp-157056	"07:16 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	silt	20	forest	30	30	20	500	l			ft
+WE	wepp-157177	"07:16 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	silt	20	forest	50	50	60	300	l			ft
+WE	wepp-157330	"07:16 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	silt	20	forest	70	70	70	150	l			ft
+WE	wepp-157451	"07:16 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	silt	20	range	5	10	3	600	l	15	75	ft
+WE	wepp-157570	"07:16 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	silt	20	range	30	30	20	500	l	15	75	ft
+WE	wepp-157691	"07:17 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	silt	20	range	50	50	60	300	l	15	75	ft
+WE	wepp-157807	"07:17 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	silt	20	range	70	70	70	150	l	15	75	ft
+WE	wepp-157927	"07:17 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	silt	20	range	90	90	90	75	l	15	75	ft
+WE	wepp-158045	"07:17 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	silt	20	chap	5	10	3	600	l	80	0	ft
+WE	wepp-158163	"07:17 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	silt	20	chap	30	30	20	500	l	80	0	ft
+WE	wepp-158281	"07:18 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	silt	20	chap	50	50	60	300	l	80	0	ft
+WE	wepp-158475	"07:18 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	silt	20	chap	70	70	70	150	l	80	0	ft
+WE	wepp-158591	"07:18 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	silt	50	forest	5	10	3	600	l			ft
+WE	wepp-158710	"07:18 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	silt	50	forest	30	30	20	500	l			ft
+WE	wepp-158828	"07:18 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	silt	50	forest	50	50	60	300	l			ft
+WE	wepp-158949	"07:18 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	silt	50	forest	70	70	70	150	l			ft
+WE	wepp-159069	"07:19 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	silt	50	forest	90	90	90	75	l			ft
+WE	wepp-159186	"07:19 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	silt	5	forest	5	10	3	600	l			ft
+WE	wepp-159305	"07:19 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	silt	5	forest	30	30	20	500	l			ft
+WE	wepp-159424	"07:19 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	silt	5	forest	50	50	60	300	l			ft
+WE	wepp-159544	"07:19 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	silt	5	forest	70	70	70	150	l			ft
+WE	wepp-159665	"07:19 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	silt	5	forest	90	90	90	75	l			ft
+WE	wepp-159794	"07:20 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	silt	5	range	5	10	3	600	l	15	75	ft
+WE	wepp-159914	"07:20 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	silt	5	range	30	30	20	500	l	15	75	ft
+WE	wepp-160034	"07:20 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	silt	5	range	50	50	60	300	l	15	75	ft
+WE	wepp-160153	"07:20 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	silt	5	range	70	70	70	150	l	15	75	ft
+WE	wepp-160272	"07:20 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	silt	5	range	90	90	90	75	l	15	75	ft
+WE	wepp-160390	"07:20 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	silt	5	chap	5	10	3	600	l	80	0	ft
+WE	wepp-160509	"07:21 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	silt	5	chap	30	30	20	500	l	80	0	ft
+WE	wepp-160628	"07:21 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	silt	5	chap	50	50	60	300	l	80	0	ft
+WE	wepp-160747	"07:21 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	silt	5	chap	70	70	70	150	l	80	0	ft
+WE	wepp-160870	"07:21 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	silt	5	chap	90	90	90	75	l	80	0	ft
+WE	wepp-161016	"07:21 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	sand	50	chap	5	10	3	600	l	80	0	ft
+WE	wepp-161134	"07:22 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	sand	50	chap	30	30	20	500	l	80	0	ft
+WE	wepp-161250	"07:22 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	sand	5	forest	5	10	3	600	l			ft
+WE	wepp-161369	"07:22 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	sand	5	forest	30	30	20	500	l			ft
+WE	wepp-161487	"07:22 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	sand	5	forest	50	50	60	300	l			ft
+WE	wepp-161618	"07:22 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	sand	5	forest	70	70	70	150	l			ft
+WE	wepp-161734	"07:23 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	sand	5	forest	90	90	90	75	l			ft
+WE	wepp-161852	"07:23 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	sand	5	range	5	10	3	600	l	15	75	ft
+WE	wepp-161989	"07:23 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	sand	5	range	30	30	20	500	l	15	75	ft
+WE	wepp-162107	"07:23 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	sand	5	range	50	50	60	300	l	15	75	ft
+WE	wepp-162223	"07:23 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	sand	5	range	70	70	70	150	l	15	75	ft
+WE	wepp-162341	"07:23 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	20	forest	5	10	3	600	l			ft
+WE	wepp-162459	"07:24 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	20	forest	30	30	20	500	l			ft
+WE	wepp-162575	"07:24 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	20	forest	50	50	60	300	l			ft
+WE	wepp-162694	"07:24 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	20	forest	70	70	70	150	l			ft
+WE	wepp-162812	"07:24 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	20	forest	90	90	90	75	l			ft
+WE	wepp-162930	"07:24 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	20	range	5	10	3	600	l	15	75	ft
+WE	wepp-163048	"07:24 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	20	range	30	30	20	500	l	15	75	ft
+WE	wepp-163207	"07:25 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	20	range	50	50	60	300	l	15	75	ft
+WE	wepp-163325	"07:25 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	20	chap	5	10	3	600	l	80	0	ft
+WE	wepp-163444	"07:25 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	20	chap	30	30	20	500	l	80	0	ft
+WE	wepp-163562	"07:25 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	20	chap	50	50	60	300	l	80	0	ft
+WE	wepp-163689	"07:25 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	20	chap	70	70	70	150	l	80	0	ft
+WE	wepp-163814	"07:26 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	20	chap	90	90	90	75	l	80	0	ft
+WE	wepp-163932	"07:26 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	50	forest	5	10	3	600	l			ft
+WE	wepp-164066	"07:26 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	50	forest	30	30	20	500	l			ft
+WE	wepp-164191	"07:26 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	50	forest	50	50	60	300	l			ft
+WE	wepp-164307	"07:26 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	50	forest	70	70	70	150	l			ft
+WE	wepp-164425	"07:26 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	50	forest	90	90	90	75	l			ft
+WE	wepp-164543	"07:27 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	50	range	5	10	3	600	l	15	75	ft
+WE	wepp-164661	"07:27 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	50	range	30	30	20	500	l	15	75	ft
+WE	wepp-164780	"07:27 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	50	range	50	50	60	300	l	15	75	ft
+WE	wepp-164896	"07:27 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	50	range	70	70	70	150	l	15	75	ft
+WE	wepp-165015	"07:27 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	5	forest	5	10	3	600	l			ft
+WE	wepp-165133	"07:28 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	5	forest	30	30	20	500	l			ft
+WE	wepp-165251	"07:28 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	5	forest	50	50	60	300	l			ft
+WE	wepp-165370	"07:28 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	5	forest	70	70	70	150	l			ft
+WE	wepp-165491	"07:28 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	5	forest	90	90	90	75	l			ft
+WE	wepp-165637	"07:28 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	5	range	5	10	3	600	l	15	75	ft
+WE	wepp-165756	"07:28 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	5	range	30	30	20	500	l	15	75	ft
+WE	wepp-165877	"07:29 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	5	range	50	50	60	300	l	15	75	ft
+WE	wepp-166023	"07:29 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	5	range	70	70	70	150	l	15	75	ft
+WE	wepp-166143	"07:29 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	5	range	90	90	90	75	l	15	75	ft
+WE	wepp-166261	"07:29 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	5	chap	5	10	3	600	l	80	0	ft
+WE	wepp-166377	"07:29 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	5	chap	30	30	20	500	l	80	0	ft
+WE	wepp-166512	"07:30 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	5	chap	50	50	60	300	l	80	0	ft
+WE	wepp-166630	"07:30 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	5	chap	70	70	70	150	l	80	0	ft
+WE	wepp-166749	"07:30 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	5	chap	90	90	90	75	l	80	0	ft
+WE	wepp-166867	"07:30 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	20	forest	5	10	3	600	l			ft
+WE	wepp-166983	"07:30 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	20	forest	30	30	20	500	l			ft
+WE	wepp-167102	"07:30 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	20	forest	50	50	60	300	l			ft
+WE	wepp-167220	"07:31 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	20	forest	70	70	70	150	l			ft
+WE	wepp-167338	"07:31 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	20	forest	90	90	90	75	l			ft
+WE	wepp-167456	"07:31 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	20	range	5	10	3	600	l	15	75	ft
+WE	wepp-167574	"07:31 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	20	range	30	30	20	500	l	15	75	ft
+WE	wepp-167692	"07:31 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	20	range	50	50	60	300	l	15	75	ft
+WE	wepp-167808	"07:31 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	20	chap	5	10	3	600	l	80	0	ft
+WE	wepp-167927	"07:32 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	20	chap	30	30	20	500	l	80	0	ft
+WE	wepp-168045	"07:32 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	20	chap	50	50	60	300	l	80	0	ft
+WE	wepp-168164	"07:32 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	20	chap	70	70	70	150	l	80	0	ft
+WE	wepp-168281	"07:32 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	20	chap	90	90	90	75	l	80	0	ft
+WE	wepp-168399	"07:32 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	50	forest	5	10	3	600	l			ft
+WE	wepp-168517	"07:33 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	50	forest	30	30	20	500	l			ft
+WE	wepp-168635	"07:33 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	50	forest	50	50	60	300	l			ft
+WE	wepp-168754	"07:33 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	50	forest	70	70	70	150	l			ft
+WE	wepp-168871	"07:33 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	50	forest	90	90	90	75	l			ft
+WE	wepp-168989	"07:33 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	50	range	30	30	20	500	l	15	75	ft
+WE	wepp-169107	"07:33 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	50	range	50	50	60	300	l	15	75	ft
+WE	wepp-169225	"07:34 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	50	range	70	70	70	150	l	15	75	ft
+WE	wepp-169341	"07:34 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	50	range	90	90	90	75	l	15	75	ft
+WE	wepp-169460	"07:34 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	50	chap	5	10	3	600	l	80	0	ft
+WE	wepp-169578	"07:34 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	50	chap	30	30	20	500	l	80	0	ft
+WE	wepp-169696	"07:34 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	50	chap	50	50	60	300	l	80	0	ft
+WE	wepp-169815	"07:34 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	50	chap	70	70	70	150	l	80	0	ft
+WE	wepp-170018	"07:35 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	50	chap	90	90	90	75	l	80	0	ft
+WE	wepp-170136	"07:35 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	5	forest	5	10	3	600	l			ft
+WE	wepp-170255	"07:35 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	5	forest	30	30	20	500	l			ft
+WE	wepp-170373	"07:35 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	5	forest	50	50	60	300	l			ft
+WE	wepp-170489	"07:35 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	5	forest	70	70	70	150	l			ft
+WE	wepp-170607	"07:36 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	5	forest	90	90	90	75	l			ft
+WE	wepp-170725	"07:36 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	5	range	5	10	3	600	l	15	75	ft
+WE	wepp-170850	"07:36 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	5	range	30	30	20	500	l	15	75	ft
+WE	wepp-170996	"07:36 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	5	range	50	50	60	300	l	15	75	ft
+WE	wepp-171112	"07:36 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	5	range	70	70	70	150	l	15	75	ft
+WE	wepp-171231	"07:37 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	5	range	90	90	90	75	l	15	75	ft
+WE	wepp-171349	"07:37 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	5	chap	5	10	3	600	l	80	0	ft
+WE	wepp-171467	"07:37 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	5	chap	30	30	20	500	l	80	0	ft
+WE	wepp-171584	"07:37 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	5	chap	50	50	60	300	l	80	0	ft
+WE	wepp-171702	"07:37 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	5	chap	70	70	70	150	l	80	0	ft
+WE	wepp-171820	"07:37 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	5	chap	90	90	90	75	l	80	0	ft
+WE	wepp-171938	"07:38 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	silt	20	forest	30	30	20	500	l			ft
+WE	wepp-172054	"07:38 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	silt	20	forest	50	50	60	300	l			ft
+WE	wepp-172173	"07:38 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	silt	20	forest	70	70	70	150	l			ft
+WE	wepp-172291	"07:38 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	silt	20	range	5	10	3	600	l	15	75	ft
+WE	wepp-172410	"07:38 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	silt	20	range	30	30	20	500	l	15	75	ft
+WE	wepp-172526	"07:38 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	silt	20	range	50	50	60	300	l	15	75	ft
+WE	wepp-172675	"07:39 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	silt	20	range	70	70	70	150	l	15	75	ft
+WE	wepp-172793	"07:39 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	silt	20	chap	5	10	3	600	l	80	0	ft
+WE	wepp-172915	"07:39 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	silt	20	chap	30	30	20	500	l	80	0	ft
+WE	wepp-173033	"07:39 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	silt	20	chap	50	50	60	300	l	80	0	ft
+WE	wepp-173150	"07:39 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	silt	20	chap	70	70	70	150	l	80	0	ft
+WE	wepp-173279	"07:40 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	silt	50	forest	5	10	3	600	l			ft
+WE	wepp-173405	"07:40 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	silt	50	forest	30	30	20	500	l			ft
+WE	wepp-173711	"07:40 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	silt	50	forest	50	50	60	300	l			ft
+WE	wepp-173830	"07:40 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	silt	50	forest	70	70	70	150	l			ft
+WE	wepp-173946	"07:40 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	silt	50	forest	90	90	90	75	l			ft
+WE	wepp-174064	"07:40 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	silt	5	forest	5	10	3	600	l			ft
+WE	wepp-174184	"07:41 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	silt	5	forest	30	30	20	500	l			ft
+WE	wepp-174300	"07:41 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	silt	5	forest	50	50	60	300	l			ft
+WE	wepp-174419	"07:41 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	silt	5	forest	70	70	70	150	l			ft
+WE	wepp-174537	"07:41 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	silt	5	forest	90	90	90	75	l			ft
+WE	wepp-174655	"07:41 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	silt	5	range	5	10	3	600	l	15	75	ft
+WE	wepp-174771	"07:41 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	silt	5	range	30	30	20	500	l	15	75	ft
+WE	wepp-174897	"07:42 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	silt	5	range	50	50	60	300	l	15	75	ft
+WE	wepp-175015	"07:42 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	silt	5	range	70	70	70	150	l	15	75	ft
+WE	wepp-175133	"07:42 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	silt	5	range	90	90	90	75	l	15	75	ft
+WE	wepp-175251	"07:42 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	silt	5	chap	5	10	3	600	l	80	0	ft
+WE	wepp-175370	"07:42 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	silt	5	chap	30	30	20	500	l	80	0	ft
+WE	wepp-175486	"07:42 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	silt	5	chap	50	50	60	300	l	80	0	ft
+WE	wepp-175604	"07:43 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	silt	5	chap	70	70	70	150	l	80	0	ft
+WE	wepp-175722	"07:43 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	silt	5	chap	90	90	90	75	l	80	0	ft
+WE	wepp-175839	"07:43 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	sand	5	forest	5	10	3	600	l			ft
+WE	wepp-176076	"07:43 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	sand	5	forest	30	30	20	500	l			ft
+WE	wepp-176270	"07:43 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	sand	5	forest	50	50	60	300	l			ft
+WE	wepp-176388	"07:43 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	sand	5	forest	70	70	70	150	l			ft
+WE	wepp-176510	"07:44 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	sand	5	forest	90	90	90	75	l			ft
+WE	wepp-176657	"07:44 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	sand	5	range	5	10	3	600	l	15	75	ft
+WE	wepp-176775	"07:44 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	sand	5	range	30	30	20	500	l	15	75	ft
+WE	wepp-176891	"07:44 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	sand	5	range	50	50	60	300	l	15	75	ft
+WE	wepp-177009	"07:44 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	sand	5	range	70	70	70	150	l	15	75	ft
+WE	wepp-177224	"07:45 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	sand	5	range	90	90	90	75	l	15	75	ft
+WE	wepp-177452	"07:45 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	20	forest	5	10	3	600	l			ft
+WE	wepp-177571	"07:45 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	20	forest	30	30	20	500	l			ft
+WE	wepp-177687	"07:45 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	20	forest	50	50	60	300	l			ft
+WE	wepp-177805	"07:45 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	20	forest	70	70	70	150	l			ft
+WE	wepp-177924	"07:46 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	20	forest	90	90	90	75	l			ft
+WE	wepp-178042	"07:46 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	20	range	5	10	3	600	l	15	75	ft
+WE	wepp-178158	"07:46 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	20	range	30	30	20	500	l	15	75	ft
+WE	wepp-178277	"07:46 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	20	chap	5	10	3	600	l	80	0	ft
+WE	wepp-178395	"07:46 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	20	chap	30	30	20	500	l	80	0	ft
+WE	wepp-178513	"07:46 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	20	chap	50	50	60	300	l	80	0	ft
+WE	wepp-178630	"07:47 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	20	chap	70	70	70	150	l	80	0	ft
+WE	wepp-178748	"07:47 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	20	chap	90	90	90	75	l	80	0	ft
+WE	wepp-178867	"07:47 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	50	forest	5	10	3	600	l			ft
+WE	wepp-178985	"07:47 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	50	forest	30	30	20	500	l			ft
+WE	wepp-179101	"07:47 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	50	forest	50	50	60	300	l			ft
+WE	wepp-179219	"07:47 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	50	forest	70	70	70	150	l			ft
+WE	wepp-179337	"07:48 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	50	forest	90	90	90	75	l			ft
+WE	wepp-179456	"07:48 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	50	range	5	10	3	600	l	15	75	ft
+WE	wepp-179575	"07:48 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	50	range	30	30	20	500	l	15	75	ft
+WE	wepp-179693	"07:48 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	50	range	50	50	60	300	l	15	75	ft
+WE	wepp-179811	"07:48 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	5	forest	5	10	3	600	l			ft
+WE	wepp-179929	"07:49 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	5	forest	30	30	20	500	l			ft
+WE	wepp-180047	"07:49 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	5	forest	50	50	60	300	l			ft
+WE	wepp-180165	"07:49 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	5	forest	70	70	70	150	l			ft
+WE	wepp-180283	"07:49 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	5	forest	90	90	90	75	l			ft
+WE	wepp-180401	"07:49 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	5	range	5	10	3	600	l	15	75	ft
+WE	wepp-180519	"07:49 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	5	range	30	30	20	500	l	15	75	ft
+WE	wepp-180647	"07:50 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	5	range	50	50	60	300	l	15	75	ft
+WE	wepp-180765	"07:50 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	5	range	70	70	70	150	l	15	75	ft
+WE	wepp-180884	"07:50 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	5	chap	5	10	3	600	l	80	0	ft
+WE	wepp-181002	"07:50 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	5	chap	30	30	20	500	l	80	0	ft
+WE	wepp-181119	"07:50 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	5	chap	50	50	60	300	l	80	0	ft
+WE	wepp-181296	"07:50 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	5	chap	70	70	70	150	l	80	0	ft
+WE	wepp-181425	"07:51 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	5	chap	90	90	90	75	l	80	0	ft
+WE	wepp-181653	"07:51 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	20	forest	5	10	3	600	l			ft
+WE	wepp-181790	"07:51 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	20	forest	30	30	20	500	l			ft
+WE	wepp-181912	"07:51 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	20	forest	50	50	60	300	l			ft
+WE	wepp-182030	"07:51 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	20	forest	70	70	70	150	l			ft
+WE	wepp-182356	"07:52 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	20	forest	90	90	90	75	l			ft
+WE	wepp-182475	"07:52 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	20	range	5	10	3	600	l	15	75	ft
+WE	wepp-182592	"07:52 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	20	range	30	30	20	500	l	15	75	ft
+WE	wepp-182712	"07:52 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	20	range	50	50	60	300	l	15	75	ft
+WE	wepp-182833	"07:52 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	20	chap	5	10	3	600	l	80	0	ft
+WE	wepp-182982	"07:52 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	20	chap	30	30	20	500	l	80	0	ft
+WE	wepp-183101	"07:53 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	20	chap	50	50	60	300	l	80	0	ft
+WE	wepp-183217	"07:53 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	20	chap	70	70	70	150	l	80	0	ft
+WE	wepp-183336	"07:53 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	20	chap	90	90	90	75	l	80	0	ft
+WE	wepp-183454	"07:53 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	50	forest	5	10	3	600	l			ft
+WE	wepp-183573	"07:53 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	50	forest	30	30	20	500	l			ft
+WE	wepp-183691	"07:53 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	50	forest	50	50	60	300	l			ft
+WE	wepp-183807	"07:54 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	50	forest	70	70	70	150	l			ft
+WE	wepp-183926	"07:54 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	50	forest	90	90	90	75	l			ft
+WE	wepp-184045	"07:54 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	50	range	50	50	60	300	l	15	75	ft
+WE	wepp-184163	"07:54 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	50	range	70	70	70	150	l	15	75	ft
+WE	wepp-184281	"07:54 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	50	chap	30	30	20	500	l	80	0	ft
+WE	wepp-184409	"07:55 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	50	chap	50	50	60	300	l	80	0	ft
+WE	wepp-184551	"07:55 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	50	chap	70	70	70	150	l	80	0	ft
+WE	wepp-184689	"07:55 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	50	chap	90	90	90	75	l	80	0	ft
+WE	wepp-184845	"07:55 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	5	forest	5	10	3	600	l			ft
+WE	wepp-184963	"07:55 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	5	forest	30	30	20	500	l			ft
+WE	wepp-185082	"07:55 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	5	forest	50	50	60	300	l			ft
+WE	wepp-185200	"07:56 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	5	forest	70	70	70	150	l			ft
+WE	wepp-185319	"07:56 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	5	forest	90	90	90	75	l			ft
+WE	wepp-185437	"07:56 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	5	range	5	10	3	600	l	15	75	ft
+WE	wepp-185555	"07:56 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	5	range	30	30	20	500	l	15	75	ft
+WE	wepp-185673	"07:56 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	5	range	50	50	60	300	l	15	75	ft
+WE	wepp-185791	"07:56 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	5	range	70	70	70	150	l	15	75	ft
+WE	wepp-185923	"07:57 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	5	range	90	90	90	75	l	15	75	ft
+WE	wepp-186056	"07:57 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	5	chap	5	10	3	600	l	80	0	ft
+WE	wepp-186205	"07:57 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	5	chap	30	30	20	500	l	80	0	ft
+WE	wepp-186323	"07:57 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	5	chap	50	50	60	300	l	80	0	ft
+WE	wepp-186441	"07:57 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	5	chap	70	70	70	150	l	80	0	ft
+WE	wepp-186557	"07:58 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	5	chap	90	90	90	75	l	80	0	ft
+WE	wepp-186675	"07:58 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	silt	20	range	5	10	3	600	l	15	75	ft
+WE	wepp-186794	"07:58 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	silt	20	range	30	30	20	500	l	15	75	ft
+WE	wepp-186913	"07:58 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	silt	20	chap	5	10	3	600	l	80	0	ft
+WE	wepp-187030	"07:58 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	silt	20	chap	30	30	20	500	l	80	0	ft
+WE	wepp-187148	"07:58 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	silt	20	chap	50	50	60	300	l	80	0	ft
+WE	wepp-187266	"07:59 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	silt	20	chap	70	70	70	150	l	80	0	ft
+WE	wepp-187384	"07:59 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	silt	50	forest	5	10	3	600	l			ft
+WE	wepp-187501	"07:59 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	silt	50	forest	30	30	20	500	l			ft
+WE	wepp-187619	"07:59 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	silt	50	forest	50	50	60	300	l			ft
+WE	wepp-187737	"07:59 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	silt	50	forest	70	70	70	150	l			ft
+WE	wepp-187855	"08:00 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	silt	50	forest	90	90	90	75	l			ft
+WE	wepp-187984	"08:00 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	silt	5	forest	5	10	3	600	l			ft
+WE	wepp-188100	"08:00 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	silt	5	forest	30	30	20	500	l			ft
+WE	wepp-188226	"08:00 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	silt	5	forest	50	50	60	300	l			ft
+WE	wepp-188344	"08:00 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	silt	5	forest	70	70	70	150	l			ft
+WE	wepp-188465	"08:00 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	silt	5	forest	90	90	90	75	l			ft
+WE	wepp-188583	"08:01 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	silt	5	range	5	10	3	600	l	15	75	ft
+WE	wepp-188699	"08:01 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	silt	5	range	30	30	20	500	l	15	75	ft
+WE	wepp-188818	"08:01 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	silt	5	range	50	50	60	300	l	15	75	ft
+WE	wepp-188935	"08:01 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	silt	5	range	70	70	70	150	l	15	75	ft
+WE	wepp-189053	"08:01 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	silt	5	range	90	90	90	75	l	15	75	ft
+WE	wepp-189172	"08:01 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	silt	5	chap	5	10	3	600	l	80	0	ft
+WE	wepp-189293	"08:02 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	silt	5	chap	30	30	20	500	l	80	0	ft
+WE	wepp-189411	"08:02 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	silt	5	chap	50	50	60	300	l	80	0	ft
+WE	wepp-189531	"08:02 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	silt	5	chap	70	70	70	150	l	80	0	ft
+WE	wepp-189650	"08:02 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	silt	5	chap	90	90	90	75	l	80	0	ft
+WE	wepp-189766	"08:02 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	sand	5	forest	5	10	3	600	l			ft
+WE	wepp-189993	"08:02 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	sand	5	forest	30	30	20	500	l			ft
+WE	wepp-190201	"08:03 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	sand	5	forest	50	50	60	300	l			ft
+WE	wepp-190330	"08:03 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	sand	5	forest	70	70	70	150	l			ft
+WE	wepp-190450	"08:03 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	sand	5	forest	90	90	90	75	l			ft
+WE	wepp-190567	"08:03 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	sand	5	range	5	10	3	600	l	15	75	ft
+WE	wepp-190686	"08:03 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	sand	5	range	30	30	20	500	l	15	75	ft
+WE	wepp-190804	"08:04 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	sand	5	range	50	50	60	300	l	15	75	ft
+WE	wepp-190923	"08:04 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	sand	5	range	70	70	70	150	l	15	75	ft
+WE	wepp-191045	"08:04 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	sand	5	range	90	90	90	75	l	15	75	ft
+WE	wepp-191162	"08:04 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	20	forest	5	10	3	600	l			ft
+WE	wepp-191281	"08:04 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	20	forest	30	30	20	500	l			ft
+WE	wepp-191399	"08:04 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	20	forest	50	50	60	300	l			ft
+WE	wepp-191530	"08:05 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	20	forest	70	70	70	150	l			ft
+WE	wepp-191646	"08:05 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	20	forest	90	90	90	75	l			ft
+WE	wepp-191770	"08:05 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	20	chap	5	10	3	600	l	80	0	ft
+WE	wepp-191916	"08:05 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	20	chap	30	30	20	500	l	80	0	ft
+WE	wepp-192034	"08:05 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	20	chap	50	50	60	300	l	80	0	ft
+WE	wepp-192152	"08:06 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	20	chap	70	70	70	150	l	80	0	ft
+WE	wepp-192268	"08:06 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	50	forest	5	10	3	600	l			ft
+WE	wepp-192386	"08:06 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	50	forest	30	30	20	500	l			ft
+WE	wepp-192506	"08:06 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	50	forest	50	50	60	300	l			ft
+WE	wepp-192624	"08:06 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	50	forest	70	70	70	150	l			ft
+WE	wepp-192742	"08:06 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	50	forest	90	90	90	75	l			ft
+WE	wepp-192860	"08:07 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	5	forest	5	10	3	600	l			ft
+WE	wepp-192979	"08:07 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	5	forest	30	30	20	500	l			ft
+WE	wepp-193096	"08:07 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	5	forest	50	50	60	300	l			ft
+WE	wepp-193214	"08:07 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	5	forest	70	70	70	150	l			ft
+WE	wepp-193333	"08:07 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	5	forest	90	90	90	75	l			ft
+WE	wepp-193452	"08:07 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	5	range	5	10	3	600	l	15	75	ft
+WE	wepp-193568	"08:08 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	5	range	30	30	20	500	l	15	75	ft
+WE	wepp-193686	"08:08 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	5	chap	5	10	3	600	l	80	0	ft
+WE	wepp-193807	"08:08 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	5	chap	30	30	20	500	l	80	0	ft
+WE	wepp-193928	"08:08 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	5	chap	50	50	60	300	l	80	0	ft
+WE	wepp-194050	"08:08 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	5	chap	70	70	70	150	l	80	0	ft
+WE	wepp-194180	"08:09 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	clay	5	chap	90	90	90	75	l	80	0	ft
+WE	wepp-194298	"08:09 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	20	forest	5	10	3	600	l			ft
+WE	wepp-194417	"08:09 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	20	forest	30	30	20	500	l			ft
+WE	wepp-194550	"08:09 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	20	forest	50	50	60	300	l			ft
+WE	wepp-194723	"08:09 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	20	forest	70	70	70	150	l			ft
+WE	wepp-194841	"08:09 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	20	forest	90	90	90	75	l			ft
+WE	wepp-195002	"08:10 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	20	chap	5	10	3	600	l	80	0	ft
+WE	wepp-195137	"08:10 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	20	chap	30	30	20	500	l	80	0	ft
+WE	wepp-195269	"08:10 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	20	chap	50	50	60	300	l	80	0	ft
+WE	wepp-195387	"08:10 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	20	chap	70	70	70	150	l	80	0	ft
+WE	wepp-195506	"08:10 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	50	forest	5	10	3	600	l			ft
+WE	wepp-195623	"08:11 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	50	forest	30	30	20	500	l			ft
+WE	wepp-195741	"08:11 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	50	forest	50	50	60	300	l			ft
+WE	wepp-195866	"08:11 am  Friday September 18, 2015"	"AUSTIN 3 S OR"	loam	50	forest	70	70	70	150	l			ft

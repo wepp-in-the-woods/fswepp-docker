@@ -1,0 +1,157 @@
+#this files was modified by filegenwhrm.pl on: Wednesday, March 16, 2005.
+#taxgroup Birds species Pygmy nuthatch / Sitta pygmaea
+#
+# Rank
+3,8,2,-99,3
+# Nestsite
+16,1:17,1:18,1:23,1:24,1:25,1:26,1:48,1:52,1:53,1
+# Reprorank
+1,-99:7,-99:5,-99:1,-99:2,-99:1,-99:1,-99:1,-99:1,-99:1,-99
+# Foraging Habitat
+17,1:23,1:24,1:25,1:26:1
+# Habitatrank
+2,-99:1,-99:1,-99:1,-99:1,-99
+# Forage/Prey Availability
+-99
+# Preyrank
+-99
+# Predator Avoidance
+16,1:17,1
+# Avoidrank
+1,-99:1,-99
+# Refugia/Shelter
+16,1:17,1:25,1
+# Shelterrank
+1,-99:2,-99:1,-99
+# Coverrank
+1,-99:2,-99:1,-99
+# Literature
+Distribution
+closely mimics PIPO distribution
+General Habitat
+PIPO forest
+Home or Activity Range
+2.5-5 ac (O'Neil et al. 2001)
+Canopy Cover
+no information available
+Specific Habitat Preferences
+dense foliage, large diameter PIPO, areas with cavities available
+Nestsite Characteristics
+nest in large-diameter trees (53-80 cm dbh), use natural cavities more often than excavate; PIPO snags with broken tops or dead branches, live pines, aspens or oaks
+Foraging Habitat Characteristics
+forage on PIPO trees, use snags as hawking posts
+Diet
+wasps and spittle beetles, ants, beetles, caterpillars, conifer seeds
+Predators
+no information available
+Shelter Habitats
+winter roosts in secondary cavities in snags; spring and summer roosts in PP trunks and branches
+Response to Disturbance
+population lowest 2 years post-fire in response to forest and foliage loss (Johnson and Wauer 1996); favored 4-14 years post-fire as tree foliage recovers (Johnson and Wauer 1996); sensitive to snag removal; decreased post-snag removal; less abundant on treated (logged) plots  (Szaro and Balda 1986); decreased in logged stand where snags were removed (Balda 1975); less abundant in partially cut forest compared to uncut forest (Hejl et al. 1995); not found where mature "yellow" PIPO and snags were absent (Keller 1992); not present on clearcut plots and reduced on severely thinned and irregular strip shelterwood cuts (Szaro and Balda 1979)
+Sources of Information used in the Model
+McEllin 1979, Scott 1979, Cunningham et al. 1980, Hay and Guntert 1983, Scott and Oldemeyer 1983, Horton and Mannan 1988, Li and Martin 1991, Bull and Wales 2001, Laudenslayer 2002 
+General Sources of Background Information
+Balda 1975, reviewed in Scott and Patton 1975, Franzreb and Omhart 1978, McEllin 1979, Scott 1979, Szaro and Balda 1979, Cunningham et al. 1980, Hay and Guntert 1983, Scott and Oldemeyer 1983, Szaro and Balda 1986, Horton and Mannan 1988,  Li and Martin 1991, Keller 1992, Hejl et al. 1995, Johnson and Wauer 1996, reviewed in Bull and Wales 2001, reviewed in Sallabanks et al. 2003
+Summaries of Specific Studies
+
+Balda, Russell P. 1975. The relationship of secondary cavity nesters to snag densities in western coniferous forests. Wildlife Habitat Bulletin No. 1. Albuquerque, NM: USDA Forest Service, Southwestern Region. 37 p.
+
+Study Location: Arizona
+Habitat Description: PIPO
+Summary: The habitat needs and roles of secondary cavity nesters are examined in PIPO forests by compiling information from a variety of studies in Arizona. The density of secondary cavity nesters was determined and their importance in local ecology is addressed. Food guilds are outlined. Territory size and snag foraging behavior are outlined for a few species. The impact of snag removal is also discussed; snag removal resulted in a significant loss of breeding bird diversity as well as a decrease in the in the density of secondary cavity nesters. Species are ranked by their sensitivity to snag removal. Finally, the author outlines minimum snag densities that are appropriate for supporting secondary cavity nesters. The author concludes that 268 snags should be maintained for every 100 acres of forest.
+
+Bull, Evelyn; Wales, Barbara C. 2001. Effects of disturbance on birds of conservation concern in eastern Oregon and Washington. Northwest Science. 75:166-173.
+
+Study Location: eastern Oregon and Washington
+Habitat Description: primarily PIPO
+Summary: The authors review the habitat needs of bird species of concern in eastern Oregon and Washington, focusing on how disturbances (natural and anthropogenic) would alter habitat for these species.
+
+Cunningham, James B.; Balda, Russel P.; Gaud, William S. 1980. Selection and use of snags by secondary cavity-nesting birds of the ponderosa pine forest.  Research Paper RM-222, Fort Collins, CO: USDA Forest Service Rocky Mountain Forest and Range Experiment Station.15 p.
+
+Study Location: Coconino National Forest, Arizona
+Habitat Description: PIPO
+Summary: Snags used by secondary cavity nesters (SCN) in PP forests were evaluated for their characteristics. The majority of used snags were > 60cm dbh, >20 m tall, were mostly covered in bark, had bark near the cavity entrance, and had broken tops. The largest and tallest snags available were chosen. SCNs preferred snags that were dead 5- 20 years ago, with the exception of the pygmy nuthatch that preferred older snags. Snag density accounted for more than half the variability in density of SCNs. Removal of snags in coniferous forests would have a serious negative effect on the density of SCNs.
+
+Franzreb, Kathleen, E.; Ohmart, Robert D. 1978. The effects of timber harvesting on breeding birds in a mixed-coniferous forest. Condor. 80: 431-441.
+
+Study Location: Apache-Sitgreaves National Forest, Arizona
+Habitat Description: PSME and PIPO dominated
+Summary: Birds were significantly more abundant in unlogged plots than modified plots, while composition overlapped. Species richness was more influenced by year than treatment. Birds gleaning on foliage or timber were most adversely affected by logging. Ground or slash foragers were much more abundant in harvested plots. Aerial foragers and most flycatchers were more abundant on logged plots. Cup nesting species were more abundant on unlogged plots.
+
+Hay, Douglas B.; Guntert, Marcel. 1983. Seasonal selection of tree cavities by pygmy nuthatches based on cavity characteristics. In Snag habitat management: proceedings of the symposium. June 7-9, 1983, Flagstaff, AZ. USDA Forest Service Gen. Tech. Rep. RM-GTR-99, Fort Collins, CO. pp 19-23.
+
+Study Location: Coconino County, Arizona
+Habitat Description: PIPO
+Summary: Roost site characteristics, such as tree dbh, tree height, and cavity height, varied by season and use (roost vs. nesting). Nesting cavities were in smaller, shorter trees, which the authors attribute to a response to wind. Seasonal roost placement appear to be related to insolation, convective and radiant heat gains, and air flow.
+
+Hejl, Sallie J.; Hutto, Richard L.; Preston, Charles R.; Finch, Deborah M. 1995. Effects of silvicultural treatments in the Rocky Mountains. In:Martin, Thomas E.; Finch, Deborah M. (eds.). Ecology and Management of Neotropical Migratory Birds. New York, Oxford: Oxford University Press. 220-244.
+
+Study Location: Rocky Mountains
+Habitat Description: forest types across the Rocky mountains
+Summary: Synthesis of the effects of different silvicultural treatments on neotropical migrants in forests of the Rocky Mountains. Outlines current forest structure, natural disturbance, logging history, and current silvicultural recommendations. General bird-habitat relationships in natural forest, including stands of different ages, are contrasted with stands that are silviculturally manipulated. Contains detailed species lists for rare to abundant bird species that are found in 8 forest types commonly found in the Rockies (Table 8-2). Also lists species by their likelihood to be more or less abundant in managed stands (classified as one of three types of clearcuts or partial cuts) compared to uncut forest. (Table 8-3)
+
+Horton, Scott P.; Mannan, R. William. 1988. Effects of prescribed fire on snags and cavity-nesting birds in southeastern Arizona pine forests. Wildlife Society Bulletin. 16: 37-44.
+
+Study Location: Coronado National Forest, southeast Arizona
+Habitat Description: PIPO dominated, also PIST, PSME, QUHY, QUAR
+Summary: This study compared the number and characteristics of snags used by cavity-nesting birds before and after broadcast understory fires in PP stands. Avian species were monitored to investigate their response to prescribed fire. Before the fire, many avian species used large snags (> 50 cm dbh) for cavity nesting, with smaller snags used primarily for foraging. Nearly half of all snags were burned or drastically changed by the prescribed fire. A snag's likelihood to be consumed depended on both dbh and decay class. Few large live trees were killed immediately, leading to a 45% net decrease in snags 1 year post-treatment. Small snags (< 15 cm dbh) increased 20-fold after the treatment. Logs decreased post-treatment. No avian species were lost post-treatment, though northern flickers and violet-green swallows decreased in experimental stands, while mountain chickadees increased. The authors attribute these patterns to changes in prey populations or shifts in areas used in foraging, and not to any limitation in nest sites.
+
+Johnson, Terrell; Wauer, Roland H. 1996. Avifaunal response to the 1977 La Mesa fire. In: Allen, C.D. (tech. ed.) Fire effects in southwestern forests. Proceedings of the second La Mesa fire symposium. Gen. Tech. Rep. RM-GRT-286. Fort Collins, CO: USDA Forest Service, Rocky Mountain Forest and Range Experiment Station. 70-94.
+
+Study Location: Bandelier National Monument, NM
+Habitat Description: PIPO, montane meadow, mixed conifer, pinyon-juniper
+Summary: Breeding birds were surveyed before and for many years after a wildfire in Bandelier National Monument. Species diversity increased after the fire, but breeding populations in general declined for several years before increasing above prefire levels. This pattern was more pronounced on severely burned forest. In all but the severely burned forest, breeding bird diversity and populations were higher than prefire levels 14 years after the wildfire. Patterns are presented for different foraging and nesting guilds, as well as some individual species (including particular habitat changes that impacted bird species).
+
+Keller, Mary E.; Anderson, Stanley H. 1992. Avian use of habitat configurations created by forest cutting in southeastern Wyoming. Condor. 94:55-65.
+
+Study Location: southeastern Wyoming
+Habitat Description: PIEN, ABLA
+Summary: Forest cutting has resulted in an increase in forest edges and reduction in forest continuity. Avian communities in uncut forests and those fragmented by small clearcuts were compared. Overall, stands interrupted by small clearcuts had a similar species composition to paired uncut stands. Brown creepers and hermit thrushes were most negatively impacted by fragmentation, while pine siskins were the most positively influenced by fragmentation. This study also examined how bird species were distributed in relation to forest interiors and edges. Distribution of birds among forest edges and interiors were not consistent with preferences for forest edges and interiors.
+
+Laudenslayer, William F. Jr. 2002. Cavity-nesting bird use of snags in eastside pine forests of northeastern California. USDA Forest Service Gen. Tech. Rep. PSW-GTR-181: 223-236.
+
+Study Location: Modoc and Lassen National forests, northern California
+Habitat Description: PIPO, Jeffrey Pine
+Summary: The snags containing nests of four specific cavity-nesting birds were examined for various features. Snags with nests tended to be larger and taller than random alternative snags. The author also examines historical cavity usage and suggests management implication of snag retention.
+
+Li, Pingjun; Martin, Thomas E. 1991. Nest-site selection and nesting success of cavity-nesting birds in high elevation forest drainages. The Auk. 108: 405-418.
+
+Study Location: central Arizona
+Habitat Description: PIPO, ABCO, PSME, PIST, aspen, Gambel oak
+Summary: Habitat features for successful and unsuccessful nest sites, nest sites vs. random sites, and differences among coexisting species of cavity nesting birds were identified. Species-specific characteristics are presented both for nest site and nest tree; birds differed in some of their habitat preferences. Aspen (mostly dead) were a preferred nesting species and were common in foraging patches, despite their low density in the study area. High density of aspen provides both more nesting sites and protects nests from predation, as predators have to search more sites to find nests. Foraging areas also had more conifers and fewer deciduous trees (other than aspen) than random areas. Preference for conifers is attributed to increased foraging opportunities.Failed nests were surrounded by denser foliage and were closer to conifers. Reduced nest success was also linked to lower nest height. Nonexcavating species had lower nesting success than excavator species. 
+
+McEllin, Shaun M. 1979. Nest sites and population demographics of white-breasted and pygmy nuthatches in Colorado. Condor. 81:348-352.
+
+Study Location: north-central Colorado
+Habitat Description: primarily PIPO interspersed with aspen, also PSME, PICO, PIPU
+Summary: Nest site characteristics are described for sympatric pygmy and white-breasted nuthatches. Pygmy nuthatches always nested in PP snags, while white-breasted nuthatches always nested in live PP. Nestholes for both species were often oriented southwards. The author attributed a higher density of pygmy nuthatches in the study area to a greater abundance of nest sites, higher nest density and a greater variety of nest sites.
+
+Sallabanks, Rex; Marcot, Bruce G.; Riggs, Robert A.; Mehl, Carolyn A.; Arnett, Edward B. 2003. Wildlife of Eastside (Interior) Forests and Woodlands. In Wildlife-Habitat Relationships in Oregon and Washington. Corvallis, OR: Oregon State University Press. pp 213-238.
+
+Study Location: Blue Mountains, OR
+Habitat Description: ABGR
+Summary: This case history (1) evaluates bird-habitat relationships in primarily grand fir forests. The goals of this study were to assess how forest stand structure influences habitat selection by birds, to investigate bird use of specific forest structural classes, and to relate bird habitat use to potential management options that consider breeding bird habitat.
+
+Scott, Virgil E. 1979. Bird response to snag removal in ponderosa pine. Journal of Forestry. January: 26-28.
+
+Study Location: Apache-Sitgreaves National Forest, Arizona
+Habitat Description: PIPO
+Summary: PIPO snags were removed from one stand during a timber harvest. Populations of violet-green swallows and pygmy nuthatches decreased on the plot with snags removed, and either increased or remained stable on control plots or plots where timber was harvested but snags were not removed. Several other bird species showed population changes or shifts, though the patterns were either not significant or were uninterpretable. 
+
+Scott, Virgil E.; Oldemeyer. 1983. Cavity-nesting bird requirements and response to snag cutting in ponderosa pine. In Snag habitat management:proceedings of the symposium. June 7-9, 1983, Flagstaff, AZ. USDA Forest Service Gen. Tech. Rep. RM-GTR-99, Fort Collins, CO. pp 19-23.
+
+Study Location: Apache-Sitgreaves National Forest, Arizona
+Habitat Description: PIPO
+Summary: The requirements of cavity nesting birds were examined, with an emphasis on the impact of logging and snag removal on cavity nesting birds. For nest sites, birds usually selected PIPO snags >18" dbh that had been dead for at least six years and had >40% bark cover. A few species responded to logging and snag removal. The most heavily impacted birds were those that nested in PIPO. The density of cavity nesting birds decreased by 53% on those stands that had been treated. The authors recommend a snag density of 2.6 snags/acre, with snags >19" dbh.
+
+Szaro, Robert C.; Balda, Russell P. 1979. Effects of harvesting ponderosa pine on nongame bird populations. Res. Pap. RM-212. Fort Collins, CO: USDA, Forest Service, Rocky Mountain Forest and Range Experiment Station. 8 p.
+
+Study Location: Coconino National Forest, Arizona
+Habitat Description: PIPO
+Summary: Bird species diversity and species richness were not significantly affected by forest cutting and logging except in a clearcut treatment. Bird population densities significantly increased on silviculturally cut and irregular strip shelterwood plots and significantly decreased  on the severely thinned and clearcut plots. Impact on individual species is discussed. 
+
+Szaro, Robert C.; Balda, Russell P. 1986. Relationships among weather, habitat structure, and ponderosa pine forest birds. Journal of Wildlife Management. 50(2): 253-260.
+
+Study Location: Coconino National Forest, Arizona
+Habitat Description: PIPO
+Summary: Seasonal avian communities were examined for their response to weather condition and treatment (logging) effects. While birds responded to climate, most notably precipitation, treatment effects appeared to be more influential. Species preferring open habitat (rock wren, American robin, western wood pe-wee and western bluebird) were highest on medium and heavy cut stands. Treated stands also had the highest abundance of chipping sparrows, broad-tailed hummingbirds, Grace's warbler, and dark-eyed juncos. Species preferring dense foliage (western flycatcher, pygmy nuthatch, red-faced warbler, hermit thrush, black-headed grosbeak) were less abundant in modified habitats.

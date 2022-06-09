@@ -1,0 +1,16 @@
+WR	wepp-19743	"12:31 pm  Wednesday March 13, 2013"	"FLAGSTAFF WB AP AZ"	30	sand	graveled	820	5	16.4	13.1	50	115	40	20	outrut	ft
+WR	wepp-19790	"12:33 pm  Wednesday March 13, 2013"	"FLAGSTAFF WB AP AZ"	30	sand	graveled	820	5	16.4	13.1	50	115	40	20	outunrut	ft
+WR	wepp-19864	"12:38 pm  Wednesday March 13, 2013"	"FLAGSTAFF WB AP AZ"	30	sand	graveled	820	5	16.4	13.1	50	115	40	20	outunrut	ft
+WD	wepp-20053	"12:45 pm  Wednesday March 13, 2013"	"BIRMINGHAM WB AP AL"	10	clay	Sod	20	40	40	30	20	Sod	20	40	40	30	20	0	ft	""
+WD	wepp-20112	"12:48 pm  Wednesday March 13, 2013"	"BIRMINGHAM WB AP AL"	10	clay	Sod	20	40	40	60	20	Sod	20	40	40	60	20	0	ft	""
+WD	wepp-20164	"12:49 pm  Wednesday March 13, 2013"	"BIRMINGHAM WB AP AL"	10	clay	Sod	20	50	50	30	0	Sod	20	50	50	30	0	0	ft	""
+WD	wepp-20188	"12:49 pm  Wednesday March 13, 2013"	"BIRMINGHAM WB AP AL"	10	clay	Sod	20	50	50	60	0	Sod	20	50	50	60	0	0	ft	""
+WD	wepp-20217	"12:50 pm  Wednesday March 13, 2013"	"CHARLESTON KAN AP WV"	10	clay	Sod	20	50	50	60	0	Sod	20	50	50	60	0	0	ft	""
+WD	wepp-20239	"12:51 pm  Wednesday March 13, 2013"	"CHARLESTON KAN AP WV"	10	clay	Sod	20	50	50	30	0	Sod	20	50	50	30	0	0	ft	""
+WD	wepp-20265	"12:52 pm  Wednesday March 13, 2013"	"CHARLESTON KAN AP WV"	10	clay	Sod	20	50	50	100	0	Sod	20	50	50	100	0	0	ft	""
+WR	wepp-22357	"02:47 pm  Wednesday March 13, 2013"	"FLAGSTAFF WB AP AZ"	30	sand	graveled	250	5	4	4	50	35	40	20	outrut	m
+WR	wepp-22383	"02:48 pm  Wednesday March 13, 2013"	"FLAGSTAFF WB AP AZ"	30	sand	graveled	250	5	4	4	50	35	40	20	outunrut	m
+WD	wepp-22460	"02:51 pm  Wednesday March 13, 2013"	"CHARLESTON KAN AP WV"	10	clay	Sod	50	50	50	30	0	Sod	50	50	50	30	0	0	m	"Treatment 1"
+WD	wepp-22488	"02:53 pm  Wednesday March 13, 2013"	"CHARLESTON KAN AP WV"	10	clay	Sod	20	50	50	30	0	Sod	20	50	50	30	0	0	m	"Treatment 1"
+WD	wepp-22515	"02:54 pm  Wednesday March 13, 2013"	"CHARLESTON KAN AP WV"	10	clay	Sod	20	50	50	60	0	Sod	20	50	50	60	0	0	m	"Treatment 2"
+WD	wepp-22564	"02:54 pm  Wednesday March 13, 2013"	"CHARLESTON KAN AP WV"	10	clay	Sod	20	50	50	100	0	Sod	20	50	50	100	0	0	m	"Treatment 2"

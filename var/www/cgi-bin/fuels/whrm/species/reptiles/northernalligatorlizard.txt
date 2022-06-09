@@ -1,0 +1,66 @@
+#this files was modified by filegenwhrm.pl on: Wednesday, March 16, 2005.
+#taxgroup Reptiles species Northern alligator lizard /  Elgaria coerulea
+#
+# Rank
+2,1,-99,-99,1
+# Nestsite
+4,1:20,-1
+# Reprorank
+1,-99:1,-99
+# Foraging Habitat
+-99
+# Habitatrank
+-99
+# Forage/Prey Availability
+-99
+# Preyrank
+-99
+# Predator Avoidance
+4,1
+# Avoidrank
+1,-99
+# Refugia/Shelter
+4,1
+# Shelterrank
+1,-99
+# Coverrank
+1,-99
+# Literature
+Distribution
+southern British Columbia along Pacific coast to central California, along inner mountains of California
+General Habitat
+chiefly inhabits woodland and forest, but also grassland and sagebrush
+Home or Activity Range
+no information available
+Canopy Cover
+found in areas of low canopy closures- forest clearings (Rutherford and Gregory 2003)
+Specific Habitat Preferences
+cool, damp places; occurs under bark, inside rotten logs, and under rocks and other objects
+Nestsite Characteristics
+live-bearing
+Foraging Habitat Characteristics
+forages on ground, on wood piles, logs, and rocks
+Diet
+beetles, bugs, grasshoppers, termites, moths, crane flies, Hymenoptera, spiders, millipedes, and snails, occasionally takes small birds, mammals, and other lizards
+Predators
+no information available
+Shelter Habitats
+occurs under bark, inside rotten logs, and under rocks and other objects
+Response to Disturbance
+no information available
+Sources of Information used in the Model
+Rutherford and Gregory 2003
+General Sources of Background Information
+Storm and Leonard 1995, Gomez and Anthony 1996, reviewed in O'Neil et al. 2001, Rutherford and Gregory 2003, Stebbins 2003
+Summaries of Specific Studies
+Gomez, D.M.; Anthony, R.G. 1996. Amphibian and reptile abundance in riparian and upslope areas of five forest types in western Oregon. Northwest Science. 70:109-119.
+
+Study Location: central Coast Ranges, Oregon
+Habitat Description: 5 forest types, from young to old PSME (includes TSHE), as well as one deciduous forest type
+Summary: Amphibian and reptile populations were studied in five forest types. Amphibian species richness was the highest in pole stands, followed by old growth. Abundance was highest in the deciduous forest type. Reptile species richness and abundance was highest in the shrub forest type. Stream and upslope habitats were similar in species richness, while more amphibians were caught in stream habitats and more reptiles were caught in upslope habitats. Capture rates for different species are given by forest type.
+
+Rutherford, Pamela L.; Gregory, Patrick T. 2003. Habitat use and movement patterns of northern alligator lizards (Elgaria coerulea) and western skinks (Eumeces skiltonianus) in southeastern British Columbia. Journal of Herpetology. 37(1): 98-106.
+
+Study Location: southeastern British Columbia
+Habitat Description: PIPO, PSME, aspen
+Summary: Northern alligator lizards and western skinks often used the same habitat, and no seasonal migration was observed. Both species were rarely found in the open, hiding more often under rocks than vegetation or logs. They remained close to shrubs and forest edges. Most lizards associated with grass and moss. Northern alligator lizards are associated with clearings.

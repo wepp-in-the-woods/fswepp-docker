@@ -1,0 +1,26 @@
+WD	wepp-18024	"11:00 am  Sunday March 27, 2011"	"ESTES PARK 1N CO"	30	sand	short	50	15	5	40	20	tree20	50	15	5	75	20	0	ft	""
+WD	wepp-18048	"11:00 am  Sunday March 27, 2011"	"ESTES PARK 1N CO"	30	sand	short	50	15	5	40	20	tree20	50	15	5	75	20	0	ft	""
+WD	wepp-18053	"11:02 am  Sunday March 27, 2011"	"ESTES PARK 1N CO"	30	sand	skid	50	15	5	10	20	tree20	50	15	5	65	20	0	ft	""
+WD	wepp-18058	"11:03 am  Sunday March 27, 2011"	"ESTES PARK 1N CO"	30	sand	short	50	15	5	30	20	tree20	50	15	5	65	20	0	ft	""
+WR	wepp-18095	"11:04 am  Sunday March 27, 2011"	""	30	sand	native	500	4	20	15	50	130	25	20	inveg	ft
+WR	wepp-18100	"11:05 am  Sunday March 27, 2011"	""	30	sand	native	500	4	20	15	50	130	25	20	inveg	ft
+WR	wepp-18106	"11:05 am  Sunday March 27, 2011"	""	10	sand	native	500	4	20	15	50	130	25	20	inveg	ft
+WD	wepp-19974	"09:36 am  Tuesday March 29, 2011"	"ESTES PARK 1N CO"	30	clay	tree20	50	0	30	100	20	tree5	50	30	5	100	20	0	ft	""
+WD	wepp-20407	"10:25 am  Tuesday March 29, 2011"	""				0	0	0	0	0		0	0	0	0	0	0		""
+WE	wepp-100822	"02:51 pm  Saturday September 24, 2016"	"DENVER WB AP CO"	clay	20	forest	0	50	30	300	l			m
+WE	wepp-102195	"03:12 pm  Saturday September 24, 2016"	"DENVER WB AP CO"	silt	20	forest	0	50	30	300	l			m
+WE	wepp-102631	"03:15 pm  Saturday September 24, 2016"	"DENVER WB AP CO"	sand	20	forest	0	50	30	300	l			m
+WE	wepp-105062	"05:27 pm  Saturday September 24, 2016"	"DENVER WB AP CO"	clay	20	forest	0	50	30	300	l			m
+WE	wepp-105218	"05:28 pm  Saturday September 24, 2016"	"DENVER WB AP CO"	clay	20	forest	0	50	30	300	l			ft
+WE	wepp-105368	"05:32 pm  Saturday September 24, 2016"	"DENVER WB AP CO"	silt	20	forest	0	50	30	300	l			ft
+WE	wepp-105440	"05:32 pm  Saturday September 24, 2016"	"DENVER WB AP CO"	silt	20	forest	0	50	30	300	l			ft
+WE	wepp-105628	"05:33 pm  Saturday September 24, 2016"	"DENVER WB AP CO"	sand	20	forest	0	50	30	300	l			ft
+WE	wepp-105695	"05:33 pm  Saturday September 24, 2016"	"DENVER WB AP CO"	sand	20	forest	0	50	30	300	l			ft
+WE	wepp-106112	"05:44 pm  Saturday September 24, 2016"	"DENVER WB AP CO"	clay	20	forest	0	50	30	300	l			ft
+WE	wepp-106931	"05:46 pm  Saturday September 24, 2016"	"DENVER WB AP CO"	clay	20	forest	0	50	30	300	m			ft
+WE	wepp-107672	"05:46 pm  Saturday September 24, 2016"	"DENVER WB AP CO"	clay	20	forest	0	50	30	300	h			ft
+WE	wepp-108859	"05:48 pm  Saturday September 24, 2016"	"DENVER WB AP CO"	clay	20	forest	0	50	30	300	u			ft
+WE	wepp-109987	"05:50 pm  Saturday September 24, 2016"	"DENVER WB AP CO"	clay	20	forest	0	50	30	300	l			ft
+WE	wepp-111468	"05:52 pm  Saturday September 24, 2016"	"DENVER WB AP CO"	clay	20	forest	0	50	30	300	m			ft
+WE	wepp-111648	"05:53 pm  Saturday September 24, 2016"	"DENVER WB AP CO"	clay	20	forest	0	50	30	300	h			ft
+WE	wepp-111874	"05:53 pm  Saturday September 24, 2016"	"DENVER WB AP CO"	clay	20	forest	0	50	30	300	u			ft

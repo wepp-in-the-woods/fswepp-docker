@@ -1,0 +1,15 @@
+#
+#	Low traffic road plant scenario for Tahoe Basin model
+#
+lowroad
+Low traffic road
+using Cropland input format
+W. Elliot 9/94
+1	# `landuse' - <Cropland>
+WeppWillSet
+14      23      beinp   2       5       5       0       0.15    0.05    0.006
+0.25    0.1     0.66    0.99    3       0       0.42    0.3
+2	# `mfo' - <Non-fragile>
+0.0074  0.0074  15      0.1     0.06    0.1     0.33    0.05    30      40
+-40	0.1	0
+

@@ -1,0 +1,126 @@
+#this files was modified by filegenwhrm.pl on: Wednesday, March 16, 2005.
+#taxgroup Birds species Olive-sided flycatcher / Nuttallornis borealis
+#
+# Rank
+2,2,4,-99,-99
+# Nestsite
+20,-1:25,1:26,1
+# Reprorank
+1,-99:1,-99:1,-99
+# Foraging Habitat
+3,1:4,1:8,1:13,1:20,-1:21,1:25,1:26,1
+# Habitatrank
+1,-99:1,-99:1,-99:3,-99:1,-99:1,-99:1,-99:1,-99
+# Forage/Prey Availability
+-99
+# Preyrank
+-99
+# Predator Avoidance
+-99
+# Avoidrank
+-99
+# Refugia/Shelter
+-99
+# Shelterrank
+-99
+# Coverrank
+-99
+# Literature
+Distribution
+most of Alaska and Canada and western USA and New England
+General Habitat
+shrub-forest ecotonal habitats; recently burned forest
+Home or Activity Range
+20-110 ac (O'Neil et al. 2001)
+Canopy Cover
+open canopy conditions (Verner 1980 (0-39%), Beedy 1981, Altman and Sallabanks 2000)
+Specific Habitat Preferences
+large trees, 0-39% canopy cover, high-contrast edges, heterogeneous landscapes
+Nestsite Characteristics
+nests in overstory, usually on horizontal branch of conifer; nest lined with lichen, grass, roots, twigs, weeds, and pine needles
+Foraging Habitat Characteristics
+needs exposed perches from which to hawk insects; often uses dead tree tops or snags; the presence of trees or snags significantly taller than surrounding canopy  appears to be a crucial feature
+Diet
+variety of flying insects, especially honey bees and flying ants
+Predators
+eggs and nestlings: gray jay, Douglas squirrel, northern flying squirrel, Stellar's jay, common raven, red squirrels. Adults: accipiter hawks
+Shelter Habitats
+no information available
+Response to Disturbance
+responded positively to single-tree selective logging (Medin and Booth 1989); responded positively to fire (Sallabanks et al. 2003), more abundant in early post-fire conditions (Hutto 1995), favored 2-4 years post-fire as snags fall, wood insects decline (Johnson and Wauer 1996); more abundant in low shrub- and high shrub-stage clearcuts and partial cuts compared to uncut forest (Hejl et al. 1995); found in stands as mature "yellow" PIPO densities increased to 8 trees/acre (Keller 1992); when observed, recorded in thinned and burned PIPO sites but not controls (Woolf 2003); wildfire appeared to negatively effect reproduction, due to reduced food availability (Meehan and George 2003)
+Sources of Information used in the Model
+Verner 1980, Beedy 1981, Altman and Sallabanks 2000, Meehan and George 2003
+General Sources of Background Information
+Verner 1980, Beedy 1981, Medin and Booth 1989, Keller 1992, Hejl et al. 1995, Hutto 1995, reviewed in Hagar et al. 1995, Johnson and Wauer 1996, National Geographic Society 1996, Altman and Sallabanks 2000, Alsop 2001, reviewed in O'Neil et al. 2001, Meehan and George 2003, Sallabanks et al. 2003, Woolf 2003
+Summaries of Specific Studies
+Altman, Bob; Sallabanks, Rex. 2000. Olive-sided flycatcher. 2000. The Birds of North America. 502: 1-27.
+
+Study Location: throughout range
+Habitat Description: variety reviewed
+Summary: Birds of North America species account for the olive-sided flycatcher. Breeds along forest edges and openings, including burns, natural edges of bogs, marshes and open water, semi-open forest, and harvested forest with some structure retained. Both breeding and foraging sites are linked to open canopies. Foraging is accomplished by perching on snags or tall trees and watching for insects.
+
+Beedy, Edward C. 1981. Bird communities and forest structure in the Sierra Nevada of California. Condor. 83: 97-105.
+
+Study Location: central Sierra Nevada
+Habitat Description: mixed conifer (PIJE, PICO, ABCO, CADE) and ABMA stands
+Summary: Bird communities in open- and closed-canopy stands in two forest types were compared. Closed-canopy forest had lower bird densities, diversities, species richness, and consuming biomasses than open-canopy forests in both vegetative zones. With the exception of hummingbirds, all feeding guilds were present on each transect, though the reduction in understory vegetation and forest clearings in closed-canopy forest caused pronounced decreases in three understory guilds as well as in the flycatchers.
+
+Hagar, Joan C. McComb, William; Chambers, Carol C. 1995. Effects of forest practices on wildlife. Chapter 9 In: Beschta, Robert L.; Boyle, James R.; Chambers, Carol C.; Gibson, Wayne P.; Gregory, Stanley V.; Grizzel, Jeffrey; Hagar, Joan C.; Li, Judy, L.; McComb, William C.; Parzybok, Tye W.; Reiter, Maryanne L.; Taylor, George H.; Warila, James E. Cumulative effects of forest practices in Oregon: literature and synthesis. Salem, OR: Oregon Department of Forestry. 145 p.
+
+Study Location: Oregon
+Habitat Description: variety
+Summary: Synthesis of the direct impacts of forest practices on wildlife populations in Oregon. Wildlife habitat and the ecological role of disturbance are theoretically outlined. A gradient approach to habitat is discussed, using the following gradients: edge density and contrast (Table 9.1, 9.3), seral stage (Table 9.4, 9.5), canopy cover (Table 9.6), floristic composition (Table 9.8, 9.10), dead wood (Table 9.11), special habitat features (caves, cliffs, talus) (Table 9.13, 9.14, 9.15), riparian areas (Table 9.17). Species-specific responses to these gradients are reviewed for managed and unmanaged forests. 
+
+Hejl, Sallie J.; Hutto, Richard L.; Preston, Charles R.; Finch, Deborah M. 1995. Effects of silvicultural treatments in the Rocky Mountains. In:Martin, Thomas E.; Finch, Deborah M. (eds.). Ecology and Management of Neotropical Migratory Birds. New York, Oxford: Oxford University Press. 220-244.
+
+Study Location: Rocky Mountains
+Habitat Description: forest types across the Rocky mountains
+Summary: Synthesis of the effects of different silvicultural treatments on neotropical migrants in forests of the Rocky Mountains. Outlines current forest structure, natural disturbance, logging history, and current silvicultural recommendations. General bird-habitat relationships in natural forest, including stands of different ages, are contrasted with stands that are silviculturally manipulated. Contains detailed species lists for rare to abundant bird species that are found in 8 forest types commonly found in the Rockies (Table 8-2). Also lists species by their likelihood to be more or less abundant in managed stands (classified as one of three types of clearcuts or partial cuts) compared to uncut forest. (Table 8-3)
+
+Hutto, R.L. 1995. Composition of bird communities following stand-replacement fires in northern Rocky Mountain (U.S.A) conifer forests. Conservation Biology. 9:1041-1058.
+
+Study Location: western Montana and northern Wyoming
+Habitat Description: range of habitat types: includes PIPO, PSME, LAOC, PICO, PIAL, PIFL, Picea sp,, ABLA, ABGR, THPL, aspen, cottonwood
+Summary: Fifteen bird species are generally more abundant in early post-fire communities than in any other cover type in the northern Rockies (includes olive-sided flycatcher, three-toed woodpecker, black-backed woodpecker, Clark's nutcracker, mountain bluebird, red crossbill, Cassin's finch, pine siskin, American robin, dark-eyed junco, yellow-rumped warbler). Six species (common nighthawk, calliope hummingbird, northern flicker, Stellar's jay, orange-crowned warbler, chipping sparrow) were most abundant in stands 10-40 years post-fire. Three species (American robin, yellow-rumped warbler, dark-eyed junco) were detected in early an mid-successional burned forest 100% of the time. One species, the black-backed woodpecker, was restricted to standing dead forest created by stand-replacing fires. Bird communities are different in recently burned forest, primarily because members of three feeding guilds (woodpeckers, flycatchers, and seedeaters) are especially abundant. Larger-diameter (>10 cm dbh) PP, DF, and LAOC were most often used for feeding by woodpeckers. Standing, fire-killed trees were used by the majority of birds nesting in recently burned forest. Many of the structures used in nesting (broken-topped snags) were present before the fire. Large-scale, stand-replacing fire may be necessary for long-term maintenance of many bird populations. Commentary is offered on the need to alter present fire and post-fire forest management.
+
+Johnson, Terrell; Wauer, Roland H. 1996. Avifaunal response to the 1977 La Mesa fire. In: Allen, C.D. (tech. ed.) Fire effects in southwestern forests. Proceedings of the second La Mesa fire symposium. Gen. Tech. Rep. RM-GRT-286. Fort Collins, CO: USDA Forest Service, Rocky Mountain Forest and Range Experiment Station. 70-94.
+
+Study Location: Bandelier National Monument, NM
+Habitat Description: PIPO, montane meadow, mixed conifer, pinyon-juniper
+Summary: Breeding birds were surveyed before and for many years after a wildfire in Bandelier National Monument. Species diversity increased after the fire, but breeding populations in general declined for several years before increasing above prefire levels. This pattern was more pronounced on severely burned forest. In all but the severely burned forest, breeding bird diversity and populations were higher than prefire levels 14 years after the wildfire. Patterns are presented for different foraging and nesting guilds, as well as some individual species (including particular habitat changes that impacted bird species).
+
+Keller, Richard. 1992. Affect of ponderosa pine overstory and snags on the songbird community, northern Arizona. NO ADDITIONAL INFORMATION- THESIS?
+
+Study Location: Coconino and Kaibab National Forest, northern Arizona
+Habitat Description: PIPO
+Summary: The overstory of mature PIPO forest and the presence of snags influenced bird communities in pole-sized PIPO stands in northern Arizona. Study areas containing pure pole-sized trees and no snags had the lowest numbers of insectivorous birds; study areas with the most insectivorous bird diversity contained at least 14 mature PIPO trees/acre and at least 2 snags/acre. The greatest number of birds were detected in stands containing 8-10 mature PIPO trees/acre and no snags. PIPO overstory also influenced both coniferous forest-nesting birds and primary cavity-nesting birds. The presence of snags influenced secondary cavity-nesters. Overall, this study suggests that a homogenous forest of young PIPO stands lacking in snags is not desirable for maintaining healthy bird species diversity.
+
+Medin, Dean E.; Booth, Gordon D. 1989. Responses of birds and small mammals to single-tree selection logging in Idaho. Res. Pap. INT-408/ Ogden, UT: USDA Forest Service, Intermountain Research Station. 11p.
+
+Study Location: Idaho
+Habitat Description: PSME, PIPO
+Summary: Populations of birds and small mammals were monitored in conjunction with a single-tree selection logging operation. Total numbers of breeding birds remained relatively stable, but some individual species responded either positively or negatively to the treatment. Timber gleaners were the only feeding guild adversely affected by the logging treatment. Secondary cavity nesters were the only nesting guild adversely affected by the logging treatment. The most notable small mammal response was the positive response of yellow-pine chipmunks to the treatment. Fewer deer mice were found in the treatment area.
+
+Meehan, Timothy; George, T. Luke. 2003. Short-term effects of moderate- to high-severity wildfire on a disturbance-dependent flycatcher in northwest California. The Auk. 120(4): 1102-1113.
+
+Study Location: northwestern California
+Habitat Description: not stated
+Summary: To investigate the short-term impact of wildfire on olive-sided flycatchers, nest loss, foraging rates, and aerial arthropod biomass were compared in burned and unburned forests. The majority of territories were in or adjacent to early seral patches. Although olive-sided flycatchers occupied recently burned forest, fire appeared to have negative effects on reproduction, related to reduced food availability. However, the authors suggest that the regeneration of shrubs, seedlings, and forbs that occur at a longer temporal scale than that studied would eventually provide beneficial foraging habitat.
+
+Sallabanks, Rex; Marcot, Bruce G.; Riggs, Robert A.; Mehl, Carolyn A.; Arnett, Edward B. 2003. Wildlife of Eastside (Interior) Forests and Woodlands. In Wildlife-Habitat Relationships in Oregon and Washington. Corvallis, OR: Oregon State University Press. pp 213-238.
+
+Study Location: Blue Mountains, OR
+Habitat Description: PICO
+Summary: This case history (4) outlines the key habitat-wildlife relationships in the LP forests of the central Oregon Pumice Zone. Areas of focus include the American marten and forest songbirds. The impact of salvage logging is discussed for some bird species.
+
+Verner, Jared. 1980. Bird communities of mixed-conifer forests of the Sierra Nevada. In Management of western forests and grasslands for nongame birds: workshop proceedings. February 11-14, 1980, Salt Lake City, UT. USDA Forest Service Gen. Tech. Rep. INT-86, Ogden, UT. pp 198-223.
+
+Study Location: Sierra Nevada of California
+Habitat Description: ABCO/LIDE/PILA/PIPO/PSME
+Summary: Breeding bird species are predicted for the various habitat stages of mixed-conifer forest in the Sierra Nevada. Habitat is broken into groups based on tree size (exact diameters not given) and canopy closure. Relative suitability of habitats is listed; optimal habitat only was entered in this database. This species-habitat matrix was made from data from various studies in the region. Predictions were more accurate for later seral stages than early. Forest management in regards to bird communities is discussed, emphasizing the importance of late seral stages for breeding birds in the study region.
+
+Woolf, Jennifer. 2003. The effects of thinning and prescribed fire on birds, small mammals, and avian species composition. Missoula, MT: University of Montana. 93 p. M.S. Thesis.
+
+Study Location: western Montana
+Habitat Description: PIPO
+Summary: Stands in western Montana underwent PIPO restoration treatments that included selective tree removal followed by a prescribed burn. Bird and small mammal populations were monitored on these and control sites. While some bird species showed a preference for treated vs. untreated stands, the treatment did not have major effects on avian species composition. The foraging behavior of bark-gleaning birds was also examined on treated vs. untreated sites. Birds selectively foraged on larger trees, with PIPO preferred to PSME in this study area. Thinning and burning is compatible with providing forage substrates for the species in this area, as the encounter rate for bark-gleaners was higher in the treated sites. Small mammal communities changed in both abundance and composition as a result of treatment, with deer mice exhibiting the most positive response to treatment.

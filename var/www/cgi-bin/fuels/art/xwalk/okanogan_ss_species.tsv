@@ -1,0 +1,43 @@
+#Conifer species in Okanogan Subseries arranged by (decreasing) expected percent cover and rated for potential Armillaria impact				
+#Subseries	Species	Role*	Average Expected Cover (%)	Potential Disease Impact
+ColdF/DH	HCLIMAX			
+	PSME	s	19.4	Low
+	PIEN	s/c/C	12	High
+	PICO	s	9.6	Low
+	ABLA	C	7.8	High
+	LAOC	s	5.1	Low
+	PIPO	s	0.7	Low
+	PIAL	s	0.1	Low
+ColdF/DS	LOW			
+	PICO	S	15.6	Low
+	PSME	S	12.9	Low in this subseries
+	PIEN	s/C	6.9	Low in this subseries
+	ABLA	C	5.8	Low in this subseries
+	PIAL	s	2.9	Low in this subseries
+	LAOC	s	0.8	Low
+	PIPO	s	0.1	Low in this subseries
+ColdF/WH	HCLIMAX			
+	PIEN	C	44	High
+	PSME	s	1.2	Low
+	LAOC	s	1	Low
+	PICO	s	0.4	Low
+CoolP/DH	HCLIMAX			
+	PSME	s	3	Low
+	PIPO	s	2	Low
+	LAOC	s	1	Low
+CoolP/DS	LOW			
+	PICO	s	7.5	Low
+	LAOC	s	2.5	Low
+DF/DH	HCLIMAX			
+	PSME	C	23.2	High
+	LAOC	S	17.4	Low
+	PICO	S	11.7	Low
+	PIPO	s	1.5	Low
+DF/DS	LOW			
+	PSME	C	25.8	Low in this subseries
+	PIPO	S	13.7	Low in this subseries
+	LAOC	s	3.4	Low
+	PICO	s	1.6	Low
+	PIAL	s	1.4	Low in this subseries
+	PIEN	c	0.8	Low in this subseries
+	ABLA	c	0.4	Low in this subseries

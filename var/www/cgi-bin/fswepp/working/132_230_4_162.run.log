@@ -1,0 +1,68 @@
+WD	wepp-91880	"06:57 am  Monday October 26, 2015"	"CORVALLIS ST COL OR"	10	silt	YoungForest	100	20	20	100	20	OldForest	10	20	5	100	20	0	m	""
+WD	wepp-91997	"06:58 am  Monday October 26, 2015"	"CORVALLIS ST COL OR"	30	silt	YoungForest	100	20	20	100	20	OldForest	10	20	5	100	20	0	m	""
+WD	wepp-92265	"07:06 am  Monday October 26, 2015"	"CORVALLIS ST COL OR"	30	silt	YoungForest	100	20	20	100	20	OldForest	10	20	5	100	20	0	m	""
+WD	wepp-92602	"07:12 am  Monday October 26, 2015"	"CORVALLIS ST COL OR"	30	silt	Skid	90	20	20	20	20	OldForest	20	20	5	100	20	0	m	""
+WD	wepp-92813	"07:13 am  Monday October 26, 2015"	"CORVALLIS ST COL OR"	30	silt	OldForest	90	20	20	100	20	Skid	20	20	5	20	20	0	m	""
+WD	wepp-92981	"07:14 am  Monday October 26, 2015"	"CORVALLIS ST COL OR"	30	silt	Skid	90	20	20	20	20	OldForest	20	20	5	100	20	0	m	""
+WD	wepp-56482	"00:07 am  Wednesday October 25, 2017"	"EL CAPITAN DAM CA PR1 + +"	10	clay	OldForest	50	0	30	100	20	OldForest	50	30	5	100	20	0	m	""
+WD	wepp-56842	"00:31 am  Wednesday October 25, 2017"	"Freudenstadt + + +"	60	clay	LowFire	50	30	30	85	20	LowFire	50	30	30	85	20	0	m	""
+WD	wepp-56960	"00:33 am  Wednesday October 25, 2017"	"Freudenstadt + + +"	60	clay	LowFire	50	30	30	85	0	LowFire	50	30	30	85	0	0	m	""
+WD	wepp-57023	"00:37 am  Wednesday October 25, 2017"	"Freudenstadt + + +"	60	clay	LowFire	50	30	30	85	0	LowFire	50	30	30	85	0	0	m	""
+WD	wepp-57448	"00:42 am  Wednesday October 25, 2017"	"Freudenstadt + + +"	60	clay	LowFire	90	30	30	85	0	OldForest	10	30	30	100	0	0	m	""
+WD	wepp-57584	"00:43 am  Wednesday October 25, 2017"	"Freudenstadt + + +"	60	clay	LowFire	50	30	30	85	0	OldForest	50	30	30	100	0	0	m	""
+WD	wepp-57674	"00:44 am  Wednesday October 25, 2017"	"Freudenstadt + + +"	60	clay	OldForest	80	30	30	100	0	OldForest	20	30	30	100	0	0	m	""
+WD	wepp-57704	"00:44 am  Wednesday October 25, 2017"	"Freudenstadt + + +"	60	clay	OldForest	80	30	30	80	0	OldForest	20	30	30	100	0	0	m	""
+WD	wepp-57782	"00:45 am  Wednesday October 25, 2017"	"Freudenstadt + + +"	60	clay	YoungForest	80	30	30	100	0	YoungForest	20	30	30	100	0	0	m	""
+WD	wepp-57900	"00:45 am  Wednesday October 25, 2017"	"Freudenstadt + + +"	60	clay	YoungForest	80	30	30	90	0	YoungForest	20	30	30	90	0	0	m	""
+WD	wepp-58077	"00:48 am  Wednesday October 25, 2017"	"Freudenstadt + + + +"	10	clay	Skid	50	30	30	0	0	Skid	50	30	30	0	0	0	m	""
+WD	wepp-58113	"00:48 am  Wednesday October 25, 2017"	"Freudenstadt + + +"	10	clay	Skid	50	30	30	0	0	Skid	50	30	30	0	0	0	m	""
+WD	wepp-58616	"00:55 am  Wednesday October 25, 2017"	"FREUDENSTADT +"	60	clay	Skid	100	20	20	0	0	OldForest	100	20	20	100	0	0	m	""
+WD	wepp-58818	"00:59 am  Wednesday October 25, 2017"	"FREUDENSTADT + +"	60	clay	OldForest	100	20	20	100	0	Skid	10	20	20	0	0	0	m	""
+WD	wepp-58996	"01:03 am  Wednesday October 25, 2017"	"FREUDENSTADT + +"	10	clay	OldForest	50	0	30	100	20	OldForest	50	30	5	100	20	0	m	""
+WD	wepp-59283	"01:23 am  Wednesday October 25, 2017"	"FREUDENSTADT +"	60	clay	Skid	100	20	20	0	0	OldForest	10	20	20	100	0	0	m	""
+WD	wepp-59319	"01:26 am  Wednesday October 25, 2017"	"FREUDENSTADT +"	60	clay	LowFire	100	20	20	85	0	OldForest	10	20	20	100	0	0	m	""
+WD	wepp-59496	"01:28 am  Wednesday October 25, 2017"	"FREUDENSTADT +"	60	clay	Sod	100	20	20	40	0	OldForest	10	20	20	100	0	0	m	""
+WD	wepp-59534	"01:29 am  Wednesday October 25, 2017"	"FREUDENSTADT +"	60	clay	LowFire	100	20	20	85	0	OldForest	10	20	20	100	0	0	m	""
+WD	wepp-59571	"01:30 am  Wednesday October 25, 2017"	"FREUDENSTADT +"	60	clay	Skid	100	20	20	0	0	OldForest	10	20	20	100	0	0	m	""
+WD	wepp-59607	"01:30 am  Wednesday October 25, 2017"	"FREUDENSTADT +"	60	clay	LowFire	100	20	20	85	0	OldForest	10	20	20	100	0	0	m	""
+WD	wepp-59643	"01:31 am  Wednesday October 25, 2017"	"FREUDENSTADT +"	60	clay	Skid	100	20	20	0	0	OldForest	10	20	20	100	0	0	m	""
+WD	wepp-59680	"01:31 am  Wednesday October 25, 2017"	"FREUDENSTADT +"	60	clay	Sod	100	20	20	40	0	OldForest	10	20	20	100	0	0	m	""
+WD	wepp-59723	"01:32 am  Wednesday October 25, 2017"	"FREUDENSTADT +"	60	clay	LowFire	100	20	20	85	0	OldForest	10	20	20	100	0	0	m	""
+WD	wepp-59759	"01:32 am  Wednesday October 25, 2017"	"FREUDENSTADT +"	60	clay	Bunchgrass	100	20	20	60	0	OldForest	10	20	20	100	0	0	m	""
+WD	wepp-59796	"01:33 am  Wednesday October 25, 2017"	"FREUDENSTADT +"	60	clay	Sod	100	20	20	40	0	OldForest	10	20	20	100	0	0	m	""
+WD	wepp-59867	"01:34 am  Wednesday October 25, 2017"	"FREUDENSTADT +"	60	clay	Shrub	100	20	20	80	0	OldForest	10	20	20	100	0	0	m	""
+WD	wepp-59877	"01:35 am  Wednesday October 25, 2017"	"FREUDENSTADT +"	60	clay	YoungForest	100	20	20	100	0	OldForest	10	20	20	100	0	0	m	""
+WD	wepp-59933	"01:36 am  Wednesday October 25, 2017"	"FREUDENSTADT +"	60	clay	YoungForest	100	20	20	100	0	OldForest	10	20	20	100	0	0	m	""
+WD	wepp-60123	"01:44 am  Wednesday October 25, 2017"	"FREUDENSTADT +"	60	clay	HighFire	100	20	20	45	0	OldForest	10	20	20	100	0	0	m	""
+WD	wepp-60177	"01:50 am  Wednesday October 25, 2017"	"FREUDENSTADT +"	60	clay	LowFire	100	20	20	85	0	OldForest	10	20	20	100	0	0	m	""
+WD	wepp-60213	"01:50 am  Wednesday October 25, 2017"	"FREUDENSTADT +"	60	clay	LowFire	100	20	20	85	0	Sod	10	20	20	40	0	0	m	""
+WD	wepp-60248	"01:51 am  Wednesday October 25, 2017"	"FREUDENSTADT +"	60	clay	Sod	100	20	20	40	0	OldForest	10	20	20	100	0	0	m	""
+WD	wepp-60284	"01:52 am  Wednesday October 25, 2017"	"FREUDENSTADT +"	60	clay	LowFire	100	20	20	0	0	OldForest	10	20	20	100	0	0	m	""
+WD	wepp-60320	"01:53 am  Wednesday October 25, 2017"	"FREUDENSTADT +"	60	clay	Bunchgrass	100	20	20	60	0	OldForest	10	20	20	100	0	0	m	""
+WD	wepp-60356	"01:53 am  Wednesday October 25, 2017"	"FREUDENSTADT +"	60	clay	Sod	100	20	20	40	0	OldForest	10	20	20	100	0	0	m	""
+WD	wepp-60393	"01:55 am  Wednesday October 25, 2017"	"FREUDENSTADT +"	60	clay	Sod	100	20	20	40	0	OldForest	10	20	20	100	0	0	m	""
+WD	wepp-60430	"01:56 am  Wednesday October 25, 2017"	"FREUDENSTADT +"	60	clay	Skid	100	20	20	0	0	OldForest	10	20	20	100	0	0	m	""
+WD	wepp-60696	"01:57 am  Wednesday October 25, 2017"	"FREUDENSTADT +"	60	clay	Sod	100	20	20	40	0	OldForest	10	20	20	100	0	0	m	""
+WR	wepp-61102	"02:26 am  Wednesday October 25, 2017"	"FREUDENSTADT +"	60	clay	graveled	60	4	4	5	50	40	25	0	inbare	m
+WR	wepp-61286	"02:27 am  Wednesday October 25, 2017"	"FREUDENSTADT +"	60	clay	graveled	60	4	4	5	50	40	25	0	outunrut	m
+WR	wepp-61405	"02:28 am  Wednesday October 25, 2017"	"FREUDENSTADT +"	60	clay	native	60	4	4	5	50	40	25	0	outunrut	m
+WR	wepp-61506	"02:28 am  Wednesday October 25, 2017"	"FREUDENSTADT +"	60	clay	native	60	4	4	5	50	40	25	0	inbare	m
+WR	wepp-61600	"02:29 am  Wednesday October 25, 2017"	"FREUDENSTADT +"	60	clay	native	60	4	2	5	50	40	25	0	inbare	m
+WR	wepp-61671	"02:29 am  Wednesday October 25, 2017"	"FREUDENSTADT +"	60	clay	native	60	4	2	5	50	40	25	0	outunrut	m
+WR	wepp-61717	"02:30 am  Wednesday October 25, 2017"	"FREUDENSTADT +"	60	silt	native	60	4	2	5	50	40	25	0	outunrut	m
+WR	wepp-61743	"02:30 am  Wednesday October 25, 2017"	"FREUDENSTADT +"	60	silt	native	60	4	2	5	50	40	25	0	inbare	m
+WR	wepp-61906	"02:38 am  Wednesday October 25, 2017"	"FREUDENSTADT +"	60	clay	graveled	60	4	4	5	50	40	25	0	inbare	m
+WR	wepp-61963	"02:38 am  Wednesday October 25, 2017"	"FREUDENSTADT +"	60	clay	graveled	60	4	4	5	50	40	25	0	outrut	m
+WR	wepp-62055	"02:39 am  Wednesday October 25, 2017"	"FREUDENSTADT +"	60	clay	graveled	60	4	4	5	50	40	25	0	outrut	m
+WR	wepp-62127	"02:40 am  Wednesday October 25, 2017"	"FREUDENSTADT +"	60	clay	graveled	60	4	4	5	50	40	25	0	outunrut	m
+WR	wepp-62135	"02:40 am  Wednesday October 25, 2017"	"FREUDENSTADT +"	60	clay	graveled	60	4	2	5	50	40	25	0	outunrut	m
+WR	wepp-62177	"02:40 am  Wednesday October 25, 2017"	"FREUDENSTADT +"	60	clay	graveled	60	4	2	5	50	40	25	0	inbare	m
+WR	wepp-62287	"02:41 am  Wednesday October 25, 2017"	"FREUDENSTADT +"	60	silt	graveled	60	4	2	5	50	40	25	0	inbare	m
+WR	wepp-62359	"02:41 am  Wednesday October 25, 2017"	"FREUDENSTADT +"	60	silt	graveled	60	4	2	5	50	40	25	0	outunrut	m
+WR	wepp-62525	"02:42 am  Wednesday October 25, 2017"	"FREUDENSTADT +"	60	silt	graveled	60	4	4	5	50	40	25	0	outunrut	m
+WR	wepp-62534	"02:42 am  Wednesday October 25, 2017"	"FREUDENSTADT +"	60	silt	graveled	60	4	4	5	50	40	25	0	outrut	m
+WR	wepp-62614	"02:42 am  Wednesday October 25, 2017"	"FREUDENSTADT +"	60	silt	graveled	60	4	4	5	50	40	25	0	inbare	m
+WR	wepp-63186	"02:46 am  Wednesday October 25, 2017"	"FREUDENSTADT +"	60	silt	graveled	60	4	4	5	50	40	25	0	outunrut	m
+WR	wepp-63266	"02:46 am  Wednesday October 25, 2017"	"FREUDENSTADT +"	60	silt	graveled	60	4	4	5	50	40	25	0	outrut	m
+WR	wepp-63470	"02:48 am  Wednesday October 25, 2017"	"FREUDENSTADT +"	60	silt	graveled	60	4	4	5	50	40	25	0	outrut	m
+WR	wepp-63513	"02:48 am  Wednesday October 25, 2017"	"FREUDENSTADT +"	60	clay	graveled	60	4	4	5	50	40	25	0	outrut	m

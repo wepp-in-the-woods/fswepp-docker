@@ -1,0 +1,35 @@
+WR	wepp-53455	"02:16 pm  Wednesday May 2, 2018"	"Mica Creek Watershed Road +"	30	silt	graveled	200	4	13	15	50	1	25	20	inveg	ft
+WR	wepp-53594	"02:19 pm  Wednesday May 2, 2018"	"Mica Creek Watershed Road +"	30	silt	graveled	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-53631	"02:21 pm  Wednesday May 2, 2018"	"Mica Creek Watershed Road +"	30	silt	graveled	200	4	13	15	50	1	25	20	inveg	ft
+WR	wepp-53678	"02:23 pm  Wednesday May 2, 2018"	"Mica Creek Watershed Road +"	30	silt	paved	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-53837	"02:31 pm  Wednesday May 2, 2018"	"Mica Creek Watershed Road +"	30	silt	graveled	200	4	13	15	50	1	25	20	outunrut	ft
+WR	wepp-53894	"02:34 pm  Wednesday May 2, 2018"	"Mica Creek Watershed Road + +"	30	silt	graveled	200	4	13	15	50	1	25	20	outunrut	ft
+WR	wepp-54279	"02:46 pm  Wednesday May 2, 2018"	"Mica Creek Watershed Road +"	30	silt	graveled	200	4	13	15	50	1	25	20	outunrut	ft
+WD	wepp-54326	"02:48 pm  Wednesday May 2, 2018"	"Mica Creek Watershed Road +"	10	silt	OldForest	400	0	30	100	20	OldForest	50	30	5	100	20	0	ft	""
+WD	wepp-54370	"02:50 pm  Wednesday May 2, 2018"	"Mica Creek Watershed Road +"	10	silt	OldForest	400	0	75	100	20	OldForest	50	30	5	100	20	0	ft	""
+WD	wepp-54425	"02:51 pm  Wednesday May 2, 2018"	"Mica Creek Watershed Road +"	10	silt	OldForest	400	0	30	100	20	OldForest	50	30	5	100	20	0	ft	""
+WD	wepp-54502	"02:53 pm  Wednesday May 2, 2018"	"Mica Creek Watershed Road +"	10	silt	Sod	400	0	30	40	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-54615	"02:55 pm  Wednesday May 2, 2018"	"Mica Creek Watershed Road +"	10	silt	Sod	400	0	30	40	20	OldForest	30	30	5	100	20	0	ft	""
+WR	wepp-54857	"03:06 pm  Wednesday May 2, 2018"	"Real Mica Creek +"	30	silt	graveled	200	4	13	15	50	1	25	20	inveg	ft
+WR	wepp-54925	"03:09 pm  Wednesday May 2, 2018"	"Real Mica Creek +"	30	silt	graveled	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-54991	"03:10 pm  Wednesday May 2, 2018"	"Real Mica Creek +"	30	silt	paved	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-55094	"03:12 pm  Wednesday May 2, 2018"	"Real Mica Creek (lower ele) +"	30	silt	graveled	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-55198	"03:16 pm  Wednesday May 2, 2018"	"Real Mica Creek (lower ele) +"	30	silt	graveled	200	4	13	15	50	1	25	20	inveg	ft
+WD	wepp-55277	"03:24 pm  Wednesday May 2, 2018"	"Real Mica Creek +"	10	silt	LowFire	400	0	30	85	20	LowFire	30	30	5	85	20	0	ft	""
+WD	wepp-55342	"03:25 pm  Wednesday May 2, 2018"	"Real Mica Creek +"	10	silt	OldForest	400	0	30	100	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-55414	"03:25 pm  Wednesday May 2, 2018"	"Real Mica Creek +"	10	silt	Sod	400	0	30	40	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-55470	"03:27 pm  Wednesday May 2, 2018"	"Real Mica Creek +"	10	silt	Sod	400	0	30	40	20	OldForest	30	30	5	100	20	0	ft	""
+WD	wepp-55507	"03:28 pm  Wednesday May 2, 2018"	"Real Mica Creek +"	10	silt	Sod	400	0	30	40	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-55550	"03:28 pm  Wednesday May 2, 2018"	"Real Mica Creek +"	10	silt	Sod	400	0	30	40	20	HighFire	75	30	5	45	20	0	ft	""
+WD	wepp-55588	"03:28 pm  Wednesday May 2, 2018"	"Real Mica Creek +"	10	silt	Sod	400	0	30	40	20	OldForest	30	30	5	100	20	0	ft	""
+WD	wepp-55662	"03:29 pm  Wednesday May 2, 2018"	"Real Mica Creek +"	10	silt	LowFire	400	0	30	85	20	LowFire	30	30	5	85	20	0	ft	""
+WD	wepp-55852	"03:31 pm  Wednesday May 2, 2018"	"Real Mica Creek +"	10	silt	HighFire	400	0	30	45	20	HighFire	30	30	5	45	20	0	ft	""
+WD	wepp-55968	"03:33 pm  Wednesday May 2, 2018"	"Real Mica Creek +"	10	silt	OldForest	400	0	30	100	20	HighFire	75	30	5	45	20	0	ft	""
+WD	wepp-56003	"03:34 pm  Wednesday May 2, 2018"	"Real Mica Creek +"	10	silt	HighFire	400	0	30	45	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-56040	"03:34 pm  Wednesday May 2, 2018"	"Real Mica Creek +"	10	silt	HighFire	400	0	30	45	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-56191	"03:36 pm  Wednesday May 2, 2018"	"Real Mica Creek +"	10	silt	HighFire	400	0	30	45	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-56226	"03:36 pm  Wednesday May 2, 2018"	"Real Mica Creek +"	10	silt	HighFire	400	0	30	45	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-56232	"03:36 pm  Wednesday May 2, 2018"	"Real Mica Creek +"	10	silt	HighFire	400	0	30	45	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-56235	"03:36 pm  Wednesday May 2, 2018"	"Real Mica Creek +"	10	silt	HighFire	400	0	30	45	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-56377	"03:41 pm  Wednesday May 2, 2018"	"Real Mica Creek +"	10	silt	LowFire	400	0	30	85	20	LowFire	75	30	5	85	20	0	ft	""
+WD	wepp-56415	"03:41 pm  Wednesday May 2, 2018"	"Real Mica Creek +"	10	silt	HighFire	400	0	30	45	20	HighFire	75	30	5	45	20	0	ft	""

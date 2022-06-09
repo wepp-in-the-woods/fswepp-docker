@@ -1,0 +1,21 @@
+WR	wepp-149527	"12:28 pm  Thursday May 6, 2021"	"BIRMINGHAM WB AP AL"	30	silt	graveled	200	4	13	15	50	1	25	20	inveg	ft
+WR	wepp-149620	"12:30 pm  Thursday May 6, 2021"	"SAINT MARIES ID"	30	silt	graveled	200	4	13	15	50	1	25	20	inveg	ft
+WR	wepp-149790	"12:33 pm  Thursday May 6, 2021"	"SAINT MARIES ID"	30	silt	graveled	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-149879	"12:34 pm  Thursday May 6, 2021"	"SAINT MARIES ID"	30	silt	paved	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-150022	"12:35 pm  Thursday May 6, 2021"	"SAINT MARIES ID"	30	silt	graveled	200	4	13	15	50	1	25	20	outunrut	ft
+WR	wepp-150367	"12:45 pm  Thursday May 6, 2021"	"SAINT MARIES ID +"	30	clay	graveled	200	4	13	15	50	1	25	20	inveg	ft
+WR	wepp-150459	"12:46 pm  Thursday May 6, 2021"	"SAINT MARIES ID +"	30	clay	graveled	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-150553	"12:47 pm  Thursday May 6, 2021"	"SAINT MARIES ID +"	30	clay	paved	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-150653	"12:48 pm  Thursday May 6, 2021"	"SAINT MARIES ID +"	30	clay	graveled	200	4	13	15	50	1	25	20	outunrut	ft
+WR	wepp-150885	"12:49 pm  Thursday May 6, 2021"	"SAINT MARIES ID +"	30	silt	graveled	200	4	13	15	50	1	25	20	outunrut	ft
+WR	wepp-150930	"12:50 pm  Thursday May 6, 2021"	"SAINT MARIES ID +"	30	silt	paved	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-150975	"12:50 pm  Thursday May 6, 2021"	"SAINT MARIES ID +"	30	silt	graveled	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-151048	"12:51 pm  Thursday May 6, 2021"	"SAINT MARIES ID +"	30	silt	graveled	200	4	13	15	50	1	25	20	inveg	ft
+WR	wepp-151110	"12:52 pm  Thursday May 6, 2021"	"SAINT MARIES ID"	30	silt	graveled	200	4	13	15	50	1	25	20	inveg	ft
+WD	wepp-151271	"12:56 pm  Thursday May 6, 2021"	"SAINT MARIES ID +"	10	silt	OldForest	400	0	30	100	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-151472	"12:57 pm  Thursday May 6, 2021"	"SAINT MARIES ID +"	10	silt	Sod	400	0	30	40	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-151603	"12:58 pm  Thursday May 6, 2021"	"SAINT MARIES ID +"	10	silt	Sod	400	0	30	40	20	OldForest	30	30	5	100	20	0	ft	""
+WD	wepp-151685	"12:59 pm  Thursday May 6, 2021"	"SAINT MARIES ID +"	10	silt	LowFire	400	0	30	85	20	LowFire	75	30	5	85	20	0	ft	""
+WD	wepp-151728	"01:00 pm  Thursday May 6, 2021"	"SAINT MARIES ID +"	10	silt	HighFire	400	0	30	45	20	HighFire	75	30	5	45	20	0	ft	""
+WD	wepp-151870	"01:01 pm  Thursday May 6, 2021"	"SAINT MARIES ID +"	10	silt	HighFire	400	0	30	20	20	HighFire	75	30	5	20	20	0	ft	""
+WD	wepp-151933	"01:02 pm  Thursday May 6, 2021"	"SAINT MARIES ID +"	10	silt	OldForest	400	0	30	100	20	Skid	75	30	5	20	20	0	ft	""

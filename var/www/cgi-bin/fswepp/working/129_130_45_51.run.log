@@ -1,0 +1,11 @@
+WR	wepp-1278	"12:34 pm  Tuesday March 12, 2013"	"FLAGSTAFF WB AP AZ"	30	sand	graveled	820.2	5	16.4	13.12	50	114.8	25	20	outrut	ft
+WR	wepp-1285	"12:35 pm  Tuesday March 12, 2013"	"FLAGSTAFF WB AP AZ"	30	sand	graveled	820.2	5	16.4	13.12	50	114.8	25	20	outunrut	ft
+WR	wepp-1354	"12:38 pm  Tuesday March 12, 2013"	"FLAGSTAFF WB AP AZ"	30	sand	graveled	250	5	5	4	50	35	40	20	outrut	m
+WR	wepp-1375	"12:38 pm  Tuesday March 12, 2013"	"FLAGSTAFF WB AP AZ"	30	sand	graveled	250	5	5	4	50	35	40	20	outunrut	m
+wt	wepp-1399	"Mar 12, 2013"	"BIRMINGHAM WB AP AL"	granitic	OldForest	0	30	50	100	20	YoungForest	30	5	50	100	20	m	""
+WD	wepp-1525	"12:45 pm  Tuesday March 12, 2013"	"CHARLESTON KAN AP WV"	10	clay	YoungForest	40	0	50	100	20	YoungForest	40	0	50	100	20	0	m	"Straw "
+WD	wepp-1546	"12:45 pm  Tuesday March 12, 2013"	"CHARLESTON KAN AP WV"	10	clay	YoungForest	40	0	50	100	20	YoungForest	40	0	50	100	20	0	m	"Straw "
+WD	wepp-1589	"12:46 pm  Tuesday March 12, 2013"	"CHARLESTON KAN AP WV"	10	clay	Sod	40	0	50	40	20	Sod	40	0	50	40	20	0	m	"Hydroseed"
+WD	wepp-1609	"12:46 pm  Tuesday March 12, 2013"	"CHARLESTON KAN AP WV"	10	clay	Sod	40	0	50	30	20	Sod	40	0	50	30	20	0	m	"Simple Seeding"
+WD	wepp-1632	"12:47 pm  Tuesday March 12, 2013"	"CHARLESTON KAN AP WV"	10	clay	Sod	40	0	50	100	20	Sod	40	0	50	100	20	0	m	"Simple Seeding"
+WD	wepp-1654	"12:47 pm  Tuesday March 12, 2013"	"CHARLESTON KAN AP WV"	10	clay	Sod	40	0	50	100	20	Sod	40	0	50	100	20	0	m	"straw"

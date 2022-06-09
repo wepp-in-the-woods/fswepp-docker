@@ -1,0 +1,97 @@
+WR	wepp-181363	"04:28 pm  Friday May 19, 2017"	"BIRMINGHAM WB AP AL"	30	sand	native	1000	6	20	15	0.3	1	0.3	30	outrut	ft
+WR	wepp-181399	"04:28 pm  Friday May 19, 2017"	"BIRMINGHAM WB AP AL"	5	sand	native	1000	6	20	15	0.3	1	0.3	30	outrut	ft
+WR	wepp-181436	"04:29 pm  Friday May 19, 2017"	"BIRMINGHAM WB AP AL"	5	sand	native	100	7	20	1	30	1	30	30	outrut	ft
+WR	wepp-181710	"04:35 pm  Friday May 19, 2017"	"Thomes Cr CA (1) +"	30	sand	native	1000	7	20	20	30	1	30	30	inbare	ft
+WR	wepp-181747	"04:37 pm  Friday May 19, 2017"	"Thomes Cr CA (1) +"	5	sand	native	1000	7	20	20	30	1	30	20	inbare	ft
+WR	wepp-181802	"04:43 pm  Friday May 19, 2017"	"Thomes Cr CA (1) +"	5	sand	native	1000	7	20	20	30	1	30	30	inbare	ft
+WR	wepp-181840	"04:45 pm  Friday May 19, 2017"	"Thomes Cr CA (1) +"	5	sand	native	1000	4	20	30	30	1	30	30	inbare	ft
+WR	wepp-181876	"04:46 pm  Friday May 19, 2017"	"Thomes Cr CA (1) +"	5	sand	native	1000	6	20	30	30	1	30	20	inbare	ft
+WR	wepp-181971	"04:46 pm  Friday May 19, 2017"	"Thomes Cr CA (1) +"	30	sand	native	1000	6	20	15	30	1	30	30	inbare	ft
+WR	wepp-182007	"04:47 pm  Friday May 19, 2017"	"Thomes Cr CA (1) +"	5	sand	native	1000	6	20	15	30	1	30	30	inbare	ft
+WR	wepp-182061	"04:54 pm  Friday May 19, 2017"	"Thomes Cr CA (3) +"	5	sand	native	1000	6	22	30	30	1	30	30	inveg	ft
+WR	wepp-182103	"04:57 pm  Friday May 19, 2017"	"Thomes Cr CA (3) +"	5	sand	native	1000	6	22	30	30	1	30	30	inbare	ft
+WR	wepp-182215	"05:01 pm  Friday May 19, 2017"	"Thomes Cr CA (3) +"	5	sand	native	1000	6	20	250	50	1	50	30	inbare	ft
+WE	wepp-182294	"05:16 pm  Friday May 19, 2017"	"Thomes Cr CA (3) +"	sand	20	forest	0	50	30	300	u			ft
+WE	wepp-182440	"05:16 pm  Friday May 19, 2017"	"Thomes Cr CA (3) +"	sand	30	forest	0	50	30	1000	u			ft
+WE	wepp-182534	"05:19 pm  Friday May 19, 2017"	"Thomes Cr CA (3) +"	sand	30	forest	0	50	30	1000	u			ft
+WE	wepp-183045	"06:08 pm  Friday May 19, 2017"	"Thomes Cr CA (Mild Slab-4) +"	sand	30	forest	0	50	30	1000	u			ft
+WE	wepp-183146	"06:10 pm  Friday May 19, 2017"	"Thomes Cr CA (Mild Slab-4) +"	sand	30	forest	0	50	30	1000	u			ft
+WE	wepp-183373	"06:28 pm  Friday May 19, 2017"	"Thomes Cr CA (Mild Slab-4) +"	sand	20	forest	0	50	30	1000	u			ft
+WR	wepp-183970	"07:24 pm  Friday May 19, 2017"	"MOUNT SHASTA CA +"	30	clay	native	200	4	13	15	50	130	25	20	inveg	ft
+WE	wepp-184048	"07:30 pm  Friday May 19, 2017"	"Thomes Cr CA (Mild Slab-4) +"	clay	20	forest	0	50	30	300	l			ft
+WE	wepp-184254	"07:31 pm  Friday May 19, 2017"	"Thomes Cr CA (Mild Slab-4) +"	clay	20	forest	0	50	30	300	l			ft
+WR	wepp-193560	"11:34 am  Saturday May 20, 2017"	"Thomes Cr CA (3) +"	5	sand	native	1000	6	22	30	30	1	30	20	inbare	ft
+WR	wepp-193626	"11:39 am  Saturday May 20, 2017"	"Thomes Cr CA (3) +"	5	sand	native	350	6	22	30	30	30	30	30	outunrut	ft
+WR	wepp-193665	"11:41 am  Saturday May 20, 2017"	"Thomes Cr CA (3) +"	30	sand	native	350	4	22	15	50	30	25	30	outunrut	ft
+WR	wepp-193702	"11:43 am  Saturday May 20, 2017"	"Thomes Cr CA (3) +"	5	sand	native	200	4	22	15	50	130	25	20	outunrut	ft
+WR	wepp-193741	"11:45 am  Saturday May 20, 2017"	"Thomes Cr CA (3) +"	5	sand	native	350	6	22	30	30	30	30	30	outunrut	ft
+WR	wepp-193777	"11:45 am  Saturday May 20, 2017"	"Thomes Cr CA (3) +"	5	sand	native	350	6	22	30	30	30	30	30	outunrut	ft
+WR	wepp-193873	"11:46 am  Saturday May 20, 2017"	"Thomes Cr CA (3) +"	5	sand	native	350	6	22	60	30	60	30	30	outunrut	ft
+WR	wepp-193910	"11:46 am  Saturday May 20, 2017"	"Thomes Cr CA (3) +"	30	sand	native	350	6	22	60	30	120	30	30	outunrut	ft
+WR	wepp-193947	"11:48 am  Saturday May 20, 2017"	"Thomes Cr CA (3) +"	5	sand	native	350	6	22	50	30	120	30	30	outunrut	ft
+WR	wepp-193991	"11:52 am  Saturday May 20, 2017"	"Thomes Cr CA (3) +"	5	sand	native	100	6	22	20	50	230	50	30	inbare	ft
+WR	wepp-194035	"11:54 am  Saturday May 20, 2017"	"Thomes Cr CA (3) +"	5	sand	native	1000	6	20	20	50	230	50	30	inbare	ft
+WR	wepp-194071	"11:54 am  Saturday May 20, 2017"	"Thomes Cr CA (3) +"	5	sand	native	1000	6	20	20	50	230	50	30	inbare	ft
+WR	wepp-194108	"11:58 am  Saturday May 20, 2017"	"Thomes Cr CA (3) +"	5	sand	native	350	6	22	50	30	120	30	30	inbare	ft
+WR	wepp-194146	"11:59 am  Saturday May 20, 2017"	"Thomes Cr CA (3) +"	30	sand	native	350	6	22	50	30	120	30	30	inbare	ft
+WR	wepp-194245	"12:02 pm  Saturday May 20, 2017"	"Thomes Cr CA (3) +"	30	sand	native	350	6	22	50	30	120	30	30	outunrut	ft
+WR	wepp-194291	"12:05 pm  Saturday May 20, 2017"	"Thomes Cr CA (3) +"	30	sand	native	1000	6	22	30	30	230	30	30	inbare	ft
+WR	wepp-194327	"12:06 pm  Saturday May 20, 2017"	"Thomes Cr CA (3) +"	30	sand	native	1000	4	22	30	50	230	25	30	outunrut	ft
+WR	wepp-194379	"12:09 pm  Saturday May 20, 2017"	"Thomes Cr CA (3) +"	30	sand	native	1000	6	22	50	30	1	30	30	inbare	ft
+WR	wepp-194416	"12:11 pm  Saturday May 20, 2017"	"Thomes Cr CA (3) +"	30	sand	native	1000	6	22	250	50	1	50	20	inbare	ft
+WR	wepp-194454	"12:12 pm  Saturday May 20, 2017"	"Thomes Cr CA (3) +"	30	sand	native	1000	6	13	15	50	1	25	30	inbare	ft
+WR	wepp-194554	"12:16 pm  Saturday May 20, 2017"	"Thomes Cr CA (3) +"	30	sand	native	1000	6	22	150	50	1	50	30	inbare	ft
+WR	wepp-194591	"12:16 pm  Saturday May 20, 2017"	"Thomes Cr CA (3) +"	30	sand	native	1000	6	22	250	50	1	50	30	inbare	ft
+WR	wepp-194638	"12:18 pm  Saturday May 20, 2017"	"Thomes Cr CA (3) +"	30	sand	native	1000	6	22	20	50	230	50	30	inbare	ft
+WR	wepp-194676	"12:19 pm  Saturday May 20, 2017"	"Thomes Cr CA (3) +"	30	sand	native	1000	6	22	20	50	230	50	30	outunrut	ft
+WR	wepp-194733	"12:21 pm  Saturday May 20, 2017"	"Thomes Cr CA (3) +"	30	sand	native	500	6	22	20	50	230	50	30	inbare	ft
+WR	wepp-194775	"12:22 pm  Saturday May 20, 2017"	"Thomes Cr CA (3) +"	30	sand	native	500	6	22	20	50	230	50	30	outunrut	ft
+WD	wepp-175808	"05:19 pm  Thursday July 6, 2017"	"EAST PARK RES CA"	10	clay	Skid	207	23	33	45	45	Skid	243	37	26	45	45	0	ft	"Trail 17N84 Current Condition"
+WD	wepp-175845	"05:20 pm  Thursday July 6, 2017"	"Thomes Cr CA (Mild Slab-4) +"	25	clay	Skid	207	23	33	45	45	Skid	243	37	26	45	45	0	ft	"Trail 17N84 Current Condition"
+WD	wepp-175884	"05:23 pm  Thursday July 6, 2017"	"EAST PARK RES CA"	25	sand	Skid	207	23	33	45	45	Skid	243	37	26	45	45	0	ft	""
+WD	wepp-175924	"05:25 pm  Thursday July 6, 2017"	"EAST PARK RES CA"	25	sand	Skid	207	23	33	0	45	Skid	243	37	26	0	45	0	ft	""
+WD	wepp-176028	"05:30 pm  Thursday July 6, 2017"	"EAST PARK RES CA"	25	sand	Shrub	207	23	33	80	45	Shrub	243	37	26	80	45	0	ft	"Trail 17N84 Recovered"
+WD	wepp-176064	"05:31 pm  Thursday July 6, 2017"	"Thomes Cr CA (Mild Slab-4) +"	25	sand	Shrub	207	23	33	80	45	Shrub	243	37	26	80	45	0	ft	"Trail 17N84 Recovered"
+WD	wepp-178269	"11:51 am  Friday August 11, 2017"	"EAST PARK RES CA"	30	sand	Shrub	60	0	10	80	30	Shrub	40	30	5	80	30	0	ft	""
+WR	wepp-178382	"11:56 am  Friday August 11, 2017"	"EAST PARK RES CA"	30	sand	native	75	30	6	1	0.3	1	0.3	20	outrut	ft
+WR	wepp-178420	"11:57 am  Friday August 11, 2017"	"EAST PARK RES CA"	30	sand	native	75	30	6	1	0.3	1	0.3	30	outrut	ft
+WR	wepp-178676	"11:59 am  Friday August 11, 2017"	"EAST PARK RES CA"	30	sand	native	75	30	8	1	0.3	1	0.3	30	inbare	ft
+WR	wepp-178715	"12:01 pm  Friday August 11, 2017"	"EAST PARK RES CA"	30	sand	native	200	4	8	1	0.3	1	0.3	20	inbare	ft
+WR	wepp-178752	"12:01 pm  Friday August 11, 2017"	"EAST PARK RES CA"	30	sand	native	75	4	8	1	0.3	1	0.3	20	inbare	ft
+WR	wepp-178788	"12:02 pm  Friday August 11, 2017"	"EAST PARK RES CA"	30	sand	native	75	4	8	1	0.3	1	0.3	20	inbare	ft
+WR	wepp-178825	"12:02 pm  Friday August 11, 2017"	"EAST PARK RES CA"	30	sand	native	200	4	13	1	0.3	1	0.3	30	outrut	ft
+WR	wepp-178861	"12:02 pm  Friday August 11, 2017"	"EAST PARK RES CA"	30	sand	native	75	30	8	1	0.3	1	0.3	30	outrut	ft
+WR	wepp-178900	"12:03 pm  Friday August 11, 2017"	"EAST PARK RES CA"	30	sand	native	40	20	6	1	0.3	1	0.3	20	outrut	ft
+WR	wepp-178952	"12:06 pm  Friday August 11, 2017"	"EAST PARK RES CA"	30	sand	native	110	30	8	1	0.3	1	0.3	30	outrut	ft
+WR	wepp-179037	"12:14 pm  Friday August 11, 2017"	"EAST PARK RES CA"	30	sand	native	30	10	6	1	0.3	1	0.3	30	outrut	ft
+WD	wepp-179269	"12:29 pm  Friday August 11, 2017"	"EAST PARK RES CA"	10	clay	OldForest	50	0	30	100	20	OldForest	50	30	5	100	20	0	ft	""
+WD	wepp-179307	"12:31 pm  Friday August 11, 2017"	"EAST PARK RES CA"	30	sand	Shrub	60	5	10	60	30	Shrub	40	30	5	80	30	0	ft	""
+WD	wepp-179984	"01:22 pm  Friday August 11, 2017"	"EAST PARK RES CA"	30	sand	Shrub	35	50	20	80	45	Shrub	4	20	1	80	45	0	ft	""
+WR	wepp-50975	"04:04 pm  Wednesday September 13, 2017"	"EAST PARK RES CA"	30	sand	native	500	40	6	1	1	1	1	30	inbare	ft
+WR	wepp-51018	"04:05 pm  Wednesday September 13, 2017"	"EAST PARK RES CA"	30	sand	native	500	40	5	1	1	1	1	45	inbare	ft
+WR	wepp-51054	"04:06 pm  Wednesday September 13, 2017"	"EAST PARK RES CA"	30	sand	native	500	35	5	1	1	1	1	45	inbare	ft
+WR	wepp-51094	"04:06 pm  Wednesday September 13, 2017"	"EAST PARK RES CA"	30	sand	native	500	35	13	1	1	500	10	20	inbare	ft
+WR	wepp-51132	"04:07 pm  Wednesday September 13, 2017"	"EAST PARK RES CA"	30	sand	native	500	35	5	1	1	500	10	45	inbare	ft
+WD	wepp-51207	"04:10 pm  Wednesday September 13, 2017"	"EAST PARK RES CA"	10	sand	Skid	500	35	30	30	30	Shrub	500	10	5	80	60	0	ft	""
+WD	wepp-51250	"04:11 pm  Wednesday September 13, 2017"	"EAST PARK RES CA"	30	sand	Skid	500	35	30	30	30	Shrub	500	10	5	80	60	0	ft	""
+WD	wepp-51288	"04:12 pm  Wednesday September 13, 2017"	"EAST PARK RES CA"	30	sand	Skid	500	45	30	30	30	Shrub	500	30	5	80	65	0	ft	""
+WD	wepp-51452	"04:13 pm  Wednesday September 13, 2017"	"EAST PARK RES CA"	30	sand	Skid	500	45	30	0	30	Shrub	700	30	5	80	65	0	ft	""
+WD	wepp-51938	"04:14 pm  Wednesday September 13, 2017"	"EAST PARK RES CA"	30	sand	Skid	500	45	30	0	35	Shrub	700	30	5	90	65	0	ft	""
+WD	wepp-52061	"04:15 pm  Wednesday September 13, 2017"	"EAST PARK RES CA"	30	sand	Skid	500	45	30	80	35	Shrub	50	30	5	90	65	0	ft	""
+WD	wepp-52456	"04:16 pm  Wednesday September 13, 2017"	"EAST PARK RES CA"	30	clay	Skid	500	45	30	0	35	Shrub	700	10	5	90	65	0	ft	""
+WR	wepp-52645	"04:17 pm  Wednesday September 13, 2017"	"EAST PARK RES CA"	30	sand	native	500	40	5	1	1	500	5	45	outrut	ft
+WR	wepp-52682	"04:17 pm  Wednesday September 13, 2017"	"EAST PARK RES CA"	30	sand	native	500	40	10	1	1	500	5	45	outrut	ft
+WR	wepp-52718	"04:18 pm  Wednesday September 13, 2017"	"EAST PARK RES CA"	30	sand	native	200	4	8	15	50	130	25	20	outrut	ft
+WR	wepp-52757	"04:18 pm  Wednesday September 13, 2017"	"EAST PARK RES CA"	30	sand	native	500	40	8	1	1	500	10	40	outrut	ft
+WR	wepp-52798	"04:19 pm  Wednesday September 13, 2017"	"EAST PARK RES CA"	30	sand	native	500	40	8	1	1	500	10	35	outrut	ft
+WR	wepp-52835	"04:19 pm  Wednesday September 13, 2017"	"EAST PARK RES CA"	30	sand	native	500	4	7	1	1	500	10	35	outrut	ft
+WR	wepp-52873	"04:20 pm  Wednesday September 13, 2017"	"EAST PARK RES CA"	40	sand	native	500	40	7	1	1	500	10	35	outrut	ft
+WD	wepp-54126	"04:26 pm  Wednesday September 13, 2017"	"EAST PARK RES CA"	10	sand	Skid	450	40	30	0	35	Skid	50	30	10	35	35	0	ft	""
+WD	wepp-54169	"04:26 pm  Wednesday September 13, 2017"	"EAST PARK RES CA"	40	sand	Skid	450	40	30	0	35	Skid	50	30	10	35	35	0	ft	""
+WD	wepp-54206	"04:27 pm  Wednesday September 13, 2017"	"EAST PARK RES CA"	40	sand	Skid	450	45	30	35	35	Skid	50	30	10	0	35	0	ft	""
+WD	wepp-54264	"04:28 pm  Wednesday September 13, 2017"	"EAST PARK RES CA"	30	sand	Skid	450	45	30	0	35	Skid	50	30	10	0	35	0	ft	""
+WD	wepp-54518	"04:28 pm  Wednesday September 13, 2017"	"EAST PARK RES CA"	30	sand	Skid	450	50	30	30	30	Skid	50	30	10	100	30	0	ft	""
+WD	wepp-54555	"04:29 pm  Wednesday September 13, 2017"	"EAST PARK RES CA"	30	sand	Skid	450	50	30	0	30	Skid	50	30	10	0	30	0	ft	""
+WD	wepp-54685	"04:29 pm  Wednesday September 13, 2017"	"EAST PARK RES CA"	30	sand	Skid	450	50	30	0	35	Skid	50	30	5	0	35	0	ft	""
+WD	wepp-54941	"04:30 pm  Wednesday September 13, 2017"	"EAST PARK RES CA"	30	sand	Skid	450	50	40	0	30	Skid	50	40	5	0	30	0	ft	""
+WD	wepp-55511	"04:32 pm  Wednesday September 13, 2017"	"EAST PARK RES CA"	30	sand	Shrub	450	50	40	80	30	Shrub	50	40	5	80	30	0	ft	""

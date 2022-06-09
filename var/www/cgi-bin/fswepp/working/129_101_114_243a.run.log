@@ -1,0 +1,15 @@
+WR	wepp-6941	"03:29 pm  Monday February 6, 2012"	"Chalatenango +"	30	clay	native	60	4	4	5	50	40	25	20	inveg	m
+WR	wepp-7026	"03:30 pm  Monday February 6, 2012"	"Chalatenango +"	30	clay	native	60	4	4	5	50	40	25	20	inveg	m
+WD	wepp-7475	"03:46 pm  Monday February 6, 2012"	"Chalatenango +"	50	clay	OldForest	50	0	30	100	20	OldForest	50	30	5	100	20	0	m	""
+WD	wepp-7985	"03:53 pm  Monday February 6, 2012"	"Chalatenango +"	50	clay	OldForest	50	0	30	100	20	OldForest	50	30	5	100	20	0	m	""
+WE	wepp-9025	"03:59 pm  Monday February 6, 2012"	"Chalatenango +"	clay	20	forest	0	50	30	100	l			m
+WE	wepp-9057	"03:59 pm  Monday February 6, 2012"	"Chalatenango +"	clay	20	forest	0	50	30	100	l			m
+WE	wepp-9121	"03:59 pm  Monday February 6, 2012"	"Chalatenango +"	clay	20	forest	0	50	30	100	l			m
+WE	wepp-9243	"03:59 pm  Monday February 6, 2012"	"Chalatenango +"	clay	20	forest	0	50	30	100	l			m
+WR	wepp-25733	"04:00 pm  Friday February 10, 2012"	"MAYAGUEZ PR"	30	sand	native	120	4	4	5	50	1	20	20	inveg	m
+WR	wepp-26321	"04:07 pm  Friday February 10, 2012"	"MAYAGUEZ PR"	30	sand	graveled	120	4	4	5	50	1	20	20	inveg	m
+WR	wepp-26620	"04:09 pm  Friday February 10, 2012"	"MAYAGUEZ PR"	30	sand	graveled	120	4	4	5	50	1	20	20	outunrut	m
+WR	wepp-27158	"04:15 pm  Friday February 10, 2012"	"MAYAGUEZ PR"	30	sand	graveled	60	4	4	5	50	1	20	20	inveg	m
+WR	wepp-27574	"04:21 pm  Friday February 10, 2012"	"MAYAGUEZ PR"	30	sand	graveled	60	4	4	5	50	50	20	20	outunrut	m
+WD	wepp-28062	"04:11 pm  Friday February 17, 2012"	"KEY WEST WB AIRPORT FL"	50	sand	OldForest	100	20	30	100	20	OldForest	50	30	10	100	20	0	ft	""
+WD	wepp-28216	"04:14 pm  Friday February 17, 2012"	"KEY WEST WB AIRPORT FL"	50	sand	LowFire	100	20	30	80	20	LowFire	50	30	10	80	20	0	ft	""

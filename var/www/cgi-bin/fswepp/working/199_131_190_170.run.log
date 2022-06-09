@@ -1,0 +1,51 @@
+WR	wepp-10380	"09:20 am  Wednesday May 9, 2012"	"HARRISBURG IL"	30	silt	native	200	4	13	15	50	130	25	20	inbare	ft
+WR	wepp-10403	"09:20 am  Wednesday May 9, 2012"	"HARRISBURG IL"	30	silt	native	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-10687	"09:38 am  Wednesday May 9, 2012"	"HARRISBURG IL"	30	silt	native	200	4	13	15	50	130	25	20	outrut	ft
+WR	wepp-10707	"09:38 am  Wednesday May 9, 2012"	"HARRISBURG IL"	30	silt	native	200	4	13	15	50	130	25	20	inveg	ft
+WD	wepp-29282	"06:25 am  Tuesday January 22, 2013"	"CARBONDALE AIRPORT IL"	10	silt	LowFire	100	0	30	85	5	LowFire	100	30	5	85	5	0	ft	""
+WD	wepp-29305	"06:26 am  Tuesday January 22, 2013"	"CARBONDALE AIRPORT IL"	10	silt	LowFire	100	0	50	85	5	LowFire	100	50	5	85	5	0	ft	""
+WD	wepp-29325	"06:27 am  Tuesday January 22, 2013"	"CARBONDALE AIRPORT IL"	10	silt	HighFire	100	0	50	45	5	HighFire	100	50	5	45	5	0	ft	""
+WD	wepp-29393	"06:31 am  Tuesday January 22, 2013"	"CARBONDALE AIRPORT IL"	10	silt	Skid	100	0	25	5	5	Skid	100	25	5	20	5	0	ft	""
+WD	wepp-29439	"06:33 am  Tuesday January 22, 2013"	"CARBONDALE AIRPORT IL"	10	silt	Skid	100	0	10	5	5	Skid	100	10	5	20	5	0	ft	""
+WD	wepp-15852	"03:10 pm  Monday April 1, 2013"	"CARBONDALE AIRPORT IL"	15	silt	LowFire	100	0	30	85	5	LowFire	100	30	5	85	0	0	ft	""
+WD	wepp-15872	"03:11 pm  Monday April 1, 2013"	"CARBONDALE AIRPORT IL"	15	silt	HighFire	100	0	30	45	5	HighFire	100	30	5	45	0	0	ft	""
+WD	wepp-15893	"03:12 pm  Monday April 1, 2013"	"CARBONDALE AIRPORT IL"	15	silt	Skid	100	0	30	5	5	Skid	100	30	5	0	0	0	ft	""
+WD	wepp-15939	"03:13 pm  Monday April 1, 2013"	"CARBONDALE AIRPORT IL"	15	silt	Sod	100	0	30	40	5	Sod	100	30	5	40	0	0	ft	""
+WD	wepp-15959	"03:13 pm  Monday April 1, 2013"	"CARBONDALE AIRPORT IL"	15	silt	Bunchgrass	100	0	30	60	5	Bunchgrass	100	30	5	60	0	0	ft	""
+WD	wepp-15980	"03:14 pm  Monday April 1, 2013"	"CARBONDALE AIRPORT IL"	15	silt	Shrub	100	0	30	80	5	Shrub	100	30	5	80	0	0	ft	""
+WD	wepp-16002	"03:14 pm  Monday April 1, 2013"	"CARBONDALE AIRPORT IL"	15	silt	YoungForest	100	0	30	100	5	YoungForest	100	30	5	100	0	0	ft	""
+WE	wepp-799	"06:19 am  Monday April 15, 2013"	"CARBONDALE AIRPORT IL"	silt	10	forest	0	50	30	300	m			ft
+WD	wepp-27477	"09:47 am  Tuesday April 30, 2013"	"BLOOMINGTON IN"	10	silt	Skid	50	0	5	20	20	Skid	50	5	5	20	20	0	ft	""
+WD	wepp-4761	"09:50 am  Monday July 8, 2013"	"CARBONDALE AIRPORT IL"	10	silt	LowFire	100	0	30	85	5	LowFire	100	30	5	85	5	0	ft	""
+WD	wepp-4622	"09:15 am  Monday July 22, 2013"	"CARBONDALE AIRPORT IL"	10	silt	LowFire	100	0	10	85	5	LowFire	100	10	5	85	5	0	ft	""
+WD	wepp-4996	"09:17 am  Monday July 22, 2013"	"CARBONDALE AIRPORT IL"	10	silt	LowFire	50	0	10	85	5	LowFire	50	10	5	85	5	0	ft	""
+WE	wepp-5047	"09:20 am  Monday July 22, 2013"	"CARBONDALE AIRPORT IL"	clay	20	forest	0	10	5	300	l			ft
+WE	wepp-5160	"09:29 am  Monday July 22, 2013"	"CARBONDALE AIRPORT IL"	silt	20	forest	0	10	5	300	l			ft
+WE	wepp-5230	"09:30 am  Monday July 22, 2013"	"CARBONDALE AIRPORT IL"	silt	5	forest	0	10	5	300	l			ft
+WD	wepp-4004	"03:02 pm  Wednesday August 28, 2013"	"CARBONDALE AIRPORT IL"	10	clay	Bunchgrass	50	0	18	60	5	Skid	50	18	5	60	5	0	ft	""
+WE	wepp-26256	"06:19 am  Monday September 30, 2013"	"CARBONDALE AIRPORT IL"	silt	5	forest	0	15	5	100	l			ft
+WD	wepp-32748	"02:16 pm  Monday September 30, 2013"	"CARBONDALE AIRPORT IL"	10	silt	LowFire	50	0	10	85	5	LowFire	50	10	5	85	5	0	ft	""
+WD	wepp-300	"02:17 pm  Monday September 30, 2013"	"CARBONDALE AIRPORT IL"	30	silt	LowFire	50	0	10	85	5	LowFire	50	10	5	85	5	0	ft	""
+WD	wepp-320	"02:18 pm  Monday September 30, 2013"	"CARBONDALE AIRPORT IL"	15	silt	LowFire	100	0	10	85	5	LowFire	100	10	5	85	5	0	ft	""
+WD	wepp-339	"02:19 pm  Monday September 30, 2013"	"CARBONDALE AIRPORT IL"	15	silt	LowFire	50	0	10	85	5	LowFire	50	10	5	85	5	0	ft	""
+WD	wepp-33092	"11:07 am  Friday July 11, 2014"	"CARBONDALE AIRPORT IL"	10	clay	Skid	50	0	35	80	20	Skid	50	35	5	80	20	0	ft	""
+WD	wepp-33128	"11:08 am  Friday July 11, 2014"	"CARBONDALE AIRPORT IL"	10	clay	Skid	50	0	50	50	20	Skid	50	50	5	50	20	0	ft	""
+WD	wepp-33164	"11:08 am  Friday July 11, 2014"	"CARBONDALE AIRPORT IL"	10	silt	Skid	50	0	50	50	20	Skid	50	50	5	50	20	0	ft	""
+WD	wepp-33211	"11:09 am  Friday July 11, 2014"	"CARBONDALE AIRPORT IL"	10	silt	Skid	50	0	50	10	10	Skid	50	50	5	50	10	0	ft	""
+WD	wepp-33249	"11:09 am  Friday July 11, 2014"	"CARBONDALE AIRPORT IL"	10	silt	Skid	50	0	50	50	10	Skid	50	50	5	50	10	0	ft	""
+WD	wepp-76977	"12:25 pm  Monday July 14, 2014"	"CARBONDALE AIRPORT IL"	10	silt	Skid	100	0	50	10	10	Skid	50	50	5	20	10	0	ft	""
+WD	wepp-142979	"09:56 am  Monday August 18, 2014"	"BLOOMINGTON IN"	10	clay	OldForest	50	0	30	100	20	OldForest	50	30	5	100	20	0	ft	""
+WD	wepp-51946	"07:09 am  Friday September 19, 2014"	"BLOOMINGTON IN"	10	silt	Skid	50	0	30	20	20	Skid	50	30	5	20	20	0	ft	""
+WD	wepp-64240	"07:41 am  Wednesday December 3, 2014"	"CARBONDALE AIRPORT IL"	30	silt	LowFire	100	0	30	85	0	LowFire	100	30	5	85	0	0	ft	""
+WD	wepp-64289	"07:43 am  Wednesday December 3, 2014"	"CARBONDALE AIRPORT IL"	30	silt	HighFire	100	0	30	45	0	HighFire	100	30	5	45	0	0	ft	""
+WD	wepp-64349	"07:45 am  Wednesday December 3, 2014"	"HARRISBURG IL"	30	silt	HighFire	100	0	30	45	0	HighFire	100	30	5	45	0	0	ft	""
+WD	wepp-107996	"09:19 am  Thursday December 4, 2014"	"HARRISBURG IL"	30	silt	LowFire	50	0	50	85	5	LowFire	50	50	5	85	5	0	ft	""
+WD	wepp-108072	"09:22 am  Thursday December 4, 2014"	"HARRISBURG IL"	30	silt	HighFire	50	0	50	45	5	HighFire	50	50	5	45	5	0	ft	""
+WD	wepp-108139	"09:24 am  Thursday December 4, 2014"	"HARRISBURG IL"	30	silt	YoungForest	50	0	50	100	5	YoungForest	50	50	5	100	5	0	ft	""
+WE	wepp-108216	"09:25 am  Thursday December 4, 2014"	"HARRISBURG IL"	silt	20	forest	0	50	30	300	l			ft
+WR	wepp-108523	"09:32 am  Thursday December 4, 2014"	"HARRISBURG IL"	30	silt	native	200	4	13	15	50	130	25	20	outrut	ft
+WD	wepp-173128	"10:59 am  Friday December 19, 2014"	"HARRISBURG IL"	10	silt	OldForest	50	0	30	100	20	Skid	50	30	5	20	20	0	ft	""
+WD	wepp-173182	"11:01 am  Friday December 19, 2014"	"HARRISBURG IL"	10	silt	LowFire	100	0	14	85	0	LowFire	100	14	5	85	0	0	ft	""
+WD	wepp-173235	"11:05 am  Friday December 19, 2014"	"HARRISBURG IL"	10	silt	Skid	100	0	35	0	0	Skid	100	50	35	0	0	0	ft	""
+WE	wepp-175842	"01:44 pm  Friday December 19, 2014"	"BLOOMINGTON IN"	clay	20	forest	0	50	30	300	l			ft
+WE	wepp-175999	"01:45 pm  Friday December 19, 2014"	"CARBONDALE AIRPORT IL"	silt	20	forest	0	50	30	300	l			ft

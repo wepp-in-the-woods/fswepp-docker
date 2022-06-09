@@ -1,0 +1,44 @@
+WD	wepp-187170	"06:07 am  Monday April 9, 2018"	"BIRMINGHAM WB AP AL"	10	clay	HighFire	150	0	30	0	0	OldForest	50	30	5	100	20	0	ft	""
+WD	wepp-188314	"06:09 am  Monday April 9, 2018"	"BANGOR DOW FIELD ME"	10	silt	HighFire	150	30	30	0	0	HighFire	150	30	30	0	0	0	ft	""
+WD	wepp-191658	"06:14 am  Monday April 9, 2018"	"MADISON WB AIRPORT WI"	10	silt	Sod	150	30	30	40	0	Sod	150	30	30	40	0	0	ft	""
+WD	wepp-192230	"06:15 am  Monday April 9, 2018"	"MADISON WB AIRPORT WI"	10	clay	Sod	150	30	30	40	0	Sod	150	30	30	40	0	0	ft	""
+WD	wepp-193590	"06:17 am  Monday April 9, 2018"	"MADISON WB AIRPORT WI"	10	clay	Skid	150	30	30	0	0	Skid	150	30	30	0	0	0	ft	""
+WE	wepp-195630	"06:21 am  Monday April 9, 2018"	"WALLACE WDLND PK ID"	silt	5	forest	30	30	30	300	h			ft
+WD	wepp-49419	"06:39 am  Monday December 3, 2018"	"WALLACE WDLND PK ID"	10	clay	OldForest	50	0	30	100	20	OldForest	50	30	5	100	20	0	ft	""
+WE	wepp-50010	"06:41 am  Monday December 3, 2018"	"CHARLESTON KAN AP WV"	clay	20	forest	0	50	30	300	l			ft
+WE	wepp-50160	"06:42 am  Monday December 3, 2018"	"CONCORD WB AIRPORT NH"	silt	20	forest	0	50	30	300	l			ft
+WD	wepp-215704	"09:06 am  Saturday December 8, 2018"	"CANON CITY CO"	50	sand	HighFire	250	35	35	15	20	HighFire	250	35	35	15	20	0	ft	"Run W1"
+WD	wepp-215788	"09:07 am  Saturday December 8, 2018"	"CANON CITY CO"	50	clay	HighFire	250	35	35	15	20	HighFire	250	35	35	15	20	0	ft	"Run W2"
+WD	wepp-215904	"09:09 am  Saturday December 8, 2018"	"CANON CITY CO"	50	sand	LowFire	250	35	35	60	20	LowFire	250	35	35	60	20	0	ft	"Run W3"
+WD	wepp-216100	"09:15 am  Saturday December 8, 2018"	"CANON CITY CO W4 adjustment +"	50	sand	HighFire	100	20	20	15	20	HighFire	100	20	20	15	20	0	ft	"Run W4"
+WD	wepp-216564	"09:49 am  Saturday December 8, 2018"	"CANON CITY CO W4 adjustment +"	50	sand	HighFire	100	50	50	15	20	HighFire	100	50	50	15	20	0	ft	"Run W5"
+WD	wepp-216607	"09:50 am  Saturday December 8, 2018"	"CANON CITY CO W4 adjustment +"	50	sand	HighFire	300	20	20	15	20	HighFire	300	20	20	15	20	0	ft	"Run W6"
+WD	wepp-216650	"09:51 am  Saturday December 8, 2018"	"CANON CITY CO W4 adjustment +"	50	sand	HighFire	300	50	50	15	20	HighFire	300	50	50	15	20	0	ft	"Run W7"
+WE	wepp-217217	"09:54 am  Saturday December 8, 2018"	"MOSCOW U OF I ID"	silt	10	forest	50	50	50	300	h			ft
+WE	wepp-217300	"09:54 am  Saturday December 8, 2018"	"MOSCOW U OF I ID"	silt	10	forest	50	50	50	300	h			ft
+WE	wepp-220213	"12:05 pm  Saturday December 8, 2018"	"MOSCOW U OF I ID"	clay	20	forest	0	50	30	300	l			ft
+WD	wepp-65604	"07:14 am  Friday April 12, 2019"	"BANGOR DOW FIELD ME"	10	silt	OldForest	150	30	30	100	0	OldForest	150	30	30	100	0	0	ft	""
+WD	wepp-66176	"07:16 am  Friday April 12, 2019"	"BANGOR DOW FIELD ME"	10	silt	OldForest	150	30	30	0	0	OldForest	150	30	30	0	0	0	ft	""
+WD	wepp-66850	"07:18 am  Friday April 12, 2019"	"LAS VEGAS WB AP NV"	10	silt	HighFire	150	30	30	0	0	HighFire	150	30	30	0	0	0	ft	""
+WD	wepp-67108	"07:19 am  Friday April 12, 2019"	"MADISON WB AIRPORT WI"	10	clay	Bunchgrass	150	30	30	60	0	Bunchgrass	150	30	30	60	0	0	ft	""
+WD	wepp-67333	"07:20 am  Friday April 12, 2019"	"MADISON WB AIRPORT WI"	10	sand	Sod	150	30	30	40	0	Sod	150	30	30	40	0	0	ft	""
+WD	wepp-67697	"07:21 am  Friday April 12, 2019"	"MADISON WB AIRPORT WI"	10	sand	Bunchgrass	150	30	30	60	0	Bunchgrass	150	30	30	60	0	0	ft	""
+WD	wepp-67967	"07:22 am  Friday April 12, 2019"	"MADISON WB AIRPORT WI"	10	clay	Skid	150	30	30	0	0	Skid	150	30	30	0	0	0	ft	""
+WE	wepp-69009	"07:24 am  Friday April 12, 2019"	"WALLACE WDLND PK ID"	silt	5	forest	0	0	0	300	u			ft
+WE	wepp-70743	"07:26 am  Friday April 12, 2019"	"WALLACE WDLND PK ID"	silt	5	forest	0	0	0	300	u			ft
+WE	wepp-71519	"07:27 am  Friday April 12, 2019"	"WALLACE WDLND PK ID"	silt	5	forest	30	30	30	300	u			ft
+WE	wepp-72013	"07:28 am  Friday April 12, 2019"	"WALLACE WDLND PK ID"	silt	5	forest	30	30	30	300	u			ft
+WE	wepp-72322	"07:29 am  Friday April 12, 2019"	"WALLACE WDLND PK ID"	silt	5	forest	30	30	30	300	h			ft
+WD	wepp-144861	"07:17 pm  Sunday April 14, 2019"	"BANGOR DOW FIELD ME"	10	silt	OldForest	150	0	30	100	0	OldForest	50	30	5	100	20	0	ft	""
+WD	wepp-145031	"07:24 pm  Sunday April 14, 2019"	"BANGOR DOW FIELD ME"	10	silt	OldForest	150	30	30	100	0	OldForest	150	30	30	100	0	0	ft	""
+WD	wepp-145297	"07:35 pm  Sunday April 14, 2019"	"BANGOR DOW FIELD ME"	10	silt	HighFire	150	30	30	0	0	HighFire	150	30	30	0	0	0	ft	""
+WD	wepp-145364	"07:38 pm  Sunday April 14, 2019"	"LAS VEGAS WB AP NV"	10	silt	HighFire	150	30	30	0	0	HighFire	150	30	30	0	0	0	ft	""
+WD	wepp-147671	"08:56 pm  Sunday April 14, 2019"	"MADISON WB AIRPORT WI"	10	clay	Bunchgrass	150	30	30	60	0	Bunchgrass	150	30	30	60	0	0	ft	""
+WD	wepp-147708	"08:57 pm  Sunday April 14, 2019"	"MADISON WB AIRPORT WI"	10	clay	Sod	150	30	30	40	0	Sod	150	30	30	40	0	0	ft	""
+WD	wepp-147748	"08:57 pm  Sunday April 14, 2019"	"MADISON WB AIRPORT WI"	10	sand	Bunchgrass	150	30	30	60	0	Bunchgrass	150	30	30	60	0	0	ft	""
+WD	wepp-147790	"08:58 pm  Sunday April 14, 2019"	"MADISON WB AIRPORT WI"	10	clay	Skid	150	30	30	0	0	Skid	150	30	30	0	0	0	ft	""
+WE	wepp-147925	"09:00 pm  Sunday April 14, 2019"	"WALLACE WDLND PK ID"	silt	5	forest	30	30	30	300	u			ft
+WE	wepp-148117	"09:08 pm  Sunday April 14, 2019"	"WALLACE WDLND PK ID"	silt	5	forest	30	30	30	300	h			ft
+WE	wepp-148457	"09:11 pm  Sunday April 14, 2019"	"WALLACE WDLND PK ID"	silt	5	forest	30	30	30	300	u			ft
+WE	wepp-148520	"09:11 pm  Sunday April 14, 2019"	"WALLACE WDLND PK ID"	silt	5	forest	30	30	30	300	h			ft
+WE	wepp-148728	"09:12 pm  Sunday April 14, 2019"	"WALLACE WDLND PK ID"	silt	5	forest	30	30	30	300	h			ft

@@ -1,0 +1,8 @@
+WR	wepp-308	"02:14 am  Tuesday May 31, 2011"	"BIRMINGHAM WB AP AL"	30	sand	native	60	4	4	5	50	40	25	20	outrut	m
+WR	wepp-455	"02:16 am  Tuesday May 31, 2011"	"BIRMINGHAM WB AP AL"	30	silt	graveled	60	4	4	5	50	40	25	10	inbare	m
+WD	wepp-954	"02:26 am  Tuesday May 31, 2011"	"FORT KENT ME +"	30	sand	skid	100	10	20	35	0	skid	50	20	0	55	20	0	m	""
+WD	wepp-1125	"02:28 am  Tuesday May 31, 2011"	"FORT KENT ME +"	30	sand	skid	100	10	20	35	0.012	skid	50	20	0	55	20	0	m	""
+WD	wepp-1181	"02:29 am  Tuesday May 31, 2011"	"FORT KENT ME +"	30	sand	skid	100	10	20	35	0.012	skid	50	20	0	55	75	0	m	""
+WD	wepp-1191	"02:29 am  Tuesday May 31, 2011"	"FORT KENT ME +"	30	sand	skid	100	10	20	35	75	skid	50	20	0	55	0.16573	0	m	""
+WD	wepp-1325	"02:32 am  Tuesday May 31, 2011"	"FORT KENT ME +"	30	clay	tree20	50	1e-05	0.0001	100	20	tree5	50	0	0	100	20	0	m	""
+WR	wepp-1489	"02:37 am  Tuesday May 31, 2011"	"FORT KENT ME +"	30	sand	native	300	5.319	20	5	50	40	25	10	inbare	m

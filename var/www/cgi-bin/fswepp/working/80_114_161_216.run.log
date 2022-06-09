@@ -1,0 +1,12 @@
+WE	wepp-221092	"08:18 am  Thursday April 22, 2021"	"BIRMINGHAM WB AP AL"	clay	20	forest	0	50	30	300	l			ft
+WE	wepp-55102	"11:22 am  Sunday April 25, 2021"	"BIRMINGHAM WB AP AL"	clay	20	forest	0	50	30	300	l			ft
+WE	wepp-55243	"11:24 am  Sunday April 25, 2021"	"BIRMINGHAM WB AP AL"	clay	20	forest	0	50	30	100	l			m
+WD	wepp-55394	"11:27 am  Sunday April 25, 2021"	"BIRMINGHAM WB AP AL"	10	clay	OldForest	50	0	30	100	20	OldForest	50	30	5	100	20	0	m	""
+WD	wepp-52114	"05:58 am  Tuesday June 8, 2021"	"BIRMINGHAM WB AP AL"	10	clay	OldForest	50	0	30	100	20	OldForest	50	30	5	100	20	0	m	""
+WE	wepp-52697	"06:24 am  Tuesday June 8, 2021"	"BIRMINGHAM WB AP AL"	clay	20	forest	0	50	30	300	l			ft
+WE	wepp-53785	"07:20 am  Tuesday June 8, 2021"	"BIRMINGHAM WB AP AL"	clay	20	forest	0	50	30	300	l			ft
+WD	wepp-218017	"01:08 am  Tuesday September 7, 2021"	"BIRMINGHAM WB AP AL"	10	clay	OldForest	50	0	30	100	20	OldForest	50	30	5	100	20	0	m	""
+WD	wepp-25292	"11:00 am  Tuesday November 16, 2021"	"tr + + +"	10	sand	HighFire	377	73	54	45	50	OldForest	377	49	23	45	50	0	ft	""
+WD	wepp-25335	"11:03 am  Tuesday November 16, 2021"	"tr + + +"	10	sand	LowFire	115	73	54	10	50	HighFire	115	49	23	10	50	0	m	""
+WD	wepp-25375	"11:04 am  Tuesday November 16, 2021"	"tr + + +"	10	sand	LowFire	115	73	54	80	50	HighFire	115	49	23	80	50	0	m	""
+WE	wepp-25553	"11:09 am  Tuesday November 16, 2021"	""	sand	20	chap	0	50	30	300	h	80	0	ft

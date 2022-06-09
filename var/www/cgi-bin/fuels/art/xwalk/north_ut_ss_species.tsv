@@ -1,0 +1,72 @@
+#Conifer species in Northern UT Subseries arranged by (decreasing) expected percent cover, with successional roles and rated for potential Armillaria impact				
+#Subseries	Species	Role*	Average Expected Cover (%)	Potential Disease Impact
+ColdF/DG	LOW			
+	ABLA	C	24.2	Low in this subseries
+	PIEN	s/S/C	16.2	Low in this subseries
+	PICO	s/S	9.4	Low
+	PSME	s/S	0.9	Low in this subseries
+	PIFL	a	0	Low in this subseries
+ColdF/DH	HCLIMAX			
+	ABLA	C	34.6	High
+	PIEN	S/C	21.9	High where climax
+	PSME	s/S	13.7	Low in this subseries
+	PICO	s/S	8.9	Low
+	ABCO	S/s	0.4	Low in this subseries
+	PIPU	s/c	0.4	High where climax
+	PIFL	s	0	Low in this subseries
+	PIPO	a	0	Low in this subseries
+ColdF/DS	HCLIMAX			
+	PICO	s/S	26.8	Low
+	ABLA	C	19.8	High
+	PIEN	s/S/C	18	High where climax
+	PSME	s/S	8.4	Low in this subseries
+	PIPU	S	2	Low in this subseries
+	PIFL	c	1.6	High where climax
+	ABCO	s/S	0.4	Low in this subseries
+ColdF/WF	HCLIMAX			
+	PIEN	c	39.9	High
+	ABLA	C	18	High
+	PICO	s/S	16.5	Low
+	PIPU	s	0.6	Low in this subseries
+ColdF/WH	HCLIMAX			
+	ABLA	C	53	High
+	PSME	S	24	Low in this subseries
+	PIEN	S	12.4	Low in this subseries
+	ABCO	s	0.9	Low in this subseries
+	PIPU	s	0.4	Low in this subseries
+CoolF/DS	HCLIMAX			
+	ABCO	C	44.5	High
+	PSME	S	12.2	Low in this subseries
+	PICO	s/S	2.7	Low
+	PIFL	s	0.2	Low in this subseries
+	ABLA	a	0.1	Low in this subseries
+	PIEN	s	0.1	Low in this subseries
+CoolP/DG	LOW			
+	PICO	C	63.2	Low
+	ABLA	a	0.1	Low in this subseries
+	PIEN	a	0.1	Low in this subseries
+	PSME	a	0.1	Low in this subseries
+CoolP/DS	LOW			
+	PICO	C	65	Low
+	ABLA	s	0.4	Low in this subseries
+	PIEN	a	0.3	Low in this subseries
+DF/DG	LOW			
+	PSME	C	54	Low in this subseries
+	PICO	S	1.6	Low
+	PIPO	s	1.2	Low in this subseries
+	PIFL	s	0.6	Low in this subseries
+DF/DS	LOW			
+	PSME	C	43	Low in this subseries
+	PIPU	c	4.3	Low in this subseries
+	PIFL	s/C	4.2	Low in this subseries
+	PIPO	s/S	3	Low in this subseries
+	PICO	s/S	2.7	Low
+	ABLA	a	0.1	Low in this subseries
+	ABCO	a	0	Low in this subseries
+PP/DG	LOW			
+	PIPO	C	37	Low in this subseries
+	PICO	s	1.5	Low
+PP/DS	LOW			
+	PIPO	C	39.7	Low in this subseries
+	PICO	s/S	2.9	Low
+	PSME	a	0.2	Low in this subseries

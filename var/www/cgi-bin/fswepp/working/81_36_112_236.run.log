@@ -1,0 +1,41 @@
+WE	wepp-82983	"12:28 pm  Monday November 25, 2019"	"Ancares (Lugo), Spain (PP1314) +"	loam	20	forest	30	37	45	300	m			m
+WE	wepp-83300	"12:35 pm  Monday November 25, 2019"	"Ancares (Lugo), Spain (PP1314) +"	loam	20	forest	0	15	30	300	h			m
+WE	wepp-83735	"12:43 pm  Monday November 25, 2019"	"Ancares (Lugo), Spain (PP1314) +"	loam	20	chap	15	30	45	250	h	80	0	m
+WE	wepp-84920	"01:06 pm  Monday November 25, 2019"	"Ancares (Lugo), Spain + +"	loam	20	forest	30	37	45	300	m			m
+WE	wepp-85231	"01:10 pm  Monday November 25, 2019"	"Ancares (Lugo), Spain + +"	loam	20	forest	0	15	30	300	h			m
+WE	wepp-85449	"01:12 pm  Monday November 25, 2019"	"Ancares (Lugo), Spain + +"	loam	20	chap	15	30	45	250	h	80	0	m
+WD	wepp-85938	"01:27 pm  Monday November 25, 2019"	"Ancares (Lugo), Spain (PP1314) +"	1	loam	HighFire	125	0	15	45	20	HighFire	125	15	30	45	20	0	m	""
+WD	wepp-85987	"01:28 pm  Monday November 25, 2019"	"Ancares (Lugo), Spain (PP1314) +"	1	loam	HighFire	115	0	15	45	20	HighFire	300	30	45	45	20	0	m	""
+WD	wepp-86099	"01:31 pm  Monday November 25, 2019"	"Ancares (Lugo), Spain (PP1314) +"	1	loam	HighFire	225	30	45	45	20	HighFire	225	30	45	45	20	0	m	""
+WD	wepp-86152	"01:32 pm  Monday November 25, 2019"	"Ancares (Lugo), Spain + +"	1	loam	HighFire	225	30	45	45	20	HighFire	225	30	45	45	20	0	m	""
+WD	wepp-86197	"01:33 pm  Monday November 25, 2019"	"Ancares (Lugo), Spain + +"	1	loam	HighFire	125	0	15	45	20	HighFire	300	30	45	45	20	0	m	""
+WD	wepp-86235	"01:33 pm  Monday November 25, 2019"	"Ancares (Lugo), Spain + +"	1	loam	HighFire	115	0	15	45	20	HighFire	300	30	45	45	20	0	m	""
+WD	wepp-86303	"01:35 pm  Monday November 25, 2019"	"Ancares (Lugo), Spain + +"	5	loam	HighFire	115	0	15	45	20	HighFire	300	30	45	45	20	0	m	""
+WD	wepp-86343	"01:36 pm  Monday November 25, 2019"	"Ancares (Lugo), Spain + +"	5	loam	HighFire	225	30	45	45	20	HighFire	225	30	45	45	20	0	m	""
+WD	wepp-86462	"01:39 pm  Monday November 25, 2019"	"Ancares (Lugo), Spain + +"	1	loam	HighFire	125	0	15	45	20	HighFire	125	15	30	45	20	0	m	""
+WD	wepp-86508	"01:39 pm  Monday November 25, 2019"	"Ancares (Lugo), Spain + +"	5	loam	HighFire	125	0	15	45	20	HighFire	125	15	30	45	20	0	m	""
+WD	wepp-180993	"02:59 am  Friday November 29, 2019"	"Ancares (Lugo), Spain + +"	5	loam	OldForest	150	30	37	100	20	OldForest	150	37	45	100	20	0	m	""
+WD	wepp-181160	"03:06 am  Friday November 29, 2019"	"Ancares (Lugo), Spain (PP1314) +"	10	loam	OldForest	150	30	37	100	20	OldForest	150	37	45	100	20	0	m	""
+WD	wepp-181221	"03:07 am  Friday November 29, 2019"	"Ancares (Lugo), Spain (PP1314) +"	5	loam	OldForest	150	30	37	100	20	OldForest	150	37	45	100	20	0	m	""
+WD	wepp-181320	"03:09 am  Friday November 29, 2019"	"Ancares (Lugo), Spain (PP1314) +"	1	loam	OldForest	150	30	37	100	20	OldForest	150	37	45	100	20	0	m	""
+WD	wepp-181462	"03:10 am  Friday November 29, 2019"	"Ancares (Lugo), Spain + +"	1	loam	HighFire	150	30	37	45	20	HighFire	150	37	45	45	20	0	m	""
+WD	wepp-181498	"03:10 am  Friday November 29, 2019"	"Ancares (Lugo), Spain + +"	5	loam	HighFire	150	30	37	45	20	HighFire	150	37	45	45	20	0	m	""
+WD	wepp-181561	"03:13 am  Friday November 29, 2019"	"Ancares (Lugo), Spain + +"	5	loam	OldForest	150	0	15	100	20	OldForest	150	15	30	100	20	0	m	""
+WD	wepp-181599	"03:13 am  Friday November 29, 2019"	"Ancares (Lugo), Spain + +"	5	loam	YoungForest	150	0	15	100	20	YoungForest	150	15	30	100	20	0	m	""
+WD	wepp-181662	"03:14 am  Friday November 29, 2019"	"Ancares (Lugo), Spain + +"	5	loam	HighFire	150	0	15	45	20	HighFire	150	15	30	45	20	0	m	""
+WD	wepp-181755	"03:19 am  Friday November 29, 2019"	"Ancares (Lugo), Spain + +"	5	loam	Shrub	150	30	37	80	20	Shrub	150	37	45	80	20	0	m	""
+WD	wepp-181849	"03:20 am  Friday November 29, 2019"	"Ancares (Lugo), Spain + +"	5	loam	HighFire	150	30	37	45	20	HighFire	150	37	45	45	20	0	m	""
+WD	wepp-181922	"03:24 am  Friday November 29, 2019"	"Ancares (Lugo), Spain (PP1314) +"	1	loam	HighFire	150	30	37	45	20	HighFire	150	37	45	45	20	0	m	""
+WD	wepp-181985	"03:25 am  Friday November 29, 2019"	"Ancares (Lugo), Spain (PP1314) +"	1	loam	YoungForest	150	0	15	100	20	YoungForest	150	15	30	100	20	0	m	""
+WD	wepp-182054	"03:28 am  Friday November 29, 2019"	"Ancares (Lugo), Spain (PP1314) +"	1	loam	HighFire	150	0	15	45	20	HighFire	150	15	30	45	20	0	m	""
+WD	wepp-182230	"03:36 am  Friday November 29, 2019"	"Ancares (Lugo), Spain (PP1314) +"	1	loam	Shrub	150	30	37	80	20	Shrub	150	37	45	80	20	0	m	""
+WD	wepp-182269	"03:37 am  Friday November 29, 2019"	"Ancares (Lugo), Spain (PP1314) +"	1	loam	HighFire	150	30	37	45	20	HighFire	150	37	45	45	20	0	m	""
+WE	wepp-182713	"04:00 am  Friday November 29, 2019"	"Ancares (Lugo), Spain + +"	loam	20	forest	30	37	45	300	h			m
+WE	wepp-183401	"04:25 am  Friday November 29, 2019"	"Ancares (Lugo), Spain + +"	loam	20	forest	30	37	45	300	u			m
+WE	wepp-183468	"04:25 am  Friday November 29, 2019"	"Ancares (Lugo), Spain + +"	loam	20	forest	30	37	45	300	u			m
+WE	wepp-183541	"04:27 am  Friday November 29, 2019"	"Ancares (Lugo), Spain + +"	loam	20	forest	30	37	45	300	h			m
+WE	wepp-183751	"04:28 am  Friday November 29, 2019"	"Ancares (Lugo), Spain + +"	loam	20	forest	0	15	30	300	u			m
+WE	wepp-183816	"04:29 am  Friday November 29, 2019"	"Ancares (Lugo), Spain + +"	loam	20	forest	0	15	30	300	h			m
+WD	wepp-184271	"04:39 am  Friday November 29, 2019"	"Ancares (Lugo), Spain + +"	100	loam	HighFire	150	0	15	45	20	HighFire	150	15	30	45	20	0	ft	""
+WD	wepp-184366	"04:40 am  Friday November 29, 2019"	"Ancares (Lugo), Spain + +"	100	loam	HighFire	150	0	15	45	20	HighFire	150	15	30	45	20	0	m	""
+WE	wepp-184555	"04:51 am  Friday November 29, 2019"	"Ancares (Lugo), Spain + +"	loam	20	chap	30	37	45	300	h	80	15	m

@@ -1,0 +1,12 @@
+wt	wepp-82199	"Dec 8, 2014"	"RUBICON #2 CA SNOTEL"	granitic	Bunchgrass	0	30	50	60	20	YoungForest	30	5	50	100	20	ft	""
+wt	wepp-84519	"Dec 8, 2014"	"RUBICON #2 CA SNOTEL"	granitic	Bunchgrass	0	30	50	60	20	YoungForest	30	5	50	100	20	ft	""
+WE	wepp-69954	"10:50 am  Thursday May 14, 2015"	"ATLANTA WB AIRPORT GA +"	clay	20	forest	0	50	30	300	l			ft
+WE	wepp-231787	"12:19 pm  Friday August 21, 2015"	"ATLANTA WB AIRPORT GA +"	clay	20	forest	0	50	30	300	l			ft
+WD	wepp-57556	"06:56 am  Monday March 14, 2016"	"ATLANTA WB AIRPORT GA +"	10	clay	LowFire	50	0	30	85	20	OldForest	50	30	5	100	20	0	ft	""
+WD	wepp-57649	"07:02 am  Monday March 14, 2016"	"ATLANTA WB AIRPORT GA +"	10	clay	HighFire	50	0	30	45	20	OldForest	50	30	5	100	20	0	ft	""
+WD	wepp-57710	"07:03 am  Monday March 14, 2016"	"ATLANTA WB AIRPORT GA +"	10	clay	HighFire	50	0	30	45	20	HighFire	50	30	5	45	20	0	ft	""
+wt	wepp-173082	"Mar 21, 2016"	"ATLANTA WB AIRPORT GA +"	granitic	OldForest	0	30	50	100	20	YoungForest	30	5	50	100	20	ft	""
+wt	wepp-214418	"Mar 22, 2016"	"ATLANTA WB AIRPORT GA +"	granitic	OldForest	0	30	50	100	20	YoungForest	30	5	50	100	20	ft	""
+WD	wepp-177108	"06:42 am  Wednesday November 30, 2016"	"ATLANTA WB AIRPORT GA +"	10	clay	HighFire	1200	0	30	45	20	Skid	100	30	5	0	20	0	ft	""
+WR	wepp-119524	"11:27 am  Tuesday March 1, 2022"	"RUBICON #2 CA SNOTEL"	30	clay	native	200	4	13	15	50	130	25	20	inveg	ft
+WD	wepp-119580	"11:28 am  Tuesday March 1, 2022"	"SEXTON SUMMIT WB OR +"	10	clay	OldForest	50	0	30	100	20	OldForest	50	30	5	100	20	0	ft	""

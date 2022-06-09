@@ -1,0 +1,60 @@
+#this files was modified by filegenwhrm.pl on: Wednesday, March 16, 2005.
+#taxgroup Small Mammals species Desert cottontail /  Sylvilagus auduboni
+#
+# Rank
+3,1,1,1,1
+# Nestsite
+12,1
+# Reprorank
+1,-99
+# Foraging Habitat
+20,-1
+# Habitatrank
+1,-99
+# Forage/Prey Availability
+3,1:4,1
+# Preyrank
+1,-99:1,-99
+# Predator Avoidance
+12,1
+# Avoidrank
+1,-99
+# Refugia/Shelter
+12,1
+# Shelterrank
+1,-99
+# Coverrank
+1,-99
+# Literature
+Distribution
+central Montana south along Rocky Mountains, southwestern USA into Mexico
+General Habitat
+grassland, shrub land, woodland, xeric forests
+Home or Activity Range
+no information available
+Canopy Cover
+no information available
+Specific Habitat Preferences
+well-developed shrub and herbaceous understory
+Nestsite Characteristics
+base of snags
+Foraging Habitat Characteristics
+well-developed shrub and herbaceous understory
+Diet
+&gt 100 plant species that vary locally; herbaceous vegetation, bark, buds, and twigs of woody vegetation
+Predators
+no information available
+Shelter Habitats
+logs, downed woody debris, thickets, burrows as thermal cover; well-developed shrub and herbaceous understory, logs, downed woody debris as cover from predators
+Response to Disturbance
+no information available
+Sources of Information used in the Model
+Reynolds et al. 1992
+General Sources of Background Information
+reviewed in Hoffman et al. 1969, Burt 1980, reviewed in Reynolds et al. 1992
+Summaries of Specific Studies
+Reynolds, Richard T.; Graham, Russell T.; Reiser, M. Hildegard, Bassett, Richard L.; Kennedy, Patricia L.; Boyce, Douglas A.; Goodwin, Greg; Smith, Randall; Fisher, E. Leon. 1992. Management recommendations for the Northern Goshawk in the southwestern United States. Gen. Tech. Rep. RM-217. Fort Collins, CO: USDA, Forest Service, Rocky Mountain Forest and Range Experiment Station. 90 p.
+
+Study Location:  review
+Habitat Description:  review
+Summary:  Habitat needs of a variety of northern goshawk prey are identified by a literature review. Management recommendations are made in regard to nesting, foraging, and other life history attributes.

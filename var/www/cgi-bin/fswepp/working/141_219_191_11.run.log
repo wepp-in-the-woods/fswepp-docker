@@ -1,0 +1,62 @@
+WR	wepp-15828	"10:41 am  Sunday April 11, 2010"	"LAB 7 +"	30	silt	native	200	4	13	15	50	1	25	20	inveg	ft
+WR	wepp-15880	"10:48 am  Sunday April 11, 2010"	"LAB 7 +"	30	silt	native	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-15912	"10:50 am  Sunday April 11, 2010"	"LAB 7 +"	30	silt	paved	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-15917	"10:53 am  Sunday April 11, 2010"	"LAB 7 +"	30	silt	paved	200	4	13	15	50	10	25	20	inbare	ft
+WR	wepp-15922	"10:54 am  Sunday April 11, 2010"	"LAB 7 +"	30	silt	paved	200	4	13	15	50	50	25	20	inbare	ft
+WR	wepp-15927	"10:54 am  Sunday April 11, 2010"	"LAB 7 +"	30	silt	paved	200	4	13	15	50	100	25	20	inbare	ft
+WR	wepp-15932	"10:54 am  Sunday April 11, 2010"	"LAB 7 +"	30	silt	paved	200	4	13	15	50	200	25	20	inbare	ft
+WR	wepp-15938	"10:54 am  Sunday April 11, 2010"	"LAB 7 +"	30	silt	paved	200	4	13	15	50	400	25	20	inbare	ft
+WR	wepp-15970	"10:55 am  Sunday April 11, 2010"	"LAB 7 +"	30	silt	paved	200	4	13	15	50	450	25	20	inbare	ft
+WR	wepp-15975	"10:55 am  Sunday April 11, 2010"	"LAB 7 +"	30	silt	paved	200	4	13	15	50	500	25	20	inbare	ft
+WR	wepp-15980	"10:55 am  Sunday April 11, 2010"	"LAB 7 +"	30	silt	paved	200	4	13	15	50	475	25	20	inbare	ft
+WR	wepp-15985	"10:55 am  Sunday April 11, 2010"	"LAB 7 +"	30	silt	paved	200	4	13	15	50	465	25	20	inbare	ft
+WR	wepp-15990	"10:55 am  Sunday April 11, 2010"	"LAB 7 +"	30	silt	paved	200	4	13	15	50	470	25	20	inbare	ft
+WR	wepp-15995	"10:55 am  Sunday April 11, 2010"	"LAB 7 +"	30	silt	paved	200	4	13	15	50	468	25	20	inbare	ft
+WR	wepp-16000	"10:56 am  Sunday April 11, 2010"	"LAB 7 +"	30	silt	paved	200	4	13	15	50	469	25	20	inbare	ft
+WR	wepp-16005	"10:56 am  Sunday April 11, 2010"	"LAB 7 +"	30	silt	paved	200	4	13	15	50	470	25	20	inbare	ft
+WR	wepp-16010	"10:56 am  Sunday April 11, 2010"	"LAB 7 +"	30	silt	paved	200	4	13	15	50	460	25	20	inbare	ft
+WR	wepp-16015	"10:56 am  Sunday April 11, 2010"	"LAB 7 +"	30	silt	paved	200	4	13	15	50	462	25	20	inbare	ft
+WR	wepp-16020	"10:56 am  Sunday April 11, 2010"	"LAB 7 +"	30	silt	paved	200	4	13	15	50	465	25	20	inbare	ft
+WR	wepp-16025	"10:56 am  Sunday April 11, 2010"	"LAB 7 +"	30	silt	paved	200	4	13	15	50	470	25	20	inbare	ft
+WR	wepp-16031	"10:57 am  Sunday April 11, 2010"	"LAB 7 +"	30	silt	paved	200	4	13	15	50	468	25	20	inbare	ft
+WR	wepp-16036	"10:57 am  Sunday April 11, 2010"	"LAB 7 +"	30	silt	paved	200	4	13	15	50	468	25	20	inbare	ft
+WR	wepp-16041	"10:57 am  Sunday April 11, 2010"	"LAB 7 +"	30	silt	paved	200	4	13	15	50	469	25	20	inbare	ft
+WR	wepp-16046	"10:58 am  Sunday April 11, 2010"	"LAB 7 +"	30	silt	graveled	200	4	13	15	50	1	25	20	outunrut	ft
+WR	wepp-16097	"11:00 am  Sunday April 11, 2010"	"LAB 7 +"	30	silt	graveled	200	4	13	15	50	1	25	20	inbare	ft
+WD	wepp-16133	"11:05 am  Sunday April 11, 2010"	"LAB 7 +"	30	silt	tree20	121.951219512195	0	30	100	20	tree20	22.8658536585366	30	5	100	20	0	ft	""
+WD	wepp-16139	"11:08 am  Sunday April 11, 2010"	"LAB 7 +"	30	silt	tall	121.951219512195	0	30	60	20	tree20	22.8658536585366	30	5	100	20	0	ft	""
+WD	wepp-16144	"11:08 am  Sunday April 11, 2010"	"LAB 7 +"	30	silt	tall	121.951219512195	0	30	60	20	tree20	22.8658536585366	30	5	100	20	0	ft	""
+WD	wepp-16153	"11:09 am  Sunday April 11, 2010"	"LAB 7 +"	30	silt	tall	121.951219512195	0	30	60	20	tree20	9.14634146341463	30	5	100	20	0	ft	""
+WD	wepp-16210	"11:10 am  Sunday April 11, 2010"	"LAB 7 +"	30	silt	high	121.951219512195	0	30	45	20	low	9.14634146341463	30	5	85	20	0	ft	""
+WD	wepp-16217	"11:12 am  Sunday April 11, 2010"	"LAB 7 +"	30	silt	high	121.951219512195	0	30	45	20	tree20	9.14634146341463	30	5	100	20	0	ft	""
+WD	wepp-16222	"11:12 am  Sunday April 11, 2010"	"LAB 7 +"	30	silt	high	121.951219512195	0	30	45	20	tree20	91.4634146341463	30	5	100	20	0	ft	""
+WD	wepp-16230	"11:13 am  Sunday April 11, 2010"	"LAB 7 +"	30	clay	tree20	121.951219512195	0	30	100	20	tree5	121.951219512195	30	5	100	20	0	ft	""
+WD	wepp-16235	"11:13 am  Sunday April 11, 2010"	"LAB 7 +"	30	clay	high	121.951219512195	0	30	45	20	tree20	121.951219512195	30	5	100	20	0	ft	""
+WD	wepp-16240	"11:13 am  Sunday April 11, 2010"	"LAB 7 +"	30	clay	high	121.951219512195	0	30	45	20	tree20	106.707317073171	30	5	100	20	0	ft	""
+WD	wepp-16245	"11:14 am  Sunday April 11, 2010"	"LAB 7 +"	30	clay	high	121.951219512195	0	30	45	20	tree20	99.0853658536585	30	5	100	20	0	ft	""
+WD	wepp-16250	"11:14 am  Sunday April 11, 2010"	"LAB 7 +"	30	clay	high	121.951219512195	0	30	45	20	tree20	91.4634146341463	30	5	100	20	0	ft	""
+WD	wepp-16255	"11:14 am  Sunday April 11, 2010"	"LAB 7 +"	30	clay	high	121.951219512195	0	30	45	20	tree20	92.9878048780488	30	5	100	20	0	ft	""
+WD	wepp-16260	"11:14 am  Sunday April 11, 2010"	"LAB 7 +"	30	clay	high	121.951219512195	0	30	45	20	tree20	91.4634146341463	30	5	100	20	0	ft	""
+WD	wepp-16312	"11:18 am  Sunday April 11, 2010"	"LAB 7 +"	30	clay	high	121.951219512195	0	30	45	20	high	9.14634146341463	30	5	45	20	0	ft	""
+WD	wepp-16344	"11:20 am  Sunday April 11, 2010"	"LAB 7 +"	30	clay	high	121.951219512195	0	30	45	20	low	9.14634146341463	30	5	85	20	0	ft	""
+WD	wepp-16349	"11:21 am  Sunday April 11, 2010"	"LAB 7 +"	30	silt	high	121.951219512195	0	30	45	20	low	9.14634146341463	30	5	85	20	0	ft	""
+WD	wepp-16354	"11:22 am  Sunday April 11, 2010"	"LAB 7 +"	30	silt	tall	121.951219512195	0	30	60	20	tree20	9.14634146341463	30	5	100	20	0	ft	""
+WD	wepp-16359	"11:23 am  Sunday April 11, 2010"	"LAB 7 +"	30	silt	high	121.951219512195	0	30	45	20	tree20	9.14634146341463	30	5	100	20	0	ft	""
+WD	wepp-16364	"11:23 am  Sunday April 11, 2010"	"LAB 7 +"	30	silt	high	121.951219512195	0	30	45	20	tree20	91.4634146341463	30	5	100	20	0	ft	""
+WD	wepp-16369	"11:23 am  Sunday April 11, 2010"	"LAB 7 +"	30	silt	high	121.951219512195	0	30	45	20	tree20	106.707317073171	30	5	100	20	0	ft	""
+WD	wepp-16374	"11:24 am  Sunday April 11, 2010"	"LAB 7 +"	30	silt	high	121.951219512195	0	30	45	20	tree20	99.0853658536585	30	5	100	20	0	ft	""
+WD	wepp-16379	"11:24 am  Sunday April 11, 2010"	"LAB 7 +"	30	silt	high	121.951219512195	0	30	45	20	tree20	103.658536585366	30	5	100	20	0	ft	""
+WD	wepp-16384	"11:24 am  Sunday April 11, 2010"	"LAB 7 +"	30	silt	high	121.951219512195	0	30	45	20	tree20	106.707317073171	30	5	100	20	0	ft	""
+WD	wepp-16389	"11:24 am  Sunday April 11, 2010"	"LAB 7 +"	30	silt	high	121.951219512195	0	30	45	20	tree20	105.182926829268	30	5	100	20	0	ft	""
+WD	wepp-16394	"11:25 am  Sunday April 11, 2010"	"LAB 7 +"	30	silt	high	121.951219512195	0	30	45	20	tree20	103.658536585366	30	5	100	20	0	ft	""
+WD	wepp-16426	"11:25 am  Sunday April 11, 2010"	"LAB 7 +"	30	silt	high	121.951219512195	0	30	45	20	tree20	104.268292682927	30	5	100	20	0	ft	""
+WD	wepp-16431	"11:26 am  Sunday April 11, 2010"	"LAB 7 +"	30	silt	high	121.951219512195	0	30	45	20	high	9.14634146341463	30	5	45	20	0	ft	""
+WR	wepp-16700	"12:02 pm  Sunday April 11, 2010"	"LAB 7 +"	30	clay	native	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-16780	"12:09 pm  Sunday April 11, 2010"	"HOUGHTON FAA AP MI +"	30	silt	graveled	200	4	13	15	50	1	25	20	outunrut	ft
+WR	wepp-16814	"12:14 pm  Sunday April 11, 2010"	"HOUGHTON FAA AP MI +"	30	silt	native	200	4	13	15	50	1	25	20	outrut	ft
+WR	wepp-16838	"12:15 pm  Sunday April 11, 2010"	"HOUGHTON FAA AP MI +"	30	silt	graveled	200	4	13	15	50	1	25	20	outunrut	ft
+WR	wepp-16843	"12:15 pm  Sunday April 11, 2010"	"HOUGHTON FAA AP MI +"	30	silt	graveled	200	4	13	15	50	1	25	20	outrut	ft
+WR	wepp-16848	"12:15 pm  Sunday April 11, 2010"	"HOUGHTON FAA AP MI +"	30	silt	graveled	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-16881	"12:16 pm  Sunday April 11, 2010"	"HOUGHTON FAA AP MI +"	30	silt	graveled	200	4	13	15	50	1	25	20	outunrut	ft
+WD	wepp-24743	"06:36 am  Wednesday April 18, 2012"	""				0	0	0	0	0		0	0	0	0	0	0		""
+WD	wepp-24744	"06:38 am  Wednesday April 18, 2012"	""				0	0	0	0	0		0	0	0	0	0	0		""

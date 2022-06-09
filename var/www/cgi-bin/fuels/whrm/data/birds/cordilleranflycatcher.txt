@@ -1,0 +1,83 @@
+#this files was modified by filegenwhrm.pl on: Wednesday, March 16, 2005.
+#taxgroup Birds species Cordilleran flycatcher / Empidonax occidentalis
+#
+# Rank
+2,2,1,-99,-99
+# Nestsite
+16,1:23,1:24,1:25,1:26,1:45,1
+# Reprorank
+1,-99:1,-99:1,-99:1,-99:1,-99:1,-99
+# Foraging Habitat
+23,1:24,1:25,1:26,1
+# Habitatrank
+1,-99:1,-99:1,-99:1,-99
+# Forage/Prey Availability
+-99
+# Preyrank
+-99
+# Predator Avoidance
+-99
+# Avoidrank
+-99
+# Refugia/Shelter
+-99
+# Shelterrank
+-99
+# Coverrank
+-99
+# Literature
+Distribution
+southern Montana south along Rocky Mountains into Mexico
+General Habitat
+mixed conifer; shaded forests, along streams
+Home or Activity Range
+1.8-6 ac (O'Neil et al. 2001)
+Canopy Cover
+no information available
+Specific Habitat Preferences
+cool dense forests of pine, fir and spruce, or aspen with dense foliage
+Nestsite Characteristics
+nests in a variety of locations, including stream banks, snags, roots of upturned trees, cliff ledges, buildings and tree branches, cavities of live trees; Li and Martin (1991) found low ground cover (anything but shrubs) at nest sites
+Foraging Habitat Characteristics
+aerial forager; feeding perches almost entirely restricted to  lower and middle-interior region of trees
+Diet
+flying insects; occasionally feeds on berries and seeds
+Predators
+hawks, jays, snakes
+Shelter Habitats
+no information available
+Response to Disturbance
+sensitive to snag removal (Balda 1975), less abundant on treated (logged) plots  (Szaro and Balda 1986)
+Sources of Information used in the Model
+Li and Martin 1991, Lowther 2000
+General Sources of Background Information
+Balda 1975, Szaro and Balda 1986, Li and Martin 1991, Lowther 2000, Sibley 2000, Alsop 2001, reviewed in O'Neil et al. 2001, reviewed in Sallabanks et al. 2003
+Summaries of Specific Studies
+Balda, Russell P. 1975. The relationship of secondary cavity nesters to snag densities in western coniferous forests. Wildlife Habitat Bulletin No. 1. Albuquerque, NM: USDA Forest Service, Southwestern Region. 37 p.
+
+Study Location: Arizona
+Habitat Description: PIPO
+Summary: The habitat needs and roles of secondary cavity nesters are examined in PIPO forests by compiling information from a variety of studies in Arizona. The density of secondary cavity nesters was determined and their importance in local ecology is addressed. Food guilds are outlined. Territory size and snag foraging behavior are outlined for a few species. The impact of snag removal is also discussed; snag removal resulted in a significant loss of breeding bird diversity as well as a decrease in the in the density of secondary cavity nesters. Species are ranked by their sensitivity to snag removal. Finally, the author outlines minimum snag densities that are appropriate for supporting secondary cavity nesters. The author concludes that 268 snags should be maintained for every 100 acres of forest. Note: western flycatchers named in this paper are assumed to be Cordilleran.
+
+Li, Pingjun; Martin, Thomas E. 1991. Nest-site selection and nesting success of cavity-nesting birds in high elevation forest drainages. The Auk. 108: 405-418.
+
+Study Location: central Arizona
+Habitat Description: PIPO, ABCO, PSME, PIST, aspen, Gambel oak
+Summary: Habitat features for successful and unsuccessful nest sites, nest sites vs. random sites, and differences among coexisting species of cavity nesting birds were identified. Species-specific characteristics are presented both for nest site and nest tree; birds differed in some of their habitat preferences. Aspen (mostly dead) were a preferred nesting species and were common in foraging patches, despite their low density in the study area. High density of aspen provides both more nesting sites and protects nests from predation, as predators have to search more sites to find nests. Foraging areas also had more conifers and fewer deciduous trees (other than aspen) than random areas. Preference for conifers is attributed to increased foraging opportunities.Failed nests were surrounded by denser foliage and were closer to conifers. Reduced nest success was also linked to lower nest height. Non-excavating species had lower nesting success than excavator species. 
+
+Lowther, Peter E. 2000. Pacific-slope flycatcher and Cordilleran Flycatcher. The Birds of North America. 556: 1-23.
+
+Study Location: throughout range
+Habitat Description: variety reviewed
+Summary: Birds of North America species accounts for the Pacific-slope and the Cordilleran flycatchers. Cordilleran flycatcher breeds in cool dense forests of pine, fir and spruce. May also nest in aspen stands. Forages in middle to lower canopy.
+
+Sallabanks, Rex; Marcot, Bruce G.; Riggs, Robert A.; Mehl, Carolyn A.; Arnett, Edward B. 2003. Wildlife of Eastside (Interior) Forests and Woodlands. In Wildlife-Habitat Relationships in Oregon and Washington. Corvallis, OR: Oregon State University Press. pp 213-238.
+
+Study Location: Blue Mountains, OR
+Habitat Description: ABGR
+Summary: This case history (1) evaluates bird-habitat relationships in primarily grand fir forests. The goals of this study were to assess how forest stand structure influences habitat selection by birds, to investigate bird use of specific forest structural classes, and to relate bird habitat use to potential management options that consider breeding bird habitat.
+
+Szaro, Robert C.; Balda, Russell P. 1986. Relationships among weather, habitat structure, and ponderosa pine forest birds. Journal of Wildlife Management. 50(2): 253-26
+Study Location: Coconino National Forest, Arizona
+Habitat Description: PIPO
+Summary: Seasonal avian communities were examined for their response to weather condition and treatment (logging) effects. While birds responded to climate, most notably precipitation, treatment effects appeared to be more influential. Species preferring open habitat (rock wren, American robin, western wood pe-wee and western bluebird) were highest on medium and heavy cut stands. Treated stands also had the highest abundance of chipping sparrows, broad-tailed hummingbirds, Grace's warbler, and dark-eyed juncos. Species preferring dense foliage (western flycatcher, pygmy nuthatch, red-faced warbler, hermit thrush, black-headed grosbeak) were less abundant in modified habitats. Note: western flycatchers named in this study are assumed to be Cordilleran.

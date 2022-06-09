@@ -1,0 +1,65 @@
+WF	wepp-6482	"09:59 am  Friday November 16, 2012"	"HELENA WB AP MT                         2"	loam	1177	100	0	53	53	40	20	200	0	ft
+WF	wepp-6586	"10:03 am  Friday November 16, 2012"	"HELENA WB AP MT                         2"	loam	1177	100	0	53	53	40	10	200	0	ft
+WF	wepp-6902	"10:27 am  Friday November 16, 2012"	"HELENA WB AP MT                         2"	loam	1177	100	0	53	53	80	10	200	0	ft
+WE	wepp-23881	"06:51 am  Monday November 19, 2012"	"HELENA WB AP MT"	loam	25	forest	0	53	53	1000	m			ft
+WF	wepp-23983	"06:54 am  Monday November 19, 2012"	"HELENA WB AP MT                         2"	loam	1177	300	0	53	53	40	10	200	0	ft
+WD	wepp-24239	"07:05 am  Monday November 19, 2012"	"HELENA WB AP MT"	10	loam	LowFire	1077	0	53	85	20	YoungForest	100	53	53	100	20	0	ft	""
+WD	wepp-24260	"07:06 am  Monday November 19, 2012"	"HELENA WB AP MT"	10	loam	LowFire	877	0	53	85	20	YoungForest	300	53	53	100	20	0	ft	""
+WD	wepp-24280	"07:07 am  Monday November 19, 2012"	"HELENA WB AP MT"	10	loam	LowFire	977	0	53	85	20	YoungForest	200	53	53	100	20	0	ft	""
+WD	wepp-24311	"07:08 am  Monday November 19, 2012"	"HELENA WB AP MT"	10	loam	LowFire	1027	0	53	85	20	YoungForest	150	53	53	100	20	0	ft	""
+WD	wepp-24334	"07:08 am  Monday November 19, 2012"	"HELENA WB AP MT"	10	loam	LowFire	977	0	53	85	20	YoungForest	200	53	53	100	20	0	ft	""
+WD	wepp-25382	"08:18 am  Monday November 19, 2012"	"HELENA WB AP MT"	10	loam	LowFire	90	27	20	85	20	YoungForest	10	20	10	100	20	0	ft	"Crystal Creek Units"
+WD	wepp-25429	"08:20 am  Monday November 19, 2012"	"HELENA WB AP MT"	10	loam	LowFire	90	30	20	85	20	YoungForest	10	20	10	100	20	0	ft	"Crystal Creek Units"
+WD	wepp-25451	"08:20 am  Monday November 19, 2012"	"HELENA WB AP MT"	10	loam	LowFire	90	30	25	85	20	YoungForest	10	25	20	100	20	0	ft	"Crystal Creek Units"
+WD	wepp-25470	"08:20 am  Monday November 19, 2012"	"HELENA WB AP MT"	10	loam	LowFire	85	30	25	85	20	YoungForest	15	25	20	100	20	0	ft	"Crystal Creek Units"
+WD	wepp-2499	"09:29 am  Monday December 17, 2012"	"HELENA WB AP MT"	10	clay	LowFire	500	25	20	85	20	YoungForest	100	30	5	100	20	0	ft	""
+WD	wepp-2542	"09:30 am  Monday December 17, 2012"	"HELENA WB AP MT"	10	clay	LowFire	500	25	20	85	20	YoungForest	100	25	10	100	20	0	ft	""
+WD	wepp-2572	"09:33 am  Monday December 17, 2012"	"HELENA WB AP MT"	10	clay	LowFire	500	25	20	85	20	YoungForest	100	25	10	100	20	0	ft	"Unit 16 100 ft buffer"
+WD	wepp-2781	"09:47 am  Monday December 17, 2012"	"HELENA WB AP MT"	10	loam	LowFire	40	27	20	85	20	OldForest	10	20	10	100	20	0	ft	""
+WD	wepp-3127	"10:10 am  Monday December 17, 2012"	"HELENA WB AP MT"	10	clay	LowFire	550	25	20	85	20	YoungForest	50	20	10	100	20	0	ft	""
+WE	wepp-26854	"10:40 am  Monday January 7, 2013"	"HELENA WB AP MT"	loam	35	range	0	35	20	1000	l	15	75	ft
+WE	wepp-26955	"10:41 am  Monday January 7, 2013"	"HELENA WB AP MT"	loam	50	range	0	35	20	1000	l	15	75	ft
+WE	wepp-27006	"10:42 am  Monday January 7, 2013"	"TOWNSEND MT"	loam	35	range	0	35	20	1000	l	15	75	ft
+WE	wepp-27084	"10:43 am  Monday January 7, 2013"	"HELENA WB AP MT"	loam	35	range	0	35	20	1000	l	15	75	ft
+WE	wepp-27156	"10:46 am  Monday January 7, 2013"	"HELENA WB AP MT"	loam	35	range	0	35	20	1000	l	15	75	ft
+WD	wepp-28620	"01:36 pm  Wednesday January 9, 2013"	"TOWNSEND MT"	10	loam	Sod	900	0	53	40	20	Sod	50	53	0	40	20	0	ft	""
+WD	wepp-28680	"01:43 pm  Wednesday January 9, 2013"	"TOWNSEND MT"	10	loam	LowFire	900	0	53	30	50	Bunchgrass	200	53	0	60	35	0	ft	""
+WD	wepp-30064	"08:40 am  Wednesday May 8, 2013"	"Telegraph Creek +"	10	sand	LowFire	350	0	25	85	42	LowFire	1200	35	41	85	42	0	ft	""
+WD	wepp-30084	"08:41 am  Wednesday May 8, 2013"	"Telegraph Creek +"	10	sand	LowFire	350	0	25	85	42	LowFire	1200	35	41	85	42	0	ft	"Unit 122 SW"
+WD	wepp-30113	"08:41 am  Wednesday May 8, 2013"	"Telegraph Creek +"	10	sand	HighFire	350	0	25	45	42	HighFire	1200	35	41	45	42	0	ft	"Unit 122 SW"
+WD	wepp-30136	"08:42 am  Wednesday May 8, 2013"	"Telegraph Creek +"	10	sand	HighFire	350	10	25	45	42	HighFire	1200	35	41	45	42	0	ft	"Unit 122 SW"
+WD	wepp-30157	"08:43 am  Wednesday May 8, 2013"	"Telegraph Creek +"	10	sand	HighFire	350	10	25	45	42	HighFire	1200	35	41	45	42	0	ft	"Unit 122 SW"
+WE	wepp-30228	"08:46 am  Wednesday May 8, 2013"	"Telegraph Creek +"	sand	43	forest	25	41	25	1000	m			ft
+WE	wepp-30308	"08:49 am  Wednesday May 8, 2013"	"Telegraph Creek +"	sand	43	forest	25	41	25	1000	l			ft
+WD	wepp-30387	"08:55 am  Wednesday May 8, 2013"	"Telegraph Creek +"	100	sand	HighFire	350	10	25	45	42	HighFire	1200	35	41	45	42	0	ft	"Unit 122 SW"
+WD	wepp-30484	"09:02 am  Wednesday May 8, 2013"	"Telegraph Creek +"	100	sand	HighFire	350	10	25	45	42	HighFire	1200	35	41	45	42	0	ft	"Unit 122 SW"
+WD	wepp-30654	"09:09 am  Wednesday May 8, 2013"	"Telegraph Creek +"	100	sand	LowFire	350	10	25	85	42	LowFire	1200	35	41	85	42	0	ft	"Unit 122 SW"
+WD	wepp-30881	"09:20 am  Wednesday May 8, 2013"	"Telegraph Creek +"	100	sand	LowFire	500	25	41	85	42	LowFire	500	41	25	85	42	0	ft	"Unit 122 SW"
+WE	wepp-30901	"09:21 am  Wednesday May 8, 2013"	"Telegraph Creek +"	sand	42	forest	25	41	25	1000	l			ft
+WD	wepp-30989	"09:28 am  Wednesday May 8, 2013"	"Telegraph Creek +"	100	sand	LowFire	1077	25	41	85	42	OldForest	200	41	25	100	42	0	ft	"Unit 122 SW"
+WD	wepp-31196	"09:42 am  Wednesday May 8, 2013"	"Telegraph Creek +"	100	sand	LowFire	1200	25	41	85	42	OldForest	100	41	25	100	42	0	ft	"Unit 122 SW"
+WD	wepp-31553	"10:19 am  Wednesday May 8, 2013"	"Telegraph Creek +"	100	sand	LowFire	1200	10	25	85	42	OldForest	100	41	25	100	50	0	ft	"Unit 122 NW"
+WD	wepp-969	"01:08 pm  Wednesday May 8, 2013"	"Telegraph Creek +"	100	sand	LowFire	700	17	25	85	42	OldForest	200	20	10	100	42	0	ft	"Unit 122 NW"
+WD	wepp-1075	"01:19 pm  Wednesday May 8, 2013"	"Telegraph Creek +"	10	clay	LowFire	700	17	25	85	42	OldForest	200	20	10	100	42	0	ft	""
+WD	wepp-1095	"01:19 pm  Wednesday May 8, 2013"	"Telegraph Creek +"	10	clay	LowFire	700	17	25	85	42	OldForest	200	20	10	100	42	0	ft	"169W"
+WD	wepp-1115	"01:19 pm  Wednesday May 8, 2013"	"Telegraph Creek +"	100	clay	LowFire	700	17	25	85	42	OldForest	200	20	10	100	42	0	ft	"169W"
+WD	wepp-1238	"01:32 pm  Wednesday May 8, 2013"	"Telegraph Creek +"	100	sand	LowFire	630	17	25	85	50	OldForest	100	20	10	100	50	0	ft	"169E"
+WD	wepp-1261	"01:33 pm  Wednesday May 8, 2013"	"Telegraph Creek +"	100	sand	LowFire	700	17	25	85	42	OldForest	200	20	10	100	42	0	ft	"169E"
+WD	wepp-1281	"01:34 pm  Wednesday May 8, 2013"	"Telegraph Creek +"	100	sand	LowFire	700	17	25	85	42	OldForest	200	20	10	100	42	0	ft	"169W"
+WD	wepp-1302	"01:35 pm  Wednesday May 8, 2013"	"Telegraph Creek +"	100	sand	LowFire	630	10	35	85	50	OldForest	100	35	10	100	50	0	ft	"169E"
+WD	wepp-1907	"02:08 pm  Wednesday May 8, 2013"	"Telegraph Creek +"	100	sand	LowFire	1200	50	35	85	70	OldForest	100	30	20	100	70	0	ft	"169E"
+WD	wepp-1927	"02:08 pm  Wednesday May 8, 2013"	"Telegraph Creek +"	100	sand	LowFire	1200	50	35	85	70	OldForest	100	30	20	100	70	0	ft	"123N"
+WD	wepp-1977	"02:13 pm  Wednesday May 8, 2013"	"Telegraph Creek +"	100	sand	LowFire	600	35	50	85	70	LowFire	600	50	35	85	70	0	ft	"123N"
+WD	wepp-1997	"02:13 pm  Wednesday May 8, 2013"	"Telegraph Creek +"	100	sand	LowFire	600	35	50	85	70	LowFire	600	50	35	85	70	0	ft	"123N No Buffer"
+WD	wepp-11401	"08:20 am  Thursday May 9, 2013"	"Telegraph Creek +"	10	clay	LowFire	1200	16	43	85	50	LowFire	50	17	10	85	20	0	ft	"123S "
+WD	wepp-11421	"08:20 am  Thursday May 9, 2013"	"Telegraph Creek +"	100	clay	LowFire	1200	16	43	85	50	LowFire	50	17	10	85	20	0	ft	"123S "
+WD	wepp-11441	"08:21 am  Thursday May 9, 2013"	"Telegraph Creek +"	100	sand	LowFire	1200	16	43	85	50	LowFire	50	17	10	85	20	0	ft	"123S "
+WD	wepp-11599	"08:43 am  Thursday May 9, 2013"	"Telegraph Creek +"	100	sand	LowFire	1200	20	10	85	45	OldForest	100	10	10	100	45	0	ft	"123S "
+WD	wepp-11621	"08:44 am  Thursday May 9, 2013"	"Telegraph Creek +"	100	sand	LowFire	1200	20	10	85	45	OldForest	100	10	10	100	45	0	ft	"123E With Buffer"
+WD	wepp-11755	"08:58 am  Thursday May 9, 2013"	"Telegraph Creek +"	100	sand	LowFire	600	20	10	85	75	LowFire	1200	10	10	85	45	0	ft	"142"
+WD	wepp-15468	"02:41 pm  Thursday May 9, 2013"	"Telegraph Creek +"	10	clay	LowFire	1158	10	20	85	50	LowFire	800	20	35	85	50	0	ft	"35N"
+WD	wepp-15488	"02:41 pm  Thursday May 9, 2013"	"Telegraph Creek +"	100	sand	LowFire	1158	10	20	85	50	LowFire	800	20	35	85	50	0	ft	"35N"
+WD	wepp-15598	"02:49 pm  Thursday May 9, 2013"	"Telegraph Creek +"	100	sand	LowFire	484	50	35	85	50	LowFire	671	35	10	85	50	0	ft	"35Mid"
+WD	wepp-15766	"03:07 pm  Thursday May 9, 2013"	"Telegraph Creek +"	100	sand	LowFire	484	50	35	85	50	LowFire	671	35	10	85	70	0	ft	"35Mid"
+WD	wepp-15816	"03:09 pm  Thursday May 9, 2013"	"Telegraph Creek +"	100	sand	LowFire	724	50	35	85	70	LowFire	230	35	20	85	70	0	ft	"35Mid"
+WD	wepp-15836	"03:10 pm  Thursday May 9, 2013"	"Telegraph Creek +"	100	sand	LowFire	724	50	35	85	70	LowFire	230	35	20	85	70	0	ft	"35S"

@@ -1,0 +1,25 @@
+WR	wepp-15010	"11:12 am  Monday December 6, 2010"	"mica creek +"	30	silt	native	200	4	13	15	50	1	25	20	inveg	ft
+WR	wepp-15021	"11:13 am  Monday December 6, 2010"	"mica creek +"	30	silt	native	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-15031	"11:14 am  Monday December 6, 2010"	"mica creek +"	30	silt	paved	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-15119	"11:17 am  Monday December 6, 2010"	"mica creek +"	30	clay	paved	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-15124	"11:17 am  Monday December 6, 2010"	"mica creek +"	30	clay	paved	200	4	13	15	50	100	25	20	inveg	ft
+WR	wepp-15129	"11:18 am  Monday December 6, 2010"	"mica creek +"	30	clay	paved	200	4	13	15	50	50	25	20	inveg	ft
+WR	wepp-15134	"11:18 am  Monday December 6, 2010"	"mica creek +"	30	clay	paved	200	4	13	15	50	50	25	20	inbare	ft
+WR	wepp-15144	"11:18 am  Monday December 6, 2010"	"mica creek +"	30	silt	paved	200	4	13	15	50	50	25	20	inbare	ft
+WR	wepp-15149	"11:18 am  Monday December 6, 2010"	"mica creek +"	30	silt	paved	200	4	13	15	50	100	25	20	inbare	ft
+WR	wepp-15154	"11:18 am  Monday December 6, 2010"	"mica creek +"	30	silt	paved	200	4	13	15	50	80	25	20	inbare	ft
+WR	wepp-15207	"11:19 am  Monday December 6, 2010"	"mica creek +"	30	silt	paved	200	4	13	15	50	75	25	20	inbare	ft
+WR	wepp-15212	"11:19 am  Monday December 6, 2010"	"mica creek +"	30	silt	paved	200	4	13	15	50	74	25	20	inbare	ft
+WR	wepp-15218	"11:19 am  Monday December 6, 2010"	"mica creek +"	30	silt	paved	200	4	13	15	50	72	25	20	inbare	ft
+WR	wepp-15224	"11:19 am  Monday December 6, 2010"	"mica creek +"	30	silt	paved	200	4	13	15	50	73	25	20	inbare	ft
+WR	wepp-15229	"11:20 am  Monday December 6, 2010"	"mica creek +"	30	silt	graveled	200	4	13	15	50	1	25	20	outunrut	ft
+WR	wepp-15237	"11:22 am  Monday December 6, 2010"	"mica creek +"	30	silt	native	200	4	13	15	50	1	25	20	inbare	ft
+WD	wepp-15292	"11:23 am  Monday December 6, 2010"	"mica creek +"	30	silt	tree20	400	0	30	100	20	tree20	75	30	5	100	20	0	ft	"a"
+WD	wepp-15308	"11:25 am  Monday December 6, 2010"	"mica creek +"	30	silt	tall	400	0	30	60	20	tree20	75	30	5	100	20	0	ft	"b"
+WD	wepp-15323	"11:27 am  Monday December 6, 2010"	"mica creek +"	30	silt	tall	400	0	30	60	20	tree5	75	30	5	100	20	0	ft	"c"
+WD	wepp-15355	"11:28 am  Monday December 6, 2010"	"mica creek +"	30	silt	high	400	0	30	45	20	low	30	30	5	85	20	0	ft	"d"
+WD	wepp-15370	"11:29 am  Monday December 6, 2010"	"mica creek +"	30	silt	high	400	0	30	45	20	low	100	30	5	85	20	0	ft	"e"
+WD	wepp-15377	"11:29 am  Monday December 6, 2010"	"mica creek +"	30	silt	high	400	0	30	45	20	low	500	30	5	85	20	0	ft	"e"
+WD	wepp-15401	"11:30 am  Monday December 6, 2010"	"mica creek +"	30	silt	high	400	0	30	45	20	low	1000	30	5	85	20	0	ft	"e"
+WD	wepp-15406	"11:30 am  Monday December 6, 2010"	"mica creek +"	30	silt	high	400	0	30	45	20	low	1200	30	5	85	20	0	ft	"e"
+WD	wepp-15436	"11:31 am  Monday December 6, 2010"	"mica creek +"	30	silt	high	400	0	30	45	20	high	1200	30	5	45	20	0	ft	"e"

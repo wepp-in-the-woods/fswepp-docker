@@ -1,0 +1,381 @@
+WE	wepp-25399	"04:25 pm  Thursday May 27, 1934"	"MOSCOW U OF I ID"	silt	20	forest	20	50	30	100	h			m
+WE	wepp-29638	"02:25 pm  Thursday April 21, 1987"	"Kalamata, Greece + +"	clay	20	forest	0	50	30	300	l			ft
+WE	wepp-17209	"02:59 pm  Thursday April 28, 1987"	"Kalamata, Greece + +"	clay	20	forest	0	50	30	100	m			m
+WF	wepp-1847	"02:55 pm  Wednesday May 4, 2011"	"MOSCOW U OF I ID                        1"	clay	200	50	0	30	15	40	20	20	4	ft
+WE	wepp-29510	"09:12 am  Monday May 23, 1915"	"DENVER WB AP CO"	clay	20	forest	0	30	40	600	l			ft
+WE	wepp-29947	"09:38 am  Monday May 23, 1913"	"CHEESMAN CO"	sand	15	forest	0	30	40	600	h			ft
+WE	wepp-30230	"09:55 am  Monday May 23, 1958"	"CHEESMAN CO"	sand	15	forest	0	30	40	400	h			ft
+WE	wepp-30321	"09:55 am  Monday May 23, 1956"	"CHEESMAN CO"	sand	15	forest	0	30	40	500	h			ft
+WE	wepp-30417	"09:56 am  Monday May 23, 1913"	"CHEESMAN CO"	sand	15	forest	0	30	40	600	h			ft
+WE	wepp-30507	"09:56 am  Monday May 23, 1944"	"CHEESMAN CO"	sand	15	forest	0	30	40	700	h			ft
+WE	wepp-30596	"09:56 am  Monday May 23, 1944"	"CHEESMAN CO"	sand	15	forest	0	30	40	800	h			ft
+WE	wepp-30692	"09:57 am  Monday May 23, 1958"	"CHEESMAN CO"	sand	15	forest	0	30	20	400	h			ft
+WE	wepp-30781	"09:57 am  Monday May 23, 1956"	"CHEESMAN CO"	sand	15	forest	0	30	20	500	h			ft
+WE	wepp-30870	"09:57 am  Monday May 23, 1913"	"CHEESMAN CO"	sand	15	forest	0	30	20	600	h			ft
+WE	wepp-30959	"09:58 am  Monday May 23, 1913"	"CHEESMAN CO"	sand	15	forest	0	30	20	700	h			ft
+WE	wepp-31055	"09:58 am  Monday May 23, 1913"	"CHEESMAN CO"	sand	15	forest	0	30	20	800	h			ft
+WE	wepp-31372	"10:28 am  Monday May 23, 1913"	"CHEESMAN CO"	sand	15	forest	0	30	40	600	h			ft
+WD	wepp-32224	"12:03 pm  Monday May 23, 2011"	"CHEESMAN CO"	50	sand	HighFire	200	0	30	25	15	HighFire	200	30	40	25	15	0	ft	"1"
+WD	wepp-32244	"12:03 pm  Monday May 23, 2011"	"CHEESMAN CO"	50	sand	HighFire	250	0	30	25	15	HighFire	250	30	40	25	15	0	ft	"2"
+WD	wepp-32264	"12:04 pm  Monday May 23, 2011"	"CHEESMAN CO"	50	sand	HighFire	300	0	30	25	15	HighFire	300	30	40	25	15	0	ft	"3"
+WD	wepp-32284	"12:04 pm  Monday May 23, 2011"	"CHEESMAN CO"	50	sand	HighFire	350	0	30	25	15	HighFire	350	30	40	25	15	0	ft	"4"
+WD	wepp-32304	"12:04 pm  Monday May 23, 2011"	"CHEESMAN CO"	50	sand	HighFire	400	0	30	25	15	HighFire	400	30	40	25	15	0	ft	"5"
+WD	wepp-32354	"12:09 pm  Monday May 23, 2011"	"CHEESMAN CO"	50	sand	high	200	0	30	25	15	tree5	200	30	40	25	15	0	ft	""
+WD	wepp-32360	"12:09 pm  Monday May 23, 2011"	"CHEESMAN CO"	50	sand	high	200	0	30	25	15	tree5	200	30	40	25	15	0	ft	""
+WD	wepp-32392	"12:11 pm  Monday May 23, 2011"	"CHEESMAN CO"	50	sand	high	200	0	30	25	15	high	200	30	40	45	15	0	ft	""
+WD	wepp-32397	"12:11 pm  Monday May 23, 2011"	"CHEESMAN CO"	50	sand	high	200	0	30	25	15	high	200	30	40	25	15	0	ft	""
+WD	wepp-32402	"12:11 pm  Monday May 23, 2011"	"CHEESMAN CO"	50	sand	high	200	0	30	25	15	high	200	30	40	25	15	0	ft	""
+WD	wepp-32488	"12:22 pm  Monday May 23, 2011"	"CHEESMAN CO"	50	sand	HighFire	200	0	30	25	15	HighFire	200	30	40	25	15	0	ft	"1"
+WD	wepp-32508	"12:22 pm  Monday May 23, 2011"	"CHEESMAN CO"	50	sand	high	200	0	30	25	15	high	200	30	40	25	15	0	ft	""
+WD	wepp-32514	"12:24 pm  Monday May 23, 2011"	"CHEESMAN CO"	50	sand	HighFire	200	0	30	25	15	HighFire	200	30	40	25	15	0	ft	"1"
+WD	wepp-32534	"12:24 pm  Monday May 23, 2011"	"CHEESMAN CO"	50	sand	HighFire	250	0	30	25	15	HighFire	250	30	40	25	15	0	ft	"2"
+WD	wepp-32541	"12:24 pm  Monday May 23, 2011"	"CHEESMAN CO"	50	sand	HighFire	300	0	30	25	15	HighFire	300	30	40	25	15	0	ft	"3"
+WD	wepp-32561	"12:24 pm  Monday May 23, 2011"	"CHEESMAN CO"	50	sand	HighFire	350	0	30	25	15	HighFire	350	30	40	25	15	0	ft	"4"
+WD	wepp-32581	"12:24 pm  Monday May 23, 2011"	"CHEESMAN CO"	50	sand	HighFire	400	0	30	25	15	HighFire	400	30	40	25	15	0	ft	"5"
+WD	wepp-32706	"12:36 pm  Monday May 23, 2011"	"CHEESMAN CO"	50	sand	HighFire	200	0	30	25	15	HighFire	200	30	40	25	15	0	m	"1"
+WD	wepp-32752	"12:36 pm  Monday May 23, 2011"	"CHEESMAN CO"	50	sand	HighFire	250	0	30	25	15	HighFire	250	30	40	25	15	0	m	"2"
+WD	wepp-303	"12:36 pm  Monday May 23, 2011"	"CHEESMAN CO"	50	sand	HighFire	300	0	30	25	15	HighFire	300	30	40	25	15	0	m	"3"
+WD	wepp-323	"12:36 pm  Monday May 23, 2011"	"CHEESMAN CO"	50	sand	HighFire	350	0	30	25	15	HighFire	350	30	40	25	15	0	m	"4"
+WD	wepp-343	"12:36 pm  Monday May 23, 2011"	"CHEESMAN CO"	50	sand	HighFire	400	0	30	25	15	HighFire	400	30	40	25	15	0	m	"5"
+WD	wepp-364	"12:36 pm  Monday May 23, 2011"	"CHEESMAN CO"	50	sand	HighFire	200	0	30	25	15	HighFire	200	30	40	25	15	0	ft	"1"
+WD	wepp-384	"12:37 pm  Monday May 23, 2011"	"CHEESMAN CO"	50	sand	HighFire	250	0	30	25	15	HighFire	250	30	40	25	15	0	ft	"2"
+WD	wepp-404	"12:37 pm  Monday May 23, 2011"	"CHEESMAN CO"	50	sand	HighFire	300	0	30	25	15	HighFire	300	30	40	25	15	0	ft	"3"
+WD	wepp-427	"12:37 pm  Monday May 23, 2011"	"CHEESMAN CO"	50	sand	HighFire	350	0	30	25	15	HighFire	350	30	40	25	15	0	ft	"4"
+WD	wepp-447	"12:37 pm  Monday May 23, 2011"	"CHEESMAN CO"	50	sand	HighFire	400	0	30	25	15	HighFire	400	30	40	25	15	0	ft	"5"
+WE	wepp-13676	"02:50 pm  Thursday August 25, 2011"	"CHEESMAN CO"	clay	20	forest	0	50	30	300	l			ft
+WE	wepp-13733	"02:52 pm  Thursday August 25, 2011"	"MOSCOW U OF I ID"	clay	20	forest	0	50	30	100	l			m
+WE	wepp-13808	"02:55 pm  Thursday August 25, 2011"	"FLAGSTAFF WB AP AZ"	clay	20	forest	0	50	30	100	l			m
+WE	wepp-13912	"03:01 pm  Thursday August 25, 2011"	"STEVENSVILLE MT"	sand	40	forest	0	50	30	57	h			m
+WE	wepp-14002	"03:01 pm  Thursday August 25, 2011"	"STEVENSVILLE MT"	sand	40	forest	57	57	57	57	h			m
+WE	wepp-14249	"03:26 pm  Thursday August 25, 2011"	"STEVENSVILLE MT"	sand	40	forest	57	57	57	57	h			m
+WE	wepp-14369	"03:28 pm  Thursday August 25, 2011"	"STEVENSVILLE MT"	sand	40	forest	57	57	57	57	h			m
+WE	wepp-14709	"04:07 pm  Thursday August 25, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	40	121	h			m
+WE	wepp-14798	"04:07 pm  Thursday August 25, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	40	152	h			m
+WE	wepp-14887	"04:07 pm  Thursday August 25, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	40	183	h			m
+WE	wepp-14976	"04:08 pm  Thursday August 25, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	40	213	h			m
+WE	wepp-15092	"04:08 pm  Thursday August 25, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	40	121	h			m
+WE	wepp-15181	"04:08 pm  Thursday August 25, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	40	152	h			m
+WE	wepp-15270	"04:09 pm  Thursday August 25, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	40	183	h			m
+WE	wepp-15359	"04:09 pm  Thursday August 25, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	40	213	h			m
+WE	wepp-15448	"04:09 pm  Thursday August 25, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	40	244	h			m
+WE	wepp-15538	"04:09 pm  Thursday August 25, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	20	121	h			m
+WE	wepp-15627	"04:10 pm  Thursday August 25, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	20	152	h			m
+WE	wepp-15716	"04:10 pm  Thursday August 25, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	40	100	h			m
+WE	wepp-15805	"04:11 pm  Thursday August 25, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	40	150	h			m
+WE	wepp-15894	"04:11 pm  Thursday August 25, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	40	200	h			m
+WE	wepp-15983	"04:11 pm  Thursday August 25, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	40	150	h			m
+WE	wepp-16072	"04:12 pm  Thursday August 25, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	40	300	h			m
+WE	wepp-16161	"04:12 pm  Thursday August 25, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	20	100	h			m
+WE	wepp-16250	"04:12 pm  Thursday August 25, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	20	150	h			m
+WE	wepp-16339	"04:12 pm  Thursday August 25, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	20	200	h			m
+WE	wepp-16428	"04:13 pm  Thursday August 25, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	20	250	h			m
+WE	wepp-16519	"04:13 pm  Thursday August 25, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	20	300	h			m
+WF	wepp-790	"02:50 pm  Monday October 10, 2011"	"CHEESMAN CO"	clay	200	50	0	30	15	40	20	20	4	ft
+WE	wepp-1164	"03:39 pm  Monday October 10, 2011"	"STEVENSVILLE MT"	sand	20	forest	57	57	57	57	m			m
+WE	wepp-1350	"03:46 pm  Monday October 10, 2011"	"CHEESMAN CO"	sand	20	forest	57	57	57	57	m			m
+WE	wepp-6582	"01:33 pm  Thursday October 13, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	40	400	h			ft
+WE	wepp-6711	"01:39 pm  Thursday October 13, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	40	400	h			ft
+WE	wepp-6828	"01:40 pm  Thursday October 13, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	40	400	h			ft
+WE	wepp-6949	"01:42 pm  Thursday October 13, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	40	400	h			ft
+WE	wepp-7039	"01:44 pm  Thursday October 13, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	40	400	h			ft
+WE	wepp-7129	"01:44 pm  Thursday October 13, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	40	400	h			ft
+WE	wepp-7266	"01:47 pm  Thursday October 13, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	40	400	h			ft
+WE	wepp-7357	"01:49 pm  Thursday October 13, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	40	400	h			ft
+WE	wepp-9157	"03:34 pm  Thursday October 13, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	40	400	h			ft
+WE	wepp-9306	"03:37 pm  Thursday October 13, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	40	400	h			ft
+WE	wepp-9398	"03:39 pm  Thursday October 13, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	40	400	h			ft
+WE	wepp-10495	"03:46 pm  Thursday October 13, 2011"	"STEVENSVILLE MT"	sand	15	forest	0	30	40	400	h			ft
+WE	wepp-10589	"03:48 pm  Thursday October 13, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	40	400	h			ft
+WE	wepp-10681	"03:50 pm  Thursday October 13, 2011"	"CHEESMAN CO"	sand	10	forest	10	10	10	300	h			ft
+WE	wepp-10771	"03:50 pm  Thursday October 13, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	40	400	h			ft
+WE	wepp-10865	"03:51 pm  Thursday October 13, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	40	500	h			ft
+WE	wepp-10984	"03:53 pm  Thursday October 13, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	40	500	h			ft
+WE	wepp-11076	"03:56 pm  Thursday October 13, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	40	400	h			ft
+WE	wepp-11197	"03:59 pm  Thursday October 13, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	40	400	h			ft
+WE	wepp-4896	"06:40 pm  Monday October 17, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	40	400	h			ft
+WE	wepp-5033	"06:46 pm  Monday October 17, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	40	400	h			ft
+WE	wepp-5122	"06:46 pm  Monday October 17, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	40	500	h			ft
+WE	wepp-5211	"06:47 pm  Monday October 17, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	40	600	h			ft
+WE	wepp-5300	"06:47 pm  Monday October 17, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	40	700	h			ft
+WE	wepp-5389	"06:47 pm  Monday October 17, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	40	800	h			ft
+WE	wepp-5478	"06:48 pm  Monday October 17, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	40	400	h			ft
+WE	wepp-5570	"06:49 pm  Monday October 17, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	40	400	h			ft
+WE	wepp-5659	"06:49 pm  Monday October 17, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	40	500	h			ft
+WE	wepp-5748	"06:49 pm  Monday October 17, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	40	600	h			ft
+WE	wepp-5837	"06:50 pm  Monday October 17, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	40	700	h			ft
+WE	wepp-5954	"06:50 pm  Monday October 17, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	40	800	h			ft
+WE	wepp-6043	"06:50 pm  Monday October 17, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	40	400	h			ft
+WE	wepp-6132	"06:51 pm  Monday October 17, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	40	500	h			ft
+WE	wepp-6221	"06:51 pm  Monday October 17, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	40	600	h			ft
+WE	wepp-6310	"06:51 pm  Monday October 17, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	40	700	h			ft
+WE	wepp-6399	"06:51 pm  Monday October 17, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	40	800	h			ft
+WE	wepp-4254	"09:10 am  Thursday October 20, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	40	400	h			ft
+WE	wepp-4349	"09:11 am  Thursday October 20, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	40	500	h			ft
+WE	wepp-4438	"09:11 am  Thursday October 20, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	40	600	h			ft
+WE	wepp-4533	"09:11 am  Thursday October 20, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	40	700	h			ft
+WE	wepp-4623	"09:12 am  Thursday October 20, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	40	800	h			ft
+WE	wepp-4717	"09:12 am  Thursday October 20, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	40	400	h			ft
+WE	wepp-4807	"09:12 am  Thursday October 20, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	40	500	h			ft
+WE	wepp-4896	"09:12 am  Thursday October 20, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	40	600	h			ft
+WE	wepp-4985	"09:13 am  Thursday October 20, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	40	700	h			ft
+WE	wepp-5074	"09:13 am  Thursday October 20, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	40	800	h			ft
+WE	wepp-7925	"02:34 pm  Thursday October 20, 2011"	"CHEESMAN CO"	sand	20	forest	0	50	30	300	l			ft
+WE	wepp-20491	"02:54 pm  Friday October 21, 2011"	"CHEESMAN CO"	sand	20	forest	0	50	30	300	l			ft
+WE	wepp-15950	"09:03 am  Thursday November 3, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	40	400	h			ft
+WE	wepp-16043	"09:03 am  Thursday November 3, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	40	500	h			ft
+WE	wepp-16139	"09:03 am  Thursday November 3, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	40	600	h			ft
+WE	wepp-16282	"09:04 am  Thursday November 3, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	40	700	h			ft
+WE	wepp-16371	"09:04 am  Thursday November 3, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	40	800	h			ft
+WE	wepp-16460	"09:04 am  Thursday November 3, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	40	400	h			ft
+WE	wepp-16549	"09:05 am  Thursday November 3, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	40	500	h			ft
+WE	wepp-16638	"09:05 am  Thursday November 3, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	40	600	h			ft
+WE	wepp-16797	"09:05 am  Thursday November 3, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	40	700	h			ft
+WE	wepp-16973	"09:06 am  Thursday November 3, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	40	800	h			ft
+WE	wepp-18463	"10:20 am  Thursday November 3, 2011"	"CHEESMAN CO"	sand	20	forest	0	50	30	300	l			ft
+WE	wepp-20467	"11:19 am  Thursday November 3, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	40	400	h			ft
+WE	wepp-20556	"11:19 am  Thursday November 3, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	40	500	h			ft
+WE	wepp-20645	"11:20 am  Thursday November 3, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	40	600	h			ft
+WE	wepp-20734	"11:20 am  Thursday November 3, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	40	700	h			ft
+WE	wepp-20823	"11:20 am  Thursday November 3, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	40	800	h			ft
+WE	wepp-20912	"11:21 am  Thursday November 3, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	40	400	h			ft
+WE	wepp-21001	"11:21 am  Thursday November 3, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	40	500	h			ft
+WE	wepp-21090	"11:22 am  Thursday November 3, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	40	600	h			ft
+WE	wepp-21179	"11:23 am  Thursday November 3, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	40	700	h			ft
+WE	wepp-21268	"11:23 am  Thursday November 3, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	40	800	h			ft
+WE	wepp-21433	"11:43 am  Thursday November 3, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	40	400	h			ft
+WE	wepp-21531	"11:44 am  Thursday November 3, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	40	500	h			ft
+WE	wepp-21630	"11:44 am  Thursday November 3, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	40	600	h			ft
+WE	wepp-21744	"11:45 am  Thursday November 3, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	40	700	h			ft
+WE	wepp-21833	"11:45 am  Thursday November 3, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	40	800	h			ft
+WE	wepp-21922	"11:46 am  Thursday November 3, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	40	400	h			ft
+WE	wepp-22011	"11:46 am  Thursday November 3, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	40	500	h			ft
+WE	wepp-22100	"11:47 am  Thursday November 3, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	40	600	h			ft
+WE	wepp-22189	"11:47 am  Thursday November 3, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	40	700	h			ft
+WE	wepp-22278	"11:48 am  Thursday November 3, 2011"	"CHEESMAN CO"	sand	15	forest	0	30	40	800	h			ft
+WD	wepp-9016	"12:00 pm  Tuesday November 15, 2011"	"SEXTON SUMMIT WB OR"	10	clay	HighFire	50	0	30	45	20	LowFire	50	30	5	85	20	0	m	""
+WD	wepp-9035	"12:00 pm  Tuesday November 15, 2011"	"SEXTON SUMMIT WB OR"	10	sand	HighFire	50	0	30	45	20	LowFire	50	30	5	85	20	0	m	""
+WD	wepp-28172	"08:03 am  Thursday November 17, 2011"	"CHEESMAN CO"	10	sand	HighFire	500	20	30	20	15	LowFire	500	30	20	20	15	0	m	"1"
+WD	wepp-28192	"08:03 am  Thursday November 17, 2011"	"CHEESMAN CO"	10	sand	HighFire	500	20	30	20	15	LowFire	500	30	20	20	15	0	m	"2"
+WD	wepp-28199	"08:03 am  Thursday November 17, 2011"	"CHEESMAN CO"	10	sand	HighFire	500	20	30	20	15	LowFire	500	30	20	20	15	0	m	"3"
+WD	wepp-28206	"08:03 am  Thursday November 17, 2011"	"CHEESMAN CO"	10	sand	HighFire	500	20	30	20	15	LowFire	500	30	20	20	15	0	m	"4"
+WD	wepp-28213	"08:03 am  Thursday November 17, 2011"	"CHEESMAN CO"	10	sand	HighFire	500	20	30	20	15	LowFire	500	30	20	20	15	0	m	"5"
+WD	wepp-28220	"08:03 am  Thursday November 17, 2011"	"CHEESMAN CO"	10	sand	HighFire	500	20	30	20	15	LowFire	500	30	20	20	15	0	m	"6"
+WD	wepp-28227	"08:03 am  Thursday November 17, 2011"	"CHEESMAN CO"	10	sand	HighFire	500	20	30	20	15	LowFire	500	30	20	20	15	0	m	"7"
+WD	wepp-28234	"08:03 am  Thursday November 17, 2011"	"CHEESMAN CO"	10	sand	HighFire	500	20	30	20	15	LowFire	500	30	20	20	15	0	m	"8"
+WD	wepp-28241	"08:03 am  Thursday November 17, 2011"	"CHEESMAN CO"	10	sand	HighFire	500	20	30	20	15	LowFire	500	30	20	20	15	0	m	"9"
+WD	wepp-28283	"08:10 am  Thursday November 17, 2011"	"CHEESMAN CO"	10	sand	HighFire	50	0	20	20	15	LowFire	50	20	20	20	15	0	m	"1"
+WD	wepp-28303	"08:10 am  Thursday November 17, 2011"	"CHEESMAN CO"	10	sand	HighFire	50	0	20	20	15	LowFire	50	20	20	20	15	0	m	"2"
+WD	wepp-28310	"08:10 am  Thursday November 17, 2011"	"CHEESMAN CO"	10	sand	HighFire	50	0	20	20	15	LowFire	50	20	20	20	15	0	m	"3"
+WD	wepp-28317	"08:10 am  Thursday November 17, 2011"	"CHEESMAN CO"	10	sand	HighFire	50	0	20	20	15	LowFire	50	20	20	20	15	0	m	"4"
+WD	wepp-28324	"08:10 am  Thursday November 17, 2011"	"CHEESMAN CO"	10	sand	HighFire	50	0	20	20	15	LowFire	50	20	20	20	15	0	m	"5"
+wt	wepp-28460	"Nov 17, 2011"	"STEVENSVILLE MT"	granitic	HighFire	0	30	50	45	20	LowFire	30	5	50	85	20	m	""
+WD	wepp-28511	"08:27 am  Thursday November 17, 2011"	"STEVENSVILLE MT"	10	sand	HighFire	50	0	30	45	20	LowFire	50	30	5	85	20	0	m	""
+WD	wepp-28580	"08:32 am  Thursday November 17, 2011"	"STEVENSVILLE MT"	10	sand	HighFire	50	0	30	50	20	LowFire	50	30	5	85	20	0	m	"1"
+WD	wepp-28600	"08:32 am  Thursday November 17, 2011"	"STEVENSVILLE MT"	10	sand	HighFire	50	0	20	50	20	LowFire	50	30	5	85	20	0	m	"2"
+WD	wepp-28607	"08:32 am  Thursday November 17, 2011"	"STEVENSVILLE MT"	10	sand	HighFire	50	0	20	50	20	LowFire	50	30	5	85	20	0	m	"3"
+WD	wepp-28614	"08:32 am  Thursday November 17, 2011"	"STEVENSVILLE MT"	10	sand	HighFire	50	0	20	50	20	LowFire	50	30	5	85	20	0	m	"4"
+WD	wepp-28621	"08:32 am  Thursday November 17, 2011"	"STEVENSVILLE MT"	10	sand	HighFire	50	0	20	50	20	LowFire	50	30	5	85	20	0	m	"5"
+WE	wepp-28631	"08:34 am  Thursday November 17, 2011"	"STEVENSVILLE MT"	sand	20	forest	0	50	30	50	h			m
+WE	wepp-28763	"08:40 am  Thursday November 17, 2011"	"STEVENSVILLE MT"	sand	20	forest	0	30	40	100	h			m
+WE	wepp-28855	"08:41 am  Thursday November 17, 2011"	"STEVENSVILLE MT"	sand	20	forest	0	30	40	100	h			m
+WE	wepp-28969	"08:41 am  Thursday November 17, 2011"	"STEVENSVILLE MT"	sand	20	forest	0	30	40	100	h			m
+WE	wepp-29058	"08:41 am  Thursday November 17, 2011"	"STEVENSVILLE MT"	sand	20	forest	0	30	40	100	h			m
+WE	wepp-29147	"08:41 am  Thursday November 17, 2011"	"STEVENSVILLE MT"	sand	20	forest	0	30	40	100	h			m
+WE	wepp-29237	"08:42 am  Thursday November 17, 2011"	"STEVENSVILLE MT"	sand	20	forest	0	30	40	100	h			m
+WE	wepp-29327	"08:42 am  Thursday November 17, 2011"	"STEVENSVILLE MT"	sand	20	forest	0	30	40	100	h			m
+WE	wepp-29443	"08:42 am  Thursday November 17, 2011"	"STEVENSVILLE MT"	sand	20	forest	0	30	40	100	h			m
+WE	wepp-29534	"08:43 am  Thursday November 17, 2011"	"STEVENSVILLE MT"	sand	20	forest	0	30	40	100	h			m
+WE	wepp-29624	"08:43 am  Thursday November 17, 2011"	"STEVENSVILLE MT"	sand	20	forest	0	30	40	100	h			m
+WE	wepp-29713	"08:43 am  Thursday November 17, 2011"	"STEVENSVILLE MT"	sand	20	forest	0	30	40	100	h			m
+WE	wepp-29802	"08:44 am  Thursday November 17, 2011"	"STEVENSVILLE MT"	sand	20	forest	0	30	40	100	h			m
+WE	wepp-29910	"08:44 am  Thursday November 17, 2011"	"STEVENSVILLE MT"	sand	20	forest	0	30	40	100	h			m
+WD	wepp-9727	"03:44 pm  Thursday November 17, 2011"	"STEVENSVILLE MT"	10	sand	HighFire	50	0	50	45	20	HighFire	50	50	40	20	20	0	ft	""
+WD	wepp-9768	"03:46 pm  Thursday November 17, 2011"	"STEVENSVILLE MT"	10	sand	HighFire	50	0	50	45	20	HighFire	50	50	40	20	20	0	m	""
+WD	wepp-9815	"03:46 pm  Thursday November 17, 2011"	"STEVENSVILLE MT"	10	sand	HighFire	100	0	50	45	20	HighFire	100	50	40	20	20	0	m	""
+WD	wepp-9835	"03:46 pm  Thursday November 17, 2011"	"CHEESMAN CO"	10	sand	HighFire	100	0	50	45	20	HighFire	100	50	40	20	20	0	m	""
+WD	wepp-9858	"03:47 pm  Thursday November 17, 2011"	"CHEESMAN CO"	10	sand	HighFire	50	0	50	45	20	HighFire	50	50	40	20	20	0	m	""
+WD	wepp-9919	"03:54 pm  Thursday November 17, 2011"	"CHEESMAN CO"	10	sand	HighFire	50	0	50	45	20	HighFire	50	50	40	20	20	0	m	"1"
+WD	wepp-9939	"03:54 pm  Thursday November 17, 2011"	"CHEESMAN CO"	10	sand	HighFire	50	0	50	45	20	HighFire	50	50	40	20	20	0	m	"2"
+WD	wepp-9946	"03:54 pm  Thursday November 17, 2011"	"CHEESMAN CO"	10	sand	HighFire	50	0	50	45	20	HighFire	50	50	40	20	20	0	m	"3"
+WD	wepp-9953	"03:54 pm  Thursday November 17, 2011"	"CHEESMAN CO"	10	sand	HighFire	50	0	50	45	20	HighFire	50	50	40	20	20	0	m	"4"
+WD	wepp-9960	"03:54 pm  Thursday November 17, 2011"	"CHEESMAN CO"	10	sand	HighFire	50	0	50	45	20	HighFire	50	50	40	20	20	0	m	"5"
+WE	wepp-9972	"03:56 pm  Thursday November 17, 2011"	"CHEESMAN CO"	sand	20	forest	0	50	40	100	h			m
+wt	wepp-10142	"Nov 17, 2011"	"MOUNT SHASTA CA"	granitic	YoungForest	0	30	50	100	20	YoungForest	30	5	50	85	20	m	""
+wt	wepp-10174	"Nov 17, 2011"	"MOUNT SHASTA CA"	granitic	YoungForest	0	30	50	100	20	YoungForest	30	5	50	80	20	ft	""
+wt	wepp-10205	"Nov 17, 2011"	"MOUNT SHASTA CA"	granitic	YoungForest	0	50	50	100	20	YoungForest	40	5	50	80	20	ft	""
+wt	wepp-10225	"Nov 17, 2011"	"MOUNT SHASTA CA"	granitic	YoungForest	0	50	50	70	20	YoungForest	40	5	50	80	20	ft	""
+wt	wepp-10245	"Nov 17, 2011"	"MOUNT SHASTA CA"	granitic	YoungForest	0	50	50	70	20	YoungForest	50	40	50	80	20	ft	""
+WE	wepp-16126	"12:55 pm  Thursday April 12, 2012"	"CHEESMAN CO"	sand	15	forest	0	30	40	400	h			ft
+WE	wepp-16215	"12:55 pm  Thursday April 12, 2012"	"CHEESMAN CO"	sand	15	forest	0	30	40	500	h			ft
+WE	wepp-16304	"12:55 pm  Thursday April 12, 2012"	"CHEESMAN CO"	sand	15	forest	0	30	40	600	h			ft
+WE	wepp-16393	"12:55 pm  Thursday April 12, 2012"	"CHEESMAN CO"	sand	15	forest	0	30	40	700	h			ft
+WE	wepp-16482	"12:56 pm  Thursday April 12, 2012"	"CHEESMAN CO"	sand	15	forest	0	30	40	800	h			ft
+WE	wepp-16571	"12:56 pm  Thursday April 12, 2012"	"CHEESMAN CO"	sand	15	forest	0	30	40	400	h			ft
+WE	wepp-16660	"12:56 pm  Thursday April 12, 2012"	"CHEESMAN CO"	sand	15	forest	0	30	40	500	h			ft
+WE	wepp-16749	"12:57 pm  Thursday April 12, 2012"	"CHEESMAN CO"	sand	15	forest	0	30	40	600	h			ft
+WE	wepp-16838	"12:57 pm  Thursday April 12, 2012"	"CHEESMAN CO"	sand	15	forest	0	30	40	700	h			ft
+WE	wepp-16927	"12:57 pm  Thursday April 12, 2012"	"CHEESMAN CO"	sand	15	forest	0	30	40	800	h			ft
+WE	wepp-17461	"02:18 pm  Thursday April 12, 2012"	"near ST GEORGE PH UT +"	sand	30	forest	20	20	20	300	h			ft
+WE	wepp-17582	"02:19 pm  Thursday April 12, 2012"	"near ST GEORGE PH UT +"	sand	30	forest	60	60	60	300	h			ft
+WE	wepp-17778	"02:23 pm  Thursday April 12, 2012"	"OGDEN SUGAR FACTORY UT"	sand	20	forest	60	60	60	300	h			ft
+WE	wepp-18257	"03:46 pm  Thursday April 12, 2012"	"OGDEN SUGAR FACTORY UT"	sand	20	forest	20	20	20	300	l			ft
+WE	wepp-18306	"03:47 pm  Thursday April 12, 2012"	"OGDEN SUGAR FACTORY UT"	sand	20	forest	40	40	40	300	l			ft
+WE	wepp-18357	"03:47 pm  Thursday April 12, 2012"	"OGDEN SUGAR FACTORY UT"	sand	20	forest	60	60	60	300	l			ft
+WE	wepp-18407	"03:47 pm  Thursday April 12, 2012"	"OGDEN SUGAR FACTORY UT"	sand	20	forest	20	20	20	300	h			ft
+WE	wepp-18522	"03:47 pm  Thursday April 12, 2012"	"OGDEN SUGAR FACTORY UT"	sand	20	forest	40	40	40	300	m			ft
+WE	wepp-18591	"03:47 pm  Thursday April 12, 2012"	"OGDEN SUGAR FACTORY UT"	sand	20	forest	60	60	60	300	m			ft
+WE	wepp-18660	"03:48 pm  Thursday April 12, 2012"	"OGDEN SUGAR FACTORY UT"	sand	20	forest	20	20	20	300	m			ft
+WE	wepp-18730	"03:48 pm  Thursday April 12, 2012"	"OGDEN SUGAR FACTORY UT"	sand	20	forest	40	40	40	300	h			ft
+WE	wepp-18819	"03:48 pm  Thursday April 12, 2012"	"OGDEN SUGAR FACTORY UT"	sand	20	forest	60	60	60	300	h			ft
+WE	wepp-18908	"03:48 pm  Thursday April 12, 2012"	"OGDEN SUGAR FACTORY UT"	sand	20	forest	20	20	20	300	h			ft
+WE	wepp-18997	"03:49 pm  Thursday April 12, 2012"	"OGDEN SUGAR FACTORY UT"	sand	20	forest	40	40	40	600	l			ft
+WE	wepp-19046	"03:49 pm  Thursday April 12, 2012"	"OGDEN SUGAR FACTORY UT"	sand	20	forest	60	60	60	600	l			ft
+WE	wepp-19095	"03:49 pm  Thursday April 12, 2012"	"OGDEN SUGAR FACTORY UT"	sand	20	forest	20	20	20	600	l			ft
+WE	wepp-19144	"03:49 pm  Thursday April 12, 2012"	"OGDEN SUGAR FACTORY UT"	sand	20	forest	40	40	40	600	h			ft
+WE	wepp-19233	"03:49 pm  Thursday April 12, 2012"	"OGDEN SUGAR FACTORY UT"	sand	20	forest	60	60	60	600	m			ft
+WE	wepp-19302	"03:49 pm  Thursday April 12, 2012"	"OGDEN SUGAR FACTORY UT"	sand	20	forest	20	20	20	600	m			ft
+WE	wepp-19371	"03:50 pm  Thursday April 12, 2012"	"OGDEN SUGAR FACTORY UT"	sand	20	forest	40	40	40	600	m			ft
+WE	wepp-19440	"03:50 pm  Thursday April 12, 2012"	"OGDEN SUGAR FACTORY UT"	sand	20	forest	60	60	60	600	h			ft
+WE	wepp-19529	"03:50 pm  Thursday April 12, 2012"	"OGDEN SUGAR FACTORY UT"	sand	20	forest	20	20	20	600	h			ft
+WE	wepp-19618	"03:50 pm  Thursday April 12, 2012"	"OGDEN SUGAR FACTORY UT"	sand	20	forest	40	40	40	600	h			ft
+WE	wepp-19707	"03:51 pm  Thursday April 12, 2012"	"OGDEN SUGAR FACTORY UT"	sand	20	forest	60	60	60	900	l			ft
+WE	wepp-19756	"03:51 pm  Thursday April 12, 2012"	"OGDEN SUGAR FACTORY UT"	sand	20	forest	20	20	20	900	l			ft
+WE	wepp-19805	"03:51 pm  Thursday April 12, 2012"	"OGDEN SUGAR FACTORY UT"	sand	20	forest	40	40	40	900	l			ft
+WE	wepp-19854	"03:51 pm  Thursday April 12, 2012"	"OGDEN SUGAR FACTORY UT"	sand	20	forest	60	60	60	900	h			ft
+WE	wepp-19943	"03:51 pm  Thursday April 12, 2012"	"OGDEN SUGAR FACTORY UT"	sand	20	forest	20	20	20	900	m			ft
+WE	wepp-20015	"03:52 pm  Thursday April 12, 2012"	"OGDEN SUGAR FACTORY UT"	sand	20	forest	40	40	40	900	m			ft
+WE	wepp-20084	"03:52 pm  Thursday April 12, 2012"	"OGDEN SUGAR FACTORY UT"	sand	20	forest	60	60	60	900	m			ft
+WE	wepp-20153	"03:52 pm  Thursday April 12, 2012"	"OGDEN SUGAR FACTORY UT"	sand	20	forest	20	20	20	900	h			ft
+WE	wepp-20242	"03:52 pm  Thursday April 12, 2012"	"OGDEN SUGAR FACTORY UT"	sand	20	forest	40	40	40	900	h			ft
+WE	wepp-20331	"03:52 pm  Thursday April 12, 2012"	"OGDEN SUGAR FACTORY UT"	sand	20	forest	60	60	60	900	h			ft
+WE	wepp-20543	"04:53 pm  Thursday April 12, 2012"	"OGDEN SUGAR FACTORY UT"	sand	20	forest	20	20	20	300	h			ft
+WE	wepp-18305	"12:53 pm  Sunday April 15, 2012"	"STEVENSVILLE MT"	sand	20	forest	20	20	20	300	l			ft
+WE	wepp-18354	"12:53 pm  Sunday April 15, 2012"	"STEVENSVILLE MT"	sand	20	forest	40	40	40	300	l			ft
+WE	wepp-18403	"12:53 pm  Sunday April 15, 2012"	"STEVENSVILLE MT"	sand	20	forest	60	60	60	300	l			ft
+WE	wepp-18452	"12:54 pm  Sunday April 15, 2012"	"STEVENSVILLE MT"	sand	20	forest	20	20	20	300	h			ft
+WE	wepp-18568	"12:54 pm  Sunday April 15, 2012"	"STEVENSVILLE MT"	sand	20	forest	40	40	40	300	m			ft
+WE	wepp-18637	"12:54 pm  Sunday April 15, 2012"	"STEVENSVILLE MT"	sand	20	forest	60	60	60	300	m			ft
+WE	wepp-18706	"12:54 pm  Sunday April 15, 2012"	"STEVENSVILLE MT"	sand	20	forest	20	20	20	300	m			ft
+WE	wepp-18775	"12:55 pm  Sunday April 15, 2012"	"STEVENSVILLE MT"	sand	20	forest	40	40	40	300	h			ft
+WE	wepp-18864	"12:55 pm  Sunday April 15, 2012"	"STEVENSVILLE MT"	sand	20	forest	60	60	60	300	h			ft
+WE	wepp-18953	"12:55 pm  Sunday April 15, 2012"	"STEVENSVILLE MT"	sand	20	forest	20	20	20	300	h			ft
+WE	wepp-19042	"12:55 pm  Sunday April 15, 2012"	"STEVENSVILLE MT"	sand	20	forest	40	40	40	600	l			ft
+WE	wepp-19091	"12:56 pm  Sunday April 15, 2012"	"STEVENSVILLE MT"	sand	20	forest	60	60	60	600	l			ft
+WE	wepp-19140	"12:56 pm  Sunday April 15, 2012"	"STEVENSVILLE MT"	sand	20	forest	20	20	20	600	l			ft
+WE	wepp-19189	"12:56 pm  Sunday April 15, 2012"	"STEVENSVILLE MT"	sand	20	forest	40	40	40	600	h			ft
+WE	wepp-19279	"12:56 pm  Sunday April 15, 2012"	"STEVENSVILLE MT"	sand	20	forest	60	60	60	600	m			ft
+WE	wepp-19348	"12:56 pm  Sunday April 15, 2012"	"STEVENSVILLE MT"	sand	20	forest	20	20	20	600	m			ft
+WE	wepp-19417	"12:57 pm  Sunday April 15, 2012"	"STEVENSVILLE MT"	sand	20	forest	40	40	40	600	m			ft
+WE	wepp-19486	"12:57 pm  Sunday April 15, 2012"	"STEVENSVILLE MT"	sand	20	forest	60	60	60	600	h			ft
+WE	wepp-19575	"12:57 pm  Sunday April 15, 2012"	"STEVENSVILLE MT"	sand	20	forest	20	20	20	600	h			ft
+WE	wepp-19664	"12:57 pm  Sunday April 15, 2012"	"STEVENSVILLE MT"	sand	20	forest	40	40	40	600	h			ft
+WE	wepp-19755	"12:58 pm  Sunday April 15, 2012"	"STEVENSVILLE MT"	sand	20	forest	60	60	60	900	l			ft
+WE	wepp-19804	"12:58 pm  Sunday April 15, 2012"	"STEVENSVILLE MT"	sand	20	forest	20	20	20	900	l			ft
+WE	wepp-19853	"12:58 pm  Sunday April 15, 2012"	"STEVENSVILLE MT"	sand	20	forest	40	40	40	900	l			ft
+WE	wepp-19903	"12:58 pm  Sunday April 15, 2012"	"STEVENSVILLE MT"	sand	20	forest	60	60	60	900	h			ft
+WE	wepp-19992	"12:58 pm  Sunday April 15, 2012"	"STEVENSVILLE MT"	sand	20	forest	20	20	20	900	m			ft
+WE	wepp-20061	"12:59 pm  Sunday April 15, 2012"	"STEVENSVILLE MT"	sand	20	forest	40	40	40	900	m			ft
+WE	wepp-20157	"12:59 pm  Sunday April 15, 2012"	"STEVENSVILLE MT"	sand	20	forest	60	60	60	900	m			ft
+WE	wepp-20226	"12:59 pm  Sunday April 15, 2012"	"STEVENSVILLE MT"	sand	20	forest	20	20	20	900	h			ft
+WE	wepp-20315	"12:59 pm  Sunday April 15, 2012"	"STEVENSVILLE MT"	sand	20	forest	40	40	40	900	h			ft
+WE	wepp-20423	"01:00 pm  Sunday April 15, 2012"	"STEVENSVILLE MT"	sand	20	forest	60	60	60	900	h			ft
+WD	wepp-20679	"01:24 pm  Sunday April 15, 2012"	"OGDEN SUGAR FACTORY UT"	10	sand	LowFire	100	25	45	12	5	LowFire	20	41	16	6	2	0	ft	"10"
+WE	wepp-20242	"05:10 pm  Tuesday April 17, 2012"	"OGDEN SUGAR FACTORY UT"	sand	20	forest	20	40	60	300	h			ft
+WE	wepp-20332	"05:10 pm  Tuesday April 17, 2012"	"OGDEN SUGAR FACTORY UT"	sand	20	forest	20	40	60	1000	h			ft
+WE	wepp-20422	"05:11 pm  Tuesday April 17, 2012"	"Sweet Fire +"	sand	20	forest	20	40	60	1000	h			ft
+WE	wepp-20512	"05:13 pm  Tuesday April 17, 2012"	"Sweet Fire +"	sand	20	forest	20	40	60	1000	h			ft
+WE	wepp-20794	"05:45 pm  Tuesday April 17, 2012"	"Sweet Fire +"	sand	20	forest	20	20	20	300	l			ft
+WE	wepp-20862	"05:45 pm  Tuesday April 17, 2012"	"Sweet Fire +"	sand	20	forest	40	40	40	300	l			ft
+WE	wepp-20911	"05:45 pm  Tuesday April 17, 2012"	"Sweet Fire +"	sand	20	forest	60	60	60	300	l			ft
+WE	wepp-20960	"05:45 pm  Tuesday April 17, 2012"	"Sweet Fire +"	sand	20	forest	40	40	40	300	m			ft
+WE	wepp-21029	"05:45 pm  Tuesday April 17, 2012"	"Sweet Fire +"	sand	20	forest	60	60	60	300	m			ft
+WE	wepp-21098	"05:45 pm  Tuesday April 17, 2012"	"Sweet Fire +"	sand	20	forest	20	20	20	300	m			ft
+WE	wepp-21167	"05:46 pm  Tuesday April 17, 2012"	"Sweet Fire +"	sand	20	forest	40	40	40	300	h			ft
+WE	wepp-21256	"05:46 pm  Tuesday April 17, 2012"	"Sweet Fire +"	sand	20	forest	60	60	60	300	h			ft
+WE	wepp-21345	"05:46 pm  Tuesday April 17, 2012"	"Sweet Fire +"	sand	20	forest	20	20	20	300	h			ft
+WE	wepp-21434	"05:46 pm  Tuesday April 17, 2012"	"Sweet Fire +"	sand	20	forest	40	40	40	600	l			ft
+WE	wepp-21483	"05:46 pm  Tuesday April 17, 2012"	"Sweet Fire +"	sand	20	forest	60	60	60	600	l			ft
+WE	wepp-21532	"05:47 pm  Tuesday April 17, 2012"	"Sweet Fire +"	sand	20	forest	20	20	20	600	l			ft
+WE	wepp-21581	"05:47 pm  Tuesday April 17, 2012"	"Sweet Fire +"	sand	20	forest	60	60	60	600	m			ft
+WE	wepp-21652	"05:47 pm  Tuesday April 17, 2012"	"Sweet Fire +"	sand	20	forest	20	20	20	600	m			ft
+WE	wepp-21723	"05:47 pm  Tuesday April 17, 2012"	"Sweet Fire +"	sand	20	forest	40	40	40	600	m			ft
+WE	wepp-21817	"05:47 pm  Tuesday April 17, 2012"	"Sweet Fire +"	sand	20	forest	60	60	60	600	h			ft
+WE	wepp-21906	"05:48 pm  Tuesday April 17, 2012"	"Sweet Fire +"	sand	20	forest	20	20	20	600	h			ft
+WE	wepp-21995	"05:48 pm  Tuesday April 17, 2012"	"Sweet Fire +"	sand	20	forest	40	40	40	600	h			ft
+WE	wepp-22084	"05:48 pm  Tuesday April 17, 2012"	"Sweet Fire +"	sand	20	forest	60	60	60	900	l			ft
+WE	wepp-22133	"05:48 pm  Tuesday April 17, 2012"	"Sweet Fire +"	sand	20	forest	20	20	20	900	l			ft
+WE	wepp-22182	"05:49 pm  Tuesday April 17, 2012"	"Sweet Fire +"	sand	20	forest	40	40	40	900	l			ft
+WE	wepp-22231	"05:49 pm  Tuesday April 17, 2012"	"Sweet Fire +"	sand	20	forest	20	20	20	900	m			ft
+WE	wepp-22300	"05:49 pm  Tuesday April 17, 2012"	"Sweet Fire +"	sand	20	forest	40	40	40	900	m			ft
+WE	wepp-22369	"05:49 pm  Tuesday April 17, 2012"	"Sweet Fire +"	sand	20	forest	60	60	60	900	m			ft
+WE	wepp-22438	"05:49 pm  Tuesday April 17, 2012"	"Sweet Fire +"	sand	20	forest	20	20	20	900	h			ft
+WE	wepp-22527	"05:50 pm  Tuesday April 17, 2012"	"Sweet Fire +"	sand	20	forest	40	40	40	900	h			ft
+WE	wepp-22616	"05:50 pm  Tuesday April 17, 2012"	"Sweet Fire +"	sand	20	forest	60	60	60	900	h			ft
+WE	wepp-22730	"06:07 pm  Tuesday April 17, 2012"	"Sweet Fire +"	sand	20	forest	20	20	20	300	h			ft
+WE	wepp-22820	"06:07 pm  Tuesday April 17, 2012"	"Sweet Fire +"	sand	20	forest	20	40	60	300	h			ft
+WE	wepp-22933	"06:19 pm  Tuesday April 17, 2012"	"Sweet Fire +"	sand	20	forest	20	40	60	1000	h			ft
+WE	wepp-13228	"10:35 am  Monday May 21, 2012"	"Sweet Fire +"	sand	20	forest	20	40	60	300	h			m
+WE	wepp-2583	"04:54 pm  Thursday September 13, 2012"	"Orense, Spain + +"	sand	20	forest	0	50	30	100	l			m
+WE	wepp-2663	"04:57 pm  Thursday September 13, 2012"	"Orense, Spain + +"	sand	20	forest	0	50	30	100	l			m
+WE	wepp-15602	"12:46 pm  Friday September 14, 2012"	"Sweet Fire +"	clay	20	forest	0	50	30	100	l			m
+WE	wepp-24196	"02:35 pm  Thursday September 20, 2012"	"Gerona, Spain + +"	sand	5	range	0	50	30	150	m	15	75	m
+WE	wepp-19162	"01:56 pm  Friday October 5, 2012"	"Gerona, Spain + +"	clay	20	forest	0	50	30	100	l			m
+WE	wepp-19618	"02:54 pm  Tuesday November 27, 2012"	"Sweet Fire +"	sand	20	forest	20	40	60	300	h			m
+WE	wepp-10743	"01:03 pm  Saturday January 12, 2013"	"Sweet Fire +"	sand	20	forest	20	40	60	1000	h			ft
+WD	wepp-11097	"01:27 pm  Saturday January 12, 2013"	"Sweet Fire +"	10	sand	HighFire	200	0	50	45	20	HighFire	200	50	40	45	20	0	ft	""
+WD	wepp-9791	"10:43 am  Friday January 18, 2013"	"Sweet Fire +"	10	sand	HighFire	1000	0	50	45	20	HighFire	1000	0	50	45	20	0	ft	"1"
+WD	wepp-9798	"10:43 am  Friday January 18, 2013"	"Sweet Fire +"	10	sand	HighFire	1000	0	50	45	20	HighFire	1000	0	50	45	20	0	ft	"2"
+WD	wepp-9805	"10:43 am  Friday January 18, 2013"	"Sweet Fire +"	10	sand	HighFire	1000	0	50	45	20	HighFire	1000	0	50	45	20	0	ft	"3"
+WD	wepp-9812	"10:43 am  Friday January 18, 2013"	"Sweet Fire +"	10	sand	HighFire	1000	0	50	45	20	HighFire	1000	0	50	45	20	0	ft	"4"
+WD	wepp-9819	"10:44 am  Friday January 18, 2013"	"Sweet Fire +"	10	sand	HighFire	1000	0	50	45	20	HighFire	1000	0	50	45	20	0	ft	"5"
+WD	wepp-9826	"10:44 am  Friday January 18, 2013"	"Sweet Fire +"	10	sand	HighFire	1000	0	50	45	20	HighFire	1000	0	50	45	20	0	ft	"6"
+WD	wepp-9835	"10:44 am  Friday January 18, 2013"	"Sweet Fire +"	10	sand	HighFire	1000	0	50	45	20	HighFire	1000	0	50	45	20	0	ft	"7"
+WD	wepp-9842	"10:44 am  Friday January 18, 2013"	"Sweet Fire +"	10	sand	HighFire	1000	0	50	45	20	HighFire	1000	0	50	45	20	0	ft	"8"
+WD	wepp-9849	"10:44 am  Friday January 18, 2013"	"Sweet Fire +"	10	sand	HighFire	1000	0	50	45	20	HighFire	1000	0	50	45	20	0	ft	"9"
+WD	wepp-9856	"10:44 am  Friday January 18, 2013"	"Sweet Fire +"	10	sand	HighFire	1000	0	50	45	20	HighFire	1000	0	50	45	20	0	ft	"10"
+WE	wepp-17547	"05:13 pm  Wednesday January 23, 2013"	"Sweet Fire +"	sand	20	forest	20	40	60	1000	h			ft
+WE	wepp-22386	"05:04 pm  Saturday April 20, 2013"	"FORT COLLINS CO +"	sand	20	forest	0	50	30	800	h			ft
+WE	wepp-32730	"12:34 pm  Friday April 26, 2013"	"FORT COLLINS CO +"	sand	20	forest	0	50	30	800	h			ft
+WE	wepp-404	"12:34 pm  Friday April 26, 2013"	"FORT COLLINS CO +"	sand	20	forest	0	50	30	700	h			ft
+WE	wepp-543	"12:34 pm  Friday April 26, 2013"	"FORT COLLINS CO +"	sand	20	forest	0	50	30	600	h			ft
+WE	wepp-722	"12:34 pm  Friday April 26, 2013"	"FORT COLLINS CO +"	sand	20	forest	0	50	30	800	m			ft
+WE	wepp-837	"12:35 pm  Friday April 26, 2013"	"FORT COLLINS CO +"	sand	20	forest	0	50	30	700	m			ft
+WE	wepp-967	"12:35 pm  Friday April 26, 2013"	"FORT COLLINS CO +"	sand	20	forest	0	50	30	600	m			ft
+WE	wepp-1097	"12:35 pm  Friday April 26, 2013"	"FORT COLLINS CO +"	sand	20	forest	0	50	30	800	l			ft
+WE	wepp-1186	"12:35 pm  Friday April 26, 2013"	"FORT COLLINS CO +"	sand	20	forest	0	50	30	700	l			ft
+WE	wepp-1319	"12:35 pm  Friday April 26, 2013"	"FORT COLLINS CO +"	sand	20	forest	0	50	30	600	l			ft
+WE	wepp-3874	"01:36 pm  Friday April 26, 2013"	"FORT COLLINS CO +"	sand	20	forest	0	50	30	800	h			ft
+WE	wepp-18842	"01:44 pm  Saturday April 27, 2013"	"FORT COLLINS CO +"	sand	20	forest	0	50	30	800	h			ft
+WE	wepp-18931	"01:44 pm  Saturday April 27, 2013"	"FORT COLLINS CO +"	sand	20	forest	0	50	30	700	h			ft
+WE	wepp-19023	"01:44 pm  Saturday April 27, 2013"	"FORT COLLINS CO +"	sand	21	forest	0	50	30	600	h			ft
+WE	wepp-19131	"01:45 pm  Saturday April 27, 2013"	"FORT COLLINS CO +"	sand	22	forest	0	50	30	800	m			ft
+WE	wepp-19200	"01:45 pm  Saturday April 27, 2013"	"FORT COLLINS CO +"	sand	23	forest	0	50	30	700	m			ft
+WE	wepp-19269	"01:45 pm  Saturday April 27, 2013"	"FORT COLLINS CO +"	sand	24	forest	0	50	30	600	m			ft
+WE	wepp-19338	"01:45 pm  Saturday April 27, 2013"	"FORT COLLINS CO +"	sand	25	forest	0	50	30	800	l			ft
+WE	wepp-19387	"01:46 pm  Saturday April 27, 2013"	"FORT COLLINS CO +"	sand	26	forest	0	50	30	700	l			ft
+WE	wepp-19436	"01:46 pm  Saturday April 27, 2013"	"FORT COLLINS CO +"	sand	27	forest	0	50	30	600	l			ft
+WE	wepp-30667	"02:06 pm  Thursday May 2, 2013"	"FORT COLLINS CO +"	sand	20	forest	0	50	30	800	l			ft
+WE	wepp-30837	"02:19 pm  Thursday May 2, 2013"	"FORT COLLINS CO +"	sand	20	forest	0	50	30	800	m			ft
+WE	wepp-30908	"02:20 pm  Thursday May 2, 2013"	"FORT COLLINS CO +"	sand	20	forest	0	50	30	800	h			ft
+WE	wepp-31979	"03:52 pm  Thursday May 2, 2013"	"FORT COLLINS CO +"	sand	20	forest	0	50	30	800	h			ft
+WE	wepp-32102	"03:55 pm  Thursday May 2, 2013"	"FORT COLLINS CO +"	sand	20	forest	0	50	30	800	h			ft
+WE	wepp-32191	"03:56 pm  Thursday May 2, 2013"	"FORT COLLINS CO +"	sand	20	forest	0	50	30	700	h			ft
+WE	wepp-32280	"03:56 pm  Thursday May 2, 2013"	"FORT COLLINS CO +"	sand	21	forest	0	50	30	600	h			ft
+WE	wepp-32369	"03:56 pm  Thursday May 2, 2013"	"FORT COLLINS CO +"	sand	22	forest	0	50	30	800	m			ft
+WE	wepp-32438	"03:57 pm  Thursday May 2, 2013"	"FORT COLLINS CO +"	sand	23	forest	0	50	30	700	m			ft
+WE	wepp-32507	"03:57 pm  Thursday May 2, 2013"	"FORT COLLINS CO +"	sand	24	forest	0	50	30	600	m			ft
+WE	wepp-32576	"03:57 pm  Thursday May 2, 2013"	"FORT COLLINS CO +"	sand	25	forest	0	50	30	800	l			ft
+WE	wepp-32625	"03:57 pm  Thursday May 2, 2013"	"FORT COLLINS CO +"	sand	26	forest	0	50	30	700	l			ft
+WE	wepp-32674	"03:57 pm  Thursday May 2, 2013"	"FORT COLLINS CO +"	sand	27	forest	0	50	30	600	l			ft
+WE	wepp-364	"04:05 pm  Thursday May 2, 2013"	"FORT COLLINS CO +"	sand	20	forest	0	50	30	800	h			ft
+WE	wepp-453	"04:05 pm  Thursday May 2, 2013"	"FORT COLLINS CO +"	sand	20	forest	0	50	30	700	h			ft
+WE	wepp-542	"04:06 pm  Thursday May 2, 2013"	"FORT COLLINS CO +"	sand	20	forest	0	50	30	600	h			ft
+WE	wepp-633	"04:06 pm  Thursday May 2, 2013"	"FORT COLLINS CO +"	sand	20	forest	0	50	30	800	m			ft
+WE	wepp-703	"04:06 pm  Thursday May 2, 2013"	"FORT COLLINS CO +"	sand	20	forest	0	50	30	700	m			ft
+WE	wepp-772	"04:06 pm  Thursday May 2, 2013"	"FORT COLLINS CO +"	sand	20	forest	0	50	30	600	m			ft
+WE	wepp-843	"04:07 pm  Thursday May 2, 2013"	"FORT COLLINS CO +"	sand	20	forest	0	50	30	800	l			ft
+WE	wepp-892	"04:07 pm  Thursday May 2, 2013"	"FORT COLLINS CO +"	sand	20	forest	0	50	30	700	l			ft
+WE	wepp-941	"04:07 pm  Thursday May 2, 2013"	"FORT COLLINS CO +"	sand	20	forest	0	50	30	600	l			ft
+wt	wepp-5442	"Nov 19, 2013"	"Tahoe City NOAA A2"	granitic	YoungForest	0	30	100	100	20	LowRoad	5	5	120	10	20	ft	""
+WW	wepp-152340	"12:13 pm  Tuesday August 28, 2018"	"Kalamata, Greece + +"	clay	tree20	45.7317073170732	0	30	100	20	15	tree5	45.7317073170732	30	5	100	20	15		""	1	0	ft
+WE	wepp-215110	"10:25 am  Wednesday August 29, 2018"	"FORT COLLINS CO +"	clay	20	forest	0	50	30	300	l			ft

@@ -1,0 +1,72 @@
+#this files was modified by filegenwhrm.pl on: Wednesday, March 16, 2005.
+#taxgroup Birds species Common poor-will / Phalaenoptilus nuttallii
+#
+# Rank
+2,2,-99,-99,3
+# Nestsite
+0,1:2,1:3,1:4,1:8,1
+# Reprorank
+1,-99,1,-99:1,-99:2,-99:1,-99
+# Foraging Habitat
+-99
+# Habitatrank
+-99
+# Forage/Prey Availability
+-99
+# Preyrank
+-99
+# Predator Avoidance
+0,1:7,1:20,-1
+# Avoidrank
+1,-99:1,-99:1,-99
+# Refugia/Shelter
+0,1:2,1:3,1:4,1:7,1:20,-1
+# Shelterrank
+2,-99:1,-99:1,-99:1,-99:1,-99:1,-99
+# Coverrank
+2,-99:1,-99:1,-99:1,-99:1,-99:1,-99
+# Literature
+Distribution
+western USA into Mexico
+General Habitat
+common in sagebrush and coniferous woodlands and on coastal chapparal slopes
+Home or Activity Range
+no information available
+Canopy Cover
+no information available
+Specific Habitat Preferences
+grass-forb, shrub-seedling-sapling stage forest
+Nestsite Characteristics
+nests on bare soil, pebbles or atop a small pile of leaves, usually shaded by a bush or grasses
+Foraging Habitat Characteristics
+aerial foragers; sally after insects from a low perch or from the ground;  use vision, and are more active with increased moonlight
+Diet
+night - flying insects:  moths, beetles, and also occasionally flies, grasshoppers, and flying ants
+Predators
+coyote, fox, skunk, snakes, Northern harrier
+Shelter Habitats
+day roosts on ground in shrubs and grasses, choosing areas to maximize color concealment; hibernates in rock crevices
+Response to Disturbance
+no information available
+Sources of Information used in the Model
+Verner 1980, Csada and Brigham 1992, Wang and Brigham 1997
+General Sources of Background Information
+Verner 1980, Csada and Brigham 1992, National Geographic Society 1996, Wang and Brigham 1997, Alsop 2001, reviewed in O'Neil et al. 2001
+Summaries of Specific Studies
+Csada, Ryan A.; Brigham, R. Mark. 1992. Common Poorwill. The Birds of North America. 32: 1-13.
+
+Study Location: throughout range
+Habitat Description: variety reviewed
+Summary: Birds of North America species account for the common poorwill. It is found in rolling prairies, semi-arid flats, and rocky foothills of western North America. Breeds in dry, open, grassy or shrubby areas. Commonly roosts on bare ground, relying on cryptic plumage for concealment. Nests are placed on bare ground, and are often sheltered by shrubs, a log, or rock.
+
+Verner, Jared. 1980. Bird communities of mixed-conifer forests of the Sierra Nevada. In Management of western forests and grasslands for nongame birds: workshop proceedings. February 11-14, 1980, Salt Lake City, UT. USDA Forest Service Gen. Tech. Rep. INT-86, Ogden, UT. pp 198-223.
+
+Study Location: Sierra Nevada of California
+Habitat Description: ABCO/LIDE/PILA/PIPO/PSME
+Summary: Breeding bird species are predicted for the various habitat stages of mixed-conifer forest in the Sierra Nevada. Habitat is broken into groups based on tree size (exact diameters not given) and canopy closure. Relative suitability of habitats is listed; optimal habitat only was entered in this database. This species-habitat matrix was made from data from various studies in the region. Predictions were more accurate for later seral stages than early. Forest management in regards to bird communities is discussed, emphasizing the importance of late seral stages for breeding birds in the study region.
+
+Wang, Kaili; Brigham, R. Mark. 1997. Roost-site characteristics of common poorwills, Phalaenoptilus nuttallii, in Saskatchewan. The Canadian Field Naturalist. 111(4): 543-547.
+
+Study Location: Saskatchewan
+Habitat Description: not stated
+Summary: Day roost of common poorwills were investigated. Poorwill roosts had significantly less green vegetation, less overhead cover, more bare ground, and were further away from objects than random sites. The authors suggest that roost sites were selected to optimize concealment based on cryptic coloration.

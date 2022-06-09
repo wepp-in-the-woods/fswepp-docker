@@ -1,0 +1,78 @@
+#this files was modified by filegenwhrm.pl on: Wednesday, March 16, 2005.
+#taxgroup Bats species Townsend's big-eared bat /  Plecotus townsendii
+#
+# Rank
+2,-99,1,-99,-99
+# Nestsite
+-99
+# Reprorank
+-99
+# Foraging Habitat
+4,1:20,-1
+# Habitatrank
+1,-99:1,-99
+# Forage/Prey Availability
+-99
+# Preyrank
+-99
+# Predator Avoidance
+-99
+# Avoidrank
+-99
+# Refugia/Shelter
+-99
+# Shelterrank
+-99
+# Coverrank
+-99
+# Literature
+Distribution
+from British Columbia south through western USA to central Mexico; some isolated eastern populations
+General Habitat
+habitat generalist; inhabits a range of habitat types including mesic PSME forest, arid juniper-limber pine, deserts, native prairie, riparian communities, coniferous forests, agricultural and coastal regions
+Home or Activity Range
+no information available
+Canopy Cover
+forages in areas of low canopy closure (Dobkin et al. 1995)
+Specific Habitat Preferences
+cold caves or mine shafts for roosting
+Nestsite Characteristics
+maternal colony in mine near open ponderosa pine forest
+Foraging Habitat Characteristics
+forages in open areas, including sagebrush shrub-steppe and open PIPO woodlands with dense shrub cover; spends little time foraging in dense forest
+Diet
+primarily small moths; beetles, flies, wasps
+Predators
+Mexican spotted owl
+Shelter Habitats
+cold caves or mine shafts for roosting
+Response to Disturbance
+highly sensitive at winter hibernacula, summer nursery colonies and day and night roosting sites to disturbance from recreational use and vandalism (Perkins and Levesque 1987)
+Sources of Information used in the Model
+Dobkin et al. 1995
+General Sources of Background Information
+Perkins and Levesque 1987, Thomas 1988, reviewed in Christy and West 1993, Dobkin et al. 1995, reviewed in Ward and Block 1995, reviewed in Pearson 1999, Foresman 2001
+Summaries of Specific Studies
+Christy, Robin E.; West, Stephen D. 1993. Biology of bats in Douglas-fir forests. In:Huff, Mark H.; Holthausen, Richard S.; Aubry, Keith B., Tech. Coord. Biology and Management of Old Growth Forests. Gen. Tech. Rep. PNW-308. Portland, OR: USDA Forest Service, Pacific Northwest Research Station. 28p.
+
+Study Location: Washington and Oregon
+Habitat Description: PSME
+Summary: Review of the basic biology of bats inhabiting PSME forests of the Pacific Northwest, including a discussion of natural history, habitat requirements, and their ecological relations with old-growth forests.
+
+Dobkin, David S.; Gettinger, Ronald D.; Gerdes, Michael G. 1995. Springtime movements, roost use, and foraging activity of Townsend's big-eared bat (Plecotus townsendii) in central Oregon. Great Basin Naturalist. 55:315-321.
+
+Study Location: central Oregon
+Habitat Description: PIPO, PICO
+Summary: Townsend's big-eared bats were followed to investigate movement, foraging behavior, and roost use. Bats returned to the same foraging areas on successive nights but shifted foraging areas over large time scales as prey availability shifted. Foraging areas were largely open, including sagebrush-steppe habitat and open PIPO forest with dense shrub cover.  Bats moved as much as 24 km between roost sites. Little fidelity was seen in roosting sites. Many suitable daytime roosts were available and widely dispersed in locations with extensive lava-flow topography, which allowed bats to  move relatively large distances to locate foraging habitat. This pattern indicates that the area of habitat needed to manage this bat species is larger than what is indicated by locations of hibernacula and maternity caves.
+
+Perkins, J. Mark.; Levesque, Connie. 1987. Distribution, status, and habitat affinities of Townsend's big-eared bat (Plecotus townsendii) in Oregon. Oregon Department of Fish and Wildlife Technical Report 86-5-01.
+
+Study Location: across Oregon
+Habitat Description: state-wide; focused on caves mine shafts, and isolated water areas
+Summary: This five-year study examined caves, mines, bridges, and buildings to determine important areas for winter hibernacula, summer nursery colonies, and day or night roosting sites. Many historic sites in Oregon had zero or greatly reduced numbers of bats. Habitat correlates other than the presence of caves or mine shafts are not given. Management recommendations are made for general species recovery and for specific areas where important hibernacula, nursery colonies, and roosting sites were found.
+
+Thomas, Donald W. 1988. The distribution of bats in different ages of Douglas-fir forests. Journal of Wildlife Management. 52:619-626.
+
+Study Location: southern Washington Cascades, Oregon Coast Range
+Habitat Description: PSME-TSHE sere
+Summary: Bats were examined in different-aged PSME stands. Bats were grouped by nesting strategy and by echolocation signal. Bat activity was higher in old-growth sites than in mature or young sites; these results suggest that bats are 3-10 times more abundant in the old-growth sites. The author attributes this pattern to roosting habitat, due to the availability of large-diameter snags in older forest. Foraging opportunities did not contribute to the observed pattern of bat abundance. Differences in sex-ratio, reproductive activity and age distribution were seen between the two regions. Reduction in old-growth forest would negatively impact bat populations, though the degree of impact may vary regionally.

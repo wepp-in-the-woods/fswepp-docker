@@ -1,0 +1,22 @@
+WE	wepp-59222	"03:30 pm  Monday October 24, 2016"	"TAHOE CA"	sand	40	forest	30	70	30	1000	h			ft
+WE	wepp-59447	"03:31 pm  Monday October 24, 2016"	"TAHOE CA"	sand	40	forest	30	70	30	1000	m			ft
+WE	wepp-59635	"03:33 pm  Monday October 24, 2016"	"TAHOE CA"	sand	40	forest	30	70	30	1000	m			ft
+WE	wepp-69847	"08:29 am  Tuesday October 25, 2016"	"TAHOE CA"	clay	20	forest	30	70	30	1000	m			ft
+WE	wepp-70033	"08:29 am  Tuesday October 25, 2016"	"TAHOE CA"	sand	30	forest	30	70	30	1000	m			ft
+WE	wepp-70266	"08:47 am  Tuesday October 25, 2016"	"TAHOE CA"	sand	30	forest	30	70	30	1000	m			ft
+WE	wepp-70771	"09:13 am  Tuesday October 25, 2016"	"TAHOE CA"	sand	20	forest	30	70	30	1000	m			ft
+WE	wepp-70962	"09:16 am  Tuesday October 25, 2016"	"TAHOE CA"	sand	30	forest	30	70	30	1000	m			ft
+WE	wepp-71283	"09:34 am  Tuesday October 25, 2016"	"TAHOE CA"	sand	30	forest	30	70	30	1000	m			ft
+wt	wepp-71554	"Oct 25, 2016"	"TAHOE CA"	granitic	HighFire	30	70	1000	15	40	LowFire	30	5	200	40	20	ft	""
+wt	wepp-71592	"Oct 25, 2016"	"TAHOE CA"	granitic	HighFire	70	30	1000	15	40	LowFire	30	5	1.5	40	20	ft	""
+wt	wepp-71631	"Oct 25, 2016"	"TAHOE CA"	granitic	HighFire	70	30	800	15	40	LowFire	30	5	200	30	40	ft	""
+wt	wepp-71671	"Oct 25, 2016"	"TAHOE CA"	granitic	HighFire	30	70	1000	15	40	HighFire	30	5	200	30	40	ft	""
+wt	wepp-71757	"Oct 25, 2016"	"TAHOE CA"	granitic	HighFire	30	70	800	15	40	HighFire	30	5	200	30	40	ft	""
+wt	wepp-71796	"Oct 25, 2016"	"TAHOE CA"	granitic	Bare	30	70	800	40	40	Bare	30	5	200	40	40	ft	""
+wt	wepp-71833	"Oct 25, 2016"	"TAHOE CA"	granitic	HighFire	30	70	800	30	40	HighFire	30	5	200	30	40	ft	""
+wt	wepp-71869	"Oct 25, 2016"	"TAHOE CA"	granitic	HighFire	30	70	800	30	40	HighFire	30	5	200	30	40	ft	""
+WE	wepp-71918	"09:58 am  Tuesday October 25, 2016"	"TAHOE CA"	sand	30	forest	55	55	55	1000	m			ft
+WE	wepp-72111	"09:58 am  Tuesday October 25, 2016"	"TAHOE CA"	sand	30	forest	55	55	30	1000	m			ft
+wt	wepp-72316	"Oct 25, 2016"	"TAHOE CA"	granitic	HighFire	30	70	800	30	40	HighFire	30	5	200	30	40	ft	""
+wt	wepp-72362	"Oct 25, 2016"	"TAHOE CA"	granitic	HighFire	0	30	50	100	20	HighFire	30	5	50	100	20	ft	""
+wt	wepp-72399	"Oct 25, 2016"	"TAHOE CA"	granitic	HighFire	55	55	800	30	30	HighFire	55	20	200	30	30	ft	""

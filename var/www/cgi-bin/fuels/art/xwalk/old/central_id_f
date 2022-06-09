@@ -1,0 +1,80 @@
+#	Forest Habitat Types of Central Idaho.
+#	Gen. Tech. Rep. INT-GTR-114.
+#	Ogden, UT: U.S. Department of Agriculture, Forest Service, Intermountain Forest and Range Research Station. 137 p.
+#	Steele, R., R.D. Pfister, R.A. Ryker and J.A. Kittams. 1981.
+ABGR/ACGL-ACGL	CoolF	DH	CoolF/DH	H	6 - Grand Fir HTs
+ABGR/ACGL-PHMA	CoolF	DH	CoolF/DH	H	6 - Grand Fir HTs
+ABGR/CARU	CoolF	DS	CoolF/DS	L	6 - Grand Fir HTs
+ABGR/CLUN	CoolF	MH	CoolF/MH	H	6 - Grand Fir HTs
+ABGR/LIBO-LIBO	CoolF	DH	CoolF/DH	H	6 - Grand Fir HTs
+ABGR/LIBO-VAGL	CoolF	DH	CoolF/DH	H	6 - Grand Fir HTs
+ABGR/SPBE	CoolF	DH	CoolF/DH	H	6 - Grand Fir HTs
+ABGR/VACA	CoolF	DS	CoolF/DS	L	7 - Cool HTs dominated by Lodgepole pine
+ABGR/VAGL	CoolF	WH	CoolF/WH	H	6 - Grand Fir HTs
+ABLA/AGL	ColdF	DS	ColdF/DS	L	8 - Dry lower subalpine HTs
+ABLA/ARCO	ColdF	DG	ColdF/DG	L	8 - Dry lower subalpine HTs
+ABLA/CABI	ColdF	WF	ColdF/WF	H	9 - Wet, moist lower subalpine HTs
+ABLA/CACA-CACA	ColdF	WH	ColdF/WH	H	7 - Cool HTs dominated by Lodgepole pine
+ABLA/CACA-LEGL	ColdF	WF	ColdF/WF	H	7 - Cool HTs dominated by Lodgepole pine
+ABLA/CACA-LICA	ColdF	WF	ColdF/WF	H	9 - Wet, moist lower subalpine HTs
+ABLA/CACA-VACA	ColdF	DH	ColdF/DH	H	7 - Cool HTs dominated by Lodgepole pine
+ABLA/CAGE-ARTR	ColdF	DG	ColdF/DG	L	10 - Cold upper subalpine HTs
+ABLA/CAGE-CAGE	ColdF	DH	ColdF/DH	H	7 - Cool HTs dominated by Lodgepole pine
+ABLA/CARU	ColdF	DS	ColdF/DS	L	7 - Cool HTs dominated by Lodgepole pine
+ABLA/CLUN	ColdF	MH	ColdF/MH	H	9 - Wet, moist lower subalpine HTs
+ABLA/JUCO	ColdF	DG	ColdF/DG	L	8 - Dry lower subalpine HTs
+ABLA/LIBO	ColdF	DH	ColdF/DH	H	8 - Dry lower subalpine HTs
+ABLA/LUHI-LUHI	ColdF	DH	ColdF/DH	H	10 - Cold upper subalpine HTs
+ABLA/LUHI-VASC	ColdF	DH	ColdF/DH	H	10 - Cold upper subalpine HTs
+ABLA/MEFE	ColdF	DH	ColdF/DH	H	9 - Wet, moist lower subalpine HTs
+ABLA/PIAL-ABLA	ColdF	DG	ColdF/DG	L	10 - Cold upper subalpine HTs
+ABLA/RIMO	ColdF	DG	ColdF/DG	L	10 - Cold upper subalpine HTs
+ABLA/SPBE	ColdF	DS	ColdF/DS	L	8 - Dry lower subalpine HTs
+ABLA/STAM-LICA	ColdF	WF	ColdF/WF	H	9 - Wet, moist lower subalpine HTs
+ABLA/STAM-STAM	ColdF	WF	ColdF/WF	H	9 - Wet, moist lower subalpine HTs
+ABLA/VACA	ColdF	DH	ColdF/DH	H	7 - Cool HTs dominated by Lodgepole pine
+ABLA/VAGL	ColdF	DH	ColdF/DH	H	8 - Dry lower subalpine HTs
+ABLA/VASC-CARU	ColdF	DS	ColdF/DS	L	7 - Cool HTs dominated by Lodgepole pine
+ABLA/VASC-PIAL	ColdF	DS	ColdF/DS	L	10 - Cold upper subalpine HTs
+ABLA/VASC-VASC	ColdF	DS	ColdF/DS	L	7 - Cool HTs dominated by Lodgepole pine
+ABLA/XETE-LUHI	ColdF	DH	ColdF/DH	H	7 - Cool HTs dominated by Lodgepole pine
+ABLA/XETE-VAGL	ColdF	DH	ColdF/DH	H	7 - Cool HTs dominated by Lodgepole pine
+ABLA/XETE-VASC	ColdF	DH	ColdF/DH	H	7 - Cool HTs dominated by Lodgepole pine
+PICO/FEID	CoolP	DS	CoolP/DS	L	7 - Cool HTs dominated by Lodgepole pine
+PIEN/CADI	ColdF	WF	ColdF/WF	H	9 - Wet, moist lower subalpine HTs
+PIEN/HYRE	ColdF	DG	ColdF/DG	L	4 - Cool, Dry Douglas Fir
+PIFL/FEID	DF	DG	DF/DG	L	1 - Dry Limber Pine
+PIPO/AGSP	PP	DS	PP/DS	L	2 - Warm, Dry HTs
+PIPO/FEID	PP	DG	PP/DG	L	2 - Warm, Dry HTs
+PIPO/PUTR-AGSP	PP	DS	PP/DS	L	2 - Warm, Dry HTs
+PIPO/PUTR-FEID	PP	DG	PP/DG	L	2 - Warm, Dry HTs
+PIPO/STOC	PP	DG	PP/DG	L	2 - Warm, Dry HTs
+PIPO/SYAL	PP	DS	PP/DS	L	3 - Warm, Moist Ponderosa Pine, Dry Douglas Fir
+PIPO/SYOR	PP	DG	PP/DG	L	2 - Warm, Dry HTs
+PSME/ACGL-ACGL	DF	DH	DF/DH	H	5 - Moist Douglas Fir 
+PSME/ACGL-SYOR	DF	DS	DF/DS	L	4 - Cool, Dry Douglas Fir
+PSME/AGSP	DF	DG	DF/DG	L	2 - Warm, Dry HTs
+PSME/ARCO-ARCO	DF	DG	DF/DG	L	4 - Cool, Dry Douglas Fir
+PSME/ARCO-ASMI	DF	DG	DF/DG	L	4 - Cool, Dry Douglas Fir
+PSME/BERE-BERE	DF	DH	DF/DH	H	5 - Moist Douglas Fir 
+PSME/BERE-CAGE	DF	DS	DF/DS	L	3 - Warm, Moist Ponderosa Pine, Dry Douglas Fir
+PSME/BERE-SYOR	DF	DH	DF/DH	H	3 - Warm, Moist Ponderosa Pine, Dry Douglas Fir
+PSME/CAGE-CAGE	DF	DS	DF/DS	L	4 - Cool, Dry Douglas Fir
+PSME/CAGE-PIPO	DF	DS	DF/DS	L	3 - Warm, Moist Ponderosa Pine, Dry Douglas Fir
+PSME/CAGE-SYOR	DF	DG	DF/DG	L	4 - Cool, Dry Douglas Fir
+PSME/CARU-CARU	DF	DS	DF/DS	L	4 - Cool, Dry Douglas Fir
+PSME/CARU-FEID	DF	DS	DF/DS	L	4 - Cool, Dry Douglas Fir
+PSME/CARU-PIPO	DF	DS	DF/DS	L	3 - Warm, Moist Ponderosa Pine, Dry Douglas Fir
+PSME/CELE	DF	DG	DF/DG	L	2 - Warm, Dry HTs
+PSME/FEID-FEID	DF	DG	DF/DG	L	2 - Warm, Dry HTs
+PSME/FEID-PIPO	DF	DG	DF/DG	L	2 - Warm, Dry HTs
+PSME/JUCO	DF	DG	DF/DG	L	4 - Cool, Dry Douglas Fir
+PSME/OSCH	DF	DS	DF/DS	L	5 - Moist Douglas Fir 
+PSME/PHMA-PIPO	DF	DH	DF/DH	H	3 - Warm, Moist Ponderosa Pine, Dry Douglas Fir
+PSME/PHMA-PSME	DF	DS	DF/DS	L	5 - Moist Douglas Fir 
+PSME/SPBE-CARU	DF	DS	DF/DS	L	4 - Cool, Dry Douglas Fir
+PSME/SPBE-PIPO	DF	DS	DF/DS	L	3 - Warm, Moist Ponderosa Pine, Dry Douglas Fir
+PSME/SPBE-SPBE	DF	DS	DF/DS	L	4 - Cool, Dry Douglas Fir
+PSME/SYAL-PIPO	DF	DS	DF/DS	L	3 - Warm, Moist Ponderosa Pine, Dry Douglas Fir
+PSME/SYAL-SYAL	DF	DS	DF/DS	L	4 - Cool, Dry Douglas Fir
+PSME/SYOR	DF	DS	DF/DS	L	2 - Warm, Dry HTs

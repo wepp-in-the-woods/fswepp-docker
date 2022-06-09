@@ -1,0 +1,74 @@
+#Conifer species in Central UT Subseries ranked by (decreasing) expected percent cover and rated for potential Armillaria High				
+#Subseries	Species	Role*	Average Expected Cover (%)	Potential Disease Impact
+ColdF/DG	LOW			
+	ABLA	C	28.9	Low in this subseries
+	PIEN	S/C	16.3	Low in this subseries
+	PSME	s/S	6.3	Low in this subseries
+	PIPO	a	5.4	Low in this subseries
+	PIFL	s	1.8	Low in this subseries
+	ABCO	s/S	0.5	Low in this subseries
+ColdF/DH	HCLIMAX			
+	ABLA	C	33	High
+	PIEN	S/c	23.5	High where climax or if disturbed
+	PSME	s/S	4.4	High if disturbed
+	PIPU	C	0.9	High
+	ABCO	a	0.2	Low in this subseries
+	PIFL	a	0.1	Low in this subseries
+ColdF/DS	HCLIMAX			
+	ABLA	C	34.8	High
+	PSME	s/S	23	Low in this subseries
+	PIPU	s/C	13.5	High where climax or if disturbed
+	PIPO	S	12.5	Low in this subseries
+	PIEN	S	11.1	High if disturbed
+	PIFL	s/S	4.3	Low in this subseries
+	ABCO	s/S	2.5	Low in this subseries
+ColdF/WF	HCLIMAX			
+	PIEN	c	48	High
+	ABLA	C	24	High
+	PIFL	s	7.2	Low in this subseries
+	PSME	s	3	Low in this subseries
+	ABCO	S	2.7	Low in this subseries
+	PIPO	a	2.4	Low in this subseries
+CoolF/DG	LOW			
+	ABCO	C	31	Low in this subseries
+	PSME	s/S	15.5	Low in this subseries
+	PIPO	S	5.9	Low in this subseries
+	PIPU	S	4.6	Low in this subseries
+	PIFL	s	2.3	Low in this subseries
+CoolF/DH	HSERAL			
+	ABLA	C	38	Low in this subseries
+	PSME	S	30.5	High if disturbed
+	PIEN	S	12.9	High if disturbed
+	ABCO	S	12.5	High if disturbed
+	PIFL	s	0.8	High but low occurrence
+	PIPU	s	0.1	High but low occurrence
+CoolF/DS	HCLIMAX			
+	ABCO	C	25.8	High
+	PIPO	S	25.2	High if disturbed; 
+				High if planted from nonnative stock
+	PSME	S	17.1	High if disturbed
+	PIFL	s/S	14.9	Low in this subseries
+	PIPU	s/S	3.5	Low in this subseries
+	PIEN	a	1.5	Low in this subseries
+	ABLA	a	0.5	Low in this subseries
+DF/DG	LOW			
+	PSME	C	15.7	Low in this subseries
+	PIPO	S	14	Low in this subseries
+	ABCO	a	0.2	Low in this subseries
+DF/DS	LOW			
+	PSME	C	40	Low in this subseries
+	PIPO	S	17.7	Low in this subseries
+	PIFL	c	4.5	Low in this subseries
+	PIPU	c	3.5	Low in this subseries
+	ABLA	a	0.6	Low in this subseries
+	ABCO	a	0.6	Low in this subseries
+	PIEN	a	0.5	Low in this subseries
+PP/DG	LOW			
+	PIPO	C	31.2	Low in this subseries
+	PSME	s	0.8	Low in this subseries
+	PIFL	s	0.5	Low in this subseries
+	PIEN	a	0.1	Low in this subseries
+PP/DS	LOW			
+	PIPO	C	35.8	Low in this subseries
+	PSME	s	0.4	Low in this subseries
+				Low in this subseries

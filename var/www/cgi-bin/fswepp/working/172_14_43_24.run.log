@@ -1,0 +1,52 @@
+WE	wepp-158087	"09:22 am  Tuesday March 13, 2018"	"FLAGSTAFF WB AP AZ"	sand	20	range	0	50	30	300	u	15	75	ft
+WE	wepp-158177	"09:22 am  Tuesday March 13, 2018"	"FLAGSTAFF WB AP AZ"	sand	20	range	0	50	30	300	u	15	75	ft
+WE	wepp-158293	"09:24 am  Tuesday March 13, 2018"	"FLAGSTAFF WB AP AZ"	sand	20	range	0	50	30	300	l	15	75	ft
+WE	wepp-223964	"09:16 am  Thursday March 15, 2018"	"FLAGSTAFF WB AP AZ"	sand	20	range	0	50	30	300	l	15	75	ft
+WE	wepp-32059	"06:41 pm  Sunday March 18, 2018"	"FLAGSTAFF WB AP AZ"	sand	20	range	0	50	30	300	l	15	75	ft
+WE	wepp-32210	"06:42 pm  Sunday March 18, 2018"	"FLAGSTAFF WB AP AZ"	sand	20	range	0	50	30	300	u	15	75	ft
+WE	wepp-71967	"06:35 pm  Tuesday March 20, 2018"	"BIRMINGHAM WB AP AL"	clay	20	forest	0	50	30	300	l			ft
+WE	wepp-200929	"08:24 pm  Friday April 27, 2018"	"BIRMINGHAM WB AP AL"	clay	20	range	0	50	30	300	u	15	70	ft
+WD	wepp-201019	"08:25 pm  Friday April 27, 2018"	"BIRMINGHAM WB AP AL"	10	clay	OldForest	50	0	30	100	20	LowFire	50	30	5	85	20	0	ft	""
+WD	wepp-201054	"08:25 pm  Friday April 27, 2018"	"BIRMINGHAM WB AP AL"	10	clay	OldForest	50	0	30	100	20	LowFire	50	30	5	85	20	0	ft	""
+WD	wepp-201062	"08:25 pm  Friday April 27, 2018"	"BIRMINGHAM WB AP AL"	10	clay	OldForest	50	0	30	100	20	LowFire	50	30	5	85	20	0	ft	""
+WE	wepp-187272	"12:36 pm  Wednesday July 18, 2018"	"BIRMINGHAM WB AP AL"	clay	20	range	0	50	30	300	u	15	75	ft
+WE	wepp-187341	"12:36 pm  Wednesday July 18, 2018"	"BIRMINGHAM WB AP AL"	clay	20	range	0	50	30	300	l	15	75	ft
+WE	wepp-187463	"12:37 pm  Wednesday July 18, 2018"	"BIRMINGHAM WB AP AL"	clay	20	range	0	50	30	300	h	15	75	ft
+WE	wepp-2789	"02:51 pm  Tuesday August 7, 2018"	"BIRMINGHAM WB AP AL"	clay	20	range	0	50	30	300	l	15	75	ft
+WE	wepp-2836	"02:51 pm  Tuesday August 7, 2018"	"BIRMINGHAM WB AP AL"	clay	20	range	0	50	30	300	l	15	75	ft
+WE	wepp-3453	"02:58 pm  Tuesday August 7, 2018"	"BIRMINGHAM WB AP AL"	clay	20	range	0	50	30	300	u	15	75	ft
+WE	wepp-3726	"03:00 pm  Tuesday August 7, 2018"	"BIRMINGHAM WB AP AL"	clay	20	range	0	50	30	300	h	15	75	ft
+WE	wepp-9253	"11:55 pm  Tuesday August 7, 2018"	"FLAGSTAFF WB AP AZ"	sand	20	range	0	50	30	300	u	15	75	ft
+WE	wepp-91217	"01:40 pm  Wednesday January 2, 2019"	"BIRMINGHAM WB AP AL"	sand	20	forest	0	50	30	300	l			ft
+WE	wepp-150098	"08:38 pm  Sunday January 27, 2019"	"BIRMINGHAM WB AP AL"	clay	20	forest	0	50	30	300	l			ft
+WE	wepp-150152	"08:38 pm  Sunday January 27, 2019"	"BIRMINGHAM WB AP AL"	clay	20	range	0	50	30	300	l	15	75	ft
+WE	wepp-150248	"08:38 pm  Sunday January 27, 2019"	"BIRMINGHAM WB AP AL"	clay	20	range	0	50	30	300	l	15	75	ft
+WE	wepp-150445	"08:39 pm  Sunday January 27, 2019"	"BIRMINGHAM WB AP AL"	loam	20	range	0	50	30	300	l	15	75	ft
+WE	wepp-150501	"08:39 pm  Sunday January 27, 2019"	"BIRMINGHAM WB AP AL"	loam	20	range	0	50	30	300	l	15	75	ft
+WR	wepp-97557	"07:48 am  Sunday February 10, 2019"	"BIRMINGHAM WB AP AL"	30	clay	native	200	4	13	15	50	130	25	20	inveg	ft
+WE	wepp-97613	"07:48 am  Sunday February 10, 2019"	"BIRMINGHAM WB AP AL"	clay	20	forest	0	50	30	300	l			ft
+WE	wepp-97721	"07:48 am  Sunday February 10, 2019"	"BIRMINGHAM WB AP AL"	clay	20	forest	0	50	30	300	l			ft
+WE	wepp-123137	"06:00 am  Monday February 11, 2019"	"BIRMINGHAM WB AP AL"	clay	20	forest	0	50	30	300	l			ft
+WD	wepp-143415	"07:59 am  Tuesday December 15, 2020"	"BIRMINGHAM WB AP AL"	10	clay	OldForest	50	0	30	100	20	OldForest	50	30	5	100	20	0	ft	""
+WD	wepp-214593	"08:15 am  Friday December 18, 2020"	"BIRMINGHAM WB AP AL"	10	sand	OldForest	50	0	30	100	20	OldForest	50	30	5	100	20	0	ft	""
+WD	wepp-215156	"08:50 am  Friday December 18, 2020"	"BIRMINGHAM WB AP AL"	10	sand	Shrub	20	30	30	20	5	Shrub	20	30	30	20	5	0	ft	""
+WD	wepp-215442	"09:07 am  Friday December 18, 2020"	"BIRMINGHAM WB AP AL"	10	sand	Shrub	50	20	20	20	2	OldForest	50	20	20	20	2	0	ft	""
+WD	wepp-215875	"09:29 am  Friday December 18, 2020"	"BIRMINGHAM WB AP AL"	10	sand	Shrub	50	20	20	20	2	OldForest	50	20	20	20	2	0	ft	""
+WD	wepp-223886	"05:54 pm  Friday December 18, 2020"	"BIRMINGHAM WB AP AL"	10	sand	Shrub	50	11.3	11.3	65	0	Shrub	50	11.3	11.3	65	0	0	ft	""
+WD	wepp-78263	"12:09 pm  Wednesday December 23, 2020"	"BIRMINGHAM WB AP AL"	10	clay	Shrub	50	0	30	80	20	Shrub	50	30	5	80	20	0	ft	""
+WD	wepp-107901	"09:22 pm  Thursday December 24, 2020"	"BIRMINGHAM WB AP AL"	10	clay	Shrub	50	0	30	80	20	OldForest	50	30	5	100	20	0	ft	""
+WE	wepp-131270	"09:11 pm  Friday December 25, 2020"	"BIRMINGHAM WB AP AL"	clay	20	range	0	50	30	300	u	15	0	ft
+WE	wepp-131341	"09:12 pm  Friday December 25, 2020"	"BIRMINGHAM WB AP AL"	clay	20	range	50	50	50	30	u	1	1	ft
+WE	wepp-131525	"09:16 pm  Friday December 25, 2020"	"BIRMINGHAM WB AP AL"	silt	20	range	50	50	50	10	l	3	3	m
+WE	wepp-131682	"09:18 pm  Friday December 25, 2020"	"BIRMINGHAM WB AP AL"	silt	20	range	50	50	50	10	h	3	3	m
+WE	wepp-131934	"09:24 pm  Friday December 25, 2020"	"BIRMINGHAM WB AP AL"	silt	5	range	50	50	50	10	h	3	3	m
+WE	wepp-132169	"09:26 pm  Friday December 25, 2020"	"BIRMINGHAM WB AP AL"	silt	5	forest	50	50	50	10	h			m
+WE	wepp-132461	"09:29 pm  Friday December 25, 2020"	"DENVER WB AP CO"	silt	5	forest	50	50	50	10	h			m
+WE	wepp-150654	"03:32 pm  Saturday December 26, 2020"	"DENVER WB AP CO"	silt	5	forest	50	50	50	10	h			m
+WE	wepp-150878	"03:35 pm  Saturday December 26, 2020"	"DENVER WB AP CO"	silt	5	range	50	50	50	10	h	15	0	m
+WE	wepp-150976	"03:35 pm  Saturday December 26, 2020"	"DENVER WB AP CO"	silt	5	range	50	50	50	10	h	15	0	m
+WD	wepp-155253	"07:32 pm  Saturday December 26, 2020"	"BIRMINGHAM WB AP AL"	10	silt	OldForest	50	0	30	100	20	Shrub	50	30	5	80	20	0	ft	""
+WE	wepp-157954	"10:39 pm  Saturday December 26, 2020"	"BIRMINGHAM WB AP AL"	silt	20	range	0	50	30	300	h	0	0	ft
+WE	wepp-158158	"10:40 pm  Saturday December 26, 2020"	"BIRMINGHAM WB AP AL"	silt	20	range	50	50	50	300	h	0	0	ft
+WD	wepp-177400	"08:29 pm  Sunday December 27, 2020"	"BIRMINGHAM WB AP AL"	10	silt	Shrub	50	0	30	80	20	Shrub	50	30	5	80	20	0	ft	""
+WE	wepp-91781	"10:10 pm  Thursday February 10, 2022"	"BIRMINGHAM WB AP AL"	clay	20	forest	0	50	30	300	u			ft

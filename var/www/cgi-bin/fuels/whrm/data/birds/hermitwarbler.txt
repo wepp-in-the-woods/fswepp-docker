@@ -1,0 +1,72 @@
+#this files was modified by filegenwhrm.pl on: Wednesday, March 16, 2005.
+#taxgroup Birds species Hermit warbler / Dendroica occidentalis
+#
+# Rank
+2,2,2,-99,-99
+# Nestsite
+25,1:26,1
+# Reprorank
+2,-99:2,-99
+# Foraging Habitat
+25,1:26,1
+# Habitatrank
+2,-99:2,-99
+# Forage/Prey Availability
+-99
+# Preyrank
+-99
+# Predator Avoidance
+-99
+# Avoidrank
+-99
+# Refugia/Shelter
+-99
+# Shelterrank
+-99
+# Coverrank
+-99
+# Literature
+Distribution
+western Oregon, northern and eastern California for breeding; winters in coastal California and Mexico
+General Habitat
+mountain forests
+Home or Activity Range
+no information available
+Canopy Cover
+stands with 0-69% canopy closure (Verner 1980)
+Specific Habitat Preferences
+large trees, 0-69% canopy cover
+Nestsite Characteristics
+nests in tall conifers
+Foraging Habitat Characteristics
+forages for food in high and mid-level branches of conifers
+Diet
+adult insects, caterpillars, spiders
+Predators
+hawks; American kestrel
+Shelter Habitats
+no information available
+Response to Disturbance
+no information available
+Sources of Information used in the Model
+Verner 1980, Pearson 1997
+General Sources of Background Information
+Verner 1980,  Airola and Barrett 1981, National Geographic Society 1996, Pearson 1997, Alsop 2001
+Summaries of Specific Studies
+Airola, Daniel A.; Barrett, Reginald H. 1985. Foraging and habitat relationships of insect-gleaning birds in a Sierra Nevada mixed-conifer forest. Condor. 87:205-216.
+
+Study Location: central Sierra Nevada, California
+Habitat Description: PIPO, PILA, ABCO, PSME, CADE, QUKE
+Summary: Foraging habitat preferences, niche relationships, patterns of relative abundance vs. niche breadth and differences between migrant and resident species were examined for 12 species of insect gleaning birds in the Sierras. Tree species, and to a lesser extent, tree height were used selectively by the guild. Incense-cedar was avoided by all species, while other tree species were preferred by individual or groups of gleaners. In differentiating between niche of each species, foraging site was the most important foraging characteristic, followed by tree species, foraging technique, and foraging height. No correlation was found between niche breadth and species abundance, though a positive correlation existed for all 5 resident species. 
+
+Pearson, Scott F. 1997. Hermit warbler. The Birds of North America. 303:1-19.
+
+Study Location: throughout range
+Habitat Description: variety reviewed
+Summary: Birds of North America species account for the hermit warbler. Breeding and foraging takes place in areas with high coniferous cover, particularly PSME, Abies species, pine and spruce. Trees used for nesting and foraging are large, tall conifers.
+
+Verner, Jared. 1980. Bird communities of mixed-conifer forests of the Sierra Nevada. In Management of western forests and grasslands for nongame birds: workshop proceedings. February 11-14, 1980, Salt Lake City, UT. USDA Forest Service Gen. Tech. Rep. INT-86, Ogden, UT. pp 198-223.
+
+Study Location: Sierra Nevada of California
+Habitat Description: ABCO/LIDE/PILA/PIPO/PSME
+Summary: Breeding bird species are predicted for the various habitat stages of mixed-conifer forest in the Sierra Nevada. Habitat is broken into groups based on tree size (exact diameters not given) and canopy closure. Relative suitability of habitats is listed; optimal habitat only was entered in this database. This species-habitat matrix was made from data from various studies in the region. Predictions were more accurate for later seral stages than early. Forest management in regards to bird communities is discussed, emphasizing the importance of late seral stages for breeding birds in the study region.

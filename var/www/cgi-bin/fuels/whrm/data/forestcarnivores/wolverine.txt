@@ -1,0 +1,78 @@
+#this files was modified by filegenwhrm.pl on: Wednesday, March 16, 2005.
+#taxgroup Forest Carnivores species Wolverine / Gulo gulo
+#
+# Rank
+3,1,1,-99,1
+# Nestsite
+8,1
+# Reprorank
+1,-99
+# Foraging Habitat
+25,1:26,1
+# Habitatrank
+1,-99:1,-99
+# Forage/Prey Availability
+-99
+# Preyrank
+-99
+# Predator Avoidance
+-99
+# Avoidrank
+-99
+# Refugia/Shelter
+25,1:26,1
+# Shelterrank
+1,-99:1,-99
+# Coverrank
+1,-99:1,-99
+# Literature
+Distribution
+northern Canada and Alaska, south through British Columbia, and patchy in Montana, Colorado, and central California
+General Habitat
+open forests at high elevations and in alpine areas; avoid lowland grass and shrub cover types as well as PIPO forests
+Home or Activity Range
+&gt 25,000 ac (O'Neil et al. 2001)
+Canopy Cover
+No information available
+Specific Habitat Preferences
+prefer basins, southerly and easterly slopes, and edge and ecotonal areas, mature tree cover
+Nestsite Characteristics
+den in complex snow tunnels; alpine or subalpine habitats associated with tree roots, boulders, rock ledges; must have dependable deep snow; seldom den in low elevation, dense coniferous forest
+Foraging Habitat Characteristics
+summer: medium density/scattered mature forests at high elevation; winter: montane coniferous forest
+Diet
+No information available
+Predators
+wolves, black and grizzly bears, mountain lions, golden eagles
+Shelter Habitats
+No information available
+Response to Disturbance
+human disturbance at den sites resulted in den abandonment, but not kit abandonment (Magoun and Copeland 1998) ;increased human presence as a result of management activities may have adverse effects on rare forest carnivores (reviewed in Bull et al. 2001); wolverines were never relocated within clearcuts, though track surveys found animals crossing clearcut areas 15 times (Hornocker and Hash 1981)
+Sources of Information used in the Model
+Magoun and Copeland 1998 
+General Sources of Background Information
+Hornocker and Hash 1981, Peterson 1997, Magoun and Copeland 1998, reviewed in Bull et al. 2001, Hahr 2001
+Summaries of Specific Studies
+Hahr, Meg. 2001. Winter distribution and habitat use of lynx, fisher, and wolverine in Glacier National Park, Montana. Missoula, MT: University of Montana. 97 p. M.S. Thesis.
+
+Location of Study:  northwest Montana
+Habitat Description: entire Glacier National Park; includes dry herbaceous, mesic herbaceous, deciduous trees and shrubs, dense mesic coniferous forest, open dry coniferous forest, barren rock, snow or ice
+Summary: Lynx, fisher, and wolverine use of forest age classes and vegetative cover types was assessed in winter in Glacier National Park. Lynx use of deciduous and dry coniferous forest types was greater than expected while dry herb/shrub and mesic conifer cover types were used less than expected. Fisher used deciduous and dry coniferous forest types more than both shrub cover types. Wolverines used both conifer cover types less than expected while deciduous forest stands and dry herb/shrub were used significantly more than expected. Tracks of a variety of other carnivores, including marten, coyote, and mountain lion,  were also recorded. 
+
+Hornocker, Maurice G.; Hash, Howard S. 1981. Ecology of the wolverine in northwestern Montana. Canadian Journal of Zoology. 59:1286-1301.
+
+Location of Study: Northwestern Montana
+Habitat Description: ranges from low elevation PIPO to  areas dominated by PSME, ABLA, PIEN, ABGR, LAOC and PICO
+Summary: Five-year study of wolverine ecology in Montana. Population estimates, home ranges, and cover-type preferences were noted. The authors estimated that 20 wolverines inhabited a 1300 km2 study area. Wolverines ranged from 1371 m in elevation in winter to 1920 m elevation in summer. Easterly and southerly areas received the majority of consistent use. 70% of all relocations occurred in large areas of mature or scattered timber. Areas of dense, young timber were used least. Abies seral types were most often used; LAOC and PICO sites were also frequently used. Wolverines were never relocated within clearcuts, though track surveys found animals crossing clearcut areas 15 times.
+
+Magoun, Audrey J.; Copeland, Jeffrey P. 1998. Characteristics of wolverine reproductive den sites. Journal of Wildlife Management. 62(4) 1313-1320.
+
+Location of Study:  northwestern AK and central ID
+Habitat Description: AK: treeless tundra, alpine ridges; ID: various elevations of coniferous forest
+Summary: Den sites of wolverines were described in Alaska and central Idaho. While most dens in Alaska were long, complex snow tunnels with no association to trees and boulders, dens in Idaho were always associated with fallen trees or boulders. All dens were covered in at least 1 m of snow. Wolverine dens described to date have all been located in alpine, subalpine, taiga, or tundra habitat. Dens in low elevation, densely forested habitat are rare. Den site selection may be influenced by thermoregulatory advantages, protection from predators, suitability of the site during the spring thaw, and location of rearing habitat.
+
+Peterson, Stephen. 1997. Status of the wolverine (Gulo gulo) in Alberta. Alberta Environmental Protection, Wildlife Management Division, Wildlife Status Report No. 2, Edmonton, AB. 17 p.
+
+Location of Study:  Alberta
+Habitat Description: variety reviewed
+Summary: The wolverine lives in a variety of habitats in Alberta, including boreal forest, tundra, and supalpine regions, with home ranges encompassing a variety of habitat types. Density appears to be more influenced by food availability and proximity to humans than to specific habitat characteristics. Wolverines occupy higher elevations in summer than winter. Wooded areas may provide protection from predation. 

@@ -1,0 +1,32 @@
+WF	wepp-3708	"11:16 am  Thursday March 20, 2014"	"DENVER WB AP CO"	clay	200	50	0	30	15	40	20	20	4	ft
+WF	wepp-3721	"11:16 am  Thursday March 20, 2014"	"DENVER WB AP CO"	clay	200	50	0	30	15	40	20	20	4	ft
+WF	wepp-16344	"01:44 pm  Friday March 21, 2014"	"WESTCLIFFE CO +"	sand	200	1	20	30	15	100	100	15	4	ft
+WE	wepp-25191	"02:10 pm  Friday March 21, 2014"	"WESTCLIFFE CO +"	sand	35	forest	30	50	25	300	m			
+WD	wepp-25295	"02:12 pm  Friday March 21, 2014"	"WESTCLIFFE CO +"	10	sand	OldForest	150	0	30	70	20	OldForest	150	30	5	70	20	0	ft	""
+WD	wepp-25332	"02:13 pm  Friday March 21, 2014"	"WESTCLIFFE CO +"	10	sand	YoungForest	150	0	30	20	20	YoungForest	150	30	10	20	10	0	ft	""
+WD	wepp-26935	"07:24 am  Tuesday March 25, 2014"	"WESTCLIFFE CO +"	10	sand	OldForest	250	50	40	50	40	OldForest	250	40	30	60	40	0	ft	""
+WD	wepp-26985	"07:25 am  Tuesday March 25, 2014"	"WESTCLIFFE CO +"	10	sand	Skid	250	50	40	40	40	Skid	250	40	30	40	40	0	ft	""
+WF	wepp-29871	"07:31 am  Tuesday March 25, 2014"	"WESTCLIFFE CO +"	sand	500	350	40	50	30	40	20	20	0	ft
+WF	wepp-29897	"07:32 am  Tuesday March 25, 2014"	"WESTCLIFFE CO +"	sand	500	350	40	50	30	100	100	10	0	ft
+WF	wepp-29906	"07:32 am  Tuesday March 25, 2014"	"WESTCLIFFE CO +"	sand	500	350	40	50	30	100	100	10	0	ft
+WD	wepp-21437	"11:31 am  Tuesday April 1, 2014"	"CHEESMAN CO +"	10	sand	OldForest	150	55	55	75	40	OldForest	50	55	40	75	40	0	ft	""
+WF	wepp-21542	"11:35 am  Tuesday April 1, 2014"	"CHEESMAN CO +"	sand	200	1	50	55	40	100	100	10	0	ft
+WF	wepp-21557	"11:35 am  Tuesday April 1, 2014"	"CHEESMAN CO +"	sand	200	1	50	55	40	100	100	10	0	ft
+WD	wepp-22610	"11:37 am  Tuesday April 1, 2014"	"CHEESMAN CO +"	10	clay	OldForest	50	55	55	75	40	Skid	150	55	5	20	40	0	ft	""
+WD	wepp-22899	"11:38 am  Tuesday April 1, 2014"	"CHEESMAN CO +"	10	sand	OldForest	50	55	55	75	40	Skid	150	55	40	20	40	0	ft	""
+WD	wepp-25243	"11:47 am  Tuesday April 1, 2014"	"CHEESMAN CO +"	10	sand	OldForest	50	55	55	75	40	Skid	150	55	40	50	40	0	ft	""
+WD	wepp-16216	"12:53 pm  Wednesday April 9, 2014"	"CHEESMAN CO +"	10	sand	OldForest	50	55	55	75	40	Skid	500	55	40	40	40	0	ft	""
+WD	wepp-16270	"12:54 pm  Wednesday April 9, 2014"	"CHEESMAN CO +"	10	sand	YoungForest	50	55	55	75	40	Skid	500	55	40	40	40	0	ft	""
+WD	wepp-113999	"01:26 pm  Wednesday March 11, 2015"	"BAILEY CO"	10	loam	OldForest	100	0	30	100	2	OldForest	100	30	5	100	2	0	ft	""
+WD	wepp-114114	"01:28 pm  Wednesday March 11, 2015"	"BAILEY CO"	10	loam	Skid	100	0	30	10	2	Skid	100	30	5	10	2	0	ft	""
+WD	wepp-114479	"01:36 pm  Wednesday March 11, 2015"	"BAILEY CO"	10	sand	Skid	100	0	30	10	2	Skid	100	30	5	10	2	0	ft	""
+WD	wepp-114545	"01:37 pm  Wednesday March 11, 2015"	"BAILEY CO"	10	sand	OldForest	100	0	30	100	2	OldForest	100	30	5	100	2	0	ft	""
+WD	wepp-114601	"01:38 pm  Wednesday March 11, 2015"	"BAILEY CO"	10	sand	Sod	100	0	30	40	2	Sod	100	30	5	40	2	0	ft	""
+WD	wepp-114659	"01:38 pm  Wednesday March 11, 2015"	"BAILEY CO"	10	sand	Sod	100	0	30	40	2	Sod	100	30	0	40	2	0	ft	""
+WD	wepp-114744	"01:39 pm  Wednesday March 11, 2015"	"BAILEY CO"	10	sand	Sod	100	0	30	40	2	Sod	100	30	0	40	2	0	ft	""
+WD	wepp-114914	"01:42 pm  Wednesday March 11, 2015"	"BAILEY CO"	10	sand	Sod	100	0	30	40	2	Sod	100	30	0	40	2	0	ft	""
+WF	wepp-115153	"01:47 pm  Wednesday March 11, 2015"	"BAILEY CO"	sand	250	50	0	30	5	100	100	1	4	ft
+WF	wepp-115377	"01:51 pm  Wednesday March 11, 2015"	"BAILEY CO"	sand	250	50	0	30	5	400	200	10	4	ft
+WF	wepp-115533	"01:53 pm  Wednesday March 11, 2015"	"BAILEY CO"	sand	225	25	0	30	5	400	200	10	4	ft
+WF	wepp-115672	"01:54 pm  Wednesday March 11, 2015"	"BAILEY CO"	sand	225	25	0	30	5	400	200	50	4	ft
+WF	wepp-115886	"01:56 pm  Wednesday March 11, 2015"	"BAILEY CO"	sand	225	25	0	30	5	400	200	50	20	ft

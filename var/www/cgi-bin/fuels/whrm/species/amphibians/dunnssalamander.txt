@@ -1,0 +1,66 @@
+#this files was modified by filegenwhrm.pl on: Wednesday, March 16, 2005.
+#taxgroup Amphibians species Dunn's salamander /  Plethodon dunni
+#
+# Rank
+1,-99,-99,-99,1
+# Nestsite
+-99
+# Reprorank
+-99
+# Foraging Habitat
+-99
+# Habitatrank
+-99
+# Forage/Prey Availability
+-99
+# Preyrank
+-99
+# Predator Avoidance
+-99
+# Avoidrank
+-99
+# Refugia/Shelter
+8,1
+# Shelterrank
+1,-99
+# Coverrank
+1,-99
+# Literature
+Distribution
+coastal Oregon into northwestern tip of California and southwestern tip of Washington
+General Habitat
+wet locations; rock rubble of talus slopes or seepages
+Home or Activity Range
+no information available
+Canopy Cover
+No information available
+Specific Habitat Preferences
+riparian, stream-side areas; found in moss-covered rock rubble of talus slopes/seepages and under rocks and logs on shady streambanks
+Nestsite Characteristics
+one recorded nest in a rock outcrop near a stream
+Foraging Habitat Characteristics
+no information available
+Diet
+no information available
+Predators
+no information available
+Shelter Habitats
+under stones and logs
+Response to Disturbance
+no information available
+Sources of Information used in the Model
+Maguire 2002
+General Sources of Background Information
+Leonard et al. 1993, Gomez and Anthony 1996, Maguire 2002, Stebbins 2003
+Summaries of Specific Studies
+Gomez, D.M.; Anthony, R.G. 1996. Amphibian and reptile abundance in riparian and upslope areas of five forest types in western Oregon. Northwest Science. 70:109-119.
+
+Study Location: central Coast Ranges, Oregon
+Habitat Description: 5 forest types, from young to old PSME (includes TSHE), as well as one deciduous forest type
+Summary: Amphibian and reptile populations were studied in five forest types. Amphibian species richness was the highest in pole stands, followed by old growth. Abundance was highest in the deciduous forest type. Reptile species richness and abundance was highest in the shrub forest type. Stream and upslope habitats were similar in species richness, while more amphibians were caught in stream habitats and more reptiles were caught in upslope habitats. Capture rates for different species are given by forest type.
+
+Maguire, Chris C. 2002. Dead wood and the richness of small terrestrial vertebrates in southwestern Oregon. USDA Forest Service Gen. Tech. Rep. PSW-GTR-181: 331-345.
+
+Study Location: Umpqua National Forest, southwestern Oregon
+Habitat Description: mature PSME, with past history of thinning or salvage logging
+Summary: The association between small vertebrate richness and coarse woody debris volume was tested, with a positive correlation demonstrated across all taxa and also within the taxonomic groups of small mammals, insectivores, and amphibians. A number of individual species appear to be associated with coarse woody debris; the majority of these associations were positive. No evidence of an association between snag volume and small vertebrate richness was found. Because the coarse woody debris volumes in the study area were well above regional guidelines, the author predicts reduced small vertebrate richness in those areas where coarse woody debris guidelines are strictly followed. 

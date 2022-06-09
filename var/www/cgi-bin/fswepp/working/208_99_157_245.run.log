@@ -1,0 +1,10 @@
+WE	wepp-63549	"10:00 am  Tuesday March 20, 2018"	"SANDPOINT EXP STA ID"	sand	30	forest	40	70	30	1000	h			ft
+WD	wepp-68926	"03:56 pm  Tuesday March 20, 2018"	"SANDPOINT EXP STA ID"	10	sand	HighFire	200	20	30	45	20	LowFire	100	30	10	85	20	0	ft	"test"
+WE	wepp-68976	"03:59 pm  Tuesday March 20, 2018"	"SANDPOINT EXP STA ID"	sand	30	forest	20	65	30	1000	h			ft
+WE	wepp-69465	"04:25 pm  Tuesday March 20, 2018"	"Myrtle Creek test +"	clay	20	forest	20	70	30	1000	h			ft
+WE	wepp-69689	"04:26 pm  Tuesday March 20, 2018"	"Myrtle Creek test +"	sand	30	forest	20	70	30	1000	h			ft
+WD	wepp-69998	"04:32 pm  Tuesday March 20, 2018"	"Myrtle Creek test +"	10	sand	HighFire	500	20	65	30	20	HighFire	500	65	10	50	10	0	ft	""
+WE	wepp-73376	"08:46 pm  Tuesday March 20, 2018"	"Myrtle Creek test +"	sand	20	forest	20	65	10	1000	h			ft
+WE	wepp-182431	"09:39 am  Monday March 26, 2018"	"Myrtle Creek test +"	sand	20	forest	20	70	20	300	h			m
+WE	wepp-187971	"01:38 pm  Monday March 26, 2018"	"Myrtle Creek test +"	clay	20	forest	30	70	10	300	h			m
+WE	wepp-188206	"01:39 pm  Monday March 26, 2018"	"Myrtle Creek test +"	sand	20	forest	30	70	10	300	h			m

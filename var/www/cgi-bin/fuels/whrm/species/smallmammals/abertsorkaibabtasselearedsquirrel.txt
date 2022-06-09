@@ -1,0 +1,103 @@
+#this files was modified by filegenwhrm.pl on: Wednesday, March 16, 2005.
+#taxgroup Small Mammals species Tassel-eared squirrel /  Sciurus aberti
+#
+# Rank
+3,6,1,7,3
+# Nestsite
+13,1:23,1:24,1:25,1:26,1:53,1:54,1:55,1
+# Reprorank
+1,-99:1,-99:3,-99:4,-99:3,-99:1,-99:1,-99:1,-99
+# Foraging Habitat
+8,1:20,1
+# Habitatrank
+1,-99:1,-99
+# Forage/Prey Availability
+23,1:24,1:25,1:26,1
+# Preyrank
+2,-99:7,-99:6,-99:4,-99
+# Predator Avoidance
+4,1:8,1
+# Avoidrank
+1,-99:1,-99
+# Refugia/Shelter
+8,1:25,1:26,1
+# Shelterrank
+1,-99:1,-99:1,-99
+# Coverrank
+1,-99:1,-99:1,-99:1,-99
+# Literature
+Distribution
+southwestern range of PIPO (includes Abert's and Kaibab tassel-eared squirrels)
+General Habitat
+restricted to PIPO forests, will use Gambel Oaks
+Home or Activity Range
+No information available
+Canopy Cover
+foraging habitat are areas with > 60% canopy cover (Reynolds et al. 1992)
+Specific Habitat Preferences
+large, clumped PP
+Nestsite Characteristics
+PIPO trees; bolus nest constructed on a limb, against bole, or in porcupine crotch; flat nest on witches broom; Other Trees used are Gambel Oaks
+Foraging Habitat Characteristics
+PIPO trees
+Diet
+PIPO inner bark from twigs, pollen from staminate cones, buds, seeds from ovulate cones, hypogeous fungi from roots, eat acorns when available, carrion and bones, fir cones, pinyon pine nuts, bird eggs and young birds
+Predators
+Mexican spotted owl, hawks, owls
+Shelter Habitats
+may den in Gambel oak; uses dense underbrush for predator avoidance
+Response to Disturbance
+decreased in stands with timber harvest (Pederson et al. 1976)
+Sources of Information used in the Model
+Ratcliff et al. 1975, Pederson et al. 1976, Hall 1981, Patton 1984, Patton et al. 1985, States et al. 1988, reviewed in Reynolds et al. 1992, Dodd et al. 2003
+General Sources of Background Information
+Ratcliff et al. 1975, Pederson et al. 1976, Hall 1981, Patton 1984, Patton et al. 1985, States et al. 1988, reviewed in Reynolds et al. 1992, Ward and Block 1995, Dodd et al. 2003
+Summaries of Specific Studies
+Dodd, Norris L.; States, Jack S.; Rosenstock, Steven S. 2003. Tassel-eared squirrel population, habitat condition, and dietary relationships in north-central Arizona. Journal of Wildlife Management. 67(3): 622-633.
+
+Study Location:  north-central Arizona
+Habitat Description:  PP forests
+Summary:  Tassel squirrel recruitment was strongly and positively related to the number of interlocking canopy trees and fungal content of August fecal samples. Fungal content was related to basal area. Squirrel density was related to fungal diversity. Management techniques that include intensive widespread thinning may adversely impact tassel eared squirrels and the fungi they rely on. Managing for interlocking canopies could be beneficial to squirrel populations.
+
+Hall, Joseph G. 1981. A field study of the Kaibab squirrel in the Grand Canyon National Park. Wildlife Monographs. 75: 5-54.
+
+Study Location:  Grand Canyon National Park, Arizona
+Habitat Description: PIPO, pinyon-juniper woodland, spruce-fir
+Summary:  The natural history of the Kaibab squirrel on the Kaibab Plateau is outlined. Most life history traits are tied specifically to PIPO Quality of feeding habitat is reflected in the density of larger trees, trunk diameter, crown density and height, and foliage weight. Nests are constructed in large pines near one or more neighboring pines. Nests are made close to the trunk of large PIPO, and are often 10 m above the ground. Several nests are used yearly. The author also discusses home ranges, daily behavior, food availability, the impact the Kaibab squirrel has on PIPO and spatial and temporal population fluctuations.
+
+Patton, David R. 1984. A model to evaluate Abert squirrel habitat in uneven-aged ponderosa pine. Wildlife Society Bulletin. 12:408-414.
+
+Study Location:  Apache, Coconino, and Kaibab National Forests, Arizona
+Habitat Description:  PIPO forest
+Summary: Abert squirrel habitat was modeled in PIPO forests using tree size, density, and dispersion pattern as habitat characteristics. The author recommends managing for stands with trees >12" dbh, >120 trees/acre, and some clumpiness, as these areas provide good nesting habitat. Specific management techniques are suggested.
+
+Patton, D.R.; Wadleigh, R.L.; Hudak, H.G. 1985. The effects of timber harvest on the Kaibab squirrel. Journal of Wildlife Management. 49: 14-19.
+
+Study Location:  Kaibab plateau, Arizona
+Habitat Description:  PIPO forest
+Summary: Timber harvesting on the Kaibab plateau reduced habitat quality and consequently Kaibab squirrel density. Squirrel densities were smaller and home ranges larger on sites where timber harvest occurred. The impacts of timber harvests on squirrel densities were directly related to the amount of tree patchiness (+), the number and diameter of trees remaining for food and cover (+), and to the size of a cut area (-).
+
+Pederson, Jordan C.; Haysenyager, Robert N.; Heggen, Albert W. 1976. Habitat requirements of the Abert squirrel (Sciurus aberti navajo) on the Monticello District, Manti-La Sal National Forest. Utah State Division of Wildlife Resources Publication 76-9, Salt Lake City, Utah, USA.
+
+Study Location:  Abajo Mountains and Elk Ridge Plateau of San Juan County,  southeastern Utah
+Habitat Description: PIPO forest
+Summary:  The habitat requirements of the Navajo subspecies of the Abert squirrel are described. Diameter of PIPO trees (12-19" dbh) was the most significant variable in delineating Abert squirrel habitat. Other life history traits are examined, including distribution, use of nest and feed trees, movement and home range, and an evaluation of squirrel populations in a logged area. Logging resulted in a decrease in squirrel populations, as potential nest and feed trees were removed and conditions were created that enhanced habitat for competitors. Specific recommendations are made for logging within the range of the Abert squirrel. 
+
+Ratcliff, Thomas D.; Patton, David R.; Ffolliott, Peter F. 1975. Ponderosa pine basal area and the Kaibab squirrel. Journal of Forestry. May: 284-286.
+
+Study Location:  Kaibab National Forest, Arizona
+Habitat Description:  PP forest
+Summary: Kaibab squirrel numbers were most consistently correlated with the basal area of ponderosa pine, including all PIPO and those > 6" dbh. A conceptual model for assessing quality of Kaibab squirrel habitat was made by ranking basal area per acre of PIPO and number of squirrel nests per trapsite.
+
+Reynolds, Richard T.; Graham, Russell T.; Reiser, M. Hildegard, Bassett, Richard L.; Kennedy, Patricia L.; Boyce, Douglas A.; Goodwin, Greg; Smith, Randall; Fisher, E. Leon. 1992. Management recommendations for the Northern Goshawk in the southwestern United States. Gen. Tech. Rep. RM-217. Fort Collins, CO: USDA, Forest Service, Rocky Mountain Forest and Range Experiment Station. 90 p.
+
+Study Location:  Review article
+Habitat Description:  PIPO and other forest types
+Summary:  Habitat needs of a variety of northern goshawk prey are identified by a literature review. Management recommendations are made in regard to nesting, foraging, and other life history attributes.
+
+States, Jack S.; Gaud, William S.; Allred, W. Sylvester; Austin, William J. 1988. Foraging patterns of tassel-eared squirrels in selected ponderosa pine stands. In: Management of amphibians, reptiles, and small mammals in North America symposium: proceedings; Gen. Tech. Rep. RM-166. Fort Collins, CO: USDA, Forest Service, Rocky Mountain Forest and Range Experiment Station. 425-431.
+
+Study Location:  Coconino National Forest, Arizona
+Habitat Description: PIPO forest
+Summary: Foraging behavior of tassel-eared squirrels was examined. Food resources varied annually, and was reflected in the foraging behavior of the squirrels. 
+

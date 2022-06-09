@@ -1,0 +1,13 @@
+WE	wepp-164425	"11:49 am  Thursday January 7, 2016"	"MOSCOW U OF I ID"	sand	20	range	0	50	30	300	l	15	75	ft
+WE	wepp-84654	"11:07 am  Wednesday March 30, 2016"	"MOSCOW U OF I ID"	sand	20	range	0	50	30	300	l	15	75	ft
+WE	wepp-84832	"11:08 am  Wednesday March 30, 2016"	"SEXTON SUMMIT WB OR"	sand	20	range	0	50	30	300	l	15	75	ft
+WE	wepp-156329	"07:30 am  Friday May 6, 2016"	"MOSCOW U OF I ID"	sand	20	forest	0	50	30	300	m			ft
+WD	wepp-156716	"07:34 am  Friday May 6, 2016"	"MOSCOW U OF I ID"	10	clay	HighFire	50	0	30	45	20	LowFire	50	30	5	85	20	0	ft	""
+WR	wepp-67384	"02:45 pm  Thursday May 11, 2017"	"MOSCOW U OF I ID"	30	silt	native	200	4	13	15	50	130	25	20	inbare	ft
+WR	wepp-67515	"02:45 pm  Thursday May 11, 2017"	"MOSCOW U OF I ID"	30	silt	native	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-67551	"02:46 pm  Thursday May 11, 2017"	"MOSCOW U OF I ID"	30	silt	native	200	4	13	15	50	130	25	20	outrut	ft
+WR	wepp-67587	"02:46 pm  Thursday May 11, 2017"	"MOSCOW U OF I ID"	30	silt	native	200	4	13	15	50	130	25	20	outrut	ft
+WR	wepp-67697	"02:46 pm  Thursday May 11, 2017"	"MOSCOW U OF I ID"	30	silt	native	200	4	13	15	50	130	25	20	outunrut	ft
+WD	wepp-67805	"02:50 pm  Thursday May 11, 2017"	"MOSCOW U OF I ID"	10	silt	OldForest	300	0	30	100	20	Bunchgrass	300	30	5	60	20	0	ft	""
+WD	wepp-67949	"02:51 pm  Thursday May 11, 2017"	"MOSCOW U OF I ID"	10	clay	OldForest	300	30	30	100	20	Bunchgrass	300	30	30	60	20	0	ft	""
+WD	wepp-68161	"03:05 pm  Thursday May 11, 2017"	"MOSCOW U OF I ID"	10	clay	OldForest	300	50	50	100	20	Bunchgrass	300	50	30	100	20	0	ft	""

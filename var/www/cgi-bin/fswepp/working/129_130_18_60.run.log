@@ -1,0 +1,46 @@
+WR	wepp-8269	"07:36 pm  Monday March 12, 2012"	"FLAGSTAFF WB AP AZ"	30	sand	graveled	250	5	5	4	50	35	40	50	outrut	ft
+WR	wepp-8293	"07:37 pm  Monday March 12, 2012"	"FLAGSTAFF WB AP AZ"	30	sand	graveled	250	5	5	4	50	35	40	50	outrut	ft
+WR	wepp-8340	"07:39 pm  Monday March 12, 2012"	"FLAGSTAFF WB AP AZ"	30	sand	graveled	250	5	5	4	50	35	40	50	outunrut	ft
+WR	wepp-8360	"07:40 pm  Monday March 12, 2012"	"FLAGSTAFF WB AP AZ"	30	sand	graveled	250	5	5	4	50	35	40	50	outunrut	ft
+WD	wepp-8790	"08:09 pm  Monday March 12, 2012"	"CHARLESTON KAN AP WV"	10	clay	Sod	40	50	0	30	0	OldForest	1.5	0	0	0	0	0	ft	"Simple Seeding"
+WD	wepp-8855	"08:12 pm  Monday March 12, 2012"	"CHARLESTON KAN AP WV"	10	clay	Bunchgrass	40	50	0	60	0	OldForest	1.5	0	0	0	0	0	ft	"Simple Seeding"
+WD	wepp-8902	"08:14 pm  Monday March 12, 2012"	"CHARLESTON KAN AP WV"	10	clay	OldForest	40	50	0	100	0	OldForest	1.5	0	0	0	0	0	ft	"Simple Seeding"
+WD	wepp-8941	"08:16 pm  Monday March 12, 2012"	"CHARLESTON KAN AP WV"	10	clay	OldForest	40	50	0	100	0	OldForest	40	50	0	100	0	0	ft	"Simple Seeding"
+WD	wepp-8960	"08:18 pm  Monday March 12, 2012"	"CHARLESTON KAN AP WV"	10	clay	Bunchgrass	40	50	0	60	0	Bunchgrass	40	50	0	60	0	0	ft	"Simple Seeding"
+WD	wepp-9007	"08:19 pm  Monday March 12, 2012"	"CHARLESTON KAN AP WV"	10	clay	Sod	40	50	0	30	0	Sod	40	50	0	30	0	0	ft	"Simple Seeding"
+WR	wepp-5117	"06:40 pm  Sunday March 10, 2013"	"SHASTA DAM CA"	30	sand	native	200	6	4	15	50	45	35	20	inveg	ft
+WR	wepp-5187	"06:47 pm  Sunday March 10, 2013"	"SHASTA DAM CA"	30	sand	native	200	6	4	5	50	45	35	20	inveg	m
+WR	wepp-5209	"06:48 pm  Sunday March 10, 2013"	"SHASTA DAM CA"	30	sand	graveled	200	6	4	5	50	45	35	20	inveg	m
+WR	wepp-24960	"09:35 pm  Monday March 11, 2013"	"FLAGSTAFF WB AP AZ"	30	sand	graveled	250	5	5	4	50	35	40	20	outrut	m
+WR	wepp-25007	"09:36 pm  Monday March 11, 2013"	"FLAGSTAFF WB AP AZ"	30	sand	graveled	250	5	5	4	50	35	40	20	outunrut	m
+WD	wepp-27576	"08:17 pm  Wednesday March 13, 2013"	"CHARLESTON KAN AP WV"	10	clay	OldForest	20	50	50	30	0	OldForest	20	50	50	30	0	0	m	""
+WD	wepp-27650	"08:22 pm  Wednesday March 13, 2013"	"CHARLESTON KAN AP WV"	10	clay	OldForest	20	50	50	60	0	OldForest	20	50	50	60	0	0	m	""
+WR	wepp-27798	"07:53 pm  Monday March 10, 2014"	"FLAGSTAFF WB AP AZ"	30	sand	graveled	250	5	5	4	50	35	40	20	outrut	m
+WR	wepp-29496	"07:58 pm  Monday March 10, 2014"	"FLAGSTAFF WB AP AZ"	30	sand	graveled	250	5	5	4	50	35	40	20	outunrut	m
+WD	wepp-31112	"08:06 pm  Monday March 10, 2014"	"CHARLESTON KAN AP WV"	10	clay	OldForest	50	0	30	100	20	Bunchgrass	50	50	0	30	20	0	m	""
+WD	wepp-31706	"08:07 pm  Monday March 10, 2014"	"CHARLESTON KAN AP WV"	10	clay	Bunchgrass	50	50	50	30	20	Bunchgrass	50	50	50	30	20	0	m	""
+WD	wepp-1646	"08:15 pm  Monday March 10, 2014"	"CHARLESTON KAN AP WV"	10	clay	Bunchgrass	20	50	50	30	20	Bunchgrass	20	50	50	30	20	0	m	""
+WD	wepp-3309	"08:18 pm  Monday March 10, 2014"	"CHARLESTON KAN AP WV"	10	clay	Bunchgrass	20	50	50	60	20	Bunchgrass	20	50	50	60	20	0	m	""
+WD	wepp-4555	"08:19 pm  Monday March 10, 2014"	"CHARLESTON KAN AP WV"	10	clay	Bunchgrass	20	50	50	100	20	Bunchgrass	20	50	50	100	20	0	m	""
+WD	wepp-4619	"08:20 pm  Monday March 10, 2014"	"CHARLESTON KAN AP WV"	10	clay	Bunchgrass	20	50	50	30	20	Bunchgrass	20	50	50	30	20	0	m	""
+WR	wepp-193718	"01:36 pm  Thursday March 11, 2021"	"SHASTA DAM CA"	30	sand	native	200	6	4	45	35	40	25	20	inveg	m
+WR	wepp-1974	"11:48 am  Saturday March 13, 2021"	"SHASTA DAM CA"	30	sand	native	656.168	6	13.1234	15	50	130	25	20	inveg	ft
+WR	wepp-2652	"12:29 pm  Saturday March 13, 2021"	"SHASTA DAM CA"	30	sand	native	200	6	4	5	50	40	25	20	inveg	m
+WR	wepp-2693	"12:31 pm  Saturday March 13, 2021"	"SHASTA DAM CA"	30	sand	graveled	200	6	4	5	50	40	25	20	inveg	m
+WR	wepp-2747	"12:32 pm  Saturday March 13, 2021"	"SHASTA DAM CA"	30	sand	native	200	6	4	5	50	40	25	20	inveg	m
+WR	wepp-2785	"12:32 pm  Saturday March 13, 2021"	"SHASTA DAM CA"	30	clay	native	60	4	4	5	50	40	25	20	inveg	m
+WR	wepp-2850	"12:32 pm  Saturday March 13, 2021"	"SHASTA DAM CA"	30	sand	native	60	4	4	5	50	40	25	20	inveg	m
+WR	wepp-2925	"12:33 pm  Saturday March 13, 2021"	"SHASTA DAM CA"	30	sand	graveled	60	4	4	5	50	40	25	20	inveg	m
+WR	wepp-2972	"12:33 pm  Saturday March 13, 2021"	"SHASTA DAM CA"	30	sand	graveled	200	6	4	5	50	40	25	20	inveg	m
+WR	wepp-3178	"12:41 pm  Saturday March 13, 2021"	"FLAGSTAFF WB AP AZ"	30	sand	graveled	250	5	5	4	50	35	40	20	outrut	m
+WR	wepp-19321	"11:30 pm  Saturday March 13, 2021"	"FLAGSTAFF WB AP AZ"	30	sand	graveled	250	5	5	4	50	35	40	20	outrut	m
+WR	wepp-35075	"03:08 pm  Sunday March 14, 2021"	"FLAGSTAFF WB AP AZ"	30	sand	graveled	60	4	4	5	50	40	25	20	inveg	m
+WR	wepp-35145	"03:08 pm  Sunday March 14, 2021"	"FLAGSTAFF WB AP AZ"	30	sand	graveled	60	4	4	5	50	40	25	20	outrut	m
+WR	wepp-35190	"03:08 pm  Sunday March 14, 2021"	"FLAGSTAFF WB AP AZ"	30	sand	graveled	60	4	4	5	50	40	25	20	outunrut	m
+WR	wepp-35954	"03:29 pm  Sunday March 14, 2021"	"FLAGSTAFF WB AP AZ"	30	sand	graveled	250	5	5	4	50	35	40	20	outrut	m
+WR	wepp-36466	"03:41 pm  Sunday March 14, 2021"	"FLAGSTAFF WB AP AZ"	30	sand	graveled	250	5	5	4	50	35	40	20	outunrut	m
+WR	wepp-166107	"07:11 pm  Wednesday March 17, 2021"	"FLAGSTAFF WB AP AZ"	30	sand	graveled	250	5	5	4	50	35	40	20	outrut	m
+WR	wepp-166142	"07:11 pm  Wednesday March 17, 2021"	"FLAGSTAFF WB AP AZ"	30	sand	graveled	250	5	5	4	50	35	40	20	outrut	m
+WR	wepp-166643	"07:32 pm  Wednesday March 17, 2021"	"FLAGSTAFF WB AP AZ"	30	sand	graveled	250	5	5	4	50	35	40	20	outrut	m
+WR	wepp-58668	"03:32 pm  Saturday April 3, 2021"	"FLAGSTAFF WB AP AZ"	30	sand	graveled	250	5	5	4	50	35	40	20	outrut	m
+WR	wepp-154793	"01:42 pm  Thursday May 6, 2021"	"FLAGSTAFF WB AP AZ"	30	sand	graveled	250	5	5	4	50	35	40	20	outrut	m

@@ -1,0 +1,35 @@
+WR	wepp-179152	"03:18 pm  Thursday September 13, 2018"	"BIRMINGHAM WB AP AL"	30	clay	native	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-180746	"05:36 pm  Thursday September 13, 2018"	"TAHOE CA"	30	clay	native	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-180877	"05:39 pm  Thursday September 13, 2018"	"TAHOE CA"	30	sand	native	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-180978	"05:44 pm  Thursday September 13, 2018"	"TAHOE CA"	30	sand	native	200	4	13	15	50	1	25	20	inveg	ft
+WR	wepp-181021	"05:44 pm  Thursday September 13, 2018"	"TAHOE CA"	30	sand	native	200	4	13	15	50	400	25	20	inveg	ft
+WR	wepp-181065	"05:45 pm  Thursday September 13, 2018"	"TAHOE CA"	30	sand	native	200	4	13	15	50	500	25	20	inveg	ft
+WR	wepp-181209	"05:46 pm  Thursday September 13, 2018"	"TAHOE CA"	30	sand	native	200	4	13	15	50	130	0.5	20	inveg	ft
+WR	wepp-181292	"05:55 pm  Thursday September 13, 2018"	"TAHOE CA"	30	sand	native	200	4	13	15	50	130	0.5	20	inveg	ft
+WR	wepp-197113	"11:17 am  Friday September 14, 2018"	"RUBICON #2 CA SNOTEL"	50	sand	native	300	4	14	15	50	130	25	20	outrut	ft
+WR	wepp-197154	"11:18 am  Friday September 14, 2018"	"RUBICON #2 CA SNOTEL"	50	sand	graveled	200	4	13	15	50	130	25	20	inbare	ft
+WR	wepp-197191	"11:18 am  Friday September 14, 2018"	"RUBICON #2 CA SNOTEL"	50	sand	graveled	300	4	14	15	50	130	25	20	inbare	ft
+WR	wepp-197232	"11:19 am  Friday September 14, 2018"	"RUBICON #2 CA SNOTEL"	50	sand	graveled	300	4	14	15	50	130	25	20	inveg	ft
+WR	wepp-197277	"11:20 am  Friday September 14, 2018"	"RUBICON #2 CA SNOTEL"	50	sand	paved	300	4	14	15	50	130	25	20	inveg	ft
+WR	wepp-197338	"11:22 am  Friday September 14, 2018"	"RUBICON #2 CA SNOTEL"	50	sand	graveled	300	4	14	15	50	130	25	20	outunrut	ft
+WR	wepp-197444	"11:24 am  Friday September 14, 2018"	"RUBICON #2 CA SNOTEL"	50	sand	graveled	150	4	14	15	50	130	25	20	inveg	ft
+WE	wepp-224122	"09:50 am  Tuesday April 9, 2019"	"COLVILLE WB AP WA"	clay	20	forest	15	45	30	700	h			ft
+WE	wepp-23730	"09:44 am  Friday May 24, 2019"	"Wallow One Fire +"	loam	10	forest	10	24.66	17.46	94.63408	h			ft
+WE	wepp-23982	"09:45 am  Friday May 24, 2019"	"Wallow One Fire +"	loam	10	forest	6	14.28	10.61	237.6288	h			ft
+WE	wepp-24167	"09:45 am  Friday May 24, 2019"	"Wallow One Fire +"	loam	10	forest	6.33	23.78	15.87	81.11111	u			ft
+WE	wepp-24206	"09:45 am  Friday May 24, 2019"	"Wallow One Fire +"	loam	10	forest	24.33	49.61	19.33	49.70563	l			ft
+WE	wepp-24300	"09:45 am  Friday May 24, 2019"	"Wallow One Fire +"	loam	10	forest	5	21.62	13.53	305.5421	h			ft
+WE	wepp-24484	"09:46 am  Friday May 24, 2019"	"Wallow One Fire +"	loam	10	forest	4.95	15.65	7.16	266.8406	u			ft
+WE	wepp-24516	"09:46 am  Friday May 24, 2019"	"Wallow One Fire +"	loam	10	forest	15.78	28	24.28	148.9091	l			ft
+WE	wepp-24618	"09:46 am  Friday May 24, 2019"	"Wallow One Fire +"	loam	10	forest	11.24	21.85	10.8	180.204	u			ft
+WE	wepp-24650	"09:46 am  Friday May 24, 2019"	"Wallow One Fire +"	loam	10	forest	8.33	21.75	13.88	181.2142	h			ft
+WE	wepp-24829	"09:46 am  Friday May 24, 2019"	"Wallow One Fire +"	loam	10	forest	6.6	23.1	29.02	184.6479	h			ft
+WE	wepp-25005	"09:47 am  Friday May 24, 2019"	"Wallow One Fire +"	loam	10	forest	17.21	25.76	12.92	38.24005	h			ft
+WE	wepp-25177	"09:47 am  Friday May 24, 2019"	"Wallow One Fire +"	loam	10	forest	4.33	25.21	10.15	136.4755	h			ft
+WE	wepp-25354	"09:47 am  Friday May 24, 2019"	"Wallow One Fire +"	loam	10	forest	4.95	18.89	14.42	174.6867	u			ft
+WE	wepp-25388	"09:48 am  Friday May 24, 2019"	"Wallow One Fire +"	loam	10	forest	9.31	27.57	17.54	140	u			ft
+WE	wepp-25425	"09:48 am  Friday May 24, 2019"	"Wallow One Fire +"	loam	10	forest	18.39	39.16	20.84	37.4169	m			ft
+WE	wepp-25564	"09:48 am  Friday May 24, 2019"	"Wallow One Fire +"	loam	10	forest	6.13	28.2	20.08	105.1601	h			ft
+WE	wepp-25736	"09:48 am  Friday May 24, 2019"	"Wallow One Fire +"	loam	10	forest	17.68	26.95	10.82	148.8248	u			ft
+WE	wepp-25770	"09:48 am  Friday May 24, 2019"	"Wallow One Fire +"	loam	10	forest	26.16	24.97	23.77	18.70845	h			ft
+WE	wepp-25949	"09:49 am  Friday May 24, 2019"	"Wallow One Fire +"	loam	10	forest	11.33	17.39	12.33	243.6317	u			ft

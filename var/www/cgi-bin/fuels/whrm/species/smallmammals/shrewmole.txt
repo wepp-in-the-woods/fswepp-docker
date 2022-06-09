@@ -1,0 +1,85 @@
+#this files was modified by filegenwhrm.pl on: Wednesday, March 16, 2005.
+#taxgroup Small Mammals species Shrew-mole /  Neurotruchus gibbsii
+#
+# Rank
+3,1,3,-99,2
+# Nestsite
+8,1
+# Reprorank
+1,-99
+# Foraging Habitat
+4,1:7,1:25,1:26,1
+# Habitatrank
+1,-99:1,-99:1,-99:1,-99
+# Forage/Prey Availability
+-99
+# Preyrank
+-99
+# Predator Avoidance
+4,1:7,1
+# Avoidrank
+1,-99:1,-99
+# Refugia/Shelter
+4,1:7,1
+# Shelterrank
+1,-99:1,-99
+# Coverrank
+1,-99:1,-99
+# Literature
+Distribution
+coastal southern British Columbia, Washington, Oregon, northern California
+General Habitat
+moist areas in shady ravines and along streams
+Home or Activity Range
+no information available
+Canopy Cover
+No information available
+Specific Habitat Preferences
+forest with large trees; herbaceous/ground cover, rotting stumps or logs; Butts and McComb found a negative association with large diameter (>50 cm) downed wood
+Nestsite Characteristics
+rotting stumps or logs
+Foraging Habitat Characteristics
+herbaceous cover, woody plant cover
+Diet
+small invertebrates
+Predators
+no information available
+Shelter Habitats
+herbaceous cover, woody plant cover
+Response to Disturbance
+most abundant in uncut plots, followed by unburned clearcut, least abundant in slash-burned clearcut (Hooven and Black 1976), more abundant in young stands than clearcuts (Corn et al. 1988); positively associated with older stands but not dependent on old-growth (Gilbert and Allwine 1991)
+Sources of Information used in the Model
+Hooven and Black 1976, Butts and McComb 2000, Maguire 2002
+General Sources of Background Information
+Hooven and Black 1976, Burt 1980, Corn et al. 1988, Gilbert and Allwine 1991, Butts and McComb 2000, Maguire 2002
+Summaries of Specific Studies
+Butts, Sally R.; McComb, William C. 2000. Associations of forest-floor vertebrates with coarse woody debris in managed forests of western Oregon. Journal of Wildlife Management. 64(1):95-104.
+
+Study Location: western Oregon Cascades
+Habitat Description: PSME
+Summary: Study areas that varied widely in CWD amounts were sampled for terrestrial amphibians and small mammals. Regression models containing habitat variables were constructed for 5 species of amphibians and small mammals. As CWD volume was important to some organisms, the authors suggest a retention of CWD in the range of 100-300 m3/ha to provide habitat for most terrestrial salamanders.
+
+Corn, Paul Stephen; Bury, R. Bruce; Spies, Thomas A. 1988. Douglas-fir forests in the Cascade Mountains of Oregon and Washington: Is the abundance of small mammals related to stand age and moisture? In: Management of amphibians, reptiles, and small mammals in North America symposium: proceedings; Gen. Tech. Rep. RM-166. Fort Collins, CO: USDA, Forest Service, Rocky Mountain Forest and Range Experiment Station. 340-352.
+
+Study Location: Oregon and Washington Cascade Mountains
+Habitat Description: PSME
+Summary: Abundance of small mammals was associated with seral stage and moisture of PSME forests. Habitat associations are given for a number of species. Comparisons between clearcut and young forests were made for a few species.
+
+Gilbert, Frederick F.; Allwine, Rochelle. 1991. Small mammal communities in the Oregon Cascade Range. In Wildlife and vegetation of unmanaged Douglas-fir forests. Gen. Tech. Rep. PNW-GTR-285. Portland, OR: USDA, Forest Service, Pacific Northwest Research Station. pp 257-268.
+
+Study Location: west slope of Oregon Cascades
+Habitat Description: PSME
+Summary: There was no significant difference in species richness among young, mature and old-growth PSME stands in the Oregon Cascade Range. Trowbridge's shrew was the most abundant small mammal captured. Trowbridge's shrew, the shrew-mole, the deer mouse, and the red tree vole all were associated with older stands. The coast mole was only found in mature and old growth stands in one year. Tree squirrel abundance was positively correlated with snags. Temporal and spatial differences in habitat use were indicated by associations with forest vegetational and physical characteristics. The authors state that young and mature stands in this study contained many characteristics of old growth stands as they were allowed to naturally regenerate. Therefore, caution should be exercised in extrapolating results, as these stands did not contain conditions representative of stands managed for timber production.
+
+Hooven, Edward F.; Black, Hugh C. 1976. Effects of some clearcutting practices on small-mammal populations in western Oregon. Northwest Science. 50(4):189-208.
+
+Study Location: western Oregon (Cascades)
+Habitat Description: PSME; also TSHE, THPL, ABGR
+Summary: Changes in small mammal populations were documented in two clearcut (one with slash burned) and one uncut PSME stand. Shrews and chipmunks were adversely impacted by logging, while deer mice and Oregon creeping voles were affected favorably by both logging and slash burnings
+
+Maguire, Chris C. 2002. Dead wood and the richness of small terrestrial vertebrates in southwestern Oregon. USDA Forest Service Gen. Tech. Rep. PSW-GTR-181: 331-345.
+
+Study Location: Umpqua National Forest, southwestern Oregon
+Habitat Description: mature PSME, with past history of thinning or salvage logging
+Summary: The association between small vertebrate richness and coarse woody debris volume was tested, with a positive correlation demonstrated across all taxa and also within the taxonomic groups of small mammals, insectivores, and amphibians. A number of individual species appear to be associated with coarse woody debris; the majority of these associations were positive. No evidence of an association between snag volume and small vertebrate richness was found. Because the coarse woody debris volumes in the study area were well above regional guidelines, the author predicts reduced small vertebrate richness in those areas where coarse woody debris guidelines are strictly followed. 
+

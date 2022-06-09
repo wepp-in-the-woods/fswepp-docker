@@ -1,0 +1,38 @@
+WD	wepp-93699	"09:54 pm  Wednesday July 22, 2015"	"Orogrande CPP +"	30	sand	Shrub	1000	60	60	30	20	OldForest	300	60	60	100	20	0	ft	""
+WD	wepp-93750	"09:55 pm  Wednesday July 22, 2015"	"Orogrande CPP +"	100	sand	Bunchgrass	1000	60	60	60	20	OldForest	300	60	60	100	20	0	ft	""
+WD	wepp-93941	"10:00 pm  Wednesday July 22, 2015"	"Orogrande CPP +"	100	sand	Bunchgrass	1000	60	60	60	20	Bunchgrass	300	60	60	60	20	0	ft	""
+WD	wepp-94003	"10:01 pm  Wednesday July 22, 2015"	"Orogrande CPP +"	100	sand	Bunchgrass	1000	60	60	30	20	OldForest	300	60	60	100	20	0	ft	""
+WD	wepp-94160	"10:05 pm  Wednesday July 22, 2015"	"Orogrande CPP +"	100	sand	Sod	1000	60	60	40	20	OldForest	300	60	60	100	20	0	ft	""
+WD	wepp-94647	"10:21 pm  Wednesday July 22, 2015"	"Orogrande CPP +"	100	sand	Sod	100	45	45	70	20	OldForest	500	45	45	100	20	0	ft	""
+WD	wepp-94766	"10:24 pm  Wednesday July 22, 2015"	"Orogrande CPP +"	100	sand	Bunchgrass	100	45	45	70	20	OldForest	500	45	45	100	20	0	ft	""
+WD	wepp-95293	"10:39 pm  Wednesday July 22, 2015"	"Orogrande CPP +"	100	sand	Bunchgrass	100	45	45	70	20	Bunchgrass	1.5	45	45	70	20	0	ft	""
+WD	wepp-95372	"10:41 pm  Wednesday July 22, 2015"	"Orogrande CPP +"	100	sand	Bunchgrass	200	45	45	70	20	Bunchgrass	1.5	45	45	70	20	0	ft	""
+WD	wepp-95480	"10:44 pm  Wednesday July 22, 2015"	"Orogrande CPP +"	100	sand	Sod	200	45	45	70	20	Sod	1.5	45	45	70	20	0	ft	""
+WD	wepp-95911	"10:58 pm  Wednesday July 22, 2015"	"Orogrande CPP +"	100	sand	Sod	200	55	55	70	20	Sod	1.5	55	55	70	20	0	ft	""
+WR	wepp-96561	"11:18 pm  Wednesday July 22, 2015"	"Orogrande CPP +"	100	sand	native	30	8	12	15	50	1.5	50	20	outrut	ft
+WR	wepp-96650	"11:21 pm  Wednesday July 22, 2015"	"Orogrande CPP +"	100	sand	native	30	8	12	15	50	1	50	20	outrut	ft
+WR	wepp-97528	"11:49 pm  Wednesday July 22, 2015"	"Orogrande CPP +"	100	sand	graveled	300	25	12	15	60	1	60	20	outunrut	ft
+WR	wepp-97595	"11:50 pm  Wednesday July 22, 2015"	"Orogrande CPP +"	100	sand	graveled	300	25	12	15	60	1	60	20	inveg	ft
+WR	wepp-97639	"11:50 pm  Wednesday July 22, 2015"	"Orogrande CPP +"	100	sand	graveled	50	25	12	15	60	1	60	20	outunrut	ft
+WR	wepp-97698	"11:51 pm  Wednesday July 22, 2015"	"Orogrande CPP +"	100	sand	graveled	50	25	12	1	1	1	1	20	outunrut	ft
+WR	wepp-97743	"11:52 pm  Wednesday July 22, 2015"	"Orogrande CPP +"	100	sand	graveled	50	10	12	1	1	1	1	20	outunrut	ft
+WR	wepp-97802	"11:52 pm  Wednesday July 22, 2015"	"Orogrande CPP +"	100	sand	graveled	30	25	12	1	1	1	1	20	outunrut	ft
+WR	wepp-98182	"11:57 pm  Wednesday July 22, 2015"	"Orogrande CPP +"	100	sand	graveled	700	5	12	1	1	1	1	20	outunrut	ft
+WR	wepp-98223	"11:58 pm  Wednesday July 22, 2015"	"Orogrande CPP +"	100	sand	graveled	50	5	12	1	1	1	1	20	outunrut	ft
+WR	wepp-98266	"11:58 pm  Wednesday July 22, 2015"	"Orogrande CPP +"	100	sand	graveled	30	5	12	1	1	1	1	20	outunrut	ft
+WR	wepp-98387	"00:00 am  Thursday July 23, 2015"	"Orogrande CPP +"	100	sand	graveled	30	2	12	1	1	1	1	20	outunrut	ft
+WR	wepp-98443	"00:01 am  Thursday July 23, 2015"	"Orogrande CPP +"	100	sand	graveled	30	4	12	1	1	1	1	20	outunrut	ft
+WR	wepp-98512	"00:02 am  Thursday July 23, 2015"	"Orogrande CPP +"	100	sand	graveled	30	2	12	1	1	1	1	20	outunrut	ft
+WR	wepp-98560	"00:02 am  Thursday July 23, 2015"	"Orogrande CPP +"	100	sand	graveled	30	6	12	1	1	1	1	20	outunrut	ft
+WR	wepp-98608	"00:03 am  Thursday July 23, 2015"	"Orogrande CPP +"	100	sand	graveled	30	8	12	1	1	1	1	20	outunrut	ft
+WR	wepp-98657	"00:03 am  Thursday July 23, 2015"	"Orogrande CPP +"	100	sand	graveled	30	8	12	1	1	1	1	20	outrut	ft
+WR	wepp-98720	"00:05 am  Thursday July 23, 2015"	"Orogrande CPP +"	100	sand	graveled	30	2	12	1	1	1	1	20	outrut	ft
+WR	wepp-98773	"00:05 am  Thursday July 23, 2015"	"Orogrande CPP +"	100	sand	graveled	30	4	12	1	1	1	1	20	outrut	ft
+WR	wepp-98820	"00:05 am  Thursday July 23, 2015"	"Orogrande CPP +"	100	sand	graveled	30	6	12	1	1	1	1	20	outrut	ft
+WR	wepp-98865	"00:06 am  Thursday July 23, 2015"	"Orogrande CPP +"	100	sand	graveled	30	8	12	1	1	1	1	20	outrut	ft
+WR	wepp-98904	"00:06 am  Thursday July 23, 2015"	"Orogrande CPP +"	100	sand	graveled	30	10	12	1	1	1	1	20	outrut	ft
+WR	wepp-98950	"00:06 am  Thursday July 23, 2015"	"Orogrande CPP +"	100	sand	graveled	30	12	12	1	1	1	1	20	outrut	ft
+WR	wepp-98995	"00:07 am  Thursday July 23, 2015"	"Orogrande CPP +"	100	sand	graveled	30	14	12	1	1	1	1	20	outrut	ft
+WR	wepp-99044	"00:07 am  Thursday July 23, 2015"	"Orogrande CPP +"	100	sand	graveled	30	16	12	1	1	1	1	20	outrut	ft
+WR	wepp-99205	"00:11 am  Thursday July 23, 2015"	"Orogrande CPP +"	100	sand	graveled	15	16	12	1	1	1	1	20	outrut	ft
+WR	wepp-99533	"00:21 am  Thursday July 23, 2015"	"Orogrande CPP +"	100	sand	graveled	30	10	12	1	1	1	1	20	outrut	ft

@@ -1,0 +1,108 @@
+#this files was modified by filegenwhrm.pl on: Wednesday, March 16, 2005.
+#taxgroup Birds species Hammond's flycatcher / Empidonax hammondii
+#
+# Rank
+2,3,1,-99,-99
+# Nestsite
+19,1:20,-1:22,-1:23,-1:25,1:26,1:45,1:51,-1:54,1:55,1
+# Reprorank
+1,-99:1,-99:1,-99:1,-99:3,-99:3,-99:1,-99:1,-99:1,-99:1,-99
+# Foraging Habitat
+20,1:25,1:26,1
+# Habitatrank
+1,-99:1,-99:1,-99
+# Forage/Prey Availability
+-99
+# Preyrank
+-99
+# Predator Avoidance
+-99
+# Avoidrank
+-99
+# Refugia/Shelter
+-99
+# Shelterrank
+-99
+# Coverrank
+-99
+# Literature
+Distribution
+breeds west of Rockies, winters in Mexico
+General Habitat
+closed canopy mixed conifer stands
+Home or Activity Range
+1.5-4 ac
+Canopy Cover
+found in stands with >40% canopy cover (Verner 1980); prefers nest site habitat with more open habitat (Sedgewick 1994, from Sakai and Noon 1991)
+Specific Habitat Preferences
+large trees, >40% canopy cover; respond positively to edge; prefer homogenous landscapes
+Nestsite Characteristics
+foliage nester; nests high in conifers with nest saddled on limb far from trunk, "other trees" in model are tanoaks
+Foraging Habitat Characteristics
+hawks for insects from dead branches in the mid-canopy layer; gleans from foliage; occasionally drops to the base of a  tree to forage.
+Diet
+caterpillars, butterflies, moths, beetles, and flies
+Predators
+jays, squirrels, chipmunks
+Shelter Habitats
+no information available
+Response to Disturbance
+initially reduced by fire and remained low  (Johnson and Wauer 1996); less abundant in low shrub- and high shrub-stage clearcuts compared to uncut forest (Hejl et al. 1995); when observed, recorded in thinned and burned PIPO sites but not controls (Woolf 2003); more abundant in old-growth PSME stands than mature PSME or harvest (clearcut or shelterwood cut) units (Moore 1992); logging may adversely affect species, as it prefers mature/old growth forest of >10 ha and 80-90 years of age (Sedgewick 1994); were only found in mature PSME stands and were absent from young stands (Sakai and Noon 1991)
+Sources of Information used in the Model
+Verner 1980, Sakai and Noon 1991, Sedgewick 1994
+General Sources of Background Information
+Verner 1980, Sakai and Noon 1991, Moore 1992, Sedgewick 1994, reviewed in Hagar et al. 1995, Hejl et al. 1995, Johnson and Wauer 1996, National Geographic Society 1996, reviewed in O'Neil et al. 2001, Sallabanks et al. 2003; Woolf 2003
+Summaries of Specific Studies
+Hagar, Joan C. McComb, William; Chambers, Carol C. 1995. Effects of forest practices on wildlife. Chapter 9 In: Beschta, Robert L.; Boyle, James R.; Chambers, Carol C.; Gibson, Wayne P.; Gregory, Stanley V.; Grizzel, Jeffrey; Hagar, Joan C.; Li, Judy, L.; McComb, William C.; Parzybok, Tye W.; Reiter, Maryanne L.; Taylor, George H.; Warila, James E. Cumulative effects of forest practices in Oregon: literature and synthesis. Salem, OR: Oregon Department of Forestry. 145 p.
+
+Study Location: Oregon
+Habitat Description: variety
+Summary: Synthesis of the direct impacts of forest practices on wildlife populations in Oregon. Wildlife habitat and the ecological role of disturbance are theoretically outlined. A gradient approach to habitat is discussed, using the following gradients: edge density and contrast (Table 9.1, 9.3), seral stage (Table 9.4, 9.5), canopy cover (Table 9.6), floristic composition (Table 9.8, 9.10), dead wood (Table 9.11), special habitat features (caves, cliffs, talus) (Table 9.13, 9.14, 9.15), riparian areas (Table 9.17). Species-specific responses to these gradients are reviewed for managed and unmanaged forests. 
+
+Hejl, Sallie J.; Hutto, Richard L.; Preston, Charles R.; Finch, Deborah M. 1995. Effects of silvicultural treatments in the Rocky Mountains. In:Martin, Thomas E.; Finch, Deborah M. (eds.). Ecology and Management of Neotropical Migratory Birds. New York, Oxford: Oxford University Press. 220-244.
+
+Study Location: Rocky Mountains
+Habitat Description: forest types across the Rocky mountains
+Summary: Synthesis of the effects of different silvicultural treatments on neotropical migrants in forests of the Rocky Mountains. Outlines current forest structure, natural disturbance, logging history, and current silvicultural recommendations. General bird-habitat relationships in natural forest, including stands of different ages, are contrasted with stands that are silviculturally manipulated. Contains detailed species lists for rare to abundant bird species that are found in 8 forest types commonly found in the Rockies (Table 8-2). Also lists species by their likelihood to be more or less abundant in managed stands (classified as one of three types of clearcuts or partial cuts) compared to uncut forest. (Table 8-3)
+
+Johnson, Terrell; Wauer, Roland H. 1996. Avifaunal response to the 1977 La Mesa fire. In: Allen, C.D. (tech. ed.) Fire effects in southwestern forests. Proceedings of the second La Mesa fire symposium. Gen. Tech. Rep. RM-GRT-286. Fort Collins, CO: USDA Forest Service, Rocky Mountain Forest and Range Experiment Station. 70-94.
+
+Study Location: Bandelier National Monument, NM
+Habitat Description: PIPO, montane meadow, mixed conifer, pinyon-juniper
+Summary: Breeding birds were surveyed before and for many years after a wildfire in Bandelier National Monument. Species diversity increased after the fire, but breeding populations in general declined for several years before increasing above prefire levels. This pattern was more pronounced on severely burned forest. In all but the severely burned forest, breeding bird diversity and populations were higher than prefire levels 14 years after the wildfire. Patterns are presented for different foraging and nesting guilds, as well as some individual species (including particular habitat changes that impacted bird species).
+
+Moore, Robin L. 1992. Breeding birds in old-growth forests and snag management for birds. Forest Plan monitoring project report. USDA Forest Service, Gallatin National Forest, Bozeman, MT.
+
+Study Location: southwestern Montana
+Habitat Description: PSME
+Summary: Avian species composition and abundance were examined in old-growth, mature, and harvested PSME forest. The greatest total abundance was detected in the old-growth forest. In general, the old-growth contained the greatest number of species, though there was no detected difference in species richness between the stand types. Higher elevation old-growth stands contained a greater abundance of birds than the lower elevation old-growth stands. Trees with cavities were also examined in this study. The majority of cavity trees were old PSME with broken tops, and cavities tended to be located in the top one-third of the tree. Some primary and secondary cavity-nesting birds demonstrated dbh preferences for nest trees.
+
+Sakai, Howard F.; Noon, Barry R. 1991. Nest-site characteristics of Hammond's and Pacific-slope flycatchers in northwestern California. The Condor. 93: 563-574.
+
+Study Location: northwestern California
+Habitat Description: PSME-LIDE
+Summary: Nest sites of Pacific-slope and Hammond's flycatchers were compared in northwestern California. Hammond's flycatchers used taller trees, placed nests higher in tree and farther from tree bole, used areas with higher foliage cover, and oriented nests in a NE and SW direction. In mature forests, Hammond's nested in areas with more open canopy, fewer small tanoaks but more large tanoaks, and selected areas with higher canopy bole height. Differences between species also existed between stand development stages. Hammond's were not found in young forests, only in mature forests.
+
+Sallabanks, Rex; Marcot, Bruce G.; Riggs, Robert A.; Mehl, Carolyn A.; Arnett, Edward B. 2003. Wildlife of Eastside (Interior) Forests and Woodlands. In Wildlife-Habitat Relationships in Oregon and Washington. Corvallis, OR: Oregon State University Press. pp 213-238.
+
+Study Location: Blue Mountains, OR
+Habitat Description: ABGR
+Summary: This case history (1) evaluates bird-habitat relationships in primarily grand fir forests. The goals of this study were to assess how forest stand structure influences habitat selection by birds, to investigate bird use of specific forest structural classes, and to relate bird habitat use to potential management options that consider breeding bird habitat.
+
+Sedgwick, James A. 1994. Hammond's flycatcher. The Birds of North America. 109: 1-15.
+
+Study Location: throughout range
+Habitat Description: variety reviewed
+Summary: Birds of North America species account for Hammond's flycatcher. Breeds in mature coniferous, mixed and aspen forests. Nest sites have low densities of young trees and open canopy. Forages in the mid-canopy of conifer-aspen forests.
+
+Verner, Jared. 1980. Bird communities of mixed-conifer forests of the Sierra Nevada. In Management of western forests and grasslands for nongame birds: workshop proceedings. February 11-14, 1980, Salt Lake City, UT. USDA Forest Service Gen. Tech. Rep. INT-86, Ogden, UT. pp 198-223.
+
+Study Location: Sierra Nevada of California
+Habitat Description: ABCO/LIDE/PILA/PIPO/PSME
+Summary: Breeding bird species are predicted for the various habitat stages of mixed-conifer forest in the Sierra Nevada. Habitat is broken into groups based on tree size (exact diameters not given) and canopy closure. Relative suitability of habitats is listed; optimal habitat only was entered in this database. This species-habitat matrix was made from data from various studies in the region. Predictions were more accurate for later seral stages than early. Forest management in regards to bird communities is discussed, emphasizing the importance of late seral stages for breeding birds in the study region.
+
+Woolf, Jennifer. 2003. The effects of thinning and prescribed fire on birds, small mammals, and avian species composition. Missoula, MT: University of Montana. 93 p. M.S. Thesis.
+
+Study Location: western Montana
+Habitat Description: PIPO
+Summary: Stands in western Montana underwent PIPO restoration treatments that included selective tree removal followed by a prescribed burn. Bird and small mammal populations were monitored on these and control sites. While some bird species showed a preference for treated vs. untreated stands, the treatment did not have major effects on avian species composition. The foraging behavior of bark-gleaning birds was also examined on treated vs. untreated sites. Birds selectively foraged on larger trees, with PIPO preferred to PSME in this study area. Thinning and burning is compatible with providing forage substrates for the species in this area, as the encounter rate for bark-gleaners was higher in the treated sites. Small mammal communities changed in both abundance and composition as a result of treatment, with deer mice exhibiting the most positive response to treatment.

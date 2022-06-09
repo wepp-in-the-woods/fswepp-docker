@@ -1,0 +1,61 @@
+WR	wepp-8749	"03:19 pm  Thursday November 8, 2012"	"FORT BRAGG CA"	30	sand	graveled	150	2	16	15	50	100	50	20	outrut	ft
+WD	wepp-10179	"04:14 pm  Thursday November 8, 2012"	"SANTA CRUZ CA"	30	silt	OldForest	500	70	70	100	5	OldForest	100	50	40	100	5	0	ft	"Santa Cruz Example"
+WD	wepp-10414	"04:17 pm  Thursday November 8, 2012"	"SANTA CRUZ CA"	30	silt	YoungForest	500	70	70	100	5	YoungForest	100	50	40	100	5	0	ft	"Santa Cruz Example"
+WD	wepp-10453	"04:17 pm  Thursday November 8, 2012"	"SANTA CRUZ CA"	30	silt	LowFire	500	70	70	85	5	LowFire	100	50	40	85	5	0	ft	"Santa Cruz Example"
+WD	wepp-10496	"04:18 pm  Thursday November 8, 2012"	"SANTA CRUZ CA"	30	silt	HighFire	500	70	70	45	5	HighFire	100	50	40	45	5	0	ft	"Santa Cruz Example"
+WD	wepp-10655	"04:19 pm  Thursday November 8, 2012"	"SANTA CRUZ CA"	30	silt	HighFire	500	70	70	45	5	HighFire	100	50	40	45	5	0	ft	"Santa Cruz Example"
+WD	wepp-10717	"04:19 pm  Thursday November 8, 2012"	"SANTA CRUZ CA"	30	silt	LowFire	500	70	70	85	5	LowFire	100	50	40	85	5	0	ft	"Santa Cruz Example"
+WD	wepp-10805	"04:19 pm  Thursday November 8, 2012"	"SANTA CRUZ CA"	30	silt	YoungForest	500	70	70	100	5	YoungForest	100	50	40	100	5	0	ft	"Santa Cruz Example"
+WD	wepp-10918	"04:20 pm  Thursday November 8, 2012"	"SANTA CRUZ CA"	30	silt	OldForest	500	70	70	100	5	OldForest	100	50	40	100	5	0	ft	"Santa Cruz Example"
+WD	wepp-11102	"04:21 pm  Thursday November 8, 2012"	"SANTA CRUZ CA"	30	silt	Bunchgrass	500	70	70	60	5	Bunchgrass	100	50	40	60	5	0	ft	"Santa Cruz Example"
+WD	wepp-11181	"04:23 pm  Thursday November 8, 2012"	"SANTA CRUZ CA"	30	silt	OldForest	500	70	70	100	5	OldForest	100	50	40	100	5	0	ft	"Santa Cruz Example"
+WR	wepp-11897	"04:40 pm  Thursday November 8, 2012"	"FORT BRAGG CA"	30	sand	graveled	81.3	6	16	10	81	25	80	20	outrut	ft
+WR	wepp-12091	"04:42 pm  Thursday November 8, 2012"	"FORT BRAGG CA"	30	sand	graveled	81.3	6	16	10	81	25	80	20	outrut	ft
+WR	wepp-12211	"04:44 pm  Thursday November 8, 2012"	"FORT BRAGG CA"	30	sand	graveled	71.3	5	16	10	59	25	80	20	outrut	ft
+WR	wepp-12274	"04:44 pm  Thursday November 8, 2012"	"FORT BRAGG CA"	30	sand	graveled	71.3	5	16	10	59	25	80	20	outrut	ft
+WR	wepp-12428	"04:45 pm  Thursday November 8, 2012"	"FORT BRAGG CA"	30	sand	graveled	10	5	20	10	40	25	80	20	outrut	ft
+WR	wepp-12925	"04:48 pm  Thursday November 8, 2012"	"FORT BRAGG CA"	30	sand	native	10	5	20	10	40	25	80	20	outrut	ft
+WR	wepp-12974	"04:49 pm  Thursday November 8, 2012"	"FORT BRAGG CA"	30	sand	graveled	123.8	7	16	16	65	25	80	20	outrut	ft
+WR	wepp-13062	"04:50 pm  Thursday November 8, 2012"	"FORT BRAGG CA"	30	sand	graveled	123.8	7	16	16	65	25	80	20	outrut	ft
+WR	wepp-13097	"04:50 pm  Thursday November 8, 2012"	"FORT BRAGG CA"	30	sand	graveled	89.4	1	16	10	55	25	80	20	outrut	ft
+WR	wepp-13104	"04:51 pm  Thursday November 8, 2012"	"FORT BRAGG CA"	30	sand	graveled	89.4	1	16	10	55	25	80	20	outrut	ft
+WR	wepp-13184	"04:51 pm  Thursday November 8, 2012"	"FORT BRAGG CA"	30	sand	native	75	11	16	10	50	25	80	20	outrut	ft
+WR	wepp-13203	"04:51 pm  Thursday November 8, 2012"	"FORT BRAGG CA"	30	sand	native	75	11	16	10	50	25	80	20	outrut	ft
+WR	wepp-129062	"08:29 am  Tuesday October 27, 2015"	"SAN LUIS OBISPO POL CA"	30	loam	native	150	10	16	4	35	75	20	20	outrut	ft
+WR	wepp-167310	"04:26 pm  Thursday November 5, 2015"	"SAN LUIS OBISPO POL CA"	30	clay	native	360	10	9.7	10.7	15	71	28	20	outunrut	ft
+WR	wepp-168373	"04:35 pm  Thursday November 5, 2015"	"SAN LUIS OBISPO POL CA"	30	clay	native	360	10	9.7	10.7	15	71	28	20	outrut	ft
+WR	wepp-168539	"04:36 pm  Thursday November 5, 2015"	"SAN LUIS OBISPO POL CA"	30	clay	native	360	10	9.7	10.7	15	71	28	20	outunrut	ft
+WR	wepp-168685	"04:37 pm  Thursday November 5, 2015"	"SAN LUIS OBISPO POL CA"	30	clay	native	60.2	8	11.9	14.8	16	62.5	26	20	outunrut	ft
+WR	wepp-168764	"04:38 pm  Thursday November 5, 2015"	"SAN LUIS OBISPO POL CA"	30	clay	native	60.2	8	11.9	14.8	16	62.5	26	20	outrut	ft
+WR	wepp-168954	"04:39 pm  Thursday November 5, 2015"	"SAN LUIS OBISPO POL CA"	30	clay	native	100.5	5	11.5	13.7	32	51.3	26	20	outunrut	ft
+WR	wepp-169052	"04:40 pm  Thursday November 5, 2015"	"SAN LUIS OBISPO POL CA"	30	clay	native	100.5	5	11.5	13.7	32	51.3	26	20	outrut	ft
+WR	wepp-169328	"04:42 pm  Thursday November 5, 2015"	"SAN LUIS OBISPO POL CA"	30	clay	native	89.7	7	8.4	14.3	15	49.3	12	20	outrut	ft
+WR	wepp-169383	"04:42 pm  Thursday November 5, 2015"	"SAN LUIS OBISPO POL CA"	30	clay	native	89.7	7	8.4	14.3	15	49.3	12	20	outrut	ft
+WR	wepp-169446	"04:42 pm  Thursday November 5, 2015"	"SAN LUIS OBISPO POL CA"	30	clay	native	89.7	7	8.4	14.3	15	49.3	12	20	outrut	ft
+WR	wepp-169881	"04:46 pm  Thursday November 5, 2015"	"SAN LUIS OBISPO POL CA"	30	clay	native	89.3	14	13.2	17.4	12	49.8	19	20	outrut	ft
+WR	wepp-169930	"04:46 pm  Thursday November 5, 2015"	"SAN LUIS OBISPO POL CA"	30	clay	native	89.3	14	13.2	17.4	12	49.8	19	20	outrut	ft
+WR	wepp-170137	"04:47 pm  Thursday November 5, 2015"	"SAN LUIS OBISPO POL CA"	30	clay	native	100.5	14	10.8	11.1	26	29.8	32	20	outunrut	ft
+WR	wepp-170214	"04:47 pm  Thursday November 5, 2015"	"SAN LUIS OBISPO POL CA"	30	clay	native	100.5	14	10.8	11.1	26	29.8	32	20	outrut	ft
+WR	wepp-170862	"04:51 pm  Thursday November 5, 2015"	"SAN LUIS OBISPO POL CA"	30	clay	native	98.8	14	8.9	10.8	24	21.7	29	20	outunrut	ft
+WR	wepp-170947	"04:51 pm  Thursday November 5, 2015"	"SAN LUIS OBISPO POL CA"	30	clay	native	98.8	14	8.9	10.8	24	21.7	29	20	outrut	ft
+WR	wepp-171118	"04:52 pm  Thursday November 5, 2015"	"SAN LUIS OBISPO POL CA"	30	clay	native	74.4	9	10.8	8.4	26	13.2	37	20	inbare	ft
+WR	wepp-171167	"04:52 pm  Thursday November 5, 2015"	"SAN LUIS OBISPO POL CA"	30	clay	native	74.4	9	10.8	8.4	26	13.2	37	20	inbare	ft
+WR	wepp-171260	"04:53 pm  Thursday November 5, 2015"	"SAN LUIS OBISPO POL CA"	30	clay	native	98.8	14	8.9	10.8	24	21.7	29	20	inbare	ft
+WR	wepp-171341	"04:54 pm  Thursday November 5, 2015"	"SAN LUIS OBISPO POL CA"	30	clay	native	98.8	14	8.9	10.8	24	21.7	29	20	inbare	ft
+WR	wepp-171419	"04:54 pm  Thursday November 5, 2015"	"SAN LUIS OBISPO POL CA"	30	clay	native	98.8	14	8.9	10.8	24	21.7	29	20	inveg	ft
+WR	wepp-171496	"04:54 pm  Thursday November 5, 2015"	"SAN LUIS OBISPO POL CA"	30	clay	native	98.8	14	8.9	10.8	24	21.7	29	20	inveg	ft
+WR	wepp-171640	"04:55 pm  Thursday November 5, 2015"	"SAN LUIS OBISPO POL CA"	30	clay	native	74.4	9	10.8	8.4	26	13.2	37	20	inveg	ft
+WR	wepp-171711	"04:55 pm  Thursday November 5, 2015"	"SAN LUIS OBISPO POL CA"	30	clay	native	74.4	9	10.8	8.4	26	13.2	37	20	inveg	ft
+WR	wepp-171996	"04:58 pm  Thursday November 5, 2015"	"SAN LUIS OBISPO POL CA"	30	clay	native	89.3	19	12.7	5.9	10	15.3	8	20	inveg	ft
+WR	wepp-172058	"04:58 pm  Thursday November 5, 2015"	"SAN LUIS OBISPO POL CA"	30	clay	native	89.3	19	12.7	5.9	10	15.3	8	20	inveg	ft
+WR	wepp-172404	"05:01 pm  Thursday November 5, 2015"	""	30	clay	native	100.4	25	14.1	5.9	10	16	22	20		ft
+WR	wepp-172447	"05:01 pm  Thursday November 5, 2015"	"SAN LUIS OBISPO POL CA"	30	clay	native	100.4	25	14.1	5.9	10	16	22	20	inveg	ft
+WR	wepp-172550	"05:01 pm  Thursday November 5, 2015"	"SAN LUIS OBISPO POL CA"	30	clay	native	100.4	25	14.1	5.9	10	16	22	20	inveg	ft
+WR	wepp-171244	"11:35 am  Tuesday November 13, 2018"	"SAN LUIS OBISPO POL CA"	30	silt	native	350	1	9.5	8.25	1	12.5	40	20	inveg	ft
+WR	wepp-171289	"11:37 am  Tuesday November 13, 2018"	"SAN LUIS OBISPO POL CA"	30	silt	graveled	350	1	9.5	8.25	1	12.5	40	20	inveg	ft
+WR	wepp-171387	"11:39 am  Tuesday November 13, 2018"	"SAN LUIS OBISPO POL CA"	30	silt	native	350	1	11.66	15.8	2	20.33	35	20	inveg	ft
+WR	wepp-171424	"11:39 am  Tuesday November 13, 2018"	"SAN LUIS OBISPO POL CA"	30	silt	graveled	350	1	11.66	15.8	2	20.33	35	20	inveg	ft
+WR	wepp-171468	"11:40 am  Tuesday November 13, 2018"	"SAN LUIS OBISPO POL CA"	30	silt	native	350	1	19.5	8.75	0.3	19.4	31	20	inveg	ft
+WR	wepp-171505	"11:40 am  Tuesday November 13, 2018"	"SAN LUIS OBISPO POL CA"	30	silt	graveled	350	1	19.5	8.75	0.3	19.4	31	20	inveg	ft
+WR	wepp-171546	"11:41 am  Tuesday November 13, 2018"	"SAN LUIS OBISPO POL CA"	30	silt	native	350	2	13.85	6.33	0.3	24	75	20	inveg	ft
+WR	wepp-171587	"11:41 am  Tuesday November 13, 2018"	"SAN LUIS OBISPO POL CA"	30	silt	graveled	350	2	13.85	6.33	0.3	24	75	20	inveg	ft

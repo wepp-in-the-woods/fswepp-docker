@@ -1,0 +1,114 @@
+#this files was modified by filegenwhrm.pl on: Wednesday, March 16, 2005.
+#taxgroup Birds species Ruby-crowned kinglet / Regulis calendula
+#
+# Rank
+2,2,2,-99,-99
+# Nestsite
+20,1
+# Reprorank
+2,-99
+# Foraging Habitat
+3,1:4,1:23,1:24,1:25,1:26,1
+# Habitatrank
+1,-99:1,-99:1,-99:1,-99:1,-99:1,-99
+# Forage/Prey Availability
+-99
+# Preyrank
+-99
+# Predator Avoidance
+-99
+# Avoidrank
+-99
+# Refugia/Shelter
+-99
+# Shelterrank
+-99
+# Coverrank
+-99
+# Literature
+Distribution
+breeds across Alaska and Canada and western USA; winters across southern USA and into Mexico
+General Habitat
+common in coniferous and mixed woodlands, thickets, brush
+Home or Activity Range
+2.5-15 ac
+Canopy Cover
+abundance linked to high canopy cover (Munts 1994); dense foliage cover above nest sites (Ingold and Wallace 1994)
+Specific Habitat Preferences
+tall, dense vegetation; shrubs and trees for foraging
+Nestsite Characteristics
+nests hangs from tree branch; made of moss, lichen, down, twigs, and dead leaves; dense foliage above nest site
+Foraging Habitat Characteristics
+foliage-gleaning insectivore; forage from  treetops to low brush, occasionally hawk insects
+Diet
+In all seasons, diet is composed primarily of insects (that are readily available) including: small beetles, flies, leafhoppers, true bugs, and caterpillars. In winter, also eat some berries and seeds.Small arthropods, including: spiders, pseudo scorpions, and insects. Insects include: Homoptera, scale insects and meaty bugs, psyllids, Hemiptera, lace bugs, leaf bugs, Coleoptera, Diptera, and Hymenoptera. Wax hollytree berries, winged sumac berries, poison oak berries, elderberries, eastern red cedar berries, dogwood berries, common persimmon, and weed seeds.
+Predators
+no information available
+Shelter Habitats
+no information available
+Response to Disturbance
+higher densities in moderately vs. high severity burns (Taylor and Barmore 1980); more numerous in unlogged sites (Franzreb 1978), disfavored 1-2 years post-fire due to forest and foliage loss (Johnson and Wauer 1996); less abundant in clearcut and contiguous old growth stands than partial cuts (Tobalske et al. 1991); more abundant in unburned sites in fall and winter (Blake 1982); more abundant on managed vs. old growth stands (Mannan and Meslow 1984); less abundant in low shrub- and high shrub- stage clearcuts and partially cut forest compared to uncut forest (Hejl et al. 1995); decreased in both New Forestry harvest and traditional overstory removal compared to uncut control (Munts 1994)
+Sources of Information used in the Model
+Ingold and Wallace 1994, Munts 1994
+General Sources of Background Information
+Franzreb 1978, Franzreb and Omhart 1978, Austin and Perry 1979, Taylor and Barmore 1980, Blake 1982,  Mannan and Meslow 1984, Tobalske et al. 1991, Ingold and Wallace 1994, Munts 1994, Hejl et al. 1995, National Geographic Society 1996, Alsop 2001, reviewed in O'Neil et al. 2001
+Summaries of Specific Studies
+Austin, Dennis D.; Perry, Michael L. 1979. Birds in six communities within a lodgepole pine forest. Journal of Forestry. 77:584-586.
+
+Study Location: Uinta Mountains, Utah
+Habitat Description: PICO as main overstory tree; also includes PIEN, ABLA
+Summary: Birds were censused in wet and dry meadows, mature and stagnated PICO stands, and regenerating PICO stands (17 and 37 years post-clearcut). The richest avifauna was found in the dry meadows. While a few birds were adversely affected by the clearcutting, many individual species were more numerous in the clearcuts, and the overall number of species was similar.
+
+Blake, John G. 1982. Influence of fire and logging on nonbreeding bird communities of ponderosa pine forests. Journal of Wildlife Management. 46:404-415.
+
+Study Location: Prescott National Forest, Arizona
+Habitat Description: PIPO
+Summary: Breeding birds were surveyed on burned and unburned PIPO forest plots. Individual species' occurrence and abundance of foraging guilds on plots are listed by season. Foliage-gleaning insectivores were more abundant on unburned sites, while bark-gleaning birds were more common on burned sites. Granivores were more abundant on burned and clearcut sites in fall and winter. During all seasons, more bird species were detected in unburned study plots and more species were restricted to these plots. Species composition in certain areas was related to foraging substrate availability and season. Habitat alteration by fire and logging appeared to have similar effects on bird communities; openness of habitat appeared to be a primary discriminating factor in the study areas, suggesting that the extent of habitat modification may be more influential than the precise type of alteration. 
+
+Franzreb, Kathleen E. 1978. Tree species used by birds in logged and unlogged mixed conifer forests. Wilson Bulletin. 90(2): 221-238. 
+
+Study Location: Apache-Sitgreaves National Forest, Arizona
+Habitat Description: PIPO, PIST, PSME, aspen, ABCO, PIEN
+Summary: Tree species preferences were analyzed for 5 species of birds on logged and unlogged forest. Niche widths and bird densities are given for the individual species. In unlogged forest, the entire avifauna indicated preferences for PSME, ABCO, and PIEN. PIPO, PIST, and snags were not used to the extent to which they were available. In the logged area, avian use of aspen, PIPO, and PIST was less than expected, while PSME and PIEN were preferred. Overall, the unaltered sites supported a considerably larger avian community. The mountain chickadee, ruby-crowned kinglet, and yellow-rumped warbler were more numerous on unlogged sites, while the yellow-bellied sapsucker and the gray-headed junco were more numerous on logged sites. The brown creeper was entirely missing from logged sites.
+
+Franzreb, Kathleen, E.; Ohmart, Robert D. 1978. The effects of timber harvesting on breeding birds in a mixed-coniferous forest. Condor. 80: 431-441.
+
+Study Location: Apache-Sitgreaves National Forest, Arizona
+Habitat Description: PSME and PIPO dominated
+Summary: Birds were significantly more abundant in unlogged plots than modified plots, while composition overlapped. Species richness was more influenced by year than treatment. Birds gleaning on foliage or timber were most adversely affected by logging. Ground or slash foragers were much more abundant in harvested plots. Aerial foragers and most flycatchers were more abundant on logged plots. Cup nesting species were more abundant on unlogged plots.
+
+Hejl, Sallie J.; Hutto, Richard L.; Preston, Charles R.; Finch, Deborah M. 1995. Effects of silvicultural treatments in the Rocky Mountains. In:Martin, Thomas E.; Finch, Deborah M. (eds.). Ecology and Management of Neotropical Migratory Birds. New York, Oxford: Oxford University Press. 220-244.
+
+Study Location: Rocky Mountains
+Habitat Description: forest types across the Rocky mountains
+Summary: Synthesis of the effects of different silvicultural treatments on neotropical migrants in forests of the Rocky Mountains. Outlines current forest structure, natural disturbance, logging history, and current silvicultural recommendations. General bird-habitat relationships in natural forest, including stands of different ages, are contrasted with stands that are silviculturally manipulated. Contains detailed species lists for rare to abundant bird species that are found in 8 forest types commonly found in the Rockies (Table 8-2). Also lists species by their likelihood to be more or less abundant in managed stands (classified as one of three types of clearcuts or partial cuts) compared to uncut forest. (Table 8-3)
+
+Ingold, J.L.; Wallace, G.E. 1994. Ruby-crowned kinglet. The Birds of North America. 119: 1-23.
+
+Study Location: throughout range
+Habitat Description: variety reviewed
+Summary: Birds of North America species account for the ruby-crowned kinglet. Nest-site microhabitat includes overhead protection by dense foliage. Microhabitat for foraging includes areas with trees and shrubs; dense foliage at the tops of large trees. 
+
+Mannan, R. William; Meslow, E.Charles. 1984. Bird populations and vegetation characteristics in managed and old-growth forests, northeastern Oregon. Journal of Wildlife Management. 48:1219-1238.
+
+Study Location: northeastern Oregon
+Habitat Description: ABGR zone, includes PIPO, PSME, LAOC, PICO, ABGR
+Summary: Bird communities and vegetation differences were examined in managed and old-growth stands. Three variables, including large snags, large trees, and understory tree components, appeared to be responsible for the higher abundance of some species in old growth forest. Species more abundant in managed forest appeared to be attracted to the open structure of managed stands. Managed forest supported more breeding birds, due largely to the abundance of a few species.
+
+Munts, Michael A. 1994. A comparison of bird communities between an untreated control and two timber harvest treatments in western Montana. Missoula, MT: University of Montana. 49 p. M.S. Thesis.
+
+Study Location: western Montana
+Habitat Description: PSME, LAOC, PICO, PIEN, PIPO, ABLA, ABGR, THPL, PIMO, aspen, birch
+Summary: A comparison of bird communities was performed between control sites and those undergoing traditional overstory removal harvests and those harvested using "New Forestry" techniques. Only four species showed significant differences in abundance between treatments, though the author suspects that other trends in the data would be clearer with additional post-treatment data. In general, for species that did differ in abundance, numbers in New Forestry stands were intermediate between overstory removal and controls. Foliage foragers declined similarly in both harvest types, while ground foragers increased. Conifer nesters decreased similarly in both harvest types, while ground nesters increased. Important habitat variables for a number of species are given.
+
+Taylor, Dale L.; Barmore, William J.1980. Post-fire succession of avifauna in coniferous forests of Yellowstone and Grand Teton National Parks, Wyoming. In Management of western forests and grasslands for nongame birds: workshop proceedings. February 11-14, 1980, Salt Lake City, UT. USDA Forest Service Gen. Tech. Rep. INT-86, Ogden, UT. pp 130-145.
+
+Study Location: Grand Teton and Yellowstone National Parks, Wyoming
+Habitat Description: PICO, ABLA/PIEN
+Summary: Bird density, composition, and diversity were monitored across a series of fire severities in burned PICO or spruce-fir forest in Grand Teton and Yellowstone National Parks. Highest populations and greatest biomass occurred from 5-29 years post-fire. Density, composition, and diversity on moderately burned spruce-fir-PICO were more like those on unburned spruce-fir than other seral stages. Changes in bird communities by feeding category were also examined. Overall, canopy closure was a habitat variable that appeared to affect avifauna more than the presence of fire.
+
+Tobalske, Bret W.; Shearer, Raymond C.; Hutto, Richard L. 1991. Bird populations in logged and unlogged western larch/Douglas-fire forest in northwestern Montana. Res. Pap. INT-442.Ogden, UT: USDA, Forest Service, Intermountain Research Station. 12 p.
+
+Study Location: northwestern Montana
+Habitat Description: LAOC cover type; includes ABLA, LAOC, PSME, PIEN, PICO, BEPA, aspen, cottonwood
+Summary: Populations of 10 breeding bird species were monitored in harvested and immediately adjacent uncut areas. A number of species were more abundant in harvested areas. Responses by feeding and nesting guilds are also included. Foliage-foraging species and tree gleaners were less abundant in harvested areas, while flycatching and ground foragers were more common there. Conifer tree-nesting species were least abundant in clearcuts, while ground nesters were more common within the cutover habitats.Management recommendations are made, including the retention of broadleaf trees within cutting units and investigating the importance of slash piles in logged habitat. Slash piles were used by winter wrens, Townsend's solitaires, and dark-eyed juncos as perches, food sources, or nest sites.

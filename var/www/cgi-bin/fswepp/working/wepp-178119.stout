@@ -1,0 +1,1592 @@
+
+
+
+
+  ********************************************************************
+  *                                                                  *
+  *                                                                  *
+  *              USDA - WATER EROSION PREDICTION PROJECT             *
+  *                                                                  *
+  *                    HILLSLOPE PROFILE - WATERSHED                 *
+  *                           EROSION MODEL                          *
+  *                                                                  *
+  *                    CONTINUOUS SIMULATION AND                     *
+  *                       SINGLE STORM OPTIONS                       *
+  *                 MAXIMUM WATERSHED CHANNELS:   75                 *
+  *                                                                  *
+  *                                                                  *
+  *                          VERSION 2010.100                        *
+  *                                                                  *
+  *                        January 28,    2010                       *
+  *                                                                  *
+  *                                                                  *
+  *                                                                  *
+  ********************************************************************
+
+
+
+ Do you wish to output [e]nglish or [m]etric units for
+ the average annual summary output file?
+
+ Enter [e] or [m] --> [m]etric default  
+
+
+ *** NOTE ***
+ SUMMARY UNIT OPTIONS ARE e OR m ***
+ Metric units assumed
+ *** NOTE ***
+
+ Do you wish to drop out of the model upon invalid input and
+ write over identical output file names? (batch mode)
+
+ Enter N to run watershed option (not a SHELL option).
+
+ Enter Y or N --> [Y]
+
+ Continuous or single event option
+ ---------------------------------
+ 1 - continuous simulation
+ 2 - single storm
+
+ Enter option (1 or 2) --> [1]
+
+
+ Model version option
+ --------------------
+ 1 - hillslope version (single hillslope only)
+ 2 - hillslope/watershed version
+     (multiple hillslopes, channels, and impoundments)
+ 3 - watershed version (channels and impoundments)
+     (option 2 or 3 must be previously selected)
+
+ Enter option (1,2 or 3) --> [1] 
+
+ Do you want hillslope pass file output (Y/N)? [N] --> 
+
+ Soil loss output options for continuous simulation
+ ---- ---- ------ ------- --- ---------- ----------
+ [1] - Abbreviated annual
+  2  - Detailed annual
+  3  - Abbreviated event by event
+  4  - Detailed event by event
+  5  - Monthly
+ --------------------------------------------------
+ Enter Soil Loss output option [1]
+
+
+ Do you want initial condition scenario output (Y/N)? [N] --> 
+
+  Enter file name for soil loss output -->                         
+
+ file name read in: ../working/wepp-178119.out                         
+
+ Do you want water balance output (Y/N)? [N] --> 
+
+ Do you want crop output (Y/N)? [N] --> 
+
+ Do you want soil output (Y/N)? [N] --> 
+
+ Do you want distance and sediment loss output (Y/N)? [N] --> 
+
+ Do you want large graphics output (Y/N)? [N] --> 
+
+ Do you want event by event output (Y/N)? [N] --> 
+
+ Do you want element output (Y/N)? [N] --> 
+
+ Do you want final summary output (Y/N)? [N] --> 
+
+ Do you want daily winter output (Y/N)? [N] --> 
+
+ Do you want plant yield output (Y/N)? [N] --> 
+
+  Enter name of file containing management data -->                
+
+ file name read in: data/3outunrn.man                                  
+
+  Enter name of file containing slope data -->                     
+
+ file name read in: ../working/wepp-178119.slp                         
+
+  Enter name of file containing storm data -->                     
+
+ file name read in: ../working/wepp-178119.cli                         
+
+  Enter name of file containing soil data -->                      
+
+ file name read in: ../working/wepp-178119.sol                         
+ Please enter the irrigation option
+ ----------------------------------
+ [0] no irrigation
+  1  sprinkler, fixed date
+  2  sprinkler, depletion level
+  3  sprinkler, combination
+  4  furrow,    fixed date
+  5  furrow,    depletion
+  6  furrow,    combination
+ -----------------------------------
+ Enter irrigation option [0]
+
+
+ NO IRRIGATION SELECTED.
+
+
+  Enter number of years to simulate --> 
+
+  To bypass erosion calculations for very small events, enter 1
+  Otherwise, to route all events enter 0   (Small events have
+  runoff less than 10 mm and peak runoff less than 10 mm/hr) [0] -->
+
+     
+ SIMULATION YEAR =           1
+  9 jan    1  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 22 jan    1  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 23 jan    1  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 26 jan    1  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 29 jan    1  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 21 feb    1  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 22 feb    1  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 27 feb    1  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  1 mar    1  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  3 mar    1  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  4 mar    1  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 15 mar    1  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 14 apr    1  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 18 apr    1  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 19 apr    1  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ PLANTING CROP #           1  on OFE #            2  on DAY         121
+ PLANTING CROP #           1  on OFE #            3  on DAY         121
+  2 may    1  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  7 may    1  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 19 may    1  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 31 may    1  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ OPERATION ON PLANE           1  ON DAY         152
+ 20 jul    1  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 30 jul    1  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  4 aug    1  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 22 aug    1  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 21 sep    1  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  3 nov    1  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 27 nov    1  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 28 nov    1  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  2 dec    1  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  3 dec    1  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  4 dec    1  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  5 dec    1  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 11 dec    1  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 12 dec    1  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 13 dec    1  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 24 dec    1  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+     
+ SIMULATION YEAR =           2
+  2 jan    2  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  3 jan    2  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  5 jan    2  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  5 feb    2  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  8 feb    2  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  9 feb    2  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 21 feb    2  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 23 feb    2  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 28 feb    2  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  1 mar    2  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  4 mar    2  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  5 mar    2  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  6 mar    2  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 12 mar    2  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 21 mar    2  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 26 mar    2  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 30 mar    2  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  4 apr    2  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  5 apr    2  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 12 apr    2  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 15 apr    2  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 16 apr    2  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 28 apr    2  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ PLANTING CROP #           1  on OFE #            2  on DAY         121
+ PLANTING CROP #           1  on OFE #            3  on DAY         121
+  4 may    2  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ OPERATION ON PLANE           1  ON DAY         152
+  7 jun    2  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  8 jun    2  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 17 jun    2  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  4 jul    2  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 16 aug    2  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 17 aug    2  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 26 aug    2  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 31 aug    2  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  9 sep    2  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 14 sep    2  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  8 oct    2  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 15 oct    2  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 19 oct    2  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 26 oct    2  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 28 oct    2  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  6 nov    2  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  7 nov    2  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  8 nov    2  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 10 nov    2  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 22 nov    2  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 23 nov    2  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 26 nov    2  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 27 nov    2  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 29 nov    2  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  4 dec    2  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  8 dec    2  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 17 dec    2  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 24 dec    2  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+     
+ SIMULATION YEAR =           3
+ 14 jan    3  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 16 jan    3  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  6 feb    3  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  7 feb    3  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  8 feb    3  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 14 feb    3  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 24 feb    3  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 16 mar    3  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 18 mar    3  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ PLANTING CROP #           1  on OFE #            2  on DAY         121
+ PLANTING CROP #           1  on OFE #            3  on DAY         121
+ 14 may    3  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 26 may    3  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ OPERATION ON PLANE           1  ON DAY         152
+ 27 jun    3  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  9 jul    3  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 16 jul    3  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 14 aug    3  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 15 aug    3  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  4 sep    3  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 17 sep    3  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 19 sep    3  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 20 sep    3  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  9 oct    3  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 17 oct    3  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 19 oct    3  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 21 oct    3  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 26 oct    3  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 21 nov    3  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 27 nov    3  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  3 dec    3  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  4 dec    3  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  5 dec    3  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  6 dec    3  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 11 dec    3  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+     
+ SIMULATION YEAR =           4
+ 14 jan    4  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 21 jan    4  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 26 jan    4  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 28 jan    4  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 31 jan    4  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  2 feb    4  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  3 feb    4  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  4 feb    4  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  9 feb    4  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 12 feb    4  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 13 feb    4  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 15 feb    4  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 21 feb    4  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 25 feb    4  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  1 mar    4  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  5 apr    4  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 16 apr    4  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 21 apr    4  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 25 apr    4  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ PLANTING CROP #           1  on OFE #            2  on DAY         121
+ PLANTING CROP #           1  on OFE #            3  on DAY         121
+ 19 may    4  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ OPERATION ON PLANE           1  ON DAY         152
+ 11 jun    4  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  5 jul    4  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 17 jul    4  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  4 aug    4  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 21 sep    4  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 22 sep    4  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 14 oct    4  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 15 oct    4  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 18 oct    4  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 19 oct    4  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 23 oct    4  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 10 nov    4  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 13 nov    4  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 27 dec    4  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 30 dec    4  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+     
+ SIMULATION YEAR =           5
+  9 jan    5  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 11 jan    5  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 18 jan    5  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 23 jan    5  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 24 jan    5  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  1 feb    5  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  3 feb    5  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  7 feb    5  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  1 mar    5  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 15 mar    5  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 21 mar    5  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  1 apr    5  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 13 apr    5  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 14 apr    5  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 17 apr    5  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 19 apr    5  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 27 apr    5  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ PLANTING CROP #           1  on OFE #            2  on DAY         121
+ PLANTING CROP #           1  on OFE #            3  on DAY         121
+  9 may    5  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 14 may    5  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 15 may    5  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 16 may    5  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 19 may    5  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 23 may    5  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ OPERATION ON PLANE           1  ON DAY         152
+ 18 jun    5  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 24 jun    5  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 21 jul    5  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 24 aug    5  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 25 aug    5  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  3 sep    5  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  5 sep    5  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 14 sep    5  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 28 sep    5  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  6 oct    5  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 20 oct    5  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 22 oct    5  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  5 nov    5  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  8 nov    5  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 29 nov    5  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  1 dec    5  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  2 dec    5  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  4 dec    5  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  5 dec    5  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  6 dec    5  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  8 dec    5  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  9 dec    5  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 15 dec    5  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 16 dec    5  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+     
+ SIMULATION YEAR =           6
+ 14 jan    6  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 20 jan    6  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 23 jan    6  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 27 jan    6  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 28 jan    6  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  2 feb    6  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  8 feb    6  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 25 feb    6  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 10 mar    6  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 11 mar    6  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 12 mar    6  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 17 mar    6  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 18 mar    6  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 23 mar    6  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  6 apr    6  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 24 apr    6  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ PLANTING CROP #           1  on OFE #            2  on DAY         121
+ PLANTING CROP #           1  on OFE #            3  on DAY         121
+  5 may    6  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  7 may    6  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  9 may    6  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 14 may    6  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 15 may    6  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 16 may    6  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 18 may    6  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 19 may    6  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ OPERATION ON PLANE           1  ON DAY         152
+ 19 jul    6  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 27 jul    6  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 12 aug    6  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 16 aug    6  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 21 aug    6  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 28 aug    6  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 18 sep    6  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 28 sep    6  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  2 oct    6  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  4 oct    6  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  7 oct    6  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  8 oct    6  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  9 oct    6  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  4 nov    6  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  9 nov    6  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 10 nov    6  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 11 nov    6  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 12 nov    6  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 15 nov    6  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 16 nov    6  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 29 nov    6  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  9 dec    6  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 10 dec    6  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+     
+ SIMULATION YEAR =           7
+ 11 jan    7  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 12 jan    7  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 23 jan    7  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  3 feb    7  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  4 feb    7  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  5 feb    7  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  6 feb    7  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  7 feb    7  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  9 feb    7  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 10 feb    7  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 14 feb    7  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 16 feb    7  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  3 mar    7  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  4 mar    7  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  5 mar    7  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  7 mar    7  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 21 mar    7  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 20 apr    7  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ PLANTING CROP #           1  on OFE #            2  on DAY         121
+ PLANTING CROP #           1  on OFE #            3  on DAY         121
+  4 may    7  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 17 may    7  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ OPERATION ON PLANE           1  ON DAY         152
+  1 jun    7  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  4 jun    7  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 11 jul    7  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 27 jul    7  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 31 jul    7  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 10 aug    7  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 26 aug    7  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  6 sep    7  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 13 sep    7  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 24 oct    7  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 29 nov    7  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 11 dec    7  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 20 dec    7  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 21 dec    7  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 28 dec    7  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 31 dec    7  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+     
+ SIMULATION YEAR =           8
+ 12 jan    8  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 14 jan    8  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 15 jan    8  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 17 jan    8  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  9 feb    8  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 10 feb    8  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 19 feb    8  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 29 feb    8  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  5 mar    8  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  6 mar    8  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  8 mar    8  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 10 mar    8  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  1 apr    8  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  2 apr    8  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  4 apr    8  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 10 apr    8  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 25 apr    8  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 26 apr    8  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 27 apr    8  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ PLANTING CROP #           1  on OFE #            2  on DAY         121
+ PLANTING CROP #           1  on OFE #            3  on DAY         121
+  2 may    8  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  9 may    8  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 14 may    8  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 15 may    8  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 18 may    8  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ OPERATION ON PLANE           1  ON DAY         152
+ 12 jun    8  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 22 jun    8  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  4 jul    8  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  5 jul    8  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  9 jul    8  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  6 aug    8  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  8 aug    8  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 10 aug    8  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 14 aug    8  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 30 aug    8  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 17 sep    8  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 26 oct    8  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 27 oct    8  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 28 oct    8  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 29 oct    8  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 10 nov    8  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 11 nov    8  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 12 nov    8  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 15 nov    8  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 27 nov    8  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 28 nov    8  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 27 dec    8  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+     
+ SIMULATION YEAR =           9
+  5 jan    9  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 11 jan    9  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 12 jan    9  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 20 jan    9  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 24 jan    9  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 27 jan    9  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 30 jan    9  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  7 feb    9  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  8 feb    9  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 13 feb    9  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 14 feb    9  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 16 feb    9  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 26 mar    9  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 28 mar    9  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 29 mar    9  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  7 apr    9  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  8 apr    9  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  9 apr    9  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 10 apr    9  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 11 apr    9  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 12 apr    9  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 13 apr    9  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ PLANTING CROP #           1  on OFE #            2  on DAY         121
+ PLANTING CROP #           1  on OFE #            3  on DAY         121
+  3 may    9  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  8 may    9  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 20 may    9  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ OPERATION ON PLANE           1  ON DAY         152
+ 24 jun    9  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 12 jul    9  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 18 jul    9  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 21 jul    9  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 31 jul    9  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  7 aug    9  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 11 aug    9  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 16 aug    9  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 17 aug    9  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 21 aug    9  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 30 aug    9  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 31 aug    9  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 17 sep    9  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 21 sep    9  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 22 sep    9  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 23 sep    9  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 24 sep    9  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 25 sep    9  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  1 oct    9  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  2 oct    9  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  9 oct    9  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 16 oct    9  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 19 oct    9  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 13 nov    9  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 20 nov    9  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  7 dec    9  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 15 dec    9  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 21 dec    9  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 23 dec    9  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+     
+ SIMULATION YEAR =          10
+  4 jan   10  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  7 jan   10  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 11 jan   10  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 13 jan   10  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 16 jan   10  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 19 jan   10  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 23 jan   10  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 27 jan   10  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 14 feb   10  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 15 feb   10  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 16 feb   10  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 28 feb   10  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  2 mar   10  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 10 mar   10  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 27 mar   10  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  2 apr   10  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 10 apr   10  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 11 apr   10  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 13 apr   10  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 19 apr   10  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ PLANTING CROP #           1  on OFE #            2  on DAY         121
+ PLANTING CROP #           1  on OFE #            3  on DAY         121
+  3 may   10  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  4 may   10  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 30 may   10  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ OPERATION ON PLANE           1  ON DAY         152
+  6 jun   10  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  7 jul   10  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 13 jul   10  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 22 jul   10  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  7 aug   10  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 13 aug   10  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 24 oct   10  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  5 nov   10  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  7 nov   10  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  9 nov   10  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 10 nov   10  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 11 nov   10  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 12 nov   10  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+     
+ SIMULATION YEAR =          11
+ 15 jan   11  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 16 jan   11  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 17 jan   11  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 19 jan   11  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 28 jan   11  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 12 feb   11  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 16 feb   11  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 19 mar   11  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  7 apr   11  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 13 apr   11  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 19 apr   11  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ PLANTING CROP #           1  on OFE #            2  on DAY         121
+ PLANTING CROP #           1  on OFE #            3  on DAY         121
+ 12 may   11  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 15 may   11  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 16 may   11  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ OPERATION ON PLANE           1  ON DAY         152
+  8 jul   11  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 23 jul   11  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 11 aug   11  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 12 aug   11  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 15 aug   11  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 20 aug   11  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 27 aug   11  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 18 sep   11  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 25 sep   11  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 26 oct   11  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 29 oct   11  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  9 nov   11  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 21 nov   11  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 25 nov   11  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  6 dec   11  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 20 dec   11  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 30 dec   11  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+     
+ SIMULATION YEAR =          12
+  6 jan   12  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  8 jan   12  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  9 jan   12  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 10 jan   12  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 11 jan   12  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 12 jan   12  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 13 jan   12  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 14 jan   12  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 15 jan   12  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  6 feb   12  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 10 feb   12  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 15 feb   12  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 26 feb   12  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 28 feb   12  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 12 mar   12  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 23 mar   12  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 26 mar   12  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 31 mar   12  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  2 apr   12  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  4 apr   12  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  5 apr   12  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 11 apr   12  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 13 apr   12  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 17 apr   12  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ PLANTING CROP #           1  on OFE #            2  on DAY         121
+ PLANTING CROP #           1  on OFE #            3  on DAY         121
+  7 may   12  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 27 may   12  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 29 may   12  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ OPERATION ON PLANE           1  ON DAY         152
+ 20 jul   12  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 24 jul   12  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 18 aug   12  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 26 aug   12  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  8 sep   12  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 22 sep   12  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 23 sep   12  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 25 sep   12  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 27 sep   12  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  5 oct   12  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  8 nov   12  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  9 nov   12  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 11 nov   12  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 26 nov   12  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  3 dec   12  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 27 dec   12  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 31 dec   12  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+     
+ SIMULATION YEAR =          13
+ 13 jan   13  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 14 jan   13  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 16 jan   13  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 24 jan   13  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 26 jan   13  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 27 jan   13  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 28 jan   13  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  3 feb   13  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  4 feb   13  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 10 feb   13  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 11 feb   13  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 21 feb   13  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 23 feb   13  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 25 feb   13  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 26 feb   13  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  2 mar   13  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  5 mar   13  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 24 mar   13  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 26 mar   13  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  4 apr   13  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  5 apr   13  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  6 apr   13  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 23 apr   13  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 25 apr   13  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 26 apr   13  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 29 apr   13  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 30 apr   13  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ PLANTING CROP #           1  on OFE #            2  on DAY         121
+ PLANTING CROP #           1  on OFE #            3  on DAY         121
+ 19 may   13  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 21 may   13  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 22 may   13  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 26 may   13  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ OPERATION ON PLANE           1  ON DAY         152
+  7 jun   13  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 19 jun   13  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 24 jun   13  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  6 jul   13  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 13 aug   13  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 21 aug   13  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  5 sep   13  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  6 sep   13  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  7 sep   13  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  8 sep   13  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 30 sep   13  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 11 oct   13  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  8 nov   13  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  9 nov   13  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 12 nov   13  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 13 nov   13  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 15 nov   13  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 16 nov   13  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 18 nov   13  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 23 nov   13  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  6 dec   13  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 19 dec   13  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 27 dec   13  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 28 dec   13  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+     
+ SIMULATION YEAR =          14
+ 10 jan   14  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 21 jan   14  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 27 jan   14  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 28 jan   14  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 29 jan   14  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  8 feb   14  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  9 feb   14  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 11 feb   14  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 18 feb   14  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 20 feb   14  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 22 feb   14  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 28 feb   14  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  5 mar   14  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  6 mar   14  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  7 mar   14  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  8 mar   14  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 26 mar   14  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 11 apr   14  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 18 apr   14  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ PLANTING CROP #           1  on OFE #            2  on DAY         121
+ PLANTING CROP #           1  on OFE #            3  on DAY         121
+  4 may   14  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  8 may   14  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 25 may   14  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ OPERATION ON PLANE           1  ON DAY         152
+ 24 jun   14  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 25 jul   14  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 11 aug   14  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 17 aug   14  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 27 aug   14  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 30 aug   14  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 31 aug   14  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  1 sep   14  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 28 oct   14  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 11 nov   14  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 13 nov   14  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 14 nov   14  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 17 nov   14  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 18 nov   14  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 19 nov   14  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 27 nov   14  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  3 dec   14  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 20 dec   14  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+     
+ SIMULATION YEAR =          15
+ 21 jan   15  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 24 jan   15  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  9 feb   15  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 10 feb   15  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 15 feb   15  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 16 feb   15  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 18 feb   15  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 22 feb   15  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 24 feb   15  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 27 feb   15  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  1 mar   15  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 24 mar   15  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 14 apr   15  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 19 apr   15  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ PLANTING CROP #           1  on OFE #            2  on DAY         121
+ PLANTING CROP #           1  on OFE #            3  on DAY         121
+ 17 may   15  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 22 may   15  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 23 may   15  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 31 may   15  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ OPERATION ON PLANE           1  ON DAY         152
+  2 jun   15  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  8 jul   15  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 19 jul   15  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  6 aug   15  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 10 aug   15  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 12 aug   15  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 11 sep   15  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 16 sep   15  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 18 sep   15  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 20 sep   15  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 17 oct   15  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 18 oct   15  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  7 dec   15  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 11 dec   15  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 15 dec   15  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 16 dec   15  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 22 dec   15  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 24 dec   15  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 25 dec   15  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 28 dec   15  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 30 dec   15  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 31 dec   15  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+     
+ SIMULATION YEAR =          16
+  1 jan   16  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  4 jan   16  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 11 jan   16  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 15 jan   16  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 16 jan   16  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 17 jan   16  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 18 jan   16  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 20 jan   16  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 21 jan   16  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 22 jan   16  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 24 jan   16  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 27 jan   16  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 28 jan   16  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  6 feb   16  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 15 feb   16  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 23 feb   16  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  8 mar   16  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 11 mar   16  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 14 mar   16  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 15 mar   16  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 23 mar   16  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 25 mar   16  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ PLANTING CROP #           1  on OFE #            2  on DAY         121
+ PLANTING CROP #           1  on OFE #            3  on DAY         121
+ 30 apr   16  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 23 may   16  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 26 may   16  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ OPERATION ON PLANE           1  ON DAY         152
+ 29 jun   16  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 12 jul   16  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 22 jul   16  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 24 jul   16  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  3 aug   16  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 14 aug   16  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 22 aug   16  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 22 sep   16  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  4 oct   16  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  9 oct   16  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 24 oct   16  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 29 oct   16  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 10 nov   16  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 12 nov   16  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 28 nov   16  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  2 dec   16  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 14 dec   16  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 15 dec   16  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 26 dec   16  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 31 dec   16  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+     
+ SIMULATION YEAR =          17
+  1 jan   17  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 11 jan   17  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 18 feb   17  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 20 feb   17  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 21 feb   17  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  1 mar   17  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 22 mar   17  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 26 mar   17  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 27 mar   17  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 28 mar   17  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 29 mar   17  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  2 apr   17  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 23 apr   17  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ PLANTING CROP #           1  on OFE #            2  on DAY         121
+ PLANTING CROP #           1  on OFE #            3  on DAY         121
+ OPERATION ON PLANE           1  ON DAY         152
+ 26 jun   17  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  4 jul   17  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  8 jul   17  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 25 jul   17  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 29 jul   17  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 31 jul   17  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 21 aug   17  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 22 aug   17  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 31 aug   17  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  7 sep   17  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  8 sep   17  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 10 sep   17  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 18 sep   17  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 19 sep   17  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 26 sep   17  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 27 sep   17  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 15 oct   17  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  2 nov   17  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  6 nov   17  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  7 nov   17  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  8 nov   17  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 12 nov   17  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 15 nov   17  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 17 nov   17  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 20 nov   17  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 14 dec   17  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 17 dec   17  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+     
+ SIMULATION YEAR =          18
+  2 jan   18  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  6 jan   18  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 25 jan   18  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 26 jan   18  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 27 jan   18  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  4 feb   18  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 17 feb   18  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 24 feb   18  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  1 mar   18  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  2 mar   18  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  3 mar   18  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  4 mar   18  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  8 mar   18  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  9 mar   18  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 10 mar   18  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 17 mar   18  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 29 mar   18  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 31 mar   18  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 19 apr   18  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 20 apr   18  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 21 apr   18  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 22 apr   18  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 23 apr   18  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 24 apr   18  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 30 apr   18  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ PLANTING CROP #           1  on OFE #            2  on DAY         121
+ PLANTING CROP #           1  on OFE #            3  on DAY         121
+  8 may   18  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 17 may   18  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 19 may   18  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 20 may   18  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ OPERATION ON PLANE           1  ON DAY         152
+  4 jun   18  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  6 jun   18  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 28 jun   18  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 24 jul   18  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  2 aug   18  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  7 aug   18  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  8 aug   18  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 10 aug   18  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 20 aug   18  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 27 aug   18  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 31 aug   18  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 13 sep   18  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 16 sep   18  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 26 sep   18  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  4 oct   18  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 18 oct   18  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 21 oct   18  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  7 nov   18  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 18 nov   18  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 21 nov   18  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 27 nov   18  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 28 nov   18  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  3 dec   18  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  7 dec   18  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  9 dec   18  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 14 dec   18  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 15 dec   18  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 18 dec   18  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 24 dec   18  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+     
+ SIMULATION YEAR =          19
+  5 jan   19  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  7 jan   19  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 12 jan   19  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 13 jan   19  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 16 jan   19  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 17 jan   19  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 24 jan   19  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  3 feb   19  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  5 feb   19  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  3 mar   19  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  8 mar   19  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 12 mar   19  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 18 mar   19  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  6 apr   19  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  8 apr   19  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  9 apr   19  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 10 apr   19  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 11 apr   19  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 13 apr   19  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 17 apr   19  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 27 apr   19  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 28 apr   19  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 29 apr   19  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 30 apr   19  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ PLANTING CROP #           1  on OFE #            2  on DAY         121
+ PLANTING CROP #           1  on OFE #            3  on DAY         121
+ 13 may   19  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 20 may   19  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ OPERATION ON PLANE           1  ON DAY         152
+ 19 jun   19  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 27 jun   19  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  1 jul   19  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  7 jul   19  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 16 jul   19  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 18 aug   19  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  6 sep   19  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 16 sep   19  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 18 sep   19  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 19 sep   19  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 28 sep   19  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  7 oct   19  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  8 oct   19  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 10 oct   19  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 18 oct   19  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 19 oct   19  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 28 nov   19  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 12 dec   19  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+     
+ SIMULATION YEAR =          20
+  7 jan   20  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  8 jan   20  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  9 jan   20  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 10 jan   20  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 11 jan   20  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 12 jan   20  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 10 feb   20  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 13 feb   20  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 14 feb   20  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 19 feb   20  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 20 feb   20  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 21 feb   20  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 22 feb   20  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 21 mar   20  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 28 mar   20  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 10 apr   20  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 19 apr   20  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 27 apr   20  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 28 apr   20  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ PLANTING CROP #           1  on OFE #            2  on DAY         121
+ PLANTING CROP #           1  on OFE #            3  on DAY         121
+  5 may   20  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 19 may   20  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 22 may   20  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 24 may   20  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ OPERATION ON PLANE           1  ON DAY         152
+ 26 jun   20  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 17 jul   20  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 30 jul   20  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 31 jul   20  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 18 aug   20  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 23 aug   20  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 27 aug   20  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  1 sep   20  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  3 sep   20  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  5 sep   20  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 18 sep   20  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 19 sep   20  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 20 sep   20  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 21 sep   20  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 23 sep   20  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 11 oct   20  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 23 oct   20  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 16 nov   20  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 19 nov   20  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 22 nov   20  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 12 dec   20  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 20 dec   20  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 29 dec   20  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 30 dec   20  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+     
+ SIMULATION YEAR =          21
+  6 jan   21  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  7 jan   21  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 12 jan   21  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 13 jan   21  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 14 jan   21  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 16 jan   21  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 17 jan   21  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 18 jan   21  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 26 jan   21  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 27 jan   21  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  1 feb   21  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  7 feb   21  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 10 feb   21  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 11 feb   21  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 12 feb   21  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 14 feb   21  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 17 feb   21  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  4 mar   21  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  5 mar   21  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 14 mar   21  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 26 mar   21  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 29 mar   21  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 30 mar   21  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  5 apr   21  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  8 apr   21  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ PLANTING CROP #           1  on OFE #            2  on DAY         121
+ PLANTING CROP #           1  on OFE #            3  on DAY         121
+  6 may   21  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 28 may   21  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ OPERATION ON PLANE           1  ON DAY         152
+  7 jun   21  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 12 jun   21  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 21 jun   21  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 24 jun   21  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 25 jun   21  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 10 jul   21  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 12 jul   21  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 16 jul   21  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 26 jul   21  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 24 aug   21  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  7 nov   21  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 10 nov   21  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 11 nov   21  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 12 nov   21  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 16 nov   21  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 17 nov   21  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 28 nov   21  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  2 dec   21  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  3 dec   21  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 14 dec   21  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+     
+ SIMULATION YEAR =          22
+ 11 jan   22  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 14 jan   22  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 21 jan   22  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 22 jan   22  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 31 jan   22  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 14 feb   22  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 21 feb   22  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 22 feb   22  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 14 mar   22  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 18 mar   22  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 19 mar   22  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 22 mar   22  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 14 apr   22  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 18 apr   22  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 21 apr   22  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 26 apr   22  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 27 apr   22  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 30 apr   22  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ PLANTING CROP #           1  on OFE #            2  on DAY         121
+ PLANTING CROP #           1  on OFE #            3  on DAY         121
+ OPERATION ON PLANE           1  ON DAY         152
+ 10 jun   22  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 20 jun   22  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 21 jun   22  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 25 jun   22  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 26 jun   22  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 27 jun   22  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  9 jul   22  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 13 aug   22  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 16 aug   22  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 17 aug   22  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 18 aug   22  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 19 aug   22  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 30 aug   22  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 12 sep   22  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 18 sep   22  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 29 sep   22  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  7 oct   22  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 16 oct   22  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  4 nov   22  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 12 nov   22  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 16 nov   22  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 17 nov   22  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 19 nov   22  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 24 nov   22  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 27 nov   22  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 29 nov   22  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 30 nov   22  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  4 dec   22  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  5 dec   22  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  6 dec   22  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  7 dec   22  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  8 dec   22  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 18 dec   22  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+     
+ SIMULATION YEAR =          23
+ 24 jan   23  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 30 jan   23  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 31 jan   23  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  1 feb   23  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 17 feb   23  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  4 mar   23  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 17 mar   23  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 19 mar   23  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 21 mar   23  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 23 mar   23  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 27 mar   23  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 28 mar   23  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 29 mar   23  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 19 apr   23  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 22 apr   23  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 23 apr   23  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ PLANTING CROP #           1  on OFE #            2  on DAY         121
+ PLANTING CROP #           1  on OFE #            3  on DAY         121
+  6 may   23  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 13 may   23  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 15 may   23  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 27 may   23  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 31 may   23  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ OPERATION ON PLANE           1  ON DAY         152
+  2 jul   23  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  8 jul   23  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  5 aug   23  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  9 aug   23  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  8 sep   23  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 22 sep   23  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 24 sep   23  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 31 oct   23  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  4 nov   23  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  5 nov   23  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  6 nov   23  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 22 nov   23  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  6 dec   23  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 29 dec   23  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 31 dec   23  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+     
+ SIMULATION YEAR =          24
+  6 jan   24  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  9 jan   24  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 10 jan   24  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 11 jan   24  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 30 jan   24  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  2 feb   24  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  3 feb   24  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  6 feb   24  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  7 feb   24  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  8 feb   24  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 27 feb   24  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 28 feb   24  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  5 mar   24  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  6 mar   24  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 17 mar   24  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 21 mar   24  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  2 apr   24  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  5 apr   24  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 10 apr   24  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 24 apr   24  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 28 apr   24  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ PLANTING CROP #           1  on OFE #            2  on DAY         121
+ PLANTING CROP #           1  on OFE #            3  on DAY         121
+ OPERATION ON PLANE           1  ON DAY         152
+ 31 may   24  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  4 jun   24  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  5 jun   24  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 29 jun   24  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 28 aug   24  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 29 aug   24  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  5 sep   24  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 11 sep   24  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  3 nov   24  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  8 nov   24  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  9 nov   24  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 12 nov   24  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 17 nov   24  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 27 nov   24  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  9 dec   24  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 15 dec   24  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 29 dec   24  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+     
+ SIMULATION YEAR =          25
+  7 jan   25  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  8 jan   25  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 19 jan   25  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 24 jan   25  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 31 jan   25  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  5 feb   25  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  6 feb   25  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  8 feb   25  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 12 feb   25  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 13 feb   25  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 16 feb   25  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 17 feb   25  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 22 feb   25  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 23 feb   25  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 28 feb   25  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  1 mar   25  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 14 mar   25  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 27 mar   25  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 28 mar   25  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 31 mar   25  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 12 apr   25  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 22 apr   25  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 28 apr   25  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ PLANTING CROP #           1  on OFE #            2  on DAY         121
+ PLANTING CROP #           1  on OFE #            3  on DAY         121
+  3 may   25  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 13 may   25  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ OPERATION ON PLANE           1  ON DAY         152
+ 10 jun   25  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 15 jun   25  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  4 jul   25  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 10 jul   25  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 17 jul   25  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 21 jul   25  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 24 jul   25  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  2 sep   25  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  7 sep   25  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  9 sep   25  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 10 sep   25  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 17 sep   25  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 29 sep   25  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 30 sep   25  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  1 oct   25  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 13 nov   25  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 15 nov   25  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 19 nov   25  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 25 nov   25  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 26 nov   25  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 30 nov   25  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  1 dec   25  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  4 dec   25  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 20 dec   25  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 23 dec   25  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 24 dec   25  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 28 dec   25  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+     
+ SIMULATION YEAR =          26
+  1 jan   26  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  9 jan   26  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 16 jan   26  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 17 jan   26  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 24 jan   26  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 29 jan   26  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  4 feb   26  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  5 feb   26  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  6 feb   26  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  4 mar   26  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  7 mar   26  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 29 mar   26  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 31 mar   26  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  3 apr   26  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 12 apr   26  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 16 apr   26  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 18 apr   26  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 29 apr   26  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 30 apr   26  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ PLANTING CROP #           1  on OFE #            2  on DAY         121
+ PLANTING CROP #           1  on OFE #            3  on DAY         121
+  1 may   26  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 16 may   26  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 22 may   26  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ OPERATION ON PLANE           1  ON DAY         152
+ 18 jun   26  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 23 jun   26  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  6 jul   26  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 27 jul   26  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  8 aug   26  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 12 aug   26  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 15 aug   26  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 16 aug   26  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 17 aug   26  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 21 aug   26  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 25 aug   26  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 13 sep   26  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 27 sep   26  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 29 oct   26  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  8 nov   26  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  9 nov   26  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 15 nov   26  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 18 nov   26  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 19 nov   26  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 21 nov   26  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 26 nov   26  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  1 dec   26  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+     
+ SIMULATION YEAR =          27
+  5 jan   27  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 14 jan   27  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 19 jan   27  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 21 jan   27  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  1 feb   27  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 11 feb   27  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 12 feb   27  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 20 feb   27  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 21 feb   27  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 24 feb   27  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  6 mar   27  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 10 apr   27  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 12 apr   27  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 13 apr   27  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 20 apr   27  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ PLANTING CROP #           1  on OFE #            2  on DAY         121
+ PLANTING CROP #           1  on OFE #            3  on DAY         121
+  3 may   27  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  9 may   27  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ OPERATION ON PLANE           1  ON DAY         152
+ 21 jun   27  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  4 jul   27  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 16 jul   27  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 23 jul   27  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  6 aug   27  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 25 aug   27  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 10 oct   27  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 11 oct   27  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  6 dec   27  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  8 dec   27  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 13 dec   27  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 27 dec   27  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+     
+ SIMULATION YEAR =          28
+  7 jan   28  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  8 jan   28  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  9 jan   28  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 12 jan   28  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 13 jan   28  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 20 jan   28  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 12 feb   28  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 14 feb   28  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 15 feb   28  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 27 feb   28  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 29 feb   28  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  5 apr   28  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 11 apr   28  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 14 apr   28  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 15 apr   28  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ PLANTING CROP #           1  on OFE #            2  on DAY         121
+ PLANTING CROP #           1  on OFE #            3  on DAY         121
+ 18 may   28  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 23 may   28  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ OPERATION ON PLANE           1  ON DAY         152
+  7 jun   28  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  8 jun   28  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 14 jun   28  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  1 jul   28  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  9 jul   28  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 11 jul   28  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 28 jul   28  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  5 aug   28  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 13 aug   28  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 19 aug   28  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 30 aug   28  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 13 sep   28  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 14 sep   28  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 25 sep   28  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 27 sep   28  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 18 oct   28  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 14 nov   28  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 22 nov   28  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 23 nov   28  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 24 nov   28  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 30 nov   28  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  5 dec   28  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 14 dec   28  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 24 dec   28  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 25 dec   28  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 27 dec   28  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 28 dec   28  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 29 dec   28  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+     
+ SIMULATION YEAR =          29
+  9 jan   29  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 11 jan   29  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 12 jan   29  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 14 jan   29  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 16 jan   29  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 18 jan   29  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  4 feb   29  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  6 feb   29  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 14 feb   29  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 18 feb   29  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 24 feb   29  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 25 feb   29  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 27 feb   29  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 28 feb   29  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  1 mar   29  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  2 mar   29  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  3 apr   29  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  8 apr   29  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 13 apr   29  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 16 apr   29  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 20 apr   29  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 21 apr   29  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 27 apr   29  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ PLANTING CROP #           1  on OFE #            2  on DAY         121
+ PLANTING CROP #           1  on OFE #            3  on DAY         121
+ 11 may   29  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 13 may   29  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ OPERATION ON PLANE           1  ON DAY         152
+ 21 jun   29  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  9 jul   29  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  9 aug   29  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 15 aug   29  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 17 aug   29  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 28 aug   29  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 29 aug   29  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  6 sep   29  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 14 sep   29  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 23 sep   29  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  8 oct   29  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 17 oct   29  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 19 oct   29  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 27 oct   29  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  6 nov   29  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  8 nov   29  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 11 nov   29  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 23 nov   29  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  6 dec   29  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  9 dec   29  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 10 dec   29  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 12 dec   29  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 22 dec   29  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 25 dec   29  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 26 dec   29  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 29 dec   29  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 30 dec   29  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+     
+ SIMULATION YEAR =          30
+  2 jan   30  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  3 jan   30  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  4 jan   30  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  7 jan   30  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  9 jan   30  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 13 jan   30  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 15 jan   30  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 20 jan   30  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 29 jan   30  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  7 feb   30  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  8 feb   30  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 12 feb   30  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 13 feb   30  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 14 feb   30  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 15 feb   30  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 17 feb   30  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 19 feb   30  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 26 feb   30  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 16 mar   30  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 17 mar   30  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 18 mar   30  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 21 mar   30  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 22 mar   30  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 24 mar   30  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 25 mar   30  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  5 apr   30  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 24 apr   30  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ PLANTING CROP #           1  on OFE #            2  on DAY         121
+ PLANTING CROP #           1  on OFE #            3  on DAY         121
+  3 may   30  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ OPERATION ON PLANE           1  ON DAY         152
+ 10 jul   30  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 12 aug   30  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 26 aug   30  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+  6 nov   30  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 19 nov   30  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 20 nov   30  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 27 nov   30  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 28 nov   30  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 29 nov   30  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 20 dec   30  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 22 dec   30  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+ 31 dec   30  routing runoff & erosion event on OFEs 1 to  3 of hillslope  1
+
+ Hillslope SUCCESSFUL simulation - returning to DOS
+
+
+ WEPP COMPLETED HILLSLOPE SIMULATION SUCCESSFULLY

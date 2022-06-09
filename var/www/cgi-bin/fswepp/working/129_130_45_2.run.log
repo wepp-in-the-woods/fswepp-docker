@@ -1,0 +1,17 @@
+WD	wepp-14729	"06:59 am  Tuesday March 13, 2012"	"CHARLESTON KAN AP WV"	10	clay	Skid	65.6	0	50	0	0	Skid	65.6	0	50	0	0	0	ft	""
+WD	wepp-14785	"07:00 am  Tuesday March 13, 2012"	"CHARLESTON KAN AP WV"	10	clay	Skid	65.6	0	50	60	0	Skid	65.6	0	50	60	0	0	ft	""
+WD	wepp-14815	"07:00 am  Tuesday March 13, 2012"	"CHARLESTON KAN AP WV"	10	clay	Sod	65.6	0	50	40	0	Sod	65.6	0	50	40	0	0	ft	""
+WD	wepp-14875	"07:01 am  Tuesday March 13, 2012"	"CHARLESTON KAN AP WV"	10	clay	Skid	65.6	0	50	60	0	Skid	65.6	0	50	60	0	0	ft	""
+WD	wepp-14957	"07:01 am  Tuesday March 13, 2012"	"CHARLESTON KAN AP WV"	10	clay	Sod	65.6	0	50	100	0	Sod	65.6	0	50	100	0	0	ft	""
+WR	wepp-17528	"10:56 am  Wednesday March 13, 2013"	"FLAGSTAFF WB AP AZ"	30	sand	graveled	250	5	5	4	50	35	40	20	outrut	m
+WR	wepp-17561	"10:57 am  Wednesday March 13, 2013"	"FLAGSTAFF WB AP AZ"	30	sand	graveled	250	5	5	4	50	35	40	20	outunrut	m
+WD	wepp-17910	"11:07 am  Wednesday March 13, 2013"	"CHARLESTON KAN AP WV"	1	clay	Sod	40	50	50	30	20	Sod	40	50	50	30	20	0	m	"simple seeding, 30%"
+WD	wepp-17940	"11:08 am  Wednesday March 13, 2013"	"CHARLESTON KAN AP WV"	10	clay	Sod	40	50	50	30	20	Sod	40	50	50	30	20	0	m	"simple seeding, 30%"
+WD	wepp-18061	"11:09 am  Wednesday March 13, 2013"	"CHARLESTON KAN AP WV"	10	clay	Bunchgrass	40	50	50	60	20	Bunchgrass	40	50	50	60	20	0	m	"hydroseeding, 60% cover"
+WD	wepp-18090	"11:11 am  Wednesday March 13, 2013"	"CHARLESTON KAN AP WV"	10	clay	YoungForest	40	50	50	100	20	YoungForest	40	50	50	100	20	0	m	"straw mat, 100% cover"
+WD	wepp-18115	"11:11 am  Wednesday March 13, 2013"	"CHARLESTON KAN AP WV"	10	clay	OldForest	40	50	50	100	20	OldForest	40	50	50	100	20	0	m	"straw mat, 100% cover"
+WD	wepp-18162	"11:12 am  Wednesday March 13, 2013"	"CHARLESTON KAN AP WV"	10	clay	YoungForest	40	50	50	100	20	YoungForest	40	50	50	100	20	0	m	"straw mat, 100% cover"
+WD	wepp-18200	"11:12 am  Wednesday March 13, 2013"	"CHARLESTON KAN AP WV"	10	clay	Bunchgrass	40	50	50	100	20	Bunchgrass	40	50	50	100	20	0	m	"straw mat, 100% cover"
+WD	wepp-18257	"11:13 am  Wednesday March 13, 2013"	"CHARLESTON KAN AP WV"	10	clay	Sod	40	50	50	60	20	Sod	40	50	50	60	20	0	m	"straw mat, 60% cover"
+WD	wepp-18279	"11:14 am  Wednesday March 13, 2013"	"CHARLESTON KAN AP WV"	10	clay	Sod	40	50	50	60	20	Sod	40	50	50	60	20	0	m	"hydroseeding, 60% cover"
+WD	wepp-18300	"11:14 am  Wednesday March 13, 2013"	"CHARLESTON KAN AP WV"	10	clay	Sod	40	50	50	100	20	Sod	40	50	50	100	20	0	m	"straw mat, 100% cover"

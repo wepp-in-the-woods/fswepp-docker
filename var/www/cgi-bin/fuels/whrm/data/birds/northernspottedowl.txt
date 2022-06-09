@@ -1,0 +1,77 @@
+#this files was modified by filegenwhrm.pl on: Wednesday, March 16, 2005.
+#taxgroup Birds species Northern spotted owl / Strix occidentalis
+#
+# Rank
+3,2,2,-99,1
+# Nestsite
+20,1:25,1:26,1
+# Reprorank
+2,-99:2,-99:2,-99
+# Foraging Habitat
+20,1:25,1:26,1:52,-1:51,-1
+# Habitatrank
+1,-99:1,-99:1,-99:1,-99:1,-99
+# Forage/Prey Availability
+-99
+# Preyrank
+-99
+# Predator Avoidance
+-99
+# Avoidrank
+-99
+# Refugia/Shelter
+20,1:25,1:26,1
+# Shelterrank
+1,-99:1,-99:1,-99
+# Coverrank
+1,-99:1,-99:1,-99
+# Literature
+Distribution
+Pacific coastal states and British Columbia
+General Habitat
+late seral stage forest
+Home or Activity Range
+1300-15000 ac (O'Neil et al. 2001)
+Canopy Cover
+nest sites with canopy closure >40% (Ripple et al. 1997); found in areas with canopy cover > 70% (Verner 1980)
+Specific Habitat Preferences
+large trees, >70% canopy cover, multiple canopy layers and heterogeneous structure
+Nestsite Characteristics
+nests in hollow tree, cave, or crevice; prefers areas with large diameter trees, high levels of canopy cover, high canopy
+Foraging Habitat Characteristics
+dense forest; lack of hardwood understory:"other trees" in foraging habitat in the model are tanoaks (Sakai and Noon 1993)
+Diet
+northern flying squirrels (Glaucomys sabrinus) are the predominant diet item by biomass and frequency in Washington, and in the Coast and Cascade Ranges of Oregon. Dusky-footed woodrats (Neotoma fuscipes) predominate in southwestern Oregon and northwestern CA
+Predators
+great-horned owls, northern goshawks
+Shelter Habitats
+roosts in dense cover during the day
+Response to Disturbance
+reproductive success lower in recently clearcut stands (Thome et al. 1999)
+Sources of Information used in the Model
+Verner 1980, Sakai and Noon 1993
+General Sources of Background Information
+Verner 1980, Sakai and Noon 1993, Ripple et al. 1997, Thome et al. 1999, Alsop 2001, reviewed in O'Neil et al. 2001
+Summaries of Specific Studies
+Ripple, William J.; Lattin, Peter D.; Hershey, K.T.; Wagner, Frank F.; Meslow, E. Charles 1997. Landscape composition and pattern around northern spotted owl nest sites in southwest Oregon. Journal of Wildlife Management. 61:151-158.
+
+Study Location: southwestern Oregon
+Habitat Description: Mixed Evergreen Zone (PSME, LIDE, PIPO, PILA, variety of deciduous hardwood species), Mixed Conifer Zone (PSME, PIPO, PILA, LIDE, ABCO), White Fir Zone (ABCO, PSME)
+Summary: The landscape composition and pattern surrounding northern spotted owl nest sites were examined in southwest Oregon. Nest sites contained significantly more old-conifer forest than random sites. Conclusions regarding landscape pattern variables were not possible because these variables were highly correlated with the amount of old-conifer forest. Inference is limited due to the small number of nest sites.
+
+Sakai, Howard F.; Noon, Barry R. 1993. Dusky-footed woodrat abundance in different-aged forests in northwestern California. Journal of Wildlife Management. 57(2): 373-382.
+Study Location: Northwestern California
+Habitat Description: PSME-tanoak
+Summary: Dusky-footed woodrat abundance was examined in five seral stages of PSME-tanoak forest in northwestern CA. Nest densities were highest in sapling/brushy poletimber stands, followed by seedling/shrub and large old-growth stands. The authors propose that sapling/brushy poletimber stands adjacent to mature and old-growth PSME forest are source areas for woodrats that may be prey items of northern spotted owls.
+
+Thome, Darrin M.; Zael, Cynthia J.; Diller, Lowell V. 1999. Forest stand characteristics and reproduction of northern spotted owl in managed north-coastal California forests. Journal of Wildlife Management. 63: 44-59.
+
+Study Location: Northwestern California
+Habitat Description: young-growth SESE, SESE-PSME, PSME-oak
+Summary: Spotted owls on young-growth timberlands were positively associated with stands characterized by middle-aged and larger trees and negatively associated with stands that were younger and comprised of smaller trees. However, reproductive success was highest in intermediate-aged stands (21-40 years old), stands that did not exhibit the highest tree basal area. The authors attribute this pattern to the availability of woodrats as a prey item. Reproductive success was lowest in recent clearcuts. The authors advocate restricting clearcuts from areas where spotted owls nest, and maintaining a high residual tree density. The authors caution that their results and suggestions only apply to north-coastal California forests managed with clear-cut silvicultural practices, as conditions here are very different from other area's within the owl's range.
+
+Verner, Jared. 1980. Bird communities of mixed-conifer forests of the Sierra Nevada. In Management of western forests and grasslands for nongame birds: workshop proceedings. February 11-14, 1980, Salt Lake City, UT. USDA Forest Service Gen. Tech. Rep. INT-86, Ogden, UT. pp 198-223.
+
+Study Location: Sierra Nevada of California
+Habitat Description: ABCO/LIDE/PILA/PIPO/PSME
+Summary: Breeding bird species are predicted for the various habitat stages of mixed-conifer forest in the Sierra Nevada. Habitat is broken into groups based on tree size (exact diameters not given) and canopy closure. Relative suitability of habitats is listed; optimal habitat only was entered in this database. This species-habitat matrix was made from data from various studies in the region. Predictions were more accurate for later seral stages than early. Forest management in regards to bird communities is discussed, emphasizing the importance of late seral stages for breeding birds in the study region.

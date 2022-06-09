@@ -1,0 +1,15 @@
+#
+#	Short prairie grass plant scenario for Disturbed WEPP (2/99 WJE) (1/2000 DEH)
+#
+SHORT
+Short Grass Prairie
+for disturbed WEPP
+W. Elliot  01/99
+1	# `landuse' - <Cropland>
+WeppWillSet
+14      3       beinp   2       5       5       0       0.4     0.2     0.006
+0.25    0.25    0.9     0.99    9       0       0.42    0.3
+2	# `mfo' - <Non-fragile>
+0.0069	0.0069	20	0.1	0.1	0.2	0.33	0.1	35	40
+-40	0.5	0
+

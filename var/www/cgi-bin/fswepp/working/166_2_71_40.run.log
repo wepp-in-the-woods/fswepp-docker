@@ -1,0 +1,56 @@
+WR	wepp-10671	"05:38 pm  Wednesday May 15, 2019"	"Canyons +"	30	silt	native	1000	5	14	5	10	100	10	20	inveg	ft
+WR	wepp-10787	"05:39 pm  Wednesday May 15, 2019"	"Canyons +"	30	clay	native	1000	4	14	5	5	100	25	20	inveg	ft
+WR	wepp-10833	"05:40 pm  Wednesday May 15, 2019"	"Canyons +"	30	silt	native	1000	4	14	5	5	100	25	20	inveg	ft
+WR	wepp-10872	"05:41 pm  Wednesday May 15, 2019"	"Canyons +"	30	silt	native	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-10913	"05:42 pm  Wednesday May 15, 2019"	"Canyons +"	30	silt	native	1000	4	14	5	5	100	8	20	inbare	ft
+WR	wepp-10953	"05:43 pm  Wednesday May 15, 2019"	"Canyons +"	30	silt	native	1000	4	14	5	5	100	8	20	inveg	ft
+WR	wepp-10993	"05:43 pm  Wednesday May 15, 2019"	"Canyons +"	30	silt	native	200	4	13	15	50	130	25	20	outunrut	ft
+WR	wepp-11045	"05:44 pm  Wednesday May 15, 2019"	"Canyons +"	30	silt	native	1000	5	14	5	5	100	10	20	outrut	ft
+WR	wepp-11147	"05:46 pm  Wednesday May 15, 2019"	"Canyons +"	30	silt	native	1000	5	14	5	5	100	10	20	inveg	ft
+WR	wepp-11192	"05:47 pm  Wednesday May 15, 2019"	"Canyons +"	30	silt	native	1000	5	14	5	5	100	10	20	inveg	ft
+WR	wepp-11232	"05:48 pm  Wednesday May 15, 2019"	"Canyons +"	30	silt	native	1000	5	14	5	5	100	10	20	inbare	ft
+WR	wepp-11279	"05:49 pm  Wednesday May 15, 2019"	"Canyons +"	30	silt	native	200	4	13	15	50	130	25	20	inbare	ft
+WR	wepp-11356	"05:51 pm  Wednesday May 15, 2019"	"Canyons +"	30	silt	native	200	4	9	3	4	100	10	20	inveg	ft
+WD	wepp-11408	"05:53 pm  Wednesday May 15, 2019"	"Canyons +"	30	silt	Skid	200	0	30	20	20	OldForest	100	30	5	70	20	0	ft	"skid silt mature"
+WD	wepp-11447	"05:54 pm  Wednesday May 15, 2019"	"Canyons +"	30	silt	Skid	200	0	60	20	20	OldForest	100	60	5	70	20	0	ft	"skid silt mature"
+WD	wepp-11495	"05:56 pm  Wednesday May 15, 2019"	"Canyons +"	30	silt	Skid	200	0	60	20	20	Shrub	100	60	5	80	20	0	ft	""
+WD	wepp-11534	"05:57 pm  Wednesday May 15, 2019"	"Canyons +"	30	silt	Skid	200	0	30	20	20	Shrub	100	30	5	80	20	0	ft	"skid shrub buffer"
+WD	wepp-11575	"05:57 pm  Wednesday May 15, 2019"	"Canyons +"	30	silt	Skid	500	0	60	20	20	Shrub	100	60	5	80	20	0	ft	"skid shrub buffer"
+WD	wepp-11614	"05:58 pm  Wednesday May 15, 2019"	"Canyons +"	30	silt	Skid	1000	0	60	20	20	Shrub	100	60	5	80	20	0	ft	"skid 1000 shrub buffer"
+WD	wepp-11669	"05:59 pm  Wednesday May 15, 2019"	"Canyons +"	30	silt	OldForest	1000	0	60	80	20	OldForest	100	60	5	100	20	0	ft	"skid 1000  mature mature"
+WD	wepp-11763	"06:01 pm  Wednesday May 15, 2019"	"Canyons +"	30	silt	HighFire	1000	0	60	45	20	HighFire	100	60	5	45	20	0	ft	"skid 1000  mature mature"
+WD	wepp-11805	"06:01 pm  Wednesday May 15, 2019"	"Canyons +"	30	silt	HighFire	1000	0	60	45	20	HighFire	100	60	5	45	20	0	ft	""
+WD	wepp-11842	"06:02 pm  Wednesday May 15, 2019"	"Canyons +"	30	silt	LowFire	1000	0	60	85	20	LowFire	100	60	5	85	20	0	ft	""
+WD	wepp-11886	"06:03 pm  Wednesday May 15, 2019"	"Canyons +"	30	silt	LowFire	1000	0	60	85	20	LowFire	50	60	5	85	20	0	ft	""
+WD	wepp-11922	"06:04 pm  Wednesday May 15, 2019"	"Canyons +"	30	silt	LowFire	1000	0	60	80	20	LowFire	100	60	5	80	20	0	ft	""
+WD	wepp-11970	"06:04 pm  Wednesday May 15, 2019"	"Canyons +"	30	silt	HighFire	1000	0	60	45	20	HighFire	100	60	5	45	20	0	ft	""
+WD	wepp-12911	"07:03 pm  Wednesday May 15, 2019"	"Canyons +"	30	silt	YoungForest	1000	0	60	100	20	OldForest	100	60	5	100	20	0	ft	"harvest with buffer on steepest slopes"
+WD	wepp-12974	"07:06 pm  Wednesday May 15, 2019"	"Canyons +"	50	silt	YoungForest	1000	0	60	90	20	OldForest	100	60	5	90	20	0	ft	"harvest with buffer on steepest slopes"
+WD	wepp-13014	"07:06 pm  Wednesday May 15, 2019"	"Canyons +"	30	silt	YoungForest	1000	0	60	90	20	OldForest	100	60	5	90	20	0	ft	""
+WR	wepp-13229	"07:16 pm  Wednesday May 15, 2019"	"Canyons +"	30	silt	native	1000	4	14	8	8	100	5	20	inveg	ft
+WR	wepp-13266	"07:16 pm  Wednesday May 15, 2019"	"Canyons +"	30	silt	native	1000	4	14	8	8	100	5	20	inbare	ft
+WR	wepp-13308	"07:17 pm  Wednesday May 15, 2019"	"Canyons +"	30	silt	native	1000	4	14	8	8	100	5	20	outrut	ft
+WR	wepp-13346	"07:17 pm  Wednesday May 15, 2019"	"Canyons +"	30	silt	native	1000	4	14	8	8	100	5	20	outunrut	ft
+WR	wepp-13705	"07:45 pm  Wednesday May 15, 2019"	"Canyons +"	30	silt	native	1000	4	14	8	8	150	5	20	inbare	ft
+WR	wepp-13795	"07:45 pm  Wednesday May 15, 2019"	"Canyons +"	30	silt	native	1000	4	14	8	8	150	5	20	inveg	ft
+WR	wepp-13832	"07:45 pm  Wednesday May 15, 2019"	"Canyons +"	30	silt	native	1000	4	14	8	8	150	5	20	inveg	ft
+WR	wepp-13869	"07:46 pm  Wednesday May 15, 2019"	"Canyons +"	30	silt	native	1000	4	14	8	8	150	5	20	outrut	ft
+WR	wepp-13906	"07:46 pm  Wednesday May 15, 2019"	"Canyons +"	30	silt	native	1000	4	14	8	8	150	5	20	outunrut	ft
+WR	wepp-14002	"07:54 pm  Wednesday May 15, 2019"	"Canyons +"	30	silt	native	1000	4	14	8	8	200	5	20	inbare	ft
+WR	wepp-14039	"07:54 pm  Wednesday May 15, 2019"	"Canyons +"	30	silt	native	1000	4	14	8	8	200	5	20	inveg	ft
+WR	wepp-14075	"07:54 pm  Wednesday May 15, 2019"	"Canyons +"	30	silt	native	1000	4	14	8	8	200	5	20	outrut	ft
+WR	wepp-14114	"07:55 pm  Wednesday May 15, 2019"	"Canyons +"	30	silt	native	1000	4	14	8	8	200	5	20	outunrut	ft
+WR	wepp-14177	"07:58 pm  Wednesday May 15, 2019"	"Canyons +"	30	silt	native	1000	4	14	8	8	300	5	20	inbare	ft
+WR	wepp-14216	"07:59 pm  Wednesday May 15, 2019"	"Canyons +"	30	silt	native	1000	4	14	8	8	300	5	20	inveg	ft
+WR	wepp-14253	"07:59 pm  Wednesday May 15, 2019"	"Canyons +"	30	silt	native	1000	4	14	8	8	300	5	20	outrut	ft
+WR	wepp-14291	"07:59 pm  Wednesday May 15, 2019"	"Canyons +"	30	silt	native	1000	4	14	8	8	300	5	20	outunrut	ft
+WR	wepp-14393	"08:03 pm  Wednesday May 15, 2019"	"Canyons +"	30	silt	native	1000	4	14	8	8	600	5	20	inbare	ft
+WR	wepp-14430	"08:03 pm  Wednesday May 15, 2019"	"Canyons +"	30	silt	native	1000	4	14	8	8	600	5	20	inveg	ft
+WR	wepp-14470	"08:03 pm  Wednesday May 15, 2019"	"Canyons +"	30	silt	native	1000	4	14	8	8	600	5	20	outrut	ft
+WR	wepp-14508	"08:04 pm  Wednesday May 15, 2019"	"Canyons +"	30	silt	native	1000	4	14	8	8	600	5	20	outunrut	ft
+WR	wepp-14577	"08:06 pm  Wednesday May 15, 2019"	"Canyons +"	30	silt	native	1000	4	14	8	8	700	5	20	inbare	ft
+WR	wepp-14613	"08:06 pm  Wednesday May 15, 2019"	"Canyons +"	30	silt	native	1000	4	14	8	8	800	5	20	inbare	ft
+WR	wepp-14651	"08:06 pm  Wednesday May 15, 2019"	"Canyons +"	30	silt	native	1000	4	14	8	8	850	5	20	inbare	ft
+WR	wepp-14690	"08:06 pm  Wednesday May 15, 2019"	"Canyons +"	30	silt	native	1000	4	14	8	8	900	5	20	inbare	ft
+WR	wepp-14958	"08:25 pm  Wednesday May 15, 2019"	"Canyons +"	30	clay	native	1000	4	14	8	8	1000	5	20	inbare	ft
+WR	wepp-14999	"08:26 pm  Wednesday May 15, 2019"	"Canyons +"	30	clay	native	1000	4	14	8	8	1000	5	20	inbare	ft

@@ -1,0 +1,78 @@
+#this files was modified by filegenwhrm.pl on: Wednesday, March 16, 2005.
+#taxgroup Forest Carnivores species Grizzly bear / Ursos arctos horribilis
+#
+# Rank
+2,-99,-99,3,-99
+# Nestsite
+-99
+# Reprorank
+-99
+# Foraging Habitat
+-99
+# Habitatrank
+-99
+# Forage/Prey Availability
+2,1:3,1:4,1
+# Preyrank
+2,-99:3,-99:3,-99
+# Predator Avoidance
+-99
+# Avoidrank
+-99
+# Refugia/Shelter
+-99
+# Shelterrank
+-99
+# Coverrank
+-99
+# Literature
+Distribution
+Alaska across the Yukon and Northwest Territory, through British Columbia and Alberta, with disjunct populations Washington, Idaho, Montana, Wyoming
+General Habitat
+variety of habitat types, often in wilderness areas are well-removed from human disturbance
+Home or Activity Range
+24000-500000 ac (Kasworm and Manley 1988)
+Canopy Cover
+no information available
+Specific Habitat Preferences
+habitats with high abundance of food sources, including grasses, forbs, and berry-producing shrubs
+Nestsite Characteristics
+give birth in winter dens; winter den sites in densely forested areas on well-drained ground, may be straight into hillsides
+Foraging Habitat Characteristics
+habitats with high abundance grasses, forbs, and berry-producing shrubs
+Diet
+grass, sedges, forbs, shrubs, berries, tubers, insects (ants, grubs,ladybird beetles, army cutworm moths), mammals (deer, elk squirrels, voles, ground squirrels, mice, marmots), carrion
+Predators
+humans
+Shelter Habitats
+winter den sites in densely forested areas on well-drained ground, may be straight into hillsides
+Response to Disturbance
+used burned-huckleberry habitat more than expected based on availability in the fall (Kasworm and Manley 1988); bears used habitat < 500 m of open roads less than expected (Kasworm and Manley 1988)
+Sources of Information used in the Model
+Servheen 1981, Hadden 1987, Kasworm and Manley 1988, Kansas 2002
+General Sources of Background Information
+Servheen 1981, Hadden 1987, Kasworm and Manley 1988, Foresman 2001, Kansas 2002
+Summaries of Specific Studies
+Hadden, David A. 1987. Grizzly bear habitat analysis southern Whitefish Range, Montana. Missoula, MT: University of Montana. 123 p. M.S. Thesis.
+
+Location of Study: northwest Montana
+Habitat Description: mixed conifer
+Summary: A grizzly bear habitat use model is presented based on community type distribution, food habits, and food availability. Seasonal variation in habitat foraging quality may be explained by food availability and nutrient content of food items.
+
+Kansas, J. 2002. Status of the grizzly bear (Ursus arctos) in Alberta. Alberta Sustainable Resource Development, Fish and Wildlife Division, and Alberta Conservation Association, Wildlife Status Report No. 37, Edmonton, AB. 43 p.
+
+Location of Study: Alberta
+Habitat Description: variety reviewed
+Summary: Grizzly bear foraging habitat shifts with the location of seasonally favored and high energy food sources, including graminoids-grasses, forbs/forb roots, berries and pine seeds, mammals, and insects. Riparian areas are important in supporting edible vegetation. Denning occurs in areas that support deep snow conditions, including areas with steep slopes and north- and east-facing aspects. While habitat loss/fragmentation is a concern, reducing illegal killing and conflict with humans appears to be the most critical factor in supporting grizzly populations.
+
+Kasworm, Wayne; Manley, Timothy. 1988. Grizzly bear and black bear ecology in the Cabinet Mountains of northwest Montana. Montana Department of Fish, Wildlife and Parks. 122 p.
+
+Location of Study: northwest Montana, northern Idaho
+Habitat Description: PIPO, PSME, ABGR, THPL, TSHE, ABLA, PIEN, TSME, PICO, LAOC, aspen
+Summary: Grizzly and black bears were radio-collared and monitored in the Cabinet Mountains of northwestern Montana. Home range size, population density, food habits and spring and fall habitat use were examined. Both bear species avoided habitat close to open roads, though grizzlies were more sensitive. Habitat selection in relation to topography, vegetation types, human activities, and land use were discussed. Grizzly bears used timbered habitats less than expected both spring and fall, and timbered shrub habitats were used less than expected in spring only. Snowchute shrub/alder habitat was used more than expected in both seasons. Burned/huckleberry habitat was used more than expected in the fall. Habitats high in grasses and forbs were used in the spring. Black bears used timbered habitat less than expected, but timbered-shrub, snowchute shrub-alder, burn-huckleberry, and riparian-forb habitat more than expected in both seasons. The impact of human harvest on black bear sex and age structure was also examined. The low number of grizzly captures and sightings, as well as the high mortality of captured grizzlies leads to serious questions of the species' ability to persist in the Cabinet mountains.
+
+Servheen, Christopher. 1981. Grizzly bear ecology and management in the Mission Mountains, Montana. Missoula, MT: University of Montana. 138 p. M.S. Thesis.
+
+Location of Study: northwest Montana
+Habitat Description: not stated
+Summary: Grizzly bear movements, habitat selection, food habits, and denning activities were studies in the Mission Mountains. Low elevation wet sites were used more than expected in spring. Seep areas and alpine slab-rock were used more than expected in summer. Wet meadows, riparian areas, and alpine slab-rock were used more than expected in autumn. Food habits varied seasonally; specific dietary preferences are given. The majority of den sites were located in open, side-hill park habitat between 2050 and 2500 m in elevation. All were excavated and the majority were lined with beargrass. Thesis includes a management plan that outlines impacts of human activities and suggests actions for mitigating human disturbance.

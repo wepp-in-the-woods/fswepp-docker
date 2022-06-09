@@ -1,0 +1,16 @@
+WF	wepp-6923	"10:06 am  Sunday April 17, 2011"	"FERRON UT                               4"	clay	200	50	0	30	15	40	20	20	4	ft
+WD	wepp-6990	"10:12 am  Sunday April 17, 2011"	"FERRON UT"	30	clay	high	500	0	30	45	20	high	500	30	5	45	20	0	ft	""
+WD	wepp-6997	"10:14 am  Sunday April 17, 2011"	"FERRON UT"	30	clay	high	500	0	30	45	20	low	500	30	5	85	20	0	ft	""
+WF	wepp-7052	"10:16 am  Sunday April 17, 2011"	"FERRON UT                               4"	clay	1000	50	0	30	15	40	20	20	5	ft
+WF	wepp-7113	"10:21 am  Sunday April 17, 2011"	"FERRON UT                               4"	clay	1000	50	0	30	15	100	50	50	5	ft
+WD	wepp-7189	"10:29 am  Sunday April 17, 2011"	"FERRON UT"	30	clay	tree5	50	0	30	60	20	tree5	50	30	5	60	20	0	ft	""
+WD	wepp-7221	"10:29 am  Sunday April 17, 2011"	"FERRON UT"	30	clay	tree5	50	0	30	40	20	tree5	50	30	5	40	20	0	ft	""
+WD	wepp-7245	"10:31 am  Sunday April 17, 2011"	"FERRON UT"	10	clay	tree5	50	0	30	40	20	tree5	50	30	5	40	20	0	ft	""
+WD	wepp-7250	"10:31 am  Sunday April 17, 2011"	"FERRON UT"	1	clay	tree5	50	0	30	40	20	tree5	50	30	5	40	20	0	ft	""
+WD	wepp-7255	"10:31 am  Sunday April 17, 2011"	"FERRON UT"	2	clay	tree5	50	0	30	40	20	tree5	50	30	5	40	20	0	ft	""
+WE	wepp-7265	"10:32 am  Sunday April 17, 1904"	"FERRON UT"	clay	20	forest	0	50	30	300	l			ft
+WD	wepp-7349	"10:38 am  Sunday April 17, 2011"	"FERRON UT"	30	clay	skid	50	0	20	10	20	skid	50	20	5	10	20	0	ft	""
+WD	wepp-7354	"10:38 am  Sunday April 17, 2011"	"FERRON UT"	30	clay	skid	50	20	20	10	20	skid	50	20	5	10	20	0	ft	""
+WR	wepp-30701	"11:16 am  Monday May 2, 2011"	"CASTLE DALE UT"	30	clay	native	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-588	"12:55 pm  Wednesday May 4, 2011"	"CASTLE DALE UT"	30	clay	paved	200	4	13	15	50	130	25	20	outunrut	ft
+WR	wepp-630	"01:00 pm  Wednesday May 4, 2011"	"CASTLE DALE UT"	30	clay	paved	200	8	13	15	50	130	25	20	outunrut	ft

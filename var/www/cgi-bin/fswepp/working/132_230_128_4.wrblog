@@ -1,0 +1,90 @@
+test
+ LANCASTER NH                           
+clay loam
+ft
+30
+34.98
+1
+Insloped, vegetated or rocked ditch
+native low
+6
+200
+16
+60
+16
+30
+30
+20
+2.08
+0.32
+882.59
+473.64
+Typical low use road
+34.98
+2
+Insloped, bare ditch
+native low
+6
+200
+16
+60
+16
+30
+30
+20
+2.08
+0.32
+1163.80
+579.35
+Same road, but the ditch is graded
+34.98
+3
+Outsloped, rutted
+native high
+6
+200
+16
+60
+16
+30
+30
+20
+2.09
+0.32
+2032.09
+1094.62
+Same road, but rutted from heavy logging traffic
+34.98
+4
+Outsloped, unrutted
+native low
+6
+200
+16
+60
+16
+30
+30
+20
+0.54
+0.01
+225.67
+92.22
+Same road, regraded after logging with low traffic
+34.98
+5
+Outsloped, unrutted
+native none
+6
+200
+16
+60
+16
+30
+30
+20
+0.50
+0.01
+140.95
+40.70
+Same road, no traffic allowed after outsloping

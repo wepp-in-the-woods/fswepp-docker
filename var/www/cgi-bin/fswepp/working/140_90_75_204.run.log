@@ -1,0 +1,13 @@
+WE	wepp-16602	"08:32 am  Wednesday April 9, 2014"	"W Rim Fire CA +"	sand	15	forest	23	25	18	261	u			ft
+WE	wepp-17000	"08:35 am  Wednesday April 9, 2014"	"W Rim Fire CA +"	sand	15	forest	23	25	18	261	h			ft
+WE	wepp-8804	"10:49 am  Wednesday April 9, 2014"	"Whiskey Fire +"	silt	20	forest	40.1	20	5	1000	u			ft
+WE	wepp-9312	"10:51 am  Wednesday April 9, 2014"	"Whiskey Fire +"	silt	20	forest	40.1	20	5	1000	m			ft
+WE	wepp-13341	"10:59 am  Wednesday April 9, 2014"	"Whiskey Fire +"	silt	20	forest	40	20	5	1000	m			ft
+WE	wepp-155112	"09:48 am  Wednesday May 18, 2016"	"Whiskey Fire +"	clay	20	forest	0	50	30	300	l			ft
+WE	wepp-155275	"09:50 am  Wednesday May 18, 2016"	"Whiskey Fire +"	clay	20	forest	0	50	30	300	h			ft
+WE	wepp-165396	"03:46 pm  Wednesday May 18, 2016"	"Whiskey Fire +"	clay	20	forest	0	50	30	300	l			ft
+WD	wepp-165920	"02:12 pm  Monday July 30, 2018"	"WELLS NV +"	10	loam	Sod	100	25	15	40	35	Sod	100	20	5	40	35	0	ft	"Echo1"
+WD	wepp-165956	"02:13 pm  Monday July 30, 2018"	"WELLS NV +"	10	loam	HighFire	100	25	15	45	35	LowFire	100	20	5	85	35	0	ft	"Echo1"
+WE	wepp-166070	"02:16 pm  Monday July 30, 2018"	"WELLS NV +"	loam	35	chap	5	25	5	500	m	50	30	ft
+WE	wepp-166235	"02:19 pm  Monday July 30, 2018"	"WELLS NV +"	loam	35	chap	5	25	5	500	u	50	30	ft
+WD	wepp-22027	"01:52 pm  Monday September 24, 2018"	"WELLS NV + +"	10	clay	LowFire	50	0	30	85	20	HighFire	50	30	5	45	20	0	ft	"test1"

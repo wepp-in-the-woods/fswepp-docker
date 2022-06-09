@@ -1,0 +1,31 @@
+WR	wepp-179863	"03:20 pm  Monday March 14, 2016"	"ABERDEEN 20 NNE lab +"	30	clay	native	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-180111	"03:22 pm  Monday March 14, 2016"	"ABERDEEN 20 NNE lab +"	30	clay	native	200	4	13	15	50	130	25	20	outrut	ft
+WR	wepp-180316	"03:22 pm  Monday March 14, 2016"	"ABERDEEN 20 NNE lab +"	30	loam	native	200	4	13	15	50	130	25	20	outrut	ft
+WR	wepp-180363	"03:22 pm  Monday March 14, 2016"	"ABERDEEN 20 NNE lab +"	30	loam	paved	200	4	13	15	50	130	25	20	outunrut	ft
+WR	wepp-20265	"03:28 pm  Wednesday March 16, 2016"	"ABERDEEN 20 NNE lab +"	30	silt	native	200	4	13	15	50	1	25	20	inveg	ft
+WR	wepp-21350	"04:06 pm  Wednesday March 16, 2016"	"ABERDEEN 20 NNE lab +"	30	silt	native	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-21495	"04:10 pm  Wednesday March 16, 2016"	"ABERDEEN 20 NNE lab +"	30	silt	paved	200	4	13	15	50	1	25	20	inbare	ft
+WD	wepp-21748	"04:17 pm  Wednesday March 16, 2016"	"ABERDEEN 20 NNE lab +"	10	silt	OldForest	400	0	30	100	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-22255	"04:36 pm  Wednesday March 16, 2016"	"ABERDEEN 20 NNE lab +"	10	silt	Bunchgrass	400	0	30	60	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-22903	"05:05 pm  Wednesday March 16, 2016"	"ABERDEEN 20 NNE lab +"	10	silt	Bunchgrass	400	0	30	60	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-22957	"05:07 pm  Wednesday March 16, 2016"	"ABERDEEN 20 NNE lab +"	10	silt	Bunchgrass	400	0	30	60	20	OldForest	30	30	5	100	20	0	ft	""
+WD	wepp-23013	"05:09 pm  Wednesday March 16, 2016"	"ABERDEEN 20 NNE lab +"	10	silt	HighFire	400	0	30	45	20	LowFire	30	30	5	85	20	0	ft	""
+WR	wepp-44116	"11:53 am  Thursday March 17, 2016"	"ABERDEEN 20 NNE test  +"	30	silt	native	200	4	13	15	50	130	25	20	inveg	ft
+WD	wepp-45546	"12:25 pm  Thursday March 17, 2016"	"ABERDEEN 20 NNE test  +"	10	clay	HighFire	400	0	30	45	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-45588	"12:25 pm  Thursday March 17, 2016"	"ABERDEEN 20 NNE test  +"	10	clay	HighFire	400	0	30	45	20	OldForest	200	30	5	100	20	0	ft	""
+WD	wepp-45626	"12:25 pm  Thursday March 17, 2016"	"ABERDEEN 20 NNE test  +"	10	clay	HighFire	400	0	30	45	20	OldForest	30	30	5	100	20	0	ft	""
+WD	wepp-45669	"12:26 pm  Thursday March 17, 2016"	"ABERDEEN 20 NNE test  +"	10	clay	HighFire	400	0	30	45	20	OldForest	500	30	5	100	20	0	ft	""
+WD	wepp-45707	"12:26 pm  Thursday March 17, 2016"	"ABERDEEN 20 NNE test  +"	10	clay	HighFire	400	0	30	45	20	OldForest	700	30	5	100	20	0	ft	""
+WD	wepp-45746	"12:26 pm  Thursday March 17, 2016"	"ABERDEEN 20 NNE test  +"	10	clay	HighFire	400	0	30	45	20	OldForest	1000	30	5	100	20	0	ft	""
+WD	wepp-45786	"12:26 pm  Thursday March 17, 2016"	"ABERDEEN 20 NNE test  +"	10	clay	HighFire	400	0	30	45	20	OldForest	1200	30	5	100	20	0	ft	""
+WD	wepp-45846	"12:28 pm  Thursday March 17, 2016"	"ABERDEEN 20 NNE test  +"	10	silt	HighFire	400	0	30	45	20	OldForest	1200	30	5	100	20	0	ft	""
+WD	wepp-45902	"12:28 pm  Thursday March 17, 2016"	"ABERDEEN 20 NNE test  +"	10	silt	HighFire	400	0	30	45	20	OldForest	800	30	5	100	20	0	ft	""
+WD	wepp-45944	"12:28 pm  Thursday March 17, 2016"	"ABERDEEN 20 NNE test  +"	10	silt	HighFire	400	0	30	45	20	OldForest	900	30	5	100	20	0	ft	""
+WD	wepp-45982	"12:28 pm  Thursday March 17, 2016"	"ABERDEEN 20 NNE test  +"	10	silt	HighFire	400	0	30	45	20	OldForest	850	30	5	100	20	0	ft	""
+WD	wepp-46061	"12:29 pm  Thursday March 17, 2016"	"ABERDEEN 20 NNE test  +"	10	silt	HighFire	400	0	30	45	20	OldForest	800	30	5	100	20	0	ft	""
+WD	wepp-46099	"12:29 pm  Thursday March 17, 2016"	"ABERDEEN 20 NNE test  +"	10	silt	HighFire	400	0	30	45	20	OldForest	700	30	5	100	20	0	ft	""
+WD	wepp-46137	"12:29 pm  Thursday March 17, 2016"	"ABERDEEN 20 NNE test  +"	10	silt	HighFire	400	0	30	45	20	OldForest	600	30	5	100	20	0	ft	""
+WD	wepp-46173	"12:29 pm  Thursday March 17, 2016"	"ABERDEEN 20 NNE test  +"	10	silt	HighFire	400	0	30	45	20	OldForest	500	30	5	100	20	0	ft	""
+WD	wepp-46212	"12:30 pm  Thursday March 17, 2016"	"ABERDEEN 20 NNE test  +"	10	silt	HighFire	400	0	30	45	20	OldForest	550	30	5	100	20	0	ft	""
+WD	wepp-46261	"12:30 pm  Thursday March 17, 2016"	"ABERDEEN 20 NNE test  +"	10	silt	HighFire	400	0	30	45	20	OldForest	530	30	5	100	20	0	ft	""
+WD	wepp-46300	"12:30 pm  Thursday March 17, 2016"	"ABERDEEN 20 NNE test  +"	10	silt	HighFire	400	0	30	45	20	OldForest	530	30	5	100	20	0	ft	""

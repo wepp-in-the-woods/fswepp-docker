@@ -1,0 +1,9 @@
+New Hampshire
+<input type="hidden" name="state" value="nh">
+<Select name="station" size="15">
+<OPTION VALUE="Nh271683" selected> CONCORD WB AIRPORT NH
+<OPTION VALUE="Nh272999"> FIRST CONN LAKE NH
+<OPTION VALUE="Nh274556"> LANCASTER NH
+<OPTION VALUE="Nh275639"> MOUNT WASHINGTON WB NH
+<OPTION VALUE="Nh276945"> PLYMOUTH 2 E NH
+</select>

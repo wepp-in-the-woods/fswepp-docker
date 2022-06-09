@@ -1,0 +1,82 @@
+1457464231
+ExampleHorseRidge
+ft
+30
+  ExampleNearHorseRidge +               
+sandy loam
+20
+native low
+outsloped rutted
+4
+250
+14
+50
+1
+25
+1
+38.44
+0.67
+3.01
+81.06
+80.51
+RuttedScenario
+ft
+30
+  ExampleNearHorseRidge +               
+sandy loam
+20
+native high
+outsloped rutted
+4
+250
+14
+50
+1
+25
+1
+38.44
+0.67
+3.01
+238.87
+233.49
+RuttedHighTrafficScenario
+ft
+30
+  ExampleNearHorseRidge +               
+sandy loam
+20
+graveled high
+insloped vegetated
+4
+250
+14
+50
+1
+25
+1
+38.44
+0.60
+2.25
+82.49
+79.33
+HighTrafficGravelledInslopeStableDitch
+ft
+30
+  ExampleNearHorseRidge +               
+sandy loam
+20
+graveled high
+outsloped unrutted
+4
+250
+14
+50
+15
+25
+150
+38.44
+0.01
+0.03
+101.88
+7.96
+OutslopeUnruttedGravelHighTraffic

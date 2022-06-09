@@ -1,0 +1,83 @@
+#	Cooper, S.V., K.E. Neiman, R. Steele and D.W. Roberts. 1991.
+#	Forest Habitat Types of Northern Idaho: A Second Approximation.
+#	Gen. Tech. Rep. INT-GTR-236.
+#	Ogden, UT: U.S. Department of Agriculture, Forest Service, Intermountain Research Station. 143 p.
+ABGR/ASCA-ASCA	CoolF	WH	CoolF/WH	H	7 - Moderate and moist grand fir habitat types
+ABGR/ASCA-MEFE	CoolF	WH	CoolF/WH	H	7 - Moderate and moist grand fir habitat types
+ABGR/ASCA-TABR	CoolF	WH	CoolF/WH	H	7 - Moderate and moist grand fir habitat types
+ABGR/CLUN-CLUN	CoolF	MH	CoolF/MH	H	7 - Moderate and moist grand fir habitat types
+ABGR/CLUN-MEFE	CoolF	MH	CoolF/MH	H	7 - Moderate and moist grand fir habitat types
+ABGR/CLUN-PHMA	CoolF	MH	CoolF/MH	H	7 - Moderate and moist grand fir habitat types
+ABGR/CLUN-TABR	CoolF	MH	CoolF/MH	H	7 - Moderate and moist grand fir habitat types
+ABGR/CLUN-XETE	CoolF	MH	CoolF/MH	H	7 - Moderate and moist grand fir habitat types
+ABGR/LIBO-LIBO	CoolF	DH	CoolF/DH	H	7 - Moderate and moist grand fir habitat types
+ABGR/LIBO-XETE	CoolF	DH	CoolF/DH	H	7 - Moderate and moist grand fir habitat types
+ABGR/PHMA-COOC	CoolF	MH	CoolF/MH	H	2 - Warm, dry to moderate Douglas-fir, grand fir and ponderosa pine habitat types
+ABGR/PHMA-PHMA	CoolF	DH	CoolF/DH	H	2 - Warm, dry to moderate Douglas-fir, grand fir and ponderosa pine habitat types
+ABGR/SETR	CoolF	WF	CoolF/WF	H	7 - Moderate and moist grand fir habitat types
+ABGR/SPBE	CoolF	DH	CoolF/DH	H	2 - Warm, dry to moderate Douglas-fir, grand fir and ponderosa pine habitat types
+ABGR/XETE-COOC	CoolF	DH	CoolF/DH	H	7 - Moderate and moist grand fir habitat types
+ABGR/XETE-VAGL	CoolF	DH	CoolF/DH	H	7 - Moderate and moist grand fir habitat types
+ABLA/CACA-LEGL	ColdF	WF	ColdF/WF	H	5 - Moist, lower subalpine habitat types
+ABLA/CACA-LICA	ColdF	WF	ColdF/WF	H	5 - Moist, lower subalpine habitat types
+ABLA/CACA-VACA	ColdF	DH	ColdF/DH	H	5 - Moist, lower subalpine habitat types
+ABLA/CLUN-CLUN	CoolF	MH	CoolF/MH	H	5 - Moist, lower subalpine habitat types
+ABLA/CLUN-MEFE	CoolF	MH	CoolF/MH	H	5 - Moist, lower subalpine habitat types
+ABLA/CLUN-XETE	CoolF	MH	CoolF/MH	H	5 - Moist, lower subalpine habitat types
+ABLA/LUHI	ColdF	DH	ColdF/DH	H	6 - Upper subalpine habitat types
+ABLA/MEFE-COOC	ColdF	DH	ColdF/DH	H	5 - Moist, lower subalpine habitat types
+ABLA/MEFE-LUHI	ColdF	DH	ColdF/DH	H	5 - Moist, lower subalpine habitat types
+ABLA/MEFE-VASC	ColdF	DH	ColdF/DH	H	5 - Moist, lower subalpine habitat types
+ABLA/MEFE-XETE	ColdF	DH	ColdF/DH	H	5 - Moist, lower subalpine habitat types
+ABLA/STAM-LICA	CoolF	WF	CoolF/WF	H	5 - Moist, lower subalpine habitat types
+ABLA/STAM-MEFE	CoolF	WF	CoolF/WF	H	5 - Moist, lower subalpine habitat types
+ABLA/XETE-COOC	CoolF	DH	CoolF/DH	H	4 - Dry, lower subalpine habitat types
+ABLA/XETE-LUHI	ColdF	DH	ColdF/DH	H	4 - Dry, lower subalpine habitat types
+ABLA/XETE-VAGL	ColdF	DH	ColdF/DH	H	4 - Dry, lower subalpine habitat types
+ABLA/XETE-VASC	ColdF	DH	ColdF/DH	H	4 - Dry, lower subalpine habitat types
+PICO/VACA	CoolP	DH	CoolP/DH	H	3 - Habitats and community types dominated by persistent lodgepole pine
+PICO/VASC	CoolP	DH	CoolP/DH	H	3 - Habitats and community types dominated by persistent lodgepole pine
+PICO/XETE	CoolP	DH	CoolP/DH	H	3 - Habitats and community types dominated by persistent lodgepole pine
+PIPO/AGSP	PP	DG	PP/DG	L	1 - Warm, dry Douglas-fir and ponderosa pine habitat types
+PIPO/FEID	PP	DS	PP/DS	L	1 - Warm, dry Douglas-fir and ponderosa pine habitat types
+PIPO/PHMA	PP	DH	PP/DH	L	2 - Warm, dry to moderate Douglas-fir, grand fir and ponderosa pine habitat types
+PIPO/SYAL	PP	DS	PP/DS	L	1 - Warm, dry Douglas-fir and ponderosa pine habitat types
+PSME/AGSP	DF	DH	DF/DH	H	1 - Warm, dry Douglas-fir and ponderosa pine habitat types
+PSME/CARU-ARUV	DF	DS	DF/DS	L	2 - Warm, dry to moderate Douglas-fir, grand fir and ponderosa pine habitat types
+PSME/CARU-CARU	DF	DH	DF/DH	H	2 - Warm, dry to moderate Douglas-fir, grand fir and ponderosa pine habitat types
+PSME/FEID	DF	DS	DF/DS	L	1 - Warm, dry Douglas-fir and ponderosa pine habitat types
+PSME/PHMA-PHMA	DF	DH	DF/DH	H	2 - Warm, dry to moderate Douglas-fir, grand fir and ponderosa pine habitat types
+PSME/PHMA-SMST	DF	DH	DF/DH	H	2 - Warm, dry to moderate Douglas-fir, grand fir and ponderosa pine habitat types
+PSME/SPBE	DF	DS	DF/DS	L	1 - Warm, dry Douglas-fir and ponderosa pine habitat types
+PSME/SYAL	DF	DH	DF/DH	H	1 - Warm, dry Douglas-fir and ponderosa pine habitat types
+PSME/VACA	DF	DH	DF/DH	H	2 - Warm, dry to moderate Douglas-fir, grand fir and ponderosa pine habitat types
+THPL/ADPE	CH	WH	CH/WH	H	9 - Very moist western redcedar habitat types
+THPL/ASCA-ASCA	CH	WH	CH/WH	H	8 - Moderate and moist western hemlock and western redcedar habitat types
+THPL/ASCA-MEFE	CH	WH	CH/WH	H	8 - Moderate and moist western hemlock and western redcedar habitat types
+THPL/ASCA-TABR	CH	WH	CH/WH	H	8 - Moderate and moist western hemlock and western redcedar habitat types
+THPL/ATFI-ADPE	CH	WF	CH/WF	H	9 - Very moist western redcedar habitat types
+THPL/ATFI-ATFI	CH	WF	CH/WF	H	9 - Very moist western redcedar habitat types
+THPL/CLUN-CLUN	CH	MH	CH/MH	H	8 - Moderate and moist western hemlock and western redcedar habitat types
+THPL/CLUN-MEFE	CH	MH	CH/MH	H	8 - Moderate and moist western hemlock and western redcedar habitat types
+THPL/CLUN-TABR	CH	MH	CH/MH	H	8 - Moderate and moist western hemlock and western redcedar habitat types
+THPL/CLUN-XETE	CH	MH	CH/MH	H	8 - Moderate and moist western hemlock and western redcedar habitat types
+THPL/GYDR	CH	WH	CH/WH	H	8 - Moderate and moist western hemlock and western redcedar habitat types
+THPL/OPHO	CH	WS	CH/WS	H	9 - Very moist western redcedar habitat types
+TSHE/ASCA-ARNU	CH	WH	CH/WH	H	8 - Moderate and moist western hemlock and western redcedar habitat types
+TSHE/ASCA-ASCA	CH	WH	CH/WH	H	8 - Moderate and moist western hemlock and western redcedar habitat types
+TSHE/ASCA-MEFE	CH	MH	CH/MH	H	8 - Moderate and moist western hemlock and western redcedar habitat types
+TSHE/CLUN-ARNU	CH	MH	CH/MH	H	8 - Moderate and moist western hemlock and western redcedar habitat types
+TSHE/CLUN-CLUN	CH	MH	CH/MH	H	8 - Moderate and moist western hemlock and western redcedar habitat types
+TSHE/CLUN-MEFE	CH	MH	CH/MH	H	8 - Moderate and moist western hemlock and western redcedar habitat types
+TSHE/CLUN-XETE	CH	MH	CH/MH	H	8 - Moderate and moist western hemlock and western redcedar habitat types
+TSHE/GYDR	CH	WF	CH/WF	H	8 - Moderate and moist western hemlock and western redcedar habitat types
+TSHE/MEFE	CH	DH	CH/DH	H	5 - Moist, lower subalpine habitat types
+TSME/CLUN-MEFE	CoolF	MH	CoolF/MH	H	5 - Moist, lower subalpine habitat types
+TSME/CLUN-XETE	ColdF	MH	ColdF/MH	H	5 - Moist, lower subalpine habitat types
+TSME/MEFE-LUHI	ColdF	DH	ColdF/DH	H	5 - Moist, lower subalpine habitat types
+TSME/MEFE-XETE	ColdF	DH	ColdF/DH	H	5 - Moist, lower subalpine habitat types
+TSME/STAM-LUHI	ColdF	WF	ColdF/WF	H	5 - Moist, lower subalpine habitat types
+TSME/STAM-MEFE	ColdF	WF	ColdF/WF	H	5 - Moist, lower subalpine habitat types
+TSME/XETE-LUHI	ColdF	DH	ColdF/DH	H	4 - Dry, lower subalpine habitat types
+TSME/XETE-VAGL	ColdF	DH	ColdF/DH	H	4 - Dry, lower subalpine habitat types
+TSME/XETE-VASC	ColdF	DH	ColdF/DH	H	4 - Dry, lower subalpine habitat types

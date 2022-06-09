@@ -1,0 +1,29 @@
+WR	wepp-8711	"11:42 am  Tuesday November 15, 2011"	"CLIM1 +"	30	silt	native	200	4	13	15	50	1	25	20	inveg	ft
+WR	wepp-8916	"11:53 am  Tuesday November 15, 2011"	"CLIM1 +"	30	silt	native	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-8961	"11:56 am  Tuesday November 15, 2011"	"CLIM1 +"	30	silt	paved	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-9311	"12:17 pm  Tuesday November 15, 2011"	"CLIM1 +"	30	silt	paved	200	4	13	15	50	10	25	20	inbare	ft
+WR	wepp-9316	"12:17 pm  Tuesday November 15, 2011"	"CLIM1 +"	30	silt	paved	200	4	13	15	50	100	25	20	inbare	ft
+WR	wepp-9321	"12:17 pm  Tuesday November 15, 2011"	"CLIM1 +"	30	silt	paved	200	4	13	15	50	90	25	20	inbare	ft
+WR	wepp-9326	"12:18 pm  Tuesday November 15, 2011"	"CLIM1 +"	30	silt	paved	200	4	13	15	50	95	25	20	inbare	ft
+WR	wepp-9331	"12:18 pm  Tuesday November 15, 2011"	"CLIM1 +"	30	silt	paved	200	4	13	15	50	93	25	20	inbare	ft
+WR	wepp-9336	"12:18 pm  Tuesday November 15, 2011"	"CLIM1 +"	30	silt	paved	200	4	13	15	50	92	25	20	inbare	ft
+WR	wepp-9341	"12:18 pm  Tuesday November 15, 2011"	"CLIM1 +"	30	silt	paved	200	4	13	15	50	89	25	20	inbare	ft
+WR	wepp-9365	"12:18 pm  Tuesday November 15, 2011"	"CLIM1 +"	30	silt	paved	200	4	13	15	50	98	25	20	inbare	ft
+WR	wepp-9370	"12:19 pm  Tuesday November 15, 2011"	"CLIM1 +"	30	silt	paved	200	4	13	15	50	96	25	20	inbare	ft
+WR	wepp-9375	"12:19 pm  Tuesday November 15, 2011"	"CLIM1 +"	30	silt	paved	200	4	13	15	50	97	25	20	inbare	ft
+WR	wepp-9407	"12:19 pm  Tuesday November 15, 2011"	"CLIM1 +"	30	silt	paved	200	4	13	15	50	97.5	25	20	inbare	ft
+WR	wepp-9412	"12:19 pm  Tuesday November 15, 2011"	"CLIM1 +"	30	silt	paved	200	4	13	15	50	98	25	20	inbare	ft
+WR	wepp-9417	"12:20 pm  Tuesday November 15, 2011"	"CLIM1 +"	30	silt	paved	200	4	13	15	50	93	25	20	inbare	ft
+WR	wepp-9422	"12:20 pm  Tuesday November 15, 2011"	"CLIM1 +"	30	silt	paved	200	4	13	15	50	95	25	20	inbare	ft
+WR	wepp-9427	"12:20 pm  Tuesday November 15, 2011"	"CLIM1 +"	30	silt	paved	200	4	13	15	50	94	25	20	inbare	ft
+WR	wepp-9433	"12:22 pm  Tuesday November 15, 2011"	"CLIM1 +"	30	silt	graveled	200	4	13	15	50	1	25	20	outunrut	ft
+WR	wepp-9572	"12:29 pm  Tuesday November 15, 2011"	"CLIM2 +"	30	silt	graveled	200	4	13	15	50	1	25	20	outunrut	ft
+WD	wepp-9666	"12:39 pm  Tuesday November 15, 2011"	"CLIM1 +"	10	silt	OldForest	400	0	30	100	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-9763	"12:44 pm  Tuesday November 15, 2011"	"CLIM1 +"	10	silt	Sod	400	0	30	40	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-9829	"12:45 pm  Tuesday November 15, 2011"	"CLIM1 +"	10	silt	Sod	400	0	30	40	20	OldForest	30	30	5	100	20	0	ft	""
+WD	wepp-9849	"12:49 pm  Tuesday November 15, 2011"	"CLIM1 +"	10	silt	HighFire	400	0	30	45	20	LowFire	30	30	5	85	20	0	ft	""
+WD	wepp-9896	"12:51 pm  Tuesday November 15, 2011"	"CLIM1 +"	10	silt	HighFire	400	0	30	45	20	LowFire	200	30	5	85	20	0	ft	""
+WD	wepp-9915	"12:51 pm  Tuesday November 15, 2011"	"CLIM1 +"	10	silt	HighFire	400	0	30	45	20	LowFire	1000	30	5	85	20	0	ft	""
+WD	wepp-9935	"12:52 pm  Tuesday November 15, 2011"	"CLIM1 +"	10	silt	HighFire	400	0	30	45	20	LowFire	1200	30	5	85	20	0	ft	""
+WD	wepp-9955	"12:53 pm  Tuesday November 15, 2011"	"CLIM1 +"	10	silt	HighFire	400	0	30	45	20	HighFire	30	30	5	45	20	0	ft	""
+WD	wepp-10002	"12:58 pm  Tuesday November 15, 2011"	"CLIM1 +"	10	silt	HighFire	400	0	30	45	20	HighFire	30	30	5	45	20	0	ft	""

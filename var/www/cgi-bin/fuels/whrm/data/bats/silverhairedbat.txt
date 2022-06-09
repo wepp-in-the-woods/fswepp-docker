@@ -1,0 +1,103 @@
+#this files was modified by filegenwhrm.pl on: Wednesday, March 16, 2005.
+#taxgroup Bats species Silver-haired bat /  Lasionycteris noctivagans
+#
+# Rank
+3,3,1,-99,4
+# Nestsite
+16,1:17,1:18,1:25,1:48,1:49,1
+# Reprorank
+1,-99:2,-99:1,-99:1,-99:1,-99:1,-99
+# Foraging Habitat
+20,-1:4,-1
+# Habitatrank
+1,-99:1,-99
+# Forage/Prey Availability
+-99
+# Preyrank
+-99
+# Predator Avoidance
+20,-1
+# Avoidrank
+1,-99
+# Refugia/Shelter
+16,1:17,1:18,1:20,-1:25,1:26,1:48,1:49,1
+# Shelterrank
+2,-99:2,-99:2,-99:1,-99:,2,-99:1,-99:1,-99:1,-99
+# Coverrank
+1,-99:2,-99:2,-99:2,-99:,2,-99:1,-99:1,-99:1,-99
+# Literature
+Distribution
+most of N. American continent
+General Habitat
+mature and old-growth coniferous forests
+Home or Activity Range
+no information available
+Canopy Cover
+low canopy cover (Campbell et al. 1996, Vonhof and Barclay 1996)
+Specific Habitat Preferences
+areas with tall, large snags, gaps in mature forest, low understory height and cover; close to riparian areas
+Nestsite Characteristics
+maternity colonies in both live and dead large-diameter trees; use woodpecker cavities and are sometimes found under bark; located on dense forested slopes; may be located in areas uncluttered by other vegetation or large trees
+Foraging Habitat Characteristics
+openings in mature forests, over ponds and waterways
+Diet
+opportunistic feeder: Hemiptera, Lepidoptera, Coleoptera, Diptera, Trichoptera
+Predators
+Mexican spotted owl, hawks and falcons
+Shelter Habitats
+roosts in trees and snags, buildings; may overwinter in trees and beneath bark of older trees: winter roosts in caves, mine shafts, houses
+Response to Disturbance
+no information available
+Sources of Information used in the Model
+Perkins and Cross 1988, Betts 1996, Campbell et al. 1996, Vonhof 1996, Vonhof and Barclay 1996
+General Sources of Background Information
+Barclay et al. 1988, Perkins and Cross 1988, Thomas 1988, reviewed in Christy and West 1993, reviewed in Ward and Block 1995, Rasheed and Holroyd 1995, Betts 1996, Campbell et al 1996, Vonhof 1996, Vonhof and Barclay 1996, reviewed in Pearson 1999, Foresman 2001
+Summaries of Specific Studies
+Betts, Burr J. 1996. Roosting behavior of silver-haired bats (Lasionycteris noctivagans) and big brown bats (Eptesicus fuscus) in northeast Oregon. In: Barclay, R.M.R.; Brigham, R.M., eds. Bats and forests symposium; 1995 October 19-21; Victoria, BC. Victoria, BC: Ministries of Environment and Forests: 55-61.
+
+Study Location: northeastern Oregon
+Habitat Description: mosaic of pine and fir forests of various ages and species composition
+Summary: Maternity roost sites were located for silver-haired and big brown bats in northeastern Oregon. Both species used large live and dead trees, though the big brown bat used larger trees than the silver-haired bat. Roost sites tended to be high, uncluttered, in no particular direction. Big brown bats tended to roost in more open sites, have larger maternity colonies, and move farther between roosts than the silver-haired bat. Silver-hair bats tended to stay within the same drainage. Both species used multiple roost sites, and multiple individuals were found at roost locations.
+
+Campbell, Lori A.; Hallett, James G.; O'Connell, Margaret A. 1996. Conservation of bats in managed forests: use of roosts by Lasionycteris noctivagans. Journal of Mammalogy. 77:976-984.
+
+Study Location: Selkirk Mountains, northeastern Washington
+Habitat Description: THPL, TSHE,  LAOC, ABGR, PICO, PIPO, PSME
+Summary: Roosting habitat of silver-haired bats was examined. Roost trees were large and were usually snags in an advanced state of decay (mean dbh of 47 cm.). Roost trees were also taller than neighboring trees. Roost sites were often in PIPO and white pine snags, tree species that were not common across the landscape. Plots containing roosts exhibited significantly less canopy cover, shorter understory height, and less vegetative cover than random plots. These conditions would impede flight less and would allow a greater vertical space for young bats to practice flying. Finally, all roost sites were > 100m upslope from riparian areas. The authors suggest that the retention and recruitment of snags, and the protection of greater widths of riparian areas, are an important component of managing forests for bat conservation.
+
+Christy, Robin E.; West, Stephen D. 1993. Biology of bats in Douglas-fir forests. In:Huff, Mark H.; Holthausen, Richard S.; Aubry, Keith B., Tech. Coord. Biology and Management of Old Growth Forests. Gen. Tech. Rep. PNW-308. Portland, OR: USDA Forest Service, Pacific Northwest Research Station. 28p.
+
+Study Location: Washington and Oregon
+Habitat Description: PSME
+Summary: Review of the basic biology of bats inhabiting PSME forests of the Pacific Northwest, including a discussion of natural history, habitat requirements, and their ecological relations with old-growth forests.
+
+Perkins, J.Mark; Cross, Stephen P. 1988. Differential use of some coniferous forest habitats by hoary and silver-haired bats in Oregon. The Murrelet. 69:21-24.
+
+Study Location: Oregon
+Habitat Description: PSME, PIPO, TSHE, PILA, ABGR, ABCO
+Summary: This study examined the habitat association of hoary and silver-haired bats in relation to tree size and structure of conifers in Oregon. Both species were found in the older forest (> 101 years old), which the authors attribute to the ability of older forests to offer more shelter for roosting, open space to gain flight while leaving the roost, and immediate accessibility to the roost site upon return. Older stands also offered more snags as roosting spaces. In general, the Douglas-fir dominated sites were used more than the PIPO/true fir forest.
+
+Rasheed, Salman A.; Holroyd, Susan L. 1995. Roosting habitat assessment and inventory of bats in the Mica Wildlife Compensation Area. Columbia Basin Fish and Wildlife Compensation Program, BC Hydro and BC Environment, Nelson, BC. 77 pp.
+
+Study Location: British Columbia
+Habitat Description: not stated: includes THPL and TSHE
+Summary: The diversity, relative abundance, and roosting ecology of bats were studied in the Mica Wildlife Compensation Area. The little brown bat was the most abundant bat species. Roosts were located in rocky outcrops and in trees. Bats moved roosts often, but remained faithful to a particular roosting area. Therefore, management for these bats should occur on a stand or landscape level, preserving areas where multiple roosting areas are present.
+
+Thomas, Donald W. 1988. The distribution of bats in different ages of Douglas-fir forests. Journal of Wildlife Management. 52:619-626.
+
+Study Location: southern Washington Cascades, Oregon Coast Range
+Habitat Description: PSME-TSHE sere
+Summary: Bats were examined in different-aged PSME stands. Bats were grouped by nesting strategy and by echolocation signal. Bat activity was higher in old-growth sites than in mature or young sites; these results suggest that bats are 3-10 times more abundant in the old-growth sites. The author attributes this pattern to roosting habitat, due to the availability of large-diameter snags in older forest. Foraging opportunities did not contribute to the observed pattern of bat abundance. Differences in sex-ratio, reproductive activity and age distribution were seen between the two regions. Reduction in old-growth forest would negatively impact bat populations, though the degree of impact may vary regionally.
+
+Vonhof, Maarten J. 1996. Roost-site preferences of  big brown bats (Eptesicus fuscus) and silver-haired bats (Lasionycteris noctivagans) in the Pend d'Oreille Valley in southern British Columbia. In: Barclay, R.M.R.; Brigham, R.M., eds. Bats and forests symposium; 1995 October 19-21; Victoria, BC. Victoria, BC: Ministries of Environment and Forests: 62-80.
+
+Study Location: southern British Columbia
+Habitat Description: not stated; includes aspen, PIPO, PSME, PICO, LAOC, ABGR, PIST, THPL
+Summary: Summer roost-site selection was determined for silver-haired and big brown bats by radio-tracking reproductive females. Roost-sites for both species included natural hollows and cavities made by primary excavators. Both species used large trees that were uncluttered by surrounding trees relative to available trees in the immediate area of the roost, and in other areas of the same stand. Both species preferred aspen; big brown bats had a specific decay-stage preference but silver-haired bats had none. The only distinguishing feature of roost trees used by the different species was a preference of big brown bats for trees higher relative to the canopy than silver-haired bats. Management recommendations are given.
+
+Vonhof, Maarten J.; Barclay, Robert M.R. 1996. Roost-site selection and roosting ecology of forest-dwelling bats in southern British Columbia. Canadian Journal of Zoology. 74:1797-1805.
+
+Study Location: southern British Columbia
+Habitat Description: variety: THPL, TSHE, PIEN, ABLA, PSME, PIPO, LAOC, aspen
+Summary: Roost-site preferences were examined for four species of tree-roosting bats. Most roost sites were under tree bark, but woodpecker-made and natural cavities were also used. Roost entrances tended to be located beneath the canopy. Bats preferred tall trees associated with low percent canopy closure and a short distance to the nearest available tree. Roosts were switched frequently, with a low distance between roost sites. In this area, bats preferred to roost in western white pine, and to a lesser extent western larch and ponderosa pine.
+

@@ -1,0 +1,103 @@
+#this files was modified by filegenwhrm.pl on: Wednesday, March 16, 2005.
+#taxgroup Birds species Cassin's finch / Carpodacus cassinii
+#
+# Rank
+1,-99,1,-99,-99
+# Nestsite
+-99
+# Reprorank
+-99
+# Foraging Habitat
+20,1
+# Habitatrank
+1,-99
+# Forage/Prey Availability
+-99
+# Preyrank
+1,-99
+# Predator Avoidance
+-99
+# Avoidrank
+-99
+# Refugia/Shelter
+-99
+# Shelterrank
+-99
+# Coverrank
+-99
+# Literature
+Distribution
+widespread in western USA; summer range extends into Canada; winter range extends into Mexico
+General Habitat
+common in upper mountain forests and open evergreen woodlands; winters in deciduous woodlands, brushy scrublands, and second-growth forest
+Home or Activity Range
+no information available
+Canopy Cover
+prefers areas with closed canopy conditions (Taylor and Barmore (1980)
+Specific Habitat Preferences
+closed canopy forest 40 years post-fire
+Nestsite Characteristics
+nests on branch of tree; nest made of twigs, weeds, rootlets, and strips of bark with lining of fibers, soft grass and hair
+Foraging Habitat Characteristics
+forages on ground and in trees; will forage in recently burned forest
+Diet
+conifer seeds and buds, some insects
+Predators
+no information available
+Shelter Habitats
+no information available
+Response to Disturbance
+more abundant in salvage logged PICO than reference stands (reviewed in Sallabanks et al. 2003); more abundant in early post-fire conditions (more abundant first year than second year post-fire) (Hutto 1995); more abundant on managed vs. old growth sites (Mannan and Meslow 1984); attracted to areas clearcut 17 and 37 years previously (Austin and Perry 1979); less abundant in high shrub-stage clearcuts, more abundant on pole-stage clearcuts and partial cuts, and equally abundant on low-shrub stage clearcuts compared to uncut forest (Hejl et al. 1995); most abundant in strip-cut configurations and least abundant in meadow edges compared to spot-cuts, mid-forest, and forest interior configurations (Keller and Anderson 1992); recorded more consistently in thinned and burned PIPO sites than controls (Woolf 2003)
+Sources of Information used in the Model
+Taylor and Barmore 1980
+General Sources of Background Information
+Austin and Perry 1979, Taylor and Barmore 1980, Mannan and Meslow 1984, Keller and Anderson 1992, Hejl et al. 1995, Hutto 1995, National Geographic Society 1996, Alsop 2001, Sallabanks et al. 2003; Woolf 2003
+Summaries of Specific Studies
+Austin, Dennis D.; Perry, Michael L. 1979. Birds in six communities within a lodgepole pine forest. Journal of Forestry. 77:584-586.
+
+Study Location: Uinta Mountains, Utah
+Habitat Description: PICO as main overstory tree; also includes PIEN, ABLA
+Summary: Birds were censused in wet and dry meadows, mature and stagnated PICO stands, and regenerating PICO stands (17 and 37 years post-clearcut). The richest avifauna was found in the dry meadows. While a few birds were adversely affected by the clearcutting, many individual species were more numerous in the clearcuts, and the overall number of species was similar.
+
+Hejl, Sallie J.; Hutto, Richard L.; Preston, Charles R.; Finch, Deborah M. 1995. Effects of silvicultural treatments in the Rocky Mountains. In:Martin, Thomas E.; Finch, Deborah M. (eds.). Ecology and Management of Neotropical Migratory Birds. New York, Oxford: Oxford University Press. 220-244.
+
+Study Location: Rocky Mountains
+Habitat Description: forest types across the Rocky mountains
+Summary: Synthesis of the effects of different silvicultural treatments on neotropical migrants in forests of the Rocky Mountains. Outlines current forest structure, natural disturbance, logging history, and current silvicultural recommendations. General bird-habitat relationships in natural forest, including stands of different ages, are contrasted with stands that are silviculturally manipulated. Contains detailed species lists for rare to abundant bird species that are found in 8 forest types commonly found in the Rockies (Table 8-2). Also lists species by their likelihood to be more or less abundant in managed stands (classified as one of three types of clearcuts or partial cuts) compared to uncut forest. (Table 8-3)
+
+Hutto, R.L. 1995. Composition of bird communities following stand-replacement fires in northern Rocky Mountain (U.S.A) conifer forests. Conservation Biology. 9:1041-1058.
+
+Study Location: western Montana and northern Wyoming
+Habitat Description: range of habitat types: includes PIPO, PSME, LAOC, PICO, PIAL, PIFL, Picea sp,, ABLA, ABGR, THPL, aspen, cottonwood
+Summary: Fifteen bird species are generally more abundant in early post-fire communities than in any other cover type in the northern Rockies (includes olive-sided flycatcher, three-toed woodpecker, black-backed woodpecker, Clark's nutcracker, mountain bluebird, red crossbill, Cassin's finch, pine siskin, American robin, dark-eyed junco, yellow-rumped warbler). Six species (common nighthawk, calliope hummingbird, northern flicker, Stellar's jay, orange-crowned warbler, chipping sparrow) were most abundant in stands 10-40 years post-fire. Three species (American robin, yellow-rumped warbler, dark-eyed junco) were detected in early an mid-successional burned forest 100% of the time. One species, the black-backed woodpecker, was restricted to standing dead forest created by stand-replacing fires. Bird communities are different in recently burned forest, primarily because members of three feeding guilds (woodpeckers, flycatchers, and seedeaters) are especially abundant. Larger-diameter (>10 cm dbh) PP, DF, and LAOC were most often used for feeding by woodpeckers. Standing, fire-killed trees were used by the majority of birds nesting in recently burned forest. Many of the structures used in nesting (broken-topped snags) were present before the fire. Large-scale, stand-replacing fire may be necessary for long-term maintenance of many bird populations. Commentary is offered on the need to alter present fire and post-fire forest management.
+
+Keller, Mary E.; Anderson, Stanley H. 1992. Avian use of habitat configurations created by forest cutting in southeastern Wyoming. Condor. 94:55-65.
+
+Study Location: southeastern Wyoming
+Habitat Description: PIEN, ABLA
+Summary: Forest cutting has resulted in an increase in forest edges and reduction in forest continuity. Avian communities in uncut forests and those fragmented by small clearcuts were compared. Overall, stands interrupted by small clearcuts had a similar species composition to paired uncut stands. Brown creepers and hermit thrushes were most negatively impacted by fragmentation, while pine siskins were the most positively influenced by fragmentation. This study also examined how bird species were distributed in relation to forest interiors and edges. Distribution of birds among forest edges and interiors were not consistent with preferences for forest edges and interiors.
+
+Mannan, R. William; Meslow, E.Charles. 1984. Bird populations and vegetation characteristics in managed and old-growth forests, northeastern Oregon. Journal of Wildlife Management. 48:1219-1238.
+
+Study Location: northeastern Oregon
+Habitat Description: ABGR zone, includes PIPO, PSME, LAOC, PICO, ABGR
+Summary: Bird communities and vegetation differences were examined in managed and old-growth stands. Three variables, including large snags, large trees, and understory tree components, appeared to be responsible for the higher abundance of some species in old growth forest. Species more abundant in managed forest appeared to be attracted to the open structure of managed stands. Managed forest supported more breeding birds, due largely to the abundance of a few species.
+
+Sallabanks, Rex; Marcot, Bruce G.; Riggs, Robert A.; Mehl, Carolyn A.; Arnett, Edward B. 2003. Wildlife of Eastside (Interior) Forests and Woodlands. In Wildlife-Habitat Relationships in Oregon and Washington. Corvallis, OR: Oregon State University Press. pp 213-238.
+
+Study Location: Blue Mountains, OR
+Habitat Description: PICO
+Summary: This case history (4) outlines the key habitat-wildlife relationships in the LP forests of the central Oregon Pumice Zone. Areas of focus include the American marten and forest songbirds. The impact of salvage logging is discussed for some bird species.
+
+Taylor, Dale L.; Barmore, William J.1980. Post-fire succession of avifauna in coniferous forests of Yellowstone and Grand Teton National Parks, Wyoming. In Management of western forests and grasslands for nongame birds: workshop proceedings. February 11-14, 1980, Salt Lake City, UT. USDA Forest Service Gen. Tech. Rep. INT-86, Ogden, UT. pp 130-145.
+
+Study Location: Grand Teton and Yellowstone National Parks, Wyoming
+Habitat Description: PICO, ABLA/PIEN
+Summary: Bird density, composition, and diversity were monitored across a series of fire severities in burned PICO or spruce-fir forest in Grand Teton and Yellowstone National Parks. Highest populations and greatest biomass occurred from 5-29 years post-fire. Density, composition, and diversity on moderately burned spruce-fir-PICO were more like those on unburned spruce-fir than other seral stages. Changes in bird communities by feeding category were also examined. Overall, canopy closure was a habitat variable that appeared to affect avifauna more than the presence of fire.
+
+Woolf, Jennifer. 2003. The effects of thinning and prescribed fire on birds, small mammals, and avian species composition. Missoula, MT: University of Montana. 93 p. M.S. Thesis.
+
+Study Location: western Montana
+Habitat Description: PIPO
+Summary: Stands in western Montana underwent PIPO restoration treatments that included selective tree removal followed by a prescribed burn. Bird and small mammal populations were monitored on these and control sites. While some bird species showed a preference for treated vs. untreated stands, the treatment did not have major effects on avian species composition. The foraging behavior of bark-gleaning birds was also examined on treated vs. untreated sites. Birds selectively foraged on larger trees, with PIPO preferred to PSME in this study area. Thinning and burning is compatible with providing forage substrates for the species in this area, as the encounter rate for bark-gleaners was higher in the treated sites. Small mammal communities changed in both abundance and composition as a result of treatment, with deer mice exhibiting the most positive response to treatment.
+

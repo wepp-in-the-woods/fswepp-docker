@@ -1,0 +1,73 @@
+#this files was modified by filegenwhrm.pl on: Wednesday, March 16, 2005.
+#taxgroup Reptiles species Western Fence Lizard / Sceloporus occidentalis
+#
+# Rank
+2,-99,1,-99,2
+# Nestsite
+-99
+# Reprorank
+-99
+# Foraging Habitat
+4,1:8,1
+# Habitatrank
+1,-99:1,-99
+# Forage/Prey Availability
+-99
+# Preyrank
+-99
+# Predator Avoidance
+8,1
+# Avoidrank
+1,-99
+# Refugia/Shelter
+4,1:8,1
+# Shelterrank
+2,-99:1,-99
+# Coverrank
+2,-99:1,-99
+# Literature
+Distribution
+central Washington south through Oregon, southwest Idaho and western Utah to northern Baja California
+General Habitat
+avoid flat valley floors and humid forests; may occur in foothill areas, logged-off areas, clearings and open second-growth, rocky rims, canyons, and boulder-strewn hillsides
+Home or Activity Range
+no information available
+Canopy Cover
+no information available
+Specific Habitat Preferences
+elevated perches such as stumps, logs, rocks, old buildings, wooden fences
+Nestsite Characteristics
+eggs are buried in loose, moist soil or placed in a cavity in a log or under a rock
+Foraging Habitat Characteristics
+found on logs, bushes, and in trees
+Diet
+insects and other small invertebrates
+Predators
+no information available
+Shelter Habitats
+found on logs, bushes and trees
+Response to Disturbance
+no information available
+Sources of Information used in the Model
+Marcellini and Mackey 1970, Rose 1976
+General Sources of Background Information
+Marcellini and Mackey 1970, Rose 1976, Storm and Leonard 1995, Morrison and Hall 1999
+Summaries of Specific Studies
+Marcellini, D.; Mackey, J.P. 1970. Habitat preferences of the lizards Sceloporus occidentalis and S. graciosus (Lacertilia, Iguanidae). Herpetologica. 26: 51-56.
+
+Study Location: northern California
+Habitat Description: PSMA, manzanita shrubs, grass
+Summary: Habitat preferences were determined for the northern sagebrush lizard and the northwestern fence lizard. The sagebrush lizard was found to be completely terrestrial, preferring shrubby and open areas. The northwestern fence lizard was partially arboreal and had more varied habitat preferences.
+
+Morrison, Michael L; Hall, Linnea S. 1999. Habitat characteristics of reptiles in pinyon-juniper woodland. Great Basin Naturalist. 59(3): 288-291. 
+
+Study Location: White Mountains, California
+Habitat Description: pinyon-juniper
+Summary: Lizard abundance was correlated to habitat in a pinyon-juniper woodland. Western whiptails were found near slope bottoms and had more bare ground, fewer pinyon trees, and more juniper trees. Sagebrush and western fence lizards were abundant everywhere, though western fence lizard tended to be associated with dense patches of pinyon trees. 
+
+Rose, Barbera R. 1976. Habitat and prey selection of Sceloporus occidentalis and S. graciosus. Ecology. 57: 531-541.
+
+Study Location: California
+Habitat Description: mixture: foothill woodland, yellow pine (PIPO) forest, chaparral
+Summary: Resource use and habitat selection were studied for sympatric populations of sagebrush and western fence lizards. An isolated population of sagebrush lizards was also examined for comparison. The species overlapped in prey selection, though the sagebrush lizard tended to select smaller prey. There was distinct habitat selection, and within a habitat, between structural microhabitats. The western fence lizard was found more in grass-oak woodlands, and creek areas, while the sagebrush lizard preferred the more exposed habitats like a wide creek bottom, rock outcrops, and talus slopes. Western fence lizards were frequently found on logs or bushes, which sagebrush lizards tended to be found on rocks or rock outcrops.
+

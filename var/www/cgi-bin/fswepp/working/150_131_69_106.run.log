@@ -1,0 +1,11 @@
+WR	wepp-233139	"12:10 pm  Tuesday February 20, 2018"	"MOSCOW U OF I ID"	30	silt	native	200	4	13	15	50	130	25	20	inbare	ft
+WR	wepp-233462	"12:11 pm  Tuesday February 20, 2018"	"MOSCOW U OF I ID"	30	silt	native	200	4	13	15	50	130	25	20	inveg	ft
+wt	wepp-234663	"Feb 20, 2018"	"MOUNT SHASTA CA"	alluvial	HighFire	0	30	1000	45	20	LowFire	30	5	800	85	20	ft	""
+wt	wepp-234886	"Feb 20, 2018"	"MOUNT SHASTA CA"	alluvial	HighFire	0	30	1000	45	20	HighFire	30	5	800	45	20	ft	""
+wt	wepp-235022	"Feb 20, 2018"	"MOUNT SHASTA CA"	alluvial	HighFire	0	30	1000	45	20	OldForest	30	5	800	100	20	ft	""
+wt	wepp-235173	"Feb 20, 2018"	"MOUNT SHASTA CA"	alluvial	HighFire	0	30	1000	45	20	YoungForest	30	5	800	100	20	ft	""
+wt	wepp-235265	"Feb 20, 2018"	"MOUNT SHASTA CA"	alluvial	OldForest	0	30	1000	100	20	OldForest	30	5	800	100	20	ft	""
+wt	wepp-235354	"Feb 20, 2018"	"MOUNT SHASTA CA"	alluvial	OldForest	0	30	1000	100	20	YoungForest	30	5	800	100	20	ft	""
+wt	wepp-235792	"Feb 20, 2018"	"MOUNT SHASTA CA"	alluvial	HighFire	0	30	1000	45	20	HighFire	30	5	800	45	20	ft	""
+wt	wepp-236146	"Feb 20, 2018"	"MOUNT SHASTA CA"	alluvial	HighFire	0	30	1000	45	20	LowFire	30	5	800	85	20	ft	""
+wt	wepp-236374	"Feb 20, 2018"	"MOUNT SHASTA CA"	alluvial	HighFire	0	30	1000	45	20	YoungForest	30	5	800	100	20	ft	""

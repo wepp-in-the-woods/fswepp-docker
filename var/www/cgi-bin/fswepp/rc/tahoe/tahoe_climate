@@ -1,0 +1,9 @@
+Tahoe Basin
+ <input type="hidden" name="state" value="tahoe">
+ <Select name="station" size="15">
+  <OPTION VALUE="ca040822" selected>BISHOP WBO CA
+  <OPTION VALUE="nv262431">DYER NV
+  <OPTION VALUE="nv265168">MINA NV
+  <OPTION VALUE="nv267463">SILVERPEAK NV
+  <OPTION VALUE="nv268170">TONOPAH AP NV
+ </select>

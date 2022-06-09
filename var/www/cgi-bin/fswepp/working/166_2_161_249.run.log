@@ -1,0 +1,59 @@
+WE	wepp-19111	"08:53 am  Wednesday July 11, 2012"	"SquirrelCrk Fire +"	sand	20	forest	0	30	10	300	l			ft
+WD	wepp-19192	"08:56 am  Wednesday July 11, 2012"	"SquirrelCrk Fire +"	10	sand	LowFire	100	0	30	40	20	LowFire	200	30	5	40	20	0	ft	""
+WE	wepp-19273	"09:02 am  Wednesday July 11, 2012"	"SquirrelCrk Fire +"	sand	20	forest	0	30	20	300	l			ft
+WE	wepp-19323	"09:02 am  Wednesday July 11, 2012"	"SquirrelCrk Fire +"	sand	20	forest	0	30	20	300	m			ft
+WD	wepp-19427	"09:04 am  Wednesday July 11, 2012"	"SquirrelCrk Fire +"	10	sand	LowFire	200	0	30	40	20	LowFire	100	30	20	40	20	0	ft	""
+WD	wepp-19448	"09:06 am  Wednesday July 11, 2012"	"SquirrelCrk Fire +"	10	sand	Skid	200	0	30	20	20	Skid	100	30	20	20	20	0	ft	""
+WD	wepp-20282	"10:28 am  Wednesday July 11, 2012"	"SquirrelCrk Fire +"	10	sand	LowFire	200	0	30	20	20	LowFire	100	30	20	20	20	0	ft	""
+WE	wepp-20356	"10:30 am  Wednesday July 11, 2012"	"SquirrelCrk Fire +"	sand	20	forest	0	30	20	300	l			ft
+WE	wepp-20407	"10:30 am  Wednesday July 11, 2012"	"SquirrelCrk Fire +"	sand	20	range	0	30	20	300	l	15	75	ft
+WE	wepp-20458	"10:31 am  Wednesday July 11, 2012"	"SquirrelCrk Fire +"	sand	20	forest	0	30	20	300	m			ft
+WE	wepp-20596	"10:43 am  Wednesday July 11, 2012"	"SquirrelCrk Fire +"	sand	20	forest	0	20	15	300	m			ft
+WE	wepp-28886	"07:33 am  Wednesday August 8, 2012"	"ArapahoFire +"	sand	20	forest	30	30	15	300	h			ft
+WE	wepp-29003	"07:34 am  Wednesday August 8, 2012"	"ArapahoFire +"	sand	20	forest	30	30	15	300	m			ft
+WD	wepp-29104	"07:41 am  Wednesday August 8, 2012"	"ArapahoFire +"	10	clay	HighFire	200	30	30	10	20	HighFire	100	15	5	10	20	0	ft	""
+WD	wepp-1434	"12:03 pm  Friday March 29, 2013"	"BudSavery +"	10	clay	Skid	200	0	30	5	5	OldForest	25	10	5	100	5	0	ft	""
+WD	wepp-1454	"12:03 pm  Friday March 29, 2013"	"BudSavery +"	10	clay	Skid	200	0	30	5	5	YoungForest	25	10	5	100	5	0	ft	""
+WD	wepp-1474	"12:04 pm  Friday March 29, 2013"	"BudSavery +"	10	clay	Skid	200	0	10	5	5	YoungForest	25	10	5	100	5	0	ft	""
+WD	wepp-1494	"12:05 pm  Friday March 29, 2013"	"BudSavery +"	10	clay	Skid	200	0	10	20	5	YoungForest	25	10	5	100	5	0	ft	""
+WD	wepp-1541	"12:07 pm  Friday March 29, 2013"	"BudSavery +"	10	clay	LowFire	200	30	30	45	5	LowFire	200	30	5	45	5	0	ft	""
+WD	wepp-1561	"12:07 pm  Friday March 29, 2013"	"BudSavery +"	10	clay	LowFire	200	30	30	65	5	LowFire	200	30	5	65	5	0	ft	""
+WD	wepp-28530	"09:14 am  Monday May 6, 2013"	"BudSavery +"	10	clay	YoungForest	300	5	10	65	5	OldForest	100	10	5	100	0	0	ft	""
+WD	wepp-28629	"09:15 am  Monday May 6, 2013"	"BudSavery +"	10	clay	OldForest	300	5	10	100	5	OldForest	100	10	5	100	0	0	ft	""
+WR	wepp-29074	"09:19 am  Monday May 6, 2013"	"BudSavery +"	30	clay	native	200	4	13	15	50	100	10	5	outrut	ft
+WR	wepp-29196	"09:20 am  Monday May 6, 2013"	"BudSavery +"	30	clay	native	135	4	13	15	50	100	10	5	outrut	ft
+WF	wepp-29293	"09:22 am  Monday May 6, 2013"	"BudSavery +"	clay	200	1	5	5	5	40	20	20	0	ft
+WF	wepp-29402	"09:26 am  Monday May 6, 2013"	"BudSavery +"	clay	200	1	5	5	5	40	20	20	0	ft
+WF	wepp-29514	"09:29 am  Monday May 6, 2013"	"BudSavery +"	clay	200	1	5	5	5	40	20	20	4	ft
+WF	wepp-29709	"09:33 am  Monday May 6, 2013"	"BudSavery +"	clay	200	50	0	10	5	40	20	20	4	ft
+WF	wepp-30038	"09:37 am  Monday May 6, 2013"	"BudSavery +"	clay	200	100	0	10	5	40	20	20	4	ft
+WD	wepp-9647	"02:00 pm  Friday June 21, 2013"	"BudSavery +"	10	clay	Skid	50	3	3	20	20	Skid	50	3	3	20	20	0	ft	""
+WD	wepp-9694	"02:01 pm  Friday June 21, 2013"	"BudSavery +"	10	clay	Skid	50	3	3	20	20	OldForest	100	3	1	100	20	0	ft	""
+WD	wepp-10001	"02:41 pm  Friday June 21, 2013"	"BudSavery +"	10	clay	Skid	50	3	3	0	0	OldForest	100	3	1	100	0	0	ft	""
+WD	wepp-22612	"06:31 am  Tuesday July 9, 2013"	"BudSavery +"	10	clay	YoungForest	200	8	20	80	35	OldForest	25	20	0	100	35	0	ft	""
+WD	wepp-22632	"06:31 am  Tuesday July 9, 2013"	"SquirrelCrk Fire +"	10	clay	YoungForest	200	8	20	80	35	OldForest	25	20	0	100	35	0	ft	""
+WD	wepp-23031	"06:46 am  Tuesday July 9, 2013"	"SquirrelCrk Fire +"	10	clay	YoungForest	125	33	33	20	35	Bunchgrass	25	33	33	100	35	0	ft	""
+WD	wepp-18170	"10:51 am  Monday November 18, 2013"	"BudSavery +"	10	clay	Skid	50	6	15	20	20	Skid	50	15	5	20	20	0	ft	""
+WD	wepp-18209	"10:51 am  Monday November 18, 2013"	"BudSavery +"	10	clay	Skid	50	6	15	60	20	Skid	50	15	5	60	20	0	ft	""
+WD	wepp-18229	"10:52 am  Monday November 18, 2013"	"BudSavery +"	10	clay	Skid	50	6	15	100	20	Skid	50	15	5	100	20	0	ft	""
+WD	wepp-18251	"10:52 am  Monday November 18, 2013"	"BudSavery +"	10	clay	OldForest	50	6	15	100	20	OldForest	50	15	5	100	20	0	ft	""
+WD	wepp-18271	"10:53 am  Monday November 18, 2013"	"BudSavery +"	10	clay	Skid	50	6	15	20	20	Skid	50	15	5	20	20	0	ft	""
+WD	wepp-18290	"10:54 am  Monday November 18, 2013"	"BudSavery +"	10	sand	Skid	50	6	15	20	20	Skid	50	15	5	20	20	0	ft	""
+WD	wepp-18337	"10:55 am  Monday November 18, 2013"	"BudSavery +"	10	sand	Skid	50	15	15	20	20	Skid	50	15	5	20	20	0	ft	""
+WD	wepp-18357	"10:55 am  Monday November 18, 2013"	"BudSavery +"	10	sand	OldForest	50	15	15	100	20	OldForest	50	15	5	100	20	0	ft	""
+WD	wepp-18378	"10:56 am  Monday November 18, 2013"	"BudSavery +"	10	sand	Skid	50	0	15	20	20	Skid	50	15	5	20	20	0	ft	""
+WD	wepp-18403	"10:56 am  Monday November 18, 2013"	"BudSavery +"	10	sand	OldForest	50	0	15	100	20	OldForest	50	15	5	100	20	0	ft	""
+WD	wepp-18422	"10:56 am  Monday November 18, 2013"	"BudSavery +"	10	sand	Skid	50	0	15	20	20	Skid	50	15	5	20	20	0	ft	""
+WD	wepp-18448	"10:58 am  Monday November 18, 2013"	"BudSavery +"	10	sand	OldForest	50	0	15	100	20	OldForest	50	15	5	100	20	0	ft	""
+WD	wepp-18468	"10:58 am  Monday November 18, 2013"	"BudSavery +"	10	sand	Sod	50	0	15	40	20	Sod	50	15	5	40	20	0	ft	""
+WD	wepp-18488	"10:59 am  Monday November 18, 2013"	"BudSavery +"	10	sand	Bunchgrass	50	0	15	60	20	Bunchgrass	50	15	5	60	20	0	ft	""
+WD	wepp-4178	"07:04 am  Tuesday November 19, 2013"	"BudSavery +"	10	clay	OldForest	50	0	30	100	20	OldForest	50	30	5	100	20	0	ft	""
+WD	wepp-4205	"07:05 am  Tuesday November 19, 2013"	"BudSavery +"	10	clay	YoungForest	200	0	30	60	20	OldForest	100	30	5	100	20	0	ft	""
+WD	wepp-4254	"07:08 am  Tuesday November 19, 2013"	"BudSavery +"	10	clay	YoungForest	200	0	30	60	20	OldForest	100	30	5	100	20	0	ft	""
+WD	wepp-4302	"07:12 am  Tuesday November 19, 2013"	"BudSavery +"	10	clay	Bunchgrass	200	0	20	60	20	OldForest	100	20	5	100	10	0	ft	""
+WD	wepp-4323	"07:13 am  Tuesday November 19, 2013"	"BudSavery +"	10	clay	OldForest	200	0	20	100	20	OldForest	100	20	5	100	10	0	ft	""
+WD	wepp-4343	"07:13 am  Tuesday November 19, 2013"	"BudSavery +"	10	clay	YoungForest	200	0	20	65	20	OldForest	100	20	5	100	10	0	ft	""
+WD	wepp-4386	"07:15 am  Tuesday November 19, 2013"	"BudSavery +"	10	clay	Skid	200	0	20	45	20	Skid	100	20	5	45	10	0	ft	""
+WD	wepp-4436	"07:20 am  Tuesday November 19, 2013"	"BudSavery +"	10	clay	Skid	300	0	20	45	20	Bunchgrass	100	5	0	60	10	0	ft	""
+WD	wepp-4482	"07:21 am  Tuesday November 19, 2013"	"BudSavery +"	10	clay	Skid	300	20	5	45	20	Bunchgrass	100	5	0	60	10	0	ft	""
+WD	wepp-4505	"07:23 am  Tuesday November 19, 2013"	"BudSavery +"	10	clay	Skid	300	20	20	45	20	Bunchgrass	100	5	5	60	10	0	ft	""

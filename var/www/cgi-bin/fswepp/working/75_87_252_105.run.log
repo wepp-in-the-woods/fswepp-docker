@@ -1,0 +1,40 @@
+WR	wepp-24597	"01:30 pm  Friday December 3, 2010"	"SAINT MARIES ID +"	30	silt	native	200	4	13	15	50	1	25	20	inveg	ft
+WR	wepp-25166	"01:59 pm  Friday December 3, 2010"	"SAINT MARIES ID +"	30	silt	native	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-25286	"02:07 pm  Friday December 3, 2010"	"SAINT MARIES ID +"	30	silt	paved	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-25401	"02:20 pm  Friday December 3, 2010"	"SAINT MARIES ID +"	30	silt	paved	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-26086	"03:23 pm  Friday December 3, 2010"	"SAINT MARIES ID +"	30	silt	paved	200	4	13	15	50	20	25	20	inbare	ft
+WR	wepp-26091	"03:23 pm  Friday December 3, 2010"	"SAINT MARIES ID +"	30	silt	paved	200	4	13	15	50	30	25	20	inbare	ft
+WR	wepp-26101	"03:24 pm  Friday December 3, 2010"	"SAINT MARIES ID +"	30	silt	paved	200	4	13	15	50	50	25	20	inbare	ft
+WR	wepp-26190	"03:24 pm  Friday December 3, 2010"	"SAINT MARIES ID +"	30	silt	paved	200	4	13	15	50	52	25	20	inbare	ft
+WR	wepp-26197	"03:24 pm  Friday December 3, 2010"	"SAINT MARIES ID +"	30	silt	paved	200	4	13	15	50	54	25	20	inbare	ft
+WR	wepp-26202	"03:24 pm  Friday December 3, 2010"	"SAINT MARIES ID +"	30	silt	paved	200	4	13	15	50	53	25	20	inbare	ft
+WR	wepp-26245	"03:27 pm  Friday December 3, 2010"	"SAINT MARIES ID +"	30	silt	graveled	200	4	13	15	50	1	25	20	outunrut	ft
+WD	wepp-3056	"03:42 pm  Sunday December 5, 2010"	"SAINT MARIES ID +"	30	silt	tree20	400	0	30	100	20	tree20	75	30	5	100	20	0	ft	""
+WD	wepp-3574	"04:31 pm  Sunday December 5, 2010"	"SAINT MARIES ID +"	30	silt	tall	400	0	30	60	20	tree20	75	30	5	100	20	0	ft	""
+WD	wepp-3729	"04:51 pm  Sunday December 5, 2010"	"SAINT MARIES ID +"	30	silt	tall	400	0	30	60	20	tree20	30	30	5	100	20	0	ft	""
+WD	wepp-3980	"05:09 pm  Sunday December 5, 2010"	"SAINT MARIES ID +"	30	silt	high	400	0	30	45	20	low	30	30	5	85	20	0	ft	""
+WD	wepp-4238	"05:22 pm  Sunday December 5, 2010"	"SAINT MARIES ID +"	30	silt	high	400	0	30	45	20	high	30	30	5	45	20	0	ft	""
+WD	wepp-4342	"05:30 pm  Sunday December 5, 2010"	"SAINT MARIES ID +"	30	silt	high	400	0	30	45	20	low	80	30	5	85	20	0	ft	""
+WD	wepp-5130	"06:15 pm  Sunday December 5, 2010"	"SAINT MARIES ID +"	30	silt	high	400	0	30	45	20	low	200	30	5	85	20	0	ft	""
+WD	wepp-5137	"06:16 pm  Sunday December 5, 2010"	"SAINT MARIES ID +"	30	silt	high	400	0	30	45	20	low	400	30	5	85	20	0	ft	""
+WD	wepp-5168	"06:16 pm  Sunday December 5, 2010"	"SAINT MARIES ID +"	30	silt	high	400	0	30	45	20	low	600	30	5	85	20	0	ft	""
+WD	wepp-5173	"06:17 pm  Sunday December 5, 2010"	"SAINT MARIES ID +"	30	silt	high	400	0	30	45	20	low	1000	30	5	85	20	0	ft	""
+WD	wepp-5178	"06:17 pm  Sunday December 5, 2010"	"SAINT MARIES ID +"	30	silt	high	400	0	30	45	20	low	1200	30	5	85	20	0	ft	""
+WD	wepp-5422	"06:52 pm  Sunday December 5, 2010"	"SAINT MARIES ID +"	30	silt	tree20	400	0	30	100	20	tree5	400	30	5	100	20	0	ft	""
+WD	wepp-5427	"06:53 pm  Sunday December 5, 2010"	"SAINT MARIES ID +"	30	silt	tree20	400	0	30	100	20	tree5	200	30	5	100	20	0	ft	""
+WD	wepp-5432	"06:54 pm  Sunday December 5, 2010"	"SAINT MARIES ID +"	30	silt	tree20	400	0	30	100	20	tree5	30	30	5	100	20	0	ft	""
+WD	wepp-5437	"06:54 pm  Sunday December 5, 2010"	"SAINT MARIES ID +"	30	silt	tree20	400	0	30	100	20	tree5	800	30	5	100	20	0	ft	""
+WD	wepp-5442	"06:55 pm  Sunday December 5, 2010"	"SAINT MARIES ID +"	30	silt	tree20	400	0	30	100	20	tree5	1200	30	5	100	20	0	ft	""
+WD	wepp-5447	"06:55 pm  Sunday December 5, 2010"	"SAINT MARIES ID +"	30	silt	tree20	600	0	30	100	20	tree5	1200	30	5	100	20	0	ft	""
+WD	wepp-5453	"06:56 pm  Sunday December 5, 2010"	"SAINT MARIES ID +"	30	silt	tree20	800	0	30	100	20	tree5	1200	30	5	100	20	0	ft	""
+WD	wepp-5485	"06:56 pm  Sunday December 5, 2010"	"SAINT MARIES ID +"	30	silt	tree20	1200	0	30	100	20	tree5	1200	30	5	100	20	0	ft	""
+WD	wepp-5490	"06:57 pm  Sunday December 5, 2010"	"SAINT MARIES ID +"	30	silt	tree20	100	0	30	100	20	tree5	1200	30	5	100	20	0	ft	""
+WD	wepp-5496	"06:57 pm  Sunday December 5, 2010"	"SAINT MARIES ID +"	30	silt	tree20	30	0	30	100	20	tree5	1200	30	5	100	20	0	ft	""
+WD	wepp-5501	"06:58 pm  Sunday December 5, 2010"	"SAINT MARIES ID +"	30	silt	tree20	5	0	30	100	20	tree5	1200	30	5	100	20	0	ft	""
+WD	wepp-5506	"06:59 pm  Sunday December 5, 2010"	"SAINT MARIES ID +"	30	silt	tree20	30	0	35	100	20	tree5	1200	30	5	100	20	0	ft	""
+WD	wepp-5511	"06:59 pm  Sunday December 5, 2010"	"SAINT MARIES ID +"	30	silt	tree20	60	0	35	100	20	tree5	1200	30	5	100	20	0	ft	""
+WD	wepp-5535	"07:00 pm  Sunday December 5, 2010"	"SAINT MARIES ID +"	30	silt	tree20	200	0	35	100	20	tree5	1200	30	5	100	20	0	ft	""
+WD	wepp-5540	"07:00 pm  Sunday December 5, 2010"	"SAINT MARIES ID +"	30	silt	tree20	10	0	35	100	20	tree5	1200	30	5	100	20	0	ft	""
+WD	wepp-5573	"07:01 pm  Sunday December 5, 2010"	"SAINT MARIES ID +"	30	silt	tree20	10	0	45	100	20	tree5	1200	45	5	100	20	0	ft	""
+WD	wepp-5579	"07:02 pm  Sunday December 5, 2010"	"SAINT MARIES ID +"	30	silt	tree20	5	0	30	100	20	tree5	1200	30	5	100	20	0	ft	""
+WD	wepp-5611	"07:08 pm  Sunday December 5, 2010"	"SAINT MARIES ID +"	30	silt	high	400	0	30	45	20	high	30	30	5	45	20	0	ft	""

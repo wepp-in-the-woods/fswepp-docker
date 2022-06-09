@@ -1,0 +1,214 @@
+#Conifer species in Wenatchee Subseries arranged by (decreasing) expected percent cover	with successional roles and rated for potential Armillaria impact				
+#Subseries	Species	Role*	Average Expected Cover (%)	Potential Disease Impact
+#
+CH/DH	HSERAL	
+	TSHE	C	16.07	High if disturbed
+	ABAM	C	14.43	High if disturbed
+	PSME	S/C	11.68	High if disturbed
+	TSME	s/c	7.69	High
+	ABGR	s/c	5.76	High
+	LAOC	S	2.81	Low
+	PIMO	s	2.19	High in planted trees < 20 yrs old
+	THPL	s/c	1.65	High but low occurrence
+	PICO	a	1.21	Low
+	PIEN	a	0.92	High but low occurrence
+	ABLA	a	0.48	High but low occurrence
+	PIPO	a	0.35	Low
+	CHNO	a	0.20	High but low occurrence
+	ABPR	a	0.04	High but low occurrence
+CH/MH	HSERAL	
+	TSHE	C	18.04	High if disturbed
+	ABAM	C	12.83	High if disturbed
+	PSME	S/C	12.19	High if disturbed
+	ABGR	s/c	6.49	High
+	THPL	s/c	6.33	High
+	TSME	s/c	3.25	High
+	ABLA	s/c	1.93	High
+	LAOC	S	1.72	Low
+	PIMO	s	1.71	High in planted trees < 20 yrs old
+	PIEN	a	1.21	High but low occurrence
+	CHNO	a	0.76	High but low occurrence
+	PICO	a	0.57	Low
+	ABPR	a	0.57	High but low occurrence
+	PIPO	a	0.26	Low
+	PIAL	a	0.01	Low
+CH/WF	HCLIMAX	
+	ABAM	C	23.14	High
+	TSHE	C	22.62	High
+	PSME	s	10.08	Low
+	PIEN	s/c	7.92	High if disturbed
+	THPL	s/c	3.36	High if disturbed
+	ABLA	s/c	2.86	High if disturbed
+	ABPR	s	2.20	Low
+	LAOC	S	1.76	Low
+	PICO	a	0.88	Low
+	PIMO	a	0.66	High in planted trees < 20 yrs old
+	TSME	a	0.44	Low
+CH/WH	HSERAL	
+	THPL	C	32.00	High if disturbed
+	PSME	S/C	19.32	High if disturbed
+	ABGR	s/c	17.43	High if disturbed
+	TSHE	s/c	8.25	High if disturbed
+	PIEN	s/c	2.97	High if disturbed
+	LAOC	S	1.50	Low
+	PIMO	a	1.25	Low
+	PIPO	a	0.80	Low
+	ABAM	a	0.66	High but low occurrence
+	ABLA	a	0.16	High but low occurrence
+	PICO	a	0.16	Low
+CH/WS	HCLIMAX	
+	THPL	C	17.40	High
+	ABAM	C	15.60	High
+	TSHE	C	14.97	High
+	ABGR	s/c	9.60	High if disturbed
+	PSME	s	8.30	Low
+	PIEN	s/c	2.55	High if disturbed
+	PIMO	a	0.60	Low
+	TSME	a	0.27	Low
+ColdF/DG	LOW	
+	PSME	S/C	14.49	Low in this subseries
+	PICO	S	12.41	Low
+	ABLA	C	11.36	Low in this subseries
+	LAOC	S	10.38	Low
+	PIEN	s/c	7.83	Low in this subseries
+	ABGR	s/c	3.29	Low in this subseries
+	PIPO	a	0.13	Low
+	PIAL	a	0.03	Low
+	PIMO	a	0.03	Low
+ColdF/DH	HCLIMAX	
+	ABLA	C	19.60	High
+	PICO	S	8.02	Low
+	PIEN	s/c	6.08	High if disturbed
+	PSME	s	6.06	Low in this subseries
+	LAOC	S	3.20	Low
+	TSME	s/c	1.91	Low
+	CHNO	a	1.00	Low in this subseries
+	PIAL	a	0.88	Low
+	PIMO	a	0.71	Low in this subseries
+	ABAM	a	0.36	High but low occurrence
+	PIPO	a	0.28	Low
+	ABGR	a	0.12	Low in this subseries
+	TSHE	a	0.11	Low in this subseries
+	LALY	a	0.09	Low
+ColdF/DS	LOW	
+	PICO	S	14.81	Low
+	ABLA	C	13.19	Low in this subseries
+	PSME	S/C	9.07	Low in this subseries
+	PIEN	s/c	6.30	Low in this subseries
+	LALY	S	5.00	Low
+	PIAL	S	1.54	Low
+	LAOC	a	1.39	Low
+	ABGR	a	1.13	Low in this subseries
+	PIMO	a	0.84	Low
+	TSME	a	0.22	Low
+	PIPO	a	0.20	Low
+	ABAM	a	0.09	Low in this subseries
+	ABPR	a	0.04	Low
+ColdF/WF	HCLIMAX	
+	PIEN	C	45.00	High
+	ABLA	s/c	18.00	High where climax
+	PSME	s	12.50	Low in this subseries
+CoolF/DG	LOW	
+	TSME	C	16.55	Low in this subseries
+	ABGR	C	12.07	Low in this subseries
+	PSME	S/C	10.22	Low in this subseries
+	ABAM	s/c	7.47	Low in this subseries
+	ABLA	s/c	6.39	Low in this subseries
+	PICO	S	5.81	Low 
+	LAOC	S	3.62	Low
+	PIEN	s/c	2.35	Low in this subseries
+	PIPO	S	2.13	Low
+	PIMO	s	1.56	Low
+	TSHE	a	0.27	Low in this subseries
+	CHNO	a	0.23	Low
+CoolF/DH	HSERAL	
+	ABAM	C	19.36	High if disturbed
+	TSME	C	14.90	High if disturbed
+	PSME	s	8.13	High
+	ABLA	s/c	6.38	High
+	ABGR	s/c	3.11	High
+	PICO	S	2.61	Low
+	PIEN	s/c	2.06	High
+	PIPO	a	1.40	Low
+	PIMO	a	1.35	Low
+	TSHE	a	1.26	High but low occurrence
+	LAOC	a	0.66	Low
+	CHNO	a	0.50	Low
+	PIAL	a	0.14	Low
+	ABPR	a	0.04	Low
+	THPL	a	0.01	High but low occurrence
+CoolF/DS	LOW	
+	PSME	S/C	29.61	Low in this subseries
+	ABGR	s/c	9.97	Low in this subseries
+	PIPO	S	7.82	Low
+	PICO	S	4.01	Low
+	TSME	s/c	3.13	Low in this subseries
+	LAOC	S	2.03	Low
+	PIMO	a	0.64	Low
+	ABAM	a	0.52	Low in this subseries
+	CHNO	a	0.37	Low
+	PIEN	a	0.36	Low in this subseries
+	PIAL	a	0.27	Low
+	ABLA	a	0.22	Low in this subseries
+	THPL	a	0.05	Low in this subseries
+	TSHE	a	0.01	Low in this subseries
+CoolF/MH	HSERAL	
+	ABGR	C	31.83	High if disturbed
+	PSME	S/C	31.21	High if disturbed
+	PIPO	S	2.10	Low
+	LAOC	S	1.60	Low
+	PICO	a	1.25	Low
+	PIEN	a	0.91	High but low occurrence
+	PIMO	a	0.79	Low
+	THPL	a	0.28	High but low occurrence
+	ABLA	a	0.08	High but low occurrence
+	TSHE	a	0.03	High but low occurrence
+CoolP/DG	LOW	
+	LALY	S	9.64	Low in this subseries
+	PIAL	S	7.05	Low in this subseries
+	PIEN	s/c	2.74	Low in this subseries
+	ABLA	s/c	2.05	Low in this subseries
+	TSME	a	0.39	Low
+	PSME	a	0.04	Low
+	CHNO	a	0.01	Low
+CoolP/DS	LOW	
+	PIAL	S	21.50	Low
+	ABLA	s/c	4.06	Low in this subseries
+	PSME	s	2.38	Low in this subseries
+	PIEN	a	0.98	Low in this subseries
+	TSME	a	0.57	Low
+	PIPO	a	0.07	Low
+	ABAM	a	0.03	Low in this subseries
+DF/DG	LOW	
+	PSME	S/C	18.89	Low in this subseries
+	PIPO	S	16.10	Low
+	ABGR	a	0.04	Low in this subseries
+	PIMO	a	0.04	Low
+DF/DH	HCLIMAX	
+	PSME	S/C	20.39	High
+	PICO	S	11.10	Low
+	PIPO	S	9.98	Low
+	PIEN	s/c	4.40	High
+	LAOC	S	1.97	Low
+	TSHE	a	0.94	High but low occurrence
+	PIMO	a	0.67	Low
+	ABLA	a	0.40	High but low occurrence
+	ABGR	a	0.26	High but low occurrence
+	ABAM	a	0.03	High but low occurrence
+	TSME	a	0.03	Low
+DF/DS	LOW	
+	PSME	S/C	24.57	Low in this subseries
+	PIPO	S	11.91	Low
+	PICO	S	6.01	Low
+	PIEN	s/c	1.93	Low in this subseries
+	LAOC	a	0.93	Low
+	ABLA	a	0.46	Low in this subseries
+	ABGR	a	0.30	Low in this subseries
+	PIMO	a	0.06	Low
+	CHNO	a	0.03	Low
+PP/DG	LOW	
+	PIPO	S	19.62	Low
+	PSME	a	0.20	Low
+PP/DS	LOW	
+	PIPO	S	33.00	Low
+	PSME	a	0.58	Low

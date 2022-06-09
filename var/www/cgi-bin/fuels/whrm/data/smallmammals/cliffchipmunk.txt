@@ -1,0 +1,72 @@
+#this files was modified by filegenwhrm.pl on: Wednesday, March 16, 2005.
+#taxgroup Small Mammals species Cliff chipmunk /  Tamias corsalis
+#
+# Rank
+3,1,1,2,1
+# Nestsite
+8,1:13,1
+# Reprorank
+1,-99:1,-99
+# Foraging Habitat
+8,1:13,1
+# Habitatrank
+1,-99:1,-99
+# Forage/Prey Availability
+2,1:3,1:4,1
+# Preyrank
+1,-99:2,-99:2,-99
+# Predator Avoidance
+8,1:13,1
+# Avoidrank
+1,-99:1,-99
+# Refugia/Shelter
+8,1:13,1
+# Shelterrank
+1,-99:1,-99
+# Coverrank
+1,-99:1,-99
+# Literature
+Distribution
+eastern Nevada, Utah, Arizona, northeast Colorado
+General Habitat
+extensive conifer forests, including PP- but only when large rocks or cliffs are present; pinyon pine-juniper slopes
+Home or Activity Range
+no information available
+Canopy Cover
+No information available
+Specific Habitat Preferences
+open sunny forests with an abundance of herbaceous and shrubby plants and many logs, snags, stumps, rocks and cliffs
+Nestsite Characteristics
+underground, in old logs, rocks, and cavities in snags
+Foraging Habitat Characteristics
+logs, debris, snags, well developed shrubby and herbaceous layers, rocky habitats, areas with cone-producing trees
+Diet
+omnivores: seeds, nuts, fruits, bulbs, roots, herbiage, insects, other animal matter
+Predators
+snags, downed logs and woody debris for predator avoidance
+Shelter Habitats
+No information available
+Response to Disturbance
+highest density on intensely thinned PIPO stands (Goodwin and Hungerford 1979)
+Sources of Information used in the Model
+Reynolds et al. 1992, Rompola and Anderson 2004
+General Sources of Background Information
+Goodwin and Hungerford 1979, Burt 1980, reviewed in Reynolds et al. 1992, Rompola and Anderson 2004
+Summaries of Specific Studies
+Goodwin, John G. Jr.; Hungerford, C. Roger. 1979. Rodent population densities and food habits in Arizona ponderosa pine forests. Res.Pap. RM-214. Fort Collins, CO: USDA, Forest Service, Rocky Mountain Forest and Range Experimental Station. 12p.
+
+Study Location:  Coconino National Forest, Arizona
+Habitat Description:  PIPO
+Summary:  Small mammals were trapped in PIPO forest stands that had undergone a variety of treatments, including strip shelterwood cutting, clear-cutting, severe thinning, and no treatment. Habitat relationships and diet composition are given for a variety of small mammals. The populations of some small mammals, particularly deer mice, were higher on treated plots than untreated plots; the presence of slash and other debris as well as the prevalence of food items (forbs and grasses) seems to be responsible for this pattern.
+
+Reynolds, Richard T.; Graham, Russell T.; Reiser, M. Hildegard, Bassett, Richard L.; Kennedy, Patricia L.; Boyce, Douglas A.; Goodwin, Greg; Smith, Randall; Fisher, E. Leon. 1992. Management recommendations for the Northern Goshawk in the southwestern United States. Gen. Tech. Rep. RM-217. Fort Collins, CO: USDA, Forest Service, Rocky Mountain Forest and Range Experiment Station. 90 p.
+
+Study Location:  review
+Habitat Description:  review
+Summary:  Habitat needs of a variety of northern goshawk prey are identified by a literature review. Management recommendations are made in regard to nesting, foraging, and other life history attributes.
+
+Rompola, Kevin M.; Anderson, Stanley H. 2004. Habitat of three rare species of small mammals in juniper woodlands of southwestern Wyoming. Western North American Naturalist. 64(1): 86-92.
+
+Study Location:  southwestern Wyoming
+Habitat Description:  juniper, big sagebrush, pinyon pine, mountain mahogany
+Summary: Habitat characteristics were identified for cliff chipmunks, pinyon mice and canyon mice in a juniper-pinyon pine woodland. Cliff chipmunks were present in rocky slopes and cliffs where grasses and forbs were abundant for foraging. Pinyon mouse densities were related to rocky slopes and cliffs, in areas where canopy closure was high and forb density was low, though the authors believed in general that pinyon mice in their study area were occupying sub-optimal habitat. 

@@ -1,0 +1,20 @@
+WR	wepp-21865	"10:51 pm  Wednesday November 28, 2012"	"BIRMINGHAM WB AP AL"	30	silt	native	200	4	13	15	50	1	25	20	inveg	ft
+WR	wepp-21961	"10:57 pm  Wednesday November 28, 2012"	"SAINT MARIES ID +"	30	silt	native	200	4	13	15	50	1	25	20	inveg	ft
+WR	wepp-21986	"10:59 pm  Wednesday November 28, 2012"	"SAINT MARIES ID +"	30	silt	native	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-22057	"11:01 pm  Wednesday November 28, 2012"	"SAINT MARIES ID +"	30	silt	paved	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-22124	"11:08 pm  Wednesday November 28, 2012"	"SAINT MARIES ID +"	30	silt	paved	200	4	13	15	50	40	25	20	inbare	ft
+WR	wepp-22146	"11:08 pm  Wednesday November 28, 2012"	"SAINT MARIES ID +"	30	silt	paved	200	4	13	15	50	44	25	20	inbare	ft
+WR	wepp-22165	"11:08 pm  Wednesday November 28, 2012"	"SAINT MARIES ID +"	30	silt	paved	200	4	13	15	50	49	25	20	inbare	ft
+WR	wepp-22187	"11:08 pm  Wednesday November 28, 2012"	"SAINT MARIES ID +"	30	silt	paved	200	4	13	15	50	47	25	20	inbare	ft
+WR	wepp-22207	"11:09 pm  Wednesday November 28, 2012"	"SAINT MARIES ID +"	30	silt	paved	200	4	13	15	50	46	25	20	inbare	ft
+WR	wepp-22227	"11:09 pm  Wednesday November 28, 2012"	"SAINT MARIES ID +"	30	silt	paved	200	4	13	15	50	45	25	20	inbare	ft
+WR	wepp-22249	"11:10 pm  Wednesday November 28, 2012"	"SAINT MARIES ID +"	30	silt	graveled	200	4	13	15	50	1	25	20	outunrut	ft
+WR	wepp-22330	"11:15 pm  Wednesday November 28, 2012"	"SAINT MARIES ID +"	30	silt	paved	200	4	13	15	50	1	25	20	inbare	ft
+WD	wepp-22677	"11:47 pm  Wednesday November 28, 2012"	"SAINT MARIES ID +"	10	silt	OldForest	400	0	30	100	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-22713	"11:51 pm  Wednesday November 28, 2012"	"SAINT MARIES ID +"	10	silt	YoungForest	400	0	30	100	20	YoungForest	75	30	5	100	20	0	ft	""
+WD	wepp-22762	"11:52 pm  Wednesday November 28, 2012"	"SAINT MARIES ID +"	10	silt	Bunchgrass	400	0	30	60	20	YoungForest	75	30	5	100	20	0	ft	""
+WD	wepp-22816	"11:56 pm  Wednesday November 28, 2012"	"SAINT MARIES ID +"	10	silt	Bunchgrass	400	0	30	60	20	YoungForest	30	30	5	100	20	0	ft	""
+WD	wepp-22865	"11:58 pm  Wednesday November 28, 2012"	"SAINT MARIES ID +"	10	silt	HighFire	400	0	30	45	20	LowFire	30	30	5	85	20	0	ft	""
+WD	wepp-22888	"11:59 pm  Wednesday November 28, 2012"	"SAINT MARIES ID +"	10	silt	HighFire	400	0	30	45	20	HighFire	30	30	5	45	20	0	ft	""
+WD	wepp-16023	"00:18 am  Friday November 30, 2012"	"SAINT MARIES ID +"	10	clay	HighFire	50	0	30	45	20	LowFire	50	30	5	85	20	0	ft	""
+WD	wepp-16043	"00:19 am  Friday November 30, 2012"	"SAINT MARIES ID +"	10	clay	HighFire	50	0	30	45	20	LowFire	70	30	5	85	20	0	ft	""

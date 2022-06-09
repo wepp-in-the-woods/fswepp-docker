@@ -1,0 +1,236 @@
+wt	wepp-12278	"Apr 25, 2011"	"TROUT CREEK RS MT 38.83+ +"	granitic	HighFire	0	30	50	45	20	LowFire	30	5	50	85	10	ft	""
+wt	wepp-7504	"May 26, 2011"	"TROUT CREEK RS MT 38.83+ +"	granitic	HighRoad	4	4	200	10	20	YoungForest	20	15	50	100	20	ft	""
+wt	wepp-7530	"May 26, 2011"	"HAGEN'S MEADOW CA SNOTEL"	granitic	HighRoad	0	30	200	10	20	YoungForest	30	5	50	100	20	ft	""
+WR	wepp-14797	"11:40 am  Friday June 3, 2011"	"HAGEN'S MEADOW CA SNOTEL"	30	sand	native	400	4	15	15	50	130	25	20	outrut	ft
+wt	wepp-25882	"Jun 9, 2011"	"HAGEN'S MEADOW CA SNOTEL"	granitic	LowRoad	10	30	50	10	20	YoungForest	30	5	50	100	20	ft	""
+wt	wepp-25247	"Jul 6, 2011"	"HAGEN'S MEADOW CA SNOTEL"	granitic	LowRoad	12.8	12.8	15	10	20	OldForest	28.1	28.1	162	100	20	ft	"Segment 3"
+WR	wepp-25427	"10:59 am  Wednesday July 6, 2011"	"HAGEN'S MEADOW CA SNOTEL"	30	sand	native	155	12.8	15	1	28.1	161	28.1	20	inbare	ft
+wt	wepp-25482	"Jul 6, 2011"	"HAGEN'S MEADOW CA SNOTEL"	granitic	LowRoad	12.8	12.8	170	10	20	OldForest	28.1	28.1	162	100	20	ft	"Segment 3"
+WR	wepp-25533	"11:09 am  Wednesday July 6, 2011"	"HAGEN'S MEADOW CA SNOTEL"	30	sand	native	155	12.8	15	161	28.1	130	2.1	20	inbare	ft
+wt	wepp-25538	"Jul 6, 2011"	"HAGEN'S MEADOW CA SNOTEL"	granitic	LowRoad	12.8	12.8	170	10	20	OldForest	28.1	28.1	162	100	20	ft	"Segment 3"
+wt	wepp-26461	"Jul 6, 2011"	"HEAVENLY VALLEY CA"	granitic	OldForest	0	30	50	100	20	YoungForest	30	5	50	100	20	ft	""
+WR	wepp-27017	"02:02 pm  Wednesday July 6, 2011"	"HAGEN'S MEADOW CA SNOTEL"	10	sand	native	200	12.8	15	50	28.1	130	28.1	20	inbare	ft
+wt	wepp-27261	"Jul 6, 2011"	"HEAVENLY VALLEY CA"	granitic	LowRoad	16	16	215	10	20	OldForest	26	26	200	100	20	ft	""
+wt	wepp-27281	"Jul 6, 2011"	"HAGEN'S MEADOW CA SNOTEL"	granitic	LowRoad	16	16	215	10	20	OldForest	26	26	200	100	20	ft	""
+wt	wepp-27465	"Jul 6, 2011"	"HAGEN'S MEADOW CA SNOTEL"	granitic	LowRoad	16	16	215	10	20	YoungForest	26	26	200	100	20	ft	""
+wt	wepp-27942	"Jul 6, 2011"	"HAGEN'S MEADOW CA SNOTEL"	granitic	LowRoad	16	16	215	10	20	YoungForest	26	26	200	100	20	ft	""
+WR	wepp-28356	"04:09 pm  Wednesday July 6, 2011"	"HAGEN'S MEADOW CA SNOTEL"	30	sand	native	250	13.8	15	1	50	250	34.4	20	inbare	ft
+WR	wepp-28367	"04:11 pm  Wednesday July 6, 2011"	"HAGEN'S MEADOW CA SNOTEL"	30	sand	native	250	13.8	15	1	50	250	34.4	20	inveg	ft
+WR	wepp-28373	"04:11 pm  Wednesday July 6, 2011"	"HAGEN'S MEADOW CA SNOTEL"	30	sand	native	250	13.8	15	1	50	250	34.4	20	outrut	ft
+WR	wepp-28388	"04:12 pm  Wednesday July 6, 2011"	"HAGEN'S MEADOW CA SNOTEL"	30	sand	graveled	250	13.8	15	1	50	250	34.4	20	inbare	ft
+WR	wepp-28394	"04:12 pm  Wednesday July 6, 2011"	"HAGEN'S MEADOW CA SNOTEL"	30	sand	graveled	250	13.8	15	1	50	250	34.4	20	inveg	ft
+WR	wepp-28400	"04:13 pm  Wednesday July 6, 2011"	"HAGEN'S MEADOW CA SNOTEL"	30	sand	graveled	250	13.8	15	1	50	250	34.4	20	outrut	ft
+WR	wepp-28406	"04:14 pm  Wednesday July 6, 2011"	"HEAVENLY VALLEY CA"	30	sand	native	250	13.8	15	1	50	250	34.4	20	inbare	ft
+WR	wepp-28458	"04:18 pm  Wednesday July 6, 2011"	"HEAVENLY VALLEY CA"	30	sand	native	250	13.8	15	1	50	250	34.4	20	inbare	ft
+WR	wepp-28648	"04:30 pm  Wednesday July 6, 2011"	"HEAVENLY VALLEY CA"	30	sand	native	250	13.8	15	1	50	250	34.4	20	inveg	ft
+WR	wepp-28655	"04:30 pm  Wednesday July 6, 2011"	"HEAVENLY VALLEY CA"	30	sand	native	250	13.8	15	1	50	250	34.4	20	outrut	ft
+WR	wepp-28732	"04:38 pm  Wednesday July 6, 2011"	"FALLEN LEAF CA SNOTEL"	30	sand	native	250	13.8	15	1	50	250	34.4	20	inbare	ft
+WR	wepp-28738	"04:39 pm  Wednesday July 6, 2011"	"FALLEN LEAF CA SNOTEL"	30	sand	native	250	13.8	15	1	50	250	34.4	20	inveg	ft
+WR	wepp-28771	"04:39 pm  Wednesday July 6, 2011"	"FALLEN LEAF CA SNOTEL"	30	sand	native	250	13.8	15	1	50	250	34.4	20	outrut	ft
+WR	wepp-28781	"04:42 pm  Wednesday July 6, 2011"	"HAGEN'S MEADOW CA SNOTEL"	30	sand	native	250	22	15	1	50	250	34.4	20	inbare	ft
+WR	wepp-28787	"04:42 pm  Wednesday July 6, 2011"	"HAGEN'S MEADOW CA SNOTEL"	30	sand	native	200	13.8	15	1	50	250	34.4	20	inbare	ft
+WR	wepp-28794	"04:43 pm  Wednesday July 6, 2011"	"HAGEN'S MEADOW CA SNOTEL"	30	sand	native	300	13.8	15	1	50	250	34.4	20	inbare	ft
+WR	wepp-11624	"06:37 pm  Thursday July 7, 2011"	"HAGEN'S MEADOW CA SNOTEL"	30	sand	native	200	16	15	5	50	130	25	20	outrut	ft
+WR	wepp-11629	"06:40 pm  Thursday July 7, 2011"	"HAGEN'S MEADOW CA SNOTEL"	30	sand	graveled	200	16	15	5	50	130	25	20	inbare	ft
+WR	wepp-11634	"06:41 pm  Thursday July 7, 2011"	"HAGEN'S MEADOW CA SNOTEL"	30	sand	graveled	200	16	15	5	50	130	25	20	inveg	ft
+WR	wepp-11682	"06:42 pm  Thursday July 7, 2011"	"HAGEN'S MEADOW CA SNOTEL"	30	sand	native	200	16	15	5	50	130	25	20	inbare	ft
+WR	wepp-551	"06:44 pm  Monday July 11, 2011"	"HAGEN'S MEADOW CA SNOTEL"	30	sand	native	200	4	13	15	50	130	25	20	outrut	ft
+WR	wepp-604	"06:45 pm  Monday July 11, 2011"	"HAGEN'S MEADOW CA SNOTEL"	30	sand	native	200	4	13	15	50	130	25	20	outrut	ft
+WR	wepp-641	"06:51 pm  Monday July 11, 2011"	"HAGEN'S MEADOW CA SNOTEL"	30	sand	native	200	16	15	5	50	130	25	20	outrut	ft
+WR	wepp-12644	"01:49 pm  Tuesday July 12, 2011"	"HAGEN'S MEADOW CA SNOTEL"	30	clay	graveled	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-12650	"01:50 pm  Tuesday July 12, 2011"	"HAGEN'S MEADOW CA SNOTEL"	30	sand	graveled	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-12800	"02:03 pm  Tuesday July 12, 2011"	"HAGEN'S MEADOW CA SNOTEL"	30	sand	native	200	4	13	15	50	130	25	40	inveg	ft
+WR	wepp-12810	"02:03 pm  Tuesday July 12, 2011"	"HAGEN'S MEADOW CA SNOTEL"	30	sand	native	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-12817	"02:04 pm  Tuesday July 12, 2011"	"HAGEN'S MEADOW CA SNOTEL"	30	sand	native	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-12823	"02:04 pm  Tuesday July 12, 2011"	"HAGEN'S MEADOW CA SNOTEL"	30	sand	graveled	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-12835	"02:04 pm  Tuesday July 12, 2011"	"HAGEN'S MEADOW CA SNOTEL"	30	sand	graveled	200	4	13	15	50	130	25	40	inveg	ft
+WR	wepp-12846	"02:05 pm  Tuesday July 12, 2011"	"HAGEN'S MEADOW CA SNOTEL"	30	sand	graveled	200	15	13	15	50	130	25	20	inveg	ft
+WR	wepp-12851	"02:05 pm  Tuesday July 12, 2011"	"HAGEN'S MEADOW CA SNOTEL"	30	sand	graveled	200	15	13	15	50	130	25	40	inveg	ft
+WR	wepp-12861	"02:06 pm  Tuesday July 12, 2011"	"HAGEN'S MEADOW CA SNOTEL"	30	sand	graveled	200	15	13	15	50	130	25	20	inveg	ft
+WR	wepp-12893	"02:06 pm  Tuesday July 12, 2011"	"HAGEN'S MEADOW CA SNOTEL"	30	sand	native	200	15	13	15	50	130	25	20	inveg	ft
+WR	wepp-12898	"02:06 pm  Tuesday July 12, 2011"	"HAGEN'S MEADOW CA SNOTEL"	30	sand	native	200	15	13	15	50	130	25	40	inveg	ft
+wt	wepp-12925	"Jul 12, 2011"	"HEAVENLY VALLEY CA"	granitic	LowRoad	0	30	50	10	42.5	YoungForest	30	5	50	100	20	ft	""
+WR	wepp-13271	"02:36 pm  Tuesday July 12, 2011"	"HAGEN'S MEADOW CA SNOTEL"	100	sand	native	200	15	15	15	50	130	25	20	outrut	ft
+WR	wepp-13279	"02:40 pm  Tuesday July 12, 2011"	"HAGEN'S MEADOW CA SNOTEL"	100	sand	native	200	13.8	15	1	50	130	34.4	20	inbare	ft
+WR	wepp-13285	"02:40 pm  Tuesday July 12, 2011"	"HAGEN'S MEADOW CA SNOTEL"	100	sand	native	200	13.8	15	1	50	250	34.4	20	inbare	ft
+WR	wepp-13322	"02:43 pm  Tuesday July 12, 2011"	"HAGEN'S MEADOW CA SNOTEL"	30	sand	native	200	13.8	15	1	50	250	34.4	20	inbare	ft
+WR	wepp-13328	"02:44 pm  Tuesday July 12, 2011"	"HAGEN'S MEADOW CA SNOTEL"	10	sand	native	200	13.8	15	1	50	250	34.4	20	inbare	ft
+WR	wepp-13354	"02:45 pm  Tuesday July 12, 2011"	"HAGEN'S MEADOW CA SNOTEL"	1	sand	native	200	13.8	15	1	50	250	34.4	20	inbare	ft
+WR	wepp-13360	"02:46 pm  Tuesday July 12, 2011"	"HAGEN'S MEADOW CA SNOTEL"	60	sand	native	200	13.8	15	1	50	250	34.4	20	inbare	ft
+WR	wepp-13393	"02:46 pm  Tuesday July 12, 2011"	"HAGEN'S MEADOW CA SNOTEL"	18	sand	native	200	13.8	15	1	50	250	34.4	20	inbare	ft
+WR	wepp-13399	"02:47 pm  Tuesday July 12, 2011"	"HAGEN'S MEADOW CA SNOTEL"	50	sand	native	200	13.8	15	1	50	250	34.4	20	inbare	ft
+WR	wepp-13437	"02:54 pm  Tuesday July 12, 2011"	"HAGEN'S MEADOW CA SNOTEL"	25	sand	native	200	13.8	15	1	50	250	34.4	20	inbare	ft
+WR	wepp-13443	"02:55 pm  Tuesday July 12, 2011"	"HAGEN'S MEADOW CA SNOTEL"	20	sand	native	200	13.8	15	1	50	250	34.4	20	inbare	ft
+WR	wepp-13449	"02:55 pm  Tuesday July 12, 2011"	"HAGEN'S MEADOW CA SNOTEL"	40	sand	native	200	13.8	15	1	50	250	34.4	20	inbare	ft
+WR	wepp-13482	"02:57 pm  Tuesday July 12, 2011"	"HAGEN'S MEADOW CA SNOTEL"	35	sand	native	200	13.8	15	1	50	250	34.4	20	inbare	ft
+WR	wepp-13488	"02:58 pm  Tuesday July 12, 2011"	"HAGEN'S MEADOW CA SNOTEL"	28	sand	native	200	13.8	15	1	50	250	34.4	20	inbare	ft
+WR	wepp-13494	"02:59 pm  Tuesday July 12, 2011"	"HAGEN'S MEADOW CA SNOTEL"	26	sand	native	200	13.8	15	1	50	250	34.4	20	inbare	ft
+WR	wepp-13519	"03:00 pm  Tuesday July 12, 2011"	"HAGEN'S MEADOW CA SNOTEL"	27	sand	native	200	13.8	15	1	50	250	34.4	20	inbare	ft
+WR	wepp-13772	"03:18 pm  Tuesday July 12, 2011"	"HAGEN'S MEADOW CA SNOTEL"	30	clay	native	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-13878	"03:26 pm  Tuesday July 12, 2011"	"HAGEN'S MEADOW CA SNOTEL"	22	sand	native	200	13.8	15	1	50	250	34.4	20	inbare	ft
+WR	wepp-15938	"03:53 pm  Tuesday July 12, 2011"	"HAGEN'S MEADOW CA SNOTEL"	21	sand	native	200	13.8	15	1	50	250	34.4	20	inbare	ft
+wt	wepp-4577	"Jul 27, 2011"	"HAGEN'S MEADOW CA SNOTEL"	granitic	LowRoad	20	20	200	10	20	OldForest	35	35	250	100	20	ft	""
+wt	wepp-4597	"Jul 27, 2011"	"HAGEN'S MEADOW CA SNOTEL"	granitic	LowRoad	20	20	200	10	20	OldForest	35	35	250	100	20	ft	""
+wt	wepp-4617	"Jul 27, 2011"	"HAGEN'S MEADOW CA SNOTEL"	granitic	LowRoad	20	20	200	10	20	YoungForest	35	35	250	100	20	ft	""
+wt	wepp-4683	"Jul 27, 2011"	"HAGEN'S MEADOW CA SNOTEL"	granitic	LowRoad	20	20	200	10	20	YoungForest	35	35	250	100	20	ft	""
+wt	wepp-4703	"Jul 27, 2011"	"HAGEN'S MEADOW CA SNOTEL"	granitic	LowRoad	20	20	200	10	20	YoungForest	35	35	250	100	20	ft	""
+wt	wepp-4843	"Jul 27, 2011"	"HAGEN'S MEADOW CA SNOTEL"	granitic	LowRoad	20	20	100	10	20	YoungForest	35	35	250	100	20	ft	""
+wt	wepp-5045	"Jul 27, 2011"	"HAGEN'S MEADOW CA SNOTEL"	granitic	LowRoad	20	20	200	10	20	YoungForest	35	35	250	100	20	ft	""
+wt	wepp-8249	"Jul 27, 2011"	"HAGEN'S MEADOW CA SNOTEL"	alluvial	LowRoad	4	4	200	10	20	YoungForest	20	15	50	100	20	ft	""
+wt	wepp-8307	"Jul 27, 2011"	"HAGEN'S MEADOW CA SNOTEL"	alluvial	LowRoad	4	4	200	10	20	OldForest	20	15	200	100	20	ft	""
+wt	wepp-8425	"Jul 27, 2011"	"HAGEN'S MEADOW CA SNOTEL"	granitic	LowRoad	4	4	200	10	20	OldForest	20	15	200	100	20	ft	""
+wt	wepp-8465	"Jul 27, 2011"	"HAGEN'S MEADOW CA SNOTEL"	rockpave	LowRoad	4	4	200	10	50	OldForest	20	15	200	100	20	ft	""
+wt	wepp-8509	"Jul 27, 2011"	"HAGEN'S MEADOW CA SNOTEL"	volcanic	LowRoad	4	4	200	10	50	OldForest	20	15	200	100	20	ft	""
+wt	wepp-8548	"Jul 27, 2011"	"HAGEN'S MEADOW CA SNOTEL"	granitic	LowRoad	4	4	200	10	50	OldForest	20	15	200	100	20	ft	""
+wt	wepp-8593	"Jul 27, 2011"	"HAGEN'S MEADOW CA SNOTEL"	alluvial	LowRoad	4	4	200	10	50	OldForest	20	15	200	100	20	ft	""
+wt	wepp-8635	"Jul 27, 2011"	"HAGEN'S MEADOW CA SNOTEL"	rockpave	LowRoad	4	4	200	10	50	OldForest	20	15	200	100	20	ft	""
+wt	wepp-9686	"Jul 27, 2011"	"HAGEN'S MEADOW CA SNOTEL"	alluvial	Skid	4	4	200	10	50	OldForest	20	15	200	100	20	ft	""
+wt	wepp-10112	"Jul 27, 2011"	"HAGEN'S MEADOW CA SNOTEL"	alluvial	LowRoad	10	10	200	10	20	OldForest	30	30	200	100	20	ft	""
+wt	wepp-10132	"Jul 27, 2011"	"HAGEN'S MEADOW CA SNOTEL"	alluvial	LowRoad	10	10	200	10	20	OldForest	30	30	200	100	20	ft	""
+wt	wepp-10230	"Jul 27, 2011"	"HAGEN'S MEADOW CA SNOTEL"	rockpave	LowRoad	10	10	200	10	50	OldForest	30	30	200	100	20	ft	""
+wt	wepp-10288	"Jul 27, 2011"	"HAGEN'S MEADOW CA SNOTEL"	volcanic	LowRoad	10	10	200	10	50	OldForest	30	30	200	100	20	ft	""
+wt	wepp-10308	"Jul 27, 2011"	"HAGEN'S MEADOW CA SNOTEL"	alluvial	LowRoad	15	15	200	10	50	OldForest	30	30	200	100	20	ft	""
+wt	wepp-10355	"Jul 27, 2011"	""			0	0	0	0	0		0	0	0	0	0		""
+wt	wepp-10356	"Jul 27, 2011"	"HAGEN'S MEADOW CA SNOTEL"	volcanic	LowRoad	15	15	200	10	50	OldForest	30	30	200	100	20	ft	""
+wt	wepp-10376	"Jul 27, 2011"	"HAGEN'S MEADOW CA SNOTEL"	rockpave	LowRoad	15	15	200	10	50	OldForest	30	30	200	100	20	ft	""
+wt	wepp-10396	"Jul 27, 2011"	"HAGEN'S MEADOW CA SNOTEL"	volcanic	LowRoad	15	15	200	10	50	OldForest	30	30	200	100	20	ft	""
+wt	wepp-10416	"Jul 27, 2011"	"HAGEN'S MEADOW CA SNOTEL"	volcanic	LowRoad	10	10	200	10	50	OldForest	30	30	200	100	20	ft	""
+wt	wepp-10465	"Jul 27, 2011"	"HAGEN'S MEADOW CA SNOTEL"	granitic	LowRoad	10	10	200	10	50	OldForest	30	30	200	100	20	ft	""
+wt	wepp-10504	"Jul 27, 2011"	"HAGEN'S MEADOW CA SNOTEL"	granitic	LowRoad	15	15	200	10	50	OldForest	30	30	200	100	20	ft	""
+wt	wepp-10551	"Jul 27, 2011"	"HAGEN'S MEADOW CA SNOTEL"	granitic	LowRoad	20	20	200	10	50	OldForest	30	30	200	100	20	ft	""
+wt	wepp-10571	"Jul 27, 2011"	"HAGEN'S MEADOW CA SNOTEL"	volcanic	LowRoad	20	20	200	10	50	OldForest	30	30	200	100	20	ft	""
+wt	wepp-10591	"Jul 27, 2011"	"HAGEN'S MEADOW CA SNOTEL"	alluvial	LowRoad	20	20	200	10	50	OldForest	30	30	200	100	20	ft	""
+wt	wepp-10611	"Jul 27, 2011"	"HAGEN'S MEADOW CA SNOTEL"	alluvial	LowRoad	20	20	200	10	50	OldForest	30	30	200	100	20	ft	""
+wt	wepp-10631	"Jul 27, 2011"	"HAGEN'S MEADOW CA SNOTEL"	alluvial	LowRoad	20	20	200	10	50	OldForest	30	30	200	100	20	ft	""
+wt	wepp-10651	"Jul 27, 2011"	"HAGEN'S MEADOW CA SNOTEL"	rockpave	LowRoad	20	20	200	10	50	OldForest	30	30	200	100	20	ft	""
+wt	wepp-10699	"Jul 27, 2011"	"HAGEN'S MEADOW CA SNOTEL"	rockpave	LowRoad	25	25	200	10	50	OldForest	30	30	200	100	20	ft	""
+wt	wepp-10747	"Jul 27, 2011"	"HAGEN'S MEADOW CA SNOTEL"	alluvial	LowRoad	25	25	200	10	50	OldForest	30	30	200	100	20	ft	""
+wt	wepp-10767	"Jul 27, 2011"	"HAGEN'S MEADOW CA SNOTEL"	volcanic	LowRoad	25	25	200	10	50	OldForest	30	30	200	100	20	ft	""
+wt	wepp-10788	"Jul 27, 2011"	"HAGEN'S MEADOW CA SNOTEL"	volcanic	LowRoad	25	25	200	10	50	OldForest	30	30	200	100	20	ft	""
+wt	wepp-10808	"Jul 27, 2011"	"HAGEN'S MEADOW CA SNOTEL"	granitic	LowRoad	25	25	200	10	50	OldForest	30	30	200	100	20	ft	""
+wt	wepp-10932	"Jul 27, 2011"	"HAGEN'S MEADOW CA SNOTEL"	volcanic	LowRoad	5	5	3	10	50	OldForest	20	20	3	100	20	ft	""
+wt	wepp-10952	"Jul 27, 2011"	"HAGEN'S MEADOW CA SNOTEL"	rockpave	LowRoad	5	5	3	10	50	OldForest	20	20	3	100	20	ft	""
+wt	wepp-10973	"Jul 27, 2011"	"HAGEN'S MEADOW CA SNOTEL"	rockpave	LowRoad	5	5	200	10	50	OldForest	20	20	3	100	20	ft	""
+wt	wepp-10993	"Jul 27, 2011"	"HAGEN'S MEADOW CA SNOTEL"	volcanic	LowRoad	5	5	200	10	50	OldForest	20	20	3	100	20	ft	""
+wt	wepp-11013	"Jul 27, 2011"	"HAGEN'S MEADOW CA SNOTEL"	volcanic	LowRoad	5	5	200	10	50	OldForest	10	10	3	100	20	ft	""
+wt	wepp-11060	"Jul 27, 2011"	"HAGEN'S MEADOW CA SNOTEL"	rockpave	LowRoad	5	5	200	10	50	OldForest	10	10	3	100	20	ft	""
+WR	wepp-11160	"04:54 pm  Wednesday July 27, 2011"	"HAGEN'S MEADOW CA SNOTEL"	20	sand	native	200	10	14	1	30	199	30	20	inbare	ft
+WR	wepp-11289	"05:01 pm  Wednesday July 27, 2011"	"HAGEN'S MEADOW CA SNOTEL"	20	sand	graveled	200	10	14	1	30	199	30	20	inbare	ft
+WR	wepp-11321	"05:06 pm  Wednesday July 27, 2011"	"HAGEN'S MEADOW CA SNOTEL"	20	sand	graveled	200	10	14	1	30	199	30	20	inveg	ft
+WR	wepp-11327	"05:07 pm  Wednesday July 27, 2011"	"HAGEN'S MEADOW CA SNOTEL"	20	sand	native	200	10	14	1	30	199	30	20	inveg	ft
+WR	wepp-11332	"05:08 pm  Wednesday July 27, 2011"	"HAGEN'S MEADOW CA SNOTEL"	20	sand	native	200	15	14	1	30	199	30	20	inveg	ft
+WR	wepp-11338	"05:09 pm  Wednesday July 27, 2011"	"HAGEN'S MEADOW CA SNOTEL"	20	sand	native	200	15	14	1	30	199	30	20	inbare	ft
+WR	wepp-11344	"05:10 pm  Wednesday July 27, 2011"	"HAGEN'S MEADOW CA SNOTEL"	20	sand	graveled	200	15	14	1	30	199	30	20	inveg	ft
+WR	wepp-11449	"05:21 pm  Wednesday July 27, 2011"	"HAGEN'S MEADOW CA SNOTEL"	20	sand	graveled	200	15	14	1	30	199	30	20	inbare	ft
+wt	wepp-18639	"Jul 28, 2011"	"HAGEN'S MEADOW CA SNOTEL"	volcanic	LowRoad	6.4	6.4	287	10	20	OldForest	50	0.3	2	100	20	ft	"1113-1400"
+wt	wepp-18659	"Jul 28, 2011"	"HAGEN'S MEADOW CA SNOTEL"	volcanic	LowRoad	6.4	6.4	287	10	20	OldForest	50	0.3	2	100	20	ft	"1113-1400"
+wt	wepp-18725	"Jul 28, 2011"	"HAGEN'S MEADOW CA SNOTEL"	volcanic	LowRoad	16.8	16.8	230	10	20	OldForest	50	16.8	2	100	20	ft	"1745 - 1975"
+wt	wepp-18746	"Jul 28, 2011"	"HAGEN'S MEADOW CA SNOTEL"	volcanic	LowRoad	16.8	16.8	230	10	20	OldForest	50	16.8	2	100	20	ft	"1745 - 1975"
+wt	wepp-18794	"Jul 28, 2011"	"HAGEN'S MEADOW CA SNOTEL"	rockpave	LowRoad	16.8	16.8	230	10	50	OldForest	50	16.8	2	100	20	ft	"1745 - 1975"
+wt	wepp-18814	"Jul 28, 2011"	"HAGEN'S MEADOW CA SNOTEL"	rockpave	LowRoad	16.8	16.8	230	10	50	OldForest	50	16.8	2	100	20	ft	"1745 - 1975"
+wt	wepp-18861	"Jul 28, 2011"	"HAGEN'S MEADOW CA SNOTEL"	rockpave	LowRoad	6.4	6.4	287	10	50	OldForest	50	0.3	2	100	20	ft	"1113 - 1400"
+wt	wepp-18880	"Jul 28, 2011"	"HAGEN'S MEADOW CA SNOTEL"	rockpave	LowRoad	6.4	6.4	287	10	50	OldForest	50	0.3	2	100	20	ft	"1113 - 1400"
+wt	wepp-18900	"Jul 28, 2011"	"HAGEN'S MEADOW CA SNOTEL"	volcanic	LowRoad	10.8	10.8	200	10	50	OldForest	50	0.3	2	100	20	ft	"2600 - 2800"
+wt	wepp-18972	"Jul 28, 2011"	"HAGEN'S MEADOW CA SNOTEL"	volcanic	OldForest	10.8	10.8	200	100	20	YoungForest	29.4	29.4	350	100	20	ft	"2600 - 2800"
+wt	wepp-18993	"Jul 28, 2011"	"HAGEN'S MEADOW CA SNOTEL"	volcanic	LowRoad	10.8	10.8	200	10	20	YoungForest	29.4	29.4	350	100	20	ft	"2600 - 2800"
+wt	wepp-19014	"Jul 28, 2011"	"HAGEN'S MEADOW CA SNOTEL"	volcanic	LowRoad	10.8	10.8	200	10	20	YoungForest	29.4	29.4	350	100	20	ft	"2600 - 2800"
+wt	wepp-19061	"Jul 28, 2011"	"HAGEN'S MEADOW CA SNOTEL"	volcanic	LowRoad	10.8	10.8	200	10	20	YoungForest	29.4	29.4	350	100	20	ft	"2600 - 2800"
+wt	wepp-19080	"Jul 28, 2011"	"HAGEN'S MEADOW CA SNOTEL"	rockpave	LowRoad	10.8	10.8	200	10	50	YoungForest	29.4	29.4	350	100	20	ft	"2600 - 2800"
+wt	wepp-19100	"Jul 28, 2011"	"HAGEN'S MEADOW CA SNOTEL"	rockpave	LowRoad	10.8	10.8	200	10	50	YoungForest	29.4	29.4	350	100	20	ft	"2600 - 2800"
+wt	wepp-19122	"Jul 28, 2011"	"HAGEN'S MEADOW CA SNOTEL"	volcanic	LowRoad	16	16	250	10	20	OldForest	26.5	26.5	200	100	20	ft	"3750 - 4000"
+wt	wepp-19169	"Jul 28, 2011"	"HAGEN'S MEADOW CA SNOTEL"	volcanic	LowRoad	16	16	250	10	20	OldForest	26.5	26.5	200	100	20	ft	"3750 - 4000"
+wt	wepp-19188	"Jul 28, 2011"	"HAGEN'S MEADOW CA SNOTEL"	rockpave	LowRoad	16	16	250	10	50	OldForest	26.5	26.5	200	100	20	ft	"3750 - 4000"
+wt	wepp-19208	"Jul 28, 2011"	"HAGEN'S MEADOW CA SNOTEL"	rockpave	LowRoad	16	16	250	10	50	OldForest	26.5	26.5	200	100	20	ft	"3750 - 4000"
+wt	wepp-19279	"Jul 28, 2011"	"HAGEN'S MEADOW CA SNOTEL"	volcanic	LowRoad	23.3	23.3	200	10	20	OldForest	22.2	22.2	200	100	20	ft	"4900 - 5100"
+wt	wepp-19302	"Jul 28, 2011"	"HAGEN'S MEADOW CA SNOTEL"	volcanic	LowRoad	23.3	23.3	200	10	20	OldForest	22.2	22.2	200	100	20	ft	"4900 - 5100"
+wt	wepp-19348	"Jul 28, 2011"	"HAGEN'S MEADOW CA SNOTEL"	rockpave	LowRoad	23.3	23.3	200	10	50	OldForest	22.2	22.2	200	100	20	ft	"4900 - 5100"
+wt	wepp-19368	"Jul 28, 2011"	"HAGEN'S MEADOW CA SNOTEL"	rockpave	LowRoad	23.3	23.3	200	10	50	OldForest	22.2	22.2	200	100	20	ft	"4900 - 5100"
+wt	wepp-19466	"Jul 28, 2011"	"HAGEN'S MEADOW CA SNOTEL"	volcanic	LowRoad	14.9	14.9	270	10	20	OldForest	25	25	1000	100	20	ft	"6010 - 6280"
+wt	wepp-19486	"Jul 28, 2011"	"HAGEN'S MEADOW CA SNOTEL"	volcanic	LowRoad	14.9	14.9	270	10	20	OldForest	25	25	1000	100	20	ft	"6010 - 6280"
+wt	wepp-19506	"Jul 28, 2011"	"HAGEN'S MEADOW CA SNOTEL"	rockpave	LowRoad	14.9	14.9	270	10	50	OldForest	25	25	1000	100	20	ft	"6010 - 6280"
+wt	wepp-19582	"Jul 28, 2011"	"HAGEN'S MEADOW CA SNOTEL"	rockpave	LowRoad	14.9	14.9	270	10	50	OldForest	25	25	1000	100	20	ft	"6010 - 6280"
+wt	wepp-19681	"Jul 28, 2011"	"HAGEN'S MEADOW CA SNOTEL"	volcanic	LowRoad	10.8	10.8	200	10	20	OldForest	29.4	29.4	350	100	20	ft	"2600 - 2800"
+wt	wepp-19730	"Jul 28, 2011"	"HAGEN'S MEADOW CA SNOTEL"	volcanic	LowRoad	10.8	10.8	200	10	20	OldForest	29.4	29.4	350	100	20	ft	"2600 - 2800"
+wt	wepp-19781	"Jul 28, 2011"	"HAGEN'S MEADOW CA SNOTEL"	rockpave	LowRoad	10.8	10.8	200	10	50	OldForest	29.4	29.4	350	100	20	ft	"2600 - 2800"
+wt	wepp-19862	"Jul 28, 2011"	"HAGEN'S MEADOW CA SNOTEL"	rockpave	LowRoad	10.8	10.8	200	10	50	OldForest	29.4	29.4	350	100	20	ft	"2600 - 2800"
+wt	wepp-19887	"Jul 28, 2011"	"HAGEN'S MEADOW CA SNOTEL"	rockpave	LowRoad	10.8	10.8	200	10	50	OldForest	29.4	29.4	350	100	20	ft	"2600 - 2800"
+wt	wepp-19936	"Jul 28, 2011"	"HAGEN'S MEADOW CA SNOTEL"	volcanic	LowRoad	6.4	6.4	287	10	20	OldForest	50	0.3	2	100	20	ft	"1113 - 1400"
+wt	wepp-3909	"Aug 10, 2011"	"HAGEN'S MEADOW CA SNOTEL"	volcanic	LowRoad	18	18	200	10	20	OldForest	20	20	200	100	20	ft	""
+wt	wepp-7081	"Aug 10, 2011"	"HEAVENLY VALLEY CA"	volcanic	LowRoad	15	15	200	10	20	OldForest	30	30	200	100	20	ft	""
+WR	wepp-28297	"05:18 pm  Wednesday August 17, 2011"	"HAGEN'S MEADOW CA SNOTEL"	30	sand	paved	200	13.8	12	1	50	20	22.2	20	outunrut	ft
+WR	wepp-28302	"05:19 pm  Wednesday August 17, 2011"	"HAGEN'S MEADOW CA SNOTEL"	30	sand	paved	200	13.8	12	1	50	820	22.2	20	outunrut	ft
+wt	wepp-5048	"Aug 18, 2011"	"HAGEN'S MEADOW CA SNOTEL"	volcanic	LowRoad	6.4	6.4	28	10	20	OldForest	50	0.3	2	100	20	ft	"113-1400"
+wt	wepp-15749	"Sep 6, 2011"	"HAGEN'S MEADOW CA SNOTEL"	volcanic	Bare	23.3	23.3	200	50	50	OldForest	22.2	22.2	200	100	20	ft	""
+wt	wepp-15805	"Sep 6, 2011"	"HEAVENLY VALLEY CA"	granitic	Skid	23.3	23.3	200	10	20	OldForest	22.2	22.2	200	100	20	ft	""
+wt	wepp-15825	"Sep 6, 2011"	"HEAVENLY VALLEY CA"	granitic	Skid	23.3	23.3	200	10	20	OldForest	22.2	22.2	200	100	20	ft	""
+wt	wepp-15846	"Sep 6, 2011"	"HEAVENLY VALLEY CA"	granitic	Skid	23.3	23.3	200	10	20	YoungForest	22.2	22.2	200	100	20	ft	""
+wt	wepp-15866	"Sep 6, 2011"	"HEAVENLY VALLEY CA"	volcanic	Skid	23.3	23.3	200	10	20	YoungForest	22.2	22.2	200	100	20	ft	""
+wt	wepp-15886	"Sep 6, 2011"	"HAGEN'S MEADOW CA SNOTEL"	volcanic	Skid	23.3	23.3	200	10	20	OldForest	22.2	22.2	200	100	20	ft	""
+wt	wepp-15935	"Sep 6, 2011"	"HAGEN'S MEADOW CA SNOTEL"	volcanic	LowRoad	23.3	23.3	200	10	20	OldForest	22.2	22.2	200	100	20	ft	""
+wt	wepp-15955	"Sep 6, 2011"	"HAGEN'S MEADOW CA SNOTEL"	volcanic	LowRoad	23.3	23.3	200	10	20	YoungForest	22.2	22.2	200	100	20	ft	""
+wt	wepp-15994	"Sep 6, 2011"	"HAGEN'S MEADOW CA SNOTEL"	granitic	LowRoad	23.3	23.3	200	10	20	YoungForest	22.2	22.2	200	100	20	ft	""
+wt	wepp-16290	"Sep 6, 2011"	"HAGEN'S MEADOW CA SNOTEL"	volcanic	LowRoad	23.3	23.3	200	10	65	OldForest	22.2	22.2	200	100	20	ft	""
+wt	wepp-16368	"Sep 6, 2011"	"HAGEN'S MEADOW CA SNOTEL"	volcanic	Skid	23.3	23.3	200	10	20	OldForest	22.2	22.2	200	100	20	ft	""
+wt	wepp-16389	"Sep 6, 2011"	"HAGEN'S MEADOW CA SNOTEL"	volcanic	Skid	23.3	23.3	200	10	65	OldForest	22.2	22.2	200	100	20	ft	""
+wt	wepp-16409	"Sep 6, 2011"	"HAGEN'S MEADOW CA SNOTEL"	volcanic	LowRoad	23.3	23.3	200	10	65	OldForest	22.2	22.2	200	100	20	ft	""
+wt	wepp-16431	"Sep 6, 2011"	"HAGEN'S MEADOW CA SNOTEL"	volcanic	Bare	23.3	23.3	200	65	65	OldForest	22.2	22.2	200	100	20	ft	""
+wt	wepp-16571	"Sep 6, 2011"	"HAGEN'S MEADOW CA SNOTEL"	granitic	LowRoad	23.3	23.3	200	10	65	OldForest	22.2	22.2	200	100	20	ft	"4900-5100"
+wt	wepp-16641	"Sep 6, 2011"	"HAGEN'S MEADOW CA SNOTEL"	granitic	LowRoad	14.9	14.9	270	10	65	OldForest	25	25	1000	100	20	ft	"6010-6280"
+wt	wepp-16692	"Sep 6, 2011"	"HAGEN'S MEADOW CA SNOTEL"	granitic	LowRoad	16	16	250	10	65	OldForest	26.5	26.5	200	100	20	ft	"6010-6280"
+wt	wepp-16714	"Sep 6, 2011"	"HAGEN'S MEADOW CA SNOTEL"	granitic	LowRoad	16	16	250	10	65	OldForest	26.5	26.5	200	100	20	ft	"3450-4000"
+wt	wepp-16740	"Sep 6, 2011"	"HAGEN'S MEADOW CA SNOTEL"	granitic	LowRoad	10.8	10.8	200	10	65	OldForest	29.4	29.4	350	100	20	ft	"2600-2800"
+WR	wepp-16928	"01:16 pm  Tuesday September 6, 2011"	"HAGEN'S MEADOW CA SNOTEL"	30	sand	graveled	200	23.3	15	1	50	200	22.2	20	inbare	ft
+wt	wepp-17165	"Sep 6, 2011"	"HEAVENLY VALLEY CA"	granitic	LowRoad	6.4	6.4	287	10	65	OldForest	50	0.3	2	100	20	ft	"1113-1400"
+wt	wepp-17217	"Sep 6, 2011"	"HEAVENLY VALLEY CA"	granitic	LowRoad	16.8	16.8	230	10	65	OldForest	50	16.8	2	100	20	ft	"1745-1975"
+wt	wepp-17268	"Sep 6, 2011"	"HEAVENLY VALLEY CA"	granitic	LowRoad	19.9	19.9	200	10	65	OldForest	40.3	40.3	240	100	20	ft	"4400-4600"
+wt	wepp-17950	"Sep 6, 2011"	"HEAVENLY VALLEY CA"	granitic	Skid	19.9	19.9	200	10	65	OldForest	40.3	40.3	240	100	20	ft	"4400-4600"
+wt	wepp-17970	"Sep 6, 2011"	"HEAVENLY VALLEY CA"	granitic	Skid	19.9	19.9	200	10	20	OldForest	40.3	40.3	240	100	20	ft	"4400-4600"
+wt	wepp-17990	"Sep 6, 2011"	"HEAVENLY VALLEY CA"	granitic	Skid	19.9	19.9	200	10	65	OldForest	40.3	40.3	240	100	20	ft	"4400-4600"
+wt	wepp-18055	"Sep 6, 2011"	"HEAVENLY VALLEY CA"	rockpave	LowRoad	19.9	19.9	200	10	50	OldForest	40.3	40.3	240	100	20	ft	"4400-4600"
+wt	wepp-18181	"Sep 6, 2011"	"HAGEN'S MEADOW CA SNOTEL"	rockpave	LowRoad	19.9	19.9	200	10	50	OldForest	40.3	40.3	240	100	20	ft	"4400-4600"
+wt	wepp-18335	"Sep 6, 2011"	"HAGEN'S MEADOW CA SNOTEL"	granitic	LowRoad	19.9	19.9	200	10	50	OldForest	40.3	40.3	200	100	20	ft	"4400-4600"
+wt	wepp-18354	"Sep 6, 2011"	"HAGEN'S MEADOW CA SNOTEL"	granitic	LowRoad	19.9	19.9	160	10	50	OldForest	40.3	40.3	200	100	20	ft	"4400-4600"
+wt	wepp-18373	"Sep 6, 2011"	"HAGEN'S MEADOW CA SNOTEL"	granitic	LowRoad	19.9	19.9	200	10	65	OldForest	40.3	40.3	200	100	20	ft	"4400-4600"
+wt	wepp-18395	"Sep 6, 2011"	"HAGEN'S MEADOW CA SNOTEL"	granitic	LowRoad	19.9	19.9	200	10	65	OldForest	40.3	40.3	160	100	20	ft	"4400-4600"
+wt	wepp-18443	"Sep 6, 2011"	"HAGEN'S MEADOW CA SNOTEL"	granitic	LowRoad	19.9	19.9	200	10	65	OldForest	40.3	40.3	120	100	20	ft	"4400-4600"
+wt	wepp-18464	"Sep 6, 2011"	"HAGEN'S MEADOW CA SNOTEL"	granitic	LowRoad	19.9	19.9	200	10	65	OldForest	40.3	40.3	80	100	20	ft	"4400-4600"
+wt	wepp-18516	"Sep 6, 2011"	"HAGEN'S MEADOW CA SNOTEL"	granitic	LowRoad	19.9	19.9	200	10	65	OldForest	40.3	40.3	40	100	20	ft	"4400-4600"
+wt	wepp-18879	"Sep 6, 2011"	"HAGEN'S MEADOW CA SNOTEL"	granitic	LowRoad	19.9	19.9	200	10	65	OldForest	40.3	40.3	240	100	20	ft	"4400-4600"
+WR	wepp-19658	"04:28 pm  Tuesday September 6, 2011"	"HAGEN'S MEADOW CA SNOTEL"	30	sand	paved	250	16	15	1	50	200	26.5	20	inveg	ft
+WR	wepp-19663	"04:28 pm  Tuesday September 6, 2011"	"HAGEN'S MEADOW CA SNOTEL"	50	sand	paved	250	16	15	1	50	200	26.5	20	inveg	ft
+WR	wepp-20410	"04:46 pm  Tuesday September 6, 2011"	"HAGEN'S MEADOW CA SNOTEL"	30	sand	paved	200	4	13	1	25	130	25	20	inveg	ft
+wt	wepp-20418	"Sep 6, 2011"	"HAGEN'S MEADOW CA SNOTEL"	rockpave	Bare	4	4	200	50	50	YoungForest	25	25	130	100	20	ft	""
+wt	wepp-20438	"Sep 6, 2011"	"HAGEN'S MEADOW CA SNOTEL"	rockpave	LowRoad	4	4	200	10	50	YoungForest	25	25	130	100	20	ft	""
+WR	wepp-3447	"09:11 am  Wednesday September 7, 2011"	"HAGEN'S MEADOW CA SNOTEL"	30	clay	paved	200	20	15	1	50	200	25	20	inveg	ft
+WR	wepp-3480	"09:12 am  Wednesday September 7, 2011"	"HAGEN'S MEADOW CA SNOTEL"	30	sand	paved	200	20	15	1	50	200	25	20	inveg	ft
+wt	wepp-3639	"Sep 7, 2011"	"HAGEN'S MEADOW CA SNOTEL"	rockpave	LowRoad	20	20	200	10	50	OldForest	25	25	200	100	20	ft	""
+WR	wepp-5468	"09:51 am  Wednesday September 7, 2011"	"HAGEN'S MEADOW CA SNOTEL"	30	sand	paved	200	20	15	1	50	200	25	20	inveg	ft
+WR	wepp-5473	"09:51 am  Wednesday September 7, 2011"	"HAGEN'S MEADOW CA SNOTEL"	30	sand	graveled	200	20	15	1	50	200	25	20	inveg	ft
+wt	wepp-8286	"Sep 19, 2011"	"HAGEN'S MEADOW CA SNOTEL"	granitic	LowRoad	6.4	6.4	27	10	20	OldForest	50	0.3	2	100	20	ft	""
+wt	wepp-8307	"Sep 19, 2011"	"HAGEN'S MEADOW CA SNOTEL"	granitic	LowRoad	6.4	6.4	287	10	20	OldForest	50	0.3	2	100	20	ft	""
+wt	wepp-8354	"Sep 19, 2011"	"HAGEN'S MEADOW CA SNOTEL"	rockpave	LowRoad	6.4	6.4	287	10	50	OldForest	50	0.3	2	100	20	ft	""
+wt	wepp-8376	"Sep 19, 2011"	"HAGEN'S MEADOW CA SNOTEL"	granitic	LowRoad	16.8	16.8	230	10	20	OldForest	50	16.8	2	100	20	ft	"1745-1975"
+wt	wepp-8424	"Sep 19, 2011"	"HAGEN'S MEADOW CA SNOTEL"	rockpave	LowRoad	16.8	16.8	230	10	50	OldForest	50	16.8	2	100	20	ft	"1745-1975"
+wt	wepp-8444	"Sep 19, 2011"	"HAGEN'S MEADOW CA SNOTEL"	granitic	LowRoad	10.8	10.8	200	10	20	OldForest	29.4	29.4	350	100	20	ft	"1975-2200"
+wt	wepp-8465	"Sep 19, 2011"	"HAGEN'S MEADOW CA SNOTEL"	rockpave	LowRoad	10.8	10.8	200	10	50	OldForest	29.4	29.4	350	100	20	ft	"1975-2200"
+wt	wepp-8512	"Sep 19, 2011"	"HAGEN'S MEADOW CA SNOTEL"	granitic	LowRoad	16	16	250	10	20	OldForest	26.5	26.5	200	100	20	ft	"1975-2200"
+wt	wepp-8551	"Sep 19, 2011"	"HAGEN'S MEADOW CA SNOTEL"	rockpave	LowRoad	16	16	250	10	50	OldForest	26.5	26.5	200	100	20	ft	"1975-2200"
+wt	wepp-8598	"Sep 19, 2011"	"HAGEN'S MEADOW CA SNOTEL"	rockpave	LowRoad	16	16	250	10	50	OldForest	26.5	26.5	200	100	20	ft	"3750-4000"
+wt	wepp-8618	"Sep 19, 2011"	"HAGEN'S MEADOW CA SNOTEL"	granitic	LowRoad	16	16	250	10	20	OldForest	26.5	26.5	200	100	20	ft	"3750-4000"
+wt	wepp-8638	"Sep 19, 2011"	"HAGEN'S MEADOW CA SNOTEL"	granitic	LowRoad	6.4	6.4	287	10	20	OldForest	50	0.3	2	100	20	ft	"1113-1400"
+wt	wepp-8658	"Sep 19, 2011"	"HAGEN'S MEADOW CA SNOTEL"	rockpave	LowRoad	6.4	6.4	287	10	50	OldForest	50	0.3	2	100	20	ft	"1113-1400"
+wt	wepp-8705	"Sep 19, 2011"	"HAGEN'S MEADOW CA SNOTEL"	rockpave	LowRoad	16.8	16.8	230	10	50	OldForest	50	16.8	2	100	20	ft	"1745-1975"
+wt	wepp-8725	"Sep 19, 2011"	"HAGEN'S MEADOW CA SNOTEL"	granitic	LowRoad	16.8	16.8	230	10	20	OldForest	50	16.8	2	100	20	ft	"1745-1975"
+wt	wepp-8772	"Sep 19, 2011"	"HAGEN'S MEADOW CA SNOTEL"	granitic	LowRoad	10.8	10.8	200	10	20	OldForest	29.4	29.4	350	100	20	ft	"2600-2800"
+wt	wepp-8811	"Sep 19, 2011"	"HAGEN'S MEADOW CA SNOTEL"	rockpave	LowRoad	10.8	10.8	200	10	50	OldForest	29.4	29.4	350	100	20	ft	"2600-2800"
+wt	wepp-8832	"Sep 19, 2011"	"HAGEN'S MEADOW CA SNOTEL"	rockpave	LowRoad	23.3	23.3	200	10	50	OldForest	22.2	22.2	200	100	20	ft	"4900-5100"
+wt	wepp-8882	"Sep 19, 2011"	"HAGEN'S MEADOW CA SNOTEL"	granitic	LowRoad	23.3	23.3	200	10	20	OldForest	22.2	22.2	200	100	20	ft	"4900-5100"
+wt	wepp-8904	"Sep 19, 2011"	"HAGEN'S MEADOW CA SNOTEL"	granitic	LowRoad	14.9	14.9	270	10	20	OldForest	25	25	1000	100	20	ft	"6010-6280"
+wt	wepp-8925	"Sep 19, 2011"	"HAGEN'S MEADOW CA SNOTEL"	rockpave	LowRoad	14.9	14.9	270	10	50	OldForest	25	25	1000	100	20	ft	"6010-6280"
+WR	wepp-11052	"08:15 am  Tuesday December 6, 2011"	"HEAVENLY VALLEY CA"	30	sand	native	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-16434	"02:00 pm  Tuesday December 6, 2011"	"HEAVENLY VALLEY CA"	30	sand	native	1000	4	12	15	50	130	25	20	outrut	ft
+WR	wepp-16672	"02:33 pm  Tuesday December 6, 2011"	"HEAVENLY VALLEY CA"	30	sand	native	300	4	12	15	50	130	25	0	outrut	ft
+WR	wepp-21054	"01:20 pm  Friday December 16, 2011"	"HEAVENLY VALLEY CA"	30	clay	native	100	4	4	5	50	50	50	20	inbare	m
+WR	wepp-21070	"01:21 pm  Friday December 16, 2011"	"HEAVENLY VALLEY CA"	30	sand	native	100	4	4	5	50	50	50	20	inbare	m
+WR	wepp-21135	"01:22 pm  Friday December 16, 2011"	"HEAVENLY VALLEY CA"	30	sand	native	100	10	4	50	50	50	50	20	inbare	m
+WR	wepp-21141	"01:22 pm  Friday December 16, 2011"	"HEAVENLY VALLEY CA"	30	sand	graveled	100	10	4	50	50	50	50	20	inbare	m

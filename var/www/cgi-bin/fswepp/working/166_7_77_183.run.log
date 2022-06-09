@@ -1,0 +1,41 @@
+WE	wepp-14038	"03:42 pm  Tuesday August 31, 1942"	"Davis Fire +"	clay	20	forest	0	50	30	500	m			ft
+WE	wepp-20841	"10:49 am  Friday September 3, 1940"	"Davis Fire +"	loam	20	forest	0	50	30	1000	m			ft
+WE	wepp-21088	"03:16 pm  Wednesday September 8, 1925"	"Davis Fire +"	clay	20	forest	0	50	30	1000	m			ft
+WE	wepp-21161	"03:16 pm  Wednesday September 8, 1939"	"Davis Fire +"	loam	30	forest	0	50	30	1000	m			ft
+WE	wepp-21299	"03:18 pm  Wednesday September 8, 1930"	"Davis Fire +"	loam	30	forest	40	40	20	1000	m			ft
+WD	wepp-11244	"02:16 pm  Thursday December 2, 2010"	"Dalton NFMA +"	50	loam	low	500	50	50	85	20	tree20	500	50	50	100	20	0	ft	""
+WD	wepp-11284	"02:24 pm  Thursday December 2, 2010"	"Dalton NFMA +"	50	loam	low	1000	50	50	85	20	tree20	500	50	50	100	20	0	ft	""
+WD	wepp-10058	"01:53 pm  Tuesday January 25, 2011"	"Davis Fire +"	50	loam	low	800	5	40	85	48	tree5	50	40	5	100	48	0	ft	""
+WD	wepp-10063	"01:53 pm  Tuesday January 25, 2011"	"Davis Fire +"	50	loam	low	800	5	40	85	48	tree5	300	40	5	100	48	0	ft	""
+WD	wepp-10068	"01:54 pm  Tuesday January 25, 2011"	"Davis Fire +"	50	loam	low	800	5	40	85	48	tree5	500	40	5	100	48	0	ft	""
+WD	wepp-10073	"01:55 pm  Tuesday January 25, 2011"	"Davis Fire +"	50	loam	low	800	5	40	85	48	tree5	600	40	5	100	48	0	ft	""
+WD	wepp-10078	"01:55 pm  Tuesday January 25, 2011"	"Davis Fire +"	50	loam	low	800	5	40	85	48	tree5	700	40	5	100	48	0	ft	""
+WD	wepp-10083	"01:56 pm  Tuesday January 25, 2011"	"Davis Fire +"	50	loam	low	800	5	40	85	48	tree20	700	40	5	100	48	0	ft	""
+WD	wepp-24161	"01:14 pm  Wednesday January 26, 2011"	"Davis Fire +"	30	clay	tree20	50	0	30	100	20	tree5	50	30	5	100	20	0	ft	""
+WF	wepp-25022	"02:33 pm  Wednesday January 26, 2011"	"Davis Fire +"	loam	1000	500	5	30	0.5	40	20	20	4	ft
+WE	wepp-25060	"02:36 pm  Wednesday January 26, 1930"	"Davis Fire +"	loam	30	forest	5	45	1	1000	l			ft
+WF	wepp-25148	"02:38 pm  Wednesday January 26, 2011"	"Davis Fire +"	loam	1000	500	5	45	2	40	20	20	2	ft
+WD	wepp-2654	"09:55 am  Thursday April 14, 2011"	"Warm Springs 2010 +"	50	sand	high	500	20	50	35	5	high	100	50	25	30	5	0	m	"1"
+WD	wepp-2659	"09:55 am  Thursday April 14, 2011"	"Warm Springs 2010 +"	50	sand	high	600	20	50	35	5	high	200	50	25	30	5	0	m	"1"
+WD	wepp-2664	"09:55 am  Thursday April 14, 2011"	"Warm Springs 2010 +"	50	sand	high	700	20	50	35	5	high	300	50	25	30	5	0	m	"1"
+WD	wepp-2669	"09:55 am  Thursday April 14, 2011"	"Warm Springs 2010 +"	50	sand	high	800	20	50	35	5	high	400	50	25	30	5	0	m	"1"
+WD	wepp-2674	"09:55 am  Thursday April 14, 2011"	"Warm Springs 2010 +"	50	sand	high	900	20	50	35	5	high	500	50	25	30	5	0	m	"1"
+WD	wepp-2679	"09:56 am  Thursday April 14, 2011"	"Warm Springs 2010 +"	50	sand	high	500	20	50	35	5	high	100	50	25	30	5	0	m	"1"
+WD	wepp-2685	"09:56 am  Thursday April 14, 2011"	"Warm Springs 2010 +"	50	sand	high	600	20	50	35	5	high	200	50	25	30	5	0	m	"1"
+WD	wepp-2723	"09:56 am  Thursday April 14, 2011"	"Warm Springs 2010 +"	50	sand	high	700	20	50	35	5	high	300	50	25	30	5	0	m	"1"
+WD	wepp-2731	"09:56 am  Thursday April 14, 2011"	"Warm Springs 2010 +"	50	sand	high	800	20	50	35	5	high	400	50	25	30	5	0	m	"1"
+WD	wepp-2736	"09:56 am  Thursday April 14, 2011"	"Warm Springs 2010 +"	50	sand	high	900	20	50	35	5	high	500	50	25	30	5	0	m	"1"
+WD	wepp-2778	"10:01 am  Thursday April 14, 2011"	"Warm Springs 2010 +"	50	sand	high	500	20	50	35	5	tree5	500	50	5	90	5	0	m	"1"
+WD	wepp-2784	"10:01 am  Thursday April 14, 2011"	"Warm Springs 2010 +"	50	sand	high	600	20	50	35	5	tree5	400	50	5	90	5	0	m	"2"
+WD	wepp-2816	"10:01 am  Thursday April 14, 2011"	"Warm Springs 2010 +"	50	sand	high	700	20	50	35	5	tree5	300	50	5	90	5	0	m	"3"
+WD	wepp-2821	"10:01 am  Thursday April 14, 2011"	"Warm Springs 2010 +"	50	sand	high	800	20	50	35	5	tree5	200	50	5	90	5	0	m	"4"
+WD	wepp-2827	"10:01 am  Thursday April 14, 2011"	"Warm Springs 2010 +"	50	sand	high	900	20	50	35	5	tree5	100	50	5	90	5	0	m	"5"
+WD	wepp-2925	"10:11 am  Thursday April 14, 2011"	"Warm Springs 2010 +"	50	sand	high	500	20	50	35	5	tree5	500	50	5	90	5	0	m	"1"
+WD	wepp-2933	"10:11 am  Thursday April 14, 2011"	"Warm Springs 2010 +"	50	sand	high	600	20	50	35	5	tree5	400	50	5	90	5	0	m	"2"
+WD	wepp-2962	"10:11 am  Thursday April 14, 2011"	"Warm Springs 2010 +"	50	sand	high	700	20	50	35	5	tree5	300	50	5	90	5	0	m	"3"
+WD	wepp-2967	"10:11 am  Thursday April 14, 2011"	"Warm Springs 2010 +"	50	sand	high	800	20	50	35	5	tree5	200	50	5	90	5	0	m	"4"
+WD	wepp-2972	"10:11 am  Thursday April 14, 2011"	"Warm Springs 2010 +"	50	sand	high	900	20	50	35	5	tree5	100	50	5	90	5	0	m	"5"
+WE	wepp-30257	"08:09 am  Friday September 30, 2011"	"Saddle Complex BNF +"	silt	20	forest	0	50	30	500	h			ft
+WE	wepp-31595	"10:51 am  Friday September 30, 2011"	"Saddle Complex BNF +"	silt	20	forest	0	50	30	500	m			ft
+WF	wepp-27092	"09:56 am  Wednesday February 22, 2012"	"Warm Springs 2010 +"	sand	200	50	0	30	15	40	20	20	4	ft
+WE	wepp-27239	"10:09 am  Wednesday February 22, 2012"	"Warm Springs 2010 +"	loam	20	forest	0	50	30	300	m			ft

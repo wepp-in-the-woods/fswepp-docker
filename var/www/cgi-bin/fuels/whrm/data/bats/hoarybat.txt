@@ -1,0 +1,72 @@
+#this files was modified by filegenwhrm.pl on: Wednesday, March 16, 2005.
+#taxgroup Bats species Hoary bat /  Lasiurus cinereus
+#
+# Rank
+2,-99,-99,-99,1
+# Nestsite
+-99
+# Reprorank
+-99
+# Foraging Habitat
+-99
+# Habitatrank
+-99
+# Forage/Prey Availability
+-99
+# Preyrank
+-99
+# Predator Avoidance
+-99
+# Avoidrank
+-99
+# Refugia/Shelter
+25,1:26,1:13,1
+# Shelterrank
+1,-99:1,-99:1,-99
+# Coverrank
+1,-99:1,-99:1,-99
+# Literature
+Distribution
+most of N. American continent
+General Habitat
+old growth PSME-hemlock
+Home or Activity Range
+no information available
+Canopy Cover
+no information available
+Specific Habitat Preferences
+structural diversity of older trees,  PSME stands > 200 years old
+Nestsite Characteristics
+no information available
+Foraging Habitat Characteristics
+lights; open, uncluttered spaces; along roads, forest edges and clearing, over water; may glean insects from ground or foliage
+Diet
+scarab beetles, moths, true bugs, other insects
+Predators
+Mexican spotted owl
+Shelter Habitats
+roosts individually in trees; needs structural diversity of older trees; more abundant in DF stands > 200 years old; foliage rooster
+Response to Disturbance
+no information available
+Sources of Information used in the Model
+Perkins and Cross 1988
+General Sources of Background Information
+Perkins and Cross 1988, Thomas 1988, reviewed in Christy and West 1993, reviewed in Ward and Block 1995, reviewed in Pearson 1999, Foresman 2001
+Summaries of Specific Studies
+Christy, Robin E.; West, Stephen D. 1993. Biology of bats in Douglas-fir forests. In:Huff, Mark H.; Holthausen, Richard S.; Aubry, Keith B., Tech. Coord. Biology and Management of Old Growth Forests. Gen. Tech. Rep. PNW-308. Portland, OR: USDA Forest Service, Pacific Northwest Research Station. 28p.
+
+Study Location: Washington and Oregon
+Habitat Description: PSME
+Summary: Review of the basic biology of bats inhabiting PSME forests of the Pacific Northwest, including a discussion of natural history, habitat requirements, and their ecological relations with old-growth forests.
+
+Perkins, J.Mark; Cross, Stephen P. 1988. Differential use of some coniferous forest habitats by hoary and silver-haired bats in Oregon. The Murrelet. 69:21-24.
+
+Study Location: Oregon
+Habitat Description: PSME, PIPO, TSHE, PILA, ABGR, ABCO
+Summary: This study examined the habitat association of hoary and silver-haired bats in relation to tree size and structure of conifers in Oregon. Both species were found in the older forest (> 101 years old), which the authors attribute to the ability of older forests to offer more shelter for roosting, open space to gain flight while leaving the roost, and immediate accessibility to the roost site upon return. Older stands also offered more snags as roosting spaces. In general, the Douglas-fir dominated sites were used more than the PIPO/true fir forest.
+
+Thomas, Donald W. 1988. The distribution of bats in different ages of Douglas-fir forests. Journal of Wildlife Management. 52:619-626.
+
+Study Location: southern Washington Cascades, Oregon Coast Range
+Habitat Description: PSME-TSHE sere
+Summary: Bats were examined in different-aged PSME stands. Bats were grouped by nesting strategy and by echolocation signal. Bat activity was higher in old-growth sites than in mature or young sites; these results suggest that bats are 3-10 times more abundant in the old-growth sites. The author attributes this pattern to roosting habitat, due to the availability of large-diameter snags in older forest. Foraging opportunities did not contribute to the observed pattern of bat abundance. Differences in sex-ratio, reproductive activity and age distribution were seen between the two regions. Reduction in old-growth forest would negatively impact bat populations, though the degree of impact may vary regionally.

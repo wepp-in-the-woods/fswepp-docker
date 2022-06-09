@@ -1,0 +1,44 @@
+WE	wepp-29109	"11:11 am  Monday September 9, 2013"	"FLAGSTAFF WB AP AZ"	clay	20	forest	0	50	30	300	h			ft
+WE	wepp-102801	"04:43 pm  Wednesday June 24, 2015"	"PRESCOTT AZ"	clay	40	chap	30	50	30	300	l	20	60	ft
+WE	wepp-157675	"09:52 am  Monday August 31, 2015"	"FLAGSTAFF WB AP AZ"	clay	5	forest	0	50	30	300	h			ft
+WE	wepp-218331	"03:28 pm  Tuesday September 1, 2015"	"PRESCOTT AZ"	silt	5	forest	0	50	30	300	h			ft
+WD	wepp-218920	"03:43 pm  Tuesday September 1, 2015"	"MOUNT SHASTA CA"	10	silt	Sod	50	0	30	40	20	OldForest	50	30	5	100	20	0	ft	"Shasta nights"
+WD	wepp-219604	"03:56 pm  Tuesday September 1, 2015"	"BLACK RIVER PUMPS AZ"	10	clay	OldForest	50	0	30	100	20	OldForest	50	30	5	100	20	0	ft	""
+WD	wepp-219857	"04:04 pm  Tuesday September 1, 2015"	"BLACK RIVER PUMPS AZ"	10	silt	HighFire	50	0	30	45	20	LowFire	50	30	5	85	20	0	ft	""
+WE	wepp-86097	"02:57 pm  Tuesday September 15, 2015"	"cougar 3500 +"	silt	5	forest	0	10	10	300	u			ft
+WE	wepp-86202	"03:02 pm  Tuesday September 15, 2015"	"cougar 3500 +"	silt	5	forest	0	25	25	300	u			ft
+WE	wepp-86286	"03:03 pm  Tuesday September 15, 2015"	"cougar 3500 +"	silt	5	forest	0	50	50	300	u			ft
+WE	wepp-86372	"03:04 pm  Tuesday September 15, 2015"	"cougar 3500 +"	silt	5	forest	0	50	50	300	l			ft
+WE	wepp-86531	"03:07 pm  Tuesday September 15, 2015"	"cougar 3500 +"	silt	5	forest	0	25	25	300	l			ft
+WE	wepp-86677	"03:08 pm  Tuesday September 15, 2015"	"cougar 3500 +"	silt	5	forest	0	25	25	300	m			ft
+WE	wepp-86892	"03:14 pm  Tuesday September 15, 2015"	"cougar 3500 +"	silt	5	forest	0	10	10	300	l			ft
+WE	wepp-87048	"03:15 pm  Tuesday September 15, 2015"	"cougar 3500 +"	silt	5	forest	0	10	10	300	m			ft
+WE	wepp-87233	"03:16 pm  Tuesday September 15, 2015"	"cougar 3500 +"	silt	5	forest	0	50	50	300	m			ft
+WE	wepp-87497	"03:28 pm  Tuesday September 15, 2015"	"BLACK RIVER PUMPS AZ +"	clay	20	range	0	50	30	300	u	15	75	ft
+WE	wepp-87583	"03:29 pm  Tuesday September 15, 2015"	"BLACK RIVER PUMPS AZ +"	clay	20	range	0	50	30	300	u	15	55	ft
+WE	wepp-87667	"03:29 pm  Tuesday September 15, 2015"	"BLACK RIVER PUMPS AZ +"	clay	20	range	0	50	30	300	m	15	55	ft
+WE	wepp-87863	"03:30 pm  Tuesday September 15, 2015"	"BLACK RIVER PUMPS AZ +"	clay	20	range	0	50	30	300	h	15	55	ft
+WE	wepp-73996	"02:40 pm  Tuesday January 26, 2016"	"Hilltop, San Carlos, AZ +"	loam	20	forest	0	15	0	300	u			ft
+WE	wepp-74138	"02:44 pm  Tuesday January 26, 2016"	"Hilltop, San Carlos, AZ +"	loam	20	forest	0	15	0	300	l			ft
+WE	wepp-74368	"02:47 pm  Tuesday January 26, 2016"	"Hilltop, San Carlos, AZ +"	loam	20	range	0	15	0	300	l	15	75	ft
+WE	wepp-74635	"02:53 pm  Tuesday January 26, 2016"	"Hilltop, San Carlos, AZ +"	loam	20	forest	0	15	0	300	u			ft
+WE	wepp-74943	"03:04 pm  Tuesday January 26, 2016"	"Hilltop, San Carlos, AZ +"	loam	20	forest	0	15	0	300	l			ft
+WE	wepp-75321	"03:13 pm  Tuesday January 26, 2016"	"Hilltop, San Carlos, AZ +"	loam	20	forest	0	15	0	300	m			ft
+WE	wepp-75579	"03:16 pm  Tuesday January 26, 2016"	"Hilltop, San Carlos, AZ +"	loam	20	forest	0	15	0	300	h			ft
+WE	wepp-234081	"09:46 am  Monday August 7, 2017"	"Hilltop, San Carlos, AZ +"	clay	50	forest	0	50	30	300	m			ft
+WE	wepp-234287	"09:50 am  Monday August 7, 2017"	"Hilltop, San Carlos, AZ +"	clay	50	forest	0	50	30	300	u			ft
+WE	wepp-28118	"10:28 am  Tuesday August 8, 2017"	"Hilltop, San Carlos, AZ +"	silt	50	range	60	40	20	350	l	20	70	ft
+WE	wepp-28330	"10:36 am  Tuesday August 8, 2017"	"Hilltop, San Carlos, AZ +"	clay	50	range	60	40	20	350	l	20	70	ft
+WE	wepp-28716	"10:57 am  Tuesday August 8, 2017"	"Hilltop, San Carlos, AZ +"	silt	50	chap	20	40	20	350	m	70	10	ft
+WE	wepp-28961	"10:59 am  Tuesday August 8, 2017"	"Hilltop, San Carlos, AZ +"	clay	50	chap	20	40	20	350	m	70	10	ft
+WE	wepp-29148	"11:01 am  Tuesday August 8, 2017"	"Hilltop, San Carlos, AZ +"	silt	50	chap	20	40	20	350	m	70	10	ft
+WE	wepp-29584	"11:15 am  Tuesday August 8, 2017"	"Hilltop, San Carlos, AZ +"	silt	50	chap	20	40	20	300	m	70	10	ft
+WE	wepp-29772	"11:17 am  Tuesday August 8, 2017"	"Hilltop, San Carlos, AZ +"	silt	50	chap	45	65	20	350	l	40	40	ft
+WE	wepp-29933	"11:20 am  Tuesday August 8, 2017"	"Hilltop, San Carlos, AZ +"	silt	50	chap	20	40	20	300	m	70	10	ft
+WE	wepp-30187	"11:35 am  Tuesday August 8, 2017"	"Hilltop, San Carlos, AZ +"	silt	50	range	60	45	20	350	l	20	70	ft
+WE	wepp-30346	"11:41 am  Tuesday August 8, 2017"	"Hilltop, San Carlos, AZ +"	silt	50	chap	45	65	20	350	l	40	40	ft
+WE	wepp-30932	"12:18 pm  Tuesday August 8, 2017"	"Hilltop, San Carlos, AZ +"	silt	50	chap	45	65	20	350	u	40	40	ft
+WE	wepp-31056	"12:20 pm  Tuesday August 8, 2017"	"Hilltop, San Carlos, AZ +"	silt	50	range	60	45	20	350	u	20	70	ft
+WE	wepp-34924	"02:55 pm  Tuesday August 8, 2017"	"Hilltop, San Carlos, AZ +"	silt	20	range	60	45	20	350	u	20	70	ft
+WE	wepp-35729	"03:47 pm  Tuesday August 8, 2017"	"Hilltop, San Carlos, AZ +"	silt	20	chap	20	40	20	300	u	70	20	ft
+WE	wepp-59291	"07:55 am  Thursday August 10, 2017"	"Hilltop, San Carlos, AZ +"	silt	20	range	20	45	30	300	m	15	75	ft

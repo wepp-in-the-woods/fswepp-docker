@@ -1,0 +1,66 @@
+#Conifer species in E ID & W WY Subseries arranged by (decreasing) expected percent cover and rated for potential Armillaria impact				
+#Subseries	Species	Role*	Average Expected Cover (%)	Potential Disease Impact
+ColdF/DG	LOW			
+	ABLA	C	20.1	Low in this subseries
+	PICO	C	19.9	Low
+	PIEN	s/C	16.2	Low in this subseries
+	PSME	s	5.7	Low in this subseries
+	PIAL	s	3.6	Low in this subseries
+	PIFL	s	2.9	Low in this subseries
+ColdF/DH	HCLIMAX			
+	ABLA	C	22.9	May occur
+	PIEN	C	22	May occur
+	PICO	S	15.1	Low
+	PSME	s	13.3	Low in this subseries
+	PIAL	s	4.3	Low in this subseries
+	PIFL	s	0.6	Low in this subseries
+ColdF/DS	HCLIMAX			
+	PSME	S	19.9	May occur
+	ABLA	C	18.6	May occur
+	PICO	S	17	Low
+	PIEN	s/C	9.5	May occur
+	PIAL	s	8.3	Low in this subseries
+	PIFL	s	2.5	Low in this subseries
+ColdF/WF	HCLIMAX			
+	PIEN	C	39.6	May occur
+	ABLA	c	6.4	May occur
+	PICO	s	2.9	Low
+	PIAL	a	0.4	Low in this subseries
+	PIFL	a	0.4	Low in this subseries
+	PSME	a	0.4	Low in this subseries
+ColdF/WH	HCLIMAX			
+	ABLA	C	28.2	May occur
+	PIEN	C	27	May occur
+	PSME	S	8.5	May occur
+	PICO	s	4	Low
+	PIAL	a	0.3	Low in this subseries
+CoolP/DG	LOW			
+	PICO	C	26.8	Low
+	PIAL	C	24.2	Low in this subseries
+	PIFL	s	6.7	Low in this subseries
+	PIEN	a	0.3	Low in this subseries
+	ABLA	a	0.2	Low in this subseries
+	PSME	a	0.1	Low in this subseries
+CoolP/DS	LOW			
+	PIAL	C	24.9	Low in this subseries
+	PIFL	C	22.4	Low in this subseries
+	PICO	S	14.9	Low
+	PSME	s	2.3	Low in this subseries
+	ABLA	s	0.6	Low in this subseries
+	PIEN	a	0.4	Low in this subseries
+DF/DG	LOW			
+	PSME	C	46.7	Low in this subseries
+	PIFL	S	11.2	Low in this subseries
+	PICO	s	0.5	Low
+DF/DH	HCLIMAX			
+	PSME	C	51.6	May occur
+	PICO	S	7.5	Low
+	PIFL	a	0.4	Low in this subseries
+	ABLA	a	0.1	May occur
+DF/DS	LOW			
+	PSME	C	50	Low in this subseries
+	PIFL	c	3.7	Low in this subseries
+	PICO	s	2.9	Low
+	PIEN	a	0.2	Low in this subseries
+	PIAL	a	0.1	Low in this subseries
+	ABLA	a	0.1	Low in this subseries

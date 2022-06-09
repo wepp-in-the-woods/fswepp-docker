@@ -1,0 +1,41 @@
+WE	wepp-23324	"03:57 pm  Tuesday January 18, 1977"	"DENVER WB AP CO"	clay	40	forest	10	50	30	300	h			ft
+WE	wepp-23463	"04:00 pm  Tuesday January 18, 1977"	"DENVER WB AP CO"	clay	30	forest	10	50	30	300	h			ft
+WE	wepp-23592	"04:06 pm  Tuesday January 18, 1992"	"DENVER WB AP CO"	clay	25	forest	10	40	20	300	h			ft
+WE	wepp-23715	"04:09 pm  Tuesday January 18, 1940"	"CUBA NM"	clay	25	forest	10	40	20	300	h			ft
+WD	wepp-25877	"12:17 pm  Monday January 31, 2011"	"CUBA NM"	30	clay	high	100	0	50	65	30	tree20	100	20	0	65	30	0	ft	"exstng_trial_1"
+WD	wepp-25882	"12:17 pm  Monday January 31, 2011"	"CUBA NM"	30	clay	high	100	0	50	65	30	tree20	100	20	0	65	30	0	ft	"exstng_trial_1"
+WF	wepp-25918	"12:21 pm  Monday January 31, 2011"	"CUBA NM"	clay	200	20	0	20	5	8	10	40	3	ft
+WE	wepp-25984	"12:27 pm  Monday January 31, 1955"	"CUBA NM"	clay	20	forest	0	20	5	300	h			ft
+WD	wepp-26154	"12:38 pm  Monday January 31, 2011"	"CUBA NM"	30	clay	high	100	0	50	5	30	tree5	100	30	5	5	30	0	ft	"WEPP_Distrbd_trial01"
+WD	wepp-26186	"12:40 pm  Monday January 31, 2011"	"CUBA NM"	30	clay	high	100	0	50	5	30	high	100	30	5	45	30	0	ft	"WEPP_Distrbd_trial01"
+WF	wepp-26193	"12:43 pm  Monday January 31, 2011"	"CUBA NM"	clay	200	5	0	50	5	8	10	40	3	ft
+WF	wepp-26274	"12:46 pm  Monday January 31, 2011"	"CUBA NM"	clay	200	5	0	10	3	8	10	40	3	ft
+WF	wepp-26429	"12:56 pm  Monday January 31, 2011"	"JEMEZ SPRINGS NM"	clay	200	5	0	30	10	10	20	20	3	ft
+WD	wepp-11100	"08:22 am  Tuesday February 8, 2011"	"JEMEZ SPRINGS NM"	30	clay	high	50	0	30	5	20	high	50	30	5	5	20	0	ft	""
+WE	wepp-11771	"09:28 am  Tuesday February 8, 1996"	"JEMEZ SPRINGS NM"	clay	20	forest	0	50	30	300	h			ft
+WE	wepp-22695	"06:13 am  Wednesday February 9, 1996"	"JEMEZ SPRINGS NM"	clay	20	forest	0	50	30	300	h			ft
+WR	wepp-13820	"09:54 am  Wednesday February 16, 2011"	"JEMEZ SPRINGS NM"	30	clay	native	200	4	13	2	1	20	10	20	outrut	ft
+WF	wepp-19237	"03:18 pm  Wednesday February 16, 2011"	"JEMEZ SPRINGS NM"	clay	200	10	0	30	15	8	10	40	0.5	ft
+WF	wepp-31835	"08:14 am  Thursday February 17, 2011"	"JEMEZ SPRINGS NM"	clay	200	5	0	30	15	8	10	40	5	ft
+WF	wepp-32064	"08:41 am  Thursday February 17, 2011"	"JEMEZ SPRINGS NM"	clay	200	5	0	40	15	8	10	40	3	ft
+WF	wepp-32123	"08:43 am  Thursday February 17, 2011"	"JEMEZ SPRINGS NM"	clay	200	5	0	40	15	8	10	40	2.5	ft
+WE	wepp-32302	"08:56 am  Thursday February 17, 1953"	"JEMEZ SPRINGS NM"	clay	30	forest	0	30	10	300	l			ft
+WE	wepp-32379	"08:58 am  Thursday February 17, 1953"	"JEMEZ SPRINGS NM"	clay	30	forest	0	30	10	300	h			ft
+WE	wepp-32468	"08:59 am  Thursday February 17, 1953"	"JEMEZ SPRINGS NM"	clay	30	forest	0	40	10	300	l			ft
+WE	wepp-32518	"08:59 am  Thursday February 17, 1953"	"JEMEZ SPRINGS NM"	clay	30	forest	0	40	10	300	h			ft
+wt	wepp-1796	"Feb 17, 2011"	"JEMEZ SPRINGS NM"	volcanic	HighFire	0	30	200	45	30	YoungForest	10	5	200	50	30	ft	"Vallecito"
+WD	wepp-1849	"11:56 am  Thursday February 17, 2011"	"JEMEZ SPRINGS NM"	4	clay	high	200	5	30	45	30	high	200	30	5	45	20	0	ft	""
+WF	wepp-1910	"12:00 pm  Thursday February 17, 2011"	"JEMEZ SPRINGS NM"	clay	200	5	0	30	15	10	10	40	5	ft
+WE	wepp-2161	"12:20 pm  Thursday February 17, 1953"	"JEMEZ SPRINGS NM"	clay	30	forest	0	30	10	200	h			ft
+WE	wepp-2350	"12:25 pm  Thursday February 17, 1953"	"JEMEZ SPRINGS NM"	clay	30	forest	0	40	10	200	h			ft
+WF	wepp-2510	"12:28 pm  Thursday February 17, 2011"	"JEMEZ SPRINGS NM"	clay	200	10	0	40	15	10	10	40	3	ft
+WE	wepp-2603	"12:32 pm  Thursday February 17, 1953"	"JEMEZ SPRINGS NM"	clay	30	forest	0	40	10	200	h			ft
+WD	wepp-2787	"12:36 pm  Thursday February 17, 2011"	"JEMEZ SPRINGS NM"	4	clay	high	200	0	30	45	30	high	200	30	5	45	30	0	ft	""
+WD	wepp-2792	"12:37 pm  Thursday February 17, 2011"	"JEMEZ SPRINGS NM"	1	clay	high	200	0	30	45	30	high	200	30	5	45	30	0	ft	""
+WD	wepp-2797	"12:37 pm  Thursday February 17, 2011"	"JEMEZ SPRINGS NM"	5	clay	high	200	0	30	45	30	high	200	30	5	45	30	0	ft	""
+WD	wepp-2829	"12:38 pm  Thursday February 17, 2011"	"JEMEZ SPRINGS NM"	8	clay	high	200	0	30	45	30	high	200	30	5	45	30	0	ft	""
+WD	wepp-2834	"12:38 pm  Thursday February 17, 2011"	"JEMEZ SPRINGS NM"	2	clay	high	200	0	30	45	30	high	200	30	5	45	30	0	ft	""
+WD	wepp-2839	"12:38 pm  Thursday February 17, 2011"	"JEMEZ SPRINGS NM"	4	clay	high	200	0	30	45	30	high	200	30	5	45	30	0	ft	""
+WD	wepp-2965	"12:47 pm  Thursday February 17, 2011"	"JEMEZ SPRINGS NM"	4	clay	high	200	0	40	45	30	high	200	40	5	45	30	0	ft	""
+WD	wepp-2971	"12:49 pm  Thursday February 17, 2011"	"JEMEZ SPRINGS NM"	4	clay	high	200	0	45	45	30	high	200	45	5	45	30	0	ft	""
+WE	wepp-8703	"10:10 am  Tuesday March 15, 1996"	"JEMEZ SPRINGS NM"	clay	20	forest	0	50	30	300	l			ft

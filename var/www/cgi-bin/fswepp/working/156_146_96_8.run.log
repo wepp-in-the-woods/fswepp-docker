@@ -1,0 +1,17 @@
+WR	wepp-21997	"09:22 am  Wednesday May 4, 2022"	"SAINT MARIES ID"	30	silt	graveled	200	4	13	15	50	1	25	20	inveg	ft
+WR	wepp-22060	"09:25 am  Wednesday May 4, 2022"	"SAINT MARIES ID"	30	silt	graveled	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-22104	"09:27 am  Wednesday May 4, 2022"	"SAINT MARIES ID"	30	silt	paved	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-22149	"09:29 am  Wednesday May 4, 2022"	"SAINT MARIES ID + + +"	30	clay	native	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-22270	"09:30 am  Wednesday May 4, 2022"	"SAINT MARIES ID + + +"	30	silt	graveled	200	4	13	15	50	1	25	20	inveg	ft
+WR	wepp-22326	"09:30 am  Wednesday May 4, 2022"	"SAINT MARIES ID + + +"	30	silt	graveled	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-22379	"09:31 am  Wednesday May 4, 2022"	"SAINT MARIES ID + + +"	30	silt	paved	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-22430	"09:33 am  Wednesday May 4, 2022"	"SAINT MARIES ID + + +"	30	silt	graveled	200	4	13	15	50	1	25	20	outunrut	ft
+WD	wepp-23059	"09:52 am  Wednesday May 4, 2022"	"SAINT MARIES ID + + +"	10	silt	OldForest	400	0	30	100	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-23110	"09:53 am  Wednesday May 4, 2022"	"SAINT MARIES ID + + +"	10	silt	OldForest	400	0	30	100	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-23148	"09:53 am  Wednesday May 4, 2022"	"SAINT MARIES ID + + +"	10	silt	OldForest	400	0	30	100	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-23227	"09:55 am  Wednesday May 4, 2022"	"SAINT MARIES ID + + +"	10	silt	Sod	400	0	30	40	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-23287	"09:57 am  Wednesday May 4, 2022"	"SAINT MARIES ID + + +"	10	silt	Sod	400	0	30	40	20	OldForest	30	30	5	100	20	0	ft	""
+WD	wepp-23348	"09:58 am  Wednesday May 4, 2022"	"SAINT MARIES ID + + +"	10	silt	LowFire	400	0	30	85	20	LowFire	75	30	5	85	20	0	ft	""
+WD	wepp-23485	"10:03 am  Wednesday May 4, 2022"	"SAINT MARIES ID + + +"	10	clay	HighFire	400	0	30	45	20	HighFire	75	30	5	45	20	0	ft	""
+WD	wepp-23535	"10:04 am  Wednesday May 4, 2022"	"SAINT MARIES ID + + +"	10	clay	HighFire	400	0	30	20	20	HighFire	75	30	5	20	20	0	ft	""
+WD	wepp-23596	"10:06 am  Wednesday May 4, 2022"	"SAINT MARIES ID + + +"	10	clay	Skid	400	0	30	20	20	OldForest	30	30	5	100	20	0	ft	""

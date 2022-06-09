@@ -1,0 +1,34 @@
+WF	wepp-3675	"10:39 am  Monday February 15, 2010"	"Wildcat Spring +"	silt	200	50	0	40	15	50	10	30	4	ft
+WF	wepp-3709	"10:40 am  Monday February 15, 2010"	"Wildcat Spring +"	silt	200	50	0	40	15	50	10	30	2.2	ft
+WF	wepp-3745	"10:42 am  Monday February 15, 2010"	"Wildcat Spring +"	silt	200	50	0	40	15	5	10	30	2.2	ft
+WF	wepp-3804	"10:42 am  Monday February 15, 2010"	"Wildcat Spring +"	silt	200	50	0	40	15	50	10	30	2.2	ft
+WF	wepp-4281	"11:34 am  Monday February 15, 2010"	"Wildcat Spring +"	silt	400	50	0	40	15	50	10	50	2.2	ft
+WF	wepp-4316	"11:35 am  Monday February 15, 2010"	"Wildcat Spring +"	silt	400	50	0	40	15	50	10	30	2.2	ft
+WF	wepp-4379	"11:38 am  Monday February 15, 2010"	"Wildcat Spring +"	silt	400	50	0	40	15	100	10	50	2.2	ft
+WF	wepp-4666	"12:12 pm  Monday February 15, 2010"	"Wildcat Spring +"	silt	800	50	0	40	15	100	10	50	2.2	ft
+WR	wepp-4851	"12:23 pm  Monday February 15, 2010"	"Wildcat Spring +"	50	silt	native	300	4	13	13	80	50	15	20	inveg
+WR	wepp-4856	"12:24 pm  Monday February 15, 2010"	"Wildcat Spring +"	50	silt	native	300	4	13	13	80	50	15	20	inveg
+WR	wepp-4861	"12:24 pm  Monday February 15, 2010"	"Wildcat Spring +"	50	silt	graveled	300	4	13	13	80	50	15	20	outrut
+WR	wepp-7000	"05:00 pm  Monday February 15, 2010"	"Wildcat Spring +"	200	clay	graveled	200	4	16	15	50	50	15	20	inveg
+WR	wepp-7005	"05:00 pm  Monday February 15, 2010"	"Wildcat Spring +"	50	clay	graveled	200	4	16	15	50	50	15	20	inveg
+WR	wepp-7444	"05:24 pm  Monday February 15, 2010"	"Wildcat Spring +"	50	clay	native	200	4	16	15	50	50	15	20	outunrut
+WR	wepp-7449	"05:24 pm  Monday February 15, 2010"	"Wildcat Spring +"	50	silt	native	200	4	16	15	50	50	15	20	outunrut
+WR	wepp-7482	"05:26 pm  Monday February 15, 2010"	"Wildcat Spring +"	50	silt	native	200	4	16	15	50	25	15	20	outunrut
+WR	wepp-7489	"05:28 pm  Monday February 15, 2010"	"Wildcat Spring +"	50	silt	graveled	200	4	16	15	50	25	15	20	inveg
+WD	wepp-7807	"06:08 pm  Monday February 15, 2010"	"Wildcat Spring +"	50	silt	tree5	60.9756097560976	0	40	100	20	tree5	60.9756097560976	40	5	100	20	0	ft	""
+WD	wepp-7812	"06:09 pm  Monday February 15, 2010"	"Wildcat Spring +"	50	silt	tree5	60.9756097560976	0	40	87	20	tree5	60.9756097560976	40	5	87	20	0	ft	""
+WD	wepp-7817	"06:09 pm  Monday February 15, 2010"	"Wildcat Spring +"	50	silt	tree5	60.9756097560976	0	40	50	20	tree5	60.9756097560976	40	5	50	20	0	ft	""
+WD	wepp-7850	"06:13 pm  Monday February 15, 2010"	"Wildcat Spring +"	50	silt	tree5	60.9756097560976	0	40	100	20	tree5	60.9756097560976	40	5	100	20	0	ft	""
+WD	wepp-7855	"06:13 pm  Monday February 15, 2010"	"Wildcat Spring +"	50	silt	tree5	60.9756097560976	0	40	90	20	tree5	60.9756097560976	40	5	90	20	0	ft	""
+WD	wepp-7860	"06:13 pm  Monday February 15, 2010"	"Wildcat Spring +"	50	silt	tree5	60.9756097560976	0	40	90	20	tree5	60.9756097560976	40	5	90	20	0	ft	""
+WD	wepp-8077	"06:42 pm  Monday February 15, 2010"	"Wildcat Spring +"	50	silt	tree5	60.9756097560976	0	40	90	20	tree5	60.9756097560976	40	5	90	20	0	ft	""
+WD	wepp-8082	"06:44 pm  Monday February 15, 2010"	"Wildcat Spring +"	50	silt	tree5	60.9756097560976	0	40	75	20	tree5	60.9756097560976	40	5	75	20	0	ft	""
+WD	wepp-8106	"06:45 pm  Monday February 15, 2010"	"Wildcat Spring +"	50	silt	tree5	60.9756097560976	0	40	75	20	tree5	60.9756097560976	40	5	75	20	0	ft	""
+WD	wepp-8139	"06:47 pm  Monday February 15, 2010"	"Wildcat Spring +"	50	silt	low	60.9756097560976	0	40	75	20	low	60.9756097560976	40	5	85	20	0	ft	""
+WD	wepp-8144	"06:48 pm  Monday February 15, 2010"	"Wildcat Spring +"	50	silt	low	60.9756097560976	0	40	90	20	low	60.9756097560976	40	5	90	20	0	ft	""
+WD	wepp-8149	"06:49 pm  Monday February 15, 2010"	"Wildcat Spring +"	50	silt	low	60.9756097560976	0	40	80	20	low	60.9756097560976	40	5	80	20	0	ft	""
+WD	wepp-8154	"06:49 pm  Monday February 15, 2010"	"Wildcat Spring +"	50	silt	low	60.9756097560976	0	40	85	20	low	60.9756097560976	40	5	85	20	0	ft	""
+WD	wepp-8188	"06:52 pm  Monday February 15, 2010"	"Wildcat Spring +"	50	silt	low	60.9756097560976	0	40	95	20	low	60.9756097560976	40	5	95	20	0	ft	""
+WD	wepp-8193	"06:53 pm  Monday February 15, 2010"	"Wildcat Spring +"	50	silt	low	60.9756097560976	0	40	85	20	low	60.9756097560976	40	5	85	20	0	ft	""
+WD	wepp-8227	"06:58 pm  Monday February 15, 2010"	"Wildcat Spring +"	50	silt	high	60.9756097560976	0	40	45	20	high	60.9756097560976	40	5	45	20	0	ft	""
+WR	wepp-8283	"07:05 pm  Monday February 15, 2010"	"Wildcat Spring +"	50	silt	graveled	200	4	16	15	50	25	15	20	inbare

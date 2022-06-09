@@ -1,0 +1,169 @@
+WE	wepp-13261	"00:33 am  Tuesday February 15, 1975"	"BIRMINGHAM WB AP AL"	clay	20	chap	0	50	30	300	l	80	0	ft
+WE	wepp-13314	"00:35 am  Tuesday February 15, 1975"	"BIRMINGHAM WB AP AL"	clay	20	chap	0	50	30	300	h	80	0	ft
+WR	wepp-13480	"00:41 am  Tuesday February 15, 2011"	"BIRMINGHAM WB AP AL"	30	clay	native	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-13485	"00:43 am  Tuesday February 15, 2011"	"BIRMINGHAM WB AP AL"	30	clay	native	820	3	13.12	9.84	45	164	25	20	inveg	ft
+WR	wepp-13490	"00:44 am  Tuesday February 15, 2011"	"BIRMINGHAM WB AP AL"	30	clay	graveled	820	3	13.12	9.84	45	164	25	20	inveg	ft
+WR	wepp-13495	"00:45 am  Tuesday February 15, 2011"	"BIRMINGHAM WB AP AL"	30	clay	paved	820	3	13.12	9.84	45	164	25	20	inveg	ft
+WE	wepp-13555	"00:51 am  Tuesday February 15, 1942"	"DENVER WB AP CO"	sand	20	forest	0	50	30	300	l			ft
+WE	wepp-13632	"00:52 am  Tuesday February 15, 1943"	"FLAGSTAFF WB AP AZ"	clay	50	chap		0	0	1000	h	40	10	ft
+WE	wepp-13724	"00:54 am  Tuesday February 15, 1976"	"MOSCOW U OF I ID"	sand	40	chap	20	20	20	1000	h	40	20	ft
+WE	wepp-13814	"00:55 am  Tuesday February 15, 1976"	"MOSCOW U OF I ID"	clay	40	chap	20	20	20	1000	h	40	20	ft
+WR	wepp-14019	"01:10 am  Tuesday February 15, 2011"	"MOSCOW U OF I ID"	30	clay	native	820	6	13.12	9.84	45	164	25	40	outrut	ft
+WR	wepp-14052	"01:13 am  Tuesday February 15, 2011"	"MOSCOW U OF I ID"	30	clay	graveled	820	6	13.12	9.84	45	164	25	40	outrut	ft
+WR	wepp-14058	"01:14 am  Tuesday February 15, 2011"	"MOSCOW U OF I ID"	30	clay	paved	820	6	13.12	9.84	45	164	25	40	outrut	ft
+WE	wepp-14655	"02:26 am  Tuesday February 15, 1979"	"MOSCOW U OF I ID"	clay	50	chap	20	20	20	1000	h	30	20	ft
+WE	wepp-14792	"02:31 am  Tuesday February 15, 1945"	"FLAGSTAFF WB AP AZ"	clay	50	chap	20	20	20	1000	h	30	20	ft
+WR	wepp-15375	"02:53 am  Tuesday February 15, 2011"	"FLAGSTAFF WB AP AZ"	30	clay	native	820	3	13.12	9.84	45	164	25	50	outrut	ft
+WR	wepp-15381	"02:53 am  Tuesday February 15, 2011"	"FLAGSTAFF WB AP AZ"	30	clay	native	820	3	13.12	9.84	45	164	25	50	outrut	ft
+WR	wepp-15391	"02:54 am  Tuesday February 15, 2011"	"SEELEY LAKE RS MT 22.55 +"	30	clay	native	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-15425	"02:57 am  Tuesday February 15, 2011"	"SEELEY LAKE RS MT 22.55 +"	30	clay	native	200	4	13	15	50	130	25	20	outunrut	ft
+WR	wepp-15497	"03:05 am  Tuesday February 15, 2011"	"SEELEY LAKE RS MT 22.55 +"	30	clay	graveled	200	4	13	15	50	130	25	20	outunrut	ft
+WR	wepp-15506	"03:06 am  Tuesday February 15, 2011"	"SEELEY LAKE RS MT 22.55 +"	30	clay	paved	200	4	13	15	50	130	25	20	outunrut	ft
+WR	wepp-15541	"03:08 am  Tuesday February 15, 2011"	"FLAGSTAFF WB AP AZ"	30	clay	native	820	3	13	9.84	45	164	25	50	outunrut	ft
+WR	wepp-15546	"03:08 am  Tuesday February 15, 2011"	"FLAGSTAFF WB AP AZ"	30	clay	graveled	820	3	13	9.84	45	164	25	50	outunrut	ft
+WR	wepp-15551	"03:09 am  Tuesday February 15, 2011"	"FLAGSTAFF WB AP AZ"	30	clay	paved	820	3	13	9.84	45	164	25	50	outunrut	ft
+WR	wepp-16156	"04:12 am  Tuesday February 15, 2011"	"FLAGSTAFF WB AP AZ"	30	clay	native	820	3	13.12	9.84	45	164	25	0	outunrut	ft
+WR	wepp-16188	"04:13 am  Tuesday February 15, 2011"	"FLAGSTAFF WB AP AZ"	30	clay	graveled	820	3	13.12	9.84	45	164	25	0	outunrut	ft
+WR	wepp-16329	"04:25 am  Tuesday February 15, 2011"	"FLAGSTAFF WB AP AZ"	30	clay	native	820	3	13	9.84	45	160	25	0	outunrut	ft
+WR	wepp-16334	"04:26 am  Tuesday February 15, 2011"	"FLAGSTAFF WB AP AZ"	30	clay	graveled	820	3	13	9.84	45	160	25	0	outunrut	ft
+WR	wepp-16340	"04:27 am  Tuesday February 15, 2011"	"FLAGSTAFF WB AP AZ"	30	clay	paved	820	3	13	9.84	45	160	25	0	outunrut	ft
+WR	wepp-16392	"04:30 am  Tuesday February 15, 2011"	"FLAGSTAFF WB AP AZ"	1	clay	paved	820	3	13	9.84	45	160	25	0	outunrut	ft
+WR	wepp-16397	"04:31 am  Tuesday February 15, 2011"	"FLAGSTAFF WB AP AZ"	1	clay	paved	820	3	13	9.84	45	160	25	0	outunrut	ft
+WR	wepp-16431	"04:35 am  Tuesday February 15, 2011"	"BIRMINGHAM WB AP AL"	30	clay	native	820	3	13	9.84	45	160	25	0	outunrut	ft
+WR	wepp-16436	"04:35 am  Tuesday February 15, 2011"	"BIRMINGHAM WB AP AL"	30	clay	graveled	820	3	13	9.84	45	160	25	0	outunrut	ft
+WR	wepp-16441	"04:36 am  Tuesday February 15, 2011"	"BIRMINGHAM WB AP AL"	30	sand	paved	820	3	13	9.84	45	160	25	0	outunrut	ft
+WR	wepp-16446	"04:36 am  Tuesday February 15, 2011"	"BIRMINGHAM WB AP AL"	30	sand	graveled	820	3	13	9.84	45	160	25	0	outunrut	ft
+WR	wepp-16451	"04:37 am  Tuesday February 15, 2011"	"BIRMINGHAM WB AP AL"	30	sand	native	820	3	13	9.84	45	160	25	0	outunrut	ft
+WR	wepp-16483	"04:38 am  Tuesday February 15, 2011"	"BIRMINGHAM WB AP AL"	30	sand	graveled	820	3	13	9.84	45	160	25	0	outunrut	ft
+WR	wepp-16488	"04:38 am  Tuesday February 15, 2011"	"BIRMINGHAM WB AP AL"	30	sand	paved	820	3	13	9.84	45	160	25	0	outunrut	ft
+WR	wepp-16493	"04:39 am  Tuesday February 15, 2011"	"BIRMINGHAM WB AP AL"	1	clay	native	820	3	13	9.84	45	160	25	0	outunrut	ft
+WR	wepp-16498	"04:40 am  Tuesday February 15, 2011"	"BIRMINGHAM WB AP AL"	1	clay	graveled	820	3	13	9.84	45	160	25	0	outunrut	ft
+WR	wepp-16503	"04:40 am  Tuesday February 15, 2011"	"BIRMINGHAM WB AP AL"	1	clay	paved	820	3	13	9.84	45	160	25	0	outunrut	ft
+WE	wepp-30336	"06:10 am  Thursday February 17, 1956"	"DENVER WB AP CO"	silt	35	chap	0	50	30	200	l	75	5	m
+WE	wepp-30371	"06:10 am  Thursday February 17, 1965"	"DENVER WB AP CO"	clay	20	chap	0	50	30	200	l	80	0	m
+WE	wepp-30465	"06:14 am  Thursday February 17, 1956"	"DENVER WB AP CO"	silt	35	chap	0	50	30	200	h	75	5	m
+WE	wepp-30610	"06:17 am  Thursday February 17, 1965"	"DENVER WB AP CO"	clay	20	chap	0	50	30	200	h	80	0	m
+WE	wepp-30700	"06:18 am  Thursday February 17, 1965"	"DENVER WB AP CO"	clay	20	chap	0	50	30	200	l	80	0	m
+WR	wepp-30758	"06:20 am  Thursday February 17, 2011"	"SEELEY LAKE RS MT 22.55 +"	30	clay	native	250	3	4	3	45	50	25	20	inveg	m
+WR	wepp-30763	"06:20 am  Thursday February 17, 2011"	"SEELEY LAKE RS MT 22.55 +"	30	clay	native	250	6	4	3	45	50	25	20	inveg	m
+WR	wepp-30795	"06:22 am  Thursday February 17, 2011"	"SEELEY LAKE RS MT 22.55 +"	30	clay	native	250	6	4	3	45	50	25	20	inveg	m
+WR	wepp-30800	"06:22 am  Thursday February 17, 2011"	"SEELEY LAKE RS MT 22.55 +"	30	clay	native	250	3	4	3	45	50	25	20	inveg	m
+WR	wepp-30805	"06:22 am  Thursday February 17, 2011"	"SEELEY LAKE RS MT 22.55 +"	30	clay	native	250	3	4	3	45	50	25	20	inveg	m
+WR	wepp-30810	"06:22 am  Thursday February 17, 2011"	"SEELEY LAKE RS MT 22.55 +"	30	clay	native	250	3	4	3	45	50	25	20	inveg	m
+WR	wepp-30815	"06:24 am  Thursday February 17, 2011"	"SEELEY LAKE RS MT 22.55 +"	30	clay	graveled	250	3	4	3	45	50	25	20	inveg	m
+WR	wepp-30820	"06:25 am  Thursday February 17, 2011"	"SEELEY LAKE RS MT 22.55 +"	30	clay	paved	250	3	4	3	45	50	25	20	inveg	m
+WR	wepp-30852	"06:26 am  Thursday February 17, 2011"	"SEELEY LAKE RS MT 22.55 +"	30	clay	graveled	250	3	4	3	45	50	25	20	inveg	m
+WR	wepp-30858	"06:27 am  Thursday February 17, 2011"	"SEELEY LAKE RS MT 22.55 +"	30	clay	graveled	250	3	4	3	45	50	25	20	inbare	m
+WR	wepp-30864	"06:27 am  Thursday February 17, 2011"	"SEELEY LAKE RS MT 22.55 +"	30	clay	graveled	250	3	4	3	45	50	25	20	outrut	m
+WR	wepp-30871	"06:29 am  Thursday February 17, 2011"	"SEELEY LAKE RS MT 22.55 +"	30	clay	native	250	3	4	3	45	50	25	20	inveg	m
+WR	wepp-30897	"06:30 am  Thursday February 17, 2011"	"SEELEY LAKE RS MT 22.55 +"	30	clay	graveled	250	3	4	3	45	50	25	20	outunrut	m
+WR	wepp-30930	"06:33 am  Thursday February 17, 2011"	"SEELEY LAKE RS MT 22.55 +"	30	clay	paved	250	3	4	3	45	50	25	20	inveg	m
+WR	wepp-30963	"06:38 am  Thursday February 17, 2011"	"SEELEY LAKE RS MT 22.55 +"	30	clay	paved	250	3	4	3	45	50	25	20	inveg	m
+WR	wepp-30968	"06:38 am  Thursday February 17, 2011"	"SEELEY LAKE RS MT 22.55 +"	30	clay	native	250	3	4	3	45	50	25	20	inbare	m
+WR	wepp-30973	"06:39 am  Thursday February 17, 2011"	"SEELEY LAKE RS MT 22.55 +"	30	clay	graveled	250	3	4	3	45	50	25	20	inbare	m
+WR	wepp-30978	"06:39 am  Thursday February 17, 2011"	"SEELEY LAKE RS MT 22.55 +"	30	clay	paved	250	3	4	3	45	50	25	20	inbare	m
+WR	wepp-30983	"06:39 am  Thursday February 17, 2011"	"SEELEY LAKE RS MT 22.55 +"	30	clay	graveled	250	3	4	3	45	50	25	20	inbare	m
+WR	wepp-30988	"06:39 am  Thursday February 17, 2011"	"SEELEY LAKE RS MT 22.55 +"	30	clay	native	250	3	4	3	45	50	25	20	outrut	m
+WR	wepp-30993	"06:40 am  Thursday February 17, 2011"	"SEELEY LAKE RS MT 22.55 +"	30	clay	graveled	250	3	4	3	45	50	25	20	outrut	m
+WR	wepp-30998	"06:40 am  Thursday February 17, 2011"	"SEELEY LAKE RS MT 22.55 +"	30	clay	paved	250	3	4	3	45	50	25	20	outrut	m
+WR	wepp-31003	"06:40 am  Thursday February 17, 2011"	"SEELEY LAKE RS MT 22.55 +"	30	clay	paved	250	3	4	3	45	50	25	20	outunrut	m
+WR	wepp-31013	"06:40 am  Thursday February 17, 2011"	"SEELEY LAKE RS MT 22.55 +"	30	clay	native	250	3	4	3	45	50	25	20	outrut	m
+WR	wepp-31018	"06:40 am  Thursday February 17, 2011"	"SEELEY LAKE RS MT 22.55 +"	30	clay	native	250	3	4	3	45	50	25	20	outrut	m
+WR	wepp-31023	"06:40 am  Thursday February 17, 2011"	"SEELEY LAKE RS MT 22.55 +"	30	clay	graveled	250	3	4	3	45	50	25	20	outunrut	m
+WR	wepp-31028	"06:41 am  Thursday February 17, 2011"	"SEELEY LAKE RS MT 22.55 +"	30	clay	paved	250	3	4	3	45	50	25	20	outunrut	m
+WR	wepp-31239	"07:07 am  Thursday February 17, 2011"	"SEELEY LAKE RS MT 22.55 +"	30	clay	native	250	3	4	3	45	50	25	20	inbare	m
+WE	wepp-27047	"09:02 am  Monday February 21, 1941"	"DENVER WB AP CO"	clay	20	chap	0	50	30	300	l	80	0	ft
+WE	wepp-27160	"09:08 am  Monday February 21, 1965"	"DENVER WB AP CO"	clay	20	chap	0	50	30	200	l	80	0	m
+WE	wepp-27165	"09:08 am  Monday February 21, 1941"	"DENVER WB AP CO"	clay	20	chap	0	50	30	300	l	80	0	ft
+WE	wepp-27178	"09:08 am  Monday February 21, 1941"	"DENVER WB AP CO"	clay	20	chap	0	50	30	300	h	80	10	ft
+WE	wepp-27399	"09:09 am  Monday February 21, 1965"	"DENVER WB AP CO"	clay	20	chap	0	50	30	200	m	80	0	m
+WE	wepp-27464	"09:09 am  Monday February 21, 1956"	"DENVER WB AP CO"	clay	20	chap	0	50	30	100	l	80	0	m
+WE	wepp-27497	"09:09 am  Monday February 21, 1965"	"DENVER WB AP CO"	clay	20	chap	0	50	30	200	h	80	0	m
+WE	wepp-27569	"09:09 am  Monday February 21, 1956"	"DENVER WB AP CO"	clay	20	chap	0	50	30	100	m	80	0	m
+WE	wepp-27708	"09:09 am  Monday February 21, 1956"	"DENVER WB AP CO"	clay	20	chap	0	50	30	100	m	80	0	m
+WE	wepp-27753	"09:10 am  Monday February 21, 1956"	"DENVER WB AP CO"	clay	20	chap	0	50	30	100	h	80	0	m
+WE	wepp-27871	"09:10 am  Monday February 21, 1941"	"DENVER WB AP CO"	clay	20	chap	0	50	30	300	l	80	0	ft
+WE	wepp-27948	"09:14 am  Monday February 21, 1965"	"DENVER WB AP CO"	clay	20	chap	0	50	30	200	l	100	0	m
+WE	wepp-28019	"09:17 am  Monday February 21, 1965"	"DENVER WB AP CO"	clay	20	chap	0	50	30	200	h	0	100	m
+WE	wepp-28060	"09:17 am  Monday February 21, 1965"	"DENVER WB AP CO"	clay	20	chap	0	50	30	200	h	100	0	m
+WE	wepp-28273	"09:17 am  Monday February 21, 1915"	"DENVER WB AP CO"	clay	20	chap	0	50	30	200	h			m
+WE	wepp-28525	"09:20 am  Monday February 21, 1965"	"DENVER WB AP CO"	clay	20	chap	0	50	30	200	h	0	0	m
+WE	wepp-28617	"09:21 am  Monday February 21, 1915"	"DENVER WB AP CO"	clay	20	forest	0	50	30	100	l			m
+WE	wepp-28667	"09:22 am  Monday February 21, 1956"	"DENVER WB AP CO"	clay	20	chap	0	50	30	100	l	80	0	m
+WE	wepp-28719	"09:23 am  Monday February 21, 1956"	"DENVER WB AP CO"	clay	20	chap	0	50	30	100	m	80	0	m
+WE	wepp-28816	"09:24 am  Monday February 21, 1965"	"DENVER WB AP CO"	clay	20	chap	0	50	30	200	h	55	35	m
+WE	wepp-29068	"09:25 am  Monday February 21, 1956"	"DENVER WB AP CO"	clay	20	chap	0	50	30	100	h	80	0	m
+WE	wepp-29125	"09:25 am  Monday February 21, 1956"	"DENVER WB AP CO"	clay	20	chap	0	50	30	100	h	80	0	m
+WE	wepp-29369	"09:40 am  Monday February 21, 1942"	"DENVER WB AP CO"	clay	20	chap	0	50	30	100	h	100	0	m
+WE	wepp-29424	"09:41 am  Monday February 21, 1961"	"DENVER WB AP CO"	clay	20	chap	0	50	30	100	h	0	100	m
+WE	wepp-29581	"09:41 am  Monday February 21, 1961"	"DENVER WB AP CO"	clay	20	chap	0	50	30	100	h	0	0	m
+WE	wepp-9283	"05:54 am  Tuesday February 22, 1956"	"DENVER WB AP CO"	clay	20	chap	0	50	30	100	l	80	0	m
+WE	wepp-9362	"05:59 am  Tuesday February 22, 1956"	"DENVER WB AP CO"	clay	20	chap	0	50	30	100	m	80	0	m
+WE	wepp-9478	"06:00 am  Tuesday February 22, 1956"	"DENVER WB AP CO"	clay	20	chap	0	50	30	100	h	80	0	m
+WE	wepp-9568	"06:05 am  Tuesday February 22, 1956"	"DENVER WB AP CO"	clay	20	chap	0	50	30	100	m	80	0	m
+WE	wepp-9665	"06:08 am  Tuesday February 22, 1956"	"DENVER WB AP CO"	clay	20	chap	0	50	30	100	l	80	0	m
+WE	wepp-9743	"06:10 am  Tuesday February 22, 1956"	"DENVER WB AP CO"	clay	20	chap	0	50	30	100	l	80	0	m
+WE	wepp-18114	"08:59 am  Monday March 7, 1941"	"DENVER WB AP CO"	clay	20	chap	10	60	5	100	l	80	0	m
+WE	wepp-18184	"09:01 am  Monday March 7, 1941"	"DENVER WB AP CO"	clay	20	chap	10	60	5	100	l	80	10	m
+WE	wepp-18323	"09:12 am  Monday March 7, 1941"	"DENVER WB AP CO"	clay	20	chap	10	60	5	100	m	80	10	m
+WE	wepp-18394	"09:14 am  Monday March 7, 1941"	"DENVER WB AP CO"	clay	20	chap	10	60	5	100	h	80	10	m
+WE	wepp-18581	"09:21 am  Monday March 7, 1942"	"MOUNT SHASTA CA"	clay	20	chap	0	50	30	300	l	80	0	ft
+WE	wepp-18594	"09:21 am  Monday March 7, 1942"	"MOUNT SHASTA CA"	clay	20	chap	0	50	30	300	l	80	0	ft
+WE	wepp-18682	"09:23 am  Monday March 7, 1941"	"DENVER WB AP CO"	clay	20	chap	10	60	5	100	l	80	10	m
+WE	wepp-18737	"09:24 am  Monday March 7, 1942"	"MOUNT SHASTA CA"	clay	20	chap	0	50	30	300	h	80	0	ft
+WE	wepp-18904	"09:25 am  Monday March 7, 1956"	"DENVER WB AP CO"	clay	20	chap	10	60	5	100	l	50	10	m
+WE	wepp-18996	"09:26 am  Monday March 7, 1956"	"DENVER WB AP CO"	clay	20	chap	10	60	5	100	h	50	10	m
+WE	wepp-19086	"09:26 am  Monday March 7, 1916"	"MOUNT SHASTA CA"	clay	20	chap	0	50	30	300	h	50	20	ft
+WE	wepp-19222	"09:30 am  Monday March 7, 1941"	"DENVER WB AP CO"	clay	20	chap	10	60	5	100	h	80	5	m
+WE	wepp-19312	"09:32 am  Monday March 7, 1941"	"DENVER WB AP CO"	clay	20	chap	10	60	5	100	l	80	5	m
+WE	wepp-19409	"09:35 am  Monday March 7, 1956"	"DENVER WB AP CO"	clay	20	chap	10	60	5	100	l	50	10	m
+WE	wepp-19510	"09:43 am  Monday March 7, 1949"	"DENVER WB AP CO"	clay	20	chap	10	60	5	100	h	10	10	m
+WE	wepp-19552	"09:43 am  Monday March 7, 1916"	"MOUNT SHASTA CA"	clay	20	chap	0	50	30	300	l	50	20	ft
+WE	wepp-19704	"09:46 am  Monday March 7, 1942"	"MOUNT SHASTA CA"	clay	20	chap	0	50	30	300	l	80	0	ft
+WE	wepp-19754	"09:46 am  Monday March 7, 1916"	"MOUNT SHASTA CA"	clay	20	chap	0	50	30	300	l	50	20	ft
+WE	wepp-19806	"09:47 am  Monday March 7, 1916"	"MOUNT SHASTA CA"	clay	20	chap	0	50	30	300	h	50	20	ft
+WE	wepp-19899	"09:47 am  Monday March 7, 1916"	"MOUNT SHASTA CA"	clay	20	chap	0	50	30	300	l	50	20	ft
+WE	wepp-19949	"09:48 am  Monday March 7, 1916"	"MOUNT SHASTA CA"	clay	20	chap	0	50	30	300	h	50	20	ft
+WE	wepp-20070	"09:51 am  Monday March 7, 1916"	"MOUNT SHASTA CA"	clay	20	chap	0	50	30	300	l	50	20	ft
+WR	wepp-20120	"09:52 am  Monday March 7, 2011"	"SEELEY LAKE RS MT 22.55 +"	30	clay	native	250	3	4	3	45	50	25	20	inbare	m
+WE	wepp-20153	"09:55 am  Monday March 7, 1942"	"MOUNT SHASTA CA"	clay	20	chap	0	50	30	300	l	80	0	ft
+WR	wepp-20250	"10:02 am  Monday March 7, 2011"	"SEELEY LAKE RS MT 22.55 +"	30	clay	native	250	3	4	3	45	50	25	20	inbare	m
+WR	wepp-20259	"10:02 am  Monday March 7, 2011"	"SEELEY LAKE RS MT 22.55 +"	30	clay	graveled	250	3	4	3	45	50	25	20	inbare	m
+WR	wepp-20264	"10:02 am  Monday March 7, 2011"	"SEELEY LAKE RS MT 22.55 +"	30	clay	paved	250	3	4	3	45	50	25	20	inbare	m
+WR	wepp-20269	"10:03 am  Monday March 7, 2011"	"SEELEY LAKE RS MT 22.55 +"	30	clay	native	250	3	4	3	45	50	25	20	inveg	m
+WR	wepp-20274	"10:03 am  Monday March 7, 2011"	"SEELEY LAKE RS MT 22.55 +"	30	clay	graveled	250	3	4	3	45	50	25	20	inveg	m
+WR	wepp-20279	"10:03 am  Monday March 7, 2011"	"SEELEY LAKE RS MT 22.55 +"	30	clay	paved	250	3	4	3	45	50	25	20	inveg	m
+WR	wepp-20284	"10:04 am  Monday March 7, 2011"	"SEELEY LAKE RS MT 22.55 +"	30	clay	native	250	3	4	3	45	50	25	20	outrut	m
+WR	wepp-20289	"10:04 am  Monday March 7, 2011"	"SEELEY LAKE RS MT 22.55 +"	30	clay	graveled	250	3	4	3	45	50	25	20	outrut	m
+WR	wepp-20294	"10:05 am  Monday March 7, 2011"	"SEELEY LAKE RS MT 22.55 +"	30	clay	paved	250	3	4	3	45	50	25	20	outrut	m
+WR	wepp-20326	"10:05 am  Monday March 7, 2011"	"SEELEY LAKE RS MT 22.55 +"	30	clay	native	250	3	4	3	45	50	25	20	outunrut	m
+WR	wepp-20331	"10:05 am  Monday March 7, 2011"	"SEELEY LAKE RS MT 22.55 +"	30	clay	native	250	3	4	3	45	50	25	20	outunrut	m
+WR	wepp-20336	"10:05 am  Monday March 7, 2011"	"SEELEY LAKE RS MT 22.55 +"	30	clay	graveled	250	3	4	3	45	50	25	20	outunrut	m
+WR	wepp-20341	"10:06 am  Monday March 7, 2011"	"SEELEY LAKE RS MT 22.55 +"	30	clay	paved	250	3	4	3	45	50	25	20	outunrut	m
+WR	wepp-20346	"10:07 am  Monday March 7, 2011"	"SEELEY LAKE RS MT 22.55 +"	30	clay	native	250	3	13	15	45	164	25	20	inveg	ft
+WR	wepp-20379	"10:12 am  Monday March 7, 2011"	"SEELEY LAKE RS MT 22.55 +"	30	clay	native	250	3	13	15	45	164	25	20	inbare	ft
+WR	wepp-20390	"10:13 am  Monday March 7, 2011"	"SEELEY LAKE RS MT 22.55 +"	30	clay	native	250	3	4	3	45	50	25	20	inbare	m
+WR	wepp-20396	"10:14 am  Monday March 7, 2011"	"SEELEY LAKE RS MT 22.55 +"	30	clay	native	250	3	4	3	45	50	25	20	inbare	m
+WR	wepp-14340	"07:51 am  Wednesday March 9, 2011"	"SEELEY LAKE RS MT 22.55 +"	30	clay	native	250	3	4	3	45	50	25	20	inveg	m
+WR	wepp-14350	"07:54 am  Wednesday March 9, 2011"	"SEELEY LAKE RS MT 22.55 +"	30	clay	native	250	3	4	3	45	50	25	20	inveg	m
+WR	wepp-14357	"07:55 am  Wednesday March 9, 2011"	"SEELEY LAKE RS MT 22.55 +"	30	clay	graveled	250	3	4	3	45	50	25	20	inveg	m
+WR	wepp-14401	"07:56 am  Wednesday March 9, 2011"	"SEELEY LAKE RS MT 22.55 +"	30	clay	paved	250	3	4	3	45	50	25	20	inveg	m
+WE	wepp-14416	"07:58 am  Wednesday March 9, 1909"	"SEXTON SUMMIT WB OR"	clay	20	chap	0	50	30	100	l	80	0	m
+WE	wepp-4420	"05:28 am  Friday March 11, 1941"	"DENVER WB AP CO"	clay	20	chap	0	50	30	300	m	80	10	ft
+WE	wepp-4564	"05:39 am  Friday March 11, 1941"	"DENVER WB AP CO"	clay	20	chap	0	50	30	300	l	80	10	ft
+WE	wepp-4616	"05:41 am  Friday March 11, 1941"	"DENVER WB AP CO"	clay	20	chap	0	50	30	300	h	80	10	ft
+WE	wepp-4738	"05:43 am  Friday March 11, 1941"	"DENVER WB AP CO"	clay	20	chap	0	50	30	300	h	80	20	ft
+WE	wepp-4831	"05:44 am  Friday March 11, 1941"	"DENVER WB AP CO"	clay	20	chap	0	50	30	300	m	80	20	ft
+WE	wepp-4921	"05:46 am  Friday March 11, 1941"	"DENVER WB AP CO"	clay	20	chap	0	50	30	300	l	80	20	ft
+WR	wepp-5142	"06:09 am  Friday March 11, 2011"	"SEELEY LAKE RS MT 22.55 +"	30	silt	native	250	3	4	3	45	50	25	20	inbare	ft
+WR	wepp-5174	"06:13 am  Friday March 11, 2011"	"SEELEY LAKE RS MT 22.55 +"	30	silt	graveled	250	3	4	3	45	50	25	20	inbare	ft
+WR	wepp-5179	"06:14 am  Friday March 11, 2011"	"SEELEY LAKE RS MT 22.55 +"	30	silt	paved	250	3	4	3	45	50	25	20	inbare	ft
+WR	wepp-5203	"06:15 am  Friday March 11, 2011"	"SEELEY LAKE RS MT 22.55 +"	30	silt	native	250	3	4	3	45	50	25	20	inveg	ft
+WR	wepp-5208	"06:16 am  Friday March 11, 2011"	"SEELEY LAKE RS MT 22.55 +"	30	silt	graveled	250	3	4	3	45	50	25	20	inveg	ft
+WR	wepp-5213	"06:16 am  Friday March 11, 2011"	"SEELEY LAKE RS MT 22.55 +"	30	silt	paved	250	3	4	3	45	50	25	20	inveg	ft
+WR	wepp-5276	"06:19 am  Friday March 11, 2011"	"SEELEY LAKE RS MT 22.55 +"	30	silt	native	250	3	4	3	45	50	25	20	outrut	ft
+WR	wepp-5281	"06:19 am  Friday March 11, 2011"	"SEELEY LAKE RS MT 22.55 +"	30	silt	graveled	250	3	4	3	45	50	25	20	outrut	ft
+WR	wepp-5286	"06:20 am  Friday March 11, 2011"	"SEELEY LAKE RS MT 22.55 +"	30	silt	paved	250	3	4	3	45	50	25	20	outrut	ft
+WR	wepp-5291	"06:20 am  Friday March 11, 2011"	"SEELEY LAKE RS MT 22.55 +"	30	silt	native	250	3	4	3	45	50	25	20	outunrut	ft
+WR	wepp-5296	"06:21 am  Friday March 11, 2011"	"SEELEY LAKE RS MT 22.55 +"	30	silt	graveled	250	3	4	3	45	50	25	20	outunrut	ft
+WR	wepp-5301	"06:21 am  Friday March 11, 2011"	"SEELEY LAKE RS MT 22.55 +"	30	silt	paved	250	3	4	3	45	50	25	20	outunrut	ft

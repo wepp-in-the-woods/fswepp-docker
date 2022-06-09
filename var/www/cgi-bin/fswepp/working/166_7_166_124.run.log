@@ -1,0 +1,45 @@
+WD	wepp-226970	"03:35 pm  Friday October 3, 2014"	"NSPowell - mod FENN RS ID +"	30	silt	OldForest	650	5	65	100	10	OldForest	150	65	5	100	10	0	ft	"Unit 1 Existing"
+WD	wepp-227054	"03:36 pm  Friday October 3, 2014"	"NSPowell - mod FENN RS ID +"	10	silt	OldForest	650	5	65	100	10	OldForest	150	65	5	100	10	0	ft	"Unit 1 Existing"
+WD	wepp-227120	"03:37 pm  Friday October 3, 2014"	"NSPowell - mod FENN RS ID +"	30	silt	OldForest	650	5	65	100	10	OldForest	150	65	5	100	10	0	ft	"Unit 1 Existing"
+WD	wepp-227282	"03:41 pm  Friday October 3, 2014"	"NSPowell - mod FENN RS ID +"	30	silt	Skid	650	5	65	10	10	OldForest	150	65	5	100	10	0	ft	"Unit 1 Existing"
+WD	wepp-227691	"03:47 pm  Friday October 3, 2014"	"NSPowell - mod FENN RS ID +"	30	silt	YoungForest	650	5	65	100	10	OldForest	150	65	5	100	10	0	ft	"Unit 1 Existing"
+WD	wepp-227850	"03:51 pm  Friday October 3, 2014"	"NSPowell - mod FENN RS ID +"	30	silt	OldForest	1200	5	50	100	10	OldForest	150	50	5	100	10	0	ft	"Unit 2 Existing"
+WD	wepp-227969	"03:54 pm  Friday October 3, 2014"	"NSPowell - mod FENN RS ID +"	30	silt	YoungForest	1200	5	50	100	10	OldForest	150	50	5	100	10	0	ft	"Unit 2 Treatment"
+WD	wepp-228086	"03:56 pm  Friday October 3, 2014"	"NSPowell - mod FENN RS ID +"	30	silt	Skid	25	5	5	10	10	OldForest	1200	5	5	100	10	0	ft	"Unit 2 Treatment"
+WD	wepp-228379	"03:59 pm  Friday October 3, 2014"	"NSPowell - mod FENN RS ID +"	30	silt	OldForest	400	5	65	100	10	OldForest	150	65	5	100	10	0	ft	"Unit 3 Existing"
+WD	wepp-228445	"04:00 pm  Friday October 3, 2014"	"NSPowell - mod FENN RS ID +"	30	silt	YoungForest	400	5	65	100	10	OldForest	150	65	5	100	10	0	ft	"Unit 3 Treatment"
+WD	wepp-228514	"04:01 pm  Friday October 3, 2014"	"NSPowell - mod FENN RS ID +"	30	silt	LowFire	400	5	65	85	10	OldForest	150	65	5	100	10	0	ft	"Unit 3 Treatment low severity burn"
+WD	wepp-228657	"04:06 pm  Friday October 3, 2014"	"NSPowell - mod FENN RS ID +"	30	silt	LowFire	650	5	65	85	10	OldForest	150	65	5	100	10	0	ft	"Unit 1 Treatment low severity burn"
+WD	wepp-228734	"04:07 pm  Friday October 3, 2014"	"NSPowell - mod FENN RS ID +"	30	silt	LowFire	1200	5	50	85	10	OldForest	150	50	5	100	10	0	ft	"Unit 2 Treatment low severity burn"
+WD	wepp-228832	"04:09 pm  Friday October 3, 2014"	"NSPowell - mod FENN RS ID +"	30	silt	OldForest	900	5	50	100	10	OldForest	150	50	5	100	10	0	ft	"Unit 4 Existing"
+WD	wepp-228906	"04:11 pm  Friday October 3, 2014"	"NSPowell - mod FENN RS ID +"	30	silt	LowFire	900	5	50	85	10	OldForest	150	50	5	100	10	0	ft	"Unit 4 Treatment"
+WD	wepp-228985	"04:12 pm  Friday October 3, 2014"	"NSPowell - mod FENN RS ID +"	30	silt	Skid	25	5	20	10	10	OldForest	800	20	5	100	10	0	ft	"Unit 4 Treatment"
+WD	wepp-3782	"07:51 am  Tuesday October 14, 2014"	"NSPowell - mod FENN RS ID +"	30	silt	OldForest	1200	0	40	100	10	OldForest	300	40	5	100	10	0	ft	"Unit 5 Existing"
+WD	wepp-3864	"07:57 am  Tuesday October 14, 2014"	"NSPowell - mod FENN RS ID +"	30	silt	OldForest	235	0	35	100	10	OldForest	300	35	5	100	10	0	ft	"Unit 6 Existing"
+WD	wepp-4022	"07:59 am  Tuesday October 14, 2014"	"NSPowell - mod FENN RS ID +"	30	silt	LowFire	235	0	35	85	10	OldForest	300	35	5	100	10	0	ft	"Unit 6 Existing"
+WD	wepp-4384	"08:03 am  Tuesday October 14, 2014"	"NSPowell - mod FENN RS ID +"	30	silt	OldForest	400	0	35	100	10	OldForest	300	35	5	100	10	0	ft	"Unit 6 Existing"
+WD	wepp-4419	"08:03 am  Tuesday October 14, 2014"	"NSPowell - mod FENN RS ID +"	30	silt	OldForest	400	0	35	100	10	OldForest	300	35	5	100	10	0	ft	"Unit7 Existing"
+WD	wepp-4455	"08:03 am  Tuesday October 14, 2014"	"NSPowell - mod FENN RS ID +"	30	silt	OldForest	400	0	35	100	10	OldForest	300	35	5	100	10	0	ft	"Unit7 Existing"
+WD	wepp-4553	"08:09 am  Tuesday October 14, 2014"	"NSPowell - mod FENN RS ID +"	30	silt	YoungForest	400	0	35	100	10	OldForest	300	35	5	100	10	0	ft	"Unit7 Existing"
+WD	wepp-4603	"08:10 am  Tuesday October 14, 2014"	"NSPowell - mod FENN RS ID +"	30	silt	LowFire	400	0	35	85	10	OldForest	300	35	5	100	10	0	ft	"Unit7 Existing"
+WD	wepp-4647	"08:12 am  Tuesday October 14, 2014"	"NSPowell - mod FENN RS ID +"	30	silt	OldForest	500	0	20	100	10	OldForest	300	20	5	100	10	0	ft	"Unit 8 Existing/Thin Upper slope"
+WD	wepp-4688	"08:14 am  Tuesday October 14, 2014"	"NSPowell - mod FENN RS ID +"	30	silt	OldForest	500	0	20	100	10	OldForest	150	20	5	100	10	0	ft	"Unit 8 Existing/Thin upper slope"
+WD	wepp-4738	"08:15 am  Tuesday October 14, 2014"	"NSPowell - mod FENN RS ID +"	30	silt	OldForest	500	0	50	100	10	OldForest	300	50	5	100	10	0	ft	"Unit 8 Existing/Thin upper slope"
+WD	wepp-5037	"08:19 am  Tuesday October 14, 2014"	"NSPowell - mod FENN RS ID +"	30	silt	OldForest	400	0	60	100	10	OldForest	150	60	5	100	10	0	ft	"Unit 9 Existing/Improve"
+WD	wepp-5099	"08:20 am  Tuesday October 14, 2014"	"NSPowell - mod FENN RS ID +"	30	silt	YoungForest	400	0	60	100	10	OldForest	150	60	5	100	10	0	ft	"Unit 9 Existing/Improve"
+WD	wepp-5425	"08:24 am  Tuesday October 14, 2014"	"NSPowell - mod FENN RS ID +"	30	silt	OldForest	700	0	40	100	10	OldForest	300	40	5	100	10	0	ft	"Unit 10 Existing/Improve"
+WD	wepp-5556	"08:25 am  Tuesday October 14, 2014"	"NSPowell - mod FENN RS ID +"	30	silt	LowFire	700	0	40	85	10	OldForest	300	40	5	100	10	0	ft	"Unit 10 Shelter with burn"
+WD	wepp-5624	"08:27 am  Tuesday October 14, 2014"	"NSPowell - mod FENN RS ID +"	30	silt	LowFire	600	0	40	85	10	OldForest	150	40	5	100	10	0	ft	"Unit 3b Shelter with burn"
+WD	wepp-5669	"08:27 am  Tuesday October 14, 2014"	"NSPowell - mod FENN RS ID +"	30	silt	OldForest	600	0	40	100	10	OldForest	150	40	5	100	10	0	ft	"Unit 3b Existing/Improve"
+WD	wepp-5801	"08:31 am  Tuesday October 14, 2014"	"NSPowell - mod FENN RS ID +"	30	silt	OldForest	1200	0	30	100	10	OldForest	150	30	5	100	10	0	ft	"Unit 3d Existing/Improve"
+WD	wepp-5961	"08:32 am  Tuesday October 14, 2014"	"NSPowell - mod FENN RS ID +"	30	silt	LowFire	1200	0	30	85	10	OldForest	150	30	5	100	10	0	ft	"Unit 3d Shelter with burn"
+WD	wepp-6034	"08:34 am  Tuesday October 14, 2014"	"NSPowell - mod FENN RS ID +"	30	silt	OldForest	450	0	20	100	10	OldForest	150	20	5	100	10	0	ft	"Unit 5a Existing/Improve"
+WD	wepp-6102	"08:36 am  Tuesday October 14, 2014"	"NSPowell - mod FENN RS ID +"	30	silt	OldForest	900	0	50	100	10	OldForest	150	50	5	100	10	0	ft	"Unit 1b Existing/Improve"
+WR	wepp-6303	"08:41 am  Tuesday October 14, 2014"	"NSPowell - mod FENN RS ID +"	10	silt	native	300	7	15	15	20	500	20	20	outunrut	ft
+WR	wepp-6394	"08:45 am  Tuesday October 14, 2014"	"NSPowell - mod FENN RS ID +"	10	silt	native	300	14	15	15	20	500	20	10	outunrut	ft
+WR	wepp-6474	"08:47 am  Tuesday October 14, 2014"	"NSPowell - mod FENN RS ID +"	10	silt	native	300	6	15	15	50	500	50	10	outunrut	ft
+WR	wepp-6626	"08:48 am  Tuesday October 14, 2014"	"NSPowell - mod FENN RS ID +"	10	silt	native	300	6	15	15	50	100	50	10	outunrut	ft
+WR	wepp-6693	"08:49 am  Tuesday October 14, 2014"	"NSPowell - mod FENN RS ID +"	10	silt	native	300	6	15	15	50	1	50	10	outunrut	ft
+WR	wepp-6750	"08:50 am  Tuesday October 14, 2014"	"NSPowell - mod FENN RS ID +"	10	silt	native	300	6	15	15	50	10	50	10	outunrut	ft
+WR	wepp-6832	"08:53 am  Tuesday October 14, 2014"	"NSPowell - mod FENN RS ID +"	10	silt	graveled	300	6	15	15	50	150	50	10	inveg	ft
+WR	wepp-6928	"08:54 am  Tuesday October 14, 2014"	"NSPowell - mod FENN RS ID +"	10	silt	graveled	300	6	15	15	10	500	10	10	inveg	ft

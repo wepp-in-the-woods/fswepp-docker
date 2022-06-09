@@ -1,0 +1,30 @@
+WE	wepp-16227	"01:24 am  Saturday December 22, 2012"	"DENVER WB AP CO"	sand	20	chap	0	50	30	300	l	80	0	ft
+WE	wepp-17547	"03:23 am  Saturday December 22, 2012"	"DENVER WB AP CO"	sand	20	chap	0	50	30	300	m	80	0	ft
+WE	wepp-17618	"03:25 am  Saturday December 22, 2012"	"DENVER WB AP CO"	sand	20	chap	0	50	30	300	h	80	0	ft
+WE	wepp-17754	"03:30 am  Saturday December 22, 2012"	"DENVER WB AP CO"	sand	20	chap	0	50	30	300	h	80	0	ft
+WE	wepp-18209	"04:03 am  Saturday December 22, 2012"	"DENVER WB AP CO"	sand	20	chap	0	50	30	300	l	0	80	ft
+WE	wepp-18288	"04:07 am  Saturday December 22, 2012"	"DENVER WB AP CO"	sand	20	chap	0	50	30	300	m	0	80	ft
+WE	wepp-18361	"04:09 am  Saturday December 22, 2012"	"DENVER WB AP CO"	sand	20	chap	0	50	30	300	l	0	80	ft
+WE	wepp-18411	"04:10 am  Saturday December 22, 2012"	"DENVER WB AP CO"	sand	20	chap	0	50	30	300	h	0	80	ft
+WE	wepp-18578	"04:19 am  Saturday December 22, 2012"	"DENVER WB AP CO"	sand	20	chap	0	50	30	300	l	10	10	ft
+WE	wepp-18669	"04:21 am  Saturday December 22, 2012"	"DENVER WB AP CO"	sand	20	chap	0	50	30	300	m	10	10	ft
+WE	wepp-18795	"04:22 am  Saturday December 22, 2012"	"DENVER WB AP CO"	sand	20	chap	0	50	30	300	h	10	10	ft
+WR	wepp-28144	"00:09 am  Sunday December 23, 2012"	"BIRMINGHAM WB AP AL"	30	clay	native	820	3	13.12	9.84	45	164	25	20	inveg	ft
+WR	wepp-28165	"00:10 am  Sunday December 23, 2012"	"BIRMINGHAM WB AP AL"	30	clay	graveled	820	3	13.12	9.84	45	164	25	20	inveg	ft
+WR	wepp-28185	"00:11 am  Sunday December 23, 2012"	"BIRMINGHAM WB AP AL"	30	clay	native	820	3	13.12	9.84	45	164	25	20	inveg	ft
+WR	wepp-28205	"00:11 am  Sunday December 23, 2012"	"BIRMINGHAM WB AP AL"	30	clay	native	820	3	13.12	9.84	45	164	25	20	inveg	ft
+WR	wepp-28212	"00:11 am  Sunday December 23, 2012"	"BIRMINGHAM WB AP AL"	30	clay	paved	820	3	13.12	9.84	45	164	25	20	inveg	ft
+WR	wepp-28369	"00:29 am  Sunday December 23, 2012"	"BIRMINGHAM WB AP AL"	30	clay	native	820	3	13.12	9.84	45	164	25	20	inveg	ft
+WR	wepp-28436	"00:35 am  Sunday December 23, 2012"	"BIRMINGHAM WB AP AL"	30	clay	native	820	3	13.12	9.84	45	164	25	20	inbare	ft
+WR	wepp-28458	"00:36 am  Sunday December 23, 2012"	"BIRMINGHAM WB AP AL"	30	clay	graveled	820	3	13.12	9.84	45	164	25	20	inbare	ft
+WR	wepp-28478	"00:37 am  Sunday December 23, 2012"	"BIRMINGHAM WB AP AL"	30	clay	paved	820	3	13.12	9.84	45	164	25	20	inbare	ft
+WR	wepp-28524	"00:37 am  Sunday December 23, 2012"	"BIRMINGHAM WB AP AL"	30	clay	native	820	3	13.12	9.84	45	164	25	20	inveg	ft
+WR	wepp-28544	"00:38 am  Sunday December 23, 2012"	"BIRMINGHAM WB AP AL"	30	clay	graveled	820	3	13.12	9.84	45	164	25	20	inveg	ft
+WR	wepp-28563	"00:39 am  Sunday December 23, 2012"	"BIRMINGHAM WB AP AL"	30	clay	paved	820	3	13.12	9.84	45	164	25	20	inveg	ft
+WR	wepp-28583	"00:39 am  Sunday December 23, 2012"	"BIRMINGHAM WB AP AL"	30	clay	native	820	3	13.12	9.84	45	164	25	20	outrut	ft
+WR	wepp-28602	"00:40 am  Sunday December 23, 2012"	"BIRMINGHAM WB AP AL"	30	clay	graveled	820	3	13.12	9.84	45	164	25	20	outrut	ft
+WR	wepp-28623	"00:40 am  Sunday December 23, 2012"	"BIRMINGHAM WB AP AL"	30	clay	paved	820	3	13.12	9.84	45	164	25	20	outrut	ft
+WR	wepp-28643	"00:41 am  Sunday December 23, 2012"	"BIRMINGHAM WB AP AL"	30	clay	paved	820	3	13.12	9.84	45	164	25	20	outunrut	ft
+WR	wepp-28663	"00:42 am  Sunday December 23, 2012"	"BIRMINGHAM WB AP AL"	30	clay	graveled	820	3	13.12	9.84	45	164	25	20	outunrut	ft
+WR	wepp-28710	"00:43 am  Sunday December 23, 2012"	"BIRMINGHAM WB AP AL"	30	clay	native	820	3	13.12	9.84	45	164	25	20	outrut	ft
+WR	wepp-28777	"00:49 am  Sunday December 23, 2012"	"BIRMINGHAM WB AP AL"	30	clay	native	820	3	13.12	9.84	45	164	25	20	outrut	ft

@@ -1,0 +1,60 @@
+WE	wepp-7020	"12:05 pm  Monday April 30, 2018"	"SHERIDAN FIELD STA WY +"	silt	20	forest	35	50	30	300	l			ft
+WE	wepp-7288	"12:22 pm  Monday April 30, 2018"	"BIRMINGHAM WB AP AL"	silt	20	forest	35	50	30	500	h			ft
+WE	wepp-59979	"01:40 pm  Wednesday May 9, 2018"	"SHERIDAN FIELD STA WY +"	clay	20	forest	30	50	15	1000	l			ft
+WE	wepp-60174	"01:43 pm  Wednesday May 9, 2018"	"SHERIDAN FIELD STA WY +"	clay	20	forest	30	50	15	1000	h			ft
+WE	wepp-60407	"01:45 pm  Wednesday May 9, 2018"	"SHERIDAN FIELD STA WY +"	clay	20	forest	30	50	30	1000	h			ft
+WE	wepp-65474	"12:42 pm  Tuesday July 24, 2018"	"CIMARRON NM"	sand	20	forest	0	50	30	300	l			ft
+WE	wepp-65619	"12:44 pm  Tuesday July 24, 2018"	"CIMARRON NM"	clay	20	forest	0	50	30	300	h			ft
+WE	wepp-69852	"03:38 pm  Tuesday July 24, 2018"	"CIMARRON NM"	clay	20	forest	0	50	0	300	l			ft
+WE	wepp-70357	"04:28 pm  Tuesday July 24, 2018"	"CIMARRON NM"	clay	20	forest	0	50	0	300	u			ft
+WE	wepp-72899	"09:03 pm  Tuesday July 24, 2018"	"CIMARRON NM"	clay	20	forest	10	50	20	1000	u			ft
+WE	wepp-72966	"09:04 pm  Tuesday July 24, 2018"	"CIMARRON NM"	clay	20	forest	0	50	30	100	l			m
+WE	wepp-73240	"09:20 pm  Tuesday July 24, 2018"	"CIMARRON NM"	clay	20	forest	0	50	30	1000	l			ft
+WE	wepp-73362	"09:24 pm  Tuesday July 24, 2018"	"CIMARRON NM"	clay	20	forest	1	0.3	0.1	1000	l			ft
+WE	wepp-73754	"10:04 pm  Tuesday July 24, 2018"	"FORT COLLINS CO"	sand	35	forest	60	30	10	700	h			ft
+WE	wepp-73957	"10:06 pm  Tuesday July 24, 2018"	"CIMARRON NM"	sand	35	forest	60	30	10	700	h			ft
+WE	wepp-74520	"10:47 pm  Tuesday July 24, 2018"	"CIMARRON NM"	silt	5	forest	10	20	10	700	u			ft
+WE	wepp-74585	"10:48 pm  Tuesday July 24, 2018"	"CIMARRON NM"	silt	5	forest	10	20	10	700	h			ft
+WE	wepp-74788	"10:50 pm  Tuesday July 24, 2018"	"CIMARRON NM"	silt	5	forest	10	20	10	700	m			ft
+WE	wepp-74949	"10:50 pm  Tuesday July 24, 2018"	"CIMARRON NM"	silt	5	forest	10	20	10	700	l			ft
+WE	wepp-75070	"10:51 pm  Tuesday July 24, 2018"	"CIMARRON NM"	loam	20	forest	10	30	10	700	u			ft
+WE	wepp-75131	"10:52 pm  Tuesday July 24, 2018"	"CIMARRON NM"	loam	30	forest	10	30	10	700	u			ft
+WE	wepp-75191	"10:52 pm  Tuesday July 24, 2018"	"CIMARRON NM"	loam	30	forest	10	30	10	700	h			ft
+WE	wepp-75392	"10:53 pm  Tuesday July 24, 2018"	"CIMARRON NM"	loam	30	forest	10	30	10	700	m			ft
+WE	wepp-75553	"10:54 pm  Tuesday July 24, 2018"	"CIMARRON NM"	loam	30	forest	10	30	10	700	l			ft
+WE	wepp-75679	"10:56 pm  Tuesday July 24, 2018"	"CIMARRON NM"	loam	30	forest	10	50	10	400	u			ft
+WE	wepp-75743	"10:56 pm  Tuesday July 24, 2018"	"CIMARRON NM"	clay	20	forest	0	50	30	100	l			m
+WE	wepp-75864	"10:57 pm  Tuesday July 24, 2018"	"CIMARRON NM"	loam	30	forest	10	50	10	400	h			ft
+WE	wepp-76064	"10:58 pm  Tuesday July 24, 2018"	"CIMARRON NM"	loam	30	forest	10	50	10	400	m			ft
+WE	wepp-76225	"10:59 pm  Tuesday July 24, 2018"	"CIMARRON NM"	loam	30	forest	10	50	10	400	l			ft
+WE	wepp-76395	"11:01 pm  Tuesday July 24, 2018"	"CIMARRON NM"	loam	20	forest	10	40	10	1000	u			ft
+WE	wepp-77004	"11:10 pm  Tuesday July 24, 2018"	"CIMARRON NM"	clay	40	forest	10	45	10	700	u			ft
+WE	wepp-77128	"11:12 pm  Tuesday July 24, 2018"	"CIMARRON NM"	clay	40	forest	10	45	10	700	h			ft
+WE	wepp-77302	"11:13 pm  Tuesday July 24, 2018"	"CIMARRON NM"	clay	40	forest	10	45	10	700	m			ft
+WE	wepp-77632	"11:14 pm  Tuesday July 24, 2018"	"CIMARRON NM"	clay	40	forest	10	45	10	700	l			ft
+WE	wepp-240416	"09:01 am  Wednesday August 1, 2018"	"CIMARRON NM"	silt	5	forest	10	20	10	700	h			ft
+WE	wepp-242056	"09:15 am  Wednesday August 1, 2018"	"CIMARRON NM"	silt	5	forest	10	20	10	700	m			ft
+WE	wepp-242623	"09:32 am  Wednesday August 1, 2018"	"CIMARRON NM"	silt	5	forest	10	20	10	700	l			ft
+WE	wepp-242961	"09:35 am  Wednesday August 1, 2018"	"CIMARRON NM"	silt	5	forest	10	20	10	700	m			ft
+WE	wepp-243187	"09:37 am  Wednesday August 1, 2018"	"CIMARRON NM"	silt	5	forest	10	20	10	700	l			ft
+WE	wepp-243860	"09:43 am  Wednesday August 1, 2018"	"CIMARRON NM"	loam	20	forest	10	20	10	700	h			ft
+WE	wepp-244064	"09:44 am  Wednesday August 1, 2018"	"CIMARRON NM"	loam	20	forest	10	30	10	700	h			ft
+WE	wepp-244505	"09:56 am  Wednesday August 1, 2018"	"CIMARRON NM"	loam	20	forest	10	30	10	700	h			ft
+WE	wepp-244711	"09:58 am  Wednesday August 1, 2018"	"CIMARRON NM"	loam	20	forest	10	30	10	700	h			ft
+WE	wepp-244918	"09:59 am  Wednesday August 1, 2018"	"CIMARRON NM"	loam	20	forest	10	30	10	700	m			ft
+WE	wepp-245140	"10:00 am  Wednesday August 1, 2018"	"CIMARRON NM"	loam	20	forest	10	30	10	700	m			ft
+WE	wepp-245326	"10:01 am  Wednesday August 1, 2018"	"CIMARRON NM"	loam	20	forest	10	30	10	700	l			ft
+WE	wepp-353	"10:04 am  Wednesday August 1, 2018"	"CIMARRON NM"	loam	30	forest	10	50	10	400	h			ft
+WE	wepp-597	"10:05 am  Wednesday August 1, 2018"	"CIMARRON NM"	loam	30	forest	10	50	10	400	m			ft
+WE	wepp-902	"10:08 am  Wednesday August 1, 2018"	"CIMARRON NM"	loam	30	forest	10	50	10	400	l			ft
+WE	wepp-1103	"10:09 am  Wednesday August 1, 2018"	"CIMARRON NM"	sand	20	forest	10	40	10	1000	h			ft
+WE	wepp-1665	"10:13 am  Wednesday August 1, 2018"	"CIMARRON NM"	sand	20	forest	10	40	10	1000	m			ft
+WE	wepp-1857	"10:13 am  Wednesday August 1, 2018"	"CIMARRON NM"	sand	20	forest	10	40	10	1000	l			ft
+WE	wepp-3491	"10:26 am  Wednesday August 1, 2018"	"CIMARRON NM"	sand	35	forest	10	35	10	900	h			ft
+WE	wepp-3813	"10:31 am  Wednesday August 1, 2018"	"CIMARRON NM"	sand	35	forest	10	35	10	900	m			ft
+WE	wepp-38284	"10:42 am  Wednesday August 1, 2018"	"CIMARRON NM"	sand	35	forest	10	35	10	900	l			ft
+WE	wepp-38853	"10:45 am  Wednesday August 1, 2018"	"CIMARRON NM"	clay	35	forest	10	45	10	700	h			ft
+WE	wepp-39235	"10:53 am  Wednesday August 1, 2018"	"CIMARRON NM"	clay	40	forest	10	45	10	700	h			ft
+WE	wepp-39582	"10:56 am  Wednesday August 1, 2018"	"CIMARRON NM"	clay	40	forest	10	45	10	700	m			ft
+WE	wepp-39906	"10:59 am  Wednesday August 1, 2018"	"CIMARRON NM"	clay	40	forest	10	45	10	700	l			ft
+WE	wepp-40030	"10:59 am  Wednesday August 1, 2018"	"CIMARRON NM"	clay	40	forest	10	45	10	700	l			ft

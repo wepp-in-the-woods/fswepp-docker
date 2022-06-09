@@ -1,0 +1,73 @@
+#this files was modified by filegenwhrm.pl on: Wednesday, March 16, 2005.
+#taxgroup Birds species Sharp-shinned hawk / Accipter striatus
+#
+# Rank
+2,2,-99,-99,2
+# Nestsite
+20,1:21,1:22,1:23,1
+# Reprorank
+2,-99:1,-99:1,-99:1,-99
+# Foraging Habitat
+-99
+# Habitatrank
+-99
+# Forage/Prey Availability
+-99
+# Preyrank
+-99
+# Predator Avoidance
+20,1:21,1
+# Avoidrank
+2,-99:1,-99
+# Refugia/Shelter
+20,1:21,1
+# Shelterrank
+2,-99:1,-99
+# Coverrank
+2,-99:1,-99
+# Literature
+Distribution
+widespread across most of N. America
+General Habitat
+25-50 year old dense coniferous stands
+Home or Activity Range
+900-2000 ac
+Canopy Cover
+high canopy cover over nest site (Reynolds 1983)
+Specific Habitat Preferences
+dense trees, high canopy closure, proximity to quiet, ephemeral streams or ponds
+Nestsite Characteristics
+nests usually placed against the trunk of conifers; made of sticks and twigs and lined with strips of bark, grass, and coniferous needles; nest site characters include dense trees, high canopy closure, proximity to quiet, ephemeral streams or ponds
+Foraging Habitat Characteristics
+still hunts from perches, bursts through woodland to flush small birds and overtake them in flight; hunts in mature aspen, conifer and mixed forests
+Diet
+mostly birds (90%); occasionally small mammals, lizards, frogs, and insects. Birds: juncos, house and song sparrows, warblers, bobwhite, spotted sandpipers, morning doves, flickers, downy woodpeckers, starlings, pine siskins, house finches, fly catchers, western wood pewee, swallows, chickadees, wrens, kinglets, thrushes, vireos, nuthatches, and brown creepers. Mammals: deer mice, voles, and chipmunks. Lizards, snakes, grasshoppers, beetles, and butterflies
+Predators
+Great-horned owl, northern goshawk
+Shelter Habitats
+dense trees, high canopy closure for predator avoidance
+Response to Disturbance
+no information available
+Sources of Information used in the Model
+Moore and Henny 1983, Reynolds 1983
+General Sources of Background Information
+Moore and Henny 1983, Reynolds 1983, National Geographic Society 1996, Bildstein and Meyer 2000, Alsop 2001, reviewed in O'Neil et al. 2001
+Summaries of Specific Studies
+Bildstein, Keith L.; Meyer, Ken. 2000. Sharp-shinned hawk. The Birds of North America. 482:1-27.
+
+Study Location: throughout range
+Habitat Description: variety reviewed
+Summary: Birds of North America species account for the sharp-shinned hawk. Breeding habitat includes dense stands with well-developed canopy in Colorado, including aspen and conifer forests.
+
+Moore, Kevin R.; Henny, Charles J. 1983. Nest site characteristics of three coexisting accipiter hawks in northeastern Oregon. Raptor Research. 17:65-76.
+
+Study Location: northeastern Oregon
+Habitat Description: PIPO, PICO, ABGR, ABLA, LAOC
+Summary: Habitat data were collected around northern goshawk, sharp-shinned hawk and Cooper's hawk nest sites. Cooper's and sharp-shinned hawks commonly nested in younger successional stages than the goshawk, preferring high density of foliage in layers from 3-15 m. Cooper's hawks preferred northern aspects and often used mistletoe growth as a nest platform, which may explain their preference for PSME. Goshawks preferred nesting in PSME and LAOC and sometimes used snags. All species avoided PICO. All three species had high canopy coverage over nest sites (88.1-97.9%).
+
+Reynolds, Richard T. 1983. Management of western coniferous forest habitat for nesting Accipiter hawks. Gen.Tech.Rep., RM-102. Fort Collins, CO: USDA Forest Service, Rocky Mountain Forest and Range Experiment Station. 7 pp.
+
+Study Location: western and eastern Oregon
+Habitat Description: not stated
+Summary: Nest sites of the three accipiter species had similar physiographic but dissimilar vegetative structures. Most nests were on moderate slopes with northerly exposures and were near quiet ephemeral streams or ponds, with nest trees located on the lower portions of the slope near the water. Most nest sites had high canopy closure and tree density. The major difference between accipiter species was related to stand age, with the sharp-shinned hawks preferring 25-50 year old stands, Cooper's hawks preferring 30-70 year old stands, and goshawks preferring >150 year old stands for nesting. Goshawks demonstrated much higher and longer nest fidelity than the other two species. Home ranges for the three species were also documented. The author states that management for these three accipiter species needs to include not only potential nest sites but the stands surrounding them, including upslope habitat and riparian areas if they are present. Sites should not be isolated by silvicultural treatments. Nesting habitat for the two smaller accipiters is temporally unstable, as these species use younger stands that change quickly through time. Therefore, the suitability of some areas as accipiter habitat may not be long-term, or may progress from the preferred habitat of one species to that of another. The author outlines specific densities of nesting sites. 
+

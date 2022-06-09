@@ -1,0 +1,99 @@
+WR	wepp-127485	"01:44 pm  Monday April 11, 2016"	"TAOS NM"	30	clay	native	200	4	13	15	50	130	25	20	outrut	ft
+WR	wepp-73850	"09:38 am  Thursday April 21, 2016"	"TAOS NM"	30	sand	paved	50	2	28	6	50	40	12	15	inveg	ft
+WR	wepp-73927	"09:39 am  Thursday April 21, 2016"	"TAOS NM"	30	sand	paved	200	4	13	15	50	130	25	15	inveg	ft
+WR	wepp-76148	"10:24 am  Thursday April 21, 2016"	"TAOS NM"	30	sand	paved	50	2	28	15	50	40	12	10	inveg	ft
+WR	wepp-76364	"10:33 am  Thursday April 21, 2016"	"TAOS NM"	30	sand	paved	90	4	28	15	50	55	12	10	inveg	ft
+WR	wepp-115843	"08:09 am  Friday April 22, 2016"	"TAOS NM"	30	clay	paved	50	4	60	50	50	50	25	20	inveg	ft
+WR	wepp-118259	"09:36 am  Friday April 22, 2016"	"TAOS NM"	30	sand	graveled	50	2	18	50	25	50	15	20	inbare	ft
+WR	wepp-118869	"10:08 am  Friday April 22, 2016"	"TAOS NM"	30	sand	native	50	4	10	5	5	50	5	20	outrut	ft
+WR	wepp-119027	"10:13 am  Friday April 22, 2016"	"TAOS NM"	30	sand	native	200	4	10	10	5	25	5	20	outrut	ft
+WR	wepp-119559	"10:38 am  Friday April 22, 2016"	"TAOS NM"	30	sand	native	300	1	10	1	1	25	1	20	outrut	ft
+WR	wepp-197842	"07:03 am  Monday April 25, 2016"	"TAOS NM"	30	clay	native	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-199154	"08:05 am  Monday April 25, 2016"	"TAOS NM"	30	sand	paved	100	2	13	15	50	40	25	15	outrut	ft
+WR	wepp-200443	"08:43 am  Monday April 25, 2016"	"Rio Tusas Lower San Antonio +"	30	sand	paved	50	2	28	15	50	40	12	20	inveg	ft
+WR	wepp-201166	"09:13 am  Monday April 25, 2016"	"Rio Tusas Lower San Antonio +"	30	sand	paved	100	4	28	15	50	55	12	20	inveg	ft
+WR	wepp-201556	"09:35 am  Monday April 25, 2016"	"Rio Tusas Lower San Antonio +"	30	sand	paved	50	2	28	15	50	40	12	10	inveg	ft
+WR	wepp-201624	"09:37 am  Monday April 25, 2016"	"Rio Tusas Lower San Antonio +"	30	sand	paved	100	4	28	15	50	55	18	10	inveg	ft
+WR	wepp-201735	"09:43 am  Monday April 25, 2016"	"Rio Tusas Lower San Antonio +"	30	sand	native	50	1	10	5	50	40	12	15	outrut	ft
+WR	wepp-201783	"09:45 am  Monday April 25, 2016"	"Rio Tusas Lower San Antonio +"	30	sand	native	200	4	10	15	50	55	18	15	outrut	ft
+WR	wepp-202168	"09:56 am  Monday April 25, 2016"	"Rio Tusas Lower San Antonio +"	30	sand	native	50	1	10	5	50	40	12	15	outrut	ft
+WR	wepp-202223	"09:58 am  Monday April 25, 2016"	"Rio Tusas Lower San Antonio +"	30	sand	paved	50	2	28	15	50	40	12	10	outrut	ft
+WD	wepp-202567	"10:08 am  Monday April 25, 2016"	"Rio Tusas Lower San Antonio +"	10	sand	OldForest	300	40	30	80	15	OldForest	300	30	5	80	15	0	ft	"Mature 80% cover"
+WD	wepp-202662	"10:09 am  Monday April 25, 2016"	"Rio Tusas Lower San Antonio +"	10	sand	OldForest	300	40	30	80	15	Shrub	300	30	5	80	15	0	ft	"Mature 80% cover"
+WD	wepp-202704	"10:10 am  Monday April 25, 2016"	"Rio Tusas Lower San Antonio +"	10	sand	OldForest	300	40	30	50	15	Shrub	300	30	5	80	15	0	ft	"Mature 80% cover"
+WD	wepp-202763	"10:10 am  Monday April 25, 2016"	"Rio Tusas Lower San Antonio +"	10	sand	HighFire	300	40	30	45	15	Shrub	300	30	5	80	15	0	ft	"Mature 80% cover"
+WR	wepp-184746	"09:29 am  Thursday May 19, 2016"	"Rio Tusas Lower San Antonio +"	30	sand	native	50	1	10	5	1	5	1	15	outrut	ft
+WR	wepp-184865	"09:31 am  Thursday May 19, 2016"	"Rio Tusas Lower San Antonio +"	30	sand	native	50	1	10	5	1	5	1	15	inveg	ft
+WR	wepp-185001	"09:36 am  Thursday May 19, 2016"	"Rio Tusas Lower San Antonio +"	30	sand	native	50	3	25	15	50	55	25	15	inveg	ft
+WR	wepp-185174	"09:41 am  Thursday May 19, 2016"	"Rio Tusas Lower San Antonio +"	30	sand	native	100	4	10	5	25	50	25	15	outrut	ft
+WR	wepp-185442	"09:46 am  Thursday May 19, 2016"	"Rio Tusas Lower San Antonio +"	30	sand	native	50	1	10	5	1	15	1	15	outrut	ft
+WR	wepp-185586	"09:49 am  Thursday May 19, 2016"	"Rio Tusas Lower San Antonio +"	30	sand	native	50	1	10	5	1	5	1	15	outrut	ft
+WR	wepp-185686	"09:51 am  Thursday May 19, 2016"	"Rio Tusas Lower San Antonio +"	30	sand	native	50	1	10	5	1	5	1	15	outrut	ft
+WR	wepp-185791	"09:52 am  Thursday May 19, 2016"	"Rio Tusas Lower San Antonio +"	30	sand	native	50	4	25	15	50	55	25	15	outrut	ft
+WR	wepp-185956	"09:54 am  Thursday May 19, 2016"	"Rio Tusas Lower San Antonio +"	30	sand	native	100	4	10	15	25	50	25	15	outrut	ft
+WR	wepp-186495	"10:09 am  Thursday May 19, 2016"	"Rio Tusas Lower San Antonio +"	30	sand	paved	50	2	38	15	50	40	12	15	inveg	ft
+WR	wepp-186651	"10:14 am  Thursday May 19, 2016"	"Rio Tusas Lower San Antonio +"	30	sand	native	100	6	10	15	50	50	25	15	outrut	ft
+WR	wepp-186767	"10:17 am  Thursday May 19, 2016"	"Rio Tusas Lower San Antonio +"	30	sand	native	50	1	10	5	1	5	1	15	outrut	ft
+WR	wepp-187375	"10:34 am  Thursday May 19, 2016"	"Rio Tusas Lower San Antonio +"	30	sand	native	125	6	10	15	50	50	25	15	outrut	ft
+WR	wepp-187627	"10:39 am  Thursday May 19, 2016"	"Rio Tusas Lower San Antonio +"	30	sand	native	200	1	10	10	50	50	25	15	outrut	ft
+WR	wepp-187721	"10:43 am  Thursday May 19, 2016"	"Rio Tusas Lower San Antonio +"	30	sand	native	100	3	16	10	50	40	12	15	inveg	ft
+WR	wepp-188084	"10:47 am  Thursday May 19, 2016"	"Rio Tusas Lower San Antonio +"	30	sand	native	130	3	16	10	25	40	25	15	outrut	ft
+WR	wepp-188187	"10:50 am  Thursday May 19, 2016"	"Rio Tusas Lower San Antonio +"	30	sand	native	50	2	10	10	50	40	25	15	outrut	ft
+WR	wepp-188280	"10:53 am  Thursday May 19, 2016"	"Rio Tusas Lower San Antonio +"	30	sand	native	200	6	10	10	50	50	25	15	outrut	ft
+WR	wepp-188395	"10:57 am  Thursday May 19, 2016"	"Rio Tusas Lower San Antonio +"	30	sand	native	50	1	10	5	1	15	1	15	outrut	ft
+WR	wepp-188491	"11:00 am  Thursday May 19, 2016"	"Rio Tusas Lower San Antonio +"	30	sand	native	50	1	10	5	1	25	1	15	outrut	ft
+WR	wepp-188592	"11:04 am  Thursday May 19, 2016"	"Rio Tusas Lower San Antonio +"	30	sand	native	50	1	25	30	25	75	25	15	inveg	ft
+WR	wepp-189962	"12:02 pm  Thursday May 19, 2016"	"Rio Tusas Lower San Antonio +"	30	sand	native	150	1	15	5	1	15	25	15	outrut	ft
+WR	wepp-190163	"12:10 pm  Thursday May 19, 2016"	"Rio Tusas Lower San Antonio +"	30	sand	native	200	5	15	5	1	25	1	15	outrut	ft
+WR	wepp-190238	"12:12 pm  Thursday May 19, 2016"	"Rio Tusas Lower San Antonio +"	30	sand	native	200	5	15	5	1	25	1	15	outrut	ft
+WR	wepp-190519	"12:19 pm  Thursday May 19, 2016"	"Rio Tusas Lower San Antonio +"	30	sand	native	100	6	20	15	25	50	25	15	outrut	ft
+WR	wepp-190570	"12:19 pm  Thursday May 19, 2016"	"Rio Tusas Lower San Antonio +"	30	sand	native	100	6	20	15	25	15	25	15	outrut	ft
+WR	wepp-190708	"12:24 pm  Thursday May 19, 2016"	"Rio Tusas Lower San Antonio +"	30	sand	native	50	2	10	5	2	15	2	15	outrut	ft
+WR	wepp-190764	"12:25 pm  Thursday May 19, 2016"	"Rio Tusas Lower San Antonio +"	30	sand	native	50	2	10	10	2	5	5	15	outrut	ft
+WR	wepp-190817	"12:26 pm  Thursday May 19, 2016"	"Rio Tusas Lower San Antonio +"	30	sand	native	50	6	10	10	5	5	5	15	outrut	ft
+WR	wepp-190894	"12:29 pm  Thursday May 19, 2016"	"Rio Tusas Lower San Antonio +"	30	sand	native	50	6	10	15	25	25	25	15	inveg	ft
+WR	wepp-191068	"12:37 pm  Thursday May 19, 2016"	"Rio Tusas Lower San Antonio +"	30	sand	native	50	4	10	15	12	15	15	15	outrut	ft
+WR	wepp-191225	"12:43 pm  Thursday May 19, 2016"	"Rio Tusas Lower San Antonio +"	30	sand	native	50	2	10	15	12	25	15	15	outrut	ft
+WR	wepp-191555	"12:46 pm  Thursday May 19, 2016"	"Rio Tusas Lower San Antonio +"	30	sand	native	50	2	10	15	2	25	2	15	outrut	ft
+WR	wepp-191675	"12:52 pm  Thursday May 19, 2016"	"Rio Tusas Lower San Antonio +"	30	sand	native	50	1	10	5	25	15	25	15	outrut	ft
+WR	wepp-191768	"12:56 pm  Thursday May 19, 2016"	"Rio Tusas Lower San Antonio +"	30	sand	native	100	1	10	5	25	10	25	15	outrut	ft
+WR	wepp-191886	"12:59 pm  Thursday May 19, 2016"	"Rio Tusas Lower San Antonio +"	30	sand	native	200	6	15	15	25	60	12	15	inveg	ft
+WR	wepp-192041	"01:04 pm  Thursday May 19, 2016"	"Rio Tusas Lower San Antonio +"	30	sand	paved	200	6	35	50	25	75	25	15	inveg	ft
+WR	wepp-192144	"01:06 pm  Thursday May 19, 2016"	"Rio Tusas Lower San Antonio +"	30	sand	native	50	1	10	15	1	25	1	15	inveg	ft
+WR	wepp-192305	"01:14 pm  Thursday May 19, 2016"	"Rio Tusas Lower San Antonio +"	30	sand	native	50	1	10	5	1	25	1	15	outrut	ft
+WR	wepp-192743	"01:29 pm  Thursday May 19, 2016"	"Rio Tusas Lower San Antonio +"	30	sand	native	100	3	16	10	50	40	12	15	outrut	ft
+WR	wepp-192893	"01:35 pm  Thursday May 19, 2016"	"Rio Tusas Lower San Antonio +"	30	sand	native	50	1	10	5	1	25	1	15	inveg	ft
+WR	wepp-193029	"01:39 pm  Thursday May 19, 2016"	"Rio Tusas Lower San Antonio +"	30	sand	native	50	1	10	5	1	25	1	15	outrut	ft
+WR	wepp-193111	"01:41 pm  Thursday May 19, 2016"	"Rio Tusas Lower San Antonio +"	30	sand	native	50	1	10	5	1	25	1	15	outrut	ft
+WR	wepp-193190	"01:42 pm  Thursday May 19, 2016"	"Rio Tusas Lower San Antonio +"	30	sand	native	50	1	10	5	1	25	1	15	outrut	ft
+WR	wepp-193288	"01:45 pm  Thursday May 19, 2016"	"Rio Tusas Lower San Antonio +"	30	sand	native	50	1	10	5	1	5	1	15	outrut	ft
+WR	wepp-193430	"01:48 pm  Thursday May 19, 2016"	"Rio Tusas Lower San Antonio +"	30	sand	native	50	4	25	15	50	55	25	15	outrut	ft
+WR	wepp-193492	"01:49 pm  Thursday May 19, 2016"	"Rio Tusas Lower San Antonio +"	30	sand	native	50	4	25	15	50	55	25	15	outrut	ft
+WR	wepp-193568	"01:51 pm  Thursday May 19, 2016"	"Rio Tusas Lower San Antonio +"	30	sand	native	100	4	10	15	25	50	25	15	outrut	ft
+WR	wepp-193660	"01:54 pm  Thursday May 19, 2016"	"Rio Tusas Lower San Antonio +"	30	sand	paved	50	2	38	25	50	25	12	15	inveg	ft
+WR	wepp-193731	"01:58 pm  Thursday May 19, 2016"	"Rio Tusas Lower San Antonio +"	30	sand	native	100	2	10	5	1	50	25	15	outrut	ft
+WR	wepp-193836	"02:03 pm  Thursday May 19, 2016"	"Rio Tusas Lower San Antonio +"	30	sand	native	100	2	10	5	1	50	25	15	outrut	ft
+WR	wepp-193891	"02:04 pm  Thursday May 19, 2016"	"Rio Tusas Lower San Antonio +"	30	sand	native	125	6	10	15	50	50	25	15	outrut	ft
+WR	wepp-194042	"02:11 pm  Thursday May 19, 2016"	"Rio Tusas Lower San Antonio +"	30	sand	native	125	4	15	20	50	50	25	15	outrut	ft
+WR	wepp-194175	"02:19 pm  Thursday May 19, 2016"	"Rio Tusas Lower San Antonio +"	30	sand	native	100	4	10	10	50	50	25	15	outrut	ft
+WR	wepp-194364	"02:25 pm  Thursday May 19, 2016"	"Rio Tusas Lower San Antonio +"	30	sand	native	100	3	16	10	50	40	12	15	outrut	ft
+WR	wepp-194451	"02:26 pm  Thursday May 19, 2016"	"Rio Tusas Lower San Antonio +"	30	sand	native	130	3	16	10	25	40	25	15	outrut	ft
+WR	wepp-194553	"02:29 pm  Thursday May 19, 2016"	"Rio Tusas Lower San Antonio +"	30	sand	native	50	2	10	10	50	40	25	15	outrut	ft
+WR	wepp-194619	"02:29 pm  Thursday May 19, 2016"	"Rio Tusas Lower San Antonio +"	30	sand	native	200	6	10	10	50	50	25	15	outrut	ft
+WR	wepp-194691	"02:31 pm  Thursday May 19, 2016"	"Rio Tusas Lower San Antonio +"	30	sand	native	50	1	10	5	1	15	1	15	outrut	ft
+WR	wepp-194758	"02:32 pm  Thursday May 19, 2016"	"Rio Tusas Lower San Antonio +"	30	sand	native	50	1	10	5	1	25	1	15	outrut	ft
+WR	wepp-194840	"02:35 pm  Thursday May 19, 2016"	"Rio Tusas Lower San Antonio +"	30	sand	native	50	1	10	5	1	25	1	15	outrut	ft
+WR	wepp-194914	"02:36 pm  Thursday May 19, 2016"	"Rio Tusas Lower San Antonio +"	30	sand	native	50	1	25	30	25	75	25	15	inveg	ft
+WR	wepp-195032	"02:39 pm  Thursday May 19, 2016"	"Rio Tusas Lower San Antonio +"	30	sand	native	150	1	15	5	1	15	25	15	outrut	ft
+WR	wepp-195091	"02:41 pm  Thursday May 19, 2016"	"Rio Tusas Lower San Antonio +"	30	sand	native	200	5	15	5	1	25	1	15	outrut	ft
+WR	wepp-195192	"02:44 pm  Thursday May 19, 2016"	"Rio Tusas Lower San Antonio +"	30	sand	native	100	6	20	15	25	15	25	15	outrut	ft
+WR	wepp-195256	"02:45 pm  Thursday May 19, 2016"	"Rio Tusas Lower San Antonio +"	30	sand	native	50	6	10	10	5	5	5	15	outrut	ft
+WR	wepp-195511	"02:46 pm  Thursday May 19, 2016"	"Rio Tusas Lower San Antonio +"	30	sand	native	50	6	10	15	25	25	25	15	outrut	ft
+WR	wepp-195574	"02:48 pm  Thursday May 19, 2016"	"Rio Tusas Lower San Antonio +"	30	sand	native	50	2	10	15	12	25	15	15	outrut	ft
+WR	wepp-195642	"02:49 pm  Thursday May 19, 2016"	"Rio Tusas Lower San Antonio +"	30	sand	native	50	2	10	15	2	25	2	15	outrut	ft
+WR	wepp-195731	"02:51 pm  Thursday May 19, 2016"	"Rio Tusas Lower San Antonio +"	30	sand	native	50	1	10	5	25	15	25	15	outrut	ft
+WR	wepp-195792	"02:52 pm  Thursday May 19, 2016"	"Rio Tusas Lower San Antonio +"	30	sand	native	100	1	10	5	25	10	25	15	outrut	ft
+WR	wepp-195843	"02:53 pm  Thursday May 19, 2016"	"Rio Tusas Lower San Antonio +"	30	sand	native	200	6	15	15	25	60	12	15	outrut	ft
+WR	wepp-195942	"02:56 pm  Thursday May 19, 2016"	"Rio Tusas Lower San Antonio +"	30	sand	paved	200	6	35	50	25	75	25	20	inveg	ft
+WR	wepp-196013	"02:58 pm  Thursday May 19, 2016"	"Rio Tusas Lower San Antonio +"	30	sand	native	50	4	10	15	1	25	1	15	inveg	ft
+WR	wepp-196089	"02:59 pm  Thursday May 19, 2016"	"Rio Tusas Lower San Antonio +"	30	sand	native	50	1	10	5	1	25	1	15	outrut	ft

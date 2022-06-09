@@ -1,0 +1,65 @@
+WD	wepp-3647	"06:08 pm  Thursday November 19, 2009"	"DENVER WB AP CO"	30	clay	tree20	15.2439024390244	0	30	100	20	tree5	15.2439024390244	30	5	100	20	0	ft	""
+WD	wepp-3652	"06:08 pm  Thursday November 19, 2009"	"DENVER WB AP CO"	30	clay	tree5	15.2439024390244	0	30	100	20	tree5	15.2439024390244	30	5	100	20	0	ft	""
+WD	wepp-6010	"11:19 am  Saturday November 21, 2009"	"DENVER WB AP CO"	30	loam	tree5	15.2439024390244	0	30	100	20	tree5	15.2439024390244	30	5	100	20	0	ft	""
+WD	wepp-6074	"11:27 am  Saturday November 21, 2009"	"DENVER WB AP CO"	30	loam	tree5	15.2439024390244	0	30	100	20	tree5	15.2439024390244	30	5	100	20	0	ft	""
+WD	wepp-6389	"12:06 pm  Saturday November 21, 2009"	"DENVER WB AP CO"	30	loam	tree5	15.2439024390244	0	30	100	20	short	15.2439024390244	30	5	40	20	0	ft	""
+WD	wepp-6395	"12:10 pm  Saturday November 21, 2009"	"DENVER WB AP CO"	30	loam	tree5	15.2439024390244	0	30	100	20	tree20	15.2439024390244	30	5	100	20	0	ft	""
+WR	wepp-8462	"04:23 pm  Saturday November 21, 2009"	"SEELEY LAKE RS MT 22.55 +"	30	clay	native	200	4	13	15	50	130	25	20	inbare
+WD	wepp-2950	"04:06 pm  Monday November 23, 2009"	"DENVER WB AP CO"	30	clay	tree5	15.2439024390244	0	30	100	20	tree5	15.2439024390244	30	5	100	20	0	ft	""
+WD	wepp-2955	"04:08 pm  Monday November 23, 2009"	"DENVER WB AP CO"	30	clay	low	15.2439024390244	0	30	85	20	tree5	15.2439024390244	30	5	100	20	0	ft	""
+WD	wepp-13305	"05:23 pm  Tuesday December 8, 2009"	"PORT ANGELES WA +"	30	clay	tree20	30.4878048780488	0	80	100	20	tree5	30.4878048780488	80	15	100	20	0	ft	""
+WD	wepp-28422	"05:07 am  Wednesday December 9, 2009"	"PORT ANGELES WA +"	30	clay	tree20	15.2439024390244	0	30	100	20	tree5	15.2439024390244	30	5	100	20	0	ft	""
+WR	wepp-2544	"02:52 pm  Friday December 11, 2009"	"PORT ANGELES WA +"	30	clay	native	200	4	13	15	50	130	25	20	inveg
+WR	wepp-2956	"03:31 pm  Friday December 11, 2009"	"PORT ANGELES WA +"	30	clay	native	200	4	13	15	50	130	25	20	inveg
+WR	wepp-14263	"12:49 pm  Saturday December 12, 2009"	"PORT ANGELES WA +"	30	clay	native	200	4	13	15	50	130	25	20	inveg
+WR	wepp-14575	"01:25 pm  Saturday December 12, 2009"	""	30	clay	native	3000	4	13	15	50	130	25	20	outrut
+WR	wepp-14576	"01:26 pm  Saturday December 12, 2009"	"PORT ANGELES WA +"	30	clay	graveled	1000	4	13	15	50	130	25	20	outunrut
+WR	wepp-14581	"01:26 pm  Saturday December 12, 2009"	"PORT ANGELES WA +"	30	clay	graveled	1000	4	13	15	50	130	65	20	outunrut
+WR	wepp-14586	"01:26 pm  Saturday December 12, 2009"	"PORT ANGELES WA +"	30	clay	native	1000	4	13	15	50	130	65	20	outrut
+WR	wepp-14591	"01:27 pm  Saturday December 12, 2009"	"PORT ANGELES WA +"	30	clay	native	1000	4	13	15	50	130	65	20	outrut
+WR	wepp-14596	"01:27 pm  Saturday December 12, 2009"	"PORT ANGELES WA +"	30	clay	graveled	1000	4	13	15	50	130	65	20	outrut
+WR	wepp-14601	"01:27 pm  Saturday December 12, 2009"	"PORT ANGELES WA +"	30	clay	graveled	1000	4	13	15	50	130	65	20	outrut
+WR	wepp-14606	"01:27 pm  Saturday December 12, 2009"	"PORT ANGELES WA +"	30	clay	graveled	1000	4	13	15	50	130	65	20	outrut
+WR	wepp-14611	"01:27 pm  Saturday December 12, 2009"	"PORT ANGELES WA +"	30	clay	graveled	1000	4	13	15	50	130	65	20	outrut
+WR	wepp-14618	"01:29 pm  Saturday December 12, 2009"	"PORT ANGELES WA +"	30	clay	graveled	1000	4	13	15	50	130	65	20	outrut
+WR	wepp-14948	"01:58 pm  Saturday December 12, 2009"	"PORT ANGELES WA +"	30	clay	graveled	1000	4	13	15	50	130	65	20	inveg
+WR	wepp-15091	"02:15 pm  Saturday December 12, 2009"	"PORT ANGELES WA +"	30	clay	graveled	1000	4	13	15	50	130	65	20	inveg
+WR	wepp-15119	"02:15 pm  Saturday December 12, 2009"	"PORT ANGELES WA +"	30	clay	graveled	1000	4	13	15	50	130	65	20	inveg
+WR	wepp-15180	"02:23 pm  Saturday December 12, 2009"	"PORT ANGELES WA +"	30	clay	graveled	1000	4	13	15	50	130	65	20	inveg
+WR	wepp-15186	"02:24 pm  Saturday December 12, 2009"	"PORT ANGELES WA +"	30	clay	graveled	1000	4	13	15	50	130	65	20	inveg
+WR	wepp-23112	"06:23 am  Sunday December 13, 2009"	"PORT ANGELES WA +"	30	clay	graveled	200	4	13	15	50	130	25	20	inveg
+WR	wepp-23117	"06:23 am  Sunday December 13, 2009"	"PORT ANGELES WA +"	30	clay	native	200	4	13	15	50	130	25	20	inveg
+WD	wepp-23233	"06:37 am  Sunday December 13, 2009"	"PORT ANGELES WA +"	30	clay	tree20	15.2439024390244	0	30	100	20	tree5	15.2439024390244	30	5	100	20	0	ft	""
+WD	wepp-23315	"06:49 am  Sunday December 13, 2009"	"PORT ANGELES WA +"	30	clay	tree20	15.2439024390244	0	30	100	20	tree5	15.2439024390244	30	5	100	20	0	ft	""
+WR	wepp-26248	"10:50 am  Sunday December 13, 2009"	"PORT ANGELES WA +"	30	clay	graveled	200	4	13	15	50	130	25	20	inveg
+WR	wepp-26254	"10:50 am  Sunday December 13, 2009"	"PORT ANGELES WA +"	30	clay	graveled	200	4	13	15	50	130	25	20	inveg
+WR	wepp-26259	"10:51 am  Sunday December 13, 2009"	"PORT ANGELES WA +"	30	clay	graveled	200	4	13	15	50	130	25	20	inveg
+WR	wepp-26267	"10:52 am  Sunday December 13, 2009"	"PORT ANGELES WA +"	30	clay	graveled	200	4	13	15	50	130	25	20	inveg
+WR	wepp-29496	"12:06 pm  Sunday December 13, 2009"	"PORT ANGELES WA +"	50	clay	native	300	7	13	13	140	50	25	20	inveg
+WR	wepp-29519	"12:06 pm  Sunday December 13, 2009"	"PORT ANGELES WA +"	50	clay	graveled	300	7	13	13	140	50	25	20	outrut
+WR	wepp-32581	"03:02 pm  Sunday December 13, 2009"	"PORT ANGELES WA +"	30	clay	graveled	200	4	13	15	50	130	25	20	inveg
+WR	wepp-32586	"03:03 pm  Sunday December 13, 2009"	"PORT ANGELES WA +"	30	clay	graveled	200	4	13	15	50	130	25	20	inveg
+WR	wepp-32623	"03:10 pm  Sunday December 13, 2009"	"PORT ANGELES WA +"	30	clay	native	200	4	13	15	50	130	25	20	inveg
+WR	wepp-32705	"03:19 pm  Sunday December 13, 2009"	"PORT ANGELES WA +"	30	clay	graveled	200	4	13	15	50	130	25	20	inveg
+WR	wepp-32713	"03:20 pm  Sunday December 13, 2009"	"PORT ANGELES WA +"	30	clay	native	200	4	13	15	50	130	25	20	inveg
+WR	wepp-32745	"03:23 pm  Sunday December 13, 2009"	"PORT ANGELES WA +"	30	clay	graveled	200	4	13	15	50	130	25	20	inveg
+WR	wepp-420	"03:43 pm  Sunday December 13, 2009"	"PORT ANGELES WA +"	30	clay	native	200	4	13	15	50	130	25	20	inveg
+WR	wepp-425	"03:44 pm  Sunday December 13, 2009"	"PORT ANGELES WA +"	30	silt	graveled	200	4	13	15	50	130	25	20	inveg
+WR	wepp-430	"03:44 pm  Sunday December 13, 2009"	"PORT ANGELES WA +"	30	silt	native	200	4	13	15	50	130	25	20	inveg
+WR	wepp-454	"03:45 pm  Sunday December 13, 2009"	"PORT ANGELES WA +"	30	sand	graveled	200	4	13	15	50	130	25	20	inveg
+WR	wepp-462	"03:45 pm  Sunday December 13, 2009"	"PORT ANGELES WA +"	30	sand	native	200	4	13	15	50	130	25	20	inveg
+WR	wepp-467	"03:46 pm  Sunday December 13, 2009"	"PORT ANGELES WA +"	30	silt	native	200	4	13	15	50	130	25	20	inveg
+WR	wepp-472	"03:46 pm  Sunday December 13, 2009"	"PORT ANGELES WA +"	30	silt	graveled	200	4	13	15	50	130	25	20	inveg
+WR	wepp-477	"03:47 pm  Sunday December 13, 2009"	"PORT ANGELES WA +"	30	loam	graveled	200	4	13	15	50	130	25	20	inveg
+WR	wepp-509	"03:48 pm  Sunday December 13, 2009"	"PORT ANGELES WA +"	30	loam	native	200	4	13	15	50	130	25	20	inveg
+WR	wepp-517	"03:52 pm  Sunday December 13, 2009"	"PORT ANGELES WA +"	30	loam	native	1000	4	13	1	50	1	25	20	inveg
+WR	wepp-522	"03:52 pm  Sunday December 13, 2009"	"PORT ANGELES WA +"	30	loam	graveled	1000	4	13	1	50	1	25	20	inveg
+WR	wepp-527	"03:52 pm  Sunday December 13, 2009"	"PORT ANGELES WA +"	30	loam	native	1000	4	13	1	50	1	25	20	inveg
+WR	wepp-559	"03:53 pm  Sunday December 13, 2009"	"PORT ANGELES WA +"	30	clay	native	1000	4	13	1	50	1	25	20	inveg
+WR	wepp-564	"03:53 pm  Sunday December 13, 2009"	"PORT ANGELES WA +"	30	clay	graveled	1000	4	13	1	50	1	25	20	inveg
+WR	wepp-1045	"04:33 pm  Sunday December 13, 2009"	"PORT ANGELES WA +"	30	clay	native	1000	4	13	1	50	1	25	20	inveg
+WR	wepp-1091	"04:37 pm  Sunday December 13, 2009"	"PORT ANGELES WA +"	30	clay	native	200	4	13	15	50	130	25	20	inveg
+WR	wepp-1127	"04:40 pm  Sunday December 13, 2009"	"PORT ANGELES WA +"	30	clay	native	200	4	13	15	50	130	25	20	inveg
+WR	wepp-1165	"04:43 pm  Sunday December 13, 2009"	"PORT ANGELES WA +"	30	clay	graveled	200	4	13	15	50	130	25	20	inveg
+WR	wepp-1170	"04:44 pm  Sunday December 13, 2009"	"PORT ANGELES WA +"	30	clay	native	200	4	13	15	50	130	25	20	inveg
+WR	wepp-1175	"04:44 pm  Sunday December 13, 2009"	"PORT ANGELES WA +"	30	clay	graveled	200	4	13	15	50	130	25	20	inveg

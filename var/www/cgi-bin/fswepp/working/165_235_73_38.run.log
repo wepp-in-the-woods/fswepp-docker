@@ -1,0 +1,76 @@
+WR	wepp-167383	"08:41 am  Tuesday September 5, 2017"	"MOUNT SHASTA CA"	30	silt	graveled	200	4	13	15	50	130	25	20	outunrut	ft
+WR	wepp-167420	"08:41 am  Tuesday September 5, 2017"	"MOUNT SHASTA CA"	1	silt	graveled	200	4	13	15	50	130	25	20	outunrut	ft
+WR	wepp-167457	"08:42 am  Tuesday September 5, 2017"	"MOUNT SHASTA CA"	30	silt	graveled	200	4	13	15	50	130	25	20	outunrut	ft
+WR	wepp-167572	"08:44 am  Tuesday September 5, 2017"	"FORT BRAGG CA"	30	loam	graveled	200	4	13	15	50	130	25	20	outunrut	ft
+WR	wepp-167609	"08:45 am  Tuesday September 5, 2017"	"FORT BRAGG CA"	30	loam	graveled	200	4	13	15	50	100	30	20	outunrut	ft
+WR	wepp-167645	"08:48 am  Tuesday September 5, 2017"	"FORT BRAGG CA"	30	loam	graveled	200	4	13	15	50	100	30	20	outunrut	ft
+WR	wepp-167728	"08:57 am  Tuesday September 5, 2017"	"FORT BRAGG CA"	30	loam	graveled	200	4	13	15	50	100	30	20	inbare	ft
+WR	wepp-167766	"08:57 am  Tuesday September 5, 2017"	"FORT BRAGG CA"	30	sand	graveled	200	4	13	15	50	100	30	20	inbare	ft
+WR	wepp-167803	"08:57 am  Tuesday September 5, 2017"	"FORT BRAGG CA"	30	silt	graveled	200	4	13	15	50	100	30	20	inbare	ft
+WR	wepp-167839	"08:57 am  Tuesday September 5, 2017"	"FORT BRAGG CA"	30	clay	graveled	200	4	13	15	50	100	30	20	inbare	ft
+WR	wepp-167878	"08:57 am  Tuesday September 5, 2017"	"FORT BRAGG CA"	30	loam	graveled	200	4	13	15	50	100	30	20	inbare	ft
+WR	wepp-153179	"11:35 am  Monday October 9, 2017"	"EUREKA WBO CA +"	30	sand	native	200	4	13	15	50	130	25	20	outunrut	ft
+WE	wepp-208061	"12:14 pm  Wednesday November 6, 2019"	""		10	chap	62.22	100	42.57	67.5	u	80	0	ft
+WE	wepp-208130	"12:15 pm  Wednesday November 6, 2019"	""		10	chap	62.22	100	42.57	67.5	u	80	0	ft
+WE	wepp-208218	"12:16 pm  Wednesday November 6, 2019"	""		10	chap	62.22	100	42.57	67.5	u	80	0	ft
+WE	wepp-208285	"12:17 pm  Wednesday November 6, 2019"	""		10	chap	62.22	100	42.57	67.5	u	80	0	ft
+WE	wepp-208545	"12:25 pm  Wednesday November 6, 2019"	"getty +"	loam	10	chap	62.22	100	42.57	67.5	u	80	0	ft
+WE	wepp-208605	"12:25 pm  Wednesday November 6, 2019"	"getty +"	loam	10	chap	53	100	35.72	45.65376	m	80	0	ft
+WE	wepp-208743	"12:26 pm  Wednesday November 6, 2019"	"getty +"	loam	10	chap	51	66.85	75.6	163.9142	m	80	0	ft
+WE	wepp-208880	"12:26 pm  Wednesday November 6, 2019"	"getty +"	sand	10	chap	22.63	34.03	11.39	161.7196	u	80	0	ft
+WE	wepp-208912	"12:26 pm  Wednesday November 6, 2019"	"getty +"	sand	10	chap	26.16	42.34	42.5	106.8798	u	80	0	ft
+WE	wepp-208944	"12:26 pm  Wednesday November 6, 2019"	"getty +"	sand	10	chap	17.91	16.01	3.08	39.07772	u	80	0	ft
+WE	wepp-208976	"12:26 pm  Wednesday November 6, 2019"	"getty +"	loam	10	chap	78.96	100	61.33	49.86874	m	80	0	ft
+WE	wepp-209109	"12:26 pm  Wednesday November 6, 2019"	"getty +"	loam	10	chap	59.4	70.84	73.61	174.7013	m	80	0	ft
+WE	wepp-209251	"12:26 pm  Wednesday November 6, 2019"	"getty +"	loam	10	chap	47.14	48.05	40.57	133.3681	u	80	0	ft
+WE	wepp-209283	"12:26 pm  Wednesday November 6, 2019"	"getty +"	loam	10	chap	48.83	45.97	43.11	56.56854	m	80	0	ft
+WE	wepp-209416	"12:27 pm  Wednesday November 6, 2019"	"getty +"	loam	10	chap	65.67	64.43	54.38	268.0129	m	80	0	ft
+WE	wepp-209549	"12:27 pm  Wednesday November 6, 2019"	"getty +"	loam	10	chap	52.09	100	36.15	35.14719	u	80	0	ft
+WE	wepp-209581	"12:27 pm  Wednesday November 6, 2019"	"getty +"	loam	10	chap	47.14	69.97	25.44	111.3365	m	80	0	ft
+WE	wepp-209714	"12:27 pm  Wednesday November 6, 2019"	"getty +"	loam	10	chap	52.61	71.57	19.51	121.3885	u	80	0	ft
+WE	wepp-209747	"12:27 pm  Wednesday November 6, 2019"	"getty +"	loam	10	chap	46.43	70.88	26.84	166.7001	u	80	0	ft
+WE	wepp-209781	"12:27 pm  Wednesday November 6, 2019"	"getty +"	loam	10	chap	56.33	73.54	34.94	127.925	u	80	0	ft
+WE	wepp-209813	"12:27 pm  Wednesday November 6, 2019"	"getty +"	loam	10	chap	20.67	31.8	8.4	184.1276	u	80	0	ft
+WE	wepp-209853	"12:27 pm  Wednesday November 6, 2019"	"getty +"	loam	10	chap	47	62.47	29.39	149.517	u	80	0	ft
+WE	wepp-209885	"12:27 pm  Wednesday November 6, 2019"	"getty +"	loam	10	chap	69.77	61.42	53.07	33.24583	m	80	0	ft
+WE	wepp-210018	"12:28 pm  Wednesday November 6, 2019"	"getty +"	sand	10	chap	13.67	13.67	13.67	31.81981	u	80	0	ft
+WE	wepp-210050	"12:28 pm  Wednesday November 6, 2019"	"getty +"	sand	10	chap	31.67	27.6	6.25	98.5453	u	80	0	ft
+WE	wepp-210083	"12:28 pm  Wednesday November 6, 2019"	"getty +"	loam	10	chap	60	75.26	31.48	88.90469	m	80	0	ft
+WE	wepp-210220	"12:28 pm  Wednesday November 6, 2019"	"getty +"	loam	10	chap	68.82	100	64.43	44.17548	u	80	0	ft
+WE	wepp-210252	"12:28 pm  Wednesday November 6, 2019"	"getty +"	loam	10	chap	24.75	76.74	39.7	72.06061	m	80	0	ft
+WE	wepp-210384	"12:28 pm  Wednesday November 6, 2019"	"getty +"	loam	10	chap	28.52	45.45	34.35	140.6839	u	80	0	ft
+WE	wepp-210417	"12:28 pm  Wednesday November 6, 2019"	"getty +"	loam	10	chap	62	58.93	37.52	66.7103	m	80	0	ft
+WE	wepp-210562	"12:28 pm  Wednesday November 6, 2019"	"getty +"	sand	10	chap	41.67	29.99	4.72	205.5199	u	80	0	ft
+WE	wepp-210594	"12:28 pm  Wednesday November 6, 2019"	"getty +"	loam	10	chap	49.67	77.36	61.2	54.85281	m	80	0	ft
+WE	wepp-210731	"12:29 pm  Wednesday November 6, 2019"	"getty +"	loam	10	chap	34.41	51.43	25.51	155.5445	m	80	0	ft
+WE	wepp-210864	"12:29 pm  Wednesday November 6, 2019"	"getty +"	loam	10	chap	27	48.7	30.51	71.63222	l	80	0	ft
+WE	wepp-210958	"12:29 pm  Wednesday November 6, 2019"	"getty +"	loam	10	chap	42.19	68.22	30.24	128.0838	m	80	0	ft
+WE	wepp-211103	"12:29 pm  Wednesday November 6, 2019"	"getty +"	loam	10	chap	43	51.94	12.33	54.85281	m	80	0	ft
+WE	wepp-211236	"12:29 pm  Wednesday November 6, 2019"	"getty +"	loam	10	chap	63.4	81.1	46.14	144.0652	u	80	0	ft
+WE	wepp-211270	"12:29 pm  Wednesday November 6, 2019"	"getty +"	loam	10	chap	29.33	54.41	14.16	86.19728	u	80	0	ft
+WE	wepp-211302	"12:29 pm  Wednesday November 6, 2019"	"getty +"	loam	10	chap	5.18	6.61	3.48	50.97171	u	80	0	ft
+WE	wepp-211375	"12:29 pm  Wednesday November 6, 2019"	"getty +"	loam	10	chap	49	59.34	25.91	310.847	u	80	0	ft
+WE	wepp-211407	"12:29 pm  Wednesday November 6, 2019"	"getty +"	sand	10	chap	46.43	45.37	4.68	102.2842	u	80	0	ft
+WE	wepp-211449	"12:30 pm  Wednesday November 6, 2019"	"getty +"	loam	10	chap	52.33	70.25	40.58	153.8119	l	80	0	ft
+WE	wepp-211542	"12:30 pm  Wednesday November 6, 2019"	"getty +"	loam	10	chap	45.37	100	45.72	36.0303	m	80	0	ft
+WE	wepp-211674	"12:30 pm  Wednesday November 6, 2019"	"getty +"	loam	10	chap	11.08	50.23	20.67	202.8641	m	80	0	ft
+WE	wepp-211811	"12:30 pm  Wednesday November 6, 2019"	"getty +"	loam	10	chap	33.94	58.55	18.51	163.7825	m	80	0	ft
+WE	wepp-211946	"12:30 pm  Wednesday November 6, 2019"	"getty +"	loam	10	chap	54.67	77.42	24.04	61.50758	u	80	0	ft
+WE	wepp-211979	"12:30 pm  Wednesday November 6, 2019"	"getty +"	loam	10	chap	47.33	61.05	38.46	168.6162	m	80	0	ft
+WE	wepp-212111	"12:31 pm  Wednesday November 6, 2019"	"getty +"	loam	10	chap	61.28	74.7	13.9	99.41125	u	80	0	ft
+WE	wepp-212144	"12:31 pm  Wednesday November 6, 2019"	"getty +"	loam	10	chap	51	77.72	41.03	156.0362	u	80	0	ft
+WE	wepp-212176	"12:31 pm  Wednesday November 6, 2019"	"getty +"	loam	10	chap	49.97	72.1	27.54	239.3765	u	80	0	ft
+WE	wepp-212208	"12:31 pm  Wednesday November 6, 2019"	"getty +"	loam	10	chap	61.33	56.25	44.34	203.1059	u	80	0	ft
+WE	wepp-212240	"12:31 pm  Wednesday November 6, 2019"	"getty +"	sand	10	chap	21	38.08	16.03	147.3359	u	80	0	ft
+WE	wepp-212277	"12:31 pm  Wednesday November 6, 2019"	"getty +"	loam	10	chap	27	36.09	26.42	125.3071	l	80	0	ft
+WE	wepp-212374	"12:31 pm  Wednesday November 6, 2019"	"getty +"	loam	10	chap	70	83.44	59.95	234.3348	m	80	0	ft
+WE	wepp-212507	"12:31 pm  Wednesday November 6, 2019"	"getty +"	loam	10	chap	21.68	49.4	35.9	111.6647	u	80	0	ft
+WE	wepp-212539	"12:31 pm  Wednesday November 6, 2019"	"getty +"	loam	10	chap	45.96	55.19	45.4	213.5989	m	80	0	ft
+WE	wepp-212765	"12:31 pm  Wednesday November 6, 2019"	"getty +"	loam	10	chap	35.83	48.92	20.8	122.63	m	80	0	ft
+WE	wepp-212898	"12:32 pm  Wednesday November 6, 2019"	"getty +"	sand	10	chap	34.18	26.92	3.02	392.4443	u	80	0	ft
+WE	wepp-212930	"12:32 pm  Wednesday November 6, 2019"	"getty +"	loam	10	chap	52.33	77.27	45.45	145.6662	u	80	0	ft
+WE	wepp-212971	"12:32 pm  Wednesday November 6, 2019"	"getty +"	loam	10	chap	56.1	56.1	56.1	8.786797	u	80	0	ft
+WE	wepp-213007	"12:32 pm  Wednesday November 6, 2019"	"getty +"	loam	10	chap	45.73	58.88	24.36	187.5	u	80	0	ft
+WE	wepp-235343	"09:02 am  Thursday November 7, 2019"	"getty +"	sand	20	chap	10	90	10	175	m	80	0	ft
+WE	wepp-235648	"09:08 am  Thursday November 7, 2019"	"getty +"	sand	10	chap	10	54	10	660	m	80	0	ft
+WE	wepp-238954	"10:51 am  Thursday November 7, 2019"	"getty2 +"	sand	20	chap	0	50	30	300	m	80	0	ft

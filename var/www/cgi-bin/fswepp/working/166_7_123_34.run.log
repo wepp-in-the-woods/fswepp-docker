@@ -1,0 +1,63 @@
+WR	wepp-13823	"02:36 pm  Tuesday September 17, 2019"	"MOSCOW U OF I ID"	30	sand	native	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-13858	"02:36 pm  Tuesday September 17, 2019"	"MOSCOW U OF I ID"	30	sand	native	200	4	13	15	70	130	25	20	inveg	ft
+WR	wepp-13901	"02:36 pm  Tuesday September 17, 2019"	"MOSCOW U OF I ID"	30	sand	native	200	4	13	15	20	130	25	20	inveg	ft
+WR	wepp-13941	"02:37 pm  Tuesday September 17, 2019"	"MOSCOW U OF I ID"	30	sand	native	200	4	13	1	0.3	130	25	20	inveg	ft
+WR	wepp-14000	"02:37 pm  Tuesday September 17, 2019"	"MOSCOW U OF I ID"	30	sand	native	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-14088	"02:38 pm  Tuesday September 17, 2019"	"MOSCOW U OF I ID"	30	sand	native	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-14133	"02:38 pm  Tuesday September 17, 2019"	"MOSCOW U OF I ID"	30	sand	native	200	4	13	30	75	130	25	20	inveg	ft
+WR	wepp-14225	"02:39 pm  Tuesday September 17, 2019"	"MOSCOW U OF I ID"	30	sand	native	200	4	13	30	75	130	25	20	inveg	ft
+WR	wepp-14269	"02:39 pm  Tuesday September 17, 2019"	"MOSCOW U OF I ID"	30	sand	native	200	4	13	1	0.3	130	25	20	inveg	ft
+WR	wepp-14309	"02:39 pm  Tuesday September 17, 2019"	"MOSCOW U OF I ID"	30	sand	native	200	4	13	1	0.3	130	25	20	inveg	ft
+WR	wepp-14416	"02:40 pm  Tuesday September 17, 2019"	"MOSCOW U OF I ID"	30	sand	native	200	4	13	1	0.3	130	25	20	inveg	ft
+WR	wepp-14454	"02:40 pm  Tuesday September 17, 2019"	"MOSCOW U OF I ID"	30	sand	native	200	4	13	10	0.3	130	25	20	inveg	ft
+WR	wepp-14489	"02:41 pm  Tuesday September 17, 2019"	"MOSCOW U OF I ID"	30	sand	native	200	4	13	1	1	130	25	20	inveg	ft
+WR	wepp-14526	"02:41 pm  Tuesday September 17, 2019"	"MOSCOW U OF I ID"	30	sand	native	200	4	13	1	100	130	25	20	inveg	ft
+WR	wepp-14571	"02:42 pm  Tuesday September 17, 2019"	"MOSCOW U OF I ID"	30	sand	native	200	4	13	15	50	130	25	20	outrut	ft
+WR	wepp-14607	"02:42 pm  Tuesday September 17, 2019"	"MOSCOW U OF I ID"	30	sand	native	200	4	13	15	50	130	25	20	outrut	ft
+WR	wepp-14638	"02:42 pm  Tuesday September 17, 2019"	"MOSCOW U OF I ID"	30	sand	native	200	4	13	30	75	130	25	20	outrut	ft
+WR	wepp-14677	"02:42 pm  Tuesday September 17, 2019"	"MOSCOW U OF I ID"	30	sand	native	200	4	13	30	75	130	25	20	outrut	ft
+WR	wepp-14715	"02:43 pm  Tuesday September 17, 2019"	"MOSCOW U OF I ID"	30	sand	native	200	4	13	1	0.3	130	25	20	outrut	ft
+WR	wepp-14764	"02:43 pm  Tuesday September 17, 2019"	"MOSCOW U OF I ID"	30	sand	native	200	4	13	1	0.3	130	25	20	outrut	ft
+WR	wepp-14812	"02:43 pm  Tuesday September 17, 2019"	"MOSCOW U OF I ID"	30	sand	native	200	4	13	15	50	130	25	20	outunrut	ft
+WR	wepp-14852	"02:43 pm  Tuesday September 17, 2019"	"MOSCOW U OF I ID"	30	sand	native	200	4	13	15	50	130	25	20	outrut	ft
+WR	wepp-14897	"02:43 pm  Tuesday September 17, 2019"	"MOSCOW U OF I ID"	30	sand	graveled	200	4	13	15	50	130	25	20	outunrut	ft
+WD	wepp-84455	"11:03 am  Thursday October 3, 2019"	"Pete King +"	30	loam	OldForest	1200	34	34	95	20	OldForest	50	55	55	95	20	0	ft	"Typical - Ground/Loam"
+WD	wepp-84491	"11:03 am  Thursday October 3, 2019"	"Pete King +"	30	sand	OldForest	1200	34	34	95	20	OldForest	50	55	55	95	20	0	ft	"Typical - Ground/Sandy Loam"
+WD	wepp-84498	"11:03 am  Thursday October 3, 2019"	"Pete King +"	30	loam	OldForest	1200	48	48	95	20	OldForest	50	55	55	95	20	0	ft	"Typical - Cable/Loam"
+WD	wepp-84507	"11:03 am  Thursday October 3, 2019"	"Pete King +"	30	sand	OldForest	1200	48	48	95	20	OldForest	50	55	55	95	20	0	ft	"Typical - Cable/Sandy Loam"
+WD	wepp-84514	"11:03 am  Thursday October 3, 2019"	"Pete King +"	30	loam	OldForest	1200	56	56	95	20	OldForest	50	55	55	95	20	0	ft	"Typical - Heli/Loam"
+WD	wepp-84521	"11:03 am  Thursday October 3, 2019"	"Pete King +"	30	sand	OldForest	1200	56	56	95	20	OldForest	50	55	55	95	20	0	ft	"Typical - Heli/Sandy Loam"
+WD	wepp-84528	"11:03 am  Thursday October 3, 2019"	"Pete King +"	30	loam	Shrub	1200	61	61	80	20	OldForest	50	55	55	95	20	0	ft	"Typical - Rx Fire/Loam"
+WD	wepp-84535	"11:03 am  Thursday October 3, 2019"	"Pete King +"	30	sand	Shrub	1200	61	61	80	20	OldForest	50	55	55	95	20	0	ft	"Typical - Rx Fire/Sandy Loam"
+WD	wepp-84717	"11:09 am  Thursday October 3, 2019"	"Pete King +"	50	loam	OldForest	1200	34	34	95	20	OldForest	100	55	55	95	20	0	ft	"Typical - Ground/Loam"
+WD	wepp-84752	"11:09 am  Thursday October 3, 2019"	"Pete King +"	50	sand	OldForest	1200	34	34	95	20	OldForest	100	55	55	95	20	0	ft	"Typical - Ground/Sandy Loam"
+WD	wepp-84759	"11:09 am  Thursday October 3, 2019"	"Pete King +"	50	loam	OldForest	1200	48	48	95	20	OldForest	100	55	55	95	20	0	ft	"Typical - Cable/Loam"
+WD	wepp-84766	"11:09 am  Thursday October 3, 2019"	"Pete King +"	50	sand	OldForest	1200	48	48	95	20	OldForest	100	55	55	95	20	0	ft	"Typical - Cable/Sandy Loam"
+WD	wepp-84775	"11:09 am  Thursday October 3, 2019"	"Pete King +"	50	loam	OldForest	1200	56	56	95	20	OldForest	100	55	55	95	20	0	ft	"Typical - Heli/Loam"
+WD	wepp-84784	"11:09 am  Thursday October 3, 2019"	"Pete King +"	50	sand	OldForest	1200	56	56	95	20	OldForest	100	55	55	95	20	0	ft	"Typical - Heli/Sandy Loam"
+WD	wepp-84791	"11:09 am  Thursday October 3, 2019"	"Pete King +"	50	loam	Shrub	1200	61	61	80	20	OldForest	100	55	55	95	20	0	ft	"Typical - Rx Fire/Loam"
+WD	wepp-84798	"11:09 am  Thursday October 3, 2019"	"Pete King +"	50	sand	Shrub	1200	61	61	80	20	OldForest	100	55	55	95	20	0	ft	"Typical - Rx Fire/Sandy Loam"
+WD	wepp-84846	"11:10 am  Thursday October 3, 2019"	"Pete King +"	50	loam	YoungForest	1200	34	34	95	20	OldForest	100	55	55	95	20	0	ft	"Typical - Ground/Loam"
+WD	wepp-84885	"11:10 am  Thursday October 3, 2019"	"Pete King +"	50	sand	YoungForest	1200	34	34	95	20	OldForest	100	55	55	95	20	0	ft	"Typical - Ground/Sandy Loam"
+WD	wepp-84892	"11:10 am  Thursday October 3, 2019"	"Pete King +"	50	loam	LowFire	1200	48	48	85	20	OldForest	100	55	55	95	20	0	ft	"Typical - Cable/Loam"
+WD	wepp-84899	"11:10 am  Thursday October 3, 2019"	"Pete King +"	50	sand	LowFire	1200	48	48	85	20	OldForest	100	55	55	95	20	0	ft	"Typical - Cable/Sandy Loam"
+WD	wepp-84906	"11:10 am  Thursday October 3, 2019"	"Pete King +"	50	loam	LowFire	1200	56	56	85	20	OldForest	100	55	55	95	20	0	ft	"Typical - Heli/Loam"
+WD	wepp-84913	"11:10 am  Thursday October 3, 2019"	"Pete King +"	50	sand	LowFire	1200	56	56	85	20	OldForest	100	55	55	95	20	0	ft	"Typical - Heli/Sandy Loam"
+WD	wepp-84920	"11:11 am  Thursday October 3, 2019"	"Pete King +"	50	loam	LowFire	1200	61	61	80	20	OldForest	100	55	55	95	20	0	ft	"Typical - Rx Fire/Loam"
+WD	wepp-84927	"11:11 am  Thursday October 3, 2019"	"Pete King +"	50	sand	LowFire	1200	61	61	80	20	OldForest	100	55	55	95	20	0	ft	"Typical - Rx Fire/Sandy Loam"
+WD	wepp-85135	"11:19 am  Thursday October 3, 2019"	"Pete King +"	50	loam	HighFire	1200	34	34	45	20	LowFire	100	55	55	85	20	0	ft	"Typical - Ground/Loam"
+WD	wepp-85170	"11:19 am  Thursday October 3, 2019"	"Pete King +"	50	sand	HighFire	1200	34	34	45	20	LowFire	100	55	55	85	20	0	ft	"Typical - Ground/Sandy Loam"
+WD	wepp-85177	"11:19 am  Thursday October 3, 2019"	"Pete King +"	50	loam	HighFire	1200	48	48	45	20	LowFire	100	55	55	85	20	0	ft	"Typical - Cable/Loam"
+WD	wepp-85184	"11:19 am  Thursday October 3, 2019"	"Pete King +"	50	sand	HighFire	1200	48	48	45	20	LowFire	100	55	55	85	20	0	ft	"Typical - Cable/Sandy Loam"
+WD	wepp-85191	"11:19 am  Thursday October 3, 2019"	"Pete King +"	50	loam	HighFire	1200	56	56	45	20	LowFire	100	55	55	85	20	0	ft	"Typical - Heli/Loam"
+WD	wepp-85198	"11:19 am  Thursday October 3, 2019"	"Pete King +"	50	sand	HighFire	1200	56	56	45	20	LowFire	100	55	55	85	20	0	ft	"Typical - Heli/Sandy Loam"
+WD	wepp-85205	"11:19 am  Thursday October 3, 2019"	"Pete King +"	50	loam	HighFire	1200	61	61	45	20	LowFire	100	55	55	80	20	0	ft	"Typical - Rx Fire/Loam"
+WD	wepp-85215	"11:19 am  Thursday October 3, 2019"	"Pete King +"	50	sand	HighFire	1200	61	61	45	20	LowFire	100	55	55	80	20	0	ft	"Typical - Rx Fire/Sandy Loam"
+WD	wepp-85358	"11:25 am  Thursday October 3, 2019"	"Pete King +"	50	loam	LowFire	1200	34	34	85	20	LowFire	100	55	55	85	20	0	ft	"Typical - Ground/Loam"
+WD	wepp-85394	"11:25 am  Thursday October 3, 2019"	"Pete King +"	50	sand	LowFire	1200	34	34	85	20	LowFire	100	55	55	85	20	0	ft	"Typical - Ground/Sandy Loam"
+WD	wepp-85401	"11:25 am  Thursday October 3, 2019"	"Pete King +"	50	loam	LowFire	1200	48	48	85	20	LowFire	100	55	55	85	20	0	ft	"Typical - Cable/Loam"
+WD	wepp-85408	"11:25 am  Thursday October 3, 2019"	"Pete King +"	50	sand	LowFire	1200	48	48	85	20	LowFire	100	55	55	85	20	0	ft	"Typical - Cable/Sandy Loam"
+WD	wepp-85415	"11:25 am  Thursday October 3, 2019"	"Pete King +"	50	loam	LowFire	1200	56	56	85	20	LowFire	100	55	55	85	20	0	ft	"Typical - Heli/Loam"
+WD	wepp-85422	"11:25 am  Thursday October 3, 2019"	"Pete King +"	50	sand	LowFire	1200	56	56	85	20	LowFire	100	55	55	85	20	0	ft	"Typical - Heli/Sandy Loam"
+WD	wepp-85429	"11:25 am  Thursday October 3, 2019"	"Pete King +"	50	loam	LowFire	1200	61	61	80	20	LowFire	100	55	55	80	20	0	ft	"Typical - Rx Fire/Loam"
+WD	wepp-85438	"11:25 am  Thursday October 3, 2019"	"Pete King +"	50	sand	LowFire	1200	61	61	80	20	LowFire	100	55	55	80	20	0	ft	"Typical - Rx Fire/Sandy Loam"

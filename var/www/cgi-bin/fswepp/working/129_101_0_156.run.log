@@ -1,0 +1,91 @@
+WR	wepp-8641	"02:49 pm  Wednesday December 2, 2009"	"SAINT MARIES ID +"	30	silt	native	200	4	13	15	50	1	25	20	inveg
+WR	wepp-8677	"02:52 pm  Wednesday December 2, 2009"	"SAINT MARIES ID +"	30	silt	native	200	4	13	15	50	1	25	20	inbare
+WR	wepp-8687	"02:53 pm  Wednesday December 2, 2009"	"SAINT MARIES ID +"	30	silt	paved	200	4	13	15	50	1	25	20	inbare
+WR	wepp-9573	"03:49 pm  Wednesday December 2, 2009"	"SAINT MARIES ID +"	30	silt	paved	200	4	13	15	50	200	25	20	inbare
+WR	wepp-9616	"03:50 pm  Wednesday December 2, 2009"	"SAINT MARIES ID +"	30	silt	paved	200	4	13	15	50	100	25	20	inbare
+WR	wepp-9621	"03:51 pm  Wednesday December 2, 2009"	"SAINT MARIES ID +"	30	silt	paved	200	4	13	15	50	75	25	20	inbare
+WR	wepp-9627	"03:51 pm  Wednesday December 2, 2009"	"SAINT MARIES ID +"	30	silt	paved	200	4	13	15	50	80	25	20	inbare
+WR	wepp-9632	"03:51 pm  Wednesday December 2, 2009"	"SAINT MARIES ID +"	30	silt	paved	200	4	13	15	50	83	25	20	inbare
+WR	wepp-9637	"03:51 pm  Wednesday December 2, 2009"	"SAINT MARIES ID +"	30	silt	paved	200	4	13	15	50	82	25	20	inbare
+WR	wepp-9696	"03:53 pm  Wednesday December 2, 2009"	"SAINT MARIES ID +"	30	silt	graveled	200	4	13	15	50	1	25	20	outrut
+WR	wepp-9848	"03:59 pm  Wednesday December 2, 2009"	"SAINT MARIES ID +"	30	silt	graveled	200	4	13	15	50	1	25	20	outrut
+WD	wepp-10321	"04:29 pm  Wednesday December 2, 2009"	"SAINT MARIES ID +"	30	silt	tree20	121.951219512195	0	30	100	20	tree20	22.8658536585366	30	5	100	20	0	ft	""
+WD	wepp-14396	"04:32 pm  Wednesday December 2, 2009"	"SAINT MARIES ID +"	30	silt	tall	121.951219512195	0	30	60	20	tree20	22.8658536585366	30	5	100	20	0	ft	""
+WD	wepp-14402	"04:32 pm  Wednesday December 2, 2009"	"SAINT MARIES ID +"	30	silt	tall	121.951219512195	0	30	60	20	tree20	9.14634146341463	30	5	100	20	0	ft	""
+WD	wepp-14408	"04:33 pm  Wednesday December 2, 2009"	"SAINT MARIES ID +"	30	silt	high	121.951219512195	0	30	45	20	low	9.14634146341463	30	5	85	20	0	ft	""
+WD	wepp-14415	"04:34 pm  Wednesday December 2, 2009"	"SAINT MARIES ID +"	30	silt	high	121.951219512195	0	30	45	20	low	30.4878048780488	30	5	85	20	0	ft	""
+WD	wepp-14423	"04:35 pm  Wednesday December 2, 2009"	"SAINT MARIES ID +"	30	silt	high	121.951219512195	0	30	45	20	low	91.4634146341463	30	5	85	20	0	ft	""
+WD	wepp-14455	"04:35 pm  Wednesday December 2, 2009"	"SAINT MARIES ID +"	30	silt	high	121.951219512195	0	30	45	20	low	304.878048780488	30	5	85	20	0	ft	""
+WD	wepp-14467	"04:35 pm  Wednesday December 2, 2009"	"SAINT MARIES ID +"	30	silt	high	121.951219512195	0	30	45	20	low	365.853658536585	30	5	85	20	0	ft	""
+WD	wepp-14472	"04:35 pm  Wednesday December 2, 2009"	"SAINT MARIES ID +"	30	silt	tree20	121.951219512195	0	30	100	20	tree20	15.2439024390244	30	5	100	20	0	ft	""
+WD	wepp-14480	"04:36 pm  Wednesday December 2, 2009"	"SAINT MARIES ID +"	30	silt	tree20	121.951219512195	0	30	100	20	tree20	16.7682926829268	30	5	100	20	0	ft	""
+WD	wepp-14485	"04:36 pm  Wednesday December 2, 2009"	"SAINT MARIES ID +"	30	silt	tree20	121.951219512195	0	30	100	20	tree20	17.6829268292683	30	5	100	20	0	ft	""
+WD	wepp-14491	"04:36 pm  Wednesday December 2, 2009"	"SAINT MARIES ID +"	30	silt	tree20	121.951219512195	0	30	100	20	tree20	19.8170731707317	30	5	100	20	0	ft	""
+WD	wepp-14497	"04:36 pm  Wednesday December 2, 2009"	"SAINT MARIES ID +"	30	silt	tree20	121.951219512195	0	30	100	20	tree20	30.4878048780488	30	5	100	20	0	ft	""
+WD	wepp-14502	"04:36 pm  Wednesday December 2, 2009"	"SAINT MARIES ID +"	30	silt	tree20	121.951219512195	0	30	100	20	tree20	121.951219512195	30	5	100	20	0	ft	""
+WD	wepp-14509	"04:38 pm  Wednesday December 2, 2009"	"SAINT MARIES ID +"	30	silt	tall	121.951219512195	0	30	60	20	tree20	24.390243902439	30	5	100	20	0	ft	""
+WD	wepp-14514	"04:38 pm  Wednesday December 2, 2009"	"SAINT MARIES ID +"	30	silt	tall	121.951219512195	0	30	60	20	tree20	13.719512195122	30	5	100	20	0	ft	""
+WD	wepp-14519	"04:38 pm  Wednesday December 2, 2009"	"SAINT MARIES ID +"	30	silt	tall	121.951219512195	0	30	60	20	tree20	18.2926829268293	30	5	100	20	0	ft	""
+WD	wepp-14524	"04:38 pm  Wednesday December 2, 2009"	"SAINT MARIES ID +"	30	silt	tall	121.951219512195	0	30	60	20	tree20	19.2073170731707	30	5	100	20	0	ft	""
+WD	wepp-14529	"04:38 pm  Wednesday December 2, 2009"	"SAINT MARIES ID +"	30	silt	tall	121.951219512195	0	30	60	20	tree20	18.9024390243902	30	5	100	20	0	ft	""
+WD	wepp-14567	"04:40 pm  Wednesday December 2, 2009"	"SAINT MARIES ID +"	30	silt	high	121.951219512195	0	30	45	20	high	18.9024390243902	30	5	45	20	0	ft	""
+WR	wepp-3972	"12:32 pm  Wednesday November 13, 2013"	"For 462 Assignment Climate +"	30	silt	native	200	4	13	15	50	1	25	20	inveg	ft
+WR	wepp-4025	"12:34 pm  Wednesday November 13, 2013"	"For 462 Assignment Climate +"	30	silt	native	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-4050	"12:35 pm  Wednesday November 13, 2013"	"For 462 Assignment Climate +"	30	silt	paved	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-4084	"12:37 pm  Wednesday November 13, 2013"	"For 462 Assignment Climate +"	30	silt	native	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-4233	"12:43 pm  Wednesday November 13, 2013"	"For 462 Assignment Climate +"	30	silt	paved	200	4	13	15	50	15	25	20	inbare	ft
+WR	wepp-4253	"12:44 pm  Wednesday November 13, 2013"	"For 462 Assignment Climate +"	30	silt	paved	200	4	13	15	50	25	25	20	inbare	ft
+WR	wepp-4273	"12:44 pm  Wednesday November 13, 2013"	"For 462 Assignment Climate +"	30	silt	paved	200	4	13	15	50	40	25	20	inbare	ft
+WR	wepp-4293	"12:44 pm  Wednesday November 13, 2013"	"For 462 Assignment Climate +"	30	silt	paved	200	4	13	15	50	60	25	20	inbare	ft
+WR	wepp-4313	"12:44 pm  Wednesday November 13, 2013"	"For 462 Assignment Climate +"	30	silt	paved	200	4	13	15	50	50	25	20	inbare	ft
+WR	wepp-4333	"12:44 pm  Wednesday November 13, 2013"	"For 462 Assignment Climate +"	30	silt	paved	200	4	13	15	50	46	25	20	inbare	ft
+WR	wepp-4374	"12:45 pm  Wednesday November 13, 2013"	"For 462 Assignment Climate +"	30	silt	paved	200	4	13	15	50	47	25	20	inbare	ft
+WR	wepp-4394	"12:45 pm  Wednesday November 13, 2013"	"For 462 Assignment Climate +"	30	silt	paved	200	4	13	15	50	48	25	20	inbare	ft
+WR	wepp-4415	"12:45 pm  Wednesday November 13, 2013"	"For 462 Assignment Climate +"	30	silt	paved	200	4	13	15	50	47	25	20	inbare	ft
+WR	wepp-4464	"12:45 pm  Wednesday November 13, 2013"	"For 462 Assignment Climate +"	30	silt	paved	200	4	13	15	50	47.8	25	20	inbare	ft
+WR	wepp-4484	"12:46 pm  Wednesday November 13, 2013"	"For 462 Assignment Climate +"	30	silt	paved	200	4	13	15	50	47.6	25	20	inbare	ft
+WR	wepp-4504	"12:46 pm  Wednesday November 13, 2013"	"For 462 Assignment Climate +"	30	silt	paved	200	4	13	15	50	45	25	20	inbare	ft
+WR	wepp-4524	"12:46 pm  Wednesday November 13, 2013"	"For 462 Assignment Climate +"	30	silt	paved	200	4	13	15	50	45.5	25	20	inbare	ft
+WR	wepp-4544	"12:46 pm  Wednesday November 13, 2013"	"For 462 Assignment Climate +"	30	silt	paved	200	4	13	15	50	45.2	25	20	inbare	ft
+WR	wepp-4564	"12:46 pm  Wednesday November 13, 2013"	"For 462 Assignment Climate +"	30	silt	paved	200	4	13	15	50	45.3	25	20	inbare	ft
+WR	wepp-4584	"12:46 pm  Wednesday November 13, 2013"	"For 462 Assignment Climate +"	30	silt	paved	200	4	13	15	50	45.25	25	20	inbare	ft
+WR	wepp-4604	"12:47 pm  Wednesday November 13, 2013"	"For 462 Assignment Climate +"	30	silt	paved	200	4	13	15	50	45.2	25	20	inbare	ft
+WR	wepp-4624	"12:47 pm  Wednesday November 13, 2013"	"For 462 Assignment Climate +"	30	silt	paved	200	4	13	15	50	49.9	25	20	inbare	ft
+WR	wepp-4644	"12:47 pm  Wednesday November 13, 2013"	"For 462 Assignment Climate +"	30	silt	paved	200	4	13	15	50	45.9	25	20	inbare	ft
+WR	wepp-4663	"12:47 pm  Wednesday November 13, 2013"	"For 462 Assignment Climate +"	30	silt	paved	200	4	13	15	50	44.9	25	20	inbare	ft
+WR	wepp-4683	"12:47 pm  Wednesday November 13, 2013"	"For 462 Assignment Climate +"	30	silt	paved	200	4	13	15	50	44.5	25	20	inbare	ft
+WR	wepp-4703	"12:47 pm  Wednesday November 13, 2013"	"For 462 Assignment Climate +"	30	silt	paved	200	4	13	15	50	43.5	25	20	inbare	ft
+WR	wepp-4724	"12:48 pm  Wednesday November 13, 2013"	"For 462 Assignment Climate +"	30	silt	paved	200	4	13	15	50	44.5	25	20	inbare	ft
+WR	wepp-4744	"12:48 pm  Wednesday November 13, 2013"	"For 462 Assignment Climate +"	30	silt	paved	200	4	13	15	50	46.5	25	20	inbare	ft
+WR	wepp-4764	"12:48 pm  Wednesday November 13, 2013"	"For 462 Assignment Climate +"	30	silt	paved	200	4	13	15	50	45.9	25	20	inbare	ft
+WR	wepp-4810	"12:48 pm  Wednesday November 13, 2013"	"For 462 Assignment Climate +"	30	silt	paved	200	4	13	15	50	45.1	25	20	inbare	ft
+WR	wepp-4830	"12:48 pm  Wednesday November 13, 2013"	"For 462 Assignment Climate +"	30	silt	paved	200	4	13	15	50	45.2	25	20	inbare	ft
+WR	wepp-4850	"12:48 pm  Wednesday November 13, 2013"	"For 462 Assignment Climate +"	30	silt	paved	200	4	13	15	50	45.3	25	20	inbare	ft
+WR	wepp-4870	"12:49 pm  Wednesday November 13, 2013"	"For 462 Assignment Climate +"	30	silt	paved	200	4	13	15	50	45.4	25	20	inbare	ft
+WR	wepp-4889	"12:49 pm  Wednesday November 13, 2013"	"For 462 Assignment Climate +"	30	silt	paved	200	4	13	15	50	45.3	25	20	inbare	ft
+WR	wepp-4909	"12:49 pm  Wednesday November 13, 2013"	"For 462 Assignment Climate +"	30	silt	paved	200	4	13	15	50	45.4	25	20	inbare	ft
+WR	wepp-4929	"12:49 pm  Wednesday November 13, 2013"	"For 462 Assignment Climate +"	30	silt	paved	200	4	13	15	50	45.37	25	20	inbare	ft
+WR	wepp-4948	"12:49 pm  Wednesday November 13, 2013"	"For 462 Assignment Climate +"	30	silt	paved	200	4	13	15	50	45.32	25	20	inbare	ft
+WR	wepp-4967	"12:49 pm  Wednesday November 13, 2013"	"For 462 Assignment Climate +"	30	silt	paved	200	4	13	15	50	45.33	25	20	inbare	ft
+WR	wepp-4987	"12:50 pm  Wednesday November 13, 2013"	"For 462 Assignment Climate +"	30	silt	paved	200	4	13	15	50	45.35	25	20	inbare	ft
+WR	wepp-5007	"12:50 pm  Wednesday November 13, 2013"	"For 462 Assignment Climate +"	30	silt	paved	200	4	13	15	50	45.39	25	20	inbare	ft
+WR	wepp-5027	"12:50 pm  Wednesday November 13, 2013"	"For 462 Assignment Climate +"	30	silt	paved	200	4	13	15	50	45.3	25	20	inbare	ft
+WR	wepp-5047	"12:50 pm  Wednesday November 13, 2013"	"For 462 Assignment Climate +"	30	silt	paved	200	4	13	15	50	45.4	25	20	inbare	ft
+WR	wepp-5120	"12:53 pm  Wednesday November 13, 2013"	"For 462 Assignment Climate +"	30	silt	graveled	200	4	13	15	50	1	25	20	outunrut	ft
+WR	wepp-5307	"12:59 pm  Wednesday November 13, 2013"	"#11 +"	30	silt	graveled	200	4	13	15	50	1	25	20	outunrut	ft
+WR	wepp-5345	"01:01 pm  Wednesday November 13, 2013"	"SAINT MARIES ID For 462 +"	30	silt	graveled	200	4	13	15	50	1	25	20	outunrut	ft
+WD	wepp-5498	"01:11 pm  Wednesday November 13, 2013"	"Assignment FOR SAINT MARIES +"	10	silt	OldForest	400	0	30	100	20	OldForest	75	30	5	100	20	0	ft	""
+WR	wepp-5606	"01:18 pm  Wednesday November 13, 2013"	"SAINT MARIES ID +"	30	clay	native	200	4	13	15	50	130	25	20	inveg	ft
+WD	wepp-69266	"03:13 pm  Monday April 27, 2015"	"SARATOGA WY"	10	clay	OldForest	50	12	30	80	20	Sod	50	30	5	40	20	0	ft	""
+WD	wepp-69304	"03:13 pm  Monday April 27, 2015"	"SARATOGA WY"	10	clay	YoungForest	50	12	30	100	20	Sod	50	30	5	40	20	0	ft	""
+WD	wepp-69369	"03:16 pm  Monday April 27, 2015"	"SARATOGA WY"	10	clay	OldForest	50	50	30	100	20	Shrub	50	30	5	80	20	0	ft	""
+WD	wepp-69752	"03:20 pm  Monday April 27, 2015"	"SARATOGA WY"	10	clay	YoungForest	50	60	30	40	20	OldForest	50	30	5	10	20	0	ft	""
+WD	wepp-69907	"03:24 pm  Monday April 27, 2015"	"SARATOGA WY"	30	clay	OldForest	50	0	30	100	20	YoungForest	50	30	5	100	20	0	ft	""
+WD	wepp-69963	"03:25 pm  Monday April 27, 2015"	"../working/129_101_0_156_a"	30	clay		800	50	30	60	20	YoungForest	800	30	5	35	20	0	ft	""
+WD	wepp-70075	"03:26 pm  Monday April 27, 2015"	"../working/129_101_0_156_a"	30	clay		800	0	30	60	20	YoungForest	800	30	5	35	20	0	ft	""
+WD	wepp-70105	"03:26 pm  Monday April 27, 2015"	"SARATOGA WY"	30	clay	OldForest	80	0	30	60	20	YoungForest	80	30	5	35	20	0	ft	""
+WD	wepp-70285	"03:29 pm  Monday April 27, 2015"	"ELK MOUNTAIN WY"	10	clay	OldForest	50	0	30	100	20	Skid	50	30	5	20	20	0	ft	""
+WD	wepp-70323	"03:29 pm  Monday April 27, 2015"	"ELK MOUNTAIN WY"	10	clay	Skid	50	0	30	20	20	YoungForest	50	30	5	100	20	0	ft	""
+WF	wepp-122108	"01:24 pm  Tuesday April 28, 2015"	"SARATOGA WY                             4"	clay	200	50	0	30	15	13	20	20	4	ft
+WF	wepp-122262	"01:26 pm  Tuesday April 28, 2015"	"SARATOGA WY                             4"	clay	800	50	0	30	15	13	2	10	4	ft
+WF	wepp-122844	"01:50 pm  Tuesday April 28, 2015"	"SARATOGA WY                             4"	clay	800	50	50	30	15	13	5	10	4	ft

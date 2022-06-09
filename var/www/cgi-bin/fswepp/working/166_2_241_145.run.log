@@ -1,0 +1,340 @@
+WE	wepp-4304	"11:23 am  Monday May 6, 2013"	":Million +"	loam	40	forest	0	50	30	800	h			ft
+WE	wepp-17680	"07:35 am  Friday June 28, 2013"	"FernCreek +"	silt	20	forest	0	30	18	1000	m			ft
+WE	wepp-17750	"07:36 am  Friday June 28, 2013"	"FernCreek +"	silt	20	forest	0	30	18	1000	h			ft
+WE	wepp-17869	"07:39 am  Friday June 28, 2013"	"FernCreek +"	sand	20	forest	0	40	25	1000	h			ft
+WD	wepp-17965	"07:41 am  Friday June 28, 2013"	"FernCreek +"	10	silt	HighFire	50	0	30	45	20	HighFire	50	30	5	45	20	0	ft	""
+WD	wepp-17986	"07:42 am  Friday June 28, 2013"	"FernCreek +"	10	silt	HighFire	50	0	30	45	20	Skid	50	30	5	20	20	0	ft	""
+WD	wepp-18047	"07:42 am  Friday June 28, 2013"	"FernCreek +"	10	sand	HighFire	50	0	30	45	20	HighFire	50	30	5	45	20	0	ft	""
+WE	wepp-2936	"08:18 am  Monday July 8, 2013"	"FernCreek +"	clay	20	forest	0	50	30	1000	m			ft
+WE	wepp-3067	"08:27 am  Monday July 8, 2013"	"FernCreek +"	loam	20	forest	0	25	15	1000	h			ft
+WE	wepp-3157	"08:28 am  Monday July 8, 2013"	"FernCreek +"	loam	35	forest	0	25	15	1000	h			ft
+WE	wepp-4130	"09:35 am  Monday July 8, 2013"	"FernCreek +"	silt	35	forest	3	20	25	1000	h			ft
+WE	wepp-4580	"09:46 am  Monday July 8, 2013"	"FernCreek +"	silt	20	forest	25	20	45	1000	h			ft
+WD	wepp-7165	"12:46 pm  Monday July 8, 2013"	"FernCreek +"	10	silt	HighFire	1000	0	30	45	35	HighFire	1000	20	5	45	35	0	ft	""
+WD	wepp-7185	"12:47 pm  Monday July 8, 2013"	"FernCreek +"	10	silt	HighFire	1000	0	30	45	35	Skid	1000	20	5	35	35	0	ft	""
+WD	wepp-7232	"12:47 pm  Monday July 8, 2013"	"FernCreek +"	10	silt	HighFire	1000	0	30	45	35	Skid	1000	30	5	35	35	0	ft	""
+WD	wepp-7252	"12:48 pm  Monday July 8, 2013"	"FernCreek +"	10	silt	HighFire	1000	0	30	5	35	LowFire	1000	30	5	85	35	0	ft	""
+WD	wepp-7272	"12:49 pm  Monday July 8, 2013"	"FernCreek +"	10	silt	LowFire	1000	0	30	85	35	HighFire	1000	30	5	45	35	0	ft	""
+WD	wepp-7292	"12:49 pm  Monday July 8, 2013"	"FernCreek +"	10	silt	LowFire	1000	0	30	85	35	HighFire	1000	30	5	5	35	0	ft	""
+WE	wepp-9316	"01:43 pm  Monday July 8, 2013"	"FernCreek +"	silt	35	forest	0	25	20	1000	h			ft
+WE	wepp-9451	"01:43 pm  Monday July 8, 2013"	"FernCreek +"	silt	35	forest	25	18	40	1000	h			ft
+WE	wepp-9540	"01:43 pm  Monday July 8, 2013"	"FernCreek +"	loam	35	forest	0	30	20	1000	h			ft
+WE	wepp-9648	"01:44 pm  Monday July 8, 2013"	"FernCreek +"	loam	35	forest	18	25	12	1000	h			ft
+WE	wepp-9846	"01:48 pm  Monday July 8, 2013"	"FernCreek +"	sand	35	forest	0	25	20	1000	h			ft
+WE	wepp-9935	"01:49 pm  Monday July 8, 2013"	"FernCreek +"	sand	35	forest	25	18	40	1000	h			ft
+WE	wepp-10026	"01:49 pm  Monday July 8, 2013"	"FernCreek +"	sand	35	forest	0	30	20	1000	h			ft
+WE	wepp-10135	"01:49 pm  Monday July 8, 2013"	"FernCreek +"	sand	35	forest	18	25	12	1000	h			ft
+WD	wepp-11451	"02:35 pm  Monday July 8, 2013"	"FernCreek +"	10	silt	HighFire	1000	0	25	25	35	HighFire	1000	25	5	25	35	0	ft	"A1"
+WD	wepp-11470	"02:35 pm  Monday July 8, 2013"	"FernCreek +"	10	clay	HighFire	1000	0	25	25	35	HighFire	1000	25	5	25	35	0	ft	"A2"
+WD	wepp-11477	"02:35 pm  Monday July 8, 2013"	"FernCreek +"	10	sand	HighFire	1000	0	25	25	35	HighFire	1000	25	5	25	35	0	ft	"A3"
+WD	wepp-11484	"02:35 pm  Monday July 8, 2013"	"FernCreek +"	10	loam	HighFire	1000	0	25	25	35	HighFire	1000	25	5	25	35	0	ft	"A4"
+WD	wepp-24086	"08:35 am  Tuesday July 9, 2013"	"FernCreek +"	20	silt	HighFire	1000	0	25	25	35	HighFire	1000	25	5	25	35	0	ft	"A1"
+WD	wepp-24106	"08:35 am  Tuesday July 9, 2013"	"FernCreek +"	20	clay	HighFire	1000	0	25	25	35	HighFire	1000	25	5	25	35	0	ft	"A2"
+WD	wepp-24113	"08:35 am  Tuesday July 9, 2013"	"FernCreek +"	20	sand	HighFire	1000	0	25	25	35	HighFire	1000	25	5	25	35	0	ft	"A3"
+WD	wepp-24120	"08:35 am  Tuesday July 9, 2013"	"FernCreek +"	20	loam	HighFire	1000	0	25	25	35	HighFire	1000	25	5	25	35	0	ft	"A4"
+WE	wepp-12599	"03:02 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	0	0	0	300	l			ft
+WE	wepp-12648	"03:02 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	5	5	5	300	l			ft
+WE	wepp-12716	"03:03 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	20	20	20	300	l			ft
+WE	wepp-12792	"03:03 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	40	40	40	300	l			ft
+WE	wepp-12841	"03:03 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	60	60	60	300	l			ft
+WE	wepp-12890	"03:03 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	0	0	0	300	m			ft
+WE	wepp-12960	"03:04 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	5	5	5	300	m			ft
+WE	wepp-13029	"03:04 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	20	20	20	300	m			ft
+WE	wepp-13103	"03:04 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	40	40	40	300	m			ft
+WE	wepp-13172	"03:05 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	60	60	60	300	m			ft
+WE	wepp-13241	"03:05 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	0	0	0	300	h			ft
+WE	wepp-13349	"03:06 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	5	5	5	300	h			ft
+WE	wepp-13442	"03:06 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	20	20	20	300	h			ft
+WE	wepp-13558	"03:06 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	40	40	40	300	h			ft
+WE	wepp-13668	"03:07 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	60	60	60	300	h			ft
+WE	wepp-13826	"03:10 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	0	0	0	300	l			ft
+WE	wepp-13878	"03:10 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	5	5	5	300	l			ft
+WE	wepp-13947	"03:10 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	20	20	20	300	l			ft
+WE	wepp-13996	"03:11 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	40	40	40	300	l			ft
+WE	wepp-14045	"03:11 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	60	60	60	300	l			ft
+WE	wepp-14115	"03:13 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	0	0	0	300	l			ft
+WE	wepp-14168	"03:13 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	5	5	5	300	l			ft
+WE	wepp-14265	"03:14 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	0	0	0	300	l			ft
+WE	wepp-14314	"03:14 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	5	5	5	300	l			ft
+WE	wepp-14382	"03:15 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	20	20	20	300	l			ft
+WE	wepp-14523	"03:21 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	0	0	0	300	l			ft
+WE	wepp-14573	"03:21 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	5	5	5	300	l			ft
+WE	wepp-14641	"03:21 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	20	20	20	300	l			ft
+WE	wepp-14690	"03:21 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	40	40	40	300	l			ft
+WE	wepp-14739	"03:22 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	60	60	60	300	l			ft
+WE	wepp-14788	"03:22 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	0	0	0	300	m			ft
+WE	wepp-14857	"03:22 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	5	5	5	300	m			ft
+WE	wepp-14945	"03:22 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	20	20	20	300	m			ft
+WE	wepp-15014	"03:23 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	40	40	40	300	m			ft
+WE	wepp-15112	"03:23 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	60	60	60	300	m			ft
+WE	wepp-15200	"03:24 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	0	0	0	300	h			ft
+WE	wepp-15289	"03:24 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	5	5	5	300	h			ft
+WE	wepp-15378	"03:24 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	20	20	20	300	h			ft
+WE	wepp-15467	"03:25 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	40	40	40	300	h			ft
+WE	wepp-15556	"03:25 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	60	60	60	300	h			ft
+WE	wepp-15647	"03:28 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	0	0	0	300	l			ft
+WE	wepp-15723	"03:28 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	0	0	0	300	m			ft
+WE	wepp-15792	"03:29 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	0	0	0	300	h			ft
+WE	wepp-15902	"03:31 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	0	0	0	300	l			ft
+WE	wepp-15952	"03:31 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	0	0	0	300	m			ft
+WE	wepp-16022	"03:32 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	0	0	0	300	h			ft
+WE	wepp-16111	"03:32 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	5	5	5	300	l			ft
+WE	wepp-16160	"03:32 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	5	5	5	300	m			ft
+WE	wepp-16229	"03:33 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	5	5	5	300	h			ft
+WE	wepp-16440	"03:35 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	0	0	0	300	l			ft
+WE	wepp-16489	"03:36 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	0	0	0	300	m			ft
+WE	wepp-16558	"03:36 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	0	0	0	300	h			ft
+WE	wepp-16647	"03:36 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	5	5	5	300	l			ft
+WE	wepp-16697	"03:37 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	5	5	5	300	m			ft
+WE	wepp-16766	"03:37 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	5	5	5	300	h			ft
+WE	wepp-16856	"03:38 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	20	20	20	300	l			ft
+WE	wepp-16905	"03:38 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	20	20	20	300	m			ft
+WE	wepp-16974	"03:38 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	20	20	20	300	h			ft
+WE	wepp-17131	"03:41 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	0	0	0	300	l			ft
+WE	wepp-17180	"03:41 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	0	0	0	300	m			ft
+WE	wepp-17249	"03:42 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	0	0	0	300	h			ft
+WE	wepp-17339	"03:42 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	5	5	5	300	l			ft
+WE	wepp-17388	"03:43 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	5	5	5	300	m			ft
+WE	wepp-17457	"03:43 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	5	5	5	300	h			ft
+WE	wepp-17546	"03:43 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	20	20	20	300	l			ft
+WE	wepp-17622	"03:44 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	20	20	20	300	m			ft
+WE	wepp-17691	"03:44 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	20	20	20	300	h			ft
+WE	wepp-17780	"03:44 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	40	40	40	300	l			ft
+WE	wepp-17830	"03:44 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	40	40	40	300	m			ft
+WE	wepp-17918	"03:45 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	40	40	40	300	h			ft
+WE	wepp-18039	"03:53 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	0	0	0	300	l			ft
+WE	wepp-18088	"03:53 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	0	0	0	300	m			ft
+WE	wepp-18184	"03:53 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	0	0	0	300	h			ft
+WE	wepp-18273	"03:54 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	5	5	5	300	l			ft
+WE	wepp-18322	"03:54 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	5	5	5	300	m			ft
+WE	wepp-18391	"03:54 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	5	5	5	300	h			ft
+WE	wepp-18481	"03:55 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	20	20	20	300	l			ft
+WE	wepp-18530	"03:55 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	20	20	20	300	m			ft
+WE	wepp-18599	"03:55 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	20	20	20	300	h			ft
+WE	wepp-18689	"03:56 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	40	40	40	300	l			ft
+WE	wepp-18738	"03:56 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	40	40	40	300	m			ft
+WE	wepp-18810	"03:57 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	0	0	0	300	l			ft
+WE	wepp-18860	"03:57 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	0	0	0	300	m			ft
+WE	wepp-18911	"03:57 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	40	40	40	300	l			ft
+WE	wepp-18944	"03:57 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	0	0	0	300	h			ft
+WE	wepp-19078	"03:58 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	5	5	5	300	l			ft
+WE	wepp-19128	"03:58 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	5	5	5	300	m			ft
+WE	wepp-19219	"03:58 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	5	5	5	300	h			ft
+WE	wepp-19337	"03:59 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	20	20	20	300	l			ft
+WE	wepp-19386	"03:59 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	20	20	20	300	m			ft
+WE	wepp-19455	"03:59 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	20	20	20	300	h			ft
+WE	wepp-19570	"04:03 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	40	40	40	300	l			ft
+WE	wepp-19619	"04:03 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	40	40	40	300	m			ft
+WE	wepp-19715	"04:04 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	40	40	40	300	h			ft
+WE	wepp-19804	"04:04 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	60	60	60	300	l			ft
+WE	wepp-19853	"04:04 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	60	60	60	300	m			ft
+WE	wepp-19922	"04:05 pm  Tuesday July 16, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	60	60	60	300	h			ft
+WE	wepp-29072	"09:25 am  Wednesday July 17, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	40	40	40	300	l			ft
+WE	wepp-29121	"09:25 am  Wednesday July 17, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	40	40	40	300	m			ft
+WE	wepp-29190	"09:25 am  Wednesday July 17, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	40	40	40	300	h			ft
+WE	wepp-29279	"09:26 am  Wednesday July 17, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	60	60	60	300	l			ft
+WE	wepp-29331	"09:26 am  Wednesday July 17, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	60	60	60	300	m			ft
+WE	wepp-29384	"09:26 am  Wednesday July 17, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	40	40	40	300	l			ft
+WE	wepp-29409	"09:26 am  Wednesday July 17, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	60	60	60	300	h			ft
+WE	wepp-29541	"09:29 am  Wednesday July 17, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	40	40	40	300	l			ft
+WE	wepp-29590	"09:29 am  Wednesday July 17, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	40	40	40	300	m			ft
+WE	wepp-29659	"09:29 am  Wednesday July 17, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	40	40	40	300	h			ft
+WE	wepp-29797	"09:33 am  Wednesday July 17, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	0	40	40	300	l			ft
+WE	wepp-29846	"09:34 am  Wednesday July 17, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	0	40	40	300	m			ft
+WE	wepp-29874	"09:34 am  Wednesday July 17, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	40	40	40	300	m			ft
+WE	wepp-29951	"09:34 am  Wednesday July 17, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	0	40	40	300	h			ft
+WE	wepp-30228	"09:35 am  Wednesday July 17, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	0	40	40	300	l			ft
+WD	wepp-31713	"12:15 pm  Wednesday July 17, 2013"	"HERMIT 9SE CO Papoose +"	10	loam	LowFire	300	0	0	25	35	LowFire	300	0	0	25	35	0	ft	"L0"
+WD	wepp-31733	"12:15 pm  Wednesday July 17, 2013"	"HERMIT 9SE CO Papoose +"	10	loam	LowFire	300	0	25	25	35	HighFire	1000	25	5	25	35	0	ft	"L5"
+WD	wepp-31740	"12:15 pm  Wednesday July 17, 2013"	"HERMIT 9SE CO Papoose +"	10	sand	HighFire	1000	0	25	25	35	HighFire	1000	25	5	25	35	0	ft	"A3"
+WD	wepp-31747	"12:15 pm  Wednesday July 17, 2013"	"HERMIT 9SE CO Papoose +"	10	loam	HighFire	1000	0	25	25	35	HighFire	1000	25	5	25	35	0	ft	"A4"
+WE	wepp-31817	"12:22 pm  Wednesday July 17, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	40	40	40	300	l			ft
+WE	wepp-31867	"12:22 pm  Wednesday July 17, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	35	35	35	300	l			ft
+WE	wepp-31917	"12:23 pm  Wednesday July 17, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	35	40	35	300	l			ft
+WE	wepp-31997	"12:27 pm  Wednesday July 17, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	0	40	40	300	l			ft
+WE	wepp-32053	"12:28 pm  Wednesday July 17, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	0	40	35	300	l			ft
+WE	wepp-32103	"12:29 pm  Wednesday July 17, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	0	50	30	300	l			ft
+WE	wepp-32153	"12:29 pm  Wednesday July 17, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	0	40	30	300	l			ft
+WE	wepp-32224	"12:31 pm  Wednesday July 17, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	0	40	30	300	l			ft
+WE	wepp-32301	"12:33 pm  Wednesday July 17, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	40	40	40	300	l			ft
+WE	wepp-32379	"12:37 pm  Wednesday July 17, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	50	50	50	300	l			ft
+WE	wepp-32488	"12:42 pm  Wednesday July 17, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	20	20	20	300	h			ft
+WE	wepp-32661	"12:45 pm  Wednesday July 17, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	40	40	40	300	l			ft
+WE	wepp-32742	"12:48 pm  Wednesday July 17, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	40	40	40	300	m			ft
+WE	wepp-350	"12:52 pm  Wednesday July 17, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	40	40	40	300	h			ft
+WE	wepp-500	"12:59 pm  Wednesday July 17, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	60	60	60	300	l			ft
+WE	wepp-571	"01:00 pm  Wednesday July 17, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	60	60	60	300	m			ft
+WE	wepp-642	"01:01 pm  Wednesday July 17, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	60	60	60	300	h			ft
+WE	wepp-982	"01:31 pm  Wednesday July 17, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	50	50	50	300	h			ft
+WE	wepp-1106	"01:35 pm  Wednesday July 17, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	0	50	30	300	h			ft
+WE	wepp-1197	"01:36 pm  Wednesday July 17, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	0	40	30	300	h			ft
+WE	wepp-14002	"01:26 pm  Thursday July 18, 2013"	"HERMIT 9SE CO Papoose +"	loam	20	forest	40	40	40	300	h			ft
+WE	wepp-14095	"01:28 pm  Thursday July 18, 2013"	"HERMIT 9SE CO Papoose +"	clay	35	forest	0	50	30	300	l			ft
+WE	wepp-14152	"01:28 pm  Thursday July 18, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	40	40	40	300	h			ft
+WE	wepp-14432	"01:39 pm  Thursday July 18, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	50	50	30	300	h			ft
+WE	wepp-14573	"01:45 pm  Thursday July 18, 2013"	"HERMIT 9SE CO Papoose +"	clay	35	forest	0	40	30	300	h			ft
+WE	wepp-14663	"01:46 pm  Thursday July 18, 2013"	"HERMIT 9SE CO Papoose +"	loam	35	forest	0	60	30	300	h			ft
+WE	wepp-14794	"01:54 pm  Thursday July 18, 2013"	"HERMIT 9SE CO Papoose +"	loam	30	forest	0	0	0	300	l			ft
+WE	wepp-14870	"01:54 pm  Thursday July 18, 2013"	"HERMIT 9SE CO Papoose +"	loam	30	forest	0	0	0	300	m			ft
+WE	wepp-14940	"01:54 pm  Thursday July 18, 2013"	"HERMIT 9SE CO Papoose +"	loam	30	forest	0	0	0	300	h			ft
+WE	wepp-15029	"01:54 pm  Thursday July 18, 2013"	"HERMIT 9SE CO Papoose +"	loam	30	forest	0	5	5	300	l			ft
+WE	wepp-15079	"01:55 pm  Thursday July 18, 2013"	"HERMIT 9SE CO Papoose +"	loam	30	forest	0	5	5	300	m			ft
+WE	wepp-15148	"01:55 pm  Thursday July 18, 2013"	"HERMIT 9SE CO Papoose +"	loam	30	forest	0	5	5	300	h			ft
+WE	wepp-15237	"01:56 pm  Thursday July 18, 2013"	"HERMIT 9SE CO Papoose +"	loam	30	forest	0	20	20	300	l			ft
+WE	wepp-15286	"01:56 pm  Thursday July 18, 2013"	"HERMIT 9SE CO Papoose +"	loam	30	forest	0	20	20	300	m			ft
+WE	wepp-15355	"01:56 pm  Thursday July 18, 2013"	"HERMIT 9SE CO Papoose +"	loam	30	forest	0	20	20	300	h			ft
+WE	wepp-15444	"01:57 pm  Thursday July 18, 2013"	"HERMIT 9SE CO Papoose +"	loam	30	forest	0	40	20	300	l			ft
+WE	wepp-15493	"01:57 pm  Thursday July 18, 2013"	"HERMIT 9SE CO Papoose +"	loam	30	forest	0	40	20	300	m			ft
+WE	wepp-15562	"01:57 pm  Thursday July 18, 2013"	"HERMIT 9SE CO Papoose +"	loam	30	forest	0	40	20	300	h			ft
+WE	wepp-15651	"01:58 pm  Thursday July 18, 2013"	"HERMIT 9SE CO Papoose +"	loam	30	forest	0	60	30	300	l			ft
+WE	wepp-15700	"01:58 pm  Thursday July 18, 2013"	"HERMIT 9SE CO Papoose +"	loam	30	forest	0	60	30	300	m			ft
+WE	wepp-15769	"01:58 pm  Thursday July 18, 2013"	"HERMIT 9SE CO Papoose +"	loam	30	forest	0	60	30	300	h			ft
+WE	wepp-15906	"02:00 pm  Thursday July 18, 2013"	"HERMIT 9SE CO Papoose +"	loam	30	forest	0	0	20	300	l			ft
+WE	wepp-15955	"02:00 pm  Thursday July 18, 2013"	"HERMIT 9SE CO Papoose +"	loam	30	forest	0	0	20	300	m			ft
+WE	wepp-16024	"02:00 pm  Thursday July 18, 2013"	"HERMIT 9SE CO Papoose +"	loam	30	forest	0	0	20	300	h			ft
+WE	wepp-16115	"02:01 pm  Thursday July 18, 2013"	"HERMIT 9SE CO Papoose +"	loam	30	forest	0	5	20	300	l			ft
+WE	wepp-16165	"02:01 pm  Thursday July 18, 2013"	"HERMIT 9SE CO Papoose +"	loam	30	forest	0	5	20	300	m			ft
+WE	wepp-16234	"02:01 pm  Thursday July 18, 2013"	"HERMIT 9SE CO Papoose +"	loam	30	forest	0	5	20	300	h			ft
+WE	wepp-16323	"02:02 pm  Thursday July 18, 2013"	"HERMIT 9SE CO Papoose +"	loam	30	forest	0	20	20	300	l			ft
+WE	wepp-16372	"02:02 pm  Thursday July 18, 2013"	"HERMIT 9SE CO Papoose +"	loam	30	forest	0	20	20	300	m			ft
+WE	wepp-16441	"02:02 pm  Thursday July 18, 2013"	"HERMIT 9SE CO Papoose +"	loam	30	forest	0	20	20	300	h			ft
+WE	wepp-16530	"02:03 pm  Thursday July 18, 2013"	"HERMIT 9SE CO Papoose +"	loam	30	forest	0	40	20	300	l			ft
+WE	wepp-16579	"02:03 pm  Thursday July 18, 2013"	"HERMIT 9SE CO Papoose +"	loam	30	forest	0	40	20	300	m			ft
+WE	wepp-16648	"02:03 pm  Thursday July 18, 2013"	"HERMIT 9SE CO Papoose +"	loam	30	forest	0	40	20	300	h			ft
+WE	wepp-16764	"02:04 pm  Thursday July 18, 2013"	"HERMIT 9SE CO Papoose +"	loam	30	forest	0	60	20	300	l			ft
+WE	wepp-16813	"02:04 pm  Thursday July 18, 2013"	"HERMIT 9SE CO Papoose +"	loam	30	forest	0	60	20	300	m			ft
+WE	wepp-16883	"02:04 pm  Thursday July 18, 2013"	"HERMIT 9SE CO Papoose +"	loam	30	forest	0	60	20	300	h			ft
+WE	wepp-17376	"02:59 pm  Thursday July 18, 2013"	"HERMIT 9SE CO Papoose +"	loam	30	forest	0	40	20	300	h			ft
+WE	wepp-17512	"03:01 pm  Thursday July 18, 2013"	"HERMIT 9SE CO Papoose +"	loam	30	forest	0	60	20	300	h			ft
+WE	wepp-18073	"03:17 pm  Thursday July 18, 2013"	"HERMIT 9SE CO Papoose +"	loam	30	forest	0	40	20	300	h			ft
+WE	wepp-18163	"03:18 pm  Thursday July 18, 2013"	"HERMIT 9SE CO Papoose +"	loam	30	forest	0	60	20	300	h			ft
+WE	wepp-18253	"03:20 pm  Thursday July 18, 2013"	"HERMIT 9SE CO Papoose +"	loam	10	forest	0	60	20	300	h			ft
+WE	wepp-18370	"03:20 pm  Thursday July 18, 2013"	"HERMIT 9SE CO Papoose +"	loam	10	forest	0	40	20	300	h			ft
+WE	wepp-18460	"03:21 pm  Thursday July 18, 2013"	"HERMIT 9SE CO Papoose +"	loam	20	forest	0	40	20	300	h			ft
+WE	wepp-18550	"03:22 pm  Thursday July 18, 2013"	"HERMIT 9SE CO Papoose +"	loam	20	forest	0	60	20	300	h			ft
+WE	wepp-18640	"03:22 pm  Thursday July 18, 2013"	"HERMIT 9SE CO Papoose +"	loam	30	forest	0	60	20	300	h			ft
+WE	wepp-18730	"03:23 pm  Thursday July 18, 2013"	"HERMIT 9SE CO Papoose +"	loam	30	forest	0	40	20	300	h			ft
+WE	wepp-18821	"03:24 pm  Thursday July 18, 2013"	"MOUNT SHASTA CA"	loam	30	forest	0	40	20	300	h			ft
+WE	wepp-18911	"03:25 pm  Thursday July 18, 2013"	"MOUNT SHASTA CA"	loam	30	forest	0	60	20	300	h			ft
+WE	wepp-19042	"03:28 pm  Thursday July 18, 2013"	"HERMIT 9SE CO 2 +"	loam	30	forest	0	0	20	300	l			ft
+WE	wepp-19091	"03:28 pm  Thursday July 18, 2013"	"HERMIT 9SE CO 2 +"	loam	30	forest	0	0	20	300	m			ft
+WE	wepp-19160	"03:28 pm  Thursday July 18, 2013"	"HERMIT 9SE CO 2 +"	loam	30	forest	0	0	20	300	h			ft
+WE	wepp-19249	"03:29 pm  Thursday July 18, 2013"	"HERMIT 9SE CO 2 +"	loam	30	forest	0	5	20	300	l			ft
+WE	wepp-19298	"03:29 pm  Thursday July 18, 2013"	"HERMIT 9SE CO 2 +"	loam	30	forest	0	5	20	300	m			ft
+WE	wepp-19367	"03:29 pm  Thursday July 18, 2013"	"HERMIT 9SE CO 2 +"	loam	30	forest	0	5	20	300	h			ft
+WE	wepp-19475	"03:30 pm  Thursday July 18, 2013"	"HERMIT 9SE CO 2 +"	loam	30	forest	0	20	20	300	l			ft
+WE	wepp-19524	"03:30 pm  Thursday July 18, 2013"	"HERMIT 9SE CO 2 +"	loam	30	forest	0	20	20	300	m			ft
+WE	wepp-19620	"03:30 pm  Thursday July 18, 2013"	"HERMIT 9SE CO 2 +"	loam	30	forest	0	20	20	300	h			ft
+WE	wepp-19709	"03:31 pm  Thursday July 18, 2013"	"HERMIT 9SE CO 2 +"	loam	30	forest	0	40	20	300	l			ft
+WE	wepp-19758	"03:31 pm  Thursday July 18, 2013"	"HERMIT 9SE CO 2 +"	loam	30	forest	0	40	20	300	m			ft
+WE	wepp-19827	"03:31 pm  Thursday July 18, 2013"	"HERMIT 9SE CO 2 +"	loam	30	forest	0	40	20	300	h			ft
+WE	wepp-19916	"03:32 pm  Thursday July 18, 2013"	"HERMIT 9SE CO 2 +"	loam	30	forest	0	60	20	300	l			ft
+WE	wepp-19965	"03:32 pm  Thursday July 18, 2013"	"HERMIT 9SE CO 2 +"	loam	30	forest	0	60	20	300	m			ft
+WE	wepp-20035	"03:33 pm  Thursday July 18, 2013"	"HERMIT 9SE CO 2 +"	loam	30	forest	0	60	20	300	h			ft
+WE	wepp-20181	"03:40 pm  Thursday July 18, 2013"	"West Fork Fire +"	loam	30	forest	0	0	20	300	l			ft
+WE	wepp-20257	"03:40 pm  Thursday July 18, 2013"	"West Fork Fire +"	loam	30	forest	0	0	20	300	m			ft
+WE	wepp-20326	"03:41 pm  Thursday July 18, 2013"	"West Fork Fire +"	loam	30	forest	0	0	20	300	h			ft
+WE	wepp-20416	"03:41 pm  Thursday July 18, 2013"	"West Fork Fire +"	loam	30	forest	0	5	20	300	l			ft
+WE	wepp-20465	"03:42 pm  Thursday July 18, 2013"	"West Fork Fire +"	loam	30	forest	0	5	20	300	m			ft
+WE	wepp-20534	"03:42 pm  Thursday July 18, 2013"	"West Fork Fire +"	loam	30	forest	0	5	20	300	h			ft
+WE	wepp-20623	"03:43 pm  Thursday July 18, 2013"	"West Fork Fire +"	loam	30	forest	0	20	20	300	l			ft
+WE	wepp-20672	"03:43 pm  Thursday July 18, 2013"	"West Fork Fire +"	loam	30	forest	0	20	20	300	m			ft
+WE	wepp-20741	"03:43 pm  Thursday July 18, 2013"	"West Fork Fire +"	loam	30	forest	0	20	20	300	h			ft
+WE	wepp-20830	"03:44 pm  Thursday July 18, 2013"	"West Fork Fire +"	loam	30	forest	0	40	20	300	l			ft
+WE	wepp-20879	"03:44 pm  Thursday July 18, 2013"	"West Fork Fire +"	loam	30	forest	0	40	20	300	m			ft
+WE	wepp-20948	"03:44 pm  Thursday July 18, 2013"	"West Fork Fire +"	loam	30	forest	0	40	20	300	h			ft
+WE	wepp-21037	"03:45 pm  Thursday July 18, 2013"	"West Fork Fire +"	loam	30	forest	0	60	20	300	l			ft
+WE	wepp-21105	"03:45 pm  Thursday July 18, 2013"	"West Fork Fire +"	loam	30	forest	0	60	20	300	m			ft
+WE	wepp-21174	"03:45 pm  Thursday July 18, 2013"	"West Fork Fire +"	loam	30	forest	0	60	20	300	h			ft
+WE	wepp-7287	"06:36 am  Friday July 19, 2013"	"West Fork Fire +"	loam	30	forest	0	0	0	300	l			ft
+WE	wepp-7350	"06:36 am  Friday July 19, 2013"	"West Fork Fire +"	loam	30	forest	0	0	0	300	m			ft
+WE	wepp-7453	"06:37 am  Friday July 19, 2013"	"West Fork Fire +"	loam	30	forest	0	0	0	300	h			ft
+WE	wepp-7570	"06:37 am  Friday July 19, 2013"	"West Fork Fire +"	loam	30	forest	0	5	5	300	l			ft
+WE	wepp-7633	"06:37 am  Friday July 19, 2013"	"West Fork Fire +"	loam	30	forest	0	5	5	300	m			ft
+WE	wepp-7723	"06:38 am  Friday July 19, 2013"	"West Fork Fire +"	loam	30	forest	0	5	5	300	h			ft
+WE	wepp-7840	"06:38 am  Friday July 19, 2013"	"West Fork Fire +"	loam	30	forest	0	20	20	300	l			ft
+WE	wepp-7909	"06:38 am  Friday July 19, 2013"	"West Fork Fire +"	loam	30	forest	0	20	20	300	m			ft
+WE	wepp-8010	"06:38 am  Friday July 19, 2013"	"West Fork Fire +"	loam	30	forest	0	20	20	300	h			ft
+WE	wepp-8127	"06:39 am  Friday July 19, 2013"	"West Fork Fire +"	loam	30	forest	0	40	40	300	l			ft
+WE	wepp-8190	"06:39 am  Friday July 19, 2013"	"West Fork Fire +"	loam	30	forest	0	40	40	300	m			ft
+WE	wepp-8307	"06:39 am  Friday July 19, 2013"	"West Fork Fire +"	loam	30	forest	0	40	40	300	h			ft
+WE	wepp-8417	"06:40 am  Friday July 19, 2013"	"West Fork Fire +"	loam	30	forest	0	60	60	300	l			ft
+WE	wepp-8483	"06:40 am  Friday July 19, 2013"	"West Fork Fire +"	loam	30	forest	0	60	60	300	m			ft
+WE	wepp-8578	"06:40 am  Friday July 19, 2013"	"West Fork Fire +"	loam	30	forest	0	60	60	300	h			ft
+WE	wepp-8573	"06:40 am  Friday July 19, 2013"	"West Fork Fire +"	loam	30	forest	60	60	60	300	h			ft
+WE	wepp-8899	"06:42 am  Friday July 19, 2013"	"West Fork Fire +"	loam	30	forest	0	0	0	300	l			ft
+WE	wepp-8962	"06:42 am  Friday July 19, 2013"	"West Fork Fire +"	loam	30	forest	0	0	0	300	m			ft
+WE	wepp-9052	"06:42 am  Friday July 19, 2013"	"West Fork Fire +"	loam	30	forest	0	0	0	300	h			ft
+WE	wepp-9076	"06:42 am  Friday July 19, 2013"	"West Fork Fire +"	loam	30	forest	40	40	40	300	h			ft
+WE	wepp-9242	"06:43 am  Friday July 19, 2013"	"West Fork Fire +"	loam	30	forest	5	5	5	300	l			ft
+WE	wepp-9326	"06:43 am  Friday July 19, 2013"	"West Fork Fire +"	loam	30	forest	5	5	5	300	m			ft
+WE	wepp-9416	"06:43 am  Friday July 19, 2013"	"West Fork Fire +"	loam	30	forest	5	5	5	300	h			ft
+WE	wepp-9526	"06:44 am  Friday July 19, 2013"	"West Fork Fire +"	loam	30	forest	20	20	20	300	l			ft
+WE	wepp-9589	"06:44 am  Friday July 19, 2013"	"West Fork Fire +"	loam	30	forest	20	20	20	300	m			ft
+WE	wepp-9691	"06:44 am  Friday July 19, 2013"	"West Fork Fire +"	loam	30	forest	20	20	20	300	h			ft
+WE	wepp-9835	"06:44 am  Friday July 19, 2013"	"West Fork Fire +"	loam	30	forest	40	40	40	300	l			ft
+WE	wepp-9917	"06:45 am  Friday July 19, 2013"	"West Fork Fire +"	loam	30	forest	40	40	40	300	m			ft
+WE	wepp-10012	"06:45 am  Friday July 19, 2013"	"West Fork Fire +"	loam	30	forest	40	40	40	300	h			ft
+WE	wepp-10159	"06:45 am  Friday July 19, 2013"	"West Fork Fire +"	loam	30	forest	60	60	60	300	l			ft
+WE	wepp-10222	"06:45 am  Friday July 19, 2013"	"West Fork Fire +"	loam	30	forest	60	60	60	300	m			ft
+WE	wepp-10313	"06:46 am  Friday July 19, 2013"	"West Fork Fire +"	loam	30	forest	60	60	60	300	h			ft
+WD	wepp-16239	"03:36 pm  Friday July 19, 2013"	"West Fork Fire +"	10	loam	OldForest	150	0	0	60	30	OldForest	150	0	0	60	30	0	ft	""
+WD	wepp-16259	"03:37 pm  Friday July 19, 2013"	"West Fork Fire +"	10	loam	OldForest	150	60	60	60	30	OldForest	150	60	60	60	30	0	ft	""
+WE	wepp-16305	"03:38 pm  Friday July 19, 2013"	"West Fork Fire +"	loam	30	forest	60	60	60	300	l			ft
+WE	wepp-16356	"03:39 pm  Friday July 19, 2013"	"West Fork Fire +"	loam	30	forest	60	60	60	300	l			ft
+WE	wepp-5657	"12:33 pm  Sunday July 21, 2013"	"West Fork Fire +"	loam	30	forest	0	0	0	300	l			ft
+WE	wepp-5707	"12:33 pm  Sunday July 21, 2013"	"West Fork Fire +"	loam	30	forest	0	0	0	300	m			ft
+WE	wepp-5777	"12:34 pm  Sunday July 21, 2013"	"West Fork Fire +"	loam	30	forest	0	0	0	300	h			ft
+WE	wepp-5866	"12:34 pm  Sunday July 21, 2013"	"West Fork Fire +"	loam	30	forest	5	5	5	300	l			ft
+WE	wepp-5916	"12:34 pm  Sunday July 21, 2013"	"West Fork Fire +"	loam	30	forest	5	5	5	300	m			ft
+WE	wepp-5987	"12:34 pm  Sunday July 21, 2013"	"West Fork Fire +"	loam	30	forest	5	5	5	300	h			ft
+WE	wepp-6076	"12:35 pm  Sunday July 21, 2013"	"West Fork Fire +"	loam	30	forest	20	20	20	300	l			ft
+WE	wepp-6127	"12:35 pm  Sunday July 21, 2013"	"West Fork Fire +"	loam	30	forest	20	20	20	300	m			ft
+WE	wepp-6196	"12:35 pm  Sunday July 21, 2013"	"West Fork Fire +"	loam	30	forest	20	20	20	300	h			ft
+WE	wepp-6288	"12:36 pm  Sunday July 21, 2013"	"West Fork Fire +"	loam	30	forest	40	40	40	300	l			ft
+WE	wepp-6337	"12:36 pm  Sunday July 21, 2013"	"West Fork Fire +"	loam	30	forest	40	40	40	300	m			ft
+WE	wepp-6433	"12:36 pm  Sunday July 21, 2013"	"West Fork Fire +"	loam	30	forest	40	40	40	300	h			ft
+WE	wepp-6523	"12:36 pm  Sunday July 21, 2013"	"West Fork Fire +"	loam	30	forest	60	60	60	300	l			ft
+WE	wepp-6573	"12:37 pm  Sunday July 21, 2013"	"West Fork Fire +"	loam	30	forest	60	60	60	300	m			ft
+WE	wepp-6643	"12:37 pm  Sunday July 21, 2013"	"West Fork Fire +"	loam	30	forest	60	60	60	300	h			ft
+WE	wepp-6732	"12:37 pm  Sunday July 21, 2013"	"West Fork Fire +"	loam	30	forest	75	75	75	300	l			ft
+WE	wepp-6781	"12:37 pm  Sunday July 21, 2013"	"West Fork Fire +"	loam	30	forest	75	75	75	300	m			ft
+WE	wepp-6850	"12:38 pm  Sunday July 21, 2013"	"West Fork Fire +"	loam	30	forest	75	75	75	300	h			ft
+WE	wepp-132889	"11:21 am  Monday November 24, 2014"	"HERMIT 9SE CO 2 +"	sand	20	forest	0	25	15	300	u			ft
+WE	wepp-132981	"11:23 am  Monday November 24, 2014"	"HERMIT 9SE CO 2 +"	sand	20	forest	0	50	30	300	u			ft
+WE	wepp-133069	"11:24 am  Monday November 24, 2014"	"HERMIT 9SE CO 2 +"	sand	20	forest	0	50	30	300	m			ft
+WE	wepp-133257	"11:24 am  Monday November 24, 2014"	"HERMIT 9SE CO 2 +"	sand	20	forest	0	50	30	300	h			ft
+WE	wepp-133496	"11:25 am  Monday November 24, 2014"	"HERMIT 9SE CO 2 +"	silt	20	forest	0	50	30	300	h			ft
+WE	wepp-133750	"11:28 am  Monday November 24, 2014"	"West Fork Fire +"	silt	20	forest	0	50	30	300	h			ft
+WE	wepp-133982	"11:29 am  Monday November 24, 2014"	"DENVER WB AP CO"	silt	20	forest	0	50	30	300	h			ft
+WE	wepp-134235	"11:34 am  Monday November 24, 2014"	"Mason Creek +"	sand	20	forest	0	50	30	300	u			ft
+WE	wepp-134320	"11:34 am  Monday November 24, 2014"	"Mason Creek +"	sand	20	forest	0	50	30	300	h			ft
+WD	wepp-134776	"11:52 am  Monday November 24, 2014"	"Mason Creek +"	10	sand	OldForest	50	0	30	100	20	OldForest	50	30	5	100	20	0	ft	""
+WD	wepp-134822	"11:52 am  Monday November 24, 2014"	"Mason Creek +"	10	sand	OldForest	50	0	30	0	20	OldForest	50	30	5	0	20	0	ft	""
+WD	wepp-134871	"11:53 am  Monday November 24, 2014"	"Mason Creek +"	10	sand	OldForest	50	0	30	0	20	OldForest	50	30	10	0	20	0	ft	""
+WD	wepp-134920	"11:53 am  Monday November 24, 2014"	"Mason Creek +"	10	sand	OldForest	50	0	30	0	0	OldForest	50	30	10	0	0	0	ft	""
+WD	wepp-134967	"11:54 am  Monday November 24, 2014"	"Mason Creek +"	10	sand	HighFire	50	0	30	45	15	HighFire	50	30	10	45	15	0	ft	""
+WD	wepp-135033	"11:55 am  Monday November 24, 2014"	"Mason Creek +"	10	loam	LowFire	50	0	30	85	15	LowFire	50	30	10	85	15	0	ft	""
+WD	wepp-135082	"11:55 am  Monday November 24, 2014"	"Mason Creek +"	10	loam	HighFire	50	0	30	45	15	HighFire	50	30	10	45	15	0	ft	""
+WD	wepp-135124	"11:56 am  Monday November 24, 2014"	"Mason Creek +"	10	silt	HighFire	50	0	30	45	15	HighFire	50	30	10	45	15	0	ft	""
+WD	wepp-135168	"11:56 am  Monday November 24, 2014"	"Mason Creek +"	10	silt	HighFire	50	0	30	45	0	HighFire	50	30	10	45	0	0	ft	""
+WD	wepp-135412	"11:57 am  Monday November 24, 2014"	"Mason Creek +"	10	loam	HighFire	50	0	30	45	0	Sod	50	30	10	40	0	0	ft	""
+WD	wepp-151908	"05:57 am  Tuesday November 25, 2014"	"Mason Creek +"	10	sand	OldForest	100	20	20	100	20	OldForest	100	20	20	100	20	0	ft	"c1"
+WD	wepp-151943	"05:57 am  Tuesday November 25, 2014"	"Mason Creek +"	10	sand	OldForest	100	20	20	60	20	OldForest	100	20	20	60	20	0	ft	"H1"
+WD	wepp-151950	"05:57 am  Tuesday November 25, 2014"	"Mason Creek +"	10	sand	LowFire	100	20	20	75	20	LowFire	100	20	20	75	20	0	ft	"FL"
+WD	wepp-151957	"05:57 am  Tuesday November 25, 2014"	"Mason Creek +"	10	sand	HighFire	100	20	20	0	20	HighFire	100	20	20	0	20	0	ft	"FH"
+WD	wepp-152148	"06:03 am  Tuesday November 25, 2014"	"Mason Creek +"	20	sand	OldForest	100	20	20	100	20	OldForest	100	20	20	100	20	0	ft	"c1"
+WD	wepp-152186	"06:03 am  Tuesday November 25, 2014"	"Mason Creek +"	20	sand	OldForest	100	20	20	60	20	OldForest	100	20	20	60	20	0	ft	"H1"
+WD	wepp-152193	"06:03 am  Tuesday November 25, 2014"	"Mason Creek +"	20	sand	LowFire	100	20	20	75	20	LowFire	100	20	20	75	20	0	ft	"FL"
+WD	wepp-152200	"06:03 am  Tuesday November 25, 2014"	"Mason Creek +"	20	sand	HighFire	100	20	20	0	20	HighFire	100	20	20	0	20	0	ft	"FH"
+WD	wepp-152207	"06:03 am  Tuesday November 25, 2014"	"Mason Creek +"	20	sand	OldForest	100	40	40	100	20	OldForest	100	40	40	100	20	0	ft	"c140"
+WD	wepp-152214	"06:03 am  Tuesday November 25, 2014"	"Mason Creek +"	20	sand	OldForest	100	40	40	60	20	OldForest	100	40	40	60	20	0	ft	"H140"
+WD	wepp-152223	"06:03 am  Tuesday November 25, 2014"	"Mason Creek +"	20	sand	LowFire	100	40	40	75	20	LowFire	100	40	40	75	20	0	ft	"FL40"
+WD	wepp-152230	"06:03 am  Tuesday November 25, 2014"	"Mason Creek +"	20	sand	HighFire	100	40	40	0	20	HighFire	100	40	40	0	20	0	ft	"FH40"
+WD	wepp-152238	"06:03 am  Tuesday November 25, 2014"	"Mason Creek +"	20	sand	OldForest	100	60	60	100	20	OldForest	100	60	60	100	20	0	ft	"C160"
+WD	wepp-152245	"06:04 am  Tuesday November 25, 2014"	"Mason Creek +"	20	sand	OldForest	100	60	60	60	20	OldForest	100	60	60	60	20	0	ft	"H160"
+WD	wepp-152252	"06:04 am  Tuesday November 25, 2014"	"Mason Creek +"	20	sand	LowFire	100	60	60	75	20	LowFire	100	60	60	75	20	0	ft	"FL60"
+WD	wepp-152261	"06:04 am  Tuesday November 25, 2014"	"Mason Creek +"	20	sand	HighFire	100	60	60	0	20	HighFire	100	60	60	0	20	0	ft	"FH60"
+WD	wepp-152654	"06:14 am  Tuesday November 25, 2014"	"Mason Creek +"	10	sand	OldForest	50	0	30	100	20	YoungForest	50	30	5	100	20	0	ft	""
+WD	wepp-152695	"06:14 am  Tuesday November 25, 2014"	"Mason Creek +"	10	sand	HighFire	50	0	30	45	20	HighFire	50	30	5	45	20	0	ft	""
+WD	wepp-152742	"06:14 am  Tuesday November 25, 2014"	"Mason Creek +"	10	sand	HighFire	50	20	20	45	20	HighFire	50	20	20	45	20	0	ft	""

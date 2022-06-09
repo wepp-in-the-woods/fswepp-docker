@@ -1,0 +1,19 @@
+WE	wepp-7693	"02:08 pm  Tuesday October 9, 2012"	"JEMEZ SPRINGS NM"	clay	30	forest	0	70	30	300	h			ft
+WE	wepp-7820	"02:12 pm  Tuesday October 9, 2012"	"JEMEZ SPRINGS NM"	silt	45	forest	10	70	30	300	h			ft
+WE	wepp-7986	"02:21 pm  Tuesday October 9, 2012"	"Peralta, NM +"	silt	40	forest	10	70	30	300	h			ft
+WE	wepp-8106	"02:25 pm  Tuesday October 9, 2012"	"Peralta, NM +"	clay	40	forest	10	70	30	300	h			ft
+WE	wepp-8228	"02:27 pm  Tuesday October 9, 2012"	"Peralta, NM +"	sand	40	forest	10	70	30	300	h			ft
+WE	wepp-8320	"02:29 pm  Tuesday October 9, 2012"	"Peralta, NM +"	sand	40	forest	10	70	30	300	l			ft
+WE	wepp-8428	"02:36 pm  Tuesday October 9, 2012"	"Peralta, NM +"	sand	40	forest	10	70	30	300	h			ft
+WE	wepp-8546	"02:37 pm  Tuesday October 9, 2012"	"Peralta, NM +"	sand	40	forest	10	70	30	300	h			ft
+WE	wepp-8637	"02:38 pm  Tuesday October 9, 2012"	"Peralta, NM +"	sand	40	forest	10	70	30	300	l			ft
+WE	wepp-8687	"02:39 pm  Tuesday October 9, 2012"	"Peralta, NM +"	sand	40	forest	30	70	30	300	h			ft
+WE	wepp-8778	"02:40 pm  Tuesday October 9, 2012"	"Peralta, NM +"	sand	40	forest	10	70	30	300	l			ft
+WE	wepp-8939	"02:52 pm  Tuesday October 9, 2012"	"Peralta, NM +"	clay	40	forest	10	80	30	300	h			ft
+WE	wepp-9084	"02:57 pm  Tuesday October 9, 2012"	"Peralta, NM +"	clay	40	forest	10	70	30	300	h			ft
+WF	wepp-23156	"12:18 pm  Wednesday October 10, 2012"	"Peralta 2,  NM +"	sand	300	50	10	70	30	150	150	150	2.5	ft
+WF	wepp-23220	"12:20 pm  Wednesday October 10, 2012"	"Peralta 2,  NM +"	sand	300	1	10	70	30	150	150	150	2.5	ft
+wt	wepp-23287	"Oct 10, 2012"	"Peralta 2,  NM +"	volcanic	HighFire	10	70	200	45	40	HighFire	40	10	200	45	40	ft	""
+wt	wepp-23308	"Oct 10, 2012"	"Peralta 2,  NM +"	granitic	HighFire	10	70	200	45	40	HighFire	40	10	200	45	40	ft	""
+wt	wepp-23328	"Oct 10, 2012"	"Peralta 2,  NM +"	volcanic	HighFire	10	70	200	45	40	HighFire	40	10	200	45	40	ft	""
+WD	wepp-23351	"12:26 pm  Wednesday October 10, 2012"	"Peralta 2,  NM +"	10	sand	HighFire	200	0	70	45	40	HighFire	200	40	15	45	40	0	ft	""

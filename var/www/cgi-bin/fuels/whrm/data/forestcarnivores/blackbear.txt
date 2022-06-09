@@ -1,0 +1,117 @@
+#this files was modified by filegenwhrm.pl on: Wednesday, March 16, 2005.
+#taxgroup Forest Carnivores species Black bear / Ursus americanus 
+#
+# Rank
+3,1,1,6,5
+# Nestsite
+12,1:24,1:25,1:26,1
+# Reprorank
+1,-99:1,-99:1,-99:1,-99
+# Foraging Habitat
+12,1
+# Habitatrank
+1,-99
+# Forage/Prey Availability
+2,1:3,1:4,1
+# Preyrank
+2,-99:4,-99:6,-99
+# Predator Avoidance
+12,1:24,1:25,1:26,1
+# Avoidrank
+1,-99:1,-99:2,-99:2,-99
+# Refugia/Shelter
+4,1:9,1:10,1:12,1:16,1:17,1:18,1:20,1:22,1:23,1:24,1:25,1:26,1
+# Shelterrank
+2,-99:2,-99:2,-99:2,-99:1,-99:1,-99:1,-99:1,-99:1,-99:1,-99:1,-99:2,-99:2,-99
+# Coverrank
+2,-99:1,-99:3,-99:3,-99:2,-99:2,-99:2,-99:1,-99:1,-99:1,-99:1,-99:1,-99:1,-99
+# Literature
+Distribution
+much of USA
+General Habitat
+in west: chiefly mountainous areas
+Home or Activity Range
+580-27700 ac (O'Neil et al. 2001)
+Canopy Cover
+dense canopy cover at bed sites (Bull et al. 2001)
+Specific Habitat Preferences
+forest generalists, prefer edge habitats and are frequently found near riparian areas, use large diameter trees and logs and rock crevices for denning, logs and fruiting shrubs for foraging, closed canopy, high cover conditions for bedding
+Nestsite Characteristics
+dens beneath down trees, hollow logs or trees, beneath roots, in rock crevices, use ground excavations
+Foraging Habitat Characteristics
+large-diameter logs; fruiting shrubs (especially hawthorne in OR)
+Diet
+acorns, berries, nuts, tubers, insects and their larvae, small mammals, eggs, honey, carrion, garbage
+Predators
+wolves, mountain lions, humans
+Shelter Habitats
+snags for overwintering, dwelling or denning; dens beneath down trees, hollow logs or trees, beneath roots,rock crevices, ground excavations; bed in closed canopy, dense stands, including pole stands; daybeds may be in timbered areas with sparse understory
+Response to Disturbance
+selected areas clearcut 5-15 years in the past for berry producing shrubs and cover, avoided clearcuts over 30 years old (Lindsey and Meslow 1977); selected against areas burned by wildfire within the past 0-2 years and areas harvested and burned within the past 1-10 years (Gold 1997); bears selected for selection cuts (20-40 years old) in all seasons, and against clearcuts (<20 years old) in all seasons (Young 1984); used burned-huckleberry habitat more than expected based on availability in the spring and fall (Kasworm and Manley 1988); bears used habitat < 100 m of open roads less than expected (Kasworm and Manley 1988); selection cuts provided a large variety of bear food and were used for feeding (Unsworth et al. 1989); very few bear locations were within clearcuts (Unsworth et al. 1989)
+Sources of Information used in the Model
+Lindzey and Meslow 1977, Young 1984, reviewed in Nietro et al. 1985, Kasworm and Manley 1988, Mollohan 1989, Unsworth et al. 1989, Bull et al. 2000, Bull et al. 2001, Koehler and Pierce 2003
+General Sources of Background Information
+Lindzey and Meslow 1977, Burt 1980, Young 1984, reviewed in Nietro et al. 1985, Kasworm and Manley 1988, Mollohan 1989, Unsworth et al. 1989, reviewed in Hagar et al. 1995, Gold 1997, Bull et al. 2000, Bull et al. 2001, Koehler and Pierce 2003 
+Summaries of Specific Studies
+Bull, Evelyn L.; Akenson, James J.; Henjum, Mark G. 2000. Characteristics of black bear dens in trees and logs in northeastern Oregon. Northwestern Naturalist. 81:148-153.
+
+Location of Study: Blue Mountains of northeastern Oregon
+Habitat Description: PIPO, PSME, ABGR, PICO, ABLA
+Summary: Black bears used hollow logs and trees, ground excavations, and cave or rock structures for denning in northeastern Oregon. Hollow trees used for denning were typically large-diameter and showed signs of either heartwood or basal decay. Age classes of bears showed different patterns of den site selection. Areas where hollow logs were used had been harvested, resulting in earlier structural stages lacking large-diameter trees. The majority of denning sites occurred in moist, late-seral stands of ABGR. Retention of large-diameter ABGR and LAOC with evidence of decay will increase the availability of den sites to black bears in the region.
+
+Bull, Evelyn L.; Heater, Thad W.; Wertz, Tara. 2001. Black bear habitat use in northeastern Oregon. Western Black Bear Workshop. 7:82-91.
+
+Location of Study: northeastern Oregon
+Habitat Description: ABGR, PSME, PICO, ABLA, PIPO at all structural stages
+Summary: Black bear habitat use was examined by sex and age outside of the denning season. Old and young multistory stands were used more, and all other structural stages used less, than expected based on availability. Adult males used the most diversified habitat, while adult females were restricted to mature, multistory, unlogged ABGR stands. Sites used for bedding and moving had a high degree of security in the form of high stem density and dense canopy closure. Most log-foraging took place in logged stands and were higher in slope than stands used for other activities. Fruit-foraging took place in open stands that were lower in slope, closer to roads, and lower in log density than stands used for other purposes. Bears selected large-diameter logs (> 38 cm diameter) with partial or advanced decay for foraging. 
+
+Gold, Andrea Lee. 1997. Habitat use of black  bears in the northeast Cascades of Washington. Missoula, MT: University of Montana. 94 p. M.S. Thesis.
+
+Location of Study:  northeast Cascades, Washington
+Habitat Description:  PIPO, PSME, TSHE, PICO, ABLA
+Summary: Black bears selected for PSME, riparian forests, and deciduous forests, and selected against hemlock, other conifers, fire, and bare ground (mostly roads) in the study area. Riparian and mesic sites, mosaics of open and forested areas, and areas with high diversity of bear plant food also represent important habitat to bears in the northeast Cascades.
+
+Kasworm, Wayne; Manley, Timothy. 1988. Grizzly bear and black bear ecology in the Cabinet Mountains of northwest Montana. Montana Department of Fish, Wildlife and Parks. 122 p.
+
+Location of Study:  northwest Montana, northern Idaho
+Habitat Description:  PIPO, PSME, ABGR, THPL, TSHE, ABLA, PIEN, TSME, PICO, LAOC, aspen
+Summary: Grizzly and black bears were radio-collared and monitored in the Cabinet Mountains of northwestern Montana. Home range size, population density, food habits and spring and fall habitat use were examined. Both bear species avoided habitat close to open roads, though grizzlies were more sensitive. Habitat selection in relation to topography, vegetation types, human activities, and land use were discussed. Grizzly bears used timbered habitats less than expected both spring and fall, and timbered shrub habitats were used less than expected in spring only. Snowchute shrub/alder habitat was used more than expected in both seasons. Burned/huckleberry habitat was used more than expected in the fall. Habitats high in grasses and forbs were used in the spring. Black bears used timbered habitat less than expected, but timbered-shrub, snowchute shrub-alder, burn-huckleberry, and riparian-forb habitat more than expected in both seasons. The impact of human harvest on black bear sex and age structure was also examined. The low number of grizzly captures and sightings, as well as the high mortality of captured grizzlies leads to serious questions of the species' ability to persist in the Cabinet mountains.
+
+Koehler, Gary M.; Pierce, D. John. 2003. Black bear home-range sizes in Washington: climatic, vegetative and social influences. Journal of Mammalogy. 84(1): 81-91.
+
+Location of Study: Washington
+Habitat Description: varied between PSME, PIPO, PICO, PIEN, ABLA, TSHE, THPL, ABAM, TSME
+Summary: This study examined whether home-range size of black bears differed between sexes and among study sites and whether these patterns were correlated with differential use of forest-cover types and difference in forest management objectives. The shrub-herbaceous cover type was the highest cover type used by both males and females in the study area comprised of PIPO-PSME mixed conifer forest types. Males and females had different home range sizes, and responded to vegetative cover types differently.
+
+Lindzey, Frederick G.; Meslow, E. Charles. 1977. Home range and habitat use by black bears in south-western Washington. Journal of Wildlife Management. 41:413-425.
+
+Location of Study:  island in southwestern Washington
+Habitat Description:  TSHE, PSME, PISI, THPL
+Summary:  Black bear movement and activity were monitored on a small island in southwestern Washington. Home range on the island was smaller than that reported in other areas, which the authors attribute to the richness of local habitat. Bears selected for areas logged within 5-10 years of the study, and avoided those areas logged more than 30 years previously. The authors attribute the attraction to recently logged areas by the presence of berry-producing shrubs in these areas. Areas logged 8-15 years previously provided both food and cover and were used more than expected based on availability.
+
+Mollohan, Cheryl. 1989. Habitat use of an Arizona ponderosa pine-mixed conifer forest by female black bears. Western Journal of Applied Forestry. 4(1):6-10.
+
+Location of Study:  Apache-Sitgreaves and Coconino National Forests, Arizona
+Habitat Description:  PIPO, PSME, ABCO, PIFL, ACGR, QUGA, aspen
+Summary:  Feeding and bedding sites were examined for female black bears. All radio-collared bears selected for mixed-conifer forest and against PIPO. Mixed conifer areas had higher overstory and horizontal cover, as well as a higher density of mature trees and shrubs. The author believes that bears selected for areas with the most security in the form of cover, both vegetative and topographical, rather than areas containing specific species. Secondary habitat selection was food-based. Gambel oak acorns were a main food source.
+
+Neitro, William A.; Binkley, Virgil B.; Cline, Steven P.; Mannan, R. William, Marcot, Bruce G.; Taylor, Douglas; Wagner, Frank F. 1985. Snags (Wildlife trees). In Brown, E.R. (technical editor). Management of Wildlife and Fish Habitats in Forests of Western Oregon and Washington. Publication number R6-F&WL-192-1985. Portland, OR: USDA Forest Service, Pacific Northwest Region.
+
+Location of Study:  review of western Oregon and Washington
+Habitat Description:  intensively managed and unmanaged PSME
+Summary:  A comprehensive review of the importance of snags as wildlife trees in managed and unmanaged PSME forests. Includes information on the ecological role of snags and cavity users, wildlife snag requirements, snag management, and guidelines for selecting wildlife trees to meet logging safety requirements. Details on calculating the number of snags needed to maintain specific densities of cavity-users is presented. Forestry practices that impact snag production and retention are also outlined. The economic role of snags and cavity-using wildlife is addressed. 
+
+Unsworth, James W.; Beecham, John J.; Irby, Lynn R. 1989. Female black bear habitat use in west-central Idaho. Journal of Wildlife Management. 53:668-673.
+
+Location of Study:  west-central Idaho
+Habitat Description:  forest types of PIPO, PSME, ABGR also containing PICO, ABLA, PIEN, LAOC, aspen; also sagebrush, grasses and forbs at lower elevations
+Summary: Female black-bear habitat use was studied. Habitat use varied seasonally and by activity. Female bears tended to feed in areas where topographic features enhanced the growth of mesic vegetation. Selection-cut shrubfields and shrubfield habitats were used for feeding. Uncut timbered sites were important bedding locations. Open timber and meadow areas high in grasses and forbs were used in spring for foraging. Riparian and aspen habitats high in berry-producing shrubs were used for both feeding and bedding in the summer and fall. Rock-talus and sagebrush habitats were avoided.
+
+Young, Donald D. 1984. Black bear habitat use at Priest Lake, Idaho. Missoula, MT: University of Montana. 66 p. M.S. Thesis.
+
+Location of Study:  northern Idaho
+Habitat Description:  TSHE, PSME, THPL, ABLA, PIAL
+Summary: This study aimed to quantify seasonal habitat use by black bears, determine if habitat use patterns differed by sex,  identify relationships between habitat use and activities on disturbed and undisturbed sites, identify relationships between habitat use and characteristics of food species, and determine whether physical and environmental factors affect habitat use patterns. Black bears selected for selection cuts during spring, summer, and fall. Clearcuts were selected against in all seasons. Females used the timbered habitat component more than males. Selection cuts and riparian zones were used for feeding, while timber and selection cuts were used for bedding. Bear locations were tied to the phenological development of food plants.
+
+
+

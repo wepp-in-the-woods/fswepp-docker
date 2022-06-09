@@ -1,0 +1,33 @@
+WR	wepp-30206	"08:56 am  Tuesday November 17, 2009"	"SEELEY LAKE RS MT 22.55 +"	30	clay	native	200	4	13	15	50	130	25	20	inveg
+WR	wepp-30365	"08:57 am  Tuesday November 17, 2009"	"SEELEY LAKE RS MT 22.55 +"	1	clay	native	200	4	13	15	50	130	25	20	inveg
+WR	wepp-31023	"09:13 am  Tuesday November 17, 2009"	"Lake Wilson, AR +"	1	clay	native	200	4	13	15	50	130	25	20	inveg
+WR	wepp-31090	"09:14 am  Tuesday November 17, 2009"	"Lake Wilson, AR +"	1	clay	native	200	4	13	15	50	130	25	20	inveg
+WR	wepp-31385	"09:25 am  Tuesday November 17, 2009"	"Lake Wilson, AR +"	1	loam	native	200	4	13	15	50	130	25	40	inveg
+WR	wepp-31542	"09:28 am  Tuesday November 17, 2009"	"SEELEY LAKE RS MT 22.55 +"	1	clay	native	200	4	13	15	50	130	25	20	inveg
+WR	wepp-31824	"09:35 am  Tuesday November 17, 2009"	"Lake Wilson, AR +"	1	loam	native	200	4	13	15	50	50	5	40	inveg
+WR	wepp-32018	"09:40 am  Tuesday November 17, 2009"	"Lake Wilson, AR +"	1	loam	graveled	200	4	13	15	50	50	5	40	outunrut
+WR	wepp-32208	"09:44 am  Tuesday November 17, 2009"	"Lake Wilson, AR +"	1	loam	paved	200	4	13	15	50	50	5	40	inbare
+WR	wepp-32328	"09:46 am  Tuesday November 17, 2009"	"Lake Wilson, AR +"	1	loam	paved	200	4	13	15	50	50	5	40	inveg
+WD	wepp-15724	"08:56 am  Wednesday November 18, 2009"	"Lake Wilson, AR +"	10	loam	tree20	54.8780487804878	5	10	100	40	tree20	7.62195121951219	10	14	100	40	0	ft	""
+WD	wepp-16046	"09:13 am  Wednesday November 18, 2009"	"Lake Wilson, AR +"	10	loam	shrub	54.8780487804878	5	10	85	40	shrub	7.62195121951219	10	14	80	40	0	ft	""
+WD	wepp-16134	"09:13 am  Wednesday November 18, 2009"	"Lake Wilson, AR +"	10	loam	shrub	54.8780487804878	5	10	85	40	shrub	7.62195121951219	10	14	100	40	0	ft	""
+WD	wepp-16304	"09:15 am  Wednesday November 18, 2009"	"Lake Wilson, AR +"	10	loam	shrub	54.8780487804878	5	10	60	40	tree20	7.62195121951219	10	14	100	40	0	ft	""
+WD	wepp-16411	"09:18 am  Wednesday November 18, 2009"	"Lake Wilson, AR +"	10	loam	shrub	54.8780487804878	5	10	65	40	tree20	7.62195121951219	10	14	100	40	0	ft	""
+WD	wepp-16536	"09:23 am  Wednesday November 18, 2009"	"Lake Wilson, AR +"	10	loam	shrub	54.8780487804878	5	10	65	40	tree20	7.62195121951219	10	14	100	40	0	ft	"thin"
+WD	wepp-16619	"09:28 am  Wednesday November 18, 2009"	"Lake Wilson, AR +"	10	loam	shrub	54.8780487804878	5	10	65	40	tree20	7.62195121951219	10	14	100	40	0	ft	"thin"
+WD	wepp-16634	"09:28 am  Wednesday November 18, 2009"	"Lake Wilson, AR +"	10	loam	shrub	54.8780487804878	5	10	65	40	tree20	7.62195121951219	10	14	100	40	0	ft	"thin"
+WD	wepp-16918	"09:37 am  Wednesday November 18, 2009"	"Lake Wilson, AR +"	10	loam	tall	54.8780487804878	5	10	40	40	tree20	7.62195121951219	10	14	75	40	0	ft	"thin"
+WD	wepp-17003	"09:41 am  Wednesday November 18, 2009"	"Lake Wilson, AR +"	10	loam	low	54.8780487804878	5	10	86	40	tree20	7.62195121951219	10	14	65	40	0	ft	"thin"
+WD	wepp-17017	"09:42 am  Wednesday November 18, 2009"	"Lake Wilson, AR +"	10	loam	low	54.8780487804878	5	10	86	40	tree20	7.62195121951219	10	14	60	40	0	ft	"thin"
+WD	wepp-17092	"09:42 am  Wednesday November 18, 2009"	"Lake Wilson, AR +"	10	loam	low	54.8780487804878	5	10	86	40	tree20	7.62195121951219	10	14	100	40	0	ft	"thin"
+WD	wepp-17377	"09:59 am  Wednesday November 18, 2009"	"Lake Wilson, AR +"	10	loam	low	54.8780487804878	5	10	67	40	low	7.62195121951219	10	14	67	40	0	ft	""
+WD	wepp-21232	"02:53 pm  Wednesday November 18, 2009"	"Medora ND +"	30	clay	tall	15.2439024390244	0	30	50	20	tall	15.2439024390244	30	5	60	20	0	ft	""
+WD	wepp-21278	"02:54 pm  Wednesday November 18, 2009"	"Medora ND +"	30	clay	tall	15.2439024390244	0	30	65	20	tall	15.2439024390244	30	5	70	20	0	ft	""
+WD	wepp-21360	"02:56 pm  Wednesday November 18, 2009"	"Medora ND +"	50	clay	tall	15.2439024390244	0	30	68.5	0	tall	15.2439024390244	30	5	68.5	0	0	ft	""
+WD	wepp-21443	"02:57 pm  Wednesday November 18, 2009"	"Medora ND +"	50	clay	short	15.2439024390244	0	30	40	0	short	15.2439024390244	30	5	40	0	0	ft	""
+WD	wepp-21468	"02:57 pm  Wednesday November 18, 2009"	"Medora ND +"	50	clay	short	15.2439024390244	0	30	68	0	short	15.2439024390244	30	5	68	0	0	ft	""
+WD	wepp-21511	"02:58 pm  Wednesday November 18, 2009"	"Medora ND +"	50	clay	short	15.2439024390244	0	30	75	0	short	15.2439024390244	30	5	80	0	0	ft	""
+WD	wepp-21557	"02:58 pm  Wednesday November 18, 2009"	"Medora ND +"	50	clay	short	15.2439024390244	0	30	73.5	0	short	15.2439024390244	30	5	73.5	0	0	ft	""
+WD	wepp-21580	"02:59 pm  Wednesday November 18, 2009"	"Medora ND +"	50	clay	short	15.2439024390244	0	30	73.5	0	short	15.2439024390244	30	5	73.5	0	0	ft	""
+WD	wepp-21770	"03:02 pm  Wednesday November 18, 2009"	"Medora ND +"	50	clay	short	15.2439024390244	0	30	82.5	0	short	15.2439024390244	30	5	82.5	0	0	ft	""
+WD	wepp-21792	"03:02 pm  Wednesday November 18, 2009"	"Medora ND +"	50	clay	short	15.2439024390244	0	30	82.5	0	short	15.2439024390244	30	5	82.5	0	0	ft	""

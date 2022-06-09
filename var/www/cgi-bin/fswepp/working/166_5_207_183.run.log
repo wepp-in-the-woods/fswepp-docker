@@ -1,0 +1,1671 @@
+WR	wepp-17793	"04:10 pm  Monday May 21, 2012"	"Arrastre Creek CA +"	50	sand	native	105	8	15	10	5	1	5	20	inveg	ft
+WR	wepp-17812	"04:11 pm  Monday May 21, 2012"	"Arrastre Creek CA +"	50	sand	native	105	8	15	10	5	1	5	20	inbare	ft
+WR	wepp-17886	"04:12 pm  Monday May 21, 2012"	"Arrastre Creek CA +"	50	sand	native	105	8	15	1	5	1	5	20	inbare	ft
+WR	wepp-17956	"04:16 pm  Monday May 21, 2012"	"Arrastre Creek CA +"	50	sand	native	50	10	25	1	8	1	8	20	inbare	ft
+WR	wepp-17976	"04:18 pm  Monday May 21, 2012"	"Arrastre Creek CA +"	50	sand	native	210	14	15	1	8	30	6	20	inbare	ft
+WR	wepp-18024	"04:21 pm  Monday May 21, 2012"	"Arrastre Creek CA +"	50	sand	native	345	14	15	1	8	30	6	20	inbare	ft
+WE	wepp-2493	"03:32 pm  Tuesday May 22, 2012"	"Arrastre Creek CA +"	sand	20	chap	14	50	10	300	l	50	10	ft
+WE	wepp-35811	"02:30 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	5	chap	10	8	7	123	u	80	0	ft
+WE	wepp-35893	"02:30 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	5	chap	8	7	3	123	l	80	0	ft
+WE	wepp-36007	"02:30 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	5	chap	10	7	3	123	m	80	0	ft
+WE	wepp-36161	"02:30 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	5	chap	12	10	7	123	u	80	0	ft
+WE	wepp-36215	"02:30 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	5	chap	11	8	6	123	l	80	0	ft
+WE	wepp-36329	"02:31 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	5	chap	21	10	2	123	u	80	0	ft
+WE	wepp-36383	"02:31 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	5	chap	18	8	1	123	l	80	0	ft
+WE	wepp-36497	"02:31 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	5	chap	15	9	3	123	m	80	0	ft
+WE	wepp-36651	"02:31 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	5	chap	54	10	1	123	u	80	0	ft
+WE	wepp-36705	"02:31 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	5	chap	50	10	1	123	l	80	0	ft
+WE	wepp-36819	"02:31 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	5	chap	29	9	1	123	m	80	0	ft
+WE	wepp-36973	"02:31 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	5	chap	19	13	5	123	u	80	0	ft
+WE	wepp-37027	"02:31 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	5	chap	64	20	3	123	l	80	0	ft
+WE	wepp-37141	"02:31 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	5	chap	18	12	4	123	m	80	0	ft
+WE	wepp-37295	"02:31 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	5	chap	10	3	0	123	u	80	0	ft
+WE	wepp-37349	"02:31 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	5	chap	19	8	1	123	l	80	0	ft
+WE	wepp-37463	"02:31 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	5	chap	12	12	12	123	m	80	0	ft
+WE	wepp-37617	"02:32 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	5	chap	25	8	1	123	u	80	0	ft
+WE	wepp-37671	"02:32 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	5	chap	37	9	1	123	l	80	0	ft
+WE	wepp-37785	"02:32 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	5	chap	50	21	1	150	u	80	0	ft
+WE	wepp-37839	"02:32 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	5	chap	47	25	1	150	l	80	0	ft
+WE	wepp-37953	"02:32 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	5	chap	71	17	0	150	u	80	0	ft
+WE	wepp-38007	"02:32 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	5	chap	49	15	0	150	l	80	0	ft
+WE	wepp-38121	"02:32 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	5	chap	29	16	5	150	m	80	0	ft
+WE	wepp-38275	"02:32 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	5	chap	89	25	0	150	u	80	0	ft
+WE	wepp-38329	"02:32 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	5	chap	84	21	0	150	l	80	0	ft
+WE	wepp-38444	"02:32 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	5	chap	68	27	0	150	m	80	0	ft
+WE	wepp-38598	"02:32 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	33	33	33	100	u	80	0	ft
+WE	wepp-38652	"02:32 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	36	25	15	100	l	80	0	ft
+WE	wepp-38766	"02:33 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	12	10	9	100	m	80	0	ft
+WE	wepp-38920	"02:33 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	31	9	0	152	u	80	0	ft
+WE	wepp-38974	"02:33 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	37	8	0	152	l	80	0	ft
+WE	wepp-39088	"02:33 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	32	11	1	152	m	80	0	ft
+WE	wepp-39243	"02:33 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	24	6	1	152	u	80	0	ft
+WE	wepp-39297	"02:33 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	28	6	0	152	l	80	0	ft
+WE	wepp-39412	"02:33 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	24	12	7	152	m	80	0	ft
+WE	wepp-39566	"02:33 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	28	9	1	152	u	80	0	ft
+WE	wepp-39620	"02:33 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	43	10	0	152	l	80	0	ft
+WE	wepp-39734	"02:33 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	27	14	1	152	m	80	0	ft
+WE	wepp-39888	"02:34 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	69	22	0	152	u	80	0	ft
+WE	wepp-39942	"02:34 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	73	17	0	152	l	80	0	ft
+WE	wepp-40056	"02:34 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	47	13	0	152	m	80	0	ft
+WE	wepp-40210	"02:34 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	19	7	3	152	u	80	0	ft
+WE	wepp-40264	"02:34 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	8	6	5	152	l	80	0	ft
+WE	wepp-40378	"02:34 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	6	6	5	152	m	80	0	ft
+WE	wepp-40535	"02:34 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	26	7	2	145	u	80	0	ft
+WE	wepp-40589	"02:34 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	31	7	2	145	l	80	0	ft
+WE	wepp-40703	"02:34 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	11	4	0	145	u	80	0	ft
+WE	wepp-40757	"02:34 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	12	5	0	145	l	80	0	ft
+WE	wepp-40871	"02:34 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	6	6	6	145	m	80	0	ft
+WE	wepp-41025	"02:35 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	32	11	2	145	u	80	0	ft
+WE	wepp-41079	"02:35 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	35	15	4	145	l	80	0	ft
+WE	wepp-41194	"02:35 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	21	4	0	145	u	80	0	ft
+WE	wepp-41248	"02:35 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	35	5	0	145	l	80	0	ft
+WE	wepp-41362	"02:35 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	23	7	0	145	m	80	0	ft
+WE	wepp-41516	"02:35 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	22	6	0	187	u	80	0	ft
+WE	wepp-41570	"02:35 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	66	16	4	187	l	80	0	ft
+WE	wepp-41684	"02:35 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	68	23	3	187	m	80	0	ft
+WE	wepp-41838	"02:35 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	77	42	10	187	h	80	0	ft
+WE	wepp-42032	"02:35 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	83	13	0	187	u	80	0	ft
+WE	wepp-42086	"02:35 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	94	12	0	187	l	80	0	ft
+WE	wepp-42200	"02:36 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	86	12	0	187	m	80	0	ft
+WE	wepp-42354	"02:36 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	84	8	0	187	u	80	0	ft
+WE	wepp-42408	"02:36 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	95	12	0	187	l	80	0	ft
+WE	wepp-42522	"02:36 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	84	13	0	187	m	80	0	ft
+WE	wepp-42678	"02:36 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	69	19	1	187	h	80	0	ft
+WE	wepp-42872	"02:36 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	70	12	0	187	u	80	0	ft
+WE	wepp-42926	"02:36 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	73	14	0	187	l	80	0	ft
+WE	wepp-43040	"02:36 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	72	14	1	187	m	80	0	ft
+WE	wepp-43194	"02:36 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	29	12	5	187	h	80	0	ft
+WE	wepp-43388	"02:37 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	57	29	7	187	l	80	0	ft
+WE	wepp-43503	"02:37 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	57	16	1	187	m	80	0	ft
+WE	wepp-43657	"02:37 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	24	12	2	187	u	80	0	ft
+WE	wepp-43711	"02:37 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	76	14	2	187	l	80	0	ft
+WE	wepp-43825	"02:37 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	74	16	3	187	m	80	0	ft
+WE	wepp-43979	"02:37 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	70	57	38	187	u	80	0	ft
+WE	wepp-44033	"02:37 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	86	24	2	187	l	80	0	ft
+WE	wepp-44147	"02:37 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	56	13	0	187	m	80	0	ft
+WE	wepp-44301	"02:37 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	32	22	11	187	u	80	0	ft
+WE	wepp-44355	"02:37 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	25	17	11	187	l	80	0	ft
+WE	wepp-44469	"02:37 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	26	15	11	187	m	80	0	ft
+WE	wepp-44623	"02:38 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	100	26	1	234	u	80	0	ft
+WE	wepp-44677	"02:38 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	80	19	0	234	l	80	0	ft
+WE	wepp-44791	"02:38 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	67	18	0	234	m	80	0	ft
+WE	wepp-44946	"02:38 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	48	15	0	234	u	80	0	ft
+WE	wepp-45000	"02:38 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	59	13	0	234	l	80	0	ft
+WE	wepp-45114	"02:38 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	55	13	0	234	m	80	0	ft
+WE	wepp-45268	"02:38 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	31	8	0	234	u	80	0	ft
+WE	wepp-45322	"02:38 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	22	6	0	234	l	80	0	ft
+WE	wepp-45436	"02:38 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	18	16	14	234	m	80	0	ft
+WE	wepp-45590	"02:38 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	68	21	0	234	u	80	0	ft
+WE	wepp-45644	"02:38 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	41	16	4	234	l	80	0	ft
+WE	wepp-45769	"02:39 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	60	24	0	234	u	80	0	ft
+WE	wepp-45823	"02:39 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	49	13	0	234	l	80	0	ft
+WE	wepp-45937	"02:39 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	44	18	1	234	m	80	0	ft
+WE	wepp-46091	"02:39 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	100	27	1	180	u	80	0	ft
+WE	wepp-46145	"02:39 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	100	37	1	180	l	80	0	ft
+WE	wepp-46259	"02:39 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	100	39	0	180	m	80	0	ft
+WE	wepp-46413	"02:39 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	94	57	8	180	h	80	0	ft
+WE	wepp-46607	"02:39 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	54	20	1	180	u	80	0	ft
+WE	wepp-46661	"02:39 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	64	20	1	180	l	80	0	ft
+WE	wepp-46775	"02:39 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	63	23	0	180	m	80	0	ft
+WE	wepp-46929	"02:40 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	57	29	1	180	u	80	0	ft
+WE	wepp-46983	"02:40 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	69	29	1	180	l	80	0	ft
+WE	wepp-47097	"02:40 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	51	28	4	180	m	80	0	ft
+WE	wepp-47251	"02:40 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	41	22	3	180	u	80	0	ft
+WE	wepp-47305	"02:40 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	59	25	4	180	l	80	0	ft
+WE	wepp-47419	"02:40 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	49	24	3	180	m	80	0	ft
+WE	wepp-47573	"02:40 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	92	23	0	180	u	80	0	ft
+WE	wepp-47627	"02:40 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	86	22	0	180	l	80	0	ft
+WE	wepp-47741	"02:40 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	85	24	0	180	m	80	0	ft
+WE	wepp-47895	"02:40 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	64	17	0	180	u	80	0	ft
+WE	wepp-47949	"02:40 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	59	16	0	180	l	80	0	ft
+WE	wepp-48063	"02:41 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	57	14	1	180	m	80	0	ft
+WE	wepp-48217	"02:41 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	25	25	25	180	u	80	0	ft
+WE	wepp-48271	"02:41 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	39	18	3	180	l	80	0	ft
+WE	wepp-48385	"02:41 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	37	16	4	180	m	80	0	ft
+WE	wepp-48539	"02:41 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	37	20	6	180	u	80	0	ft
+WE	wepp-48593	"02:41 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	94	23	1	180	l	80	0	ft
+WE	wepp-48707	"02:41 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	85	27	1	180	m	80	0	ft
+WE	wepp-48861	"02:41 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	34	8	0	180	u	80	0	ft
+WE	wepp-48915	"02:41 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	27	7	0	180	l	80	0	ft
+WE	wepp-49029	"02:41 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	25	9	0	180	m	80	0	ft
+WE	wepp-49183	"02:41 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	100	58	1	150	u	80	0	ft
+WE	wepp-49237	"02:42 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	100	47	0	150	l	80	0	ft
+WE	wepp-49351	"02:42 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	100	37	0	150	m	80	0	ft
+WE	wepp-49505	"02:42 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	79	53	14	150	h	80	0	ft
+WE	wepp-49699	"02:42 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	100	38	1	150	u	80	0	ft
+WE	wepp-49753	"02:42 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	100	34	0	150	l	80	0	ft
+WE	wepp-49867	"02:42 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	91	26	0	150	m	80	0	ft
+WE	wepp-50022	"02:42 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	32	22	11	150	h	80	0	ft
+WE	wepp-50216	"02:42 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	100	43	0	150	u	80	0	ft
+WE	wepp-50270	"02:42 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	100	44	1	150	l	80	0	ft
+WE	wepp-50384	"02:43 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	100	29	1	150	m	80	0	ft
+WE	wepp-50538	"02:43 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	87	37	6	150	h	80	0	ft
+WE	wepp-50732	"02:43 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	100	31	0	150	u	80	0	ft
+WE	wepp-50786	"02:43 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	100	36	0	150	l	80	0	ft
+WE	wepp-50900	"02:43 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	100	30	0	150	m	80	0	ft
+WE	wepp-51054	"02:43 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	81	34	3	150	h	80	0	ft
+WE	wepp-51248	"02:43 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	100	34	0	150	u	80	0	ft
+WE	wepp-51302	"02:43 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	100	38	0	150	l	80	0	ft
+WE	wepp-51416	"02:43 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	100	31	0	150	m	80	0	ft
+WE	wepp-51570	"02:44 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	81	32	0	150	h	80	0	ft
+WE	wepp-51764	"02:44 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	99	31	0	150	u	80	0	ft
+WE	wepp-51818	"02:44 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	100	29	0	150	l	80	0	ft
+WE	wepp-51932	"02:44 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	100	28	0	150	m	80	0	ft
+WE	wepp-52086	"02:44 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	23	13	3	150	h	80	0	ft
+WE	wepp-52280	"02:44 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	59	20	1	150	l	80	0	ft
+WE	wepp-52394	"02:44 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	42	18	3	150	m	80	0	ft
+WE	wepp-52749	"02:45 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	70	27	1	150	u	80	0	ft
+WE	wepp-52804	"02:45 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	71	39	2	150	l	80	0	ft
+WE	wepp-52918	"02:45 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	69	29	1	150	m	80	0	ft
+WE	wepp-53104	"02:45 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	96	19	0	150	u	80	0	ft
+WE	wepp-53158	"02:45 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	100	28	0	150	l	80	0	ft
+WE	wepp-53272	"02:45 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	100	21	0	150	m	80	0	ft
+WE	wepp-53426	"02:45 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	91	53	9	150	l	80	0	ft
+WE	wepp-53540	"02:45 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	88	43	6	150	m	80	0	ft
+WE	wepp-53694	"02:45 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	69	69	69	150	h	80	0	ft
+WE	wepp-53888	"02:46 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	18	chap	53	32	7	133	u	80	0	ft
+WE	wepp-53942	"02:46 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	18	chap	73	48	26	133	l	80	0	ft
+WE	wepp-54056	"02:46 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	18	chap	100	58	5	133	m	80	0	ft
+WE	wepp-54210	"02:46 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	18	chap	100	59	14	133	h	80	0	ft
+WE	wepp-54405	"02:46 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	18	chap	50	27	3	125	u	80	0	ft
+WE	wepp-54459	"02:46 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	18	chap	94	29	0	125	l	80	0	ft
+WE	wepp-54573	"02:46 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	18	chap	89	33	0	125	m	80	0	ft
+WE	wepp-54728	"02:46 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	18	chap	77	37	2	125	h	80	0	ft
+WE	wepp-54922	"02:46 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	18	chap	78	34	2	125	u	80	0	ft
+WE	wepp-54976	"02:46 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	18	chap	95	31	0	125	l	80	0	ft
+WE	wepp-55090	"02:47 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	18	chap	85	29	0	125	m	80	0	ft
+WE	wepp-55244	"02:47 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	18	chap	73	24	3	125	h	80	0	ft
+WE	wepp-55438	"02:47 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	18	chap	100	74	25	125	u	80	0	ft
+WE	wepp-55492	"02:47 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	18	chap	100	53	7	125	l	80	0	ft
+WE	wepp-55606	"02:47 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	18	chap	100	64	8	125	m	80	0	ft
+WE	wepp-55760	"02:47 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	18	chap	100	58	2	125	h	80	0	ft
+WE	wepp-55954	"02:47 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	100	10	0	92	u	80	0	ft
+WE	wepp-56008	"02:47 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	99	11	0	92	l	80	0	ft
+WE	wepp-56122	"02:47 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	95	16	0	92	m	80	0	ft
+WE	wepp-56277	"02:48 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	65	11	1	92	h	80	0	ft
+WE	wepp-56471	"02:48 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	82	59	27	168	u	80	0	ft
+WE	wepp-56525	"02:48 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	100	43	1	168	l	80	0	ft
+WE	wepp-56639	"02:48 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	100	42	2	168	m	80	0	ft
+WE	wepp-56795	"02:48 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	100	51	6	168	h	80	0	ft
+WE	wepp-56989	"02:48 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	100	47	1	168	u	80	0	ft
+WE	wepp-57043	"02:48 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	100	49	1	168	l	80	0	ft
+WE	wepp-57157	"02:48 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	100	39	0	168	m	80	0	ft
+WE	wepp-57311	"02:49 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	33	9	1	168	u	80	0	ft
+WE	wepp-57365	"02:49 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	100	67	14	168	l	80	0	ft
+WE	wepp-57479	"02:49 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	100	74	5	168	u	80	0	ft
+WE	wepp-57533	"02:49 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	100	66	1	168	l	80	0	ft
+WE	wepp-57647	"02:49 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	100	50	4	168	m	80	0	ft
+WE	wepp-57802	"02:49 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	80	37	10	168	h	80	0	ft
+WE	wepp-57998	"02:49 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	100	65	19	168	u	80	0	ft
+WE	wepp-58080	"02:49 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	86	53	17	168	l	80	0	ft
+WE	wepp-58194	"02:49 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	95	23	0	168	m	80	0	ft
+WE	wepp-58348	"02:49 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	100	56	1	325	u	80	0	ft
+WE	wepp-58402	"02:49 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	93	47	1	325	l	80	0	ft
+WE	wepp-58516	"02:50 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	83	39	8	325	m	80	0	ft
+WE	wepp-58670	"02:50 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	44	44	44	325	h	80	0	ft
+WE	wepp-58864	"02:50 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	78	19	0	130	u	80	0	ft
+WE	wepp-58918	"02:50 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	77	28	0	130	l	80	0	ft
+WE	wepp-59032	"02:50 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	65	39	9	130	m	80	0	ft
+WE	wepp-59186	"02:50 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	45	9	1	130	h	80	0	ft
+WE	wepp-59382	"02:50 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	99	11	1	130	u	80	0	ft
+WE	wepp-59436	"02:50 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	88	17	1	130	l	80	0	ft
+WE	wepp-59550	"02:50 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	100	50	1	130	m	80	0	ft
+WE	wepp-59704	"02:51 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	62	41	23	298	u	80	0	ft
+WE	wepp-59761	"02:51 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	63	38	14	298	l	80	0	ft
+WE	wepp-59903	"02:51 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	41	35	28	298	m	80	0	ft
+WE	wepp-60057	"02:51 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	56	26	1	298	h	80	0	ft
+WE	wepp-60279	"02:51 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	68	26	2	243	u	80	0	ft
+WE	wepp-60333	"02:51 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	55	20	5	243	l	80	0	ft
+WE	wepp-60447	"02:51 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	47	11	0	243	m	80	0	ft
+WE	wepp-60601	"02:51 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	43	9	1	243	u	80	0	ft
+WE	wepp-60655	"02:52 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	39	14	1	243	l	80	0	ft
+WE	wepp-60771	"02:52 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	4	2	1	243	m	80	0	ft
+WE	wepp-60953	"02:52 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	6	6	4	243	u	80	0	ft
+WE	wepp-61007	"02:52 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	89	38	2	243	l	80	0	ft
+WE	wepp-61121	"02:52 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	71	30	1	243	u	80	0	ft
+WE	wepp-61175	"02:52 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	77	28	1	243	l	80	0	ft
+WE	wepp-61289	"02:52 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	100	44	0	243	m	80	0	ft
+WE	wepp-61445	"02:52 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	100	37	0	243	u	80	0	ft
+WE	wepp-61527	"02:52 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	100	32	0	243	l	80	0	ft
+WE	wepp-61641	"02:52 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	7	7	7	243	m	80	0	ft
+WE	wepp-61795	"02:53 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	19	12	7	243	u	80	0	ft
+WE	wepp-61849	"02:53 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	24	13	7	253	u	80	0	ft
+WE	wepp-61903	"02:53 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	23	18	13	253	l	80	0	ft
+WE	wepp-62017	"02:53 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	27	9	1	253	m	80	0	ft
+WE	wepp-62171	"02:53 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	43	11	1	253	u	80	0	ft
+WE	wepp-62225	"02:53 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	28	8	6	253	l	80	0	ft
+WE	wepp-62339	"02:53 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	82	27	4	253	m	80	0	ft
+WE	wepp-62493	"02:53 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	87	19	1	253	u	80	0	ft
+WE	wepp-62547	"02:53 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	81	25	5	253	l	80	0	ft
+WE	wepp-62661	"02:53 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	49	36	4	253	m	80	0	ft
+WE	wepp-62815	"02:54 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	49	21	6	253	h	80	0	ft
+WE	wepp-63009	"02:54 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	33	9	1	253	u	80	0	ft
+WE	wepp-63063	"02:54 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	18	8	2	253	l	80	0	ft
+WE	wepp-63177	"02:54 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	50	11	1	253	m	80	0	ft
+WE	wepp-63331	"02:54 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	81	10	0	253	u	80	0	ft
+WE	wepp-63385	"02:54 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	87	16	3	253	l	80	0	ft
+WE	wepp-63499	"02:54 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	68	21	1	253	m	80	0	ft
+WE	wepp-63656	"02:54 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	57	27	0	253	u	80	0	ft
+WE	wepp-63738	"02:54 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	52	29	1	253	l	80	0	ft
+WE	wepp-63852	"02:54 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	36	11	0	253	m	80	0	ft
+WE	wepp-64006	"02:55 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	46	17	1	119	u	80	0	ft
+WE	wepp-64061	"02:55 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	61	22	4	119	l	80	0	ft
+WE	wepp-64205	"02:55 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	81	54	27	119	m	80	0	ft
+WE	wepp-64388	"02:55 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	76	35	0	119	u	80	0	ft
+WE	wepp-64442	"02:55 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	87	35	2	119	l	80	0	ft
+WE	wepp-64556	"02:55 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	100	59	1	119	m	80	0	ft
+WE	wepp-64710	"02:55 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	100	44	2	119	u	80	0	ft
+WE	wepp-64764	"02:55 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	100	35	1	119	l	80	0	ft
+WE	wepp-64878	"02:56 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	26	19	14	119	m	80	0	ft
+WE	wepp-65032	"02:56 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	100	69	3	119	h	80	0	ft
+WE	wepp-65230	"02:56 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	55	28	3	119	u	80	0	ft
+WE	wepp-65312	"02:56 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	100	63	9	119	l	80	0	ft
+WE	wepp-65426	"02:56 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	100	70	2	119	m	80	0	ft
+WE	wepp-65580	"02:56 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	100	47	0	119	h	80	0	ft
+WE	wepp-65775	"02:56 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	100	17	0	119	u	80	0	ft
+WE	wepp-65829	"02:56 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	63	27	7	119	l	80	0	ft
+WE	wepp-65950	"03:01 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	5	chap	10	8	7	123	u	80	0	ft
+WE	wepp-66032	"03:01 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	5	chap	8	7	3	123	l	80	0	ft
+WE	wepp-66146	"03:01 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	5	chap	10	7	3	123	m	80	0	ft
+WE	wepp-66300	"03:02 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	5	chap	12	10	7	123	u	80	0	ft
+WE	wepp-66354	"03:02 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	5	chap	11	8	6	123	l	80	0	ft
+WE	wepp-66468	"03:02 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	5	chap	21	10	2	123	u	80	0	ft
+WE	wepp-66522	"03:02 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	5	chap	18	8	1	123	l	80	0	ft
+WE	wepp-66636	"03:02 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	5	chap	15	9	3	123	m	80	0	ft
+WE	wepp-66791	"03:02 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	5	chap	54	10	1	123	u	80	0	ft
+WE	wepp-66845	"03:02 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	5	chap	50	10	1	123	l	80	0	ft
+WE	wepp-66959	"03:02 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	5	chap	29	9	1	123	m	80	0	ft
+WE	wepp-67113	"03:02 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	5	chap	19	13	5	123	u	80	0	ft
+WE	wepp-67167	"03:02 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	5	chap	64	20	3	123	l	80	0	ft
+WE	wepp-67281	"03:02 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	5	chap	18	12	4	123	m	80	0	ft
+WE	wepp-67435	"03:02 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	5	chap	10	3	0	123	u	80	0	ft
+WE	wepp-67489	"03:03 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	5	chap	19	8	1	123	l	80	0	ft
+WE	wepp-67603	"03:03 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	5	chap	12	12	12	123	m	80	0	ft
+WE	wepp-67757	"03:03 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	5	chap	25	8	1	123	u	80	0	ft
+WE	wepp-67811	"03:03 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	5	chap	37	9	1	123	l	80	0	ft
+WE	wepp-67925	"03:03 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	5	chap	50	21	1	150	u	80	0	ft
+WE	wepp-67979	"03:03 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	5	chap	47	25	1	150	l	80	0	ft
+WE	wepp-68094	"03:03 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	5	chap	71	17	0	150	u	80	0	ft
+WE	wepp-68148	"03:03 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	5	chap	49	15	0	150	l	80	0	ft
+WE	wepp-68263	"03:03 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	5	chap	29	16	5	150	m	80	0	ft
+WE	wepp-68417	"03:03 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	5	chap	89	25	0	150	u	80	0	ft
+WE	wepp-68471	"03:03 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	5	chap	84	21	0	150	l	80	0	ft
+WE	wepp-68585	"03:03 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	5	chap	68	27	0	150	m	80	0	ft
+WE	wepp-68739	"03:04 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	33	33	33	100	u	80	0	ft
+WE	wepp-68793	"03:04 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	36	25	15	100	l	80	0	ft
+WE	wepp-68907	"03:04 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	12	10	9	100	m	80	0	ft
+WE	wepp-69061	"03:04 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	31	9	0	152	u	80	0	ft
+WE	wepp-69115	"03:04 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	37	8	0	152	l	80	0	ft
+WE	wepp-69229	"03:04 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	32	11	1	152	m	80	0	ft
+WE	wepp-69383	"03:04 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	24	6	1	152	u	80	0	ft
+WE	wepp-69437	"03:04 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	28	6	0	152	l	80	0	ft
+WE	wepp-69551	"03:04 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	24	12	7	152	m	80	0	ft
+WE	wepp-69705	"03:04 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	28	9	1	152	u	80	0	ft
+WE	wepp-69759	"03:04 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	43	10	0	152	l	80	0	ft
+WE	wepp-69873	"03:05 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	27	14	1	152	m	80	0	ft
+WE	wepp-70027	"03:05 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	69	22	0	152	u	80	0	ft
+WE	wepp-70081	"03:05 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	73	17	0	152	l	80	0	ft
+WE	wepp-70195	"03:05 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	47	13	0	152	m	80	0	ft
+WE	wepp-70349	"03:05 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	19	7	3	152	u	80	0	ft
+WE	wepp-70403	"03:05 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	8	6	5	152	l	80	0	ft
+WE	wepp-70517	"03:05 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	6	6	5	152	m	80	0	ft
+WE	wepp-70671	"03:05 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	26	7	2	145	u	80	0	ft
+WE	wepp-70725	"03:05 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	31	7	2	145	l	80	0	ft
+WE	wepp-70839	"03:05 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	11	4	0	145	u	80	0	ft
+WE	wepp-70893	"03:05 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	12	5	0	145	l	80	0	ft
+WE	wepp-71007	"03:06 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	6	6	6	145	m	80	0	ft
+WE	wepp-71161	"03:06 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	32	11	2	145	u	80	0	ft
+WE	wepp-71215	"03:06 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	35	15	4	145	l	80	0	ft
+WE	wepp-71329	"03:06 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	21	4	0	145	u	80	0	ft
+WE	wepp-71383	"03:06 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	35	5	0	145	l	80	0	ft
+WE	wepp-71498	"03:06 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	23	7	0	145	m	80	0	ft
+WE	wepp-71652	"03:06 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	22	6	0	187	u	80	0	ft
+WE	wepp-71706	"03:06 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	66	16	4	187	l	80	0	ft
+WE	wepp-71820	"03:06 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	68	23	3	187	m	80	0	ft
+WE	wepp-71974	"03:06 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	77	42	10	187	h	80	0	ft
+WE	wepp-72168	"03:07 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	83	13	0	187	u	80	0	ft
+WE	wepp-72222	"03:07 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	94	12	0	187	l	80	0	ft
+WE	wepp-72336	"03:07 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	86	12	0	187	m	80	0	ft
+WE	wepp-72490	"03:07 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	84	8	0	187	u	80	0	ft
+WE	wepp-72544	"03:07 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	95	12	0	187	l	80	0	ft
+WE	wepp-72658	"03:07 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	84	13	0	187	m	80	0	ft
+WE	wepp-72812	"03:07 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	69	19	1	187	h	80	0	ft
+WE	wepp-73006	"03:07 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	70	12	0	187	u	80	0	ft
+WE	wepp-73060	"03:07 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	73	14	0	187	l	80	0	ft
+WE	wepp-73174	"03:07 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	72	14	1	187	m	80	0	ft
+WE	wepp-73328	"03:08 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	29	12	5	187	h	80	0	ft
+WE	wepp-73522	"03:08 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	57	29	7	187	l	80	0	ft
+WE	wepp-73636	"03:08 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	57	16	1	187	m	80	0	ft
+WE	wepp-73790	"03:08 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	24	12	2	187	u	80	0	ft
+WE	wepp-73844	"03:08 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	76	14	2	187	l	80	0	ft
+WE	wepp-73958	"03:08 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	74	16	3	187	m	80	0	ft
+WE	wepp-74112	"03:08 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	70	57	38	187	u	80	0	ft
+WE	wepp-74166	"03:08 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	86	24	2	187	l	80	0	ft
+WE	wepp-74280	"03:08 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	56	13	0	187	m	80	0	ft
+WE	wepp-74434	"03:08 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	32	22	11	187	u	80	0	ft
+WE	wepp-74499	"03:09 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	25	17	11	187	l	80	0	ft
+WE	wepp-74613	"03:09 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	26	15	11	187	m	80	0	ft
+WE	wepp-74767	"03:09 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	100	26	1	234	u	80	0	ft
+WE	wepp-74821	"03:09 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	80	19	0	234	l	80	0	ft
+WE	wepp-74935	"03:09 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	67	18	0	234	m	80	0	ft
+WE	wepp-75089	"03:09 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	48	15	0	234	u	80	0	ft
+WE	wepp-75143	"03:09 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	59	13	0	234	l	80	0	ft
+WE	wepp-75258	"03:09 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	55	13	0	234	m	80	0	ft
+WE	wepp-75413	"03:09 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	31	8	0	234	u	80	0	ft
+WE	wepp-75467	"03:09 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	22	6	0	234	l	80	0	ft
+WE	wepp-75581	"03:09 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	18	16	14	234	m	80	0	ft
+WE	wepp-75735	"03:10 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	68	21	0	234	u	80	0	ft
+WE	wepp-75789	"03:10 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	41	16	4	234	l	80	0	ft
+WE	wepp-75903	"03:10 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	60	24	0	234	u	80	0	ft
+WE	wepp-75957	"03:10 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	49	13	0	234	l	80	0	ft
+WE	wepp-76071	"03:10 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	44	18	1	234	m	80	0	ft
+WE	wepp-76225	"03:10 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	100	27	1	180	u	80	0	ft
+WE	wepp-76279	"03:10 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	100	37	1	180	l	80	0	ft
+WE	wepp-76393	"03:10 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	100	39	0	180	m	80	0	ft
+WE	wepp-76547	"03:10 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	94	57	8	180	h	80	0	ft
+WE	wepp-76741	"03:10 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	54	20	1	180	u	80	0	ft
+WE	wepp-76795	"03:10 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	64	20	1	180	l	80	0	ft
+WE	wepp-76909	"03:11 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	63	23	0	180	m	80	0	ft
+WE	wepp-77063	"03:11 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	57	29	1	180	u	80	0	ft
+WE	wepp-77117	"03:11 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	69	29	1	180	l	80	0	ft
+WE	wepp-77231	"03:11 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	51	28	4	180	m	80	0	ft
+WE	wepp-77385	"03:11 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	41	22	3	180	u	80	0	ft
+WE	wepp-77439	"03:11 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	59	25	4	180	l	80	0	ft
+WE	wepp-77572	"03:11 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	49	24	3	180	m	80	0	ft
+WE	wepp-77728	"03:11 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	92	23	0	180	u	80	0	ft
+WE	wepp-77784	"03:11 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	86	22	0	180	l	80	0	ft
+WE	wepp-77898	"03:11 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	85	24	0	180	m	80	0	ft
+WE	wepp-78052	"03:12 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	64	17	0	180	u	80	0	ft
+WE	wepp-78106	"03:12 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	59	16	0	180	l	80	0	ft
+WE	wepp-78220	"03:12 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	57	14	1	180	m	80	0	ft
+WE	wepp-78374	"03:12 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	25	25	25	180	u	80	0	ft
+WE	wepp-78428	"03:12 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	39	18	3	180	l	80	0	ft
+WE	wepp-78542	"03:12 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	37	16	4	180	m	80	0	ft
+WE	wepp-78696	"03:12 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	37	20	6	180	u	80	0	ft
+WE	wepp-78751	"03:12 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	94	23	1	180	l	80	0	ft
+WE	wepp-78865	"03:12 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	85	27	1	180	m	80	0	ft
+WE	wepp-79019	"03:12 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	34	8	0	180	u	80	0	ft
+WE	wepp-79073	"03:12 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	27	7	0	180	l	80	0	ft
+WE	wepp-79187	"03:13 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	25	9	0	180	m	80	0	ft
+WE	wepp-79341	"03:13 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	100	58	1	150	u	80	0	ft
+WE	wepp-79395	"03:13 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	100	47	0	150	l	80	0	ft
+WE	wepp-79509	"03:13 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	100	37	0	150	m	80	0	ft
+WE	wepp-79663	"03:13 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	79	53	14	150	h	80	0	ft
+WE	wepp-79857	"03:13 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	100	38	1	150	u	80	0	ft
+WE	wepp-79912	"03:13 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	100	34	0	150	l	80	0	ft
+WE	wepp-80026	"03:13 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	91	26	0	150	m	80	0	ft
+WE	wepp-80180	"03:13 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	32	22	11	150	h	80	0	ft
+WE	wepp-80374	"03:14 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	100	43	0	150	u	80	0	ft
+WE	wepp-80428	"03:14 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	100	44	1	150	l	80	0	ft
+WE	wepp-80542	"03:14 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	100	29	1	150	m	80	0	ft
+WE	wepp-80696	"03:14 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	87	37	6	150	h	80	0	ft
+WE	wepp-80890	"03:14 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	100	31	0	150	u	80	0	ft
+WE	wepp-80944	"03:14 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	100	36	0	150	l	80	0	ft
+WE	wepp-81058	"03:14 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	100	30	0	150	m	80	0	ft
+WE	wepp-81212	"03:14 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	81	34	3	150	h	80	0	ft
+WE	wepp-81407	"03:14 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	100	34	0	150	u	80	0	ft
+WE	wepp-81461	"03:15 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	100	38	0	150	l	80	0	ft
+WE	wepp-81575	"03:15 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	100	31	0	150	m	80	0	ft
+WE	wepp-81729	"03:15 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	81	32	0	150	h	80	0	ft
+WE	wepp-81927	"03:15 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	99	31	0	150	u	80	0	ft
+WE	wepp-81981	"03:15 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	100	29	0	150	l	80	0	ft
+WE	wepp-82095	"03:15 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	100	28	0	150	m	80	0	ft
+WE	wepp-82250	"03:15 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	23	13	3	150	h	80	0	ft
+WE	wepp-82444	"03:15 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	59	20	1	150	l	80	0	ft
+WE	wepp-82560	"03:15 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	42	18	3	150	m	80	0	ft
+WE	wepp-82715	"03:16 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	70	27	1	150	u	80	0	ft
+WE	wepp-82769	"03:16 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	71	39	2	150	l	80	0	ft
+WE	wepp-82883	"03:16 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	69	29	1	150	m	80	0	ft
+WE	wepp-83039	"03:16 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	96	19	0	150	u	80	0	ft
+WE	wepp-83093	"03:16 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	100	28	0	150	l	80	0	ft
+WE	wepp-83207	"03:16 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	100	21	0	150	m	80	0	ft
+WE	wepp-83361	"03:16 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	91	53	9	150	l	80	0	ft
+WE	wepp-83475	"03:16 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	88	43	6	150	m	80	0	ft
+WE	wepp-83636	"03:17 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	69	69	69	150	h	80	0	ft
+WE	wepp-83860	"03:17 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	18	chap	53	32	7	133	u	80	0	ft
+WE	wepp-83943	"03:17 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	18	chap	73	48	26	133	l	80	0	ft
+WE	wepp-84057	"03:17 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	18	chap	100	58	5	133	m	80	0	ft
+WE	wepp-84239	"03:17 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	18	chap	100	59	14	133	h	80	0	ft
+WE	wepp-84433	"03:17 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	18	chap	50	27	3	125	u	80	0	ft
+WE	wepp-84515	"03:17 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	18	chap	94	29	0	125	l	80	0	ft
+WE	wepp-84630	"03:17 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	18	chap	89	33	0	125	m	80	0	ft
+WE	wepp-84816	"03:18 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	18	chap	77	37	2	125	h	80	0	ft
+WE	wepp-85039	"03:18 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	18	chap	78	34	2	125	u	80	0	ft
+WE	wepp-85123	"03:18 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	18	chap	95	31	0	125	l	80	0	ft
+WE	wepp-85239	"03:18 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	18	chap	85	29	0	125	m	80	0	ft
+WE	wepp-85394	"03:18 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	18	chap	73	24	3	125	h	80	0	ft
+WE	wepp-85588	"03:18 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	18	chap	100	74	25	125	u	80	0	ft
+WE	wepp-85642	"03:18 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	18	chap	100	53	7	125	l	80	0	ft
+WE	wepp-85756	"03:18 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	18	chap	100	64	8	125	m	80	0	ft
+WE	wepp-85910	"03:19 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	18	chap	100	58	2	125	h	80	0	ft
+WE	wepp-86104	"03:19 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	100	10	0	92	u	80	0	ft
+WE	wepp-86158	"03:19 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	99	11	0	92	l	80	0	ft
+WE	wepp-86272	"03:19 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	95	16	0	92	m	80	0	ft
+WE	wepp-86426	"03:19 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	65	11	1	92	h	80	0	ft
+WE	wepp-86623	"03:19 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	82	59	27	168	u	80	0	ft
+WE	wepp-86705	"03:19 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	100	43	1	168	l	80	0	ft
+WE	wepp-86819	"03:19 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	100	42	2	168	m	80	0	ft
+WE	wepp-86976	"03:20 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	100	51	6	168	h	80	0	ft
+WE	wepp-87199	"03:20 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	100	47	1	168	u	80	0	ft
+WE	wepp-87253	"03:20 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	100	49	1	168	l	80	0	ft
+WE	wepp-87367	"03:20 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	100	39	0	168	m	80	0	ft
+WE	wepp-87521	"03:20 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	33	9	1	168	u	80	0	ft
+WE	wepp-87575	"03:20 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	100	67	14	168	l	80	0	ft
+WE	wepp-87689	"03:20 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	100	74	5	168	u	80	0	ft
+WE	wepp-87743	"03:20 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	100	66	1	168	l	80	0	ft
+WE	wepp-87857	"03:20 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	100	50	4	168	m	80	0	ft
+WE	wepp-88011	"03:20 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	80	37	10	168	h	80	0	ft
+WE	wepp-88205	"03:21 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	100	65	19	168	u	80	0	ft
+WE	wepp-88259	"03:21 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	86	53	17	168	l	80	0	ft
+WE	wepp-88373	"03:21 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	95	23	0	168	m	80	0	ft
+WE	wepp-88527	"03:21 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	100	56	1	325	u	80	0	ft
+WE	wepp-88581	"03:21 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	93	47	1	325	l	80	0	ft
+WE	wepp-88696	"03:21 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	83	39	8	325	m	80	0	ft
+WE	wepp-88851	"03:21 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	44	44	44	325	h	80	0	ft
+WE	wepp-89045	"03:21 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	78	19	0	130	u	80	0	ft
+WE	wepp-89099	"03:21 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	77	28	0	130	l	80	0	ft
+WE	wepp-89213	"03:22 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	65	39	9	130	m	80	0	ft
+WE	wepp-89367	"03:22 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	45	9	1	130	h	80	0	ft
+WE	wepp-89561	"03:22 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	99	11	1	130	u	80	0	ft
+WE	wepp-89615	"03:22 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	88	17	1	130	l	80	0	ft
+WE	wepp-89729	"03:22 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	100	50	1	130	m	80	0	ft
+WE	wepp-89883	"03:22 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	62	41	23	298	u	80	0	ft
+WE	wepp-89937	"03:22 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	63	38	14	298	l	80	0	ft
+WE	wepp-90051	"03:22 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	41	35	28	298	m	80	0	ft
+WE	wepp-90205	"03:22 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	56	26	1	298	h	80	0	ft
+WE	wepp-90399	"03:23 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	68	26	2	243	u	80	0	ft
+WE	wepp-90453	"03:23 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	55	20	5	243	l	80	0	ft
+WE	wepp-90567	"03:23 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	47	11	0	243	m	80	0	ft
+WE	wepp-90721	"03:23 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	43	9	1	243	u	80	0	ft
+WE	wepp-90775	"03:23 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	39	14	1	243	l	80	0	ft
+WE	wepp-90889	"03:23 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	4	2	1	243	m	80	0	ft
+WE	wepp-91044	"03:23 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	6	6	4	243	u	80	0	ft
+WE	wepp-91098	"03:23 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	89	38	2	243	l	80	0	ft
+WE	wepp-91212	"03:23 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	71	30	1	243	u	80	0	ft
+WE	wepp-91266	"03:23 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	77	28	1	243	l	80	0	ft
+WE	wepp-91380	"03:23 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	100	44	0	243	m	80	0	ft
+WE	wepp-91534	"03:24 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	100	37	0	243	u	80	0	ft
+WE	wepp-91588	"03:24 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	100	32	0	243	l	80	0	ft
+WE	wepp-91702	"03:24 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	7	7	7	243	m	80	0	ft
+WE	wepp-91856	"03:24 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	19	12	7	243	u	80	0	ft
+WE	wepp-91910	"03:24 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	24	13	7	253	u	80	0	ft
+WE	wepp-91964	"03:24 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	23	18	13	253	l	80	0	ft
+WE	wepp-92078	"03:24 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	27	9	1	253	m	80	0	ft
+WE	wepp-92232	"03:24 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	43	11	1	253	u	80	0	ft
+WE	wepp-92286	"03:24 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	28	8	6	253	l	80	0	ft
+WE	wepp-92400	"03:24 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	82	27	4	253	m	80	0	ft
+WE	wepp-92554	"03:24 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	87	19	1	253	u	80	0	ft
+WE	wepp-92608	"03:24 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	81	25	5	253	l	80	0	ft
+WE	wepp-92722	"03:25 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	49	36	4	253	m	80	0	ft
+WE	wepp-92876	"03:25 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	49	21	6	253	h	80	0	ft
+WE	wepp-93070	"03:25 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	33	9	1	253	u	80	0	ft
+WE	wepp-93124	"03:25 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	18	8	2	253	l	80	0	ft
+WE	wepp-93238	"03:25 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	50	11	1	253	m	80	0	ft
+WE	wepp-93392	"03:25 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	81	10	0	253	u	80	0	ft
+WE	wepp-93446	"03:25 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	87	16	3	253	l	80	0	ft
+WE	wepp-93560	"03:25 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	68	21	1	253	m	80	0	ft
+WE	wepp-93714	"03:25 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	57	27	0	253	u	80	0	ft
+WE	wepp-93768	"03:25 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	52	29	1	253	l	80	0	ft
+WE	wepp-93882	"03:26 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	36	11	0	253	m	80	0	ft
+WE	wepp-94036	"03:26 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	46	17	1	119	u	80	0	ft
+WE	wepp-94090	"03:26 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	61	22	4	119	l	80	0	ft
+WE	wepp-94204	"03:26 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	81	54	27	119	m	80	0	ft
+WE	wepp-94359	"03:26 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	76	35	0	119	u	80	0	ft
+WE	wepp-94413	"03:26 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	87	35	2	119	l	80	0	ft
+WE	wepp-94527	"03:26 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	100	59	1	119	m	80	0	ft
+WE	wepp-94681	"03:26 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	100	44	2	119	u	80	0	ft
+WE	wepp-94735	"03:26 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	100	35	1	119	l	80	0	ft
+WE	wepp-94849	"03:26 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	26	19	14	119	m	80	0	ft
+WE	wepp-95004	"03:27 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	100	69	3	119	h	80	0	ft
+WE	wepp-95198	"03:27 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	55	28	3	119	u	80	0	ft
+WE	wepp-95252	"03:27 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	100	63	9	119	l	80	0	ft
+WE	wepp-95366	"03:27 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	100	70	2	119	m	80	0	ft
+WE	wepp-95520	"03:27 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	100	47	0	119	h	80	0	ft
+WE	wepp-95715	"03:27 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	100	17	0	119	u	80	0	ft
+WE	wepp-95769	"03:27 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	63	27	7	119	l	80	0	ft
+WE	wepp-95885	"03:27 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	29	21	10	119	m	80	0	ft
+WE	wepp-96039	"03:27 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	43	21	0	119	h	80	0	ft
+WE	wepp-96234	"03:28 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	38	12	1	119	u	80	0	ft
+WE	wepp-96288	"03:28 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	22	13	5	119	l	80	0	ft
+WE	wepp-96402	"03:28 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	14	8	6	119	m	80	0	ft
+WE	wepp-96557	"03:28 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	100	32	2	119	h	80	0	ft
+WE	wepp-96751	"03:28 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	89	29	4	119	u	80	0	ft
+WE	wepp-96805	"03:28 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	100	63	17	119	l	80	0	ft
+WE	wepp-96919	"03:28 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	100	45	4	119	m	80	0	ft
+WE	wepp-97073	"03:28 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	54	24	1	119	u	80	0	ft
+WE	wepp-97127	"03:28 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	68	25	2	119	l	80	0	ft
+WE	wepp-97241	"03:29 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	100	32	2	119	m	80	0	ft
+WE	wepp-97395	"03:29 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	100	57	1	160	u	80	0	ft
+WE	wepp-97449	"03:29 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	100	48	1	160	l	80	0	ft
+WE	wepp-97563	"03:29 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	100	56	9	160	m	80	0	ft
+WE	wepp-97717	"03:29 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	35	21	7	160	h	80	0	ft
+WE	wepp-97911	"03:29 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	13	4	1	130	u	80	0	ft
+WE	wepp-97965	"03:29 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	15	5	1	130	l	80	0	ft
+WE	wepp-98079	"03:29 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	13	12	10	130	m	80	0	ft
+WE	wepp-98262	"03:29 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	5	forest	10	4	2	123	u			ft
+WE	wepp-98316	"03:29 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	5	forest	35	8	1	123	l			ft
+WE	wepp-98430	"03:30 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	5	forest	10	10	10	123	m			ft
+WE	wepp-98584	"03:30 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	forest	10	6	2	152	u			ft
+WE	wepp-98638	"03:30 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	forest	8	7	7	152	l			ft
+WE	wepp-98752	"03:30 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	forest	36	5	0	152	m			ft
+WE	wepp-98909	"03:30 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	forest	76	7	0	187	u			ft
+WE	wepp-98963	"03:30 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	forest	82	14	0	187	l			ft
+WE	wepp-99077	"03:30 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	forest	36	17	3	187	u			ft
+WE	wepp-99131	"03:30 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	forest	62	32	6	187	l			ft
+WE	wepp-99245	"03:30 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	forest	64	18	4	187	m			ft
+WE	wepp-99399	"03:30 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	forest	35	17	7	187	h			ft
+WE	wepp-99593	"03:31 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	forest	23	10	6	187	l			ft
+WE	wepp-99709	"03:31 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	forest	28	11	4	187	m			ft
+WE	wepp-99892	"03:31 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	forest	55	20	2	187	h			ft
+WE	wepp-100086	"03:31 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	forest	37	17	3	187	l			ft
+WE	wepp-100228	"03:31 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	forest	83	57	21	187	u			ft
+WE	wepp-100282	"03:31 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	forest	75	68	63	187	l			ft
+WE	wepp-100396	"03:31 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	forest	50	23	6	187	m			ft
+WE	wepp-100550	"03:31 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	forest	16	7	3	234	u			ft
+WE	wepp-100604	"03:31 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	forest	16	10	2	234	l			ft
+WE	wepp-100718	"03:32 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	forest	61	49	33	234	m			ft
+WE	wepp-100872	"03:32 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	forest	86	15	1	234	l			ft
+WE	wepp-101018	"03:32 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	forest	100	46	2	234	m			ft
+WE	wepp-101173	"03:32 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	forest	90	49	7	180	u			ft
+WE	wepp-101255	"03:32 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	forest	29	10	2	180	l			ft
+WE	wepp-101369	"03:32 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	forest	52	15	1	180	m			ft
+WE	wepp-101523	"03:32 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	forest	61	23	4	180	h			ft
+WE	wepp-101717	"03:32 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	forest	100	48	3	180	l			ft
+WE	wepp-101831	"03:33 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	forest	97	37	1	180	m			ft
+WE	wepp-101986	"03:33 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	forest	79	40	4	150	u			ft
+WE	wepp-102041	"03:33 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	forest	91	41	7	150	l			ft
+WE	wepp-102155	"03:33 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	forest	100	29	5	150	m			ft
+WE	wepp-102310	"03:33 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	forest	99	42	16	150	h			ft
+WE	wepp-102506	"03:33 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	forest	56	42	29	150	l			ft
+WE	wepp-102620	"03:33 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	forest	41	33	24	150	m			ft
+WE	wepp-102775	"03:33 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	forest	85	77	71	150	h			ft
+WE	wepp-102969	"03:34 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	forest	100	59	0	150	l			ft
+WE	wepp-103083	"03:34 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	forest	29	19	14	150	m			ft
+WE	wepp-103237	"03:34 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	forest	77	53	19	150	h			ft
+WE	wepp-103431	"03:34 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	forest	91	63	9	150	l			ft
+WE	wepp-103545	"03:34 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	forest	100	48	3	150	m			ft
+WE	wepp-103699	"03:34 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	forest	35	15	2	150	h			ft
+WE	wepp-103893	"03:34 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	forest	14	8	3	150	u			ft
+WE	wepp-103947	"03:34 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	forest	36	6	0	150	l			ft
+WE	wepp-104061	"03:35 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	forest	62	18	1	150	m			ft
+WE	wepp-104215	"03:35 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	forest	42	15	2	150	h			ft
+WE	wepp-104409	"03:35 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	forest	79	51	8	150	l			ft
+WE	wepp-104523	"03:35 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	forest	81	34	3	150	u			ft
+WE	wepp-104577	"03:35 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	forest	73	59	44	150	l			ft
+WE	wepp-104691	"03:35 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	forest	26	5	1	150	m			ft
+WE	wepp-104845	"03:35 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	forest	33	6	2	150	l			ft
+WE	wepp-104959	"03:35 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	forest	27	6	0	150	m			ft
+WE	wepp-105113	"03:36 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	forest	26	10	2	150	h			ft
+WE	wepp-105309	"03:36 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	forest	26	6	1	92	u			ft
+WE	wepp-105363	"03:36 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	forest	15	5	1	92	l			ft
+WE	wepp-105477	"03:36 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	forest	83	16	2	92	m			ft
+WE	wepp-105632	"03:36 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	forest	16	16	16	92	h			ft
+WE	wepp-105826	"03:36 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	forest	86	48	4	168	u			ft
+WE	wepp-105880	"03:36 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	forest	62	34	5	168	l			ft
+WE	wepp-105994	"03:36 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	forest	86	40	2	168	l			ft
+WE	wepp-106108	"03:36 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	forest	59	29	5	168	m			ft
+WE	wepp-106262	"03:37 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	forest	43	40	37	168	h			ft
+WE	wepp-106456	"03:37 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	forest	100	69	7	325	u			ft
+WE	wepp-106510	"03:37 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	forest	100	52	2	325	l			ft
+WE	wepp-106624	"03:37 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	forest	52	13	4	325	m			ft
+WE	wepp-106778	"03:37 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	forest	46	16	3	325	h			ft
+WE	wepp-106972	"03:37 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	forest	87	40	4	130	u			ft
+WE	wepp-107026	"03:37 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	forest	84	51	8	130	l			ft
+WE	wepp-107140	"03:37 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	forest	82	38	6	130	m			ft
+WE	wepp-107294	"03:37 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	forest	21	15	9	130	h			ft
+WE	wepp-107488	"03:38 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	forest	9	9	9	130	u			ft
+WE	wepp-107542	"03:38 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	forest	72	33	8	130	l			ft
+WE	wepp-107656	"03:38 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	forest	77	26	9	298	u			ft
+WE	wepp-107710	"03:38 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	forest	71	36	9	298	l			ft
+WE	wepp-107824	"03:38 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	forest	68	41	19	298	m			ft
+WE	wepp-107978	"03:38 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	forest	14	13	13	243	u			ft
+WE	wepp-108032	"03:38 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	forest	100	61	15	243	l			ft
+WE	wepp-108146	"03:38 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	forest	22	22	22	243	m			ft
+WE	wepp-108300	"03:38 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	forest	100	71	19	243	u			ft
+WE	wepp-108354	"03:38 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	forest	92	61	5	243	l			ft
+WE	wepp-108468	"03:38 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	forest	76	46	16	253	u			ft
+WE	wepp-108522	"03:38 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	forest	35	4	1	253	l			ft
+WE	wepp-108647	"03:39 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	forest	40	30	22	253	m			ft
+WE	wepp-108801	"03:39 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	forest	100	61	3	253	h			ft
+WE	wepp-108995	"03:39 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	forest	100	65	7	119	l			ft
+WE	wepp-109109	"03:39 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	forest	100	61	2	119	u			ft
+WE	wepp-109163	"03:39 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	forest	100	55	0	119	l			ft
+WE	wepp-109277	"03:39 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	forest	100	55	2	119	m			ft
+WE	wepp-109431	"03:39 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	forest	100	60	6	119	h			ft
+WE	wepp-109625	"03:39 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	forest	18	12	10	160	u			ft
+WE	wepp-109679	"03:39 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	forest	12	9	4	160	l			ft
+WE	wepp-109793	"03:40 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	forest	31	7	2	160	m			ft
+WE	wepp-109947	"03:40 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	forest	16	8	6	160	h			ft
+WE	wepp-110142	"03:40 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	range	44	12	6	152	u	15	75	ft
+WE	wepp-110196	"03:40 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	range	13	10	7	152	l	15	75	ft
+WE	wepp-110310	"03:40 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	range	51	12	5	152	u	15	75	ft
+WE	wepp-110364	"03:40 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	range	48	22	9	152	l	15	75	ft
+WE	wepp-110478	"03:40 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	range	36	12	2	187	u	15	75	ft
+WE	wepp-110532	"03:40 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	range	50	22	1	187	l	15	75	ft
+WE	wepp-110646	"03:40 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	range	50	16	3	187	m	15	75	ft
+WE	wepp-110800	"03:40 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	range	6	5	5	187	u	15	75	ft
+WE	wepp-110854	"03:40 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	range	6	4	3	187	l	15	75	ft
+WE	wepp-110968	"03:41 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	range	34	32	30	187	m	15	75	ft
+WE	wepp-111122	"03:41 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	range	56	22	5	187	l	15	75	ft
+WE	wepp-111265	"03:41 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	range	79	40	11	187	m	15	75	ft
+WE	wepp-111421	"03:41 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	range	30	17	1	234	u	15	75	ft
+WE	wepp-111476	"03:41 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	range	32	17	4	234	l	15	75	ft
+WE	wepp-111590	"03:41 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	range	41	17	3	234	u	15	75	ft
+WE	wepp-111644	"03:41 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	range	6	5	5	180	u	15	75	ft
+WE	wepp-111698	"03:41 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	range	6	6	6	180	l	15	75	ft
+WE	wepp-111812	"03:41 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	range	37	11	2	180	u	15	75	ft
+WE	wepp-111896	"03:41 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	range	7	6	6	180	l	15	75	ft
+WE	wepp-112010	"03:41 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	range	13	11	5	150	u	15	75	ft
+WE	wepp-112064	"03:42 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	range	38	27	16	150	l	15	75	ft
+WE	wepp-112178	"03:42 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	range	29	11	4	150	m	15	75	ft
+WE	wepp-112332	"03:42 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	range	39	17	6	150	u	15	75	ft
+WE	wepp-112386	"03:42 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	range	11	8	4	150	l	15	75	ft
+WE	wepp-112500	"03:42 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	range	47	34	13	150	m	15	75	ft
+WE	wepp-112654	"03:42 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	range	8	8	7	150	l	15	75	ft
+WE	wepp-112769	"03:42 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	range	13	9	6	150	u	15	75	ft
+WE	wepp-112823	"03:42 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	range	14	7	3	150	l	15	75	ft
+WE	wepp-112937	"03:42 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	range	40	22	10	150	m	15	75	ft
+WE	wepp-113091	"03:42 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	range	9	7	6	92	u	15	75	ft
+WE	wepp-113145	"03:42 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	range	42	22	11	92	l	15	75	ft
+WE	wepp-113261	"03:43 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	range	20	9	4	92	m	15	75	ft
+WE	wepp-113433	"03:43 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	range	21	8	3	92	h	15	75	ft
+WE	wepp-113627	"03:43 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	range	81	55	10	325	l	15	75	ft
+WE	wepp-113741	"03:43 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	range	4	3	2	325	m	15	75	ft
+WE	wepp-113895	"03:43 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	range	22	10	3	130	u	15	75	ft
+WE	wepp-113949	"03:43 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	range	0	0	0	130	l	15	75	ft
+WE	wepp-114063	"03:43 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	range	0	0	0	130	m	15	75	ft
+WE	wepp-114217	"03:43 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	range	0	0	0	130	u	15	75	ft
+WE	wepp-114271	"03:43 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	range	0	0	0	130	l	15	75	ft
+WE	wepp-114385	"03:44 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	range	0	0	0	130	m	15	75	ft
+WE	wepp-114539	"03:44 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	range	0	0	0	243	u	15	75	ft
+WE	wepp-114593	"03:44 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	range	0	0	0	243	l	15	75	ft
+WE	wepp-114707	"03:44 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	range	0	0	0	253	u	15	75	ft
+WE	wepp-114761	"03:44 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	range	0	0	0	253	l	15	75	ft
+WE	wepp-114875	"03:44 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	range	0	0	0	160	u	15	75	ft
+WE	wepp-114929	"03:44 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	range	0	0	0	160	l	15	75	ft
+WE	wepp-115043	"03:44 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	5	chap	0	0	0	123	m	80	0	ft
+WE	wepp-115197	"03:44 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	0	0	0	253	m	80	0	ft
+WE	wepp-115353	"03:44 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	5	chap	0	0	0	150	l	80	0	ft
+WE	wepp-115507	"03:44 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	0	0	0	243	l	80	0	ft
+WE	wepp-115623	"03:45 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	5	chap	0	0	0	150	m	80	0	ft
+WE	wepp-115777	"03:45 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	0	0	0	243	m	80	0	ft
+WE	wepp-115931	"03:45 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	0	0	0	152	u	80	0	ft
+WE	wepp-115985	"03:45 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	0	0	0	234	u	80	0	ft
+WE	wepp-116039	"03:45 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	0	0	0	152	l	80	0	ft
+WE	wepp-116153	"03:45 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	0	0	0	234	l	80	0	ft
+WE	wepp-116267	"03:45 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	0	0	0	152	u	80	0	ft
+WE	wepp-116321	"03:45 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	0	0	0	234	u	80	0	ft
+WE	wepp-116375	"03:45 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	0	0	0	152	l	80	0	ft
+WE	wepp-116489	"03:45 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	0	0	0	234	l	80	0	ft
+WE	wepp-116603	"03:45 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	0	0	0	152	m	80	0	ft
+WE	wepp-116757	"03:45 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	0	0	0	234	m	80	0	ft
+WE	wepp-116911	"03:46 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	0	0	0	152	u	80	0	ft
+WE	wepp-116965	"03:46 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	0	0	0	180	u	80	0	ft
+WE	wepp-117019	"03:46 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	0	0	0	152	l	80	0	ft
+WE	wepp-117133	"03:46 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	0	0	0	180	l	80	0	ft
+WE	wepp-117247	"03:46 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	0	0	0	152	m	80	0	ft
+WE	wepp-117402	"03:46 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	0	0	0	180	m	80	0	ft
+WE	wepp-117557	"03:46 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	chap	100	23	1	187	u	80	0	ft
+WE	wepp-117613	"03:46 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	chap	100	17	0	187	l	80	0	ft
+WE	wepp-117727	"03:46 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	chap	94	16	0	187	m	80	0	ft
+WE	wepp-117881	"03:46 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	chap	100	29	1	187	h	80	0	ft
+WE	wepp-118075	"03:47 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	chap	85	53	8	187	l	80	0	ft
+WE	wepp-118189	"03:47 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	chap	67	31	8	187	m	80	0	ft
+WE	wepp-118343	"03:47 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	25	chap	82	37	6	150	l	80	0	ft
+WE	wepp-118457	"03:47 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	25	chap	75	20	1	150	m	80	0	ft
+WE	wepp-118611	"03:47 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	25	chap	92	39	1	150	u	80	0	ft
+WE	wepp-118665	"03:47 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	25	chap	100	45	0	150	l	80	0	ft
+WE	wepp-118779	"03:47 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	25	chap	100	30	0	150	m	80	0	ft
+WE	wepp-118937	"03:48 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	25	chap	85	15	0	150	h	80	0	ft
+WE	wepp-119138	"03:48 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	18	chap	75	17	1	133	u	80	0	ft
+WE	wepp-119220	"03:48 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	18	chap	100	25	4	133	l	80	0	ft
+WE	wepp-119334	"03:48 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	18	chap	100	39	1	133	m	80	0	ft
+WE	wepp-119490	"03:48 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	18	chap	100	31	0	133	h	80	0	ft
+WE	wepp-119684	"03:48 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	18	chap	100	22	6	125	u	80	0	ft
+WE	wepp-119738	"03:48 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	18	chap	100	25	2	125	l	80	0	ft
+WE	wepp-119852	"03:48 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	18	chap	100	39	1	125	m	80	0	ft
+WE	wepp-120006	"03:49 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	18	chap	100	52	1	125	h	80	0	ft
+WE	wepp-120200	"03:49 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	70	10	1	92	u	80	0	ft
+WE	wepp-120254	"03:49 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	74	17	0	92	l	80	0	ft
+WE	wepp-120368	"03:49 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	71	24	1	92	m	80	0	ft
+WE	wepp-120522	"03:49 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	23	9	3	92	h	80	0	ft
+WE	wepp-120716	"03:49 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	32	9	4	92	u	80	0	ft
+WE	wepp-120770	"03:49 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	84	16	1	92	l	80	0	ft
+WE	wepp-120884	"03:50 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	80	27	0	92	m	80	0	ft
+WE	wepp-121038	"03:50 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	60	22	4	92	h	80	0	ft
+WE	wepp-121232	"03:50 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	100	53	2	168	l	80	0	ft
+WE	wepp-121346	"03:50 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	100	39	1	168	m	80	0	ft
+WE	wepp-121500	"03:50 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	77	28	1	168	h	80	0	ft
+WE	wepp-121694	"03:50 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	55	33	10	168	u	80	0	ft
+WE	wepp-121748	"03:50 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	84	34	5	168	l	80	0	ft
+WE	wepp-121862	"03:51 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	100	45	1	168	m	80	0	ft
+WE	wepp-122020	"03:51 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	100	47	1	168	h	80	0	ft
+WE	wepp-122242	"03:51 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	100	53	2	168	u	80	0	ft
+WE	wepp-122296	"03:51 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	100	50	1	168	l	80	0	ft
+WE	wepp-122410	"03:51 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	100	51	0	168	m	80	0	ft
+WE	wepp-122564	"03:51 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	100	46	1	168	h	80	0	ft
+WE	wepp-122761	"03:52 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	100	65	10	168	u	80	0	ft
+WE	wepp-122815	"03:52 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	100	54	2	168	l	80	0	ft
+WE	wepp-122929	"03:52 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	100	50	8	168	m	80	0	ft
+WE	wepp-123083	"03:52 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	100	78	42	168	h	80	0	ft
+WE	wepp-123277	"03:52 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	97	35	1	325	u	80	0	ft
+WE	wepp-123331	"03:52 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	85	37	2	325	l	80	0	ft
+WE	wepp-123445	"03:52 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	43	34	22	325	m	80	0	ft
+WE	wepp-123599	"03:52 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	100	47	1	325	h	80	0	ft
+WE	wepp-123793	"03:53 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	100	52	1	325	u	80	0	ft
+WE	wepp-123847	"03:53 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	100	50	1	325	l	80	0	ft
+WE	wepp-123961	"03:53 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	100	51	0	325	m	80	0	ft
+WE	wepp-124115	"03:53 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	86	20	1	325	h	80	0	ft
+WE	wepp-124340	"03:53 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	chap	81	13	0	130	u	80	0	ft
+WE	wepp-124394	"03:53 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	chap	77	17	2	130	l	80	0	ft
+WE	wepp-124508	"03:53 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	chap	22	21	19	130	m	80	0	ft
+WE	wepp-124667	"03:54 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	chap	18	10	0	130	h	80	0	ft
+WE	wepp-124889	"03:54 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	chap	86	25	1	130	l	80	0	ft
+WE	wepp-125005	"03:54 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	chap	79	17	1	130	m	80	0	ft
+WE	wepp-125162	"03:54 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	25	chap	100	63	2	298	u	80	0	ft
+WE	wepp-125216	"03:54 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	25	chap	100	59	1	298	l	80	0	ft
+WE	wepp-125330	"03:54 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	25	chap	100	59	18	298	m	80	0	ft
+WE	wepp-125484	"03:54 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	100	73	5	119	u	80	0	ft
+WE	wepp-125538	"03:55 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	82	65	41	119	l	80	0	ft
+WE	wepp-125652	"03:55 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	48	38	22	80	u	80	0	ft
+WE	wepp-125706	"03:55 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	100	61	1	80	l	80	0	ft
+WE	wepp-125820	"03:55 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	25	chap	98	40	4	50	u	80	0	ft
+WE	wepp-125874	"03:55 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	chap	99	46	1	160	u	80	0	ft
+WE	wepp-125928	"03:55 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	chap	100	44	1	160	l	80	0	ft
+WE	wepp-126042	"03:55 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	chap	97	53	13	160	m	80	0	ft
+WE	wepp-126196	"03:55 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	chap	35	23	11	160	h	80	0	ft
+WE	wepp-126390	"03:55 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	forest	28	18	5	187	u			ft
+WE	wepp-126444	"03:55 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	forest	11	11	10	187	l			ft
+WE	wepp-126558	"03:56 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	forest	38	23	9	187	m			ft
+WE	wepp-126713	"03:56 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	forest	41	22	6	187	h			ft
+WE	wepp-126908	"03:56 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	forest	54	29	3	187	l			ft
+WE	wepp-127022	"03:56 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	forest	54	23	0	187	m			ft
+WE	wepp-127176	"03:56 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	25	forest	100	51	4	150	m			ft
+WE	wepp-127330	"03:56 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	forest	38	18	8	92	u			ft
+WE	wepp-127384	"03:56 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	forest	87	18	2	92	l			ft
+WE	wepp-127498	"03:57 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	forest	24	6	2	92	m			ft
+WE	wepp-127652	"03:57 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	forest	91	47	6	92	h			ft
+WE	wepp-127846	"03:57 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	forest	92	45	8	92	u			ft
+WE	wepp-127900	"03:57 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	forest	100	48	9	92	l			ft
+WE	wepp-128014	"03:57 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	forest	100	64	16	92	m			ft
+WE	wepp-128169	"03:57 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	forest	100	56	9	92	h			ft
+WE	wepp-128363	"03:57 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	forest	100	59	8	168	l			ft
+WE	wepp-128477	"03:58 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	forest	100	95	31	168	m			ft
+WE	wepp-128631	"03:58 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	forest	100	68	10	168	h			ft
+WE	wepp-128825	"03:58 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	forest	29	29	29	168	u			ft
+WE	wepp-128879	"03:58 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	forest	100	69	35	168	l			ft
+WE	wepp-128993	"03:58 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	forest	66	26	4	168	m			ft
+WE	wepp-129147	"03:58 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	forest	57	33	7	168	h			ft
+WE	wepp-129858	"04:53 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	60	20	3	92	h	80	0	ft
+WE	wepp-130080	"04:53 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	forest	24	6	2	92	h			ft
+WE	wepp-130274	"04:54 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	range	99	11	0	92	h	15	75	ft
+WE	wepp-130468	"04:54 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	84	17	0	92	l	80	0	ft
+WE	wepp-130582	"04:54 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	forest	87	14	2	92	l			ft
+WE	wepp-130696	"04:54 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	range	39	17	6	92	l	15	75	ft
+WE	wepp-130810	"04:54 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	80	26	0	92	m	80	0	ft
+WE	wepp-130964	"04:54 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	forest	83	17	2	92	m			ft
+WE	wepp-131118	"04:54 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	range	47	34	13	92	m	15	75	ft
+WE	wepp-131272	"04:55 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	70	10	1	92	u	80	0	ft
+WE	wepp-131326	"04:55 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	forest	33	6	2	92	u			ft
+WE	wepp-131380	"04:55 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	range	29	11	4	92	u	15	75	ft
+WE	wepp-131434	"04:55 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	12	10	9	100	l	80	0	ft
+WE	wepp-131548	"04:55 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	33	33	33	100	m	80	0	ft
+WE	wepp-131702	"04:55 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	82	40	5	100	u	80	0	ft
+WE	wepp-131756	"04:55 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	76	46	16	119	h	80	0	ft
+WE	wepp-131950	"04:55 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	forest	100	46	0	119	h			ft
+WE	wepp-132144	"04:55 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	92	61	5	119	l	80	0	ft
+WE	wepp-132258	"04:55 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	forest	55	28	3	119	l			ft
+WE	wepp-132372	"04:56 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	92	61	5	119	m	80	0	ft
+WE	wepp-132528	"04:56 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	forest	100	63	0	119	m			ft
+WE	wepp-132710	"04:56 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	55	28	3	119	u	80	0	ft
+WE	wepp-132764	"04:56 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	forest	22	22	22	119	u			ft
+WE	wepp-132818	"04:56 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	5	chap	15	5	1	123	l	80	0	ft
+WE	wepp-132933	"04:56 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	5	forest	29	9	1	123	l			ft
+WE	wepp-133047	"04:56 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	5	chap	13	12	10	123	m	80	0	ft
+WE	wepp-133201	"04:56 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	5	forest	54	9	0	123	m			ft
+WE	wepp-133355	"04:56 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	5	chap	13	4	1	123	u	80	0	ft
+WE	wepp-133409	"04:56 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	5	forest	100	40	2	123	u			ft
+WE	wepp-133463	"04:56 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	18	chap	100	52	1	125	h	80	0	ft
+WE	wepp-133657	"04:57 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	18	chap	100	25	2	125	l	80	0	ft
+WE	wepp-133771	"04:57 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	18	chap	100	39	1	125	m	80	0	ft
+WE	wepp-133925	"04:57 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	18	chap	100	22	6	125	u	80	0	ft
+WE	wepp-133979	"04:57 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	65	39	9	130	l	80	0	ft
+WE	wepp-134093	"04:57 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	35	21	7	130	m	80	0	ft
+WE	wepp-134248	"04:57 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	65	39	9	130	u	80	0	ft
+WE	wepp-134303	"04:57 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	22	21	19	130	h	80	0	ft
+WE	wepp-134497	"04:57 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	forest	37	13	5	130	h			ft
+WE	wepp-134691	"04:58 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	81	13	0	130	l	80	0	ft
+WE	wepp-134805	"04:58 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	forest	41	11	1	130	l			ft
+WE	wepp-134919	"04:58 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	range	20	9	4	130	l	15	75	ft
+WE	wepp-135033	"04:58 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	86	17	1	130	m	80	0	ft
+WE	wepp-135187	"04:58 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	forest	69	17	1	130	m			ft
+WE	wepp-135341	"04:58 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	range	21	11	4	130	m	15	75	ft
+WE	wepp-135495	"04:58 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	86	20	1	130	u	80	0	ft
+WE	wepp-135549	"04:58 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	forest	52	13	4	130	u			ft
+WE	wepp-135603	"04:58 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	range	21	8	5	130	u	15	75	ft
+WE	wepp-135657	"04:58 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	18	chap	100	31	0	133	h	80	0	ft
+WE	wepp-135851	"04:59 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	18	chap	100	25	4	133	l	80	0	ft
+WE	wepp-135965	"04:59 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	18	chap	100	39	1	133	m	80	0	ft
+WE	wepp-136119	"04:59 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	18	chap	75	17	1	133	u	80	0	ft
+WE	wepp-136173	"04:59 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	23	7	0	145	l	80	0	ft
+WE	wepp-136288	"04:59 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	32	6	0	145	m	80	0	ft
+WE	wepp-136442	"04:59 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	84	20	0	145	u	80	0	ft
+WE	wepp-136496	"04:59 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	5	chap	68	26	0	150	l	80	0	ft
+WE	wepp-136610	"04:59 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	5	chap	89	23	0	150	m	80	0	ft
+WE	wepp-136764	"04:59 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	5	chap	87	37	0	150	u	80	0	ft
+WE	wepp-136818	"04:59 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	85	15	0	150	h	80	0	ft
+WE	wepp-137012	"05:00 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	forest	100	35	0	150	h			ft
+WE	wepp-137207	"05:00 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	100	44	0	150	l	80	0	ft
+WE	wepp-137321	"05:00 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	forest	79	16	2	150	l			ft
+WE	wepp-137435	"05:00 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	range	75	49	33	150	l	15	75	ft
+WE	wepp-137549	"05:00 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	100	28	0	150	m	80	0	ft
+WE	wepp-137703	"05:00 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	forest	29	19	14	150	m			ft
+WE	wepp-137857	"05:00 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	range	40	28	12	150	m	15	75	ft
+WE	wepp-138043	"05:01 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	92	39	1	150	u	80	0	ft
+WE	wepp-138097	"05:01 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	forest	56	21	1	150	u			ft
+WE	wepp-138151	"05:01 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	range	67	57	46	150	u	15	75	ft
+WE	wepp-138205	"05:01 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	35	8	1	152	l	80	0	ft
+WE	wepp-138319	"05:01 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	forest	10	8	5	152	l			ft
+WE	wepp-138433	"05:01 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	range	47	12	0	152	l	15	75	ft
+WE	wepp-138547	"05:01 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	10	10	10	152	m	80	0	ft
+WE	wepp-138701	"05:01 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	forest	69	19	0	152	m			ft
+WE	wepp-138855	"05:01 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	10	4	2	152	u	80	0	ft
+WE	wepp-138909	"05:01 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	forest	11	6	5	152	u			ft
+WE	wepp-138963	"05:01 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	range	100	56	9	152	u	15	75	ft
+WE	wepp-139017	"05:01 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	97	53	13	160	h	80	0	ft
+WE	wepp-139211	"05:02 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	forest	100	60	6	160	h			ft
+WE	wepp-139405	"05:02 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	99	46	1	160	l	80	0	ft
+WE	wepp-139519	"05:02 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	forest	100	64	2	160	l			ft
+WE	wepp-139633	"05:02 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	range	21	19	19	160	l	15	75	ft
+WE	wepp-139747	"05:02 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	100	44	1	160	m	80	0	ft
+WE	wepp-139901	"05:02 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	forest	100	56	1	160	m			ft
+WE	wepp-140055	"05:02 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	98	40	4	160	u	80	0	ft
+WE	wepp-140109	"05:02 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	forest	100	65	7	160	u			ft
+WE	wepp-140163	"05:02 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	range	100	51	6	160	u	15	75	ft
+WE	wepp-140217	"05:02 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	100	46	1	168	h	80	0	ft
+WE	wepp-140411	"05:03 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	forest	100	58	8	168	h			ft
+WE	wepp-140608	"05:03 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	100	57	1	168	l	80	0	ft
+WE	wepp-140752	"05:03 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	forest	100	63	16	168	l			ft
+WE	wepp-140867	"05:03 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	100	49	0	168	m	80	0	ft
+WE	wepp-141021	"05:03 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	forest	100	55	6	168	m			ft
+WE	wepp-141175	"05:03 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	100	58	2	168	u	80	0	ft
+WE	wepp-141229	"05:03 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	forest	100	48	9	168	u			ft
+WE	wepp-141283	"05:03 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	90	49	7	180	h	80	0	ft
+WE	wepp-141477	"05:04 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	forest	100	27	0	180	h			ft
+WE	wepp-141671	"05:04 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	86	15	1	180	l	80	0	ft
+WE	wepp-141785	"05:04 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	forest	40	20	3	180	l			ft
+WE	wepp-141899	"05:04 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	range	100	31	0	180	l	15	75	ft
+WE	wepp-142013	"05:04 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	100	39	1	180	m	80	0	ft
+WE	wepp-142167	"05:04 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	forest	100	19	0	180	m			ft
+WE	wepp-142321	"05:04 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	61	49	33	180	u	80	0	ft
+WE	wepp-142375	"05:04 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	forest	34	13	5	180	u			ft
+WE	wepp-142429	"05:04 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	range	77	19	1	180	u	15	75	ft
+WE	wepp-142483	"05:05 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	100	29	1	187	h	80	0	ft
+WE	wepp-142678	"05:05 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	forest	28	18	5	187	h			ft
+WE	wepp-142872	"05:05 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	100	17	0	187	l	80	0	ft
+WE	wepp-143016	"05:05 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	forest	83	31	4	187	l			ft
+WE	wepp-143130	"05:05 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	range	44	12	6	187	l	15	75	ft
+WE	wepp-143244	"05:05 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	94	16	0	187	m	80	0	ft
+WE	wepp-143398	"05:05 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	forest	75	20	2	187	m			ft
+WE	wepp-143552	"05:05 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	range	51	12	5	187	m	15	75	ft
+WE	wepp-143706	"05:06 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	100	23	1	187	u	80	0	ft
+WE	wepp-143760	"05:06 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	forest	23	10	6	187	u			ft
+WE	wepp-143814	"05:06 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	range	16	8	6	187	u	15	75	ft
+WE	wepp-143868	"05:06 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	54	28	3	234	l	80	0	ft
+WE	wepp-143982	"05:06 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	forest	50	22	1	234	l			ft
+WE	wepp-144097	"05:06 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	range	67	14	0	234	l	15	75	ft
+WE	wepp-144211	"05:06 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	54	23	0	234	m	80	0	ft
+WE	wepp-144365	"05:06 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	forest	100	22	0	234	m			ft
+WE	wepp-144519	"05:06 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	50	23	6	234	u	80	0	ft
+WE	wepp-144573	"05:06 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	forest	50	16	2	234	u			ft
+WE	wepp-144627	"05:06 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	range	100	36	0	234	u	15	75	ft
+WE	wepp-144681	"05:06 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	84	50	8	243	l	80	0	ft
+WE	wepp-144795	"05:07 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	forest	40	19	10	243	l			ft
+WE	wepp-144909	"05:07 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	range	100	30	0	243	l	15	75	ft
+WE	wepp-145023	"05:07 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	82	38	6	243	m	80	0	ft
+WE	wepp-145177	"05:07 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	forest	100	43	0	243	m			ft
+WE	wepp-145331	"05:07 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	87	40	4	243	u	80	0	ft
+WE	wepp-145385	"05:07 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	forest	81	55	10	243	u			ft
+WE	wepp-145445	"05:07 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	range	49	36	4	243	u	15	75	ft
+WE	wepp-145499	"05:07 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	68	41	19	253	h	80	0	ft
+WE	wepp-145693	"05:07 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	forest	87	15	0	253	h			ft
+WE	wepp-145887	"05:08 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	77	26	9	253	l	80	0	ft
+WE	wepp-146001	"05:08 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	forest	20	11	1	253	l			ft
+WE	wepp-146115	"05:08 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	range	87	23	1	253	l	15	75	ft
+WE	wepp-146229	"05:08 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	71	36	9	253	m	80	0	ft
+WE	wepp-146383	"05:08 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	forest	82	21	1	253	m			ft
+WE	wepp-146537	"05:08 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	72	33	8	253	u	80	0	ft
+WE	wepp-146591	"05:08 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	forest	4	3	2	253	u			ft
+WE	wepp-146645	"05:08 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	range	100	59	18	253	u	15	75	ft
+WE	wepp-146699	"05:08 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	100	63	2	298	h	80	0	ft
+WE	wepp-146893	"05:08 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	63	38	14	298	l	80	0	ft
+WE	wepp-147007	"05:08 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	forest	100	59	1	298	l			ft
+WE	wepp-147132	"05:09 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	41	35	28	298	m	80	0	ft
+WE	wepp-147286	"05:09 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	forest	100	50	1	298	m			ft
+WE	wepp-147440	"05:09 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	62	41	23	298	u	80	0	ft
+WE	wepp-147494	"05:09 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	forest	43	34	22	298	u			ft
+WE	wepp-147548	"05:09 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	100	51	0	325	h	80	0	ft
+WE	wepp-147742	"05:09 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	forest	100	59	12	325	h			ft
+WE	wepp-147937	"05:09 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	100	51	1	325	l	80	0	ft
+WE	wepp-148051	"05:09 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	forest	100	56	1	325	l			ft
+WE	wepp-148165	"05:10 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	range	45	21	8	325	l	15	75	ft
+WE	wepp-148279	"05:10 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	100	49	1	325	m	80	0	ft
+WE	wepp-148436	"05:10 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	forest	100	51	2	325	m			ft
+WE	wepp-148590	"05:10 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	range	95	23	0	325	m	15	75	ft
+WE	wepp-148744	"05:10 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	100	53	1	325	u	80	0	ft
+WE	wepp-148798	"05:10 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	forest	100	57	7	325	u			ft
+WE	wepp-148852	"05:10 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	25	forest	48	38	22	50	l			ft
+WE	wepp-148966	"05:10 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	25	chap	40	30	22	50	u	80	0	ft
+WE	wepp-149020	"05:10 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	25	forest	100	32	2	50	u			ft
+WE	wepp-149074	"05:10 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	68	25	2	80	l	80	0	ft
+WE	wepp-149188	"05:10 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	35	4	1	80	u	80	0	ft
+WE	wepp-149242	"05:10 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	forest	65	11	1	80	u			ft
+WE	wepp-149296	"05:11 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	15	5	1	92	h	80	0	ft
+WE	wepp-149490	"05:11 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	forest	8	8	7	92	h			ft
+WE	wepp-149684	"05:11 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	27	6	0	92	l	80	0	ft
+WE	wepp-149798	"05:11 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	forest	8	8	6	92	l			ft
+WE	wepp-149912	"05:11 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	range	95	16	0	92	l	15	75	ft
+WE	wepp-150026	"05:11 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	26	6	1	92	m	80	0	ft
+WE	wepp-150180	"05:11 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	forest	11	8	4	92	m			ft
+WE	wepp-150334	"05:12 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	range	100	10	0	92	m	15	75	ft
+WE	wepp-150488	"05:12 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	26	5	1	92	u	80	0	ft
+WE	wepp-150542	"05:12 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	forest	10	5	3	92	u			ft
+WE	wepp-150596	"05:12 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	range	36	25	15	92	u	15	75	ft
+WE	wepp-150650	"05:12 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	100	69	13	119	l	80	0	ft
+WE	wepp-150765	"05:12 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	forest	100	32	0	119	l			ft
+WE	wepp-150879	"05:12 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	100	61	15	119	u	80	0	ft
+WE	wepp-150933	"05:12 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	forest	64	10	1	119	u			ft
+WE	wepp-150988	"05:12 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	18	chap	100	31	0	125	h	80	0	ft
+WE	wepp-151182	"05:12 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	18	chap	33	15	8	125	l	80	0	ft
+WE	wepp-151296	"05:13 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	18	range	100	33	0	125	l	15	75	ft
+WE	wepp-151410	"05:13 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	18	chap	38	27	16	125	m	80	0	ft
+WE	wepp-151564	"05:13 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	18	range	100	34	2	125	m	15	75	ft
+WE	wepp-151718	"05:13 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	18	chap	13	11	5	125	u	80	0	ft
+WE	wepp-151772	"05:13 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	18	range	35	23	11	125	u	15	75	ft
+WE	wepp-151826	"05:13 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	chap	54	22	10	130	h	80	0	ft
+WE	wepp-152020	"05:13 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	forest	21	8	3	130	h			ft
+WE	wepp-152214	"05:13 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	range	99	11	0	130	h	15	75	ft
+WE	wepp-152412	"05:14 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	chap	70	21	2	130	l	80	0	ft
+WE	wepp-152554	"05:14 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	forest	32	10	1	130	l			ft
+WE	wepp-152668	"05:14 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	range	88	22	0	130	l	15	75	ft
+WE	wepp-152782	"05:14 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	chap	80	34	4	130	m	80	0	ft
+WE	wepp-152936	"05:14 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	forest	10	4	1	130	m			ft
+WE	wepp-153090	"05:14 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	range	79	10	1	130	m	15	75	ft
+WE	wepp-153244	"05:15 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	chap	71	24	4	130	u	80	0	ft
+WE	wepp-153298	"05:15 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	forest	30	9	3	130	u			ft
+WE	wepp-153352	"05:15 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	range	100	59	14	130	u	15	75	ft
+WE	wepp-153406	"05:15 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	18	chap	73	48	26	133	h	80	0	ft
+WE	wepp-153600	"05:15 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	18	chap	100	58	5	133	l	80	0	ft
+WE	wepp-153714	"05:15 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	18	chap	53	32	7	133	m	80	0	ft
+WE	wepp-153868	"05:15 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	18	chap	35	5	0	133	u	80	0	ft
+WE	wepp-153922	"05:15 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	25	chap	99	41	2	150	h	80	0	ft
+WE	wepp-154119	"05:15 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	25	chap	100	39	1	150	l	80	0	ft
+WE	wepp-154233	"05:15 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	25	range	100	30	0	150	l	15	75	ft
+WE	wepp-154347	"05:16 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	25	chap	100	36	0	150	m	80	0	ft
+WE	wepp-154501	"05:16 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	25	forest	41	15	3	150	m			ft
+WE	wepp-154656	"05:16 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	25	range	100	30	0	150	m	15	75	ft
+WE	wepp-154810	"05:16 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	25	chap	91	23	0	150	u	80	0	ft
+WE	wepp-154864	"05:16 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	25	range	73	12	0	150	u	15	75	ft
+WE	wepp-154918	"05:16 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	chap	100	55	2	160	h	80	0	ft
+WE	wepp-155112	"05:16 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	forest	22	10	3	160	h			ft
+WE	wepp-155309	"05:17 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	range	100	57	1	160	h	15	75	ft
+WE	wepp-155503	"05:17 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	chap	100	61	2	160	l	80	0	ft
+WE	wepp-155618	"05:17 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	forest	25	25	25	160	l			ft
+WE	wepp-155732	"05:17 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	range	100	48	1	160	l	15	75	ft
+WE	wepp-155846	"05:17 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	chap	100	55	0	160	m	80	0	ft
+WE	wepp-156000	"05:17 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	forest	22	17	8	160	m			ft
+WE	wepp-156154	"05:17 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	range	100	61	1	160	m	15	75	ft
+WE	wepp-156308	"05:18 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	chap	100	61	3	160	u	80	0	ft
+WE	wepp-156362	"05:18 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	forest	26	19	11	160	u			ft
+WE	wepp-156416	"05:18 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	100	69	35	168	h	80	0	ft
+WE	wepp-156610	"05:18 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	forest	100	59	1	168	h			ft
+WE	wepp-156806	"05:18 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	100	95	31	168	l	80	0	ft
+WE	wepp-156920	"05:18 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	forest	26	10	6	168	l			ft
+WE	wepp-157034	"05:18 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	range	100	50	0	168	l	15	75	ft
+WE	wepp-157148	"05:18 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	100	68	10	168	m	80	0	ft
+WE	wepp-157302	"05:19 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	forest	31	13	3	168	m			ft
+WE	wepp-157456	"05:19 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	range	100	48	1	168	m	15	75	ft
+WE	wepp-157610	"05:19 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	100	68	10	168	u	80	0	ft
+WE	wepp-157664	"05:19 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	forest	40	22	10	168	u			ft
+WE	wepp-157718	"05:19 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	range	94	57	8	168	u	15	75	ft
+WE	wepp-157772	"05:19 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	chap	36	17	3	187	h	80	0	ft
+WE	wepp-157966	"05:19 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	forest	48	22	9	187	h			ft
+WE	wepp-158160	"05:19 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	range	95	12	0	187	h	15	75	ft
+WE	wepp-158354	"05:20 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	chap	76	7	0	187	l	80	0	ft
+WE	wepp-158468	"05:20 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	forest	31	7	1	187	l			ft
+WE	wepp-158583	"05:20 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	range	86	13	0	187	l	15	75	ft
+WE	wepp-158697	"05:20 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	chap	82	14	0	187	m	80	0	ft
+WE	wepp-158851	"05:20 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	forest	13	7	2	187	m			ft
+WE	wepp-159005	"05:20 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	range	84	11	0	187	m	15	75	ft
+WE	wepp-159159	"05:21 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	chap	38	6	0	187	u	80	0	ft
+WE	wepp-159213	"05:21 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	forest	28	7	0	187	u			ft
+WE	wepp-159267	"05:21 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	range	80	16	0	187	u	15	75	ft
+WE	wepp-159321	"05:21 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	25	chap	100	82	53	298	l	80	0	ft
+WE	wepp-159435	"05:21 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	25	chap	97	70	52	298	m	80	0	ft
+WE	wepp-159589	"05:21 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	25	chap	100	82	53	298	u	80	0	ft
+WE	wepp-159643	"05:21 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	60	45	22	325	h	80	0	ft
+WE	wepp-159837	"05:21 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	forest	97	35	1	325	h			ft
+WE	wepp-160031	"05:21 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	86	48	4	325	l	80	0	ft
+WE	wepp-160145	"05:21 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	forest	9	7	6	325	l			ft
+WE	wepp-160259	"05:22 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	range	85	37	2	325	l	15	75	ft
+WE	wepp-160373	"05:22 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	86	40	2	325	m	80	0	ft
+WE	wepp-160527	"05:22 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	forest	86	40	2	325	m			ft
+WE	wepp-160681	"05:22 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	66	26	4	325	u	80	0	ft
+WE	wepp-160735	"05:22 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	forest	51	30	11	325	u			ft
+WE	wepp-160789	"05:22 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	range	66	26	4	325	u	15	75	ft
+WE	wepp-161082	"06:13 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	chap	100	23	1	187	u	80	0	ft
+WE	wepp-161164	"06:13 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	chap	100	17	0	187	l	80	0	ft
+WE	wepp-161278	"06:13 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	chap	94	16	0	187	m	80	0	ft
+WE	wepp-161432	"06:13 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	chap	100	29	1	187	h	80	0	ft
+WE	wepp-161626	"06:13 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	25	chap	82	37	6	150	l	80	0	ft
+WE	wepp-161740	"06:13 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	25	chap	75	20	1	150	m	80	0	ft
+WE	wepp-161900	"06:14 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	25	chap	92	39	1	150	u	80	0	ft
+WE	wepp-161954	"06:14 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	25	chap	100	45	0	150	l	80	0	ft
+WE	wepp-162068	"06:14 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	25	chap	100	30	0	150	m	80	0	ft
+WE	wepp-162222	"06:14 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	25	chap	85	15	0	150	h	80	0	ft
+WE	wepp-162416	"06:14 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	18	chap	75	17	1	133	u	80	0	ft
+WE	wepp-162470	"06:14 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	18	chap	100	25	4	133	l	80	0	ft
+WE	wepp-162584	"06:14 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	18	chap	100	39	1	133	m	80	0	ft
+WE	wepp-162738	"06:14 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	18	chap	100	31	0	133	h	80	0	ft
+WE	wepp-162934	"06:15 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	18	chap	100	22	6	125	u	80	0	ft
+WE	wepp-162988	"06:15 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	18	chap	100	25	2	125	l	80	0	ft
+WE	wepp-163102	"06:15 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	18	chap	100	39	1	125	m	80	0	ft
+WE	wepp-163256	"06:15 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	18	chap	100	52	1	125	h	80	0	ft
+WE	wepp-163450	"06:15 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	70	10	1	92	u	80	0	ft
+WE	wepp-163504	"06:15 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	74	17	0	92	l	80	0	ft
+WE	wepp-163618	"06:15 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	71	24	1	92	m	80	0	ft
+WE	wepp-163772	"06:15 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	23	9	3	92	h	80	0	ft
+WE	wepp-163966	"06:16 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	100	53	2	168	l	80	0	ft
+WE	wepp-164080	"06:16 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	100	39	1	168	m	80	0	ft
+WE	wepp-164234	"06:16 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	77	28	1	168	h	80	0	ft
+WE	wepp-164429	"06:16 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	55	33	10	168	u	80	0	ft
+WE	wepp-164483	"06:16 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	84	34	5	168	l	80	0	ft
+WE	wepp-164597	"06:16 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	100	45	1	168	m	80	0	ft
+WE	wepp-164751	"06:16 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	100	47	1	168	h	80	0	ft
+WE	wepp-164948	"06:17 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	100	53	2	168	u	80	0	ft
+WE	wepp-165002	"06:17 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	100	50	1	168	l	80	0	ft
+WE	wepp-165116	"06:17 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	100	51	0	168	m	80	0	ft
+WE	wepp-165273	"06:17 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	100	46	1	168	h	80	0	ft
+WE	wepp-165496	"06:17 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	100	65	10	168	u	80	0	ft
+WE	wepp-165579	"06:17 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	100	54	2	168	l	80	0	ft
+WE	wepp-165693	"06:17 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	100	50	8	168	m	80	0	ft
+WE	wepp-165876	"06:18 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	100	78	42	168	h	80	0	ft
+WE	wepp-166099	"06:18 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	97	35	1	325	u	80	0	ft
+WE	wepp-166183	"06:18 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	85	37	2	325	l	80	0	ft
+WE	wepp-166327	"06:18 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	43	34	22	325	m	80	0	ft
+WE	wepp-166509	"06:18 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	100	47	1	325	h	80	0	ft
+WE	wepp-166734	"06:19 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	100	52	1	325	u	80	0	ft
+WE	wepp-166788	"06:19 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	100	50	1	325	l	80	0	ft
+WE	wepp-166904	"06:19 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	100	51	0	325	m	80	0	ft
+WE	wepp-167088	"06:19 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	86	20	1	325	h	80	0	ft
+WE	wepp-167311	"06:19 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	chap	81	13	0	130	u	80	0	ft
+WE	wepp-167394	"06:19 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	chap	77	17	2	130	l	80	0	ft
+WE	wepp-167508	"06:19 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	chap	22	21	19	130	m	80	0	ft
+WE	wepp-167662	"06:20 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	chap	18	10	0	130	h	80	0	ft
+WE	wepp-167876	"06:20 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	25	chap	100	63	2	298	u	80	0	ft
+WE	wepp-167958	"06:20 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	25	chap	100	59	1	298	l	80	0	ft
+WE	wepp-168072	"06:20 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	25	chap	100	59	18	298	m	80	0	ft
+WE	wepp-168255	"06:20 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	100	73	5	119	u	80	0	ft
+WE	wepp-168309	"06:20 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	82	65	41	119	l	80	0	ft
+WE	wepp-168423	"06:20 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	chap	99	46	1	160	u	80	0	ft
+WE	wepp-168477	"06:20 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	chap	100	44	1	160	l	80	0	ft
+WE	wepp-168591	"06:21 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	chap	97	53	13	160	m	80	0	ft
+WE	wepp-168745	"06:21 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	chap	35	23	11	160	h	80	0	ft
+WE	wepp-168939	"06:21 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	forest	28	18	5	187	u			ft
+WE	wepp-168993	"06:21 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	forest	11	11	10	187	l			ft
+WE	wepp-169107	"06:21 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	forest	38	23	9	187	m			ft
+WE	wepp-169261	"06:21 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	forest	41	22	6	187	h			ft
+WE	wepp-169455	"06:21 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	25	forest	100	51	4	150	m			ft
+WE	wepp-169609	"06:22 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	forest	38	18	8	92	u			ft
+WE	wepp-169663	"06:22 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	forest	87	18	2	92	l			ft
+WE	wepp-169777	"06:22 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	forest	24	6	2	92	m			ft
+WE	wepp-169931	"06:22 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	forest	91	47	6	92	h			ft
+WE	wepp-170126	"06:22 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	forest	100	59	8	168	l			ft
+WE	wepp-170240	"06:22 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	forest	100	95	31	168	m			ft
+WE	wepp-170395	"06:22 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	forest	100	68	10	168	h			ft
+WE	wepp-170589	"06:23 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	forest	29	29	29	168	u			ft
+WE	wepp-170643	"06:23 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	forest	100	69	35	168	l			ft
+WE	wepp-170757	"06:23 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	forest	66	26	4	168	m			ft
+WE	wepp-170911	"06:23 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	forest	57	33	7	168	h			ft
+WE	wepp-171105	"06:23 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	forest	60	45	22	168	m			ft
+WE	wepp-171260	"06:23 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	forest	100	60	1	325	u			ft
+WE	wepp-171314	"06:23 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	forest	100	59	12	325	l			ft
+WE	wepp-171428	"06:23 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	forest	41	11	3	325	m			ft
+WE	wepp-171582	"06:24 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	forest	37	13	5	325	h			ft
+WE	wepp-171776	"06:24 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	forest	14	7	1	325	u			ft
+WE	wepp-171830	"06:24 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	forest	69	50	1	325	l			ft
+WE	wepp-171944	"06:24 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	forest	71	28	6	325	m			ft
+WE	wepp-172098	"06:24 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	forest	70	22	5	325	h			ft
+WE	wepp-172292	"06:24 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	forest	80	34	4	130	u			ft
+WE	wepp-172346	"06:24 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	forest	54	22	10	130	l			ft
+WE	wepp-172460	"06:24 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	forest	18	7	4	130	m			ft
+WE	wepp-172614	"06:25 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	forest	31	7	2	130	h			ft
+WE	wepp-172808	"06:25 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	forest	100	64	2	119	u			ft
+WE	wepp-172862	"06:25 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	forest	100	56	1	119	l			ft
+WE	wepp-172976	"06:25 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	forest	28	8	1	160	u			ft
+WE	wepp-173030	"06:25 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	forest	28	7	0	160	l			ft
+WE	wepp-173162	"06:25 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	forest	7	5	2	160	m			ft
+WE	wepp-173316	"06:25 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	forest	8	7	7	160	h			ft
+WE	wepp-173510	"06:25 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	range	40	32	21	187	u	15	75	ft
+WE	wepp-173565	"06:25 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	range	67	57	46	187	l	15	75	ft
+WE	wepp-173679	"06:26 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	range	75	49	33	187	m	15	75	ft
+WE	wepp-173833	"06:26 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	range	40	28	12	187	h	15	75	ft
+WE	wepp-174028	"06:26 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	25	range	33	15	8	150	u	15	75	ft
+WE	wepp-174082	"06:26 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	25	range	10	5	3	150	l	15	75	ft
+WE	wepp-174196	"06:26 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	25	range	8	8	6	150	m	15	75	ft
+WE	wepp-174350	"06:26 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	18	range	26	18	13	125	u	15	75	ft
+WE	wepp-174404	"06:26 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	18	range	31	24	18	125	l	15	75	ft
+WE	wepp-174518	"06:26 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	18	range	51	40	19	125	m	15	75	ft
+WE	wepp-174672	"06:27 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	range	45	21	8	92	u	15	75	ft
+WE	wepp-174726	"06:27 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	range	21	8	5	92	l	15	75	ft
+WE	wepp-174840	"06:27 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	range	21	11	4	92	m	15	75	ft
+WE	wepp-174994	"06:27 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	range	22	12	3	168	l	15	75	ft
+WE	wepp-175108	"06:27 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	range	23	9	1	168	m	15	75	ft
+WE	wepp-175262	"06:27 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	range	10	4	1	168	u	15	75	ft
+WE	wepp-175316	"06:27 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	range	4	4	3	325	u	15	75	ft
+WE	wepp-175371	"06:27 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	range	40	19	10	325	l	15	75	ft
+WE	wepp-175487	"06:27 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	range	20	11	1	325	u	15	75	ft
+WE	wepp-175541	"06:27 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	range	26	19	11	130	u	15	75	ft
+WE	wepp-175595	"06:27 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	range	25	25	25	130	l	15	75	ft
+WE	wepp-175709	"06:28 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	range	21	19	19	130	m	15	75	ft
+WE	wepp-175863	"06:28 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	range	22	17	8	130	h	15	75	ft
+WE	wepp-176057	"06:28 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	range	0	0	0	160	l	15	75	ft
+WE	wepp-176171	"06:28 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	range	0	0	0	160	m	15	75	ft
+WE	wepp-176325	"06:28 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	range	0	0	0	160	h	15	75	ft
+WE	wepp-176527	"06:35 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	20	chap	100	23	1	187	u	80	0	ft
+WE	wepp-176609	"06:35 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	20	chap	100	17	0	187	l	80	0	ft
+WE	wepp-176723	"06:35 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	20	chap	94	16	0	187	m	80	0	ft
+WE	wepp-176877	"06:35 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	20	chap	100	29	1	187	h	80	0	ft
+WE	wepp-177071	"06:35 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	25	chap	82	37	6	150	l	80	0	ft
+WE	wepp-177185	"06:35 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	25	chap	75	20	1	150	m	80	0	ft
+WE	wepp-177339	"06:35 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	25	chap	92	39	1	150	u	80	0	ft
+WE	wepp-177393	"06:36 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	25	chap	100	45	0	150	l	80	0	ft
+WE	wepp-177507	"06:36 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	25	chap	100	30	0	150	m	80	0	ft
+WE	wepp-177661	"06:36 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	25	chap	85	15	0	150	h	80	0	ft
+WE	wepp-177856	"06:36 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	18	chap	75	17	1	133	u	80	0	ft
+WE	wepp-177910	"06:36 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	18	chap	100	25	4	133	l	80	0	ft
+WE	wepp-178024	"06:36 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	18	chap	100	39	1	133	m	80	0	ft
+WE	wepp-178178	"06:36 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	18	chap	100	31	0	133	h	80	0	ft
+WE	wepp-178372	"06:37 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	18	chap	100	22	6	125	u	80	0	ft
+WE	wepp-178426	"06:37 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	18	chap	100	25	2	125	l	80	0	ft
+WE	wepp-178540	"06:37 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	18	chap	100	39	1	125	m	80	0	ft
+WE	wepp-178695	"06:37 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	18	chap	100	52	1	125	h	80	0	ft
+WE	wepp-178889	"06:37 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	chap	70	10	1	92	u	80	0	ft
+WE	wepp-178943	"06:37 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	chap	74	17	0	92	l	80	0	ft
+WE	wepp-179057	"06:37 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	chap	71	24	1	92	m	80	0	ft
+WE	wepp-179213	"06:37 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	chap	23	9	3	92	h	80	0	ft
+WE	wepp-179416	"06:38 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	chap	100	53	2	168	l	80	0	ft
+WE	wepp-179534	"06:38 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	chap	100	39	1	168	m	80	0	ft
+WE	wepp-179693	"06:38 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	chap	77	28	1	168	h	80	0	ft
+WE	wepp-179895	"06:38 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	chap	55	33	10	168	u	80	0	ft
+WE	wepp-179951	"06:38 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	chap	84	34	5	168	l	80	0	ft
+WE	wepp-180069	"06:38 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	chap	100	45	1	168	m	80	0	ft
+WE	wepp-180228	"06:38 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	chap	100	47	1	168	h	80	0	ft
+WE	wepp-180429	"06:38 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	chap	100	53	2	168	u	80	0	ft
+WE	wepp-180496	"06:39 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	chap	100	50	1	168	l	80	0	ft
+WE	wepp-180614	"06:39 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	chap	100	51	0	168	m	80	0	ft
+WE	wepp-180773	"06:39 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	chap	100	46	1	168	h	80	0	ft
+WE	wepp-180974	"06:39 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	chap	100	65	10	168	u	80	0	ft
+WE	wepp-181030	"06:39 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	chap	100	54	2	168	l	80	0	ft
+WE	wepp-181148	"06:39 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	chap	100	50	8	168	m	80	0	ft
+WE	wepp-181306	"06:39 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	chap	100	78	42	168	h	80	0	ft
+WE	wepp-181508	"06:39 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	chap	97	35	1	325	u	80	0	ft
+WE	wepp-181562	"06:40 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	chap	85	37	2	325	l	80	0	ft
+WE	wepp-181682	"06:40 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	chap	43	34	22	325	m	80	0	ft
+WE	wepp-181840	"06:40 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	chap	100	47	1	325	h	80	0	ft
+WE	wepp-182042	"06:40 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	chap	100	52	1	325	u	80	0	ft
+WE	wepp-182098	"06:40 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	chap	100	50	1	325	l	80	0	ft
+WE	wepp-182216	"06:40 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	chap	100	51	0	325	m	80	0	ft
+WE	wepp-182372	"06:40 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	chap	86	20	1	325	h	80	0	ft
+WE	wepp-182566	"06:41 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	20	chap	81	13	0	130	u	80	0	ft
+WE	wepp-182620	"06:41 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	20	chap	77	17	2	130	l	80	0	ft
+WE	wepp-182734	"06:41 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	20	chap	22	21	19	130	m	80	0	ft
+WE	wepp-182888	"06:41 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	20	chap	18	10	0	130	h	80	0	ft
+WE	wepp-183082	"06:41 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	25	chap	100	63	2	298	u	80	0	ft
+WE	wepp-183136	"06:41 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	25	chap	100	59	1	298	l	80	0	ft
+WE	wepp-183250	"06:41 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	25	chap	100	59	18	298	m	80	0	ft
+WE	wepp-183404	"06:41 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	100	73	5	119	u	80	0	ft
+WE	wepp-183458	"06:41 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	82	65	41	119	l	80	0	ft
+WE	wepp-183572	"06:41 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	20	chap	99	46	1	160	u	80	0	ft
+WE	wepp-183626	"06:42 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	20	chap	100	44	1	160	l	80	0	ft
+WE	wepp-183740	"06:42 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	20	chap	97	53	13	160	m	80	0	ft
+WE	wepp-183894	"06:42 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	20	chap	35	23	11	160	h	80	0	ft
+WE	wepp-184088	"06:42 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	20	forest	28	18	5	187	u			ft
+WE	wepp-184142	"06:42 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	20	forest	11	11	10	187	l			ft
+WE	wepp-184256	"06:42 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	20	forest	38	23	9	187	m			ft
+WE	wepp-184411	"06:42 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	20	forest	41	22	6	187	h			ft
+WE	wepp-184605	"06:42 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	25	forest	100	51	4	150	m			ft
+WE	wepp-184759	"06:43 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	forest	38	18	8	92	u			ft
+WE	wepp-184813	"06:43 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	forest	87	18	2	92	l			ft
+WE	wepp-184927	"06:43 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	forest	24	6	2	92	m			ft
+WE	wepp-185081	"06:43 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	forest	91	47	6	92	h			ft
+WE	wepp-185276	"06:43 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	forest	100	59	8	168	l			ft
+WE	wepp-185390	"06:43 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	forest	100	95	31	168	m			ft
+WE	wepp-185544	"06:43 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	forest	100	68	10	168	h			ft
+WE	wepp-185738	"06:44 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	forest	29	29	29	168	u			ft
+WE	wepp-185792	"06:44 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	forest	100	69	35	168	l			ft
+WE	wepp-185906	"06:44 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	forest	66	26	4	168	m			ft
+WE	wepp-186060	"06:44 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	forest	57	33	7	168	h			ft
+WE	wepp-186254	"06:44 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	forest	60	45	22	168	m			ft
+WE	wepp-186408	"06:44 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	forest	100	60	1	325	u			ft
+WE	wepp-186462	"06:44 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	forest	100	59	12	325	l			ft
+WE	wepp-186780	"06:44 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	forest	41	11	3	325	m			ft
+WE	wepp-186935	"06:45 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	forest	37	13	5	325	h			ft
+WE	wepp-187129	"06:45 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	forest	14	7	1	325	u			ft
+WE	wepp-187183	"06:45 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	forest	69	50	1	325	l			ft
+WE	wepp-187297	"06:45 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	forest	71	28	6	325	m			ft
+WE	wepp-187451	"06:45 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	forest	70	22	5	325	h			ft
+WE	wepp-187645	"06:45 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	20	forest	80	34	4	130	u			ft
+WE	wepp-187699	"06:45 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	20	forest	54	22	10	130	l			ft
+WE	wepp-187813	"06:45 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	20	forest	18	7	4	130	m			ft
+WE	wepp-187967	"06:46 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	20	forest	31	7	2	130	h			ft
+WE	wepp-188161	"06:46 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	20	forest	100	64	2	119	u			ft
+WE	wepp-188215	"06:46 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	20	forest	100	56	1	119	l			ft
+WE	wepp-188330	"06:46 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	20	forest	28	8	1	160	u			ft
+WE	wepp-188384	"06:46 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	20	forest	28	7	0	160	l			ft
+WE	wepp-188498	"06:46 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	20	forest	7	5	2	160	m			ft
+WE	wepp-188652	"06:46 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	20	forest	8	7	7	160	h			ft
+WE	wepp-188846	"06:46 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	20	range	40	32	21	187	u	15	75	ft
+WE	wepp-188900	"06:47 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	20	range	67	57	46	187	l	15	75	ft
+WE	wepp-189014	"06:47 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	20	range	75	49	33	187	m	15	75	ft
+WE	wepp-189168	"06:47 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	20	range	40	28	12	187	h	15	75	ft
+WE	wepp-189367	"06:47 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	25	range	33	15	8	150	u	15	75	ft
+WE	wepp-189450	"06:47 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	25	range	10	5	3	150	l	15	75	ft
+WE	wepp-189564	"06:47 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	25	range	8	8	6	150	m	15	75	ft
+WE	wepp-189718	"06:47 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	18	range	26	18	13	125	u	15	75	ft
+WE	wepp-189800	"06:47 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	18	range	31	24	18	125	l	15	75	ft
+WE	wepp-189914	"06:48 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	18	range	51	40	19	125	m	15	75	ft
+WE	wepp-190068	"06:48 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	range	45	21	8	92	u	15	75	ft
+WE	wepp-190122	"06:48 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	range	21	8	5	92	l	15	75	ft
+WE	wepp-190236	"06:48 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	range	21	11	4	92	m	15	75	ft
+WE	wepp-190392	"06:48 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	range	22	12	3	168	l	15	75	ft
+WE	wepp-190506	"06:48 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	range	23	9	1	168	m	15	75	ft
+WE	wepp-190660	"06:48 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	range	10	4	1	168	u	15	75	ft
+WE	wepp-190714	"06:48 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	range	4	4	3	325	u	15	75	ft
+WE	wepp-190768	"06:49 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	range	40	19	10	325	l	15	75	ft
+WE	wepp-190882	"06:49 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	range	20	11	1	325	u	15	75	ft
+WE	wepp-190936	"06:49 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	20	range	26	19	11	130	u	15	75	ft
+WE	wepp-190990	"06:49 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	20	range	25	25	25	130	l	15	75	ft
+WE	wepp-191104	"06:49 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	20	range	21	19	19	130	m	15	75	ft
+WE	wepp-191258	"06:49 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	20	range	22	17	8	130	h	15	75	ft
+WE	wepp-191454	"06:49 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	20	range	0	0	0	160	l	15	75	ft
+WE	wepp-191569	"06:49 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	20	range	0	0	0	160	m	15	75	ft
+WE	wepp-191723	"06:49 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	20	range	0	0	0	160	h	15	75	ft
+WE	wepp-192119	"07:48 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	20	chap	100	23	1	500	u	80	0	ft
+WE	wepp-192201	"07:48 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	20	chap	100	17	0	500	l	80	0	ft
+WE	wepp-192315	"07:48 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	20	chap	94	16	0	500	m	80	0	ft
+WE	wepp-192471	"07:48 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	20	chap	100	29	1	500	h	80	0	ft
+WE	wepp-192666	"07:48 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	25	chap	82	37	6	500	l	80	0	ft
+WE	wepp-192780	"07:48 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	25	chap	75	20	1	500	m	80	0	ft
+WE	wepp-192934	"07:49 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	25	chap	92	39	1	500	u	80	0	ft
+WE	wepp-192988	"07:49 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	25	chap	100	45	0	500	l	80	0	ft
+WE	wepp-193102	"07:49 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	25	chap	100	30	0	500	m	80	0	ft
+WE	wepp-193256	"07:49 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	25	chap	85	15	0	500	h	80	0	ft
+WE	wepp-193450	"07:49 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	18	chap	75	17	1	500	u	80	0	ft
+WE	wepp-193504	"07:49 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	18	chap	100	25	4	500	l	80	0	ft
+WE	wepp-193618	"07:49 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	18	chap	100	39	1	500	m	80	0	ft
+WE	wepp-193772	"07:49 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	18	chap	100	31	0	500	h	80	0	ft
+WE	wepp-193966	"07:50 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	18	chap	100	22	6	500	u	80	0	ft
+WE	wepp-194020	"07:50 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	18	chap	100	25	2	500	l	80	0	ft
+WE	wepp-194134	"07:50 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	18	chap	100	39	1	500	m	80	0	ft
+WE	wepp-194288	"07:50 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	18	chap	100	52	1	500	h	80	0	ft
+WE	wepp-194482	"07:50 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	chap	70	10	1	500	u	80	0	ft
+WE	wepp-194536	"07:50 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	chap	74	17	0	500	l	80	0	ft
+WE	wepp-194650	"07:50 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	chap	71	24	1	500	m	80	0	ft
+WE	wepp-194804	"07:50 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	chap	23	9	3	500	h	80	0	ft
+WE	wepp-194999	"07:51 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	chap	100	53	2	500	l	80	0	ft
+WE	wepp-195113	"07:51 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	chap	100	39	1	500	m	80	0	ft
+WE	wepp-195267	"07:51 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	chap	77	28	1	500	h	80	0	ft
+WE	wepp-195461	"07:51 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	chap	55	33	10	500	u	80	0	ft
+WE	wepp-195515	"07:51 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	chap	84	34	5	500	l	80	0	ft
+WE	wepp-195629	"07:51 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	chap	100	45	1	500	m	80	0	ft
+WE	wepp-195783	"07:51 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	chap	100	47	1	500	h	80	0	ft
+WE	wepp-195977	"07:52 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	chap	100	53	2	500	u	80	0	ft
+WE	wepp-196031	"07:52 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	chap	100	50	1	500	l	80	0	ft
+WE	wepp-196145	"07:52 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	chap	100	51	0	500	m	80	0	ft
+WE	wepp-196299	"07:52 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	chap	100	46	1	500	h	80	0	ft
+WE	wepp-196493	"07:52 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	chap	100	65	10	500	u	80	0	ft
+WE	wepp-196547	"07:52 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	chap	100	54	2	500	l	80	0	ft
+WE	wepp-196661	"07:52 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	chap	100	50	8	500	m	80	0	ft
+WE	wepp-196817	"07:52 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	chap	100	78	42	500	h	80	0	ft
+WE	wepp-197011	"07:53 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	chap	97	35	1	500	u	80	0	ft
+WE	wepp-197065	"07:53 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	chap	85	37	2	500	l	80	0	ft
+WE	wepp-197179	"07:53 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	chap	43	34	22	500	m	80	0	ft
+WE	wepp-197333	"07:53 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	chap	100	47	1	500	h	80	0	ft
+WE	wepp-197527	"07:53 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	chap	100	52	1	500	u	80	0	ft
+WE	wepp-197581	"07:53 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	chap	100	50	1	500	l	80	0	ft
+WE	wepp-197698	"07:53 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	chap	100	51	0	500	m	80	0	ft
+WE	wepp-197852	"07:53 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	chap	86	20	1	500	h	80	0	ft
+WE	wepp-198046	"07:54 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	20	chap	81	13	0	500	u	80	0	ft
+WE	wepp-198100	"07:54 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	20	chap	77	17	2	500	l	80	0	ft
+WE	wepp-198214	"07:54 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	20	chap	22	21	19	500	m	80	0	ft
+WE	wepp-198368	"07:54 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	20	chap	18	10	0	500	h	80	0	ft
+WE	wepp-198562	"07:54 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	25	chap	100	63	2	500	u	80	0	ft
+WE	wepp-198616	"07:54 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	25	chap	100	59	1	500	l	80	0	ft
+WE	wepp-198730	"07:54 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	25	chap	100	59	18	500	m	80	0	ft
+WE	wepp-198884	"07:54 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	100	73	5	500	u	80	0	ft
+WE	wepp-198938	"07:54 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	82	65	41	500	l	80	0	ft
+WE	wepp-199052	"07:55 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	20	chap	99	46	1	500	u	80	0	ft
+WE	wepp-199106	"07:55 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	20	chap	100	44	1	500	l	80	0	ft
+WE	wepp-199220	"07:55 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	20	chap	97	53	13	500	m	80	0	ft
+WE	wepp-199375	"07:55 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	20	chap	35	23	11	500	h	80	0	ft
+WE	wepp-199570	"07:55 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	20	forest	28	18	5	500	u			ft
+WE	wepp-199624	"07:55 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	20	forest	11	11	10	500	l			ft
+WE	wepp-199738	"07:55 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	20	forest	38	23	9	500	m			ft
+WE	wepp-199892	"07:55 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	20	forest	41	22	6	500	h			ft
+WE	wepp-200086	"07:55 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	25	forest	100	51	4	500	m			ft
+WE	wepp-200240	"07:56 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	forest	38	18	8	500	u			ft
+WE	wepp-200294	"07:56 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	forest	87	18	2	500	l			ft
+WE	wepp-200408	"07:56 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	forest	24	6	2	500	m			ft
+WE	wepp-200563	"07:56 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	forest	91	47	6	500	h			ft
+WE	wepp-200757	"07:56 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	forest	100	59	8	500	l			ft
+WE	wepp-200871	"07:56 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	forest	100	95	31	500	m			ft
+WE	wepp-201025	"07:56 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	forest	100	68	10	500	h			ft
+WE	wepp-201219	"07:57 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	forest	29	29	29	500	u			ft
+WE	wepp-201273	"07:57 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	forest	100	69	35	500	l			ft
+WE	wepp-201387	"07:57 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	forest	66	26	4	500	m			ft
+WE	wepp-201541	"07:57 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	forest	57	33	7	500	h			ft
+WE	wepp-201735	"07:57 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	forest	60	45	22	500	m			ft
+WE	wepp-201890	"07:57 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	forest	100	60	1	500	u			ft
+WE	wepp-201944	"07:57 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	forest	100	59	12	500	l			ft
+WE	wepp-202058	"07:57 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	forest	41	11	3	500	m			ft
+WE	wepp-202212	"07:58 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	forest	37	13	5	500	h			ft
+WE	wepp-202406	"07:58 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	forest	14	7	1	500	u			ft
+WE	wepp-202460	"07:58 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	forest	69	50	1	500	l			ft
+WE	wepp-202575	"07:58 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	forest	71	28	6	500	m			ft
+WE	wepp-202730	"07:58 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	forest	70	22	5	500	h			ft
+WE	wepp-202925	"07:58 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	20	forest	80	34	4	500	u			ft
+WE	wepp-202979	"07:58 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	20	forest	54	22	10	500	l			ft
+WE	wepp-203093	"07:58 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	20	forest	18	7	4	500	m			ft
+WE	wepp-203247	"07:59 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	20	forest	31	7	2	500	h			ft
+WE	wepp-203441	"07:59 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	20	forest	100	64	2	500	u			ft
+WE	wepp-203496	"07:59 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	20	forest	100	56	1	500	l			ft
+WE	wepp-203610	"07:59 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	20	forest	28	8	1	500	u			ft
+WE	wepp-203664	"07:59 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	20	forest	28	7	0	500	l			ft
+WE	wepp-203778	"07:59 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	20	forest	7	5	2	500	m			ft
+WE	wepp-203932	"07:59 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	20	forest	8	7	7	500	h			ft
+WE	wepp-204126	"07:59 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	20	range	40	32	21	500	u	15	75	ft
+WE	wepp-204180	"08:00 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	20	range	67	57	46	500	l	15	75	ft
+WE	wepp-204294	"08:00 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	20	range	75	49	33	500	m	15	75	ft
+WE	wepp-204448	"08:00 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	20	range	40	28	12	500	h	15	75	ft
+WE	wepp-204642	"08:00 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	25	range	33	15	8	500	u	15	75	ft
+WE	wepp-204696	"08:00 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	25	range	10	5	3	500	l	15	75	ft
+WE	wepp-204810	"08:00 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	25	range	8	8	6	500	m	15	75	ft
+WE	wepp-204965	"08:00 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	18	range	26	18	13	500	u	15	75	ft
+WE	wepp-205019	"08:00 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	18	range	31	24	18	500	l	15	75	ft
+WE	wepp-205135	"08:00 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	18	range	51	40	19	500	m	15	75	ft
+WE	wepp-205290	"08:01 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	range	45	21	8	500	u	15	75	ft
+WE	wepp-205344	"08:01 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	range	21	8	5	500	l	15	75	ft
+WE	wepp-205458	"08:01 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	range	21	11	4	500	m	15	75	ft
+WE	wepp-205613	"08:01 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	range	22	12	3	500	l	15	75	ft
+WE	wepp-205736	"08:01 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	range	23	9	1	500	m	15	75	ft
+WE	wepp-205927	"08:01 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	range	10	4	1	500	u	15	75	ft
+WE	wepp-205981	"08:01 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	range	4	4	3	500	u	15	75	ft
+WE	wepp-206035	"08:01 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	range	40	19	10	500	l	15	75	ft
+WE	wepp-206149	"08:01 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	10	range	20	11	1	500	u	15	75	ft
+WE	wepp-206204	"08:01 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	20	range	26	19	11	500	u	15	75	ft
+WE	wepp-206258	"08:01 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	20	range	25	25	25	500	l	15	75	ft
+WE	wepp-206372	"08:02 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	20	range	21	19	19	500	m	15	75	ft
+WE	wepp-206526	"08:02 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	20	range	22	17	8	500	h	15	75	ft
+WE	wepp-206720	"08:02 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	20	range	0	0	0	500	l	15	75	ft
+WE	wepp-206834	"08:02 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	20	range	0	0	0	500	m	15	75	ft
+WE	wepp-206988	"08:02 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	20	range	0	0	0	500	h	15	75	ft
+WE	wepp-207260	"08:10 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	60	20	3	500	h	80	0	ft
+WE	wepp-207484	"08:10 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	forest	24	6	2	500	h			ft
+WE	wepp-207679	"08:10 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	range	99	11	0	500	h	15	75	ft
+WE	wepp-207874	"08:10 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	84	17	0	500	l	80	0	ft
+WE	wepp-207989	"08:10 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	forest	87	14	2	500	l			ft
+WE	wepp-208103	"08:10 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	range	39	17	6	500	l	15	75	ft
+WE	wepp-208218	"08:10 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	80	26	0	500	m	80	0	ft
+WE	wepp-208373	"08:11 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	forest	83	17	2	500	m			ft
+WE	wepp-208528	"08:11 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	range	47	34	13	500	m	15	75	ft
+WE	wepp-208684	"08:11 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	70	10	1	500	u	80	0	ft
+WE	wepp-208738	"08:11 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	forest	33	6	2	500	u			ft
+WE	wepp-208793	"08:11 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	range	29	11	4	500	u	15	75	ft
+WE	wepp-208847	"08:11 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	12	10	9	500	l	80	0	ft
+WE	wepp-208961	"08:11 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	33	33	33	500	m	80	0	ft
+WE	wepp-209116	"08:11 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	82	40	5	500	u	80	0	ft
+WE	wepp-209171	"08:11 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	76	46	16	500	h	80	0	ft
+WE	wepp-209369	"08:11 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	forest	100	46	0	500	h			ft
+WE	wepp-209591	"08:12 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	92	61	5	500	l	80	0	ft
+WE	wepp-209705	"08:12 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	forest	55	28	3	500	l			ft
+WE	wepp-209819	"08:12 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	92	61	5	500	m	80	0	ft
+WE	wepp-210003	"08:12 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	forest	100	63	0	500	m			ft
+WE	wepp-210189	"08:12 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	55	28	3	500	u	80	0	ft
+WE	wepp-210274	"08:12 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	forest	22	22	22	500	u			ft
+WE	wepp-210328	"08:12 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	5	chap	15	5	1	500	l	80	0	ft
+WE	wepp-210442	"08:13 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	5	forest	29	9	1	500	l			ft
+WE	wepp-210557	"08:13 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	5	chap	13	12	10	500	m	80	0	ft
+WE	wepp-210741	"08:13 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	5	forest	54	9	0	500	m			ft
+WE	wepp-210923	"08:13 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	5	chap	13	4	1	500	u	80	0	ft
+WE	wepp-210977	"08:13 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	5	forest	100	40	2	500	u			ft
+WE	wepp-211060	"08:13 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	18	chap	100	52	1	500	h	80	0	ft
+WE	wepp-211254	"08:13 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	18	chap	100	25	2	500	l	80	0	ft
+WE	wepp-211369	"08:13 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	18	chap	100	39	1	500	m	80	0	ft
+WE	wepp-211526	"08:14 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	18	chap	100	22	6	500	u	80	0	ft
+WE	wepp-211608	"08:14 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	65	39	9	500	l	80	0	ft
+WE	wepp-211722	"08:14 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	35	21	7	500	m	80	0	ft
+WE	wepp-211907	"08:14 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	65	39	9	500	u	80	0	ft
+WE	wepp-211990	"08:14 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	22	21	19	500	h	80	0	ft
+WE	wepp-212185	"08:14 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	forest	37	13	5	500	h			ft
+WE	wepp-212379	"08:14 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	81	13	0	500	l	80	0	ft
+WE	wepp-212493	"08:14 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	forest	41	11	1	500	l			ft
+WE	wepp-212607	"08:15 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	range	20	9	4	500	l	15	75	ft
+WE	wepp-212721	"08:15 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	86	17	1	500	m	80	0	ft
+WE	wepp-212875	"08:15 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	forest	69	17	1	500	m			ft
+WE	wepp-213029	"08:15 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	range	21	11	4	500	m	15	75	ft
+WE	wepp-213183	"08:15 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	86	20	1	500	u	80	0	ft
+WE	wepp-213237	"08:15 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	forest	52	13	4	500	u			ft
+WE	wepp-213291	"08:15 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	range	21	8	5	500	u	15	75	ft
+WE	wepp-213345	"08:15 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	18	chap	100	31	0	500	h	80	0	ft
+WE	wepp-213539	"08:15 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	18	chap	100	25	4	500	l	80	0	ft
+WE	wepp-213653	"08:16 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	18	chap	100	39	1	500	m	80	0	ft
+WE	wepp-213807	"08:16 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	18	chap	75	17	1	500	u	80	0	ft
+WE	wepp-213861	"08:16 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	23	7	0	500	l	80	0	ft
+WE	wepp-213975	"08:16 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	32	6	0	500	m	80	0	ft
+WE	wepp-214130	"08:16 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	84	20	0	500	u	80	0	ft
+WE	wepp-214184	"08:16 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	5	chap	68	26	0	500	l	80	0	ft
+WE	wepp-214298	"08:16 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	5	chap	89	23	0	500	m	80	0	ft
+WE	wepp-214452	"08:16 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	5	chap	87	37	0	500	u	80	0	ft
+WE	wepp-214538	"08:16 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	85	15	0	500	h	80	0	ft
+WE	wepp-214732	"08:16 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	forest	100	35	0	500	h			ft
+WE	wepp-214929	"08:17 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	100	44	0	500	l	80	0	ft
+WE	wepp-215043	"08:17 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	forest	79	16	2	500	l			ft
+WE	wepp-215157	"08:17 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	range	75	49	33	500	l	15	75	ft
+WE	wepp-215271	"08:17 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	100	28	0	500	m	80	0	ft
+WE	wepp-215425	"08:17 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	forest	29	19	14	500	m			ft
+WE	wepp-215579	"08:17 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	range	40	28	12	500	m	15	75	ft
+WE	wepp-215733	"08:17 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	92	39	1	500	u	80	0	ft
+WE	wepp-215787	"08:17 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	forest	56	21	1	500	u			ft
+WE	wepp-215841	"08:17 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	range	67	57	46	500	u	15	75	ft
+WE	wepp-215895	"08:18 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	35	8	1	500	l	80	0	ft
+WE	wepp-216009	"08:18 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	forest	10	8	5	500	l			ft
+WE	wepp-216123	"08:18 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	range	47	12	0	500	l	15	75	ft
+WE	wepp-216237	"08:18 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	10	10	10	500	m	80	0	ft
+WE	wepp-216391	"08:18 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	forest	69	19	0	500	m			ft
+WE	wepp-216547	"08:18 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	10	4	2	500	u	80	0	ft
+WE	wepp-216601	"08:18 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	forest	11	6	5	500	u			ft
+WE	wepp-216655	"08:18 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	range	100	56	9	500	u	15	75	ft
+WE	wepp-216709	"08:18 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	97	53	13	500	h	80	0	ft
+WE	wepp-216903	"08:18 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	forest	100	60	6	500	h			ft
+WE	wepp-217097	"08:19 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	99	46	1	500	l	80	0	ft
+WE	wepp-217212	"08:19 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	forest	100	64	2	500	l			ft
+WE	wepp-217326	"08:19 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	range	21	19	19	500	l	15	75	ft
+WE	wepp-217440	"08:19 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	100	44	1	500	m	80	0	ft
+WE	wepp-217594	"08:19 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	forest	100	56	1	500	m			ft
+WE	wepp-217748	"08:19 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	98	40	4	500	u	80	0	ft
+WE	wepp-217802	"08:19 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	forest	100	65	7	500	u			ft
+WE	wepp-217857	"08:19 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	range	100	51	6	500	u	15	75	ft
+WE	wepp-217911	"08:19 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	100	46	1	500	h	80	0	ft
+WE	wepp-218105	"08:19 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	forest	100	58	8	500	h			ft
+WE	wepp-218299	"08:20 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	100	57	1	500	l	80	0	ft
+WE	wepp-218413	"08:20 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	forest	100	63	16	500	l			ft
+WE	wepp-218527	"08:20 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	100	49	0	500	m	80	0	ft
+WE	wepp-218681	"08:20 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	forest	100	55	6	500	m			ft
+WE	wepp-218835	"08:20 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	100	58	2	500	u	80	0	ft
+WE	wepp-218889	"08:20 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	forest	100	48	9	500	u			ft
+WE	wepp-218943	"08:20 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	90	49	7	500	h	80	0	ft
+WE	wepp-219137	"08:20 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	forest	100	27	0	500	h			ft
+WE	wepp-219331	"08:21 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	86	15	1	500	l	80	0	ft
+WE	wepp-219445	"08:21 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	forest	40	20	3	500	l			ft
+WE	wepp-219559	"08:21 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	range	100	31	0	500	l	15	75	ft
+WE	wepp-219673	"08:21 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	100	39	1	500	m	80	0	ft
+WE	wepp-219827	"08:21 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	forest	100	19	0	500	m			ft
+WE	wepp-219981	"08:21 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	61	49	33	500	u	80	0	ft
+WE	wepp-220035	"08:21 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	forest	34	13	5	500	u			ft
+WE	wepp-220089	"08:21 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	range	77	19	1	500	u	15	75	ft
+WE	wepp-220143	"08:21 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	100	29	1	500	h	80	0	ft
+WE	wepp-220337	"08:21 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	forest	28	18	5	500	h			ft
+WE	wepp-220531	"08:22 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	100	17	0	500	l	80	0	ft
+WE	wepp-220645	"08:22 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	forest	83	31	4	500	l			ft
+WE	wepp-220759	"08:22 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	range	44	12	6	500	l	15	75	ft
+WE	wepp-220873	"08:22 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	94	16	0	500	m	80	0	ft
+WE	wepp-221027	"08:22 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	forest	75	20	2	500	m			ft
+WE	wepp-221181	"08:22 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	range	51	12	5	500	m	15	75	ft
+WE	wepp-221335	"08:22 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	100	23	1	500	u	80	0	ft
+WE	wepp-221389	"08:22 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	forest	23	10	6	500	u			ft
+WE	wepp-221444	"08:22 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	range	16	8	6	500	u	15	75	ft
+WE	wepp-221498	"08:22 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	54	28	3	500	l	80	0	ft
+WE	wepp-221612	"08:22 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	forest	50	22	1	500	l			ft
+WE	wepp-221726	"08:23 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	range	67	14	0	500	l	15	75	ft
+WE	wepp-221840	"08:23 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	54	23	0	500	m	80	0	ft
+WE	wepp-221994	"08:23 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	forest	100	22	0	500	m			ft
+WE	wepp-222148	"08:23 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	50	23	6	500	u	80	0	ft
+WE	wepp-222202	"08:23 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	forest	50	16	2	500	u			ft
+WE	wepp-222256	"08:23 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	range	100	36	0	500	u	15	75	ft
+WE	wepp-222310	"08:23 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	84	50	8	500	l	80	0	ft
+WE	wepp-222424	"08:23 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	forest	40	19	10	500	l			ft
+WE	wepp-222538	"08:23 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	range	100	30	0	500	l	15	75	ft
+WE	wepp-222652	"08:23 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	82	38	6	500	m	80	0	ft
+WE	wepp-222807	"08:24 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	forest	100	43	0	500	m			ft
+WE	wepp-222961	"08:24 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	chap	87	40	4	500	u	80	0	ft
+WE	wepp-223015	"08:24 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	forest	81	55	10	500	u			ft
+WE	wepp-223069	"08:24 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	48	range	49	36	4	500	u	15	75	ft
+WE	wepp-223123	"08:24 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	68	41	19	500	h	80	0	ft
+WE	wepp-223317	"08:24 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	forest	87	15	0	500	h			ft
+WE	wepp-223511	"08:24 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	77	26	9	500	l	80	0	ft
+WE	wepp-223625	"08:24 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	forest	20	11	1	500	l			ft
+WE	wepp-223739	"08:24 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	range	87	23	1	500	l	15	75	ft
+WE	wepp-223856	"08:24 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	71	36	9	500	m	80	0	ft
+WE	wepp-224011	"08:25 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	forest	82	21	1	500	m			ft
+WE	wepp-224165	"08:25 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	72	33	8	500	u	80	0	ft
+WE	wepp-224219	"08:25 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	forest	4	3	2	500	u			ft
+WE	wepp-224273	"08:25 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	range	100	59	18	500	u	15	75	ft
+WE	wepp-224327	"08:25 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	100	63	2	500	h	80	0	ft
+WE	wepp-224521	"08:25 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	63	38	14	500	l	80	0	ft
+WE	wepp-224635	"08:25 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	forest	100	59	1	500	l			ft
+WE	wepp-224749	"08:25 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	41	35	28	500	m	80	0	ft
+WE	wepp-224903	"08:25 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	forest	100	50	1	500	m			ft
+WE	wepp-225057	"08:25 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	chap	62	41	23	500	u	80	0	ft
+WE	wepp-225111	"08:25 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	25	forest	43	34	22	500	u			ft
+WE	wepp-225165	"08:26 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	100	51	0	500	h	80	0	ft
+WE	wepp-225359	"08:26 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	forest	100	59	12	500	h			ft
+WE	wepp-225553	"08:26 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	100	51	1	500	l	80	0	ft
+WE	wepp-225668	"08:26 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	forest	100	56	1	500	l			ft
+WE	wepp-225782	"08:26 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	range	45	21	8	500	l	15	75	ft
+WE	wepp-225897	"08:26 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	100	49	1	500	m	80	0	ft
+WE	wepp-226051	"08:26 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	forest	100	51	2	500	m			ft
+WE	wepp-226205	"08:26 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	range	95	23	0	500	m	15	75	ft
+WE	wepp-226359	"08:27 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	chap	100	53	1	500	u	80	0	ft
+WE	wepp-226413	"08:27 pm  Monday August 29, 2016"	"Blue Cut Fire North +"	sand	50	forest	100	57	7	500	u			ft
+WE	wepp-226467	"08:27 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	25	forest	48	38	22	500	l			ft
+WE	wepp-226581	"08:27 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	25	chap	40	30	22	500	u	80	0	ft
+WE	wepp-226635	"08:27 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	25	forest	100	32	2	500	u			ft
+WE	wepp-226689	"08:27 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	68	25	2	500	l	80	0	ft
+WE	wepp-226803	"08:27 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	35	4	1	500	u	80	0	ft
+WE	wepp-226857	"08:27 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	forest	65	11	1	500	u			ft
+WE	wepp-226911	"08:27 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	15	5	1	500	h	80	0	ft
+WE	wepp-227107	"08:27 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	forest	8	8	7	500	h			ft
+WE	wepp-227301	"08:28 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	27	6	0	500	l	80	0	ft
+WE	wepp-227415	"08:28 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	forest	8	8	6	500	l			ft
+WE	wepp-227529	"08:28 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	range	95	16	0	500	l	15	75	ft
+WE	wepp-227643	"08:28 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	26	6	1	500	m	80	0	ft
+WE	wepp-227798	"08:28 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	forest	11	8	4	500	m			ft
+WE	wepp-227952	"08:28 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	range	100	10	0	500	m	15	75	ft
+WE	wepp-228106	"08:28 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	26	5	1	500	u	80	0	ft
+WE	wepp-228160	"08:28 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	forest	10	5	3	500	u			ft
+WE	wepp-228214	"08:28 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	range	36	25	15	500	u	15	75	ft
+WE	wepp-228268	"08:28 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	100	69	13	500	l	80	0	ft
+WE	wepp-228382	"08:29 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	forest	100	32	0	500	l			ft
+WE	wepp-228496	"08:29 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	100	61	15	500	u	80	0	ft
+WE	wepp-228550	"08:29 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	forest	64	10	1	500	u			ft
+WE	wepp-228604	"08:29 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	18	chap	100	31	0	500	h	80	0	ft
+WE	wepp-228798	"08:29 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	18	chap	33	15	8	500	l	80	0	ft
+WE	wepp-228912	"08:29 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	18	range	100	33	0	500	l	15	75	ft
+WE	wepp-229026	"08:29 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	18	chap	38	27	16	500	m	80	0	ft
+WE	wepp-229180	"08:29 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	18	range	100	34	2	500	m	15	75	ft
+WE	wepp-229334	"08:30 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	18	chap	13	11	5	500	u	80	0	ft
+WE	wepp-229388	"08:30 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	18	range	35	23	11	500	u	15	75	ft
+WE	wepp-229442	"08:30 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	chap	54	22	10	500	h	80	0	ft
+WE	wepp-229636	"08:30 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	forest	21	8	3	500	h			ft
+WE	wepp-229830	"08:30 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	range	99	11	0	500	h	15	75	ft
+WE	wepp-230024	"08:30 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	chap	70	21	2	500	l	80	0	ft
+WE	wepp-230138	"08:30 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	forest	32	10	1	500	l			ft
+WE	wepp-230252	"08:30 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	range	88	22	0	500	l	15	75	ft
+WE	wepp-230366	"08:31 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	chap	80	34	4	500	m	80	0	ft
+WE	wepp-230520	"08:31 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	forest	10	4	1	500	m			ft
+WE	wepp-230674	"08:31 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	range	79	10	1	500	m	15	75	ft
+WE	wepp-230828	"08:31 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	chap	71	24	4	500	u	80	0	ft
+WE	wepp-230882	"08:31 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	forest	30	9	3	500	u			ft
+WE	wepp-230936	"08:31 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	range	100	59	14	500	u	15	75	ft
+WE	wepp-230990	"08:31 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	18	chap	73	48	26	500	h	80	0	ft
+WE	wepp-231184	"08:31 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	18	chap	100	58	5	500	l	80	0	ft
+WE	wepp-231298	"08:32 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	18	chap	53	32	7	500	m	80	0	ft
+WE	wepp-231452	"08:32 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	18	chap	35	5	0	500	u	80	0	ft
+WE	wepp-231506	"08:32 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	25	chap	99	41	2	500	h	80	0	ft
+WE	wepp-231700	"08:32 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	25	chap	100	39	1	500	l	80	0	ft
+WE	wepp-231814	"08:32 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	25	range	100	30	0	500	l	15	75	ft
+WE	wepp-231928	"08:32 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	25	chap	100	36	0	500	m	80	0	ft
+WE	wepp-232082	"08:32 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	25	forest	41	15	3	500	m			ft
+WE	wepp-232236	"08:32 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	25	range	100	30	0	500	m	15	75	ft
+WE	wepp-232390	"08:33 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	25	chap	91	23	0	500	u	80	0	ft
+WE	wepp-232444	"08:33 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	25	range	73	12	0	500	u	15	75	ft
+WE	wepp-232498	"08:33 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	chap	100	55	2	500	h	80	0	ft
+WE	wepp-232692	"08:33 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	forest	22	10	3	500	h			ft
+WE	wepp-232888	"08:33 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	range	100	57	1	500	h	15	75	ft
+WE	wepp-233082	"08:33 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	chap	100	61	2	500	l	80	0	ft
+WE	wepp-233196	"08:33 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	forest	25	25	25	500	l			ft
+WE	wepp-233310	"08:34 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	range	100	48	1	500	l	15	75	ft
+WE	wepp-233424	"08:34 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	chap	100	55	0	500	m	80	0	ft
+WE	wepp-233578	"08:34 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	forest	22	17	8	500	m			ft
+WE	wepp-233732	"08:34 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	range	100	61	1	500	m	15	75	ft
+WE	wepp-233886	"08:34 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	chap	100	61	3	500	u	80	0	ft
+WE	wepp-233940	"08:34 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	forest	26	19	11	500	u			ft
+WE	wepp-233994	"08:34 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	100	69	35	500	h	80	0	ft
+WE	wepp-234188	"08:34 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	forest	100	59	1	500	h			ft
+WE	wepp-234382	"08:35 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	100	95	31	500	l	80	0	ft
+WE	wepp-234496	"08:35 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	forest	26	10	6	500	l			ft
+WE	wepp-234610	"08:35 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	range	100	50	0	500	l	15	75	ft
+WE	wepp-234724	"08:35 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	100	68	10	500	m	80	0	ft
+WE	wepp-234878	"08:35 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	forest	31	13	3	500	m			ft
+WE	wepp-235032	"08:35 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	range	100	48	1	500	m	15	75	ft
+WE	wepp-235186	"08:35 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	100	68	10	500	u	80	0	ft
+WE	wepp-235240	"08:36 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	forest	40	22	10	500	u			ft
+WE	wepp-235294	"08:36 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	range	94	57	8	500	u	15	75	ft
+WE	wepp-235348	"08:36 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	chap	36	17	3	500	h	80	0	ft
+WE	wepp-235542	"08:36 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	forest	48	22	9	500	h			ft
+WE	wepp-235737	"08:36 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	range	95	12	0	500	h	15	75	ft
+WE	wepp-235931	"08:36 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	chap	76	7	0	500	l	80	0	ft
+WE	wepp-236045	"08:36 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	forest	31	7	1	500	l			ft
+WE	wepp-236159	"08:36 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	range	86	13	0	500	l	15	75	ft
+WE	wepp-236273	"08:37 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	chap	82	14	0	500	m	80	0	ft
+WE	wepp-236427	"08:37 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	forest	13	7	2	500	m			ft
+WE	wepp-236581	"08:37 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	range	84	11	0	500	m	15	75	ft
+WE	wepp-236735	"08:37 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	chap	38	6	0	500	u	80	0	ft
+WE	wepp-236789	"08:37 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	forest	28	7	0	500	u			ft
+WE	wepp-236843	"08:37 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	48	range	80	16	0	500	u	15	75	ft
+WE	wepp-236897	"08:37 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	25	chap	100	82	53	500	l	80	0	ft
+WE	wepp-237011	"08:37 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	25	chap	97	70	52	500	m	80	0	ft
+WE	wepp-237165	"08:37 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	25	chap	100	82	53	500	u	80	0	ft
+WE	wepp-237219	"08:37 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	60	45	22	500	h	80	0	ft
+WE	wepp-237413	"08:38 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	forest	97	35	1	500	h			ft
+WE	wepp-237607	"08:38 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	86	48	4	500	l	80	0	ft
+WE	wepp-237721	"08:38 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	forest	9	7	6	500	l			ft
+WE	wepp-237838	"08:38 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	range	85	37	2	500	l	15	75	ft
+WE	wepp-237952	"08:38 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	86	40	2	500	m	80	0	ft
+WE	wepp-238106	"08:38 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	forest	86	40	2	500	m			ft
+WE	wepp-238271	"08:39 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	chap	66	26	4	500	u	80	0	ft
+WE	wepp-238325	"08:39 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	forest	51	30	11	500	u			ft
+WE	wepp-238379	"08:39 pm  Monday August 29, 2016"	"Blue Cut Fire South +"	sand	50	range	66	26	4	500	u	15	75	ft
+WE	wepp-129369	"11:17 am  Friday November 3, 2017"	"Wildomar Fire, CA +"	sand	50	chap	0	50	5	1000	m	80	0	ft
+WE	wepp-129894	"11:23 am  Friday November 3, 2017"	"Wildomar Fire, CA +"	sand	50	chap	0	50	5	1000	m	80	0	ft

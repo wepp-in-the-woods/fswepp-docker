@@ -1,0 +1,32 @@
+WD	wepp-15625	"10:39 am  Monday June 27, 2016"	"MOUNTAINAIR NM HSC40 +"	50	loam	high	262	32	32	1	60	high	262	32	32	1	60	0	m	"269 High Severity"
+WD	wepp-15926	"10:46 am  Monday June 27, 2016"	"MOUNTAINAIR NM HSC40 +"	50	loam	high	262	32	32	1	60	high	262	32	32	1	60	0	ft	"267 High Severity"
+WD	wepp-17426	"11:08 am  Monday June 27, 2016"	"SANDIA PARK NM + 87 +"	50	sand	high	131	5	5	1	0	high	131	5	5	1	0	0	ft	"87 High Severity"
+WD	wepp-17557	"11:10 am  Monday June 27, 2016"	"SANDIA PARK NM + 87 +"	50	sand	high	131	5	5	20	0	high	131	5	5	20	0	0	ft	"87 Mod Severity"
+WD	wepp-17647	"11:12 am  Monday June 27, 2016"	"SANDIA PARK NM + 87 +"	50	sand	high	131	5	5	40	0	high	131	5	5	40	0	0	ft	"87 LowUnburn Severity"
+WD	wepp-17692	"11:13 am  Monday June 27, 2016"	"SANDIA PARK NM + 87 +"	50	sand	high	131	5	5	20	0	high	131	5	5	20	0	0	ft	"87 mod Severity"
+WD	wepp-17785	"11:14 am  Monday June 27, 2016"	"SANDIA PARK NM + 87 +"	50	sand	high	131	5	5	40	0	high	131	5	5	40	0	0	m	"87"
+WD	wepp-17969	"11:15 am  Monday June 27, 2016"	"SANDIA PARK NM + 87 +"	50	sand	high	131	5	5	40	0	high	131	5	5	40	0	0	ft	"87 high"
+WD	wepp-18039	"11:16 am  Monday June 27, 2016"	"SANDIA PARK NM + 87 +"	50	sand	high	131	5	5	20	0	high	131	5	5	20	0	0	ft	"87 mod"
+WD	wepp-18091	"11:17 am  Monday June 27, 2016"	"SANDIA PARK NM + 87 +"	50	sand	high	131	5	5	1	0	high	131	5	5	1	0	0	ft	"87 high"
+WD	wepp-18219	"11:19 am  Monday June 27, 2016"	"MOUNTAINAIR NM HSC40 +"	50	loam	high	262	32	32	35	60	high	262	32	32	35	60	0	ft	"267 high"
+WD	wepp-18278	"11:20 am  Monday June 27, 2016"	"MOUNTAINAIR NM HSC40 +"	50	loam	high	262	32	32	17.5	60	high	262	32	32	17.5	60	0	ft	"267 mod"
+WD	wepp-18441	"11:22 am  Monday June 27, 2016"	"MOUNTAINAIR NM HSC40 +"	50	loam	high	262	32	32	1	60	high	262	32	32	1	60	0	ft	"267 high"
+WD	wepp-18555	"11:23 am  Monday June 27, 2016"	"MOUNTAINAIR NM HSC40 +"	50	loam	high	262	32	32	35	60	high	262	32	32	35	60	0	ft	"267 ul"
+WD	wepp-18775	"11:26 am  Monday June 27, 2016"	"MOUNTAINAIR NM HSC40 + +"	50	loam	high	164	4	4	1	5	high	164	4	4	1	5	0	ft	"269 high"
+WD	wepp-18827	"11:27 am  Monday June 27, 2016"	"MOUNTAINAIR NM HSC40 + +"	50	loam	high	164	4	4	25	5	high	164	4	4	25	5	0	ft	"269 mod"
+WD	wepp-18890	"11:28 am  Monday June 27, 2016"	"MOUNTAINAIR NM HSC40 + +"	50	loam	high	164	4	4	50	5	high	164	4	4	50	5	0	ft	"269 ul"
+WD	wepp-19180	"11:31 am  Monday June 27, 2016"	"SANDIA PARK NM + 87 +"	50	loam	high	279	2	2	1	5	high	279	2	2	1	5	0	m	"273 High"
+WD	wepp-19292	"11:34 am  Monday June 27, 2016"	"SANDIA PARK NM + 87 +"	50	loam	high	279	2	2	27.5	5	high	279	2	2	27.5	5	0	m	"273 Mod"
+WD	wepp-19334	"11:35 am  Monday June 27, 2016"	"SANDIA PARK NM + 87 +"	50	loam	high	279	2	2	55	5	high	279	2	2	55	5	0	m	"273 UL"
+WD	wepp-25864	"02:30 pm  Monday June 27, 2016"	"MOUNTAINAIR NM HSC40 + +"	50	loam	high	262	32	32	35	60	high	262	32	32	35	60	0	m	"273 UL"
+WD	wepp-25920	"02:32 pm  Monday June 27, 2016"	"MOUNTAINAIR NM HSC40 + +"	50	loam	high	262	32	32	35	60	high	262	32	32	35	60	0	ft	""
+WE	wepp-31321	"04:26 pm  Monday June 27, 2016"	"SANDIA PARK NM + 87 +"	sand	5	forest	5	5	5	262	h			ft
+WE	wepp-31573	"04:28 pm  Monday June 27, 2016"	"MOUNTAINAIR NM HSC40 + +"	loam	50	forest	32	32	32	524	h			ft
+WE	wepp-31836	"04:30 pm  Monday June 27, 2016"	"MOUNTAINAIR NM HSC40 + +"	loam	50	forest	32	32	32	524	m			ft
+WE	wepp-32051	"04:31 pm  Monday June 27, 2016"	"SANDIA PARK NM + 87 +"	sand	5	forest	5	5	5	262	m			ft
+WE	wepp-32243	"04:32 pm  Monday June 27, 2016"	"SANDIA PARK NM + 87 +"	sand	5	forest	5	5	5	262	m			ft
+WE	wepp-32443	"04:33 pm  Monday June 27, 2016"	"MOUNTAINAIR NM HSC40 + +"	loam	5	forest	4	4	4	328	h			ft
+WE	wepp-32681	"04:34 pm  Monday June 27, 2016"	"MOUNTAINAIR NM HSC40 + +"	loam	5	forest	4	4	4	328	m			ft
+WE	wepp-32883	"04:35 pm  Monday June 27, 2016"	"SANDIA PARK NM + 87 +"	loam	5	forest	2	2	2	558	m			ft
+WE	wepp-33084	"04:37 pm  Monday June 27, 2016"	"SANDIA PARK NM + 87 +"	loam	5	forest	2	2	2	558	h			ft
+WD	wepp-81887	"08:49 am  Tuesday June 28, 2016"	"SANDIA PARK NM + 87 +"	10	clay	OldForest	50	0	30	100	20	OldForest	50	30	5	100	20	0	ft	""

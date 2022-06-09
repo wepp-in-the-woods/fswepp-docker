@@ -1,0 +1,234 @@
+WE	wepp-12929	"04:35 pm  Wednesday March 7, 2012"	"Beirut Lebanon +"	loam	20	forest	25	20	12	250	m			m
+WD	wepp-13084	"04:38 pm  Wednesday March 7, 2012"	"Beirut Lebanon +"	100	loam	YoungForest	150	27	25	100	20	OldForest	50	20	12	100	20	0	m	""
+WD	wepp-13120	"04:39 pm  Wednesday March 7, 2012"	"Beirut Lebanon +"	100	loam	YoungForest	150	27	25	85	20	OldForest	50	20	12	100	20	0	m	""
+WD	wepp-13202	"03:45 pm  Thursday March 8, 2012"	"Beirut Lebanon +"	1	clay	OldForest	50	0	30	100	20	OldForest	50	30	5	100	20	0	ft	""
+WE	wepp-3212	"02:53 pm  Monday March 12, 2012"	"CHARLESTON KAN AP WV"	silt	20	forest	20	40	30	300	h			ft
+WE	wepp-3303	"02:54 pm  Monday March 12, 2012"	"TROUT CREEK RS MT 38.83+ +"	sand	20	forest	20	40	30	300	h			ft
+WE	wepp-3393	"02:55 pm  Monday March 12, 2012"	"TROUT CREEK RS MT 38.83+ +"	sand	20	forest	20	40	30	300	m			ft
+WD	wepp-18148	"12:38 pm  Wednesday March 14, 2012"	"TALBOTTON GA"	10	sand	Skid	150	5	10	20	20	OldForest	50	8	2	100	20	0	ft	""
+WR	wepp-18287	"12:42 pm  Wednesday March 14, 2012"	"TALBOTTON GA"	30	sand	native	200	2	13	1	50	50	25	20	outrut	ft
+WR	wepp-18307	"12:43 pm  Wednesday March 14, 2012"	"TALBOTTON GA"	30	sand	native	200	2	13	1	50	50	5	20	outrut	ft
+WD	wepp-18492	"12:50 pm  Wednesday March 14, 2012"	"LAWTON OK"	10	silt	YoungForest	500	20	25	80	20	OldForest	50	25	10	100	20	0	ft	""
+WD	wepp-18512	"12:51 pm  Wednesday March 14, 2012"	"LAWTON OK"	50	silt	YoungForest	500	20	25	80	20	Bunchgrass	50	25	10	60	20	0	ft	""
+WD	wepp-18561	"12:53 pm  Wednesday March 14, 2012"	"LAWTON OK"	50	silt	Sod	500	20	25	80	20	Bunchgrass	50	25	10	60	20	0	ft	""
+WD	wepp-19215	"01:04 pm  Wednesday March 14, 2012"	"LAWTON OK"	50	clay	YoungForest	200	10	20	80	20	OldForest	50	15	5	100	20	0	ft	""
+WD	wepp-20592	"02:52 pm  Wednesday March 14, 2012"	"LAWTON OK"	50	silt	YoungForest	50	10	20	80	20	OldForest	50	15	5	100	20	0	ft	""
+WD	wepp-1195	"11:14 am  Thursday March 29, 2012"	"Beirut Lebanon +"	100	silt	OldForest	50	5	30	100	20	OldForest	50	20	10	100	20	0	m	""
+WD	wepp-1678	"11:56 am  Thursday March 29, 2012"	"Beirut Lebanon +"	10	clay	OldForest	50	0	30	100	40	OldForest	50	30	5	100	30	0	ft	""
+WD	wepp-1698	"11:56 am  Thursday March 29, 2012"	"Beirut Lebanon +"	10	clay	OldForest	50	0	30	100	60	OldForest	50	30	5	100	20	0	ft	""
+WD	wepp-1724	"11:57 am  Thursday March 29, 2012"	"LAWTON OK"	10	clay	OldForest	50	0	30	100	10	OldForest	50	30	5	100	15	0	ft	""
+wt	wepp-27897	"Apr 5, 2012"	"MOUNT SHASTA CA"	granitic	LowFire	0	30	250	85	20	OldForest	30	5	50	100	20	ft	""
+wt	wepp-28325	"Apr 5, 2012"	"TALBOTTON GA"	granitic	Skid	0	30	50	10	20	Sod	30	5	50	40	20	ft	""
+WD	wepp-28369	"11:04 am  Thursday April 5, 2012"	"TALBOTTON GA"	10	sand	Skid	50	0	30	20	20	Sod	50	30	5	40	20	0	ft	""
+WD	wepp-28396	"11:04 am  Thursday April 5, 2012"	"TALBOTTON GA"	10	sand	Skid	50	0	30	20	20	OldForest	50	30	5	100	20	0	ft	""
+wt	wepp-28629	"Apr 5, 2012"	"TALBOTTON GA"	granitic	OldForest	0	30	50	100	20	YoungForest	30	5	50	100	20	ft	""
+wt	wepp-28675	"Apr 5, 2012"	"MOUNT SHASTA CA"	granitic	LowFire	0	30	250	85	20	YoungForest	30	5	50	100	20	ft	""
+wt	wepp-28723	"Apr 5, 2012"	"TALBOTTON GA"	granitic	OldForest	0	30	50	100	20	YoungForest	30	5	50	100	20	ft	""
+wt	wepp-28817	"Apr 5, 2012"	"TALBOTTON GA"	volcanic	LowFire	10	30	250	85	20	OldForest	30	5	50	100	20	ft	""
+wt	wepp-31474	"Apr 5, 2012"	"TALBOTTON GA"	granitic	OldForest	0	30	50	100	20	YoungForest	30	5	50	100	20	ft	""
+wt	wepp-31495	"Apr 5, 2012"	"TALBOTTON GA"	granitic	Skid	0	30	50	10	20	YoungForest	30	5	50	100	20	ft	""
+wt	wepp-13708	"Apr 6, 2012"	"TALBOTTON GA"	granitic	LowFire	0	30	250	85	20	YoungForest	30	5	50	100	20	ft	""
+wt	wepp-29240	"Apr 10, 2012"	"TALBOTTON GA"	granitic	OldForest	0	30	50	100	20	YoungForest	30	5	50	100	20	m	""
+wt	wepp-29271	"Apr 10, 2012"	"MOUNT SHASTA CA"	granitic	HighFire	10	30	120	45	20	OldForest	30	10	30	100	20	m	""
+wt	wepp-29766	"Apr 10, 2012"	"TALBOTTON GA"	volcanic	OldForest	0	30	50	100	20	YoungForest	30	5	50	100	20	m	""
+wt	wepp-29786	"Apr 10, 2012"	"TALBOTTON GA"	volcanic	LowFire	20	30	250	85	20	YoungForest	30	15	50	100	20	m	""
+wt	wepp-29893	"Apr 10, 2012"	"MOUNT SHASTA CA"	volcanic	LowFire	0	30	150	85	20	OldForest	30	5	50	100	20	m	""
+wt	wepp-29932	"Apr 10, 2012"	"MOUNT SHASTA CA"	volcanic	LowFire	0	20	150	85	20	OldForest	5	5	50	100	20	m	""
+wt	wepp-29952	"Apr 10, 2012"	"MOUNT SHASTA CA"	volcanic	LowFire	0	20	150	85	20	OldForest	5	1	50	100	20	m	""
+wt	wepp-30109	"Apr 10, 2012"	"MOUNT SHASTA CA"	granitic	LowFire	0	30	150	85	20	YoungForest	30	5	50	100	20	m	""
+wt	wepp-30573	"Apr 10, 2012"	"TALBOTTON GA"	granitic	HighRoad	4	4	60	10	20	YoungForest	20	10	10	100	20	m	""
+WE	wepp-31551	"01:45 pm  Tuesday April 10, 2012"	"MOUNT SHASTA CA"	sand	20	forest	20	50	30	500	m			ft
+WE	wepp-31693	"01:53 pm  Tuesday April 10, 2012"	"TALBOTTON GA"	sand	20	forest	20	50	30	500	m			ft
+wt	wepp-26121	"Apr 13, 2012"	"HEAVENLY VALLEY CA"	granitic	Bare	20	50	50	20	20	Bare	50	50	50	20	20	ft	""
+wt	wepp-26141	"Apr 13, 2012"	"HEAVENLY VALLEY CA"	granitic	Bare	20	50	50	20	20	Bare	50	50	50	20	20	ft	""
+wt	wepp-26294	"Apr 13, 2012"	"HEAVENLY VALLEY CA"	granitic	Bare	20	50	50	20	20	Bare	50	50	50	20	20	ft	""
+wt	wepp-26329	"Apr 13, 2012"	"HEAVENLY VALLEY CA"	granitic	Bare	20	50	10	20	20	Bare	50	50	10	20	20	ft	""
+WE	wepp-1570	"11:00 am  Monday April 16, 2012"	"4 Mile Fire CO +"	sand	20	forest	20	40	30	350	h			ft
+WE	wepp-1891	"11:19 am  Monday April 16, 2012"	"4 Mile Fire CO +"	sand	25	forest	20	40	30	350	h			ft
+WE	wepp-4738	"03:14 pm  Monday April 16, 2012"	"4 Mile Fire CO +"	sand	20	forest	26	26	27	260	h			ft
+WE	wepp-6098	"05:20 pm  Monday April 16, 2012"	"4 Mile Fire CO +"	sand	20	forest	27	26	26	260	h			ft
+WE	wepp-18248	"12:55 pm  Tuesday April 17, 2012"	"MOUNT SHASTA CA"	clay	20	forest	27	27	36	260	l			ft
+WE	wepp-19946	"04:09 pm  Tuesday April 17, 2012"	"Sweet Fire +"	sand	20	forest	0	50	30	300	h			ft
+WE	wepp-25495	"08:58 am  Wednesday April 18, 2012"	"SANDPOINT EXP STA ID"	sand	30	forest	10	50	20	300	h			ft
+WE	wepp-25585	"08:58 am  Wednesday April 18, 2012"	"SANDPOINT EXP STA ID"	sand	5	forest	10	50	20	300	h			ft
+WE	wepp-25693	"08:59 am  Wednesday April 18, 2012"	"SANDPOINT EXP STA ID"	sand	5	forest	10	50	20	300	h			ft
+WE	wepp-25801	"08:59 am  Wednesday April 18, 2012"	"SANDPOINT EXP STA ID"	sand	5	forest	10	50	20	300	h			ft
+WE	wepp-30407	"12:21 pm  Wednesday April 18, 2012"	"Sweet Fire UT +"	sand	20	forest	0.57	0.64	0.32	846	h			ft
+WE	wepp-30516	"12:21 pm  Wednesday April 18, 2012"	"Sweet Fire UT +"	sand	20	forest	0.55	0.445	0.34	226	h			ft
+WE	wepp-30624	"12:21 pm  Wednesday April 18, 2012"	"Sweet Fire UT +"	sand	20	forest	0.54	0.61	0.49	1000	h			ft
+WE	wepp-30731	"12:22 pm  Wednesday April 18, 2012"	"Sweet Fire UT +"	sand	20	forest	0.53	0.57	0.16	574	h			ft
+WE	wepp-30839	"12:22 pm  Wednesday April 18, 2012"	"Sweet Fire UT +"	sand	20	forest	0.62	0.63	0.64	219	h			ft
+WE	wepp-30948	"12:22 pm  Wednesday April 18, 2012"	"Sweet Fire UT +"	sand	20	forest	0.64	0.61	0.52	326	h			ft
+WE	wepp-31055	"12:22 pm  Wednesday April 18, 2012"	"Sweet Fire UT +"	sand	20	forest	0.46	0.405	0.35	183	h			ft
+WE	wepp-31163	"12:23 pm  Wednesday April 18, 2012"	"Sweet Fire UT +"	sand	20	forest	0.39	0.4	0.43	991	h			ft
+WE	wepp-31270	"12:23 pm  Wednesday April 18, 2012"	"Sweet Fire UT +"	sand	20	forest	0.51	0.49	0.44	351	h			ft
+WE	wepp-31380	"12:23 pm  Wednesday April 18, 2012"	"Sweet Fire UT +"	sand	20	forest	0.54	0.565	0.59	79	h			ft
+WE	wepp-31487	"12:23 pm  Wednesday April 18, 2012"	"Sweet Fire UT +"	sand	20	forest	0.43	0.47	0.51	148	h			ft
+WE	wepp-31599	"12:24 pm  Wednesday April 18, 2012"	"Sweet Fire UT +"	sand	20	forest	0.52	0.65	0.45	295	h			ft
+WE	wepp-31708	"12:24 pm  Wednesday April 18, 2012"	"Sweet Fire UT +"	sand	20	forest	0.55	0.56	0.39	489	h			ft
+WE	wepp-31815	"12:24 pm  Wednesday April 18, 2012"	"Sweet Fire UT +"	sand	20	forest	0.56	0.69	0.52	250	h			ft
+WE	wepp-31925	"12:24 pm  Wednesday April 18, 2012"	"Sweet Fire UT +"	sand	20	forest	0.68	0.6	0.5	905	h			ft
+WE	wepp-32031	"12:25 pm  Wednesday April 18, 2012"	"Sweet Fire UT +"	sand	20	forest	0.57	0.48	0.36	581	h			ft
+WE	wepp-32141	"12:25 pm  Wednesday April 18, 2012"	"Sweet Fire UT +"	sand	20	forest	0.45	0.58	0.55	613	h			ft
+WE	wepp-32250	"12:25 pm  Wednesday April 18, 2012"	"Sweet Fire UT +"	sand	20	forest	0.44	0.54	0.6	403	h			ft
+WE	wepp-32361	"12:25 pm  Wednesday April 18, 2012"	"Sweet Fire UT +"	sand	20	forest	0.69	0.55	0.43	1000	h			ft
+WE	wepp-32469	"12:26 pm  Wednesday April 18, 2012"	"Sweet Fire UT +"	sand	20	forest	0.7	0.57	0.44	87	h			ft
+WE	wepp-32576	"12:26 pm  Wednesday April 18, 2012"	"Sweet Fire UT +"	sand	20	forest	0.52	0.55	0.26	856	h			ft
+WE	wepp-32684	"12:26 pm  Wednesday April 18, 2012"	"Sweet Fire UT +"	sand	20	forest	0.67	0.43	0.29	544	h			ft
+WE	wepp-325	"12:26 pm  Wednesday April 18, 2012"	"Sweet Fire UT +"	sand	20	forest	0.64	0.5	0.51	764	h			ft
+WE	wepp-432	"12:27 pm  Wednesday April 18, 2012"	"Sweet Fire UT +"	sand	20	forest	0.7	0.66	0.54	1000	h			ft
+WE	wepp-540	"12:27 pm  Wednesday April 18, 2012"	"Sweet Fire UT +"	sand	20	forest	0.46	0.44	0.42	183	h			ft
+WE	wepp-647	"12:27 pm  Wednesday April 18, 2012"	"Sweet Fire UT +"	sand	20	forest	0.59	0.59	0.55	285	h			ft
+WE	wepp-756	"12:27 pm  Wednesday April 18, 2012"	"Sweet Fire UT +"	sand	20	forest	0.6	0.61	0.49	686	h			ft
+WE	wepp-863	"12:28 pm  Wednesday April 18, 2012"	"Sweet Fire UT +"	sand	20	forest	0.69	0.68	0.56	281	h			ft
+WE	wepp-972	"12:28 pm  Wednesday April 18, 2012"	"Sweet Fire UT +"	sand	20	forest	0.62	0.6	0.62	453	h			ft
+WE	wepp-1086	"12:28 pm  Wednesday April 18, 2012"	"Sweet Fire UT +"	sand	20	forest	0.61	0.6	0.58	1000	h			ft
+WE	wepp-1193	"12:28 pm  Wednesday April 18, 2012"	"Sweet Fire UT +"	sand	20	forest	0.6	0.62	0.6	433	h			ft
+WE	wepp-1308	"12:29 pm  Wednesday April 18, 2012"	"Sweet Fire UT +"	sand	20	forest	0.56	0.545	0.53	232	h			ft
+WE	wepp-1417	"12:29 pm  Wednesday April 18, 2012"	"Sweet Fire UT +"	sand	20	forest	0.58	0.54	0.45	886	h			ft
+WE	wepp-1528	"12:29 pm  Wednesday April 18, 2012"	"Sweet Fire UT +"	sand	20	forest	0.58	0.55	0.46	584	h			ft
+WE	wepp-1641	"12:29 pm  Wednesday April 18, 2012"	"Sweet Fire UT +"	sand	20	forest	0.47	0.505	0.54	94	h			ft
+WE	wepp-1835	"12:30 pm  Wednesday April 18, 2012"	"Sweet Fire UT +"	sand	20	forest	0.49	0.53	0.5	1000	h			ft
+WE	wepp-1945	"12:30 pm  Wednesday April 18, 2012"	"Sweet Fire UT +"	sand	20	forest	0.28	0.25	0.23	277	h			ft
+WE	wepp-2056	"12:30 pm  Wednesday April 18, 2012"	"Sweet Fire UT +"	sand	20	forest	0.53	0.5	0.47	407	h			ft
+WE	wepp-2181	"12:30 pm  Wednesday April 18, 2012"	"Sweet Fire UT +"	sand	20	forest	0.58	0.565	0.55	151	h			ft
+WE	wepp-2288	"12:31 pm  Wednesday April 18, 2012"	"Sweet Fire UT +"	sand	20	forest	0.73	0.63	0.46	771	h			ft
+WE	wepp-2398	"12:31 pm  Wednesday April 18, 2012"	"Sweet Fire UT +"	sand	20	forest	0.78	0.73	0.68	104	h			ft
+WE	wepp-2520	"12:31 pm  Wednesday April 18, 2012"	"Sweet Fire UT +"	sand	20	forest	0.82	0.71	0.48	1000	h			ft
+WE	wepp-2655	"12:31 pm  Wednesday April 18, 2012"	"Sweet Fire UT +"	sand	20	forest	0.71	0.725	0.74	229	h			ft
+WE	wepp-2775	"12:32 pm  Wednesday April 18, 2012"	"Sweet Fire UT +"	sand	20	forest	0.73	0.735	0.74	236	h			ft
+WE	wepp-2887	"12:32 pm  Wednesday April 18, 2012"	"Sweet Fire UT +"	sand	20	forest	0.71	0.66	0.59	984	h			ft
+WE	wepp-2993	"12:32 pm  Wednesday April 18, 2012"	"Sweet Fire UT +"	sand	20	forest	0.42	0.46	0.5	110	h			ft
+WE	wepp-3102	"12:32 pm  Wednesday April 18, 2012"	"Sweet Fire UT +"	sand	20	forest	0.56	0.59	0.62	190	h			ft
+WE	wepp-3214	"12:33 pm  Wednesday April 18, 2012"	"Sweet Fire UT +"	sand	20	forest	0.54	0.41	0.41	1000	h			ft
+WE	wepp-10648	"05:48 pm  Wednesday April 18, 2012"	"Sweet Fire UT +"	sand	20	forest	40.6	38.8	36.5	834	h			ft
+WE	wepp-15488	"09:29 am  Thursday April 19, 2012"	"Sweet Fire, UT +"	sand	20	forest	0	50	30	300	m			ft
+wt	wepp-27458	"Apr 20, 2012"	"ECHO PEAK CA SNOTEL"	granitic	YoungForest	0	30	50	100	20	OldForest	30	5	50	100	20	ft	""
+wt	wepp-27925	"Apr 20, 2012"	"TALBOTTON GA"	granitic	YoungForest	0	30	50	100	20	OldForest	30	5	50	100	20	ft	""
+WD	wepp-3329	"02:41 pm  Monday April 23, 2012"	"Goose Ck CO +"	10	sand	HighFire	220	20	18	45	20	HighFire	220	18	14	45	20	0	ft	""
+WD	wepp-3402	"02:42 pm  Monday April 23, 2012"	"Goose Ck CO +"	10	sand	HighFire	220	20	18	30	20	HighFire	220	18	14	30	20	0	ft	""
+WD	wepp-3443	"02:44 pm  Monday April 23, 2012"	"Goose Ck High Int CO +"	50	sand	HighFire	220	20	18	30	20	HighFire	220	18	14	30	20	0	ft	""
+WE	wepp-3623	"02:49 pm  Monday April 23, 2012"	"Goose Ck High Int CO +"	sand	20	forest	20	18	14	440	h			ft
+WD	wepp-3981	"03:19 pm  Monday April 23, 2012"	"Goose Ck High Int CO +"	50	sand	HighFire	50	0	30	30	20	HighFire	50	30	5	30	20	0	ft	""
+WE	wepp-4118	"03:31 pm  Monday April 23, 2012"	"Goose Ck High Int CO +"	sand	20	forest	20	18	14	440	h			ft
+WW	wepp-18053	"02:15 pm  Tuesday April 24, 2012"	"HEAVENLY VALLEY CA"	sand	low	50	0	30	85	20	400	tree20	50	30	5	100	20	400	restricted	"decomposed granite"	25	3.60E-01	m
+WW	wepp-18214	"02:27 pm  Tuesday April 24, 2012"	"HEAVENLY VALLEY CA"	sand	low	45.7317073170732	0	30	85	20	15	tree20	45.7317073170732	30	5	100	20	15	restricted	"decomposed granite"	25	1.42E-02	ft
+wt	wepp-19100	"Apr 24, 2012"	"TALBOTTON GA"	granitic	OldForest	0	30	50	100	20	YoungForest	30	5	50	100	20	ft	""
+wt	wepp-19132	"Apr 24, 2012"	"TALBOTTON GA"	granitic	OldForest	0	30	50	100	20	YoungForest	30	5	50	100	20	ft	""
+wt	wepp-19154	"Apr 24, 2012"	"TALBOTTON GA"	granitic	OldForest	0	30	50	100	20	YoungForest	30	5	50	100	20	ft	""
+wt	wepp-19203	"Apr 24, 2012"	"ECHO PEAK CA SNOTEL"	volcanic	LowFire	0	30	50	85	20	OldForest	30	5	50	100	20	ft	""
+wt	wepp-19223	"Apr 24, 2012"	"ECHO PEAK CA SNOTEL"	volcanic	HighFire	0	30	250	45	20	HighFire	30	5	50	45	20	ft	""
+wt	wepp-19243	"Apr 24, 2012"	"ECHO PEAK CA SNOTEL"	volcanic	HighFire	0	30	150	45	20	HighFire	30	5	50	45	20	ft	""
+wt	wepp-19264	"Apr 24, 2012"	"ECHO PEAK CA SNOTEL"	volcanic	HighFire	0	30	150	45	20	LowFire	30	5	50	85	20	ft	""
+wt	wepp-19311	"Apr 24, 2012"	"ECHO PEAK CA SNOTEL"	volcanic	HighFire	10	25	150	45	20	LowFire	25	5	50	85	20	ft	""
+wt	wepp-19331	"Apr 24, 2012"	"ECHO PEAK CA SNOTEL"	volcanic	HighFire	10	25	140	45	20	LowFire	25	5	60	85	20	ft	""
+wt	wepp-19351	"Apr 24, 2012"	"ECHO PEAK CA SNOTEL"	volcanic	HighFire	10	25	130	45	20	LowFire	25	5	70	85	20	ft	""
+wt	wepp-19371	"Apr 24, 2012"	"ECHO PEAK CA SNOTEL"	volcanic	HighFire	10	25	135	45	20	LowFire	25	5	75	85	20	ft	""
+wt	wepp-19391	"Apr 24, 2012"	"ECHO PEAK CA SNOTEL"	volcanic	HighFire	10	24	135	45	20	LowFire	24	5	75	85	20	ft	""
+wt	wepp-19411	"Apr 24, 2012"	"ECHO PEAK CA SNOTEL"	volcanic	HighFire	10	24	135	45	20	LowFire	23	5	75	85	20	ft	""
+wt	wepp-19431	"Apr 24, 2012"	"ECHO PEAK CA SNOTEL"	volcanic	HighFire	10	24	135	45	20	LowFire	23.5	5	75	85	20	ft	""
+wt	wepp-19971	"Apr 24, 2012"	"ECHO PEAK CA SNOTEL"	granitic	HighFire	0	30	150	45	20	LowFire	30	5	50	85	20	ft	""
+wt	wepp-20016	"Apr 24, 2012"	"ECHO PEAK CA SNOTEL"	granitic	HighFire	20	30	150	45	20	LowFire	30	5	50	85	20	ft	""
+wt	wepp-20037	"Apr 24, 2012"	"ECHO PEAK CA SNOTEL"	volcanic	HighFire	20	30	150	45	20	LowFire	30	5	50	85	20	ft	""
+wt	wepp-20057	"Apr 24, 2012"	"ECHO PEAK CA SNOTEL"	volcanic	HighFire	20	25	140	45	20	LowFire	24	5	60	85	20	ft	""
+wt	wepp-20077	"Apr 24, 2012"	"ECHO PEAK CA SNOTEL"	volcanic	HighFire	19	24	140	45	20	LowFire	23	5	60	85	20	ft	""
+wt	wepp-20100	"Apr 24, 2012"	"ECHO PEAK CA SNOTEL"	volcanic	HighFire	19	24	140	45	20	LowFire	22	5	60	85	20	ft	""
+wt	wepp-20127	"Apr 24, 2012"	"ECHO PEAK CA SNOTEL"	volcanic	HighFire	19	24	130	45	20	LowFire	20	5	70	85	20	ft	""
+wt	wepp-20194	"Apr 24, 2012"	"ECHO PEAK CA SNOTEL"	alluvial	HighFire	19	24	130	45	20	LowFire	20	5	70	85	20	ft	""
+wt	wepp-20214	"Apr 24, 2012"	"ECHO PEAK CA SNOTEL"	volcanic	HighFire	20	24	130	45	20	LowFire	20	5	70	85	20	ft	""
+wt	wepp-20239	"Apr 24, 2012"	"ECHO PEAK CA SNOTEL"	volcanic	HighFire	21	25	130	45	20	LowFire	21	5	70	85	20	ft	""
+wt	wepp-20299	"Apr 24, 2012"	"ECHO PEAK CA SNOTEL"	volcanic	HighFire	21	25	135	45	20	LowFire	21	5	65	85	20	ft	""
+wt	wepp-20319	"Apr 24, 2012"	"ECHO PEAK CA SNOTEL"	volcanic	HighFire	21	25	133	45	20	LowFire	21	5	67	85	20	ft	""
+wt	wepp-20339	"Apr 24, 2012"	"ECHO PEAK CA SNOTEL"	volcanic	HighFire	21	25	132	45	20	LowFire	21	5	68	85	20	ft	""
+wt	wepp-20359	"Apr 24, 2012"	"ECHO PEAK CA SNOTEL"	volcanic	HighFire	21	25	132.5	45	20	LowFire	21	5	67.5	85	20	ft	""
+wt	wepp-20379	"Apr 24, 2012"	"ECHO PEAK CA SNOTEL"	volcanic	HighFire	21	25	132.3	45	20	LowFire	21	5	67.7	85	20	ft	""
+wt	wepp-20399	"Apr 24, 2012"	"ECHO PEAK CA SNOTEL"	volcanic	HighFire	21	25	133	45	20	LowFire	21	5	67	85	20	ft	""
+wt	wepp-20421	"Apr 24, 2012"	"ECHO PEAK CA SNOTEL"	volcanic	HighFire	21	24	133	45	20	LowFire	21	5	67	85	20	ft	""
+wt	wepp-20466	"Apr 24, 2012"	"ECHO PEAK CA SNOTEL"	volcanic	HighFire	21	24	133	45	20	LowFire	22	5	67	85	20	ft	""
+wt	wepp-20486	"Apr 24, 2012"	"ECHO PEAK CA SNOTEL"	volcanic	HighFire	21	24	133	45	20	LowFire	21.5	5	67	85	20	ft	""
+wt	wepp-20723	"Apr 24, 2012"	"ECHO PEAK CA SNOTEL"	volcanic	HighFire	21	24	133	45	20	LowFire	21.5	5	67	85	20	ft	""
+wt	wepp-28926	"Apr 25, 2012"	"TALBOTTON GA"	volcanic	HighFire	10.5	12	133	45	20	LowFire	10.75	2.5	67	85	20	ft	""
+wt	wepp-28945	"Apr 25, 2012"	"Goose Ck High Int CO +"	volcanic	HighFire	10.5	12	133	45	20	LowFire	10.75	2.5	67	85	20	ft	""
+wt	wepp-28984	"Apr 25, 2012"	"ECHO PEAK CA SNOTEL"	volcanic	HighFire	10.5	12	133	45	20	LowFire	10.75	2.5	67	85	20	ft	""
+wt	wepp-29073	"Apr 25, 2012"	"TALBOTTON GA"	granitic	OldForest	0	30	50	100	20	YoungForest	30	5	50	100	20	ft	""
+wt	wepp-29199	"Apr 25, 2012"	"ECHO PEAK CA SNOTEL"	volcanic	HighFire	21	24	133	45	20	LowFire	21.5	5	67	85	20	ft	""
+wt	wepp-29223	"Apr 25, 2012"	"ECHO PEAK CA SNOTEL"	volcanic	HighFire	21	24	133	45	20	LowFire	21.5	5	67	85	20	ft	""
+wt	wepp-29243	"Apr 25, 2012"	"ECHO PEAK CA SNOTEL"	volcanic	HighFire	21	24	133	45	20	LowFire	21.5	5	67	85	20	ft	""
+wt	wepp-29290	"Apr 25, 2012"	"ECHO PEAK CA SNOTEL"	volcanic	HighFire	11.5	12	133	45	20	LowFire	10.75	2.5	67	85	20	ft	""
+wt	wepp-29493	"Apr 25, 2012"	"ECHO PEAK CA SNOTEL"	volcanic	OldForest	21	24	50	100	20	OldForest	21.5	5	50	100	20	ft	""
+wt	wepp-29513	"Apr 25, 2012"	"ECHO PEAK CA SNOTEL"	volcanic	OldForest	21	24	50	100	20	OldForest	21.5	5	50	100	20	ft	""
+wt	wepp-31113	"Apr 25, 2012"	"ECHO PEAK CA SNOTEL"	volcanic	HighFire	21	24	133	45	20	LowFire	21.5	5	67	85	20	ft	""
+wt	wepp-31746	"Apr 25, 2012"	"ECHO PEAK CA SNOTEL"	granitic	HighFire	0	30	166	45	20	LowFire	30	5	50	85	20	ft	""
+wt	wepp-31793	"Apr 25, 2012"	"ECHO PEAK CA SNOTEL"	volcanic	HighFire	0	30	166	45	20	LowFire	30	5	50	85	20	ft	""
+wt	wepp-24511	"Apr 27, 2012"	"ECHO PEAK CA SNOTEL"	granitic	LowFire	0	30	50	85	20	LowFire	30	5	50	85	20	ft	""
+wt	wepp-24607	"Apr 27, 2012"	"ECHO PEAK CA SNOTEL"	granitic	LowFire	0	30	250	85	20	LowFire	30	5	50	85	20	ft	""
+WD	wepp-17480	"12:27 pm  Thursday May 3, 2012"	"Goose Ck High Int CO +"	50	silt	OldForest	5	43	46	100	20	OldForest	5	46	37	100	20	0	ft	"1"
+WD	wepp-17505	"12:27 pm  Thursday May 3, 2012"	"Goose Ck High Int CO +"	50	silt	OldForest	10	43	46	100	20	OldForest	10	46	37	100	20	0	ft	"2"
+WD	wepp-17519	"12:27 pm  Thursday May 3, 2012"	"Goose Ck High Int CO +"	50	silt	OldForest	20	43	46	100	20	OldForest	20	46	37	100	20	0	ft	"3"
+WD	wepp-17535	"12:27 pm  Thursday May 3, 2012"	"Goose Ck High Int CO +"	50	silt	OldForest	50	43	46	100	20	OldForest	50	46	37	100	20	0	ft	"4"
+WD	wepp-17548	"12:27 pm  Thursday May 3, 2012"	"Goose Ck High Int CO +"	50	silt	OldForest	75	43	46	100	20	OldForest	75	46	37	100	20	0	ft	"5"
+WD	wepp-17562	"12:27 pm  Thursday May 3, 2012"	"Goose Ck High Int CO +"	50	silt	OldForest	100	43	46	100	20	OldForest	100	46	37	100	20	0	ft	"6"
+WD	wepp-17575	"12:27 pm  Thursday May 3, 2012"	"Goose Ck High Int CO +"	50	silt	OldForest	125	43	46	100	20	OldForest	125	46	37	100	20	0	ft	"7"
+WD	wepp-17590	"12:27 pm  Thursday May 3, 2012"	"Goose Ck High Int CO +"	50	silt	OldForest	150	43	46	100	20	OldForest	150	46	37	100	20	0	ft	"8"
+WD	wepp-17603	"12:28 pm  Thursday May 3, 2012"	"Goose Ck High Int CO +"	50	silt	OldForest	200	43	46	100	20	OldForest	200	46	37	100	20	0	ft	"9"
+WD	wepp-17617	"12:28 pm  Thursday May 3, 2012"	"Goose Ck High Int CO +"	50	silt	OldForest	250	43	46	100	20	OldForest	250	46	37	100	20	0	ft	"10"
+WD	wepp-17631	"12:28 pm  Thursday May 3, 2012"	"Goose Ck High Int CO +"	50	silt	OldForest	300	43	46	100	20	OldForest	300	46	37	100	20	0	ft	"11"
+WD	wepp-17645	"12:28 pm  Thursday May 3, 2012"	"Goose Ck High Int CO +"	50	silt	OldForest	400	43	46	100	20	OldForest	400	46	37	100	20	0	ft	"12"
+WD	wepp-17658	"12:28 pm  Thursday May 3, 2012"	"Goose Ck High Int CO +"	50	silt	OldForest	500	43	46	100	20	OldForest	500	46	37	100	20	0	ft	"13"
+WD	wepp-17779	"12:29 pm  Thursday May 3, 2012"	"CedarThom, MT +"	50	silt	OldForest	5	43	46	100	20	OldForest	5	46	37	100	20	0	ft	"1"
+WD	wepp-17806	"12:29 pm  Thursday May 3, 2012"	"CedarThom, MT +"	50	silt	OldForest	10	43	46	100	20	OldForest	10	46	37	100	20	0	ft	"2"
+WD	wepp-17827	"12:30 pm  Thursday May 3, 2012"	"CedarThom, MT +"	50	silt	OldForest	20	43	46	100	20	OldForest	20	46	37	100	20	0	ft	"3"
+WD	wepp-17869	"12:30 pm  Thursday May 3, 2012"	"CedarThom, MT +"	50	silt	OldForest	50	43	46	100	20	OldForest	50	46	37	100	20	0	ft	"4"
+WD	wepp-17883	"12:30 pm  Thursday May 3, 2012"	"CedarThom, MT +"	50	silt	OldForest	75	43	46	100	20	OldForest	75	46	37	100	20	0	ft	"5"
+WD	wepp-17898	"12:30 pm  Thursday May 3, 2012"	"CedarThom, MT +"	50	silt	OldForest	100	43	46	100	20	OldForest	100	46	37	100	20	0	ft	"6"
+WD	wepp-17912	"12:30 pm  Thursday May 3, 2012"	"CedarThom, MT +"	50	silt	OldForest	125	43	46	100	20	OldForest	125	46	37	100	20	0	ft	"7"
+WD	wepp-17927	"12:30 pm  Thursday May 3, 2012"	"CedarThom, MT +"	50	silt	OldForest	150	43	46	100	20	OldForest	150	46	37	100	20	0	ft	"8"
+WD	wepp-17940	"12:30 pm  Thursday May 3, 2012"	"CedarThom, MT +"	50	silt	OldForest	200	43	46	100	20	OldForest	200	46	37	100	20	0	ft	"9"
+WD	wepp-17955	"12:30 pm  Thursday May 3, 2012"	"CedarThom, MT +"	50	silt	OldForest	250	43	46	100	20	OldForest	250	46	37	100	20	0	ft	"10"
+WD	wepp-17969	"12:30 pm  Thursday May 3, 2012"	"CedarThom, MT +"	50	silt	OldForest	300	43	46	100	20	OldForest	300	46	37	100	20	0	ft	"11"
+WD	wepp-17984	"12:30 pm  Thursday May 3, 2012"	"CedarThom, MT +"	50	silt	OldForest	400	43	46	100	20	OldForest	400	46	37	100	20	0	ft	"12"
+WD	wepp-17999	"12:31 pm  Thursday May 3, 2012"	"CedarThom, MT +"	50	silt	OldForest	500	43	46	100	20	OldForest	500	46	37	100	20	0	ft	"13"
+wt	wepp-28564	"May 3, 2012"	"ECHO PEAK CA SNOTEL"	volcanic	OldForest	0	30	50	100	20	OldForest	30	5	50	100	20	ft	""
+wt	wepp-28584	"May 3, 2012"	"ECHO PEAK CA SNOTEL"	volcanic	OldForest	0	30	250	100	20	OldForest	30	5	50	100	20	ft	""
+wt	wepp-28623	"May 3, 2012"	"ECHO PEAK CA SNOTEL"	volcanic	LowFire	0	30	250	85	20	OldForest	30	5	50	100	20	ft	""
+wt	wepp-28710	"May 3, 2012"	"ECHO PEAK CA SNOTEL"	volcanic	HighFire	0	30	250	45	20	LowFire	30	5	50	85	20	ft	""
+wt	wepp-18670	"May 7, 2012"	"RUBICON #2 CA SNOTEL"	volcanic	Sod	35	35	50	40	10	Sod	35	35	50	40	10	ft	""
+wt	wepp-18709	"May 7, 2012"	"RUBICON #2 CA SNOTEL"	volcanic	Sod	35	35	50	40	10	Sod	35	35	50	40	10	ft	""
+wt	wepp-18756	"May 7, 2012"	"RUBICON #2 CA SNOTEL"	volcanic	Sod	35	35	50	40	10	Sod	35	35	50	40	10	ft	""
+wt	wepp-18775	"May 7, 2012"	"RUBICON #2 CA SNOTEL"	volcanic	Sod	35	35	50	40	10	Sod	35	20	50	40	10	ft	""
+wt	wepp-18795	"May 7, 2012"	"RUBICON #2 CA SNOTEL"	volcanic	Sod	35	35	50	40	10	Sod	35	35	50	40	10	ft	""
+wt	wepp-18863	"May 7, 2012"	"RUBICON #2 CA SNOTEL"	volcanic	Sod	35	35	50	40	10	Sod	35	35	50	40	10	ft	""
+wt	wepp-19001	"May 7, 2012"	"RUBICON #2 CA SNOTEL"	alluvial	Sod	20	20	50	40	10	Sod	20	20	50	40	10	ft	""
+wt	wepp-19048	"May 7, 2012"	"RUBICON #2 CA SNOTEL"	alluvial	Sod	20	20	50	40	10	Sod	20	20	50	40	10	ft	""
+wt	wepp-19068	"May 7, 2012"	"RUBICON #2 CA SNOTEL"	alluvial	Sod	29	29	50	40	10	Sod	29	29	50	40	10	ft	""
+wt	wepp-19088	"May 7, 2012"	"RUBICON #2 CA SNOTEL"	alluvial	Sod	30	30	50	40	10	Sod	30	30	50	40	10	ft	""
+wt	wepp-19542	"May 7, 2012"	"RUBICON #2 CA SNOTEL"	alluvial	YoungForest	35	35	500	85	10	Sod	35	35	50	40	10	ft	""
+wt	wepp-19846	"May 7, 2012"	"RUBICON #2 CA SNOTEL"	volcanic	OldForest	20	20	500	100	20	OldForest	20	20	500	100	20	ft	""
+wt	wepp-19865	"May 7, 2012"	"RUBICON #2 CA SNOTEL"	volcanic	OldForest	20	20	500	100	20	OldForest	20	20	500	100	20	ft	""
+wt	wepp-19892	"May 7, 2012"	"RUBICON #2 CA SNOTEL"	volcanic	OldForest	20	20	1000	100	20	OldForest	20	20	1000	100	20	ft	""
+wt	wepp-19912	"May 7, 2012"	"RUBICON #2 CA SNOTEL"	volcanic	OldForest	20	20	1000	100	20	OldForest	20	20	1000	100	20	ft	""
+wt	wepp-19932	"May 7, 2012"	"RUBICON #2 CA SNOTEL"	alluvial	OldForest	20	20	1000	100	20	OldForest	20	20	1000	100	20	ft	""
+wt	wepp-19952	"May 7, 2012"	"RUBICON #2 CA SNOTEL"	alluvial	OldForest	35	35	1000	100	20	OldForest	35	35	1000	100	20	ft	""
+wt	wepp-20000	"May 7, 2012"	"RUBICON #2 CA SNOTEL"	alluvial	OldForest	20	20	1000	100	20	OldForest	20	20	1000	100	20	ft	""
+wt	wepp-20021	"May 7, 2012"	"RUBICON #2 CA SNOTEL"	alluvial	YoungForest	20	20	1000	85	20	OldForest	20	20	1000	100	20	ft	""
+wt	wepp-20461	"May 7, 2012"	"ECHO PEAK CA SNOTEL"	volcanic	YoungForest	20	30	250	85	20	Sod	20	10	50	40	20	ft	""
+wt	wepp-20489	"May 7, 2012"	"TAHOE CITY CROSS CA SNOTEL"	volcanic	YoungForest	20	30	50	85	20	Sod	20	5	50	40	20	ft	""
+wt	wepp-20583	"May 7, 2012"	"TAHOE CITY CROSS CA SNOTEL"	volcanic	OldForest	20	30	250	100	20	OldForest	20	5	50	100	20	ft	""
+wt	wepp-20603	"May 7, 2012"	"TAHOE CITY CROSS CA SNOTEL"	volcanic	YoungForest	20	30	250	85	20	Sod	20	5	50	40	20	ft	""
+wt	wepp-31442	"May 8, 2012"	"RUBICON #2 CA SNOTEL"	volcanic	LowFire	0	30	250	85	20	YoungForest	30	5	50	100	20	ft	""
+wt	wepp-929	"May 8, 2012"	"RUBICON #2 CA SNOTEL"	volcanic	LowFire	0	30	250	85	20	YoungForest	30	5	50	100	20	ft	""
+wt	wepp-968	"May 8, 2012"	"RUBICON #2 CA SNOTEL"	volcanic	HighFire	0	30	250	45	20	LowFire	30	5	50	85	20	ft	""
+WR	wepp-620	"02:27 pm  Thursday May 10, 2012"	"HEAVENLY VALLEY CA"	30	sand	native	200	4	13	15	50	130	25	20	inveg	ft
+wt	wepp-13121	"May 11, 2012"	"ECHO PEAK CA SNOTEL"	volcanic	HighFire	0	30	250	45	20	LowFire	30	5	50	85	20	ft	""
+wt	wepp-13141	"May 11, 2012"	"ECHO PEAK CA SNOTEL"	volcanic	YoungForest	0	30	250	100	20	OldForest	30	5	50	100	20	ft	""
+wt	wepp-14274	"May 11, 2012"	"RUBICON #2 CA SNOTEL"	granitic	OldForest	0	30	50	85	20	YoungForest	30	5	50	100	20	ft	""
+wt	wepp-14293	"May 11, 2012"	"ECHO PEAK CA SNOTEL"	volcanic	YoungForest	20	30	50	85	20	OldForest	30	15	50	100	20	ft	""
+wt	wepp-14313	"May 11, 2012"	"ECHO PEAK CA SNOTEL"	volcanic	YoungForest	20	30	250	85	20	OldForest	30	15	50	100	20	ft	""
+wt	wepp-14333	"May 11, 2012"	"ECHO PEAK CA SNOTEL"	volcanic	LowFire	20	30	250	85	20	OldForest	30	15	50	100	20	ft	""
+wt	wepp-14448	"May 11, 2012"	"ECHO PEAK CA SNOTEL"	volcanic	LowFire	20	30	250	85	20	OldForest	30	15	50	100	20	ft	""
+wt	wepp-16987	"May 11, 2012"	"ECHO PEAK CA SNOTEL"	volcanic	LowFire	20	30	250	85	20	YoungForest	30	15	50	100	20	ft	""
+WR	wepp-18674	"01:35 pm  Monday May 14, 2012"	"Rock Creek MT +"	30	sand	native	200	4	13	15	50	130	25	20	inveg	ft
+wt	wepp-30933	"May 15, 2012"	"RUBICON #2 CA SNOTEL"	granitic	OldForest	0	30	50	100	20	YoungForest	30	5	50	100	20	ft	""
+wt	wepp-31031	"May 15, 2012"	"ECHO PEAK CA SNOTEL"	volcanic	LowFire	20	30	250	85	20	YoungForest	40	20	50	100	20	ft	""
+WW	wepp-31329	"11:20 am  Tuesday May 15, 2012"	"ECHO PEAK CA SNOTEL"	sand	low	76.219512195122	20	30	85	20	15	tree5	15.2439024390244	40	20	100	20	15	restricted	"decomposed granite"	25	1.42E-02	ft
+WW	wepp-31402	"11:22 am  Tuesday May 15, 2012"	"ECHO PEAK CA SNOTEL"	sand	low	76.219512195122	20	30	85	20	15	tree5	15.2439024390244	40	20	100	20	15		""	1	0	ft

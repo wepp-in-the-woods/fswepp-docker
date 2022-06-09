@@ -1,0 +1,72 @@
+#this files was modified by filegenwhrm.pl on: Wednesday, March 16, 2005.
+#taxgroup Small Mammals species Red-tailed chipmunk /  Tamias ruficaudus
+#
+# Rank
+3,2,1,3,1
+# Nestsite
+8,1:13,1:24,1:25,1
+# Reprorank
+1,-99:1,-99:1,-99:1,-99
+# Foraging Habitat
+8,1:13,1
+# Habitatrank
+1,-99:1,-99
+# Forage/Prey Availability
+3,1:4,1:24,1:25,1
+# Preyrank
+3,-99:2,-99:1,-99:1,-99
+# Predator Avoidance
+8,1:13,1
+# Avoidrank
+1,-99:1,-99
+# Refugia/Shelter
+8,1:13,1
+# Shelterrank
+1,-99:1,-99
+# Coverrank
+1,-99:1,-99
+# Literature
+Distribution
+northeast Washington, northern Idaho, western Montana; north into southern British Columbia
+General Habitat
+moist forests; high elevation, closed canopy; talus slides
+Home or Activity Range
+no information available
+Canopy Cover
+no information available
+Specific Habitat Preferences
+gaps and small openings where shrubs occur
+Nestsite Characteristics
+downed wood and snags; use burrows but move young to tree nest before weaning
+Foraging Habitat Characteristics
+foraging takes place in trees as well as on the ground
+Diet
+fruits and seeds from conifers, shrubs, herbs and grasses
+Predators
+weasels, marten, coyote, red fox, bobcat, Accipiter species, Corvids
+Shelter Habitats
+downed wood and snags
+Response to Disturbance
+decreased in abundance one year after overstory removal and new forestry harvest techniques (Shepherd 1994)
+Sources of Information used in the Model
+Reynolds et al. 1992, Shepherd 1994, Bennet 1999
+General Sources of Background Information
+Burt 1980, reviewed in Reynolds et al. 1992, Shepherd 1994, Bennet 1999, reviewed in O'Neil et al. 2001
+Summaries of Specific Studies
+Bennet, Ron. 1999. Status of the red-tailed chipmunk (Tamias ruficaudus) in Alberta. Alberta Environmental Protection, Fisheries, and Wildlife Management Division, and Alberta Conservation Association, Wildlife Status Report No. 19, Edmonton, AB. 15 pp.
+
+Study Location: Alberta
+Habitat Description: conifer forests- variety included
+Summary: Red-tailed chipmunks prefer mature conifer forests with a well-developed shrub and bear grass understory. In Alberta, they were detected in closed to open structure fir, stunted larch-fir, open stunted fir, open fir-larch-whitebark pine, and occasionally open lodgepole. They also appear to prefer forest openings and edges. Large conifers are used for nest sites and produce seeds for food. Shrubs and herbs are also important food resources. 
+
+Reynolds, Richard T.; Graham, Russell T.; Reiser, M. Hildegard, Bassett, Richard L.; Kennedy, Patricia L.; Boyce, Douglas A.; Goodwin, Greg; Smith, Randall; Fisher, E. Leon. 1992. Management recommendations for the Northern Goshawk in the southwestern United States. Gen. Tech. Rep. RM-217. Fort Collins, CO: USDA, Forest Service, Rocky Mountain Forest and Range Experiment Station. 90 p.
+
+Study Location: review
+Habitat Description: review
+Summary: Habitat needs of a variety of northern goshawk prey are identified by a literature review. Management recommendations are made in regard to nesting, foraging, and other life history attributes.
+
+Shepard, Jay F. 1994. Initial response of small mammals to new forestry and overstory removal timber harvests. Missoula, MT: University of Montana. 84 p. M.S. Thesis.
+
+Study Location: northwest Montana
+Habitat Description: PSME-dominated; also included PICO, ABLA, ABGR, PIEN, PIPO
+Summary: The initial responses of small mammals to overstory removal and new forestry techniques were monitored in western Montana. Treatments affected large tree density but not vegetative cover or density of small trees. There was no significant treatment effect on any small mammal species, but trends in abundance were apparent; red-tailed chipmunks appeared to decline while yellow pine chipmunks and red-backed voles increased in response to harvest. Habitat associations were examined for some species pre- and post- harvest. The use of riparian buffers was also investigated, with use of buffers higher than expected in overstory removal grids and use of upland rows higher than expected in control grids.

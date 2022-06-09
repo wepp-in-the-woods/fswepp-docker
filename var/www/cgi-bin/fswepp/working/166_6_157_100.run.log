@@ -1,0 +1,50 @@
+WE	wepp-138550	"05:36 pm  Sunday August 30, 2015"	"Cornet Fire - Stices +"	silt	20	forest	0	35	10	500	l			ft
+WE	wepp-138716	"05:39 pm  Sunday August 30, 2015"	"Cornet Fire - Stices +"	silt	20	forest	0	35	20	500	l			ft
+WE	wepp-138860	"05:39 pm  Sunday August 30, 2015"	"Cornet Fire - Stices +"	silt	20	forest	0	35	10	500	l			ft
+WE	wepp-139017	"05:40 pm  Sunday August 30, 2015"	"Cornet Fire - Stices +"	silt	20	forest	0	35	10	500	l			ft
+WE	wepp-139162	"05:41 pm  Sunday August 30, 2015"	"Cornet Fire - Stices +"	silt	20	forest	0	35	15	500	l			ft
+WE	wepp-139311	"05:43 pm  Sunday August 30, 2015"	"Cornet Fire - Stices +"	silt	20	forest	0	45	15	500	l			ft
+WE	wepp-139469	"05:45 pm  Sunday August 30, 2015"	"Cornet Fire - Stices +"	silt	20	forest	0	55	15	500	l			ft
+WE	wepp-139616	"05:47 pm  Sunday August 30, 2015"	"Cornet Fire - Stices +"	silt	20	forest	0	65	15	500	l			ft
+WE	wepp-139762	"05:48 pm  Sunday August 30, 2015"	"Cornet Fire - Stices +"	silt	20	forest	0	65	30	500	l			ft
+WE	wepp-140169	"05:55 pm  Sunday August 30, 2015"	"Cornet Fire - Stices +"	silt	20	forest	0	35	10	500	l			ft
+WE	wepp-140317	"05:56 pm  Sunday August 30, 2015"	"Cornet Fire - Stices +"	silt	20	forest	0	45	15	500	l			ft
+WE	wepp-140467	"05:58 pm  Sunday August 30, 2015"	"Cornet Fire - Stices +"	silt	20	forest	0	55	20	500	l			ft
+WE	wepp-140624	"05:59 pm  Sunday August 30, 2015"	"Cornet Fire - Stices +"	silt	20	forest	0	65	25	500	l			ft
+WE	wepp-140776	"06:00 pm  Sunday August 30, 2015"	"Cornet Fire - Stices +"	silt	20	forest	0	75	30	500	l			ft
+WE	wepp-140946	"06:01 pm  Sunday August 30, 2015"	"Cornet Fire - Stices +"	silt	20	forest	0	35	10	500	m			ft
+WE	wepp-141134	"06:03 pm  Sunday August 30, 2015"	"Cornet Fire - Stices +"	silt	20	forest	0	45	15	500	m			ft
+WE	wepp-141342	"06:04 pm  Sunday August 30, 2015"	"Cornet Fire - Stices +"	silt	20	forest	0	55	20	500	m			ft
+WD	wepp-141547	"06:07 pm  Sunday August 30, 2015"	"Cornet Fire - Stices +"	10	silt	LowFire	250	0	35	85	20	LowFire	250	35	10	85	20	0	ft	""
+WE	wepp-141590	"06:08 pm  Sunday August 30, 2015"	"Cornet Fire - Stices +"	silt	20	forest	0	65	25	500	m			ft
+WE	wepp-141835	"06:10 pm  Sunday August 30, 2015"	"Cornet Fire - Stices +"	silt	20	forest	0	75	30	500	m			ft
+WE	wepp-142025	"06:12 pm  Sunday August 30, 2015"	"Cornet Fire - Stices +"	silt	20	forest	0	35	10	500	h			ft
+WE	wepp-142309	"06:13 pm  Sunday August 30, 2015"	"Cornet Fire - Stices +"	silt	20	forest	0	35	10	750	h			ft
+WE	wepp-142534	"06:14 pm  Sunday August 30, 2015"	"Cornet Fire - Stices +"	silt	20	forest	0	75	30	750	m			ft
+WE	wepp-142941	"06:22 pm  Sunday August 30, 2015"	"Cornet Fire - Stices +"	silt	20	forest	0	75	30	500	h			ft
+WE	wepp-143204	"06:23 pm  Sunday August 30, 2015"	"Cornet Fire - Stices +"	silt	20	forest	0	35	10	500	h			ft
+WE	wepp-143441	"06:25 pm  Sunday August 30, 2015"	"Cornet Fire - Stices +"	silt	20	forest	0	45	15	500	h			ft
+WE	wepp-143670	"06:26 pm  Sunday August 30, 2015"	"Cornet Fire - Stices +"	silt	20	forest	0	55	20	500	h			ft
+WE	wepp-143940	"06:27 pm  Sunday August 30, 2015"	"Cornet Fire - Stices +"	silt	20	forest	0	65	25	500	h			ft
+WD	wepp-170992	"03:10 pm  Monday August 31, 2015"	"Cornet Fire - Stices +"	10	silt	HighFire	250	0	30	25	20	HighFire	250	25	5	25	20	0	ft	""
+WD	wepp-171237	"03:13 pm  Monday August 31, 2015"	"Cornet Fire - Stices +"	10	silt	HighFire	500	0	30	25	20	HighFire	250	25	5	25	20	0	ft	""
+WD	wepp-171286	"03:14 pm  Monday August 31, 2015"	"Cornet Fire - Stices +"	10	silt	HighFire	250	0	30	25	20	HighFire	250	25	5	25	20	0	ft	""
+WD	wepp-171369	"03:15 pm  Monday August 31, 2015"	"Cornet Fire - Stices +"	10	silt	HighFire	500	0	30	25	20	HighFire	250	25	5	25	20	0	ft	""
+WD	wepp-171480	"03:17 pm  Monday August 31, 2015"	"Cornet Fire - Stices +"	10	silt	HighFire	500	0	30	25	20	Sod	250	25	5	40	20	0	ft	""
+WD	wepp-171550	"03:19 pm  Monday August 31, 2015"	"Cornet Fire - Stices +"	10	silt	HighFire	500	0	30	25	20	Bunchgrass	250	25	5	60	20	0	ft	""
+WD	wepp-171664	"03:21 pm  Monday August 31, 2015"	"Cornet Fire - Stices +"	10	silt	HighFire	500	0	40	15	20	HighFire	250	35	10	15	20	0	ft	""
+WD	wepp-171730	"03:22 pm  Monday August 31, 2015"	"Cornet Fire - Stices +"	10	silt	HighFire	500	0	40	15	20	Bunchgrass	250	35	10	60	20	0	ft	""
+WD	wepp-171792	"03:23 pm  Monday August 31, 2015"	"Cornet Fire - Stices +"	10	silt	HighFire	500	0	30	15	20	Bunchgrass	250	25	5	60	20	0	ft	""
+WD	wepp-171844	"03:24 pm  Monday August 31, 2015"	"Cornet Fire - Stices +"	10	silt	HighFire	500	0	30	15	20	HighFire	250	25	5	15	20	0	ft	""
+WD	wepp-171911	"03:25 pm  Monday August 31, 2015"	"Cornet Fire - Stices +"	10	silt	HighFire	500	0	30	15	20	Bunchgrass	250	25	5	60	20	0	ft	""
+WD	wepp-171968	"03:26 pm  Monday August 31, 2015"	"Cornet Fire - Stices +"	10	silt	HighFire	500	0	50	15	20	HighFire	250	45	15	15	20	0	ft	""
+WD	wepp-172020	"03:27 pm  Monday August 31, 2015"	"Cornet Fire - Stices +"	10	silt	HighFire	500	0	50	15	20	Bunchgrass	250	45	15	60	20	0	ft	""
+WD	wepp-172072	"03:28 pm  Monday August 31, 2015"	"Cornet - Mill Creek +"	10	silt	HighFire	500	0	50	15	20	Bunchgrass	250	45	15	60	20	0	ft	""
+WD	wepp-172128	"03:28 pm  Monday August 31, 2015"	"Cornet - Mill Creek +"	10	silt	HighFire	500	0	50	15	20	HighFire	250	45	15	15	20	0	ft	""
+WD	wepp-172202	"03:30 pm  Monday August 31, 2015"	"Cornet - Mill Creek +"	10	silt	HighFire	500	0	50	15	20	Bunchgrass	250	45	15	60	20	0	ft	""
+WD	wepp-172259	"03:31 pm  Monday August 31, 2015"	"Cornet - Mill Creek +"	10	silt	HighFire	500	0	40	15	20	Bunchgrass	250	35	10	60	20	0	ft	""
+WD	wepp-172316	"03:31 pm  Monday August 31, 2015"	"Cornet - Mill Creek +"	10	silt	HighFire	500	0	40	15	20	HighFire	250	35	10	15	20	0	ft	""
+WD	wepp-172373	"03:32 pm  Monday August 31, 2015"	"Cornet - Mill Creek +"	10	silt	HighFire	500	0	30	15	20	HighFire	250	25	5	15	20	0	ft	""
+WD	wepp-172423	"03:33 pm  Monday August 31, 2015"	"Cornet - Mill Creek +"	10	silt	HighFire	500	0	30	15	20	Bunchgrass	250	25	5	60	20	0	ft	""
+WE	wepp-173505	"03:56 pm  Monday August 31, 2015"	"Cornet - Mill Creek +"	silt	20	forest	0	50	15	750	h			ft
+WD	wepp-163070	"12:13 pm  Monday November 9, 2015"	"Cornet - Mill Creek +"	10	silt	HighFire	500	0	50	15	20	Bunchgrass	150	45	15	60	20	0	ft	""

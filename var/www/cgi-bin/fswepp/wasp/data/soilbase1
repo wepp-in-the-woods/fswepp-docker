@@ -1,0 +1,77 @@
+# Soil parameter database for WoLF, 1 layer - modified WJE 28 April 2009 for WASP
+#
+#  Sandy Loams
+#
+'skid'	'sandy loam'	1	0.2	0.75	400000	0.0005	1	10
+depth	55	10	5	15
+'HIGH'	'sandy loam'	1	0.1	0.75	400000	0.0007	1	16
+depth	55	10	5	15
+'LOW'	'sandy loam'	1	0.15	0.75	400000	0.0006	1 	25
+depth	55	10	5	15
+'SHORT'	'sandy loam'	1	0.15	0.75	400000	0.0005	1	25
+depth	55	10	5	15
+'TALL'	'sandy loam'	1	0.15	0.75	400000	0.0005	1	31
+depth	55	10	5	15
+'shrub'	'sandy loam'	1	0.15	0.75	400000	0.0005	1	35
+depth	55	10	5	15
+'Forest' 'sandy loam'	1	0.06	0.5	400000	0.0005	1	40
+depth	55	10	5	15
+'Forest' 'sandy loam'	1	0.06	0.5	400000	0.0005	1	42
+depth	55	10	5	15
+#
+#  Silt Loams
+#
+'skid'	'silt loam'	1	0.2	0.75	1000000	0.0004	0.5	 6
+depth	25	15	5	15
+'HIGH'	'silt loam'	1	0.1	0.75	1000000	0.0006	0.5	10
+depth	25	15	5	15
+'LOW'	'silt loam'	1	0.15	0.75	1000000	0.0005	0.5 	11
+depth	25	15	5	15
+'SHORT'	'silt loam'	1	0.15	0.75	1000000	0.0004	0.5	13
+depth	25	15	5	15
+'TALL'	'silt loam'	1	0.15	0.75	1000000	0.0004	0.5	17
+depth	25	15	5	15
+'shrub'	'silt loam'	1	0.15	0.75	1000000	0.0004	0.5	18
+depth	25	15	5	15
+'Forest' 'silt loam'	1	0.06	0.5	1000000	0.0004	0.5	23
+depth	25	15	5	15
+'Forest' 'silt loam'	1	0.06	0.5	1000000	0.0004	0.5	28
+depth	25	15	5	15
+#
+#  Clay Loams
+#
+'skid'	'clay loam'	1	0.2	0.75	1500000	0.0002	1	6
+depth	25	30	5	25
+'HIGH'	'clay loam'	1	0.1	0.75	1500000	0.0003	1	14
+depth	25	30	5	25
+'LOW'	'clay loam'	1	0.15	0.75	1500000	0.00025	1  	18
+depth	25	30	5	25
+'SHORT'	'clay loam'	1	0.15	0.75	1500000	0.0002	1 	18
+depth	25	30	5	25
+'TALL'	'clay loam'	1	0.15	0.75	1500000	0.0002	1	24
+depth	25	30	5	25
+'shrub'	'clay loam'	1	0.15	0.75	1500000	0.0002	1	28
+depth	25	30	5	25
+'Forest' 'clay loam'	1	0.06	0.5	400000	0.0002	1	33
+depth	25	30	5	25
+'Forest' 'clay loam'	1	0.06	0.5	400000	0.0002	1	35
+depth	25	30	5	25
+#
+#  Loams
+#
+'skid'	'loam'		1	0.2	0.75	1000000	0.0003	1	8
+depth	45	20	5	20
+'HIGH'	'loam'		1	0.1	0.75	1000000	0.0005	1	15
+depth	45	20	5	20
+'LOW'	'loam'		1	0.15	0.75	1000000	0.0004	1 	23
+depth	45	20	5	20
+'SHORT'	'loam'		1	0.15	0.75	1000000	0.0003	1	23
+depth	45	20	5	20
+'TALL'	'loam'		1	0.15	0.75	1000000	0.0003	1	30
+depth	45	20	5	20
+'shrub'	'loam'		1	0.15	0.75	1000000	0.0003	1	31
+depth	45	20	5	20
+'Forest' 'loam'		1	0.06	0.5	400000	0.0003	1	36
+depth	45	20	5	20
+'Forest' 'loam'		1	0.06	0.5	400000	0.0003	1	38
+depth	45	20	5	20

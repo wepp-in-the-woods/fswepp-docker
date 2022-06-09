@@ -1,0 +1,21 @@
+WR	wepp-240857	"12:42 pm  Tuesday May 3, 2022"	"SAINT MARIES 2 +"	30	silt	graveled	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-240956	"12:44 pm  Tuesday May 3, 2022"	"SAINT MARIES 2 +"	30	silt	graveled	200	4	13	15	50	1	25	20	inveg	ft
+WR	wepp-241073	"12:49 pm  Tuesday May 3, 2022"	"SAINT MARIES 2 +"	30	silt	graveled	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-241174	"12:50 pm  Tuesday May 3, 2022"	"SAINT MARIES 2 +"	30	silt	paved	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-241220	"12:51 pm  Tuesday May 3, 2022"	"SAINT MARIES 2 +"	30	silt	graveled	200	4	13	15	50	1	25	20	outunrut	ft
+WR	wepp-241473	"12:54 pm  Tuesday May 3, 2022"	"HW  +"	30	silt	graveled	200	4	13	15	50	1	25	20	inveg	ft
+WR	wepp-241481	"12:54 pm  Tuesday May 3, 2022"	"HW  +"	30	silt	graveled	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-241522	"12:55 pm  Tuesday May 3, 2022"	"HW  +"	30	silt	paved	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-241595	"12:55 pm  Tuesday May 3, 2022"	"HW  +"	30	silt	graveled	200	4	13	15	50	1	25	20	outunrut	ft
+WR	wepp-241650	"12:57 pm  Tuesday May 3, 2022"	"HW  +"	30	silt	graveled	200	4	13	15	50	1	25	20	inveg	ft
+WR	wepp-241687	"12:57 pm  Tuesday May 3, 2022"	"HW  +"	30	silt	graveled	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-241724	"12:57 pm  Tuesday May 3, 2022"	"HW  +"	30	silt	paved	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-241811	"12:58 pm  Tuesday May 3, 2022"	"HW  +"	30	silt	graveled	200	4	13	15	50	1	25	20	outunrut	ft
+WR	wepp-241899	"12:59 pm  Tuesday May 3, 2022"	"HW  + +"	30	silt	paved	200	4	13	15	50	1	25	20	inbare	ft
+WD	wepp-242589	"01:17 pm  Tuesday May 3, 2022"	"HW  +"	10	silt	OldForest	400	0	30	100	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-242656	"01:18 pm  Tuesday May 3, 2022"	"HW  +"	10	silt	Sod	400	0	30	40	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-242852	"01:20 pm  Tuesday May 3, 2022"	"HW  +"	10	silt	Sod	400	0	30	40	20	OldForest	30	30	5	100	20	0	ft	""
+WD	wepp-242994	"01:22 pm  Tuesday May 3, 2022"	"HW  +"	10	silt	LowFire	400	0	30	85	20	LowFire	75	30	5	85	20	0	ft	""
+WD	wepp-243068	"01:23 pm  Tuesday May 3, 2022"	"HW  +"	10	silt	HighFire	400	0	30	45	20	HighFire	75	30	5	45	20	0	ft	""
+WD	wepp-243113	"01:24 pm  Tuesday May 3, 2022"	"HW  +"	10	silt	HighFire	400	0	30	20	20	HighFire	75	30	5	20	20	0	ft	""
+WD	wepp-243350	"01:28 pm  Tuesday May 3, 2022"	"HW  +"	10	silt	YoungForest	250	0	30	100	20	HighFire	75	30	5	45	20	0	ft	""

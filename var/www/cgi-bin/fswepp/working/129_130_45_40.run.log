@@ -1,0 +1,19 @@
+WR	wepp-30255	"04:18 pm  Monday March 10, 2014"	"FLAGSTAFF WB AP AZ"	25	sand	native	820	5	16.4	820	5	820	5	20	outrut	ft
+WR	wepp-19153	"05:30 pm  Monday March 10, 2014"	"FLAGSTAFF WB AP AZ"	25	sand	native	820	5	13	13.2	50	114.8	5	20	inbare	ft
+WR	wepp-21996	"05:41 pm  Monday March 10, 2014"	"FLAGSTAFF WB AP AZ"	25	sand	native	820	5	13	13.2	50	114.8	5	20	outrut	ft
+WR	wepp-22034	"05:43 pm  Monday March 10, 2014"	"FLAGSTAFF WB AP AZ"	25	sand	native	820	5	13	13.2	50	114.8	5	20	outrut	ft
+WR	wepp-22069	"05:44 pm  Monday March 10, 2014"	"FLAGSTAFF WB AP AZ"	25	sand	native	820	5	13	13.2	50	114.8	5	20	outunrut	ft
+WR	wepp-22124	"05:46 pm  Monday March 10, 2014"	"FLAGSTAFF WB AP AZ"	30	sand	native	250	5	4	4	50	35	40	20	outrut	m
+WR	wepp-22363	"05:46 pm  Monday March 10, 2014"	"FLAGSTAFF WB AP AZ"	30	sand	graveled	250	5	4	4	50	35	40	20	outrut	m
+WR	wepp-23605	"05:48 pm  Monday March 10, 2014"	"FLAGSTAFF WB AP AZ"	30	sand	graveled	250	5	4	4	50	35	40	20	outrut	m
+WR	wepp-24771	"05:49 pm  Monday March 10, 2014"	"FLAGSTAFF WB AP AZ"	30	sand	graveled	250	5	4	4	50	35	40	20	outunrut	m
+WD	wepp-10384	"06:55 pm  Monday March 10, 2014"	"CHARLESTON KAN AP WV"	10	clay	LowFire	40	50	50	30	20	OldForest	40	50	50	30	20	0	ft	""
+WD	wepp-13346	"07:01 pm  Monday March 10, 2014"	"CHARLESTON KAN AP WV"	10	clay	LowFire	40	50	50	60	20	OldForest	40	50	50	60	20	0	ft	""
+WD	wepp-13401	"07:04 pm  Monday March 10, 2014"	"BIRMINGHAM WB AP AL"	10	clay	YoungForest	50	0	30	100	20	YoungForest	50	30	5	100	20	0	ft	""
+WD	wepp-13436	"07:04 pm  Monday March 10, 2014"	"CHARLESTON KAN AP WV"	10	clay	LowFire	40	50	50	60	20	OldForest	40	50	50	60	20	0	ft	""
+WR	wepp-3916	"10:08 pm  Monday March 10, 2014"	"FLAGSTAFF WB AP AZ"	30	sand	graveled	250	5	5	4	50	35	40	20	outrut	m
+WR	wepp-4850	"10:10 pm  Monday March 10, 2014"	"FLAGSTAFF WB AP AZ"	1	sand	graveled	250	5	5	4	50	35	40	20	outrut	m
+WR	wepp-5821	"10:17 pm  Monday March 10, 2014"	"FLAGSTAFF WB AP AZ"	1	sand	graveled	250	5	5	4	50	35	40	20	outunrut	m
+WD	wepp-8611	"10:27 pm  Monday March 10, 2014"	"CHARLESTON KAN AP WV"	10	clay	Bunchgrass	20	50	50	60	20	Bunchgrass	20	50	50	60	20	0	m	""
+WD	wepp-10759	"10:32 pm  Monday March 10, 2014"	"CHARLESTON KAN AP WV"	10	clay	Bunchgrass	20	50	50	30	20	Bunchgrass	20	50	50	30	20	0	m	""
+WD	wepp-10799	"10:32 pm  Monday March 10, 2014"	"CHARLESTON KAN AP WV"	10	clay	Bunchgrass	20	50	50	100	20	Bunchgrass	20	50	50	100	20	0	m	""

@@ -1,0 +1,79 @@
+#this files was modified by filegenwhrm.pl on: Wednesday, March 16, 2005.
+#taxgroup Small Mammals species Pinyon Mouse /  Peromyscus truei
+#
+# Rank
+2,-99,-99,2,1
+# Nestsite
+-99
+# Reprorank
+-99
+# Foraging Habitat
+-99
+# Habitatrank
+-99
+# Forage/Prey Availability
+50,1:4,1
+# Preyrank
+1,-99:1,-99
+# Predator Avoidance
+4,1
+# Avoidrank
+1,-99
+# Refugia/Shelter
+-99
+# Shelterrank
+-99
+# Coverrank
+1,-99
+# Literature
+Distribution
+southwest USA into Mexico
+General Habitat
+pinyon-juniper, xeric oak woodlands
+Home or Activity Range
+&lt 2.5 ac (O'Neil et al. 2001)
+Canopy Cover
+areas with higher canopy closure than random plots (Rompola and Anderson 2004)
+Specific Habitat Preferences
+shrub cover, rocky terrain, pinyon, juniper and oak trees; Rompola and Stanley (2004) found negative association with forb density
+Nestsite Characteristics
+in trees and among rocks
+Foraging Habitat Characteristics
+climb up smaller trees or rocks depending on their habitat;  also forage on ground and on shrubs or understory vegetation, "other trees" in model include pinyon, juniper and oak trees
+Diet
+seeds and nuts; insects and spiders, berries, fungal spore dispersers
+Predators
+no information available
+Shelter Habitats
+no information available
+Response to Disturbance
+no information available
+Sources of Information used in the Model
+Holbrook 1978, Raphael 1988
+General Sources of Background Information
+Holbrook 1978, Burt 1980, Cranford 1982, Raphael 1988, Morrison and Hall 1998, reviewed in O'Neil et al. 2001, Chambers 2002, Rompola and Anderson 2004
+Summaries of Specific Studies
+Chambers, Carol L.  2002.  Forest management and the dead wood resource in ponderosa pine forests: effects on small mammals.  USDA Forest Service Gen. Tech. Rep. PSW-GTR-181: 679-693.
+
+Study Location: northern Arizona
+Habitat Description: PIPO
+Summary:Deer mice were less abundant in high density stands of ponderosa pine (live trees and small snags); more abundant in high forb cover and Gambel oak tree basal area.  Author predicts that deer mice will continue to increase in density in treated units for several years following treatment; then populations will stabilize.
+
+Holbrook, Sally J. Habitat relationships and coexistence of four sympatric species of Peromyscus in northwestern New Mexico. 1978. Journal of Mammalogy. 59(1): 18-26.
+
+Study Location:  northwestern New Mexico
+Habitat Description:  range from grass/sagebrush at low elevations to conifer forests containing PIPO, PSME, Picea sp., Abies sp., and aspen
+Summary:  Habitat relationships of the sympatric deer, pinyon, brush and rock mouse were studied in northwest New Mexico. Subdivision of habitat by vegetational type is an important mechanism for coexistence in these species. Measures of the three-dimensional structure of habitat were correlated with the total number of species occurring in microsympatry. Mechanisms related to foraging activities that would enhance the coexistence of these species are also discussed.
+
+Raphael, Martin G. 1988. Habitat associations of small mammals in a subalpine forest, southeastern Wyoming. In: Management of amphibians, reptiles, and small mammals in North America symposium: proceedings; Gen. Tech. Rep. RM-166. Fort Collins, CO: USDA, Forest Service, Rocky Mountain Forest and Range Experiment Station. 359-367.
+
+Study Location: southern Wyoming
+Habitat Description: PICO (60%), PIEN, ABLA
+Summary: Abundance of small mammals was associated with generalized habitat types within the supalpine zone. Moisture and stand maturity were two habitat features that separated patterns of abundance of various species. Specific habitat associations are given for 8 species of small mammals. The southern red-backed vole was confirmed as a suitable indicator of old-growth forest; the masked and dusky shrew may be as well.
+
+Rompola, Kevin M.; Anderson, Stanley H. 2004. Habitat of three rare species of small mammals in juniper woodlands of southwestern Wyoming. Western North American Naturalist. 64(1): 86-92.
+
+Study Location:  southwestern Wyoming
+Habitat Description:  juniper, big sagebrush, pinyon pine, mountain mahogany
+Summary: Habitat characteristics were identified for cliff chipmunks, pinyon mice and canyon mice in a juniper-pinyon pine woodland. Cliff chipmunks were present in rocky slopes and cliffs where grasses and forbs were abundant for foraging. Pinyon mouse densities were related to rocky slopes and cliffs, in areas where canopy closure was high and forb density was low, though the authors believed in general that pinyon mice in their study area were occupying sub-optimal habitat. 
+

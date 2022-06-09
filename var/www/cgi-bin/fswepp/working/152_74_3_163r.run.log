@@ -1,0 +1,15 @@
+WR	wepp-2041	"08:06 am  Friday November 19, 2010"	"Concepcion final 22 +"	30	clay	native	60	4	4	5	50	40	25	20	inveg	m
+WR	wepp-2129	"08:10 am  Friday November 19, 2010"	"Concepcion final 22 +"	30	clay	native	60	4	4	5	50	40	25	20	inveg	m
+WR	wepp-2217	"08:13 am  Friday November 19, 2010"	"Concepcion final 22 +"	30	sand	native	60	4	4	5	50	40	20	20	outrut	m
+WR	wepp-2876	"09:02 am  Friday November 19, 2010"	"Concepcion final 22 +"	30	sand	paved	60	4	4	5	50	40	20	20	outrut	m
+WR	wepp-2934	"09:03 am  Friday November 19, 2010"	"Concepcion final 22 +"	30	sand	graveled	60	4	4	5	50	40	20	20	outunrut	m
+WR	wepp-2969	"09:05 am  Friday November 19, 2010"	"Concepcion final 22 +"	30	sand	paved	60	4	4	5	50	40	20	20	inveg	m
+WR	wepp-3167	"09:15 am  Friday November 19, 2010"	"Concepcion final 22 +"	30	sand	native	60	4	4	5	50	40	20	20	inbare	m
+wt	wepp-3331	"Nov 19, 2010"	"Concepcion final 22 +"	alluvial	HighRoad	6	6	50	10	20	Sod	25	15	50	85	0	m	""
+wt	wepp-4069	"Nov 19, 2010"	"Concepcion final 22 +"	granitic	OldForest	20	30	100	100	20	OldForest	30	10	50	100	20	m	""
+wt	wepp-4362	"Nov 19, 2010"	"Concepcion final 22 +"	granitic	LowFire	20	30	100	30	20	LowFire	30	10	50	50	20	m	""
+wt	wepp-4466	"Nov 19, 2010"	"Concepcion final 22 +"	granitic	HighFire	20	30	100	100	20	HighFire	30	10	50	100	20	m	""
+wt	wepp-4506	"Nov 19, 2010"	"Concepcion final 22 +"	granitic	HighFire	20	30	100	0	20	HighFire	30	10	50	0	20	m	""
+wt	wepp-4578	"Nov 19, 2010"	"Concepcion final 22 +"	granitic	HighFire	20	30	100	100	20	HighFire	30	10	50	100	20	m	""
+wt	wepp-4598	"Nov 19, 2010"	"Concepcion final 22 +"	granitic	HighFire	20	30	100	30	20	HighFire	30	10	50	50	20	m	""
+wt	wepp-4735	"Nov 19, 2010"	"Concepcion final 22 +"	granitic	Sod	20	30	135	60	20	OldForest	30	10	15	100	20	m	""

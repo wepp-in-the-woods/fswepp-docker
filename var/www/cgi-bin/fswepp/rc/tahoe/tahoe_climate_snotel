@@ -1,0 +1,16 @@
+Tahoe Basin
+ <input type="hidden" name="state" value="tahoe">
+ <Select name="station" size="15">
+  <OPTION VALUE="ca040822" selected>BISHOP WBO CA
+  <OPTION VALUE="nv262431">DYER NV
+  <OPTION VALUE="nv265168">MINA NV
+  <OPTION VALUE="nv267463">SILVERPEAK NV
+  <OPTION VALUE="nv268170">TONOPAH AP NV
+  <OPTION VALUE="EchoPeakSnotel">ECHO PEAK CA SNOTEL
+  <OPTION VALUE="FallenLeafSnotel">FALLEN LEAF CA SNOTEL
+  <OPTION VALUE="HagensMeadowSnotel">HAGEN'S MEADOW CA SNOTEL
+  <OPTION VALUE="HeavenlyValleySnotel">HEAVENLY VALLEY CA SNOTEL
+  <OPTION VALUE="MarletteLakeSnotel">MARLETTE LAKE NV SNOTEL
+  <OPTION VALUE="Rubicon2Snotel">RUBICON # 2 CA SNOTEL
+  <OPTION VALUE="TahoeCityCrossSnotel">TAHOE CITY CROSS CA SNOTEL
+ </select>

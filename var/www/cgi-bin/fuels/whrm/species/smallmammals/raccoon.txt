@@ -1,0 +1,60 @@
+#this files was modified by filegenwhrm.pl on: Wednesday, March 16, 2005.
+#taxgroup Small Mammals species Raccoon /  Procyon lotor
+#
+# Rank
+2,1,-99,-99,1
+# Nestsite
+16,1:17,1:18,1
+# Reprorank
+1,-99:1,-99:1,-99
+# Foraging Habitat
+-99
+# Habitatrank
+-99
+# Forage/Prey Availability
+-99
+# Preyrank
+-99
+# Predator Avoidance
+-99
+# Avoidrank
+-99
+# Refugia/Shelter
+16,1:17,1:18,1
+# Shelterrank
+1,-99:1,-99:1,-99
+# Coverrank
+1,-99:1,-99:1,-99
+# Literature
+Distribution
+widespread across most of N. America except northern Canada
+General Habitat
+along streams and lake borders near wooded areas or rock cliffs
+Home or Activity Range
+no information available
+Canopy Cover
+No information available
+Specific Habitat Preferences
+snags
+Nestsite Characteristics
+dens in hollow trees, hollow logs, rock crevices, ground burrows
+Foraging Habitat Characteristics
+along rivers and lakes
+Diet
+omnivorous: fruit, buds, grains, insects, frogs, crayfish, bird eggs
+Predators
+no information available
+Shelter Habitats
+snags for overwintering, dwelling or denning; dens in hollow trees, hollow logs, rock crevices, ground burrows
+Response to Disturbance
+no information available
+Sources of Information used in the Model
+Nietro et al. 1985
+General Sources of Background Information
+Burt 1980, reviewed in Nietro et al. 1985
+Summaries of Specific Studies
+Neitro, William A.; Binkley, Virgil B.; Cline, Steven P.; Mannan, R. William, Marcot, Bruce G.; Taylor, Douglas; Wagner, Frank F. 1985. Snags (Wildlife trees). In Brown, E.R. (technical editor). Management of Wildlife and Fish Habitats in Forests of Western Oregon and Washington. Publication number R6-F&WL-192-1985. Portland, OR: USDA Forest Service, Pacific Northwest Region.
+
+Study Location: review of western Oregon and Washington
+Habitat Description: intensively managed and unmanaged PSME
+Summary: A comprehensive review of the importance of snags as wildlife trees in managed and unmanaged PSME forests. Includes information on the ecological role of snags and cavity users, wildlife snag requirements, snag management, and guidelines for selecting wildlife trees to meet logging safety requirements. Much detail is presented on calculating the number of snags needed to maintain specific densities of cavity-users. Forestry practices that impact snag production and retention are also outlined. The economic role of snags and cavity-using wildlife is addressed. 

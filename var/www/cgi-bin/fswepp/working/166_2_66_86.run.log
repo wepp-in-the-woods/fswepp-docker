@@ -1,0 +1,64 @@
+WF	wepp-21711	"09:15 am  Thursday December 12, 2013"	"Upper Valley +"	clay	200	50	0	30	15	40	20	20	4	ft
+WE	wepp-17157	"11:11 am  Wednesday April 9, 2014"	"WideHollow +"	sand	50	chap	0	50	30	300	u	30	5	ft
+WE	wepp-63626	"12:51 pm  Monday September 29, 2014"	"WideHollow +"	clay	20	chap	0	50	30	300	u	50	10	ft
+WE	wepp-64127	"12:58 pm  Monday September 29, 2014"	"WideHollow +"	clay	20	chap	0	50	30	300	u	50	10	ft
+WD	wepp-64664	"01:11 pm  Monday September 29, 2014"	"WideHollow +"	10	clay	OldForest	50	0	30	100	20	OldForest	50	30	5	100	20	0	ft	""
+WD	wepp-64745	"01:12 pm  Monday September 29, 2014"	"WideHollow +"	10	clay	OldForest	50	0	30	60	20	OldForest	50	30	5	70	20	0	ft	""
+WD	wepp-64827	"01:13 pm  Monday September 29, 2014"	"WideHollow +"	10	sand	OldForest	50	0	60	60	20	OldForest	50	60	5	70	20	0	ft	"test"
+WD	wepp-64900	"01:13 pm  Monday September 29, 2014"	"WideHollow +"	10	sand	YoungForest	50	0	60	100	20	Sod	50	60	5	40	20	0	ft	"test"
+WE	wepp-64975	"01:15 pm  Monday September 29, 2014"	"WideHollow +"	clay	20	forest	0	50	30	300	u			ft
+WD	wepp-65240	"01:20 pm  Monday September 29, 2014"	"WideHollow +"	10	clay	OldForest	50	0	30	100	20	OldForest	50	30	5	100	20	0	ft	""
+WD	wepp-111104	"12:31 pm  Tuesday September 30, 2014"	"WideHollow +"	10	loam	OldForest	902	50	30	86	50	OldForest	902	30	20	86	50	0	ft	"0"
+WD	wepp-111162	"12:32 pm  Tuesday September 30, 2014"	"WideHollow +"	10	loam	OldForest	902	50	30	86	25	OldForest	902	30	20	86	25	0	ft	"0"
+WD	wepp-111206	"12:32 pm  Tuesday September 30, 2014"	"WideHollow +"	30	loam	OldForest	50	0	30	100	25	OldForest	50	30	5	100	25	0	ft	""
+WD	wepp-111255	"12:33 pm  Tuesday September 30, 2014"	"WideHollow +"	30	loam	YoungForest	50	0	30	100	20	YoungForest	50	30	5	100	20	0	ft	""
+WD	wepp-111303	"12:34 pm  Tuesday September 30, 2014"	"WideHollow +"	30	loam	YoungForest	902	50	30	86	25	YoungForest	902	30	20	86	25	0	ft	""
+WD	wepp-111360	"12:35 pm  Tuesday September 30, 2014"	"WideHollow +"	30	loam	YoungForest	902	50	30	86	50	YoungForest	902	30	20	86	50	0	ft	""
+WD	wepp-111408	"12:35 pm  Tuesday September 30, 2014"	"WideHollow +"	30	loam	YoungForest	902	50	30	86	50	YoungForest	902	30	20	86	50	0	ft	""
+WD	wepp-111498	"12:39 pm  Tuesday September 30, 2014"	"WideHollow +"	30	loam	YoungForest	492	7	35	86	50	Shrub	492	35	20	70	20	0	ft	""
+WD	wepp-111600	"12:42 pm  Tuesday September 30, 2014"	"WideHollow +"	30	loam	Sod	902	90	50	40	50	Sod	902	50	13	40	40	0	ft	""
+WD	wepp-111702	"12:46 pm  Tuesday September 30, 2014"	"WideHollow +"	30	loam	Sod	902	70	50	40	20	Sod	902	50	15	40	20	0	ft	""
+WD	wepp-111775	"12:48 pm  Tuesday September 30, 2014"	"WideHollow +"	30	loam	YoungForest	1000	14	15	86	50	YoungForest	1000	15	12	86	50	0	ft	""
+WD	wepp-111871	"12:51 pm  Tuesday September 30, 2014"	"WideHollow +"	30	loam	Sod	1000	60	13	40	50	Sod	1000	13	7	40	20	0	ft	""
+WD	wepp-111952	"12:54 pm  Tuesday September 30, 2014"	"WideHollow +"	30	loam	Sod	900	39	35	30	20	Sod	900	35	5	30	20	0	ft	""
+WD	wepp-112007	"12:55 pm  Tuesday September 30, 2014"	"WideHollow +"	30	sand	Sod	900	39	35	30	20	Sod	900	35	5	30	20	0	ft	""
+WD	wepp-112129	"12:58 pm  Tuesday September 30, 2014"	"WideHollow +"	30	sand	YoungForest	1000	10	28	86	50	Sod	1000	28	12	40	20	0	ft	""
+WD	wepp-112188	"12:59 pm  Tuesday September 30, 2014"	"WideHollow +"	30	sand	YoungForest	1000	3	14	86	50	Sod	1000	14	6	50	20	0	ft	""
+WD	wepp-112260	"01:01 pm  Tuesday September 30, 2014"	"WideHollow +"	30	sand	YoungForest	1000	5	20	86	50	Sod	1000	20	17	50	20	0	ft	""
+WD	wepp-112319	"01:03 pm  Tuesday September 30, 2014"	"WideHollow +"	30	sand	YoungForest	900	22	40	60	30	Sod	900	40	10	40	20	0	ft	""
+WD	wepp-113832	"01:55 pm  Tuesday September 30, 2014"	"WideHollow +"	30	sand	Sod	1200	60	13	40	47	Sod	1200	13	7	40	20	0	ft	""
+WD	wepp-113896	"01:57 pm  Tuesday September 30, 2014"	"WideHollow +"	30	sand	Sod	900	39	35	40	20	Sod	900	35	5	40	20	0	ft	""
+WD	wepp-113988	"01:58 pm  Tuesday September 30, 2014"	"WideHollow +"	30	sand	Sod	900	39	35	30	20	Sod	900	35	5	30	20	0	ft	""
+WR	wepp-8250	"12:02 pm  Monday February 23, 2015"	""	1			0	0	0	0	0	0	0	0		
+WR	wepp-8251	"12:02 pm  Monday February 23, 2015"	""	1			0	0	0	0	0	0	0	0		
+WR	wepp-8571	"12:23 pm  Monday February 23, 2015"	"Mitchell Spring +"	30	silt	native	40	20	12	3	10	1	20	20	inveg	ft
+WR	wepp-8623	"12:26 pm  Monday February 23, 2015"	"Mitchell Spring +"	30	silt	native	40	20	12	3	10	1	20	20	inveg	ft
+WR	wepp-8682	"12:28 pm  Monday February 23, 2015"	"Mitchell Spring +"	30	silt	native	40	20	12	3	10	1	20	20	inveg	ft
+WR	wepp-8719	"12:29 pm  Monday February 23, 2015"	"Mitchell Spring +"	30	silt	native	40	20	12	3	10	1	20	20	inveg	ft
+WR	wepp-8768	"12:30 pm  Monday February 23, 2015"	"Mitchell Spring +"	30	silt	native	40	20	12	3	10	1	20	20	inveg	ft
+WR	wepp-8804	"12:30 pm  Monday February 23, 2015"	"Mitchell Spring +"	30	silt	native	40	20	12	3	10	1	20	20	outrut	ft
+WR	wepp-8842	"12:31 pm  Monday February 23, 2015"	"Mitchell Spring +"	30	silt	native	40	20	12	3	10	1	20	20	outunrut	ft
+WR	wepp-8879	"12:31 pm  Monday February 23, 2015"	"Mitchell Spring +"	30	silt	native	40	20	12	3	10	1	20	20	inbare	ft
+WR	wepp-8923	"12:34 pm  Monday February 23, 2015"	"Mitchell Spring +"	30	silt	native	290	6	12	3	3	1	6	70	outunrut	ft
+WR	wepp-8971	"12:35 pm  Monday February 23, 2015"	"Mitchell Spring +"	30	silt	native	290	6	12	3	3	1	6	70	inveg	ft
+WR	wepp-9008	"12:35 pm  Monday February 23, 2015"	"Mitchell Spring +"	30	silt	native	290	6	12	3	3	1	6	70	inveg	ft
+WR	wepp-9046	"12:35 pm  Monday February 23, 2015"	"Mitchell Spring +"	30	silt	native	290	6	12	3	3	1	6	70	outunrut	ft
+WR	wepp-9084	"12:36 pm  Monday February 23, 2015"	"Mitchell Spring +"	30	silt	native	290	6	12	3	3	1	6	80	outunrut	ft
+WR	wepp-9121	"12:36 pm  Monday February 23, 2015"	"Mitchell Spring +"	30	silt	native	290	6	12	3	3	1	6	90	outunrut	ft
+WR	wepp-9159	"12:37 pm  Monday February 23, 2015"	"Mitchell Spring +"	30	silt	native	290	6	12	3	3	1	6	10	outunrut	ft
+WR	wepp-9198	"12:37 pm  Monday February 23, 2015"	"Mitchell Spring +"	30	silt	native	290	6	12	3	3	1	6	70	outunrut	ft
+WR	wepp-9253	"12:39 pm  Monday February 23, 2015"	"Mitchell Spring +"	30	silt	native	290	6	12	3	3	1	6	70	outunrut	ft
+WR	wepp-9290	"12:39 pm  Monday February 23, 2015"	"Mitchell Spring +"	30	silt	native	290	6	12	3	3	1	6	70	outunrut	ft
+WR	wepp-9338	"12:40 pm  Monday February 23, 2015"	"Mitchell Spring +"	30	silt	native	290	6	12	3	3	1	6	70	outunrut	ft
+WR	wepp-9374	"12:40 pm  Monday February 23, 2015"	"Mitchell Spring +"	30	silt	native	290	6	12	3	3	1	6	70	outunrut	ft
+WR	wepp-9414	"12:41 pm  Monday February 23, 2015"	"Mitchell Spring +"	30	silt	native	290	6	12	3	3	1	6	70	outrut	ft
+WR	wepp-9557	"12:46 pm  Monday February 23, 2015"	"Mitchell Spring +"	30	silt	native	290	6	12	3	3	1	6	70	inveg	ft
+WR	wepp-9593	"12:46 pm  Monday February 23, 2015"	"Mitchell Spring +"	30	silt	native	290	6	12	3	3	1	6	70	inveg	ft
+WR	wepp-9632	"12:47 pm  Monday February 23, 2015"	"Mitchell Spring +"	30	silt	native	290	6	12	3	3	1	6	70	inveg	ft
+WR	wepp-10196	"01:44 pm  Monday February 23, 2015"	"Mitchell Spring +"	30	silt	graveled	20	6	12	3	3	1	6	70	outunrut	ft
+WR	wepp-11360	"01:59 pm  Monday February 23, 2015"	"Mitchell Spring +"	30	silt	graveled	30	4	13	3	50	1	4	20	outunrut	ft
+WR	wepp-11474	"02:09 pm  Monday February 23, 2015"	"Mitchell Spring +"	30	silt	native	30	20	13	3	2	1	20	20	inveg	ft
+WR	wepp-155730	"09:01 am  Thursday March 19, 2015"	"Mitchell Spring +"	30	silt	native	290	6	12	3	3	1	6	70	inveg	ft
+WR	wepp-155782	"09:02 am  Thursday March 19, 2015"	"Mitchell Spring +"	30	silt	native	290	6	12	3	3	1	6	70	inveg	ft
+WR	wepp-158380	"10:08 am  Thursday March 19, 2015"	"Mitchell Spring +"	30	silt	native	30	20	13	3	2	1	20	20	inveg	ft
+WR	wepp-159619	"10:26 am  Thursday March 19, 2015"	"Mitchell Spring +"	30	silt	graveled	30	4	13	3	50	1	4	20	outunrut	ft

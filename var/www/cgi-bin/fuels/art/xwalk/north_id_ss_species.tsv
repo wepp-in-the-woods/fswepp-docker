@@ -1,0 +1,148 @@
+#Conifer species in North ID Subseries arranged by (decreasing) expected percent cover and rated for potential Armillaria impact					
+#HabType	Armillaria Regime
+#	Subseries	Species	Role*	Average Expected Cover (%)	Potential Disease Impact
+#General Note: Because of White Pine Blister Rust, PSME & ABGR have replaced the more Armillaria-tolerant 					
+#PIMO as primary serals in subseries where PIMO appears.  Restoration to PIMO following removal of PSME &					
+#ABGR will help to limit future damage by Armillaria in those subseries.					
+CH/DH	HSERAL
+	TSHE	C	60.4	High if disturbed
+	ABLA	S	44.8	High if disturbed
+	LAOC	s	13.3	Low
+	PICO	s	4.5	Low
+	PIEN	S	0.9	High but low occurrence
+CH/MH	HSERAL
+	THPL	S/C	29.3	High if disturbed
+	ABGR	S/c	24.3	High if disturbed
+	TSHE	C	18.9	High if disturbed
+	PSME	S	11.3	High if disturbed
+	LAOC	S	8.9	Low
+	PIEN	s/S	7.1	High
+	ABLA	s	6.1	High
+	PIMO	s/S	4.3	High in planted trees <20 yrs old
+	PICO	s/S	3.6	Low
+	PIPO	s	0.2	High but low occurrence
+	TSME	s	0.1	High but low occurrence
+CH/WF	HCLIMAX
+	THPL	C	48.6	High
+	TSHE	C	25.5	High
+	ABGR	s/S	10.5	High if disturbed
+	PIMO	s/S	2.4	High in planted trees <20 yrs old
+	ABLA	s	1.7	Low in this subseries
+	PIEN	s/S	1.3	Low in this subseries
+	LAOC	a	1.2	Low
+	PSME	s	0.7	Low in this subseries
+CH/WH	HSERAL
+	THPL	C	55.9	High if disturbed
+	ABGR	S	32.1	High if disturbed
+	TSHE	C	13.4	High if disturbed
+	PSME	s/S	7.4	High
+	LAOC	s/S	5.4	Low
+	PIEN	s/S	5	High
+	PIMO	s/S	2.3	High in planted trees <20 yrs old
+	PICO	s/S	1	Low
+	ABLA	s	0.7	High but low occurrence
+	PIPO	s	0.2	High but low occurrence
+	TSME	a	0	Low in this subseries
+CH/WS	HCLIMAX
+	THPL	C	53.1	High
+	TSHE	C	30.6	High
+	PIEN	S	3.6	High if disturbed
+	ABGR	s	1.2	Low in this subseries
+	PIMO	s	1.2	Low in this subseries
+	ABLA	a	0.2	Low in this subseries
+ColdF/DH	HCLIMAX
+	ABLA	C	39.8	High
+	PICO	s/S	18.4	Low
+	TSME	C	14.4	High
+	PIEN	s/S/c	9.9	High where climax
+	PIAL	s/S	4.3	Low in this subseries
+	PSME	s	2.5	Low in this subseries
+	LAOC	s/S	1	Low
+	PIMO	s	0.7	Low in this subseries
+	ABGR	s	0.4	Low in this subseries
+	TSHE	a	0	Low in this subseries
+ColdF/MH	HCLIMAX
+	PICO	S	22.4	Low
+	TSME	C	21	High
+	PIEN	S	14.4	High if disturbed
+	LAOC	S	11.2	Low
+	ABLA	S/c	9.1	High where climax
+	PSME	S	5.6	Low in this subseries
+	PIMO	s	4.2	Low in this subseries
+	ABGR	s	1.5	Low in this subseries
+ColdF/WF	HCLIMAX
+	ABLA	C	35.8	High
+	PIEN	s/S/c	26.3	High where climax
+	TSME	C	19.8	High
+	PICO	s/S	6.8	Low
+	PSME	s	3.4	Low in this subseries
+	PIMO	s	1.1	Low in this subseries
+	LAOC	s	0.4	Low
+	PIAL	s	0.1	Low in this subseries
+	ABGR	a	0	Low in this subseries
+CoolF/DH	HSERAL
+	ABGR	C	29.2	High if disturbed
+	PSME	S	26.9	High if disturbed
+	PICO	s/S	19.6	Low
+	PIPO	s/S	6.3	High if planted from nonlocal seed
+	ABLA	c	6.1	High if disturbed
+	PIEN	s/S/c	4.4	High
+	LAOC	s	2.7	Low
+	PIMO	s	0.1	Low in this subseries
+	TSME	a	0	Low in this subseries
+CoolF/MH	HSERAL
+	ABGR	S/C	26.8	High if disturbed
+	PSME	s/S	20.1	High
+	ABLA	C	15.8	High if disturbed
+	PIEN	s/S/c	13.9	High
+	PICO	s/S	6.6	Low
+	LAOC	s/S	4.8	Low
+	TSME	c	3.2	High if disturbed
+	PIPO	s	1.7	High if planted from nonlocal seed
+	PIMO	s	1.6	Low in this subseries
+	THPL	a	0.1	Low in this subseries
+	TSHE	a	0	Low in this subseries
+CoolF/WF	HCLIMAX
+	PIEN	S/c	30.7	High where climax
+	ABLA	C	28.1	High
+	ABGR	s/C	11.7	High where climax
+	PICO	s/S	2.5	Low
+	PSME	s	1.9	Low in this subseries
+	LAOC	s	0.8	Low
+	PIMO	s	0.3	Low in this subseries
+	TSME	a	0	Low in this subseries
+CoolF/WH	HSERAL
+	ABGR	C	43.5	High if disturbed
+	PSME	s/S	16.6	High
+	PIEN	s/S	6.1	High
+	PICO	s	1.8	Low
+	LAOC	s	1.1	Low
+	ABLA	c	1	High but low occurrence
+	PIPO	s	0.8	High if planted from nonlocal seed
+	PIMO	s	0.6	High in planted trees <20 yrs old
+	THPL	a	0	Low in this subseries
+CoolP/DH	HCLIMAX
+	PICO	s/C	71.5	Low
+	ABLA	C	0.4	High but low occurrence
+	PIEN	s	0.2	Low in this subseries
+	ABGR	s	0.1	Low in this subseries
+	PSME	s	0.1	Low in this subseries
+DF/DH	HCLIMAX
+	PSME	C	45.3	High
+	PIPO	s/S/c	21.1	Low in this subseries
+	PICO	s	4.7	Low
+	LAOC	s	0.4	Low
+	ABGR	a	0.1	Low in this subseries
+	ABLA	a	0	Low in this subseries
+DF/DS	LOW
+	PSME	C	32.1	Low in this subseries
+	PIPO	s/S/c	23.8	Low in this subseries
+	PICO	s/S	3.8	Low
+	LAOC	S	1.1	Low
+	ABGR	a	0.2	Low in this subseries
+PP/DG	LOW
+	PIPO	C	22.4	Low in this subseries
+PP/DH	LOW
+	PIPO	C	66.3	Low in this subseries
+PP/DS	LOW
+	PIPO	C	99.4	Low in this subseries

@@ -1,0 +1,72 @@
+#this files was modified by filegenwhrm.pl on: Wednesday, March 16, 2005.
+#taxgroup Small Mammals species Northern pocket gopher /  Thomomys talpoides
+#
+# Rank
+3,-99,1,2,1
+# Nestsite
+-99
+# Reprorank
+-99
+# Foraging Habitat
+4,-1:21,1
+# Habitatrank
+1,-99:1,-99
+# Forage/Prey Availability
+3,1:5,1
+# Preyrank
+2,-99:1,-99
+# Predator Avoidance
+-99
+# Avoidrank
+-99
+# Refugia/Shelter
+3,1:5,1
+# Shelterrank
+1,-99:1,-99
+# Coverrank
+1,-99:1,-99
+# Literature
+Distribution
+non-coastal western USA
+General Habitat
+ponderosa pine forest type; grassy prairies, alpine meadows, brushy areas, open pine forests
+Home or Activity Range
+&lt 2.5 ac (O'Neil et al. 2001)
+Canopy Cover
+no information available
+Specific Habitat Preferences
+loose soil for burrowing, areas with low shrubs vs. high shrubs (root systems of large shrub prevent burrowing)
+Nestsite Characteristics
+no information available
+Foraging Habitat Characteristics
+on ground or underground
+Diet
+feeds on above ground leaves and stems of plants, underground roots
+Predators
+boreal owl
+Shelter Habitats
+in burrows
+Response to Disturbance
+found more in early and late successional stages than mid-successional stages (Scrivner and Smith 1981)
+Sources of Information used in the Model
+Scrivner and Smith 1981, Okello 1993
+General Sources of Background Information
+Burt 1980, Scrivner and Smith 1981, Hayward et al. 1993, Okello 1993, reviewed in Sallabanks et al. 2003
+Summaries of Specific Studies
+Hayward, Gregory D., Hayward, Patricia H.; Garton, Edward O. 1993. Ecology of boreal owls in the northern Rocky Mountains, USA. Wildlife Monographs. 124:159.
+
+Study Location: northern Rocky Mountains; western Montana, Idaho, northwestern Wyoming, northern Utah
+Habitat Description: spruce-fir zone; including ABLA, PSME, aspen, PICO, also extended into PIPO zone
+Summary: Four year study on the ecology of the boreal owl in the northern Rocky Mountains. All owls were detected above 1292 m elevation, and the majority of detections were in ABLA habitat types. PICO was the only dominant forest type that was avoided, despite being common in the study area. It was used when no other forest type was available, and was characterized as having large trees. Nest sites were restricted to mature/old stands with complex physical structure; many habitat types were used, including mixed conifer forest (PIPO and PSME) 39% of the time as well as aspen 21% of the time despite covering <1% of the available forest. PICO was avoided for nesting. Boreal owls were selective in summer roosts sites, choosing sites with greater canopy cover, higher tree density, and higher basal area. The best foraging habitat was associated with mature/old spruce-fir stands where prey was most abundant. Diet, population and breeding were also examined. Habitat associations by vegetation type are given for primary prey species. Management strategies that focus on snag retention and harvest practices that retain forest structure are recommended for maintaining quality habitat.
+
+Okello, Moses Makonjio. 1993. Pocket gopher (Thomomys talpoides) food preferences, habitat relationships, and damage prevention. Moscow, ID: University of Idaho. 64 p. M.S. Thesis.
+
+Study Location: Payette National Forest, Idaho
+Habitat Description: not stated
+Summary: Pocket gophers were live-trapped to assess habitat preferences. Variation in gopher density was best explained by forb cover (+), shrub cover (-), available tree basal area (-), and soil depth (+).  A feeding trial experiment was also conducted to determine dietary preferences. Forbs were preferred over grasses. The forbs selected tended to be those found in early and mid-seral stage forest.
+
+Scrivner, Jerry H.; Smith, H. Duane. 1981. Pocket gophers (Thomomys talpoides) in successional stages of spruce-fir forests in Idaho. Great Basin Naturalist. 41(3): 362-367.
+
+Study Location: Clearwater National Forest Idaho
+Habitat Description: spruce-fir associations, ABGR main tree
+Summary: This study examined pocket gophers in stands different successional stages (0-80 years past disturbance). The youngest and oldest stands had the highest gopher abundance, with mid-successional stands having the lower abundance, which the authors attribute to differences in the understory. Those stands had a high density of low shrubs (< 114 cm), and forbs favorable for eating.

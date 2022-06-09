@@ -1,0 +1,59 @@
+WD	wepp-8611	"01:43 pm  Thursday January 13, 2011"	"EL CAPITAN DAM CA +"	30	clay	tall	20	20	10	50	25	tree5	100	20	15	10	25	0	m	"1"
+WD	wepp-8616	"01:43 pm  Thursday January 13, 2011"	"EL CAPITAN DAM CA +"	30	loam	low	25	16	90	75	75	tree5	150	50	16	50	60	0	m	"2"
+WD	wepp-8621	"01:43 pm  Thursday January 13, 2011"	"EL CAPITAN DAM CA +"	30	silt	skid	60	8	52	25	50	shrub	200	18	50	60	75	0	m	"3"
+WD	wepp-8626	"01:43 pm  Thursday January 13, 2011"	"EL CAPITAN DAM CA +"	30	loam	high	40	7.6	14	18	10	tree20	16	60	23	70	18	0	m	"4"
+WD	wepp-8631	"01:43 pm  Thursday January 13, 2011"	"EL CAPITAN DAM CA +"	30	clay	shrub	18	9	6	6	15	short	500	42	18	45	25	0	m	"5"
+WE	wepp-9057	"02:16 pm  Thursday January 13, 1993"	"BABB 6 NE MT"	clay	20	range	5	50	30	300	h	15	75	ft
+WE	wepp-9146	"02:17 pm  Thursday January 13, 1984"	"BABB 6 NE MT"	silt	10	forest	5	10	5	110	m			ft
+WE	wepp-9215	"02:17 pm  Thursday January 13, 1977"	"BABB 6 NE MT"	sand	15	chap	1	20	3	150	l	80	0	ft
+WE	wepp-9264	"02:17 pm  Thursday January 13, 1969"	"BABB 6 NE MT"	loam	5	range	10	15	5	200	h	15	75	ft
+WE	wepp-9354	"02:18 pm  Thursday January 13, 1993"	"BABB 6 NE MT"	clay	20	range	5	50	30	300	h	15	75	ft
+WE	wepp-9443	"02:19 pm  Thursday January 13, 1984"	"BABB 6 NE MT"	silt	10	forest	5	10	5	110	m			ft
+WE	wepp-9512	"02:19 pm  Thursday January 13, 1977"	"BABB 6 NE MT"	sand	15	chap	1	20	3	150	l	80	0	ft
+WE	wepp-9563	"02:19 pm  Thursday January 13, 1969"	"BABB 6 NE MT"	loam	5	range	10	15	5	200	h	15	75	ft
+WE	wepp-9652	"02:19 pm  Thursday January 13, 1988"	"BABB 6 NE MT"	silt	50	range	15	10	0	100	t	15	32	ft
+WE	wepp-24313	"01:52 pm  Friday June 14, 2013"	"Dormouse Fire +"	sand	20	forest	0	42	15	275	h			m
+WE	wepp-30693	"12:56 pm  Monday June 17, 2013"	"Dormouse Fire +"	sand	20	forest	0	45	15	200	h			ft
+WE	wepp-30783	"12:56 pm  Monday June 17, 2013"	"Dormouse Fire +"	sand	20	forest	0	45	15	200	h			m
+WE	wepp-30902	"12:57 pm  Monday June 17, 2013"	"Dormouse Fire +"	sand	20	forest	0	45	15	200	h			m
+WE	wepp-30991	"12:57 pm  Monday June 17, 2013"	"Dormouse Fire +"	sand	20	forest	0	45	15	200	h			m
+WE	wepp-31081	"12:57 pm  Monday June 17, 2013"	"Dormouse Fire +"	sand	20	forest	0	45	15	200	h			m
+WE	wepp-31171	"12:58 pm  Monday June 17, 2013"	"Dormouse Fire +"	sand	20	forest	0	45	15	200	h			m
+WE	wepp-31261	"12:58 pm  Monday June 17, 2013"	"Dormouse Fire +"	sand	20	forest	0	45	15	200	h			m
+WE	wepp-31351	"12:58 pm  Monday June 17, 2013"	"Dormouse Fire +"	sand	20	forest	0	45	15	200	h			m
+WE	wepp-31440	"12:59 pm  Monday June 17, 2013"	"Dormouse Fire +"	sand	20	forest	0	45	15	200	h			m
+WE	wepp-31529	"12:59 pm  Monday June 17, 2013"	"Dormouse Fire +"	sand	20	forest	0	45	15	200	h			m
+WE	wepp-31618	"12:59 pm  Monday June 17, 2013"	"Dormouse Fire +"	sand	20	forest	0	45	15	200	h			m
+WE	wepp-31754	"01:02 pm  Monday June 17, 2013"	"Dormouse Fire +"	sand	20	forest	0	45	15	200	h			m
+WE	wepp-31843	"01:02 pm  Monday June 17, 2013"	"Dormouse Fire +"	sand	20	forest	0	45	15	200	h			m
+WE	wepp-31932	"01:02 pm  Monday June 17, 2013"	"Dormouse Fire +"	sand	20	forest	0	45	15	200	h			m
+WE	wepp-32021	"01:03 pm  Monday June 17, 2013"	"Dormouse Fire +"	sand	20	forest	0	45	15	200	h			m
+WE	wepp-32111	"01:03 pm  Monday June 17, 2013"	"Dormouse Fire +"	sand	20	forest	0	45	15	200	h			m
+WE	wepp-32200	"01:03 pm  Monday June 17, 2013"	"Dormouse Fire +"	sand	20	forest	0	45	15	200	h			m
+WE	wepp-32290	"01:04 pm  Monday June 17, 2013"	"Dormouse Fire +"	sand	20	forest	0	45	15	200	h			m
+WE	wepp-32379	"01:04 pm  Monday June 17, 2013"	"Dormouse Fire +"	sand	20	forest	0	45	15	200	h			m
+WE	wepp-32470	"01:04 pm  Monday June 17, 2013"	"Dormouse Fire +"	sand	20	forest	0	45	15	200	h			m
+WE	wepp-32586	"01:05 pm  Monday June 17, 2013"	"Dormouse Fire +"	sand	20	forest	0	45	15	200	h			m
+WE	wepp-18325	"09:22 am  Tuesday June 18, 2013"	"Dormouse Fire +"	sand	20	forest	0	42	15	275	h			m
+WE	wepp-23105	"01:08 pm  Tuesday June 18, 2013"	"Dormouse Fire +"	sand	20	forest	0	20	5	275	h			m
+WE	wepp-80907	"06:09 pm  Friday February 7, 2014"	"MOUNT SHASTA CA"	sand	20	forest	0	50	30	300	u			m
+WF	wepp-1807	"04:35 pm  Wednesday November 26, 2014"	"SANDPOINT EXP STA ID                    1"	silt	1500	50	20	45	30	80	50	25	6	ft
+WF	wepp-1899	"04:36 pm  Wednesday November 26, 2014"	"SANDPOINT EXP STA ID                    1"	silt	1500	50	20	45	30	80	50	25	6	ft
+WF	wepp-151431	"10:16 am  Monday December 1, 2014"	"STEVENSVILLE MT                         2"	clay	1500	50	15	45	30	80	50	25	3.0	ft
+WF	wepp-151739	"10:50 am  Monday December 1, 2014"	"STEVENSVILLE MT                         2"	clay	1500	50	15	50	35	80	50	25	3.0	ft
+WF	wepp-152076	"10:57 am  Monday December 1, 2014"	"STEVENSVILLE MT                         2"	sand	1500	50	15	50	35	80	50	25	3.0	ft
+WF	wepp-152163	"10:59 am  Monday December 1, 2014"	"STEVENSVILLE MT                         2"	sand	1500	50	15	50	35	80	50	25	3.0	ft
+WF	wepp-152885	"11:32 am  Monday December 1, 2014"	"ARROWROCK DAM ID                        1"	sand	1500	50	10	45	15	80	50	25	3	ft
+WF	wepp-34278	"09:29 am  Tuesday December 2, 2014"	"BBEF_WS_STA +"	sand	1500	50	10	45	15	80	50	25	4	ft
+WF	wepp-38338	"11:29 am  Tuesday December 2, 2014"	"BTRT_VALLEY_SF +"	sand	1500	50	15	50	35	80	50	25	3	ft
+WF	wepp-38557	"11:35 am  Tuesday December 2, 2014"	"PREF_SF +"	sand	1500	50	20	45	30	80	50	25	6	ft
+WF	wepp-38965	"11:48 am  Tuesday December 2, 2014"	"PREF_SF +"	silt	1500	50	20	45	30	80	50	25	6	ft
+WF	wepp-42623	"02:14 pm  Tuesday December 2, 2014"	"BBEF_WS_STA +"	sand	1500	50	10	45	15	80	50	25	2	ft
+WF	wepp-42756	"02:15 pm  Tuesday December 2, 2014"	"BBEF_WS_STA +"	sand	1500	50	10	45	15	80	50	25	4	ft
+WF	wepp-44415	"02:25 pm  Tuesday December 2, 2014"	"PREF +"	sand	1500	50	20	45	30	80	50	25	4	ft
+WF	wepp-44540	"02:30 pm  Tuesday December 2, 2014"	"STEVENSVILLE MT +"	clay	1500	50	25	50	35	40	20	20	4	ft
+WF	wepp-44670	"02:30 pm  Tuesday December 2, 2014"	"STEVENSVILLE MT +"	sand	1500	50	25	50	35	80	50	25	4	ft
+WF	wepp-45016	"02:35 pm  Tuesday December 2, 2014"	"+BBEF +"	sand	1500	50	20	45	30	80	50	25	4	ft
+WD	wepp-241207	"04:33 pm  Monday August 13, 2018"	"EL CAPITAN DAM CA +"	10	sand	HighFire	50	0	30	45	20	HighFire	50	30	30	45	20	0	ft	""
+wt	wepp-51692	"Aug 31, 2018"	"EL CAPITAN DAM CA +"	granitic	HighFire	0	30	500	26	20	HighFire	30	5	400	18	20	ft	""
+wt	wepp-203026	"May 22, 2019"	"RUBICON #2 CA SNOTEL++ +"	granitic	LowFire	0	30	50	85	20	LowFire	30	5	50	85	20	ft	""

@@ -1,0 +1,13 @@
+WR	wepp-94839	"10:33 am  Wednesday May 5, 2021"	"St Maries Project final +"	30	silt	native	200	4	13	15	50	1	25	20	inveg	ft
+WR	wepp-95041	"10:35 am  Wednesday May 5, 2021"	"St Maries Project final +"	30	silt	graveled	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-95125	"10:37 am  Wednesday May 5, 2021"	"St Maries Project final +"	30	silt	paved	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-95272	"10:40 am  Wednesday May 5, 2021"	"St Maries Project final +"	30	silt	graveled	200	4	13	15	50	1	25	20	outunrut	ft
+WR	wepp-95822	"10:54 am  Wednesday May 5, 2021"	"St Maries Project final + +"	30	clay	native	200	4	13	15	50	130	25	20	inveg	ft
+WD	wepp-96653	"11:13 am  Wednesday May 5, 2021"	"St Maries Project final +"	30	silt	OldForest	400	0	30	100	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-97201	"11:17 am  Wednesday May 5, 2021"	"St Maries Project final +"	30	silt	Sod	400	0	30	40	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-97291	"11:19 am  Wednesday May 5, 2021"	"St Maries Project final +"	30	silt	Sod	400	0	30	40	20	OldForest	35	30	5	100	20	0	ft	""
+WD	wepp-97436	"11:20 am  Wednesday May 5, 2021"	"St Maries Project final +"	30	silt	LowFire	400	0	30	85	20	LowFire	35	30	5	85	20	0	ft	""
+WD	wepp-97485	"11:21 am  Wednesday May 5, 2021"	"St Maries Project final +"	30	silt	LowFire	400	0	30	85	20	LowFire	75	30	5	85	20	0	ft	""
+WD	wepp-97610	"11:23 am  Wednesday May 5, 2021"	"St Maries Project final +"	30	silt	HighFire	400	0	30	45	20	HighFire	75	30	5	45	20	0	ft	""
+WD	wepp-97684	"11:24 am  Wednesday May 5, 2021"	"St Maries Project final +"	30	silt	HighFire	400	0	30	20	20	HighFire	75	30	5	20	20	0	ft	""
+WD	wepp-97908	"11:28 am  Wednesday May 5, 2021"	"St Maries Project final +"	30	silt	OldForest	1000	0	30	100	2	HighFire	15	30	5	5	75	0	ft	""

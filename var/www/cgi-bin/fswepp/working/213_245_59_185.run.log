@@ -1,0 +1,19 @@
+WE	wepp-32437	"12:37 pm  Tuesday January 15, 2013"	"DENVER WB AP CO"	clay	20	chap	0	50	30	100	l	80	0	m
+WE	wepp-32488	"12:42 pm  Tuesday January 15, 2013"	"DENVER WB AP CO"	clay	20	chap	0	50	30	100	m	80	0	m
+WE	wepp-32679	"12:50 pm  Tuesday January 15, 2013"	"DENVER WB AP CO"	clay	20	chap	0	50	30	100	h	80	0	m
+WE	wepp-397	"01:04 pm  Tuesday January 15, 2013"	"DENVER WB AP CO"	clay	20	forest	0	50	30	100	m			m
+WE	wepp-475	"01:08 pm  Tuesday January 15, 2013"	"DENVER WB AP CO"	clay	20	range	0	50	30	100	m	15	75	m
+WR	wepp-616	"01:41 pm  Tuesday January 15, 2013"	"BIRMINGHAM WB AP AL"	30	clay	native	250	3	4	3	45	50	25	20	inbare	m
+WR	wepp-638	"01:43 pm  Tuesday January 15, 2013"	"BIRMINGHAM WB AP AL"	30	clay	native	250	3	4	3	45	50	25	20	inbare	m
+WR	wepp-737	"02:00 pm  Tuesday January 15, 2013"	"BIRMINGHAM WB AP AL"	30	clay	graveled	250	3	4	3	45	50	25	20	inbare	m
+WR	wepp-768	"02:01 pm  Tuesday January 15, 2013"	"BIRMINGHAM WB AP AL"	30	clay	paved	250	3	4	3	45	50	25	20	inbare	m
+WR	wepp-839	"02:03 pm  Tuesday January 15, 2013"	"BIRMINGHAM WB AP AL"	30	clay	native	250	3	4	3	45	50	25	20	inveg	m
+WR	wepp-859	"02:04 pm  Tuesday January 15, 2013"	"BIRMINGHAM WB AP AL"	30	clay	graveled	250	3	4	3	45	50	25	20	inveg	m
+WR	wepp-879	"02:05 pm  Tuesday January 15, 2013"	"BIRMINGHAM WB AP AL"	30	clay	paved	250	3	4	3	45	50	25	20	inveg	m
+WR	wepp-900	"02:06 pm  Tuesday January 15, 2013"	"BIRMINGHAM WB AP AL"	30	clay	native	250	3	4	3	45	50	25	20	outrut	m
+WR	wepp-920	"02:07 pm  Tuesday January 15, 2013"	"BIRMINGHAM WB AP AL"	30	clay	graveled	250	3	4	3	45	50	25	20	outrut	m
+WR	wepp-941	"02:08 pm  Tuesday January 15, 2013"	"BIRMINGHAM WB AP AL"	30	clay	paved	250	3	4	3	45	50	25	20	outrut	m
+WR	wepp-1031	"02:09 pm  Tuesday January 15, 2013"	"BIRMINGHAM WB AP AL"	30	clay	native	250	3	4	3	45	50	25	20	outrut	m
+WR	wepp-1121	"02:10 pm  Tuesday January 15, 2013"	"BIRMINGHAM WB AP AL"	30	clay	native	250	3	4	3	45	50	25	20	outunrut	m
+WR	wepp-1234	"02:12 pm  Tuesday January 15, 2013"	"BIRMINGHAM WB AP AL"	30	clay	graveled	250	3	4	3	45	50	25	20	outunrut	m
+WR	wepp-1255	"02:12 pm  Tuesday January 15, 2013"	"BIRMINGHAM WB AP AL"	30	clay	paved	250	3	4	3	45	50	25	20	outunrut	m

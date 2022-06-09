@@ -1,0 +1,62 @@
+#this files was modified by filegenwhrm.pl on: Wednesday, March 16, 2005.
+#taxgroup Small Mammals species Mountain cottontail /  Sylvilagus nuttalli
+#
+# Rank
+2,-99,1,1,-99
+# Nestsite
+-99
+# Reprorank
+-99
+# Foraging Habitat
+20,-1
+# Habitatrank
+1,-99
+# Forage/Prey Availability
+3,1:4,1
+# Preyrank
+1,-99:1,-99
+# Predator Avoidance
+-99
+# Avoidrank
+-99
+# Refugia/Shelter
+-99
+# Shelterrank
+-99
+# Coverrank
+-99
+# Literature
+Distribution
+non-coastal western USA
+General Habitat
+montane forests- PIPO, mixed mesic conifer, sagebrush
+Home or Activity Range
+no information available
+Canopy Cover
+openings or open overstories for food/cover development (Reynolds et al. 1992)
+Specific Habitat Preferences
+low levels of debris and bare soil, well-developed shrub and herbaceous understory
+Nestsite Characteristics
+establishes burrows in rock crevices, under sagebrush or other shrubs
+Foraging Habitat Characteristics
+well-developed shrub and herbaceous understory; observed climbing in juniper trees to forage in Oregon
+Diet
+&gt 100 plant species that vary locally; herbaceous vegetation, bark, buds, and twigs of woody vegetation
+Predators
+Northern goshawk, American marten
+Shelter Habitats
+well-developed shrub and herbaceous understory for predator avoidance; rock crevices as daytime retreats
+Response to Disturbance
+no information available
+Sources of Information used in the Model
+Reynolds et al. 1992
+General Sources of Background Information
+Burt 1980, reviewed in Reynolds et al. 1992, Bull 2000, Foresman 2001
+Summaries of Specific Studies
+Reynolds, Richard T.; Graham, Russell T.; Reiser, M. Hildegard, Bassett, Richard L.; Kennedy, Patricia L.; Boyce, Douglas A.; Goodwin, Greg; Smith, Randall; Fisher, E. Leon. 1992. Management recommendations for the Northern Goshawk in the southwestern United States. Gen. Tech. Rep. RM-217. Fort Collins, CO: USDA, Forest Service, Rocky Mountain Forest and Range Experiment Station. 90 p.
+
+Study Location: review
+Habitat Description: review
+Summary: Habitat needs of a variety of northern goshawk prey are identified by a literature review. Management recommendations are made in regard to nesting, foraging, and other life history attributes.
+
+

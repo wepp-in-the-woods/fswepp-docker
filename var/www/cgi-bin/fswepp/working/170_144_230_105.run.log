@@ -1,0 +1,922 @@
+WE	wepp-72159	"09:18 am  Thursday August 16, 2018"	"Carr Fire Low +"	clay	50	chap	10	10	10	300	u	80	0	ft
+WE	wepp-72219	"09:19 am  Thursday August 16, 2018"	"Carr Fire Low +"	clay	50	chap	30	30	30	275	u	80	0	ft
+WE	wepp-72251	"09:19 am  Thursday August 16, 2018"	"Carr Fire High +"	clay	50	chap	50	50	50	250	u	80	0	ft
+WE	wepp-72285	"09:19 am  Thursday August 16, 2018"	"Carr Fire High +"	clay	50	chap	70	70	70	225	u	80	0	ft
+WE	wepp-72317	"09:19 am  Thursday August 16, 2018"	"Carr Fire Low +"	clay	50	forest	10	10	10	300	u			ft
+WE	wepp-72349	"09:19 am  Thursday August 16, 2018"	"Carr Fire Low +"	clay	50	forest	30	30	30	275	u			ft
+WE	wepp-72381	"09:19 am  Thursday August 16, 2018"	"Carr Fire Low +"	clay	50	forest	50	50	50	250	u			ft
+WE	wepp-72415	"09:19 am  Thursday August 16, 2018"	"Carr Fire Low +"	clay	50	forest	70	70	70	225	u			ft
+WE	wepp-72447	"09:19 am  Thursday August 16, 2018"	"Carr Fire High +"	clay	5	chap	10	10	10	300	u	80	0	ft
+WE	wepp-72479	"09:19 am  Thursday August 16, 2018"	"Carr Fire Low +"	clay	5	chap	10	10	10	300	u	80	0	ft
+WE	wepp-72511	"09:19 am  Thursday August 16, 2018"	"Carr Fire Low +"	clay	5	chap	30	30	30	275	u	80	0	ft
+WE	wepp-72544	"09:19 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	20	chap	10	10	10	300	u	80	0	ft
+WE	wepp-72576	"09:19 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	20	chap	10	10	10	300	u	80	0	ft
+WE	wepp-72609	"09:19 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	20	chap	30	30	30	275	u	80	0	ft
+WE	wepp-72641	"09:19 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	20	chap	30	30	30	275	u	80	0	ft
+WE	wepp-72673	"09:19 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	20	chap	50	50	50	250	u	80	0	ft
+WE	wepp-72705	"09:19 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	20	chap	70	70	70	225	u	80	0	ft
+WE	wepp-72738	"09:19 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	20	chap	90	90	90	200	u	80	0	ft
+WE	wepp-72770	"09:19 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	20	forest	10	10	10	300	u			ft
+WE	wepp-72802	"09:19 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	20	forest	10	10	10	300	u			ft
+WE	wepp-72834	"09:19 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	20	forest	30	30	30	275	u			ft
+WE	wepp-72866	"09:19 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	20	forest	30	30	30	275	u			ft
+WE	wepp-72899	"09:20 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	20	forest	50	50	50	250	u			ft
+WE	wepp-72931	"09:20 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	20	forest	50	50	50	250	u			ft
+WE	wepp-72965	"09:20 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	20	forest	70	70	70	225	u			ft
+WE	wepp-72997	"09:20 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	20	forest	70	70	70	225	u			ft
+WE	wepp-73029	"09:20 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	20	forest	90	90	90	200	u			ft
+WE	wepp-73061	"09:20 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	20	forest	90	90	90	200	u			ft
+WE	wepp-73093	"09:20 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	50	chap	10	10	10	300	u	80	0	ft
+WE	wepp-73125	"09:20 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	50	chap	10	10	10	300	u	80	0	ft
+WE	wepp-73157	"09:20 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	50	chap	30	30	30	275	u	80	0	ft
+WE	wepp-73190	"09:20 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	50	chap	30	30	30	275	u	80	0	ft
+WE	wepp-73222	"09:20 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	50	chap	50	50	50	250	u	80	0	ft
+WE	wepp-73254	"09:20 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	50	chap	50	50	50	250	u	80	0	ft
+WE	wepp-73286	"09:20 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	50	chap	70	70	70	225	u	80	0	ft
+WE	wepp-73318	"09:20 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	50	chap	70	70	70	225	u	80	0	ft
+WE	wepp-73350	"09:20 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	50	chap	90	90	90	200	u	80	0	ft
+WE	wepp-73383	"09:20 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	50	chap	90	90	90	200	u	80	0	ft
+WE	wepp-73417	"09:20 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	50	forest	10	10	10	300	u			ft
+WE	wepp-73449	"09:20 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	50	forest	10	10	10	300	u			ft
+WE	wepp-73481	"09:20 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	50	forest	30	30	30	275	u			ft
+WE	wepp-73514	"09:20 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	50	forest	30	30	30	275	u			ft
+WE	wepp-73546	"09:21 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	50	forest	50	50	50	250	u			ft
+WE	wepp-73578	"09:21 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	50	forest	50	50	50	250	u			ft
+WE	wepp-73612	"09:21 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	50	forest	70	70	70	225	u			ft
+WE	wepp-73644	"09:21 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	50	forest	70	70	70	225	u			ft
+WE	wepp-73676	"09:21 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	50	forest	90	90	90	200	u			ft
+WE	wepp-73709	"09:21 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	50	forest	90	90	90	200	u			ft
+WE	wepp-73741	"09:21 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	5	chap	10	10	10	300	u	80	0	ft
+WE	wepp-73773	"09:21 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	5	chap	30	30	30	275	u	80	0	ft
+WE	wepp-73805	"09:21 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	5	forest	30	30	30	275	u			ft
+WE	wepp-73838	"09:21 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	5	forest	50	50	50	250	u			ft
+WE	wepp-73871	"09:21 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	20	chap	30	30	30	275	u	80	0	ft
+WE	wepp-73903	"09:21 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	20	chap	50	50	50	250	u	80	0	ft
+WE	wepp-73935	"09:21 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	20	chap	70	70	70	225	u	80	0	ft
+WE	wepp-73967	"09:21 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	20	chap	90	90	90	200	u	80	0	ft
+WE	wepp-73999	"09:21 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	20	forest	30	30	30	275	u			ft
+WE	wepp-74031	"09:21 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	20	forest	50	50	50	250	u			ft
+WE	wepp-74063	"09:21 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	20	forest	90	90	90	200	u			ft
+WE	wepp-74096	"09:21 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	50	chap	10	10	10	300	u	80	0	ft
+WE	wepp-74129	"09:21 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	50	chap	10	10	10	300	u	80	0	ft
+WE	wepp-74161	"09:22 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	50	chap	30	30	30	275	u	80	0	ft
+WE	wepp-74193	"09:22 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	50	chap	30	30	30	275	u	80	0	ft
+WE	wepp-74227	"09:22 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	50	chap	50	50	50	250	u	80	0	ft
+WE	wepp-74259	"09:22 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	50	chap	50	50	50	250	u	80	0	ft
+WE	wepp-74291	"09:22 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	50	chap	70	70	70	225	u	80	0	ft
+WE	wepp-74323	"09:22 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	50	chap	70	70	70	225	u	80	0	ft
+WE	wepp-74355	"09:22 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	50	chap	90	90	90	200	u	80	0	ft
+WE	wepp-74387	"09:22 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	50	chap	90	90	90	200	u	80	0	ft
+WE	wepp-74419	"09:22 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	50	forest	10	10	10	300	u			ft
+WE	wepp-74452	"09:22 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	50	forest	10	10	10	300	u			ft
+WE	wepp-74484	"09:22 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	50	forest	30	30	30	275	u			ft
+WE	wepp-74516	"09:22 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	50	forest	30	30	30	275	u			ft
+WE	wepp-74548	"09:22 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	50	forest	50	50	50	250	u			ft
+WE	wepp-74582	"09:22 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	50	forest	50	50	50	250	u			ft
+WE	wepp-74615	"09:22 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	50	forest	70	70	70	225	u			ft
+WE	wepp-74647	"09:22 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	50	forest	70	70	70	225	u			ft
+WE	wepp-74679	"09:22 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	50	forest	90	90	90	200	u			ft
+WE	wepp-74711	"09:22 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	50	forest	90	90	90	200	u			ft
+WE	wepp-74743	"09:22 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	5	chap	10	10	10	300	u	80	0	ft
+WE	wepp-74776	"09:23 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	5	chap	10	10	10	300	u	80	0	ft
+WE	wepp-74808	"09:23 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	5	chap	30	30	30	275	u	80	0	ft
+WE	wepp-74842	"09:23 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	5	chap	30	30	30	275	u	80	0	ft
+WE	wepp-74874	"09:23 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	5	chap	50	50	50	250	u	80	0	ft
+WE	wepp-74906	"09:23 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	5	chap	50	50	50	250	u	80	0	ft
+WE	wepp-74938	"09:23 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	5	chap	70	70	70	225	u	80	0	ft
+WE	wepp-74970	"09:23 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	5	chap	70	70	70	225	u	80	0	ft
+WE	wepp-75002	"09:23 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	5	chap	90	90	90	200	u	80	0	ft
+WE	wepp-75034	"09:23 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	5	chap	90	90	90	200	u	80	0	ft
+WE	wepp-75066	"09:23 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	5	forest	10	10	10	300	u			ft
+WE	wepp-75098	"09:23 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	5	forest	10	10	10	300	u			ft
+WE	wepp-75131	"09:23 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	5	forest	30	30	30	275	u			ft
+WE	wepp-75163	"09:23 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	5	forest	30	30	30	275	u			ft
+WE	wepp-75195	"09:23 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	5	forest	50	50	50	250	u			ft
+WE	wepp-75227	"09:23 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	5	forest	50	50	50	250	u			ft
+WE	wepp-75259	"09:23 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	5	forest	70	70	70	225	u			ft
+WE	wepp-75291	"09:23 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	5	forest	70	70	70	225	u			ft
+WE	wepp-75323	"09:23 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	5	forest	90	90	90	200	u			ft
+WE	wepp-75355	"09:23 am  Thursday August 16, 2018"	"Carr Fire Low +"	clay	50	chap	10	10	10	300	l	80	0	ft
+WE	wepp-75450	"09:24 am  Thursday August 16, 2018"	"Carr Fire High +"	clay	50	chap	30	30	30	275	l	80	0	ft
+WE	wepp-75545	"09:24 am  Thursday August 16, 2018"	"Carr Fire Low +"	clay	50	chap	30	30	30	275	l	80	0	ft
+WE	wepp-75637	"09:24 am  Thursday August 16, 2018"	"Carr Fire High +"	clay	50	chap	50	50	50	250	l	80	0	ft
+WE	wepp-75729	"09:24 am  Thursday August 16, 2018"	"Carr Fire Low +"	clay	50	chap	50	50	50	250	l	80	0	ft
+WE	wepp-75822	"09:24 am  Thursday August 16, 2018"	"Carr Fire High +"	clay	50	chap	70	70	70	225	l	80	0	ft
+WE	wepp-75914	"09:24 am  Thursday August 16, 2018"	"Carr Fire Low +"	clay	50	chap	70	70	70	225	l	80	0	ft
+WE	wepp-76006	"09:24 am  Thursday August 16, 2018"	"Carr Fire High +"	clay	50	forest	10	10	10	300	l			ft
+WE	wepp-76103	"09:25 am  Thursday August 16, 2018"	"Carr Fire Low +"	clay	50	forest	10	10	10	300	l			ft
+WE	wepp-76198	"09:25 am  Thursday August 16, 2018"	"Carr Fire High +"	clay	50	forest	30	30	30	275	l			ft
+WE	wepp-76291	"09:25 am  Thursday August 16, 2018"	"Carr Fire Low +"	clay	50	forest	30	30	30	275	l			ft
+WE	wepp-76385	"09:25 am  Thursday August 16, 2018"	"Carr Fire High +"	clay	50	forest	50	50	50	250	l			ft
+WE	wepp-76478	"09:25 am  Thursday August 16, 2018"	"Carr Fire Low +"	clay	50	forest	50	50	50	250	l			ft
+WE	wepp-76570	"09:25 am  Thursday August 16, 2018"	"Carr Fire High +"	clay	50	forest	70	70	70	225	l			ft
+WE	wepp-76663	"09:26 am  Thursday August 16, 2018"	"Carr Fire Low +"	clay	50	forest	70	70	70	225	l			ft
+WE	wepp-76757	"09:26 am  Thursday August 16, 2018"	"Carr Fire Low +"	clay	50	forest	90	90	90	200	l			ft
+WE	wepp-76850	"09:26 am  Thursday August 16, 2018"	"Carr Fire High +"	clay	5	chap	10	10	10	300	l	80	0	ft
+WE	wepp-76944	"09:26 am  Thursday August 16, 2018"	"Carr Fire Low +"	clay	5	chap	10	10	10	300	l	80	0	ft
+WE	wepp-77037	"09:26 am  Thursday August 16, 2018"	"Carr Fire High +"	clay	5	chap	30	30	30	275	l	80	0	ft
+WE	wepp-77129	"09:26 am  Thursday August 16, 2018"	"Carr Fire Low +"	clay	5	chap	30	30	30	275	l	80	0	ft
+WE	wepp-77222	"09:27 am  Thursday August 16, 2018"	"Carr Fire High +"	clay	5	chap	50	50	50	250	l	80	0	ft
+WE	wepp-77316	"09:27 am  Thursday August 16, 2018"	"Carr Fire Low +"	clay	5	chap	50	50	50	250	l	80	0	ft
+WE	wepp-77408	"09:27 am  Thursday August 16, 2018"	"Carr Fire High +"	clay	5	chap	70	70	70	225	l	80	0	ft
+WE	wepp-77501	"09:27 am  Thursday August 16, 2018"	"Carr Fire Low +"	clay	5	chap	70	70	70	225	l	80	0	ft
+WE	wepp-77594	"09:27 am  Thursday August 16, 2018"	"Carr Fire High +"	clay	5	chap	90	90	90	200	l	80	0	ft
+WE	wepp-77686	"09:27 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	20	chap	10	10	10	300	l	80	0	ft
+WE	wepp-77779	"09:27 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	20	chap	10	10	10	300	l	80	0	ft
+WE	wepp-77873	"09:28 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	20	chap	30	30	30	275	l	80	0	ft
+WE	wepp-77966	"09:28 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	20	chap	30	30	30	275	l	80	0	ft
+WE	wepp-78058	"09:28 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	20	chap	50	50	50	250	l	80	0	ft
+WE	wepp-78152	"09:28 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	20	chap	50	50	50	250	l	80	0	ft
+WE	wepp-78244	"09:28 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	20	chap	70	70	70	225	l	80	0	ft
+WE	wepp-78337	"09:28 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	20	chap	70	70	70	225	l	80	0	ft
+WE	wepp-78430	"09:29 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	20	chap	90	90	90	200	l	80	0	ft
+WE	wepp-78524	"09:29 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	20	chap	90	90	90	200	l	80	0	ft
+WE	wepp-78616	"09:29 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	20	forest	10	10	10	300	l			ft
+WE	wepp-78709	"09:29 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	20	forest	10	10	10	300	l			ft
+WE	wepp-78801	"09:29 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	20	forest	30	30	30	275	l			ft
+WE	wepp-78893	"09:29 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	20	forest	30	30	30	275	l			ft
+WE	wepp-78988	"09:29 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	20	forest	30	30	30	275	l			ft
+WE	wepp-79082	"09:30 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	20	forest	50	50	50	250	l			ft
+WE	wepp-79212	"09:30 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	20	forest	50	50	50	250	l			ft
+WE	wepp-79305	"09:30 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	20	forest	50	50	50	250	l			ft
+WE	wepp-79407	"09:30 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	20	forest	50	50	50	250	l			ft
+WE	wepp-79499	"09:30 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	20	forest	70	70	70	225	l			ft
+WE	wepp-79591	"09:30 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	20	forest	70	70	70	225	l			ft
+WE	wepp-79683	"09:30 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	20	forest	70	70	70	225	l			ft
+WE	wepp-79778	"09:31 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	20	forest	90	90	90	200	l			ft
+WE	wepp-79870	"09:31 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	20	forest	90	90	90	200	l			ft
+WE	wepp-79962	"09:31 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	50	chap	10	10	10	300	l	80	0	ft
+WE	wepp-80056	"09:31 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	50	chap	10	10	10	300	l	80	0	ft
+WE	wepp-80148	"09:31 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	50	chap	30	30	30	275	l	80	0	ft
+WE	wepp-80240	"09:31 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	50	chap	30	30	30	275	l	80	0	ft
+WE	wepp-80333	"09:32 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	50	chap	50	50	50	250	l	80	0	ft
+WE	wepp-80427	"09:32 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	50	chap	50	50	50	250	l	80	0	ft
+WE	wepp-80519	"09:32 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	50	chap	50	50	50	250	l	80	0	ft
+WE	wepp-80613	"09:32 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	50	chap	70	70	70	225	l	80	0	ft
+WE	wepp-80707	"09:32 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	50	chap	70	70	70	225	l	80	0	ft
+WE	wepp-80799	"09:32 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	50	chap	90	90	90	200	l	80	0	ft
+WE	wepp-80892	"09:33 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	50	chap	90	90	90	200	l	80	0	ft
+WE	wepp-80986	"09:33 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	50	forest	10	10	10	300	l			ft
+WE	wepp-81078	"09:33 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	50	forest	10	10	10	300	l			ft
+WE	wepp-81172	"09:33 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	50	forest	30	30	30	275	l			ft
+WE	wepp-81268	"09:33 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	50	forest	30	30	30	275	l			ft
+WE	wepp-81360	"09:33 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	50	forest	50	50	50	250	l			ft
+WE	wepp-81453	"09:33 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	50	forest	50	50	50	250	l			ft
+WE	wepp-81546	"09:34 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	50	forest	70	70	70	225	l			ft
+WE	wepp-81640	"09:34 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	50	forest	70	70	70	225	l			ft
+WE	wepp-81732	"09:34 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	50	forest	90	90	90	200	l			ft
+WE	wepp-81825	"09:34 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	50	forest	90	90	90	200	l			ft
+WE	wepp-81917	"09:34 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	5	chap	10	10	10	300	l	80	0	ft
+WE	wepp-82009	"09:34 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	5	chap	30	30	30	275	l	80	0	ft
+WE	wepp-82102	"09:35 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	5	chap	50	50	50	250	l	80	0	ft
+WE	wepp-82199	"09:35 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	5	chap	90	90	90	200	l	80	0	ft
+WE	wepp-82291	"09:35 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	5	forest	10	10	10	300	l			ft
+WE	wepp-82383	"09:35 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	5	forest	30	30	30	275	l			ft
+WE	wepp-82477	"09:35 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	5	forest	50	50	50	250	l			ft
+WE	wepp-82569	"09:35 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	5	forest	70	70	70	225	l			ft
+WE	wepp-82661	"09:35 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	20	chap	10	10	10	300	l	80	0	ft
+WE	wepp-82754	"09:36 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	20	chap	10	10	10	300	l	80	0	ft
+WE	wepp-82848	"09:36 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	20	chap	30	30	30	275	l	80	0	ft
+WE	wepp-82940	"09:36 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	20	chap	50	50	50	250	l	80	0	ft
+WE	wepp-83032	"09:36 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	20	chap	70	70	70	225	l	80	0	ft
+WE	wepp-83152	"09:36 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	20	chap	70	70	70	225	l	80	0	ft
+WE	wepp-83244	"09:36 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	20	chap	90	90	90	200	l	80	0	ft
+WE	wepp-83336	"09:36 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	20	forest	10	10	10	300	l			ft
+WE	wepp-83429	"09:37 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	20	forest	30	30	30	275	l			ft
+WE	wepp-83523	"09:37 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	20	forest	50	50	50	250	l			ft
+WE	wepp-83615	"09:37 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	20	forest	70	70	70	225	l			ft
+WE	wepp-83708	"09:37 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	50	chap	10	10	10	300	l	80	0	ft
+WE	wepp-83800	"09:37 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	50	chap	10	10	10	300	l	80	0	ft
+WE	wepp-83892	"09:37 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	50	chap	30	30	30	275	l	80	0	ft
+WE	wepp-83985	"09:38 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	50	chap	30	30	30	275	l	80	0	ft
+WE	wepp-84079	"09:38 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	50	chap	50	50	50	250	l	80	0	ft
+WE	wepp-84171	"09:38 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	50	chap	50	50	50	250	l	80	0	ft
+WE	wepp-84264	"09:38 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	50	chap	70	70	70	225	l	80	0	ft
+WE	wepp-84357	"09:38 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	50	chap	70	70	70	225	l	80	0	ft
+WE	wepp-84449	"09:38 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	50	chap	90	90	90	200	l	80	0	ft
+WE	wepp-84541	"09:38 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	50	chap	90	90	90	200	l	80	0	ft
+WE	wepp-84689	"09:39 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	50	forest	10	10	10	300	l			ft
+WE	wepp-84783	"09:39 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	50	forest	10	10	10	300	l			ft
+WE	wepp-84875	"09:39 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	50	forest	30	30	30	275	l			ft
+WE	wepp-84968	"09:39 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	50	forest	30	30	30	275	l			ft
+WE	wepp-85060	"09:39 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	50	forest	30	30	30	275	l			ft
+WE	wepp-85152	"09:39 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	50	forest	50	50	50	250	l			ft
+WE	wepp-85245	"09:40 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	50	forest	50	50	50	250	l			ft
+WE	wepp-85339	"09:40 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	50	forest	50	50	50	250	l			ft
+WE	wepp-85431	"09:40 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	50	forest	70	70	70	225	l			ft
+WE	wepp-85543	"09:40 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	50	forest	70	70	70	225	l			ft
+WE	wepp-85638	"09:40 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	50	forest	70	70	70	225	l			ft
+WE	wepp-85730	"09:40 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	50	forest	90	90	90	200	l			ft
+WE	wepp-85822	"09:40 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	5	forest	90	90	90	200	l			ft
+WE	wepp-85915	"09:41 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	5	chap	10	10	10	300	l	80	0	ft
+WE	wepp-86009	"09:41 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	5	chap	10	10	10	300	l	80	0	ft
+WE	wepp-86101	"09:41 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	5	chap	30	30	30	275	l	80	0	ft
+WE	wepp-86195	"09:41 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	5	chap	30	30	30	275	l	80	0	ft
+WE	wepp-86287	"09:41 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	5	chap	30	30	30	275	l	80	0	ft
+WE	wepp-86379	"09:41 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	5	chap	50	50	50	250	l	80	0	ft
+WE	wepp-86472	"09:41 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	5	chap	50	50	50	250	l	80	0	ft
+WE	wepp-86567	"09:42 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	5	chap	50	50	50	250	l	80	0	ft
+WE	wepp-86660	"09:42 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	5	chap	50	50	50	250	l	80	0	ft
+WE	wepp-86752	"09:42 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	5	chap	70	70	70	225	l	80	0	ft
+WE	wepp-86845	"09:42 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	5	chap	70	70	70	225	l	80	0	ft
+WE	wepp-86939	"09:42 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	5	chap	90	90	90	200	l	80	0	ft
+WE	wepp-87034	"09:42 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	5	chap	90	90	90	200	l	80	0	ft
+WE	wepp-87127	"09:43 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	5	forest	10	10	10	300	l			ft
+WE	wepp-87221	"09:43 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	5	forest	10	10	10	300	l			ft
+WE	wepp-87313	"09:43 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	5	forest	30	30	30	275	l			ft
+WE	wepp-87405	"09:43 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	5	forest	30	30	30	275	l			ft
+WE	wepp-87498	"09:43 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	5	forest	50	50	50	250	l			ft
+WE	wepp-87590	"09:43 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	5	forest	50	50	50	250	l			ft
+WE	wepp-87682	"09:43 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	5	forest	70	70	70	225	l			ft
+WE	wepp-87774	"09:43 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	5	forest	70	70	70	225	l			ft
+WE	wepp-87869	"09:44 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	5	forest	90	90	90	200	l			ft
+WE	wepp-87963	"09:44 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	5	forest	90	90	90	200	l			ft
+WE	wepp-88055	"09:44 am  Thursday August 16, 2018"	"Carr Fire High +"	clay	50	chap	10	10	10	300	m	80	0	ft
+WE	wepp-88188	"09:44 am  Thursday August 16, 2018"	"Carr Fire Low +"	clay	50	chap	10	10	10	300	m	80	0	ft
+WE	wepp-88320	"09:44 am  Thursday August 16, 2018"	"Carr Fire High +"	clay	50	chap	30	30	30	275	m	80	0	ft
+WE	wepp-88452	"09:44 am  Thursday August 16, 2018"	"Carr Fire Low +"	clay	50	chap	30	30	30	275	m	80	0	ft
+WE	wepp-88585	"09:45 am  Thursday August 16, 2018"	"Carr Fire High +"	clay	50	chap	50	50	50	250	m	80	0	ft
+WE	wepp-88728	"09:45 am  Thursday August 16, 2018"	"Carr Fire Low +"	clay	50	chap	50	50	50	250	m	80	0	ft
+WE	wepp-88910	"09:45 am  Thursday August 16, 2018"	"Carr Fire High +"	clay	50	chap	70	70	70	225	m	80	0	ft
+WE	wepp-89056	"09:45 am  Thursday August 16, 2018"	"Carr Fire Low +"	clay	50	chap	70	70	70	225	m	80	0	ft
+WE	wepp-89192	"09:45 am  Thursday August 16, 2018"	"Carr Fire High +"	clay	50	forest	10	10	10	300	m			ft
+WE	wepp-89324	"09:45 am  Thursday August 16, 2018"	"Carr Fire Low +"	clay	50	forest	10	10	10	300	m			ft
+WE	wepp-89457	"09:46 am  Thursday August 16, 2018"	"Carr Fire High +"	clay	50	forest	30	30	30	275	m			ft
+WE	wepp-89593	"09:46 am  Thursday August 16, 2018"	"Carr Fire Low +"	clay	50	forest	30	30	30	275	m			ft
+WE	wepp-89725	"09:46 am  Thursday August 16, 2018"	"Carr Fire High +"	clay	50	forest	50	50	50	250	m			ft
+WE	wepp-89859	"09:46 am  Thursday August 16, 2018"	"Carr Fire Low +"	clay	50	forest	50	50	50	250	m			ft
+WE	wepp-89991	"09:46 am  Thursday August 16, 2018"	"Carr Fire High +"	clay	50	forest	70	70	70	225	m			ft
+WE	wepp-90124	"09:47 am  Thursday August 16, 2018"	"Carr Fire Low +"	clay	50	forest	70	70	70	225	m			ft
+WE	wepp-90258	"09:47 am  Thursday August 16, 2018"	"Carr Fire Low +"	clay	50	forest	90	90	90	200	m			ft
+WE	wepp-90390	"09:47 am  Thursday August 16, 2018"	"Carr Fire High +"	clay	5	chap	10	10	10	300	m	80	0	ft
+WE	wepp-90523	"09:47 am  Thursday August 16, 2018"	"Carr Fire Low +"	clay	5	chap	10	10	10	300	m	80	0	ft
+WE	wepp-90655	"09:47 am  Thursday August 16, 2018"	"Carr Fire High +"	clay	5	chap	30	30	30	275	m	80	0	ft
+WE	wepp-90787	"09:47 am  Thursday August 16, 2018"	"Carr Fire Low +"	clay	5	chap	30	30	30	275	m	80	0	ft
+WE	wepp-90920	"09:48 am  Thursday August 16, 2018"	"Carr Fire High +"	clay	5	chap	50	50	50	250	m	80	0	ft
+WE	wepp-91054	"09:48 am  Thursday August 16, 2018"	"Carr Fire Low +"	clay	5	chap	50	50	50	250	m	80	0	ft
+WE	wepp-91186	"09:48 am  Thursday August 16, 2018"	"Carr Fire High +"	clay	5	chap	70	70	70	225	m	80	0	ft
+WE	wepp-91319	"09:48 am  Thursday August 16, 2018"	"Carr Fire Low +"	clay	5	chap	70	70	70	225	m	80	0	ft
+WE	wepp-91451	"09:48 am  Thursday August 16, 2018"	"Carr Fire High +"	clay	5	chap	90	90	90	200	m	80	0	ft
+WE	wepp-91584	"09:49 am  Thursday August 16, 2018"	"Carr Fire Low +"	clay	5	chap	90	90	90	200	m	80	0	ft
+WE	wepp-91718	"09:49 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	20	chap	10	10	10	300	m	80	0	ft
+WE	wepp-91850	"09:49 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	20	chap	10	10	10	300	m	80	0	ft
+WE	wepp-91983	"09:49 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	20	chap	30	30	30	275	m	80	0	ft
+WE	wepp-92115	"09:49 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	20	chap	30	30	30	275	m	80	0	ft
+WE	wepp-92247	"09:49 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	20	chap	50	50	50	250	m	80	0	ft
+WE	wepp-92380	"09:50 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	20	chap	50	50	50	250	m	80	0	ft
+WE	wepp-92514	"09:50 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	20	chap	70	70	70	225	m	80	0	ft
+WE	wepp-92647	"09:50 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	20	chap	70	70	70	225	m	80	0	ft
+WE	wepp-92780	"09:50 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	20	chap	90	90	90	200	m	80	0	ft
+WE	wepp-92912	"09:50 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	20	chap	90	90	90	200	m	80	0	ft
+WE	wepp-93045	"09:50 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	20	forest	10	10	10	300	m			ft
+WE	wepp-93179	"09:51 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	20	forest	10	10	10	300	m			ft
+WE	wepp-93311	"09:51 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	20	forest	30	30	30	275	m			ft
+WE	wepp-93445	"09:51 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	20	forest	30	30	30	275	m			ft
+WE	wepp-93577	"09:51 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	20	forest	30	30	30	275	m			ft
+WE	wepp-93709	"09:51 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	20	forest	50	50	50	250	m			ft
+WE	wepp-93842	"09:52 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	20	forest	50	50	50	250	m			ft
+WE	wepp-93976	"09:52 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	20	forest	50	50	50	250	m			ft
+WE	wepp-94108	"09:52 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	20	forest	70	70	70	225	m			ft
+WE	wepp-94241	"09:52 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	20	forest	70	70	70	225	m			ft
+WE	wepp-94398	"09:52 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	20	forest	90	90	90	200	m			ft
+WE	wepp-94530	"09:52 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	20	forest	90	90	90	200	m			ft
+WE	wepp-94663	"09:53 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	50	chap	10	10	10	300	m	80	0	ft
+WE	wepp-94797	"09:53 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	50	chap	10	10	10	300	m	80	0	ft
+WE	wepp-94929	"09:53 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	50	chap	30	30	30	275	m	80	0	ft
+WE	wepp-95062	"09:53 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	50	chap	30	30	30	275	m	80	0	ft
+WE	wepp-95194	"09:53 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	50	chap	30	30	30	275	m	80	0	ft
+WE	wepp-95327	"09:54 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	50	chap	50	50	50	250	m	80	0	ft
+WE	wepp-95461	"09:54 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	50	chap	50	50	50	250	m	80	0	ft
+WE	wepp-95593	"09:54 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	50	chap	50	50	50	250	m	80	0	ft
+WE	wepp-95726	"09:54 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	50	chap	70	70	70	225	m	80	0	ft
+WE	wepp-95858	"09:54 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	50	chap	70	70	70	225	m	80	0	ft
+WE	wepp-95990	"09:54 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	50	chap	90	90	90	200	m	80	0	ft
+WE	wepp-96128	"09:55 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	50	chap	90	90	90	200	m	80	0	ft
+WE	wepp-96260	"09:55 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	50	forest	10	10	10	300	m			ft
+WE	wepp-96393	"09:55 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	50	forest	10	10	10	300	m			ft
+WE	wepp-96526	"09:55 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	50	forest	30	30	30	275	m			ft
+WE	wepp-96658	"09:55 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	50	forest	30	30	30	275	m			ft
+WE	wepp-96791	"09:56 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	50	forest	50	50	50	250	m			ft
+WE	wepp-96925	"09:56 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	50	forest	50	50	50	250	m			ft
+WE	wepp-97057	"09:56 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	50	forest	70	70	70	225	m			ft
+WE	wepp-97194	"09:56 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	50	forest	70	70	70	225	m			ft
+WE	wepp-97326	"09:56 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	50	forest	90	90	90	200	m			ft
+WE	wepp-97459	"09:57 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	50	forest	90	90	90	200	m			ft
+WE	wepp-97593	"09:57 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	5	chap	10	10	10	300	m	80	0	ft
+WE	wepp-97725	"09:57 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	5	chap	10	10	10	300	m	80	0	ft
+WE	wepp-97858	"09:57 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	5	chap	30	30	30	275	m	80	0	ft
+WE	wepp-97990	"09:57 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	5	chap	30	30	30	275	m	80	0	ft
+WE	wepp-98123	"09:58 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	5	chap	50	50	50	250	m	80	0	ft
+WE	wepp-98257	"09:58 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	5	chap	50	50	50	250	m	80	0	ft
+WE	wepp-98389	"09:58 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	5	chap	70	70	70	225	m	80	0	ft
+WE	wepp-98523	"09:58 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	5	chap	70	70	70	225	m	80	0	ft
+WE	wepp-98655	"09:58 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	5	forest	10	10	10	300	m			ft
+WE	wepp-98788	"09:58 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	5	forest	30	30	30	275	m			ft
+WE	wepp-98922	"09:59 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	5	forest	50	50	50	250	m			ft
+WE	wepp-99056	"09:59 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	5	forest	70	70	70	225	m			ft
+WE	wepp-99188	"09:59 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	20	chap	10	10	10	300	m	80	0	ft
+WE	wepp-99321	"09:59 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	20	chap	30	30	30	275	m	80	0	ft
+WE	wepp-99453	"09:59 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	20	chap	50	50	50	250	m	80	0	ft
+WE	wepp-99586	"10:00 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	20	chap	70	70	70	225	m	80	0	ft
+WE	wepp-99721	"10:00 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	20	forest	10	10	10	300	m			ft
+WE	wepp-99892	"10:00 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	20	forest	30	30	30	275	m			ft
+WE	wepp-100034	"10:00 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	20	forest	30	30	30	275	m			ft
+WE	wepp-100166	"10:00 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	20	forest	50	50	50	250	m			ft
+WE	wepp-100298	"10:00 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	20	forest	50	50	50	250	m			ft
+WE	wepp-100431	"10:01 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	20	forest	70	70	70	225	m			ft
+WE	wepp-100565	"10:01 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	50	chap	10	10	10	300	m	80	0	ft
+WE	wepp-100698	"10:01 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	50	chap	10	10	10	300	m	80	0	ft
+WE	wepp-100831	"10:01 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	50	chap	30	30	30	275	m	80	0	ft
+WE	wepp-100963	"10:01 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	50	chap	30	30	30	275	m	80	0	ft
+WE	wepp-101096	"10:02 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	50	chap	50	50	50	250	m	80	0	ft
+WE	wepp-101232	"10:02 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	50	chap	50	50	50	250	m	80	0	ft
+WE	wepp-101364	"10:02 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	50	chap	70	70	70	225	m	80	0	ft
+WE	wepp-101498	"10:02 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	50	chap	70	70	70	225	m	80	0	ft
+WE	wepp-101633	"10:02 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	50	chap	90	90	90	200	m	80	0	ft
+WE	wepp-101766	"10:02 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	50	chap	90	90	90	200	m	80	0	ft
+WE	wepp-101900	"10:03 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	50	forest	10	10	10	300	m			ft
+WE	wepp-102032	"10:03 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	50	forest	10	10	10	300	m			ft
+WE	wepp-102165	"10:03 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	50	forest	30	30	30	275	m			ft
+WE	wepp-102297	"10:03 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	50	forest	30	30	30	275	m			ft
+WE	wepp-102429	"10:03 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	50	forest	50	50	50	250	m			ft
+WE	wepp-102562	"10:04 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	50	forest	50	50	50	250	m			ft
+WE	wepp-102696	"10:04 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	50	forest	50	50	50	250	m			ft
+WE	wepp-102828	"10:04 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	50	forest	70	70	70	225	m			ft
+WE	wepp-102971	"10:04 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	50	forest	70	70	70	225	m			ft
+WE	wepp-103104	"10:04 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	50	forest	90	90	90	200	m			ft
+WE	wepp-103236	"10:04 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	50	forest	90	90	90	200	m			ft
+WE	wepp-103373	"10:05 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	5	chap	10	10	10	300	m	80	0	ft
+WE	wepp-103508	"10:05 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	5	chap	10	10	10	300	m	80	0	ft
+WE	wepp-103640	"10:05 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	5	chap	30	30	30	275	m	80	0	ft
+WE	wepp-103774	"10:05 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	5	chap	30	30	30	275	m	80	0	ft
+WE	wepp-103906	"10:05 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	5	chap	30	30	30	275	m	80	0	ft
+WE	wepp-104038	"10:05 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	5	chap	50	50	50	250	m	80	0	ft
+WE	wepp-104171	"10:06 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	5	chap	50	50	50	250	m	80	0	ft
+WE	wepp-104305	"10:06 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	5	chap	50	50	50	250	m	80	0	ft
+WE	wepp-104437	"10:06 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	5	chap	50	50	50	250	m	80	0	ft
+WE	wepp-104571	"10:06 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	5	chap	70	70	70	225	m	80	0	ft
+WE	wepp-104704	"10:06 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	5	chap	70	70	70	225	m	80	0	ft
+WE	wepp-104836	"10:06 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	5	chap	90	90	90	200	m	80	0	ft
+WE	wepp-104969	"10:07 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	5	chap	90	90	90	200	m	80	0	ft
+WE	wepp-105103	"10:07 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	5	forest	10	10	10	300	m			ft
+WE	wepp-105235	"10:07 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	5	forest	10	10	10	300	m			ft
+WE	wepp-105368	"10:07 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	5	forest	30	30	30	275	m			ft
+WE	wepp-105500	"10:07 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	5	forest	30	30	30	275	m			ft
+WE	wepp-105632	"10:07 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	5	forest	50	50	50	250	m			ft
+WE	wepp-105767	"10:08 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	5	forest	50	50	50	250	m			ft
+WE	wepp-105899	"10:08 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	5	forest	50	50	50	250	m			ft
+WE	wepp-106031	"10:08 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	5	forest	70	70	70	225	m			ft
+WE	wepp-106164	"10:08 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	5	forest	70	70	70	225	m			ft
+WE	wepp-106297	"10:08 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	5	forest	90	90	90	200	m			ft
+WE	wepp-106429	"10:08 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	5	forest	90	90	90	200	m			ft
+WE	wepp-106619	"10:09 am  Thursday August 16, 2018"	"Carr Fire Low +"	clay	5	forest	10	10	10	300	h			ft
+WE	wepp-106791	"10:09 am  Thursday August 16, 2018"	"Carr Fire High +"	clay	50	forest	30	30	30	275	h			ft
+WE	wepp-106964	"10:09 am  Thursday August 16, 2018"	"Carr Fire Low +"	clay	50	forest	30	30	30	275	h			ft
+WE	wepp-107136	"10:09 am  Thursday August 16, 2018"	"Carr Fire High +"	clay	50	forest	50	50	50	250	h			ft
+WE	wepp-107309	"10:10 am  Thursday August 16, 2018"	"Carr Fire Low +"	clay	50	forest	50	50	50	250	h			ft
+WE	wepp-107483	"10:10 am  Thursday August 16, 2018"	"Carr Fire Low +"	clay	50	forest	70	70	70	225	h			ft
+WE	wepp-107656	"10:10 am  Thursday August 16, 2018"	"Carr Fire High +"	clay	5	chap	30	30	30	275	h	80	0	ft
+WE	wepp-107829	"10:10 am  Thursday August 16, 2018"	"Carr Fire Low +"	clay	5	chap	30	30	30	275	h	80	0	ft
+WE	wepp-108001	"10:10 am  Thursday August 16, 2018"	"Carr Fire High +"	clay	5	chap	50	50	50	250	h	80	0	ft
+WE	wepp-108176	"10:11 am  Thursday August 16, 2018"	"Carr Fire Low +"	clay	5	chap	50	50	50	250	h	80	0	ft
+WE	wepp-108348	"10:11 am  Thursday August 16, 2018"	"Carr Fire High +"	clay	5	chap	70	70	70	225	h	80	0	ft
+WE	wepp-108542	"10:11 am  Thursday August 16, 2018"	"Carr Fire Low +"	clay	5	chap	70	70	70	225	h	80	0	ft
+WE	wepp-108714	"10:11 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	20	chap	10	10	10	300	h	80	0	ft
+WE	wepp-108887	"10:12 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	20	chap	30	30	30	275	h	80	0	ft
+WE	wepp-109061	"10:12 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	20	chap	30	30	30	275	h	80	0	ft
+WE	wepp-109234	"10:12 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	20	chap	50	50	50	250	h	80	0	ft
+WE	wepp-109411	"10:12 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	20	chap	50	50	50	250	h	80	0	ft
+WE	wepp-109584	"10:12 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	20	chap	70	70	70	225	h	80	0	ft
+WE	wepp-109759	"10:13 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	20	chap	70	70	70	225	h	80	0	ft
+WE	wepp-109931	"10:13 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	20	forest	10	10	10	300	h			ft
+WE	wepp-110104	"10:13 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	20	forest	30	30	30	275	h			ft
+WE	wepp-110276	"10:13 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	20	forest	30	30	30	275	h			ft
+WE	wepp-110449	"10:14 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	20	forest	50	50	50	250	h			ft
+WE	wepp-110623	"10:14 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	20	forest	50	50	50	250	h			ft
+WE	wepp-110795	"10:14 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	20	forest	70	70	70	225	h			ft
+WE	wepp-110969	"10:14 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	20	forest	70	70	70	225	h			ft
+WE	wepp-111141	"10:14 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	20	forest	90	90	90	200	h			ft
+WE	wepp-111317	"10:15 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	50	chap	10	10	10	300	h	80	0	ft
+WE	wepp-111578	"10:15 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	50	chap	10	10	10	300	h	80	0	ft
+WE	wepp-111761	"10:15 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	50	chap	30	30	30	275	h	80	0	ft
+WE	wepp-111934	"10:15 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	50	chap	30	30	30	275	h	80	0	ft
+WE	wepp-112106	"10:15 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	50	chap	50	50	50	250	h	80	0	ft
+WE	wepp-112281	"10:16 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	50	chap	50	50	50	250	h	80	0	ft
+WE	wepp-112453	"10:16 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	50	chap	70	70	70	225	h	80	0	ft
+WE	wepp-112627	"10:16 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	50	chap	70	70	70	225	h	80	0	ft
+WE	wepp-112801	"10:16 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	50	chap	90	90	90	200	h	80	0	ft
+WE	wepp-112977	"10:17 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	50	forest	10	10	10	300	h			ft
+WE	wepp-113151	"10:17 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	50	forest	10	10	10	300	h			ft
+WE	wepp-113324	"10:17 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	50	forest	30	30	30	275	h			ft
+WE	wepp-113496	"10:17 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	50	forest	30	30	30	275	h			ft
+WE	wepp-113668	"10:17 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	50	forest	50	50	50	250	h			ft
+WE	wepp-113843	"10:18 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	50	forest	50	50	50	250	h			ft
+WE	wepp-114015	"10:18 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	50	forest	70	70	70	225	h			ft
+WE	wepp-114188	"10:18 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	50	forest	70	70	70	225	h			ft
+WE	wepp-114361	"10:18 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	50	forest	90	90	90	200	h			ft
+WE	wepp-114534	"10:19 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	50	forest	90	90	90	200	h			ft
+WE	wepp-114708	"10:19 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	5	chap	50	50	50	250	h	80	0	ft
+WE	wepp-114881	"10:19 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	5	chap	70	70	70	225	h	80	0	ft
+WE	wepp-115053	"10:19 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	5	forest	30	30	30	275	h			ft
+WE	wepp-115225	"10:19 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	5	forest	50	50	50	250	h			ft
+WE	wepp-115401	"10:20 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	5	forest	70	70	70	225	h			ft
+WE	wepp-115575	"10:20 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	20	forest	30	30	30	275	h			ft
+WE	wepp-115748	"10:20 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	20	forest	50	50	50	250	h			ft
+WE	wepp-115921	"10:20 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	20	forest	70	70	70	225	h			ft
+WE	wepp-116094	"10:21 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	50	chap	30	30	30	275	h	80	0	ft
+WE	wepp-116268	"10:21 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	50	chap	30	30	30	275	h	80	0	ft
+WE	wepp-116440	"10:21 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	50	chap	50	50	50	250	h	80	0	ft
+WE	wepp-116614	"10:21 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	50	chap	50	50	50	250	h	80	0	ft
+WE	wepp-116786	"10:21 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	50	chap	70	70	70	225	h	80	0	ft
+WE	wepp-116959	"10:22 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	50	chap	70	70	70	225	h	80	0	ft
+WE	wepp-117133	"10:22 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	50	forest	10	10	10	300	h			ft
+WE	wepp-117306	"10:22 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	50	forest	10	10	10	300	h			ft
+WE	wepp-117478	"10:22 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	50	forest	30	30	30	275	h			ft
+WE	wepp-117652	"10:22 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	50	forest	30	30	30	275	h			ft
+WE	wepp-117855	"10:23 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	50	forest	50	50	50	250	h			ft
+WE	wepp-118029	"10:23 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	50	forest	50	50	50	250	h			ft
+WE	wepp-118202	"10:23 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	50	forest	70	70	70	225	h			ft
+WE	wepp-118374	"10:23 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	50	forest	70	70	70	225	h			ft
+WE	wepp-118547	"10:24 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	50	forest	90	90	90	200	h			ft
+WE	wepp-118721	"10:24 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	50	forest	90	90	90	200	h			ft
+WE	wepp-118893	"10:24 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	5	chap	10	10	10	300	h	80	0	ft
+WE	wepp-119066	"10:24 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	5	chap	10	10	10	300	h	80	0	ft
+WE	wepp-119238	"10:24 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	5	chap	30	30	30	275	h	80	0	ft
+WE	wepp-119414	"10:25 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	5	chap	30	30	30	275	h	80	0	ft
+WE	wepp-119590	"10:25 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	5	chap	50	50	50	250	h	80	0	ft
+WE	wepp-119763	"10:25 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	5	chap	50	50	50	250	h	80	0	ft
+WE	wepp-119936	"10:25 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	5	chap	70	70	70	225	h	80	0	ft
+WE	wepp-120108	"10:25 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	5	chap	70	70	70	225	h	80	0	ft
+WE	wepp-120281	"10:26 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	5	chap	90	90	90	200	h	80	0	ft
+WE	wepp-120455	"10:26 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	5	forest	90	90	90	200	h			ft
+WE	wepp-120627	"10:26 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	5	forest	10	10	10	300	h			ft
+WE	wepp-120801	"10:26 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	5	forest	10	10	10	300	h			ft
+WE	wepp-120973	"10:26 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	5	forest	30	30	30	275	h			ft
+WE	wepp-121148	"10:27 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	5	forest	30	30	30	275	h			ft
+WE	wepp-121320	"10:27 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	5	forest	50	50	50	250	h			ft
+WE	wepp-121493	"10:27 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	5	forest	50	50	50	250	h			ft
+WE	wepp-121665	"10:27 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	5	forest	70	70	70	225	h			ft
+WE	wepp-121838	"10:28 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	5	forest	70	70	70	225	h			ft
+WE	wepp-122012	"10:28 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	5	forest	90	90	90	200	h			ft
+WE	wepp-122184	"10:28 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	5	forest	90	90	90	200	h			ft
+WE	wepp-123497	"11:52 am  Thursday August 16, 2018"	"Carr Fire Low +"	clay	50	chap	10	10	10	300	u	80	0	ft
+WE	wepp-123559	"11:52 am  Thursday August 16, 2018"	"Carr Fire Low +"	clay	50	chap	30	30	30	275	u	80	0	ft
+WE	wepp-123592	"11:52 am  Thursday August 16, 2018"	"Carr Fire High +"	clay	50	chap	50	50	50	250	u	80	0	ft
+WE	wepp-123624	"11:52 am  Thursday August 16, 2018"	"Carr Fire High +"	clay	50	chap	70	70	70	225	u	80	0	ft
+WE	wepp-123656	"11:52 am  Thursday August 16, 2018"	"Carr Fire Low +"	clay	50	forest	10	10	10	300	u			ft
+WE	wepp-123691	"11:52 am  Thursday August 16, 2018"	"Carr Fire Low +"	clay	50	forest	30	30	30	275	u			ft
+WE	wepp-123723	"11:52 am  Thursday August 16, 2018"	"Carr Fire Low +"	clay	50	forest	50	50	50	250	u			ft
+WE	wepp-123755	"11:52 am  Thursday August 16, 2018"	"Carr Fire Low +"	clay	50	forest	70	70	70	225	u			ft
+WE	wepp-123787	"11:52 am  Thursday August 16, 2018"	"Carr Fire High +"	clay	5	chap	10	10	10	300	u	80	0	ft
+WE	wepp-123819	"11:52 am  Thursday August 16, 2018"	"Carr Fire Low +"	clay	5	chap	10	10	10	300	u	80	0	ft
+WE	wepp-123851	"11:52 am  Thursday August 16, 2018"	"Carr Fire Low +"	clay	5	chap	30	30	30	275	u	80	0	ft
+WE	wepp-123883	"11:52 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	20	chap	10	10	10	300	u	80	0	ft
+WE	wepp-123916	"11:53 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	20	chap	10	10	10	300	u	80	0	ft
+WE	wepp-123949	"11:53 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	20	chap	30	30	30	275	u	80	0	ft
+WE	wepp-123981	"11:53 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	20	chap	30	30	30	275	u	80	0	ft
+WE	wepp-124013	"11:53 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	20	chap	50	50	50	250	u	80	0	ft
+WE	wepp-124045	"11:53 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	20	chap	70	70	70	225	u	80	0	ft
+WE	wepp-124079	"11:53 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	20	chap	90	90	90	200	u	80	0	ft
+WE	wepp-124111	"11:53 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	20	forest	10	10	10	300	u			ft
+WE	wepp-124143	"11:53 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	20	forest	10	10	10	300	u			ft
+WE	wepp-124175	"11:53 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	20	forest	30	30	30	275	u			ft
+WE	wepp-124207	"11:53 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	20	forest	30	30	30	275	u			ft
+WE	wepp-124239	"11:53 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	20	forest	50	50	50	250	u			ft
+WE	wepp-124271	"11:53 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	20	forest	50	50	50	250	u			ft
+WE	wepp-124304	"11:53 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	20	forest	70	70	70	225	u			ft
+WE	wepp-124336	"11:53 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	20	forest	70	70	70	225	u			ft
+WE	wepp-124368	"11:53 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	20	forest	90	90	90	200	u			ft
+WE	wepp-124400	"11:53 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	20	forest	90	90	90	200	u			ft
+WE	wepp-124432	"11:53 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	50	chap	10	10	10	300	u	80	0	ft
+WE	wepp-124464	"11:53 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	50	chap	10	10	10	300	u	80	0	ft
+WE	wepp-124496	"11:53 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	50	chap	30	30	30	275	u	80	0	ft
+WE	wepp-124528	"11:53 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	50	chap	30	30	30	275	u	80	0	ft
+WE	wepp-124560	"11:53 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	50	chap	50	50	50	250	u	80	0	ft
+WE	wepp-124592	"11:53 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	50	chap	50	50	50	250	u	80	0	ft
+WE	wepp-124624	"11:54 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	50	chap	70	70	70	225	u	80	0	ft
+WE	wepp-124657	"11:54 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	50	chap	70	70	70	225	u	80	0	ft
+WE	wepp-124689	"11:54 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	50	chap	90	90	90	200	u	80	0	ft
+WE	wepp-124721	"11:54 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	50	chap	90	90	90	200	u	80	0	ft
+WE	wepp-124753	"11:54 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	50	forest	10	10	10	300	u			ft
+WE	wepp-124787	"11:54 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	50	forest	10	10	10	300	u			ft
+WE	wepp-124819	"11:54 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	50	forest	30	30	30	275	u			ft
+WE	wepp-124851	"11:54 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	50	forest	30	30	30	275	u			ft
+WE	wepp-124883	"11:54 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	50	forest	50	50	50	250	u			ft
+WE	wepp-124915	"11:54 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	50	forest	50	50	50	250	u			ft
+WE	wepp-124947	"11:54 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	50	forest	70	70	70	225	u			ft
+WE	wepp-124980	"11:54 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	50	forest	70	70	70	225	u			ft
+WE	wepp-125012	"11:54 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	50	forest	90	90	90	200	u			ft
+WE	wepp-125044	"11:54 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	50	forest	90	90	90	200	u			ft
+WE	wepp-125076	"11:54 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	5	chap	10	10	10	300	u	80	0	ft
+WE	wepp-125109	"11:54 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	5	chap	30	30	30	275	u	80	0	ft
+WE	wepp-125141	"11:54 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	5	forest	30	30	30	275	u			ft
+WE	wepp-125173	"11:54 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	5	forest	50	50	50	250	u			ft
+WE	wepp-125205	"11:54 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	20	chap	30	30	30	275	u	80	0	ft
+WE	wepp-125237	"11:54 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	20	chap	50	50	50	250	u	80	0	ft
+WE	wepp-125269	"11:54 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	20	chap	70	70	70	225	u	80	0	ft
+WE	wepp-125301	"11:54 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	20	chap	90	90	90	200	u	80	0	ft
+WE	wepp-125336	"11:55 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	20	forest	30	30	30	275	u			ft
+WE	wepp-125369	"11:55 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	20	forest	50	50	50	250	u			ft
+WE	wepp-125401	"11:55 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	20	forest	90	90	90	200	u			ft
+WE	wepp-125433	"11:55 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	50	chap	10	10	10	300	u	80	0	ft
+WE	wepp-125465	"11:55 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	50	chap	10	10	10	300	u	80	0	ft
+WE	wepp-125499	"11:55 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	50	chap	30	30	30	275	u	80	0	ft
+WE	wepp-125531	"11:55 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	50	chap	30	30	30	275	u	80	0	ft
+WE	wepp-125564	"11:55 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	50	chap	50	50	50	250	u	80	0	ft
+WE	wepp-125596	"11:55 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	50	chap	50	50	50	250	u	80	0	ft
+WE	wepp-125628	"11:55 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	50	chap	70	70	70	225	u	80	0	ft
+WE	wepp-125660	"11:55 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	50	chap	70	70	70	225	u	80	0	ft
+WE	wepp-125693	"11:55 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	50	chap	90	90	90	200	u	80	0	ft
+WE	wepp-125726	"11:55 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	50	chap	90	90	90	200	u	80	0	ft
+WE	wepp-125758	"11:55 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	50	forest	10	10	10	300	u			ft
+WE	wepp-125790	"11:55 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	50	forest	10	10	10	300	u			ft
+WE	wepp-125822	"11:55 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	50	forest	30	30	30	275	u			ft
+WE	wepp-125854	"11:55 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	50	forest	30	30	30	275	u			ft
+WE	wepp-125886	"11:55 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	50	forest	50	50	50	250	u			ft
+WE	wepp-125918	"11:55 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	50	forest	50	50	50	250	u			ft
+WE	wepp-125950	"11:55 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	50	forest	70	70	70	225	u			ft
+WE	wepp-125982	"11:55 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	50	forest	70	70	70	225	u			ft
+WE	wepp-126014	"11:55 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	50	forest	90	90	90	200	u			ft
+WE	wepp-126046	"11:56 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	50	forest	90	90	90	200	u			ft
+WE	wepp-126079	"11:56 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	5	chap	10	10	10	300	u	80	0	ft
+WE	wepp-126111	"11:56 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	5	chap	10	10	10	300	u	80	0	ft
+WE	wepp-126143	"11:56 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	5	chap	30	30	30	275	u	80	0	ft
+WE	wepp-126175	"11:56 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	5	chap	30	30	30	275	u	80	0	ft
+WE	wepp-126207	"11:56 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	5	chap	50	50	50	250	u	80	0	ft
+WE	wepp-126241	"11:56 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	5	chap	50	50	50	250	u	80	0	ft
+WE	wepp-126273	"11:56 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	5	chap	70	70	70	225	u	80	0	ft
+WE	wepp-126305	"11:56 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	5	chap	70	70	70	225	u	80	0	ft
+WE	wepp-126337	"11:56 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	5	chap	90	90	90	200	u	80	0	ft
+WE	wepp-126369	"11:56 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	5	chap	90	90	90	200	u	80	0	ft
+WE	wepp-126401	"11:56 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	5	forest	10	10	10	300	u			ft
+WE	wepp-126442	"11:56 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	5	forest	10	10	10	300	u			ft
+WE	wepp-126474	"11:56 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	5	forest	30	30	30	275	u			ft
+WE	wepp-126506	"11:56 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	5	forest	30	30	30	275	u			ft
+WE	wepp-126538	"11:56 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	5	forest	50	50	50	250	u			ft
+WE	wepp-126571	"11:56 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	5	forest	50	50	50	250	u			ft
+WE	wepp-126603	"11:56 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	5	forest	70	70	70	225	u			ft
+WE	wepp-126635	"11:56 am  Thursday August 16, 2018"	"Carr Fire Low +"	sand	5	forest	70	70	70	225	u			ft
+WE	wepp-126667	"11:56 am  Thursday August 16, 2018"	"Carr Fire High +"	sand	5	forest	90	90	90	200	u			ft
+WE	wepp-126701	"11:56 am  Thursday August 16, 2018"	"Carr Fire Low +"	clay	50	chap	10	10	10	300	u	80	0	ft
+WE	wepp-126733	"11:56 am  Thursday August 16, 2018"	"Carr Fire High +"	clay	50	chap	30	30	30	275	u	80	0	ft
+WE	wepp-126765	"11:56 am  Thursday August 16, 2018"	"Carr Fire Low +"	clay	50	chap	30	30	30	275	u	80	0	ft
+WE	wepp-126797	"11:57 am  Thursday August 16, 2018"	"Carr Fire High +"	clay	50	chap	50	50	50	250	u	80	0	ft
+WE	wepp-126830	"11:57 am  Thursday August 16, 2018"	"Carr Fire Low +"	clay	50	chap	50	50	50	250	u	80	0	ft
+WE	wepp-126862	"11:57 am  Thursday August 16, 2018"	"Carr Fire High +"	clay	50	chap	70	70	70	225	u	80	0	ft
+WE	wepp-126894	"11:57 am  Thursday August 16, 2018"	"Carr Fire Low +"	clay	50	chap	70	70	70	225	u	80	0	ft
+WE	wepp-126926	"11:57 am  Thursday August 16, 2018"	"Carr Fire High +"	clay	50	forest	10	10	10	300	u			ft
+WE	wepp-126960	"11:57 am  Thursday August 16, 2018"	"Carr Fire Low +"	clay	50	forest	10	10	10	300	u			ft
+WE	wepp-126992	"11:57 am  Thursday August 16, 2018"	"Carr Fire High +"	clay	50	forest	30	30	30	275	u			ft
+WE	wepp-127024	"11:57 am  Thursday August 16, 2018"	"Carr Fire Low +"	clay	50	forest	30	30	30	275	u			ft
+WE	wepp-127056	"11:57 am  Thursday August 16, 2018"	"Carr Fire High +"	clay	50	forest	50	50	50	250	u			ft
+WE	wepp-127088	"11:57 am  Thursday August 16, 2018"	"Carr Fire Low +"	clay	50	forest	50	50	50	250	u			ft
+WE	wepp-127120	"11:57 am  Thursday August 16, 2018"	"Carr Fire High +"	clay	50	forest	70	70	70	225	u			ft
+WE	wepp-127153	"11:57 am  Thursday August 16, 2018"	"Carr Fire Low +"	clay	50	forest	70	70	70	225	u			ft
+WE	wepp-127185	"11:57 am  Thursday August 16, 2018"	"Carr Fire Low +"	clay	50	forest	90	90	90	200	u			ft
+WE	wepp-127217	"11:57 am  Thursday August 16, 2018"	"Carr Fire High +"	clay	5	chap	10	10	10	300	u	80	0	ft
+WE	wepp-127249	"11:57 am  Thursday August 16, 2018"	"Carr Fire Low +"	clay	5	chap	10	10	10	300	u	80	0	ft
+WE	wepp-127281	"11:57 am  Thursday August 16, 2018"	"Carr Fire High +"	clay	5	chap	30	30	30	275	u	80	0	ft
+WE	wepp-127313	"11:57 am  Thursday August 16, 2018"	"Carr Fire Low +"	clay	5	chap	30	30	30	275	u	80	0	ft
+WE	wepp-127345	"11:57 am  Thursday August 16, 2018"	"Carr Fire High +"	clay	5	chap	50	50	50	250	u	80	0	ft
+WE	wepp-127377	"11:57 am  Thursday August 16, 2018"	"Carr Fire Low +"	clay	5	chap	50	50	50	250	u	80	0	ft
+WE	wepp-127409	"11:57 am  Thursday August 16, 2018"	"Carr Fire High +"	clay	5	chap	70	70	70	225	u	80	0	ft
+WE	wepp-127441	"11:58 am  Thursday August 16, 2018"	"Carr Fire Low +"	clay	5	chap	70	70	70	225	u	80	0	ft
+WE	wepp-127481	"11:58 am  Thursday August 16, 2018"	"Carr Fire High +"	clay	5	chap	90	90	90	200	u	80	0	ft
+WE	wepp-127541	"11:58 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	20	chap	10	10	10	300	u	80	0	ft
+WE	wepp-127573	"11:58 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	20	chap	10	10	10	300	u	80	0	ft
+WE	wepp-127606	"11:59 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	20	chap	30	30	30	275	u	80	0	ft
+WE	wepp-127638	"11:59 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	20	chap	30	30	30	275	u	80	0	ft
+WE	wepp-127670	"11:59 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	20	chap	50	50	50	250	u	80	0	ft
+WE	wepp-127702	"11:59 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	20	chap	50	50	50	250	u	80	0	ft
+WE	wepp-127734	"11:59 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	20	chap	70	70	70	225	u	80	0	ft
+WE	wepp-127768	"11:59 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	20	chap	70	70	70	225	u	80	0	ft
+WE	wepp-127800	"11:59 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	20	chap	90	90	90	200	u	80	0	ft
+WE	wepp-127832	"11:59 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	20	chap	90	90	90	200	u	80	0	ft
+WE	wepp-127864	"11:59 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	20	forest	10	10	10	300	u			ft
+WE	wepp-127896	"11:59 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	20	forest	10	10	10	300	u			ft
+WE	wepp-127928	"11:59 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	20	forest	30	30	30	275	u			ft
+WE	wepp-127961	"11:59 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	20	forest	30	30	30	275	u			ft
+WE	wepp-127993	"11:59 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	20	forest	30	30	30	275	u			ft
+WE	wepp-128025	"11:59 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	20	forest	50	50	50	250	u			ft
+WE	wepp-128057	"11:59 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	20	forest	50	50	50	250	u			ft
+WE	wepp-128089	"11:59 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	20	forest	50	50	50	250	u			ft
+WE	wepp-128121	"11:59 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	20	forest	50	50	50	250	u			ft
+WE	wepp-128153	"11:59 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	20	forest	70	70	70	225	u			ft
+WE	wepp-128185	"11:59 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	20	forest	70	70	70	225	u			ft
+WE	wepp-128217	"11:59 am  Thursday August 16, 2018"	"Carr Fire Low +"	loam	20	forest	70	70	70	225	u			ft
+WE	wepp-128249	"11:59 am  Thursday August 16, 2018"	"Carr Fire High +"	loam	20	forest	90	90	90	200	u			ft
+WE	wepp-128281	"12:00 pm  Thursday August 16, 2018"	"Carr Fire Low +"	loam	20	forest	90	90	90	200	u			ft
+WE	wepp-128315	"12:00 pm  Thursday August 16, 2018"	"Carr Fire High +"	loam	50	chap	10	10	10	300	u	80	0	ft
+WE	wepp-128347	"12:00 pm  Thursday August 16, 2018"	"Carr Fire Low +"	loam	50	chap	10	10	10	300	u	80	0	ft
+WE	wepp-128379	"12:00 pm  Thursday August 16, 2018"	"Carr Fire High +"	loam	50	chap	30	30	30	275	u	80	0	ft
+WE	wepp-128411	"12:00 pm  Thursday August 16, 2018"	"Carr Fire Low +"	loam	50	chap	30	30	30	275	u	80	0	ft
+WE	wepp-128446	"12:00 pm  Thursday August 16, 2018"	"Carr Fire High +"	loam	50	chap	50	50	50	250	u	80	0	ft
+WE	wepp-128519	"12:00 pm  Thursday August 16, 2018"	"Carr Fire Low +"	loam	50	chap	50	50	50	250	u	80	0	ft
+WE	wepp-128551	"12:00 pm  Thursday August 16, 2018"	"Carr Fire Low +"	loam	50	chap	50	50	50	250	u	80	0	ft
+WE	wepp-128583	"12:00 pm  Thursday August 16, 2018"	"Carr Fire High +"	loam	50	chap	70	70	70	225	u	80	0	ft
+WE	wepp-128626	"12:00 pm  Thursday August 16, 2018"	"Carr Fire Low +"	loam	50	chap	70	70	70	225	u	80	0	ft
+WE	wepp-128658	"12:00 pm  Thursday August 16, 2018"	"Carr Fire High +"	loam	50	chap	90	90	90	200	u	80	0	ft
+WE	wepp-128690	"12:00 pm  Thursday August 16, 2018"	"Carr Fire Low +"	loam	50	chap	90	90	90	200	u	80	0	ft
+WE	wepp-128723	"12:00 pm  Thursday August 16, 2018"	"Carr Fire High +"	loam	50	forest	10	10	10	300	u			ft
+WE	wepp-128755	"12:00 pm  Thursday August 16, 2018"	"Carr Fire Low +"	loam	50	forest	10	10	10	300	u			ft
+WE	wepp-128787	"12:00 pm  Thursday August 16, 2018"	"Carr Fire High +"	loam	50	forest	30	30	30	275	u			ft
+WE	wepp-128819	"12:00 pm  Thursday August 16, 2018"	"Carr Fire Low +"	loam	50	forest	30	30	30	275	u			ft
+WE	wepp-128851	"12:00 pm  Thursday August 16, 2018"	"Carr Fire High +"	loam	50	forest	50	50	50	250	u			ft
+WE	wepp-128884	"12:00 pm  Thursday August 16, 2018"	"Carr Fire Low +"	loam	50	forest	50	50	50	250	u			ft
+WE	wepp-128916	"12:00 pm  Thursday August 16, 2018"	"Carr Fire High +"	loam	50	forest	70	70	70	225	u			ft
+WE	wepp-128948	"12:00 pm  Thursday August 16, 2018"	"Carr Fire Low +"	loam	50	forest	70	70	70	225	u			ft
+WE	wepp-128980	"12:00 pm  Thursday August 16, 2018"	"Carr Fire High +"	loam	50	forest	90	90	90	200	u			ft
+WE	wepp-129012	"12:00 pm  Thursday August 16, 2018"	"Carr Fire Low +"	loam	50	forest	90	90	90	200	u			ft
+WE	wepp-129044	"12:00 pm  Thursday August 16, 2018"	"Carr Fire Low +"	loam	5	chap	10	10	10	300	u	80	0	ft
+WE	wepp-129077	"12:01 pm  Thursday August 16, 2018"	"Carr Fire Low +"	loam	5	chap	30	30	30	275	u	80	0	ft
+WE	wepp-129109	"12:01 pm  Thursday August 16, 2018"	"Carr Fire Low +"	loam	5	chap	50	50	50	250	u	80	0	ft
+WE	wepp-129141	"12:01 pm  Thursday August 16, 2018"	"Carr Fire High +"	loam	5	chap	90	90	90	200	u	80	0	ft
+WE	wepp-129173	"12:01 pm  Thursday August 16, 2018"	"Carr Fire Low +"	loam	5	forest	10	10	10	300	u			ft
+WE	wepp-129205	"12:01 pm  Thursday August 16, 2018"	"Carr Fire Low +"	loam	5	forest	30	30	30	275	u			ft
+WE	wepp-129241	"12:01 pm  Thursday August 16, 2018"	"Carr Fire Low +"	loam	5	forest	50	50	50	250	u			ft
+WE	wepp-129273	"12:01 pm  Thursday August 16, 2018"	"Carr Fire Low +"	loam	5	forest	70	70	70	225	u			ft
+WE	wepp-129305	"12:01 pm  Thursday August 16, 2018"	"Carr Fire High +"	sand	20	chap	10	10	10	300	u	80	0	ft
+WE	wepp-129337	"12:01 pm  Thursday August 16, 2018"	"Carr Fire Low +"	sand	20	chap	10	10	10	300	u	80	0	ft
+WE	wepp-129371	"12:01 pm  Thursday August 16, 2018"	"Carr Fire High +"	sand	20	chap	30	30	30	275	u	80	0	ft
+WE	wepp-129403	"12:01 pm  Thursday August 16, 2018"	"Carr Fire High +"	sand	20	chap	50	50	50	250	u	80	0	ft
+WE	wepp-129437	"12:01 pm  Thursday August 16, 2018"	"Carr Fire High +"	sand	20	chap	70	70	70	225	u	80	0	ft
+WE	wepp-129469	"12:01 pm  Thursday August 16, 2018"	"Carr Fire Low +"	sand	20	chap	70	70	70	225	u	80	0	ft
+WE	wepp-129501	"12:01 pm  Thursday August 16, 2018"	"Carr Fire High +"	sand	20	chap	90	90	90	200	u	80	0	ft
+WE	wepp-129533	"12:01 pm  Thursday August 16, 2018"	"Carr Fire High +"	sand	20	forest	10	10	10	300	u			ft
+WE	wepp-129565	"12:01 pm  Thursday August 16, 2018"	"Carr Fire High +"	sand	20	forest	30	30	30	275	u			ft
+WE	wepp-129597	"12:01 pm  Thursday August 16, 2018"	"Carr Fire High +"	sand	20	forest	50	50	50	250	u			ft
+WE	wepp-129629	"12:01 pm  Thursday August 16, 2018"	"Carr Fire High +"	sand	20	forest	70	70	70	225	u			ft
+WE	wepp-129661	"12:01 pm  Thursday August 16, 2018"	"Carr Fire High +"	sand	50	chap	10	10	10	300	u	80	0	ft
+WE	wepp-129693	"12:01 pm  Thursday August 16, 2018"	"Carr Fire Low +"	sand	50	chap	10	10	10	300	u	80	0	ft
+WE	wepp-129725	"12:01 pm  Thursday August 16, 2018"	"Carr Fire High +"	sand	50	chap	30	30	30	275	u	80	0	ft
+WE	wepp-129757	"12:02 pm  Thursday August 16, 2018"	"Carr Fire Low +"	sand	50	chap	30	30	30	275	u	80	0	ft
+WE	wepp-129790	"12:02 pm  Thursday August 16, 2018"	"Carr Fire High +"	sand	50	chap	50	50	50	250	u	80	0	ft
+WE	wepp-129822	"12:02 pm  Thursday August 16, 2018"	"Carr Fire Low +"	sand	50	chap	50	50	50	250	u	80	0	ft
+WE	wepp-129854	"12:02 pm  Thursday August 16, 2018"	"Carr Fire High +"	sand	50	chap	70	70	70	225	u	80	0	ft
+WE	wepp-129886	"12:02 pm  Thursday August 16, 2018"	"Carr Fire Low +"	sand	50	chap	70	70	70	225	u	80	0	ft
+WE	wepp-129918	"12:02 pm  Thursday August 16, 2018"	"Carr Fire High +"	sand	50	chap	90	90	90	200	u	80	0	ft
+WE	wepp-129952	"12:02 pm  Thursday August 16, 2018"	"Carr Fire Low +"	sand	50	chap	90	90	90	200	u	80	0	ft
+WE	wepp-129984	"12:02 pm  Thursday August 16, 2018"	"Carr Fire High +"	sand	50	forest	10	10	10	300	u			ft
+WE	wepp-130017	"12:02 pm  Thursday August 16, 2018"	"Carr Fire Low +"	sand	50	forest	10	10	10	300	u			ft
+WE	wepp-130049	"12:02 pm  Thursday August 16, 2018"	"Carr Fire High +"	sand	50	forest	30	30	30	275	u			ft
+WE	wepp-130081	"12:02 pm  Thursday August 16, 2018"	"Carr Fire Low +"	sand	50	forest	30	30	30	275	u			ft
+WE	wepp-130113	"12:02 pm  Thursday August 16, 2018"	"Carr Fire Low +"	sand	50	forest	30	30	30	275	u			ft
+WE	wepp-130146	"12:02 pm  Thursday August 16, 2018"	"Carr Fire High +"	sand	50	forest	50	50	50	250	u			ft
+WE	wepp-130178	"12:02 pm  Thursday August 16, 2018"	"Carr Fire Low +"	sand	50	forest	50	50	50	250	u			ft
+WE	wepp-130210	"12:02 pm  Thursday August 16, 2018"	"Carr Fire Low +"	sand	50	forest	50	50	50	250	u			ft
+WE	wepp-130242	"12:02 pm  Thursday August 16, 2018"	"Carr Fire High +"	sand	50	forest	70	70	70	225	u			ft
+WE	wepp-130276	"12:02 pm  Thursday August 16, 2018"	"Carr Fire Low +"	sand	50	forest	70	70	70	225	u			ft
+WE	wepp-130308	"12:02 pm  Thursday August 16, 2018"	"Carr Fire Low +"	sand	50	forest	70	70	70	225	u			ft
+WE	wepp-130340	"12:02 pm  Thursday August 16, 2018"	"Carr Fire High +"	sand	50	forest	90	90	90	200	u			ft
+WE	wepp-130372	"12:02 pm  Thursday August 16, 2018"	"Carr Fire Low +"	sand	5	forest	90	90	90	200	u			ft
+WE	wepp-130404	"12:02 pm  Thursday August 16, 2018"	"Carr Fire High +"	sand	5	chap	10	10	10	300	u	80	0	ft
+WE	wepp-130436	"12:02 pm  Thursday August 16, 2018"	"Carr Fire Low +"	sand	5	chap	10	10	10	300	u	80	0	ft
+WE	wepp-130468	"12:02 pm  Thursday August 16, 2018"	"Carr Fire High +"	sand	5	chap	30	30	30	275	u	80	0	ft
+WE	wepp-130500	"12:03 pm  Thursday August 16, 2018"	"Carr Fire Low +"	sand	5	chap	30	30	30	275	u	80	0	ft
+WE	wepp-130533	"12:03 pm  Thursday August 16, 2018"	"Carr Fire Low +"	sand	5	chap	30	30	30	275	u	80	0	ft
+WE	wepp-130565	"12:03 pm  Thursday August 16, 2018"	"Carr Fire High +"	sand	5	chap	50	50	50	250	u	80	0	ft
+WE	wepp-130597	"12:03 pm  Thursday August 16, 2018"	"Carr Fire High +"	sand	5	chap	50	50	50	250	u	80	0	ft
+WE	wepp-130629	"12:03 pm  Thursday August 16, 2018"	"Carr Fire Low +"	sand	5	chap	50	50	50	250	u	80	0	ft
+WE	wepp-130661	"12:03 pm  Thursday August 16, 2018"	"Carr Fire Low +"	sand	5	chap	50	50	50	250	u	80	0	ft
+WE	wepp-130695	"12:03 pm  Thursday August 16, 2018"	"Carr Fire High +"	sand	5	chap	70	70	70	225	u	80	0	ft
+WE	wepp-130727	"12:03 pm  Thursday August 16, 2018"	"Carr Fire Low +"	sand	5	chap	70	70	70	225	u	80	0	ft
+WE	wepp-130759	"12:03 pm  Thursday August 16, 2018"	"Carr Fire High +"	sand	5	chap	90	90	90	200	u	80	0	ft
+WE	wepp-130791	"12:03 pm  Thursday August 16, 2018"	"Carr Fire Low +"	sand	5	chap	90	90	90	200	u	80	0	ft
+WE	wepp-130823	"12:03 pm  Thursday August 16, 2018"	"Carr Fire High +"	sand	5	forest	10	10	10	300	u			ft
+WE	wepp-130858	"12:03 pm  Thursday August 16, 2018"	"Carr Fire Low +"	sand	5	forest	10	10	10	300	u			ft
+WE	wepp-130891	"12:03 pm  Thursday August 16, 2018"	"Carr Fire High +"	sand	5	forest	30	30	30	275	u			ft
+WE	wepp-130923	"12:03 pm  Thursday August 16, 2018"	"Carr Fire Low +"	sand	5	forest	30	30	30	275	u			ft
+WE	wepp-130955	"12:03 pm  Thursday August 16, 2018"	"Carr Fire High +"	sand	5	forest	50	50	50	250	u			ft
+WE	wepp-130987	"12:03 pm  Thursday August 16, 2018"	"Carr Fire Low +"	sand	5	forest	50	50	50	250	u			ft
+WE	wepp-131019	"12:03 pm  Thursday August 16, 2018"	"Carr Fire High +"	sand	5	forest	70	70	70	225	u			ft
+WE	wepp-131051	"12:03 pm  Thursday August 16, 2018"	"Carr Fire Low +"	sand	5	forest	70	70	70	225	u			ft
+WE	wepp-131083	"12:03 pm  Thursday August 16, 2018"	"Carr Fire High +"	sand	5	forest	90	90	90	200	u			ft
+WE	wepp-131115	"12:03 pm  Thursday August 16, 2018"	"Carr Fire Low +"	sand	5	forest	90	90	90	200	u			ft
+WE	wepp-131147	"12:03 pm  Thursday August 16, 2018"	"Carr Fire High +"	clay	50	chap	10	10	10	300	u	80	0	ft
+WE	wepp-131179	"12:03 pm  Thursday August 16, 2018"	"Carr Fire Low +"	clay	50	chap	10	10	10	300	u	80	0	ft
+WE	wepp-131211	"12:03 pm  Thursday August 16, 2018"	"Carr Fire High +"	clay	50	chap	30	30	30	275	u	80	0	ft
+WE	wepp-131244	"12:04 pm  Thursday August 16, 2018"	"Carr Fire Low +"	clay	50	chap	30	30	30	275	u	80	0	ft
+WE	wepp-131276	"12:04 pm  Thursday August 16, 2018"	"Carr Fire High +"	clay	50	chap	50	50	50	250	u	80	0	ft
+WE	wepp-131308	"12:04 pm  Thursday August 16, 2018"	"Carr Fire Low +"	clay	50	chap	50	50	50	250	u	80	0	ft
+WE	wepp-131340	"12:04 pm  Thursday August 16, 2018"	"Carr Fire High +"	clay	50	chap	70	70	70	225	u	80	0	ft
+WE	wepp-131372	"12:04 pm  Thursday August 16, 2018"	"Carr Fire Low +"	clay	50	chap	70	70	70	225	u	80	0	ft
+WE	wepp-131406	"12:04 pm  Thursday August 16, 2018"	"Carr Fire High +"	clay	50	forest	10	10	10	300	u			ft
+WE	wepp-131438	"12:04 pm  Thursday August 16, 2018"	"Carr Fire Low +"	clay	50	forest	10	10	10	300	u			ft
+WE	wepp-131470	"12:04 pm  Thursday August 16, 2018"	"Carr Fire High +"	clay	50	forest	30	30	30	275	u			ft
+WE	wepp-131502	"12:04 pm  Thursday August 16, 2018"	"Carr Fire Low +"	clay	50	forest	30	30	30	275	u			ft
+WE	wepp-131534	"12:04 pm  Thursday August 16, 2018"	"Carr Fire High +"	clay	50	forest	50	50	50	250	u			ft
+WE	wepp-131566	"12:04 pm  Thursday August 16, 2018"	"Carr Fire Low +"	clay	50	forest	50	50	50	250	u			ft
+WE	wepp-131599	"12:04 pm  Thursday August 16, 2018"	"Carr Fire High +"	clay	50	forest	70	70	70	225	u			ft
+WE	wepp-131631	"12:04 pm  Thursday August 16, 2018"	"Carr Fire Low +"	clay	50	forest	70	70	70	225	u			ft
+WE	wepp-131663	"12:04 pm  Thursday August 16, 2018"	"Carr Fire Low +"	clay	50	forest	90	90	90	200	u			ft
+WE	wepp-131695	"12:04 pm  Thursday August 16, 2018"	"Carr Fire High +"	clay	5	chap	10	10	10	300	u	80	0	ft
+WE	wepp-131727	"12:04 pm  Thursday August 16, 2018"	"Carr Fire Low +"	clay	5	chap	10	10	10	300	u	80	0	ft
+WE	wepp-131759	"12:04 pm  Thursday August 16, 2018"	"Carr Fire High +"	clay	5	chap	30	30	30	275	u	80	0	ft
+WE	wepp-131791	"12:04 pm  Thursday August 16, 2018"	"Carr Fire Low +"	clay	5	chap	30	30	30	275	u	80	0	ft
+WE	wepp-131823	"12:04 pm  Thursday August 16, 2018"	"Carr Fire High +"	clay	5	chap	50	50	50	250	u	80	0	ft
+WE	wepp-131855	"12:04 pm  Thursday August 16, 2018"	"Carr Fire Low +"	clay	5	chap	50	50	50	250	u	80	0	ft
+WE	wepp-131887	"12:04 pm  Thursday August 16, 2018"	"Carr Fire High +"	clay	5	chap	70	70	70	225	u	80	0	ft
+WE	wepp-131923	"12:05 pm  Thursday August 16, 2018"	"Carr Fire Low +"	clay	5	chap	70	70	70	225	u	80	0	ft
+WE	wepp-131955	"12:05 pm  Thursday August 16, 2018"	"Carr Fire High +"	clay	5	chap	90	90	90	200	u	80	0	ft
+WE	wepp-131987	"12:05 pm  Thursday August 16, 2018"	"Carr Fire Low +"	clay	5	chap	90	90	90	200	u	80	0	ft
+WE	wepp-132019	"12:05 pm  Thursday August 16, 2018"	"Carr Fire High +"	loam	20	chap	10	10	10	300	u	80	0	ft
+WE	wepp-132053	"12:05 pm  Thursday August 16, 2018"	"Carr Fire Low +"	loam	20	chap	10	10	10	300	u	80	0	ft
+WE	wepp-132085	"12:05 pm  Thursday August 16, 2018"	"Carr Fire High +"	loam	20	chap	30	30	30	275	u	80	0	ft
+WE	wepp-132117	"12:05 pm  Thursday August 16, 2018"	"Carr Fire Low +"	loam	20	chap	30	30	30	275	u	80	0	ft
+WE	wepp-132149	"12:05 pm  Thursday August 16, 2018"	"Carr Fire High +"	loam	20	chap	50	50	50	250	u	80	0	ft
+WE	wepp-132181	"12:05 pm  Thursday August 16, 2018"	"Carr Fire Low +"	loam	20	chap	50	50	50	250	u	80	0	ft
+WE	wepp-132213	"12:05 pm  Thursday August 16, 2018"	"Carr Fire High +"	loam	20	chap	70	70	70	225	u	80	0	ft
+WE	wepp-132245	"12:05 pm  Thursday August 16, 2018"	"Carr Fire Low +"	loam	20	chap	70	70	70	225	u	80	0	ft
+WE	wepp-132279	"12:05 pm  Thursday August 16, 2018"	"Carr Fire High +"	loam	20	chap	90	90	90	200	u	80	0	ft
+WE	wepp-132311	"12:05 pm  Thursday August 16, 2018"	"Carr Fire Low +"	loam	20	chap	90	90	90	200	u	80	0	ft
+WE	wepp-132343	"12:05 pm  Thursday August 16, 2018"	"Carr Fire High +"	loam	20	forest	10	10	10	300	u			ft
+WE	wepp-132375	"12:05 pm  Thursday August 16, 2018"	"Carr Fire Low +"	loam	20	forest	10	10	10	300	u			ft
+WE	wepp-132407	"12:05 pm  Thursday August 16, 2018"	"Carr Fire High +"	loam	20	forest	30	30	30	275	u			ft
+WE	wepp-132439	"12:05 pm  Thursday August 16, 2018"	"Carr Fire Low +"	loam	20	forest	30	30	30	275	u			ft
+WE	wepp-132471	"12:05 pm  Thursday August 16, 2018"	"Carr Fire Low +"	loam	20	forest	30	30	30	275	u			ft
+WE	wepp-132503	"12:05 pm  Thursday August 16, 2018"	"Carr Fire High +"	loam	20	forest	50	50	50	250	u			ft
+WE	wepp-132535	"12:05 pm  Thursday August 16, 2018"	"Carr Fire Low +"	loam	20	forest	50	50	50	250	u			ft
+WE	wepp-132567	"12:05 pm  Thursday August 16, 2018"	"Carr Fire Low +"	loam	20	forest	50	50	50	250	u			ft
+WE	wepp-132599	"12:06 pm  Thursday August 16, 2018"	"Carr Fire High +"	loam	20	forest	70	70	70	225	u			ft
+WE	wepp-132632	"12:06 pm  Thursday August 16, 2018"	"Carr Fire Low +"	loam	20	forest	70	70	70	225	u			ft
+WE	wepp-132664	"12:06 pm  Thursday August 16, 2018"	"Carr Fire High +"	loam	20	forest	90	90	90	200	u			ft
+WE	wepp-132696	"12:06 pm  Thursday August 16, 2018"	"Carr Fire Low +"	loam	20	forest	90	90	90	200	u			ft
+WE	wepp-132728	"12:06 pm  Thursday August 16, 2018"	"Carr Fire High +"	loam	50	chap	10	10	10	300	u	80	0	ft
+WE	wepp-132760	"12:06 pm  Thursday August 16, 2018"	"Carr Fire Low +"	loam	50	chap	10	10	10	300	u	80	0	ft
+WE	wepp-132794	"12:06 pm  Thursday August 16, 2018"	"Carr Fire High +"	loam	50	chap	30	30	30	275	u	80	0	ft
+WE	wepp-132826	"12:06 pm  Thursday August 16, 2018"	"Carr Fire Low +"	loam	50	chap	30	30	30	275	u	80	0	ft
+WE	wepp-132858	"12:06 pm  Thursday August 16, 2018"	"Carr Fire Low +"	loam	50	chap	30	30	30	275	u	80	0	ft
+WE	wepp-132890	"12:06 pm  Thursday August 16, 2018"	"Carr Fire High +"	loam	50	chap	50	50	50	250	u	80	0	ft
+WE	wepp-132922	"12:06 pm  Thursday August 16, 2018"	"Carr Fire Low +"	loam	50	chap	50	50	50	250	u	80	0	ft
+WE	wepp-132955	"12:06 pm  Thursday August 16, 2018"	"Carr Fire Low +"	loam	50	chap	50	50	50	250	u	80	0	ft
+WE	wepp-132988	"12:06 pm  Thursday August 16, 2018"	"Carr Fire High +"	loam	50	chap	70	70	70	225	u	80	0	ft
+WE	wepp-133020	"12:06 pm  Thursday August 16, 2018"	"Carr Fire Low +"	loam	50	chap	70	70	70	225	u	80	0	ft
+WE	wepp-133052	"12:06 pm  Thursday August 16, 2018"	"Carr Fire High +"	loam	50	chap	90	90	90	200	u	80	0	ft
+WE	wepp-133084	"12:06 pm  Thursday August 16, 2018"	"Carr Fire Low +"	loam	50	chap	90	90	90	200	u	80	0	ft
+WE	wepp-133116	"12:06 pm  Thursday August 16, 2018"	"Carr Fire High +"	loam	50	forest	10	10	10	300	u			ft
+WE	wepp-133148	"12:06 pm  Thursday August 16, 2018"	"Carr Fire Low +"	loam	50	forest	10	10	10	300	u			ft
+WE	wepp-133180	"12:06 pm  Thursday August 16, 2018"	"Carr Fire High +"	loam	50	forest	30	30	30	275	u			ft
+WE	wepp-133212	"12:06 pm  Thursday August 16, 2018"	"Carr Fire Low +"	loam	50	forest	30	30	30	275	u			ft
+WE	wepp-133244	"12:06 pm  Thursday August 16, 2018"	"Carr Fire High +"	loam	50	forest	50	50	50	250	u			ft
+WE	wepp-133276	"12:06 pm  Thursday August 16, 2018"	"Carr Fire Low +"	loam	50	forest	50	50	50	250	u			ft
+WE	wepp-133309	"12:07 pm  Thursday August 16, 2018"	"Carr Fire High +"	loam	50	forest	70	70	70	225	u			ft
+WE	wepp-133341	"12:07 pm  Thursday August 16, 2018"	"Carr Fire Low +"	loam	50	forest	70	70	70	225	u			ft
+WE	wepp-133373	"12:07 pm  Thursday August 16, 2018"	"Carr Fire High +"	loam	50	forest	90	90	90	200	u			ft
+WE	wepp-133405	"12:07 pm  Thursday August 16, 2018"	"Carr Fire Low +"	loam	50	forest	90	90	90	200	u			ft
+WE	wepp-133437	"12:07 pm  Thursday August 16, 2018"	"Carr Fire High +"	loam	5	chap	10	10	10	300	u	80	0	ft
+WE	wepp-133471	"12:07 pm  Thursday August 16, 2018"	"Carr Fire Low +"	loam	5	chap	10	10	10	300	u	80	0	ft
+WE	wepp-133503	"12:07 pm  Thursday August 16, 2018"	"Carr Fire High +"	loam	5	chap	30	30	30	275	u	80	0	ft
+WE	wepp-133535	"12:07 pm  Thursday August 16, 2018"	"Carr Fire Low +"	loam	5	chap	30	30	30	275	u	80	0	ft
+WE	wepp-133567	"12:07 pm  Thursday August 16, 2018"	"Carr Fire High +"	loam	5	chap	50	50	50	250	u	80	0	ft
+WE	wepp-133599	"12:07 pm  Thursday August 16, 2018"	"Carr Fire Low +"	loam	5	chap	50	50	50	250	u	80	0	ft
+WE	wepp-133649	"12:07 pm  Thursday August 16, 2018"	"Carr Fire High +"	loam	5	chap	70	70	70	225	u	80	0	ft
+WE	wepp-133682	"12:07 pm  Thursday August 16, 2018"	"Carr Fire Low +"	loam	5	chap	70	70	70	225	u	80	0	ft
+WE	wepp-133726	"12:07 pm  Thursday August 16, 2018"	"Carr Fire Low +"	loam	5	forest	10	10	10	300	u			ft
+WE	wepp-133758	"12:07 pm  Thursday August 16, 2018"	"Carr Fire Low +"	loam	5	forest	30	30	30	275	u			ft
+WE	wepp-133790	"12:07 pm  Thursday August 16, 2018"	"Carr Fire Low +"	loam	5	forest	50	50	50	250	u			ft
+WE	wepp-133822	"12:07 pm  Thursday August 16, 2018"	"Carr Fire Low +"	loam	5	forest	70	70	70	225	u			ft
+WE	wepp-133854	"12:07 pm  Thursday August 16, 2018"	"Carr Fire High +"	sand	20	chap	10	10	10	300	u	80	0	ft
+WE	wepp-133888	"12:07 pm  Thursday August 16, 2018"	"Carr Fire High +"	sand	20	chap	30	30	30	275	u	80	0	ft
+WE	wepp-133920	"12:07 pm  Thursday August 16, 2018"	"Carr Fire High +"	sand	20	chap	50	50	50	250	u	80	0	ft
+WE	wepp-133952	"12:07 pm  Thursday August 16, 2018"	"Carr Fire High +"	sand	20	chap	70	70	70	225	u	80	0	ft
+WE	wepp-133984	"12:07 pm  Thursday August 16, 2018"	"Carr Fire High +"	sand	20	forest	10	10	10	300	u			ft
+WE	wepp-134016	"12:07 pm  Thursday August 16, 2018"	"Carr Fire High +"	sand	20	forest	30	30	30	275	u			ft
+WE	wepp-134048	"12:08 pm  Thursday August 16, 2018"	"Carr Fire Low +"	sand	20	forest	30	30	30	275	u			ft
+WE	wepp-134081	"12:08 pm  Thursday August 16, 2018"	"Carr Fire High +"	sand	20	forest	50	50	50	250	u			ft
+WE	wepp-134113	"12:08 pm  Thursday August 16, 2018"	"Carr Fire Low +"	sand	20	forest	50	50	50	250	u			ft
+WE	wepp-134145	"12:08 pm  Thursday August 16, 2018"	"Carr Fire High +"	sand	20	forest	70	70	70	225	u			ft
+WE	wepp-134177	"12:08 pm  Thursday August 16, 2018"	"Carr Fire High +"	sand	50	chap	10	10	10	300	u	80	0	ft
+WE	wepp-134211	"12:08 pm  Thursday August 16, 2018"	"Carr Fire Low +"	sand	50	chap	10	10	10	300	u	80	0	ft
+WE	wepp-134244	"12:08 pm  Thursday August 16, 2018"	"Carr Fire High +"	sand	50	chap	30	30	30	275	u	80	0	ft
+WE	wepp-134276	"12:08 pm  Thursday August 16, 2018"	"Carr Fire Low +"	sand	50	chap	30	30	30	275	u	80	0	ft
+WE	wepp-134308	"12:08 pm  Thursday August 16, 2018"	"Carr Fire High +"	sand	50	chap	50	50	50	250	u	80	0	ft
+WE	wepp-134340	"12:08 pm  Thursday August 16, 2018"	"Carr Fire Low +"	sand	50	chap	50	50	50	250	u	80	0	ft
+WE	wepp-134372	"12:08 pm  Thursday August 16, 2018"	"Carr Fire High +"	sand	50	chap	70	70	70	225	u	80	0	ft
+WE	wepp-134405	"12:08 pm  Thursday August 16, 2018"	"Carr Fire Low +"	sand	50	chap	70	70	70	225	u	80	0	ft
+WE	wepp-134437	"12:08 pm  Thursday August 16, 2018"	"Carr Fire High +"	sand	50	chap	90	90	90	200	u	80	0	ft
+WE	wepp-134469	"12:08 pm  Thursday August 16, 2018"	"Carr Fire Low +"	sand	50	chap	90	90	90	200	u	80	0	ft
+WE	wepp-134501	"12:08 pm  Thursday August 16, 2018"	"Carr Fire High +"	sand	50	forest	10	10	10	300	u			ft
+WE	wepp-134533	"12:08 pm  Thursday August 16, 2018"	"Carr Fire Low +"	sand	50	forest	10	10	10	300	u			ft
+WE	wepp-134565	"12:08 pm  Thursday August 16, 2018"	"Carr Fire High +"	sand	50	forest	30	30	30	275	u			ft
+WE	wepp-134597	"12:08 pm  Thursday August 16, 2018"	"Carr Fire Low +"	sand	50	forest	30	30	30	275	u			ft
+WE	wepp-134629	"12:08 pm  Thursday August 16, 2018"	"Carr Fire High +"	sand	50	forest	50	50	50	250	u			ft
+WE	wepp-134661	"12:08 pm  Thursday August 16, 2018"	"Carr Fire Low +"	sand	50	forest	50	50	50	250	u			ft
+WE	wepp-134693	"12:08 pm  Thursday August 16, 2018"	"Carr Fire Low +"	sand	50	forest	50	50	50	250	u			ft
+WE	wepp-134725	"12:08 pm  Thursday August 16, 2018"	"Carr Fire High +"	sand	50	forest	70	70	70	225	u			ft
+WE	wepp-134757	"12:09 pm  Thursday August 16, 2018"	"Carr Fire Low +"	sand	50	forest	70	70	70	225	u			ft
+WE	wepp-134845	"12:09 pm  Thursday August 16, 2018"	"Carr Fire High +"	sand	50	forest	90	90	90	200	u			ft
+WE	wepp-134877	"12:09 pm  Thursday August 16, 2018"	"Carr Fire Low +"	sand	50	forest	90	90	90	200	u			ft
+WE	wepp-134909	"12:09 pm  Thursday August 16, 2018"	"Carr Fire High +"	sand	5	chap	10	10	10	300	u	80	0	ft
+WE	wepp-134941	"12:09 pm  Thursday August 16, 2018"	"Carr Fire Low +"	sand	5	chap	10	10	10	300	u	80	0	ft
+WE	wepp-134974	"12:09 pm  Thursday August 16, 2018"	"Carr Fire High +"	sand	5	chap	30	30	30	275	u	80	0	ft
+WE	wepp-135008	"12:09 pm  Thursday August 16, 2018"	"Carr Fire Low +"	sand	5	chap	30	30	30	275	u	80	0	ft
+WE	wepp-135040	"12:09 pm  Thursday August 16, 2018"	"Carr Fire Low +"	sand	5	chap	30	30	30	275	u	80	0	ft
+WE	wepp-135072	"12:09 pm  Thursday August 16, 2018"	"Carr Fire High +"	sand	5	chap	50	50	50	250	u	80	0	ft
+WE	wepp-135104	"12:09 pm  Thursday August 16, 2018"	"Carr Fire High +"	sand	5	chap	50	50	50	250	u	80	0	ft
+WE	wepp-135136	"12:09 pm  Thursday August 16, 2018"	"Carr Fire Low +"	sand	5	chap	50	50	50	250	u	80	0	ft
+WE	wepp-135168	"12:09 pm  Thursday August 16, 2018"	"Carr Fire Low +"	sand	5	chap	50	50	50	250	u	80	0	ft
+WE	wepp-135201	"12:09 pm  Thursday August 16, 2018"	"Carr Fire High +"	sand	5	chap	70	70	70	225	u	80	0	ft
+WE	wepp-135233	"12:09 pm  Thursday August 16, 2018"	"Carr Fire Low +"	sand	5	chap	70	70	70	225	u	80	0	ft
+WE	wepp-135265	"12:09 pm  Thursday August 16, 2018"	"Carr Fire High +"	sand	5	chap	90	90	90	200	u	80	0	ft
+WE	wepp-135297	"12:09 pm  Thursday August 16, 2018"	"Carr Fire Low +"	sand	5	chap	90	90	90	200	u	80	0	ft
+WE	wepp-135329	"12:09 pm  Thursday August 16, 2018"	"Carr Fire High +"	sand	5	forest	10	10	10	300	u			ft
+WE	wepp-135361	"12:09 pm  Thursday August 16, 2018"	"Carr Fire Low +"	sand	5	forest	10	10	10	300	u			ft
+WE	wepp-135393	"12:09 pm  Thursday August 16, 2018"	"Carr Fire High +"	sand	5	forest	30	30	30	275	u			ft
+WE	wepp-135425	"12:09 pm  Thursday August 16, 2018"	"Carr Fire Low +"	sand	5	forest	30	30	30	275	u			ft
+WE	wepp-135457	"12:09 pm  Thursday August 16, 2018"	"Carr Fire High +"	sand	5	forest	50	50	50	250	u			ft
+WE	wepp-135489	"12:09 pm  Thursday August 16, 2018"	"Carr Fire High +"	sand	5	forest	50	50	50	250	u			ft
+WE	wepp-135521	"12:10 pm  Thursday August 16, 2018"	"Carr Fire Low +"	sand	5	forest	50	50	50	250	u			ft
+WE	wepp-135554	"12:10 pm  Thursday August 16, 2018"	"Carr Fire High +"	sand	5	forest	70	70	70	225	u			ft
+WE	wepp-135586	"12:10 pm  Thursday August 16, 2018"	"Carr Fire Low +"	sand	5	forest	70	70	70	225	u			ft
+WE	wepp-135618	"12:10 pm  Thursday August 16, 2018"	"Carr Fire High +"	sand	5	forest	90	90	90	200	u			ft
+WE	wepp-135650	"12:10 pm  Thursday August 16, 2018"	"Carr Fire Low +"	sand	5	forest	90	90	90	200	u			ft
+WE	wepp-135683	"12:10 pm  Thursday August 16, 2018"	"Carr Fire Low +"	clay	5	forest	10	10	10	300	u			ft
+WE	wepp-135719	"12:10 pm  Thursday August 16, 2018"	"Carr Fire High +"	clay	50	forest	30	30	30	275	u			ft
+WE	wepp-135751	"12:10 pm  Thursday August 16, 2018"	"Carr Fire Low +"	clay	50	forest	30	30	30	275	u			ft
+WE	wepp-135783	"12:10 pm  Thursday August 16, 2018"	"Carr Fire High +"	clay	50	forest	50	50	50	250	u			ft
+WE	wepp-135815	"12:10 pm  Thursday August 16, 2018"	"Carr Fire Low +"	clay	50	forest	50	50	50	250	u			ft
+WE	wepp-135847	"12:10 pm  Thursday August 16, 2018"	"Carr Fire Low +"	clay	50	forest	70	70	70	225	u			ft
+WE	wepp-135879	"12:10 pm  Thursday August 16, 2018"	"Carr Fire High +"	clay	5	chap	30	30	30	275	u	80	0	ft
+WE	wepp-135912	"12:10 pm  Thursday August 16, 2018"	"Carr Fire Low +"	clay	5	chap	30	30	30	275	u	80	0	ft
+WE	wepp-135944	"12:10 pm  Thursday August 16, 2018"	"Carr Fire High +"	clay	5	chap	50	50	50	250	u	80	0	ft
+WE	wepp-135976	"12:10 pm  Thursday August 16, 2018"	"Carr Fire Low +"	clay	5	chap	50	50	50	250	u	80	0	ft
+WE	wepp-136008	"12:10 pm  Thursday August 16, 2018"	"Carr Fire High +"	clay	5	chap	70	70	70	225	u	80	0	ft
+WE	wepp-136040	"12:10 pm  Thursday August 16, 2018"	"Carr Fire Low +"	clay	5	chap	70	70	70	225	u	80	0	ft
+WE	wepp-136072	"12:10 pm  Thursday August 16, 2018"	"Carr Fire High +"	loam	20	chap	10	10	10	300	u	80	0	ft
+WE	wepp-136104	"12:10 pm  Thursday August 16, 2018"	"Carr Fire High +"	loam	20	chap	30	30	30	275	u	80	0	ft
+WE	wepp-136136	"12:10 pm  Thursday August 16, 2018"	"Carr Fire Low +"	loam	20	chap	30	30	30	275	u	80	0	ft
+WE	wepp-136168	"12:10 pm  Thursday August 16, 2018"	"Carr Fire High +"	loam	20	chap	50	50	50	250	u	80	0	ft
+WE	wepp-136200	"12:11 pm  Thursday August 16, 2018"	"Carr Fire Low +"	loam	20	chap	50	50	50	250	u	80	0	ft
+WE	wepp-136233	"12:11 pm  Thursday August 16, 2018"	"Carr Fire High +"	loam	20	chap	70	70	70	225	u	80	0	ft
+WE	wepp-136265	"12:11 pm  Thursday August 16, 2018"	"Carr Fire Low +"	loam	20	chap	70	70	70	225	u	80	0	ft
+WE	wepp-136297	"12:11 pm  Thursday August 16, 2018"	"Carr Fire Low +"	loam	20	forest	10	10	10	300	u			ft
+WE	wepp-136329	"12:11 pm  Thursday August 16, 2018"	"Carr Fire High +"	loam	20	forest	30	30	30	275	u			ft
+WE	wepp-136363	"12:11 pm  Thursday August 16, 2018"	"Carr Fire Low +"	loam	20	forest	30	30	30	275	u			ft
+WE	wepp-136395	"12:11 pm  Thursday August 16, 2018"	"Carr Fire High +"	loam	20	forest	50	50	50	250	u			ft
+WE	wepp-136427	"12:11 pm  Thursday August 16, 2018"	"Carr Fire Low +"	loam	20	forest	50	50	50	250	u			ft
+WE	wepp-136459	"12:11 pm  Thursday August 16, 2018"	"Carr Fire High +"	loam	20	forest	70	70	70	225	u			ft
+WE	wepp-136491	"12:11 pm  Thursday August 16, 2018"	"Carr Fire Low +"	loam	20	forest	70	70	70	225	u			ft
+WE	wepp-136523	"12:11 pm  Thursday August 16, 2018"	"Carr Fire Low +"	loam	20	forest	90	90	90	200	u			ft
+WE	wepp-136557	"12:11 pm  Thursday August 16, 2018"	"Carr Fire High +"	loam	50	chap	10	10	10	300	u	80	0	ft
+WE	wepp-136589	"12:11 pm  Thursday August 16, 2018"	"Carr Fire Low +"	loam	50	chap	10	10	10	300	u	80	0	ft
+WE	wepp-136621	"12:11 pm  Thursday August 16, 2018"	"Carr Fire High +"	loam	50	chap	30	30	30	275	u	80	0	ft
+WE	wepp-136653	"12:11 pm  Thursday August 16, 2018"	"Carr Fire Low +"	loam	50	chap	30	30	30	275	u	80	0	ft
+WE	wepp-136685	"12:11 pm  Thursday August 16, 2018"	"Carr Fire High +"	loam	50	chap	50	50	50	250	u	80	0	ft
+WE	wepp-136717	"12:11 pm  Thursday August 16, 2018"	"Carr Fire Low +"	loam	50	chap	50	50	50	250	u	80	0	ft
+WE	wepp-136749	"12:11 pm  Thursday August 16, 2018"	"Carr Fire High +"	loam	50	chap	70	70	70	225	u	80	0	ft
+WE	wepp-136781	"12:11 pm  Thursday August 16, 2018"	"Carr Fire Low +"	loam	50	chap	70	70	70	225	u	80	0	ft
+WE	wepp-136813	"12:11 pm  Thursday August 16, 2018"	"Carr Fire Low +"	loam	50	chap	90	90	90	200	u	80	0	ft
+WE	wepp-136845	"12:11 pm  Thursday August 16, 2018"	"Carr Fire High +"	loam	50	forest	10	10	10	300	u			ft
+WE	wepp-136877	"12:12 pm  Thursday August 16, 2018"	"Carr Fire Low +"	loam	50	forest	10	10	10	300	u			ft
+WE	wepp-136910	"12:12 pm  Thursday August 16, 2018"	"Carr Fire High +"	loam	50	forest	30	30	30	275	u			ft
+WE	wepp-136942	"12:12 pm  Thursday August 16, 2018"	"Carr Fire Low +"	loam	50	forest	30	30	30	275	u			ft
+WE	wepp-136974	"12:12 pm  Thursday August 16, 2018"	"Carr Fire High +"	loam	50	forest	50	50	50	250	u			ft
+WE	wepp-137006	"12:12 pm  Thursday August 16, 2018"	"Carr Fire Low +"	loam	50	forest	50	50	50	250	u			ft
+WE	wepp-137040	"12:12 pm  Thursday August 16, 2018"	"Carr Fire High +"	loam	50	forest	70	70	70	225	u			ft
+WE	wepp-137072	"12:12 pm  Thursday August 16, 2018"	"Carr Fire Low +"	loam	50	forest	70	70	70	225	u			ft
+WE	wepp-137104	"12:12 pm  Thursday August 16, 2018"	"Carr Fire High +"	loam	50	forest	90	90	90	200	u			ft
+WE	wepp-137136	"12:12 pm  Thursday August 16, 2018"	"Carr Fire Low +"	loam	50	forest	90	90	90	200	u			ft
+WE	wepp-137168	"12:12 pm  Thursday August 16, 2018"	"Carr Fire High +"	loam	5	chap	50	50	50	250	u	80	0	ft
+WE	wepp-137200	"12:12 pm  Thursday August 16, 2018"	"Carr Fire High +"	loam	5	chap	70	70	70	225	u	80	0	ft
+WE	wepp-137232	"12:12 pm  Thursday August 16, 2018"	"Carr Fire Low +"	loam	5	forest	30	30	30	275	u			ft
+WE	wepp-137265	"12:12 pm  Thursday August 16, 2018"	"Carr Fire Low +"	loam	5	forest	50	50	50	250	u			ft
+WE	wepp-137297	"12:12 pm  Thursday August 16, 2018"	"Carr Fire Low +"	loam	5	forest	70	70	70	225	u			ft
+WE	wepp-137329	"12:12 pm  Thursday August 16, 2018"	"Carr Fire High +"	sand	20	forest	30	30	30	275	u			ft
+WE	wepp-137364	"12:12 pm  Thursday August 16, 2018"	"Carr Fire High +"	sand	20	forest	50	50	50	250	u			ft
+WE	wepp-137396	"12:12 pm  Thursday August 16, 2018"	"Carr Fire High +"	sand	20	forest	70	70	70	225	u			ft
+WE	wepp-137428	"12:12 pm  Thursday August 16, 2018"	"Carr Fire High +"	sand	50	chap	30	30	30	275	u	80	0	ft
+WE	wepp-137460	"12:12 pm  Thursday August 16, 2018"	"Carr Fire Low +"	sand	50	chap	30	30	30	275	u	80	0	ft
+WE	wepp-137492	"12:12 pm  Thursday August 16, 2018"	"Carr Fire High +"	sand	50	chap	50	50	50	250	u	80	0	ft
+WE	wepp-137527	"12:12 pm  Thursday August 16, 2018"	"Carr Fire Low +"	sand	50	chap	50	50	50	250	u	80	0	ft
+WE	wepp-137559	"12:13 pm  Thursday August 16, 2018"	"Carr Fire High +"	sand	50	chap	70	70	70	225	u	80	0	ft
+WE	wepp-137592	"12:13 pm  Thursday August 16, 2018"	"Carr Fire Low +"	sand	50	chap	70	70	70	225	u	80	0	ft
+WE	wepp-137624	"12:13 pm  Thursday August 16, 2018"	"Carr Fire High +"	sand	50	forest	10	10	10	300	u			ft
+WE	wepp-137656	"12:13 pm  Thursday August 16, 2018"	"Carr Fire Low +"	sand	50	forest	10	10	10	300	u			ft
+WE	wepp-137688	"12:13 pm  Thursday August 16, 2018"	"Carr Fire High +"	sand	50	forest	30	30	30	275	u			ft
+WE	wepp-137720	"12:13 pm  Thursday August 16, 2018"	"Carr Fire Low +"	sand	50	forest	30	30	30	275	u			ft
+WE	wepp-137754	"12:13 pm  Thursday August 16, 2018"	"Carr Fire High +"	sand	50	forest	50	50	50	250	u			ft
+WE	wepp-137786	"12:13 pm  Thursday August 16, 2018"	"Carr Fire Low +"	sand	50	forest	50	50	50	250	u			ft
+WE	wepp-137818	"12:13 pm  Thursday August 16, 2018"	"Carr Fire High +"	sand	50	forest	70	70	70	225	u			ft
+WE	wepp-137850	"12:13 pm  Thursday August 16, 2018"	"Carr Fire Low +"	sand	50	forest	70	70	70	225	u			ft
+WE	wepp-137882	"12:13 pm  Thursday August 16, 2018"	"Carr Fire High +"	sand	50	forest	90	90	90	200	u			ft
+WE	wepp-137914	"12:13 pm  Thursday August 16, 2018"	"Carr Fire Low +"	sand	50	forest	90	90	90	200	u			ft
+WE	wepp-137946	"12:13 pm  Thursday August 16, 2018"	"Carr Fire High +"	sand	5	chap	10	10	10	300	u	80	0	ft
+WE	wepp-137979	"12:13 pm  Thursday August 16, 2018"	"Carr Fire Low +"	sand	5	chap	10	10	10	300	u	80	0	ft
+WE	wepp-138011	"12:13 pm  Thursday August 16, 2018"	"Carr Fire High +"	sand	5	chap	30	30	30	275	u	80	0	ft
+WE	wepp-138043	"12:13 pm  Thursday August 16, 2018"	"Carr Fire Low +"	sand	5	chap	30	30	30	275	u	80	0	ft
+WE	wepp-138075	"12:13 pm  Thursday August 16, 2018"	"Carr Fire High +"	sand	5	chap	50	50	50	250	u	80	0	ft
+WE	wepp-138107	"12:13 pm  Thursday August 16, 2018"	"Carr Fire Low +"	sand	5	chap	50	50	50	250	u	80	0	ft
+WE	wepp-138139	"12:13 pm  Thursday August 16, 2018"	"Carr Fire High +"	sand	5	chap	70	70	70	225	u	80	0	ft
+WE	wepp-138171	"12:13 pm  Thursday August 16, 2018"	"Carr Fire Low +"	sand	5	chap	70	70	70	225	u	80	0	ft
+WE	wepp-138203	"12:13 pm  Thursday August 16, 2018"	"Carr Fire High +"	sand	5	chap	90	90	90	200	u	80	0	ft
+WE	wepp-138235	"12:13 pm  Thursday August 16, 2018"	"Carr Fire Low +"	sand	5	forest	90	90	90	200	u			ft
+WE	wepp-138267	"12:13 pm  Thursday August 16, 2018"	"Carr Fire High +"	sand	5	forest	10	10	10	300	u			ft
+WE	wepp-138299	"12:14 pm  Thursday August 16, 2018"	"Carr Fire Low +"	sand	5	forest	10	10	10	300	u			ft
+WE	wepp-138332	"12:14 pm  Thursday August 16, 2018"	"Carr Fire High +"	sand	5	forest	30	30	30	275	u			ft
+WE	wepp-138364	"12:14 pm  Thursday August 16, 2018"	"Carr Fire Low +"	sand	5	forest	30	30	30	275	u			ft
+WE	wepp-138396	"12:14 pm  Thursday August 16, 2018"	"Carr Fire High +"	sand	5	forest	50	50	50	250	u			ft
+WE	wepp-138428	"12:14 pm  Thursday August 16, 2018"	"Carr Fire Low +"	sand	5	forest	50	50	50	250	u			ft
+WE	wepp-138460	"12:14 pm  Thursday August 16, 2018"	"Carr Fire High +"	sand	5	forest	70	70	70	225	u			ft
+WE	wepp-138494	"12:14 pm  Thursday August 16, 2018"	"Carr Fire Low +"	sand	5	forest	70	70	70	225	u			ft
+WE	wepp-138526	"12:14 pm  Thursday August 16, 2018"	"Carr Fire High +"	sand	5	forest	90	90	90	200	u			ft
+WE	wepp-138558	"12:14 pm  Thursday August 16, 2018"	"Carr Fire Low +"	sand	5	forest	90	90	90	200	u			ft

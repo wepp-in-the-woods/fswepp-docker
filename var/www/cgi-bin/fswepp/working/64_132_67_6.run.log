@@ -1,0 +1,24 @@
+WD	wepp-28141	"06:26 am  Thursday May 3, 2012"	"RUSTON L P I LA"	10	sand	OldForest	100	3	10	100	0	OldForest	100	10	2	100	0	0	ft	""
+WD	wepp-28161	"06:27 am  Thursday May 3, 2012"	"RUSTON L P I LA"	30	sand	OldForest	100	3	10	100	0	OldForest	100	10	2	100	0	0	ft	""
+WD	wepp-28227	"06:31 am  Thursday May 3, 2012"	"RUSTON L P I LA"	30	sand	OldForest	100	3	10	70	0	OldForest	100	10	2	70	0	0	ft	""
+WD	wepp-28274	"06:33 am  Thursday May 3, 2012"	"RUSTON L P I LA"	30	sand	YoungForest	100	3	10	100	0	YoungForest	100	10	2	100	0	0	ft	""
+WD	wepp-28294	"06:34 am  Thursday May 3, 2012"	"RUSTON L P I LA"	30	sand	YoungForest	100	3	10	70	0	YoungForest	100	10	2	70	0	0	ft	""
+WD	wepp-28346	"06:39 am  Thursday May 3, 2012"	"RUSTON L P I LA"	10	clay	Skid	100	0	30	0	0	Skid	100	30	5	0	0	0	ft	""
+WD	wepp-28366	"06:40 am  Thursday May 3, 2012"	"RUSTON L P I LA"	10	loam	Skid	100	5	15	0	0	Skid	100	15	3	0	0	0	ft	""
+WD	wepp-28386	"06:40 am  Thursday May 3, 2012"	"RUSTON L P I LA"	10	loam	Skid	100	5	15	80	0	Skid	100	15	3	80	0	0	ft	""
+WD	wepp-28406	"06:40 am  Thursday May 3, 2012"	"RUSTON L P I LA"	10	loam	Skid	100	5	15	80	0	Skid	100	15	3	80	0	0	ft	""
+WD	wepp-28427	"06:42 am  Thursday May 3, 2012"	"RUSTON L P I LA"	10	sand	HighFire	200	0	10	50	0	LowFire	200	11	2	50	0	0	ft	""
+WD	wepp-28379	"02:46 pm  Thursday May 3, 2012"	"RUSTON L P I LA"	10	sand	HighFire	50	0	30	45	0	HighFire	50	30	5	45	0	0	ft	""
+WD	wepp-28399	"02:47 pm  Thursday May 3, 2012"	"RUSTON L P I LA"	10	clay	HighFire	50	15	40	45	0	HighFire	50	40	5	45	0	0	ft	""
+WD	wepp-28475	"02:51 pm  Thursday May 3, 2012"	"RUSTON L P I LA"	30	clay	Skid	100	15	40	0	0	Skid	100	40	5	0	0	0	ft	""
+WD	wepp-28495	"02:52 pm  Thursday May 3, 2012"	"RUSTON L P I LA"	30	clay	Skid	100	0	5	0	0	Skid	100	5	3	0	0	0	ft	""
+WD	wepp-28515	"02:53 pm  Thursday May 3, 2012"	"RUSTON L P I LA"	30	loam	Skid	100	0	5	0	0	Skid	100	5	3	0	0	0	ft	""
+WD	wepp-28604	"02:54 pm  Thursday May 3, 2012"	"RUSTON L P I LA"	30	silt	HighFire	100	5	15	45	0	HighFire	100	10	0	45	0	0	ft	""
+WD	wepp-28643	"02:56 pm  Thursday May 3, 2012"	"RUSTON L P I LA"	30	sand	HighFire	100	15	40	45	0	HighFire	100	35	20	45	0	0	ft	""
+WD	wepp-28663	"02:57 pm  Thursday May 3, 2012"	"RUSTON L P I LA"	30	silt	LowFire	100	5	15	45	0	LowFire	100	10	0	45	0	0	ft	""
+WD	wepp-28729	"02:59 pm  Thursday May 3, 2012"	"RUSTON L P I LA"	30	sand	LowFire	100	15	40	45	0	LowFire	100	35	20	45	0	0	ft	""
+WR	wepp-28771	"03:00 pm  Thursday May 3, 2012"	"RUSTON L P I LA"	30	clay	graveled	200	4	13	15	50	130	25	80	inbare	ft
+WR	wepp-28820	"03:03 pm  Thursday May 3, 2012"	"RUSTON L P I LA"	30	silt	native	200	6	13	15	70	130	15	20	inbare	ft
+WR	wepp-28840	"03:05 pm  Thursday May 3, 2012"	"RUSTON L P I LA"	30	clay	paved	200	3	13	15	40	130	15	90	outrut	ft
+WR	wepp-28860	"03:06 pm  Thursday May 3, 2012"	"RUSTON L P I LA"	30	sand	graveled	200	6	13	15	60	130	15	70	outrut	ft
+WE	wepp-28915	"03:12 pm  Thursday May 3, 2012"	"RUSTON L P I LA"	clay	20	forest	2	30	15	100	l			ft

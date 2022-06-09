@@ -1,0 +1,103 @@
+#this files was modified by filegenwhrm.pl on: Wednesday, March 16, 2005.
+#taxgroup Birds species Swainson's thrush / Hyolcichla ustulata
+#
+# Rank
+2,2,3,-99,-99
+# Nestsite
+20,1:24,1
+# Reprorank
+2,-99:1,-99
+# Foraging Habitat
+3,1:2,-1:20,1:24,1:13,1
+# Habitatrank
+1,-99:1,-99:2,-99:1,-99:1,-99
+# Forage/Prey Availability
+-99
+# Preyrank
+-99
+# Predator Avoidance
+-99
+# Avoidrank
+-99
+# Refugia/Shelter
+-99
+# Shelterrank
+-99
+# Coverrank
+-99
+# Literature
+Distribution
+Canada and Alaska; northern Great Lakes states and New England, also along Rocky Mountain chain and parts of Washington, Oregon, and northern California
+General Habitat
+shrub-forest ecotonal habitats; young, multi-story mixed coniferous forest; moist woods, swamps, thickets
+Home or Activity Range
+no information available
+Canopy Cover
+high canopy closure (Marzluff and Lyon 1983, (>70%) Mills et al. 2000)
+Specific Habitat Preferences
+many medium-large stems, high snag basal area
+Nestsite Characteristics
+nests on branch close to trunk of conifers, occasionally in other trees or shrubs; nests made of sticks, leaves, moss and lined with lichens
+Foraging Habitat Characteristics
+forages on ground and in tree canopy; picks food off leaves, catches some insects in the air
+Diet
+insects: beetles, ants, caterpillars, crickets, wasps, flies, and moths, spiders and other invertebrates; berries and fruits make up over 1/3 of summer diet including wild cherries, blackberries, huckleberries, twinberry seeds, and elderberries.
+Predators
+no information available
+Shelter Habitats
+no information available
+Response to Disturbance
+responded positively to single-tree selective logging (Medin and Booth 1989); less abundant in cut areas than unlogged forest (Tobalske et al. 1991); declined after clearcuts and shelterwood cuts (reviewed in Sallabanks et al. 2003);  less abundant in low shrub- and high shrub- stage clearcuts and partially cut forest compared to uncut forest (Hejl et al. 1995); decreased in both New Forestry harvest and traditional overstory removal compared to uncut control (Munts 1994)more abundant in old-growth and mature PSME stand than harvest (clearcut or shelterwood cut) units (Moore 1992)
+Sources of Information used in the Model
+Marzluff and Lyon 1983, Munts 1994, Mills et al. 2000
+General Sources of Background Information
+Marzluff and Lyon 1983, Medin and Booth 1989, Tobalske et al. 1991, Moore 1992, Munts 1994, Hejl et al. 1995, National Geographic Society 1996, Alsop 2001, Mills et al. 2000, reviewed in O'Neil et al. 2001, Sallabanks et al. 2003
+Summaries of Specific Studies
+Hejl, Sallie J.; Hutto, Richard L.; Preston, Charles R.; Finch, Deborah M. 1995. Effects of silvicultural treatments in the Rocky Mountains. In:Martin, Thomas E.; Finch, Deborah M. (eds.). Ecology and Management of Neotropical Migratory Birds. New York, Oxford: Oxford University Press. 220-244.
+
+Study Location: Rocky Mountains
+Habitat Description: forest types across the Rocky mountains
+Summary: Synthesis of the effects of different silvicultural treatments on neotropical migrants in forests of the Rocky Mountains. Outlines current forest structure, natural disturbance, logging history, and current silvicultural recommendations. General bird-habitat relationships in natural forest, including stands of different ages, are contrasted with stands that are silviculturally manipulated. Contains detailed species lists for rare to abundant bird species that are found in 8 forest types commonly found in the Rockies (Table 8-2). Also lists species by their likelihood to be more or less abundant in managed stands (classified as one of three types of clearcuts or partial cuts) compared to uncut forest. (Table 8-3)
+
+Marzluff, John M.; Lyon, L. Jack. 1983. Snags as indicators of habitat suitability for open nesting birds. In Snag habitat management: proceedings of the symposium. June 7-9, 1983, Flagstaff, AZ. USDA Forest Service Gen. Tech. Rep. RM-GTR-99, Fort Collins, CO. pp 19-23.
+
+Study Location: Lolo National Forest, western Montana
+Habitat Description: mix from PIPO-PIEN-ABLA
+Summary: This one-year study examined the habitat requirements of seven open nesting birds typically found in mature forest. Habitat preferences for each species are noted. In general, structural complexity was of high importance; canopy cover, shrub cover and number of large-diameter stems were often included in predictive models. Management recommendations are made for individual species as well as for the general avian community studied.
+
+Medin, Dean E.; Booth, Gordon D. 1989. Responses of birds and small mammals to single-tree selection logging in Idaho. Res. Pap. INT-408/ Ogden, UT: USDA Forest Service, Intermountain Research Station. 11p.
+
+Study Location: Idaho
+Habitat Description: PSME, PIPO
+Summary: Populations of birds and small mammals were monitored in conjunction with a single-tree selection logging operation. Total numbers of breeding birds remained relatively stable, but some individual species responded either positively or negatively to the treatment. Timber gleaners were the only feeding guild adversely affected by the logging treatment. Secondary cavity nesters were the only nesting guild adversely affected by the logging treatment. The most notable small mammal response was the positive response of yellow-pine chipmunks to the treatment. Fewer deer mice were found in the treatment area.
+
+Mills, Todd R.; Rumble, Mark A.; Flake, Lester D. 2000. Habitat of birds in ponderosa pine and aspen/birch forest in the Black Hills, South Dakota. Journal of Field Ornithology. 71(2): 187-206.
+
+Study Location: South Dakota
+Habitat Description: PIPO, aspen/birch
+Summary: Habitat relations of breeding songbirds were examined in PIPO and aspen/birch forests at three scales: in two vegetation types, structural stages within vegetation types, and vegetative structure. Species richness was greater in the aspen/birch forest type, which the authors attribute to greater invertebrate food resources. A number of species differed depending on overstory canopy closure. A few species were associated with snag presence.
+
+Moore, Robin L. 1992. Breeding birds in old-growth forests and snag management for birds. Forest Plan monitoring project report. USDA Forest Service, Gallatin National Forest, Bozeman, MT.
+
+Study Location: southwestern Montana
+Habitat Description: PSME
+Summary: Avian species composition and abundance were examined in old-growth, mature, and harvested PSME forest. The greatest total abundance was detected in the old-growth forest. In general, the old-growth contained the greatest number of species, though there was no detected difference in species richness between the stand types. Higher elevation old-growth stands contained a greater abundance of birds than the lower elevation old-growth stands. Trees with cavities were also examined in this study. The majority of cavity trees were old PSME with broken tops, and cavities tended to be located in the top one-third of the tree. Some primary and secondary cavity-nesting birds demonstrated dbh preferences for nest trees.
+
+Munts, Michael A. 1994. A comparison of bird communities between an untreated control and two timber harvest treatments in western Montana. Missoula, MT: University of Montana. 49 p. M.S. Thesis.
+
+Study Location: western Montana
+Habitat Description: PSME, LAOC, PICO, PIEN, PIPO, ABLA, ABGR, THPL, PIMO, aspen, birch
+Summary: A comparison of bird communities was performed between control sites and those undergoing traditional overstory removal harvests and those harvested using "New Forestry" techniques. Only four species showed significant differences in abundance between treatments, though the author suspects that other trends in the data would be clearer with additional post-treatment data. In general, for species that did differ in abundance, numbers in New Forestry stands were intermediate between overstory removal and controls. Foliage foragers declined similarly in both harvest types, while ground foragers increased. Conifer nesters decreased similarly in both harvest types, while ground nesters increased. Important habitat variables for a number of species are given.
+
+Sallabanks, Rex; Marcot, Bruce G.; Riggs, Robert A.; Mehl, Carolyn A.; Arnett, Edward B. 2003. Wildlife of Eastside (Interior) Forests and Woodlands. In Wildlife-Habitat Relationships in Oregon and Washington. Corvallis, OR: Oregon State University Press. pp 213-238.
+
+Study Location: Blue Mountains, OR
+Habitat Description: ABGR
+Summary: This case history (1) evaluates bird-habitat relationships in primarily grand fir forests. The goals of this study were to assess how forest stand structure influences habitat selection by birds, to investigate bird use of specific forest structural classes, and to relate bird habitat use to potential management options that consider breeding bird habitat.
+
+Tobalske, Bret W.; Shearer, Raymond C.; Hutto, Richard L. 1991. Bird populations in logged and unlogged western larch/Douglas-fire forest in northwestern Montana. Res. Pap. INT-442.Ogden, UT: USDA, Forest Service, Intermountain Research Station. 12 p.
+
+Study Location: northwestern Montana
+Habitat Description: LAOC cover type; includes ABLA, LAOC, PSME, PIEN, PICO, BEPA, aspen, cottonwood
+Summary: Populations of 10 breeding bird species were monitored in harvested and immediately adjacent uncut areas. A number of species were more abundant in harvested areas. Responses by feeding and nesting guilds are also included. Foliage-foraging species and tree gleaners were less abundant in harvested areas, while flycatching and ground foragers were more common there. Conifer tree-nesting species were least abundant in clearcuts, while ground nesters were more common within the cutover habitats.Management recommendations are made, including the retention of broadleaf trees within cutting units and investigating the importance of slash piles in logged habitat. Slash piles were used by winter wrens, Townsend's solitaires, and dark-eyed juncos as perches, food sources, or nest sites.
+

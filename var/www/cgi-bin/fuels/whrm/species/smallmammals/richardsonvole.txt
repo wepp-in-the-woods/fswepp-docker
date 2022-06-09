@@ -1,0 +1,61 @@
+#this files was modified by filegenwhrm.pl on: Wednesday, March 16, 2005.
+#taxgroup Small Mammals species Richardson vole /  Microtus richardsoni
+#
+# Rank
+2,-99,-99,1,1
+# Nestsite
+-99
+# Reprorank
+-99
+# Foraging Habitat
+-99
+# Habitatrank
+-99
+# Forage/Prey Availability
+3,1
+# Preyrank
+1,-99
+# Predator Avoidance
+-99
+# Avoidrank
+-99
+# Refugia/Shelter
+8,1
+# Shelterrank
+1,-99
+# Coverrank
+1,-99
+# Literature
+Distribution
+interior northwest USA, as far east as central Montana and Wyoming
+General Habitat
+creekbanks and marshes, mountains to above timberline
+Home or Activity Range
+no information available
+Canopy Cover
+abundant in mature forests with open canopy cover (Doyle 1987)
+Specific Habitat Preferences
+exposed soil; downed wood; found in areas within mature and old-growth forest that had more open forest canopy
+Nestsite Characteristics
+nests beneath roots, old stumps, logs
+Foraging Habitat Characteristics
+no information available
+Diet
+forbs and huckleberries
+Predators
+no information available
+Shelter Habitats
+burrows along streambanks
+Response to Disturbance
+no information available
+Sources of Information used in the Model
+Doyle 1987
+General Sources of Background Information
+Burt 1980, Doyle 1987
+Summaries of Specific Studies
+Doyle, A.T. 1987. Microhabitat separation among sympatric microtines, Clethrionomys californicus, Microtus oregoni and M. richardsoni. The American Midland Naturalist. 118: 258-265.
+
+Study Location: western Cascade Range, Oregon
+Habitat Description: primarily PSME; also TSHE, THPL, ABGR, TABR
+Summary: Microhabitat separation and preferences were investigated for Clethrionomys californicus, Microtus oregoni and M. richardsoni. Specific habitat preferences are given for the three species. Microhabitat separation was a function of canopy cover of deciduous trees, percent cover of lichen, and distance from streamside
+

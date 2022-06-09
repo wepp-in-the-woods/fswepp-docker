@@ -1,0 +1,105 @@
+#	Forest Habitat Types of Montana.
+#	Gen. Tech. Rep. INT-GTR-34.
+#	Ogden, UT: U.S. Department of Agriculture, Forest Service, Intermountain Forest and Range Research Station. 174 p.
+#	Pfister, R.D., B.L. Kovalchik, S.F. Arno and R.C. Presby. 1977.
+#	2006.06.16 DEH 'Warm moist' to 'Warm, moist' and remove a few extraneous spaces
+#	2006.06.16 DEH Add fire group 99 for missing
+ABGR/CLUN-ARNU	CoolF	WF	CoolF/WF	H	11 - Warm, moist grand fir, western redcedar, and western hemlock habitat types
+ABGR/CLUN-CLUN	CoolF	MH	CoolF/MH	H	11 - Warm, moist grand fir, western redcedar, and western hemlock habitat types
+ABGR/CLUN-XETE	CoolF	MH	CoolF/MH	H	11 - Warm, moist grand fir, western redcedar, and western hemlock habitat types
+ABGR/LIBO-LIBO	CoolF	DH	CoolF/DH	H	11 - Warm, moist grand fir, western redcedar, and western hemlock habitat types
+ABGR/LIBO-XETE	CoolF	DH	CoolF/DH	H	11 - Warm, moist grand fir, western redcedar, and western hemlock habitat types
+ABGR/XETE	CoolF	DH	CoolF/DH	H	11 - Warm, moist grand fir, western redcedar, and western hemlock habitat types
+ABLA-PIAL/ABLA	ColdF	DH	ColdF/DH	H	99
+ABLA/ABLA-PIAL	ColdF	DH	ColdF/DH	H	99
+ABLA/ALSI	ColdF	DH	ColdF/DH	H	9 - Moist, lower subalpine habitat types
+ABLA/ARCO	ColdF	DG	ColdF/DG	L	8 - Dry, lower subalpine habitat types
+ABLA/CACA-CACA	ColdF	WF	ColdF/WF	H	9 - Moist, lower subalpine habitat types
+ABLA/CACA-GATR	ColdF	WF	ColdF/WF	H	9 - Moist, lower subalpine habitat types
+ABLA/CACA-VACA	ColdF	DH	ColdF/DH	H	7 - Cool habitat types usually dominated by lodgepole pine
+ABLA/CAGE-CAGE	ColdF	DS	ColdF/DS	L	7 - Cool habitat types usually dominated by lodgepole pine
+ABLA/CAGE-PSME	ColdF	DS	ColdF/DS	L	8 - Dry, lower subalpine habitat types
+ABLA/CARU	ColdF	DH	ColdF/DH	H	8 - Dry, lower subalpine habitat types
+ABLA/CLPS	ColdF	DS	ColdF/DS	L	8 - Dry, lower subalpine habitat types
+ABLA/CLUN-ARNU	ColdF	WF	ColdF/WF	H	9 - Moist, lower subalpine habitat types
+ABLA/CLUN-CLUN	ColdF	MH	ColdF/MH	H	9 - Moist, lower subalpine habitat types
+ABLA/CLUN-MEFE	CoolF	MH	CoolF/MH	H	9 - Moist, lower subalpine habitat types
+ABLA/CLUN-VACA	ColdF	MH	ColdF/MH	H	9 - Moist, lower subalpine habitat types
+ABLA/CLUN-XETE	ColdF	MH	ColdF/MH	H	9 - Moist, lower subalpine habitat types
+ABLA/GATR	ColdF	MH	ColdF/MH	H	9 - Moist, lower subalpine habitat types
+ABLA/LALY-ABLA	ColdF	DH	ColdF/DH	H	99
+ABLA/LIBO-LIBO	ColdF	DH	ColdF/DH	H	9 - Moist, lower subalpine habitat types
+ABLA/LIBO-VACA	ColdF	DH	ColdF/DH	H	99
+ABLA/LIBO-XETE	ColdF	DH	ColdF/DH	H	9 - Moist, lower subalpine habitat types
+ABLA/LUHI-MEFE	ColdF	DH	ColdF/DH	H	10 - Cold, moist upper subalpine and timberline habitat types
+ABLA/LUHI-VASC	ColdF	DH	ColdF/DH	H	10 - Cold, moist upper subalpine and timberline habitat types
+ABLA/MEFE	ColdF	DH	ColdF/DH	H	9 - Moist, lower subalpine habitat types
+ABLA/OPHO	ColdF	WS	ColdF/WS	L	9 - Moist, lower subalpine habitat types
+ABLA/PIAL	CoolP	DS	CoolP/DS	L	99
+ABLA/RIMO	ColdF	DG	ColdF/DG	L	99
+ABLA/TSME-MEFE	ColdF	DH	ColdF/DH	H	99
+ABLA/TSME-XETE	ColdF	DH	ColdF/DH	H	99
+ABLA/VACA	ColdF	DH	ColdF/DH	H	7 - Cool habitat types usually dominated by lodgepole pine
+ABLA/VAGL	ColdF	DH	ColdF/DH	H	7 - Cool habitat types usually dominated by lodgepole pine
+ABLA/VASC-CARU	ColdF	DH	ColdF/DH	H	7 - Cool habitat types usually dominated by lodgepole pine
+ABLA/VASC-THOC	ColdF	DH	ColdF/DH	H	8 - Dry, lower subalpine habitat types
+ABLA/VASC-VASC	ColdF	DS	ColdF/DS	L	7 - Cool habitat types usually dominated by lodgepole pine
+ABLA/XETE-VAGL	ColdF	DH	ColdF/DH	H	8 - Dry, lower subalpine habitat types
+ABLA/XETE-VASC	ColdF	DH	ColdF/DH	H	7 - Cool habitat types usually dominated by lodgepole pine
+PICEA/CLUN-CLUN	ColdF	WF	ColdF/WF	H	9 - Moist, lower subalpine habitat types
+PICEA/CLUN-VACA	ColdF	MH	ColdF/MH	H	9 - Moist, lower subalpine habitat types
+PICEA/EQAR	ColdF	WF	ColdF/WF	H	9 - Moist, lower subalpine habitat types
+PICEA/GATR	ColdF	DH	ColdF/DH	H	9 - Moist, lower subalpine habitat types
+PICEA/LIBO	ColdF	DH	ColdF/DH	H	8 - Dry, lower subalpine habitat types
+PICEA/PHMA	ColdF	DH	ColdF/DH	H	8 - Dry, lower subalpine habitat types
+PICEA/SEST-PICEA	ColdF	DG	ColdF/DG	L	10 - Cold, moist upper subalpine and timberline habitat types
+PICEA/SEST-PSME	ColdF	DG	ColdF/DG	L	5 - Cool, dry Douglas-fir habitat types
+PICEA/SMST	ColdF	DH	ColdF/DH	H	8 - Dry, lower subalpine habitat types
+PICEA/VACA	ColdF	DH	ColdF/DH	H	7 - Cool habitat types usually dominated by lodgepole pine
+PICO/CARU	CoolP	DS	CoolP/DS	L	7 - Cool habitat types usually dominated by lodgepole pine
+PICO/LIBO	CoolP	DH	CoolP/DH	H	7 - Cool habitat types usually dominated by lodgepole pine
+PICO/PUTR	CoolP	DG	CoolP/DG	L	7 - Cool habitat types usually dominated by lodgepole pine
+PICO/VACA	CoolP	DH	CoolP/DH	H	7 - Cool habitat types usually dominated by lodgepole pine
+PICO/VASC	CoolP	DS	CoolP/DS	L	7 - Cool habitat types usually dominated by lodgepole pine
+PIFL/AGSP	PP	DG	PP/DG	L	1 - Dry limber pine habitat types
+PIFL/FEID-FEID	DF	DG	DF/DG	L	1 - Dry limber pine habitat types
+PIFL/FEID-FESC	DF	DG	DF/DG	L	1 - Dry limber pine habitat types
+PIFL/JUCO	DF	DS	DF/DS	L	1 - Dry limber pine habitat types
+PIPO/AGSP	PP	DG	PP/DG	L	2 - Warm, dry ponderosa pine habitat types
+PIPO/FEID-FEID	PP	DS	PP/DS	L	2 - Warm, dry ponderosa pine habitat types
+PIPO/FEID-FESC	PP	DS	PP/DS	L	2 - Warm, dry ponderosa pine habitat types
+PIPO/PRVI-PRVI	PP	DS	PP/DS	L	3 - Warm, moist ponderosa pine habitat types 
+PIPO/PUTR-AGSP	PP	DS	PP/DS	L	2 - Warm, dry ponderosa pine habitat types
+PIPO/PUTR-FEID	PP	DG	PP/DG	L	2 - Warm, dry ponderosa pine habitat types
+PIPO/SYAL-BERE	PP	DS	PP/DS	L	3 - Warm, moist ponderosa pine habitat types
+PIPO/SYAL-SYAL	PP	DS	PP/DS	L	2 - Warm, dry ponderosa pine habitat types
+PSME/AGSP	DF	DS	DF/DS	L	4 - Warm, dry Douglas-fir habitat types
+PSME/ARCO	DF	DS	DF/DS	L	5 - Cool, dry Douglas-fir habitat types
+PSME/ARUV	DF	DS	DF/DS	L	4 - Warm, dry Douglas-fir habitat types
+PSME/CAGE	DF	DS	DF/DS	L	5 - Cool, dry Douglas-fir habitat types
+PSME/CARU-AGSP	DF	DS	DF/DS	L	4 - Warm, dry Douglas-fir habitat types
+PSME/CARU-ARUV	DF	DS	DF/DS	L	6 - Moist Douglas-fir habitat types
+PSME/CARU-CARU	DF	DS	DF/DS	L	6 - Moist Douglas-fir habitat types
+PSME/CARU-PIPO	DF	DS	DF/DS	L	4 - Warm, dry Douglas-fir habitat types
+PSME/FEID	DF	DG	DF/DG	L	5 - Cool, dry Douglas-fir habitat types
+PSME/FESC	DF	DS	DF/DS	L	4 - Warm, dry Douglas-fir habitat types
+PSME/JUCO	DF	DS	DF/DS	L	6 - Moist Douglas-fir habitat types
+PSME/LIBO-CARU	DF	DH	DF/DH	H	6 - Moist Douglas-fir habitat types
+PSME/LIBO-SYAL	DF	DH	DF/DH	H	6 - Moist Douglas-fir habitat types
+PSME/LIBO-VAGL	DF	DH	DF/DH	H	6 - Moist Douglas-fir habitat types
+PSME/PHMA-CARU	DF	DS	DF/DS	L	4 - Warm, dry Douglas-fir habitat types
+PSME/PHMA-PHMA	DF	DH	DF/DH	H	6 - Moist Douglas-fir habitat types
+PSME/SPBE	DF	DS	DF/DS	L	4 - Warm, dry Douglas-fir habitat types
+PSME/SYAL-AGSP	DF	DS	DF/DS	L	4 - Warm, dry Douglas-fir habitat types
+PSME/SYAL-CARU	DF	DH	DF/DH	H	6 - Moist Douglas-fir habitat types
+PSME/SYAL-SYAL	DF	DH	DF/DH	H	6 - Moist Douglas-fir habitat types
+PSME/VACA	DF	DH	DF/DH	H	6 - Moist Douglas-fir habitat types
+PSME/VAGL-ARUV	DF	DH	DF/DH	H	6 - Moist Douglas-fir habitat types
+PSME/VAGL-VAGL	DF	DH	DF/DH	H	6 - Moist Douglas-fir habitat types
+PSME/VAGL-XETE	DF	DH	DF/DH	H	6 - Moist Douglas-fir habitat types
+THPL/CLUN-ARNU	CH	WF	CH/WF	H	11 - Warm, moist grand fir, western redcedar, and western hemlock habitat types
+THPL/CLUN-CLUN	CH	MH	CH/MH	H	11 - Warm, moist grand fir, western redcedar, and western hemlock habitat types
+THPL/CLUN-MEFE	CH	MH	CH/MH	H	11 - Warm, moist grand fir, western redcedar, and western hemlock habitat types
+THPL/OPHO	CH	WS	CH/WS	H	11 - Warm, moist grand fir, western redcedar, and western hemlock habitat types
+TSHE/CLUN-ARNU	CH	WH	CH/WH	H	11 - Warm, moist grand fir, western redcedar, and western hemlock habitat types
+TSHE/CLUN-CLUN	CH	MH	CH/MH	H	11 - Warm, moist grand fir, western redcedar, and western hemlock habitat types

@@ -1,0 +1,15 @@
+WR	wepp-117610	"02:00 pm  Friday April 29, 2022"	"SAINT MARIES ID +"	30	silt	graveled	200	4	13	15	50	1	25	20	inveg	ft
+WR	wepp-117660	"02:01 pm  Friday April 29, 2022"	"SAINT MARIES ID +"	30	silt	graveled	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-117704	"02:01 pm  Friday April 29, 2022"	"SAINT MARIES ID +"	30	silt	paved	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-117751	"02:02 pm  Friday April 29, 2022"	"SAINT MARIES ID +"	30	silt	graveled	200	4	13	15	50	1	25	20	outunrut	ft
+WD	wepp-117843	"02:08 pm  Friday April 29, 2022"	"SAINT MARIES ID + +"	10	silt	OldForest	400	0	30	100	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-118028	"02:11 pm  Friday April 29, 2022"	"SAINT MARIES ID + +"	10	silt	Sod	400	0	30	40	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-118077	"02:12 pm  Friday April 29, 2022"	"SAINT MARIES ID + +"	10	silt	Sod	400	0	30	40	20	OldForest	30	30	5	100	20	0	ft	""
+WD	wepp-118121	"02:13 pm  Friday April 29, 2022"	"SAINT MARIES ID + +"	10	silt	LowFire	400	0	30	85	20	LowFire	75	30	5	85	20	0	ft	""
+WD	wepp-118163	"02:14 pm  Friday April 29, 2022"	"SAINT MARIES ID + +"	10	silt	HighFire	400	0	30	45	20	HighFire	75	30	5	45	20	0	ft	""
+WD	wepp-118226	"02:16 pm  Friday April 29, 2022"	"SAINT MARIES ID + +"	10	clay	HighFire	50	0	30	20	20	HighFire	50	30	5	20	20	0	ft	""
+WD	wepp-118263	"02:16 pm  Friday April 29, 2022"	"SAINT MARIES ID + +"	10	clay	HighFire	400	0	30	20	20	HighFire	75	30	5	20	20	0	ft	""
+WD	wepp-118324	"02:19 pm  Friday April 29, 2022"	"SAINT MARIES ID + +"	10	clay	HighFire	400	40	40	0	30	OldForest	25	20	5	90	20	0	ft	""
+WD	wepp-118362	"02:19 pm  Friday April 29, 2022"	"SAINT MARIES ID + +"	10	clay	HighFire	400	40	40	0	30	OldForest	50	20	5	90	20	0	ft	""
+WD	wepp-118398	"02:20 pm  Friday April 29, 2022"	"SAINT MARIES ID + +"	10	clay	HighFire	400	40	40	0	30	OldForest	75	20	5	90	20	0	ft	""
+WD	wepp-118525	"02:20 pm  Friday April 29, 2022"	"SAINT MARIES ID + +"	10	clay	HighFire	400	40	40	0	30	OldForest	250	20	5	90	20	0	ft	""

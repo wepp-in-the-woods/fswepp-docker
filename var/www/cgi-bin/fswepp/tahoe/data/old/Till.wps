@@ -1,0 +1,15 @@
+#
+#	Mulch and till for Tahoe Basin model
+#
+mulchtill
+Mulch and till
+for Tahoe Basin model
+W. Elliot  02/99
+1	# `landuse' - <Cropland>
+WeppWillSet
+14      3       beinp   2       5       5       0       1.2     0.4     0.1
+0.25    0.25    0.9     0.99    13      0       0.42    1.2
+2	# `mfo' - <Non-fragile>
+0.0067  0.0067  20      0.1     0.5     0.4     0.33    0.2     45      40
+-40	2	0
+

@@ -1,0 +1,30 @@
+WR	wepp-204911	"12:15 pm  Thursday May 4, 2017"	"462 Climate +"	30	silt	graveled	200	4	13	15	50	1	25	20	inveg	ft
+WR	wepp-205150	"12:19 pm  Thursday May 4, 2017"	"462 Climate +"	30	silt	graveled	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-205253	"12:20 pm  Thursday May 4, 2017"	"462 Climate +"	30	silt	paved	200	4	13	15	50	130	25	20	inbare	ft
+WR	wepp-205303	"12:21 pm  Thursday May 4, 2017"	"462 Climate +"	30	silt	paved	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-205340	"12:21 pm  Thursday May 4, 2017"	"462 Climate +"	30	silt	graveled	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-205457	"12:22 pm  Thursday May 4, 2017"	"462 Climate +"	30	silt	graveled	200	4	13	15	50	130	25	20	inbare	ft
+WR	wepp-205496	"12:23 pm  Thursday May 4, 2017"	"462 Climate +"	30	silt	paved	200	4	13	15	50	100	25	20	inbare	ft
+WR	wepp-205535	"12:23 pm  Thursday May 4, 2017"	"462 Climate +"	30	silt	paved	200	4	13	15	50	125	25	20	inbare	ft
+WR	wepp-205609	"12:23 pm  Thursday May 4, 2017"	"462 Climate +"	30	silt	paved	200	4	13	15	50	140	25	20	inbare	ft
+WR	wepp-205618	"12:23 pm  Thursday May 4, 2017"	"462 Climate +"	30	silt	paved	200	4	13	15	50	160	25	20	inbare	ft
+WR	wepp-205653	"12:24 pm  Thursday May 4, 2017"	"462 Climate +"	30	silt	paved	200	4	13	15	50	155	25	20	inbare	ft
+WR	wepp-205689	"12:24 pm  Thursday May 4, 2017"	"462 Climate +"	30	silt	paved	200	4	13	15	50	153	25	20	inbare	ft
+WR	wepp-205764	"12:24 pm  Thursday May 4, 2017"	"462 Climate +"	30	silt	paved	200	4	13	15	50	150	25	20	inbare	ft
+WR	wepp-205783	"12:24 pm  Thursday May 4, 2017"	"462 Climate +"	30	silt	paved	200	4	13	15	50	145	25	20	inbare	ft
+WR	wepp-205819	"12:24 pm  Thursday May 4, 2017"	"462 Climate +"	30	silt	paved	200	4	13	15	50	142	25	20	inbare	ft
+WR	wepp-205854	"12:24 pm  Thursday May 4, 2017"	"462 Climate +"	30	silt	paved	200	4	13	15	50	143	25	20	inbare	ft
+WR	wepp-205892	"12:25 pm  Thursday May 4, 2017"	"462 Climate +"	30	silt	graveled	200	4	13	15	50	1	25	20	outunrut	ft
+WR	wepp-206043	"12:26 pm  Thursday May 4, 2017"	"462 Climate +8 +"	30	silt	graveled	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-206096	"12:28 pm  Thursday May 4, 2017"	"462 Climate +8 +"	30	silt	graveled	200	4	13	15	50	1	25	20	inbare	ft
+WD	wepp-206437	"12:31 pm  Thursday May 4, 2017"	"462 Climate +"	10	clay	OldForest	400	0	30	100	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-208887	"12:39 pm  Thursday May 4, 2017"	"462 Climate +"	10	clay	Sod	400	0	30	40	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-209960	"12:50 pm  Thursday May 4, 2017"	"462 Climate +"	10	clay	Sod	400	0	30	40	20	OldForest	30	30	5	100	20	0	ft	""
+WD	wepp-210075	"12:50 pm  Thursday May 4, 2017"	"462 Climate +"	10	clay	Sod	400	0	30	40	20	OldForest	75	30	5	40	20	0	ft	""
+WD	wepp-210243	"12:53 pm  Thursday May 4, 2017"	"462 Climate +"	10	clay	LowFire	400	0	30	85	20	LowFire	75	30	5	85	20	0	ft	""
+WD	wepp-210365	"12:55 pm  Thursday May 4, 2017"	"462 Climate +"	10	clay	HighFire	400	0	30	45	20	HighFire	75	30	5	45	20	0	ft	""
+WD	wepp-210438	"12:56 pm  Thursday May 4, 2017"	"462 Climate +"	10	clay	HighFire	400	0	30	45	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-210474	"12:57 pm  Thursday May 4, 2017"	"462 Climate +"	10	clay	OldForest	400	0	30	100	20	HighFire	75	30	5	45	20	0	ft	""
+WD	wepp-224624	"02:13 pm  Thursday May 4, 2017"	"462 Climate +"	10	clay	OldForest	400	0	30	100	20	OldForest	30	30	5	100	20	0	ft	""
+WD	wepp-224705	"02:14 pm  Thursday May 4, 2017"	"462 Climate +"	10	clay	Sod	400	0	30	40	20	OldForest	30	30	5	100	20	0	ft	""
+WD	wepp-224760	"02:15 pm  Thursday May 4, 2017"	"462 Climate +"	10	clay	Sod	50	0	30	40	20	OldForest	50	30	5	100	20	0	ft	""

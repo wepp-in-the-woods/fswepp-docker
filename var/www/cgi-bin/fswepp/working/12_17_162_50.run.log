@@ -1,0 +1,50 @@
+WD	wepp-12928	"04:19 pm  Monday May 24, 2010"	"WARREN ID"	30	silt	tree20	50	0	30	100	20	tree5	50	30	5	100	20	0	ft	""
+WR	wepp-777	"04:24 pm  Wednesday February 23, 2011"	"MOSCOW U OF I ID"	30	clay	graveled	200	6.3	22	15	50	130	25	20	inveg	ft
+WR	wepp-29127	"08:11 am  Wednesday December 7, 2011"	"WARREN ID"	30	clay	native	200	4	13	15	50	130	25	20	inbare	ft
+WR	wepp-20237	"09:21 am  Monday December 3, 2012"	"MOSCOW U OF I ID"	1	clay	native	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-20258	"09:22 am  Monday December 3, 2012"	"MOSCOW U OF I ID"	1	clay	native	200	4	13	15	50	130	25	0	inbare	ft
+WR	wepp-20313	"09:25 am  Monday December 3, 2012"	"MOSCOW U OF I ID"	30	silt	native	1000	4	13	1000	50	10	25	20	outrut	ft
+WR	wepp-20335	"09:25 am  Monday December 3, 2012"	"MOSCOW U OF I ID"	1	silt	native	1000	4	13	1000	50	10	25	20	outrut	ft
+WR	wepp-7818	"10:20 am  Thursday December 6, 2012"	"MOSCOW U OF I ID"	1	clay	native	1000	40	13	15	50	1000	10	20	outrut	ft
+WR	wepp-7838	"10:21 am  Thursday December 6, 2012"	"MOSCOW U OF I ID"	1	clay	native	1000	40	13	15	50	1000	0.3	20	outrut	ft
+WR	wepp-7858	"10:21 am  Thursday December 6, 2012"	"MOSCOW U OF I ID"	1	clay	native	1000	40	13	15	50	10	0.3	20	outrut	ft
+WR	wepp-7885	"10:22 am  Thursday December 6, 2012"	"MOSCOW U OF I ID"	1	clay	native	1000	40	13	15	50	10	5	20	outrut	ft
+WR	wepp-7906	"10:23 am  Thursday December 6, 2012"	"MOSCOW U OF I ID"	1	clay	native	1000	40	13	15	50	1000	5	20	outrut	ft
+WR	wepp-7954	"10:23 am  Thursday December 6, 2012"	"MOSCOW U OF I ID"	1	clay	native	1000	40	13	15	50	1000	0.5	20	outrut	ft
+WR	wepp-7975	"10:24 am  Thursday December 6, 2012"	"MOSCOW U OF I ID"	1	clay	graveled	1000	40	13	15	50	1000	0.5	20	outrut	ft
+WR	wepp-7997	"10:25 am  Thursday December 6, 2012"	"MOSCOW U OF I ID"	1	clay	graveled	1000	40	13	15	50	1000	0.5	20	outunrut	ft
+WR	wepp-29487	"12:48 pm  Tuesday April 23, 2013"	"WARREN ID"	30	clay	native	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-26341	"06:47 am  Thursday March 6, 2014"	"FENN RS ID"	30	clay	graveled	200	4	18	15	50	130	25	20	inveg	ft
+WR	wepp-241301	"03:35 pm  Thursday September 11, 2014"	"MOSCOW U OF I ID"	1	silt	graveled	1000	4	13	15	50	130	25	20	inbare	ft
+WR	wepp-241359	"03:35 pm  Thursday September 11, 2014"	"MOSCOW U OF I ID"	1	silt	graveled	1000	4	13	13	10	10	5	20	inbare	ft
+WR	wepp-241469	"03:38 pm  Thursday September 11, 2014"	"MOSCOW U OF I ID"	1	silt	native	1000	2	10	1000	2	10	2	20	outrut	ft
+WR	wepp-241753	"03:42 pm  Thursday September 11, 2014"	"MOSCOW U OF I ID"	1	silt	native	1000	4	10	1000	1	5	5	20	outrut	ft
+WR	wepp-242127	"03:50 pm  Thursday September 11, 2014"	"MOSCOW U OF I ID"	1	silt	graveled	1000	4	10	1000	4	5	5	20	outunrut	ft
+WR	wepp-37621	"02:45 pm  Friday September 12, 2014"	"WARREN ID"	1	silt	native	1000	4	12	1000	4	5	5	0	inveg	ft
+WR	wepp-37710	"02:46 pm  Friday September 12, 2014"	"FENN RS ID"	1	silt	native	1000	4	12	1000	4	5	5	0	inveg	ft
+WR	wepp-63703	"06:41 am  Monday October 13, 2014"	"MOSCOW U OF I ID"	20	clay	native	1000	4	14	1	0.3	1	0.3	5	outrut	ft
+WR	wepp-18260	"04:41 pm  Tuesday October 14, 2014"	"MOSCOW U OF I ID"	20	clay	native	1000	3	12	1	50	10	10	20	outrut	ft
+WR	wepp-18311	"04:42 pm  Tuesday October 14, 2014"	"MOSCOW U OF I ID"	20	clay	native	1000	3	12	1	50	10	10	20	outrut	ft
+WR	wepp-37066	"06:55 am  Wednesday October 15, 2014"	"MOSCOW U OF I ID"	1	clay	native	1000	4	14	1	0.3	20	20	5	outrut	ft
+WR	wepp-37131	"06:56 am  Wednesday October 15, 2014"	"MOSCOW U OF I ID"	1	clay	native	1000	4	14	1	0.3	20	20	5	outrut	ft
+WR	wepp-38357	"07:20 am  Wednesday October 15, 2014"	"MOSCOW U OF I ID"	1	clay	graveled	1000	4	12	1	50	200	5	40	outunrut	ft
+WR	wepp-38409	"07:21 am  Wednesday October 15, 2014"	"MOSCOW U OF I ID"	1	clay	graveled	200	4	12	1	50	200	5	40	outunrut	ft
+WR	wepp-38492	"07:24 am  Wednesday October 15, 2014"	"MOSCOW U OF I ID"	1	clay	native	1000	4	14	1	0.3	15	10	15	outrut	ft
+WR	wepp-38538	"07:24 am  Wednesday October 15, 2014"	"MOSCOW U OF I ID"	1	clay	native	1000	4	14	1	0.3	15	10	15	outrut	ft
+WR	wepp-38644	"07:25 am  Wednesday October 15, 2014"	"MOSCOW U OF I ID"	1	clay	graveled	1000	4	14	1	50	200	5	40	outunrut	ft
+WR	wepp-38930	"07:34 am  Wednesday October 15, 2014"	"MOSCOW U OF I ID"	1	clay	graveled	1000	4	14	1	50	200	5	40	outunrut	ft
+WR	wepp-173587	"09:43 am  Wednesday November 19, 2014"	"MOSCOW U OF I ID"	30	silt	native	200	4	13	15	50	130	25	20	inbare	ft
+WR	wepp-5631	"01:42 pm  Thursday November 20, 2014"	"MOSCOW U OF I ID"	30	silt	native	200	4	13	15	50	130	25	20	inbare	ft
+WR	wepp-8525	"02:15 pm  Thursday November 20, 2014"	"MOSCOW U OF I ID"	30	sand	native	1000	4	10	15	50	130	25	20	outrut	ft
+WR	wepp-8692	"02:16 pm  Thursday November 20, 2014"	"MOSCOW U OF I ID"	30	sand	native	1000	4	10	15	50	1000	25	20	outrut	ft
+WR	wepp-9104	"02:21 pm  Thursday November 20, 2014"	"MOSCOW U OF I ID"	30	sand	native	784	4	10	1	50	1000	25	20	outrut	ft
+WR	wepp-9171	"02:21 pm  Thursday November 20, 2014"	"MOSCOW U OF I ID"	30	sand	native	784	4	10	15	50	1000	25	20	outrut	ft
+WR	wepp-9276	"02:22 pm  Thursday November 20, 2014"	"MOSCOW U OF I ID"	30	sand	native	1000	7.5	10	15	50	1000	25	20	outrut	ft
+WR	wepp-9411	"02:23 pm  Thursday November 20, 2014"	"MOSCOW U OF I ID"	30	sand	native	304	6	10	304	50	304	25	20	outrut	ft
+WR	wepp-9474	"02:24 pm  Thursday November 20, 2014"	"MOSCOW U OF I ID"	30	sand	native	304	6	10	304	0.3	304	0.3	20	outrut	ft
+WR	wepp-9526	"02:24 pm  Thursday November 20, 2014"	"MOSCOW U OF I ID"	30	sand	native	304	6	10	304	50	304	25	20	outrut	ft
+WR	wepp-9687	"02:25 pm  Thursday November 20, 2014"	"MOSCOW U OF I ID"	30	sand	native	440	3	10	304	50	304	25	20	outrut	ft
+WR	wepp-9754	"02:26 pm  Thursday November 20, 2014"	"MOSCOW U OF I ID"	30	sand	native	440	3	10	440	50	440	25	20	outrut	ft
+WR	wepp-9863	"02:27 pm  Thursday November 20, 2014"	"MOSCOW U OF I ID"	30	sand	native	591	3	10	10	50	50	25	20	outrut	ft
+WR	wepp-10017	"02:28 pm  Thursday November 20, 2014"	"MOSCOW U OF I ID"	30	sand	native	357	7.5	10	15	50	230	25	20	outrut	ft
+WR	wepp-10117	"02:29 pm  Thursday November 20, 2014"	"MOSCOW U OF I ID"	30	sand	native	357	7.5	10	15	100	130	25	20	outrut	ft

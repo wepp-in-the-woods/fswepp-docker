@@ -1,0 +1,121 @@
+WR	wepp-24967	"02:03 pm  Tuesday February 16, 2010"	"MicaCrkTest +"	30	clay	native	200	4	13	15	50	130	25	20	inveg
+WR	wepp-24972	"02:04 pm  Tuesday February 16, 2010"	"MicaCrkTest +"	30	clay	native	200	4	13	15	50	130	25	20	inveg
+WR	wepp-25015	"02:07 pm  Tuesday February 16, 2010"	"MicaCrkTest +"	30	clay	native	200	4	13	15	50	130	25	20	inveg
+WR	wepp-25020	"02:08 pm  Tuesday February 16, 2010"	"MicaCrkTest +"	30	clay	native	200	4	13	15	50	130	25	20	inveg
+WR	wepp-25025	"02:08 pm  Tuesday February 16, 2010"	"MicaCrkTest +"	30	clay	native	200	4	13	15	50	130	25	20	inveg
+WR	wepp-25030	"02:09 pm  Tuesday February 16, 2010"	"MicaCrkTest +"	30	clay	native	200	4	13	15	50	130	25	20	inveg
+WW	wepp-28663	"04:02 pm  Wednesday April 21, 2010"	"MicaCrkTest +"	silt	tree20	50	0	30	100	20	400	tree5	50	30	5	100	20	400	restricted	"decomposed granite"	25	3.60E-01	m
+WW	wepp-28688	"04:03 pm  Wednesday April 21, 2010"	""	silt	tree20	50	0	30	100	20	400	tree5	50	30	5	100	20	400	restricted	""			m
+WW	wepp-28710	"04:04 pm  Wednesday April 21, 2010"	"MicaCrkTest +"	silt	tree20	50	0	30	100	20	400	tree5	50	30	5	100	20	400	restricted	"decomposed granite"	25	3.60E-01	m
+WW	wepp-29383	"04:52 pm  Wednesday April 21, 2010"	"MicaCk_new +"	silt	tree20	100	10	40	100	20	400	tree20	50	35	20	100	20	400	restricted	"decomposed granite"	25	3.60E-01	m
+WR	wepp-6995	"12:50 pm  Friday April 30, 2010"	"MicaCrkTest +"	30	clay	paved	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-7163	"01:08 pm  Friday April 30, 2010"	"MicaCrkTest +"	30	clay	native	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-7170	"01:09 pm  Friday April 30, 2010"	"MicaCrkTest +"	30	clay	native	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-7284	"01:12 pm  Friday April 30, 2010"	"MicaCrkTest +"	30	clay	native	200	4	13	15	50	130	25	20	inveg	ft
+WD	wepp-7292	"01:13 pm  Friday April 30, 2010"	"MicaCk_new +"	30	clay	tree20	50	0	30	100	20	tree5	50	30	5	100	20	0	ft	""
+WR	wepp-7302	"01:14 pm  Friday April 30, 2010"	"MicaCrkTest +"	30	clay	native	200	4	13	15	50	130	25	20	inveg	ft
+wt	wepp-12860	"Sep 15, 2010"	"TAHOE CA"	granitic	Sod	0	30	50	60	20	Sod	30	5	50	60	20	ft	""
+wt	wepp-12956	"Sep 15, 2010"	"TAHOE CA"	alluvial	LowFire	0	30	50	85	20	LowFire	30	5	50	85	20	ft	""
+wt	wepp-12984	"Sep 15, 2010"	"TAHOE CA"	alluvial	LowFire	0	30	50	85	20	LowFire	30	5	50	85	20	ft	""
+wt	wepp-13018	"Sep 15, 2010"	"MicaCk_new +"	granitic	OldForest	0	30	50	100	20	YoungForest	30	5	50	100	20	m	""
+wt	wepp-13053	"Sep 15, 2010"	"TAHOE CA"	granitic	LowFire	0	30	50	85	20	LowFire	30	5	50	85	20	m	""
+wt	wepp-10290	"Dec 10, 2010"	"MicaCk_new +"	granitic	OldForest	0	30	50	100	20	YoungForest	30	5	50	100	20	ft	""
+wt	wepp-10310	"Dec 10, 2010"	"MicaCk_new +"	granitic	HighFire	0	30	50	45	20	HighFire	30	5	50	45	20	ft	""
+wt	wepp-10329	"Dec 10, 2010"	"MicaCk_new +"	rockpave	HighFire	0	30	50	45	50	HighFire	30	5	50	45	20	ft	""
+WE	wepp-2917	"10:18 am  Friday January 21, 1924"	"MicaCk_new +"	clay	20	forest	0	50	30	300	l			ft
+WE	wepp-24052	"01:11 pm  Wednesday January 26, 1942"	"DENVER WB AP CO"	sand	20	forest	0	50	30	300	m			ft
+WE	wepp-31404	"07:27 am  Thursday February 17, 1924"	"MicaCk_new +"	clay	20	forest	0	50	30	300	l			ft
+WD	wepp-31506	"07:33 am  Thursday February 17, 2011"	"MicaCk_new +"	30	silt	tall	50	0	30	60	20	tall	50	30	5	60	20	0	ft	""
+WE	wepp-3121	"10:05 am  Thursday March 3, 1931"	"CHEESMAN CO"	sand	20	forest	0	35	35	600	l			ft
+WE	wepp-10816	"03:22 pm  Friday March 11, 1974"	"FourMile_Fire +"	sand	20	forest	29	44	46	300	m			m
+WE	wepp-10918	"03:25 pm  Friday March 11, 1902"	"FourMile_Fire +"	sand	20	forest	7	26	26	300	m			m
+WE	wepp-10988	"03:29 pm  Friday March 11, 1913"	"FourMile_Fire +"	sand	20	forest	23	30	21	300	m			m
+WE	wepp-11104	"03:32 pm  Friday March 11, 1927"	"FourMile_Fire +"	sand	20	forest	12	21	31	287	m			m
+WE	wepp-11202	"03:35 pm  Friday March 11, 1910"	"FourMile_Fire +"	sand	20	forest	37	37	37	118	h			m
+WE	wepp-11293	"03:40 pm  Friday March 11, 1913"	"FourMile_Fire +"	sand	20	forest	2	28	36	300	m			m
+WE	wepp-11389	"03:43 pm  Friday March 11, 1974"	"FourMile_Fire +"	sand	20	forest	34	38	41	300	m			m
+WE	wepp-11504	"03:46 pm  Friday March 11, 1974"	"FourMile_Fire +"	sand	20	forest	36	41	47	300	m			m
+WD	wepp-22996	"09:45 am  Thursday March 17, 2011"	"FourMile_Fire +"	30	sand	high	782	29	46	30	20	high	782	29	46	30	20	0	m	"22"
+WD	wepp-23001	"09:45 am  Thursday March 17, 2011"	"FourMile_Fire +"	30	sand	low	459	7	26	78	20	low	459	7	26	78	20	0	m	"23"
+WD	wepp-23006	"09:45 am  Thursday March 17, 2011"	"FourMile_Fire +"	30	sand	high	1000	23	21	42	20	tall	1000	23	21	82	20	0	m	"31"
+WD	wepp-23011	"09:45 am  Thursday March 17, 2011"	"FourMile_Fire +"	30	sand	short	287	12	31	97.2	20	low	287	12	31	60	20	0	m	"32"
+WD	wepp-23016	"09:45 am  Thursday March 17, 2011"	"FourMile_Fire +"	30	sand	short	118	37	37	98.8	20	high	118	37	37	35	20	0	m	"33"
+WD	wepp-23021	"09:45 am  Thursday March 17, 2011"	"FourMile_Fire +"	30	sand	high	813	2	36	34	20	short	813	2	36	87	20	0	m	"41"
+WD	wepp-23026	"09:45 am  Thursday March 17, 2011"	"FourMile_Fire +"	30	sand	low	316	34	41	82	20	tall	316	34	41	83	20	0	m	"42"
+WD	wepp-23031	"09:45 am  Thursday March 17, 2011"	"FourMile_Fire +"	30	sand	tall	468	36	47	93.3	20	high	468	36	47	42	20	0	m	"43"
+WD	wepp-23065	"09:52 am  Thursday March 17, 2011"	"FourMile_Fire +"	30	sand	high	782	29	46	30	20	high	782	29	46	30	20	0	m	"22"
+WD	wepp-23070	"09:52 am  Thursday March 17, 2011"	"FourMile_Fire +"	30	sand	low	459	7	26	78	20	low	459	7	26	78	20	0	m	"23"
+WD	wepp-23075	"09:53 am  Thursday March 17, 2011"	"FourMile_Fire +"	30	sand	high	1000	23	21	42	20	tall	1000	23	21	82	20	0	m	"31"
+WD	wepp-23080	"09:53 am  Thursday March 17, 2011"	"FourMile_Fire +"	30	sand	short	287	12	31	97.2	20	low	287	12	31	60	20	0	m	"32"
+WD	wepp-23085	"09:53 am  Thursday March 17, 2011"	"FourMile_Fire +"	30	sand	short	118	37	37	98.8	20	high	118	37	37	35	20	0	m	"33"
+WD	wepp-23090	"09:53 am  Thursday March 17, 2011"	"FourMile_Fire +"	30	sand	high	813	2	36	34	20	short	813	2	36	87	20	0	m	"41"
+WD	wepp-23096	"09:53 am  Thursday March 17, 2011"	"FourMile_Fire +"	30	sand	low	316	34	41	82	20	tall	316	34	41	83	20	0	m	"42"
+WD	wepp-23101	"09:53 am  Thursday March 17, 2011"	"FourMile_Fire +"	30	sand	tall	468	36	47	93.3	20	high	468	36	47	42	20	0	m	"43"
+WD	wepp-23206	"10:00 am  Thursday March 17, 2011"	"FourMile_Fire +"	30	sand	high	782	29	46	30	20	high	782	29	46	30	20	0	m	"22"
+WD	wepp-23211	"10:00 am  Thursday March 17, 2011"	"FourMile_Fire +"	30	sand	low	459	7	26	78	20	low	459	7	26	78	20	0	m	"23"
+WD	wepp-23216	"10:00 am  Thursday March 17, 2011"	"FourMile_Fire +"	30	sand	high	1000	23	21	42	20	tall	1000	23	21	82	20	0	m	"31"
+WD	wepp-23221	"10:00 am  Thursday March 17, 2011"	"FourMile_Fire +"	30	sand	short	287	12	31	97.2	20	low	287	12	31	60	20	0	m	"32"
+WD	wepp-23226	"10:00 am  Thursday March 17, 2011"	"FourMile_Fire +"	30	sand	short	118	37	37	98.8	20	short	118	37	37	67	20	0	m	"33"
+WD	wepp-23231	"10:00 am  Thursday March 17, 2011"	"FourMile_Fire +"	30	sand	high	813	2	36	34	20	short	813	2	36	87	20	0	m	"41"
+WD	wepp-23236	"10:00 am  Thursday March 17, 2011"	"FourMile_Fire +"	30	sand	low	316	34	41	82	20	low	316	34	41	83	20	0	m	"42"
+WD	wepp-23241	"10:00 am  Thursday March 17, 2011"	"FourMile_Fire +"	30	sand	high	468	36	47	32	20	high	468	36	47	42	20	0	m	"43"
+WD	wepp-24284	"11:41 am  Thursday March 17, 2011"	"FourMile_Fire +"	30	sand	high	782	29	46	30	20	high	782	46	29	30	20	0	m	"22"
+WD	wepp-24289	"11:41 am  Thursday March 17, 2011"	"FourMile_Fire +"	30	sand	low	459	7	26	78	20	low	459	26	7	78	20	0	m	"23"
+WD	wepp-24294	"11:41 am  Thursday March 17, 2011"	"FourMile_Fire +"	30	sand	high	1000	23	21	42	20	tall	1000	21	23	82	20	0	m	"31"
+WD	wepp-24299	"11:41 am  Thursday March 17, 2011"	"FourMile_Fire +"	30	sand	short	287	12	31	97.2	20	low	287	31	12	60	20	0	m	"32"
+WD	wepp-24304	"11:41 am  Thursday March 17, 2011"	"FourMile_Fire +"	30	sand	short	118	37	37	98.8	20	short	118	37	37	67	20	0	m	"33"
+WD	wepp-24309	"11:42 am  Thursday March 17, 2011"	"FourMile_Fire +"	30	sand	high	813	2	36	34	20	short	813	36	2	87	20	0	m	"41"
+WD	wepp-24314	"11:42 am  Thursday March 17, 2011"	"FourMile_Fire +"	30	sand	low	316	34	41	82	20	low	316	41	34	83	20	0	m	"42"
+WD	wepp-24319	"11:42 am  Thursday March 17, 2011"	"FourMile_Fire +"	30	sand	high	468	36	47	32	20	high	468	47	36	42	20	0	m	"43"
+WD	wepp-24370	"11:48 am  Thursday March 17, 2011"	"FourMile_Fire +"	30	sand	high	782	29	46	30	20	high	782	46	29	30	20	0	m	"22"
+WD	wepp-24375	"11:48 am  Thursday March 17, 2011"	"FourMile_Fire +"	30	sand	low	459	7	26	78	20	low	459	26	7	78	20	0	m	"23"
+WD	wepp-24380	"11:48 am  Thursday March 17, 2011"	"FourMile_Fire +"	30	sand	high	1000	23	21	42	20	tall	1000	21	23	82	20	0	m	"31"
+WD	wepp-24385	"11:48 am  Thursday March 17, 2011"	"FourMile_Fire +"	30	sand	short	287	12	31	97.2	20	low	287	31	12	60	20	0	m	"32"
+WD	wepp-24390	"11:48 am  Thursday March 17, 2011"	"FourMile_Fire +"	30	sand	short	118	37	37	98.8	20	short	118	37	37	67	20	0	m	"33"
+WD	wepp-24395	"11:49 am  Thursday March 17, 2011"	"FourMile_Fire +"	30	sand	high	813	2	36	34	20	short	813	36	2	87	20	0	m	"41"
+WD	wepp-24400	"11:49 am  Thursday March 17, 2011"	"FourMile_Fire +"	30	sand	low	316	34	41	82	20	low	316	41	34	83	20	0	m	"42"
+WD	wepp-24405	"11:49 am  Thursday March 17, 2011"	"FourMile_Fire +"	30	sand	high	468	36	47	32	20	high	468	47	36	42	20	0	m	"43"
+WD	wepp-24467	"11:53 am  Thursday March 17, 2011"	"FourMile_Fire +"	30	sand	high	300	20	35	30	20	high	300	20	35	30	20	0	m	"1"
+WD	wepp-24472	"11:53 am  Thursday March 17, 2011"	"FourMile_Fire +"	30	sand	low	300	20	35	78	20	low	300	20	35	78	20	0	m	"2"
+WD	wepp-24477	"11:53 am  Thursday March 17, 2011"	"FourMile_Fire +"	30	sand	low	300	20	35	85	20	low	300	20	35	85	20	0	m	"3"
+WD	wepp-24482	"11:53 am  Thursday March 17, 2011"	"FourMile_Fire +"	30	sand	high	300	20	35	42	20	high	300	20	35	42	20	0	m	"4"
+WD	wepp-24487	"11:53 am  Thursday March 17, 2011"	"FourMile_Fire +"	30	sand	low	300	20	35	87	20	low	300	20	35	87	20	0	m	"5"
+WD	wepp-24492	"11:53 am  Thursday March 17, 2011"	"FourMile_Fire +"	30	sand	short	300	20	35	60	20	short	300	20	35	60	20	0	m	"6"
+WD	wepp-24497	"11:54 am  Thursday March 17, 2011"	"FourMile_Fire +"	30	sand	tall	300	20	35	65	20	tall	300	20	35	65	20	0	m	"7"
+WD	wepp-24502	"11:54 am  Thursday March 17, 2011"	"FourMile_Fire +"	30	sand	tall	300	20	35	65	20	tall	300	20	35	65	20	0	m	"8"
+WD	wepp-24617	"12:04 pm  Thursday March 17, 2011"	"FourMile_Fire +"	30	sand	high	400	23	21	42	20	tall	400	21	23	82	20	0	m	""
+WD	wepp-24721	"12:18 pm  Thursday March 17, 2011"	"FourMile_Fire +"	30	sand	low	316	34	41	82	20	low	316	41	34	83	20	0	m	""
+WD	wepp-8782	"10:32 am  Tuesday July 12, 2011"	"CAMBRIDGE ID"	10	clay	YoungForest	300	0	40	85	20	YoungForest	300	40	5	85	20	0	ft	""
+WD	wepp-8947	"10:35 am  Tuesday July 12, 2011"	"NewMeadow_100yr +"	10	clay	YoungForest	300	0	40	85	20	YoungForest	300	40	5	85	20	0	ft	""
+WD	wepp-8997	"10:36 am  Tuesday July 12, 2011"	"NewMeadow_100yr +"	10	clay	YoungForest	100	0	40	85	20	YoungForest	100	40	5	85	20	0	ft	""
+WD	wepp-9017	"10:36 am  Tuesday July 12, 2011"	"NewMeadow_100yr +"	10	clay	YoungForest	400	0	40	85	20	YoungForest	400	40	5	85	20	0	ft	""
+WD	wepp-9037	"10:36 am  Tuesday July 12, 2011"	"NewMeadow_100yr +"	10	sand	YoungForest	400	0	40	85	20	YoungForest	400	40	5	85	20	0	ft	""
+WD	wepp-9057	"10:37 am  Tuesday July 12, 2011"	"NewMeadow_100yr +"	10	sand	YoungForest	1000	0	40	85	20	YoungForest	1000	40	5	85	20	0	ft	""
+WD	wepp-9078	"10:37 am  Tuesday July 12, 2011"	"NewMeadow_100yr +"	10	sand	YoungForest	500	0	40	85	20	YoungForest	500	40	5	85	20	0	ft	""
+WD	wepp-9100	"10:38 am  Tuesday July 12, 2011"	"NewMeadow_100yr +"	10	sand	YoungForest	50	0	40	85	20	YoungForest	50	40	5	85	20	0	ft	""
+WD	wepp-9120	"10:39 am  Tuesday July 12, 2011"	"NewMeadow_100yr +"	10	sand	YoungForest	150	0	40	85	20	YoungForest	150	40	5	85	20	0	ft	""
+WD	wepp-9140	"10:39 am  Tuesday July 12, 2011"	"NewMeadow_100yr +"	10	sand	YoungForest	150	0	50	85	20	YoungForest	150	50	5	85	20	0	ft	""
+WD	wepp-9164	"10:39 am  Tuesday July 12, 2011"	"NewMeadow_100yr +"	10	sand	YoungForest	50	0	50	85	20	YoungForest	50	50	5	85	20	0	ft	""
+WD	wepp-9210	"10:40 am  Tuesday July 12, 2011"	"NewMeadow_100yr +"	50	sand	YoungForest	50	0	50	85	20	YoungForest	50	50	5	85	20	0	ft	""
+WD	wepp-9230	"10:40 am  Tuesday July 12, 2011"	"NewMeadow_100yr +"	50	sand	YoungForest	150	0	50	85	20	YoungForest	150	50	5	85	20	0	ft	""
+WD	wepp-9250	"10:40 am  Tuesday July 12, 2011"	"NewMeadow_100yr +"	50	sand	YoungForest	300	0	50	85	20	YoungForest	300	50	5	85	20	0	ft	""
+WE	wepp-90840	"11:24 am  Wednesday October 14, 2015"	"Ankara TURKEY"	sand	20	forest	0	50	30	100	h			m
+WE	wepp-223681	"07:17 am  Tuesday February 27, 2018"	"MOSCOW U OF I ID"	clay	20	forest	0	50	30	300	l			ft
+WE	wepp-223947	"07:28 am  Tuesday February 27, 2018"	""	silt	5	forest	10	32	15	60	h			m
+WE	wepp-223994	"07:30 am  Tuesday February 27, 2018"	""	silt	5	forest	10	32	15	60	h			m
+WE	wepp-224171	"07:39 am  Tuesday February 27, 2018"	""	silt	5	forest	10	32	15	60	h			m
+WE	wepp-226728	"10:21 am  Tuesday February 27, 2018"	""	silt	5	forest	10	32	15	60	h			m
+WE	wepp-226773	"10:22 am  Tuesday February 27, 2018"	""	silt	5	forest	10	32	15	60	h			m
+WE	wepp-14286	"08:06 am  Wednesday February 28, 2018"	"REPUBLIC WA"	clay	15	forest	10	30	15	50	h			m
+WE	wepp-14597	"08:15 am  Wednesday February 28, 2018"	"REPUBLIC WA"	clay	15	forest	10	30	15	30	h			m
+WE	wepp-14853	"08:25 am  Wednesday February 28, 2018"	"REPUBLIC WA"	clay	15	forest	10	30	15	100	h			m
+WE	wepp-15101	"08:33 am  Wednesday February 28, 2018"	"REPUBLIC WA"	clay	15	forest	10	30	15	150	h			m
+WE	wepp-15783	"08:43 am  Wednesday February 28, 2018"	"REPUBLIC WA"	clay	15	forest	10	30	15	75	h			m
+WE	wepp-3588	"10:53 am  Wednesday February 28, 2018"	"ABERDEEN 20 NNE WISHKA"	clay	20	forest	0	50	30	300	l			ft
+WE	wepp-3881	"11:01 am  Wednesday February 28, 2018"	"ABERDEEN 20 NNE WISHKA"	clay	15	forest	10	30	15	50	h			m
+WE	wepp-5191	"11:09 am  Wednesday February 28, 2018"	"ABERDEEN 20 NNE WISHKA"	clay	15	forest	10	30	15	30	h			m
+WE	wepp-5538	"11:19 am  Wednesday February 28, 2018"	"ABERDEEN 20 NNE WISHKA"	clay	15	forest	10	30	15	100	h			m
+WE	wepp-5835	"11:28 am  Wednesday February 28, 2018"	"ABERDEEN 20 NNE WISHKA"	clay	15	forest	10	30	15	150	h			m
+WE	wepp-6179	"11:37 am  Wednesday February 28, 2018"	"ABERDEEN 20 NNE WISHKA"	clay	15	forest	10	30	15	75	h			m
+WE	wepp-22698	"07:48 am  Thursday March 1, 2018"	"ABERDEEN 20 NNE WISHKA"	clay	20	forest	0	50	30	300	l			ft
+WR	wepp-184086	"03:33 pm  Friday September 21, 2018"	"TAHOE CA"	30	sand	graveled	200	4	10	15	50	130	25	20	outunrut	ft

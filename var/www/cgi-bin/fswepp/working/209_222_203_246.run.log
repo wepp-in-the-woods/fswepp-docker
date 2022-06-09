@@ -1,0 +1,42 @@
+WD	wepp-80094	"05:01 pm  Monday April 4, 2016"	"REDLANDS CA"	10	clay	HighFire	100	30	30	10	20	HighFire	100	30	30	10	20	0	ft	""
+WD	wepp-80171	"05:05 pm  Monday April 4, 2016"	"REDLANDS CA"	10	sand	HighFire	100	30	30	85	20	HighFire	100	30	30	85	20	0	ft	""
+WD	wepp-80261	"05:07 pm  Monday April 4, 2016"	"REDLANDS CA"	10	sand	LowFire	100	30	30	85	20	LowFire	100	30	30	85	20	0	ft	""
+WD	wepp-80339	"05:08 pm  Monday April 4, 2016"	"REDLANDS CA"	10	sand	OldForest	100	30	30	100	20	OldForest	100	30	30	100	20	0	ft	""
+WD	wepp-80459	"05:11 pm  Monday April 4, 2016"	"REDLANDS CA"	10	sand	HighFire	100	30	30	10	20	HighFire	100	30	30	10	20	0	ft	""
+WD	wepp-80608	"05:12 pm  Monday April 4, 2016"	"REDLANDS CA"	10	sand	HighFire	100	50	50	10	20	HighFire	100	50	50	10	20	0	ft	""
+WD	wepp-80877	"05:13 pm  Monday April 4, 2016"	"REDLANDS CA"	10	sand	HighFire	250	30	30	10	20	HighFire	250	30	30	10	20	0	ft	""
+WD	wepp-80927	"05:14 pm  Monday April 4, 2016"	"REDLANDS CA"	10	sand	HighFire	250	50	50	10	20	HighFire	250	50	50	10	20	0	ft	""
+WE	wepp-81358	"05:20 pm  Monday April 4, 2016"	"REDLANDS CA"	clay	20	forest	50	50	30	200	h			ft
+WD	wepp-230289	"05:13 pm  Thursday April 7, 2016"	"REDLANDS CA"	10	clay	HighFire	100	30	30	10	20	HighFire	100	30	30	10	20	0	ft	""
+WD	wepp-230396	"05:15 pm  Thursday April 7, 2016"	"REDLANDS CA"	10	sand	HighFire	100	30	30	10	20	HighFire	100	30	30	10	20	0	ft	""
+WD	wepp-230515	"05:17 pm  Thursday April 7, 2016"	"REDLANDS CA"	10	sand	LowFire	100	30	30	85	20	LowFire	100	30	30	85	20	0	ft	""
+WD	wepp-230640	"05:19 pm  Thursday April 7, 2016"	"REDLANDS CA"	10	sand	OldForest	100	30	30	100	20	OldForest	100	30	30	100	20	0	ft	""
+WD	wepp-230808	"05:23 pm  Thursday April 7, 2016"	"REDLANDS CA"	10	sand	OldForest	100	30	30	100	20	OldForest	100	30	30	100	20	0	ft	""
+WD	wepp-230959	"05:28 pm  Thursday April 7, 2016"	"REDLANDS CA"	10	clay	HighFire	100	30	30	10	20	HighFire	100	30	30	10	20	0	ft	""
+WD	wepp-231021	"05:29 pm  Thursday April 7, 2016"	"REDLANDS CA"	10	clay	HighFire	100	50	50	10	20	HighFire	100	50	50	10	20	0	ft	""
+WD	wepp-231078	"05:31 pm  Thursday April 7, 2016"	"REDLANDS CA"	10	clay	HighFire	250	30	30	10	20	HighFire	250	30	30	10	20	0	ft	""
+WD	wepp-231121	"05:32 pm  Thursday April 7, 2016"	"REDLANDS CA"	10	clay	HighFire	250	50	50	10	20	HighFire	250	50	50	10	20	0	ft	""
+WE	wepp-231449	"05:45 pm  Thursday April 7, 2016"	"REDLANDS CA"	clay	20	forest	50	50	50	200	h			ft
+WE	wepp-231874	"05:53 pm  Thursday April 7, 2016"	"REDLANDS CA"	clay	20	forest	50	50	50	200	h			ft
+WD	wepp-6827	"06:35 am  Friday April 8, 2016"	"REDLANDS CA"	10	clay	LowFire	100	30	30	85	20	LowFire	100	30	30	85	20	0	ft	""
+WD	wepp-6881	"06:36 am  Friday April 8, 2016"	"REDLANDS CA"	10	clay	OldForest	100	30	30	100	20	OldForest	100	30	30	100	20	0	ft	""
+WD	wepp-183598	"05:55 am  Monday April 9, 2018"	"BANGOR DOW FIELD ME"	10	silt	OldForest	150	30	30	100	0	OldForest	150	30	30	100	0	0	ft	""
+WD	wepp-184071	"05:57 am  Monday April 9, 2018"	"BANGOR DOW FIELD ME"	10	silt	HighFire	150	30	30	0	0	HighFire	150	30	30	0	0	0	ft	""
+WD	wepp-184914	"06:00 am  Monday April 9, 2018"	"LAS VEGAS WB AP NV"	10	silt	HighFire	150	30	30	0	0	HighFire	150	30	30	0	0	0	ft	""
+WD	wepp-185212	"06:01 am  Monday April 9, 2018"	"MADISON WB AIRPORT WI"	10	clay	Bunchgrass	150	30	30	40	0	Bunchgrass	150	30	30	40	0	0	ft	""
+WD	wepp-185413	"06:02 am  Monday April 9, 2018"	"MADISON WB AIRPORT WI"	10	clay	Sod	150	30	30	40	0	Sod	150	30	30	40	0	0	ft	""
+WD	wepp-185638	"06:03 am  Monday April 9, 2018"	"MADISON WB AIRPORT WI"	10	sand	Bunchgrass	150	30	30	60	0	Bunchgrass	150	30	30	60	0	0	ft	""
+WD	wepp-185874	"06:04 am  Monday April 9, 2018"	"MADISON WB AIRPORT WI"	10	clay	Skid	150	30	30	0	0	Skid	150	30	30	0	0	0	ft	""
+WE	wepp-186846	"06:06 am  Monday April 9, 2018"	"WALLACE WDLND PK ID"	silt	5	forest	30	30	30	300	u			ft
+WE	wepp-187237	"06:07 am  Monday April 9, 2018"	"WALLACE WDLND PK ID"	silt	5	forest	30	30	30	300	u			ft
+WE	wepp-189369	"06:11 am  Monday April 9, 2018"	"WALLACE WDLND PK ID"	silt	5	forest	30	30	30	300	h			ft
+WD	wepp-176018	"11:07 am  Monday April 15, 2019"	"BANGOR DOW FIELD ME"	10	silt	OldForest	150	30	30	100	0	OldForest	150	30	30	100	0	0	ft	""
+WD	wepp-176139	"11:08 am  Monday April 15, 2019"	"BANGOR DOW FIELD ME"	10	silt	HighFire	150	30	30	0	0	HighFire	150	30	30	0	0	0	ft	""
+WD	wepp-176250	"11:09 am  Monday April 15, 2019"	"LAS VEGAS WB AP NV"	10	silt	HighFire	150	30	30	0	0	HighFire	150	30	30	0	0	0	ft	""
+WD	wepp-176526	"11:09 am  Monday April 15, 2019"	"MADISON WB AIRPORT WI"	10	clay	Bunchgrass	150	30	30	40	0	Bunchgrass	150	30	30	40	0	0	ft	""
+WD	wepp-176535	"11:10 am  Monday April 15, 2019"	"MADISON WB AIRPORT WI"	10	clay	Sod	150	30	30	40	0	Sod	150	30	30	40	0	0	ft	""
+WD	wepp-176582	"11:11 am  Monday April 15, 2019"	"MADISON WB AIRPORT WI"	10	sand	Bunchgrass	150	30	30	60	0	Bunchgrass	150	30	30	60	0	0	ft	""
+WD	wepp-176622	"11:12 am  Monday April 15, 2019"	"MADISON WB AIRPORT WI"	10	clay	Skid	150	30	30	0	0	Skid	150	30	30	0	0	0	ft	""
+WE	wepp-176687	"11:13 am  Monday April 15, 2019"	"WALLACE WDLND PK ID"	silt	5	forest	30	30	30	300	u			ft
+WE	wepp-176763	"11:13 am  Monday April 15, 2019"	"WALLACE WDLND PK ID"	silt	5	forest	30	30	30	300	h			ft
+WE	wepp-176866	"11:13 am  Monday April 15, 2019"	"WALLACE WDLND PK ID"	silt	5	forest	30	30	30	300	h			ft

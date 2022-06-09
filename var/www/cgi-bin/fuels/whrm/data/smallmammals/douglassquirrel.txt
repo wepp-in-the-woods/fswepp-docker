@@ -1,0 +1,96 @@
+#this files was modified by filegenwhrm.pl on: Wednesday, March 16, 2005.
+#taxgroup Small Mammals species Douglas' squirrel /  Tamiasciurus douglasii
+#
+# Rank
+3,2,2,2,1
+# Nestsite
+13,1:26,1
+# Reprorank
+1,-99:1,-99
+# Foraging Habitat
+8,1:52,-1:51,-1
+# Habitatrank
+2,-99:1,-99:1,-99
+# Forage/Prey Availability
+26,1:25,1
+# Preyrank
+2,-99:1,-99
+# Predator Avoidance
+-99
+# Avoidrank
+-99
+# Refugia/Shelter
+13,1
+# Shelterrank
+1,-99
+# Coverrank
+1,-99
+# Literature
+Distribution
+western British Columbia, Washington and Oregon, northwestern and central California
+General Habitat
+pole through old-growth conifer stands
+Home or Activity Range
+&lt 1.5 ac (O'Neil et al. 2001)
+Canopy Cover
+no information available
+Specific Habitat Preferences
+large trees that provide a consistent cone crop, downed wood, dislike hardwood understory ("other trees" in the model are tanoaks)
+Nestsite Characteristics
+cavity in tree or outside in branches
+Foraging Habitat Characteristics
+conifer trees; old growth and mature forest provide a more abundant, more consistent, less seasonal, and more diverse seed source
+Diet
+seeds, nuts, eggs, fungi, stores conifer cones and nuts in caches
+Predators
+northern goshawk, great horned owl, marten
+Shelter Habitats
+tree cavities, hollow trees, hollow logs, nests of grass, lichens, and sticks in trees, burrows in the ground; underground nest within midden
+Response to Disturbance
+not found in areas clearcut/burned (Gashwiler 1970)
+Sources of Information used in the Model
+Raphael 1988, Carey 1991, Gilbert and Allwine 1991
+General Sources of Background Information
+Gashwiler 1970, Burt 1980, Raphael 1988, Buchanan et al. 1990, Harestad 1990, Carey 1991, Gilbert and Allwine 1991, Ransome and Sullivan 2003
+Summaries of Specific Studies
+Buchanan, Joseph B.; Lundquist, Richard W.; Aubry, Keith B. 1990. Winter populations of Douglas' squirrels in different-aged Douglas-fir forests. Journal of Wildlife Management. 54(4): 577-581.
+
+Study Location: southern Washington Cascades
+Habitat Description: PSME, THPL, TSHE
+Summary: Douglas squirrel populations in winter were generally higher in old-growth forests, but varied dramatically from year to year in synchrony to the annual production of conifer cones. Older forests appeared to be better habitat, as they produced a greater and more reliable quantity of conifer seeds. Silvicultural strategies to increase levels of cone production would be an effective means of improving the habitat quality of young PSME forest for squirrels. Such strategies include retaining green trees to ensure local cone production, planting mixed species to provide alternate seed sources, and harvesting trees such that multilayered or irregular canopies are the result.
+
+Carey, Andrew B. 1991. The biology of arboreal rodents in Douglas-fir forests. Gen. Tech. Rep. PNW-GTR-276. Portland, OR: USDA Forest Service, Pacific Northwest Research Station. 46 p.
+
+Study Location: west of Cascade crest in Oregon and Washington
+Habitat Description: not specified
+Summary: Accounts of arboreal rodents are given, with information on identification, distribution, habitat preference, nesting, food items and predators. These species are most abundant and diverse in mixed-conifer old-growth forest that contains streams. All species appear to be sensitive to timber harvest due to loss of habitat and dispersal barriers.
+
+Gashweiler, Jay S. 1970. Plant and animal changes on a clearcut in west-central Oregon. Ecology. 51:1018-1026.
+
+Study Location: west-central Oregon (west Cascades)
+Habitat Description: PSME, TSHE, THPL
+Summary: Study documents changes in plant and mammal communities for 11 years following a clearcut with a fall burn. Deer mice increased in the experimental area soon after the burn was completed. Other species that increased at various times after the burn include Townsend's chipmunk, snowshoe hare, and the Oregon vole. Red-back voles, northern flying squirrels, and Douglas' squirrels were not found in the clearcut/burn. California squirrels migrated into the clearcut/burn.
+
+Gilbert, Frederick F.; Allwine, Rochelle. 1991. Small mammal communities in the Oregon Cascade Range. In Wildlife and vegetation of unmanaged Douglas-fir forests. Gen. Tech. Rep. PNW-GTR-285. Portland, OR: USDA, Forest Service, Pacific Northwest Research Station. pp 257-268.
+
+Study Location: west slope of Oregon Cascades
+Habitat Description: PSME
+Summary: There was no significant difference in species richness among young, mature and old-growth PSME stands in the Oregon Cascade Range. Trowbridge's shrew was the most abundant small mammal captured. Trowbridge's shrew, the shrew-mole, the deer mouse, and the red tree vole all were associated with older stands. The coast mole was only found in mature and old growth stands in one year. Tree squirrel abundance was positively correlated with snags. Temporal and spatial differences in habitat use were indicated by associations with forest vegetational and physical characteristics. The authors state that young and mature stands in this study contained many characteristics of old growth stands as they were allowed to naturally regenerate. Therefore, caution should be exercised in extrapolating results, as these stands did not contain conditions representative of stands managed for timber production.
+
+Harestad, Alton S. 1990. Nest site selection by northern flying squirrels and Douglas squirrels. Northwestern Naturalist. 71:43-35.
+
+Study Location: British Columbia
+Habitat Description: PSME, TSHE, THPL, ALRU, ACMA
+Summary: This study examined the importance of aspect and height in nest site selection (using nest boxes) for tree and flying squirrels. Both species chose higher nest boxes but there was no apparent selection for north or south aspect. Multiple nests were located in some boxes containing flying squirrels.
+
+Ransome, Douglas B.; Sullivan, Thomas P. 2003. Population dynamics of Glaucomys sabrinus and Tamiasciurus douglasii in old-growth and second-growth stands of coastal coniferous forest. Canadian Journal of Forest Research. 33: 587-596.
+
+Study Location: south coast of British Columbia
+Habitat Description: old- and second-growth stands of TSHE, THPL, PSME, ABAM
+Summary: This study tested the hypothesis that old-growth forest stands were higher quality habitat than second-growth stands for two squirrel species. No major differences in movement, density, recruitment, mass of males, survival, percentage of the population breeding, and the duration of habitation of the study plots were found between the two stand types for flying squirrels. For Douglas squirrels, the only difference found was in recruitment, which was higher in the second growth stand. Therefore, old-growth habitat does not appear to be higher quality habitat for either species. When considering the contradictory results from other studies on northern flying squirrels, the authors noted that two overall patterns: abundance can be variable within a stand type and the relative difference between stand types varies from year to year. This pattern limits the inference from short-term studies.
+
+Raphael, Martin G. 1988. Habitat associations of small mammals in a subalpine forest, southeastern Wyoming. In: Management of amphibians, reptiles, and small mammals in North America symposium: proceedings; Gen. Tech. Rep. RM-166. Fort Collins, CO: USDA, Forest Service, Rocky Mountain Forest and Range Experiment Station. 359-367.
+
+Study Location: southern Wyoming
+Habitat Description: PICO (60%), PIEN, ABLA
+Summary: Abundance of small mammals was associated with generalized habitat types within the sup-alpine zone. Moisture and stand maturity were two habitat features that separated patterns of abundance of various species. Specific habitat associations are given for 8 species of small mammals. The southern red-backed vole was confirmed as a suitable indicator of old-growth forest; the masked and dusky shrew may be as well.

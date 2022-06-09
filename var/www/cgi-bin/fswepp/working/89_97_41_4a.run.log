@@ -1,0 +1,17 @@
+WE	wepp-21194	"02:41 am  Thursday November 7, 2013"	"Cagliari Mod ITALY  piros +"	sand	10	chap	20	90	30	700	l	95	0	ft
+WE	wepp-22199	"02:46 am  Thursday November 7, 2013"	"Cagliari Mod ITALY  piros +"	sand	10	chap	20	90	30	700	l	95	0	ft
+WE	wepp-22423	"02:47 am  Thursday November 7, 2013"	"Cagliari Mod ITALY  piros +"	sand	10	chap	20	90	30	700	l	95	0	ft
+WE	wepp-22479	"02:47 am  Thursday November 7, 2013"	"Cagliari Mod ITALY  piros +"	sand	10	chap	20	90	30	700	l	80	0	ft
+WE	wepp-22632	"02:49 am  Thursday November 7, 2013"	"Cagliari Mod ITALY  piros +"	sand	10	chap	20	90	30	700	l	80	0	ft
+WE	wepp-22739	"02:50 am  Thursday November 7, 2013"	"Cagliari Mod ITALY  piros +"	clay	20	chap	20	90	30	300	l	80	0	m
+WE	wepp-23014	"02:57 am  Thursday November 7, 2013"	"Cagliari Mod ITALY  piros +"	clay	20	chap	0	10	10	100	l	80	0	m
+WD	wepp-24234	"03:46 am  Thursday November 7, 2013"	"Cagliari Mod ITALY  piros +"	10	sand	Bunchgrass	75	0	20	60	20	LowFire	75	25	5	85	20	0	m	"sardinia experiment "
+WD	wepp-24330	"03:47 am  Thursday November 7, 2013"	"Cagliari Mod ITALY  piros +"	10	sand	Bunchgrass	75	0	20	60	8	LowFire	75	25	5	55	8	0	m	"sardinia experiment "
+WD	wepp-24550	"03:49 am  Thursday November 7, 2013"	"Cagliari Mod ITALY  piros +"	10	sand	Bunchgrass	75	0	20	20	8	HighFire	75	25	5	20	8	0	m	"sardinia experiment "
+WD	wepp-24659	"03:50 am  Thursday November 7, 2013"	"Cagliari Mod ITALY  piros +"	10	sand	Bunchgrass	75	0	20	5	8	HighFire	75	25	5	5	8	0	m	"sardinia experiment "
+WD	wepp-24748	"03:51 am  Thursday November 7, 2013"	"Cagliari Mod ITALY  piros +"	10	sand	Bunchgrass	75	20	60	5	8	HighFire	75	60	40	5	8	0	m	"sardinia experiment "
+WD	wepp-24953	"03:54 am  Thursday November 7, 2013"	"Cagliari Mod ITALY  piros +"	10	sand	Bunchgrass	75	20	60	2	8	HighFire	75	60	40	2	8	0	m	"sardinia experiment "
+WR	wepp-25254	"03:58 am  Thursday November 7, 2013"	"Cagliari Mod ITALY  piros +"	30	sand	native	60	4	4	5	50	40	25	20	inveg	m
+WR	wepp-25477	"04:02 am  Thursday November 7, 2013"	"Cagliari Mod ITALY"	30	sand	native	60	4	3	2	30	40	15	8	outrut	m
+WR	wepp-25670	"04:04 am  Thursday November 7, 2013"	"Cagliari Mod ITALY"	30	clay	native	60	4	3	5	20	40	15	20	outunrut	m
+WF	wepp-25902	"04:10 am  Thursday November 7, 2013"	"Cagliari Mod ITALY  piros +"	clay	200	50	0	30	15	40	20	20	4	ft

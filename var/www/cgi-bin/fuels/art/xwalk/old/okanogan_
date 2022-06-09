@@ -1,0 +1,25 @@
+#	Williams, C.K. and T.R. Lillybridge. 1983.
+#	Forested Plant Associations of the Okanogan National Forest.
+#	Report R6-Ecol-132b-1983.
+#	Portland, OR: U.S. Department of Agriculture, Forest Service, Pacific Northwest Region. 139 p.
+ABLA/LIBO	ColdF	DH	ColdF/DH	H
+ABLA/PAMY	ColdF	DH	ColdF/DH	H
+ABLA/RHAL	ColdF	DH	ColdF/DH	H
+ABLA/VACI	ColdF	DH	ColdF/DH	H
+ABLA/VASC-CARU	ColdF	DH	ColdF/DH	H
+PIEN/EQAR	ColdF	WH	ColdF/WH	H
+POTR/SYAL	CoolP	DH	CoolP/DH	H
+PSME/VACI	DF	DH	DF/DH	H
+ABLA/CARU	ColdF	DS	ColdF/DS	L
+ABLA/PHEM	ColdF	DS	ColdF/DS	L
+ABLA/VASC	ColdF	DS	ColdF/DS	L
+PIAL/CARU	DF	DS	DF/DS	L
+PIPO-PSME/AGIN	DF	DS	DF/DS	L
+POTR/CARU	CoolP	DS	CoolP/DS	L
+PSME/ARUV	DF	DS	DF/DS	L
+PSME/ARUV-PUTR	DF	DS	DF/DS	L
+PSME/CARU	DF	DS	DF/DS	L
+PSME/PAMY	DF	DS	DF/DS	L
+PSME/PHMA	DF	DS	DF/DS	L
+PSME/SYAL	DF	DS	DF/DS	L
+PSME/SYOR	DF	DS	DF/DS	L

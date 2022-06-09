@@ -1,0 +1,38 @@
+International
+ <input type="hidden" name="state" value="nonus">
+ <select name="station" size="18">
+  <OPTION VALUE="AU_beechworth" selected>Beechworth AUSTRALIA</option>
+  <OPTION VALUE="AU_bunyip">Bunyip AUSTRALIA</option>
+  <OPTION VALUE="AU_cranbourne">Cranbourne AUSTRALIA</option>
+  <OPTION VALUE="AU_delburn">Delburn AUSTRALIA</option>
+  <OPTION VALUE="AU_kilmore">Kilmore AUSTRALIA</option>
+  <OPTION VALUE="AU_melbourne">Melbourne AUSTRALIA</option>
+  <OPTION VALUE="AU_morwell">Morwell AUSTRALIA</option>
+  <OPTION VALUE="CL_concepcion">Conception CHILE</option>
+  <OPTION VALUE="CL_valdivia">Valdivia CHILE</option>
+  <OPTION VALUE="CN_hanzhong">Hanzhong CHINA</option>
+  <OPTION VALUE="CN_jinan">Jinan CHINA</option>
+  <OPTION VALUE="GR_kalamata">Kalamata GREECE</option>
+  <OPTION VALUE="GR_pyrgos">Pyrgos GREECE</option>
+  <OPTION VALUE="IL_haifa">Haifa ISRAEL</option>
+  <OPTION VALUE="IL_mountCarmel">Mount Carmel ISRAEL</option>
+  <OPTION VALUE="IT_cagliari">Cagliari ITALY</option>
+  <OPTION VALUE="IT_cagliari_">Cagliari ITALY (new)</option>
+  <OPTION VALUE="IT_capoBellavista">Capo Bellavista (Tortoli) ITALY</option>
+  <OPTION VALUE="IT_guardiaVecchia">Guardia Vecchia (La Maddalena) ITALY</option>
+  <OPTION VALUE="IT_oristano">Oristano (Arbus) ITALY</option>
+  <OPTION VALUE="LB_beirut">Beirut LEBANON</option>
+  <OPTION VALUE="ES_bubal">Bubal SPAIN</option>
+  <OPTION VALUE="ES_gerona_c">Gerona SPAIN</option>
+  <OPTION VALUE="ES_gerona_d">Gerona Sierra SPAIN</option>
+  <OPTION VALUE="ES_sotonera">La Sotonera SPAIN</option>
+  <OPTION VALUE="ES_orense">Orense SPAIN</option>
+  <OPTION VALUE="TR_ankara">Ankara TURKEY</option>
+  <OPTION VALUE="TR_bingol">Bingol TURKEY</option>
+  <OPTION VALUE="TR_kahramanmaras">Kahramanmaras TURKEY</option>
+  <OPTION VALUE="ko_kotar">Kotar Range KOREA test</option>
+  <OPTION VALUE="KO_wonju">Wonju KOREA test 1</option>
+  <OPTION VALUE="ko_wonju">Wonju KOREA test 2</option>
+ </select>
+
+

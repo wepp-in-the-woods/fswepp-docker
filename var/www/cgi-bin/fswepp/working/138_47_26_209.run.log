@@ -1,0 +1,46 @@
+WD	wepp-24093	"11:32 am  Tuesday April 16, 2013"	"RUSTON L P I LA"	10	sand	OldForest	100	3	10	100	0	OldForest	100	2	10	100	0	0	ft	""
+WD	wepp-24173	"11:33 am  Tuesday April 16, 2013"	"RUSTON L P I LA"	10	sand	YoungForest	100	3	10	100	0	YoungForest	100	2	10	100	0	0	ft	""
+WD	wepp-24304	"11:35 am  Tuesday April 16, 2013"	"RUSTON L P I LA"	30	sand	OldForest	100	3	10	100	0	OldForest	100	2	10	100	0	0	ft	""
+WD	wepp-24655	"11:38 am  Tuesday April 16, 2013"	"RUSTON L P I LA"	30	sand	YoungForest	100	3	10	100	0	YoungForest	100	2	10	100	0	0	ft	""
+WD	wepp-24769	"11:39 am  Tuesday April 16, 2013"	"RUSTON L P I LA"	30	clay	OldForest	100	3	10	100	0	OldForest	100	2	10	100	0	0	ft	""
+WD	wepp-24810	"11:40 am  Tuesday April 16, 2013"	"RUSTON L P I LA"	30	silt	OldForest	100	3	10	100	0	OldForest	100	2	10	100	0	0	ft	""
+WD	wepp-24865	"11:40 am  Tuesday April 16, 2013"	"RUSTON L P I LA"	30	loam	OldForest	100	3	10	100	0	OldForest	100	2	10	100	0	0	ft	""
+WD	wepp-25250	"11:44 am  Tuesday April 16, 2013"	"RUSTON L P I LA"	10	clay	OldForest	50	10	20	100	20	OldForest	50	10	20	100	20	0	ft	""
+WD	wepp-25392	"11:45 am  Tuesday April 16, 2013"	"RUSTON L P I LA"	10	clay	OldForest	150	0	30	100	20	OldForest	150	0	30	100	20	0	ft	""
+WD	wepp-25551	"11:47 am  Tuesday April 16, 2013"	"RUSTON L P I LA"	10	clay	OldForest	50	0	30	50	20	OldForest	50	30	5	50	20	0	ft	""
+WD	wepp-25680	"11:48 am  Tuesday April 16, 2013"	"RUSTON L P I LA"	10	clay	OldForest	50	0	30	100	50	OldForest	50	30	5	100	50	0	ft	""
+WD	wepp-26220	"11:53 am  Tuesday April 16, 2013"	"RUSTON L P I LA"	30	sand	YoungForest	100	3	10	100	0	YoungForest	100	10	2	100	0	0	ft	""
+WD	wepp-26355	"11:54 am  Tuesday April 16, 2013"	"RUSTON L P I LA"	30	clay	YoungForest	100	3	10	100	0	YoungForest	100	10	2	100	0	0	ft	""
+WD	wepp-26629	"11:56 am  Tuesday April 16, 2013"	"RUSTON L P I LA"	30	silt	OldForest	150	0	30	100	20	YoungForest	150	30	5	100	20	0	ft	""
+WD	wepp-26722	"11:56 am  Tuesday April 16, 2013"	"RUSTON L P I LA"	30	silt	OldForest	50	0	30	50	20	YoungForest	50	30	5	50	20	0	ft	""
+WD	wepp-26775	"11:57 am  Tuesday April 16, 2013"	"RUSTON L P I LA"	10	clay	OldForest	50	0	30	100	20	OldForest	50	30	5	100	20	0	ft	""
+WD	wepp-26821	"11:57 am  Tuesday April 16, 2013"	"RUSTON L P I LA"	10	clay	OldForest	50	0	30	100	50	OldForest	50	30	5	100	50	0	ft	""
+WD	wepp-26929	"11:58 am  Tuesday April 16, 2013"	"RUSTON L P I LA"	10	clay	Skid	50	10	30	50	50	Skid	50	30	10	50	50	0	ft	""
+WD	wepp-26999	"11:58 am  Tuesday April 16, 2013"	"RUSTON L P I LA"	30	sand	Skid	50	0	30	50	50	Skid	50	30	5	50	50	0	ft	""
+WD	wepp-27111	"11:59 am  Tuesday April 16, 2013"	"RUSTON L P I LA"	30	clay	LowFire	50	0	30	85	50	LowFire	50	30	5	85	50	0	ft	""
+WD	wepp-27217	"12:00 pm  Tuesday April 16, 2013"	"RUSTON L P I LA"	30	clay	LowFire	50	20	40	85	50	LowFire	50	40	10	85	50	0	ft	""
+WD	wepp-27259	"12:00 pm  Tuesday April 16, 2013"	"RUSTON L P I LA"	30	clay	HighFire	50	20	40	45	50	HighFire	50	40	10	45	50	0	ft	""
+WD	wepp-27313	"12:01 pm  Tuesday April 16, 2013"	"RUSTON L P I LA"	30	silt	HighFire	50	20	40	45	50	HighFire	50	40	10	45	50	0	ft	""
+WR	wepp-27543	"12:03 pm  Tuesday April 16, 2013"	"RUSTON L P I LA"	30	clay	native	200	4	13	15	50	130	25	20	inbare	ft
+WR	wepp-27914	"12:06 pm  Tuesday April 16, 2013"	"RUSTON L P I LA"	30	clay	native	200	5	13	15	20	130	25	20	inbare	ft
+WR	wepp-27969	"12:06 pm  Tuesday April 16, 2013"	"RUSTON L P I LA"	30	clay	native	200	4	13	15	50	130	25	20	outrut	ft
+WR	wepp-28069	"12:07 pm  Tuesday April 16, 2013"	"RUSTON L P I LA"	30	clay	native	200	5	13	15	40	130	20	20	outrut	ft
+WD	wepp-29532	"12:25 pm  Tuesday April 16, 2013"	"RUSTON L P I LA"	10	clay	OldForest	50	0	30	100	20	OldForest	50	30	5	100	20	0	ft	""
+WD	wepp-12460	"12:17 pm  Monday April 22, 2013"	"RUSTON L P I LA"	30	sand	OldForest	100	3	10	100	0	OldForest	100	30	5	100	0	0	ft	""
+WD	wepp-12481	"12:18 pm  Monday April 22, 2013"	"RUSTON L P I LA"	30	silt	OldForest	100	3	10	100	0	OldForest	100	30	5	100	0	0	ft	""
+WD	wepp-12502	"12:19 pm  Monday April 22, 2013"	"RUSTON L P I LA"	30	sand	OldForest	100	5	10	100	0	OldForest	100	20	2	100	0	0	ft	""
+WD	wepp-12549	"12:20 pm  Monday April 22, 2013"	"RUSTON L P I LA"	30	sand	OldForest	100	3	10	70	0	OldForest	100	10	2	70	0	0	ft	""
+WD	wepp-12570	"12:20 pm  Monday April 22, 2013"	"RUSTON L P I LA"	30	sand	YoungForest	100	3	10	100	0	YoungForest	100	10	2	100	0	0	ft	""
+WD	wepp-12590	"12:20 pm  Monday April 22, 2013"	"RUSTON L P I LA"	30	silt	YoungForest	100	3	10	100	0	YoungForest	100	10	2	100	0	0	ft	""
+WD	wepp-12610	"12:21 pm  Monday April 22, 2013"	"RUSTON L P I LA"	30	sand	YoungForest	100	5	10	100	0	YoungForest	100	15	2	100	0	0	ft	""
+WD	wepp-12631	"12:23 pm  Monday April 22, 2013"	"RUSTON L P I LA"	30	sand	YoungForest	100	3	10	70	0	YoungForest	100	10	2	70	0	0	ft	""
+WD	wepp-12653	"12:24 pm  Monday April 22, 2013"	"RUSTON L P I LA"	30	sand	Skid	100	3	30	0	0	Skid	100	10	2	0	0	0	ft	""
+WD	wepp-12673	"12:24 pm  Monday April 22, 2013"	"RUSTON L P I LA"	30	clay	Skid	100	3	30	0	0	Skid	100	10	2	0	0	0	ft	""
+WD	wepp-12722	"12:29 pm  Monday April 22, 2013"	"RUSTON L P I LA"	30	sand	LowFire	100	3	10	100	0	LowFire	100	10	2	100	0	0	ft	""
+WD	wepp-12742	"12:29 pm  Monday April 22, 2013"	"RUSTON L P I LA"	30	silt	LowFire	100	3	30	100	0	LowFire	100	20	2	100	0	0	ft	""
+WD	wepp-12809	"12:30 pm  Monday April 22, 2013"	"RUSTON L P I LA"	30	sand	HighFire	100	3	10	45	0	HighFire	100	10	2	45	0	0	ft	""
+WD	wepp-12830	"12:30 pm  Monday April 22, 2013"	"RUSTON L P I LA"	30	silt	HighFire	100	3	20	45	0	HighFire	100	15	2	45	0	0	ft	""
+WR	wepp-12855	"12:32 pm  Monday April 22, 2013"	"RUSTON L P I LA"	30	clay	native	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-12876	"12:33 pm  Monday April 22, 2013"	"RUSTON L P I LA"	30	sand	native	200	8	13	15	50	130	30	20	inveg	ft
+WR	wepp-12896	"12:33 pm  Monday April 22, 2013"	"RUSTON L P I LA"	30	clay	native	200	4	13	15	50	130	25	20	outrut	ft
+WR	wepp-12916	"12:34 pm  Monday April 22, 2013"	"RUSTON L P I LA"	30	sand	native	200	8	13	15	50	130	30	20	outrut	ft

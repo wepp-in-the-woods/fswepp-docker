@@ -1,0 +1,90 @@
+#this files was modified by filegenwhrm.pl on: Wednesday, March 16, 2005.
+#taxgroup Birds species Red-tailed hawk / Buteo jamaicensis
+#
+# Rank
+1,-99,-99,-99,-99
+# Nestsite
+-99
+# Reprorank
+-99
+# Foraging Habitat
+-99
+# Habitatrank
+-99
+# Forage/Prey Availability
+-99
+# Preyrank
+-99
+# Predator Avoidance
+-99
+# Avoidrank
+-99
+# Refugia/Shelter
+-99
+# Shelterrank
+-99
+# Coverrank
+-99
+# Literature
+Distribution
+common and widespread across much of N. America
+General Habitat
+variety of habitats from woods with nearby open land; also plains, prairie groves, deserts
+Home or Activity Range
+200-1000 ac
+Canopy Cover
+No information available
+Specific Habitat Preferences
+respond positively to edge; prefers heterogeneous landscapes
+Nestsite Characteristics
+nests in crotch of large tree, on cliff ledge, or on artificial structure; nest made of stick and twigs
+Foraging Habitat Characteristics
+most hunt from a perch, diving and pouncing when prey is spotted
+Diet
+mammals: ground squirrels, rabbits, pocket gophers, voles, deer mice, and jack rabbits; birds: meadowlarks, magpies, bluebirds, chukars, horned larks, and ducks; snakes: gopher snakes, racers, garter snakes, and rattlesnakes;  also amphibians, insects (beetles), and carrion; known to eat salmon carcasses during stressful conditions
+Predators
+no available information
+Shelter Habitats
+no available information
+Response to Disturbance
+attracted to areas clearcut 17 and 37 years previously (Austin and Perry 1979); more abundant in low shrub- and high shrub-stage clearcuts and partial cuts compared to uncut forest (Hejl et al. 1995); found in stands as mature "yellow" PIPO densities increased to 8 trees/acre (Keller 1992)
+Sources of Information used in the Model
+no available information
+General Sources of Background Information
+Luttich et al. 1970, Austin and Perry 1979, Keller 1992, Hejl et al. 1995, reviewed in Hagar et al. 1995, Nugent 1995, National Geographic Society 1996, Alsop 2001, reviewed in O'Neil et al. 2001
+Summaries of Specific Studies
+Austin, Dennis D.; Perry, Michael L. 1979. Birds in six communities within a lodgepole pine forest. Journal of Forestry. 77:584-586.
+
+Study Location: Uinta Mountains, Utah
+Habitat Description: PICO as main overstory tree; also includes PIEN, ABLA
+Summary: Birds were censused in wet and dry meadows, mature and stagnated PICO stands, and regenerating PICO stands (17 and 37 years post-clearcut). The richest avifauna was found in the dry meadows. While a few birds were adversely affected by the clearcutting, many individual species were more numerous in the clearcuts, and the overall number of species was similar.
+
+Hagar, D.C. 1960. The interrelationships of logging, birds, and timber regeneration in the Douglas-fir region of Northwestern California. Ecology. 41:116-125
+
+Study Location: inner coast ranges of northwestern California
+Habitat Description: PSME
+Summary: Bird species were surveyed in cutover areas of PSME forest as well as virgin forest. Bird species are identified that prefer cutover forest, intact forest, or occur in both. Accounts of habitat preferences are given for several bird species, including detailed dietary information. 
+
+Hejl, Sallie J.; Hutto, Richard L.; Preston, Charles R.; Finch, Deborah M. 1995. Effects of silvicultural treatments in the Rocky Mountains. In:Martin, Thomas E.; Finch, Deborah M. (eds.). Ecology and Management of Neotropical Migratory Birds. New York, Oxford: Oxford University Press. 220-244.
+
+Study Location: Rocky Mountains
+Habitat Description: forest types across the Rocky mountains
+Summary: Synthesis of the effects of different silvicultural treatments on neotropical migrants in forests of the Rocky Mountains. Outlines current forest structure, natural disturbance, logging history, and current silvicultural recommendations. General bird-habitat relationships in natural forest, including stands of different ages, are contrasted with stands that are silviculturally manipulated. Contains detailed species lists for rare to abundant bird species that are found in 8 forest types commonly found in the Rockies (Table 8-2). Also lists species by their likelihood to be more or less abundant in managed stands (classified as one of three types of clearcuts or partial cuts) compared to uncut forest. (Table 8-3)
+
+Keller, Richard. 1992. Affect of ponderosa pine overstory and snags on the songbird community, northern Arizona. NO ADDITIONAL INFORMATION- THESIS?
+
+Study Location: Coconino and Kaibab National Forest, northern Arizona
+Habitat Description: PIPO
+Summary: The overstory of mature PIPO forest and the presence of snags influenced bird communities in pole-sized PIPO stands in northern Arizona. Study areas containing pure pole-sized trees and no snags had the lowest numbers of insectivorous birds; study areas with the most insectivorous bird diversity contained at least 14 mature PIPO trees/acre and at least 2 snags/acre. The greatest number of birds were detected in stands containing 8-10 mature PIPO trees/acre and no snags. PIPO overstory also influenced both coniferous forest-nesting birds and primary cavity-nesting birds. The presence of snags influenced secondary cavity-nesters. Overall, this study suggests that a homogenous forest of young PIPO stands lacking in snags is not desirable for maintaining healthy bird species diversity.
+
+Luttich, Stuart; Rusch, Donald H.; Meslow, E. Charles; Keith, Lloyd B. 1970. Ecology of red-tailed hawk predation in Alberta. Ecology 52(2):190-203.
+
+Study Location: central Alberta
+Habitat Description: mixed farmlands and deciduous and coniferous woodlands; not in dry coniferous forest type
+Summary: Breeding red-tailed hawks occupied both forested and non-forested habitat, taking prey from all cover types associated with nesting sites. Specific prey items are outlined, with the role of cyclic prey densities examined. . Major prey species included Richardson's ground squirrel, snowshoe hare, meadow vole, and ruffed grouse.
+
+Nugent, John Joseph. 1995. Nest-site and habitat selection of Buteo species in southeastern Washington and the use of Geographic Information Systems to model nest habitat quality. Missoula, MT: University of Montana. 97 p. M.S. Thesis.
+
+Study Location: southeastern Washington
+Habitat Description: shrubsteppe; some scattered trees in riparian areas
+Summary: Nest sites and habitat selection were investigated at a macro- and microhabitat scale for ferruginous, Swainson's and red-tailed hawks. Ferruginous hawks constructed the largest nests on sturdy structures including rock outcrops, transmission towers, and trees. Ferruginous hawks were highly sensitive, nesting an average 1.8 km from human disturbance and 1.7 km from other ferruginous hawks. Swainson's hawks nested most frequently in small trees in areas with scattered elevated structures, low topographic relief, and close water. Red-tailed hawks selected the tallest substrates and nested higher than the other two Buteo species. Most nests were found on transmission towers, trees, and cliffs at heights greater than 10 m. Red-tailed hawks selected areas with more elevated structure and high topographic relief. Nearest neighbors to both Swainson's and red-tailed hawks were conspecifics.

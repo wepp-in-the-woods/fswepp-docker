@@ -1,0 +1,20 @@
+ DAILY WATER BALANCE
+
+ J=julian day, Y=simulation year
+ P= precipitation       
+ RM=rainfall+irrigation+snowmelt
+ Q=daily runoff over eff length, Ep=plant transpiration
+ Es=soil evaporation, Er=residue evaporation
+ Dp=deep percolationlatqcc=lateral subsurface flow 
+ UpStrmQ=Runon added to OFE
+ SubRIn=Subsurface runon added to OFE
+ Total Soil Water=Unfrozen water in soil profile
+ frozwt=Frozen water in soil profile
+ Snow Water=Water in surface snow
+ QOFE=daily runoff scaled to single OFE 
+
+ ----------------------------------------------------------------------------------------------------------------------------------------------
+  OFE    J    Y      P      RM     Q                Ep      Es      Er     Dp       UpStrmQ   SubRIn    latqcc Total-Soil frozwt Snow-Water QOFE
+  #      -    -      mm     mm     mm               mm      mm      mm       mm      mm           mm      mm   Water(mm)   mm        mm      mm
+ ----------------------------------------------------------------------------------------------------------------------------------------------
+

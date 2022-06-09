@@ -1,0 +1,78 @@
+#this files was modified by filegenwhrm.pl on: Wednesday, March 16, 2005.
+#taxgroup Amphibians species Pacific treefrog /  Pseudacris regilla
+#
+# Rank
+1,-99,-99,-99,2
+# Nestsite
+-99
+# Reprorank
+-99
+# Foraging Habitat
+-99
+# Habitatrank
+-99
+# Forage/Prey Availability
+-99
+# Preyrank
+-99
+# Predator Avoidance
+-99
+# Avoidrank
+-99
+# Refugia/Shelter
+11,1:12,1
+# Shelterrank
+2,-99:2,-99
+# Coverrank
+2,-99:2,-99
+# Literature
+Distribution
+North America west of Rocky Mountain chain
+General Habitat
+variety of habitat types, including grassland, chaparral, woodland, forest, desert oases, and farmland
+Home or Activity Range
+no information available
+Canopy Cover
+No information available
+Specific Habitat Preferences
+ground-dweller; found among low plant growth near water; prefers large downed woody debris (Welsh and Lind 1988)
+Nestsite Characteristics
+breeds in ponded wetlands,  marshes, lakes, ponds, roadside ditches, reservoirs and slow streams
+Foraging Habitat Characteristics
+no information available
+Diet
+no information available
+Predators
+fish and other amphibians
+Shelter Habitats
+no information available
+Response to Disturbance
+abundant in clear-cut stands (Bury and Corn 1988); egg and larvae abundance negatively influenced by introduced trout presence (Bull and Marx 2002)
+Sources of Information used in the Model
+no information available
+General Sources of Background Information
+Bury and Corn 1988, Welsh and Lind 1988, Leonard et al. 1993, Bull and Marx 2002, Maguire 2002, Stebbins 2003
+Summaries of Specific Studies
+Bull, Evelyn L.; Marx, David B. 2002. Influence of fish and habitat on amphibian communities in high elevation lakes in northeastern Oregon. Northwest Science. 76(3): 240-248.
+
+Study Location: northeastern Oregon
+Habitat Description: not stated
+Summary: High elevation lakes in Oregon were surveyed to determine if amphibian abundances were related to introduced fish species, habitat characteristics, or both. Long-toed salamander and Pacific treefrog abundances were negatively affected by introduced trout, while habitat characteristics, including CWD, exerted more influence on the abundance of eggs and larvae of western toads and Columbia spotted frogs.
+
+Bury, R. Bruce; Corn, Paul Stephen. 1988. Douglas-fir forests in the Oregon and Washington Cascades: Relation of the Herpetofauna to stand age and moisture. In: Management of amphibians, reptiles, and small mammals in North America symposium: proceedings; Gen. Tech. Rep. RM-166. Fort Collins, CO: USDA, Forest Service, Rocky Mountain Forest and Range Experiment Station. 11-22.
+
+Study Location: Oregon and Washington
+Habitat Description: PSME
+Summary: Evidence from this study suggests that rich, abundant populations of herpetofauna occur in naturally regenerating stands in Oregon and Washington. Few differences were found in amphibians between wet, moderate, and dry old-growth sites and between young, mature, and old-growth stands. Three salamanders in Oregon were found associated with downed logs or bark on the ground or on logs. These salamanders differed in their preference for age/class of downed logs.
+
+Maguire, Chris C. 2002. Dead wood and the richness of small terrestrial vertebrates in southwestern Oregon. USDA Forest Service Gen. Tech. Rep. PSW-GTR-181: 331-345.
+
+Study Location: Umpqua National Forest, southwestern Oregon
+Habitat Description: mature PSME, with past history of thinning or salvage logging
+Summary: The association between small vertebrate richness and coarse woody debris volume was tested, with a positive correlation demonstrated across all taxa and also within the taxonomic groups of small mammals, insectivores, and amphibians. A number of individual species appear to be associated with coarse woody debris; the majority of these associations were positive. No evidence of an association between snag volume and small vertebrate richness was found. Because the coarse woody debris volumes in the study area were well above regional guidelines, the author predicts reduced small vertebrate richness in those areas where coarse woody debris guidelines are strictly followed. 
+
+Welsh, Hartwell H.; Lind, Amy J. 1988. Old growth forests and the distribution of the terrestrial herpetofauna. In: Management of amphibians, reptiles, and small mammals in North America symposium: proceedings; Gen. Tech. Rep. RM-166. Fort Collins, CO: USDA, Forest Service, Rocky Mountain Forest and Range Experiment Station. 439-455.
+
+Study Location: northwestern California, southwestern Oregon
+Habitat Description: PSME- low to mid elevations
+Summary: Abundances and community composition of reptiles and amphibians were compared across forest types of coastal and inland DF forests. Habitat associations of 10 common species are given. Salamanders comprise the majority of the herpetofauna of this area. Species diversity was greater in older forest age classes with mesic conditions. A comparison of sampling methods is also presented. 

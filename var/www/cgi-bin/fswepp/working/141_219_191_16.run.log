@@ -1,0 +1,39 @@
+WR	wepp-29271	"10:32 am  Friday April 2, 2010"	"climate +"	30	silt	native	200	5	13	15	50	130	25	20	outrut	ft
+WD	wepp-29615	"10:38 am  Friday April 2, 2010"	"climate +"	30	silt	high	15.2439024390244	15	30	45	20	shrub	15.2439024390244	30	5	80	30	0	ft	""
+WR	wepp-2854	"11:15 am  Monday April 5, 2010"	"HOUGHTON FAA AP MI +"	30	silt	native	200	4	13	15	50	1	25	20	inveg	ft
+WR	wepp-2891	"11:20 am  Monday April 5, 2010"	"HOUGHTON FAA AP MI +"	30	silt	paved	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-2949	"11:29 am  Monday April 5, 2010"	"HOUGHTON FAA AP MI +"	30	silt	paved	200	4	13	15	50	2	25	20	inbare	ft
+WR	wepp-3002	"11:30 am  Monday April 5, 2010"	"HOUGHTON FAA AP MI +"	30	silt	paved	200	4	13	15	50	50	25	20	inbare	ft
+WR	wepp-3007	"11:30 am  Monday April 5, 2010"	"HOUGHTON FAA AP MI +"	30	silt	paved	200	4	13	15	50	100	25	20	inbare	ft
+WR	wepp-3012	"11:30 am  Monday April 5, 2010"	"HOUGHTON FAA AP MI +"	30	silt	paved	200	4	13	15	50	300	25	20	inbare	ft
+WR	wepp-3017	"11:30 am  Monday April 5, 2010"	"HOUGHTON FAA AP MI +"	30	silt	paved	200	4	13	15	50	500	25	20	inbare	ft
+WR	wepp-3025	"11:31 am  Monday April 5, 2010"	"HOUGHTON FAA AP MI +"	30	silt	paved	200	4	13	15	50	590	25	20	inbare	ft
+WR	wepp-3030	"11:31 am  Monday April 5, 2010"	"HOUGHTON FAA AP MI +"	30	silt	paved	200	4	13	15	50	700	25	20	inbare	ft
+WR	wepp-3035	"11:31 am  Monday April 5, 2010"	"HOUGHTON FAA AP MI +"	30	silt	paved	200	4	13	15	50	800	25	20	inbare	ft
+WR	wepp-3040	"11:31 am  Monday April 5, 2010"	"HOUGHTON FAA AP MI +"	30	silt	paved	200	4	13	15	50	750	25	20	inbare	ft
+WR	wepp-3061	"11:33 am  Monday April 5, 2010"	"HOUGHTON FAA AP MI +"	30	silt	graveled	200	4	13	15	50	1	25	20	outrut	ft
+WD	wepp-3159	"11:45 am  Monday April 5, 2010"	"HOUGHTON FAA AP MI +"	30	silt	tree20	121.951219512195	0	30	100	20	tree20	22.8658536585366	30	5	100	20	0	ft	""
+WR	wepp-13625	"10:15 am  Tuesday April 13, 2010"	"Assignment 7 +"	30	silt	paved	200	4	13	15	50	470	25	20	inbare	ft
+WR	wepp-13632	"10:17 am  Tuesday April 13, 2010"	"Assignment 7 +"	30	silt	paved	200	4	13	15	50	465	25	20	inbare	ft
+WR	wepp-13637	"10:17 am  Tuesday April 13, 2010"	"Assignment 7 +"	30	silt	graveled	200	4	13	15	50	465	25	20	outunrut	ft
+WR	wepp-13642	"10:17 am  Tuesday April 13, 2010"	"Assignment 7 +"	30	silt	graveled	200	4	13	15	50	1	25	20	outunrut	ft
+WR	wepp-13693	"10:20 am  Tuesday April 13, 2010"	"Lab 7 630ft +"	30	silt	graveled	200	4	13	15	50	1	25	20	outunrut	ft
+WR	wepp-13700	"10:22 am  Tuesday April 13, 2010"	"Assignment 7 +"	30	silt	graveled	200	4	13	15	50	1	25	20	outunrut	ft
+WD	wepp-13857	"10:33 am  Tuesday April 13, 2010"	"Assignment 7 +"	30	silt	tree20	121.951219512195	0	30	100	20	tree20	22.8658536585366	30	5	100	20	0	ft	""
+WD	wepp-13863	"10:36 am  Tuesday April 13, 2010"	"Assignment 7 +"	30	silt	tall	121.951219512195	0	30	60	20	tree20	22.8658536585366	30	5	100	20	0	ft	""
+WD	wepp-13868	"10:36 am  Tuesday April 13, 2010"	"Assignment 7 +"	30	silt	tall	121.951219512195	0	30	60	20	tree20	9.14634146341463	30	5	100	20	0	ft	""
+WD	wepp-13874	"10:37 am  Tuesday April 13, 2010"	"Assignment 7 +"	30	silt	high	121.951219512195	0	30	45	20	low	9.14634146341463	30	5	85	20	0	ft	""
+WD	wepp-13915	"10:39 am  Tuesday April 13, 2010"	"Assignment 7 +"	30	silt	high	15.2439024390244	0	30	45	20	tree20	103.658536585366	30	5	100	20	0	ft	""
+WD	wepp-13920	"10:40 am  Tuesday April 13, 2010"	"Assignment 7 +"	30	silt	high	121.951219512195	0	30	45	20	tree20	103.658536585366	30	5	100	20	0	ft	""
+WD	wepp-13925	"10:40 am  Tuesday April 13, 2010"	"Assignment 7 +"	30	silt	high	121.951219512195	0	30	45	20	tree20	106.707317073171	30	5	100	20	0	ft	""
+WD	wepp-13930	"10:40 am  Tuesday April 13, 2010"	"Assignment 7 +"	30	silt	high	121.951219512195	0	30	45	20	tree20	105.182926829268	30	5	100	20	0	ft	""
+WD	wepp-13935	"10:40 am  Tuesday April 13, 2010"	"Assignment 7 +"	30	silt	high	121.951219512195	0	30	45	20	tree20	104.268292682927	30	5	100	20	0	ft	""
+WD	wepp-13940	"10:41 am  Tuesday April 13, 2010"	"Assignment 7 +"	30	silt	high	121.951219512195	0	30	45	20	tree20	103.963414634146	30	5	100	20	0	ft	""
+WD	wepp-13945	"10:41 am  Tuesday April 13, 2010"	"Assignment 7 +"	30	silt	high	121.951219512195	0	30	45	20	tree20	104.268292682927	30	5	100	20	0	ft	""
+WD	wepp-13955	"10:42 am  Tuesday April 13, 2010"	"Assignment 7 +"	30	silt	high	121.951219512195	0	30	45	20	high	9.14634146341463	30	5	45	20	0	ft	""
+WD	wepp-20542	"11:20 am  Wednesday April 13, 2011"	"HOUGHTON FAA AP MI +"	30	clay	high	400	0	30	45	20	high	75	30	5	45	20	0	ft	""
+WD	wepp-20591	"11:24 am  Wednesday April 13, 2011"	"HOUGHTON FAA AP Mgood +"	30	silt	high	400	0	30	45	20	high	75	30	5	45	20	0	ft	""
+WR	wepp-29106	"10:35 am  Friday April 12, 2013"	"HOUGHTON FAA AP MI- mi +"	30	sand	native	200	4	13	15	50	130	25	20	inveg	ft
+WD	wepp-29375	"10:38 am  Friday April 12, 2013"	"HOUGHTON FAA AP MI- mi +"	10	clay	OldForest	50	0	30	100	20	OldForest	50	30	5	100	20	0	ft	""
+WD	wepp-29554	"10:39 am  Friday April 12, 2013"	"HOUGHTON FAA AP MI- mi +"	10	clay	HighFire	1000	0	30	45	20	Sod	1.5	30	5	40	20	0	ft	""
+WD	wepp-29582	"10:39 am  Friday April 12, 2013"	"HOUGHTON FAA AP MI- mi +"	10	clay	HighFire	1000	0	30	100	20	Sod	1.5	30	5	40	20	0	ft	""

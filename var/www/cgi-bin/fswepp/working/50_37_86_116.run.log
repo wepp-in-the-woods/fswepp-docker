@@ -1,0 +1,27 @@
+WR	wepp-132627	"02:31 pm  Wednesday May 3, 2017"	""	1			0	0	0	0	0	0	0	0		
+WR	wepp-132943	"02:41 pm  Wednesday May 3, 2017"	"SAINT MARIES ID +"	30	silt	graveled	200	4	13	15	50	1	25	20	inveg	ft
+WR	wepp-132985	"02:43 pm  Wednesday May 3, 2017"	"SAINT MARIES ID +"	30	silt	graveled	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-133027	"02:44 pm  Wednesday May 3, 2017"	"SAINT MARIES ID +"	30	silt	paved	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-133792	"03:10 pm  Wednesday May 3, 2017"	"SAINT MARIES ID +"	30	silt	paved	200	4	13	15	50	10	25	20	inbare	ft
+WR	wepp-133833	"03:10 pm  Wednesday May 3, 2017"	"SAINT MARIES ID +"	30	silt	paved	200	4	13	15	50	100	25	20	inbare	ft
+WR	wepp-133870	"03:11 pm  Wednesday May 3, 2017"	"SAINT MARIES ID +"	30	silt	paved	200	4	13	15	50	200	25	20	inbare	ft
+WR	wepp-133907	"03:11 pm  Wednesday May 3, 2017"	"SAINT MARIES ID +"	30	silt	paved	200	4	13	15	50	250	25	20	inbare	ft
+WR	wepp-133948	"03:12 pm  Wednesday May 3, 2017"	"SAINT MARIES ID +"	30	silt	paved	200	4	13	15	50	275	25	20	inbare	ft
+WR	wepp-133986	"03:12 pm  Wednesday May 3, 2017"	"SAINT MARIES ID +"	30	silt	paved	200	4	13	15	50	300	25	20	inbare	ft
+WR	wepp-134022	"03:12 pm  Wednesday May 3, 2017"	"SAINT MARIES ID +"	30	silt	paved	200	4	13	15	50	350	25	20	inbare	ft
+WR	wepp-134061	"03:12 pm  Wednesday May 3, 2017"	"SAINT MARIES ID +"	30	silt	paved	200	4	13	15	50	325	25	20	inbare	ft
+WR	wepp-134119	"03:13 pm  Wednesday May 3, 2017"	"SAINT MARIES ID +"	30	silt	paved	200	4	13	15	50	330	25	20	inbare	ft
+WR	wepp-134155	"03:13 pm  Wednesday May 3, 2017"	"SAINT MARIES ID +"	30	silt	paved	200	4	13	15	50	335	25	20	inbare	ft
+WR	wepp-134192	"03:13 pm  Wednesday May 3, 2017"	"SAINT MARIES ID +"	30	silt	paved	200	4	13	15	50	331	25	20	inbare	ft
+WR	wepp-134230	"03:13 pm  Wednesday May 3, 2017"	"SAINT MARIES ID +"	30	silt	paved	200	4	13	15	50	332	25	20	inbare	ft
+WR	wepp-134273	"03:14 pm  Wednesday May 3, 2017"	"SAINT MARIES ID +"	30	silt	paved	200	4	13	15	50	333	25	20	inbare	ft
+WR	wepp-134345	"03:14 pm  Wednesday May 3, 2017"	"SAINT MARIES ID +"	30	silt	paved	200	4	13	15	50	334	25	20	inbare	ft
+WR	wepp-134529	"03:19 pm  Wednesday May 3, 2017"	"SAINT MARIES ID +"	30	silt	graveled	200	4	13	15	50	1	25	20	outunrut	ft
+WR	wepp-134728	"03:29 pm  Wednesday May 3, 2017"	"SAINT MARIES ID +"	30	silt	graveled	200	4	13	15	50	1	25	20	outunrut	ft
+WD	wepp-135029	"03:55 pm  Wednesday May 3, 2017"	"SAINT MARIES ID +"	10	silt	OldForest	400	0	30	100	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-135598	"04:38 pm  Wednesday May 3, 2017"	"SAINT MARIES ID +"	10	silt	Sod	400	0	30	40	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-135658	"04:41 pm  Wednesday May 3, 2017"	"SAINT MARIES ID +"	10	silt	Sod	400	0	30	40	20	OldForest	30	30	5	100	20	0	ft	""
+WD	wepp-135697	"04:43 pm  Wednesday May 3, 2017"	"SAINT MARIES ID +"	10	silt	LowFire	400	0	30	85	20	LowFire	30	30	5	85	20	0	ft	""
+WD	wepp-135738	"04:45 pm  Wednesday May 3, 2017"	"SAINT MARIES ID +"	10	silt	HighFire	400	0	30	45	20	HighFire	30	30	5	45	20	0	ft	""
+WD	wepp-135844	"04:47 pm  Wednesday May 3, 2017"	"SAINT MARIES ID +"	10	silt	OldForest	400	0	30	100	20	HighFire	75	30	5	45	20	0	ft	""
+WD	wepp-135886	"04:49 pm  Wednesday May 3, 2017"	"SAINT MARIES ID +"	10	silt	HighFire	400	0	30	45	20	OldForest	75	30	5	100	20	0	ft	""

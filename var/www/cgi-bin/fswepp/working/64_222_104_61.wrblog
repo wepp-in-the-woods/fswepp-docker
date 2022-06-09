@@ -1,0 +1,90 @@
+TestRUN
+ OLYMPIA WB AP WA                       
+clay loam
+ft
+30
+50.53
+1
+Insloped, bare ditch
+graveled low
+6
+100
+16
+60
+16
+30
+30
+20
+2.88
+0.29
+329.87
+250.47
+Typical low use gravel road
+50.53
+2
+Insloped, bare ditch
+native low
+6
+200
+16
+60
+16
+30
+30
+20
+5.57
+2.58
+1780.79
+1258.57
+Same road, but the ditch is graded
+50.53
+3
+Outsloped, rutted
+native high
+6
+200
+16
+60
+16
+30
+30
+20
+5.58
+2.58
+3354.92
+2539.54
+Same road, but rutted from heavy logging traffic
+50.53
+4
+Outsloped, unrutted
+native low
+6
+200
+16
+60
+16
+30
+30
+20
+2.13
+0.23
+362.40
+247.05
+Same road, regraded after logging with low traffic
+50.53
+5
+Outsloped, unrutted
+native none
+6
+200
+16
+60
+16
+30
+30
+20
+2.14
+0.23
+209.89
+200.68
+Same road, no traffic allowed after outsloping

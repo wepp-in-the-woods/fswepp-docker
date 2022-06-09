@@ -1,0 +1,101 @@
+#this files was modified by filegenwhrm.pl on: Wednesday, March 16, 2005.
+#taxgroup Bats species Long-legged myotis /  Myotis volans
+#
+# Rank
+2,1,-99,-99,3
+# Nestsite
+24,1:25,1:26,1
+# Reprorank
+2,-99:2,-99:1,-99:1,-99:2,-99
+# Foraging Habitat
+-99
+# Habitatrank
+-99
+# Forage/Prey Availability
+-99
+# Preyrank
+-99
+# Predator Avoidance
+20,-1
+# Avoidrank
+1,-99
+# Refugia/Shelter
+20,-1:18,1:24,1:25,1:26,1
+# Shelterrank
+1,-99:2,-99:1,-99:1,-99:2,-99
+# Coverrank
+-99
+# Literature
+Distribution
+western N. America
+General Habitat
+primarily montane coniferous forest; also riparian cottonwood
+Home or Activity Range
+no information available
+Canopy Cover
+prefers low canopy cover (Vonhof and Barclay 1996)
+Specific Habitat Preferences
+areas with structures for nesting, roosting, and hibernating:  buildings, thick tree bark, caves, mine tunnels; areas with large diameter snags with exfoliating bark
+Nestsite Characteristics
+under exfoliating bark of large snags; in hollow tree cavities; both live and dead PIPO with vertical cracks
+Foraging Habitat Characteristics
+forages at treetop level early in the day and near the ground, beneath the forest canopy, later in the evening
+Diet
+moths, lacewings, leafhoppers, flies, beetles
+Predators
+owls, hawks and falcons
+Shelter Habitats
+summer roosts: buildings, thick tree bark, caves; hibernates in protected cave and mine tunnels; under exfoliating bark of large snags
+Response to Disturbance
+no information available
+Sources of Information used in the Model
+Chung-MacCoubrey 1996, Ormsbee 1996, Vonhof and Barclay 1996, Ormsbee and McComb 1998
+General Sources of Background Information
+Thomas 1988, reviewed in Christy and West 1993, Rasheed and Holroyd 1995, Chung-MacCoubrey 1996, Ormsbee 1996, Vonhof and Barclay 1996, Ormsbee and McComb 1998, Rabe et al. 1998, Foresman 2001, reviewed in O'Neil et al. 2001
+Summaries of Specific Studies
+Christy, Robin E.; West, Stephen D. 1993. Biology of bats in Douglas-fir forests. In:Huff, Mark H.; Holthausen, Richard S.; Aubry, Keith B., Tech. Coord. Biology and Management of Old Growth Forests. Gen. Tech. Rep. PNW-308. Portland, OR: USDA Forest Service, Pacific Northwest Research Station. 28p.
+
+Study Location: Washington and Oregon
+Habitat Description: PSME
+Summary: Review of the basic biology of bats inhabiting PSME forests of the Pacific Northwest, including a discussion of natural history, habitat requirements, and their ecological relations with old-growth forests.
+
+Chung-MacCoubrey, Alice L. 1996. Bat species composition and roost use in pinyon-juniper woodlands of New Mexico. In: Barclay, R.M.R.; Brigham, R.M., eds. Bats and forests symposium; 1995 October 19-21; Victoria, BC. Victoria, BC: Ministries of Environment and Forests: 118-123.
+
+Study Location: Cibola National Forest, New Mexico
+Habitat Description: pinyon-juniper habitat, with interspersed PIPO
+Summary: Bat species composition and structures used for maternity colonies were investigated in a primarily pinyon-juniper woodland. Over 11 species were detected. Roost sites for three species (long-eared, long-legged and fringed myotis) were found. Long-legged and fringed myotis used PIPO snags and live trees with vertical cracks for maternity roost sites. Long-eared myotis used live and dead junipers exclusively for solitary and colony roost sites.
+
+Ormsbee, Patricia C. 1996. Characteristics, use, and distribution of day roosts selected by female Myotis volans (long-legged myotis) in forested habitat of the central Oregon Cascades. In: Barclay, R.M.R.; Brigham, R.M., eds. Bats and forests symposium; 1995 October 19-21; Victoria, BC. Victoria, BC: Ministries of Environment and Forests: 124-131.
+Study Location: central Oregon Cascades
+Habitat Description: not stated; includes PSME, TSHE, THPL
+Summary: Important summer day-roosts for female long-legged myotis included large-diameter snags and hollow trees. Multiple roosts were commonly used in the same area. 
+
+Ormsbee, Patricia C.; McComb, William C. 1998. Selection of day roosts by female long-legged myotis in the central Oregon Cascades Range. Journal of Wildlife Management. 62:596-603.
+
+Study Location: Willamette National Forest, central Oregon
+Habitat Description: PSME, TSHE
+Summary: Female long-legged myotis selected large snags tall or taller than the surrounding canopy as day-roost sites. The snags used were most often newly-dead DF, though some other structures were used. The seral state of the surrounding stand did not appear to influence day-roost selection. Day roost sites tended to be located close to streams.
+
+Rabe, Michael J.; Morrell, Thomas E.; Green, Heather; DeVos, James C. Jr.; Miller, C. Richard. 1998. Characteristics of ponderosa pine snag roosts used by reproductive bats in northern Arizona. Journal of Wildlife Management. 62(2): 612-621.
+
+Study Location: Coconino National Forest, Arizona
+Habitat Description: primarily PIPO; also PSME, aspen, PIFL, ABCO
+Summary: Eight species of bats roosted primarily in large-diameter PIPO snags with exfoliating bark. Forest surrounding roosts had higher tree densities, greater tree species diversity, and trees with larger basal area than random snag areas. Almost half of the bats used more than one roost site. Snags in one study area were more likely to be located near water; snags in the other study area were less likely to be located within a harvested area. Snag retention and creation is especially important for bat species because of the short time period during which snags actually have exfoliating bark for bats to roost under.
+
+Rasheed, Salman A.; Holroyd, Susan L. 1995. Roosting habitat assessment and inventory of bats in the Mica Wildlife Compensation Area. Columbia Basin Fish and Wildlife Compensation Program, BC Hydro and BC Environment, Nelson, BC. 77 pp.
+
+Study Location: British Columbia
+Habitat Description: not stated: includes THPL and TSHE
+Summary: The diversity, relative abundance, and roosting ecology of bats were studied in the Mica Wildlife Compensation Area. The little brown bat was the most abundant bat species. Roosts were located in rocky outcrops and in trees. Bats moved roosts often, but remained faithful to a particular roosting area. Therefore, management for these bats should occur on a stand or landscape level, preserving areas where multiple roosting areas are present.
+
+Thomas, Donald W. 1988. The distribution of bats in different ages of Douglas-fir forests. Journal of Wildlife Management. 52:619-626.
+
+Study Location: southern Washington Cascades, Oregon Coast Range
+Habitat Description: PSME-TSHE sere
+Summary: Bats were examined in different-aged PSME stands. Bats were grouped by nesting strategy and by echolocation signal. Bat activity was higher in old-growth sites than in mature or young sites; these results suggest that bats are 3-10 times more abundant in the old-growth sites. The author attributes this pattern to roosting habitat, due to the availability of large-diameter snags in older forest. Foraging opportunities did not contribute to the observed pattern of bat abundance. Differences in sex-ratio, reproductive activity and age distribution were seen between the two regions. Reduction in old-growth forest would negatively impact bat populations, though the degree of impact may vary regionally.
+
+Vonhof, Maarten J.; Barclay, Robert M.R. 1996. Roost-site selection and roosting ecology of forest-dwelling bats in southern British Columbia. Canadian Journal of Zoology. 74:1797-1805.
+
+Study Location: southern British Columbia
+Habitat Description: variety: THPL, TSHE, PIEN, ABLA, PSME, PIPO, LAOC, aspen
+Summary: Roost-site preferences were examined for four species of tree-roosting bats. Most roost sites were under tree bark, but woodpecker-made and natural cavities were also used. Roost entrances tended to be located beneath the canopy. Bats preferred tall trees associated with low percent canopy closure and a short distance to the nearest available tree. Roosts were switched frequently, with a low distance between roost sites. In this area, bats preferred to roost in western white pine, and to a lesser extent western larch and ponderosa pine.

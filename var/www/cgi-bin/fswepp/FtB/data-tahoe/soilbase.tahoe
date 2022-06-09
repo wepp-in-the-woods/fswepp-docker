@@ -1,0 +1,142 @@
+# Soil parameter database for Tahoe Basin model -- modified from Disturbed WEPP
+#            by W Elliot, May, 2010
+#
+#  Granitic
+#
+'Skid'	'Granitic'	1	0.2	0.75	2700000	0.001	4	10
+300	90	2	4	3	rfg
+'HighFire'	'Granitic'	1	0.1	0.75	1800000	0.0005	4	15
+300	90	2	3	3	rfg
+'LowFire'  'Granitic'	1	0.15	0.75	1000000	0.0003	4	20
+300	90	2	4	3	rfg
+'Sod'	'Granitic'	1	0.15	0.75	750000	0.0001	4	25
+350	90	2	4	3	rfg
+'Bunchgrass'	'Granitic'	1	0.15	0.75	600000	0.00008	4	30
+400	90	2	5	3	rfg
+'Shrub'	'Granitic'	1	0.15	0.75	500000	0.00006	4	35
+500	90	2	5	3.5	rfg
+'YoungForest'	'Granitic'	1	0.1	0.5	400000	0.00004	4	40
+600	90	2	5	4	rfg
+'OldForest'	'Granitic'	1	0.1	0.5	250000	0.00003	4	45
+800	90	2	6	4	rfg
+'Bare'	'Granitic'	1	0.2	0.75	300000	0.001	4	25
+300	90	2	2	2	rfg
+'Mulch'	'Granitic'	1	0.2	0.75	300000	0.001	4	30
+400	90	2	4	2.5	rfg
+'Till'	'Granitic'	1	0.15	0.75	300000	0.001	4	35
+500	90	2	6	3	rfg
+'LowRoad'	'Granitic'	1	0.2	0.75	225000	0.0013	4	10
+200	90	2	1	2	rfg
+'HighRoad'	'Granitic'      1	0.2	0.75	900000	0.005	4	10
+200	90	2	1	2	rfg
+#
+#
+#  Volcanic
+#
+'Skid'	'Volcanic'	1	0.2	0.75	3000000	0.0008	1.5	8
+300	65	7	4	8	rfg
+'HighFire'	'Volcanic'	1	0.1	0.75	2000000	0.0004	1.5	10
+300	65	7	3	7	rfg
+'LowFire'	'Volcanic'	1	0.15	0.75	1500000	0.0002	1.5	15
+300	65	7	4	7	rfg
+'Sod'	'Volcanic'	1	0.15	0.75	1000000	0.00008	1.5	20
+350	65	7	4	8	rfg
+'Bunchgrass'	'Volcanic'	1	0.15	0.75	900000	0.00006	1.5	25
+400	65	7	5	8	rfg
+'Shrub'	'Volcanic'	1	0.15	0.75	800000	0.00004	1.5	30
+500	65	7	5	8.5	rfg
+'YoungForest'	'Volcanic'	1	0.1	0.5	700000	0.00003	1.5	35
+600	65	7	5	9	rfg
+'OldForest'	'Volcanic'	1	0.1	0.5	600000	0.00002	1.5	40
+800	65	7	6	9	rfg
+'Bare'	'Volcanic'	1	0.2	0.75	750000	0.0008	1.5	20
+300	65	7	2	7	rfg
+'Mulch'	'Volcanic'	1	0.2	0.75	750000	0.0008	1.5	25
+400	65	7	4	7.5	rfg
+'Till'	'Volcanic'	1	0.15	0.75	750000	0.0008	1.5	30
+500	65	7	6	7.5	rfg
+'LowRoad'	'Volcanic'	1	0.2	0.75	250000	0.001	1.5	8
+200	65	7	1	7	rfg
+'HighRoad'	'Volcanic'	1	0.2	0.75	1000000	0.004	1.5	8
+200	65	7	1	7	rfg
+#
+#
+#  Alluvial
+#
+'Skid'	'Alluvial'	1	0.2	0.75	2500000	0.0006	1	6
+400	60	10	5	12	rfg
+'HighFire'	'Alluvial'	1	0.1	0.75	1500000	0.0003	1	8
+400	60	10	4	11	rfg
+'LowFire'	'Alluvial'	1	0.15	0.75	1000000	0.0002	1	10
+400	60	10	5	21	rfg
+'Sod'	'Alluvial'	1	0.15	0.75	900000	0.00006	1	15
+450	60	10	5	22	rfg
+'Bunchgrass'	'Alluvial'	1	0.15	0.75	800000	0.00005	1	20
+500	60	10	6	12	rfg
+'Shrub'	'Alluvial'	1	0.15	0.75	700000	0.00003	1	25
+600	60	10	6	13	rfg
+'YoungForest'	'Alluvial'	1	0.1	0.5	600000	0.00002	1	30
+700	60	10	6	13	rfg
+'OldForest'	'Alluvial'	1	0.1	0.5	500000	0.00001	1	35
+900	60	10	7	13	rfg
+'Bare'	'Alluvial'	1	0.2	0.75	600000	0.0006	1	15
+400	60	10	3	10	rfg
+'Mulch'	'Alluvial'	1	0.2	0.75	600000	0.0006	1	20
+500	60	10	5	12	rfg
+'Till'	'Alluvial'	1	0.15	0.75	600000	0.0006	1	25
+600	60	10	6	13	rfg
+'LowRoad'	'Alluvial'	1	0.2	0.75	240000	0.0008	1	6
+200	60	10	1	10	rfg
+'HighRoad'	'Alluvial'	1	0.2	0.75	950000	0.003	1	6
+200	60	10	1	10	rfg
+#
+#
+#  Rock/Pavement
+#
+'Skid'	'Rock/Pave'	1	0.2	0.75	100	0.000001	20	0.1
+300	60	5	1	4	rfg
+'HighFire'	'Rock/Pave'	1	0.1	0.75	100	0.000001	20	0.1
+300	60	5	1	4	rfg
+'LowFire'	'Rock/Pave'	1	0.15	0.75	100	0.000001	20	0.1
+300	60	5	1	4	rfg
+'Sod'	'Rock/Pave'	1	0.15	0.75	100	0.000001	20	0.1
+300	60	5	1	4	rfg
+'Bunchgrass'	'Rock/Pave'	1	0.15	0.75	100	0.000001	20	0.1
+300	60	5	1	4	rfg
+'Shrub'	'Rock/Pave'	1	0.15	0.75	100	0.000001	20	0.1
+300	60	5	1	5	rfg
+'YoungForest'	'Rock/Pave'	Does not exist
+00
+'OldForest'	'Rock/Pave'	Does not exist
+00
+'Bare'	'Rock/Pave'	1	0.2	0.75	100	0.000001	20	0.1
+300	60	5	1	4	rfg
+'Mulch'	'Rock/Pave'	1	0.2	0.75	100	0.000001	20	0.1
+300	60	5	1	4	rfg
+'Till'	'Rock/Pave'	1	0.15	0.75	100	0.000001	20	0.1
+300	60	5	1	5	rfg
+'LowRoad'	'Rock/Pave'	1	0.2	0.75	100	0.000001	20	0.1
+200	60	5	1	4	rfg
+'HighRoad'	'Rock/Pave'	1	0.2	0.75	100	0.000001	20	0.1
+200	60	5	1	4	rfg
+#
+# rfg = 0.5 for all Rock/Pavement soils
+# Lower element for Rock/Pave to be Alluvial in all cases
+
+
+References:
+
+Copeland, N.S. and R.B. Foltz.  2009.  Improving erosion modeling on forest roads in the Lake Tahoe Basin: Small plot rainfall simulations to determine sateruated hydraulic conductivity and interrill erodiblity.  Presented at the Annual International Meeting of the American Soc. of Ag. & Bio. Engrs, 21-24 June, Reno, NV.  St. Joseph, MI: ASABE.  11 p.
+
+Elliot, W. J., A. M. Liebenow, J. M. Laflen and K. D. Kohl.  1989.  A compendium of soil erodibility data from WEPP cropland soil field erodibility experiments 1987 & 88. Report No. 3.  USDA-ARS, National Soil Erosion Research Laboratory, W. Lafayette, IN.  316 p.
+
+Foltz, R.B., H. Rhee and W.J. Elliot.  2008.  Modeling changes in rill erodibility and critical shear stress on native surface roads.  Hydrological Processes.  DOI: 10.1002/hyp.7092.
+
+Grismer, M.E., A.L. Ellis and A. Fristensky.  2008.  Runoff sediment particle sizes associated with soil erosion in the Lake Tahoe Basin, USA.  Land Degrad. Develop. 19: 331-350.
+
+Grismer, M.E. and M.P. Hogan.  2005.  Simulated ranfall evaluation of revegetation/mulch erosion control in the Lake Tahoe Basin - 3: Soil treatment effects.  Land Degrad. Develop. 13:1-13.
+
+Wagenbrenner, J.W.; Robichaud, P.R.; Elliot, W.J. 2010. Rill erosion in natural and disturbed forests, part II: modeling approaches.  In Press for Water Resources Research.  Moscow, ID: Rocky Mountain Research Station. 
+
+Wikipedia.  2010.  Albedo.  Online at <http://en.wikipedia.org/wiki/Albedo>.  Accessed May, 2010.
+

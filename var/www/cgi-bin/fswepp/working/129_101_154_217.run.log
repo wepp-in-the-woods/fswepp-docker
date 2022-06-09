@@ -1,0 +1,16 @@
+WE	wepp-6497	"04:46 pm  Wednesday October 23, 2013"	"BIRMINGHAM WB AP AL"	silt	20	forest	0	50	30	300	l			ft
+WE	wepp-18408	"03:55 pm  Thursday October 24, 2013"	"BIRMINGHAM WB AP AL"	clay	20	forest	0	50	30	300	l			ft
+WE	wepp-18465	"03:59 pm  Thursday October 24, 2013"	"BIRMINGHAM WB AP AL"	clay	20	forest	0	50	30	300	l			ft
+WE	wepp-24232	"02:54 pm  Tuesday October 29, 2013"	"BIRMINGHAM WB AP AL"	clay	20	forest	0	50	30	300	l			ft
+wt	wepp-212081	"Aug 20, 2014"	"RUBICON #2 CA SNOTEL"	granitic	OldForest	0	30	50	100	20	YoungForest	30	5	50	100	20	ft	""
+wt	wepp-212198	"Aug 20, 2014"	"RUBICON #2 CA SNOTEL"	alluvial	OldForest	0	30	50	100	20	YoungForest	30	5	50	100	20	ft	""
+wt	wepp-212264	"Aug 20, 2014"	"RUBICON #2 CA SNOTEL"	volcanic	OldForest	0	30	50	100	20	YoungForest	30	5	50	100	20	ft	""
+wt	wepp-80450	"Aug 29, 2014"	"RUBICON #2 CA SNOTEL"	granitic	OldForest	0	30	50	100	20	YoungForest	30	5	50	100	20	ft	""
+wt	wepp-80486	"Aug 29, 2014"	"RUBICON #2 CA SNOTEL"	granitic	Shrub	0	30	50	80	20	Bare	30	5	50	20	20	ft	""
+wt	wepp-80523	"Aug 29, 2014"	"RUBICON #2 CA SNOTEL"	granitic	OldForest	0	10	50	100	10	YoungForest	10	5	50	100	10	ft	""
+wt	wepp-80562	"Aug 29, 2014"	"RUBICON #2 CA SNOTEL"	volcanic	OldForest	0	10	50	100	20	YoungForest	10	5	50	100	10	ft	""
+wt	wepp-59672	"Sep 15, 2014"	"RUBICON #2 CA SNOTEL"	granitic	YoungForest	0	30	50	100	20	YoungForest	30	5	50	100	20	ft	""
+wt	wepp-60206	"Sep 15, 2014"	"RUBICON #2 CA SNOTEL"	granitic	YoungForest	0	30	50	100	20	YoungForest	30	5	50	100	20	ft	""
+wt	wepp-60107	"Sep 19, 2014"	"RUBICON #2 CA SNOTEL"	granitic	OldForest	0	30	50	100	20	OldForest	30	5	50	100	20	ft	""
+wt	wepp-83885	"Sep 21, 2014"	"Echo Peak Snotel A2"	granitic	OldForest	0	30	50	100	20	YoungForest	30	5	50	100	20	ft	""
+wt	wepp-84024	"Sep 21, 2014"	"Fallen Leaf Snotel B1"	granitic	OldForest	0	30	50	100	20	YoungForest	30	5	50	100	20	ft	""

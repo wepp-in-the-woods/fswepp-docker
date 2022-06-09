@@ -1,0 +1,60 @@
+#this files was modified by filegenwhrm.pl on: Wednesday, March 16, 2005.
+#taxgroup Small Mammals species Fog shrew /  Sorex sonomae
+#
+# Rank
+1,-99,1,-99,1
+# Nestsite
+-99
+# Reprorank
+-99
+# Foraging Habitat
+3,1
+# Habitatrank
+1,-99
+# Forage/Prey Availability
+-99
+# Preyrank
+-99
+# Predator Avoidance
+3,1
+# Avoidrank
+1,-99
+# Refugia/Shelter
+3,1
+# Shelterrank
+1,-99
+# Coverrank
+1,-99
+# Literature
+Distribution
+Pacific northwest
+General Habitat
+no information available
+Home or Activity Range
+&lt 2.5 ac (O'Neil et al. 2001)
+Canopy Cover
+no information available
+Specific Habitat Preferences
+herbaceous cover, woody plant cover, downed wood
+Nestsite Characteristics
+no information available
+Foraging Habitat Characteristics
+on ground or downed wood; can catch low-flying prey in mid-air.
+Diet
+slugs and snails, centipedes, insect larvae, amphibian flesh, beetles, seeds, and fungi
+Predators
+no information available
+Shelter Habitats
+no information available
+Response to Disturbance
+densities lower in unthinned stands (Butts and McComb 2000)
+Sources of Information used in the Model
+Butts and McComb 2000
+General Sources of Background Information
+Butts and McComb 2000, reviewed in O'Neil et al. 2001
+Summaries of Specific Studies
+Butts, Sally R.; McComb, William C. 2000. Associations of forest-floor vertebrates with coarse woody debris in managed forests of western Oregon. Journal of Wildlife Management. 64(1):95-104.
+
+Study Location: southern Wyoming
+Habitat Description: PSME
+Summary: Study areas that varied widely in CWD amounts were sampled for terrestrial amphibians and small mammals. Regression models containing habitat variables were constructed for 5 species of amphibians and small mammals. As CWD volume was important to some organisms, the authors suggest a retention of CWD in the range of 100-300 m3/ha to provide habitat for most terrestrial salamanders.

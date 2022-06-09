@@ -1,0 +1,73 @@
+#	Forest Habitat Types of Eeastern Idaho and Western Wyoming.
+#	Gen. Tech. Rep. INT-GTR-144.
+#	Ogden, UT: U.S. Department of Agriculture, Forest Service, Intermountain Research Station. 122 p.
+#	Steele, R., S.V. Cooper, D.M. Ondov, D.W. Roberts and R.D. Pfister. 1983.
+ABLA/ACGL	ColdF	DH	ColdF/DH	H	99
+ABLA/ACRU	ColdF	WH	ColdF/WH	H	7 - Moist or wet subalpine fir and Engelmann spruce habitat types
+ABLA/ARCO-ARCO	ColdF	DG	ColdF/DG	L	6 - Mid and lower elevation subalpine forests
+ABLA/ARCO-ASMI	ColdF	DG	ColdF/DG	L	6 - Mid and lower elevation subalpine forests
+ABLA/ARCO-PIEN	ColdF	DH	ColdF/DH	H	6 - Mid and lower elevation subalpine forests
+ABLA/ARCO-SHCA	ColdF	DG	ColdF/DG	L	6 - Mid and lower elevation subalpine forests
+ABLA/ARLA	ColdF	DH	ColdF/DH	H	6 - Mid and lower elevation subalpine forests
+ABLA/BERE-BERE	ColdF	DH	ColdF/DH	H	6 - Mid and lower elevation subalpine forests
+ABLA/CACA-CACA	ColdF	DH	ColdF/DH	H	7 - Moist or wet subalpine fir and Engelmann spruce habitat types
+ABLA/CARO	ColdF	DG	ColdF/DG	L	6 - Mid and lower elevation subalpine forests
+ABLA/CARU-CARU	ColdF	DH	ColdF/DH	H	6 - Mid and lower elevation subalpine forests
+ABLA/CARU-PAMY	ColdF	DS	ColdF/DS	H	6 - Mid and lower elevation subalpine forests
+ABLA/JUCO	ColdF	DG	ColdF/DG	L	6 - Mid and lower elevation subalpine forests
+ABLA/LIBO-LIBO	ColdF	DH	ColdF/DH	H	6 - Mid and lower elevation subalpine forests
+ABLA/LIBO-VASC	ColdF	DH	ColdF/DH	H	6 - Mid and lower elevation subalpine forests
+ABLA/OSCH-OSCH	ColdF	DH	ColdF/DH	H	6 - Mid and lower elevation subalpine forests
+ABLA/OSCH-PAMY	ColdF	DS	ColdF/DS	H	6 - Mid and lower elevation subalpine forests
+ABLA/PERA	ColdF	DH	ColdF/DH	H	6 - Mid and lower elevation subalpine forests
+ABLA/PHMA	ColdF	DS	ColdF/DS	H	6 - Mid and lower elevation subalpine forests
+ABLA/RIMO/PIAL	ColdF	DH	ColdF/DH	H	8 - Cold, upper subalpine and timberline habitat types
+ABLA/RIMO-RIMO	ColdF	DG	ColdF/DG	L	8 - Cold, upper subalpine and timberline habitat types
+ABLA/SPBE	ColdF	DH	ColdF/DH	H	6 - Mid and lower elevation subalpine forests
+ABLA/SYAL	ColdF	DH	ColdF/DH	H	6 - Mid and lower elevation subalpine forests
+ABLA/THOC	ColdF	DH	ColdF/DH	H	6 - Mid and lower elevation subalpine forests
+ABLA/VAGL-PAMY	ColdF	DH	ColdF/DH	H	6 - Mid and lower elevation subalpine forests
+ABLA/VAGL-VAGL	ColdF	DH	ColdF/DH	H	6 - Mid and lower elevation subalpine forests
+ABLA/VAGL-VASC	ColdF	DH	ColdF/DH	H	6 - Mid and lower elevation subalpine forests
+ABLA/VASC-CARU	ColdF	DS	ColdF/DS	H	6 - Mid and lower elevation subalpine forests
+ABLA/VASC-PIAL	ColdF	DS	ColdF/DS	H	8 - Cold, upper subalpine and timberline habitat types
+ABLA/VASC-VASC	ColdF	DH	ColdF/DH	H	6 - Mid and lower elevation subalpine forests
+PIAL/CAGE	CoolP	DG	CoolP/DG	L	8 - Cold, upper subalpine and timberline habitat types
+PIAL/CARO-CARO	CoolP	DG	CoolP/DG	L	8 - Cold, upper subalpine and timberline habitat types
+PIAL/CARO-PICO	CoolP	DG	CoolP/DG	L	8 - Cold, upper subalpine and timberline habitat types
+PIAL/FEID	CoolP	DG	CoolP/DG	L	8 - Cold, upper subalpine and timberline habitat types
+PIAL/JUCO-JUCO	CoolP	DG	CoolP/DG	L	8 - Cold, upper subalpine and timberline habitat types
+PIAL/JUCO-SHCA	CoolP	DG	CoolP/DG	L	8 - Cold, upper subalpine and timberline habitat types
+PIAL/VASC	CoolP	DS	CoolP/DS	L	8 - Cold, upper subalpine and timberline habitat types
+PIEN/ARCO	ColdF	DG	ColdF/DG	L	6 - Mid and lower elevation subalpine forests
+PIEN/CADI	ColdF	WF	ColdF/WF	H	7 - Moist or wet subalpine fir and Engelmann spruce habitat types
+PIEN/CALE	ColdF	WF	ColdF/WF	H	7 - Moist or wet subalpine fir and Engelmann spruce habitat types
+PIEN/EQAR	ColdF	WF	ColdF/WF	H	7 - Moist or wet subalpine fir and Engelmann spruce habitat types
+PIEN/GATR	ColdF	WF	ColdF/WF	H	7 - Moist or wet subalpine fir and Engelmann spruce habitat types
+PIEN/HYRE	ColdF	DH	ColdF/DH	H	6 - Mid and lower elevation subalpine forests
+PIEN/JUCO	ColdF	DG	ColdF/DG	L	6 - Mid and lower elevation subalpine forests
+PIEN/LIBO	ColdF	DH	ColdF/DH	H	7 - Moist or wet subalpine fir and Engelmann spruce habitat types
+PIEN/RIMO	ColdF	DG	ColdF/DG	L	8 - Cold, upper subalpine and timberline habitat types
+PIEN/VASC	ColdF	DS	ColdF/DS	H	8 - Cold, upper subalpine and timberline habitat types
+PIFL/CELE	DF	DS	DF/DS	L	1 - Limber pine habitat types
+PIFL/FEID	CoolP	DS	CoolP/DS	L	99
+PIFL/HEKI	DF	DG	DF/DG	L	1 - Limber pine habitat types
+PIFL/JUCO	CoolP	DG	CoolP/DG	L	1 - Limber pine habitat types
+PSME/ACGL-PAMY	DF	DH	DF/DH	H	3 - Moist Douglas-fir habitat types
+PSME/ARCO-ARCO	DF	DG	DF/DG	L	2 - Habitat types supporting cool, dry Douglas-fir forests
+PSME/ARCO-ASMI	DF	DG	DF/DG	L	2 - Habitat types supporting cool, dry Douglas-fir forests
+PSME/BERE-BERE	DF	DS	DF/DS	L	3 - Moist Douglas-fir habitat types
+PSME/BERE-JUCO	DF	DS	DF/DS	L	3 - Moist Douglas-fir habitat types
+PSME/BERE-SYOR	DF	DS	DF/DS	L	2 - Habitat types supporting cool, dry Douglas-fir forests
+PSME/CARU-CARU	DF	DS	DF/DS	L	3 - Moist Douglas-fir habitat types
+PSME/CARU-PAMY	DF	DS	DF/DS	L	3 - Moist Douglas-fir habitat types
+PSME/CELE	DF	DS	DF/DS	L	2 - Habitat types supporting cool, dry Douglas-fir forests
+PSME/JUCO	DF	DS	DF/DS	L	2 - Habitat types supporting cool, dry Douglas-fir forests
+PSME/OSCH	DF	DS	DF/DS	L	3 - Moist Douglas-fir habitat types
+PSME/PHMA-PAMY	DF	DH	DF/DH	H	3 - Moist Douglas-fir habitat types
+PSME/PHMA/PSME	DF	DS	DF/DS	L	3 - Moist Douglas-fir habitat types
+PSME/SPBE-CARU	DF	DS	DF/DS	L	3 - Moist Douglas-fir habitat types
+PSME/SPBE-SPBE	DF	DS	DF/DS	L	3 - Moist Douglas-fir habitat types
+PSME/SYAL	DF	DS	DF/DS	L	99
+PSME/SYOR	DF	DS	DF/DS	L	2 - Habitat types supporting cool, dry Douglas-fir forests
+PSME/VAGL	DF	DH	DF/DH	H	99

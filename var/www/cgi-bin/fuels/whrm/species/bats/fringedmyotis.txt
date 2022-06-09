@@ -1,0 +1,78 @@
+#this files was modified by filegenwhrm.pl on: Wednesday, March 16, 2005.
+#taxgroup Bats species Fringed myotis /  Myotis thysanodes
+#
+# Rank
+2,1,-99,-99,1
+# Nestsite
+24,1:25,1:26,1
+# Reprorank
+1,-99:1,-99:1,-99
+# Foraging Habitat
+-99
+# Habitatrank
+-99
+# Forage/Prey Availability
+-99
+# Preyrank
+-99
+# Predator Avoidance
+-99
+# Avoidrank
+-99
+# Refugia/Shelter
+24,1:25,1:26,1
+# Shelterrank
+1,-99:1,-99:1,-99
+# Coverrank
+1,-99:1,-99:1,-99
+# Literature
+Distribution
+western N. America
+General Habitat
+variety of habitats: low to mid-elevation grass, woodland, and desert and forested regions
+Home or Activity Range
+no information available
+Canopy Cover
+No information available
+Specific Habitat Preferences
+areas with structures for roosting; areas with large diameter snags with exfoliating bark
+Nestsite Characteristics
+under exfoliating bark of large snags; both live and dead PIPO with vertical cracks
+Foraging Habitat Characteristics
+forages around tree canopy; aerial and hovering gleaner; may glean insects from ground or foliage
+Diet
+beetles, moths, spiders, Phalangids, beetles, leafhoppers, lacewings, flies, and true bugs.
+Predators
+Mexican spotted owl
+Shelter Habitats
+roosts in caves, mines, buildings;under exfoliating bark of large snags
+Response to Disturbance
+no information available
+Sources of Information used in the Model
+Chung-MacCoubrey 1996
+General Sources of Background Information
+Thomas 1988, reviewed in Christy and West 1993, reviewed in Ward and Block 1995, Chung-MacCoubrey 1996, Rabe et al. 1998, reviewed in Pearson 1999, Foresman 2001, reviewed in O'Neil et al. 2001
+Summaries of Specific Studies
+Christy, Robin E.; West, Stephen D. 1993. Biology of bats in Douglas-fir forests. In:Huff, Mark H.; Holthausen, Richard S.; Aubry, Keith B., Tech. Coord. Biology and Management of Old Growth Forests. Gen. Tech. Rep. PNW-308. Portland, OR: USDA Forest Service, Pacific Northwest Research Station. 28p.
+
+Study Location: Washington and Oregon
+Habitat Description: PSME
+Summary: Review of the basic biology of bats inhabiting PSME forests of the Pacific Northwest, including a discussion of natural history, habitat requirements, and their ecological relations with old-growth forests.
+
+Chung-MacCoubrey, Alice L. 1996. Bat species composition and roost use in pinyon-juniper woodlands of New Mexico. In: Barclay, R.M.R.; Brigham, R.M., eds. Bats and forests symposium; 1995 October 19-21; Victoria, BC. Victoria, BC: Ministries of Environment and Forests: 118-123.
+
+Study Location: Cibola National Forest, New Mexico
+Habitat Description: pinyon-juniper habitat, with interspersed PIPO
+Summary: Bat species composition and structures used for maternity colonies were investigated in a primarily pinyon-juniper woodland. Over 11 species were detected. Roost sites for three species (long-eared, long-legged and fringed myotis) were found. Long-legged and fringed myotis used PIPO snags and live trees with vertical cracks for maternity roost sites. Long-eared myotis used live and dead junipers exclusively for solitary and colony roost sites.
+
+Rabe, Michael J.; Morrell, Thomas E.; Green, Heather; DeVos, James C. Jr.; Miller, C. Richard. 1998. Characteristics of ponderosa pine snag roosts used by reproductive bats in northern Arizona. Journal of Wildlife Management. 62(2): 612-621.
+
+Study Location: Coconino National Forest, Arizona
+Habitat Description: primarily PIPO; also PSME, aspen, PIFL, ABCO
+Summary: Eight species of bats roosted primarily in large-diameter PIPO snags with exfoliating bark. Forest surrounding roosts had higher tree densities, greater tree species diversity, and trees with larger basal area than random snag areas. Almost half of the bats used more than one roost site. Snags in one study area were more likely to be located near water; snags in the other study area were less likely to be located within a harvested area. Snag retention and creation is especially important for bat species because of the short time period during which snags actually have exfoliating bark for bats to roost under.
+
+Thomas, Donald W. 1988. The distribution of bats in different ages of Douglas-fir forests. Journal of Wildlife Management. 52:619-626.
+
+Study Location: southern Washington Cascades, Oregon Coast Range
+Habitat Description: PSME-TSHE sere
+Summary: Bats were examined in different-aged PSME stands. Bats were grouped by nesting strategy and by echolocation signal. Bat activity was higher in old-growth sites than in mature or young sites; these results suggest that bats are 3-10 times more abundant in the old-growth sites. The author attributes this pattern to roosting habitat, due to the availability of large-diameter snags in older forest. Foraging opportunities did not contribute to the observed pattern of bat abundance. Differences in sex-ratio, reproductive activity and age distribution were seen between the two regions. Reduction in old-growth forest would negatively impact bat populations, though the degree of impact may vary regionally.

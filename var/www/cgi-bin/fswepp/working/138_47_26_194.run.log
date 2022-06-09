@@ -1,0 +1,31 @@
+WD	wepp-5560	"11:57 am  Tuesday April 12, 2011"	"RUSTON L P I LA"	30	sand	tree20	100	3	10	100	0	tree20	100	10	2	100	0	0	ft	"20yrF_U3%-10%;HL100';C100;R0_L10-2;HL100';C100;R0"
+WD	wepp-5603	"11:57 am  Tuesday April 12, 2011"	"RUSTON L P I LA"	30	sand	tree20	100	3	10	100	0	tree20	100	10	2	100	0	0	ft	"20yrF_U3%-10%;HL100';C100;R0_L10-2;HL100';C100;R0"
+WD	wepp-5828	"12:02 pm  Tuesday April 12, 2011"	"RUSTON L P I LA"	30	clay	tree20	100	3	10	100	0	tree20	100	10	2	100	0	0	ft	"20yrF_U3%-10%;HL100';C100;R0_L10-2;HL100';C100;R0"
+WD	wepp-5926	"12:05 pm  Tuesday April 12, 2011"	"RUSTON L P I LA"	30	sand	tree20	100	7	15	100	0	tree20	100	15	7	100	0	0	ft	"20yrF_U7%-15%;HL100';C100;R0_L15-7;HL100';C100;R0"
+WD	wepp-6086	"12:08 pm  Tuesday April 12, 2011"	"RUSTON L P I LA"	30	sand	tree20	100	3	10	70	0	tree20	100	10	2	70	0	0	ft	"Cover Change Compare to Default"
+WD	wepp-6274	"12:12 pm  Tuesday April 12, 2011"	"RUSTON L P I LA"	30	sand	tree5	100	3	10	100	0	tree5	100	10	2	100	0	0	ft	"5 year old forest; 5 YEAR DEFAULT"
+WD	wepp-6383	"12:14 pm  Tuesday April 12, 2011"	"RUSTON L P I LA"	30	clay	tree5	100	3	10	100	0	tree5	100	10	2	100	0	0	ft	"5 year old forest; 5 YEAR DEFAULT"
+WD	wepp-6412	"12:15 pm  Tuesday April 12, 2011"	"RUSTON L P I LA"	30	clay	tree5	100	3	10	100	0	tree5	100	10	2	100	0	0	ft	"5 year old forest;  S texture change"
+WD	wepp-6488	"12:17 pm  Tuesday April 12, 2011"	"RUSTON L P I LA"	30	sand	tree5	100	7	15	100	0	tree5	100	15	7	100	0	0	ft	"5 year old forest;  C I SLOPE"
+WD	wepp-6503	"12:18 pm  Tuesday April 12, 2011"	"RUSTON L P I LA"	30	sand	tree5	100	3	10	70	0	tree5	100	10	2	70	0	0	ft	"5 year old forest;  C I COVER"
+WD	wepp-6647	"12:23 pm  Tuesday April 12, 2011"	"RUSTON L P I LA"	30	sand	skid	100	3	10	10	0	skid	100	10	2	10	0	0	ft	"Skid Trails; DEFAULT"
+WD	wepp-6696	"12:24 pm  Tuesday April 12, 2011"	"RUSTON L P I LA"	30	clay	skid	100	3	10	10	0	skid	100	10	2	10	0	0	ft	"Skid Trails; C I Soil Texture"
+WD	wepp-6734	"12:26 pm  Tuesday April 12, 2011"	"RUSTON L P I LA"	30	sand	skid	100	7	15	10	0	skid	100	15	7	10	0	0	ft	"Skid Trails; C I Slope"
+WD	wepp-6754	"12:28 pm  Tuesday April 12, 2011"	"RUSTON L P I LA"	30	sand	low	100	7	15	85	0	low	100	15	7	85	0	0	ft	"L S Fire; DEFAULT"
+WD	wepp-6774	"12:29 pm  Tuesday April 12, 2011"	"RUSTON L P I LA"	30	sand	low	100	3	10	85	0	low	100	10	2	85	0	0	ft	"L S Fire; DEFAULT"
+WD	wepp-6844	"12:31 pm  Tuesday April 12, 2011"	"RUSTON L P I LA"	30	sand	low	100	7	15	85	0	low	100	15	7	85	0	0	ft	"L S Fire; C I Slope"
+WD	wepp-6942	"12:35 pm  Tuesday April 12, 2011"	"RUSTON L P I LA"	30	clay	low	100	3	10	85	0	low	100	10	2	85	0	0	ft	"L S Fire; C I soil texture"
+WD	wepp-6963	"12:37 pm  Tuesday April 12, 2011"	"RUSTON L P I LA"	30	clay	high	100	3	10	45	0	high	100	10	2	45	0	0	ft	"H S Fire; C I soil texture"
+WD	wepp-6985	"12:38 pm  Tuesday April 12, 2011"	"RUSTON L P I LA"	30	sand	high	100	3	10	45	0	high	100	10	2	45	0	0	ft	"H S Fire; C I soil texture"
+WD	wepp-7059	"12:41 pm  Tuesday April 12, 2011"	"RUSTON L P I LA"	30	sand	high	100	7	15	45	0	high	100	15	7	45	0	0	ft	"H S Fire; C I slope"
+WR	wepp-7206	"12:53 pm  Tuesday April 12, 2011"	"RUSTON L P I LA"	30	sand	native	200	4	13	15	50	130	25	20	inbare	ft
+WR	wepp-7221	"12:54 pm  Tuesday April 12, 2011"	"RUSTON L P I LA"	30	clay	native	200	4	13	15	50	130	25	20	inbare	ft
+WR	wepp-7268	"12:58 pm  Tuesday April 12, 2011"	"RUSTON L P I LA"	30	sand	native	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-7325	"01:00 pm  Tuesday April 12, 2011"	"RUSTON L P I LA"	30	clay	native	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-7340	"01:02 pm  Tuesday April 12, 2011"	"RUSTON L P I LA"	30	clay	native	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-7366	"01:04 pm  Tuesday April 12, 2011"	"RUSTON L P I LA"	30	sand	native	200	4	13	15	50	130	25	20	outrut	ft
+WR	wepp-7376	"01:05 pm  Tuesday April 12, 2011"	"RUSTON L P I LA"	30	sand	native	200	4	13	15	50	130	25	20	outrut	ft
+WR	wepp-7382	"01:05 pm  Tuesday April 12, 2011"	"RUSTON L P I LA"	30	sand	native	200	4	13	15	50	130	25	20	outrut	ft
+WR	wepp-7413	"01:06 pm  Tuesday April 12, 2011"	"RUSTON L P I LA"	30	clay	native	200	4	13	15	50	130	25	20	outrut	ft
+WR	wepp-7428	"01:07 pm  Tuesday April 12, 2011"	"RUSTON L P I LA"	30	sand	native	200	15	13	15	50	130	25	20	inbare	ft
+WR	wepp-7433	"01:08 pm  Tuesday April 12, 2011"	"RUSTON L P I LA"	30	sand	native	200	15	13	15	50	130	25	20	outrut	ft

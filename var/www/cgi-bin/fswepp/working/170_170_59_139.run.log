@@ -1,0 +1,21 @@
+WD	wepp-185164	"12:29 pm  Monday March 26, 2018"	"CORVALLIS ST COL OR +"	10	silt	YoungForest	45	12	20	15	5	LowFire	45	12	20	15	5	0	ft	"a"
+WD	wepp-185199	"12:29 pm  Monday March 26, 2018"	"CORVALLIS ST COL OR +"	10	clay	OldForest	100	25	5	10	5	YoungForest	100	25	5	10	5	0	ft	"b"
+WD	wepp-185206	"12:29 pm  Monday March 26, 2018"	"CORVALLIS ST COL OR +"	10	sand	OldForest	110	20	10	20	5	OldForest	110	20	10	20	5	0	ft	"c"
+WD	wepp-185213	"12:29 pm  Monday March 26, 2018"	"CORVALLIS ST COL OR +"	10	loam	Bunchgrass	56	15	15	25	5	Shrub	56	15	15	25	5	0	ft	"d"
+WD	wepp-185220	"12:29 pm  Monday March 26, 2018"	"CORVALLIS ST COL OR +"	10	silt	Shrub	65	10	16	20	5	YoungForest	65	10	16	20	5	0	ft	"e"
+WD	wepp-185227	"12:29 pm  Monday March 26, 2018"	"CORVALLIS ST COL OR +"	10	silt	Skid	70	5	10	15	5	LowFire	70	5	10	15	5	0	ft	"f"
+WD	wepp-185234	"12:29 pm  Monday March 26, 2018"	"CORVALLIS ST COL OR +"	10	silt	YoungForest	68	15	9	10	5	HighFire	68	15	9	10	5	0	ft	"g"
+WD	wepp-185241	"12:29 pm  Monday March 26, 2018"	"CORVALLIS ST COL OR +"	10	silt	YoungForest	50	23	8	5	5	YoungForest	50	23	8	5	5	0	ft	"h"
+WD	wepp-185248	"12:29 pm  Monday March 26, 2018"	"CORVALLIS ST COL OR +"	10	silt	LowFire	65	7	7	5	5	LowFire	65	7	7	5	5	0	ft	"i"
+WD	wepp-185255	"12:29 pm  Monday March 26, 2018"	"CORVALLIS ST COL OR +"	10	silt	HighFire	77	11	6	5	5	Bunchgrass	77	11	6	5	5	0	ft	"j"
+WE	wepp-185268	"12:31 pm  Monday March 26, 2018"	"CORVALLIS ST COL OR +"	clay	5	forest	10	5	5	50	h			m
+WE	wepp-185490	"12:31 pm  Monday March 26, 2018"	"CORVALLIS ST COL OR +"	clay	5	forest	10	5	5	40	m			m
+WE	wepp-185644	"12:31 pm  Monday March 26, 2018"	"CORVALLIS ST COL OR +"	clay	10	forest	10	5	5	30	l			m
+WE	wepp-185758	"12:31 pm  Monday March 26, 2018"	"CORVALLIS ST COL OR +"	silt	15	forest	10	5	5	20	u			m
+WE	wepp-185812	"12:31 pm  Monday March 26, 2018"	"CORVALLIS ST COL OR +"	sand	20	forest	10	5	5	25	h			m
+WE	wepp-186066	"12:32 pm  Monday March 26, 2018"	"CORVALLIS ST COL OR +"	sand	15	forest	10	5	5	45	m			m
+WE	wepp-186222	"12:32 pm  Monday March 26, 2018"	"CORVALLIS ST COL OR +"	loam	10	forest	10	5	5	55	l			m
+WE	wepp-186336	"12:32 pm  Monday March 26, 2018"	"CORVALLIS ST COL OR +"	silt	7	range	10	5	5	65	u	15	75	m
+WE	wepp-186390	"12:32 pm  Monday March 26, 2018"	"CORVALLIS ST COL OR +"	clay	5	range	10	5	5	30	h	15	75	m
+WE	wepp-186586	"12:32 pm  Monday March 26, 2018"	"CORVALLIS ST COL OR +"	silt	5	range	10	5	5	40	h	15	75	m
+WE	wepp-186780	"12:32 pm  Monday March 26, 2018"	"CORVALLIS ST COL OR +"	sand	11	range	10	5	5	30	h	15	75	m

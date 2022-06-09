@@ -1,0 +1,36 @@
+WE	wepp-10500	"09:49 am  Monday November 8, 1933"	"FARMERS KY"	sand	30	forest	0	50	50	300	h			ft
+WE	wepp-10638	"09:57 am  Monday November 8, 1976"	"FARMERS KY"	sand	20	forest	0	50	50	250	h			ft
+WE	wepp-10761	"10:11 am  Monday November 8, 1976"	"FARMERS KY"	sand	20	forest	0	50	50	250	h			ft
+WE	wepp-10880	"10:21 am  Monday November 8, 1976"	"FARMERS KY"	sand	20	forest	0	50	65	250	h			ft
+WE	wepp-10980	"10:23 am  Monday November 8, 1993"	"FARMERS KY"	sand	10	forest	35	55	10	250	h			ft
+WE	wepp-11071	"10:24 am  Monday November 8, 1993"	"FARMERS KY"	sand	10	forest	35	55	35	250	h			ft
+WE	wepp-11164	"10:25 am  Monday November 8, 1975"	"FARMERS KY"	loam	10	forest	35	55	35	250	h			ft
+WE	wepp-12341	"02:06 pm  Monday November 8, 1993"	"FARMERS KY"	sand	10	forest	70	40	20	200	m			ft
+WE	wepp-12519	"02:22 pm  Monday November 8, 1902"	"FARMERS KY"	loam	50	forest	70	40	20	1000	l			ft
+wt	wepp-12750	"Nov 8, 2010"	"FARMERS KY"	alluvial	OldForest	0	30	50	100	20	YoungForest	30	5	50	100	20	ft	""
+WR	wepp-32145	"12:15 pm  Tuesday November 30, 2010"	"FARMERS KY"	30	clay	native	200	4	13	15	50	130	25	20	inveg	ft
+WD	wepp-32152	"12:16 pm  Tuesday November 30, 2010"	"FARMERS KY"	30	clay	tree20	50	0	30	100	20	tree5	50	30	5	100	20	0	ft	""
+WD	wepp-23157	"10:44 am  Friday January 14, 2011"	"LONDON FAA AIRPORT KY"	30	sand	short	902	0	12	75	20	tree20	211	7	7	100	20	0	ft	""
+WD	wepp-23626	"11:27 am  Friday January 14, 2011"	"LONDON FAA AIRPORT KY"	30	sand	short	158	42	42	75	20	short	52	20	5	75	20	0	ft	""
+WD	wepp-23685	"11:33 am  Friday January 14, 2011"	"LONDON FAA AIRPORT KY"	30	sand	short	278	38	38	10	20	short	107	24	5	10	20	0	ft	""
+WD	wepp-23717	"11:38 am  Friday January 14, 2011"	"LONDON FAA AIRPORT KY"	30	sand	short	291	0	15	10	20	tree20	762	22	22	100	20	0	ft	""
+WD	wepp-23795	"11:45 am  Friday January 14, 2011"	"LONDON FAA AIRPORT KY"	30	sand	short	359	0	11	10	20	tree20	558	30	30	100	20	0	ft	""
+WD	wepp-23801	"11:48 am  Friday January 14, 2011"	"LONDON FAA AIRPORT KY"	30	sand	short	419	0	21	10	20	tree20	267	37	37	100	20	0	ft	""
+WD	wepp-4346	"07:25 am  Tuesday November 15, 2011"	"LONDON FAA AIRPORT KY"	30	sand	LowFire	500	40	40	10	20	OldForest	100	20	5	10	20	0	ft	"Polygons v, w, x, y"
+WD	wepp-4398	"07:28 am  Tuesday November 15, 2011"	"LONDON FAA AIRPORT KY"	30	sand	LowFire	500	40	40	10	20	LowFire	100	20	5	85	20	0	ft	"Polygons v, w, x, y"
+WD	wepp-4418	"07:28 am  Tuesday November 15, 2011"	"LONDON FAA AIRPORT KY"	30	sand	LowFire	500	40	40	10	20	LowFire	100	20	5	10	20	0	ft	"Polygons v, w, x, y"
+WD	wepp-4457	"07:30 am  Tuesday November 15, 2011"	"LONDON FAA AIRPORT KY"	30	sand	LowFire	278	38	38	10	20	LowFire	107	24	5	10	20	0	ft	"Polygons v, w, x, y"
+WD	wepp-7077	"09:19 am  Tuesday November 15, 2011"	"LONDON FAA AIRPORT KY"	30	sand	LowFire	500	40	40	10	20	LowFire	100	20	5	10	20	0	ft	"Polygons v, w, x, y"
+WD	wepp-7246	"09:38 am  Tuesday November 15, 2011"	"LONDON FAA AIRPORT KY"	30	sand	Bunchgrass	500	40	40	60	20	Bunchgrass	100	20	5	60	20	0	ft	"Polygons v, w, x, y"
+WD	wepp-7266	"09:39 am  Tuesday November 15, 2011"	"LONDON FAA AIRPORT KY"	30	sand	Shrub	500	40	40	80	20	Shrub	100	20	5	80	20	0	ft	"Polygons v, w, x, y"
+WD	wepp-7286	"09:40 am  Tuesday November 15, 2011"	"LONDON FAA AIRPORT KY"	30	sand	Bunchgrass	500	40	40	60	20	Bunchgrass	100	20	5	60	20	0	ft	"Polygons v, w, x, y"
+WD	wepp-31914	"12:04 pm  Wednesday November 16, 2011"	"FARMERS KY"	30	sand	HighFire	200	20	5	45	20	Shrub	20	20	5	80	20	0	ft	"Camp Site"
+WD	wepp-31980	"12:05 pm  Wednesday November 16, 2011"	"FARMERS KY"	10	sand	HighFire	200	20	5	45	20	Shrub	20	20	5	80	20	0	ft	"Camp Site"
+WD	wepp-32048	"12:06 pm  Wednesday November 16, 2011"	"FARMERS KY"	30	sand	Skid	200	20	5	20	20	Shrub	20	20	5	80	20	0	ft	"Camp Site"
+WD	wepp-32098	"12:07 pm  Wednesday November 16, 2011"	"FARMERS KY"	30	sand	HighFire	200	20	5	45	20	Shrub	20	20	5	80	20	0	ft	"Camp Site"
+WD	wepp-32119	"12:07 pm  Wednesday November 16, 2011"	"FARMERS KY"	30	sand	Shrub	200	20	5	80	20	Shrub	20	20	5	80	20	0	ft	"Camp Site"
+WD	wepp-32147	"12:08 pm  Wednesday November 16, 2011"	"FARMERS KY"	30	sand	Skid	200	20	5	20	20	Shrub	20	20	5	80	20	0	ft	"Typical Camp Site - Before Restoration"
+WD	wepp-32202	"12:10 pm  Wednesday November 16, 2011"	"FARMERS KY"	30	sand	Skid	200	20	5	20	20	Shrub	20	20	5	80	20	0	ft	"Typical Camp Site - Before Restoration"
+WD	wepp-32310	"12:15 pm  Wednesday November 16, 2011"	"FARMERS KY"	30	sand	Shrub	200	20	5	80	20	Shrub	20	20	5	80	20	0	ft	"Typical Camp Site - Before Restoration"
+WR	wepp-6915	"06:21 am  Thursday July 19, 2012"	"FARMERS KY"	30	clay	native	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-26239	"05:00 am  Thursday November 29, 2012"	"FARMERS KY"	30	clay	native	200	4	13	15	50	130	25	20	inveg	ft

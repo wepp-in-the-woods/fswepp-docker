@@ -1,0 +1,32 @@
+WE	wepp-157792	"11:07 am  Wednesday November 20, 2019"	"TAHOE CA"	silt	20	forest	0	50	30	300	l			ft
+WE	wepp-166226	"11:15 am  Wednesday November 20, 2019"	"TAHOE CA"	silt	20	forest	0	50	30	300	h			ft
+WE	wepp-166798	"11:15 am  Wednesday November 20, 2019"	"TAHOE CA"	silt	20	forest	0	50	30	300	h			ft
+WE	wepp-167073	"11:15 am  Wednesday November 20, 2019"	"TAHOE CA"	silt	20	forest	0	50	30	300	h			ft
+WE	wepp-167082	"11:15 am  Wednesday November 20, 2019"	"TAHOE CA"	silt	20	forest	0	50	30	300	h			ft
+WE	wepp-167961	"11:16 am  Wednesday November 20, 2019"	"TAHOE CA"	clay	20	forest	0	50	30	300	h			ft
+WE	wepp-172526	"11:20 am  Wednesday November 20, 2019"	"TAHOE CA"	clay	20	range	0	50	30	300	l	20	70	ft
+WE	wepp-174575	"11:22 am  Wednesday November 20, 2019"	"TAHOE CA"	clay	20	range	0	50	30	300	h	20	70	ft
+WE	wepp-175817	"11:24 am  Wednesday November 20, 2019"	"TAHOE CA"	clay	20	chap	0	50	30	300	l	20	70	ft
+WE	wepp-176388	"11:26 am  Wednesday November 20, 2019"	"TAHOE CA"	clay	20	chap	0	50	30	300	h	20	70	ft
+WR	wepp-179145	"11:34 am  Wednesday November 20, 2019"	"TAHOE CA"	30	silt	native	200	4	13	15	50	50	5	20	outrut	ft
+WR	wepp-179906	"11:36 am  Wednesday November 20, 2019"	"TAHOE CA"	30	silt	native	200	4	13	15	50	50	15	20	outrut	ft
+WR	wepp-180498	"11:38 am  Wednesday November 20, 2019"	"TAHOE CA"	30	silt	native	200	4	13	15	50	150	5	20	outrut	ft
+WR	wepp-181152	"11:40 am  Wednesday November 20, 2019"	"TAHOE CA"	30	silt	native	200	4	13	15	50	150	15	20	outrut	ft
+WR	wepp-181499	"11:42 am  Wednesday November 20, 2019"	"TAHOE CA"	30	silt	graveled	200	4	13	15	50	50	5	20	outrut	ft
+WR	wepp-181832	"11:43 am  Wednesday November 20, 2019"	"TAHOE CA"	30	silt	graveled	200	4	13	15	50	50	15	20	outrut	ft
+WR	wepp-182057	"11:45 am  Wednesday November 20, 2019"	"TAHOE CA"	30	silt	graveled	200	4	13	15	50	150	5	20	outrut	ft
+WR	wepp-182285	"11:46 am  Wednesday November 20, 2019"	"TAHOE CA"	30	silt	graveled	200	4	13	15	50	150	15	20	outrut	ft
+WE	wepp-222468	"02:01 pm  Thursday November 21, 2019"	"TAHOE CA"	silt	20	forest	0	50	30	300	l			ft
+WE	wepp-222864	"02:03 pm  Thursday November 21, 2019"	"TAHOE CA"	silt	20	forest	0	50	30	300	h			ft
+WE	wepp-223574	"02:05 pm  Thursday November 21, 2019"	"TAHOE CA"	silt	20	range	0	50	30	300	l	20	70	ft
+WE	wepp-223949	"02:06 pm  Thursday November 21, 2019"	"TAHOE CA"	silt	20	range	0	50	30	300	h	20	70	ft
+WE	wepp-224301	"02:07 pm  Thursday November 21, 2019"	"TAHOE CA"	silt	20	chap	0	50	30	300	l	20	70	ft
+WE	wepp-224438	"02:07 pm  Thursday November 21, 2019"	"TAHOE CA"	silt	20	chap	0	50	30	300	h	20	70	ft
+WR	wepp-228914	"02:18 pm  Thursday November 21, 2019"	"TAHOE CA"	30	silt	native	200	5	13	15	50	50	25	20	outrut	ft
+WR	wepp-230178	"02:20 pm  Thursday November 21, 2019"	"TAHOE CA"	30	silt	native	200	15	13	15	50	50	25	20	outrut	ft
+WR	wepp-230419	"02:21 pm  Thursday November 21, 2019"	"TAHOE CA"	30	silt	native	200	5	13	15	50	150	25	20	outrut	ft
+WR	wepp-230437	"02:21 pm  Thursday November 21, 2019"	"TAHOE CA"	30	silt	native	200	15	13	15	50	150	25	20	outrut	ft
+WR	wepp-231091	"02:23 pm  Thursday November 21, 2019"	"TAHOE CA"	30	silt	graveled	200	5	13	15	50	50	25	20	outrut	ft
+WR	wepp-231455	"02:24 pm  Thursday November 21, 2019"	"TAHOE CA"	30	silt	graveled	200	15	13	15	50	50	25	20	outrut	ft
+WR	wepp-232221	"02:25 pm  Thursday November 21, 2019"	"TAHOE CA"	30	silt	graveled	200	5	13	15	50	150	25	20	outrut	ft
+WR	wepp-232547	"02:26 pm  Thursday November 21, 2019"	"TAHOE CA"	30	silt	graveled	200	15	13	15	50	150	25	20	outrut	ft

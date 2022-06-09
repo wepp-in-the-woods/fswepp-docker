@@ -1,0 +1,22 @@
+WR	wepp-185327	"02:20 pm  Thursday September 3, 2020"	"High Ridge SNOTEL +"	30	silt	native	200	4	16	15	50	5	25	20	inveg	ft
+WR	wepp-185373	"02:22 pm  Thursday September 3, 2020"	"High Ridge SNOTEL +"	30	silt	native	200	4	16	15	50	5	25	20	inveg	ft
+WR	wepp-185410	"02:24 pm  Thursday September 3, 2020"	"High Ridge SNOTEL +"	30	silt	native	200	4	16	15	50	5	25	20	inbare	ft
+WR	wepp-185462	"02:26 pm  Thursday September 3, 2020"	"High Ridge SNOTEL +"	30	silt	graveled	200	4	16	15	50	5	25	20	inveg	ft
+WR	wepp-185546	"02:26 pm  Thursday September 3, 2020"	"High Ridge SNOTEL +"	30	silt	graveled	200	4	16	15	50	5	25	20	inbare	ft
+WR	wepp-186268	"02:36 pm  Thursday September 3, 2020"	"High Ridge SNOTEL +"	30	silt	graveled	200	4	16	15	50	5	25	20	inveg	ft
+WR	wepp-186392	"02:37 pm  Thursday September 3, 2020"	"High Ridge SNOTEL +"	30	silt	native	200	4	16	15	50	5	25	20	inveg	ft
+WR	wepp-186555	"02:39 pm  Thursday September 3, 2020"	"High Ridge SNOTEL +"	30	silt	graveled	200	4	16	15	50	5	25	20	inveg	ft
+WR	wepp-186641	"02:41 pm  Thursday September 3, 2020"	"High Ridge SNOTEL +"	30	silt	graveled	200	4	16	15	50	5	25	20	inbare	ft
+WR	wepp-186704	"02:41 pm  Thursday September 3, 2020"	"High Ridge SNOTEL +"	30	silt	native	200	4	16	15	50	5	25	20	inbare	ft
+WR	wepp-186785	"02:42 pm  Thursday September 3, 2020"	"High Ridge SNOTEL +"	30	silt	native	200	4	16	15	50	5	25	20	inveg	ft
+WR	wepp-186867	"02:43 pm  Thursday September 3, 2020"	"High Ridge SNOTEL +"	30	silt	graveled	200	4	16	15	50	5	25	20	inveg	ft
+WR	wepp-187032	"02:47 pm  Thursday September 3, 2020"	"High Ridge SNOTEL lower +"	30	silt	graveled	200	4	16	15	50	5	25	20	inveg	ft
+WR	wepp-187074	"02:48 pm  Thursday September 3, 2020"	"High Ridge SNOTEL lower +"	30	silt	graveled	200	4	16	15	50	5	25	20	inveg	ft
+WR	wepp-187109	"02:49 pm  Thursday September 3, 2020"	"High Ridge SNOTEL lower +"	30	silt	graveled	200	4	16	15	50	5	25	20	inbare	ft
+WF	wepp-207200	"01:21 pm  Friday September 4, 2020"	"High Ridge SNOTEL +"	silt	500	100	10	55	15	90	20	20	4	ft
+WF	wepp-207309	"01:24 pm  Friday September 4, 2020"	"High Ridge SNOTEL +"	silt	700	100	10	55	15	90	20	20	3	ft
+WF	wepp-207414	"01:28 pm  Friday September 4, 2020"	"High Ridge SNOTEL +"	silt	700	1	10	55	15	90	20	20	3	ft
+WF	wepp-207570	"01:29 pm  Friday September 4, 2020"	"High Ridge SNOTEL +"	silt	700	50	0	30	15	90	20	20	3	ft
+WD	wepp-207684	"01:30 pm  Friday September 4, 2020"	"High Ridge SNOTEL +"	30	silt	LowFire	500	0	30	85	20	OldForest	100	30	5	100	20	0	ft	""
+WD	wepp-207737	"01:31 pm  Friday September 4, 2020"	"High Ridge SNOTEL +"	30	silt	YoungForest	500	0	30	90	20	OldForest	100	30	5	100	20	0	ft	""
+WD	wepp-207782	"01:33 pm  Friday September 4, 2020"	"High Ridge SNOTEL +"	30	silt	HighFire	500	0	30	45	20	LowFire	50	30	5	85	20	0	ft	""

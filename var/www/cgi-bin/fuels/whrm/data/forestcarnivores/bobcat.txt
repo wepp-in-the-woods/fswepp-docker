@@ -1,0 +1,72 @@
+#this files was modified by filegenwhrm.pl on: Wednesday, March 16, 2005.
+#taxgroup Forest Carnivores species Bobcat / Lynx rufus
+#
+# Rank
+3,2,3,-99,1
+# Nestsite
+4,1:8,1
+# Reprorank
+1,-99:1,-99
+# Foraging Habitat
+4,1:3,1:2,1:20,1:21,1
+# Habitatrank
+2,-99:1,-99:1,-99:2,-99:1,-99
+# Forage/Prey Availability
+-99
+# Preyrank
+-99
+# Predator Avoidance
+-99
+# Avoidrank
+-99
+# Refugia/Shelter
+4,1
+# Shelterrank
+1,-99
+# Coverrank
+1,-99
+# Literature
+Distribution
+much of USA, southern Canada, south into Mexico
+General Habitat
+varies geographically; includes semi-desert grasslands, short-grass prairies, riparian zones, and dense coniferous forest stands
+Home or Activity Range
+1400-22000 ac (Knowles 1981, Smith 1984)
+Canopy Cover
+extensive overstory canopy closure at locations (Smith 1984)
+Specific Habitat Preferences
+steep, rocky sites, dense cover, structural complexity
+Nestsite Characteristics
+den in small, cave-like holes, under large fallen trees, in the interstices of large boulders on talus slopes; prefer dense cover and steep, rocky undisturbed areas as den sites
+Foraging Habitat Characteristics
+use dense cover for hunting
+Diet
+hares, cottontails, jackrabbits, prairie dogs, small mammals
+Predators
+coyote; fox, owl species, adult male bobcats will take young
+Shelter Habitats
+dense cover for shelter
+Response to Disturbance
+past disturbance, such as mining or logging activity, did not appear to influence den site selection (Brainerd 1985)
+Sources of Information used in the Model
+Knowles 1981, Smith 1984, Brainerd 1985, Koehler and Hornocker 1991
+General Sources of Background Information
+Knowles 1981, Smith 1984, Brainerd 1985, Koehler and Hornocker 1991, Foresman 2001
+Summaries of Specific Studies
+Knowles, Pamela R. 1981. Habitat selection, home range size, and movements of bobcats in north-central Montana. Missoula, MT: University of Montana. 52 p. M.S. Thesis.
+
+Study Location: north-central Montana
+Habitat Description: PSME, JUSC, PIPO, cottonwoods, Salix sp., grasses and greasewood, big sagebrush
+Summary: Bobcat habitat selection and movement was studied in the C.M. Russel National Wildlife Refuge. The three bobcats with radiocollars selected habitat types with > 52% cover, as did potential lagomorph prey. The majority of relocations were made in Douglas-fir, juniper thicket, and river bottom cover types. Douglas-fir and juniper thickets were preferred in winter and spring while the riverbottom received its greatest use in summer and fall. Management recommendations are largely centered around halting illegal hunting.
+
+Koehler, Gary M.; Hornocker. Maurice G. 1991. Seasonal resource use among mountain lions, bobcats, and coyotes. Journal of Mammalogy. 72:391-396.
+
+Study Location: central Idaho
+Habitat Description: PSME, ABLA, PIAL
+Summary: Significant differences were found in use of elevation, forest types, terrain, overstory density, and exposure in the summer habitat used by mountain lions, bobcats and coyotes. Resource use overlapped in winter, which resulted in mountain lions killing both bobcat and coyote. Coyote used open stands and all forest types (except alpine) situated on south-southwest exposures in both seasons. Bobcats showed more seasonal differences; they used PSME-mountain mahogany forest types, open areas, and rocky terrain on south-southwest exposures more frequently during winter than summer. Mountain lions also showed seasonal differences. They used lower elevation, more xeric, open areas with rocky terrain and south-southwest exposures in winter.
+
+Smith, Drew S. 1984. Habitat use, home range, and movements of bobcats in western Montana. Missoula, MT: University of Montana. 58 p. M.S. Thesis.
+
+Study Location: western Montana
+Habitat Description: PICO, PSME, PIEN, ABLA, PIPO 
+Summary: Eight bobcats were radio-collared and movement and habitat use was monitored in coniferous forests of western Montana. Preferred habitat included extensive coniferous overstory with a dense vegetative understory of either shrubs or a combination of grasses and forbs. The author speculates that this cover was useful for hunting success. Areas with extensive overstory canopy cover were consistently used. Steep, rocky habitats were most important in summer, as they provided secure denning sites. No interspecific competition was documented between bobcats and lynx, as these species appeared to separate based on habitat selection and a potential scent-oriented avoidance system.

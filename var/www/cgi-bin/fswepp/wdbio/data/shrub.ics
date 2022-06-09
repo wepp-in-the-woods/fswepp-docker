@@ -1,0 +1,19 @@
+#
+# Shrub rangeland initial conditions scenario for Disturbed WEPP
+# 2004.07.01 based on 2000.01.xx DEH version
+# Initial canopy cover changed from to 0.0
+# note placeholders inrcov and rilcov
+#
+SHRUB
+Shrub Rangeland including sage and pinyon juniper
+for disturbed WEPP
+W. Elliot 02/99 2004.07
+1	# `landuse' - <Cropland>
+1.1	0.0	500	600	0	inrcov
+6	# `iresd' - <SHRUB>
+2	# `mgmt' - <Perennial>
+1000	0.1	rilcov	0.1	0
+1	# `rtyp' - <Temporary>
+0	0	0.1	0.2	0
+0.2	0.2
+

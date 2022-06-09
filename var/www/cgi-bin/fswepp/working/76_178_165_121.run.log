@@ -1,0 +1,28 @@
+WR	wepp-10584	"01:46 pm  Tuesday November 15, 2011"	"Mica Creek, ID +"	30	silt	native	200	4	13	15	50	1	25	20	inveg	ft
+WR	wepp-10591	"01:49 pm  Tuesday November 15, 2011"	"Mica Creek, ID +"	30	silt	native	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-10629	"01:50 pm  Tuesday November 15, 2011"	"Mica Creek, ID +"	30	silt	paved	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-18782	"06:54 pm  Tuesday November 15, 2011"	"Mica Creek, ID +"	30	silt	paved	200	4	13	15	50	100	25	20	inbare	ft
+WR	wepp-18787	"06:55 pm  Tuesday November 15, 2011"	"Mica Creek, ID +"	30	silt	paved	200	4	13	15	50	80	25	20	inbare	ft
+WR	wepp-18793	"06:55 pm  Tuesday November 15, 2011"	"Mica Creek, ID +"	30	silt	paved	200	4	13	15	50	90	25	20	inbare	ft
+WR	wepp-18817	"06:56 pm  Tuesday November 15, 2011"	"Mica Creek, ID +"	30	silt	paved	200	4	13	15	50	95	25	20	inbare	ft
+WR	wepp-18822	"06:57 pm  Tuesday November 15, 2011"	"Mica Creek, ID +"	30	silt	paved	200	4	13	15	50	93	25	20	inbare	ft
+WR	wepp-18854	"06:57 pm  Tuesday November 15, 2011"	"Mica Creek, ID +"	30	silt	paved	200	4	13	15	50	94	25	20	inbare	ft
+WR	wepp-18859	"06:57 pm  Tuesday November 15, 2011"	"Mica Creek, ID +"	30	silt	paved	200	4	13	15	50	93.5	25	20	inbare	ft
+WR	wepp-18864	"06:57 pm  Tuesday November 15, 2011"	"Mica Creek, ID +"	30	silt	paved	200	4	13	15	50	94.5	25	20	inbare	ft
+WR	wepp-18869	"06:58 pm  Tuesday November 15, 2011"	"Mica Creek, ID +"	30	silt	paved	200	4	13	15	50	94	25	20	inbare	ft
+WR	wepp-18895	"07:00 pm  Tuesday November 15, 2011"	"Mica Creek, ID +"	30	silt	paved	200	4	13	15	50	94.5	25	20	inbare	ft
+WR	wepp-18900	"07:01 pm  Tuesday November 15, 2011"	"Mica Creek, ID +"	30	silt	graveled	200	4	13	15	50	1	25	20	outunrut	ft
+WR	wepp-18986	"07:09 pm  Tuesday November 15, 2011"	"Mica Creek, ID +"	30	silt	graveled	200	4	13	15	50	1	25	20	outunrut	ft
+WR	wepp-18999	"07:10 pm  Tuesday November 15, 2011"	"Mica Creek, ID +"	30	silt	graveled	200	4	13	15	50	1	25	20	outunrut	ft
+WD	wepp-19159	"07:18 pm  Tuesday November 15, 2011"	"Mica Creek, ID +"	10	silt	OldForest	400	0	30	100	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-19220	"07:19 pm  Tuesday November 15, 2011"	"Mica Creek, ID +"	30	silt	OldForest	400	0	30	100	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-19362	"07:25 pm  Tuesday November 15, 2011"	"Mica Creek, ID +"	30	silt	Bunchgrass	400	0	30	60	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-19443	"07:32 pm  Tuesday November 15, 2011"	"Mica Creek, ID +"	30	silt	Bunchgrass	400	0	30	60	20	OldForest	30	30	5	100	20	0	ft	""
+WD	wepp-19504	"07:35 pm  Tuesday November 15, 2011"	"Mica Creek, ID +"	30	silt	HighFire	400	0	30	45	20	LowFire	30	30	5	85	20	0	ft	""
+WD	wepp-19794	"07:42 pm  Tuesday November 15, 2011"	"Mica Creek, ID +"	30	silt	HighFire	400	0	30	45	20	LowFire	1000	30	5	85	20	0	ft	""
+WD	wepp-19865	"07:43 pm  Tuesday November 15, 2011"	"Mica Creek, ID +"	30	silt	HighFire	1200	0	30	45	20	LowFire	1200	30	5	85	20	0	ft	""
+WD	wepp-19895	"07:43 pm  Tuesday November 15, 2011"	"Mica Creek, ID +"	30	silt	HighFire	1.5	0	30	45	20	LowFire	1200	30	5	85	20	0	ft	""
+WD	wepp-19925	"07:44 pm  Tuesday November 15, 2011"	"Mica Creek, ID +"	30	silt	HighFire	400	0	30	45	20	LowFire	1200	30	5	85	20	0	ft	""
+WD	wepp-19989	"07:47 pm  Tuesday November 15, 2011"	"Mica Creek, ID +"	30	silt	HighFire	20	0	30	45	20	LowFire	1200	30	5	85	20	0	ft	""
+WD	wepp-20013	"07:47 pm  Tuesday November 15, 2011"	"Mica Creek, ID +"	30	silt	HighFire	1.5	0	30	45	20	LowFire	1200	30	5	85	20	0	ft	""
+WD	wepp-3625	"12:22 pm  Thursday November 17, 2011"	"Mica Creek, ID +"	10	silt	HighFire	400	0	30	45	20	HighFire	30	30	5	45	20	0	ft	""

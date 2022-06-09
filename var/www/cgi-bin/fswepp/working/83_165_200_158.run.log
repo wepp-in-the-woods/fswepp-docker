@@ -1,0 +1,22 @@
+WE	wepp-35113	"11:31 am  Monday November 29, 2021"	"CHARLESTON KAN AP WV"	sand	20	forest	0	50	30	100	l			m
+WE	wepp-35335	"11:35 am  Monday November 29, 2021"	"MOUNT SHASTA CA"	sand	5	forest	0	0	0	100	l			m
+WE	wepp-35561	"11:45 am  Monday November 29, 2021"	"BIRMINGHAM WB AP AL"	sand	5	forest	0	1	0	100	l			m
+WE	wepp-50807	"04:13 am  Tuesday November 30, 2021"	"Orense, Spain +"	silt	20	range	0	50	30	100	m	15	75	m
+WD	wepp-52060	"05:54 am  Tuesday November 30, 2021"	"Orense, Spain +"	10	sand	OldForest	50	0	30	100	20	OldForest	50	30	5	100	20	0	m	"1"
+WD	wepp-52102	"05:55 am  Tuesday November 30, 2021"	"Orense, Spain +"	10	sand	HighFire	50	0	30	45	20	OldForest	50	30	5	100	20	0	m	"1"
+WD	wepp-52567	"06:38 am  Tuesday November 30, 2021"	"Berlin + + +"	10	sand	HighFire	50	0	0	45	20	HighFire	50	0	0	45	20	0	m	""
+WD	wepp-53534	"07:36 am  Tuesday November 30, 2021"	"Berlin + + +"	10	sand	HighFire	400	0.7	0.7	45	20	HighFire	400	0.7	0.7	45	20	0	m	""
+WD	wepp-53577	"07:38 am  Tuesday November 30, 2021"	"Berlin + + +"	10	sand	OldForest	400	0.7	0.7	100	20	OldForest	400	0.7	0.7	100	20	0	m	""
+WE	wepp-53676	"07:40 am  Tuesday November 30, 2021"	"Orense, Spain +"	silt	20	range	0	50	30	100	m	15	75	m
+WD	wepp-53842	"07:42 am  Tuesday November 30, 2021"	"Berlin + + +"	10	sand	YoungForest	400	0.7	0.7	100	20	YoungForest	400	0.7	0.7	100	20	0	m	""
+WD	wepp-53880	"07:43 am  Tuesday November 30, 2021"	"Berlin + + +"	10	sand	LowFire	400	0.7	0.7	85	20	LowFire	400	0.7	0.7	85	20	0	m	""
+WD	wepp-53921	"07:44 am  Tuesday November 30, 2021"	"Berlin + + +"	10	sand	HighFire	400	0.7	0.7	45	20	HighFire	400	0.7	0.7	45	20	0	m	""
+WE	wepp-54061	"07:49 am  Tuesday November 30, 2021"	"Berlin + + +"	clay	20	forest	0.7	0.7	0.7	300	l			m
+WE	wepp-54185	"07:50 am  Tuesday November 30, 2021"	"Berlin + + +"	sand	20	forest	0.7	0.7	0.7	300	l			m
+WE	wepp-54345	"07:52 am  Tuesday November 30, 2021"	"Berlin + + +"	sand	20	forest	0.7	0.7	0.7	300	m			m
+WE	wepp-54508	"07:53 am  Tuesday November 30, 2021"	"Berlin + + +"	sand	20	forest	0.7	0.7	0.7	300	h			m
+WE	wepp-55062	"08:19 am  Tuesday November 30, 2021"	"Orense, Spain +"	sand	20	chap	60	60	60	100	l	100	0	m
+WE	wepp-55189	"08:21 am  Tuesday November 30, 2021"	"Orense, Spain +"	sand	20	chap	60	60	60	100	m	100	0	m
+WE	wepp-55388	"08:24 am  Tuesday November 30, 2021"	"Orense, Spain +"	sand	30	chap	60	60	60	100	h	100	0	m
+WD	wepp-55641	"08:26 am  Tuesday November 30, 2021"	"Orense, Spain +"	10	sand	HighFire	50	60	60	45	30	HighFire	50	60	60	45	30	0	ft	""
+WD	wepp-57664	"09:55 am  Tuesday November 30, 2021"	"Orense, Spain +"	10	sand	HighFire	50	60	60	45	20	HighFire	50	60	60	45	20	0	m	""

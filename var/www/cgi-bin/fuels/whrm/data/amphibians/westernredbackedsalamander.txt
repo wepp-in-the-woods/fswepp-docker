@@ -1,0 +1,78 @@
+#this files was modified by filegenwhrm.pl on: Wednesday, March 16, 2005.
+#taxgroup Amphibians species Western red-backed salamander /  Plethodon vehiculum
+#
+# Rank
+2,-99,-99,-99,2
+# Nestsite
+-99
+# Reprorank
+-99
+# Foraging Habitat
+-99
+# Habitatrank
+-99
+# Forage/Prey Availability
+-99
+# Preyrank
+-99
+# Predator Avoidance
+-99
+# Avoidrank
+-99
+# Refugia/Shelter
+7,1:8,1:20,1
+# Shelterrank
+1,-99:2,-99:1,-99
+# Coverrank
+1,-99:2,-99:1,-99
+# Literature
+Distribution
+coastal Oregon north through coastal Washington into southern British Columbia
+General Habitat
+humid forests
+Home or Activity Range
+&lt 1 ac (O'Neil et al. 2001)
+Canopy Cover
+no information available
+Specific Habitat Preferences
+rocks and logs in damp locations
+Nestsite Characteristics
+eggs are probably located well beneath the ground surface
+Foraging Habitat Characteristics
+no information available
+Diet
+no information available
+Predators
+no information available
+Shelter Habitats
+found under rocks, logs, bark, boards, and inside rotting logs in damp locations
+Response to Disturbance
+more abundant on forested vs. clearcut plots as well as thinned plots (Grialou et al. 2000)
+Sources of Information used in the Model
+Grialou et al. 2000, Maguire 2002
+General Sources of Background Information
+Leonard et al. 1993, Gomez and Anthony 1996, Grialou et al. 2000, Wilkins and Peterson 2000, Maguire 2002, Stebbins 2003
+Summaries of Specific Studies
+Gomez, D.M.; Anthony, R.G. 1996. Amphibian and reptile abundance in riparian and upslope areas of five forest types in western Oregon. Northwest Science. 70:109-119.
+
+Study Location: central Coast Ranges, Oregon
+Habitat Description: 5 forest types, from young to old PSME (includes TSHE), as well as one deciduous forest type
+Summary: Amphibian and reptile populations were studied in five forest types. Amphibian species richness was the highest in pole stands, followed by old growth. Abundance was highest in the deciduous forest type. Reptile species richness and abundance was highest in the shrub forest type. Stream and upslope habitats were similar in species richness, while more amphibians were caught in stream habitats and more reptiles were caught in upslope habitats. Capture rates for different species are given by forest type.
+
+Grialou, Julie; West, Stephen D.; Wilkins, R. Neal. 2000. The effects of forest clearcut harvesting and thinning on terrestrial salamanders. Journal of Wildlife Management. 64(1): 105-113.
+
+Study Location: southwestern Washington
+Habitat Description: PSME, TSHE. THPL. PISI
+Summary: Short-term effects of clearcut logging and thinning were studied for western, northwestern, Columbia torrent, Pacific giant and Dunn's salamanders, as well as ensatinas and rough-skinned newts. All species but Columbia torrent and Pacific giant salamanders were found on both forested and clearcut sites; these two species were only found in the forested areas. Thinning had no impacts on species' presence. Both ensatina and western redbacked salamanders were less abundant in clearcut stands and capture rates were lower after thinning.
+
+Maguire, Chris C. 2002. Dead wood and the richness of small terrestrial vertebrates in southwestern Oregon. USDA Forest Service Gen. Tech. Rep. PSW-GTR-181: 331-345.
+
+Study Location: Umpqua National Forest, southwestern Oregon
+Habitat Description: mature PSME, with past history of thinning or salvage logging
+Summary: The association between small vertebrate richness and coarse woody debris volume was tested, with a positive correlation demonstrated across all taxa and also within the taxonomic groups of small mammals, insectivores, and amphibians. A number of individual species appear to be associated with coarse woody debris; the majority of these associations were positive. No evidence of an association between snag volume and small vertebrate richness was found. Because the coarse woody debris volumes in the study area were well above regional guidelines, the author predicts reduced small vertebrate richness in those areas where coarse woody debris guidelines are strictly followed. 
+
+Wilkins, R. Neal; Peterson, N. Phil. 2000. Factors related to amphibian occurrence and abundance in headwater streams draining second-growth Douglas-fir forests in southwestern Washington. Forest Ecology and Management. 139(2000): 79-91.
+
+Study Location: southwestern Washington
+Habitat Description: PSME-TSHE
+Summary: Habitat characteristics were related to the occurrence and abundance of Cope's and Pacific giant salamanders, tailed frogs, Columbia torrent salamanders, western red-backed salamanders, Dunn's salamanders, and Van Dyke's salamanders. Giant salamanders increased in abundance in streams with increasing pool frequency and with large woody debris accumulation in adjacent riparian areas, and decreased with large woody debris in channels. Torrent salamanders responded to increased channel gradient and decreased basin area. Overall, habitat quality for many of these species was tied to landform characteristics, including basin lithology.

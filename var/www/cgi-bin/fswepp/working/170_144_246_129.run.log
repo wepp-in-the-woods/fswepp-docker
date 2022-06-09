@@ -1,0 +1,29 @@
+WE	wepp-53146	"03:00 pm  Monday July 6, 2020"	"ROOSEVELT AZ +"	sand	25	range	13.57186	13.57186	13.57186	141.7162	u	26	0.01	ft
+WE	wepp-53205	"03:00 pm  Monday July 6, 2020"	"ROOSEVELT AZ +"	sand	25	range	13.57186	13.57186	13.57186	141.7162	l	26	0.01	ft
+WE	wepp-53297	"03:01 pm  Monday July 6, 2020"	"ROOSEVELT AZ +"	sand	25	range	13.57186	13.57186	13.57186	141.7162	m	26	0.01	ft
+WE	wepp-53432	"03:01 pm  Monday July 6, 2020"	"ROOSEVELT AZ +"	sand	25	range	15.97419	15.97419	15.97419	187.6508	l	15	25	ft
+WE	wepp-53534	"03:01 pm  Monday July 6, 2020"	"ROOSEVELT AZ +"	sand	25	range	15.97419	15.97419	15.97419	187.6508	m	15	25	ft
+WE	wepp-53664	"03:01 pm  Monday July 6, 2020"	"ROOSEVELT AZ +"	clay	47.5	range	19.90129	19.90129	19.90129	118.4723	u	34	10.5	ft
+WE	wepp-53694	"03:01 pm  Monday July 6, 2020"	"ROOSEVELT AZ +"	clay	47.5	range	19.90129	19.90129	19.90129	118.4723	l	34	10.5	ft
+WE	wepp-53791	"03:01 pm  Monday July 6, 2020"	"ROOSEVELT AZ +"	clay	47.5	range	19.90129	19.90129	19.90129	118.4723	m	34	10.5	ft
+WE	wepp-53921	"03:02 pm  Monday July 6, 2020"	"ROOSEVELT AZ +"	sand	47.5	range	30.08974	30.08974	30.08974	109.464	u	13	2	ft
+WE	wepp-53951	"03:02 pm  Monday July 6, 2020"	"ROOSEVELT AZ +"	sand	47.5	range	30.08974	30.08974	30.08974	109.464	l	13	2	ft
+WE	wepp-54041	"03:02 pm  Monday July 6, 2020"	"ROOSEVELT AZ +"	sand	47.5	range	30.08974	30.08974	30.08974	109.464	m	13	2	ft
+WE	wepp-54178	"03:02 pm  Monday July 6, 2020"	"ROOSEVELT AZ +"	sand	47.5	range	30.08974	30.08974	30.08974	109.464	h	13	2	ft
+WE	wepp-54348	"03:02 pm  Monday July 6, 2020"	"ROOSEVELT AZ +"	sand	47.5	range	41.09507	41.09507	41.09507	155.4267	u	13	2	ft
+WE	wepp-54378	"03:02 pm  Monday July 6, 2020"	"ROOSEVELT AZ +"	sand	47.5	range	41.09507	41.09507	41.09507	155.4267	l	13	2	ft
+WE	wepp-54468	"03:02 pm  Monday July 6, 2020"	"ROOSEVELT AZ +"	sand	47.5	range	41.09507	41.09507	41.09507	155.4267	m	13	2	ft
+WE	wepp-54598	"03:03 pm  Monday July 6, 2020"	"ROOSEVELT AZ +"	sand	47.5	range	41.09507	41.09507	41.09507	155.4267	h	13	2	ft
+WE	wepp-54768	"03:03 pm  Monday July 6, 2020"	"ROOSEVELT AZ +"	sand	47.5	range	28.10751	28.10751	28.10751	135.6718	u	29.5	3.8	ft
+WE	wepp-54803	"03:03 pm  Monday July 6, 2020"	"ROOSEVELT AZ +"	sand	47.5	range	28.10751	28.10751	28.10751	135.6718	l	29.5	3.8	ft
+WE	wepp-54893	"03:03 pm  Monday July 6, 2020"	"ROOSEVELT AZ +"	sand	47.5	range	28.10751	28.10751	28.10751	135.6718	m	29.5	3.8	ft
+WE	wepp-55028	"03:03 pm  Monday July 6, 2020"	"ROOSEVELT AZ +"	sand	47.5	range	28.10751	28.10751	28.10751	135.6718	h	29.5	3.8	ft
+WE	wepp-55198	"03:04 pm  Monday July 6, 2020"	"ROOSEVELT AZ +"	clay	47.5	range	38.17108	38.17108	38.17108	136.1001	u	36.1	26.1	ft
+WE	wepp-55228	"03:04 pm  Monday July 6, 2020"	"ROOSEVELT AZ +"	clay	47.5	range	38.17108	38.17108	38.17108	136.1001	l	36.1	26.1	ft
+WE	wepp-55323	"03:04 pm  Monday July 6, 2020"	"ROOSEVELT AZ +"	clay	47.5	range	38.17108	38.17108	38.17108	136.1001	m	36.1	26.1	ft
+WE	wepp-55455	"03:04 pm  Monday July 6, 2020"	"ROOSEVELT AZ +"	loam	47.5	range	25.08121	25.08121	25.08121	198.4675	u	25.3	34.1	ft
+WE	wepp-55490	"03:04 pm  Monday July 6, 2020"	"ROOSEVELT AZ +"	loam	47.5	range	25.08121	25.08121	25.08121	198.4675	l	25.3	34.1	ft
+WE	wepp-55580	"03:04 pm  Monday July 6, 2020"	"ROOSEVELT AZ +"	loam	47.5	range	25.08121	25.08121	25.08121	198.4675	m	25.3	34.1	ft
+WD	wepp-84849	"03:38 pm  Tuesday July 7, 2020"	"ROOSEVELT AZ +"	10	clay	OldForest	50	0	30	100	20	OldForest	50	30	5	100	20	0	ft	""
+WD	wepp-84948	"03:39 pm  Tuesday July 7, 2020"	"ROOSEVELT AZ +"	10	clay	HighFire	50	0	30	45	20	HighFire	50	30	5	45	20	0	ft	""
+WD	wepp-84997	"03:41 pm  Tuesday July 7, 2020"	"ROOSEVELT AZ +"	50	clay	HighFire	50	0	30	45	20	HighFire	50	30	5	45	20	0	ft	""

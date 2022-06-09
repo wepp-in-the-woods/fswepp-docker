@@ -1,0 +1,96 @@
+#this files was modified by filegenwhrm.pl on: Wednesday, March 16, 2005.
+#taxgroup Reptiles species Sagebrush Lizard / Sceloporus graciosus
+#
+# Rank
+3,3,5,-99,4
+# Nestsite
+20,-1
+# Reprorank
+3,-99
+# Foraging Habitat
+0,1:2,-1:3,1:6,1:7,-1:8,1:13,1:20,-1
+# Habitatrank
+2,-99:1,-99:1,-99:1,-99:2,-99:1,-99:1,-99:2,-99
+# Forage/Prey Availability
+-99
+# Preyrank
+-99
+# Predator Avoidance
+6,1:8,1:13,1
+# Avoidrank
+1,-99:3,-99:1,-99
+# Refugia/Shelter
+6,1:8,1:13,1:20,-1
+# Shelterrank
+1,-99:3,-99:1,-99:2,-99
+# Coverrank
+1,-99:3,-99:1,-99:2,-99
+# Literature
+Distribution
+western USA from eastern Washington, southern Idaho, southern Montana and extreme western North Dakota to northwestern New Mexico and northern Baja California
+General Habitat
+sagebrush plains, also stands of greasewood or other desert shrubs, open juniper or pine woodlands with brushy cover, may occur in rocky areas
+Home or Activity Range
+no information available
+Canopy Cover
+low canopy cover (Rose 1976); has higher abundance and reproductive success in low cover areas (Germaine and Germaine 2003)
+Specific Habitat Preferences
+brushy, rocky areas; occurs in areas with low canopy cover, low duff cover, low rock and log density, and high forb cover
+Nestsite Characteristics
+bury eggs in loose soil at the base of a shrub
+Foraging Habitat Characteristics
+may forage on logs and snags
+Diet
+stalk a variety of insects and other invertebrates
+Predators
+snakes (racers and striped whipsnakes), avian predators
+Shelter Habitats
+use shrubs, snags or logs for cover when disturbed
+Response to Disturbance
+no information available
+Sources of Information used in the Model
+Marcellini and Mackey 1970, Rose 1976, Germaine and Germaine 2003, James and M'Closkey 2002, James and M'Closkey 2003
+General Sources of Background Information
+Marcellini and Mackey 1970, Rose 1976, Storm and Leonard 1995, Morrison and Hall 1999, James and M'Closkey 2002, Germaine and Germaine 2003, James and M'Closkey 2003
+Summaries of Specific Studies
+Germaine, Stephen S.; Germaine, Heather L. 2003. Lizard distributions and reproductive success in a ponderosa pine forest. Journal of Herpetology. 37(4): 645-652.
+
+Study Location: northern Arizona
+Habitat Description: PIPO
+Summary: The relative abundance, demography, and reproductive success of sagebrush lizards and western skinks were assessed in a PIPO forest. Sagebrush lizard were widely distributed, but reproductive success and hatchling abundance were highest in the most open cover and stand types, and lowest in pure ponderosa cover and dense ponderosa stands. Western skink abundance differed among stand types by age class; overall they were more abundant in forest cover types than meadows. Both species were present in plots with lower percent duff cover. Increased tree density, canopy closure, and litter accumulation influenced distributions of both lizards. Abundance and reproduction appeared to be optimized in habitat with features most similar to that present prior to fire suppression and in areas containing a deciduous tree component.
+
+Green, Gregory A.; Livezey, Kent B.; Morgan, Russell L. 2001. Habitat selection by northern sagebrush lizards (Sceloporus graciosus graciosus) in the Columbia Basin, Oregon. Northwestern Naturalist. 82: 111-115.
+
+Study Location: Oregon
+Habitat Description: shrub-steppe: big sagebrush, bitterbrush, rabbitbrush, needle-and-thread grass, cheatgrass
+Summary: Northern sagebrush lizards showed some shrub species preference in habitat, mainly for tall shrub species. Animals chose areas with higher bare soil coverage and significantly lower coverage of grass, litter, and lichen. Sandy soil types were also preferred. 
+
+James, Sarah E.; M'Closkey, Robert T. 2002. Patterns of microhabitat use in a sympatric lizard assemblage. Canadian Journal of Zoology. 80:2226-2234.
+
+Study Location: Colorado
+Habitat Description: pinyon-juniper
+Summary: Microhabitat differences within an assemblage of phyronosomatine lizard species were characterized. The microhabitat of the ornate tree lizard was different from all others in that it used a higher perch height and more vertical substrate (dead standing and prone trees), indicative of its arboreal nature. The sagebrush lizard used areas with more flatland, more prone dead trees, and less rock, indicative of its preference for more open, sandy areas within the woodland.  No significant distinguishing microhabitat variables were found for the eastern fence lizard or the side-blotched lizard.
+
+James, Sarah E.; M'Closkey, Robert T. 2003. Lizard microhabitat and fire fuel management. Biological Conservation. 114(2003): 293-297.
+
+Study Location: Colorado
+Habitat Description: pinyon-juniper
+Summary: Primary objectives included quantifying the phyrnosomatid lizard preference for dead trees, examine differences in use among species, and to explore conservation implications of findings. The eastern fence lizard, ornate tree lizard, sagebrush lizard and the side-blotched lizard all used dead trees more than expected based on availability. The ornate tree lizard used dead standing wood more than dead prone wood (it did use both), but there was no significant difference for the other species. 
+
+Marcellini, D.; Mackey, J.P. 1970. Habitat preferences of the lizards Sceloporus occidentalis and S. graciosus (Lacertilia, Iguanidae). Herpetologica. 26: 51-56.
+
+Study Location: northern California
+Habitat Description: PSMA, manzanita shrubs, grass
+Summary: Habitat preferences were determined for the northern sagebrush lizard and the northwestern fence lizard. The sagebrush lizard was found to be completely terrestrial, preferring shrubby and open areas. The northwestern fence lizard was partially arboreal and had more varied habitat preferences.
+
+Morrison, Michael L; Hall, Linnea S. 1999. Habitat characteristics of reptiles in pinyon-juniper woodland. Great Basin Naturalist. 59(3): 288-291. 
+
+Study Location: White Mountains, California
+Habitat Description: pinyon-juniper
+Summary: Lizard abundance was correlated to habitat in a pinyon-juniper woodland. Western whiptails were found near slope bottoms and had more bare ground, fewer pinyon trees, and more juniper trees. Sagebrush and western fence lizards were abundant everywhere, though western fence lizard tended to be associated with dense patches of pinyon trees. 
+
+Rose, Barbera R. 1976. Habitat and prey selection of Sceloporus occidentalis and S. graciosus. Ecology. 57: 531-541.
+
+Study Location: California
+Habitat Description: mixture: foothill woodland, yellow pine (PIPO) forest, chaparral
+Summary: Resource use and habitat selection were studied for sympatric populations of sagebrush and western fence lizards. An isolated population of sagebrush lizards was also examined for comparison. The species overlapped in prey selection, though the sagebrush lizard tended to select smaller prey. There was distinct habitat selection, and within a habitat, between structural microhabitats. The western fence lizard was found more in grass-oak woodlands, and creek areas, while the sagebrush lizard preferred the more exposed habitats like a wide creek bottom, rock outcrops, and talus slopes. Western fence lizards were frequently found on logs or bushes, which sagebrush lizards tended to be found on rocks or rock outcrops.

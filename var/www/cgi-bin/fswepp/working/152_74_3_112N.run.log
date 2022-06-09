@@ -1,0 +1,13 @@
+WR	wepp-1936	"08:04 am  Friday November 19, 2010"	"Cerca de Concepcion  +"	10	clay	native	60	4	4	5	50	40	25	20	inveg	m
+WR	wepp-2249	"08:13 am  Friday November 19, 2010"	"Cerca de Concepcion  +"	10	sand	native	100	6	4	3	50	15	20	20	outrut	m
+WR	wepp-2345	"08:17 am  Friday November 19, 2010"	"Cerca de Concepcion  +"	10	sand	graveled	100	6	4	3	50	15	20	20	inveg	m
+WR	wepp-2924	"09:03 am  Friday November 19, 2010"	"Cerca de Concepcion  +"	10	sand	graveled	100	6	4	3	50	15	20	20	outunrut	m
+WR	wepp-2964	"09:05 am  Friday November 19, 2010"	"Cerca de Concepcion  +"	10	sand	paved	100	6	4	3	50	15	20	20	inveg	m
+WR	wepp-3017	"09:07 am  Friday November 19, 2010"	"Cerca de Concepcion  +"	10	sand	paved	100	6	4	3	50	15	20	20	outunrut	m
+WR	wepp-3084	"09:10 am  Friday November 19, 2010"	"Cerca de Concepcion  +"	10	sand	graveled	50	6	4	3	50	15	20	20	inveg	m
+wt	wepp-3442	"Nov 19, 2010"	"Cerca de Concepcion  +"	alluvial	HighRoad	6	6	100	10	20	Sod	20	15	15	80	0	ft	""
+wt	wepp-4235	"Nov 19, 2010"	"Cerca de Concepcion  +"	granitic	OldForest	20	30	100	100	0	OldForest	30	10	50	100	0	ft	""
+wt	wepp-4486	"Nov 19, 2010"	"Cerca de Concepcion  +"	granitic	LowFire	20	30	100	30	0	LowFire	30	10	50	50	0	ft	""
+wt	wepp-4783	"Nov 19, 2010"	"Cerca de Concepcion  +"	alluvial	Sod	20	30	135	80	0	OldForest	30	10	15	100	0	ft	""
+wt	wepp-4922	"Nov 19, 2010"	"Cerca de Concepcion  +"	alluvial	LowFire	20	30	135	85	0	OldForest	30	10	15	100	0	ft	""
+wt	wepp-5084	"Nov 19, 2010"	"Cerca de Concepcion  +"	alluvial	LowFire	20	30	135	40	0	LowFire	30	10	15	70	0	ft	""

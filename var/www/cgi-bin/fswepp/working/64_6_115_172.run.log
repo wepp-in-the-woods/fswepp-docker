@@ -1,0 +1,11 @@
+WR	wepp-5941	"06:34 pm  Monday March 12, 2012"	"FLAGSTAFF WB AP AZ"	30	sand	graveled	820	5	16.4	13	50	115	40	20	outrut	ft
+WR	wepp-6125	"06:38 pm  Monday March 12, 2012"	"FLAGSTAFF WB AP AZ"	30	sand	graveled	820	5	16.4	13	50	115	40	20	outrut	ft
+WR	wepp-6245	"06:41 pm  Monday March 12, 2012"	"FLAGSTAFF WB AP AZ"	30	sand	graveled	820	5	16.4	13	50	115	40	20	outunrut	ft
+WR	wepp-6293	"06:44 pm  Monday March 12, 2012"	"FLAGSTAFF WB AP AZ"	30	sand	graveled	820	5	16.4	13	50	115	40	20	outunrut	ft
+WR	wepp-6363	"06:47 pm  Monday March 12, 2012"	"FLAGSTAFF WB AP AZ"	30	sand	graveled	250	5	5	4	50	35	40	20	outrut	m
+WR	wepp-6761	"06:52 pm  Monday March 12, 2012"	"FLAGSTAFF WB AP AZ"	30	sand	graveled	250	5	5	4	50	35	40	20	outunrut	m
+WD	wepp-7936	"07:08 pm  Monday March 12, 2012"	"CHARLESTON KAN AP WV"	10	clay	Sod	20	0	50	30	20	Sod	20	50	5	30	20	0	ft	"Simple Seeding"
+WD	wepp-7986	"07:09 pm  Monday March 12, 2012"	"CHARLESTON KAN AP WV"	10	clay	Sod	20	0	50	20	20	Sod	20	50	5	20	20	0	m	"30% cover"
+WD	wepp-8006	"07:11 pm  Monday March 12, 2012"	"CHARLESTON KAN AP WV"	10	clay	Bunchgrass	20	0	50	60	20	Bunchgrass	20	50	5	60	20	0	m	"60% cover"
+WD	wepp-8026	"07:13 pm  Monday March 12, 2012"	"CHARLESTON KAN AP WV"	10	clay	Bunchgrass	20	0	50	30	20	Bunchgrass	20	50	5	30	20	0	m	"60% cover"
+WD	wepp-8095	"07:15 pm  Monday March 12, 2012"	"CHARLESTON KAN AP WV"	10	clay	Bunchgrass	20	0	50	100	20	Bunchgrass	20	50	5	100	20	0	m	"60% cover"

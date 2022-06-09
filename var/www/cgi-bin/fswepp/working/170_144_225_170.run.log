@@ -1,0 +1,20 @@
+WF	wepp-153437	"08:14 am  Wednesday September 15, 2021"	"MOSCOW U OF I ID                        1"	silt	200	50	30	70	15	100	20	20	3	ft
+WF	wepp-153643	"08:17 am  Wednesday September 15, 2021"	"MOSCOW U OF I ID                        1"	sand	200	70	0	30	15	100	20	20	3	ft
+WF	wepp-153741	"08:18 am  Wednesday September 15, 2021"	"MOSCOW U OF I ID                        1"	sand	800	70	0	30	15	100	20	20	3	ft
+WF	wepp-153919	"08:20 am  Wednesday September 15, 2021"	"MOSCOW U OF I ID                        1"	sand	800	50	0	70	15	40	20	20	4	ft
+WF	wepp-156219	"08:31 am  Wednesday September 15, 2021"	"SALMON 1N ID                            1"	silt	800	80	0	50	15	40	20	200	3	ft
+WF	wepp-156694	"08:33 am  Wednesday September 15, 2021"	"SALMON 1N ID                            1"	silt	1000	80	0	70	30	40	60	200	4	ft
+WF	wepp-156962	"08:33 am  Wednesday September 15, 2021"	"SALMON 1N ID                            1"	silt	1000	80	0	70	30	40	60	20	4	ft
+WF	wepp-157174	"08:34 am  Wednesday September 15, 2021"	"SALMON 1N ID                            1"	sand	200	50	0	30	15	40	20	20	4	ft
+WF	wepp-159015	"08:38 am  Wednesday September 15, 2021"	"MOSCOW U OF I ID                        1"	silt	800	80	0	30	15	60	30	200	4	ft
+WF	wepp-159310	"08:39 am  Wednesday September 15, 2021"	"MOSCOW U OF I ID                        1"	silt	800	80	0	30	15	60	30	40	4	ft
+WF	wepp-159561	"08:39 am  Wednesday September 15, 2021"	"MOSCOW U OF I ID                        1"	silt	200	50	0	70	45	40	20	40	4	ft
+WF	wepp-159837	"08:40 am  Wednesday September 15, 2021"	"MOSCOW U OF I ID                        1"	silt	1000	80	0	70	45	60	30	200	4	ft
+WF	wepp-160590	"08:42 am  Wednesday September 15, 2021"	"SALMON 1N ID                            1"	sand	1000	80	0	60	40	60	30	200	4	ft
+WF	wepp-161143	"08:44 am  Wednesday September 15, 2021"	"WARREN ID                               1"	sand	1000	80	0	60	40	60	30	200	4	ft
+WD	wepp-162367	"08:47 am  Wednesday September 15, 2021"	"WARREN ID"	10	sand	OldForest	1000	0	60	100	20	OldForest	1000	60	40	100	20	0	ft	""
+WD	wepp-162600	"08:47 am  Wednesday September 15, 2021"	"WARREN ID"	10	sand	OldForest	1000	0	60	40	20	OldForest	1000	60	40	40	20	0	ft	""
+WD	wepp-162758	"08:48 am  Wednesday September 15, 2021"	"WARREN ID"	10	sand	LowFire	50	0	30	85	20	LowFire	50	30	5	85	20	0	ft	""
+WD	wepp-162918	"08:48 am  Wednesday September 15, 2021"	"WARREN ID"	10	sand	HighFire	50	0	30	45	20	HighFire	50	30	5	45	20	0	ft	""
+WD	wepp-163368	"08:49 am  Wednesday September 15, 2021"	"WARREN ID"	10	sand	LowFire	50	60	60	40	20	LowFire	50	60	60	85	20	0	ft	""
+WD	wepp-163613	"08:50 am  Wednesday September 15, 2021"	"WARREN ID"	10	sand	LowFire	1000	60	60	40	20	LowFire	1000	60	60	85	20	0	ft	""

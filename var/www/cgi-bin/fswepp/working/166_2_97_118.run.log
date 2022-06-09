@@ -1,0 +1,25 @@
+WD	wepp-15203	"02:00 pm  Friday February 22, 2013"	"MONTICELLO UT +"	10	sand	HighFire	100	8	8	20	8	LowFire	900	8	8	50	8	0	ft	"MU16"
+WD	wepp-15267	"02:00 pm  Friday February 22, 2013"	"MONTICELLO UT +"	10	loam	HighFire	100	12	12	20	8	LowFire	900	12	12	50	8	0	ft	"MU22"
+WD	wepp-15594	"02:26 pm  Friday February 22, 2013"	"MONTICELLO UT +"	30	sand	HighFire	100	8	8	20	8	LowFire	900	8	8	50	8	0	ft	"MU16"
+WD	wepp-15614	"02:26 pm  Friday February 22, 2013"	"MONTICELLO UT +"	30	loam	HighFire	100	12	12	20	8	LowFire	900	12	12	50	8	0	ft	"MU22"
+WD	wepp-15621	"02:26 pm  Friday February 22, 2013"	"MONTICELLO UT +"	30	sand	HighFire	100	12	12	20	25	LowFire	900	12	12	50	25	0	ft	"MU26"
+WD	wepp-15628	"02:26 pm  Friday February 22, 2013"	"MONTICELLO UT +"	30	sand	HighFire	100	12	12	20	8	LowFire	900	12	12	50	8	0	ft	"MU27"
+WD	wepp-15635	"02:26 pm  Friday February 22, 2013"	"MONTICELLO UT +"	30	clay	HighFire	100	14	14	20	8	LowFire	900	14	14	50	8	0	ft	"MU38"
+WD	wepp-15642	"02:26 pm  Friday February 22, 2013"	"MONTICELLO UT +"	30	loam	HighFire	100	20	20	20	8	LowFire	900	20	20	50	8	0	ft	"MU39"
+WD	wepp-15649	"02:26 pm  Friday February 22, 2013"	"MONTICELLO UT +"	30	sand	HighFire	100	15	15	20	8	LowFire	900	15	15	50	8	0	ft	"MU42"
+WD	wepp-15656	"02:26 pm  Friday February 22, 2013"	"MONTICELLO UT +"	30	sand	HighFire	100	5	5	20	8	LowFire	900	5	5	50	8	0	ft	"MU43"
+WD	wepp-15663	"02:26 pm  Friday February 22, 2013"	"MONTICELLO UT +"	30	loam	HighFire	100	14	14	20	48	LowFire	900	14	14	50	48	0	ft	"MU45"
+WD	wepp-15670	"02:26 pm  Friday February 22, 2013"	"MONTICELLO UT +"	30	silt	HighFire	100	38	38	20	8	LowFire	900	38	38	50	8	0	ft	"MU48"
+WD	wepp-15677	"02:26 pm  Friday February 22, 2013"	"MONTICELLO UT +"	30	clay	HighFire	100	48	48	20	5	LowFire	900	48	48	50	5	0	ft	"MU56"
+WD	wepp-15684	"02:26 pm  Friday February 22, 2013"	"MONTICELLO UT +"	30	clay	HighFire	100	45	45	20	48	LowFire	900	45	45	50	48	0	ft	"MU64"
+WD	wepp-15691	"02:26 pm  Friday February 22, 2013"	"MONTICELLO UT +"	30	sand	HighFire	100	45	45	20	25	LowFire	900	45	45	50	25	0	ft	"MU67"
+WD	wepp-15698	"02:26 pm  Friday February 22, 2013"	"MONTICELLO UT +"	30	loam	HighFire	100	33	33	20	8	LowFire	900	33	33	50	8	0	ft	"MU68"
+WD	wepp-15705	"02:26 pm  Friday February 22, 2013"	"MONTICELLO UT +"	30	sand	HighFire	100	48	48	20	8	LowFire	900	48	48	50	8	0	ft	"MU98"
+WR	wepp-15967	"02:49 pm  Friday February 22, 2013"	"MONTICELLO UT +"	30	clay	native	200	4	13	15	50	130	25	20	outunrut	ft
+WR	wepp-16010	"02:51 pm  Friday February 22, 2013"	"MONTICELLO UT +"	30	clay	native	200	4	5	15	50	130	25	20	inbare	ft
+WR	wepp-16031	"02:53 pm  Friday February 22, 2013"	"MONTICELLO UT +"	30	clay	native	200	4	5	5	25	130	25	20	inbare	ft
+WD	wepp-26915	"08:35 am  Thursday April 4, 2013"	"CASTLE DALE UT"	10	clay	HighFire	100	12	12	20	8	LowFire	900	12	12	50	8	0	ft	""
+WD	wepp-26937	"08:37 am  Thursday April 4, 2013"	"CASTLE DALE UT"	10	clay	HighFire	100	15	15	20	8	LowFire	900	15	15	50	8	0	ft	""
+WE	wepp-32396	"10:22 am  Monday May 6, 2013"	"PINE VIEW DAM UT +"	sand	20	forest	20	50	30	1000	h			ft
+WE	wepp-32701	"10:24 am  Monday May 6, 2013"	"PINE VIEW DAM UT +"	sand	20	forest	20	50	30	300	h			ft
+WE	wepp-1271	"10:39 am  Monday May 6, 2013"	"PINE VIEW DAM UT +"	sand	20	forest	20	50	30	500	h			ft

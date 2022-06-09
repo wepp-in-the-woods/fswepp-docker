@@ -1,0 +1,24 @@
+WD	wepp-14118	"03:13 pm  Monday July 9, 2012"	"Quail Fire +"	50	clay	LowFire	50	70	60	85	20	LowFire	50	60	60	85	20	0	ft	""
+WD	wepp-14191	"03:16 pm  Monday July 9, 2012"	"Quail Fire +"	50	clay	HighFire	50	70	60	45	20	HighFire	50	60	60	45	20	0	ft	""
+WD	wepp-14210	"03:17 pm  Monday July 9, 2012"	"Quail Fire +"	50	clay	HighFire	200	70	60	0	20	HighFire	200	60	60	0	20	0	ft	""
+WE	wepp-14239	"03:19 pm  Monday July 9, 2012"	"Quail Fire +"	clay	20	forest	60	60	30	300	m			ft
+WE	wepp-24027	"10:16 am  Tuesday July 10, 2012"	"Quail Fire +"	clay	20	range	20	62	62	1000	l	75	15	ft
+WE	wepp-24244	"10:37 am  Tuesday July 10, 2012"	"Quail Fire +"	clay	20	range	60	60	60	1000	m	75	15	ft
+WE	wepp-24390	"10:45 am  Tuesday July 10, 2012"	"Quail Fire +"	sand	20	range	60	60	60	1000	m	75	15	ft
+WE	wepp-24487	"10:49 am  Tuesday July 10, 2012"	"Quail Fire +"	clay	20	range	60	60	60	1000	m	75	15	ft
+WE	wepp-24586	"10:51 am  Tuesday July 10, 2012"	"Quail Fire +"	clay	20	range	60	60	60	1000	l	75	15	ft
+WE	wepp-25973	"12:19 pm  Tuesday July 10, 2012"	"Quail Fire +"	loam	30	forest	70	50	25	1000	h			ft
+WE	wepp-26098	"12:21 pm  Tuesday July 10, 2012"	"Quail Fire +"	loam	30	chap	70	50	25	1000	h	80	0	ft
+WE	wepp-20932	"11:14 am  Wednesday July 11, 2012"	"Quail 2 +"	sand	20	chap	20	62	62	1000	m	80	0	ft
+WE	wepp-21021	"11:15 am  Wednesday July 11, 2012"	"Quail 2 +"	sand	20	forest	20	62	62	1000	m			ft
+WD	wepp-21209	"11:22 am  Wednesday July 11, 2012"	"Quail 2 +"	10	loam	HighFire	140	29	62	45	20	HighFire	1000	62	62	45	20	0	ft	""
+WD	wepp-21257	"11:25 am  Wednesday July 11, 2012"	"Quail 2 +"	10	sand	HighFire	140	29	62	45	20	HighFire	1000	62	62	45	20	0	ft	""
+WD	wepp-21277	"11:26 am  Wednesday July 11, 2012"	"Quail 2 +"	50	sand	HighFire	140	29	62	45	20	HighFire	1000	62	62	45	20	0	ft	""
+WE	wepp-21361	"11:27 am  Wednesday July 11, 2012"	"Quail Fire +"	loam	20	forest	20	62	62	1000	m			ft
+WE	wepp-21480	"11:30 am  Wednesday July 11, 2012"	"Quail Fire +"	loam	30	forest	20	62	62	1000	m			ft
+WE	wepp-21551	"11:30 am  Wednesday July 11, 2012"	"Quail Fire +"	loam	30	chap	20	62	62	1000	m	80	0	ft
+WE	wepp-21694	"11:40 am  Wednesday July 11, 2012"	"Quail Fire +"	loam	30	chap	70	70	20	1000	h	80	0	ft
+WE	wepp-21849	"11:47 am  Wednesday July 11, 2012"	"Quail 2 +"	loam	30	chap	57	60	60	1000	h	80	0	ft
+WE	wepp-21941	"11:48 am  Wednesday July 11, 2012"	"Quail 2 +"	loam	30	chap	57	60	60	1000	m	80	0	ft
+WE	wepp-22012	"11:48 am  Wednesday July 11, 2012"	"Quail 2 +"	loam	30	forest	57	60	60	1000	m			ft
+WE	wepp-22084	"11:49 am  Wednesday July 11, 2012"	"Quail 2 +"	loam	30	chap	57	60	60	1000	m	80	0	ft

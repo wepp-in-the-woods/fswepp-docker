@@ -1,0 +1,47 @@
+WF	wepp-238201	"02:11 pm  Tuesday March 22, 2016"	"FLAGSTAFF WB AP AZ"	clay	200	50	0	30	15	40	20	20	4	ft
+WF	wepp-240002	"02:23 pm  Tuesday March 22, 2016"	"BEAVERHEAD RS NM"	sand	1000	50	0	30	15	40	20	20	0	ft
+WF	wepp-241118	"02:26 pm  Tuesday March 22, 2016"	"BEAVERHEAD RS NM"	sand	200	50	0	30	15	40	20	20	4	ft
+WF	wepp-241241	"02:27 pm  Tuesday March 22, 2016"	"BEAVERHEAD RS NM"	clay	1000	50	0	30	15	40	20	20	0	ft
+WF	wepp-241283	"02:27 pm  Tuesday March 22, 2016"	"BEAVERHEAD RS NM"	clay	1000	50	0	30	15	40	20	20	0	ft
+WE	wepp-242027	"02:31 pm  Tuesday March 22, 2016"	"BEAVERHEAD RS NM"	clay	20	forest	0	50	30	300	l			ft
+WR	wepp-242722	"02:42 pm  Tuesday March 22, 2016"	"BEAVERHEAD RS NM"	30	clay	native	1000	4	18	15	50	130	25	20	outrut	ft
+WR	wepp-242802	"02:42 pm  Tuesday March 22, 2016"	"BEAVERHEAD RS NM"	30	clay	native	1000	4	18	15	50	130	25	20	outrut	ft
+WR	wepp-242895	"02:45 pm  Tuesday March 22, 2016"	"BEAVERHEAD RS NM"	30	clay	native	1000	4	18	15	50	130	25	20	inbare	ft
+WF	wepp-30037	"02:19 pm  Wednesday March 23, 2016"	"MOUNTAIN PARK NM"	clay	200	50	0	30	15	40	20	20	4	ft
+WF	wepp-30048	"02:19 pm  Wednesday March 23, 2016"	"MOUNTAIN PARK NM"	clay	200	50	0	30	15	40	20	20	4	ft
+WF	wepp-30704	"02:19 pm  Wednesday March 23, 2016"	"MOUNTAIN PARK NM"	clay	200	50	0	30	15	40	20	20	4	ft
+WF	wepp-31071	"02:19 pm  Wednesday March 23, 2016"	"MOUNTAIN PARK NM"	clay	200	50	0	30	15	40	20	20	4	ft
+WD	wepp-31440	"02:24 pm  Wednesday March 23, 2016"	"MOUNTAIN PARK NM"	50	clay	HighFire	150	0	30	30	20	HighFire	50	30	15	40	20	0	ft	""
+WR	wepp-32244	"02:36 pm  Wednesday March 23, 2016"	"MOUNTAIN PARK NM"	30	clay	native	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-32340	"02:37 pm  Wednesday March 23, 2016"	"MOUNTAIN PARK NM"	30	clay	native	1000	4	13	15	50	200	25	20	inveg	ft
+WF	wepp-36164	"03:37 pm  Wednesday March 23, 2016"	"MOUNTAIN PARK NM"	clay	560	120	0	30	15	40	20	20	4.35	ft
+WF	wepp-36609	"03:43 pm  Wednesday March 23, 2016"	"MOUNTAIN PARK NM"	clay	560	120	0	30	15	40	20	20	4.35	ft
+WR	wepp-88689	"01:11 pm  Wednesday March 30, 2016"	"MOUNTAIN PARK NM"	20	clay	native	1000	4	13	15	50	300	25	10	outunrut	ft
+WR	wepp-88746	"01:12 pm  Wednesday March 30, 2016"	"MOUNTAIN PARK NM"	20	clay	native	1000	4	13	15	50	300	25	10	outunrut	ft
+WR	wepp-88793	"01:12 pm  Wednesday March 30, 2016"	"MOUNTAIN PARK NM"	30	clay	native	1000	4	13	15	50	100	25	20	outrut	ft
+WR	wepp-88876	"01:14 pm  Wednesday March 30, 2016"	"MOUNTAIN PARK NM"	30	clay	native	640	4	13	15	50	100	25	20	outrut	ft
+WR	wepp-89120	"01:18 pm  Wednesday March 30, 2016"	"MOUNTAIN PARK NM"	30	clay	native	1000	4	13	15	50	200	25	20	outrut	ft
+WR	wepp-89246	"01:20 pm  Wednesday March 30, 2016"	"MOUNTAIN PARK NM"	30	clay	native	1000	4	13	15	50	200	25	20	outrut	ft
+WR	wepp-89356	"01:22 pm  Wednesday March 30, 2016"	"MOUNTAIN PARK NM"	30	clay	native	640	4	13	15	50	200	25	20	outrut	ft
+WR	wepp-89694	"01:26 pm  Wednesday March 30, 2016"	"MOUNTAIN PARK NM"	30	clay	native	1000	4	13	15	50	300	25	20	outrut	ft
+WR	wepp-89735	"01:26 pm  Wednesday March 30, 2016"	"MOUNTAIN PARK NM"	30	clay	native	1000	4	13	15	50	500	25	20	outrut	ft
+WR	wepp-89773	"01:26 pm  Wednesday March 30, 2016"	"MOUNTAIN PARK NM"	30	clay	native	200	4	13	15	50	700	25	20	outrut	ft
+WR	wepp-89813	"01:26 pm  Wednesday March 30, 2016"	"MOUNTAIN PARK NM"	30	clay	native	200	4	13	15	50	750	25	20	outrut	ft
+WR	wepp-89855	"01:27 pm  Wednesday March 30, 2016"	"MOUNTAIN PARK NM"	30	clay	native	200	4	13	15	50	800	25	20	outrut	ft
+WF	wepp-98875	"06:00 pm  Wednesday March 30, 2016"	"MOUNTAIN PARK NM"	clay	800	140	23	37	10.5	40	20	20	4	ft
+WF	wepp-99006	"06:02 pm  Wednesday March 30, 2016"	"MOUNTAIN PARK NM"	clay	800	140	23	37	10.5	40	20	1	4	ft
+WF	wepp-99114	"06:03 pm  Wednesday March 30, 2016"	"MOUNTAIN PARK NM"	clay	800	140	23	37	10.5	1	20	20	4	ft
+WF	wepp-99213	"06:04 pm  Wednesday March 30, 2016"	"MOUNTAIN PARK NM"	clay	800	140	23	37	10.5	40	20	1	4	ft
+WF	wepp-99310	"06:04 pm  Wednesday March 30, 2016"	"MOUNTAIN PARK NM"	clay	800	140	23	37	10.5	1	20	20	4	ft
+WR	wepp-100838	"06:49 pm  Wednesday March 30, 2016"	"MOUNTAIN PARK NM"	30	clay	native	1000	4	13	15	50	100	25	20	outrut	ft
+WR	wepp-100928	"06:51 pm  Wednesday March 30, 2016"	"MOUNTAIN PARK NM"	30	clay	native	1000	4	13	15	50	100	10.5	20	outrut	ft
+WR	wepp-101012	"06:52 pm  Wednesday March 30, 2016"	"MOUNTAIN PARK NM"	30	clay	native	1000	4	13	15	50	300	25	20	outrut	ft
+WR	wepp-101312	"06:54 pm  Wednesday March 30, 2016"	"MOUNTAIN PARK NM"	30	clay	native	1000	4	13	15	50	500	25	20	outrut	ft
+WR	wepp-101356	"06:54 pm  Wednesday March 30, 2016"	"MOUNTAIN PARK NM"	30	clay	native	1000	4	13	15	50	700	25	20	outrut	ft
+WR	wepp-101403	"06:54 pm  Wednesday March 30, 2016"	"MOUNTAIN PARK NM"	30	clay	native	1000	4	13	15	50	800	25	20	outrut	ft
+WR	wepp-101450	"06:55 pm  Wednesday March 30, 2016"	"MOUNTAIN PARK NM"	30	clay	native	1000	4	13	15	50	1000	25	20	outrut	ft
+WR	wepp-101496	"06:55 pm  Wednesday March 30, 2016"	"MOUNTAIN PARK NM"	30	clay	native	1000	4	13	15	50	1000	25	20	outrut	ft
+WF	wepp-102161	"07:01 pm  Wednesday March 30, 2016"	"MOUNTAIN PARK NM"	clay	800	140	23	37	10.5	1	20	20	4	ft
+WF	wepp-102257	"07:02 pm  Wednesday March 30, 2016"	"MOUNTAIN PARK NM"	clay	800	140	23	37	10.5	400	20	20	4	ft
+WF	wepp-102357	"07:02 pm  Wednesday March 30, 2016"	"MOUNTAIN PARK NM"	clay	800	140	23	37	10.5	40	20	200	4	ft
+WF	wepp-102396	"07:03 pm  Wednesday March 30, 2016"	"MOUNTAIN PARK NM"	clay	800	140	23	37	10.5	40	20	200	4	ft

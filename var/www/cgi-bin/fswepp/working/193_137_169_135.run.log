@@ -1,0 +1,32 @@
+WE	wepp-194498	"03:05 pm  Thursday March 14, 2019"	"MOSCOW U OF I ID"	sand	20	chap	0	50	30	300	l	80	0	ft
+WD	wepp-194726	"03:09 pm  Thursday March 14, 2019"	"MOSCOW U OF I ID"	10	clay	OldForest	50	0	30	100	20	Sod	50	30	5	40	20	0	ft	""
+WD	wepp-210880	"06:38 am  Tuesday December 21, 2021"	"BIRMINGHAM WB AP AL"	10	clay	OldForest	50	0	30	100	20	OldForest	50	30	5	100	20	0	ft	""
+WE	wepp-196482	"01:54 am  Monday May 2, 2022"	"BIRMINGHAM WB AP AL"	clay	20	range	0	50	30	300	l	15	75	ft
+WD	wepp-197837	"02:59 am  Monday May 2, 2022"	"BIRMINGHAM WB AP AL"	1	clay	OldForest	50	0	30	100	20	OldForest	50	30	5	100	20	0	ft	""
+WD	wepp-198001	"03:02 am  Monday May 2, 2022"	"BIRMINGHAM WB AP AL"	1	clay	OldForest	50	0	30	100	20	OldForest	50	30	5	100	20	0	ft	""
+WD	wepp-28251	"01:47 am  Friday May 20, 2022"	"Spain    Albacete Los Llanos"	10	clay	HighFire	50	0	30	45	20	HighFire	50	30	5	45	20	0	m	""
+WD	wepp-28470	"01:49 am  Friday May 20, 2022"	"Spain    Albacete Los Llanos"	10	clay	HighFire	50	0	30	45	20	HighFire	50	30	5	45	20	0	m	"Albacete simulation"
+WD	wepp-29291	"01:56 am  Friday May 20, 2022"	"BIRMINGHAM WB AP AL"	10	clay	Skid	50	0	30	20	20	Skid	50	30	5	20	20	0	m	"Albacete simulation"
+WD	wepp-29342	"01:56 am  Friday May 20, 2022"	"BIRMINGHAM WB AP AL"	10	clay	Skid	50	0	30	20	20	Skid	50	30	5	20	20	0	m	"Birmingham simulation"
+WD	wepp-29748	"01:58 am  Friday May 20, 2022"	"BIRMINGHAM WB AP AL"	10	sand	Skid	50	0	30	20	20	Skid	50	30	5	20	20	0	m	"Birmingham simulation"
+WD	wepp-30345	"02:01 am  Friday May 20, 2022"	"Spain    Albacete Los Llanos"	10	sand	Skid	50	0	30	20	20	Skid	50	30	5	20	20	0	m	"Birmingham simulation"
+WD	wepp-30586	"02:03 am  Friday May 20, 2022"	"BIRMINGHAM WB AP AL"	10	sand	LowFire	50	0	30	85	20	LowFire	50	30	5	85	20	0	m	"Birmingham simulation"
+WD	wepp-30825	"02:04 am  Friday May 20, 2022"	"BIRMINGHAM WB AP AL"	10	sand	HighFire	50	0	30	45	20	HighFire	50	30	5	45	20	0	m	"Birmingham simulation"
+WD	wepp-30977	"02:04 am  Friday May 20, 2022"	"Spain    Albacete Los Llanos"	10	sand	Skid	50	0	30	20	20	Skid	50	30	5	20	20	0	m	"Birmingham simulation"
+WD	wepp-31006	"02:05 am  Friday May 20, 2022"	"Spain    Albacete Los Llanos"	10	sand	LowFire	50	0	30	85	20	LowFire	50	30	5	85	20	0	m	"Birmingham simulation"
+WD	wepp-31059	"02:05 am  Friday May 20, 2022"	"Spain    Albacete Los Llanos"	10	sand	HighFire	50	0	30	45	20	HighFire	50	30	5	45	20	0	m	"Birmingham simulation"
+WD	wepp-31142	"02:05 am  Friday May 20, 2022"	"Spain    Albacete Los Llanos"	10	clay	HighFire	50	0	30	45	20	HighFire	50	30	5	45	20	0	m	"Birmingham simulation"
+WD	wepp-31218	"02:05 am  Friday May 20, 2022"	"Spain    Albacete Los Llanos"	10	clay	Sod	50	0	30	40	20	Sod	50	30	5	40	20	0	m	"Birmingham simulation"
+WD	wepp-31267	"02:06 am  Friday May 20, 2022"	"Spain    Albacete Los Llanos"	10	clay	HighFire	100	0	30	45	20	LowFire	100	30	5	85	20	0	m	"Birmingham simulation"
+WD	wepp-31303	"02:06 am  Friday May 20, 2022"	"Spain    Albacete Los Llanos"	10	clay	LowFire	100	0	30	85	20	LowFire	100	30	5	85	20	0	m	"Birmingham simulation"
+WD	wepp-31311	"02:06 am  Friday May 20, 2022"	"Spain    Albacete Los Llanos"	10	clay	Skid	100	0	30	20	20	Skid	100	30	5	20	20	0	m	"Birmingham simulation"
+WD	wepp-31350	"02:06 am  Friday May 20, 2022"	"Spain    Albacete Los Llanos"	10	clay	LowFire	100	0	30	85	20	LowFire	100	30	5	85	20	0	m	"Birmingham simulation"
+WD	wepp-31393	"02:06 am  Friday May 20, 2022"	"Spain    Albacete Los Llanos"	10	clay	LowFire	50	0	30	85	20	LowFire	50	30	5	85	20	0	m	"Birmingham simulation"
+WD	wepp-31429	"02:06 am  Friday May 20, 2022"	"Spain    Albacete Los Llanos"	10	clay	Skid	50	0	30	20	20	Skid	50	30	5	20	20	0	m	"Birmingham simulation"
+WD	wepp-31484	"02:07 am  Friday May 20, 2022"	"Spain    Albacete Los Llanos"	10	clay	LowFire	50	0	30	85	20	LowFire	50	30	5	85	20	0	m	"Birmingham simulation"
+WE	wepp-32671	"02:10 am  Friday May 20, 2022"	"BIRMINGHAM WB AP AL"	clay	20	forest	0	50	30	100	h			m
+WE	wepp-35137	"02:17 am  Friday May 20, 2022"	"BIRMINGHAM WB AP AL"	clay	20	forest	0	50	30	100	l			m
+WE	wepp-36251	"02:18 am  Friday May 20, 2022"	"BIRMINGHAM WB AP AL"	clay	20	forest	0	50	30	100	h			m
+WE	wepp-38026	"02:20 am  Friday May 20, 2022"	"BIRMINGHAM WB AP AL"	clay	20	forest	0	50	30	100	l			m
+WE	wepp-40118	"02:29 am  Friday May 20, 2022"	"Spain    Albacete Los Llanos"	clay	20	forest	0	30	5	50	h			m
+WE	wepp-40696	"02:29 am  Friday May 20, 2022"	"Spain    Albacete Los Llanos"	clay	35	forest	0	50	5	30	h			m

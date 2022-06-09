@@ -1,0 +1,19 @@
+WR	wepp-21385	"10:32 am  Thursday April 17, 2014"	"WALLACE WDLND PK ID +"	50	silt	native	250	13	13	1	50	1	25	40	outrut	ft
+WR	wepp-21564	"10:34 am  Thursday April 17, 2014"	"WALLACE WDLND PK ID +"	50	silt	native	250	13	13	1	50	1	25	40	outrut	ft
+WR	wepp-21787	"10:36 am  Thursday April 17, 2014"	"WALLACE WDLND PK ID +"	50	silt	graveled	250	13	13	1	50	1	25	40	inbare	ft
+WR	wepp-24798	"10:40 am  Thursday April 17, 2014"	"WALLACE WDLND PK ID +"	50	silt	graveled	250	13	13	1	50	1	25	40	inveg	ft
+WR	wepp-25107	"10:43 am  Thursday April 17, 2014"	"WALLACE WDLND PK ID +"	50	silt	paved	250	13	13	1	50	1	25	40	inveg	ft
+WR	wepp-25340	"10:45 am  Thursday April 17, 2014"	"WALLACE WDLND PK ID +"	50	silt	graveled	220	13	13	10	50	30	25	40	inveg	ft
+WR	wepp-26586	"10:47 am  Thursday April 17, 2014"	"WALLACE WDLND PK ID +"	50	silt	graveled	30	5	13	1	50	1	25	40	inveg	ft
+WR	wepp-28720	"10:56 am  Thursday April 17, 2014"	"WALLACE WDLND PK ID +"	50	clay	graveled	250	13	13	10	50	100	25	20	outrut	ft
+WD	wepp-26066	"12:34 pm  Thursday April 17, 2014"	"WALLACE WDLND PK ID +"	50	silt	OldForest	733	51	47	100	40	OldForest	100	47	29	100	40	0	ft	""
+WD	wepp-32012	"12:50 pm  Thursday April 17, 2014"	"WALLACE WDLND PK ID +"	50	silt	OldForest	733	51	47	85	40	OldForest	100	47	29	100	40	0	ft	""
+WD	wepp-32170	"12:51 pm  Thursday April 17, 2014"	"WALLACE WDLND PK ID +"	50	silt	Shrub	733	51	47	85	40	OldForest	100	47	29	100	40	0	ft	""
+WD	wepp-3471	"01:05 pm  Thursday April 17, 2014"	"WALLACE WDLND PK ID +"	50	silt	YoungForest	733	51	47	92	40	OldForest	100	47	29	100	40	0	ft	""
+WD	wepp-4811	"01:07 pm  Thursday April 17, 2014"	"WALLACE WDLND PK ID +"	50	silt	YoungForest	733	51	47	92	40	OldForest	100	47	29	100	40	0	ft	""
+WD	wepp-6945	"01:10 pm  Thursday April 17, 2014"	"WALLACE WDLND PK ID +"	50	silt	LowFire	733	51	47	85	40	OldForest	100	47	29	100	40	0	ft	""
+WD	wepp-9023	"01:18 pm  Thursday April 17, 2014"	"WALLACE WDLND PK ID +"	50	silt	HighFire	733	51	47	40	40	LowFire	100	47	29	60	40	0	ft	""
+WD	wepp-10111	"01:22 pm  Thursday April 17, 2014"	"WALLACE WDLND PK ID +"	50	silt	LowFire	733	51	47	80	40	LowFire	100	47	29	80	40	0	ft	""
+WF	wepp-32040	"02:34 pm  Thursday April 17, 2014"	"WALLACE WDLND PK ID +"	silt	833	100	51	47	29	40	20	20	2	ft
+WE	wepp-3133	"02:40 pm  Thursday April 17, 2014"	"WALLACE WDLND PK ID +"	silt	20	forest	51	47	29	833	m			ft
+wt	wepp-14045	"Apr 17, 2014"	"WALLACE WDLND PK ID +"	alluvial	LowFire	51	47	733	85	20	OldForest	47	29	100	100	30	ft	""

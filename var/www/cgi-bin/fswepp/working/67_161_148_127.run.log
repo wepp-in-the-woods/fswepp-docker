@@ -1,0 +1,29 @@
+WD	wepp-6891	"08:13 pm  Sunday September 10, 2017"	"Wonju KOREA test 2"	30	silt	OldForest	150	20	20	95	20	OldForest	20	20	20	95	20	0	m	""
+WD	wepp-6941	"08:18 pm  Sunday September 10, 2017"	"Wonju KOREA test 2"	30	silt	Bunchgrass	150	20	20	60	20	Bunchgrass	20	20	20	60	20	0	m	""
+WD	wepp-6990	"08:22 pm  Sunday September 10, 2017"	"Wonju KOREA test 2"	30	silt	Bunchgrass	150	20	20	95	20	Bunchgrass	20	20	20	95	20	0	m	""
+WD	wepp-7030	"08:26 pm  Sunday September 10, 2017"	"Wonju KOREA test 2"	30	silt	Shrub	150	20	20	85	20	Shrub	20	20	20	85	20	0	m	""
+WD	wepp-7067	"08:27 pm  Sunday September 10, 2017"	"Wonju KOREA test 2"	30	silt	Bunchgrass	150	20	20	95	20	Bunchgrass	20	20	20	95	20	0	m	""
+WD	wepp-7164	"08:29 pm  Sunday September 10, 2017"	"Wonju KOREA test 2"	30	silt	Sod	150	20	20	40	20	Sod	20	20	20	40	20	0	m	""
+WD	wepp-7210	"08:35 pm  Sunday September 10, 2017"	"Wonju KOREA test 2"	30	silt	Sod	150	20	20	20	20	Sod	20	20	20	20	20	0	m	""
+WD	wepp-7267	"08:40 pm  Sunday September 10, 2017"	"Wonju KOREA test 2"	30	clay	OldForest	150	20	20	95	20	OldForest	20	20	20	95	20	0	m	""
+WD	wepp-7305	"08:42 pm  Sunday September 10, 2017"	"Wonju KOREA test 2"	30	sand	OldForest	150	20	20	95	20	OldForest	20	20	20	95	20	0	m	""
+WD	wepp-7560	"08:45 pm  Sunday September 10, 2017"	"RIO PIEDRAS EXP FARM PR"	30	sand	OldForest	150	20	20	95	20	OldForest	20	20	20	95	20	0	m	""
+WD	wepp-7598	"08:46 pm  Sunday September 10, 2017"	"RIO PIEDRAS EXP FARM PR"	30	clay	OldForest	150	20	20	95	20	OldForest	20	20	20	95	20	0	m	""
+WD	wepp-7634	"08:47 pm  Sunday September 10, 2017"	"RIO PIEDRAS EXP FARM PR"	30	silt	OldForest	150	20	20	95	20	OldForest	20	20	20	95	20	0	m	""
+WD	wepp-7669	"08:48 pm  Sunday September 10, 2017"	"RIO PIEDRAS EXP FARM PR"	30	silt	Bunchgrass	150	20	20	95	20	Bunchgrass	20	20	20	95	20	0	m	""
+WD	wepp-7707	"08:50 pm  Sunday September 10, 2017"	"RIO PIEDRAS EXP FARM PR"	30	silt	Shrub	150	20	20	85	20	Shrub	20	20	20	85	20	0	m	""
+WD	wepp-7745	"08:55 pm  Sunday September 10, 2017"	"RIO PIEDRAS EXP FARM PR"	30	silt	Sod	150	20	20	40	20	Sod	20	20	20	40	20	0	m	""
+WD	wepp-7782	"08:57 pm  Sunday September 10, 2017"	"RIO PIEDRAS EXP FARM PR"	30	silt	Sod	150	20	20	20	20	Sod	20	20	20	20	20	0	m	""
+WR	wepp-14786	"08:46 am  Monday September 11, 2017"	"Wonju KOREA test 2"	30	silt	native	120	5	5	5	30	20	0.3	15	outrut	m
+WR	wepp-14824	"08:47 am  Monday September 11, 2017"	"Wonju KOREA test 2"	30	silt	native	120	5	5	5	30	20	0.3	15	outrut	m
+WR	wepp-14889	"08:49 am  Monday September 11, 2017"	"Wonju KOREA test 2"	30	silt	native	120	5	5	5	30	20	20	15	outrut	m
+WR	wepp-14926	"08:50 am  Monday September 11, 2017"	"Wonju KOREA test 2"	30	silt	native	120	5	5	5	30	20	0.3	15	outrut	m
+WR	wepp-14991	"08:51 am  Monday September 11, 2017"	"Wonju KOREA test 2"	30	silt	native	120	5	5	5	30	0.3	20	15	outrut	m
+WR	wepp-15030	"08:54 am  Monday September 11, 2017"	"Wonju KOREA test 2"	30	silt	native	120	5	5	5	30	0.3	20	15	outrut	m
+WR	wepp-15068	"08:56 am  Monday September 11, 2017"	"Wonju KOREA test 2"	30	silt	native	120	5	5	5	30	20	20	15	outrut	m
+WR	wepp-15108	"08:58 am  Monday September 11, 2017"	"RIO PIEDRAS EXP FARM PR"	30	silt	native	120	5	5	5	30	20	20	15	outrut	m
+WR	wepp-15362	"08:59 am  Monday September 11, 2017"	"RIO PIEDRAS EXP FARM PR"	30	silt	native	120	5	5	5	30	0.3	20	15	outrut	m
+WR	wepp-15399	"09:00 am  Monday September 11, 2017"	"RIO PIEDRAS EXP FARM PR"	30	silt	native	120	5	5	5	30	0.3	20	15	outrut	m
+WD	wepp-26685	"08:48 am  Friday July 13, 2018"	"CHEESMAN CO"	50	sand	HighFire	100	19	19	5	20	HighFire	100	19	19	45	20	0	m	""
+WD	wepp-26724	"08:49 am  Friday July 13, 2018"	"CHEESMAN CO"	50	sand	HighFire	100	19	19	5	20	HighFire	100	19	19	5	20	0	m	""
+WD	wepp-26762	"08:50 am  Friday July 13, 2018"	"CHEESMAN CO"	50	sand	HighFire	100	22	22	5	20	HighFire	100	22	22	5	20	0	m	""

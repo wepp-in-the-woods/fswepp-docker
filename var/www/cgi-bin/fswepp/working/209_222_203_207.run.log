@@ -1,0 +1,30 @@
+WD	wepp-60855	"07:23 am  Monday April 4, 2016"	"REDLANDS CA"	10	clay	OldForest	100	30	30	10	20	OldForest	100	30	30	10	20	0	ft	""
+WD	wepp-60933	"07:27 am  Monday April 4, 2016"	"REDLANDS CA"	10	sand	OldForest	100	30	30	10	20	OldForest	100	30	30	10	20	0	ft	""
+WD	wepp-60999	"07:28 am  Monday April 4, 2016"	"REDLANDS CA"	10	sand	OldForest	100	30	30	10	20	OldForest	100	30	30	10	20	0	ft	"high severity"
+WD	wepp-61102	"07:32 am  Monday April 4, 2016"	"REDLANDS CA"	10	clay	HighFire	100	30	30	45	20	HighFire	100	30	30	45	20	0	ft	"high severity"
+WD	wepp-61161	"07:33 am  Monday April 4, 2016"	"REDLANDS CA"	10	clay	HighFire	100	30	30	10	20	HighFire	100	30	30	10	20	0	ft	"high severity"
+WD	wepp-61320	"07:37 am  Monday April 4, 2016"	"REDLANDS CA"	10	sand	HighFire	100	30	30	10	20	HighFire	100	30	30	10	20	0	ft	"high severity"
+WD	wepp-61384	"07:39 am  Monday April 4, 2016"	"REDLANDS CA"	10	clay	LowFire	100	30	30	10	20	LowFire	100	30	30	10	20	0	ft	"low severity"
+WD	wepp-61427	"07:40 am  Monday April 4, 2016"	"REDLANDS CA"	10	clay	LowFire	100	30	30	10	20	LowFire	100	30	30	10	20	0	ft	"high severity"
+WD	wepp-61937	"07:52 am  Monday April 4, 2016"	"REDLANDS CA"	10	clay	LowFire	100	30	30	85	20	LowFire	100	30	30	85	20	0	ft	"high severity"
+WD	wepp-61992	"07:53 am  Monday April 4, 2016"	"REDLANDS CA"	10	clay	OldForest	100	30	30	100	20	OldForest	100	30	30	100	20	0	ft	"high severity"
+WD	wepp-62802	"07:57 am  Monday April 4, 2016"	"REDLANDS CA"	10	clay	HighFire	100	30	30	10	20	HighFire	100	30	30	10	20	0	ft	"high severity"
+WD	wepp-63404	"07:58 am  Monday April 4, 2016"	"REDLANDS CA"	10	clay	HighFire	100	30	30	10	20	HighFire	100	30	30	10	20	0	ft	"high severity"
+WD	wepp-65027	"08:07 am  Monday April 4, 2016"	"REDLANDS CA"	10	clay	HighFire	100	50	50	10	20	HighFire	100	50	50	10	20	0	ft	"high severity"
+WD	wepp-65284	"08:09 am  Monday April 4, 2016"	"REDLANDS CA"	10	clay	HighFire	250	30	30	10	20	HighFire	250	30	30	10	20	0	ft	"high severity"
+WD	wepp-65450	"08:09 am  Monday April 4, 2016"	"REDLANDS CA"	10	clay	HighFire	250	50	50	10	20	HighFire	250	50	50	10	20	0	ft	"high severity"
+WE	wepp-65829	"08:15 am  Monday April 4, 2016"	"REDLANDS CA"	clay	20	forest	0	50	30	200	h			ft
+WE	wepp-66084	"08:18 am  Monday April 4, 2016"	"REDLANDS CA"	clay	20	forest	0	50	30	200	h			ft
+WD	wepp-127715	"07:30 am  Friday April 13, 2018"	"REDLANDS CA"	10	clay	OldForest	150	30	30	100	0	OldForest	150	30	5	100	0	0	ft	""
+WD	wepp-127903	"07:32 am  Friday April 13, 2018"	"BANGOR DOW FIELD ME"	10	silt	OldForest	150	30	30	100	0	OldForest	150	30	30	100	0	0	ft	""
+WD	wepp-127994	"07:33 am  Friday April 13, 2018"	"BANGOR DOW FIELD ME"	10	silt	OldForest	150	30	30	100	0	OldForest	150	30	30	100	0	0	ft	""
+WD	wepp-31809	"07:31 am  Thursday April 11, 2019"	"BANGOR DOW FIELD ME"	10	silt	OldForest	150	30	30	100	0	OldForest	150	30	30	100	0	0	ft	""
+WD	wepp-31878	"07:33 am  Thursday April 11, 2019"	"BANGOR DOW FIELD ME"	10	silt	HighFire	150	30	30	0	0	HighFire	150	30	30	0	0	0	ft	""
+WD	wepp-32113	"07:35 am  Thursday April 11, 2019"	"LAS VEGAS WB AP NV"	10	silt	HighFire	150	30	30	0	0	HighFire	150	30	30	0	0	0	ft	""
+WD	wepp-32213	"07:36 am  Thursday April 11, 2019"	"MADISON WB AIRPORT WI"	10	clay	Bunchgrass	150	30	30	60	0	Bunchgrass	150	30	30	60	0	0	ft	""
+WD	wepp-32261	"07:37 am  Thursday April 11, 2019"	"MADISON WB AIRPORT WI"	10	clay	Sod	150	30	30	40	0	Sod	150	30	30	40	0	0	ft	""
+WD	wepp-32305	"07:38 am  Thursday April 11, 2019"	"MADISON WB AIRPORT WI"	10	sand	Bunchgrass	150	30	30	60	0	Bunchgrass	150	30	30	60	0	0	ft	""
+WD	wepp-32437	"07:39 am  Thursday April 11, 2019"	"MADISON WB AIRPORT WI"	10	clay	Skid	150	30	30	0	0	Skid	150	30	30	0	0	0	ft	""
+WE	wepp-32508	"07:40 am  Thursday April 11, 2019"	"WALLACE WDLND PK ID"	silt	5	forest	30	30	30	300	u			ft
+WE	wepp-32580	"07:41 am  Thursday April 11, 2019"	"WALLACE WDLND PK ID"	silt	5	forest	30	30	30	300	h			ft
+WE	wepp-35861	"09:28 am  Thursday April 11, 2019"	"WALLACE WDLND PK ID"	silt	5	forest	30	30	30	300	h			ft

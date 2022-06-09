@@ -1,0 +1,48 @@
+WE	wepp-217080	"06:18 am  Tuesday July 22, 2014"	"Owen Fire WY +"	loam	20	forest	3	5	5	300	m			ft
+WD	wepp-217270	"06:23 am  Tuesday July 22, 2014"	"Owen Fire WY +"	10	sand	HighFire	150	3	10	20	20	HighFire	150	10	5	20	20	0	ft	""
+WD	wepp-217307	"06:24 am  Tuesday July 22, 2014"	"Owen Fire WY +"	10	sand	HighFire	150	10	20	20	20	HighFire	150	20	20	20	20	0	ft	""
+WD	wepp-217359	"06:25 am  Tuesday July 22, 2014"	"Owen Fire WY +"	10	sand	HighFire	150	10	20	20	20	Sod	150	20	20	40	20	0	ft	""
+WD	wepp-217395	"06:25 am  Tuesday July 22, 2014"	"Owen Fire WY +"	10	sand	HighFire	150	10	20	20	20	Bunchgrass	150	20	20	60	20	0	ft	""
+WD	wepp-217431	"06:26 am  Tuesday July 22, 2014"	"Owen Fire WY +"	10	sand	HighFire	150	10	20	20	20	OldForest	150	20	20	100	20	0	ft	""
+WE	wepp-217511	"06:33 am  Tuesday July 22, 2014"	"Owen Fire WY +"	sand	20	forest	0	50	30	500	m			ft
+WE	wepp-217690	"06:36 am  Tuesday July 22, 2014"	"Owen Fire WY +"	loam	20	forest	0	50	30	500	m			ft
+WE	wepp-222095	"10:18 am  Tuesday July 22, 2014"	"Owen Fire WY +"	loam	20	forest	0	50	30	500	m			ft
+WE	wepp-222328	"10:32 am  Tuesday July 22, 2014"	"Owen Fire WY +"	sand	20	forest	0	30	15	500	l			ft
+WE	wepp-222450	"10:33 am  Tuesday July 22, 2014"	"Owen Fire WY +"	sand	20	forest	0	50	30	500	l			ft
+WE	wepp-222711	"10:44 am  Tuesday July 22, 2014"	"Owen Fire WY +"	loam	20	forest	0	50	30	300	l			ft
+WE	wepp-222849	"10:46 am  Tuesday July 22, 2014"	"Owen Fire WY +"	loam	20	forest	0	50	30	300	l			ft
+WE	wepp-223751	"12:30 pm  Tuesday July 22, 2014"	"Owen Fire WY +"	loam	20	forest	5	30	15	500	l			ft
+WE	wepp-223871	"12:30 pm  Tuesday July 22, 2014"	"Owen Fire WY +"	loam	20	forest	5	30	15	500	m			ft
+WD	wepp-146067	"01:47 pm  Tuesday November 18, 2014"	"Owen Fire WY +"	10	sand	Bunchgrass	50	0	15	60	20	Sod	50	15	0	40	20	0	ft	""
+WD	wepp-146688	"01:58 pm  Tuesday November 18, 2014"	"Owen Fire WY +"	10	sand	Bunchgrass	1200	0	15	60	20	Sod	600	15	0	40	20	0	ft	""
+WD	wepp-146742	"01:59 pm  Tuesday November 18, 2014"	"Owen Fire WY +"	10	sand	Bunchgrass	1200	0	15	40	20	Sod	600	15	0	25	20	0	ft	""
+WD	wepp-146786	"01:59 pm  Tuesday November 18, 2014"	"Owen Fire WY +"	10	loam	Bunchgrass	1200	0	15	40	20	Sod	600	15	0	25	20	0	ft	""
+WR	wepp-102940	"06:58 pm  Saturday November 29, 2014"	"Owen Fire WY +"	10	clay	native	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-103025	"07:08 pm  Saturday November 29, 2014"	"Owen Fire WY +"	10	loam	native	100	4	13	15	50	75	25	20	outrut	ft
+WR	wepp-103077	"07:09 pm  Saturday November 29, 2014"	"Owen Fire WY +"	10	loam	native	100	4	13	15	50	75	25	20	outrut	ft
+WR	wepp-34419	"09:39 am  Tuesday December 2, 2014"	"Owen Fire WY +"	30	loam	native	100	4	10	15	10	25	5	20	outrut	ft
+WR	wepp-34468	"09:41 am  Tuesday December 2, 2014"	"Owen Fire WY +"	30	loam	native	100	4	10	15	10	25	5	20	outrut	ft
+WD	wepp-34538	"09:47 am  Tuesday December 2, 2014"	"Owen Fire WY +"	10	loam	YoungForest	100	0	30	100	20	Sod	100	30	5	40	20	0	ft	""
+WD	wepp-34575	"09:48 am  Tuesday December 2, 2014"	"Owen Fire WY +"	10	loam	YoungForest	100	0	30	100	20	Sod	100	30	5	0	20	0	ft	""
+WD	wepp-34614	"09:49 am  Tuesday December 2, 2014"	"Owen Fire WY +"	10	loam	Skid	100	0	30	20	20	Skid	100	30	5	20	20	0	ft	""
+WD	wepp-34661	"09:50 am  Tuesday December 2, 2014"	"Owen Fire WY +"	10	loam	Skid	100	0	30	20	20	Skid	100	30	5	20	20	0	ft	""
+WD	wepp-34699	"09:51 am  Tuesday December 2, 2014"	"Owen Fire WY +"	10	loam	OldForest	100	0	30	100	20	Sod	100	30	5	40	20	0	ft	""
+WD	wepp-34741	"09:51 am  Tuesday December 2, 2014"	"Owen Fire WY +"	10	loam	HighFire	100	0	30	45	20	HighFire	100	30	5	45	20	0	ft	""
+WD	wepp-34780	"09:52 am  Tuesday December 2, 2014"	"Owen Fire WY +"	10	clay	HighFire	100	0	30	0	0	HighFire	100	30	5	0	0	0	ft	""
+WD	wepp-35122	"09:56 am  Tuesday December 2, 2014"	"Owen Fire WY +"	10	clay	YoungForest	50	0	30	100	20	Sod	50	30	5	40	20	0	ft	""
+WD	wepp-35166	"09:58 am  Tuesday December 2, 2014"	"Owen Fire WY +"	10	clay	YoungForest	50	0	30	100	40	Sod	50	30	5	40	40	0	ft	""
+WD	wepp-35208	"09:59 am  Tuesday December 2, 2014"	"Owen Fire WY +"	10	loam	YoungForest	50	0	25	60	15	Sod	50	25	0	10	15	0	ft	""
+WD	wepp-35261	"10:00 am  Tuesday December 2, 2014"	"Owen Fire WY +"	10	loam	YoungForest	50	0	30	60	20	Sod	50	30	0	0	20	0	ft	""
+WD	wepp-35304	"10:04 am  Tuesday December 2, 2014"	"Owen Fire WY +"	10	loam	YoungForest	50	0	30	60	20	Sod	50	30	0	0	20	0	ft	""
+WD	wepp-35360	"10:05 am  Tuesday December 2, 2014"	"Owen Fire WY +"	10	loam	OldForest	50	0	30	100	20	OldForest	50	30	0	100	20	0	ft	""
+WD	wepp-35404	"10:06 am  Tuesday December 2, 2014"	"Owen Fire WY +"	10	loam	YoungForest	50	0	30	60	20	Sod	50	30	0	40	20	0	ft	""
+WD	wepp-35631	"10:13 am  Tuesday December 2, 2014"	"Owen Fire WY +"	10	loam	YoungForest	50	0	30	60	20	Sod	50	30	5	40	20	0	ft	""
+WD	wepp-241197	"03:14 pm  Thursday December 11, 2014"	"Owen Fire WY +"	10	loam	YoungForest	100	0	30	75	20	Sod	100	30	5	15	20	0	ft	""
+WD	wepp-241344	"03:27 pm  Thursday December 11, 2014"	"ELK MOUNTAIN WY +"	10	loam	YoungForest	50	0	30	80	35	Sod	50	30	0	5	0	0	ft	""
+WD	wepp-241540	"03:36 pm  Thursday December 11, 2014"	"ELK MOUNTAIN WY +"	10	loam	YoungForest	50	0	30	80	35	Sod	50	30	0	5	0	0	ft	""
+WD	wepp-242086	"03:47 pm  Thursday December 11, 2014"	"Owen Fire WY +"	10	loam	YoungForest	50	0	30	80	35	Sod	50	30	0	5	0	0	ft	""
+WD	wepp-242934	"03:51 pm  Thursday December 11, 2014"	"Muddy Creek  + +"	10	loam	YoungForest	50	0	30	80	30	Sod	50	30	5	5	0	0	ft	""
+WR	wepp-243475	"04:03 pm  Thursday December 11, 2014"	"Muddy Creek  + +"	30	loam	native	100	2	10	15	10	1	0.3	0	outrut	ft
+WR	wepp-243499	"04:05 pm  Thursday December 11, 2014"	"Muddy Creek  + +"	30	loam	native	100	2	10	15	10	25	0.3	0	outrut	ft
+WR	wepp-243536	"04:06 pm  Thursday December 11, 2014"	"Muddy Creek  + +"	30	loam	native	100	2	10	15	10	5	0.3	0	outrut	ft
+WR	wepp-243588	"04:08 pm  Thursday December 11, 2014"	"Muddy Creek  + +"	30	loam	native	100	2	10	15	10	1	0.3	0	outrut	ft

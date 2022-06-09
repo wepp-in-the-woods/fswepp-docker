@@ -1,0 +1,90 @@
+#this files was modified by filegenwhrm.pl on: Wednesday, March 16, 2005.
+#taxgroup Birds species Northern pygmy-owl / Glaucidium gnoma
+#
+# Rank
+3,3,1,-99,1
+# Nestsite
+17,1:18,1:20,1:24,1:25,1:26,1
+# Reprorank
+1,-99:1,-99:1,-99:1,-99:3,-99:2,-99
+# Foraging Habitat
+25,1:26,1
+# Habitatrank
+1,-99:1,-99
+# Forage/Prey Availability
+-99
+# Preyrank
+-99
+# Predator Avoidance
+-99
+# Avoidrank
+-99
+# Refugia/Shelter
+24,1:25,1:26,1
+# Shelterrank
+1,-99:1,-99:1,-99
+# Coverrank
+1,-99:1,-99:1,-99
+# Literature
+Distribution
+western N. America from Alaska to Guatemala
+General Habitat
+breed in dense montane mixed coniferous-deciduous forest and pine-oak forests
+Home or Activity Range
+650-1200 ac (O'Neil et al. 2001)
+Canopy Cover
+&gt 80% canopy closure at nest site (Bull et al. 1987)
+Specific Habitat Preferences
+open, large diameter conifer forests, habitat edges, older, structurally diverse mixed-wood habitats with high edge and terrain roughness (Alberta) 
+Nestsite Characteristics
+nests in natural tree cavity or old woodpecker holes
+Foraging Habitat Characteristics
+large diameter conifer forests
+Diet
+small mammals such as voles and mice, large insects like grasshoppers,  birds like house sparrows, amphibians
+Predators
+Mexican and Northern spotted owl, other owls, jays, crows, ravens, snakes, weasels, Cooper's hawk, sharp-shinned hawk, broad-winged hawk, red-tailed hawk; red squirrels and pine marten on young in cavities
+Shelter Habitats
+roosts in tree cavities
+Response to Disturbance
+no information available
+Sources of Information used in the Model
+Bull et al. 1987, Hannah 1999, Piorecky and Prescott 2004
+General Sources of Background Information
+reviewed in Scott and Patton 1975, Bull et al. 1987, Ehrlich et al. 1988, Hayward and Garton 1988, reviewed in Ward and Block 1995, Holt and Leroux 1996, Hannah 1999, Holt and Peterson 2000, Piorecky and Prescott 2004
+Summaries of Specific Studies
+Bull, Evelyn L.; Hohmann, Janet E.; Henjum, Mark G. 1987. Northern pygmy-owl nests in northeastern Oregon. Journal of Raptor Research. 21(2): 77.
+
+Study Location: northeastern Oregon
+Habitat Description:  not stated- includes firs and PSME
+Summary: Nest and roost trees are described for northern pygmy-owls. One live and one dead tree were used for nesting, while the majority of roost trees were live. Pellet and prey remains are also described.
+
+Hannah, Kevin C. 1999.Status of the northern pygmy owl (Glaucidium gnoma californicum) in Alberta. Alberta Environmental Protection, Fisheries and Wildlife Management Division, and Alberta Conservation Association, Wildlife Status Report No. 20. Edmonton, AB. 20 pp.
+
+Study Location: Alberta
+Habitat Description:  not stated
+Summary: Review of the literature pertaining to northern pygmy owls. Throughout its range, it appears that pygmy owls use a variety of forest types and may be considered a habitat generalist. They prefer areas of low to intermediate canopy closure and are most common near the edges of meadows, lakes and other clearings. They are rarely seen in dense forest, though dense forest may be used if it is interspersed with clearings as in Alberta. Records in the Alberta area suggest that a forest of mixed aspen and spruce represents suitable breeding habitat. 
+
+Hayward, Gregory D.; Garton, Edward O. 1988. Resource partitioning among forest owls in the River of No Return Wilderness. Oecologia (Berlin). 75:253-265.
+
+Study Location: Frank Church Wilderness, central Idaho
+Habitat Description:  PSME, PICO, PIPO, ABLA habitat type series
+Summary:Resource partitioning at the macro- and microhabitat scale was studied for five abundant species of forest owls. Owls differed in habitat preferences as well as activity periods and food habits. Screech owls had the most restricted niche, while pygmy and great-horned owls were more generalist in habitat ust. Patterns of resource use was interpreted as resulting from environmental factors, morphological limitations, behavioral adaptations, and interspecific competition.
+
+Holt, Denver; Leroux, Leslie A. 1996. Diets of northern pygmy-owls and northern saw-whet owls in west-central Montana. Wilson Bulletin. 108(1): 123-128.
+
+Study Location: west-central Montana
+Habitat Description: not stated
+Summary: Examination of the diets of two sympatric, small owls. Pygmy-owls were found to have a significant avian component to their diets, while they also ate a large number of voles. Microtine voles were the most significant component of saw-whet owl diets.The authors could not conclude that diet is shaping the sympatric distribution of these two owls.
+
+Holt, Denver.; Petersen, Julie L. 2000. Northern pygmy-owl (Glaucidium gnoma) In The Birds of North America, No. 494. (A. Poole and F. Gill eds.) The Birds of North America, Inc., Philadelphia, PA. 23 pp.
+
+Study Location: throughout range
+Habitat Description: variety reviewed
+Summary: Birds of North America species account for the northern pymgy-owl. Habitat ranges from deciduous bottomlands to high-elevation conifer forests. Nests are made in natural and woodpecker-made cavities. Surveys in Montana showed a breeding habitat preference for PIEN-PSME-ABLA forest, but also cottonwood bottomlands, aspen groves, and mixed PIPO stands.
+
+Piorecky, Mark D.; Prescott, David R.C. 2004. Distribution, abundance and habitat selection of northern pygmy and barred owls along the eastern slopes of the Alberta Rocky Mountains.  Alberta Sustainable Resource and Development, Fish and Wildlife Division, Alberta Species at Risk Report No. 91. Edmonton, AB.. 26 pp.
+
+Study Location: Alberta
+Habitat Description:  not stated: Alberta Foothills Natural Region
+Summary: Authors investigated the distribution, abundance and habitat preferences for northern pygmy and barred owls along the edge of the Rocky Mountains southeast of Calgary. Spatial analysis showed that northern pygmy owls prefered older, structurally diverse mixedwood habitat, with line-of-sight enhanced by increased edge and terrain roughness.

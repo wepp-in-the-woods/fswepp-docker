@@ -1,0 +1,84 @@
+WR	wepp-16122	"07:25 pm  Wednesday December 2, 2009"	"SAINT MARIES ID + +"	30	silt	native	200	4	13	15	50	1	25	20	inveg
+WR	wepp-16189	"07:30 pm  Wednesday December 2, 2009"	"SAINT MARIES ID + +"	30	silt	native	200	4	13	15	50	1	25	20	inbare
+WR	wepp-16226	"07:32 pm  Wednesday December 2, 2009"	"SAINT MARIES ID + +"	30	silt	paved	200	4	13	15	50	1	25	20	inbare
+WR	wepp-16469	"07:56 pm  Wednesday December 2, 2009"	"SAINT MARIES ID + +"	30	silt	paved	200	4	13	15	50	20	25	20	inbare
+WR	wepp-16474	"07:57 pm  Wednesday December 2, 2009"	"SAINT MARIES ID + +"	30	silt	paved	200	4	13	15	50	40	25	20	inbare
+WR	wepp-16479	"07:58 pm  Wednesday December 2, 2009"	"SAINT MARIES ID + +"	30	silt	paved	200	4	13	15	50	60	25	20	inbare
+WR	wepp-16484	"07:58 pm  Wednesday December 2, 2009"	"SAINT MARIES ID + +"	30	silt	paved	200	4	13	15	50	80	25	20	inbare
+WR	wepp-16489	"07:58 pm  Wednesday December 2, 2009"	"SAINT MARIES ID + +"	30	silt	paved	200	4	13	15	50	95	25	20	inbare
+WR	wepp-16494	"07:58 pm  Wednesday December 2, 2009"	"SAINT MARIES ID + +"	30	silt	paved	200	4	13	15	50	100	25	20	inbare
+WR	wepp-16499	"07:59 pm  Wednesday December 2, 2009"	"SAINT MARIES ID + +"	30	silt	paved	200	4	13	15	50	96	25	20	inbare
+WR	wepp-16504	"07:59 pm  Wednesday December 2, 2009"	"SAINT MARIES ID + +"	30	silt	paved	200	4	13	15	50	97	25	20	inbare
+WR	wepp-16509	"07:59 pm  Wednesday December 2, 2009"	"SAINT MARIES ID + +"	30	silt	paved	200	4	13	15	50	96	25	20	inbare
+WR	wepp-16533	"08:00 pm  Wednesday December 2, 2009"	"SAINT MARIES ID + +"	30	silt	paved	200	4	13	15	50	97	25	20	inbare
+WR	wepp-16622	"08:06 pm  Wednesday December 2, 2009"	"SAINT MARIES ID + +"	30	silt	graveled	200	4	13	15	50	1	25	20	outunrut
+WD	wepp-16762	"08:29 pm  Wednesday December 2, 2009"	"SAINT MARIES ID + +"	30	silt	tree20	121.951219512195	0	30	100	20	tree20	22.8658536585366	30	5	100	20	0	ft	""
+WD	wepp-16816	"08:33 pm  Wednesday December 2, 2009"	"SAINT MARIES ID + +"	30	silt	tall	121.951219512195	0	30	60	20	tree20	22.8658536585366	30	5	100	20	0	ft	""
+WD	wepp-16849	"08:38 pm  Wednesday December 2, 2009"	"SAINT MARIES ID + +"	30	silt	tall	121.951219512195	0	30	60	20	tree20	9.14634146341463	30	5	100	20	0	ft	""
+WD	wepp-16881	"08:43 pm  Wednesday December 2, 2009"	"SAINT MARIES ID + +"	30	silt	high	121.951219512195	0	30	45	20	low	9.14634146341463	30	5	85	20	0	ft	""
+WD	wepp-16935	"08:47 pm  Wednesday December 2, 2009"	"SAINT MARIES ID + +"	30	silt	high	121.951219512195	0	30	45	20	low	9.14634146341463	30	5	85	20	0	ft	""
+WD	wepp-16942	"08:48 pm  Wednesday December 2, 2009"	"SAINT MARIES ID + +"	30	silt	high	121.951219512195	0	30	45	20	tree20	15.2439024390244	30	5	100	20	0	ft	""
+WD	wepp-16947	"08:48 pm  Wednesday December 2, 2009"	"SAINT MARIES ID + +"	30	silt	high	121.951219512195	0	30	45	20	tree20	14.9390243902439	30	5	100	20	0	ft	""
+WD	wepp-16952	"08:48 pm  Wednesday December 2, 2009"	"SAINT MARIES ID + +"	30	silt	high	121.951219512195	0	30	45	20	tree20	14.6341463414634	30	5	100	20	0	ft	""
+WD	wepp-16957	"08:48 pm  Wednesday December 2, 2009"	"SAINT MARIES ID + +"	30	silt	high	121.951219512195	0	30	45	20	tree20	14.6341463414634	30	5	100	20	0	ft	""
+WD	wepp-16962	"08:49 pm  Wednesday December 2, 2009"	"SAINT MARIES ID + +"	30	silt	high	121.951219512195	0	30	45	20	tree20	15.2439024390244	30	5	100	20	0	ft	""
+WD	wepp-16998	"08:53 pm  Wednesday December 2, 2009"	"SAINT MARIES ID + +"	30	silt	high	121.951219512195	0	30	45	20	high	22.8658536585366	30	5	45	20	0	ft	""
+WD	wepp-17034	"08:56 pm  Wednesday December 2, 2009"	"SAINT MARIES ID + +"	30	silt	high	121.951219512195	0	30	45	20	high	22.8658536585366	30	5	45	20	0	ft	""
+WD	wepp-9127	"12:11 pm  Tuesday November 15, 2011"	"SAINT MARIES ID + +"	10	silt	HighFire	400	0	30	45	20	LowFire	30	30	5	85	20	0	ft	""
+WD	wepp-9147	"12:12 pm  Tuesday November 15, 2011"	"SAINT MARIES ID + +"	20	silt	HighFire	400	0	30	45	20	LowFire	30	30	5	85	20	0	ft	""
+WD	wepp-9166	"12:13 pm  Tuesday November 15, 2011"	"SAINT MARIES ID + +"	20	silt	HighFire	400	0	30	45	20	LowFire	50	30	5	85	20	0	ft	""
+WD	wepp-9185	"12:13 pm  Tuesday November 15, 2011"	"SAINT MARIES ID + +"	20	silt	HighFire	400	0	30	45	20	LowFire	100	30	5	85	20	0	ft	""
+WD	wepp-9251	"12:15 pm  Tuesday November 15, 2011"	"SAINT MARIES ID + +"	20	silt	HighFire	400	0	30	45	20	LowFire	300	30	5	85	20	0	ft	""
+WD	wepp-9271	"12:15 pm  Tuesday November 15, 2011"	"SAINT MARIES ID + +"	20	silt	HighFire	400	0	30	45	20	LowFire	500	30	5	85	20	0	ft	""
+WD	wepp-9292	"12:15 pm  Tuesday November 15, 2011"	"SAINT MARIES ID + +"	20	silt	HighFire	400	0	30	45	20	LowFire	1200	30	5	85	20	0	ft	""
+WD	wepp-9346	"12:18 pm  Tuesday November 15, 2011"	"SAINT MARIES ID + +"	20	silt	OldForest	400	0	30	100	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-9468	"12:26 pm  Tuesday November 15, 2011"	"SAINT MARIES ID +"	10	silt	OldForest	400	0	30	100	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-9489	"12:26 pm  Tuesday November 15, 2011"	"SAINT MARIES ID +"	20	silt	OldForest	400	0	30	100	20	OldForest	75	30	5	100	20	0	ft	""
+WR	wepp-29328	"11:01 am  Wednesday November 16, 2011"	"SAINT MARIES ID 2 +"	30	silt	native	200	4	13	15	50	1	25	20	inveg	ft
+WR	wepp-29353	"11:03 am  Wednesday November 16, 2011"	"SAINT MARIES ID 2 +"	30	silt	native	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-29456	"11:04 am  Wednesday November 16, 2011"	"SAINT MARIES ID 2 +"	30	silt	paved	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-29525	"11:07 am  Wednesday November 16, 2011"	"SAINT MARIES ID 2 +"	30	silt	paved	200	4	13	15	50	5	25	20	inbare	ft
+WR	wepp-29550	"11:07 am  Wednesday November 16, 2011"	"SAINT MARIES ID 2 +"	30	silt	paved	200	4	13	15	50	30	25	20	inbare	ft
+WR	wepp-29558	"11:07 am  Wednesday November 16, 2011"	"SAINT MARIES ID 2 +"	30	silt	paved	200	4	13	15	50	50	25	20	inbare	ft
+WR	wepp-29564	"11:07 am  Wednesday November 16, 2011"	"SAINT MARIES ID 2 +"	30	silt	paved	200	4	13	15	50	57	25	20	inbare	ft
+WR	wepp-29570	"11:07 am  Wednesday November 16, 2011"	"SAINT MARIES ID 2 +"	30	silt	paved	200	4	13	15	50	53	25	20	inbare	ft
+WR	wepp-29576	"11:07 am  Wednesday November 16, 2011"	"SAINT MARIES ID 2 +"	30	silt	paved	200	4	13	15	50	53.5	25	20	inbare	ft
+WR	wepp-29582	"11:08 am  Wednesday November 16, 2011"	"SAINT MARIES ID 2 +"	30	silt	paved	200	4	13	15	50	55	25	20	inbare	ft
+WR	wepp-29618	"11:08 am  Wednesday November 16, 2011"	"SAINT MARIES ID 2 +"	30	silt	paved	200	4	13	15	50	52	25	20	inbare	ft
+WR	wepp-29624	"11:08 am  Wednesday November 16, 2011"	"SAINT MARIES ID 2 +"	30	silt	paved	200	4	13	15	50	52.5	25	20	inbare	ft
+WR	wepp-29630	"11:08 am  Wednesday November 16, 2011"	"SAINT MARIES ID 2 +"	30	silt	paved	200	4	13	15	50	52.3	25	20	inbare	ft
+WR	wepp-29656	"11:08 am  Wednesday November 16, 2011"	"SAINT MARIES ID 2 +"	30	silt	paved	200	4	13	15	50	52.7	25	20	inbare	ft
+WR	wepp-29662	"11:08 am  Wednesday November 16, 2011"	"SAINT MARIES ID 2 +"	30	silt	paved	200	4	13	15	50	52.6	25	20	inbare	ft
+WR	wepp-29711	"11:09 am  Wednesday November 16, 2011"	"SAINT MARIES ID 2 +"	30	silt	paved	200	4	13	15	50	52.67	25	20	inbare	ft
+WR	wepp-29716	"11:09 am  Wednesday November 16, 2011"	"SAINT MARIES ID 2 +"	30	silt	paved	200	4	13	15	50	52.69	25	20	inbare	ft
+WR	wepp-29768	"11:09 am  Wednesday November 16, 2011"	"SAINT MARIES ID 2 +"	30	silt	paved	200	4	13	15	50	52.8	25	20	inbare	ft
+WR	wepp-29793	"11:09 am  Wednesday November 16, 2011"	"SAINT MARIES ID 2 +"	30	silt	paved	200	4	13	15	50	52.66	25	20	inbare	ft
+WR	wepp-29798	"11:09 am  Wednesday November 16, 2011"	"SAINT MARIES ID 2 +"	30	silt	paved	200	4	13	15	50	52.5	25	20	inbare	ft
+WR	wepp-29808	"11:09 am  Wednesday November 16, 2011"	"SAINT MARIES ID 2 +"	30	silt	paved	200	4	13	15	50	52.6	25	20	inbare	ft
+WR	wepp-29818	"11:10 am  Wednesday November 16, 2011"	"SAINT MARIES ID 2 +"	30	silt	paved	200	4	13	15	50	52.55	25	20	inbare	ft
+WR	wepp-29823	"11:10 am  Wednesday November 16, 2011"	"SAINT MARIES ID 2 +"	30	silt	paved	200	4	13	15	50	52.555	25	20	inbare	ft
+WR	wepp-29857	"11:10 am  Wednesday November 16, 2011"	"SAINT MARIES ID 2 +"	30	silt	paved	200	4	13	15	50	52.53	25	20	inbare	ft
+WR	wepp-29869	"11:10 am  Wednesday November 16, 2011"	"SAINT MARIES ID 2 +"	30	silt	paved	200	4	13	15	50	52.54	25	20	inbare	ft
+WR	wepp-29988	"11:11 am  Wednesday November 16, 2011"	"SAINT MARIES ID 2 +"	30	silt	graveled	200	4	13	15	50	1	25	20	outrut	ft
+WR	wepp-30162	"11:14 am  Wednesday November 16, 2011"	"SAINT MARIES ID +"	30	silt	graveled	200	4	13	15	50	1	25	20	outrut	ft
+WD	wepp-30662	"11:20 am  Wednesday November 16, 2011"	"SAINT MARIES ID 2 +"	20	silt	OldForest	400	0	30	100	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-30844	"11:25 am  Wednesday November 16, 2011"	"SAINT MARIES ID 2 +"	20	silt	Bunchgrass	400	0	30	60	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-30912	"11:29 am  Wednesday November 16, 2011"	"SAINT MARIES ID 2 +"	20	silt	Bunchgrass	400	0	30	60	20	OldForest	30	30	5	100	20	0	ft	""
+WD	wepp-30961	"11:31 am  Wednesday November 16, 2011"	"SAINT MARIES ID 2 +"	20	silt	HighFire	400	0	30	45	20	LowFire	30	30	5	85	20	0	ft	""
+WD	wepp-31062	"11:37 am  Wednesday November 16, 2011"	"SAINT MARIES ID 2 +"	20	silt	HighFire	400	0	30	45	20	LowFire	5	30	5	85	20	0	ft	""
+WD	wepp-31082	"11:37 am  Wednesday November 16, 2011"	"SAINT MARIES ID 2 +"	20	silt	HighFire	400	0	30	45	20	LowFire	5	30	10	85	20	0	ft	""
+WD	wepp-31102	"11:37 am  Wednesday November 16, 2011"	"SAINT MARIES ID 2 +"	20	silt	HighFire	400	0	30	45	20	LowFire	5	30	75	85	20	0	ft	""
+WD	wepp-31126	"11:37 am  Wednesday November 16, 2011"	"SAINT MARIES ID 2 +"	20	silt	HighFire	400	0	30	45	20	LowFire	75	30	75	85	20	0	ft	""
+WD	wepp-31156	"11:38 am  Wednesday November 16, 2011"	"SAINT MARIES ID 2 +"	10	silt	HighFire	400	0	30	45	20	LowFire	50	30	5	85	20	0	ft	""
+WD	wepp-31176	"11:38 am  Wednesday November 16, 2011"	"SAINT MARIES ID 2 +"	10	silt	HighFire	400	0	30	45	20	LowFire	75	30	5	85	20	0	ft	""
+WD	wepp-31196	"11:38 am  Wednesday November 16, 2011"	"SAINT MARIES ID 2 +"	20	silt	HighFire	400	0	30	45	20	LowFire	75	30	5	85	20	0	ft	""
+WD	wepp-31228	"11:39 am  Wednesday November 16, 2011"	"SAINT MARIES ID 2 +"	20	silt	HighFire	400	0	30	45	20	LowFire	5	30	5	85	20	0	ft	""
+WD	wepp-31277	"11:40 am  Wednesday November 16, 2011"	"SAINT MARIES ID 2 +"	20	silt	HighFire	400	0	30	45	20	LowFire	15	30	5	85	20	0	ft	""
+WD	wepp-31297	"11:40 am  Wednesday November 16, 2011"	"SAINT MARIES ID 2 +"	20	silt	HighFire	400	0	30	45	20	LowFire	35	30	5	85	20	0	ft	""
+WD	wepp-31317	"11:40 am  Wednesday November 16, 2011"	"SAINT MARIES ID 2 +"	20	silt	HighFire	400	0	30	45	20	LowFire	5	30	5	85	20	0	ft	""
+WD	wepp-31337	"11:40 am  Wednesday November 16, 2011"	"SAINT MARIES ID 2 +"	20	silt	HighFire	400	0	30	45	20	LowFire	15	30	5	85	20	0	ft	""
+WD	wepp-31357	"11:40 am  Wednesday November 16, 2011"	"SAINT MARIES ID 2 +"	20	silt	HighFire	400	0	30	45	20	LowFire	35	30	5	85	20	0	ft	""
+WD	wepp-31380	"11:40 am  Wednesday November 16, 2011"	"SAINT MARIES ID 2 +"	20	silt	HighFire	400	0	30	45	20	LowFire	1.5	30	5	85	20	0	ft	""
+WD	wepp-31457	"11:41 am  Wednesday November 16, 2011"	"SAINT MARIES ID 2 +"	20	silt	HighFire	400	0	30	45	20	LowFire	1.5	30	5	85	20	0	ft	""
+WD	wepp-31539	"11:44 am  Wednesday November 16, 2011"	"SAINT MARIES ID 2 +"	20	silt	HighFire	400	0	30	45	20	HighFire	30	30	5	45	20	0	ft	""
+WD	wepp-31639	"11:46 am  Wednesday November 16, 2011"	"SAINT MARIES ID 2 +"	20	silt	HighFire	400	0	30	45	20	HighFire	75	30	5	45	20	0	ft	""

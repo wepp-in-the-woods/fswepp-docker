@@ -1,0 +1,36 @@
+WE	wepp-127954	"05:02 pm  Tuesday September 1, 2020"	"SONORA CA +"	loam	20	forest	20	25	30	250	l			ft
+WE	wepp-128110	"05:07 pm  Tuesday September 1, 2020"	"SONORA CA +"	loam	20	forest	20	25	30	250	u			ft
+WE	wepp-128261	"05:11 pm  Tuesday September 1, 2020"	"SONORA CA +"	loam	20	forest	20	25	30	250	l			ft
+WE	wepp-128404	"05:14 pm  Tuesday September 1, 2020"	"SONORA CA +"	loam	20	range	20	25	30	250	l	45	55	ft
+WE	wepp-128592	"05:15 pm  Tuesday September 1, 2020"	"SONORA CA +"	loam	20	range	20	25	30	250	u	45	55	ft
+WE	wepp-128659	"05:16 pm  Tuesday September 1, 2020"	"SONORA CA +"	loam	20	range	20	25	30	250	u	55	45	ft
+WE	wepp-128921	"05:33 pm  Tuesday September 1, 2020"	"SONORA CA +"	loam	20	range	20	25	30	250	l	50	48	ft
+WD	wepp-129322	"05:44 pm  Tuesday September 1, 2020"	"SONORA CA +"	100	loam	YoungForest	100	20	25	85	20	YoungForest	150	28	30	85	20	0	ft	""
+WE	wepp-129388	"05:47 pm  Tuesday September 1, 2020"	"SONORA CA +"	loam	15	forest	15	25	30	251	l			ft
+WE	wepp-182455	"11:31 am  Thursday September 3, 2020"	"SONORA CA +"	loam	25	range	15	20	28	200	l	55	41	ft
+WE	wepp-184402	"01:55 pm  Thursday September 3, 2020"	"SONORA CA +"	loam	25	range	15	20	10	200	l	55	41	ft
+WE	wepp-184537	"01:58 pm  Thursday September 3, 2020"	"SONORA CA +"	loam	25	range	15	30	10	190	l	55	41	ft
+WE	wepp-184676	"01:59 pm  Thursday September 3, 2020"	"SONORA CA +"	loam	25	range	10	30	5	200	l	55	41	ft
+WE	wepp-184990	"02:13 pm  Thursday September 3, 2020"	"SONORA CA +"	loam	25	range	10	45	5	200	l	55	41	ft
+WD	wepp-157118	"02:02 pm  Friday September 11, 2020"	"SONORA CA +"	100	loam	HighFire	1000	60	50	45	20	LowFire	1000	30	10	45	20	0	ft	""
+WD	wepp-157710	"02:05 pm  Friday September 11, 2020"	"SONORA CA +"	100	loam	LowFire	200	20	30	85	20	LowFire	300	40	45	45	20	0	ft	""
+WD	wepp-157766	"02:07 pm  Friday September 11, 2020"	"SONORA CA +"	100	loam	HighFire	1000	60	45	40	20	LowFire	1000	40	20	45	20	0	ft	""
+WD	wepp-196225	"12:40 pm  Friday October 9, 2020"	"NEWARK CA +"	100	loam	HighFire	400	35	38	45	10	HighFire	50	38	80	45	10	0	ft	"subbnw"
+WD	wepp-196501	"12:53 pm  Friday October 9, 2020"	"NEWARK CA +"	100	loam	HighFire	400	35	38	20	10	HighFire	50	38	80	20	10	0	ft	"subbnw"
+WD	wepp-196559	"12:55 pm  Friday October 9, 2020"	"NEWARK CA +"	100	loam	HighFire	400	35	38	20	10	HighFire	100	38	80	20	10	0	ft	"subbnw"
+WD	wepp-196662	"12:59 pm  Friday October 9, 2020"	"NEWARK CA +"	100	loam	HighFire	75	80	80	20	10	HighFire	80	80	80	20	10	0	ft	"subbnw"
+WD	wepp-196717	"01:02 pm  Friday October 9, 2020"	"NEWARK CA +"	100	loam	HighFire	250	80	80	20	10	HighFire	260	100	100	20	10	0	ft	"subbnw"
+WE	wepp-196796	"01:06 pm  Friday October 9, 2020"	"NEWARK CA +"	loam	10	range	20	40	80	550	h	35	57	ft
+WE	wepp-197067	"01:09 pm  Friday October 9, 2020"	"NEWARK CA +"	loam	10	range	80	80	100	560	h	35	57	ft
+WE	wepp-72754	"02:10 pm  Monday November 23, 2020"	""		5	range	71.65	53.09	9.86	300	l			m
+WE	wepp-73993	"02:46 pm  Monday November 23, 2020"	""		5	range	71.65	53.09	9.86	300	l	15	75	m
+WR	wepp-24033	"04:35 pm  Thursday April 15, 2021"	"SONORA CA +"	30	sand	native	400	6	13	15	50	88	18	20	inbare	ft
+WR	wepp-24219	"04:42 pm  Thursday April 15, 2021"	"SONORA CA +"	30	sand	native	150	6	13	15	50	88	18	20	inbare	ft
+WR	wepp-24267	"04:42 pm  Thursday April 15, 2021"	"SONORA CA +"	30	sand	native	150	6	13	10	50	88	18	20	inbare	ft
+WR	wepp-24541	"04:56 pm  Thursday April 15, 2021"	"SONORA CA +"	30	sand	native	200	8	13	10	50	100	15	20	inveg	ft
+WR	wepp-24579	"04:57 pm  Thursday April 15, 2021"	"SONORA CA +"	30	sand	native	200	8	13	10	50	100	15	20	inbare	ft
+WR	wepp-24696	"05:03 pm  Thursday April 15, 2021"	"SONORA CA +"	30	sand	native	175	8	13	10	50	100	15	20	inbare	ft
+WR	wepp-24732	"05:04 pm  Thursday April 15, 2021"	"SONORA CA +"	30	sand	native	150	8	13	10	50	100	15	20	inbare	ft
+WR	wepp-24781	"05:04 pm  Thursday April 15, 2021"	"SONORA CA +"	30	clay	native	200	4	13	15	50	150	25	20	inveg	ft
+WR	wepp-24826	"05:05 pm  Thursday April 15, 2021"	"SONORA CA +"	30	sand	native	200	4	13	15	50	150	25	20	inbare	ft
+WR	wepp-24866	"05:06 pm  Thursday April 15, 2021"	"SONORA CA +"	30	sand	native	200	8	13	10	50	150	15	20	inbare	ft

@@ -1,0 +1,13 @@
+WR	wepp-134195	"03:04 pm  Monday May 4, 2020"	"SAINT MARIES ID - j +"	30	silt	graveled	200	4	13	15	50	1	25	20	inveg	ft
+WR	wepp-134467	"03:08 pm  Monday May 4, 2020"	"SAINT MARIES ID - j +"	30	silt	graveled	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-134577	"03:09 pm  Monday May 4, 2020"	"SAINT MARIES ID - j +"	30	silt	paved	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-134650	"03:09 pm  Monday May 4, 2020"	"SAINT MARIES ID - j +"	30	silt	graveled	200	4	13	15	50	1	25	20	outunrut	ft
+WR	wepp-134833	"03:12 pm  Monday May 4, 2020"	"SAINT MARIES ID - j +"	30	silt	paved	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-136688	"03:53 pm  Monday May 4, 2020"	"SAINT MARIES ID - j +"	30	silt	paved	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-137146	"04:02 pm  Monday May 4, 2020"	"SAINT MARIES ID +"	30	silt	graveled	200	4	13	15	50	1	25	20	inveg	ft
+WD	wepp-151097	"09:35 pm  Monday May 4, 2020"	"SAINT MARIES ID - j +"	10	silt	OldForest	400	0	30	100	20	OldForest	75	30	5	100	20	0	ft	"A"
+WD	wepp-151152	"09:37 pm  Monday May 4, 2020"	"SAINT MARIES ID - j +"	10	silt	Sod	400	0	30	40	20	OldForest	75	30	5	100	20	0	ft	"B"
+WD	wepp-151189	"09:38 pm  Monday May 4, 2020"	"SAINT MARIES ID - j +"	10	silt	Sod	400	0	30	40	20	OldForest	30	30	5	100	20	0	ft	"B"
+WD	wepp-151312	"09:41 pm  Monday May 4, 2020"	"SAINT MARIES ID - j +"	10	silt	Sod	400	0	30	40	20	OldForest	75	30	5	100	20	0	ft	"B"
+WD	wepp-151385	"09:43 pm  Monday May 4, 2020"	"SAINT MARIES ID - j +"	10	silt	LowFire	400	0	30	85	20	LowFire	75	30	5	85	20	0	ft	"B"
+WD	wepp-151501	"09:45 pm  Monday May 4, 2020"	"MOSCOW U OF I ID"	10	silt	HighFire	400	0	30	45	20	HighFire	75	30	5	45	20	0	ft	"B"

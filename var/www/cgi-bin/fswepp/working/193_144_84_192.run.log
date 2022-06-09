@@ -1,0 +1,34 @@
+WE	wepp-138388	"09:24 am  Monday October 29, 2018"	"Orense, Spain + +"	clay	20	forest	0	50	30	100	l			m
+WD	wepp-106233	"01:05 am  Monday November 4, 2019"	"AILEY GA"	10	clay	OldForest	50	0	30	100	20	OldForest	50	30	5	100	20	0	m	""
+WD	wepp-106683	"01:26 am  Monday November 4, 2019"	"Becerral, Spain (trial noPP) +"	10	loam	shrub	50	20	20	70	10	shrub	50	20	20	70	10	0	m	""
+WD	wepp-106723	"01:29 am  Monday November 4, 2019"	"Becerral, Spain (trial noPP) +"	10	loam	shrub	50	20	20	70	10	shrub	50	20	20	70	10	0	m	""
+WD	wepp-106850	"01:33 am  Monday November 4, 2019"	"Becerral, Spain (trial noPP) +"	10	loam	shrub	50	20	20	70	10	shrub	50	20	20	70	10	0	m	"Precipitations are the same as in Orense; temperature was adjusted for elevation by lapse rate. Soil"
+WD	wepp-106930	"01:38 am  Monday November 4, 2019"	"Becerral, Spain (trial noPP) +"	10	loam	high	50	20	20	15	40	high	50	20	20	15	40	0	m	"Precipitations are the same as in Orense; temperature was adjusted for elevation by lapse rate. Soil"
+WD	wepp-107189	"01:47 am  Monday November 4, 2019"	"Becerral, Spain (trial noPP) +"	10	loam	low	50	20	20	70	20	low	50	20	20	70	20	0	m	"Precipitations are the same as in Orense; temperature was adjusted for elevation by lapse rate. Soil"
+WD	wepp-107294	"01:52 am  Monday November 4, 2019"	"Becerral, Spain (trial noPP) +"	10	loam	high	50	20	20	70	30	high	50	20	20	70	30	0	m	"Precipitations are the same as in Orense; temperature was adjusted for elevation by lapse rate. Soil"
+WD	wepp-107317	"01:55 am  Monday November 4, 2019"	"Becerral, Spain (trial noPP) +"	10	loam	low	50	20	20	90	10	low	50	20	20	90	10	0	m	"Precipitations are the same as in Orense; temperature was adjusted for elevation by lapse rate. Soil"
+WD	wepp-107348	"01:57 am  Monday November 4, 2019"	"Becerral, Spain (trial noPP) +"	10	clay	Shrub	50	30	30	75	10	Shrub	50	30	30	75	10	0	m	""
+WD	wepp-107598	"02:06 am  Monday November 4, 2019"	"Becerral, Spain (trial noPP) +"	10	loam	high	50	20	20	70	30	tree5	50	20	20	100	10	0	m	"Precipitations are the same as in Orense; temperature was adjusted for elevation by lapse rate. Soil"
+WD	wepp-107604	"02:06 am  Monday November 4, 2019"	"Becerral, Spain (trial noPP) + +"	10	clay	Bunchgrass	50	30	30	75	10	OldForest	50	30	30	75	10	0	m	""
+WD	wepp-107640	"02:06 am  Monday November 4, 2019"	"Becerral, Spain (trial noPP) + +"	10	clay	Bunchgrass	50	30	30	75	10	Bunchgrass	50	30	30	75	10	0	m	""
+WD	wepp-107775	"02:09 am  Monday November 4, 2019"	"Becerral, Spain (trial noPP) +"	10	loam	high	50	20	20	70	30	tall	50	20	20	90	10	0	m	"Precipitations are the same as in Orense; temperature was adjusted for elevation by lapse rate. Soil"
+WD	wepp-107845	"02:11 am  Monday November 4, 2019"	"Becerral, Spain (trial noPP) + +"	10	clay	HighFire	50	30	30	45	10	OldForest	50	30	5	45	10	0	ft	""
+WD	wepp-107919	"02:14 am  Monday November 4, 2019"	"Becerral, Spain (trial noPP) +"	10	loam	high	50	20	20	70	30	skid	50	20	20	10	10	0	m	"Precipitations are the same as in Orense; temperature was adjusted for elevation by lapse rate. Soil"
+WD	wepp-107927	"02:15 am  Monday November 4, 2019"	"Becerral, Spain (trial noPP) + +"	10	clay	HighFire	50	30	30	45	10	HighFire	50	30	30	45	10	0	m	""
+WD	wepp-107971	"02:15 am  Monday November 4, 2019"	"Becerral, Spain (trial noPP) +"	10	loam	high	50	20	20	70	30	shrub	50	20	20	75	10	0	m	"Precipitations are the same as in Orense; temperature was adjusted for elevation by lapse rate. Soil"
+WD	wepp-107983	"02:17 am  Monday November 4, 2019"	"Becerral, Spain (trial noPP) +"	10	loam	high	50	20	20	70	30	tree5	50	20	20	100	10	0	m	"Precipitations are the same as in Orense; temperature was adjusted for elevation by lapse rate. Soil"
+WD	wepp-107992	"02:17 am  Monday November 4, 2019"	"Becerral, Spain (trial noPP) +"	10	loam	high	50	20	20	70	30	tree20	50	20	20	100	10	0	m	"Precipitations are the same as in Orense; temperature was adjusted for elevation by lapse rate. Soil"
+WD	wepp-108000	"02:17 am  Monday November 4, 2019"	"Becerral, Spain (trial noPP) +"	10	loam	high	50	20	20	70	30	tree20	50	20	20	100	10	0	m	"Precipitations are the same as in Orense; temperature was adjusted for elevation by lapse rate. Soil"
+WD	wepp-108085	"02:20 am  Monday November 4, 2019"	"Becerral, Spain (trial noPP) +"	10	clay	Bunchgrass	50	10	10	80	15	Bunchgrass	50	10	10	80	15	0	m	""
+WD	wepp-108131	"02:20 am  Monday November 4, 2019"	"Becerral, Spain (trial noPP) +"	10	clay	Shrub	50	10	10	80	15	Shrub	50	10	10	80	15	0	m	""
+WD	wepp-108223	"02:23 am  Monday November 4, 2019"	"Becerral, Spain (trial noPP) + +"	10	clay	OldForest	50	10	10	95	5	Shrub	50	10	10	95	5	0	m	""
+WD	wepp-108275	"02:25 am  Monday November 4, 2019"	"Becerral, Spain (trial noPP) + +"	10	clay	Shrub	50	10	10	80	5	Shrub	50	10	10	95	5	0	m	""
+WD	wepp-108323	"02:27 am  Monday November 4, 2019"	"Becerral, Spain (trial noPP) + +"	30	loam	shrub	50	20	20	95	10	tree5	50	20	20	95	10	0	m	""
+WE	wepp-108927	"03:04 am  Monday November 4, 2019"	"Becerral, Spain (trial noPP) + +"	clay	20	chap	5	20	20	100	h	75	15	m
+WE	wepp-109167	"03:07 am  Monday November 4, 2019"	"Becerral, Spain (trial noPP) + +"	clay	20	forest	0	50	30	300	l			ft
+WE	wepp-109535	"03:18 am  Monday November 4, 2019"	"Becerral, Spain (trial noPP) + +"	clay	5	forest	0	30	10	50	m			m
+WE	wepp-110083	"03:39 am  Monday November 4, 2019"	"Becerral, Spain (trial noPP) + +"	clay	5	chap	0	10	5	100	l	80	0	m
+WE	wepp-110224	"03:40 am  Monday November 4, 2019"	"Becerral, Spain (trial noPP) + +"	clay	20	forest	5	20	20	100	h			m
+WE	wepp-110485	"03:40 am  Monday November 4, 2019"	"Becerral, Spain (trial noPP) + +"	clay	5	chap	20	50	30	100	l	80	0	m
+WE	wepp-110640	"03:42 am  Monday November 4, 2019"	"Becerral, Spain (trial noPP) + +"	clay	20	chap	0	20	10	100	l	80	0	m
+WE	wepp-110796	"03:46 am  Monday November 4, 2019"	"Becerral, Spain (trial noPP) + +"	clay	20	range	5	20	20	100	h	15	75	m

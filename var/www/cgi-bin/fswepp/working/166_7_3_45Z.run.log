@@ -1,0 +1,16 @@
+WR	wepp-21410	"10:32 am  Thursday April 17, 2014"	"OR Gulch +"	50	silt	native	250	13	13	1	50	1	25	40	outrut	ft
+WR	wepp-21626	"10:35 am  Thursday April 17, 2014"	"OR Gulch +"	50	silt	native	250	13	13	1	50	1	25	40	outrut	ft
+WR	wepp-21653	"10:35 am  Thursday April 17, 2014"	"OR Gulch +"	50	silt	native	250	13	13	1	50	1	25	40	outunrut	ft
+WR	wepp-21696	"10:36 am  Thursday April 17, 2014"	"OR Gulch +"	50	silt	native	250	13	13	1	50	1	25	40	outrut	ft
+WR	wepp-21735	"10:36 am  Thursday April 17, 2014"	"OR Gulch +"	50	silt	graveled	250	13	13	1	50	1	25	40	inbare	ft
+WR	wepp-24805	"10:40 am  Thursday April 17, 2014"	"OR Gulch +"	50	silt	graveled	250	13	13	1	50	1	25	40	inveg	ft
+WR	wepp-25071	"10:42 am  Thursday April 17, 2014"	"OR Gulch +"	50	silt	paved	250	13	13	1	50	1	25	40	inveg	ft
+WR	wepp-25454	"10:46 am  Thursday April 17, 2014"	"OR Gulch +"	50	silt	graveled	220	13	13	10	50	30	25	40	inveg	ft
+WR	wepp-26090	"10:47 am  Thursday April 17, 2014"	"OR Gulch +"	50	silt	graveled	30	13	5	1	50	1	25	40	inveg	ft
+WR	wepp-21976	"12:18 pm  Thursday April 17, 2014"	"OR Gulch +"	30	clay	native	200	4	13	15	50	130	25	20	inveg	ft
+WD	wepp-26059	"12:34 pm  Thursday April 17, 2014"	"OR Gulch +"	50	silt	OldForest	576	48	44	100	40	OldForest	100	44	33	100	40	0	ft	""
+WD	wepp-32162	"12:51 pm  Thursday April 17, 2014"	"OR Gulch +"	50	silt	Shrub	576	48	44	80	40	OldForest	100	44	33	100	40	0	ft	""
+WD	wepp-3464	"01:05 pm  Thursday April 17, 2014"	"OR Gulch +"	50	silt	YoungForest	576	48	44	92	40	OldForest	100	44	33	100	40	0	ft	""
+WD	wepp-6646	"01:09 pm  Thursday April 17, 2014"	"OR Gulch +"	50	silt	LowFire	576	48	44	85	40	OldForest	100	44	33	100	40	0	ft	""
+WD	wepp-8757	"01:18 pm  Thursday April 17, 2014"	"OR Gulch +"	50	silt	HighFire	576	48	44	40	40	LowFire	100	44	33	60	40	0	ft	""
+WD	wepp-10185	"01:23 pm  Thursday April 17, 2014"	"OR Gulch +"	50	silt	LowFire	576	48	44	85	40	LowFire	100	44	33	85	40	0	ft	""

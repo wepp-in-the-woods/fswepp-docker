@@ -1,0 +1,65 @@
+WR	wepp-48833	"12:32 pm  Tuesday March 10, 2015"	"MOSCOW U OF I ID"	30	silt	native	1000	4	25	15	35	300	25	10	inveg	ft
+WR	wepp-48997	"12:34 pm  Tuesday March 10, 2015"	"MOSCOW U OF I ID"	30	silt	graveled	1000	4	25	15	35	300	25	10	inveg	ft
+WR	wepp-49084	"12:35 pm  Tuesday March 10, 2015"	"MOSCOW U OF I ID"	30	silt	paved	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-49231	"12:37 pm  Tuesday March 10, 2015"	"MOSCOW U OF I ID"	30	silt	native	1000	4	25	15	30	500	25	10	inveg	ft
+WR	wepp-49318	"12:37 pm  Tuesday March 10, 2015"	"MOSCOW U OF I ID"	30	silt	native	1000	4	25	15	30	500	25	10	inveg	ft
+WR	wepp-49570	"12:40 pm  Tuesday March 10, 2015"	"MOSCOW U OF I ID"	30	silt	graveled	1000	4	25	15	30	500	25	10	inveg	ft
+WR	wepp-49700	"12:41 pm  Tuesday March 10, 2015"	"MOSCOW U OF I ID"	30	silt	paved	1000	4	25	15	30	500	25	10	inveg	ft
+WR	wepp-49875	"12:42 pm  Tuesday March 10, 2015"	"MOSCOW U OF I ID"	30	silt	paved	1000	4	25	15	30	500	25	10	inveg	ft
+WR	wepp-50007	"12:43 pm  Tuesday March 10, 2015"	"MOSCOW U OF I ID"	30	silt	graveled	1000	4	25	15	30	500	25	10	inveg	ft
+WR	wepp-50086	"12:44 pm  Tuesday March 10, 2015"	"MOSCOW U OF I ID"	30	silt	native	1000	4	25	15	30	500	25	10	inveg	ft
+WR	wepp-51365	"12:57 pm  Tuesday March 10, 2015"	"MOSCOW U OF I ID"	30	silt	native	200	4	13	15	50	130	25	20	inbare	ft
+WR	wepp-51435	"12:58 pm  Tuesday March 10, 2015"	"MOSCOW U OF I ID"	30	silt	graveled	200	4	13	15	50	130	25	20	inbare	ft
+WR	wepp-51505	"12:59 pm  Tuesday March 10, 2015"	"MOSCOW U OF I ID"	30	silt	paved	200	4	13	15	50	130	25	20	inbare	ft
+WR	wepp-51614	"01:00 pm  Tuesday March 10, 2015"	"MOSCOW U OF I ID"	30	silt	paved	200	4	13	15	50	130	25	20	inbare	ft
+WR	wepp-51703	"01:00 pm  Tuesday March 10, 2015"	"MOSCOW U OF I ID"	30	silt	graveled	200	4	13	15	50	130	25	20	inbare	ft
+WR	wepp-51769	"01:01 pm  Tuesday March 10, 2015"	"MOSCOW U OF I ID"	30	silt	native	200	4	13	15	50	130	25	20	inbare	ft
+WR	wepp-51868	"01:02 pm  Tuesday March 10, 2015"	"MOSCOW U OF I ID"	30	silt	graveled	200	4	13	15	50	300	25	20	inbare	ft
+WR	wepp-51942	"01:03 pm  Tuesday March 10, 2015"	"MOSCOW U OF I ID"	30	silt	graveled	200	4	13	15	50	500	25	20	inbare	ft
+WR	wepp-52219	"01:08 pm  Tuesday March 10, 2015"	"MOSCOW U OF I ID"	30	silt	graveled	200	4	13	15	50	5	25	20	inbare	ft
+WR	wepp-52543	"01:15 pm  Tuesday March 10, 2015"	"MOSCOW U OF I ID"	30	silt	graveled	200	4	13	15	50	5	25	20	inbare	ft
+WR	wepp-52616	"01:16 pm  Tuesday March 10, 2015"	"MOSCOW U OF I ID"	30	silt	graveled	200	4	13	15	50	300	25	20	inbare	ft
+WR	wepp-52789	"01:20 pm  Tuesday March 10, 2015"	"MOSCOW U OF I ID"	30	silt	native	200	8	13	15	50	300	25	10	outrut	ft
+WR	wepp-52863	"01:21 pm  Tuesday March 10, 2015"	"MOSCOW U OF I ID"	30	silt	native	200	8	13	15	50	300	25	10	outunrut	ft
+WR	wepp-52953	"01:23 pm  Tuesday March 10, 2015"	"MOSCOW U OF I ID"	30	silt	native	200	8	13	15	50	300	25	5	outunrut	ft
+WR	wepp-53077	"01:25 pm  Tuesday March 10, 2015"	"MOSCOW U OF I ID"	30	silt	native	100	8	13	15	35	300	25	1	outunrut	ft
+WR	wepp-53305	"01:30 pm  Tuesday March 10, 2015"	"FENN RS ID +"	30	silt	native	200	8	13	15	50	300	25	1	outunrut	ft
+WD	wepp-53414	"01:32 pm  Tuesday March 10, 2015"	"MOSCOW U OF I ID"	30	silt	LowFire	200	0	30	85	20	OldForest	150	30	5	100	20	0	ft	""
+WD	wepp-53478	"01:33 pm  Tuesday March 10, 2015"	"MOSCOW U OF I ID"	30	silt	YoungForest	200	0	30	100	20	OldForest	150	30	5	100	20	0	ft	""
+WD	wepp-53695	"01:49 pm  Tuesday March 10, 2015"	"Clear Creek +"	10	silt	LowFire	200	0	30	50	5	OldForest	150	30	5	100	20	0	ft	""
+WD	wepp-53747	"01:50 pm  Tuesday March 10, 2015"	"Clear Creek +"	10	silt	LowFire	200	0	40	15	5	OldForest	150	40	5	100	20	0	ft	""
+WD	wepp-53805	"01:51 pm  Tuesday March 10, 2015"	"Clear Creek +"	10	silt	LowFire	500	0	40	15	5	OldForest	150	40	5	100	5	0	ft	""
+WD	wepp-53848	"01:52 pm  Tuesday March 10, 2015"	"Clear Creek +"	10	silt	LowFire	300	0	40	15	5	OldForest	150	40	5	100	5	0	ft	""
+WD	wepp-53941	"01:55 pm  Tuesday March 10, 2015"	"Clear Creek +"	30	silt	LowFire	300	0	40	25	5	OldForest	150	40	5	100	5	0	ft	"regen unit 40% slope"
+WD	wepp-54197	"01:55 pm  Tuesday March 10, 2015"	"Clear Creek +"	30	silt	LowFire	300	0	40	60	5	OldForest	150	40	5	100	5	0	ft	"regen unit 40% slope"
+WD	wepp-54246	"01:56 pm  Tuesday March 10, 2015"	"Clear Creek +"	30	silt	LowFire	300	0	40	85	5	OldForest	150	40	5	100	5	0	ft	"regen unit 40% slope"
+WD	wepp-54360	"01:59 pm  Tuesday March 10, 2015"	"Clear Creek +"	30	silt	Skid	25	0	40	5	5	OldForest	150	40	5	100	5	0	ft	"skid trail 40% slope"
+WD	wepp-54456	"02:01 pm  Tuesday March 10, 2015"	"Clear Creek +"	30	silt	Skid	25	0	30	5	5	OldForest	50	30	5	100	5	0	ft	"skid trail "
+WD	wepp-54528	"02:02 pm  Tuesday March 10, 2015"	"Clear Creek +"	30	silt	Skid	25	0	30	5	5	OldForest	150	30	5	100	5	0	ft	"skid trail "
+WD	wepp-54559	"02:02 pm  Tuesday March 10, 2015"	"Clear Creek +"	30	silt	Skid	25	0	30	5	5	OldForest	150	30	5	100	5	0	ft	"skid trail "
+WD	wepp-54571	"02:02 pm  Tuesday March 10, 2015"	"Clear Creek +"	30	silt	Skid	25	0	30	5	5	OldForest	200	30	5	100	5	0	ft	"skid trail "
+WD	wepp-54610	"02:03 pm  Tuesday March 10, 2015"	"Clear Creek +"	30	silt	Skid	25	0	30	5	5	OldForest	150	30	5	100	5	0	ft	"skid trail "
+WD	wepp-54649	"02:04 pm  Tuesday March 10, 2015"	"Clear Creek +"	30	silt	YoungForest	300	0	40	100	5	OldForest	150	40	5	100	5	0	ft	"commercial thin 40% slope"
+WD	wepp-54735	"02:05 pm  Tuesday March 10, 2015"	"Clear Creek +"	30	silt	OldForest	300	0	40	100	5	OldForest	150	40	5	100	5	0	ft	"commercial thin 40% slope"
+WD	wepp-54772	"02:06 pm  Tuesday March 10, 2015"	"Clear Creek +"	30	silt	OldForest	300	0	40	100	5	OldForest	150	40	5	100	5	0	ft	"No harvest"
+WR	wepp-54848	"02:08 pm  Tuesday March 10, 2015"	"Clear Creek +"	30	silt	native	200	4	13	15	50	130	25	5	inbare	ft
+WR	wepp-54897	"02:09 pm  Tuesday March 10, 2015"	"Clear Creek +"	30	silt	graveled	200	4	13	15	50	130	25	5	inbare	ft
+WR	wepp-54992	"02:10 pm  Tuesday March 10, 2015"	"Clear Creek +"	30	silt	paved	200	4	13	15	50	130	25	5	inbare	ft
+WR	wepp-55028	"02:10 pm  Tuesday March 10, 2015"	"Clear Creek +"	30	silt	native	200	4	13	15	50	130	25	5	inbare	ft
+WR	wepp-55066	"02:11 pm  Tuesday March 10, 2015"	"Clear Creek +"	30	silt	graveled	200	4	13	15	50	130	25	5	inbare	ft
+WR	wepp-55103	"02:11 pm  Tuesday March 10, 2015"	"Clear Creek +"	30	silt	paved	200	4	13	15	50	130	25	5	inbare	ft
+WR	wepp-55142	"02:12 pm  Tuesday March 10, 2015"	"Clear Creek +"	30	silt	native	100	8	15	15	30	150	25	20	outrut	ft
+WR	wepp-55180	"02:13 pm  Tuesday March 10, 2015"	"Clear Creek +"	30	silt	native	100	8	15	15	30	300	25	20	outrut	ft
+WR	wepp-55236	"02:15 pm  Tuesday March 10, 2015"	"Clear Creek +"	30	silt	native	100	8	15	15	30	300	25	5	outunrut	ft
+WR	wepp-55316	"02:18 pm  Tuesday March 10, 2015"	"Clear Creek +"	30	silt	native	100	8	15	15	30	130	25	5	outrut	ft
+WR	wepp-55327	"02:19 pm  Tuesday March 10, 2015"	"Clear Creek +"	30	silt	native	200	4	13	15	50	130	25	20	inbare	ft
+WR	wepp-55380	"02:20 pm  Tuesday March 10, 2015"	"Clear Creek +"	30	silt	graveled	200	4	13	15	50	130	25	20	inbare	ft
+WR	wepp-55427	"02:21 pm  Tuesday March 10, 2015"	"Clear Creek +"	30	silt	paved	200	4	13	15	50	130	25	20	inbare	ft
+WR	wepp-55469	"02:21 pm  Tuesday March 10, 2015"	"Clear Creek +"	30	silt	native	200	4	13	15	50	130	25	20	inbare	ft
+WR	wepp-55511	"02:22 pm  Tuesday March 10, 2015"	"Clear Creek +"	30	silt	graveled	200	4	13	15	50	130	25	20	inbare	ft
+WR	wepp-55554	"02:22 pm  Tuesday March 10, 2015"	"Clear Creek +"	30	silt	paved	200	4	13	15	50	130	25	20	inbare	ft
+WR	wepp-55597	"02:22 pm  Tuesday March 10, 2015"	"Clear Creek +"	30	silt	native	200	4	13	15	50	130	25	20	inbare	ft
+WR	wepp-55658	"02:24 pm  Tuesday March 10, 2015"	"Clear Creek +"	30	silt	native	100	8	15	15	30	150	25	20	outrut	ft
+WR	wepp-55695	"02:24 pm  Tuesday March 10, 2015"	"Clear Creek +"	30	silt	native	100	8	15	15	30	150	25	20	outunrut	ft
+WR	wepp-55745	"02:25 pm  Tuesday March 10, 2015"	"Clear Creek +"	30	silt	graveled	200	4	13	15	50	400	25	20	inbare	ft
+WR	wepp-55785	"02:26 pm  Tuesday March 10, 2015"	"Clear Creek +"	30	silt	graveled	200	4	13	15	50	5	25	20	inbare	ft

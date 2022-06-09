@@ -1,0 +1,15 @@
+WR	wepp-28001	"03:33 pm  Wednesday April 30, 2014"	"Mica Creek Watershed +"	30	silt	native	200	4	13	15	50	1	25	20	inveg	ft
+WR	wepp-28067	"03:35 pm  Wednesday April 30, 2014"	"Mica Creek Watershed +"	30	silt	native	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-28141	"03:35 pm  Wednesday April 30, 2014"	"Mica Creek Watershed +"	30	silt	paved	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-31073	"03:39 pm  Wednesday April 30, 2014"	"Mica Creek Watershed +"	30	silt	paved	200	4	13	15	50	5	25	20	inbare	ft
+WR	wepp-31145	"03:40 pm  Wednesday April 30, 2014"	"Mica Creek Watershed +"	30	silt	paved	200	4	13	15	50	20	25	20	inbare	ft
+WR	wepp-31190	"03:40 pm  Wednesday April 30, 2014"	"Mica Creek Watershed +"	30	silt	paved	200	4	13	15	50	50	25	20	inbare	ft
+WR	wepp-31238	"03:41 pm  Wednesday April 30, 2014"	"Mica Creek Watershed +"	30	silt	graveled	200	4	13	15	50	1	25	20	outunrut	ft
+WD	wepp-2226	"03:52 pm  Wednesday April 30, 2014"	"Mica Creek Watershed +"	20	silt	OldForest	50	0	30	100	20	OldForest	50	30	5	100	20	0	ft	""
+WD	wepp-2266	"03:53 pm  Wednesday April 30, 2014"	"Mica Creek Watershed +"	20	silt	OldForest	400	0	30	100	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-2331	"03:55 pm  Wednesday April 30, 2014"	"Mica Creek Watershed +"	20	silt	Bunchgrass	400	0	30	60	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-2383	"03:56 pm  Wednesday April 30, 2014"	"Mica Creek Watershed +"	20	silt	Bunchgrass	400	0	30	60	20	OldForest	30	30	5	100	20	0	ft	""
+WD	wepp-2953	"03:57 pm  Wednesday April 30, 2014"	"Mica Creek Watershed +"	20	silt	HighFire	400	0	30	45	20	LowFire	30	30	5	85	20	0	ft	""
+WD	wepp-11497	"04:21 pm  Wednesday April 30, 2014"	"Mica Creek Watershed +"	20	silt	HighFire	400	0	30	45	20	LowFire	50	30	5	85	20	0	ft	""
+WD	wepp-11533	"04:22 pm  Wednesday April 30, 2014"	"Mica Creek Watershed +"	20	silt	HighFire	400	0	30	45	20	LowFire	10	30	5	85	20	0	ft	""
+WD	wepp-11602	"04:22 pm  Wednesday April 30, 2014"	"Mica Creek Watershed +"	20	silt	HighFire	400	0	30	45	20	HighFire	30	30	5	45	20	0	ft	""

@@ -1,0 +1,202 @@
+ Annual; abbreviated (Metric Units)                                     
+
+
+          USDA WATER EROSION PREDICTION PROJECT
+          -------------------------------------
+
+          HILLSLOPE PROFILE AND WATERSHED MODEL
+                     VERSION  2000.100
+             June 31,       2000
+
+
+               TO REPORT PROBLEMS OR TO BE PUT ON THE MAILING
+               LIST FOR FUTURE WEPP MODEL RELEASES, PLEASE CONTACT:
+
+                    WEPP TECHNICAL SUPPORT
+                    USDA-AGRICULTURAL RESEARCH SERVICE
+                    NATIONAL SOIL EROSION RESEARCH LABORATORY
+                    1196 BUILDING SOIL, PURDUE UNIVERSITY
+                    WEST LAFAYETTE, IN 47907-1196  USA
+
+                    PHONE: (765) 494-8673
+                      FAX: (765) 494-5948
+                    email:  wepp@ecn.purdue.edu
+                      URL:  http://topsoil.nserl.purdue.edu/weppmain/wepp.html
+
+
+     HILLSLOPE INPUT DATA FILES - VERSION  2000.100
+        June 31,       2000
+
+
+    MANAGEMENT: ../working/wepp-159891.man                        
+ MAN. PRACTICE: Two OFEs to drive the Disturbed WEPP interface              
+                for forest conditions                                       
+                W. Elliot 02/99                                             
+         SLOPE: ../working/wepp-159891.slp                        
+       CLIMATE: ../working/wepp-159891.cli                        
+       Station:  GASCON NM Adjusted +                           CLIGEN VERSION  4.31
+          SOIL: ../working/wepp-159891.sol                        
+      PLANE  1 HIGH                loam                
+      PLANE  2 HIGH                loam                
+
+
+     ANNUAL AVERAGE SUMMARIES
+     ------------------------
+
+
+I.   RAINFALL AND RUNOFF SUMMARY
+     -------- --- ------ -------
+
+      total summary:  years    1 -   30
+
+      2195 storms produced                        19527.91 mm of precipitation
+       216 rain storm runoff events produced        699.72 mm of runoff
+        78 snow melts and/or
+             events during winter produced          502.95 mm of runoff
+
+      annual averages
+      ---------------
+
+        Number of years                                   30
+        Mean annual precipitation                     650.93    mm
+        Mean annual runoff from rainfall               23.32    mm
+        Mean annual runoff from snow melt
+          and/or rain storm during winter              16.77    mm
+
+
+
+II.  ON SITE EFFECTS  ON SITE EFFECTS  ON SITE EFFECTS
+     ---------------  ---------------  ---------------
+
+
+  A.  AREA OF NET SOIL LOSS
+
+      ** Soil Loss (Avg. of Net Detachment Areas) =    4.087 kg/m2 **
+      ** Maximum Soil Loss  =    6.647 kg/m2 at  228.66 meters **
+
+
+      Area of    Soil Loss   Soil Loss   MAX   MAX Loss   MIN   MIN Loss
+      Net Loss      MEAN      STDEV      Loss    Point    Loss   Point
+        (m)       (kg/m2)     (kg/m2)  (kg/m2)    (m)    (kg/m2)  (m)
+------------------------------------------------------------------------
+   0.00- 295.73    4.087     2.128      6.647  228.66     0.091     3.05
+
+  B.  AREA OF SOIL DEPOSITION
+
+      ** Soil Deposition (Avg. of Net Deposition Areas) =    -1.684 kg/m2 **
+      ** Maximum Soil Deposition  =    -3.039 kg/m2 at  304.88 meters **
+
+      Area of    Soil Dep   Soil Dep     MAX    MAX Dep   MIN   MIN Dep
+      Net Dep       MEAN     STDEV       Dep     Point    Dep    Point
+        (m)       (kg/m2)    (kg/m2)   (kg/m2)    (m)    (kg/m2)  (m)
+------------------------------------------------------------------------
+ 295.73- 304.88   -1.684     1.020     -3.039  304.88    -0.308   297.26
+
+
+
+  C.  SOIL LOSS/DEPOSITION ALONG SLOPE PROFILE
+
+          Profile distances are from top to bottom of hillslope
+
+
+ distance soil  flow    distance   soil  flow    distance   soil  flow
+    (m)   loss  elem       (m)     loss  elem       (m)     loss  elem
+         (kg/m2)                  (kg/m2)                  (kg/m2)
+------------------------------------------------------------------------
+
+   1.52     0.091  1      103.66     4.508  1      205.79     6.376  2
+   3.05     0.091  1      105.18     4.564  1      207.32     6.396  2
+   4.57     0.091  1      106.71     4.621  1      208.84     6.415  2
+   6.10     0.091  1      108.23     4.676  1      210.37     6.433  2
+   7.62     0.091  1      109.76     4.732  1      211.89     6.452  2
+   9.15     0.092  1      111.28     4.787  1      213.42     6.471  2
+  10.67     0.093  1      112.81     4.842  1      214.94     6.489  2
+  12.20     0.098  1      114.33     4.896  1      216.46     6.507  2
+  13.72     0.107  1      115.85     4.950  1      217.99     6.525  2
+  15.24     0.120  1      117.38     5.003  1      219.51     6.543  2
+  16.77     0.139  1      118.90     5.056  1      221.04     6.561  2
+  18.29     0.163  1      120.43     5.108  1      222.56     6.579  2
+  19.82     0.195  1      121.95     5.160  1      224.09     6.596  2
+  21.34     0.233  1      123.48     5.211  1      225.61     6.613  2
+  22.87     0.275  1      125.00     5.262  1      227.14     6.630  2
+  24.39     0.324  1      126.53     5.313  1      228.66     6.647  2
+  25.91     0.379  1      128.05     5.363  1      230.18     6.607  2
+  27.44     0.435  1      129.57     5.413  1      231.71     6.508  2
+  28.96     0.495  1      131.10     5.462  1      233.23     6.409  2
+  30.49     0.558  1      132.62     5.511  1      234.76     6.309  2
+  32.01     0.625  1      134.15     5.560  1      236.28     6.207  2
+  33.54     0.694  1      135.67     5.608  1      237.81     6.105  2
+  35.06     0.765  1      137.20     5.656  1      239.33     6.001  2
+  36.59     0.837  1      138.72     5.703  1      240.86     5.897  2
+  38.11     0.911  1      140.24     5.750  1      242.38     5.792  2
+  39.63     0.989  1      141.77     5.797  1      243.90     5.685  2
+  41.16     1.069  1      143.29     5.843  1      245.43     5.578  2
+  42.68     1.151  1      144.82     5.889  1      246.95     5.469  2
+  44.21     1.234  1      146.34     5.935  1      248.48     5.360  2
+  45.73     1.319  1      147.87     5.980  1      250.00     5.249  2
+  47.26     1.405  1      149.39     6.025  1      251.53     5.138  2
+  48.78     1.494  1      150.92     6.069  1      253.05     5.025  2
+  50.31     1.586  1      152.44     6.113  1      254.57     4.912  2
+  51.83     1.678  1      153.96     5.617  2      256.10     4.797  2
+  53.35     1.774  1      155.49     5.642  2      257.62     4.682  2
+  54.88     1.872  1      157.01     5.668  2      259.15     4.565  2
+  56.40     1.971  1      158.54     5.694  2      260.67     4.448  2
+  57.93     2.072  1      160.06     5.719  2      262.20     4.329  2
+  59.45     2.173  1      161.59     5.744  2      263.72     4.210  2
+  60.98     2.276  1      163.11     5.768  2      265.25     4.089  2
+  62.50     2.382  1      164.64     5.793  2      266.77     3.967  2
+  64.02     2.489  1      166.16     5.817  2      268.29     3.844  2
+  65.55     2.597  1      167.68     5.841  2      269.82     3.720  2
+  67.07     2.705  1      169.21     5.865  2      271.34     3.595  2
+  68.60     2.815  1      170.73     5.888  2      272.87     3.469  2
+  70.12     2.927  1      172.26     5.912  2      274.39     3.333  2
+  71.65     3.040  1      173.78     5.935  2      275.92     3.183  2
+  73.17     3.154  1      175.31     5.958  2      277.44     3.025  2
+  74.70     3.269  1      176.83     5.980  2      278.97     2.880  2
+  76.22     3.385  1      178.35     6.003  2      280.49     2.696  2
+  77.74     3.475  1      179.88     6.025  2      282.01     2.527  2
+  79.27     3.538  1      181.40     6.047  2      283.54     2.372  2
+  80.79     3.601  1      182.93     6.069  2      285.06     2.214  2
+  82.32     3.664  1      184.45     6.091  2      286.59     2.052  2
+  83.84     3.727  1      185.98     6.112  2      288.11     1.893  2
+  85.37     3.789  1      187.50     6.134  2      289.64     1.730  2
+  86.89     3.851  1      189.03     6.155  2      291.16     1.539  2
+  88.42     3.913  1      190.55     6.176  2      292.68     1.271  2
+  89.94     3.975  1      192.07     6.197  2      294.21     0.818  2
+  91.46     4.036  1      193.60     6.218  2      295.73     0.252  2
+  92.99     4.097  1      195.12     6.238  2      297.26    -0.308  2
+  94.51     4.157  1      196.65     6.258  2      298.78    -0.879  2
+  96.04     4.217  1      198.17     6.278  2      300.31    -1.411  2
+  97.56     4.276  1      199.70     6.298  2      301.83    -1.963  2
+  99.09     4.335  1      201.22     6.318  2      303.36    -2.505  2
+ 100.61     4.393  1      202.75     6.337  2      304.88    -3.039  2
+ 102.13     4.450  1      204.27     6.357  2
+
+note:  (+) soil loss - detachment     (-) soil loss - deposition
+
+
+
+III. OFF SITE EFFECTS  OFF SITE EFFECTS  OFF SITE EFFECTS
+     ----------------  ----------------  ----------------
+
+     A.  AVERAGE ANNUAL SEDIMENT LEAVING PROFILE
+          1193.172   kg/m of width
+         *********     kg (based on profile width of    100.000      m)
+            39.136   t/ha (assuming contributions from     3.049     ha)
+     B.  SEDIMENT CHARACTERISTICS AND ENRICHMENT
+
+     Sediment particle information leaving profile
+-------------------------------------------------------------------------------
+                                 Particle Composition         Detached Fraction
+Class  Diameter  Specific  ---------------------------------  Sediment  In Flow
+         (mm)    Gravity   % Sand   % Silt   % Clay   % O.M.  Fraction  Exiting
+-------------------------------------------------------------------------------
+  1     0.002      2.60      0.0      0.0    100.0     25.0     0.052    0.053
+  2     0.010      2.65      0.0    100.0      0.0      0.0     0.092    0.094
+  3     0.030      1.80      0.0     63.6     36.4      9.1     0.258    0.265
+  4     0.400      1.60     67.2     20.8     12.0      3.0     0.451    0.451
+  5     0.200      2.65    100.0      0.0      0.0      0.0     0.147    0.137
+-------------------------------------------------------------------------------
+
+
+     Average annual SSA enrichment ratio leaving profile =   1.02

@@ -1,0 +1,16 @@
+#
+#	Low-severity fire initial conditions scenario for Tahoe Basin model
+#
+lowfire
+Initial Conditions after a low-severity fire
+W. Elliot 3/98
+
+1	# `landuse' - <Cropland>
+1.1	0.25	1000	900	0	inrcov
+3	# `iresd' - <LOW>
+2	# `mgmt' - <Perennial>
+1000	0.1	rilcov	0.1	0
+1	# `rtyp' - <Temporary>
+0	0	0.1	0.2	0
+0.1	0.1
+

@@ -1,0 +1,484 @@
+WE	wepp-612	"11:56 am  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	5	range	1	0	0	630	l	15	75	ft
+WE	wepp-701	"11:56 am  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	5	chap	8.25	0	0	500	l	80	0	ft
+WE	wepp-795	"11:57 am  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	5	forest	9.07	0	0	280	l			ft
+WE	wepp-892	"11:57 am  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	5	range	8.64	0	0	270	l	15	75	ft
+WE	wepp-978	"11:57 am  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	5	chap	18.86	0	0	240	l	80	0	ft
+WE	wepp-1068	"11:57 am  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	5	range	11	0	0	180	l	15	75	ft
+WE	wepp-1168	"11:57 am  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	5	chap	15.5	0	0	140	l	80	0	ft
+WE	wepp-1266	"11:57 am  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	5	forest	14.43	0	0	100	l			ft
+WE	wepp-1374	"11:58 am  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	5	chap	14.5	0	0	60	l	80	0	ft
+WE	wepp-1450	"11:58 am  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	5	range	0	2	0	40	l	15	75	ft
+WE	wepp-1536	"11:58 am  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	5	chap	13	0	0	30	l	80	0	ft
+WE	wepp-1637	"11:58 am  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	5	forest	1	0	0	1	l			ft
+WE	wepp-1733	"11:58 am  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	5	forest	0	0	0	1	l			ft
+WE	wepp-1890	"11:58 am  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	forest	17.5	40.18	14.92	1000	m			ft
+WE	wepp-2015	"11:59 am  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	chap	32	39.89	0	1000	m	80	0	ft
+WE	wepp-2152	"11:59 am  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	chap	37.52	24.22	22.4	920	m	80	0	ft
+WE	wepp-2266	"11:59 am  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	chap	24	35.06	0	760	l	80	0	ft
+WE	wepp-2359	"11:59 am  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	chap	43.06	19	0	640	l	80	0	ft
+WE	wepp-2466	"11:59 am  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	forest	8	0	0	540	m			ft
+WE	wepp-2646	"12:00 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	range	48	35.33	13.25	530	l	15	75	ft
+WE	wepp-2740	"12:00 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	chap	3.13	0	0	470	l	80	0	ft
+WE	wepp-2844	"12:00 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	chap	36.57	28.7	0	450	m	80	0	ft
+WE	wepp-2964	"12:00 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	chap	28	0	0	410	l	80	0	ft
+WE	wepp-3059	"12:00 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	chap	0	3.44	0	370	l	80	0	ft
+WE	wepp-3143	"12:00 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	forest	18.83	0	0	240	l			ft
+WE	wepp-3242	"12:00 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	chap	50.65	0	0	230	l	80	0	ft
+WE	wepp-3319	"12:01 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	range	24.33	0	0	180	l	15	75	ft
+WE	wepp-3398	"12:01 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	chap	30	31.67	17	160	l	80	0	ft
+WE	wepp-3493	"12:01 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	chap	35	29.5	0	150	l	80	0	ft
+WE	wepp-3571	"12:01 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	range	7.25	0	0	150	l	15	75	ft
+WE	wepp-3667	"12:01 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	chap	22.33	0	0	140	l	80	0	ft
+WE	wepp-3763	"12:01 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	chap	18.5	0	0	130	l	80	0	ft
+WE	wepp-3847	"12:02 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	chap	54.08	0	0	120	m	80	0	ft
+WE	wepp-3986	"12:02 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	range	40.33	28	0	100	l	15	75	ft
+WE	wepp-4079	"12:02 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	chap	24.5	0	0	80	m	80	0	ft
+WE	wepp-4195	"12:02 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	range	37.33	0	0	80	m	15	75	ft
+WE	wepp-4311	"12:02 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	chap	9	0	0	70	l	80	0	ft
+WE	wepp-4405	"12:02 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	chap	53	0	0	40	l	80	0	ft
+WE	wepp-4487	"12:03 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	chap	25	0	0	40	l	80	0	ft
+WE	wepp-4571	"12:03 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	chap	20.5	0	0	40	m	80	0	ft
+WE	wepp-4699	"12:03 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	chap	32	0	16	30	l	80	0	ft
+WE	wepp-4794	"12:03 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	forest	28	0	0	30	h			ft
+WE	wepp-4952	"12:03 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	chap	23	0	0	1	l	80	0	ft
+WE	wepp-5041	"12:04 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	chap	32	0	0	1	l	80	0	ft
+WE	wepp-5126	"12:04 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	loam	30	chap	0.57	0	0	310	l	80	0	ft
+WE	wepp-5217	"12:04 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	loam	30	chap	0.25	0	0	110	l	80	0	ft
+WE	wepp-5301	"12:04 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	forest	11.46	12.15	15.92	1000	m			ft
+WE	wepp-5431	"12:04 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	forest	18.78	21.49	18.72	1000	l			ft
+WE	wepp-5528	"12:04 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	forest	15.56	19.37	42.91	1000	l			ft
+WE	wepp-5645	"12:04 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	chap	26.83	22.79	19.86	1000	m	80	0	ft
+WE	wepp-5772	"12:05 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	forest	9.94	19.03	11	1000	l			ft
+WE	wepp-5880	"12:05 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	forest	12.68	17.22	25.67	1000	l			ft
+WE	wepp-5960	"12:05 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	forest	13	11.11	11.52	1000	l			ft
+WE	wepp-6056	"12:05 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	forest	18.77	16.09	19.67	1000	l			ft
+WE	wepp-6165	"12:05 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	forest	1.38	24.02	32.13	1000	m			ft
+WE	wepp-6303	"12:06 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	chap	17.12	27.3	0	1000	l	80	0	ft
+WE	wepp-6381	"12:06 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	forest	5.67	22	29.57	1000	l			ft
+WE	wepp-6475	"12:06 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	forest	15.75	25	35.36	1000	l			ft
+WE	wepp-6573	"12:06 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	forest	20.91	31.86	43.98	1000	l			ft
+WE	wepp-6662	"12:06 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	chap	4.33	15.95	44.62	1000	m	80	0	ft
+WE	wepp-6792	"12:06 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	chap	8.69	20.79	13	1000	m	80	0	ft
+WE	wepp-6906	"12:07 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	chap	8.75	10.49	4.25	1000	m	80	0	ft
+WE	wepp-7022	"12:07 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	range	25	36.28	29.39	1000	l	15	75	ft
+WE	wepp-7143	"12:07 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	forest	8.97	5.25	3.17	1000	l			ft
+WE	wepp-7230	"12:07 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	chap	4.38	27.86	22.75	1000	m	80	0	ft
+WE	wepp-7352	"12:07 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	chap	18.24	20.75	0	1000	l	80	0	ft
+WE	wepp-7444	"12:08 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	range	33.5	47.2	28.53	1000	l	15	75	ft
+WE	wepp-7536	"12:08 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	chap	17.33	20.58	30.71	1000	l	80	0	ft
+WE	wepp-7639	"12:08 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	chap	26.22	35.67	0	1000	l	80	0	ft
+WE	wepp-7728	"12:08 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	forest	9.5	37.29	34.54	1000	l			ft
+WE	wepp-7816	"12:08 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	range	41	34.98	28.91	1000	l	15	75	ft
+WE	wepp-7946	"12:08 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	range	34.91	17.9	0	1000	l	15	75	ft
+WE	wepp-8030	"12:09 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	range	12.2	33.17	27.94	1000	l	15	75	ft
+WE	wepp-8126	"12:09 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	chap	24.5	37.69	0	1000	m	80	0	ft
+WE	wepp-8264	"12:09 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	forest	11.5	22.37	42.19	1000	l			ft
+WE	wepp-8363	"12:09 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	range	58.25	38.48	23.74	1000	l	15	75	ft
+WE	wepp-8457	"12:09 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	chap	33.15	36.96	0	960	l	80	0	ft
+WE	wepp-8537	"12:09 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	chap	9.38	4.67	0	920	l	80	0	ft
+WE	wepp-8669	"12:10 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	range	25.67	35.53	38.05	880	l	15	75	ft
+WE	wepp-8749	"12:10 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	chap	28.9	54.32	54.14	870	l	80	0	ft
+WE	wepp-8831	"12:10 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	forest	36	32.11	0	810	l			ft
+WE	wepp-8939	"12:10 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	chap	23	22	19.5	790	l	80	0	ft
+WE	wepp-9032	"12:10 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	forest	23.92	38.5	0	770	l			ft
+WE	wepp-9130	"12:10 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	forest	28.11	18.8	0	760	l			ft
+WE	wepp-9219	"12:11 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	range	32.38	0	0	750	l	15	75	ft
+WE	wepp-9303	"12:11 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	chap	22.89	29.98	0	740	l	80	0	ft
+WE	wepp-9401	"12:11 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	range	12.5	40.58	36.47	740	l	15	75	ft
+WE	wepp-9499	"12:11 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	forest	33.8	40	17	730	l			ft
+WE	wepp-9602	"12:11 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	chap	11.8	15	0	690	l	80	0	ft
+WE	wepp-9680	"12:11 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	chap	26.5	29.47	51.25	650	m	80	0	ft
+WE	wepp-9798	"12:12 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	range	24.25	34.2	33.86	640	l	15	75	ft
+WE	wepp-9887	"12:12 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	chap	26.08	34.18	0	610	m	80	0	ft
+WE	wepp-10017	"12:12 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	chap	14	43.11	42.19	600	l	80	0	ft
+WE	wepp-10113	"12:12 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	forest	52.6	30.84	25.42	600	l			ft
+WE	wepp-10205	"12:12 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	forest	5.69	16.14	0	590	l			ft
+WE	wepp-10299	"12:12 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	range	37.5	59.72	29.31	570	l	15	75	ft
+WE	wepp-10408	"12:13 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	forest	33.75	42.89	0	560	l			ft
+WE	wepp-10496	"12:13 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	chap	14	14.58	21.96	540	m	80	0	ft
+WE	wepp-10618	"12:13 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	forest	20.57	0	0	520	m			ft
+WE	wepp-10752	"12:13 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	range	45	30.25	17.5	500	l	15	75	ft
+WE	wepp-10856	"12:13 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	range	27.75	22.77	0	490	l	15	75	ft
+WE	wepp-10949	"12:14 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	range	33.74	0	0	470	l	15	75	ft
+WE	wepp-11039	"12:14 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	chap	19	40.83	13	440	l	80	0	ft
+WE	wepp-11141	"12:14 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	forest	36.62	25.6	0	440	l			ft
+WE	wepp-11232	"12:14 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	range	26	30.36	0	420	l	15	75	ft
+WE	wepp-11314	"12:14 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	range	20	19.75	23	410	l	15	75	ft
+WE	wepp-11421	"12:14 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	chap	37.5	25.02	15.67	400	l	80	0	ft
+WE	wepp-11504	"12:14 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	range	38.11	0	0	400	l	15	75	ft
+WE	wepp-11640	"12:15 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	chap	15.75	0	0	400	l	80	0	ft
+WE	wepp-11733	"12:15 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	forest	31.5	47.58	40.25	370	l			ft
+WE	wepp-11817	"12:15 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	forest	40.5	36	0	360	l			ft
+WE	wepp-11920	"12:15 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	range	34	31.43	19.5	340	l	15	75	ft
+WE	wepp-11998	"12:15 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	chap	12.25	0	0	330	l	80	0	ft
+WE	wepp-12090	"12:15 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	chap	13.28	0	0	330	m	80	0	ft
+WE	wepp-12210	"12:16 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	forest	54	35	20.62	330	l			ft
+WE	wepp-12290	"12:16 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	range	25.7	0	0	330	l	15	75	ft
+WE	wepp-12393	"12:16 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	chap	22.75	22.75	0	320	l	80	0	ft
+WE	wepp-12467	"12:16 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	chap	41.25	0	0	320	l	80	0	ft
+WE	wepp-12563	"12:16 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	chap	41.35	0	0	310	l	80	0	ft
+WE	wepp-12648	"12:16 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	forest	58.01	0	0	310	l			ft
+WE	wepp-12738	"12:17 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	forest	15.33	12.91	8.38	310	l			ft
+WE	wepp-12845	"12:17 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	range	14	33.2	15.25	300	l	15	75	ft
+WE	wepp-12929	"12:17 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	chap	17.17	0	0	300	m	80	0	ft
+WE	wepp-13057	"12:17 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	range	20	39.24	15	280	l	15	75	ft
+WE	wepp-13149	"12:17 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	chap	24.71	19.67	0	280	l	80	0	ft
+WE	wepp-13248	"12:17 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	chap	35.5	51.22	24	270	l	80	0	ft
+WE	wepp-13312	"12:18 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	chap	45.75	0	0	270	m	80	0	ft
+WE	wepp-13441	"12:18 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	range	20	47.05	28	270	l	15	75	ft
+WE	wepp-13538	"12:18 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	chap	37.17	0	0	260	l	80	0	ft
+WE	wepp-13627	"12:18 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	chap	43.69	0	0	260	l	80	0	ft
+WE	wepp-13724	"12:18 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	forest	42.14	0	0	260	l			ft
+WE	wepp-13808	"12:18 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	forest	15.33	20	0	260	l			ft
+WE	wepp-13896	"12:19 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	range	49.2	0	0	250	l	15	75	ft
+WE	wepp-13997	"12:19 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	range	50.75	67	0	240	l	15	75	ft
+WE	wepp-14079	"12:19 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	forest	13	15.64	3.33	210	l			ft
+WE	wepp-14170	"12:19 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	chap	9.5	0	0	210	l	80	0	ft
+WE	wepp-14266	"12:19 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	forest	35.29	0	0	210	l			ft
+WE	wepp-14363	"12:19 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	range	35.33	0	0	200	l	15	75	ft
+WE	wepp-14451	"12:19 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	chap	18.2	0	0	200	l	80	0	ft
+WE	wepp-14568	"12:20 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	chap	60.5	68.17	0	180	l	80	0	ft
+WE	wepp-14675	"12:20 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	forest	43.7	43.83	0	180	l			ft
+WE	wepp-14741	"12:20 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	chap	29.33	0	0	180	l	80	0	ft
+WE	wepp-14842	"12:20 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	range	23.5	0	0	170	l	15	75	ft
+WE	wepp-14940	"12:20 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	range	17.83	0	0	160	l	15	75	ft
+WE	wepp-15002	"12:21 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	chap	16.6	0	0	160	l	80	0	ft
+WE	wepp-15094	"12:21 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	chap	40.67	61.67	0	160	l	80	0	ft
+WE	wepp-15188	"12:21 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	forest	35	33.12	19.5	160	l			ft
+WE	wepp-15283	"12:21 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	forest	44.33	0	0	160	l			ft
+WE	wepp-16481	"12:25 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	5	forest	0	0	8	1	m			ft
+WE	wepp-16603	"12:25 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	loam	10	chap	9.62	0	0	180	l	80	0	ft
+WE	wepp-16704	"12:25 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	loam	10	range	10.46	0	0	130	m	15	75	ft
+WE	wepp-16823	"12:25 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	loam	10	range	10.42	0	0	120	m	15	75	ft
+WE	wepp-16946	"12:25 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	loam	10	chap	10	0	0	60	m	80	0	ft
+WE	wepp-17064	"12:26 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	loam	10	chap	0	0	0	1	m	80	0	ft
+WE	wepp-17182	"12:26 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	loam	15	forest	9.65	5.54	0	1000	m			ft
+WE	wepp-17308	"12:26 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	loam	15	chap	7.6	0	0	910	l	80	0	ft
+WE	wepp-17398	"12:26 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	loam	15	chap	8.46	0	0	780	l	80	0	ft
+WE	wepp-17491	"12:26 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	loam	15	chap	11	0	0	680	l	80	0	ft
+WE	wepp-17575	"12:27 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	loam	15	range	3.89	0	0	490	l	15	75	ft
+WE	wepp-17666	"12:27 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	15	forest	26.5	26.67	24.5	400	m			ft
+WE	wepp-17786	"12:27 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	loam	15	chap	5	9.54	5.5	390	l	80	0	ft
+WE	wepp-17882	"12:27 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	loam	15	forest	10.66	0	0	330	m			ft
+WE	wepp-18015	"12:27 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	loam	15	chap	2.6	0	0	270	l	80	0	ft
+WE	wepp-18097	"12:27 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	loam	15	range	1.85	0	0	260	l	15	75	ft
+WE	wepp-18185	"12:28 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	loam	15	chap	5.8	0	0	250	l	80	0	ft
+WE	wepp-18265	"12:28 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	loam	15	range	6.38	0	0	220	l	15	75	ft
+WE	wepp-18358	"12:28 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	15	forest	25.4	32	0	190	l			ft
+WE	wepp-18459	"12:28 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	15	forest	30.67	0	0	130	l			ft
+WE	wepp-18554	"12:28 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	loam	15	chap	4.25	0	0	90	l	80	0	ft
+WE	wepp-18626	"12:28 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	loam	15	forest	3.33	0	0	40	l			ft
+WE	wepp-18718	"12:29 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	loam	15	forest	8	0	0	30	m			ft
+WE	wepp-18842	"12:29 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	loam	15	chap	0	0	0	1	l	80	0	ft
+WE	wepp-18936	"12:29 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	loam	15	forest	4	0	0	1	l			ft
+WE	wepp-19024	"12:29 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	loam	15	forest	4	0	0	1	l			ft
+WE	wepp-19133	"12:29 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	15	forest	30	0	0	1	m			ft
+WE	wepp-19251	"12:29 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	20	forest	6.75	7.29	1.25	1000	m			ft
+WE	wepp-19428	"12:30 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	loam	20	range	11	0	0	310	m	15	75	ft
+WE	wepp-19564	"12:30 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	20	chap	19.67	0	0	300	l	80	0	ft
+WE	wepp-19656	"12:30 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	loam	20	chap	17	0	0	210	m	80	0	ft
+WE	wepp-19787	"12:30 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	loam	20	chap	14.57	0	0	190	m	80	0	ft
+WE	wepp-19925	"12:31 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	20	range	8.75	0	0	160	l	15	75	ft
+WE	wepp-20028	"12:31 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	loam	20	chap	7	0	0	110	m	80	0	ft
+WE	wepp-20158	"12:31 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	loam	20	chap	19.25	0	0	90	l	80	0	ft
+WE	wepp-20230	"12:31 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	20	chap	11	0	0	1	h	80	0	ft
+WE	wepp-20384	"12:31 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	loam	20	range	3	0	0	1	l	15	75	ft
+WE	wepp-20477	"12:32 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	loam	20	range	3	0	0	1	m	15	75	ft
+WE	wepp-20612	"12:32 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	loam	20	chap	12	0	0	1	l	80	0	ft
+WE	wepp-20704	"12:32 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	forest	5.78	5.24	9.97	1000	l			ft
+WE	wepp-20804	"12:32 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	forest	16.9	16.16	31.31	1000	l			ft
+WE	wepp-20905	"12:32 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	forest	6.1	11.21	33.63	1000	m			ft
+WE	wepp-21041	"12:32 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	forest	22.32	9.02	16.39	1000	l			ft
+WE	wepp-21134	"12:33 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	forest	13.75	13.81	0	1000	m			ft
+WE	wepp-21256	"12:33 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	forest	8.46	17.05	36.78	1000	l			ft
+WE	wepp-21348	"12:33 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	forest	9.85	10.48	15.25	1000	m			ft
+WE	wepp-21488	"12:33 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	forest	8.04	6.73	7.4	1000	m			ft
+WE	wepp-21608	"12:33 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	forest	8	19.5	48.46	1000	l			ft
+WE	wepp-21706	"12:34 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	forest	8.4	20.19	41.48	1000	m			ft
+WE	wepp-21830	"12:34 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	forest	3.62	26.2	30.15	1000	l			ft
+WE	wepp-21924	"12:34 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	range	35.81	43.09	17.9	1000	l	15	75	ft
+WE	wepp-22031	"12:34 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	chap	3	27.15	34.33	1000	l	80	0	ft
+WE	wepp-22117	"12:34 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	range	41.57	37.8	33.66	990	l	15	75	ft
+WE	wepp-22221	"12:34 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	chap	32.67	36.88	42.96	970	l	80	0	ft
+WE	wepp-22341	"12:35 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	chap	16.67	0	0	950	m	80	0	ft
+WE	wepp-22465	"12:35 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	range	37.4	38.4	27.17	950	l	15	75	ft
+WE	wepp-22565	"12:35 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	forest	22.67	25.1	18.83	940	l			ft
+WE	wepp-22668	"12:35 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	forest	2.75	20	23.27	940	m			ft
+WE	wepp-22792	"12:35 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	chap	38.71	32.3	0	940	l	80	0	ft
+WE	wepp-22874	"12:36 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	forest	28.25	34.92	32.9	890	l			ft
+WE	wepp-22978	"12:36 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	chap	20	26.91	33.17	880	m	80	0	ft
+WE	wepp-23119	"12:36 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	chap	23	31.38	27.99	870	l	80	0	ft
+WE	wepp-23212	"12:36 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	chap	7.2	38.52	42.1	850	l	80	0	ft
+WE	wepp-23299	"12:36 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	chap	24.96	34.8	23.39	810	m	80	0	ft
+WE	wepp-23431	"12:37 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	range	37.6	28.86	0	780	l	15	75	ft
+WE	wepp-23518	"12:37 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	chap	6	32.62	27	770	m	80	0	ft
+WE	wepp-23644	"12:37 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	chap	15.5	28.48	45.17	690	m	80	0	ft
+WE	wepp-23780	"12:37 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	forest	8.25	13.39	25.75	520	m			ft
+WE	wepp-23918	"12:37 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	chap	5	31.27	30.61	510	m	80	0	ft
+WE	wepp-24051	"12:38 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	forest	27.5	31.91	25.5	460	l			ft
+WE	wepp-24140	"12:38 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	forest	29.5	32.67	37.86	450	l			ft
+WE	wepp-24232	"12:38 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	chap	18.92	0	0	440	m	80	0	ft
+WE	wepp-24362	"12:38 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	forest	18	19.89	0	380	l			ft
+WE	wepp-24447	"12:38 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	chap	37.5	36.08	33	370	m	80	0	ft
+WE	wepp-24571	"12:38 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	chap	35.55	0	0	340	l	80	0	ft
+WE	wepp-24667	"12:39 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	chap	33.7	0	0	340	l	80	0	ft
+WE	wepp-24761	"12:39 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	forest	27	27.57	15	260	m			ft
+WE	wepp-24885	"12:39 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	forest	32.44	0	0	260	l			ft
+WE	wepp-24973	"12:39 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	chap	20	24.5	14	230	m	80	0	ft
+WE	wepp-25126	"12:39 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	chap	24.33	40.85	0	230	l	80	0	ft
+WE	wepp-25216	"12:40 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	range	32	34	20.5	220	l	15	75	ft
+WE	wepp-25331	"12:40 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	forest	18.17	0	0	210	m			ft
+WE	wepp-25465	"12:40 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	chap	18	38.79	16.25	210	l	80	0	ft
+WE	wepp-25566	"12:40 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	forest	42.56	0	0	200	l			ft
+WE	wepp-25654	"12:40 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	forest	45	46	20.5	190	l			ft
+WE	wepp-25751	"12:40 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	chap	8	26.9	15	180	m	80	0	ft
+WE	wepp-25885	"12:41 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	forest	15	18.4	13	170	m			ft
+WE	wepp-26025	"12:41 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	forest	47	33.33	20	160	l			ft
+WE	wepp-26123	"12:41 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	chap	11.5	0	0	150	m	80	0	ft
+WE	wepp-26237	"12:41 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	chap	29	38.75	20	150	m	80	0	ft
+WE	wepp-26353	"12:41 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	forest	20.33	26	0	140	m			ft
+WE	wepp-26485	"12:42 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	chap	10.17	0	0	140	m	80	0	ft
+WE	wepp-26612	"12:42 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	forest	50	30	0	130	l			ft
+WE	wepp-26696	"12:42 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	chap	7.33	0	0	120	l	80	0	ft
+WE	wepp-26795	"12:42 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	chap	27	0	0	110	l	80	0	ft
+WE	wepp-26878	"12:42 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	chap	40.5	0	0	100	l	80	0	ft
+WE	wepp-26974	"12:42 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	chap	14.33	0	0	90	m	80	0	ft
+WE	wepp-27094	"12:43 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	chap	35	0	21	70	l	80	0	ft
+WE	wepp-27173	"12:43 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	chap	19.33	0	0	70	m	80	0	ft
+WE	wepp-27298	"12:43 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	forest	32	27	0	70	l			ft
+WE	wepp-27393	"12:43 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	forest	25	0	0	70	l			ft
+WE	wepp-27478	"12:43 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	chap	48	51	23	60	l	80	0	ft
+WE	wepp-27563	"12:43 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	chap	6.2	0	0	60	m	80	0	ft
+WE	wepp-27698	"12:44 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	forest	24	36	24	60	l			ft
+WE	wepp-27799	"12:44 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	chap	29	27	18	60	l	80	0	ft
+WE	wepp-27905	"12:44 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	range	48	0	25	40	l	15	75	ft
+WE	wepp-27986	"12:44 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	forest	26	0	0	40	m			ft
+WE	wepp-28119	"12:44 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	forest	49	0	32	40	l			ft
+WE	wepp-28224	"12:44 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	forest	12	0	5	40	l			ft
+WE	wepp-28327	"12:45 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	forest	35	0	0	40	m			ft
+WE	wepp-28480	"12:45 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	chap	58	0	38	40	l	80	0	ft
+WE	wepp-28567	"12:45 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	chap	27	0	0	30	m	80	0	ft
+WE	wepp-28685	"12:45 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	chap	46.5	0	28.5	30	l	80	0	ft
+WE	wepp-28778	"12:45 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	range	41.5	0	0	30	l	15	75	ft
+WE	wepp-28876	"12:45 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	forest	33	0	0	30	m			ft
+WE	wepp-29005	"12:46 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	chap	0	0	46.33	1	l	80	0	ft
+WE	wepp-29091	"12:46 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	chap	23	0	0	1	l	80	0	ft
+WE	wepp-29184	"12:46 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	chap	2	0	0	1	l	80	0	ft
+WE	wepp-29274	"12:46 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	chap	45	0	0	1	l	80	0	ft
+WE	wepp-29356	"12:46 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	range	8	0	0	1	m	15	75	ft
+WE	wepp-29489	"12:46 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	chap	14	0	0	1	m	80	0	ft
+WE	wepp-29617	"12:47 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	chap	0	0	38	1	l	80	0	ft
+WE	wepp-29707	"12:47 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	range	0	0	13	1	l	15	75	ft
+WE	wepp-29799	"12:47 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	forest	40	0	0	1	l			ft
+WE	wepp-29889	"12:47 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	forest	13	0	0	1	l			ft
+WE	wepp-29988	"12:47 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	forest	17	0	0	1	l			ft
+WE	wepp-30074	"12:47 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	30	chap	26	0	0	1	l	80	0	ft
+WE	wepp-30168	"12:47 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	chap	22.06	0	0	900	m	80	0	ft
+WE	wepp-30307	"12:48 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	chap	28	37.74	0	560	l	80	0	ft
+WE	wepp-30389	"12:48 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	chap	22	0	0	530	m	80	0	ft
+WE	wepp-30518	"12:48 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	chap	28.25	46	0	450	m	80	0	ft
+WE	wepp-30650	"12:48 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	range	47.93	0	0	180	l	15	75	ft
+WE	wepp-30743	"12:48 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	chap	27.5	45.4	0	170	m	80	0	ft
+WE	wepp-30829	"12:49 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	chap	21	25	13	130	l	80	0	ft
+WE	wepp-30878	"12:49 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	chap	17	33.5	16	100	l	80	0	ft
+WE	wepp-30927	"12:49 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	chap	22	0	0	1	m	80	0	ft
+WE	wepp-8686	"04:55 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	chap	0	0	0	20	m	80	0	ft
+WE	wepp-8755	"04:55 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	chap	0	0	0	20	m	80	0	ft
+WE	wepp-8824	"04:55 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	forest	6	12	3	20	l			ft
+WE	wepp-8873	"04:55 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	forest	1.7	0	0	150	m			ft
+WE	wepp-8942	"04:56 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	chap	12.75	0	0	250	m	80	0	ft
+WE	wepp-9011	"04:56 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	loam	25	forest	15.79	9.42	6.39	1000	l			ft
+WE	wepp-9061	"04:56 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	range	0	0	0	20	m	15	75	ft
+WE	wepp-9130	"04:56 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	forest	0	0	0	20	m			ft
+WE	wepp-9199	"04:57 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	range	2.26	3.62	9.31	840	m	15	75	ft
+WE	wepp-9268	"04:57 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	range	7.33	5.83	5	40	m	15	75	ft
+WE	wepp-9364	"04:57 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	forest	3.69	5.02	11.45	1000	m			ft
+WE	wepp-9433	"04:57 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	forest	2.29	0	0	60	m			ft
+WE	wepp-9502	"04:58 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	forest	4.48	0	0	250	m			ft
+WE	wepp-9572	"04:58 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	range	6.22	0	0	120	m	15	75	ft
+WE	wepp-9641	"04:58 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	range	25.23	0	0	440	h	15	75	ft
+WE	wepp-9730	"04:58 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	range	6.33	14.18	0	1000	m	15	75	ft
+WE	wepp-9799	"04:59 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	forest	29.03	19.73	10.2	1000	m			ft
+WE	wepp-9868	"04:59 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	forest	11.78	13.82	19.39	230	m			ft
+WE	wepp-9937	"04:59 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	chap	9.19	0	0	240	m	80	0	ft
+WE	wepp-10006	"04:59 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	chap	3.5	0	0	40	m	80	0	ft
+WE	wepp-10094	"05:00 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	loam	25	forest	4.72	10.78	4.4	1000	l			ft
+WE	wepp-10145	"05:00 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	range	9.3	0	0	50	m	15	75	ft
+WE	wepp-10216	"05:00 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	chap	6.47	0	0	150	m	80	0	ft
+WE	wepp-14211	"05:20 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	chap	0	0	0	20	m	80	0	ft
+WE	wepp-14282	"05:21 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	chap	0	0	0	20	m	80	0	ft
+WE	wepp-14352	"05:21 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	forest	6	12	3	20	l			ft
+WE	wepp-14402	"05:21 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	forest	1.7	0	0	150	m			ft
+WE	wepp-14471	"05:21 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	chap	12.75	0	0	250	m	80	0	ft
+WE	wepp-14541	"05:21 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	loam	25	forest	15.79	9.42	6.39	1000	l			ft
+WE	wepp-14590	"05:22 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	range	0	0	0	20	m	15	75	ft
+WE	wepp-14659	"05:22 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	forest	0	0	0	20	m			ft
+WE	wepp-14730	"05:22 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	range	2.26	3.62	9.31	840	m	15	75	ft
+WE	wepp-14800	"05:22 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	range	7.33	5.83	5	40	m	15	75	ft
+WE	wepp-14896	"05:22 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	forest	3.69	5.02	11.45	1000	m			ft
+WE	wepp-14965	"05:22 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	forest	2.29	0	0	60	m			ft
+WE	wepp-15036	"05:23 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	forest	4.48	0	0	250	m			ft
+WE	wepp-15112	"05:23 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	range	6.22	0	0	120	m	15	75	ft
+WE	wepp-15182	"05:23 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	range	25.23	0	0	440	h	15	75	ft
+WE	wepp-15286	"05:23 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	range	6.33	14.18	0	1000	m	15	75	ft
+WE	wepp-15427	"05:23 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	forest	29.03	19.73	10.2	1000	m			ft
+WE	wepp-15580	"05:24 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	forest	11.78	13.82	19.39	230	m			ft
+WE	wepp-15718	"05:24 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	chap	9.19	0	0	240	m	80	0	ft
+WE	wepp-15852	"05:24 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	chap	3.5	0	0	40	m	80	0	ft
+WE	wepp-15986	"05:24 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	loam	25	forest	4.72	10.78	4.4	1000	l			ft
+WE	wepp-16101	"05:25 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	range	9.3	0	0	50	m	15	75	ft
+WE	wepp-16231	"05:25 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	chap	6.47	0	0	150	m	80	0	ft
+WE	wepp-21771	"05:36 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	chap	0	0	0	20	m	80	0	ft
+WE	wepp-21977	"05:36 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	chap	0	0	0	20	m	80	0	ft
+WE	wepp-22174	"05:36 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	forest	6	12	3	20	l			ft
+WE	wepp-22308	"05:37 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	forest	1.7	0	0	150	m			ft
+WE	wepp-22515	"05:37 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	chap	12.75	0	0	250	m	80	0	ft
+WE	wepp-22714	"05:37 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	loam	25	forest	15.79	9.42	6.39	1000	l			ft
+WE	wepp-22901	"05:37 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	range	0	0	0	20	m	15	75	ft
+WE	wepp-23091	"05:38 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	forest	0	0	0	20	m			ft
+WE	wepp-23302	"05:38 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	range	2.26	3.62	9.31	840	m	15	75	ft
+WE	wepp-23515	"05:38 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	range	7.33	5.83	5	40	m	15	75	ft
+WE	wepp-23734	"05:38 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	forest	3.69	5.02	11.45	1000	m			ft
+WE	wepp-23943	"05:39 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	forest	2.29	0	0	60	m			ft
+WE	wepp-24131	"05:39 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	forest	4.48	0	0	250	m			ft
+WE	wepp-24332	"05:39 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	range	6.22	0	0	120	m	15	75	ft
+WE	wepp-24512	"05:39 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	range	25.23	0	0	440	h	15	75	ft
+WE	wepp-24751	"05:40 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	range	6.33	14.18	0	1000	m	15	75	ft
+WE	wepp-24932	"05:40 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	forest	29.03	19.73	10.2	1000	m			ft
+WE	wepp-25146	"05:40 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	forest	11.78	13.82	19.39	230	m			ft
+WE	wepp-25367	"05:41 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	chap	9.19	0	0	240	m	80	0	ft
+WE	wepp-25566	"05:41 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	chap	3.5	0	0	40	m	80	0	ft
+WE	wepp-25764	"05:41 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	loam	25	forest	4.72	10.78	4.4	1000	l			ft
+WE	wepp-25924	"05:41 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	range	9.3	0	0	50	m	15	75	ft
+WE	wepp-26121	"05:42 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	chap	6.47	0	0	150	m	80	0	ft
+WE	wepp-32323	"05:51 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	chap	0	0	0	20	m	80	0	ft
+WE	wepp-32523	"05:52 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	chap	0	0	0	20	m	80	0	ft
+WE	wepp-32733	"05:52 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	forest	6	12	3	20	l			ft
+WE	wepp-420	"05:52 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	forest	1.7	0	0	150	m			ft
+WE	wepp-644	"05:52 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	chap	12.75	0	0	250	m	80	0	ft
+WE	wepp-841	"05:53 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	loam	25	forest	15.79	9.42	6.39	1000	l			ft
+WE	wepp-1000	"05:53 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	range	0	0	0	20	m	15	75	ft
+WE	wepp-1191	"05:53 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	forest	0	0	0	20	m			ft
+WE	wepp-1393	"05:53 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	range	2.26	3.62	9.31	840	m	15	75	ft
+WE	wepp-1606	"05:54 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	range	7.33	5.83	5	40	m	15	75	ft
+WE	wepp-1874	"05:54 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	forest	3.69	5.02	11.45	1000	m			ft
+WE	wepp-2081	"05:54 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	forest	2.29	0	0	60	m			ft
+WE	wepp-2254	"05:54 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	forest	4.48	0	0	250	m			ft
+WE	wepp-2462	"05:55 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	range	6.22	0	0	120	m	15	75	ft
+WE	wepp-2666	"05:55 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	range	25.23	0	0	440	h	15	75	ft
+WE	wepp-2897	"05:55 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	range	6.33	14.18	0	1000	m	15	75	ft
+WE	wepp-3098	"05:56 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	forest	29.03	19.73	10.2	1000	m			ft
+WE	wepp-3313	"05:56 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	forest	11.78	13.82	19.39	230	m			ft
+WE	wepp-3514	"05:56 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	chap	9.19	0	0	240	m	80	0	ft
+WE	wepp-3703	"05:56 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	chap	3.5	0	0	40	m	80	0	ft
+WE	wepp-3890	"05:57 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	loam	25	forest	4.72	10.78	4.4	1000	l			ft
+WE	wepp-4049	"05:57 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	range	9.3	0	0	50	m	15	75	ft
+WE	wepp-4256	"05:57 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	chap	6.47	0	0	150	m	80	0	ft
+WE	wepp-4475	"05:57 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	chap	7.1	0	0	100	m	80	0	ft
+WE	wepp-4678	"05:58 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	loam	25	forest	8.22	14.5	7.2	980	l			ft
+WE	wepp-4834	"05:58 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	range	17.91	0	0	240	h	15	75	ft
+WE	wepp-5069	"05:58 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	chap	13.6	17.58	1	1000	h	80	0	ft
+WE	wepp-5344	"05:59 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	chap	21.43	0	0	120	m	80	0	ft
+WE	wepp-5526	"05:59 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	chap	21.82	0	0	80	m	80	0	ft
+WE	wepp-5723	"05:59 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	forest	19.29	25.2	16.06	1000	l			ft
+WE	wepp-5872	"05:59 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	forest	7.5	0	0	20	m			ft
+WE	wepp-6097	"06:00 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	loam	25	forest	4.81	5.77	5.27	730	l			ft
+WE	wepp-6273	"06:00 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	range	15.81	0	0	320	l	15	75	ft
+WE	wepp-6409	"06:00 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	chap	7.27	0	0	280	m	80	0	ft
+WE	wepp-6592	"06:00 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	chap	10.39	0	0	610	m	80	0	ft
+WE	wepp-6786	"06:00 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	chap	16.73	0	0	320	m	80	0	ft
+WE	wepp-6976	"06:01 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	chap	14	0	0	110	l	80	0	ft
+WE	wepp-7143	"06:01 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	forest	10.96	11.48	2.87	1000	m			ft
+WE	wepp-7347	"06:01 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	forest	13.5	0	0	70	m			ft
+WE	wepp-7553	"06:01 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	forest	5.38	12.91	0	950	m			ft
+WE	wepp-7768	"06:02 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	range	4	15.75	16.36	300	h	15	75	ft
+WE	wepp-7981	"06:02 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	forest	17	17	10	30	m			ft
+WE	wepp-8119	"06:02 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	chap	19.83	5	0	490	m	80	0	ft
+WE	wepp-8279	"06:02 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	chap	15.5	18.38	0	140	l	80	0	ft
+WE	wepp-8371	"06:03 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	forest	13.12	0	0	210	l			ft
+WE	wepp-8457	"06:03 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	forest	25.87	0	0	90	m			ft
+WE	wepp-8591	"06:03 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	forest	9.5	15.66	19.64	750	m			ft
+WE	wepp-8739	"06:03 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	range	16	26.14	16.73	100	h	15	75	ft
+WE	wepp-8909	"06:03 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	range	3	0	2	840	m	15	75	ft
+WE	wepp-9049	"06:04 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	range	18.22	18.34	32.29	250	m	15	75	ft
+WE	wepp-9177	"06:04 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	range	2.6	0	0	60	m	15	75	ft
+WE	wepp-9305	"06:04 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	forest	3.75	6.07	7	770	l			ft
+WE	wepp-9399	"06:04 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	range	6.58	24.12	15	1000	m	15	75	ft
+WE	wepp-9539	"06:04 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	forest	13.24	32.68	25.75	1000	m			ft
+WE	wepp-9668	"06:05 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	forest	13.72	0	0	60	m			ft
+WE	wepp-9737	"06:05 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	forest	18.5	19.5	20.33	890	l			ft
+WE	wepp-9788	"06:05 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	forest	31.25	0	0	100	l			ft
+WE	wepp-9837	"06:05 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	range	8.78	0	0	100	m	15	75	ft
+WE	wepp-9908	"06:05 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	25	range	22.77	0	0	450	m	15	75	ft
+WE	wepp-14964	"06:22 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	chap	5	10.5	6	30	l	80	0	ft
+WE	wepp-15059	"06:22 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	forest	11	12.94	10.4	420	l			ft
+WE	wepp-15183	"06:22 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	loam	30	forest	7.5	9.45	7.33	180	l			ft
+WE	wepp-15284	"06:23 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	forest	5	7	3.5	100	l			ft
+WE	wepp-15377	"06:23 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	forest	4.33	15.15	22.45	620	l			ft
+WE	wepp-15471	"06:23 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	forest	13.33	15.79	11.13	560	l			ft
+WE	wepp-15573	"06:23 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	chap	22.5	20.88	11.62	30	l	80	0	ft
+WE	wepp-15671	"06:23 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	forest	9.28	16.66	8.55	280	l			ft
+WE	wepp-15784	"06:23 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	loam	30	chap	9.06	17.12	0	370	l	80	0	ft
+WE	wepp-15870	"06:24 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	loam	30	chap	6.44	0	0	230	l	80	0	ft
+WE	wepp-15964	"06:24 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	chap	29.62	26.48	23.75	160	l	80	0	ft
+WE	wepp-16062	"06:24 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	loam	30	forest	2.67	12.82	11.74	710	l			ft
+WE	wepp-16158	"06:24 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	forest	21	19.15	12.4	80	l			ft
+WE	wepp-16265	"06:24 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	loam	30	chap	1	0	1	10	l	80	0	ft
+WE	wepp-16363	"06:24 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	range	9.24	11.88	0	170	l	15	75	ft
+WE	wepp-16449	"06:24 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	chap	12	16.02	14.64	70	l	80	0	ft
+WE	wepp-16549	"06:25 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	chap	12.29	12.5	0	90	l	80	0	ft
+WE	wepp-16647	"06:25 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	chap	8.17	8.5	0	150	l	80	0	ft
+WE	wepp-16747	"06:25 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	chap	11.62	12.05	0	110	l	80	0	ft
+WE	wepp-16835	"06:25 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	chap	9	0	0	60	l	80	0	ft
+WE	wepp-16927	"06:25 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	forest	2.33	11	15.59	300	l			ft
+WE	wepp-17025	"06:25 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	range	1	0	0	30	l	15	75	ft
+WE	wepp-17123	"06:26 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	range	0.67	0	0	20	l	15	75	ft
+WE	wepp-17236	"06:26 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	chap	4.76	0	0	190	l	80	0	ft
+WE	wepp-17322	"06:26 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	chap	7.5	0	0	70	l	80	0	ft
+WE	wepp-17412	"06:26 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	chap	6.33	0	0	90	l	80	0	ft
+WE	wepp-17506	"06:26 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	chap	8	0	0	10	l	80	0	ft
+WE	wepp-17604	"06:26 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	chap	9.67	0	0	30	l	80	0	ft
+WE	wepp-17702	"06:26 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	chap	10.83	11.25	0	90	l	80	0	ft
+WE	wepp-17815	"06:27 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	chap	16	17	5.67	20	l	80	0	ft
+WE	wepp-17899	"06:27 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	chap	12.89	24.34	0	230	l	80	0	ft
+WE	wepp-17991	"06:27 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	chap	3.33	0	0	20	m	80	0	ft
+WE	wepp-18131	"06:27 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	chap	3.14	0	0	140	m	80	0	ft
+WE	wepp-18256	"06:27 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	forest	2.3	12.87	19.47	710	l			ft
+WE	wepp-18368	"06:27 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	loam	30	range	12.5	0	0	200	l	15	75	ft
+WE	wepp-18475	"06:28 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	loam	30	range	8	0	0	1	l	15	75	ft
+WE	wepp-18575	"06:28 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	loam	30	chap	4.08	0	0	130	l	80	0	ft
+WE	wepp-18723	"06:28 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	loam	30	chap	7.83	19.46	16.63	610	m	80	0	ft
+WE	wepp-18923	"06:28 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	loam	30	forest	11.54	21.02	0	460	m			ft
+WE	wepp-19132	"06:29 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	forest	27	23.23	11	80	l			ft
+WE	wepp-19259	"06:29 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	loam	30	forest	24.21	24.34	15.95	360	l			ft
+WE	wepp-19409	"06:29 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	chap	5.5	0	0	30	l	80	0	ft
+WE	wepp-19543	"06:29 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	forest	10.67	16.49	16.1	660	l			ft
+WE	wepp-19680	"06:29 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	forest	10	0	5	10	l			ft
+WE	wepp-19808	"06:29 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	chap	16	0	0	10	l	80	0	ft
+WE	wepp-19951	"06:30 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	forest	17	12.14	8.1	410	l			ft
+WE	wepp-20097	"06:30 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	chap	5.69	0	0	250	l	80	0	ft
+WE	wepp-20248	"06:30 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	chap	25.03	0	0	90	l	80	0	ft
+WE	wepp-20367	"06:30 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	forest	10.95	20.61	15.72	520	l			ft
+WE	wepp-20505	"06:30 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	forest	27	0	0	1	l			ft
+WE	wepp-20639	"06:31 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	loam	30	chap	2	0	2	10	l	80	0	ft
+WE	wepp-20776	"06:31 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	loam	30	forest	5	0	2	10	l			ft
+WE	wepp-20925	"06:31 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	loam	30	range	10	0	0	1	l	15	75	ft
+WE	wepp-21059	"06:31 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	range	8.17	6.21	4.67	180	l	15	75	ft
+WE	wepp-21183	"06:31 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	range	10.39	5.67	0	80	l	15	75	ft
+WE	wepp-21299	"06:32 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	loam	30	chap	8.24	18.08	0	640	m	80	0	ft
+WE	wepp-21508	"06:32 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	loam	30	chap	11.23	0	0	150	l	80	0	ft
+WE	wepp-21648	"06:32 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	chap	8	0	0	100	l	80	0	ft
+WE	wepp-21793	"06:32 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	loam	30	chap	0	0	0	1	l	80	0	ft
+WE	wepp-21940	"06:32 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	chap	17.38	0	0	30	m	80	0	ft
+WE	wepp-22144	"06:33 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	chap	23.17	0	0	120	m	80	0	ft
+WE	wepp-22314	"06:33 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	chap	10	8.39	13	300	l	80	0	ft
+WE	wepp-22448	"06:33 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	chap	5.5	7.03	6.17	110	l	80	0	ft
+WE	wepp-22580	"06:33 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	forest	6.18	14.63	10.15	790	l			ft
+WE	wepp-22713	"06:33 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	forest	0	0	5	1	m			ft
+WE	wepp-22896	"06:34 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	forest	4	0	0	20	l			ft
+WE	wepp-23028	"06:34 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	chap	21.36	11.54	0	250	l	80	0	ft
+WE	wepp-23169	"06:34 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	chap	20.1	0	0	90	l	80	0	ft
+WE	wepp-23300	"06:34 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	chap	16.36	0	0	220	m	80	0	ft
+WE	wepp-23497	"06:34 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	chap	17	20.96	7.6	220	l	80	0	ft
+WE	wepp-23627	"06:35 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	chap	10	18.14	15	70	m	80	0	ft
+WE	wepp-23827	"06:35 pm  Wednesday September 18, 2013"	"HETCH HETCHY CA +"	sand	50	forest	6.64	20.43	13.72	710	l			ft

@@ -1,0 +1,72 @@
+#this files was modified by filegenwhrm.pl on: Wednesday, March 16, 2005.
+#taxgroup Bats species Spotted bat /  Euderma maculatum
+#
+# Rank
+1,-99,3,-99,-99
+# Nestsite
+-99
+# Reprorank
+-99
+# Foraging Habitat
+20,-1
+# Habitatrank
+3,-99
+# Forage/Prey Availability
+-99
+# Preyrank
+-99
+# Predator Avoidance
+-99
+# Avoidrank
+-99
+# Refugia/Shelter
+-99
+# Shelterrank
+-99
+# Coverrank
+-99
+# Literature
+Distribution
+Montana directly south through Idaho and Wyoming to central Mexico, though it is rare within its range
+General Habitat
+arid habitats; ponderosa pine communities
+Home or Activity Range
+no information available
+Canopy Cover
+to forage in areas of low canopy closure (Leonard and Fenton 1983, Wai-Ping and Fenton 1989, Storz 1995)
+Specific Habitat Preferences
+rock crevices, cliffs and steep canyon walls for roosting
+Nestsite Characteristics
+no information available
+Foraging Habitat Characteristics
+clearings in PIPO forests, open meadows, marshes
+Diet
+moths
+Predators
+Mexican spotted owl
+Shelter Habitats
+roosts in rock crevices, cliffs, steep canyon walls
+Response to Disturbance
+rarely foraged in burned PIPO forest (Leonard and Fenton 1983)
+Sources of Information used in the Model
+Leonard and Fenton 1983, Wai-Ping and Fenton 1989, Storz 1995
+General Sources of Background Information
+Leonard and Fenton 1983, Wai-Ping and Fenton 1989, Storz 1995, reviewed in Ward and Block 1995, reviewed in Pearson 1999, Foresman 2001
+Summaries of Specific Studies
+Leonard, M.L.; Fenton, M.B. 1983. Habitat use by spotted bats (Euderma maculatum, Chiroptera: Vespertilionidae): roosting and foraging behavior. Canadian Journal of Zoology. 61: 1487-1491.
+
+Study Location: southern British Columbia
+Habitat Description: field, PIPO-PSME forest, burned PIPO forest
+Summary: Spotted bats concentrated foraging activities in open areas adjacent to PIPO forest. A field site was preferred to PIPO-PSME forest and burned PIPO forest. Spotted bats roosted alone in steep cliff faces.
+
+Storz, Jay F. 1995. Local distribution and foraging behavior of the spotted bat (Euderma maculatum) in northwestern Colorado and adjacent Utah. Great Basin Naturalist. 55: 78-83.
+
+Study Location: Dinosaur National Monument, Utah
+Habitat Description: canyon bottom vegetation: cottonwoods, various shrubs
+Summary: Local distribution and foraging behavior were noted for the spotted bat. The spotted bat occurred in a variety of habitat types including canyon bottoms and other low elevation sites. Foraging bats concentrated their activity in the open-air space above meadows and occasionally exploited near-canopy habitat. Exclusive foraging areas were maintained and distinct vocalizations indicated agnostic behavior at territory boundaries.
+
+Wai-Ping, Virginia; Fenton, M.Brock. 1989. Ecology of the spotted bat (Euderma maculatum): roosting and foraging behavior. Journal of Mammalogy. 70:617-622.
+
+Study Location: southern British Columbia
+Habitat Description: PIPO, marsh
+Summary: Spotted bats roosted in cliff faces and concentrated foraging activities over marshes and in open PIPO woodland. 

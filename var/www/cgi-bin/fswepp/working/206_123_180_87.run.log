@@ -1,0 +1,42 @@
+WR	wepp-100055	"09:13 am  Wednesday March 15, 2017"	"Test Ross Z +"	30	silt	native	200	4	13	15	50	1	25	20	inveg	ft
+WR	wepp-103214	"09:38 am  Wednesday March 15, 2017"	"Test Ross Z +"	30	silt	native	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-103480	"09:39 am  Wednesday March 15, 2017"	"Test Ross Z +"	30	silt	paved	200	4	13	15	50	1	25	20	inbare	ft
+WD	wepp-106686	"09:57 am  Wednesday March 15, 2017"	"Test Ross Z +"	10	silt	OldForest	400	0	30	100	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-107992	"10:03 am  Wednesday March 15, 2017"	"Test Ross Z +"	10	silt	Bunchgrass	400	0	30	60	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-108281	"10:06 am  Wednesday March 15, 2017"	"Test Ross Z +"	10	silt	Bunchgrass	400	0	30	60	20	OldForest	30	30	5	100	20	0	ft	""
+WD	wepp-108967	"10:10 am  Wednesday March 15, 2017"	"Test Ross Z +"	10	silt	HighFire	400	0	30	45	20	LowFire	30	30	5	85	20	0	ft	""
+WD	wepp-109505	"10:12 am  Wednesday March 15, 2017"	"Test Ross Z +"	10	silt	Bunchgrass	400	0	30	60	20	OldForest	30	30	5	100	20	0	ft	""
+WD	wepp-109665	"10:13 am  Wednesday March 15, 2017"	"Test Ross Z +"	10	silt	Bunchgrass	400	0	30	60	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-111004	"10:22 am  Wednesday March 15, 2017"	"Test Ross Z +"	10	silt	HighFire	400	0	30	45	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-111054	"10:22 am  Wednesday March 15, 2017"	"Test Ross Z +"	10	silt	HighFire	400	0	30	45	20	OldForest	150	30	5	100	20	0	ft	""
+WD	wepp-111115	"10:23 am  Wednesday March 15, 2017"	"Test Ross Z +"	10	silt	HighFire	400	0	30	45	20	OldForest	300	30	5	100	20	0	ft	""
+WD	wepp-111199	"10:23 am  Wednesday March 15, 2017"	"Test Ross Z +"	10	silt	HighFire	400	0	30	45	20	OldForest	700	30	5	100	20	0	ft	""
+WD	wepp-111388	"10:23 am  Wednesday March 15, 2017"	"Test Ross Z +"	10	silt	HighFire	400	0	30	45	20	OldForest	900	30	5	100	20	0	ft	""
+WD	wepp-111475	"10:24 am  Wednesday March 15, 2017"	"Test Ross Z +"	10	silt	HighFire	400	0	30	45	20	OldForest	925	30	5	100	20	0	ft	""
+WD	wepp-111522	"10:24 am  Wednesday March 15, 2017"	"Test Ross Z +"	10	silt	HighFire	400	0	30	45	20	OldForest	975	30	5	100	20	0	ft	""
+WR	wepp-117927	"11:23 am  Wednesday March 15, 2017"	"ABERDEEN 20 NNE WISHKA +"	30	clay	native	200	4	13	15	50	130	25	20	inveg	ft
+WD	wepp-118510	"11:27 am  Wednesday March 15, 2017"	"ABERDEEN 20 NNE WISHKA +"	10	clay	OldForest	50	0	30	100	20	OldForest	50	30	5	100	20	0	ft	""
+WR	wepp-120101	"11:36 am  Wednesday March 15, 2017"	"ABERDEEN 20 NNE WISHKA +"	30	clay	native	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-121279	"11:45 am  Wednesday March 15, 2017"	"ABERDEEN 20 NNE WISHKA +"	30	clay	native	200	4	13	15	50	130	25	20	inbare	ft
+WR	wepp-121500	"11:47 am  Wednesday March 15, 2017"	"ABERDEEN 20 NNE WISHKA +"	30	clay	paved	200	4	13	15	50	130	25	20	inbare	ft
+WD	wepp-124928	"12:09 pm  Wednesday March 15, 2017"	"ABERDEEN 20 NNE WISHKA +"	10	silt	OldForest	400	0	30	100	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-125450	"12:13 pm  Wednesday March 15, 2017"	"ABERDEEN 20 NNE WISHKA +"	10	silt	Bunchgrass	400	0	30	60	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-126070	"12:15 pm  Wednesday March 15, 2017"	"ABERDEEN 20 NNE WISHKA +"	10	silt	Bunchgrass	400	0	30	60	20	OldForest	30	30	5	100	20	0	ft	""
+WD	wepp-126619	"12:17 pm  Wednesday March 15, 2017"	"ABERDEEN 20 NNE WISHKA +"	10	silt	HighFire	400	0	30	45	20	LowFire	30	30	5	85	20	0	ft	""
+WD	wepp-127287	"12:21 pm  Wednesday March 15, 2017"	"ABERDEEN 20 NNE WISHKA +"	10	silt	Bunchgrass	400	0	30	60	20	OldForest	30	30	5	100	20	0	ft	""
+WD	wepp-127325	"12:21 pm  Wednesday March 15, 2017"	"ABERDEEN 20 NNE WISHKA +"	10	silt	Bunchgrass	400	0	30	60	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-127727	"12:23 pm  Wednesday March 15, 2017"	"ABERDEEN 20 NNE WISHKA +"	10	silt	HighFire	400	0	30	45	20	OldForest	10	30	5	100	20	0	ft	""
+WD	wepp-127811	"12:24 pm  Wednesday March 15, 2017"	"ABERDEEN 20 NNE WISHKA +"	10	silt	HighFire	400	0	30	45	20	OldForest	1.5	30	5	100	20	0	ft	""
+WD	wepp-127861	"12:24 pm  Wednesday March 15, 2017"	"ABERDEEN 20 NNE WISHKA +"	10	silt	HighFire	400	0	30	45	20	OldForest	200	30	5	100	20	0	ft	""
+WD	wepp-127904	"12:24 pm  Wednesday March 15, 2017"	"ABERDEEN 20 NNE WISHKA +"	10	silt	HighFire	400	0	30	45	20	OldForest	300	30	5	100	20	0	ft	""
+WD	wepp-127925	"12:24 pm  Wednesday March 15, 2017"	"ABERDEEN 20 NNE WISHKA +"	10	silt	HighFire	400	0	30	45	20	OldForest	500	30	5	100	20	0	ft	""
+WD	wepp-127940	"12:24 pm  Wednesday March 15, 2017"	"ABERDEEN 20 NNE WISHKA +"	10	silt	HighFire	400	0	30	45	20	OldForest	600	30	5	100	20	0	ft	""
+WD	wepp-127985	"12:24 pm  Wednesday March 15, 2017"	"ABERDEEN 20 NNE WISHKA +"	10	silt	HighFire	400	0	30	45	20	OldForest	750	30	5	100	20	0	ft	""
+WD	wepp-128069	"12:24 pm  Wednesday March 15, 2017"	"ABERDEEN 20 NNE WISHKA +"	10	clay	OldForest	50	0	30	100	20	OldForest	50	30	5	100	20	0	ft	""
+WD	wepp-128187	"12:25 pm  Wednesday March 15, 2017"	"ABERDEEN 20 NNE WISHKA +"	10	clay	HighFire	400	0	30	45	20	OldForest	850	30	5	100	20	0	ft	""
+WD	wepp-128310	"12:25 pm  Wednesday March 15, 2017"	"ABERDEEN 20 NNE WISHKA +"	10	clay	HighFire	400	0	30	45	20	OldForest	1000	30	5	100	20	0	ft	""
+WD	wepp-128528	"12:26 pm  Wednesday March 15, 2017"	"ABERDEEN 20 NNE WISHKA +"	10	clay	HighFire	400	0	30	45	20	OldForest	1200	30	5	100	20	0	ft	""
+WD	wepp-128610	"12:26 pm  Wednesday March 15, 2017"	"ABERDEEN 20 NNE WISHKA +"	10	silt	HighFire	400	0	30	45	20	OldForest	900	30	5	100	20	0	ft	""
+WD	wepp-128666	"12:26 pm  Wednesday March 15, 2017"	"ABERDEEN 20 NNE WISHKA +"	10	silt	HighFire	400	0	30	45	20	OldForest	950	30	5	100	20	0	ft	""
+WD	wepp-128724	"12:26 pm  Wednesday March 15, 2017"	"ABERDEEN 20 NNE WISHKA +"	10	silt	HighFire	400	0	30	45	20	OldForest	975	30	5	100	20	0	ft	""
+WD	wepp-128767	"12:27 pm  Wednesday March 15, 2017"	"ABERDEEN 20 NNE WISHKA +"	10	silt	HighFire	400	0	30	45	20	OldForest	970	30	5	100	20	0	ft	""

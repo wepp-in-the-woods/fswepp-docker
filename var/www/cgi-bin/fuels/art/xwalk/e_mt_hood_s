@@ -1,0 +1,30 @@
+#	Plant Associations and Management Guide for the Ponderosa Pine, Douglas-fir, and Grand Fir Zones, Mt Hood National Forest.
+#	Portland, OR: U.S. Department of Agriculture, Forest Service, Pacific Northwest Region. 136 p.
+#	Report R6-Ecol-TP-004-88.
+#	Topik, C., N.M. Halverson, and T. High. 1988.
+#
+# PIPO/QUGA-BASA to PIPO-QUGA/BASA
+# PIPO/QUGA-PUTR to PIPO-QUGA/PUTR
+# THPL/ABGR-ACTR to THPL-ABGR/ACTR
+# TSHE/ABGR-CLUN to TSHE-ABGR/CLUN
+#
+ABGR-PIEN/SMST	CoolF	MH	CoolF/MH	H
+ABGR/ACCI-ACTR	CoolF	DH	CoolF/DH	H
+ABGR/ACTR	CoolF	DH	CoolF/DH	H
+ABGR/CACH	CoolF	DH	CoolF/DH	H
+ABGR/CAGE	CoolF	DH	CoolF/DH	H
+ABGR/HODI	CoolF	DH	CoolF/DH	H
+ABGR/LIBO	CoolF	DH	CoolF/DH	H
+ABGR/POPU	CoolF	DH	CoolF/DH	H
+ABGR/SYAL	CoolF	DH	CoolF/DH	H
+ABGR/SYMO	CoolF	DH	CoolF/DH	H
+ABGR/TRLA	CoolF	DS	CoolF/DS	L
+PIPO-QUGA/BASA	PP	DG	PP/DG	L
+PIPO-QUGA/PUTR	PP	DG	PP/DG	L
+PSME/ARNE	PP	DS	PP/DS	L
+PSME/CAGE	DF	DS	DF/DS	L
+PSME/FEOC	DF	DS	DF/DS	L
+PSME/HODI-CAGE	DF	DS	DF/DS	L
+PSME/SYAL	DF	DS	DF/DS	L
+THPL-ABGR/ACTR	CH	DH	CH/DH	H
+TSHE-ABGR/CLUN	CH	MH	CH/MH	H

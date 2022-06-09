@@ -1,0 +1,22 @@
+WR	wepp-6520	"11:24 pm  Monday November 23, 2009"	"West Fork SPR +"	30	sand	native	500	3	16	15	50	130	25	20	inveg
+WR	wepp-6526	"11:25 pm  Monday November 23, 2009"	"West Fork SPR +"	30	sand	native	500	3	18	15	50	75	25	20	inveg
+WR	wepp-6532	"11:26 pm  Monday November 23, 2009"	"West Fork SPR +"	30	sand	native	500	3	18	15	50	25	40	20	inveg
+WR	wepp-6538	"11:27 pm  Monday November 23, 2009"	"West Fork SPR +"	30	sand	native	500	3	18	15	50	25	40	20	inveg
+WR	wepp-6572	"11:29 pm  Monday November 23, 2009"	"West Fork SPR +"	30	sand	native	500	3	18	15	50	25	40	20	inveg
+WR	wepp-6625	"11:32 pm  Monday November 23, 2009"	"West Fork SPR +"	30	sand	native	500	3	18	15	50	25	40	20	outrut
+WD	wepp-24459	"10:17 pm  Thursday December 10, 2009"	"West Fork SPR +"	30	sand	skid	91.4634146341463	5	40	15	15	skid	15.2439024390244	30	5	10	20	0	ft	"Gold Creek Slide Toe"
+WD	wepp-24467	"10:20 pm  Thursday December 10, 2009"	"West Fork SPR +"	30	sand	skid	91.4634146341463	5	60	10	15	skid	15.2439024390244	30	5	10	20	0	ft	"Gold Creek Slide Toe"
+WD	wepp-24472	"10:20 pm  Thursday December 10, 2009"	"West Fork SPR +"	30	sand	skid	91.4634146341463	5	60	10	15	skid	15.2439024390244	30	5	10	20	0	ft	"Gold Creek Slide Toe"
+WR	wepp-24541	"10:28 pm  Thursday December 10, 2009"	"West Fork SPR +"	30	sand	native	1000	4	16	12	50	60	15	15	outrut
+WR	wepp-24546	"10:29 pm  Thursday December 10, 2009"	"West Fork SPR +"	30	sand	native	1000	4	16	15	50	60	15	15	outrut
+WR	wepp-24599	"10:33 pm  Thursday December 10, 2009"	"West Fork SPR +"	30	sand	native	1000	10	16	15	50	60	15	15	outrut
+WR	wepp-24672	"10:43 pm  Thursday December 10, 2009"	"West Fork SPR +"	30	sand	native	1000	6	17	20	50	75	30	15	outrut
+WR	wepp-24728	"10:46 pm  Thursday December 10, 2009"	"West Fork SPR +"	30	sand	native	1000	6	17	20	50	10	40	15	outrut
+WD	wepp-24739	"10:49 pm  Thursday December 10, 2009"	"West Fork SPR +"	30	sand	skid	304.878048780488	0	10	60	15	tree5	15.2439024390244	30	5	100	20	0	ft	""
+WD	wepp-24744	"10:50 pm  Thursday December 10, 2009"	"West Fork SPR +"	30	sand	skid	304.878048780488	0	10	60	15	skid	6.09756097560976	40	0	20	20	0	ft	""
+WR	wepp-24783	"10:53 pm  Thursday December 10, 2009"	"West Fork SPR +"	30	sand	native	1000	6	17	15	50	60	25	15	outrut
+WR	wepp-24788	"10:53 pm  Thursday December 10, 2009"	"West Fork SPR +"	30	sand	native	1000	6	17	15	50	60	25	15	outrut
+WD	wepp-24795	"10:55 pm  Thursday December 10, 2009"	"West Fork SPR +"	30	sand	skid	304.878048780488	0	10	35	15	skid	6.09756097560976	30	0	35	20	0	ft	""
+WD	wepp-24800	"10:56 pm  Thursday December 10, 2009"	"West Fork SPR +"	5	sand	skid	304.878048780488	0	10	35	15	skid	6.09756097560976	30	0	35	20	0	ft	""
+WD	wepp-25029	"11:21 pm  Thursday December 10, 2009"	"West Fork SPR +"	30	sand	skid	121.951219512195	0	60	5	25	tree5	91.4634146341463	25	5	15	15	0	ft	""
+WD	wepp-25065	"11:22 pm  Thursday December 10, 2009"	"West Fork SPR +"	30	sand	skid	121.951219512195	0	60	5	25	skid	91.4634146341463	25	5	10	15	0	ft	""

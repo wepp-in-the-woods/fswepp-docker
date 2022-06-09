@@ -1,0 +1,24 @@
+WE	wepp-19799	"02:26 am  Saturday December 29, 2012"	"MOSCOW U OF I ID"	clay	20	chap	20	50	30	100	m	80	0	m
+WE	wepp-20200	"02:29 am  Saturday December 29, 2012"	"MOUNT SHASTA CA"	clay	20	chap	0	50	30	100	l	80	0	m
+WE	wepp-20359	"02:41 am  Saturday December 29, 2012"	"MOUNT SHASTA CA"	clay	20	chap	0	50	30	100	m	80	0	m
+WE	wepp-20540	"02:56 am  Saturday December 29, 2012"	"MOUNT SHASTA CA"	clay	20	chap	0	50	30	100	h	80	0	m
+WR	wepp-20780	"03:14 am  Saturday December 29, 2012"	"MOUNT SHASTA CA"	30	clay	native	820	3	13.12	9.84	45	164	25	20	inbare	ft
+WR	wepp-21753	"05:12 am  Saturday December 29, 2012"	"MOUNT SHASTA CA"	30	clay	native	820	3	13.12	9.84	45	164	25	20	inbare	ft
+WR	wepp-21774	"05:14 am  Saturday December 29, 2012"	"MOUNT SHASTA CA"	30	clay	native	820	3	13.12	9.84	45	164	25	20	inbare	ft
+WR	wepp-21840	"05:19 am  Saturday December 29, 2012"	"MOUNT SHASTA CA"	30	clay	graveled	820	3	13.12	9.84	45	164	25	20	inbare	ft
+WR	wepp-21889	"05:22 am  Saturday December 29, 2012"	"MOUNT SHASTA CA"	30	clay	paved	820	3	13.12	9.84	45	164	25	20	inbare	ft
+WR	wepp-21911	"05:24 am  Saturday December 29, 2012"	"MOUNT SHASTA CA"	30	clay	native	820	3	13.12	9.84	45	164	25	20	inveg	ft
+WR	wepp-21959	"05:26 am  Saturday December 29, 2012"	"MOUNT SHASTA CA"	30	clay	native	820	3	13.12	9.84	45	164	25	20	inbare	ft
+WR	wepp-21980	"05:27 am  Saturday December 29, 2012"	"MOUNT SHASTA CA"	30	clay	native	820	3	13.12	9.84	45	164	25	20	inveg	ft
+WR	wepp-22000	"05:29 am  Saturday December 29, 2012"	"MOUNT SHASTA CA"	30	clay	native	820	3	13.12	9.84	45	164	25	20	outrut	ft
+WR	wepp-22066	"05:31 am  Saturday December 29, 2012"	"MOUNT SHASTA CA"	30	clay	native	820	3	13.12	9.84	45	164	25	20	outunrut	ft
+WR	wepp-22190	"05:49 am  Saturday December 29, 2012"	"MOUNT SHASTA CA"	30	clay	native	820	3	13.12	9.84	45	164	25	20	outrut	ft
+WR	wepp-22210	"05:49 am  Saturday December 29, 2012"	"MOUNT SHASTA CA"	30	clay	native	820	3	13.12	9.84	45	164	25	20	inbare	ft
+WR	wepp-6230	"05:12 am  Sunday January 6, 2013"	"BIRMINGHAM WB AP AL"	30	clay	native	200	4	13	15	50	130	25	20	inveg	ft
+WE	wepp-7393	"07:03 am  Sunday January 6, 2013"	"MOUNT SHASTA CA"	clay	20	chap	0	50	30	300	l	80	0	ft
+WE	wepp-7499	"07:10 am  Sunday January 6, 2013"	"MOUNT SHASTA CA"	clay	20	chap	0	50	30	300	m	80	0	ft
+WE	wepp-7579	"07:12 am  Sunday January 6, 2013"	"MOUNT SHASTA CA"	clay	20	chap	0	50	30	300	h	80	0	ft
+WE	wepp-7994	"07:57 am  Sunday January 6, 2013"	"MOUNT SHASTA CA"	clay	20	forest	0	50	30	300	l			ft
+WE	wepp-8102	"07:59 am  Sunday January 6, 2013"	"MOUNT SHASTA CA"	clay	20	range	0	50	30	300	l	15	75	ft
+WE	wepp-8171	"08:01 am  Sunday January 6, 2013"	"MOUNT SHASTA CA"	clay	20	chap	0	50	30	300	l	80	0	ft
+WE	wepp-8294	"08:03 am  Sunday January 6, 2013"	"MOUNT SHASTA CA"	clay	20	forest	0	50	30	300	l			ft

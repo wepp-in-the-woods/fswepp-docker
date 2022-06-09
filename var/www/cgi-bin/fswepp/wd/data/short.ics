@@ -1,0 +1,16 @@
+#
+#	Short prairie grass initial Conditions scenario for Disturbed WEPP (1/2000 DEH)
+#
+SHORT
+Initial conditions for short grass prairie
+W. Elliot 01/99
+
+1	# `landuse' - <Cropland>
+1.1	0.2	1000	900	0	inrcov
+4	# `iresd' - <SHORT>
+2	# `mgmt' - <Perennial>
+1000	0.1	rilcov	0.1	0
+1	# `rtyp' - <Temporary>
+0	0	0.1	0.2	0
+0.1	0.1
+

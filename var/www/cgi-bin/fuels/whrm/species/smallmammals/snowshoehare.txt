@@ -1,0 +1,96 @@
+#this files was modified by filegenwhrm.pl on: Wednesday, March 16, 2005.
+#taxgroup Small Mammals species Snowshoe hare /  Lepus americanus
+#
+# Rank
+3,-99,2,2,4
+# Nestsite
+-99
+# Reprorank
+-99
+# Foraging Habitat
+6,1
+# Habitatrank
+2,-99
+# Forage/Prey Availability
+22,1
+# Preyrank
+2,-99
+# Predator Avoidance
+6,1:12,1:22,1
+# Avoidrank
+1,-99:1,-99:2,-99
+# Refugia/Shelter
+6,1:12,1:22,1
+# Shelterrank
+1,-99:1,-99:2,-99
+# Coverrank
+1,-99:1,-99:2,-99
+# Literature
+Distribution
+northern N. America, along Rocky and Appalachian Mt. Chains
+General Habitat
+boreal coniferous forests; variety of forest types: dense PSME, PICO
+Home or Activity Range
+7- 15 ac
+Canopy Cover
+No information available
+Specific Habitat Preferences
+dense understory vegetation, heavy-structured ground litter, respond positively to edge, young PICO
+Nestsite Characteristics
+no information available
+Foraging Habitat Characteristics
+dense understory vegetation, young PICO
+Diet
+spring/summer: grasses, sedges, ferns, leaves of deciduous trees. Winter: twigs and buds of deciduous and coniferous species, conifer needles, mosses, lichens
+Predators
+lynx, American marten, great-horned owl, other forest carnivores and raptors
+Shelter Habitats
+dense understory vegetation, young PICO
+Response to Disturbance
+hares present in a stand were not caught again after clearcut (Hooven and Black 1976); in general, less abundant in stands harvested for fuels reduction (Bull and Blumton 1999); increased 10 years after treatment in clearcut/burned stands (Gashwiler 1970); lowest hare abundance in site pre-commercially thinned 5-10 years ago (Shick 2003); hare abundance increased with time since pre-commercial thinning to levels equal to unthinned forest within 10-25 years of thinning (Shick 2003); pellets were highest in the unthinned stands, but also higher in the chemically thinned stands vs. the conventionally thinned stands (Sullivan et al. 2002); use of sapling stands was generally unchanged after thinning, however, use within the control stand and adjacent mature stands suggested that there was a considerable movement of hares to these stands after thinning (Ausband and Baty unpub.)
+Sources of Information used in the Model
+Hooven and Black 1976, Koehler 1990, Bull and Blumton 1999, Shick 2003
+General Sources of Background Information
+Gashwiler 1970, Hooven and Black 1976, Koehler 1990, reviewed in Hagar et al. 1995, Bull and Blumton 1999, Foresman 2001, Sullivan et al. 2002, Shick 2003, reviewed in Sallabanks et al. 2003, Ausband and Baty unpub.
+Summaries of Specific Studies
+Bull, Evelyn L.; Blumton, Arlene K. 1999. Effect of fuels reduction on American martens and their prey. Research Note PNW-RN-539. Portland, OR: USDA Forest Service, Pacific Northwest Research Station. 9 p.
+
+Study Location: northeastern Oregon
+Habitat Description: PICO, mixed conifer: ABLA, ABGR, LAOC, PIEN, PSME
+Summary: The effect of fuels reduction on American marten was investigating by examining prey response to harvesting in lodgepole and mixed conifer stands. In general, the harvest activities resulted in fewer post-harvest numbers of red-backed voles and snowshoe hares and in more chipmunks. Red squirrels declined in the control and scattered treatment, and slightly increased in the island treatment. Harvest techniques that retained some cover in the form of downed logs or pockets of regeneration were favored by small mammals to techniques where cover was removed. The declines of red-backed voles, red squirrels and snowshoe hares as a result of harvesting would negatively impact marten, as these small mammals comprise a majority of the marten diet. Furthermore, the structures that many small mammals use for cover, including downed logs, are also used by marten. Therefore, it appears that although marten could be negatively impacted by the fuels reduction methods used in this study, the technique that retained certain structures should be further investigated as an option for managers. The authors note that extrapolation of the data should be done with caution, as sample size and sampling period were limited.
+
+Gashweiler, Jay S. 1970. Plant and animal changes on a clearcut in west-central Oregon. Ecology. 51:1018-1026.
+
+Study Location: west-central Oregon (west Cascades)
+Habitat Description: PSME, TSHE, THPL
+Summary: Study documents changes in plant and mammal communities for 11 years following a clearcut with a fall burn. Deer mice increased in the experimental area soon after the burn was completed. Other species that increased at various times after the burn include Townsend's chipmunk, snowshoe hare, and the Oregon vole. Red-back voles, northern flying squirrels, and Douglas' squirrels were not found in the clearcut/burn. California squirrels migrated into the clearcut/burn.
+
+Hagar, Joan C. McComb, William; Chambers, Carol C. 1995. Effects of forest practices on wildlife. Chapter 9 In: Beschta, Robert L.; Boyle, James R.; Chambers, Carol C.; Gibson, Wayne P.; Gregory, Stanley V.; Grizzel, Jeffrey; Hagar, Joan C.; Li, Judy, L.; McComb, William C.; Parzybok, Tye W.; Reiter, Maryanne L.; Taylor, George H.; Warila, James E. Cumulative effects of forest practices in Oregon: literature and synthesis. Salem, OR: Oregon Department of Forestry. 145 p.
+
+Study Location: Oregon
+Habitat Description: variety
+Summary: Synthesis of the direct impacts of forest practices on wildlife populations in Oregon. Wildlife habitat and the ecological role of disturbance are theoretically outlined. A gradient approach to habitat is discussed, using the following gradients: edge density and contrast (Table 9.1, 9.3), seral stage (Table 9.4, 9.5), canopy cover (Table 9.6), floristic composition (Table 9.8, 9.10), dead wood (Table 9.11), special habitat features (caves, cliffs, talus) (Table 9.13, 9.14, 9.15), riparian areas (Table 9.17). Species-specific responses to these gradients are reviewed for managed and unmanaged forests. 
+
+Hooven, Edward F.; Black, Hugh C. 1976. Effects of some clearcutting practices on small-mammal populations in western Oregon. Northwest Science. 50(4):189-208.
+
+Study Location: western Oregon (Cascades)
+Habitat Description: PSME; also TSHE, THPL, ABGR
+Summary: Changes in small mammal populations were documented in two clearcut (one with slash burned) and one uncut PSME stand. Shrews and chipmunks were adversely impacted by logging, while deer mice and Oregon creeping voles were affected favorably by both logging and slash burnings
+
+Koehler, Gary M. 1990. Population and habitat characteristics of lynx and snowshoe hares in north central Washington. Canadian Journal of Zoology. 68: 845-851.
+
+Study Location: north central Washington
+Habitat Description: PSME-PIPO at low elevations; PIEN, ABLA, PICO, aspen at high elevations
+Summary: Lynx and snowshoe hare population characteristics and habitat use were studied in north-central Washington. Lynx commonly used areas above 1500 m in elevation that were dominated by PICO-ABLA-PIEN cover types. Snowshoe hares, the primary prey item of lynx in this study, were found most abundantly in young PICO stands. This stand type is limited in the study area, resulting in a patchy prey base that might explain the relatively large home ranges, low density of adults, and high kitten mortality rates demonstrated by lynx.
+
+Shick, Katharine. 2003. The influence of stand-level vegetation and landscape composition on the abundance of snowshoe hares (Lepus americanus) in managed forest stands in western Montana. Missoula, MT: University of Montana. 102 p. M.S. Thesis.
+
+Study Location: western Montana
+Habitat Description: mixed conifer; includes: PSME, PIPO, PICO, LAOC, ABLA, PIEN
+Summary: This study examined variation in hare abundances in managed forest stands in two regions of western Montana. Horizontal cover variables above 0.5 m were most predictive of hare pellet densities. Understory components were more predictive than other strata of vegetation. Significant differences in hare abundance existed in a variety of managed stand types in western Montana. Unthinned stands had the highest pellet densities, while pole stands had the lowest densities. The relationship between pre-commercial thinning and pellet densities varied with the temporal scale under consideration. Stands that underwent pre-commercial thinning 5-10 years ago had significantly lower hare abundances than stands that had not been pre-commercially thinned. Pellet densities increased as time since thinning increased. This study also found a limited number of landscape variables that significantly predicted hare pellet densities. Two variables, perimeter to area ratio and disturbance within a 600 m buffer, significantly predicted pellet densities across all stand types, though their ability to explain variation in pellet density was weak. The relationship of pellet densities to explanatory variables at a landscape scale was inconsistent and often contradictory between the two study regions. Integration of stand-level vegetation with landscape metrics resulted in an improved ability to predict hare pellet densities. However, as stand-level vegetation was much more predictive of pellet densities than landscape variables, it is recommended that management focus on individual stand units to optimize the distribution of habitat capable of supporting high densities of snowshoe hares.
+
+Sullivan, Thomas P.; Druscilla, S.; Lindgren, Pontus M.F.; Boateng, Jacob O. 2002. Influence of conventional and chemical thinning on stand structure and diversity of plant and small mammal communities in young lodgepole forest. Forest Ecology and Management. 170: 173-187.
+
+Study Location:  south-central British Columbia
+Habitat Description: PICO, in a ABLA/PIGL climax zone
+Summary: This study tested the hypotheses that the abundance and diversity of stand structural attributes, forest floor mammal communities, and relative habitat use of large herbivores will all increase from unthinned to conventionally thinned to chemically thinned stands of young PICO forest. Abundance and diversity of understory vegetation and small mammal communities were generally unaffected by stand thinning. Deer mice were most abundant in the chemically thinned stands, followed by unthinned and conventionally thinned stands. Heather voles were most abundant in the conventionally thinned stands. Other small mammals were similar between treatments. Mule deer habitat use was higher in conventionally thinned stands followed by chemically thinned stands over unthinned. Snowshoe hare pellets were highest in the unthinned stands, but also higher in the chemically thinned stands vs. the conventionially thinned stands. The patterns observed are attributed to the differences in stands structure that resulted from the treatment types.

@@ -1,0 +1,12 @@
+WR	wepp-21267	"04:41 am  Wednesday November 27, 2013"	""	1			0	0	0	0	0	0	0	0		
+WR	wepp-21409	"04:56 am  Wednesday November 27, 2013"	"RIO PIEDRAS EXP FARM PR"	30	silt	native	100	5	5	5	30	0.3	20	20	outrut	m
+WD	wepp-21480	"04:59 am  Wednesday November 27, 2013"	"RIO PIEDRAS EXP FARM PR"	30	silt	OldForest	100	20	20	100	15	OldForest	100	20	20	100	15	0	m	""
+WD	wepp-21563	"05:04 am  Wednesday November 27, 2013"	"RIO PIEDRAS EXP FARM PR"	30	silt	OldForest	100	20	20	95	15	OldForest	100	20	20	95	15	0	m	""
+WR	wepp-21683	"05:11 am  Wednesday November 27, 2013"	"RIO PIEDRAS EXP FARM PR"	30	silt	native	100	5	5	5	30	0.3	20	20	outrut	m
+WD	wepp-21978	"05:33 am  Wednesday November 27, 2013"	"RIO PIEDRAS EXP FARM PR"	30	silt	Bunchgrass	100	20	20	95	15	Bunchgrass	100	20	20	95	15	0	m	""
+WD	wepp-22247	"06:07 am  Wednesday November 27, 2013"	"RIO PIEDRAS EXP FARM PR"	30	silt	Sod	100	20	20	50	15	Sod	100	20	20	50	15	0	m	""
+WD	wepp-23004	"07:22 am  Wednesday November 27, 2013"	"RIO PIEDRAS EXP FARM PR"	30	silt	Shrub	100	20	20	80	15	Shrub	100	20	20	80	15	0	m	""
+WD	wepp-23250	"07:34 am  Wednesday November 27, 2013"	"RIO PIEDRAS EXP FARM PR"	30	sand	OldForest	100	20	20	95	15	OldForest	100	20	20	95	15	0	m	""
+WD	wepp-23560	"08:12 am  Wednesday November 27, 2013"	"RIO PIEDRAS EXP FARM PR"	30	silt	Shrub	100	20	20	80	15	Shrub	100	20	20	80	15	0	m	""
+WR	wepp-24639	"09:23 am  Wednesday November 27, 2013"	"RIO PIEDRAS EXP FARM PR"	30	clay	native	60	4	4	5	50	40	25	20	inveg	m
+wt	wepp-24711	"Nov 27, 2013"	"RIO PIEDRAS EXP FARM PR"	granitic	OldForest	0	30	50	100	20	YoungForest	30	5	50	100	20	m	""

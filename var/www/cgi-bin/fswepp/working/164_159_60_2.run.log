@@ -1,0 +1,63 @@
+WR	wepp-16766	"04:20 pm  Friday November 6, 2009"	"SEELEY LAKE RS MT 22.55 +"	1	sand	native	200	4	13	15	50	130	25	20	inveg
+WR	wepp-17653	"01:11 pm  Friday April 15, 2011"	"SEXTON SUMMIT WB OR"	30	sand	native	900	35	115	15	50	120	10	35	inbare	ft
+WR	wepp-17660	"01:12 pm  Friday April 15, 2011"	"SEXTON SUMMIT WB OR"	1	sand	native	900	35	115	15	50	120	10	35	inbare	ft
+WR	wepp-17678	"01:14 pm  Friday April 15, 2011"	"MOUNT SHASTA CA"	1	sand	native	900	35	115	900	0.3	115	10	35	inbare	ft
+WR	wepp-17702	"01:15 pm  Friday April 15, 2011"	"MOUNT SHASTA CA"	1	sand	native	900	35	115	900	35	115	0.3	35	inbare	ft
+WR	wepp-17727	"01:20 pm  Friday April 15, 2011"	"FORT BIDWELL CA"	30	sand	native	1000	35	115	1000	35	115	1	30	inveg	ft
+WR	wepp-17732	"01:20 pm  Friday April 15, 2011"	"FORT BIDWELL CA"	1	sand	native	1000	35	115	1000	35	115	1	30	inbare	ft
+WR	wepp-17737	"01:20 pm  Friday April 15, 2011"	"FORT BIDWELL CA"	1	sand	native	1000	35	115	1000	35	115	0.3	30	inbare	ft
+WR	wepp-17742	"01:21 pm  Friday April 15, 2011"	"FORT BIDWELL CA"	1	sand	native	1000	35	115	1000	50	115	0.3	30	inbare	ft
+WR	wepp-17747	"01:22 pm  Friday April 15, 2011"	"FORT BIDWELL CA"	1	sand	native	1000	35	115	1000	50	115	0.3	30	inveg	ft
+WR	wepp-17752	"01:22 pm  Friday April 15, 2011"	"FORT BIDWELL CA"	1	sand	native	1000	35	115	1000	50	115	0.3	20	inveg	ft
+WR	wepp-17757	"01:23 pm  Friday April 15, 2011"	"FORT BIDWELL CA"	1	sand	native	1000	35	115	1000	50	115	0.3	20	inbare	ft
+WR	wepp-17768	"01:26 pm  Friday April 15, 2011"	"FORT BIDWELL CA"	1	sand	native	1000	40	120	1000	50	120	0.3	20	inbare	ft
+WR	wepp-17773	"01:28 pm  Friday April 15, 2011"	"FORT BIDWELL CA"	1	sand	native	1000	40	115	1000	100	115	0.3	20	inbare	ft
+WR	wepp-17778	"01:29 pm  Friday April 15, 2011"	"FORT BIDWELL CA"	1	sand	native	1000	35	115	1000	100	115	0.3	20	inbare	ft
+WR	wepp-17783	"01:29 pm  Friday April 15, 2011"	"FORT BIDWELL CA"	1	sand	native	1000	35	115	1000	100	115	0.3	20	inbare	ft
+WR	wepp-17788	"01:29 pm  Friday April 15, 2011"	"FORT BIDWELL CA"	1	sand	native	1000	35	115	1000	100	115	0.3	20	inbare	ft
+WR	wepp-17812	"01:30 pm  Friday April 15, 2011"	"FORT BIDWELL CA"	1	sand	native	1000	35	115	1000	100	115	0.3	20	inbare	ft
+WR	wepp-17817	"01:31 pm  Friday April 15, 2011"	"FORT BIDWELL CA"	1	sand	native	1000	35	115	1000	100	1	0.3	20	outrut	ft
+WR	wepp-17822	"01:31 pm  Friday April 15, 2011"	"FORT BIDWELL CA"	1	sand	native	1000	35	115	1000	100	1	0.3	20	inbare	ft
+WR	wepp-29348	"09:37 am  Monday December 5, 2011"	"FORT BIDWELL CA"	30	clay	native	200	4	13	15	50	130	25	20	inveg	ft
+WE	wepp-30677	"11:37 am  Tuesday May 8, 2012"	"MC NARY AZ"	clay	20	forest	0	50	30	300	l			ft
+WR	wepp-26609	"11:03 am  Wednesday May 30, 2012"	"Grouse Ridge +"	30	silt	native	300	4	15	20	50	150	25	10	outrut	ft
+WR	wepp-26729	"11:15 am  Wednesday May 30, 2012"	"Grouse Ridge +"	30	silt	native	300	4	15	20	50	300	25	10	outrut	ft
+WR	wepp-26749	"11:17 am  Wednesday May 30, 2012"	"Grouse Ridge +"	30	silt	native	300	4	15	20	50	500	25	10	outrut	ft
+WR	wepp-26769	"11:17 am  Wednesday May 30, 2012"	"Grouse Ridge +"	30	silt	native	200	4	13	15	50	500	0.3	10	inveg	ft
+WR	wepp-26832	"11:18 am  Wednesday May 30, 2012"	"Grouse Ridge +"	30	silt	native	300	4	15	20	50	500	5	10	outrut	ft
+WR	wepp-26852	"11:18 am  Wednesday May 30, 2012"	"Grouse Ridge +"	30	silt	native	300	4	15	20	50	500	5	10	outrut	ft
+WR	wepp-26859	"11:19 am  Wednesday May 30, 2012"	"Grouse Ridge +"	10	silt	native	300	4	15	20	50	500	5	10	outrut	ft
+WR	wepp-26879	"11:19 am  Wednesday May 30, 2012"	"Grouse Ridge +"	10	silt	native	200	4	13	15	50	500	0.3	10	outrut	ft
+WR	wepp-26926	"11:20 am  Wednesday May 30, 2012"	"Grouse Ridge +"	10	silt	native	200	4	13	15	100	75	10	10	outrut	ft
+WR	wepp-26946	"11:20 am  Wednesday May 30, 2012"	"Grouse Ridge +"	10	silt	native	300	4	15	20	50	300	5	10	outrut	ft
+WR	wepp-26965	"11:22 am  Wednesday May 30, 2012"	"Grouse Ridge +"	10	silt	native	200	4	13	15	100	500	10	10	outrut	ft
+WR	wepp-26985	"11:22 am  Wednesday May 30, 2012"	"Grouse Ridge +"	10	silt	native	300	4	15	20	50	5	5	10	outrut	ft
+WR	wepp-26992	"11:23 am  Wednesday May 30, 2012"	"Grouse Ridge +"	10	silt	native	200	4	13	15	100	5	20	10	outrut	ft
+WR	wepp-27012	"11:24 am  Wednesday May 30, 2012"	"Grouse Ridge +"	10	silt	graveled	300	4	15	20	50	5	5	10	outrut	ft
+WR	wepp-27031	"11:24 am  Wednesday May 30, 2012"	"Grouse Ridge +"	10	silt	graveled	200	4	13	15	100	5	20	10	outrut	ft
+WD	wepp-27181	"11:43 am  Wednesday May 30, 2012"	"Grouse Ridge +"	10	silt	YoungForest	250	10	30	90	20	OldForest	300	30	15	100	20	0	ft	""
+WD	wepp-27201	"11:43 am  Wednesday May 30, 2012"	"Sandbox +"	10	clay	YoungForest	200	5	30	90	10	OldForest	300	30	15	100	20	0	ft	""
+WD	wepp-27222	"11:44 am  Wednesday May 30, 2012"	"Sandbox +"	10	clay	YoungForest	200	5	30	50	10	OldForest	300	30	15	100	20	0	ft	""
+WD	wepp-27288	"11:45 am  Wednesday May 30, 2012"	"Sandbox +"	10	clay	Skid	200	5	30	10	10	OldForest	300	30	15	100	20	0	ft	""
+WD	wepp-27308	"11:46 am  Wednesday May 30, 2012"	"Sandbox +"	10	clay	YoungForest	200	5	30	100	10	OldForest	50	30	15	100	20	0	ft	""
+WD	wepp-27328	"11:46 am  Wednesday May 30, 2012"	"Sandbox +"	10	clay	YoungForest	200	5	30	80	10	OldForest	50	30	15	100	20	0	ft	""
+WD	wepp-27404	"11:50 am  Wednesday May 30, 2012"	"Grouse Ridge +"	10	silt	YoungForest	250	10	30	50	20	OldForest	300	30	15	25	20	0	ft	""
+WD	wepp-27424	"11:50 am  Wednesday May 30, 2012"	"Sandbox +"	10	clay	YoungForest	200	5	10	0	75	OldForest	50	30	15	90	20	0	ft	""
+WD	wepp-27444	"11:52 am  Wednesday May 30, 2012"	"Sandbox +"	10	clay	Bunchgrass	200	5	10	60	20	OldForest	50	30	15	90	20	0	ft	""
+WD	wepp-27464	"11:53 am  Wednesday May 30, 2012"	"Grouse Ridge +"	10	silt	YoungForest	250	10	30	0	20	OldForest	300	30	15	25	20	0	ft	""
+WD	wepp-27485	"11:54 am  Wednesday May 30, 2012"	"Grouse Ridge +"	10	silt	YoungForest	250	10	30	0	75	OldForest	300	30	15	25	20	0	ft	""
+WD	wepp-27532	"11:55 am  Wednesday May 30, 2012"	"Grouse Ridge +"	10	silt	YoungForest	1000	10	30	0	75	OldForest	300	30	15	25	20	0	ft	""
+WD	wepp-27551	"11:55 am  Wednesday May 30, 2012"	"Grouse Ridge +"	10	silt	YoungForest	1000	10	30	0	75	OldForest	300	30	15	25	20	0	ft	""
+WD	wepp-27558	"11:55 am  Wednesday May 30, 2012"	"Grouse Ridge +"	10	silt	YoungForest	1000	10	30	0	75	OldForest	300	30	15	25	20	0	ft	""
+WD	wepp-27565	"11:57 am  Wednesday May 30, 2012"	"Grouse Ridge +"	10	silt	YoungForest	1000	10	60	0	75	OldForest	300	30	15	25	20	0	ft	""
+WD	wepp-27585	"11:58 am  Wednesday May 30, 2012"	"Grouse Ridge +"	10	silt	YoungForest	1000	10	60	0	75	OldForest	100	30	15	25	20	0	ft	""
+WD	wepp-27605	"11:59 am  Wednesday May 30, 2012"	"Grouse Ridge +"	10	silt	YoungForest	1000	10	60	0	75	Sod	100	30	15	0	20	0	ft	""
+WD	wepp-27741	"12:01 pm  Wednesday May 30, 2012"	"Grouse Ridge +"	10	silt	YoungForest	1000	10	60	0	75	Sod	100	60	15	0	20	0	ft	""
+WD	wepp-27794	"12:05 pm  Wednesday May 30, 2012"	"Grouse Ridge +"	30	silt	YoungForest	1000	10	60	50	75	Sod	100	60	15	40	20	0	ft	""
+WD	wepp-27818	"12:08 pm  Wednesday May 30, 2012"	"Sandbox +"	100	clay	Bunchgrass	200	5	10	60	20	OldForest	50	30	15	90	20	0	ft	""
+WD	wepp-27839	"12:10 pm  Wednesday May 30, 2012"	"Grouse Ridge +"	30	silt	YoungForest	1000	10	60	70	15	Sod	100	60	15	80	20	0	ft	""
+WD	wepp-27859	"12:10 pm  Wednesday May 30, 2012"	"Sandbox +"	100	clay	Bunchgrass	1000	5	40	80	15	OldForest	300	30	15	90	20	0	ft	""
+WR	wepp-27913	"12:13 pm  Wednesday May 30, 2012"	"WALLOWA OR"	30	clay	native	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-27984	"12:19 pm  Wednesday May 30, 2012"	"WALLOWA OR"	30	clay	graveled	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-169568	"01:06 pm  Thursday April 16, 2015"	"SEELEY LAKE RS MT"	30	clay	native	200	4	13	15	50	130	25	10	outrut	ft
+WE	wepp-69633	"07:59 am  Thursday December 7, 2017"	"SEELEY LAKE RS MT"	clay	20	forest	0	50	30	300	l			ft

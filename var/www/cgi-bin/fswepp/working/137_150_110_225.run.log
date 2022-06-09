@@ -1,0 +1,19 @@
+WE	wepp-92792	"02:00 pm  Tuesday November 19, 2019"	"TAHOE CA"	silt	20	forest	0	50	30	300	l			ft
+WE	wepp-93508	"02:02 pm  Tuesday November 19, 2019"	"TAHOE CA"	silt	20	forest	0	50	30	300	h			ft
+WE	wepp-94756	"02:04 pm  Tuesday November 19, 2019"	"TAHOE CA"	silt	20	range	0	50	30	300	l	20	70	ft
+WE	wepp-95951	"02:06 pm  Tuesday November 19, 2019"	"TAHOE CA"	silt	20	range	0	50	30	300	h	20	70	ft
+WE	wepp-97458	"02:07 pm  Tuesday November 19, 2019"	"TAHOE CA"	clay	20	chap	0	50	30	300	l	20	70	ft
+WE	wepp-98371	"02:08 pm  Tuesday November 19, 2019"	"TAHOE CA"	silt	20	range	0	50	30	300	l	20	70	ft
+WE	wepp-99197	"02:10 pm  Tuesday November 19, 2019"	"TAHOE CA"	silt	20	chap	0	50	30	300	l	20	70	ft
+WE	wepp-103127	"02:15 pm  Tuesday November 19, 2019"	"TAHOE CA"	silt	20	range	0	50	30	300	l	20	70	ft
+WE	wepp-103597	"02:15 pm  Tuesday November 19, 2019"	"TAHOE CA"	silt	20	range	0	50	30	300	h	20	70	ft
+WE	wepp-104412	"02:16 pm  Tuesday November 19, 2019"	"TAHOE CA"	silt	20	chap	0	50	30	300	l	20	70	ft
+WE	wepp-105139	"02:16 pm  Tuesday November 19, 2019"	"TAHOE CA"	silt	20	chap	0	50	30	300	h	20	70	ft
+WR	wepp-114189	"02:31 pm  Tuesday November 19, 2019"	"TAHOE CA"	30	silt	native	200	5	13	15	50	50	25	20	outrut	ft
+WR	wepp-114595	"02:32 pm  Tuesday November 19, 2019"	"TAHOE CA"	30	silt	native	200	15	13	50	50	50	25	20	outrut	ft
+WR	wepp-115054	"02:33 pm  Tuesday November 19, 2019"	"TAHOE CA"	30	silt	native	200	5	13	150	50	50	25	20	outrut	ft
+WR	wepp-115279	"02:34 pm  Tuesday November 19, 2019"	"TAHOE CA"	30	silt	native	200	15	13	150	50	50	25	20	outrut	ft
+WR	wepp-115535	"02:34 pm  Tuesday November 19, 2019"	"TAHOE CA"	30	silt	graveled	200	5	13	50	50	50	25	20	outrut	ft
+WR	wepp-115764	"02:35 pm  Tuesday November 19, 2019"	"TAHOE CA"	30	silt	graveled	200	15	13	50	50	50	25	20	outrut	ft
+WR	wepp-116035	"02:36 pm  Tuesday November 19, 2019"	"TAHOE CA"	30	silt	graveled	200	5	13	150	50	50	25	20	outrut	ft
+WR	wepp-116132	"02:37 pm  Tuesday November 19, 2019"	"TAHOE CA"	30	silt	graveled	200	15	13	150	50	50	25	20	outrut	ft

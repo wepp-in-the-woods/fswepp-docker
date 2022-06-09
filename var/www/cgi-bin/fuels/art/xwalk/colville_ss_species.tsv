@@ -1,0 +1,132 @@
+#Conifer species in Colville Subseries arranged by (decreasing) expected percent cover and rated for potential Armillaria impact				
+#Subseries	Species	Role*	Average Expected Cover (%)	Potential Disease Impact
+#General Note: Because of White Pine Blister Rust, PSME & ABGR have replaced the more Armillaria-tolerant 				
+#PIMO as primary serals in subseries where PIMO appears.  Restoration to PIMO following removal of PSME &				
+#ABGR will help to limit future damage by Armillaria in those subseries.				
+CH/MH	HSERAL			
+	THPL	S/c/C	17.7	High if disturbed
+	TSHE	C	17.5	High if disturbed
+	ABGR	S	10.8	High
+	PSME	S	10.2	High
+	LAOC	S	8.4	Low
+	PICO	S	4.5	Low
+	PIMO	s/S	2.8	High in planted trees <20 yrs old
+	PIEN	S	2.1	High but low occurrence
+	ABLA	s/S	0.9	High but low occurrence
+	PIPO	s	0.8	High
+CH/WF	HCLIMAX			
+	THPL	C	23.3	High
+	TSHE	C	21.3	High
+	PSME	s/S	6.8	Low
+	LAOC	S	6.6	Low
+	ABGR	S	5	High if disturbed
+	PICO	s/S	4.8	Low
+	ABLA	s/S	1.7	Low
+	PIEN	S	1.4	Low
+	PIMO	s/S	1.3	Low
+CH/WH	HSERAL			
+	TSHE	C	13.2	High if disturbed
+	PIEN	S/C	12.1	High
+	THPL	s/C	11.5	High
+	PSME	s/S	10.4	High
+	ABLA	S	5	High
+	ABGR	S	4.9	High
+	LAOC	S	4.8	Low
+	PIPO	s	2.1	Low
+	PICO	s/S	1.3	Low
+	PIMO	s	0.2	Low
+CH/WS	HCLIMAX			
+	THPL	C	35	High
+	TSHE	c	23	High
+	ABGR	S	13	Low
+	PSME	s	2.6	Low
+ColdF/DH	HCLIMAX			
+	ABLA	C	18.1	High
+	LAOC	S	12.2	Low
+	PIEN	S/C	11.6	High where climax
+	PICO	S	9	Low
+	PSME	s/S	8.4	Low
+	ABGR	s	0.4	Low
+	TSHE	a	0.2	Low
+	PIPO	a	0.1	Low
+	THPL	a	0.1	Low
+ColdF/DS	LOW			
+	ABLA	C	31	Low in this subseries
+	PICO	S	26	Low
+	PSME	a	0.5	Low in this subseries
+	LAOC	a	0.3	Low
+ColdF/MH	HCLIMAX			
+	ABLA	C	28.7	High
+	PIEN	c	11.8	High
+	LAOC	s/S	6.1	Low
+	PICO	s/S	4.2	Low
+	PSME	s	2.9	Low
+	TSHE	s	0.9	Low
+	THPL	a	0.2	Low
+	PIMO	a	0.2	Low
+	PIAL	a	0.1	Low
+ColdF/WF	HCLIMAX			
+	PIEN	S/C	26	High
+	ABLA	c/C	15.1	High
+	PSME	s/S	8.1	Low
+	LAOC	S	4.8	Low
+	PICO	s/S	3.3	Low
+	PIMO	s	0.5	Low
+	PIPO	a	0	Low
+CoolF/DH	HSERAL			
+	PSME	S	37	High
+	PIPO	S	12.5	High if planted
+	ABGR	C	6.4	High if disturbed
+	LAOC	S	3.5	Low
+	PICO	S	2.9	Low
+	PIMO	s	0.8	High in planted trees <20 yrs old
+	THPL	a	0.1	Low
+CoolF/MH	HSERAL			
+	PICO	S	19	Low
+	LAOC	S	17.8	Low
+	PSME	S	10	High
+	ABGR	C	7.9	High if disturbed
+	PIPO	s	5.2	High if planted from nonlocal seed
+	PIEN	s	0.9	High but low occurrence
+	ABLA	s	0.5	High but low occurrence
+	PIMO	s	0.5	Low
+CoolF/WF	HCLIMAX			
+	PSME	s/S	23.7	Low
+	LAOC	S	14	Low
+	ABGR	s/C	12.1	High where climax
+	ABLA	C	10.6	High
+	PIEN	c	6.8	High
+	PICO	S	6.7	Low
+	PIPO	s	2.3	Low
+	THPL	a	0.2	Low
+CoolP/MH	HCLIMAX			
+	PICO	S	46	Low
+	ABLA	S/c	11.5	High
+	LAOC	S	7.8	Low
+	PIEN	s	2.7	Low
+	PSME	s	2.5	Low
+	PIPO	a	0.3	Low
+DF/DH	HCLIMAX			
+	PSME	C	33	High
+	PIPO	S	8.2	Low
+	LAOC	s/S	7.8	Low
+	PICO	s/S	5.4	Low
+	ABLA	s/C	0.7	High where climax
+	PIEN	a	0.1	Low
+	ABGR	a	0	Low
+DF/DS	LOW			
+	PSME	C	16.6	Low in this subseries
+	PIPO	S	13.2	Low in this subseries
+	PIAL	c	4.3	Low in this subseries
+	LAOC	s	2.5	Low
+	ABLA	s	1.2	Low in this subseries
+	PICO	a	0.4	Low
+	PIEN	a	0.3	Low in this subseries
+DF/MH	HCLIMAX			
+	PSME	C	19.4	High
+	PICO	S	15.2	Low
+	LAOC	S	12.9	Low
+	PIEN	c	11.9	High
+	PIPO	s	2.5	Low
+	ABLA	s/c	2.3	High where climax
+	PIAL	s	1.2	Low

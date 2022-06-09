@@ -1,0 +1,14 @@
+WE	wepp-9751	"08:50 am  Wednesday May 9, 2012"	"HELENA WB AP MT"	clay	20	forest	0	50	30	700	l			ft
+WF	wepp-10245	"09:18 am  Wednesday May 9, 2012"	"HELENA WB AP MT                         2"	clay	800	75	0	50	20	200	7	10	0	ft
+WE	wepp-10763	"09:40 am  Wednesday May 9, 2012"	"HELENA WB AP MT +"	clay	20	forest	0	50	30	800	l			ft
+WE	wepp-10969	"09:46 am  Wednesday May 9, 2012"	"HELENA WB AP MT +"	clay	20	forest	0	50	30	800	h			ft
+WE	wepp-11263	"09:51 am  Wednesday May 9, 2012"	"wss +"	sand	20	forest	0	60	30	900	m			ft
+WE	wepp-11586	"09:53 am  Wednesday May 9, 2012"	"wss +"	sand	20	forest	0	60	30	900	l			ft
+WE	wepp-11777	"09:54 am  Wednesday May 9, 2012"	"wss +"	sand	20	forest	0	60	10	900	l			ft
+WE	wepp-11842	"09:55 am  Wednesday May 9, 2012"	"wss +"	sand	20	forest	0	40	10	900	l			ft
+WD	wepp-11952	"09:57 am  Wednesday May 9, 2012"	"wss +"	20	sand	OldForest	400	0	50	100	20	OldForest	500	50	25	100	20	0	ft	""
+WD	wepp-11972	"09:58 am  Wednesday May 9, 2012"	"wss +"	5	sand	OldForest	400	0	50	100	20	OldForest	500	50	25	100	20	0	ft	""
+WD	wepp-11992	"09:58 am  Wednesday May 9, 2012"	"wss +"	5	sand	OldForest	400	0	50	100	20	LowFire	500	50	25	85	20	0	ft	""
+WD	wepp-12013	"09:59 am  Wednesday May 9, 2012"	"wss +"	5	sand	LowFire	400	0	50	85	20	LowFire	500	50	25	85	20	0	ft	""
+WF	wepp-12059	"10:00 am  Wednesday May 9, 2012"	"wss +"	sand	200	50	0	30	15	40	20	20	0	ft
+WF	wepp-12117	"10:01 am  Wednesday May 9, 2012"	"wss +"	sand	200	50	0	30	15	200	50	10	0	ft

@@ -1,0 +1,10 @@
+WR	wepp-203771	"10:33 am  Wednesday August 10, 2016"	"PRESCOTT AZ"	100	sand	native	20	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-203888	"10:34 am  Wednesday August 10, 2016"	"PRESCOTT AZ"	30	sand	native	20	4	3	15	50	130	25	20	inveg	ft
+WR	wepp-206489	"01:13 pm  Wednesday August 10, 2016"	"PRESCOTT AZ"	30	clay	native	100	15	3	50	130	50	25	20	outrut	ft
+WR	wepp-206525	"01:13 pm  Wednesday August 10, 2016"	"PRESCOTT AZ"	100	clay	native	100	15	3	1	15	50	25	20	outrut	ft
+WR	wepp-231359	"10:12 am  Friday August 12, 2016"	"PRESCOTT AZ"	30	clay	native	200	4	13	15	50	130	25	20	outrut	ft
+WR	wepp-231401	"10:18 am  Friday August 12, 2016"	"PRESCOTT AZ"	30	clay	native	200	4	3	15	50	130	25	20	inbare	ft
+WE	wepp-90521	"02:08 pm  Wednesday August 17, 2016"	"PRESCOTT AZ"	sand	20	range	0	50	30	300	l	15	60	ft
+WD	wepp-90726	"02:19 pm  Wednesday August 17, 2016"	"PRESCOTT AZ"	100	sand	OldForest	50	5	30	75	20	YoungForest	50	30	5	50	20	0	ft	""
+WD	wepp-90765	"02:20 pm  Wednesday August 17, 2016"	"PRESCOTT AZ"	100	sand	YoungForest	30	5	30	100	20	Sod	30	30	5	40	20	0	ft	""
+WD	wepp-90836	"02:22 pm  Wednesday August 17, 2016"	"PRESCOTT AZ"	10	sand	YoungForest	50	15	30	65	20	Sod	50	30	5	40	20	0	ft	""

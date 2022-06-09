@@ -1,0 +1,76 @@
+WD	wepp-15667	"02:20 pm  Friday November 6, 2009"	"EVERGLADES FL"	30	sand	tall	15.2439024390244	0	0	60	20	tall	15.2439024390244	0	0	60	20	0	ft	""
+WR	wepp-17770	"03:27 pm  Friday September 10, 2010"	"SANDPOINT EXP STA ID"	30	sand	native	200	4	13	15	50	264	25	20	inveg	ft
+WR	wepp-17825	"03:34 pm  Friday September 10, 2010"	"SANDPOINT EXP STA ID"	30	sand	native	1000	4	13	15	50	200	55	20	inveg	ft
+WR	wepp-17857	"03:35 pm  Friday September 10, 2010"	"SANDPOINT EXP STA ID"	30	sand	native	1000	4	13	15	55	200	55	20	inveg	ft
+WR	wepp-17862	"03:36 pm  Friday September 10, 2010"	"SANDPOINT EXP STA ID"	30	sand	native	1000	4	13	15	55	260	55	20	inveg	ft
+WR	wepp-17868	"03:38 pm  Friday September 10, 2010"	"SANDPOINT EXP STA ID"	30	sand	native	1000	4	13	15	55	1	55	20	inveg	ft
+WR	wepp-32760	"10:06 am  Sunday December 5, 2010"	"SANDPOINT EXP STA ID"	30	sand	native	1000	4	13	30	45	300	30	5	outrut	ft
+WD	wepp-20996	"01:33 pm  Monday January 24, 2011"	"MK East +"	30	silt	low	700	22	24	50	20	tree20	606	24	29	85	20	0	ft	""
+WD	wepp-21001	"01:33 pm  Monday January 24, 2011"	"MK East +"	30	silt	low	700	22	24	50	20	tree20	606	24	29	85	20	0	ft	""
+WE	wepp-27294	"03:00 pm  Wednesday February 9, 1930"	"MK East +"	silt	20	forest	40	60	10	1000	l			ft
+WE	wepp-30234	"05:07 pm  Wednesday February 9, 1914"	"SANDPOINT EXP STA ID"	clay	20	forest	0	50	30	300	l			ft
+WD	wepp-1107	"03:14 pm  Tuesday February 15, 2011"	"LG_Climate +"	30	silt	low	150	30	30	85	20	tree20	150	30	50	100	20	0	ft	""
+WD	wepp-1131	"03:15 pm  Tuesday February 15, 2011"	"LG_Climate +"	30	silt	tree20	150	30	30	100	20	tree20	150	30	50	100	20	0	ft	""
+WD	wepp-1136	"03:16 pm  Tuesday February 15, 2011"	"LG_Climate +"	30	silt	low	150	30	30	85	20	tree20	150	30	50	100	20	0	ft	""
+WD	wepp-15803	"12:10 pm  Wednesday February 16, 2011"	"Sheep +"	30	loam	low	150	44	46	85	20	tree20	150	67	60	100	20	0	ft	""
+WD	wepp-15913	"12:18 pm  Wednesday February 16, 2011"	"Sheep +"	30	loam	tree5	1200	44	46	75	20	tree20	300	67	60	100	20	0	ft	""
+WD	wepp-15956	"12:19 pm  Wednesday February 16, 2011"	"Sheep +"	30	loam	tree5	1200	10	46	75	20	tree20	300	45	60	100	20	0	ft	""
+WD	wepp-16806	"01:04 pm  Wednesday February 16, 2011"	"Sheep +"	30	loam	tree20	150	44	46	100	20	tree20	150	67	60	100	20	0	ft	""
+WD	wepp-16922	"01:13 pm  Wednesday February 16, 2011"	"Sheep +"	30	loam	tree20	150	44	46	100	20	low	150	67	60	85	20	0	ft	""
+WD	wepp-16927	"01:13 pm  Wednesday February 16, 2011"	"Sheep +"	30	loam	tree20	150	44	46	100	20	low	150	67	60	85	20	0	ft	""
+WD	wepp-17370	"01:46 pm  Wednesday February 16, 2011"	"Sheep +"	30	loam	tree20	150	44	46	100	20	tree20	150	67	60	100	20	0	ft	""
+WD	wepp-17375	"01:47 pm  Wednesday February 16, 2011"	"Sheep +"	30	loam	low	100	44	46	85	20	tree20	200	67	60	100	20	0	ft	""
+WD	wepp-17380	"01:47 pm  Wednesday February 16, 2011"	"Sheep +"	30	loam	low	100	44	46	85	20	tree20	200	67	60	100	20	0	ft	""
+WD	wepp-17385	"01:48 pm  Wednesday February 16, 2011"	"Sheep +"	30	loam	low	100	44	46	85	20	tree20	200	67	60	100	20	0	ft	""
+WD	wepp-17391	"01:48 pm  Wednesday February 16, 2011"	"Sheep +"	30	loam	low	100	44	46	95	20	tree20	200	67	60	100	20	0	ft	""
+WD	wepp-17396	"01:49 pm  Wednesday February 16, 2011"	"Sheep +"	30	loam	low	100	44	46	95	20	tree20	200	67	60	100	20	0	ft	""
+WD	wepp-17401	"01:49 pm  Wednesday February 16, 2011"	"Sheep +"	30	loam	low	100	44	46	95	20	tree20	200	67	60	120	20	0	ft	""
+WD	wepp-17433	"01:49 pm  Wednesday February 16, 2011"	"Sheep +"	30	loam	low	100	44	46	120	20	tree20	200	67	60	120	20	0	ft	""
+WD	wepp-17438	"01:49 pm  Wednesday February 16, 2011"	"Sheep +"	30	loam	low	100	44	46	120	20	tree20	200	67	60	120	20	0	ft	""
+WD	wepp-17443	"01:50 pm  Wednesday February 16, 2011"	"Sheep +"	30	loam	low	100	44	46	95	20	tree20	200	67	60	120	20	0	ft	""
+WD	wepp-17448	"01:50 pm  Wednesday February 16, 2011"	"Sheep +"	30	loam	low	100	44	46	95	20	tree20	200	67	60	100	20	0	ft	""
+WD	wepp-17454	"01:51 pm  Wednesday February 16, 2011"	"Sheep +"	30	loam	low	1000	44	46	95	20	tree20	300	67	60	100	20	0	ft	""
+WD	wepp-17459	"01:51 pm  Wednesday February 16, 2011"	"Sheep +"	30	loam	low	1000	44	46	95	20	tree20	300	67	60	100	20	0	ft	""
+WD	wepp-17464	"01:52 pm  Wednesday February 16, 2011"	"Sheep +"	30	loam	low	1000	10	40	95	20	tree20	300	40	60	100	20	0	ft	""
+WD	wepp-17469	"01:52 pm  Wednesday February 16, 2011"	"Sheep +"	30	loam	low	1000	10	40	95	20	tree20	300	40	60	100	20	0	ft	""
+WF	wepp-6516	"04:27 pm  Thursday February 17, 2011"	"MK East +"	loam	300	200	40	50	60	100	40	20	4	ft
+WF	wepp-16298	"09:27 am  Friday February 18, 2011"	"MK East +"	loam	300	200	40	50	60	100	40	20	4	ft
+WF	wepp-20285	"04:00 pm  Friday February 18, 2011"	"Sheep +"	loam	300	150	77	71	9	100	20	20	0	ft
+WD	wepp-20399	"04:14 pm  Friday February 18, 2011"	"Sheep +"	30	loam	tree20	100	77	71	100	20	tree20	200	40	9	100	20	0	ft	""
+WD	wepp-20423	"04:15 pm  Friday February 18, 2011"	"Sheep +"	30	loam	tree20	150	71	77	100	20	tree20	150	77	9	100	20	0	ft	""
+WD	wepp-20428	"04:15 pm  Friday February 18, 2011"	"Sheep +"	30	loam	tree20	150	71	77	120	20	tree20	150	77	9	100	20	0	ft	""
+WD	wepp-20433	"04:15 pm  Friday February 18, 2011"	"Sheep +"	30	loam	tree20	150	71	77	120	20	tree20	150	77	9	100	20	0	ft	""
+WD	wepp-20438	"04:16 pm  Friday February 18, 2011"	"Sheep +"	30	loam	tree20	150	71	77	100	20	tree20	150	77	9	100	20	0	ft	""
+WD	wepp-20765	"04:35 pm  Friday February 18, 2011"	"Sheep +"	30	loam	tree20	300	71	77	100	20	tree20	300	77	9	100	20	0	ft	""
+WD	wepp-20770	"04:35 pm  Friday February 18, 2011"	"Sheep +"	30	loam	tree20	150	71	77	100	20	tree20	150	77	9	100	20	0	ft	""
+WF	wepp-20777	"04:36 pm  Friday February 18, 2011"	"Sheep +"	loam	300	150	77	71	9	100	20	20	0	ft
+WE	wepp-20835	"04:39 pm  Friday February 18, 1983"	"Sheep +"	loam	20	forest	77	71	9	300	l			ft
+WD	wepp-20936	"04:45 pm  Friday February 18, 2011"	"Sheep +"	50	loam	tree20	150	71	77	100	20	tree20	150	77	9	100	20	0	ft	""
+WF	wepp-21106	"05:08 pm  Friday February 18, 2011"	"Sheep +"	loam	300	150	28	50	25	100	20	20	0	ft
+WF	wepp-21135	"05:09 pm  Friday February 18, 2011"	"Sheep +"	loam	300	150	51	52	4	100	20	20	0	ft
+WF	wepp-21161	"05:10 pm  Friday February 18, 2011"	"Sheep +"	loam	300	150	37	71	9	100	20	20	0	ft
+WF	wepp-21186	"05:11 pm  Friday February 18, 2011"	"Sheep +"	loam	300	150	55	44	4	100	20	20	0	ft
+WF	wepp-21212	"05:11 pm  Friday February 18, 2011"	"Sheep +"	loam	300	150	31	61	5	100	20	20	0	ft
+WF	wepp-21265	"05:12 pm  Friday February 18, 2011"	"Sheep +"	loam	300	150	62	53	17	100	20	20	0	ft
+WF	wepp-21291	"05:13 pm  Friday February 18, 2011"	"Sheep +"	loam	300	150	64	52	16	100	20	20	0	ft
+WE	wepp-21395	"05:22 pm  Friday February 18, 1983"	"Sheep +"	loam	20	forest	77	71	9	300	l			ft
+WF	wepp-31188	"01:00 pm  Monday February 21, 2011"	"Sheep +"	loam	600	300	64	52	16	100	20	20	0	ft
+WF	wepp-13637	"11:48 am  Tuesday February 22, 2011"	"Sheep +"	loam	400	300	62	53	17	100	20	20	0	ft
+WF	wepp-16059	"02:40 pm  Tuesday February 22, 2011"	"Sheep +"	loam	1500	300	36	47	17	100	20	20	0	ft
+WF	wepp-16195	"02:47 pm  Tuesday February 22, 2011"	"Sheep +"	loam	1500	150	36	47	17	100	20	20	0	ft
+WF	wepp-16358	"02:54 pm  Tuesday February 22, 2011"	"Sheep +"	loam	1252	150	12	64	16	100	20	20	0	ft
+WF	wepp-16392	"02:56 pm  Tuesday February 22, 2011"	"Sheep +"	loam	1252	300	12	64	16	100	20	20	0	ft
+WF	wepp-17022	"03:47 pm  Tuesday February 22, 2011"	"Sheep +"	loam	1500	150	5	52	36	100	20	20	0	ft
+WF	wepp-17368	"04:07 pm  Tuesday February 22, 2011"	"Sheep +"	loam	1500	300	5	52	36	100	20	20	0	ft
+WF	wepp-17395	"04:10 pm  Tuesday February 22, 2011"	"Sheep +"	loam	1500	300	42	51	4	100	20	20	0	ft
+WF	wepp-17449	"04:11 pm  Tuesday February 22, 2011"	"Sheep +"	loam	1500	150	42	51	4	100	20	20	0	ft
+WF	wepp-17475	"04:13 pm  Tuesday February 22, 2011"	"Sheep +"	loam	1500	300	5	52	36	100	20	20	0	ft
+WF	wepp-17520	"04:15 pm  Tuesday February 22, 2011"	"Sheep +"	loam	1500	300	36	18	4	100	20	20	0	ft
+WF	wepp-17546	"04:16 pm  Tuesday February 22, 2011"	"Sheep +"	loam	1500	300	39	18	4	100	20	20	0	ft
+WF	wepp-17632	"04:19 pm  Tuesday February 22, 2011"	"Sheep +"	loam	1500	150	39	18	4	100	20	20	0	ft
+WF	wepp-18376	"05:33 pm  Tuesday February 22, 2011"	"Sheep +"	loam	1500	150	36	19	25	100	20	20	0	ft
+WF	wepp-18403	"05:34 pm  Tuesday February 22, 2011"	"Sheep +"	loam	1500	300	36	19	25	100	20	20	0	ft
+WF	wepp-18434	"05:37 pm  Tuesday February 22, 2011"	"Sheep +"	loam	1500	300	35	53	15	100	20	20	0	ft
+WF	wepp-18488	"05:38 pm  Tuesday February 22, 2011"	"Sheep +"	loam	1500	150	35	53	15	100	20	20	0	ft
+WF	wepp-18514	"05:39 pm  Tuesday February 22, 2011"	"Sheep +"	loam	1500	150	38	33	9	100	20	20	0	ft
+WF	wepp-18540	"05:40 pm  Tuesday February 22, 2011"	"Sheep +"	loam	1500	300	38	33	9	100	20	20	0	ft

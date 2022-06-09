@@ -1,0 +1,9 @@
+WR	wepp-141591	"01:27 am  Thursday March 26, 2015"	"ABERDEEN 20 NNE WISHKA +"	30	silt	native	200	4	13	15	50	1	25	20	inveg	ft
+WR	wepp-141676	"01:34 am  Thursday March 26, 2015"	"ABERDEEN CLIMATE +"	30	silt	native	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-141724	"01:35 am  Thursday March 26, 2015"	"ABERDEEN CLIMATE +"	30	silt	paved	200	4	13	15	50	1	25	20	inbare	ft
+WD	wepp-141780	"01:39 am  Thursday March 26, 2015"	"ABERDEEN CLIMATE +"	10	silt	OldForest	400	0	30	100	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-141854	"01:42 am  Thursday March 26, 2015"	"ABERDEEN CLIMATE +"	10	silt	Bunchgrass	400	0	30	60	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-141904	"01:45 am  Thursday March 26, 2015"	"ABERDEEN CLIMATE +"	10	silt	Bunchgrass	400	0	30	60	20	OldForest	30	30	5	100	20	0	ft	""
+WD	wepp-141942	"01:46 am  Thursday March 26, 2015"	"ABERDEEN CLIMATE +"	10	silt	HighFire	400	0	30	45	20	LowFire	30	30	5	85	20	0	ft	""
+WD	wepp-141980	"01:48 am  Thursday March 26, 2015"	"ABERDEEN CLIMATE +"	10	silt	HighFire	400	0	30	45	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-142030	"01:50 am  Thursday March 26, 2015"	"ABERDEEN CLIMATE +"	10	silt	HighFire	400	0	30	45	20	OldForest	200	30	5	100	20	0	ft	""

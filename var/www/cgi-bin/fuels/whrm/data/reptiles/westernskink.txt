@@ -1,0 +1,73 @@
+#this files was modified by filegenwhrm.pl on: Wednesday, March 16, 2005.
+#taxgroup Reptiles species Western Skink / Eumeces skiltonianus
+#
+# Rank
+3,1,1,-99,2
+# Nestsite
+4,1:20,-1
+# Reprorank
+1,-99:1,-99
+# Foraging Habitat
+7,1
+# Habitatrank
+1,-99
+# Forage/Prey Availability
+-99
+# Preyrank
+-99
+# Predator Avoidance
+4,1:7,1
+# Avoidrank
+1,-99:1,-99
+# Refugia/Shelter
+4,1:7,1
+# Shelterrank
+1,-99:1,-99
+# Coverrank
+1,-99:1,-99
+# Literature
+Distribution
+south-central British Columbia through Washington, Oregon, and Idaho to western Utah, Nevada, and southern California into Baja California
+General Habitat
+grassy slopes in oak woodlands and in less damp coniferous forests; pine and juniper forests, rocky canyons, rimrock areas
+Home or Activity Range
+no information available
+Canopy Cover
+areas of low canopy closures- forest clearings (Rutherford and Gregory 2003)
+Specific Habitat Preferences
+decaying logs, surface debris, loose rock accumulations; occur in areas with low duff cover (Germaine and Germaine 2003)
+Nestsite Characteristics
+lay eggs in flask-shaped burrows under rocks or logs
+Foraging Habitat Characteristics
+ground-forage in grass or leaves
+Diet
+small invertebrates
+Predators
+no information available
+Shelter Habitats
+found within or under the bark of decaying logs or under surface debris or rocks
+Response to Disturbance
+no information available
+Sources of Information used in the Model
+Morrison et al. 1999, Rutherford and Gregory 2003
+General Sources of Background Information
+Storm and Leonard 1995, Morrison et al. 1999, Germaine and Germaine 2003, Rutherford and Gregory 2003
+Summaries of Specific Studies
+Germaine, Stephen S.; Germaine, Heather L. 2003. Lizard distributions and reproductive success in a ponderosa pine forest. Journal of Herpetology. 37(4): 645-652.
+
+Study Location: northern Arizona
+Habitat Description: PIPO
+Summary: The relative abundance, demography, and reproductive success of sagebrush lizards and western skinks were assessed in a PIPO forest. Sagebrush lizard were widely distributed, but reproductive success and hatchling abundance were highest in the most open cover and stand types, and lowest in pure ponderosa cover and dense ponderosa stands. Western skink abundance differed among stand types by age class; overall they were more abundant in forest cover types than meadows. Both species were present in plots with lower percent duff cover. Increased tree density, canopy closure, and litter accumulation influenced distributions of both lizards. Abundance and reproduction appeared to be optimized in habitat with features most similar to that present prior to fire suppression and in areas containing a deciduous tree component.
+
+Morrison, Michael L; Aigner, Paula A.; Nordstrom, Lisa A.; Hall, Linnea S. 1999. Habitat characteristics of sympatric Gilbert's and western skinks. Herpetological Review. 30(1): 18-20.
+
+Study Location: Inyo-White Mountains, California
+Habitat Description: pinyon-juniper
+Summary: Habitat associations were studied for sympatric populations of Gilbert's and western skinks in a pinyon-juniper woodland. The only variable that differed between the trapping of the two species was slope. Both skink species were captured in areas of greater shrub litter, less juniper litter, and less coarse gravel. The litter is often used for burrowing.
+
+Rutherford, Pamela L.; Gregory, Patrick T. 2003. Habitat use and movement patterns of northern alligator lizards (Elgaria coerulea) and western skinks (Eumeces skiltonianus) in southeastern British Columbia. Journal of Herpetology. 37(1): 98-106.
+
+Study Location: southeastern British Columbia
+Habitat Description: PIPO, PSME, aspen
+Summary: Northern alligator lizards and western skinks often used the same habitat, and no seasonal migration was observed. Both species were rarely found in the open, hiding more often under rocks than vegetation or logs. They remained close to shrubs and forest edges. Most lizards associated with grass and moss. Northern alligator lizards are associated with clearings.
+

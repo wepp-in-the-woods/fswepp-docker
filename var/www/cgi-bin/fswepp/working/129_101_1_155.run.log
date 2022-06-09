@@ -1,0 +1,28 @@
+WR	wepp-8739	"02:56 pm  Wednesday December 2, 2009"	"SAINT MARIES ID"	30	clay	native	200	4	13	15	50	130	25	20	inveg
+WR	wepp-8744	"02:58 pm  Wednesday December 2, 2009"	"SAINT MARIES ID +"	30	silt	native	200	4	13	15	50	1	25	20	inveg
+WR	wepp-8779	"02:59 pm  Wednesday December 2, 2009"	"SAINT MARIES ID"	30	silt	native	200	4	13	15	50	1	25	20	inveg
+WR	wepp-8811	"03:00 pm  Wednesday December 2, 2009"	"SAINT MARIES ID"	30	silt	native	200	4	13	15	50	1	1	20	inveg
+WR	wepp-8816	"03:01 pm  Wednesday December 2, 2009"	"SAINT MARIES ID +"	30	silt	native	200	4	13	15	50	1	25	20	inbare
+WR	wepp-8865	"03:04 pm  Wednesday December 2, 2009"	"SAINT MARIES ID +"	30	silt	native	200	4	13	15	50	1	25	20	inveg
+WR	wepp-8925	"03:06 pm  Wednesday December 2, 2009"	"SAINT MARIES ID +"	30	silt	native	200	4	13	15	50	1	25	20	inbare
+WR	wepp-8935	"03:07 pm  Wednesday December 2, 2009"	"SAINT MARIES ID +"	30	silt	paved	200	4	13	15	50	1	25	20	inbare
+WR	wepp-8941	"03:08 pm  Wednesday December 2, 2009"	"SAINT MARIES ID +"	30	silt	paved	200	4	13	15	50	69	25	20	inbare
+WR	wepp-8946	"03:09 pm  Wednesday December 2, 2009"	"SAINT MARIES ID +"	30	silt	paved	200	4	13	15	50	139	25	20	inbare
+WR	wepp-8980	"03:09 pm  Wednesday December 2, 2009"	"SAINT MARIES ID +"	30	silt	paved	200	4	13	15	50	50	25	20	inbare
+WR	wepp-8986	"03:10 pm  Wednesday December 2, 2009"	"SAINT MARIES ID +"	30	silt	paved	200	4	13	15	50	52	25	20	inbare
+WR	wepp-8991	"03:10 pm  Wednesday December 2, 2009"	"SAINT MARIES ID +"	30	silt	paved	200	4	13	15	50	55	25	20	inbare
+WR	wepp-8996	"03:10 pm  Wednesday December 2, 2009"	"SAINT MARIES ID +"	30	silt	paved	200	4	13	15	50	54	25	20	inbare
+WR	wepp-9001	"03:10 pm  Wednesday December 2, 2009"	"SAINT MARIES ID +"	30	silt	paved	200	4	13	15	50	53	25	20	inbare
+WR	wepp-9129	"03:20 pm  Wednesday December 2, 2009"	"SAINT MARIES ID +"	30	silt	graveled	200	4	13	15	50	1	25	20	outunrut
+WR	wepp-9180	"03:26 pm  Wednesday December 2, 2009"	"SAINT MARIES ID +"	30	silt	graveled	200	4	13	15	50	1	25	20	outunrut
+WD	wepp-9188	"03:27 pm  Wednesday December 2, 2009"	"SAINT MARIES ID +"	30	silt	tree20	121.951219512195	0	30	100	20	tree20	22.8658536585366	30	5	100	20	0	ft	""
+WD	wepp-9249	"03:31 pm  Wednesday December 2, 2009"	"SAINT MARIES ID +"	30	silt	tall	121.951219512195	0	30	60	20	tree20	22.8658536585366	30	5	100	20	0	ft	""
+WD	wepp-9277	"03:33 pm  Wednesday December 2, 2009"	"SAINT MARIES ID +"	30	silt	tall	121.951219512195	0	30	60	20	tree20	9.14634146341463	30	5	100	20	0	ft	""
+WD	wepp-9341	"03:36 pm  Wednesday December 2, 2009"	"SAINT MARIES ID +"	30	silt	high	121.951219512195	0	30	45	20	low	9.14634146341463	30	5	85	20	0	ft	""
+WD	wepp-9353	"03:37 pm  Wednesday December 2, 2009"	"SAINT MARIES ID +"	30	silt	tall	121.951219512195	0	30	60	20	tree20	9.14634146341463	30	5	100	20	0	ft	""
+WD	wepp-9361	"03:37 pm  Wednesday December 2, 2009"	"SAINT MARIES ID +"	30	silt	tall	121.951219512195	0	30	60	20	tree20	22.8658536585366	30	5	100	20	0	ft	""
+WD	wepp-9444	"03:40 pm  Wednesday December 2, 2009"	"SAINT MARIES ID +"	30	silt	high	121.951219512195	0	30	45	20	low	304.878048780488	30	5	85	20	0	ft	""
+WD	wepp-9454	"03:41 pm  Wednesday December 2, 2009"	"SAINT MARIES ID +"	30	silt	high	121.951219512195	0	30	45	20	low	365.853658536585	30	5	85	20	0	ft	""
+WD	wepp-9479	"03:43 pm  Wednesday December 2, 2009"	"SAINT MARIES ID +"	30	silt	high	121.951219512195	0	30	45	20	high	365.853658536585	30	5	45	20	0	ft	""
+WD	wepp-9568	"03:48 pm  Wednesday December 2, 2009"	"SAINT MARIES ID +"	30	silt	low	121.951219512195	0	30	85	20	high	365.853658536585	30	5	45	20	0	ft	""
+WD	wepp-9578	"03:49 pm  Wednesday December 2, 2009"	"SAINT MARIES ID +"	30	silt	high	121.951219512195	0	30	45	20	low	365.853658536585	30	5	85	20	0	ft	""

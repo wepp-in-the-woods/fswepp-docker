@@ -1,0 +1,14 @@
+WR	wepp-6883	"12:46 pm  Thursday June 14, 2012"	"MILTON EXP STATION FL"	1	sand	native	463	8	13	400	2	130	25	0	outrut	ft
+WR	wepp-6930	"12:48 pm  Thursday June 14, 2012"	"MILTON EXP STATION FL"	1	sand	native	463	8	13	400	2	130	25	0	outrut	ft
+WR	wepp-7317	"01:08 pm  Thursday June 14, 2012"	"MILTON EXP STATION FL"	1	sand	native	390	4	13	30	8	100	40	0	outrut	ft
+WR	wepp-8252	"01:57 pm  Thursday June 14, 2012"	"MILTON EXP STATION FL"	1	sand	native	390	4	13	30	8	100	40	0	outrut	ft
+WR	wepp-8301	"01:59 pm  Thursday June 14, 2012"	"MILTON EXP STATION FL"	1	sand	native	390	4	13	30	8	100	40	0	outrut	ft
+WR	wepp-8340	"02:00 pm  Thursday June 14, 2012"	"MILTON EXP STATION FL"	3	sand	native	390	4	13	30	8	100	40	0	outrut	ft
+WR	wepp-8360	"02:01 pm  Thursday June 14, 2012"	"MILTON EXP STATION FL"	5	sand	native	390	4	13	30	8	100	40	0	outrut	ft
+WR	wepp-8381	"02:02 pm  Thursday June 14, 2012"	"MILTON EXP STATION FL"	5	sand	native	390	4	13	30	8	100	40	0	outrut	ft
+WD	wepp-8661	"02:22 pm  Thursday June 14, 2012"	"MILTON EXP STATION FL"	10	sand	Skid	386	0	4	20	0	Shrub	112	4	40	80	0	0	ft	""
+WD	wepp-8708	"02:26 pm  Thursday June 14, 2012"	"MILTON EXP STATION FL"	10	sand	Bunchgrass	386	0	4	60	0	Shrub	112	4	40	80	0	0	ft	""
+WD	wepp-8728	"02:26 pm  Thursday June 14, 2012"	"MILTON EXP STATION FL"	10	sand	Bunchgrass	386	0	4	60	0	Bunchgrass	112	4	40	60	0	0	ft	""
+WD	wepp-8748	"02:27 pm  Thursday June 14, 2012"	"MILTON EXP STATION FL"	10	sand	Bunchgrass	386	0	4	60	0	Shrub	112	4	40	80	0	0	ft	""
+WD	wepp-8767	"02:27 pm  Thursday June 14, 2012"	"MILTON EXP STATION FL"	10	sand	OldForest	386	0	4	100	0	OldForest	112	4	40	100	0	0	ft	""
+WD	wepp-8880	"02:28 pm  Thursday June 14, 2012"	"MILTON EXP STATION FL"	10	sand	YoungForest	386	0	4	100	0	Skid	112	4	40	20	0	0	ft	""

@@ -1,0 +1,66 @@
+#this files was modified by filegenwhrm.pl on: Wednesday, March 16, 2005.
+#taxgroup Birds species Turkey vulture / Cathartes aura
+#
+# Rank
+2,1,-99,-99,2
+# Nestsite
+16,1:17,1:18,1:24,1:25,1:26,1
+# Reprorank
+1,-99:1,-99:1,-99:1,-99:1,-99:1,-99
+# Foraging Habitat
+-99
+# Habitatrank
+-99
+# Forage/Prey Availability
+-99
+# Preyrank
+-99
+# Predator Avoidance
+-99
+# Avoidrank
+-99
+# Refugia/Shelter
+16,1:17,1:18,1:24,1:25,1:26,1
+# Shelterrank
+2,-99:2,-99:2,-99:1,-99:1,-99:1,-99
+# Coverrank
+2,-99:2,-99:2,-99:1,-99:1,-99:1,-99
+# Literature
+Distribution
+most of USA, southern Canada, and south into S. America
+General Habitat
+common in dry, open country, woodlands, farmlands
+Home or Activity Range
+no information available
+Canopy Cover
+no information available
+Specific Habitat Preferences
+farmland with pasture and abundant carrion close to undisturbed forested areas for perching, roosting, and nesting
+Nestsite Characteristics
+nests on bare floor of caves, rock outcroppings, hollow trees, empty buildings and rocks on cliffs;  must be far from human disturbance
+Foraging Habitat Characteristics
+circles above treetops, searching for prey by sight and smell
+Diet
+carrion and refuse
+Predators
+nestlings predated by opossum, fox, domestic dogs; adults predated by bald and golden eagles
+Shelter Habitats
+snags for roosting; roost communally at night
+Response to Disturbance
+no information available
+Sources of Information used in the Model
+Nietro et al. 1985, Kirk and Mossman 1998
+General Sources of Background Information
+reviewed in Nietro et al. 1985, National Geographic Society 1996, Kirk and Mossman 1998, Alsop 2001
+Summaries of Specific Studies
+Kirk, David A.; Mossman, Michael J. 1988. Turkey vulture (Cathartes aura).  In The Birds of North America, No. 339 (A. Poole and F. Gill, eds.). The Birds of North America, Inc.; Philadelphia, PA.
+
+Study Location: throughout range
+Habitat Description: variety reviewed
+Summary: Birds of North America species account for the turkey vulture. Prefers farmland with pasture and abundant carrion close to undisturbed forested areas for perching, roosting, and nesting. Will nest in dark recesses beneath boulders, on cliff ledges, in hollow trees, logs, and stumps, and in abandoned buildings. 91% of western nests were found on rocky cliffs or slopes. In the west, typically roosts in large trees like cottonwood, or on rock outcrops. Roost trees are usually mature, and occur in semi-open forest.
+
+Neitro, William A.; Binkley, Virgil B.; Cline, Steven P.; Mannan, R. William, Marcot, Bruce G.; Taylor, Douglas; Wagner, Frank F. 1985. Snags (Wildlife trees). In Brown, E.R. (technical editor). Management of Wildlife and Fish Habitats in Forests of Western Oregon and Washington. Publication number R6-F&WL-192-1985. Portland, OR: USDA Forest Service, Pacific Northwest Region.
+
+Study Location: review of western Oregon and Washington
+Habitat Description: intensively managed and unmanaged PSME
+Summary: A comprehensive review of the importance of snags as wildlife trees in managed and unmanaged PSME forests. Includes information on the ecological role of snags and cavity users, wildlife snag requirements, snag management, and guidelines for selecting wildlife trees to meet logging safety requirements. Much detail is presented on calculated the number of snags needed to maintain specific densities of cavity-users. Forestry practices that impact snag production and retention are also outlined. The economic role of snags and cavity-using wildlife is addressed. 

@@ -1,0 +1,109 @@
+#this files was modified by filegenwhrm.pl on: Wednesday, March 16, 2005.
+#taxgroup Birds species White-headed woodpecker / Picoides albolarvatus
+#
+# Rank
+2,4,2,-99,-99
+# Nestsite
+16,1:17,1:18,1
+# Reprorank
+3,-99:2,-99:2,-99
+# Foraging Habitat
+16,1:17,1:18,1:21,1
+# Habitatrank
+1,-99:1,-99:1,-99:1,-99
+# Forage/Prey Availability
+-99
+# Preyrank
+-99
+# Predator Avoidance
+-99
+# Avoidrank
+-99
+# Refugia/Shelter
+-99
+# Shelterrank
+-99
+# Coverrank
+-99
+# Literature
+Distribution
+year-round resident in Pacific coastal states, parts of western Idaho
+General Habitat
+old growth PIPO, sugar pine
+Home or Activity Range
+250-1250 ac
+Canopy Cover
+nests in areas with canopy cover < 70% (Milne and Hejle 1989); found in stands with canopy cover 40-69% (Verner 1980)
+Specific Habitat Preferences
+large trees, snags, downed wood
+Nestsite Characteristics
+nest in large-diameter trees (53-80 cm dbh), relying heavily on soft snags; snags >15" dbh; fallen logs, stumps
+Foraging Habitat Characteristics
+ponderosa and sugar pine trees
+Diet
+subsist largely on vegetable matter, primarily ponderosa and sugar pine seeds; also search for insects (ants, beetles and scale insects) and larvae under bark; drills its own sap wells
+Predators
+no information available
+Shelter Habitats
+no information available
+Response to Disturbance
+no information available
+Sources of Information used in the Model
+Ligon 1973, Verner 1980, Beedy 1981, Neitro et al 1985, Milne and Hejle 1989, Saab and Dudley 1998, Bull and Wales 2001, Saab et al. 2002
+General Sources of Background Information
+Ligon 1973, Verner 1980, Beedy 1981, reviewed in Nietro et al. 1985, Milne and Hejl 1989, National Geographic Society 1996, Saab and Dudley 1998, reviewed in Bull and Wales 2001, reviewed in O'Neil et al. 2001, Saab et al. 2002, reviewed in Sallabanks et al. 2003, Saab et al. 2004
+Summaries of Specific Studies
+Beedy, Edward C. 1981. Bird communities and forest structure in the Sierra Nevada of California. Condor. 83: 97-105.
+
+Study Location: central Sierra Nevada
+Habitat Description: mixed conifer (PIJE, PICO, ABCO, CADE) and ABMA stands
+Summary: Bird communities in open- and closed-canopy stands in two forest types were compared. Closed-canopy forest had lower bird densities, diversities, species richness, and consuming biomasses than open-canopy forests in both vegetative zones. With the exception of hummingbirds, all feeding guilds were present on each transect, though the reduction in understory vegetation and forest clearings in closed-canopy forest caused pronounced decreases in three understory guilds as well as in the flycatchers.
+
+Bull, Evelyn; Wales, Barbara C. 2001. Effects of disturbance on birds of conservation concern in eastern Oregon and Washington. Northwest Science. 75:166-173.
+
+Study Location: eastern Oregon and Washington
+Habitat Description: primarily PIPO
+Summary: The authors review the habitat needs of bird species of concern in eastern Oregon and Washington, focusing on how disturbances (natural and anthropogenic) would alter habitat for these species.
+
+Ligon, J. David. 1973. Foraging behavior of the white-headed woodpecker in Idaho. Auk 90:862-863.
+
+Study Location: western Idaho
+Habitat Description: PIPO
+Summary: White-headed woodpeckers foraging behavior was observed in open, second-growth PIPO stands in western Idaho. PIPO was exclusively used for foraging. Sexual differences in foraging behavior was not observed, though there was a seasonal difference in the location of foraging sites on PIPO trees. 
+
+Milne, Kathleen A.; Hejle, Sallie J. 1989. Nest-site characteristics of white-headed woodpeckers. Journal of Wildlife Management. 53:50-55.
+
+Study Location: Sierra Nevada of California
+Habitat Description: not explicitly stated; nests occurred in a variety of pines (including PICO and PIPO) and firs
+Summary: White-headed woodpeckers nested in open-canopied stands of mature and overmature trees with a southerly exposure. Nests occurred mainly in snags, fallen logs and stumps. Mean dbh of nest trees was 73 cm. The results indicate less restriction to pine-dominated habitats than previously suggested.
+
+Neitro, William A.; Binkley, Virgil B.; Cline, Steven P.; Mannan, R. William, Marcot, Bruce G.; Taylor, Douglas; Wagner, Frank F. 1985. Snags (Wildlife trees). In Brown, E.R. (technical editor). Management of Wildlife and Fish Habitats in Forests of Western Oregon and Washington. Publication number R6-F&WL-192-1985. Portland, OR: USDA Forest Service, Pacific Northwest Region.
+
+Study Location: review of western Oregon and Washington
+Habitat Description: intensively managed and unmanaged PSME
+Summary: A comprehensive review of the importance of snags as wildlife trees in managed and unmanaged PSME forests. Includes information on the ecological role of snags and cavity users, wildlife snag requirements, snag management, and guidelines for selecting wildlife trees to meet logging safety requirements. Much detail is presented on calculated the number of snags needed to maintain specific densities of cavity-users. Forestry practices that impact snag production and retention are also outlined. The economic role of snags and cavity-using wildlife is addressed. 
+
+Saab, Victoria; Brannon, Ree; Dudley, Jonathan; Donohoo, Larry; Vanderzanden, Dave; Johnson, Vicky; Lachowski, Henry. 2002. Selection of fire-created snags at two spatial scales by cavity-nesting birds. USDA Forest Service Gen. Tech. Rep. PSW-GTR-181: 835-848.
+
+Study Location: Boise National Forest, southwestern Idaho
+Habitat Description: PIPO, PSME
+Summary: The authors identified snag characteristics, including diameter and density, preferred by a number of cavity-nesting birds. Models of landscape-scale habitat preference were also presented for black-backed and Lewis's woodpeckers, and were consistent with findings at a smaller scale. As these two species represent opposite extremes of a continuum of habitat use amongst the birds studied, managing for these particular species will incorporate the needs of many other cavity-nesting birds.
+
+Saab, Victoria; Dudley, Jonathan; Thompson, William L. 2004. Factors influencing occupancy of nest cavities in recently burned forests. The Condor. 106: 20-36.
+
+Study Location: southwestern Idaho
+Habitat Description: PIPO, PSME
+Summary: Cavity nesting birds were grouped as strong, weak or non-excavating species. Patterns of cavity occupancy were tied to various microhabitat features as well as temporal and spatial scales. Time since fire had the greatest influence on occupancy of nest cavities for all species; site characteristics were secondarily important. Prefered snag characteristics differed by type of excavator and changed over time. The majority of cavities (80%) were not reused. Both number of cavities and number of cavity-nesting birds increased with time since fire. The authors stress the ephemeral nature of fire-created habitat.
+
+Sallabanks, Rex; Marcot, Bruce G.; Riggs, Robert A.; Mehl, Carolyn A.; Arnett, Edward B. 2003. Wildlife of Eastside (Interior) Forests and Woodlands. In Wildlife-Habitat Relationships in Oregon and Washington. Corvallis, OR: Oregon State University Press. pp 213-238.
+
+Study Location: Blue Mountains, OR
+Habitat Description: PICO
+Summary: This case history (4) outlines the key habitat-wildlife relationships in the LP forests of the central Oregon Pumice Zone. Areas of focus include the American marten and forest songbirds. The impact of salvage logging is discussed for some bird species.
+
+Verner, Jared. 1980. Bird communities of mixed-conifer forests of the Sierra Nevada. In Management of western forests and grasslands for nongame birds: workshop proceedings. February 11-14, 1980, Salt Lake City, UT. USDA Forest Service Gen. Tech. Rep. INT-86, Ogden, UT. pp 198-223.
+
+Study Location: Sierra Nevada of California
+Habitat Description: ABCO/LIDE/PILA/PIPO/PSME
+Summary: Breeding bird species are predicted for the various habitat stages of mixed-conifer forest in the Sierra Nevada. Habitat is broken into groups based on tree size (exact diameters not given) and canopy closure. Relative suitability of habitats is listed; optimal habitat only was entered in this database. This species-habitat matrix was made from data from various studies in the region. Predictions were more accurate for later seral stages than early. Forest management in regards to bird communities is discussed, emphasizing the importance of late seral stages for breeding birds in the study region.
+

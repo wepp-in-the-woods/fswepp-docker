@@ -1,0 +1,85 @@
+#this files was modified by filegenwhrm.pl on: Wednesday, March 16, 2005.
+#taxgroup Birds species Common nighthawk / Chordeiles minor
+#
+# Rank
+2,1,1,-99,-99
+# Nestsite
+20,-1:2,-1
+# Reprorank
+1,-99:1,-99
+# Foraging Habitat
+2,1:3,1
+# Habitatrank
+1,-99:1,-99
+# Forage/Prey Availability
+-99
+# Preyrank
+-99
+# Predator Avoidance
+-99
+# Avoidrank
+-99
+# Refugia/Shelter
+-99
+# Shelterrank
+-99
+# Coverrank
+-99
+# Literature
+Distribution
+widespread over most of N. America
+General Habitat
+found in open woodlands, suburbs and towns
+Home or Activity Range
+25-70 ac (O'Neil et al. 2001)
+Canopy Cover
+to nest in open areas (Rust 1947)
+Specific Habitat Preferences
+open areas with trees nearby
+Nestsite Characteristics
+lays eggs on rocks, small pebbles, in abandoned fields, stumps, fence rails, or on roofs; 0-8 ft. above the ground; nests in open areas with low grass cover and trees nearby
+Foraging Habitat Characteristics
+aerial foragers; feed at dawn and dusk, and sometimes during the day, hawking insects from 1 m above water, to  80 m above the forest
+Diet
+crepuscular flying insects, especially queen ants, beetles, and true bugs; also moths, mayflies, caddisflies, Diptera, wasps, flying ants, and mosquitoes
+Predators
+no information available
+Shelter Habitats
+roosts on ground (females) and on branches (males), posts and roofs; males roost in trees taller than the surrounding canopy and in open forest
+Response to Disturbance
+more abundant in forests 10-40 years post-burn (Hutto 1995); less abundant in low shrub- and high shrub-stage clearcuts and partially cut forest compared to uncut forest (Hejl et al. 1995)
+Sources of Information used in the Model
+Rust 1947, Verner 1980
+General Sources of Background Information
+Rust 1947, Verner 1980, Hejl et al. 1995, Hutto 1995, National Geographic Society 1996, Alsop 2001, reviewed in O'Neil et al. 2001, Fisher et al. 2004
+Summaries of Specific Studies
+Fisher, R.J.; Fletcher, Q.E., Willis, C.K.R.; Brigham, R.M. 2004. Roost selection and roosting behavior of male common nighthawks. American Midland Naturalist. 151: 79-87.
+
+Study Location: Saskatchewan
+Habitat Description: prairie interspersed with forests of  PIGL, PICO, POTRE, POBA
+Summary: Male nighthawk roost trees were examined. Birds preferred trees situated on north-facing slopes surrounded by trees with significantly lower canopy height compared to random trees. Roost trees occurred in less dense patches of forests, and were most often lodgepole pine or aspen. 
+
+Hejl, Sallie J.; Hutto, Richard L.; Preston, Charles R.; Finch, Deborah M. 1995. Effects of silvicultural treatments in the Rocky Mountains. In:Martin, Thomas E.; Finch, Deborah M. (eds.). Ecology and Management of Neotropical Migratory Birds. New York, Oxford: Oxford University Press. 220-244.
+
+Study Location: Rocky Mountains
+Habitat Description: forest types across the Rocky mountains
+Summary: Synthesis of the effects of different silvicultural treatments on neotropical migrants in forests of the Rocky Mountains. Outlines current forest structure, natural disturbance, logging history, and current silvicultural recommendations. General bird-habitat relationships in natural forest, including stands of different ages, are contrasted with stands that are silviculturally manipulated. Contains detailed species lists for rare to abundant bird species that are found in 8 forest types commonly found in the Rockies (Table 8-2). Also lists species by their likelihood to be more or less abundant in managed stands (classified as one of three types of clearcuts or partial cuts) compared to uncut forest. (Table 8-3)
+
+Hutto, R.L. 1995. Composition of bird communities following stand-replacement fires in northern Rocky Mountain (U.S.A) conifer forests. Conservation Biology. 9:1041-1058.
+
+Study Location: western Montana and northern Wyoming
+Habitat Description: range of habitat types: includes PIPO, PSME, LAOC, PICO, PIAL, PIFL, Picea sp,, ABLA, ABGR, THPL, aspen, cottonwood
+Summary: Fifteen bird species are generally more abundant in early post-fire communities than in any other cover type in the northern Rockies (includes olive-sided flycatcher, three-toed woodpecker, black-backed woodpecker, Clark's nutcracker, mountain bluebird, red crossbill, Cassin's finch, pine siskin, American robin, dark-eyed junco, yellow-rumped warbler). Six species (common nighthawk, calliope hummingbird, northern flicker, Stellar's jay, orange-crowned warbler, chipping sparrow) were most abundant in stands 10-40 years post-fire. Three species (American robin, yellow-rumped warbler, dark-eyed junco) were detected in early an mid-successional burned forest 100% of the time. One species, the black-backed woodpecker, was restricted to standing dead forest created by stand-replacing fires. Bird communities are different in recently burned forest, primarily because members of three feeding guilds (woodpeckers, flycatchers, and seedeaters) are especially abundant. Larger-diameter (>10 cm dbh) PP, DF, and LAOC were most often used for feeding by woodpeckers. Standing, fire-killed trees were used by the majority of birds nesting in recently burned forest. Many of the structures used in nesting (broken-topped snags) were present before the fire. Large-scale, stand-replacing fire may be necessary for long-term maintenance of many bird populations. Commentary is offered on the need to alter present fire and post-fire forest management.
+
+Rust, Henry Judson. 1947. Migration and nesting of nighthawks in northern Idaho. The Condor. 49(5): 177-188.
+
+Study Location: northern Idaho
+Habitat Description: not stated- open areas near trees
+Summary: Observations of the spring arrival and nesting behavior of the common nighthawk. Females select sites situated in low foothills or the extreme ends of lower ridges or benches in openings not far from trees. Sites on low flats or pasture land free from dense grass or thick weed beds are also selected.
+
+Verner, Jared. 1980. Bird communities of mixed-conifer forests of the Sierra Nevada. In Management of western forests and grasslands for nongame birds: workshop proceedings. February 11-14, 1980, Salt Lake City, UT. USDA Forest Service Gen. Tech. Rep. INT-86, Ogden, UT. pp 198-223.
+
+Study Location: Sierra Nevada of California
+Habitat Description: ABCO/LIDE/PILA/PIPO/PSME
+Summary: Breeding bird species are predicted for the various habitat stages of mixed-conifer forest in the Sierra Nevada. Habitat is broken into groups based on tree size (exact diameters not given) and canopy closure. Relative suitability of habitats is listed; optimal habitat only was entered in this database. This species-habitat matrix was made from data from various studies in the region. Predictions were more accurate for later seral stages than early. Forest management in regards to bird communities is discussed, emphasizing the importance of late seral stages for breeding birds in the study region.
+

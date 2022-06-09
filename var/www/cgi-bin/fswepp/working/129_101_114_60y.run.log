@@ -1,0 +1,16 @@
+WR	wepp-6701	"03:26 pm  Monday February 6, 2012"	"Guatemala 1 +"	30	clay	native	60	4	4	5	50	40	25	20	inveg	m
+WD	wepp-7545	"03:49 pm  Monday February 6, 2012"	"Guatemala 1 +"	50	clay	OldForest	50	0	30	100	20	OldForest	50	30	5	100	20	0	m	""
+WE	wepp-9323	"03:59 pm  Monday February 6, 2012"	"Guatemala 1 +"	clay	20	forest	0	50	30	100	l			m
+WR	wepp-25442	"03:55 pm  Friday February 10, 2012"	"Guatemala 1 +"	30	sand	native	120	4	4	5	50	1	20	20	outrut	m
+WR	wepp-25590	"03:59 pm  Friday February 10, 2012"	"Guatemala 1 +"	30	sand	native	120	4	4	5	50	1	20	20	outrut	m
+WR	wepp-26313	"04:07 pm  Friday February 10, 2012"	"Guatemala 1 +"	30	sand	graveled	120	4	4	5	50	1	20	20	inveg	m
+WR	wepp-26880	"04:10 pm  Friday February 10, 2012"	"Guatemala 1 +"	30	sand	graveled	120	4	4	5	50	1	20	20	outunrut	m
+WR	wepp-27112	"04:15 pm  Friday February 10, 2012"	"Guatemala 1 +"	30	sand	graveled	60	4	4	5	50	1	20	20	inveg	m
+WR	wepp-27320	"04:17 pm  Friday February 10, 2012"	"Guatemala 1 +"	30	sand	graveled	60	4	4	5	50	50	20	20	inveg	m
+WR	wepp-27601	"04:21 pm  Friday February 10, 2012"	"Guatemala 1 +"	30	sand	graveled	60	4	4	5	50	50	20	20	outunrut	m
+WD	wepp-27977	"04:11 pm  Friday February 17, 2012"	"Guatemala 1 +"	50	sand	OldForest	100	0	30	100	20	OldForest	50	30	10	100	20	0	ft	""
+WD	wepp-28112	"04:12 pm  Friday February 17, 2012"	"Guatemala 1 +"	50	sand	OldForest	100	20	30	100	20	OldForest	50	30	10	100	20	0	ft	""
+WD	wepp-28132	"04:12 pm  Friday February 17, 2012"	"KEY WEST WB AIRPORT FL"	50	sand	OldForest	100	20	30	100	20	OldForest	50	30	10	100	20	0	ft	""
+WD	wepp-28283	"04:14 pm  Friday February 17, 2012"	"KEY WEST WB AIRPORT FL"	50	sand	OldForest	100	20	30	80	20	OldForest	50	30	10	80	20	0	ft	""
+WD	wepp-28365	"04:15 pm  Friday February 17, 2012"	"KEY WEST WB AIRPORT FL"	50	sand	LowFire	100	20	30	85	20	LowFire	50	30	10	85	20	0	ft	""
+WD	wepp-28426	"04:16 pm  Friday February 17, 2012"	"KEY WEST WB AIRPORT FL"	50	sand	LowFire	100	20	30	80	20	LowFire	50	30	10	80	20	0	ft	""

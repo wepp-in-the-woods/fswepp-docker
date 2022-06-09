@@ -1,0 +1,8 @@
+Vermont
+<input type="hidden" name="state" value="vt">
+<Select name="station" size="15">
+<OPTION VALUE="Vt430499" selected> BELLOWS FALLS VT
+<OPTION VALUE="Vt431081"> BURLINGTON WB AP VT
+<OPTION VALUE="Vt435278"> MONTPELIER AP VT
+<OPTION VALUE="Vt439984"> WOODSTOCK VT
+</select>

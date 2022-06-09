@@ -1,0 +1,22 @@
+WR	wepp-82634	"01:54 pm  Wednesday July 10, 2019"	"TAOS NM"	30	sand	native	200	4	13	45	50	50	15	35	inveg	ft
+WR	wepp-82688	"01:55 pm  Wednesday July 10, 2019"	"TAOS NM"	10	sand	native	200	4	13	45	50	50	15	35	inveg	ft
+WR	wepp-83020	"02:12 pm  Wednesday July 10, 2019"	"TAOS NM PR 484 near ridgetop +"	10	sand	native	200	4	13	50	45	100	15	35	inbare	ft
+WR	wepp-83173	"02:22 pm  Wednesday July 10, 2019"	"TAOS NM PR 484 near ridgetop +"	10	sand	native	400	4	13	50	45	100	15	35	inbare	ft
+WR	wepp-83249	"02:28 pm  Wednesday July 10, 2019"	"TAOS NM PR 484 near ridgetop +"	30	sand	native	400	4	13	15	50	130	25	20	outrut	ft
+WD	wepp-77622	"12:24 pm  Friday July 19, 2019"	"McGaffey Project NM +"	10	loam	OldForest	200	35	36	100	20	OldForest	250	36	25	100	20	0	ft	""
+WD	wepp-77673	"12:25 pm  Friday July 19, 2019"	"TAOS NM PR 484 near ridgetop +"	10	loam	Skid	200	35	36	20	20	YoungForest	250	36	25	100	20	0	ft	""
+WD	wepp-77718	"12:25 pm  Friday July 19, 2019"	"TAOS NM PR 484 near ridgetop +"	10	loam	Skid	50	0	30	20	20	Skid	50	30	5	20	20	0	ft	""
+WD	wepp-77770	"12:26 pm  Friday July 19, 2019"	"TAOS NM PR 484 near ridgetop +"	10	loam	Skid	50	10	30	10	20	Skid	50	30	15	10	20	0	ft	""
+WD	wepp-77821	"12:27 pm  Friday July 19, 2019"	"TAOS NM PR 484 near ridgetop +"	10	loam	Sod	50	10	30	40	20	Sod	50	30	15	40	20	0	ft	""
+WD	wepp-77859	"12:27 pm  Friday July 19, 2019"	"TAOS NM PR 484 near ridgetop +"	10	loam	Sod	50	0	30	40	20	Shrub	50	30	5	80	20	0	ft	""
+WD	wepp-77916	"12:29 pm  Friday July 19, 2019"	"TAOS NM PR 484 near ridgetop +"	10	loam	YoungForest	50	0	30	100	20	YoungForest	50	30	5	100	20	0	ft	""
+WD	wepp-77955	"12:29 pm  Friday July 19, 2019"	"TAOS NM PR 484 near ridgetop +"	10	loam	YoungForest	250	0	30	100	20	YoungForest	150	30	5	100	20	0	ft	""
+WD	wepp-78000	"12:30 pm  Friday July 19, 2019"	"TAOS NM PR 484 near ridgetop +"	10	loam	YoungForest	250	0	30	100	20	YoungForest	25	30	5	100	20	0	ft	""
+WD	wepp-78098	"12:30 pm  Friday July 19, 2019"	"TAOS NM PR 484 near ridgetop +"	10	loam	HighFire	50	0	30	45	20	HighFire	25	30	5	45	20	0	ft	""
+WD	wepp-78594	"12:49 pm  Friday July 19, 2019"	"McGaffey Project NM + +"	10	loam	OldForest	150	25	40	100	20	OldForest	200	40	15	100	20	0	ft	""
+WD	wepp-78632	"12:50 pm  Friday July 19, 2019"	"TAOS NM PR 484 near ridgetop +"	10	loam	YoungForest	150	25	40	70	20	YoungForest	200	40	15	60	20	0	ft	""
+WD	wepp-78699	"12:52 pm  Friday July 19, 2019"	"McGaffey Project NM + +"	10	sand	YoungForest	200	20	40	65	20	OldForest	150	40	15	60	20	0	ft	""
+WD	wepp-78755	"12:54 pm  Friday July 19, 2019"	"TAOS NM PR 484 near ridgetop +"	10	sand	YoungForest	200	20	40	65	20	YoungForest	150	40	15	55	20	0	ft	""
+WD	wepp-78794	"12:54 pm  Friday July 19, 2019"	"TAOS NM PR 484 near ridgetop +"	30	sand	YoungForest	50	0	30	100	20	YoungForest	50	30	5	55	20	0	ft	""
+WD	wepp-79050	"01:02 pm  Friday July 19, 2019"	"McGaffey Project NM + +"	10	loam	OldForest	250	25	40	85	20	OldForest	150	40	15	85	20	0	ft	""
+WD	wepp-79120	"01:04 pm  Friday July 19, 2019"	"McGaffey Project NM + +"	10	loam	OldForest	250	25	40	85	20	OldForest	150	40	15	85	20	0	ft	""

@@ -1,0 +1,42 @@
+WD	wepp-224822	"05:34 am  Wednesday November 16, 2016"	""				0	0	0	0	0		0	0	0	0	0	0		""
+WD	wepp-225405	"05:41 am  Wednesday November 16, 2016"	"Wonju KOREA test 2"	30	silt	OldForest	150	20	20	95	20	OldForest	20	20	5	95	20	0	m	""
+WD	wepp-225836	"05:46 am  Wednesday November 16, 2016"	"Wonju KOREA test 2"	30	silt	OldForest	150	20	20	100	20	Bunchgrass	20	20	5	60	20	0	m	""
+WD	wepp-226250	"05:52 am  Wednesday November 16, 2016"	"Wonju KOREA test 2"	30	silt	Shrub	150	20	20	85	20	Shrub	20	20	5	85	20	0	m	""
+WD	wepp-226573	"05:58 am  Wednesday November 16, 2016"	"Wonju KOREA test 2"	30	silt	Shrub	150	20	20	85	20	Shrub	20	20	5	85	20	0	m	""
+WD	wepp-226681	"05:59 am  Wednesday November 16, 2016"	"Wonju KOREA test 2"	30	silt	Sod	150	20	20	40	20	Shrub	20	20	5	85	20	0	m	""
+WD	wepp-226780	"06:00 am  Wednesday November 16, 2016"	"Wonju KOREA test 2"	10	clay	Shrub	150	20	20	85	20	Shrub	20	20	20	85	20	0	m	""
+WD	wepp-227023	"06:03 am  Wednesday November 16, 2016"	"Wonju KOREA test 2"	10	clay	Sod	150	20	20	40	20	Shrub	20	20	20	85	20	0	m	""
+WD	wepp-228228	"06:22 am  Wednesday November 16, 2016"	"Wonju KOREA test 2"	10	clay	Sod	150	20	20	20	20	Shrub	20	20	20	85	20	0	m	""
+WD	wepp-228545	"06:28 am  Wednesday November 16, 2016"	"Wonju KOREA test 2"	10	clay	OldForest	150	20	20	95	20	OldForest	20	20	20	95	20	0	m	""
+WD	wepp-228665	"06:29 am  Wednesday November 16, 2016"	"Wonju KOREA test 2"	10	sand	OldForest	150	20	20	95	20	OldForest	20	20	20	95	20	0	m	""
+WD	wepp-228747	"06:30 am  Wednesday November 16, 2016"	"Wonju KOREA test 2"	30	sand	OldForest	150	20	20	95	20	OldForest	20	20	20	95	20	0	m	""
+WD	wepp-228836	"06:31 am  Wednesday November 16, 2016"	"Wonju KOREA test 2"	30	sand	OldForest	150	20	20	95	20	OldForest	20	20	20	95	20	0	m	""
+WD	wepp-228882	"06:32 am  Wednesday November 16, 2016"	"Wonju KOREA test 2"	30	clay	OldForest	150	20	20	95	20	OldForest	20	20	20	95	20	0	m	""
+WR	wepp-229922	"06:44 am  Wednesday November 16, 2016"	"Wonju KOREA test 2"	30	silt	native	120	5	5	5	30	0.3	20	20	inveg	m
+WR	wepp-230211	"06:46 am  Wednesday November 16, 2016"	"Wonju KOREA test 2"	30	silt	native	120	5	5	5	30	0.3	20	20	inveg	m
+WR	wepp-230653	"06:54 am  Wednesday November 16, 2016"	"Wonju KOREA test 2"	30	silt	native	120	5	5	5	30	0.3	20	20	outrut	m
+WR	wepp-230776	"06:57 am  Wednesday November 16, 2016"	"Wonju KOREA test 2"	30	silt	native	120	5	5	5	30	0.3	20	20	outrut	m
+WR	wepp-230950	"07:00 am  Wednesday November 16, 2016"	"Wonju KOREA test 2"	30	silt	native	120	5	5	5	30	20	20	20	outrut	m
+WD	wepp-13440	"11:11 pm  Wednesday November 16, 2016"	"RIO PIEDRAS EXP FARM PR"	30	silt	OldForest	150	20	20	95	20	OldForest	20	20	20	95	20	0	m	""
+WD	wepp-13478	"11:16 pm  Wednesday November 16, 2016"	""				0	0	0	0	0		0	0	0	0	0	0		""
+WD	wepp-13510	"11:19 pm  Wednesday November 16, 2016"	"RIO PIEDRAS EXP FARM PR"	30	silt	OldForest	150	20	20	95	20	OldForest	20	20	20	95	20	0	m	""
+WD	wepp-13554	"11:27 pm  Wednesday November 16, 2016"	"RIO PIEDRAS EXP FARM PR"	30	silt	Bunchgrass	150	20	20	95	20	Bunchgrass	20	20	20	95	20	0	m	""
+WD	wepp-13626	"11:33 pm  Wednesday November 16, 2016"	"RIO PIEDRAS EXP FARM PR"	30	silt	Shrub	150	20	20	85	20	Shrub	20	20	20	85	20	0	m	""
+WD	wepp-13669	"11:36 pm  Wednesday November 16, 2016"	"RIO PIEDRAS EXP FARM PR"	30	silt	Sod	150	20	20	40	20	Sod	20	20	20	40	20	0	m	""
+WD	wepp-13822	"11:44 pm  Wednesday November 16, 2016"	"RIO PIEDRAS EXP FARM PR"	30	silt	Sod	150	20	20	20	20	Sod	20	20	20	20	20	0	m	""
+WD	wepp-13930	"11:47 pm  Wednesday November 16, 2016"	"RIO PIEDRAS EXP FARM PR"	30	silt	Sod	150	20	20	40	20	Sod	20	20	20	40	20	0	m	""
+WD	wepp-14001	"11:48 pm  Wednesday November 16, 2016"	"RIO PIEDRAS EXP FARM PR"	30	clay	OldForest	150	20	20	95	20	OldForest	20	20	20	95	20	0	m	""
+WD	wepp-14134	"11:50 pm  Wednesday November 16, 2016"	"RIO PIEDRAS EXP FARM PR"	30	sand	OldForest	150	20	20	95	20	OldForest	20	20	20	95	20	0	m	""
+WD	wepp-24693	"02:55 am  Thursday November 17, 2016"	"RIO PIEDRAS EXP FARM PR"	10	silt	OldForest	150	20	20	95	20	OldForest	20	20	20	95	20	0	m	""
+WR	wepp-40769	"11:17 am  Thursday November 17, 2016"	"RIO PIEDRAS EXP FARM PR"	30	silt	native	120	5	5	5	30	3	20	15	outrut	m
+WR	wepp-40819	"11:23 am  Thursday November 17, 2016"	"RIO PIEDRAS EXP FARM PR"	30	silt	native	120	5	5	5	30	0.3	20	15	outrut	m
+WR	wepp-40905	"11:26 am  Thursday November 17, 2016"	"RIO PIEDRAS EXP FARM PR"	30	silt	native	120	5	5	5	30	0.3	20	15	outrut	m
+WR	wepp-40944	"11:27 am  Thursday November 17, 2016"	"RIO PIEDRAS EXP FARM PR"	30	silt	native	120	5	5	5	30	20	20	15	outrut	m
+WR	wepp-41039	"11:34 am  Thursday November 17, 2016"	"RIO PIEDRAS EXP FARM PR"	30	sand	native	120	5	5	5	30	40	20	15	outrut	m
+WR	wepp-41107	"11:35 am  Thursday November 17, 2016"	"RIO PIEDRAS EXP FARM PR"	30	silt	native	120	5	5	5	30	20	20	15	outrut	m
+WR	wepp-41146	"11:35 am  Thursday November 17, 2016"	"RIO PIEDRAS EXP FARM PR"	30	silt	native	120	5	5	5	30	20	20	15	outrut	m
+WR	wepp-41185	"11:35 am  Thursday November 17, 2016"	"RIO PIEDRAS EXP FARM PR"	30	sand	native	120	5	5	5	30	20	20	15	outrut	m
+WR	wepp-41393	"11:44 am  Thursday November 17, 2016"	"RIO PIEDRAS EXP FARM PR"	30	silt	native	120	5	5	5	30	0.3	20	15	outunrut	m
+WR	wepp-41710	"11:49 am  Thursday November 17, 2016"	"RIO PIEDRAS EXP FARM PR"	30	silt	native	120	5	5	5	30	0.3	20	15	outrut	m
+WR	wepp-41774	"11:51 am  Thursday November 17, 2016"	"RIO PIEDRAS EXP FARM PR"	30	silt	native	70	5	4	5	30	0.3	20	15	outrut	m
+WR	wepp-41945	"11:57 am  Thursday November 17, 2016"	"RIO PIEDRAS EXP FARM PR"	30	sand	native	70	5	4	5	30	20	20	15	outunrut	m

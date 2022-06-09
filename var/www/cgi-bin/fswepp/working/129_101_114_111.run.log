@@ -1,0 +1,28 @@
+WR	wepp-7618	"12:24 pm  Wednesday October 30, 2013"	"MOSCOW U OF I ID"	30	clay	native	200	4	13	15	50	130	25	20	outrut	ft
+WR	wepp-7876	"12:27 pm  Wednesday October 30, 2013"	"MOSCOW U OF I ID"	30	clay	native	200	6	13	15	50	130	25	20	outrut	ft
+WD	wepp-8065	"12:49 pm  Wednesday October 30, 2013"	"BIRMINGHAM WB AP AL"	10	clay	OldForest	50	0	30	100	20	OldForest	50	30	5	100	20	0	ft	""
+WD	wepp-8085	"12:50 pm  Wednesday October 30, 2013"	"BIRMINGHAM WB AP AL"	10	clay	OldForest	100	0	30	100	20	OldForest	50	30	5	100	20	0	ft	""
+WD	wepp-8165	"12:57 pm  Wednesday October 30, 2013"	"BIRMINGHAM WB AP AL"	10	clay	OldForest	50	0	30	100	20	OldForest	50	30	5	100	20	0	ft	""
+WR	wepp-8530	"01:12 pm  Wednesday October 30, 2013"	"SAINT MARIES ID +"	30	silt	native	200	4	1	15	50	130	25	20	inveg	ft
+WR	wepp-8551	"01:13 pm  Wednesday October 30, 2013"	"SAINT MARIES ID +"	30	silt	native	200	4	1	15	50	130	25	20	inbare	ft
+WR	wepp-8571	"01:14 pm  Wednesday October 30, 2013"	"SAINT MARIES ID +"	30	silt	paved	200	4	1	15	50	130	25	20	inbare	ft
+WR	wepp-10218	"04:10 pm  Wednesday October 30, 2013"	"SAINT MARIES ID +"	30	silt	native	200	4	13	15	50	1	25	20	inveg	ft
+WR	wepp-10273	"04:11 pm  Wednesday October 30, 2013"	"SAINT MARIES ID +"	30	silt	native	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-10386	"04:12 pm  Wednesday October 30, 2013"	"SAINT MARIES ID +"	30	silt	paved	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-10410	"04:13 pm  Wednesday October 30, 2013"	"SAINT MARIES ID +"	30	silt	native	200	4	13	15	50	10	25	20	inbare	ft
+WD	wepp-1027	"03:50 pm  Tuesday November 5, 2013"	"SAINT MARIES ID +"	10	silt	OldForest	400	0	30	100	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-1047	"03:52 pm  Tuesday November 5, 2013"	"SAINT MARIES ID +"	10	silt	Bunchgrass	400	0	30	60	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-1108	"03:55 pm  Tuesday November 5, 2013"	"SAINT MARIES ID +"	10	silt	Bunchgrass	400	0	30	60	20	Bunchgrass	75	30	5	60	20	0	ft	""
+WD	wepp-1131	"03:55 pm  Tuesday November 5, 2013"	"SAINT MARIES ID +"	10	silt	Bunchgrass	400	0	30	60	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-1203	"03:57 pm  Tuesday November 5, 2013"	"SAINT MARIES ID +"	10	silt	Bunchgrass	400	0	30	60	20	OldForest	30	30	5	100	20	0	ft	""
+WD	wepp-1243	"04:00 pm  Tuesday November 5, 2013"	"SAINT MARIES ID +"	10	silt	HighFire	400	0	30	45	20	LowFire	30	30	5	85	20	0	ft	""
+WD	wepp-1300	"04:02 pm  Tuesday November 5, 2013"	"SAINT MARIES ID +"	10	silt	HighFire	400	0	30	45	20	LowFire	30	30	5	85	20	0	ft	""
+WD	wepp-1322	"04:03 pm  Tuesday November 5, 2013"	"SAINT MARIES ID +"	10	silt	HighFire	400	0	30	45	20	LowFire	100	30	5	85	20	0	ft	""
+WD	wepp-1342	"04:04 pm  Tuesday November 5, 2013"	"SAINT MARIES ID +"	10	silt	HighFire	400	0	30	45	20	LowFire	1000	30	5	85	20	0	ft	""
+WD	wepp-1399	"04:06 pm  Tuesday November 5, 2013"	"SAINT MARIES ID-new +"	10	silt	OldForest	400	0	30	100	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-1418	"04:06 pm  Tuesday November 5, 2013"	"SAINT MARIES ID-new +"	10	silt	Bunchgrass	400	0	30	60	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-1440	"04:07 pm  Tuesday November 5, 2013"	"SAINT MARIES ID-new +"	10	silt	Bunchgrass	400	0	30	60	20	OldForest	30	30	5	100	20	0	ft	""
+WD	wepp-1460	"04:08 pm  Tuesday November 5, 2013"	"SAINT MARIES ID-new +"	10	silt	HighFire	400	0	30	45	20	LowFire	30	30	5	85	20	0	ft	""
+WD	wepp-1480	"04:09 pm  Tuesday November 5, 2013"	"SAINT MARIES ID-new +"	10	silt	HighFire	400	0	30	45	20	LowFire	100	30	5	85	20	0	ft	""
+WD	wepp-1500	"04:09 pm  Tuesday November 5, 2013"	"SAINT MARIES ID-new +"	10	silt	HighFire	400	0	30	45	20	LowFire	1000	30	5	85	20	0	ft	""
+WD	wepp-1548	"04:13 pm  Tuesday November 5, 2013"	"SAINT MARIES ID-new +"	10	silt	HighFire	400	0	30	45	20	HighFire	30	30	5	45	20	0	ft	""

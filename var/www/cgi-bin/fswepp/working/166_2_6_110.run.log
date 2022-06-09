@@ -1,0 +1,47 @@
+WE	wepp-161561	"11:50 am  Wednesday October 11, 2017"	"WARREN ID"	sand	20	forest	0	50	30	300	m			ft
+WD	wepp-161788	"11:53 am  Wednesday October 11, 2017"	"WARREN ID"	10	sand	HighFire	150	0	40	45	20	OldForest	150	40	5	45	20	0	ft	""
+WD	wepp-161824	"11:53 am  Wednesday October 11, 2017"	"WARREN ID"	10	sand	HighFire	150	0	40	45	20	HighFire	150	40	5	45	20	0	ft	""
+WD	wepp-161863	"11:54 am  Wednesday October 11, 2017"	"WARREN ID"	10	sand	HighFire	150	0	50	45	20	HighFire	150	50	5	45	20	0	ft	""
+WD	wepp-161902	"11:56 am  Wednesday October 11, 2017"	"WARREN ID"	10	clay	HighFire	200	0	30	20	20	HighFire	200	30	5	20	20	0	ft	""
+WD	wepp-162002	"11:58 am  Wednesday October 11, 2017"	"WARREN ID"	10	sand	HighFire	200	0	40	20	20	HighFire	200	40	5	20	20	0	ft	""
+WD	wepp-162040	"11:59 am  Wednesday October 11, 2017"	"WARREN ID"	10	sand	HighFire	200	0	40	30	20	HighFire	200	40	5	30	20	0	ft	""
+WD	wepp-162078	"11:59 am  Wednesday October 11, 2017"	"WARREN ID"	20	sand	HighFire	200	0	40	30	20	HighFire	200	40	5	30	20	0	ft	""
+WE	wepp-162126	"12:06 pm  Wednesday October 11, 2017"	"WARREN ID"	sand	20	forest	0	40	5	300	l			ft
+WD	wepp-162273	"12:08 pm  Wednesday October 11, 2017"	"WARREN ID"	10	sand	HighFire	100	0	60	30	20	HighFire	100	60	5	30	20	0	ft	""
+WD	wepp-162322	"12:09 pm  Wednesday October 11, 2017"	"WARREN ID"	10	sand	HighFire	200	0	60	30	20	HighFire	200	60	5	30	20	0	ft	""
+WD	wepp-162360	"12:09 pm  Wednesday October 11, 2017"	"WARREN ID"	10	sand	HighFire	200	0	60	20	20	HighFire	200	60	5	20	20	0	ft	""
+WD	wepp-162398	"12:10 pm  Wednesday October 11, 2017"	"WARREN ID"	20	sand	HighFire	200	0	60	20	20	HighFire	200	60	5	20	20	0	ft	""
+WE	wepp-25196	"12:44 pm  Thursday October 12, 2017"	"WARREN ID"	sand	20	forest	10	45	10	1000	h			ft
+WE	wepp-25424	"12:45 pm  Thursday October 12, 2017"	"WARREN ID"	sand	20	forest	10	60	10	1000	h			ft
+WD	wepp-25972	"01:07 pm  Thursday October 12, 2017"	"Highline Fire +"	25	sand	YoungForest	500	10	40	90	20	YoungForest	500	40	10	90	20	0	ft	"North Pre-Fire 40%slope"
+WD	wepp-26027	"01:09 pm  Thursday October 12, 2017"	"Highline Fire +"	30	sand	YoungForest	500	10	40	90	20	YoungForest	500	40	10	90	20	0	ft	"North Pre-fire 40% slope"
+WD	wepp-26146	"01:11 pm  Thursday October 12, 2017"	"Highline Fire +"	30	sand	YoungForest	500	10	60	90	20	YoungForest	500	40	60	90	20	0	ft	"North Pre-fire 40% slope"
+WD	wepp-26189	"01:12 pm  Thursday October 12, 2017"	"Highline Fire +"	30	sand	YoungForest	500	10	60	90	20	YoungForest	500	60	10	90	20	0	ft	""
+WD	wepp-26448	"01:13 pm  Thursday October 12, 2017"	"Highline Fire +"	30	sand	YoungForest	500	10	60	90	20	YoungForest	500	60	10	90	20	0	ft	"North pre-fire 60% slope"
+WD	wepp-26490	"01:14 pm  Thursday October 12, 2017"	"Highline Fire +"	30	sand	YoungForest	500	10	60	90	20	YoungForest	500	60	10	90	20	0	ft	"North pre-fire 60% slope"
+WD	wepp-26700	"01:15 pm  Thursday October 12, 2017"	"Highline Fire +"	30	sand	LowFire	500	10	40	85	20	LowFire	500	40	10	85	20	0	ft	"North Low-severity 40% slope"
+WD	wepp-26904	"01:16 pm  Thursday October 12, 2017"	"Highline Fire +"	30	sand	HighFire	500	10	40	45	20	HighFire	500	40	10	45	20	0	ft	"North high-severity 40% slope"
+WD	wepp-27512	"01:19 pm  Thursday October 12, 2017"	"Highline Fire +"	30	sand	HighFire	500	10	60	45	20	HighFire	500	60	10	45	20	0	ft	"North high-severity 60% slope"
+WD	wepp-27691	"01:21 pm  Thursday October 12, 2017"	"Highline Fire +"	30	sand	LowFire	500	0	60	85	20	LowFire	500	60	5	85	20	0	ft	"North low-severity 60% slope, 20% rock"
+WD	wepp-28085	"01:23 pm  Thursday October 12, 2017"	"Highline Fire +"	30	sand	HighFire	600	10	60	45	30	HighFire	600	60	10	45	30	0	ft	"high-severity, 60% slope, 1200 ft. length; 30% rock"
+WD	wepp-28207	"01:25 pm  Thursday October 12, 2017"	"Highline Fire +"	30	sand	HighFire	600	10	60	20	30	HighFire	600	60	10	20	30	0	ft	"high-severity, 60% slope, 1200 ft. length; 10% cover; 30% rock"
+WD	wepp-29031	"01:35 pm  Thursday October 12, 2017"	"Highline Fire +"	30	sand	HighFire	700	10	65	10	30	HighFire	700	65	10	10	30	0	ft	"high-severity, 60% slope, 1200 ft. length; 10% cover; 30% rock"
+WE	wepp-29504	"01:40 pm  Thursday October 12, 2017"	"Highline Fire +"	sand	20	forest	10	40	10	1000	h			ft
+WE	wepp-30651	"02:08 pm  Thursday October 12, 2017"	"Highline Fire +"	sand	20	forest	10	60	10	1000	h			ft
+WE	wepp-31351	"02:29 pm  Thursday October 12, 2017"	"Highline Fire +"	sand	20	forest	10	40	40	1000	u			ft
+WE	wepp-31442	"02:33 pm  Thursday October 12, 2017"	"Highline Fire +"	sand	20	forest	10	40	10	1000	h			ft
+WE	wepp-32006	"02:55 pm  Thursday October 12, 2017"	"Highline Fire +"	sand	20	forest	10	50	10	1000	h			ft
+WE	wepp-32250	"02:57 pm  Thursday October 12, 2017"	"Highline Fire +"	sand	20	forest	10	50	10	1000	h			ft
+WE	wepp-32537	"02:58 pm  Thursday October 12, 2017"	"Highline Fire +"	sand	20	forest	10	50	10	300	h			ft
+WE	wepp-32770	"03:00 pm  Thursday October 12, 2017"	"Highline Fire +"	sand	20	forest	10	50	10	1000	h			ft
+WE	wepp-33001	"03:05 pm  Thursday October 12, 2017"	"Highline Fire +"	sand	20	forest	0	50	10	1000	m			ft
+WE	wepp-33088	"03:05 pm  Thursday October 12, 2017"	"Highline Fire +"	sand	20	forest	10	50	10	1000	m			ft
+WE	wepp-33340	"03:07 pm  Thursday October 12, 2017"	"Highline Fire +"	sand	20	forest	10	50	10	1000	l			ft
+WE	wepp-33486	"03:08 pm  Thursday October 12, 2017"	"Highline Fire +"	sand	20	forest	10	30	10	1000	h			ft
+WE	wepp-33746	"03:12 pm  Thursday October 12, 2017"	"Highline Fire +"	sand	20	forest	10	35	10	1000	h			ft
+WE	wepp-34029	"03:13 pm  Thursday October 12, 2017"	"Highline Fire +"	sand	20	forest	10	30	10	1000	h			ft
+WE	wepp-34252	"03:14 pm  Thursday October 12, 2017"	"Highline Fire +"	sand	20	forest	10	35	10	1000	h			ft
+WE	wepp-34511	"03:16 pm  Thursday October 12, 2017"	"Highline Fire +"	sand	20	forest	10	35	10	1000	m			ft
+WE	wepp-34706	"03:20 pm  Thursday October 12, 2017"	"Highline Fire +"	sand	20	forest	10	35	10	1000	l			ft
+WE	wepp-34862	"03:21 pm  Thursday October 12, 2017"	"Highline Fire +"	sand	20	forest	10	50	10	1000	u			ft
+WE	wepp-34946	"03:22 pm  Thursday October 12, 2017"	"Highline Fire +"	sand	20	forest	10	30	10	1000	h			ft

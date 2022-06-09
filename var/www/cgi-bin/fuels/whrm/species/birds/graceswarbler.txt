@@ -1,0 +1,72 @@
+#this files was modified by filegenwhrm.pl on: Wednesday, March 16, 2005.
+#taxgroup Birds species Grace's warbler / Dendroica gracaiae
+#
+# Rank
+1,-99,1,-99,-99
+# Nestsite
+-99
+# Reprorank
+-99
+# Foraging Habitat
+20,-1
+# Habitatrank
+1,-99
+# Forage/Prey Availability
+-99
+# Preyrank
+-99
+# Predator Avoidance
+-99
+# Avoidrank
+-99
+# Refugia/Shelter
+-99
+# Shelterrank
+-99
+# Coverrank
+-99
+# Literature
+Distribution
+breeds in southwest USA into Mexico
+General Habitat
+coniferous or mixed forests of southwestern mountains, especially yellow pines
+Home or Activity Range
+no information available
+Canopy Cover
+preference for open canopy (Szaro and Balda 1986)
+Specific Habitat Preferences
+open canopy
+Nestsite Characteristics
+nests on high branch; nest made of leaves, stems, down, bits of fabric and cocoon material, lined with mammal hair and feathers
+Foraging Habitat Characteristics
+forages high in trees, creeping along branches, gleans food from bark and probes clusters of needles and pine cones
+Diet
+flying insects, spiders
+Predators
+no information available
+Shelter Habitats
+no information available
+Response to Disturbance
+initially reduced by fire and remained low  (Johnson and Wauer 1996); more abundant on logged plots  (Szaro and Balda 1986), disfavored 1-2 years post-fire due to forest and foliage loss (Johnson and Wauer 1996); favored 4-14 years post-fire as tree foliage recovers (Johnson and Wauer 1996); highest density on silviculturally cut and irregular strip plots vs. controls, severely thinned, and clearcut plots (Szaro and Balda 1979)
+Sources of Information used in the Model
+Szaro and Balda 1986
+General Sources of Background Information
+Szaro and Balda 1979, Szaro and Balda 1986, Johnson and Wauer 1996, National Geographic Society 1996, Alsop 2001
+Summaries of Specific Studies
+Johnson, Terrell; Wauer, Roland H. 1996. Avifaunal response to the 1977 La Mesa fire. In: Allen, C.D. (tech. ed.) Fire effects in southwestern forests. Proceedings of the second La Mesa fire symposium. Gen. Tech. Rep. RM-GRT-286. Fort Collins, CO: USDA Forest Service, Rocky Mountain Forest and Range Experiment Station. 70-94.
+
+Study Location: Bandelier National Monument, NM
+Habitat Description: PIPO, montane meadow, mixed conifer, pinyon-juniper
+Summary: Breeding birds were surveyed before and for many years after a wildfire in Bandelier National Monument. Species diversity increased after the fire, but breeding populations in general declined for several years before increasing above prefire levels. This pattern was more pronounced on severely burned forest. In all but the severely burned forest, breeding bird diversity and populations were higher than prefire levels 14 years after the wildfire. Patterns are presented for different foraging and nesting guilds, as well as some individual species (including particular habitat changes that impacted bird species).
+
+Szaro, Robert C.; Balda, Russell P. 1979. Effects of harvesting ponderosa pine on nongame bird populations. Res. Pap.RM-212. Fort Collins, CO: USDA, Forest Service, Rocky Mountain Forest and Range Experiment Station. 8 p.
+
+Study Location: Coconino National Forest, Arizona
+Habitat Description: PIPO
+Summary: Bird species diversity and species richness were not significantly affected by forest cutting and logging except in a clearcut treatment. Bird population densities significantly increased on silviculturally cut and irregular strip shelterwood plots and significantly decreased  on the severely thinned and clearcut plots. Impact on individual species is discussed. 
+
+Szaro, Robert C.; Balda, Russell P. 1986. Relationships among weather, habitat structure, and ponderosa pine forest birds. Journal of Wildlife Management. 50(2): 253-260.
+Study Location: Coconino National Forest, Arizona
+Habitat Description: PIPO
+Summary: Seasonal avian communities were examined for their response to weather condition and treatment (logging) effects. While birds responded to climate, most notably precipitation, treatment effects appeared to be more influential. Species preferring open habitat (rock wren, American robin, western wood pee-wee and western bluebird) were highest on medium and heavy cut stands. Treated stands also had the highest abundance of chipping sparrows, broad-tailed hummingbirds, Grace's warbler, and dark-eyed juncos. Species preferring dense foliage (western flycatcher, pygmy nuthatch, red-faced warbler, hermit thrush, black-headed grosbeak) were less abundant in modified habitats.
+

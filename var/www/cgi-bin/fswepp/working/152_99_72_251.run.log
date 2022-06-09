@@ -1,0 +1,67 @@
+WR	wepp-217011	"05:37 pm  Thursday August 6, 2015"	"ALABAMA STATE FARM AL +"	30	clay	native	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-217849	"05:56 pm  Thursday August 6, 2015"	"ALABAMA STATE FARM AL +"	30	clay	native	60	4	4	5	50	40	25	20	inveg	m
+WR	wepp-217911	"05:57 pm  Thursday August 6, 2015"	"ALABAMA STATE FARM AL +"	30	clay	native	60	4	4	5	50	40	25	20	inveg	m
+WD	wepp-218429	"06:09 pm  Thursday August 6, 2015"	"ALABAMA STATE FARM AL +"	10	clay	HighFire	50	0	30	45	20	OldForest	50	30	5	100	20	0	ft	""
+WE	wepp-226893	"09:41 pm  Thursday August 6, 2015"	"ALABAMA STATE FARM AL +"	clay	20	range	0	50	30	300	l	15	75	ft
+WR	wepp-227166	"09:44 pm  Thursday August 6, 2015"	"ALABAMA STATE FARM AL +"	30	clay	native	60	4	4	5	50	40	25	20	outrut	m
+WE	wepp-227248	"09:45 pm  Thursday August 6, 2015"	"ALABAMA STATE FARM AL +"	clay	20	forest	0	50	30	300	l			ft
+WR	wepp-229278	"10:35 pm  Thursday August 6, 2015"	"ALABAMA STATE FARM AL +"	30	clay	native	200	4	13	15	50	130	25	20	inveg	ft
+WD	wepp-87567	"06:58 pm  Monday August 17, 2015"	"ALABAMA STATE FARM AL + +"	10	clay	OldForest	50	0	30	100	20	OldForest	50	30	5	100	20	0	ft	""
+WF	wepp-87661	"07:00 pm  Monday August 17, 2015"	"ALABAMA STATE FARM AL + +"	clay	200	50	0	30	15	40	20	20	4	ft
+WD	wepp-87748	"07:01 pm  Monday August 17, 2015"	"ALABAMA STATE FARM AL + +"	50	clay	OldForest	150	0	30	100	20	OldForest	50	30	15	100	20	0	ft	""
+WR	wepp-78936	"00:16 am  Monday August 24, 2015"	"ALABAMA STATE FARM AL + +"	30	sand	native	60	4	4	5	50	40	25	20	outrut	m
+WD	wepp-197098	"06:31 pm  Tuesday August 25, 2015"	"ex +"	10	clay	OldForest	50	0	30	100	20	OldForest	50	30	5	100	20	0	ft	""
+WD	wepp-197135	"06:31 pm  Tuesday August 25, 2015"	"ex +"	10	clay	OldForest	50	0	30	100	20	OldForest	50	30	5	100	20	0	ft	""
+WD	wepp-197214	"06:38 pm  Tuesday August 25, 2015"	"ex +"	10	silt	OldForest	50	0	30	100	20	OldForest	50	30	5	100	20	0	ft	""
+WD	wepp-197275	"06:39 pm  Tuesday August 25, 2015"	"ex +"	10	sand	OldForest	50	0	30	100	20	OldForest	50	30	5	100	20	0	ft	""
+WD	wepp-197320	"06:39 pm  Tuesday August 25, 2015"	"ex +"	10	loam	OldForest	50	0	30	100	20	OldForest	50	30	5	100	20	0	ft	""
+WD	wepp-197403	"06:40 pm  Tuesday August 25, 2015"	"ex +"	10	clay	OldForest	50	0	30	100	20	OldForest	50	30	5	100	20	0	ft	""
+WD	wepp-197513	"06:44 pm  Tuesday August 25, 2015"	"ex +"	30	clay	OldForest	50	0	30	100	20	OldForest	50	30	5	100	20	0	ft	""
+WD	wepp-200139	"07:40 pm  Tuesday August 25, 2015"	"ex +"	10	clay	HighFire	50	0	30	45	20	HighFire	50	30	5	45	20	0	ft	""
+WD	wepp-203608	"11:18 pm  Tuesday August 25, 2015"	"ex +"	10	silt	OldForest	50	0	30	100	20	OldForest	50	30	5	100	20	0	ft	""
+WD	wepp-203683	"11:19 pm  Tuesday August 25, 2015"	""				0	0	0	0	0		0	0	0	0	0	0		""
+WD	wepp-203735	"11:20 pm  Tuesday August 25, 2015"	"ex +"	10	silt	YoungForest	50	0	30	100	20	YoungForest	50	30	5	100	20	0	ft	""
+WD	wepp-203783	"11:21 pm  Tuesday August 25, 2015"	"ex +"	10	silt	Shrub	50	0	30	80	20	Shrub	50	30	5	80	20	0	ft	""
+WD	wepp-203820	"11:22 pm  Tuesday August 25, 2015"	"ex +"	10	silt	Bunchgrass	50	0	30	60	20	Bunchgrass	50	30	5	60	20	0	ft	""
+WD	wepp-203857	"11:23 pm  Tuesday August 25, 2015"	"ex +"	10	silt	Sod	50	0	30	40	20	Sod	50	30	5	40	20	0	ft	""
+WD	wepp-203892	"11:23 pm  Tuesday August 25, 2015"	""				0	0	0	0	0		0	0	0	0	0	0		""
+WD	wepp-203893	"11:23 pm  Tuesday August 25, 2015"	"ex +"	10	silt	LowFire	50	0	30	85	20	LowFire	50	30	5	85	20	0	ft	""
+WD	wepp-203954	"11:25 pm  Tuesday August 25, 2015"	"ex +"	10	silt	HighFire	50	0	30	45	20	HighFire	50	30	5	45	20	0	ft	""
+WD	wepp-203991	"11:25 pm  Tuesday August 25, 2015"	""				0	0	0	0	0		0	0	0	0	0	0		""
+WD	wepp-203993	"11:26 pm  Tuesday August 25, 2015"	"ex +"	10	silt	Skid	50	0	30	20	20	Skid	50	30	5	20	20	0	ft	""
+WD	wepp-204092	"11:28 pm  Tuesday August 25, 2015"	"ex +"	10	sand	OldForest	50	0	30	100	20	OldForest	50	30	5	100	20	0	ft	""
+WD	wepp-204143	"11:29 pm  Tuesday August 25, 2015"	"ex +"	10	sand	YoungForest	50	0	30	100	20	YoungForest	50	30	5	100	20	0	ft	""
+WD	wepp-204205	"11:29 pm  Tuesday August 25, 2015"	"ex +"	10	sand	Shrub	50	0	30	80	20	Shrub	50	30	5	80	20	0	ft	""
+WD	wepp-204266	"11:30 pm  Tuesday August 25, 2015"	"ex +"	10	sand	Bunchgrass	50	0	30	60	20	Bunchgrass	50	30	5	60	20	0	ft	""
+WD	wepp-204313	"11:30 pm  Tuesday August 25, 2015"	"ex +"	10	sand	Sod	50	0	30	40	20	Sod	50	30	5	40	20	0	ft	""
+WD	wepp-204351	"11:31 pm  Tuesday August 25, 2015"	"ex +"	10	sand	LowFire	50	0	30	85	20	LowFire	50	30	5	85	20	0	ft	""
+WD	wepp-204397	"11:31 pm  Tuesday August 25, 2015"	"ex +"	10	sand	HighFire	50	0	30	45	20	HighFire	50	30	5	45	20	0	ft	""
+WD	wepp-204434	"11:31 pm  Tuesday August 25, 2015"	"ex +"	10	sand	Skid	50	0	30	20	20	Skid	50	30	5	20	20	0	ft	""
+WD	wepp-204473	"11:32 pm  Tuesday August 25, 2015"	"ex +"	10	loam	OldForest	50	0	30	100	20	OldForest	50	30	5	100	20	0	ft	""
+WD	wepp-204512	"11:33 pm  Tuesday August 25, 2015"	"ex +"	10	loam	YoungForest	50	0	30	100	20	YoungForest	50	30	5	100	20	0	ft	""
+WD	wepp-204564	"11:34 pm  Tuesday August 25, 2015"	"ex +"	10	loam	Shrub	50	0	30	80	20	Shrub	50	30	5	80	20	0	ft	""
+WD	wepp-204601	"11:34 pm  Tuesday August 25, 2015"	"ex +"	10	loam	Bunchgrass	50	0	30	60	20	Bunchgrass	50	30	5	60	20	0	ft	""
+WD	wepp-204649	"11:35 pm  Tuesday August 25, 2015"	"ex +"	10	loam	Sod	50	0	30	40	20	Sod	50	30	5	40	20	0	ft	""
+WD	wepp-204686	"11:35 pm  Tuesday August 25, 2015"	"ex +"	10	loam	LowFire	50	0	30	85	20	LowFire	50	30	5	85	20	0	ft	""
+WD	wepp-204724	"11:36 pm  Tuesday August 25, 2015"	"ex +"	10	loam	HighFire	50	0	30	45	20	HighFire	50	30	5	45	20	0	ft	""
+WD	wepp-204763	"11:36 pm  Tuesday August 25, 2015"	"ex +"	10	loam	Skid	50	0	30	20	20	Skid	50	30	5	20	20	0	ft	""
+WD	wepp-204852	"11:43 pm  Tuesday August 25, 2015"	"ex +"	10	clay	YoungForest	50	0	30	100	20	YoungForest	50	30	5	100	20	0	ft	""
+WD	wepp-204892	"11:44 pm  Tuesday August 25, 2015"	"ex +"	10	clay	Shrub	50	0	30	80	20	Shrub	50	30	5	80	20	0	ft	""
+WD	wepp-204930	"11:45 pm  Tuesday August 25, 2015"	"ex +"	10	clay	Bunchgrass	50	0	30	60	20	Bunchgrass	50	30	5	60	20	0	ft	""
+WD	wepp-204980	"11:45 pm  Tuesday August 25, 2015"	"ex +"	10	clay	Sod	50	0	30	40	20	Sod	50	30	5	40	20	0	ft	""
+WD	wepp-205019	"11:46 pm  Tuesday August 25, 2015"	"ex +"	10	clay	LowFire	50	0	30	85	20	LowFire	50	30	5	85	20	0	ft	""
+WD	wepp-205059	"11:46 pm  Tuesday August 25, 2015"	"ex +"	10	clay	HighFire	50	0	30	45	20	HighFire	50	30	5	45	20	0	ft	""
+WD	wepp-205097	"11:46 pm  Tuesday August 25, 2015"	"ex +"	10	clay	Skid	50	0	30	20	20	Skid	50	30	5	20	20	0	ft	""
+WD	wepp-10710	"02:00 am  Thursday September 3, 2015"	"IOWA FALLS 1N IA"	10	silt	Bunchgrass	50	0	30	60	20	Bunchgrass	50	30	5	60	20	0	ft	""
+WD	wepp-65797	"06:27 pm  Thursday September 3, 2015"	"MOSCOW U OF I ID"	10	clay	Bunchgrass	50	0	30	60	20	Bunchgrass	50	30	5	60	20	0	ft	""
+WE	wepp-65839	"06:29 pm  Thursday September 3, 2015"	"ALABAMA STATE FARM AL + +"	silt	20	forest	0	50	30	300	l			ft
+WE	wepp-66021	"06:31 pm  Thursday September 3, 2015"	"IOWA FALLS 1N IA"	silt	20	forest	0	50	30	300	l			ft
+WE	wepp-66190	"06:34 pm  Thursday September 3, 2015"	"IOWA FALLS 1N IA"	clay	20	forest	0	50	30	300	l			ft
+WE	wepp-66514	"06:40 pm  Thursday September 3, 2015"	"CHARLESTON KAN AP WV"	clay	20	range	0	50	30	300	l	15	75	ft
+WE	wepp-66702	"06:41 pm  Thursday September 3, 2015"	"CHARLESTON KAN AP WV"	clay	20	chap	0	50	30	300	l	80	0	ft
+WE	wepp-66947	"06:43 pm  Thursday September 3, 2015"	"CHARLESTON KAN AP WV"	loam	20	chap	0	50	30	300	l	80	0	ft
+WE	wepp-67144	"06:45 pm  Thursday September 3, 2015"	"CHARLESTON KAN AP WV"	loam	20	chap	0	50	30	300	h	80	0	ft
+wt	wepp-202837	"Sep 10, 2015"	"Wonju KOREA test 2 +"	granitic	Bare	0	30	50	20	20	Bare	30	5	50	20	20	m	""
+wt	wepp-202911	"Sep 10, 2015"	"Wonju KOREA test 2 +"	granitic	Bare	0	30	50	20	20	Bare	30	5	50	20	20	ft	""
+wt	wepp-202947	"Sep 10, 2015"	"Wonju KOREA test 2 +"	granitic	Bare	0	30	50	20	20	Bare	30	5	50	20	20	ft	""
+WE	wepp-193544	"04:14 pm  Tuesday June 26, 2018"	"Daegu_USA_50yr + +"	sand	20	forest	0	50	30	300	m			ft

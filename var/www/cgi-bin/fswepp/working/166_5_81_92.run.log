@@ -1,0 +1,18 @@
+WR	wepp-13282	"01:32 pm  Monday September 20, 2010"	"elk mtn CA +"	30	clay	native	200	7	13	15	50	130	65	20	inbare	ft
+WR	wepp-13287	"01:33 pm  Monday September 20, 2010"	"elk mtn CA +"	30	clay	native	200	7	13	15	50	130	65	20	outrut	ft
+WR	wepp-32657	"11:38 am  Monday February 1, 2016"	"EAST PARK RES CA / Whiskey +"	45	silt	native	100	5	12	1	0.3	100	25	30	outunrut	ft
+WR	wepp-32915	"11:44 am  Monday February 1, 2016"	"EAST PARK RES CA / Whiskey +"	45	silt	native	100	5	12	15	50	1	0.3	30	inveg	ft
+WR	wepp-33009	"11:45 am  Monday February 1, 2016"	"EAST PARK RES CA / Whiskey +"	45	silt	native	100	5	12	15	25	1	0.3	30	inveg	ft
+WR	wepp-33051	"11:45 am  Monday February 1, 2016"	"EAST PARK RES CA / Whiskey +"	45	silt	native	100	5	12	1	25	1	0.3	30	inveg	ft
+WD	wepp-33197	"11:49 am  Monday February 1, 2016"	"EAST PARK RES CA / Whiskey +"	45	sand	Bunchgrass	100	0	35	10	30	Shrub	100	0	35	50	30	0	ft	""
+WD	wepp-33340	"11:53 am  Monday February 1, 2016"	"EAST PARK RES CA / Whiskey +"	45	sand	Shrub	100	35	35	10	30	Shrub	100	35	35	50	30	0	ft	""
+WD	wepp-33389	"11:54 am  Monday February 1, 2016"	"EAST PARK RES CA / Whiskey +"	45	sand	Shrub	100	25	25	10	30	Shrub	100	35	35	50	30	0	ft	""
+WD	wepp-33430	"11:54 am  Monday February 1, 2016"	"EAST PARK RES CA / Whiskey +"	45	sand	Shrub	100	45	45	10	30	Shrub	100	45	45	50	30	0	ft	""
+WD	wepp-33521	"11:55 am  Monday February 1, 2016"	"EAST PARK RES CA / Whiskey +"	45	sand	Shrub	100	45	45	10	30	Shrub	100	45	45	10	30	0	ft	""
+WD	wepp-33567	"11:56 am  Monday February 1, 2016"	"EAST PARK RES CA / Whiskey +"	45	sand	Shrub	100	25	25	10	30	Shrub	100	25	25	10	30	0	ft	""
+WD	wepp-33614	"11:57 am  Monday February 1, 2016"	"EAST PARK RES CA / Whiskey +"	45	sand	Shrub	100	25	25	50	30	Shrub	100	25	25	50	30	0	ft	""
+WR	wepp-33759	"12:01 pm  Monday February 1, 2016"	"EAST PARK RES CA / Whiskey + + +"	45	sand	native	100	5	12	1	0.3	1	25	30	outunrut	ft
+WR	wepp-33802	"12:02 pm  Monday February 1, 2016"	"EAST PARK RES CA / Whiskey + + +"	45	sand	native	100	5	12	1	0.3	100	25	30	outunrut	ft
+WE	wepp-31074	"10:36 am  Wednesday April 27, 2016"	"EAST PARK RES CA / Whiskey + + +"	sand	20	forest	0	50	30	300	u			ft
+WE	wepp-31182	"10:37 am  Wednesday April 27, 2016"	"EAST PARK RES CA / Whiskey + + +"	sand	20	forest	0	50	30	300	l			ft
+wt	wepp-31409	"Apr 27, 2016"	"EAST PARK RES CA / Whiskey + + +"	granitic	OldForest	0	30	50	100	20	YoungForest	30	5	50	70	20	ft	""

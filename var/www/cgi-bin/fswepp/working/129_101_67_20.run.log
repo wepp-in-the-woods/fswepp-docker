@@ -1,0 +1,85 @@
+WR	wepp-100795	"09:32 am  Thursday May 5, 2016"	"SAINT MARIES ID"	30	silt	graveled	200	4	13	15	50	1	25	20	inveg	ft
+WR	wepp-101061	"09:36 am  Thursday May 5, 2016"	"SAINT MARIES ID"	30	silt	graveled	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-101156	"09:37 am  Thursday May 5, 2016"	"SAINT MARIES ID"	30	silt	paved	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-101416	"09:40 am  Thursday May 5, 2016"	"SAINT MARIES ID"	30	silt	paved	200	4	13	15	50	20	25	20	inbare	ft
+WR	wepp-101457	"09:40 am  Thursday May 5, 2016"	"SAINT MARIES ID"	30	silt	paved	200	4	13	15	50	150	25	20	inbare	ft
+WR	wepp-101496	"09:40 am  Thursday May 5, 2016"	"SAINT MARIES ID"	30	silt	paved	200	4	13	15	50	120	25	20	inbare	ft
+WR	wepp-101536	"09:40 am  Thursday May 5, 2016"	"SAINT MARIES ID"	30	silt	paved	200	4	13	15	50	110	25	20	inbare	ft
+WR	wepp-101633	"09:40 am  Thursday May 5, 2016"	"SAINT MARIES ID"	30	silt	paved	200	4	13	15	50	110	25	20	inbare	ft
+WR	wepp-101673	"09:41 am  Thursday May 5, 2016"	"SAINT MARIES ID"	30	silt	paved	200	4	13	15	50	105	25	20	inbare	ft
+WR	wepp-101711	"09:41 am  Thursday May 5, 2016"	"SAINT MARIES ID"	30	silt	paved	200	4	13	15	50	104	25	20	inbare	ft
+WR	wepp-101750	"09:41 am  Thursday May 5, 2016"	"SAINT MARIES ID"	30	silt	paved	200	4	13	15	50	106	25	20	inbare	ft
+WR	wepp-101860	"09:42 am  Thursday May 5, 2016"	"SAINT MARIES ID"	30	silt	graveled	200	4	13	15	50	1	25	20	outunrut	ft
+WR	wepp-102093	"09:44 am  Thursday May 5, 2016"	"SAINT MARIES ID"	30	silt	graveled	200	4	13	15	50	130	25	20	outunrut	ft
+WR	wepp-102176	"09:45 am  Thursday May 5, 2016"	"SAINT MARIES ID"	30	silt	paved	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-102278	"09:46 am  Thursday May 5, 2016"	"SAINT MARIES ID"	30	clay	native	200	4	13	15	50	1	25	20	inveg	ft
+WD	wepp-103037	"09:53 am  Thursday May 5, 2016"	"SAINT MARIES ID +"	10	silt	OldForest	400	0	30	100	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-103425	"09:56 am  Thursday May 5, 2016"	"SAINT MARIES ID +"	10	silt	Sod	400	0	30	40	20	Sod	75	30	5	40	20	0	ft	""
+WD	wepp-103732	"09:59 am  Thursday May 5, 2016"	"SAINT MARIES ID +"	10	silt	Sod	400	0	30	40	20	OldForest	30	30	5	100	20	0	ft	""
+WD	wepp-103860	"10:00 am  Thursday May 5, 2016"	"SAINT MARIES ID +"	10	silt	LowFire	400	0	30	85	20	LowFire	30	30	5	85	20	0	ft	""
+WD	wepp-103941	"10:01 am  Thursday May 5, 2016"	"SAINT MARIES ID +"	10	silt	HighFire	400	0	30	45	20	HighFire	30	30	5	45	20	0	ft	""
+WD	wepp-104021	"10:02 am  Thursday May 5, 2016"	"SAINT MARIES ID +"	10	silt	OldForest	400	0	30	100	20	HighFire	75	30	5	45	20	0	ft	""
+WD	wepp-104061	"10:03 am  Thursday May 5, 2016"	"SAINT MARIES ID +"	10	silt	HighFire	400	0	30	45	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-104212	"10:04 am  Thursday May 5, 2016"	"SAINT MARIES ID +"	10	silt	HighFire	400	0	30	45	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-104340	"10:05 am  Thursday May 5, 2016"	"SAINT MARIES ID +"	10	silt	Sod	400	0	30	40	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-104422	"10:05 am  Thursday May 5, 2016"	"SAINT MARIES ID +"	10	silt	Sod	400	0	30	40	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-104435	"10:06 am  Thursday May 5, 2016"	"SAINT MARIES ID +"	10	silt	Sod	400	0	30	40	20	OldForest	30	30	5	100	20	0	ft	""
+WD	wepp-104508	"10:06 am  Thursday May 5, 2016"	"SAINT MARIES ID +"	10	silt	LowFire	400	0	30	85	20	LowFire	30	30	5	85	20	0	ft	""
+WD	wepp-104517	"10:06 am  Thursday May 5, 2016"	"SAINT MARIES ID +"	10	silt	HighFire	400	0	30	45	20	HighFire	30	30	5	45	20	0	ft	""
+WD	wepp-104565	"10:07 am  Thursday May 5, 2016"	"SAINT MARIES ID +"	10	silt	HighFire	400	0	30	45	20	OldForest	30	30	5	100	20	0	ft	""
+WD	wepp-104603	"10:07 am  Thursday May 5, 2016"	"SAINT MARIES ID +"	10	silt	OldForest	400	0	30	100	20	HighFire	30	30	5	45	20	0	ft	""
+WD	wepp-104640	"10:07 am  Thursday May 5, 2016"	"SAINT MARIES ID +"	10	silt	OldForest	400	0	30	100	20	HighFire	30	30	5	45	20	0	ft	""
+WD	wepp-104677	"10:07 am  Thursday May 5, 2016"	"SAINT MARIES ID +"	10	silt	HighFire	400	0	30	45	20	OldForest	30	30	5	100	20	0	ft	""
+WR	wepp-105141	"10:12 am  Thursday May 5, 2016"	"SAINT MARIES ID"	30	silt	native	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-105221	"10:13 am  Thursday May 5, 2016"	"SAINT MARIES ID"	30	silt	graveled	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-105336	"10:13 am  Thursday May 5, 2016"	"SAINT MARIES ID"	30	silt	graveled	200	4	13	15	50	1	25	20	inveg	ft
+WR	wepp-105653	"10:15 am  Thursday May 5, 2016"	"SAINT MARIES ID"	30	silt	graveled	200	4	13	15	50	1	25	20	inveg	ft
+WR	wepp-105743	"10:16 am  Thursday May 5, 2016"	"SAINT MARIES ID +"	30	silt	graveled	200	4	13	15	50	1	25	20	inveg	ft
+WR	wepp-105806	"10:18 am  Thursday May 5, 2016"	"SAINT MARIES ID +"	30	silt	graveled	200	4	13	15	50	1	25	20	inveg	ft
+WR	wepp-105913	"10:20 am  Thursday May 5, 2016"	"SAINT MARIES ID"	30	silt	graveled	200	4	13	15	50	1	25	20	inveg	ft
+WR	wepp-105968	"10:20 am  Thursday May 5, 2016"	"Mica Creek 3800 +"	30	silt	graveled	200	4	13	15	50	1	25	20	inveg	ft
+WR	wepp-106035	"10:20 am  Thursday May 5, 2016"	"Mica Creek 3800 +"	30	silt	graveled	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-106086	"10:21 am  Thursday May 5, 2016"	"Mica Creek 3800 +"	30	silt	paved	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-106152	"10:22 am  Thursday May 5, 2016"	"Mica Creek 3800 +"	30	silt	paved	200	4	13	15	50	106	25	20	inbare	ft
+WR	wepp-106189	"10:22 am  Thursday May 5, 2016"	"Mica Creek 3800 +"	30	silt	paved	200	4	13	15	50	90	25	20	inbare	ft
+WR	wepp-106227	"10:22 am  Thursday May 5, 2016"	"Mica Creek 3800 +"	30	silt	paved	200	4	13	15	50	95	25	20	inbare	ft
+WR	wepp-106264	"10:22 am  Thursday May 5, 2016"	"Mica Creek 3800 +"	30	silt	paved	200	4	13	15	50	98	25	20	inbare	ft
+WR	wepp-106302	"10:22 am  Thursday May 5, 2016"	"Mica Creek 3800 +"	30	silt	paved	200	4	13	15	50	100	25	20	inbare	ft
+WR	wepp-106337	"10:22 am  Thursday May 5, 2016"	"Mica Creek 3800 +"	30	silt	paved	200	4	13	15	50	106	25	20	inbare	ft
+WR	wepp-106376	"10:22 am  Thursday May 5, 2016"	"Mica Creek 3800 +"	30	silt	paved	200	4	13	15	50	80	25	20	inbare	ft
+WR	wepp-106414	"10:23 am  Thursday May 5, 2016"	"Mica Creek 3800 +"	30	silt	paved	200	4	13	15	50	92	25	20	inbare	ft
+WR	wepp-106463	"10:23 am  Thursday May 5, 2016"	"Mica Creek 3800 +"	30	silt	graveled	200	4	13	15	50	92	25	20	outrut	ft
+WD	wepp-106568	"10:24 am  Thursday May 5, 2016"	"Mica Creek 3800 +"	10	clay	OldForest	400	0	30	100	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-106609	"10:24 am  Thursday May 5, 2016"	"Mica Creek 3800 +"	10	clay	Sod	400	0	30	40	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-106663	"10:25 am  Thursday May 5, 2016"	"Mica Creek 3800 +"	10	clay	Sod	400	0	30	40	20	OldForest	75	30	5	100	20	0	ft	""
+WR	wepp-106751	"10:26 am  Thursday May 5, 2016"	"Mica Creek 3800 +"	30	silt	graveled	200	4	13	15	50	1	25	20	outunrut	ft
+WD	wepp-106878	"10:27 am  Thursday May 5, 2016"	"Mica Creek 3800 +"	10	silt	Sod	400	0	30	40	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-106934	"10:27 am  Thursday May 5, 2016"	"Mica Creek 3800 +"	10	silt	Sod	400	0	30	40	20	OldForest	30	30	5	100	20	0	ft	""
+WD	wepp-107053	"10:27 am  Thursday May 5, 2016"	"Mica Creek 3800 +"	10	silt	LowFire	400	0	30	85	20	LowFire	30	30	5	85	20	0	ft	""
+WD	wepp-107107	"10:28 am  Thursday May 5, 2016"	"Mica Creek 3800 +"	10	silt	HighFire	400	0	30	45	20	OldForest	30	30	5	100	20	0	ft	""
+WD	wepp-107146	"10:28 am  Thursday May 5, 2016"	"Mica Creek 3800 +"	10	silt	HighFire	400	0	30	45	20	HighFire	30	30	5	45	20	0	ft	""
+WD	wepp-107216	"10:28 am  Thursday May 5, 2016"	"Mica Creek 3800 +"	10	silt	HighFire	400	0	30	45	20	HighFire	75	30	5	45	20	0	ft	""
+WR	wepp-50948	"12:50 pm  Friday May 6, 2016"	"Mica Creek 3800 +"	30	silt	graveled	200	4	13	15	50	1	25	20	inveg	ft
+WR	wepp-51138	"12:52 pm  Friday May 6, 2016"	"Mica Creek 3800 +"	30	silt	graveled	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-51266	"12:52 pm  Friday May 6, 2016"	"Mica Creek 3800 +"	30	silt	paved	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-51363	"12:54 pm  Friday May 6, 2016"	"Mica Creek 3800 +"	30	silt	paved	200	4	13	15	50	5	25	20	inbare	ft
+WR	wepp-51402	"12:54 pm  Friday May 6, 2016"	"Mica Creek 3800 +"	30	silt	paved	200	4	13	15	50	15	25	20	inbare	ft
+WR	wepp-51442	"12:54 pm  Friday May 6, 2016"	"Mica Creek 3800 +"	30	silt	paved	200	4	13	15	50	25	25	20	inbare	ft
+WR	wepp-51478	"12:54 pm  Friday May 6, 2016"	"Mica Creek 3800 +"	30	silt	paved	200	4	13	15	50	35	25	20	inbare	ft
+WR	wepp-51536	"12:55 pm  Friday May 6, 2016"	"Mica Creek 3800 +"	30	silt	paved	200	4	13	15	50	50	25	20	inbare	ft
+WR	wepp-51566	"12:55 pm  Friday May 6, 2016"	"Mica Creek 3800 +"	30	silt	paved	200	4	13	15	50	75	25	20	inbare	ft
+WR	wepp-51604	"12:55 pm  Friday May 6, 2016"	"Mica Creek 3800 +"	30	silt	paved	200	4	13	15	50	100	25	20	inbare	ft
+WR	wepp-51643	"12:55 pm  Friday May 6, 2016"	"Mica Creek 3800 +"	30	silt	paved	200	4	13	15	50	90	25	20	inbare	ft
+WR	wepp-51734	"12:57 pm  Friday May 6, 2016"	"Mica Creek 3800 +"	30	silt	graveled	200	4	13	15	50	1	25	20	outunrut	ft
+WR	wepp-51877	"01:00 pm  Friday May 6, 2016"	"New CC +"	30	silt	graveled	200	4	13	15	50	1	25	20	outunrut	ft
+WR	wepp-52005	"01:03 pm  Friday May 6, 2016"	"New CC +"	30	silt	graveled	200	4	13	15	50	75	25	20	outunrut	ft
+WD	wepp-52089	"01:04 pm  Friday May 6, 2016"	"New CC +"	10	silt	OldForest	50	0	30	100	20	OldForest	50	30	5	100	20	0	ft	""
+WD	wepp-52213	"01:06 pm  Friday May 6, 2016"	"New CC +"	10	silt	Sod	50	0	30	40	20	YoungForest	75	30	5	100	20	0	ft	""
+WD	wepp-52253	"01:06 pm  Friday May 6, 2016"	"New CC +"	10	silt	Sod	50	0	30	40	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-52294	"01:07 pm  Friday May 6, 2016"	"New CC +"	10	silt	Sod	400	0	30	40	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-52391	"01:08 pm  Friday May 6, 2016"	"New CC +"	10	silt	Sod	400	0	30	40	20	OldForest	30	30	5	100	20	0	ft	""
+WD	wepp-52479	"01:09 pm  Friday May 6, 2016"	"New CC +"	10	silt	LowFire	400	0	30	85	20	LowFire	30	30	5	85	20	0	ft	""
+WD	wepp-52529	"01:10 pm  Friday May 6, 2016"	"New CC +"	10	silt	HighFire	400	0	30	45	20	HighFire	75	30	5	45	20	0	ft	""
+WD	wepp-52577	"01:11 pm  Friday May 6, 2016"	"New CC +"	10	silt	OldForest	400	0	30	100	20	HighFire	75	30	5	45	20	0	ft	""
+WD	wepp-52614	"01:11 pm  Friday May 6, 2016"	"New CC +"	10	silt	HighFire	400	0	30	45	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-52691	"01:11 pm  Friday May 6, 2016"	"New CC +"	10	silt	OldForest	400	0	30	100	20	HighFire	75	30	5	45	20	0	ft	""

@@ -1,0 +1,39 @@
+wt	wepp-174478	"Feb 9, 2018"	"BIRMINGHAM WB AP AL"	granitic	YoungForest	0	30	1200	50	20	YoungForest	30	5	50	100	20	ft	""
+wt	wepp-174515	"Feb 9, 2018"	"MOUNT SHASTA CA"	alluvial	Bare	0	30	1200	50	20	YoungForest	30	5	1200	100	20	ft	""
+WR	wepp-174827	"12:38 pm  Friday February 9, 2018"	"MOUNT SHASTA CA"	30	silt	native	200	4	13	15	50	130	25	20	inbare	ft
+WR	wepp-174879	"12:39 pm  Friday February 9, 2018"	"MOSCOW U OF I ID"	30	silt	native	200	4	13	15	50	130	25	20	inbare	ft
+WR	wepp-175091	"12:48 pm  Friday February 9, 2018"	"MOSCOW U OF I ID"	30	clay	native	200	4	13	15	50	130	25	20	inbare	ft
+WR	wepp-175127	"12:48 pm  Friday February 9, 2018"	"MOSCOW U OF I ID"	30	clay	native	200	4	13	15	50	130	25	20	inbare	ft
+WR	wepp-175163	"12:49 pm  Friday February 9, 2018"	"MOSCOW U OF I ID"	30	clay	native	200	4	13	15	50	130	25	20	outrut	ft
+WR	wepp-175201	"12:49 pm  Friday February 9, 2018"	"MOSCOW U OF I ID"	30	clay	native	200	4	13	15	50	130	25	20	inbare	ft
+WR	wepp-175237	"12:50 pm  Friday February 9, 2018"	"MOSCOW U OF I ID"	30	clay	native	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-175275	"12:51 pm  Friday February 9, 2018"	"MOSCOW U OF I ID"	30	clay	native	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-175414	"01:12 pm  Friday February 9, 2018"	"MOSCOW U OF I ID"	30	silt	native	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-175451	"01:12 pm  Friday February 9, 2018"	"MOSCOW U OF I ID"	30	silt	native	200	4	13	15	50	130	25	20	inbare	ft
+wt	wepp-175498	"Feb 9, 2018"	"MOUNT SHASTA CA"	alluvial	HighFire	0	30	1000	45	20	LowFire	30	5	800	85	20	ft	""
+wt	wepp-175638	"Feb 9, 2018"	"MOUNT SHASTA CA"	alluvial	HighFire	0	30	1000	45	20	LowFire	30	5	800	85	20	ft	""
+wt	wepp-175686	"Feb 9, 2018"	"MOUNT SHASTA CA"	alluvial	HighFire	0	30	1000	45	20	Sod	30	5	800	40	20	ft	""
+wt	wepp-175772	"Feb 9, 2018"	"MOUNT SHASTA CA"	alluvial	HighFire	0	30	1000	45	20	YoungForest	30	5	800	100	20	ft	""
+wt	wepp-175829	"Feb 9, 2018"	"MOUNT SHASTA CA"	alluvial	HighFire	0	30	1000	45	20	OldForest	30	5	800	100	20	ft	""
+wt	wepp-175865	"Feb 9, 2018"	"MOUNT SHASTA CA"	alluvial	HighFire	0	30	1000	45	20	YoungForest	30	5	800	100	20	ft	""
+wt	wepp-175902	"Feb 9, 2018"	"MOUNT SHASTA CA"	alluvial	HighFire	0	30	1000	45	20	OldForest	30	5	800	100	20	ft	""
+wt	wepp-175940	"Feb 9, 2018"	"MOUNT SHASTA CA"	alluvial	HighFire	0	30	1000	45	20	Bare	30	5	800	20	20	ft	""
+wt	wepp-175996	"Feb 9, 2018"	"MOUNT SHASTA CA"	alluvial	HighFire	0	30	1000	45	20	HighFire	30	5	800	45	20	ft	""
+wt	wepp-176037	"Feb 9, 2018"	"MOUNT SHASTA CA"	alluvial	HighFire	0	30	1000	45	20	LowFire	30	5	800	85	20	ft	""
+wt	wepp-176076	"Feb 9, 2018"	"MOUNT SHASTA CA"	alluvial	HighFire	0	30	1000	45	20	OldForest	30	5	800	100	20	ft	""
+wt	wepp-176114	"Feb 9, 2018"	"MOUNT SHASTA CA"	alluvial	HighFire	0	30	1000	45	20	YoungForest	30	5	800	100	20	ft	""
+wt	wepp-176154	"Feb 9, 2018"	"MOUNT SHASTA CA"	alluvial	OldForest	0	30	1000	100	20	YoungForest	30	5	800	100	20	ft	""
+wt	wepp-176191	"Feb 9, 2018"	"MOUNT SHASTA CA"	alluvial	OldForest	0	30	1000	100	20	OldForest	30	5	800	100	20	ft	""
+wt	wepp-176452	"Feb 9, 2018"	"MOUNT SHASTA CA"	alluvial	OldForest	0	30	1000	100	20	OldForest	30	5	800	100	20	ft	""
+wt	wepp-176489	"Feb 9, 2018"	"MOUNT SHASTA CA"	alluvial	OldForest	0	30	1000	100	20	YoungForest	30	5	800	100	20	ft	""
+wt	wepp-176526	"Feb 9, 2018"	"MOUNT SHASTA CA"	alluvial	OldForest	0	30	1000	100	20	LowFire	30	5	800	85	20	ft	""
+wt	wepp-176590	"Feb 9, 2018"	"MOUNT SHASTA CA"	rockpave	Bare	0	30	1000	50	50	LowRoad	30	5	800	10	20	ft	""
+wt	wepp-176626	"Feb 9, 2018"	"MOUNT SHASTA CA"	rockpave	Sod	0	30	1000	40	50	LowRoad	30	5	800	10	20	ft	""
+wt	wepp-176663	"Feb 9, 2018"	"MOUNT SHASTA CA"	rockpave	Bunchgrass	0	30	1000	60	50	LowRoad	30	5	800	10	20	ft	""
+wt	wepp-176701	"Feb 9, 2018"	"MOUNT SHASTA CA"	rockpave	Shrub	0	30	1000	80	50	Skid	30	5	800	10	20	ft	""
+wt	wepp-176737	"Feb 9, 2018"	"MOUNT SHASTA CA"	alluvial	Shrub	0	30	1000	80	20	Skid	30	5	800	10	20	ft	""
+wt	wepp-176774	"Feb 9, 2018"	"MOUNT SHASTA CA"	volcanic	Shrub	0	30	1000	80	20	Skid	30	5	800	10	20	ft	""
+WF	wepp-176905	"02:08 pm  Friday February 9, 2018"	"BIRMINGHAM WB AP AL"	clay	200	50	0	30	15	40	20	20	4	ft
+WF	wepp-177001	"02:10 pm  Friday February 9, 2018"	"FLAGSTAFF WB AP AZ"	clay	200	50	0	30	15	40	20	20	4	ft
+WF	wepp-177092	"02:16 pm  Friday February 9, 2018"	"BIRMINGHAM WB AP AL"	clay	200	50	0	30	15	20	10	40	4	ft
+WF	wepp-177173	"02:16 pm  Friday February 9, 2018"	"FLAGSTAFF WB AP AZ"	clay	200	50	0	30	15	20	10	40	4	ft

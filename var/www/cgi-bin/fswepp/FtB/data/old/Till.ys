@@ -1,0 +1,19 @@
+#
+#	Mulch and till yearly scenario for Tahoe Basin model
+#
+mulchtill
+Mulch and till
+for Tahoe Basin model
+W. Elliot  02/99
+1	# `landuse' - <Cropland>
+6	# `itype' - <SHRUB>
+0	# `tilseq' - <NotUsed>
+0	# `conset' - <NotUsed>
+0	# `drset' - <NotUsed>
+2	# `mgmt' - <Perennial>
+	244	# `jdharv' - <9 /1 >
+	121	# `jdplt' - <5 /1 >
+	0	# `jdstop' - <>
+	0
+	3	# `presmgmt' - <Not Harvested/Grazed>
+

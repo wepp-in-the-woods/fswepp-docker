@@ -1,0 +1,28 @@
+WR	wepp-7832	"10:42 pm  Sunday December 5, 2010"	"Mica Creek Watershed +"	30	silt	native	200	4	13	15	50	1	25	20	inveg	ft
+WR	wepp-7915	"10:52 pm  Sunday December 5, 2010"	"Mica Creek Watershed +"	30	silt	paved	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-7948	"10:55 pm  Sunday December 5, 2010"	"Mica Creek Watershed +"	30	silt	native	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-8003	"11:00 pm  Sunday December 5, 2010"	"Mica Creek Watershed +"	30	silt	paved	200	4	13	15	50	10	25	20	inbare	ft
+WR	wepp-8008	"11:00 pm  Sunday December 5, 2010"	"Mica Creek Watershed +"	30	silt	paved	200	4	13	15	50	50	25	20	inbare	ft
+WR	wepp-8013	"11:00 pm  Sunday December 5, 2010"	"Mica Creek Watershed +"	30	silt	paved	200	4	13	15	50	75	25	20	inbare	ft
+WR	wepp-8018	"11:00 pm  Sunday December 5, 2010"	"Mica Creek Watershed +"	30	silt	paved	200	4	13	15	50	70	25	20	inbare	ft
+WR	wepp-8023	"11:00 pm  Sunday December 5, 2010"	"Mica Creek Watershed +"	30	silt	paved	200	4	13	15	50	65	25	20	inbare	ft
+WR	wepp-8028	"11:01 pm  Sunday December 5, 2010"	"Mica Creek Watershed +"	30	silt	paved	200	4	13	15	50	68	25	20	inbare	ft
+WR	wepp-8033	"11:01 pm  Sunday December 5, 2010"	"Mica Creek Watershed +"	30	silt	paved	200	4	13	15	50	69	25	20	inbare	ft
+WR	wepp-8038	"11:01 pm  Sunday December 5, 2010"	"Mica Creek Watershed +"	30	silt	paved	200	4	13	15	50	70	25	20	inbare	ft
+WR	wepp-8043	"11:01 pm  Sunday December 5, 2010"	"Mica Creek Watershed +"	30	silt	paved	200	4	13	15	50	68.5	25	20	inbare	ft
+WR	wepp-8048	"11:01 pm  Sunday December 5, 2010"	"Mica Creek Watershed +"	30	silt	paved	200	4	13	15	50	69	25	20	inbare	ft
+WR	wepp-8080	"11:04 pm  Sunday December 5, 2010"	"Mica Creek Watershed +"	30	silt	graveled	200	4	13	15	50	69	25	20	outunrut	ft
+WR	wepp-8088	"11:04 pm  Sunday December 5, 2010"	"Mica Creek Watershed +"	30	silt	graveled	200	4	13	15	50	1	25	20	outunrut	ft
+WD	wepp-8267	"11:21 pm  Sunday December 5, 2010"	"Mica Creek Watershed +"	30	silt	tree20	400	0	30	100	20	tree20	75	30	5	100	20	0	ft	"a"
+WD	wepp-8312	"11:24 pm  Sunday December 5, 2010"	"Mica Creek Watershed +"	30	silt	tall	400	0	30	60	20	tree20	75	30	5	100	20	0	ft	"b"
+WD	wepp-8322	"11:26 pm  Sunday December 5, 2010"	"Mica Creek Watershed +"	30	silt	tall	400	0	30	60	20	tree20	30	30	5	100	20	0	ft	"c"
+WD	wepp-8356	"11:28 pm  Sunday December 5, 2010"	"Mica Creek Watershed +"	30	silt	high	400	0	30	45	20	low	30	30	5	85	20	0	ft	"d"
+WD	wepp-8380	"11:31 pm  Sunday December 5, 2010"	"Mica Creek Watershed +"	30	silt	high	400	0	30	45	20	low	500	30	5	85	20	0	ft	"d"
+WD	wepp-8388	"11:31 pm  Sunday December 5, 2010"	"Mica Creek Watershed +"	30	silt	high	400	0	30	45	20	low	1000	30	5	85	20	0	ft	"d"
+WD	wepp-8461	"11:32 pm  Sunday December 5, 2010"	"Mica Creek Watershed +"	30	silt	high	400	0	30	45	20	low	100	30	5	85	20	0	ft	"d"
+WD	wepp-8476	"11:35 pm  Sunday December 5, 2010"	"Mica Creek Watershed +"	30	silt	high	400	0	30	45	20	high	30	30	5	45	20	0	ft	"d"
+WD	wepp-8828	"00:09 am  Monday December 6, 2010"	"Mica Creek Watershed +"	30	silt	high	400	0	30	45	20	low	30	30	5	85	20	0	ft	"d"
+WD	wepp-8833	"00:10 am  Monday December 6, 2010"	"Mica Creek Watershed +"	30	silt	high	400	0	30	45	20	low	1200	30	5	85	20	0	ft	"d"
+WD	wepp-9061	"00:33 am  Monday December 6, 2010"	"Mica Creek Watershed +"	30	silt	high	400	0	30	45	20	low	30	30	5	85	20	0	ft	"d"
+WD	wepp-9066	"00:33 am  Monday December 6, 2010"	"Mica Creek Watershed +"	30	silt	high	400	0	30	45	20	low	500	30	5	85	20	0	ft	"d"
+WD	wepp-9071	"00:35 am  Monday December 6, 2010"	"Mica Creek Watershed +"	30	silt	high	400	0	30	45	20	low	1200	30	5	85	20	0	ft	"d"

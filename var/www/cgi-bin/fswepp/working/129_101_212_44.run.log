@@ -1,0 +1,20 @@
+WR	wepp-148905	"12:19 pm  Thursday May 6, 2021"	"SAINT MARIES ID"	30	clay	paved	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-149675	"12:31 pm  Thursday May 6, 2021"	"Mica Creek Watershed +"	30	silt	graveled	200	4	13	15	50	1	25	20	inveg	ft
+WR	wepp-150125	"12:39 pm  Thursday May 6, 2021"	"Mica Creek Watershed +"	30	silt	graveled	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-150163	"12:40 pm  Thursday May 6, 2021"	"Mica Creek Watershed +"	30	silt	paved	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-150205	"12:41 pm  Thursday May 6, 2021"	"Mica Creek Watershed +"	30	silt	graveled	200	4	13	15	50	1	25	20	outunrut	ft
+WR	wepp-150590	"12:47 pm  Thursday May 6, 2021"	"mica creek 2 +"	30	silt	graveled	200	4	13	15	50	1	25	20	inbare	ft
+WD	wepp-151215	"12:55 pm  Thursday May 6, 2021"	"Mica Creek Watershed +"	10	silt	OldForest	400	0	30	100	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-151434	"12:57 pm  Thursday May 6, 2021"	"Mica Creek Watershed +"	10	silt	Sod	400	0	30	40	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-151610	"12:58 pm  Thursday May 6, 2021"	"Mica Creek Watershed +"	10	silt	Sod	400	0	30	40	20	OldForest	30	30	5	100	20	0	ft	""
+WD	wepp-151618	"12:59 pm  Thursday May 6, 2021"	"Mica Creek Watershed +"	10	silt	LowFire	400	0	30	85	20	LowFire	30	75	5	85	20	0	ft	""
+WD	wepp-151770	"01:00 pm  Thursday May 6, 2021"	"Mica Creek Watershed +"	10	silt	HighFire	400	0	30	45	20	HighFire	30	75	5	45	20	0	ft	""
+WD	wepp-151791	"01:01 pm  Thursday May 6, 2021"	"mica creek 2 +"	10	clay	LowFire	400	0	30	85	20	LowFire	75	30	5	85	20	0	ft	""
+WD	wepp-151890	"01:02 pm  Thursday May 6, 2021"	"mica creek 2 +"	10	clay	HighFire	400	0	30	45	20	HighFire	75	30	5	45	20	0	ft	""
+WD	wepp-151988	"01:02 pm  Thursday May 6, 2021"	"mica creek 2 +"	10	clay	HighFire	400	0	30	20	20	HighFire	75	30	5	20	20	0	ft	""
+WD	wepp-152519	"01:16 pm  Thursday May 6, 2021"	"mica creek 2 +"	10	clay	YoungForest	400	0	30	100	40	Shrub	75	30	5	80	40	0	ft	""
+WD	wepp-152556	"01:16 pm  Thursday May 6, 2021"	"Mica Creek Watershed +"	10	clay	YoungForest	400	0	30	100	40	Shrub	75	30	5	80	40	0	ft	""
+WD	wepp-152593	"01:16 pm  Thursday May 6, 2021"	"Mica Creek Watershed +"	10	clay	OldForest	400	0	30	100	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-152630	"01:17 pm  Thursday May 6, 2021"	"Mica Creek Watershed +"	10	silt	OldForest	400	0	30	100	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-152689	"01:17 pm  Thursday May 6, 2021"	"Mica Creek Watershed +"	10	silt	YoungForest	400	0	30	100	40	Shrub	75	30	5	80	40	0	ft	""
+WD	wepp-152728	"01:18 pm  Thursday May 6, 2021"	"Mica Creek Watershed +"	10	silt	YoungForest	400	0	30	100	40	Skid	75	30	5	40	40	0	ft	""

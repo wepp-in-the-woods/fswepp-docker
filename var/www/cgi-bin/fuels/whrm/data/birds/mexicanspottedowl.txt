@@ -1,0 +1,90 @@
+#this files was modified by filegenwhrm.pl on: Wednesday, March 16, 2005.
+#taxgroup Birds species Mexican spotted owl / Strix occidentalis lucida
+#
+# Rank
+3,3,3,-99,4
+# Nestsite
+8,1:17,1:18,1:20,1:25,1:26,1
+# Reprorank
+1,-99:1,-99:1,-99:2,-99:3,-99:3,-99
+# Foraging Habitat
+8,1:17,1:18,1:20,1:25,1:26,1
+# Habitatrank
+2,-99:1,-99:1,-99:2,-99:1,-99:1,-99
+# Forage/Prey Availability
+-99
+# Preyrank
+-99
+# Predator Avoidance
+-99
+# Avoidrank
+-99
+# Refugia/Shelter
+8,1:17,1:18,1:20,1:25,1:26,1
+# Shelterrank
+2,-99:1,-99:1,-99:3,-99:1,-99:1,-99
+# Coverrank
+2,-99:1,-99:1,-99:3,-99:1,-99:1,-99
+# Literature
+Distribution
+mountains and canyons of Arizona, New Mexico, southern Colorado and Utah, and northern and central Mexico
+General Habitat
+mature, mixed conifer ponderosa pine/gambel oak
+Home or Activity Range
+1600-2100 ac (O'Neil et al. 2001)
+Canopy Cover
+high canopy closure at roosting and foraging sites (Ganey and Balda 1989, Ganey and Dick 1995, Ganey et al. 1997, May and Gutierrez 2002), and high canopy closure (mean 75.9 %) at nest sites (Ganey and Dick 1995)
+Specific Habitat Preferences
+structurally complex, diverse forests with a variety of size classes, a component of large trees, many snags and downed logs, relatively high basal areas and canopy closure, deep canyons, young mixed-conifer stands if residual large trees are present
+Nestsite Characteristics
+large trees, sometimes in caves or cliff ledges in canyons; prefer shady habitat with rocky terrain; primarily mixed conifer stands (69-100%); will use broken-top or snag cavities, old raptor nests, witches broom, stick platforms, squirrel nests 
+Foraging Habitat Characteristics
+structurally complex forests with high vertical diversity- provides perches for "sit and wait" hunting strategy; high tree basal area and lots of downed wood
+Diet
+peromyscid mice, woodrats, microtine voles, birds, bats, arthropods, rabbits, pocket gophers, rabbits, reptiles; diet differs regionally
+Predators
+northern goshawk, great horned owl, Cooper's hawk, red-tailed hawk, fisher, common raven
+Shelter Habitats
+roost primarily in mixed conifer stands (49-99%); areas with old growth characteristics; unlogged stands with high canopy closure or shaded cliffs
+Response to Disturbance
+listed as threatened based on habitat loss from timber management practices and catastrophic wildfire, found more often than expected in unlogged and less often in managed forests, fire may impact prey-base, small scale fires would benefit owl by creating canopy gaps, reducing fuel loads, thinning dense stands, reducing chance of catastrophic wildfire, also benefit owl and prey by creating snags and logs and perpetuating understory shrubs, grasses, and forbs, large crown fires would be detrimental by reducing or eliminating nesting, roosting, and foraging habitat (200 year owl-habitat recovery time post-catastrophic fire) (reviewed in Jenness 2000); ; in the few cases when found in selectively logged forest, owls roosted in remnants of unlogged stands (Ganey and Balda 1989b)
+Sources of Information used in the Model
+Ganey et al. 1997, Ganey and Balda 1989(a), Ganey and Balda 1989(b), Ganey and Dick 1995, May and Gutierrez 2002
+General Sources of Background Information
+Ganey et al. 1997, Ganey and Balda 1989(a), Ganey and Balda 1989(b), Ganey and Dick 1995, reviewed in Ward and Block 1995, reviewed in Jennes 2000, May and Gutierrez 2002
+Summaries of Specific Studies
+Ganey, Joseph L.; Balda, Russell P. 1989.(a) Home-range characteristics of spotted owls in northern Arizona. Journal of Wildlife Management. 53:1159-1165.
+
+Study Location: northern Arizona
+Habitat Description: PIPO dominated, also PSME, ABCO, PIST, QUGA
+Summary: Home-range characteristics and movements, as well as habitat composition, of Mexican spotted owls were studied in northern Arizona. Home range size was positively correlated with elevation, amount of old growth forest, and percent of old growth forest within the home range. Topography did not constrain home range size, but influenced the location of activity centers. All activity centers were located old-growth forests on steep slopes, and the majority of activities took place within 21 and 47% of the home range. The authors stress the importance of old growth forest to spotted owls, especially as activity centers were concentrated in this forest type.
+
+Ganey, Joseph L.; Block, William M.; Jenness, Jeffrey S.; Wilson, Randolph A. 1997. Comparative habitat use of sympatric Mexican spotted and great horned owls. Journal of Wildlife Research. 2(2): 115-123. 
+
+Study Location: northern Arizona
+Habitat Description: primarily PIPO; also QUGA, JUDE, aspen, POAN
+Summary: Mexican spotted and great horned owls overlapped considerably in home ranges, but overlap in use of individual stands was limited. In general, great horned owls used meadows and open stands (canopy cover < 40%) more than spotted owls, who roosted and foraged in stands primarily with > 40% canopy cover. Stands used by great horned owls had lower log volume, less shrub cover and canopy cover, and greater herbaceous cover than stands used by spotted owls. Opening forest stands through management would therefore likely favor great horned owls, while it would not favor spotted owls.
+
+Ganey, Joseph L.; Dick, James L. Jr. 1995. Habitat relationships of the Mexican spotted owl. Chapter 4. In Recovery Plan for the Mexican Spotted Owl. Vol II. Albuquerque, New Mexico: USDI Fish and Wildlife Service. 42p.
+
+Study Location: range of Mexican spotted owl
+Habitat Description: variety reviewed; includes rocky canyons, riparian forests, coniferous forests
+Summary: Summary of recent and historical habitat relationships of Mexican spotted owls. Patterns of habitat use and habitat selection, identification of specific habitats or habitat components, and identification of areas for further study are all addressed. Five scales are used to address habitat use and selection, ranging from the tree scale (use of an individual tree for roosting or nesting) to the landscape scale. Trends of change in major habitat types is also discussed.
+
+Jennes, Jeff S. 2000. The effects of fire on Mexican Spotted Owls in Arizona and New Mexico. Flagstaff, AZ: Northern Arizona University. 129 p. Thesis
+
+Study Location: Arizona and New Mexico
+Habitat Description: PIPO, mixed conifer, pine-oak
+Summary: Owl occupancy and reproduction were compared on 33 territories with varying burn severities as well as unburned controls. Percentage of pine in a burned territory had the most influence on owl response; no fire severity variables had any significant and biologically interpretable influence on owl response. Relatively light fires, including most prescribed fires, had no clear short-term impact on Mexican spotted owl presence or reproduction, but may indirectly benefit the owl by reducing the threat of potentially harmful wide-scale stand-replacing fires. 
+
+May, Christopher; Gutierrez, R.J. 2002. Habitat associations of Mexican spotted owl nest and roost sites in central Arizona. Wilson Bulletin. 114(4): 457-466.
+
+Study Location: central Arizona
+Habitat Description: moderate topography PIPO-QUGA  forest, mixed conifer including PSME, PIPO, ABCO, pinyon-juniper woodland
+Summary: Landscape characteristics of owl roost and nest sites were examined at three spatial scales. Owls selected both mature and young forests that had high canopy closure (>55%). More roosts and nests were found in mixed conifer forests than expected based on presence. Nests and roosts were not found in one forest type: mature open canopy PIPO. Owls occupied young forests only if residual large trees (45.7 cm dbh) \were present.
+
+Ward Jr., James P.; Block, William M. 1995. Mexican spotted owl prey ecology. Chapter 5. In Recovery Plan for the Mexican Spotted Owl. Vol II. Albuquerque, New Mexico: USDI Fish and Wildlife Service. pp 1-48.
+
+Study Location: range of Mexican spotted owl; case studies in northern Arizona and New Mexico
+Habitat Description: not stated; PIPO
+Summary: Literature review and synthesis of data from past studies concerning the ecology of prey of the Mexican Spotted Owl, including information on owl diet, identification of prey that might influence owl fitness, and quantification of habitat correlates of prey species. The authors found variation in diet regionally. Reproductive success of spotted owls was not linked to any single prey species, rather to many species in combination, or total prey biomass. However, certain species may be more important in specific regions. Overall, food resources were quite variable among vegetation communities and through time. Owl food is most abundant during the summer when young are being raised. Prey biomass decreases in late fall and early winter. Habitat correlates are presented from one study in northern Arizona (deer mouse, brush mouse, Mexican woodrat) and one in New Mexico.

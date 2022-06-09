@@ -1,0 +1,1647 @@
+WF	wepp-20662	"10:06 am  Tuesday September 25, 2012"	"MOSCOW U OF I ID                        1"	clay	400	200	0	30	15	40	20	20	4	ft
+WF	wepp-20699	"10:08 am  Tuesday September 25, 2012"	"MOSCOW U OF I ID                        1"	clay	400	1	0	30	15	40	20	20	4	ft
+WE	wepp-7741	"04:25 pm  Thursday September 27, 2012"	"DENVER WB AP CO"	clay	20	forest	0	50	30	300	l			ft
+WE	wepp-7876	"04:32 pm  Thursday September 27, 2012"	"TAHOE CITY CROSS CA SNOTEL"	clay	20	forest	0	50	30	300	l			ft
+WE	wepp-8054	"04:50 pm  Thursday September 27, 2012"	"TAHOE CITY CROSS CA SNOTEL"	sand	20	forest	0	50	30	300	h			ft
+wt	wepp-30943	"Oct 2, 2012"	"TAHOE CITY CROSS CA SNOTEL"	granitic	OldForest	0	30	50	100	20	YoungForest	30	5	50	100	20	ft	""
+WE	wepp-31024	"04:09 pm  Tuesday October 2, 2012"	"TAHOE CITY CROSS CA SNOTEL"	clay	20	forest	0	50	30	300	l			ft
+wt	wepp-28454	"Oct 8, 2012"	"TAHOE CITY CROSS CA SNOTEL"	granitic	HighFire	0	30	50	45	20	HighFire	30	5	50	45	20	ft	""
+wt	wepp-28505	"Oct 8, 2012"	"TAHOE CITY CROSS CA SNOTEL"	granitic	HighFire	0	30	50	45	20	HighFire	30	5	50	45	20	ft	""
+WE	wepp-7953	"03:22 pm  Thursday October 11, 2012"	"RIGGINS RS ID +"	loam	20	forest	0	50	30	300	h			ft
+WE	wepp-8163	"03:25 pm  Thursday October 11, 2012"	"RIGGINS RS ID +"	loam	20	forest	0	15	15	300	h			ft
+WE	wepp-30488	"03:01 pm  Monday October 15, 2012"	"McQuire BAER +"	sand	20	forest	0	50	30	300	h			ft
+WE	wepp-31272	"04:06 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.21	0.28	0.16	227	h			ft
+WE	wepp-31361	"04:06 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.25	0.37	0.19	192	h			ft
+WE	wepp-31477	"04:07 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.2	0.26	0.28	270	h			ft
+WE	wepp-31566	"04:07 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.23	0.23	0.22	55.8	h			ft
+WE	wepp-31658	"04:08 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.24	0.2	0.2	254	h			ft
+WE	wepp-31749	"04:08 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.38	0.38	0.21	129	h			ft
+WE	wepp-31840	"04:08 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.25	0.27	0.25	200	h			ft
+WE	wepp-31929	"04:09 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.27	0.35	0.37	221	h			ft
+WE	wepp-32018	"04:09 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.13	0.21	0.27	360	h			ft
+WE	wepp-32107	"04:09 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.18	0.32	0.25	282	h			ft
+WE	wepp-32196	"04:10 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.34	0.39	0.26	204	h			ft
+WE	wepp-32285	"04:10 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.41	0.53	0.4	87	h			ft
+WE	wepp-32374	"04:10 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.29	0.35	0.44	18.6	h			ft
+WE	wepp-32463	"04:11 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.084	0.3	0.39	305	h			ft
+WE	wepp-32554	"04:11 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.2	0.26	0.2	403	h			ft
+WE	wepp-32643	"04:12 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.22	0.31	0.18	301	h			ft
+WE	wepp-32759	"04:12 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.23	0.21	0.19	88.9	h			ft
+WE	wepp-380	"04:12 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.28	0.29	0.25	165	h			ft
+WE	wepp-469	"04:13 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.084	0.21	0.2	488	h			ft
+WE	wepp-558	"04:13 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.1	0.21	0.25	570	h			ft
+WE	wepp-650	"04:13 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.35	0.3	0.31	155	h			ft
+WE	wepp-739	"04:14 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.22	0.19	0.21	110	h			ft
+WE	wepp-828	"04:14 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.13	0.27	0.24	572	h			ft
+WE	wepp-917	"04:14 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.091	0.21	0.13	393	h			ft
+WE	wepp-1025	"04:15 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.26	0.24	0.2	324	h			ft
+WE	wepp-1114	"04:15 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.029	0.12	0.16	342	h			ft
+WE	wepp-1203	"04:16 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.16	0.15	0.14	170	h			ft
+WE	wepp-1302	"04:16 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.2	0.2	0.2	228	h			ft
+WE	wepp-1391	"04:16 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.17	0.25	0.21	359	h			ft
+WE	wepp-1481	"04:17 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.19	0.21	0.23	238	h			ft
+WE	wepp-1600	"04:17 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.36	0.35	0.25	72.1	h			ft
+WE	wepp-1689	"04:17 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.27	0.27	0.24	18	h			ft
+WE	wepp-6401	"08:04 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.13	0.062	0.047	400	h			ft
+WE	wepp-6490	"08:05 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.036	0.05	0.067	112	h			ft
+WE	wepp-6579	"08:05 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.13	0.09	0.051	82	h			ft
+WE	wepp-6668	"08:05 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.082	0.087	0.091	600	h			ft
+WE	wepp-6757	"08:06 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.13	0.094	0.15	941	h			ft
+WE	wepp-6846	"08:06 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.14	0.066	0.037	308	h			ft
+WE	wepp-6935	"08:06 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.046	0.03	0.027	180	h			ft
+WE	wepp-7024	"08:07 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.1	0.2	0.2	87	h			ft
+WE	wepp-7113	"08:07 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.14	0.091	0.16	823	h			ft
+WE	wepp-7202	"08:08 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.2	0.8	0.11	58	h			ft
+WE	wepp-7318	"08:08 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.17	0.12	0.022	617	h			ft
+WE	wepp-7408	"08:08 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.17	0.14	0.09	308	h			ft
+WE	wepp-7497	"08:09 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.12	0.075	0.051	281	h			ft
+WE	wepp-7587	"08:09 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.19	0.14	0.095	679	h			ft
+WE	wepp-7676	"08:09 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.04	0.1	0.071	1000	h			ft
+WE	wepp-7765	"08:10 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.072	0.12	0.071	794	h			ft
+WE	wepp-7854	"08:10 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.12	0.14	0.17	134	h			ft
+WE	wepp-7944	"08:11 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.19	0.11	0.056	327	h			ft
+WE	wepp-8036	"08:11 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.27	0.2	0.055	255	h			ft
+WE	wepp-8125	"08:11 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.17	0.15	0.14	230	h			ft
+WE	wepp-8214	"08:12 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.047	0.15	0.16	1000	h			ft
+WE	wepp-8303	"08:12 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.13	0.13	0.13	307	h			ft
+WE	wepp-8392	"08:12 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.2	0.11	0.074	590	h			ft
+WE	wepp-8481	"08:13 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.046	0.21	0.11	813	h			ft
+WE	wepp-8597	"08:13 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.18	0.2	0.064	531	h			ft
+WE	wepp-8686	"08:13 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.061	0.15	0.22	122	h			ft
+WE	wepp-8775	"08:14 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.2	0.21	0.13	403	h			ft
+WE	wepp-8865	"08:14 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.31	0.23	0.12	394	h			ft
+WE	wepp-8973	"08:15 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.05	0.08	0.11	280	h			ft
+WE	wepp-9062	"08:15 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.063	0.15	0.12	351	h			ft
+WE	wepp-9151	"08:15 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.055	0.051	0.018	689	h			ft
+WE	wepp-9240	"08:16 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.23	0.18	0.12	197	h			ft
+WE	wepp-9329	"08:16 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.066	0.084	0.086	271	h			ft
+WE	wepp-9418	"08:16 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.11	0.2	0.19	293	h			ft
+WE	wepp-9508	"08:17 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.046	0.055	0.046	499	h			ft
+WE	wepp-9597	"08:17 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.095	0.05	0.044	1000	h			ft
+WE	wepp-9686	"08:17 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.055	0.062	0.046	407	h			ft
+WE	wepp-9775	"08:18 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.11	0.094	0.043	417	h			ft
+WE	wepp-9891	"08:18 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.09	0.073	0.061	535	h			ft
+WE	wepp-9980	"08:19 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.22	0.18	0.083	830	h			ft
+WE	wepp-10069	"08:19 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.18	0.16	0.13	387	h			ft
+WE	wepp-10158	"08:19 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.18	0.18	0.19	367	h			ft
+WE	wepp-10247	"08:20 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.15	0.078	0.049	823	h			ft
+WE	wepp-10336	"08:20 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.1	0.1	0.12	104	h			ft
+WE	wepp-10425	"08:20 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.073	0.14	0.094	269	h			ft
+WE	wepp-10514	"08:21 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.21	0.22	0.11	472	h			ft
+WE	wepp-10603	"08:21 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.12	0.11	0.066	889	h			ft
+WE	wepp-10693	"08:21 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.094	0.11	0.076	443	h			ft
+WE	wepp-10782	"08:22 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.26	0.33	0.15	607	h			ft
+WE	wepp-10871	"08:22 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.23	0.26	0.17	636	h			ft
+WE	wepp-10960	"08:22 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.3	0.31	0.2	394	h			ft
+WE	wepp-11049	"08:23 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.2	0.2	0.23	153	h			ft
+WE	wepp-11165	"08:23 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.21	0.19	0.18	840	h			ft
+WE	wepp-11254	"08:24 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.16	0.1	0.065	139	h			ft
+WE	wepp-11343	"08:24 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.37	0.39	0.22	436	h			ft
+WE	wepp-11432	"08:24 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.28	0.34	0.24	387	h			ft
+WE	wepp-11521	"08:25 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.28	0.34	0.32	663	h			ft
+WE	wepp-11610	"08:25 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.26	0.25	0.27	417	h			ft
+WE	wepp-11699	"08:25 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.22	0.24	0.25	1000	h			ft
+WE	wepp-11788	"08:26 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.21	0.31	0.23	918	h			ft
+WE	wepp-11878	"08:26 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.33	0.39	0.22	676	h			ft
+WE	wepp-11967	"08:27 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.5	0.52	0.34	285	h			ft
+WE	wepp-12056	"08:27 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.11	0.33	0.37	1000	h			ft
+WE	wepp-12145	"08:27 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.18	0.27	0.19	1000	h			ft
+WE	wepp-12234	"08:28 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.39	0.39	0.29	604	h			ft
+WE	wepp-12323	"08:28 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.24	0.24	0.23	228	h			ft
+WE	wepp-12439	"08:28 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.29	0.3	0.31	374	h			ft
+WE	wepp-12529	"08:29 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.099	0.21	0.2	1000	h			ft
+WE	wepp-12618	"08:29 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.14	0.23	0.23	1000	h			ft
+WE	wepp-12707	"08:29 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.28	0.27	0.23	1000	h			ft
+WE	wepp-12815	"08:30 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.13	0.17	0.18	649	h			ft
+WE	wepp-12904	"08:30 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.15	0.21	0.17	1000	h			ft
+WE	wepp-12993	"08:31 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.22	0.23	0.22	768	h			ft
+WE	wepp-13082	"08:31 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.2	0.19	0.22	581	h			ft
+WE	wepp-13171	"08:31 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.15	0.14	0.13	255	h			ft
+WE	wepp-13260	"08:32 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.028	0.13	0.14	941	h			ft
+WE	wepp-13349	"08:32 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.16	0.16	0.16	245	h			ft
+WE	wepp-13438	"08:32 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.026	0.12	0.17	1000	h			ft
+WE	wepp-13527	"08:33 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.17	0.16	0.16	230	h			ft
+WE	wepp-13643	"08:33 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.13	0.22	0.21	705	h			ft
+WE	wepp-13733	"08:34 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.32	0.36	0.36	258	h			ft
+WE	wepp-13822	"08:34 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.24	0.22	0.19	163	h			ft
+WE	wepp-13911	"08:34 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.24	0.17	0.13	846	h			ft
+WE	wepp-14000	"08:35 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.21	0.19	0.097	268	h			ft
+WE	wepp-14089	"08:35 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.13	0.14	0.16	89	h			ft
+WE	wepp-14181	"08:35 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.073	0.15	0.18	820	h			ft
+WE	wepp-14270	"08:36 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.15	0.11	0.17	745	h			ft
+WE	wepp-14359	"08:36 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.19	0.12	0.051	216	h			ft
+WE	wepp-14448	"08:36 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.14	0.14	0.13	328	h			ft
+WE	wepp-14537	"08:37 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.13	0.097	0.17	948	h			ft
+WE	wepp-14627	"08:37 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.24	0.24	0.24	22	h			ft
+WE	wepp-14717	"08:38 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.13	0.11	0.074	735	h			ft
+WE	wepp-14806	"08:38 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.2	0.2	0.18	240	h			ft
+WE	wepp-14922	"08:38 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.12	0.15	0.2	120	h			ft
+WE	wepp-15100	"08:49 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.25	0.33	0.14	859	h			ft
+WE	wepp-15189	"08:50 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.28	0.45	0.46	512	h			ft
+WE	wepp-15278	"08:50 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.41	0.52	0.37	285	h			ft
+WE	wepp-15370	"08:51 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.31	0	0.31	82	h			ft
+WE	wepp-15459	"08:51 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.068	0.3	0.4	1000	h			ft
+WE	wepp-15548	"08:51 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.2	0.26	0.2	1000	h			ft
+WE	wepp-15637	"08:52 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.22	0.31	0.18	987	h			ft
+WE	wepp-15727	"08:52 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.23	0.21	0.18	265	h			ft
+WE	wepp-15816	"08:52 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.34	0.31	0.29	400	h			ft
+WE	wepp-15905	"08:53 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.044	0.2	0.22	1000	h			ft
+WE	wepp-15994	"08:53 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.1	0.21	0.22	1000	h			ft
+WE	wepp-16110	"08:53 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.22	0.28	0.2	1000	h			ft
+WE	wepp-16199	"08:54 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.089	0.21	0.13	1000	h			ft
+WE	wepp-16288	"08:54 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.25	0.24	0.22	1000	h			ft
+WE	wepp-16377	"08:55 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.032	0.12	0.15	1000	h			ft
+WE	wepp-16466	"08:55 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.14	0.16	0.18	436	h			ft
+WE	wepp-16555	"08:55 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	0.2	0.2	0.18	768	h			ft
+WE	wepp-16727	"09:04 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	20	20	18	768	h			ft
+WE	wepp-16851	"09:11 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	25	33	14	859	h			ft
+WE	wepp-16940	"09:11 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	28	45	46	512	h			ft
+WE	wepp-17029	"09:12 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	41	52	37	285	h			ft
+WE	wepp-17118	"09:12 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	31	0	31	82	h			ft
+WE	wepp-17207	"09:12 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	6.8	30	40	1000	h			ft
+WE	wepp-17296	"09:13 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	20	26	20	1000	h			ft
+WE	wepp-17385	"09:13 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	22	31	18	987	h			ft
+WE	wepp-17501	"09:13 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	23	21	18	265	h			ft
+WE	wepp-17590	"09:14 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	34	31	29	400	h			ft
+WE	wepp-17679	"09:14 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	4.4	20	22	1000	h			ft
+WE	wepp-17787	"09:15 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	10	21	22	1000	h			ft
+WE	wepp-17876	"09:15 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	22	28	20	1000	h			ft
+WE	wepp-17965	"09:15 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	8.9	21	13	1000	h			ft
+WE	wepp-18054	"09:16 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	25	24	22	1000	h			ft
+WE	wepp-18143	"09:16 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	3.2	12	15	1000	h			ft
+WE	wepp-18232	"09:16 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	14	16	18	436	h			ft
+WE	wepp-18321	"09:17 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	20	20	18	768	h			ft
+WD	wepp-18468	"09:27 pm  Monday October 15, 2012"	"McQuire BAER +"	100	loam	HighFire	384	20	20	20	20	HighFire	384	20	18	20	20	0	ft	""
+WD	wepp-18535	"09:31 pm  Monday October 15, 2012"	"McQuire BAER +"	100	loam	HighFire	384	20	20	0	20	HighFire	384	20	18	0	20	0	ft	""
+WE	wepp-18583	"09:36 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	25	33	14	859	l			ft
+WE	wepp-18632	"09:37 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	28	45	46	512	l			ft
+WE	wepp-18681	"09:37 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	41	52	37	285	l			ft
+WE	wepp-18730	"09:37 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	31	0	31	82	l			ft
+WE	wepp-18779	"09:37 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	6.8	30	40	1000	l			ft
+WE	wepp-18828	"09:38 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	20	26	20	1000	l			ft
+WD	wepp-18841	"09:38 pm  Monday October 15, 2012"	"McQuire BAER +"	100	loam	LowFire	384	20	20	85	20	LowFire	384	20	18	85	20	0	ft	""
+WE	wepp-18896	"09:38 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	22	31	18	987	l			ft
+WE	wepp-18945	"09:38 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	23	21	18	265	l			ft
+WE	wepp-19022	"09:39 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	34	31	29	400	l			ft
+WE	wepp-19071	"09:39 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	4.4	20	22	1000	l			ft
+WD	wepp-19080	"09:39 pm  Monday October 15, 2012"	"McQuire BAER +"	100	loam	LowFire	384	20	20	85	20	LowFire	384	20	18	85	20	0	ft	""
+WE	wepp-19139	"09:39 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	10	21	22	1000	l			ft
+WE	wepp-19188	"09:39 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	22	28	20	1000	l			ft
+WE	wepp-19237	"09:40 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	8.9	21	13	1000	l			ft
+WE	wepp-19286	"09:40 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	25	24	22	1000	l			ft
+WE	wepp-19335	"09:40 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	3.2	12	15	1000	l			ft
+WE	wepp-19384	"09:41 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	14	16	18	436	l			ft
+WE	wepp-19433	"09:41 pm  Monday October 15, 2012"	"McQuire BAER +"	loam	20	forest	20	20	18	768	l			ft
+WE	wepp-24155	"07:23 am  Tuesday October 16, 2012"	"McQuire BAER +"	loam	20	forest	22	28	20	1000	h			ft
+WE	wepp-24273	"07:27 am  Tuesday October 16, 2012"	"McQuire BAER +"	loam	20	forest	22	28	20	1000	l			ft
+WE	wepp-24323	"07:28 am  Tuesday October 16, 2012"	"McQuire BAER +"	loam	20	forest	22	28	20	1000	m			ft
+WD	wepp-24415	"07:31 am  Tuesday October 16, 2012"	"McQuire BAER +"	100	loam	HighFire	500	22	28	0	20	HighFire	500	28	20	0	20	0	ft	""
+WD	wepp-24461	"07:33 am  Tuesday October 16, 2012"	"McQuire BAER +"	100	loam	HighFire	500	22	28	0	20	HighFire	500	28	20	0	20	0	ft	""
+WD	wepp-24481	"07:35 am  Tuesday October 16, 2012"	"McQuire BAER +"	100	loam	LowFire	500	22	28	85	20	LowFire	500	28	20	85	20	0	ft	""
+WD	wepp-24500	"07:36 am  Tuesday October 16, 2012"	"McQuire BAER +"	100	loam	HighFire	500	50	50	0	20	HighFire	500	50	50	0	20	0	ft	""
+WE	wepp-24521	"07:36 am  Tuesday October 16, 2012"	"McQuire BAER +"	loam	20	forest	50	50	50	1000	h			ft
+WE	wepp-24638	"07:39 am  Tuesday October 16, 2012"	"McQuire BAER +"	loam	20	forest	50	50	50	1000	l			ft
+WD	wepp-24687	"07:41 am  Tuesday October 16, 2012"	"McQuire BAER +"	100	loam	HighFire	500	50	50	0	20	HighFire	500	50	50	0	20	0	ft	""
+WD	wepp-24709	"07:42 am  Tuesday October 16, 2012"	"McQuire BAER +"	50	loam	HighFire	500	50	50	0	20	HighFire	500	50	50	0	20	0	ft	""
+WD	wepp-24756	"07:42 am  Tuesday October 16, 2012"	"McQuire BAER +"	10	loam	HighFire	500	50	50	0	20	HighFire	500	50	50	0	20	0	ft	""
+WD	wepp-24776	"07:42 am  Tuesday October 16, 2012"	"McQuire BAER +"	100	loam	HighFire	500	50	50	0	20	HighFire	500	50	50	0	20	0	ft	""
+WD	wepp-24905	"07:55 am  Tuesday October 16, 2012"	"McQuire BAER +"	100	loam	HighFire	500	50	50	0	20	HighFire	500	50	50	0	20	0	ft	""
+WD	wepp-25110	"08:21 am  Tuesday October 16, 2012"	"McQuire BAER +"	100	loam	HighFire	500	50	50	0	20	HighFire	500	50	50	0	20	0	ft	""
+WE	wepp-26219	"09:57 am  Tuesday October 16, 2012"	"McQuire BAER +"	loam	20	forest	25	33	14	859	h			ft
+WE	wepp-26362	"09:58 am  Tuesday October 16, 2012"	"McQuire BAER +"	loam	20	forest	28	45	46	512	h			ft
+WE	wepp-26452	"09:58 am  Tuesday October 16, 2012"	"McQuire BAER +"	loam	20	forest	41	52	37	285	h			ft
+WD	wepp-26546	"09:59 am  Tuesday October 16, 2012"	"McQuire BAER +"	10	loam	HighFire	500	50	50	20	20	HighFire	500	50	50	20	20	0	ft	""
+WD	wepp-26593	"09:59 am  Tuesday October 16, 2012"	"McQuire BAER +"	100	loam	HighFire	500	50	50	20	20	HighFire	500	50	50	20	20	0	ft	""
+WE	wepp-27185	"10:01 am  Tuesday October 16, 2012"	"McQuire BAER +"	loam	20	forest	25	33	14	859	h			ft
+WE	wepp-27478	"10:01 am  Tuesday October 16, 2012"	"McQuire BAER +"	loam	20	forest	28	45	46	512	h			ft
+WE	wepp-27760	"10:02 am  Tuesday October 16, 2012"	"McQuire BAER +"	loam	20	forest	41	52	37	285	h			ft
+WE	wepp-28245	"10:03 am  Tuesday October 16, 2012"	"McQuire BAER +"	loam	20	forest	25	33	14	859	h			ft
+WE	wepp-28334	"10:03 am  Tuesday October 16, 2012"	"McQuire BAER +"	loam	50	forest	28	45	46	512	h			ft
+WE	wepp-28423	"10:04 am  Tuesday October 16, 2012"	"McQuire BAER +"	loam	20	forest	41	52	37	285	h			ft
+WE	wepp-31362	"02:52 pm  Tuesday October 16, 2012"	"McQuire BAER +"	loam	20	forest	25	33	14	859	h			ft
+WE	wepp-31453	"02:52 pm  Tuesday October 16, 2012"	"McQuire BAER +"	loam	50	forest	28	45	46	512	h			ft
+WE	wepp-31543	"02:52 pm  Tuesday October 16, 2012"	"McQuire BAER +"	loam	20	forest	41	52	37	285	h			ft
+WE	wepp-12779	"10:30 am  Wednesday October 17, 2012"	"McQuire BAER +"	sand	20	forest	10	55	30	700	h			ft
+WE	wepp-12897	"10:32 am  Wednesday October 17, 2012"	"McQuire BAER +"	sand	5	forest	10	55	30	700	h			ft
+WD	wepp-12989	"10:34 am  Wednesday October 17, 2012"	"McQuire BAER +"	100	silt	HighFire	350	10	55	45	5	HighFire	350	55	30	45	5	0	ft	""
+WD	wepp-13064	"10:41 am  Wednesday October 17, 2012"	"McQuire BAER +"	100	sand	HighFire	350	10	55	45	5	HighFire	350	55	30	45	5	0	ft	""
+WD	wepp-13097	"10:44 am  Wednesday October 17, 2012"	"McQuire BAER +"	100	sand	HighFire	350	10	55	45	5	HighFire	350	55	10	45	5	0	ft	""
+WE	wepp-13167	"10:46 am  Wednesday October 17, 2012"	"McQuire BAER +"	sand	5	forest	10	55	30	700	h			ft
+WE	wepp-13261	"10:49 am  Wednesday October 17, 2012"	"McQuire BAER +"	silt	5	forest	10	55	30	700	h			ft
+WE	wepp-13378	"10:50 am  Wednesday October 17, 2012"	"McQuire BAER +"	loam	5	forest	10	55	30	700	h			ft
+WE	wepp-13524	"11:00 am  Wednesday October 17, 2012"	"McQuire BAER +"	sand	5	forest	10	55	30	700	h			ft
+WE	wepp-13889	"11:08 am  Wednesday October 17, 2012"	"McQuire BAER +"	sand	5	forest	10	55	30	700	h			ft
+WE	wepp-14131	"11:17 am  Wednesday October 17, 2012"	"compare +"	sand	5	forest	10	55	30	700	h			ft
+WE	wepp-14224	"11:19 am  Wednesday October 17, 2012"	"compare +"	sand	5	forest	10	55	30	700	h			ft
+WE	wepp-14359	"11:24 am  Wednesday October 17, 2012"	"compare +"	sand	5	forest	10	55	30	700	h			ft
+WE	wepp-14495	"11:26 am  Wednesday October 17, 2012"	"no lapse +"	sand	5	forest	10	55	30	700	h			ft
+WE	wepp-14823	"11:34 am  Wednesday October 17, 2012"	"McQuire BAER +"	sand	5	forest	10	55	30	700	h			ft
+WE	wepp-15274	"12:17 pm  Wednesday October 17, 2012"	"Mcquire BAER +"	loam	5	forest	10	55	30	700	l			ft
+WE	wepp-15326	"12:19 pm  Wednesday October 17, 2012"	"Mcquire BAER +"	loam	30	forest	10	55	30	700	l			ft
+WE	wepp-15380	"12:20 pm  Wednesday October 17, 2012"	"Mcquire BAER +"	sand	5	forest	10	55	30	700	l			ft
+WE	wepp-15432	"12:21 pm  Wednesday October 17, 2012"	"Mcquire BAER +"	sand	30	forest	10	55	30	700	l			ft
+WE	wepp-15507	"12:22 pm  Wednesday October 17, 2012"	"Mcquire BAER +"	loam	5	forest	10	55	30	700	m			ft
+WE	wepp-15577	"12:24 pm  Wednesday October 17, 2012"	"Mcquire BAER +"	loam	30	forest	10	55	30	700	m			ft
+WE	wepp-15648	"12:25 pm  Wednesday October 17, 2012"	"Mcquire BAER +"	sand	5	forest	10	55	30	700	m			ft
+WE	wepp-15748	"12:27 pm  Wednesday October 17, 2012"	"Mcquire BAER +"	sand	30	forest	10	55	30	700	m			ft
+WE	wepp-15820	"12:30 pm  Wednesday October 17, 2012"	"Mcquire BAER +"	sand	5	forest	10	55	30	700	m			ft
+WE	wepp-15948	"12:32 pm  Wednesday October 17, 2012"	"Mcquire BAER +"	sand	30	forest	10	55	30	700	m			ft
+WE	wepp-16019	"12:33 pm  Wednesday October 17, 2012"	"Mcquire BAER +"	loam	5	forest	10	55	30	700	h			ft
+WD	wepp-16166	"12:36 pm  Wednesday October 17, 2012"	"Mcquire BAER +"	100	loam	HighFire	350	10	55	45	5	HighFire	350	55	30	45	5	0	ft	""
+WE	wepp-16186	"12:37 pm  Wednesday October 17, 2012"	"Mcquire BAER +"	loam	30	forest	10	55	30	700	h			ft
+WE	wepp-16276	"12:38 pm  Wednesday October 17, 2012"	"Mcquire BAER +"	sand	5	forest	10	55	30	700	h			ft
+WE	wepp-16386	"12:41 pm  Wednesday October 17, 2012"	"Mcquire BAER +"	sand	30	forest	10	55	30	700	h			ft
+WE	wepp-16525	"12:43 pm  Wednesday October 17, 2012"	"Mcquire BAER +"	sand	30	forest	10	55	30	700	h			ft
+WE	wepp-16655	"12:45 pm  Wednesday October 17, 2012"	"McQuire BAER +"	sand	30	forest	10	55	30	700	h			ft
+WE	wepp-16815	"12:50 pm  Wednesday October 17, 2012"	"Mcquire BAER +"	sand	30	forest	10	55	30	700	h			ft
+WE	wepp-16959	"12:54 pm  Wednesday October 17, 2012"	"McQuire BAER +"	sand	30	forest	10	55	30	700	h			ft
+WE	wepp-17093	"12:57 pm  Wednesday October 17, 2012"	"final mcquire baer +"	sand	30	forest	10	55	30	700	h			ft
+WE	wepp-17508	"01:20 pm  Wednesday October 17, 2012"	"mcquire no lapse +"	sand	30	forest	10	55	30	700	h			ft
+WE	wepp-17980	"02:08 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	5	forest	10	55	30	700	h			ft
+WE	wepp-18072	"02:10 pm  Wednesday October 17, 2012"	"final mcquire baer +"	sand	5	forest	10	55	30	700	h			ft
+WE	wepp-18168	"02:11 pm  Wednesday October 17, 2012"	"final mcquire baer +"	sand	30	forest	10	55	30	700	h			ft
+WE	wepp-18299	"02:12 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	30	forest	10	55	30	700	h			ft
+WE	wepp-18472	"02:17 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	5	forest	10	55	30	700	h			ft
+WE	wepp-18562	"02:18 pm  Wednesday October 17, 2012"	"final mcquire baer +"	sand	5	forest	10	55	30	700	h			ft
+WE	wepp-18652	"02:19 pm  Wednesday October 17, 2012"	"final mcquire baer +"	sand	30	forest	10	55	30	700	h			ft
+WE	wepp-18774	"02:22 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	5	forest	10	55	30	700	m			ft
+WE	wepp-18844	"02:23 pm  Wednesday October 17, 2012"	"final mcquire baer +"	sand	5	forest	10	55	30	700	m			ft
+WE	wepp-18951	"02:29 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	25	33	14	859	h			ft
+WE	wepp-19040	"02:29 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	28	45	46	512	h			ft
+WE	wepp-19148	"02:30 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	41	52	37	285	h			ft
+WE	wepp-19237	"02:30 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	31	0	31	82	h			ft
+WE	wepp-19326	"02:30 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	6.8	30	40	1000	h			ft
+WE	wepp-19415	"02:31 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	20	26	20	1000	h			ft
+WE	wepp-19504	"02:31 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	22	31	18	987	h			ft
+WE	wepp-19595	"02:31 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	23	21	18	265	h			ft
+WE	wepp-19709	"02:32 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	34	31	29	400	h			ft
+WE	wepp-19800	"02:32 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	4.4	20	22	1000	h			ft
+WE	wepp-19889	"02:32 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	10	21	22	1000	h			ft
+WE	wepp-19978	"02:33 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	22	28	20	1000	h			ft
+WE	wepp-20067	"02:33 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	8.9	21	13	1000	h			ft
+WE	wepp-20156	"02:34 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	25	24	22	1000	h			ft
+WE	wepp-20245	"02:34 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	3.2	12	15	1000	h			ft
+WE	wepp-20334	"02:34 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	14	16	18	436	h			ft
+WE	wepp-20423	"02:35 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	20	20	18	768	h			ft
+WE	wepp-20576	"02:44 pm  Wednesday October 17, 2012"	"final mcquire baer +"	sand	20	forest	25	33	14	859	h			ft
+WE	wepp-20665	"02:44 pm  Wednesday October 17, 2012"	"final mcquire baer +"	sand	20	forest	28	45	46	512	h			ft
+WE	wepp-20773	"02:45 pm  Wednesday October 17, 2012"	"final mcquire baer +"	sand	20	forest	41	52	37	285	h			ft
+WE	wepp-20865	"02:45 pm  Wednesday October 17, 2012"	"final mcquire baer +"	sand	20	forest	31	0	31	82	h			ft
+WE	wepp-20954	"02:45 pm  Wednesday October 17, 2012"	"final mcquire baer +"	sand	20	forest	6.8	30	40	1000	h			ft
+WE	wepp-21043	"02:46 pm  Wednesday October 17, 2012"	"final mcquire baer +"	sand	20	forest	20	26	20	1000	h			ft
+WE	wepp-21132	"02:46 pm  Wednesday October 17, 2012"	"final mcquire baer +"	sand	20	forest	22	31	18	987	h			ft
+WE	wepp-21223	"02:46 pm  Wednesday October 17, 2012"	"final mcquire baer +"	sand	20	forest	23	21	18	265	h			ft
+WE	wepp-21339	"02:47 pm  Wednesday October 17, 2012"	"final mcquire baer +"	sand	20	forest	34	31	29	400	h			ft
+WE	wepp-21428	"02:47 pm  Wednesday October 17, 2012"	"final mcquire baer +"	sand	20	forest	4.4	20	22	1000	h			ft
+WE	wepp-21517	"02:47 pm  Wednesday October 17, 2012"	"final mcquire baer +"	sand	20	forest	10	21	22	1000	h			ft
+WE	wepp-21606	"02:48 pm  Wednesday October 17, 2012"	"final mcquire baer +"	sand	20	forest	22	28	20	1000	h			ft
+WE	wepp-21695	"02:48 pm  Wednesday October 17, 2012"	"final mcquire baer +"	sand	20	forest	8.9	21	13	1000	h			ft
+WE	wepp-21784	"02:48 pm  Wednesday October 17, 2012"	"final mcquire baer +"	sand	20	forest	25	24	22	1000	h			ft
+WE	wepp-21873	"02:49 pm  Wednesday October 17, 2012"	"final mcquire baer +"	sand	20	forest	3.2	12	15	1000	h			ft
+WE	wepp-21962	"02:49 pm  Wednesday October 17, 2012"	"final mcquire baer +"	sand	20	forest	14	16	18	436	h			ft
+WE	wepp-22051	"02:49 pm  Wednesday October 17, 2012"	"final mcquire baer +"	sand	20	forest	20	20	18	768	h			ft
+WE	wepp-22226	"03:01 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	20	25	24	855	h			ft
+WE	wepp-23027	"04:09 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	0.45	0.4	0.24	653	h			ft
+WE	wepp-23116	"04:09 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	0.12	0.33	0.32	1000	h			ft
+WE	wepp-23205	"04:10 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	0.2	0.33	0.35	1000	h			ft
+WE	wepp-23294	"04:10 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	0.26	0.25	0.17	1000	h			ft
+WE	wepp-23383	"04:10 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	0.35	0.45	0.29	397	h			ft
+WE	wepp-23474	"04:11 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	0.23	0.23	0.2	166	h			ft
+WE	wepp-23563	"04:11 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	0.21	0.26	0.27	564	h			ft
+WE	wepp-23652	"04:12 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	0.087	0.22	0.24	1000	h			ft
+WE	wepp-23768	"04:12 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	0.061	0.22	0.23	1000	h			ft
+WE	wepp-23857	"04:12 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	0.29	0.28	0.23	1000	h			ft
+WE	wepp-23946	"04:13 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	0.21	0.25	0.18	1000	h			ft
+WE	wepp-24035	"04:13 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	0.23	0.28	0.27	800	h			ft
+WE	wepp-24126	"04:13 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	0.24	0.24	0.18	902	h			ft
+WE	wepp-24216	"04:14 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	0.27	0.23	0.21	281	h			ft
+WE	wepp-24305	"04:14 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	0.14	0.17	0.18	620	h			ft
+WE	wepp-24394	"04:14 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	0.076	0.2	0.14	1000	h			ft
+WE	wepp-24502	"04:15 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	0.23	0.23	0.24	712	h			ft
+WE	wepp-24591	"04:15 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	0.038	0.13	0.14	1000	h			ft
+WE	wepp-24680	"04:16 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	0.16	0.15	0.13	413	h			ft
+WE	wepp-24769	"04:16 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	0.19	0.17	0.19	682	h			ft
+WE	wepp-25274	"04:42 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	0.45	0.4	0.24	653	h			ft
+WE	wepp-25363	"04:43 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	0.12	0.33	0.32	1000	h			ft
+WE	wepp-25452	"04:43 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	0.2	0.33	0.35	1000	h			ft
+WE	wepp-25541	"04:43 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	0.26	0.25	0.17	1000	h			ft
+WE	wepp-25630	"04:44 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	0.35	0.45	0.29	397	h			ft
+WE	wepp-25719	"04:44 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	0.23	0.23	0.2	166	h			ft
+WE	wepp-25808	"04:45 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	0.21	0.26	0.27	564	h			ft
+WE	wepp-25916	"04:45 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	0.087	0.22	0.24	1000	h			ft
+WE	wepp-26005	"04:45 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	0.061	0.22	0.23	1000	h			ft
+WE	wepp-26094	"04:46 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	0.29	0.28	0.23	1000	h			ft
+WE	wepp-26183	"04:46 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	0.21	0.25	0.18	1000	h			ft
+WE	wepp-26272	"04:46 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	0.23	0.28	0.27	800	h			ft
+WE	wepp-26361	"04:47 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	0.24	0.24	0.18	902	h			ft
+WE	wepp-26450	"04:47 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	0.27	0.23	0.21	281	h			ft
+WE	wepp-26567	"04:47 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	0.14	0.17	0.18	620	h			ft
+WE	wepp-26656	"04:48 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	0.076	0.2	0.14	1000	h			ft
+WE	wepp-26745	"04:48 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	0.23	0.23	0.24	712	h			ft
+WE	wepp-26837	"04:48 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	0.038	0.13	0.14	1000	h			ft
+WE	wepp-26926	"04:49 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	0.16	0.15	0.13	413	h			ft
+WE	wepp-27015	"04:49 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	0.19	0.17	0.19	682	h			ft
+WE	wepp-27195	"04:58 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	45	40	24	653	h			ft
+WE	wepp-27284	"04:58 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	12	33	32	1000	h			ft
+WE	wepp-27373	"04:58 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	20	33	35	1000	h			ft
+WE	wepp-27462	"04:59 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	26	25	17	1000	h			ft
+WE	wepp-27551	"04:59 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	35	45	29	397	h			ft
+WE	wepp-27640	"04:59 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	23	23	20	166	h			ft
+WE	wepp-27748	"05:00 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	21	26	27	564	h			ft
+WE	wepp-27839	"05:00 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	8.7	22	24	1000	h			ft
+WE	wepp-27931	"05:00 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	6.1	22	23	1000	h			ft
+WE	wepp-28020	"05:01 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	29	28	23	1000	h			ft
+WE	wepp-28109	"05:01 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	21	25	18	1000	h			ft
+WE	wepp-28198	"05:02 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	23	28	27	800	h			ft
+WE	wepp-28287	"05:02 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	24	24	18	902	h			ft
+WE	wepp-28405	"05:02 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	27	23	21	281	h			ft
+WE	wepp-28495	"05:03 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	14	17	18	620	h			ft
+WE	wepp-28584	"05:03 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	7.6	20	14	1000	h			ft
+WE	wepp-28673	"05:03 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	23	23	24	712	h			ft
+WE	wepp-28762	"05:04 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	3.8	13	14	1000	h			ft
+WE	wepp-28851	"05:04 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	16	15	13	413	h			ft
+WE	wepp-28940	"05:05 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	19	17	19	682	h			ft
+WE	wepp-29428	"05:36 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	31	34	29	413	m			ft
+WE	wepp-29498	"05:36 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	34	40	26	374	m			ft
+WE	wepp-29567	"05:37 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	31	31	25	148	m			ft
+WE	wepp-29636	"05:37 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	24	24	27	177	m			ft
+WE	wepp-29707	"05:37 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	22	20	21	902	m			ft
+WE	wepp-29801	"05:38 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	40	36	22	387	m			ft
+WE	wepp-29871	"05:38 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	33	37	37	296	m			ft
+WE	wepp-29940	"05:38 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	29	37	33	617	m			ft
+WE	wepp-30009	"05:39 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	28	27	26	423	m			ft
+WE	wepp-30078	"05:39 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	24	24	29	1000	m			ft
+WE	wepp-30147	"05:39 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	19	32	28	889	m			ft
+WE	wepp-30216	"05:39 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	29	39	34	649	m			ft
+WE	wepp-30285	"05:40 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	43	45	20	403	m			ft
+WE	wepp-30355	"05:40 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	11	33	37	1000	m			ft
+WE	wepp-30424	"05:40 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	30	30	49	87	m			ft
+WE	wepp-30493	"05:41 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	18	26	24	1000	m			ft
+WE	wepp-30562	"05:41 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	40	39	20	367	m			ft
+WE	wepp-30631	"05:41 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	21	21	22	179	m			ft
+WE	wepp-30700	"05:42 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	24	27	24	571	m			ft
+WE	wepp-30769	"05:42 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	6.6	22	22	1000	m			ft
+WE	wepp-30838	"05:42 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	19	24	21	1000	m			ft
+WE	wepp-30934	"05:43 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	28	26	24	1000	m			ft
+WE	wepp-31003	"05:43 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	12	19	18	1000	m			ft
+WE	wepp-31073	"05:43 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	14	17	17	656	m			ft
+WE	wepp-31142	"05:43 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	24	24	25	656	m			ft
+WE	wepp-31213	"05:44 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	4.1	12	16	886	m			ft
+WE	wepp-31282	"05:44 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	17	15	14	630	m			ft
+WE	wepp-31351	"05:44 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	17	19	20	525	m			ft
+WE	wepp-31439	"05:45 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	14	22	21	738	m			ft
+WE	wepp-31508	"05:45 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	33	36	33	258	m			ft
+WE	wepp-31578	"05:45 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	24	24	21	163	m			ft
+WE	wepp-32724	"08:02 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	13	9.1	3	285	h			ft
+WE	wepp-348	"08:03 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	4.1	5.8	7.7	285	h			ft
+WE	wepp-442	"08:03 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	6.5	5	2.7	75	h			ft
+WE	wepp-555	"08:03 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	1.3	10	15	75	h			ft
+WE	wepp-649	"08:04 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	12	11	9.5	327	h			ft
+WE	wepp-740	"08:04 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	12	11	10	273	h			ft
+WE	wepp-830	"08:05 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	28	20	9.7	1000	h			ft
+WE	wepp-920	"08:05 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	12	13	12	443	h			ft
+WE	wepp-1009	"08:05 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	11	8.9	9	541	h			ft
+WE	wepp-1098	"08:06 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	18	15	11	43	h			ft
+WE	wepp-1187	"08:06 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	18	14	11	600	h			ft
+WE	wepp-1278	"08:06 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	17	20	20	1000	h			ft
+WE	wepp-1370	"08:07 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	21	17	9.4	371	h			ft
+WE	wepp-1459	"08:07 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	10	15	26	89	h			ft
+WE	wepp-1549	"08:08 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	21	19	17	1000	h			ft
+WE	wepp-1639	"08:08 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	16	11	0.5	499	h			ft
+WE	wepp-1823	"08:08 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	13	14	0.57	771	h			ft
+WE	wepp-1914	"08:09 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	13	6.7	0.1	246	h			ft
+WE	wepp-2004	"08:09 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	12	14	0.1	443	h			ft
+WE	wepp-2096	"08:09 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	15	17	14	278	h			ft
+WE	wepp-2185	"08:10 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	15	18	11	348	h			ft
+WE	wepp-2274	"08:10 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	14	15	23	1000	h			ft
+WE	wepp-2363	"08:11 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	26	0	29	245	h			ft
+WE	wepp-2453	"08:11 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	28	22	12	1000	h			ft
+WE	wepp-2553	"08:11 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	10	12	12	394	h			ft
+WE	wepp-2649	"08:12 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	8.3	7	5	200	h			ft
+WE	wepp-2748	"08:12 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	23	21	20	235	h			ft
+WE	wepp-2837	"08:12 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	3.2	22	22	1000	h			ft
+WE	wepp-2927	"08:13 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	19	16	13	387	h			ft
+WE	wepp-3019	"08:13 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	23	19	14	308	h			ft
+WE	wepp-3136	"08:13 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	34	34	31	285	h			ft
+WE	wepp-3225	"08:14 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	6.5	23	27	1000	h			ft
+WE	wepp-3314	"08:14 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	31	36	29	676	h			ft
+WE	wepp-3422	"08:15 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	14	24	33	1000	h			ft
+WE	wepp-3511	"08:15 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	31	30	27	113	h			ft
+WE	wepp-3600	"08:15 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	23	28	15	872	h			ft
+WE	wepp-3691	"08:16 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	16	19	34	1000	h			ft
+WE	wepp-3780	"08:16 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	22	30	14	1000	h			ft
+WE	wepp-3869	"08:17 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	27	25	23	245	h			ft
+WE	wepp-3963	"08:17 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	27	34	29	640	h			ft
+WE	wepp-4052	"08:17 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	20	20	19	1000	h			ft
+WE	wepp-4141	"08:18 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	17	23	27	1000	h			ft
+WE	wepp-4230	"08:18 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	21	16	16	1000	h			ft
+WE	wepp-4347	"08:18 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	17	10	6.8	139	h			ft
+WE	wepp-4436	"08:19 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	16	15	9.6	866	h			ft
+WE	wepp-4525	"08:19 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	15	12	6.5	597	h			ft
+WE	wepp-4614	"08:20 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	20	25	16	1000	h			ft
+WE	wepp-4703	"08:20 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	16	13	11	354	h			ft
+WE	wepp-4792	"08:20 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	18	19	7.7	489	h			ft
+WE	wepp-4882	"08:21 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	25	16	9.2	1000	h			ft
+WE	wepp-4971	"08:21 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	9.3	9	9	69	h			ft
+WE	wepp-5062	"08:21 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	18	14	9	390	h			ft
+WE	wepp-5151	"08:22 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	27	19	9.5	538	h			ft
+WE	wepp-5240	"08:22 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	30	24	8.8	915	h			ft
+WE	wepp-5329	"08:23 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	21	18	16	397	h			ft
+WE	wepp-5418	"08:23 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	32	28	25	257	h			ft
+WE	wepp-5534	"08:23 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	8.3	19	12	1000	h			ft
+WE	wepp-5624	"08:24 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	14	24	26	558	h			ft
+WE	wepp-5713	"08:24 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	26	24	23	1000	h			ft
+WE	wepp-5805	"08:24 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	28	22	12	656	h			ft
+WE	wepp-5894	"08:25 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	29	24	9.5	1000	h			ft
+WE	wepp-5983	"08:25 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	13	22	8.4	1000	h			ft
+WE	wepp-6073	"08:26 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	28	29	20	1000	h			ft
+WE	wepp-6162	"08:26 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	27	30	21	738	h			ft
+WE	wepp-6252	"08:26 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	9.9	12	14	23	h			ft
+WE	wepp-6341	"08:27 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	14	24	27	1000	h			ft
+WE	wepp-6430	"08:27 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	20	26	31	610	h			ft
+WE	wepp-6519	"08:27 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	28	0	24	143	h			ft
+WE	wepp-6608	"08:28 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	13	21	22	1000	h			ft
+WE	wepp-6697	"08:28 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	21	23	24	1000	h			ft
+WE	wepp-6813	"08:29 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	22	23	24	106	h			ft
+WE	wepp-6902	"08:29 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	19	23	20	1000	h			ft
+WE	wepp-6991	"08:29 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	22	20	21	199	h			ft
+WE	wepp-7099	"08:30 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	25	21	13	800	h			ft
+WE	wepp-7188	"08:30 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	18	21	29	1000	h			ft
+WE	wepp-7277	"08:30 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	13	13	13	45	h			ft
+WE	wepp-7368	"08:31 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	26	16	15	312	h			ft
+WE	wepp-7457	"08:31 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	14	18	11	1000	h			ft
+WE	wepp-7546	"08:32 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	19	20	11	843	h			ft
+WE	wepp-7635	"08:32 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	9.3	7.1	9.2	574	h			ft
+WE	wepp-7725	"08:32 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	12	12	13	338	h			ft
+WE	wepp-7814	"08:33 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	21	13	4	1000	h			ft
+WE	wepp-7903	"08:33 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	19	14	4.7	1000	h			ft
+WE	wepp-8019	"08:33 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	8.9	5.4	4	961	h			ft
+WE	wepp-8108	"08:34 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	2.7	3.9	4	440	h			ft
+WE	wepp-8197	"08:34 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	7	11	12	1000	h			ft
+WE	wepp-8287	"08:35 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	14	16	14	384	h			ft
+WE	wepp-8376	"08:35 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	13	8.6	4.8	476	h			ft
+WE	wepp-8465	"08:35 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	24	12	5.8	584	h			ft
+WE	wepp-8555	"08:36 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	10	22	10	1000	h			ft
+WE	wepp-8644	"08:36 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	6.3	6	6	51	h			ft
+WE	wepp-8735	"08:36 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	6.8	7	7.3	203	h			ft
+WE	wepp-8824	"08:37 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	9.4	11	8.2	827	h			ft
+WE	wepp-8913	"08:37 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	29	14	8.3	922	h			ft
+WE	wepp-9003	"08:38 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	27	12	8	745	h			ft
+WE	wepp-9092	"08:38 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	15	15	16	984	h			ft
+WE	wepp-9210	"08:38 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	18	21	13	640	h			ft
+WE	wepp-9299	"08:39 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	12	12	12	163	h			ft
+WE	wepp-9389	"08:39 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	7	12	14	1000	h			ft
+WE	wepp-9478	"08:39 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	16	16	16	197	h			ft
+WE	wepp-10579	"10:30 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	33	32	12	374	h			ft
+WE	wepp-10668	"10:31 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	14	21	11	1000	h			ft
+WE	wepp-10757	"10:31 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	18	14	14	367	h			ft
+WE	wepp-10846	"10:31 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	14	10	8.7	204	h			ft
+WE	wepp-10935	"10:32 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	17	17	11	1000	h			ft
+WE	wepp-11024	"10:32 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	9.7	15	20	122	h			ft
+WE	wepp-11113	"10:33 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	16	15	13	525	h			ft
+WE	wepp-11202	"10:33 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	18	18	17	184	h			ft
+WE	wepp-11291	"10:33 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	18	18	17	167	h			ft
+WE	wepp-11380	"10:34 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	15	17	16	1000	h			ft
+WE	wepp-11496	"10:34 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	18	16	15	466	h			ft
+WE	wepp-11585	"10:34 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	19	18	18	413	h			ft
+WE	wepp-11674	"10:35 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	18	18	17	1000	h			ft
+WE	wepp-11763	"10:35 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	15	17	19	148	h			ft
+WE	wepp-11852	"10:35 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	7.8	18	17	1000	h			ft
+WE	wepp-11941	"10:36 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	20	17	9.4	571	h			ft
+WE	wepp-12030	"10:36 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	11	14	15	106	h			ft
+WE	wepp-12119	"10:37 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	13	13	13	183	h			ft
+WE	wepp-12208	"10:37 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	10	19	11	1000	h			ft
+WE	wepp-12297	"10:37 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	17	15	12	489	h			ft
+WE	wepp-12386	"10:38 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	16	15	7.8	1000	h			ft
+WE	wepp-12475	"10:38 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	16	12	7.7	600	h			ft
+WE	wepp-12564	"10:38 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	17	15	7.8	1000	h			ft
+WE	wepp-12653	"10:39 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	16	14	13	196	h			ft
+WE	wepp-12770	"10:39 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	15	13	11	271	h			ft
+WE	wepp-12859	"10:39 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	6.1	21	14	1000	h			ft
+WE	wepp-12948	"10:40 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	25	20	12	561	h			ft
+WE	wepp-13039	"10:40 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	14	16	13	505	h			ft
+WE	wepp-13128	"10:41 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	17	14	14	626	h			ft
+WE	wepp-13217	"10:41 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	7.6	17	12	1000	h			ft
+WE	wepp-13306	"10:41 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	5.5	20	16	1000	h			ft
+WE	wepp-13395	"10:42 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	18	12	7.5	564	h			ft
+WE	wepp-13484	"10:42 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	18	18	17	150	h			ft
+WE	wepp-13573	"10:42 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	19	17	13	132	h			ft
+WE	wepp-13662	"10:43 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	11	11	16	1000	h			ft
+WE	wepp-13753	"10:43 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	20	18	20	1000	h			ft
+WE	wepp-13842	"10:43 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	19	19	16	403	h			ft
+WE	wepp-13931	"10:44 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	13	18	20	558	h			ft
+WE	wepp-14047	"10:44 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	12	20	18	1000	h			ft
+WE	wepp-14158	"10:45 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	22	23	24	159	h			ft
+WE	wepp-14247	"10:45 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	16	21	14	856	h			ft
+WE	wepp-14336	"10:45 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	18	19	11	541	h			ft
+WE	wepp-14425	"10:46 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	11	11	11	249	h			ft
+WE	wepp-14514	"10:46 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	14	10	9.8	663	h			ft
+WE	wepp-14603	"10:46 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	5.2	28	10	1000	h			ft
+WE	wepp-14692	"10:47 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	13	11	8.4	358	h			ft
+WE	wepp-14783	"10:47 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	13	13	10	535	h			ft
+WE	wepp-14872	"10:47 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	18	16	11	1000	h			ft
+WE	wepp-14961	"10:48 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	23	23	11	699	h			ft
+WE	wepp-15050	"10:48 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	19	15	9.7	384	h			ft
+WE	wepp-15139	"10:49 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	8.3	13	9	863	h			ft
+WE	wepp-15255	"10:49 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	6	5	4.3	180	h			ft
+WE	wepp-15344	"10:49 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	20	17	5.2	984	h			ft
+WE	wepp-15433	"10:50 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	16	15	14	403	h			ft
+WE	wepp-15522	"10:50 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	11	18	15	859	h			ft
+WE	wepp-15611	"10:50 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	18	17	15	314	h			ft
+WE	wepp-15700	"10:51 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	13	11	4.3	492	h			ft
+WE	wepp-15789	"10:51 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	15	16	10	712	h			ft
+WE	wepp-15878	"10:51 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	11	11	7.9	1000	h			ft
+WE	wepp-15968	"10:52 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	25	19	9.7	964	h			ft
+WE	wepp-16057	"10:52 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	22	17	10	564	h			ft
+WE	wepp-16146	"10:53 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	23	23	15	991	h			ft
+WE	wepp-16235	"10:53 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	23	16	5.3	308	h			ft
+WE	wepp-16324	"10:53 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	5.3	6.9	11	876	h			ft
+WE	wepp-16413	"10:54 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	8	9.4	8.4	771	h			ft
+WE	wepp-16529	"10:54 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	20	13	6.8	561	h			ft
+WE	wepp-16618	"10:54 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	11	14	8.5	1000	h			ft
+WE	wepp-16707	"10:55 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	13	15	14	1000	h			ft
+WE	wepp-16796	"10:55 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	14	16	20	82	h			ft
+WE	wepp-16885	"10:55 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	27	19	8.9	1000	h			ft
+WE	wepp-16974	"10:56 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	9	12	18	115	h			ft
+WE	wepp-17063	"10:56 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	24	29	23	364	h			ft
+WE	wepp-17152	"10:57 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	32	29	17	574	h			ft
+WE	wepp-17241	"10:57 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	15	18	14	1000	h			ft
+WE	wepp-17330	"10:57 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	25	22	19	163	h			ft
+WE	wepp-17419	"10:58 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	19	18	9.2	1000	h			ft
+WE	wepp-17508	"10:58 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	28	24	12	984	h			ft
+WE	wepp-17597	"10:58 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	21	17	9.7	784	h			ft
+WE	wepp-17686	"10:59 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	19	21	15	1000	h			ft
+WE	wepp-17804	"10:59 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	26	21	16	407	h			ft
+WE	wepp-17893	"10:59 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	12	20	23	102	h			ft
+WE	wepp-18001	"11:00 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	16	28	23	886	h			ft
+WE	wepp-18090	"11:00 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	15	10	5.3	162	h			ft
+WE	wepp-18179	"11:01 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	30	22	9	626	h			ft
+WE	wepp-18268	"11:01 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	5.8	21	11	1000	h			ft
+WE	wepp-18357	"11:01 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	18	20	25	139	h			ft
+WE	wepp-18446	"11:02 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	11	9.1	16	1000	h			ft
+WE	wepp-18535	"11:02 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	20	18	11	800	h			ft
+WE	wepp-18625	"11:02 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	20	24	18	653	h			ft
+WE	wepp-18714	"11:03 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	22	15	13	522	h			ft
+WE	wepp-18803	"11:03 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	8	11	14	905	h			ft
+WE	wepp-18892	"11:03 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	15	12	9.7	354	h			ft
+WE	wepp-18981	"11:04 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	25	24	23	270	h			ft
+WE	wepp-19097	"11:04 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	19	25	13	1000	h			ft
+WE	wepp-19188	"11:05 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	27	21	18	371	h			ft
+WE	wepp-19277	"11:05 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	12	15	13	1000	h			ft
+WE	wepp-19368	"11:05 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	14	15	16	240	h			ft
+WE	wepp-19457	"11:06 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	20	20	20	42	h			ft
+WE	wepp-19546	"11:06 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	12	12	12	150	h			ft
+WE	wepp-19637	"11:06 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	15	11	11	1000	h			ft
+WE	wepp-19726	"11:07 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	20	20	21	443	h			ft
+WE	wepp-19815	"11:07 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	8.2	22	17	1000	h			ft
+WE	wepp-19904	"11:07 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	12	15	18	188	h			ft
+WE	wepp-19993	"11:08 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	12	14	15	73	h			ft
+WE	wepp-20082	"11:08 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	15	15	15	436	h			ft
+WE	wepp-20171	"11:09 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	18	20	21	410	h			ft
+WE	wepp-20260	"11:09 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	12	17	12	1000	h			ft
+WE	wepp-20376	"11:09 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	15	14	14	186	h			ft
+WE	wepp-20466	"11:10 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	17	12	13	1000	h			ft
+WE	wepp-20555	"11:10 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	13	13	13	150	h			ft
+WE	wepp-20644	"11:10 pm  Wednesday October 17, 2012"	"final mcquire baer +"	loam	20	forest	16	15	14	150	h			ft
+WR	wepp-26991	"08:37 am  Thursday October 18, 2012"	"final mcquire baer +"	30	silt	native	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-27040	"08:43 am  Thursday October 18, 2012"	"final mcquire baer +"	30	loam	native	200	4	13	15	50	1	1	20	inveg	ft
+wt	wepp-13612	"Feb 2, 2013"	"HEAVENLY VALLEY CA"	granitic	BurnP	30	30	6	20	20	Skid	30	5	50	10	20	ft	""
+WE	wepp-5678	"11:30 am  Monday May 6, 2013"	"final mcquire baer +"	loam	20	forest	33	32	12	374	h			ft
+WE	wepp-5783	"11:30 am  Monday May 6, 2013"	"final mcquire baer +"	loam	20	forest	14	21	11	1000	h			ft
+WE	wepp-5947	"11:31 am  Monday May 6, 2013"	"final mcquire baer +"	loam	20	forest	18	14	14	367	h			ft
+WE	wepp-6038	"11:31 am  Monday May 6, 2013"	"final mcquire baer +"	loam	20	forest	14	10	8.7	204	h			ft
+WE	wepp-6207	"11:31 am  Monday May 6, 2013"	"final mcquire baer +"	loam	20	forest	17	17	11	1000	h			ft
+WE	wepp-6422	"11:32 am  Monday May 6, 2013"	"final mcquire baer +"	loam	20	forest	9.7	15	20	122	h			ft
+WE	wepp-6647	"11:32 am  Monday May 6, 2013"	"final mcquire baer +"	loam	20	forest	16	15	13	525	h			ft
+WE	wepp-6854	"11:33 am  Monday May 6, 2013"	"final mcquire baer +"	loam	20	forest	18	18	17	184	h			ft
+WE	wepp-7096	"11:33 am  Monday May 6, 2013"	"final mcquire baer +"	loam	20	forest	18	18	17	167	h			ft
+WE	wepp-7287	"11:33 am  Monday May 6, 2013"	"final mcquire baer +"	loam	20	forest	15	17	16	1000	h			ft
+WE	wepp-7649	"11:36 am  Monday May 6, 2013"	"final mcquire baer +"	loam	20	forest	33	32	12	374	h			ft
+WE	wepp-7754	"11:37 am  Monday May 6, 2013"	"final mcquire baer +"	loam	20	forest	14	21	11	1000	h			ft
+WE	wepp-7843	"11:37 am  Monday May 6, 2013"	"final mcquire baer +"	loam	20	forest	18	14	14	367	h			ft
+WE	wepp-7936	"11:38 am  Monday May 6, 2013"	"final mcquire baer +"	loam	20	forest	14	10	8.7	204	h			ft
+WE	wepp-8028	"11:38 am  Monday May 6, 2013"	"final mcquire baer +"	loam	20	forest	17	17	11	1000	h			ft
+WE	wepp-8120	"11:38 am  Monday May 6, 2013"	"final mcquire baer +"	loam	20	forest	9.7	15	20	122	h			ft
+WE	wepp-8211	"11:39 am  Monday May 6, 2013"	"final mcquire baer +"	loam	20	forest	16	15	13	525	h			ft
+WE	wepp-8301	"11:39 am  Monday May 6, 2013"	"final mcquire baer +"	loam	20	forest	18	18	17	184	h			ft
+WE	wepp-8391	"11:40 am  Monday May 6, 2013"	"final mcquire baer +"	loam	20	forest	18	18	17	167	h			ft
+WE	wepp-8509	"11:40 am  Monday May 6, 2013"	"final mcquire baer +"	loam	20	forest	15	17	16	1000	h			ft
+WE	wepp-8848	"11:44 am  Monday May 6, 2013"	"final mcquire baer +"	loam	20	forest	20	50	30	500	h			ft
+WE	wepp-10870	"11:58 am  Monday May 6, 2013"	"TAHOE CITY CROSS CA SNOTEL +"	sand	20	forest	30	50	20	500	h			ft
+WE	wepp-12953	"06:34 pm  Thursday June 13, 2013"	"final mcquire baer +"	sand	20	forest	0	50	30	300	h			ft
+WR	wepp-28444	"08:10 am  Thursday July 25, 2013"	"HEAVENLY VALLEY CA"	30	sand	native	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-28681	"08:41 am  Thursday July 25, 2013"	"Lower Crooked River +"	30	silt	native	1000	3	14	5	77	1	77	20	inveg	ft
+WR	wepp-28757	"08:43 am  Thursday July 25, 2013"	"Lower Crooked River +"	30	silt	graveled	1000	3	14	5	77	1	77	20	inveg	ft
+WR	wepp-28781	"08:44 am  Thursday July 25, 2013"	"Lower Crooked River +"	30	silt	native	1000	1	14	5	77	1	77	20	inveg	ft
+WR	wepp-28801	"08:44 am  Thursday July 25, 2013"	"Lower Crooked River +"	30	silt	graveled	1000	1	14	5	77	1	77	20	inveg	ft
+WR	wepp-28841	"08:46 am  Thursday July 25, 2013"	"Lower Crooked River +"	30	silt	native	1000	1	14	5	77	1	77	20	inveg	ft
+WR	wepp-28893	"08:48 am  Thursday July 25, 2013"	"Lower Crooked River +"	30	silt	native	1000	3	14	5	77	1	77	20	inbare	ft
+WR	wepp-28933	"08:49 am  Thursday July 25, 2013"	"Lower Crooked River +"	30	silt	graveled	1000	3	14	5	77	1	77	20	inbare	ft
+WR	wepp-28953	"08:49 am  Thursday July 25, 2013"	"Lower Crooked River +"	30	silt	native	1000	1	14	5	77	1	77	20	inbare	ft
+WR	wepp-28973	"08:50 am  Thursday July 25, 2013"	"Lower Crooked River +"	30	silt	graveled	1000	1	14	5	77	1	77	20	inbare	ft
+WR	wepp-28994	"08:50 am  Thursday July 25, 2013"	"Lower Crooked River +"	30	sand	native	1000	3	14	5	77	1	77	20	inveg	ft
+WR	wepp-29042	"08:52 am  Thursday July 25, 2013"	"Lower Crooked River +"	30	sand	native	1000	3	14	5	77	1	77	20	inveg	ft
+WR	wepp-29063	"08:53 am  Thursday July 25, 2013"	"Lower Crooked River +"	30	sand	graveled	1000	3	14	5	77	1	77	20	inveg	ft
+WR	wepp-29082	"08:53 am  Thursday July 25, 2013"	"Lower Crooked River +"	30	sand	native	1000	1	14	5	77	1	77	20	inveg	ft
+WR	wepp-29101	"08:54 am  Thursday July 25, 2013"	"Lower Crooked River +"	30	sand	graveled	1000	1	14	5	77	1	77	20	inveg	ft
+WR	wepp-29121	"08:55 am  Thursday July 25, 2013"	"Lower Crooked River +"	30	sand	native	1000	3	14	5	77	1	77	20	inbare	ft
+WR	wepp-29141	"08:55 am  Thursday July 25, 2013"	"Lower Crooked River +"	30	sand	graveled	1000	3	14	5	77	1	77	20	inbare	ft
+WR	wepp-29162	"08:56 am  Thursday July 25, 2013"	"Lower Crooked River +"	30	sand	native	1000	1	14	5	77	1	77	20	inbare	ft
+WR	wepp-29182	"08:56 am  Thursday July 25, 2013"	"Lower Crooked River +"	30	sand	graveled	1000	1	14	5	77	1	77	20	inbare	ft
+WR	wepp-460	"04:00 pm  Thursday July 25, 2013"	"CRVR Narrows +"	30	sand	native	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-607	"04:13 pm  Thursday July 25, 2013"	"CRVR Narrows +"	30	sand	native	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-627	"04:14 pm  Thursday July 25, 2013"	"CRVR Narrows +"	30	sand	native	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-648	"04:14 pm  Thursday July 25, 2013"	"CRVR Narrows +"	30	sand	native	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-718	"04:18 pm  Thursday July 25, 2013"	"CRVR Narrows +"	30	sand	graveled	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-738	"04:20 pm  Thursday July 25, 2013"	"CRVR Narrows +"	30	sand	native	200	4	13	15	50	130	25	20	inbare	ft
+wt	wepp-791	"Jul 25, 2013"	"CRVR Narrows +"	granitic	LowRoad	3	3	1000	0	20	YoungForest	77	77	1.5	100	20	ft	""
+WR	wepp-12629	"08:20 am  Friday July 26, 2013"	"HEAVENLY VALLEY CA"	30	sand	native	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-12656	"08:24 am  Friday July 26, 2013"	"HEAVENLY VALLEY CA"	30	sand	native	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-12710	"08:27 am  Friday July 26, 2013"	"HEAVENLY VALLEY CA"	30	sand	graveled	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-12778	"08:30 am  Friday July 26, 2013"	"HEAVENLY VALLEY CA"	30	sand	graveled	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-13154	"09:16 am  Friday July 26, 2013"	"CRVR Narrows +"	30	sand	native	1000	3	14	5	77	1	77	20	inveg	ft
+WR	wepp-13174	"09:18 am  Friday July 26, 2013"	"CRVR Narrows +"	30	sand	native	400	3	14	5	77	1	77	20	inveg	ft
+WR	wepp-13194	"09:18 am  Friday July 26, 2013"	"CRVR Narrows +"	30	sand	native	400	3	16	5	77	1	77	20	inveg	ft
+WR	wepp-13249	"09:21 am  Friday July 26, 2013"	"CRVR Narrows +"	30	sand	native	300	3	16	5	77	1	77	20	inveg	ft
+wt	wepp-13886	"Jul 26, 2013"	"CRVR Narrows +"	granitic	Bare	0	30	50	70	20	YoungForest	30	5	50	100	20	ft	""
+WR	wepp-13935	"10:40 am  Friday July 26, 2013"	"CRVR Narrows +"	30	silt	native	1000	3	14	5	77	1	77	20	inveg	ft
+WR	wepp-13986	"10:41 am  Friday July 26, 2013"	"CRVR Narrows +"	30	silt	graveled	1000	3	14	5	77	1	77	20	inveg	ft
+WR	wepp-14465	"11:28 am  Friday July 26, 2013"	"CRVR Narrows +"	30	sand	graveled	1000	3	14	5	77	1	77	20	inbare	ft
+WR	wepp-14681	"11:53 am  Friday July 26, 2013"	"CRVR Narrows +"	30	sand	graveled	1000	3	14	5	77	1	77	20	inbare	ft
+WR	wepp-14700	"11:54 am  Friday July 26, 2013"	"CRVR Narrows +"	30	sand	native	1000	3	14	5	77	1	77	20	inbare	ft
+WR	wepp-14747	"11:56 am  Friday July 26, 2013"	"CRVR Narrows +"	30	sand	native	1000	3	14	5	77	1	77	20	inbare	ft
+WD	wepp-16678	"02:37 pm  Friday July 26, 2013"	"CRVR Narrows +"	30	silt	Sod	10	100	100	70	20	Sod	10	100	100	70	20	0	ft	""
+WD	wepp-16725	"02:38 pm  Friday July 26, 2013"	"CRVR Narrows +"	30	sand	Sod	10	100	100	70	20	Sod	10	100	100	70	20	0	ft	""
+WR	wepp-16747	"02:41 pm  Friday July 26, 2013"	"CRVR Narrows +"	30	silt	native	400	1	16	5	77	1	77	20	inveg	ft
+WR	wepp-16772	"02:42 pm  Friday July 26, 2013"	"CRVR Narrows +"	30	silt	graveled	400	1	16	5	77	1	77	20	inveg	ft
+WR	wepp-16792	"02:42 pm  Friday July 26, 2013"	"CRVR Narrows +"	30	silt	native	400	1	16	5	77	1	77	20	inbare	ft
+WR	wepp-16812	"02:43 pm  Friday July 26, 2013"	"CRVR Narrows +"	30	silt	graveled	400	1	16	5	77	1	77	20	inbare	ft
+WR	wepp-16859	"02:44 pm  Friday July 26, 2013"	"CRVR Narrows +"	30	silt	native	400	1	16	5	77	1	77	20	inbare	ft
+WR	wepp-16879	"02:44 pm  Friday July 26, 2013"	"CRVR Narrows +"	30	silt	graveled	400	1	16	5	77	1	77	20	inbare	ft
+WR	wepp-16918	"02:45 pm  Friday July 26, 2013"	"CRVR Narrows +"	30	sand	native	400	1	16	5	77	1	77	20	inveg	ft
+WR	wepp-16938	"02:45 pm  Friday July 26, 2013"	"CRVR Narrows +"	30	sand	graveled	400	1	16	5	77	1	77	20	inveg	ft
+WR	wepp-16958	"02:45 pm  Friday July 26, 2013"	"CRVR Narrows +"	30	sand	native	400	1	16	5	77	1	77	20	inbare	ft
+WR	wepp-16978	"02:46 pm  Friday July 26, 2013"	"CRVR Narrows +"	30	sand	graveled	400	1	16	5	77	1	77	20	inbare	ft
+WR	wepp-642	"08:27 am  Tuesday July 30, 2013"	"CRVR Narrows +"	30	sand	native	300	3	16	5	77	1	77	20	inveg	ft
+WR	wepp-680	"08:30 am  Tuesday July 30, 2013"	"CRVR Narrows +"	30	sand	graveled	300	3	16	5	77	1	77	20	inveg	ft
+WR	wepp-700	"08:30 am  Tuesday July 30, 2013"	"CRVR Narrows +"	30	sand	native	1000	3	14	5	77	1	77	20	inveg	ft
+WR	wepp-720	"08:31 am  Tuesday July 30, 2013"	"CRVR Narrows +"	30	sand	graveled	1000	3	14	5	77	1	77	20	inveg	ft
+WR	wepp-2211	"10:55 am  Tuesday July 30, 2013"	"CRVR Narrows +"	30	sand	native	300	3	14	5	77	1	77	20	inveg	ft
+WR	wepp-2464	"11:16 am  Tuesday July 30, 2013"	"CRVR Narrows +"	30	sand	native	1000	3	16	5	77	1	77	20	inveg	ft
+WR	wepp-2490	"11:17 am  Tuesday July 30, 2013"	"CRVR Narrows +"	30	sand	graveled	1000	3	16	5	77	1	77	20	inveg	ft
+WR	wepp-2516	"11:18 am  Tuesday July 30, 2013"	"CRVR Narrows +"	30	sand	native	1000	3	16	5	77	1	77	20	inveg	ft
+WR	wepp-2537	"11:18 am  Tuesday July 30, 2013"	"CRVR Narrows +"	30	sand	graveled	1000	3	16	5	77	1	77	20	inveg	ft
+WR	wepp-2589	"11:19 am  Tuesday July 30, 2013"	"CRVR Narrows +"	30	sand	native	1000	3	16	5	77	1	77	20	inbare	ft
+WR	wepp-2610	"11:19 am  Tuesday July 30, 2013"	"CRVR Narrows +"	30	sand	graveled	1000	3	16	5	77	1	77	20	inbare	ft
+WR	wepp-2630	"11:19 am  Tuesday July 30, 2013"	"CRVR Narrows +"	30	sand	native	1000	3	16	5	77	1	77	20	inbare	ft
+WR	wepp-2651	"11:20 am  Tuesday July 30, 2013"	"CRVR Narrows +"	30	sand	graveled	1000	3	16	5	77	1	77	20	inbare	ft
+WR	wepp-2670	"11:20 am  Tuesday July 30, 2013"	"CRVR Narrows +"	30	sand	native	1000	1	16	5	77	1	77	20	inveg	ft
+WR	wepp-2692	"11:21 am  Tuesday July 30, 2013"	"CRVR Narrows +"	30	sand	graveled	1000	1	16	5	77	1	77	20	inveg	ft
+WR	wepp-2714	"11:21 am  Tuesday July 30, 2013"	"CRVR Narrows +"	30	sand	native	1000	1	16	5	77	1	77	20	inveg	ft
+WR	wepp-2740	"11:21 am  Tuesday July 30, 2013"	"CRVR Narrows +"	30	sand	graveled	1000	1	16	5	77	1	77	20	inveg	ft
+WR	wepp-2759	"11:22 am  Tuesday July 30, 2013"	"CRVR Narrows +"	30	sand	native	1000	1	16	5	77	1	77	20	inbare	ft
+WR	wepp-2779	"11:22 am  Tuesday July 30, 2013"	"CRVR Narrows +"	30	sand	graveled	1000	1	16	5	77	1	77	20	inbare	ft
+WR	wepp-2799	"11:23 am  Tuesday July 30, 2013"	"CRVR Narrows +"	30	sand	native	1000	1	16	5	77	1	77	20	inbare	ft
+WR	wepp-2820	"11:23 am  Tuesday July 30, 2013"	"CRVR Narrows +"	30	sand	graveled	1000	1	16	5	77	1	77	20	inbare	ft
+WR	wepp-4414	"01:49 pm  Tuesday July 30, 2013"	"CRVR Narrows +"	30	sand	native	200	3	14	1	77	1	77	20	outrut	ft
+WR	wepp-4573	"02:01 pm  Tuesday July 30, 2013"	"CRVR Narrows +"	30	sand	native	200	3	14	5	77	1	77	20	outrut	ft
+WR	wepp-4593	"02:01 pm  Tuesday July 30, 2013"	"CRVR Narrows +"	30	sand	native	300	3	14	5	77	1	77	20	outrut	ft
+WR	wepp-4615	"02:01 pm  Tuesday July 30, 2013"	"CRVR Narrows +"	30	sand	native	400	3	14	5	77	1	77	20	outrut	ft
+WR	wepp-4635	"02:02 pm  Tuesday July 30, 2013"	"CRVR Narrows +"	30	sand	native	200	1	14	5	77	1	77	20	outrut	ft
+WR	wepp-4656	"02:02 pm  Tuesday July 30, 2013"	"CRVR Narrows +"	30	sand	native	300	1	14	5	77	1	77	20	outrut	ft
+WR	wepp-4676	"02:03 pm  Tuesday July 30, 2013"	"CRVR Narrows +"	30	sand	native	400	1	14	5	77	1	77	20	outrut	ft
+WR	wepp-4696	"02:03 pm  Tuesday July 30, 2013"	"CRVR Narrows +"	30	sand	graveled	200	3	14	5	77	1	77	20	outrut	ft
+WR	wepp-4718	"02:04 pm  Tuesday July 30, 2013"	"CRVR Narrows +"	30	sand	graveled	300	3	14	5	77	1	77	20	outrut	ft
+WR	wepp-4738	"02:04 pm  Tuesday July 30, 2013"	"CRVR Narrows +"	30	sand	graveled	400	3	14	5	77	1	77	20	outrut	ft
+WR	wepp-4759	"02:04 pm  Tuesday July 30, 2013"	"CRVR Narrows +"	30	sand	graveled	200	1	14	5	77	1	77	20	outrut	ft
+WR	wepp-4780	"02:05 pm  Tuesday July 30, 2013"	"CRVR Narrows +"	30	sand	graveled	300	1	14	5	77	1	77	20	outrut	ft
+WR	wepp-4826	"02:05 pm  Tuesday July 30, 2013"	"CRVR Narrows +"	30	sand	graveled	400	1	14	5	77	1	77	20	outrut	ft
+WR	wepp-4876	"02:07 pm  Tuesday July 30, 2013"	"CRVR Narrows +"	30	sand	graveled	200	3	16	5	77	1	77	20	inveg	ft
+WR	wepp-4896	"02:08 pm  Tuesday July 30, 2013"	"CRVR Narrows +"	30	sand	graveled	300	3	16	5	77	1	77	20	inveg	ft
+WR	wepp-4916	"02:08 pm  Tuesday July 30, 2013"	"CRVR Narrows +"	30	sand	graveled	400	3	16	5	77	1	77	20	inveg	ft
+WR	wepp-4935	"02:09 pm  Tuesday July 30, 2013"	"CRVR Narrows +"	30	sand	graveled	200	1	16	5	77	1	77	20	inveg	ft
+WR	wepp-4976	"02:10 pm  Tuesday July 30, 2013"	"CRVR Narrows +"	30	sand	graveled	300	1	16	5	77	1	77	20	inveg	ft
+WR	wepp-5023	"02:11 pm  Tuesday July 30, 2013"	"CRVR Narrows +"	30	sand	graveled	400	1	16	5	77	1	77	20	inveg	ft
+WR	wepp-5240	"02:26 pm  Tuesday July 30, 2013"	"CRVR Narrows +"	30	sand	graveled	200	3	16	5	77	1	77	20	inbare	ft
+WR	wepp-5261	"02:26 pm  Tuesday July 30, 2013"	"CRVR Narrows +"	30	sand	graveled	300	3	16	5	77	1	77	20	inbare	ft
+WR	wepp-5280	"02:27 pm  Tuesday July 30, 2013"	"CRVR Narrows +"	30	sand	graveled	400	3	16	5	77	1	77	20	inbare	ft
+WR	wepp-5302	"02:27 pm  Tuesday July 30, 2013"	"CRVR Narrows +"	30	sand	graveled	200	1	16	5	77	1	77	20	inbare	ft
+WR	wepp-5321	"02:27 pm  Tuesday July 30, 2013"	"CRVR Narrows +"	30	sand	graveled	300	1	16	5	77	1	77	20	inbare	ft
+WR	wepp-5341	"02:28 pm  Tuesday July 30, 2013"	"CRVR Narrows +"	30	sand	graveled	400	1	16	5	77	1	77	20	inbare	ft
+WR	wepp-5380	"02:30 pm  Tuesday July 30, 2013"	"CRVR Narrows +"	30	sand	native	200	3	16	5	77	1	77	20	inbare	ft
+WR	wepp-5427	"02:30 pm  Tuesday July 30, 2013"	"CRVR Narrows +"	30	sand	native	300	3	16	5	77	1	77	20	inbare	ft
+WR	wepp-5447	"02:31 pm  Tuesday July 30, 2013"	"CRVR Narrows +"	30	sand	native	400	3	16	5	77	1	77	20	inbare	ft
+WR	wepp-5467	"02:31 pm  Tuesday July 30, 2013"	"CRVR Narrows +"	30	sand	native	200	1	16	5	77	1	77	20	inbare	ft
+WR	wepp-5487	"02:31 pm  Tuesday July 30, 2013"	"CRVR Narrows +"	30	sand	native	300	1	16	5	77	1	77	20	inbare	ft
+WR	wepp-5507	"02:32 pm  Tuesday July 30, 2013"	"CRVR Narrows +"	30	sand	native	400	1	16	5	77	1	77	20	inbare	ft
+WD	wepp-6121	"03:11 pm  Tuesday July 30, 2013"	"CRVR Narrows +"	30	sand	Sod	10	100	100	10	20	Sod	10	100	100	10	20	0	ft	""
+WD	wepp-6146	"03:14 pm  Tuesday July 30, 2013"	"CRVR Narrows +"	30	sand	Sod	10	100	100	20	20	Sod	10	100	100	20	20	0	ft	""
+WD	wepp-6191	"03:15 pm  Tuesday July 30, 2013"	"CRVR Narrows +"	30	sand	Sod	10	100	100	60	20	Sod	10	100	100	60	20	0	ft	""
+WD	wepp-6269	"03:16 pm  Tuesday July 30, 2013"	"CRVR Narrows +"	30	sand	Sod	10	100	100	80	20	Sod	10	100	100	80	20	0	ft	""
+WD	wepp-6320	"03:21 pm  Tuesday July 30, 2013"	"CRVR Narrows +"	30	sand	Sod	10	100	100	60	20	Sod	10	100	100	60	20	0	ft	""
+WD	wepp-6340	"03:22 pm  Tuesday July 30, 2013"	"CRVR Narrows +"	30	sand	Sod	10	100	100	40	20	Sod	10	100	100	40	20	0	ft	""
+WD	wepp-6360	"03:22 pm  Tuesday July 30, 2013"	"CRVR Narrows +"	30	sand	Sod	10	100	100	80	20	Sod	10	100	100	80	20	0	ft	""
+WD	wepp-6383	"03:24 pm  Tuesday July 30, 2013"	"CRVR Narrows +"	30	sand	Sod	10	100	100	40	20	Sod	10	100	100	40	20	0	ft	""
+WD	wepp-21363	"01:16 pm  Wednesday July 31, 2013"	"CRVR Narrows +"	30	sand	Bunchgrass	1000	3	3	70	20	Bunchgrass	1000	3	3	70	20	0	ft	""
+WR	wepp-31077	"11:21 am  Tuesday August 6, 2013"	"FENN RS ID +"	30	clay	native	300	7	16	5	70	300	70	20	inbare	ft
+WR	wepp-31124	"11:21 am  Tuesday August 6, 2013"	"FENN RS ID +"	30	clay	native	300	7	16	5	70	150	70	20	inbare	ft
+WR	wepp-32463	"04:43 pm  Wednesday November 20, 2013"	"CRVR Narrows +"	30	sand	native	300	7	14	15	70	300	70	20	inbare	ft
+WR	wepp-32484	"04:44 pm  Wednesday November 20, 2013"	"CRVR Narrows +"	30	sand	native	300	7	14	15	70	300	70	20	outrut	ft
+WR	wepp-32551	"04:48 pm  Wednesday November 20, 2013"	"CRVR Narrows +"	30	sand	native	300	7	14	15	70	500	70	20	outrut	ft
+wt	wepp-9468	"Mar 17, 2014"	"TAHOE CITY CROSS CA SNOTEL +"	granitic	HighFire	0	30	50	100	20	Sod	30	5	50	40	20	ft	""
+WE	wepp-142817	"08:47 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	31	50	20	459.3162	u			ft
+WE	wepp-142875	"08:47 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	45	48	19	633.2002	l			ft
+WE	wepp-142967	"08:47 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	48	53	22	715.2209	m			ft
+WE	wepp-143100	"08:47 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	53	50	28	669.2893	l			ft
+WE	wepp-143191	"08:48 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	67	50	24	257.2171	l			ft
+WE	wepp-143283	"08:48 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	46	41	36	515.0903	u			ft
+WE	wepp-143313	"08:48 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	61	0	51	238.8444	l			ft
+WE	wepp-143405	"08:48 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	43	0	55	62.99194	m			ft
+WE	wepp-143538	"08:48 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	24	39	29	948.1599	h			ft
+WE	wepp-143712	"08:48 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	48	57	39	898.9474	m			ft
+WE	wepp-143845	"08:49 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	46	42	47	479.0012	h			ft
+WE	wepp-144019	"08:49 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	42	0	38	148.6216	h			ft
+WE	wepp-144193	"08:49 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	54	55	38	1000	m			ft
+WE	wepp-144325	"08:49 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	49	59	53	639.7618	m			ft
+WE	wepp-144458	"08:49 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	59	68	36	544.6178	m			ft
+WE	wepp-144602	"08:50 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	50	50	36	1000	m			ft
+WE	wepp-144734	"08:50 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	51	50	41	326.1145	m			ft
+WE	wepp-144868	"08:50 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	59	45	18	590.5494	l			ft
+WE	wepp-144960	"08:50 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	66	67	37	485.5628	l			ft
+WE	wepp-145051	"08:50 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	60	63	63	383.8571	h			ft
+WE	wepp-145224	"08:51 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	70	0	51	238.8444	h			ft
+WE	wepp-145397	"08:51 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	61	66	69	1000	h			ft
+WE	wepp-145572	"08:51 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	56	56	35	679.1318	m			ft
+WE	wepp-145704	"08:51 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	54	56	33	1000	m			ft
+WE	wepp-145837	"08:51 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	38	39	52	307.7419	m			ft
+WE	wepp-145969	"08:52 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	46	0	40	116.4695	m			ft
+WE	wepp-146101	"08:52 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	44	42	34	616.796	m			ft
+WE	wepp-146235	"08:52 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	63	62	41	488.8437	h			ft
+WE	wepp-146408	"08:52 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	81	64	56	895.6666	m			ft
+WE	wepp-146540	"08:53 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	79	65	64	1000	h			ft
+WE	wepp-146713	"08:53 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	62	62	54	1000	m			ft
+WE	wepp-146846	"08:53 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	70	0	26	85.30158	m			ft
+WE	wepp-146979	"08:53 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	45	0	42	220.7999	m			ft
+WE	wepp-147111	"08:53 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	32	46	39	1000	m			ft
+WE	wepp-147244	"08:54 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	32	51	45	777.5567	m			ft
+WE	wepp-147376	"08:54 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	44	58	36	675.851	m			ft
+WE	wepp-147509	"08:54 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	36	58	27	944.879	m			ft
+WE	wepp-147642	"08:54 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	55	64	32	541.337	m			ft
+WE	wepp-147774	"08:54 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	68	66	58	396.9804	m			ft
+WE	wepp-147918	"08:55 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	55	0	47	92.84749	m			ft
+WE	wepp-148050	"08:55 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	52	65	61	1000	m			ft
+WE	wepp-148183	"08:55 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	56	55	34	541.337	m			ft
+WE	wepp-148316	"08:55 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	42	0	69	102.69	l			ft
+WE	wepp-148408	"08:55 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	75	68	49	515.0903	m			ft
+WE	wepp-148540	"08:56 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	44	36	29	341.2063	m			ft
+WE	wepp-148675	"08:56 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	81	0	77	229.0019	m			ft
+WE	wepp-148807	"08:56 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	37	0	44	61.02344	m			ft
+WE	wepp-148940	"08:56 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	33	40	34	1000	m			ft
+WE	wepp-149074	"08:56 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	53	0	59	174.2121	m			ft
+WE	wepp-149207	"08:57 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	67	71	57	751.3101	m			ft
+WE	wepp-149339	"08:57 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	60	55	62	974.4065	m			ft
+WE	wepp-149471	"08:57 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	37	41	12	984.249	m			ft
+WE	wepp-149607	"08:57 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	28	0	28	49.21245	l			ft
+WE	wepp-149898	"08:57 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	55	48	26	1000	m			ft
+WE	wepp-150031	"08:58 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	73	72	27	278.5425	l			ft
+WE	wepp-150123	"08:58 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	57	58	27	728.3442	m			ft
+WE	wepp-150255	"08:58 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	53	62	30	501.967	m			ft
+WE	wepp-150389	"08:58 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	54	52	50	452.7545	m			ft
+WE	wepp-150523	"08:58 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	64	65	55	587.2686	m			ft
+WE	wepp-150656	"08:58 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	23	34	28	846.4542	u			ft
+WE	wepp-150686	"08:59 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	57	60	41	290.0254	m			ft
+WE	wepp-150819	"08:59 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	39	42	46	623.3577	m			ft
+WE	wepp-150982	"08:59 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	40	0	23	47.57204	m			ft
+WE	wepp-151116	"08:59 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	46	43	42	263.7787	m			ft
+WE	wepp-151249	"08:59 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	68	55	36	1000	m			ft
+WE	wepp-151392	"09:00 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	60	50	37	590.5494	l			ft
+WE	wepp-151485	"09:00 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	49	47	26	1000	u			ft
+WE	wepp-151516	"09:00 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	58	48	20	305.7733	l			ft
+WE	wepp-151607	"09:00 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	62	53	23	708.6593	m			ft
+WE	wepp-151741	"09:00 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	47	60	48	853.0158	m			ft
+WE	wepp-151873	"09:00 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	42	39	28	295.6028	m			ft
+WE	wepp-152007	"09:00 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	67	73	30	679.1318	m			ft
+WE	wepp-152139	"09:01 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	77	0	68	216.2067	m			ft
+WE	wepp-152272	"09:01 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	67	0	60	187.3354	m			ft
+WE	wepp-152405	"09:01 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	64	53	47	1000	h			ft
+WE	wepp-152578	"09:01 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	50	0	63	69.5536	m			ft
+WE	wepp-152710	"09:02 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	58	58	54	1000	h			ft
+WE	wepp-152883	"09:02 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	45	55	62	570.8644	h			ft
+WE	wepp-153056	"09:02 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	48	66	63	259.5136	m			ft
+WE	wepp-153189	"09:02 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	58	49	52	561.0219	h			ft
+WE	wepp-153362	"09:02 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	60	58	43	1000	h			ft
+WE	wepp-153535	"09:03 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	38	43	45	872.7008	u			ft
+WE	wepp-153566	"09:03 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	36	48	51	383.8571	l			ft
+WE	wepp-153658	"09:03 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	45	50	42	367.453	l			ft
+WE	wepp-153749	"09:03 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	46	41	49	488.8437	u			ft
+WE	wepp-153781	"09:03 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	38	46	33	984.249	u			ft
+WE	wepp-153811	"09:03 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	35	35	30	597.1111	u			ft
+WE	wepp-153842	"09:03 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	64	47	33	1000	u			ft
+WE	wepp-153872	"09:03 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	40	46	39	823.4883	u			ft
+WE	wepp-153903	"09:03 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	38	41	41	541.337	u			ft
+WE	wepp-153933	"09:03 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	33	39	39	948.1599	u			ft
+WE	wepp-153964	"09:03 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	20	29	31	492.1245	u			ft
+WE	wepp-153994	"09:03 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	22	40	26	1000	u			ft
+WE	wepp-154025	"09:03 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	46	35	25	915.3516	u			ft
+WE	wepp-154055	"09:03 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	29	24	19	449.4737	u			ft
+WE	wepp-154086	"09:03 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	32	47	38	1000	u			ft
+WE	wepp-154117	"09:04 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	64	46	36	492.1245	m			ft
+WE	wepp-154249	"09:04 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	42	59	39	984.249	u			ft
+WE	wepp-154280	"09:04 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	29	0	53	54.46178	m			ft
+WE	wepp-154413	"09:04 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	37	47	17	990.8107	u			ft
+WE	wepp-154444	"09:04 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	59	62	35	800.5225	m			ft
+WE	wepp-154577	"09:04 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	43	53	76	1000	m			ft
+WE	wepp-154709	"09:04 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	39	0	39	28.8385	u			ft
+WE	wepp-154740	"09:04 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	43	52	36	1000	u			ft
+WE	wepp-154781	"09:05 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	68	0	47	39.69804	u			ft
+WE	wepp-154812	"09:05 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	41	49	49	1000	l			ft
+WE	wepp-154904	"09:05 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	32	39	36	980.9681	l			ft
+WE	wepp-154997	"09:05 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	65	74	33	488.8437	u			ft
+WE	wepp-155028	"09:05 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	59	77	33	488.8437	u			ft
+WE	wepp-155060	"09:05 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	50	42	23	393.6996	u			ft
+WE	wepp-155092	"09:05 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	43	55	25	918.6324	u			ft
+WE	wepp-155122	"09:05 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	39	37	17	306.1014	u			ft
+WE	wepp-155154	"09:05 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	48	49	32	974.4065	u			ft
+WE	wepp-155184	"09:05 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	50	49	26	561.0219	u			ft
+WE	wepp-155222	"09:05 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	53	41	40	393.6996	u			ft
+WE	wepp-155265	"09:05 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	57	0	57	34.7768	u			ft
+WE	wepp-155316	"09:05 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	46	43	50	1000	u			ft
+WE	wepp-155349	"09:05 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	53	0	41	177.821	u			ft
+WE	wepp-155380	"09:05 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	40	45	52	469.1587	u			ft
+WE	wepp-155410	"09:05 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	33	43	37	830.05	u			ft
+WE	wepp-155440	"09:05 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	28	30	13	810.365	u			ft
+WE	wepp-155471	"09:05 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	58	50	9.4	1000	u			ft
+WE	wepp-155501	"09:05 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	37	44	28	423.2271	u			ft
+WE	wepp-155534	"09:05 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	59	42	27	498.6862	u			ft
+WE	wepp-155564	"09:06 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	39	0	27	223.0964	u			ft
+WE	wepp-155601	"09:06 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	45	0	32	156.1675	u			ft
+WE	wepp-155631	"09:06 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	55	67	37	915.3516	u			ft
+WE	wepp-155662	"09:06 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	44	42	37	498.6862	u			ft
+WE	wepp-155692	"09:06 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	45	62	48	751.3101	u			ft
+WE	wepp-155723	"09:06 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	54	48	27	580.7069	u			ft
+WE	wepp-155754	"09:06 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	41	44	39	347.768	u			ft
+WE	wepp-155787	"09:06 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	38	39	28	853.0158	u			ft
+WE	wepp-155846	"09:06 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	41	0	33	137.4668	u			ft
+WE	wepp-155876	"09:06 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	41	42	38	649.6044	u			ft
+WE	wepp-155907	"09:06 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	47	54	43	531.4944	u			ft
+WE	wepp-155937	"09:06 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	36	44	17	918.6324	u			ft
+WE	wepp-155968	"09:06 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	48	49	31	316.9282	u			ft
+WE	wepp-155999	"09:06 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	36	0	35	207.3484	u			ft
+WE	wepp-156030	"09:06 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	41	45	48	344.4872	u			ft
+WE	wepp-156060	"09:06 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	52	42	42	518.3712	u			ft
+WE	wepp-156090	"09:06 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	42	46	30	892.3857	u			ft
+WE	wepp-156121	"09:06 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	35	45	39	1000	u			ft
+WE	wepp-156152	"09:06 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	39	37	27	515.0903	u			ft
+WE	wepp-156182	"09:06 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	38	40	34	521.652	u			ft
+WE	wepp-156212	"09:06 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	19	26	38	810.365	u			ft
+WE	wepp-156243	"09:06 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	27	23	20	337.9255	u			ft
+WE	wepp-156274	"09:06 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	27	31	17	856.2966	u			ft
+WE	wepp-156304	"09:07 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	27	34	31	938.3174	u			ft
+WE	wepp-156335	"09:07 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	26	31	32	885.8241	u			ft
+WE	wepp-156365	"09:07 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	51	42	37	977.6873	u			ft
+WE	wepp-156396	"09:07 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	39	0	45	183.3984	u			ft
+WE	wepp-156426	"09:07 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	50	44	41	406.8229	u			ft
+WE	wepp-156457	"09:07 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	48	48	33	1000	u			ft
+WE	wepp-156487	"09:07 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	38	37	38	364.1721	u			ft
+WE	wepp-156518	"09:07 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	31	0	34	118.766	u			ft
+WE	wepp-156548	"09:07 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	32	38	30	987.5298	u			ft
+WE	wepp-156579	"09:07 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	33	27	22	498.6862	u			ft
+WE	wepp-156609	"09:07 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	39	41	29	295.6028	u			ft
+WE	wepp-156640	"09:07 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	52	37	36	1000	u			ft
+WE	wepp-156670	"09:07 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	55	0	48	151.9024	u			ft
+WE	wepp-156702	"09:07 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	46	44	19	961.2832	u			ft
+WE	wepp-156732	"09:07 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	54	35	25	626.6385	u			ft
+WE	wepp-156763	"09:07 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	46	45	35	360.8913	u			ft
+WE	wepp-156793	"09:07 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	38	46	44	456.0354	u			ft
+WE	wepp-156824	"09:07 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	41	0	40	197.1779	u			ft
+WE	wepp-156854	"09:07 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	47	43	28	1000	u			ft
+WE	wepp-156885	"09:07 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	38	42	37	393.6996	u			ft
+WE	wepp-156915	"09:07 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	51	56	36	278.5425	u			ft
+WE	wepp-156946	"09:07 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	43	45	36	534.7753	u			ft
+WE	wepp-156976	"09:07 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	41	49	42	564.3027	u			ft
+WE	wepp-157007	"09:07 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	38	0	41	202.7553	u			ft
+WE	wepp-157037	"09:08 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	37	43	39	354.3297	u			ft
+WE	wepp-157068	"09:08 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	43	47	49	260.826	u			ft
+WE	wepp-157098	"09:08 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	43	37	34	984.249	u			ft
+WE	wepp-157130	"09:08 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	47	0	43	81.69267	u			ft
+WE	wepp-157162	"09:08 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	66	0	33	244.7499	u			ft
+WE	wepp-157194	"09:08 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	47	0	46	177.4929	u			ft
+WE	wepp-157224	"09:08 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	44	0	39	73.81867	u			ft
+WE	wepp-157255	"09:08 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	13	35	29	751.3101	u			ft
+WE	wepp-157285	"09:08 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	32	29	21	377.2954	u			ft
+WE	wepp-157316	"09:08 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	34	31	23	327.4268	u			ft
+WE	wepp-157346	"09:08 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	14	17	20	643.0427	u			ft
+WE	wepp-157377	"09:08 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	38	0	36	189.3039	u			ft
+WE	wepp-157407	"09:08 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	38	0	24	205.0519	u			ft
+WE	wepp-157438	"09:08 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	25	24	9.5	492.1245	u			ft
+WE	wepp-157469	"09:08 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	36	0	32	89.23858	u			ft
+WE	wepp-157500	"09:08 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	30	34	21	856.2966	u			ft
+WE	wepp-157530	"09:08 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	18	0	26	98.4249	u			ft
+WE	wepp-157561	"09:08 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	33	28	23	741.4676	u			ft
+WE	wepp-157591	"09:08 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	23	0	24	167.3223	u			ft
+WE	wepp-157622	"09:08 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	32	38	26	1000	u			ft
+WE	wepp-157652	"09:08 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	30	22	12	816.9267	u			ft
+WE	wepp-157683	"09:08 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	25	21	21	295.2747	u			ft
+WE	wepp-157713	"09:08 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	22	0	22	49.21245	u			ft
+WE	wepp-157744	"09:08 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	13	28	33	931.7557	u			ft
+WE	wepp-157785	"09:09 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	40	37	31	839.8925	u			ft
+WE	wepp-157816	"09:09 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	38	39	41	250.6554	u			ft
+WE	wepp-157846	"09:09 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	46	44	31	1000	u			ft
+WE	wepp-157877	"09:09 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	53	0	48	203.7395	u			ft
+WE	wepp-157907	"09:09 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	34	0	43	151.9024	u			ft
+WE	wepp-157938	"09:09 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	40	38	43	505.2478	u			ft
+WE	wepp-157968	"09:09 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	53	0	43	140.7476	u			ft
+WE	wepp-157999	"09:09 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	47	0	46	90.87899	u			ft
+WE	wepp-158029	"09:09 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	34	37	37	1000	u			ft
+WE	wepp-158060	"09:09 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	37	0	33	225.7211	u			ft
+WE	wepp-158090	"09:09 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	49	52	54	258.8575	u			ft
+WE	wepp-158121	"09:09 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	32	31	34	1000	u			ft
+WE	wepp-158151	"09:09 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	56	0	50	197.1779	u			ft
+WE	wepp-158184	"09:09 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	46	0	44	190.2881	u			ft
+WE	wepp-158215	"09:09 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	26	40	39	1000	u			ft
+WE	wepp-158246	"09:09 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	48	51	41	305.1172	u			ft
+WE	wepp-158276	"09:09 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	44	34	34	492.1245	u			ft
+WE	wepp-158307	"09:09 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	47	0	45	196.8498	u			ft
+WE	wepp-158337	"09:09 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	52	52	42	1000	u			ft
+WE	wepp-158368	"09:09 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	45	46	43	367.453	u			ft
+WE	wepp-158398	"09:09 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	50	47	43	803.8033	u			ft
+WE	wepp-158429	"09:09 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	14	29	36	813.6458	u			ft
+WE	wepp-158459	"09:09 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	44	0	50	44.61929	u			ft
+WE	wepp-158490	"09:10 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	38	0	27	89.23858	u			ft
+WE	wepp-158532	"09:10 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	44	39	31	495.4053	u			ft
+WE	wepp-158563	"09:10 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	41	41	28	370.7338	u			ft
+WE	wepp-158594	"09:10 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	47	42	33	289.0411	u			ft
+WE	wepp-158624	"09:10 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	48	46	45	488.8437	u			ft
+WE	wepp-158655	"09:10 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	41	39	41	351.0488	u			ft
+WE	wepp-158685	"09:10 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	38	42	40	297.5713	u			ft
+WE	wepp-158716	"09:10 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	39	48	44	833.3308	u			ft
+WE	wepp-158746	"09:10 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	30	30	18	708.6593	u			ft
+WE	wepp-158777	"09:10 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	37	0	30	168.9627	u			ft
+WE	wepp-158807	"09:10 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	29	40	36	964.564	u			ft
+WE	wepp-158838	"09:10 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	44	42	38	541.337	u			ft
+WE	wepp-158868	"09:10 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	49	43	31	374.0146	u			ft
+WE	wepp-158899	"09:10 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	40	0	30	173.884	u			ft
+WE	wepp-158930	"09:10 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	33	0	30	58.07069	u			ft
+WE	wepp-158961	"09:10 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	32	34	28	908.7899	u			ft
+WE	wepp-158991	"09:10 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	31	32	19	570.8644	u			ft
+WE	wepp-159022	"09:10 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	6.5	28	27	702.0976	u			ft
+WE	wepp-159052	"09:10 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	37	37	29	347.768	u			ft
+WE	wepp-159083	"09:10 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	55	48	33	374.0146	u			ft
+WE	wepp-159113	"09:10 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	55	0	31	172.8997	u			ft
+WE	wepp-159144	"09:10 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	37	36	22	364.1721	u			ft
+WE	wepp-159174	"09:10 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	43	45	36	531.4944	u			ft
+WE	wepp-159205	"09:10 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	21	27	41	738.1868	u			ft
+WE	wepp-159236	"09:11 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	39	0	25	79.72417	u			ft
+WE	wepp-159266	"09:11 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	25	31	32	682.4127	u			ft
+WE	wepp-159297	"09:11 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	24	22	26	757.8717	u			ft
+WE	wepp-159328	"09:11 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	34	34	33	331.3638	u			ft
+WE	wepp-159358	"09:11 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	32	36	25	344.4872	u			ft
+WE	wepp-159389	"09:11 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	38	45	31	593.8302	u			ft
+WE	wepp-159419	"09:11 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	40	45	32	351.0488	u			ft
+WE	wepp-159450	"09:11 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	31	39	41	879.2625	u			ft
+WE	wepp-159480	"09:11 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	33	30	27	266.0753	u			ft
+WE	wepp-159511	"09:11 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	36	0	32	217.8471	u			ft
+WE	wepp-159541	"09:11 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	37	40	31	472.4395	u			ft
+WE	wepp-159573	"09:11 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	23	23	21	268.0438	u			ft
+WE	wepp-159603	"09:11 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	33	0	28	227.0334	u			ft
+WE	wepp-159635	"09:11 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	27	34	21	738.1868	u			ft
+WE	wepp-159665	"09:11 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	31	31	22	374.0146	u			ft
+WE	wepp-159696	"09:11 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	17	19	11	561.0219	u			ft
+WE	wepp-159726	"09:11 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	34	39	21	387.1379	u			ft
+WE	wepp-159757	"09:11 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	38	30	20	326.1145	u			ft
+WE	wepp-159787	"09:11 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	42	0	28	237.8602	u			ft
+WE	wepp-159818	"09:11 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	37	30	23	334.6447	u			ft
+WE	wepp-159849	"09:11 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	28	22	22	590.5494	u			ft
+WE	wepp-159880	"09:12 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	30	33	22	928.4749	u			ft
+WE	wepp-159910	"09:12 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	31	32	28	351.0488	u			ft
+WE	wepp-159941	"09:12 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	22	26	33	1000	u			ft
+WE	wepp-159971	"09:12 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	33	25	45	885.8241	u			ft
+WE	wepp-160002	"09:12 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	18	35	34	708.6593	u			ft
+WE	wepp-160032	"09:12 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	39	43	32	524.9328	u			ft
+WE	wepp-160064	"09:12 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	39	0	35	160.1045	u			ft
+WE	wepp-160094	"09:12 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	18	26	27	849.735	u			ft
+WE	wepp-160125	"09:12 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	23	31	32	426.5079	u			ft
+WE	wepp-160155	"09:12 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	25	0	30	81.69267	u			ft
+WE	wepp-160186	"09:12 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	38	37	39	1000	u			ft
+WE	wepp-160216	"09:12 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	42	0	37	199.4745	u			ft
+WE	wepp-160248	"09:12 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	36	0	36	15.35428	u			ft
+WE	wepp-160278	"09:12 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	49	44	32	738.1868	u			ft
+WE	wepp-160309	"09:12 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	22	27	44	1000	u			ft
+WE	wepp-160339	"09:12 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	39	41	40	518.3712	u			ft
+WE	wepp-160370	"09:12 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	40	0	35	203.0834	u			ft
+WE	wepp-160400	"09:12 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	31	32	42	1000	u			ft
+WE	wepp-160431	"09:12 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	36	0	40	127.9524	u			ft
+WE	wepp-160462	"09:12 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	42	0	31	63.97618	u			ft
+WE	wepp-160492	"09:12 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	38	42	42	310.3665	u			ft
+WE	wepp-160523	"09:12 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	37	37	31	317.9124	u			ft
+WE	wepp-160553	"09:13 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	26	26	15	859.5775	u			ft
+WE	wepp-160584	"09:13 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	35	0	28	159.4483	u			ft
+WE	wepp-160614	"09:13 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	26	16	17	318.5686	u			ft
+WE	wepp-160646	"09:13 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	30	28	20	787.3992	u			ft
+WE	wepp-160676	"09:13 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	33	22	28	580.7069	u			ft
+WE	wepp-160707	"09:13 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	40	0	15	111.5482	u			ft
+WE	wepp-160737	"09:13 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	42	41	40	593.8302	u			ft
+WE	wepp-160768	"09:13 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	49	0	29	78.73992	l			ft
+WE	wepp-160860	"09:13 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	40	29	31	1000	u			ft
+WE	wepp-160890	"09:13 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	36	0	34	184.3826	u			ft
+WE	wepp-160921	"09:13 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	40	0	37	21.68629	u			ft
+WE	wepp-160952	"09:13 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	20	28	20	666.0085	u			ft
+WE	wepp-160983	"09:13 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	38	38	38	306.7576	u			ft
+WE	wepp-161013	"09:13 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	25	0	27	163.3853	u			ft
+WE	wepp-161044	"09:13 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	36	30	59	1000	u			ft
+WE	wepp-161074	"09:13 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	70	0	42	115.1571	l			ft
+WE	wepp-161166	"09:13 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	68	0	62	57.74261	m			ft
+WE	wepp-161298	"09:14 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	43	37	38	1000	u			ft
+WE	wepp-161329	"09:14 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	25	26	18	292.65	u			ft
+WE	wepp-161359	"09:14 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	27	0	20	85.30158	l			ft
+WE	wepp-161451	"09:14 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	34	33	50	1000	l			ft
+WE	wepp-161543	"09:14 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	57	0	54	209.9731	m			ft
+WE	wepp-161676	"09:14 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	51	0	53	148.9497	m			ft
+WE	wepp-161808	"09:14 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	47	0	50	161.7449	u			ft
+WE	wepp-161839	"09:14 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	22	37	33	846.4542	u			ft
+WE	wepp-161869	"09:14 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	49	47	51	383.8571	l			ft
+WE	wepp-161972	"09:15 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	45	41	51	1000	u			ft
+WE	wepp-162003	"09:15 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	44	42	41	1000	u			ft
+WE	wepp-162034	"09:15 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	46	0	41	117.7818	u			ft
+WE	wepp-162064	"09:15 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	40	40	50	875.9816	u			ft
+WE	wepp-162094	"09:15 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	52	50	50	347.768	u			ft
+WE	wepp-162125	"09:15 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	49	42	38	307.4138	l			ft
+WE	wepp-162217	"09:15 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	50	47	53	1000	m			ft
+WE	wepp-162350	"09:15 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	55	55	52	413.3846	m			ft
+WE	wepp-162483	"09:15 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	54	0	72	62.99194	h			ft
+WE	wepp-162656	"09:16 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	49	43	42	426.5079	u			ft
+WE	wepp-162686	"09:16 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	49	38	28	1000	m			ft
+WE	wepp-162819	"09:16 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	52	0	50	90.55091	m			ft
+WE	wepp-162952	"09:16 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	43	40	48	1000	m			ft
+WE	wepp-163085	"09:16 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	53	49	46	304.461	m			ft
+WE	wepp-163217	"09:17 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	54	0	54	212.5978	m			ft
+WE	wepp-163352	"09:17 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	40	0	36	82.67692	m			ft
+WE	wepp-163486	"09:17 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	25	0	36	68.89743	m			ft
+WE	wepp-163619	"09:17 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	34	37	41	1000	l			ft
+WE	wepp-163711	"09:17 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	51	46	37	326.1145	m			ft
+WE	wepp-163843	"09:17 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	13	41	16	1000	u			ft
+WE	wepp-163874	"09:18 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	42	41	13	885.8241	u			ft
+WE	wepp-163905	"09:18 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	27	0	27	40.68229	u			ft
+WE	wepp-163935	"09:18 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	49	50	35	748.0292	m			ft
+WE	wepp-164068	"09:18 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	50	57	48	351.0488	m			ft
+WE	wepp-164200	"09:18 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	47	44	46	1000	l			ft
+WE	wepp-164293	"09:18 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	46	0	40	136.8106	l			ft
+WE	wepp-164387	"09:18 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	43	44	49	331.3638	m			ft
+WE	wepp-165689	"10:15 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	45	48	19	633.2002	l			ft
+WE	wepp-165809	"10:15 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	48	53	22	715.2209	m			ft
+WE	wepp-165942	"10:15 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	53	50	28	669.2893	l			ft
+WE	wepp-166034	"10:15 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	67	50	24	257.2171	l			ft
+WE	wepp-166126	"10:15 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	61	0	51	238.8444	l			ft
+WE	wepp-166250	"10:16 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	43	0	55	62.99194	m			ft
+WE	wepp-166382	"10:16 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	24	39	29	948.1599	h			ft
+WE	wepp-166555	"10:16 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	48	57	39	898.9474	m			ft
+WE	wepp-166689	"10:16 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	46	42	47	479.0012	h			ft
+WE	wepp-166863	"10:17 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	42	0	38	148.6216	h			ft
+WE	wepp-167039	"10:17 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	54	55	38	1000	m			ft
+WE	wepp-167172	"10:17 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	49	59	53	639.7618	m			ft
+WE	wepp-167305	"10:17 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	59	68	36	544.6178	m			ft
+WE	wepp-167437	"10:17 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	50	50	36	1000	m			ft
+WE	wepp-167571	"10:18 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	51	50	41	326.1145	m			ft
+WE	wepp-167703	"10:18 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	59	45	18	590.5494	l			ft
+WE	wepp-167795	"10:18 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	66	67	37	485.5628	l			ft
+WE	wepp-167894	"10:18 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	60	63	63	383.8571	h			ft
+WE	wepp-168095	"10:18 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	70	0	51	238.8444	h			ft
+WE	wepp-168268	"10:19 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	61	66	69	1000	h			ft
+WE	wepp-168441	"10:19 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	56	56	35	679.1318	m			ft
+WE	wepp-168574	"10:19 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	54	56	33	1000	m			ft
+WE	wepp-168707	"10:19 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	38	39	52	307.7419	m			ft
+WE	wepp-168840	"10:19 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	46	0	40	116.4695	m			ft
+WE	wepp-168984	"10:20 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	44	42	34	616.796	m			ft
+WE	wepp-169117	"10:20 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	63	62	41	488.8437	h			ft
+WE	wepp-169291	"10:20 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	81	64	56	895.6666	m			ft
+WE	wepp-169423	"10:20 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	79	65	64	1000	h			ft
+WE	wepp-169627	"10:21 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	62	62	54	1000	m			ft
+WE	wepp-169759	"10:21 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	70	0	26	85.30158	m			ft
+WE	wepp-169891	"10:21 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	45	0	42	220.7999	m			ft
+WE	wepp-170025	"10:21 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	32	46	39	1000	m			ft
+WE	wepp-170157	"10:21 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	32	51	45	777.5567	m			ft
+WE	wepp-170290	"10:22 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	44	58	36	675.851	m			ft
+WE	wepp-170422	"10:22 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	36	58	27	944.879	m			ft
+WE	wepp-170556	"10:22 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	55	64	32	541.337	m			ft
+WE	wepp-170689	"10:22 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	68	66	58	396.9804	m			ft
+WE	wepp-170821	"10:22 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	55	0	47	92.84749	m			ft
+WE	wepp-170954	"10:23 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	52	65	61	1000	m			ft
+WE	wepp-171086	"10:23 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	56	55	34	541.337	m			ft
+WE	wepp-171219	"10:23 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	42	0	69	102.69	l			ft
+WE	wepp-171311	"10:23 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	75	68	49	515.0903	m			ft
+WE	wepp-171444	"10:23 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	44	36	29	341.2063	m			ft
+WE	wepp-171576	"10:24 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	81	0	77	229.0019	m			ft
+WE	wepp-171709	"10:24 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	37	0	44	61.02344	m			ft
+WE	wepp-171841	"10:24 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	33	40	34	1000	m			ft
+WE	wepp-171975	"10:24 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	53	0	59	174.2121	m			ft
+WE	wepp-172107	"10:24 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	67	71	57	751.3101	m			ft
+WE	wepp-172251	"10:25 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	60	55	62	974.4065	m			ft
+WE	wepp-172384	"10:25 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	37	41	12	984.249	m			ft
+WE	wepp-172517	"10:25 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	28	0	28	49.21245	l			ft
+WE	wepp-172610	"10:25 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	55	48	26	1000	m			ft
+WE	wepp-172742	"10:25 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	73	72	27	278.5425	l			ft
+WE	wepp-172834	"10:26 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	57	58	27	728.3442	m			ft
+WE	wepp-172966	"10:26 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	53	62	30	501.967	m			ft
+WE	wepp-173099	"10:26 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	54	52	50	452.7545	m			ft
+WE	wepp-173233	"10:26 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	64	65	55	587.2686	m			ft
+WE	wepp-173366	"10:26 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	57	60	41	290.0254	m			ft
+WE	wepp-173499	"10:27 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	39	42	46	623.3577	m			ft
+WE	wepp-173631	"10:27 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	40	0	23	47.57204	m			ft
+WE	wepp-173763	"10:27 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	46	43	42	263.7787	m			ft
+WE	wepp-173897	"10:27 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	68	55	36	1000	m			ft
+WE	wepp-174029	"10:27 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	60	50	37	590.5494	l			ft
+WE	wepp-174121	"10:28 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	58	48	20	305.7733	l			ft
+WE	wepp-174213	"10:28 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	62	53	23	708.6593	m			ft
+WE	wepp-174345	"10:28 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	47	60	48	853.0158	m			ft
+WE	wepp-174478	"10:28 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	42	39	28	295.6028	m			ft
+WE	wepp-174611	"10:28 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	67	73	30	679.1318	m			ft
+WE	wepp-174744	"10:28 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	77	0	68	216.2067	m			ft
+WE	wepp-174876	"10:29 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	67	0	60	187.3354	m			ft
+WE	wepp-175008	"10:29 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	64	53	47	1000	h			ft
+WE	wepp-175181	"10:29 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	50	0	63	69.5536	m			ft
+WE	wepp-175314	"10:29 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	58	58	54	1000	h			ft
+WE	wepp-175498	"10:30 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	45	55	62	570.8644	h			ft
+WE	wepp-175672	"10:30 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	48	66	63	259.5136	m			ft
+WE	wepp-175805	"10:30 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	58	49	52	561.0219	h			ft
+WE	wepp-175979	"10:30 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	60	58	43	1000	h			ft
+WE	wepp-176156	"10:31 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	36	48	51	383.8571	l			ft
+WE	wepp-176276	"10:31 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	45	50	42	367.453	l			ft
+WE	wepp-176368	"10:31 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	64	46	36	492.1245	m			ft
+WE	wepp-176500	"10:31 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	29	0	53	54.46178	m			ft
+WE	wepp-176634	"10:31 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	59	62	35	800.5225	m			ft
+WE	wepp-176766	"10:31 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	43	53	76	1000	m			ft
+WE	wepp-176899	"10:32 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	41	49	49	1000	l			ft
+WE	wepp-176990	"10:32 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	32	39	36	980.9681	l			ft
+WE	wepp-177082	"10:32 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	70	0	42	115.1571	l			ft
+WE	wepp-177175	"10:32 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	68	0	62	57.74261	m			ft
+WE	wepp-177308	"10:32 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	27	0	20	85.30158	l			ft
+WE	wepp-177400	"10:32 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	34	33	50	1000	l			ft
+WE	wepp-177492	"10:33 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	57	0	54	209.9731	m			ft
+WE	wepp-177624	"10:33 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	51	0	53	148.9497	m			ft
+WE	wepp-177756	"10:33 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	49	47	51	383.8571	l			ft
+WE	wepp-177848	"10:33 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	49	42	38	307.4138	l			ft
+WE	wepp-177941	"10:33 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	50	47	53	1000	m			ft
+WE	wepp-178073	"10:33 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	55	55	52	413.3846	m			ft
+WE	wepp-178206	"10:34 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	54	0	72	62.99194	h			ft
+WE	wepp-178380	"10:34 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	49	38	28	1000	m			ft
+WE	wepp-178513	"10:34 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	52	0	50	90.55091	m			ft
+WE	wepp-178647	"10:34 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	43	40	48	1000	m			ft
+WE	wepp-178779	"10:35 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	53	49	46	304.461	m			ft
+WE	wepp-178922	"10:35 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	54	0	54	212.5978	m			ft
+WE	wepp-179055	"10:35 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	40	0	36	82.67692	m			ft
+WE	wepp-179188	"10:35 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	25	0	36	68.89743	m			ft
+WE	wepp-179322	"10:35 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	34	37	41	1000	l			ft
+WE	wepp-179413	"10:35 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	51	46	37	326.1145	m			ft
+WE	wepp-179546	"10:36 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	49	50	35	748.0292	m			ft
+WE	wepp-179678	"10:36 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	50	57	48	351.0488	m			ft
+WE	wepp-179811	"10:36 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	47	44	46	1000	l			ft
+WE	wepp-179903	"10:36 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	46	0	40	136.8106	l			ft
+WE	wepp-179995	"10:36 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	43	44	49	331.3638	m			ft
+WE	wepp-180128	"10:37 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	50	48	49	380.5763	l			ft
+WE	wepp-180219	"10:37 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	56	0	49	244.7499	m			ft
+WE	wepp-180352	"10:37 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	30	51	59	744.7484	l			ft
+WE	wepp-180475	"10:37 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	50	49	54	266.4034	m			ft
+WE	wepp-180609	"10:37 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	48	0	41	51.83711	m			ft
+WE	wepp-180742	"10:37 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	46	45	43	984.249	m			ft
+WE	wepp-180874	"10:38 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	50	0	54	122.375	m			ft
+WE	wepp-181007	"10:38 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	60	0	41	40.68229	l			ft
+WE	wepp-181098	"10:38 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	40	41	37	954.7216	l			ft
+WE	wepp-181191	"10:38 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	49	0	51	147.6373	m			ft
+WE	wepp-181324	"10:38 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	51	0	45	129.2647	l			ft
+WE	wepp-181415	"10:39 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	33	43	24	1000	l			ft
+WE	wepp-181518	"10:39 pm  Saturday September 6, 2014"	"jbar 3090 +"	sand	20	forest	36	0	30	229.6581	m			ft
+WE	wepp-122457	"11:35 am  Tuesday September 9, 2014"	"jbar 3090 +"	sand	20	forest	64	53	47	1000	h			ft
+WD	wepp-124257	"11:38 am  Tuesday September 9, 2014"	"jbar 3090 +"	100	sand	HighFire	500	64	53	45	20	HighFire	500	47	47	45	20	0	ft	""
+WE	wepp-125362	"11:40 am  Tuesday September 9, 2014"	"jbar 3090 +"	sand	20	forest	69	53	47	1000	h			ft
+WD	wepp-125614	"11:44 am  Tuesday September 9, 2014"	"jbar 3090 +"	100	sand	HighFire	500	69	53	45	20	HighFire	50	53	47	45	20	0	ft	""
+WE	wepp-223967	"12:03 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	31	50	20	459.3162	u			ft
+WE	wepp-224026	"12:03 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	45	48	19	633.2002	l			ft
+WE	wepp-224120	"12:03 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	48	53	22	715.2209	m			ft
+WE	wepp-224284	"12:03 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	53	50	28	669.2893	l			ft
+WE	wepp-224404	"12:04 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	67	50	24	257.2171	l			ft
+WE	wepp-224526	"12:04 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	46	41	36	515.0903	u			ft
+WE	wepp-224584	"12:04 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	61	0	51	238.8444	l			ft
+WE	wepp-224676	"12:04 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	43	0	55	62.99194	m			ft
+WE	wepp-224841	"12:04 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	24	39	29	948.1599	h			ft
+WE	wepp-225044	"12:04 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	48	57	39	898.9474	m			ft
+WE	wepp-225216	"12:05 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	46	42	47	479.0012	h			ft
+WE	wepp-225420	"12:05 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	42	0	38	148.6216	h			ft
+WE	wepp-225625	"12:05 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	54	55	38	1000	m			ft
+WE	wepp-225787	"12:06 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	49	59	53	639.7618	m			ft
+WE	wepp-225950	"12:06 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	59	68	36	544.6178	m			ft
+WE	wepp-226113	"12:06 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	50	50	36	1000	m			ft
+WE	wepp-226276	"12:06 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	51	50	41	326.1145	m			ft
+WE	wepp-226438	"12:07 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	59	45	18	590.5494	l			ft
+WE	wepp-226559	"12:07 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	66	67	37	485.5628	l			ft
+WE	wepp-226681	"12:07 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	60	63	63	383.8571	h			ft
+WE	wepp-226884	"12:07 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	70	0	51	238.8444	h			ft
+WE	wepp-227088	"12:08 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	61	66	69	1000	h			ft
+WE	wepp-227289	"12:08 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	56	56	35	679.1318	m			ft
+WE	wepp-227426	"12:08 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	54	56	33	1000	m			ft
+WE	wepp-228534	"12:53 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	34	0	43	151.9024	u			ft
+WE	wepp-228594	"12:53 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	40	38	43	505.2478	u			ft
+WE	wepp-228653	"12:53 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	53	0	43	140.7476	u			ft
+WE	wepp-228684	"12:53 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	47	0	46	90.87899	u			ft
+WE	wepp-228714	"12:54 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	34	37	37	1000	u			ft
+WE	wepp-228748	"12:54 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	37	0	33	225.7211	u			ft
+WE	wepp-228842	"12:54 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	49	52	54	258.8575	u			ft
+WE	wepp-228873	"12:54 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	32	31	34	1000	u			ft
+WE	wepp-228934	"12:54 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	56	0	50	197.1779	u			ft
+WE	wepp-228993	"12:54 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	46	0	44	190.2881	u			ft
+WE	wepp-229025	"12:54 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	26	40	39	1000	u			ft
+WE	wepp-229084	"12:54 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	48	51	41	305.1172	u			ft
+WE	wepp-229116	"12:54 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	44	34	34	492.1245	u			ft
+WE	wepp-229147	"12:54 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	47	0	45	196.8498	u			ft
+WE	wepp-229178	"12:54 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	52	52	42	1000	u			ft
+WE	wepp-229208	"12:54 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	45	46	43	367.453	u			ft
+WE	wepp-229239	"12:54 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	50	47	43	803.8033	u			ft
+WE	wepp-229270	"12:55 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	14	29	36	813.6458	u			ft
+WE	wepp-229312	"12:55 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	44	0	50	44.61929	u			ft
+WE	wepp-229343	"12:55 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	38	0	27	89.23858	u			ft
+WE	wepp-229373	"12:55 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	44	39	31	495.4053	u			ft
+WE	wepp-229404	"12:55 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	41	41	28	370.7338	u			ft
+WE	wepp-229435	"12:55 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	47	42	33	289.0411	u			ft
+WE	wepp-229466	"12:55 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	48	46	45	488.8437	u			ft
+WE	wepp-229497	"12:55 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	41	39	41	351.0488	u			ft
+WE	wepp-229530	"12:55 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	38	42	40	297.5713	u			ft
+WE	wepp-229590	"12:55 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	39	48	44	833.3308	u			ft
+WE	wepp-229651	"12:55 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	30	30	18	708.6593	u			ft
+WE	wepp-229712	"12:55 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	37	0	30	168.9627	u			ft
+WE	wepp-229772	"12:55 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	29	40	36	964.564	u			ft
+WE	wepp-229832	"12:56 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	44	42	38	541.337	u			ft
+WE	wepp-229891	"12:56 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	49	43	31	374.0146	u			ft
+WE	wepp-229922	"12:56 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	40	0	30	173.884	u			ft
+WE	wepp-229953	"12:56 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	33	0	30	58.07069	u			ft
+WE	wepp-229984	"12:56 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	32	34	28	908.7899	u			ft
+WE	wepp-230015	"12:56 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	31	32	19	570.8644	u			ft
+WE	wepp-230046	"12:56 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	6.5	28	27	702.0976	u			ft
+WE	wepp-230077	"12:56 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	37	37	29	347.768	u			ft
+WE	wepp-230138	"12:56 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	55	48	33	374.0146	u			ft
+WE	wepp-230169	"12:56 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	55	0	31	172.8997	u			ft
+WE	wepp-230229	"12:56 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	37	36	22	364.1721	u			ft
+WE	wepp-230259	"12:56 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	43	45	36	531.4944	u			ft
+WE	wepp-230290	"12:56 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	21	27	41	738.1868	u			ft
+WE	wepp-230321	"12:57 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	39	0	25	79.72417	u			ft
+WE	wepp-230354	"12:57 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	25	31	32	682.4127	u			ft
+WE	wepp-230415	"12:57 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	24	22	26	757.8717	u			ft
+WE	wepp-230474	"12:57 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	34	34	33	331.3638	u			ft
+WE	wepp-230504	"12:57 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	32	36	25	344.4872	u			ft
+WE	wepp-230535	"12:57 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	38	45	31	593.8302	u			ft
+WE	wepp-230566	"12:57 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	40	45	32	351.0488	u			ft
+WE	wepp-230597	"12:57 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	31	39	41	879.2625	u			ft
+WE	wepp-230629	"12:57 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	33	30	27	266.0753	u			ft
+WE	wepp-230660	"12:57 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	36	0	32	217.8471	u			ft
+WE	wepp-230691	"12:57 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	37	40	31	472.4395	u			ft
+WE	wepp-230725	"12:57 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	23	23	21	268.0438	u			ft
+WE	wepp-230784	"12:57 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	33	0	28	227.0334	u			ft
+WE	wepp-230815	"12:58 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	27	34	21	738.1868	u			ft
+WE	wepp-230846	"12:58 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	31	31	22	374.0146	u			ft
+WE	wepp-230906	"12:58 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	17	19	11	561.0219	u			ft
+WE	wepp-230937	"12:58 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	34	39	21	387.1379	u			ft
+WE	wepp-230970	"12:58 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	38	30	20	326.1145	u			ft
+WE	wepp-231001	"12:58 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	42	0	28	237.8602	u			ft
+WE	wepp-231232	"12:58 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	37	30	23	334.6447	u			ft
+WE	wepp-231264	"12:58 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	28	22	22	590.5494	u			ft
+WE	wepp-231294	"12:58 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	30	33	22	928.4749	u			ft
+WE	wepp-231326	"12:58 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	31	32	28	351.0488	u			ft
+WE	wepp-231357	"12:58 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	22	26	33	1000	u			ft
+WE	wepp-231393	"12:58 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	33	25	45	885.8241	u			ft
+WE	wepp-231453	"12:58 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	18	35	34	708.6593	u			ft
+WE	wepp-235616	"03:11 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	0.57	0.56	0.41	304.1329	h			ft
+WE	wepp-235819	"03:12 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	0.46	0.51	0.33	498.6862	h			ft
+WE	wepp-236302	"03:22 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	50	50	50	1000	h			ft
+WE	wepp-236505	"03:22 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	60	60	60	1000	h			ft
+WE	wepp-237006	"03:38 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	70	0	42	115.1571	l			ft
+WE	wepp-237126	"03:38 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	68	0	62	57.74261	m			ft
+WE	wepp-237259	"03:38 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	43	37	38	1000	u			ft
+WE	wepp-237320	"03:38 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	25	26	18	292.65	u			ft
+WE	wepp-237350	"03:38 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	27	0	20	85.30158	l			ft
+WE	wepp-237442	"03:38 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	34	33	50	1000	l			ft
+WE	wepp-237535	"03:38 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	57	0	54	209.9731	m			ft
+WE	wepp-237685	"03:39 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	51	0	53	148.9497	m			ft
+WE	wepp-237849	"03:39 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	47	0	50	161.7449	u			ft
+WE	wepp-237910	"03:39 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	22	37	33	846.4542	u			ft
+WE	wepp-237983	"03:40 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	49	47	51	383.8571	l			ft
+WE	wepp-238107	"03:40 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	45	41	51	1000	u			ft
+WE	wepp-238173	"03:40 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	44	42	41	280.1829	u			ft
+WE	wepp-19462	"05:21 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	81	69	72	885.8241	h			ft
+WE	wepp-19664	"05:21 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	68	58	49	303.8049	h			ft
+WE	wepp-19837	"05:22 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	54	0	51	200.7868	h			ft
+WE	wepp-20010	"05:22 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	29	42	36	685.6935	h			ft
+WE	wepp-20183	"05:22 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	40	44	55	1000	h			ft
+WE	wepp-20357	"05:22 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	41	50	38	1000	h			ft
+WE	wepp-20530	"05:23 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	52	61	34	685.6935	l			ft
+WE	wepp-20622	"05:23 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	45	50	15	708.6593	l			ft
+WE	wepp-20714	"05:23 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	41	0	26	244.7499	l			ft
+WE	wepp-20805	"05:23 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	39	54	35	675.851	l			ft
+WE	wepp-20897	"05:23 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	44	53	35	1000	l			ft
+WE	wepp-20990	"05:23 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	43	44	44	885.8241	l			ft
+WE	wepp-21082	"05:24 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	52	46	53	1000	l			ft
+WE	wepp-21174	"05:24 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	50	47	31	485.5628	l			ft
+WE	wepp-21266	"05:24 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	49	0	55	68.24126	l			ft
+WE	wepp-21357	"05:24 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	52	48	42	1000	l			ft
+WE	wepp-21449	"05:24 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	48	40	21	935.0366	l			ft
+WE	wepp-21541	"05:24 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	37	46	48	344.4872	l			ft
+WE	wepp-21639	"05:25 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	51	0	43	167.3223	l			ft
+WE	wepp-21737	"05:25 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	48	0	30	127.2962	l			ft
+WE	wepp-21829	"05:25 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	61	49	44	636.481	l			ft
+WE	wepp-21920	"05:25 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	39	43	55	810.365	l			ft
+WE	wepp-22015	"05:25 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	42	53	52	767.7142	l			ft
+WE	wepp-22107	"05:25 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	49	0	50	214.8944	l			ft
+WE	wepp-22198	"05:25 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	42	0	25	112.5325	l			ft
+WE	wepp-22291	"05:26 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	64	50	18	295.2747	l			ft
+WE	wepp-22386	"05:26 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	53	0	46	53.14944	l			ft
+WE	wepp-22507	"05:26 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	50	62	69	262.4664	l			ft
+WE	wepp-22627	"05:26 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	58	60	29	656.166	l			ft
+WE	wepp-22719	"05:26 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	56	0	15	134.514	l			ft
+WE	wepp-22811	"05:26 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	53	0	53	163.3853	l			ft
+WE	wepp-22904	"05:27 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	52	0	52	16.63381	l			ft
+WE	wepp-23027	"05:27 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	67	0	67	49.21245	l			ft
+WE	wepp-23119	"05:27 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	67	61	28	1000	l			ft
+WE	wepp-23213	"05:27 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	57	0	49	242.7814	l			ft
+WE	wepp-23306	"05:27 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	38	50	41	442.912	l			ft
+WE	wepp-23397	"05:27 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	53	55	52	538.0561	l			ft
+WE	wepp-23490	"05:27 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	48	0	51	160.7607	l			ft
+WE	wepp-23589	"05:28 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	24	55	54	1000	l			ft
+WE	wepp-23708	"05:28 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	53	49	48	688.9743	l			ft
+WE	wepp-23801	"05:28 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	48	48	15	751.3101	l			ft
+WE	wepp-23893	"05:28 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	57	57	47	623.3577	l			ft
+WE	wepp-23985	"05:28 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	45	0	42	209.9731	l			ft
+WE	wepp-24076	"05:28 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	34	0	34	13.12332	l			ft
+WE	wepp-24173	"05:29 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	30	40	32	557.7411	l			ft
+WE	wepp-24292	"05:29 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	51	40	32	1000	l			ft
+WE	wepp-24384	"05:29 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	37	37	37	284.776	l			ft
+WE	wepp-24476	"05:29 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	36	32	30	606.9536	l			ft
+WE	wepp-24568	"05:29 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	50	47	26	1000	l			ft
+WE	wepp-24659	"05:29 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	41	61	63	836.6116	l			ft
+WE	wepp-24752	"05:29 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	56	0	37	43.96312	l			ft
+WE	wepp-24856	"05:30 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	54	44	16	1000	l			ft
+WE	wepp-24948	"05:30 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	30	0	14	146.6531	l			ft
+WE	wepp-25039	"05:30 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	65	60	18	508.5287	l			ft
+WE	wepp-25131	"05:30 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	67	58	33	816.9267	l			ft
+WE	wepp-25223	"05:30 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	47	0	41	147.9654	l			ft
+WE	wepp-25315	"05:30 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	68	0	57	227.3615	l			ft
+WE	wepp-25408	"05:30 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	28	26	25	583.9877	l			ft
+WE	wepp-25500	"05:31 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	56	34	18	879.2625	l			ft
+WE	wepp-25592	"05:31 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	57	63	28	557.7411	l			ft
+WE	wepp-25683	"05:31 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	52	48	37	312.6631	l			ft
+WE	wepp-25775	"05:31 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	32	39	31	990.8107	l			ft
+WE	wepp-25867	"05:31 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	35	0	31	65.6166	l			ft
+WE	wepp-25958	"05:31 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	36	43	31	524.9328	l			ft
+WE	wepp-26051	"05:31 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	40	41	33	885.8241	l			ft
+WE	wepp-26143	"05:32 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	40	0	38	183.7265	l			ft
+WE	wepp-26235	"05:32 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	25	32	36	941.5982	l			ft
+WE	wepp-26326	"05:32 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	44	35	26	276.2459	l			ft
+WE	wepp-26419	"05:32 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	48	51	35	797.2417	l			ft
+WE	wepp-26511	"05:32 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	45	48	47	692.2551	l			ft
+WE	wepp-26603	"05:32 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	56	55	34	715.2209	l			ft
+WE	wepp-26727	"05:32 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	69	57	32	278.5425	l			ft
+WE	wepp-26819	"05:33 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	53	40	28	626.6385	l			ft
+WE	wepp-26941	"05:33 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	33	44	32	862.8583	l			ft
+WE	wepp-27034	"05:33 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	49	43	32	695.5359	l			ft
+WE	wepp-27126	"05:33 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	30	30	30	439.6312	l			ft
+WE	wepp-27218	"05:33 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	48	49	33	643.0427	l			ft
+WE	wepp-27341	"05:33 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	40	33	37	367.453	l			ft
+WE	wepp-27464	"05:34 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	51	40	33	257.2171	l			ft
+WE	wepp-27556	"05:34 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	48	58	52	492.1245	l			ft
+WE	wepp-27677	"05:34 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	44	41	38	774.2759	l			ft
+WE	wepp-27798	"05:34 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	44	33	44	912.0707	l			ft
+WE	wepp-27919	"05:34 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	44	0	41	151.9024	l			ft
+WE	wepp-28132	"05:35 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	57	53	49	393.6996	l			ft
+WE	wepp-28237	"05:35 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	59	0	71	157.8079	l			ft
+WE	wepp-28358	"05:35 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	38	55	13	590.5494	m			ft
+WE	wepp-28523	"05:35 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	36	0	15	201.771	m			ft
+WE	wepp-28686	"05:35 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	29	40	28	1000	m			ft
+WE	wepp-28848	"05:36 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	33	47	35	1000	m			ft
+WE	wepp-29011	"05:36 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	52	43	28	629.9194	m			ft
+WE	wepp-29231	"05:36 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	35	39	27	1000	m			ft
+WE	wepp-29393	"05:36 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	49	0	49	9.776874	m			ft
+WE	wepp-29554	"05:37 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	53	43	36	1000	m			ft
+WE	wepp-29721	"05:37 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	65	57	29	390.4188	m			ft
+WE	wepp-29884	"05:37 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	52	0	44	181.758	m			ft
+WE	wepp-30047	"05:37 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	53	63	51	410.1038	m			ft
+WE	wepp-30209	"05:38 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	27	48	48	984.249	m			ft
+WE	wepp-30372	"05:38 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	40	47	40	1000	m			ft
+WE	wepp-30534	"05:38 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	49	49	40	1000	m			ft
+WE	wepp-30698	"05:38 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	46	61	58	1000	m			ft
+WE	wepp-30901	"05:39 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	78	79	71	370.7338	m			ft
+WE	wepp-31035	"05:39 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	79	28	28	278.5425	m			ft
+WE	wepp-31197	"05:39 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	55	53	40	557.7411	m			ft
+WE	wepp-31360	"05:39 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	64	69	35	918.6324	m			ft
+WE	wepp-31533	"05:40 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	49	39	36	511.8095	m			ft
+WE	wepp-31695	"05:40 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	55	56	54	682.4127	m			ft
+WE	wepp-31858	"05:40 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	20	17	12	462.597	m			ft
+WE	wepp-32022	"05:41 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	36	26	8.6	990.8107	m			ft
+WE	wepp-32184	"05:41 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	15	0	9.9	92.51941	m			ft
+WE	wepp-32347	"05:41 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	62	60	46	931.7557	m			ft
+WE	wepp-32510	"05:41 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	82	66	25	515.0903	m			ft
+WE	wepp-32671	"05:42 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	66	66	64	685.6935	m			ft
+WE	wepp-32804	"05:42 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	70	0	71	187.3354	m			ft
+WE	wepp-32936	"05:42 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	52	0	58	115.1571	m			ft
+WE	wepp-33070	"05:42 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	39	52	45	1000	m			ft
+WE	wepp-33202	"05:42 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	42	76	37	590.5494	m			ft
+WE	wepp-33339	"05:43 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	44	50	36	383.8571	m			ft
+WE	wepp-33501	"05:43 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	53	55	53	377.2954	m			ft
+WE	wepp-33663	"05:43 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	55	50	52	636.481	m			ft
+WE	wepp-34078	"05:43 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	65	61	45	1000	m			ft
+WE	wepp-34240	"05:44 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	52	0	57	236.5478	m			ft
+WE	wepp-34403	"05:44 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	72	60	42	1000	m			ft
+WE	wepp-34567	"05:44 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	45	49	54	505.2478	m			ft
+WE	wepp-34735	"05:45 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	54	57	48	354.3297	m			ft
+WE	wepp-34908	"05:45 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	71	62	52	1000	m			ft
+WE	wepp-35040	"05:45 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	66	47	35	1000	m			ft
+WE	wepp-35174	"05:45 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	56	62	51	1000	m			ft
+WE	wepp-35306	"05:45 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	53	0	54	61.35152	m			ft
+WE	wepp-35440	"05:46 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	41	0	49	66.60085	m			ft
+WE	wepp-35572	"05:46 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	47	53	35	1000	m			ft
+WE	wepp-35713	"05:46 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	56	48	52	606.9536	m			ft
+WE	wepp-35876	"05:46 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	47	0	49	115.1571	m			ft
+WE	wepp-36012	"05:47 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	38	48	39	1000	m			ft
+WE	wepp-36145	"05:47 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	51	52	57	1000	m			ft
+WE	wepp-36277	"05:47 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	57	58	24	971.1257	m			ft
+WE	wepp-36411	"05:47 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	32	39	48	626.6385	m			ft
+WE	wepp-36547	"05:47 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	63	58	46	337.9255	m			ft
+WE	wepp-36682	"05:48 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	45	57	50	1000	m			ft
+WE	wepp-36814	"05:48 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	48	0	43	196.8498	m			ft
+WE	wepp-36947	"05:48 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	30	56	40	1000	m			ft
+WE	wepp-37079	"05:48 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	42	33	37	469.1587	m			ft
+WE	wepp-37213	"05:48 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	25	54	34	1000	m			ft
+WE	wepp-37345	"05:49 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	47	49	43	380.5763	m			ft
+WE	wepp-37509	"05:49 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	36	0	39	174.8682	m			ft
+WE	wepp-37643	"05:49 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	61	0	57	198.4902	m			ft
+WE	wepp-37776	"05:49 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	42	45	46	360.8913	m			ft
+WE	wepp-37909	"05:50 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	13	52	26	1000	m			ft
+WE	wepp-38054	"05:50 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	45	51	50	534.7753	m			ft
+WE	wepp-38186	"05:50 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	63	0	34	245.4061	m			ft
+WE	wepp-38319	"05:50 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	54	68	27	544.6178	m			ft
+WE	wepp-38455	"05:50 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	25	48	28	1000	m			ft
+WE	wepp-38589	"05:51 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	48	55	39	905.5091	m			ft
+WE	wepp-38721	"05:51 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	50	53	22	820.2075	m			ft
+WE	wepp-38854	"05:51 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	42	43	41	672.5701	m			ft
+WE	wepp-38986	"05:51 pm  Wednesday September 10, 2014"	"jbar 3090 +"	sand	20	forest	48	0	44	51.50903	m			ft
+WE	wepp-226558	"10:27 am  Thursday September 11, 2014"	"jbar 3090 +"	sand	20	forest	45	48	19	633.2002	l			ft
+WE	wepp-226683	"10:27 am  Thursday September 11, 2014"	"jbar 3090 +"	sand	20	forest	48	53	22	715.2209	m			ft
+WE	wepp-226848	"10:28 am  Thursday September 11, 2014"	"jbar 3090 +"	sand	20	forest	53	50	28	669.2893	l			ft
+WE	wepp-226972	"10:28 am  Thursday September 11, 2014"	"jbar 3090 +"	sand	20	forest	67	50	24	257.2171	l			ft
+WE	wepp-227097	"10:28 am  Thursday September 11, 2014"	"jbar 3090 +"	sand	20	forest	61	0	51	238.8444	l			ft
+WE	wepp-227222	"10:28 am  Thursday September 11, 2014"	"jbar 3090 +"	sand	20	forest	43	0	55	62.99194	m			ft
+WE	wepp-227388	"10:29 am  Thursday September 11, 2014"	"jbar 3090 +"	sand	20	forest	24	39	29	948.1599	h			ft
+WE	wepp-227592	"10:29 am  Thursday September 11, 2014"	"jbar 3090 +"	sand	20	forest	48	57	39	898.9474	m			ft
+WE	wepp-227732	"10:29 am  Thursday September 11, 2014"	"jbar 3090 +"	sand	20	forest	46	42	47	479.0012	h			ft
+WE	wepp-227941	"10:29 am  Thursday September 11, 2014"	"jbar 3090 +"	sand	20	forest	42	0	38	148.6216	h			ft
+WE	wepp-228158	"10:30 am  Thursday September 11, 2014"	"jbar 3090 +"	sand	20	forest	54	55	38	1000	m			ft
+WE	wepp-228293	"10:30 am  Thursday September 11, 2014"	"jbar 3090 +"	sand	20	forest	49	59	53	639.7618	m			ft
+WE	wepp-228432	"10:30 am  Thursday September 11, 2014"	"jbar 3090 +"	sand	20	forest	59	68	36	544.6178	m			ft
+WE	wepp-228598	"10:30 am  Thursday September 11, 2014"	"jbar 3090 +"	sand	20	forest	50	50	36	1000	m			ft
+WE	wepp-228733	"10:31 am  Thursday September 11, 2014"	"jbar 3090 +"	sand	20	forest	51	50	41	326.1145	m			ft
+WE	wepp-228871	"10:31 am  Thursday September 11, 2014"	"jbar 3090 +"	sand	20	forest	59	45	18	590.5494	l			ft
+WE	wepp-228971	"10:31 am  Thursday September 11, 2014"	"jbar 3090 +"	sand	20	forest	66	67	37	485.5628	l			ft
+WE	wepp-229093	"10:31 am  Thursday September 11, 2014"	"jbar 3090 +"	sand	20	forest	60	63	63	383.8571	h			ft
+WE	wepp-229270	"10:31 am  Thursday September 11, 2014"	"jbar 3090 +"	sand	20	forest	70	0	51	238.8444	h			ft
+WE	wepp-229447	"10:32 am  Thursday September 11, 2014"	"jbar 3090 +"	sand	20	forest	61	66	69	1000	h			ft
+WE	wepp-229653	"10:32 am  Thursday September 11, 2014"	"jbar 3090 +"	sand	20	forest	56	56	35	679.1318	m			ft
+WE	wepp-229789	"10:32 am  Thursday September 11, 2014"	"jbar 3090 +"	sand	20	forest	54	56	33	1000	m			ft
+WE	wepp-39513	"03:28 pm  Friday September 12, 2014"	"jbar 3090 +"	sand	20	forest	50	50	30	300	h			ft
+WE	wepp-144479	"04:13 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	45	48	19	633.2002	l			ft
+WE	wepp-144599	"04:13 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	48	53	22	715.2209	m			ft
+WE	wepp-144731	"04:13 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	53	50	28	669.2893	l			ft
+WE	wepp-144824	"04:13 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	67	50	24	257.2171	l			ft
+WE	wepp-144915	"04:13 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	61	60.5	51	238.8444	l			ft
+WE	wepp-145007	"04:14 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	43	28	55	62.99194	m			ft
+WE	wepp-145140	"04:14 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	24	39	29	948.1599	h			ft
+WE	wepp-145315	"04:14 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	48	57	39	898.9474	m			ft
+WE	wepp-145477	"04:14 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	46	42	47	479.0012	h			ft
+WE	wepp-145650	"04:14 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	42	56	38	148.6216	h			ft
+WE	wepp-145834	"04:15 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	54	55	38	1000	m			ft
+WE	wepp-145966	"04:15 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	49	59	53	639.7618	m			ft
+WE	wepp-146098	"04:15 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	59	68	36	544.6178	m			ft
+WE	wepp-146232	"04:15 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	50	50	36	1000	m			ft
+WE	wepp-146368	"04:16 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	51	50	41	326.1145	m			ft
+WE	wepp-146529	"04:16 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	59	45	18	590.5494	l			ft
+WE	wepp-146621	"04:16 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	66	67	37	485.5628	l			ft
+WE	wepp-146712	"04:16 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	60	63	63	383.8571	h			ft
+WE	wepp-146886	"04:16 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	70	49	51	238.8444	h			ft
+WE	wepp-147062	"04:17 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	61	66	69	1000	h			ft
+WE	wepp-147235	"04:17 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	56	56	35	679.1318	m			ft
+WE	wepp-147367	"04:17 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	54	56	33	1000	m			ft
+WE	wepp-147501	"04:17 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	38	39	52	307.7419	m			ft
+WE	wepp-147633	"04:17 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	46	31.5	40	116.4695	m			ft
+WE	wepp-147766	"04:18 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	44	42	34	616.796	m			ft
+WE	wepp-147902	"04:18 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	63	62	41	488.8437	h			ft
+WE	wepp-148075	"04:18 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	81	64	56	895.6666	m			ft
+WE	wepp-148208	"04:18 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	79	65	64	1000	h			ft
+WE	wepp-148381	"04:19 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	62	62	54	1000	m			ft
+WE	wepp-148544	"04:19 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	70	72.5	26	1000	m			ft
+WE	wepp-148771	"04:19 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	45	63.5	42	220.7999	m			ft
+WE	wepp-149016	"04:19 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	32	46	39	1000	m			ft
+WE	wepp-149248	"04:19 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	32	51	45	777.5567	m			ft
+WE	wepp-149495	"04:20 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	44	58	36	675.851	m			ft
+WE	wepp-149756	"04:20 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	36	58	27	944.879	m			ft
+WE	wepp-149999	"04:20 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	55	64	32	541.337	m			ft
+WE	wepp-150228	"04:20 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	68	66	58	396.9804	m			ft
+WE	wepp-150460	"04:20 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	55	56.5	47	92.84749	m			ft
+WE	wepp-150683	"04:21 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	52	65	61	1000	m			ft
+WE	wepp-150924	"04:21 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	56	55	34	541.337	m			ft
+WE	wepp-151157	"04:21 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	42	43	69	102.69	l			ft
+WE	wepp-151333	"04:21 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	75	68	49	515.0903	m			ft
+WE	wepp-151557	"04:21 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	44	36	29	341.2063	m			ft
+WE	wepp-151788	"04:22 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	81	41	77	229.0019	m			ft
+WE	wepp-152044	"04:22 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	37	39	44	61.02344	m			ft
+WE	wepp-152268	"04:22 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	33	40	34	1000	m			ft
+WE	wepp-152500	"04:22 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	53	56	59	174.2121	m			ft
+WE	wepp-152739	"04:22 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	67	71	57	751.3101	m			ft
+WE	wepp-152967	"04:23 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	60	55	62	974.4065	m			ft
+WE	wepp-153243	"04:23 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	37	41	12	984.249	m			ft
+WE	wepp-153467	"04:23 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	28	48	28	49.21245	l			ft
+WE	wepp-153652	"04:23 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	55	48	26	1000	m			ft
+WE	wepp-153875	"04:23 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	73	72	27	278.5425	l			ft
+WE	wepp-154018	"04:24 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	57	58	27	728.3442	m			ft
+WE	wepp-154251	"04:24 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	53	62	30	501.967	m			ft
+WE	wepp-154471	"04:24 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	54	52	50	452.7545	m			ft
+WE	wepp-154734	"04:24 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	64	65	55	587.2686	m			ft
+WE	wepp-154986	"04:24 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	57	60	41	290.0254	m			ft
+WE	wepp-155242	"04:25 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	39	42	46	623.3577	m			ft
+WE	wepp-155544	"04:25 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	40	65	23	47.57204	m			ft
+WE	wepp-155769	"04:25 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	46	43	42	263.7787	m			ft
+WE	wepp-156002	"04:25 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	68	55	36	1000	m			ft
+WE	wepp-156238	"04:25 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	60	50	37	590.5494	l			ft
+WE	wepp-156427	"04:26 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	58	48	20	305.7733	l			ft
+WE	wepp-156577	"04:26 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	62	53	23	708.6593	m			ft
+WE	wepp-156817	"04:26 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	47	60	48	853.0158	m			ft
+WE	wepp-157073	"04:26 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	42	39	28	295.6028	m			ft
+WE	wepp-157339	"04:26 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	67	73	30	679.1318	m			ft
+WE	wepp-157530	"04:27 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	77	23.5	68	216.2067	m			ft
+WE	wepp-157774	"04:27 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	67	55.5	60	187.3354	m			ft
+WE	wepp-158038	"04:27 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	64	53	47	1000	h			ft
+WE	wepp-158319	"04:27 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	50	52	63	69.5536	m			ft
+WE	wepp-158546	"04:27 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	58	58	54	1000	h			ft
+WE	wepp-158842	"04:28 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	45	55	62	570.8644	h			ft
+WE	wepp-159169	"04:28 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	48	66	63	259.5136	m			ft
+WE	wepp-159394	"04:28 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	58	49	52	561.0219	h			ft
+WE	wepp-159711	"04:28 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	60	58	43	1000	h			ft
+WE	wepp-160007	"04:29 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	36	48	51	383.8571	l			ft
+WE	wepp-160169	"04:29 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	45	50	42	367.453	l			ft
+WE	wepp-160321	"04:29 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	64	46	36	492.1245	m			ft
+WE	wepp-160583	"04:29 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	29	63	53	54.46178	m			ft
+WE	wepp-160809	"04:29 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	59	62	35	800.5225	m			ft
+WE	wepp-161029	"04:30 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	43	53	76	1000	m			ft
+WE	wepp-161272	"04:30 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	41	49	49	1000	l			ft
+WE	wepp-161479	"04:30 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	32	39	36	980.9681	l			ft
+WE	wepp-161607	"04:30 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	49	43.5	29	78.73992	l			ft
+WE	wepp-161795	"04:30 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	70	51	42	115.1571	l			ft
+WE	wepp-161965	"04:30 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	68	51	62	57.74261	m			ft
+WE	wepp-162179	"04:30 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	27	55.5	20	85.30158	l			ft
+WE	wepp-162339	"04:31 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	34	33	50	1000	l			ft
+WE	wepp-162520	"04:31 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	57	54	54	209.9731	m			ft
+WE	wepp-162747	"04:31 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	51	38	53	148.9497	m			ft
+WE	wepp-162984	"04:31 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	49	47	51	383.8571	l			ft
+WE	wepp-163186	"04:31 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	49	42	38	307.4138	l			ft
+WE	wepp-163324	"04:31 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	50	47	53	1000	m			ft
+WE	wepp-163565	"04:32 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	55	55	52	413.3846	m			ft
+WE	wepp-163791	"04:32 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	54	40	72	62.99194	h			ft
+WE	wepp-164111	"04:32 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	49	38	28	1000	m			ft
+WE	wepp-164356	"04:32 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	52	30.5	50	90.55091	m			ft
+WE	wepp-164613	"04:33 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	43	40	48	1000	m			ft
+WE	wepp-164863	"04:33 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	53	49	46	304.461	m			ft
+WE	wepp-165144	"04:33 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	54	43	54	212.5978	m			ft
+WE	wepp-165373	"04:33 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	40	52.5	36	82.67692	m			ft
+WE	wepp-165616	"04:33 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	25	44.5	36	68.89743	m			ft
+WE	wepp-165858	"04:34 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	34	37	41	1000	l			ft
+WE	wepp-166011	"04:34 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	51	46	37	326.1145	m			ft
+WE	wepp-166255	"04:34 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	49	50	35	748.0292	m			ft
+WE	wepp-166491	"04:34 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	50	57	48	351.0488	m			ft
+WE	wepp-166723	"04:34 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	47	44	46	1000	l			ft
+WE	wepp-166907	"04:35 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	46	79	40	136.8106	l			ft
+WE	wepp-167089	"04:35 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	43	44	49	331.3638	m			ft
+WE	wepp-167325	"04:35 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	50	48	49	380.5763	l			ft
+WE	wepp-167464	"04:35 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	56	52	49	244.7499	m			ft
+WE	wepp-167716	"04:35 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	30	51	59	744.7484	l			ft
+WE	wepp-167892	"04:35 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	50	49	54	266.4034	m			ft
+WE	wepp-168119	"04:36 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	48	50.5	41	51.83711	m			ft
+WE	wepp-168379	"04:36 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	46	45	43	984.249	m			ft
+WE	wepp-168607	"04:36 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	50	50	54	122.375	m			ft
+WE	wepp-168843	"04:36 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	60	40.5	41	40.68229	l			ft
+WE	wepp-169039	"04:36 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	40	41	37	954.7216	l			ft
+WE	wepp-169190	"04:37 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	49	48	51	147.6373	m			ft
+WE	wepp-169429	"04:37 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	51	56	45	129.2647	l			ft
+WE	wepp-169584	"04:37 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	33	43	24	1000	l			ft
+WE	wepp-169767	"04:37 am  Sunday September 14, 2014"	"jbar 3090 +"	sand	20	forest	36	33	30	229.6581	m			ft
+WE	wepp-208752	"02:36 pm  Monday September 21, 2015"	"SelwayComplex +"	silt	5	forest	30	50	35	400	m			ft
+WE	wepp-209019	"02:50 pm  Monday September 21, 2015"	"SelwayComplex +"	sand	20	forest	30	50	35	400	m			ft
+WE	wepp-215569	"06:00 pm  Monday September 21, 2015"	"SelwayComplex +"	silt	5	forest	29	32	27	200	m			ft
+WE	wepp-215760	"06:03 pm  Monday September 21, 2015"	"SelwayComplex +"	silt	5	forest	29	32	27	200	l			ft
+WE	wepp-215919	"06:05 pm  Monday September 21, 2015"	"SelwayComplex +"	silt	5	forest	29	32	27	200	h			ft
+WE	wepp-216146	"06:06 pm  Monday September 21, 2015"	"SelwayComplex +"	silt	5	forest	29	32	27	200	u			ft
+WE	wepp-216276	"06:10 pm  Monday September 21, 2015"	"SelwayComplex +"	sand	5	forest	20	24	13	200	u			ft
+WE	wepp-216363	"06:12 pm  Monday September 21, 2015"	"SelwayComplex +"	sand	5	forest	20	24	13	200	l			ft
+WE	wepp-216509	"06:13 pm  Monday September 21, 2015"	"SelwayComplex +"	sand	5	forest	20	24	13	200	m			ft
+WE	wepp-216698	"06:14 pm  Monday September 21, 2015"	"SelwayComplex +"	sand	5	forest	20	24	13	200	h			ft
+WD	wepp-31272	"09:25 am  Tuesday September 22, 2015"	"SelwayComplex +"	5	silt	HighFire	50	29	32	45	5	LowFire	50	32	27	85	5	0	ft	"Selway Complex - Baldy"
+WD	wepp-31357	"09:33 am  Tuesday September 22, 2015"	"SelwayComplex +"	30	silt	HighFire	50	29	32	45	5	LowFire	50	32	27	85	5	0	ft	"Selway Complex - Baldy"
+WD	wepp-31554	"09:39 am  Tuesday September 22, 2015"	"SelwayComplex +"	30	silt	HighFire	50	29	32	45	5	HighFire	50	32	27	45	5	0	ft	"Selway Complex - Baldy"
+WD	wepp-31876	"09:47 am  Tuesday September 22, 2015"	"SelwayComplex +"	30	sand	HighFire	50	20	24	45	20	HighFire	50	24	13	45	20	0	ft	"Selway Complex - Noble & Crown"
+WE	wepp-32085	"09:51 am  Tuesday September 22, 2015"	"SelwayComplex +"	sand	20	forest	20	24	13	200	h			ft
+WE	wepp-32609	"09:54 am  Tuesday September 22, 2015"	"SelwayComplex +"	sand	20	forest	20	24	13	200	m			ft
+WE	wepp-32846	"09:58 am  Tuesday September 22, 2015"	"SelwayComplex +"	sand	20	forest	20	24	13	200	l			ft
+WE	wepp-33089	"10:02 am  Tuesday September 22, 2015"	"SelwayComplex +"	sand	20	forest	20	24	13	200	u			ft
+WE	wepp-33280	"10:04 am  Tuesday September 22, 2015"	"SelwayComplex +"	sand	20	forest	20	24	13	200	m			ft

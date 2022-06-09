@@ -1,0 +1,58 @@
+WD	wepp-25000	"00:24 am  Thursday November 19, 2015"	"GUAM WSMO PI"	30	silt	OldForest	80	20	20	95	15	OldForest	80	20	20	95	15	0	m	""
+WD	wepp-25079	"00:25 am  Thursday November 19, 2015"	"GUAM WSMO PI"	30	silt	Bunchgrass	80	20	20	95	15	Bunchgrass	80	20	20	95	15	0	m	""
+WD	wepp-25216	"00:30 am  Thursday November 19, 2015"	"GUAM WSMO PI"	30	silt	Sod	80	20	20	50	15	Sod	80	20	20	50	15	0	m	""
+WD	wepp-25302	"00:35 am  Thursday November 19, 2015"	"GUAM WSMO PI"	30	silt	Shrub	80	20	20	80	15	Shrub	80	20	20	80	15	0	m	""
+WD	wepp-25384	"00:39 am  Thursday November 19, 2015"	"GUAM WSMO PI"	30	sand	OldForest	80	20	20	95	15	OldForest	80	20	20	95	15	0	m	""
+WR	wepp-25538	"00:43 am  Thursday November 19, 2015"	"GUAM WSMO PI"	30	silt	native	100	4	4	5	30	0.3	20	15	inveg	m
+WR	wepp-25575	"00:44 am  Thursday November 19, 2015"	"GUAM WSMO PI"	50	silt	native	100	4	4	5	30	0.3	20	15	inveg	m
+WR	wepp-25663	"00:47 am  Thursday November 19, 2015"	"GUAM WSMO PI"	50	silt	native	100	4	4	5	30	0.3	20	15	inveg	m
+WR	wepp-25713	"00:50 am  Thursday November 19, 2015"	"GUAM WSMO PI"	50	silt	native	100	4	4	5	30	20	15	15	inveg	m
+WR	wepp-25929	"00:57 am  Thursday November 19, 2015"	"GUAM WSMO PI"	50	silt	native	100	4	4	5	30	0.3	20	15	inveg	m
+WR	wepp-25968	"00:58 am  Thursday November 19, 2015"	"GUAM WSMO PI"	50	silt	native	100	4	4	5	30	0.3	20	15	outrut	m
+WR	wepp-26004	"00:59 am  Thursday November 19, 2015"	"GUAM WSMO PI"	50	silt	native	100	4	4	5	30	0.3	20	15	outrut	m
+WR	wepp-26041	"00:59 am  Thursday November 19, 2015"	"GUAM WSMO PI"	50	silt	native	100	4	4	5	30	0.3	20	15	outrut	m
+WR	wepp-26161	"01:02 am  Thursday November 19, 2015"	"GUAM WSMO PI"	50	silt	native	100	4	4	5	30	20	15	15	outrut	m
+WR	wepp-26295	"01:05 am  Thursday November 19, 2015"	"GUAM WSMO PI"	50	silt	native	100	4	4	5	30	20	15	15	outrut	m
+WR	wepp-26332	"01:05 am  Thursday November 19, 2015"	"GUAM WSMO PI"	50	loam	native	100	4	4	5	30	20	15	15	outrut	m
+WD	wepp-41506	"11:01 am  Thursday November 19, 2015"	"GUAM WSMO PI"	30	silt	OldForest	50	20	20	95	15	OldForest	80	20	20	95	15	0	ft	""
+WD	wepp-41651	"11:03 am  Thursday November 19, 2015"	"RIO PIEDRAS EXP FARM PR"	10	silt	OldForest	80	20	20	95	15	OldForest	80	20	20	95	15	0	ft	""
+WD	wepp-41697	"11:04 am  Thursday November 19, 2015"	"RIO PIEDRAS EXP FARM PR"	30	silt	OldForest	80	20	20	95	15	OldForest	80	20	20	95	15	0	ft	""
+WD	wepp-41810	"11:05 am  Thursday November 19, 2015"	"RIO PIEDRAS EXP FARM PR"	30	silt	OldForest	80	20	20	95	15	OldForest	80	20	20	95	15	0	ft	""
+WD	wepp-41845	"11:05 am  Thursday November 19, 2015"	"RIO PIEDRAS EXP FARM PR"	30	silt	OldForest	80	20	20	95	15	OldForest	80	20	20	95	15	0	ft	""
+WD	wepp-41887	"11:06 am  Thursday November 19, 2015"	"RIO PIEDRAS EXP FARM PR"	30	sand	OldForest	80	20	20	95	15	OldForest	80	20	20	95	15	0	ft	""
+WD	wepp-41926	"11:06 am  Thursday November 19, 2015"	"RIO PIEDRAS EXP FARM PR"	30	clay	OldForest	80	20	20	95	15	OldForest	80	20	20	95	15	0	ft	""
+WD	wepp-42057	"11:08 am  Thursday November 19, 2015"	"RIO PIEDRAS EXP FARM PR"	30	silt	OldForest	80	20	20	95	15	OldForest	80	20	20	95	15	0	ft	""
+WD	wepp-42279	"11:14 am  Thursday November 19, 2015"	"RIO PIEDRAS EXP FARM PR"	30	silt	Bunchgrass	80	20	20	60	15	Bunchgrass	80	20	20	60	15	0	ft	""
+WD	wepp-42513	"11:17 am  Thursday November 19, 2015"	"RIO PIEDRAS EXP FARM PR"	30	silt	OldForest	80	20	20	100	15	Bunchgrass	80	20	20	60	15	0	ft	""
+WD	wepp-42566	"11:18 am  Thursday November 19, 2015"	"RIO PIEDRAS EXP FARM PR"	30	silt	Bunchgrass	80	20	20	60	15	Bunchgrass	80	20	20	60	15	0	ft	""
+WD	wepp-42856	"11:23 am  Thursday November 19, 2015"	"RIO PIEDRAS EXP FARM PR"	30	silt	Bunchgrass	80	20	20	95	15	Bunchgrass	80	20	20	95	15	0	ft	""
+WD	wepp-42960	"11:25 am  Thursday November 19, 2015"	"RIO PIEDRAS EXP FARM PR"	30	silt	Sod	80	20	20	50	15	Sod	80	20	20	50	15	0	ft	""
+WD	wepp-43132	"11:29 am  Thursday November 19, 2015"	"RIO PIEDRAS EXP FARM PR"	30	silt	Shrub	80	20	20	80	15	Shrub	80	20	20	80	15	0	ft	""
+WD	wepp-43262	"11:32 am  Thursday November 19, 2015"	"RIO PIEDRAS EXP FARM PR"	30	silt	OldForest	80	20	20	95	15	OldForest	80	20	20	95	15	0	ft	""
+WD	wepp-43316	"11:32 am  Thursday November 19, 2015"	"RIO PIEDRAS EXP FARM PR"	30	silt	Sod	80	20	20	50	15	Sod	80	20	20	50	15	0	ft	""
+WD	wepp-43394	"11:34 am  Thursday November 19, 2015"	"RIO PIEDRAS EXP FARM PR"	30	sand	OldForest	80	20	20	95	15	OldForest	80	20	20	95	15	0	ft	""
+WD	wepp-43656	"11:42 am  Thursday November 19, 2015"	"RIO PIEDRAS EXP FARM PR"	10	silt	OldForest	262	20	20	95	15	OldForest	262	20	20	95	15	0	ft	""
+WD	wepp-43713	"11:43 am  Thursday November 19, 2015"	"RIO PIEDRAS EXP FARM PR"	10	clay	OldForest	50	0	30	100	20	OldForest	50	30	5	100	20	0	m	""
+WD	wepp-43757	"11:44 am  Thursday November 19, 2015"	"RIO PIEDRAS EXP FARM PR"	30	clay	OldForest	80	20	20	95	15	OldForest	80	20	20	95	15	0	m	""
+WD	wepp-43795	"11:44 am  Thursday November 19, 2015"	"RIO PIEDRAS EXP FARM PR"	30	silt	OldForest	80	20	20	95	15	OldForest	80	20	20	95	15	0	m	""
+WD	wepp-43865	"11:46 am  Thursday November 19, 2015"	"RIO PIEDRAS EXP FARM PR"	30	silt	Bunchgrass	80	20	20	95	15	Bunchgrass	80	20	20	95	15	0	m	""
+WD	wepp-43912	"11:47 am  Thursday November 19, 2015"	"RIO PIEDRAS EXP FARM PR"	10	silt	Sod	80	20	20	50	15	Sod	80	20	20	50	15	0	m	""
+WD	wepp-43980	"11:50 am  Thursday November 19, 2015"	"RIO PIEDRAS EXP FARM PR"	10	silt	Shrub	80	20	20	80	15	Shrub	80	20	20	80	15	0	m	""
+WD	wepp-44031	"11:51 am  Thursday November 19, 2015"	"RIO PIEDRAS EXP FARM PR"	10	sand	OldForest	80	20	20	95	15	OldForest	80	20	20	95	15	0	m	""
+WD	wepp-54818	"07:43 pm  Thursday November 19, 2015"	"RIO PIEDRAS EXP FARM PR"	30	silt	OldForest	80	20	20	95	15	OldForest	80	20	20	95	15	0	m	""
+WD	wepp-54915	"07:45 pm  Thursday November 19, 2015"	"RIO PIEDRAS EXP FARM PR"	30	silt	Bunchgrass	80	20	20	95	15	Bunchgrass	80	20	20	95	15	0	m	""
+WD	wepp-55488	"08:10 pm  Thursday November 19, 2015"	"RIO PIEDRAS EXP FARM PR"	30	silt	Sod	80	20	20	50	15	Sod	80	20	20	50	15	0	m	""
+WR	wepp-56014	"08:30 pm  Thursday November 19, 2015"	"GUAM WSMO PI"	50	sand	native	100	4	4	5	30	0.3	20	15	inveg	m
+WD	wepp-56311	"08:50 pm  Thursday November 19, 2015"	"RIO PIEDRAS EXP FARM PR"	30	silt	Shrub	80	20	20	80	15	Shrub	80	20	20	80	15	0	m	""
+WD	wepp-56391	"08:53 pm  Thursday November 19, 2015"	"RIO PIEDRAS EXP FARM PR"	30	sand	OldForest	80	20	20	95	15	OldForest	80	20	20	95	15	0	m	""
+WD	wepp-56587	"09:05 pm  Thursday November 19, 2015"	""				0	0	0	0	0		0	0	0	0	0	0		""
+WD	wepp-56594	"09:05 pm  Thursday November 19, 2015"	""				0	0	0	0	0		0	0	0	0	0	0		""
+WD	wepp-56632	"09:06 pm  Thursday November 19, 2015"	"RIO PIEDRAS EXP FARM PR"	10	sand	OldForest	80	20	20	95	15	OldForest	80	20	20	95	15	0	ft	""
+WD	wepp-56725	"09:08 pm  Thursday November 19, 2015"	"RIO PIEDRAS EXP FARM PR"	10	sand	OldForest	80	20	20	95	15	OldForest	80	20	20	95	15	0	m	""
+WR	wepp-57020	"09:21 pm  Thursday November 19, 2015"	"RIO PIEDRAS EXP FARM PR"	30	silt	native	100	4	4	5	30	0.3	20	15	outrut	m
+WR	wepp-57091	"09:24 pm  Thursday November 19, 2015"	"RIO PIEDRAS EXP FARM PR"	30	silt	native	100	4	4	5	30	0.3	20	15	outrut	m
+WR	wepp-57196	"09:27 pm  Thursday November 19, 2015"	"RIO PIEDRAS EXP FARM PR"	30	silt	native	100	4	4	5	30	30	15	15	outrut	m
+WR	wepp-57235	"09:27 pm  Thursday November 19, 2015"	"RIO PIEDRAS EXP FARM PR"	30	silt	native	100	4	4	5	30	30	15	15	outrut	m
+WR	wepp-57352	"09:29 pm  Thursday November 19, 2015"	"RIO PIEDRAS EXP FARM PR"	30	silt	native	100	4	4	5	30	20	15	15	outrut	m
+WR	wepp-57475	"09:32 pm  Thursday November 19, 2015"	"RIO PIEDRAS EXP FARM PR"	30	silt	native	300	4	4	5	30	0.3	20	15	outrut	m
+WR	wepp-57511	"09:33 pm  Thursday November 19, 2015"	"RIO PIEDRAS EXP FARM PR"	30	silt	native	300	4	4	5	30	0.3	20	15	outrut	m

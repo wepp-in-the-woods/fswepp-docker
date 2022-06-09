@@ -1,0 +1,84 @@
+#this files was modified by filegenwhrm.pl on: Wednesday, March 16, 2005.
+#taxgroup Small Mammals species Porcupine /  Erithizon dorsatum
+#
+# Rank
+3,1,1,1,2
+# Nestsite
+13,1
+# Reprorank
+1,-99
+# Foraging Habitat
+20,1
+# Habitatrank
+1,-99
+# Forage/Prey Availability
+24,1:25,1:26,1
+# Preyrank
+1,-99:1,-99:1,-99
+# Predator Avoidance
+4,1:8,1:24,1:25,1:26,1
+# Avoidrank
+1,-99:1,-99:1,-99:1,-99:1,-99
+# Refugia/Shelter
+4,1:8,1:13,1:24,1:25,1:26,1
+# Shelterrank
+1,-99:1,-99:1,-99:2,-99:2,-99:2,-99
+# Coverrank
+1,-99:1,-99:2,-99:2,-99:2,-99:1,-99
+# Literature
+Distribution
+in much of N. America, not southeastern USA
+General Habitat
+mixed deciduous-coniferous forests
+Home or Activity Range
+4 ac
+Canopy Cover
+occurrence linked to high levels of overstory cover in winter and summer (Band 1996)
+Specific Habitat Preferences
+areas with high over- and understory cover, brushy understory; high snag density, large trees, structures for denning, favor habitats close to an edge; species preferences vary across range 
+Nestsite Characteristics
+dens in hollow trees, logs, caves, and rock outcrops
+Foraging Habitat Characteristics
+in summer: forage on ground; in autumn and winter: forage on tree boles and within tree canopy
+Diet
+summer: woody roots and stems, herbaceous materials, seeds, flowers; winter: inner cambium and needles- willow, cottonwoods, hemlock, lodgepole
+Predators
+mountain lion, bobcat, coyote, marten, fisher, wolf
+Shelter Habitats
+dens in hollow trees, logs, caves, and rock outcrops; brushy understory for predator avoidance; daytime resting spots include piles of windfall
+Response to Disturbance
+did not use areas burned by stand-killing wildfire in winter, however the landscape effects of fire may favorably impact porcupines in the long-term by creating more edge habitat (Band 1996)
+Sources of Information used in the Model
+Smith 1982, Band 1996
+General Sources of Background Information
+Smith 1982, Sweitzer and Berger 1992, Stricklan et al. 1995, Band 1996, Foresman 2001, reviewed in O'Neil et al. 2001, Zimmerling and Croft 2001
+Summaries of Specific Studies
+Band, Anne-Louise. 1996. Population characteristics and habitat use of porcupines in a partially burned landscape in northwestern Wyoming. Missoula, MT: University of Montana. 54 p. M.S. Thesis.
+
+Study Location: northwestern Wyoming
+Habitat Description: PICO, PSME, PIFL, PIEN, ABLA, aspen, cottonwood
+Summary: Porcupine population characteristics and habitat use were examined for both winter and summer in areas that had experienced wildfire. In winter, porcupines selected habitats close to an open-habitat edge, with trees significantly larger than expected based on availability. PICO was the preferred forest type in the study area. Areas burned by stand-killing fire were not used by porcupines. In summer, porcupines used sites with high levels of hiding cover, large number of dead trees, and greater overstory and understory cover that expected.
+
+Smith, Graham W. 1982. Habitat use by porcupines in a ponderosa pine/Douglas fir forest in northeastern Oregon. Northwest Science. 56(3): 236-240.
+
+Study Location: northeastern Oregon
+Habitat Description: PIPO-PSME forest, open bunchgrass, sagebrush
+Summary: Porcupine habitat use was assessed. Porcupines spent the day in large trees within PIPO or PSME stands. These stands offered protection from the weather and offered an abundance of small trees on which to feed. Nocturnal feeding in spring and summer was done in meadows where forbs and grasses were abundant.
+
+Stricklan; Dave; Flinders, Jerran T.; Cates, Rex G. 1995. Factors affecting selection of winter food and roosting resources by porcupines in Utah. Great Basin Naturalist. 55(1): 29-36.
+
+Study Location: Utah
+Habitat Description: mountain brush zone; trees include PSME, ABCO, QUGA, ACGR, ACGL, aspen
+Summary: In a conifer-oak zone, porcupines consistently chose to feed and roost in Gambel oak, despite the presence of conifers and other deciduous trees. Oak trees provided a diet high in protein but not fat, and did not offer as dense a cover resource as the conifers. The authors speculate that porcupines in the study area had a layer of adipose tissue thick enough to preclude the need for a high-fat diet or extreme thermo-protection.
+
+Sweitzer, Richard Alan; Berger, Joel. 1992. Size-related effects of predation on habitat use and behavior of porcupines (Erithizon dorsatum). Ecology. 73(3): 867-875.
+
+Study Location: northwestern Nevada
+Habitat Description: sagebrush, saltbrush, bitterbrush, Utah juniper
+Summary: To examine ecological and behavior strategies to reduce predation, this study tested whether habitat use varied with activity level and age class and whether increased nutritional stress led individuals to increase predation risk to avoid starvation. Compared to foraging animals, sleeping porcupines of all ages avoided high risk areas. Loss of body mass varied by habitat, with individuals foraging in open, high risk areas experiencing less mass loss than those foraging in low risk areas. Juveniles remained in low risk foraging areas, even when more risky habitats offered better quality forage. Sub-adults shifted to higher risk foraging areas as body condition deteriorated, but adults did not show this pattern. 
+
+Zimmerling, Todd N.; Croft, Chad D. 2001. Resource selection by porcupines: winter den site location and forage tree choices. Western Journal of Applied Forestry. 16(2): 53-57.
+
+Study Location: Utah Co., Utah
+Habitat Description: TSHE, THPL, sitka spruce, annabilis fir
+Summary: Tree species composition and size-class distribution were examined in relation to porcupine den selection. In this region, porcupines denned in areas with higher proportions of sitka spruce. Porcupines selected for spruce trees 15-19 cm dbh and against hemlock trees < 14.9 cm dbh when selecting winter den sites. By looking at preferred forage species, the authors assert that porcupines do not choose winter den sites based on forage availability. In this study, it appears that species composition was more important than size class in determining preferred habitat.

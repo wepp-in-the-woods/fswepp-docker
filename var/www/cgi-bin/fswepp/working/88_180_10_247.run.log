@@ -1,0 +1,11 @@
+WE	wepp-16806	"01:01 pm  Monday January 14, 2013"	"DENVER WB AP CO"	clay	20	chap	0	50	30	300	l	60	35	ft
+WE	wepp-16856	"01:01 pm  Monday January 14, 2013"	"DENVER WB AP CO"	clay	20	chap	0	50	30	300	h	60	35	ft
+WE	wepp-16949	"01:02 pm  Monday January 14, 2013"	"DENVER WB AP CO"	clay	20	chap	0	50	30	100	h	60	35	m
+WR	wepp-17210	"01:15 pm  Monday January 14, 2013"	"BIRMINGHAM WB AP AL"	30	clay	native	250	3	4	3	45	50	25	20	inbare	m
+WR	wepp-17255	"01:17 pm  Monday January 14, 2013"	"BIRMINGHAM WB AP AL"	30	clay	native	250	3	4	3	45	50	25	20	inveg	m
+WR	wepp-17275	"01:18 pm  Monday January 14, 2013"	"BIRMINGHAM WB AP AL"	30	clay	native	250	3	4	3	45	50	25	20	outrut	m
+WR	wepp-17298	"01:18 pm  Monday January 14, 2013"	"BIRMINGHAM WB AP AL"	30	clay	native	250	3	4	3	45	50	25	20	outrut	m
+WR	wepp-17345	"01:19 pm  Monday January 14, 2013"	"BIRMINGHAM WB AP AL"	30	clay	native	250	3	4	3	45	50	25	20	outrut	m
+WR	wepp-17366	"01:19 pm  Monday January 14, 2013"	"BIRMINGHAM WB AP AL"	30	clay	native	250	3	4	3	45	50	25	20	outunrut	m
+WR	wepp-17386	"01:22 pm  Monday January 14, 2013"	"BIRMINGHAM WB AP AL"	30	clay	graveled	250	3	4	3	45	50	25	20	inbare	m
+WR	wepp-17426	"01:22 pm  Monday January 14, 2013"	"BIRMINGHAM WB AP AL"	30	clay	paved	250	3	4	3	45	50	25	20	inbare	m

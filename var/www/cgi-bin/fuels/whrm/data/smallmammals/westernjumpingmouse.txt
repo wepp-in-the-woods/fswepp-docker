@@ -1,0 +1,90 @@
+#this files was modified by filegenwhrm.pl on: Wednesday, March 16, 2005.
+#taxgroup Small Mammals species Western jumping mouse /  Zapus princeps
+#
+# Rank
+3,3,2,4,3
+# Nestsite
+2,1:3,1:4,1
+# Reprorank
+2,-99:2,-99:1,-99
+# Foraging Habitat
+8,-1:20,-1:45,1
+# Habitatrank
+1,-99:1,-99:1,-99
+# Forage/Prey Availability
+2,1:3,1:4,1
+# Preyrank
+2,-99:3,-99:1,-99
+# Predator Avoidance
+-99
+# Avoidrank
+-99
+# Refugia/Shelter
+2,1:3,1
+# Shelterrank
+2,-99:3,-99
+# Coverrank
+2,-99:3,-99
+# Literature
+Distribution
+western Canada, south into western USA and Dakotas, along Rocky Mountain chain
+General Habitat
+prefers grassy areas near water; has been found in alder thickets, aspen stands, spruce-subalpine fir, mature lodgepole, cedar-hemlock
+Home or Activity Range
+&lt 2.5 ac (O'Neil et al. 2001)
+Canopy Cover
+low canopy cover (Belk 1988)
+Specific Habitat Preferences
+open canopy, low density of fallen logs, presence of grasses and herbs, dense understory vegetation
+Nestsite Characteristics
+nests on surface under protection of grasses or herbs
+Foraging Habitat Characteristics
+forages on ground
+Diet
+seeds or grasses and forbs, also smaller amounts of green vegetation and insects, blackberries, fungi (Endogone)
+Predators
+boreal owl
+Shelter Habitats
+uses high levels of ground vegetation for shelter
+Response to Disturbance
+more abundant in treated (clearcut and seed-tree) than old growth forest stands (Sullivan et al. 2000)
+Sources of Information used in the Model
+Brown 1967, Clark 1971, Belk et al. 1988, Raphael 1988
+General Sources of Background Information
+Brown 1967, Clark 1971, Burt 1980, Belk et al. 1988, Raphael 1988, Hayward et al. 1993, reviewed in Pearson 1999, Sullivan et al. 2000, reviewed in O'Neil et al. 2001
+Summaries of Specific Studies
+Belk, Mark C.; Smith, H. Duane; Lawson, John. 1988. Use and partitioning of montane habitat by small mammals. Journal of Mammalogy. 69:688-695.
+
+Study Location: Utah Co., Utah
+Habitat Description: PSME and aspen interspersed with herbaceous and shrub-dominated meadows
+Summary: Habitat associations of four small mammal species (deer mouse, western jumping mouse, western redbacked vole, montane vole) were examined for montane sites in Utah. Species microhabitat preferences are given. Microhabitat preferences shifted from fallen logs and brush in early summer to areas of herbaceous growth in mid and late summer. Females occupied more structured microhabitat than males (higher levels of fallen trees, trees, and shrubs).
+
+Brown, L.N. 1967. Distribution of mice in the Medicine Bow Mountains of Wyoming. Ecology. 48:677-680.
+
+Study Location: southern Wyoming
+Habitat Description: 8 types: sagebrush, mountain mahogany, aspen, subalpine meadow, willow-alder, lodgepole pine, spruce-fir, alpine tundra
+Summary: The distributions of six mammal species were examined across eight types of plant communities. This summary will only address plant community types of interest to this project (aspen, PICO, spruce-fir). Jumping mice were common in aspen but were rare in PICO and spruce-fir forest unless bogs and/or meadows were present. They preferred wet areas with dense groundcover. Western redbacked voles were common in PICO and spruce-fir forest, and did not show a preference for water or ground cover. Deer mice were abundant in all types, but were rare in PICO and spruce-fir. They avoided wet areas and exhibited no preference for ground cover. Overall, plant communities with dense ground cover had twice the number of small mammals as those with sparse ground cover.
+
+Clark, Tim W. 1971. Ecology of the western jumping mouse in Grand Teton National Park, Wyoming. Northwest Science. 45(4): 229-238.
+
+Study Location: Grand Teton National Park, Wyoming
+Habitat Description: variety, including sage meadow to aspen communities
+Summary: Western jumping mice were trapped in Grand Teton National Park. Large numbers were seen in the aspen woodlands, as well as the shrub-sedge-savannah vegetation type, areas with very high ground cover of forbs and grasses and moderate soil moisture conditions. The majority of stomach contents were seeds; green plant material and arthropods were also present.
+
+Hayward, Gregory D., Hayward, Patricia H.; Garton, Edward O. 1993. Ecology of boreal owls in the northern Rocky Mountains, USA. Wildlife Monographs. 124:159.
+
+Study Location: northern Rocky Mountains; western Montana, Idaho, northwestern Wyoming, northern Utah
+Habitat Description: spruce-fir zone; including ABLA, PSME, aspen, PICO, also extended into PIPO zone
+Summary: Four year study on the ecology of the boreal owl in the northern Rocky Mountains. All owls were detected above 1292 m elevation, and the majority of detections were in ABLA habitat types. PICO was the only dominant forest type that was avoided, despite being common in the study area. It was used when no other forest type was available, and was characterized as having large trees. Nest sites were restricted to mature/old stands with complex physical structure; many habitat types were used, including mixed conifer forest (PIPO and PSME) 39% of the time as well as aspen 21% of the time despite covering <1% of the available forest. PICO was avoided for nesting. Boreal owls were selective in summer roosts sites, choosing sites with greater canopy cover, higher tree density, and higher basal area. The best foraging habitat was associated with mature/old spruce-fir stands where prey was most abundant. Diet, population and breeding were also examined. Habitat associations by vegetation type are given for primary prey species. Management strategies that focus on snag retention and harvest practices that retain forest structure are recommended for maintaining quality habitat.
+
+Raphael, Martin G. 1988. Habitat associations of small mammals in a subalpine forest, southeastern Wyoming. In: Management of amphibians, reptiles, and small mammals in North America symposium: proceedings; Gen. Tech. Rep. RM-166. Fort Collins, CO: USDA, Forest Service, Rocky Mountain Forest and Range Experiment Station. 359-367.
+
+Study Location: southern Wyoming
+Habitat Description: PICO (60%), PIEN, ABLA
+Summary: Abundance of small mammals was associated with generalized habitat types within the supalpine zone. Moisture and stand maturity were two habitat features that separated patterns of abundance of various species. Specific habitat associations are given for 8 species of small mammals. The southern red-backed vole was confirmed as a suitable indicator of old-growth forest; the masked and dusky shrew may be as well.
+
+Sullivan, Thomas P.; Druscilla, S.; Lindgren, Pontus M.F. 2000. Small mammals and stand structure in young pine, seed-tree, and old-growth forest, southwest Canada. Ecological Applications. 10(5): 1367-1383.
+
+Study Location:  south-central British Columbia
+Habitat Description: PSME, PICO
+Summary: This study tested the hypothesis that diversity of stand structure attributes and forest-floor small mammal communities increase from young pine to seed tree to old growth forest. Some vegetative attributes differed between forest type. Red-backed voles were most abundant in old growth forest, while northwestern chipmunks, heather voles, western jumping mice, montane shrews, and common shrews were more abundant in the treated stands. Meadow voles were more abundant in the seed tree stands. Deer mice, long-tailed voles, and short-tailed weasels were similarly abundant among all treatment types. Mean species richness and diversity was higher in the treated stands, suggesting that all stand types offer their own structural diversity to the forest landscape.

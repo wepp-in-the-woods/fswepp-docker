@@ -1,0 +1,336 @@
+WR	wepp-9264	"11:10 am  Monday November 2, 2009"	"YELLOWTAIL DAM MT"	30	silt	native	200	4	13	40	50	130	25	20	inbare
+WR	wepp-9465	"11:14 am  Monday November 2, 2009"	"YELLOWTAIL DAM MT"	30	clay	graveled	200	4	13	15	50	130	25	20	inveg
+WR	wepp-9636	"11:31 am  Monday November 2, 2009"	"YELLOWTAIL DAM MT"	30	clay	native	500	4	8	25	50	200	75	20	inbare
+WR	wepp-9642	"11:32 am  Monday November 2, 2009"	"YELLOWTAIL DAM MT"	30	clay	native	500	4	8	25	50	100	75	20	inbare
+WR	wepp-9677	"11:35 am  Monday November 2, 2009"	"YELLOWTAIL DAM MT"	30	clay	native	500	4	8	25	50	200	75	50	inbare
+WR	wepp-9683	"11:36 am  Monday November 2, 2009"	"YELLOWTAIL DAM MT"	30	clay	native	500	4	8	25	50	200	75	100	inbare
+WR	wepp-9778	"11:45 am  Monday November 2, 2009"	"YELLOWTAIL DAM MT"	30	clay	graveled	200	4	13	40	50	200	25	20	inveg
+WR	wepp-19223	"01:09 pm  Tuesday November 3, 2009"	"YELLOWTAIL DAM MT"	100	clay	native	200	4	13	15	50	130	25	20	inveg
+WR	wepp-27674	"01:14 pm  Thursday November 12, 2009"	"YELLOWTAIL DAM MT"	100	clay	native	281	5.8	8	15	50	515	69	20	inbare
+WR	wepp-27727	"01:15 pm  Thursday November 12, 2009"	"YELLOWTAIL DAM MT"	100	loam	native	281	5.8	8	15	50	515	69	20	inbare
+WR	wepp-27733	"01:16 pm  Thursday November 12, 2009"	"YELLOWTAIL DAM MT"	100	loam	native	281	5.8	8	15	50	515	69	50	inbare
+WR	wepp-27739	"01:17 pm  Thursday November 12, 2009"	"YELLOWTAIL DAM MT"	100	clay	native	281	5.8	8	15	50	515	69	50	inbare
+WD	wepp-19908	"01:41 pm  Monday November 16, 2009"	"YELLOWTAIL DAM MT"	30	clay	tree20	15.2439024390244	0	30	100	20	tree5	15.2439024390244	30	5	100	20	0	ft	""
+WR	wepp-26521	"12:08 pm  Thursday December 3, 2009"	"YELLOWTAIL DAM MT +"	100	clay	native	325	4.9	15	50	50	622	74	20	inbare
+WR	wepp-26623	"12:12 pm  Thursday December 3, 2009"	"YELLOWTAIL DAM MT +"	100	clay	native	265	6.2	15	50	60	466	64	20	inbare
+WR	wepp-26733	"12:14 pm  Thursday December 3, 2009"	"YELLOWTAIL DAM MT +"	100	clay	native	421	5.6	13	50	89	337	71	20	inbare
+WR	wepp-26758	"12:16 pm  Thursday December 3, 2009"	"YELLOWTAIL DAM MT +"	100	clay	native	265	6.2	16	50	60	466	64	20	inbare
+WR	wepp-26796	"12:17 pm  Thursday December 3, 2009"	"YELLOWTAIL DAM MT +"	100	clay	native	680	7.1	15	50	44	311	58	20	inbare
+WR	wepp-26835	"12:23 pm  Thursday December 3, 2009"	""	1			0	0	0	0	0	0	0	0	
+WD	wepp-26866	"12:27 pm  Thursday December 3, 2009"	"YELLOWTAIL DAM MT +"	100	clay	short	60.9756097560976	60	60	90	20	tree5	15.2439024390244	100	100	100	20	0	ft	""
+WD	wepp-26871	"12:28 pm  Thursday December 3, 2009"	"YELLOWTAIL DAM MT +"	100	clay	short	60.9756097560976	60	60	90	1	low	2.4390243902439	100	100	0	20	0	ft	""
+WD	wepp-26896	"12:30 pm  Thursday December 3, 2009"	"YELLOWTAIL DAM MT +"	100	clay	short	60.9756097560976	60	60	95	1	low	2.4390243902439	100	100	0	20	0	ft	""
+WD	wepp-26929	"12:32 pm  Thursday December 3, 2009"	"YELLOWTAIL DAM MT +"	100	clay	short	60.9756097560976	20	60	95	1	low	2.4390243902439	100	100	0	20	0	ft	"Demijohn to Bridge"
+WD	wepp-26936	"12:34 pm  Thursday December 3, 2009"	"YELLOWTAIL DAM MT +"	100	clay	short	60.9756097560976	20	47	95	1	low	2.4390243902439	100	100	0	20	0	ft	"Bridge to Gooseberry"
+WD	wepp-26941	"12:35 pm  Thursday December 3, 2009"	"YELLOWTAIL DAM MT +"	100	clay	short	60.9756097560976	20	44	95	1	low	1.82926829268293	100	100	0	20	0	ft	"Gooseberry to Wyoming"
+WD	wepp-26946	"12:36 pm  Thursday December 3, 2009"	"YELLOWTAIL DAM MT +"	100	clay	tree20	60.9756097560976	20	44	100	1	low	1.82926829268293	100	100	0	20	0	ft	"Gooseberry to Wyoming"
+WD	wepp-26951	"12:37 pm  Thursday December 3, 2009"	"YELLOWTAIL DAM MT +"	100	clay	tree20	60.9756097560976	20	44	100	1	tree5	2.4390243902439	44	50	100	20	0	ft	"Gooseberry to Wyoming"
+WD	wepp-27010	"12:38 pm  Thursday December 3, 2009"	"YELLOWTAIL DAM MT +"	100	clay	tree20	60.9756097560976	20	24	100	1	tree5	2.4390243902439	24	30	100	1	0	ft	"Wyoming to Mill"
+WD	wepp-27021	"12:40 pm  Thursday December 3, 2009"	"YELLOWTAIL DAM MT +"	100	clay	tree20	60.9756097560976	20	44	100	1	tree5	2.4390243902439	44	50	100	1	0	ft	"Gooseberry to Wyoming"
+WR	wepp-7721	"11:07 am  Friday December 4, 2009"	"YELLOWTAIL DAM MT +"	100	clay	graveled	325	4.9	16	50	50	622	74	20	inbare
+WR	wepp-7739	"11:08 am  Friday December 4, 2009"	"YELLOWTAIL DAM MT +"	100	clay	graveled	325	4.9	16	50	50	622	74	20	inveg
+WR	wepp-7760	"11:10 am  Friday December 4, 2009"	"YELLOWTAIL DAM MT +"	100	clay	graveled	680	7.1	16	50	44	311	58	20	inbare
+WR	wepp-7799	"11:11 am  Friday December 4, 2009"	"YELLOWTAIL DAM MT +"	100	clay	graveled	680	7.1	16	50	44	311	58	20	inveg
+WD	wepp-7879	"11:17 am  Friday December 4, 2009"	"YELLOWTAIL DAM MT +"	100	clay	short	48.1707317073171	20	60	20	20	tree5	12.8048780487805	66.7	66.7	20	20	0	ft	"Demijohn to Bridge yr1"
+WD	wepp-7884	"11:18 am  Friday December 4, 2009"	"YELLOWTAIL DAM MT +"	100	clay	short	48.1707317073171	20	60	20	20	low	12.8048780487805	66.7	66.7	20	20	0	ft	"Demijohn to Bridge yr1"
+WD	wepp-7889	"11:18 am  Friday December 4, 2009"	"YELLOWTAIL DAM MT +"	100	clay	short	48.1707317073171	20	60	95	20	low	12.8048780487805	66.7	66.7	20	20	0	ft	"Demijohn to Bridge yr1"
+WD	wepp-7897	"11:19 am  Friday December 4, 2009"	"YELLOWTAIL DAM MT +"	100	clay	short	48.1707317073171	20	60	95	20	low	12.8048780487805	66.7	66.7	95	20	0	ft	"Demijohn to Bridge yr2+"
+WD	wepp-32178	"08:57 am  Wednesday December 9, 2009"	"YELLOWTAIL DAM MT +"	100	clay	short	30.4878048780488	40	60	95	20	short	30.4878048780488	60	70	95	20	0	ft	""
+WR	wepp-4348	"07:52 am  Wednesday December 16, 2009"	"YELLOWTAIL DAM MT +"	100	clay	native	325	4.9	15	1	0.3	100	50	20	inbare
+WR	wepp-4354	"07:53 am  Wednesday December 16, 2009"	"YELLOWTAIL DAM MT +"	100	clay	graveled	325	4.9	18	1	0.3	100	50	20	inbare
+WR	wepp-4387	"07:55 am  Wednesday December 16, 2009"	"YELLOWTAIL DAM MT +"	100	clay	graveled	325	4.9	18	1	0.3	100	50	20	inveg
+WR	wepp-4394	"07:58 am  Wednesday December 16, 2009"	"YELLOWTAIL DAM MT +"	100	clay	native	265	6.2	16	1	0.3	100	60	20	inbare
+WR	wepp-4447	"08:01 am  Wednesday December 16, 2009"	"YELLOWTAIL DAM MT +"	100	clay	graveled	265	6.2	19.4	1	0.3	100	60	20	inbare
+WR	wepp-4453	"08:01 am  Wednesday December 16, 2009"	"YELLOWTAIL DAM MT +"	100	clay	graveled	265	6.2	19.4	1	0.3	100	60	20	inveg
+WR	wepp-4517	"08:04 am  Wednesday December 16, 2009"	"YELLOWTAIL DAM MT +"	100	clay	native	421	5.6	13	1	0.3	100	89	20	inbare
+WR	wepp-4525	"08:05 am  Wednesday December 16, 2009"	"YELLOWTAIL DAM MT +"	100	clay	graveled	421	5.6	18	1	0.3	100	89	20	inbare
+WR	wepp-4531	"08:06 am  Wednesday December 16, 2009"	"YELLOWTAIL DAM MT +"	100	clay	graveled	421	5.6	18	1	0.3	100	89	20	inveg
+WR	wepp-17433	"07:08 am  Thursday December 17, 2009"	"YELLOWTAIL DAM MT +"	100	clay	native	680	7.1	15	1	0.3	100	44	20	inbare
+WR	wepp-17444	"07:09 am  Thursday December 17, 2009"	"YELLOWTAIL DAM MT +"	100	clay	graveled	680	7.1	19.1	1	0.3	100	44	20	inbare
+WR	wepp-17482	"07:10 am  Thursday December 17, 2009"	"YELLOWTAIL DAM MT +"	100	clay	graveled	680	7.1	19.1	1	0.3	100	44	20	inveg
+WD	wepp-17539	"07:18 am  Thursday December 17, 2009"	"YELLOWTAIL DAM MT +"	100	clay	short	58.5365853658537	55	65	100	20	low	2.4390243902439	100	100	0	20	0	ft	"seg 1 no action cutslope"
+WD	wepp-17571	"07:20 am  Thursday December 17, 2009"	"YELLOWTAIL DAM MT +"	100	clay	short	52.1341463414634	55	65	100	20	low	8.84146341463414	71	71	25	20	0	ft	"seg 1 action yr 1 cutslope"
+WD	wepp-17576	"07:21 am  Thursday December 17, 2009"	"YELLOWTAIL DAM MT +"	100	clay	short	52.1341463414634	55	65	100	20	low	8.84146341463414	71	71	75	20	0	ft	"seg 1 action yr 2 cutslope"
+WD	wepp-17585	"07:24 am  Thursday December 17, 2009"	"YELLOWTAIL DAM MT +"	100	clay	short	50	42	52	100	20	low	10.9756097560976	69	69	75	20	0	ft	"seg 2 action yr 2 cutslope"
+WD	wepp-17617	"07:25 am  Thursday December 17, 2009"	"YELLOWTAIL DAM MT +"	100	clay	short	50	42	52	100	20	low	10.9756097560976	69	69	25	20	0	ft	"seg 2 action yr 1 cutslope"
+WD	wepp-17625	"07:30 am  Thursday December 17, 2009"	"YELLOWTAIL DAM MT +"	100	clay	short	58.5365853658537	42	52	100	20	low	2.4390243902439	100	100	0	20	0	ft	"seg 2 no action cutslope"
+WD	wepp-17682	"07:35 am  Thursday December 17, 2009"	"YELLOWTAIL DAM MT +"	100	clay	short	59.1463414634146	39	49	100	20	low	1.82926829268293	100	100	0	20	0	ft	"seg 3 no action cutslope"
+WD	wepp-17715	"07:36 am  Thursday December 17, 2009"	"YELLOWTAIL DAM MT +"	100	clay	short	53.3536585365854	39	49	100	20	low	7.62195121951219	66	66	25	20	0	ft	"seg 3 action yr 1 cutslope"
+WD	wepp-17723	"07:36 am  Thursday December 17, 2009"	"YELLOWTAIL DAM MT +"	100	clay	short	53.3536585365854	39	49	100	20	low	7.62195121951219	66	66	75	20	0	ft	"seg 3 action yr 2 cutslope"
+WD	wepp-17757	"07:40 am  Thursday December 17, 2009"	"YELLOWTAIL DAM MT +"	100	clay	short	58.8414634146341	24	24	100	20	low	2.13414634146341	70	70	75	20	0	ft	"seg 4 action yr 2 cutslope"
+WD	wepp-17765	"07:41 am  Thursday December 17, 2009"	"YELLOWTAIL DAM MT +"	100	clay	short	58.8414634146341	24	24	100	20	low	2.13414634146341	70	70	25	20	0	ft	"seg 4 action yr 2 cutslope"
+WD	wepp-17770	"07:42 am  Thursday December 17, 2009"	"YELLOWTAIL DAM MT +"	100	clay	short	30.4878048780488	24	24	100	20	low	30.4878048780488	24	24	100	20	0	ft	"seg 4 no action cutslope"
+WD	wepp-17822	"07:45 am  Thursday December 17, 2009"	"YELLOWTAIL DAM MT +"	100	clay	short	15.2439024390244	44	44	100	20	low	15.2439024390244	44	44	100	20	0	ft	"seg 4 no action fillslope"
+WD	wepp-17827	"07:46 am  Thursday December 17, 2009"	"YELLOWTAIL DAM MT +"	100	clay	short	15.2439024390244	44	44	100	20	short	15.2439024390244	44	44	100	20	0	ft	"seg 4 no action fillslope"
+WD	wepp-17834	"07:48 am  Thursday December 17, 2009"	"YELLOWTAIL DAM MT +"	100	clay	short	15.2439024390244	24	24	100	20	short	15.2439024390244	24	24	100	20	0	ft	"seg 4 no action cutslope"
+WD	wepp-17870	"07:52 am  Thursday December 17, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	2.13414634146341	61	61	75	20	short	28.3536585365854	44	44	100	20	0	ft	"seg 4 action yr 2 fillslope"
+WD	wepp-17876	"07:53 am  Thursday December 17, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	2.13414634146341	61	61	25	20	short	28.3536585365854	44	44	100	20	0	ft	"seg 4 action yr 2 fillslope"
+WD	wepp-17882	"07:53 am  Thursday December 17, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	2.13414634146341	61	61	25	20	short	28.3536585365854	44	44	100	20	0	ft	"seg 4 action yr 1 fillslope"
+WD	wepp-18003	"08:04 am  Thursday December 17, 2009"	"YELLOWTAIL DAM MT +"	100	clay	tree20	15.2439024390244	89	89	100	20	tree20	15.2439024390244	89	89	100	20	0	ft	"seg 3 no action/action fillslope"
+WD	wepp-18036	"08:05 am  Thursday December 17, 2009"	"YELLOWTAIL DAM MT +"	100	clay	tree20	15.2439024390244	44	44	100	20	tree20	15.2439024390244	44	44	100	20	0	ft	"seg 4 no action fillslope"
+WD	wepp-18042	"08:07 am  Thursday December 17, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	2.13414634146341	61	61	25	20	tree20	15.2439024390244	44	44	100	20	0	ft	"seg 4 action yr 1 fillslope"
+WD	wepp-18048	"08:07 am  Thursday December 17, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	2.13414634146341	61	61	75	20	tree20	15.2439024390244	44	44	100	20	0	ft	"seg 4 action yr 1 fillslope"
+WD	wepp-18053	"08:10 am  Thursday December 17, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	2.13414634146341	61	61	75	20	tree20	15.2439024390244	44	44	100	20	0	ft	"seg 4 action yr 2 fillslope"
+WD	wepp-18088	"08:12 am  Thursday December 17, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	3.96341463414634	55	55	75	20	short	26.5243902439024	60	60	100	20	0	ft	"seg 2 action yr 2 fillslope"
+WD	wepp-18096	"08:12 am  Thursday December 17, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	3.96341463414634	55	55	25	20	short	26.5243902439024	60	60	100	20	0	ft	"seg 2 action yr 1 fillslope"
+WD	wepp-18101	"08:14 am  Thursday December 17, 2009"	"YELLOWTAIL DAM MT +"	100	clay	short	15.2439024390244	60	60	100	20	short	15.2439024390244	60	60	100	20	0	ft	"seg 2 no action fillslope"
+WD	wepp-18153	"08:16 am  Thursday December 17, 2009"	"YELLOWTAIL DAM MT +"	100	clay	short	15.2439024390244	50	50	100	20	short	15.2439024390244	50	50	100	20	0	ft	"seg 1 no action fillslope"
+WD	wepp-18161	"08:17 am  Thursday December 17, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	8.84146341463414	68	68	25	20	short	21.6463414634146	50	50	100	20	0	ft	"seg 1 action yr 1 fillslope"
+WD	wepp-18166	"08:17 am  Thursday December 17, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	8.84146341463414	68	68	75	20	short	21.6463414634146	50	50	100	20	0	ft	"seg 1 action yr 2 fillslope"
+WD	wepp-18202	"08:23 am  Thursday December 17, 2009"	"YELLOWTAIL DAM MT +"	100	clay	tree20	53.3536585365854	39	49	100	20	low	7.62195121951219	66	66	75	20	0	ft	"seg 3 action yr 2 cutslope"
+WD	wepp-18209	"08:23 am  Thursday December 17, 2009"	"YELLOWTAIL DAM MT +"	100	clay	tree20	53.3536585365854	39	49	100	20	low	7.62195121951219	66	66	25	20	0	ft	"seg 3 action yr 1 cutslope"
+WD	wepp-18214	"08:24 am  Thursday December 17, 2009"	"YELLOWTAIL DAM MT +"	100	clay	tree20	59.1463414634146	39	49	100	20	low	1.82926829268293	100	100	0	20	0	ft	"seg 3 no action cutslope"
+WD	wepp-18249	"08:26 am  Thursday December 17, 2009"	"YELLOWTAIL DAM MT +"	100	clay	tree20	30.4878048780488	24	24	100	20	tree20	30.4878048780488	24	24	100	20	0	ft	"seg 4 no action cutslope"
+WD	wepp-18254	"08:28 am  Thursday December 17, 2009"	"YELLOWTAIL DAM MT +"	100	clay	tree20	58.8414634146341	24	24	100	20	low	2.13414634146341	70	70	25	20	0	ft	"seg 4 action yr 1 cutslope"
+WD	wepp-18260	"08:28 am  Thursday December 17, 2009"	"YELLOWTAIL DAM MT +"	100	clay	tree20	58.8414634146341	24	24	100	20	low	2.13414634146341	70	70	75	20	0	ft	"seg 4 action yr 2 cutslope"
+WD	wepp-18288	"08:30 am  Thursday December 17, 2009"	"YELLOWTAIL DAM MT +"	100	clay	tree20	58.8414634146341	24	24	100	20	low	2.13414634146341	70	70	100	20	0	ft	"seg 4 action yr 3 cutslope"
+WD	wepp-18297	"08:30 am  Thursday December 17, 2009"	"YELLOWTAIL DAM MT +"	100	clay	tree20	58.8414634146341	24	24	100	20	short	2.13414634146341	70	70	100	20	0	ft	"seg 4 action yr 5 cutslope"
+WD	wepp-463	"07:31 am  Monday December 21, 2009"	"YELLOWTAIL DAM MT +"	100	clay	short	52.1341463414634	55	65	100	20	low	8.84146341463414	71	71	25	20	0	ft	""
+WD	wepp-468	"07:32 am  Monday December 21, 2009"	"YELLOWTAIL DAM MT +"	100	clay	short	52.1341463414634	55	65	100	20	low	8.84146341463414	71	71	50	20	0	ft	""
+WD	wepp-473	"07:32 am  Monday December 21, 2009"	"YELLOWTAIL DAM MT +"	100	clay	short	52.1341463414634	55	65	100	20	low	8.84146341463414	71	71	75	20	0	ft	""
+WD	wepp-478	"07:33 am  Monday December 21, 2009"	"YELLOWTAIL DAM MT +"	100	clay	short	52.1341463414634	55	65	100	20	low	8.84146341463414	71	71	55	20	0	ft	""
+WD	wepp-510	"07:33 am  Monday December 21, 2009"	"YELLOWTAIL DAM MT +"	10	clay	short	52.1341463414634	55	65	100	20	low	8.84146341463414	71	71	55	20	0	ft	""
+WD	wepp-515	"07:34 am  Monday December 21, 2009"	"YELLOWTAIL DAM MT +"	100	clay	short	52.1341463414634	55	65	100	20	low	8.84146341463414	71	71	55	20	0	ft	""
+WD	wepp-520	"07:35 am  Monday December 21, 2009"	"YELLOWTAIL DAM MT +"	100	clay	short	52.1341463414634	55	65	100	20	low	8.84146341463414	71	71	55	20	0	ft	"seg 1 yr 1 cutslope"
+WD	wepp-525	"07:36 am  Monday December 21, 2009"	"YELLOWTAIL DAM MT +"	100	clay	short	52.1341463414634	55	65	100	20	low	8.84146341463414	71	71	65	20	0	ft	"seg 1 yr 2 cutslope"
+WD	wepp-530	"07:36 am  Monday December 21, 2009"	"YELLOWTAIL DAM MT +"	100	clay	short	52.1341463414634	55	65	100	20	low	8.84146341463414	71	71	75	20	0	ft	"seg 1 yr 2 cutslope"
+WD	wepp-535	"07:37 am  Monday December 21, 2009"	"YELLOWTAIL DAM MT +"	100	clay	short	52.1341463414634	55	65	100	20	low	8.84146341463414	71	71	85	20	0	ft	"seg 1 yr 2 cutslope"
+WD	wepp-540	"07:37 am  Monday December 21, 2009"	"YELLOWTAIL DAM MT +"	100	clay	short	52.1341463414634	55	65	100	20	low	8.84146341463414	71	71	80	20	0	ft	"seg 1 yr 2 cutslope"
+WD	wepp-545	"07:37 am  Monday December 21, 2009"	"YELLOWTAIL DAM MT +"	100	clay	short	52.1341463414634	55	65	100	20	low	8.84146341463414	71	71	81	20	0	ft	"seg 1 yr 2 cutslope"
+WD	wepp-853	"07:55 am  Monday December 21, 2009"	"YELLOWTAIL DAM MT +"	100	clay	high	76.219512195122	100	50	0	20	high	76.219512195122	50	30	0	20	0	ft	""
+WD	wepp-858	"07:55 am  Monday December 21, 2009"	"YELLOWTAIL DAM MT +"	100	clay	high	76.219512195122	100	50	0	20	high	76.219512195122	50	30	0	20	0	ft	""
+WD	wepp-6877	"11:29 am  Monday December 21, 2009"	"YELLOWTAIL DAM MT +"	30	clay	high	365.853658536585	50	55	0	20	high	365.853658536585	25	25	0	20	0	ft	""
+WD	wepp-6963	"11:30 am  Monday December 21, 2009"	"YELLOWTAIL DAM MT +"	100	clay	high	365.853658536585	50	55	0	20	high	365.853658536585	25	25	0	20	0	ft	"Red Waffle Fire yr 1"
+WD	wepp-7162	"11:32 am  Monday December 21, 2009"	"YELLOWTAIL DAM MT +"	100	clay	high	182.926829268293	50	55	0	20	high	182.926829268293	25	25	0	20	0	ft	"Red Waffle Fire yr 1"
+WD	wepp-7288	"11:33 am  Monday December 21, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	182.926829268293	50	55	85	20	low	182.926829268293	25	25	85	20	0	ft	"Red Waffle Fire yr 1"
+WD	wepp-7350	"11:34 am  Monday December 21, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	365.853658536585	50	55	85	20	low	365.853658536585	25	25	85	20	0	ft	"Red Waffle Fire yr 1"
+WD	wepp-7390	"11:34 am  Monday December 21, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	365.853658536585	50	55	85	20	low	182.926829268293	25	25	85	20	0	ft	"Red Waffle Fire yr 1"
+WD	wepp-7425	"11:35 am  Monday December 21, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	365.853658536585	50	55	0	20	low	182.926829268293	25	25	0	20	0	ft	"Red Waffle Fire yr 1"
+WD	wepp-7486	"11:35 am  Monday December 21, 2009"	"YELLOWTAIL DAM MT +"	100	clay	high	365.853658536585	50	55	0	20	high	182.926829268293	25	25	0	20	0	ft	"Red Waffle Fire yr 1"
+WD	wepp-8181	"11:43 am  Monday December 21, 2009"	"YELLOWTAIL DAM MT +"	100	clay	high	365.853658536585	19	19	0	20	high	365.853658536585	33	33	0	20	0	ft	"Red Waffle Fire yr 1"
+WD	wepp-8247	"11:43 am  Monday December 21, 2009"	"YELLOWTAIL DAM MT +"	100	clay	high	365.853658536585	19	19	0	20	high	139.329268292683	33	33	0	20	0	ft	"Red Waffle Fire yr 1"
+WD	wepp-15915	"01:48 pm  Monday December 21, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	4.26829268292683	71	71	85	20	low	4.57317073170732	71	71	85	20	0	ft	"test segment 1"
+WD	wepp-15920	"01:48 pm  Monday December 21, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	4.26829268292683	71	71	0	20	low	4.57317073170732	71	71	0	20	0	ft	"test segment 1"
+WD	wepp-15957	"01:54 pm  Monday December 21, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	4.26829268292683	71	71	85	20	low	4.57317073170732	71	71	85	20	0	ft	"segment 1 test"
+WD	wepp-15967	"01:55 pm  Monday December 21, 2009"	"YELLOWTAIL DAM MT +"	100	clay	high	4.26829268292683	71	71	45	20	high	4.57317073170732	71	71	45	20	0	ft	"segment 1 test"
+WD	wepp-24334	"06:18 am  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	short	52.1341463414634	55	65	0	20	low	8.84146341463414	71	71	0	20	0	ft	"seg 1 yr 0 cutslope"
+WD	wepp-24339	"06:19 am  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	short	52.1341463414634	55	65	100	20	low	8.84146341463414	71	71	0	20	0	ft	"seg 1 yr 0 cutslope"
+WD	wepp-24344	"06:20 am  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	short	52.1341463414634	55	65	100	20	high	8.84146341463414	71	71	0	20	0	ft	"seg 1 yr 0 cutslope"
+WD	wepp-24377	"06:25 am  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	short	52.1341463414634	55	65	100	20	low	8.84146341463414	71	71	0	20	0	ft	"seg 1 yr 0 cutslope"
+WD	wepp-24385	"06:26 am  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	short	52.1341463414634	55	65	100	20	high	8.84146341463414	71	71	0	20	0	ft	"seg 1 yr 0 cutslope"
+WD	wepp-24810	"06:44 am  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	4.26829268292683	71	71	0	20	low	4.57317073170732	71	71	0	20	0	ft	"seg 1 yr 0 cut"
+WD	wepp-25023	"07:05 am  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	0.457317073170732	0	0	0	20	low	8.84146341463414	71	71	0	20	0	ft	"seg 1 yr 0 cut"
+WD	wepp-25029	"07:07 am  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	8.84146341463414	71	71	0	20	low	0.457317073170732	0	0	0	20	0	ft	"seg 1 yr 0 cut"
+WD	wepp-25061	"07:09 am  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	0.457317073170732	0	0	100	20	low	8.84146341463414	71	71	25	20	0	ft	"seg 1 yr 0 cut"
+WD	wepp-25074	"07:11 am  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	short	0.457317073170732	55	65	100	20	low	8.84146341463414	71	71	25	20	0	ft	"seg 1 yr 0 cut"
+WD	wepp-25080	"07:12 am  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	short	52.1341463414634	55	65	100	20	low	8.84146341463414	71	71	25	20	0	ft	"seg 1 yr 0 cut"
+WD	wepp-25133	"07:17 am  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	short	52.1341463414634	55	65	100	20	low	8.84146341463414	71	71	25	20	0	ft	"seg 1 yr 0 cut"
+WD	wepp-25166	"07:18 am  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	short	0.457317073170732	55	65	100	20	low	8.84146341463414	71	71	0	20	0	ft	"seg 1 yr 0 cut"
+WD	wepp-25171	"07:20 am  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	short	0.457317073170732	71	71	100	20	low	8.84146341463414	71	71	0	20	0	ft	"seg 1 yr 0 cut"
+WD	wepp-25231	"07:27 am  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	2.4390243902439	100	100	0	20	low	2.4390243902439	100	100	0	20	0	ft	""
+WD	wepp-25236	"07:27 am  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	1.21951219512195	100	100	0	20	low	1.21951219512195	100	100	0	20	0	ft	""
+WD	wepp-25290	"07:32 am  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	1.21951219512195	100	100	0	20	low	1.21951219512195	100	100	0	20	0	ft	"seg 1 no action"
+WD	wepp-25324	"07:33 am  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	1.21951219512195	100	100	0	20	low	1.21951219512195	100	100	0	20	0	ft	"seg 2 no action"
+WD	wepp-25335	"07:34 am  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	0.914634146341463	100	100	0	20	low	0.914634146341463	100	100	0	20	0	ft	"seg 3 no action"
+WD	wepp-25405	"07:40 am  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	3.65853658536585	71	71	0	20	low	3.65853658536585	71	71	0	20	0	ft	"seg 1 action no mitigation"
+WD	wepp-25410	"07:40 am  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	3.65853658536585	71	71	0	20	low	3.65853658536585	71	71	0	20	0	ft	"seg 1 action fillslope no mitigation"
+WD	wepp-25418	"07:43 am  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	3.65853658536585	71	71	50	20	low	3.65853658536585	71	71	50	20	0	ft	"seg 1 action fillslope 60% mitigation"
+WD	wepp-25450	"07:43 am  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	3.65853658536585	71	71	80	20	low	3.65853658536585	71	71	80	20	0	ft	"seg 1 action fillslope 60% mitigation"
+WD	wepp-25455	"07:44 am  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	3.65853658536585	71	71	60	20	low	3.65853658536585	71	71	60	20	0	ft	"seg 1 action fillslope 60% mitigation"
+WD	wepp-25460	"07:44 am  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	3.65853658536585	71	71	55	20	low	3.65853658536585	71	71	55	20	0	ft	"seg 1 action fillslope 60% mitigation"
+WD	wepp-25465	"07:45 am  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	3.65853658536585	71	71	56	20	low	3.65853658536585	71	71	56	20	0	ft	"seg 1 action fillslope 60% mitigation"
+WD	wepp-25489	"07:46 am  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	3.35365853658537	71	71	56	20	low	3.65853658536585	71	71	56	20	0	ft	"seg 1 action fillslope 60% mitigation"
+WD	wepp-25497	"07:47 am  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	3.35365853658537	71	71	56	20	low	3.65853658536585	71	71	56	20	0	ft	"seg 1 action cutslope 60% mitigation"
+WD	wepp-25502	"07:48 am  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	3.35365853658537	71	71	0	20	low	3.65853658536585	71	71	0	20	0	ft	"seg 1 action cutslope no mitigation"
+WD	wepp-25578	"07:57 am  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	4.57317073170732	69	69	0	20	low	4.8780487804878	69	69	0	20	0	ft	"seg 2 action cutslope no mitigation"
+WD	wepp-25585	"07:58 am  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	4.57317073170732	69	69	56	20	low	4.8780487804878	69	69	56	20	0	ft	"seg 2 action cutslope 60% mitigation"
+WD	wepp-25626	"08:00 am  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	1.82926829268293	55	55	56	20	low	1.82926829268293	55	55	56	20	0	ft	"seg 2 action fillslope 60% mitigation"
+WD	wepp-25660	"08:00 am  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	1.82926829268293	55	55	0	20	low	1.82926829268293	55	55	0	20	0	ft	"seg 2 action fillslope no mitigation"
+WD	wepp-25752	"08:10 am  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	3.04878048780488	66	66	0	20	low	3.35365853658537	66	66	0	20	0	ft	"seg 3 action cutslope no mitigation"
+WD	wepp-25757	"08:11 am  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	3.04878048780488	66	66	56	20	low	3.35365853658537	66	66	56	20	0	ft	"seg 3 action cutslope 60% mitigation"
+WD	wepp-25844	"08:20 am  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	0.914634146341463	70	70	56	20	low	0.914634146341463	70	70	56	20	0	ft	"seg 4 action cutslope 60% mitigation"
+WD	wepp-25849	"08:21 am  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	0.914634146341463	70	70	0	20	low	0.914634146341463	70	70	0	20	0	ft	"seg 4 action cutslope no mitigation"
+WD	wepp-25854	"08:22 am  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	0.914634146341463	70	70	56	20	low	0.914634146341463	70	70	56	20	0	ft	"seg 4 action cutslope 60% mitigation"
+WD	wepp-25859	"08:23 am  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	0.914634146341463	70	70	55	20	low	0.914634146341463	70	70	55	20	0	ft	"seg 4 action cutslope 60% mitigation"
+WD	wepp-25864	"08:23 am  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	0.914634146341463	70	70	53	20	low	0.914634146341463	70	70	53	20	0	ft	"seg 4 action cutslope 60% mitigation"
+WD	wepp-25901	"08:24 am  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	0.914634146341463	70	70	54	20	low	0.914634146341463	70	70	54	20	0	ft	"seg 4 action cutslope 60% mitigation"
+WD	wepp-25913	"08:25 am  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	1.21951219512195	61	61	54	20	low	1.52439024390244	61	61	54	20	0	ft	"seg 4 action fillslope 60% mitigation"
+WD	wepp-25968	"08:26 am  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	1.21951219512195	61	61	0	20	low	1.52439024390244	61	61	0	20	0	ft	"seg 4 action fillslope no mitigation"
+WD	wepp-26025	"08:29 am  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	1.82926829268293	55	55	54	20	low	1.82926829268293	55	55	54	20	0	ft	"seg 2 action fillslope 60% mitigation"
+WD	wepp-26049	"08:30 am  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	3.65853658536585	68	68	54	20	low	3.65853658536585	68	68	54	20	0	ft	"seg 1 action fillslope 60% mitigation"
+WD	wepp-26054	"08:31 am  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	3.35365853658537	71	71	54	20	low	3.65853658536585	71	71	54	20	0	ft	"seg 1 action cutslope 60% mitigation"
+WD	wepp-26059	"08:32 am  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	4.57317073170732	69	69	54	20	low	4.8780487804878	69	69	54	20	0	ft	"seg 2 action cutslope 60% mitigation"
+WD	wepp-26064	"08:33 am  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	3.04878048780488	66	66	54	20	low	3.35365853658537	66	66	54	20	0	ft	"seg 3 action cutslope 60% mitigation"
+WD	wepp-27696	"11:34 am  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	3.65853658536585	71	71	30	20	low	3.65853658536585	71	71	30	20	0	ft	"seg 1 fillslope 30% mitigation"
+WD	wepp-27709	"11:34 am  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	3.65853658536585	71	71	29	20	low	3.65853658536585	71	71	29	20	0	ft	"seg 1 fillslope 30% mitigation"
+WD	wepp-27714	"11:35 am  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	3.65853658536585	71	71	32	20	low	3.65853658536585	71	71	32	20	0	ft	"seg 1 fillslope 30% mitigation"
+WD	wepp-27719	"11:35 am  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	3.65853658536585	71	71	33	20	low	3.65853658536585	71	71	33	20	0	ft	"seg 1 fillslope 30% mitigation"
+WD	wepp-27724	"11:36 am  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	3.65853658536585	71	71	34	20	low	3.65853658536585	71	71	34	20	0	ft	"seg 1 fillslope 30% mitigation"
+WD	wepp-27757	"11:36 am  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	3.65853658536585	71	71	35	20	low	3.65853658536585	71	71	35	20	0	ft	"seg 1 fillslope 30% mitigation"
+WD	wepp-27762	"11:37 am  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	3.65853658536585	71	71	35	20	low	3.65853658536585	71	71	35	20	0	ft	"seg 1 fillslope 30% mitigation"
+WD	wepp-27767	"11:38 am  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	3.65853658536585	71	71	80	20	low	3.65853658536585	71	71	80	20	0	ft	"seg 1 fillslope 30% mitigation"
+WD	wepp-27772	"11:39 am  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	3.65853658536585	71	71	70	20	low	3.65853658536585	71	71	70	20	0	ft	"seg 1 fillslope 30% mitigation"
+WD	wepp-27777	"11:40 am  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	3.65853658536585	71	71	65	20	low	3.65853658536585	71	71	65	20	0	ft	"seg 1 fillslope 80% mitigation"
+WD	wepp-27782	"11:40 am  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	3.65853658536585	71	71	63	20	low	3.65853658536585	71	71	63	20	0	ft	"seg 1 fillslope 80% mitigation"
+WD	wepp-27790	"11:41 am  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	3.65853658536585	71	71	63	20	low	3.65853658536585	71	71	63	20	0	ft	"seg 1 fillslope 80% mitigation"
+WD	wepp-27824	"11:44 am  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	3.35365853658537	71	71	63	20	low	3.65853658536585	71	71	63	20	0	ft	"seg 1 cutslope 80% mitigation"
+WD	wepp-27829	"11:44 am  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	3.35365853658537	71	71	62	20	low	3.65853658536585	71	71	62	20	0	ft	"seg 1 cutslope 80% mitigation"
+WD	wepp-27853	"11:45 am  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	3.35365853658537	71	71	63	20	low	3.65853658536585	71	71	63	20	0	ft	"seg 1 cutslope 80% mitigation"
+WD	wepp-27858	"11:45 am  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	3.35365853658537	71	71	63	20	low	3.65853658536585	71	71	63	20	0	ft	"seg 1 cutslope 80% mitigation"
+WD	wepp-27865	"11:46 am  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	3.35365853658537	71	71	35	20	low	3.65853658536585	71	71	35	20	0	ft	"seg 1 cutslope 80% mitigation"
+WD	wepp-27898	"11:46 am  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	3.35365853658537	71	71	35	20	low	3.65853658536585	71	71	35	20	0	ft	"seg 1 cutslope 80% mitigation"
+WD	wepp-27903	"11:49 am  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	4.57317073170732	69	69	63	20	low	4.8780487804878	69	69	63	20	0	ft	"seg 2 action cutslope 80% mitigation"
+WD	wepp-27908	"11:49 am  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	4.57317073170732	69	69	63	20	low	4.8780487804878	69	69	63	20	0	ft	"seg 2 action cutslope 80% mitigation"
+WD	wepp-27913	"11:50 am  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	4.57317073170732	69	69	35	20	low	4.8780487804878	69	69	35	20	0	ft	"seg 2 action cutslope 30% mitigation"
+WD	wepp-27918	"11:50 am  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	4.57317073170732	69	69	35	20	low	4.8780487804878	69	69	35	20	0	ft	"seg 2 action cutslope 30% mitigation"
+WD	wepp-28360	"12:38 pm  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	tree20	1.82926829268293	55	55	35	20	tree5	1.82926829268293	55	55	35	20	0	ft	"seg 2 action fillslope 30% mitigation"
+WD	wepp-28365	"12:39 pm  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	1.82926829268293	55	55	35	20	low	1.82926829268293	55	55	35	20	0	ft	"seg 2 action fillslope 30% mitigation"
+WD	wepp-28370	"12:39 pm  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	1.82926829268293	55	55	34	20	low	1.82926829268293	55	55	34	20	0	ft	"seg 2 action fillslope 30% mitigation"
+WD	wepp-28403	"12:40 pm  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	1.82926829268293	55	55	36	20	low	1.82926829268293	55	55	36	20	0	ft	"seg 2 action fillslope 30% mitigation"
+WD	wepp-28408	"12:40 pm  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	1.82926829268293	55	55	36	20	low	1.82926829268293	55	55	36	20	0	ft	"seg 2 action fillslope 30% mitigation"
+WD	wepp-28413	"12:41 pm  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	1.82926829268293	55	55	63	20	low	1.82926829268293	55	55	63	20	0	ft	"seg 2 action fillslope 80% mitigation"
+WD	wepp-28418	"12:41 pm  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	1.82926829268293	55	55	63	20	low	1.82926829268293	55	55	63	20	0	ft	"seg 2 action fillslope 80% mitigation"
+WD	wepp-28469	"12:45 pm  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	3.04878048780488	66	66	63	20	low	3.35365853658537	66	66	63	20	0	ft	"seg 2 action cutslope 80% mitigation"
+WD	wepp-28474	"12:45 pm  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	3.04878048780488	66	66	63	20	low	3.35365853658537	66	66	63	20	0	ft	"seg 2 action cutslope 80% mitigation"
+WD	wepp-28486	"12:46 pm  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	3.04878048780488	66	66	36	20	low	3.35365853658537	66	66	36	20	0	ft	"seg 2 action cutslope 30% mitigation"
+WD	wepp-28518	"12:47 pm  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	3.04878048780488	66	66	35	20	low	3.35365853658537	66	66	35	20	0	ft	"seg 2 action cutslope 30% mitigation"
+WD	wepp-28523	"12:47 pm  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	3.04878048780488	66	66	35	20	low	3.35365853658537	66	66	35	20	0	ft	"seg 2 action cutslope 30% mitigation"
+WD	wepp-28561	"12:53 pm  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	0.914634146341463	70	70	35	20	low	0.914634146341463	70	70	35	20	0	ft	"seg 4 action cutslope 30% mitigation"
+WD	wepp-28566	"12:53 pm  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	0.914634146341463	70	70	36	20	low	0.914634146341463	70	70	36	20	0	ft	"seg 4 action cutslope 30% mitigation"
+WD	wepp-28571	"12:54 pm  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	0.914634146341463	70	70	37	20	low	0.914634146341463	70	70	37	20	0	ft	"seg 4 action cutslope 30% mitigation"
+WD	wepp-28580	"12:54 pm  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	0.914634146341463	70	70	37	20	low	0.914634146341463	70	70	37	20	0	ft	"seg 4 action cutslope 30% mitigation"
+WD	wepp-28585	"12:55 pm  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	0.914634146341463	70	70	63	20	low	0.914634146341463	70	70	63	20	0	ft	"seg 4 action cutslope 80% mitigation"
+WD	wepp-28591	"12:56 pm  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	0.914634146341463	70	70	64	20	low	0.914634146341463	70	70	64	20	0	ft	"seg 4 action cutslope 80% mitigation"
+WD	wepp-28596	"12:56 pm  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	0.914634146341463	70	70	63	20	low	0.914634146341463	70	70	63	20	0	ft	"seg 4 action cutslope 80% mitigation"
+WD	wepp-28601	"12:57 pm  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	0.914634146341463	70	70	64	20	low	0.914634146341463	70	70	64	20	0	ft	"seg 4 action cutslope 80% mitigation"
+WD	wepp-28633	"12:57 pm  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	0.914634146341463	70	70	64	20	low	0.914634146341463	70	70	64	20	0	ft	"seg 4 action cutslope 80% mitigation"
+WD	wepp-28638	"12:59 pm  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	1.21951219512195	61	61	64	20	low	1.52439024390244	61	61	64	20	0	ft	"seg 4 action fillslope 80% mitigation"
+WD	wepp-28643	"12:59 pm  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	1.21951219512195	61	61	63	20	low	1.52439024390244	61	61	63	20	0	ft	"seg 4 action fillslope 80% mitigation"
+WD	wepp-28667	"01:00 pm  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	1.21951219512195	61	61	63	20	low	1.52439024390244	61	61	63	20	0	ft	"seg 4 action fillslope 80% mitigation"
+WD	wepp-28675	"01:00 pm  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	1.21951219512195	61	61	35	20	low	1.52439024390244	61	61	35	20	0	ft	"seg 4 action fillslope 30% mitigation"
+WD	wepp-28680	"01:01 pm  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	1.21951219512195	61	61	36	20	low	1.52439024390244	61	61	36	20	0	ft	"seg 4 action fillslope 30% mitigation"
+WD	wepp-28685	"01:01 pm  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	1.21951219512195	61	61	36	20	low	1.52439024390244	61	61	36	20	0	ft	"seg 4 action fillslope 30% mitigation"
+WD	wepp-29114	"01:52 pm  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	1.21951219512195	61	61	0	20	low	1.52439024390244	61	61	0	20	0	ft	"seg 4 action fillslope 30% mitigation"
+WD	wepp-29146	"01:53 pm  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	2.74390243902439	61	61	0	20	low	0.457317073170732	0	0	0	20	0	ft	"seg 4 action fillslope 30% mitigation"
+WD	wepp-29151	"01:54 pm  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	0.457317073170732	61	61	0	20	low	2.74390243902439	0	0	0	20	0	ft	"seg 4 action fillslope 30% mitigation"
+WD	wepp-29156	"01:55 pm  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	0.457317073170732	0	0	0	20	low	2.74390243902439	61	61	0	20	0	ft	"seg 4 action fillslope 30% mitigation"
+WR	wepp-29297	"02:08 pm  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	native	300	4	15	1	0.3	1	0.3	20	inveg
+WR	wepp-29302	"02:09 pm  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	native	300	6	15	1	0.3	1	0.3	20	inveg
+WR	wepp-29307	"02:09 pm  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	native	300	8	15	1	0.3	1	0.3	20	inveg
+WR	wepp-29316	"02:10 pm  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	native	300	4	15	1	0.3	1	0.3	20	inveg
+WR	wepp-29322	"02:10 pm  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	native	300	6	15	1	0.3	1	0.3	20	inveg
+WR	wepp-29328	"02:11 pm  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	native	300	8	15	1	0.3	1	0.3	20	inveg
+WR	wepp-29334	"02:11 pm  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	native	450	4	15	1	0.3	1	0.3	20	inveg
+WR	wepp-29340	"02:11 pm  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	native	450	6	15	1	0.3	1	0.3	20	inveg
+WR	wepp-29346	"02:12 pm  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	native	450	8	15	1	0.3	1	0.3	20	inveg
+WR	wepp-29352	"02:12 pm  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	native	600	6	15	1	0.3	1	0.3	20	inveg
+WR	wepp-29385	"02:13 pm  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	native	450	6	15	1	0.3	100	20	20	inveg
+WR	wepp-29391	"02:13 pm  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	native	450	6	15	1	0.3	100	60	20	inveg
+WR	wepp-29397	"02:13 pm  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	native	450	6	15	1	0.3	100	100	20	inveg
+WR	wepp-29406	"02:14 pm  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	native	450	6	15	1	0.3	50	60	20	inveg
+WR	wepp-29412	"02:14 pm  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	native	450	6	15	100	20	1	0.3	20	inveg
+WR	wepp-29418	"02:15 pm  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	native	450	6	15	100	60	1	0.3	20	inveg
+WR	wepp-29443	"02:15 pm  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	native	450	6	15	100	100	1	0.3	20	inveg
+WR	wepp-29449	"02:15 pm  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	native	450	6	15	50	60	1	0.3	20	inveg
+WR	wepp-29455	"02:15 pm  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	native	450	6	10	50	60	1	0.3	20	inveg
+WR	wepp-29461	"02:16 pm  Tuesday December 22, 2009"	"YELLOWTAIL DAM MT +"	100	clay	native	450	6	20	50	60	1	0.3	20	inveg
+WR	wepp-18821	"07:56 am  Monday December 28, 2009"	"YELLOWTAIL DAM MT +"	100	clay	native	325	4.9	15	1	0.3	1	0.3	20	inbare
+WR	wepp-18834	"07:57 am  Monday December 28, 2009"	"YELLOWTAIL DAM MT +"	100	clay	graveled	325	4.9	18	1	0.3	1	0.3	20	inbare
+WR	wepp-18845	"07:57 am  Monday December 28, 2009"	"YELLOWTAIL DAM MT +"	100	clay	graveled	325	4.9	18	1	0.3	1	0.3	20	inveg
+WR	wepp-18859	"07:58 am  Monday December 28, 2009"	"YELLOWTAIL DAM MT +"	100	clay	native	265	6.2	16	1	0.3	1	0.3	20	inbare
+WR	wepp-18870	"07:59 am  Monday December 28, 2009"	"YELLOWTAIL DAM MT +"	100	clay	graveled	265	6.2	19.4	1	0.3	1	0.3	20	inbare
+WR	wepp-18899	"08:00 am  Monday December 28, 2009"	"YELLOWTAIL DAM MT +"	100	clay	graveled	265	6.2	19.4	1	0.3	1	0.3	20	inveg
+WR	wepp-18932	"08:00 am  Monday December 28, 2009"	"YELLOWTAIL DAM MT +"	100	clay	native	421	5.6	13	1	0.3	1	0.3	20	inbare
+WR	wepp-18938	"08:01 am  Monday December 28, 2009"	"YELLOWTAIL DAM MT +"	100	clay	graveled	421	5.6	18	1	0.3	1	0.3	20	inbare
+WR	wepp-18944	"08:02 am  Monday December 28, 2009"	"YELLOWTAIL DAM MT +"	100	clay	graveled	421	5.6	18	1	0.3	1	0.3	20	inveg
+WR	wepp-18952	"08:04 am  Monday December 28, 2009"	"YELLOWTAIL DAM MT +"	100	clay	native	680	7.1	15	1	0.3	1	0.3	20	inbare
+WR	wepp-18985	"08:05 am  Monday December 28, 2009"	"YELLOWTAIL DAM MT +"	100	clay	graveled	680	7.1	19.1	1	0.3	1	0.3	20	inbare
+WR	wepp-19018	"08:05 am  Monday December 28, 2009"	"YELLOWTAIL DAM MT +"	100	clay	graveled	680	7.1	19.1	1	0.3	1	0.3	20	inveg
+WR	wepp-19025	"08:07 am  Monday December 28, 2009"	"YELLOWTAIL DAM MT +"	100	clay	graveled	325	4.9	18	1	0.3	1	0.3	20	inveg
+WD	wepp-30961	"07:39 am  Tuesday December 29, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	3.35365853658537	71	71	63	20	low	3.65853658536585	71	71	63	20	0	ft	""
+WD	wepp-30966	"07:39 am  Tuesday December 29, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	3.35365853658537	71	71	63	20	low	3.65853658536585	71	71	63	20	0	ft	""
+WD	wepp-30972	"07:40 am  Tuesday December 29, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	3.35365853658537	71	71	90	20	low	3.65853658536585	71	71	90	20	0	ft	"seg 1 cutslope 95% cover"
+WD	wepp-31004	"07:41 am  Tuesday December 29, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	3.35365853658537	71	71	85	20	low	3.65853658536585	71	71	85	20	0	ft	"seg 1 cutslope 95% cover"
+WD	wepp-31009	"07:41 am  Tuesday December 29, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	3.35365853658537	71	71	75	20	low	3.65853658536585	71	71	75	20	0	ft	"seg 1 cutslope 95% cover"
+WD	wepp-31014	"07:42 am  Tuesday December 29, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	3.35365853658537	71	71	80	20	low	3.65853658536585	71	71	80	20	0	ft	"seg 1 cutslope 95% cover"
+WD	wepp-31019	"07:43 am  Tuesday December 29, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	3.35365853658537	71	71	80	20	low	3.65853658536585	71	71	80	20	0	ft	"seg 1 cutslope 80% cover"
+WD	wepp-31024	"07:43 am  Tuesday December 29, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	3.35365853658537	71	71	80	20	low	3.65853658536585	71	71	80	20	0	ft	"seg 1 cutslope 80% cover"
+WD	wepp-31077	"07:47 am  Tuesday December 29, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	3.65853658536585	68	68	80	20	low	3.65853658536585	68	68	80	20	0	ft	"seg 1 fillslope 80% cover"
+WD	wepp-31082	"07:47 am  Tuesday December 29, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	3.65853658536585	68	68	80	20	low	3.65853658536585	68	68	80	20	0	ft	"seg 1 fillslope 80% cover"
+WD	wepp-31090	"07:48 am  Tuesday December 29, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	3.65853658536585	68	68	80	20	low	3.65853658536585	68	68	80	20	0	ft	"seg 1 action fillslope no mitigation"
+WD	wepp-31095	"07:48 am  Tuesday December 29, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	3.65853658536585	68	68	0	20	low	3.65853658536585	68	68	0	20	0	ft	"seg 1 action fillslope no mitigation"
+WD	wepp-31100	"07:49 am  Tuesday December 29, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	3.65853658536585	68	68	0	20	low	3.65853658536585	68	68	0	20	0	ft	"seg 1 action fillslope no mitigation"
+WD	wepp-31105	"07:49 am  Tuesday December 29, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	3.65853658536585	68	68	35	20	low	3.65853658536585	68	68	35	20	0	ft	"seg 1 action fillslope 30 mitigation"
+WD	wepp-31137	"07:51 am  Tuesday December 29, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	3.65853658536585	68	68	35	20	low	3.65853658536585	68	68	35	20	0	ft	"seg 1 action fillslope 30 mitigation"
+WD	wepp-31142	"07:51 am  Tuesday December 29, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	3.65853658536585	68	68	63	20	low	3.65853658536585	68	68	63	20	0	ft	"seg 1 action fillslope 80% mitigation"
+WD	wepp-31147	"07:52 am  Tuesday December 29, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	3.65853658536585	68	68	62	20	low	3.65853658536585	68	68	62	20	0	ft	"seg 1 action fillslope 80% mitigation"
+WD	wepp-31152	"07:52 am  Tuesday December 29, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	3.65853658536585	68	68	63	20	low	3.65853658536585	68	68	63	20	0	ft	"seg 1 action fillslope 80% mitigation"
+WD	wepp-31157	"07:52 am  Tuesday December 29, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	3.65853658536585	68	68	63	20	low	3.65853658536585	68	68	63	20	0	ft	"seg 1 action fillslope 80% mitigation"
+WD	wepp-31163	"07:55 am  Tuesday December 29, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	4.57317073170732	69	69	80	20	low	4.8780487804878	69	69	80	20	0	ft	"seg 2 action cutslope 80% cover"
+WD	wepp-31168	"07:56 am  Tuesday December 29, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	4.57317073170732	69	69	80	20	low	4.8780487804878	69	69	80	20	0	ft	"seg 2 action cutslope 80% cover"
+WD	wepp-31202	"07:57 am  Tuesday December 29, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	1.82926829268293	55	55	80	20	low	1.82926829268293	55	55	80	20	0	ft	"seg 2 action fillslope 80% cover"
+WD	wepp-31212	"07:57 am  Tuesday December 29, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	1.82926829268293	55	55	80	20	low	1.82926829268293	55	55	80	20	0	ft	"seg 2 action fillslope 80% cover"
+WD	wepp-31232	"08:00 am  Tuesday December 29, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	3.04878048780488	66	66	80	20	low	3.35365853658537	66	66	80	20	0	ft	"seg 3 action cutslope 80% cover"
+WD	wepp-31257	"08:00 am  Tuesday December 29, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	3.04878048780488	66	66	80	20	low	3.35365853658537	66	66	80	20	0	ft	"seg 3 action cutslope 80% cover"
+WD	wepp-31289	"08:02 am  Tuesday December 29, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	0.914634146341463	70	70	80	20	low	0.914634146341463	70	70	80	20	0	ft	"seg 4 action cutslope 80% cover"
+WD	wepp-31294	"08:02 am  Tuesday December 29, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	0.914634146341463	70	70	80	20	low	0.914634146341463	70	70	80	20	0	ft	"seg 4 action cutslope 80% cover"
+WD	wepp-31299	"08:03 am  Tuesday December 29, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	1.21951219512195	61	61	80	20	low	1.52439024390244	61	61	80	20	0	ft	"seg 4 action fillslope 80% cover"
+WD	wepp-31306	"08:04 am  Tuesday December 29, 2009"	"YELLOWTAIL DAM MT +"	100	clay	low	1.21951219512195	61	61	80	20	low	1.52439024390244	61	61	80	20	0	ft	"seg 4 action fillslope 80% cover"
+WR	wepp-758	"12:08 pm  Tuesday December 29, 2009"	"YELLOWTAIL DAM MT +"	30	clay	native	200	4	13	15	50	130	25	20	inveg
+WD	wepp-7476	"08:12 am  Monday January 4, 2010"	"YELLOWTAIL DAM MT +"	30	clay	low	3.35365853658537	71	71	70	20	low	3.65853658536585	71	71	70	20	0	ft	""
+WD	wepp-7533	"08:15 am  Monday January 4, 2010"	"YELLOWTAIL DAM MT +"	30	clay	low	3.35365853658537	71	71	59	20	low	3.65853658536585	71	71	59	20	0	ft	""
+WD	wepp-7538	"08:15 am  Monday January 4, 2010"	"YELLOWTAIL DAM MT +"	30	clay	low	3.35365853658537	71	71	60	20	low	3.65853658536585	71	71	60	20	0	ft	""
+WD	wepp-7546	"08:17 am  Monday January 4, 2010"	"YELLOWTAIL DAM MT +"	30	clay	low	3.35365853658537	71	71	60	20	low	3.65853658536585	71	71	60	20	0	ft	"seg 1 cutslope 75% mitigation"
+WD	wepp-7551	"08:17 am  Monday January 4, 2010"	"YELLOWTAIL DAM MT +"	30	clay	low	3.35365853658537	71	71	60	20	low	3.65853658536585	71	71	60	20	0	ft	"seg 1 cutslope 75% mitigation"
+WD	wepp-7556	"08:17 am  Monday January 4, 2010"	"YELLOWTAIL DAM MT +"	100	clay	low	3.35365853658537	71	71	60	20	low	3.65853658536585	71	71	60	20	0	ft	"seg 1 cutslope 75% mitigation"
+WD	wepp-7564	"08:18 am  Monday January 4, 2010"	"YELLOWTAIL DAM MT +"	100	clay	low	3.35365853658537	71	71	59	20	low	3.65853658536585	71	71	59	20	0	ft	"seg 1 cutslope 75% mitigation"
+WD	wepp-7596	"08:18 am  Monday January 4, 2010"	"YELLOWTAIL DAM MT +"	100	clay	low	3.35365853658537	71	71	59	20	low	3.65853658536585	71	71	59	20	0	ft	"seg 1 cutslope 75% mitigation"
+WD	wepp-7601	"08:19 am  Monday January 4, 2010"	"YELLOWTAIL DAM MT +"	100	clay	low	3.35365853658537	71	71	61	20	low	3.65853658536585	71	71	61	20	0	ft	"seg 1 cutslope 75% mitigation"
+WD	wepp-7606	"08:19 am  Monday January 4, 2010"	"YELLOWTAIL DAM MT +"	100	clay	low	3.35365853658537	71	71	60	20	low	3.65853658536585	71	71	60	20	0	ft	"seg 1 cutslope 75% mitigation"
+WD	wepp-7614	"08:20 am  Monday January 4, 2010"	"YELLOWTAIL DAM MT +"	100	clay	low	3.35365853658537	71	71	60	20	low	3.65853658536585	71	71	60	20	0	ft	"seg 1 cutslope 75% mitigation"
+WD	wepp-7622	"08:21 am  Monday January 4, 2010"	"YELLOWTAIL DAM MT +"	100	clay	low	3.35365853658537	71	71	65	20	low	3.65853658536585	71	71	65	20	0	ft	"seg 1 cutslope 82% mitigation"
+WD	wepp-7627	"08:22 am  Monday January 4, 2010"	"YELLOWTAIL DAM MT +"	100	clay	low	3.35365853658537	71	71	64	20	low	3.65853658536585	71	71	64	20	0	ft	"seg 1 cutslope 82% mitigation"
+WD	wepp-7632	"08:22 am  Monday January 4, 2010"	"YELLOWTAIL DAM MT +"	100	clay	low	3.35365853658537	71	71	64	20	low	3.65853658536585	71	71	64	20	0	ft	"seg 1 cutslope 82% mitigation"
+WD	wepp-7671	"08:26 am  Monday January 4, 2010"	"YELLOWTAIL DAM MT +"	100	clay	low	3.65853658536585	68	68	64	20	low	3.65853658536585	68	68	64	20	0	ft	"seg 1 fillslope 82% mitigation"
+WD	wepp-7679	"08:28 am  Monday January 4, 2010"	"YELLOWTAIL DAM MT +"	100	clay	low	3.65853658536585	68	68	64	20	low	3.65853658536585	68	68	64	20	0	ft	"seg 1 fillslope 82% mitigation"
+WD	wepp-7711	"08:29 am  Monday January 4, 2010"	"YELLOWTAIL DAM MT +"	100	clay	low	3.65853658536585	68	68	60	20	low	3.65853658536585	68	68	60	20	0	ft	"seg 1 fillslope 75% mitigation"
+WD	wepp-7718	"08:29 am  Monday January 4, 2010"	"YELLOWTAIL DAM MT +"	100	clay	low	3.65853658536585	68	68	61	20	low	3.65853658536585	68	68	61	20	0	ft	"seg 1 fillslope 75% mitigation"
+WD	wepp-7724	"08:29 am  Monday January 4, 2010"	"YELLOWTAIL DAM MT +"	100	clay	low	3.65853658536585	68	68	60	20	low	3.65853658536585	68	68	60	20	0	ft	"seg 1 fillslope 75% mitigation"
+WD	wepp-7748	"08:30 am  Monday January 4, 2010"	"YELLOWTAIL DAM MT +"	100	clay	low	3.65853658536585	68	68	60	20	low	3.65853658536585	68	68	60	20	0	ft	"seg 1 fillslope 75% mitigation"
+WD	wepp-7762	"08:33 am  Monday January 4, 2010"	"YELLOWTAIL DAM MT +"	100	clay	low	1.82926829268293	55	55	60	20	low	1.82926829268293	55	55	60	20	0	ft	"seg 2 fillslope 75% mitigation"
+WD	wepp-7794	"08:33 am  Monday January 4, 2010"	"YELLOWTAIL DAM MT +"	100	clay	low	1.82926829268293	55	55	61	20	low	1.82926829268293	55	55	61	20	0	ft	"seg 2 fillslope 75% mitigation"
+WD	wepp-7799	"08:34 am  Monday January 4, 2010"	"YELLOWTAIL DAM MT +"	100	clay	low	1.82926829268293	55	55	61	20	low	1.82926829268293	55	55	61	20	0	ft	"seg 2 fillslope 75% mitigation"
+WD	wepp-7805	"08:35 am  Monday January 4, 2010"	"YELLOWTAIL DAM MT +"	100	clay	low	1.82926829268293	55	55	64	20	low	1.82926829268293	55	55	64	20	0	ft	"seg 2 fillslope 82% mitigation"
+WD	wepp-7810	"08:35 am  Monday January 4, 2010"	"YELLOWTAIL DAM MT +"	100	clay	low	1.82926829268293	55	55	64	20	low	1.82926829268293	55	55	64	20	0	ft	"seg 2 fillslope 82% mitigation"
+WD	wepp-7818	"08:35 am  Monday January 4, 2010"	"YELLOWTAIL DAM MT +"	100	clay	low	1.82926829268293	55	55	64	20	low	1.82926829268293	55	55	64	20	0	ft	"seg 2 cutslope 82% mitigation"
+WD	wepp-7823	"08:36 am  Monday January 4, 2010"	"YELLOWTAIL DAM MT +"	100	clay	low	4.57317073170732	55	69	64	20	low	4.8780487804878	69	69	64	20	0	ft	"seg 2 cutslope 82% mitigation"
+WD	wepp-7828	"08:36 am  Monday January 4, 2010"	"YELLOWTAIL DAM MT +"	100	clay	low	4.57317073170732	55	69	64	20	low	4.8780487804878	69	69	64	20	0	ft	"seg 2 cutslope 82% mitigation"
+WD	wepp-7833	"08:37 am  Monday January 4, 2010"	"YELLOWTAIL DAM MT +"	100	clay	low	4.57317073170732	55	69	60	20	low	4.8780487804878	69	69	60	20	0	ft	"seg 2 cutslope 75% mitigation"
+WD	wepp-7841	"08:37 am  Monday January 4, 2010"	"YELLOWTAIL DAM MT +"	100	clay	low	4.57317073170732	55	69	61	20	low	4.8780487804878	69	69	61	20	0	ft	"seg 2 cutslope 75% mitigation"
+WD	wepp-7873	"08:39 am  Monday January 4, 2010"	"YELLOWTAIL DAM MT +"	100	clay	low	4.57317073170732	55	69	60	20	low	4.8780487804878	69	69	60	20	0	ft	"seg 2 cutslope 75% mitigation"
+WD	wepp-7880	"08:40 am  Monday January 4, 2010"	"YELLOWTAIL DAM MT +"	100	clay	low	4.57317073170732	55	69	60	20	low	4.8780487804878	69	69	60	20	0	ft	"seg 2 cutslope 75% mitigation"
+WD	wepp-7939	"08:45 am  Monday January 4, 2010"	"YELLOWTAIL DAM MT +"	100	clay	low	4.57317073170732	69	69	60	20	low	4.8780487804878	69	69	60	20	0	ft	"seg 2 cutslope 75% mitigation"
+WD	wepp-7946	"08:45 am  Monday January 4, 2010"	"YELLOWTAIL DAM MT +"	100	clay	low	4.57317073170732	69	69	60	20	low	4.8780487804878	69	69	60	20	0	ft	"seg 2 cutslope 75% mitigation"
+WD	wepp-7952	"08:46 am  Monday January 4, 2010"	"YELLOWTAIL DAM MT +"	100	clay	low	4.57317073170732	69	69	64	20	low	4.8780487804878	69	69	64	20	0	ft	"seg 2 cutslope 82% mitigation"
+WD	wepp-7957	"08:47 am  Monday January 4, 2010"	"YELLOWTAIL DAM MT +"	100	clay	low	4.57317073170732	69	69	64	20	low	4.8780487804878	69	69	64	20	0	ft	"seg 2 cutslope 82% mitigation"
+WD	wepp-7962	"08:47 am  Monday January 4, 2010"	"YELLOWTAIL DAM MT +"	100	clay	low	4.57317073170732	69	69	65	20	low	4.8780487804878	69	69	65	20	0	ft	"seg 2 cutslope 82% mitigation"
+WD	wepp-7970	"08:48 am  Monday January 4, 2010"	"YELLOWTAIL DAM MT +"	100	clay	low	3.04878048780488	66	66	64	20	low	3.35365853658537	66	66	64	20	0	ft	"seg 3 cutslope 82% mitigation"
+WD	wepp-8006	"08:50 am  Monday January 4, 2010"	"YELLOWTAIL DAM MT +"	100	clay	low	3.04878048780488	66	66	64	20	low	3.35365853658537	66	66	64	20	0	ft	"seg 3 cutslope 82% mitigation"
+WD	wepp-8011	"08:50 am  Monday January 4, 2010"	"YELLOWTAIL DAM MT +"	100	clay	low	3.04878048780488	66	66	60	20	low	3.35365853658537	66	66	60	20	0	ft	"seg 3 cutslope 75% mitigation"
+WD	wepp-8016	"08:51 am  Monday January 4, 2010"	"YELLOWTAIL DAM MT +"	100	clay	low	3.04878048780488	66	66	61	20	low	3.35365853658537	66	66	61	20	0	ft	"seg 3 cutslope 75% mitigation"
+WD	wepp-8023	"08:51 am  Monday January 4, 2010"	"YELLOWTAIL DAM MT +"	100	clay	low	3.04878048780488	66	66	60	20	low	3.35365853658537	66	66	60	20	0	ft	"seg 3 cutslope 75% mitigation"
+WD	wepp-8030	"08:51 am  Monday January 4, 2010"	"YELLOWTAIL DAM MT +"	100	clay	low	3.04878048780488	66	66	60	20	low	3.35365853658537	66	66	60	20	0	ft	"seg 3 cutslope 75% mitigation"
+WD	wepp-8070	"08:58 am  Monday January 4, 2010"	"YELLOWTAIL DAM MT +"	100	clay	low	0.914634146341463	70	70	60	20	low	0.914634146341463	70	70	60	20	0	ft	"seg 4 cutslope 75% mitigation"
+WD	wepp-8075	"08:58 am  Monday January 4, 2010"	"YELLOWTAIL DAM MT +"	100	clay	low	0.914634146341463	70	70	61	20	low	0.914634146341463	70	70	61	20	0	ft	"seg 4 cutslope 75% mitigation"
+WD	wepp-8083	"08:59 am  Monday January 4, 2010"	"YELLOWTAIL DAM MT +"	100	clay	low	0.914634146341463	70	70	61	20	low	0.914634146341463	70	70	61	20	0	ft	"seg 4 cutslope 75% mitigation"
+WD	wepp-8112	"08:59 am  Monday January 4, 2010"	"YELLOWTAIL DAM MT +"	100	clay	low	0.914634146341463	70	70	64	20	low	0.914634146341463	70	70	64	20	0	ft	"seg 4 cutslope 75% mitigation"
+WD	wepp-8120	"08:59 am  Monday January 4, 2010"	"YELLOWTAIL DAM MT +"	100	clay	low	0.914634146341463	70	70	65	20	low	0.914634146341463	70	70	65	20	0	ft	"seg 4 cutslope 75% mitigation"
+WD	wepp-8144	"09:00 am  Monday January 4, 2010"	"YELLOWTAIL DAM MT +"	100	clay	low	0.914634146341463	70	70	65	20	low	0.914634146341463	70	70	65	20	0	ft	"seg 4 cutslope 75% mitigation"
+WD	wepp-8214	"09:05 am  Monday January 4, 2010"	"YELLOWTAIL DAM MT +"	100	clay	low	1.21951219512195	61	61	64	20	low	1.52439024390244	61	61	64	20	0	ft	"seg 4 fillslope 82% mitigation"
+WD	wepp-8222	"09:06 am  Monday January 4, 2010"	"YELLOWTAIL DAM MT +"	100	clay	low	1.21951219512195	61	61	65	20	low	1.52439024390244	61	61	65	20	0	ft	"seg 4 fillslope 82% mitigation"
+WD	wepp-8227	"09:06 am  Monday January 4, 2010"	"YELLOWTAIL DAM MT +"	100	clay	low	1.21951219512195	61	61	64	20	low	1.52439024390244	61	61	64	20	0	ft	"seg 4 fillslope 82% mitigation"
+WD	wepp-8232	"09:06 am  Monday January 4, 2010"	"YELLOWTAIL DAM MT +"	100	clay	low	1.21951219512195	61	61	64	20	low	1.52439024390244	61	61	64	20	0	ft	"seg 4 fillslope 82% mitigation"
+WD	wepp-8237	"09:07 am  Monday January 4, 2010"	"YELLOWTAIL DAM MT +"	100	clay	low	1.21951219512195	61	61	60	20	low	1.52439024390244	61	61	60	20	0	ft	"seg 4 fillslope 75% mitigation"
+WD	wepp-8243	"09:07 am  Monday January 4, 2010"	"YELLOWTAIL DAM MT +"	100	clay	low	1.21951219512195	61	61	61	20	low	1.52439024390244	61	61	61	20	0	ft	"seg 4 fillslope 75% mitigation"
+WD	wepp-8249	"09:07 am  Monday January 4, 2010"	"YELLOWTAIL DAM MT +"	100	clay	low	1.21951219512195	61	61	61	20	low	1.52439024390244	61	61	61	20	0	ft	"seg 4 fillslope 75% mitigation"
+WD	wepp-8257	"09:08 am  Monday January 4, 2010"	"YELLOWTAIL DAM MT +"	100	clay	low	1.21951219512195	61	61	60	20	low	1.52439024390244	61	61	60	20	0	ft	"seg 4 fillslope 75% mitigation"

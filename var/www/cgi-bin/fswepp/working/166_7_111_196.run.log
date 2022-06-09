@@ -1,0 +1,25 @@
+WD	wepp-29029	"01:31 pm  Tuesday September 18, 2012"	"Beaver Lake North +"	30	silt	LowFire	350	0	35	85	30	OldForest	1000	35	5	100	30	0	ft	"Beaver Lake North - Rx Fire - Initial"
+WD	wepp-29103	"01:33 pm  Tuesday September 18, 2012"	"Beaver Lake North +"	30	silt	Shrub	350	0	35	80	30	OldForest	1000	35	5	100	30	0	ft	"Beaver Lake North - Rx Fire - 3 Year Recovery"
+WD	wepp-29163	"01:34 pm  Tuesday September 18, 2012"	"Beaver Lake North +"	30	silt	YoungForest	350	0	35	100	30	OldForest	1000	35	5	100	30	0	ft	"Beaver Lake North - Rx Fire -15 Year Recovery"
+WE	wepp-1614	"01:12 pm  Thursday October 25, 2012"	"Condon Mountain Fire +"	silt	25	forest	10	55	25	750	l			ft
+WE	wepp-1692	"01:12 pm  Thursday October 25, 2012"	"Condon Mountain Fire +"	silt	25	forest	10	60	25	750	l			ft
+WE	wepp-1874	"01:14 pm  Thursday October 25, 2012"	"Condon Mountain Fire +"	silt	25	forest	10	60	25	750	m			ft
+WE	wepp-2022	"01:15 pm  Thursday October 25, 2012"	"Condon Mountain Fire +"	silt	25	forest	10	60	25	750	h			ft
+WE	wepp-2164	"01:16 pm  Thursday October 25, 2012"	"Condon Mountain Fire +"	silt	25	forest	10	60	25	1000	h			ft
+WE	wepp-2283	"01:16 pm  Thursday October 25, 2012"	"Condon Mountain Fire +"	loam	25	forest	10	60	25	1000	h			ft
+WE	wepp-2394	"01:17 pm  Thursday October 25, 2012"	"Condon Mountain Fire +"	silt	25	forest	10	60	25	1000	h			ft
+WE	wepp-2596	"01:19 pm  Thursday October 25, 2012"	"Condon Mountain Fire +"	silt	25	forest	10	60	25	1000	h			ft
+WE	wepp-2708	"01:20 pm  Thursday October 25, 2012"	"Condon Mountain Fire +"	loam	25	forest	10	60	25	1000	h			ft
+WE	wepp-2854	"01:20 pm  Thursday October 25, 2012"	"Condon Mountain Fire +"	sand	25	forest	10	60	25	1000	h			ft
+WE	wepp-2967	"01:21 pm  Thursday October 25, 2012"	"Condon Mountain Fire +"	clay	25	forest	10	60	25	1000	h			ft
+WD	wepp-3245	"01:26 pm  Thursday October 25, 2012"	"Condon Mountain Fire +"	100	silt	HighFire	375	10	55	45	25	HighFire	375	55	25	45	25	0	ft	"Condon Mountain Fire"
+WD	wepp-3318	"01:27 pm  Thursday October 25, 2012"	"Condon Mountain Fire +"	100	silt	HighFire	375	10	50	45	25	HighFire	375	50	20	45	25	0	ft	"Condon Mountain Fire"
+WD	wepp-3367	"01:28 pm  Thursday October 25, 2012"	"Condon Mountain Fire +"	100	silt	LowFire	375	10	50	85	25	LowFire	375	50	20	85	25	0	ft	"Condon Mountain Fire"
+WE	wepp-3617	"01:33 pm  Thursday October 25, 2012"	"Condon Mountain Fire +"	silt	25	forest	0	50	30	300	h			ft
+WE	wepp-4311	"01:46 pm  Thursday October 25, 2012"	"Condon Mountain Fire +"	loam	25	forest	10	55	25	300	h			ft
+WE	wepp-4439	"01:48 pm  Thursday October 25, 2012"	"Condon Mountain Fire +"	loam	25	forest	10	55	25	700	m			ft
+WE	wepp-8279	"03:02 pm  Thursday October 25, 2012"	"Condon Mountain Fire +"	silt	25	forest	10	55	25	700	m			ft
+WE	wepp-9295	"03:24 pm  Thursday October 25, 2012"	"Condon Mountain Fire +"	silt	25	forest	10	55	25	700	m			ft
+WD	wepp-19204	"10:45 am  Thursday March 28, 2013"	"Martin Creek - TLRD +"	30	silt	Skid	300	0	30	35	35	OldForest	100	30	5	100	20	0	ft	"Skid Trail - No Slash/No Waterbars"
+WD	wepp-19224	"10:46 am  Thursday March 28, 2013"	"Martin Creek - TLRD +"	30	silt	Skid	300	0	30	35	35	OldForest	100	30	5	100	35	0	ft	"Skid Trail - No Slash/No Waterbars"
+WD	wepp-19275	"10:49 am  Thursday March 28, 2013"	"Martin Creek - TLRD +"	30	silt	Skid	50	0	30	50	35	OldForest	100	30	5	100	35	0	ft	"Skid Trail - Add Slash and Waterbars"

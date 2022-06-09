@@ -1,0 +1,72 @@
+#this files was modified by filegenwhrm.pl on: Wednesday, March 16, 2005.
+#taxgroup Birds species Harlequin duck / Histrionicus histrionicus
+#
+# Rank
+2,2,-99,-99,1
+# Nestsite
+3,1:4,1:8,1:13,1:22,1:23,1
+# Reprorank
+1,-99:2,-99:2,-99:2,-99:1,-99:1,-99
+# Foraging Habitat
+-99
+# Habitatrank
+-99
+# Forage/Prey Availability
+-99
+# Preyrank
+-99
+# Predator Avoidance
+3,1:4,1:8,1:13,1:22,1:23,1
+# Avoidrank
+1,-99:2,-99:2,-99:2,-99:1,-99:1,-99
+# Refugia/Shelter
+3,1:4,1:8,1:13,1:22,1:23,1
+# Shelterrank
+1,-99:2,-99:2,-99:2,-99:1,-99:1,-99
+# Coverrank
+1,-99:2,-99:2,-99:2,-99:1,-99:1,-99
+# Literature
+Distribution
+northeastern Canada and from Alaska south to Wyoming for breeding, rocky Atlantic and Pacific coasts in winter
+General Habitat
+winter in coastal areas, migrate inland to nest along swiftly flowing mountain streams
+Home or Activity Range
+no information available
+Canopy Cover
+no information available
+Specific Habitat Preferences
+streams in mature to old-growth forest or areas with shrubby riparian vegetation and young PSME overstory
+Nestsite Characteristics
+on the edge of swift-flowing mountain streams; could be impacted if logging removes habitat or alters stream flow/siltation; use areas with dense understory vegetation including shrubs, forbs, seedlings and saplings; may nest in woody debris or snags
+Foraging Habitat Characteristics
+forage while walking on the bottom of swift streams; search among rocks for food, and dive (3 - 5 ft deep) for food as well
+Diet
+crustaceans, mollusks (chitons, chink shells, perwinkles, top shells, limpets, and blue mussels), aquatic insects (stone flies, etc.),  echinoderms, and fish
+Predators
+bald eagle, seals, river otters, mustelids, hawks, owls, common raven, red squirrel
+Shelter Habitats
+use dense understory vegetation and woody debris on streambanks; roosts in groups on rocks, gravel bars, or on logs
+Response to Disturbance
+Harlequin ducks are sensitive to human disturbance along stream edges, and their habitat may be degraded or modified when streambanks or channel characteristics are modified. They are especially sensitive to increased sedimentation, which impacts their macroinvertebrate diet (MacCallum 2001).
+Sources of Information used in the Model
+Robertson and Goudie 1999, MacCallum 2001
+General Sources of Background Information
+National Geographic Society 1996, Robertson and Goudie 1999, reviewed in Bull and Wales 2001, MacCallum 2001, reviewed in O'Neil et al. 2001
+Summaries of Specific Studies
+Bull, Evelyn; Wales, Barbara C. 2001. Effects of disturbance on birds of conservation concern in eastern Oregon and Washington. Northwest Science. 75:166-173.
+
+Study Location: eastern Oregon and Washington
+Habitat Description: primarily PIPO
+Summary: The authors review the habitat needs of bird species of concern in eastern Oregon and Washington, focusing on how disturbances (natural and anthropogenic) would alter habitat for these species.
+
+MacCallum, B. 2001. Status of the harlequin duck (Histrionicus histrionicus) in Alberta. Alberta Sustainable Resource Development, Fisheries and Wildlife Management Division, and Alberta Conservation Association, Wildlife Status Report No. 36, Edmonton, AB. 38 p.
+
+Study Location: Alberta
+Habitat Description: variety reviewed
+Summary: Harlequin ducks breed in swift flowing, clear mountain streams. Nests are placed on streambanks in areas of dense understory vegetation. Nests may be placed amidst woody debris or snags in close proximity to streams. Harlequin ducks are sensitive to human disturbance along stream edges, and their habitat may be degraded or modified when streambanks or channel characteristics are modified. They are especially sensitive to increased sedimentation, which impacts their macroinvertebrate diet.
+
+Robertson, Gregory J.; Goudie, R. Ian. 1999. Harlequin duck (Histrionicus histrionicus). In The Birds of North America, No. 466 (A. Poole and F. Gill, eds.). The Birds of North America, Inc.; Philadelphia, PA.
+
+Study Location: throughout range
+Habitat Description: variety reviewed
+Summary: Birds of North America species account for the harlequin duck. A sea duck that uses clear, fast-flowing rivers and streams for breeding. Chooses streams with high levels of vegetative cover along bank. Feeds within stream. Will roost in groups on rocks, gravel bars, or on logs. Nests on the ground, on small cliff ledges, in tree cavities, or on stumps. Usually will nest in areas with good cover, near base of shrub, log, or tree.

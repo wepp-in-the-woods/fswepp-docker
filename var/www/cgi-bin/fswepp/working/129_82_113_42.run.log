@@ -1,0 +1,17 @@
+WR	wepp-2959	"05:03 pm  Sunday April 24, 2011"	"DILLON 1 S CO +"	30	sand	graveled	300	4	6	5	50	40	25	20	inveg	m
+WR	wepp-2964	"05:04 pm  Sunday April 24, 2011"	"DILLON 1 S CO +"	30	sand	native	300	4	6	5	50	40	25	20	inveg	m
+WR	wepp-2969	"05:04 pm  Sunday April 24, 2011"	"DILLON 1 S CO +"	30	sand	graveled	300	4	6	5	50	40	25	20	inveg	m
+WR	wepp-3342	"05:37 pm  Sunday April 24, 2011"	"DILLON 1 S CO +"	30	sand	graveled	200	5	5	5	50	40	25	20	inveg	m
+WR	wepp-3377	"05:38 pm  Sunday April 24, 2011"	"DILLON 1 S CO +"	30	sand	graveled	300	5	5	5	50	40	25	20	inveg	m
+WR	wepp-3385	"05:38 pm  Sunday April 24, 2011"	"DILLON 1 S CO +"	30	sand	graveled	100	5	5	5	50	40	25	20	inveg	m
+WR	wepp-3393	"05:39 pm  Sunday April 24, 2011"	"DILLON 1 S CO +"	30	clay	graveled	300	5	5	5	50	40	25	20	inveg	m
+WR	wepp-3428	"05:44 pm  Sunday April 24, 2011"	"DILLON 1 S CO +"	30	clay	graveled	300	5	5	5	50	30	25	20	inveg	m
+WD	wepp-13268	"11:07 am  Thursday May 9, 2013"	"DENVER WB AP CO"	1	sand	LowFire	50	25	20	20	20	LowFire	50	15	10	20	20	0	ft	""
+WD	wepp-13288	"11:08 am  Thursday May 9, 2013"	"DENVER WB AP CO"	10	sand	LowFire	50	25	20	20	20	LowFire	50	15	10	20	20	0	ft	""
+WD	wepp-13308	"11:08 am  Thursday May 9, 2013"	"DENVER WB AP CO"	100	sand	LowFire	50	25	20	20	20	LowFire	50	15	10	20	20	0	ft	""
+WD	wepp-13355	"11:12 am  Thursday May 9, 2013"	"DENVER WB AP CO"	1	sand	LowFire	800	25	20	40	20	LowFire	800	15	10	30	20	0	ft	""
+WD	wepp-13375	"11:12 am  Thursday May 9, 2013"	"DENVER WB AP CO"	10	sand	LowFire	800	25	20	40	20	LowFire	800	15	10	30	20	0	ft	""
+WD	wepp-13395	"11:13 am  Thursday May 9, 2013"	"../climates/co052220"	10	sand	LowFire	100	25	20	40	20		100	15	10	35	20	0	ft	""
+WD	wepp-13396	"11:13 am  Thursday May 9, 2013"	"DENVER WB AP CO"	10	sand	LowFire	100	25	20	40	20	OldForest	100	15	10	35	20	0	ft	""
+WR	wepp-13473	"11:18 am  Thursday May 9, 2013"	"STEAMBOAT SPRINGS CO"	30	clay	native	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-13494	"11:19 am  Thursday May 9, 2013"	"STEAMBOAT SPRINGS CO"	1	sand	graveled	1000	25	13	15	25	130	7	20	inveg	ft

@@ -1,0 +1,17 @@
+WR	wepp-30086	"02:54 pm  Wednesday March 19, 2014"	"ABERDEEN 20 NNE WISHKA +"	30	silt	native	200	4	13	15	50	1	25	20	inveg	ft
+WR	wepp-5855	"03:14 pm  Wednesday March 19, 2014"	"ABERDEEN 20 NNE WISHKA +"	30	silt	native	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-5980	"03:15 pm  Wednesday March 19, 2014"	"ABERDEEN 20 NNE WISHKA +"	30	silt	paved	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-25497	"04:00 pm  Wednesday March 19, 2014"	"ABERDEEN 20 NNE WISHKA +"	30	silt	graveled	200	4	13	15	50	1	25	20	outunrut	ft
+WD	wepp-29238	"04:14 pm  Wednesday March 19, 2014"	"ABERDEEN 20 NNE WISHKA +"	10	silt	OldForest	400	0	30	100	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-30138	"04:17 pm  Wednesday March 19, 2014"	"ABERDEEN 20 NNE WISHKA +"	10	silt	Bunchgrass	400	0	30	60	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-2147	"04:28 pm  Wednesday March 19, 2014"	"ABERDEEN 20 NNE WISHKA +"	10	silt	Bunchgrass	400	0	30	60	20	OldForest	30	30	5	100	20	0	ft	""
+WD	wepp-2633	"04:29 pm  Wednesday March 19, 2014"	"ABERDEEN 20 NNE WISHKA +"	10	silt	HighFire	400	0	30	45	20	LowFire	30	30	5	85	20	0	ft	""
+WD	wepp-2664	"04:29 pm  Wednesday March 19, 2014"	"ABERDEEN 20 NNE WISHKA +"	10	silt	HighFire	400	0	30	45	20	LowFire	30	30	5	85	20	0	ft	""
+WD	wepp-3058	"04:37 pm  Wednesday March 19, 2014"	"ABERDEEN 20 NNE WISHKA +"	10	silt	HighFire	400	0	30	45	20	OldForest	30	30	5	100	20	0	ft	""
+WD	wepp-3940	"04:37 pm  Wednesday March 19, 2014"	"ABERDEEN 20 NNE WISHKA +"	10	silt	HighFire	400	0	30	45	20	OldForest	40	30	5	100	20	0	ft	""
+WD	wepp-4111	"04:38 pm  Wednesday March 19, 2014"	"ABERDEEN 20 NNE WISHKA +"	10	silt	HighFire	400	0	30	45	20	OldForest	70	30	5	100	20	0	ft	""
+WD	wepp-4291	"04:38 pm  Wednesday March 19, 2014"	"ABERDEEN 20 NNE WISHKA +"	10	silt	HighFire	400	0	30	45	20	OldForest	85	30	5	100	20	0	ft	""
+WD	wepp-4493	"04:38 pm  Wednesday March 19, 2014"	"ABERDEEN 20 NNE WISHKA +"	10	silt	HighFire	400	0	30	45	20	OldForest	90	30	5	100	20	0	ft	""
+WD	wepp-4705	"04:38 pm  Wednesday March 19, 2014"	"ABERDEEN 20 NNE WISHKA +"	10	silt	HighFire	400	0	30	45	20	OldForest	100	30	5	100	20	0	ft	""
+WR	wepp-9240	"12:59 pm  Tuesday March 25, 2014"	"ABERDEEN 20 NNE WISHKA +"	30	clay	native	200	4	13	15	50	130	25	20	outrut	ft
+WD	wepp-24650	"01:53 pm  Tuesday March 25, 2014"	"ABERDEEN 20 NNE WISHKA +"	10	silt	Bunchgrass	400	0	30	60	20	OldForest	75	30	5	100	20	0	ft	""

@@ -1,0 +1,19 @@
+#
+#	Low-severity fire yearly scenario for Disturbed WEPP
+#
+LOW
+Vegetation conditions following a low severity burn
+W. Elliot 3/98
+
+1	# `landuse' - <Cropland>
+3	# `itype' - <LOW>
+0	# `tilseq' - <NotUsed>
+0	# `conset' - <NotUsed>
+0	# `drset' - <NotUsed>
+2	# `mgmt' - <Perennial>
+	0	# `jdharv' - <9 /1 >
+	0	# `jdplt' - <5 /1 >
+	0	# `jdstop' - <>
+	0	# row width
+	3	# `presmgmt' - <Not Harvested/Grazed>
+

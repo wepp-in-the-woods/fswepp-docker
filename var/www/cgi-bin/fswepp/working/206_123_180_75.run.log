@@ -1,0 +1,74 @@
+WR	wepp-118895	"11:29 am  Wednesday March 15, 2017"	"BIRMINGHAM WB AP AL"	30	silt	native	200	4	13	15	50	1	25	20	inveg	ft
+WR	wepp-119789	"11:35 am  Wednesday March 15, 2017"	"BIRMINGHAM WB AP AL"	30	silt	native	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-119874	"11:35 am  Wednesday March 15, 2017"	"BIRMINGHAM WB AP AL"	30	silt	paved	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-120275	"11:37 am  Wednesday March 15, 2017"	"ABERDEEN 20 NNE WISHKA +"	30	silt	native	200	4	13	15	50	1	25	20	inveg	ft
+WR	wepp-120322	"11:38 am  Wednesday March 15, 2017"	"ABERDEEN 20 NNE WISHKA +"	30	silt	native	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-120410	"11:38 am  Wednesday March 15, 2017"	"ABERDEEN 20 NNE WISHKA +"	30	silt	paved	200	4	13	15	50	1	25	20	inbare	ft
+WD	wepp-122268	"11:50 am  Wednesday March 15, 2017"	"ABERDEEN 20 NNE WISHKA +"	10	silt	OldForest	400	0	30	100	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-122870	"11:55 am  Wednesday March 15, 2017"	"ABERDEEN 20 NNE WISHKA +"	10	silt	Bunchgrass	400	0	30	60	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-123280	"11:56 am  Wednesday March 15, 2017"	"ABERDEEN 20 NNE WISHKA +"	10	silt	Bunchgrass	400	0	30	60	20	OldForest	30	30	5	100	20	0	ft	""
+WD	wepp-123364	"11:58 am  Wednesday March 15, 2017"	"ABERDEEN 20 NNE WISHKA +"	10	silt	Bunchgrass	400	0	30	60	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-123439	"11:58 am  Wednesday March 15, 2017"	"ABERDEEN 20 NNE WISHKA +"	10	silt	Bunchgrass	400	0	30	60	20	OldForest	30	30	5	100	20	0	ft	""
+WD	wepp-124121	"12:02 pm  Wednesday March 15, 2017"	"ABERDEEN 20 NNE WISHKA +"	10	silt	Bunchgrass	400	0	30	60	20	OldForest	30	30	5	100	20	0	ft	""
+WD	wepp-124598	"12:06 pm  Wednesday March 15, 2017"	"ABERDEEN 20 NNE WISHKA +"	10	silt	HighFire	400	0	30	45	20	LowFire	30	30	5	85	20	0	ft	""
+WD	wepp-126271	"12:16 pm  Wednesday March 15, 2017"	"ABERDEEN 20 NNE WISHKA +"	10	silt	HighFire	400	0	30	45	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-126311	"12:16 pm  Wednesday March 15, 2017"	"ABERDEEN 20 NNE WISHKA +"	10	silt	HighFire	400	0	30	45	20	OldForest	100	30	5	100	20	0	ft	""
+WD	wepp-126386	"12:16 pm  Wednesday March 15, 2017"	"ABERDEEN 20 NNE WISHKA +"	10	silt	HighFire	400	0	30	45	20	OldForest	400	30	5	100	20	0	ft	""
+WD	wepp-126396	"12:16 pm  Wednesday March 15, 2017"	"ABERDEEN 20 NNE WISHKA +"	10	silt	HighFire	400	0	30	45	20	OldForest	450	30	5	100	20	0	ft	""
+WD	wepp-126440	"12:16 pm  Wednesday March 15, 2017"	"ABERDEEN 20 NNE WISHKA +"	10	silt	HighFire	400	0	30	45	20	OldForest	500	30	5	100	20	0	ft	""
+WD	wepp-126487	"12:17 pm  Wednesday March 15, 2017"	"ABERDEEN 20 NNE WISHKA +"	10	silt	HighFire	400	0	30	45	20	OldForest	550	30	5	100	20	0	ft	""
+WD	wepp-126495	"12:17 pm  Wednesday March 15, 2017"	"ABERDEEN 20 NNE WISHKA +"	10	silt	HighFire	400	0	30	45	20	OldForest	600	30	5	100	20	0	ft	""
+WD	wepp-126539	"12:17 pm  Wednesday March 15, 2017"	"ABERDEEN 20 NNE WISHKA +"	10	silt	HighFire	400	0	30	45	20	OldForest	800	30	5	100	20	0	ft	""
+WD	wepp-126584	"12:17 pm  Wednesday March 15, 2017"	"ABERDEEN 20 NNE WISHKA +"	10	silt	HighFire	400	0	30	45	20	OldForest	900	30	5	100	20	0	ft	""
+WD	wepp-126627	"12:17 pm  Wednesday March 15, 2017"	"ABERDEEN 20 NNE WISHKA +"	10	silt	HighFire	400	0	30	45	20	OldForest	950	30	5	100	20	0	ft	""
+WD	wepp-126672	"12:17 pm  Wednesday March 15, 2017"	"ABERDEEN 20 NNE WISHKA +"	10	silt	HighFire	400	0	30	45	20	OldForest	1000	30	5	100	20	0	ft	""
+WD	wepp-126721	"12:17 pm  Wednesday March 15, 2017"	"ABERDEEN 20 NNE WISHKA +"	10	silt	HighFire	400	0	30	45	20	OldForest	1000	30	5	100	20	0	ft	""
+WD	wepp-182016	"09:27 am  Wednesday March 14, 2018"	"ABERDEEN 20 custom +"	10	silt	OldForest	400	0	30	100	20	OldForest	75	30	5	100	20	0	ft	"3a"
+WR	wepp-182995	"09:35 am  Wednesday March 14, 2018"	""	1			0	0	0	0	0	0	0	0		
+WR	wepp-182998	"09:35 am  Wednesday March 14, 2018"	""	1			0	0	0	0	0	0	0	0		
+WR	wepp-183475	"09:36 am  Wednesday March 14, 2018"	"ABERDEEN 20 custom +"	30	silt	native	200	4	13	15	50	1	25	20	inveg	ft
+WR	wepp-183772	"09:39 am  Wednesday March 14, 2018"	"ABERDEEN 20 custom +"	30	silt	native	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-184029	"09:42 am  Wednesday March 14, 2018"	"ABERDEEN 20 custom +"	30	silt	paved	200	4	13	15	50	1	25	20	inbare	ft
+WD	wepp-186424	"10:07 am  Wednesday March 14, 2018"	"ABERDEEN 20 custom +"	10	silt	OldForest	400	0	30	100	20	OldForest	75	30	5	100	20	0	ft	"3a"
+WD	wepp-186569	"10:10 am  Wednesday March 14, 2018"	"ABERDEEN 20 custom +"	10	silt	Bunchgrass	400	0	30	60	20	OldForest	75	30	5	100	20	0	ft	"3a"
+WD	wepp-187591	"10:17 am  Wednesday March 14, 2018"	"ABERDEEN 20 custom +"	10	silt	HighFire	400	0	30	45	20	LowFire	30	30	5	85	20	0	ft	"3a"
+WD	wepp-187935	"10:22 am  Wednesday March 14, 2018"	"ABERDEEN 20 custom +"	10	silt	HighFire	400	0	30	45	20	OldForest	30	30	5	100	20	0	ft	"3a"
+WD	wepp-187982	"10:23 am  Wednesday March 14, 2018"	"ABERDEEN 20 custom +"	10	silt	HighFire	400	0	30	45	20	OldForest	100	30	5	100	20	0	ft	"3a"
+WD	wepp-188023	"10:23 am  Wednesday March 14, 2018"	"ABERDEEN 20 custom +"	10	silt	HighFire	400	0	30	45	20	OldForest	300	30	5	100	20	0	ft	"3a"
+WD	wepp-188060	"10:23 am  Wednesday March 14, 2018"	"ABERDEEN 20 custom +"	10	silt	HighFire	400	0	30	45	20	OldForest	500	30	5	100	20	0	ft	"3a"
+WD	wepp-188098	"10:23 am  Wednesday March 14, 2018"	"ABERDEEN 20 custom +"	10	silt	HighFire	400	0	30	45	20	OldForest	550	30	5	100	20	0	ft	"3a"
+WD	wepp-188133	"10:23 am  Wednesday March 14, 2018"	"ABERDEEN 20 custom +"	10	silt	HighFire	400	0	30	45	20	OldForest	600	30	5	100	20	0	ft	"3a"
+WD	wepp-188171	"10:23 am  Wednesday March 14, 2018"	"ABERDEEN 20 custom +"	10	silt	HighFire	400	0	30	45	20	OldForest	680	30	5	100	20	0	ft	"3a"
+WD	wepp-188208	"10:23 am  Wednesday March 14, 2018"	"ABERDEEN 20 custom +"	10	silt	HighFire	400	0	30	45	20	OldForest	750	30	5	100	20	0	ft	"3a"
+WD	wepp-188245	"10:23 am  Wednesday March 14, 2018"	"ABERDEEN 20 custom +"	10	silt	HighFire	400	0	30	45	20	OldForest	850	30	5	100	20	0	ft	"3a"
+WD	wepp-188303	"10:24 am  Wednesday March 14, 2018"	"ABERDEEN 20 custom +"	10	silt	HighFire	400	0	30	45	20	OldForest	950	30	5	100	20	0	ft	"3a"
+WD	wepp-188338	"10:24 am  Wednesday March 14, 2018"	"ABERDEEN 20 custom +"	10	silt	HighFire	400	0	30	45	20	OldForest	950	30	5	100	20	0	ft	"3a"
+WD	wepp-188346	"10:24 am  Wednesday March 14, 2018"	"ABERDEEN 20 custom +"	10	silt	HighFire	400	0	30	45	20	OldForest	980	30	5	100	20	0	ft	"3a"
+WD	wepp-188382	"10:24 am  Wednesday March 14, 2018"	"ABERDEEN 20 custom +"	10	silt	HighFire	400	0	30	45	20	OldForest	970	30	5	100	20	0	ft	"3a"
+WD	wepp-188418	"10:24 am  Wednesday March 14, 2018"	"ABERDEEN 20 custom +"	10	silt	HighFire	400	0	30	45	20	OldForest	960	30	5	100	20	0	ft	"3a"
+WD	wepp-188455	"10:24 am  Wednesday March 14, 2018"	"ABERDEEN 20 custom +"	10	silt	HighFire	400	0	30	45	20	OldForest	955	30	5	100	20	0	ft	"3a"
+WD	wepp-188498	"10:24 am  Wednesday March 14, 2018"	"ABERDEEN 20 custom +"	10	silt	HighFire	400	0	30	45	20	OldForest	957	30	5	100	20	0	ft	"3a"
+WD	wepp-188533	"10:24 am  Wednesday March 14, 2018"	"ABERDEEN 20 custom +"	10	silt	HighFire	400	0	30	45	20	OldForest	956	30	5	100	20	0	ft	"3a"
+WD	wepp-188540	"10:24 am  Wednesday March 14, 2018"	"ABERDEEN 20 custom +"	10	silt	HighFire	400	0	30	45	20	OldForest	956	30	5	100	20	0	ft	"3a"
+WR	wepp-199160	"11:45 am  Wednesday March 14, 2018"	"ABERDEEN 20 custom +"	30	silt	native	200	4	13	15	50	1	25	20	inveg	ft
+WR	wepp-199235	"11:46 am  Wednesday March 14, 2018"	"ABERDEEN 20 custom +"	30	silt	native	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-199330	"11:46 am  Wednesday March 14, 2018"	"ABERDEEN 20 custom +"	30	silt	paved	200	4	13	15	50	1	25	20	inbare	ft
+WD	wepp-200692	"12:01 pm  Wednesday March 14, 2018"	"ABERDEEN 20 custom +"	10	silt	OldForest	400	0	30	100	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-201842	"12:05 pm  Wednesday March 14, 2018"	"ABERDEEN 20 custom +"	10	silt	HighFire	400	0	30	45	20	LowFire	75	30	5	85	20	0	ft	""
+WD	wepp-202547	"12:08 pm  Wednesday March 14, 2018"	"ABERDEEN 20 custom +"	10	silt	Bunchgrass	400	0	30	60	20	LowFire	75	30	5	85	20	0	ft	""
+WD	wepp-203047	"12:11 pm  Wednesday March 14, 2018"	"ABERDEEN 20 custom +"	10	silt	Bunchgrass	400	0	30	60	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-203087	"12:11 pm  Wednesday March 14, 2018"	"ABERDEEN 20 custom +"	10	silt	HighFire	400	0	30	45	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-203124	"12:11 pm  Wednesday March 14, 2018"	"ABERDEEN 20 custom +"	10	silt	HighFire	400	0	30	45	20	OldForest	100	30	5	100	20	0	ft	""
+WD	wepp-203187	"12:12 pm  Wednesday March 14, 2018"	"ABERDEEN 20 custom +"	10	silt	HighFire	400	0	30	45	20	OldForest	200	30	5	100	20	0	ft	""
+WD	wepp-203230	"12:12 pm  Wednesday March 14, 2018"	"ABERDEEN 20 custom +"	10	silt	HighFire	400	0	30	45	20	OldForest	600	30	5	100	20	0	ft	""
+WD	wepp-203282	"12:12 pm  Wednesday March 14, 2018"	"ABERDEEN 20 custom +"	10	silt	HighFire	400	0	30	45	20	OldForest	700	30	5	100	20	0	ft	""
+WD	wepp-203421	"12:12 pm  Wednesday March 14, 2018"	"ABERDEEN 20 custom +"	10	silt	HighFire	400	0	30	45	20	OldForest	750	30	5	100	20	0	ft	""
+WD	wepp-203517	"12:12 pm  Wednesday March 14, 2018"	"ABERDEEN 20 custom +"	10	silt	HighFire	400	0	30	45	20	OldForest	800	30	5	100	20	0	ft	""
+WD	wepp-203555	"12:12 pm  Wednesday March 14, 2018"	"ABERDEEN 20 custom +"	10	silt	HighFire	400	0	30	45	20	OldForest	900	30	5	100	20	0	ft	""
+WD	wepp-203592	"12:13 pm  Wednesday March 14, 2018"	"ABERDEEN 20 custom +"	10	silt	HighFire	400	0	30	45	20	OldForest	950	30	5	100	20	0	ft	""
+WD	wepp-203648	"12:13 pm  Wednesday March 14, 2018"	"ABERDEEN 20 custom +"	10	silt	HighFire	400	0	30	45	20	OldForest	1000	30	5	100	20	0	ft	""
+WD	wepp-204630	"12:18 pm  Wednesday March 14, 2018"	"ABERDEEN 20 custom +"	10	silt	OldForest	400	0	30	100	20	OldForest	1000	30	5	100	20	0	ft	""
+WD	wepp-204710	"12:18 pm  Wednesday March 14, 2018"	"ABERDEEN 20 custom +"	10	silt	OldForest	400	0	30	100	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-204755	"12:19 pm  Wednesday March 14, 2018"	"ABERDEEN 20 custom +"	10	silt	Bunchgrass	400	0	30	60	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-204794	"12:19 pm  Wednesday March 14, 2018"	"ABERDEEN 20 custom +"	10	silt	Bunchgrass	400	0	30	60	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-204866	"12:20 pm  Wednesday March 14, 2018"	"ABERDEEN 20 custom +"	10	silt	HighFire	400	0	30	45	20	LowFire	75	30	5	85	20	0	ft	""

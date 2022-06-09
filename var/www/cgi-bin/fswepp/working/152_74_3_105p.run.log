@@ -1,0 +1,11 @@
+WR	wepp-2047	"08:06 am  Friday November 19, 2010"	"cuenca rio rana +"	30	clay	native	60	4	4	5	50	40	25	20	inveg	m
+WR	wepp-2179	"08:13 am  Friday November 19, 2010"	"cuenca rio rana +"	30	clay	native	100	6	4	3	50	15	20	20	inveg	m
+WR	wepp-2369	"08:17 am  Friday November 19, 2010"	"cuenca rio rana +"	30	clay	native	100	6	4	3	50	15	20	20	inveg	m
+WR	wepp-2929	"09:03 am  Friday November 19, 2010"	"cuenca rio rana +"	30	clay	native	100	6	4	3	50	15	20	20	outrut	m
+WR	wepp-3000	"09:05 am  Friday November 19, 2010"	"cuenca rio rana +"	30	clay	paved	100	6	4	3	50	15	20	20	inveg	m
+WR	wepp-3033	"09:08 am  Friday November 19, 2010"	"cuenca rio rana +"	30	clay	graveled	50	6	4	3	50	15	20	20	inveg	m
+wt	wepp-3584	"Nov 19, 2010"	"cuenca rio rana +"	alluvial	HighRoad	6	6	100	10	20	Sod	20	15	15	60	0	m	""
+wt	wepp-4124	"Nov 19, 2010"	"cuenca rio rana +"	alluvial	OldForest	20	30	100	100	0	OldForest	30	10	50	100	0	m	""
+wt	wepp-4420	"Nov 19, 2010"	"cuenca rio rana +"	alluvial	LowFire	20	30	100	30	0	LowFire	30	10	50	50	0	m	""
+wt	wepp-4762	"Nov 19, 2010"	"cuenca rio rana +"	alluvial	Sod	20	30	125	90	0	LowFire	30	10	15	100	0	m	""
+wt	wepp-5017	"Nov 19, 2010"	"cuenca rio rana +"	alluvial	LowFire	20	30	125	85	0	OldForest	30	10	15	100	0	m	""

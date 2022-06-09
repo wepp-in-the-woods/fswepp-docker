@@ -1,0 +1,38 @@
+WR	wepp-7062	"10:36 am  Friday November 16, 2012"	"St Joe +"	30	silt	native	200	4	13	15	50	1	1	20	inveg	ft
+WR	wepp-7088	"10:38 am  Friday November 16, 2012"	"St Joe +"	30	silt	native	200	4	13	15	50	1	1	20	inbare	ft
+WR	wepp-7135	"10:39 am  Friday November 16, 2012"	"St Joe +"	30	silt	paved	200	4	13	15	50	1	1	20	inbare	ft
+WR	wepp-7159	"10:43 am  Friday November 16, 2012"	"St Joe +"	30	silt	paved	200	4	13	15	50	50	50	20	inbare	ft
+WR	wepp-7178	"10:44 am  Friday November 16, 2012"	"St Joe +"	30	silt	paved	200	4	13	15	50	100	100	20	inbare	ft
+WR	wepp-7255	"10:48 am  Friday November 16, 2012"	"SAINT MARIES ID +"	30	clay	native	200	4	13	15	50	1	25	20	inveg	ft
+WR	wepp-7275	"10:49 am  Friday November 16, 2012"	"St Joe +"	30	silt	native	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-7324	"10:50 am  Friday November 16, 2012"	"St Joe +"	30	silt	native	200	4	13	15	50	1	25	20	inveg	ft
+WR	wepp-7346	"10:51 am  Friday November 16, 2012"	"St Joe +"	30	silt	native	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-7365	"10:51 am  Friday November 16, 2012"	"St Joe +"	30	silt	native	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-7386	"10:52 am  Friday November 16, 2012"	"St Joe +"	30	silt	paved	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-7431	"10:53 am  Friday November 16, 2012"	"St Joe +"	30	silt	native	200	4	13	15	50	1	25	20	inveg	ft
+WR	wepp-7519	"10:55 am  Friday November 16, 2012"	"St Joe +"	30	silt	native	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-7567	"10:56 am  Friday November 16, 2012"	"St Joe +"	30	silt	paved	200	4	13	15	50	100	25	20	inbare	ft
+WR	wepp-7587	"10:56 am  Friday November 16, 2012"	"St Joe +"	30	silt	paved	200	4	13	15	50	95	25	20	inbare	ft
+WR	wepp-7608	"10:56 am  Friday November 16, 2012"	"St Joe +"	30	silt	paved	200	4	13	15	50	50	25	20	inbare	ft
+WR	wepp-7628	"10:57 am  Friday November 16, 2012"	"St Joe +"	30	silt	paved	200	4	13	15	50	75	25	20	inbare	ft
+WR	wepp-7648	"10:57 am  Friday November 16, 2012"	"St Joe +"	30	silt	paved	200	4	13	15	50	85	25	20	inbare	ft
+WR	wepp-7669	"10:57 am  Friday November 16, 2012"	"St Joe +"	30	silt	paved	200	4	13	15	50	95	25	20	inbare	ft
+WR	wepp-7689	"10:57 am  Friday November 16, 2012"	"St Joe +"	30	silt	paved	200	4	13	15	50	90	25	20	inbare	ft
+WR	wepp-7715	"10:57 am  Friday November 16, 2012"	"St Joe +"	30	silt	paved	200	4	13	15	50	89	25	20	inbare	ft
+WR	wepp-7722	"10:57 am  Friday November 16, 2012"	"St Joe +"	30	silt	paved	200	4	13	15	50	89.9	25	20	inbare	ft
+WR	wepp-7793	"11:01 am  Friday November 16, 2012"	"St Joe +"	30	silt	graveled	200	4	13	15	50	1	25	20	outunrut	ft
+WR	wepp-7858	"11:05 am  Friday November 16, 2012"	"SAINT MARIES ID +"	30	silt	graveled	200	4	13	15	50	1	25	20	outunrut	ft
+WR	wepp-7879	"11:05 am  Friday November 16, 2012"	"St Joe + +"	30	silt	graveled	200	4	13	15	50	1	25	20	outunrut	ft
+WD	wepp-8057	"11:14 am  Friday November 16, 2012"	"St Joe + +"	10	silt	OldForest	400	0	30	100	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-8152	"11:17 am  Friday November 16, 2012"	"St Joe + +"	10	silt	Bunchgrass	400	0	30	60	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-8211	"11:19 am  Friday November 16, 2012"	"St Joe + +"	10	silt	Bunchgrass	400	0	30	60	20	OldForest	30	30	5	100	20	0	ft	""
+WD	wepp-8242	"11:21 am  Friday November 16, 2012"	"St Joe + +"	10	silt	HighFire	400	0	30	45	20	LowFire	75	30	5	85	20	0	ft	""
+WD	wepp-8264	"11:22 am  Friday November 16, 2012"	"St Joe + +"	10	silt	HighFire	400	0	30	45	20	LowFire	30	30	5	85	20	0	ft	""
+WD	wepp-8284	"11:24 am  Friday November 16, 2012"	"St Joe + +"	10	silt	HighFire	400	0	30	45	20	LowFire	100	30	5	85	20	0	ft	""
+WD	wepp-8313	"11:24 am  Friday November 16, 2012"	"St Joe + +"	10	silt	HighFire	400	0	30	45	20	LowFire	400	30	5	85	20	0	ft	""
+WD	wepp-8341	"11:24 am  Friday November 16, 2012"	"St Joe + +"	10	silt	HighFire	400	0	30	45	20	LowFire	500	30	5	85	20	0	ft	""
+WD	wepp-8369	"11:24 am  Friday November 16, 2012"	"St Joe + +"	10	silt	HighFire	400	0	30	45	20	LowFire	1000	30	5	85	20	0	ft	""
+WD	wepp-8520	"11:26 am  Friday November 16, 2012"	"St Joe + +"	10	silt	HighFire	400	0	30	45	20	LowFire	1200	30	5	85	20	0	ft	""
+WD	wepp-8687	"11:28 am  Friday November 16, 2012"	"St Joe + +"	10	silt	OldForest	400	0	30	100	20	OldForest	70	30	5	100	20	0	ft	""
+WD	wepp-8718	"11:28 am  Friday November 16, 2012"	"St Joe + +"	10	silt	OldForest	400	0	30	100	20	OldForest	1.5	30	5	100	20	0	ft	""
+WD	wepp-8870	"11:30 am  Friday November 16, 2012"	"St Joe + +"	10	silt	HighFire	400	0	30	45	20	HighFire	30	30	5	45	20	0	ft	""

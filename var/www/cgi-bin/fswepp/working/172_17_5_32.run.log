@@ -1,0 +1,12 @@
+WE	wepp-128598	"04:26 am  Monday May 9, 2016"	""	silt	20	chap	40	22	10	1000	m	80	0	ft
+WE	wepp-128640	"04:26 am  Monday May 9, 2016"	"BIRMINGHAM WB AP AL"	silt	20	chap	40	22	10	1000	m	80	0	ft
+WE	wepp-131438	"07:27 am  Monday May 9, 2016"	""	clay	20	forest	0	50	30	300	l			ft
+WE	wepp-131478	"07:27 am  Monday May 9, 2016"	"BIRMINGHAM WB AP AL"	clay	20	forest	0	50	30	300	l			ft
+WE	wepp-131633	"07:28 am  Monday May 9, 2016"	"MOUNT SHASTA CA"	sand	20	chap	0	50	30	300	l	80	0	ft
+WE	wepp-133339	"08:46 am  Monday May 9, 2016"	"DENVER WB AP CO"	clay	20	forest	0	50	30	300	l			ft
+WE	wepp-133759	"08:57 am  Monday May 9, 2016"	""	clay	20	forest	0	50	30	300	l			ft
+WE	wepp-133801	"08:58 am  Monday May 9, 2016"	"CHARLESTON KAN AP WV"	clay	20	forest	0	50	30	300	l			ft
+WD	wepp-133957	"08:58 am  Monday May 9, 2016"	"DENVER WB AP CO"	10	clay	OldForest	50	0	30	100	20	OldForest	50	30	5	100	20	0	ft	""
+WE	wepp-55304	"06:57 am  Tuesday May 10, 2016"	"DEER FLAT DAM ID"	silt	20	forest	20	15	5	250	m			m
+WE	wepp-67328	"00:11 am  Thursday June 2, 2016"	"DEER FLAT DAM ID +"	clay	20	forest	0	50	30	300	l			ft
+WE	wepp-67579	"00:14 am  Thursday June 2, 2016"	"MOSCOW U OF I ID"	clay	20	range	50	30	10	300	l	15	75	ft

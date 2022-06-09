@@ -1,0 +1,661 @@
+WE	wepp-7463	"08:30 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	50	chap	30	15	0	100	l	80	0	ft
+WE	wepp-7714	"08:30 pm  Wednesday December 13, 2017"	"Creek Fire +"	clay	5	chap	30	15	0	125	u	80	0	ft
+WE	wepp-7822	"08:30 pm  Wednesday December 13, 2017"	"Creek Fire +"	clay	5	chap	30	15	0	125	l	80	0	ft
+WE	wepp-8080	"08:30 pm  Wednesday December 13, 2017"	"Creek Fire +"	clay	5	range	30	15	0	125	u	15	75	ft
+WE	wepp-8170	"08:30 pm  Wednesday December 13, 2017"	"Creek Fire +"	clay	5	range	30	15	0	125	l	15	75	ft
+WE	wepp-8402	"08:30 pm  Wednesday December 13, 2017"	"Creek Fire +"	clay	5	chap	30	15	0	200	u	80	0	ft
+WE	wepp-8510	"08:30 pm  Wednesday December 13, 2017"	"Creek Fire +"	clay	5	chap	30	15	0	200	l	80	0	ft
+WE	wepp-8738	"08:30 pm  Wednesday December 13, 2017"	"Creek Fire +"	clay	5	chap	30	15	0	200	m	80	0	ft
+WE	wepp-9060	"08:31 pm  Wednesday December 13, 2017"	"Creek Fire +"	clay	5	range	30	15	0	200	l	15	75	ft
+WE	wepp-9303	"08:31 pm  Wednesday December 13, 2017"	"Creek Fire +"	clay	5	range	30	15	0	200	m	15	75	ft
+WE	wepp-9629	"08:31 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	30	15	0	50	u	80	0	ft
+WE	wepp-9733	"08:31 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	30	15	0	50	l	80	0	ft
+WE	wepp-9975	"08:31 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	30	15	0	50	u	80	0	ft
+WE	wepp-10074	"08:31 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	30	15	0	50	l	80	0	ft
+WE	wepp-10326	"08:31 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	30	15	0	50	m	80	0	ft
+WE	wepp-10648	"08:31 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	range	30	15	0	50	u	15	75	ft
+WE	wepp-10756	"08:31 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	range	30	15	0	50	l	15	75	ft
+WE	wepp-10989	"08:31 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	range	30	15	0	50	m	15	75	ft
+WE	wepp-11311	"08:31 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	30	15	0	200	u	80	0	ft
+WE	wepp-11419	"08:32 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	30	15	0	200	l	80	0	ft
+WE	wepp-11688	"08:32 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	30	15	0	200	m	80	0	ft
+WE	wepp-12013	"08:32 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	forest	30	15	0	200	u			ft
+WE	wepp-12118	"08:32 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	forest	30	15	0	200	l			ft
+WE	wepp-12347	"08:32 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	forest	30	15	0	200	m			ft
+WE	wepp-12669	"08:32 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	range	30	15	0	200	u	15	75	ft
+WE	wepp-12777	"08:32 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	range	30	15	0	200	l	15	75	ft
+WE	wepp-13019	"08:32 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	range	30	15	0	200	m	15	75	ft
+WE	wepp-13349	"08:32 pm  Wednesday December 13, 2017"	"Creek Fire +"	clay	5	chap	30	15	0	50	u	80	0	ft
+WE	wepp-13457	"08:32 pm  Wednesday December 13, 2017"	"Creek Fire +"	clay	5	chap	30	15	0	50	l	80	0	ft
+WE	wepp-13712	"08:32 pm  Wednesday December 13, 2017"	"Creek Fire +"	clay	5	chap	30	15	0	50	m	80	0	ft
+WE	wepp-14072	"08:33 pm  Wednesday December 13, 2017"	"Creek Fire +"	clay	5	range	30	15	0	50	u	15	75	ft
+WE	wepp-14180	"08:33 pm  Wednesday December 13, 2017"	"Creek Fire +"	clay	5	range	30	15	0	50	l	15	75	ft
+WE	wepp-14409	"08:33 pm  Wednesday December 13, 2017"	"Creek Fire +"	clay	5	range	30	15	0	50	m	15	75	ft
+WE	wepp-14734	"08:33 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	30	15	0	50	u	80	0	ft
+WE	wepp-14824	"08:33 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	30	15	0	50	l	80	0	ft
+WE	wepp-15056	"08:33 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	30	15	0	50	m	80	0	ft
+WE	wepp-15379	"08:33 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	range	30	15	0	50	l	15	75	ft
+WE	wepp-15612	"08:33 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	range	30	15	0	50	m	15	75	ft
+WE	wepp-15978	"08:33 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	10	chap	30	15	0	200	u	80	0	ft
+WE	wepp-16064	"08:33 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	10	chap	30	15	0	200	l	80	0	ft
+WE	wepp-16299	"08:34 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	10	chap	30	15	0	200	m	80	0	ft
+WE	wepp-16613	"08:34 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	10	forest	30	15	0	200	l			ft
+WE	wepp-16912	"08:34 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	10	forest	30	15	0	200	m			ft
+WE	wepp-17235	"08:34 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	10	forest	30	15	0	200	h			ft
+WE	wepp-17653	"08:34 pm  Wednesday December 13, 2017"	"Creek Fire +"	clay	5	chap	30	15	0	300	u	80	0	ft
+WE	wepp-17761	"08:34 pm  Wednesday December 13, 2017"	"Creek Fire +"	clay	5	chap	30	15	0	300	l	80	0	ft
+WE	wepp-17989	"08:34 pm  Wednesday December 13, 2017"	"Creek Fire +"	clay	5	chap	30	15	0	300	m	80	0	ft
+WE	wepp-18307	"08:34 pm  Wednesday December 13, 2017"	"Creek Fire +"	clay	5	chap	30	15	0	300	h	80	0	ft
+WE	wepp-18691	"08:35 pm  Wednesday December 13, 2017"	"Creek Fire +"	clay	5	forest	30	15	0	300	u			ft
+WE	wepp-18788	"08:35 pm  Wednesday December 13, 2017"	"Creek Fire +"	clay	5	forest	30	15	0	300	l			ft
+WE	wepp-19032	"08:35 pm  Wednesday December 13, 2017"	"Creek Fire +"	clay	5	forest	30	15	0	300	m			ft
+WE	wepp-19396	"08:35 pm  Wednesday December 13, 2017"	"Creek Fire +"	clay	5	forest	30	15	0	300	h			ft
+WE	wepp-19853	"08:35 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	30	15	0	50	u	80	0	ft
+WE	wepp-19943	"08:35 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	30	15	0	50	l	80	0	ft
+WE	wepp-20171	"08:35 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	30	15	0	50	m	80	0	ft
+WE	wepp-20511	"08:35 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	50	chap	30	15	0	200	u	80	0	ft
+WE	wepp-20605	"08:35 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	50	chap	30	15	0	200	l	80	0	ft
+WE	wepp-20837	"08:36 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	50	chap	30	15	0	200	m	80	0	ft
+WE	wepp-21188	"08:36 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	50	forest	30	15	0	200	l			ft
+WE	wepp-21421	"08:36 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	50	forest	30	15	0	200	m			ft
+WE	wepp-21744	"08:36 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	30	15	0	50	u	80	0	ft
+WE	wepp-21852	"08:36 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	30	15	0	50	l	80	0	ft
+WE	wepp-22108	"08:36 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	30	15	0	50	m	80	0	ft
+WE	wepp-22437	"08:36 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	30	15	0	50	h	80	0	ft
+WE	wepp-22854	"08:36 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	forest	30	15	0	50	u			ft
+WE	wepp-22961	"08:36 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	forest	30	15	0	50	l			ft
+WE	wepp-23225	"08:37 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	forest	30	15	0	50	m			ft
+WE	wepp-23530	"08:37 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	range	30	15	0	50	l	15	75	ft
+WE	wepp-23762	"08:37 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	range	30	15	0	50	m	15	75	ft
+WE	wepp-24098	"08:37 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	5	chap	30	15	0	50	u	80	0	ft
+WE	wepp-24182	"08:37 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	5	chap	30	15	0	50	l	80	0	ft
+WE	wepp-24414	"08:37 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	5	chap	30	15	0	50	m	80	0	ft
+WE	wepp-24735	"08:37 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	5	forest	30	15	0	50	u			ft
+WE	wepp-24834	"08:37 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	5	forest	30	15	0	50	l			ft
+WE	wepp-25099	"08:37 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	5	forest	30	15	0	50	m			ft
+WE	wepp-25462	"08:38 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	5	chap	30	15	0	100	u	80	0	ft
+WE	wepp-25547	"08:38 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	5	chap	30	15	0	100	l	80	0	ft
+WE	wepp-25799	"08:38 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	5	chap	30	15	0	100	m	80	0	ft
+WE	wepp-26110	"08:38 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	5	forest	30	15	0	100	u			ft
+WE	wepp-26199	"08:38 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	5	forest	30	15	0	100	l			ft
+WE	wepp-26449	"08:38 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	5	forest	30	15	0	100	m			ft
+WE	wepp-26787	"08:38 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	5	forest	30	15	0	100	h			ft
+WE	wepp-27187	"08:38 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	5	range	30	15	0	100	u	15	75	ft
+WE	wepp-27296	"08:38 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	5	range	30	15	0	100	l	15	75	ft
+WE	wepp-27536	"08:39 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	5	range	30	15	0	100	m	15	75	ft
+WE	wepp-27844	"08:39 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	10	chap	30	15	0	50	u	80	0	ft
+WE	wepp-27931	"08:39 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	10	chap	30	15	0	50	l	80	0	ft
+WE	wepp-28158	"08:39 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	10	chap	30	15	0	50	m	80	0	ft
+WE	wepp-28503	"08:39 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	10	chap	30	15	0	50	h	80	0	ft
+WE	wepp-28890	"08:39 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	10	forest	30	15	0	50	u			ft
+WE	wepp-28986	"08:39 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	10	forest	30	15	0	50	l			ft
+WE	wepp-29241	"08:39 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	10	forest	30	15	0	50	m			ft
+WE	wepp-29565	"08:39 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	10	forest	30	15	0	50	h			ft
+WE	wepp-29953	"08:40 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	10	range	30	15	0	50	u	15	75	ft
+WE	wepp-30053	"08:40 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	10	range	30	15	0	50	l	15	75	ft
+WE	wepp-30316	"08:40 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	10	range	30	15	0	50	m	15	75	ft
+WE	wepp-30640	"08:40 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	10	chap	30	15	0	50	u	80	0	ft
+WE	wepp-30748	"08:40 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	10	chap	30	15	0	50	l	80	0	ft
+WE	wepp-30990	"08:40 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	10	chap	30	15	0	50	m	80	0	ft
+WE	wepp-31310	"08:40 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	10	range	30	15	0	50	u	15	75	ft
+WE	wepp-31413	"08:40 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	10	range	30	15	0	50	l	15	75	ft
+WE	wepp-31662	"08:40 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	10	range	30	15	0	50	m	15	75	ft
+WE	wepp-32009	"08:41 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	10	chap	30	15	0	50	u	80	0	ft
+WE	wepp-32097	"08:41 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	10	chap	30	15	0	50	l	80	0	ft
+WE	wepp-32347	"08:41 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	10	chap	30	15	0	50	m	80	0	ft
+WE	wepp-32655	"08:41 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	10	forest	30	15	0	50	u			ft
+WE	wepp-32746	"08:41 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	10	forest	30	15	0	50	l			ft
+WE	wepp-32992	"08:41 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	10	forest	30	15	0	50	m			ft
+WE	wepp-33296	"08:41 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	10	chap	30	15	0	150	u	80	0	ft
+WE	wepp-33398	"08:41 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	10	chap	30	15	0	150	l	80	0	ft
+WE	wepp-33650	"08:41 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	10	chap	30	15	0	150	m	80	0	ft
+WE	wepp-33976	"08:41 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	30	15	0	300	u	80	0	ft
+WE	wepp-34070	"08:41 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	30	15	0	300	l	80	0	ft
+WE	wepp-34315	"08:42 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	30	15	0	300	m	80	0	ft
+WE	wepp-34674	"08:42 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	50	chap	30	15	0	50	u	80	0	ft
+WE	wepp-34764	"08:42 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	50	chap	30	15	0	50	l	80	0	ft
+WE	wepp-35000	"08:42 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	50	chap	30	15	0	50	m	80	0	ft
+WE	wepp-35344	"08:42 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	50	chap	30	15	0	50	u	80	0	ft
+WE	wepp-35439	"08:42 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	50	chap	30	15	0	50	l	80	0	ft
+WE	wepp-35671	"08:42 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	50	chap	30	15	0	50	m	80	0	ft
+WE	wepp-36013	"08:42 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	50	forest	30	15	0	50	l			ft
+WE	wepp-36243	"08:42 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	50	forest	30	15	0	50	m			ft
+WE	wepp-36610	"08:43 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	50	range	30	15	0	50	m	15	75	ft
+WE	wepp-36935	"08:43 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	30	15	0	50	u	80	0	ft
+WE	wepp-37040	"08:43 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	30	15	0	50	l	80	0	ft
+WE	wepp-37272	"08:43 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	30	15	0	50	m	80	0	ft
+WE	wepp-37595	"08:43 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	range	30	15	0	50	u	15	75	ft
+WE	wepp-37688	"08:43 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	range	30	15	0	50	l	15	75	ft
+WE	wepp-37934	"08:43 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	range	30	15	0	50	m	15	75	ft
+WE	wepp-38257	"08:43 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	30	15	0	50	u	80	0	ft
+WE	wepp-38361	"08:43 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	30	15	0	50	l	80	0	ft
+WE	wepp-38592	"08:43 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	30	15	0	50	m	80	0	ft
+WE	wepp-38923	"08:44 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	forest	30	15	0	50	u			ft
+WE	wepp-39027	"08:44 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	forest	30	15	0	50	l			ft
+WE	wepp-39309	"08:44 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	forest	30	15	0	50	m			ft
+WE	wepp-39610	"08:44 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	range	30	15	0	50	u	15	75	ft
+WE	wepp-39707	"08:44 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	range	30	15	0	50	l	15	75	ft
+WE	wepp-39928	"08:44 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	range	30	15	0	50	m	15	75	ft
+WE	wepp-40244	"08:44 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	30	15	0	50	u	80	0	ft
+WE	wepp-40342	"08:44 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	30	15	0	50	l	80	0	ft
+WE	wepp-40568	"08:44 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	30	15	0	50	m	80	0	ft
+WE	wepp-40952	"08:45 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	range	30	15	0	50	l	15	75	ft
+WE	wepp-41214	"08:45 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	30	15	0	400	u	80	0	ft
+WE	wepp-41304	"08:45 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	30	15	0	400	l	80	0	ft
+WE	wepp-41553	"08:45 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	30	15	0	400	m	80	0	ft
+WE	wepp-41880	"08:45 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	30	15	0	400	h	80	0	ft
+WE	wepp-42283	"08:45 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	forest	30	15	0	400	u			ft
+WE	wepp-42400	"08:45 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	forest	30	15	0	400	l			ft
+WE	wepp-42611	"08:45 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	forest	30	15	0	400	m			ft
+WE	wepp-42951	"08:45 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	range	30	15	0	400	u	15	75	ft
+WE	wepp-43027	"08:45 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	range	30	15	0	400	l	15	75	ft
+WE	wepp-43259	"08:46 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	range	30	15	0	400	m	15	75	ft
+WE	wepp-43575	"08:46 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	50	chap	30	15	0	5	u	80	0	ft
+WE	wepp-43676	"08:46 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	50	chap	30	15	0	5	l	80	0	ft
+WE	wepp-43952	"08:46 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	50	chap	30	15	0	5	m	80	0	ft
+WE	wepp-44275	"08:46 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	25	chap	30	15	0	50	u	80	0	ft
+WE	wepp-44383	"08:46 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	25	chap	30	15	0	50	l	80	0	ft
+WE	wepp-44652	"08:46 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	25	chap	30	15	0	50	m	80	0	ft
+WE	wepp-44975	"08:46 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	25	chap	30	15	0	50	h	80	0	ft
+WE	wepp-45372	"08:47 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	25	forest	30	15	0	50	u			ft
+WE	wepp-45466	"08:47 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	25	forest	30	15	0	50	l			ft
+WE	wepp-45698	"08:47 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	25	forest	30	15	0	50	m			ft
+WE	wepp-46024	"08:47 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	25	forest	30	15	0	50	h			ft
+WE	wepp-46436	"08:47 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	25	range	30	15	0	50	u	15	75	ft
+WE	wepp-46541	"08:47 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	25	range	30	15	0	50	l	15	75	ft
+WE	wepp-46780	"08:47 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	25	range	30	15	0	50	m	15	75	ft
+WE	wepp-47102	"08:47 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	25	range	30	15	0	50	h	15	75	ft
+WE	wepp-47505	"08:47 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	30	15	0	50	u	80	0	ft
+WE	wepp-47613	"08:48 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	30	15	0	50	l	80	0	ft
+WE	wepp-47841	"08:48 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	30	15	0	50	m	80	0	ft
+WE	wepp-48174	"08:48 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	30	15	0	50	h	80	0	ft
+WE	wepp-48596	"08:48 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	forest	30	15	0	50	u			ft
+WE	wepp-48700	"08:48 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	forest	30	15	0	50	l			ft
+WE	wepp-48942	"08:48 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	forest	30	15	0	50	m			ft
+WE	wepp-49286	"08:48 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	range	30	15	0	50	u	15	75	ft
+WE	wepp-49394	"08:48 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	range	30	15	0	50	l	15	75	ft
+WE	wepp-49664	"08:48 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	range	30	15	0	50	m	15	75	ft
+WE	wepp-49995	"08:49 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	30	15	0	50	u	80	0	ft
+WE	wepp-50093	"08:49 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	30	15	0	50	l	80	0	ft
+WE	wepp-50328	"08:49 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	30	15	0	50	m	80	0	ft
+WE	wepp-50709	"08:49 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	30	15	0	50	h	80	0	ft
+WE	wepp-51145	"08:49 pm  Wednesday December 13, 2017"	"Creek Fire +"	silt	5	chap	30	15	0	500	u	80	0	ft
+WE	wepp-51253	"08:49 pm  Wednesday December 13, 2017"	"Creek Fire +"	silt	5	chap	30	15	0	500	l	80	0	ft
+WE	wepp-51505	"08:49 pm  Wednesday December 13, 2017"	"Creek Fire +"	silt	5	chap	30	15	0	500	m	80	0	ft
+WE	wepp-51868	"08:49 pm  Wednesday December 13, 2017"	"Creek Fire +"	silt	5	chap	30	15	0	500	h	80	0	ft
+WE	wepp-52256	"08:49 pm  Wednesday December 13, 2017"	"Creek Fire +"	silt	5	forest	30	15	0	500	l			ft
+WE	wepp-52502	"08:50 pm  Wednesday December 13, 2017"	"Creek Fire +"	silt	5	forest	30	15	0	500	m			ft
+WE	wepp-52819	"08:50 pm  Wednesday December 13, 2017"	"Creek Fire +"	silt	5	forest	30	15	0	500	h			ft
+WE	wepp-53244	"08:50 pm  Wednesday December 13, 2017"	"Creek Fire +"	silt	5	range	30	15	0	500	u	15	75	ft
+WE	wepp-53361	"08:50 pm  Wednesday December 13, 2017"	"Creek Fire +"	silt	5	range	30	15	0	500	l	15	75	ft
+WE	wepp-53582	"08:50 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	30	15	0	150	u	80	0	ft
+WE	wepp-53691	"08:50 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	30	15	0	150	l	80	0	ft
+WE	wepp-53919	"08:50 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	30	15	0	150	m	80	0	ft
+WE	wepp-54244	"08:50 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	forest	30	15	0	150	u			ft
+WE	wepp-54352	"08:50 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	forest	30	15	0	150	l			ft
+WE	wepp-54590	"08:51 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	forest	30	15	0	150	m			ft
+WE	wepp-54924	"08:51 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	range	30	15	0	150	u	15	75	ft
+WE	wepp-55020	"08:51 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	range	30	15	0	150	l	15	75	ft
+WE	wepp-55252	"08:51 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	5	chap	30	15	0	500	u	80	0	ft
+WE	wepp-55357	"08:51 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	5	chap	30	15	0	500	l	80	0	ft
+WE	wepp-55621	"08:51 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	5	chap	30	15	0	500	m	80	0	ft
+WE	wepp-55959	"08:51 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	5	chap	30	15	0	500	h	80	0	ft
+WE	wepp-56406	"08:51 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	5	forest	30	15	0	500	u			ft
+WE	wepp-56486	"08:51 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	5	forest	30	15	0	500	l			ft
+WE	wepp-56720	"08:51 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	5	forest	30	15	0	500	m			ft
+WE	wepp-57042	"08:52 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	5	forest	30	15	0	500	h			ft
+WE	wepp-57440	"08:52 pm  Wednesday December 13, 2017"	"Creek Fire +"	clay	15	chap	30	15	0	600	u	80	0	ft
+WE	wepp-57534	"08:52 pm  Wednesday December 13, 2017"	"Creek Fire +"	clay	15	chap	30	15	0	600	l	80	0	ft
+WE	wepp-57771	"08:52 pm  Wednesday December 13, 2017"	"Creek Fire +"	clay	15	chap	30	15	0	600	m	80	0	ft
+WE	wepp-58105	"08:52 pm  Wednesday December 13, 2017"	"Creek Fire +"	clay	15	chap	30	15	0	600	h	80	0	ft
+WE	wepp-58528	"08:52 pm  Wednesday December 13, 2017"	"Creek Fire +"	clay	15	forest	30	15	0	600	u			ft
+WE	wepp-58637	"08:52 pm  Wednesday December 13, 2017"	"Creek Fire +"	clay	15	forest	30	15	0	600	m			ft
+WE	wepp-58964	"08:53 pm  Wednesday December 13, 2017"	"Creek Fire +"	clay	15	forest	30	15	0	600	h			ft
+WE	wepp-59393	"08:53 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	20	chap	30	15	0	500	u	80	0	ft
+WE	wepp-59493	"08:53 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	20	chap	30	15	0	500	l	80	0	ft
+WE	wepp-59733	"08:53 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	20	chap	30	15	0	500	m	80	0	ft
+WE	wepp-60079	"08:53 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	20	chap	30	15	0	500	h	80	0	ft
+WE	wepp-60498	"08:53 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	20	forest	30	15	0	500	m			ft
+WE	wepp-60805	"08:53 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	20	chap	30	15	0	400	u	80	0	ft
+WE	wepp-60904	"08:53 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	20	chap	30	15	0	400	l	80	0	ft
+WE	wepp-61160	"08:54 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	20	chap	30	15	0	400	m	80	0	ft
+WE	wepp-61494	"08:54 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	20	chap	30	15	0	400	h	80	0	ft
+WE	wepp-61905	"08:54 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	20	forest	30	15	0	400	u			ft
+WE	wepp-62014	"08:54 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	20	forest	30	15	0	400	l			ft
+WE	wepp-62248	"08:54 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	20	forest	30	15	0	400	m			ft
+WE	wepp-62605	"08:54 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	20	forest	30	15	0	400	h			ft
+WE	wepp-63036	"08:54 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	50	chap	30	15	0	300	u	80	0	ft
+WE	wepp-63143	"08:54 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	50	chap	30	15	0	300	l	80	0	ft
+WE	wepp-63403	"08:54 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	50	chap	30	15	0	300	m	80	0	ft
+WE	wepp-63750	"08:55 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	50	chap	30	15	0	300	h	80	0	ft
+WE	wepp-64189	"08:55 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	50	forest	30	15	0	300	u			ft
+WE	wepp-64297	"08:55 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	50	forest	30	15	0	300	l			ft
+WE	wepp-64544	"08:55 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	50	forest	30	15	0	300	m			ft
+WE	wepp-64884	"08:55 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	50	forest	30	15	0	300	h			ft
+WE	wepp-65310	"08:55 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	50	range	30	15	0	300	u	15	75	ft
+WE	wepp-65414	"08:55 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	50	range	30	15	0	300	l	15	75	ft
+WE	wepp-65643	"08:55 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	30	15	0	100	u	80	0	ft
+WE	wepp-65736	"08:55 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	30	15	0	100	l	80	0	ft
+WE	wepp-65964	"08:56 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	30	15	0	100	m	80	0	ft
+WE	wepp-66276	"08:56 pm  Wednesday December 13, 2017"	"Creek Fire +"	silt	5	chap	30	15	0	500	u	80	0	ft
+WE	wepp-66370	"08:56 pm  Wednesday December 13, 2017"	"Creek Fire +"	silt	5	chap	30	15	0	500	l	80	0	ft
+WE	wepp-66609	"08:56 pm  Wednesday December 13, 2017"	"Creek Fire +"	silt	5	chap	30	15	0	500	m	80	0	ft
+WE	wepp-66917	"08:56 pm  Wednesday December 13, 2017"	"Creek Fire +"	silt	5	chap	30	15	0	500	h	80	0	ft
+WE	wepp-67320	"08:56 pm  Wednesday December 13, 2017"	"Creek Fire +"	silt	5	forest	30	15	0	500	u			ft
+WE	wepp-67434	"08:56 pm  Wednesday December 13, 2017"	"Creek Fire +"	silt	5	forest	30	15	0	500	l			ft
+WE	wepp-67662	"08:56 pm  Wednesday December 13, 2017"	"Creek Fire +"	silt	5	forest	30	15	0	500	m			ft
+WE	wepp-67987	"08:57 pm  Wednesday December 13, 2017"	"Creek Fire +"	silt	5	forest	30	15	0	500	h			ft
+WE	wepp-68425	"08:57 pm  Wednesday December 13, 2017"	"Creek Fire +"	silt	5	range	30	15	0	500	u	15	75	ft
+WE	wepp-68525	"08:57 pm  Wednesday December 13, 2017"	"Creek Fire +"	silt	5	range	30	15	0	500	l	15	75	ft
+WE	wepp-68749	"08:57 pm  Wednesday December 13, 2017"	"Creek Fire +"	silt	5	range	30	15	0	500	m	15	75	ft
+WE	wepp-69065	"08:57 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	15	chap	30	15	0	250	u	80	0	ft
+WE	wepp-69164	"08:57 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	15	chap	30	15	0	250	l	80	0	ft
+WE	wepp-69396	"08:57 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	15	chap	30	15	0	250	m	80	0	ft
+WE	wepp-69727	"08:57 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	15	chap	30	15	0	250	h	80	0	ft
+WE	wepp-70148	"08:58 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	15	forest	30	15	0	250	u			ft
+WE	wepp-70256	"08:58 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	15	forest	30	15	0	250	l			ft
+WE	wepp-70495	"08:58 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	15	forest	30	15	0	250	m			ft
+WE	wepp-70828	"08:58 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	15	forest	30	15	0	250	h			ft
+WE	wepp-71223	"08:58 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	20	chap	30	15	0	400	u	80	0	ft
+WE	wepp-71317	"08:58 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	20	chap	30	15	0	400	l	80	0	ft
+WE	wepp-71567	"08:58 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	20	chap	30	15	0	400	m	80	0	ft
+WE	wepp-71901	"08:58 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	20	chap	30	15	0	400	h	80	0	ft
+WE	wepp-72341	"08:58 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	20	forest	30	15	0	400	u			ft
+WE	wepp-72426	"08:59 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	20	forest	30	15	0	400	l			ft
+WE	wepp-72678	"08:59 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	20	forest	30	15	0	400	m			ft
+WE	wepp-72968	"08:59 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	20	forest	30	15	0	400	h			ft
+WE	wepp-73372	"08:59 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	50	chap	30	15	0	250	u	80	0	ft
+WE	wepp-73480	"08:59 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	50	chap	30	15	0	250	l	80	0	ft
+WE	wepp-73725	"08:59 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	50	chap	30	15	0	250	m	80	0	ft
+WE	wepp-74077	"08:59 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	50	forest	30	15	0	250	l			ft
+WE	wepp-74323	"08:59 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	50	forest	30	15	0	250	m			ft
+WE	wepp-74668	"09:00 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	50	chap	60	45	30	100	l	80	0	ft
+WE	wepp-74905	"09:00 pm  Wednesday December 13, 2017"	"Creek Fire +"	clay	5	chap	60	45	30	125	l	80	0	ft
+WE	wepp-75137	"09:00 pm  Wednesday December 13, 2017"	"Creek Fire +"	clay	5	chap	60	45	30	200	u	80	0	ft
+WE	wepp-75237	"09:00 pm  Wednesday December 13, 2017"	"Creek Fire +"	clay	5	chap	60	45	30	200	l	80	0	ft
+WE	wepp-75465	"09:00 pm  Wednesday December 13, 2017"	"Creek Fire +"	clay	5	chap	60	45	30	200	m	80	0	ft
+WE	wepp-75825	"09:00 pm  Wednesday December 13, 2017"	"Creek Fire +"	clay	5	range	60	45	30	200	l	15	75	ft
+WE	wepp-76053	"09:00 pm  Wednesday December 13, 2017"	"Creek Fire +"	clay	5	range	60	45	30	200	m	15	75	ft
+WE	wepp-76375	"09:00 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	60	45	30	50	u	80	0	ft
+WE	wepp-76483	"09:00 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	60	45	30	50	l	80	0	ft
+WE	wepp-76759	"09:00 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	60	45	30	50	u	80	0	ft
+WE	wepp-76867	"09:00 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	60	45	30	50	l	80	0	ft
+WE	wepp-77112	"09:01 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	60	45	30	200	u	80	0	ft
+WE	wepp-77215	"09:01 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	60	45	30	200	l	80	0	ft
+WE	wepp-77447	"09:01 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	60	45	30	200	m	80	0	ft
+WE	wepp-77779	"09:01 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	range	60	45	30	200	u	15	75	ft
+WE	wepp-77886	"09:01 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	range	60	45	30	200	l	15	75	ft
+WE	wepp-78115	"09:01 pm  Wednesday December 13, 2017"	"Creek Fire +"	clay	5	chap	60	45	30	50	u	80	0	ft
+WE	wepp-78212	"09:01 pm  Wednesday December 13, 2017"	"Creek Fire +"	clay	5	chap	60	45	30	50	l	80	0	ft
+WE	wepp-78454	"09:01 pm  Wednesday December 13, 2017"	"Creek Fire +"	clay	5	range	60	45	30	50	u	15	75	ft
+WE	wepp-78549	"09:01 pm  Wednesday December 13, 2017"	"Creek Fire +"	clay	5	range	60	45	30	50	l	15	75	ft
+WE	wepp-78810	"09:01 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	60	45	30	50	u	80	0	ft
+WE	wepp-78918	"09:01 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	60	45	30	50	l	80	0	ft
+WE	wepp-79154	"09:01 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	60	45	30	50	m	80	0	ft
+WE	wepp-79467	"09:02 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	10	chap	60	45	30	200	u	80	0	ft
+WE	wepp-79577	"09:02 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	10	chap	60	45	30	200	l	80	0	ft
+WE	wepp-79820	"09:02 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	10	chap	60	45	30	200	m	80	0	ft
+WE	wepp-80148	"09:02 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	10	forest	60	45	30	200	l			ft
+WE	wepp-80403	"09:02 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	10	forest	60	45	30	200	m			ft
+WE	wepp-80727	"09:02 pm  Wednesday December 13, 2017"	"Creek Fire +"	clay	5	chap	60	45	30	300	u	80	0	ft
+WE	wepp-80821	"09:02 pm  Wednesday December 13, 2017"	"Creek Fire +"	clay	5	chap	60	45	30	300	l	80	0	ft
+WE	wepp-81048	"09:02 pm  Wednesday December 13, 2017"	"Creek Fire +"	clay	5	chap	60	45	30	300	m	80	0	ft
+WE	wepp-81358	"09:02 pm  Wednesday December 13, 2017"	"Creek Fire +"	clay	5	chap	60	45	30	300	h	80	0	ft
+WE	wepp-81766	"09:03 pm  Wednesday December 13, 2017"	"Creek Fire +"	clay	5	forest	60	45	30	300	u			ft
+WE	wepp-81863	"09:03 pm  Wednesday December 13, 2017"	"Creek Fire +"	clay	5	forest	60	45	30	300	l			ft
+WE	wepp-82100	"09:03 pm  Wednesday December 13, 2017"	"Creek Fire +"	clay	5	forest	60	45	30	300	m			ft
+WE	wepp-82446	"09:03 pm  Wednesday December 13, 2017"	"Creek Fire +"	clay	5	forest	60	45	30	300	h			ft
+WE	wepp-82850	"09:03 pm  Wednesday December 13, 2017"	"Creek Fire +"	clay	5	range	60	45	30	300	l	15	75	ft
+WE	wepp-83097	"09:03 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	60	45	30	50	u	80	0	ft
+WE	wepp-83183	"09:03 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	60	45	30	50	l	80	0	ft
+WE	wepp-83432	"09:03 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	60	45	30	50	m	80	0	ft
+WE	wepp-83755	"09:04 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	50	chap	60	45	30	200	u	80	0	ft
+WE	wepp-83863	"09:04 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	50	chap	60	45	30	200	l	80	0	ft
+WE	wepp-84094	"09:04 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	50	chap	60	45	30	200	m	80	0	ft
+WE	wepp-84512	"09:04 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	50	forest	60	45	30	200	l			ft
+WE	wepp-84742	"09:04 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	50	forest	60	45	30	200	m			ft
+WE	wepp-85080	"09:04 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	60	45	30	50	u	80	0	ft
+WE	wepp-85184	"09:04 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	60	45	30	50	l	80	0	ft
+WE	wepp-85413	"09:04 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	60	45	30	50	m	80	0	ft
+WE	wepp-85739	"09:04 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	60	45	30	50	h	80	0	ft
+WE	wepp-86163	"09:05 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	5	chap	60	45	30	50	u	80	0	ft
+WE	wepp-86271	"09:05 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	5	chap	60	45	30	50	l	80	0	ft
+WE	wepp-86522	"09:05 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	5	chap	60	45	30	50	m	80	0	ft
+WE	wepp-86857	"09:05 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	5	forest	60	45	30	50	l			ft
+WE	wepp-87093	"09:05 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	5	forest	60	45	30	50	m			ft
+WE	wepp-87412	"09:05 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	5	chap	60	45	30	100	u	80	0	ft
+WE	wepp-87515	"09:05 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	5	chap	60	45	30	100	l	80	0	ft
+WE	wepp-87776	"09:05 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	5	chap	60	45	30	100	m	80	0	ft
+WE	wepp-88102	"09:05 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	5	chap	60	45	30	100	h	80	0	ft
+WE	wepp-88490	"09:06 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	5	forest	60	45	30	100	u			ft
+WE	wepp-88571	"09:06 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	5	forest	60	45	30	100	l			ft
+WE	wepp-88685	"09:06 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	5	forest	60	45	30	100	m			ft
+WE	wepp-88840	"09:06 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	5	forest	60	45	30	100	h			ft
+WE	wepp-89034	"09:06 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	5	range	60	45	30	100	u	15	75	ft
+WE	wepp-89088	"09:06 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	5	range	60	45	30	100	l	15	75	ft
+WE	wepp-89202	"09:06 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	5	range	60	45	30	100	m	15	75	ft
+WE	wepp-89356	"09:06 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	10	chap	60	45	30	50	u	80	0	ft
+WE	wepp-89410	"09:06 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	10	chap	60	45	30	50	l	80	0	ft
+WE	wepp-89524	"09:07 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	10	chap	60	45	30	50	m	80	0	ft
+WE	wepp-89678	"09:07 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	10	forest	60	45	30	50	u			ft
+WE	wepp-89732	"09:07 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	10	forest	60	45	30	50	l			ft
+WE	wepp-89846	"09:07 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	10	forest	60	45	30	50	m			ft
+WE	wepp-90001	"09:07 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	10	range	60	45	30	50	u	15	75	ft
+WE	wepp-90055	"09:07 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	10	range	60	45	30	50	l	15	75	ft
+WE	wepp-90169	"09:07 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	10	chap	60	45	30	50	u	80	0	ft
+WE	wepp-90223	"09:07 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	10	chap	60	45	30	50	l	80	0	ft
+WE	wepp-90337	"09:07 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	10	chap	60	45	30	50	m	80	0	ft
+WE	wepp-90491	"09:07 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	10	chap	60	45	30	50	u	80	0	ft
+WE	wepp-90545	"09:07 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	10	chap	60	45	30	50	l	80	0	ft
+WE	wepp-90659	"09:08 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	10	chap	60	45	30	50	m	80	0	ft
+WE	wepp-90813	"09:08 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	10	forest	60	45	30	50	u			ft
+WE	wepp-90867	"09:08 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	10	forest	60	45	30	50	l			ft
+WE	wepp-90981	"09:08 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	10	forest	60	45	30	50	m			ft
+WE	wepp-91136	"09:08 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	10	chap	60	45	30	150	u	80	0	ft
+WE	wepp-91190	"09:08 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	10	chap	60	45	30	150	l	80	0	ft
+WE	wepp-91304	"09:08 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	10	chap	60	45	30	150	m	80	0	ft
+WE	wepp-91458	"09:08 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	60	45	30	300	u	80	0	ft
+WE	wepp-91512	"09:08 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	60	45	30	300	l	80	0	ft
+WE	wepp-91626	"09:08 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	60	45	30	300	m	80	0	ft
+WE	wepp-91781	"09:09 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	50	chap	60	45	30	50	u	80	0	ft
+WE	wepp-91846	"09:09 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	50	chap	60	45	30	50	l	80	0	ft
+WE	wepp-91960	"09:09 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	60	45	30	50	l	80	0	ft
+WE	wepp-92074	"09:09 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	60	45	30	50	u	80	0	ft
+WE	wepp-92128	"09:09 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	60	45	30	50	l	80	0	ft
+WE	wepp-92243	"09:09 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	60	45	30	50	m	80	0	ft
+WE	wepp-92397	"09:09 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	forest	60	45	30	50	l			ft
+WE	wepp-92511	"09:09 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	forest	60	45	30	50	m			ft
+WE	wepp-92666	"09:09 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	range	60	45	30	50	u	15	75	ft
+WE	wepp-92720	"09:09 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	range	60	45	30	50	l	15	75	ft
+WE	wepp-92835	"09:09 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	range	60	45	30	50	m	15	75	ft
+WE	wepp-92989	"09:10 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	60	45	30	400	u	80	0	ft
+WE	wepp-93043	"09:10 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	60	45	30	400	l	80	0	ft
+WE	wepp-93157	"09:10 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	60	45	30	400	m	80	0	ft
+WE	wepp-93311	"09:10 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	60	45	30	400	h	80	0	ft
+WE	wepp-93506	"09:10 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	forest	60	45	30	400	u			ft
+WE	wepp-93560	"09:10 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	forest	60	45	30	400	l			ft
+WE	wepp-93674	"09:10 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	forest	60	45	30	400	m			ft
+WE	wepp-93828	"09:10 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	range	60	45	30	400	u	15	75	ft
+WE	wepp-93882	"09:10 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	range	60	45	30	400	l	15	75	ft
+WE	wepp-93996	"09:10 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	range	60	45	30	400	m	15	75	ft
+WE	wepp-94150	"09:11 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	50	chap	60	45	30	5	u	80	0	ft
+WE	wepp-94204	"09:11 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	50	chap	60	45	30	5	l	80	0	ft
+WE	wepp-94319	"09:11 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	50	chap	60	45	30	5	m	80	0	ft
+WE	wepp-94474	"09:11 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	25	chap	60	45	30	50	u	80	0	ft
+WE	wepp-94528	"09:11 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	25	chap	60	45	30	50	l	80	0	ft
+WE	wepp-94642	"09:11 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	25	chap	60	45	30	50	m	80	0	ft
+WE	wepp-94796	"09:11 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	25	forest	60	45	30	50	u			ft
+WE	wepp-94850	"09:11 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	25	forest	60	45	30	50	l			ft
+WE	wepp-94964	"09:11 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	25	forest	60	45	30	50	m			ft
+WE	wepp-95118	"09:11 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	25	forest	60	45	30	50	h			ft
+WE	wepp-95312	"09:12 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	60	45	30	50	u	80	0	ft
+WE	wepp-95366	"09:12 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	60	45	30	50	l	80	0	ft
+WE	wepp-95480	"09:12 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	60	45	30	50	m	80	0	ft
+WE	wepp-95635	"09:12 pm  Wednesday December 13, 2017"	"Creek Fire +"	silt	5	chap	60	45	30	500	u	80	0	ft
+WE	wepp-95689	"09:12 pm  Wednesday December 13, 2017"	"Creek Fire +"	silt	5	chap	60	45	30	500	l	80	0	ft
+WE	wepp-95803	"09:12 pm  Wednesday December 13, 2017"	"Creek Fire +"	silt	5	chap	60	45	30	500	m	80	0	ft
+WE	wepp-95957	"09:12 pm  Wednesday December 13, 2017"	"Creek Fire +"	silt	5	chap	60	45	30	500	h	80	0	ft
+WE	wepp-96152	"09:12 pm  Wednesday December 13, 2017"	"Creek Fire +"	silt	5	forest	60	45	30	500	u			ft
+WE	wepp-96206	"09:12 pm  Wednesday December 13, 2017"	"Creek Fire +"	silt	5	forest	60	45	30	500	l			ft
+WE	wepp-96321	"09:13 pm  Wednesday December 13, 2017"	"Creek Fire +"	silt	5	forest	60	45	30	500	m			ft
+WE	wepp-96475	"09:13 pm  Wednesday December 13, 2017"	"Creek Fire +"	silt	5	forest	60	45	30	500	h			ft
+WE	wepp-96669	"09:13 pm  Wednesday December 13, 2017"	"Creek Fire +"	silt	5	range	60	45	30	500	u	15	75	ft
+WE	wepp-96723	"09:13 pm  Wednesday December 13, 2017"	"Creek Fire +"	silt	5	range	60	45	30	500	l	15	75	ft
+WE	wepp-96838	"09:13 pm  Wednesday December 13, 2017"	"Creek Fire +"	silt	5	range	60	45	30	500	m	15	75	ft
+WE	wepp-96992	"09:13 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	60	45	30	150	u	80	0	ft
+WE	wepp-97046	"09:13 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	60	45	30	150	l	80	0	ft
+WE	wepp-97160	"09:13 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	60	45	30	150	m	80	0	ft
+WE	wepp-97314	"09:13 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	60	45	30	150	h	80	0	ft
+WE	wepp-97508	"09:14 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	forest	60	45	30	150	u			ft
+WE	wepp-97562	"09:14 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	forest	60	45	30	150	l			ft
+WE	wepp-97676	"09:14 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	forest	60	45	30	150	m			ft
+WE	wepp-97830	"09:14 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	5	chap	60	45	30	500	u	80	0	ft
+WE	wepp-97885	"09:14 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	5	chap	60	45	30	500	l	80	0	ft
+WE	wepp-97999	"09:14 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	5	chap	60	45	30	500	m	80	0	ft
+WE	wepp-98153	"09:14 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	5	chap	60	45	30	500	h	80	0	ft
+WE	wepp-98347	"09:14 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	5	forest	60	45	30	500	u			ft
+WE	wepp-98401	"09:14 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	5	forest	60	45	30	500	l			ft
+WE	wepp-98515	"09:14 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	5	forest	60	45	30	500	m			ft
+WE	wepp-98669	"09:15 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	5	forest	60	45	30	500	h			ft
+WE	wepp-98864	"09:15 pm  Wednesday December 13, 2017"	"Creek Fire +"	clay	15	chap	60	45	30	600	u	80	0	ft
+WE	wepp-98918	"09:15 pm  Wednesday December 13, 2017"	"Creek Fire +"	clay	15	chap	60	45	30	600	l	80	0	ft
+WE	wepp-99033	"09:15 pm  Wednesday December 13, 2017"	"Creek Fire +"	clay	15	chap	60	45	30	600	m	80	0	ft
+WE	wepp-99187	"09:15 pm  Wednesday December 13, 2017"	"Creek Fire +"	clay	15	chap	60	45	30	600	h	80	0	ft
+WE	wepp-99381	"09:15 pm  Wednesday December 13, 2017"	"Creek Fire +"	clay	15	forest	60	45	30	600	u			ft
+WE	wepp-99435	"09:15 pm  Wednesday December 13, 2017"	"Creek Fire +"	clay	15	forest	60	45	30	600	l			ft
+WE	wepp-99549	"09:15 pm  Wednesday December 13, 2017"	"Creek Fire +"	clay	15	forest	60	45	30	600	m			ft
+WE	wepp-99703	"09:16 pm  Wednesday December 13, 2017"	"Creek Fire +"	clay	15	forest	60	45	30	600	h			ft
+WE	wepp-99897	"09:16 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	20	chap	60	45	30	500	u	80	0	ft
+WE	wepp-99951	"09:16 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	20	chap	60	45	30	500	l	80	0	ft
+WE	wepp-100065	"09:16 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	20	chap	60	45	30	500	m	80	0	ft
+WE	wepp-100220	"09:16 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	20	chap	60	45	30	500	h	80	0	ft
+WE	wepp-100414	"09:16 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	20	forest	60	45	30	500	u			ft
+WE	wepp-100468	"09:16 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	20	forest	60	45	30	500	l			ft
+WE	wepp-100582	"09:16 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	20	forest	60	45	30	500	m			ft
+WE	wepp-100736	"09:17 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	20	forest	60	45	30	500	h			ft
+WE	wepp-100933	"09:17 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	20	chap	60	45	30	400	u	80	0	ft
+WE	wepp-100987	"09:17 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	20	chap	60	45	30	400	l	80	0	ft
+WE	wepp-101101	"09:17 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	20	chap	60	45	30	400	m	80	0	ft
+WE	wepp-101256	"09:17 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	20	chap	60	45	30	400	h	80	0	ft
+WE	wepp-101450	"09:17 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	20	forest	60	45	30	400	u			ft
+WE	wepp-101504	"09:17 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	20	forest	60	45	30	400	l			ft
+WE	wepp-101618	"09:17 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	20	forest	60	45	30	400	m			ft
+WE	wepp-101772	"09:17 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	20	forest	60	45	30	400	h			ft
+WE	wepp-101966	"09:18 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	50	chap	60	45	30	300	u	80	0	ft
+WE	wepp-102020	"09:18 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	50	chap	60	45	30	300	l	80	0	ft
+WE	wepp-102134	"09:18 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	50	chap	60	45	30	300	m	80	0	ft
+WE	wepp-102289	"09:18 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	50	chap	60	45	30	300	h	80	0	ft
+WE	wepp-102483	"09:18 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	50	forest	60	45	30	300	u			ft
+WE	wepp-102537	"09:18 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	50	forest	60	45	30	300	l			ft
+WE	wepp-102651	"09:18 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	50	forest	60	45	30	300	m			ft
+WE	wepp-102805	"09:18 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	50	forest	60	45	30	300	h			ft
+WE	wepp-103000	"09:19 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	50	range	60	45	30	300	u	15	75	ft
+WE	wepp-103054	"09:19 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	50	range	60	45	30	300	l	15	75	ft
+WE	wepp-103168	"09:19 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	50	range	60	45	30	300	m	15	75	ft
+WE	wepp-103544	"09:19 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	60	45	30	100	u	80	0	ft
+WE	wepp-103599	"09:19 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	60	45	30	100	l	80	0	ft
+WE	wepp-103714	"09:19 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	60	45	30	100	m	80	0	ft
+WE	wepp-103868	"09:19 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	60	45	30	100	h	80	0	ft
+WE	wepp-104062	"09:19 pm  Wednesday December 13, 2017"	"Creek Fire +"	silt	5	chap	60	45	30	500	u	80	0	ft
+WE	wepp-104116	"09:19 pm  Wednesday December 13, 2017"	"Creek Fire +"	silt	5	chap	60	45	30	500	l	80	0	ft
+WE	wepp-104230	"09:19 pm  Wednesday December 13, 2017"	"Creek Fire +"	silt	5	chap	60	45	30	500	m	80	0	ft
+WE	wepp-104384	"09:20 pm  Wednesday December 13, 2017"	"Creek Fire +"	silt	5	chap	60	45	30	500	h	80	0	ft
+WE	wepp-104578	"09:20 pm  Wednesday December 13, 2017"	"Creek Fire +"	silt	5	forest	60	45	30	500	u			ft
+WE	wepp-104632	"09:20 pm  Wednesday December 13, 2017"	"Creek Fire +"	silt	5	forest	60	45	30	500	l			ft
+WE	wepp-104754	"09:20 pm  Wednesday December 13, 2017"	"Creek Fire +"	silt	5	forest	60	45	30	500	m			ft
+WE	wepp-104908	"09:20 pm  Wednesday December 13, 2017"	"Creek Fire +"	silt	5	forest	60	45	30	500	h			ft
+WE	wepp-105102	"09:20 pm  Wednesday December 13, 2017"	"Creek Fire +"	silt	5	range	60	45	30	500	u	15	75	ft
+WE	wepp-105156	"09:20 pm  Wednesday December 13, 2017"	"Creek Fire +"	silt	5	range	60	45	30	500	l	15	75	ft
+WE	wepp-105271	"09:20 pm  Wednesday December 13, 2017"	"Creek Fire +"	silt	5	range	60	45	30	500	m	15	75	ft
+WE	wepp-105425	"09:21 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	15	chap	60	45	30	250	u	80	0	ft
+WE	wepp-105479	"09:21 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	15	chap	60	45	30	250	l	80	0	ft
+WE	wepp-105593	"09:21 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	15	chap	60	45	30	250	m	80	0	ft
+WE	wepp-105747	"09:21 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	15	chap	60	45	30	250	h	80	0	ft
+WE	wepp-105942	"09:21 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	15	forest	60	45	30	250	u			ft
+WE	wepp-105996	"09:21 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	15	forest	60	45	30	250	l			ft
+WE	wepp-106110	"09:21 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	15	forest	60	45	30	250	m			ft
+WE	wepp-106264	"09:21 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	15	forest	60	45	30	250	h			ft
+WE	wepp-106458	"09:21 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	20	chap	60	45	30	400	u	80	0	ft
+WE	wepp-106512	"09:22 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	20	chap	60	45	30	400	l	80	0	ft
+WE	wepp-106626	"09:22 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	20	chap	60	45	30	400	m	80	0	ft
+WE	wepp-106780	"09:22 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	20	chap	60	45	30	400	h	80	0	ft
+WE	wepp-106975	"09:22 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	20	forest	60	45	30	400	u			ft
+WE	wepp-107029	"09:22 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	20	forest	60	45	30	400	l			ft
+WE	wepp-107143	"09:22 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	20	forest	60	45	30	400	m			ft
+WE	wepp-107297	"09:22 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	50	chap	60	45	30	250	u	80	0	ft
+WE	wepp-107351	"09:22 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	50	chap	60	45	30	250	l	80	0	ft
+WE	wepp-107465	"09:22 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	50	chap	60	45	30	250	m	80	0	ft
+WE	wepp-107619	"09:23 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	50	forest	60	45	30	250	l			ft
+WE	wepp-107733	"09:23 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	50	forest	60	45	30	250	m			ft
+WE	wepp-107887	"09:23 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	50	chap	100	80	60	100	l	80	0	ft
+WE	wepp-108002	"09:23 pm  Wednesday December 13, 2017"	"Creek Fire +"	clay	5	chap	100	80	60	200	u	80	0	ft
+WE	wepp-108057	"09:23 pm  Wednesday December 13, 2017"	"Creek Fire +"	clay	5	chap	100	80	60	200	l	80	0	ft
+WE	wepp-108171	"09:23 pm  Wednesday December 13, 2017"	"Creek Fire +"	clay	5	chap	100	80	60	200	m	80	0	ft
+WE	wepp-108325	"09:23 pm  Wednesday December 13, 2017"	"Creek Fire +"	clay	5	range	100	80	60	200	l	15	75	ft
+WE	wepp-108439	"09:23 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	100	80	60	200	u	80	0	ft
+WE	wepp-108493	"09:23 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	100	80	60	200	l	80	0	ft
+WE	wepp-108607	"09:23 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	100	80	60	200	m	80	0	ft
+WE	wepp-108761	"09:24 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	range	100	80	60	200	u	15	75	ft
+WE	wepp-108815	"09:24 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	range	100	80	60	200	l	15	75	ft
+WE	wepp-108929	"09:24 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	100	80	60	50	u	80	0	ft
+WE	wepp-108983	"09:24 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	100	80	60	50	l	80	0	ft
+WE	wepp-109097	"09:24 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	100	80	60	50	m	80	0	ft
+WE	wepp-109254	"09:24 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	10	chap	100	80	60	200	u	80	0	ft
+WE	wepp-109308	"09:24 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	10	chap	100	80	60	200	l	80	0	ft
+WE	wepp-109422	"09:24 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	10	chap	100	80	60	200	m	80	0	ft
+WE	wepp-109577	"09:24 pm  Wednesday December 13, 2017"	"Creek Fire +"	clay	5	chap	100	80	60	300	u	80	0	ft
+WE	wepp-109631	"09:24 pm  Wednesday December 13, 2017"	"Creek Fire +"	clay	5	chap	100	80	60	300	l	80	0	ft
+WE	wepp-109746	"09:24 pm  Wednesday December 13, 2017"	"Creek Fire +"	clay	5	chap	100	80	60	300	m	80	0	ft
+WE	wepp-109900	"09:25 pm  Wednesday December 13, 2017"	"Creek Fire +"	clay	5	forest	100	80	60	300	u			ft
+WE	wepp-109954	"09:25 pm  Wednesday December 13, 2017"	"Creek Fire +"	clay	5	forest	100	80	60	300	l			ft
+WE	wepp-110068	"09:25 pm  Wednesday December 13, 2017"	"Creek Fire +"	clay	5	forest	100	80	60	300	m			ft
+WE	wepp-110229	"09:25 pm  Wednesday December 13, 2017"	"Creek Fire +"	clay	5	forest	100	80	60	300	h			ft
+WE	wepp-110426	"09:25 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	50	chap	100	80	60	200	u	80	0	ft
+WE	wepp-110480	"09:25 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	50	chap	100	80	60	200	l	80	0	ft
+WE	wepp-110594	"09:25 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	50	chap	100	80	60	200	m	80	0	ft
+WE	wepp-110749	"09:25 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	50	forest	100	80	60	200	l			ft
+WE	wepp-110863	"09:25 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	50	forest	100	80	60	200	m			ft
+WE	wepp-111017	"09:26 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	5	chap	100	80	60	50	l	80	0	ft
+WE	wepp-111131	"09:26 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	5	forest	100	80	60	50	l			ft
+WE	wepp-111245	"09:26 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	5	chap	100	80	60	100	u	80	0	ft
+WE	wepp-111299	"09:26 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	5	chap	100	80	60	100	l	80	0	ft
+WE	wepp-111414	"09:26 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	5	chap	100	80	60	100	m	80	0	ft
+WE	wepp-111568	"09:26 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	5	forest	100	80	60	100	u			ft
+WE	wepp-111622	"09:26 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	5	forest	100	80	60	100	l			ft
+WE	wepp-111736	"09:26 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	5	forest	100	80	60	100	m			ft
+WE	wepp-111890	"09:26 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	5	forest	100	80	60	100	h			ft
+WE	wepp-112084	"09:27 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	5	range	100	80	60	100	u	15	75	ft
+WE	wepp-112138	"09:27 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	5	range	100	80	60	100	l	15	75	ft
+WE	wepp-112252	"09:27 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	5	range	100	80	60	100	m	15	75	ft
+WE	wepp-112406	"09:27 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	10	chap	100	80	60	50	u	80	0	ft
+WE	wepp-112460	"09:27 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	10	chap	100	80	60	50	l	80	0	ft
+WE	wepp-112575	"09:27 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	10	chap	100	80	60	50	m	80	0	ft
+WE	wepp-112729	"09:27 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	10	forest	100	80	60	50	u			ft
+WE	wepp-112783	"09:27 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	10	forest	100	80	60	50	l			ft
+WE	wepp-112897	"09:27 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	10	chap	100	80	60	50	l	80	0	ft
+WE	wepp-113011	"09:27 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	10	chap	100	80	60	50	u	80	0	ft
+WE	wepp-113065	"09:27 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	10	chap	100	80	60	50	l	80	0	ft
+WE	wepp-113180	"09:28 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	10	chap	100	80	60	50	m	80	0	ft
+WE	wepp-113334	"09:28 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	10	forest	100	80	60	50	u			ft
+WE	wepp-113388	"09:28 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	10	forest	100	80	60	50	l			ft
+WE	wepp-113502	"09:28 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	10	forest	100	80	60	50	m			ft
+WE	wepp-113657	"09:28 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	10	chap	100	80	60	150	u	80	0	ft
+WE	wepp-113711	"09:28 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	10	chap	100	80	60	150	l	80	0	ft
+WE	wepp-113825	"09:28 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	10	chap	100	80	60	150	m	80	0	ft
+WE	wepp-113979	"09:28 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	100	80	60	300	u	80	0	ft
+WE	wepp-114033	"09:28 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	100	80	60	300	l	80	0	ft
+WE	wepp-114147	"09:28 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	100	80	60	300	m	80	0	ft
+WE	wepp-114303	"09:29 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	100	80	60	50	u	80	0	ft
+WE	wepp-114357	"09:29 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	100	80	60	50	l	80	0	ft
+WE	wepp-114471	"09:29 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	100	80	60	400	u	80	0	ft
+WE	wepp-114525	"09:29 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	100	80	60	400	l	80	0	ft
+WE	wepp-114639	"09:29 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	100	80	60	400	m	80	0	ft
+WE	wepp-114794	"09:29 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	100	80	60	400	h	80	0	ft
+WE	wepp-114988	"09:29 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	forest	100	80	60	400	u			ft
+WE	wepp-115042	"09:29 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	forest	100	80	60	400	l			ft
+WE	wepp-115156	"09:29 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	forest	100	80	60	400	m			ft
+WE	wepp-115310	"09:29 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	range	100	80	60	400	u	15	75	ft
+WE	wepp-115364	"09:29 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	range	100	80	60	400	l	15	75	ft
+WE	wepp-115478	"09:30 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	range	100	80	60	400	m	15	75	ft
+WE	wepp-115632	"09:30 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	50	chap	100	80	60	5	u	80	0	ft
+WE	wepp-115686	"09:30 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	50	chap	100	80	60	5	l	80	0	ft
+WE	wepp-115800	"09:30 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	50	chap	100	80	60	5	m	80	0	ft
+WE	wepp-115955	"09:30 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	25	chap	100	80	60	50	u	80	0	ft
+WE	wepp-116009	"09:30 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	25	chap	100	80	60	50	l	80	0	ft
+WE	wepp-116123	"09:30 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	25	chap	100	80	60	50	m	80	0	ft
+WE	wepp-116277	"09:30 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	25	forest	100	80	60	50	u			ft
+WE	wepp-116331	"09:30 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	25	forest	100	80	60	50	l			ft
+WE	wepp-116445	"09:30 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	25	forest	100	80	60	50	m			ft
+WE	wepp-116599	"09:31 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	25	forest	100	80	60	50	h			ft
+WE	wepp-116793	"09:31 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	100	80	60	50	u	80	0	ft
+WE	wepp-116847	"09:31 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	100	80	60	50	l	80	0	ft
+WE	wepp-116961	"09:31 pm  Wednesday December 13, 2017"	"Creek Fire +"	silt	5	chap	100	80	60	500	u	80	0	ft
+WE	wepp-117016	"09:31 pm  Wednesday December 13, 2017"	"Creek Fire +"	silt	5	chap	100	80	60	500	l	80	0	ft
+WE	wepp-117130	"09:31 pm  Wednesday December 13, 2017"	"Creek Fire +"	silt	5	chap	100	80	60	500	m	80	0	ft
+WE	wepp-117284	"09:31 pm  Wednesday December 13, 2017"	"Creek Fire +"	silt	5	chap	100	80	60	500	h	80	0	ft
+WE	wepp-117478	"09:31 pm  Wednesday December 13, 2017"	"Creek Fire +"	silt	5	forest	100	80	60	500	u			ft
+WE	wepp-117532	"09:31 pm  Wednesday December 13, 2017"	"Creek Fire +"	silt	5	forest	100	80	60	500	l			ft
+WE	wepp-117646	"09:31 pm  Wednesday December 13, 2017"	"Creek Fire +"	silt	5	forest	100	80	60	500	m			ft
+WE	wepp-117800	"09:32 pm  Wednesday December 13, 2017"	"Creek Fire +"	silt	5	forest	100	80	60	500	h			ft
+WE	wepp-117994	"09:32 pm  Wednesday December 13, 2017"	"Creek Fire +"	silt	5	range	100	80	60	500	u	15	75	ft
+WE	wepp-118048	"09:32 pm  Wednesday December 13, 2017"	"Creek Fire +"	silt	5	range	100	80	60	500	l	15	75	ft
+WE	wepp-118163	"09:32 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	100	80	60	150	u	80	0	ft
+WE	wepp-118217	"09:32 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	100	80	60	150	l	80	0	ft
+WE	wepp-118331	"09:32 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	100	80	60	150	m	80	0	ft
+WE	wepp-118485	"09:32 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	forest	100	80	60	150	u			ft
+WE	wepp-118539	"09:32 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	forest	100	80	60	150	l			ft
+WE	wepp-118653	"09:32 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	forest	100	80	60	150	m			ft
+WE	wepp-118807	"09:33 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	5	chap	100	80	60	500	u	80	0	ft
+WE	wepp-118861	"09:33 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	5	chap	100	80	60	500	l	80	0	ft
+WE	wepp-118975	"09:33 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	5	chap	100	80	60	500	m	80	0	ft
+WE	wepp-119129	"09:33 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	5	chap	100	80	60	500	h	80	0	ft
+WE	wepp-119324	"09:33 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	5	forest	100	80	60	500	u			ft
+WE	wepp-119378	"09:33 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	5	forest	100	80	60	500	l			ft
+WE	wepp-119492	"09:33 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	5	forest	100	80	60	500	m			ft
+WE	wepp-119646	"09:33 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	5	forest	100	80	60	500	h			ft
+WE	wepp-119840	"09:33 pm  Wednesday December 13, 2017"	"Creek Fire +"	clay	15	chap	100	80	60	600	u	80	0	ft
+WE	wepp-119894	"09:33 pm  Wednesday December 13, 2017"	"Creek Fire +"	clay	15	chap	100	80	60	600	l	80	0	ft
+WE	wepp-120008	"09:34 pm  Wednesday December 13, 2017"	"Creek Fire +"	clay	15	chap	100	80	60	600	m	80	0	ft
+WE	wepp-120162	"09:34 pm  Wednesday December 13, 2017"	"Creek Fire +"	clay	15	chap	100	80	60	600	h	80	0	ft
+WE	wepp-120415	"09:34 pm  Wednesday December 13, 2017"	"Creek Fire +"	clay	15	forest	100	80	60	600	l			ft
+WE	wepp-120531	"09:34 pm  Wednesday December 13, 2017"	"Creek Fire +"	clay	15	forest	100	80	60	600	m			ft
+WE	wepp-120685	"09:34 pm  Wednesday December 13, 2017"	"Creek Fire +"	clay	15	forest	100	80	60	600	h			ft
+WE	wepp-120879	"09:34 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	20	chap	100	80	60	500	u	80	0	ft
+WE	wepp-120933	"09:34 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	20	chap	100	80	60	500	l	80	0	ft
+WE	wepp-121047	"09:35 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	20	chap	100	80	60	500	m	80	0	ft
+WE	wepp-121201	"09:35 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	20	chap	100	80	60	500	h	80	0	ft
+WE	wepp-121395	"09:35 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	20	forest	100	80	60	500	l			ft
+WE	wepp-121510	"09:35 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	20	forest	100	80	60	500	m			ft
+WE	wepp-121664	"09:35 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	20	forest	100	80	60	500	h			ft
+WE	wepp-121858	"09:35 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	20	chap	100	80	60	400	u	80	0	ft
+WE	wepp-121912	"09:35 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	20	chap	100	80	60	400	l	80	0	ft
+WE	wepp-122026	"09:35 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	20	chap	100	80	60	400	m	80	0	ft
+WE	wepp-122180	"09:36 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	20	chap	100	80	60	400	h	80	0	ft
+WE	wepp-122374	"09:36 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	20	forest	100	80	60	400	u			ft
+WE	wepp-122428	"09:36 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	20	forest	100	80	60	400	l			ft
+WE	wepp-122542	"09:36 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	20	forest	100	80	60	400	m			ft
+WE	wepp-122697	"09:36 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	20	forest	100	80	60	400	h			ft
+WE	wepp-122891	"09:36 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	50	chap	100	80	60	300	u	80	0	ft
+WE	wepp-122945	"09:36 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	50	chap	100	80	60	300	l	80	0	ft
+WE	wepp-123059	"09:36 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	50	chap	100	80	60	300	m	80	0	ft
+WE	wepp-123213	"09:37 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	50	chap	100	80	60	300	h	80	0	ft
+WE	wepp-123407	"09:37 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	50	forest	100	80	60	300	u			ft
+WE	wepp-123461	"09:37 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	50	forest	100	80	60	300	l			ft
+WE	wepp-123575	"09:37 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	50	forest	100	80	60	300	m			ft
+WE	wepp-123730	"09:37 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	50	forest	100	80	60	300	h			ft
+WE	wepp-123924	"09:37 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	50	range	100	80	60	300	u	15	75	ft
+WE	wepp-123978	"09:37 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	50	range	100	80	60	300	l	15	75	ft
+WE	wepp-124092	"09:37 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	50	range	100	80	60	300	m	15	75	ft
+WE	wepp-124246	"09:37 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	100	80	60	100	u	80	0	ft
+WE	wepp-124300	"09:38 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	100	80	60	100	l	80	0	ft
+WE	wepp-124414	"09:38 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	5	chap	100	80	60	100	m	80	0	ft
+WE	wepp-124568	"09:38 pm  Wednesday December 13, 2017"	"Creek Fire +"	silt	5	chap	100	80	60	500	u	80	0	ft
+WE	wepp-124622	"09:38 pm  Wednesday December 13, 2017"	"Creek Fire +"	silt	5	chap	100	80	60	500	l	80	0	ft
+WE	wepp-124739	"09:38 pm  Wednesday December 13, 2017"	"Creek Fire +"	silt	5	chap	100	80	60	500	m	80	0	ft
+WE	wepp-124894	"09:38 pm  Wednesday December 13, 2017"	"Creek Fire +"	silt	5	chap	100	80	60	500	h	80	0	ft
+WE	wepp-125088	"09:38 pm  Wednesday December 13, 2017"	"Creek Fire +"	silt	5	forest	100	80	60	500	u			ft
+WE	wepp-125143	"09:38 pm  Wednesday December 13, 2017"	"Creek Fire +"	silt	5	forest	100	80	60	500	l			ft
+WE	wepp-125257	"09:38 pm  Wednesday December 13, 2017"	"Creek Fire +"	silt	5	forest	100	80	60	500	m			ft
+WE	wepp-125413	"09:39 pm  Wednesday December 13, 2017"	"Creek Fire +"	silt	5	forest	100	80	60	500	h			ft
+WE	wepp-125618	"09:39 pm  Wednesday December 13, 2017"	"Creek Fire +"	silt	5	range	100	80	60	500	u	15	75	ft
+WE	wepp-125672	"09:39 pm  Wednesday December 13, 2017"	"Creek Fire +"	silt	5	range	100	80	60	500	l	15	75	ft
+WE	wepp-125786	"09:39 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	15	chap	100	80	60	250	u	80	0	ft
+WE	wepp-125840	"09:39 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	15	chap	100	80	60	250	l	80	0	ft
+WE	wepp-125955	"09:39 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	15	chap	100	80	60	250	m	80	0	ft
+WE	wepp-126109	"09:39 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	15	chap	100	80	60	250	h	80	0	ft
+WE	wepp-126307	"09:39 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	15	forest	100	80	60	250	u			ft
+WE	wepp-126362	"09:39 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	15	forest	100	80	60	250	l			ft
+WE	wepp-126477	"09:39 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	15	forest	100	80	60	250	m			ft
+WE	wepp-126631	"09:40 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	15	forest	100	80	60	250	h			ft
+WE	wepp-126825	"09:40 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	20	chap	100	80	60	400	u	80	0	ft
+WE	wepp-126879	"09:40 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	20	chap	100	80	60	400	l	80	0	ft
+WE	wepp-126993	"09:40 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	20	chap	100	80	60	400	m	80	0	ft
+WE	wepp-127148	"09:40 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	20	chap	100	80	60	400	h	80	0	ft
+WE	wepp-127342	"09:40 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	20	forest	100	80	60	400	u			ft
+WE	wepp-127396	"09:40 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	20	forest	100	80	60	400	l			ft
+WE	wepp-127510	"09:40 pm  Wednesday December 13, 2017"	"Creek Fire +"	loam	20	forest	100	80	60	400	m			ft
+WE	wepp-127664	"09:41 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	50	chap	100	80	60	250	u	80	0	ft
+WE	wepp-127718	"09:41 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	50	chap	100	80	60	250	l	80	0	ft
+WE	wepp-127832	"09:41 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	50	chap	100	80	60	250	m	80	0	ft
+WE	wepp-127986	"09:41 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	50	forest	100	80	60	250	l			ft
+WE	wepp-128101	"09:41 pm  Wednesday December 13, 2017"	"Creek Fire +"	sand	50	forest	100	80	60	250	m			ft

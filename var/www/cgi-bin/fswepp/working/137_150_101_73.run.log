@@ -1,0 +1,12 @@
+WE	wepp-98793	"04:38 pm  Wednesday March 9, 2016"	"EUREKA WBO CA"	sand	20	forest	2	70	50	500	m			ft
+WE	wepp-99163	"04:42 pm  Wednesday March 9, 2016"	"EUREKA WBO CA"	clay	20	forest	0	50	30	300	l			ft
+WR	wepp-99325	"04:43 pm  Wednesday March 9, 2016"	"EUREKA WBO CA"	30	clay	native	200	4	13	15	50	130	25	20	inveg	ft
+WD	wepp-100053	"04:52 pm  Wednesday March 9, 2016"	"MOUNT SHASTA CA"	10	clay	OldForest	100	0	45	90	45	HighFire	100	30	10	50	20	0	ft	""
+WD	wepp-100411	"05:06 pm  Wednesday March 9, 2016"	"BIRMINGHAM WB AP AL"	10	sand	LowFire	100	0	30	75	10	Bunchgrass	100	20	3	20	3	0	ft	""
+WD	wepp-100478	"05:08 pm  Wednesday March 9, 2016"	"BIRMINGHAM WB AP AL"	10	sand	LowFire	100	0	35	75	10	Bunchgrass	100	20	3	20	3	0	ft	""
+WD	wepp-100850	"05:18 pm  Wednesday March 9, 2016"	"EUREKA WBO CA"	10	silt	YoungForest	100	0	45	90	35	Shrub	100	20	5	80	20	0	ft	""
+WD	wepp-101507	"05:19 pm  Wednesday March 9, 2016"	"MOSCOW U OF I ID"	10	loam	Bunchgrass	100	0	45	60	35	Sod	100	20	5	40	20	0	ft	""
+WD	wepp-88664	"06:50 pm  Tuesday March 22, 2022"	"MOUNT SHASTA CA"	10	loam	LowFire	50	10	30	85	20	Skid	50	30	5	20	20	0	ft	""
+wt	wepp-89110	"Mar 22, 2022"	"EUREKA WBO CA"	granitic	OldForest	0	30	50	100	20	LowFire	30	5	50	85	20	ft	""
+wt	wepp-89268	"Mar 22, 2022"	"EUREKA WBO CA"	granitic	OldForest	0	30	50	100	20	LowFire	30	5	50	85	20	ft	""
+WE	wepp-89367	"07:18 pm  Tuesday March 22, 2022"	"MOUNT SHASTA CA"	loam	15	forest	0	50	30	300	u			ft

@@ -1,0 +1,21 @@
+WE	wepp-16603	"07:36 am  Monday December 31, 2012"	"MOUNT SHASTA CA"	silt	20	chap	0	50	30	300	l	80	0	ft
+WE	wepp-28257	"03:42 am  Tuesday January 1, 2013"	"DENVER WB AP CO"	silt	20	chap	0	50	30	300	l	80	0	ft
+WE	wepp-28496	"04:00 am  Tuesday January 1, 2013"	"DENVER WB AP CO"	silt	20	chap	0	50	30	300	h	80	0	ft
+WR	wepp-30184	"06:40 am  Tuesday January 1, 2013"	"BIRMINGHAM WB AP AL"	30	clay	native	200	3	13	9.84	45	164	25	20	inbare	ft
+WR	wepp-30237	"06:44 am  Tuesday January 1, 2013"	"BIRMINGHAM WB AP AL"	30	clay	native	200	3	13	9.84	45	164	25	20	inbare	ft
+WR	wepp-30339	"06:52 am  Tuesday January 1, 2013"	"BIRMINGHAM WB AP AL"	30	clay	native	820	3	13.12	9.84	45	164	25	20	inbare	ft
+WR	wepp-30500	"07:09 am  Tuesday January 1, 2013"	"BIRMINGHAM WB AP AL"	30	clay	native	820	3	13.12	9.84	45	164	25	20	inveg	ft
+WR	wepp-30522	"07:09 am  Tuesday January 1, 2013"	"BIRMINGHAM WB AP AL"	30	clay	native	820	3	13.12	9.84	45	164	25	20	outrut	ft
+WR	wepp-30544	"07:10 am  Tuesday January 1, 2013"	"BIRMINGHAM WB AP AL"	30	clay	native	820	3	13.12	9.84	45	164	25	20	outunrut	ft
+WR	wepp-30682	"07:25 am  Tuesday January 1, 2013"	"BIRMINGHAM WB AP AL"	30	clay	native	820	3	13.12	9.84	45	164	25	20	inbare	ft
+WR	wepp-30703	"07:25 am  Tuesday January 1, 2013"	"BIRMINGHAM WB AP AL"	30	clay	native	820	3	13.12	9.84	45	164	25	20	outunrut	ft
+WR	wepp-30751	"07:26 am  Tuesday January 1, 2013"	"BIRMINGHAM WB AP AL"	30	clay	native	820	3	13.12	9.84	45	164	25	20	outrut	ft
+WR	wepp-30770	"07:27 am  Tuesday January 1, 2013"	"BIRMINGHAM WB AP AL"	30	clay	native	820	3	13.12	9.84	45	164	25	20	inbare	ft
+WR	wepp-30837	"07:34 am  Tuesday January 1, 2013"	"BIRMINGHAM WB AP AL"	30	clay	graveled	820	3	13.12	9.84	45	164	25	20	inbare	ft
+WR	wepp-30857	"07:36 am  Tuesday January 1, 2013"	"BIRMINGHAM WB AP AL"	30	clay	paved	820	3	13.12	9.84	45	164	25	20	inbare	ft
+WR	wepp-27403	"05:24 am  Thursday January 3, 2013"	"BIRMINGHAM WB AP AL"	30	clay	graveled	820	3	13.12	9.84	45	164	25	20	inveg	ft
+WR	wepp-27502	"05:34 am  Thursday January 3, 2013"	"BIRMINGHAM WB AP AL"	30	clay	paved	820	3	13.12	9.84	45	164	25	20	inveg	ft
+WE	wepp-27631	"05:49 am  Thursday January 3, 2013"	"DENVER WB AP CO"	clay	20	chap	0	50	30	300	m	80	0	ft
+WE	wepp-27729	"05:51 am  Thursday January 3, 2013"	"DENVER WB AP CO"	clay	20	chap	0	50	30	300	h	80	0	ft
+WE	wepp-27957	"06:07 am  Thursday January 3, 2013"	"DENVER WB AP CO"	clay	20	chap	0	50	30	300	m	80	0	ft
+WE	wepp-28106	"06:16 am  Thursday January 3, 2013"	"DENVER WB AP CO"	clay	20	chap	0	50	30	300	m	80	0	ft

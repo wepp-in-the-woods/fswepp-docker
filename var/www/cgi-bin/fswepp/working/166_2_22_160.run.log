@@ -1,0 +1,38 @@
+WF	wepp-80160	"01:53 pm  Tuesday October 25, 2016"	"FENN RS ID                              1"	silt	300	50	20	30	15	40	20	40	4	ft
+WD	wepp-82121	"03:20 pm  Tuesday October 25, 2016"	"FENN RS ID"	50	silt	OldForest	250	20	30	100	20	OldForest	50	30	15	100	20	0	ft	""
+WD	wepp-164422	"03:32 pm  Monday October 31, 2016"	"RIO PIEDRAS EXP FARM PR"	30	silt	OldForest	80	20	20	95	15	OldForest	80	20	20	95	15	0	m	""
+WD	wepp-164469	"03:34 pm  Monday October 31, 2016"	"RIO PIEDRAS EXP FARM PR"	10	silt	OldForest	80	20	20	75	15	OldForest	80	20	20	75	15	0	m	""
+WD	wepp-164507	"03:34 pm  Monday October 31, 2016"	"RIO PIEDRAS EXP FARM PR"	30	silt	OldForest	80	20	20	75	15	OldForest	80	20	20	75	15	0	m	""
+WD	wepp-164543	"03:34 pm  Monday October 31, 2016"	"RIO PIEDRAS EXP FARM PR"	30	silt	OldForest	80	20	20	95	15	OldForest	80	20	20	95	15	0	m	""
+WD	wepp-164580	"03:35 pm  Monday October 31, 2016"	"RIO PIEDRAS EXP FARM PR"	30	silt	Bunchgrass	80	20	20	95	15	Bunchgrass	80	20	20	95	15	0	m	""
+WD	wepp-164633	"03:39 pm  Monday October 31, 2016"	"RIO PIEDRAS EXP FARM PR"	30	silt	OldForest	80	20	20	95	15	OldForest	80	20	20	95	15	0	m	""
+WD	wepp-164973	"04:00 pm  Monday October 31, 2016"	"RIO PIEDRAS EXP FARM PR"	30	silt	OldForest	80	20	20	95	15	OldForest	80	20	20	95	15	0	ft	""
+WD	wepp-165029	"04:01 pm  Monday October 31, 2016"	"RIO PIEDRAS EXP FARM PR"	30	silt	OldForest	80	20	20	95	15	OldForest	80	20	20	95	15	0	m	""
+WD	wepp-165734	"04:53 pm  Monday October 31, 2016"	"RIO PIEDRAS EXP FARM PR"	10	silt	OldForest	80	20	20	95	15	OldForest	80	20	20	95	15	0	m	""
+WD	wepp-165770	"04:54 pm  Monday October 31, 2016"	"RIO PIEDRAS EXP FARM PR"	30	silt	Bunchgrass	80	20	20	95	15	Bunchgrass	80	20	20	95	15	0	m	""
+WD	wepp-165806	"04:55 pm  Monday October 31, 2016"	"RIO PIEDRAS EXP FARM PR"	30	silt	OldForest	80	20	20	95	15	OldForest	80	20	20	95	15	0	m	""
+WD	wepp-165844	"04:56 pm  Monday October 31, 2016"	"RIO PIEDRAS EXP FARM PR"	30	silt	Bunchgrass	80	20	20	95	15	Bunchgrass	80	20	20	95	15	0	m	""
+WR	wepp-47396	"02:01 pm  Tuesday November 8, 2016"	"FENN RS ID"	50	silt	native	300	6	13	15	50	130	25	20	inbare	ft
+WR	wepp-47433	"02:01 pm  Tuesday November 8, 2016"	"FENN RS ID"	50	silt	native	300	6	13	1	50	1	25	20	inbare	ft
+WE	wepp-88428	"02:32 pm  Wednesday November 9, 2016"	"FENN RS ID"	sand	5	forest	0.37	0.74	0.38	134.3043	m			ft
+WE	wepp-88611	"02:32 pm  Wednesday November 9, 2016"	"FENN RS ID"	sand	5	forest	0.4	0.58	0.42	210.6136	h			ft
+WE	wepp-88805	"02:32 pm  Wednesday November 9, 2016"	"FENN RS ID"	sand	5	forest	0.3	0.48	0.32	354.6303	m			ft
+WR	wepp-106817	"10:36 am  Tuesday November 22, 2016"	"FENN RS ID"	30	silt	graveled	200	4	13	15	50	130	25	20	inveg	ft
+WE	wepp-106889	"10:40 am  Tuesday November 22, 2016"	"FENN RS ID"	silt	20	forest	33	42	36	183	l			m
+WR	wepp-107319	"10:50 am  Tuesday November 22, 2016"	"FENN RS ID"	30	silt	native	60	4	4	5	50	40	25	20	inveg	m
+WR	wepp-244235	"08:48 am  Tuesday September 17, 2019"	"MOSCOW southwest +"	30	silt	native	200	4	13	15	50	130	25	20	inbare	ft
+WE	wepp-244445	"08:53 am  Tuesday September 17, 2019"	"MOSCOW southwest +"	silt	30	forest	0	50	30	300	u			ft
+WE	wepp-244522	"08:54 am  Tuesday September 17, 2019"	"MOSCOW southwest +"	silt	30	forest	0	50	30	300	h			ft
+WE	wepp-245573	"09:26 am  Tuesday September 17, 2019"	"MOSCOW southwest +"	silt	30	forest	0	50	30	300	h			ft
+WE	wepp-91413	"01:34 pm  Tuesday November 19, 2019"	"MOSCOW southwest +"	clay	20	forest	0	50	30	300	l			ft
+WE	wepp-6373	"10:32 am  Wednesday February 5, 2020"	"MOSCOW southwest +"	clay	20	forest	0	50	30	300	l			ft
+WE	wepp-6787	"10:45 am  Wednesday February 5, 2020"	"MOSCOW southwest +"	clay	20	forest	0	50	30	300	l			ft
+WE	wepp-12350	"02:05 pm  Wednesday February 5, 2020"	"MOSCOW southwest +"	clay	20	forest	0	50	30	300	l			ft
+WE	wepp-12964	"02:33 pm  Wednesday February 5, 2020"	"MOSCOW southwest +"	clay	20	forest	0	50	30	300	l			ft
+WE	wepp-83099	"04:23 pm  Wednesday February 26, 2020"	"MOSCOW southwest +"	clay	20	forest	0	50	30	300	l			ft
+WE	wepp-120441	"12:04 pm  Thursday February 27, 2020"	"MOSCOW southwest +"	clay	20	forest	0	50	30	300	l			ft
+WD	wepp-126194	"02:02 pm  Thursday February 27, 2020"	"MOSCOW southwest +"	10	clay	OldForest	50	0	30	100	20	OldForest	50	30	5	100	20	0	ft	""
+WE	wepp-28217	"08:07 am  Monday March 2, 2020"	"MOSCOW southwest +"	clay	20	forest	0	50	30	300	l			ft
+WE	wepp-210941	"02:30 pm  Tuesday March 3, 2020"	"MOSCOW southwest +"	clay	20	forest	0	50	30	300	l			ft
+WE	wepp-213432	"01:58 pm  Monday March 9, 2020"	"MOSCOW southwest +"	clay	20	forest	0	50	30	300	l			ft
+WE	wepp-75433	"09:05 am  Friday April 3, 2020"	"MOSCOW southwest +"	clay	20	forest	0	50	30	300	l			ft

@@ -1,0 +1,66 @@
+#this files was modified by filegenwhrm.pl on: Wednesday, March 16, 2005.
+#taxgroup Amphibians species Sacramento Mountain salamander /  Aneides hardii
+#
+# Rank
+3,2,2,-99,2
+# Nestsite
+8,1
+# Reprorank
+2,-99
+# Foraging Habitat
+7,1:8,1
+# Habitatrank
+1,-99:2,-99
+# Forage/Prey Availability
+-99
+# Preyrank
+-99
+# Predator Avoidance
+-99
+# Avoidrank
+-99
+# Refugia/Shelter
+7,1:8,1:20,1
+# Shelterrank
+1,-99:2,-99:1,-99
+# Coverrank
+1,-99:2,-99
+# Literature
+Distribution
+Capitan and Sacramento Mountains in south-central New Mexico
+General Habitat
+mixed coniferous forests of Douglas-fir, white fir, and spruce; can range to above timberline
+Home or Activity Range
+no information available
+Canopy Cover
+closed canopy conditions, when down logs are available (Ramotnik 1997)
+Specific Habitat Preferences
+north- and east-facing slopes, rotting logs, old rockslides, Ramotnik and Scott (1988) found associations with PIEN and PIPO
+Nestsite Characteristics
+clutches have been found within large, late-decay stage PSME logs and stumps; may also be deposited below-ground
+Foraging Habitat Characteristics
+forages aboveground within and under logs, rocks and litter
+Diet
+ground-dwelling invertebrates, mostly arthropods in the classes Arthropoda and Insecta
+Predators
+garter snake, passerine birds, small mammals
+Shelter Habitats
+found under bark and inside rotting logs, in old rock slides, and beneath logs, bark, and boards
+Response to Disturbance
+both fire and logging may make forest conditions unsuitable for this salamander (Ramotnik 1997)
+Sources of Information used in the Model
+Ramotnik and Scott 1988, Ramotnik 1997
+General Sources of Background Information
+Ramotnik and Scott 1988, Ramotnik 1997, Stebbins 2003
+Summaries of Specific Studies
+Ramotnik, Cynthia A.; Scott, Norman J. Jr. 1988. Habitat requirements of New Mexico's endangered salamanders. In: Management of amphibians, reptiles, and small mammals in North America symposium: proceedings; Gen. Tech. Rep. RM-166. Fort Collins, CO: USDA, Forest Service, Rocky Mountain Forest and Range Experiment Station. 54-63.
+
+Study Location: Sacramento Mountains, New Mexico
+Habitat Description: mixed conifer: ABCO, PSME, PIEN, PIPU, PIPO, aspen
+Summary: Habitat preferences were explored for the Jemez and Sacramento Mountain salamanders. Abundance of the Jemez Mountain salamander was best predicted by slope, total pine, and large spruce. Abundance of the Sacramento Mountain salamander was correlated to elevation, slope, total pine, and total spruce. These variables were not accurate in predicting salamander presence, therefore the authors urge caution in using models to predict their presence. Interim management guidelines are given for the length of time predictive models are still in question.
+
+Ramotnik, Cynthia A. 1997. Conservation assessment of the Sacramento Mountain Salamander. Gen. Tech. Rep. RM-GTR-293. Fort Collins, CO: USDA, Forest Service, Rocky Mountain Forest and Range Experiment Station. 19 p. 
+
+Study Location: Sacramento Mountains, New Mexico
+Habitat Description: mixed conifer: PSME, ABCO, PIEN, aspen
+Summary: Review of the information pertaining to the distribution, systematics, life history, and habitat preferences of the Sacramento Mountain salamander. The occur within mixed-conifer forests above 2400 m. When active on the ground surface, this salamander can be found under logs and moist litter, rockslides, and surface objects like bark, rocks, and small woody debris. They appear to prefer late-decay stage coniferous logs, and are found in closed canopy forest if appropriate logs are present. Above timberline, they are also associated with mats of moss and lichens. The Sacramento Mountain salamander appears to have both overstory and understory species' preferences, preferring PSME and ABCO cover as well as a Rocky Mountain maple understory. Both fire and logging may make forest conditions unsuitable for this salamander.

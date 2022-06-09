@@ -1,0 +1,66 @@
+#this files was modified by filegenwhrm.pl on: Wednesday, March 16, 2005.
+#taxgroup Amphibians species Spruce grouse /  Falcipennis canadensis
+#
+# Rank
+3,1,1,1,1
+# Nestsite
+20,1
+# Reprorank
+1,-99
+# Foraging Habitat
+20,1
+# Habitatrank
+1,-99
+# Forage/Prey Availability
+24,1:25,1:26,1
+# Preyrank
+1,-99:1,-99:1,-99
+# Predator Avoidance
+20,1:22,1:23,1
+# Avoidrank
+1,-99:1,-99:1,-99
+# Refugia/Shelter
+20,1:22,1:23,1
+# Shelterrank
+1,-99:1,-99:1,-99
+# Coverrank
+2,-99:1,-99:1,-99
+# Literature
+Distribution
+across Alaska, Canada and south into northern New England, northern Great Lake states, and parts of Washington, Idaho, and Montana
+General Habitat
+coniferous forest
+Home or Activity Range
+37-76 ac
+Canopy Cover
+canopy cover 50-90% at night roosting sites and 30-70% at daytime feeding/loafing sites (Paterni 1979); dense overhead cover at nest sites (Boag and Schroeder 1992)
+Specific Habitat Preferences
+dense small trees for roosting; dense large trees for feeding and loafing
+Nestsite Characteristics
+nests on ground under low branch of spruce or bushes
+Foraging Habitat Characteristics
+dense large trees for feeding and loafing
+Diet
+buds and needles of conifers, seeds of weeds and grasses, berries, mushrooms, fern fronds, some insects
+Predators
+raptors and forest carnivores; red squirrels, corvids, mustellids and canids eat eggs
+Shelter Habitats
+roost in trees, often in clumps of small trees
+Response to Disturbance
+no information available
+Sources of Information used in the Model
+Paterni 1979
+General Sources of Background Information
+Paterni 1979, Boag and Schroeder 1992, Alsop 2001
+Summaries of Specific Studies
+Boag, D.A.; Schroeder, M.A. 1992. Spruce grouse. The Birds of North America. 5: 1-27.
+
+Study Location: throughout range
+Habitat Description: variety reviewed
+Summary: Birds of North America species account for the spruce grouse. Grouse appear to prefer relatively young successional stands, with dense tree cover and a well-developed middle-story. Nest-sites always have high overhead cover, usually at the base of coniferous growth.
+
+Paterni, Michael J. 1979. Winter habitat selection by female spruce grouse (Canachites canadensis franklinii) in a mixed coniferous forest. Missoula, MT: University of Montana. 96 p. M.S. Thesis.
+
+Study Location: western Montana
+Habitat Description: PIEN, LAOC, PICO, PIPO, PSME
+Summary: Spruce grouse movement, activity areas, social groupings, and food habits were assessed in winter. Grouse used different cover types in winter than other seasons. Most activity was concentrated on southern exposures. Roosting sites had a high density of small trees and high canopy cover, while basal area was high at both roosting and feeding/loafing sites. Winter diet consisted largely of conifer needles.

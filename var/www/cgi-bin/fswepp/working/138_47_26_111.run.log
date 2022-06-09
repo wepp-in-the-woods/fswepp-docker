@@ -1,0 +1,26 @@
+WD	wepp-5585	"11:57 am  Tuesday April 12, 2011"	"RUSTON L P I LA"	30	sand	tree20	100	3	10	100	0	tree20	100	10	2	100	0	0	ft	"Disturbed WEPP / 20 Year Old Forest"
+WD	wepp-5833	"12:02 pm  Tuesday April 12, 2011"	"RUSTON L P I LA"	30	clay	tree20	100	3	10	100	0	tree20	100	10	2	100	0	0	ft	"Disturbed WEPP / 20 Year Old Forest"
+WD	wepp-5921	"12:04 pm  Tuesday April 12, 2011"	"RUSTON L P I LA"	30	clay	tree20	100	7	15	100	0	tree20	100	15	7	100	0	0	ft	"Disturbed WEPP / 20 Year Old Forest"
+WD	wepp-6091	"12:08 pm  Tuesday April 12, 2011"	"RUSTON L P I LA"	30	sand	tree20	100	7	15	100	0	tree20	100	15	7	100	0	0	ft	"Disturbed WEPP / 20 Year Old Forest"
+WD	wepp-6227	"12:10 pm  Tuesday April 12, 2011"	"RUSTON L P I LA"	30	sand	tree20	100	7	15	70	0	tree20	100	15	7	70	0	0	ft	"Disturbed WEPP / 20 Year Old Forest"
+WD	wepp-6310	"12:13 pm  Tuesday April 12, 2011"	"RUSTON L P I LA"	30	sand	tree5	100	3	10	100	0	tree5	100	10	3	100	0	0	ft	"Disturbed WEPP / 5 Year Old Forest"
+WD	wepp-6341	"12:14 pm  Tuesday April 12, 2011"	"RUSTON L P I LA"	30	clay	tree5	100	3	10	100	0	tree5	100	10	3	100	0	0	ft	"Disturbed WEPP / 5 Year Old Forest"
+WD	wepp-6425	"12:15 pm  Tuesday April 12, 2011"	"RUSTON L P I LA"	30	sand	tree5	100	7	15	100	0	tree5	100	15	7	100	0	0	ft	"Disturbed WEPP / 5 Year Old Forest"
+WD	wepp-6446	"12:16 pm  Tuesday April 12, 2011"	"RUSTON L P I LA"	30	sand	tree5	100	7	15	70	0	tree5	100	15	7	70	0	0	ft	"Disturbed WEPP / 5 Year Old Forest"
+WD	wepp-6654	"12:23 pm  Tuesday April 12, 2011"	"RUSTON L P I LA"	30	sand	skid	100	3	10	10	0	skid	100	10	2	10	0	0	ft	"Disturbed WEPP / 5 Year Old Forest"
+WD	wepp-6706	"12:24 pm  Tuesday April 12, 2011"	"RUSTON L P I LA"	30	clay	skid	100	3	10	10	0	skid	100	10	2	10	0	0	ft	"Disturbed WEPP / 5 Year Old Forest"
+WD	wepp-6744	"12:26 pm  Tuesday April 12, 2011"	"RUSTON L P I LA"	30	sand	skid	100	7	15	10	0	skid	100	15	7	10	0	0	ft	"Disturbed WEPP / 5 Year Old Forest"
+WD	wepp-6764	"12:28 pm  Tuesday April 12, 2011"	"RUSTON L P I LA"	30	sand	low	100	3	10	85	0	low	100	10	2	85	0	0	ft	"Disturbed WEPP / 5 Year Old Forest"
+WD	wepp-6839	"12:30 pm  Tuesday April 12, 2011"	"RUSTON L P I LA"	30	clay	low	100	3	10	85	0	low	100	10	2	85	0	0	ft	"Disturbed WEPP / 5 Year Old Forest"
+WD	wepp-6849	"12:31 pm  Tuesday April 12, 2011"	"RUSTON L P I LA"	30	sand	low	100	7	15	85	0	low	100	15	7	85	0	0	ft	"Disturbed WEPP / 5 Year Old Forest"
+WD	wepp-6864	"12:34 pm  Tuesday April 12, 2011"	"RUSTON L P I LA"	30	sand	high	100	3	10	45	0	high	100	10	2	45	0	0	ft	"HIGH FIRE"
+WD	wepp-6978	"12:38 pm  Tuesday April 12, 2011"	"RUSTON L P I LA"	30	clay	high	100	7	15	45	0	high	100	15	7	45	0	0	ft	"HIGH FIRE"
+WD	wepp-6997	"12:39 pm  Tuesday April 12, 2011"	"RUSTON L P I LA"	30	sand	high	100	7	15	45	0	high	100	15	7	45	0	0	ft	"HIGH FIRE"
+WR	wepp-7211	"12:53 pm  Tuesday April 12, 2011"	"RUSTON L P I LA"	30	sand	native	200	4	13	15	50	130	25	20	inbare	ft
+WR	wepp-7216	"12:54 pm  Tuesday April 12, 2011"	"RUSTON L P I LA"	30	sand	native	200	4	13	15	50	130	25	20	inbare	ft
+WR	wepp-7253	"12:56 pm  Tuesday April 12, 2011"	"RUSTON L P I LA"	30	clay	native	200	4	13	15	50	130	25	20	inbare	ft
+WR	wepp-7273	"12:58 pm  Tuesday April 12, 2011"	"RUSTON L P I LA"	30	sand	native	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-7371	"01:04 pm  Tuesday April 12, 2011"	"RUSTON L P I LA"	30	sand	native	200	4	13	15	50	130	25	20	outrut	ft
+WR	wepp-7418	"01:06 pm  Tuesday April 12, 2011"	"RUSTON L P I LA"	30	clay	native	200	4	13	15	50	130	25	20	outrut	ft
+WR	wepp-7423	"01:07 pm  Tuesday April 12, 2011"	"RUSTON L P I LA"	30	sand	native	200	4	13	15	50	130	25	20	inbare	ft
+WR	wepp-7439	"01:08 pm  Tuesday April 12, 2011"	"RUSTON L P I LA"	30	sand	native	200	4	13	15	50	130	25	20	outrut	ft

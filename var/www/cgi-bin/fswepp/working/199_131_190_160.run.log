@@ -1,0 +1,14 @@
+WE	wepp-97990	"11:50 am  Monday March 30, 2015"	"HARRISBURG IL"	silt	20	forest	0	50	30	300	l			ft
+WE	wepp-98040	"11:50 am  Monday March 30, 2015"	"HARRISBURG IL"	silt	20	forest	0	50	30	300	l			ft
+WE	wepp-98210	"11:50 am  Monday March 30, 2015"	"HARRISBURG IL"	silt	20	forest	0	50	30	300	l			ft
+WD	wepp-27084	"07:30 am  Friday May 1, 2015"	"CARBONDALE AIRPORT IL"	10	silt	LowFire	50	0	30	85	20	LowFire	50	30	5	85	20	0	ft	""
+WD	wepp-150346	"08:32 am  Monday May 11, 2015"	"CARBONDALE AIRPORT IL"	10	silt	LowFire	100	0	14	85	5	LowFire	100	14	5	85	5	0	ft	""
+WD	wepp-150415	"08:34 am  Monday May 11, 2015"	"CARBONDALE AIRPORT IL"	10	silt	LowFire	100	0	25	85	5	LowFire	100	25	5	85	5	0	ft	""
+WE	wepp-150621	"08:40 am  Monday May 11, 2015"	"CARBONDALE AIRPORT IL"	silt	5	forest	0	50	30	300	l			ft
+WD	wepp-150884	"08:45 am  Monday May 11, 2015"	"CARBONDALE AIRPORT IL"	10	silt	YoungForest	50	0	25	50	5	OldForest	50	25	5	50	5	0	ft	""
+WD	wepp-150929	"08:46 am  Monday May 11, 2015"	"CARBONDALE AIRPORT IL"	10	silt	YoungForest	50	0	25	50	5	YoungForest	50	25	5	100	5	0	ft	""
+WD	wepp-71668	"05:19 am  Tuesday June 23, 2015"	"CARBONDALE AIRPORT IL"	10	clay	LowFire	50	0	10	85	10	LowFire	50	10	5	85	10	0	ft	""
+WE	wepp-71721	"05:20 am  Tuesday June 23, 2015"	"CARBONDALE AIRPORT IL"	clay	20	forest	0	10	5	300	l			ft
+WD	wepp-14511	"06:18 am  Tuesday July 7, 2015"	"CARBONDALE AIRPORT IL"	10	silt	LowFire	50	0	30	85	10	LowFire	50	30	5	85	10	0	ft	""
+WD	wepp-14570	"06:24 am  Tuesday July 7, 2015"	"CARBONDALE AIRPORT IL"	10	silt	LowFire	100	0	30	85	10	LowFire	100	30	5	85	10	0	ft	""
+WE	wepp-14634	"06:26 am  Tuesday July 7, 2015"	"HARRISBURG IL"	silt	20	forest	0	50	30	300	l			ft

@@ -1,0 +1,95 @@
+WR	wepp-212390	"08:48 am  Monday August 17, 2020"	"WP +"	1	clay	native	150	16	12	15	50	150	50	20	inbare	ft
+WR	wepp-212425	"08:49 am  Monday August 17, 2020"	"WP +"	1	clay	native	150	16	12	15	50	150	50	20	inbare	ft
+WR	wepp-212461	"08:49 am  Monday August 17, 2020"	"WP +"	30	clay	native	150	16	12	15	50	150	50	20	inbare	ft
+WR	wepp-212504	"08:49 am  Monday August 17, 2020"	"WP +"	50	clay	native	150	16	12	15	50	150	50	20	inbare	ft
+WR	wepp-212541	"08:49 am  Monday August 17, 2020"	"WP +"	50	silt	native	150	16	12	15	50	150	50	20	inbare	ft
+WR	wepp-212590	"08:50 am  Monday August 17, 2020"	"WP +"	30	silt	native	150	16	12	15	50	150	50	20	inbare	ft
+WR	wepp-212661	"08:54 am  Monday August 17, 2020"	"WP +"	30	silt	native	100	16	12	15	50	150	50	20	outrut	ft
+WR	wepp-212697	"08:54 am  Monday August 17, 2020"	"WP +"	30	silt	native	100	16	12	15	50	150	50	20	inbare	ft
+WR	wepp-212748	"08:55 am  Monday August 17, 2020"	"WP +"	50	silt	native	100	16	12	15	50	150	50	20	outrut	ft
+WR	wepp-212944	"09:00 am  Monday August 17, 2020"	"WP +"	50	silt	graveled	300	10	14	15	50	150	50	20	inveg	ft
+WR	wepp-212996	"09:02 am  Monday August 17, 2020"	"WP +"	50	silt	graveled	100	10	14	15	50	1	0.3	20	inbare	ft
+WD	wepp-225314	"01:06 pm  Monday August 17, 2020"	"WP +"	10	clay	OldForest	50	0	30	100	20	OldForest	50	30	5	100	20	0	ft	""
+WD	wepp-225634	"01:18 pm  Monday August 17, 2020"	"PK +"	50	loam	YoungForest	1200	37	37	95	20	OldForest	100	55	55	95	20	0	ft	"Typical - Tractor/Loam"
+WD	wepp-225669	"01:18 pm  Monday August 17, 2020"	"PK +"	50	sand	YoungForest	1200	37	37	95	20	OldForest	100	55	55	95	20	0	ft	"Typical - Tractor/Sandy Loam"
+WD	wepp-225676	"01:18 pm  Monday August 17, 2020"	"PK +"	50	loam	LowFire	1200	49	49	85	20	OldForest	100	55	55	95	20	0	ft	"Typical - Skyline/Loam"
+WD	wepp-225683	"01:18 pm  Monday August 17, 2020"	"PK +"	50	sand	LowFire	1200	50	50	85	20	OldForest	100	55	55	95	20	0	ft	"Typical - Skyline/Sandy Loam"
+WD	wepp-225690	"01:18 pm  Monday August 17, 2020"	"PK +"	50	silt	LowFire	1200	5	5	85	20	OldForest	100	55	55	95	20	0	ft	"Typical - Skyline/Silt Loam"
+WD	wepp-225697	"01:18 pm  Monday August 17, 2020"	"PK +"	50	loam	LowFire	1200	56	56	85	20	OldForest	100	55	55	95	20	0	ft	"Typical - Heli/Loam"
+WD	wepp-225704	"01:18 pm  Monday August 17, 2020"	"PK +"	50	sand	LowFire	1200	56	56	85	20	OldForest	100	55	55	95	20	0	ft	"Typical - Heli/Sandy Loam"
+WD	wepp-225711	"01:18 pm  Monday August 17, 2020"	"PK +"	50	silt	LowFire	1200	55	55	85	20	OldForest	100	55	55	95	20	0	ft	"Typical - Heli/Silt Loam"
+WD	wepp-225718	"01:18 pm  Monday August 17, 2020"	"PK +"	50	loam	LowFire	1200	62	62	80	20	LowFire	100	55	55	85	20	0	ft	"Typical - Rx Fire/Loam"
+WD	wepp-225727	"01:18 pm  Monday August 17, 2020"	"PK +"	50	sand	LowFire	1200	59	59	80	20	LowFire	100	55	55	85	20	0	ft	"Typical - Rx Fire/Sandy Loam"
+WD	wepp-225734	"01:18 pm  Monday August 17, 2020"	"PK +"	50	silt	LowFire	1200	26	26	80	20	LowFire	100	55	55	85	20	0	ft	"Typical - Rx Fire/Silt Loam"
+WD	wepp-225765	"01:22 pm  Monday August 17, 2020"	"PK +"	10	clay	OldForest	50	0	30	100	20	OldForest	50	30	5	100	20	0	ft	""
+WD	wepp-225832	"01:28 pm  Monday August 17, 2020"	"PK +"	50	loam	YoungForest	1200	37	37	95	20	OldForest	100	55	55	95	20	0	ft	"Typical - Tractor/Loam"
+WD	wepp-225867	"01:28 pm  Monday August 17, 2020"	"PK +"	50	sand	YoungForest	1200	37	37	95	20	OldForest	100	55	55	95	20	0	ft	"Typical - Tractor/Sandy Loam"
+WD	wepp-225874	"01:29 pm  Monday August 17, 2020"	"PK +"	50	loam	LowFire	1200	49	49	85	20	OldForest	100	55	55	95	20	0	ft	"Typical - Skyline/Loam"
+WD	wepp-225881	"01:29 pm  Monday August 17, 2020"	"PK +"	50	sand	LowFire	1200	50	50	85	20	OldForest	100	55	55	95	20	0	ft	"Typical - Skyline/Sandy Loam"
+WD	wepp-225888	"01:29 pm  Monday August 17, 2020"	"PK +"	50	silt	LowFire	1200	5	5	85	20	OldForest	100	55	55	95	20	0	ft	"Typical - Skyline/Silt Loam"
+WD	wepp-225895	"01:29 pm  Monday August 17, 2020"	"PK +"	50	loam	LowFire	1200	56	56	85	20	OldForest	100	55	55	95	20	0	ft	"Typical - Heli/Loam"
+WD	wepp-225902	"01:29 pm  Monday August 17, 2020"	"PK +"	50	sand	LowFire	1200	56	56	85	20	OldForest	100	55	55	95	20	0	ft	"Typical - Heli/Sandy Loam"
+WD	wepp-225909	"01:29 pm  Monday August 17, 2020"	"PK +"	50	silt	LowFire	1200	55	55	85	20	OldForest	100	55	55	95	20	0	ft	"Typical - Heli/Silt Loam"
+WD	wepp-225916	"01:29 pm  Monday August 17, 2020"	"PK +"	50	loam	LowFire	1200	62	62	80	20	LowFire	100	55	55	85	20	0	ft	"Typical - Rx Fire/Loam"
+WD	wepp-225923	"01:29 pm  Monday August 17, 2020"	"PK +"	50	sand	LowFire	1200	59	59	80	20	LowFire	100	55	55	85	20	0	ft	"Typical - Rx Fire/Sandy Loam"
+WD	wepp-225931	"01:29 pm  Monday August 17, 2020"	"PK +"	50	silt	LowFire	1200	26	26	80	20	LowFire	100	55	55	85	20	0	ft	"Typical - Rx Fire/Silt Loam"
+WD	wepp-225938	"01:29 pm  Monday August 17, 2020"	"PK +"	50	loam	Skid	100	37	37	20	20	OldForest	100	55	55	95	20	0	ft	"Typical - Skid/Tractor/Loam"
+WD	wepp-225945	"01:29 pm  Monday August 17, 2020"	"PK +"	50	sand	Skid	100	37	37	20	20	OldForest	100	55	55	95	20	0	ft	"Typical - Skid/Tractor/SandyLoam"
+WD	wepp-225952	"01:29 pm  Monday August 17, 2020"	"PK +"	50	loam	Skid	100	49	49	20	20	OldForest	100	55	55	95	20	0	ft	"Typical - Landing/Skyline/Loam"
+WD	wepp-225959	"01:29 pm  Monday August 17, 2020"	"PK +"	50	sand	Skid	100	50	50	20	20	OldForest	100	55	55	95	20	0	ft	"Typical - Landing/Skyline/SandyLoam"
+WD	wepp-225966	"01:29 pm  Monday August 17, 2020"	"PK +"	50	silt	Skid	100	5	5	20	20	OldForest	100	55	55	95	20	0	ft	"Typical - Landing/Skyline/SiltLoam"
+WR	wepp-226400	"01:53 pm  Monday August 17, 2020"	"PK +"	30	loam	native	800	15	12	1	0.3	100	55	20	outrut	ft
+WR	wepp-226463	"01:56 pm  Monday August 17, 2020"	"PK +"	30	loam	native	100	15	12	1	0.3	100	55	20	outrut	ft
+WR	wepp-226651	"02:04 pm  Monday August 17, 2020"	"PK +"	30	loam	native	100	15	12	1	0.3	100	55	20	outrut	ft
+WR	wepp-226692	"02:04 pm  Monday August 17, 2020"	"PK +"	30	loam	native	100	15	12	1	0.3	100	55	20	inveg	ft
+WR	wepp-226730	"02:04 pm  Monday August 17, 2020"	"PK +"	30	loam	native	100	15	12	1	0.3	100	55	20	inveg	ft
+WR	wepp-226903	"02:12 pm  Monday August 17, 2020"	"PK +"	30	loam	native	100	15	12	1	0.3	100	55	20	outrut	ft
+WR	wepp-226970	"02:12 pm  Monday August 17, 2020"	"PK +"	30	loam	native	100	15	12	1	0.3	100	55	20	inveg	ft
+WR	wepp-227012	"02:12 pm  Monday August 17, 2020"	"PK +"	30	loam	native	100	15	12	1	0.3	150	55	20	inveg	ft
+WR	wepp-227047	"02:12 pm  Monday August 17, 2020"	"PK +"	30	loam	native	100	15	12	1	0.3	300	55	20	inveg	ft
+WD	wepp-227279	"02:22 pm  Monday August 17, 2020"	"PK +"	50	loam	YoungForest	1200	37	37	95	20	OldForest	100	55	55	95	20	0	ft	"Typical - Tractor/Loam"
+WD	wepp-227315	"02:22 pm  Monday August 17, 2020"	"PK +"	50	sand	YoungForest	1200	37	37	95	20	OldForest	100	55	55	95	20	0	ft	"Typical - Tractor/Sandy Loam"
+WD	wepp-227322	"02:22 pm  Monday August 17, 2020"	"PK +"	50	loam	LowFire	1200	49	49	85	20	OldForest	100	55	55	95	20	0	ft	"Typical - Skyline/Loam"
+WD	wepp-227329	"02:22 pm  Monday August 17, 2020"	"PK +"	50	sand	LowFire	1200	50	50	85	20	OldForest	100	55	55	95	20	0	ft	"Typical - Skyline/Sandy Loam"
+WD	wepp-227336	"02:22 pm  Monday August 17, 2020"	"PK +"	50	silt	LowFire	1200	5	5	85	20	OldForest	100	55	55	95	20	0	ft	"Typical - Skyline/Silt Loam"
+WD	wepp-227343	"02:23 pm  Monday August 17, 2020"	"PK +"	50	loam	LowFire	1200	56	56	85	20	OldForest	100	55	55	95	20	0	ft	"Typical - Heli/Loam"
+WD	wepp-227350	"02:23 pm  Monday August 17, 2020"	"PK +"	50	sand	LowFire	1200	56	56	85	20	OldForest	100	55	55	95	20	0	ft	"Typical - Heli/Sandy Loam"
+WD	wepp-227357	"02:23 pm  Monday August 17, 2020"	"PK +"	50	silt	LowFire	1200	55	55	85	20	OldForest	100	55	55	95	20	0	ft	"Typical - Heli/Silt Loam"
+WD	wepp-227364	"02:23 pm  Monday August 17, 2020"	"PK +"	50	loam	LowFire	1200	62	62	80	20	LowFire	100	55	55	85	20	0	ft	"Typical - Rx Fire/Loam"
+WD	wepp-227371	"02:23 pm  Monday August 17, 2020"	"PK +"	50	sand	LowFire	1200	59	59	80	20	LowFire	100	55	55	85	20	0	ft	"Typical - Rx Fire/Sandy Loam"
+WD	wepp-227378	"02:23 pm  Monday August 17, 2020"	"PK +"	50	silt	LowFire	1200	26	26	80	20	LowFire	100	55	55	85	20	0	ft	"Typical - Rx Fire/Silt Loam"
+WD	wepp-227388	"02:23 pm  Monday August 17, 2020"	"PK +"	50	loam	Skid	100	15	15	20	20	OldForest	100	55	55	95	20	0	ft	"Typical - Skid/Tractor/Loam"
+WD	wepp-227398	"02:23 pm  Monday August 17, 2020"	"PK +"	50	sand	Skid	100	15	15	20	20	OldForest	100	55	55	95	20	0	ft	"Typical - Skid/Tractor/SandyLoam"
+WD	wepp-227670	"02:30 pm  Monday August 17, 2020"	"PK +"	10	loam	Skid	100	15	15	20	20	OldForest	100	55	55	100	20	0	ft	""
+WD	wepp-227712	"02:31 pm  Monday August 17, 2020"	"PK +"	10	loam	Skid	1200	37	37	20	20	OldForest	100	55	55	100	20	0	ft	""
+WD	wepp-227754	"02:32 pm  Monday August 17, 2020"	"PK +"	10	loam	Skid	100	15	15	20	20	OldForest	100	55	55	100	20	0	ft	""
+WD	wepp-227790	"02:32 pm  Monday August 17, 2020"	"PK +"	50	loam	Skid	100	15	15	20	20	OldForest	100	55	55	100	20	0	ft	""
+WD	wepp-228451	"02:49 pm  Monday August 17, 2020"	"PK +"	50	loam	Skid	100	35	35	20	20	OldForest	100	55	55	100	20	0	ft	""
+WD	wepp-228490	"02:49 pm  Monday August 17, 2020"	"PK +"	50	loam	YoungForest	1200	37	37	95	20	OldForest	100	55	55	95	20	0	ft	"Typical - Tractor/Loam"
+WD	wepp-228525	"02:49 pm  Monday August 17, 2020"	"PK +"	50	sand	YoungForest	1200	37	37	95	20	OldForest	100	55	55	95	20	0	ft	"Typical - Tractor/Sandy Loam"
+WD	wepp-228547	"02:50 pm  Monday August 17, 2020"	"PK +"	50	loam	YoungForest	1200	37	37	95	20	OldForest	100	55	55	95	20	0	ft	"Typical - Tractor/Loam"
+WD	wepp-228582	"02:50 pm  Monday August 17, 2020"	"PK +"	50	sand	YoungForest	1200	37	37	95	20	OldForest	100	55	55	95	20	0	ft	"Typical - Tractor/Sandy Loam"
+WD	wepp-228589	"02:50 pm  Monday August 17, 2020"	"PK +"	50	loam	LowFire	1200	49	49	85	20	OldForest	100	55	55	95	20	0	ft	"Typical - Skyline/Loam"
+WD	wepp-228598	"02:50 pm  Monday August 17, 2020"	"PK +"	50	sand	LowFire	1200	50	50	85	20	OldForest	100	55	55	95	20	0	ft	"Typical - Skyline/Sandy Loam"
+WD	wepp-228605	"02:50 pm  Monday August 17, 2020"	"PK +"	50	silt	LowFire	1200	5	5	85	20	OldForest	100	55	55	95	20	0	ft	"Typical - Skyline/Silt Loam"
+WD	wepp-228612	"02:50 pm  Monday August 17, 2020"	"PK +"	50	loam	LowFire	1200	56	56	85	20	OldForest	100	55	55	95	20	0	ft	"Typical - Heli/Loam"
+WD	wepp-228622	"02:50 pm  Monday August 17, 2020"	"PK +"	50	sand	LowFire	1200	56	56	85	20	OldForest	100	55	55	95	20	0	ft	"Typical - Heli/Sandy Loam"
+WD	wepp-228631	"02:50 pm  Monday August 17, 2020"	"PK +"	50	silt	LowFire	1200	55	55	85	20	OldForest	100	55	55	95	20	0	ft	"Typical - Heli/Silt Loam"
+WD	wepp-228640	"02:50 pm  Monday August 17, 2020"	"PK +"	50	loam	LowFire	1200	62	62	80	20	LowFire	100	55	55	85	20	0	ft	"Typical - Rx Fire/Loam"
+WD	wepp-228647	"02:50 pm  Monday August 17, 2020"	"PK +"	50	sand	LowFire	1200	59	59	80	20	LowFire	100	55	55	85	20	0	ft	"Typical - Rx Fire/Sandy Loam"
+WD	wepp-228654	"02:50 pm  Monday August 17, 2020"	"PK +"	50	silt	LowFire	1200	26	26	80	20	LowFire	100	55	55	85	20	0	ft	"Typical - Rx Fire/Silt Loam"
+WD	wepp-228661	"02:50 pm  Monday August 17, 2020"	"PK +"	50	loam	Skid	100	35	35	20	20	OldForest	100	55	55	95	20	0	ft	"Typical - Skid/Tractor/Loam"
+WD	wepp-228670	"02:50 pm  Monday August 17, 2020"	"PK +"	50	sand	Skid	100	35	35	20	20	OldForest	100	55	55	95	20	0	ft	"Typical - Skid/Tractor/SandyLoam"
+WD	wepp-228901	"03:02 pm  Monday August 17, 2020"	"PK +"	50	loam	YoungForest	1200	37	37	95	20	OldForest	100	55	55	95	20	0	ft	"Typical - Tractor/Loam"
+WD	wepp-228936	"03:02 pm  Monday August 17, 2020"	"PK +"	50	sand	YoungForest	1200	37	37	95	20	OldForest	100	55	55	95	20	0	ft	"Typical - Tractor/Sandy Loam"
+WD	wepp-228943	"03:02 pm  Monday August 17, 2020"	"PK +"	50	loam	LowFire	1200	49	49	85	20	OldForest	100	55	55	95	20	0	ft	"Typical - Skyline/Loam"
+WD	wepp-228950	"03:02 pm  Monday August 17, 2020"	"PK +"	50	sand	LowFire	1200	50	50	85	20	OldForest	100	55	55	95	20	0	ft	"Typical - Skyline/Sandy Loam"
+WD	wepp-228957	"03:02 pm  Monday August 17, 2020"	"PK +"	50	silt	LowFire	1200	5	5	85	20	OldForest	100	55	55	95	20	0	ft	"Typical - Skyline/Silt Loam"
+WD	wepp-228964	"03:02 pm  Monday August 17, 2020"	"PK +"	50	loam	LowFire	1200	56	56	85	20	OldForest	100	55	55	95	20	0	ft	"Typical - Heli/Loam"
+WD	wepp-228971	"03:02 pm  Monday August 17, 2020"	"PK +"	50	sand	LowFire	1200	56	56	85	20	OldForest	100	55	55	95	20	0	ft	"Typical - Heli/Sandy Loam"
+WD	wepp-228978	"03:03 pm  Monday August 17, 2020"	"PK +"	50	silt	LowFire	1200	55	55	85	20	OldForest	100	55	55	95	20	0	ft	"Typical - Heli/Silt Loam"
+WD	wepp-228985	"03:03 pm  Monday August 17, 2020"	"PK +"	50	loam	LowFire	1200	62	62	80	20	LowFire	100	55	55	85	20	0	ft	"Typical - Rx Fire/Loam"
+WD	wepp-228992	"03:03 pm  Monday August 17, 2020"	"PK +"	50	sand	LowFire	1200	59	59	80	20	LowFire	100	55	55	85	20	0	ft	"Typical - Rx Fire/Sandy Loam"
+WD	wepp-228999	"03:03 pm  Monday August 17, 2020"	"PK +"	50	silt	LowFire	1200	26	26	80	20	LowFire	100	55	55	85	20	0	ft	"Typical - Rx Fire/Silt Loam"
+WD	wepp-229006	"03:03 pm  Monday August 17, 2020"	"PK +"	50	loam	Skid	100	35	35	20	20	OldForest	100	55	55	95	20	0	ft	"Typical - Skid/Tractor/Loam"
+WD	wepp-229013	"03:03 pm  Monday August 17, 2020"	"PK +"	50	sand	Skid	100	35	35	20	20	OldForest	100	55	55	95	20	0	ft	"Typical - Skid/Tractor/SandyLoam"

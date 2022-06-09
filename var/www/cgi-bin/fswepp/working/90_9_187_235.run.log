@@ -1,0 +1,20 @@
+WE	wepp-17785	"00:49 am  Saturday December 29, 2012"	"CHARLESTON KAN AP WV"	clay	20	chap	0	50	30	300	h	80	0	ft
+WE	wepp-17932	"00:54 am  Saturday December 29, 2012"	"CHARLESTON KAN AP WV"	clay	20	chap	0	50	30	300	h	30	20	ft
+WE	wepp-18023	"00:55 am  Saturday December 29, 2012"	"CHARLESTON KAN AP WV"	clay	20	chap	0	50	30	300	m	30	20	ft
+WE	wepp-18093	"00:56 am  Saturday December 29, 2012"	"CHARLESTON KAN AP WV"	clay	20	chap	0	50	30	300	m	80	0	ft
+WE	wepp-18192	"00:57 am  Saturday December 29, 2012"	"CHARLESTON KAN AP WV"	clay	20	chap	0	50	30	300	l	80	0	ft
+WE	wepp-18242	"00:58 am  Saturday December 29, 2012"	"CHARLESTON KAN AP WV"	clay	20	chap	0	50	30	300	l	30	20	ft
+WR	wepp-18378	"01:06 am  Saturday December 29, 2012"	"CHARLESTON KAN AP WV"	30	clay	native	820	3	13.12	9.84	45	164	25	20	inbare	ft
+WR	wepp-18398	"01:07 am  Saturday December 29, 2012"	"CHARLESTON KAN AP WV"	30	clay	native	820	3	13.12	9.84	45	164	25	20	inbare	ft
+WR	wepp-18419	"01:08 am  Saturday December 29, 2012"	"CHARLESTON KAN AP WV"	30	clay	native	820	3	13.12	9.84	45	164	25	20	inbare	ft
+WR	wepp-18438	"01:09 am  Saturday December 29, 2012"	"CHARLESTON KAN AP WV"	30	clay	graveled	820	3	13.12	9.84	45	164	25	20	inbare	ft
+WR	wepp-18458	"01:09 am  Saturday December 29, 2012"	"CHARLESTON KAN AP WV"	30	clay	paved	820	3	13.12	9.84	45	164	25	20	inbare	ft
+WR	wepp-18505	"01:09 am  Saturday December 29, 2012"	"CHARLESTON KAN AP WV"	30	clay	native	820	3	13.12	9.84	45	164	25	20	inveg	ft
+WR	wepp-18525	"01:10 am  Saturday December 29, 2012"	"CHARLESTON KAN AP WV"	30	clay	graveled	820	3	13.12	9.84	45	164	25	20	inveg	ft
+WR	wepp-18545	"01:10 am  Saturday December 29, 2012"	"CHARLESTON KAN AP WV"	30	clay	paved	820	3	13.12	9.84	45	164	25	20	inveg	ft
+WR	wepp-18565	"01:11 am  Saturday December 29, 2012"	"CHARLESTON KAN AP WV"	30	clay	native	820	3	13.12	9.84	45	164	25	20	outrut	ft
+WR	wepp-18585	"01:12 am  Saturday December 29, 2012"	"CHARLESTON KAN AP WV"	30	clay	graveled	820	3	13.12	9.84	45	164	25	20	outrut	ft
+WR	wepp-18605	"01:12 am  Saturday December 29, 2012"	"CHARLESTON KAN AP WV"	30	clay	paved	820	3	13.12	9.84	45	164	25	20	outrut	ft
+WR	wepp-18625	"01:12 am  Saturday December 29, 2012"	"CHARLESTON KAN AP WV"	30	clay	native	820	3	13.12	9.84	45	164	25	20	outunrut	ft
+WR	wepp-18645	"01:13 am  Saturday December 29, 2012"	"CHARLESTON KAN AP WV"	30	clay	graveled	820	3	13.12	9.84	45	164	25	20	outunrut	ft
+WR	wepp-18666	"01:13 am  Saturday December 29, 2012"	"CHARLESTON KAN AP WV"	30	clay	paved	820	3	13.12	9.84	45	164	25	20	outunrut	ft

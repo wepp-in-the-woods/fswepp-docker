@@ -1,0 +1,37 @@
+WR	wepp-48231	"01:04 pm  Thursday November 4, 2021"	"SANDPOINT EXP STA ID"	30	silt	native	200	4	13	15	50	10	25	20	outrut	ft
+WR	wepp-48276	"01:05 pm  Thursday November 4, 2021"	"SANDPOINT EXP STA ID"	30	silt	native	200	4	13	15	50	50	25	20	outrut	ft
+WR	wepp-48317	"01:06 pm  Thursday November 4, 2021"	"SANDPOINT EXP STA ID"	30	silt	graveled	200	4	13	15	50	10	25	20	outrut	ft
+WR	wepp-48358	"01:06 pm  Thursday November 4, 2021"	"SANDPOINT EXP STA ID"	30	silt	graveled	200	4	13	15	50	50	25	20	outrut	ft
+WR	wepp-48959	"01:53 pm  Thursday November 4, 2021"	"SANDPOINT EXP STA ID"	30	silt	native	200	4	13	15	50	200	25	20	outrut	ft
+WR	wepp-48998	"01:53 pm  Thursday November 4, 2021"	"SANDPOINT EXP STA ID"	30	silt	graveled	200	4	13	15	50	200	25	20	outrut	ft
+WR	wepp-49057	"01:55 pm  Thursday November 4, 2021"	"SANDPOINT EXP STA ID"	30	silt	native	200	4	13	15	50	200	50	20	outrut	ft
+WR	wepp-49095	"01:55 pm  Thursday November 4, 2021"	"SANDPOINT EXP STA ID"	30	silt	graveled	200	4	13	15	50	200	50	20	outrut	ft
+WR	wepp-49140	"01:57 pm  Thursday November 4, 2021"	"SANDPOINT EXP STA ID"	30	silt	native	100	4	13	15	50	200	50	20	outrut	ft
+WR	wepp-49180	"01:57 pm  Thursday November 4, 2021"	"SANDPOINT EXP STA ID"	30	silt	graveled	100	4	13	15	50	200	50	20	outrut	ft
+WR	wepp-49649	"02:19 pm  Thursday November 4, 2021"	"SANDPOINT EXP STA ID"	30	silt	native	200	4	13	15	50	250	25	20	outrut	ft
+WR	wepp-49686	"02:19 pm  Thursday November 4, 2021"	"SANDPOINT EXP STA ID"	30	silt	native	100	4	13	15	50	250	25	20	outrut	ft
+WR	wepp-49730	"02:20 pm  Thursday November 4, 2021"	"SANDPOINT EXP STA ID"	30	silt	graveled	100	4	13	15	50	250	25	20	outrut	ft
+WR	wepp-49775	"02:21 pm  Thursday November 4, 2021"	"SANDPOINT EXP STA ID"	30	silt	native	100	4	13	15	50	250	50	20	outrut	ft
+WR	wepp-49856	"02:21 pm  Thursday November 4, 2021"	"SANDPOINT EXP STA ID"	30	silt	graveled	100	4	13	15	50	250	50	20	outrut	ft
+WR	wepp-49867	"02:22 pm  Thursday November 4, 2021"	"SANDPOINT EXP STA ID"	30	silt	native	100	3	13	15	50	250	50	20	outrut	ft
+WR	wepp-49907	"02:23 pm  Thursday November 4, 2021"	"SANDPOINT EXP STA ID"	30	silt	graveled	100	3	13	15	50	250	50	20	outrut	ft
+WD	wepp-158835	"10:46 am  Wednesday November 10, 2021"	"SANDPOINT EXP STA ID"	10	clay	LowFire	50	0	30	85	20	LowFire	50	30	5	85	20	0	ft	""
+wt	wepp-158952	"Nov 10, 2021"	"SANDPOINT EXP STA ID"	granitic	LowFire	0	30	50	85	20	LowFire	30	5	50	85	20	ft	""
+WR	wepp-139108	"06:14 pm  Sunday November 21, 2021"	"SANDPOINT EXP STA ID"	30	sand	native	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-139147	"06:14 pm  Sunday November 21, 2021"	"SANDPOINT EXP STA ID"	30	sand	graveled	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-139189	"06:15 pm  Sunday November 21, 2021"	"SANDPOINT EXP STA ID"	30	sand	native	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-139231	"06:16 pm  Sunday November 21, 2021"	"SANDPOINT EXP STA ID"	30	sand	native	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-139269	"06:16 pm  Sunday November 21, 2021"	"SANDPOINT EXP STA ID"	30	sand	graveled	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-139389	"06:24 pm  Sunday November 21, 2021"	"SANDPOINT EXP STA ID"	30	sand	native	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-139465	"06:28 pm  Sunday November 21, 2021"	"SANDPOINT EXP STA ID"	30	sand	graveled	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-141640	"09:43 pm  Sunday November 21, 2021"	"SANDPOINT EXP STA ID"	30	sand	native	200	4	13	15	50	130	25	20	inveg	ft
+wt	wepp-142329	"Nov 21, 2021"	"SANDPOINT EXP STA ID"	volcanic	HighRoad	4	4	100	5	20	HighRoad	4	40	100	105	20	ft	""
+wt	wepp-142370	"Nov 21, 2021"	"SANDPOINT EXP STA ID"	volcanic	HighRoad	4	4	100	5	20	HighRoad	4	40	100	105	20	ft	""
+wt	wepp-142408	"Nov 21, 2021"	"SANDPOINT EXP STA ID"	volcanic	HighRoad	4	4	100	5	20	HighRoad	4	40	100	105	20	ft	""
+wt	wepp-142449	"Nov 21, 2021"	"SANDPOINT EXP STA ID"	volcanic	HighRoad	4	4	100	5	20	HighRoad	4	4	100	105	20	ft	""
+wt	wepp-142552	"Nov 21, 2021"	"SANDPOINT EXP STA ID"	volcanic	HighRoad	4	4	100	5	20	HighRoad	4	4	100	5	20	ft	""
+wt	wepp-142590	"Nov 21, 2021"	"SANDPOINT EXP STA ID"	granitic	HighRoad	4	4	100	5	20	HighRoad	4	4	100	5	20	ft	""
+wt	wepp-142663	"Nov 21, 2021"	"SANDPOINT EXP STA ID"	volcanic	HighRoad	4	4	100	5	20	HighRoad	4	4	100	5	20	ft	""
+wt	wepp-142699	"Nov 21, 2021"	"SANDPOINT EXP STA ID"	granitic	HighRoad	4	4	100	5	20	HighRoad	4	4	100	5	20	ft	""
+wt	wepp-142739	"Nov 21, 2021"	"SANDPOINT EXP STA ID"	volcanic	HighRoad	4	4	100	5	20	HighRoad	4	4	100	5	20	ft	""
+wt	wepp-142779	"Nov 21, 2021"	"SANDPOINT EXP STA ID"	granitic	HighRoad	4	4	100	5	20	HighRoad	4	4	100	5	20	ft	""

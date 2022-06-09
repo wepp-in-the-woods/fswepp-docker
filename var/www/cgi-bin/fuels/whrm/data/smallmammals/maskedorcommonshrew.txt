@@ -1,0 +1,84 @@
+#this files was modified by filegenwhrm.pl on: Wednesday, March 16, 2005.
+#taxgroup Small Mammals species Masked or Common shrew /  Sorex cinereus
+#
+# Rank
+2,-99,2,-99,2
+# Nestsite
+-99
+# Reprorank
+-99
+# Foraging Habitat
+2,1:3,1:8,1
+# Habitatrank
+1,-99:1,-99:1,-99
+# Forage/Prey Availability
+-99
+# Preyrank
+-99
+# Predator Avoidance
+8,1:4,1:16,1:17,1:18,1
+# Avoidrank
+1,-99:1,-99:1,-99:1,-99:1,-99
+# Refugia/Shelter
+8,1:4,1:16,1:17,1:18,1
+# Shelterrank
+1,-99:1,-99:1,-99:1,-99:1,-99
+# Coverrank
+1,-99:1,-99:1,-99:1,-99:1,-99
+# Literature
+Distribution
+northern N. America, south along Rocky and Appalachian mountain chains
+General Habitat
+wet/moist sites; also dry coniferous forests when sympatric with vagrant shrew
+Home or Activity Range
+1.5 ac (O'Neil et al. 2001)
+Canopy Cover
+to not have a complete upper forest canopy cover (Hayward and Hayward 1995)
+Specific Habitat Preferences
+shrubs along marshes,  high woody stem density, sites with ground structural complexity such as downed woody material and grass cover, herb and grass cover; Hayward and Hayward (1995) found a positive association with large snags and a negative association with upper forest canopy cover, heavy grass cover, and density of medium-sized trees, but this species was combined with the vagrant shrew in analysis
+Nestsite Characteristics
+constructs nests in decaying logs
+Foraging Habitat Characteristics
+downed woody material and grass cover
+Diet
+invertebrates: from beetles to worms, insect eggs and pupae in winter; mice (especially newborns); salamanders
+Predators
+no information available
+Shelter Habitats
+downed woody material and grass cover for predator avoidance
+Response to Disturbance
+more abundant in treated (clearcut and seed-tree) than old growth forest stands (Sullivan et al. 2000)
+Sources of Information used in the Model
+Raphael 1988, McCracken 1990, Hayward and Hayward 1995 (combined with vagrant shrew)
+General Sources of Background Information
+Spencer and Pettus 1966, Raphael 1988, McCracken 1990, Hayward and Hayward 1995, reviewed in Pearson 1999, Sullivan et al. 2000, Foresman 2001
+Summaries of Specific Studies
+Hayward, Gregory D.; Hayward, Patricia H. 1995. Relative abundance and habitat associations of small mammals in Chamberlain Basin, Central Idaho. Northwest Science. 69(2): 114-125.
+
+Study Location: Frank Church Wilderness, central Idaho
+Habitat Description: PICO-dominated, also PIPO, PSME, ABLA, PIEN
+Summary: Small mammal populations were sampled in a wilderness area in central Idaho. Spruce-fir forests had the highest abundance of small mammals, while PICO forest had the lowest. Species richness was low in all habitats, though it was highest in PICO forest. Habitat associations are given for some small mammals. The patchy distribution of small mammals in this study area mimics the patchy nature of forests in this region.
+
+McCracken, Karen E. 1990. Microhabitat and dietary partitioning in three species of shrews at Yellow Bay, Montana. Missoula, MT: University of Montana. 38 p. M.S. Thesis.
+
+Study Location: northwest Montana
+Habitat Description: ABGR, LAOC, PIPO, BEPA, PSME, PIEN, ACGL
+Summary: The habitat use patterns and food habitats of montane, vagrant, and masked shrews were studied. The vagrant shrew was most commonly captured on mesic sites, while the masked shrew was found more often on xeric sites. Montane shrews were infrequently captured. Marked masked and vagrant shrews did not differ in movement patterns, while both commonly used fallen trees as runways and as cover. Microhabitat use differed significantly between species. Differences suggest that the vagrant and masked shrews partition space within the habitat at both large and small scales. No significant difference in prey items was found between species.
+
+Raphael, Martin G. 1988. Habitat associations of small mammals in a subalpine forest, southeastern Wyoming. In: Management of amphibians, reptiles, and small mammals in North America symposium: proceedings; Gen. Tech. Rep. RM-166. Fort Collins, CO: USDA, Forest Service, Rocky Mountain Forest and Range Experiment Station. 359-367.
+
+Study Location: southern Wyoming
+Habitat Description: PICO (60%), PIEN, ABLA
+Summary: Abundance of small mammals was associated with generalized habitat types within the sup-alpine zone. Moisture and stand maturity were two habitat features that separated patterns of abundance of various species. Specific habitat associations are given for 8 species of small mammals. The southern red-backed vole was confirmed as a suitable indicator of old-growth forest; the masked and dusky shrew may be as well.
+
+Spencer, Albert W.; Pettus, David. 1966. Habitat preferences of five sympatric species of long-tailed shrews. Ecology. 47(4): 677-683.
+
+Study Location: Colorado
+Habitat Description: marsh, mixed conifer forest (subclimax PICO, also spruce and fire), clearcut
+Summary: The habitat preferences of five species of sympatric shrews were analyzed from sites in Colorado. Dwarf shrews were found more than expected in forested and clear-cut habitats, but less than expected in a marsh. Vagrant shrews were found more than expected at clearcut and marsh habitats, but less at forested and intermediate habitats. Pygmy shrews exceeded expectation in the forest and marsh-forest intermediate habitats, and were deficient everywhere else. Common shrews were found more than expected in the marsh and forest-clearcut types but were deficient everywhere else. The authors hypothesize that vagrant and dwarf shrews are less dependent, physiologically, on a moist environment, than the common or pygmy shrew. The common and vagrant shrew populations appeared to interact, with similar population fluctuations, habitat preferences, and habitat segregation at one location.
+
+Sullivan, Thomas P.; Druscilla, S.; Lindgren, Pontus M.F. 2000. Small mammals and stand structure in young pine, seed-tree, and old-growth forest, southwest Canada. Ecological Applications. 10(5): 1367-1383.
+
+Study Location:  south-central British Columbia
+Habitat Description: PSME, PICO
+Summary: This study tested the hypothesis that diversity of stand structure attributes and forest-floor small mammal communities increase from young pine to seed tree to old growth forest. Some vegetative attributes differed between forest type. Red-backed voles were most abundant in old growth forest, while northwestern chipmunks, heather voles, western jumping mice, montane shrews, and common shrews were more abundant in the treated stands. Meadow voles were more abundant in the seed tree stands. Deer mice, long-tailed voles, and short-tailed weasels were similarly abundant among all treatment types. Mean species richness and diversity was higher in the treated stands, suggesting that all stand types offer their own structural diversity to the forest landscape.

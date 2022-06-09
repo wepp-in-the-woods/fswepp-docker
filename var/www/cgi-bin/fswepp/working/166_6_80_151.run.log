@@ -1,0 +1,149 @@
+WR	wepp-9524	"02:45 pm  Tuesday March 23, 2010"	"t_waterline +"	50	sand	native	32	4.8	3	32	4.8	32	4.8	35	inbare	ft
+WR	wepp-9529	"02:46 pm  Tuesday March 23, 2010"	"t_waterline +"	50	sand	native	32	4.8	3	1	0.3	1	4.8	35	inbare	ft
+WD	wepp-9606	"02:55 pm  Tuesday March 23, 2010"	"t_waterline +"	50	sand	skid	9.75609756097561	4.8	4.8	0	35	skid	0.457317073170732	4.8	4.8	0	35	0	ft	""
+WD	wepp-9611	"02:55 pm  Tuesday March 23, 2010"	"t_waterline +"	50	sand	skid	60.9756097560976	4.8	4.8	0	35	skid	0.457317073170732	4.8	4.8	0	35	0	ft	""
+WD	wepp-9616	"02:56 pm  Tuesday March 23, 2010"	"t_waterline +"	50	sand	skid	60.9756097560976	10	10	0	35	skid	0.457317073170732	10	10	0	35	0	ft	""
+WD	wepp-10303	"04:13 pm  Tuesday March 23, 2010"	"t_waterline +"	30	sand	tree20	15.2439024390244	5	5	100	20	skid	15.2439024390244	30	5	10	20	0	ft	""
+WD	wepp-10308	"04:14 pm  Tuesday March 23, 2010"	"t_waterline +"	50	sand	skid	15.2439024390244	5	5	10	35	skid	3.04878048780488	5	5	10	35	0	ft	""
+WD	wepp-10359	"04:15 pm  Tuesday March 23, 2010"	"t_waterline +"	50	sand	skid	15.2439024390244	20	20	10	35	skid	3.04878048780488	20	20	10	35	0	ft	""
+WD	wepp-23922	"11:54 am  Tuesday May 4, 2010"	"collawash +"	50	silt	skid	50	0	0	10	20	skid	50	50	50	0	20	0	ft	""
+WD	wepp-23928	"11:56 am  Tuesday May 4, 2010"	"collawash +"	50	silt	skid	1.5	0	0	10	20	skid	50	50	50	0	20	0	ft	""
+WD	wepp-23960	"11:57 am  Tuesday May 4, 2010"	"collawash +"	50	silt	skid	1.5	0	0	10	20	skid	50	50	50	0	35	0	ft	""
+WD	wepp-23965	"11:58 am  Tuesday May 4, 2010"	"collawash +"	50	sand	skid	1.5	0	0	10	20	skid	50	50	50	0	20	0	ft	""
+WD	wepp-23970	"11:59 am  Tuesday May 4, 2010"	"collawash +"	50	sand	skid	1.5	0	0	10	20	skid	50	50	50	0	35	0	ft	""
+WD	wepp-23994	"12:00 pm  Tuesday May 4, 2010"	"collawash +"	50	loam	skid	1.5	0	0	10	20	skid	50	50	50	0	20	0	ft	""
+WD	wepp-24000	"12:01 pm  Tuesday May 4, 2010"	"collawash +"	50	loam	skid	1.5	0	0	10	20	skid	50	50	50	0	35	0	ft	""
+WD	wepp-24229	"12:19 pm  Tuesday May 4, 2010"	"collawash +"	50	silt	skid	1.5	0	0	10	20	skid	50	50	50	100	20	0	ft	""
+WD	wepp-24299	"12:22 pm  Tuesday May 4, 2010"	"collawash +"	50	silt	skid	1.5	0	0	10	20	skid	40	50	50	50	20	0	ft	""
+WD	wepp-24305	"12:24 pm  Tuesday May 4, 2010"	"collawash +"	50	silt	skid	1.5	0	0	10	20	skid	35	50	50	50	20	0	ft	""
+WD	wepp-24314	"12:24 pm  Tuesday May 4, 2010"	"collawash +"	50	silt	skid	1.5	0	0	10	20	short	35	50	50	40	20	0	ft	""
+WD	wepp-24320	"12:25 pm  Tuesday May 4, 2010"	"collawash +"	50	silt	skid	1.5	0	0	10	20	tall	35	50	50	60	20	0	ft	""
+WD	wepp-24328	"12:26 pm  Tuesday May 4, 2010"	"collawash +"	50	silt	skid	1.5	0	0	10	20	skid	35	50	50	70	20	0	ft	""
+WD	wepp-24333	"12:26 pm  Tuesday May 4, 2010"	"collawash +"	50	silt	skid	1.5	0	0	10	20	skid	35	45	45	70	20	0	ft	""
+WD	wepp-24339	"12:28 pm  Tuesday May 4, 2010"	"collawash +"	50	silt	skid	1.5	0	0	10	20	skid	35	45	45	70	20	0	ft	""
+WD	wepp-12141	"10:39 am  Monday April 25, 2011"	"WhiteInc3 +"	50	silt	skid	50	0	0	10	20	skid	40	50	50	10	20	0	ft	""
+WR	wepp-5219	"07:49 am  Thursday May 5, 2011"	"t_waterline +"	50	sand	native	14	18	6	15	30	1	0.3	20	inbare	ft
+WR	wepp-6693	"11:37 am  Thursday May 5, 2011"	"t_waterline +"	50	silt	native	14	18	6	15	30	1	0.3	20	inbare	ft
+WR	wepp-6698	"11:38 am  Thursday May 5, 2011"	"t_waterline +"	50	silt	native	30	18	6	15	30	1	0.3	20	inbare	ft
+WR	wepp-2452	"04:19 pm  Monday May 16, 2011"	"t_waterline +"	50	sand	native	30	18	6	15	30	1	18	20	inbare	ft
+WR	wepp-2527	"04:24 pm  Monday May 16, 2011"	"Tbike +"	50	clay	native	30	18	6	15	30	1	18	20	inbare	ft
+WR	wepp-2532	"04:24 pm  Monday May 16, 2011"	"Tbike +"	50	sand	native	30	18	6	15	30	1	18	20	inbare	ft
+WR	wepp-20186	"04:09 pm  Monday June 6, 2011"	"Tbike +"	50	sand	native	30	15	6	30	30	1	15	20	inbare	ft
+WR	wepp-20065	"12:09 pm  Tuesday June 14, 2011"	"Tbike +"	50	sand	native	28	10.5	6	5	10.5	1	10.5	20	inbare	ft
+WR	wepp-28266	"06:43 am  Wednesday June 15, 2011"	"Tbike +"	50	sand	native	28	10.5	6	5	10.5	1	10.5	35	inbare	ft
+WR	wepp-28290	"06:45 am  Wednesday June 15, 2011"	"Tbike +"	50	sand	native	22	5.9	6	5	10.5	1	10.5	35	inbare	ft
+WR	wepp-28448	"07:00 am  Wednesday June 15, 2011"	"Tbike +"	50	sand	native	58.7	12	6	5	10.5	1	10.5	35	inbare	ft
+WR	wepp-28806	"07:51 am  Wednesday June 15, 2011"	"Tbike +"	50	sand	native	74.3	11.4	6	5	10.5	1	10.5	35	inbare	ft
+WR	wepp-28822	"07:52 am  Wednesday June 15, 2011"	"Tbike +"	50	sand	native	44.9	9.1	6	5	10.5	1	10.5	35	inbare	ft
+WR	wepp-29018	"08:19 am  Wednesday June 15, 2011"	"Tbike +"	50	sand	native	90.7	14.6	6	5	10.5	1	14.6	35	inbare	ft
+WR	wepp-29050	"08:20 am  Wednesday June 15, 2011"	"Tbike +"	50	sand	native	8.8	13.5	6	5	10.5	1	13.5	35	inbare	ft
+WR	wepp-29178	"08:39 am  Wednesday June 15, 2011"	"Tbike +"	50	sand	native	33	11.5	6	5	20	1	11.5	35	inbare	ft
+WR	wepp-29184	"08:40 am  Wednesday June 15, 2011"	"Tbike +"	50	sand	native	30.7	14.4	6	5	20	1	14.4	35	inbare	ft
+WR	wepp-29475	"09:06 am  Wednesday June 15, 2011"	"Tbike +"	50	sand	native	22.4	13.9	6	5	20	1	13.9	35	inbare	ft
+WR	wepp-29480	"09:10 am  Wednesday June 15, 2011"	"Tbike +"	50	sand	native	18.6	15.1	6	5	20	1	15.1	35	inbare	ft
+WR	wepp-29700	"09:22 am  Wednesday June 15, 2011"	"Tbike +"	50	sand	native	50.3	11.9	6	5	20	1	11.9	35	inbare	ft
+WR	wepp-29705	"09:23 am  Wednesday June 15, 2011"	"Tbike +"	50	sand	native	9.8	19.6	6	5	20	1	19.6	35	inbare	ft
+WR	wepp-32553	"10:16 am  Wednesday June 15, 2011"	"Tbike +"	50	sand	native	48.2	29.7	6	5	20	1	48.2	35	inbare	ft
+WR	wepp-32558	"10:17 am  Wednesday June 15, 2011"	"Tbike +"	50	sand	native	28.9	13.9	6	5	20	1	13.9	35	inbare	ft
+WR	wepp-32624	"10:27 am  Wednesday June 15, 2011"	"Tbike +"	50	sand	native	9.6	19	2	5	20	1	19	35	inbare	ft
+WR	wepp-32630	"10:28 am  Wednesday June 15, 2011"	"Tbike +"	50	sand	native	34.7	15.2	2	5	20	1	15.2	35	inbare	ft
+WR	wepp-406	"11:01 am  Wednesday June 15, 2011"	"Tbike +"	50	sand	native	10.8	18.2	2	5	20	1	18.2	35	inbare	ft
+WR	wepp-438	"11:01 am  Wednesday June 15, 2011"	"Tbike +"	50	sand	native	12.9	16.9	2	5	20	1	12.9	35	inbare	ft
+WR	wepp-878	"11:12 am  Wednesday June 15, 2011"	"Tbike +"	50	sand	native	3	1	2	5	20	1	1	35	inbare	ft
+WR	wepp-1189	"11:13 am  Wednesday June 15, 2011"	"Tbike +"	50	sand	native	11.9	2.3	2	5	20	1	2.3	35	inbare	ft
+WR	wepp-3383	"12:07 pm  Wednesday June 15, 2011"	"Tbike +"	50	sand	native	19.2	12.1	6	5	20	1	12.1	35	inbare	ft
+WR	wepp-3389	"12:08 pm  Wednesday June 15, 2011"	"Tbike +"	50	sand	native	28.6	16.2	6	5	20	1	16.2	35	inbare	ft
+WR	wepp-3539	"12:28 pm  Wednesday June 15, 2011"	"Tbike +"	50	sand	native	54.3	32.6	6	5	20	1	32.6	35	inbare	ft
+WR	wepp-3544	"12:29 pm  Wednesday June 15, 2011"	"Tbike +"	50	sand	native	54.3	30.7	6	5	20	1	30.7	35	inbare	ft
+WR	wepp-3630	"12:41 pm  Wednesday June 15, 2011"	"Tbike +"	50	sand	native	27.9	16.3	6	5	20	1	16.3	35	inbare	ft
+WR	wepp-3641	"12:42 pm  Wednesday June 15, 2011"	"Tbike +"	50	sand	native	23.2	14.1	6	5	20	1	14.1	35	inbare	ft
+WR	wepp-4459	"01:54 pm  Wednesday June 15, 2011"	"Tbike +"	50	sand	native	65.2	15.4	6	5	20	1	15.4	35	inbare	ft
+WR	wepp-4464	"01:54 pm  Wednesday June 15, 2011"	"Tbike +"	50	sand	native	28.6	19.8	6	5	20	1	19.8	35	inbare	ft
+WR	wepp-4551	"02:03 pm  Wednesday June 15, 2011"	"Tbike +"	50	sand	native	83	9.4	6	5	20	1	9.4	35	inbare	ft
+WR	wepp-4556	"02:04 pm  Wednesday June 15, 2011"	"Tbike +"	50	sand	native	22.1	9.5	6	5	20	1	9.4	35	inbare	ft
+WR	wepp-4734	"02:26 pm  Wednesday June 15, 2011"	"Tbike +"	50	sand	native	41.9	9.2	6	5	20	1	9.2	35	inbare	ft
+WR	wepp-4744	"02:27 pm  Wednesday June 15, 2011"	"Tbike +"	50	sand	native	17.9	12.7	6	5	20	1	12.7	35	inbare	ft
+WR	wepp-5100	"02:59 pm  Wednesday June 15, 2011"	"Tbike +"	50	sand	native	23.8	26.9	6	5	20	1	26.9	35	inbare	ft
+WR	wepp-5125	"03:00 pm  Wednesday June 15, 2011"	"Tbike +"	50	sand	native	11	6.8	6	5	20	1	6.8	35	inbare	ft
+WR	wepp-5239	"03:11 pm  Wednesday June 15, 2011"	"Tbike +"	50	sand	native	41.2	10.5	2	5	20	1	10.5	35	inbare	ft
+WR	wepp-5246	"03:12 pm  Wednesday June 15, 2011"	"Tbike +"	50	sand	native	21.5	10.8	2	5	20	1	10.8	35	inbare	ft
+WR	wepp-5466	"03:27 pm  Wednesday June 15, 2011"	"Tbike +"	50	sand	native	84.3	21.8	6	5	20	1	19.6	35	inbare	ft
+WR	wepp-5505	"03:28 pm  Wednesday June 15, 2011"	"Tbike +"	50	sand	native	38.7	19.6	6	5	20	1	19.6	35	inbare	ft
+WR	wepp-5573	"03:38 pm  Wednesday June 15, 2011"	"Tbike +"	50	sand	native	64.8	12.1	4	5	20	1	12.1	35	inbare	ft
+WR	wepp-5606	"03:39 pm  Wednesday June 15, 2011"	"Tbike +"	50	sand	native	50.2	13.2	4	5	20	1	13.2	35	inbare	ft
+WR	wepp-5715	"03:49 pm  Wednesday June 15, 2011"	"Tbike +"	50	sand	native	84.6	18.9	6	5	20	1	18.9	35	inbare	ft
+WR	wepp-5720	"03:49 pm  Wednesday June 15, 2011"	"Tbike +"	50	sand	native	67	18.4	6	5	20	1	18.4	35	inbare	ft
+WR	wepp-5976	"04:17 pm  Wednesday June 15, 2011"	"Tbike +"	50	sand	native	51.4	26.9	6	5	20	1	26.9	35	inbare	ft
+WR	wepp-6008	"04:18 pm  Wednesday June 15, 2011"	"Tbike +"	50	sand	native	103.9	12.2	6	5	20	1	12.2	35	inbare	ft
+WR	wepp-6101	"04:26 pm  Wednesday June 15, 2011"	"Tbike +"	50	sand	native	19.7	12.1	6	5	20	1	12.1	35	inbare	ft
+WR	wepp-6109	"04:27 pm  Wednesday June 15, 2011"	"Tbike +"	50	sand	native	68.7	13.1	6	5	20	1	13.1	35	inbare	ft
+WR	wepp-6201	"04:36 pm  Wednesday June 15, 2011"	"Tbike +"	50	sand	native	63.8	11.7	6	5	20	1	11.7	35	inbare	ft
+WR	wepp-6206	"04:37 pm  Wednesday June 15, 2011"	"Tbike +"	50	sand	native	41.8	15.7	6	5	20	1	15.7	35	inbare	ft
+WR	wepp-16975	"02:00 pm  Thursday June 16, 2011"	"Tbike +"	50	sand	native	1000	15	15	15	50	1	15	20	inbare	ft
+WR	wepp-17302	"02:39 pm  Thursday June 16, 2011"	"Tbike +"	50	sand	native	50	15	3	15	50	1	15	20	inbare	ft
+WR	wepp-20824	"11:04 am  Wednesday June 22, 2011"	"Tbike +"	50	sand	native	1000	15	15.6	15	20	1	15	35	inbare	ft
+WR	wepp-20860	"11:06 am  Wednesday June 22, 2011"	"Tbike +"	50	sand	native	50	15	3	15	20	1	15	35	inbare	ft
+WR	wepp-20958	"11:13 am  Wednesday June 22, 2011"	"Tbike +"	50	sand	native	167	21.6	3	15	20	1	21.6	35	inbare	ft
+WR	wepp-21156	"11:17 am  Wednesday June 22, 2011"	"Tbike +"	50	sand	native	167	21.6	3	15	20	1	21.6	35	inveg	ft
+WR	wepp-21209	"11:21 am  Wednesday June 22, 2011"	"Tbike +"	50	sand	native	167	21.6	15	15	20	1	21.6	35	inveg	ft
+WR	wepp-21219	"11:21 am  Wednesday June 22, 2011"	"Tbike +"	50	sand	native	167	21.6	12	15	20	1	21.6	35	inveg	ft
+WR	wepp-21231	"11:23 am  Wednesday June 22, 2011"	"Tbike +"	50	sand	native	167	21.6	12	15	20	1	21.6	35	inveg	ft
+WR	wepp-22561	"01:57 pm  Wednesday June 22, 2011"	"Tbike +"	50	sand	native	145	25	15	15	20	1	25	35	inveg	ft
+WR	wepp-22567	"01:58 pm  Wednesday June 22, 2011"	"Tbike +"	50	sand	native	50	15	3	15	20	1	15	35	inveg	ft
+WR	wepp-22832	"02:34 pm  Wednesday June 22, 2011"	"Tbike +"	50	sand	native	477	19	18	15	20	1	19	35	inveg	ft
+WR	wepp-22894	"02:37 pm  Wednesday June 22, 2011"	"Tbike +"	50	sand	graveled	200	19	18	15	20	1	19	35	inveg	ft
+WR	wepp-23079	"03:05 pm  Wednesday June 22, 2011"	"Tbike +"	50	sand	native	775	19	12	15	20	1	19	35	inveg	ft
+WR	wepp-23112	"03:07 pm  Wednesday June 22, 2011"	"Tbike +"	50	sand	native	200	19	12	15	20	1	19	35	inveg	ft
+WR	wepp-23165	"03:15 pm  Wednesday June 22, 2011"	"Tbike +"	50	sand	native	415	15	12	15	20	1	15	35	inveg	ft
+WR	wepp-23200	"03:16 pm  Wednesday June 22, 2011"	"Tbike +"	50	sand	native	200	15	12	15	20	1	15	35	inveg	ft
+WR	wepp-23262	"03:28 pm  Wednesday June 22, 2011"	"Tbike +"	50	sand	native	101	5	12	15	20	1	5	35	inveg	ft
+WR	wepp-23370	"03:36 pm  Wednesday June 22, 2011"	"Tbike +"	50	sand	native	233	7	12	15	20	1	7	35	inveg	ft
+WR	wepp-1411	"08:44 am  Thursday June 23, 2011"	"Tbike +"	50	sand	native	167	21.5	12	15	20	1	21.5	35	inveg	ft
+WR	wepp-1416	"08:44 am  Thursday June 23, 2011"	"Tbike +"	50	sand	native	167	21.5	12	15	20	1	21.5	35	inbare	ft
+WR	wepp-1468	"08:46 am  Thursday June 23, 2011"	"Tbike +"	50	sand	native	477	19	18	15	20	1	19	35	inbare	ft
+WR	wepp-1506	"08:51 am  Thursday June 23, 2011"	"Tbike +"	50	sand	native	775	18.9	12	15	20	1	18.9	35	inbare	ft
+WR	wepp-1512	"08:52 am  Thursday June 23, 2011"	"Tbike +"	50	sand	native	415	15.4	12	15	20	1	15.4	35	inbare	ft
+WR	wepp-1518	"08:54 am  Thursday June 23, 2011"	"Tbike +"	50	sand	native	101	4.9	12	15	20	1	4.9	35	inbare	ft
+WR	wepp-1551	"08:56 am  Thursday June 23, 2011"	"Tbike +"	50	sand	native	101	4.9	12	15	20	1	4.9	35	inveg	ft
+WD	wepp-1909	"09:32 am  Thursday June 23, 2011"	"Tbike +"	50	sand	Skid	50	3	3	20	35	Skid	10	20	20	20	35	0	ft	""
+WR	wepp-2173	"10:04 am  Thursday June 23, 2011"	"Tbike +"	50	sand	native	180	7	200	15	25	10	25	35	outunrut	ft
+WR	wepp-2209	"10:10 am  Thursday June 23, 2011"	"Tbike +"	50	sand	graveled	180	7	200	15	25	10	25	35	outunrut	ft
+WR	wepp-5535	"03:32 pm  Thursday June 23, 2011"	"Tbike +"	50	sand	native	180	7	200	15	25	10	25	35	outunrut	ft
+WR	wepp-5541	"03:33 pm  Thursday June 23, 2011"	"Tbike +"	50	sand	graveled	180	7	200	15	25	10	25	35	outunrut	ft
+WR	wepp-5606	"03:38 pm  Thursday June 23, 2011"	"Tbike +"	50	sand	native	180	7	200	15	25	10	25	35	outunrut	ft
+WR	wepp-15132	"04:27 pm  Monday June 27, 2011"	"Tbike +"	50	sand	native	194	8	145	15	25	15	25	20	outunrut	ft
+WR	wepp-26765	"09:09 am  Tuesday June 28, 2011"	"Tbike +"	50	sand	native	194	8	145	15	25	1	8	20	outrut	ft
+WR	wepp-26770	"09:09 am  Tuesday June 28, 2011"	"Tbike +"	50	sand	native	194	8	145	15	25	1	8	20	outunrut	ft
+WR	wepp-26803	"09:11 am  Tuesday June 28, 2011"	"Tbike +"	50	sand	native	194	8	145	15	25	1	8	35	outunrut	ft
+WR	wepp-27844	"10:54 am  Tuesday June 28, 2011"	"Tbike +"	50	sand	native	65	9	241	15	25	1	9	35	outunrut	ft
+WR	wepp-27878	"10:58 am  Tuesday June 28, 2011"	"Tbike +"	50	sand	native	83	8	141	15	25	1	8	35	outunrut	ft
+WR	wepp-29113	"12:32 pm  Tuesday June 28, 2011"	"Tbike +"	50	sand	native	98	9	164	15	25	50	9	35	outunrut	ft
+WR	wepp-30367	"02:07 pm  Tuesday June 28, 2011"	"Tbike +"	50	sand	native	86	11	111	15	25	130	20	35	outunrut	ft
+WR	wepp-30522	"02:28 pm  Tuesday June 28, 2011"	"Tbike +"	50	sand	native	197	6	84	15	6	1	6	35	outunrut	ft
+WR	wepp-30527	"02:28 pm  Tuesday June 28, 2011"	"Tbike +"	50	sand	native	197	6	84	15	6	1	6	35	outrut	ft
+WR	wepp-10019	"11:53 am  Wednesday June 29, 2011"	"Tbike +"	50	sand	paved	610	7.5	35	15	20	1	7.5	35	inveg	ft
+WR	wepp-10053	"11:57 am  Wednesday June 29, 2011"	"Tbike +"	50	sand	paved	350	7.5	35	15	20	1	7.5	35	inveg	ft
+WE	wepp-32292	"06:58 am  Wednesday October 5, 2011"	"Tbike +"	sand	20	forest	20	30	30	300	l			ft
+WD	wepp-3922	"02:26 pm  Wednesday October 5, 2011"	"Tbike +"	100	sand	HighFire	700	70	70	20	20	HighFire	300	70	70	20	20	0	ft	""
+WD	wepp-4425	"02:33 pm  Wednesday October 5, 2011"	"DollarLakeFireZZ +"	100	sand	HighFire	278	20	60	20	20	HighFire	278	60	30	20	20	0	ft	""
+WE	wepp-12276	"06:54 am  Thursday October 6, 2011"	"PORTLAND WB AP OR +"	sand	20	forest	50	50	50	75	l			ft
+WE	wepp-12326	"06:55 am  Thursday October 6, 2011"	"PORTLAND WB AP OR +"	sand	20	forest	50	50	50	75	l			ft
+WE	wepp-12376	"06:55 am  Thursday October 6, 2011"	"PORTLAND WB AP OR +"	sand	20	forest	50	50	50	75	m			ft
+WR	wepp-2804	"03:33 pm  Monday October 17, 2011"	"t_waterline +"	50	sand	paved	443	7.5	20	1	7.5	1	7.5	35	inbare	ft
+WR	wepp-2838	"03:39 pm  Monday October 17, 2011"	"t_waterline +"	50	sand	paved	94	6.6	20	1	6.6	1	6.6	35	inbare	ft
+WR	wepp-2920	"03:47 pm  Monday October 17, 2011"	"t_waterline +"	50	sand	paved	340	6	20	1	6	1	6	35	inbare	ft
+WR	wepp-3120	"04:14 pm  Monday October 17, 2011"	"t_waterline +"	50	sand	paved	210	7	20	1	7	1	7	35	inbare	ft
+WR	wepp-3229	"04:28 pm  Monday October 17, 2011"	"t_waterline +"	50	sand	paved	271	8	20	1	8	1	8	35	inbare	ft
+WR	wepp-3282	"04:37 pm  Monday October 17, 2011"	"t_waterline +"	50	sand	paved	681	4	20	1	4	1	4	35	inbare	ft
+WR	wepp-3345	"04:40 pm  Monday October 17, 2011"	"t_waterline +"	50	sand	paved	68	9	20	1	9	1	4	35	inbare	ft
+WR	wepp-3397	"04:45 pm  Monday October 17, 2011"	"t_waterline +"	50	sand	paved	110	3	20	1	3	1	3	35	inbare	ft
+WR	wepp-12559	"07:53 am  Tuesday October 18, 2011"	"t_waterline +"	50	sand	paved	495	6	20	1	6	1	6	35	inbare	ft
+WR	wepp-12592	"07:58 am  Tuesday October 18, 2011"	"t_waterline +"	50	sand	paved	735	9	20	1	9	1	9	35	inbare	ft
+WR	wepp-12644	"08:01 am  Tuesday October 18, 2011"	"t_waterline +"	50	sand	paved	435	9	20	1	9	1	9	35	inbare	ft
+WR	wepp-12761	"08:17 am  Tuesday October 18, 2011"	"t_waterline +"	50	sand	paved	500	6	20	1	6	1	6	35	inbare	ft
+WR	wepp-12767	"08:20 am  Tuesday October 18, 2011"	"t_waterline +"	50	sand	paved	257	7	20	1	7	1	7	35	inbare	ft
+WR	wepp-12842	"08:26 am  Tuesday October 18, 2011"	"t_waterline +"	50	sand	graveled	137	5	18	1	5	1	5	35	inbare	ft
+WR	wepp-27042	"04:33 pm  Tuesday October 25, 2011"	"t_waterline +"	50	sand	graveled	600	3	18	3	3	1	3	35	inbare	ft
+WR	wepp-27048	"04:35 pm  Tuesday October 25, 2011"	"t_waterline +"	50	sand	paved	600	3	30	3	3	1	3	35	inbare	ft
+WR	wepp-27082	"04:36 pm  Tuesday October 25, 2011"	"t_waterline +"	50	sand	paved	600	3	40	3	3	1	3	35	inbare	ft
+WR	wepp-27118	"04:40 pm  Tuesday October 25, 2011"	"t_waterline +"	50	sand	native	600	3	18	3	3	1	3	35	inbare	ft

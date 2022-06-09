@@ -1,0 +1,137 @@
+WD	wepp-3283	"04:08 pm  Thursday November 10, 2011"	"Ahart +"	30	sand	Skid	50	5	5	50	20	OldForest	50	5	5	100	20	0	ft	"RMA Thin 5%"
+WD	wepp-3305	"04:10 pm  Thursday November 10, 2011"	"Ahart +"	30	sand	Skid	50	10	10	50	20	OldForest	50	10	10	100	20	0	ft	"RMA Thin 5%"
+WD	wepp-3350	"04:10 pm  Thursday November 10, 2011"	"Ahart +"	30	sand	Skid	50	10	10	50	20	OldForest	50	10	10	100	20	0	ft	"RMA Thin 10%"
+WD	wepp-3374	"04:11 pm  Thursday November 10, 2011"	"Ahart +"	30	sand	Skid	50	15	15	50	20	OldForest	50	15	15	100	20	0	ft	"RMA Thin 10%"
+WD	wepp-3406	"04:11 pm  Thursday November 10, 2011"	"Ahart +"	30	sand	Skid	50	15	15	50	20	OldForest	50	15	15	100	20	0	ft	"RMA Thin 15%"
+WD	wepp-3426	"04:11 pm  Thursday November 10, 2011"	"Ahart +"	30	sand	Skid	50	15	15	50	20	YoungForest	50	15	15	100	20	0	ft	"RMA Thin 15%"
+WD	wepp-3446	"04:12 pm  Thursday November 10, 2011"	"Ahart +"	30	sand	Skid	50	15	15	50	20	YoungForest	50	10	10	100	20	0	ft	"RMA Thin 10%"
+WD	wepp-3466	"04:13 pm  Thursday November 10, 2011"	"Ahart +"	30	sand	Skid	50	5	5	50	20	YoungForest	50	5	5	100	20	0	ft	"RMA Thin 5%"
+WD	wepp-3486	"04:14 pm  Thursday November 10, 2011"	"Ahart +"	30	sand	Skid	50	10	10	50	20	YoungForest	50	10	10	100	20	0	ft	"RMA Thin 5%"
+WD	wepp-3506	"04:14 pm  Thursday November 10, 2011"	"Ahart +"	30	sand	Skid	50	10	10	50	20	YoungForest	50	10	10	100	20	0	ft	"RMA Thin 10%"
+WD	wepp-3576	"04:16 pm  Thursday November 10, 2011"	"Ahart +"	30	sand	Skid	50	15	15	50	50	YoungForest	50	15	15	100	50	0	ft	"RMA Thin 15%, maximum rock content in soil"
+WD	wepp-3596	"04:17 pm  Thursday November 10, 2011"	"Ahart +"	30	loam	Skid	50	15	15	50	50	YoungForest	50	15	15	100	20	0	ft	"RMA Thin 15%, maximum rock content in soil"
+WD	wepp-3618	"04:18 pm  Thursday November 10, 2011"	"Ahart +"	30	loam	Skid	50	15	15	50	50	YoungForest	50	15	15	100	20	0	ft	"RMA Thin 15%, loam"
+WD	wepp-3637	"04:18 pm  Thursday November 10, 2011"	"Ahart +"	30	loam	Skid	50	15	15	50	50	YoungForest	50	15	15	100	20	0	ft	"RMA Thin 15%, loam"
+WD	wepp-3657	"04:19 pm  Thursday November 10, 2011"	"Ahart +"	30	loam	Skid	50	15	15	50	50	YoungForest	50	15	15	100	50	0	ft	"RMA Thin 15%, loam"
+WD	wepp-3677	"04:19 pm  Thursday November 10, 2011"	"Ahart +"	30	loam	Skid	50	15	15	50	50	YoungForest	50	15	15	100	20	0	ft	"RMA Thin 15%, loam"
+WD	wepp-4667	"04:36 pm  Thursday November 10, 2011"	"Ahart +"	30	sand	OldForest	50	15	15	100	20	YoungForest	50	15	15	100	20	0	ft	"RMA Without Thin 15%"
+WD	wepp-4687	"04:37 pm  Thursday November 10, 2011"	"Ahart +"	30	sand	Skid	300	15	15	50	20	YoungForest	100	15	15	100	20	0	ft	"RMA Without Thin 15%"
+WD	wepp-4707	"04:37 pm  Thursday November 10, 2011"	"Ahart +"	30	sand	Skid	300	15	15	50	20	YoungForest	50	15	15	100	20	0	ft	"RMA Thin 15%"
+WD	wepp-4727	"04:39 pm  Thursday November 10, 2011"	"Ahart +"	30	sand	Skid	300	15	15	50	20	YoungForest	100	15	15	100	20	0	ft	"RMA Without Thin 15%"
+WD	wepp-4803	"04:41 pm  Thursday November 10, 2011"	"Ahart +"	30	sand	Skid	300	25	15	50	20	YoungForest	50	15	15	100	20	0	ft	"RMA Without Thin 15%"
+WD	wepp-4971	"04:55 pm  Thursday November 10, 2011"	"Ahart +"	10	sand	Skid	300	10	10	50	20	YoungForest	100	10	10	100	20	0	ft	"No Thin in RMA, 10% slope"
+WD	wepp-4991	"04:55 pm  Thursday November 10, 2011"	"Ahart +"	30	sand	Skid	300	10	10	50	20	YoungForest	100	10	10	100	20	0	ft	"No Thin in RMA, 10% slope"
+WD	wepp-5038	"04:57 pm  Thursday November 10, 2011"	"Ahart +"	30	sand	Skid	300	25	5	50	20	YoungForest	100	5	5	100	20	0	ft	"No Thin in RMA, 10% slope"
+WD	wepp-5058	"04:57 pm  Thursday November 10, 2011"	"Ahart +"	30	sand	Skid	300	5	5	50	20	YoungForest	100	5	5	100	20	0	ft	"No Thin in RMA, 5% slope"
+WD	wepp-5078	"04:58 pm  Thursday November 10, 2011"	"Ahart +"	30	sand	Skid	300	35	5	50	20	YoungForest	100	5	5	100	20	0	ft	"No Thin in RMA, 5% slope"
+WD	wepp-5098	"04:58 pm  Thursday November 10, 2011"	"Ahart +"	30	sand	Skid	300	35	5	50	20	YoungForest	100	5	5	100	20	0	ft	"No Thin in RMA, 5% slope"
+WE	wepp-15696	"05:05 pm  Tuesday November 15, 2011"	"Ahart +"	sand	20	forest	0	50	30	300	l			ft
+WE	wepp-78372	"08:22 am  Tuesday October 21, 2014"	"King Fire (ENF) +"	sand	5	chap	30.05463	24.62179	21.52976	600	h	80	0	ft
+WE	wepp-78615	"08:22 am  Tuesday October 21, 2014"	"King Fire (ENF) +"	sand	5	chap	30.05463	24.62179	21.52976	600	h	80	0	ft
+WE	wepp-78837	"08:23 am  Tuesday October 21, 2014"	"King Fire (ENF) +"	sand	5	forest	100	37.47166	5.13033	1000	h			ft
+WE	wepp-79031	"08:23 am  Tuesday October 21, 2014"	"King Fire (ENF) +"	sand	5	forest	77.49789	39.41979	2.761343	1000	h			ft
+WE	wepp-79226	"08:23 am  Tuesday October 21, 2014"	"King Fire (ENF) +"	sand	5	chap	32.55364	21.77938	12.18044	600	h	80	0	ft
+WE	wepp-79420	"08:23 am  Tuesday October 21, 2014"	"King Fire (ENF) +"	sand	5	forest	66.58734	28.41506	2.296303	1000	h			ft
+WE	wepp-79619	"08:24 am  Tuesday October 21, 2014"	"King Fire (ENF) +"	loam	8	chap	20.31709	11.92106	4.666453	600	h	80	0	ft
+WE	wepp-79845	"08:24 am  Tuesday October 21, 2014"	"King Fire (ENF) +"	loam	8	forest	76.95802	28.12358	3.395105	500	h			ft
+WE	wepp-80050	"08:24 am  Tuesday October 21, 2014"	"King Fire (ENF) +"	loam	10	chap	35.97958	33.2425	29.3516	800	h	80	0	ft
+WE	wepp-80246	"08:24 am  Tuesday October 21, 2014"	"King Fire (ENF) +"	loam	10	forest	75.97319	34.87419	11.91814	800	h			ft
+WE	wepp-80867	"08:25 am  Tuesday October 21, 2014"	"King Fire (ENF) +"	loam	10	chap	44.26451	31.04273	20.56319	800	h	80	0	ft
+WE	wepp-81064	"08:25 am  Tuesday October 21, 2014"	"King Fire (ENF) +"	loam	10	forest	87.80846	30.1047	13.61634	800	h			ft
+WE	wepp-81265	"08:25 am  Tuesday October 21, 2014"	"King Fire (ENF) +"	loam	10	range	39.50095	33.80438	25.50279	800	h	15	75	ft
+WE	wepp-81501	"08:26 am  Tuesday October 21, 2014"	"King Fire (ENF) +"	loam	10	chap	24.41635	24.41635	24.41635	800	h	80	0	ft
+WE	wepp-81725	"08:26 am  Tuesday October 21, 2014"	"King Fire (ENF) +"	loam	10	forest	78.58148	32.16091	4.051452	800	h			ft
+WE	wepp-81919	"08:26 am  Tuesday October 21, 2014"	"King Fire (ENF) +"	loam	50	forest	86.47346	40.9087	11.30612	600	h			ft
+WE	wepp-82127	"08:28 am  Tuesday October 21, 2014"	"King Fire (ENF) +"	sand	5	chap	30.05463	24.62179	21.52976	600	h	80	0	ft
+WE	wepp-82356	"08:28 am  Tuesday October 21, 2014"	"King Fire (ENF) +"	sand	5	forest	100	37.47166	5.13033	1000	h			ft
+WE	wepp-82582	"08:29 am  Tuesday October 21, 2014"	"King Fire (ENF) +"	sand	5	forest	77.49789	39.41979	2.761343	1000	h			ft
+WE	wepp-82780	"08:29 am  Tuesday October 21, 2014"	"King Fire (ENF) +"	sand	5	chap	32.55364	21.77938	12.18044	600	h	80	0	ft
+WE	wepp-83004	"08:29 am  Tuesday October 21, 2014"	"King Fire (ENF) +"	sand	5	forest	66.58734	28.41506	2.296303	1000	h			ft
+WE	wepp-83226	"08:29 am  Tuesday October 21, 2014"	"King Fire (ENF) +"	loam	8	chap	20.31709	11.92106	4.666453	600	h	80	0	ft
+WE	wepp-83757	"08:30 am  Tuesday October 21, 2014"	"King Fire (ENF) +"	loam	8	forest	76.95802	28.12358	3.395105	500	h			ft
+WE	wepp-84090	"08:30 am  Tuesday October 21, 2014"	"King Fire (ENF) +"	loam	10	chap	35.97958	33.2425	29.3516	800	h	80	0	ft
+WE	wepp-84313	"08:30 am  Tuesday October 21, 2014"	"King Fire (ENF) +"	loam	10	forest	75.97319	34.87419	11.91814	800	h			ft
+WE	wepp-84507	"08:30 am  Tuesday October 21, 2014"	"King Fire (ENF) +"	loam	10	chap	44.26451	31.04273	20.56319	800	h	80	0	ft
+WE	wepp-84713	"08:31 am  Tuesday October 21, 2014"	"King Fire (ENF) +"	loam	10	forest	87.80846	30.1047	13.61634	800	h			ft
+WE	wepp-84936	"08:31 am  Tuesday October 21, 2014"	"King Fire (ENF) +"	loam	10	range	39.50095	33.80438	25.50279	800	h	15	75	ft
+WE	wepp-85162	"08:31 am  Tuesday October 21, 2014"	"King Fire (ENF) +"	loam	10	chap	24.41635	24.41635	24.41635	800	h	80	0	ft
+WE	wepp-85386	"08:32 am  Tuesday October 21, 2014"	"King Fire (ENF) +"	loam	10	forest	78.58148	32.16091	4.051452	800	h			ft
+WE	wepp-85628	"08:34 am  Tuesday October 21, 2014"	"King Fire (ENF) +"	sand	5	chap	30.05463	24.62179	21.52976	600	h	80	0	ft
+WE	wepp-86148	"08:35 am  Tuesday October 21, 2014"	"King Fire (ENF) +"	sand	5	forest	100	37.47166	5.13033	1000	h			ft
+WE	wepp-86552	"08:36 am  Tuesday October 21, 2014"	"King Fire (ENF) +"	sand	5	chap	30.05463	24.62179	21.52976	600	h	80	0	ft
+WE	wepp-86777	"08:36 am  Tuesday October 21, 2014"	"King Fire (ENF) +"	sand	5	forest	100	37.47166	5.13033	1000	h			ft
+WE	wepp-87000	"08:36 am  Tuesday October 21, 2014"	"King Fire (ENF) +"	sand	5	forest	77.49789	39.41979	2.761343	1000	h			ft
+WE	wepp-87222	"08:37 am  Tuesday October 21, 2014"	"King Fire (ENF) +"	sand	5	chap	32.55364	21.77938	12.18044	600	h	80	0	ft
+WE	wepp-87416	"08:37 am  Tuesday October 21, 2014"	"King Fire (ENF) +"	sand	5	forest	66.58734	28.41506	2.296303	1000	h			ft
+WE	wepp-87615	"08:37 am  Tuesday October 21, 2014"	"King Fire (ENF) +"	loam	8	chap	20.31709	11.92106	4.666453	600	h	80	0	ft
+WE	wepp-87838	"08:38 am  Tuesday October 21, 2014"	"King Fire (ENF) +"	loam	8	forest	76.95802	28.12358	3.395105	500	h			ft
+WE	wepp-88064	"08:38 am  Tuesday October 21, 2014"	"King Fire (ENF) +"	loam	10	chap	35.97958	33.2425	29.3516	800	h	80	0	ft
+WE	wepp-88922	"08:41 am  Tuesday October 21, 2014"	"King Fire (ENF) +"	sand	5	chap	30.05463	24.62179	21.52976	600	h	80	0	ft
+WE	wepp-89148	"08:42 am  Tuesday October 21, 2014"	"King Fire (ENF) +"	sand	5	forest	100	37.47166	5.13033	1000	h			ft
+WE	wepp-89464	"08:42 am  Tuesday October 21, 2014"	"King Fire (ENF) +"	sand	5	forest	77.49789	39.41979	2.761343	1000	h			ft
+WE	wepp-89664	"08:43 am  Tuesday October 21, 2014"	"King Fire (ENF) +"	sand	5	chap	32.55364	21.77938	12.18044	600	h	80	0	ft
+WE	wepp-89859	"08:43 am  Tuesday October 21, 2014"	"King Fire (ENF) +"	sand	5	forest	66.58734	28.41506	2.296303	1000	h			ft
+WE	wepp-90161	"08:43 am  Tuesday October 21, 2014"	"King Fire (ENF) +"	loam	8	chap	20.31709	11.92106	4.666453	600	h	80	0	ft
+WE	wepp-90359	"08:43 am  Tuesday October 21, 2014"	"King Fire (ENF) +"	loam	8	forest	76.95802	28.12358	3.395105	500	h			ft
+WE	wepp-90582	"08:44 am  Tuesday October 21, 2014"	"King Fire (ENF) +"	loam	10	chap	35.97958	33.2425	29.3516	800	h	80	0	ft
+WE	wepp-90777	"08:44 am  Tuesday October 21, 2014"	"King Fire (ENF) +"	loam	10	forest	75.97319	34.87419	11.91814	800	h			ft
+WE	wepp-90977	"08:44 am  Tuesday October 21, 2014"	"King Fire (ENF) +"	loam	10	chap	44.26451	31.04273	20.56319	800	h	80	0	ft
+WE	wepp-91199	"08:45 am  Tuesday October 21, 2014"	"King Fire (ENF) +"	loam	10	forest	87.80846	30.1047	13.61634	800	h			ft
+WE	wepp-91807	"08:45 am  Tuesday October 21, 2014"	"King Fire (ENF) +"	loam	10	range	39.50095	33.80438	25.50279	800	h	15	75	ft
+WE	wepp-92243	"08:52 am  Tuesday October 21, 2014"	"King Fire (ENF) +"	sand	5	chap	30.05463	24.62179	21.52976	600	h	80	0	ft
+WE	wepp-92465	"08:52 am  Tuesday October 21, 2014"	"King Fire (ENF) +"	sand	5	forest	100	37.47166	5.13033	1000	h			ft
+WE	wepp-92660	"08:52 am  Tuesday October 21, 2014"	"King Fire (ENF) +"	sand	5	forest	77.49789	39.41979	2.761343	1000	h			ft
+WE	wepp-92854	"08:52 am  Tuesday October 21, 2014"	"King Fire (ENF) +"	sand	5	chap	32.55364	21.77938	12.18044	600	h	80	0	ft
+WE	wepp-93051	"08:53 am  Tuesday October 21, 2014"	"King Fire (ENF) +"	sand	5	forest	66.58734	28.41506	2.296303	1000	h			ft
+WE	wepp-93273	"08:53 am  Tuesday October 21, 2014"	"King Fire (ENF) +"	loam	8	chap	20.31709	11.92106	4.666453	600	h	80	0	ft
+WE	wepp-93468	"08:53 am  Tuesday October 21, 2014"	"King Fire (ENF) +"	loam	8	forest	76.95802	28.12358	3.395105	500	h			ft
+WE	wepp-93662	"08:54 am  Tuesday October 21, 2014"	"King Fire (ENF) +"	loam	10	chap	35.97958	33.2425	29.3516	800	h	80	0	ft
+WE	wepp-93863	"08:54 am  Tuesday October 21, 2014"	"King Fire (ENF) +"	loam	10	forest	75.97319	34.87419	11.91814	800	h			ft
+WE	wepp-97022	"10:37 am  Tuesday October 21, 2014"	"King Fire (ENF) +"	silt	25	forest	100	68.09379	5.968628	700	u			ft
+WE	wepp-97107	"10:37 am  Tuesday October 21, 2014"	"King Fire (ENF) +"	loam	30	forest	100	63.37908	3.389678	500	u			ft
+WE	wepp-97162	"10:37 am  Tuesday October 21, 2014"	"King Fire (ENF) +"	loam	50	forest	100	63.34478	1.934485	600	u			ft
+WE	wepp-97216	"10:37 am  Tuesday October 21, 2014"	"King Fire (ENF) +"	sand	25	chap	100	38.25465	0.292192	700	u	80	0	ft
+WE	wepp-97270	"10:37 am  Tuesday October 21, 2014"	"King Fire (ENF) +"	sand	25	forest	100	67.90261	40.46191	600	u			ft
+WE	wepp-97324	"10:37 am  Tuesday October 21, 2014"	"King Fire (ENF) +"	loam	50	chap	100	50.22504	4.869479	200	u	80	0	ft
+WE	wepp-97378	"10:37 am  Tuesday October 21, 2014"	"King Fire (ENF) +"	sand	25	forest	100	50.7978	1.162807	500	u			ft
+WE	wepp-97432	"10:38 am  Tuesday October 21, 2014"	"King Fire (ENF) +"	sand	5	forest	100	45.18686	2.949622	1000	u			ft
+WE	wepp-97486	"10:38 am  Tuesday October 21, 2014"	"King Fire (ENF) +"	loam	10	forest	100	66.9003	35.74419	400	u			ft
+WE	wepp-97910	"11:02 am  Tuesday October 21, 2014"	"King Fire (ENF) +"	loam	10	chap	87.72089	18.37238	0.597906	700	u	80	0	ft
+WE	wepp-97993	"11:02 am  Tuesday October 21, 2014"	"King Fire (ENF) +"	loam	10	forest	100	18.36276	0.228708	400	u			ft
+WE	wepp-98047	"11:02 am  Tuesday October 21, 2014"	"King Fire (ENF) +"	loam	10	chap	66.7944	36.5017	4.459168	700	u	80	0	ft
+WE	wepp-98101	"11:02 am  Tuesday October 21, 2014"	"King Fire (ENF) +"	loam	10	forest	100	24.58148	0.105643	400	u			ft
+WE	wepp-99906	"12:10 pm  Tuesday October 21, 2014"	"King Fire (ENF) +"	silt	25	forest	100	68.09379	5.968628	700	u			ft
+WE	wepp-99989	"12:10 pm  Tuesday October 21, 2014"	"King Fire (ENF) +"	loam	30	forest	100	63.37908	3.389678	500	u			ft
+WE	wepp-100043	"12:10 pm  Tuesday October 21, 2014"	"King Fire (ENF) +"	loam	50	forest	100	63.34478	1.934485	600	u			ft
+WE	wepp-100098	"12:10 pm  Tuesday October 21, 2014"	"King Fire (ENF) +"	sand	25	chap	100	38.25465	0.292192	700	u	80	0	ft
+WE	wepp-100156	"12:10 pm  Tuesday October 21, 2014"	"King Fire (ENF) +"	sand	25	forest	100	67.90261	40.46191	600	u			ft
+WE	wepp-100211	"12:11 pm  Tuesday October 21, 2014"	"King Fire (ENF) +"	loam	50	chap	100	50.22504	4.869479	200	u	80	0	ft
+WE	wepp-100265	"12:11 pm  Tuesday October 21, 2014"	"King Fire (ENF) +"	sand	25	forest	100	50.7978	1.162807	500	u			ft
+WE	wepp-100319	"12:11 pm  Tuesday October 21, 2014"	"King Fire (ENF) +"	sand	5	forest	100	45.18686	2.949622	1000	u			ft
+WE	wepp-100409	"12:13 pm  Tuesday October 21, 2014"	"King Fire (ENF) +"	loam	8	forest	100	18.00429	0.14436	500	u			ft
+WE	wepp-100491	"12:13 pm  Tuesday October 21, 2014"	"King Fire (ENF) +"	loam	8	forest	4.361549	4.361549	4.361549	500	u			ft
+WE	wepp-100545	"12:13 pm  Tuesday October 21, 2014"	"King Fire (ENF) +"	loam	8	forest	29.28187	18.2226	5.731333	500	u			ft
+WE	wepp-100599	"12:13 pm  Tuesday October 21, 2014"	"King Fire (ENF) +"	loam	10	forest	59.9582	38.61411	3.621795	800	u			ft
+WE	wepp-100653	"12:13 pm  Tuesday October 21, 2014"	"King Fire (ENF) +"	loam	10	forest	100	43.15544	3.410478	800	u			ft
+WE	wepp-100707	"12:13 pm  Tuesday October 21, 2014"	"King Fire (ENF) +"	loam	50	forest	44.33616	23.87718	1.193309	600	u			ft
+WE	wepp-100761	"12:13 pm  Tuesday October 21, 2014"	"King Fire (ENF) +"	loam	50	forest	100	41.09507	6.617669	600	u			ft
+WE	wepp-100843	"12:13 pm  Tuesday October 21, 2014"	"King Fire (ENF) +"	loam	50	chap	49.15561	44.82196	37.72956	200	u	80	0	ft
+WE	wepp-100897	"12:13 pm  Tuesday October 21, 2014"	"King Fire (ENF) +"	loam	50	forest	78.38268	57.29516	48.6991	600	u			ft
+WE	wepp-100951	"12:13 pm  Tuesday October 21, 2014"	"King Fire (ENF) +"	loam	50	chap	100	65.67479	0.62081	200	u	80	0	ft
+WE	wepp-101005	"12:13 pm  Tuesday October 21, 2014"	"King Fire (ENF) +"	loam	50	forest	100	68.07809	0.79188	600	u			ft
+WE	wepp-101059	"12:13 pm  Tuesday October 21, 2014"	"King Fire (ENF) +"	loam	5	forest	64.34988	33.40971	21.39713	600	u			ft
+WE	wepp-101114	"12:13 pm  Tuesday October 21, 2014"	"King Fire (ENF) +"	loam	10	forest	100	51.0962	16.1877	400	u			ft
+WE	wepp-101168	"12:13 pm  Tuesday October 21, 2014"	"King Fire (ENF) +"	loam	10	forest	100	30.48537	0.617145	400	u			ft
+WE	wepp-101222	"12:13 pm  Tuesday October 21, 2014"	"King Fire (ENF) +"	loam	10	forest	93.60869	29.14236	0.888079	400	u			ft
+WE	wepp-101276	"12:13 pm  Tuesday October 21, 2014"	"King Fire (ENF) +"	loam	10	forest	51.63635	27.88871	3.833693	400	u			ft
+WE	wepp-101330	"12:14 pm  Tuesday October 21, 2014"	"King Fire (ENF) +"	sand	25	chap	100	56.69079	2.302146	700	u	80	0	ft
+WE	wepp-101384	"12:14 pm  Tuesday October 21, 2014"	"King Fire (ENF) +"	sand	25	forest	100	82.17938	0.091214	500	u			ft
+WE	wepp-101438	"12:14 pm  Tuesday October 21, 2014"	"King Fire (ENF) +"	silt	25	forest	64.62875	20.69308	1.028489	700	u			ft
+WE	wepp-101492	"12:14 pm  Tuesday October 21, 2014"	"King Fire (ENF) +"	silt	25	forest	84.70761	42.58435	1.808781	700	u			ft
+WE	wepp-101546	"12:14 pm  Tuesday October 21, 2014"	"King Fire (ENF) +"	silt	25	chap	100	47.82546	1.382177	1000	u	80	0	ft
+WE	wepp-101600	"12:14 pm  Tuesday October 21, 2014"	"King Fire (ENF) +"	silt	25	forest	100	38.21902	1.053211	700	u			ft
+WE	wepp-101654	"12:14 pm  Tuesday October 21, 2014"	"King Fire (ENF) +"	loam	30	chap	100	81.30288	1.843269	1000	u	80	0	ft
+WE	wepp-101710	"12:14 pm  Tuesday October 21, 2014"	"King Fire (ENF) +"	loam	30	forest	100	75.1441	1.841968	500	u			ft
+WE	wepp-101764	"12:14 pm  Tuesday October 21, 2014"	"King Fire (ENF) +"	loam	30	range	100	72.2289	3.983753	600	u	15	75	ft
+WE	wepp-101818	"12:14 pm  Tuesday October 21, 2014"	"King Fire (ENF) +"	sand	22	forest	80.95724	26.48745	0.273204	500	u			ft
+WE	wepp-101872	"12:14 pm  Tuesday October 21, 2014"	"King Fire (ENF) +"	sand	22	forest	65.66878	12.18209	0.01237	500	u			ft

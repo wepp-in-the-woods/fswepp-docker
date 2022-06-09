@@ -1,0 +1,394 @@
+WE	wepp-189617	"04:08 pm  Sunday September 11, 2016"	""		10	range	7	20	17	230	u	15	75	ft
+WE	wepp-189723	"04:14 pm  Sunday September 11, 2016"	""		10	range	7	20	17	230	u	15	75	ft
+WE	wepp-189849	"04:44 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	10	range	7	20	17	230	u	15	75	ft
+WE	wepp-189931	"04:44 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	10	range	14	24	27	250	l	15	75	ft
+WE	wepp-190045	"04:44 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	10	forest	20	0	20	10	u			ft
+WE	wepp-190099	"04:44 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	10	forest	35	20	0	70	u			ft
+WE	wepp-190153	"04:44 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	10	forest	23	30	40	110	u			ft
+WE	wepp-190207	"04:44 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	10	forest	18	59	42	190	u			ft
+WE	wepp-190262	"04:44 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	10	forest	11	0	0	40	l			ft
+WE	wepp-190376	"04:44 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	10	forest	46	41	57	110	l			ft
+WE	wepp-190532	"04:44 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	10	range	14	21	0	130	l	15	75	ft
+WE	wepp-190649	"04:44 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	10	forest	27	36	48	280	l			ft
+WE	wepp-190763	"04:45 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	loam	5	range	17	0	0	110	l	15	75	ft
+WE	wepp-190877	"04:45 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	loam	5	range	12	14	13	430	l	15	75	ft
+WE	wepp-190991	"04:45 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	loam	5	forest	13	0	0	20	u			ft
+WE	wepp-191045	"04:45 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	loam	5	forest	1.5	20	12	150	u			ft
+WE	wepp-191099	"04:45 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	loam	5	range	3	3	0	170	l	15	75	ft
+WE	wepp-191213	"04:45 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	loam	5	chap	9	0	0	10	l	80	0	ft
+WE	wepp-191327	"04:45 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	10	forest	32	53	44	40	u			ft
+WE	wepp-191381	"04:45 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	10	chap	7	12	14	250	u	80	0	ft
+WE	wepp-191435	"04:45 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	10	forest	23	26	16	30	u			ft
+WE	wepp-191489	"04:45 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	10	chap	14	41	0	390	l	80	0	ft
+WE	wepp-191603	"04:45 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	10	chap	44	0	0	20	l	80	0	ft
+WE	wepp-191717	"04:46 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	10	forest	23	0	31	160	l			ft
+WE	wepp-191831	"04:46 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	10	forest	14	35	15	30	l			ft
+WE	wepp-191945	"04:46 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	10	range	15	15	6	30	l	15	75	ft
+WE	wepp-192059	"04:46 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	10	forest	19	25	29	170	m			ft
+WE	wepp-192214	"04:46 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	10	chap	6	42	40	280	m	80	0	ft
+WE	wepp-192368	"04:46 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	10	forest	38	32	0	100	m			ft
+WE	wepp-192522	"04:46 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	10	forest	21	19	19	560	m			ft
+WE	wepp-192676	"04:47 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	10	forest	34	35	20	160	h			ft
+WE	wepp-192870	"04:47 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	10	forest	10	12	4	20	h			ft
+WE	wepp-193064	"04:47 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	10	chap	44	37	0	220	h	80	0	ft
+WE	wepp-193258	"04:47 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	10	forest	14	32	44	380	h			ft
+WE	wepp-193452	"04:47 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	10	forest	13	30	7	220	h			ft
+WE	wepp-193646	"04:48 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	5	forest	19	28	16	90	u			ft
+WE	wepp-193700	"04:48 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	5	chap	16	41	22	40	u	80	0	ft
+WE	wepp-193754	"04:48 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	5	range	16	0	0	20	u	15	75	ft
+WE	wepp-193808	"04:48 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	5	forest	9	17	16	140	l			ft
+WE	wepp-193922	"04:48 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	5	chap	10	13	8	80	l	80	0	ft
+WE	wepp-194037	"04:48 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	5	range	3	6	5	20	l	15	75	ft
+WE	wepp-194153	"04:48 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	5	chap	26	22	27	160	m	80	0	ft
+WE	wepp-194307	"04:48 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	40	forest	21	0	12	10	u			ft
+WE	wepp-194361	"04:48 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	40	forest	11	22	19	240	u			ft
+WE	wepp-194415	"04:48 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	40	forest	45	37	8	70	l			ft
+WE	wepp-194529	"04:49 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	40	chap	20	0	14	10	l	80	0	ft
+WE	wepp-194643	"04:49 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	40	forest	12	39	29	240	l			ft
+WE	wepp-194757	"04:49 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	40	range	12	0	0	90	l	15	75	ft
+WE	wepp-194872	"04:49 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	40	chap	18	17	10	40	m	80	0	ft
+WE	wepp-195026	"04:49 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	40	forest	67	45	7	90	m			ft
+WE	wepp-195180	"04:49 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	40	chap	10	33	21	330	m	80	0	ft
+WE	wepp-195334	"04:49 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	40	forest	11	33	76	160	m			ft
+WE	wepp-195488	"04:50 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	40	chap	29	32	0	200	h	80	0	ft
+WE	wepp-195682	"04:50 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	40	forest	17	20	13	240	h			ft
+WE	wepp-195876	"04:50 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	20	range	9	14	24	270	u	15	75	ft
+WE	wepp-195930	"04:50 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	20	range	14	16	16	440	l	15	75	ft
+WE	wepp-196044	"04:50 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	20	chap	17	22	7	30	u	80	0	ft
+WE	wepp-196098	"04:50 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	20	forest	14	22	27	300	u			ft
+WE	wepp-196152	"04:50 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	20	forest	11	24	41	320	l			ft
+WE	wepp-196266	"04:50 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	20	forest	7	0	0	20	m			ft
+WE	wepp-196420	"04:51 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	30	range	25	62	0	110	u	15	75	ft
+WE	wepp-196474	"04:51 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	30	range	23	31	19	340	l	15	75	ft
+WE	wepp-196588	"04:51 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	30	range	10	19	9	160	m	15	75	ft
+WE	wepp-196743	"04:51 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	5	chap	21	0	0	40	u	80	0	ft
+WE	wepp-196797	"04:51 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	5	forest	14	8	0	260	u			ft
+WE	wepp-196851	"04:51 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	5	chap	5	5	10	300	l	80	0	ft
+WE	wepp-196965	"04:51 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	5	forest	5	8	4	60	l			ft
+WE	wepp-197079	"04:51 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	5	range	15	13	0	80	l	15	75	ft
+WE	wepp-197193	"04:51 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	5	forest	29	36	30	360	m			ft
+WE	wepp-197347	"04:52 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	5	forest	9	16	4	20	m			ft
+WE	wepp-197501	"04:52 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	30	forest	7	8	0	30	u			ft
+WE	wepp-197555	"04:52 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	30	forest	9	0	9	10	l			ft
+WE	wepp-197669	"04:52 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	30	chap	4	5	7	190	l	80	0	ft
+WE	wepp-197783	"04:52 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	30	forest	7	7	0	330	m			ft
+WE	wepp-197937	"04:52 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	30	chap	31	20	0	210	m	80	0	ft
+WE	wepp-198091	"04:52 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	loam	10	forest	11	0	0	60	u			ft
+WE	wepp-198145	"04:52 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	loam	10	range	2	0	0	10	u	15	75	ft
+WE	wepp-198199	"04:52 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	loam	10	forest	0	2	2	240	l			ft
+WE	wepp-198313	"04:53 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	loam	10	forest	5	19	21	710	l			ft
+WE	wepp-198427	"04:53 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	loam	10	forest	9	10	7	700	m			ft
+WE	wepp-198581	"04:53 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	loam	10	forest	8	21	20	530	h			ft
+WE	wepp-198775	"04:53 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	loam	10	range	20	11	1	50	h	15	75	ft
+WE	wepp-198969	"04:53 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	20	range	20	0	0	10	u	15	75	ft
+WE	wepp-199023	"04:53 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	20	range	8	13	9	270	l	15	75	ft
+WE	wepp-199137	"04:54 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	20	range	5	19	7	140	m	15	75	ft
+WE	wepp-199291	"04:54 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	20	chap	13	0	0	10	u	80	0	ft
+WE	wepp-199345	"04:54 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	20	forest	12	22	0	60	u			ft
+WE	wepp-199399	"04:54 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	20	forest	31	31	10	90	l			ft
+WE	wepp-199514	"04:54 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	20	forest	27	10	0	170	l			ft
+WE	wepp-199628	"04:54 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	20	chap	24	61	0	290	l	80	0	ft
+WE	wepp-199742	"04:54 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	20	forest	33	10	0	220	m			ft
+WE	wepp-199896	"04:54 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	20	forest	12	16	7	440	m			ft
+WE	wepp-200050	"04:54 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	10	forest	15	7	1	310	u			ft
+WE	wepp-200104	"04:55 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	10	forest	46	35	0	70	u			ft
+WE	wepp-200158	"04:55 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	10	forest	30	26	32	290	l			ft
+WE	wepp-200274	"04:55 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	10	chap	62	48	22	140	l	80	0	ft
+WE	wepp-200388	"04:55 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	10	forest	48	30	26	410	m			ft
+WE	wepp-200542	"04:55 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	10	range	11	19	17	330	u	15	75	ft
+WE	wepp-200596	"04:55 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	10	forest	30	20	22	320	l			ft
+WE	wepp-200710	"04:55 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	10	range	7	12	12	400	l	15	75	ft
+WE	wepp-200824	"04:55 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	10	forest	37	35	0	110	u			ft
+WE	wepp-200878	"04:55 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	10	range	11	26	29	60	u	15	75	ft
+WE	wepp-200932	"04:55 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	10	chap	23	27	12	50	u	80	0	ft
+WE	wepp-200986	"04:55 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	10	forest	22	23	20	250	u			ft
+WE	wepp-201040	"04:55 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	10	chap	14	27	24	140	u	80	0	ft
+WE	wepp-201094	"04:56 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	10	range	17	32	25	350	u	15	75	ft
+WE	wepp-201148	"04:56 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	10	range	11	17	0	430	l	15	75	ft
+WE	wepp-201262	"04:56 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	10	forest	28	21	26	160	u			ft
+WE	wepp-201316	"04:56 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	10	range	15	24	29	130	u	15	75	ft
+WE	wepp-201370	"04:56 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	10	chap	12	21	19	240	u	80	0	ft
+WE	wepp-201424	"04:56 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	10	forest	49	59	0	200	l			ft
+WE	wepp-201539	"04:56 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	10	range	10	29	19	280	l	15	75	ft
+WE	wepp-201653	"04:56 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	10	chap	30	45	43	230	l	80	0	ft
+WE	wepp-201767	"04:56 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	10	forest	21	32	46	300	m			ft
+WE	wepp-201921	"04:56 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	10	chap	36	39	25	220	m	80	0	ft
+WE	wepp-202075	"04:57 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	10	forest	19	22	0	240	h			ft
+WE	wepp-202269	"04:57 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	10	chap	45	29	23	110	h	80	0	ft
+WE	wepp-202463	"04:57 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	20	forest	19	13	24	240	u			ft
+WE	wepp-202517	"04:57 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	20	forest	13	22	28	250	l			ft
+WE	wepp-202634	"04:57 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	20	chap	20	10	22	300	l	80	0	ft
+WE	wepp-202748	"04:57 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	20	forest	8	12	22	340	m			ft
+WE	wepp-202902	"04:57 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	20	forest	16	30	21	640	m			ft
+WE	wepp-203056	"04:58 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	20	forest	15	24	28	380	h			ft
+WE	wepp-203250	"04:58 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	20	forest	31	30	0	120	u			ft
+WE	wepp-203304	"04:58 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	20	forest	16	20	0	800	l			ft
+WE	wepp-203418	"04:58 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	20	forest	43	0	27	10	m			ft
+WE	wepp-203572	"04:58 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	20	forest	54	48	31	80	h			ft
+WE	wepp-203766	"04:58 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	15	forest	12	18	18	70	u			ft
+WE	wepp-203820	"04:58 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	15	forest	28	33	0	300	l			ft
+WE	wepp-203934	"04:59 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	15	forest	17	30	26	250	m			ft
+WE	wepp-204088	"04:59 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	15	forest	21	24	16	520	h			ft
+WE	wepp-204282	"04:59 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	15	chap	5	14	20	280	h	80	0	ft
+WE	wepp-204477	"04:59 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	15	forest	27	21	12	280	u			ft
+WE	wepp-204531	"04:59 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	15	forest	24	21	35	210	l			ft
+WE	wepp-204645	"04:59 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	15	forest	43	73	65	130	m			ft
+WE	wepp-204799	"04:59 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	15	forest	31	32	30	420	h			ft
+WE	wepp-204993	"05:00 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	15	chap	29	29	0	160	u	80	0	ft
+WE	wepp-205047	"05:00 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	15	forest	11	17	22	80	u			ft
+WE	wepp-205101	"05:00 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	15	forest	33	23	32	120	l			ft
+WE	wepp-205215	"05:00 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	15	chap	10	20	0	90	l	80	0	ft
+WE	wepp-205329	"05:00 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	15	forest	29	21	19	400	m			ft
+WE	wepp-205483	"05:00 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	15	chap	21	30	0	90	m	80	0	ft
+WE	wepp-205637	"05:00 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	15	forest	35	31	16	200	h			ft
+WE	wepp-205873	"05:01 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	15	chap	10	27	33	120	h	80	0	ft
+WE	wepp-206067	"05:01 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	10	forest	9	24	31	340	u			ft
+WE	wepp-206121	"05:01 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	10	forest	50	48	26	60	l			ft
+WE	wepp-206235	"05:01 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	10	forest	32	22	18	280	m			ft
+WE	wepp-206389	"05:01 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	10	range	29.5	22.5	0	130	h			ft
+WE	wepp-206583	"05:01 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	10	forest	46	26	15	170	h			ft
+WE	wepp-206777	"05:02 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	15	forest	13	16	0	200	l			ft
+WE	wepp-206891	"05:02 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	15	forest	4	18	13	270	m			ft
+WE	wepp-207045	"05:02 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	15	forest	10	0	0	10	h			ft
+WE	wepp-207239	"05:02 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	loam	5	forest	32	23	0	260	u			ft
+WE	wepp-207293	"05:02 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	loam	5	range	10	15	11	380	u	15	75	ft
+WE	wepp-207347	"05:02 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	loam	5	forest	37	19	14	250	l			ft
+WE	wepp-207461	"05:02 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	loam	5	range	19	29	19	50	l	15	75	ft
+WE	wepp-207575	"05:02 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	loam	5	forest	11	25	19	130	m			ft
+WE	wepp-207729	"05:03 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	loam	5	forest	10	12	7	30	h			ft
+WE	wepp-207923	"05:03 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	15	forest	12	14	0	180	u			ft
+WE	wepp-207977	"05:03 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	15	chap	8	13	8	40	u	80	0	ft
+WE	wepp-208031	"05:03 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	15	forest	48	39	23	390	l			ft
+WE	wepp-208145	"05:03 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	15	forest	25	41	29	330	l			ft
+WE	wepp-208260	"05:03 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	15	forest	32	46	0	150	m			ft
+WE	wepp-208415	"05:03 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	15	forest	38	39	28	320	m			ft
+WE	wepp-208570	"05:03 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	15	chap	16	19	27	190	m	80	0	ft
+WE	wepp-208724	"05:04 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	15	forest	16	32	25	190	h			ft
+WE	wepp-208918	"05:04 pm  Sunday September 11, 2016"	"Cedar_creekCA +"	sand	15	chap	23	19	21	310	h	80	0	ft
+WE	wepp-216879	"12:54 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	10	range	7	20	20	230	u	15	75	ft
+WE	wepp-216992	"12:57 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	10	range	14	24	27	250	l	15	75	ft
+WE	wepp-217277	"01:09 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	20	forest	35	20	0	70	u			ft
+WE	wepp-217364	"01:10 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	10	forest	35	20	0	70	u			ft
+WE	wepp-217451	"01:11 pm  Monday September 12, 2016"	"Cedar_creekCA +"	loam	10	forest	35	20	0	70	u			ft
+WE	wepp-217553	"01:12 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	10	forest	19	25	29	170	m			ft
+WE	wepp-217747	"01:15 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	10	chap	6	42	40	280	m	80	0	ft
+WE	wepp-219154	"02:50 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	10	range	3	19.69722	16.69167	230	u	15	75	ft
+WE	wepp-219239	"02:50 pm  Monday September 12, 2016"	"Cedar_creekCA +"	loam	5	range	12.1	14.42346	12.93143	430	u	15	75	ft
+WE	wepp-219322	"02:50 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	10	chap	59	41.0625	32.5	130	u	80	0	ft
+WE	wepp-219404	"02:51 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	10	chap	15.16667	20.48758	0	250	l	80	0	ft
+WE	wepp-219546	"02:51 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	10	forest	15.4	0	0	60	m			ft
+WE	wepp-219731	"02:52 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	5	chap	12	18.97778	8.6	70	u	80	0	ft
+WE	wepp-219813	"02:52 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	5	chap	13	22.45	18.05556	230	l	80	0	ft
+WE	wepp-219956	"02:52 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	40	forest	27.5	24.55393	18.98611	290	u			ft
+WE	wepp-220040	"02:53 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	40	forest	33.66667	0	0	20	l			ft
+WE	wepp-220183	"02:53 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	40	chap	18.125	0	0	70	m	80	0	ft
+WE	wepp-220367	"02:53 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	5	forest	23	28.5	20	50	l			ft
+WE	wepp-220511	"02:54 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	10	chap	20	0	0	10	m	80	0	ft
+WE	wepp-220694	"02:54 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	10	forest	35	0	0	70	u			ft
+WE	wepp-220777	"02:54 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	10	forest	48.50167	0	0	110	l			ft
+WE	wepp-220920	"02:55 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	10	forest	28.25	20.875	26	160	u			ft
+WE	wepp-221003	"02:55 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	10	forest	24	0	0	10	l			ft
+WE	wepp-221146	"02:56 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	10	forest	18.44444	29.8028	20.78889	220	m			ft
+WE	wepp-221329	"02:56 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	10	range	17.87778	15	0	150	l	15	75	ft
+WE	wepp-221471	"02:56 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	20	forest	13	0	0	10	l			ft
+WE	wepp-221614	"02:57 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	20	forest	16.03846	0	0	120	l			ft
+WE	wepp-221758	"02:57 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	15	forest	8.444445	0	0	90	u			ft
+WE	wepp-221841	"02:58 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	15	forest	13	8.25	4	90	l			ft
+WE	wepp-221986	"02:58 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	15	forest	0	0	7	10	m			ft
+WE	wepp-222170	"02:58 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	15	forest	1.333333	0	0	20	h			ft
+WE	wepp-222393	"02:59 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	15	forest	11.5	12	0	70	u			ft
+WE	wepp-222481	"02:59 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	15	forest	10	10	0	40	l			ft
+WE	wepp-222624	"03:00 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	15	forest	8	0	0	10	m			ft
+WE	wepp-222835	"03:02 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	10	range	3	19.69722	16.69167	230	u	15	75	ft
+WE	wepp-222920	"03:02 pm  Monday September 12, 2016"	"Cedar_creekCA +"	loam	5	range	12.1	14.42346	12.93143	430	u	15	75	ft
+WE	wepp-223006	"03:03 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	10	chap	59	41.0625	32.5	130	u	80	0	ft
+WE	wepp-223090	"03:03 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	10	chap	15.16667	20.48758	0	250	l	80	0	ft
+WE	wepp-223237	"03:04 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	10	forest	15.4	0	0	60	m			ft
+WE	wepp-223427	"03:04 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	5	chap	12	18.97778	8.6	70	u	80	0	ft
+WE	wepp-223514	"03:05 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	5	chap	13	22.45	18.05556	230	l	80	0	ft
+WE	wepp-223661	"03:05 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	40	forest	27.5	24.55393	18.98611	290	u			ft
+WE	wepp-223746	"03:05 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	40	forest	33.66667	0	0	20	l			ft
+WE	wepp-223895	"03:06 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	40	chap	18.125	0	0	70	m	80	0	ft
+WE	wepp-224088	"03:06 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	5	forest	23	28.5	20	50	l			ft
+WE	wepp-224238	"03:07 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	10	chap	20	0	0	10	m	80	0	ft
+WE	wepp-224426	"03:07 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	10	forest	35	0	0	70	u			ft
+WE	wepp-224509	"03:07 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	10	forest	48.50167	0	0	110	l			ft
+WE	wepp-224652	"03:08 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	10	forest	28.25	20.875	26	160	u			ft
+WE	wepp-224735	"03:08 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	10	forest	24	0	0	10	l			ft
+WE	wepp-224878	"03:08 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	10	forest	18.44444	29.8028	20.78889	220	m			ft
+WE	wepp-225072	"03:09 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	10	range	17.87778	15	0	150	l	15	75	ft
+WE	wepp-225215	"03:09 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	20	forest	13	0	0	10	l			ft
+WE	wepp-225361	"03:10 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	20	forest	16.03846	0	0	120	l			ft
+WE	wepp-225505	"03:10 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	15	forest	8.444445	0	0	90	u			ft
+WE	wepp-225588	"03:10 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	15	forest	13	8.25	4	90	l			ft
+WE	wepp-225732	"03:11 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	15	forest	0	0	7	10	m			ft
+WE	wepp-225919	"03:12 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	15	forest	1.333333	0	0	20	h			ft
+WE	wepp-226142	"03:12 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	15	forest	11.5	12	0	70	u			ft
+WE	wepp-226225	"03:13 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	15	forest	10	10	0	40	l			ft
+WE	wepp-226368	"03:13 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	15	forest	8	0	0	10	m			ft
+WE	wepp-226551	"03:13 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	20	forest	23	35.26191	35.79167	420	h			ft
+WE	wepp-226774	"03:14 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	15	forest	16.64286	0	0	60	m			ft
+WE	wepp-226959	"03:15 pm  Monday September 12, 2016"	"Cedar_creekCA +"	loam	15	forest	9	27.33809	18.71667	140	u			ft
+WE	wepp-227042	"03:15 pm  Monday September 12, 2016"	"Cedar_creekCA +"	loam	5	chap	4.5	16	0	60	l	80	0	ft
+WE	wepp-227187	"03:15 pm  Monday September 12, 2016"	"Cedar_creekCA +"	loam	5	forest	0	0	15	10	m			ft
+WE	wepp-227370	"03:16 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	30	range	12.5	24.52143	20.76111	150	u	15	75	ft
+WE	wepp-227458	"03:16 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	30	range	10	19.04103	9	160	l	15	75	ft
+WE	wepp-227604	"03:17 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	30	range	0.25	0	0	30	l	15	75	ft
+WE	wepp-227746	"03:18 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	10	range	7	9.739583	4	340	u	15	75	ft
+WE	wepp-227836	"03:18 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	10	range	7	0	1	10	u	15	75	ft
+WE	wepp-227926	"03:18 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	10	forest	17.14583	0	0	100	l			ft
+WE	wepp-228078	"03:19 pm  Monday September 12, 2016"	"Cedar_creekCA +"	loam	5	range	5	0	1	150	u	15	75	ft
+WE	wepp-228165	"03:19 pm  Monday September 12, 2016"	"Cedar_creekCA +"	loam	5	forest	38.66667	19.14286	49	100	l			ft
+WE	wepp-228326	"03:20 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	30	forest	9	0	9	10	u			ft
+WE	wepp-228420	"03:20 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	30	forest	2	0	0	10	l			ft
+WE	wepp-228573	"03:20 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	30	chap	4	6	3.666667	20	m	80	0	ft
+WE	wepp-228765	"03:21 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	20	chap	23.95192	61	0	290	u	80	0	ft
+WE	wepp-228856	"03:21 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	10	chap	50.02778	56.36666	0	220	l	80	0	ft
+WE	wepp-229006	"03:22 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	5	forest	23.60417	17.04545	0	200	m			ft
+WE	wepp-229189	"03:23 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	10	forest	19.72222	25.60833	21.08333	250	u			ft
+WE	wepp-241811	"09:41 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	10	range	3	19.69722	16.69167	230	u	15	75	ft
+WE	wepp-241893	"09:41 pm  Monday September 12, 2016"	"Cedar_creekCA +"	loam	5	range	12.1	14.42346	12.93143	430	u	15	75	ft
+WE	wepp-241947	"09:41 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	10	chap	59	41.0625	32.5	130	u	80	0	ft
+WE	wepp-242001	"09:41 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	10	chap	15.16667	20.48758	0	250	l	80	0	ft
+WE	wepp-242115	"09:41 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	10	forest	15.4	0	0	60	m			ft
+WE	wepp-242269	"09:41 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	5	chap	12	18.97778	8.6	70	l	80	0	ft
+WE	wepp-242383	"09:41 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	5	chap	13	22.45	18.05556	230	l	80	0	ft
+WE	wepp-242499	"09:41 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	40	forest	27.5	24.55393	18.98611	290	u			ft
+WE	wepp-242553	"09:41 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	40	forest	33.66667	0	0	20	l			ft
+WE	wepp-242669	"09:42 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	40	chap	18.125	0	0	70	m	80	0	ft
+WE	wepp-242823	"09:42 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	5	forest	23	28.5	20	50	l			ft
+WE	wepp-242937	"09:42 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	10	chap	20	0	0	10	m	80	0	ft
+WE	wepp-243091	"09:42 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	10	forest	35	0	0	70	u			ft
+WE	wepp-243145	"09:42 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	10	forest	48.50167	0	0	110	l			ft
+WE	wepp-243259	"09:42 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	10	forest	28.25	20.875	26	160	u			ft
+WE	wepp-243313	"09:42 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	10	forest	24	0	0	10	l			ft
+WE	wepp-243427	"09:42 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	10	forest	18.44444	29.8028	20.78889	220	m			ft
+WE	wepp-243584	"09:43 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	10	range	17.87778	15	0	150	l	15	75	ft
+WE	wepp-243699	"09:43 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	20	forest	13	0	0	10	l			ft
+WE	wepp-243813	"09:43 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	20	forest	16.03846	0	0	120	l			ft
+WE	wepp-243927	"09:43 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	15	forest	8.444445	0	0	90	u			ft
+WE	wepp-243981	"09:43 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	15	forest	13	8.25	4	90	l			ft
+WE	wepp-244095	"09:43 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	15	forest	0	0	7	10	m			ft
+WE	wepp-244249	"09:43 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	15	forest	1.333333	0	0	20	h			ft
+WE	wepp-244443	"09:44 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	15	forest	11.5	12	0	70	u			ft
+WE	wepp-244528	"09:44 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	15	forest	10	10	0	40	l			ft
+WE	wepp-244671	"09:44 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	15	forest	8	0	0	10	m			ft
+WE	wepp-244853	"09:44 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	20	forest	23	35.26191	35.79167	420	h			ft
+WE	wepp-245251	"09:44 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	15	forest	16.64286	0	0	60	m			ft
+WE	wepp-245405	"09:44 pm  Monday September 12, 2016"	"Cedar_creekCA +"	loam	15	forest	9	27.33809	18.71667	140	l			ft
+WE	wepp-245519	"09:45 pm  Monday September 12, 2016"	"Cedar_creekCA +"	loam	5	chap	4.5	16	0	60	l	80	0	ft
+WE	wepp-245633	"09:45 pm  Monday September 12, 2016"	"Cedar_creekCA +"	loam	5	forest	0	0	15	10	m			ft
+WE	wepp-636	"09:45 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	30	range	12.5	24.52143	20.76111	150	l	15	75	ft
+WE	wepp-768	"09:45 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	30	range	10	19.04103	9	160	l	15	75	ft
+WE	wepp-884	"09:45 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	30	range	0.25	0	0	30	l	15	75	ft
+WE	wepp-1006	"09:45 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	10	range	7	9.739583	4	340	u	15	75	ft
+WE	wepp-1067	"09:45 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	10	range	7	0	1	10	u	15	75	ft
+WE	wepp-1121	"09:45 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	10	forest	17.14583	0	0	100	l			ft
+WE	wepp-1235	"09:46 pm  Monday September 12, 2016"	"Cedar_creekCA +"	loam	5	range	5	0	1	150	u	15	75	ft
+WE	wepp-1294	"09:46 pm  Monday September 12, 2016"	"Cedar_creekCA +"	loam	5	forest	38.66667	19.14286	49	100	l			ft
+WE	wepp-1412	"09:46 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	30	forest	9	0	9	10	u			ft
+WE	wepp-1470	"09:46 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	30	forest	2	0	0	10	l			ft
+WE	wepp-1587	"09:46 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	30	chap	4	6	3.666667	20	m	80	0	ft
+WE	wepp-1741	"09:46 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	20	chap	23.95192	61	0	290	u	80	0	ft
+WE	wepp-1795	"09:46 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	10	chap	50.02778	56.36666	0	220	l	80	0	ft
+WE	wepp-1909	"09:46 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	5	forest	23.60417	17.04545	0	200	m			ft
+WE	wepp-2067	"09:46 pm  Monday September 12, 2016"	"Cedar_creekCA +"	sand	10	forest	19.72222	25.60833	21.08333	250	l			ft
+WE	wepp-10056	"06:55 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	10	forest	34.77273	34.31061	0	370	m			ft
+WE	wepp-10307	"06:55 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	10	chap	32.33333	30.63505	38.37037	230	m			ft
+WE	wepp-10607	"06:55 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	10	chap	32.20833	36.19	23	320	m			ft
+WE	wepp-10768	"06:55 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	10	forest	58.60417	44.35965	0	310	m			ft
+WE	wepp-10922	"06:55 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	10	chap	46.2	22.80107	39.125	410	m			ft
+WE	wepp-11084	"06:56 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	10	chap	31.5	48.09853	40	290	m			ft
+WE	wepp-11238	"06:56 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	10	chap	41.33333	41.58333	15	210	m			ft
+WE	wepp-11394	"06:56 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	10	forest	36.11595	35.45057	36.5	210	m			ft
+WE	wepp-11550	"06:56 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	10	chap	35.05079	44.25364	0	350	m			ft
+WE	wepp-11704	"06:56 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	20	forest	39.65767	37.46528	0	220	m			ft
+WE	wepp-11858	"06:57 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	20	forest	31.73141	33.66667	0	340	m			ft
+WE	wepp-12013	"06:57 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	15	forest	32.66667	18.97222	15.7619	230	m			ft
+WE	wepp-12168	"06:57 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	15	forest	42.375	38.47549	26	260	m			ft
+WE	wepp-12322	"06:57 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	15	forest	38	38.84744	27.5	320	m			ft
+WE	wepp-12476	"06:57 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	10	chap	30.41667	49.05882	0	220	m			ft
+WE	wepp-12630	"06:57 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	15	forest	30.16667	35.36053	28.38095	240	m			ft
+WE	wepp-12784	"06:58 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	15	forest	33.4375	18.71428	0	370	m			ft
+WE	wepp-12940	"06:58 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	10	chap	40.5	30.54502	19.29167	243	m			ft
+WE	wepp-13097	"06:58 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	10	forest	31.36275	52.84762	0	270	m			ft
+WE	wepp-13252	"06:58 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	10	forest	55.33333	41.25174	28	220	m			ft
+WE	wepp-13406	"06:58 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	10	forest	32	22.49074	17.91667	460	m			ft
+WE	wepp-13560	"06:58 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	20	forest	39	28.44167	11.44444	250	m			ft
+WE	wepp-13714	"06:59 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	20	forest	33	30.16495	13.5	470	m			ft
+WE	wepp-13868	"06:59 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	10	forest	31.58333	21.56989	0	460	m			ft
+WE	wepp-14022	"06:59 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	15	forest	37.22699	23.14546	0	330	m			ft
+WE	wepp-14215	"06:59 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	15	forest	34.375	20.78646	0	390	m			ft
+WE	wepp-14370	"06:59 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	20	forest	39.4	23.43333	0	310	m			ft
+WE	wepp-14524	"06:59 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	20	forest	40.63095	28.21528	30.33333	460	m			ft
+WE	wepp-14679	"07:00 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	20	chap	37.58333	38.29127	40.16667	260	m			ft
+WE	wepp-14834	"07:00 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	20	forest	55.5	22.98617	15.66667	260	m			ft
+WE	wepp-14989	"07:00 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	10	chap	47.30139	38.75417	0	270	m			ft
+WE	wepp-15144	"07:00 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	10	chap	38.625	29.24928	19.08333	300	m			ft
+WE	wepp-15299	"07:00 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	10	forest	36.45454	37.77273	0	370	m			ft
+WE	wepp-15453	"07:01 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	20	chap	33	28.13333	0	510	m			ft
+WE	wepp-15607	"07:01 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	10	forest	33.91667	14.09615	9.25	300	m			ft
+WE	wepp-15762	"07:01 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	20	forest	32	37.15417	0	440	m			ft
+WE	wepp-15917	"07:01 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	15	forest	50.2	28.55556	0	250	m			ft
+WE	wepp-16071	"07:01 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	20	forest	43.3125	47.23592	34.54167	300	m			ft
+WE	wepp-16231	"07:01 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	20	forest	39	27.26875	19.75	330	m			ft
+WE	wepp-16414	"07:02 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	20	forest	32.70833	32.71795	0	220	m			ft
+WE	wepp-16597	"07:02 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	20	forest	30.8125	21.80889	0	230	m			ft
+WE	wepp-16780	"07:02 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	20	forest	41.5	24.40476	17.71667	270	m			ft
+WE	wepp-16962	"07:02 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	20	forest	31.7296	33.19744	0	340	m			ft
+WE	wepp-17118	"07:02 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	15	forest	34.625	44.61146	32.625	390	m			ft
+WE	wepp-17301	"07:03 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	20	forest	37.32813	30.72917	0	240	m			ft
+WE	wepp-17455	"07:03 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	20	forest	44.04445	32.91875	0	210	m			ft
+WE	wepp-17609	"07:03 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	20	forest	30.33333	31.70611	44.58333	550	m			ft
+WE	wepp-17769	"07:03 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	20	forest	43	33.10714	29.33333	290	m			ft
+WE	wepp-17951	"07:03 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	20	forest	30.88889	43.76191	0	310	m			ft
+WE	wepp-18106	"07:04 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	20	forest	30.59333	22.02885	18.56667	430	m			ft
+WE	wepp-18260	"07:04 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	20	chap	38	43.02095	31.79167	320	m			ft
+WE	wepp-18414	"07:04 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	20	chap	40.66667	30.96667	20	260	m			ft
+WE	wepp-18568	"07:04 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	20	forest	43.5	42.69355	49.375	380	m			ft
+WE	wepp-18722	"07:04 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	20	forest	43.75	41.22052	29.5	260	m			ft
+WE	wepp-18876	"07:04 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	20	forest	44	26.41961	33.16667	220	m			ft
+WE	wepp-19030	"07:05 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	15	forest	41.5	26.87644	31.36	440	m			ft
+WE	wepp-19184	"07:05 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	20	forest	31.87059	21.79825	0	360	m			ft
+WE	wepp-19338	"07:05 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	20	forest	32.5	30.32464	15.88889	290	m			ft
+WE	wepp-19492	"07:05 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	20	forest	34.57143	40.85714	0	250	m			ft
+WE	wepp-19646	"07:05 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	20	forest	30.20455	20.44444	0	310	m			ft
+WE	wepp-19800	"07:05 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	20	forest	37.91667	40.64167	0	300	m			ft
+WE	wepp-19954	"07:06 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	20	forest	43.37361	50.14444	0	260	m			ft
+WE	wepp-20108	"07:06 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	20	forest	63.36666	33.53623	7.5	410	m			ft
+WE	wepp-20263	"07:06 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	20	forest	36.31364	32.8125	0	240	m			ft
+WE	wepp-20417	"07:06 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	20	forest	42.75	25.7	26.89583	730	m			ft
+WE	wepp-20573	"07:06 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	20	chap	34.66667	23.27604	21.81944	510	m			ft
+WE	wepp-20727	"07:07 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	20	forest	33.09375	19.87267	0	360	m			ft
+WE	wepp-20881	"07:07 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	20	forest	31.66667	20.05405	20.05	530	m			ft
+WE	wepp-21035	"07:07 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	20	forest	40.54445	56.84722	0	260	m			ft
+WE	wepp-21189	"07:07 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	20	forest	33.66667	40.74242	33.55556	270	m			ft
+WE	wepp-21344	"07:07 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	20	forest	31.92083	37.185	0	230	m			ft
+WE	wepp-21498	"07:07 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	20	forest	30.5	29	25	280	m			ft
+WE	wepp-21652	"07:08 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	20	forest	35.875	33.11494	16	360	m			ft
+WE	wepp-21806	"07:08 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	20	forest	35.14583	27	0	300	m			ft
+WE	wepp-21960	"07:08 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	20	forest	34.93012	22.58333	0	250	m			ft
+WE	wepp-22114	"07:08 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	20	forest	35	37.91726	0	290	m			ft
+WE	wepp-22268	"07:08 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	20	forest	33.20387	27.08333	0	210	m			ft
+WE	wepp-22422	"07:08 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	10	forest	43.33333	37.67059	20.44074	220	m			ft
+WE	wepp-22587	"07:09 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	10	chap	36.85185	39.66389	0	340	m			ft
+WE	wepp-22741	"07:09 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	10	chap	50.02778	56.36666	0	220	m			ft
+WE	wepp-22895	"07:09 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	10	forest	31.97222	20.88889	0	290	m			ft
+WE	wepp-23049	"07:09 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	10	chap	40.33333	37.79762	22.11111	270	m			ft
+WE	wepp-23203	"07:09 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	40	forest	30.44118	23.25	0	220	m			ft
+WE	wepp-23357	"07:09 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	20	chap	38.83333	26.39167	24.16667	300	m			ft
+WE	wepp-23511	"07:10 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	10	forest	47.69231	29.52857	0	340	m			ft
+WE	wepp-23666	"07:10 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	40	chap	38.7	38.5	0	310	m			ft
+WE	wepp-23821	"07:10 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	10	chap	31.5	24.50652	19.58333	280	m			ft
+WE	wepp-23977	"07:10 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	40	chap	43	45.03968	24.33333	260	m			ft
+WE	wepp-24131	"07:10 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	10	forest	38.76515	28.26923	0	230	m			ft
+WE	wepp-24285	"07:11 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	10	forest	32.5	23.0303	23.25	300	m			ft
+WE	wepp-24485	"07:31 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	10	chap	26.77778	33.07743	28.31626	560	l	80	0	ft
+WE	wepp-24627	"07:31 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	15	forest	34.92	36.91076	24.94662	470	h			ft
+WE	wepp-24821	"07:32 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	20	forest	11.4	24.58675	25.68043	540	l			ft
+WE	wepp-24935	"07:32 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	loam	5	range	10	15.18195	10.75921	380	u	15	75	ft
+WE	wepp-24989	"07:32 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	10	chap	16.66667	22.57862	23.06711	330	l	80	0	ft
+WE	wepp-25103	"07:32 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	10	chap	9.4	22.37663	24.7124	400	l	80	0	ft
+WE	wepp-25218	"07:32 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	20	forest	11.4	24.58675	25.68043	540	l			ft
+WE	wepp-25332	"07:32 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	10	chap	16.66667	22.57862	23.06711	330	l	80	0	ft
+WE	wepp-25446	"07:32 am  Tuesday September 13, 2016"	"Cedar_creekCA +"	sand	10	chap	9.4	22.37663	24.7124	400	l	80	0	ft

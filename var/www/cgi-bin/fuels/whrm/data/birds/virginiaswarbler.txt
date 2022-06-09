@@ -1,0 +1,84 @@
+#this files was modified by filegenwhrm.pl on: Wednesday, March 16, 2005.
+#taxgroup Birds species Virginia's warbler / Vermivora virginiae
+#
+# Rank
+3,2,3,-99,1
+# Nestsite
+4,1:20,-1:24,1:25,1:26,1
+# Reprorank
+2,-99:2,-99:1,-99:1,-99:1,-99
+# Foraging Habitat
+3,1:4,1:20,-1:24,1:25,1:26,1:50,1
+# Habitatrank
+1,-99:3,-99:1,-99:1,-99:1,-99:1,-99:2,-99
+# Forage/Prey Availability
+-99
+# Preyrank
+-99
+# Predator Avoidance
+-99
+# Avoidrank
+-99
+# Refugia/Shelter
+4,1
+# Shelterrank
+1,-99
+# Coverrank
+1,-99
+# Literature
+Distribution
+southwest, including spotty range in southern California, southern Wyoming, western Texas for breeding
+General Habitat
+PIPO/aspen stands; brushlands and pinyon-juniper woodlands
+Home or Activity Range
+no information available
+Canopy Cover
+open canopy at breeding and foraging sites (Swanson et al. 2000)
+Specific Habitat Preferences
+herbaceous cover, shrubs, non-aspen deciduous trees, steep slopes, medium to large PIPO
+Nestsite Characteristics
+nests on ground, near grassy tussock or base of tree, or hidden in a pile of leaves
+Foraging Habitat Characteristics
+gleans prey from branches and foliage, sometime hover-gleans or catches insects in flight; "other trees" used in model refer to non-aspen deciduous trees, such as oaks (Olson and Martin 1999, Griffis-Kyle and Beier 2003)
+Diet
+insects and caterpillars
+Predators
+Accipiter hawks; nest predation: red squirrel, gray-collared chipmunk, long-tailed weasel, vagrant shrew, Stellar's jay, house wren
+Shelter Habitats
+no information available
+Response to Disturbance
+disfavored 1-2 years post-fire due to an open understory (Johnson and Wauer 1996); favored 2-4 years post-fire as shrubs develop (Johnson and Wauer 1996)
+Sources of Information used in the Model
+Olson and Martin 1999, Swanson et al. 2000, Griffis-Kyle and Beier 2003
+General Sources of Background Information
+Johnson and Wauer 1996, National Geographic Society 1996, reviewed in Finch et al. 1997, Olson and Martin 1999, Swanson et al. 2000, Alsop 2001, Griffis-Kyle and Beier 2003
+Summaries of Specific Studies
+Finch, Deborah M.; Ganey, Joseph L.; Yong, Wang; Kimball, Rebecca T.; Sallabanks, Rex. 1997. Effects and interactions of fire, logging, and grazing. In Songbird ecology in southwestern ponderosa pine forests: a literature review. Gen. Tech. Rep. RM-GTR-292. Fort Collins, CO: USDA Forest Service, Rocky Mountain Forest and Range Experiment Station. 103-136.
+
+Study Location: southwest USA
+Habitat Description: PIPO
+Summary: Review of the impacts of disturbance on songbirds in southwest PIPO forests. Includes how disturbances such as fire change forest vegetation and in turn how this change impacts difference life history traits of avian species. Many useful, explicitly referenced review tables including: Table 2. Response patterns of selected birds to fire in PIPO forest, Table 3. Abundance of bird species that occur in clearcut, partially cut, and uncut southwestern PIPO forest, Table 4. Effect of silvicultural treatment on avian abundance and diversity, Table 5.Bird species in ponderosa pine forests that nest primarily on the ground or in low shrubs, Table 6. Bird species that prefer open habitat or use meadows or clearings within the forest, Table 7. Bird species that use riparian zones adjacent to ponderosa pine for nesting and foraging. 
+
+Johnson, Terrell; Wauer, Roland H. 1996. Avifaunal response to the 1977 La Mesa fire. In: Allen, C.D. (tech. ed.) Fire effects in southwestern forests. Proceedings of the second La Mesa fire symposium. Gen. Tech. Rep. RM-GRT-286. Fort Collins, CO: USDA Forest Service, Rocky Mountain Forest and Range Experiment Station. 70-94.
+
+Study Location: Bandelier National Monument, NM
+Habitat Description: PIPO, montane meadow, mixed conifer, pinyon-juniper
+Summary: Breeding birds were surveyed before and for many years after a wildfire in Bandelier National Monument. Species diversity increased after the fire, but breeding populations in general declined for several years before increasing above prefire levels. This pattern was more pronounced on severely burned forest. In all but the severely burned forest, breeding bird diversity and populations were higher than prefire levels 14 years after the wildfire. Patterns are presented for different foraging and nesting guilds, as well as some individual species (including particular habitat changes that impacted bird species).
+
+Griffis-Kyle, Kerry L.; Beier, Paul. 2003. Small isolated aspen stands enrich bird communities in southwestern ponderosa pine forests. Biological Conservation. 110(2003): 375-385.
+
+Study Location: Coconino National Forest, Arizona
+Habitat Description: Aspen in a PIPO matrix
+Summary: This study examined the role that aspen stands in a larger forest matrix play in supporting a variety of avian species. Relative bird abundance and species richness were higher in aspen plots than in paired ponderosa pine plots. However, aspen stands did not harbor unique avian communities, suggesting that they act as important landscape elements within the ponderosa pine forest matrix. Within-patch habitat factors explained 24-46% of the variation in species richness amongst aspen stands; the only habitat factor consistently associated with species richness was sapling density (neg.). Area and isolation of aspen stands had no influence on species diversity. Management activities such as overstory thinning, burning, and fencing against ungulates are suggested to create and conserve aspen stands.
+
+Olson, Christopher R.; Martin, Thomas E. 1999. Virginia's warbler. Birds of North America. 477: 1-15.
+
+Study Location: throughout range
+Habitat Description: variety reviewed
+Summary: Birds of North America species account for the Virginia's warbler. Found breeding mostly in pinyon-juniper and oak woodlands, in deep draws with associated shrubby vegetation. Forages mostly on deciduous vegetation, such as oak, but uses conifers when available. Nests in open habitat with drought-tolerant deciduous shrubs.
+
+Swanson, David L.; Palmer, Jeffrey S.; Liknes, Eric T.; Dean, Kurt L. 2000. A breeding population of Virginia's warblers in the southwestern Black Hills of South Dakota. The Southwestern Naturalist. 45(1): 39-44.
+
+Study Location: South Dakota
+Habitat Description: PIPO, JUSC
+Summary: A breeding population of Virginia's warblers inhabited an area with a shrubby understory with interspersed or adjacent JUSC and PIPO (low canopy cover). Locations of warblers consistently had dense shrub cover, steep slopes, and medium to large PIPO trees. 

@@ -1,0 +1,31 @@
+WR	wepp-104052	"09:44 am  Wednesday March 15, 2017"	"ABERDEEN 20 NNE WISHKA"	30	silt	native	200	4	13	15	50	1	25	20	inveg	ft
+WR	wepp-105000	"09:49 am  Wednesday March 15, 2017"	"ABERDEEN 20 NNE WISHKA"	30	silt	native	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-105144	"09:50 am  Wednesday March 15, 2017"	"ABERDEEN 20 NNE WISHKA"	30	silt	paved	200	4	13	15	50	1	25	20	inbare	ft
+WD	wepp-109657	"10:13 am  Wednesday March 15, 2017"	"ABERDEEN 20 NNE WISHKA"	10	silt	OldForest	200	0	30	100	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-110761	"10:21 am  Wednesday March 15, 2017"	"ABERDEEN 20 NNE WISHKA"	10	silt	Bunchgrass	400	0	30	60	20	OldForest	75	30	5	100	20	0	ft	"Scenario 2"
+WD	wepp-111657	"10:24 am  Wednesday March 15, 2017"	"ABERDEEN 20 NNE WISHKA"	10	silt	Bunchgrass	400	0	30	60	20	OldForest	30	30	5	100	20	0	ft	"Scenario 2"
+WD	wepp-112377	"10:28 am  Wednesday March 15, 2017"	"ABERDEEN 20 NNE WISHKA"	10	silt	HighFire	400	0	30	45	20	LowFire	30	30	5	85	20	0	ft	"Scenario 2"
+WD	wepp-115962	"10:58 am  Wednesday March 15, 2017"	"ABERDEEN 20 NNE WISHKA"	10	silt	HighFire	400	0	30	45	20	OldForest	500	30	5	100	20	0	ft	"Scenario 2"
+WD	wepp-115999	"10:58 am  Wednesday March 15, 2017"	"ABERDEEN 20 NNE WISHKA"	10	silt	HighFire	400	0	30	45	20	OldForest	250	30	5	100	20	0	ft	"Scenario 2"
+WD	wepp-116066	"10:58 am  Wednesday March 15, 2017"	"ABERDEEN 20 NNE WISHKA"	10	silt	HighFire	400	0	30	45	20	OldForest	600	30	5	100	20	0	ft	"Scenario 2"
+WD	wepp-116102	"10:58 am  Wednesday March 15, 2017"	"ABERDEEN 20 NNE WISHKA"	10	silt	HighFire	400	0	30	45	20	OldForest	700	30	5	100	20	0	ft	"Scenario 2"
+WD	wepp-116182	"10:59 am  Wednesday March 15, 2017"	"ABERDEEN 20 NNE WISHKA"	10	silt	HighFire	400	0	30	45	20	OldForest	1000	30	5	100	20	0	ft	"Scenario 2"
+WR	wepp-195243	"11:23 am  Wednesday March 14, 2018"	"ABERDEEN 20 NNE WISHKA"	30	clay	native	200	4	13	15	50	130	25	20	outrut	ft
+WR	wepp-197392	"11:35 am  Wednesday March 14, 2018"	"Schmidty's Climate  +"	30	silt	native	200	4	13	15	50	1	25	20	inveg	ft
+WR	wepp-199047	"11:44 am  Wednesday March 14, 2018"	"Schmidty's Climate  +"	30	silt	native	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-199646	"11:48 am  Wednesday March 14, 2018"	"Schmidty's Climate  +"	30	silt	paved	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-202938	"12:10 pm  Wednesday March 14, 2018"	"Schmidty's Climate  +"	30	silt	paved	200	4	13	15	50	1	25	20	inbare	ft
+WD	wepp-203730	"12:14 pm  Wednesday March 14, 2018"	"Schmidty's Climate  +"	10	silt	OldForest	400	0	30	100	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-204875	"12:20 pm  Wednesday March 14, 2018"	"Schmidty's Climate  +"	1	silt	OldForest	400	0	30	100	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-206710	"12:29 pm  Wednesday March 14, 2018"	"Schmidty's Climate  +"	1	silt	Bunchgrass	400	0	30	60	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-206999	"12:35 pm  Wednesday March 14, 2018"	"Schmidty's Climate  +"	1	silt	OldForest	400	0	30	100	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-207014	"12:37 pm  Wednesday March 14, 2018"	"Schmidty's Climate  +"	1	silt	HighFire	400	0	30	45	20	LowFire	30	30	5	85	20	0	ft	""
+WD	wepp-207186	"12:42 pm  Wednesday March 14, 2018"	"Schmidty's Climate  +"	1	silt	HighFire	400	0	30	45	20	OldForest	30	30	5	100	20	0	ft	""
+WD	wepp-207223	"12:43 pm  Wednesday March 14, 2018"	"Schmidty's Climate  +"	1	silt	HighFire	400	0	30	45	20	OldForest	40	30	5	100	20	0	ft	""
+WD	wepp-207261	"12:43 pm  Wednesday March 14, 2018"	"Schmidty's Climate  +"	1	silt	HighFire	400	0	30	45	20	OldForest	50	30	5	100	20	0	ft	""
+WD	wepp-207297	"12:43 pm  Wednesday March 14, 2018"	"Schmidty's Climate  +"	1	silt	HighFire	400	0	30	45	20	OldForest	70	30	5	100	20	0	ft	""
+WD	wepp-207333	"12:43 pm  Wednesday March 14, 2018"	"Schmidty's Climate  +"	1	silt	HighFire	400	0	30	45	20	OldForest	200	30	5	100	20	0	ft	""
+WD	wepp-207371	"12:44 pm  Wednesday March 14, 2018"	"Schmidty's Climate  +"	1	silt	HighFire	400	0	30	45	20	OldForest	200	30	5	100	20	0	ft	""
+WD	wepp-207407	"12:44 pm  Wednesday March 14, 2018"	"Schmidty's Climate  +"	1	silt	HighFire	400	0	30	45	20	OldForest	600	30	5	100	20	0	ft	""
+WD	wepp-207448	"12:45 pm  Wednesday March 14, 2018"	"Schmidty's Climate  +"	1	silt	HighFire	400	0	30	45	20	OldForest	800	30	5	100	20	0	ft	""
+WD	wepp-207485	"12:45 pm  Wednesday March 14, 2018"	"Schmidty's Climate  +"	1	silt	HighFire	400	0	30	45	20	OldForest	830	30	5	100	20	0	ft	""

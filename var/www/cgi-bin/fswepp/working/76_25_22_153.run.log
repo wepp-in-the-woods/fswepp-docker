@@ -1,0 +1,28 @@
+WD	wepp-32694	"07:31 am  Sunday December 2, 2012"	"DENVER WB AP CO"	100	sand	OldForest	100	0	30	95	5	OldForest	100	30	0	95	5	0	ft	""
+WD	wepp-32746	"07:34 am  Sunday December 2, 2012"	"DENVER WB AP CO"	100	sand	LowFire	100	0	30	85	5	LowFire	100	30	0	85	5	0	ft	""
+WD	wepp-32766	"07:35 am  Sunday December 2, 2012"	"DENVER WB AP CO"	100	sand	HighFire	100	0	30	35	5	HighFire	100	30	0	35	5	0	ft	""
+WD	wepp-348	"07:39 am  Sunday December 2, 2012"	"../climates/co052220"	100	sand		100	0	60	35	5	HighFire	100	60	0	35	5	0	ft	""
+WD	wepp-357	"07:40 am  Sunday December 2, 2012"	"DENVER WB AP CO"	100	sand	HighFire	100	0	60	35	5	LowFire	100	60	0	85	5	0	ft	""
+WD	wepp-378	"07:41 am  Sunday December 2, 2012"	"DENVER WB AP CO"	100	sand	HighFire	100	0	60	35	5	LowFire	100	60	0	35	5	0	ft	""
+WD	wepp-398	"07:41 am  Sunday December 2, 2012"	"../climates/co052220"	100	sand		100	0	15	35	5		100	15	0	35	5	0	ft	""
+WD	wepp-427	"07:42 am  Sunday December 2, 2012"	"DENVER WB AP CO"	100	sand	HighFire	100	0	15	35	5	HighFire	100	15	0	35	5	0	ft	""
+WD	wepp-679	"08:02 am  Sunday December 2, 2012"	"DENVER WB AP CO"	2	sand	OldForest	100	0	30	35	5	HighFire	100	30	0	35	5	0	ft	""
+WR	wepp-29861	"07:08 pm  Thursday April 18, 2013"	"DENVER WB AP CO"	30	sand	native	1000	2.9	13	15	50	130	25	20	inveg	ft
+WR	wepp-26953	"09:41 am  Tuesday April 23, 2013"	"DENVER WB AP CO"	30	loam	graveled	200	4	13	15	50	130	25	35	inveg	ft
+WR	wepp-26992	"09:41 am  Tuesday April 23, 2013"	"DENVER WB AP CO"	30	loam	graveled	1000	4	13	15	50	130	25	35	inveg	ft
+WR	wepp-27097	"09:43 am  Tuesday April 23, 2013"	"DENVER WB AP CO"	30	loam	graveled	1000	3.3	13	15	50	130	25	35	inveg	ft
+WR	wepp-27188	"09:48 am  Tuesday April 23, 2013"	"DENVER WB AP CO"	30	loam	graveled	1000	2.15	13	15	50	130	25	35	inveg	ft
+WR	wepp-27208	"09:48 am  Tuesday April 23, 2013"	"DENVER WB AP CO"	30	loam	graveled	1000	11.3	13	15	50	130	25	35	inveg	ft
+WR	wepp-27228	"09:49 am  Tuesday April 23, 2013"	"DENVER WB AP CO"	30	loam	graveled	1000	6.5	13	15	50	130	25	35	inveg	ft
+WR	wepp-27249	"09:49 am  Tuesday April 23, 2013"	"DENVER WB AP CO"	30	loam	graveled	1000	8.3	13	15	50	130	25	35	inveg	ft
+WR	wepp-27269	"09:49 am  Tuesday April 23, 2013"	"DENVER WB AP CO"	30	loam	graveled	1000	2.87	13	15	50	130	25	35	inveg	ft
+WR	wepp-31793	"09:38 am  Thursday April 25, 2013"	"DENVER WB AP CO"	30	loam	native	1000	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-31813	"09:39 am  Thursday April 25, 2013"	"DENVER WB AP CO"	30	loam	graveled	1000	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-31860	"09:39 am  Thursday April 25, 2013"	"DENVER WB AP CO"	30	loam	native	1000	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-31879	"09:39 am  Thursday April 25, 2013"	"DENVER WB AP CO"	30	loam	graveled	1000	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-31924	"09:40 am  Thursday April 25, 2013"	"DENVER WB AP CO"	30	loam	native	1000	3.27	13	15	50	130	25	20	inveg	ft
+WR	wepp-31948	"09:41 am  Thursday April 25, 2013"	"DENVER WB AP CO"	30	loam	native	1000	2.15	13	15	50	130	25	20	inveg	ft
+WR	wepp-31969	"09:43 am  Thursday April 25, 2013"	"DENVER WB AP CO"	30	loam	native	1000	11.3	13	15	50	130	25	20	inveg	ft
+WR	wepp-31991	"09:44 am  Thursday April 25, 2013"	"DENVER WB AP CO"	30	loam	native	1000	6.55	13	15	50	130	25	20	inveg	ft
+WR	wepp-32038	"09:44 am  Thursday April 25, 2013"	"DENVER WB AP CO"	30	loam	native	1000	8.32	13	15	50	130	25	20	inveg	ft
+WR	wepp-32060	"09:45 am  Thursday April 25, 2013"	"DENVER WB AP CO"	30	loam	native	1000	2.87	13	15	50	130	25	20	inveg	ft

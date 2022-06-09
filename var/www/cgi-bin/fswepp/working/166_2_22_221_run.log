@@ -1,0 +1,374 @@
+wt	
+   "May 24, 2010"	
+m	
+"DENVER WB AP CO"	
+alluvial	
+Bare	
+50	
+0	
+30	
+100	
+20	
+	
+YoungForest	
+50	
+30	
+5	
+100	
+20	
+	
+0	
+2	
+""
+wt	
+   "May 24, 2010"	
+m	
+"SANDPOINT EXP STA ID"	
+alluvial	
+Sod	
+50	
+0	
+30	
+60	
+20	
+	
+Sod	
+50	
+30	
+5	
+60	
+20	
+	
+0	
+2	
+""
+wt	
+   "May 24, 2010"	
+m	
+"SANDPOINT EXP STA ID"	
+alluvial	
+Sod	
+50	
+0	
+30	
+60	
+20	
+	
+Sod	
+50	
+30	
+5	
+60	
+20	
+	
+0	
+2	
+"frost.txt in WEPP directory"
+wt	
+   "May 24, 2010"	
+m	
+"SANDPOINT EXP STA ID"	
+alluvial	
+Sod	
+50	
+0	
+30	
+60	
+20	
+	
+Sod	
+50	
+30	
+5	
+60	
+20	
+	
+0	
+2	
+"frost.txt in Tahoe directory alone"
+wt	
+   "May 24, 2010"	
+m	
+"SANDPOINT EXP STA ID"	
+alluvial	
+Sod	
+50	
+0	
+30	
+60	
+20	
+	
+Sod	
+50	
+30	
+5	
+60	
+20	
+	
+0	
+2	
+"no frost.txt"
+wt	
+   "May 24, 2010"	
+m	
+"SANDPOINT EXP STA ID"	
+alluvial	
+Sod	
+50	
+0	
+30	
+60	
+20	
+	
+Sod	
+50	
+30	
+5	
+60	
+20	
+	
+0	
+2	
+"no frost.txt"
+wt	
+   "May 24, 2010"	
+m	
+"SANDPOINT EXP STA ID"	
+alluvial	
+Sod	
+50	
+0	
+30	
+60	
+20	
+	
+Sod	
+50	
+30	
+5	
+60	
+20	
+	
+0	
+2	
+"test soil file creation"
+wt	
+   "May 24, 2010"	
+m	
+"SANDPOINT EXP STA ID"	
+rockpave	
+Sod	
+50	
+0	
+30	
+60	
+20	
+	
+Sod	
+50	
+30	
+5	
+60	
+20	
+	
+0	
+2	
+"test soil file creation"
+wt	
+   "May 25, 2010"	
+	
+""	
+	
+	
+0	
+0	
+0	
+0	
+0	
+	
+	
+0	
+0	
+0	
+0	
+0	
+	
+0	
+	
+""
+wt	
+   "May 25, 2010"	
+	
+""	
+	
+	
+0	
+0	
+0	
+0	
+0	
+	
+	
+0	
+0	
+0	
+0	
+0	
+	
+0	
+	
+""
+wt	
+   "May 25, 2010"	
+m	
+"UPHAM WILDLIFE REF ND"	
+alluvial	
+LowFire	
+50	
+0	
+30	
+85	
+20	
+	
+LowFire	
+50	
+30	
+5	
+85	
+20	
+	
+0	
+2	
+"with frost.txt"
+wt	
+   "May 25, 2010"	
+m	
+"UPHAM WILDLIFE REF ND"	
+alluvial	
+LowFire	
+50	
+0	
+30	
+85	
+20	
+	
+LowFire	
+50	
+30	
+5	
+85	
+20	
+	
+0	
+2	
+"without frost.txt"
+wt	
+   "May 25, 2010"	
+m	
+""	
+volcanic	
+Bunchgrass	
+50	
+0	
+30	
+40	
+20	
+	
+Bunchgrass	
+50	
+30	
+5	
+40	
+20	
+	
+0	
+5	
+""
+wt	
+   "May 25, 2010"	
+m	
+"UPHAM WILDLIFE REF ND +"	
+granitic	
+LowFire	
+50	
+0	
+30	
+85	
+20	
+	
+LowFire	
+50	
+30	
+5	
+85	
+20	
+	
+0	
+50	
+"with frost.txt"
+wt	
+   "May 25, 2010"	
+m	
+"UPHAM WILDLIFE REF ND +"	
+granitic	
+LowFire	
+50	
+0	
+30	
+85	
+20	
+	
+LowFire	
+50	
+30	
+5	
+85	
+20	
+	
+0	
+50	
+"without frost.txt"
+wt	
+   "May 25, 2010"	
+m	
+"WhiteKnob +"	
+granitic	
+LowFire	
+50	
+0	
+30	
+85	
+20	
+	
+LowFire	
+50	
+30	
+5	
+85	
+20	
+	
+0	
+1	
+"without frost.txt"
+wt	
+   "May 25, 2010"	
+m	
+""	
+volcanic	
+Bunchgrass	
+50	
+0	
+30	
+40	
+20	
+	
+Bunchgrass	
+50	
+30	
+5	
+40	
+20	
+	
+0	
+2	
+""

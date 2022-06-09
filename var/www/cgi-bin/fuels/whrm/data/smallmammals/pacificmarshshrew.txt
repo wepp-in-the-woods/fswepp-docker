@@ -1,0 +1,79 @@
+#this files was modified by filegenwhrm.pl on: Wednesday, March 16, 2005.
+#taxgroup Small Mammals species Pacific marsh shrew /  Sorex bendirii
+#
+# Rank
+2,-99,4,-99,-99
+# Nestsite
+-99
+# Reprorank
+-99
+# Foraging Habitat
+3,1:7,1:12,1:21,1
+# Habitatrank
+1,-99:2,-99:2,-99:1,-99
+# Forage/Prey Availability
+-99
+# Preyrank
+-99
+# Predator Avoidance
+-99
+# Avoidrank
+-99
+# Refugia/Shelter
+-99
+# Shelterrank
+-99
+# Coverrank
+-99
+# Literature
+Distribution
+dense trees, deep litter, close to permanent stream, greater forb and hazel cover, stands with high canopy cover, large logs, low soil and grass cover
+General Habitat
+associated with small streams and swamps, older, wet forests
+Home or Activity Range
+no information available
+Canopy Cover
+canopy cover &gt 50% (Galindo-Leal and Zuleta 1997)
+Specific Habitat Preferences
+dense trees, deep litter, close to permanent stream, greater forb and hazel cover; found in stands with high canopy cover, large logs, low soil and grass cover
+Nestsite Characteristics
+no information available
+Foraging Habitat Characteristics
+streams/along water's edge
+Diet
+aquatic insects and terrestrial invertebrates
+Predators
+no information available
+Shelter Habitats
+no information available
+Response to Disturbance
+more abundant in young stands than clearcuts (Corn et al. 1988)
+Sources of Information used in the Model
+Corn et al. 1988, McComb et al. 1993, Galindo-Leal and Zuleta 1997, Maguire 2002
+General Sources of Background Information
+Corn et al. 1988, McComb et al. 1993, Galindo-Leal and Zuleta 1997, Maguire 2002
+Summaries of Specific Studies
+Corn, Paul Stephen; Bury, R. Bruce; Spies, Thomas A. 1988. Douglas-fir forests in the Cascade Mountains of Oregon and Washington: Is the abundance of small mammals related to stand age and moisture? In: Management of amphibians, reptiles, and small mammals in North America symposium: proceedings; Gen. Tech. Rep. RM-166. Fort Collins, CO: USDA, Forest Service, Rocky Mountain Forest and Range Experiment Station. 340-352.
+
+Study Location: Oregon and Washington Cascade Mountains
+Habitat Description: PSME
+Summary: Abundance of small mammals was associated with seral stage and moisture of PSME forests. Habitat associations are given for a number of species. Comparisons between clearcut and young forests were made for a few species.
+
+Galindo-Leal, Carlos; Zuleta, Gustavo. 1997. The distribution, habitat, and conservation status of the Pacific water shrew, Sorex bendirii, in British Columbia. The Canadian Field Naturalist. 111:422-428.
+
+Study Location: southwestern British Columbia
+Habitat Description: TSHE, THPL, PSME, ABAM, PISI, PICO
+Summary: Habitat and microhabitat associations were recorded for Pacific water shrews. Shrews were extremely rare and found only at three sites. These sites were characterized as having creeks, both conifer and mixed mature forests, canopy closure > 50%, low percentage of exposed soils and grasses, moderate percentage of ferns, mosses, and rocks, a high percentage of fine litter, and large logs. The Pacific water shrew is a riparian habitat specialist, and thus is a species of concern as riparian areas in their limited Canadian range are at risk.
+
+Gilbert, Frederick F.; Allwine, Rochelle. 1991. Small mammal communities in the Oregon Cascade Range. In Wildlife and vegetation of unmanaged Douglas-fir forests. Gen. Tech. Rep. PNW-GTR-285. Portland, OR: USDA, Forest Service, Pacific Northwest Research Station. pp 257-268.
+
+Study Location: west slope of Oregon Cascades
+Habitat Description: PSME
+Summary: There was no significant difference in species richness among young, mature and old-growth PSME stands in the Oregon Cascade Range. Trowbridge's shrew was the most abundant small mammal captured. Trowbridge's shrew, the shrew-mole, the deer mouse, and the red tree vole all were associated with older stands. The coast mole was only found in mature and old growth stands in one year. Tree squirrel abundance was positively correlated with snags. Temporal and spatial differences in habitat use were indicated by associations with forest vegetational and physical characteristics. The authors state that young and mature stands in this study contained many characteristics of old growth stands as they were allowed to naturally regenerate. Therefore, caution should be exercised in extrapolating results, as these stands did not contain conditions representative of stands managed for timber production.
+
+McComb, William C.; McGarigal, Kevin, Anthony, Robert G. 1993. Small mammal and amphibian abundance in streamside and upslope habitats of mature Douglas-fir stands, western Oregon. Northwest Science. 67(1):7-15.
+
+Study Location: Oregon Coast Range
+Habitat Description: PSME
+Summary: Small mammal and amphibian populations were sampled in streamside and upslope habitats in the Oregon Coast Range. Streamside habitats had shallower litter depth, greater high shrub cover (1.3-4m), greater midstory cover, less low shrub cover (<1.3m), less overstory cover, less basal area of snags and live conifers, and fewer stumps than upslope areas. These differences were largely due to different floristics. Small mammal species diversity was higher on streamside transects. Marsh shrews, Pacific jumping mice, long-tailed voles, and white-footed voles capture rates were higher streamside. Western red-backed voles, creeping voles, Trowbridge's shrews, and Townsend's chipmunks capture rates were higher on upslope transects. Amphibian species richness did not differ between stream and upslope transects. Dunn's salamanders were caught along streamside transects. More ensatinas were found on upslope transects. Specific habitat associations are given for three small mammal species: Pacific jumping mice, western red-backed voles, and marsh shrews.
+

@@ -1,0 +1,72 @@
+#this files was modified by filegenwhrm.pl on: Wednesday, March 16, 2005.
+#taxgroup Forest Carnivores species Fisher / Martes pennanti
+#
+# Rank
+3,2,4,-99,4
+# Nestsite
+26,1:12,1
+# Reprorank
+1,-99:1,-99
+# Foraging Habitat
+12,1:20,1:25,1:26,1
+# Habitatrank
+1,-99:3,-99:1,-99:2,-99
+# Forage/Prey Availability
+-99
+# Preyrank
+-99
+# Predator Avoidance
+-99
+# Avoidrank
+-99
+# Refugia/Shelter
+12,1:16,1:17,1:18,1:20,1:24,1:25,1:26,1
+# Shelterrank
+1,-99:1,-99:1,-99:1,-99:3,-99:1,-99:1,-99:2,-99
+# Coverrank
+1,-99:1,-99:1,-99:1,-99:3,-99:1,-99:1,-99:2,-99
+# Literature
+Distribution
+widespread across Alaska and Canada, south into coastal Washington, Oregon, and California, parts of central California, Idaho, Montana, and Wyoming; parts of New England
+General Habitat
+late seral stage montane coniferous forest, mid- to lower elevations
+Home or Activity Range
+3700-12350 ac
+Canopy Cover
+locations in areas of high canopy cover (Jones 1991); high canopy cover at resting sites (61-80%) and hunting sites (>81%) (Jones 1991); winter locations in areas of high canopy cover (Jones 1991); never detected in habitats lacking canopy cover (Hahr 200
+Specific Habitat Preferences
+canopy cover >40%, presence of riparian areas, vertical and horizontal complexity created by a diversity of tree sizes and shapes, light gaps, dead and downed wood, and layers of overhead cover; may shift from use of mostly mature/old-growth habitat in winter to younger forest stages in summer
+Nestsite Characteristics
+cavities formed from extensive decay of heart-rot fungi in large-diameter trees
+Foraging Habitat Characteristics
+areas with high densities of prey (dense, lowland coniferous forest where high densities of snowshoe hares are found); avoid open areas
+Diet
+snowshoe hares, red-backed voles, red squirrels, porcupines, northern short-tailed shrew, mice, bobcat kittens, marten, passerine birds, vegetation
+Predators
+lynx, bobcat, wolves, coyote, owl, eagle, black bear
+Shelter Habitats
+canopies or cavities of live trees, snags, logs, stumps, witches-broom (resting sites)
+Response to Disturbance
+higher densities as distance from clearcuts increases; salvage or thinning operations reduce the availability of forest structures for denning, may reduce habitat for prey species;increased human presence as a result of management activities may have adverse effects on rare forest carnivores (reviewed in Bull et al. 2001); used old stands more than expected compared to young and intermediate-aged stands (Hahr 2001)
+Sources of Information used in the Model
+Raphael 1989, Jones 1991, Powell and Zielinski 1994, Hahr 2001
+General Sources of Background Information
+Burt 1980, Raphael 1989, Jones 1991, reviewed in Powell and Zielinski 1994, reviewed in Bull et al. 2001, Hahr 2001
+Summaries of Specific Studies
+Hahr, Meg. 2001. Winter distribution and habitat use of lynx, fisher, and wolverine in Glacier National Park, Montana. Missoula, MT: University of Montana. 97 p. M.S. Thesis.
+
+Location of Study:  northwest Montana
+Habitat Description: entire Glacier National Park; includes dry herbaceous, mesic herbaceous, deciduous trees and shrubs, dense mesic coniferous forest, open dry coniferous forest, barren rock, snow or ice
+Summary: Lynx, fisher, and wolverine use of forest age classes and vegetative cover types was assessed in winter in Glacier National Park. Lynx use of deciduous and dry coniferous forest types was greater than expected while dry herb/shrub and mesic conifer cover types were used less than expected. Fisher used deciduous and dry coniferous forest types more than both shrub cover types. Wolverines used both conifer cover types less than expected while deciduous forest stands and dry herb/shrub were used significantly more than expected. Tracks of a variety of other carnivores, including marten, coyote, and mountain lion,  were also recorded. 
+
+Powell, Roger A.; Zielinski, William J. 1994. Fisher. In The Scientific basis for conserving Forest carnivores: American marten, fisher, lynx and wolverine in the western United States. Gen. Tech. Rep. RM-254. Fort Collins, CO:  USDA Forest Service, Rocky Mountain Forest and Range Experiment Station. 38-73.
+
+Location of Study:  western US
+Habitat Description:  dense, mesic forests in the west
+Summary:  Literature review of basic fisher ecology, including information on distribution, population ecology, reproductive biology, food habits, home range, habitat relationships, and response to disturbance. The authors highlight the importance of closed canopy conditions (at least in mesic forest types) as well as horizontal and vertical complexity created by a diversity of tree sizes and shapes, light gaps, dead and downed wood, and layers of overhead cover. Completely different habitat types may be used for foraging and resting; the full range of used habitat should be recognized in management plans.
+
+Raphael, Martin G. 1989. Long-term trends in abundance of amphibians, reptiles, and mammals in Douglas-fir forests of northwestern California. In: Management of amphibians, reptiles, and small mammals in North America symposium: proceedings; Gen. Tech. Rep. RM-166. Fort Collins, CO: USDA, Forest Service, Rocky Mountain Forest and Range Experiment Station. 11-22.
+
+Location of Study:  northwestern California
+Habitat Description:  PSME
+Summary:  This study describes the relative abundance of amphibians, reptiles and mammals in six seral stages of forest in NW California. Seral stages preferred by individual species are given (Table 2). Late brush/sapling and old growth seral stages provided the most productive wildlife habitat. Habitat components that correlated with the relative abundance of 9 species are also presented. Species that would increase or decrease in numbers after harvest of old-growth PSME forest are predicted. 

@@ -1,0 +1,23 @@
+WR	wepp-21178	"01:58 pm  Monday November 18, 2013"	"Mica Creek Watershed +"	30	silt	native	200	4	13	15	50	130	25	20	inbare	ft
+WR	wepp-21219	"02:00 pm  Monday November 18, 2013"	"Mica Creek Watershed +"	30	silt	graveled	200	4	13	15	50	1	25	20	outunrut	ft
+WR	wepp-21303	"02:02 pm  Monday November 18, 2013"	"SAINT MARIES ID +"	30	silt	graveled	200	4	13	15	50	1	25	20	outunrut	ft
+WR	wepp-21331	"02:02 pm  Monday November 18, 2013"	"Mica Creek Watershed +"	30	silt	graveled	200	4	13	15	50	1	25	20	outunrut	ft
+WD	wepp-21906	"02:19 pm  Monday November 18, 2013"	"Mica Creek Watershed +"	10	silt	OldForest	400	0	30	100	20	OldForest	75	30	5	100	20	0	ft	"Mature Forest"
+WD	wepp-21925	"02:19 pm  Monday November 18, 2013"	"Mica Creek Watershed +"	10	silt	OldForest	400	0	30	100	20	OldForest	75	30	5	100	20	0	ft	"Mature Forest"
+WD	wepp-22128	"02:24 pm  Monday November 18, 2013"	"Mica Creek Watershed +"	10	silt	Bunchgrass	400	0	30	60	20	OldForest	75	30	5	100	20	0	ft	"Mature Forest"
+WD	wepp-22150	"02:25 pm  Monday November 18, 2013"	"Mica Creek Watershed +"	10	silt	Bunchgrass	400	0	30	60	20	OldForest	30	30	5	100	20	0	ft	"Mature Forest"
+WD	wepp-22197	"02:26 pm  Monday November 18, 2013"	"Mica Creek Watershed +"	10	silt	HighFire	400	0	30	45	20	LowFire	30	30	5	85	20	0	ft	"Mature Forest"
+WD	wepp-22218	"02:27 pm  Monday November 18, 2013"	"Mica Creek Watershed +"	10	silt	HighFire	400	0	30	45	20	LowFire	1000	30	5	85	20	0	ft	"Mature Forest"
+WD	wepp-22237	"02:27 pm  Monday November 18, 2013"	"Mica Creek Watershed +"	10	silt	HighFire	400	0	30	45	20	LowFire	30	30	5	85	20	0	ft	"Mature Forest"
+WD	wepp-22257	"02:28 pm  Monday November 18, 2013"	"Mica Creek Watershed + + +"	10	silt	HighFire	400	0	30	45	20	LowFire	30	30	5	85	20	0	ft	"Mature Forest"
+WR	wepp-22369	"02:32 pm  Monday November 18, 2013"	"Mica Creek Watershed +"	30	silt	native	200	4	13	15	50	1	25	20	inveg	ft
+WR	wepp-22389	"02:32 pm  Monday November 18, 2013"	"Mica Creek Watershed +"	30	silt	graveled	200	4	13	15	50	1	25	20	outunrut	ft
+WD	wepp-22411	"02:33 pm  Monday November 18, 2013"	"SAINT MARIES ID + +"	10	silt	HighFire	400	0	30	45	20	OldForest	30	30	5	100	20	0	ft	""
+WD	wepp-22431	"02:33 pm  Monday November 18, 2013"	"SAINT MARIES ID + +"	10	silt	HighFire	400	0	30	45	20	Sod	30	30	5	40	20	0	ft	""
+WD	wepp-22450	"02:34 pm  Monday November 18, 2013"	"SAINT MARIES ID + +"	10	silt	OldForest	400	0	30	100	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-22470	"02:34 pm  Monday November 18, 2013"	"SAINT MARIES ID + +"	10	silt	Bunchgrass	400	0	30	60	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-22490	"02:34 pm  Monday November 18, 2013"	"SAINT MARIES ID + +"	10	silt	Bunchgrass	400	0	30	60	20	OldForest	30	30	5	100	20	0	ft	""
+WD	wepp-22510	"02:35 pm  Monday November 18, 2013"	"SAINT MARIES ID + +"	10	silt	HighFire	400	0	30	45	20	LowFire	30	30	5	85	20	0	ft	""
+WD	wepp-22561	"02:38 pm  Monday November 18, 2013"	"SAINT MARIES ID + +"	10	silt	HighFire	400	0	30	45	20	OldForest	30	30	5	70	20	0	ft	""
+WD	wepp-22584	"02:38 pm  Monday November 18, 2013"	"SAINT MARIES ID + +"	10	silt	HighFire	400	0	30	45	20	OldForest	30	30	5	100	20	0	ft	""
+WD	wepp-22604	"02:38 pm  Monday November 18, 2013"	"SAINT MARIES ID + +"	10	silt	HighFire	400	0	30	45	20	HighFire	30	30	5	45	20	0	ft	""

@@ -1,0 +1,70 @@
+WD	wepp-208713	"00:05 am  Wednesday November 16, 2016"	"Wonju KOREA test 2"	30	silt	OldForest	150	20	20	95	20	OldForest	20	20	20	95	20	0	m	""
+WD	wepp-208780	"00:06 am  Wednesday November 16, 2016"	"Wonju KOREA test 2"	30	silt	Bunchgrass	150	20	20	95	20	Bunchgrass	20	20	20	95	20	0	m	""
+WD	wepp-208891	"00:09 am  Wednesday November 16, 2016"	"Wonju KOREA test 2"	30	silt	Shrub	150	20	20	85	20	Shrub	20	20	20	85	20	0	m	""
+WD	wepp-208926	"00:11 am  Wednesday November 16, 2016"	"Wonju KOREA test 2"	30	silt	Sod	150	20	20	40	20	Sod	20	20	20	40	20	0	m	""
+WD	wepp-208982	"00:13 am  Wednesday November 16, 2016"	"Wonju KOREA test 2"	30	silt	Sod	150	20	20	20	20	Sod	20	20	20	20	20	0	m	""
+WD	wepp-209098	"00:18 am  Wednesday November 16, 2016"	"Wonju KOREA test 2"	30	clay	OldForest	150	20	20	95	20	OldForest	20	20	20	95	20	0	m	""
+WD	wepp-209159	"00:20 am  Wednesday November 16, 2016"	"Wonju KOREA test 2"	30	sand	OldForest	150	20	20	95	20	OldForest	20	20	20	95	20	0	m	""
+WR	wepp-209275	"00:22 am  Wednesday November 16, 2016"	"Wonju KOREA test 2"	30	clay	native	120	5	5	5	30	0.3	20	20	outrut	m
+WR	wepp-209311	"00:23 am  Wednesday November 16, 2016"	"Wonju KOREA test 2"	30	silt	native	120	5	5	5	30	0.3	20	20	outrut	m
+WR	wepp-209347	"00:23 am  Wednesday November 16, 2016"	"Wonju KOREA test 2"	30	silt	native	120	5	5	5	30	0.3	20	15	outrut	m
+WR	wepp-209480	"00:26 am  Wednesday November 16, 2016"	"Wonju KOREA test 2"	30	silt	native	120	5	5	5	30	0.3	20	15	outrut	m
+WR	wepp-209558	"00:27 am  Wednesday November 16, 2016"	"Wonju KOREA test 2"	30	silt	native	120	5	5	5	30	20	20	15	outrut	m
+WR	wepp-209597	"00:28 am  Wednesday November 16, 2016"	"Wonju KOREA test 2"	30	silt	native	120	5	5	5	30	0.3	20	15	outrut	m
+WR	wepp-209677	"00:28 am  Wednesday November 16, 2016"	"Wonju KOREA test 2"	30	silt	native	120	5	5	5	30	20	20	15	outrut	m
+WR	wepp-209757	"00:29 am  Wednesday November 16, 2016"	"Wonju KOREA test 2"	30	silt	native	120	5	5	5	30	0.3	20	15	outrut	m
+WR	wepp-209793	"00:30 am  Wednesday November 16, 2016"	"Wonju KOREA test 2"	30	silt	native	120	5	5	5	30	20	20	15	outrut	m
+WR	wepp-209834	"00:31 am  Wednesday November 16, 2016"	"Wonju KOREA test 2"	30	silt	native	120	5	5	5	30	0.3	20	30	outrut	m
+WR	wepp-209869	"00:32 am  Wednesday November 16, 2016"	"Wonju KOREA test 2"	30	silt	native	120	5	5	5	50	0.3	20	15	outrut	m
+WR	wepp-209963	"00:33 am  Wednesday November 16, 2016"	"Wonju KOREA test 2"	30	silt	native	120	5	5	5	50	0.3	20	15	outrut	m
+WR	wepp-210114	"00:34 am  Wednesday November 16, 2016"	"Wonju KOREA test 2"	30	silt	native	120	5	5	5	30	0.3	20	15	outrut	m
+WR	wepp-210149	"00:34 am  Wednesday November 16, 2016"	"Wonju KOREA test 2"	30	silt	native	120	5	5	5	50	0.3	20	15	outrut	m
+WR	wepp-210228	"00:35 am  Wednesday November 16, 2016"	"Wonju KOREA test 2"	30	silt	native	120	5	5	5	30	0.3	20	15	outrut	m
+WR	wepp-210270	"00:36 am  Wednesday November 16, 2016"	"Wonju KOREA test 2"	30	silt	native	120	5	5	5	30	0.3	20	15	inbare	m
+WR	wepp-210415	"00:38 am  Wednesday November 16, 2016"	"Wonju KOREA test 2"	30	silt	native	120	5	5	5	30	0.3	20	30	outrut	m
+WR	wepp-210512	"00:39 am  Wednesday November 16, 2016"	"Wonju KOREA test 2"	30	silt	native	120	5	5	5	30	0.3	20	15	outrut	m
+WR	wepp-210548	"00:39 am  Wednesday November 16, 2016"	"Wonju KOREA test 2"	30	silt	native	120	5	5	5	30	0.3	20	30	outrut	m
+WR	wepp-210622	"00:40 am  Wednesday November 16, 2016"	"Wonju KOREA test 2"	30	silt	native	120	5	5	5	30	0.3	20	40	outrut	m
+WR	wepp-210660	"00:40 am  Wednesday November 16, 2016"	"Wonju KOREA test 2"	30	sand	native	120	5	5	5	30	0.3	20	15	outrut	m
+WR	wepp-210845	"00:46 am  Wednesday November 16, 2016"	"Wonju KOREA test 2"	30	silt	native	120	5	5	5	50	0.3	20	15	outrut	m
+WR	wepp-210880	"00:46 am  Wednesday November 16, 2016"	"Wonju KOREA test 2"	30	silt	native	120	5	5	5	30	0.3	20	15	inbare	m
+WR	wepp-210960	"00:47 am  Wednesday November 16, 2016"	"Wonju KOREA test 2"	30	silt	native	120	5	5	5	30	0.3	20	30	outrut	m
+WR	wepp-211092	"00:48 am  Wednesday November 16, 2016"	"Wonju KOREA test 2"	30	silt	native	120	5	5	5	30	0.3	20	15	outrut	m
+WR	wepp-211364	"00:49 am  Wednesday November 16, 2016"	"Wonju KOREA test 2"	30	silt	native	120	5	5	5	30	0.3	20	15	outrut	m
+WD	wepp-216388	"01:57 am  Wednesday November 16, 2016"	"HALEAKALA EXP FARM HI"	30	silt	OldForest	150	20	20	95	20	OldForest	20	20	20	95	20	0	m	""
+WD	wepp-216710	"02:05 am  Wednesday November 16, 2016"	"HALEAKALA EXP FARM HI"	30	silt	Bunchgrass	150	20	20	95	20	Bunchgrass	20	20	20	95	20	0	ft	""
+WD	wepp-217639	"02:14 am  Wednesday November 16, 2016"	"HALEAKALA EXP FARM HI"	30	silt	Bunchgrass	150	20	20	95	20	Bunchgrass	20	20	20	95	20	0	m	""
+WD	wepp-217921	"02:19 am  Wednesday November 16, 2016"	"HALEAKALA EXP FARM HI"	30	silt	Shrub	150	20	20	85	20	Shrub	20	20	20	85	20	0	m	""
+WD	wepp-218109	"02:22 am  Wednesday November 16, 2016"	"HALEAKALA EXP FARM HI"	30	silt	Bunchgrass	150	20	20	95	20	Bunchgrass	20	20	20	95	20	0	m	""
+WD	wepp-218220	"02:23 am  Wednesday November 16, 2016"	"HALEAKALA EXP FARM HI"	30	silt	Sod	150	20	20	40	20	Sod	20	20	20	40	20	0	m	""
+WD	wepp-218767	"02:30 am  Wednesday November 16, 2016"	"HALEAKALA EXP FARM HI"	30	silt	Sod	150	20	20	20	20	Sod	20	20	20	20	20	0	m	""
+WD	wepp-219297	"02:38 am  Wednesday November 16, 2016"	"HALEAKALA EXP FARM HI"	30	clay	OldForest	150	20	20	95	20	OldForest	20	20	20	95	20	0	m	""
+WD	wepp-219347	"02:40 am  Wednesday November 16, 2016"	"HALEAKALA EXP FARM HI"	30	sand	OldForest	150	20	20	95	20	OldForest	20	20	20	95	20	0	m	""
+WR	wepp-219717	"02:46 am  Wednesday November 16, 2016"	"HALEAKALA EXP FARM HI"	30	silt	native	120	5	5	5	30	0.3	20	15	outrut	m
+WR	wepp-219961	"02:49 am  Wednesday November 16, 2016"	"HALEAKALA EXP FARM HI"	30	silt	native	120	5	5	5	30	0.3	20	15	outrut	m
+WR	wepp-220072	"02:52 am  Wednesday November 16, 2016"	"HALEAKALA EXP FARM HI"	30	silt	native	120	5	5	5	30	0.3	20	15	outrut	m
+WR	wepp-220145	"02:53 am  Wednesday November 16, 2016"	"HALEAKALA EXP FARM HI"	30	silt	native	120	5	5	5	30	0.3	20	15	outrut	m
+WR	wepp-220409	"02:58 am  Wednesday November 16, 2016"	"HALEAKALA EXP FARM HI"	30	silt	native	120	5	5	5	30	20	20	15	outrut	m
+WR	wepp-220554	"03:00 am  Wednesday November 16, 2016"	"HALEAKALA EXP FARM HI"	30	silt	native	120	5	5	5	30	0.3	20	15	outrut	m
+WR	wepp-16474	"00:39 am  Thursday November 17, 2016"	"RIO PIEDRAS EXP FARM PR"	30	silt	native	120	5	5	5	30	0.3	20	15	outrut	m
+WR	wepp-16564	"00:41 am  Thursday November 17, 2016"	"RIO PIEDRAS EXP FARM PR"	30	silt	native	120	5	5	5	30	0.3	20	15	outrut	m
+WR	wepp-16653	"00:41 am  Thursday November 17, 2016"	"RIO PIEDRAS EXP FARM PR"	30	silt	native	120	5	5	5	30	0.3	20	15	outrut	m
+WR	wepp-16739	"00:43 am  Thursday November 17, 2016"	"Wonju KOREA test 2"	30	silt	native	120	5	5	5	30	20	20	15	outrut	m
+WR	wepp-19110	"01:15 am  Thursday November 17, 2016"	"Wonju KOREA test 2"	30	silt	native	120	5	4	5	30	0.3	20	15	outrut	m
+WR	wepp-19182	"01:15 am  Thursday November 17, 2016"	"Wonju KOREA test 2"	30	silt	native	120	5	5	5	30	0.3	20	15	outrut	m
+WR	wepp-19255	"01:15 am  Thursday November 17, 2016"	"Wonju KOREA test 2"	30	silt	native	120	5	5	5	30	20	20	15	outrut	m
+WD	wepp-20592	"01:32 am  Thursday November 17, 2016"	"RIO PIEDRAS EXP FARM PR"	30	clay	OldForest	150	20	20	95	20	OldForest	20	20	20	95	20	0	m	""
+WR	wepp-24619	"02:55 am  Thursday November 17, 2016"	"RIO PIEDRAS EXP FARM PR"	30	silt	native	120	5	5	5	30	0.3	20	15	outrut	m
+WR	wepp-24746	"02:56 am  Thursday November 17, 2016"	"RIO PIEDRAS EXP FARM PR"	30	silt	native	120	5	5	5	30	0.3	50	15	outrut	m
+WR	wepp-24786	"02:57 am  Thursday November 17, 2016"	"RIO PIEDRAS EXP FARM PR"	30	silt	native	120	5	5	5	50	0.3	20	15	outrut	m
+WR	wepp-24823	"02:58 am  Thursday November 17, 2016"	"RIO PIEDRAS EXP FARM PR"	30	silt	native	120	5	5	5	60	0.3	20	15	outrut	m
+WR	wepp-24858	"03:00 am  Thursday November 17, 2016"	"RIO PIEDRAS EXP FARM PR"	30	silt	native	120	5	5	5	60	0.3	20	15	outrut	m
+WR	wepp-25006	"03:06 am  Thursday November 17, 2016"	"RIO PIEDRAS EXP FARM PR"	30	silt	native	120	5	5	5	30	0.3	20	15	inbare	m
+WR	wepp-25166	"03:11 am  Thursday November 17, 2016"	"RIO PIEDRAS EXP FARM PR"	30	sand	native	120	5	5	5	30	0.3	20	15	outrut	m
+WR	wepp-29637	"05:46 am  Thursday November 17, 2016"	"HALEAKALA EXP FARM HI"	30	silt	native	120	5	5	5	30	0.3	20	20	outrut	m
+WR	wepp-29681	"05:47 am  Thursday November 17, 2016"	"HALEAKALA EXP FARM HI"	30	silt	native	120	5	5	5	30	0.3	20	15	outrut	m
+WR	wepp-29717	"05:47 am  Thursday November 17, 2016"	"HALEAKALA EXP FARM HI"	30	silt	native	120	5	5	5	30	0.3	20	15	outrut	m
+WR	wepp-29754	"05:48 am  Thursday November 17, 2016"	"HALEAKALA EXP FARM HI"	30	silt	native	120	5	5	5	30	20	20	15	outrut	m
+WR	wepp-29860	"05:49 am  Thursday November 17, 2016"	"HALEAKALA EXP FARM HI"	30	clay	native	120	5	5	5	30	20	20	15	outrut	m
+WR	wepp-29933	"05:50 am  Thursday November 17, 2016"	"HALEAKALA EXP FARM HI"	30	clay	native	120	5	5	5	30	0.3	20	15	outrut	m
+WR	wepp-30186	"06:01 am  Thursday November 17, 2016"	"HALEAKALA EXP FARM HI"	30	silt	native	120	5	5	5	50	0.3	20	15	outrut	m

@@ -1,0 +1,64 @@
+WR	wepp-6337	"02:31 am  Tuesday June 3, 2014"	"SAN LUIS OBISPO POL CA +"	30	clay	native	100	14	11.3	52.9	30	1	30	20	outrut	ft
+WR	wepp-6428	"02:40 am  Tuesday June 3, 2014"	"SAN LUIS OBISPO POL CA"	30	clay	native	100	14	11.3	52.9	30	1	30	20	outrut	ft
+WR	wepp-6508	"02:42 am  Tuesday June 3, 2014"	"SAN LUIS OBISPO POL CA"	30	clay	native	100	14	11.3	1	30	52.9	30	20	outrut	ft
+WR	wepp-6549	"02:44 am  Tuesday June 3, 2014"	"SAN LUIS OBISPO POL CA"	30	clay	native	100	14	11.3	52.9	30	1	30	20	outrut	ft
+WR	wepp-6598	"02:46 am  Tuesday June 3, 2014"	"SAN LUIS OBISPO POL CA"	30	clay	native	100	14	11.3	52.9	30	1	30	20	outunrut	ft
+WR	wepp-6636	"02:49 am  Tuesday June 3, 2014"	"SAN LUIS OBISPO POL CA"	30	clay	native	50	10	11	41.1	18	1	18	20	outunrut	ft
+WR	wepp-6673	"02:49 am  Tuesday June 3, 2014"	"SAN LUIS OBISPO POL CA"	30	clay	native	50	10	11	41.1	18	1	18	20	outrut	ft
+WR	wepp-6722	"02:51 am  Tuesday June 3, 2014"	"SAN LUIS OBISPO POL CA"	30	clay	native	84	21	12.25	63	28	1	28	20	outrut	ft
+WR	wepp-6759	"02:52 am  Tuesday June 3, 2014"	"SAN LUIS OBISPO POL CA"	30	clay	native	84	21	12.25	63	28	1	28	20	outunrut	ft
+WR	wepp-6798	"02:54 am  Tuesday June 3, 2014"	"SAN LUIS OBISPO POL CA"	30	clay	native	100	17	14.5	11.7	24	1	24	20	outunrut	ft
+WR	wepp-6848	"02:55 am  Tuesday June 3, 2014"	"SAN LUIS OBISPO POL CA"	30	clay	native	100	17	14.5	11.7	24	1	24	20	outrut	ft
+WD	wepp-8101	"05:16 am  Tuesday June 3, 2014"	"SAN LUIS OBISPO POL CA"	10	clay	Bunchgrass	825	0	30	60	20	Bunchgrass	825	30	5	60	20	0	ft	""
+WD	wepp-8290	"05:53 am  Tuesday June 3, 2014"	"SAN LUIS OBISPO POL CA"	10	clay	Bunchgrass	50	89	89	60	20	Bunchgrass	50	83	83	60	20	0	ft	""
+WD	wepp-8344	"05:56 am  Tuesday June 3, 2014"	"SAN LUIS OBISPO POL CA"	10	clay	HighFire	50	89	89	45	20	HighFire	50	83	83	45	20	0	ft	""
+WD	wepp-8381	"05:58 am  Tuesday June 3, 2014"	"SAN LUIS OBISPO POL CA"	10	clay	HighFire	225	89	89	45	20	HighFire	225	83	83	45	20	0	ft	""
+WD	wepp-8419	"05:58 am  Tuesday June 3, 2014"	"SAN LUIS OBISPO POL CA"	10	clay	Bunchgrass	225	89	89	60	20	Bunchgrass	225	83	83	60	20	0	ft	""
+WD	wepp-8507	"06:00 am  Tuesday June 3, 2014"	"SAN LUIS OBISPO POL CA"	10	clay	Bunchgrass	375	55	55	60	20	Bunchgrass	375	50	50	60	20	0	ft	""
+WD	wepp-8545	"06:00 am  Tuesday June 3, 2014"	"SAN LUIS OBISPO POL CA"	10	clay	HighFire	375	55	55	45	20	HighFire	375	50	50	45	20	0	ft	""
+WD	wepp-8583	"06:02 am  Tuesday June 3, 2014"	"SAN LUIS OBISPO POL CA"	10	clay	HighFire	640	52	52	45	20	HighFire	640	41	41	45	20	0	ft	""
+WD	wepp-8641	"06:06 am  Tuesday June 3, 2014"	"SAN LUIS OBISPO POL CA"	10	clay	Bunchgrass	640	52	52	60	20	Bunchgrass	640	41	41	60	20	0	ft	""
+WD	wepp-8679	"06:07 am  Tuesday June 3, 2014"	"../working/68_189_0_19_a"	10	clay		375	48	48	60	20		375	57	57	60	20	0	ft	""
+WD	wepp-8680	"06:08 am  Tuesday June 3, 2014"	"../working/68_189_0_19_a"	10	clay		375	48	48	60	20	OldForest	375	57	57	60	20	0	ft	""
+WD	wepp-8682	"06:08 am  Tuesday June 3, 2014"	"../working/68_189_0_19_a"	10	clay		375	57	57	60	20		375	48	48	60	20	0	ft	""
+WD	wepp-8683	"06:08 am  Tuesday June 3, 2014"	"SAN LUIS OBISPO POL CA"	10	clay	Bunchgrass	375	57	57	60	20	Bunchgrass	375	48	48	60	20	0	ft	""
+WD	wepp-8730	"06:09 am  Tuesday June 3, 2014"	"SAN LUIS OBISPO POL CA"	10	clay	Bunchgrass	375	48	48	60	20	Bunchgrass	375	57	57	60	20	0	ft	""
+WD	wepp-8767	"06:09 am  Tuesday June 3, 2014"	"SAN LUIS OBISPO POL CA"	10	clay	HighFire	375	48	48	45	20	HighFire	375	57	57	45	20	0	ft	""
+WD	wepp-8818	"06:11 am  Tuesday June 3, 2014"	"SAN LUIS OBISPO POL CA"	10	clay	HighFire	790	43	43	45	20	HighFire	790	50	50	45	20	0	ft	""
+WD	wepp-8855	"06:12 am  Tuesday June 3, 2014"	"SAN LUIS OBISPO POL CA"	10	clay	Bunchgrass	790	43	43	60	20	Bunchgrass	790	50	50	60	20	0	ft	""
+WD	wepp-34255	"04:20 am  Wednesday June 4, 2014"	"SAN LUIS OBISPO POL CA"	10	clay	OldForest	50	0	30	100	20	OldForest	50	30	5	100	20	0	ft	""
+WD	wepp-34293	"04:21 am  Wednesday June 4, 2014"	"SAN LUIS OBISPO POL CA"	10	clay	Bunchgrass	50	0	30	60	20	Bunchgrass	50	30	5	60	20	0	ft	""
+WD	wepp-34330	"04:22 am  Wednesday June 4, 2014"	"../working/68_189_0_19_a"	10	clay		50	0	89	60	20	Bunchgrass	50	83	0	60	20	0	ft	""
+WD	wepp-34332	"04:22 am  Wednesday June 4, 2014"	"SAN LUIS OBISPO POL CA"	10	clay	OldForest	50	89	89	60	20	Bunchgrass	50	83	0	60	20	0	ft	""
+WD	wepp-34368	"04:23 am  Wednesday June 4, 2014"	"SAN LUIS OBISPO POL CA"	10	clay	OldForest	50	89	89	60	20	Bunchgrass	50	83	83	60	20	0	ft	""
+WD	wepp-34404	"04:23 am  Wednesday June 4, 2014"	"SAN LUIS OBISPO POL CA"	10	clay	OldForest	225	89	89	60	20	Bunchgrass	225	83	83	60	20	0	ft	""
+WR	wepp-34795	"05:01 am  Wednesday June 4, 2014"	"SAN LUIS OBISPO POL CA"	30	clay	native	1000	16	12	42	25	1	0.3	20	inbare	ft
+WR	wepp-34835	"05:02 am  Wednesday June 4, 2014"	"SAN LUIS OBISPO POL CA"	30	clay	native	1000	16	12	1	0.3	42	25	20	inbare	ft
+WR	wepp-34871	"05:03 am  Wednesday June 4, 2014"	"SAN LUIS OBISPO POL CA"	30	clay	native	1000	16	12	1	0.3	42	25	20	inbare	ft
+WR	wepp-34907	"05:03 am  Wednesday June 4, 2014"	"SAN LUIS OBISPO POL CA"	30	clay	native	1000	16	12	42	25	1	0.3	20	inbare	ft
+WR	wepp-34946	"05:04 am  Wednesday June 4, 2014"	"SAN LUIS OBISPO POL CA"	30	clay	native	1000	16	12	42	25	1	0.3	20	outunrut	ft
+WR	wepp-34995	"05:05 am  Wednesday June 4, 2014"	"SAN LUIS OBISPO POL CA"	30	clay	native	1000	16	12	42	25	1	0.3	20	outrut	ft
+WR	wepp-35032	"05:07 am  Wednesday June 4, 2014"	"SAN LUIS OBISPO POL CA"	30	clay	native	1000	16	12	42	25	1	0.3	20	outrut	ft
+WR	wepp-35096	"05:12 am  Wednesday June 4, 2014"	"SAN LUIS OBISPO POL CA"	30	clay	native	1000	17	14.5	11.7	24	1	0.3	20	outunrut	ft
+WR	wepp-35133	"05:13 am  Wednesday June 4, 2014"	"SAN LUIS OBISPO POL CA +"	30	clay	native	1000	17	14.5	11.7	24	1	0.3	20	outunrut	ft
+WR	wepp-35169	"05:13 am  Wednesday June 4, 2014"	"SAN LUIS OBISPO POL CA"	30	sand	native	1000	17	14.5	11.7	24	1	0.3	20	outunrut	ft
+WR	wepp-35206	"05:13 am  Wednesday June 4, 2014"	"SAN LUIS OBISPO POL CA"	30	clay	native	1000	17	14.5	11.7	24	1	0.3	20	outunrut	ft
+WR	wepp-35243	"05:14 am  Wednesday June 4, 2014"	"SAN LUIS OBISPO POL CA"	30	clay	native	100	17	14.5	11.7	24	1	0.3	20	outunrut	ft
+WR	wepp-35279	"05:14 am  Wednesday June 4, 2014"	"SAN LUIS OBISPO POL CA"	30	clay	native	100	17	14.5	11.7	24	1	0.3	20	outunrut	ft
+WR	wepp-35317	"05:14 am  Wednesday June 4, 2014"	"SAN LUIS OBISPO POL CA"	30	sand	native	100	17	14.5	11.7	24	1	0.3	20	outunrut	ft
+WR	wepp-35365	"05:15 am  Wednesday June 4, 2014"	"SAN LUIS OBISPO POL CA"	30	clay	native	100	17	14.5	11.7	24	1	24	20	outunrut	ft
+WR	wepp-35405	"05:17 am  Wednesday June 4, 2014"	"SAN LUIS OBISPO POL CA"	30	clay	native	1000	16	12	42	25	1	25	20	outunrut	ft
+WR	wepp-35443	"05:18 am  Wednesday June 4, 2014"	"SAN LUIS OBISPO POL CA"	30	clay	native	1000	16	12	41	25	1	25	20	outunrut	ft
+WR	wepp-35480	"05:18 am  Wednesday June 4, 2014"	"SAN LUIS OBISPO POL CA"	30	clay	native	1000	16	12	21	25	21	25	20	outunrut	ft
+WR	wepp-35532	"05:21 am  Wednesday June 4, 2014"	"SAN LUIS OBISPO POL CA"	30	clay	native	100	17	14.5	11.7	24	1	0.3	20	outunrut	ft
+WR	wepp-35569	"05:22 am  Wednesday June 4, 2014"	"SAN LUIS OBISPO POL CA"	30	clay	native	100	17	14.5	11.7	24	1	0.3	20	outrut	ft
+WR	wepp-35606	"05:23 am  Wednesday June 4, 2014"	"SAN LUIS OBISPO POL CA"	30	clay	native	100	21	12.25	63	28	1	0.3	20	outunrut	ft
+WR	wepp-35645	"05:23 am  Wednesday June 4, 2014"	"SAN LUIS OBISPO POL CA"	30	clay	native	84	21	12.25	63	28	1	0.3	20	outunrut	ft
+WR	wepp-35682	"05:24 am  Wednesday June 4, 2014"	"SAN LUIS OBISPO POL CA"	30	clay	native	84	21	12.25	63	28	1	0.3	20	outrut	ft
+WR	wepp-35732	"05:26 am  Wednesday June 4, 2014"	"SAN LUIS OBISPO POL CA"	30	clay	native	50	10	11	41	18	1	0.3	20	outunrut	ft
+WR	wepp-35768	"05:26 am  Wednesday June 4, 2014"	"SAN LUIS OBISPO POL CA"	30	clay	native	50	10	11	41	18	1	0.3	20	outrut	ft
+WR	wepp-35807	"05:27 am  Wednesday June 4, 2014"	"SAN LUIS OBISPO POL CA"	30	clay	native	100	14	11.3	52.9	30	1	0.3	20	outunrut	ft
+WR	wepp-35848	"05:28 am  Wednesday June 4, 2014"	"SAN LUIS OBISPO POL CA"	30	clay	native	100	14	11.3	52.9	30	1	0.3	20	outrut	ft
+WR	wepp-35898	"05:30 am  Wednesday June 4, 2014"	"SAN LUIS OBISPO POL CA"	30	clay	native	1000	15.5	12.26	42.18	25	1	0.3	20	outunrut	ft
+WR	wepp-35934	"05:30 am  Wednesday June 4, 2014"	"SAN LUIS OBISPO POL CA"	30	clay	native	1000	15.5	12.26	42.18	25	1	0.3	20	outrut	ft
+WR	wepp-35995	"05:38 am  Wednesday June 4, 2014"	"SAN LUIS OBISPO POL CA"	30	clay	native	1000	15.5	12.26	21	25	21	25	20	outrut	ft

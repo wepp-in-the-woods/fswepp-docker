@@ -1,0 +1,72 @@
+#this files was modified by filegenwhrm.pl on: Wednesday, March 16, 2005.
+#taxgroup Amphibians species Cope's giant salamander /  Dicamptodon copei
+#
+# Rank
+1,1,-99,-99,1
+# Nestsite
+12,1
+# Reprorank
+1,-99
+# Foraging Habitat
+-99
+# Habitatrank
+-99
+# Forage/Prey Availability
+-99
+# Preyrank
+-99
+# Predator Avoidance
+-99
+# Avoidrank
+-99
+# Refugia/Shelter
+12,1
+# Shelterrank
+1,-99
+# Coverrank
+1,-99
+# Literature
+Distribution
+coastal Washington, south into northwestern Oregon
+General Habitat
+larvae and neotone inhabit small, cold, rocky streams and seeps; adults found in surface debris on the margins of water
+Home or Activity Range
+no information available
+Canopy Cover
+no information available
+Specific Habitat Preferences
+cold rocky streams, seepages, mountain lakes and ponds, usually in moist coniferous forest
+Nestsite Characteristics
+lays eggs in underwater chambers formed between large rocks or under large, woody debris
+Foraging Habitat Characteristics
+no information available
+Diet
+insects, fish, eggs, and larvae of their own and tailed frogs
+Predators
+no information available
+Shelter Habitats
+concealed during the day beneath rocks or other hidden cavities in the stream
+Response to Disturbance
+a loss of canopy cover from forest insects, tree disease, or fire would likely have a detrimental effect as stream temperatures would rise and sedimentation would increase (reviewed in Bull and Wales 2001); no difference in larval abundance was found based on stand age (Steele and MacCracken 2002)
+Sources of Information used in the Model
+Wilkins and Peterson 2000
+General Sources of Background Information
+Leonard et al. 1993, Wilkins and Peterson 2000, reviewed in O'Neill et al. 2001, Steele and MacCracken 2002, Stebbins 2003
+Summaries of Specific Studies
+Bull, Evelyn; Wales, Barbara C. 2001. Effects of disturbance on amphibians of conservation concern in eastern Oregon and Washington. Northwest Science. 75:174-179.
+
+Study Location: eastern Oregon and Washington
+Habitat Description: primarily PIPO
+Summary: The authors review the habitat needs of amphibian species of concern in eastern Oregon and Washington, focusing on how disturbances (natural and anthropogenic) would alter habitat for these species. Species of concern include the Oregon spotted frog, Columbia spotted frog, northern leopard frog, Cascades frog, Tailed frog, Larch Mountain salamander, and Cope's giant salamander.
+
+Steele, Craig A.; MacCracken, James G. 2002. Influence of forest age on densities of Cope's and Pacific giant salamanders. Northwest Science. 76(4): 347-352.
+
+Study Location: southern Washington
+Habitat Description: regenerating second-growth PSME
+Summary: This study was unable to detect differences in Copes and Pacific giant salamander larval abundance based on forest age or any other habitat variable.
+
+Wilkins, R. Neal; Peterson, N. Phil. 2000. Factors related to amphibian occurrence and abundance in headwater streams draining second-growth Douglas-fir forests in southwestern Washington. Forest Ecology and Management. 139(2000): 79-91.
+
+Study Location: southwestern Washington
+Habitat Description: PSME-TSHE
+Summary: Habitat characteristics were related to the occurrence and abundance of Cope's and Pacific giant salamanders, tailed frogs, Columbia torrent salamanders, western red-backed salamanders, Dunn's salamanders, and Van Dyke's salamanders. Giant salamanders increased in abundance in streams with increasing pool frequency and with large woody debris accumulation in adjacent riparian areas, and decreased with large woody debris in channels. Torrent salamanders responded to increased channel gradient and decreased basin area. Overall, habitat quality for many of these species was tied to landform characteristics, including basin lithology.

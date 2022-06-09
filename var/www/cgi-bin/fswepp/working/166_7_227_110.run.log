@@ -1,0 +1,277 @@
+WR	wepp-7184	"10:29 am  Friday December 4, 2009"	"BIGFORK 12 S MT"	30	clay	graveled	500	3	28	15	50	25	10	35	inveg
+WR	wepp-7208	"10:30 am  Friday December 4, 2009"	"BIGFORK 12 S MT"	30	silt	graveled	500	3	28	15	50	25	10	35	inveg
+WR	wepp-7213	"10:30 am  Friday December 4, 2009"	"BIGFORK 12 S MT"	30	silt	graveled	500	3	28	15	50	50	10	35	inveg
+WR	wepp-7218	"10:30 am  Friday December 4, 2009"	"BIGFORK 12 S MT"	30	silt	graveled	500	3	28	15	50	100	10	35	inveg
+WR	wepp-7225	"10:31 am  Friday December 4, 2009"	"BIGFORK 12 S MT"	30	silt	graveled	500	3	28	15	50	75	10	35	inveg
+WR	wepp-7256	"10:31 am  Friday December 4, 2009"	"BIGFORK 12 S MT"	30	silt	graveled	50	3	28	15	50	75	10	35	inveg
+WR	wepp-7261	"10:34 am  Friday December 4, 2009"	"BIGFORK 12 S MT"	30	silt	graveled	50	4	16	15	50	75	10	35	inveg
+WR	wepp-7266	"10:34 am  Friday December 4, 2009"	"BIGFORK 12 S MT"	30	silt	graveled	500	4	16	15	50	75	10	35	inveg
+WD	wepp-29793	"02:32 pm  Friday January 22, 2010"	"BIGFORK 12 S MT"	30	silt	tree20	15.2439024390244	0	30	100	20	tree5	15.2439024390244	30	5	100	20	0	ft	""
+WD	wepp-29868	"02:32 pm  Friday January 22, 2010"	"BIGFORK 12 S MT"	40	silt	tree20	15.2439024390244	0	30	100	20	tree5	15.2439024390244	30	5	100	20	0	ft	""
+WD	wepp-29884	"02:35 pm  Friday January 22, 2010"	"BIGFORK 12 S MT"	40	silt	low	106.707317073171	40	40	15	15	low	45.7317073170732	30	30	15	15	0	ft	""
+WD	wepp-29922	"02:37 pm  Friday January 22, 2010"	"BIGFORK 12 S MT"	40	loam	low	106.707317073171	40	40	15	15	low	45.7317073170732	30	30	15	15	0	ft	""
+WD	wepp-29928	"02:38 pm  Friday January 22, 2010"	"BIGFORK 12 S MT"	40	loam	low	106.707317073171	40	40	15	15	low	45.7317073170732	30	30	15	15	0	ft	""
+WD	wepp-29946	"02:39 pm  Friday January 22, 2010"	"BIGFORK 12 S MT"	40	loam	low	106.707317073171	40	40	35	15	low	45.7317073170732	30	30	35	15	0	ft	""
+WD	wepp-29956	"02:39 pm  Friday January 22, 2010"	"BIGFORK 12 S MT"	40	loam	low	106.707317073171	40	40	35	15	low	45.7317073170732	30	30	35	15	0	ft	""
+WD	wepp-30026	"02:40 pm  Friday January 22, 2010"	"BIGFORK 12 S MT"	40	silt	low	106.707317073171	40	40	35	15	low	45.7317073170732	30	30	35	15	0	ft	""
+WD	wepp-30031	"02:40 pm  Friday January 22, 2010"	"BIGFORK 12 S MT"	40	silt	low	106.707317073171	40	40	35	15	low	45.7317073170732	30	30	35	15	0	ft	" BURN UNIT H"
+WD	wepp-30157	"02:46 pm  Friday January 22, 2010"	"BIGFORK 12 S MT"	40	silt	low	137.19512195122	30	30	45	15	low	60.9756097560976	25	20	45	15	0	ft	" BURN UNIT H"
+WD	wepp-30162	"02:47 pm  Friday January 22, 2010"	"BIGFORK 12 S MT"	40	silt	low	137.19512195122	30	30	45	15	low	60.9756097560976	25	20	45	15	0	ft	" BURN UNIT H"
+WD	wepp-30194	"02:47 pm  Friday January 22, 2010"	"BIGFORK 12 S MT"	40	silt	low	137.19512195122	30	30	50	15	low	60.9756097560976	25	20	50	15	0	ft	" BURN UNIT H"
+WD	wepp-30200	"02:50 pm  Friday January 22, 2010"	"BIGFORK 12 S MT"	40	silt	low	137.19512195122	30	30	50	15	low	60.9756097560976	25	20	50	15	0	ft	" BURN UNIT H"
+WD	wepp-30232	"02:53 pm  Friday January 22, 2010"	"BIGFORK 12 S MT"	40	silt	low	365.853658536585	40	50	50	20	low	365.853658536585	50	40	50	20	0	ft	" BURN UNIT H"
+WD	wepp-30237	"02:56 pm  Friday January 22, 2010"	"BIGFORK 12 S MT"	40	silt	low	365.853658536585	40	50	50	20	low	365.853658536585	50	40	50	20	0	ft	" BURN UNIT H"
+WD	wepp-30242	"02:56 pm  Friday January 22, 2010"	"BIGFORK 12 S MT"	40	silt	low	365.853658536585	40	50	35	20	low	365.853658536585	50	40	35	20	0	ft	" BURN UNIT H"
+WD	wepp-30302	"02:58 pm  Friday January 22, 2010"	"BIGFORK 12 S MT"	40	silt	low	182.926829268293	45	60	35	20	low	243.90243902439	60	50	35	20	0	ft	" BURN UNIT H"
+WD	wepp-30308	"02:58 pm  Friday January 22, 2010"	"BIGFORK 12 S MT"	40	silt	low	182.926829268293	45	60	35	20	low	243.90243902439	60	50	35	20	0	ft	" BURN UNIT H"
+WD	wepp-30400	"03:06 pm  Friday January 22, 2010"	"BIGFORK 12 S MT"	40	silt	low	121.951219512195	40	50	50	20	low	335.365853658537	50	60	50	20	0	ft	" BURN UNIT H"
+WD	wepp-30405	"03:07 pm  Friday January 22, 2010"	"BIGFORK 12 S MT"	40	silt	low	121.951219512195	40	50	50	20	low	335.365853658537	50	60	50	20	0	ft	" BURN UNIT E"
+WD	wepp-30487	"03:08 pm  Friday January 22, 2010"	"BIGFORK 12 S MT"	40	silt	low	121.951219512195	20	20	20	15	low	30.4878048780488	20	15	20	15	0	ft	" BURN UNIT E"
+WD	wepp-30497	"03:09 pm  Friday January 22, 2010"	"BIGFORK 12 S MT"	40	silt	low	121.951219512195	20	20	20	15	low	30.4878048780488	20	15	20	15	0	ft	" BURN UNIT E"
+WD	wepp-30510	"03:09 pm  Friday January 22, 2010"	"BIGFORK 12 S MT"	40	silt	low	121.951219512195	20	20	18	15	low	30.4878048780488	20	15	18	15	0	ft	" BURN UNIT F"
+WD	wepp-30621	"03:20 pm  Friday January 22, 2010"	"BIGFORK 12 S MT"	40	loam	low	121.951219512195	20	20	18	20	low	30.4878048780488	20	15	18	20	0	ft	" BURN UNIT I"
+WD	wepp-30631	"03:21 pm  Friday January 22, 2010"	"BIGFORK 12 S MT"	40	loam	low	121.951219512195	20	20	25	20	low	30.4878048780488	20	15	25	20	0	ft	" BURN UNIT I"
+WD	wepp-30641	"03:22 pm  Friday January 22, 2010"	"BIGFORK 12 S MT"	40	loam	low	274.390243902439	20	30	25	20	low	365.853658536585	30	50	25	20	0	ft	" BURN UNIT I"
+WD	wepp-30686	"03:24 pm  Friday January 22, 2010"	"BIGFORK 12 S MT"	40	loam	low	121.951219512195	30	60	25	20	low	304.878048780488	60	30	25	20	0	ft	" BURN UNIT I"
+WD	wepp-30694	"03:24 pm  Friday January 22, 2010"	"BIGFORK 12 S MT"	40	silt	low	121.951219512195	30	60	25	20	low	304.878048780488	60	30	25	20	0	ft	" BURN UNIT I"
+WD	wepp-30705	"03:25 pm  Friday January 22, 2010"	"BIGFORK 12 S MT"	40	silt	low	121.951219512195	30	60	25	20	low	304.878048780488	60	30	25	20	0	ft	" BURN UNIT M"
+WD	wepp-30710	"03:26 pm  Friday January 22, 2010"	"BIGFORK 12 S MT"	40	silt	low	121.951219512195	30	60	10	20	low	304.878048780488	60	30	10	20	0	ft	" BURN UNIT M"
+WD	wepp-30744	"03:28 pm  Friday January 22, 2010"	"BIGFORK 12 S MT"	40	silt	low	274.390243902439	20	50	10	20	low	304.878048780488	50	50	10	20	0	ft	" BURN UNIT M"
+WD	wepp-30749	"03:28 pm  Friday January 22, 2010"	"BIGFORK 12 S MT"	40	loam	low	274.390243902439	20	50	10	20	low	304.878048780488	50	50	10	20	0	ft	" BURN UNIT M"
+WD	wepp-30754	"03:29 pm  Friday January 22, 2010"	"BIGFORK 12 S MT"	40	loam	low	274.390243902439	20	50	10	20	low	304.878048780488	50	50	10	20	0	ft	" BURN UNIT J"
+WD	wepp-30759	"03:30 pm  Friday January 22, 2010"	"BIGFORK 12 S MT"	40	loam	low	182.926829268293	30	50	10	20	low	304.878048780488	50	50	10	20	0	ft	" BURN UNIT J"
+WD	wepp-30783	"03:30 pm  Friday January 22, 2010"	"BIGFORK 12 S MT"	40	loam	low	182.926829268293	30	50	10	20	low	304.878048780488	50	50	10	20	0	ft	" BURN UNIT K"
+WD	wepp-30818	"03:32 pm  Friday January 22, 2010"	"BIGFORK 12 S MT"	40	loam	low	91.4634146341463	40	50	10	20	low	365.853658536585	50	30	10	20	0	ft	" BURN UNIT L"
+WD	wepp-30861	"03:33 pm  Friday January 22, 2010"	"BIGFORK 12 S MT"	40	loam	low	365.853658536585	30	50	15	20	low	121.951219512195	50	65	15	20	0	ft	" BURN UNIT N"
+WD	wepp-30866	"03:33 pm  Friday January 22, 2010"	"BIGFORK 12 S MT"	40	loam	low	365.853658536585	30	50	15	20	low	121.951219512195	50	65	15	20	0	ft	" BURN UNIT N"
+WD	wepp-30872	"03:34 pm  Friday January 22, 2010"	"BIGFORK 12 S MT"	40	loam	low	182.926829268293	30	50	15	20	low	213.414634146341	50	60	15	20	0	ft	" BURN UNIT N"
+WD	wepp-30877	"03:35 pm  Friday January 22, 2010"	"BIGFORK 12 S MT"	40	loam	low	182.926829268293	30	50	15	20	low	213.414634146341	50	60	15	20	0	ft	" BURN UNIT O"
+WD	wepp-30882	"03:36 pm  Friday January 22, 2010"	"BIGFORK 12 S MT"	40	loam	low	365.853658536585	20	30	15	20	low	243.90243902439	30	60	15	20	0	ft	" BURN UNIT P"
+WR	wepp-14523	"02:41 pm  Tuesday January 26, 2010"	"BIGFORK 12 S MT"	30	silt	native	375	3	120	17	50	250	20	20	outrut
+WR	wepp-14636	"02:50 pm  Tuesday January 26, 2010"	"BIGFORK 12 S MT"	30	silt	native	375	3	120	7	50	250	20	20	outrut
+WR	wepp-14641	"02:50 pm  Tuesday January 26, 2010"	"BIGFORK 12 S MT"	30	silt	native	375	3	120	7	50	150	20	20	outrut
+WR	wepp-14911	"03:21 pm  Tuesday January 26, 2010"	"BIGFORK 12 S MT"	30	silt	native	375	1	120	7	50	150	20	20	outrut
+WR	wepp-14916	"03:22 pm  Tuesday January 26, 2010"	"BIGFORK 12 S MT"	30	silt	native	375	1	120	3	50	150	20	20	outrut
+WR	wepp-14921	"03:23 pm  Tuesday January 26, 2010"	"BIGFORK 12 S MT"	30	silt	native	375	1	120	3	50	300	20	20	outrut
+WR	wepp-14926	"03:23 pm  Tuesday January 26, 2010"	"BIGFORK 12 S MT"	30	silt	native	375	1	120	3	50	350	20	20	outrut
+WR	wepp-14931	"03:23 pm  Tuesday January 26, 2010"	"BIGFORK 12 S MT"	30	silt	native	375	1	120	3	50	400	20	20	outrut
+WR	wepp-14936	"03:23 pm  Tuesday January 26, 2010"	"BIGFORK 12 S MT"	30	silt	native	375	1	120	3	50	450	20	20	outrut
+WR	wepp-14941	"03:23 pm  Tuesday January 26, 2010"	"BIGFORK 12 S MT"	30	silt	native	375	1	120	3	50	425	20	20	outrut
+WR	wepp-14946	"03:24 pm  Tuesday January 26, 2010"	"BIGFORK 12 S MT"	30	silt	native	375	3	120	7	50	425	20	20	outrut
+WR	wepp-14978	"03:24 pm  Tuesday January 26, 2010"	"BIGFORK 12 S MT"	30	silt	native	375	3	120	7	50	400	20	20	outrut
+WR	wepp-14983	"03:25 pm  Tuesday January 26, 2010"	"BIGFORK 12 S MT"	30	silt	native	375	3	120	7	50	425	20	20	outrut
+WR	wepp-14988	"03:25 pm  Tuesday January 26, 2010"	"BIGFORK 12 S MT"	30	silt	native	375	1	120	3	50	425	5	20	outrut
+WR	wepp-14993	"03:26 pm  Tuesday January 26, 2010"	"BIGFORK 12 S MT"	30	silt	native	375	1	120	3	50	400	5	20	outrut
+WR	wepp-14998	"03:26 pm  Tuesday January 26, 2010"	"BIGFORK 12 S MT"	30	silt	native	375	1	120	3	50	300	5	20	outrut
+WR	wepp-15003	"03:26 pm  Tuesday January 26, 2010"	"BIGFORK 12 S MT"	30	silt	native	375	1	120	3	50	200	5	20	outrut
+WR	wepp-15008	"03:26 pm  Tuesday January 26, 2010"	"BIGFORK 12 S MT"	30	silt	native	375	1	120	3	50	225	5	20	outrut
+WR	wepp-15013	"03:26 pm  Tuesday January 26, 2010"	"BIGFORK 12 S MT"	30	silt	native	375	1	120	3	50	250	5	20	outrut
+WR	wepp-15018	"03:27 pm  Tuesday January 26, 2010"	"BIGFORK 12 S MT"	30	silt	native	375	1	120	3	50	150	5	20	outrut
+WR	wepp-7961	"10:53 am  Wednesday February 3, 2010"	"BIGFORK 12 S MT"	30	silt	native	500	3	28	15	50	75	10	35	inveg
+WR	wepp-7967	"10:54 am  Wednesday February 3, 2010"	"BIGFORK 12 S MT"	2	silt	native	500	3	28	15	50	75	10	35	inveg
+WR	wepp-7972	"10:55 am  Wednesday February 3, 2010"	"BIGFORK 12 S MT"	2	silt	native	500	4	16	15	50	75	10	35	inveg
+WR	wepp-8064	"11:02 am  Wednesday February 3, 2010"	"BIGFORK 12 S MT"	2	sand	native	500	4	16	15	50	75	10	35	inveg
+WR	wepp-8069	"11:03 am  Wednesday February 3, 2010"	"BIGFORK 12 S MT"	2	silt	graveled	500	4	16	15	50	75	10	35	inveg
+WR	wepp-1312	"12:26 pm  Wednesday February 10, 2010"	"BIGFORK 12 S MT"	30	silt	native	500	35	10	1	50	250	20	20	outrut
+WD	wepp-1324	"12:29 pm  Wednesday February 10, 2010"	"BIGFORK 12 S MT"	30	silt	skid	15.2439024390244	35	30	20	20	skid	15.2439024390244	20	15	10	20	0	ft	""
+WD	wepp-1375	"12:30 pm  Wednesday February 10, 2010"	"BIGFORK 12 S MT"	30	silt	skid	152.439024390244	35	30	20	20	skid	152.439024390244	20	15	10	20	0	ft	""
+WD	wepp-1382	"12:30 pm  Wednesday February 10, 2010"	"BIGFORK 12 S MT"	30	silt	skid	152.439024390244	35	30	20	20	skid	152.439024390244	20	15	10	20	0	ft	""
+WD	wepp-1387	"12:31 pm  Wednesday February 10, 2010"	"BIGFORK 12 S MT"	30	silt	skid	152.439024390244	35	30	50	20	skid	152.439024390244	20	15	30	20	0	ft	""
+WD	wepp-1392	"12:31 pm  Wednesday February 10, 2010"	"BIGFORK 12 S MT"	30	silt	skid	152.439024390244	35	30	60	20	skid	152.439024390244	20	15	45	20	0	ft	""
+WD	wepp-1397	"12:32 pm  Wednesday February 10, 2010"	"BIGFORK 12 S MT"	30	silt	skid	152.439024390244	35	30	60	20	skid	152.439024390244	20	15	45	20	0	ft	""
+WD	wepp-1402	"12:33 pm  Wednesday February 10, 2010"	"BIGFORK 12 S MT"	30	silt	skid	152.439024390244	15	10	60	20	skid	152.439024390244	8	5	45	20	0	ft	""
+WR	wepp-1442	"12:37 pm  Wednesday February 10, 2010"	"BIGFORK 12 S MT"	30	silt	native	200	4	13	1	50	190	15	20	outrut
+WR	wepp-1447	"12:38 pm  Wednesday February 10, 2010"	"BIGFORK 12 S MT"	30	silt	native	500	4	13	1	50	190	15	20	outrut
+WR	wepp-1453	"12:38 pm  Wednesday February 10, 2010"	"BIGFORK 12 S MT"	30	silt	native	500	4	10	1	50	190	15	20	outrut
+WR	wepp-1485	"12:42 pm  Wednesday February 10, 2010"	"BIGFORK 12 S MT"	30	silt	native	200	4	10	1	50	190	15	20	outrut
+WR	wepp-1490	"12:43 pm  Wednesday February 10, 2010"	"BIGFORK 12 S MT"	30	silt	native	250	4	10	1	50	200	15	20	outrut
+WR	wepp-1496	"12:43 pm  Wednesday February 10, 2010"	"BIGFORK 12 S MT"	30	silt	native	240	4	10	1	50	200	15	20	outrut
+WR	wepp-1501	"12:43 pm  Wednesday February 10, 2010"	"BIGFORK 12 S MT"	30	silt	native	225	4	10	1	50	200	15	20	outrut
+WR	wepp-1506	"12:44 pm  Wednesday February 10, 2010"	"BIGFORK 12 S MT"	30	silt	native	225	5	10	1	50	200	15	20	outrut
+WR	wepp-1511	"12:44 pm  Wednesday February 10, 2010"	"BIGFORK 12 S MT"	30	silt	native	225	15	10	1	50	200	15	20	outrut
+WR	wepp-1535	"12:45 pm  Wednesday February 10, 2010"	"BIGFORK 12 S MT"	30	silt	native	200	15	10	1	50	200	15	20	outrut
+WR	wepp-15505	"12:39 pm  Tuesday March 16, 2010"	"BIGFORK 12 S MT"	30	silt	native	300	1	35	35	50	150	35	30	inbare	ft
+WR	wepp-15510	"12:40 pm  Tuesday March 16, 2010"	"BIGFORK 12 S MT"	30	silt	native	300	1	100	18	35	150	35	50	inbare	ft
+WR	wepp-19276	"11:18 am  Monday July 26, 2010"	"BIGFORK 12 S MT"	30	silt	native	545	3	120	17	50	150	20	20	outrut	ft
+WR	wepp-19282	"11:19 am  Monday July 26, 2010"	"BIGFORK 12 S MT"	30	silt	native	545	3	120	7	50	150	20	20	outrut	ft
+WR	wepp-19299	"11:22 am  Monday July 26, 2010"	"BIGFORK 12 S MT"	30	silt	native	545	3	120	7	50	500	20	20	outrut	ft
+WR	wepp-19458	"11:30 am  Monday July 26, 2010"	"BIGFORK 12 S MT"	30	silt	native	375	3	175	7	50	150	20	20	outrut	ft
+WR	wepp-19482	"11:30 am  Monday July 26, 2010"	"BIGFORK 12 S MT"	30	silt	native	375	3	175	7	50	425	20	20	outrut	ft
+WR	wepp-19507	"11:30 am  Monday July 26, 2010"	"BIGFORK 12 S MT"	30	silt	native	375	3	175	7	50	400	20	20	outrut	ft
+WR	wepp-19512	"11:31 am  Monday July 26, 2010"	"BIGFORK 12 S MT"	30	silt	native	375	3	175	7	50	420	20	20	outrut	ft
+WR	wepp-19537	"11:31 am  Monday July 26, 2010"	"BIGFORK 12 S MT"	30	silt	native	375	3	175	7	50	410	20	20	outrut	ft
+WR	wepp-19562	"11:31 am  Monday July 26, 2010"	"BIGFORK 12 S MT"	30	silt	native	375	3	175	7	50	415	20	20	outrut	ft
+WR	wepp-19568	"11:32 am  Monday July 26, 2010"	"BIGFORK 12 S MT"	30	silt	native	375	3	175	7	50	425	20	20	outrut	ft
+WR	wepp-19601	"11:33 am  Monday July 26, 2010"	"BIGFORK 12 S MT"	30	silt	native	375	1	175	3	50	150	5	20	outrut	ft
+WR	wepp-19606	"11:34 am  Monday July 26, 2010"	"BIGFORK 12 S MT"	30	silt	native	375	1	175	3	50	250	5	20	outrut	ft
+WR	wepp-19611	"11:34 am  Monday July 26, 2010"	"BIGFORK 12 S MT"	30	silt	native	375	1	175	3	50	225	5	20	outrut	ft
+WR	wepp-11437	"01:47 pm  Monday August 16, 2010"	"BIGFORK 12 S MT"	30	silt	graveled	200	2	20	15	40	200	4	40	inveg	ft
+WR	wepp-11443	"01:48 pm  Monday August 16, 2010"	"BIGFORK 12 S MT"	30	silt	graveled	200	3	20	20	45	200	4	40	inveg	ft
+WR	wepp-11476	"01:52 pm  Monday August 16, 2010"	"BIGFORK 12 S MT"	30	silt	graveled	325	3	20	10	30	250	5	40	inveg	ft
+WR	wepp-5051	"01:01 pm  Tuesday October 5, 2010"	"BIGFORK 12 S MT"	30	silt	native	500	2	16	8	20	100	15	35	inveg	ft
+WR	wepp-5057	"01:02 pm  Tuesday October 5, 2010"	"BIGFORK 12 S MT"	30	silt	native	500	2	16	8	20	250	15	35	inveg	ft
+WR	wepp-5063	"01:04 pm  Tuesday October 5, 2010"	"BIGFORK 12 S MT"	30	silt	native	50	2	16	8	20	75	15	35	inveg	ft
+WR	wepp-5095	"01:08 pm  Tuesday October 5, 2010"	"BIGFORK 12 S MT"	30	silt	native	400	2	24	6	20	100	15	35	inveg	ft
+WR	wepp-5100	"01:08 pm  Tuesday October 5, 2010"	"BIGFORK 12 S MT"	30	silt	native	400	2	24	6	20	100	15	35	inveg	ft
+WR	wepp-5105	"01:09 pm  Tuesday October 5, 2010"	"BIGFORK 12 S MT"	30	silt	native	50	2	24	6	20	100	15	35	inveg	ft
+WR	wepp-5138	"01:11 pm  Tuesday October 5, 2010"	"BIGFORK 12 S MT"	30	silt	graveled	600	5	26	15	40	35	20	35	inveg	ft
+WR	wepp-5143	"01:12 pm  Tuesday October 5, 2010"	"BIGFORK 12 S MT"	30	silt	graveled	600	5	26	15	40	35	20	35	outrut	ft
+WD	wepp-5199	"01:17 pm  Tuesday October 5, 2010"	"BIGFORK 12 S MT"	30	silt	low	500	55	45	30	10	tree5	300	40	35	30	10	0	ft	""
+WD	wepp-5208	"01:17 pm  Tuesday October 5, 2010"	"BIGFORK 12 S MT"	30	silt	low	500	55	45	30	10	low	300	40	35	30	10	0	ft	""
+WD	wepp-5217	"01:20 pm  Tuesday October 5, 2010"	"BIGFORK 12 S MT"	30	silt	tall	500	55	45	45	10	tall	300	40	35	45	10	0	ft	""
+WD	wepp-5256	"01:22 pm  Tuesday October 5, 2010"	"BIGFORK 12 S MT"	30	silt	tall	500	55	45	45	10	tall	300	40	35	45	10	0	ft	""
+WF	wepp-5282	"01:24 pm  Tuesday October 5, 2010"	"BIGFORK 12 S MT                         2"	clay	200	50	0	30	15	40	20	20	4	ft
+wt	wepp-5474	"Oct 5, 2010"	"BIGFORK 12 S MT"	alluvial	LowFire	40	30	500	30	20	LowFire	25	15	200	30	20	ft	""
+WE	wepp-5616	"01:37 pm  Tuesday October 5, 1908"	"BIGFORK 12 S MT"	silt	20	forest	50	40	30	800	h			ft
+WE	wepp-5829	"01:45 pm  Tuesday October 5, 1972"	"BIGFORK 12 S MT"	clay	20	forest	0	50	30	300	l			ft
+WD	wepp-6083	"02:11 pm  Tuesday October 5, 2010"	"BIGFORK 12 S MT"	30	silt	skid	150	35	30	50	20	skid	150	25	20	50	20	0	ft	""
+WR	wepp-6130	"02:14 pm  Tuesday October 5, 2010"	"BIGFORK 12 S MT"	30	clay	native	300	4	300	15	25	200	25	20	inveg	ft
+WR	wepp-6154	"02:15 pm  Tuesday October 5, 2010"	"BIGFORK 12 S MT"	30	clay	native	300	4	300	15	25	500	25	20	inveg	ft
+WR	wepp-6159	"02:16 pm  Tuesday October 5, 2010"	"BIGFORK 12 S MT"	30	clay	native	300	4	300	15	25	500	25	20	outrut	ft
+WR	wepp-6164	"02:17 pm  Tuesday October 5, 2010"	"BIGFORK 12 S MT"	30	clay	native	300	4	300	15	25	500	25	20	outrut	ft
+WR	wepp-14397	"01:05 pm  Tuesday February 8, 2011"	"BIGFORK 12 S MT"	30	silt	graveled	200	4	24	15	50	75	15	20	inveg	ft
+WR	wepp-14431	"01:06 pm  Tuesday February 8, 2011"	"BIGFORK 12 S MT"	30	silt	graveled	75	3	24	12	50	75	15	20	inveg	ft
+WR	wepp-14464	"01:06 pm  Tuesday February 8, 2011"	"BIGFORK 12 S MT"	30	silt	graveled	100	3	24	12	50	75	15	20	inveg	ft
+WR	wepp-14469	"01:07 pm  Tuesday February 8, 2011"	"BIGFORK 12 S MT"	30	silt	graveled	100	3	24	12	50	50	15	20	inveg	ft
+WR	wepp-14474	"01:08 pm  Tuesday February 8, 2011"	"BIGFORK 12 S MT"	30	silt	graveled	100	3	24	12	50	50	15	35	inveg	ft
+WR	wepp-14479	"01:09 pm  Tuesday February 8, 2011"	"BIGFORK 12 S MT"	30	silt	graveled	75	3	24	12	50	50	15	35	inveg	ft
+WR	wepp-14664	"01:34 pm  Tuesday February 8, 2011"	"BIGFORK 12 S MT"	30	silt	graveled	75	3	18	12	50	50	18	40	inveg	ft
+WR	wepp-14669	"01:36 pm  Tuesday February 8, 2011"	"BIGFORK 12 S MT"	30	silt	native	75	3	18	12	50	50	18	40	inveg	ft
+WR	wepp-14757	"01:48 pm  Tuesday February 8, 2011"	"BIGFORK 12 S MT"	30	silt	native	75	3	18	12	50	40	18	40	inveg	ft
+WR	wepp-14790	"01:52 pm  Tuesday February 8, 2011"	"BIGFORK 12 S MT"	30	silt	native	75	3	18	5	50	40	12	40	inveg	ft
+WR	wepp-14849	"01:54 pm  Tuesday February 8, 2011"	"BIGFORK 12 S MT"	30	silt	native	75	6	18	13	50	40	18	40	inveg	ft
+WR	wepp-14855	"01:57 pm  Tuesday February 8, 2011"	"BIGFORK 12 S MT"	30	silt	native	75	3	28	6	50	40	12	40	inveg	ft
+WR	wepp-14860	"01:59 pm  Tuesday February 8, 2011"	"BIGFORK 12 S MT"	30	silt	native	90	3	28	6	50	40	12	40	inveg	ft
+WR	wepp-14911	"02:00 pm  Tuesday February 8, 2011"	"BIGFORK 12 S MT"	30	silt	graveled	350	3	28	6	50	40	12	40	inveg	ft
+WR	wepp-14916	"02:02 pm  Tuesday February 8, 2011"	"BIGFORK 12 S MT"	30	silt	graveled	90	3	28	6	50	40	12	40	inveg	ft
+WR	wepp-14949	"02:05 pm  Tuesday February 8, 2011"	"BIGFORK 12 S MT"	30	silt	graveled	450	9	28	18	50	55	18	40	inveg	ft
+WR	wepp-14954	"02:05 pm  Tuesday February 8, 2011"	"BIGFORK 12 S MT"	30	silt	graveled	450	9	28	18	50	55	18	40	inveg	ft
+WR	wepp-14959	"02:05 pm  Tuesday February 8, 2011"	"BIGFORK 12 S MT"	30	silt	graveled	350	9	28	18	50	55	18	40	inveg	ft
+WR	wepp-14964	"02:07 pm  Tuesday February 8, 2011"	"BIGFORK 12 S MT"	30	silt	graveled	350	3	28	6	50	40	12	40	inveg	ft
+WR	wepp-14969	"02:08 pm  Tuesday February 8, 2011"	"BIGFORK 12 S MT"	30	silt	graveled	90	3	28	6	50	40	12	40	inveg	ft
+WR	wepp-14974	"02:09 pm  Tuesday February 8, 2011"	"BIGFORK 12 S MT"	30	silt	graveled	90	3	28	6	50	40	12	40	inveg	ft
+WR	wepp-15006	"02:11 pm  Tuesday February 8, 2011"	"BIGFORK 12 S MT"	30	silt	graveled	90	3	28	18	50	55	18	40	inveg	ft
+WR	wepp-15088	"02:18 pm  Tuesday February 8, 2011"	"BIGFORK 12 S MT"	30	silt	native	250	3	18	5	50	40	12	40	inveg	ft
+WR	wepp-13470	"12:13 pm  Thursday February 10, 2011"	"BIGFORK 12 S MT"	30	silt	native	250	6	18	13	50	40	18	40	inveg	ft
+WD	wepp-3139	"12:30 pm  Saturday March 12, 2011"	"BIGFORK 12 S MT"	30	silt	low	500	50	40	30	15	shrub	50	35	25	80	20	0	ft	""
+WD	wepp-3144	"12:31 pm  Saturday March 12, 2011"	"BIGFORK 12 S MT"	30	silt	low	250	50	40	30	15	shrub	50	35	25	90	15	0	ft	""
+WD	wepp-3149	"12:32 pm  Saturday March 12, 2011"	"BIGFORK 12 S MT"	30	loam	low	250	50	40	30	15	shrub	50	35	25	90	15	0	ft	""
+WD	wepp-3154	"12:33 pm  Saturday March 12, 2011"	"BIGFORK 12 S MT"	30	loam	low	250	50	40	30	15	shrub	100	35	25	90	15	0	ft	""
+WD	wepp-3187	"12:34 pm  Saturday March 12, 2011"	"BIGFORK 12 S MT"	30	loam	low	300	50	40	30	15	shrub	100	35	25	90	15	0	ft	""
+WD	wepp-3192	"12:34 pm  Saturday March 12, 2011"	"BIGFORK 12 S MT"	30	loam	low	300	50	40	30	15	tree20	100	35	25	100	15	0	ft	""
+WD	wepp-3198	"12:36 pm  Saturday March 12, 2011"	"BIGFORK 12 S MT"	30	loam	low	300	50	40	30	15	shrub	100	35	25	95	15	0	ft	""
+WD	wepp-3203	"12:37 pm  Saturday March 12, 2011"	"BIGFORK 12 S MT"	30	loam	low	275	50	40	30	15	shrub	100	35	25	95	15	0	ft	""
+WD	wepp-3208	"12:38 pm  Saturday March 12, 2011"	"BIGFORK 12 S MT"	30	silt	low	275	50	40	30	15	shrub	100	35	25	95	15	0	ft	""
+WD	wepp-3240	"12:39 pm  Saturday March 12, 2011"	"BIGFORK 12 S MT"	30	silt	low	275	50	40	30	15	shrub	50	35	25	95	15	0	ft	""
+WD	wepp-3245	"12:40 pm  Saturday March 12, 2011"	"BIGFORK 12 S MT"	30	silt	low	275	50	40	30	15	shrub	75	35	25	95	15	0	ft	""
+WD	wepp-3250	"12:42 pm  Saturday March 12, 2011"	"BIGFORK 12 S MT"	30	silt	low	275	45	40	30	15	shrub	75	35	25	95	15	0	ft	""
+WD	wepp-3255	"12:42 pm  Saturday March 12, 2011"	"BIGFORK 12 S MT"	50	silt	low	275	45	40	30	15	shrub	75	35	25	95	15	0	ft	""
+WD	wepp-3260	"12:43 pm  Saturday March 12, 2011"	"BIGFORK 12 S MT"	40	silt	low	275	45	40	30	15	shrub	75	35	25	95	15	0	ft	""
+WD	wepp-3265	"12:43 pm  Saturday March 12, 2011"	"BIGFORK 12 S MT"	20	silt	low	275	45	40	30	15	shrub	75	35	25	95	15	0	ft	""
+WD	wepp-3297	"12:45 pm  Saturday March 12, 2011"	"BIGFORK 12 S MT"	20	silt	low	300	45	40	30	15	shrub	75	35	25	95	15	0	ft	""
+WD	wepp-3321	"12:45 pm  Saturday March 12, 2011"	"BIGFORK 12 S MT"	20	silt	low	300	45	40	30	15	shrub	50	35	25	95	15	0	ft	""
+WD	wepp-3326	"12:46 pm  Saturday March 12, 2011"	"BIGFORK 12 S MT"	20	silt	low	300	50	40	30	15	shrub	75	35	25	95	15	0	ft	""
+WD	wepp-3332	"12:46 pm  Saturday March 12, 2011"	"BIGFORK 12 S MT"	20	silt	low	350	50	40	30	15	shrub	75	35	25	95	15	0	ft	""
+WD	wepp-3337	"12:47 pm  Saturday March 12, 2011"	"BIGFORK 12 S MT"	20	silt	low	400	50	40	30	15	shrub	75	35	25	95	15	0	ft	""
+WD	wepp-25001	"09:23 am  Monday March 14, 2011"	"BIGFORK 12 S MT"	30	silt	tree20	350	50	60	80	20	tree20	250	60	40	100	20	0	ft	""
+WD	wepp-25006	"09:23 am  Monday March 14, 2011"	"BIGFORK 12 S MT"	30	silt	shrub	350	50	60	80	20	shrub	250	60	40	80	20	0	ft	""
+WD	wepp-25038	"09:24 am  Monday March 14, 2011"	"BIGFORK 12 S MT"	30	silt	short	350	50	60	40	20	short	250	60	40	40	20	0	ft	""
+WD	wepp-25043	"09:24 am  Monday March 14, 2011"	"BIGFORK 12 S MT"	30	silt	short	350	50	60	80	20	short	250	60	40	80	20	0	ft	""
+WD	wepp-25048	"09:25 am  Monday March 14, 2011"	"BIGFORK 12 S MT"	30	silt	shrub	350	50	60	80	20	shrub	250	60	40	80	20	0	ft	""
+WD	wepp-25054	"09:26 am  Monday March 14, 2011"	"BIGFORK 12 S MT"	30	silt	low	350	50	60	40	20	low	250	60	40	40	20	0	ft	""
+WD	wepp-25133	"09:35 am  Monday March 14, 2011"	"BIGFORK 12 S MT"	30	silt	high	350	50	60	45	20	high	250	60	40	45	20	0	ft	""
+WD	wepp-25138	"09:36 am  Monday March 14, 2011"	"BIGFORK 12 S MT"	30	silt	high	500	50	60	45	20	high	500	60	40	45	20	0	ft	""
+WD	wepp-25143	"09:36 am  Monday March 14, 2011"	"BIGFORK 12 S MT"	30	silt	high	500	50	60	15	20	high	500	60	40	15	20	0	ft	""
+WD	wepp-25175	"09:40 am  Monday March 14, 2011"	"BIGFORK 12 S MT"	30	silt	short	400	45	50	70	10	short	450	60	50	70	10	0	ft	""
+WD	wepp-25180	"09:41 am  Monday March 14, 2011"	"BIGFORK 12 S MT"	30	silt	short	400	45	50	75	12	short	450	60	50	75	12	0	ft	""
+WD	wepp-25186	"09:42 am  Monday March 14, 2011"	"BIGFORK 12 S MT"	30	silt	low	400	45	50	30	12	low	450	60	50	30	12	0	ft	""
+WD	wepp-25237	"09:48 am  Monday March 14, 2011"	"BIGFORK 12 S MT"	30	silt	short	125	30	40	65	12	short	150	40	40	65	12	0	ft	""
+WD	wepp-25269	"09:51 am  Monday March 14, 2011"	"BIGFORK 12 S MT"	30	silt	low	125	30	40	10	12	low	150	40	40	10	12	0	ft	""
+WD	wepp-25357	"10:00 am  Monday March 14, 2011"	"BIGFORK 12 S MT"	30	silt	shrub	50	45	50	65	25	shrub	55	60	55	65	25	0	ft	""
+WD	wepp-25362	"10:01 am  Monday March 14, 2011"	"BIGFORK 12 S MT"	30	silt	shrub	100	45	50	65	25	shrub	450	60	55	65	25	0	ft	""
+WD	wepp-25368	"10:02 am  Monday March 14, 2011"	"BIGFORK 12 S MT"	30	silt	low	100	45	50	20	25	low	450	60	55	20	25	0	ft	""
+WD	wepp-25400	"10:04 am  Monday March 14, 2011"	"BIGFORK 12 S MT"	30	silt	low	500	30	40	20	15	low	650	50	50	20	15	0	ft	""
+WD	wepp-25405	"10:05 am  Monday March 14, 2011"	"BIGFORK 12 S MT"	30	silt	low	650	30	40	20	15	low	500	50	50	20	15	0	ft	""
+WD	wepp-25410	"10:06 am  Monday March 14, 2011"	"BIGFORK 12 S MT"	30	silt	short	650	30	40	65	15	short	500	50	50	65	15	0	ft	""
+WD	wepp-25416	"10:07 am  Monday March 14, 2011"	"BIGFORK 12 S MT"	30	silt	short	650	30	40	70	15	short	500	50	50	70	15	0	ft	""
+WD	wepp-25449	"10:09 am  Monday March 14, 2011"	"BIGFORK 12 S MT"	30	silt	short	125	30	40	65	15	short	150	40	40	65	15	0	ft	""
+WD	wepp-25454	"10:11 am  Monday March 14, 2011"	"BIGFORK 12 S MT"	30	silt	short	125	30	40	65	15	short	150	40	40	65	15	0	ft	""
+WD	wepp-25459	"10:12 am  Monday March 14, 2011"	"BIGFORK 12 S MT"	30	silt	short	125	30	40	65	12	short	150	40	40	65	12	0	ft	""
+WR	wepp-26524	"03:34 pm  Thursday March 17, 2011"	"BIGFORK 12 S MT"	30	silt	native	150	5	6	3	50	5	25	25	outrut	ft
+WR	wepp-26556	"03:36 pm  Thursday March 17, 2011"	"BIGFORK 12 S MT"	30	silt	native	200	5	6	3	50	8	25	25	outrut	ft
+WR	wepp-26561	"03:38 pm  Thursday March 17, 2011"	"BIGFORK 12 S MT"	30	silt	native	15	5	6	3	50	8	25	25	outrut	ft
+WR	wepp-26673	"03:53 pm  Thursday March 17, 2011"	"BIGFORK 12 S MT"	30	silt	native	15	3	6	3	50	8	25	25	outrut	ft
+WR	wepp-26678	"03:53 pm  Thursday March 17, 2011"	"BIGFORK 12 S MT"	30	silt	native	150	3	6	3	50	8	25	25	outrut	ft
+WR	wepp-4437	"12:15 pm  Friday March 18, 2011"	"BIGFORK 12 S MT"	30	silt	native	75	6	18	13	50	40	18	40	inveg	ft
+WR	wepp-4444	"12:16 pm  Friday March 18, 2011"	"BIGFORK 12 S MT"	30	silt	native	75	6	18	13	50	40	18	40	inveg	ft
+WR	wepp-4449	"12:16 pm  Friday March 18, 2011"	"BIGFORK 12 S MT"	30	silt	graveled	75	6	18	13	50	40	18	40	inveg	ft
+WR	wepp-4454	"12:16 pm  Friday March 18, 2011"	"BIGFORK 12 S MT"	30	silt	graveled	75	6	18	13	50	40	18	40	inveg	ft
+WR	wepp-4468	"12:18 pm  Friday March 18, 2011"	"BIGFORK 12 S MT"	30	silt	graveled	75	3	18	5	50	40	12	40	inveg	ft
+WR	wepp-4530	"12:19 pm  Friday March 18, 2011"	"BIGFORK 12 S MT"	30	silt	graveled	90	3	28	18	50	55	18	40	inveg	ft
+WR	wepp-4535	"12:20 pm  Friday March 18, 2011"	"BIGFORK 12 S MT"	30	silt	native	90	3	28	18	50	55	18	40	inveg	ft
+WR	wepp-4540	"12:23 pm  Friday March 18, 2011"	"BIGFORK 12 S MT"	30	silt	native	90	3	28	6	50	40	12	40	inveg	ft
+WR	wepp-4593	"12:29 pm  Friday March 18, 2011"	"BIGFORK 12 S MT"	30	silt	native	350	3	28	6	50	40	12	40	inveg	ft
+WR	wepp-4676	"12:35 pm  Friday March 18, 2011"	"BIGFORK 12 S MT"	30	silt	graveled	250	3	18	5	50	40	12	40	inveg	ft
+WR	wepp-4683	"12:38 pm  Friday March 18, 2011"	"BIGFORK 12 S MT"	30	silt	graveled	75	6	18	13	50	40	18	40	inveg	ft
+WR	wepp-4688	"12:39 pm  Friday March 18, 2011"	"BIGFORK 12 S MT"	30	silt	graveled	250	6	18	13	50	40	18	40	inveg	ft
+WR	wepp-4723	"12:42 pm  Friday March 18, 2011"	"BIGFORK 12 S MT"	30	silt	native	350	9	28	18	50	55	18	40	inveg	ft
+WR	wepp-4728	"12:43 pm  Friday March 18, 2011"	"BIGFORK 12 S MT"	30	silt	native	90	9	28	18	50	55	18	40	inveg	ft
+WR	wepp-4797	"12:48 pm  Friday March 18, 2011"	"BIGFORK 12 S MT"	30	silt	graveled	90	9	28	18	50	55	18	40	inveg	ft
+WD	wepp-15047	"01:38 pm  Tuesday March 22, 2011"	"BIGFORK 12 S MT"	30	silt	high	350	50	60	40	20	high	250	60	40	40	20	0	ft	""
+WD	wepp-15059	"01:42 pm  Tuesday March 22, 2011"	"BIGFORK 12 S MT"	30	silt	high	400	45	50	30	12	high	450	60	50	30	12	0	ft	""
+WD	wepp-15084	"01:45 pm  Tuesday March 22, 2011"	"BIGFORK 12 S MT"	30	silt	high	400	45	50	20	12	high	450	60	50	20	12	0	ft	""
+WD	wepp-15101	"01:49 pm  Tuesday March 22, 2011"	"BIGFORK 12 S MT"	30	silt	high	350	50	50	30	20	high	250	60	40	30	20	0	ft	""
+WD	wepp-15110	"01:58 pm  Tuesday March 22, 2011"	"BIGFORK 12 S MT"	30	silt	high	125	30	40	5	12	high	150	40	40	5	12	0	ft	""
+WD	wepp-15134	"02:01 pm  Tuesday March 22, 2011"	"BIGFORK 12 S MT"	30	silt	high	100	45	50	10	25	high	450	60	55	10	25	0	ft	""
+WD	wepp-15139	"02:04 pm  Tuesday March 22, 2011"	"BIGFORK 12 S MT"	30	silt	high	650	30	40	10	15	high	500	50	50	10	15	0	ft	""
+WR	wepp-12274	"04:31 pm  Wednesday March 30, 2011"	"BIGFORK 12 S MT"	30	sand	graveled	500	4	287	12	50	130	25	35	inveg	ft
+WR	wepp-12279	"04:31 pm  Wednesday March 30, 2011"	"BIGFORK 12 S MT"	30	sand	graveled	500	4	28	12	50	130	25	35	inveg	ft
+WR	wepp-12311	"04:32 pm  Wednesday March 30, 2011"	"BIGFORK 12 S MT"	30	sand	graveled	500	4	28	12	50	130	25	35	outunrut	ft
+WR	wepp-21457	"11:25 am  Thursday March 31, 2011"	"BIGFORK 12 S MT"	30	silt	graveled	500	4	16	15	50	75	10	35	outunrut	ft
+WR	wepp-21464	"11:26 am  Thursday March 31, 2011"	"BIGFORK 12 S MT"	30	silt	graveled	500	3	28	15	50	75	10	35	outunrut	ft
+WR	wepp-21469	"11:27 am  Thursday March 31, 2011"	"BIGFORK 12 S MT"	30	silt	graveled	500	3	28	15	50	75	10	35	outrut	ft
+WR	wepp-8580	"02:29 pm  Tuesday April 12, 2011"	"BIGFORK 12 S MT"	30	silt	native	300	3	200	5	50	150	15	30	outrut	ft
+WR	wepp-8615	"02:30 pm  Tuesday April 12, 2011"	"BIGFORK 12 S MT"	30	silt	native	300	2	200	5	50	200	15	30	outrut	ft
+WR	wepp-8620	"02:30 pm  Tuesday April 12, 2011"	"BIGFORK 12 S MT"	30	silt	graveled	300	2	200	5	50	200	15	30	outrut	ft
+WR	wepp-8625	"02:31 pm  Tuesday April 12, 2011"	"BIGFORK 12 S MT"	30	silt	graveled	250	2	200	5	50	200	15	30	outrut	ft
+WR	wepp-8635	"02:31 pm  Tuesday April 12, 2011"	"BIGFORK 12 S MT"	30	silt	graveled	250	2	200	5	50	150	15	30	outrut	ft
+WR	wepp-8650	"02:32 pm  Tuesday April 12, 2011"	"BIGFORK 12 S MT"	30	silt	native	250	2	200	5	50	150	15	30	outrut	ft
+WR	wepp-8670	"02:33 pm  Tuesday April 12, 2011"	"BIGFORK 12 S MT"	30	silt	native	250	2	200	5	50	170	15	30	outrut	ft
+WR	wepp-8680	"02:33 pm  Tuesday April 12, 2011"	"BIGFORK 12 S MT"	30	silt	native	250	2	200	5	50	170	15	35	outrut	ft
+WR	wepp-8690	"02:34 pm  Tuesday April 12, 2011"	"BIGFORK 12 S MT"	30	silt	native	250	2	200	5	50	200	15	35	outrut	ft
+WR	wepp-8700	"02:35 pm  Tuesday April 12, 2011"	"BIGFORK 12 S MT"	30	silt	graveled	250	2	200	5	50	200	15	35	outrut	ft
+WR	wepp-8720	"02:37 pm  Tuesday April 12, 2011"	"BIGFORK 12 S MT"	30	silt	native	250	2	150	5	50	150	15	35	outrut	ft
+WR	wepp-8725	"02:38 pm  Tuesday April 12, 2011"	"BIGFORK 12 S MT"	30	silt	native	250	2	150	5	50	150	15	35	inbare	ft
+WR	wepp-8730	"02:38 pm  Tuesday April 12, 2011"	"BIGFORK 12 S MT"	30	silt	native	250	2	150	5	50	200	15	35	outrut	ft
+WR	wepp-8740	"02:38 pm  Tuesday April 12, 2011"	"BIGFORK 12 S MT"	30	silt	native	250	2	150	5	50	200	15	35	outrut	ft
+WR	wepp-8745	"02:39 pm  Tuesday April 12, 2011"	"BIGFORK 12 S MT"	30	silt	graveled	250	2	150	5	50	200	15	35	outrut	ft
+WR	wepp-8783	"02:42 pm  Tuesday April 12, 2011"	"BIGFORK 12 S MT"	30	silt	graveled	250	1	150	5	50	200	15	35	outrut	ft
+WR	wepp-8821	"02:45 pm  Tuesday April 12, 2011"	"BIGFORK 12 S MT"	30	silt	graveled	225	1	150	5	50	200	15	35	outrut	ft
+WR	wepp-8857	"02:51 pm  Tuesday April 12, 2011"	"BIGFORK 12 S MT"	30	silt	native	200	1	100	5	50	200	15	35	outrut	ft
+WR	wepp-8893	"02:53 pm  Tuesday April 12, 2011"	"BIGFORK 12 S MT"	30	silt	native	200	1	100	5	50	150	15	35	outrut	ft
+WR	wepp-8898	"02:54 pm  Tuesday April 12, 2011"	"BIGFORK 12 S MT"	30	silt	native	200	1	100	5	50	100	15	35	outrut	ft
+WR	wepp-9033	"03:03 pm  Tuesday April 12, 2011"	"BIGFORK 12 S MT"	30	silt	native	200	1	100	5	50	100	15	30	outrut	ft
+WR	wepp-9039	"03:04 pm  Tuesday April 12, 2011"	"BIGFORK 12 S MT"	30	silt	native	200	1	100	5	50	200	15	30	outrut	ft
+WR	wepp-9044	"03:05 pm  Tuesday April 12, 2011"	"BIGFORK 12 S MT"	30	silt	native	200	1	100	5	50	150	15	30	outrut	ft
+WR	wepp-9049	"03:05 pm  Tuesday April 12, 2011"	"BIGFORK 12 S MT"	30	silt	native	225	1	100	5	50	150	15	30	outrut	ft
+WD	wepp-23313	"03:01 pm  Saturday April 23, 2011"	"BIGFORK 12 S MT"	30	silt	skid	500	35	25	60	20	skid	500	20	15	60	20	0	ft	""
+WD	wepp-23345	"03:02 pm  Saturday April 23, 2011"	"BIGFORK 12 S MT"	30	silt	skid	500	15	12	60	20	skid	500	10	8	60	20	0	ft	""
+WR	wepp-23383	"03:07 pm  Saturday April 23, 2011"	"BIGFORK 12 S MT"	30	silt	native	200	8	12	5	50	75	12	20	outrut	ft
+WR	wepp-23388	"03:07 pm  Saturday April 23, 2011"	"BIGFORK 12 S MT"	30	silt	native	100	8	12	5	50	75	12	20	outrut	ft
+WR	wepp-23393	"03:09 pm  Saturday April 23, 2011"	"BIGFORK 12 S MT"	30	silt	native	100	8	12	2	12	75	12	20	outrut	ft
+WR	wepp-23398	"03:10 pm  Saturday April 23, 2011"	"BIGFORK 12 S MT"	30	silt	native	100	15	12	2	15	75	15	20	outrut	ft
+WR	wepp-23687	"03:41 pm  Saturday April 23, 2011"	"BIGFORK 12 S MT"	30	silt	native	80	12	12	2	12	75	12	20	outrut	ft
+WR	wepp-23692	"03:42 pm  Saturday April 23, 2011"	"BIGFORK 12 S MT"	30	silt	native	85	12	12	2	12	75	12	20	outrut	ft
+WR	wepp-23697	"03:42 pm  Saturday April 23, 2011"	"BIGFORK 12 S MT"	30	silt	native	90	12	12	2	12	75	12	20	outrut	ft
+WR	wepp-23702	"03:44 pm  Saturday April 23, 2011"	"BIGFORK 12 S MT"	30	silt	native	90	15	12	2	15	75	15	20	outrut	ft
+WR	wepp-23707	"03:44 pm  Saturday April 23, 2011"	"BIGFORK 12 S MT"	30	silt	native	85	15	12	2	15	75	15	20	outrut	ft
+WR	wepp-23731	"03:45 pm  Saturday April 23, 2011"	"BIGFORK 12 S MT"	30	silt	native	90	15	12	2	15	75	15	20	outrut	ft
+WD	wepp-6941	"08:50 am  Tuesday May 10, 2011"	"BIGFORK 12 S MT"	30	silt	high	350	50	60	10	20	high	250	60	40	10	20	0	ft	""
+WD	wepp-6947	"08:50 am  Tuesday May 10, 2011"	"BIGFORK 12 S MT"	30	silt	high	350	50	60	15	20	high	250	60	40	15	20	0	ft	""
+WD	wepp-5149	"08:45 am  Thursday May 26, 2011"	"BIGFORK 12 S MT"	30	silt	tree20	200	60	55	20	20	tree5	200	50	40	20	20	0	ft	""
+WD	wepp-5154	"08:46 am  Thursday May 26, 2011"	"BIGFORK 12 S MT"	30	silt	low	200	60	55	85	20	low	200	50	40	85	20	0	ft	""
+WD	wepp-5159	"08:46 am  Thursday May 26, 2011"	"BIGFORK 12 S MT"	30	silt	low	200	60	55	20	20	low	200	50	40	20	20	0	ft	""
+WD	wepp-5184	"08:48 am  Thursday May 26, 2011"	"BIGFORK 12 S MT"	30	silt	low	200	60	55	20	20	low	200	50	40	20	20	0	ft	""
+WD	wepp-5199	"08:49 am  Thursday May 26, 2011"	"BIGFORK 12 S MT"	30	loam	low	200	60	55	20	20	low	200	50	40	20	20	0	ft	""
+WR	wepp-13384	"08:39 am  Tuesday July 19, 2011"	"BIGFORK 12 S MT"	30	clay	native	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-20444	"07:27 am  Thursday July 21, 2011"	"BIGFORK 12 S MT"	30	silt	native	15	2	3	3	30	50	30	20	inveg	ft

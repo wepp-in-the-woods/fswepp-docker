@@ -1,0 +1,16 @@
+WR	wepp-158533	"03:05 pm  Thursday May 6, 2021"	"Gray Custom Climate St Maries +"	30	silt	graveled	200	4	13	15	50	1	25	20	inveg	ft
+WR	wepp-158647	"03:06 pm  Thursday May 6, 2021"	"Gray Custom Climate St Maries +"	30	silt	graveled	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-158698	"03:06 pm  Thursday May 6, 2021"	"Gray Custom Climate St Maries +"	30	silt	paved	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-158809	"03:07 pm  Thursday May 6, 2021"	"Gray Custom Climate St Maries +"	30	silt	graveled	200	4	13	15	50	1	25	20	outunrut	ft
+WR	wepp-160163	"03:23 pm  Thursday May 6, 2021"	"SAINT MARIES ID le +"	30	silt	graveled	200	4	13	15	50	1	25	20	inveg	ft
+WR	wepp-160255	"03:27 pm  Thursday May 6, 2021"	"SAINT MARIES ID le +"	30	silt	graveled	200	4	13	15	50	1	25	20	inbare	ft
+WD	wepp-160533	"03:39 pm  Thursday May 6, 2021"	"Gray Custom Climate St Maries +"	10	silt	OldForest	400	0	30	100	20	OldForest	75	30	5	100	20	0	ft	"Unaltered"
+WD	wepp-160592	"03:41 pm  Thursday May 6, 2021"	"Gray Custom Climate St Maries +"	10	silt	Sod	400	0	30	40	20	OldForest	75	30	5	100	20	0	ft	"Unaltered"
+WD	wepp-160669	"03:45 pm  Thursday May 6, 2021"	"Gray Custom Climate St Maries +"	10	silt	Sod	400	0	30	40	20	OldForest	30	30	5	100	20	0	ft	"Unaltered"
+WD	wepp-160857	"03:49 pm  Thursday May 6, 2021"	"Gray Custom Climate St Maries +"	10	silt	HighFire	400	0	30	45	20	HighFire	75	30	5	45	20	0	ft	"Unaltered"
+WD	wepp-160916	"03:50 pm  Thursday May 6, 2021"	"Gray Custom Climate St Maries +"	10	silt	Sod	400	0	30	40	20	OldForest	75	30	5	100	20	0	ft	"Unaltered"
+WD	wepp-160953	"03:51 pm  Thursday May 6, 2021"	"Gray Custom Climate St Maries +"	10	silt	HighFire	400	0	30	45	20	HighFire	75	30	5	45	20	0	ft	"Unaltered"
+WD	wepp-160992	"03:51 pm  Thursday May 6, 2021"	"Gray Custom Climate St Maries +"	10	silt	HighFire	400	0	30	20	20	HighFire	75	30	5	20	20	0	ft	"Unaltered"
+WD	wepp-161032	"03:52 pm  Thursday May 6, 2021"	"Gray Custom Climate St Maries +"	10	silt	HighFire	400	0	30	45	20	HighFire	75	30	5	45	20	0	ft	"Unaltered"
+WD	wepp-161070	"03:53 pm  Thursday May 6, 2021"	"Gray Custom Climate St Maries +"	10	silt	Sod	400	0	30	40	20	OldForest	75	30	5	100	20	0	ft	"Unaltered"
+WD	wepp-161147	"03:56 pm  Thursday May 6, 2021"	"Gray Custom Climate St Maries +"	10	silt	LowFire	400	0	30	85	20	LowFire	75	30	5	85	20	0	ft	"Unaltered"

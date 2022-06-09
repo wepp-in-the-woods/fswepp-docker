@@ -1,0 +1,11 @@
+WE	wepp-5209	"01:07 pm  Monday April 15, 2013"	"Chessman +"	sand	25	forest	15	8	5	1000	l			ft
+WE	wepp-5289	"01:12 pm  Monday April 15, 2013"	"Chessman +"	sand	25	forest	15	8	5	1000	h			ft
+WE	wepp-5379	"01:13 pm  Monday April 15, 2013"	"Chessman +"	sand	25	forest	15	8	5	1000	m			ft
+WD	wepp-5636	"01:28 pm  Monday April 15, 2013"	"Chessman +"	10	sand	LowFire	950	15	8	85	25	YoungForest	50	8	5	100	25	0	ft	""
+WD	wepp-5709	"01:32 pm  Monday April 15, 2013"	"Chessman +"	50	sand	LowFire	950	15	8	85	25	YoungForest	50	8	5	100	25	0	ft	""
+WD	wepp-5729	"01:33 pm  Monday April 15, 2013"	"Chessman +"	50	sand	HighFire	950	15	8	45	25	YoungForest	50	8	5	100	25	0	ft	""
+WD	wepp-5776	"01:38 pm  Monday April 15, 2013"	"Chessman +"	50	sand	HighFire	950	15	8	45	25	HighFire	50	8	5	45	25	0	ft	""
+WD	wepp-5876	"01:47 pm  Monday April 15, 2013"	"Chessman +"	50	sand	HighFire	950	30	25	45	25	YoungForest	50	25	5	100	25	0	ft	""
+WD	wepp-5895	"01:48 pm  Monday April 15, 2013"	"Chessman +"	50	sand	HighFire	950	30	25	45	25	HighFire	50	25	5	45	25	0	ft	""
+WE	wepp-5945	"01:50 pm  Monday April 15, 2013"	"Chessman +"	sand	25	forest	15	8	5	1000	l			ft
+WD	wepp-6048	"01:56 pm  Monday April 15, 2013"	"Chessman +"	100	sand	LowFire	950	15	8	85	25	LowFire	50	8	5	85	25	0	ft	""

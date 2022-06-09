@@ -1,0 +1,39 @@
+WD	wepp-31897	"11:04 am  Tuesday April 2, 2013"	"DENVER WB AP CO"	30	clay	tree20	50	0	30	100	20	tree5	50	30	5	100	20	0	m	""
+WD	wepp-32336	"11:25 am  Tuesday April 2, 2013"	"STEAMBOAT SPRINGS CO"	30	sand	tree20	390	13	13	99	1	tree20	390	13	13	99	1	0	m	""
+WD	wepp-32400	"11:30 am  Tuesday April 2, 2013"	"STEAMBOAT SPRINGS CO"	30	sand	tree20	390	13	13	99	1	tree20	390	13	13	99	1	0	m	""
+WD	wepp-32436	"11:32 am  Tuesday April 2, 2013"	"STEAMBOAT SPRINGS CO"	30	sand	tree20	260	12	12	99	1	tree20	260	19	19	99	1	0	m	""
+WD	wepp-32452	"11:33 am  Tuesday April 2, 2013"	"STEAMBOAT SPRINGS CO"	30	sand	tree20	400	17	17	99	1	tree20	400	12	12	99	1	0	m	""
+WD	wepp-32459	"11:34 am  Tuesday April 2, 2013"	"STEAMBOAT SPRINGS CO"	30	sand	tree5	400	17	17	60	1	tree5	400	12	12	60	1	0	m	""
+WD	wepp-32466	"11:35 am  Tuesday April 2, 2013"	"STEAMBOAT SPRINGS CO"	30	sand	tree5	400	18	18	60	1	tree5	400	13	13	60	1	0	m	""
+WD	wepp-32473	"11:35 am  Tuesday April 2, 2013"	"STEAMBOAT SPRINGS CO"	30	sand	tree5	400	18	18	60	1	tree5	400	13	13	60	1	0	m	""
+WD	wepp-32478	"11:36 am  Tuesday April 2, 2013"	"STEAMBOAT SPRINGS CO"	30	sand	skid	400	18	18	60	1	skid	400	13	13	60	1	0	m	""
+WD	wepp-32483	"11:37 am  Tuesday April 2, 2013"	"STEAMBOAT SPRINGS CO"	30	sand	skid	400	18	18	50	1	skid	400	13	13	50	1	0	m	""
+WD	wepp-32515	"11:37 am  Tuesday April 2, 2013"	"STEAMBOAT SPRINGS CO"	30	sand	tree5	400	18	18	60	1	tree5	400	13	13	60	1	0	m	""
+WD	wepp-32665	"11:43 am  Tuesday April 2, 2013"	"STEAMBOAT SPRINGS CO"	30	sand	tree5	390	13	13	60	1	tree5	390	13	13	60	1	0	m	""
+WD	wepp-32670	"11:44 am  Tuesday April 2, 2013"	"STEAMBOAT SPRINGS CO"	30	sand	tree5	260	12	12	60	1	tree5	260	19	19	60	1	0	m	""
+WD	wepp-8710	"08:53 pm  Sunday April 7, 2013"	"DILLON 1 S CO"	10	silt	YoungForest	350	0	24	89	7	OldForest	350	29	5	95	4	0	ft	""
+WD	wepp-8731	"08:53 pm  Sunday April 7, 2013"	"DILLON 1 S CO"	30	silt	YoungForest	350	0	24	89	7	OldForest	350	29	5	95	4	0	ft	""
+WD	wepp-8782	"08:57 pm  Sunday April 7, 2013"	"DILLON 1 S CO"	10	silt	YoungForest	200	24	24	89	7	OldForest	200	29	29	95	4	0	ft	""
+WD	wepp-8802	"08:57 pm  Sunday April 7, 2013"	"DILLON 1 S CO"	10	silt	Sod	200	24	24	40	7	LowFire	200	29	29	85	4	0	ft	""
+WD	wepp-8822	"08:58 pm  Sunday April 7, 2013"	"DILLON 1 S CO"	10	silt	Sod	50	24	24	25	9	LowFire	50	29	29	24	6	0	ft	""
+WD	wepp-9374	"12:12 pm  Thursday April 11, 2013"	"TAYLOR PARK CO"	10	silt	OldForest	50	0	30	100	20	Shrub	50	30	5	80	20	0	ft	"pre "
+WD	wepp-9401	"12:13 pm  Thursday April 11, 2013"	"TAYLOR PARK CO"	10	silt	OldForest	50	0	30	75	20	Shrub	50	30	5	80	20	0	ft	"pre "
+WD	wepp-9421	"12:13 pm  Thursday April 11, 2013"	"TAYLOR PARK CO"	10	silt	YoungForest	50	0	30	80	20	Shrub	50	30	5	80	20	0	ft	"pre "
+WR	wepp-9566	"12:15 pm  Thursday April 11, 2013"	"TAYLOR PARK CO"	30	clay	native	1000	4	8	15	50	130	25	20	inveg	ft
+WR	wepp-9588	"12:16 pm  Thursday April 11, 2013"	"TAYLOR PARK CO"	30	clay	native	1000	4	8	15	50	130	25	20	inbare	ft
+WR	wepp-9608	"12:16 pm  Thursday April 11, 2013"	"TAYLOR PARK CO"	30	clay	native	1000	6	8	15	50	130	25	20	inveg	ft
+WR	wepp-30243	"12:56 pm  Sunday April 28, 2013"	"DILLON 1 S CO"	30	sand	graveled	1000	12.3947	16.4042	15	50	1	25	20	inbare	ft
+WR	wepp-30344	"01:03 pm  Sunday April 28, 2013"	"DILLON 1 S CO"	30	sand	graveled	1000	12.3947	16.4042	15	50	1	25	20	inbare	ft
+WR	wepp-30366	"01:06 pm  Sunday April 28, 2013"	"DILLON 1 S CO"	30	sand	graveled	1000	12.3947	16.4042	15	50	1	25	20	inbare	ft
+WR	wepp-30386	"01:06 pm  Sunday April 28, 2013"	"DILLON 1 S CO"	30	sand	graveled	1000	13.6994	16.4042	15	50	1	25	20	inbare	ft
+WR	wepp-30433	"01:08 pm  Sunday April 28, 2013"	"DILLON 1 S CO"	30	sand	graveled	1000	13.6994	16.4042	15	50	1	25	20	inbare	ft
+WR	wepp-30453	"01:10 pm  Sunday April 28, 2013"	"DILLON 1 S CO"	30	sand	graveled	1000	16.7853	16.4042	15	50	1	25	20	inbare	ft
+WR	wepp-30549	"01:20 pm  Sunday April 28, 2013"	"DILLON 1 S CO"	1	sand	graveled	1000	12.4	16.4042	15	50	1	25	20	inbare	ft
+WR	wepp-30598	"01:27 pm  Sunday April 28, 2013"	"DILLON 1 S CO"	1	sand	graveled	1000	13.7	16.4042	15	50	1	25	20	inbare	ft
+WR	wepp-30646	"01:28 pm  Sunday April 28, 2013"	"DILLON 1 S CO"	1	sand	graveled	1000	16.8	16.4042	15	50	1	25	20	inbare	ft
+WR	wepp-30686	"01:32 pm  Sunday April 28, 2013"	"DILLON 1 S CO"	1	sand	graveled	1000	19.6	16.4042	15	50	1	25	20	inbare	ft
+WR	wepp-30734	"01:37 pm  Sunday April 28, 2013"	"DILLON 1 S CO"	1	sand	graveled	1000	12.4	16.4042	15	50	150	25	20	inveg	ft
+WR	wepp-30782	"01:38 pm  Sunday April 28, 2013"	"DILLON 1 S CO"	1	sand	graveled	1000	12.4	16.4042	15	50	150	25	20	inveg	ft
+WR	wepp-30804	"01:39 pm  Sunday April 28, 2013"	"DILLON 1 S CO"	1	sand	graveled	1000	13.7	16.4042	15	50	150	25	20	inveg	ft
+WR	wepp-30825	"01:40 pm  Sunday April 28, 2013"	"DILLON 1 S CO"	1	sand	graveled	1000	16.8	16.4042	15	50	150	25	20	inveg	ft
+WR	wepp-30846	"01:41 pm  Sunday April 28, 2013"	"DILLON 1 S CO"	1	sand	graveled	1000	19.6	16.4042	15	50	150	25	20	inveg	ft

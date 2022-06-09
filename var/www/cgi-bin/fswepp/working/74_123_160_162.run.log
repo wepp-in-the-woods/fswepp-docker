@@ -1,0 +1,29 @@
+WR	wepp-5334	"02:07 pm  Monday February 13, 2012"	"CORVALLIS ST COL OR"	30	silt	graveled	409	9	12	13	35	1	1	20	inbare	ft
+WR	wepp-5659	"02:23 pm  Monday February 13, 2012"	"CORVALLIS ST COL OR"	30	silt	graveled	409	9	12	13	35	1	1	20	inbare	ft
+WR	wepp-5699	"02:23 pm  Monday February 13, 2012"	"CORVALLIS ST COL OR"	30	silt	graveled	409	9	12	13	35	1	1	20	inbare	ft
+WR	wepp-5812	"02:26 pm  Monday February 13, 2012"	"CORVALLIS ST COL OR"	30	silt	graveled	196	12	10	26	27	150	5	10	inbare	ft
+WR	wepp-5837	"02:27 pm  Monday February 13, 2012"	"CORVALLIS ST COL OR"	30	silt	graveled	196	12	10	26	27	150	5	10	inbare	ft
+WR	wepp-5898	"02:29 pm  Monday February 13, 2012"	"CORVALLIS ST COL OR"	30	silt	graveled	193	13	12	7	13	400	10	10	inbare	ft
+WR	wepp-5985	"02:30 pm  Monday February 13, 2012"	"CORVALLIS ST COL OR"	30	silt	graveled	193	13	12	7	13	400	10	10	inbare	ft
+WR	wepp-6067	"02:32 pm  Monday February 13, 2012"	"CORVALLIS ST COL OR"	30	silt	graveled	385	13	12	11	18	100	10	5	inbare	ft
+WR	wepp-6108	"02:33 pm  Monday February 13, 2012"	"CORVALLIS ST COL OR"	30	silt	graveled	385	13	12	11	18	100	10	5	inbare	ft
+WR	wepp-6287	"02:37 pm  Monday February 13, 2012"	"CORVALLIS ST COL OR"	30	silt	graveled	385	13	12	11	18	100	10	5	outrut	ft
+WR	wepp-6307	"02:38 pm  Monday February 13, 2012"	"CORVALLIS ST COL OR"	30	silt	graveled	385	13	12	11	18	100	10	5	outrut	ft
+WR	wepp-6377	"02:39 pm  Monday February 13, 2012"	"CORVALLIS ST COL OR"	30	silt	graveled	51	14	10	11	15	200	10	3	outunrut	ft
+WR	wepp-6563	"02:42 pm  Monday February 13, 2012"	"CORVALLIS ST COL OR"	30	silt	graveled	51	14	10	11	15	200	10	3	outunrut	ft
+WR	wepp-6698	"02:45 pm  Monday February 13, 2012"	"CORVALLIS ST COL OR"	30	silt	graveled	147	13	10	15	14	150	10	10	inveg	ft
+WR	wepp-6724	"02:46 pm  Monday February 13, 2012"	"CORVALLIS ST COL OR"	30	silt	graveled	147	13	10	15	14	150	10	10	inveg	ft
+WR	wepp-6745	"02:49 pm  Monday February 13, 2012"	"CORVALLIS ST COL OR"	30	silt	graveled	334	13	12	14	12	100	10	10	outrut	ft
+WR	wepp-6793	"02:50 pm  Monday February 13, 2012"	"CORVALLIS ST COL OR"	30	silt	graveled	334	13	12	14	12	100	10	10	outrut	ft
+WR	wepp-6814	"02:53 pm  Monday February 13, 2012"	"CORVALLIS ST COL OR"	30	silt	graveled	377	8	10	8	6	200	10	10	inveg	ft
+WR	wepp-6839	"02:54 pm  Monday February 13, 2012"	"CORVALLIS ST COL OR"	30	silt	graveled	377	8	10	8	6	200	10	10	inveg	ft
+WR	wepp-6886	"02:55 pm  Monday February 13, 2012"	"CORVALLIS ST COL OR"	30	silt	graveled	105	5	12	7	6	50	2	10	inveg	ft
+WR	wepp-6907	"02:56 pm  Monday February 13, 2012"	"CORVALLIS ST COL OR"	30	silt	graveled	105	5	12	7	6	50	2	10	inveg	ft
+WR	wepp-6928	"02:57 pm  Monday February 13, 2012"	"CORVALLIS ST COL OR"	30	silt	graveled	294	4	10	9	5	50	5	10	inveg	ft
+WR	wepp-6950	"02:58 pm  Monday February 13, 2012"	"CORVALLIS ST COL OR"	30	silt	graveled	294	4	10	9	5	50	5	10	inveg	ft
+WR	wepp-6970	"02:59 pm  Monday February 13, 2012"	"CORVALLIS ST COL OR"	30	silt	graveled	79	2	10	4	10	1	1	10	inveg	ft
+WR	wepp-7036	"03:00 pm  Monday February 13, 2012"	"CORVALLIS ST COL OR"	30	silt	graveled	79	2	10	4	10	1	1	10	inveg	ft
+WD	wepp-528	"02:22 pm  Monday February 20, 2012"	"CORVALLIS ST COL OR"	30	silt	OldForest	500	70	70	100	5	OldForest	100	50	40	100	5	0	ft	""
+WD	wepp-627	"02:28 pm  Monday February 20, 2012"	"CORVALLIS ST COL OR"	30	silt	YoungForest	500	70	70	100	5	YoungForest	100	50	40	100	5	0	ft	""
+WD	wepp-635	"02:29 pm  Monday February 20, 2012"	"CORVALLIS ST COL OR"	30	silt	LowFire	500	70	70	85	5	LowFire	100	50	40	85	5	0	ft	""
+WD	wepp-676	"02:29 pm  Monday February 20, 2012"	"CORVALLIS ST COL OR"	30	silt	HighFire	500	70	70	45	5	HighFire	100	50	40	45	5	0	ft	""

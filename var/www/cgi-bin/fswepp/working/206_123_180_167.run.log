@@ -1,0 +1,39 @@
+WD	wepp-144183	"10:04 am  Wednesday March 20, 2019"	"ABERDEEN 20 NNE WISHKA +"	10	sand	Skid	50	0	30	20	20	HighFire	50	30	5	45	20	0	ft	""
+WD	wepp-144293	"10:05 am  Wednesday March 20, 2019"	"ABERDEEN 20 NNE WISHKA +"	10	sand	OldForest	50	0	30	100	20	OldForest	50	30	5	100	20	0	ft	""
+WD	wepp-144368	"10:05 am  Wednesday March 20, 2019"	"ABERDEEN 20 NNE WISHKA +"	10	sand	HighFire	50	0	30	45	20	LowFire	50	30	5	85	20	0	ft	""
+WD	wepp-144386	"10:05 am  Wednesday March 20, 2019"	"ABERDEEN 20 NNE WISHKA +"	10	sand	HighFire	50	0	30	45	20	HighFire	50	30	5	45	20	0	ft	""
+WR	wepp-146105	"10:21 am  Wednesday March 20, 2019"	"ABERDEEN 20 NNE WISHKA +"	30	silt	native	200	4	13	15	50	1	25	20	inveg	ft
+WR	wepp-146684	"10:25 am  Wednesday March 20, 2019"	"ABERDEEN 20 NNE WISHKA +"	30	clay	native	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-146719	"10:25 am  Wednesday March 20, 2019"	"ABERDEEN 20 NNE WISHKA +"	30	silt	native	200	4	13	15	50	1	25	20	inveg	ft
+WR	wepp-148213	"10:38 am  Wednesday March 20, 2019"	"ABERDEEN 20 NNE WISHKA +"	30	silt	native	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-148498	"10:40 am  Wednesday March 20, 2019"	"ABERDEEN 20 NNE WISHKA +"	30	silt	paved	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-150161	"10:48 am  Wednesday March 20, 2019"	"ABERDEEN 20 NNE WISHKA lower e +"	30	clay	native	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-150403	"10:49 am  Wednesday March 20, 2019"	"ABERDEEN 20 NNE WISHKA lower e +"	30	silt	native	200	4	13	15	50	1	25	20	inveg	ft
+WR	wepp-150525	"10:50 am  Wednesday March 20, 2019"	"ABERDEEN 20 NNE WISHKA lower e +"	30	silt	native	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-150690	"10:51 am  Wednesday March 20, 2019"	"ABERDEEN 20 NNE WISHKA lower e +"	30	silt	paved	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-150816	"10:51 am  Wednesday March 20, 2019"	"ABERDEEN 20 NNE WISHKA + +"	30	silt	paved	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-151473	"10:55 am  Wednesday March 20, 2019"	"ABERDEEN 20 NNE WISHKA lower e + +"	30	silt	native	200	4	13	15	50	1	25	20	inveg	ft
+WR	wepp-151741	"10:57 am  Wednesday March 20, 2019"	"ABERDEEN 20 NNE WISHKA lower e + +"	30	silt	native	200	4	13	15	50	1	25	20	inveg	ft
+WR	wepp-151777	"10:57 am  Wednesday March 20, 2019"	"ABERDEEN 20 NNE WISHKA lower e + +"	30	silt	native	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-151825	"10:58 am  Wednesday March 20, 2019"	"ABERDEEN 20 NNE WISHKA lower e + +"	30	silt	paved	200	4	13	15	50	1	25	20	inbare	ft
+WD	wepp-152188	"11:02 am  Wednesday March 20, 2019"	"ABERDEEN 20 NNE WISHKA +"	10	silt	OldForest	400	0	30	100	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-153045	"11:09 am  Wednesday March 20, 2019"	"ABERDEEN 20 NNE WISHKA +"	10	silt	Bunchgrass	400	0	30	60	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-153085	"11:10 am  Wednesday March 20, 2019"	"ABERDEEN 20 NNE WISHKA +"	10	silt	HighFire	400	0	30	45	20	LowFire	75	30	5	85	20	0	ft	""
+WD	wepp-153742	"11:17 am  Wednesday March 20, 2019"	"ABERDEEN 20 NNE WISHKA +"	10	silt	HighFire	400	0	30	45	20	OldForest	100	30	5	100	20	0	ft	""
+WD	wepp-153778	"11:17 am  Wednesday March 20, 2019"	"ABERDEEN 20 NNE WISHKA +"	10	silt	HighFire	400	0	30	45	20	OldForest	100	30	5	100	20	0	ft	""
+WD	wepp-153823	"11:17 am  Wednesday March 20, 2019"	"ABERDEEN 20 NNE WISHKA +"	10	silt	HighFire	400	0	30	45	20	OldForest	200	30	5	100	20	0	ft	""
+WD	wepp-153903	"11:17 am  Wednesday March 20, 2019"	"ABERDEEN 20 NNE WISHKA +"	10	silt	HighFire	400	0	30	45	20	OldForest	1200	30	5	100	20	0	ft	""
+WR	wepp-156474	"12:14 pm  Wednesday March 20, 2019"	"ABERDEEN 20 NNE WISHKA +"	30	clay	native	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-156649	"12:15 pm  Wednesday March 20, 2019"	"ABERDEEN 20 NNE WISHKA +"	30	clay	native	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-156713	"12:16 pm  Wednesday March 20, 2019"	"ABERDEEN 20 NNE WISHKA +"	30	clay	native	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-156728	"12:16 pm  Wednesday March 20, 2019"	"ABERDEEN 20 NNE WISHKA +"	30	clay	native	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-156830	"12:18 pm  Wednesday March 20, 2019"	"ABERDEEN 20 NNE WISHKA +"	30	silt	native	200	4	13	15	50	1	25	20	inveg	ft
+WR	wepp-157044	"12:24 pm  Wednesday March 20, 2019"	"ABERDEEN 20 NNE WISHKA +"	30	silt	native	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-157197	"12:25 pm  Wednesday March 20, 2019"	"ABERDEEN 20 NNE WISHKA +"	30	silt	paved	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-157521	"12:27 pm  Wednesday March 20, 2019"	"ABERDEEN 20 NNE WISHKA +"	30	silt	paved	200	4	13	15	50	1	25	20	inveg	ft
+WR	wepp-157675	"12:30 pm  Wednesday March 20, 2019"	"ABERDEEN 20 NNE WISHKA + PRISM +"	30	clay	native	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-158067	"12:34 pm  Wednesday March 20, 2019"	"ABERDEEN 20 NNE WISHKA + PRISM +"	30	silt	native	200	4	13	15	50	1	25	20	inveg	ft
+WR	wepp-158109	"12:35 pm  Wednesday March 20, 2019"	"ABERDEEN 20 NNE WISHKA + PRISM +"	30	silt	native	200	4	13	15	50	1	25	20	inveg	ft
+WR	wepp-158185	"12:35 pm  Wednesday March 20, 2019"	"ABERDEEN 20 NNE WISHKA + PRISM + +"	30	silt	native	200	4	13	15	50	1	25	20	inveg	ft
+WR	wepp-158323	"12:36 pm  Wednesday March 20, 2019"	"ABERDEEN 20 NNE WISHKA +BLAHHH +"	30	silt	native	200	4	13	15	50	1	25	20	inveg	ft
+WR	wepp-158404	"12:38 pm  Wednesday March 20, 2019"	"ABERDEEN 20 NNE WISHKA +BLAHHH +"	30	silt	native	200	4	13	15	50	1	25	20	inveg	ft

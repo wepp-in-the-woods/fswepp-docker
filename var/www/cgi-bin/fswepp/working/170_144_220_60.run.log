@@ -1,0 +1,23 @@
+WD	wepp-126073	"07:43 am  Tuesday July 6, 2021"	"ORACLE 4 SE AZ +"	50	loam	Shrub	8	0	60	100	65	Shrub	8	60	0	100	65	0	ft	"483 LUB"
+WD	wepp-126271	"07:57 am  Tuesday July 6, 2021"	"ORACLE 4 SE AZ +"	50	loam	Shrub	8	0	60	82.5	65	Shrub	8	60	0	82.5	65	0	ft	"483 ModShrub"
+WD	wepp-126390	"08:02 am  Tuesday July 6, 2021"	"ORACLE 4 SE AZ +"	50	loam	LowFire	8	0	60	82.5	65	LowFire	8	60	0	82.5	65	0	ft	"483 ModShrub"
+WD	wepp-126452	"08:05 am  Tuesday July 6, 2021"	"ORACLE 4 SE AZ +"	50	loam	Shrub	8	0	60	66	65	Shrub	8	60	0	66	65	0	ft	"483 HighShrub"
+WD	wepp-126523	"08:06 am  Tuesday July 6, 2021"	"ORACLE 4 SE AZ +"	50	loam	HighFire	8	0	60	66	65	HighFire	8	60	0	66	65	0	ft	"483 HighSev"
+WD	wepp-127181	"08:16 am  Tuesday July 6, 2021"	"ORACLE 4 SE AZ +"	50	loam	shrub	8	0	60	100	65	shrub	8	60	0	100	65	0	ft	"483 LUB"
+WD	wepp-127475	"08:19 am  Tuesday July 6, 2021"	"ORACLE 4 SE AZ +"	50	loam	shrub	8	0	60	82.5	65	shrub	8	60	0	82.5	65	0	ft	"483 ModShrub"
+WD	wepp-127485	"08:21 am  Tuesday July 6, 2021"	"ORACLE 4 SE AZ +"	50	loam	low	8	0	60	82.5	65	low	8	60	0	82.5	65	0	ft	"483 ModSev"
+WD	wepp-127510	"08:23 am  Tuesday July 6, 2021"	"ORACLE 4 SE AZ +"	50	loam	shrub	8	0	60	66	65	shrub	8	60	0	66	65	0	ft	"483 HighShrub"
+WD	wepp-127528	"08:24 am  Tuesday July 6, 2021"	"ORACLE 4 SE AZ +"	50	loam	high	8	0	60	66	65	high	8	60	0	66	65	0	ft	"483 HighSev"
+WE	wepp-147892	"10:21 am  Tuesday July 6, 2021"	"ORACLE 4 SE AZ +"	loam	50	range	60	60	60	16	u	23	8	ft
+WE	wepp-148766	"10:23 am  Tuesday July 6, 2021"	"ORACLE 4 SE AZ +"	loam	50	range	60	60	60	16	l	23	8	ft
+WE	wepp-149502	"10:25 am  Tuesday July 6, 2021"	"ORACLE 4 SE AZ +"	loam	50	range	60	60	60	16	m	23	8	ft
+WE	wepp-150160	"10:27 am  Tuesday July 6, 2021"	"ORACLE 4 SE AZ +"	loam	50	range	60	60	60	16	h	23	8	ft
+WE	wepp-159900	"11:44 am  Tuesday July 6, 2021"	"ORACLE 4 SE AZ +"	sand	40	range	4	4	4	49	u	51	7	ft
+WE	wepp-159979	"11:45 am  Tuesday July 6, 2021"	"ORACLE 4 SE AZ +"	sand	40	range	4	4	4	49	l	51	7	ft
+WE	wepp-160120	"11:47 am  Tuesday July 6, 2021"	"ORACLE 4 SE AZ +"	sand	40	range	4	4	4	49	m	51	7	ft
+WE	wepp-160302	"11:49 am  Tuesday July 6, 2021"	"ORACLE 4 SE AZ +"	sand	40	range	4	4	4	49	h	51	7	ft
+WD	wepp-161658	"12:37 pm  Tuesday July 6, 2021"	"ORACLE 4 SE AZ +"	50	sand	shrub	24.5	0	4	85	40	shrub	24.5	4	0	85	40	0	ft	"485 LUB"
+WD	wepp-161802	"12:41 pm  Tuesday July 6, 2021"	"ORACLE 4 SE AZ +"	50	sand	low	24.5	0	4	62.5	40	low	24.5	4	0	62.5	40	0	ft	"485 ModSev"
+WD	wepp-161849	"12:44 pm  Tuesday July 6, 2021"	"ORACLE 4 SE AZ +"	50	sand	high	24.5	0	4	41	40	high	24.5	4	0	41	40	0	ft	"485 ModSev"
+WD	wepp-163686	"02:24 pm  Tuesday July 6, 2021"	"ORACLE 4 SE AZ +"	50	sand	low	24.5	0	4	85	40	low	24.5	4	0	85	40	0	ft	"485 LowSev"
+WD	wepp-163737	"02:36 pm  Tuesday July 6, 2021"	"ORACLE 4 SE AZ +"	50	loam	low	8	0	60	100	40	low	8	60	0	100	40	0	ft	"483 LowSev"

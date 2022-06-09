@@ -1,0 +1,17 @@
+WR	wepp-92368	"01:13 pm  Thursday May 5, 2022"	"SAINT MARIES ID +"	30	silt	graveled	200	4	13	15	50	1	25	20	inveg	ft
+WR	wepp-93821	"01:44 pm  Thursday May 5, 2022"	"SAINT MARIES ID +"	30	silt	graveled	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-93941	"01:45 pm  Thursday May 5, 2022"	"SAINT MARIES ID +"	30	silt	graveled	200	4	13	15	50	1	25	20	inveg	ft
+WR	wepp-94022	"01:47 pm  Thursday May 5, 2022"	"SAINT MARIES ID +"	30	silt	graveled	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-94105	"01:48 pm  Thursday May 5, 2022"	"SAINT MARIES ID +"	30	silt	paved	200	4	13	15	50	1	25	20	inbare	ft
+WR	wepp-94219	"01:49 pm  Thursday May 5, 2022"	"SAINT MARIES ID +"	30	silt	graveled	200	4	13	15	50	1	25	20	outunrut	ft
+WD	wepp-95136	"02:20 pm  Thursday May 5, 2022"	"SAINT MARIES ID +"	10	silt	OldForest	400	0	30	100	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-95205	"02:24 pm  Thursday May 5, 2022"	"SAINT MARIES ID +"	10	silt	Sod	400	0	30	40	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-95278	"02:27 pm  Thursday May 5, 2022"	"SAINT MARIES ID +"	10	silt	Sod	400	0	30	40	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-95332	"02:30 pm  Thursday May 5, 2022"	"SAINT MARIES ID +"	10	silt	Sod	400	0	30	40	20	OldForest	30	30	5	100	20	0	ft	""
+WD	wepp-95446	"02:31 pm  Thursday May 5, 2022"	"SAINT MARIES ID +"	10	silt	LowFire	400	0	30	85	20	LowFire	75	30	5	85	20	0	ft	""
+WD	wepp-95511	"02:34 pm  Thursday May 5, 2022"	"SAINT MARIES ID +"	10	silt	HighFire	400	0	30	45	20	HighFire	75	30	5	45	20	0	ft	""
+WD	wepp-95562	"02:35 pm  Thursday May 5, 2022"	"SAINT MARIES ID +"	10	silt	HighFire	400	0	30	20	20	HighFire	75	30	5	20	20	0	ft	""
+WR	wepp-95790	"02:40 pm  Thursday May 5, 2022"	"SAINT MARIES ID newest one +"	30	silt	graveled	200	4	13	15	50	1	25	20	inveg	ft
+WD	wepp-95850	"02:42 pm  Thursday May 5, 2022"	"SAINT MARIES ID newest one +"	10	silt	OldForest	400	0	30	100	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-95889	"02:43 pm  Thursday May 5, 2022"	"SAINT MARIES ID newest one +"	10	silt	Sod	400	0	30	40	20	OldForest	75	30	5	100	20	0	ft	""
+WD	wepp-95954	"02:46 pm  Thursday May 5, 2022"	"SAINT MARIES ID newest one +"	10	silt	HighFire	400	0	30	0	5	YoungForest	75	30	5	50	5	0	ft	""

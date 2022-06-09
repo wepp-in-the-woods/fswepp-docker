@@ -1,0 +1,103 @@
+#this files was modified by filegenwhrm.pl on: Wednesday, March 16, 2005.
+#taxgroup Birds species Stellar's jay / Cyanocitta stelleri
+#
+# Rank
+3,1,1,3,-99
+# Nestsite
+25,1:26,1
+# Reprorank
+1,-99:1,-99
+# Foraging Habitat
+8,1
+# Habitatrank
+1,-99
+# Forage/Prey Availability
+4,1:25,1:26,1
+# Preyrank
+1,-99:2,-99:2,-99
+# Predator Avoidance
+-99
+# Avoidrank
+-99
+# Refugia/Shelter
+-99
+# Shelterrank
+-99
+# Coverrank
+-99
+# Literature
+Distribution
+coniferous western forests from southeast Alaska to central Mexico
+General Habitat
+open mature forests, areas with large and predictable pine cone crops
+Home or Activity Range
+2-3 ac (O'Neil et al. 2001)
+Canopy Cover
+stands with 0-69% canopy closure (Verner 1980)
+Specific Habitat Preferences
+large trees, 0-69% canopy cover, heterogeneous landscapes
+Nestsite Characteristics
+nests on horizontal limb near trunk or in crotch of conifer; nest includes pine needles, twigs, dry leaves, roots, and grass cemented with mud
+Foraging Habitat Characteristics
+forages on ground, in tree canopy, or in shrubs and understory vegetation
+Diet
+beetles, grasshoppers, wasps, arthropods, nuts, acorns, fruits, berries, pine seeds, black raspberries, blackberries, currants, elderberries, sugar pine seed
+Predators
+Mexican spotted owl
+Shelter Habitats
+no information available
+Response to Disturbance
+use cutover areas once they reach the brush-stage, using cutovers particularly in winter (Hagar 1960); more abundant in forests 10-40 years post-burn (Hutto 1995); less abundant in low shrub-clearcuts and partially cut forest and more abundant on high shrub-stage clearcuts compared to uncut forest (Hejl et al. 1995); not found in stands burned by stand-replacement wildfire, found in unburned controls (Kreisel and Stein 1999)
+Sources of Information used in the Model
+Hagar 1960, Verner 1980, Reynolds et al. 1992
+General Sources of Background Information
+Hagar 1960, Verner 1980, reviewed in Reynolds et al. 1992, Hejl et al. 1995, Hutto 1995, reviewed in Hagar et al. 1995, reviewed in Ward and Block 1995, Kreisel and Stein 1999, reviewed in O'Neil et al. 2001
+Summaries of Specific Studies
+Hagar, D.C. 1960. The interrelationships of logging, birds, and timber regeneration in the Douglas-fir region of Northwestern California. Ecology. 41:116-125
+
+Study Location: inner coast ranges of northwestern California
+Habitat Description: PSME
+Summary: Bird species were surveyed in cutover areas of PSME forest as well as virgin forest. Bird species are identified that prefer cutover forest, intact forest, or occur in both. Accounts of habitat preferences are given for several bird species, including detailed dietary information. 
+
+Hagar, Joan C. McComb, William; Chambers, Carol C. 1995. Effects of forest practices on wildlife. Chapter 9 In: Beschta, Robert L.; Boyle, James R.; Chambers, Carol C.; Gibson, Wayne P.; Gregory, Stanley V.; Grizzel, Jeffrey; Hagar, Joan C.; Li, Judy, L.; McComb, William C.; Parzybok, Tye W.; Reiter, Maryanne L.; Taylor, George H.; Warila, James E. Cumulative effects of forest practices in Oregon: literature and synthesis. Salem, OR: Oregon Department of Forestry. 145 p.
+
+Study Location: Oregon
+Habitat Description: variety
+Summary: Synthesis of the direct impacts of forest practices on wildlife populations in Oregon. Wildlife habitat and the ecological role of disturbance are theoretically outlined. A gradient approach to habitat is discussed, using the following gradients: edge density and contrast (Table 9.1, 9.3), seral stage (Table 9.4, 9.5), canopy cover (Table 9.6), floristic composition (Table 9.8, 9.10), dead wood (Table 9.11), special habitat features (caves, cliffs, talus) (Table 9.13, 9.14, 9.15), riparian areas (Table 9.17). Species-specific responses to these gradients are reviewed for managed and unmanaged forests. 
+
+Hejl, Sallie J.; Hutto, Richard L.; Preston, Charles R.; Finch, Deborah M. 1995. Effects of silvicultural treatments in the Rocky Mountains. In:Martin, Thomas E.; Finch, Deborah M. (eds.). Ecology and Management of Neotropical Migratory Birds. New York, Oxford: Oxford University Press. 220-244.
+
+Study Location: Rocky Mountains
+Habitat Description: forest types across the Rocky mountains
+Summary: Synthesis of the effects of different silvicultural treatments on neotropical migrants in forests of the Rocky Mountains. Outlines current forest structure, natural disturbance, logging history, and current silvicultural recommendations. General bird-habitat relationships in natural forest, including stands of different ages, are contrasted with stands that are silviculturally manipulated. Contains detailed species lists for rare to abundant bird species that are found in 8 forest types commonly found in the Rockies (Table 8-2). Also lists species by their likelihood to be more or less abundant in managed stands (classified as one of three types of clearcuts or partial cuts) compared to uncut forest. (Table 8-3)
+
+Hutto, R.L. 1995. Composition of bird communities following stand-replacement fires in northern Rocky Mountain (U.S.A) conifer forests. Conservation Biology. 9:1041-1058.
+
+Study Location: western Montana and northern Wyoming
+Habitat Description: range of habitat types: includes PIPO, PSME, LAOC, PICO, PIAL, PIFL, Picea sp,, ABLA, ABGR, THPL, aspen, cottonwood
+Summary: Fifteen bird species are generally more abundant in early post-fire communities than in any other cover type in the northern Rockies (includes olive-sided flycatcher, three-toed woodpecker, black-backed woodpecker, Clark's nutcracker, mountain bluebird, red crossbill, Cassin's finch, pine siskin, American robin, dark-eyed junco, yellow-rumped warbler). Six species (common nighthawk, calliope hummingbird, northern flicker, Stellar's jay, orange-crowned warbler, chipping sparrow) were most abundant in stands 10-40 years post-fire. Three species (American robin, yellow-rumped warbler, dark-eyed junco) were detected in early an mid-successional burned forest 100% of the time. One species, the black-backed woodpecker, was restricted to standing dead forest created by stand-replacing fires. Bird communities are different in recently burned forest, primarily because members of three feeding guilds (woodpeckers, flycatchers, and seedeaters) are especially abundant. Larger-diameter (>10 cm dbh) PP, DF, and LAOC were most often used for feeding by woodpeckers. Standing, fire-killed trees were used by the majority of birds nesting in recently burned forest. Many of the structures used in nesting (broken-topped snags) were present before the fire. Large-scale, stand-replacing fire may be necessary for long-term maintenance of many bird populations. Commentary is offered on the need to alter present fire and post-fire forest management.
+
+Kreisel, Karen J.; Stein, Steven J. 1999. Bird use of burned and unburned forests during winter. Wilson Bulletin. 111(2): 243-250.
+
+Study Location:northeast Washington
+Habitat Description: mixed conifer, includes: PSME, PIPO, ABLA, PIEN, LAOC, PICO
+Summary: This study examined bird use of burned and unburned forest in the winter season. Species richness was similar, but composition was distinctly different. Composition and abundance also changed with time; some species disappeared from the area while others moved in. Trunk and branch foraging species were more abundant in burned forest, though their abundance significantly decreased from the first to the fourth winter post-fire. Foraging behavior was documented for four woodpecker species within the burned area. Foraging took place on snags > 23 cm dbh.
+
+Reynolds, Richard T.; Graham, Russell T.; Reiser, M. Hildegard, Bassett, Richard L.; Kennedy, Patricia L.; Boyce, Douglas A.; Goodwin, Greg; Smith, Randall; Fisher, E. Leon. 1992. Management recommendations for the Northern Goshawk in the southwestern United States. Gen. Tech. Rep. RM-217. Fort Collins, CO: USDA, Forest Service, Rocky Mountain Forest and Range Experiment Station. 90 p.
+
+Study Location: review
+Habitat Description: review
+Summary: Habitat needs of a variety of northern goshawk prey are identified by a literature review. Management recommendations are made in regard to nesting, foraging, and other life history attributes.
+
+Verner, Jared. 1980. Bird communities of mixed-conifer forests of the Sierra Nevada. In Management of western forests and grasslands for nongame birds: workshop proceedings. February 11-14, 1980, Salt Lake City, UT. USDA Forest Service Gen. Tech. Rep. INT-86, Ogden, UT. pp 198-223.
+
+Study Location: Sierra Nevada of California
+Habitat Description: ABCO/LIDE/PILA/PIPO/PSME
+Summary: Breeding bird species are predicted for the various habitat stages of mixed-conifer forest in the Sierra Nevada. Habitat is broken into groups based on tree size (exact diameters not given) and canopy closure. Relative suitability of habitats is listed; optimal habitat only was entered in this database. This species-habitat matrix was made from data from various studies in the region. Predictions were more accurate for later seral stages than early. Forest management in regards to bird communities is discussed, emphasizing the importance of late seral stages for breeding birds in the study region.
+
+Ward Jr., James P.; Block, William M. 1995. Mexican spotted owl prey ecology. Chapter 5. In Recovery Plan for the Mexican Spotted Owl. Vol II. Albuquerque, New Mexico: USDI Fish and Wildlife Service. pp 1-48.
+
+Study Location: range of Mexican spotted owl; case studies in northern Arizona and New Mexico
+Habitat Description: not stated; PIPO
+Summary: Literature review and synthesis of data from past studies concerning the ecology of prey of the Mexican Spotted Owl, including information on owl diet, identification of prey that might influence owl fitness, and quantification of habitat correlates of prey species. The authors found variation in diet regionally. Reproductive success of spotted owls was not linked to any single prey species, rather to many species in combination, or total prey biomass. However, certain species may be more important in specific regions. Overall, food resources were quite variable among vegetation communities and through time. Owl food is most abundant during the summer when young are being raised. Prey biomass decreases in late fall and early winter. Habitat correlates are presented from one study in northern Arizona (deer mouse, brush mouse, Mexican woodrat) and one in New Mexico.
+

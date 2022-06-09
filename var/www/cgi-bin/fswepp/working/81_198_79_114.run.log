@@ -1,0 +1,35 @@
+WR	wepp-23433	"09:55 pm  Monday December 19, 2011"	"SEELEY LAKE RS MT 22.55 +"	30	clay	native	60	4	4	5	50	40	25	20	inveg	m
+WR	wepp-23518	"10:04 pm  Monday December 19, 2011"	"CHARLESTON KAN AP WV"	30	loam	native	60	4	4	5	50	40	25	20	inbare	m
+WE	wepp-4154	"10:16 pm  Sunday March 3, 2013"	"BAD AXE 5 NW MI"	clay	20	forest	0	50	30	300	l			ft
+WF	wepp-4237	"10:22 pm  Sunday March 3, 2013"	"BAD AXE 5 NW MI"	clay	200	50	0	30	15	40	20	20	4	ft
+WF	wepp-4275	"10:23 pm  Sunday March 3, 2013"	"BAD AXE 5 NW MI"	clay	200	50	0	30	15	40	20	20	4	ft
+WR	wepp-8696	"00:57 am  Friday August 2, 2013"	"VILNIUS LITHUANIA"	30	clay	native	60	4	4	5	50	40	25	20	inbare	m
+WE	wepp-8748	"00:59 am  Friday August 2, 2013"	"VILNIUS LITHUANIA"	clay	5	forest	0	50	30	100	h			m
+WD	wepp-8862	"01:02 am  Friday August 2, 2013"	"VILNIUS LITHUANIA"	10	clay	Skid	50	0	30	5	5	Skid	50	30	5	20	5	0	m	""
+WE	wepp-26599	"02:23 am  Wednesday October 16, 2013"	"VILNIUS LITHUANIA"	clay	5	forest	0	50	30	300	l			ft
+WR	wepp-173837	"10:55 pm  Wednesday December 10, 2014"	"VILNIUS LITHUANIA"	30	clay	native	60	4	4	5	50	40	25	20	inveg	m
+WE	wepp-179137	"01:42 am  Thursday December 11, 2014"	"rix LV + +"	clay	20	forest	0	50	30	100	h			m
+WE	wepp-179172	"01:42 am  Thursday December 11, 2014"	"rix LV + +"	clay	20	forest	0	50	30	100	h			m
+WD	wepp-179658	"01:46 am  Thursday December 11, 2014"	"rix LV + +"	10	clay	YoungForest	50	0	30	100	20	OldForest	50	30	5	100	20	0	m	""
+wt	wepp-179840	"Dec 11, 2014"	"Wonju KOREA test 2 +"	granitic	OldForest	0	30	50	100	20	YoungForest	30	5	50	100	20	ft	""
+WF	wepp-179898	"01:55 am  Thursday December 11, 2014"	"Wonju KOREA test 2 +"	clay	200	50	0	30	15	40	20	20	4	ft
+WF	wepp-179951	"01:55 am  Thursday December 11, 2014"	"rix LV + +"	clay	200	50	0	30	15	40	20	20	4	ft
+WD	wepp-139965	"00:43 am  Monday December 29, 2014"	"RIGA LATVIA +"	10	clay	OldForest	50	15	30	100	20	OldForest	50	30	5	100	20	0	ft	""
+WD	wepp-140005	"00:44 am  Monday December 29, 2014"	"RIGA LATVIA +"	10	silt	OldForest	50	15	30	100	20	YoungForest	50	30	5	100	20	0	ft	""
+WD	wepp-19623	"01:33 am  Tuesday March 10, 2015"	"RIGA LATVIA + +"	10	clay	OldForest	50	0	30	100	20	OldForest	50	30	5	100	20	0	ft	""
+WD	wepp-19690	"01:34 am  Tuesday March 10, 2015"	"VILNIUS LITHUANIA"	10	silt	OldForest	100	0	30	100	20	OldForest	100	30	5	100	20	0	ft	""
+WD	wepp-30265	"05:55 am  Tuesday March 10, 2015"	"RIGA LATVIA + +"	50	silt	Skid	100	25	25	0	0	Skid	20	15	15	0	0	0	m	"1"
+WD	wepp-30300	"05:55 am  Tuesday March 10, 2015"	"RIGA LATVIA + +"	50	silt	OldForest	100	25	25	30	0	OldForest	20	15	15	30	0	0	m	"2"
+WD	wepp-30660	"06:04 am  Tuesday March 10, 2015"	"RIGA LATVIA + + +"	50	silt	Skid	100	25	25	0	0	Skid	20	15	15	0	0	0	m	"1"
+WD	wepp-30697	"06:04 am  Tuesday March 10, 2015"	"RIGA LATVIA + + +"	50	silt	OldForest	100	25	25	50	0	OldForest	20	15	15	50	0	0	m	"2"
+WD	wepp-30912	"06:11 am  Tuesday March 10, 2015"	"RIGA LATVIA + + +"	50	clay	OldForest	100	25	25	50	0	Skid	100	15	15	0	0	0	m	"1"
+WD	wepp-30947	"06:11 am  Tuesday March 10, 2015"	"RIGA LATVIA + + +"	50	clay	OldForest	20	25	25	50	0	Skid	20	15	15	0	0	0	m	"2"
+WD	wepp-79184	"03:13 am  Wednesday March 11, 2015"	"RIGA LATVIA + + +"	10	sand	HighFire	50	0	30	0	0	HighFire	50	30	5	0	0	0	m	""
+WD	wepp-142158	"03:11 am  Thursday March 12, 2015"	"RIGA LATVIA + + +"	10	sand	OldForest	50	0	30	75	0	OldForest	50	30	5	75	0	0	m	""
+WD	wepp-142212	"03:12 am  Thursday March 12, 2015"	"RIGA LATVIA + + +"	10	sand	OldForest	50	0	30	10	0	OldForest	50	30	5	10	0	0	m	""
+WD	wepp-142270	"03:13 am  Thursday March 12, 2015"	"RIGA LATVIA + + +"	10	sand	Skid	50	0	30	0	0	Skid	50	30	5	0	0	0	m	""
+WD	wepp-142329	"03:13 am  Thursday March 12, 2015"	"RIGA LATVIA + + +"	10	sand	HighFire	50	0	30	45	0	HighFire	50	30	5	45	0	0	m	""
+WE	wepp-142531	"03:17 am  Thursday March 12, 2015"	"RIGA LATVIA + + +"	clay	20	forest	0	50	30	100	h			m
+WE	wepp-142807	"03:18 am  Thursday March 12, 2015"	"RIGA LATVIA + + +"	clay	20	forest	0	50	30	100	h			m
+WD	wepp-143621	"03:43 am  Thursday March 12, 2015"	"RIGA LATVIA + + +"	10	clay	Skid	50	0	30	20	20	Skid	50	30	5	20	20	0	ft	""
+WD	wepp-143666	"03:43 am  Thursday March 12, 2015"	"RIGA LATVIA + + +"	10	clay	Skid	50	0	30	0	0	Skid	50	30	5	0	0	0	ft	""

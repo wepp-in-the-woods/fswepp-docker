@@ -1,0 +1,84 @@
+#this files was modified by filegenwhrm.pl on: Wednesday, March 16, 2005.
+#taxgroup Small Mammals species Red squirrel /  Tamiasciurus hudsonicus
+#
+# Rank
+3,2,3,2,2
+# Nestsite
+20,1:24,1
+# Reprorank
+1,-99:2,-99
+# Foraging Habitat
+12,1:15,1:16,1:17,1:18,1:20,1:24,1
+# Habitatrank
+3,-99:1,-99:2,-99:2,-99:2,-99:1,-99:1,-99
+# Forage/Prey Availability
+23,1:24,1:25,1:26,1
+# Preyrank
+1,-99:2,-99:2,-99:2,-99
+# Predator Avoidance
+20,1
+# Avoidrank
+1,-99
+# Refugia/Shelter
+12,1
+# Shelterrank
+1,-99
+# Coverrank
+1,-99:1,-99
+# Literature
+Distribution
+widespread across northern North America, south along Rocky and Appalachian mountain chains
+General Habitat
+occurs in any coniferous forest
+Home or Activity Range
+< 2.5 ac
+Canopy Cover
+abundance linked to high canopy cover (Reynolds et al. 1992)
+Specific Habitat Preferences
+clumped distribution of mature trees; large-mature cone-bearing trees, abundant fungi, multi-storied stands with many plant species in all forest layers
+Nestsite Characteristics
+within a clump of mixed conifers, often with overlapping canopies
+Foraging Habitat Characteristics
+middens often associated with CWD, moist, shaded areas
+Diet
+pine cones, meristematic buds, conifer pollen, fungi, fruit, seeds, sap, acorns, nuts, of angiosperm trees and shrubs, birds and small mammals
+Predators
+American marten, Mexican spotted owl; other forest carnivores and raptors
+Shelter Habitats
+middens often associated with CWD
+Response to Disturbance
+in general, less abundant in stands harvested for fuels reduction (Bull and Blumton 1999)
+Sources of Information used in the Model
+Vahle and Patton 1983, Reynolds et al. 1992, Bull and Blumton 1999
+General Sources of Background Information
+Vahle and Patton 1983, Raphael 1988, reviewed in Reynolds et al. 1992, reviewed in Ward and Block 1995, reviewed in Pearson 1999, Bull and Blumton 1999
+Summaries of Specific Studies
+Bull, Evelyn L.; Blumton, Arlene K. 1999. Effect of fuels reduction on American martens and their prey. Research Note PNW-RN-539. Portland, OR: USDA Forest Service, Pacific Northwest Research Station. 9 p.
+
+Study Location: northeastern Oregon
+Habitat Description: PICO, mixed conifer: ABLA, ABGR, LAOC, PIEN, PSME
+Summary: The effect of fuels reduction on American marten was investigating by examining prey response to harvesting in lodgepole and mixed conifer stands. In general, the harvest activities resulted in fewer post-harvest numbers of red-backed voles and snowshoe hares and in more chipmunks. Red squirrels declined in the control and scattered treatment, and slightly increased in the island treatment. Harvest techniques that retained some cover in the form of downed logs or pockets of regeneration were favored by small mammals to techniques where cover was removed. The declines of red-backed voles, red squirrels and snowshoe hares as a result of harvesting would negatively impact marten, as these small mammals comprise a majority of the marten diet. Furthermore, the structures that many small mammals use for cover, including downed logs, are also used by marten. Therefore, it appears that although marten could be negatively impacted by the fuels reduction methods used in this study, the technique that retained certain structures should be further investigated as an option for managers. The authors note that extrapolation of the data should be done with caution, as sample size and sampling period were limited.
+
+Raphael, Martin G. 1988. Habitat associations of small mammals in a subalpine forest, southeastern Wyoming. In: Management of amphibians, reptiles, and small mammals in North America symposium: proceedings; Gen. Tech. Rep. RM-166. Fort Collins, CO: USDA, Forest Service, Rocky Mountain Forest and Range Experiment Station. 359-367.
+
+Study Location: southern Wyoming
+Habitat Description: PICO (60%), PIEN, ABLA
+Summary: Abundance of small mammals was associated with generalized habitat types within the supalpine zone. Moisture and stand maturity were two habitat features that separated patterns of abundance of various species. Specific habitat associations are given for 8 species of small mammals. The southern red-backed vole was confirmed as a suitable indicator of old-growth forest; the masked and dusky shrew may be as well.
+
+Reynolds, Richard T.; Graham, Russell T.; Reiser, M. Hildegard, Bassett, Richard L.; Kennedy, Patricia L.; Boyce, Douglas A.; Goodwin, Greg; Smith, Randall; Fisher, E. Leon. 1992. Management recommendations for the Northern Goshawk in the southwestern United States. Gen. Tech. Rep. RM-217. Fort Collins, CO: USDA, Forest Service, Rocky Mountain Forest and Range Experiment Station. 90 p.
+
+Study Location: review
+Habitat Description: review
+Summary: Habitat needs of a variety of northern goshawk prey are identified by a literature review. Management recommendations are made in regard to nesting, foraging, and other life history attributes.
+
+Vahle, J. Robert; Patton, David R. 1983. Red squirrel cover requirements in Arizona mixed conifer forests. Journal of Forestry. January: 14-22.
+
+Study Location: Apache-Sitgreaves National Forest, Arizona
+Habitat Description: mixed conifer: PIPO, PSME, ABCO, PIEN, PIPU, PIST
+Summary: The best conditions for red squirrel caching and nesting are provided by an undisturbed group of trees with one or more dominant cone-bearers 18" dbh or greater. Both nest sites and cache areas were located together in such a clump, with the average dbh of used trees between 12-14" dbh. Often a large snag or downed log was associated with a cache site. Nest sites were often associated with trees that had interlocking canopies. Group selection is the one form of timber harvest that could create a multi-storied, clumped distribution of trees that would be highly suitable for red squirrel nesting and caching.
+
+Ward Jr., James P.; Block, William M. 1995. Mexican spotted owl prey ecology. Chapter 5. In Recovery Plan for the Mexican Spotted Owl. Vol II. Albuquerque, New Mexico: USDI Fish and Wildlife Service. pp 1-48.
+
+Study Location: range of Mexican spotted owl; case studies in northern Arizona and New Mexico
+Habitat Description: not stated; PIPO
+Summary: Literature review and synthesis of data from past studies concerning the ecology of prey of the Mexican Spotted Owl, including information on owl diet, identification of prey that might influence owl fitness, and quantification of habitat correlates of prey species. The authors found variation in diet regionally. Reproductive success of spotted owls was not linked to any single prey species, rather to many species in combination, or total prey biomass. However, certain species may be more important in specific regions. Overall, food resources were quite variable among vegetation communities and through time. Owl food is most abundant during the summer when young are being raised. Prey biomass decreases in late fall and early winter. Habitat correlates are presented from one study in northern Arizona (deer mouse, brush mouse, Mexican wood rat) and one in New Mexico.

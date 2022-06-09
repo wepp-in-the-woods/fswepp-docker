@@ -1,0 +1,96 @@
+#this files was modified by filegenwhrm.pl on: Wednesday, March 16, 2005.
+#taxgroup Small Mammals species Townsend's chipmunk /  Tamias townsendi
+#
+# Rank
+3,2,2,-99,3
+# Nestsite
+17,1:18,1:24,1:25,1:26,1
+# Reprorank
+1,-99:1,-99:1,-99:1,-99:1,-99
+# Foraging Habitat
+-99
+# Habitatrank
+-99
+# Forage/Prey Availability
+4,1
+# Preyrank
+2,-99
+# Predator Avoidance
+4,1
+# Avoidrank
+2,-99
+# Refugia/Shelter
+4,1:17,1:18,1
+# Shelterrank
+2,-99:1,-99:1,-99
+# Coverrank
+2,-99:1,-99:1,-99
+# Literature
+Distribution
+Pacific northwest, northeastern California
+General Habitat
+coniferous forest and adjacent chaparral
+Home or Activity Range
+&lt 2.5 ac (O'Neil et al. 2001)
+Canopy Cover
+no information available
+Specific Habitat Preferences
+prefer timber and shrubby brush areas, old-growth stands with large snags, avoid areas that are semi-bare
+Nestsite Characteristics
+nest primarily in burrows, also in trees, fallen trees, rock crevices
+Foraging Habitat Characteristics
+forages on ground, in shrubs and in trees; also caches food in trees and shrubs
+Diet
+seeds, nuts, fruits, fungi, insects
+Predators
+long-tailed weasel, mink, western spotted skunk, bobcat, great horned owl
+Shelter Habitats
+use burrows in winter
+Response to Disturbance
+increased 7 years after clearcut/burn (Gashwiler 1970); severely reduced or absent from PICO-ABLA forest one year after prescribed stand-replacing fire (Tiedemann and Woodard 2002); more abundant in old-growth than second-growth stands (Rosenberg and Anthony 1993); no clear difference in populations between young and mature stands (Hayes et al. 1995)
+Sources of Information used in the Model
+Hooven and Black 1976, Carey 1991
+General Sources of Background Information
+Gashwiler 1970, Brand 1974, Hooven and Black 1976, Burt 1980, Carey 1991, Rosenberg and Anthony 1993, Hayes et al. 1995, Tiedemann and Woodard 2002
+Summaries of Specific Studies
+Brand, Leonard R. 1974. Tree nests of California chipmunks (Eutamias). American Midland Naturalist. 91:489-491.
+
+Study Location: California
+Habitat Description: not stated; includes Abies and Quercus
+Summary: Eight nests of Eutamias (townsendii and quadrimaculatus) were found in trees. E. townsendii nests were commonly found in the broken tops of firs. The majority of these nests were occupied by females with litters.
+
+Carey, Andrew B. 1991. The biology of arboreal rodents in Douglas-fir forests. Gen. Tech. Rep. PNW-GTR-276. Portland, OR: USDA Forest Service, Pacific Northwest Research Station. 46 p.
+
+Study Location: west of Cascade crest in Oregon and Washington
+Habitat Description: not specified
+Summary: Accounts of arboreal rodents are given, with information on identification, distribution, habitat preference, nesting, food items and predators. These species are most abundant and diverse in mixed-conifer old-growth forest that contains streams. All species appear to be sensitive to timber harvest due to loss of habitat and dispersal barriers.
+
+Gashweiler, Jay S. 1970. Plant and animal changes on a clearcut in west-central Oregon. Ecology. 51:1018-1026.
+
+Study Location: west-central Oregon (west Cascades)
+Habitat Description: PSME, TSHE, THPL
+Summary: Study documents changes in plant and mammal communities for 11 years following a clearcut with a fall burn. Deer mice increased in the experimental area soon after the burn was completed. Other species that increased at various times after the burn include Townsend's chipmunk, snowshoe hare, and the Oregon vole. Red-back voles, northern flying squirrels, and Douglas' squirrels were not found in the clearcut/burn. California squirrels migrated into the clearcut/burn.
+
+Hayes, John P.; Horvath Eric G.; Hounihan, Patrick. 1995. Townsend's chipmunk population in Douglas-fir plantations and mature forests in the Oregon Coast Range. Canadian Journal of Zoology. 73:67-73.
+
+Study Location: Oregon Coast Range
+Habitat Description: young and old PSME forests
+Summary: Chipmunk populations and habitat associations were studied in old and young PSME forests. No difference in population density, distance moved, or sex-ratio was detected between young and old stands. Density was correlated with the percentage of salal in the understory.
+
+Hooven, Edward F.; Black, Hugh C. 1976. Effects of some clearcutting practices on small-mammal populations in western Oregon. Northwest Science. 50(4):189-208.
+
+Study Location: western Oregon (Cascades)
+Habitat Description: PSME; also TSHE, THPL, ABGR
+Summary: Changes in small mammal populations were documented in two clearcut (one with slash burned) and one uncut PSME stand. Shrews and chipmunks were adversely impacted by logging, while deer mice and Oregon creeping voles were affected favorably by both logging and slash burnings
+
+Rosenberg, D.K.; Anthony, R.G. 1993. Differences in Townsend's chipmunk populations between second- and old-growth forests in western Oregon. Journal of Wildlife Management. 57:365-373.
+
+Study Location: central Oregon Cascades
+Habitat Description: second-growth and old-growth PSME forests; also included TSHE, THPL, LIDE
+Summary: Townsend's chipmunks were most abundant in old-growth PSME forests. Densities were related to large snags (> 50 cm dbh) in old-growth but not second-growth stands. Chipmunks moved less and had more offspring survive in the old-growth stands.
+
+Tiedemann, Arthur R.; Woodard, Paul M. 2002. Multiresource effects of a stand-replacement prescribed fire in the Pinus contorta-Abies lasiocarpa vegetation zone of central Washington. Gen. Tech. Rep. PNW-GTR-535. Portland, OR: USDA Forest Service, Pacific Northwest Research Station. 27 p.
+
+Study Location: eastern Cascades, Washington
+Habitat Description: over-mature PICO-ABLA stand, mature PICO thicket
+Summary: One year after a prescribed, stand-replacing fire, plant cover and diversity decreased, as did microbial respiration. Nitrogen fixation and nitrification increased after burning. Overall bird diversity increased after the fire. Diversity of woodpeckers increased the year after burning, while needle-foraging species declined or were absent after fire. There was no definitive response of small mammals to burning, though the Townsend's chipmunk did markedly decline. Forage for elk in the burn was higher in crude protein, but low productivity and distance from water diminished the value of the burned area for elk.

@@ -1,0 +1,11 @@
+97.5
+#
+# Slope file created for soil condition hhh average gradient 26.4 toe gradient 3.3
+#
+#  1 ofe (1/1) aaa
+#  Author:   dehall
+#
+1
+213.0000  5.0000
+4  152.4
+0.0, 0.033	0.1, 0.264	0.9, 0.264	1.0, 0.033

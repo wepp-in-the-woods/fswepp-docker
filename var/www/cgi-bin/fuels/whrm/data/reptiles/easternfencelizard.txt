@@ -1,0 +1,78 @@
+#this files was modified by filegenwhrm.pl on: Wednesday, March 16, 2005.
+#taxgroup Reptiles species Eastern fence lizard /  Sceloporus undulatus
+#
+# Rank
+2,-99,1,-99,1
+# Nestsite
+-99
+# Reprorank
+-99
+# Foraging Habitat
+8,1:13,1
+# Habitatrank
+1,-99:1,-99
+# Forage/Prey Availability
+-99
+# Preyrank
+-99
+# Predator Avoidance
+8,1:13,1
+# Avoidrank
+1,-99:1,-99
+# Refugia/Shelter
+8,1:13,1
+# Shelterrank
+1,-99:1,-99
+# Coverrank
+1,-99:1,-99
+# Literature
+Distribution
+southern USA west to eastern Nevada, south into Mexico, with many sub-species
+General Habitat
+variety of habitats: forests, woodland, prairie, shrubby flatlands, sand dunes, rocky hillsides, and farmlands
+Home or Activity Range
+no information available
+Canopy Cover
+no information available
+Specific Habitat Preferences
+seeks shelter in bushes, trees, old buildings, woodpiles, rodent burrows, and under rocks, logs, or other objects on the ground
+Nestsite Characteristics
+no information available
+Foraging Habitat Characteristics
+may forage on logs and snags
+Diet
+insects: grasshoppers, beetles, flies, ants, wasps, termites, larvae; spiders, ticks, millipedes, snails, and small lizards
+Predators
+no information available
+Shelter Habitats
+seeks shelter in bushes, trees, old buildings, woodpiles, rodent burrows, and under rocks, logs, or other objects on the ground
+Response to Disturbance
+abundant in both forest burned by stand-replacing wildfire and unburned forest (Cunningham et al. 2002)
+Sources of Information used in the Model
+James and M'Closkey 2003
+General Sources of Background Information
+Cunningham et al. 2002, James and M'Closkey 2002, James and M'Closkey 2003, Stebbins 2003, James and M'Closkey 2004
+Summaries of Specific Studies
+Cunningham, Stan C.; Babb, Randall D.; Jones, Thomas R.; Taubert, Bruce D.; Vega, Raul. 2002. Reaction of lizard populations to a catastrophic wildfire in a central Arizona mountain range. Biological Conservation. 107(2002): 193-201.
+
+Study Location: central Arizona
+Habitat Description: PIPO and mixed conifer at high elevations, interior chaparral and Sonoran desert scrub at lower elevations
+Summary: Reptile species were trapped in burned and unburned chaparral and forest plots for 3 years after a wildfire. This study found that the majority of founders were fire-survivors. Relative abundance of animals was 10 times greater in burned areas; species richness and diversity were also higher. In the forested areas, reptile abundance was 4-9 times greater in burned than unburned forest. The relative abundance of individual species in burned and unburned forest is presented. The overall preference for burned areas could be attributed to a variety of factors, including an increase in food resources. The results of this study are short-term in nature; inference is limited and additional work should be done to further examine the patterns found.
+
+James, Sarah E.; M'Closkey, Robert T. 2002. Patterns of microhabitat use in a sympatric lizard assemblage. Canadian Journal of Zoology. 80:2226-2234.
+
+Study Location: Colorado
+Habitat Description: pinyon-juniper
+Summary: Microhabitat differences within an assemblage of phyronosomatine lizard species were characterized. The microhabitat of the ornate tree lizard was different from all others in that it used a higher perch height and more vertical substrate (dead standing and prone trees), indicative of its arboreal nature. The sagebrush lizard used areas with more flatland, more prone dead trees, and less rock, indicative of its preference for more open, sandy areas within the woodland.  No significant distinguishing microhabitat variables were found for the eastern fence lizard or the side-blotched lizard.
+
+James, Sarah E.; M'Closkey, Robert T. 2003. Lizard microhabitat and fire fuel management. Biological Conservation. 114(2003): 293-297.
+
+Study Location: Colorado
+Habitat Description: pinyon-juniper
+Summary: Primary objectives included quantifying the phyrnosomatid lizard preference for dead trees, examine differences in use among species, and to explore conservation implications of findings. The eastern fence lizard, ornate tree lizard, sagebrush lizard and the side-blotched lizard all used dead trees more than expected based on availability. The ornate tree lizard used dead standing wood more than dead prone wood (it did use both), but there was no significant difference for the other species. 
+
+James, Sarah E.; M'Closkey, Robert T. 2004. Patterns of body size and habitat use in a lizard assemblage. Ecoscience. 11(2): 160-167.
+
+Study Location: Colorado
+Habitat Description: pinyon-juniper
+Summary: Differences in the distribution and behavior were quantified for the eastern fence lizard, ornate tree lizard, and the side-blotched lizard in two habitats in pinyon-juniper woodland. Density and community interaction was highest on rock ridges dissecting the woodland than in surrounding flat, open areas. Larger lizards resided in the rock habitat. Juveniles were found more often in the surrounding open areas. The authors attribute the patterns to aggressive exclusion and predation of hatchlings in the rocky habitat. 

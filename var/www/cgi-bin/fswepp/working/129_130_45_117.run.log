@@ -1,0 +1,14 @@
+WR	wepp-14878	"07:33 am  Monday May 7, 2012"	"FLAGSTAFF WB AP AZ"	30	sand	graveled	820.25	5	16.405	13.124	50	114.835	40	20	outrut	ft
+WR	wepp-14931	"07:37 am  Monday May 7, 2012"	"FLAGSTAFF WB AP AZ"	30	sand	graveled	820.25	5	16.405	13.124	50	114.835	40	20	outunrut	ft
+WD	wepp-15043	"07:47 am  Monday May 7, 2012"	"../climates/wv461570"	1	clay	YoungForest	65.62	0	50	30	20		65.62	0	50	30	20	0	ft	""
+WD	wepp-15046	"07:47 am  Monday May 7, 2012"	"../climates/co052220"	10	clay		50	0	50	30	20	OldForest	50	30	5	100	20	0	ft	""
+WD	wepp-15110	"07:49 am  Monday May 7, 2012"	"../climates/wv461570"	10	clay	Sod	65.62	0	50	30	20		65.62	50	50	30	20	0	ft	""
+WD	wepp-15111	"07:49 am  Monday May 7, 2012"	"../climates/wv461570"	10	clay	Sod	65.62	0	50	30	20		65.62	50	0	0	20	0	ft	""
+WD	wepp-15112	"07:49 am  Monday May 7, 2012"	"../climates/wv461570"	10	clay	Sod	65.62	0	30	40	20		65.62	30	5	0	20	0	ft	""
+WR	wepp-6809	"09:42 pm  Tuesday March 12, 2013"	"FLAGSTAFF WB AP AZ"	30	sand	graveled	250	5	5	4	50	35	40	0	outrut	ft
+WR	wepp-6830	"09:43 pm  Tuesday March 12, 2013"	"FLAGSTAFF WB AP AZ"	30	sand	graveled	250	5	5	4	50	35	40	0	outunrut	ft
+WD	wepp-6901	"09:48 pm  Tuesday March 12, 2013"	"CHARLESTON KAN AP WV"	10	clay	Bunchgrass	40	50	50	30	0	Bunchgrass	40	50	50	30	0	0	ft	""
+WD	wepp-7072	"10:02 pm  Tuesday March 12, 2013"	"CHARLESTON KAN AP WV"	10	clay	Bunchgrass	40	50	50	60	0	Bunchgrass	40	50	50	60	0	0	ft	""
+WD	wepp-7093	"10:03 pm  Tuesday March 12, 2013"	"CHARLESTON KAN AP WV"	10	clay	Bunchgrass	40	50	50	100	0	Bunchgrass	40	50	50	100	0	0	ft	""
+WR	wepp-27603	"08:21 pm  Wednesday March 13, 2013"	"FLAGSTAFF WB AP AZ"	30	sand	graveled	250	5	5	4	50	35	40	0	outunrut	m
+WR	wepp-27670	"08:25 pm  Wednesday March 13, 2013"	"FLAGSTAFF WB AP AZ"	30	sand	graveled	250	5	5	4	50	35	40	0	outrut	m

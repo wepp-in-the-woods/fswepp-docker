@@ -1,0 +1,66 @@
+#this files was modified by filegenwhrm.pl on: Wednesday, March 16, 2005.
+#taxgroup Birds species Evening grosbeak / Hesperiphona vespertina
+#
+# Rank
+2,1,1,-99,-99
+# Nestsite
+25,1:26,1
+# Reprorank
+1,-99:1,-99
+# Foraging Habitat
+25,1:26,1
+# Habitatrank
+1,-99:1,-99
+# Forage/Prey Availability
+-99
+# Preyrank
+-99
+# Predator Avoidance
+-99
+# Avoidrank
+-99
+# Refugia/Shelter
+-99
+# Shelterrank
+-99
+# Coverrank
+-99
+# Literature
+Distribution
+much of USA and Canada, extends into parts of Mexico
+General Habitat
+breeds in mixed woods; in the west, mainly in mountains
+Home or Activity Range
+no information available
+Canopy Cover
+no information available
+Specific Habitat Preferences
+large trees, 40-69% canopy cover
+Nestsite Characteristics
+nests built on horizontal branch of tree far from the trunk; nest is a frail structure of twigs, grass, moss, roots and pine needles
+Foraging Habitat Characteristics
+forages in trees, shrubs, and sometimes on the ground
+Diet
+conifer seeds: fir, pine, spruce, and western red cedar; broad-leafed trees: vine maple, bigleaf maple, dogwood, willow, and oak; insects: (during breeding season) caterpillars, ants, bees, wasps, and true bugs (up to 20% of summer diet); some fruit: mountain ash, chokecherries, juniper berries, and pinion nuts; often consume dirt and gravel for minerals and salts
+Predators
+no information available
+Shelter Habitats
+no information available
+Response to Disturbance
+less abundant in low shrub-stage clearcuts compared to uncut forest (Hejl et al. 1995)
+Sources of Information used in the Model
+Verner 1980
+General Sources of Background Information
+Verner 1980, Hejl et al. 1995, National Geographic Society 1996, Alsop 2001,  reviewed in O'Neil et al. 2001
+Summaries of Specific Studies
+Hejl, Sallie J.; Hutto, Richard L.; Preston, Charles R.; Finch, Deborah M. 1995. Effects of silvicultural treatments in the Rocky Mountains. In:Martin, Thomas E.; Finch, Deborah M. (eds.). Ecology and Management of Neotropical Migratory Birds. New York, Oxford: Oxford University Press. 220-244.
+
+Study Location: Rocky Mountains
+Habitat Description: forest types across the Rocky mountains
+Summary: Synthesis of the effects of different silvicultural treatments on neotropical migrants in forests of the Rocky Mountains. Outlines current forest structure, natural disturbance, logging history, and current silvicultural recommendations. General bird-habitat relationships in natural forest, including stands of different ages, are contrasted with stands that are silviculturally manipulated. Contains detailed species lists for rare to abundant bird species that are found in 8 forest types commonly found in the Rockies (Table 8-2). Also lists species by their likelihood to be more or less abundant in managed stands (classified as one of three types of clearcuts or partial cuts) compared to uncut forest. (Table 8-3)
+
+Verner, Jared. 1980. Bird communities of mixed-conifer forests of the Sierra Nevada. In Management of western forests and grasslands for nongame birds: workshop proceedings. February 11-14, 1980, Salt Lake City, UT. USDA Forest Service Gen. Tech. Rep. INT-86, Ogden, UT. pp 198-223.
+
+Study Location: Sierra Nevada of California
+Habitat Description: ABCO/LIDE/PILA/PIPO/PSME
+Summary: Breeding bird species are predicted for the various habitat stages of mixed-conifer forest in the Sierra Nevada. Habitat is broken into groups based on tree size (exact diameters not given) and canopy closure. Relative suitability of habitats is listed; optimal habitat only was entered in this database. This species-habitat matrix was made from data from various studies in the region. Predictions were more accurate for later seral stages than early. Forest management in regards to bird communities is discussed, emphasizing the importance of late seral stages for breeding birds in the study region.

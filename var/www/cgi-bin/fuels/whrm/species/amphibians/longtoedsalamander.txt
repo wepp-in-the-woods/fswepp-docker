@@ -1,0 +1,72 @@
+#this files was modified by filegenwhrm.pl on: Wednesday, March 16, 2005.
+#taxgroup Amphibians species Long-toed salamander /  Ambystoma macrodactylum
+#
+# Rank
+2,-99,-99,-99,2
+# Nestsite
+-99
+# Reprorank
+-99
+# Foraging Habitat
+-99
+# Habitatrank
+-99
+# Forage/Prey Availability
+-99
+# Preyrank
+-99
+# Predator Avoidance
+-99
+# Avoidrank
+-99
+# Refugia/Shelter
+3,1:4,1:20,1:22,1:25,1:26,1
+# Shelterrank
+1,-99:1,-99:1,-99:1,-99:1,-99:1,-99
+# Coverrank
+1,-99:1,-99:1,-99:1,-99:1,-99:1,-99
+# Literature
+Distribution
+northwestern USA north into western Canada and southern Alaska
+General Habitat
+frequents a variety of habitats, including semiarid sagebrush, cheatgrass plains, alpine meadows, barren rocky shores of high mountain lakes
+Home or Activity Range
+no information available
+Canopy Cover
+70% reduction in salamander numbers in stands that had the canopy opened by logging (Naughton et al. 2000)
+Specific Habitat Preferences
+found in piles of rotten wood, under bark, rotting logs, rocks, and other objects near quiet water of ponds, lakes, or streams; larvae reside in shallow, often ephemeral ponds
+Nestsite Characteristics
+breeds in ponds, some not completely free of ice; eggs are attached to vegetation, sticks or rocks, predominantly in temporary pools
+Foraging Habitat Characteristics
+no information available
+Diet
+larvae eat small invertebrates (copepods and fairy shrimp), also young Pacific Tree frog tadpoles and smaller long-toed salamander larvae
+Predators
+introduced fish
+Shelter Habitats
+found in piles of rotten wood, under bark, rotting logs, rocks, and other objects near quiet water of ponds, lakes, or streams; shrubs, forbs and small trees provide cover that reduces dessication
+Response to Disturbance
+overstory removal and new forestry harvest treatments reduced the abundance of adult salamanders to 25% of the intact stands, and adults were larger on treated stands (McGraw 1995); salamander populations were 70% lower in new forestry and overstory removal stands compared to intact stands (Naughton et al. 2000); egg and larvae abundance negatively influenced by introduced trout presence (Bull and Marx 2002)
+Sources of Information used in the Model
+McGraw 1995, Naughton et al. 2000
+General Sources of Background Information
+Leonard et al. 1993, McGraw 1995, Naughton et al. 2000, Bull and Marx 2002, Stebbins 2003
+Summaries of Specific Studies
+Bull, Evelyn L.; Marx, David B. 2002. Influence of fish and habitat on amphibian communities in high elevation lakes in northeastern Oregon. Northwest Science. 76(3): 240-248.
+
+Study Location: northeastern Oregon
+Habitat Description: not stated
+Summary: High elevation lakes in Oregon were surveyed to determine if amphibian abundances were related to introduced fish species, habitat characteristics, or both. Long-toed salamander and Pacific treefrog abundances were negatively affected by introduced trout, while habitat characteristics, including CWD, exerted more influence on the abundance of eggs and larvae of western toads and Columbia spotted frogs.
+
+McGraw, Rex L. 1995. Timber harvest effects on metamorphosed and larval long-toed salamanders (Ambystoma macrodactylum). Missoula, MT: University of Montana. 74 p. M.S. Thesis.
+
+Study Location: northwestern Montana
+Habitat Description: PSME-dominated
+Summary: The relative abundance of metamorphosed and larval long-toed salamanders was examined in both intact sites and sites that had been harvested with new forestry or overstory removal harvest techniques. Both harvest treatments reduced the abundance of salamanders to 25% of the intact stands. Salamanders that survived the treatments were larger than those found on intact sites. The author attributes this pattern to the ability of larger salamanders to withstand dessication, the risk of which is higher in treated areas. Larval salamanders did not exhibit a clear pattern of response to harvest, but were more abundant in smaller ponds where diversity of invertebrate predators and competitors was the lowest.
+
+Naughton, George P.; Henderson, Colin B.; Foresman, Kerry R.; McGraw II, Rex L. 2000. Long-toed salamanders in harvested and intact Douglas-fir forests of western Montana. Ecological Applications. 10(6): 1681-1689.
+
+Study Location: western Montana
+Habitat Description: PSME, PICO, LAOC, PIPO,PIEN
+Summary: Long-toed salamander populations were examined in intact, environmentally harvested, and overstory-removal harvest sites. Logged stands contained fewer salamanders regardless of harvest type; the number of salamanders on intact sites was three times as high as the number on logged sites. Lower amphibian numbers were linked to a decrease in the number of large, live trees, and not to changes in understory vegetation, snags or debris which were not affected with logging. The authors believe that the decrease was due to changes in the physical environment, including increased temperatures and decreased moisture.

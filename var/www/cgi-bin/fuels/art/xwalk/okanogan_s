@@ -1,0 +1,27 @@
+#	Forested Plant Associations of the Okanogan National Forest.
+#	Portland, OR: U.S. Department of Agriculture, Forest Service, Pacific Northwest Region. 139 p.
+#	Report R6-Ecol-132b-1983.
+#	Williams, C.K. and T.R. Lillybridge. 1983.
+# ABLA/VACI to ABLA/VACCI
+# PSME/VACI to PSME/VACCI
+ABLA/CARU	ColdF	DS	ColdF/DS	L
+ABLA/LIBO	ColdF	DH	ColdF/DH	H
+ABLA/PAMY	ColdF	DH	ColdF/DH	H
+ABLA/PHEM	ColdF	DS	ColdF/DS	L
+ABLA/RHAL	ColdF	DH	ColdF/DH	H
+ABLA/VACCI	ColdF	DH	ColdF/DH	H
+ABLA/VASC	ColdF	DS	ColdF/DS	L
+ABLA/VASC-CARU	ColdF	DH	ColdF/DH	H
+PIAL/CARU	DF	DS	DF/DS	L
+PIEN/EQAR	ColdF	WH	ColdF/WH	H
+PIPO-PSME/AGIN	DF	DS	DF/DS	L
+POTR/CARU	CoolP	DS	CoolP/DS	L
+POTR/SYAL	CoolP	DH	CoolP/DH	H
+PSME/ARUV	DF	DS	DF/DS	L
+PSME/ARUV-PUTR	DF	DS	DF/DS	L
+PSME/CARU	DF	DS	DF/DS	L
+PSME/PAMY	DF	DS	DF/DS	L
+PSME/PHMA	DF	DS	DF/DS	L
+PSME/SYAL	DF	DS	DF/DS	L
+PSME/SYOR	DF	DS	DF/DS	L
+PSME/VACCI	DF	DH	DF/DH	H

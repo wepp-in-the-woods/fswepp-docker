@@ -1,0 +1,70 @@
+WD	wepp-46402	"08:24 am  Thursday January 2, 2020"	"GRAND JUNCTION WBAP CO"	10	clay	OldForest	50	0	30	100	20	OldForest	50	30	5	100	20	0	ft	""
+WD	wepp-209689	"08:00 am  Monday January 27, 2020"	"DENVER WB AP CO"	10	clay	Shrub	50	0	30	80	20	Sod	50	30	5	40	20	0	ft	"Sim1"
+WD	wepp-609	"11:50 am  Tuesday January 28, 2020"	"MOSCOW U OF I ID"	10	clay	Bunchgrass	50	0	30	60	0	Sod	50	30	5	35	0	0	ft	"test"
+WR	wepp-190285	"01:58 pm  Monday March 23, 2020"	"MOSCOW U OF I ID"	30	clay	native	200	4	13	15	50	130	25	20	outrut	ft
+WD	wepp-5960	"06:48 am  Wednesday March 25, 2020"	"SALMON 1N ID +"	10	loam	YoungForest	100	20	50	75	20	Skid	100	20	50	10	20	0	ft	""
+WD	wepp-5999	"06:49 am  Wednesday March 25, 2020"	"SALMON 1N ID +"	10	loam	YoungForest	100	20	50	75	20	Skid	100	20	40	10	20	0	ft	""
+WD	wepp-6451	"07:06 am  Wednesday March 25, 2020"	"SALMON 1N ID +"	10	loam	YoungForest	50	20	50	75	20	Skid	50	40	10	10	20	0	ft	""
+WR	wepp-226887	"11:40 am  Tuesday June 2, 2020"	"MONTROSE NO 2 CO"	30	clay	native	250	2	15	15	50	130	25	20	outunrut	ft
+WE	wepp-13116	"12:38 pm  Tuesday September 15, 2020"	"GRAND JUNCTION WBAP CO"	silt	20	range	0	50	30	300	l	15	75	ft
+WE	wepp-13315	"12:40 pm  Tuesday September 15, 2020"	"GRAND JUNCTION WBAP CO"	silt	20	range	0	50	30	300	h	15	75	ft
+WD	wepp-95421	"07:59 am  Wednesday September 16, 2020"	"GRAND JUNCTION WBAP CO"	30	silt	OldForest	50	0	30	100	20	OldForest	50	30	5	100	20	0	ft	""
+WD	wepp-95715	"08:00 am  Wednesday September 16, 2020"	"GRAND JUNCTION WBAP CO"	30	silt	LowFire	50	0	30	85	20	LowFire	50	30	5	85	20	0	ft	""
+WD	wepp-95825	"08:00 am  Wednesday September 16, 2020"	"GRAND JUNCTION WBAP CO"	30	silt	LowFire	50	0	30	0	20	LowFire	50	30	5	0	20	0	ft	""
+WD	wepp-175341	"06:50 pm  Thursday September 17, 2020"	"GRAND JUNCTION WBAP CO"	10	silt	HighFire	50	0	30	45	20	HighFire	50	30	5	45	20	0	ft	""
+WD	wepp-175405	"06:52 pm  Thursday September 17, 2020"	"GRAND JUNCTION WBAP CO"	10	silt	LowFire	50	0	60	60	0	LowFire	50	60	5	60	0	0	ft	""
+WD	wepp-175458	"06:53 pm  Thursday September 17, 2020"	"GRAND JUNCTION WBAP CO"	10	silt	LowFire	50	0	60	60	0	HighFire	50	60	5	45	0	0	ft	""
+WE	wepp-3304	"05:02 pm  Wednesday October 7, 2020"	"LOGANDALE UNEXP FM NV"	silt	50	range	0	50	30	300	h	60	10	ft
+WD	wepp-224738	"11:10 am  Tuesday October 20, 2020"	"GREEN MOUNTAIN DAM CO"	10	sand	HighFire	400	40	30	20	20	LowFire	50	30	5	85	20	0	ft	""
+WD	wepp-224783	"11:10 am  Tuesday October 20, 2020"	"GREEN MOUNTAIN DAM CO"	10	sand	HighFire	600	60	30	5	20	LowFire	50	30	5	25	20	0	ft	""
+WE	wepp-39603	"08:16 am  Tuesday February 2, 2021"	"GRAND JUNCTION WBAP CO"	clay	20	range	0	5	5	1000	m	15	75	ft
+WE	wepp-39689	"08:16 am  Tuesday February 2, 2021"	"GRAND JUNCTION WBAP CO"	clay	20	range	0	5	5	1000	m	15	75	ft
+WE	wepp-39903	"08:17 am  Tuesday February 2, 2021"	"GRAND JUNCTION WBAP CO"	clay	5	range	0	5	5	1000	m	15	75	ft
+WE	wepp-40082	"08:21 am  Tuesday February 2, 2021"	"GRAND JUNCTION WBAP CO"	clay	5	range	0	50	5	1000	m	15	75	ft
+WE	wepp-40248	"08:22 am  Tuesday February 2, 2021"	"GRAND JUNCTION WBAP CO"	clay	5	range	0	80	5	1000	m	15	75	ft
+WE	wepp-40440	"08:24 am  Tuesday February 2, 2021"	"GRAND JUNCTION WBAP CO"	silt	5	range	0	12	5	1000	m	15	75	ft
+WE	wepp-40628	"08:26 am  Tuesday February 2, 2021"	"GRAND JUNCTION WBAP CO"	silt	5	range	0	50	5	1000	m	15	75	ft
+WE	wepp-40817	"08:28 am  Tuesday February 2, 2021"	"GRAND JUNCTION WBAP CO"	silt	5	range	0	80	5	1000	m	15	75	ft
+WE	wepp-41054	"08:30 am  Tuesday February 2, 2021"	"GRAND JUNCTION WBAP CO"	sand	5	range	0	12	5	1000	m	15	75	ft
+WE	wepp-41220	"08:32 am  Tuesday February 2, 2021"	"GRAND JUNCTION WBAP CO"	sand	5	range	0	50	5	1000	m	15	75	ft
+WE	wepp-41384	"08:33 am  Tuesday February 2, 2021"	"GRAND JUNCTION WBAP CO"	sand	5	range	0	80	5	1000	m	15	75	ft
+WE	wepp-41565	"08:34 am  Tuesday February 2, 2021"	"GRAND JUNCTION WBAP CO"	loam	5	range	0	12	5	1000	m	15	75	ft
+WE	wepp-41744	"08:36 am  Tuesday February 2, 2021"	"GRAND JUNCTION WBAP CO"	loam	5	range	0	50	5	1000	m	15	75	ft
+WE	wepp-41954	"08:38 am  Tuesday February 2, 2021"	"GRAND JUNCTION WBAP CO"	loam	5	range	0	80	5	1000	m	15	75	ft
+WE	wepp-42206	"08:41 am  Tuesday February 2, 2021"	"GRAND JUNCTION WBAP CO"	clay	5	range	0	12	5	1000	m	75	10	ft
+WE	wepp-42501	"08:46 am  Tuesday February 2, 2021"	"GRAND JUNCTION WBAP CO"	clay	5	range	0	50	5	1000	m	75	10	ft
+WE	wepp-42759	"08:49 am  Tuesday February 2, 2021"	"GRAND JUNCTION WBAP CO"	clay	5	range	0	80	5	1000	m	75	10	ft
+WE	wepp-42979	"08:52 am  Tuesday February 2, 2021"	"GRAND JUNCTION WBAP CO"	silt	5	range	0	12	5	1000	m	75	10	ft
+WE	wepp-43227	"08:57 am  Tuesday February 2, 2021"	"GRAND JUNCTION WBAP CO"	silt	5	range	0	50	5	1000	m	75	10	ft
+WE	wepp-43415	"08:58 am  Tuesday February 2, 2021"	"GRAND JUNCTION WBAP CO"	silt	5	range	0	80	5	1000	m	75	10	ft
+WE	wepp-43617	"08:59 am  Tuesday February 2, 2021"	"GRAND JUNCTION WBAP CO"	sand	5	range	0	12	5	1000	m	75	10	ft
+WE	wepp-43874	"09:00 am  Tuesday February 2, 2021"	"GRAND JUNCTION WBAP CO"	sand	5	range	0	50	5	1000	m	75	10	ft
+WE	wepp-44070	"09:01 am  Tuesday February 2, 2021"	"GRAND JUNCTION WBAP CO"	sand	5	range	0	80	5	1000	m	75	10	ft
+WE	wepp-44284	"09:03 am  Tuesday February 2, 2021"	"GRAND JUNCTION WBAP CO"	loam	5	range	0	80	5	1000	m	75	10	ft
+WE	wepp-44475	"09:04 am  Tuesday February 2, 2021"	"GRAND JUNCTION WBAP CO"	loam	5	range	0	50	5	1000	m	75	10	ft
+WE	wepp-44963	"09:05 am  Tuesday February 2, 2021"	"GRAND JUNCTION WBAP CO"	loam	5	range	0	12	5	1000	m	75	10	ft
+WE	wepp-46483	"09:19 am  Tuesday February 2, 2021"	"GRAND JUNCTION WBAP CO"	loam	25	forest	0	60	5	1000	m			ft
+WE	wepp-48106	"10:17 am  Tuesday February 2, 2021"	"GRAND JUNCTION WBAP CO"	clay	5	range	0	60	5	1000	m	15	75	ft
+WD	wepp-48397	"10:19 am  Tuesday February 2, 2021"	"GRAND JUNCTION WBAP CO"	10	clay	HighFire	500	0	50	0	5	HighFire	500	30	5	0	5	0	ft	""
+WE	wepp-48454	"10:22 am  Tuesday February 2, 2021"	"GRAND JUNCTION WBAP CO"	clay	5	range	0	50	5	1000	m	15	75	ft
+WE	wepp-86047	"07:54 am  Wednesday February 3, 2021"	"GRAND JUNCTION WBAP CO"	clay	5	range	0	50	5	300	m	15	75	ft
+WE	wepp-102110	"02:24 pm  Wednesday February 3, 2021"	"GRAND JUNCTION WBAP CO"	silt	5	range	0	80	5	300	m	15	75	ft
+WE	wepp-102304	"02:26 pm  Wednesday February 3, 2021"	"GRAND JUNCTION WBAP CO"	silt	5	range	0	80	5	1000	m	15	75	ft
+WD	wepp-126642	"10:04 am  Thursday February 4, 2021"	"GRAND JUNCTION WBAP CO"	50	silt	HighFire	50	0	50	45	5	HighFire	50	50	5	45	5	0	ft	""
+WD	wepp-126687	"10:05 am  Thursday February 4, 2021"	"GRAND JUNCTION WBAP CO"	50	silt	HighFire	500	0	50	45	5	HighFire	500	50	5	45	5	0	ft	""
+WD	wepp-126736	"10:07 am  Thursday February 4, 2021"	"GRAND JUNCTION WBAP CO"	50	loam	HighFire	500	0	50	45	5	HighFire	500	50	5	45	5	0	ft	""
+WD	wepp-126873	"10:09 am  Thursday February 4, 2021"	"GRAND JUNCTION WBAP CO"	50	clay	HighFire	500	0	50	45	5	HighFire	500	50	5	45	5	0	ft	""
+WR	wepp-10591	"02:14 pm  Thursday February 11, 2021"	"GRAND JUNCTION WBAP CO"	30	loam	native	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-10660	"02:16 pm  Thursday February 11, 2021"	"GRAND JUNCTION WBAP CO"	30	clay	native	200	4	13	15	50	130	25	20	inveg	ft
+WD	wepp-10881	"02:20 pm  Thursday February 11, 2021"	"ALAMOSA WB AP CO +"	10	sand	Shrub	50	0	30	80	20	Sod	50	30	5	40	20	0	ft	""
+WD	wepp-10978	"02:26 pm  Thursday February 11, 2021"	"ALAMOSA WB AP CO +"	10	loam	Shrub	1200	0	30	80	20	Sod	50	30	5	40	20	0	ft	""
+WD	wepp-139585	"01:42 pm  Wednesday April 28, 2021"	"SEXTON SUMMIT WB OR"	10	clay	OldForest	50	0	30	100	20	OldForest	50	30	5	100	20	0	ft	""
+WD	wepp-139627	"01:42 pm  Wednesday April 28, 2021"	"SEXTON SUMMIT WB OR"	10	clay	HighFire	50	0	30	45	20	LowFire	50	30	5	85	20	0	ft	""
+WE	wepp-165576	"04:59 pm  Tuesday July 6, 2021"	"SAGUACHE CO +"	sand	20	range	20	70	10	300	h	80	15	ft
+WE	wepp-165792	"05:01 pm  Tuesday July 6, 2021"	"LOGANDALE UNEXP FM NV"	sand	20	range	20	70	10	300	h	80	15	ft
+WE	wepp-166116	"05:04 pm  Tuesday July 6, 2021"	"LOGANDALE UNEXP FM NV"	clay	20	range	50	40	10	300	h	80	15	ft
+WE	wepp-166326	"05:05 pm  Tuesday July 6, 2021"	"LOGANDALE UNEXP FM NV"	clay	20	range	10	80	10	300	h	80	15	ft
+WR	wepp-178707	"10:20 am  Tuesday January 4, 2022"	"GRAND JUNCTION WBAP CO"	30	clay	native	200	4	13	15	50	130	25	20	outrut	ft
+WR	wepp-179434	"10:38 am  Tuesday January 4, 2022"	"GRAND JUNCTION WBAP CO"	30	clay	native	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-179533	"10:39 am  Tuesday January 4, 2022"	"DENVER WB AP CO"	30	clay	native	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-70702	"02:46 pm  Monday April 11, 2022"	"GRAND JUNCTION WBAP CO"	30	clay	native	200	4	13	15	50	130	25	20	inveg	ft

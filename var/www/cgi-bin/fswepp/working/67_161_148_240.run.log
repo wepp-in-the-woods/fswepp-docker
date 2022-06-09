@@ -1,0 +1,29 @@
+WE	wepp-3649	"08:36 pm  Thursday April 1, 2021"	"BIRMINGHAM WB AP AL"	loam	20	forest	0	50	30	300	u			ft
+WE	wepp-4230	"08:43 pm  Thursday April 1, 2021"	"CIMARRON NM"	clay	20	forest	0	13.18	0	30	u			m
+WE	wepp-4356	"08:47 pm  Thursday April 1, 2021"	"CIMARRON NM"	clay	20	forest	0	13.18	0	30	m			m
+WE	wepp-4517	"08:47 pm  Thursday April 1, 2021"	"CIMARRON NM"	loam	20	forest	0	13.18	0	30	u			m
+WE	wepp-4582	"08:48 pm  Thursday April 1, 2021"	"CIMARRON NM"	loam	20	forest	0	13.18	0	30	m			m
+WE	wepp-4815	"08:50 pm  Thursday April 1, 2021"	"CIMARRON NM"	loam	20	forest	0	13.18	0	30	u			m
+WE	wepp-4889	"08:51 pm  Thursday April 1, 2021"	"CIMARRON NM"	loam	20	forest	0	13.18	0	30	l			m
+WE	wepp-5017	"08:51 pm  Thursday April 1, 2021"	"CIMARRON NM"	loam	20	forest	0	13.18	0	30	u			m
+WE	wepp-5087	"08:52 pm  Thursday April 1, 2021"	"CIMARRON NM"	loam	20	forest	0	13.18	0	30	h			m
+WE	wepp-5309	"08:55 pm  Thursday April 1, 2021"	"CIMARRON NM"	loam	20	forest	13.18	13.18	13.18	30	h			m
+WE	wepp-5530	"08:56 pm  Thursday April 1, 2021"	"CIMARRON NM"	loam	20	forest	13.18	13.18	13.18	30	m			m
+WE	wepp-5701	"08:57 pm  Thursday April 1, 2021"	"CIMARRON NM"	loam	20	forest	13.18	13.18	13.18	30	u			m
+WD	wepp-38910	"02:03 pm  Monday November 29, 2021"	"ESTES PARK 1N CO"	100	sand	HighFire	100	20	20	5	20	HighFire	100	20	20	5	20	0	m	""
+WD	wepp-39015	"02:05 pm  Monday November 29, 2021"	"ESTES PARK 1N CO"	100	sand	HighFire	100	40	40	5	20	HighFire	100	40	40	5	20	0	m	""
+WD	wepp-39053	"02:06 pm  Monday November 29, 2021"	"ESTES PARK 1N CO"	100	sand	HighFire	100	60	60	5	20	HighFire	100	60	60	5	20	0	m	""
+WD	wepp-39093	"02:07 pm  Monday November 29, 2021"	"ESTES PARK 1N CO"	100	sand	HighFire	100	80	80	5	20	HighFire	100	80	80	5	20	0	m	""
+WD	wepp-39131	"02:08 pm  Monday November 29, 2021"	"ESTES PARK 1N CO"	100	clay	HighFire	100	40	40	5	20	HighFire	100	40	40	5	20	0	m	""
+WD	wepp-39224	"02:09 pm  Monday November 29, 2021"	"ESTES PARK 1N CO"	100	sand	LowFire	100	40	40	50	20	LowFire	100	40	40	50	20	0	m	""
+WD	wepp-39262	"02:10 pm  Monday November 29, 2021"	"ESTES PARK 1N CO"	100	sand	OldForest	100	40	40	100	20	OldForest	100	40	40	100	20	0	m	""
+WD	wepp-39300	"02:11 pm  Monday November 29, 2021"	"ESTES PARK 1N CO"	100	sand	OldForest	100	40	40	100	20	OldForest	100	40	40	100	20	0	m	""
+WD	wepp-39337	"02:11 pm  Monday November 29, 2021"	"ESTES PARK 1N CO"	100	sand	LowFire	100	40	40	50	20	LowFire	100	40	40	50	20	0	m	""
+WD	wepp-39376	"02:13 pm  Monday November 29, 2021"	"SAN JOSE CA"	100	sand	HighFire	100	20	20	5	20	HighFire	100	20	20	5	20	0	m	""
+WD	wepp-39414	"02:13 pm  Monday November 29, 2021"	"SAN JOSE CA"	100	sand	HighFire	100	40	40	5	20	HighFire	100	40	40	5	20	0	m	""
+WD	wepp-39451	"02:14 pm  Monday November 29, 2021"	"SAN JOSE CA"	100	sand	HighFire	100	60	60	5	20	HighFire	100	60	60	5	20	0	m	""
+WD	wepp-39491	"02:15 pm  Monday November 29, 2021"	"SAN JOSE CA"	100	sand	HighFire	100	80	80	5	20	HighFire	100	80	80	5	20	0	m	""
+WD	wepp-39528	"02:15 pm  Monday November 29, 2021"	"SAN JOSE CA"	100	clay	HighFire	100	40	40	5	20	HighFire	100	40	40	5	20	0	m	""
+WD	wepp-39571	"02:17 pm  Monday November 29, 2021"	"SAN JOSE CA"	100	clay	LowFire	100	40	40	50	20	LowFire	100	40	40	50	20	0	m	""
+WD	wepp-39609	"02:17 pm  Monday November 29, 2021"	"SAN JOSE CA"	100	sand	LowFire	100	40	40	50	20	LowFire	100	40	40	50	20	0	m	""
+WD	wepp-39645	"02:18 pm  Monday November 29, 2021"	"SAN JOSE CA"	100	sand	OldForest	100	40	40	100	20	OldForest	100	40	40	100	20	0	m	""

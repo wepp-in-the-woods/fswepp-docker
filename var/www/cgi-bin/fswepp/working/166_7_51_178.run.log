@@ -1,0 +1,66 @@
+WD	wepp-174629	"01:07 pm  Friday September 9, 2016"	"Westside Low El +"	50	sand	HighFire	100	20	12	25	20	LowFire	100	12	12	85	20	0	ft	"NW Unit 2A"
+WD	wepp-174676	"01:10 pm  Friday September 9, 2016"	"Westside Low El +"	50	sand	HighFire	100	20	12	25	20	HighFire	100	12	12	45	20	0	ft	"NW Unit 2A"
+WD	wepp-174712	"01:12 pm  Friday September 9, 2016"	"Westside Low El +"	50	sand	HighFire	100	20	12	35	20	HighFire	100	12	12	35	20	0	ft	""
+WD	wepp-175374	"01:53 pm  Friday September 9, 2016"	"Westside Low El +"	50	sand	HighFire	100	20	12	35	20	Skid	100	12	12	20	20	0	ft	""
+WD	wepp-175443	"01:56 pm  Friday September 9, 2016"	"Westside Low El +"	50	sand	HighFire	100	20	20	35	20	Skid	100	20	20	20	20	0	ft	""
+WD	wepp-175581	"02:35 pm  Friday September 9, 2016"	"Westside Low El +"	50	sand	HighFire	100	20	20	35	20	Skid	100	20	20	5	20	0	ft	""
+WD	wepp-175629	"02:39 pm  Friday September 9, 2016"	"Westside Low El +"	50	sand	Skid	100	20	20	5	20	HighFire	100	20	15	35	20	0	ft	"buffer effectiveness "
+WD	wepp-175665	"02:40 pm  Friday September 9, 2016"	"Westside Low El +"	50	sand	Skid	100	20	20	5	20	HighFire	200	20	15	35	20	0	ft	"buffer effectiveness "
+WD	wepp-175701	"02:43 pm  Friday September 9, 2016"	"Westside Low El +"	50	sand	Skid	100	20	20	5	20	LowFire	100	20	15	60	20	0	ft	""
+WD	wepp-32337	"02:35 pm  Tuesday September 13, 2016"	"Westside Low El +"	10	sand	Skid	100	20	20	20	20	HighFire	150	20	15	35	20	0	ft	"Buffer Test 1"
+WD	wepp-32375	"02:35 pm  Tuesday September 13, 2016"	"Westside Low El +"	50	sand	Skid	100	20	20	20	20	HighFire	150	20	15	35	20	0	ft	"Buffer Test 2"
+WD	wepp-32448	"02:38 pm  Tuesday September 13, 2016"	"Westside Low El +"	50	sand	Skid	100	20	20	20	20	YoungForest	150	20	15	100	20	0	ft	"Buffer Test 3"
+WD	wepp-57114	"07:04 am  Wednesday September 14, 2016"	"Westside Low El +"	10	sand	Skid	100	20	20	5	20	Shrub	100	20	15	80	20	0	ft	""
+WD	wepp-57153	"07:05 am  Wednesday September 14, 2016"	"Westside Low El +"	50	sand	Skid	100	20	20	5	20	Shrub	150	20	15	80	20	0	ft	"Unburned Buffer"
+WR	wepp-101364	"09:55 am  Friday March 6, 2020"	"Tough +"	50	sand	native	500	5	14	15	100	15	2	20	outrut	ft
+WR	wepp-101416	"09:56 am  Friday March 6, 2020"	"Tough +"	50	sand	graveled	500	5	14	15	100	15	2	20	outunrut	ft
+WR	wepp-101461	"09:58 am  Friday March 6, 2020"	"Tough +"	50	sand	graveled	500	5	14	15	100	15	2	20	outunrut	ft
+WR	wepp-101566	"10:03 am  Friday March 6, 2020"	"Took +"	50	sand	native	500	2	14	10	50	20	2	20	outrut	ft
+WR	wepp-101622	"10:04 am  Friday March 6, 2020"	"Took +"	50	sand	graveled	500	2	14	10	50	20	2	20	outunrut	ft
+WR	wepp-101734	"10:04 am  Friday March 6, 2020"	"Took +"	50	sand	graveled	500	2	14	10	50	20	2	20	outunrut	ft
+WR	wepp-108152	"01:28 pm  Friday March 6, 2020"	"Ltl West Fork +"	50	sand	native	500	4	14	20	50	20	4	20	outrut	ft
+WR	wepp-108194	"01:29 pm  Friday March 6, 2020"	"Ltl West Fork +"	50	sand	graveled	500	4	14	20	50	130	4	20	outrut	ft
+WR	wepp-108258	"01:30 pm  Friday March 6, 2020"	"Ltl West Fork +"	50	sand	graveled	500	4	14	20	50	20	4	20	outunrut	ft
+WR	wepp-108299	"01:31 pm  Friday March 6, 2020"	"Ltl West Fork +"	50	sand	graveled	500	4	14	20	50	20	4	20	outunrut	ft
+WR	wepp-190349	"08:35 am  Monday March 9, 2020"	"Westside Low El +"	30	clay	native	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-195802	"11:10 am  Monday March 9, 2020"	"Tough +"	50	sand	native	1000	5	14	15	100	15	4	20	inbare	ft
+WR	wepp-195854	"11:12 am  Monday March 9, 2020"	"Tough +"	50	sand	graveled	1000	5	14	15	100	15	4	20	inveg	ft
+WR	wepp-196032	"11:15 am  Monday March 9, 2020"	"Tough +"	50	sand	graveled	1000	5	14	15	100	15	4	20	inveg	ft
+WR	wepp-196111	"11:20 am  Monday March 9, 2020"	"Tough +"	50	sand	native	200	5	14	15	100	5	4	20	inbare	ft
+WR	wepp-196156	"11:22 am  Monday March 9, 2020"	"Tough +"	50	sand	native	500	5	14	15	100	5	4	20	inbare	ft
+WR	wepp-196200	"11:23 am  Monday March 9, 2020"	"Tough +"	50	sand	graveled	500	5	14	15	100	5	4	20	inveg	ft
+WR	wepp-196245	"11:24 am  Monday March 9, 2020"	"Tough +"	50	sand	graveled	500	5	14	15	100	5	4	20	inveg	ft
+WR	wepp-196371	"11:28 am  Monday March 9, 2020"	"Tough +"	50	sand	native	1000	5	14	15	100	15	4	20	outrut	ft
+WR	wepp-196421	"11:29 am  Monday March 9, 2020"	"Tough +"	50	sand	graveled	1000	5	14	15	100	15	4	20	outunrut	ft
+WR	wepp-196464	"11:31 am  Monday March 9, 2020"	"Tough +"	50	sand	graveled	1000	5	14	15	100	15	4	20	outunrut	ft
+WR	wepp-196510	"11:32 am  Monday March 9, 2020"	"Tough +"	50	sand	graveled	1000	5	14	15	100	15	4	20	outunrut	ft
+WR	wepp-196552	"11:33 am  Monday March 9, 2020"	"Tough +"	50	sand	native	500	5	14	15	100	5	4	20	outrut	ft
+WR	wepp-196595	"11:34 am  Monday March 9, 2020"	"Tough +"	50	sand	graveled	500	5	14	15	100	5	4	20	outunrut	ft
+WR	wepp-196692	"11:35 am  Monday March 9, 2020"	"Tough +"	50	sand	graveled	500	5	14	15	100	5	4	20	outunrut	ft
+WR	wepp-223606	"03:09 pm  Monday March 9, 2020"	"Tough +"	30	sand	native	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-223693	"03:10 pm  Monday March 9, 2020"	"Tough +"	30	sand	native	200	4	13	15	50	130	25	20	inbare	ft
+WR	wepp-223830	"03:10 pm  Monday March 9, 2020"	"Tough +"	30	sand	native	200	4	13	15	50	130	25	20	inbare	ft
+WR	wepp-224043	"03:11 pm  Monday March 9, 2020"	"Tough +"	30	sand	native	200	4	13	15	50	130	25	20	inbare	ft
+WR	wepp-224237	"03:11 pm  Monday March 9, 2020"	"Tough +"	30	sand	native	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-224481	"03:12 pm  Monday March 9, 2020"	"Tough +"	30	sand	native	200	4	13	15	50	130	25	20	outunrut	ft
+WR	wepp-224628	"03:12 pm  Monday March 9, 2020"	"Tough +"	30	sand	native	200	4	13	15	50	130	25	20	outrut	ft
+WR	wepp-224752	"03:13 pm  Monday March 9, 2020"	"Tough +"	30	sand	native	200	4	13	15	50	130	25	20	outrut	ft
+WR	wepp-228004	"03:28 pm  Monday March 9, 2020"	"Tough +"	30	sand	native	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-23590	"02:06 pm  Tuesday March 10, 2020"	"Tough +"	50	sand	native	500	8	20	15	50	5	10	20	inbare	ft
+WR	wepp-23640	"02:07 pm  Tuesday March 10, 2020"	"Tough +"	50	sand	native	200	8	20	15	50	5	10	20	inveg	ft
+WR	wepp-23780	"02:09 pm  Tuesday March 10, 2020"	"Tough +"	50	sand	native	500	8	20	15	50	5	10	20	inbare	ft
+WR	wepp-23841	"02:10 pm  Tuesday March 10, 2020"	"Tough +"	50	sand	graveled	200	8	20	15	50	5	10	20	inveg	ft
+WR	wepp-23894	"02:11 pm  Tuesday March 10, 2020"	"Tough +"	50	sand	graveled	200	8	20	15	50	5	10	20	inveg	ft
+WR	wepp-23948	"02:12 pm  Tuesday March 10, 2020"	"Tough +"	50	sand	native	500	8	20	15	50	5	10	20	inbare	ft
+WR	wepp-24044	"02:13 pm  Tuesday March 10, 2020"	"Tough +"	50	sand	native	200	8	20	15	50	5	10	20	inveg	ft
+WR	wepp-24382	"02:19 pm  Tuesday March 10, 2020"	"Tough +"	50	sand	native	500	8	20	15	50	5	10	20	inveg	ft
+WR	wepp-24505	"02:23 pm  Tuesday March 10, 2020"	"Tough +"	50	sand	native	500	8	20	15	50	5	10	20	inveg	ft
+WR	wepp-24691	"02:25 pm  Tuesday March 10, 2020"	"Tough +"	50	sand	native	200	8	20	15	50	5	10	20	inveg	ft
+WR	wepp-25012	"02:34 pm  Tuesday March 10, 2020"	"Tough +"	50	sand	native	200	8	20	15	50	5	10	20	inveg	ft
+WR	wepp-26220	"03:05 pm  Tuesday March 10, 2020"	"Tough +"	50	sand	native	500	8	14	15	50	5	10	20	outrut	ft
+WR	wepp-26280	"03:06 pm  Tuesday March 10, 2020"	"Tough +"	30	sand	graveled	200	8	14	15	50	130	25	20	outrut	ft
+WR	wepp-26322	"03:06 pm  Tuesday March 10, 2020"	"Tough +"	50	sand	graveled	200	8	14	15	50	130	25	20	outrut	ft
+WR	wepp-26367	"03:07 pm  Tuesday March 10, 2020"	"Tough +"	50	sand	graveled	200	8	14	15	50	5	10	20	outunrut	ft
+WR	wepp-26413	"03:08 pm  Tuesday March 10, 2020"	"Tough +"	50	sand	native	500	8	14	15	50	5	10	20	outrut	ft
+WR	wepp-26516	"03:09 pm  Tuesday March 10, 2020"	"Tough +"	50	sand	native	200	8	14	15	50	5	10	20	outrut	ft
+WR	wepp-26660	"03:09 pm  Tuesday March 10, 2020"	"Tough +"	50	sand	native	200	8	14	15	50	5	10	20	outunrut	ft

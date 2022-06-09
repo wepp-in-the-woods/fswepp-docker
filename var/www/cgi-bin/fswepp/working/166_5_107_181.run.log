@@ -1,0 +1,13 @@
+wt	wepp-147202	"Aug 28, 2018"	"MOUNT SHASTA CA"	alluvial	OldForest	0	30	50	100	20	YoungForest	30	5	50	100	20	ft	""
+wt	wepp-149036	"Aug 28, 2018"	"TRUCKEE RS CA +"	granitic	HighRoad	0	30	20	10	45	YoungForest	30	5	20	100	20	ft	""
+WR	wepp-149314	"09:42 am  Tuesday August 28, 2018"	"TRUCKEE RS CA +"	30	sand	native	200	4	13	15	50	130	25	20	inbare	ft
+WR	wepp-149405	"09:43 am  Tuesday August 28, 2018"	"TRUCKEE RS CA +"	30	sand	native	200	4	13	15	50	130	25	20	outrut	ft
+WR	wepp-149593	"09:51 am  Tuesday August 28, 2018"	"TRUCKEE RS CA +"	30	sand	native	200	4	13	15	50	130	25	20	outrut	ft
+WR	wepp-149659	"09:52 am  Tuesday August 28, 2018"	"TRUCKEE RS CA +"	10	clay	native	200	6	13	15	25	130	0.3	20	outrut	ft
+WR	wepp-149701	"09:53 am  Tuesday August 28, 2018"	"TRUCKEE RS CA +"	10	clay	native	200	6	8	15	25	130	0.3	20	outrut	ft
+WR	wepp-150261	"10:20 am  Tuesday August 28, 2018"	"TRUCKEE RS CA +"	30	clay	graveled	200	4	13	15	50	130	25	20	outrut	ft
+WR	wepp-150297	"10:21 am  Tuesday August 28, 2018"	"TRUCKEE RS CA +"	30	clay	native	200	4	13	15	50	130	25	20	outrut	ft
+WR	wepp-155093	"03:18 pm  Tuesday August 28, 2018"	"TRUCKEE RS CA +"	30	sand	native	200	4	8	15	50	130	25	20	inbare	ft
+WR	wepp-172086	"07:45 am  Wednesday August 29, 2018"	"TRUCKEE RS CA +"	30	sand	native	200	4	13	15	50	130	25	20	outrut	ft
+WR	wepp-172128	"07:46 am  Wednesday August 29, 2018"	"TRUCKEE RS CA +"	30	sand	native	200	4	13	15	50	130	25	20	inbare	ft
+WD	wepp-172203	"07:47 am  Wednesday August 29, 2018"	"TRUCKEE RS CA +"	10	clay	OldForest	50	0	30	100	20	OldForest	50	30	5	100	20	0	ft	""

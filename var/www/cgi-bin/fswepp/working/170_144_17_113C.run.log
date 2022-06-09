@@ -1,0 +1,19 @@
+WR	wepp-21334	"10:32 am  Thursday April 17, 2014"	"OR gulch, MT +"	50	silt	native	250	13	13	1	50	1	25	40	outrut	ft
+WR	wepp-21542	"10:34 am  Thursday April 17, 2014"	"OR gulch, MT +"	50	silt	native	250	13	13	1	50	1	25	40	outrut	ft
+WR	wepp-21886	"10:36 am  Thursday April 17, 2014"	"OR gulch, MT +"	50	silt	graveled	250	13	13	1	50	1	25	40	inbare	ft
+WR	wepp-24842	"10:40 am  Thursday April 17, 2014"	"OR gulch, MT +"	50	silt	graveled	250	13	13	1	50	1	25	40	inveg	ft
+WR	wepp-24888	"10:40 am  Thursday April 17, 2014"	"OR gulch, MT +"	50	silt	graveled	250	13	13	1	50	1	25	40	inveg	ft
+WR	wepp-24933	"10:40 am  Thursday April 17, 2014"	"OR gulch, MT +"	50	silt	graveled	250	13	13	1	50	1	25	40	inveg	ft
+WR	wepp-25176	"10:43 am  Thursday April 17, 2014"	"OR gulch, MT +"	50	silt	paved	250	13	13	1	50	1	25	40	inveg	ft
+WR	wepp-25488	"10:46 am  Thursday April 17, 2014"	"OR gulch, MT +"	50	silt	graveled	220	13	13	10	50	30	25	40	inveg	ft
+WR	wepp-25993	"10:47 am  Thursday April 17, 2014"	"OR gulch, MT +"	50	silt	graveled	30	5	13	1	50	1	25	40	inveg	ft
+WR	wepp-28713	"10:56 am  Thursday April 17, 2014"	"OR gulch, MT +"	50	silt	graveled	250	13	13	10	50	100	25	20	outrut	ft
+WD	wepp-26046	"12:34 pm  Thursday April 17, 2014"	"OR gulch, MT +"	50	silt	OldForest	530	46	35	100	40	OldForest	100	35	25	100	40	0	ft	""
+WD	wepp-31998	"12:50 pm  Thursday April 17, 2014"	"OR gulch, MT +"	50	silt	Shrub	530	46	35	85	40	OldForest	100	35	25	100	40	0	ft	""
+WD	wepp-32155	"12:51 pm  Thursday April 17, 2014"	"OR gulch, MT +"	50	silt	Shrub	530	46	35	85	40	OldForest	100	35	25	100	40	0	ft	""
+WD	wepp-3478	"01:05 pm  Thursday April 17, 2014"	"OR gulch, MT +"	50	silt	YoungForest	530	46	35	92	40	OldForest	100	35	25	100	40	0	ft	""
+WD	wepp-4189	"01:07 pm  Thursday April 17, 2014"	"OR gulch, MT +"	50	silt	YoungForest	530	46	35	92	40	OldForest	100	35	25	100	40	0	ft	""
+WD	wepp-4414	"01:07 pm  Thursday April 17, 2014"	"OR gulch, MT +"	50	silt	YoungForest	530	46	35	92	40	OldForest	100	35	25	100	40	0	ft	""
+WD	wepp-6910	"01:10 pm  Thursday April 17, 2014"	"OR gulch, MT +"	10	silt	LowFire	530	46	35	85	20	OldForest	100	35	25	100	20	0	ft	""
+WD	wepp-8972	"01:18 pm  Thursday April 17, 2014"	"OR gulch, MT +"	10	silt	HighFire	530	46	35	45	20	LowFire	100	35	25	85	20	0	ft	""
+wt	wepp-14072	"Apr 17, 2014"	"OR gulch, MT +"	granitic	OldForest	51	47	50	100	20	YoungForest	47	59	50	100	20	ft	""

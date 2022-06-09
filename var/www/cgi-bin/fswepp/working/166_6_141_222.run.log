@@ -1,0 +1,57 @@
+WR	wepp-22640	"03:15 pm  Thursday February 18, 2010"	"Wildcat Spring +"	50	silt	graveled	200	4	16	15	50	25	15	20	inveg
+WR	wepp-22673	"03:18 pm  Thursday February 18, 2010"	"Wildcat Spring +"	50	silt	native	200	4	16	15	50	25	15	20	outunrut
+WR	wepp-22833	"03:35 pm  Thursday February 18, 2010"	"Wildcat Spring +"	50	silt	graveled	200	4	16	15	50	25	15	20	inveg
+WR	wepp-23003	"03:58 pm  Thursday February 18, 2010"	"Wildcat Spring +"	50	silt	native	200	4	16	15	50	25	15	20	outrut
+WR	wepp-23113	"04:10 pm  Thursday February 18, 2010"	"Wildcat Spring +"	50	silt	native	200	4	16	15	50	25	15	20	outrut
+WR	wepp-23197	"04:20 pm  Thursday February 18, 2010"	"Wildcat Spring +"	50	silt	native	1000	3	16	15	30	25	15	20	outunrut
+WR	wepp-23203	"04:21 pm  Thursday February 18, 2010"	"Wildcat Spring +"	50	silt	native	200	3	16	15	30	25	15	20	outunrut
+WD	wepp-23419	"04:30 pm  Thursday February 18, 2010"	"Wildcat Spring +"	50	silt	tree5	121.951219512195	0	35	90	20	tree5	30.4878048780488	35	5	90	20	0	ft	""
+WD	wepp-23424	"04:31 pm  Thursday February 18, 2010"	"Wildcat Spring +"	50	silt	tree5	121.951219512195	0	35	90	20	tree5	30.4878048780488	35	5	90	20	0	ft	"ct and aspen"
+WD	wepp-23485	"04:42 pm  Thursday February 18, 2010"	"Wildcat Spring +"	50	silt	tree5	121.951219512195	0	35	80	20	tree5	30.4878048780488	35	5	80	20	0	ft	"ct and aspen"
+WD	wepp-23490	"04:43 pm  Thursday February 18, 2010"	"Wildcat Spring +"	50	silt	tree5	121.951219512195	0	35	80	20	tree5	30.4878048780488	35	5	80	20	0	ft	"ct and aspen"
+WD	wepp-23541	"04:45 pm  Thursday February 18, 2010"	"Wildcat Spring +"	50	silt	tree5	121.951219512195	0	50	80	20	tree5	30.4878048780488	50	5	80	20	0	ft	"ct and aspen"
+WD	wepp-23546	"04:46 pm  Thursday February 18, 2010"	"Wildcat Spring +"	50	silt	tree5	121.951219512195	0	50	80	20	tree5	30.4878048780488	50	5	80	20	0	ft	"nct"
+WD	wepp-23581	"04:53 pm  Thursday February 18, 2010"	"Wildcat Spring +"	50	silt	skid	121.951219512195	0	35	10	20	skid	30.4878048780488	35	5	10	20	0	ft	"skid trail"
+WD	wepp-23586	"04:54 pm  Thursday February 18, 2010"	"Wildcat Spring +"	50	silt	skid	121.951219512195	0	35	80	20	skid	30.4878048780488	35	5	80	20	0	ft	"skid trail"
+WD	wepp-23618	"04:54 pm  Thursday February 18, 2010"	"Wildcat Spring +"	50	silt	skid	121.951219512195	0	35	80	20	skid	30.4878048780488	35	5	80	20	0	ft	"skid trail"
+WF	wepp-29011	"02:30 pm  Thursday February 25, 2010"	"Wildcat Spring +"	silt	400	80	0	40	5	100	10	50	2.2	ft
+WD	wepp-29388	"03:00 pm  Thursday February 25, 2010"	"Wildcat Spring +"	100	silt	tall	121.951219512195	0	40	90	20	tree5	15.2439024390244	40	5	90	20	0	ft	""
+WD	wepp-29416	"03:02 pm  Thursday February 25, 2010"	"Wildcat Spring +"	100	silt	tall	121.951219512195	0	40	90	20	tall	15.2439024390244	40	5	90	20	0	ft	""
+WD	wepp-29478	"03:05 pm  Thursday February 25, 2010"	"Wildcat Spring +"	100	silt	tall	121.951219512195	0	40	90	20	tall	15.2439024390244	40	5	90	20	0	ft	"Monument Fire after 3 years"
+WF	wepp-1135	"02:50 pm  Monday March 15, 2010"	"Cherry Spring +"	silt	400	50	0	45	15	10	20	30	4.2	ft
+WF	wepp-1178	"02:52 pm  Monday March 15, 2010"	"Cherry Spring +"	silt	400	100	0	45	15	10	20	30	4.2	ft
+WF	wepp-1340	"02:58 pm  Monday March 15, 2010"	"Cherry Spring +"	silt	400	100	0	45	15	100	20	30	4.2	ft
+WF	wepp-1413	"03:00 pm  Monday March 15, 2010"	"Cherry Spring +"	silt	400	100	0	45	15	10	20	30	4.2	ft
+WF	wepp-1724	"03:15 pm  Monday March 15, 2010"	"Cherry Spring +"	silt	400	100	0	45	15	100	20	30	4.2	ft
+WF	wepp-2072	"03:30 pm  Monday March 15, 2010"	"Cherry Spring +"	silt	400	50	0	45	15	100	20	30	4.2	ft
+WF	wepp-2191	"03:33 pm  Monday March 15, 2010"	"Cherry Spring +"	silt	400	25	0	45	15	100	20	30	4.2	ft
+WF	wepp-2250	"03:33 pm  Monday March 15, 2010"	"Cherry Spring +"	silt	400	50	0	45	15	100	20	30	4.2	ft
+WD	wepp-2466	"03:46 pm  Monday March 15, 2010"	""				0	0	0	0	0		0	0	0	0	0	0		""
+WD	wepp-2575	"03:57 pm  Monday March 15, 2010"	"Cherry Spring +"	100	silt	tree5	121.951219512195	0	45	90	20	tree5	30.4878048780488	45	5	100	20	0	ft	""
+WD	wepp-2619	"03:59 pm  Monday March 15, 2010"	"Cherry Spring +"	100	silt	tree5	121.951219512195	0	45	90	20	tree5	30.4878048780488	45	5	90	20	0	ft	"ct"
+WD	wepp-2698	"04:03 pm  Monday March 15, 2010"	"Cherry Spring +"	100	silt	tree5	121.951219512195	0	50	80	20	tree5	30.4878048780488	50	5	80	20	0	ft	"nct"
+WD	wepp-2755	"04:04 pm  Monday March 15, 2010"	"Cherry Spring +"	100	silt	tree5	121.951219512195	0	60	80	20	tree5	30.4878048780488	60	5	80	20	0	ft	"nct"
+WD	wepp-2781	"04:05 pm  Monday March 15, 2010"	"Cherry Spring +"	100	silt	tree5	121.951219512195	0	60	80	20	tree5	7.62195121951219	60	5	80	20	0	ft	"nct"
+WD	wepp-2825	"04:05 pm  Monday March 15, 2010"	"Cherry Spring +"	100	silt	tree5	121.951219512195	0	60	80	20	tree5	7.62195121951219	60	5	20	20	0	ft	"nct"
+WD	wepp-2867	"04:06 pm  Monday March 15, 2010"	"Cherry Spring +"	100	silt	tree5	121.951219512195	0	60	80	20	tree5	15.2439024390244	60	5	80	20	0	ft	"nct"
+WD	wepp-2978	"04:10 pm  Monday March 15, 2010"	"Cherry Spring +"	100	silt	tree5	121.951219512195	0	60	80	20	tree5	30.4878048780488	60	5	80	20	0	ft	"nct"
+WD	wepp-3128	"04:15 pm  Monday March 15, 2010"	"Cherry Spring +"	100	silt	tree5	121.951219512195	0	35	80	20	tree5	30.4878048780488	35	5	80	20	0	ft	"MdFuels"
+WD	wepp-3133	"04:16 pm  Monday March 15, 2010"	"Cherry Spring +"	100	silt	tree5	121.951219512195	0	35	80	20	tree5	15.2439024390244	35	5	80	20	0	ft	"MdFuels"
+WD	wepp-3174	"04:19 pm  Monday March 15, 2010"	"Cherry Spring +"	100	silt	low	121.951219512195	0	45	95	20	tree20	24.390243902439	45	5	90	20	0	ft	"landscape burn"
+WD	wepp-3253	"04:24 pm  Monday March 15, 2010"	"Cherry Spring +"	100	silt	low	121.951219512195	0	45	90	20	tree20	30.4878048780488	45	5	90	20	0	ft	"activity burn"
+WD	wepp-3354	"04:32 pm  Monday March 15, 2010"	"Cherry Spring +"	100	silt	low	121.951219512195	0	35	90	20	tree20	30.4878048780488	35	5	90	20	0	ft	"activity burn"
+WD	wepp-3512	"04:41 pm  Monday March 15, 2010"	"Cherry Spring +"	100	silt	shrub	121.951219512195	0	45	90	20	tall	15.2439024390244	45	5	60	20	0	ft	""
+WD	wepp-3541	"04:43 pm  Monday March 15, 2010"	"Cherry Spring +"	100	silt	shrub	121.951219512195	0	45	90	20	tall	15.2439024390244	45	5	60	20	0	ft	"Sharp Ridge Fire"
+WD	wepp-3616	"04:46 pm  Monday March 15, 2010"	"Cherry Spring +"	100	silt	shrub	121.951219512195	0	45	80	20	shrub	15.2439024390244	45	5	80	20	0	ft	"Sharp Ridge Fire"
+WD	wepp-3641	"04:46 pm  Monday March 15, 2010"	"Cherry Spring +"	100	silt	shrub	121.951219512195	0	45	80	20	tall	15.2439024390244	45	5	80	20	0	ft	"Sharp Ridge Fire"
+WD	wepp-3657	"04:48 pm  Monday March 15, 2010"	"Cherry Spring +"	100	silt	shrub	121.951219512195	0	45	70	20	shrub	15.2439024390244	45	5	70	20	0	ft	"Sharp Ridge Fire"
+WD	wepp-3695	"04:49 pm  Monday March 15, 2010"	"Cherry Spring +"	100	silt	shrub	121.951219512195	0	45	50	20	shrub	15.2439024390244	45	5	50	20	0	ft	"Sharp Ridge Fire"
+WD	wepp-3720	"04:50 pm  Monday March 15, 2010"	"Cherry Spring +"	100	silt	shrub	121.951219512195	0	45	50	20	shrub	15.2439024390244	45	5	10	20	0	ft	"Sharp Ridge Fire"
+WD	wepp-3760	"04:51 pm  Monday March 15, 2010"	"Cherry Spring +"	100	silt	shrub	121.951219512195	0	45	30	20	shrub	15.2439024390244	45	5	30	20	0	ft	"Sharp Ridge Fire"
+WD	wepp-3770	"04:52 pm  Monday March 15, 2010"	"Cherry Spring +"	100	silt	shrub	121.951219512195	0	45	40	20	shrub	15.2439024390244	45	5	40	20	0	ft	"Sharp Ridge Fire"
+WD	wepp-3801	"04:53 pm  Monday March 15, 2010"	"Cherry Spring +"	100	silt	shrub	121.951219512195	0	45	40	20	shrub	15.2439024390244	45	5	30	20	0	ft	"Sharp Ridge Fire"
+WD	wepp-3839	"04:54 pm  Monday March 15, 2010"	"Cherry Spring +"	100	silt	shrub	121.951219512195	0	45	90	20	shrub	15.2439024390244	45	5	30	20	0	ft	"Sharp Ridge Fire"
+WD	wepp-3844	"04:56 pm  Monday March 15, 2010"	"Cherry Spring +"	100	silt	shrub	121.951219512195	0	45	90	20	tall	15.2439024390244	45	5	60	20	0	ft	"Sharp Ridge Fire"
+WD	wepp-3862	"04:57 pm  Monday March 15, 2010"	"Cherry Spring +"	100	silt	shrub	121.951219512195	0	45	90	20	tall	15.2439024390244	45	5	80	20	0	ft	"Sharp Ridge Fire"
+WD	wepp-3890	"04:58 pm  Monday March 15, 2010"	"Cherry Spring +"	100	silt	shrub	121.951219512195	0	45	90	20	tall	15.2439024390244	45	5	70	20	0	ft	"Sharp Ridge Fire"
+WD	wepp-3950	"04:59 pm  Monday March 15, 2010"	"Cherry Spring +"	100	silt	shrub	121.951219512195	0	45	90	20	tall	15.2439024390244	45	5	80	20	0	ft	"Sharp Ridge Fire"

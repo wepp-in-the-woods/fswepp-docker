@@ -1,0 +1,138 @@
+#this files was modified by filegenwhrm.pl on: Wednesday, March 16, 2005.
+#taxgroup Birds species Three-toed woodpecker / Picoides tridactylus
+#
+# Rank
+3,4,3,-99,1
+# Nestsite
+14,1:15,1:16,1:17,1:18,1:20,-1:23,1
+# Reprorank
+1,-99:1,-99:3,-99:1,-99:1,-99:1,-99:1,-99:1,-99
+# Foraging Habitat
+14,1:15,1:16,1:17,1:18,1:20,1:24,1
+# Habitatrank
+1,-99:1,-99:2,-99:1,-99:1,-99:1,-99:1,-99
+# Forage/Prey Availability
+-99
+# Preyrank
+-99
+# Predator Avoidance
+-99
+# Avoidrank
+-99
+# Refugia/Shelter
+16,1
+# Shelterrank
+1,-99
+# Coverrank
+1,-99
+# Literature
+Distribution
+rare within range; year-round resident across much of Alaska and Canada, south along Pacific range into central California, northern Idaho and western Montana
+General Habitat
+mature to old coniferous forests; often use higher elevations and spruce, PICO habitat types; will populate burns and clearcuts if insect populations are sufficient
+Home or Activity Range
+100-750 ac
+Canopy Cover
+No information available
+Specific Habitat Preferences
+selects dead or dying coniferous trees for foraging or nesting
+Nestsite Characteristics
+primary cavity nester in dead or dying coniferous trees exceeding 30 cm dbh and 20 m in height; low canopy closure (18-27%); prefer flat or gently sloping landforms
+Foraging Habitat Characteristics
+gleans, drills or excavates food from bark of dead or dying coniferous trees (10-30 cm dbh); prefer closed canopy forest
+Diet
+strong excavator: larvae of bark and wood-boring beetles; also feeds on cambium and sap
+Predators
+No information available
+Shelter Habitats
+roosts in cavities for thermal protection; often uses snags ~12" dbh
+Response to Disturbance
+favored 1-2 years post-fire due to abundant snags, wood and insects (Johnson and Wauer 1996); disfavored 2-4 years post-fire as snags fall, wood insects decline (Johnson and Wauer 1996); selected against plantations and cut-over forest; present 1-3 years post-fire, virtually absent afterwards (Taylor and Barmore 1980); more abundant in early post-fire conditions (Hutto 1995);  less abundant in low shrub- stage clearcuts and partially cut forest compared to uncut forest (Hejl et al. 1995); found in stands as mature "yellow" PIPO densities increased to 8 trees/acre (Keller 1992); when observed, recorded in thinned and burned PIPO sites but not controls (Woolf 2003); found only in stands burned by stand-replacement wildfire, not in unburned controls 1 and 2 winters after fire (Kreisel and Stein 1999); breeding pairs found in PICO-ABLA forest one year after prescribed stand-replacing fire (Tiedemann and Woodard 2002)
+Sources of Information used in the Model
+Nietro et al. 1985, Goggans 1989, Moore 1992, Kreisel and Stein 1999, Higelke and MacLeod 2000
+General Sources of Background Information
+Taylor and Barmore 1980, Cunningham et al. 1980, Scott and Oldemeyer 1983, reviewed in Nietro et al. 1985, Goggans et al. 1989, Keller 1992, Moore 1992, Hejl et al. 1995, Hutto 1995, National Geographic Society 1996, Kreisel and Stein 1999, Higgelke and MacLeod 2000, reviewed in Bull and Wales 2001, Tiedemann and Woodard 2002, Sallabanks et al. 2003; Woolf 2003
+Summaries of Specific Studies
+Cunningham, James B.; Balda, Russel P.; Gaud, William S. 1980. Selection and use of snags by secondary cavity-nesting birds of the ponderosa pine forest.  Research Paper RM-222, Fort Collins, CO: USDA Forest Service Rocky Mountain Forest and Range Experiment Station.15 p.
+
+Study Location: Coconino National Forest, Arizona
+Habitat Description: PIPO
+Summary: Snags used by secondary cavity nesters (SCN) in PP forests were evaluated for their characteristics. The majority of used snags were > 60cm dbh, >20 m tall, were mostly covered in bark, had bark near the cavity entrance, and had broken tops. The largest and tallest snags available were chosen. SCNs preferred snags that were dead 5- 20 years ago, with the exception of the pygmy nuthatch that preferred older snags. Snag density accounted for more than half the variability in density of SCNs. Removal of snags in coniferous forests would have a serious negative effect on the density of SCNs.
+
+Goggans, Rebecca; Dixon, Rita D.; Seminaraq; L. Claire. 1989. Habitat use by three-toed and black-backed woodpeckers, Deschutes National Forest, Oregon. Oregon Department of Fish and Wildlife, Technical Report #87-3-02, Oregon.
+
+Study Location: Deschutes National Forest, Oregon
+Habitat Description: Primarily PICO
+Summary: Three-toed and black-backed woodpeckers were studied in areas infested by epidemic levels of mountain pine beetle. Habitat preferences in regard to home range, nesting, roosting, and foraging were examined for LP-dominated forests. As these woodpecker species use trees with heartrot for nests, diseased trees or decaying snags for roosts, and decaying substrate for foraging, the management of these species is tied to the maintenance of disease and decay. Areas of LP forest should remain exempt from commercial and salvage timber management to retain a mature or overmature habitat as long as possible. Inference for this study is limited, as local conditions were extreme and few animals were radio-tagged.
+
+Hejl, Sallie J.; Hutto, Richard L.; Preston, Charles R.; Finch, Deborah M. 1995. Effects of silvicultural treatments in the Rocky Mountains. In:Martin, Thomas E.; Finch, Deborah M. (eds.). Ecology and Management of Neotropical Migratory Birds. New York, Oxford: Oxford University Press. 220-244.
+
+Study Location: Rocky Mountains
+Habitat Description: forest types across the Rocky mountains
+Summary: Synthesis of the effects of different silvicultural treatments on neotropical migrants in forests of the Rocky Mountains. Outlines current forest structure, natural disturbance, logging history, and current silvicultural recommendations. General bird-habitat relationships in natural forest, including stands of different ages, are contrasted with stands that are silviculturally manipulated. Contains detailed species lists for rare to abundant bird species that are found in 8 forest types commonly found in the Rockies (Table 8-2). Also lists species by their likelihood to be more or less abundant in managed stands (classified as one of three types of clearcuts or partial cuts) compared to uncut forest. (Table 8-3)
+
+Higgelke, P.E.; MacLeod, H.L. 2000. Pileated woodpecker (Dryocopus pileatus). Prepared for Millar Western Forest Products' Biodiversity Assessment Project. KBM Forestry Consultants, Inc. Thunder Bay, Ontario.
+
+Study Location: Alberta (?)
+Habitat Description: unknown
+Summary: A habitat suitability model is constructed for Pileated woodpeckers, assigning values for foraging, cover and nesting habitat to each 25 m pixel of forested habitat. A 2000 ha home range is used. 
+
+Hutto, R.L. 1995. Composition of bird communities following stand-replacement fires in northern Rocky Mountain (U.S.A) conifer forests. Conservation Biology. 9:1041-1058.
+
+Study Location: western Montana and northern Wyoming
+Habitat Description: range of habitat types: includes PIPO, PSME, LAOC, PICO, PIAL, PIFL, Picea sp,, ABLA, ABGR, THPL, aspen, cottonwood
+Summary: Fifteen bird species are generally more abundant in early post-fire communities than in any other cover type in the northern Rockies (includes olive-sided flycatcher, three-toed woodpecker, black-backed woodpecker, Clark's nutcracker, mountain bluebird, red crossbill, Cassin's finch, pine siskin, American robin, dark-eyed junco, yellow-rumped warbler). Six species (common nighthawk, calliope hummingbird, northern flicker, Stellar's jay, orange-crowned warbler, chipping sparrow) were most abundant in stands 10-40 years post-fire. Three species (American robin, yellow-rumped warbler, dark-eyed junco) were detected in early an mid-successional burned forest 100% of the time. One species, the black-backed woodpecker, was restricted to standing dead forest created by stand-replacing fires. Bird communities are different in recently burned forest, primarily because members of three feeding guilds (woodpeckers, flycatchers, and seedeaters) are especially abundant. Larger-diameter (>10 cm dbh) PP, DF, and LAOC were most often used for feeding by woodpeckers. Standing, fire-killed trees were used by the majority of birds nesting in recently burned forest. Many of the structures used in nesting (broken-topped snags) were present before the fire. Large-scale, stand-replacing fire may be necessary for long-term maintenance of many bird populations. Commentary is offered on the need to alter present fire and post-fire forest management.
+
+Keller, Richard. 1992. Affect of ponderosa pine overstory and snags on the songbird community, northern Arizona. NO ADDITIONAL INFORMATION- THESIS?
+
+Study Location: Coconino and Kaibab National Forest, northern Arizona
+Habitat Description: PIPO
+Summary: The overstory of mature PIPO forest and the presence of snags influenced bird communities in pole-sized PIPO stands in northern Arizona. Study areas containing pure pole-sized trees and no snags had the lowest numbers of insectivorous birds; study areas with the most insectivorous bird diversity contained at least 14 mature PIPO trees/acre and at least 2 snags/acre. The greatest number of birds were detected in stands containing 8-10 mature PIPO trees/acre and no snags. PIPO overstory also influenced both coniferous forest-nesting birds and primary cavity-nesting birds. The presence of snags influenced secondary cavity-nesters. Overall, this study suggests that a homogenous forest of young PIPO stands lacking in snags is not desirable for maintaining healthy bird species diversity.
+
+Kreisel, Karen J.; Stein, Steven J. 1999. Bird use of burned and unburned forests during winter. Wilson Bulletin. 111(2): 243-250.
+
+Study Location:northeast Washington
+Habitat Description: mixed conifer, includes: PSME, PIPO, ABLA, PIEN, LAOC, PICO
+Summary: This study examined bird use of burned and unburned forest in the winter season. Species richness was similar, but composition was distinctly different. Composition and abundance also changed with time; some species disappeared from the area while others moved in. Trunk and branch foraging species were more abundant in burned forest, though their abundance significantly decreased from the first to the fourth winter post-fire. Foraging behavior was documented for four woodpecker species within the burned area. Foraging took place on snags > 23 cm dbh.
+
+Moore, Robin L. 1992. Breeding birds in old-growth forests and snag management for birds. Forest Plan monitoring project report. USDA Forest Service, Gallatin National Forest, Bozeman, MT.
+
+Study Location: southwestern Montana
+Habitat Description: PSME
+Summary: Avian species composition and abundance were examined in old-growth, mature, and harvested PSME forest. The greatest total abundance was detected in the old-growth forest. In general, the old-growth contained the greatest number of species, though there was no detected difference in species richness between the stand types. Higher elevation old-growth stands contained a greater abundance of birds than the lower elevation old-growth stands. Trees with cavities were also examined in this study. The majority of cavity trees were old PSME with broken tops, and cavities tended to be located in the top one-third of the tree. Some primary and secondary cavity-nesting birds demonstrated dbh preferences for nest trees.
+
+Neitro, William A.; Binkley, Virgil B.; Cline, Steven P.; Mannan, R. William, Marcot, Bruce G.; Taylor, Douglas; Wagner, Frank F. 1985. Snags (Wildlife trees). In Brown, E.R. (technical editor). Management of Wildlife and Fish Habitats in Forests of Western Oregon and Washington. Publication number R6-F&WL-192-1985. Portland, OR: USDA Forest Service, Pacific Northwest Region.
+
+Study Location: review of western Oregon and Washington
+Habitat Description: intensively managed and unmanaged PSME
+Summary: A comprehensive review of the importance of snags as wildlife trees in managed and unmanaged PSME forests. Includes information on the ecological role of snags and cavity users, wildlife snag requirements, snag management, and guidelines for selecting wildlife trees to meet logging safety requirements. Much detail is presented on calculated the number of snags needed to maintain specific densities of cavity-users. Forestry practices that impact snag production and retention are also outlined. The economic role of snags and cavity-using wildlife is addressed. 
+
+Sallabanks, Rex; Marcot, Bruce G.; Riggs, Robert A.; Mehl, Carolyn A.; Arnett, Edward B. 2003. Wildlife of Eastside (Interior) Forests and Woodlands. In Wildlife-Habitat Relationships in Oregon and Washington. Corvallis, OR: Oregon State University Press. pp 213-238.
+
+Study Location: Blue Mountains, OR
+Habitat Description: PICO
+Summary: This case history (4) outlines the key habitat-wildlife relationships in the LP forests of the central Oregon Pumice Zone. Areas of focus include the American marten and forest songbirds. The impact of salvage logging is discussed for some bird species.
+
+Scott, Virgil E.; Oldemeyer. 1983. Cavity-nesting bird requirements and response to snag cutting in ponderosa pine. In Snag habitat management:proceedings of the symposium. June 7-9, 1983, Flagstaff, AZ. USDA Forest Service Gen. Tech. Rep. RM-GTR-99, Fort Collins, CO. pp 19-23.
+
+Study Location: Apache-Sitgreaves National Forest, Arizona
+Habitat Description: PIPO
+Summary: The requirements of cavity nesting birds were examined, with an emphasis on the impact of logging and snag removal on cavity nesting birds. For nest sites, birds usually selected PIPO snags >18" dbh that had been dead for at least six years and had >40% bark cover. A few species responded to logging and snag removal. The most heavily impacted birds were those that nested in PIPO. The density of cavity nesting birds decreased by 53% on those stands that had been treated. The authors recommend a snag density of 2.6 snags/acre, with snags >19" dbh.
+
+Taylor, Dale L.; Barmore, William J.1980. Post-fire succession of avifauna in coniferous forests of Yellowstone and Grand Teton National Parks, Wyoming. In Management of western forests and grasslands for nongame birds: workshop proceedings. February 11-14, 1980, Salt Lake City, UT. USDA Forest Service Gen. Tech. Rep. INT-86, Ogden, UT. pp 130-145.
+
+Study Location: Grand Teton and Yellowstone National Parks, Wyoming
+Habitat Description: PICO, ABLA/PIEN
+Summary: Bird density, composition, and diversity were monitored across a series of fire severities in burned PICO or spruce-fir forest in Grand Teton and Yellowstone National Parks. Highest populations and greatest biomass occurred from 5-29 years post-fire. Density, composition, and diversity on moderately burned spruce-fir-PICO were more like those on unburned spruce-fir than other seral stages. Changes in bird communities by feeding category were also examined. Overall, canopy closure was a habitat variable that appeared to affect avifauna more than the presence of fire.
+
+Tiedemann, Arthur R.; Woodard, Paul M. 2002. Multiresource effects of a stand-replacement prescribed fire in the Pinus contorta-Abies lasiocarpa vegetation zone of central Washington. Gen. Tech. Rep. PNW-GTR-535. Portland, OR: USDA Forest Service, Pacific Northwest Research Station. 27 p.
+
+Study Location: eastern Cascades, Washington
+Habitat Description: overmature PICO-ABLA stand, mature PICO thicket
+Summary: One year after a prescribed, stand-replacing fire, plant cover and diversity decreased, as did microbial respiration. Nitrogen fixation and nitrification increased after burning. Overall bird diversity increased after the fire. Diversity of woodpeckers increased the year after burning, while needle-foraging species declined or were absent after fire. There was no definitive response of small mammals to burning, though the Townsend's chipmunk did markedly decline. Forage for elk in the burn was higher in crude protein, but low productivity and distance from water diminished the value of the burned area for elk.
+
+Woolf, Jennifer. 2003. The effects of thinning and prescribed fire on birds, small mammals, and avian species composition. Missoula, MT: University of Montana. 93 p. M.S. Thesis.
+
+Study Location: western Montana
+Habitat Description: PIPO
+Summary: Stands in western Montana underwent PIPO restoration treatments that included selective tree removal followed by a prescribed burn. Bird and small mammal populations were monitored on these and control sites. While some bird species showed a preference for treated vs. untreated stands, the treatment did not have major effects on avian species composition. The foraging behavior of bark-gleaning birds was also examined on treated vs. untreated sites. Birds selectively foraged on larger trees, with PIPO preferred to PSME in this study area. Thinning and burning is compatible with providing forage substrates for the species in this area, as the encounter rate for bark-gleaners was higher in the treated sites. Small mammal communities changed in both abundance and composition as a result of treatment, with deer mice exhibiting the most positive response to treatment.

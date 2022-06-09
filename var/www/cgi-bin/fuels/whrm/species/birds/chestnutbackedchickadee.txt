@@ -1,0 +1,90 @@
+#this files was modified by filegenwhrm.pl on: Wednesday, March 16, 2005.
+#taxgroup Birds species Chestnut-backed chickadee / Parus rufescens
+#
+# Rank
+2,1,2,-99,-99
+# Nestsite
+17,1:18,1
+# Reprorank
+1,-99:1,-99
+# Foraging Habitat
+20,1:24,1:25,1:26,1
+# Habitatrank
+1,-99:1,-99:1,-99:1,-99
+# Forage/Prey Availability
+-99
+# Preyrank
+-99
+# Predator Avoidance
+-99
+# Avoidrank
+-99
+# Refugia/Shelter
+-99
+# Shelterrank
+-99
+# Coverrank
+-99
+# Literature
+Distribution
+coastal from southern Alaska to southern California; also interior Washington and British Columbia, northwestern Montana
+General Habitat
+common in coniferous forests, also deciduous woodlands
+Home or Activity Range
+2.5 ac
+Canopy Cover
+found in areas of 40-69% canopy cover (Verner 1980)
+Specific Habitat Preferences
+large trees, 40-69% canopy cover
+Nestsite Characteristics
+nests usually low in snag or tree; nest is lined with moss, animal fur, feathers and plant material
+Foraging Habitat Characteristics
+forages among foliage, often high in tall conifers, and to a lesser extent on branches, trunks, or in undergrowth; occasionally forage from logs or rocks
+Diet
+insects include beetles, true bugs, caterpillars, wasps, moths, scale insects, ants, plant lice, tree hoppers, sawfly larvae, and tree camel crickets;  spiders, conifer seeds, and berries such as poison oak, thimbleberry, and Pacific wax myrtle
+Predators
+no information available
+Shelter Habitats
+no information available
+Response to Disturbance
+higher mean detection rate and % occurrence in clearcuts without snags (Marcot 1983); less abundant in low shrub- stage clearcuts compared to uncut forest (Hejl et al. 1995); forest management activities that decrease tree species diversity may have detrimental effects on chickadees and other insectivorous birds (Brennan et al. 2000)
+Sources of Information used in the Model
+Zarnotwitz and Manuwal 1985, Brennan et al. 2000
+General Sources of Background Information
+Verner 1980, Marcot 1983,  Airola and Barrett 1981, Zarnowitz and Manuwal 1985, Hejl 1995, National Geographic Society 1996, Brennan et al. 2000, Alsop 2001, reviewed in O'Neil et al. 2001
+Summaries of Specific Studies
+Airola, Daniel A.; Barrett, Reginald H. 1985. Foraging and habitat relationships of insect-gleaning birds in a Sierra Nevada mixed-conifer forest. Condor. 87:205-216.
+
+Study Location: central Sierra Nevada, California
+Habitat Description: PIPO, PILA, ABCO, PSME, CADE, QUKE
+Summary: Foraging habitat preferences, niche relationships, patterns of relative abundance vs. niche breadth and differences between migrant and resident species were examined for 12 species of insect gleaning birds in the Sierras. Tree species, and to a lesser extent, tree height were used selectively by the guild. Incense-cedar was avoided by all species, while other tree species were preferred by individual or groups of gleaners. In differentiating between niche of each species, foraging site was the most important foraging characteristic, followed by tree species, foraging technique, and foraging height. No correlation was found between niche breadth and species abundance, though a positive correlation existed for all 5 resident species. 
+
+Brennan, Leonard A.; Morrison, Michael L.; Dahlsten, Donald L. 2000. Comparative foraging dynamics of chestnut-backed and mountain chickadees in the western Sierra Nevada. Northwestern Naturalist. 81: 129-147.
+
+Study Location: western Sierra Nevada, California
+Habitat Description: includes PIPO, PSME, ABCO, PILA, QUKE, CADE
+Summary: Foraging patterns and habitat use was observed for mountain and chestnut-backed chickadees. The two sympatric species tended to forage on different species, and species preferences changed seasonally. Foraging behavior was also different between the two species. Both species chose live trees with no signs of decay or disease. Data indicate that all six of the dominant vegetation species provide foraging habitat and support food resources at some time during the year.
+
+Hejl, Sallie J.; Hutto, Richard L.; Preston, Charles R.; Finch, Deborah M. 1995. Effects of silvicultural treatments in the Rocky Mountains. In:Martin, Thomas E.; Finch, Deborah M. (eds.). Ecology and Management of Neotropical Migratory Birds. New York, Oxford: Oxford University Press. 220-244.
+
+Study Location: Rocky Mountains
+Habitat Description: forest types across the Rocky mountains
+Summary: Synthesis of the effects of different silvicultural treatments on neotropical migrants in forests of the Rocky Mountains. Outlines current forest structure, natural disturbance, logging history, and current silvicultural recommendations. General bird-habitat relationships in natural forest, including stands of different ages, are contrasted with stands that are silviculturally manipulated. Contains detailed species lists for rare to abundant bird species that are found in 8 forest types commonly found in the Rockies (Table 8-2). Also lists species by their likelihood to be more or less abundant in managed stands (classified as one of three types of clearcuts or partial cuts) compared to uncut forest. (Table 8-3)
+
+Marcot, Bruce G. 1983. Snag use by birds in Douglas-fir clearcuts. In Snag habitat management: proceedings of the symposium. June 7-9, 1983, Flagstaff, AZ. USDA Forest Service Gen. Tech. Rep. RM-GTR-99, Fort Collins, CO. pp 19-23.
+
+Study Location: northwestern California
+Habitat Description: PSME
+Summary: Bird abundance was compared in clearcut PSME forests where snags had been retained or removed. Nine species of primary and secondary cavity-nesting birds had a lower mean detection rate and percent occurrence in clearcuts where snags had been removed. One species, the chestnut-backed chickadee, increased in mean detection rate and percent occurrence in clearcuts without snags. The authors hypothesize that most cavity nesters shifted nesting to neighboring stands and used clearcut areas for foraging.
+
+Verner, Jared. 1980. Bird communities of mixed-conifer forests of the Sierra Nevada. In Management of western forests and grasslands for nongame birds: workshop proceedings. February 11-14, 1980, Salt Lake City, UT. USDA Forest Service Gen. Tech. Rep. INT-86, Ogden, UT. pp 198-223.
+
+Study Location: Sierra Nevada of California
+Habitat Description: ABCO/LIDE/PILA/PIPO/PSME
+Summary: Breeding bird species are predicted for the various habitat stages of mixed-conifer forest in the Sierra Nevada. Habitat is broken into groups based on tree size (exact diameters not given) and canopy closure. Relative suitability of habitats is listed; optimal habitat only was entered in this database. This species-habitat matrix was made from data from various studies in the region. Predictions were more accurate for later seral stages than early. Forest management in regards to bird communities is discussed, emphasizing the importance of late seral stages for breeding birds in the study region.
+
+Zarnowitz, Jill E.; Manuwal, David A. 1985. The effects of forest management on cavity-nesting birds in northwestern Washington. Journal of Wildlife Management. 49:255-262.
+
+Study Location: Olympic National Forest, northwest Washington
+Habitat Description: THPL-PSME zone
+Summary: Breeding populations of cavity-nesting birds were examined across four forest successional stages with varying snag densities. Species richness, diversity, and density increased with snag density. Nest site preferences for some species are given. Overall, larger taller snags with broken tops were preferred by cavity nesters. Management recommendations are made, including a minimum number of hard and soft snags per hectare, and size and species suggestions.

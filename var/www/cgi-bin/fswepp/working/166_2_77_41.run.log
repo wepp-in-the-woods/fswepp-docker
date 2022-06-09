@@ -1,0 +1,28 @@
+WF	wepp-226807	"02:14 pm  Thursday February 2, 2017"	"Moon Lake, UT +"	sand	1050	50	25	60	15	80	20	20	1	ft
+WF	wepp-226881	"02:14 pm  Thursday February 2, 2017"	"Moon Lake, UT +"	sand	1050	50	25	60	15	80	20	20	1	ft
+WF	wepp-42342	"02:38 pm  Friday February 3, 2017"	"Moon Lake, UT +"	sand	1500	225	45	15	70	25	15	20	0	ft
+WD	wepp-42423	"02:40 pm  Friday February 3, 2017"	"Moon Lake, UT +"	50	sand	LowFire	1275	45	15	50	20	LowFire	225	15	70	60	20	0	ft	""
+WD	wepp-42459	"02:41 pm  Friday February 3, 2017"	"Moon Lake, UT +"	50	sand	LowFire	1275	45	15	75	20	LowFire	225	15	70	85	20	0	ft	""
+WF	wepp-43036	"02:49 pm  Friday February 3, 2017"	"Moon Lake, UT +"	sand	1500	180	10	10	70	25	15	20	2	ft
+WF	wepp-43301	"02:56 pm  Friday February 3, 2017"	"Moon Lake, UT +"	sand	1200	180	50	30	35	30	20	20	0	ft
+WF	wepp-43369	"02:59 pm  Friday February 3, 2017"	"Moon Lake, UT +"	sand	1200	100	50	30	35	30	20	20	0	ft
+WF	wepp-43408	"02:59 pm  Friday February 3, 2017"	"Moon Lake, UT +"	sand	1200	100	50	30	35	30	20	20	0	ft
+WF	wepp-43480	"03:01 pm  Friday February 3, 2017"	"Moon Lake, UT +"	sand	1200	150	40	30	35	40	20	20	0	ft
+WF	wepp-43553	"03:04 pm  Friday February 3, 2017"	"Moon Lake, UT +"	sand	1200	50	40	30	35	40	20	20	0	ft
+WF	wepp-43620	"03:04 pm  Friday February 3, 2017"	"Moon Lake, UT +"	sand	1200	50	40	30	35	30	20	20	0	ft
+WF	wepp-43663	"03:07 pm  Friday February 3, 2017"	"Moon Lake, UT +"	sand	1200	150	25	25	65	30	20	20	4	ft
+WF	wepp-43916	"03:09 pm  Friday February 3, 2017"	"Moon Lake, UT +"	sand	1200	150	25	25	65	30	20	20	0	ft
+WF	wepp-44138	"03:13 pm  Friday February 3, 2017"	"Moon Lake, UT +"	sand	1200	50	25	25	65	30	20	20	0	ft
+WF	wepp-44218	"03:20 pm  Friday February 3, 2017"	"Moon Lake, UT +"	sand	1200	50	60	30	35	80	40	100	1	ft
+WF	wepp-44299	"03:22 pm  Friday February 3, 2017"	"Moon Lake, UT +"	sand	1200	150	60	30	35	80	40	100	1	ft
+WD	wepp-44380	"03:22 pm  Friday February 3, 2017"	"Moon Lake, UT +"	50	sand	LowFire	1050	60	30	75	20	LowFire	150	30	35	85	20	0	ft	""
+WF	wepp-44419	"03:26 pm  Friday February 3, 2017"	"Moon Lake, UT +"	sand	1100	150	50	50	15	80	20	80	1	ft
+WF	wepp-44503	"03:28 pm  Friday February 3, 2017"	"Moon Lake, UT +"	sand	1100	50	50	50	15	80	20	80	1	ft
+WD	wepp-64850	"12:15 pm  Saturday February 4, 2017"	"Moon Lake, UT +"	50	sand	LowFire	1050	50	50	85	40	OldForest	50	50	15	100	30	0	ft	"Slope0LowSev50'buf"
+WD	wepp-64891	"12:17 pm  Saturday February 4, 2017"	"Moon Lake, UT +"	50	sand	HighFire	1050	50	50	45	40	OldForest	50	50	15	100	30	0	ft	"Slope0LowSev50'buf"
+WD	wepp-64927	"12:17 pm  Saturday February 4, 2017"	"Moon Lake, UT +"	50	sand	HighFire	50	0	30	45	20	LowFire	50	30	5	85	20	0	ft	""
+WD	wepp-64963	"12:18 pm  Saturday February 4, 2017"	"Moon Lake, UT +"	50	sand	HighFire	50	0	30	100	20	LowFire	50	30	5	85	20	0	ft	""
+WD	wepp-64999	"12:18 pm  Saturday February 4, 2017"	"Moon Lake, UT +"	50	sand	HighFire	50	0	30	100	20	HighFire	50	30	5	45	20	0	ft	""
+WD	wepp-65037	"12:22 pm  Saturday February 4, 2017"	"Moon Lake, UT +"	50	sand	Shrub	50	10	10	80	30	YoungForest	180	10	70	70	20	0	ft	""
+WD	wepp-65074	"12:23 pm  Saturday February 4, 2017"	"Moon Lake, UT +"	50	sand	LowFire	50	10	10	85	30	YoungForest	180	10	70	70	20	0	ft	""
+WD	wepp-65111	"12:23 pm  Saturday February 4, 2017"	"Moon Lake, UT +"	50	sand	LowFire	1200	0	30	85	20	YoungForest	180	30	5	100	20	0	ft	""

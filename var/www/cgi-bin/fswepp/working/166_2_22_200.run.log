@@ -1,0 +1,79 @@
+WE	wepp-70032	"11:57 am  Tuesday January 26, 2016"	"MOUNT SHASTA CA"	sand	20	forest	20	30	15	300	h			ft
+WD	wepp-117858	"01:10 pm  Thursday February 4, 2016"	"MOSCOW U OF I ID"	10	sand	HighFire	300	0	30	45	20	LowFire	50	30	10	85	20	0	ft	""
+WD	wepp-117917	"01:12 pm  Thursday February 4, 2016"	"MOSCOW U OF I ID"	10	sand	HighFire	300	0	30	45	20	HighFire	50	30	10	45	20	0	ft	""
+WD	wepp-117976	"01:13 pm  Thursday February 4, 2016"	"JACKSON WY"	10	sand	HighFire	50	0	30	45	20	HighFire	50	30	5	45	20	0	ft	""
+WD	wepp-118016	"01:13 pm  Thursday February 4, 2016"	"JACKSON WY"	50	sand	HighFire	50	0	30	45	20	HighFire	50	30	5	45	20	0	ft	""
+WD	wepp-118064	"01:14 pm  Thursday February 4, 2016"	"JACKSON WY"	10	sand	HighFire	50	0	30	45	20	HighFire	50	30	5	45	20	0	ft	""
+WD	wepp-118320	"01:15 pm  Thursday February 4, 2016"	"JACKSON WY"	10	sand	LowFire	50	0	30	85	20	Sod	50	30	5	40	20	0	ft	""
+WD	wepp-213893	"02:46 pm  Monday February 8, 2016"	"Skyline WUI D7 WY +"	10	sand	OldForest	50	0	30	100	20	OldForest	50	30	5	100	20	0	ft	""
+WD	wepp-213931	"02:46 pm  Monday February 8, 2016"	"Skyline WUI D7 WY +"	50	sand	OldForest	50	0	30	100	20	OldForest	50	30	5	100	20	0	ft	""
+WD	wepp-213982	"02:48 pm  Monday February 8, 2016"	"Skyline WUI D7 WY +"	50	sand	YoungForest	50	0	30	100	20	YoungForest	50	30	5	100	20	0	ft	""
+WD	wepp-214031	"02:49 pm  Monday February 8, 2016"	"Skyline WUI D7 WY +"	50	sand	YoungForest	50	0	30	85	20	YoungForest	50	30	5	85	20	0	ft	""
+WF	wepp-214315	"02:51 pm  Monday February 8, 2016"	"Skyline WUI D7 WY +"	sand	200	50	10	30	15	40	20	20	4	ft
+WF	wepp-214392	"02:51 pm  Monday February 8, 2016"	"Skyline WUI D7 WY +"	sand	200	50	10	30	15	40	20	20	4	ft
+WD	wepp-214488	"02:52 pm  Monday February 8, 2016"	"Skyline WUI D7 WY +"	10	clay	LowFire	50	0	30	85	20	LowFire	50	30	5	85	20	0	ft	""
+WD	wepp-218566	"04:09 pm  Monday February 8, 2016"	"Skyline WUI D7 WY +"	10	sand	LowFire	50	0	30	85	20	LowFire	50	30	5	85	20	0	ft	""
+WD	wepp-218818	"04:10 pm  Monday February 8, 2016"	"Skyline WUI D7 WY +"	10	sand	LowFire	50	0	30	55	20	LowFire	50	30	5	55	20	0	ft	""
+WD	wepp-218862	"04:11 pm  Monday February 8, 2016"	"Skyline WUI D7 WY +"	10	sand	HighFire	50	0	30	45	20	HighFire	50	30	5	45	20	0	ft	""
+WD	wepp-218902	"04:11 pm  Monday February 8, 2016"	"Skyline WUI D7 WY +"	10	sand	HighFire	50	0	30	30	20	HighFire	50	30	5	30	20	0	ft	""
+WR	wepp-221108	"02:27 pm  Wednesday February 17, 2016"	"Skyline WUI D7 WY +"	2	sand	native	200	4	13	15	50	130	25	20	outrut	ft
+WR	wepp-221187	"02:28 pm  Wednesday February 17, 2016"	"Skyline WUI D7 WY +"	30	silt	native	60	5	4	5	50	40	25	20	outrut	m
+WR	wepp-221268	"02:28 pm  Wednesday February 17, 2016"	"Skyline WUI D7 WY +"	2	silt	native	60	5	4	5	50	40	25	20	outrut	m
+WR	wepp-221304	"02:28 pm  Wednesday February 17, 2016"	"Skyline WUI D7 WY +"	2	silt	native	60	5	4	5	50	40	25	20	outrut	m
+WR	wepp-221356	"02:28 pm  Wednesday February 17, 2016"	"Skyline WUI D7 WY +"	2	silt	native	60	5	4	5	50	40	25	20	outrut	m
+WR	wepp-221398	"02:28 pm  Wednesday February 17, 2016"	"BIRMINGHAM WB AP AL"	2	silt	native	60	5	4	5	50	40	25	20	outrut	m
+WR	wepp-221465	"02:29 pm  Wednesday February 17, 2016"	"BIRMINGHAM WB AP AL"	2	sand	native	60	5	4	5	50	40	25	20	outrut	m
+WR	wepp-221534	"02:29 pm  Wednesday February 17, 2016"	"BIRMINGHAM WB AP AL"	2	sand	native	60	5	4	5	50	40	25	20	outrut	m
+WR	wepp-221605	"02:29 pm  Wednesday February 17, 2016"	"FLAGSTAFF WB AP AZ"	2	sand	native	60	5	4	5	50	40	25	20	outrut	m
+WR	wepp-221677	"02:29 pm  Wednesday February 17, 2016"	"MOUNT SHASTA CA"	30	sand	native	60	4	4	5	50	40	25	20	outrut	m
+WR	wepp-221765	"02:30 pm  Wednesday February 17, 2016"	"DENVER WB AP CO"	30	sand	graveled	60	4	4	5	50	40	25	20	outunrut	m
+WR	wepp-221848	"02:30 pm  Wednesday February 17, 2016"	"DENVER WB AP CO"	2	sand	graveled	60	4	4	5	50	40	25	20	outunrut	m
+WR	wepp-222266	"02:33 pm  Wednesday February 17, 2016"	"DENVER WB AP CO"	2	sand	graveled	60	4	4	5	50	40	25	20	outunrut	m
+WR	wepp-225176	"02:37 pm  Wednesday February 17, 2016"	"DENVER WB AP CO"	2	sand	graveled	60	4	4	5	50	40	25	20	inbare	m
+WR	wepp-225304	"02:37 pm  Wednesday February 17, 2016"	"DENVER WB AP CO"	2	sand	graveled	60	4	4	5	50	40	25	20	inveg	m
+WR	wepp-225411	"02:38 pm  Wednesday February 17, 2016"	"DENVER WB AP CO"	2	sand	graveled	60	4	4	5	50	40	25	20	outrut	m
+WR	wepp-225547	"02:38 pm  Wednesday February 17, 2016"	"DENVER WB AP CO"	2	sand	graveled	40	4	4	5	50	40	25	20	outrut	m
+WR	wepp-225604	"02:38 pm  Wednesday February 17, 2016"	"DENVER WB AP CO"	2	sand	graveled	40	4	4	5	50	40	25	20	outrut	m
+WR	wepp-225678	"02:38 pm  Wednesday February 17, 2016"	"DENVER WB AP CO"	2	sand	graveled	40	4	4	5	50	40	25	20	outrut	m
+WR	wepp-225730	"02:38 pm  Wednesday February 17, 2016"	"DENVER WB AP CO"	2	sand	graveled	40	4	4	5	50	40	25	20	outrut	m
+WR	wepp-227186	"04:51 pm  Tuesday February 23, 2016"	"Skyline WUI D7 WY +"	30	sand	graveled	200	4	13	15	50	130	25	20	inveg	ft
+WD	wepp-228415	"04:52 pm  Tuesday February 23, 2016"	"Skyline WUI D7 WY +"	10	clay	OldForest	50	0	30	100	20	OldForest	50	30	5	100	20	0	ft	""
+WR	wepp-230085	"04:55 pm  Tuesday February 23, 2016"	"JACKSON WY"	30	clay	native	200	4	13	1	50	130	25	20	inveg	ft
+WR	wepp-73510	"11:33 am  Wednesday March 2, 2016"	"JACKSON WY"	30	clay	native	200	4	13	15	50	130	25	20	inveg	ft
+WD	wepp-73619	"11:37 am  Wednesday March 2, 2016"	"JACKSON WY"	50	silt	LowFire	250	0	30	85	20	OldForest	50	30	5	100	20	0	ft	""
+WD	wepp-73656	"11:37 am  Wednesday March 2, 2016"	"JACKSON WY"	40	silt	LowFire	250	0	30	85	20	OldForest	50	30	5	100	20	0	ft	""
+WD	wepp-73696	"11:37 am  Wednesday March 2, 2016"	"JACKSON WY"	40	silt	LowFire	50	0	30	100	20	OldForest	50	30	5	100	20	0	ft	""
+WD	wepp-73735	"11:38 am  Wednesday March 2, 2016"	"MOSCOW U OF I ID"	40	silt	LowFire	50	0	30	100	20	OldForest	50	30	5	100	20	0	ft	""
+WD	wepp-73781	"11:38 am  Wednesday March 2, 2016"	"MOSCOW U OF I ID"	40	silt	LowFire	250	0	30	100	20	OldForest	50	30	10	100	20	0	ft	""
+WD	wepp-73820	"11:38 am  Wednesday March 2, 2016"	"MOSCOW U OF I ID"	40	silt	LowFire	250	0	30	85	20	OldForest	50	30	10	100	20	0	ft	""
+WD	wepp-73874	"11:39 am  Wednesday March 2, 2016"	"MOSCOW U OF I ID"	50	silt	LowFire	50	0	30	85	20	OldForest	50	30	5	100	20	0	ft	""
+WD	wepp-73914	"11:39 am  Wednesday March 2, 2016"	"MOSCOW U OF I ID"	50	silt	LowFire	50	0	30	85	20	OldForest	50	30	5	100	20	0	ft	""
+WD	wepp-74031	"11:40 am  Wednesday March 2, 2016"	"MOSCOW U OF I ID"	50	silt	LowFire	250	10	30	85	20	OldForest	50	30	10	100	20	0	ft	""
+WD	wepp-74119	"11:41 am  Wednesday March 2, 2016"	"MOSCOW U OF I ID"	50	silt	LowFire	250	10	30	50	20	OldForest	50	30	10	80	20	0	ft	""
+WR	wepp-77816	"02:17 pm  Wednesday March 2, 2016"	"JACKSON WY"	30	clay	native	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-77859	"02:17 pm  Wednesday March 2, 2016"	"Wash Road +"	30	clay	native	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-77963	"02:20 pm  Wednesday March 2, 2016"	"Wash Road +"	30	sand	native	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-78011	"02:20 pm  Wednesday March 2, 2016"	"Wash Road +"	30	sand	native	200	4	13	15	50	130	25	20	outrut	ft
+WR	wepp-78077	"02:23 pm  Wednesday March 2, 2016"	"Wash Road +"	30	sand	native	250	4	13	1	50	1	25	20	outrut	ft
+WR	wepp-78158	"02:25 pm  Wednesday March 2, 2016"	"Wash Road +"	30	sand	native	200	4	13	15	50	130	25	20	outrut	ft
+WR	wepp-78217	"02:27 pm  Wednesday March 2, 2016"	"Wash Road +"	30	sand	native	200	4	13	15	50	130	25	20	outrut	ft
+WR	wepp-78395	"02:37 pm  Wednesday March 2, 2016"	"Wash Road +"	30	sand	graveled	200	4	13	15	50	130	25	20	inveg	ft
+WR	wepp-78487	"02:40 pm  Wednesday March 2, 2016"	"Wash Road +"	30	sand	graveled	250	4	14	10	50	50	25	20	outunrut	ft
+WR	wepp-78569	"02:44 pm  Wednesday March 2, 2016"	"Wash Road +"	30	sand	graveled	200	4	14	1	50	50	25	20	inveg	ft
+WR	wepp-78656	"02:47 pm  Wednesday March 2, 2016"	"Wash Road +"	30	sand	graveled	50	2	13	1	50	1	25	20	inveg	ft
+WD	wepp-179522	"01:31 pm  Thursday March 3, 2016"	"Wash Road +"	50	sand	OldForest	950	49	69	100	20	OldForest	50	69	46	100	20	0	ft	""
+WD	wepp-180068	"01:48 pm  Thursday March 3, 2016"	"Wash Road +"	50	sand	YoungForest	950	49	69	85	20	OldForest	50	69	46	100	20	0	ft	""
+WD	wepp-180084	"01:49 pm  Thursday March 3, 2016"	"Wash Road +"	50	sand	LowFire	950	49	69	85	20	OldForest	50	69	46	100	20	0	ft	""
+WD	wepp-180153	"01:50 pm  Thursday March 3, 2016"	"Wash Road +"	50	sand	HighFire	950	49	69	30	20	LowFire	50	69	46	60	20	0	ft	""
+WD	wepp-180264	"01:53 pm  Thursday March 3, 2016"	"Wash Road +"	50	sand	HighFire	950	49	69	30	20	LowFire	50	69	46	60	20	0	ft	""
+WF	wepp-180461	"01:57 pm  Thursday March 3, 2016"	"Wash Road +"	sand	950	50	49	69	46	40	20	20	4	ft
+WE	wepp-92245	"02:31 pm  Wednesday March 30, 2016"	"Butte Fire CA +"	silt	20	forest	20	50	40	400	h			ft
+WE	wepp-219974	"10:42 am  Thursday April 7, 2016"	"FORT VALLEY AZ"	loam	20	forest	20	35	30	400	m			ft
+WE	wepp-220191	"10:44 am  Thursday April 7, 2016"	"FORT VALLEY AZ"	loam	20	forest	30	35	25	200	m			m
+WB	wepp-36780	"04:09 pm  Thursday April 14, 2016"	"Smokey Boulder,  ID +"	silt	300	50	20	30	25	40	20	20	4	ft
+WD	wepp-197135	"09:52 am  Friday May 13, 2016"	"Ft Mcmurray, Alberta, CA +"	10	sand	HighFire	300	0	30	45	20	LowFire	50	30	5	85	20	0	ft	""
+WD	wepp-197180	"09:52 am  Friday May 13, 2016"	"Ft Mcmurray, Alberta, CA +"	100	sand	HighFire	300	0	30	45	20	LowFire	50	30	5	85	20	0	ft	""
+WD	wepp-84677	"02:47 pm  Monday May 16, 2016"	"Ft Mcmurray, Alberta, CA +"	10	sand	OldForest	50	0	30	100	20	OldForest	50	30	5	100	20	0	ft	""
+WB	wepp-127387	"03:07 pm  Thursday May 26, 2016"	"Ft Mcmurray, Alberta, CA +"	clay	200	50	0	30	15	40	20	20	4	ft
+WF	wepp-195260	"03:15 pm  Wednesday February 23, 2022"	"Emma 1 CA +"	sand	700	50	0	30	15	60	20	20	4	ft
+WD	wepp-218193	"09:11 am  Thursday February 24, 2022"	"Emma 2 CA + +"	10	sand	Skid	150	0	30	20	20	OldForest	50	30	5	100	20	0	ft	""

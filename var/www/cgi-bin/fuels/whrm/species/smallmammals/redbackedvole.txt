@@ -1,0 +1,156 @@
+#this files was modified by filegenwhrm.pl on: Wednesday, March 16, 2005.
+#taxgroup Small Mammals species Red-backed vole /  Clethrionomys gapperi
+#
+# Rank
+3,1,3,3,4
+# Nestsite
+8,1
+# Reprorank
+1,-99
+# Foraging Habitat
+8,1:20,1
+# Habitatrank
+1,-99:2,-99:1,-99
+# Forage/Prey Availability
+2,1:3,1:4,1
+# Preyrank
+1,-99:1,-99:2,-99
+# Predator Avoidance
+8,1:6,1:7,1
+# Avoidrank
+4,-99:1,-99:1,-99
+# Refugia/Shelter
+8,1:6,1:7,1
+# Shelterrank
+4,-99:1,-99:1,-99
+# Coverrank
+4,-99:1,-99:1,-99
+# Literature
+Distribution
+Canada, northern USA south along both Appalachian and Rocky Mountain chains
+General Habitat
+moist old growth forests; avoids cut or young forest; complex forest structure
+Home or Activity Range
+< 1.5 ac
+Canopy Cover
+abundance linked to dense, closed canopy cover (Campbell and Clark 1980, Belk et al. 1988)
+Specific Habitat Preferences
+stands with abundant large-diameter logs; negatively respond to presence of deciduous woody stems, density of lodgepole stems; closed canopy, medium-large trees; greater in stands with herb and cover, logs, shrubs; Raphael (1988) found a positive association with grass cover, while Corn et al. (1988) found a negative association
+Nestsite Characteristics
+nests under roots or logs
+Foraging Habitat Characteristics
+forages on ground or in shrubs and understory vegetation
+Diet
+opportunistic, omnivorous feeders; shift their diet with food availability; Bryoria lichen and fungal sporocarps; green vegetation, seeds, nuts, bark, insects
+Predators
+American marten, boreal owl; other raptors and forest carnivores
+Shelter Habitats
+downed wood, dense shrubs, litter
+Response to Disturbance
+more abundant in young stands than clearcuts (Corn et al. 1988); disappeared after diameter-cut logging (Medin 1986); highest density in uncut and selectively cut stands, lowest density in clearcuts (Campbell and Clark 1980); in general, less abundant in stands harvested for fuels reduction (Bull and Blumton 1999); not present in sites with clearcut/burn (Gashwiler 1970); more abundant in uncut forest compared to 5- and 15-year old clearcuts (Ramirez and Hornocker 1981); less abundant on thinned and burned sites compared to controls, but uncommon overall (Woolf 2003); increased in abundance one year after overstory removal and new forestry harvest techniques (Shepherd 1994); most abundant in old growth vs. clearcut and seed-tree forest stands (Sullivan et al. 2000)
+Sources of Information used in the Model
+Campbell and Clark 1980, Ramirez and Hornocker 1981, Belk et al. 1988, Corn et al. 1988, Raphael 1988, Pearson 1994, Spildie et al. unpub.
+General Sources of Background Information
+Brown 1967, Gashwiler 1970, Burt 1980, Campbell and Clark 1980, Ramirez and Hornocker 1981, Medin 1986, Belk et al. 1988, Corn et al. 1988, Raphael 1988, Hayward et al. 1993, McComb et al. 1993, Pearson 1994, Shepherd 1994, Hayward and Hayward 1995, reviewed in Pearson 1999, Bull and Blumton 1999, Spildie et al. Unpub., Bull 2000, Sullivan et al. 2000, reviewed in O'Neil et al. 2001, reviewed in Sallabanks et al. 2003, Woolf, 2003
+Summaries of Specific Studies
+Belk, Mark C.; Smith, H. Duane; Lawson, John. 1988. Use and partitioning of montane habitat by small mammals. Journal of Mammalogy. 69:688-695.
+
+Study Location: Utah Co., Utah
+Habitat Description: PSME and aspen interspersed with herbaceous and shrub-dominated meadows
+Summary: Habitat associations of four small mammal species (deer mouse, western jumping mouse, western redbacked vole, montane vole) were examined for montane sites in Utah. Species microhabitat preferences are given. Microhabitat preferences shifted from fallen logs and brush in early summer to areas of herbaceous growth in mid and late summer. Females occupied more structured microhabitat than males (higher levels of fallen trees, trees, and shrubs).
+
+Brown, L.N. 1967. Distribution of mice in the Medicine Bow Mountains of Wyoming. Ecology. 48:677-680.
+
+Study Location: southern Wyoming
+Habitat Description: 8 types: sagebrush, mountain mahogany, aspen, subalpine meadow, willow-alder, lodgepole pine, spruce-fir, alpine tundra
+Summary: The distributions of six mammal species were examined across eight types of plant communities. This summary will only address plant community types of interest to this project (aspen, PICO, spruce-fir). Jumping mice were common in aspen but were rare in PICO and spruce-fir forest unless bogs and/or meadows were present. They preferred wet areas with dense groundcover. Western redbacked voles were common in PICO and spruce-fir forest, and did not show a preference for water or ground cover. Deer mice were abundant in all types, but were rare in PICO and spruce-fir. They avoided wet areas and exhibited no preference for ground cover. Overall, plant communities with dense ground cover had twice the number of small mammals as those with sparse ground cover.
+
+Bull, Evelyn L.; Blumton, Arlene K. 1999. Effect of fuels reduction on American martens and their prey. Research Note PNW-RN-539. Portland, OR: USDA Forest Service, Pacific Northwest Research Station. 9 p.
+
+Study Location: northeastern Oregon
+Habitat Description: PICO, mixed conifer: ABLA, ABGR, LAOC, PIEN, PSME
+Summary: The effect of fuels reduction on American marten was investigating by examining prey response to harvesting in lodgepole and mixed conifer stands. In general, the harvest activities resulted in fewer post-harvest numbers of red-backed voles and snowshoe hares and in more chipmunks. Red squirrels declined in the control and scattered treatment, and slightly increased in the island treatment. Harvest techniques that retained some cover in the form of downed logs or pockets of regeneration were favored by small mammals to techniques where cover was removed. The declines of red-backed voles, red squirrels and snowshoe hares as a result of harvesting would negatively impact marten, as these small mammals comprise a majority of the marten diet. Furthermore, the structures that many small mammals use for cover, including downed logs, are also used by marten. Therefore, it appears that although marten could be negatively impacted by the fuels reduction methods used in this study, the technique that retained certain structures should be further investigated as an option for managers. The authors note that extrapolation of the data should be done with caution, as sample size and sampling period were limited.
+
+Campbell III, Thomas M.; Clark, Tim W. 1980. Short-term effects of logging on red-backed voles and deer mice. Great Basin Naturalist. 40(2): 183-189.
+
+Study Location: Bridger-Teton National Forest, Wyoming
+Habitat Description: PIEN-ABLA, PICO, PSME, PIFL
+Summary: Deer mouse and red-backed vole populations were monitored in sites that had been clearcut or had undergone selective logging. Selective logging removed 54% of the trees but retained mesic conditions. Clearcutting removed 84% of the trees and the resulted in a transition to xeric condition. As time since treatment progressed, voles were more common on uncut and selectively logged sites, whereas deer mice were more common on the clearcut sites. There was no difference between sites in sex-ratios, timing of reproduction, litter size, and body measurements.
+
+Corn, Paul Stephen; Bury, R. Bruce; Spies, Thomas A. 1988. Douglas-fir forests in the Cascade Mountains of Oregon and Washington: Is the abundance of small mammals related to stand age and moisture? In: Management of amphibians, reptiles, and small mammals in North America symposium: proceedings; Gen. Tech. Rep. RM-166. Fort Collins, CO: USDA, Forest Service, Rocky Mountain Forest and Range Experiment Station. 340-352.
+
+Study Location: Oregon and Washington Cascade Mountains
+Habitat Description: PSME
+Summary: Abundance of small mammals was associated with seral stage and moisture of PSME forests. Habitat associations are given for a number of species. Comparisons between clearcut and young forests were made for a few species.
+
+Gashweiler, Jay S. 1970. Plant and animal changes on a clearcut in west-central Oregon. Ecology. 51:1018-1026.
+
+Study Location: west-central Oregon (west Cascades)
+Habitat Description: PSME, TSHE, THPL
+Summary: Study documents changes in plant and mammal communities for 11 years following a clearcut with a fall burn. Deer mice increased in the experimental area soon after the burn was completed. Other species that increased at various times after the burn include Townsend's chipmunk, snowshoe hare, and the Oregon vole. Red-back voles, northern flying squirrels, and Douglas' squirrels were not found in the clearcut/burn. California squirrels migrated into the clearcut/burn.
+
+Hayward, Gregory D.; Hayward, Patricia H. 1995. Relative abundance and habitat associations of small mammals in Chamberlain Basin, Central Idaho. Northwest Science. 69(2): 114-125.
+
+Study Location: Frank Church Wilderness, central Idaho
+Habitat Description: PICO-dominated, also PIPO, PSME, ABLA, PIEN
+Summary: Small mammal populations were sampled in a wilderness area in central Idaho. Spruce-fir forests had the highest abundance of small mammals, while PICO forest had the lowest. Species richness was low in all habitats, though it was highest in PICO forest. Habitat associations are given for some small mammals. The patchy distribution of small mammals in this study area mimics the patchy nature of forests in this region.
+
+Hayward, Gregory D., Hayward, Patricia H.; Garton, Edward O. 1993. Ecology of boreal owls in the northern Rocky Mountains, USA. Wildlife Monographs. 124:159.
+
+Study Location: northern Rocky Mountains; western Montana, Idaho, northwestern Wyoming, northern Utah
+Habitat Description: spruce-fir zone; including ABLA, PSME, aspen, PICO, also extended into PIPO zone
+Summary: Four year study on the ecology of the boreal owl in the northern Rocky Mountains. All owls were detected above 1292 m elevation, and the majority of detections were in ABLA habitat types. PICO was the only dominant forest type that was avoided, despite being common in the study area. It was used when no other forest type was available, and was characterized as having large trees. Nest sites were restricted to mature/old stands with complex physical structure; many habitat types were used, including mixed conifer forest (PIPO and PSME) 39% of the time as well as aspen 21% of the time despite covering <1% of the available forest. PICO was avoided for nesting. Boreal owls were selective in summer roosts sites, choosing sites with greater canopy cover, higher tree density, and higher basal area. The best foraging habitat was associated with mature/old spruce-fir stands where prey was most abundant. Diet, population and breeding were also examined. Habitat associations by vegetation type are given for primary prey species. Management strategies that focus on snag retention and harvest practices that retain forest structure are recommended for maintaining quality habitat.
+
+McComb, William C.; McGarigal, Kevin, Anthony, Robert G. 1993. Small mammal and amphibian abundance in streamside and upslope habitats of mature Douglas-fir stands, western Oregon. Northwest Science. 67(1):7-15.
+
+Study Location: Oregon Coast Range
+Habitat Description: PSME
+Summary: Small mammal and amphibian populations were sampled in streamside and upslope habitats in the Oregon Coast Range. Streamside habitats had shallower litter depth, greater high shrub cover (1.3-4m), greater midstory cover, less low shrub cover (<1.3m), less overstory cover, less basal area of snags and live conifers, and fewer stumps than upslope areas. These differences were largely due to different floristics. Small mammal species diversity was higher on streamside transects. Marsh shrews, Pacific jumping mice, long-tailed voles, and white-footed voles capture rates were higher streamside. Western red-backed voles, creeping voles, Trowbridge's shrews, and Townsend's chipmunks capture rates were higher on upslope transects. Amphibian species richness did not differ between stream and upslope transects. Dunn's salamanders were caught along streamside transects. More ensatinas were found on upslope transects. Specific habitat associations are given for three small mammal species: Pacific jumping mice, western red-backed voles, and marsh shrews.
+
+Medin, Dean E. 1986. Small mammal responses to diameter-cut logging in an Idaho Douglas-fir forest.  Research Note INT-362, USDA Forest Service, Intermountain Research Station.
+
+Study Location: west-central Idaho
+Habitat Description: dominated by PSME and PIPO; scattered stands of ABGR, PICO, PIEN
+Summary: Small mammals were trapped from 1-3 
+
+Pearson, Dean Edward. 1994. Habitat use by the southern red-backed vole (Clethrionomys gapperi): Response of an old-growth associated species to succession. Missoula, MT: University of Montana. 105 p. M.S. Thesis.
+
+Study Location:  northwestern Montana
+Habitat Description: THPL, TSHE zone; early successional class dominated by PICO, also LAOC, PSME, PIMO, BEPA, ABLA, ABGR; late successional stages as climax THPL-TSHE
+Summary: Populations of southern red-backed voles and deer mice were examined in four successional stages of cedar-hemlock forest. Abundance of both species increased with stand age. Macro- and micro- habitat associations were not consistent. Deer mice behaved as a macrohabitat generalist, but exhibited stronger microhabitat selection than the voles. The southern red-backed vole demonstrated a strong relationship with stand age and old-growth conditions near the forest floor.
+
+Ramirez Jr., Pedro.; Hornocker, Maurice. 1981. Small mammal populations in different-aged clearcuts in Northwestern Montana. Journal of Mammalogy. 62:400-403.
+
+Study Location: northwestern Montana
+Habitat Description: ABLA habitat-types
+Summary: The effects of clearcutting on mammalian prey species of the wolverine were studied in northwestern Montana. Deer mice were more abundant in 5-year old clearcuts than 15-year old clearcuts and uncut forest. Redbacked vole densities were highest in uncut forest. Clearcuts provided diverse habitats for small mammals through different stages of succession, much like wildfire did at one point in time.
+
+Raphael, Martin G. 1988. Habitat associations of small mammals in a subalpine forest, southeastern Wyoming. In: Management of amphibians, reptiles, and small mammals in North America symposium: proceedings; Gen. Tech. Rep. RM-166. Fort Collins, CO: USDA, Forest Service, Rocky Mountain Forest and Range Experiment Station. 359-367.
+
+Study Location: southern Wyoming
+Habitat Description: PICO (60%), PIEN, ABLA
+Summary: Abundance of small mammals was associated with generalized habitat types within the supalpine zone. Moisture and stand maturity were two habitat features that separated patterns of abundance of various species. Specific habitat associations are given for 8 species of small mammals. The southern red-backed vole was confirmed as a suitable indicator of old-growth forest; the masked and dusky shrew may be as well.
+
+Shepard, Jay F. 1994. Initial response of small mammals to new forestry and overstory removal timber harvests. Missoula, MT: University of Montana. 84 p. M.S. Thesis.
+
+Study Location: northwest Montana
+Habitat Description: PSME-dominated; also included PICO, ABLA, ABGR, PIEN, PIPO
+Summary: The initial responses of small mammals to overstory removal and new forestry techniques were monitored in western Montana. Treatments affected large tree density but not vegetative cover or density of small trees. There was no significant treatment effect on any small mammal species, but trends in abundance were apparent; red-tailed chipmunks appeared to decline while yellow pine chipmunks and red-backed voles increased in response to harvest. Habitat associations were examined for some species pre- and post- harvest. The use of riparian buffers was also investigated, with use of buffers higher than expected in overstory removal grids and use of upland rows higher than expected in control grids.
+
+Spildie, David R.; Stanton, Nancy L.; Buskirk, Steven W. Post-fire succession of small mammals in montane forests of the greater Yellowstone area, Wyoming. Unpublished paper on file at: Aldo Leopold Wilderness Research Institute, Missoula, MT. 41 p.
+
+Study Location: Grand Teton National Park, Wyoming
+Habitat Description: mixed conifer: ABLA, PICO, PIEN
+Summary: This study examined small mammal diversity across a chronosequence of burned sites and controls in Grand Teton National Park. Densities of deer mice and southern red-backed voles were not associated with successional status of the forest, or any other gross features of the habitats other than the association of southern red-backed voles with unburned forest , and higher densities of deer mice in burned forest, particularly those that had recently burned. The deer mouse was associated with forests of all successional states, but primarily with more open habitats. The southern red-backed vole was far more common in mature forests with various combinations of spruce, fir, and lodgepole pine. Specific microhabitat variables that predicted densities of deer mice and southern red-backed voles were identified for unburned forests, but no discriminating variables were found in burned forests. Forests in this area contain an assemblage of small mammal species of varying habitat specificities that show unpredictable responses to highly variable post-fire conditions. As some results contradict those found in other studies, the authors suggest that generalizing about microhabitat use by small mammals in different ecosystems should be done with caution.
+
+Sullivan, Thomas P.; Druscilla, S.; Lindgren, Pontus M.F. 2000. Small mammals and stand structure in young pine, seed-tree, and old-growth forest, southwest Canada. Ecological Applications. 10(5): 1367-1383.
+
+Study Location:  south-central British Columbia
+Habitat Description: PSME, PICO
+Summary: This study tested the hypothesis that diversity of stand structure attributes and forest-floor small mammal communities increase from young pine to seed tree to old growth forest. Some vegetative attributes differed between forest type. Red-backed voles were most abundant in old growth forest, while northwestern chipmunks, heather voles, western jumping mice, montane shrews, and common shrews were more abundant in the treated stands. Meadow voles were more abundant in the seed tree stands. Deer mice, long-tailed voles, and short-tailed weasels were similarly abundant among all treatment types. Mean species richness and diversity was higher in the treated stands, suggesting that all stand types offer their own structural diversity to the forest landscape.
+
+Woolf, Jennifer. 2003. The effects of thinning and prescribed fire on birds, small mammals, and avian species composition. Missoula, MT: University of Montana. 93 p. M.S. Thesis.
+
+Study Location: western Montana
+Habitat Description: PIPO
+Summary: Stands in western Montana underwent PIPO restoration treatments that included selective tree removal followed by a prescribed burn. Bird and small mammal populations were monitored on these and control sites. While some bird species showed a preference for treated vs. untreated stands, the treatment did not have major effects on avian species composition. The foraging behavior of bark-gleaning birds was also examined on treated vs. untreated sites. Birds selectively foraged on larger trees, with PIPO preferred to PSME in this study area. Thinning and burning is compatible with providing forage substrates for the species in this area, as the encounter rate for bark-gleaners was higher in the treated sites. Small mammal communities changed in both abundance and composition as a result of treatment.

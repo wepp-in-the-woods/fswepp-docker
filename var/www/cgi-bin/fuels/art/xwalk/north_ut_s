@@ -1,0 +1,60 @@
+#	Coniferous Forest Habitat Types of Northern Utah.
+#	Gen. Tech. Rep. INT-GTR-170.
+#	Mauk, R.L. and J.A. Henderson. 1984.
+#	Ogden, UT: U.S. Department of Agriculture, Forest Service, Intermountain Research Station. 89 p.
+ABCO/BERE-BERE	CoolF	DS	CoolF/DS	H	 6 - White fir and blue spruce habitat types (mixed conifer types)
+ABCO/BERE-SYAL	CoolF	DS	CoolF/DS	H	 6 - White fir and blue spruce habitat types (mixed conifer types)
+ABCO/OSCH	CoolF	DS	CoolF/DS	H	 6 - White fir and blue spruce habitat types (mixed conifer types)
+ABCO/PHMA	CoolF	DS	CoolF/DS	H	 6 - White fir and blue spruce habitat types (mixed conifer types)
+ABLA/ACGL	ColdF	DH	ColdF/DH	H	10 - Dry, lower subalpine habitat types
+ABLA/ACRU	ColdF	WH	ColdF/WH	H	11 - Moist to wet subalpine habitat types
+ABLA/BERE	ColdF	DS	ColdF/DS	H	99
+ABLA/BERE-BERE	ColdF	DS	ColdF/DS	H	10 - Dry, lower subalpine habitat types
+ABLA/BERE-CAGE	ColdF	DS	ColdF/DS	H	10 - Dry, lower subalpine habitat types
+ABLA/BERE-JUCO	ColdF	DS	ColdF/DS	H	10 - Dry, lower subalpine habitat types
+ABLA/BERE-PSME	ColdF	DS	ColdF/DS	H	10 - Dry, lower subalpine habitat types
+ABLA/BERE-RIMO	ColdF	DH	ColdF/DH	H	10 - Dry, lower subalpine habitat types
+ABLA/CACA	ColdF	WF	ColdF/WF	H	11 - Moist to wet subalpine habitat types
+ABLA/CARU	ColdF	DS	ColdF/DS	H	10 - Dry, lower subalpine habitat types
+ABLA/JUCO	ColdF	DG	ColdF/DG	L	10 - Dry, lower subalpine habitat types
+ABLA/OSCH	ColdF	DG	ColdF/DG	L	10 - Dry, lower subalpine habitat types
+ABLA/PERA-PERA	ColdF	DH	ColdF/DH	H	10 - Dry, lower subalpine habitat types
+ABLA/PERA-PSME	ColdF	DH	ColdF/DH	H	10 - Dry, lower subalpine habitat types
+ABLA/PHMA	ColdF	DH	ColdF/DH	H	10 - Dry, lower subalpine habitat types
+ABLA/RIMO-PICO	ColdF	DG	ColdF/DG	L	10 - Dry, lower subalpine habitat types
+ABLA/RIMO-RIMO	ColdF	DH	ColdF/DH	H	10 - Dry, lower subalpine habitat types
+ABLA/RIMO-THFE	ColdF	DG	ColdF/DG	L	10 - Dry, lower subalpine habitat types
+ABLA/RIMO-TRSP	ColdF	DG	ColdF/DG	L	12 - Cold, upper subalpine habitat types
+ABLA/STAM	ColdF	WF	ColdF/WF	H	11 - Moist to wet subalpine habitat types
+ABLA/VACA	ColdF	DS	ColdF/DS	H	8 -  Habitat types with persistent lodgepole pine
+ABLA/VAGL	ColdF	DH	ColdF/DH	H	10 - Dry, lower subalpine habitat types
+ABLA/VASC	ColdF	DS	ColdF/DS	H	99
+ABLA/VASC-ARLA	ColdF	DH	ColdF/DH	H	10 - Dry, lower subalpine habitat types
+PICO/ARUV	CoolP	DG	CoolP/DG	L	8 - Habitat types with persistent lodgepole pine
+PICO/BERE	CoolP	DG	CoolP/DG	L	8 - Habitat types with persistent lodgepole pine
+PICO/CACA	CoolP	DG	CoolP/DG	L	8 - Habitat types with persistent lodgepole pine
+PICO/CARO	CoolP	DG	CoolP/DG	L	8 - Habitat types with persistent lodgepole pine
+PICO/JUCO	CoolP	DG	CoolP/DG	L	8 - Habitat types with persistent lodgepole pine
+PICO/VACA	CoolP	DS	CoolP/DS	L	8 - Habitat types with persistent lodgepole pine
+PICO/VASC	CoolP	DS	CoolP/DS	L	8 - Habitat types with persistent lodgepole pine
+PIEN/CALE	ColdF	DS	ColdF/DS	H	11 - Moist to wet subalpine habitat types
+PIEN/EQAR	ColdF	DH	ColdF/DH	H	11 - Moist to wet subalpine habitat types
+PIEN/VACA	ColdF	DS	ColdF/DS	H	8 - Habitat types with persistent lodgepole pine
+PIEN/VASC	ColdF	DS	ColdF/DS	H	8 - Habitat types with persistent lodgepole pine
+PIFL/BERE	DF	DS	DF/DS	L	9 - Climax stands dominated by limber pine or western bristlecone
+PIFL/CELE	DF	DS	DF/DS	L	9 - Climax stands dominated by limber pine or western bristlecone
+PIPO/CAGE	PP	DS	PP/DS	L	3 - Ponderosa pine habitat types
+PIPO/FEID-ARPA	PP	DS	PP/DS	L	3 - Ponderosa pine habitat types
+PIPO/FEID-ARTR	PP	DS	PP/DS	L	3 - Ponderosa pine habitat types
+PIPO/FEID-FEID	PP	DG	PP/DG	L	3 - Ponderosa pine habitat types
+PIPU/AGSP	DF	DS	DF/DS	L	6 - White fir and blue spruce habitat types (mixed conifer types)
+PIPU/BERE	DF	DS	DF/DS	L	6 - White fir and blue spruce habitat types (mixed conifer types)
+PSME/ACGL	DF	DS	DF/DS	L	5 - Cool or moist Douglas-fir habitat types
+PSME/BERE-BERE	DF	DS	DF/DS	L	5 - Cool or moist Douglas-fir habitat types
+PSME/BERE-CAGE	DF	DS	DF/DS	L	4 - Drier Douglas-fir habitat types
+PSME/BERE-JUCO	DF	DS	DF/DS	L	5 - Cool or moist Douglas-fir habitat types
+PSME/BERE-SYAL	DF	DS	DF/DS	L	99
+PSME/CELE	DF	DS	DF/DS	L	4 - Drier Douglas-fir habitat types
+PSME/OSCH	DF	DS	DF/DS	L	99
+PSME/PHMA	DF	DS	DF/DS	L	5 - Cool or moist Douglas-fir habitat types
+PSME/SYOR	DF	DG	DF/DG	L	4 - Drier Douglas-fir habitat types

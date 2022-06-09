@@ -1,0 +1,63 @@
+#Conifer species in E_Mt_Hood Subseries arranged by (decreasing) expected percent cover and rated for potential Armillaria impact				
+#Subseries	Species	Role*	Average Expected Cover (%)	Potential Disease Impact
+CH/DH	HSERAL
+	ABGR	S	32	High
+	PSME	S	22	High
+	THPL	C	10	High if disturbed
+	PIMO	S	4.6	Low
+	TSHE	s	3.5	High
+	LAOC	s	1.2	Low
+	TSME	s	0.8	High
+	PIEN	a	0.4	High but low occurrence
+	PIPO	a	0.1	Low
+CH/MH	HSERAL			
+	PSME	C	35	High if disturbed
+	ABGR	C	22	High if disturbed
+	TSHE	S	12	High
+	TSME	S	12	High
+	THPL	s	2	High
+	LAOC	s	0.6	Low
+	PIPO	s	0.6	Low
+CoolF/DH	HSERAL			
+	PSME	C	33.2	High if disturbed
+	ABGR	C	19.8	High if disturbed
+	PIPO	S	4.8	High if planted from nonlocal seed
+	PICO	s	4	Low
+	LAOC	s	0.8	Low
+	TSME	a	0.4	High but low occurrence
+	TSHE	a	0.3	High but low occurrence
+	PIMO	a	0.3	High on planted trees
+	PIEN	a	0.2	High but low occurrence
+	THPL	a	0.1	Low
+	ABAM	a	0.1	Low
+CoolF/DS	LOW			
+	ABGR	C	33	Low in this subseries
+	PSME	C	28	Low in this subseries
+	PIPO	S	8.2	Low in this subseries
+	LAOC	s	1.2	Low
+	THPL	s	0.7	Low in this subseries
+	PIEN	a	0.1	Low in this subseries
+	TSHE	a	0.1	Low in this subseries
+	TSME	a	0.1	Low in this subseries
+CoolF/MH	HSERAL			
+	ABGR	C	23	High if disturbed
+	PIEN	C	20	High if disturbed
+	PSME	S	9	High if disturbed
+	LAOC	s	3.7	Low
+	PICO	s	2	Low
+	ABAM	s	0.8	High
+	THSE	s	0.7	High
+	TSME	s	0.7	High
+	PIPO	s	0.5	High if planted from nonlocal seed
+DF/DS	LOW			
+	PSME	C	40.5	Low in this subseries
+	PIPO	S	12.3	Low in this subseries
+	ABGR	s	0.6	Low in this subseries
+	LAOC	a	0	Low
+PP/DG	LOW			
+	PIPO	C	24.5	Low in this subseries
+	PSME	s	2.8	Low in this subseries
+PP/DS	LOW			
+	PSME	S	4	Low in this subseries
+	PIPO	C	3.4	Low in this subseries
+	ABGR	s	1	Low in this subseries

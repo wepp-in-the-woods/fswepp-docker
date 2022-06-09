@@ -1,0 +1,72 @@
+#this files was modified by filegenwhrm.pl on: Wednesday, March 16, 2005.
+#taxgroup Reptiles species Western whiptail /  Cnemidophorus tigris
+#
+# Rank
+2,-99,2,-99,2
+# Nestsite
+-99
+# Reprorank
+-99
+# Foraging Habitat
+0,1:4,1
+# Habitatrank
+1,-99:1,-99
+# Forage/Prey Availability
+-99
+# Preyrank
+-99
+# Predator Avoidance
+4,1
+# Avoidrank
+1,-99
+# Refugia/Shelter
+0,1:4,1
+# Shelterrank
+1,-99:1,-99
+# Coverrank
+1,-99:1,-99
+# Literature
+Distribution
+western USA as far north as Oregon and Idaho and south into Mexico, with many sub-species
+General Habitat
+deserts and semiarid habitats, including deserts, montane pine forests, woodland and streamside growth
+Home or Activity Range
+< 1 ac (O'Neil et al. 2001)
+Canopy Cover
+no information available
+Specific Habitat Preferences
+sparse plants, open areas for running, avoids dense grasslands and thick shrub growth, slope bottoms, avoiding dense pinyon but favoring dense juniper (Morrison and Hall 1999)
+Nestsite Characteristics
+eggs are laid underground
+Foraging Habitat Characteristics
+ground-forager
+Diet
+grasshoppers, Lepidoptera (adults and larvae), beetles, spiders, Homoptera, bugs, termites, scorpions, lizards
+Predators
+no information available
+Shelter Habitats
+run to a shrub and move under its shelter to sneak away from the other side; also retreat to burrows
+Response to Disturbance
+captured in forest burned by stand-replacing wildfire- not in unburned forest (Cunningham et al. 2002)
+Sources of Information used in the Model
+Burkholder and Walker 1973, Morrison and Hall 1999
+General Sources of Background Information
+Burkholder and Walker 1973, Storm and Leonard 1995, Morrison and Hall 1999, reviewed in O'Neil et al. 2001, Cunningham et al. 2002, Stebbins 2003
+Summaries of Specific Studies
+Burkholder, Gary L.; Walker, J.M. 1973. Habitat and reproduction of the desert whiptail lizard, Cnemidophorus tigris Baird and Girard in southwestern Idaho at the northern part of its range. Herpetologica. 29: 76-83.
+
+Study Location: southwestern Idaho
+Habitat Description: not stated; includes sagebrush species
+Summary: In southwestern Idaho, the whiptail lizard inhabited low hills and flat areas dominated by sparse vegetation, with some shrub cover. Lizards used rodent burrows or dug burrows at the base of shrubs for protection. Shrubs also provided areas for foraging and open areas were used for basking.
+
+Cunningham, Stan C.; Babb, Randall D.; Jones, Thomas R.; Taubert, Bruce D.; Vega, Raul. 2002. Reaction of lizard populations to a catastrophic wildfire in a central Arizona mountain range. Biological Conservation. 107(2002): 193-201.
+
+Study Location: central Arizona
+Habitat Description: PIPO and mixed conifer at high elevations, interior chaparral and Sonoran desert scrub at lower elevations
+Summary: Reptile species were trapped in burned and unburned chaparral and forest plots for 3 years after a wildfire. This study found that the majority of founders were fire-survivors. Relative abundance of animals was 10 times greater in burned areas; species richness and diversity were also higher. In the forested areas, reptile abundance was 4-9 times greater in burned than unburned forest. The relative abundance of individual species in burned and unburned forest is presented. The overall preference for burned areas could be attributed to a variety of factors, including an increase in food resources. The results of this study are short-term in nature; inference is limited and additional work should be done to further examine the patterns found.
+
+Morrison, Michael L; Hall, Linnea S. 1999. Habitat characteristics of reptiles in pinyon-juniper woodland. Great Basin Naturalist. 59(3): 288-291. 
+
+Study Location: White Mountains, California
+Habitat Description: pinyon-juniper
+Summary: Lizard abundance was correlated to habitat in a pinyon-juniper woodland. Western whiptails were found near slope bottoms and had more bare ground, fewer pinyon trees, and more juniper trees. Sagebrush and western fence lizards were abundant everywhere, though western fence lizard tended to be associated with dense patches of pinyon trees. 

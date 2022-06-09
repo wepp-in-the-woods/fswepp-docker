@@ -1,0 +1,19 @@
+#
+#	Tall prairie grass yearly scenario for Disturbed WEPP
+#
+TALL
+Tall Grass Prairie
+for disturbed WEPP
+W. Elliot  01/99
+1	# `landuse' - <Cropland>
+5	# `itype' - <TALL>
+0	# `tilseq' - <NotUsed>
+0	# `conset' - <NotUsed>
+0	# `drset' - <NotUsed>
+2	# `mgmt' - <Perennial>
+	0	# `jdharv' - <9 /1 >
+	0	# `jdplt' - <5 /1 >
+	0	# `jdstop' - <>
+	0
+	3	# `presmgmt' - <Not Harvested/Grazed>
+
