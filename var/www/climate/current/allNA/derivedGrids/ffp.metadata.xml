@@ -1,0 +1,162 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href='../../../shared/NBII_classic.xsl' type='text/xsl'?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Nicholas Crookston and Gerald Rehfeldt</origin>
+        <pubdate>Unpublished material</pubdate>
+        <title>Map of Length of the frost-free period (days) across All North America</title>
+        <geoform>tabular digital data</geoform>
+        <onlink>http://forest.moscowfsl.wsu.edu/climate/current/</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Climate surfaces were developed by fitting Hutchinson's thin-plate
+    splines to thirty years of local temperature and precipitation data
+    gathered across All North America.  From these surfaces, a map was generated
+    which estimates the normal Length of the frost-free period (days) for the contemporary, or current, climate.</abstract>
+      <purpose>To provide an estimate of the variable everywhere in the geographic extent</purpose>
+      <supplinf/>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>1961</begdate>
+          <enddate>1990</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Infrequently, only when errors are detected.</update>
+    </status>
+    <spdom>
+      <descgeog>All North America</descgeog>
+      <bounding>
+        <westbc>-177</westbc>
+        <eastbc>-52</eastbc>
+        <northbc>80</northbc>
+        <southbc>13.9</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Climate</themekey>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>The positional (lat,long) accuracy is that of the underlying DEM. 
+        The accuracy of the specific predictions has not yet been documented in this metadata.</attraccr>
+    </attracc>
+    <logic>
+    </logic>
+    <complete>Data is complete and continuous for land within spatial extent.</complete>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Nicholas Crookston and Gerald Rehfeldt</origin>
+            <pubdate>2010-05-17</pubdate>
+            <title>Map of Length of the frost-free period (days) across All North America</title>
+            <geoform>Ascii grid</geoform>
+          </citeinfo>
+        </srccite>
+        <typesrc>zip file</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>1961</begdate>
+              <enddate>1990</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>
+        </srccitea>
+        <srccontr>
+        </srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>Daily data temperature and precipitation data was collected at many stations. 
+  This daily data was averaged by month. Monthly data was normalized over a 
+  thirty-year time period.  Monthly normals are available at http://forest.moscowfsl.wsu.edu/climate/current/</procdesc>
+        <procdate>2010-05-17</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>AnuSplin 4.3 software was used to fit continuous
+  spline surfaces to monthly normals.  This software can be found here: 
+  http://cres.anu.edu.au/outputs/anusplin.php  
+  Spline coefficients defining the surfaces can be found on our website.  
+  These surfaces represent monthly minimum, avgerage, and maximum temperatures; 
+  and cumulative precipitation, as functions of lattitude, longitude, and elevation.</procdesc>
+        <procdate>2010-05-17</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Surfaces were then used generate a grid of monthly temperature and precipitation values
+  based on NOAA Global Land One-km Base Elevation (GLOBE) grid map.  GLOBE metadata can be found at 
+  http://www.ngdc.noaa.gov/nmmrview/xmls/fgdc.jsp?id=gov.noaa.ngdc:G01180&amp;amp;view=html</procdesc>
+        <procdate>2010-05-17</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Finally, this grid of Length of the frost-free period (days) was estimated using a model-based algorithm.  The R Code used to generate this grid is available upon request can be found on the website: [http://website.url]</procdesc>
+        <procdate>2010-05-17</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spref>
+    <horizsys>
+      <geograph>
+        <latres>0.00833333</latres>
+        <longres>0.00833333</longres>
+        <geogunit>Decimal degrees</geogunit>
+      </geograph>
+      <geodetic>
+        <horizdn>World Geodetic System of 1984</horizdn>
+        <ellips>World Geodetic System of 1984</ellips>
+        <semiaxis>6378137</semiaxis>
+        <denflat>298.25722210088</denflat>
+      </geodetic>
+    </horizsys>
+    <vertdef>
+      <altsys>
+        <altdatum>N/A</altdatum>
+        <altres>N/A</altres>
+        <altunits>days</altunits>
+        <altenc>
+        </altenc>
+      </altsys>
+    </vertdef>
+  </spref>
+  <metainfo>
+    <metd>20100408</metd>
+    <metrd>20100408</metrd>
+    <metfrd>20100408</metfrd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Nicholas Crookston</cntper>
+          <cntorg>Moscow Forestry Sciences Lab</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>1221 S. Main</address>
+          <city>Moscow</city>
+          <state>ID</state>
+          <postal>83843</postal>
+        </cntaddr>
+        <cntvoice>208.882.2317</cntvoice>
+        <cntemail>ncrookston@fs.fed.us</cntemail>
+        <cntinst/>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001.1-1999</metstdv>
+  </metainfo>
+</metadata>

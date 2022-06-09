@@ -1,0 +1,151 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href='../../../shared/NBII_classic.xsl' type='text/xsl'?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Nicholas L. Crookston</origin>
+        <pubdate> 2009-02-18</pubdate>
+        <pubtime></pubtime>
+        <title>Species-Climate Profile for Lodgepole pine (Pinus contorta)</title>
+        <edition></edition>
+        <geoform>raster digital data</geoform>
+        <serinfo>
+          <sername>Tree Species Climate Profiles</sername>
+          <issue></issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>Moscow, ID</pubplace>
+          <publish>Rocky Mountain Research Station</publish>
+        </pubinfo>
+        <othercit></othercit>
+        <onlink>http://forest.moscowfsl.wsu.edu/climate/species/index.php</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>
+          This map is part of a series that are all created using essentially 
+          the same method, as outlined in section 2.2 of this paper: Crookston, 
+          NL, GE Rehfeldt, GE Dixon, AR Weiskittel. 2010. Addressing climate 
+          change in the forest vegetation simulator to assess impacts on 
+          landscape forest dynamics. Forest Ecology and Management. 260:1198-1211.         
+          The values are species viability scores in the range of 0 
+          to 1, where low numbers indicate that the climate is not consistent 
+          with where the species grows and high numbers indicates consistency.
+          </abstract>
+      <purpose>To show the spatial distribution of species climate profiles</purpose>
+      <supplinf>
+      </supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>1990</caldate>
+          <time></time>
+        </sngdate>
+      </timeinfo>
+      <current>predicted values</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <descgeog>Western United States</descgeog>
+      <bounding>
+        <westbc>-125.00000</westbc>
+        <eastbc>-102.00000</eastbc>
+        <northbc>51.00000</northbc>
+        <southbc>31.00000</southbc>
+      </bounding>
+      <dsgpoly />
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Species, Climate, Trees</themekey>
+        <themekey>
+        </themekey>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None required, but we request you let us know how you use this data</useconst>
+    <secinfo>
+       <secclass>Unclassified</secclass>
+    </secinfo>
+    <datacred></datacred>
+    <native></native>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>
+        The Spatial Accuracy is the same as the underlineing DEM from GLOBE. The prediction
+        accuracy depends on the accuracy of (1) the accuracy of the underlying climate
+        profile models, and (2) spline models representing contemporary climate. For maps
+        representing future climate, the following additional issues apply: (3)
+        the accuracy of the underlying GCM to predict future climate and (4) the accuracy of
+        the method used to down scale the GCM outputs. Other factors may also be material
+        in prediction errors for a given map.
+       </attraccr>
+      <qattracc>
+        <attraccv>0.047</attraccv>
+        <attracce>
+            Average prediction error based on a bootstrap sample of training
+            data and estimates of current climate for the sample locations.
+         </attracce>
+      </qattracc>
+    </attracc>
+    <complete>N/A</complete>
+  </dataqual>
+  <spdoinfo>
+    <indspref></indspref>
+    <direct>Raster</direct>
+    <rastinfo>
+      <rasttype>Grid Cell</rasttype>
+      <rowcount>2400</rowcount>
+      <colcount>2760</colcount>
+      <vrtcount>0</vrtcount>
+    </rastinfo>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <latres>0.00833333</latres>
+        <longres>0.00833333</longres>
+        <geogunit>Decimal degrees</geogunit>
+      </geograph>
+      <geodetic>
+        <horizdn>World Geodetic System of 1984</horizdn>
+        <ellips>World Geodetic System of 1984</ellips>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntper>Nicholas L. Crookston</cntper>
+          <cntorg>USDA Forest Service, Rocky Mountain Research Station</cntorg>
+        </cntperp>
+        <cntpos>Operations Research Analyst</cntpos>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>1221 S Main St.</address>
+          <city>Moscow</city>
+          <state>ID</state>
+          <postal>83843</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>208.883.2317</cntvoice>
+        <cnttdd></cnttdd>
+        <cntfax>208.883.2318</cntfax>
+        <cntemail>ncrookston@fs.fed.us</cntemail>
+        <hours>Pacific Time Hours</hours>
+        <cntinst>Email is best</cntinst>
+      </cntinfo>
+    </distrib>
+    <distliab>There is no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty.</distliab>
+  </distinfo>
+</metadata>
