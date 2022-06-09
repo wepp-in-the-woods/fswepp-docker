@@ -1,0 +1,10 @@
+services:
+  fswepp:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    image: result/latest
+    ports:
+      - 80:80
+    volumes:
+      - /workdir/fswepp-docker/var/www:/var/www
