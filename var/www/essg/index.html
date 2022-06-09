@@ -1,0 +1,199 @@
+<html>
+ <head>
+  <title>Slope Stability Guide for National Forests in the United States</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <style type="text/css">
+  <!--
+    Hall, D.E.; Long, M.T.; Remboldt, M.D., editors. 1994.
+    Slope Stability Reference Guide for National Forests in the United States.
+    Prellwitz, R.W.; Koler, T.E.; Steward, J.E., coordinators.
+    Publication EM-7170-13.
+    Washington, DC: U.S. Department of Agriculture, U.S. Forest Service, Engineering Staff. 
+    3 volumes, 1091 p.
+    Corrected [2006] electronic version at http://forest.moscowfsl.wsu.edu/ssg/
+  -->
+ <!--
+A{color:#0000CC; font-family:Verdana, Arial, Helvetica, sans-serif;} A:hover{color:#ff00cc;} A:visited{color:#660099;} A:visited:hover{color:#ff00cc;} 
+p {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11pt}
+ul {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11pt}
+blockquote {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11pt}
+.active {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11pt; color:#999999;}
+.fig {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9pt; font-style: italic}
+.shead {  font-family: trebuchet MS, verdana, arial, helvetica, sans-serif; font-size: 12pt; font-weight: bold}
+.head {  font-family: trebuchet MS, verdana, arial, helvetica, sans-serif; font-size: 20pt; font-weight: bold}
+.headssg {  font-family: trebuchet MS, verdana, arial, helvetica, sans-serif; font-size: 14pt; font-weight: bold}
+.symb {  font-family: symbol; font-size: 11pt; font-weight: bold;}
+BR.pageEnd {page-break-after:always;}
+.text {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11pt; text-indent: 40px;}
+.vari {  font-family: "Times New Roman", Times, serif; font-size: 11pt; font-style: italic; font-weight: bold}
+.figSymb { font-family: symbol; font-size: 9pt; font-style: italic }
+.figVari {  font-family: "Times New Roman", Times, serif; font-size: 9pt; font-style: italic; font-weight: bold}
+-->
+  </style>
+  <script language="javascript">
+   var windowWidth
+   var windowHeight
+   var windowLeft
+   var newin = null
+   windowHeight = screen.availHeight*0.75
+   windowWidth = screen.availWidth / 1.3
+   if (windowWidth < 500) windowWidth = 500
+   if (windowWidth > screen.availWidth) windowWidth = screen.availWidth
+   windowLeft = (screen.availWidth - windowWidth) - 20
+
+   function showsymbols() {
+//     alert('show symbols')
+     if (newin && newin.open && !newin.closed) { greekwin.window.close() }
+     properties='left='+windowLeft+',width='+windowWidth+',height='+windowHeight+',menubar,scrollbars,resizable'
+     greekwin = window.open('ssg_symbols.html','dry_ravel',properties)
+     if (newin && newin.open && !newin.closed) { greekwin.focus() }
+//     greekwin.window.close()
+   }
+   function showgreekchars() {
+     alert('show greek characters')
+     properties='left='+windowLeft+',width='+windowWidth+',height='+windowHeight+',menubar,scrollbars,resizable'
+     greekwin = window.open('','dry_ravel',properties)
+//     greekwin = window.open('','dry_ravel','')
+     if (newin && newin.open && !newin.closed) { greekwin.focus() }
+     greekwin.document.writeln('<html>')
+     greekwin.document.writeln('<head>')
+     greekwin.document.writeln('</head>')
+     greekwin.document.writeln('<body>')
+     greekwin.document.writeln('<table>')
+     greekwin.document.writeln('<tr><th>symbol<th>letter')
+     greekwin.document.writeln('')
+     greekwin.document.writeln(' <tr><td><font face="symbol">aA<td>aA')
+     greekwin.document.writeln(' <tr><td><font face="symbol">bB<td>bB')
+     greekwin.document.writeln(' <tr><td><font face="symbol">cC<td>cC')
+     greekwin.document.writeln(' <tr><td><font face="symbol">dD<td>dD')
+     greekwin.document.writeln(' <tr><td><font face="symbol">eE<td>eE')
+     greekwin.document.writeln(' <tr><td><font face="symbol">fF<td>fF')
+     greekwin.document.writeln(' <tr><td><font face="symbol">gG<td>gG')
+     greekwin.document.writeln(' <tr><td><font face="symbol">hH<td>hH')
+     greekwin.document.writeln(' <tr><td><font face="symbol">iI<td>iI')
+     greekwin.document.writeln(' <tr><td><font face="symbol">jJ<td>jJ')
+     greekwin.document.writeln(' <tr><td><font face="symbol">kK<td>kK')
+     greekwin.document.writeln(' <tr><td><font face="symbol">lL<td>lL')
+     greekwin.document.writeln(' <tr><td><font face="symbol">mM<td>mM')
+     greekwin.document.writeln(' <tr><td><font face="symbol">nN<td>nN')
+     greekwin.document.writeln(' <tr><td><font face="symbol">oO<td>oO')
+     greekwin.document.writeln(' <tr><td><font face="symbol">pP<td>pP')
+     greekwin.document.writeln(' <tr><td><font face="symbol">qQ<td>qQ')
+     greekwin.document.writeln(' <tr><td><font face="symbol">rR<td>rR')
+     greekwin.document.writeln(' <tr><td><font face="symbol">sS<td>sS')
+     greekwin.document.writeln(' <tr><td><font face="symbol">tT<td>tT')
+     greekwin.document.writeln(' <tr><td><font face="symbol">uU<td>uU')
+     greekwin.document.writeln(' <tr><td><font face="symbol">vV<td>vV')
+     greekwin.document.writeln(' <tr><td><font face="symbol">wW<td>wW')
+     greekwin.document.writeln(' <tr><td><font face="symbol">xX<td>xX')
+     greekwin.document.writeln(' <tr><td><font face="symbol">yY<td>yY')
+     greekwin.document.writeln(' <tr><td><font face="symbol">zZ<td>zZ')
+     greekwin.document.writeln('</table>')
+     greekwin.document.writeln('</body>')
+     greekwin.document.writeln('</html>')
+     if (newin && newin.open && !newin.closed) { greekwin.focus() }
+//     greekwin.window.close()
+   }
+  </script>
+ </head>
+<!-- <body bgcolor="lightgoldenrodyellow"> -->
+ <body bgcolor="white">
+  <table border=0 width="90%" align="center">
+   <tr>
+    <td align="left">
+     <a href="http://forest.moscowfsl.wsu.edu" target="n"><img src="images/tinier_rmrs_logo.gif" border="0"></a>
+    </td>
+    <th>
+    <font face="trebuchet MS, verdana, arial, helvetica, sans-serif" size="4">
+     <a href="ssg_toc.html">Slope Stability Reference Guide<BR> for National Forests in the United States</a>
+    </font>
+    <td align="right">
+     <a href="ssg_toc.html"><img src="images/ssgvol1.gif" border=0></a>
+    </td>
+   </tr>
+  </table>
+
+  <blockquote> 
+   <font face="trebuchet MS, verdana, arial, helvetica, sans-serif" size="2">
+    Hall, D.E., editor. 2002.
+    <b>Slope Stability Reference Guide for National Forests in the United States.</b>
+    Moscow, ID: U.S. Department of Agriculture, U.S. Forest Service, Rocky Mountain Research Station.
+    Prepared by David Hall, Susan Weaver, and Tara Wylie.
+    Online document available at
+    &lt;<a href="http://forest.moscowfsl.wsu.edu/ssg/">http://forest.moscowfsl.wsu.edu/ssg/</a>&gt;.
+   </font>
+   <p>
+    <font face="trebuchet MS, verdana, arial, helvetica, sans-serif" size="2">
+     A <a href="http://forest.moscowfsl.wsu.edu/engr/ssgerr.html" target="n">corrected</a> electronic version of:
+    </font>
+   </p>
+   <p>
+    <font face="trebuchet MS, verdana, arial, helvetica, sans-serif" size="2">
+     Hall, D.E.; Long, M.T.; Remboldt, M.D., editors. 1994.
+     <b>Slope Stability Reference Guide for National Forests in the United States.</b>
+     Prellwitz, R.W.; Koler, T.E.; Steward, J.E., coordinators.
+     Publication EM-7170-13.
+     Washington, DC: U.S. Department of Agriculture, U.S. Forest Service, Engineering Staff.
+     3&nbsp;volumes, 1091&nbsp;p.
+    </font>
+   </p>
+  </blockquote>
+  <hr>
+  <blockquote>
+   <font face="trebuchet MS, verdana, arial, helvetica, sans-serif" size="2">
+      Generally, newer versions of
+      <i>Internet Explorer</i>,
+      <i>Netscape Navigator</i>, and
+      <i>Mozilla Navigator</i> 
+      display correctly most of the 
+      <a href="javascript:void(showsymbols())">symbols and greek characters</a>
+      that are used throughout the Guide.
+      If the following equation lacks greek symbols and includes ampersands, try another browser
+      (or try forcing your browser to use Unicode UTF-8 character coding).
+    </font>
+   </blockquote>
+    <font face="trebuchet MS, verdana, arial, helvetica, sans-serif" size="2">
+     <table border=1 align="center">
+      <tr>
+       <td>
+        <table border=0>
+         <tr>
+          <td align="right" valign="center" rowspan=3><font face="Times New Roman, Times, serif">FS =</font></td>
+          <td align="center"><font face="Times New Roman, Times, serif">C<sub>r</sub> + C'<sub>s</sub> + cos<sup>2</sup>&#945;
+              [q<sub>0</sub> + &#947; (D &#8722; D<sub>w</sub>) + 
+              (&#947;<sub>sat</sub> &#8722; &#947;<sub>w</sub> ) D<sub>w</sub>] tan &#966;'</font></td>
+         <tr>
+          <td>
+           <font face="Times New Roman, Times, serif"><hr height=2></font>
+          </td>
+         </tr>
+         <tr>
+          <td align="center"><font face="Times New Roman, Times, serif">sin &#945; cos &#945; [q<sub>0</sub> + &#947;(D &#8722; D<sub>w</sub>) +
+                            &#947;<sub>sat</sub> D<sub>w</sub>]</font></td>
+         </tr>
+        </table>
+       </td>
+      </tr>
+     </table>
+    </font>
+   </p>
+
+<!-- ======= FOOTER GRAPHIC =================================================== -->
+  <IMG SRC="images/navbar.gif" WIDTH="703" HEIGHT="36" ALIGN="RIGHT" 
+   USEMAP="#b_pagingButtons.map" BORDER="0" ALT="Slope Stability Reference Guide for National Forests in the United States">
+<!-- ========================================================================= -->
+   <br all><p>
+    <font size=2>USDA Forest Service<br>
+     <b>Slope Stability Reference Guide for National Forests in the United States.</b> 1994.<br>
+     <a href="http://forest.moscowfsl.wsu.edu/ssg/">http://forest.moscowfsl.wsu.edu/ssg/</a>
+    </font>
+<!-- =======IMAGE MAP INFORMATION============================================== -->
+<MAP Name="b_pagingButtons.map">
+<!--HOME--> <AREA SHAPE="RECT" COORDS="0,0 605,26" HREF="index.html">
+<!--PREV--> <AREA SHAPE="RECT" COORDS="606,0 627,26" HREF="index.html">
+<!--NEXT--> <AREA SHAPE="RECT" COORDS="632,0 652,26" HREF="ssg_toc.html" alt="Table of Contents">
+</map>
+<!-- ========================================================================= -->
+ </body>
+</html>
+

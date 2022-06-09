@@ -1,0 +1,189 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"
+      "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+<head>
+<title>Moscow FSL: LISA and DLISA</title>
+<meta name="Author" content="Hall">
+<meta name="Expires" content="never">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="description" content="LISA and DLISA - slope stability software developed by the US Forest Service">
+<meta name="keywords" content="slope stability modeling software soil erosion LISA DLISA level 1 stability analysis forest service research">
+
+<link rel=stylesheet href="../css/rmrs.css" type="text/css">
+</head>
+
+<body bgcolor="#CCCCFF">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr> 
+    <td rowspan="3" bgcolor="#FFFFFF" valign="top" width="149"><img src="../images/logo.gif" alt="Rocky Mountain Research Station Logo" width="149" height="116"></td>
+    <td width="100%" bgcolor="#CCCCFF" align="right" class="dk10pt">USDA Forest Service<br />
+      Rocky Mountain Research Station<br />
+      Forestry Sciences Laboratory - Moscow, Idaho</td>
+    <td bgcolor="#CCCCFF" width="11"><img src="images/spacer.gif" width="11" height="72"></td>
+  </tr>
+  <tr> 
+    <td width="100%" bgcolor="#669966" align="right" class="m1"><a href="../people/index.html" class="m1"> 
+      Moscow Personnel</a>&nbsp; |&nbsp; <a href="../siteindex.html" class="m1">Site 
+      Index</a>&nbsp; |&nbsp; <a href="../sitemap.html" class="m1">Site Map</a>&nbsp; 
+      |&nbsp; <a href="../index.html" class="m1">Moscow Home</a></td>
+    <td bgcolor="#669966" width="11"><img src="images/spacer.gif" width="11" height="20"></td>
+  </tr>
+  <tr> 
+    <td width="100%" bgcolor="#000033" align="right" class="m2"><a href="info.html" class="m2">Project 
+      Information</a>&nbsp; |&nbsp; <a href="software.html" class="m2">Modeling 
+      Software</a>&nbsp; |&nbsp; <a href="allpubs.html" class="m2">Library</a>&nbsp; 
+      |&nbsp; <a href="photos.html" class="m2">Project Photos</a>&nbsp; |&nbsp; 
+      <a href="links.html" class="m2">Offsite Links</a>&nbsp; |&nbsp; <a href="index.html" class="m2">Eng. 
+      Home</a></td>
+    <td bgcolor="#000033" width="11"><img src="images/spacer.gif" width="11" height="24"></td>
+  </tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0">
+  <tr> 
+    <td width="8" rowspan="2" bgcolor="#FFFFFF"><img src="images/spacer.gif" width="8" height="375"></td>
+    <td width="15%" rowspan="2" bgcolor="#FFFFFF" valign="top"><span class="dk10pt"><br />
+      <b>Soil &amp; Water<br />
+      Engineering Software:</b><br />
+      <br />
+      <a href="roadsw.html">Road Erosion</a><br />
+      <a href="erodesw.html">Fire Effects</a><br />
+      <a href="erodesw.html">Disturbed Forests</a><br />
+      <a href="slopesw.html">Slope Stability</a><br />
+      <a href="/fswepp/">Erosion Modeling</a><br />
+      <a href="climatesw.html">Climate Modeling</a><br /></span>
+
+<br /><p>Project Leader:<br />
+        <a href="../people/engr/welliot.html">William J. Elliot</a><br />
+        <a href="http://forest.moscowfsl.wsu.edu/cgi-bin/fswepp/commform.pl?&recipient=welliot&title=William%20Elliot"><img src="../images/mail.gif" border=0 width="32" height="21" alt="email Bill"></a> 
+        <br />
+      </p>
+        <p>
+        Last Revised: <br />
+<script>
+<!-- hide
+document.write(document.lastModified)
+// end hide -->
+</script>
+</p>
+    </td>
+    <td width="85%" height="375" bgcolor="#FFFFFF" valign="top"> 
+      <table width="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td colspan="5"><img src="images/spacer.gif" width="1" height="40"></td>
+        </tr>
+        <tr> 
+          <td width="20" bgcolor="#FFFFFF"><img src="images/spacer.gif" width="20"></td>
+          <td width="6" bgcolor="#CCCCFF"><img src="images/spacer.gif" width="6"></td>
+          <td width="20" bgcolor="#FFFFFF"><img src="images/spacer.gif" width="20"></td>
+          <td width="100%" bgcolor="#FFFFFF"><span class="h1bk"><a href="index.html" class="h1">Soil 
+            and Water Engineering</a><span class="h1bk"> &nbsp;&gt; &nbsp;</span><a href="software.html" class="h1">Modeling 
+            Software</a><span class="h1bk">&nbsp; &gt; &nbsp;</span><a href="slopesw.html" class="h1">Slope 
+            Stability Software</a><span class="h1bk">&nbsp; &gt; &nbsp;</span></span><span class="h1r">LISA 
+            and DLISA</span><br />
+            <br /><br />
+
+<b class="dk10pt">LISA (Level I Stability Analysis) Version 2.00</b>
+
+<p><tt>LISA</tt> uses Monte Carlo simulation of the infinite slope equation to
+estimate a probability of slope failure for use in relative stability
+assessment of natural slopes.  It runs on<tt> IBM PC</tt>-compatible personal
+computers under <tt>MS-DOS</tt>.  Graphics capability and a math coprocessor are
+recommended but not required.  <tt>LISA</tt> will also run as a full-screen
+application under Micorosoft Windows.</p>
+<p>
+Briefly, the user <a href="../images/lisa200.gif">starts</a> <tt>LISA</tt>,
+enters the specifications for the 
+<a href="../images/lisadata.gif">input parameter distributions</a>,
+and then receives a histogram of the
+<a href="../images/lisahist.gif">generated factors of safety</a>
+for the specified conditions.</p>
+
+<p><b> DLISA (Deterministic Level I Stability Analysis) Version 1.02</b></p>
+<p>
+<tt>DLISA</tt> is a deterministic program which calculates the infinite slope equation for
+a variety of unknowns.  For example, the user may choose to calculate soil depth if values
+for all of the other input parameters ae specified.
+<tt>DLISA</tt> runs on <tt>IBM PC</tt>-compatible personal
+computers under <tt>MS-DOS</tt>.  Graphics capability and a math coprocessor are
+recommended but not required.
+<tt>DLISA</tt> will also run  as a full-screen application under Microsoft Windows.</p>
+<p>
+Briefly, the user <a href="../images/dlisa102.gif">starts</a> <tt>DLISA</tt>,
+enters values for the known <a href="../images/dlisainp.gif">input parameters</a>,
+and receives a value or <a href="../images/dlisaans.gif">list of values</a>
+for the unknown parameter.</p>
+<p>
+<b> AVAILABILITY</b><br />
+<tt>LISA</tt> (Level I Stability Analysis) and <tt>DLISA</tt> 
+(Deterministic Level I Stability Analysis ), the Level I
+slope stability computer models, are available as a free download from this page.
+The printed, bound manual is available free of charge by 
+sending a request and <font color="red">providing a surface mail
+address</font> to:</p>
+<blockquote>Forestry Sciences Laboratory<br />
+       Rocky Mountain Research Station<br />
+       1221 S. Main Street<br />
+       Moscow, Idaho 83843<br />
+       E-mail:
+       <a href="http://forest.moscowfsl.wsu.edu/cgi-bin/fswepp/commform.pl?&recipient=dehall&title=David%20Hall">
+       <img src="../images/mail.gif" border=0 align="top" alt="email webmaster"></a> 
+</blockquote>
+<p>These two programs are delivered together and are described in the same
+manual.</p>  
+<p>
+<img src="../images/disk.gif"><br />
+The 
+  <a href="lisa200.exe">
+  <tt>LISA</tt> software</a>
+is available as a single 217,138 byte
+self-expanding executable <tt>DOS</tt> file. 
+<!--[You may have to hold the SHIFT key down while clicking on the link to
+get
+your browser to store the binary file on your disk instead of attempting
+to dislay it on your screen.]-->
+Store the file in its own directory
+(for example, <tt>\SS\LISA</tt>), then run <tt>LISA200</tt> once to generate the
+LISA program and sample data files.  From then on, run <tt>LISA</tt> or <tt>DLISA</tt>
+from that directory.  Then, 
+       <a href="http://forest.moscowfsl.wsu.edu/cgi-bin/fswepp/commform.pl?&recipient=dehall&title=David%20Hall">
+email us</a>
+for the manual.
+ <font color="red"><b>
+  There is no electronic version of the <tt>LISA</tt> manual available.
+ </b></font>
+However, it is very important that the user read
+the <tt>LISA</tt> manual before relying on <tt>LISA</tt>'s output.</p>
+<p>
+The <tt>LISA</tt> <a href = "lisadoc.html">manual</a> explains probabilistic concepts and the mathematical basis of the model
+and provides suggestions for estimating input probability distributions
+and an example application as well as instructions for program operation.</p>
+<p>
+<b>Please</b> read and understand the contents of the manual before you rely on
+any results from<tt> LISA</tt>.</p>
+<p>
+A short <a href="lisarev.html">revision history</a> of LISA and DLISA is available,
+as is a short <a href="lisabugs.html">bug list</a>.</p>
+<p><!-- img src="../images/newspin.gif" -->Check our 
+<a href="lisafaq.html">LISA FAQ</a> (At-least-once-asked-questions)
+for useful hints.</p>
+
+            <br /><br />
+            <div align="center"><span class="dk10pt"><a href="slope0.html">Slope 
+              Stability Information</a> &nbsp; |&nbsp; <a href="slopesw.html">Slope 
+              Stability Software (LISA and XSTABL)</a>&nbsp; |&nbsp; <a href="slopepubs.html">Slope 
+              Stability Publications</a>&nbsp; |&nbsp; <a href="slopeph.html">Slope 
+              Stability Project Photos</a>&nbsp; |&nbsp; <a href="links0.html#slope">Related 
+              Offsite Links</a>&nbsp; |&nbsp; <a href="index.html">Soil &amp; 
+              Water Engineering Home</a></span></div>
+            </td>
+          <td width="20" bgcolor="#FFFFFF"><img src="images/spacer.gif" width="20" height="1"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td width="100%" bgcolor="#FFFFFF"><img src="images/spacer.gif" width="1" height="20"></td>
+  </tr>
+</table>
+</body>
+</html>

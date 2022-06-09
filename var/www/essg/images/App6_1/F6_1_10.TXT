@@ -1,0 +1,121 @@
+      XSTABL File: C52FINAL   4-02-93   10:04
+
+                    ******************************************
+                    *                 XSTABL                 *
+                    *                                        *
+                    *     Slope Stability Analysis using     *
+                    *   Simplified BISHOP or JANBU methods   *
+                    *                                        *
+                    *           Copyright (C) 1992           *
+                    *   Interactive Software Designs, Inc.   *
+                    *          All Rights Reserved           *
+                    *                                        *
+                    *            Forest Service              *
+                    *        US Dept. of Agriculture         *
+                    *           Moscow,  ID 83843            *
+                    *                                        *
+                    *  Ver. 4.10                       1001  *
+                    ******************************************
+
+          Problem Description : CAMP 5/Final Profile Before Drainage
+
+          SEGMENT BOUNDARY COORDINATES
+
+              5 SURFACE boundary segments
+
+          Segment    x-left    y-left    x-right   y-right     Soil Unit
+             No.      (ft)      (ft)       (ft)      (ft)    Below Segment
+
+              1          .0      29.0       20.0      52.0         2
+              2        20.0      52.0      191.0      86.0         2
+              3       191.0      86.0      305.0     100.0         2
+              4       305.0     100.0      323.0     142.0         1
+              5       323.0     142.0      420.0     170.0         1
+
+              7 SUBSURFACE boundary segments
+
+          Segment    x-left    y-left    x-right   y-right     Soil Unit
+             No.      (ft)      (ft)       (ft)      (ft)    Below Segment
+
+              1          .0      29.0       59.0      40.0         3
+              2        59.0      40.0      175.0      60.0         3
+              3       175.0      60.0      310.0      85.0         3
+              4       310.0      85.0      315.0      90.0         3
+              5       315.0      90.0      400.0     110.0         3
+              6          .0      24.0      310.0      80.0         4
+              7       310.0      80.0      400.0     105.0         4
+
+          ISOTROPIC Soil Parameters
+
+           4 type(s) of soil
+
+          Soil   Unit Weight   Cohesion  Friction    Pore Pressure      Water
+          Unit  Moist    Sat.  Intercept  Angle   Parameter  Constant  Surface
+           No.  (pcf)   (pcf)    (psf)    (deg)       Ru      (psf)      No.
+
+            1   120.0   130.0    250.0     30.00      .000         .0      1
+            2   115.0   125.0     30.0     28.00      .000         .0      1
+            3   104.0   110.0       .0     17.00      .000         .0      1
+            4   120.0   130.0   9999.0     75.00      .000         .0      1
+
+           1 Water surface(s) have been specified
+
+          Unit weight of water =    62.40  (pcf) 
+
+          Water Surface No.  1 specified by  7 coordinate points
+
+          **********************************
+                   PHREATIC SURFACE,
+          **********************************
+
+            Point      x-water     y-water
+             No.         (ft)        (ft)
+
+              1          14.00       40.00
+              2          59.00       50.00
+              3          93.00       57.00
+              4         195.00       77.00
+              5         305.00       98.00
+              6         356.00      122.00
+              7         410.00      143.00
+
+          A critical failure surface searching method, using a random
+          technique for generating sliding BLOCK surfaces, has been 
+          specified.
+
+            100 trial surfaces will be generated and analyzed.
+
+            2 boxes specified for generation of central block base
+
+          Length of line segments for active and passive portions of
+          sliding block is     43.0 ft
+
+          Box        x-left     y-left    x-right    y-right      Width
+          no.         (ft)       (ft)       (ft)       (ft)        (ft)
+
+           1           35.0       30.0       85.0       40.0       10.0
+           2          310.0       85.0      350.0       95.0       10.0
+
+          Factors of safety have been calculated by the :
+          * * * * *   MODIFIED JANBU METHOD   * * * * *
+
+          The following is a summary of the TEN most critical surfaces
+
+          Problem Description : CAMP 5/Final Profile Before Drainage
+
+                Modified     Correction   Initial    Terminal     Driving
+               JANBU FOS       Factor     x-coord     x-coord      Force
+                                            (ft)        (ft)       (lb)
+
+           1.     1.017         1.059       25.95      380.32    3.125E+05
+           2.     1.034         1.056       30.85      407.22    3.468E+05
+           3.     1.041         1.064       58.66      368.31    2.721E+05
+           4.     1.042         1.054       17.80      401.81    3.290E+05
+           5.     1.067         1.061       53.56      381.39    2.842E+05
+           6.     1.072         1.063       12.32      334.76    2.234E+05
+           7.     1.078         1.063       38.22      365.63    2.600E+05
+           8.     1.093         1.058       18.87      383.01    3.058E+05
+           9.     1.096         1.063       55.48      373.76    2.777E+05
+          10.     1.110         1.057       58.23      404.91    3.152E+05
+
+                             * * *  END OF FILE  * * *

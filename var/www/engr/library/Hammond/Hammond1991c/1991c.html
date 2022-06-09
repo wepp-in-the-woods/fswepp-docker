@@ -1,0 +1,494 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <title>
+   Landslide hazard assessment using Monte Carlo simulation 
+  </title>
+  <style type="text/css">
+   <!--
+    P.Reference {
+        margin-top:0pt;
+        margin-left:.3in;
+        text-indent:-.3in;
+    }
+   -->
+  </style>
+ </head>
+ <body bgcolor=ivory vlink="darkgreen" link="darkgreen" alink="crimson">
+  <font face="trebuchet, tahoma, sans serif">
+  <table width=100% border=1>
+   <tr bgcolor="&99cc99">
+
+    <th><a href="http://www.fs.fed.us">USDA Forest Service</a>
+    <th><a href="http://www.fs.fed.us/rm/">Rocky Mountain Research Station</a>
+    <th><a href="http://forest.moscowfsl.wsu.edu">Moscow FSL</a>
+    <th><a href="http://forest.moscowfsl.wsu.edu/engr/">Soil and Water Engineering</a>
+   </table>
+      <h3>
+       Landslide hazard assessment using Monte Carlo simulation 
+      </h3>
+      Carol J. Hammond<br>
+      USDA Forest Service, Intermountain Research Station, Moscow, Idaho, USA<br>
+      <br>
+      Rodney W. Prellwitz<br>
+      USDA Forest Service, Intermountain Research Station, Missoula, Mont., USA<br>
+      <br>
+      Stanley M. Miller<br>
+      University of Idaho, Moscow, Idaho, USA
+      <br><br>
+<p>ABSTRACT: Evaluating the stability of variable landforms is important for land 
+  management planning on forest lands in the western United States and Alaska. 
+  This paper describes a rational means for considering both natural variability 
+  and measurement uncertainty in landslide hazard evaluation of both natural slopes, 
+  and constructed cut and fill slopes. Monte Carlo simulation is used to simulate 
+  the frequency distribution of the factor of safety on a given landform or slope. 
+  The probability of failure is taken as the relative frequency with which the 
+  factors of safety are less than or equal to one. The simulation program is written 
+  for IBM-PC's and compatibles, includes a menu-driven user interface, and allows 
+  the use of seven different input probability distributions to describe the natural 
+  variability and uncertainty of each input variable.</p>
+<p>1. INTRODUCTION<br><br>
+  Many forest lands in the western United States and Alaska are classified as 
+  potentially unstable. Unless carefully planned and executed, timber harvesting 
+  operations, road construction or other land management activities in these areas 
+  can accelerate mass failure and may cause significant impacts on soil productivity 
+  and water quality. Accurate assessment of potential landslide hazard early in 
+  the planning process is essential. We believe a geotechnical stability model 
+  approach for hazard assessment has advantages over subjective or statistical 
+  approaches (e.g. Roth 1983) because it is widely applicable (model-based, not 
+  data-based), and because it can be used for sensitivity studies and to predict 
+  the effects of managerial actions. We also believe that a probabilistic approach 
+  is essential when rationally considering the natural variability and uncertainty 
+  of each input variable in a stability analysis. This paper describes two microcomputer 
+  programs, LISA and SARA, which use Monte Carlo simulation to help quantify the 
+  probability of slope failure for both natural and man-made slopes and to assess 
+  the effect of management activities such as timber harvest.</p>
+
+<p>2. MONTE CARLO SIMULATION<br><br>
+  Monte Carlo simulation is useful for modeling an attribute that cannot be sampled 
+  or measured directly, but can be expressed as a mathematical function of properties 
+  that can be sampled. Factor of safety fits this situation. Although other probabilistic 
+  methods are available for estimating landslide failure probabilities (e.g. Chowdhury 
+  and Tang 1987), Monte Carlo simulation is the method used in LISA and SARA because 
+  it allows all input variables to be treated stochastically, as is necessary 
+  for a realistic stability assessment of large landforms where all variables 
+  can have significant spatial variability and measurement uncertainty. <BR>
+
+  &nbsp;&nbsp;&nbsp;&nbsp;If we 
+  want to predict a possible value of the factor of safety, we take a possible 
+  value for each input variable and use an appropriate equation to calculate the 
+  corresponding factor of safety value. This is known as one Monte Carlo pass 
+  or iteration. In Monte Carlo simulation we generate a considerable number of 
+  factor of safety values, say 1000, by repeated random, independent samplings 
+  of a set of possible input values, and then calculate the corresponding factor 
+  of safety value for each pass. The set of possible input values is described 
+  by a probability distribution for each input variable. In the LISA and SARA 
+  computer models, the user may choose a constant value or a uniform, normal, 
+  lognormal, triangular, beta, histogram, or bivariate normal probability distribution. 
+  The result is 1000 possible factor of safety values that can be displayed as 
+  a histogram; the probability of failure (<i>P<sub>&fnof;</sub></i>&nbsp;) then is obtained by dividing 
+  the total number of passes into the number of calculated factor of safety values 
+  which are less than or equal to one.
+  <br>
+  <br>
+  <em>2.1 The performance functions</em><br>
+  <br>
+  The LISA and SARA computer models use the infinite slope model as the performance 
+  function to analyze the stability of natural slopes, and stability number charts 
+  developed by Cousins (1978) and quantified by Pyles and others (1984) to analyze 
+  the stability of man-made slopes, such as road cut and fill slopes or embankments. 
+  The infinite slope equation used in the computer models is:</p>
+  <table width="55%" border="0" align="center">
+   <tr>
+    <td width="10%" rowspan="2">
+     <div align="right">
+      <font size="3" face="Times New Roman, Times, serif">
+       <i>FS</i> =
+      </font>
+     </div>
+    </td>
+    <td width="90%">
+     <div align="center">
+      <font size="3" face="Times New Roman, Times, serif">
+       <u><i>C</i></u><sub>r</sub> 
+       <u>+ <i>C</i></u><strong>&#8242;</strong><sub>s</sub> <u>+ cos</u><sup>2</sup><u>&alpha;[<em>q</em></u><sub>o</sub><u> 
+       + &gamma;(<i>D - D</i></u><sub>w</sub><u>) + (&gamma;</u><sub>sat</sub><u> - 
+       &gamma;</u><sub>w</sub><u>)<i>D</i></u><sub>w</sub><u>] tan &phi;</u>&prime;
+      </font> 
+     </div>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <div align="center">
+      <font size="3" face="Times New Roman, Times, serif">
+       sin &alpha; cos &alpha;[<i>q</i><sub>o</sub> + 
+        &gamma;(<i>D</i> - <i>D</i><sub>w</sub>) + &gamma;<sub>sat</sub><i>D</i><sub>w</sub>]
+      </font>
+     </div>
+    </td>
+   </tr>
+  </table>
+  <p>where
+  <i>FS</i> is the factor of safety,
+  <i>&alpha;</i> is the slope of the ground surface in degrees,
+  <i>D</i> is the total soil thickness,
+  <i>D<sub>w</sub></i> is the saturated soil thickness,
+  <i>C<sub>r</sub></i> is the tree root strength expressed as a cohesion, 
+  <i>q<sub>o</sub></i> is tree surcharge,
+  <i>C<sub>s</sub></i> is soil cohesion which can include both true soil cohesion and apparent soil cohesion due to capillary suction
+  (<i>C</i><sub>app</sub>),
+  <i>&phi;&prime;</i> is effective angle of internal friction,
+  <i>&gamma;</i> is moist soil unit weight,
+  <i>&gamma;</i><sub>sat</sub> is saturated soil unit weight, and
+  <i>&gamma;<sub>w</sub></i> is the unit weight of water (9.81 kN/m<sup>3</sup>).
+  The Cousins equation is:</p>
+  <table width="12%" border="0" align="center">
+   <tr> 
+    <td width="42%" rowspan="2">
+     <font size="3" face="Times New Roman, Times, serif">
+      <i>FS</i> =
+     </font>
+    </td>
+    <td width="58%">
+     <div align="center">
+      <font size="3" face="Times New Roman, Times, serif">
+       <u><i>kN</u><sub>&fnof;</sub><u>C</i></u>
+      </font>
+     </div>
+    </td>
+   </tr>
+   <tr> 
+    <td>
+     <div align="center">
+      <font size="3" face="Times New Roman, Times, serif">
+       &gamma;<i>h</i>
+      </font>
+     </div>
+    </td>
+   </tr>
+  </table>
+  <p>where
+  <i>k</i> is an empirical coefficient developed by Prellwitz (1988), as discussed below;
+  <i>N<sub>&fnof;</sub></i>&nbsp; is Cousins' stability number;
+  <i>C</i> is cohesion which can include both
+  <i>C<sub>s</sub></i> and
+  <i>C<sub>r</sub></i>;
+  <i>&gamma;</i> is moist soil unit weight; and
+  <i>h</i> is vertical height of the cut or fill.
+  The user may either specify <i>h</i>, or specify the cut and fill slope ratios 
+  and road and ditch widths and the program will determine <i>h</i> by superimposing 
+  a full bench, through fill, or self-balanced road prism on the natural slope.<br>
+
+  &nbsp;&nbsp;&nbsp;Both models are well suited to Monte Carlo simulation because the critical failure 
+  surfaces are assumed&#8212;the infinite slope model assumes a planar failure 
+  surface (typically the bedrock surface) which is parallel to both the ground 
+  surface and the phreatic surface, and the Cousins' method assumes a circular 
+  arc exiting at the slope toe. Although both models tend to oversimplify in situ 
+  conditions, they have been found to be adequate for planning purposes (Prellwitz 
+  and others 1983, Sidle and others 1985); however, Cousins' stability number 
+  charts do require modification to account for sloping bedrock and phreatic surfaces 
+  typically found in mountainous terrain. This modification is accounted for by 
+  the empirical factor, <i>k</i>, which relates the factor of safety estimated using 
+  Cousins' charts to the critical failure circle (with a factor of safety of 1.00) 
+  found using modified Bishop analysis for a variety of typical slope, groundwater 
+  height and soil shear strength conditions (Prellwitz 1988).</p>
+  <p>
+
+  <em>2.2 Correlation between variables</em><br>
+  <br>
+  To achieve a realistic simulation using Monte Carlo methods, the relationships 
+  between dependent variables must be taken into account. The variables treated 
+  as dependent in the LISA and SARA models are <i>C<sub>s</sub></i> and <i>&phi;&prime;</i>, 
+  and dry unit weight (<i>&gamma;<sub>d</sub></i>) and <i>&phi;&prime;</i>.<br>
+
+  &nbsp;&nbsp;&nbsp;&nbsp;Although there exists some contradiction in the literature,
+  <i>C<sub>s</sub></i> and <i>&phi;&prime;</i> 
+  generally are considered to be inversely related with reported correlation coefficients 
+  (<i>r</i>&nbsp;) of -0.2 to -0.85 (Cherubini and others 1983). If this correlation is not 
+  considered in the simulation, soil shear strength can be significantly overestimated 
+  and underestimated, resulting in an increase in variance of simulated shear 
+  strength. The bivariate normal probability density function (PDF) can be used 
+  in LISA and SARA to model <i>C<sub>s</sub>&#8212;&phi;&prime;</i> dependence.<BR> <!-- sic dependance -->
+
+  &nbsp;&nbsp;&nbsp;&nbsp;The second relationship 
+  considered by LISA and SARA is the positive correlation that exists between 
+  <i>&gamma;<sub>d</sub></i> and <i>&phi;&prime;</i>. The models handle this correlation very 
+  simplistically by using the same random number to sample from the univariate 
+  distributions for <i>&gamma;<sub>d</sub></i> and <i>&phi;&prime;</i>; therefore, when a high 
+  value is sampled for <i>&gamma;<sub>d</sub></i>, a high value is sampled for <i>&phi;&prime;</i> 
+  to model the desired proportional relationship. This method produces <i>r</i> values 
+  between <i>&gamma;<sub>d</sub></i> and <i>&phi;&prime;</i> of 0.95 to 1.0 (with 1.0 occurring 
+  when the same distribution type is used for both variables). This degree of 
+  correlation is greater than typically found in nature; however, because the 
+  infinite slope equation is generally insensitive to <i>&gamma;<sub>d</sub></i>, the 
+  <i>P<sub>&fnof;</sub></i>&nbsp; values are affected only slightly.<BR>
+
+  &nbsp;&nbsp;&nbsp;&nbsp;Dependence between other variables, such as an inverse 
+  relationship between soil depth and ground slope, is sometimes observed. At 
+  this time, LISA and SARA do not have the capability of allowing the user to 
+  enter a functional relationship between selected variables to model such correlations 
+  in a rigorous manner. Instead, the user must subdivide geomorphic landforms 
+  into smaller units with narrow ranges of input values, so that within those 
+  ranges, one could expect all other variables to be independent.</p>
+
+<p>3. MEANING AND USE OF THE PROBABILITY OF FAILURE<br><br>
+  The <i>P<sub>&fnof;</sub></i>&nbsp;, strictly speaking, is the total number of Monte Carlo 
+  iterations divided into the number of calculated factors of safety with a value 
+  less than or equal to one; however, it is common to view the probability of 
+  an event as the likelihood of that event occurring. This meaning does not work 
+  well for the <i>P<sub>&fnof;</sub></i>&nbsp; of a large, variable landform, because the event <!-- sic evnt -->
+  of one failure occurring in a landform or along a proposed road location gives 
+  a probability of landslide occurrence of one. It is more useful to think of 
+  the <i>P<sub>&fnof;</sub></i>&nbsp; as the relative frequency of failure events in the analysis 
+  area or along the road location. The <i>P<sub>&fnof;</sub></i>&nbsp; then can be used qualitatively 
+  to make relative comparisons between landforms or road locations to identify 
+  areas that should be targeted for additional analysis. The <i>P<sub>&fnof;</sub></i>&nbsp; 
+  can be viewed as the probability of landslide occurrence if the area analyzed 
+  is small enough (i.e., one slope or one drainage) so that only one failure could 
+  physically occur within that area.<BR>
+
+  &nbsp;&nbsp;&nbsp;Typically in hazard assessments for 
+  planning purposes, information comes primarily from soils and geology inventories 
+  and aerial photo interpretation, with few actual field measurements. In this 
+  case, the input distributions represent one's uncertainty about the variables 
+  as well as one's best guess about their spatial variability across the landform; 
+  therefore, because of the two-dimensional nature of the infinite slope analysis, 
+  the estimated <i>P<sub>&fnof;</sub></i>&nbsp; can best be thought of as the likelihood that 
+  any possible randomly selected cross-section through the slope would be analyzed 
+  as unstable. As more data are available, the probability distributions of each 
+  input variable represents more the spatial variability of that variable and 
+  less the uncertainty. Here the <i>P<sub>&fnof;</sub></i>&nbsp; should be an estimate of the 
+  expected percentage of area of the landform or of the length of the roadway 
+  involved in failure during the period appropriate to the analysis &#8212; for example, 
+  during the period of minimum root strength following timber harvest, or during 
+  the rain or snow melt event causing the groundwater levels used in the analysis. 
+  This interpretation of the <i>P<sub>&fnof;</sub></i>&nbsp; can help geotechnical specialists 
+  recommend to land managers what level of <i>P<sub>&fnof;</sub></i>&nbsp; is excessive because 
+  percentage area or road length in failure can be used to evaluate the possible 
+  consequences of failure, such as an estimate of the quantity of material that 
+  may impact downslope lands or streams.<BR>
+
+  &nbsp;&nbsp;&nbsp;&nbsp;The <i>P<sub>&fnof;</sub></i>&nbsp; estimated using LISA and SARA should 
+  be reported as a conditional probability given that the groundwater distribution 
+  used in the analysis (which is in part dependent on climatic events and thus 
+  has its own probability of occurrence) does indeed occur. The <i>P<sub>&fnof;</sub></i>&nbsp; also should 
+  be verified as reasonable by comparison with field observations of slope instability. 
+  Used as an iterative tool, LISA and SARA can help the user document personal 
+  judgments and observations about an area or road location, communicate them 
+  to land managers and to other geotechnical specialists, and help identify factors 
+  critical to landslide hazard assessment in a given area. The <i>P<sub>&fnof;</sub></i>&nbsp; 
+  also can be used quantitatively in a risk analysis, such as an expected monetary 
+  value (EMV) decision analysis. Research efforts are continuing in this area.<BR>
+
+  &nbsp;&nbsp;&nbsp;&nbsp;LISA and SARA do not simulate the sizes, numbers, locations 
+  or types of failure that might occur (although LISA gives more accurate results 
+  for translational failure modes, and SARA can give an indication as to whether 
+  the failure mode is more likely to be translational or circular). Therefore, 
+  LISA and SARA cannot be used to estimate directly the consequences of failure, 
+  such as whether sediment will reach a stream, or the volume of sediment delivered.</p> 
+</p>
+
+<p>4. EXAMPLE APPLICATION<br><br>
+  The Clearwater National Forest in northern Idaho planned to construct a road 
+  from an existing ridge-top road to the North Fork of the Clearwater River, which 
+  flows into Dworshak Reservoir. The proposed road location crossed three landforms&#8212; 
+  mountain slopelands (31), mass-wasted slopes (50), and nondissected stream breaklands 
+  (60), as shown in figure 1 (Wilson and others 1983). The mountain slopelands 
+  consist of the lower and middle slopes of mountains and primary ridges along 
+  the North Fork of the Clearwater River. Soil thickness of 1.5 to 2.5m and slope 
+  gradients of 30 to 60% were anticipated. Groundwater levels were expected to 
+  be high due to concentrated flow by landform shape and low slope position. The 
+  areas mapped as mass-wasted slopes were classified based on benched, hummocky 
+  topography observed in aerial photographs rather than observations of recent 
+  failures. Highly variable soil thicknesses, slope gradients and groundwater 
+  concentrations were anticipated. As might be expected, the Forest land managers 
+  were concerned about crossing this landform. In the nondissected stream breaklands, 
+  soils were expected to be thin (less than 1.5m), groundwater levels low, and 
+  slopes steep (greater than 60%). The bedrock underlying the entire area is micaceous 
+  schist which commonly produces cohesionless (nonplastic) silty sands and gravel 
+  soils. Large differences in shear strength across the area were not anticipated.</p>
+
+<p align="center"><img src="1991c_fig1.gif" width="548" height="547"></p>
+
+ <blockquote>
+  <font size=-1>
+   <strong><a name="Fig_1"></a>Figure 1</strong> &#8212; Example problem showing 
+   natural slope <i>P<sub>&fnof;</sub></i>&nbsp; values estimated using LISA, and cut-and-fill 
+   slope <i>P<sub>&fnof;</sub></i>&nbsp; values estimated using SARA. Also shown are locations 
+   of cutslope failures which occurred the first spring after construction. No 
+   fill slope failures occurred.
+  </font>
+ </blockquote>
+
+<p>Based on this inventory information, values and probability distributions were 
+  selected for each input variable in the infinite slope equation and the <i>P<sub>&fnof;</sub></i>&nbsp; 
+  estimated using LISA; the <i>P<sub>&fnof;</sub></i>&nbsp; values are shown on figure 1 with 
+  the landform types. As one might expect, landform 50 (interpreted as mass-wasted 
+  slopes) had the highest probabilities of failure with values ranging from 0.12 
+  to 0.29. <br>
+
+  &nbsp;&nbsp;&nbsp;The relatively high <i>P<sub>&fnof;</sub></i>&nbsp; values and the topographic 
+  indications of past failure activity in landform 50 prompted the Forest land 
+  managers to request further analysis of the proposed road location. A field 
+  reconnaissance of the road location provided measurements of slope gradient, 
+  and estimates of soil thickness and groundwater conditions. The road was divided 
+  into 12 segments based on similar landform, slope and drainage characteristics. 
+  Within each segment, typical cross sections of the natural slope were measured 
+  and a self-balanced road prism superimposed. Cut slopes of 3/4:1 to 1:1 and 
+  fill slopes of 1.5:1 were used for this analysis. The probabilities of failure 
+  for both the natural slope immediately above the road and for the road prism 
+  were estimated for each road segment using the SARA program. Generally, the 
+  road was well located&#8212;on less steep slopes and avoiding obvious wet areas&#8212;which 
+  resulted in lower natural slope <i>P<sub>&fnof;</sub></i>&nbsp; values along the road location 
+  than for the landform as a whole. The road location and the resulting <i>P<sub>&fnof;</sub></i>&nbsp; 
+  values for the cut-and-fill slopes of the road are also shown on <a href="#Fig_1">figure 
+  1</a>.<BR>
+
+  &nbsp;&nbsp;&nbsp;&nbsp;Although there was relatively high failure potential 
+  in some road segments, other important factors lead the Forest to decide to 
+  proceed with <!-- the --> road project; however, the hazard analysis provided valuable input 
+  to the Forest land managers, particularly in increased awareness of the landslide 
+  potential, so that possible consequences and mitigation measures could be considered. 
+  As a result of this analysis, design alterations were made to reduce the hazard 
+  in some segments.<BR>
+
+  &nbsp;&nbsp;&nbsp;&nbsp;In the spring following road construction, 28 cutslope 
+  failures and no fillslope failures were observed. One third of the cutslope 
+  failures fell into each of three size classes&#8212;10 to 50m<sup>3</sup>, 50 to 100m<sup>3</sup>, 
+  and 100 to 300m<sup>3</sup>. The failure locations are shown by the dots in <a href="#Fig_1">figure 
+  1</a>. Qualitatively, SARA estimated the likelihood of failure for the cutslope 
+  well&#8212;18 of the failures occurred in landform 50 which the model showed 
+  to have the highest <i>P<sub>&fnof;</sub></i>&nbsp;; however, there were segments in landform 50 that showed 
+  moderate hazard and no failures occurred, and segments in landforms 31 and 50 
+  that showed low hazard and 7 failures occurred. We believe the discrepancies 
+  are due to inaccuracies in describing the actual in situ conditions. The results 
+  of this example illustrate that even probabilistic models provide &quot;good&quot; 
+  hazard assessments only to the extent that the input distributions adequately 
+  describe actual field conditions. Post-construction inspection to compare input 
+  distributions used with conditions observable in road cuts provide invaluable 
+  information that then can be used to improve future assessments in similar areas. 
+  Feedback of this type is essential for obtaining realistic results. Research 
+  is continuing in the areas of updating input distributions using Bayesian techniques, 
+  but currently distributions are updated subjectively.<BR>
+
+  &nbsp;&nbsp;&nbsp;&nbsp;Although not addressed in this example, LISA can be 
+  used to evaluate the effects of timber harvest by reducing the values of tree 
+  root strength and increasing the values for groundwater used in the analysis 
+  to model the effects of timber removal (Hammond and others 1991).<br>
+</p>
+<p>5. CONCLUSIONS<br><br>
+  The LISA and SARA programs are tools to assist the user in understanding the 
+  factors affecting slope stability, quantifying observations and judgments regarding 
+  stability, and in documenting and communicating those observations and judgments 
+  to other geotechnical specialists and to land managers. As with any computer 
+  program, varying answers can be obtained by altering the input data, so caution 
+  must be exercised to prevent the analysis from becoming a game of numbers. The 
+  input data should be based on sound geotechnical observations, interpretations, 
+  and measurements by qualified individuals who have a thorough understanding 
+  of the model; and the results compared to actual field conditions to assure 
+  that they are indeed reasonable.</p>
+  <p><br>
+  The primary advantages of the probabilistic models described in this paper are</p>
+  <ol>
+   <li>they provide a rational, objective framework for the probabilistic stability assessment of slopes and road ways,</li>
+   <li> they allow the user to treat all input variables stochastically,</li>
+   <li> they provide a documented plan for how uncertainty and variability are considered, and</li>
+   <li> they provide output critical for economic studies and risk analyses.</li>
+  </ol>
+  <p>Because the models are based on geotechnical stability models, they can be 
+  used as a design aid, and allow data obtained in geotechnical design and construction 
+  projects to be used in future hazard analysis for planning purposes. In addition, 
+  the computer programs are designed so that they are easy to understand and use 
+  with minimal training in probabilistic concepts.<BR>
+
+  &nbsp;&nbsp;&nbsp;&nbsp;The programs assist the user in estimating only the 
+  landslide hazard; however, the consequences of slope failure (such as the potential 
+  for damage to timber and fisheries resources, roads or structures, or the potential 
+  for injury or loss of life) should be assessed by the user to provide a complete 
+  risk analysis.</p>
+
+<p>ACKNOWLEDGMENTS<br><br>
+  David Hall, Paul Swetik and Scott Kendall designed the user interfaces and coded 
+  the LISA and SARA computer programs. Richard van Dyke assisted in SARA algorithm 
+  development. Gordon Booth initially suggested the Monte Carlo approach. Many 
+  geotechnical and engineering geology specialists throughout the Forest Service 
+  assisted in the field testing of LISA and SARA and have provided valuable feedback 
+  throughout program development.<br>
+</p>
+
+<p>REFERENCES<br>
+<p align=left class=reference>
+  Chowdhury, R.N. &amp; W.H. Tang 1987.
+  Comparison of risk models for slopes. 
+  <b><i>Proc. 5th ICASP:</i></b> 863-869.
+  Vancouver, B.C.: Institute for Risk Research, University of Waterloo.
+<p align=left class=reference>
+  Cousins, B.F. 1978.
+  Stability charts for simple earth slopes.
+  ASCE, <b><i>J. Geotechnical Eng. Div.</i></b> 104(GT2): 267-279.
+<p align=left class=reference>
+  Hammond, C.J., D.E. Hall, S.M. Miller, &amp; P.G. Swetik 1991.
+  <b><i>Level I stability analysis (LISA) documentation for version 2.0.</i></b>
+  USDA Forest Service, General Tech. Report INT-in press.
+<p align=left class=reference>
+  Prellwitz, R.W. 1988.
+  <b>&quot;SSIS&quot; <i>and</i> &quot;SSCHFS&quot;&#8212; <i>preliminary slope stability analyses with the HP41 programmable calculator.</i></b>
+  U.S. Department of Agriculture, Forest Service, Engineering Staff, Washington, D.C.: EM-7170-9.
+<p align=left class=reference>
+  Prellwitz, R.W., T.R. Howard &amp; W.D. Wilson 1985.
+  Landslide analysis concepts for management of forest lands on residual and colluvial soils.
+  <b><i>Transportation Research Record</i></b> 919: 27-36.
+<p align=left class=reference>
+  Pyles, M.R., W.L. Schroeder &amp; R.C. Pratt 1984.
+  <b><i>Simplified stability assessment for low-volume road cut and fill slopes.</i></b>
+  Oregon State Univ. final report on USDA, Forest Service Res. Ag. Suppl. No. PNW-82-326.
+<p align=left class=reference>
+  Roth, R.A. 1983.
+  Factors affecting landslide-susceptibility in San Mateo County, CA.
+  <b><i>Bull. of the Assoc. of Eng. Geologists</i></b> 10(4): 353-372.
+<p align=left class=reference>
+  Sidle, R.C., A.J. Pearce &amp; C.L. O'Loughlin 1985.
+  Hillslope stability and land use.
+  <b><i>Water Resources Monograph</i></b> series No. 11: American Geophysical Union: Washington, DC.
+<p align=left class=reference>
+  Wilson, D., J. Coyner &amp; T. Dechert 1983.
+  <b><i>Land system inventory of the Clearwater National Forest, Region 1&#8212;first review draft.</i></b>
+  U.S. Department of Agriculture, Forest Service.
+</p>
+
+  <hr>
+
+  <b>Originally published as:</b>
+  <blockquote>
+<p class='reference'>
+   Hammond, C.J.; Prellwitz, R.W.; Miller, S.M. 1991.
+   <i>Landslide hazard assessment using Monte Carlo simulation.</i>
+   Bell, D.H., ed. <b>Landslides/Glissements de terrain.</b>
+   Proceedings of the Sixth International Symposium, 10-14 February 1992, Christchurch, New Zealand.
+   Rotterdam, The Netherlands: A.A. Balkema. Vol. 2, 959-964.
+</p>
+  </blockquote>
+  <hr>
+
+  <table border="0" cellpadding="6" width="100%">
+    <tr>
+     <td>
+      <a href="http://www.fs.fed.us"><img src="../../usfs_green_shield_logo.gif" border="0" align="left"></a>
+     </td>
+     <td align="center">
+      USDA Forest Service<br>
+      Rocky Mountain Research Station<br>
+      Moscow Forestry Sciences Laboratory<br>
+      1221 South Main Street, Moscow, ID 83843<br>
+      <a href="http://forest.moscowfsl.wsu.edu/">http://forest.moscowfsl.wsu.edu/</a>
+     </td>
+     <td>
+      <a href="http://www.fs.fed.us/rm/"><img src="../../rmrs_logo_sm.gif" border="0" align="right"></a>
+     </td>
+
+    </tr>
+   </table>
+ </body>
+</html>

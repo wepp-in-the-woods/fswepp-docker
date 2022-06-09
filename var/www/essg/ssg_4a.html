@@ -1,0 +1,422 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+ <head>
+  <title>SSG Section 4A: Fundamental Stress-Strain Relationships</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <!--
+    Hall, D.E.; Long, M.T.; Remboldt, M.D., editors. 1994.
+    Slope Stability Reference Guide for National Forests in the United States.
+    Prellwitz, R.W.; Koler, T.E.; Steward, J.E., coordinators.
+    Publication EM-7170-13.
+    Washington, DC: U.S. Department of Agriculture, U.S. Forest Service, Engineering Staff. 
+    3 volumes, 1091 p.
+    Corrected [2006] electronic version at http://forest.moscowfsl.wsu.edu/ssg/
+  -->
+  <style type="text/css">
+   <!--
+A{color:#0000CC; font-family:Verdana, Arial, Helvetica, sans-serif;} A:hover{color:#ff00cc;} A:visited{color:#660099;} A:visited:hover{color:#ff00cc;} 
+p, ul, ol, blockquote {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11pt}
+P.indent {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11pt; margin-left: 20px}
+.active {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11pt; color:#666666;}
+.fig {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9pt;}
+.shead {  font-family: trebuchet MS, verdana, arial, helvetica, sans-serif; font-size: 12pt; font-weight: bold}
+.head {  font-family: trebuchet MS, verdana, arial, helvetica, sans-serif; font-size: 20pt; font-weight: bold}
+.headssg {  font-family: trebuchet MS, verdana, arial, helvetica, sans-serif; font-size: 14pt; font-weight: bold}
+.symb {  font-family: symbol; font-size: 11pt; font-weight: bold;}
+BR.pageEnd {page-break-after:always;}
+.text {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11pt; text-indent: 40px;}
+.smtext { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt}
+.vari {  font-family: "Times New Roman", Times, serif; font-size: 11pt; font-style: italic; font-weight: bold}
+.figSymb { font-family: symbol; font-size: 9pt; font-style: italic }
+.figVari {  font-family: "Times New Roman", Times, serif; font-size: 9pt; font-style: italic; font-weight: bold}
+.eq_label { font-family: verdana, Helvetica, sans-serif; font-size: 11pt; text-align: right;}
+.underline {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11pt; text-decoration: underline}
+   -->
+  </style>
+  <script language="javascript" type="text/javascript">
+   <!--
+   function workWindow(theURL,winName,features) {
+     window.open(theURL,winName,features);
+   }
+   //-->
+  </script>
+ </head>
+ <body bgcolor="#FFFFFF" link="#3333FF" vlink="#990099">
+
+<!-- BEGIN TOP NAVIGATION -->
+  <table width="660" border="1" cellspacing="0" cellpadding="8" bgcolor="#CCCC99">
+   <tr>
+    <td> 
+     <p align="center">
+      <font face="Arial, Helvetica, sans-serif" size="2">
+        [ <a href="index.html">Slope Stability Reference Guide Home</a> ]<br>
+        [ <a href="ssg_4toc.html">Section 4 TOC</a> ] <BR>
+        [&lt; <a href="ssg_4toc.html">Section 4 TOC</a> ]
+        [ <a href="ssg_4as.html">Section 4A cont.</a> &gt; ]
+      </font>
+     </p>
+    </td>
+   </tr>
+  </table>
+<!-- END TOP NAVIGATION --> 
+  <table width="660" border="0" cellspacing="2" cellpadding="2">
+   <tr> 
+    <td colspan="3" align="center" valign="top">
+     <font face="Arial, Helvetica, sans-serif" size="3">
+      <b>Slope Stability Reference Guide for National Forests in the United States<br>
+      Volume II, Chapter 4, Section A</b>
+     </font>
+     <hr>
+    </td>
+   </tr>
+   <tr> 
+    <td width="118" valign="top"> <div align="right"><font size="4" face="Arial, Helvetica, sans-serif"><b>4A. 
+        </b></font></div></td>
+    <td colspan="2" valign="top"><font size="4" face="Arial, Helvetica, sans-serif"><strong>Fundamental 
+      Stress-Strain Relationships</strong> </font> </td>
+  </tr>
+  <tr> 
+    <td colspan="3"> <hr> </td>
+  </tr>
+  <tr> 
+    <td width="118" valign="top"><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font></td>
+    <td class="fig" colspan="2" valign="top"><font size="2" face="Arial, Helvetica, sans-serif"><i>Cliff 
+      Denning, Geotechnical Engineer, Mt. Hood National Forest</i></font></td>
+  </tr>
+  <tr> 
+    <td colspan="3"> <hr> </td>
+  </tr>
+  <tr> 
+    <td valign="top" width="118"><font size="2" face="Arial, Helvetica, sans-serif"><a name="4A.1"></a></font><font size="3" face="Arial, Helvetica, sans-serif"><strong>4A.1 
+      Introduction</strong></font></td>
+    <td colspan="2" valign="top"> <p><font size="2" face="Arial, Helvetica, sans-serif">In 
+        this section, the significant stress-strain parameters used in mechanical 
+        ("rational") slope stability analysis will be discussed. Included are 
+        parameter definitions and common methods for quantifying them. The intent 
+        of section 4A is to introduce some basic definitions and concepts concerning 
+        stress and strengths in soil and rock. Section 4A is followed by sections 
+        on soil weight/volume relationships, soil and rock shear strength, ground 
+        water, root strength, and tree surcharge. <a href="#4A_F01">Figure 4A.1</a> 
+        illustrates that section 4 pertains to the level III data base within 
+        the three-level stability analysis process.</font></p></td>
+  </tr>
+  <tr> 
+    <td width="118"><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font></td>
+    <td colspan="2" bgcolor="#CCCC99" valign="top"> <p align="center"><font size="2" face="Arial, Helvetica, sans-serif"><a name="4A_F01"></a><img src="images/4a/4a_f01.gif" width="413" height="295" border="1"> 
+        </font></p>
+      <p class="fig"><font size="2" face="Arial, Helvetica, sans-serif"><i>Figure 
+        4A.1. - Section 4 pertains to the level III data base in slope stability 
+        analysis.</i></font></p></td>
+  </tr>
+  <tr> 
+    <td colspan="3" valign="top" class="shead"><hr></td>
+  </tr>
+  <tr> 
+    <td class="shead" valign="top" width="118"><font size="2" face="Arial, Helvetica, sans-serif"><a name="4A.2"></a><font size="3">4A.2 
+      Definitions</font></font><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font></td>
+    <td width="176" valign="top"> <p><font size="2" face="Arial, Helvetica, sans-serif">Force 
+        (L x M/T<sup>2</sup>)</font></p>
+      <font size="2" face="Arial, Helvetica, sans-serif"><br>
+      </font></td>
+    <td valign="top" width="310"> <p><font size="2" face="Arial, Helvetica, sans-serif">load 
+        in pounds (lb), newtons (N), or kilonewtons (kN)<br>
+        1&nbsp;N <img src="images/4a/tr_equal.gif" width="11" height="10"> 1&nbsp;kg-m/s<sup>2</sup><br>
+        1&nbsp;lb <img src="images/4a/dbl_tilde.gif" width="11" height="10"> 4.4482&nbsp;N</font></p>
+      <p>&nbsp;</p></td>
+  </tr>
+  <tr> 
+    <td class="shead" valign="top" width="118">&nbsp;</td>
+    <td valign="top" width="176"> <p><font size="2" face="Arial, Helvetica, sans-serif">Stress 
+        (M/L x T<sup>2</sup>) </font></p></td>
+    <td valign="top" width="310"> <p><font size="2" face="Arial, Helvetica, sans-serif">force 
+        per unit area in pounds per square foot (psf), pounds per square inch 
+        (psi), or kilopascals (kPa)<br>
+        1 psi <img src="images/4a/tr_equal.gif" width="11" height="10"> 144 psf<br>
+        1 psi <img src="images/4a/dbl_tilde.gif" width="11" height="10"> 6.9 kPa<br>
+        1 psf <img src="images/4a/dbl_tilde.gif" width="11" height="10"> 0.0479 
+        kPa<br>
+        1 kPa <img src="images/4a/tr_equal.gif" width="11" height="10"> 1 kN/m<sup>2</sup></font></p></td>
+  </tr>
+  <tr> 
+    <td class="shead" valign="top" width="118">&nbsp;</td>
+    <td valign="top" width="176"> <p><font size="2" face="Arial, Helvetica, sans-serif">Normal 
+        Stress, &sigma; <br>
+        </font></p></td>
+    <td valign="top" width="310"> <p><font size="2" face="Arial, Helvetica, sans-serif">stress 
+        perpendicular to a plane</font></p></td>
+  </tr>
+  <tr> 
+    <td class="shead" valign="top" width="118">&nbsp;</td>
+    <td valign="top" width="176"> <p><font size="2" face="Arial, Helvetica, sans-serif">Shear 
+        Stress, &tau; <br>
+        </font></p></td>
+    <td valign="top" width="310"> <p><font size="2" face="Arial, Helvetica, sans-serif">stress 
+        tangent to and within the plane<br>
+        <br>
+        <img src="images/4a/4a_p332a.gif" width="200" height="203"> </font></p></td>
+  </tr>
+  <tr> 
+    <td class="shead" valign="top" width="118">&nbsp;</td>
+    <td valign="top" width="176"> <p><font size="2" face="Arial, Helvetica, sans-serif">Pressure<br>
+        </font></p></td>
+    <td valign="top" width="310"> <p><font size="2" face="Arial, Helvetica, sans-serif">a 
+        stress acting uniformly in all directions, such as from a fluid (i.e., 
+        air or water). Force per unit area.</font></p></td>
+  </tr>
+  <tr> 
+    <td class="shead" valign="top" width="118">&nbsp;</td>
+    <td valign="top" width="176"> <p><font size="2" face="Arial, Helvetica, sans-serif">Strain, 
+        &epsilon; <br>
+        </font></p></td>
+    <td valign="top" width="310"> <p><font size="2" face="Arial, Helvetica, sans-serif">deformation 
+        per unit length. &epsilon; is dimensionless (e.g., in./in. or mm/mm). 
+        Deformation is normally in response to an applied stress. There are two 
+        types of strain: lateral ("bulging sideways"), &epsilon;<sub>x</sub> , 
+        and direct ("deformation under load"), &epsilon;<sub>y</sub>.<br>
+        <br>
+        &epsilon;<sub>x</sub> = &Delta; X/X<sub>0</sub> <br>
+        &epsilon;<sub>y</sub> = &Delta;Y/Y<sub>0</sub> <br>
+        <br>
+        <img src="images/4a/4a_p332b.gif" width="260" height="214"> </font></p></td>
+  </tr>
+  <tr> 
+    <td width="118"><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font></td>
+    <td valign="top" width="176"> <p><font size="2" face="Arial, Helvetica, sans-serif">Stress-Strain 
+        Curve <br>
+        </font></p></td>
+    <td valign="top" width="310"> <p><font size="2" face="Arial, Helvetica, sans-serif">plot 
+        of stress against associated strain</font></p></td>
+  </tr>
+  <tr> 
+    <td width="118"><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font></td>
+    <td valign="top" width="176"> <p><font size="2" face="Arial, Helvetica, sans-serif">Elastic 
+        Modulus, <i class="vari">E</i> </font></p></td>
+    <td valign="top" width="310"> <p><font size="2" face="Arial, Helvetica, sans-serif">the 
+        slope of the stress-strain curve (Sowers, 1979), or (change in stress)/(change 
+        in strain).<br>
+        <br>
+        <span class="vari">E</span> = &Delta;&sigma; / &Delta;&epsilon; </font></p></td>
+  </tr>
+  <tr> 
+    <td width="118"><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font></td>
+    <td valign="top" width="176"> <p><font size="2" face="Arial, Helvetica, sans-serif">Tangent 
+        Modulus, <i class="vari">Et</i> </font></p></td>
+    <td valign="top" width="310"> <p><font size="2" face="Arial, Helvetica, sans-serif">the 
+        slope of a straight line drawn tangent to a stress-strain curve at a particular 
+        point on the curve. The tangent modulus at the initial point of the curve 
+        is the initial tangent modulus (Lambe and Whitman, 1969) as shown.</font></p></td>
+  </tr>
+  <tr> 
+    <td height="93" width="118"><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font></td>
+    <td valign="top" height="93" width="176"> <p><font size="2" face="Arial, Helvetica, sans-serif">Secant 
+        Modulus, <span class="vari">Es</span> </font></p>
+      <font size="2" face="Arial, Helvetica, sans-serif"><br>
+      </font></td>
+    <td valign="top" height="93" width="310"> <p><font size="2" face="Arial, Helvetica, sans-serif">the 
+        slope of a straight line connecting two separate points on the stress-strain 
+        curve as shown (figure reprinted with the permission of John Wiley and 
+        Sons from <b>Soil Mechanics</b> by T.W. Lambe and R.V. Whitman. Copyright 
+        &copy; 1969 John Wiley and Sons).</font></p></td>
+  </tr>
+  <tr> 
+    <td rowspan="2" width="118"><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font></td>
+    <td colspan="2" valign="top" align="center"><font size="2" face="Arial, Helvetica, sans-serif"><img src="images/4a/4a_p333a.gif" width="400" height="398"></font></td>
+  </tr>
+  <tr> 
+    <td valign="top" width="176"> <p><font size="2" face="Arial, Helvetica, sans-serif">Poisson's 
+        Ratio, <span class="vari">v</span> </font></p></td>
+    <td valign="top" width="310"> <p><font size="2" face="Arial, Helvetica, sans-serif">the 
+        ratio of lateral strain, &epsilon;<sub>x</sub>, to direct strain, &epsilon;<sub>y</sub><br>
+        <br>
+        <span class="vari">v</span> = &epsilon;<sub>x</sub> / &epsilon;<sub>y<br>
+        </sub></font></p></td>
+  </tr>
+  <tr> 
+    <td colspan="3" valign="top" class="shead"><hr></td>
+  </tr>
+  <tr> 
+    <td class="shead" valign="top" width="118"><font size="2" face="Arial, Helvetica, sans-serif"><a name="4A.3"></a><font size="3">4A.3 
+      Stress at a Point</font></font></td>
+    <td colspan="2" valign="top"> <p><font size="2" face="Arial, Helvetica, sans-serif">When 
+        a force is applied to a plane surface of a solid, the resulting stress 
+        can be resolved into three components. The normal stress component, &sigma;, 
+        is perpendicular to the plane, and the shear stress component, &tau;, 
+        acts along the surface of the plane in two directions. Stresses on a soil 
+        element are shown in <a href="#4A_F02">figure 4A.2</a>. Exactly three 
+        of the planes passing through the soil element have zero shear stress. 
+        These three principal planes are perpendicular to one another. Normal 
+        stresses acting on these planes are called principal stresses, and, from 
+        largest to smallest in magnitude, they are the major principal stress 
+        (&sigma;<sub>1</sub>), the intermediate principal stress (&sigma;<sub>2</sub>), 
+        and the minor principal stress (&sigma;<sub>3</sub>).<br>
+        </font></p></td>
+  </tr>
+  <tr> 
+    <td colspan="3">&nbsp; </td>
+  </tr>
+  <tr> 
+    <td colspan="3" bgcolor="#CCCC99" valign="top" height="370"> <p align="center"> 
+        <font size="2"><a name="4A_F02"></a><a href="images/4a/4a_f02.gif" onClick="workWindow('f_html/4A_F02.html','','width=1020,height=700,scrollbars=yes,toolbar=yes,resizable=yes,screenX=20,screenY=20')"><img src="images/4a/4a_f02.gif" width="332" height="290" border="1"></a> 
+        </font></p>
+      <p class="fig"><font size="2" face="Arial, Helvetica, sans-serif"><i>Figure 
+        4A.2.&mdash;Generalized stresses at a point (reprinted with permission 
+        of John Wiley &amp; Sons from <b>Fundamentals of geotechnical analysis</b> 
+        by I.S. Dunn, L.R. Anderson, and F.W. Kiefer. Copyright &copy; 1980 John 
+        Wiley &amp; Sons) </i></font></p></td>
+  </tr>
+  <tr> 
+    <td width="118"><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font></td>
+    <td colspan="2" valign="top"> <p><font size="2" face="Arial, Helvetica, sans-serif">The 
+        general case of computing stresses on a plane cutting through a cube can 
+        be simplified by using a two-dimensional model. <a href="#4A_F03">Figure 
+        4A.3</a> shows an edge view of the cube cut by an inclined plane. The 
+        normal stress on the plane, &sigma;<sub>&alpha;</sub>, and the shear stress 
+        in the plane, &tau;<sub>&alpha;</sub>, can be computed from &sigma;<sub>1</sub> 
+        and &sigma;<sub>3</sub> by considering equilibrium of forces: </font></p></td>
+  </tr>
+</table>
+<table width="660" border="0" cellspacing="2" cellpadding="2">
+  <tr> 
+    <td width="146"><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font></td>
+    <td width="406"><font size="2" face="Arial, Helvetica, sans-serif"><img src="images/4a/4a_eq334a.gif" width="209" height="43"></font></td>
+    <td width="52" align="right" class="text"><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;(4A.1)</font></td>
+  </tr>
+  <tr> 
+    <td width="146"><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font></td>
+    <td width="406"><font size="2" face="Arial, Helvetica, sans-serif"><img src="images/4a/4a_eq334b.gif" width="129" height="43">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></td>
+    <td align="right" class="text" width="52"><font size="2" face="Arial, Helvetica, sans-serif">(4A.2)</font></td>
+  </tr>
+  <tr> 
+    <td width="146"><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font></td>
+    <td colspan="2" valign="top"> <p><font size="2" face="Arial, Helvetica, sans-serif">Equations 
+        4A.1 and 4A.2 describe points on a circle in a coordinate system as shown 
+        in <a href="#4A_F04">figure 4A.4</a>, with the <span class="vari">x</span>-axis 
+        representing the normal stress (&sigma;) and the <span class="vari">y</span>-axis 
+        representing the shear stress (&tau;). A graphical procedure was introduced 
+        by Mohr to solve these two equations. &sigma;<sub>1</sub> and &sigma;<sub>3</sub> 
+        are plotted on the coordinate system. A circle with center at (&sigma;<sub>1</sub> 
+        + &sigma;<sub>3</sub>)/2 is drawn through &sigma;<sub>1</sub> and &sigma;<sub>3</sub>. 
+        To find the normal and shear stresses on a plane inclined &alpha; to the 
+        major stress plane, an angle 2&alpha; is measured counterclockwise from 
+        the <span class="vari">x</span>-axis. A line is drawn at that angle from 
+        the circle center to the edge of the circle. The values of &sigma; and 
+        &tau; at the point of intersection of the line and the circle represent 
+        the normal stress and the shear stress, respectively. </font></p></td>
+  </tr>
+  <tr> 
+    <td colspan="3" bgcolor="#CCCC99" valign="top" height="260"> <p align="center"> 
+        <font size="2" face="Arial, Helvetica, sans-serif"><a name="4A_F03"></a><a href="images/4a/4a_f03.gif" onClick="workWindow('f_html/4A_F03.html','','width=1020,height=700,scrollbars=yes,toolbar=yes,resizable=yes,screenX=20,screenY=20')"><img src="images/4a/4a_f03.gif" width="357" height="188" border="1"></a> 
+        </font></p>
+      <p class="fig"><font size="2" face="Arial, Helvetica, sans-serif"><i>Figure 
+        4A.3. - Stresses on a cube cut by a plane perpendicular to the plane of 
+        &sigma;<sub>2</sub> and making an angle of a with the plane of &sigma;<sub>1</sub> 
+        (from Sowers, 1979).<a href="#Figs*">*</a></i> </font></p></td>
+  </tr>
+  <tr> 
+    <td colspan="3" bgcolor="#CCCC99" valign="top" height="169"> <p align="center"> 
+        <font size="2" face="Arial, Helvetica, sans-serif"><a name="4A_F04"></a><a href="images/4a/4a_f04.gif" onClick="workWindow('f_html/4a_f04.html','','width=1020,height=700,scrollbars=yes,toolbar=yes,resizable=yes,screenX=20,screenY=20')"><img src="images/4a/4a_f04.gif" width="342" height="277" border="1"></a> 
+        </font></p>
+      <p class="fig"><font size="2" face="Arial, Helvetica, sans-serif"><i>Figure 
+        4A.4. - Mohr's coordinates and Mohr's circle of stresses (from Sowers, 
+        1979).<a href="#Figs*">*</a> </i></font></p></td>
+  </tr>
+  <tr> 
+    <td colspan="3"> <p class="fig"><font size="2" face="Arial, Helvetica, sans-serif"> 
+        <a name="Figs*"></a>* Figures 4A.3 and 4A.4 are reprinted with permission 
+        of Macmillan College Publishing Company from <b>Introductory Soil Mechanics 
+        and Foundations: Geotechnical Engineering</b>, fourth edition, by George 
+        F. Sowers. Copyright &copy; 1979 by Macmillan College Publishing Company. 
+        </font></p></td>
+  </tr>
+  <tr> 
+    <td colspan="3" valign="top" class="shead"><hr></td>
+  </tr>
+  <tr> 
+    <td class="shead" valign="top" width="146"><font size="2" face="Arial, Helvetica, sans-serif"><a name="4A.4"></a><font size="3">4A.4 
+      Common States of Stress</font></font></td>
+    <td colspan="2" valign="top"> <p><font size="2" face="Arial, Helvetica, sans-serif"><a href="#4A_F05">Figure 
+        4A.5</a> shows several common states of stress in soil. In the initial 
+        at-rest state, &sigma;<img src="images/4a/prime.gif" width="9" height="12"><sub>z</sub> 
+        is the overburden pressure, &sigma;<img src="images/4a/prime.gif" width="9" height="12"><sub>r</sub> 
+        = <span class="vari">K</span><sub>o</sub>&sigma;<img src="images/4a/prime.gif" width="9" height="12"><sub>z</sub> 
+        is the lateral pressure, and <span class="vari">K</span><sub>o</sub> is 
+        the coefficient of lateral earth pressure at rest. Beneath the center 
+        of a circular loaded area, the vertical stress (&sigma;<img src="images/4a/prime.gif" width="9" height="12"><sub>z</sub>) 
+        is the major principal stress and the radial stress (&sigma; <img src="images/4a/prime.gif" width="9" height="12"><sub>r</sub>) 
+        is the minor principal stress. Beneath the center of a circular excavation, 
+        the radial stress (&sigma;<img src="images/4a/prime.gif" width="9" height="12"> 
+        <sub>r</sub>) is now the major principal stress, and the vertical stress 
+        (&sigma;<img src="images/4a/prime.gif" width="9" height="12"><sub>z</sub>) 
+        is the minor principal stress. Figure 4A.5(d) shows stress conditions 
+        behind a retaining structure. This is usually approximated by an assumption 
+        of plane-strain. (Plane-strain is a condition in which the intermediate 
+        principal strain (&epsilon;<sub>2</sub>) is zero.) In this case, the direction 
+        of intermediate (zero) principal strain is perpendicular to the page. 
+        The intermediate principal stress (&sigma;<img src="images/4a/prime.gif" width="9" height="12"><sub>2</sub>) 
+        is &sigma;<img src="images/4a/prime.gif" width="9" height="12"><sub>y</sub> 
+        and, in figure 4A.5(d), lies between &sigma;<img src="images/4a/prime.gif" width="9" height="12"><sub>1</sub> 
+        and &sigma;<img src="images/4a/prime.gif" width="9" height="12"><sub>3</sub> 
+        (Wu and Sangrey, 1978).<br>
+        </font></p></td>
+  </tr>
+  <tr> 
+    <td colspan="3">&nbsp; </td>
+  </tr>
+  <tr> 
+    <td colspan="3" valign="top" bgcolor="#CCCC99" height="357"> <p align="center"><font size="2"><a name="4A_F05"></a><a href="images/4a/4a_f05.gif" onClick="workWindow('f_html/4A_F05.html','','width=1020,height=700,scrollbars=yes,toolbar=yes,resizable=yes,screenX=20,screenY=20')"><font face="Arial, Helvetica, sans-serif"><img src="images/4a/4a_f05.gif" width="415" height="289" border="1"></font></a> 
+        </font></p>
+      <p class="fig"><font size="2" face="Arial, Helvetica, sans-serif"><i>Figure 
+        4A.5. - Several common states of stress in soil (reprinted with permission 
+        of the Transportation Research Board from "Strength properties and their 
+        measurement" by T.H. Wu and D.A. Sangrey, 1978).</i></font></p></td>
+  </tr>
+  <tr> 
+    <td width="146"><font size="2">&nbsp;</font></td>
+    <td colspan="2" valign="top"> <p><font size="2" face="Arial, Helvetica, sans-serif">Another 
+        important feature in many stability problems is the rotation of the principal 
+        axes during loading or excavation (<a href="#4A_F06">figure 4A.6</a>). 
+        Prior to excavation, the state of stress is the initial at-rest state. 
+        After excavation, the principal axis rotates 90&deg; in the area of the 
+        toe with the major principal stress being in the horizontal direction. 
+        At point (b) the principal axis rotates approximately 45&deg;. At point 
+        (c) no rotation takes place. The values of the principal stresses at points 
+        (a), (b), and (c) are different (Wu and Sangrey, 1978).</font></p></td>
+  </tr>
+  <tr> 
+    <td colspan="3" valign="top" bgcolor="#CCCC99" height="285"> <p align="center"><font size="2" face="Arial, Helvetica, sans-serif"><a name="4A_F06"></a><a href="images/4a/4a_f06.gif"><img src="images/4a/4a_f06.gif" width="429" height="194" border="0"></a> 
+        </font></p>
+      <p class="fig"><i><font size="2" face="Arial, Helvetica, sans-serif">Figure 
+        4A.6. - Rotation of the principal stress axes during loading or excavation 
+        (reprinted with permission of the Transportation Research Board from "Strength 
+        properties and their measurement" by T.H. Wu and D.A. Sangrey, 1978).</font></i></p></td>
+  </tr>
+</table>
+
+<p> 
+  <!-- ======= FOOTER GRAPHIC =================================================== -->
+  <img src="images/navbar.gif" width="703" height="36" align="BOTTOM"
+   usemap="#b_pagingButtons.map" border="0" alt="Slope Stability Reference Guide for National Forests in the United States"> 
+  <!-- ========================================================================= -->
+  <br>
+  <!-- =======IMAGE MAP INFORMATION============================================== -->
+  <map name="b_pagingButtons.map"> 
+    <!--HOME-->    <area shape="RECT" coords="0,0 605,26" href="index.html" alt="SSG home">
+    <!--PREV-->    <area shape="rect" coords="609,0,630,26" href="ssg_4toc.html" alt="Section 4 TOC">
+    <!--NEXT-->    <area shape="RECT" coords="632,0 652,26" href="ssg_4as.html" alt="Section 4A continued">
+  </map>
+  <!-- ========================================================================= -->
+  <br>
+   <font face="Arial, Helvetica, sans-serif" size="1">USDA Forest Service<br>
+    <b>Slope Stability Reference Guide for National Forests in the United States, 1994.</b>
+    <br>
+    <a href="http://forest.moscowfsl.wsu.edu/ssg/">http://forest.moscowfsl.wsu.edu/ssg/</a> 
+    <br>Last Revised: 
+    <script language="javascript" type="text/javascript">
+     <!-- hide
+      document.write(document.lastModified)
+     // end hide -->
+    </script>
+   </font>
+  </p>
+ </body>
+</html>

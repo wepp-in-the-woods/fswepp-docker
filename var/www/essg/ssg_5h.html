@@ -1,0 +1,2745 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+ <head>
+  <title>Untitled Document</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <!--
+    Hall, D.E.; Long, M.T.; Remboldt, M.D., editors. 1994.
+    Slope Stability Reference Guide for National Forests in the United States.
+    Prellwitz, R.W.; Koler, T.E.; Steward, J.E., coordinators.
+    Publication EM-7170-13.
+    Washington, DC: U.S. Department of Agriculture, U.S. Forest Service, Engineering Staff. 
+    3 volumes, 1091 p.
+    Corrected [2006] electronic version at http://forest.moscowfsl.wsu.edu/ssg/
+  -->
+  <!--
+  source code consistency and formatting:  DEH 02/15/2002
+  title check:  DEH 02/15/2002
+  header / navigation:  DEH 02/15/2002
+  footer:  DEH 02/15/2002
+  spell check:  DEH 02/17/2002
+  compare to original:  DEH 02/17/2002
+  corrections from errata incorporated: 
+  weblint check: 
+   -->
+  <style type="text/css">
+  <!--
+A{color:#0000CC; font-family:Verdana, Arial, Helvetica, sans-serif;} A:hover{color:#ff00cc;} A:visited{color:#660099;} A:visited:hover{color:#ff00cc;} 
+p, ul, ol, blockquote {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11pt}
+P.indent {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11pt; margin-left: 20px}
+.active {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11pt; color:#666666;}
+.fig {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9pt;}
+.shead {  font-family: trebuchet MS, verdana, arial, helvetica, sans-serif; font-size: 12pt; font-weight: bold}
+.head {  font-family: trebuchet MS, verdana, arial, helvetica, sans-serif; font-size: 20pt; font-weight: bold}
+.headssg {  font-family: trebuchet MS, verdana, arial, helvetica, sans-serif; font-size: 14pt; font-weight: bold}
+.symb {  font-family: symbol; font-size: 11pt; font-weight: bold;}
+BR.pageEnd {page-break-after:always;}
+.text {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11pt; text-indent: 40px;}
+.smtext { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt}
+.vari {  font-family: "Times New Roman", Times, serif; font-size: 11pt; font-style: italic; font-weight: bold}
+.figSymb { font-family: symbol; font-size: 9pt; font-style: italic }
+.figVari {  font-family: "Times New Roman", Times, serif; font-size: 9pt; font-style: italic; font-weight: bold}
+.eq_label { font-family: verdana, Helvetica, sans-serif; font-size: 11pt; text-align: right;}
+.underline {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11pt; text-decoration: underline}
+  -->
+  </style>
+ </head>
+
+ <body bgcolor="#FFFFFF" link="#3333FF" vlink="#990099">
+  <table width="624" border="1" cellspacing="0" cellpadding="8" bgcolor="#CCCC99">
+   <tr>
+    <td>
+     <p align="center">
+      <font face="Arial, Helvetica, sans-serif" size="2"> 
+        [ <a href="index.html">Slope Stability Reference Guide Home</a> ]<br>
+        [ <a href="ssg_5toc.html">Section 5 TOC</a> ]<br>
+        [ &lt; <a href="ssg_5g.html">Section 5G</a>]
+        [ <a href="ssg_5ref.html">Section 5 References</a> &gt; ]
+      </font>
+     </p>
+    </td>
+   </tr>
+  </table>
+  <br>
+  <table width="624" height="1470" border="0">
+   <tr> 
+    <td colspan="2"><div align="center"><strong><font size="3" face="Arial, Helvetica, sans-serif">Slope 
+        Stability Reference Guide for National Forests in the United States <br>
+        Volume II, Chapter 5, Section H </font></strong></div></td>
+   </tr>
+   <tr> 
+    <td colspan="2"><hr></td>
+   </tr>
+   <tr> 
+    <td width="20%"><div align="right"><font size="3" face="Arial, Helvetica, sans-serif"><strong>5H. 
+        </strong></font></div></td>
+    <td width="80%"><font size="3" face="Arial, Helvetica, sans-serif"><strong>Rock 
+      Slopes-Fundamentals and Sample Problems</strong></font></td>
+  </tr>
+  <tr> 
+    <td colspan="2"><hr></td>
+  </tr>
+  <tr> 
+    <td>&nbsp;</td>
+    <td><font size="2" face="Arial, Helvetica, sans-serif"><em>Michael T. Long, 
+      Engineering Geologist, Willamette National Forest</em></font></td>
+  </tr>
+  <tr> 
+    <td colspan="2"><hr></td>
+  </tr>
+  <tr> 
+    <td height="66" valign="top"><strong><font size="3"><a name="5H.1" id="5H.1"></a><font face="Arial, Helvetica, sans-serif">5H.1 
+      Introduction </font></font></strong></td>
+    <td><p><font size="2" face="Arial, Helvetica, sans-serif">The reader is referred 
+        to Golder Associates (1989) for detailed coverage of rock slope analysis. 
+        In this section, sample problems to illustrate rock plane-, wedge-, and 
+        toppling-failure analyses will be illustrated.</font></p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif">In section <a href="ssg_5a.html#5A.11">5A.11</a>, 
+        simple rock slope plane-failure analysis was introduced. In this section, 
+        rock plane-failure analysis will be expanded to include external forces 
+        from surcharge, seismic acceleration, and artificial support for stabilization. 
+        Sample problems will be used to illustrate rock plane-failure analysis. 
+        All of the computational procedures for hydrostatic ground water pressures 
+        (as described in section <a href="ssg_4e.html">4E</a>) 
+        will be illustrated in these problems.</font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">The fundamentals of 
+        rock wedge-failure analysis were briefly described in section <a href="ssg_5a.html#5A.12">5A.12</a>. 
+        In this section, a hand-calculation for a simple rock wedge failure (without 
+        tension crack) will be made to illustrate the complexity of this three-dimensional 
+        analysis. The application of the use of stereo nets to the analysis of 
+        rock wedge-failure potential will also be illustrated. </font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">The ROCKPACK personal 
+        computer program (Rockslope Stability Computerized Analysis Package 1988) 
+        can be used to analyze rock plane and wedge failures (Watts and Associates, 
+        1986). Not all of the hydrostatic ground water force equations used in 
+        the following sample problems have been programmed into ROCKPACK, but 
+        serveral of the problems are solved both by the equations and by ROCKPACK.</font></p>
+      <p>&nbsp;</p></td>
+  </tr>
+  <tr> 
+    <td height="136" valign="top"><strong><font size="3" face="Arial, Helvetica, sans-serif">5H.2 
+      Rock Plane-Failure Sample Problems </font></strong></td>
+    <td valign="top"><font size="2" face="Arial, Helvetica, sans-serif">Figure 
+      5H.1 illustrates the rock plane-failure analysis equation when external 
+      forces from surcharge, seismic acceleration, and artificial support are 
+      included in the analysis. Figures 5H.2 and 5H.3 show the equations used 
+      to calculate the variables and water pressures for a plane-failure analysis 
+      when there is no tension crack. Figures 5H.4, 5H.5, and 5H.6 show the equations 
+      used when there is a tension crack. The equations used to calculate hydrostatic 
+      water pressures are consistent with those discussed in section <a href="ssg_4e.html">4E</a>.</font><br></td>
+  </tr>
+  <tr> 
+    <td height="302">&nbsp;</td>
+    <td bgcolor="#CCCC99"> <p align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a name="Fig_5H.1"></a><a href="images/5/5h_f01.gif" target="_blank"><img src="images/5/5h_f01.gif" width="186" height="240" border="1"></a></font></p>
+      <p align="center"><font size="2" face="Arial, Helvetica, sans-serif"><em>Figure 
+        5H.1.-Equation for rock plane-failure analysis, including surcharge, seismic 
+        acceleration, and artifical support external forces. </em></font><br>
+      </p></td>
+  </tr>
+  <tr> 
+    <td height="323">&nbsp;</td>
+    <td bgcolor="#CCCC99"> <p align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a name="Fig_5H.2"></a><a href="images/5/5h_f02.gif" target="_blank"><img src="images/5/5h_f02.gif" width="198" height="261" border="1"></a></font></p>
+      <p align="center"><em><font size="2" face="Arial, Helvetica, sans-serif">Figure 
+        5H.2.-Equations for calculation of variables for rock plane-failure analysis 
+        with no tension crack.</font></em><br>
+      </p></td>
+  </tr>
+</table>
+<table width="624" height="826" border="0">
+  <tr>
+    <td width="20%" height="406">&nbsp;</td>
+    <td width="80%" valign="top" bgcolor="#CCCC99"><a href="images/5/5h_f03.gif"> 
+      <div align="center"><font size="2" face="Arial, Helvetica, sans-serif"><a name="Fig_5H3"></a></font><img src="images/5/5h_f03.gif" width="240" height="341" border="1"></div>
+      </a> 
+      <p align="center"><em><font size="2" face="Arial, Helvetica, sans-serif">Figure 5H.3 
+        - Equations for calculation of hydrostatic ground water pressure for rock 
+        plane-failure analysis without a tension crack.</font></em></p></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td bgcolor="#CCCC99"><p align="center"><font face="Arial, Helvetica, sans-serif" size="2"><em><a name="Fig_5H.4" id="Fig_5H.4"></a><a href="images/5/5h_f03.gif" target="_blank"><img src="images/5/5h_f04.gif" width="210" height="299" border="1"></a></em></font></p>
+      <p align="center"><font size="2" face="Arial, Helvetica, sans-serif"><em>Figure 
+        5H.4.-Equations for calculations of bariables for rock plane-failure analysis 
+        with a tension crack.</em></font></p></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td bgcolor="#CCCC99"><div align="center">
+        <p><font size="2" face="Arial, Helvetica, sans-serif"><i><a name="Fig_5H5"></a></i><a href="images/5/5h_f05.gif" target="_blank"><img src="images/5/5h_f05.gif" width="204" height="272" border="1"></a></font></p>
+        <p><em><font size="2" face="Arial, Helvetica, sans-serif">Figure 5H.5.-Equations 
+          for calculation of hydrostatic ground water pressures for rock plane-failure 
+          analysis with a tension crack: (a) Pressure in tension crack only, and 
+          (b) Pressure in tension crack and base pressure limited to crack pressure.</font></em><br>
+        </p>
+      </div></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td bgcolor="#CCCC99"><p align="center"><font size="2" face="Arial, Helvetica, sans-serif"><i><a name="Fig_5H6"></a></i><a href="images/5/5h_f06.gif" target="_blank"><img src="images/5/5h_f06.gif" width="187" height="249" border="1"></a></font></p>
+      <p align="center"><font size="2" face="Arial, Helvetica, sans-serif"><em>Figure 
+        5H.6.-Equations for calculation of hydrostatic ground water pressure for 
+        rock plane-failure analysis with a tension crack: (a) With toe drainage, 
+        and (b) With toe drainage blocked.</em></font></p></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><strong><font size="2" face="Arial, Helvetica, sans-serif">Problem 1</font></strong><font size="2" face="Arial, Helvetica, sans-serif">. 
+      <em>Plane-Failure Analysis for Road Location. </em> </font>
+      <p><font size="2" face="Arial, Helvetica, sans-serif">During a proposed road location 
+        investigation, it was determined by drive probes and outcrop mapping that 
+        a full-bench cut slope would intersect dense basalt with a brecciated 
+        and secondary mineralized altered basalt contact as illustrated. A cross-section 
+        of the anticipated subsurface conditions along the dip line of the basalt 
+        follows.</font><br>
+      </p></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td bgcolor="#CCCC99">
+<div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a href="images/5/5g_p690a.gif" target="_blank"><img src="images/5/5g_p690a.gif" width="377" height="347" border="1"></a></font></div></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td valign="top"><font size="2" face="Arial, Helvetica, sans-serif">Given: 
+      </font><font face="Arial, Helvetica, sans-serif"> 
+      <p><font size="2" face="Arial, Helvetica, sans-serif">Turning radius = 100 
+        ft</font></p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif">True dip/dip direction 
+        = 40/270</font></p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif">Bearing of alignment 
+        tangent to dip vector = North</font></p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif"> Friction angle of 
+        basal contact = 35&deg;</font></p>
+      </font>
+      <p><font face="Arial, Helvetica, sans-serif" size="2"><img src="images/5/5h_p690b.gif" width="164" height="223"></font></p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif">a. Using Markland's 
+        test (<a href="ssg_3c.html#3C.2">section 3C.2</a>) on an equatorial equal 
+        area stereo net, determine whether a plane failure is kinematically possible 
+        for the conditions of this problem.</font><br>
+      </p>
+      </td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td bgcolor="#CCCC99">
+<div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><img src="images/5/5h_p691a.gif" width="394" height="436"></font></div></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><font face="Arial, Helvetica, sans-serif" size="2">The dip vector falls 
+      within the critical zone ± 20° of dip direction of slope, so failure is 
+      possible.</font> <p><font size="2" face="Arial, Helvetica, sans-serif">b. 
+        Determine the approximate length of the failure zone along this road segment.</font></p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif">Turning radius = 100 
+        ft.</font></p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif">c = 2&pi;r</font></p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif">c &#8776; (2)(3.1416)(100 
+        ft)</font></p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif">c &#8776; 628 ft.</font></p>
+      <div align="left"><font face="Arial, Helvetica, sans-serif" size="2">Failure 
+        Length = <img src="images/5/5h_eq691a.gif" width="178" height="42"></font></div>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">It is common practice 
+        in engineering hand calculations to convert pounds to kips (kilo-pounds) 
+        in order to simplify the calculations. The following problems are in units 
+        of kips, unless noted.</font></p>
+      <font face="Arial, Helvetica, sans-serif" size="2">c. Using the equations 
+      from figures <a href="#Fig_5H.1">5H.1</a>, <a href="#Fig_5H.2">5H.2</a>, 
+      and <a href="#Fig_5H3">5H.3</a>, compute the factor of safety for the proposed 
+      cut slope (assume no tension crack, dry conditions, and no seismic acceleration 
+      or surcharge).</font> 
+      <p>&nbsp;</p>
+      </td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><img src="images/5/5h_eq692a.gif" width="471" height="435"></font></div></td>
+  </tr>
+</table>
+<table width="624" border="0">
+  <tr>
+    <td width="20%">&nbsp;</td>
+    <td width="80%"><font face="Arial, Helvetica, sans-serif" size="2">The ROCKPACK 
+      computer program gives the following:</font></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><div align="center">
+        <table width="89%" border="0" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF">
+          <tr> 
+            <td colspan="4"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">ROCKPACK</font></div></td>
+          </tr>
+          <tr> 
+            <td width="9%"><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+            <td width="4%"><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font></td>
+            <td width="28%"><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+            <td width="59%"><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+          </tr>
+          <tr> 
+            <td colspan="4"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">ROCKslope 
+                Stability Computerized Analysis PACKage</font></div></td>
+          </tr>
+          <tr> 
+            <td colspan="4"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">(c) 
+                C.F. WATTS, 1988</font></div></td>
+          </tr>
+          <tr> 
+            <td width="9%"><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font></td>
+            <td width="4%"><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font></td>
+            <td width="28%"><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font></td>
+            <td width="59%"><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font></td>
+          </tr>
+          <tr> 
+            <td colspan="4"><font size="2" face="Arial, Helvetica, sans-serif">Select 
+              one of the following:</font></td>
+          </tr>
+          <tr> 
+            <td width="9%"><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font></td>
+            <td width="4%"><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font></td>
+            <td width="28%"><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font></td>
+            <td width="59%"><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font></td>
+          </tr>
+          <tr> 
+            <td width="9%"><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font></td>
+            <td width="4%"><font size="2" face="Arial, Helvetica, sans-serif">A.</font></td>
+            <td width="28%"><font size="2" face="Arial, Helvetica, sans-serif">AFTRDAT</font></td>
+            <td width="59%"><font size="2" face="Arial, Helvetica, sans-serif">(Data 
+              Storage)</font></td>
+          </tr>
+          <tr> 
+            <td width="9%"><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font></td>
+            <td width="4%"><font size="2" face="Arial, Helvetica, sans-serif">B.</font></td>
+            <td width="28%"><font size="2" face="Arial, Helvetica, sans-serif">DISDAT</font></td>
+            <td width="59%"><font size="2" face="Arial, Helvetica, sans-serif">(Data 
+              display and rectangular plot)</font></td>
+          </tr>
+          <tr> 
+            <td width="9%"><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font></td>
+            <td width="4%"><font size="2" face="Arial, Helvetica, sans-serif">C.</font></td>
+            <td width="28%"><font size="2" face="Arial, Helvetica, sans-serif">EQNET</font></td>
+            <td width="59%"><font size="2" face="Arial, Helvetica, sans-serif">(Equal-area 
+              stereo net plot)</font></td>
+          </tr>
+          <tr> 
+            <td width="9%"><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font></td>
+            <td width="4%"><font size="2" face="Arial, Helvetica, sans-serif">D.</font></td>
+            <td width="28%"><font size="2" face="Arial, Helvetica, sans-serif">MARKLND</font></td>
+            <td width="59%"><font size="2" face="Arial, Helvetica, sans-serif">(Stereo 
+              net test for plane failure)</font></td>
+          </tr>
+          <tr> 
+            <td width="9%"><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font></td>
+            <td width="4%"><font size="2" face="Arial, Helvetica, sans-serif">E.</font></td>
+            <td width="28%"><font size="2" face="Arial, Helvetica, sans-serif">GRTCRCL</font></td>
+            <td width="59%"><font size="2" face="Arial, Helvetica, sans-serif">(Stereo 
+              net test for wedge failure)</font></td>
+          </tr>
+          <tr> 
+            <td width="9%"><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font></td>
+            <td width="4%"><font size="2" face="Arial, Helvetica, sans-serif">F.</font></td>
+            <td width="28%"><font size="2" face="Arial, Helvetica, sans-serif">RECTCON</font></td>
+            <td width="59%"><font size="2" face="Arial, Helvetica, sans-serif">(Contours 
+              rectangular orientation plot)</font></td>
+          </tr>
+          <tr> 
+            <td width="9%"><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font></td>
+            <td width="4%"><font size="2" face="Arial, Helvetica, sans-serif">G.</font></td>
+            <td width="28%"><font size="2" face="Arial, Helvetica, sans-serif">SNETCON</font></td>
+            <td width="59%"><font size="2" face="Arial, Helvetica, sans-serif">(Projects 
+              orientation contours to stereo net)</font></td>
+          </tr>
+          <tr> 
+            <td width="9%"><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font></td>
+            <td width="4%"><font size="2" face="Arial, Helvetica, sans-serif">H.</font></td>
+            <td width="28%"><font size="2" face="Arial, Helvetica, sans-serif">PLANE</font></td>
+            <td width="59%"><font size="2" face="Arial, Helvetica, sans-serif">(Wedge 
+              failure safety factor and artificial support)</font></td>
+          </tr>
+          <tr> 
+            <td width="9%"><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font></td>
+            <td width="4%"><font size="2" face="Arial, Helvetica, sans-serif">I.</font></td>
+            <td width="28%"><font size="2" face="Arial, Helvetica, sans-serif">RAPWEDG</font></td>
+            <td width="59%"><font size="2" face="Arial, Helvetica, sans-serif">(Wedge 
+              failure safety factor)</font></td>
+          </tr>
+          <tr> 
+            <td width="9%"><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font></td>
+            <td width="4%"><font size="2" face="Arial, Helvetica, sans-serif">J.</font></td>
+            <td width="28%"><font size="2" face="Arial, Helvetica, sans-serif">CMPWEDG</font></td>
+            <td width="59%"><font size="2" face="Arial, Helvetica, sans-serif">(Comprehensive 
+              wedge analysis &amp; artificial support)</font></td>
+          </tr>
+          <tr> 
+            <td width="9%"><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font></td>
+            <td width="4%"><font size="2" face="Arial, Helvetica, sans-serif">K. 
+              </font></td>
+            <td width="28%"><font size="2" face="Arial, Helvetica, sans-serif">TOPPLE</font></td>
+            <td width="59%"><font size="2" face="Arial, Helvetica, sans-serif">(NOT 
+              yet available)</font></td>
+          </tr>
+        </table>
+        <table width="89%" border="0" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF">
+          <tr> 
+            <td width="9%"><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+            <td width="58%"><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+            <td width="33%"><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+          </tr>
+          <tr> 
+            <td width="9%"><font face="Arial, Helvetica, sans-serif" size="2">===&gt;</font></td>
+            <td colspan="2"><font face="Arial, Helvetica, sans-serif" size="2">PLANE 
+              (Wedge failure safety factor and artificial support)</font></td>
+          </tr>
+          <tr> 
+            <td width="9%"><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+            <td width="58%"><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+            <td width="33%"><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+          </tr>
+          <tr> 
+            <td width="9%"><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+            <td width="58%"><font face="Arial, Helvetica, sans-serif" size="2">Height</font></td>
+            <td width="33%"><font face="Arial, Helvetica, sans-serif" size="2">100 
+              feet</font></td>
+          </tr>
+          <tr> 
+            <td width="9%"><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+            <td width="58%"><font face="Arial, Helvetica, sans-serif" size="2">Inclination 
+              of slope face</font></td>
+            <td width="33%"><font face="Arial, Helvetica, sans-serif" size="2">76 
+              degrees</font></td>
+          </tr>
+          <tr> 
+            <td width="9%"><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+            <td width="58%"><font face="Arial, Helvetica, sans-serif" size="2">Inclination 
+              of upper slope face</font></td>
+            <td width="33%"><font face="Arial, Helvetica, sans-serif" size="2">20 
+              degrees</font></td>
+          </tr>
+          <tr> 
+            <td width="9%"><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+            <td width="58%"><font face="Arial, Helvetica, sans-serif" size="2">Inclination 
+              of potential failure plane</font></td>
+            <td width="33%"><font face="Arial, Helvetica, sans-serif" size="2">40 
+              degrees</font></td>
+          </tr>
+          <tr> 
+            <td width="9%"><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+            <td width="58%"><font face="Arial, Helvetica, sans-serif" size="2">Horizontal 
+              acceleration due to blasting or earthquake</font></td>
+            <td width="33%"><font face="Arial, Helvetica, sans-serif" size="2">0 
+              g</font></td>
+          </tr>
+          <tr> 
+            <td width="9%"><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+            <td width="58%"><font face="Arial, Helvetica, sans-serif" size="2">Starting 
+              rock bolt angle</font></td>
+            <td width="33%"><font face="Arial, Helvetica, sans-serif" size="2">0</font></td>
+          </tr>
+          <tr> 
+            <td width="9%"><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+            <td width="58%"><font face="Arial, Helvetica, sans-serif" size="2">Ending 
+              rock bolt angle</font></td>
+            <td width="33%"><font face="Arial, Helvetica, sans-serif" size="2">0</font></td>
+          </tr>
+          <tr> 
+            <td width="9%"><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+            <td width="58%"><font face="Arial, Helvetica, sans-serif" size="2">Increment 
+              step for rock bolt angles</font></td>
+            <td width="33%"><font face="Arial, Helvetica, sans-serif" size="2">0</font></td>
+          </tr>
+          <tr> 
+            <td width="9%"><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+            <td width="58%"><font face="Arial, Helvetica, sans-serif" size="2">Starting 
+              bolt tension</font></td>
+            <td width="33%"><font face="Arial, Helvetica, sans-serif" size="2">0</font></td>
+          </tr>
+          <tr> 
+            <td width="9%"><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+            <td width="58%"><font face="Arial, Helvetica, sans-serif" size="2">Ending 
+              bolt tension</font></td>
+            <td width="33%"><font face="Arial, Helvetica, sans-serif" size="2">0</font></td>
+          </tr>
+          <tr> 
+            <td width="9%"><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+            <td width="58%"><font face="Arial, Helvetica, sans-serif" size="2">Tension 
+              increment step</font></td>
+            <td width="33%"><font face="Arial, Helvetica, sans-serif" size="2">0</font></td>
+          </tr>
+          <tr> 
+            <td width="9%"><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+            <td width="58%"><font face="Arial, Helvetica, sans-serif" size="2">Cohesive 
+              strength of failure surface</font></td>
+            <td width="33%"><font face="Arial, Helvetica, sans-serif" size="2">500 
+              psf</font></td>
+          </tr>
+          <tr> 
+            <td width="9%"><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+            <td width="58%"><font face="Arial, Helvetica, sans-serif" size="2">Friction 
+              angle of failure surface</font></td>
+            <td width="33%"><font face="Arial, Helvetica, sans-serif" size="2">35 
+              degrees</font></td>
+          </tr>
+          <tr> 
+            <td width="9%"><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+            <td width="58%"><font face="Arial, Helvetica, sans-serif" size="2">Density 
+              of rock</font></td>
+            <td width="33%"><font face="Arial, Helvetica, sans-serif" size="2">160 
+              pcf</font></td>
+          </tr>
+          <tr> 
+            <td width="9%"><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+            <td width="58%"><font face="Arial, Helvetica, sans-serif" size="2">Density 
+              of water</font></td>
+            <td width="33%"><font face="Arial, Helvetica, sans-serif" size="2">62.4 
+              pcf</font></td>
+          </tr>
+          <tr> 
+            <td width="9%"><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+            <td width="58%"><font face="Arial, Helvetica, sans-serif" size="2">Amount 
+              of the discontinuity saturated with water</font></td>
+            <td width="33%"><font face="Arial, Helvetica, sans-serif" size="2">0 
+              decimal %</font></td>
+          </tr>
+          <tr> 
+            <td width="9%"><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+            <td width="58%"><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+            <td width="33%"><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+          </tr>
+          <tr> 
+            <td width="9%"><font face="Arial, Helvetica, sans-serif" size="2">*X*</font></td>
+            <td width="58%"><font face="Arial, Helvetica, sans-serif" size="2">Horizontal 
+              distance from crest to failure plane</font></td>
+            <td width="33%"><font face="Arial, Helvetica, sans-serif" size="2">166.4365 
+              feet</font></td>
+          </tr>
+          <tr> 
+            <td width="9%"><font face="Arial, Helvetica, sans-serif" size="2">*l*</font></td>
+            <td width="58%"><font face="Arial, Helvetica, sans-serif" size="2">Contact 
+              area</font></td>
+            <td width="33%"><font face="Arial, Helvetica, sans-serif" size="2">249.8149 
+              feet</font></td>
+          </tr>
+          <tr> 
+            <td width="9%"><font face="Arial, Helvetica, sans-serif" size="2">*W*</font></td>
+            <td width="58%"><font face="Arial, Helvetica, sans-serif" size="2">Weight 
+              of slice</font></td>
+            <td width="33%"><font face="Arial, Helvetica, sans-serif" size="2">1210662 
+              pounds</font></td>
+          </tr>
+          <tr> 
+            <td width="9%"><font face="Arial, Helvetica, sans-serif" size="2">*FOS*</font></td>
+            <td width="58%"><font face="Arial, Helvetica, sans-serif" size="2">Factor 
+              of safety </font></td>
+            <td width="33%"><font face="Arial, Helvetica, sans-serif" size="2">.9950</font></td>
+          </tr>
+        </table>
+      </div></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><p><font face="Arial, Helvetica, sans-serif" size="2">d. If the slope 
+        is to be stabilized by artificial support, determine the increase in resisting 
+        forces necessary to increase the factor of safety to 1.50.</font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">&uarr;F<sub>RP</sub> 
+        = F<sub>D</sub>(FOS) - F<sub>R</sub> = (778 kips)(1.5) - (774 kips) = 
+        393 kips</font> </p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">where: </font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">&uarr;F<sub>RP</sub> 
+        = Increased passive resisting force, </font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">F<sub>D</sub> = Driving 
+        force,</font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2"> F<sub>R</sub> = Resisting 
+        force, </font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">FOS = Design factor 
+        of safety.</font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">This would be correct 
+        for <i>passive</i> support such as a buttress.</font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">e. If the artificial 
+        support is to be achieved through tensioned rock bolts, determine the 
+        optimum bolt angle from perpendicular to the failure plane as illustrated.</font></p></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td bgcolor="#CCCC99">
+<div align="center"><font size="2" face="Arial, Helvetica, sans-serif"><a href="images/5/5h_p694a.gif" target="_blank"><img src="images/5/5h_p694a.gif" width="266" height="389" border="1"></a></font></div></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><p><font face="Arial, Helvetica, sans-serif" size="2">The optimum angle 
+        from horizontal (&delta;<sub>H</sub>) for rock bolt installation to achieve 
+        the maximum increase in resisting forces (F<sub>R</sub>&uarr;) is reached 
+        when:</font></p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif">tan (&#952; + &delta;<sub>H</sub>) 
+        = tan &phi;</font></p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font><font size="2" face="Arial, Helvetica, sans-serif"><img src="images/deltahopt.gif" width="49" height="33"> 
+        = &phi; - &#952; .&nbsp;</font></p>
+      <font size="2" face="Arial, Helvetica, sans-serif">To convert &delta;<sub>H</sub> 
+      to the bolt angle measured from the perpendicular to the failure surface 
+      (&delta;<sub>P</sub>),</font> <div align="center"><font size="2" face="Arial, Helvetica, sans-serif"><img src="images/deltahopt.gif" width="49" height="33">= 
+        90° - (&#952; + &delta;<Sub>H</sub>) = 90° - &phi;</font></div>
+      <div align="center"> 
+        <p>&nbsp;</p>
+        <p><font size="2" face="Arial, Helvetica, sans-serif">&delta;<sub>H</sub> 
+          = 90° + (&delta;<sub>p</sub> - &#952; ).&nbsp;</font></p>
+      </div>
+      <font size="2" face="Arial, Helvetica, sans-serif">Determine the optimum 
+      bolt angle from the perpendicluar to the failure plane:</font> <p><font size="2" face="Arial, Helvetica, sans-serif">&phi; 
+        = 35°&nbsp;</font></p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif">&#952; = 40°&nbsp;</font></p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif">&delta;<sub>H</sub> 
+        = 35° - 40° = -5°&nbsp;</font></p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif"><img src="images/deltahopt.gif" width="49" height="33">= 
+        90° - 35° = 55°</font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">f. Determine the number 
+        of rock bolts with a working capacity of 35 kips that will be necessary 
+        to increase the factor of safety to 1.50 (see problem 5H.1.d, 393 kips 
+        of additional passive force was calculated).</font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">For <i>active</i> 
+        support, such as tensioned rock bolts or cables, forces are resolved for 
+        both driving, F<sub>D</sub>, and resisting, F<sub>R</sub>. If, for example, 
+        the 393 kips of additional resisting force needed in the <i>passive</i> 
+        state were solved by determining the number of 35-kips working-load tensioned 
+        bolts with &delta;<sub>P</sub> = 55°</font></p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif">(393 kips) / (35 kips/bolt) 
+        &#8776; 11 bolts per foot or 385 kips/ft.</font></p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif">Inserting this value 
+        for <i>T</i> into the factor of safety equation in (c), we get</font></p>
+      <table width="63%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td rowspan="2" width="17%"><font face="Times New Roman, Times, serif" size="3">FOS 
+            =</font></td>
+          <td width="83%"> <div align="center"><font face="Times New Roman, Times, serif" size="3"><u><i>CA 
+              </i>+ ( <i>W</i> cos <i>&#952; </i>+ <i>T</i> cos &delta;</u><sub>p</sub><u>) 
+              tan &phi;</u></font></div></td>
+        </tr>
+        <tr> 
+          <td width="83%"> <div align="center"><font face="Times New Roman, Times, serif" size="3"><i>&nbsp;W</i> 
+              sin <i>&#952; </i> - <i>T </i>sin &delta;<sub>p</sub></font></div></td>
+        </tr>
+      </table>
+      <BR> 
+      <table width="62%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td rowspan="2" width="7%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">=</font></div></td>
+          <td width="79%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><u>124.9 
+              + (927.3 + 385 cos 55</u>&deg;<u>) tan 35</u>&deg;</font></div></td>
+          <td rowspan="2" width="14%"><font face="Arial, Helvetica, sans-serif" size="2">= 
+            2.0</font></td>
+        </tr>
+        <tr> 
+          <td width="79%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">778.1 
+              - 385 sin 55&deg;</font></div></td>
+        </tr>
+      </table>
+      <p><font size="2" face="Arial, Helvetica, sans-serif">which results in an 
+        overdesigned support system (FOS = 2.0, not 1.5 as desired).</font></p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif">To determine the increase 
+        in resisting force necessary in the <i>active</i> state to reach an FOS 
+        of 1.50, solve for <i>T</i> = &uarr; F<sub>RA</sub> (increased active 
+        resisting force), where from (c) again,</font></p></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><table width="71%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td rowspan="2" width="14%"><font face="Times New Roman, Times, serif" size="3">FOS 
+            =</font></td>
+          <td width="86%"> <div align="center"><font face="Times New Roman, Times, serif" size="3"><u><i>CA 
+              </i>+ ( <i>W</i> cos <i>&#952; </i>tan &phi + <i>T</i> cos &delta; 
+              tan &phi;)</u></font></div></td>
+        </tr>
+        <tr> 
+          <td width="86%"> <div align="center"><font face="Times New Roman, Times, serif" size="3"><i>&nbsp;W</i> 
+              sin <i>&#952; </i> - <i>T </i>sin &delta;</font></div></td>
+        </tr>
+      </table>
+      <br> <table width="68%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td rowspan="2" width="7%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">=</font></div></td>
+          <td width="79%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><u>774 
+              + <i>T</i> cos 55</u>&deg;<u>) tan 35</u>&deg;</font></div></td>
+          <td rowspan="2" width="14%"><font face="Arial, Helvetica, sans-serif" size="2">= 
+            1.50.</font></td>
+        </tr>
+        <tr> 
+          <td width="79%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">778.1 
+              - <i>T</i> sin 55&deg;</font></div></td>
+        </tr>
+      </table>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">Solve for <i>T</i> 
+        where <i>T</i> = &uarr;F<sub>RA</sub>*</font></p>
+      <table width="53%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><u>393 
+              kips</u></font></div></td>
+          <td rowspan="2"><font face="Arial, Helvetica, sans-serif" size="2">= 
+            cos 55&deg; tan 35&deg + 1.50 sin 55&deg;</font></td>
+        </tr>
+        <tr> 
+          <td> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><i>T</i></font></div></td>
+        </tr>
+      </table>
+      <BR> <table width="75%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td rowspan="2"><i>T</i> =</td>
+          <td> <div align="center"><u>393 kips</u></div></td>
+          <td rowspan="2">= 241 kips.</td>
+        </tr>
+        <tr> 
+          <td> <div align="center">cos 55&deg; tan 35&deg; + 1.50 sin 55&deg;</div></td>
+        </tr>
+      </table>
+      <br> <table width="47%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td width="35%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><u>241 
+              kips</u></font></div></td>
+          <td rowspan="2" width="65%"> <div align="left"><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;&#8776; 
+              7 bolts per foot.</font></div></td>
+        </tr>
+        <tr> 
+          <td width="35%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">35 
+              kips/bolt</font></div></td>
+        </tr>
+      </table>
+      <BR> <table width="59%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td rowspan="2"> <div align="right"><font face="Times New Roman, Times, serif" size="3">&nbsp;&uarr;F<sub>RA 
+              =</sub></font></div></td>
+          <td> <div align="center"><font face="Times New Roman, Times, serif" size="3"><u>&nbsp;&uarr;F</u><sub>RP</sub></font></div></td>
+        </tr>
+        <tr> 
+          <td> <div align="center"><font face="Times New Roman, Times, serif" size="3">cos 
+              &delta;<sub>p</sub> tan &phi; + (FOS) sin &delta;<sub>p</sub></font></div></td>
+        </tr>
+      </table>
+      <BR> <table width="56%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td rowspan="2"><font face="Times New Roman, Times, serif" size="3">&uarr;F<sub>RA 
+            =</sub></font></td>
+          <td height="20"> <div align="center"><font face="Times New Roman, Times, serif" size="3"><u>F</u><sub>D</sub><u>(FOS) 
+              - &uarr; F</u><sub>R</sub></font></div></td>
+        </tr>
+        <tr> 
+          <td> <div align="center"><font face="Times New Roman, Times, serif" size="3">cos 
+              &delta;<sub>P</sub> tan &phi; + (FOS) sin &delta;<sub>P</sub></font></div></td>
+        </tr>
+      </table>
+      <p>&nbsp;</p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">Check: 7 bolts at 
+        35 kips at &delta;<sub>P</sub> = 55° " 241 kips/ft active force applied.</font> 
+      </p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">*Increased active 
+        resisting force</font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">From (c):</font></p>
+      <table width="83%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td rowspan="2" width="11%"> <div align="right"><font face="Arial, Helvetica, sans-serif" size="2">FOS 
+              = </font></div></td>
+          <td width="57%" height="17"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><u>(774 
+              kips) + (241 kips) cos 55</u>&deg;<u> tan 35</u>&deg; </font></div></td>
+          <td rowspan="2" width="6%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">=</font></div></td>
+          <td width="16%" height="17"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><u>870.8 
+              kips</u></font></div></td>
+          <td rowspan="2" width="10%"><font face="Arial, Helvetica, sans-serif" size="2">= 
+            1.5.</font></td>
+        </tr>
+        <tr> 
+          <td width="57%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;(778 
+              kips) - (241 kips) sin 55&deg;</font></div></td>
+          <td width="16%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">580.6 
+              kips</font></div></td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><table width="86%" border="1" cellpadding="1" align="center">
+        <tr> 
+          <td width="76%"><font size="2" face="Arial, Helvetica, sans-serif">Height</font></td>
+          <td width="24%"><font size="2" face="Arial, Helvetica, sans-serif">100 
+            feet</font></td>
+        </tr>
+        <tr> 
+          <td width="76%"><font size="2" face="Arial, Helvetica, sans-serif">Inclination 
+            of slope face</font></td>
+          <td width="24%"><font size="2" face="Arial, Helvetica, sans-serif">76°</font></td>
+        </tr>
+        <tr> 
+          <td width="76%"><font size="2" face="Arial, Helvetica, sans-serif">Inclination 
+            of upper slope face</font></td>
+          <td width="24%"><font size="2" face="Arial, Helvetica, sans-serif">20°</font></td>
+        </tr>
+        <tr> 
+          <td width="76%"><font size="2" face="Arial, Helvetica, sans-serif">Inclination 
+            of potential failure plane</font></td>
+          <td width="24%"><font size="2" face="Arial, Helvetica, sans-serif">20°</font></td>
+        </tr>
+        <tr> 
+          <td width="76%"><font size="2" face="Arial, Helvetica, sans-serif">Horizontal 
+            acceleration due to blasting or earthquake</font></td>
+          <td width="24%"><font size="2" face="Arial, Helvetica, sans-serif">0 
+            g</font></td>
+        </tr>
+        <tr> 
+          <td width="76%"><font size="2" face="Arial, Helvetica, sans-serif">Bolt 
+            tension</font></td>
+          <td width="24%"><font size="2" face="Arial, Helvetica, sans-serif">X&lt;== 
+            resolve</font></td>
+        </tr>
+        <tr> 
+          <td width="76%"><font size="2" face="Arial, Helvetica, sans-serif">Bolt 
+            angle </font></td>
+          <td width="24%"><font size="2" face="Arial, Helvetica, sans-serif">55°</font></td>
+        </tr>
+        <tr> 
+          <td width="76%"><font size="2" face="Arial, Helvetica, sans-serif">Cohesive 
+            strength of failure surface</font></td>
+          <td width="24%"><font size="2" face="Arial, Helvetica, sans-serif">500psf</font></td>
+        </tr>
+        <tr> 
+          <td width="76%"><font size="2" face="Arial, Helvetica, sans-serif">Friction 
+            angle of failure surface</font></td>
+          <td width="24%"><font size="2" face="Arial, Helvetica, sans-serif">35°</font></td>
+        </tr>
+        <tr> 
+          <td width="76%"><font size="2" face="Arial, Helvetica, sans-serif">Safety 
+            Factor</font></td>
+          <td width="24%"><font size="2" face="Arial, Helvetica, sans-serif">1.5</font></td>
+        </tr>
+        <tr> 
+          <td width="76%"><font size="2" face="Arial, Helvetica, sans-serif">Density 
+            of rock</font></td>
+          <td width="24%"><font size="2" face="Arial, Helvetica, sans-serif">160 
+            pcf</font></td>
+        </tr>
+        <tr> 
+          <td width="76%"><font size="2" face="Arial, Helvetica, sans-serif">Density 
+            of water</font></td>
+          <td width="24%"><font size="2" face="Arial, Helvetica, sans-serif">62.4 
+            pcf</font></td>
+        </tr>
+        <tr> 
+          <td width="76%"><font size="2" face="Arial, Helvetica, sans-serif">Amount 
+            of the discontinuity saturated with water </font></td>
+          <td width="24%"><font size="2" face="Arial, Helvetica, sans-serif">0%</font></td>
+        </tr>
+        <tr> 
+          <td width="76%"><font size="2" face="Arial, Helvetica, sans-serif">Additional 
+            vertical surcharge</font></td>
+          <td width="24%"><font size="2" face="Arial, Helvetica, sans-serif">0 
+            psf</font></td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><table width="87%" border="1" cellpadding="1" align="center">
+        <tr> 
+          <td width="72%"> <div align="center"><font size="2" face="Arial, Helvetica, sans-serif">BACKPACK</font></div></td>
+          <td width="28%">&nbsp;</td>
+        </tr>
+        <tr> 
+          <td width="72%" height="14"> <div align="center"><font size="2" face="Arial, Helvetica, sans-serif">Rockslope 
+              Stability BACK Analysis PACKage</font></div></td>
+          <td width="28%" height="14">&nbsp;</td>
+        </tr>
+        <tr> 
+          <td width="72%">&nbsp;</td>
+          <td width="28%">&nbsp;</td>
+        </tr>
+        <tr> 
+          <td width="72%"><font size="2" face="Arial, Helvetica, sans-serif">BACKONE 
+            (Back calculation from planar failure)</font></td>
+          <td width="28%">&nbsp;</td>
+        </tr>
+        <tr> 
+          <td width="72%">&nbsp;</td>
+          <td width="28%">&nbsp;</td>
+        </tr>
+        <tr> 
+          <td width="72%"><font size="2" face="Arial, Helvetica, sans-serif">No 
+            tension crack</font></td>
+          <td width="28%">&nbsp;</td>
+        </tr>
+        <tr> 
+          <td width="72%"><font size="2" face="Arial, Helvetica, sans-serif">Horizontal 
+            distance from crest to failure plane</font></td>
+          <td width="28%"><font size="2" face="Arial, Helvetica, sans-serif">166.4365 
+            feet</font></td>
+        </tr>
+        <tr> 
+          <td width="72%"><font size="2" face="Arial, Helvetica, sans-serif">Weight 
+            of slice</font></td>
+          <td width="28%"><font size="2" face="Arial, Helvetica, sans-serif">1210662 
+            pounds</font></td>
+        </tr>
+        <tr> 
+          <td width="72%"><font size="2" face="Arial, Helvetica, sans-serif">Water 
+            force normal to failure plane</font></td>
+          <td width="28%"><font size="2" face="Arial, Helvetica, sans-serif">0</font></td>
+        </tr>
+        <tr> 
+          <td width="72%"><font size="2" face="Arial, Helvetica, sans-serif">Contact 
+            area</font></td>
+          <td width="28%"><font size="2" face="Arial, Helvetica, sans-serif">249.8149 
+            square feet</font></td>
+        </tr>
+        <tr> 
+          <td width="72%"><font size="2" face="Arial, Helvetica, sans-serif">Bolt 
+            tension required</font></td>
+          <td width="28%"><font size="2" face="Arial, Helvetica, sans-serif">241054.3 
+            pounds</font></td>
+        </tr>
+        <tr> 
+          <td width="72%">&nbsp;</td>
+          <td width="28%">&nbsp;</td>
+        </tr>
+        <tr> 
+          <td width="72%"><font size="2" face="Arial, Helvetica, sans-serif">BOLTPAT 
+            (Rock anchor pattern design)</font></td>
+          <td width="28%">&nbsp;</td>
+        </tr>
+        <tr> 
+          <td width="72%">&nbsp;</td>
+          <td width="28%">&nbsp;</td>
+        </tr>
+        <tr> 
+          <td width="72%"><font size="2" face="Arial, Helvetica, sans-serif">Vertical 
+            height of slope face to contain bolts</font></td>
+          <td width="28%"><font size="2" face="Arial, Helvetica, sans-serif">100 
+            feet</font></td>
+        </tr>
+        <tr> 
+          <td width="72%"><font size="2" face="Arial, Helvetica, sans-serif">Overall 
+            angle of slope face to contain bolts</font></td>
+          <td width="28%"><font size="2" face="Arial, Helvetica, sans-serif">76°</font></td>
+        </tr>
+        <tr> 
+          <td width="72%"><font size="2" face="Arial, Helvetica, sans-serif">Dip 
+            angle of failure surface</font></td>
+          <td width="28%"><font size="2" face="Arial, Helvetica, sans-serif">40°</font></td>
+        </tr>
+        <tr> 
+          <td width="72%"><font size="2" face="Arial, Helvetica, sans-serif">Average 
+            height of benches (0 = no benches)</font></td>
+          <td width="28%"><font size="2" face="Arial, Helvetica, sans-serif">0</font></td>
+        </tr>
+        <tr> 
+          <td width="72%"><font size="2" face="Arial, Helvetica, sans-serif"> 
+            Horizontal length of slope to be supported</font></td>
+          <td width="28%"><font size="2" face="Arial, Helvetica, sans-serif">1 
+            foot</font></td>
+        </tr>
+        <tr> 
+          <td width="72%"><font size="2" face="Arial, Helvetica, sans-serif">* 
+            Anchor tension required per unit length of slope</font></td>
+          <td width="28%"><font size="2" face="Arial, Helvetica, sans-serif">241000 
+            ppf</font></td>
+        </tr>
+        <tr> 
+          <td width="72%" height="28"><font size="2" face="Arial, Helvetica, sans-serif">Installation 
+            angle</font></td>
+          <td width="28%" height="28"> <p><font size="2" face="Arial, Helvetica, sans-serif">-5°</font></p></td>
+        </tr>
+        <tr> 
+          <td width="72%"><font size="2" face="Arial, Helvetica, sans-serif">Design 
+            tension for each anchor</font></td>
+          <td width="28%"><font size="2" face="Arial, Helvetica, sans-serif">35000 
+            pounds</font></td>
+        </tr>
+        <tr> 
+          <td width="72%">&nbsp;</td>
+          <td width="28%">&nbsp;</td>
+        </tr>
+        <tr> 
+          <td width="72%"><font size="2" face="Arial, Helvetica, sans-serif">* 
+            Total number of anchors required</font></td>
+          <td width="28%"><font size="2" face="Arial, Helvetica, sans-serif">6.8857</font></td>
+        </tr>
+        <tr> 
+          <td width="72%"><font size="2" face="Arial, Helvetica, sans-serif">Total 
+            area of face</font></td>
+          <td width="28%"><font size="2" face="Arial, Helvetica, sans-serif">103.0614 
+            square feet</font></td>
+        </tr>
+        <tr> 
+          <td width="72%"><font size="2" face="Arial, Helvetica, sans-serif">Area 
+            of face served by each anchor</font></td>
+          <td width="28%"><font size="2" face="Arial, Helvetica, sans-serif">14.9674 
+            square feet</font></td>
+        </tr>
+        <tr> 
+          <td width="72%" height="24"><font size="2" face="Arial, Helvetica, sans-serif">Spacing 
+            of anchors down the slope</font></td>
+          <td width="28%" height="24"><font size="2" face="Arial, Helvetica, sans-serif">3.9639 
+            feet</font></td>
+        </tr>
+        <tr> 
+          <td width="72%" height="21"><font size="2" face="Arial, Helvetica, sans-serif">Spacing 
+            of anchors along the slope</font></td>
+          <td width="28%" height="21"> <p><font size="2" face="Arial, Helvetica, sans-serif">3.7759 
+              feet</font></p></td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><p><font size="2" face="Arial, Helvetica, sans-serif">g. Assume that during 
+        winter conditions, water can migrate along the basal contact with free 
+        drainage at the toe. Determine the factor of safety using the equations 
+        of figures 5H.2 and 5H.3.</font></p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif">Given h<sub>w</sub> 
+        = 70 ft and T = 241 kips (for ROCKPACK, enter h<sub>w</sub> as a decimal 
+        percentage of the height Y, or h<sub>w</sub>/Y = 70/160.5 =44%).</font></p></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><font size="2" face="Arial, Helvetica, sans-serif"><img src="images/5/5h_eq697a.gif" width="511" height="208"></font></td>
+  </tr>
+</table>
+<table width="624" border="0">
+  <tr> 
+    <td width="17%">&nbsp;</td>
+    <td width="83%"><font size="2" face="Arial, Helvetica, sans-serif">The ROCKPACK 
+      computer program gives:</font></td>
+  </tr>
+  <tr> 
+    <td>&nbsp;</td>
+    <td><table width="92%" border="1" cellpadding="1" align="center">
+        <tr> 
+          <td width="77%"><font face="Arial, Helvetica, sans-serif" size="2">==&gt; 
+            PLANE (Wedge failure safety factor and artificial support) </font></td>
+          <td width="23%">&nbsp;</td>
+        </tr>
+        <tr> 
+          <td width="77%">&nbsp;</td>
+          <td width="23%">&nbsp;</td>
+        </tr>
+        <tr> 
+          <td width="77%"><font face="Arial, Helvetica, sans-serif" size="2">Height</font></td>
+          <td width="23%"><font face="Arial, Helvetica, sans-serif" size="2">100 
+            feet</font></td>
+        </tr>
+        <tr> 
+          <td width="77%"><font face="Arial, Helvetica, sans-serif" size="2">Inclination 
+            of slope face</font></td>
+          <td width="23%"><font face="Arial, Helvetica, sans-serif" size="2">76°</font></td>
+        </tr>
+        <tr> 
+          <td width="77%"><font face="Arial, Helvetica, sans-serif" size="2">Inflination 
+            of upper slope face</font></td>
+          <td width="23%"><font face="Arial, Helvetica, sans-serif" size="2">20°</font></td>
+        </tr>
+        <tr> 
+          <td width="77%" height="20"><font face="Arial, Helvetica, sans-serif" size="2">Inclination 
+            of potential failure plane</font></td>
+          <td width="23%" height="20"> <p><font face="Arial, Helvetica, sans-serif" size="2">40°</font></p></td>
+        </tr>
+        <tr> 
+          <td width="77%"><font face="Arial, Helvetica, sans-serif" size="2">Horizontal 
+            acceleration due to blasting or earthquake</font></td>
+          <td width="23%"><font face="Arial, Helvetica, sans-serif" size="2">0 
+            g</font></td>
+        </tr>
+        <tr> 
+          <td width="77%"><font face="Arial, Helvetica, sans-serif" size="2">Starting 
+            rock bolt angle</font></td>
+          <td width="23%"><font face="Arial, Helvetica, sans-serif" size="2">55°</font></td>
+        </tr>
+        <tr> 
+          <td width="77%"><font face="Arial, Helvetica, sans-serif" size="2">Ending 
+            rock bolt angle</font></td>
+          <td width="23%"><font face="Arial, Helvetica, sans-serif" size="2">55°</font></td>
+        </tr>
+        <tr> 
+          <td width="77%"><font face="Arial, Helvetica, sans-serif" size="2">Increment 
+            step for rock bolt angles</font></td>
+          <td width="23%"><font face="Arial, Helvetica, sans-serif" size="2">10°</font></td>
+        </tr>
+        <tr> 
+          <td width="77%"><font face="Arial, Helvetica, sans-serif" size="2">Starting 
+            bolt tension</font></td>
+          <td width="23%"><font face="Arial, Helvetica, sans-serif" size="2">241000 
+            pounds</font></td>
+        </tr>
+        <tr> 
+          <td width="77%"><font face="Arial, Helvetica, sans-serif" size="2">Ending 
+            bolt tension </font></td>
+          <td width="23%"><font face="Arial, Helvetica, sans-serif" size="2">241000 
+            pounds</font></td>
+        </tr>
+        <tr> 
+          <td width="77%"><font face="Arial, Helvetica, sans-serif" size="2">Tension 
+            increment step</font></td>
+          <td width="23%"><font face="Arial, Helvetica, sans-serif" size="2">10000 
+            pounds</font></td>
+        </tr>
+        <tr> 
+          <td width="77%"><font face="Arial, Helvetica, sans-serif" size="2">Cohesive 
+            strength of failure surface</font></td>
+          <td width="23%"><font face="Arial, Helvetica, sans-serif" size="2">500 
+            psf</font></td>
+        </tr>
+        <tr> 
+          <td width="77%"><font face="Arial, Helvetica, sans-serif" size="2">Friction 
+            angle of failure surface</font></td>
+          <td width="23%"><font face="Arial, Helvetica, sans-serif" size="2">35°</font></td>
+        </tr>
+        <tr> 
+          <td width="77%"><font face="Arial, Helvetica, sans-serif" size="2">Density 
+            of Rock</font></td>
+          <td width="23%"><font face="Arial, Helvetica, sans-serif" size="2">160 
+            pcf</font></td>
+        </tr>
+        <tr> 
+          <td width="77%"><font face="Arial, Helvetica, sans-serif" size="2">Density 
+            of water</font></td>
+          <td width="23%"><font face="Arial, Helvetica, sans-serif" size="2">62.4 
+            pcf</font></td>
+        </tr>
+        <tr> 
+          <td width="77%"><font face="Arial, Helvetica, sans-serif" size="2">* 
+            Amount of the discontinuity saturated with water</font></td>
+          <td width="23%"><font face="Arial, Helvetica, sans-serif" size="2">0.44 
+            decimal %</font></td>
+        </tr>
+        <tr> 
+          <td width="77%">&nbsp;</td>
+          <td width="23%">&nbsp;</td>
+        </tr>
+        <tr> 
+          <td width="77%" height="18"><font face="Arial, Helvetica, sans-serif" size="2">Horizontal 
+            distance from crest to failure plane </font></td>
+          <td width="23%" height="18"><font face="Arial, Helvetica, sans-serif" size="2">166.4365 
+            feet</font></td>
+        </tr>
+        <tr> 
+          <td width="77%"><font face="Arial, Helvetica, sans-serif" size="2">* 
+            Contact area</font></td>
+          <td width="23%"><font face="Arial, Helvetica, sans-serif" size="2">249.8149</font></td>
+        </tr>
+        <tr> 
+          <td width="77%"><font face="Arial, Helvetica, sans-serif" size="2">* 
+            Weight of slice</font></td>
+          <td width="23%"><font face="Arial, Helvetica, sans-serif" size="2">1210662 
+            pounds</font></td>
+        </tr>
+        <tr> 
+          <td width="77%"><font face="Arial, Helvetica, sans-serif" size="2">* 
+            Water force normal to failure plane</font></td>
+          <td width="23%"><font face="Arial, Helvetica, sans-serif" size="2">121153 
+            pounds</font></td>
+        </tr>
+        <tr> 
+          <td width="77%"><font face="Arial, Helvetica, sans-serif" size="2">* 
+            Factor of safety </font></td>
+          <td width="23%"><font face="Arial, Helvetica, sans-serif" size="2">1.3538</font></td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr> 
+    <td>&nbsp;</td>
+    <td><p><font size="2" face="Arial, Helvetica, sans-serif">h. If freezing occurs 
+        at the toe and drainage is blocked, what would the factor of safety be?</font></p>
+      <table width="78%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td rowspan="2" width="7%"> <div align="right"><font face="Arial, Helvetica, sans-serif" size="2">U 
+              = </font></div></td>
+          <td width="23%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;<u>&gamma;</u><sub>w</sub><u>h</u><sub>w</sub><u>l</u><sub>w</sub></font></div></td>
+          <td rowspan="2" width="4%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">=</font></div></td>
+          <td width="42%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><u>(62.4 
+              lb/ft<sup>3</sup>)(70 ft)(108.9 ft)(1 ft)</u></font></div></td>
+          <td rowspan="2" width="24%"><font face="Arial, Helvetica, sans-serif" size="2">= 
+            237.8 kips</font></td>
+        </tr>
+        <tr> 
+          <td width="23%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">2</font></div></td>
+          <td width="42%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">2</font></div></td>
+        </tr>
+      </table>
+      <BR> 
+      <table width="93%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td width="8%" rowspan="2"> <div align="right"><font face="Arial, Helvetica, sans-serif" size="2">FOS 
+              =</font></div></td>
+          <td width="65%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><u>(124.9 
+              kips) + (927.3 kips - 237.8 kips + 138.2 kips) tan 35</u>&deg;</font></div></td>
+          <td rowspan="2" width="4%"> <div align="center"><font size="2" face="Arial, Helvetica, sans-serif">=</font></div></td>
+          <td width="12%"> <div align="center"><font size="2" face="Arial, Helvetica, sans-serif"><u>704.5 
+              kips</u></font></div></td>
+          <td rowspan="2" width="11%"><font size="2" face="Arial, Helvetica, sans-serif">= 
+            1.21.</font></td>
+        </tr>
+        <tr> 
+          <td width="65%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">580.7 
+              kips</font></div></td>
+          <td width="12%"> <div align="center"><font size="2" face="Arial, Helvetica, sans-serif">580.7 
+              kips</font></div></td>
+        </tr>
+      </table>
+      <BR> <p><font size="2" face="Arial, Helvetica, sans-serif">i. Assume a magnitude 
+        7.0 earthquake load with a peak acceleration of 0.15 g and compute the 
+        factor of safety.</font></p>
+      <table width="96%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td width="8%" rowspan="2"> <div align="right"><font face="Arial, Helvetica, sans-serif" size="2">FOS 
+              =</font></div></td>
+          <td width="69%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><u>124.9 
+              + [1210.5 (cos 40</u>&deg;<u>- 0.15 sin 40</u>&deg;<u>) - 237.8 
+              + 138.2 tan 35</u>&deg;</font></div></td>
+          <td rowspan="2" width="2%"> <div align="center"><font size="2" face="Arial, Helvetica, sans-serif">=</font></div></td>
+          <td width="12%"> <div align="center"><font size="2" face="Arial, Helvetica, sans-serif"><u>622.7 
+              kips</u></font></div></td>
+          <td rowspan="2" width="9%"><font size="2" face="Arial, Helvetica, sans-serif">= 
+            0.87.</font></td>
+        </tr>
+        <tr> 
+          <td width="69%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">1210.5 
+              (sin&deg; + 0.15 cos 40&deg;) - 197.4 </font></div></td>
+          <td width="12%"> <div align="center"><font size="2" face="Arial, Helvetica, sans-serif">719.8 
+              kips</font></div></td>
+        </tr>
+      </table>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">j. If a tension crack 
+        develops 40 feet from the top of the cut (as illustrated under (e)), calculate 
+        the factor of safety for dry slope conditions using the equations from 
+        figures 5H.4 and 5H.2.</font> </p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">Y <sub>C</sub> h<sub>w</sub> 
+        + X<sub>C</sub> tan &#945; = (100 ft) + (40 ft) tan 20° = 114.6 ft&nbsp;</font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">Z = (X-X<sub>C</sub>)(tan 
+        &#952; - tan &#945; ) = (166.4 ft - 40 ft)(tan 40° - tan 20°) = 60.1 ft&nbsp;</font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">Z<sub>W</sub> = Z 
+        - (Y<sub>C</sub> - h<sub>W</sub>) = (60.1 ft) - (114.6 ft - 100 ft) = 
+        45.5 ft&nbsp;</font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2"><img src="images/5/5h_eq699a.gif" width="346" height="175"></font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">b = a sin(&#952; - 
+        &#945; ) = (134.5 ft)sin(40° - 20°) = 46.0 ft.&nbsp;</font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2"><img src="images/5/5h_eq699b.gif" width="489" height="112"></font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">= 603.7 kips</font></p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif"><img src="images/5/5h_eq699c.gif" width="428" height="164"></font></p></td>
+  </tr>
+  <tr> 
+    <td>&nbsp;</td>
+    <td><font size="2" face="Arial, Helvetica, sans-serif">ROCKPACK's results 
+      are: </font></td>
+  </tr>
+  <tr> 
+    <td>&nbsp;</td>
+    <td><table width="82%" border="1" cellpadding="1" align="center">
+        <tr> 
+          <td width="66%"><font size="2" face="Arial, Helvetica, sans-serif">==&gt; 
+            PLANE (Wedge failure safety factor and artificial support) </font></td>
+          <td width="34%"><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="66%"><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font></td>
+          <td width="34%"><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="66%"><font size="2" face="Arial, Helvetica, sans-serif">Height</font></td>
+          <td width="34%"><font size="2" face="Arial, Helvetica, sans-serif">100 
+            feet</font></td>
+        </tr>
+        <tr> 
+          <td width="66%"><font size="2" face="Arial, Helvetica, sans-serif">Inclination 
+            of slope face</font></td>
+          <td width="34%"><font size="2" face="Arial, Helvetica, sans-serif">76 
+            degrees</font></td>
+        </tr>
+        <tr> 
+          <td width="66%"><font size="2" face="Arial, Helvetica, sans-serif">Inclination 
+            of upper slope face</font></td>
+          <td width="34%"><font size="2" face="Arial, Helvetica, sans-serif">20 
+            degrees</font></td>
+        </tr>
+        <tr> 
+          <td width="66%"><font size="2" face="Arial, Helvetica, sans-serif">Inclination 
+            of potential failure plane</font></td>
+          <td width="34%"><font size="2" face="Arial, Helvetica, sans-serif">40 
+            degrees</font></td>
+        </tr>
+        <tr> 
+          <td width="66%"><font size="2" face="Arial, Helvetica, sans-serif">Horizontal 
+            acceleration due to blasting or earthquake</font></td>
+          <td width="34%"><font size="2" face="Arial, Helvetica, sans-serif">0 
+            g</font></td>
+        </tr>
+        <tr> 
+          <td width="66%"><font size="2" face="Arial, Helvetica, sans-serif">Starting 
+            rock bolt angle</font></td>
+          <td width="34%"><font size="2" face="Arial, Helvetica, sans-serif">0</font></td>
+        </tr>
+        <tr> 
+          <td width="66%"><font size="2" face="Arial, Helvetica, sans-serif">Ending 
+            rock bolt angle</font></td>
+          <td width="34%"><font size="2" face="Arial, Helvetica, sans-serif">0</font></td>
+        </tr>
+        <tr> 
+          <td width="66%"><font size="2" face="Arial, Helvetica, sans-serif">Increment 
+            step for rock bolt angles</font></td>
+          <td width="34%"><font size="2" face="Arial, Helvetica, sans-serif">0 
+            </font></td>
+        </tr>
+        <tr> 
+          <td width="66%"><font size="2" face="Arial, Helvetica, sans-serif">Starting 
+            bolt tension</font></td>
+          <td width="34%"><font size="2" face="Arial, Helvetica, sans-serif">0</font></td>
+        </tr>
+        <tr> 
+          <td width="66%"><font size="2" face="Arial, Helvetica, sans-serif">Ending 
+            bolt tension </font></td>
+          <td width="34%"><font size="2" face="Arial, Helvetica, sans-serif">0</font></td>
+        </tr>
+        <tr> 
+          <td width="66%"><font size="2" face="Arial, Helvetica, sans-serif">Tension 
+            increment step</font></td>
+          <td width="34%"><font size="2" face="Arial, Helvetica, sans-serif">0</font></td>
+        </tr>
+        <tr> 
+          <td width="66%"><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font></td>
+          <td width="34%"><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="66%"><font size="2" face="Arial, Helvetica, sans-serif">Cohesive 
+            strength of failure surface</font></td>
+          <td width="34%"><font size="2" face="Arial, Helvetica, sans-serif">500 
+            psf</font></td>
+        </tr>
+        <tr> 
+          <td width="66%"><font size="2" face="Arial, Helvetica, sans-serif">Friction 
+            angle of failure surface</font></td>
+          <td width="34%"><font size="2" face="Arial, Helvetica, sans-serif">35 
+            degrees</font></td>
+        </tr>
+        <tr> 
+          <td width="66%"><font size="2" face="Arial, Helvetica, sans-serif">Density 
+            of rock</font></td>
+          <td width="34%"><font size="2" face="Arial, Helvetica, sans-serif">160 
+            pcf</font></td>
+        </tr>
+        <tr> 
+          <td width="66%"><font size="2" face="Arial, Helvetica, sans-serif">Density 
+            of water</font></td>
+          <td width="34%"><font size="2" face="Arial, Helvetica, sans-serif">62.4 
+            pcf</font></td>
+        </tr>
+        <tr> 
+          <td width="66%"><font size="2" face="Arial, Helvetica, sans-serif">Amount 
+            of the discontinuity saturated with water</font></td>
+          <td width="34%"><font size="2" face="Arial, Helvetica, sans-serif">0 
+            decimal %</font></td>
+        </tr>
+        <tr> 
+          <td width="66%"><font size="2" face="Arial, Helvetica, sans-serif">* 
+            Horizontal distance from tension crack to crest</font></td>
+          <td width="34%"><font size="2" face="Arial, Helvetica, sans-serif">40 
+            feet</font></td>
+        </tr>
+        <tr> 
+          <td width="66%"><font size="2" face="Arial, Helvetica, sans-serif">Relative 
+            height of water in tension crack</font></td>
+          <td width="34%"><font size="2" face="Arial, Helvetica, sans-serif">0 
+            decimal %</font></td>
+        </tr>
+        <tr> 
+          <td width="66%"><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font></td>
+          <td width="34%"><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="66%"><font size="2" face="Arial, Helvetica, sans-serif">*Z* 
+            Tension crack depth</font></td>
+          <td width="34%"><font size="2" face="Arial, Helvetica, sans-serif">60.0737 
+            feet</font></td>
+        </tr>
+        <tr> 
+          <td width="66%"><font size="2" face="Arial, Helvetica, sans-serif">*W* 
+            Weight of slice</font></td>
+          <td width="34%"><font size="2" face="Arial, Helvetica, sans-serif">603021 
+            pounds</font></td>
+        </tr>
+        <tr> 
+          <td width="66%"><font size="2" face="Arial, Helvetica, sans-serif">*LC* 
+            Contact area</font></td>
+          <td width="34%"><font size="2" face="Arial, Helvetica, sans-serif">84.7638 
+            feet</font></td>
+        </tr>
+        <tr> 
+          <td width="66%"><font size="2" face="Arial, Helvetica, sans-serif">*FOS* 
+            Factor of safety</font></td>
+          <td width="34%"><font size="2" face="Arial, Helvetica, sans-serif">.9438</font></td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr> 
+    <td>&nbsp;</td>
+    <td><p><font size="2" face="Arial, Helvetica, sans-serif">k. If the same artificial 
+        support from tensioned rock bolts were added to the conditions of (j), 
+        as was calculated in (f) as required for a factor of safety of 1.50 for 
+        the slope without a tension crack, what would be the increase in factor 
+        of safety? Add 241 kips of artificial support at &delta; = 55°</font></p>
+      <table width="99%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td rowspan="2"><font face="Arial, Helvetica, sans-serif" size="2">FOS 
+            = </font></td>
+          <td> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">.<u>5 
+              kips/ft</u><sup>3</sup><u>)(84.8 ft)(1 ft) + (462.5 kips + (241 
+              kips) cos 55</u>°<u>) tan 35</u>°</font></div></td>
+          <td rowspan="2"><font face="Arial, Helvetica, sans-serif" size="2">=</font></td>
+          <td><u><font face="Arial, Helvetica, sans-serif" size="2">463.0 kips</font></u></td>
+          <td rowspan="2"><font face="Arial, Helvetica, sans-serif" size="2">= 
+            2.43.</font></td>
+        </tr>
+        <tr> 
+          <td> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">388.1 
+              kips - (241 kips) sin 55°</font></div></td>
+          <td><font face="Arial, Helvetica, sans-serif" size="2">190.7 kips</font></td>
+        </tr>
+      </table>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">ROCKPACK's results 
+        are: </font></p></td>
+  </tr>
+  <tr> 
+    <td>&nbsp;</td>
+    <td><table width="73%" border="1" cellpadding="1" align="center">
+        <tr> 
+          <td width="78%"><font face="Arial, Helvetica, sans-serif" size="2">==&gt; 
+            PLANE (Wedge failure safety factor and artificial support) </font></td>
+          <td width="22%">&nbsp;</td>
+        </tr>
+        <tr> 
+          <td width="78%">&nbsp;</td>
+          <td width="22%">&nbsp;</td>
+        </tr>
+        <tr> 
+          <td width="78%"><font face="Arial, Helvetica, sans-serif" size="2">Height</font></td>
+          <td width="22%"><font face="Arial, Helvetica, sans-serif" size="2">100 
+            feet</font></td>
+        </tr>
+        <tr> 
+          <td width="78%"><font face="Arial, Helvetica, sans-serif" size="2">Inclination 
+            of slope face</font></td>
+          <td width="22%"><font face="Arial, Helvetica, sans-serif" size="2">76 
+            degrees</font></td>
+        </tr>
+        <tr> 
+          <td width="78%"><font face="Arial, Helvetica, sans-serif" size="2">Inclination 
+            of upper slope face</font></td>
+          <td width="22%"><font face="Arial, Helvetica, sans-serif" size="2">20 
+            degrees</font></td>
+        </tr>
+        <tr> 
+          <td width="78%"><font face="Arial, Helvetica, sans-serif" size="2">Inclination 
+            of potential failure plane</font></td>
+          <td width="22%"><font face="Arial, Helvetica, sans-serif" size="2">40 
+            degrees</font></td>
+        </tr>
+        <tr> 
+          <td width="78%"><font face="Arial, Helvetica, sans-serif" size="2">Horizontal 
+            acceleration due to blasting or earthquake</font></td>
+          <td width="22%"><font face="Arial, Helvetica, sans-serif" size="2">0 
+            g</font></td>
+        </tr>
+        <tr> 
+          <td width="78%"><font face="Arial, Helvetica, sans-serif" size="2">Starting 
+            rock bolt angle</font></td>
+          <td width="22%"><font face="Arial, Helvetica, sans-serif" size="2">55 
+            degrees</font></td>
+        </tr>
+        <tr> 
+          <td width="78%"><font face="Arial, Helvetica, sans-serif" size="2">Ending 
+            rock bolt angle</font></td>
+          <td width="22%"><font face="Arial, Helvetica, sans-serif" size="2">55 
+            degrees</font></td>
+        </tr>
+        <tr> 
+          <td width="78%"><font face="Arial, Helvetica, sans-serif" size="2">Increment 
+            step for rock bolt angles</font></td>
+          <td width="22%"><font face="Arial, Helvetica, sans-serif" size="2">0</font></td>
+        </tr>
+        <tr> 
+          <td width="78%"><font face="Arial, Helvetica, sans-serif" size="2">Starting 
+            bolt tension </font></td>
+          <td width="22%"><font face="Arial, Helvetica, sans-serif" size="2">241000 
+            pounds</font></td>
+        </tr>
+        <tr> 
+          <td width="78%"><font face="Arial, Helvetica, sans-serif" size="2">Ending 
+            bolt tension</font></td>
+          <td width="22%"><font face="Arial, Helvetica, sans-serif" size="2">241000 
+            pounds</font></td>
+        </tr>
+        <tr> 
+          <td width="78%"><font face="Arial, Helvetica, sans-serif" size="2">Tension 
+            increment step</font></td>
+          <td width="22%"><font face="Arial, Helvetica, sans-serif" size="2">0</font></td>
+        </tr>
+        <tr> 
+          <td width="78%"><font face="Arial, Helvetica, sans-serif" size="2">Cohesive 
+            strength of failure surface</font></td>
+          <td width="22%"><font face="Arial, Helvetica, sans-serif" size="2">500 
+            psf</font></td>
+        </tr>
+        <tr> 
+          <td width="78%"><font face="Arial, Helvetica, sans-serif" size="2">Friction 
+            angle of failure surface</font></td>
+          <td width="22%"><font face="Arial, Helvetica, sans-serif" size="2">35 
+            degrees</font></td>
+        </tr>
+        <tr> 
+          <td width="78%"><font face="Arial, Helvetica, sans-serif" size="2">Density 
+            of rock</font></td>
+          <td width="22%"><font face="Arial, Helvetica, sans-serif" size="2">160 
+            pcf</font></td>
+        </tr>
+        <tr> 
+          <td width="78%"><font face="Arial, Helvetica, sans-serif" size="2">Density 
+            of water</font></td>
+          <td width="22%"><font face="Arial, Helvetica, sans-serif" size="2">62.4 
+            pcf</font></td>
+        </tr>
+        <tr> 
+          <td width="78%"><font face="Arial, Helvetica, sans-serif" size="2">Amount 
+            of the discontinuity saturated with water</font></td>
+          <td width="22%"><font face="Arial, Helvetica, sans-serif" size="2">0 
+            decimal %</font></td>
+        </tr>
+        <tr> 
+          <td width="78%"><font face="Arial, Helvetica, sans-serif" size="2">* 
+            Horizontal distance from tension crack to crest</font></td>
+          <td width="22%"><font face="Arial, Helvetica, sans-serif" size="2">40 
+            feet</font></td>
+        </tr>
+        <tr> 
+          <td width="78%"><font face="Arial, Helvetica, sans-serif" size="2">Relative 
+            height of water in tension crack</font></td>
+          <td width="22%"><font face="Arial, Helvetica, sans-serif" size="2">0 
+            decimal %</font></td>
+        </tr>
+        <tr> 
+          <td width="78%">&nbsp;</td>
+          <td width="22%">&nbsp;</td>
+        </tr>
+        <tr> 
+          <td width="78%" height="24"><font face="Arial, Helvetica, sans-serif" size="2">Tension 
+            crack depth</font></td>
+          <td width="22%" height="24"><font face="Arial, Helvetica, sans-serif" size="2">60.0737 
+            feet</font></td>
+        </tr>
+        <tr> 
+          <td width="78%"><font face="Arial, Helvetica, sans-serif" size="2">Weight 
+            of slice</font></td>
+          <td width="22%"><font face="Arial, Helvetica, sans-serif" size="2">603021 
+            pounds</font></td>
+        </tr>
+        <tr> 
+          <td width="78%"><font face="Arial, Helvetica, sans-serif" size="2">Contact 
+            area</font></td>
+          <td width="22%"><font face="Arial, Helvetica, sans-serif" size="2">84.7638 
+            feet</font></td>
+        </tr>
+        <tr> 
+          <td width="78%"><font face="Arial, Helvetica, sans-serif" size="2">* 
+            Bolt angle</font></td>
+          <td width="22%"><font face="Arial, Helvetica, sans-serif" size="2">55 
+            degrees</font></td>
+        </tr>
+        <tr> 
+          <td width="78%"><font face="Arial, Helvetica, sans-serif" size="2">* 
+            Tension</font></td>
+          <td width="22%"><font face="Arial, Helvetica, sans-serif" size="2">241000 
+            pounds</font></td>
+        </tr>
+        <tr> 
+          <td width="78%">&nbsp;</td>
+          <td width="22%">&nbsp;</td>
+        </tr>
+        <tr> 
+          <td width="78%"><font face="Arial, Helvetica, sans-serif" size="2">*FOS 
+            Factor of safety</font></td>
+          <td width="22%"><font face="Arial, Helvetica, sans-serif" size="2">2.4323</font></td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr> 
+    <td>&nbsp;</td>
+    <td><font face="Arial, Helvetica, sans-serif" size="2">l. Using the supported 
+      slope conditions of (k), what would the factor of safety be under the various 
+      potential hydrostatic ground water conditions from figures <a href="#Fig_5H.5">5H.5</a> 
+      and <a href="#Fig_5H.6">5H.6</a>?</font> <p><font face="Arial, Helvetica, sans-serif" size="2"><b>Tension 
+        crack, water force only</b></font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2"><img src="images/5/5h_eq701a.gif" width="534" height="109"></font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2"><b>Tension crack and 
+        base water (hydraulically connected), base water force at tension crack 
+        maximum</b></font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">V = 64.6 kips</font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2"><BR>
+        <img src="images/5/5h_eq701c.gif" width="132" height="46"></font></p></td>
+  </tr>
+  <tr> 
+    <td>&nbsp;</td>
+    <td><font face="Arial, Helvetica, sans-serif" size="2">ROCKPACK gives the 
+      same results:</font></td>
+  </tr>
+  <tr> 
+    <td>&nbsp;</td>
+    <td><table width="91%" border="1" cellpadding="1" align="center">
+        <tr> 
+          <td width="77%"><font face="Arial, Helvetica, sans-serif" size="2">Height</font></td>
+          <td width="20%"><font face="Arial, Helvetica, sans-serif" size="2">100 
+            feet</font></td>
+        </tr>
+        <tr> 
+          <td width="77%"><font face="Arial, Helvetica, sans-serif" size="2">Inclination 
+            of slope face</font></td>
+          <td width="20%"><font face="Arial, Helvetica, sans-serif" size="2">76 
+            degrees</font></td>
+        </tr>
+        <tr> 
+          <td width="77%"><font face="Arial, Helvetica, sans-serif" size="2">Inclination 
+            of upper slope face</font></td>
+          <td width="20%"><font face="Arial, Helvetica, sans-serif" size="2">20 
+            degrees</font></td>
+        </tr>
+        <tr> 
+          <td width="77%"><font face="Arial, Helvetica, sans-serif" size="2">Inclination 
+            of potential failure plane</font></td>
+          <td width="20%"><font face="Arial, Helvetica, sans-serif" size="2">40 
+            degrees</font></td>
+        </tr>
+        <tr> 
+          <td width="77%"><font face="Arial, Helvetica, sans-serif" size="2">Horizontal 
+            acceleration due to blasting or earthquake</font></td>
+          <td width="20%"><font face="Arial, Helvetica, sans-serif" size="2">0 
+            g</font></td>
+        </tr>
+        <tr> 
+          <td width="77%"><font face="Arial, Helvetica, sans-serif" size="2">Starting 
+            rock bolt angle</font></td>
+          <td width="20%"><font face="Arial, Helvetica, sans-serif" size="2">55 
+            degrees</font></td>
+        </tr>
+        <tr> 
+          <td width="77%"><font face="Arial, Helvetica, sans-serif" size="2">Ending 
+            rock bolt angle</font></td>
+          <td width="20%"><font face="Arial, Helvetica, sans-serif" size="2">55 
+            degrees</font></td>
+        </tr>
+        <tr> 
+          <td width="77%"><font face="Arial, Helvetica, sans-serif" size="2">Increment 
+            step for rock bolt angles</font></td>
+          <td width="20%"><font face="Arial, Helvetica, sans-serif" size="2">0</font></td>
+        </tr>
+        <tr> 
+          <td width="77%"><font face="Arial, Helvetica, sans-serif" size="2">Starting 
+            bolt tension </font></td>
+          <td width="20%"><font face="Arial, Helvetica, sans-serif" size="2">241000 
+            pounds</font></td>
+        </tr>
+        <tr> 
+          <td width="77%"><font face="Arial, Helvetica, sans-serif" size="2">Ending 
+            bolt tension</font></td>
+          <td width="20%"><font face="Arial, Helvetica, sans-serif" size="2">241000 
+            pounds</font></td>
+        </tr>
+        <tr> 
+          <td width="77%"><font face="Arial, Helvetica, sans-serif" size="2">Tension 
+            increment step</font></td>
+          <td width="20%"><font face="Arial, Helvetica, sans-serif" size="2">0</font></td>
+        </tr>
+        <tr> 
+          <td width="77%"><font face="Arial, Helvetica, sans-serif" size="2">Cohesive 
+            strength of failure surface</font></td>
+          <td width="20%"><font face="Arial, Helvetica, sans-serif" size="2">500 
+            psf</font></td>
+        </tr>
+        <tr> 
+          <td width="77%"><font face="Arial, Helvetica, sans-serif" size="2">Friction 
+            angle of failure surface</font></td>
+          <td width="20%"><font face="Arial, Helvetica, sans-serif" size="2">35 
+            degrees</font></td>
+        </tr>
+        <tr> 
+          <td width="77%"><font face="Arial, Helvetica, sans-serif" size="2">Density 
+            of rock</font></td>
+          <td width="20%"><font face="Arial, Helvetica, sans-serif" size="2">160 
+            pcf</font></td>
+        </tr>
+        <tr> 
+          <td width="77%"><font face="Arial, Helvetica, sans-serif" size="2">Density 
+            of water</font></td>
+          <td width="20%"><font face="Arial, Helvetica, sans-serif" size="2">62.4 
+            pcf</font></td>
+        </tr>
+        <tr> 
+          <td width="77%"><font face="Arial, Helvetica, sans-serif" size="2">Amount 
+            of the discontinuity saturated with water</font></td>
+          <td width="20%"><font face="Arial, Helvetica, sans-serif" size="2">1 
+            decimal %</font></td>
+        </tr>
+        <tr> 
+          <td width="77%"><font face="Arial, Helvetica, sans-serif" size="2"> 
+            Horizontal distance from tension crack to crest</font></td>
+          <td width="20%"><font face="Arial, Helvetica, sans-serif" size="2">40 
+            feet</font></td>
+        </tr>
+        <tr> 
+          <td width="77%"><font face="Arial, Helvetica, sans-serif" size="2">Relative 
+            height of water in tension crack</font></td>
+          <td width="20%"><font face="Arial, Helvetica, sans-serif" size="2">.0757 
+            decimal %</font></td>
+        </tr>
+        <tr> 
+          <td width="77%">&nbsp;</td>
+          <td width="23%">&nbsp;</td>
+        </tr>
+        <tr> 
+          <td width="77%"><font face="Arial, Helvetica, sans-serif" size="2">Tension 
+            crack depth</font></td>
+          <td width="23%"><font face="Arial, Helvetica, sans-serif" size="2">60.0737 
+            feet</font></td>
+        </tr>
+        <tr> 
+          <td width="77%"><font face="Arial, Helvetica, sans-serif" size="2">Depth 
+            of water in crack</font></td>
+          <td width="23%"><font face="Arial, Helvetica, sans-serif" size="2">45.4758 
+            feet</font></td>
+        </tr>
+        <tr> 
+          <td width="77%"><font face="Arial, Helvetica, sans-serif" size="2">Weight 
+            of slice</font></td>
+          <td width="23%"><font face="Arial, Helvetica, sans-serif" size="2">603021 
+            pounds</font></td>
+        </tr>
+        <tr> 
+          <td width="77%"><font face="Arial, Helvetica, sans-serif" size="2">Contact 
+            area</font></td>
+          <td width="23%"><font face="Arial, Helvetica, sans-serif" size="2">84.7638 
+            feet</font></td>
+        </tr>
+        <tr> 
+          <td width="77%"><font face="Arial, Helvetica, sans-serif" size="2">Water 
+            force normal to failure plane</font></td>
+          <td width="23%"><font face="Arial, Helvetica, sans-serif" size="2">1020266.6 
+            pounds</font></td>
+        </tr>
+        <tr> 
+          <td width="77%"><font face="Arial, Helvetica, sans-serif" size="2">Horizontal 
+            water force on tension crack</font></td>
+          <td width="23%"><font face="Arial, Helvetica, sans-serif" size="2">64523.11 
+            pounds</font></td>
+        </tr>
+        <tr> 
+          <td width="77%"><font face="Arial, Helvetica, sans-serif" size="2">Bolt 
+            angle</font></td>
+          <td width="23%"><font face="Arial, Helvetica, sans-serif" size="2">55 
+            degrees</font></td>
+        </tr>
+        <tr> 
+          <td width="77%"><font face="Arial, Helvetica, sans-serif" size="2">Tension</font></td>
+          <td width="23%"><font face="Arial, Helvetica, sans-serif" size="2">241000 
+            pounds</font></td>
+        </tr>
+        <tr> 
+          <td width="77%"><font face="Arial, Helvetica, sans-serif" size="2">*FOS* 
+            Factor of safety </font></td>
+          <td width="23%"><font face="Arial, Helvetica, sans-serif" size="2">1.4580</font></td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr> 
+    <td>&nbsp;</td>
+    <td><p><font face="Arial, Helvetica, sans-serif" size="2"><b>Tension crack 
+        water and hydrostatic base water force (tension crack and base not hydraulically 
+        connected-toe drained)</b></font></p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif"><a href="images/5/5h_eq702a.gif" target="_blank"><img src="images/5/5h_eq702a.gif" width="475" height="88" border="1"></a></font></p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif">= 173.4 kips</font></p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif"><img src="images/5/5h_eq702c.gif" width="506" height="43"></font></p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif"><b>Tension crack water 
+        and hydrostatic base water force (tension crack and base not hydraulically 
+        connected-toe drainage blocked)</b></font></p>
+      <table width="93%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td height="18" rowspan="2" width="7%"> <div align="center"><font face="Times New Roman, Times, serif" size="3"><i>U 
+              </i>= </font></div></td>
+          <td height="18" width="1%"><u><font face="Times New Roman, Times, serif" size="3">1</font></u></td>
+          <td height="18" rowspan="2" width="27%"><div align="center"><font face="Times New Roman, Times, serif" size="3">&gamma;<sub><i>w</i></sub>(<i>h<sub>w</sub></i> 
+              + <i>Z<sub>w</sub></i>) l<sub>c</sub> = </font></div></td>
+          <td height="18" width="2%"><u><font face="Times New Roman, Times, serif" size="3">1</font></u></td>
+          <td height="18" rowspan="2" width="63%"><div align="center"><font face="Times New Roman, Times, serif" size="3">(62.4 
+              lb/ft<sup>3</sup>)(100 ft - 45.5 ft)(84..8 ft)(1 ft) = 385.0 kips</font></div></td>
+        </tr>
+        <tr> 
+          <td width="1%"><font face="Times New Roman, Times, serif" size="3">2</font></td>
+          <td width="2%"><font face="Times New Roman, Times, serif" size="3">2</font></td>
+        </tr>
+      </table>
+      <BR> <table width="93%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td rowspan="2" width="10%"><font face="Arial, Helvetica, sans-serif" size="2">FOS 
+            =</font></td>
+          <td width="55%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><u>42.4 
+              + (462.5 - 385.0 - 41.5 + 138.2) tan 35</u>°</font></div></td>
+          <td rowspan="2" width="6%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">=</font></div></td>
+          <td width="7%"> <div align="center"><u><font face="Arial, Helvetica, sans-serif" size="2">164.4</font></u></div></td>
+          <td rowspan="2" width="22%"><font face="Arial, Helvetica, sans-serif" size="2">= 
+            0.68.</font></td>
+        </tr>
+        <tr> 
+          <td width="55%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">240.2</font></div></td>
+          <td width="7%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">240.2</font></div></td>
+        </tr>
+      </table>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">Problem 2. <i>Plane-failure 
+        analysis for bridge abutment.</i></font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">During a bridge foundation 
+        investigation, it was determined that the rock beneath one of the abutment 
+        spread footings had a potential for slope failure under certain conditions. 
+        Among the retrofit design recommendations were grouting the extension 
+        crack and installing rock bolts with shotcrete on the face (as shown). 
+        Evaluate these two stabilization techniques for this site.</font></p>
+      <p align="center"><font size="2" face="Arial, Helvetica, sans-serif"><img src="images/5/5h_pg703.gif" width="400" height="375"></font></p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif">a. Calculate the present 
+        factor of safety for the unsupported conditions illustrated assuming free 
+        drainage at the toe and a hydraulically connected tension crack and base.</font></p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif"><img src="images/5/5h_eq704a.gif" width="536" height="113"></font></p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif">Y<sub>C</sub> = h 
+        + X<sub>C</sub> tan &#945; = 40.0 ft&nbsp;</font></p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif">Z = (X - X<SUB>C</SUB>)(tan 
+        &#952; - tan &#945; ) = (46.2 ft - 18 ft) tan 30° = 16.3 ft&nbsp;</font></p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif">Z<sub>w</sub> = Z 
+        - (Y c - h<sub>w</sub>) = 16.3 ft - (40 ft - 37 ft) = 13.3 ft&nbsp;</font></p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif"><img src="images/5/5h_eq704b.gif" width="241" height="45"></font></p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif">&fnof; = e sin (&beta; 
+        - &#952; ) = (46.2 ft)sin(60° - 30°) = 23.1 ft&nbsp;</font></p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif"><img src="images/5/5h_eq704c.gif" width="326" height="182"></font></p>
+      <font size="2" face="Arial, Helvetica, sans-serif"><i>b</i> = a sin(&#952; 
+      - &#945; ) = (28.2 ft) sin 30° = 14.1 ft&nbsp;</font> <p><font size="2" face="Arial, Helvetica, sans-serif"><img src="images/5/5h_eq704d.gif" width="201" height="52"></font></p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif"><img src="images/5/5h_eq704e.gif" width="527" height="48"></font></p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif">= 114.5 kips</font></p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif"><img src="images/5/5h_eq704f.gif" width="514" height="112"></font></p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif"><img src="images/5/5h_eq705a.gif" width="604" height="153"></font></p></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><font size="2" face="Arial, Helvetica, sans-serif">ROCKPACK gives:</font></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><table width="86%" border="1" align="center" cellpadding="1">
+        <tr> 
+          <td width="75%"><font size="2" face="Arial, Helvetica, sans-serif">Height</font></td>
+          <td width="25%"><font size="2" face="Arial, Helvetica, sans-serif">40 
+            feet</font></td>
+        </tr>
+        <tr> 
+          <td width="75%"><font size="2" face="Arial, Helvetica, sans-serif">Inclination 
+            of slope face</font></td>
+          <td width="25%"><font size="2" face="Arial, Helvetica, sans-serif"> 
+            60 degrees</font></td>
+        </tr>
+        <tr> 
+          <td width="75%"><font size="2" face="Arial, Helvetica, sans-serif">Inclination 
+            of upper slope face</font></td>
+          <td width="25%"><font size="2" face="Arial, Helvetica, sans-serif">0 
+            degrees</font></td>
+        </tr>
+        <tr> 
+          <td width="75%"><font size="2" face="Arial, Helvetica, sans-serif">Inclination 
+            of potential failure plane</font></td>
+          <td width="25%"><font size="2" face="Arial, Helvetica, sans-serif">30 
+            degrees</font></td>
+        </tr>
+        <tr> 
+          <td width="75%"><font size="2" face="Arial, Helvetica, sans-serif">Horizontal 
+            acceleration due to blasting or earthquake</font></td>
+          <td width="25%"><font size="2" face="Arial, Helvetica, sans-serif">0 
+            g</font></td>
+        </tr>
+        <tr> 
+          <td width="75%"><font size="2" face="Arial, Helvetica, sans-serif">Starting 
+            rock bolt angle</font></td>
+          <td width="25%"><font size="2" face="Arial, Helvetica, sans-serif">0</font></td>
+        </tr>
+        <tr> 
+          <td width="75%"><font size="2" face="Arial, Helvetica, sans-serif">Ending 
+            rock bolt angle</font></td>
+          <td width="25%"><font size="2" face="Arial, Helvetica, sans-serif">0</font></td>
+        </tr>
+        <tr> 
+          <td width="75%"><font size="2" face="Arial, Helvetica, sans-serif">Incriment 
+            step for rock bolt angles</font></td>
+          <td width="25%"><font size="2" face="Arial, Helvetica, sans-serif">0</font></td>
+        </tr>
+        <tr> 
+          <td width="75%"><font size="2" face="Arial, Helvetica, sans-serif">Starting 
+            bolt tension</font></td>
+          <td width="25%"><font size="2" face="Arial, Helvetica, sans-serif">0</font></td>
+        </tr>
+        <tr> 
+          <td width="75%"><font size="2" face="Arial, Helvetica, sans-serif">Ending 
+            bolt tension</font></td>
+          <td width="25%"><font size="2" face="Arial, Helvetica, sans-serif">0</font></td>
+        </tr>
+        <tr> 
+          <td width="75%"><font size="2" face="Arial, Helvetica, sans-serif">Tension 
+            increment step</font></td>
+          <td width="25%"><font size="2" face="Arial, Helvetica, sans-serif">0</font></td>
+        </tr>
+        <tr> 
+          <td width="75%"><font size="2" face="Arial, Helvetica, sans-serif">Cohesive 
+            strength of failure surface</font></td>
+          <td width="25%"><font size="2" face="Arial, Helvetica, sans-serif">1000 
+            psf</font></td>
+        </tr>
+        <tr> 
+          <td width="75%"><font size="2" face="Arial, Helvetica, sans-serif">Friction 
+            angle of failure surface</font></td>
+          <td width="25%"><font size="2" face="Arial, Helvetica, sans-serif">35 
+            degrees</font></td>
+        </tr>
+        <tr> 
+          <td width="75%"><font size="2" face="Arial, Helvetica, sans-serif">Density 
+            of rock</font></td>
+          <td width="25%"><font size="2" face="Arial, Helvetica, sans-serif">160 
+            pcf</font></td>
+        </tr>
+        <tr> 
+          <td width="75%"><font size="2" face="Arial, Helvetica, sans-serif">Density 
+            of water</font></td>
+          <td width="25%"><font size="2" face="Arial, Helvetica, sans-serif">62.4 
+            pcf</font></td>
+        </tr>
+        <tr> 
+          <td width="75%"><font size="2" face="Arial, Helvetica, sans-serif">Amount 
+            of the discontinuity saturated with water</font></td>
+          <td width="25%"><font size="2" face="Arial, Helvetica, sans-serif">1 
+            decimal %</font></td>
+        </tr>
+        <tr> 
+          <td width="75%">&nbsp;</td>
+          <td width="25%">&nbsp;</td>
+        </tr>
+        <tr> 
+          <td width="75%"><font size="2" face="Arial, Helvetica, sans-serif">*Z* 
+            Tension crack depth</font></td>
+          <td width="25%"><font size="2" face="Arial, Helvetica, sans-serif">16.2744 
+            feet</font></td>
+        </tr>
+        <tr> 
+          <td width="75%"><font size="2" face="Arial, Helvetica, sans-serif">*Zw* 
+            Depth of water in crack</font></td>
+          <td width="25%"><font size="2" face="Arial, Helvetica, sans-serif">13.3540 
+            feet</font></td>
+        </tr>
+        <tr> 
+          <td width="75%"><font size="2" face="Arial, Helvetica, sans-serif">Weight 
+            of slice</font></td>
+          <td width="25%"><font size="2" face="Arial, Helvetica, sans-serif">111102.3 
+            pounds</font></td>
+        </tr>
+        <tr> 
+          <td width="75%"><font size="2" face="Arial, Helvetica, sans-serif">*lc* 
+            Contact area</font></td>
+          <td width="25%"><font size="2" face="Arial, Helvetica, sans-serif">47.4513</font></td>
+        </tr>
+        <tr> 
+          <td width="75%"><font size="2" face="Arial, Helvetica, sans-serif">*U* 
+            Water force normal to failure plane</font></td>
+          <td width="25%"><font size="2" face="Arial, Helvetica, sans-serif">19756.97 
+            pounds</font></td>
+        </tr>
+        <tr> 
+          <td width="75%"><font size="2" face="Arial, Helvetica, sans-serif">Bolt 
+            angle</font></td>
+          <td width="25%"><font size="2" face="Arial, Helvetica, sans-serif">0 
+            degrees</font></td>
+        </tr>
+        <tr> 
+          <td width="75%"><font size="2" face="Arial, Helvetica, sans-serif">Tension</font></td>
+          <td width="25%"><font size="2" face="Arial, Helvetica, sans-serif">0 
+            pounds</font></td>
+        </tr>
+        <tr> 
+          <td width="75%"><font size="2" face="Arial, Helvetica, sans-serif">*FOS* 
+            Factor of safety</font></td>
+          <td width="25%"><font size="2" face="Arial, Helvetica, sans-serif">1.6075</font></td>
+        </tr>
+      </table>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">b. If the tension 
+        crack is sealed with grout but seepage continues to occur along the basal 
+        contact and is blocked due to ice damming during the winter, what would 
+        the factor of safety be?</font> </p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">V = 0</font></p>
+      <table width="97%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td rowspan="2" width="6%"><font face="Arial, Helvetica, sans-serif" size="2">U 
+            = </font></td>
+          <td width="3%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><u>1</u></font></div></td>
+          <td rowspan="2" width="19%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">&gamma;<sub><i>w</i></sub>(<i>h<sub>w</sub></i> 
+              + <i>Z<sub>w</sub></i>)<i>l<sub>c</sub></i> =</font></div></td>
+          <td width="4%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><u>1</u></font></div></td>
+          <td rowspan="2" width="68%"><font face="Arial, Helvetica, sans-serif" size="2">(62.4 
+            lb/ft<sup>3</sup>)(37.0 ft + 13.3)(47.7 ft)(1 ft) = 74.4</font></td>
+        </tr>
+        <tr> 
+          <td width="3%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">2</font></div></td>
+          <td width="4%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">2</font></div></td>
+        </tr>
+      </table>
+      <br> <table width="63%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td rowspan="2" width="14%"><font face="Arial, Helvetica, sans-serif" size="2">FOS 
+            = </font></td>
+          <td width="86%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><u><i>CA</i> 
+              + [(<i>W</i> + <i>S</i>) cos<i>&theta;</i> - U] tan &phi;</u></font></div></td>
+        </tr>
+        <tr> 
+          <td width="86%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">(<i>W</i> 
+              + <i>S</i>) sin <i>&theta;</i></font></div></td>
+        </tr>
+      </table>
+      <br> <table width="80%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td rowspan="2">=</td>
+          <td> <div align="center"><u>1 kips/ft<sup>3</sup>)(47.4 ft)(1 ft) + 
+              [(124.7 kips) cos 30</u>&deg;<u> - 74.4 kips] tan 35</u>&deg;</div></td>
+        </tr>
+        <tr> 
+          <td> <div align="center">(124.7 kips) sin 30&deg;</div></td>
+        </tr>
+      </table>
+      <br> <table width="37%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td rowspan="2"><font size="2" face="Arial, Helvetica, sans-serif">=</font></td>
+          <td> <div align="center"><font size="2" face="Arial, Helvetica, sans-serif"><u>70.9 
+              kips</u></font></div></td>
+          <td rowspan="2"><font size="2" face="Arial, Helvetica, sans-serif">= 
+            1.14</font></td>
+        </tr>
+        <tr> 
+          <td> <div align="center"><font size="2" face="Arial, Helvetica, sans-serif">62.4 
+              kips</font></div></td>
+        </tr>
+      </table>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">c. To the conditions 
+        of (b) add a horizontal seismic acceleration of 0.15g and determine the 
+        factor of safety.</font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2"><img src="images/5/5h_eq706e.gif" width="460" height="169"></font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">d. Determine the artificial 
+        support necessary to bring the present factor of safety up to 2.50 (assuming 
+        the tension crack is grouted and there is <i>no</i> tension crack hydrostatic 
+        water force and the toe is free draining).</font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2"><img src="images/5/5h_eq706g.gif" width="372" height="172"></font></p>
+      <font face="Arial, Helvetica, sans-serif" size="2">In this case, construction 
+      constraints allow for &delta;<sub>P</sub> = 30° only, as shown in the problem 
+      illustration.</font><font face="Arial, Helvetica, sans-serif" size="2"><img src="images/5/5h_eq707a.gif" width="479" height="119"></font> 
+      <p><font face="Arial, Helvetica, sans-serif" size="2">Check:</font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2"><img src="images/5/5h_eq707b.gif" width="411" height="49"></font></p>
+      </td>
+  </tr>
+</table>
+<p>&nbsp;</p><table width="624" height="464" border="0">
+  <tr> 
+    <td width="23%"><font size="3" face="Arial, Helvetica, sans-serif"><strong><a name="5H.3"></a>5H.3 
+      Simple Wedge-Failure Analysis</strong></font></td>
+    <td width="77%"><font face="Arial, Helvetica, sans-serif" size="2">Figure 
+      5H.7 illustrates a simple rock wedge failure with no tension crack or external 
+      forces and the four planar surfaces in the analysis. </font></td>
+  </tr>
+  <tr> 
+    <td>&nbsp;</td>
+    <td bgcolor="#CCCC99"> <p align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a href="images/5/5h_f07.gif" target="_blank"><img src="images/5/5h_f07.gif" width="294" height="362" border="1"></a></font></p>
+      <p align="center"><font size="2" face="Arial, Helvetica, sans-serif"><i>Figure 
+        5H.7.-Simple rock-wedge failure geometry (reprinted with permision of 
+        Golder Associates, 1988).</i></font></p>
+      <div align="center"></div></td>
+  </tr>
+  <tr> 
+    <td>&nbsp;</td>
+    <td><p><font size="2" face="Arial, Helvetica, sans-serif">The variables used 
+        in the simple rock wedge-failure analysis as illustrated in figure 5H.7 
+        are (Golder Associates, 1989):<font color="#FF3333"> </font></font></p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif"> <img src="images/5/5h_eq709a.jpg" width="27" height="26">= 
+        Planar surfaces </font></p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif"><i>H<sub>w</sub></i> 
+        = Height of wedge <BR>
+        <i>H</i> = Height of upper slope above intersection daylight point <BR>
+        &#947; = Unit weight of rock <BR>
+        &phi; = Angle of internal friction <BR>
+        <i>C</i> = Cohesion <BR>
+        &beta; = Dip or plunge angle <BR>
+        &#945; = Dip direction or trend <bR>
+        x,y,z, = Coordinate axes with origion at 0 <BR>
+        <img src="images/5/5h_eq709b.jpg" width="19" height="28">= Unit vector 
+        in the direction of the normal to plane 1 with components [a<sub>x</sub>a<sub>y</sub>a<sub>z</sub>] 
+        <BR>
+        <img src="images/5/5h_eq709c.jpg" width="17" height="27">= Unit vector 
+        in the direction of the normal to plane 2 with components [b<sub>x</sub>b<sub>y</sub>b<sub>z</sub>] 
+        <BR>
+        <img src="images/5/5h_eq709d.jpg" width="22" height="31">= Unit vector 
+        in the direction of the normal to plane 4 with components [f<sub>x</sub>f<sub>y</sub>f<sub>z</sub>] 
+        <BR>
+        <img src="images/5/5h_eq709e.jpg" width="17" height="30">= Vector of the 
+        intersection of planes 1 and 4 with components [g<sub>x</sub>g<sub>y</sub>g<sub>z</sub>] 
+        <BR>
+        <img src="images/5/5h_eq709a.gif" width="15" height="27">= Vector of the 
+        intersection of planes 1 and 2 with components [i<sub>x</sub>i<sub>y</sub>i<sub>z</sub>] 
+        <BR>
+        <i>i</i> = -<i>i</i><sub>z</sub> <BR>
+        <i>q</i> = component of <img src="images/5/5h_eq709e.jpg" width="15" height="25"> 
+        in the direction of <img src="images/5/5h_eq709c.jpg" width="17" height="27"><bR>
+        <i>r</i> = component of <img src="images/5/5h_eq709b.jpg" width="19" height="28">in 
+        the direction of <img src="images/5/5h_eq709c.jpg" width="17" height="27"><BR>
+        </font></p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif"><img src="images/5/5h_eq709f.jpg" width="185" height="28"><BR>
+        </font></p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif"><i>l = W/A<sub>2</sub></i></font></p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif">p<i> = A<sub>1</sub>/A<sub>2</sub> 
+        <BR>
+        </i><BR>
+        Assuming contact on both planes: <BR>
+        <BR>
+        <i>n</i><sub>1</sub> = <i>N<sub>1</sub>/A</i> <BR>
+        <i>n</i><sub>2</sub> = <i>N<sub>2</sub>/A </i><BR>
+        &nbsp;<img src="images/5/5h_eq709.jpg" width="54" height="31">= <i>SA</i><sub>2</sub> 
+        </font></p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif">Contact on plane 1 
+        only:</font></p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;<i>m</i><sub>1</sub> 
+        = <i>N<sub>1</sub>/A<sub>2</sub></i><br>
+        Demoninator of FOS = S<sub>1</sub>/A<sub>2</sub> </font></p>
+      <div align="left"><font size="2" face="Arial, Helvetica, sans-serif">Contact 
+        on plane 2 only: <br>
+        <br>
+        <i>m</i><sub>2</sub> = <i>N</i><sub>2</sub>/<i>A</i><sub>2</sub> <br>
+        Denominator of FOS = S<sub>2</sub>/A<sub>2</sub> </font> </div>
+      <p align="left"><font size="2" face="Arial, Helvetica, sans-serif">Water 
+        pressure with discontinuities filled and free draining at toe</font></p>
+      <p align="left"><font size="2" face="Arial, Helvetica, sans-serif"><i>U</i><sub>1</sub> 
+        = <i>U</i><sub>2</sub> = &#947; <sub><i>w</i></sub><i>H<sub>w</sub></i>/6&nbsp;</font></p>
+      <p align="left"><font size="2" face="Arial, Helvetica, sans-serif"><i>n</i> 
+        = -1 if the slope face overhangs the slope toe.</font></p>
+      <p align="left"><font size="2" face="Arial, Helvetica, sans-serif"><i>n</i> 
+        = 1 if the slope face does not overhagn the slope toe.</font></p>
+      <p align="left"><font face="Arial, Helvetica, sans-serif" size="2">The sequence 
+        of the calculations for the factor of safety in simple wedge-failure analysis 
+        is as follows (from Golder Associates, 1989):</font></p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif">1. (<i>a<sub>x</sub>, 
+        a<sub>y</sub>, a<sub>z</sub></i>) = {sin&beta;<sub>1</sub> * sin(&#945; 
+        <sub>1</sub> - &#945; <sub>2</sub>), sin&beta;<sub>1</sub> * cos(&#945; 
+        <sub>1</sub> - &#945; <sub>2</sub>), cos&beta;<sub>1</sub>} <BR>
+        2. (&fnof;<sub>x</sub>, &fnof;<sub>y</sub>, &fnof;<sub>z</sub>) = {sin&beta;<sub>4</sub> 
+        * sin(&#945; <sub>4</sub> - &#945; <sub>2</sub>), sin&beta;<sub>4</sub> 
+        * cos(&#945; <sub>4</sub> - &#945; <sub>2</sub>), cos&beta;<sub>1</sub>} 
+        <BR>
+        3.<i> b<sub>y</sub></i> = sin&beta;<sub>2</sub> <BR>
+        4. <i>b<sub>z</sub></i> = cos&beta;<sub>2</sub> <BR>
+        5. <i>i</i> = <i>a<SUB>x</SUB>b<SUB>y</SUB> </i><BR>
+        6. <i>g<sub>z</sub></i> = &fnof;<sub><i>x</i></sub><i>a<sub>y</sub></i> 
+        - &fnof;<sub><i>y</i></sub><i>a<sub>x</sub></i> <BR>
+        7. <i>q</i> = <i>b<sub>y</sub></i>(&fnof;<sub><i>z</i></sub><i>a<sub>x</sub></i> 
+        - &fnof;<sub><i>x</i></sub><i>a<sub>z</sub></i>) + <i>b<sub>z</sub>g<sub>z</sub></i> 
+        <BR>
+        8. If nq/i > 0, or if n(&fnof;<sub>z</sub> - q/i) tan &beta<sub>3</sub> 
+        ><img src="images/5/5h_eq710a.gif" width="48" height="31"> and </font></p>
+      <p> <font face="Arial, Helvetica, sans-serif" size="2">&#945; <sub>3</sub> 
+        = &#945; <sub>4</sub> &plusmn; (1 - n)&pi;/2, no wedge is formed. <BR>
+        9<i>. r</i> =<i>a</i><sub>y</sub><i>b</i><sub>y</sub> + <i>a</i><sub>x</sub><i>b</i><sub>z</sub> 
+        <BR>
+        10. <i>K</i> = 1 - <i>r</i><sup>2</sup> </font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">11. l = (&#947; H<sub>q</sub>)/(3g<sub>z</sub>)&nbsp;</font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">12. p = (-b<sub>y</sub>&fnof;<sub>x</sub>)/(g<sub>z</sub>)</font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">13.<img src="images/5/5h_eq710b.jpg" width="210" height="49"></font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">14. n<sub>2</sub> 
+        = (l/K)(b<sub>z</sub> - ra<sub>z</sub>) - u<sub>2</sub>)</font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">15.</font></p>
+      <table width="40%" border="0">
+        <tr> 
+          <td width="78%" rowspan="2"><div align="right"><em>m</em><sub>1</sub> 
+              = (<em>la</em><sub><em>z</em></sub> - <em>ru<sub>2</sub></em> - 
+              <em>pu</em><sub>1</sub>) *</div></td>
+          <td width="22%"> <div align="center"><u><em>&nbsp;&nbsp;p&nbsp;</em> 
+              </u></div></td>
+        </tr>
+        <tr> 
+          <td><div align="center">|<em>p</em>|</div></td>
+        </tr>
+      </table>
+      <p><font face="Arial, Helvetica, sans-serif" size="2"><BR>
+        16. <i>m<sub>2</sub></i> = <i>lb<sub>z</sub></i> - <i>rpu</i><sub>1</sub> 
+        - <i>u</i><sub>2</sub>&nbsp;</font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">17A. If n<sub>1</sub> 
+        > 0 and n<sub>2</sub> > 0, there is contact on both planes, and &nbsp;</font></p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;FOS = (n<sub>1</sub> 
+        * tan&phi;<sub>1</sub> + n<sub>2</sub> * tan&phi;<sub>2</sub> + |p|C<sub>1</sub> 
+        + C<sub>2</sub>)<img src="images/5/5h_eq711a.gif" width="27" height="43"></font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">17B. If n<sub>2</sub> 
+        < 0 and m<sub>1</sub> > 0, there is contact on plane 1 only, and&nbsp;</font></p>
+      <p><img src="images/5/5h_eq711b.gif" width="292" height="54"></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">17C. If n<sub>1</sub> 
+        < 0 and m<sub>2</sub> > 0, there is contact on plane 2 only, and&nbsp;</font></p>
+      <p><img src="images/5/5h_eq711c.gif" width="299" height="60"></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">17D. If <i>m</i><sub>1</sub> 
+        < 0 and <i>m</i><sub>2</sub> < 0, contact is lost on both planes and the 
+        wedge "floats" as a result of water pressure acting on planes 1 and 2. 
+        In this case, the factor of safety falls to zero.</font></p></td>
+  </tr>
+  <tr> 
+    <td>&nbsp;</td>
+    <td><p><font face="Arial, Helvetica, sans-serif" size="2"><b>Problem 3. </b></font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">Simple Wedge Failurea. 
+        Calculate the factor of safety for a wedge with the following properties 
+        (from Golder Associates, 1989):</font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">H = 70 ft </font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">&#947; = 165 pcf</font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">u<sub>1</sub> = u<sub>2</sub> 
+        = 0, n = 1</font></p>
+      <table width="74%" border="0" cellpadding="1">
+        <tr> 
+          <td width="23%" height="23"> Plane</td>
+          <td width="1%" height="23">&nbsp;</td>
+          <td width="16%" height="23">1</td>
+          <td width="18%" height="23">2</td>
+          <td width="18%" height="23">3</td>
+          <td width="24%" height="23"> <p>4</p></td>
+        </tr>
+        <tr> 
+          <td width="23%"> <hr> </td>
+          <td width="1%"> <hr> </td>
+          <td width="16%"> <hr> </td>
+          <td width="18%"> <hr> </td>
+          <td width="18%"> <hr> </td>
+          <td width="24%"> <hr> </td>
+        </tr>
+        <tr> 
+          <td width="23%">Dip(&beta;)</td>
+          <td width="1%">|</td>
+          <td width="16%">32°</td>
+          <td width="18%">42°</td>
+          <td width="18%">15°</td>
+          <td width="24%">75°</td>
+        </tr>
+        <tr> 
+          <td width="23%">Dip Dir (&#945; )&nbsp;</td>
+          <td width="1%">|</td>
+          <td width="16%">268°</td>
+          <td width="18%">178°</td>
+          <td width="18%">240°</td>
+          <td width="24%">240°</td>
+        </tr>
+        <tr> 
+          <td width="23%">Strike&nbsp;</td>
+          <td width="1%">|</td>
+          <td width="16%">N2W</td>
+          <td width="18%">N88E</td>
+          <td width="18%">N60E</td>
+          <td width="24%">N60E</td>
+        </tr>
+        <tr> 
+          <td width="23%">&phi;&nbsp;</td>
+          <td width="1%">|</td>
+          <td width="16%">35°</td>
+          <td width="18%">28°</td>
+          <td width="18%">&nbsp;</td>
+          <td width="24%">&nbsp;</td>
+        </tr>
+        <tr> 
+          <td width="23%" height="20"><i>C&nbsp;</i></td>
+          <td width="1%" height="20">|</td>
+          <td width="16%" height="20">100 psf</td>
+          <td width="18%" height="20">200 psf</td>
+          <td width="18%" height="20">&nbsp;</td>
+          <td width="24%" height="20">&nbsp;</td>
+        </tr>
+      </table>
+      <p>&nbsp;</p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">1. <i>a<sub>x</sub></i> 
+        = (sin 32°) sin(268° - 178°) = <u>0.5299</u></font></p>
+      <p> <font face="Arial, Helvetica, sans-serif" size="2"><i>a<sub>y</sub></i> 
+        = (sin32°) cos(268° - 178°) = <u>0</u>&nbsp;</font></p>
+      <p> <font face="Arial, Helvetica, sans-serif" size="2"><i>a<sub>z</sub></i> 
+        = cos32° = <u>0.8480&nbsp;</u></font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">2. &fnof;<sub>x</sub> 
+        = (sin75°) sin(240° - 178°) = <u>0.8529</u></font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">&fnof;<sub>y</sub> 
+        = (sin75°) cos(240° - 178°) = <u>0.4535</u>&nbsp;</font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">&fnof;<sub>z</sub> 
+        = cos75° = <u>0.2588&nbsp;</u></font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">3.<i> b<sub>y</sub></i> 
+        = sin42° = <U>0.6691</U></font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">4. <i>b<sub>z</sub></i> 
+        = cos42° = <U>0.7431</U></font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">5. <i>i</i> = (.5299)(.6691) 
+        = 0.3546</font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">6. <i>g<sub>z</sub></i> 
+        = (.8529)(0) - (.4535)(.5299) = <U>-0.2403</U></font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">7. <i>q</i> = .6691[(.2588)(.5299)-(.8529)(.8480)] 
+        + (.7431)(-.2403) = <U>-0.5707</U></font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">8. </font></p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif"><img src="images/5/5h_eq712a.gif" width="290" height="100"></font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">9. r = (0)(.6691) 
+        + (.8480)(.7431) = <U>0.6301</U></font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">10. K = 1 - (.6301)<sup>2</sup> 
+        = <U>0.6030</U></font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">.<img src="images/5/5h_eq712d.gif" width="349" height="193"></font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;15. m<sub>1</sub> 
+        = (9143.55)(.8480)(1) = <U>7,753.73</U>&nbsp;</font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">16. m<sub>2</sub> 
+        = (9143.55)(.7431) = <U>6,794.57</U>&nbsp;</font></p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif"><img src="images/5/5h_eq712h.gif" width="446" height="83"></font></p>
+      <font size="2" face="Arial, Helvetica, sans-serif">ROCKPACK gives the same 
+      results:</font> <p align="center"><font size="2" face="Arial, Helvetica, sans-serif">ROCKPACK 
+        <BR>
+        ROCKslope Stability Computerized Analysis PACKage<BR>
+        (c) C.F.WATTS, 1986</font></p>
+      <p align="left"><font size="2" face="Arial, Helvetica, sans-serif">==&gt; 
+        RAPWEDG (Wedge solution for rapid computation, after Hock &amp; Bray, 
+        1981)</font></p>
+      <table width="83%" border="1" cellpadding="1">
+        <tr> 
+          <td width="81%"><font size="2" face="Arial, Helvetica, sans-serif">* 
+            Dry slope</font></td>
+          <td width="19%">&nbsp;</td>
+        </tr>
+        <tr> 
+          <td width="81%"><font size="2" face="Arial, Helvetica, sans-serif">Slope 
+            is not undercut</font></td>
+          <td width="19%">&nbsp;</td>
+        </tr>
+        <tr> 
+          <td width="81%">&nbsp;</td>
+          <td width="19%">&nbsp;</td>
+        </tr>
+        <tr> 
+          <td width="81%"><font size="2" face="Arial, Helvetica, sans-serif">Unit 
+            weight rock in wedge</font></td>
+          <td width="19%"><font size="2" face="Arial, Helvetica, sans-serif">165 
+            pcf</font></td>
+        </tr>
+        <tr> 
+          <td width="81%"><font size="2" face="Arial, Helvetica, sans-serif">Height 
+            of crest above intersection</font></td>
+          <td width="19%"><font size="2" face="Arial, Helvetica, sans-serif">70 
+            feet</font></td>
+        </tr>
+        <tr> 
+          <td width="81%"><font size="2" face="Arial, Helvetica, sans-serif">Plane 
+            1 dip</font></td>
+          <td width="19%"><font size="2" face="Arial, Helvetica, sans-serif">32°</font></td>
+        </tr>
+        <tr> 
+          <td width="81%"><font size="2" face="Arial, Helvetica, sans-serif">Plane 
+            1 dip direction</font></td>
+          <td width="19%"><font size="2" face="Arial, Helvetica, sans-serif">268°</font></td>
+        </tr>
+        <tr> 
+          <td width="81%"><font size="2" face="Arial, Helvetica, sans-serif">Plane 
+            2 dip</font></td>
+          <td width="19%"><font size="2" face="Arial, Helvetica, sans-serif">42°</font></td>
+        </tr>
+        <tr> 
+          <td width="81%"><font size="2" face="Arial, Helvetica, sans-serif">Plane 
+            2 dip direction</font></td>
+          <td width="19%"><font size="2" face="Arial, Helvetica, sans-serif">178°</font></td>
+        </tr>
+        <tr> 
+          <td width="81%"><font size="2" face="Arial, Helvetica, sans-serif">Plane 
+            3 dip</font></td>
+          <td width="19%"><font size="2" face="Arial, Helvetica, sans-serif">15°</font></td>
+        </tr>
+        <tr> 
+          <td width="81%"><font size="2" face="Arial, Helvetica, sans-serif">Plane 
+            3 dip direction</font></td>
+          <td width="19%"><font size="2" face="Arial, Helvetica, sans-serif"> 
+            240°</font></td>
+        </tr>
+        <tr> 
+          <td width="81%"><font size="2" face="Arial, Helvetica, sans-serif">Plane 
+            4 dip</font></td>
+          <td width="19%"><font size="2" face="Arial, Helvetica, sans-serif">75°</font></td>
+        </tr>
+        <tr> 
+          <td width="81%"><font size="2" face="Arial, Helvetica, sans-serif">Plane 
+            4 dip direction</font></td>
+          <td width="19%"><font size="2" face="Arial, Helvetica, sans-serif">240°</font></td>
+        </tr>
+        <tr> 
+          <td width="81%"><font size="2" face="Arial, Helvetica, sans-serif">Plane 
+            1 cohesion</font></td>
+          <td width="19%"><font size="2" face="Arial, Helvetica, sans-serif">100 
+            psf</font></td>
+        </tr>
+        <tr> 
+          <td width="81%"><font size="2" face="Arial, Helvetica, sans-serif">Plane 
+            1 friction angle</font></td>
+          <td width="19%"><font size="2" face="Arial, Helvetica, sans-serif">35°</font></td>
+        </tr>
+        <tr> 
+          <td width="81%"><font size="2" face="Arial, Helvetica, sans-serif">Plane 
+            2 cohesion</font></td>
+          <td width="19%"><font size="2" face="Arial, Helvetica, sans-serif">200 
+            psf</font></td>
+        </tr>
+        <tr> 
+          <td width="81%"><font size="2" face="Arial, Helvetica, sans-serif">Plane 
+            2 friction angle</font></td>
+          <td width="19%"><font size="2" face="Arial, Helvetica, sans-serif">28°</font></td>
+        </tr>
+      </table>
+      <p><font size="2" face="Arial, Helvetica, sans-serif">There is contact on 
+        both planes</font></p>
+      <table width="77%" border="1" cellpadding="1">
+        <tr> 
+          <td width="25%"><font face="Arial, Helvetica, sans-serif" size="2">Ax 
+            = 0.52992</font></td>
+          <td width="28%"><font face="Arial, Helvetica, sans-serif" size="2">Ay 
+            = 1.0318E-7</font></td>
+          <td width="24%"><font face="Arial, Helvetica, sans-serif" size="2">Az 
+            = 0.84805</font></td>
+          <td width="23%"><font face="Arial, Helvetica, sans-serif" size="2">I 
+            = 0.35459</font></td>
+        </tr>
+        <tr> 
+          <td width="25%"><font face="Arial, Helvetica, sans-serif" size="2">Fx 
+            = 0.85286</font></td>
+          <td width="28%"><font face="Arial, Helvetica, sans-serif" size="2">Fy 
+            = 0345347</font></td>
+          <td width="24%"><font face="Arial, Helvetica, sans-serif" size="2">Fz 
+            = 0.25882</font></td>
+          <td width="23%"><font face="Arial, Helvetica, sans-serif" size="2">K 
+            = 0.60282</font></td>
+        </tr>
+        <tr> 
+          <td width="25%">&nbsp;</td>
+          <td width="28%"><font face="Arial, Helvetica, sans-serif" size="2">By 
+            = 0.66913</font></td>
+          <td width="24%"><font face="Arial, Helvetica, sans-serif" size="2">Bz 
+            = 0.74315</font></td>
+          <td width="23%"><font face="Arial, Helvetica, sans-serif" size="2">L 
+            = 9144.46</font></td>
+        </tr>
+        <tr> 
+          <td width="25%">&nbsp;</td>
+          <td width="28%">&nbsp;</td>
+          <td width="24%"><font face="Arial, Helvetica, sans-serif" size="2">Gz 
+            = 0.24030</font></td>
+          <td width="23%">&nbsp;</td>
+        </tr>
+        <tr> 
+          <td width="25%"><font face="Arial, Helvetica, sans-serif" size="2">P 
+            = 2.37480</font></td>
+          <td width="28%"><font face="Arial, Helvetica, sans-serif" size="2">Q 
+            = 0.57077</font></td>
+          <td width="24%"><font face="Arial, Helvetica, sans-serif" size="2">R 
+            = 0.63022</font></td>
+          <td width="23%">&nbsp;</td>
+        </tr>
+        <tr> 
+          <td width="25%"><font face="Arial, Helvetica, sans-serif" size="2">n1 
+            = 5759.88</font></td>
+          <td width="28%"><font face="Arial, Helvetica, sans-serif" size="2">n2 
+            = 3165.66</font></td>
+          <td width="24%"><font face="Arial, Helvetica, sans-serif" size="2">m1 
+            = 7754.94</font></td>
+          <td width="23%"><font face="Arial, Helvetica, sans-serif" size="2">m2 
+            = 6795.66</font></td>
+        </tr>
+      </table>
+      <p><font size="2" face="Arial, Helvetica, sans-serif">*FOS* Factor of safety 
+        against sliding 1.47353</font></p></td>
+  </tr>
+  <tr> 
+    <td colspan="2"><p><font size="2" face="Arial, Helvetica, sans-serif">b. For 
+        the wedge in (a), calculate the factor of safety with the discontinuities 
+        fully saturated and free draining at the toe intersection of planes 1 
+        and 2.</font></p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif">In order to calculate 
+        the water force, H<sub>w</sub> must be determined.</font> </p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;u<sub>1</sub> 
+        = u<sub>2</sub> = &#947; <sub>w</sub> * (H<sub>w</sub>/6)</font></p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;&#952; = Plunge 
+        angle of plane 1/2 intersection</font></p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;&#945; <sub>3</sub> 
+        = Dip angle of plane 3</font></p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;&#945; <sub>4</sub> 
+        = Dip angle of plane 4</font></p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;H<sub>w</sub> 
+        = H + &Delta;Y</font></p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;&Delta;Y = tan&#945; 
+        <sub>3</sub>(X)</font></p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;X = H/tan&#952; 
+        - tan&#945; <sub>3</sub> * [1 - (tan&#952; /tan&alpha<sub>4</sub>)]</font></p>
+      <font size="2" face="Arial, Helvetica, sans-serif">&#952; may be determined 
+      by either of the following two methods.</font> <p><font face="Arial, Helvetica, sans-serif" size="2"><u>Cotangent 
+        Method</u></font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">1. Plot the strike 
+        lines from planes 1 and 2 radiating from a common point.</font></p></td>
+  </tr>
+  <tr> 
+    <td colspan="2" bgcolor="#CCCC99"><div align="center"><font size="2" face="Arial, Helvetica, sans-serif"><img src="images/5/5h_f715.jpg" width="318" height="279"></font></div></td>
+  </tr>
+  <tr> 
+    <td colspan="2"><p><font size="2" face="Arial, Helvetica, sans-serif"><img src="images/5/5h_eq715a.gif" width="306" height="40"></font></p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif">&Delta;Y = (tan15°)(250.2 
+        ft) = 67 ft&nbsp;</font></p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;H<sub>w</sub> 
+        = 70 ft + 67 ft = <U>137</U> ft</font></p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;u<sub>1</sub> 
+        = u<sub>2</sub> = (62.4 pcf)(137 ft) / 6 = <U>1,424.8</U> psf</font></p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif"><img src="images/5/5h_eq716a.gif" width="451" height="94"></font></p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif">m<sub>1</sub> = {(9143.55)(.8480) 
+        - (.6301)(.1424.8) - (2.3748)(1424.8)} 1 = 3,472.35&nbsp;</font></p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif">m<sub>2</sub> = (9743.55)(.7431) 
+        - (.6301)(2.3748)(1424.8) - (1424.8) = 3,237.76&nbsp;</font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2"><img src="images/5/5h_eq716b.gif" width="518" height="40"></font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2"><img src="images/5/5h_eq716c.gif" width="77" height="44"></font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">= <u>0.72</u></font></p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif">This can be checked 
+        using ROCKPACK:</font></p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif">RAPWEDG (Wedge solution 
+        for rapid computation, after Hock &amp; Bray, 1981)</font></p>
+      <table width="83%" border="1" cellpadding="1">
+        <tr> 
+          <td width="81%"><font size="2" face="Arial, Helvetica, sans-serif">* 
+            Dry slope</font></td>
+          <td width="19%">&nbsp;</td>
+        </tr>
+        <tr> 
+          <td width="81%"><font size="2" face="Arial, Helvetica, sans-serif">Slope 
+            is not undercut</font></td>
+          <td width="19%">&nbsp;</td>
+        </tr>
+        <tr> 
+          <td width="81%">&nbsp;</td>
+          <td width="19%">&nbsp;</td>
+        </tr>
+        <tr> 
+          <td width="81%"><font size="2" face="Arial, Helvetica, sans-serif">Unit 
+            weight rock in wedge</font></td>
+          <td width="19%"><font size="2" face="Arial, Helvetica, sans-serif">165 
+            pcf</font></td>
+        </tr>
+        <tr> 
+          <td width="81%"><font size="2" face="Arial, Helvetica, sans-serif">Height 
+            of crest above intersection</font></td>
+          <td width="19%"><font size="2" face="Arial, Helvetica, sans-serif">70 
+            feet</font></td>
+        </tr>
+        <tr> 
+          <td width="81%"><font size="2" face="Arial, Helvetica, sans-serif">Plane 
+            1 dip</font></td>
+          <td width="19%"><font size="2" face="Arial, Helvetica, sans-serif">32°</font></td>
+        </tr>
+        <tr> 
+          <td width="81%"><font size="2" face="Arial, Helvetica, sans-serif">Plane 
+            1 dip direction</font></td>
+          <td width="19%"><font size="2" face="Arial, Helvetica, sans-serif">268°</font></td>
+        </tr>
+        <tr> 
+          <td width="81%"><font size="2" face="Arial, Helvetica, sans-serif">Plane 
+            2 dip</font></td>
+          <td width="19%"><font size="2" face="Arial, Helvetica, sans-serif">42°</font></td>
+        </tr>
+        <tr> 
+          <td width="81%"><font size="2" face="Arial, Helvetica, sans-serif">Plane 
+            2 dip direction</font></td>
+          <td width="19%"><font size="2" face="Arial, Helvetica, sans-serif">178°</font></td>
+        </tr>
+        <tr> 
+          <td width="81%"><font size="2" face="Arial, Helvetica, sans-serif">Plane 
+            3 dip</font></td>
+          <td width="19%"><font size="2" face="Arial, Helvetica, sans-serif">15°</font></td>
+        </tr>
+        <tr> 
+          <td width="81%"><font size="2" face="Arial, Helvetica, sans-serif">Plane 
+            3 dip direction</font></td>
+          <td width="19%"><font size="2" face="Arial, Helvetica, sans-serif"> 
+            240°</font></td>
+        </tr>
+        <tr> 
+          <td width="81%"><font size="2" face="Arial, Helvetica, sans-serif">Plane 
+            4 dip</font></td>
+          <td width="19%"><font size="2" face="Arial, Helvetica, sans-serif">75°</font></td>
+        </tr>
+        <tr> 
+          <td width="81%"><font size="2" face="Arial, Helvetica, sans-serif">Plane 
+            4 dip direction</font></td>
+          <td width="19%"><font size="2" face="Arial, Helvetica, sans-serif">240°</font></td>
+        </tr>
+        <tr> 
+          <td width="81%"><font size="2" face="Arial, Helvetica, sans-serif">Plane 
+            1 cohesion</font></td>
+          <td width="19%"><font size="2" face="Arial, Helvetica, sans-serif">100 
+            psf</font></td>
+        </tr>
+        <tr> 
+          <td width="81%"><font size="2" face="Arial, Helvetica, sans-serif">Plane 
+            1 friction angle</font></td>
+          <td width="19%"><font size="2" face="Arial, Helvetica, sans-serif">35°</font></td>
+        </tr>
+        <tr> 
+          <td width="81%"><font size="2" face="Arial, Helvetica, sans-serif">Plane 
+            2 cohesion</font></td>
+          <td width="19%"><font size="2" face="Arial, Helvetica, sans-serif">200 
+            psf</font></td>
+        </tr>
+        <tr> 
+          <td width="81%"><font size="2" face="Arial, Helvetica, sans-serif">Plane 
+            2 friction angle</font></td>
+          <td width="19%"><font size="2" face="Arial, Helvetica, sans-serif">28°</font></td>
+        </tr>
+        <tr> 
+          <td width="81%">* Overall vertical height of wedge</td>
+          <td width="19%">137 feet</td>
+        </tr>
+      </table>
+      <p><font size="2" face="Arial, Helvetica, sans-serif">There is contact on 
+        both planes</font></p>
+      <p align="left"><font face="Arial, Helvetica, sans-serif" size="2">* Water 
+        pressure on both planes 1424.8 ?</font></p>
+      <table width="77%" border="1" cellpadding="1">
+        <tr> 
+          <td width="25%"><font face="Arial, Helvetica, sans-serif" size="2">Ax 
+            = 0.52992</font></td>
+          <td width="28%"><font face="Arial, Helvetica, sans-serif" size="2">Ay 
+            = 1.0318E-7</font></td>
+          <td width="24%"><font face="Arial, Helvetica, sans-serif" size="2">Az 
+            = 0.84805</font></td>
+          <td width="23%"><font face="Arial, Helvetica, sans-serif" size="2">I 
+            = 0.35459</font></td>
+        </tr>
+        <tr> 
+          <td width="25%"><font face="Arial, Helvetica, sans-serif" size="2">Fx 
+            = 0.85286</font></td>
+          <td width="28%"><font face="Arial, Helvetica, sans-serif" size="2">Fy 
+            = 0345347</font></td>
+          <td width="24%"><font face="Arial, Helvetica, sans-serif" size="2">Fz 
+            = 0.25882</font></td>
+          <td width="23%"><font face="Arial, Helvetica, sans-serif" size="2">K 
+            = 0.60282</font></td>
+        </tr>
+        <tr> 
+          <td width="25%">&nbsp;</td>
+          <td width="28%"><font face="Arial, Helvetica, sans-serif" size="2">By 
+            = 0.66913</font></td>
+          <td width="24%"><font face="Arial, Helvetica, sans-serif" size="2">Bz 
+            = 0.74315</font></td>
+          <td width="23%"><font face="Arial, Helvetica, sans-serif" size="2">L 
+            = 9144.46</font></td>
+        </tr>
+        <tr> 
+          <td width="25%">&nbsp;</td>
+          <td width="28%">&nbsp;</td>
+          <td width="24%"><font face="Arial, Helvetica, sans-serif" size="2">Gz 
+            = 0.24030</font></td>
+          <td width="23%">&nbsp;</td>
+        </tr>
+        <tr> 
+          <td width="25%"><font face="Arial, Helvetica, sans-serif" size="2">P 
+            = 2.37480</font></td>
+          <td width="28%"><font face="Arial, Helvetica, sans-serif" size="2">Q 
+            = 0.57077</font></td>
+          <td width="24%"><font face="Arial, Helvetica, sans-serif" size="2">R 
+            = 0.63022</font></td>
+          <td width="23%">&nbsp;</td>
+        </tr>
+        <tr> 
+          <td width="25%"><font face="Arial, Helvetica, sans-serif" size="2">*n1 
+            = 5759.88</font></td>
+          <td width="28%"><font face="Arial, Helvetica, sans-serif" size="2">n2 
+            = 3165.66</font></td>
+          <td width="24%"><font face="Arial, Helvetica, sans-serif" size="2">m1 
+            = 7754.94</font></td>
+          <td width="23%"><font face="Arial, Helvetica, sans-serif" size="2">m2 
+            = 6795.66</font></td>
+        </tr>
+      </table>
+      <p align="left"><font face="Arial, Helvetica, sans-serif" size="2">*FOS* 
+        Factor of safety against sliding</font></p></td>
+  </tr>
+</table>
+<table width="624" border="0">
+  <tr> 
+    <td width="147">&nbsp;</td>
+    <td width="467">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td><strong><font size="3" face="Arial, Helvetica, sans-serif"><a name="5H.4"></a>5H.4 
+      Toppling-Failure Analysis</font></strong></td>
+    <td><font face="Arial, Helvetica, sans-serif" size="2">Figure 5H.8 illustrates 
+      the conditions under which toppling failure is kinematically possible and 
+      under which it occurs.</font></td>
+  </tr>
+  <tr> 
+    <td>&nbsp;</td>
+    <td bgcolor="#CCCC99"> <div align="center">
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><a href="images/5/5h_f717.jpg" target="_blank"><img src="images/5/5h_f717.jpg" width="239" height="308" border="1"></a></font></p>
+        <p><font size="2" face="Arial, Helvetica, sans-serif"><em>Figure 5H.8 
+          - Toppling failure analysis</em></font></p>
+      </div></td>
+  </tr>
+  <tr> 
+    <td>&nbsp;</td>
+    <td><font face="Arial, Helvetica, sans-serif" size="2"><b>Problem 4</b>. <i>Will 
+      the illustrated proposed cut be stable to the right of the interbed slope 
+      break?</i></font></td>
+  </tr>
+  <tr> 
+    <td>&nbsp;</td>
+    <td bgcolor="#CCCC99"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><img src="images/5/5h_f718.jpg" width="286" height="202"></font></div></td>
+  </tr>
+  <tr> 
+    <td>&nbsp;</td>
+    <td><p><font face="Arial, Helvetica, sans-serif" size="2">To the right of 
+        the interbed slope break</font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">&#945; = 5°&nbsp; 
+        </font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;cot&#945; = 
+        1/tan&#945; = 11.4</font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;y/&Delta;x = 
+        50/10 < cot 5° &there4; stable.</font></p></td>
+  </tr>
+  <tr> 
+    <td>&nbsp;</td>
+    <td><p><font face="Arial, Helvetica, sans-serif" size="2"><b>Problem 5.</b> 
+        <i>Will the blocks of rock to the left of the interbed slope break be 
+        stable if the rocks to the right are removed?</i></font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">To the left of the 
+        interbed slope break &#945; increases to 15°. Therefore,</font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;&#945; = 15°</font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;cot 15° = 3.7</font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;y/&Delta;x = 
+        50/10 > cot 15° &there4; unstable due to toppling.</font></p></td>
+  </tr>
+</table>
+<p>
+  <!-- ======= FOOTER GRAPHIC =================================================== -->
+</p>
+<p> 
+  <!-- ========================================================================= -->
+  <img src="images/navbar.gif" width="703" height="36" align="BOTTOM"
+   usemap="#b_pagingButtons.map" border="0" alt="Slope Stability Reference Guide for National Forests in the United States"> 
+  <br>
+  <!-- =======IMAGE MAP INFORMATION============================================== -->
+  <map name="b_pagingButtons.map">
+    <!--HOME-->
+    <area shape="RECT" coords="0,0 605,26" href="index.html" alt="SSG home">
+    <!--PREV-->
+    <area shape="rect" coords="609,0,630,26" href="ssg_5g.html" alt="Section 5G">
+    <!--NEXT-->
+    <area shape="rect" coords="632,0,652,26" href="ssg_5ref.html" alt="Section 5 references">
+  </map>
+  <!-- ========================================================================= -->
+  <br>
+  <font face="Arial, Helvetica, sans-serif" size="1">USDA Forest Service<br>
+  <b>Slope Stability Reference Guide for National Forests in the United States, 
+  1994.</b> <br>
+  <a href="http://forest.moscowfsl.wsu.edu/ssg/">http://forest.moscowfsl.wsu.edu/ssg/</a> 
+  <br>
+  Last Revised: 
+  <script language="javascript" type="text/javascript">
+     <!-- hide
+      document.write(document.lastModified)
+     // end hide -->
+    </script>
+  </font></p>
+ </body>
+</html>

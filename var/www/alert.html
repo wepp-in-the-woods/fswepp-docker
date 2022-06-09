@@ -1,0 +1,31 @@
+<html>
+ <head>
+  <title>USFS RMRS Moscow Lab personnel comment form</title>
+  <link rel=stylesheet href="/css/rmrs.css" type="text/css">
+ </head>
+ <body background="/images/smokey.gif" onload="getParms()">
+  <font face="trebuchet, tahoma, arial, sans serif">
+      <SPAN class="h1r" id="title1">
+       Website alert
+      </SPAN>
+      <BR>
+       <br>
+       <FORM method="post" action="/cgi-bin/alert.pl">
+       <B class="h2bk">Please fill in the following information:</B>
+       <br>
+         <SPAN class="dk10pt">Password:
+           <INPUT type="password" name="pass" size="20" maxlength="20">
+         </SPAN>
+         <BR />
+         <SPAN class="dk10pt">Notice: (limit 900 characters)</SPAN><BR /> 
+         <TEXTAREA name="notice" cols="60" rows="16"></TEXTAREA>
+         <BR />
+         <BR />
+         <INPUT type="submit" name="Submit" value="Submit">&nbsp;
+         <INPUT type="button" name="Cancel" value="Cancel" onClick="self.close()">
+         <BR />
+         <BR />
+       </FORM>
+       <IMG src="/images/spacer.gif" width="20" height="1">
+ </BODY>
+</HTML>

@@ -1,0 +1,186 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"
+      "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+ <head>
+  <title>Soil and Water Engineering WEPP Forest Files</title>
+  <meta name="Author" content="Hall">
+  <meta name="Expires" content="never">
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <meta name="description" content="WEPP data files developed by Forest Service scientists and engineers to model some typical forest conditions">
+  <meta name="keywords" content="soil erosion data files forest conditions FSWEPP WEPP forest service research">
+  <link rel=stylesheet href="/css/rmrs.css" type="text/css">
+ </head>
+
+ <body bgcolor="#CCCCFF">
+  <table width="100%" border="0" cellpadding="0" cellspacing="0">
+   <tr> 
+    <td rowspan="3" bgcolor="#FFFFFF" valign="top" width="149"><img src="/images/logo.gif" alt="Rocky Mountain Research Station Logo" width="149" height="116"></td>
+    <td width="100%" bgcolor="#CCCCFF" align="right" class="dk10pt">USDA Forest Service<br />
+      Rocky Mountain Research Station<br />
+      Forestry Sciences Laboratory - Moscow, Idaho</td>
+    <td bgcolor="#CCCCFF" width="11"><img src="/images/spacer.gif" width="11" height="72"></td>
+   </tr>
+   <tr> 
+    <td width="100%" bgcolor="#669966" align="right" class="m1">
+     <a href="/people/" class="m1">Moscow Personnel</a>&nbsp; |&nbsp;
+     <a href="/siteindex.html" class="m1">Site Index</a>&nbsp; |&nbsp;
+     <a href="/sitemap.html" class="m1">Site Map</a>&nbsp; |&nbsp;
+     <a href="/" class="m1">Moscow Home</a>
+    </td>
+    <td bgcolor="#669966" width="11"><img src="/images/spacer.gif" width="11" height="20"></td>
+   </tr>
+   <tr> 
+    <td width="100%" bgcolor="#000033" align="right" class="m2">
+     <a href="info.html" class="m2">Project Information</a>&nbsp; |&nbsp;
+     <a href="software.html" class="m2">Modeling Software</a>&nbsp; |&nbsp;
+     <a href="library/" class="m2">Library</a>&nbsp; |&nbsp;
+     <a href="photos.html" class="m2">Project Photos</a>&nbsp; |&nbsp; 
+     <a href="links.html" class="m2">Offsite Links</a>&nbsp; |&nbsp;
+     <a href="index.html" class="m2">Eng. Home</a>
+    </td>
+    <td bgcolor="#000033" width="11"><img src="/images/spacer.gif" width="11" height="24"></td>
+   </tr>
+  </table>
+  <table border="0" cellpadding="0" cellspacing="0">
+  <tr> 
+    <td width="8" rowspan="2" bgcolor="#FFFFFF"><img src="images/spacer.gif" width="8" height="375"></td>
+    <td width="15%" rowspan="2" bgcolor="#FFFFFF" valign="top"><span class="dk10pt"><br />
+      <b>Soil &amp; Water<br />
+      Engineering Software:</b><br />
+      <br />
+      <a href="roadsw.html">Road Erosion</a><br />
+      <a href="erodesw.html">Fire Effects</a><br />
+      <a href="erodesw.html">Disturbed Forests</a><br />
+      <a href="slopesw.html">Slope Stability</a><br />
+      <a href="/fswepp/">Erosion Modeling</a><br />
+      <a href="climatesw.html">Climate Modeling</a><br /></span>
+
+      <br />
+      <p>Project Leader:<br />
+        <a href="/people/engr/welliot.html">William J. Elliot</a><br />
+        <a href="/cgi-bin/fswepp/commform.pl?&recipient=welliot&title=William%20Elliot"><img src="/images/mail.gif" border=0 width="32" height="21" alt="email Bill"></a> 
+        <br />
+      </p>
+       <p>
+        Last Revised: <br />
+
+       <script>
+        <!-- hide
+         document.write(document.lastModified)
+        // end hide -->
+       </script>
+      </p>
+
+      <p>Contact Webmaster<br />
+       <a href="http://forest.moscowfsl.wsu.edu/cgi-bin/fswepp/commform.pl?&recipient=webmaster&title=the%20Webmaster"><img src="/images/mail.gif" border=0 width="32" height="21"></a>
+      </p>
+    <td width="85%" height="375" bgcolor="#FFFFFF" valign="top"> 
+      <table width="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td colspan="5"><img src="images/spacer.gif" width="1" height="40"></td>
+        </tr>
+        <tr> 
+          <td width="20" bgcolor="#FFFFFF"><img src="/images/spacer.gif" width="20"></td>
+          <td width="6" bgcolor="#CCCCFF"><img src="/images/spacer.gif" width="6"></td>
+          <td width="20" bgcolor="#FFFFFF"><img src="/images/spacer.gif" width="20"></td>
+          <td width="100%" bgcolor="#FFFFFF"><a href="/engr/" class="h1">Soil and Water Engineering</a>
+          <span class="h1bk"> &nbsp;&gt; &nbsp;</span><a href="software.html" class="h1">Modeling Software</a>
+<span class="h1bk">
+<!--
+&nbsp; &gt; &nbsp;<a href="/fswepp/" class="h1">FS WEPP on the WWW</a>
+-->&nbsp; &gt; &nbsp;</span><span class="h1r">WEPP Forest Files</span><br />
+            <br /><br />
+
+<p>WEPP data files have been developed by Forest Service scientists and engineers
+to model some typical forest conditions. These files are part of a growing
+database of information to assist users in running WEPP for forest conditions.</p>
+<p>
+The WEPP Forest Files work only with the DOS version of WEPP.  We are in
+the process of making a set that will work under the Windows version of WEPP.</p>
+<p>
+The objective is to provide forest environment input data in template format.
+We have provided seven forest profiles that describe both roads and
+harvest areas in the forest.
+The road files are for insloped roads, outsloped roads, insloped roads
+with a sediment plume, and rutted roads.</p>
+<p>
+The harvest area scenarios are for a 100-year forest regeneration
+sequence, a forest with a burn in year two, and a forest skid trail with a
+skid operation in year two.</p>
+<p>
+These files are based on the cropland format.
+Although cropland is an "agricultural" format, this format was used
+instead of the rangeland format because cropland allows for "tillage"
+operations which are necessary to describe blading or traffic on roads,
+skidding in forests, and other operations that mechanically disturb the soil.</p>
+<p>
+<b>Download</b> the following files to your PC (onto a
+floppy disk or into your favorite WEPP directory):
+<br /><br />
+              <img src="/images/disk.gif" align=middle hspace=15 alt="floppy icon"> 
+              <img src="/images/epage50x.gif" align=middle hspace=15 alt="pub. icon"> 
+            </p>
+ <blockquote>
+  <table>
+   <tr>
+    <td><img src="/images/pdficonsmall.gif" alt="pdf"></td>
+    <td>WEPP forest files <a href="forestap/forestap.pdf">draft documentation</a></td>
+    <td>["WEPP Forest Applications;" 14-page 378K PDF file]</td>
+  </tr>
+  <tr>
+    <td>
+ <!-- <img src="internal-gopher-binary"> -->
+        <img src="/images/binary.gif">
+    </td>
+    <td>WEPP forest files 
+     <a href="ftp://forest.moscowfsl.wsu.edu/water/wepp/forest.exe"> archive</a></td>
+    <td>[125 kilobyte executable self-extracting ZIP file]</td>
+   </tr>
+  </table>
+ </blockquote>
+
+<br />
+<p><b>Install:</b></p>
+<ul><li>In Windows 95 and Windows 3.<i>x</i>:
+<ol>
+   <li>Select <tt>Start</tt> on the <i>taskbar</i> (W95) or <tt>File</tt>
+       in <i>Program Manager</i> (W3.<i>x</i>)</li>
+   <li>Select <tt>Run...</tt></li>
+   <li><tt>Browse</tt> to find and open the <tt>forest.exe</tt> file you 
+       downloaded, and press <tt>OK</tt></li>
+   <li>When asked for an "unzip-to" folder name, enter the name of the
+       root directory for the drive in
+       which WEPP is installed.  The default is <tt>c:\</tt>.</li>
+</ol></li>
+<li>or, in DOS:
+<ol>
+   <li>Move to the root directory of the drive in which WEPP is (or
+       will be) installed, and type the full path and file name of
+       <tt>forest.exe</tt>.  For example, enter
+       <tt>c:\wepp\util\forest.exe</tt></li>
+</ol></li>
+</ul>
+<p><tt>Forest</tt> will copy a number of data files into the WEPP input data directories.</p>
+            <br /><br />
+            <div align="center">
+             <span class="dk10pt">
+              <a href="wepp0.html">Erosion Modeling Information</a> &nbsp; |&nbsp;
+              <a href="/fswepp/">Erosion Modeling Software (FS WEPP)</a>&nbsp; |&nbsp;
+              <a href="wepppubs.html">Erosion Modeling Publications</a>&nbsp; |&nbsp;
+              <a href="weppph.html">Erosion Modeling Project Photos</a>&nbsp; |&nbsp;
+              <a href="links0.html#wepp">Related Offsite Links</a>&nbsp; |&nbsp;
+              <a href="/engr/">Soil &amp; Water Engineering Home</a>
+             </span>
+            </div>
+           </td>
+           <td width="20" bgcolor="#FFFFFF"><img src="images/spacer.gif" width="20" height="1"></td>
+         </tr>
+        </table>
+       </td>
+      </tr>
+      <tr>
+       <td width="100%" bgcolor="#FFFFFF"><img src="images/spacer.gif" width="1" height="20"></td>
+      </tr>
+    </table>
+ </body>
+</html>

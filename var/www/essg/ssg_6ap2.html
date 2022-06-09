@@ -1,0 +1,515 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+ <head>
+  <title>SSG Appendix 6.2: Shear Trench Sample Problem</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <!--
+    Hall, D.E.; Long, M.T.; Remboldt, M.D., editors. 1994.
+    Slope Stability Reference Guide for National Forests in the United States.
+    Prellwitz, R.W.; Koler, T.E.; Steward, J.E., coordinators.
+    Publication EM-7170-13.
+    Washington, DC: U.S. Department of Agriculture, U.S. Forest Service, Engineering Staff. 
+    3 volumes, 1091 p.
+    Corrected [2006] electronic version at http://forest.moscowfsl.wsu.edu/ssg/
+  -->
+ </head>
+
+ <body bgcolor="#FFFFFF">
+  
+  <table width="625" border="1" cellspacing="0" cellpadding="8" bgcolor="#CCCC99">
+   <tr> 
+    <td> 
+      <p align="center"><font face="Arial, Helvetica, sans-serif" size="2">[ <a href="index.html">Slope 
+        Stability Reference Guide Home</a> ]<br>
+        [ <a href="ssg_6toc.html">Section 6 TOC</a> ] <br>
+        [ &lt; <a href="ssg_6ap1.html">Appendix 6.1</a> ] [ <a href="ssg_6ap3.html">Appendix 
+        6.3 </a>&gt; ] </font></p>
+    </td>
+   </tr>
+  </table>
+  
+  
+<table width="625" border="0" cellspacing="2" cellpadding="8">
+  <tr> 
+    <td colspan="5" align="center" valign="top"><font face="Arial, Helvetica, sans-serif"><b>Slope 
+      Stability Reference Guide for National Forests in the United States <br>
+      Volume III, Chapter 6, Appendix 6.2</b></font> <hr> </td>
+  </tr>
+  <tr> 
+    <td width="107" valign="top"> <div align="right"><strong><font face="Arial, Helvetica, sans-serif" size="4">6.2 
+        </font></strong></div></td>
+    <td valign="top" colspan="4" width="494"><strong><font face="Arial, Helvetica, sans-serif" size="4">Shear 
+      Trench Sample Problem</font></strong></td>
+  </tr>
+  <tr> 
+    <td colspan="5"> <hr> </td>
+  </tr>
+  <tr> 
+    <td width="107" valign="top" height="24"><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+    <td class="fig" valign="top" colspan="4" height="24" width="494"> <p><font face="Arial, Helvetica, sans-serif" size="2"><i>Michael 
+        T. Long, Engineering Geologist, Willamette National Forest</i></font></p></td>
+  </tr>
+  <tr> 
+    <td colspan="5"> <hr> </td>
+  </tr>
+</table>
+<table width="625" border="0" cellspacing="2" cellpadding="2">
+  <tr> 
+    <td rowspan="4" valign="top"><font face="Arial, Helvetica, sans-serif" size="2"><b>Background</b></font></td>
+    <td width="81%"> <p><font face="Arial, Helvetica, sans-serif" size="2">A sidehill 
+        embankment on Highway 47 has been active for at least 30 years. Initially, 
+        the roadway was maintained by placing AC overlays on the sunken grade 
+        (head scarp area). In recent years, the roadway has been shifted away 
+        from the slide head scarp, and a temporary guardrail has been installed 
+        at the new fog line. The original roadway included two travel lanes, one 
+        westbound climbing lane, and shoulders. The purpose of the project is 
+        to restore the original highway alignment and lane shoulder widths.</font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">The formation exposed 
+        in the cutslopes consists predominantly of tuffaceous siltstone/mudstone. 
+        The soil unit within the slide area is of residual origin and is classified 
+        as silt and clayey silt. Springs and ground movement are evident at the 
+        toe of the slide, which is located about 20 feet upslope of a gravel-surfaced 
+        county road. Subsurface conditions were explored with three borings and 
+        two test pits. Steel inclinometer tubing was installed in each boring 
+        to measure the depth to the failure zone. Location of the borings and 
+        test pits are shown on the site plan, figure <a href="#Fig_6.2.1">6.2.1</a>.</font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">The surface soil consists 
+        of 5 to 27 feet of fill material that was placed during original construction. 
+        The fill material consists of blocky siltstone fragments in a light brown 
+        sandy silt matrix. Beneath the fill material is 3 to 7 feet of stiff tan-to-brown 
+        clayey silt with some siltstone fragments, wood fibers, and roots. A tan 
+        siltstone rock unit underlies the soil units. The siltstone rock is typically 
+        soft to medium-hard and is generally rippable. Testing results on samples 
+        obtained during the subsurface exploration are listed in table <a href="#Table_6.2.1">6.2.1</a>.</font></p></td>
+  </tr>
+  <tr> 
+    <td width="81%" bgcolor="#CCCC99"> <div align="center"> 
+        <p><font size="2" face="Arial, Helvetica, sans-serif"><a name="Fig_6.2.1"></a><a href="images/App6_2/app6_2f992.gif" target="_blank"><img src="images/App6_2/app6_2f992.gif" width="454" height="330" border="1"></a></font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><i>Figure 6.2.1 
+          - Site plan showing location of the borings and test pits (from ODOT, 
+          1988).</i></font></p>
+      </div></td>
+  </tr>
+  <tr> 
+    <td width="81%" bgcolor="#CCCC99"> <p align="center"><font size="2" face="Arial, Helvetica, sans-serif"><i><a name="Table_6.2.1" id="Table_6.2.1"></a>Table 
+        6.2.1 - Test results from subsurface exploration.</i></font></p>
+      <div align="center"> 
+        <table width="98%" border="1" cellspacing="0" cellpadding="2" bgcolor="#FFFFFF">
+          <tr> 
+            <td rowspan="2" width="13%"> <div align="center"><font size="2" face="Arial, Helvetica, sans-serif"><b>Source</b></font></div></td>
+            <td rowspan="2" width="15%"> <div align="center"><font size="2" face="Arial, Helvetica, sans-serif"><b>Sample 
+                No.</b></font></div></td>
+            <td rowspan="2" width="16%"> <div align="center"><font size="2" face="Arial, Helvetica, sans-serif"><b>Depth 
+                Desc.</b></font></div></td>
+            <td rowspan="2" width="17%"> <div align="center"><font size="2" face="Arial, Helvetica, sans-serif"><b>Soil</b></font></div></td>
+            <td rowspan="2" width="9%"> <div align="center"><font size="2" face="Arial, Helvetica, sans-serif"><b>USCS</b></font></div></td>
+            <td colspan="2" rowspan="2"> <div align="center"><font size="2" face="Arial, Helvetica, sans-serif"><b>Natural 
+                Moisture Content</b></font></div></td>
+            <td colspan="2"> <div align="center"><font size="2" face="Arial, Helvetica, sans-serif"><b>Atterberg 
+                Limits</b></font></div></td>
+          </tr>
+          <tr> 
+            <td width="7%"> <div align="center"><font size="2" face="Arial, Helvetica, sans-serif"><b>L.L.</b></font></div></td>
+            <td width="9%"> <div align="center"><font size="2" face="Arial, Helvetica, sans-serif"><b>P.L.</b></font></div></td>
+          </tr>
+          <tr> 
+            <td width="13%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">Test 
+                Pit 1</font></div></td>
+            <td width="15%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">Bag 
+                No. 1</font></div></td>
+            <td width="16%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">15 
+                ft</font></div></td>
+            <td width="17%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">Silt</font></div></td>
+            <td width="9%"> <div align="center"><font size="2" face="Arial, Helvetica, sans-serif"><b>ML</b></font></div></td>
+            <td colspan="2"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">38%</font></div></td>
+            <td width="7%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">38%</font></div></td>
+            <td width="9%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">28%</font></div></td>
+          </tr>
+          <tr> 
+            <td width="13%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">Test 
+                Pit 2</font></div></td>
+            <td width="15%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">Bag 
+                No. 1</font></div></td>
+            <td width="16%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">18 
+                ft </font></div></td>
+            <td width="17%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">Clayey 
+                Silt</font></div></td>
+            <td width="9%"> <div align="center"><font size="2" face="Arial, Helvetica, sans-serif"><b>MH</b></font></div></td>
+            <td colspan="2"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">60%</font></div></td>
+            <td width="7%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">73%</font></div></td>
+            <td width="9%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">38%</font></div></td>
+          </tr>
+          <tr> 
+            <td width="13%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">TB-100</font></div></td>
+            <td width="15%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">N-5</font></div></td>
+            <td width="16%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">27.5-29 
+                ft</font></div></td>
+            <td width="17%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">Clayey 
+                Silt</font></div></td>
+            <td width="9%"> <div align="center"><font size="2" face="Arial, Helvetica, sans-serif"><b>MH</b></font></div></td>
+            <td colspan="2"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">62%</font></div></td>
+            <td width="7%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">75%</font></div></td>
+            <td width="9%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">55%</font></div></td>
+          </tr>
+          <tr> 
+            <td width="13%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">TB-101</font></div></td>
+            <td width="15%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">N-4</font></div></td>
+            <td width="16%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">27.5-29 
+                ft</font></div></td>
+            <td width="17%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">Clayey 
+                Silt</font></div></td>
+            <td width="9%"> <div align="center"><font size="2" face="Arial, Helvetica, sans-serif"><b>MH</b></font></div></td>
+            <td colspan="2"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">46%</font></div></td>
+            <td width="7%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">65%</font></div></td>
+            <td width="9%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">47%</font></div></td>
+          </tr>
+        </table>
+      </div></td>
+  </tr>
+  <tr> 
+    <td width="81%"><font face="Arial, Helvetica, sans-serif" size="2">The basic 
+      geologic cross-section and material properties used in the analysis are 
+      shown in figure 6.2.2. Enough movement had occurred to anticipate that the 
+      friction angle along the failure plane was at its residual value. An XSTABL 
+      analysis was run to back-calculate the friction angle. The analysis cross-section 
+      consisted of the slide mass and high density fill overlying about 4 feet 
+      of the silt and clayey silt soil unit. Below all the soil units is a siltstone 
+      unit. A 5-foot-high water table is perched above the clayey silt soil unit. 
+      Inclinometer measurements indicate that the failure zone is located within 
+      the residual clayey-silt soil unit. Several XSTABL runs, using the specific 
+      noncircular option, were made varying the slide zone friction angle. Cohesion 
+      was set to zero. Factor of safety versus friction angle was plotted as shown 
+      in figure <a href="#Fig_6.2.3">6.2.3</a> and the residual angle of friction 
+      was estimated to be 23.5°, which agrees with charts relating plasticity 
+      index to residual friction angles (section <a href="ssg_4cs.html#4C.3.4">4C.3.4</a>). 
+      Figure <a href="#Fig_6.2.4">6.2.4</a> shows an XSTABL run with a friction 
+      angle of 23.5°, resulting in a factor of safety of 1.007. This back-calculated 
+      condition was used to calculate the stability of a shear trench.</font></td>
+  </tr>
+  <tr> 
+    <td rowspan="4" valign="top">&nbsp;</td>
+    <td width="81%" bgcolor="#CCCC99"> <div align="center"> 
+        <p><font size="2" face="Arial, Helvetica, sans-serif"><a name="Fig_6.2.2"></a><a href="images/App6_2/app6_2f994.gif" target="_blank"><img src="images/App6_2/app6_2f994.gif" width="502" height="330" border="1"></a></font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><i>Figure 6.2.2 
+          - The basic geologic cross-section and material properties used in the 
+          analysis (from ODOT, 1988).</i></font></p>
+      </div></td>
+  </tr>
+  <tr> 
+    <td width="81%" bgcolor="#CCCC99"> <div align="center"> 
+        <p><font size="2" face="Arial, Helvetica, sans-serif"><a name="Fig_6.2.3"></a><img src="images/App6_2/app6_2f995.gif" width="400" height="322"></font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><i>Figure 6.2.3 
+          - Factor of safety versus friction angle. Residual friction angle was 
+          estimated to be 23.5°.</i></font></p>
+      </div></td>
+  </tr>
+  <tr> 
+    <td width="81%" bgcolor="#CCCC99"> <div align="center"> 
+        <p><font size="2" face="Arial, Helvetica, sans-serif"><a name="Fig_6.2.4"></a><img src="images/App6_2/app6_2f996.gif" width="500" height="337"></font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><i>Figure 6.2.4 
+          - An XSTABL run with a friction angle of 23.5°, resulting in a factor 
+          of safety of 1.007. This back-analyzed condition was used to calculate 
+          the stability of a shear trench.</i></font></p>
+      </div></td>
+  </tr>
+  <tr> 
+    <td width="81%" bgcolor="#CCCC99" height="453"> <div align="center"> 
+        <p><font size="2" face="Arial, Helvetica, sans-serif"><a href="images/App6_2/app6_2f997.gif" target="_blank"><img src="images/App6_2/app6_2f997.gif" width="213" height="418" border="1"></a></font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><i>Figure 6.2.4 
+          - An XSTABL run with a friction angle of 23.5° (continued). </i></font></p>
+        <p>&nbsp;</p>
+      </div></td>
+  </tr>
+  <tr valign="middle"> 
+    <td colspan="2"> <hr> </td>
+  </tr>
+  <tr> 
+    <td valign="top"><font face="Arial, Helvetica, sans-serif" size="3"><b>Shear 
+      Trench Width</b></font></td>
+    <td width="81%"><font face="Arial, Helvetica, sans-serif" size="2">Figure 
+      6.2.5 shows the profile of a portion of the slide with a shear trench. XSTABL 
+      stability analyses were run with trench widths along the failure plane varying 
+      from 30 to 50 feet. The failure surface used in the analysis was the same 
+      as the surface used in finding the residual friction angle. Shear trench 
+      material was anticipated to be clean, durable rock with a maximum size of 
+      about 15 inches. The shear trench was anticipated to intercept the majority 
+      but not all of the ground water. A small ground water table perched above 
+      the failure plane along the lower part of the slope was used in the stability 
+      analysis. A minimum factor of safety of 1.2 was chosen for the site. A trench 
+      width of 40 feet resulted in a factor of safety greater than the 1.2 minimum 
+      required and was chosen for further analysis. Figure 6.2.6 shows the results 
+      of an XSTABL run with a trench width of 40 feet.</font></td>
+  </tr>
+  <tr> 
+    <td valign="top">&nbsp;</td>
+    <td width="81%" bgcolor="#CCCC99"> <div align="center"> 
+        <p><font size="2" face="Arial, Helvetica, sans-serif"><a name="Fig_6.2.5"></a><a href="images/App6_2/app6_2f998.gif" target="_blank"><img src="images/App6_2/app6_2f998.gif" width="435" height="298" border="1"></a></font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><i>Figure 6.2.5 
+          - A portion of the slide with a shear trench. XSTABL stability analyses 
+          were run with trench widths, along the failure plane, varying from 30 
+          to 50 feet.</i></font></p>
+      </div></td>
+  </tr>
+  <tr> 
+    <td valign="top">&nbsp;</td>
+    <td width="81%" bgcolor="#CCCC99"> <p><font size="2" face="Arial, Helvetica, sans-serif"><a name="Fig_6.2.6"></a><img src="images/App6_2/app6_2f999.gif" width="500" height="339"></font></p>
+      <p align="center"><font face="Arial, Helvetica, sans-serif" size="2"><i>Figure 
+        6.2.6 - The results of an XSTABL run with a trench width of 40 feet. </i></font></p></td>
+  </tr>
+  <tr> 
+    <td valign="top">&nbsp;</td>
+    <td width="81%" bgcolor="#CCCC99"> <div align="center"> 
+        <p><font size="2" face="Arial, Helvetica, sans-serif"><a href="images/App6_2/app6_2f1000.gif" target="_blank"><img src="images/App6_2/app6_2f1000.gif" width="234" height="359" border="1"></a></font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><i>Figure 6.2.6 
+          - The results of an XSTABL run with a trench width of 40 feet. (continued).</i></font></p>
+      </div></td>
+  </tr>
+  <tr> 
+    <td colspan="2" valign="top"><hr></td>
+  </tr>
+  <tr> 
+    <td width="19%" valign="top"><font face="Arial, Helvetica, sans-serif" size="3"><b>Shear 
+      Trench Depth</b></font></td>
+    <td width="81%"><font face="Arial, Helvetica, sans-serif" size="2">The shear 
+      trench will be embedded at least 5 feet into the underlying siltstone. A 
+      stability analysis along the bottom of the trench within the siltstone results 
+      in a high factor of safety. During construction it is important that both 
+      the design embedment and the siltstone unit be field-verified.</font></td>
+  </tr>
+  <tr valign="middle"> 
+    <td colspan="2"> <hr align="center"> </td>
+  </tr>
+  <tr> 
+    <td valign="top"><font face="Arial, Helvetica, sans-serif" size="3"><b>Analysis 
+      with Passive Wedge Exiting Through Shear Trench</b></font></td>
+    <td width="81%"><font face="Arial, Helvetica, sans-serif" size="2">Failure 
+      with the passive wedge exiting through the shear trench was investigated 
+      with XSTABL using the block surface search analysis option. The Rankine 
+      method was used in the analysis to define the active and passive portions 
+      of the failure surface. Two boxes were defined for the analysis. Box 1 was 
+      located to vary the location of the passive portion of the failure surface 
+      as shown in figure <a href="#Fig_6.2.7">6.2.7</a>. Box 2 was located to 
+      allow the active wedge to exit at various points along the road width. Figure 
+      <a href="#Fig_6.2.8">6.2.8 </a>shows the results of the XSTABL analysis. 
+      As expected, the most critical surfaces (those with the lowest calculated 
+      factor of safety) have the shortest lengths within the high strength shear 
+      trench material.</font></td>
+  </tr>
+  <tr> 
+    <td valign="top">&nbsp;</td>
+    <td width="81%" bgcolor="#CCCC99"> <div align="center"> 
+        <p><font size="2" face="Arial, Helvetica, sans-serif"><a name="Fig_6.2.7"></a><a href="images/App6_2/app6_2f1001.gif" target="_blank"><img src="images/App6_2/app6_2f1001.gif" width="450" height="305" border="1"></a></font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><i>Figure 6.2.7 
+          - Two boxes were defined for the Rankine analyis. Box 1 was located 
+          to vary the location of the passive portion of the failure surface as 
+          shown. Box 2 was located to allow the active wedge to exit at various 
+          points along the road width.</i></font></p>
+      </div></td>
+  </tr>
+  <tr> 
+    <td valign="top">&nbsp;</td>
+    <td width="81%" bgcolor="#CCCC99"> <p><font size="2" face="Arial, Helvetica, sans-serif"><a name="Fig_6.2.8"></a><img src="images/App6_2/app6_2f1002.gif" width="500" height="340"></font></p>
+      <p align="center"><font face="Arial, Helvetica, sans-serif" size="2"><i>Figure 
+        6.2.8 - The results of the XSTABL analysis. As expected, the most critical 
+        surfaces have the shortest lengths within the high strength shear trench 
+        material.</i></font></p></td>
+  </tr>
+  <tr> 
+    <td valign="top">&nbsp;</td>
+    <td width="81%" bgcolor="#CCCC99"> <div align="center"> 
+        <p><font size="2" face="Arial, Helvetica, sans-serif"><a href="images/App6_2/app6_2f1003.gif" target="_blank"><img src="images/App6_2/app6_2f1003.gif" width="240" height="403" border="1"></a></font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><i>Figure 6.2.8 
+          - The results of the XSTABL analysis (continued).</i></font></p>
+      </div></td>
+  </tr>
+  <tr valign="middle"> 
+    <td colspan="2"> <hr> <b></b></td>
+  </tr>
+  <tr> 
+    <td valign="top"><b><font face="Arial, Helvetica, sans-serif" size="3">Analysis 
+      with Passive Wedge Exiting Behind Shear Trench</font></b></td>
+    <td width="81%"><font face="Arial, Helvetica, sans-serif" size="2">Failure 
+      with the passive wedge exiting behind the shear trench was not anticipated 
+      to be a problem because of the depth to the failure plane. However, analysis 
+      for failure behind the shear trench is similar to the analysis of failure 
+      through the shear trench. Two boxes were defined for the block surface search 
+      analysis option of XSTABL as shown in figure <a href="#Fig_6.2.9">6.2.9</a>. 
+      Box 1 was located to vary the point where the passive wedge exits, from 
+      just behind the shear trench to about 8 feet upslope from the shear trench. 
+      Box 2 was not changed from the previous analysis. Figure <a href="#Figure%206.2.10">6.2.10</a> 
+      shows the ten most critical surfaces. All ten exit points cluster around 
+      the back point of the shear trench and intercept box 1 near the downslope 
+      box boundary. This essentially defines the shortest path for the passive 
+      portion of the failure surface to exit the slide mass.</font></td>
+  </tr>
+  <tr> 
+    <td valign="top">&nbsp;</td>
+    <td width="81%" bgcolor="#CCCC99" height="384"> <div align="center"> 
+        <p><font size="2" face="Arial, Helvetica, sans-serif"><a name="Fig_6.2.9"></a><a href="images/App6_2/app6_2f1004.gif" target="_blank"><img src="images/App6_2/app6_2f1004.gif" width="449" height="331" border="1"></a></font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><i>Figure 6.2.9 
+          - Two boxes were defined for the block surface search analysis. Box 
+          1 was located to vary the location of the passive wedge exits, from 
+          just behind the shear trench to about 8 feet upslope from the shear 
+          trench. Box 2 was not changed from the previous analysis.</i></font></p>
+      </div></td>
+  </tr>
+  <tr> 
+    <td valign="top">&nbsp;</td>
+    <td width="81%" bgcolor="#CCCC99"> <div align="center"> 
+        <p><font size="2" face="Arial, Helvetica, sans-serif"><a name="Figure 6.2.10"></a><a href="images/App6_2/app6_2f1005.gif" target="_blank"><img src="images/App6_2/app6_2f1005.gif" width="498" height="335" border="1"></a></font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><i>Figure 6.2.10 
+          - The ten most critical surfaces. All ten exit points cluster arond 
+          the back point of the shear trench and intercept box 1 near the downslope 
+          box boundary.</i></font></p>
+      </div></td>
+  </tr>
+  <tr> 
+    <td width="19%" valign="top" height="239">&nbsp;</td>
+    <td width="81%" bgcolor="#CCCC99" height="239"> <div align="center"> 
+        <p><font size="2" face="Arial, Helvetica, sans-serif"><a href="images/App6_2/app6_2f1006.gif" target="_blank"><img src="images/App6_2/app6_2f1006.gif" width="256" height="292" border="1"></a></font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><i>Figure 6.2.10 
+          - The ten most critical surfaces (continued).</i></font></p>
+      </div></td>
+  </tr>
+  <tr> 
+    <td colspan="2" valign="top"><hr> </td>
+  </tr>
+  <tr> 
+    <td valign="top"><font face="Arial, Helvetica, sans-serif" size="3"><b>Analysis 
+      with Active Wedge Exiting Shear Trench</b></font></td>
+    <td width="81%"><font face="Arial, Helvetica, sans-serif" size="2">The block 
+      surface search option of XSTABL was used to analyze this condition. Three 
+      boxes were defined for the analysis. Box 1 and box 2 were point boxes located 
+      on the existing failure plane below the shear trench. Box 3 was located 
+      to vary the active portion of the failure surface within the shear trench 
+      as shown in figure <a href="#Fig_6.2.11">6.2.11</a>. Figure <a href="#Fig_6.2.12">6.2.12</a> 
+      shows the ten most critical surfaces from the XSTABL analysis. All ten active 
+      wedges toe out near the downslope boundary of the shear trench. As expected, 
+      the failure surfaces with the least length within the high strength shear 
+      trench material generate the lowest factors of safety. As can be seen from 
+      the results, the factor of safety is 1.17, which is close to but below the 
+      specified minimum of 1.2. Judgment by the designer is required whether 1.17 
+      is an acceptable or an unacceptable factor of safety. </font></td>
+  </tr>
+  <tr> 
+    <td valign="top">&nbsp;</td>
+    <td width="81%" bgcolor="#CCCC99"> <div align="center"> 
+        <p><font size="2" face="Arial, Helvetica, sans-serif"><a name="Fig_6.2.11"></a><a href="images/App6_2/app6_2f1007.gif" target="_blank"><img src="images/App6_2/app6_2f1007.gif" width="423" height="327" border="1"></a></font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><i>Figure 6.2.11 
+          - Three boxes were defined for the block surface search analysis. Box 
+          1 and box 2 were point boxes located on the existing failure plane below 
+          the shear trench. Box 3 was located to vary the active portion of the 
+          failure surface within the shear trench.</i></font></p>
+      </div></td>
+  </tr>
+  <tr> 
+    <td valign="top">&nbsp;</td>
+    <td width="81%" bgcolor="#CCCC99"> <div align="center"> 
+        <p><font size="2" face="Arial, Helvetica, sans-serif"><a name="Fig_6.2.12"></a><a href="images/App6_2/app6_2f1008.gif" target="_blank"><img src="images/App6_2/app6_2f1008.gif" width="429" height="293" border="1"></a>\</font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><i>Figure 6.2.12 
+          - The ten most critical surfaces from the XSTABL analysis. All ten active 
+          wedges toe out near the downslope boundary of the shear trench. </i></font></p>
+      </div></td>
+  </tr>
+  <tr> 
+    <td valign="top">&nbsp;</td>
+    <td width="81%" bgcolor="#CCCC99" height="325"> <div align="center"> 
+        <p><font size="2" face="Arial, Helvetica, sans-serif"><a href="images/App6_2/app6_2f1009.gif" target="_blank"><img src="images/App6_2/app6_2f1009.gif" width="258" height="269" border="1"></a></font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><i>Figure 6.2.12 
+          - The ten most critical surfaces from the XSTABL analysis (continued). 
+          </i> </font></p>
+      </div></td>
+  </tr>
+  <tr> 
+    <td colspan="2" valign="top"><hr></td>
+  </tr>
+  <tr> 
+    <td width="19%" valign="top"><font face="Arial, Helvetica, sans-serif" size="3"><b>Stability 
+      Below the Shear Trench</b></font></td>
+    <td width="81%"> <p><font face="Arial, Helvetica, sans-serif" size="2">A shear 
+        trench's full stabilizing effect is on the failure mass located upslope 
+        from the trench. Marginal slopes located below the shear trench can be 
+        affected positively by the interception or lowering of the ground water. 
+        In this example, with tension cracks located within the lower part of 
+        the slope, the stability below the shear trench is in question. Results 
+        of an XSTABL analysis on the slope below the shear trench indicate that 
+        even with a general lowering of the ground water, a high potential for 
+        continuing slow movement of the lower slope exists. In many cases the 
+        main objective of the use of a shear trench is to stabilize a slope containing 
+        a road or a structure. Slow movement of a slope below the shear trench 
+        may have little or no consequence and be acceptable.</font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">In this example a 
+        small road is located at the toe of the slope. Continuing movement of 
+        the lower part of the slope may affect maintenance costs of the lower 
+        road or possibly close the road for short times due to small backslope 
+        failures. The risk to the lower road may dictate an alternative action, 
+        such as a shear trench with buttress at the slide's toe. Comparing and 
+        evaluating alternatives by risk analysis is covered in <a href="ssg_6i.html">section 
+        6I</a>.</font></p></td>
+  </tr>
+  <tr> 
+    <td colspan="2" valign="top"><hr></td>
+  </tr>
+  <tr> 
+    <td width="19%" valign="top"><b><font face="Arial, Helvetica, sans-serif" size="3">General 
+      Comments</font></b></td>
+    <td width="81%"> <p><font size="2" face="Arial, Helvetica, sans-serif">Figure 
+        6.2.13 shows a recommended sequence for shear trench stage construction. 
+        The excavation should be backfilled with shear trench material by the 
+        end of each working day.</font></p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif">At a minimum, riprap 
+        geotextile should be placed along the backcut soil slope of the shear 
+        trench. The shear trench should be drained. In this case, a 6-inch diameter 
+        perforated pipe was used to collect the ground water. The collected water 
+        was directed away from the slide area through a nonperforated pipe.</font></p></td>
+  </tr>
+  <tr> 
+    <td colspan="2" ><hr>
+      </td>
+  </tr>
+  <tr> 
+    <td valign="top"><b><font face="Arial, Helvetica, sans-serif" size="3">Reference</font></b></td>
+    <td width="81%"><font size="2" face="Arial, Helvetica, sans-serif">Oregon 
+      Department of Transportation. 1988. <i>Geotechnical Report, Staley Slide,Unit 
+      1, Sunset Highway 47, MP 44.6, Washington County</i>. Salem, OR: Oregon 
+      Department of Transportation.</font></td>
+  </tr>
+  <tr> 
+    <td valign="top">&nbsp;</td>
+    <td width="81%" bgcolor="#CCCC99" height="352"> <div align="center"> 
+        <p><a href="images/App6_2/app6_2f1011.gif" target="_blank"><img src="images/App6_2/app6_2f1011.gif" width="437" height="274" border="1"></a></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><i>Figure 6.2.13 
+          - A recommended sequence for shear trench stage construction (from ODOT, 
+          1988).</i></font></p>
+      </div></td>
+  </tr>
+</table>
+<p> <img src="images/navbar.gif" width="684" height="36" align="BOTTOM"
+   usemap="#b_pagingButtons.map" border="0" alt="Slope Stability Reference Guide for National Forests in the United States"> 
+  <map name="b_pagingButtons.map">
+    <!--HOME-->
+    <area shape="RECT" coords="613,-2,633,24" href="ssg_6ap3.html" alt="Appendix 6.3">
+    <!--PREV-->
+    <area shape="rect" coords="592,0,611,26" href="ssg_6ap1.html" alt="Appendix 6.1">
+    <!--NEXT-->
+    <area shape="RECT" coords="0,0,587,26" href="index.html" alt="SSG home">
+  </map>
+  <!-- ========================================================================= -->
+  <br>
+  <!-- =======IMAGE MAP INFORMATION============================================== -->
+  <!-- ========================================================================= -->
+  <br>
+  <font face="Arial, Helvetica, sans-serif" size="1">USDA Forest Service<br>
+  <b>Slope Stability Reference Guide for National Forests in the United States, 
+  1994.</b> <br>
+  <a href="http://forest.moscowfsl.wsu.edu/ssg/">http://forest.moscowfsl.wsu.edu/ssg/</a> 
+  <br>
+  Last Revised: 
+  <script language="javascript" type="text/javascript">
+     <!-- hide
+      document.write(document.lastModified)
+     // end hide -->
+    </script>
+  </font> </p>
+ </body>
+</html>

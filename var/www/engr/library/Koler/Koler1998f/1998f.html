@@ -1,0 +1,874 @@
+<html>
+ <head>
+  <title>Evaluating Slope 
+        Stability in Forest Uplands with Deterministic and Probabilistic Models</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <script>
+   function MakeArray(n) {     // initialize array of length *n* [Goodman p
+    this.length = n; for (var i = 0; i<n; i++) {this[i] = 0} return this
+   }
+   function StartUp() {
+    figure_src = new MakeArray(1);
+    figure_src[0] = "images/fig1.jpg"
+    figure_caption = new MakeArray(1);
+    figure_caption[0] = "Figure&nbsp;1. Parameters used in the infinite slope equation for DLISA and LISA.<br>Soil depth can be converted to thickness, z, with the formula z = D cos &alpha;."
+   }
+  </script>
+ </head>
+
+ <body bgcolor=ivory vlink="darkgreen" vlink="darkgreen" alink="crimson" onload="StartUp()">
+  <font face="trebuchet, tahoma, sans serif"> 
+  <table width=100% border=1>
+   <tr bgcolor="&99cc99"> 
+    <th><font face="Arial, Helvetica, sans-serif"><a href="http://www.fs.fed.us">USDA Forest Service</a> </font> 
+    <th><font face="Arial, Helvetica, sans-serif"><a href="http://www.fs.fed.us/rm/">Rocky Mountain Research Station</a> </font> 
+    <th><font face="Arial, Helvetica, sans-serif"><a href="http://forest.moscowfsl.wsu.edu">Moscow FSL</a> </font> 
+    <th><font face="Arial, Helvetica, sans-serif"><a href="http://forest.moscowfsl.wsu.edu/engr/">Soil and Water Engineering</a> </font> 
+  </table>
+  <table border=0 cellpadding="6" width="100%">
+   <tr> 
+    <td height="79">
+     <img src="../../rmrs_logo_sm.gif" border=0">
+    </td>
+    <td>
+     <h3>
+      <font size="4" face="Arial, Helvetica, sans-serif">
+       Evaluating Slope Stability in Forest Uplands with Deterministic and Probabilistic Models
+      </font>
+     </h3>
+     <p align="left">
+      <font face="Arial, Helvetica, sans-serif">
+       <strong>
+        Thomas E. Koler<br>
+       </strong>
+      </font>
+      <font size="2" face="Arial, Helvetica, sans-serif">
+       <em>
+        Intermountain Natural Resource Consultants, 5258 Matson Road, Viola, ID 83872
+       </em>
+      </font>
+     </p>
+    </td>
+   </tr>
+  </table>
+
+   <font face="Arial, Helvetica, sans-serif" size=2>
+    <b>Key Terms:</b>
+    Slope stability, Debris flows, Infinite slope equation, Stochastic simulation
+   </font>
+
+  <h4>
+   <font face="Arial, Helvetica, sans-serif">
+    <b>ABSTRACT</b>
+   </font>
+  </h4>
+  <p><font face="Arial, Helvetica, sans-serif">
+  Deterministic Level I Stability Analysis (DLISA) and probabilistic Level I Stability 
+  Analysis (LISA) models provide information for a slope stability analysis. These 
+  computer codes have been developed, tested, and validated by U. S. Department 
+  of Agriculture Forest Service researchers. The purpose of this research was 
+  to provide engineers and scientists a personal computer program for evaluating 
+  potential slope instability within planning areas in forested uplands. Physical 
+  soil values within the infinite slope equation are evaluated within DLISA for 
+  possible frequency distributions. LISA, the probabilistic computer program, 
+  adds a stochastic simulation by the Monte Carlo method of these frequency distributions. 
+  The result from these analyses is a probability of slope failure. Potential 
+  shallow landslides, such as debris flows, have been evaluated since 1987 and 
+  can be predicted with DLISA and LISA.</font></p>
+
+ <h4><font face="Arial, Helvetica, sans-serif"><b>INTRODUCTION</b></font></h4>
+
+  <p><font face="Arial, Helvetica, sans-serif"> 
+  Researchers have applied the infinite slope equation as the governing equation 
+  for evaluating shallow landslides on long hill slopes, and for studying the 
+  mechanics of these landslides on forested uplands (Pierson, 1977; Beschta, 1981; 
+  Sidle and Swanston, 1982; Burroughs, 1984; Dietrich et al., 1986; Benda and 
+  Dunne, 1987; Benda, 1988; Reneau, 1988; Benda, 1990; and Benda, 1994). Similar 
+  work has also been completed near urban areas within the San Francisco Bay area 
+  (Nilsen et al., 1976; Wieczorek, 1982). The role of vegetation to slope stability, 
+  including the effect of tree root strength and tree surcharge (O'Loughlin, 
+  1974; Swanston, 1974; Ziemer and Swanston, 1977; Burroughs and Thomas, 1977; 
+  Ziemer, 1981; O'Loughlin and Ziemer, 1982; and Greenway, 1987), has been identified 
+  in these studies as an important component of overall hill slope stability. 
+  Several models have resulted from these studies and are used by practitioners 
+  for natural resource agencies, counties, municipalities, and consulting companies.</p>
+  <p>
+   The deterministic (DLISA) and probabilistic Level 
+  I stability analysis (LISA) computer codes are models intended to predict landslide 
+  hazards for planning areas that are typically several square miles in area (Hammond 
+  et al., 1992). Level I is the first in a three-level system developed by Prellwitz 
+  (1985) and used by many geotechnical specialists in the U.S. Department of 
+  Agriculture, Forest Service (Koler and Neal, 1989; Koler, 1993; and Prellwitz 
+  and Koler, 1994). Level II is for evaluating a pre-construction road corridor, 
+  and Level III is for site-specific analysis within a road prism or proposed 
+  timber harvest sale unit. The infinite slope equation is the governing equation 
+  in DLISA, LISA and Level II stability analyses. The method of slices equations 
+  are the governing equations in the Level III stability analysis. The typical 
+  scales used for mapping are 1:24,000 for Level I, 1:3,600 for Level II and 1:120 
+  for Level III. DLISA and LISA are distributed together along with the user 
+  guide (Hammond et al., 1992), are within the public domain, and are available 
+  from the author. The programs have also been distributed through the Internet's 
+  sci.engr.geomechanics USENET newsgroup, and are available through the Internet 
+  World Wide Web page with the address of http://forest.moscowfsl.wsu.edu/engr/lisa0.html.</p>
+<p>
+   The purpose of this paper is to demonstrate the 
+  use of DLISA and LISA codes to predict debris flow activity. An example is provided, 
+  with data from a slope stability hazard assessment near Leavenworth, Washington, 
+  to illustrate how to apply these two models.</font></p>
+
+<h4><font face="Arial, Helvetica, sans-serif"><b>DLISA DESCRIPTION</b></font></h4>
+
+  <font face="Arial, Helvetica, sans-serif">
+   The infinite slope equation in both DLISA and LISA is:
+   <blockquote>
+    <table width="85%" border="0">
+     <tr> 
+      <td rowspan="2">
+       <div align="right">
+        <font face="Arial, Helvetica, sans-serif">FOS =</font>
+       </div>
+      </td>
+      <td>
+       <div align="center">
+        <font face="Arial, Helvetica, sans-serif"><u>C</u><sub>r</sub> 
+         <u>+ C</u><sub>s</sub><strong>&prime;</strong><u>+ cos</u><sup>2</sup>&alpha;<u> 
+         [q</u><sub>o</sub><u> + </u>&gamma;<u>(D - D</u><SUB>w</SUB><u>) + (</u>&gamma;<sub>sat</sub><u> 
+         - </u>&gamma;<sub>w</sub><u>)D</u><sub>w</sub><u>] tan&phi;</u><strong>&prime;</strong> 
+        </font>
+       </div>
+      </td>
+      <td align="right">Eq.&nbsp;1</td>
+     </tr>
+     <tr> 
+      <td>
+       <div align="center">
+        <font face="Arial, Helvetica, sans-serif">sin&alpha; 
+         cos&alpha; [q<sub>o</sub> + &gamma; (D - D<sub>w</sub>) + &gamma;<sub>sat</sub> 
+         D<sub>w</sub>]
+        </font>
+       </div>
+      </td>
+     </tr>
+    </table>
+   </blockquote>
+
+   <font face="Arial, Helvetica, sans-serif">where:
+    <blockquote> 
+     <font face="Arial, Helvetica, sans-serif">
+      <em>FOS</em> = factor of safety<br>
+      &alpha; = slope of the ground surface, degrees<br>
+      D = total soil depth, (L)<br>
+      D<sub>w</sub> = saturated soil depth, (L) <br>
+      C<sub>r</sub> = tree root strength expressed as cohesion, (F/L<sup>2</sup>)<br>
+      q<sub>o</sub> = tree surcharge, (F/L<sup>2</sup>)<br>
+      Cs<B>&prime;</B> = effective soil cohesion, (F/L<sup>2</sup>) <br>
+      &phi;<b>&prime;</b> = effective angle of internal friction, degrees <br>
+      &gamma; = moist soil unit weight, (F/L<sup>3</sup>)<br>
+      &gamma;<sub>sat</sub> = saturated soil unit weight, (F/L<sup>3</sup>)<br>
+      &gamma;<sub>w</sub> = water unit weight, (F/L<sup>3</sup>).
+    </blockquote>
+   </font>
+  </p>
+  <p><font face="Arial, Helvetica, sans-serif"> 
+    The computer code DLISA solves the infinite slope equation for soil depth, 
+    surface slope, root cohesion, tree surcharge (weight of trees applied uniformly 
+    over the slope), ground-water ratio (ratio of the depth of water to the depth 
+    of soil), friction angle, soil cohesion, and factor of safety (Hammond et 
+    al., 1991a). A common application of DLISA is a sensitivity analysis to identify 
+    the most important variables of the infinite slope equation using a method 
+    developed by Simons and others (1978). Another common application is to determine 
+    soil depths where soil inventories are lacking this information. These soil 
+    depths are then included in analyses by foresters, soil scientists, hydrologists, 
+    and other resource scientists. Similar work can also be done for slope, ground-water 
+    ratio, and other parameters. <a href="#fig1">Figure 1</a> displays the geometry 
+    of these parameters.</font></p>
+  <p><font face="Arial, Helvetica, sans-serif"><strong>LISA DESCRIPTION</strong></font></p>
+  <p><font face="Arial, Helvetica, sans-serif"> 
+    The probabilistic computer code LISA enables the user to compute the probability 
+    of slope failure using up to 1,000 iterations of a Monte Carlo simulation 
+    by varying the input values to the infinite slope equation (Hammond et al., 
+    1991b). DLISA and LISA use the same parameters. In preparing parameter data 
+    for LISA input, the user defines the statistical distribution of the parameter 
+    values, which vary spatially, temporally, and with uncertainty (data gaps 
+    and resolution). There are several ways to display the data distributions 
+    and to incorporate within the probability analysis. These distributions include 
+    uniform, triangular, normal, lognormal, beta, and histogram. Constant values 
+    also may be used. A bivariate normal distribution is available in the program 
+    for modeling the correlation between soil cohesion and friction angle. The 
+    <em>FOS</em> derived from LISA is conditional because parameters do not remain 
+    static.</font></p>
+
+<a name="fig1"></a>
+  <p align="center">
+   <img src="images/fig1.jpg" width="300" height="247">
+  </p>
+  <p align="center">
+   <font size="2" face="Arial, Helvetica, sans-serif">
+    <strong>
+     Figure&nbsp;1. Parameters used in the infinite slope equation for DLISA and LISA.<br>
+     Soil depth can be converted to thickness, z, with the formula <em>z = D cos &alpha;</em>.
+    </strong>
+   </font>
+  </p>
+  <p><font face="Arial, Helvetica, sans-serif"><br>
+    The user guide for LISA explains in detail 
+    how the program works (Hammond et al., 1992). The LISA user follows these 
+    general steps after polygons (areas of similar soils and slope conditions) 
+    have been delineated for a study area: <br>
+    </font></p>
+
+<ol>
+  <li><font face="Arial, Helvetica, sans-serif"> The user selects a distribution 
+    type for each input parameter in the infinite slope equation and then enters 
+    the values to describe that distribution. </font></li>
+  <li><font face="Arial, Helvetica, sans-serif">For each input parameter 
+    LISA samples up to 1,000 values from the user-specified probability density 
+    function (distribution). This results in a table of up to 1,000 combinations 
+    of input parameter values.</font></li>
+  <li><font face="Arial, Helvetica, sans-serif"> LISA then calculates 
+    the <em>FOS</em> for each set of generated values. The result is the possible 
+    realizations of the <em>FOS</em>. Relative frequencies are a result of the 
+    distributions used for each input variable. The minimum, maximum, mean, and 
+    standard deviation for the calculated <em>FOS</em> and the probability of 
+    failure (percentage of <em>FOS</em>&le;1) are determined and displayed.</font></li>
+  <li><font face="Arial, Helvetica, sans-serif"> The user then may view 
+    the frequency histogram of the <em>FOS</em> values. The values simulated for 
+    each variable may be viewed in several ways. For example, scatter plots can 
+    be generated for any pair of input variables, or of an input variable and 
+    the <em>FOS</em>.<br>
+    </font></li>
+</ol>
+
+<h4><font face="Arial, Helvetica, sans-serif"><b>DLISA AND LISA APPLICATION</b></font></h4>
+
+  <font face="Arial, Helvetica, sans-serif"> 
+  Realistic input parameter values are usually taken from such available resources 
+  as field reconnaissance data, soil inventories, landslide inventories, maps, 
+  and files for the study area. Frequently, there are gaps in this information, 
+  and the user will need to establish a level of confidence for the data that 
+  fill these gaps. Figures and tables in the LISA user guide suggest values for 
+  each of the variables or relationships.</p>
+  <p>
+  The spatial distribution of values being evaluated 
+  is important in completing a sensitivity analysis. Usually, concave, gentle 
+  slopes have deeper soils than do convex, steep slopes; soil depth on planar 
+  slopes is somewhere between. Areas of tree mortality from wildfire, insect infestation, 
+  disease, and timber harvesting influence the spatial distribution of tree root 
+  strength and tree surcharge. Because values may vary widely over a given area, 
+  the specialist will need to divide the study area into polygons where variable 
+  distribution values are spatially similar. The LISA computer program can then 
+  evaluate the values for each polygon.</font></p>
+
+  <p><font face="Arial, Helvetica, sans-serif"> 
+  Information obtained from LISA is commonly used by Forest Service professionals 
+  to complete a hazard/risk analysis. The results from this analysis can be incorporated 
+  in a report to help resource managers in their decision-making activities. These 
+  decisions are usually for forest plans, watershed analyses, and proposed timber 
+  sales.</p>
+  <p>
+  Both professionals and managers often confuse the relationship between a LISA 
+  probability and a hazard/risk assessment. Hazards are the natural geologic conditions 
+  that have slope movement potential. Resource risks such as fish and wildlife 
+  habitat, water quality, roads, structures, and scenery have the potential to 
+  be affected by the hazards (Koler, 1994). Risk can be described as a function 
+  of both probability and consequence (Remboldt, 1995):</font></p>
+
+  <blockquote>
+   <table width=85%>
+    <tr>
+     <td>
+      <font face="Arial, Helvetica, sans-serif">
+       Risk = &fnof; (Probability, Consequence)
+      </font>
+     </td>
+     <td align="right">
+      <font face="Arial, Helvetica, sans-serif">
+       Eq.&nbsp;2
+      </font>
+     </td>
+    </tr>
+   </table>
+  </blockquote>
+
+  <p><font face="Arial, Helvetica, sans-serif"> 
+  A probability of failure is not assigned to an actual landslide site within 
+  the evaluated polygon in LISA. LISA also does not address the size or consequence 
+  of the failure. It does, however, give a polygon landslide probability that 
+  when used with consequences may provide a risk assessment. Consequences can 
+  include loss of life, personal injury, property damage and loss, degradation 
+  of fish and wildlife habitat, increased maintenance costs, and mitigation costs. 
+  Some Forest Service professionals will assign a monetary value for consequence 
+  and multiply it by the LISA probability to predict a risk for roads, structures, 
+  and municipal watersheds. Risk is more difficult to predict for other resources 
+  such as visual aesthetics and wildlife habitat. Four steps are necessary to 
+  complete a hazard/risk assessment:
+  <ol>
+   <li><font face="Arial, Helvetica, sans-serif">Identify the potential geologic hazard.</font></li>
+   <li><font face="Arial, Helvetica, sans-serif"> Obtain the LISA probability for an area (polygon).</font></li>
+   <li><font face="Arial, Helvetica, sans-serif"> Identify the consequence to resources within the polygon.</font></li>
+   <li><font face="Arial, Helvetica, sans-serif"> Assign or calculate a risk value as a function of probability and consequence.</font></li>
+  </ol>
+
+  A LISA probability will not identify where a landslide will occur at a specific 
+  site within a polygon. However, the code can be used with historical records 
+  (such as aerial photographs, weather data, road construction and maintenance 
+  records) to find a probability threshold for possible debris flow activity. 
+  This probability threshold can then be used in conjunction with other models 
+  to determine the possible initiation of debris flow activity and location of 
+  deposition.</p>
+  <p>
+  The missing piece in LISA is the role of rainfall 
+  and antecedent moisture relative to incipient slope movement. By integrating 
+  available rainfall and antecedent moisture models with DLISA and LISA, the resolution 
+  for the probability threshold can be increased. It then may be feasible to predict 
+  the timing of incipient slope movement.
+  Possible existing methods for this integration 
+  are those described by Nilsen and others (1976), Mark and Newman (1990), and 
+  Wilson and Wieczorek (1995). Possible runout distance and deposition from this 
+  debris flow activity can then be predicted with the Benda-Cundy model (Benda and Cundy, 1990).</font></p>
+
+ <h4><font face="Arial, Helvetica, sans-serif"><b>PREDICTING POSSIBLE AREAS OF DEBRIS FLOW ACTIVITY</b></font></h4>
+
+ <p><font face="Arial, Helvetica, sans-serif"> 
+  Forest Service engineers, geologists, and resource scientists identify and predict 
+  possible debris flow activity with DLISA and LISA (for example, Koler et al., 
+  1995). These specialists provide resource managers with a scientifically valid 
+  analysis and minimize the subjectivity that can occur in slope stability work 
+  at the planning scale (1:24,000). For example, many debris flows are initiated 
+  within concave-shaped slopes, but not all concave slopes have the right materials 
+  and conditions for incipient movement. This analysis is a process to eliminate 
+  possible debris flow initiation sites. There are seven steps in this process:
+  <ol>
+   <li><font face="Arial, Helvetica, sans-serif">Assign values for soil 
+    physical properties, tree surcharge, root cohesion, and surface slope.
+    Data can be obtained through field reconnaissance and from existing databases or literature. </font></li>
+   <li><font face="Arial, Helvetica, sans-serif">Solve for soil depth 
+    for a variety of surface slope angles by varying the ground-water ratio with 
+    DLISA, by holding other parameters constant, and by assigning an <em>FOS</em> of 1.0.</font></li>
+   <li><font face="Arial, Helvetica, sans-serif"> Compare calculated soil 
+    depths to available databases and field observations. </font></li>
+   <li><font face="Arial, Helvetica, sans-serif">Solve for ground-water 
+    ratio for a range of values from steps 2 and 3, varying <em>FOS</em>, and holding other parameters constant in DLISA.</font></li>
+   <li><font face="Arial, Helvetica, sans-serif"> Build frequency distributions 
+    using DLISA for ground-water ratio, for tree surcharge after disturbance, and 
+    root cohesion after disturbance (for example, wildfire, disease, and timber harvesting).</font></li>
+   <li><font face="Arial, Helvetica, sans-serif"> With values from steps 
+    1 through 5, find the probability of debris flow activity for each polygon with LISA.</font></li>
+   <li><font face="Arial, Helvetica, sans-serif"> Compare calculated probabilities 
+    with known debris flow activities to establish a probability threshold. Assign 
+    hazard ratings for polygon areas. If possible, determine the consequences 
+    of slope movement and calculate or estimate the risk.<br>
+    </font></li>
+  </ol>
+
+<a name="fig2"></a>
+  <p align="center">
+   <img src="images/fig2.jpg" width="500" height="524">
+  </p>
+  <p align="center">
+   <font size="2" face="Arial, Helvetica, sans-serif">
+    <strong>
+     Figure&nbsp;2. Location map of example study area on Tumwater Mountain in central Washington State.
+    </strong>
+   </font>
+  </p>
+
+ <h4><font face="Arial, Helvetica, sans-serif"><b>CASE STUDY OF DLISA AND LISA APPLICATION</b></font></h4>
+
+  <p><font face="Arial, Helvetica, sans-serif"> 
+  The example site is on Tumwater Mountain near Leavenworth in central Washington 
+  (<a href="#fig2">Figure 2</a>). Koler and others (1995) evaluated this area 
+  for potential slope stability hazards that may result from the 1994 wildfire. 
+  The Wenatchee National Forest, Washington State Department of Transportation, 
+  Chelan County, and the city of Leavenworth are applying information from this 
+  study in their planning projects.</p>
+  <p>
+  Tabor and others (1987) mapped the bedrock in 
+  this area as Mesozoic plutonic rock (primarily granite, granodiorite, and tonalite) 
+  in contact with metamorphic rock (mostly schist).
+  Trees are
+  Douglas-fir (<i>Pseudotsuga menziesii</i>),
+  ponderosa pine (<i>Pinus ponderosa</i>), and
+  grand fir (<i>Abies grandis</i>). 
+  Soils were classified in the field and in the laboratory, using the Unified 
+  Soil Classification System (after Howard, 1984), as silty sands and gravel with 
+  no or little plasticity (SM and GM). In many areas, the trees were killed by 
+  wildfire. In some locations, the trees and roots were completely removed by 
+  wildfire, leaving behind soil macropores (Figure 3). Field crews measured several 
+  cross sections across the slopes mapping subsurface materials and conditions. 
+  From this fieldwork the average slope angle, in most areas, was about 33&deg;.<br>
+  </p>
+  <p>
+  Several assumptions are made for step 1.
+  Silty sands and gravels with little or no plasticity usually have an average dry unit 
+  weight of 100 pounds/square ft (psf), a moisture content of 0.25, an angle of 
+  internal friction between 27&deg; and 33&deg;, and soil cohesion of 0 to 40 
+  psf (Terzaghi and Peck, 1967; Hammond et al., 1992). In this example, we assume 
+  an average of 30&deg; for friction angle, and an average of 20 psf for soil 
+  cohesion. An average tree surcharge of 25 psf and root cohesion of 88 psf is 
+  also assumed (Greenway, 1987; Hammond et al., 1992).</p>
+  <p>
+  In step 2, DLISA solves for soil depth for various 
+  slope angles by varying the ground-water ratio, by keeping other values constant, 
+  and by assigning an <em>FOS</em> of 1.0. Results from step 2 (<a href="#table1">Table 
+  1</a>) show that for slope angles less than the average slope of 33&deg;, soil 
+  depths are quite thick, even for an <em>FOS</em> of 1.0. Also, for high ground-water 
+  ratios (&gt;0.5), soil depths do not drop to 5 ft or less until the slope angles 
+  are greater than 31&deg;.</font></p>
+
+<a name="fig3"></a>
+  <p align="center">
+   <img src="images/fig3.jpg" width="400" height="267">
+  </p>
+  <p align="center">
+   <font size=2 face="Arial, Helvetica, sans-serif">
+    <strong>
+     Figure&nbsp;3. Complete tree root loss and macropore development from wildfire.
+    </strong>
+   </font>
+  </p>
+  <p><font face="Arial, Helvetica, sans-serif">
+  Most areas reconnoitered had soil depths less 
+  than 5 ft, and in many areas the depths averaged 2.5 ft. The soil resource inventory 
+  for the Wenatchee National Forest also shows soil depths of less than 5 ft. 
+  It seems unlikely that deeper soils occur on these slopes. Step 3 may seem simplistic 
+  and unnecessary, but frequently an error will occur because of the &quot;black 
+  box effect&quot; (if the model says so, it must be fact). <a href="#fig4">Figure 
+  4</a> shows a lognormal distribution curve for soil depths estimated in step 
+  3. These depths are derived from judgment of the engineer or scientist to cover 
+  the reasonable values from <a href="#table1">Table 1</a>. A lognormal curve 
+  was selected because some portions of the slopes on Tumwater Mountain are concave, 
+  and it is quite possible that in these areas the soil depths may reach 4 to 
+  5 ft.</font></p>
+
+<a name="table1"></a>
+  <p align="center">
+   <font face="Arial, Helvetica, sans-serif" size=2>
+    <em>
+     Table&nbsp;1. Soil depths predicted by DLISA assuming a factor of safety of 1.0.
+    </em>
+   </font>
+  </p>
+  <p align="center">
+   <img src="images/table1.jpg" width="600" height="191">
+   <font size="2" face="Arial, Helvetica, sans-serif">
+     <br><br>
+      &phi; = soil friction angle, C<sub>s</sub> = soil cohesion, q<sub>o</sub> = tree surcharge, C<sub>r</sub> = tree root cohesion, &gamma;<sub>d</sub> = dry unit weight, w = moisture content
+   </font>
+  </p>
+
+  <p><font face="Arial, Helvetica, sans-serif"><br>
+  For step 4, DLISA runs were completed using soil 
+  depths of 3, 4, and 5 ft (Tables <a href="#table2">2</a>, <a href="#table3">3</a>, 
+  and <a href="#table4">4</a>). In Tables 2 through 4, a ground-water ratio is 
+  given for each <i>FOS</i> and slope angle. For example, in Table 2 there is a preponderance 
+  of ground-water ratios with values of 1.0. This indicates the ground-water depth 
+  is equal to the soil depth. Or in other words, <a href="#table2">Table 2</a> 
+  shows 3-ft-deep soils on most slope angles can be saturated (or nearly so) and 
+  remain stable. Slope failure does not occur until the slope angle is 39&deg; 
+  or greater and the ground-water ratio ranges from 0.48 to 0.96. This stability 
+  may be because of the presence of tree roots. Local historical information (aerial 
+  photographs, road maintenance records, newspaper articles, and resident surveys) 
+  indicates that most debris flow activity occurs when root strength is lowered 
+  (for example, by wildfire and disease). It is also well documented in the literature 
+  that root strength is a significant factor in shallow soil stability. Tables 
+  <a href="#table3">3</a> and <a href="#table4">4</a>, however, show 4- and 5-ft-deep
+  soils on steep slopes (&gt;35&deg;) are sensitive to increases in soil 
+  moisture. In these cases trace amounts of moisture (0.00 to 0.08 ground-water 
+  ratios) are sufficient for failure to occur on 45&deg; hill slopes. For hill 
+  slopes with slope angles ranging from 35&deg; to 42&deg; the ground-water ratios 
+  are higher for unstable conditions and range from 0.16 to 0.80. It appears that 
+  the presence of vegetation on slopes with deeper soils is not as important as 
+  it is with the 3-ft-deep soils.</font></p>
+
+<a name="fig4"></a>
+  <p align="center">
+   <img src="images/fig4.jpg" width="400" height="270">
+  </p>
+  <p align="center">
+   <font size="2" face="Arial, Helvetica, sans-serif">
+    <strong>
+     Figure&nbsp;4. Lognormal distribution of soil depths using Deterministic Level I Stability Analysis (DLISA)<br>
+     with a mean of 2.75, and a standard deviation of 0.55 covers the expected soil depths.
+    </strong>
+   </font>
+  </p>
+
+<p align="left"><font face="Arial, Helvetica, sans-serif"> 
+  Frequency distributions for ground-water ratio, tree surcharge after disturbance, 
+  and root cohesion after disturbance are selected in step 5. For example, the 
+  user will need to build frequency distributions for each slope angle (or ranges 
+  of slope angles) because the ground-water ratio will fluctuate differently for 
+  gentle gradient slopes than it will for steep slopes. <a href="#fig5">Figure 5</a> shows a histogram 
+  distribution for the ground-water ratio of several steep slope gradients (70, 
+  80, 90, and 100 percent) that were summed for the histogram. Although a histogram 
+  was used in this case, the LISA operator may wish to describe the frequency 
+  distribution with another type of curve (e.g., uniform, triangular, normal, 
+  lognormal, and beta).</font></p>
+
+<a name="table2"></a>
+  <p align="center">
+   <font size="2" face="Arial, Helvetica, sans-serif">
+    <em>
+     Table&nbsp;2. Ground-water ratios for 3-ft-deep soils with same physical properties in Table 1.
+    </em>
+   </font>
+  </p>
+  <p align="center">
+   <img src="images/table2.jpg" width="590" height="183">
+  </p>
+
+  <p align="left"><font face="Arial, Helvetica, sans-serif"> 
+  Figures <a href="#fig6">6</a> and <a href="#fig7">7</a> show lognormal distributions 
+  for tree surcharge and root cohesion after some form of disturbance, such as 
+  wildfire, disease, and timber harvesting. Based on field observations in this 
+  example, the average tree surcharge was reduced by almost 75 percent. Complete 
+  tree loss occurred in some areas (<a href="#fig3">Figure 3</a>). The distribution 
+  for tree surcharge is lognormal because in some protected pockets on slopes,
+  the trees were not burned as intensely as in other areas. Therefore, the tree
+  surcharge in these areas is closer to the preburn (undisturbed) value of 40 
+  psf. A similar logic was used in establishing the distribution for root cohesion. 
+  However, the average root cohesion value was reduced by more than 75 percent 
+  of the preburn value because brush vegetation, which contributes greatly to 
+  the root strength value, has a higher mortality from wildfire.</p>
+  <p>
+  In step 6, the data from the first five steps 
+  are used in LISA to estimate the probability of slope movement for each analysis 
+  polygon. <a href="#table5">Table 5</a> shows probabilities for an <em>FOS</em> 
+  less than 1 (P [<em>FOS</em>&le;1]) for undisturbed slopes. For all slope gradients 
+  combined, the probability for slope failure is 1 percent, and for the steeper 
+  slopes the probability is 10 percent. <a href="#table6">Table 6</a> shows probabilities of failure 
+  for disturbed slopes. The values change greatly because of the loss of root 
+  strength. All slopes combined are predicted to have a 10 percent probability 
+  of failure and the steep slopes (&gt;35&deg;) had probabilities of failure ranging 
+  from 45 to 73 percent. At this point in the analysis, the probabilities are 
+  meaningless because we have no frame of reference. For example, do we know whether 
+  10 percent probability is high or low? Undoubtedly, 73 percent is a high probability, 
+  but what about 45 percent? The next step is to compare the LISA results with 
+  previous slope movement activity in the study area.</p>
+  <p>
+  Most Forest Service specialists complete a time-series 
+  aerial photographic analysis in step 7. If stereo-pair aerial photographs for 
+  several years are available, this task becomes a simple exercise in comparing 
+  previous slope movement with the slope instability predicted by LISA. If aerial 
+  photographs are not available or if the photographic record is sporadic, this 
+  step is difficult and, in most cases, requires additional field work (colloquially 
+  referred to as ground-truthing). Fortunately, the aerial photographic record 
+  of Forest Service lands in the Western United States is comprehensive from the 
+  1940s to the present.</p>
+  <p>
+  Aerial photographs from the 1940s to the present 
+  were available for the wildfire study. Thirty-eight debris flow movements, occurring 
+  between 1949 and 1992, were identified and compared to information obtained 
+  in the field reconnaissance and LISA results. When the comparison of observed 
+  slope movements to predicted slope movements is completed, the LISA probabilities 
+  become meaningful. In the wildfire study, the 25 percent probability value was 
+  identified as a threshold for a medium hazard rating; similarly a 50 percent 
+  probability was the high hazard rating threshold.</p>
+  <p>
+  To estimate the risk in a study area, the specialist 
+  needs to identify consequences, such as loss of roads, bridges, wildlife habitats, 
+  viewsheds, and water quality. The consequences can be estimated by an economic 
+  cost analysis for tangible items, such as roads and bridges. For other resources, 
+  such as habitats and viewsheds, this is not easily done. In the wildfire study 
+  a comprehensive risk analysis is not complete, but consequences were identified 
+  and discussed. Risk analysis work for this study will be completed in the near 
+  future.</font></p>
+
+<a name="table3"></a>
+  <p align="center">
+   <font size="2" face="Arial, Helvetica, sans-serif">
+    <em>
+     Table&nbsp;3. Ground-water ratios for 4-ft-deep soils with same physical properties in Table 1.
+    </em>
+   </font>
+  </p>
+  <p align="center">
+   <img src="images/table3.jpg" width="600" height="189">
+  </p>
+
+<a name="table4"></a>
+  <p align="center">
+   <font size="2" face="Arial, Helvetica, sans-serif">
+    <em>
+     Table&nbsp;4. Ground-water ratios for 5-ft-deep soils with same physical properties in Table 1.
+    </em>
+   </font>
+  </p>
+  <p align="center">
+   <img src="images/table4.jpg" width="650" height="207">
+  </p>
+
+<a name="table5"></a>
+  <p align="center">
+   <font size="2" face="Arial, Helvetica, sans-serif">
+    <em>
+     Table&nbsp;5. Factor of safety predicted by LISA for undisturbed slopes.
+    </em>
+   </font>
+  </p>
+  <p align="center">
+   <img src="images/table5.jpg" width="750" height="145">
+  </p>
+
+<a name="table6"></a>
+  <p align="center">
+   <font size="2" face="Arial, Helvetica, sans-serif">
+    <em>
+     Table&nbsp;6. Factor of safety predicted by LISA for disturbed slopes.
+    </em>
+   </font>
+  </p>
+  <p align="center">
+   <img src="images/table6.jpg" width="744" height="140">
+  </p>
+
+
+  <h4><font face="Arial, Helvetica, sans-serif"><b>CONCLUSIONS</b></font></h4>
+
+  <p><font size="3" face="Arial, Helvetica, sans-serif"> 
+  Forest Service specialists have been using the DLISA and LISA models for nearly 
+  a decade in evaluating hill-slope instability probabilities for study areas 
+  mapped at a 1:24,000 scale. Using historical records and aerial photographs 
+  from past years, the slope stability specialist can build a landslide database 
+  for predicting future mass movements on hill slopes. Data from this landslide 
+  database, in conjunction with data collected during field reconnaissance, are 
+  used in DLISA to develop frequency distributions for the infinite slope equation 
+  variables in LISA. Although these models will not predict a specific location 
+  for a landslide initiation site, they can be applied in hazard/risk assessments. 
+  These hazard/risk assessments can then be available for other resource professionals 
+  and managers.<br>
+  </font></p>
+
+<a name="fig5"></a>
+  <p align="center">
+   <img src="images/fig5.jpg" width="350" height="228"><br>
+   <font size="2" face="Arial, Helvetica, sans-serif">
+    <strong>
+     Figure&nbsp;5. Frequency distribution of ground-water ratio for 70, 80, 90, and 100 percent slopes,<br>
+     assuming an <em>FOS</em> of 1.0 in DLISA.
+    </strong>
+   </font>
+  </p>
+
+<a name="fig6"></a>
+  <p align="center">
+   <img src="images/fig6.jpg" width="400" height="260"> 
+  </p>
+  <p align="center">
+   <font size="2" face="Arial, Helvetica, sans-serif">
+    <strong>
+     Figure&nbsp;6. A lognormal distribution of tree surcharge after disturbance<br>
+     (for example, wildfire, disease and timber harvesting)<br>
+     using DLISA with a mean of 12.0, and standard deviation of 3.0 covers the expected 
+     range of tree surcharge values.
+    </strong>
+   </font>
+  </p>
+
+<a name="fig7"></a>
+  <p align="center">
+   <img src="images/fig7.jpg" width="400" height="273">
+  </p>
+  <p align="center">
+   <font size="2" face="Arial, Helvetica, sans-serif">
+    <strong>
+     Figure&nbsp;7. Lognormal distribution for root cohesion after disturbance
+     using DLISA with a mean of 59.0,<br>
+     and a standard deviation of 7.75 covers the expected range of root cohesion values.
+    </strong>
+   </font>
+  </p>
+
+  <h4><font face="Arial, Helvetica, sans-serif"><b>ACKNOWLEDGMENTS</b></font></h4>
+
+  <p><font face="Arial, Helvetica, sans-serif"> 
+  I wish to thank the several colleagues within the U.S.D.A. Forest Service Intermountain 
+  Research Station who helped me in preparing this paper. In particular, Randy 
+  Foltz provided valuable insight with rainfall and hill slope hydrology; and 
+  William Elliot and David Hall gave me several suggestions for manuscript clarity. 
+  Courtney Cloyd, Siuslaw National Forest, provided suggestions from a user's 
+  perspective. I also thank the three anonymous reviewers for their suggestions 
+  for improving the manuscript.</font></p>
+
+  <h4><font face="Arial, Helvetica, sans-serif"><b>REFERENCES</b></font></h4>
+
+  <p align="left">
+   <font face="Arial, Helvetica, sans-serif">
+    BENDA, L. E., 1988, <b>Debris flows in the Oregon Coast range:</b>
+     Unpublished M.S. Thesis, Department of Geological Sciences, 
+     University of Washington, Seattle, WA.
+   <br><br>
+    BENDA, L. E., 1990, <i>The influence of debris flows on channels and valley floors of the Oregon Coast Range, U.S.A.:</i> 
+     <b>Earth Surface Processes and Landforms</b>,  Vol. 15, pp. 457-466.
+   <br><br>
+   BENDA, L. E., 1994, <b>Stochastic geomorphology in a humid mountain landscape:</b>
+    Unpublished Ph.D. Dissertation, Department of Geological Sciences, University of Washington, Seattle, WA, 356&nbsp;p.
+   <br><br>
+   BENDA, L. E. AND CUNDY, T. W., 1990,
+    <i>Predicting deposition of debris flows in mountain channels:</i>
+    <b>Canadian Geotechnical Journal</b>, Vol. 27, pp. 409-417.
+   <br><br>
+   BENDA, L. E. AND DUNNE, T, 1987. <b>Sediment routing by debris flow:</b>
+   International Association for Hydrological Sciences Publication 165, pp. 213-223. 
+   <br><br>
+   BESCHTA, R. L., 1981,
+    <i>Patterns of sediment and organic-matter transport in Oregon Range streams</i>. In
+    <b>Erosion and Sediment Transport in Pacific Rim Steeplands,</b>
+    International Association of Hydrological Sciences Publication 132, pp. 179-188.
+   <br><br>
+   BURROUGHS, E. R., JR. AND THOMAS, B. R., 1977,
+    <b>Declining root strength in Douglas fir after felling as a factor in slope stability:</b>
+    U.S. Department of Agriculture, Forest Service, Intermountain Forest and Range Experiment Station,
+    Research Paper INT-190: U.S. Department of Agriculture, Forest Service, Ogden, UT. 27&nbsp;p.
+   <br><br>
+   BURROUGHS, E. R., JR., 1984.
+    <i>A landslide hazard rating for portions of the Oregon Coast Range.</i> In
+    <b>Symposium Proceedings of Effects of Forest Land Use on Erosion and Slope Stability,</b>
+    Environment and Policy Institute, East-West Center, Honolulu, HI, pp. 265-274.
+   <br><br>
+   DIETRICH, W. E.; WILSON, C. J. AND RENEAU, S. L., 1986,
+    <i>Hollows, colluvium, and landslides in soil-mantled landscapes.</i> In
+    Abrahams, A. D. (Editor), <b>Hill Slope Processes:</b> Allen and Unwin, London,  pp. 361-388.
+   <br><br>
+   GREENWAY, D. R., 1987, <i>Vegetation and slope stability</i>. In
+    Anderson,, M. G., Richards, K. S. (Editors), <b>Slope Stability:</b> John Wiley and Sons, New York, NY, 
+    pp. 187-230.
+   <br><br>
+   HAMMOND, C.; HALL, D. E. AND SWETIK, P., 1991a,
+    <b>Deterministic Level I Stability Analysis (DLISA) Version 1.2:</b>
+    U.S. Department of Agriculture, Forest Service, Intermountain Research Station, Moscow, ID.
+   <br><br>
+   HAMMOND, C.; HALL, D.; MILLER, S. AND SWETIK, P., 1991b,
+    <b>Level I Stability Analysis (LISA) Version 2.0:</b>
+    U.S. Department of Agriculture, Forest Service, Intermountain Research Station, Moscow, ID. 
+   <br><br>
+   HAMMOND, C.; HALL, D. E.; MILLER, S.: AND SWETIK, P., 1992,
+    <b>Level I Stability Analysis (LISA) Documentation for Version 2.0:</b>
+    U.S. Department of Agriculture, Forest Service, Intermountain Research Station;
+    General Technical Report INT-285, Ogden, UT, 190&nbsp;p. 
+   <br><br>
+   HOWARD, A. K., 1984,
+    <i>The revised American Society for Testing Materials standard on the Unified Classification System:</i>
+    <b>Geotechnical Testing Journal</b>, Vol. 7, No. 4, pp. 216-222. 
+    <br><br>
+   KOLER, T. E., 1993,
+    <i>The three-level slope stability analysis used in forest management</i>. In
+    Miller, E. G. (Chair), <b>Association  of Engineering Geologists 36th Annual Meeting Program and Abstracts:</b>
+    San Antonio, Texas, October 9-13, p. 59.
+   <br><br>
+   KOLER, T. E., 1994, <i>The role of stability analysis in cumulative effects analysis.</i>  In
+    Hall, D. E.; Long, M. T. and Remboldt, M. D. (Editors),
+    <b>Slope Stability Reference Guide for National Forests in the United States:</b> 
+    U.S. Department of Agriculture, Forest Service, Engineering Staff, EM-7170-13, Washington, DC, pp. 58-65.
+   <br><br>
+   KOLER, T. E.; RAINES, M. A. AND LONG, M. T., 1995,
+    <b>Slope Stability Hazard Assessment of the Hatchery Fire Complex, Wenatchee National Forest:</b>
+    U.S. Department of Agriculture, Forest Service, Wenatchee National Forest, Wenatchee, WA, 50&nbsp;p.
+   <br><br>
+   KOLER, T. E. AND NEAL, K. G., 1989, 
+    <i>Chestershire and Backdrop timber sales: case histories of the practice of engineering geology in the Olympic National Forest.</i> In
+    Galster, R.W. (Editor), <b>Engineering Geology in Washington:</b> Washington Division of Geology and Earth Resources Bulletin 78, Vol. II, pp. 933-944.
+   <br><br>
+   MARK, R. K. AND NEWMAN, E. B., 1990,
+    <i>Rainfall totals before and during the storm: distribution and correlation with damaging landslides.</i> In
+    Ellen, S. D., and Wieczorek, G. F. (Editors),
+    <b>Landslides, Floods, and Marine Effects of the Storm of January 3-5, 1982, in the San Francisco Bay Region, California:</b>
+    U.S. Geological Survey Professional Paper 1434: U.S. Geological Survey, Denver, CO, pp 17-26.
+   <br><br>
+   NILSEN, T. H.; TAYLOR, F. A. AND DEAN, R. M., 1976,
+    <b>Natural conditions that control landsliding in the San Francisco Bay region--an analysis based 
+    on data from the 1968-1969 and 1972-1973 rainy seasons</b>,
+    U.S. Geological Survey Bulletin 1424: U.S. Geological Survey, Denver, CO, 35&nbsp;p.
+   <br><br>
+   O'LOUGHLIN, C. L., 1974,
+    <i>The effect of timber removal on the stability of forest soils:</i>
+    <b>New Zealand Journal of Hydrology</b>, Vol. 13, No. 2, pp. 121-123.
+   <br><br>
+   O'LOUGHLJN, C. L. AND ZIEMER, R. R., 1982,
+    <i>The importance of root strength and deterioration rates upon edaphic stability in steepland forests.</i> In
+    <b>Carbon Uptake and Allocation in Subalpine Ecosystems as a Key to Management</b>,
+    Proceedings of an IUFRO Workshop, August 2-3: Oregon State University, Corvallis, OR, pp. 70-78.
+   <br><br>
+   PIERSON, T. C., 1977,
+    <b>Factors controlling debris flow initiation on forested hill slopes in the Oregon Coast Range:</b>
+    Unpublished Ph.D. Dissertation, Department of Geological Sciences, University of Washington, Seattle, WA, 167&nbsp;p.
+   <br><br>
+   PRELLWITZ, R. W., 1985,
+    <i>A complete three-level approach for analyzing landslides on forest lands.</i> In
+    <b>Proceedings: A Workshop on Slope Stability: Problems and Solutions in Forest Management,</b>
+    U.S. Department of Agriculture, Forest Service, Pacific Northwest Research Station, 
+    General Technical Report PNW-180, February 6-8:
+    U.S. Department of Agriculture, Forest Service, Seattle, WA, pp. 94-98.
+   <br><br>
+   PRELLWITZ, R. W. AND KOLER. T. E., 1994,
+    <i>Introduction to the three-level stability analysis concept.</i> In
+    Hall, D. E.; Long, M. T.; and Remboldt, M. D. (Editors), 
+    <b>Slope Stability Reference Guide for National Forests in the United States:</b>
+    U.S. Department of Agriculture, Forest Service, Engineering Staff, EM-7170-13: 
+    U.S. Department of Agriculture Washington, DC, pp. 9-12.
+   <br><br>
+   REMBOLDT, M. D., 1995,
+    <b>Landslide hazard analysis for Chicken, Corral, and Blackwell landscapes:</b>
+    U.S. Department of Agriculture, Forest Service, Payette National Forest, McCall, ID, 15&nbsp;p.
+   <br><br>
+   RENEAU, S. L., 1988,
+    <b>Depositional and erosional history of hollows: application to landslide location and frequency, long-term 
+    erosion rates and the effects of climatic change:</b>
+    Unpublished Ph.D. Dissertation, Department of Geology, University of California, Berkeley, CA, 328&nbsp;p.
+   <br><br>
+   SIDLE, R. C. AND SWANSTON, D. N., 1982,
+    <i>Analysis of a small debris slide in coastal Alaska:</i>
+    <b>Canadian Geotechnical Journal</b>, Vol. 19, No. 2, pp. 167-174.
+   <br><br>
+   SIMONS, D. B.; Li, R. M. AND WARD, T. J., 1978,
+    <b>Mapping of potential landslide areas in terms of slope stability:</b>
+    U.S. Department of Agriculture, Forest Service, Rocky Mountain Forest and Range Experiment Station,
+    Contract No. 16-712.01-CA with Colorado State University, Fort Collins, CO, 73&nbsp;p.
+   <br><br>
+   SWANSTON, D. N., 1974,
+    <b>Slope stability problems associated with timber harvesting in mountainous regions of the western United States:</b>
+    U.S. Department of Agriculture, Forest Service, Pacific Northwest Research Station,
+    General Technical Report PNW-21: U.S. Department of Agriculture, Forest Service, Portland, OR, 14&nbsp;p.
+   <br><br>
+   TABOR, R. W; FRIZZEL, V. A.; WHETTEN, J. T; WAITT, R. B.; SWANSON, D. A.; BYERLY, G. R.; HETHERTON, M. J. AND ZARTMAN, R. E., 1987,
+    <b>Geologic map of the Chelan 30-minute by 60-minute quadrangle, Washington:</b>
+    U.S. Geological Survey Miscellaneous Investigation Series, Map I-1661:
+    U.S. Geological Survey, Denver, CO.
+   <br><br>
+   TERZAGHI, K. AND PECK, R. B., 1967,
+    <b>Soil mechanics in engineering practice:</b>
+    John Wiley and Sons, New York, NY, 729&nbsp;p.
+   <br><br>
+   WIECZOREK, G. F., 1982,
+    <b>Map showing recently active and dormant landslides near La Honda, central Santa Cruz mountains, California</b>,
+    U.S. Geological Survey Miscellaneous Field Studies Map MF-1422 scale 1:4800: U.S. Geological Survey, Denver, CO.
+   <br><br>
+   WILSON, R. C. AND WIECZOREK, G. F., 1995,
+    <i>Rainfall thresholds for the initiation of debris flows at La Honda, California:</i>
+    <b>Environmental &amp; Engineering Geoscience</b>, Vol. 1, No. 1 pp. 11-27.
+   <br><br>
+   ZIEMER, R. R., 1981,
+    <b>Roots and the stability of forested slopes:</b>
+    International Association of Hydrological Sciences, Publication 132, London, UK, pp. 343-361. 
+   <br><br>
+   ZIEMER, R. R. AND SWANSTON, D. N., 1977,
+    <b>Root strength changes after logging in southeast Alaska:</b>
+    U.S. Department of Agriculture, Forest Service, Pacific Northwest Research Station,
+    Research Note PNW-306: U.S. Department of Agriculture, Forest Service, Portland, OR, 10&nbsp;p.
+   </font>
+  </p>
+  <hr>
+  <b>Originally published as:</b>
+  <blockquote>
+    Koler, T.E.
+    1998.
+    <a><i>Evaluating slope stability in forest uplands with deterministic and probabilistic models.</i></a>
+    <b>Environmental and Engineering Geoscience.</b> 4(2):185-194 (Summer 1998).
+  </blockquote>
+  <hr>
+  USDA Forest Service, Rocky Mountain Research Station, Moscow Forestry Sciences Laboratory
+  <br>
+  <a href="http://forest.moscowfsl.wsu.edu/">http://forest.moscowfsl.wsu.edu/</a>
+ </body>
+</html>

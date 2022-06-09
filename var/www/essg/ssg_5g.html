@@ -1,0 +1,792 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+ <head>
+  <title>SSG Section 5G: Soil Slopes - Sample Problem Including All Three Levels of Analysis</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <!--
+    Hall, D.E.; Long, M.T.; Remboldt, M.D., editors. 1994.
+    Slope Stability Reference Guide for National Forests in the United States.
+    Prellwitz, R.W.; Koler, T.E.; Steward, J.E., coordinators.
+    Publication EM-7170-13.
+    Washington, DC: U.S. Department of Agriculture, U.S. Forest Service, Engineering Staff. 
+    3 volumes, 1091 p.
+    Corrected [2006] electronic version at http://forest.moscowfsl.wsu.edu/ssg/
+  -->
+  <style type="text/css">
+   <!--
+A{color:#0000CC; font-family:Verdana, Arial, Helvetica, sans-serif;} A:hover{color:#ff00cc;} A:visited{color:#660099;} A:visited:hover{color:#ff00cc;} 
+p, ul, ol, blockquote {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11pt}
+P.indent {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11pt; margin-left: 20px}
+.active {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11pt; color:#666666;}
+.fig {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9pt;}
+.shead {  font-family: trebuchet MS, verdana, arial, helvetica, sans-serif; font-size: 12pt; font-weight: bold}
+.head {  font-family: trebuchet MS, verdana, arial, helvetica, sans-serif; font-size: 20pt; font-weight: bold}
+.headssg {  font-family: trebuchet MS, verdana, arial, helvetica, sans-serif; font-size: 14pt; font-weight: bold}
+.symb {  font-family: symbol; font-size: 11pt; font-weight: bold;}
+BR.pageEnd {page-break-after:always;}
+.text {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11pt; text-indent: 40px;}
+.smtext { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt}
+.vari {  font-family: "Times New Roman", Times, serif; font-size: 11pt; font-style: italic; font-weight: bold}
+.figSymb { font-family: symbol; font-size: 9pt; font-style: italic }
+.figVari {  font-family: "Times New Roman", Times, serif; font-size: 9pt; font-style: italic; font-weight: bold}
+.eq_label { font-family: verdana, Helvetica, sans-serif; font-size: 11pt; text-align: right;}
+.underline {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11pt; text-decoration: underline}
+   -->
+  </style>
+  <script language="javascript" type="text/javascript">
+  <!--
+  function workWindow(theURL,winName,features) {
+    window.open(theURL,winName,features);
+  }
+  //-->
+  </script>
+ </head>
+
+ <body bgcolor="#FFFFFF" link="#3333FF" vlink="#990099">
+  <!-- BEGIN TOP NAVIGATION --> 
+  
+  <table width="635" border="1" cellspacing="0" cellpadding="8" bgcolor="#CCCC99">
+   <tr>
+    <td> 
+     <p align="center">
+      <font face="Arial, Helvetica, sans-serif" size="2">
+        [ <a href="index.html">Slope Stability Reference Guide Home</a> ]<br>
+        [ <a href="ssg_5toc.html">Section 5 TOC</a> ]<br>
+        [ &lt; <a href="ssg_5f.html">Section 5F </a> ]
+        [ <a href="ssg_5h.html">Section 5H </a> &gt; ]
+      </font>
+     </p>
+    </td>
+   </tr>
+  </table>
+<!-- END TOP NAVIGATION -->
+
+  
+<table width="635" border="0" cellspacing="2" cellpadding="2">
+  <tr> 
+    <td colspan="5" align="center" valign="top"><font face="Arial, Helvetica, sans-serif"><font size="3"><b>Slope 
+      Stability Reference Guide for National Forests in the United States <br>
+      Volume II, Chapter 5, Section G</b></font> </font> <hr> </td>
+  </tr>
+  <tr> 
+    <td width="120" valign="top" height="53"> <div align="right"><strong><font face="Arial, Helvetica, sans-serif" size="4">5G.</font></strong></div></td>
+    <td valign="top" colspan="4" height="53" width="501"> <p><strong><font face="Arial, Helvetica, sans-serif" size="4"> 
+        Soil Slopes -- Sample Problem Including All Three Levels of Analysis </font></strong></p></td>
+  </tr>
+  <tr> 
+    <td colspan="5"> <hr> </td>
+  </tr>
+  <tr> 
+    <td width="120" valign="top" height="29"><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+    <td class="fig" valign="top" colspan="4" height="29" width="501"> <p><font face="Arial, Helvetica, sans-serif" size="2"><i>Rodney 
+        W. Prellwitz, Geotechnical Engineer, Intermountain Research Station</i></font></p></td>
+  </tr>
+  <tr> 
+    <td colspan="5"> <hr> </td>
+  </tr>
+  <tr> 
+    <td  valign="top" width="120"><font face="Arial, Helvetica, sans-serif" size="3"><strong><a name="5G.1"></a>5G.1 
+      Sample Problem Background</strong></font> </td>
+    <td valign="top" colspan="4"  width="501"> <p><font face="Arial, Helvetica, sans-serif" size="2">This 
+        is a hypothetical field problem to illustrate typical stability analysis 
+        of conditions common to colluvial soils of granitic parent rock type. 
+        The decomposed granitic rock underlying the colluvium can be considered 
+        as residual soil because its shear strength and slope failure modes are 
+        more like soil than rock. However, the residual decomposed granitic parent 
+        material is usually much less permeable than the overlying colluvium. 
+        The unit weight of the colluvium also usually is much lower than that 
+        of the residual material. This frequently leads to unconfined aquifer 
+        development within the colluvium with the colluvium/residual contact acting 
+        as a drainage barrier. Natural slope and typical forest road slope failures 
+        are usually within the colluvium because the lower shear strength and 
+        the extent of the aquifer is within that soil unit. In this case, the 
+        colluvium/residual contact can be considered the lower limit of slope 
+        failure in the stability analysis.</font></p></td>
+  </tr>
+  <tr> 
+    <td colspan="5" valign="top" > <hr></td>
+  </tr>
+  <tr> 
+    <td  valign="top" height="182" width="120"><font face="Arial, Helvetica, sans-serif" size="3"><strong><a name="5G.2"></a>5G.2 
+      Typical Site Conditions</strong></font></td>
+    <td valign="top" colspan="4" width="501"> <p><font size="2" face="Arial, Helvetica, sans-serif">Natural 
+        ground surface slopes in colluvium/decomposed granite terrain can vary 
+        from 0 to 70 percent or more, but typical steep slopes are in the 55 to 
+        70 percent range. Soil depths vary from less than 1 foot to over 20 feet 
+        but usually range from 4 to 12 feet. Steeper slopes usually have the shallower 
+        soils and less ground water concentration. This is consistent with the 
+        development of colluvial deposits. Ground water can occur on all slopes 
+        but can be expected to concentrate in topographic lows or concave-shaped 
+        troughs where the soils are usually deeper and the slopes are usually 
+        not as steep as the adjacent convex-shaped ridges or intermediate slopes. 
+        This is also consistent with the development of colluvial soil deposits 
+        which, like ground water, concentrate in these locations. Ground water 
+        in these shallow aquifers can be expected to respond rapidly to precipitation 
+        and to fluctuate rapidly with the seasons.</font></p></td>
+  </tr>
+  <tr> 
+    <td colspan="5" valign="top"><hr></td>
+  </tr>
+  <tr> 
+    <td valign="top" width="120"><font size="2" face="Arial, Helvetica, sans-serif"><b><b><font size="3"><a name="5G.3"></a></font></b><font size="3">5G.3 
+      Typical Soil Properties</font></b></font> <p align="left"><font face="Arial, Helvetica, sans-serif"><font face="Arial, Helvetica, sans-serif"></font></font></p>
+      <font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font></td>
+    <td valign="top" colspan="4" width="501"> <p><font face="Arial, Helvetica, sans-serif" size="2">Both 
+        the colluvial and residual soils are usually classified as SM (silty sand) 
+        by the Unified Soil Classification System. The sand fraction is usually 
+        poorly graded and can vary from fine to medium in predominant size. This 
+        is a function of the individual grain size of the parent rock material. 
+        Because the parent rock type is composed mostly of quartz and feldspar 
+        minerals, the typical specific gravity of the soil is controlled by these 
+        mineral types and is in the range of 2.6 to 2.7. The colluvium in a field 
+        sample will appear homogeneous and more oxidized compared to the "salt-and-pepper" 
+        texture of the residual material that has not undergone transportation.The 
+        colluvium is loose because it has not undergone any over-consolidation 
+        during and after deposition. Typical standard penetration tests conducted 
+        above the phreatic surface and at a depth of 5 to 10 feet usually result 
+        in blow counts in the range of 4 to 20 blows per foot (bpf) with an average 
+        of about 8 to 10 bpf. Typical AASHTO T-99 laboratory test results are 
+        in the range of 105 to 115 pcf for the optimum dry density at optimum 
+        moisture content.</font></p>
+      <p align="left"><font face="Arial, Helvetica, sans-serif" size="2">The loose 
+        nature of the colluvium also makes it relatively permeable. The base of 
+        the colluvium may be more permeable because it is often more open-graded 
+        and may even grade into an SP (poorly graded sand) at the colluvial/residual 
+        contact. This may be due partly to segregation during deposition, but 
+        is probably also due to piping of the fines adjacent to the drainage barrier. 
+        If the drainage barrier is saturated constantly, the reducing anaerobic 
+        environment can lead to the development of more plastic materials directly 
+        at the barrier. This appears as a gray, often slimy, zone at this location. 
+        This zone is usually not very extensive but should be identified during 
+        investigation because the shear strength of this material is less than 
+        that of the SM soil and must be taken into account in the analysis.</font></p>
+      <div align="left"> 
+        <p><font face="Arial, Helvetica, sans-serif" size="2">The soil particles 
+          are angular for both the colluvium and residual soil. This is a characteristic 
+          most useful in distinguishing a colluvial deposit from other types of 
+          deposits, such as fluvial or glacial, which may have entirely different 
+          shear strength characteristics. The significance of particle shape to 
+          slope stability is that the shear strength is generally higher for soils 
+          with angular particle shape, even in a looser state. If index properties 
+          and charts are used for typical SM soils in the range of their in-situ 
+          relative densities to estimate the effective angle of internal friction 
+          (&phi;') of the soil, the results will usually be less by a few degrees 
+          from the result of a direct shear or triaxial test conducted at the 
+          same unit weight. You can usually use these published index property 
+          correlations to estimate a value for &phi;' knowing that it is slightly 
+          on the conservative side of the probable range, and adjust it upward 
+          according to field experience and back-analysis.</font></p>
+      </div>
+      <font face="Arial, Helvetica, sans-serif" size="2">Except for the anaerobic 
+      material previously described, the fines in the colluvium are usually nonplastic 
+      or only slightly plastic. What this means to slope stability is that soil 
+      cohesion (<i>C<sub>s</sub></i>) can be expected to be very low to nonexistent. 
+      For the analysis of slopes at most forest locations, however, a value for 
+      combined cohesive strength (<i>C</i>) is still appropriate to account for 
+      such cohesion-like strengths as root strength (<i>C<sub>r</sub></i>) and 
+      apparent cohesion (<i>C<sub>a</sub></i>) from capillary tension. The values 
+      of soil cohesion from laboratory tests do not account for these factors 
+      but still are usually excessively high. This is due to the nature of the 
+      typical laboratory test and to the linear interpolation of the Mohr-Coulomb 
+      failure envelope used to arrive at a value for <i>C<sub>s</sub></i>. Therefore, 
+      it is better to arrive at a safe value for <i>C</i> from back-calculation 
+      analysis of known field conditions. Short steep cut slopes on spur roads 
+      or undercut by streambanks are good locations to use for back-analysis, 
+      especially if these have slumped back to a stable slope and ground water 
+      did not appear to be a contributing factor to the failure.</font></td>
+  </tr>
+  <tr> 
+    <td colspan="5" valign="top"><hr></td>
+  </tr>
+  <tr> 
+    <td  valign="top" width="120"><font face="Arial, Helvetica, sans-serif"><b><font size="2" face="Arial, Helvetica, sans-serif"><b><b><font size="3"><a name="5G.4"></a></font></b></b></font><font size="3"><b>5G.4 
+      Problem Statement, Stumpfarm Road Location</b></font></b></font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font></td>
+    <td valign="top" colspan="4" > <p><font size="2" face="Arial, Helvetica, sans-serif">A 
+        new road is to be located for the Stumpfarm timber sale. The task is to 
+        use the information provided to evaluate the suitability of a standard 
+        road design template at the proposed location and to do a preliminary 
+        evaluation of the potential for failure of constructed slopes, the need 
+        for stabilization, and the feasibility of construction of a stabilization 
+        measure for a specific critical site (station 178+50) on the location. 
+        The task is divided into five separate problems:</font></p>
+      <blockquote> 
+        <p><font face="Arial, Helvetica, sans-serif" size="2">*<a href="#Problem_1">Problem 
+          1</a>. Develop shear strength parametric values using index properties 
+          and charts from section 4 with back-analysis by level II methods.</font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2">*<a href="#Problem_2">Problem 
+          2</a>. Evaluate the stability of a typical full-bench cut slope for 
+          the location using level II methods.</font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2">*<a href="#Problem_3">Problem 
+          3</a>. Evaluate critical ground water depths at station 178+50 using 
+          level I methods.</font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2">*<a href="#Problem_4">Problem 
+          4</a>. Evaluate an unstabilized self-balance road template constructed 
+          at station 178+50 using level II methods.</font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2">*<a href="#Problem_5">Problem 
+          5</a>. Evaluate the probable mode of failure of constructed slopes at 
+          station 178+50 and the feasibility of stabilizing these slopes. Analyze 
+          using level III methods. </font></p>
+      </blockquote></td>
+  </tr>
+  <tr> 
+    <td rowspan="2" ><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font></td>
+    <td width="501" colspan="4" valign="top" bgcolor="ivory"> <hr> <font face="Arial, Helvetica, sans-serif" size="2"><b><a name="Problem_1"></a>Problem 
+      1</b>. <i>Develop Shear Strength Parameters. </i></font> <p><font face="Arial, Helvetica, sans-serif" size="2">Develop 
+        typical shear strength parameters for the colluvial soil at the Stumpfarm 
+        timber sale road location. The soil is of granitic parent rock type as 
+        described in section 5G.3. The grain size of the sand fraction is predominantly 
+        medium grained. The fines are nonplastic. Spur road cut slopes (originally 
+        cut at 0.50:1 or steeper) and streambanks have been observed to slump 
+        back to slopes in the range of about 55° (at a height of about 8 feet) 
+        to about 60° (at a height of about 14 feet). The natural slopes at the 
+        locations where the failure observations were made were in the range of 
+        55 to 70 percent, and ground water did not appear to be a factor in the 
+        failures.</font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">a. Estimate relative 
+        density, D<SUB>r</SUB>.</font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">Using SPT Data:</font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2"><i>N</i> &asymp; 8 
+        to 10 @ <i>d</i> = 5 to 10 ft. (Use <i>N</i>=9 & <i>d</i>=7.5 ft.)</font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">Moist unit weight? 
+        At least = 100 pcf <BR>
+        Effective overburden pressure with no watertable,&nbsp;</font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">&sigma;<i><sub>v</sub>'</i> 
+        = (7.5 ft) (100 pcf) &asymp; 800 psf or 0.40 tsf</font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">Using N = 9:</font></p>
+      <font face="Arial, Helvetica, sans-serif" size="2">D<sub>r</sub> = 30% from 
+      table 4B.5<BR>
+      D<sub>r</sub> = 30% from figure 4B.2</font> <p><font face="Arial, Helvetica, sans-serif" size="2">Use 
+        D<sub>r</sub> = 30% (Loose) </font></p>
+      
+      <div align="center">
+<p><font face="Arial, Helvetica, sans-serif" size="2">b. Estimate &gamma;<sub>d</sub>, 
+          &gamma;, &gamma;<sub>sat</sub>, and &phi;' (using <a href="ssg_4b.html#4B_F04">figure 
+          4B.4</a>) </font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><a href="images/5/5g_p666a.gif" target="_blank"><img src="images/5/5g_p666a.gif" width="390" height="276" border="1"></a></font></p>
+      </div></td>
+  </tr>
+  <tr> 
+    <td valign="top" colspan="4" bgcolor="ivory" height="333"> <div align="center"> 
+        <p align="left"><font face="Arial, Helvetica, sans-serif" size="2">From 
+          <a href="ssg_4B.html#4B_F04">figure 4B.4</a> for coarse SM @ D<sub>r</sub> 
+          &asymp; 30%, find:</font></p>
+      </div>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">&gamma;<sub>d</sub> 
+        = 94 pcf, &gamma; = 107 pcf @ <i>w</i> = 15%, &gamma;<sub>sat</sub> = 
+        121 pcf, &phi;' = 32° </font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">Round unit weights: 
+        </font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">&gamma<sub>d</sub> 
+        " 95 pcf, &gamma; &asymp; 110 pcf, &gamma;<sub>sat</sub> " 120 pcf </font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">For angular colluvium, 
+        Increase <U>&phi;' to 33°</U></font> </p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">c. Estimate <i>C</i>. 
+        </font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">Using steep slope 
+        failure data with Fig. 5C.4 and back-calculating for <i>C</i> (&phi;' 
+        = 33°, &gamma; = 110 pcf, and &alpha; &asymp; &phi;):</font></p>
+      <table width="92%" border="1" cellpadding="1" height="141">
+        <tr> 
+          <td width="23%">&beta;&nbsp;</td>
+          <td width="25%"> <div align="center"><i>N </i><BR>
+              (See Fig. 5G.1)&nbsp;</div></td>
+          <td width="26%">H<sub>c</sub>&nbsp;</td>
+          <td width="26%">C= (H<sub>c</sub>&gamma;/N)&nbsp;</td>
+        </tr>
+        <tr> 
+          <td width="23%">55°&nbsp;</td>
+          <td width="25%">22.5&nbsp;</td>
+          <td width="26%">18 ft.&nbsp;</td>
+          <td width="26%">88 pcf &nbsp;</td>
+        </tr>
+        <tr> 
+          <td width="23%">60°&nbsp;</td>
+          <td width="25%">17.2&nbsp;</td>
+          <td width="26%">14 ft.&nbsp;</td>
+          <td width="26%">90 pcf&nbsp;</td>
+        </tr>
+      </table>
+      <font face="Arial, Helvetica, sans-serif" size="2">Use <i>C</i> = 90 pcf.</font> 
+    </td>
+  </tr>
+  <tr> 
+    <td rowspan="5" height="178"><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font></td>
+    <td valign="top" colspan="4" bgcolor="ivory" height="178" width="501"> <hr> 
+      <font face="Arial, Helvetica, sans-serif" size="2"><b><a name="Problem_2"></a>Problem 
+      2. </b><i>Evaluation of the Stability of Full-Bench Cut Slope</i></font> 
+      <p><font size="2" face="Arial, Helvetica, sans-serif"> a. Evaluate whether 
+        a 3/4:1 cut slope can be expected to be stable for a 16-foot subgrade 
+        width (no ditch) in a full-bench template for a natural slope of 60 percent 
+        and soil depths to 10 feet if ground water is not a factor.</font></p></td>
+  </tr>
+  <tr> 
+    <td valign="top" colspan="4" bgcolor="ivory" height="233" width="501"> <p align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a href="images/5/5g_p667a.gif" target="_blank"><img src="images/5/5g_p667a.gif" width="350" height="212" border="1"></a></font></p></td>
+  </tr>
+  <tr> 
+    <td colspan="4" bgcolor="ivory"> <p><font size="2" face="Arial, Helvetica, sans-serif">The 
+        1:1 cut slope would be more likely to be stable at deeper soil depth locations 
+        but probably would not be required in most cases. Recommend the 3/4:1 
+        cut; if a few slumps occur in deeper soils, they should be shallow and 
+        ravel back to a stable slope.</font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">b. Would this 3/4:1 
+        full-bench cut be stable at locations where the natural slope is 70 percent 
+        if soil depths range from 5 to 10 feet and there are no ground water problems 
+        anticipated? Would a 1:1 cut slope be stable under these conditions? Which 
+        cut slope ratio would you recommend for full-bench design? </font></p></td>
+  </tr>
+  <tr> 
+    <td colspan="4" width="501" bgcolor="ivory"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a href="images/5/5g_p667b.gif" target="_blank"><img src="images/5/5g_p667b.gif" width="425" height="232" border="1"></a></font></div></td>
+  </tr>
+  <tr> 
+    <td colspan="4" bgcolor="ivory"> <div align="center"> 
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><a href="images/5/5g_f01.gif" target="_blank"><img src="images/5/5g_f01.gif" width="275" height="349" border="1"></a></font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><i>Figure 5G.1.-Stability 
+          number determination for level II analyses of problems 1 and 2 using 
+          figure 5C.4 (adapted with permission of the American Society of Civil 
+          Engineers from &quot;Limit Analysis of Stability of Slopes&quot; in 
+          <b>Proceedings of the American Society of Civil Engineers, Journal of 
+          the Soul Mechanics and Foundation Division</b>, 97 (SM1) by W.F. Chen 
+          and M.W. Giger, 1970)</i></font></p>
+      </div></td>
+  </tr>
+  <tr> 
+    <td><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font></td>
+    <td colspan="4" valign="top" bgcolor="ivory"> <hr> <b></b> <font face="Arial, Helvetica, sans-serif" size="2"><b><a name="Problem_3"></a>Problem 
+      3. </b>Evaluation of Critical Groundwater Depths at Station 178+50. </font> 
+      <p><font face="Arial, Helvetica, sans-serif" size="2">The road location 
+        crosses a draw at station 178+50 where ground water is expected to concentrate. 
+        A self-balance road template is expected to be used at this location with 
+        a ditch and 16-foot subgrade width. Figure 5G.2 is a cross-section of 
+        this site with the proposed self-balance design template. Using level 
+        I analysis, estimate the critical height of the phreatic surface for the 
+        natural slope conditions.</font></p>
+      <font face="Arial, Helvetica, sans-serif" size="2">For natural slope and 
+      soil depth conditions as shown on figure 5G.2:</font> <table width="71%" border="1" align="center" cellpadding="1" bgcolor="#FFFFFF">
+        <tr> 
+          <td width="19%"> <div align="center"><b><font face="Times New Roman, Times, serif" size="3">From 
+              X:&nbsp;</font></b></div></td>
+          <td width="18%"> <div align="center"><b><font face="Times New Roman, Times, serif" size="3">To 
+              X:&nbsp;</font></b></div></td>
+          <td width="33%"> <div align="center"><b><font face="Times New Roman, Times, serif" size="3">Average 
+              Natural Slope, &alpha; (%)&nbsp;</font></b></div></td>
+          <td width="30%"> <div align="center"><b><font face="Times New Roman, Times, serif" size="3">Average 
+              Soil Depth, <i>d</i> (ft)&nbsp;</font></b></div></td>
+        </tr>
+        <tr> 
+          <td width="19%"> <div align="center"><font face="Times New Roman, Times, serif" size="3">0.0&nbsp;</font></div></td>
+          <td width="18%"> <div align="center"><font face="Times New Roman, Times, serif" size="3">40.0</font></div></td>
+          <td width="33%"> <div align="center"><font face="Times New Roman, Times, serif" size="3">55</font></div></td>
+          <td width="30%"> <div align="center"><font face="Times New Roman, Times, serif" size="3">8</font></div></td>
+        </tr>
+        <tr> 
+          <td width="19%"> <div align="center"><font face="Times New Roman, Times, serif" size="3">40.0</font></div></td>
+          <td width="18%"> <div align="center"><font face="Times New Roman, Times, serif" size="3">67.0</font></div></td>
+          <td width="33%"> <div align="center"><font face="Times New Roman, Times, serif" size="3">52</font></div></td>
+          <td width="30%"> <div align="center"><font face="Times New Roman, Times, serif" size="3">9</font></div></td>
+        </tr>
+        <tr> 
+          <td width="19%"> <p align="center"><font face="Times New Roman, Times, serif" size="3">67.0</font></p></td>
+          <td width="18%"> <div align="center"><font face="Times New Roman, Times, serif" size="3">120.0</font></div></td>
+          <td width="33%"> <div align="center"><font face="Times New Roman, Times, serif" size="3">45</font></div></td>
+          <td width="30%"> <div align="center"><font face="Times New Roman, Times, serif" size="3">10</font></div></td>
+        </tr>
+        <tr> 
+          <td width="19%"> <div align="center"><font face="Times New Roman, Times, serif" size="3">120.0</font></div></td>
+          <td width="18%"> <div align="center"><font face="Times New Roman, Times, serif" size="3">160.0</font></div></td>
+          <td width="33%"> <div align="center"><font face="Times New Roman, Times, serif" size="3">35</font></div></td>
+          <td width="30%"> <div align="center"><font face="Times New Roman, Times, serif" size="3">11</font></div></td>
+        </tr>
+      </table>
+      <font color="#000000" face="Arial, Helvetica, sans-serif" size="2">Use the 
+      level I HP41 program SSIS or PC program DLISA to find the critical ground 
+      water depth at each break in slope by setting <i>F</i> = 1.00 and solving 
+      for <i>d</i><sub>w</sub>:</font></td>
+  </tr>
+  <tr> 
+    <td height="144" colspan="4" bgcolor="ivory"> <p align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a href="images/5/5g_p669a.gif" target="_blank"><img src="images/5/5g_p669a.gif" width="341" height="166" border="1"></a></font></p></td>
+  </tr>
+  <tr> 
+    <td colspan="4" bgcolor="ivory"> <p><font color="#000000" face="Arial, Helvetica, sans-serif" size="2">Plot 
+        the critical ground water profile as the undrained phreatic surface on 
+        figure <a href="#Fig_5G.2">5G.2</a>:</font> </p>
+      <div align="center"> 
+        <table width="74%" border="1" cellpadding="1" bgcolor="#FFFFFF">
+          <tr> 
+            <td width="15%"> <div align="center"><b>At X:&nbsp;</b></div></td>
+            <td width="37%"> <div align="center"><b>Critical <i>d</i><sub>w</sub>&nbsp;</b></div></td>
+            <td width="23%"> <div align="center"><b>Drainage Barrier Y&nbsp;</b></div></td>
+            <td width="25%"> <div align="center"><b>Undr. Phreatic Surface Y&nbsp;</b></div></td>
+          </tr>
+          <tr> 
+            <td width="15%"> <div align="center"><font size="3" face="Times New Roman, Times, serif">0.0</font></div></td>
+            <td width="37%"> <div align="center"><font size="3" face="Times New Roman, Times, serif">5.2</font></div></td>
+            <td width="23%"> <div align="center"><font size="3" face="Times New Roman, Times, serif">6.0</font></div></td>
+            <td width="25%"> <div align="center"><font size="3" face="Times New Roman, Times, serif">11.2</font></div></td>
+          </tr>
+          <tr> 
+            <td width="15%"> <div align="center"><font size="3" face="Times New Roman, Times, serif">40.0</font></div></td>
+            <td width="37%"> <div align="center"><font size="3" face="Times New Roman, Times, serif">(5.2 
+                + 6.2)/2 = 5.7</font></div></td>
+            <td width="23%"> <div align="center"><font size="3" face="Times New Roman, Times, serif">28.0</font></div></td>
+            <td width="25%"> <div align="center"><font size="3" face="Times New Roman, Times, serif">33.7</font></div></td>
+          </tr>
+          <tr> 
+            <td width="15%"> <div align="center"><font size="3" face="Times New Roman, Times, serif">67.0</font></div></td>
+            <td width="37%"> <div align="center"><font size="3" face="Times New Roman, Times, serif">(6.2 
+                + 8.6)/2 = 7.4</font></div></td>
+            <td width="23%"> <div align="center"><font size="3" face="Times New Roman, Times, serif">42.0</font></div></td>
+            <td width="25%"> <div align="center"><font size="3" face="Times New Roman, Times, serif">49.4</font></div></td>
+          </tr>
+          <tr> 
+            <td width="15%"> <div align="center"><font size="3" face="Times New Roman, Times, serif">120.0</font></div></td>
+            <td width="37%"> <div align="center"><font size="3" face="Times New Roman, Times, serif">8.6</font></div></td>
+            <td width="23%"> <div align="center"><font size="3" face="Times New Roman, Times, serif">66.0</font></div></td>
+            <td width="25%"> <div align="center"><font size="3" face="Times New Roman, Times, serif">74.6</font></div></td>
+          </tr>
+          <tr> 
+            <td width="15%"> <div align="center"><font size="3" face="Times New Roman, Times, serif">160.0</font></div></td>
+            <td width="37%"> <div align="center"><font size="3" face="Times New Roman, Times, serif">d<sub>w</sub> 
+                = d = 12.0</font></div></td>
+            <td width="23%"> <div align="center"><font size="3" face="Times New Roman, Times, serif">80.0</font></div></td>
+            <td width="25%"> <div align="center"><font size="3" face="Times New Roman, Times, serif">92.0</font></div></td>
+          </tr>
+        </table>
+      </div></td>
+  </tr>
+  <tr> 
+    <td colspan="4" bgcolor="#CCCC99"> <div align="center"> 
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><a name="Fig_5G.2"></a><a href="images/5/5g_f02.gif" target="_blank"><img src="images/5/5g_f02.gif" width="375" height="264" border="1"></a></font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><i>Figure 5G.2.-Cross-section 
+          at station 178 + 50 showing data for and solutions from problems <a href="#Problem_2">2</a> 
+          and <a href="#Problem_3">3</a>.</i></font></p>
+      </div></td>
+  </tr>
+  <tr> 
+    <td rowspan="4"><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font></td>
+    <td width="501" height="138" colspan="4" bgcolor="ivory"> <hr> <font face="Arial, Helvetica, sans-serif" size="2"><b><a name="Problem_4"></a>Problem 
+      4. </b><i>Level II Analysis of Self-Balance Road Template at Station 178+50</i></font> 
+      <p><font face="Arial, Helvetica, sans-serif" size="2">Using either the HP41 
+        program SSCHFS (1988) or the PC program DSARA, determine the dimensions 
+        for a self-balance road template with a 16-foot subgrade width, 1-foot-deep 
+        ditch on a 3.00:1 slope, 0.75:1 cut slope, and 1.30:1 fill slope. Using 
+        level II analysis, estimate the stability of the cut and fill slopes if 
+        the phreatic surface approaches the critical conditions as estimated in 
+        problem 3 and the stabilizing effect that drainage might have on that 
+        stability.</font></p></td>
+  </tr>
+  <tr> 
+    <td colspan="4" bgcolor="ivory" width="501" > <div align="center"> 
+        <p><font size="2" face="Arial, Helvetica, sans-serif">DSARA printout for 
+          undrained natural slope and self-balance constructed slopes</font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><a href="images/5/5g_p671a.gif" target="_blank"><img src="images/5/5g_p671a.gif" width="471" height="202" border="1"></a></font></p>
+      </div></td>
+  </tr>
+  <tr> 
+    <td colspan="4" width="501" bgcolor="ivory"> <div align="center"> 
+        <p><font face="Arial, Helvetica, sans-serif" size="2">DSARA printout for 
+          drained natural slope and self-balance constructed slopes</font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><a href="images/5/5g_p671b.gif" target="_blank"><img src="images/5/5g_p671b.gif" width="459" height="213" border="1"></a></font></p>
+      </div></td>
+  </tr>
+  <tr> 
+    <td colspan="4" bgcolor="ivory"><font face="Arial, Helvetica, sans-serif" size="2">Conclusion: 
+      Both cut and fill slopes can be expected to be unstable without drainage, 
+      but can be stabilized even under extreme ground water conditions with proper 
+      drainage.</font> </td>
+  </tr>
+  <tr> 
+    <td ><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font></td>
+    <td width="501" colspan="4" bgcolor="ivory"> <hr> <font size="2" face="Arial, Helvetica, sans-serif"><b><a name="Problem_5"></a>Problem 
+      5. </b><i>Level III Analysis of Self-Balance Road Template at Station 178+50.</i></font> 
+      <p><font size="2" face="Arial, Helvetica, sans-serif">Using XSTABL, verify 
+        the level II stability estimations for the self-balance cut and fill slopes. 
+        Determine whether the failures are likely to be rotational or translational. 
+        Determine the effects on the stability of the fill slope of not removing 
+        the organic surface material (duff) before fill placement.</font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">a. Construct a drained 
+        phreatic surface at cut-slope intercept. Refer to section <a href="ssg_4e.html#4E.5">4E.5</a> 
+        for the analysis of drained phreatic surfaces. Using the HP program GW 
+        with the intercept conditions of the cut slope with the undrained phreatic 
+        surface (X and Y measured from the origin at the toe of the cut slope):</font></p>
+      <div align="center"> 
+        <p><font size="2" face="Arial, Helvetica, sans-serif"><a href="images/5/5g_p672a.gif" target="_blank"><img src="images/5/5g_p672a.gif" width="370" height="210" border="1"></a></font></p>
+      </div>
+      <font face="Arial, Helvetica, sans-serif" size="2">X and Y coordinates of 
+      the drained phreatic surface <i>Y</i><SUB><i>D</i></SUB> (coordinates of 
+      the toe of the cut slope are X = 62.0 and Y = 41.0): </font> <table width="81%" border="1" align="center" cellpadding="1" bgcolor="#FFFFFF">
+        <tr> 
+          <td width="21%"><div align="center">X<sub>d</sub></div></td>
+          <td width="26%"><div align="center">X = X<sub>d</sub> + 62.0&nbsp;</div></td>
+          <td width="21%"><div align="center">Y&nbsp;</div></td>
+          <td width="32%"><div align="center">Y = Y<sub>d</sub> + 41.0&nbsp;</div></td>
+        </tr>
+        <tr> 
+          <td width="21%"><div align="center">0.0</div></td>
+          <td width="26%"><div align="center">62.0</div></td>
+          <td width="21%"><div align="center">0.0</div></td>
+          <td width="32%"><div align="center">41.0</div></td>
+        </tr>
+        <tr> 
+          <td width="21%"><div align="center">3.0</div></td>
+          <td width="26%"><div align="center">65.0</div></td>
+          <td width="21%"><div align="center">4.0</div></td>
+          <td width="32%"><div align="center">54.0</div></td>
+        </tr>
+        <tr> 
+          <td width="21%"><div align="center">8.0</div></td>
+          <td width="26%"><div align="center">70.0</div></td>
+          <td width="21%"><div align="center">8.0</div></td>
+          <td width="32%"><div align="center">49.0</div></td>
+        </tr>
+        <tr> 
+          <td width="21%"><div align="center">18.0</div></td>
+          <td width="26%"><div align="center">80.0</div></td>
+          <td width="21%"><div align="center">13.6</div></td>
+          <td width="32%"><div align="center">54.6</div></td>
+        </tr>
+        <tr> 
+          <td width="21%" height="27"><div align="center">58.0</div></td>
+          <td width="26%" height="27"><div align="center">120.0</div></td>
+          <td width="21%" height="27"><div align="center">33.3</div></td>
+          <td width="32%" height="27"><div align="center">74.3 (Undr. = 74.6)</div></td>
+        </tr>
+        <tr> 
+          <td width="21%" height="23"> <div align="center"></div></td>
+          <td width="26%"><div align="center">160.0</div></td>
+          <td width="21%"><div align="center"></div></td>
+          <td width="32%"><div align="center">92.0 (Undr.)</div></td>
+        </tr>
+      </table>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">Plot as the cut slope 
+        intercept phreatic surface on figure 5G.2 and use for the level III undrained 
+        analysis of the cut slope.</font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">b. Construct of phreatic 
+        surfaces for the fill-slope analysis. The phreatic surfaces for the following 
+        fill slope stability analyses were estimated to conform to the fill <i>h<sub>w</sub></i> 
+        as predicted by DSARA.</font></p>
+      <font face="Arial, Helvetica, sans-serif" size="2">c. XSTABL analysis. Figures 
+      5G.3 through 5G.11 are the input files and plots for the analysis using 
+      XSTABL of the cut and fill slopes at station 178+50.</font></td>
+  </tr>
+  <tr> 
+    <td colspan="4" bgcolor="#CCCC99" > <p align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a name="Fig_5g3"></a><a href="images/5/5g_f03.gif" target="_blank"><img src="images/5/5g_f03.gif" width="242" height="344" border="1"></a></font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2"><i>Figure 5G.3.-XSTABL 
+        input file and plot for the undrained circular failure anaysis of the 
+        cut slope at station 178+50</i></font></p></td>
+  </tr>
+  <tr> 
+    <td colspan="4" bgcolor="#CCCC99" height="461"> <div align="center"> 
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><a name="Fig_5g4"></a><a href="images/5/5g_f04.gif" target="_blank"><img src="images/5/5g_f04.gif" width="251" height="302" border="1"></a></font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><i>Figure 5G.4.-XSTABL 
+          input file and plot for the undrained translational failure analysis 
+          of the cut slope at station 178+50.</i></font></p>
+      </div></td>
+  </tr>
+  <tr> 
+    <td colspan="4" bgcolor="#CCCC99"> <div align="center"> 
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><a name="Fig_5G5"></a><a href="Images/5/5g_f05.gif" target="_blank"><img src="images/5/5g_f05.gif" width="242" height="346" border="1"></a></font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><i>Figure 5.G.5.-XSTABL 
+          input file and plot for the drained circular failure analysis of the 
+          cut slope at station 178+50.</i></font></p>
+      </div></td>
+  </tr>
+  <tr> 
+    <td colspan="4" bgcolor="#CCCC99"> <div align="center"> 
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><a name="Fig_5g6"></a><a href="images/5/5g_f06.gif" target="_blank"><img src="images/5/5g_f06.gif" width="252" height="369" border="1"></a></font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><i>Figure 5G.6.-XSTABL 
+          input file and plot of the drained translational failure analysys of 
+          the cut slope at station 178 + 50.</i></font></p>
+      </div></td>
+  </tr>
+  <tr> 
+    <td colspan="4" bgcolor="#CCCC99" > <p align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a name="Fig_5g7"></a><a href="images/5/5g_f07.gif" target="_blank"><img src="images/5/5g_f07.gif" width="244" height="345" border="1"></a></font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2"><i>Figure 5G.7.-XSTABL 
+        input file and plot of the undrained translational failure analysis of 
+        the fill slope at station 178 + 50 with the duff layer unremoved.</i></font></p></td>
+  </tr>
+  <tr> 
+    <td colspan="4" bgcolor="#CCCC99"> <p align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a name="Fig_5g8"></a><a href="images/5/5g_f08.gif" target="_blank"><img src="images/5/5g_f08.gif" width="228" height="344" border="1"></a></font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2"><i>Figure 5G.8.-XSTABL 
+        input file and plot of the undrained shallow circular failure analysis 
+        of the fill slope at station 178 + 50</i>.</font></p></td>
+  </tr>
+  <tr> 
+    <td colspan="4" bgcolor="#CCCC99" height="388"> <p align="center"><font face="Arial, Helvetica, sans-serif" size="2"><i><a name="Fig_5g9"></a><a href="images/5/5g_f09.gif" target="_blank"><img src="images/5/5g_f09.gif" width="238" height="370" border="1"></a></i></font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2"><i>Figure 5G.9.-XSTABL 
+        input file and plot of the undrained deep circular failure analysis of 
+        the fill slope at station 178 + 50.</i></font></p></td>
+  </tr>
+  <tr> 
+    <td colspan="4" bgcolor="#CCCC99"> <p align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a name="Fig_5g10"></a><a href="images/5/5g_f10.gif" target="_blank"><img src="images/5/5g_f10.gif" width="219" height="318" border="1"></a></font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2"><i>Figure 5G.10.-XSTABL 
+        input file and plot for the drained shallow circular failure analysis 
+        of the fill slope at station 178 + 50.</i></font></p></td>
+  </tr>
+  <tr> 
+    <td colspan="4" bgcolor="#CCCC99" height="378"> <div align="center"> 
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><a name="Fig_5g11"></a><a href="images/5/5g_f11.gif" target="_blank"><img src="images/5/5g_f11.gif" width="237" height="361" border="1"></a></font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><i>Figure 5G.11.-XSTABL 
+          input file and plot for the drained deep circular failure analysis of 
+          the fill slope at station 178 + 50.</i></font></p>
+      </div></td>
+  </tr>
+  <tr bgcolor="ivory"> 
+    <td colspan="4"><font face="Arial, Helvetica, sans-serif" size="2">d. Summarize 
+      level III analyses. The following is a summary of the XSTABL analyses as 
+      plotted on figures <a href="#Fig_5g3">5G.3</a> through 5G.11:</font> <table width="85%" height="249" border="1" align="center" cellpadding="1" bgcolor="#FFFFFF">
+        <tr> 
+          <td width="13%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><b>Slope 
+              </b></font></div></td>
+          <td width="19%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><b>Drainage</b></font></div></td>
+          <td width="24%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><b>Failure 
+              Mode</b></font></div></td>
+          <td width="28%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><b>Method 
+              of Analysis</b></font></div></td>
+          <td width="16%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><b> 
+              Factor of Safety</b></font></div></td>
+        </tr>
+        <tr> 
+          <td width="13%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">Cut</font></div></td>
+          <td width="19%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">Undrained</font></div></td>
+          <td width="24%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">Circular</font></div></td>
+          <td width="28%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">Simplified 
+              Bishop's</font></div></td>
+          <td width="16%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">0.935</font></div></td>
+        </tr>
+        <tr> 
+          <td width="13%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">Cut</font></div></td>
+          <td width="19%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">Undrained</font></div></td>
+          <td width="24%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">Translational</font></div></td>
+          <td width="28%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">Simplified 
+              Janbu's</font></div></td>
+          <td width="16%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">0.961</font></div></td>
+        </tr>
+        <tr> 
+          <td width="13%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">Cut 
+              </font></div></td>
+          <td width="19%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">Drained</font></div></td>
+          <td width="24%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">Circular</font></div></td>
+          <td width="28%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">Simplified 
+              Bishop's </font></div></td>
+          <td width="16%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">1.203</font></div></td>
+        </tr>
+        <tr> 
+          <td width="13%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">Cut</font></div></td>
+          <td width="19%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">Drained 
+              </font></div></td>
+          <td width="24%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">Translational</font></div></td>
+          <td width="28%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">Simplified 
+              Janbu's</font></div></td>
+          <td width="16%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">1.219</font></div></td>
+        </tr>
+        <tr> 
+          <td width="13%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">Fill</font></div></td>
+          <td width="19%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">Drained</font></div></td>
+          <td width="24%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">Translational</font></div></td>
+          <td width="28%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">Simplified 
+              Janbu's</font></div></td>
+          <td width="16%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">0.917</font></div></td>
+        </tr>
+        <tr> 
+          <td width="13%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">Fill</font></div></td>
+          <td width="19%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">Undrained</font></div></td>
+          <td width="24%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">Shallow 
+              Circular</font></div></td>
+          <td width="28%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">Simplified 
+              Bishop's</font></div></td>
+          <td width="16%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">1.114</font></div></td>
+        </tr>
+        <tr> 
+          <td width="13%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">Fill</font></div></td>
+          <td width="19%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">Undrained</font></div></td>
+          <td width="24%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">Deep 
+              Circular</font></div></td>
+          <td width="28%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">Simplified 
+              Bishop's</font></div></td>
+          <td width="16%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">1.021</font></div></td>
+        </tr>
+        <tr> 
+          <td width="13%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">Fill</font></div></td>
+          <td width="19%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">Drained</font></div></td>
+          <td width="24%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">Shallow 
+              Circular</font></div></td>
+          <td width="28%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">Simplified 
+              Bishop's</font></div></td>
+          <td width="16%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">1.410</font></div></td>
+        </tr>
+        <tr> 
+          <td width="13%" height="31"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">Fill</font></div></td>
+          <td width="19%" height="31"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">Drained</font></div></td>
+          <td width="24%" height="31"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">Deep 
+              Circular</font></div></td>
+          <td width="28%" height="31"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">Simplified 
+              Bishop's</font></div></td>
+          <td width="16%" height="31"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">1.170</font></div></td>
+        </tr>
+      </table>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">e. Conclusions from 
+        level III analysis. As predicted in level II and shown on figure <a href="#Fig_5g3">5G.3</a>, 
+        a rotational cut slope failure is quite likely under critical high ground 
+        water conditions. Compare figures <a href="#Fig_5g3">5G.3</a> and <a href="#Fig_5g4">5G.4</a>: 
+        even though the rotational failure is most likely, there still is potential 
+        for a translational failure. If the 0.75:1 cut slope were constructed 
+        without drainage protection, it would fail as illustrated in figure <a href="#Fig_5g3">5G.3</a>, 
+        and the rotational slide mass would probably buttress the slope above 
+        and prevent the progression into a larger translational failure. If this 
+        were not recognized as a potential problem, removal of the rotational 
+        failure mass and reconstruction of the cut slope to a flatter slope could 
+        cause a much larger translational failure (see problems <a href="ssg_5c.html#Problem_8">5C.8</a> 
+        and <a href="ssg_5c.html#Problem_9">5C.9</a>). The cut slope could be 
+        stabilized against rotational or translational failure by construction 
+        of an interceptor trench approximately 12 feet deep somewhere between 
+        X = 100 and 130 feet as illustrated on figures <a href="#Fig_5G5">5G.5</a> 
+        and 5G.6. (The drained phreatic surface illustrated at X = 130 feet is 
+        estimated to be the response to an interceptor trench constructed to the 
+        drainage barrier at that location.)</font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">The importance of 
+        removal of the organic duff layer and keying the fill into the subsoil 
+        is illustrated on figure <a href="#Fig_5g7">5G.7</a>. This is a common 
+        form of failure of sidecast fills. If the duff layer is removed prior 
+        to fill placement, the fill is shown on figures <a href="#Fig_5g8">5G.8</a> 
+        and <a href="#Fig_5g9">5G.9</a> to be marginally stable even under undrained 
+        critical ground water conditions. This was predicted by the level II analysis. 
+        However, if failure did occur, it is likely to be a deep rotational failure 
+        with a failure surface tangent to the drainage barrier as illustrated 
+        on figure <a href="#Fig_5g9">5G.9</a>. A failure surface of this type 
+        does have the potential for progression into a translational debris avalanche. 
+        Proper drainage to prevent the failure of the cut slope should also prevent 
+        failure of the fill slope as illustrated on figures <a href="#Fig_5g10">5G.10</a> 
+        and <a href="#Fig_5g11">5G.11</a>, provided the trench drain water is 
+        collected and discharged below the fill location. (<a href="ssg_6d.html">Section 
+        6D</a> contains an in-depth coverage of stabilization with subsurface 
+        drainage systems.)</font></p></td>
+  </tr>
+</table>
+<p><!-- ======= FOOTER GRAPHIC =================================================== --></p>
+<p> 
+  <!-- ========================================================================= -->
+  <img src="images/navbar.gif" width="703" height="36" align="BOTTOM"
+   usemap="#b_pagingButtons.map" border="0" alt="Slope Stability Reference Guide for National Forests in the United States"> 
+  <br>
+  <!-- =======IMAGE MAP INFORMATION============================================== -->
+  <map name="b_pagingButtons.map"> 
+    <!--HOME-->    <area shape="RECT" coords="0,0 605,26" href="index.html" alt="SSG home">
+    <!--PREV-->    <area shape="rect" coords="609,0,630,26" href="ssg_5f.html" alt="Section 5F">
+    <!--NEXT-->    <area shape="rect" coords="632,0,652,26" href="ssg_5h.html" alt="Section 5H">
+  </map>
+  <!-- ========================================================================= -->
+  <br>
+   <font face="Arial, Helvetica, sans-serif" size="1">USDA Forest Service<br>
+    <b>Slope Stability Reference Guide for National Forests in the United States, 1994.</b>
+    <br>
+    <a href="http://forest.moscowfsl.wsu.edu/ssg/">http://forest.moscowfsl.wsu.edu/ssg/</a> 
+    <br>Last Revised: 
+    <script language="javascript" type="text/javascript">
+     <!-- hide
+      document.write(document.lastModified)
+     // end hide -->
+    </script>
+   </font>
+  </p>
+ </body>
+</html>

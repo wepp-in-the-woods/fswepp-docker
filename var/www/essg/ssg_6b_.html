@@ -1,0 +1,1777 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+ <head>
+  <title>SSG Section 6B: Modification of Geometry</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <!--
+    Hall, D.E.; Long, M.T.; Remboldt, M.D., editors. 1994.
+    Slope Stability Reference Guide for National Forests in the United States.
+    Prellwitz, R.W.; Koler, T.E.; Steward, J.E., coordinators.
+    Publication EM-7170-13.
+    Washington, DC: U.S. Department of Agriculture, U.S. Forest Service, Engineering Staff. 
+    3 volumes, 1091 p.
+    Corrected [2006] electronic version at http://forest.moscowfsl.wsu.edu/ssg/
+  -->
+  <style type="text/css">
+<!--
+A{color:#0000CC; font-family:Verdana, Arial, Helvetica, sans-serif;} A:hover{color:#ff00cc;} A:visited{color:#660099;} A:visited:hover{color:#ff00cc;} 
+p, ul, ol, blockquote {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11pt}
+P.indent {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11pt; margin-left: 20px}
+.active {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11pt; color:#666666;}
+.fig {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9pt;}
+.shead {  font-family: trebuchet MS, verdana, arial, helvetica, sans-serif; font-size: 12pt; font-weight: bold}
+.head {  font-family: trebuchet MS, verdana, arial, helvetica, sans-serif; font-size: 20pt; font-weight: bold}
+.headssg {  font-family: trebuchet MS, verdana, arial, helvetica, sans-serif; font-size: 14pt; font-weight: bold}
+.symb {  font-family: symbol; font-size: 11pt; font-weight: bold;}
+BR.pageEnd {page-break-after:always;}
+.text {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11pt; text-indent: 40px;}
+.smtext { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt}
+.vari {  font-family: "Times New Roman", Times, serif; font-size: 11pt; font-style: italic; font-weight: bold}
+.figSymb { font-family: symbol; font-size: 9pt; font-style: italic }
+.figVari {  font-family: "Times New Roman", Times, serif; font-size: 9pt; font-style: italic; font-weight: bold}
+.eq_label { font-family: verdana, Helvetica, sans-serif; font-size: 11pt; text-align: right;}
+.underline {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11pt; text-decoration: underline}
+-->
+  </style>
+  <script language="javascript" type="text/javascript">
+  <!--
+
+  function workWindow(theURL,winName,features) {
+    window.open(theURL,winName,features);
+  }
+
+   function popupfig(src,caption) {
+     height=620;
+     width=660;
+     popfig = window.open('','popfig','toolbar=no,location=no,status=no,directories=no,menubar=no,scrollbars=yes,resizable=yes,width='+width+',height='+height);
+     popfig.document.writeln('<html>')
+     popfig.document.writeln(' <head>')
+     popfig.document.writeln('  <title>Slope Stability Reference Guide for National Forests in the United States</title>')
+     popfig.document.writeln(' </head>')
+     popfig.document.writeln(' <body bgcolor="ivory" onLoad="self.focus">')
+     popfig.document.writeln('  <font face="trebuchet, tahoma, arial, helvetica, sans serif">')
+     popfig.document.writeln('   <center>')
+     popfig.document.writeln('    <h4>Slope Stability Reference Guide for National Forests in the United States</h4>')
+     popfig.document.writeln('     <img src='+src+'><br><br>')
+     popfig.document.writeln('   <font size=-1>')
+     popfig.document.writeln('     <i>'+caption+'</i>')
+     popfig.document.writeln('   </font>')
+     popfig.document.writeln('   <br><br>')
+     popfig.document.writeln('   </center>')
+     popfig.document.writeln('   <font size=-1>')
+     popfig.document.writeln('    USDA Forest Service<br>')
+     popfig.document.writeln('    Rocky Mountain Research Station<br>')
+     popfig.document.writeln('    Moscow Forestry Sciences Laboratory<br>')
+     popfig.document.writeln('    <b>Slope Stability Reference Guide for National Forests in the United States</b><br>')
+     popfig.document.writeln('    forest.moscowfsl.wsu.edu/ssg/')
+     popfig.document.writeln('   </font>')
+     popfig.document.writeln('  </font>')
+     popfig.document.writeln(' </body>')
+     popfig.document.writeln('</html>')
+     popfig.document.close()
+     popfig.focus()
+  }
+  //-->
+  </script>
+ </head>
+ <body bgcolor="#FFFFFF" link="#3333FF" vlink="#990099">
+
+  <!-- BEGIN TOP NAVIGATION -->
+  
+<table width="635" border="1" cellspacing="0" cellpadding="8" bgcolor="#CCCC99">
+  <tr>
+    <td> 
+      <p align="center"><font face="Arial, Helvetica, sans-serif" size="2">
+        [ <a href="index.html">Slope Stability Reference Guide Home</A> ]<BR>
+        [ <a href="ssg_6toc.html">Section 6 TOC</a> ] <BR>
+        [ &lt; <a href="ssg_6a.html">Section 6A </a> ]
+        [ <a href="ssg_6c.html">Section 6C </a> &gt; ] </font></p>
+    </td>
+</tr>
+</table>
+<!-- END TOP NAVIGATION -->
+
+<table width="635" border="0" cellspacing="2" cellpadding="2">
+  <tr> 
+    <td colspan="5" align="center" valign="top"><font face="Arial, Helvetica, sans-serif" size="3"><b>Slope 
+      Stability Reference Guide for National Forests in the United States <br>
+      Section 6B</b>
+    </font>
+    <hr>
+    </td>
+   </tr>
+   <tr> 
+    <td width="104" valign="top">
+     <div align="right">
+      <font face="Arial, Helvetica, sans-serif" size="4">
+       6B.
+      </font>
+     </div>
+    </td>
+    <td valign="top" colspan="4">
+     <font face="Arial, Helvetica, sans-serif" size="4">
+      Modification of Geometry
+     </font>
+    </td>
+   </tr>
+   <tr> 
+    <td colspan="5"> <hr> </td>
+   </tr>
+   <tr> 
+    <td width="104" valign="top"><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+    <td valign="top" colspan="4">
+      <font size="2" face="Arial, Helvetica, sans-serif">
+       <i><b>Rene Renteria,</b> Geotechnical Engineer, Intermountain Regional Office</i>
+      </font>
+    </td>
+   </tr>
+   <tr> 
+    <td colspan="5"> <hr> </td>
+   </tr>
+   <tr> 
+    <td valign="top">
+     <font face="Arial, Helvetica, sans-serif" size="3">
+<a name="6B.1"></a>
+      <strong>6B.1 General Information</strong>
+     </font>
+    </td>
+    <td valign="top"> 
+     <font face="Arial, Helvetica, sans-serif" size="2">
+      Modification of geometry is a mitigation measure that closely mimics nature.
+      The force of gravity is constantly reshaping the landscape through natural slope 
+        building processes. Unfortunately, nature's forces also affect areas with 
+        human-built structures. Sometimes these human-built structures give nature 
+        a little "push."
+      <br><br>
+      An advantage of modifying 
+        the geometry of a slide area is that for many situations, the repair works 
+        with instead of against nature. Some examples are: flattening the slope 
+        angle, using a sag vertical curve, using a steepened embankment, and using 
+        a lightweight fill that would reduce the weight load on a slope. Most 
+        of these options are substantially less expensive than buttresses or retaining 
+        structures.
+      <br><br>
+      A disadvantage of 
+        modifying the geometry is the possible increased effect on land resources. 
+        Flattening a cut slope could result in a large exposed area, possibly 
+        creating sediment production through erosion. In addition to creating 
+        a "bend in the road," a shift in horizontal alignment creates additional 
+        excavated material that must be disposed of. A sag vertical curve may 
+        concentrate water runoff into a sensitive area.
+      <br><br>
+      The geotechnical specialist must carefully determine the advantages and disadvantages for each application. 
+      All significant benefits and impacts should be relayed to the decision maker.
+     </font>
+    </td>
+   </tr>
+   <tr> 
+    <td colspan="5" valign="top" ><hr></td>
+   </tr>
+   <tr> 
+    <td valign="top">
+     <font face="Arial, Helvetica, sans-serif" size="3">
+<a name="6B.2"></a>
+      <strong>6B.2 Necessary Predesign Information</strong>
+     </font>
+    </td>
+    <td valign="top" colspan="4">
+     <font face="Arial, Helvetica, sans-serif" size="2">
+      Any road design project will consist of meeting the road management objectives 
+        (RMO's) decided upon in an interdisciplinary forum. When considering modification 
+        of geometry as a slope stability mitigation, some important design considerations 
+        are:
+      <br>
+      <ul>
+        <li><font face="Arial, Helvetica, sans-serif" size="2">Desired road width</font></li>
+        <li><font face="Arial, Helvetica, sans-serif" size="2"> Horizontal alignment impacts</font></li>
+        <li><font face="Arial, Helvetica, sans-serif" size="2">Vertical alignment impacts</font></li>
+        <li><font face="Arial, Helvetica, sans-serif" size="2">Design speed</font></li>
+        <li><font face="Arial, Helvetica, sans-serif" size="2">Sight distance</font></li>
+        <li><font face="Arial, Helvetica, sans-serif" size="2"> Traffic during construction</font></li>
+        <li><font face="Arial, Helvetica, sans-serif" size="2">Type of traffic</font></li>
+        <li><font face="Arial, Helvetica, sans-serif" size="2">Seasonal use of road</font></li>
+        <li><font face="Arial, Helvetica, sans-serif" size="2"> Materials availability</font></li>
+        <li><font face="Arial, Helvetica, sans-serif" size="2"> Site drainage</font></li>
+        <li><font face="Arial, Helvetica, sans-serif" size="2"> Economic</font></li>
+      </ul>
+     </font>
+    </td>
+   </tr>
+   <tr>
+    <td colspan="5"><hr></td>
+   </tr>
+   <tr> 
+    <td width="104" >
+     <font size="3" face="Arial, Helvetica, sans-serif">
+<a name="6B.3"></a>
+      <strong>6B.3. The Stability Design</strong>
+     </font>
+    </td>
+    <td valign="top" colspan="4"><p>&nbsp;</p></td>
+   </tr>
+   <tr>
+    <td valign="top">
+     <font face="Arial, Helvetica, sans-serif" size="2">
+<a name="6B.3.1"></a>
+      <b>6B.3.1 Modification of Road Cross-Section</b>
+     </font>
+    </td>
+    <td valign="top" colspan="4" >
+     <font face="Arial, Helvetica, sans-serif" size="2">
+      As demonstrated in section <a href="ssg_5toc.html">5</a>, stability is a function 
+      of material strength, weight, and slope angle/height. Thus, mitigation can 
+      be accomplished by increasing the material strength, reducing the driving 
+      weight, decreasing the slope angle, reducing the slope height, or a combination 
+      of these methods. This section explores modification of road geometry and 
+      how it uses these mitigation techniques.
+     </font>
+    </td>
+   </tr>
+   <tr> 
+    <td></td>
+    <td valign="top" colspan="4">
+     <hr>
+     <font size="2" face="Arial, Helvetica, sans-serif">
+<a name="6B.3.1.1"></a>
+      <b>6B.3.1.1 Flattened Slopes</b>
+     </font>
+     <br><br>
+     <font face="Arial, Helvetica, sans-serif" size="2">
+      Flattened slopes can be applied to either cut slopes or fill slopes.
+      A flattened slope is the typical natural response of most slope failures.
+      A cut slope failure is typically followed by the maintenance response of material removal from the road.
+      However, a fill slope failure often results in lost road width and downslope resource damage from the failed material. 
+      In either case a proactive design is encouraged.
+      <br><br>
+      An example of flattening a fill slope is sidecast fill removal.
+      Sidecast fill is typically "drifted" over the groundslope during road construction.
+      The result is a fill slope at the angle of repose and possibly a foundation of organic material.
+      It is not uncommon to find logs at the base of these fills acting as artificial retaining support
+      (figure <a href="javascript:popupfig('images/6b/6b_f01.gif','Figure 6B.1 - Typical view of a sidecast fill')">6B.1</a>).
+      As the logs and other organics decay, downhill movement and cracking or loss of roadway result.
+      The movement will continue until a more stable, flatter slope is achieved.
+      Removal of the sidecast material will return the slope to the flatter angle of the original ground.
+      Of course, this alternative requires reducing the road width, possibly obtaining additional road width from the 
+      opposite side, or rebuilding the outside edge
+      (figure <a href="javascript:popupfig('images/6b/6b_f02.gif','Figure 6B.2 - Typical section for &quot;move into the hill.&quot;')">6B.2</a>).
+     </font>
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" colspan="4" bgcolor="#CCCC99">
+     <div align="center">
+      <p>
+<a name="Fig_6B.1"></a>
+       <img src="images/6b/6b_f01.gif" width="388" height="221">
+      </p>
+      <p>
+       <font size="2" face="Arial, Helvetica, sans-serif">
+        <i>Figure 6B.1 - Typical view of a sidecast fill</i>
+       </font>
+      </p>
+     </div>
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" colspan="4" bgcolor="#CCCC99">
+     <div align="center">
+      <p>
+<a name="Fig_6B.2"></a>
+        <img src="images/6b/6b_f02.gif" width="369" height="145">
+      </p>
+      <p>
+       <font face="Arial, Helvetica, sans-serif" size="2">
+        <i>Figure 6B.2 - Typical section for &quot;move into the hill.&quot;</i>
+       </font>
+      </p>
+     </div>
+    </td>
+   </tr>
+   <tr>
+    <td></td>
+    <td colspan="4">
+     <font face="Arial, Helvetica, sans-serif" size="2">
+      Reducing the slope angle of a cut may increase the FOS as a result of increased resisting 
+      weight and the lengthening of failure surfaces.
+      An additional effect of a reduced slope angle is a greater drawdown of the phreatic surface.
+      A disadvantage of flattening a cut slope is the increased excavation created and associated resource disturbance.
+      This can be a problem economically as well as for the slope stability of the generated material.
+      If adequate disposal sites are not readily available within economical haul distances, the geotechnical 
+      specialist may need to consider and analyze less stable locations for an engineered waste embankment.
+     </font>
+    </td>
+   </tr>
+   <tr>
+    <td></td>
+    <td height="60" colspan="4">
+     <hr>
+     <font size="2" face="Arial, Helvetica, sans-serif">
+<a name="6B.3.1.2"></a>
+      <b>6B.3.1.2 Steepened Slopes</b>
+      <br><br>
+      The use of steepened slopes as mitigation is generally applied to fill slopes rather than cut slopes.
+      The use of a steepened slope generally requires a design based on materials chosen.
+      Some examples of steepened slopes are: rock buttresses (see section <a href="ssg_6e.html">6E</a>), reinforced 
+      embankments (see section <a href="ssg_6f.html">6F</a>), and retaining 
+      walls
+      (see section <a href="ssg_6e.html">6E</a>).
+      <br><br>
+      A typical situation for steepened fill slopes is sidecast fill removal.
+      As was described for flattened fill slopes, sidecast material caught on logs or built on organics will settle and move downhill as the organics decay.
+      If the road template cannot be modified, it may be economical to remove some or all of the sidecast material and rebuild a steepened slope.
+      The greatest stability is achieved when the rebuilt section is placed on a firm foundation, generally entirely on the foundation material.
+      This can be quite critical for a retaining structure, and
+      <em>the external stability of the foundation should not be overlooked</em>
+      (see section <a href="ssg_6e.html#6E.4">6E.4</a>).
+      An advantage of building a steepened fill slope is that suitable embankment material can be conserved and borrow minimized.
+      This results in less impact on the right-of-way and possible impact on a soil borrow or rock material source.
+      A case history is presented in
+      <a href="#Prob_1">problem 1</a>.
+      <br><br>
+      A steepened  cut slope alternative is possible with soils exhibiting some cohesion and generally results in a benched cut.
+      As was demonstrated in section <a href="ssg_5c.html#5C.3">5C.3</a>, 
+      height is one of the factors controlling stability for soils with cohesion. 
+      However, for cohesionless materials with no ground water influence, it was 
+      shown that for any slope angle, the stability is controlled by the friction 
+      angle of the material and is independent of height
+      (section <a href="ssg_5c.html#5C.5">5C.5</a>). 
+      Therefore, for soils with cohesion the idea of a steepened slope is to limit 
+      the height. By placing a bench in the slope it is possible to achieve a 
+      desired FOS with economical excavation quantities compared to a flattened slope.
+      The use of a benched cut for cohesionless materials will generally reduce erosion rather than increase mass slope stability.
+     </font>
+    </td>
+   </tr>
+   <tr> 
+    <td></td>
+    <td colspan="4">
+     <hr>
+     <font size="2" face="Arial, Helvetica, sans-serif">
+<a name="6B.3.1.3"></a>
+      <b>6B.3.1.3 Lightweight Embankments</b>
+      <br><br>
+      Lightweight embankments have been used for both bearing capacity and slope stability problems.
+      Because of the expense, lightweight embankments are generally 
+      considered when alignment cannot be modified or the additional weight 
+      of other alternatives does not provide an acceptable increase in stability 
+      (see <a href="#Prob_2">problem 2</a>).
+      <br><br>
+      Lightweight embankments have been built using various materials and at various slope angles.
+      Some of the materials used, such as wood chips and shredded tires, are waste byproducts.
+      Other materials, such as polystyrene foam and plastics, are produced for other uses.
+      In all cases, the geotechnical specialist must assign material properties either through laboratory testing, research 
+      of existing test data, or engineering judgment.
+      The parameters are then used in a stability analysis, along with site constraints and economics, 
+      to determine the embankment slope angle and the possible need for internal and/or external reinforcement.
+      <br><br>
+      Some typical parameters used for wood material embankments are as follows:
+      <table width="90%" border="1" cellpadding=" " height="43">
+       <tr> 
+        <td width="31%">
+         <div align="center">
+          <font size="2" face="Arial, Helvetica, sans-serif"><i>&gamma; <b>(moist)&nbsp;</b></i></font>
+         </div>
+         </td>
+         <td width="34%">
+          <div align="center">
+           <font size="2" face="Arial, Helvetica, sans-serif"><i>&gamma; <b>(saturated)&nbsp;</b></i></font>
+          </div>
+         </td>
+         <td width="17%">
+          <div align="center">
+           <font size="2" face="Arial, Helvetica, sans-serif"><i><b>C'&nbsp;</b></i></font>
+          </div>
+         </td>
+         <td width="18%">
+          <div align="center"><i><font size="2" face="Arial, Helvetica, sans-serif">&phi;<b>'&nbsp;</b></font></i></div></td>
+        </tr>
+        <tr> 
+         <td height="2" width="31%">
+          <div align="center">
+           <font size="2" face="Arial, Helvetica, sans-serif">40-50 pcf</font></div></td>
+         <td height="2" width="34%">
+          <div align="center">
+           <font size="2" face="Arial, Helvetica, sans-serif">50-80 pcf</font>
+          </div>
+         </td>
+         <td height="2" width="17%">
+          <div align="center">
+           <font size="2" face="Arial, Helvetica, sans-serif">0 psf</font>
+          </div>
+         </td>
+         <td height="2" width="18%">
+          <div align="center">
+           <font size="2" face="Arial, Helvetica, sans-serif">30-36<sup>o</sup></font>
+          </div>
+         </td>
+        </tr>
+      </table>
+     </font>
+    </td>
+   </tr>
+   <tr> 
+    <td  colspan="4"><hr></td>
+   </tr>
+   <tr>
+    <td rowspan="2" valign="top">
+     <font size="2" face="Arial, Helvetica, sans-serif">
+<a name="6B.3.2"></a>
+      <b>6B.3.2 Shift in Horizontal Alignment</b>
+     </font>
+    </td>
+    <td>
+     <font size="2" face="Arial, Helvetica, sans-serif">
+      An alternative that shifts horizontal alignment is typically referred to as a "move into 
+      the hill" since it is almost always applied to a cut slope side of the road template.
+      This alternative is typically combined with the flattened fill slope alternative.
+      The idea is to gain additional road width by shifting 
+      the roadway off the slide feature -- either the head of a slide that results 
+      in a drop in grade or the lost outside edge of the roadway.
+      The general result is a full-bench road template where the main stability concern is 
+      the stability of the cut slope
+      (figure <a href="javascript:popupfig('images/6b/6b_f03.gif','Figure 6B.3 - XSTABL cross-section for a cut slope stability analysis')">6B.3</a>).
+      Because a larger base width is placed in natural ground, the usual result in forest terrain is a higher cut slope.
+      The geotechnical designer may need to consider a flatter cut slope than the previously existing cut or possibly a benched cut.
+      The benched cut may also be required for equipment access. A case history for a shift in alignment is presented in
+      <a href="#Prob_3">problem 3</a>. 
+     </font>
+    </td>
+   </tr>
+   <tr> 
+    <td valign="top" colspan="4" bgcolor="#CCCC99">
+<a name="Fig_6B.3"></a>
+     <img src="images/6b/6b_f03.gif" width="444" height="308">
+     <p align="center">
+      <font size="2" face="Arial, Helvetica, sans-serif">
+       <i>Figure 6B.3 - XSTABL cross-section for a cut slope stability analysis.</i>
+      </font>
+     </p>
+    </td>
+   </tr>
+   <tr> 
+    <td  colspan="5" valign="top"><hr></td>
+   </tr>
+   <tr> 
+    <td valign="top">
+     <font size="2" face="Arial, Helvetica, sans-serif">
+<a name="6B.3.3"></a><b>
+      6B.3.3 Modification of Vertical Alignment</b>
+     </font>
+    </td>
+    <td valign="top" colspan="4" bgcolor="#FFFFFF">
+     <font face="Arial, Helvetica, sans-serif" size="2">
+      The modification of vertical alignment is a method that combines road geometrics with stability mitigation.
+      The geotechnical designer should be acquainted with standard geometric design to understand the terminology
+      and design constraints of vertical curves.
+      The following sections will present the use of sag and crest vertical curves as a method of slope stability mitigation.
+     </font>
+    </td>
+   </tr>
+   <tr> 
+    <td  valign="top">&nbsp;</td>
+    <td valign="top" colspan="4" bgcolor="#FFFFFF"><hr>
+     <font face="Arial, Helvetica, sans-serif" size="2">
+<a name="6B.3.3.1"></a>
+      <b>6B.3.3.1 Sag Vertical Curve</b>
+      <br><br>
+      A sag vertical curve
+      (figure <a href="javascript:popupfig('images/6b/6b_f04.gif','Figure 6B.4 - Illustration of a sag vertical curve')">6B.4</a>)
+      results when a descending grade meets an ascending grade.
+      A sag profile is the typical result of a road that crosses an active slide.
+      Just as a flattened slope can result in stability closer to a natural state, so can a sag vertical curve.
+      The use of a sag vertical curve is most appropriate at the head of a slide and where road design speed and minimum curvature allow for it.
+      One potential negative aspect of a sag vertical curve is drainage.
+      The low point of the sag is typically within the slide mass and ditch water may drain into the slide,
+      or a ditch relief culvert may place water onto the slide mass.
+      The geotechnical designer is encouraged to consider 
+      drainage methods that limit ditch water entering the slide area, such 
+      as placing relief culverts before water enters the slide boundaries and 
+      using pipe extensions (such as corrugated plastic pipe) within the slide mass.
+      The use of sag vertical curves can be a very inexpensive short- or long-term stability mitigation.
+      A case history is presented in <a href="#Prob_4">problem 4</a>.
+     </font>
+    </td>
+   </tr>
+   <tr> 
+    <td valign="top">&nbsp;</td>
+    <td valign="top" colspan="4" bgcolor="#CCCC99">
+     <div align="center"> 
+<a name="Fig_6B.4"></a>
+      <img src="images/6b/6b_f04.gif" width="259" height="196">
+      <br><br>
+      <font size="2" face="Arial, Helvetica, sans-serif">
+       <i>Figure 6B.4 - Illustration of a sag vertical curve.</i>
+      </font>
+     </div>
+    </td>
+   </tr>
+   <tr> 
+    <td  valign="top">&nbsp;</td>
+    <td valign="top" colspan="4" bgcolor="#FFFFFF">
+     <hr>
+      <font size="2" face="Arial, Helvetica, sans-serif">
+       <b>6B.3.3.2 Crest Vertical Curve</b>
+      <br><br>
+      A crest vertical curve
+      (figure <a href="javascript:popupfig('images/6b/6b_f05.gif','Figure 6B.5 - Illustration of a crest vertical curve')">6B.5</a>)
+      results when an ascending grade meets a descending grade.
+      A crest vertical curve may be used for a buttressing effect on a cut slope failure or as a method to reduce cut slope height.
+      A crest vertical curve also results in a positive means to divert water drainage from the crest point.
+      The geotechnical designer decides on the appropriate fill slope based on stability and economics previously discussed.
+      A typical "fill slope" used with crest vertical curves is the natural ground slope for a full-bench cut, or a 
+      mechanically stabilized embankment (MSE).
+      A case history for the use of a crest vertical curve is presented in <a href="#Prob_5">problem 5</a>.
+     </font>
+    </td>
+   </tr>
+   <tr> 
+    <td  valign="top">&nbsp;</td>
+    <td valign="top" colspan="4" bgcolor="#CCCC99">
+     <div align="center">
+<a name="Fig_6B.5"></a>
+      <img src="images/6b/6b_f05.gif" width="212" height="207">
+      <br><br>
+      <font size="2" face="Arial, Helvetica, sans-serif">
+       <i>Figure 6B.5 - Illustration of a crest vertical curve.</i>
+      </font>
+     </div>
+    </td>
+   </tr>
+   <tr> 
+    <td colspan="5" valign="top"><hr></td>
+   </tr>
+   <tr> 
+    <td valign="top">
+     <font size="3" face="Arial, Helvetica, sans-serif">
+<a name="6B.4"></a>
+      <b>6B.4 Contruction and Preconstruction Considerations</b>
+     </font>
+    </td>
+    <td colspan="4" valign="top">
+     <font size="2" face="Arial, Helvetica, sans-serif">
+      Some general issues to consider when analyzing the use of modification of geometry:
+      <ul>
+       <li><font size="2" face="Arial, Helvetica, sans-serif">Will a change in geometry repair any ongoing resource damage, or will it just restore the road template?
+        What are the future risks to the road if resource damage continues?</font></li>
+       <li><font size="2" face="Arial, Helvetica, sans-serif">Will construction interfere with traffic flow?</font></li>
+       <li><font size="2" face="Arial, Helvetica, sans-serif">Can the road be closed for short periods?</font></li>
+       <li><font size="2" face="Arial, Helvetica, sans-serif">What type of equipment is available?</font></li>
+       <li><font size="2" face="Arial, Helvetica, sans-serif"> What is the reach (typically 20-30 feet upslope or 15-25 feet downslope) for an available tracked excavator?</font></li>
+       <li><font size="2" face="Arial, Helvetica, sans-serif">How much removed soil material might be reusable?</font></li>
+       <li><font size="2" face="Arial, Helvetica, sans-serif"> Is there a suitable location within economical haul distance (generally 10-20 miles) for waste material?</font></li>
+       <li><font size="2" face="Arial, Helvetica, sans-serif">Will an access ramp be needed to reach the extent of the excavation?
+         Can the access ramp be constructed within the designed excavation limits, or will it need to be constructed in the roadway?
+         From where would the material come? To where will it be removed?</font></li>
+       <li><font size="2" face="Arial, Helvetica, sans-serif">After construction of new cut slopes or fill slopes, will they need surface stabilization for erosion control (i.e., erosion mats, straw, grass)?</font></li>
+       <li><font size="2" face="Arial, Helvetica, sans-serif">For lightweight embankments, what materials are available economically?
+        Are there possible side effects (leaching, toxicity, etc.)?</font></li>
+       <li><font size="2" face="Arial, Helvetica, sans-serif">For a shift in alignment, is the shift large enough to accommodate construction equipment (dozer or excavator)?
+        Will the new horizontal alignment allow passage of long vehicles (i.e., log trucks and yarders) such that tires track within the roadway?</font></li>
+       <li><font size="2" face="Arial, Helvetica, sans-serif">For sag vertical curves, can water drainage be removed adequately (water concentration at low point, which is generally the center of the slide)?
+        Will vehicles with trailers have adequate clearance when the vehicle is on the "upside" and the trailer is on the "downside"?</font></li>
+       <li><font size="2" face="Arial, Helvetica, sans-serif">For crest vertical curves, will vehicles have adequate sight distance?
+        Will vehicles with trailers have adequate clearance when the vehicle is on the "downside" and the trailer is on the "upside"?</font></li>
+      </ul>
+     </font>
+    </td>
+   </tr>
+   <tr> 
+    <td colspan="5" valign="top"><hr> </td>
+   </tr>
+   <tr> 
+    <td valign="top">
+     <font size="3" face="Arial, Helvetica, sans-serif">
+<a name="6B.5"></a>
+      <b>6B.5 Relative Costs</b>
+     </font>
+    </td>
+    <td valign="top" colspan="4">
+     <font face="Arial, Helvetica, sans-serif" size="2">
+      Construction of geometric changes can generally be accomplished using common road construction equipment.
+      Unless reinforcement or a retaining structure is to be employed, typical unit costs for road construction can be used for estimates.
+      The following table lists some common unit costs that may be used to estimate alternative costs.
+      Because these values average the cost of mobilization, unit costs should be increased 10-50 percent for small projects and reduced 5 to 20 percent for large ones.
+      These unit costs are given for comparison of alternatives and should not be used for contract preparation (for this, use time and equipment methods).
+      All costs are per cubic yard.
+     </font>
+    </td>
+   </tr>
+   <tr>
+    <td  valign="top">&nbsp;</td>
+    <td colspan="4"  bgcolor="#CCCC99">
+     <table width="100%" border="1" bgcolor="#FFFFFF">
+      <tr>
+       <td width="24%"><div align="center"><font size="2" face="Arial, Helvetica, sans-serif"><b>Excavation</b></font></div></td>
+       <td width="19%"><div align="center"><font size="2" face="Arial, Helvetica, sans-serif"><b>Blasting</b></font></div></td>
+       <td width="20%"><div align="center"><font size="2" face="Arial, Helvetica, sans-serif"><b>Embankment</b></font></div></td>
+       <td width="19%"><div align="center"><font size="2" face="Arial, Helvetica, sans-serif"><b>Haul</b></font></div></td>
+       <td width="18%"><div align="center"><font size="2" face="Arial, Helvetica, sans-serif"><b>Borrow</b></font></div></td>
+      </tr>
+      <tr> 
+       <td width="24%"> <div align="center">soil: $1.00-4.00<br>rip: $3.00-6.00</div></td>
+       <td width="19%">$8.00-15.00</td>
+       <td width="20%"> <div align="center">$3.00-7.00<br>(in-place)</div></td>
+       <td width="19%"> <div align="center">$0.40-0.60<br>per mile<br>(loose)</div></td>
+       <td width="18%"> <div align="center">$1.50-5.00<br>(loose)<br>+ haul</div></td>
+      </tr>
+     </table>
+    </td>
+   </tr>
+   <tr> 
+    <td colspan="5" valign="top"><hr></td>
+   </tr>
+   <tr> 
+    <td valign="top">
+<a name="6B.6"></a>
+     <font size="3" face="Arial, Helvetica, sans-serif">
+      <b>6B.6 Sample Problems</b>
+     </font>
+    </td>
+    <td colspan="4">
+     <font face="Arial, Helvetica, sans-serif" size="2">
+      The following five sample problems are case histories that demonstrate embankment failure 
+      mitigation, use of a lightweight fill, shift in horizontal alignment, use 
+      of a sag vertical curve, and use of a crest vertical curve.
+     </font>
+    </td>
+   </tr>
+   <tr> 
+    <td colspan="4" bgcolor="ivory">
+     <hr>
+     <font size="2" face="Arial, Helvetica, sans-serif">
+<a name="Prob_1"></a>
+      <b>Problem 1:</b> <i>Embankment Failure Mitigation</i>
+      <br><br>
+      <i>
+       Case History: Blackhawk Campground Road, USDA Forest Service, Uinta National Forest.
+       Original investigation by Rene Renteria, Geotechnical Engineer, September 2, 1992.
+      </i>
+      <br><br>
+      <u>Observations</u>
+      <br><br>
+      The road begins from 
+      a ridge top alignment at a junction with the Mt. Nebo Loop Road, #015. 
+      The road descends along a ridge top alignment, then crosses the ridge 
+      and continues at the base of the slope just above a large bench area. 
+      After about a mile, the road descends slightly before ascending back to a ridge line and saddle.
+      At approximately milepost 1, approximately 240 feet of the outside lane of the two-lane paved road has settled.
+      The road had been patched this summer, and already new cracking of the pavement has occurred.
+      The cracking varies from 1-2 feet in from the edge to a width of 18 feet from the outside edge.
+      There are no visible cracks that cross the entire asphalt pavement.
+<br><br>
+      The slope below the 
+      road has benched terrain, with arid-type vegetation. Below the small bench 
+      is a large benched area with meadow-like characteristics. At the toe of 
+      the embankment there is no evidence of water flow exiting at the embankment / 
+      natural ground contact. The fill slope appears to have a convex shape 
+      (bowed outward). The fill slope is well vegetated with grass.
+<br><br>
+      From observations 
+      of the cut slope, two soil units were identified and field classified. 
+      The upper layer, labeled soil unit A (SU-A), is a silty sand with rock 
+      fragments (field classified by the USCS as SM). The probable origin is 
+      glacial. At the east end of the settlement area, a second soil layer is 
+      exposed at ditch elevation. This soil, labeled soil unit B (SU-B), is 
+      considered a sandy silt (field classified by the USCS as ML); probable 
+      origin is sedimentary (decomposed rock?). This soil unit is visible in 
+      the cut slope just above ditch elevation from the east to west ends of 
+      the shoulder settlement area. During this visit, no water was visible 
+      either in the ditch or on the surrounding slopes. Discussion with Carol 
+      Johnson confirms evidence that water does flow into the ditch in late 
+      spring/early summer. Toward the west end of the settlement area, an old 
+      slope failure was noted above the road. There was some indication that 
+      the cut slope had been displaced toward the road, but it does not seem 
+      to be a recent event (older than 10 years). Minor cracks were noted just 
+      above ditch elevation on this displaced mass, but it is unclear whether 
+      these are cracks from creep movement of the cut slope or just shrinkage 
+      cracks after the ditch moisture dried up. The probability that the old 
+      cut slope movement and the road movement are related is extremely low. 
+      This is based on the observation that no cracks cross the width of the 
+      pavement. It was also noted that at the area of greatest crack width, 
+      there is a low spot in the ditch line that would collect water with no 
+      outlet for drainage.
+<br><br>
+      <u>Assessment</u>
+<br><br>
+      Based on past experience, 
+      the model of failure for this site is probably movement of the embankment 
+      as a result of moisture within the fill/natural ground contact zone. There 
+      may be organic material remaining along this contact that is decomposing, 
+      and the reduced strength produces continued movement. The water is probably 
+      the result of seepage into the fill from the ditch line. The sources of 
+      water include normal snowmelt, normal rain runoff, and the likely interception 
+      of some ground water that flows along the SU-A/SU-B contact exposed in 
+      the ditch. This hypothesis is supported by the observation of no movement 
+      or water flow at the toe of the embankment, but a bowed fill slope that 
+      indicates internal movement, with the resulting road grade settlement. 
+      A preliminary interpretation of a cross-section through the wide-width 
+      crack area indicates the majority of the road width is embankment material. 
+      The lesser-width crack areas should have a corresponding smaller embankment.
+<br><br>
+      <u>Potential Mitigation Alternatives</u>
+<br><br>
+      The following alternatives 
+      are possible mitigation actions based on the data collected on the initial 
+      assessment visit. Additional investigation is necessary to better quantify 
+      the risks and provide a more accurate assessment on the likelihood of 
+      success. Estimated costs are given for comparison and are not to be considered 
+      an accurate project estimate. Further investigation and an accurate survey 
+      would provide more accurate estimates and possible refinements in mitigation 
+      alternatives.
+<br><br>
+      In all alternatives, consideration should be given to providing positive drainage of the low 
+      spot in the ditch by installing a culvert (at an estimated cost of $1,000).
+      <ul>
+       <li>
+        <font face="Arial, Helvetica, sans-serif" size="2">
+         <i>Interceptor trench.</i>
+         An interceptor trench in the ditchline would reduce the subsurface water flow under the roadway.
+         This alternative by itself is considered to have limited success potential.
+         The trench would reduce the subsurface water,
+         but water could still penetrate under the pavement section along the ditch slope, especially during snowmelt.
+         Another condition not addressed is that no positive action is taken inside the slope if decomposing organics exist.
+         The estimated cost of a interceptor trench installation is $2,500.
+        </font>
+       </li>
+       <li>
+        <font face="Arial, Helvetica, sans-serif" size="2">
+         <i>Retaining wall. </i>
+         A Hilfiker-style welded wire retaining wall could be placed at the outside edge of road.
+         The excavation would be into natural ground, thus removing any organics that may be in the embankment.
+         Positive drainage could be provided in the backfill.
+         This alternative may require finding a site for waste material, as well as quality backfill.
+         Some pavement would be removed and replaced.
+         The estimated cost of installing the wall and pavement is $57,000.
+        </font>
+       </li>
+       <li>
+        <font face="Arial, Helvetica, sans-serif" size="2">
+         <i>Excavate and rebuild reinforced embankment.</i>
+         This alternative would involve excavating through the existing embankment to natural ground and removing unsuitable material.
+         The new embankment could be built at 1:1 using geotextile or geogrid reinforcement
+ (figure <a href="javascript:popupfig('images/6b/6b_f06.gif','Figure 6B.6 - Typical section for excavate-and-rebuild reinforced embankment')">6B.6</a>).
+         This method would re-use the suitable existing embankment material, thus limiting the need for a new material source.
+         Positive drainage could be provided if needed.
+         The pavement would have to be removed and replaced.
+         The fill slope should be seeded to limit erosion.
+         The estimated cost of this alternative is $26,000.
+        </font>
+       </li>
+      </ul>
+     </font>
+    </td>
+   </tr>
+   <tr> 
+    <td colspan="4"  bgcolor="#CCCC99">
+     <div align="center">
+<a name="Fig_6B.6"></a>
+      <a href="javascript:popupfig('images/6b/6b_f06.gif','Figure 6B.6 - Typical section for excavate-and-rebuild reinforced embankment')"><img src="images/6b/6b_f06.gif" width="500" height="219" border="1"></a>
+      <br><br>
+      <font size="2" face="Arial, Helvetica, sans-serif">
+       <i>Figure 6B.6 - Typical section for excavate-and-rebuild reinforced embankment.</i>
+      </font>
+     </div>
+    </td>
+   </tr>
+   <tr> 
+    <td colspan="4" bgcolor="ivory">
+     <font face="Arial, Helvetica, sans-serif" size="2">
+      <u>Recommendation</u>
+      <br><br>
+      The recommendation at this time is to install a culvert at the low spot along the ditch line 
+      and investigate further the alternative of excavating and rebuilding a reinforced embankment.
+      Further investigation would consist of:
+      (1) a survey of the area from below the road to the upper area of the old cut slope 
+        area and slightly east and west outside of the settled roadway section; 
+      (2) geotechnical field confirmation of soil layers and possible subsurface water; and
+      (3) geotechnical confirmation of the stability of the old cut slope failure area.
+      At this time it is anticipated that the additional field investigation would not require a drill machine.
+     </font>
+    </td>
+   </tr>
+   <tr> 
+    <td colspan="4" height="23"><hr></td>
+   </tr>
+   <tr> 
+    <td colspan="4" bgcolor="ivory">
+<a name="Prob_3"></a>
+     <font face="Arial, Helvetica, sans-serif" size="2">
+      <b>Problem 2:</b> <i>Use of a Lightweight Fill</i>
+      <br><br>
+      <i>
+       Case History: Slide #4--Horseshoe Bend Hill (Idaho), Federal Highway Administration, T<sup>2</sup>.
+       Contact Ron Chassie, Portland, Oregon.
+      </i>
+<br><br>
+      Slide #4 on Horseshoe Bend Hill was a perennial maintenance problem.
+      The slide was occurring through an approximately 400-foot length of sidehill fill constructed over a weak bentonitic clay foundation.
+      The slip plane extended to 25 feet below the fill base.
+      Sliding was occurring at the contact between the weak clay and underlying shale.
+      The slide extended laterally several hundred feet downslope beyond the fill toe.
+<br><br>
+      During the wet spring of 1983, slide movement accelerated to the point where the roadway was dropping at the rate of up to 1 foot per day.
+      Continual maintenance was required that spring to maintain trafficability across the slide area. 
+      The accelerated slide movement necessitated development of a permanent correction scheme.
+<br><br>
+      Preliminary design of a slide correction scheme called for subexcavation of the weak clay foundation below the
+      fill toe to a depth below the slide failure plane and replacement with granular borrow to form a stabilizing shear key. 
+      The upper 15 feet of roadway fill, which was also comprised of clay, also was to be removed and replaced with granular borrow.
+      A deep drainage interceptor trench was proposed in the uphill ditch to intercept subsurface seepage. 
+      Estimated FOS = 1.5.
+<br><br>
+      Because of previous successful sawdust fill slide stabilizations performed by the Washington 
+      State Department of Transportation, a sawdust fill alternative was considered. 
+      This alternative consisted only of removal and replacement with sawdust 
+      of the upper 15 feet of roadway clay fill and installation of the drainage 
+      interceptor trench
+ (figure <a href="javascript:popupfig('images/6b/6b_f07.gif','Figure 6B.7 - Profile sketch for comparison of shear key to sawdust embankment')">6B.7</a>).
+      The shear key subexcavation was eliminated. 
+      Estimated FOS = 1.2.
+<br><br>
+      The sawdust fill alternative was chosen and constructed, saving $185,000 compared with the shear key alternative.
+<br><br>
+      The slide repair was completed in the fall of 1983 and has performed very successfully.
+     </font>
+    </td>
+   </tr>
+   <tr> 
+    <td colspan="4"  bgcolor="#CCCC99">
+     <div align="center"> 
+<a name="Fig_6B.7"></a>
+      <a href="javascript:popupfig('images/6b/6b_f07.gif','Figure 6B.7 - Profile sketch for comparison of shear key to sawdust embankment')"><img src="images/6b/6b_f07.gif" width="472" height="136" border="1"></a>
+<br><br>
+      <font size="2" face="Arial, Helvetica, sans-serif">
+       <i>Figure 6B.7 - Profile sketch for comparison of shear key to sawdust embankment.</i>
+      </font>
+     </div>
+    </td>
+   </tr>
+   <tr> 
+    <td colspan="4" height="27"><hr></td>
+   </tr>
+   <tr> 
+    <td colspan="4" bgcolor="ivory">
+     <font face="Arial, Helvetica, sans-serif" size="2">
+<a name="Prob_3"></a>
+      <b>Problem 3:</b>
+      <i>
+       Shift in Horizontal Alignment
+       <br><br>
+       Case History: Vann SSI, USDA Forest Service, Willamette National Forest.
+       Mitigation design by Mark A. Leverton, Engineering Geologist, August 1984.
+     </i>
+<br><br>
+      <u>Introduction</u>
+<br><br>
+      The Vann slope failure, on Road 1912 at milepost 0.68, is approximately 500 feet in length and 
+      extends from the road to the creek below with an estimated volume of 30,000 cubic yards.
+      This failure has resulted in loss of road width and has been 
+      investigated four times (in 1980, 1983, 1985, and 1986) by the South Zone 
+      Geotechnical Group. This is a summary of the findings of those investigations 
+      and documents the work leading to the recommended design alternative made 
+      in the most recent investigation.
+<br><br>
+      <u>History</u>
+<br><br>
+        the geotechnical recommendation was to shift the road alignment 6 to 10 
+        feet. The alignment shift was completed by approximately December 1981.
+<br><br>
+      In February 1983, 
+        continued movement of the outside edge of the road and loss of width prompted 
+        another investigation. At this time, the site was recognized as a large 
+        area in movement. A subsurface investigation was begun. The recommended 
+        solution was to construct a retaining structure.
+<br><br>
+      In March 1985, review 
+        of the previous analysis and projected lack of funding for a retaining 
+        structure led to exploration below the road to determine the feasibility 
+        of a rock buttress. The buttress was chosen as the new recommended alternative, 
+        and a design was produced.
+<br><br>
+      In May 1986, the analysis 
+        was again reviewed. It was noted that there was insufficient confidence 
+        in the location of the failure surface near the road to proceed with the 
+        buttress design. Information gathered from inclinometer monitoring indicated 
+        the possibility of a deep failure. Stability analysis was performed using 
+        the deflection and water data gathered over the year. With this additional 
+        information, the decision was made to shift the road alignment into the 
+        hillside and avoid the slide area below the road.
+<br><br>
+      <u>Analysis</u>
+<br><br>
+      The loss of road width is the result of a translational movement below the road extending to a slope break above the creek.
+      The result of moment <!-- movement -->
+      at the toe end of the slope is a response of the area immediately below the road.
+      The continued loss of fill material has resulted in inadequate road width and horizontal alignment.
+      Deep movement detected in the slope indicator casing installed within the slide mass produces major uncertainty in the foundation conditions for a retaining structure or buttress.
+      Therefore, to meet the objective of acceptable horizontal alignment and road width, the alternative to shift the horizontal alignment was chosen (figure
+ <a href="javascript:popupfig('images/6b/6b_f08.gif','Figure 6B.8 - Plan veiw for the Vann SSI')">6B.8</a>).
+     </font>
+    </td>
+   </tr>
+   <tr> 
+    <td colspan="4" bgcolor="#CCCC99">
+     <div align="center">
+<a name="Fig_6B.8"></a>
+      <font size="2" face="Arial, Helvetica, sans-serif">
+       <a href="javascript:popupfig('images/6b/6b_f08.gif','Figure 6B.8 - Plan view for the Vann SSI')"><img src="images/6b/6b_f08.gif" width="404" height="225" border="1"></a>
+       <br><br>
+       <i>Figure 6B.8 - Plan view for the Vann SSI.</i>
+      </font>
+     </div>
+    </td>
+   </tr>
+   <tr> 
+    <td colspan="4" bgcolor="ivory">
+     <font face="Arial, Helvetica, sans-serif" size="2">
+      The height of cut involved in the new alignment required the combination of 
+      steep slopes and benching to produce an economical design. A bench cut was 
+      chosen to limit the free-fall height of material dislodged at the top of 
+      the cut. Slopes were chosen to parallel existing stable cut slopes, along 
+      with a bench width wide enough for a dozer, so that excavation could be 
+      accomplished efficiently. A critical section was analyzed using the program 
+      XSTABL (XSTABL v. 4.102 1992).
+      The XSTABL input file is shown in figure 
+<a href="#Fig_6B.9">6B.9</a>,
+      and the XSTABL cross-section is shown in figure 
+<a href="javascript:popupfig('images/6b/6b_f03.gif','Figure 6B.3 - XSTABL cross-section for a cut slope stability analysis')">6B.3</a>.
+<br><br>
+      <u>Recommendation</u>
+<br><br>
+      The recommendation is to shift the horizontal alignment and construct a new cut slope using 
+      a combination of steep slopes and benching where necessary.
+      Excess material should be removed from the outside road edge, and the slope below the 
+      road should be "rounded" from its near vertical slope to reduce the occurrence 
+      of sloughing if additional movement of the translational slide should occur.
+     </font>
+    </td>
+   </tr>
+   <tr>
+    <td colspan="4"  bgcolor="#CCCC99">
+     <div align="center">
+<a name="Fig_6B.9"></a>
+      <table>
+       <tr>
+        <td bgcolor="ivory" align="left">
+         <font face="courier" size=-2>
+          <pre>
+Profile  	FILE: VANN3  	4-07-93     12:57  ft
+  	Sect R-R' Shift Alignment (benched)
+  19    14
+  942.0   1499.0    956.0   1502.5   1
+  956.0   1502.5    969.0   1503.0   1
+  969.0   1503.0    974.0   1509.0   2
+  974.0   1509.0    982.0   1513.0   2
+  982.0   1513.0    985.0   1519.0   2
+  985.0   1519.0    990.0   1519.0   2
+  990.0   1519.0   1012.0   1519.0   3
+ 1012.0   1519.0   1048.0   1555.0   3
+ 1048.0   1555.0   1060.0   1555.0   3
+ 1060.0   1555.0   1072.0   1579.0   3
+ 1072.0   1579.0   1079.0   1592.0   1
+ 4079.0   1592.0   1106.0   1604.0   1
+ 1106.0   1604.0   1124.0   1617.0   1
+ 1124.0   1617.0   1140.0   1615.0   1
+  969.0   1503.0    975.0   1503.0   1
+  642.0   1503.0    990.0   1519.0   3
+ 1072.0   1579.0   1107.0   1600.0   3
+ 1107.0   1600.0   1140.0   1600.0   3
+  967.0   1495.0    975.0   1503.0   3
+SOIL
+  3
+  108.0    120.0    120.0    33.00    .000    .0    1
+  105.0    118.0    130.0    33.00    .000    .0    1
+  110.0    122.0    200.0    42.00    .000    .0    1
+CIRCL2
+ 13
+  5
+ 1060.0   1072.0   1085.0   1130.0
+     .0       .0       .0       .0
+          </pre>
+         </font>
+        </td>
+       </tr>
+      </table>
+      <br>
+      <font size="2" face="Arial, Helvetica, sans-serif">
+       <i>Figure 6B.9 - XSTABL input file for shifted alignment.</i>
+      </font>
+     </div>
+    </td>
+   </tr>
+   <tr> 
+    <td colspan="4" height="25"><hr></td>
+   </tr>
+   <tr> 
+    <td colspan="4"  bgcolor="ivory">
+     <font size="2" face="Arial, Helvetica, sans-serif">
+<a name="Prob_4"></a>
+      <u><b>Problem 4:</b></u>
+      <i>Use of a Sag Vertical Curve</i>
+      <br><br>
+      <i>
+       Case History: Bruler Slide, USDA Forest Service, Willamette National Forest.
+       Original investigation by Cheryl L. Clark, Civil Engineer, August 7, 1984.
+       Followup investigation by Rene Renteria, Geotechnical Engineer, February 1991.
+      </i>
+      <br><br>
+      <u>Introduction</u>
+      <br><br>
+      Bruler Slide occurred at milepost 12 on the Quartzville Road in or around 1975.
+      Each spring after the slide had moved during the winter, Forest Service maintenance 
+      crews "fixed" the road by filling in the sag caused by the slide.
+      This loaded the head of the slide where the road crosses it.
+      <br><br>
+      <u>Field Investigation</u>
+      <br><br>
+      The field investigation consisted of surface reconnaissance, surveying geologic cross-sections, 
+      subsurface drilling, and monitoring a slope indicator casing installed during the drilling operation.
+      Seven holes were drilled at the site, and a record of the water level was kept for each hole.
+      <br><br>
+      Five material units (soil units A, B, C, D, and rock unit 12) were used for analysis.
+      Their characteristics are summarized as:
+     </font>
+    </td>
+   </tr>
+   <tr> 
+    <td colspan="5" height="50">
+     <table width="101%" border="1" height="355">
+      <tr>
+       <td width="18%">&nbsp;</td>
+       <td colspan="5">
+        <div align="center">
+         <font face="Arial, Helvetica, sans-serif" size="2"><b>Designation</b></font>
+        </div>
+       </td>
+      </tr>
+      <tr>
+       <td width="18%">&nbsp;</td>
+       <td width="16%"><div align="center"><font size="2" face="Arial, Helvetica, sans-serif"><b>SU-A</b></font></div></td>
+       <td width="16%"><div align="center"><font size="2" face="Arial, Helvetica, sans-serif"><b>SU-B</b></font></div></td>
+       <td width="14%"><div align="center"><font size="2" face="Arial, Helvetica, sans-serif"><b>SU-D</b></font></div></td>
+       <td width="19%"><div align="center"><font size="2" face="Arial, Helvetica, sans-serif"><b>SU-C</b></font></div></td>
+       <td width="17%"><div align="center"><font size="2" face="Arial, Helvetica, sans-serif"><b>RU-12</b></font></div></td>
+      </tr>
+      <tr>
+       <td width="18%"><div align="left"><font face="Arial, Helvetica, sans-serif" size="2"><b>Description</b></font></div></td>
+       <td width="16%"><div align="center"><font face="Arial, Helvetica, sans-serif" size="2">brown silty sand</font></div></td>
+       <td width="16%"><div align="center"><font face="Arial, Helvetica, sans-serif" size="2">silty sand with rock fragments (RFs)</font></div></td>
+       <td width="14%"><div align="center"><font face="Arial, Helvetica, sans-serif" size="2">RFs with brown silty sand</font></div></td>
+       <td width="19%"><div align="center"><font face="Arial, Helvetica, sans-serif" size="2">light brown to yellow-brown silty sand with RFs </font></div></td>
+       <td width="17%"><div align="center"><font face="Arial, Helvetica, sans-serif" size="2">remolds to silty sand with RFs</font></div></td>
+      </tr>
+      <tr> 
+       <td width="18%"><div align="left"><b><font face="Arial, Helvetica, sans-serif" size="2">Moisture</font></b></div></td>
+       <td width="16%"><div align="center"><font face="Arial, Helvetica, sans-serif" size="2">wet</font></div></td>
+       <td width="16%"><div align="center"><font face="Arial, Helvetica, sans-serif" size="2">moist</font></div></td>
+       <td width="14%"><div align="center"><font face="Arial, Helvetica, sans-serif" size="2">moist to wet</font></div></td>
+       <td width="19%"><div align="center"><font face="Arial, Helvetica, sans-serif" size="2">wet</font></div></td>
+       <td width="17%"><div align="center"><font face="Arial, Helvetica, sans-serif" size="2">moist</font></div></td>
+      </tr>
+      <tr> 
+       <td width="18%"><div align="left"><b><font face="Arial, Helvetica, sans-serif" size="2">Plasticity</font></b></div></td>
+       <td width="16%"><div align="center"><font face="Arial, Helvetica, sans-serif" size="2">below the plastic limit (BPL)</font></div></td>
+       <td width="16%"><div align="center"><font face="Arial, Helvetica, sans-serif" size="2">BPL</font></div></td>
+       <td width="14%"><div align="center"><font face="Arial, Helvetica, sans-serif" size="2">non-plastic (NPL)</font></div></td>
+       <td width="19%"><div align="center"><font face="Arial, Helvetica, sans-serif" size="2">above the plastic limit (APL)</font></div></td>
+       <td width="17%"><div align="center"><font face="Arial, Helvetica, sans-serif" size="2">APL</font></div></td>
+      </tr>
+      <tr>
+       <td width="18%"><div align="left"><font face="Arial, Helvetica, sans-serif" size="2"><b>Consistency</b></font></div></td>
+       <td width="16%"><div align="center"><font face="Arial, Helvetica, sans-serif" size="2">loose</font></div></td>
+       <td width="16%"><div align="center"><font face="Arial, Helvetica, sans-serif" size="2">loose</font></div></td>
+       <td width="14%"><div align="center"><font face="Arial, Helvetica, sans-serif" size="2">medium</font></div></td>
+       <td width="19%"><div align="center"><font face="Arial, Helvetica, sans-serif" size="2">soft</font></div></td>
+       <td width="17%"><div align="center"><font face="Arial, Helvetica, sans-serif" size="2">hard</font></div></td>
+      </tr>
+      <tr>
+       <td width="18%"><div align="left"><b><font face="Arial, Helvetica, sans-serif" size="2">% Coarse</font></b></div></td>
+       <td width="16%"><div align="center"><font face="Arial, Helvetica, sans-serif" size="2">0</font></div></td>
+       <td width="16%"><div align="center"><font face="Arial, Helvetica, sans-serif" size="2">5</font></div></td>
+       <td width="14%"><div align="center"><font face="Arial, Helvetica, sans-serif" size="2">50+</font></div></td>
+       <td width="19%"><div align="center"><font face="Arial, Helvetica, sans-serif" size="2">10</font></div></td>
+       <td width="17%"><div align="center"><font face="Arial, Helvetica, sans-serif" size="2">10</font></div></td>
+      </tr>
+      <tr>
+       <td width="18%"><div align="left"><font face="Arial, Helvetica, sans-serif" size="2"><b>% Sand</b></font></div></td>
+       <td width="16%"><div align="center"><font face="Arial, Helvetica, sans-serif" size="2">90</font></div></td>
+       <td width="16%"><div align="center"><font face="Arial, Helvetica, sans-serif" size="2">55</font></div></td>
+       <td width="14%"><div align="center"><font face="Arial, Helvetica, sans-serif" size="2">&lt;50</font></div></td>
+       <td width="19%"><div align="center"><font face="Arial, Helvetica, sans-serif" size="2">80</font></div></td>
+       <td width="17%"><div align="center"><font face="Arial, Helvetica, sans-serif" size="2">60</font></div></td>
+      </tr>
+      <tr>
+       <td width="18%"> <div align="left"><b><font face="Arial, Helvetica, sans-serif" size="2">% 
+              Fines</font></b></div></td>
+       <td width="16%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">10</font></div></td>
+       <td width="16%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">40</font></div></td>
+       <td width="14%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">5</font></div></td>
+       <td width="19%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">10</font></div></td>
+       <td width="17%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">30</font></div></td>
+      </tr>
+      <tr>
+       <td width="18%"><div align="left"><b><font face="Arial, Helvetica, sans-serif" size="2">Unified Classification (Field)</font></b></div></td>
+       <td width="16%"><div align="center"><font face="Arial, Helvetica, sans-serif" size="2">SM</font></div></td>
+       <td width="16%"><div align="center"><font face="Arial, Helvetica, sans-serif" size="2">SM (MH fines)</font></div></td>
+       <td width="14%"><div align="center"><font face="Arial, Helvetica, sans-serif" size="2">GP</font></div></td>
+       <td width="19%"><div align="center"><font face="Arial, Helvetica, sans-serif" size="2">SM (MH fines)</font></div></td>
+       <td width="17%"><div align="center"><font face="Arial, Helvetica, sans-serif" size="2">EEEE</font></div></td>
+      </tr>
+     </table>
+    </td>
+   </tr>
+   <tr> 
+    <td colspan="5" bgcolor="ivory">
+     <font size="2" face="Arial, Helvetica, sans-serif">
+      <u>Slide Mechanism</u>
+      <br><br>
+      The topographies above and below Bruler Slide are indicative of a very large and very old slide consisting of a series of blocks.
+      Two mechanisms were examined.
+      <br>
+      <ul>
+       <li><font face="Arial, Helvetica, sans-serif" size="2">
+        <i>Model 1</i>. 
+         It appears that the "slide block" below Bruler Slide slipped out and 
+         was washed away by the stream. This removed the support for the next 
+         block (Bruler Slide). When combined with the added weight of road fill 
+         on the head of the slide, and a high water table, the loss of the abutment <!-- abuttment -->
+         at its toe allowed Bruler Slide to move downhill. Slope indicator readings 
+         show a failure plane at approximately 25 feet below the road surface. 
+         However, tilting of the entire slope indicator casing suggests that a much deeper failure may exist.
+        </font></li>
+        <li><font face="Arial, Helvetica, sans-serif" size="2">
+        <i>Model 2.</i> 
+        From the drill investigation, wet moisture conditions were noted only 
+        for SU-A, SU-C, and part of SU-D. This model assumes a perched water 
+        table on SU-B with minor surface saturation at the interface of SU-B. 
+        Water is allowed to rise into the fill (SU-D).
+       </font></li>
+      </ul>
+      <br>
+      Based on monitoring for deflections in the slope indicator casing and observation pipes located 
+      below the road, model 2 was chosen for final analysis and design.
+      Movement was detected under the road at a depth of 25 feet, but no movement was detected 
+      in the observation pipes downslope of the embankment.
+      The deformation of the slope also supports the appearance of an embankment foundation failure. 
+      A plan view is shown in figure
+<a href="javascript:popupfig('images/6b/6b_f10.gif','Figure 6B.10 - Plan view of Bruler slide')">6B.10</a>.
+     </font>
+    </td>
+   </tr>
+   <tr> 
+    <td colspan="4" bgcolor="#CCCC99">
+     <div align="center"> 
+<a name="Fig_6B.10"></a>
+      <a href="javascript:popupfig('images/6b/6b_f10.gif','Figure 6B.10 - Plan view of Bruler slide')"><img src="images/6b/6b_f10.gif" width="307" height="331" border="1"></a>
+      <br>
+      <font face="Arial, Helvetica, sans-serif" size="2">
+       <i>Figure 6B.10 - Plan view of Bruler slide.</i>
+      </font>
+     </div>
+    </td>
+   </tr>
+   <tr> 
+    <td colspan="4"  bgcolor="ivory">
+     <font face="Arial, Helvetica, sans-serif" size="2">
+      <u>Slope Stability Analysis</u>
+      <br><br>
+      A slope stability analysis performed by XSTABL (v. 4.10) indicates the stability of the 
+      slope to be most sensitive to the height of the phreatic surface or the height of the embankment.
+      The XSTABL input file is shown in figure <a href="#Fig_6B.11">6B.11</a>. 
+      The results for the analysis at failure are shown in figure
+ <a href="javascript:popupfig('images/6b/6b_f12.gif','Figure 6B.12 - XSTABL cross-section of Bruler Slide at failure')">6B.12</a>,
+      the post-failure input file in figure
+ <a href="#Fig_6B.13">6B.13</a>,
+      and the post-failure results in figure
+ <a href="javascript:popupfig('images/6b/6b_f14.gif','Figure 6B.14 - XSTABL cross-section for Bruler Slide post-failure')">6B.14</a>.
+     </font>
+    </td>
+   </tr>
+   <tr> 
+    <td colspan="4"  bgcolor="#CCCC99">
+     <div align="center">
+<a name="Fig_6B.11"></a>
+      <table>
+       <tr>
+        <td bgcolor="ivory" align="left">
+         <font face="courier" size=-2>
+          <pre>
+PROFILE	                          FILE: BRULERO   4-07-93   7:30   ft
+Bruler Slide at Failure
+  17	13
+    132.0    3208.2    197.0   3220.8  5
+    197.0    3220.8    245.0   3236.0  2
+    245.0    3236.0    254.0   3248.4  1
+    254.0    3248.4    292.0   3248.4  1
+    292.0    3248.4    330.0   3257.8  4
+    330.0    3257.8    344.0   3260.5  4
+    344.0    3260.5    378.0   3283.0  3
+    378.0    3283.0    399.0   3283.0  3
+    399.0    3283.0    409.0   3275.6  3
+    409.0    3275.6    419.0   3279.2  4
+    419.0    3279.2    426.0   3279.6  4
+    426.0    3279.6    445.0   3287.5  1
+    445.0    3287.5    450.0   3288.5  1
+    344.0    3260.5    409.0   3275.6  4
+    292.0    3248.4    420.0   3263.5  1
+    245.0    3236.0    420.0   3285.5  2
+    197.0    3220.8    420.0   3251.0  5
+SOIL
+  5
+  100.0    110.0      .0   31.50   .000    .0  1
+  105.0    118.0    50.0   33.00   .000    .0  0
+  120.0    125.0      .0   34.00   .000    .0  1
+  105.0    115.0      .0   25.00   .000    .0  1
+  110.0    120.0    80.0   38.00   .000    .0  0
+WATER
+  1   62.40
+   9
+    132.0    3208.2
+    197.0    3220.8
+    245.0    3236.0
+    292.0    3247.0
+    344.0    3260.5
+    358.0    3267.0
+    382.0    3274.0
+    409.0    3275.6
+    420.0    3276.0
+LIMITS
+  2   2
+     132.0   3208.2    227.5   3215.5
+     227.5   3215.5    420.0   3232.0
+BLOCK2
+  100  2   .0
+     245.0   3236.0    350.0   3250.0    .0
+     370.0   3255.0    400.0   3258.0   5.0
+          </pre>
+         </font>
+        </td>
+       </tr>
+      </table>
+      <br>
+      <!-- img src="images/6b/6b_f11.gif" width="194" height="340" -->
+      <font size="2" face="Arial, Helvetica, sans-serif">
+       <i>Figure 6B.11 - XSTABL input file for Bruler Slide at failure.</i>
+      </font>
+     </div>
+    </td>
+   </tr>
+   <tr> 
+    <td colspan="4" bgcolor="#CCCC99">
+     <div align="center">
+<a name="Fig_6B.12"></a>
+      <font size="2" face="Arial, Helvetica, sans-serif">
+       <img src="images/6b/6b_f12.gif" width="489" height="346">
+       <br>
+       <i>Figure 6B.12 - XSTABL cross-section of Bruler Slide at failure.</i>
+      </font>
+     </div>
+    </td>
+   </tr>
+   <tr>
+    <td colspan="4" bgcolor="ivory">
+     <font face="Arial, Helvetica, sans-serif" size="2">
+      <u>Alternatives</u>
+      <br><br>
+      Five alternatives were considered (costs are given in 1984 dollars).
+      <br>
+      <ul>
+       <li>
+        <font face="Arial, Helvetica, sans-serif" size="2">
+         <i>Trench drains (cost estimated at $10,000-$12,000).</i>
+         Trench drains would be a relatively 
+         simple way to lower the ground water level, particularly during the 
+         wet season when the slide moves. This should be an effective measure 
+         against large movements because the slide is most sensitive to the water level.
+        </font>
+       </li>
+       <li>
+        <font face="Arial, Helvetica, sans-serif" size="2">
+         <i>Lightweight fill with drain system (cost estimated at $15,000-$17,000)</i>.
+         Although more expensive than the other alternatives, a lightweight fill combined 
+         with trench drains would not only "de-water" the slide, but also unload 
+         the head of it, thereby significantly reducing the driving forces.
+         This alternative also produces the largest FOS against instability.
+        </font>
+       </li>
+       <li>
+        <font face="Arial, Helvetica, sans-serif" size="2">
+         <i>Road relocation (cost estimated at $9,000-$10,000).</i>
+         A road relocation would unload Bruler Slide, but the alignment of the 
+         road would be poor because it is advisable to avoid building the road 
+         through the marshy area above the slide.
+        </font>
+       </li>
+       <li>
+        <font face="Arial, Helvetica, sans-serif" size="2">
+         <i>Horizontal drains (cost estimate $11,000-$13,000).</i>
+         Drain holes would be drilled from below the road and pass through the slide plane.
+         There is a risk of losing the drain system if the slide moves significantly.
+        </font>
+       </li>
+       <li>
+        <font face="Arial, Helvetica, sans-serif" size="2">
+         <i>Yearly maintenance.</i> 
+         The existing culvert (damaged by slide movement) would be removed and 
+         replaced. Ditches to the culvert would be defined, and Forest Service 
+         maintenance crews would grade the road after movements but would not add additional material.
+        </font>
+       </li>
+      </ul>
+     </font>
+    </td>
+   </tr>
+   <tr> 
+    <td colspan="4"  bgcolor="#CCCC99">
+     <div align="center">
+<a name="Fig_6B.13"></a>
+      <table>
+       <tr>
+        <td bgcolor="ivory" align="left">
+         <font face="courier" size=-2>
+          <pre>
+PROFILE	                          FILE: BRULER1   4-07-93   7:43   ft
+Bruler Slide Post-Failure
+  17	13
+    132.0    3208.2    197.0   3220.8  5
+    197.0    3220.8    245.0   3236.0  2
+    245.0    3236.0    254.0   3248.4  1
+    254.0    3248.4    292.0   3248.4  1
+    292.0    3248.4    330.0   3257.8  4
+    330.0    3257.8    349.0   3270.0  3
+    349.0    3270.0    382.0   3278.8  3
+    382.0    3278.8    404.0   3278.8  3
+    404.0    3278.8    409.0   3275.6  3
+    409.0    3275.6    419.0   3279.2  4
+    419.0    3279.2    426.0   3279.6  4
+    426.0    3279.6    445.0   3287.5  1
+    445.0    3287.5    450.0   3288.5  1
+    330.0    3257.8    409.0   3275.6  4
+    292.0    3248.4    420.0   3263.5  1
+    245.0    3236.0    420.0   3285.5  2
+    197.0    3220.8    420.0   3251.0  5
+SOIL
+  5
+  100.0    110.0      .0   31.50   .000    .0  1
+  105.0    118.0    50.0   33.00   .000    .0  0
+  120.0    125.0      .0   34.00   .000    .0  1
+  105.0    115.0      .0   25.00   .000    .0  1
+  110.0    120.0    80.0   38.00   .000    .0  0
+WATER
+  1   62.40
+   9
+    132.0    3208.2
+    197.0    3220.8
+    245.0    3236.0
+    292.0    3247.0
+    344.0    3260.5
+    358.0    3267.0
+    382.0    3274.0
+    409.0    3275.6
+    420.0    3276.0
+LIMITS
+  2   2
+     132.0   3208.2    227.5   3215.5
+     227.5   3215.5    420.0   3232.0
+BLOCK2
+  100  2   .0
+     245.0   3236.0    350.0   3250.0    .0
+     370.0   3255.0    400.0   3258.0   5.0
+          </pre>
+         </font>
+        </td>
+       </tr>
+      </table>
+      <br>
+      <!-- img src="images/6b/6b_f11.gif" width="194" height="340" -->
+      <font size="2" face="Arial, Helvetica, sans-serif">
+       <i>Figure 6B.13 - XSTABL input file for Bruler Slide post-failure.</i>
+      </font>
+     </div>
+        <!-- img src="images/6b/6b_f13.gif" width="170" height="307" border="1" -->
+    </td>
+   </tr>
+   <tr> 
+    <td colspan="4"  bgcolor="ivory">
+     <font face="Arial, Helvetica, sans-serif" size="2">
+      <u>Recommended Alternative</u>
+      <br><br>
+      Based on limited movement from 1985 to 1991, maintaining the road in the post-failure configuration of a sag vertical curve is recommended.
+      New culverts should be placed at the low point in the ditch line and at a location to relieve ditch water before it enters the slide area.
+      Water should be carried from the culvert outlets past the failed area limits with the use of corrugated plastic pipe.
+      Without restoring the grade, a 27 percent increase is realized in the FOS without the additional costs of a lightweight fill or subsurface drainage.
+     </font>
+    </td>
+   </tr>
+   <tr> 
+    <td colspan="4" bgcolor="#CCCC99">
+     <div align="center"> 
+<a name="Fig_6B.14"></a>
+      <img src="images/6b/6b_f14.gif" width="440" height="307">
+      <br>
+      <font face="Arial, Helvetica, sans-serif" size="2">
+       <i>Figure 6B.14 - XSTABL cross-section for Bruler Slide post-failure.</i>
+      </font>
+     </div>
+    </td>
+   </tr>
+   <tr> 
+    <td colspan="4"><hr></td>
+   </tr>
+   <tr>
+    <td colspan="4" bgcolor="ivory">
+     <font face="Arial, Helvetica, sans-serif" size="2">
+<a name="Prob_5"></a>
+      <b>Problem 5:</b>
+      <i>
+       Use of a Crest Vertical Curve with a Buttress
+       <br><br>
+       Case history: Krassel Rock Slope Failure, South Fork Salmon River Road,
+       USDA Forest Service, Payette National Forest.
+       Original investigation by Michael Remboldt, Assistant Forest Engineer, September 9, 1992.
+      </i>
+      <br><br>
+      <u>Problem</u>
+      <br><br>
+      During road construction involving road widening excavation, the contractor undercut an existing rock slope by blasting.
+      The failure was immediately adjacent to a major anadromous river which at the time had a spawning threatened and endangered (T&amp;E) species.
+      The failure also threatened the safety and stability of a major fire guard station and airstrip at the top of the slope.
+      <br><br>
+      Time was of the essence due to the T&amp;E issue.
+      <br><br>
+      <u>Investigation</u>
+      <br><br>
+      Field-developed cross-sections were plotted to determine the size and extent of the failure and for design (see figure
+ <a href="javascript:popupfig('images/6b/6b_f15.gif','Figure 6B.15 - Field-developed cross-sections at Krassel rock slope failure. Slope angle approximately 40°. Rock type granite, Idaho Batholith.')">6B.15</a>).
+      Road alignment at the failure was a long, straight tangent with minimal vertical grade.
+      <br><br>
+      The geology (Idaho Batholith) prevented stabilization alternatives, such as rock bolting, due to the random structure of the rock.
+      <br><br>
+      There were ample sources of select fill.
+      The ongoing road construction contract included a significant amount of H-pile/timber lagging retaining wall
+      which had been recently installed, with some extra material left over due to contract modifications.
+     </font>
+    </td>
+   </tr>
+   <tr> 
+    <td colspan="4" bgcolor="#CCCC99">
+     <div align="center">
+      <font face="Arial, Helvetica, sans-serif" size="2">
+<a name="Fig_6B.15"></a>
+       <a href="javascript:popupfig('images/6b/6b_f15.gif','Figure 6B.15 - Field-developed cross-sections at Krassel rock slope failure. Slope angle approximately 40°. Rock type granite, Idaho Batholith.')"><img src="images/6b/6b_f15.gif" width="311" height="398" border="1"></a>
+       <br><br>
+       <i>Figure 6B.15 - Field-developed cross-sections at Krassel rock slope failure.
+          Slope angle approximately 40°. Rock type granite, Idaho Batholith.
+       </i>
+      </font>
+<!-- -->
+     </div>
+    </td>
+   </tr>
+   <tr> 
+    <td colspan="4" bgcolor="ivory">
+     <font face="Arial, Helvetica, sans-serif" size="2">
+      <u>Solution</u>
+      <br><br>
+      Several alternatives, including rock bolting and buttressing, were evaluated.
+      An earth buttress was selected because of availability of materials, cost, road alignment, and time to construct.
+      <br>
+      <ol>
+       <li>
+        <font face="Arial, Helvetica, sans-serif" size="2">
+         Failed mass end area (<i>A</i>) is approximately 200 square feet.
+        </font>
+       </li>
+       <li>
+        <font face="Arial, Helvetica, sans-serif" size="2">
+         Estimated rock density (&gamma;) is 155 pcf.
+        </font>
+       </li>
+       <li>
+        <font face="Arial, Helvetica, sans-serif" size="2">
+         Length through initial failure (<i>l</i>) is 30 feet.
+        </font>
+       </li>
+       <li>
+        <font face="Arial, Helvetica, sans-serif" size="2">
+         Estimated angle of internal friction (&phi;) is 35°.
+<!-- -->
+        </font>
+       </li>
+       <li>
+        <font face="Arial, Helvetica, sans-serif" size="2">
+         Backslope angle (&Theta;) is approximately 40°.
+<!-- -->
+        </font>
+       </li>
+       <li>
+        <font face="Arial, Helvetica, sans-serif" size="2">
+         Calculated weight of failed mass is:
+         <br>
+         W = (200 sq. ft.)(155 pcf) = 31000 lb/ft = 31 kips/ft
+        </font>
+       </li>
+       <li> 
+        <font face="Arial, Helvetica, sans-serif" size="2">
+         Calculated FOS against sliding of the failing mass is:
+         <div align="center">
+          <br>
+          <img src="images/6b/6b_eq758.gif" width="124" height="147"> = 0.83 (&lt;1.15) &there4; No good.
+         </div>
+        </font>
+       </li>
+       <li>
+        <font face="Arial, Helvetica, sans-serif" size="2">
+         Let <i>B</i> be the mass of required earth buttress and calculate buttress size required for FOS&nbsp;=&nbsp;1.15.
+         <br><br>
+         This type of problem is most readily solved by drawing a free body diagram showing the forces acting on the mass
+         (see figure
+ <a href="javascript:popupfig('images/6b/6b_f16.gif','Figure 6B.16 - Free body diagram of sliding mass')">6B.16</a>).
+         In equilibrium (FOS=1), the horizontal and vertical components of all forces acting on a body must sum to zero.
+         Therefore a polygon comprised of all force vectors acting on the mass must close
+         (see figure
+ <a href="javascript:popupfig('images/6b/6b_f17.gif','Figure 6B.17 - Force polygon')">6B.17</a>).
+         <img src="images/6b/6b_f16.gif" width="455" height="252">
+         <br>
+         <i>Figure 6B.16 - Free body diagram of sliding mass.</i>
+         <br><br>
+         <img src="images/6b/6b_f17.gif" width="242" height="297">
+         <br>
+         <i>Figure 6B.17 - Force polygon.</i>
+         <br><br>
+         In analyzing problems such as this, with rigid blocks acting against each other, the ordinary method of slices (OMS) can yield a FOS 8 to 10 percent 
+         greater than will a more rigorous force equilibrium analysis, resulting in a more costly, conservative solution.
+         This is because of the simplifying assumptions of the OMS to satisfy only moment equilibrium.
+         <br><br>
+         From figure
+         <a href="javascript:popupfig('images/6b/6b_f16.gif','Figure 6B.16 - Free body diagram of sliding mass')">6B.16</a>, 
+         it can be seen that movement will not occur without sliding at the block-to-block interface.
+         At equilibrium (no sliding), there will be a force at the interface, the components of which are denoted <i>Rx</i> and <i>Ry</i>.
+         It can also be seen that only horizontal movement can occur in BOTH blocks (assuming the buttress moves only on the underlying surface).
+         For these reasons it is appropriate to use force equilibrium analysis rather than a moment equilibrium analysis.
+         <br><br>
+         The buttress mass solution is simplified by considering equilibrium in the horizontal (x) direction only.
+         This is conservative, because the increase in the buttress normal force is greater than the corresponding decrease in normal force on the failing mass.
+         <br><br>
+         To solve for overall FOS, use the following equation for the forces acting in the horizontal direction:
+         <br><br>
+         <img src="images/6b/6b_eq760a.gif" width="280" height="42">
+         <br>
+         <img src="images/6b/6b_eq760b.gif" width="297" height="43">
+         <br>
+         <i>B</i> = 6.88 kips/ft = 6880 lb/ft.
+         <br><br>
+         Finally,
+        </font>
+       </li>
+       <li>
+       <font size="2" face="Arial, Helvetica, sans-serif">
+        Required minimum  end area of buttress
+        <br><br>
+        <i>I</i> = 6880 lb/ft / 120 pcf = 57.3 sq. ft.
+       </font>
+      </li>
+      </ol>
+      One can check the effect of ignoring an interslice force by using a force equilibrium method such as Janbu's or Spencer's method.
+      Output files from XSTABL (v. 4.1) using Janbu's method which illustrate the validity of the design assumptions are found in figure
+      <a href="#Fig_6B.19">6B.19</a>.
+      <br><br>
+      <u>Design</u>
+      <br><br>
+      The criteria for buttress geometry were that it:
+      (1) must have end area greater than 57.3 sq. ft., 
+      (2) must support raised road subgrade (i.e., minimum width of 18 ft.), and
+      (3) must be high enough to contain some large, loose rock fragments near the top of the existing cut slope.
+      <br><br>
+      A retaining wall system was constructed on the outside edge of the buttress because of geometry considerations
+      (proximity to the river) and for protection of fisheries habitat (sediment delivery and disturbance).
+      The wall system was constructed out of surplus H-piling and timber lagging and was anchored into the buttress itself.
+     </font>
+    </td>
+   </tr>
+   <tr>
+    <td colspan="4" bgcolor="#CCCC99">
+     <div align="center"> 
+<a name="Fig_6B.18"></a>
+      <img src="images/6b/6b_f18.gif" width="416" height="297">
+      <br><br>
+      <font size="2" face="Arial, Helvetica, sans-serif">
+       <i>Figure 6B.18 - Krassel rock failure with buttress.</i>
+      </font>
+     </div>
+    </td>
+   </tr>
+   <tr> 
+    <td colspan="4" bgcolor="#CCCC99">
+     <div align="center">
+<a name="Fig_6B.19"></a>
+      <table>
+       <tr>
+        <td bgcolor="ivory" align="left">
+         <font face="courier" size=-2>
+          <pre>
+XSTABL File:  KRASSEL   1-26-94    10:58
+
+               ******************************************
+               *                 XSTABL                 *
+               *                                        *
+               *     Slope Stability Analysis using     *
+               *   Simplified BISHOP or JANBU methods   *
+               *                                        *
+               *           Copyright (C) 1992           *
+               *   Interactive Software Designs, Inc.   *
+               *          All Rights Reserved           *
+               *                                        *
+               *            Forest Service              *
+               *        US Dept. of Agriculture         *
+               *           Moscow,  ID 83843            *
+               *                                        *
+               *  Ver. 4.10                       1001  *
+               ******************************************
+
+     Problem Description : Krassel Rock Failure with buttress
+
+     SEGMENT BOUNDARY COORDINATES
+
+         7 SURFACE boundary segments
+
+     Segment    x-left    y-left    x-right   y-right     Soil Unit
+        No.      (ft)      (ft)       (ft)      (ft)    Below Segment
+
+         1        81.0      90.0       98.0     100.0         1
+         2        98.0     100.0       99.9     100.0         1
+         3        99.9     100.0      100.0     103.1         1
+         4       100.0     103.1      118.0     103.1         1
+         5       118.0     103.1      118.1     115.0         2
+         6       118.1     115.0      133.0     124.7         2
+         7       133.0     124.7      140.0     130.7         2
+
+
+         2 SUBSURFACE boundary segments
+
+     Segment    x-left    y-left    x-right   y-right     Soil Unit
+        No.      (ft)      (ft)       (ft)      (ft)    Below Segment
+
+         1        99.9     100.0      117.9     100.0         1
+         2       117.9     100.0      118.0     103.1         2
+
+     ISOTROPIC Soil Paramenters
+
+     Soil   Unit Weight   Cohesion  Friction     Pore Pressure      Water
+     Unit  Moist    Sat.  Intercept  Angle    Parameter  Constant  Surface
+
+      No.  (pcf)   (pcf)    (psf)    (deg)        Ru      (psf)      No.
+
+       1   120.0   120.0       .0     35.00       .000         .0      0
+       2   155.0   155.0       .0     35.00       .000         .0      0
+
+
+    Trial failure surface specified by   4 coordinate points
+
+           Point      x-surf      y-surf
+            No.        (ft)        (ft)
+
+             1         99.90       100.00
+             2        117.30       100.00
+             3        133.00       112.70
+             4        133.00       124.70
+
+     ****************************************
+     SUMMARY OF INDIVIDUAL SLICE INFORMATION :
+     ****************************************
+
+     Slice  x-base    y-base  height   width   alpha    beta     weight
+             (ft)      (ft)    (ft)     (ft)                      (lb)
+
+       1     99.95    100.00   1.550    .100    .000  88.152       18.6
+       2    108.95    100.00   3.100  17.900    .000    .000     6658.8
+       3    117.95    100.04   3.058    .100  40.066    .000       42.0
+       4    118.08    100.13   8.924    .100  40.066  89.519      138.3
+       5    125.55    106.43  13.416  14.900  40.066  33.064    30984.0
+
+
+     SLICE INFORMATION ... continued :
+
+     Slice    Sigma   phi   c-value    U-base     U-top     P-top  Delta
+              (psf)          (psf)      (lb)       (lb)      (lb)
+
+        1     186.0  35.00       .0        .0        .0        .0    .00
+        2     372.0  35.00       .0        .0        .0        .0    .00
+        3     273.9  35.00       .0        .0        .0        .0    .00
+        4     902.5  35.00       .0        .0        .0        .0    .00
+        5    1356.8  35.00       .0        .0        .0        .0    .00
+
+    For the single specified surface,
+    Corrected JANBU factor of safety =    1.163     (Fo factor =1.051)
+
+    Resisting Shear Strength  =  232.80E+02    lb
+    Total Driving Shear Force =  210.50E+02    lb
+          </pre>
+         </font>
+        </td>
+       </tr>
+      </table>
+      <br>
+      <font size="2" face="Arial, Helvetica, sans-serif">
+       <i>Figure 6B.19 - Output file from XSTABL.</i>
+      </font>
+     </div>
+    </td>
+   </tr>
+   <tr>
+    <td colspan="4"  bgcolor="#CCCC99">
+     <div align="center">
+<a name="Fig_6B.20"></a>
+      <font size="2" face="Arial, Helvetica, sans-serif">
+       <a href="javascript:popupfig('images/6b/6b_f20.gif','Figure 6B.20 - Selected stabilization alternative: modification of road geometry with earth buttress. Note: Retaining wall system for buttress face stabilization and protection of stream.')"><img src="images/6b/6b_f20.gif" width="372" height="424" border="1"></a>
+       <br>
+       <i>
+        Figure 6B.20 - Selected stabilization alternative: modification of road geometry with earth buttress.
+        Note: Retaining wall system for buttress face stabilization and protection of stream.
+       </i>
+      </font>
+     </div>
+    </td>
+   </tr>
+   <tr>
+    <td colspan="4" bgcolor="#CCCC99">
+     <div align="center">
+<a name="Fig_6B.21"></a>
+      <font size="2" face="Arial, Helvetica, sans-serif">
+       <a href="javascript:popupfig('images/6b/6b_f21.gif','Figure 6B.21 - Selected stabilization alternative plan view of vertical curve and buttress')"><img src="images/6b/6b_f21.gif" width="445" height="265" border="1"></a>
+       <br>
+       <i>Figure 6B.21 - Selected stabilization alternative plan view of vertical curve and buttress.</i>
+      </font>
+     </div>
+    </td>
+   </tr>
+  </table>
+  <br><br>
+  <!-- ======= FOOTER GRAPHIC =================================================== -->
+  <img src="images/navbar.gif" width="685" height="36" align="BOTTOM"
+   usemap="#b_pagingButtons.map" border="0" alt="Slope Stability Reference Guide for National Forests in the United States"> 
+  <!-- ========================================================================= -->
+  <br>
+  <font size=1><b> </b></font> 
+  <!-- =======IMAGE MAP INFORMATION============================================== -->
+  <map name="b_pagingButtons.map"> 
+    <!--HOME-->        <area shape="RECT" coords="615,0,635,26" href="ssg_6c.html" alt="Section 6C">
+    <!--PREV-->        <area shape="rect" coords="593,0,613,26" href="ssg_6a.html" alt="Section 6A">
+    <!--NEXT-->        <area shape="RECT" coords="0,0,589,26" href="index.html" alt="SSG home">
+  </map>
+  <!-- ========================================================================= -->
+  <br>
+   <font face="Arial, Helvetica, sans-serif" size="1">USDA Forest Service<br>
+    <b>Slope Stability Reference Guide for National Forests in the United States, 1994.</b>
+    <br>
+    <a href="http://forest.moscowfsl.wsu.edu/ssg/">http://forest.moscowfsl.wsu.edu/ssg/</a> 
+    <br>Last Revised: 
+    <script language="javascript" type="text/javascript">
+     <!-- hide
+      document.write(document.lastModified)
+     // end hide -->
+    </script>
+   </font>
+  </p>
+ </body>
+</html>

@@ -1,0 +1,1106 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+ <head>
+  <title>SSG: Appendix 1.1 --  Introduction to the Three-Level Stability Analysis Concept</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <script language="JavaScript" src="pop_photo.js">
+  <!--
+    Hall, D.E.; Long, M.T.; Remboldt, M.D., editors. 1994.
+    Slope Stability Reference Guide for National Forests in the United States.
+    Prellwitz, R.W.; Koler, T.E.; Steward, J.E., coordinators.
+    Publication EM-7170-13.
+    Washington, DC: U.S. Department of Agriculture, U.S. Forest Service, Engineering Staff. 
+    3 volumes, 1091 p.
+    Corrected [2006] electronic version at http://forest.moscowfsl.wsu.edu/ssg/
+  -->
+  <!--
+  References added DEH 02/25/2002 (need bold/italic).
+  Reference Neal 1982a changed to 1982b DEH 02/25/2002
+  Figures not interspersed
+  source code consistency and formatting:  DEH 02/15/2002
+  title check:  DEH 02/15/2002
+  header / navigation:  DEH 02/15/2002
+  footer:  DEH 02/15/2002
+  spell check:  DEH 02/17/2002
+  compare to original:  DEH 02/17-18/2002
+  corrections from errata incorporated:  none
+  weblint check: 
+  -->
+  <style type="text/css">
+  <!--
+   A { color:#005500; font-family:Verdana, Arial, Helvetica, sans-serif;}
+   A:hover{color:#00ff00;}
+   A:visited{color:#005500;}
+   A:visited:hover{color:#00ff00;} 
+   p { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11pt}
+   ul { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11pt}
+   blockquote { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11pt}
+   .active { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11pt; color:#999999;}
+   .fig { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9pt; font-style: italic}
+   .shead { font-family: trebuchet MS, verdana, arial, helvetica, sans-serif; font-size: 12pt; font-weight: bold}
+   .head { font-family: trebuchet MS, verdana, arial, helvetica, sans-serif; font-size: 20pt; font-weight: bold}
+   .headssg { font-family: trebuchet MS, verdana, arial, helvetica, sans-serif; font-size: 14pt; font-weight: bold}
+   .symb { font-family: symbol; font-size: 11pt; font-weight: bold;}
+   BR.pageEnd {page-break-after:always;}
+   .text { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11pt; text-indent: 40px;}
+   .vari { font-family: "Times New Roman", Times, serif; font-size: 11pt; font-style: italic; font-weight: bold}
+   .figSymb { font-family: symbol; font-size: 9pt; font-style: italic }
+   .figVari { font-family: "Times New Roman", Times, serif; font-size: 9pt; font-style: italic; font-weight: bold}
+  -->
+  </style>
+  <script language="javascript" type="text/javascript">
+  <!--
+  function workWindow(theURL,winName,features) {
+    window.open(theURL,winName,features);
+  }
+  //-->
+   </script>
+ </head>
+
+ <body bgcolor="#FFFFFF" link="#3333FF" vlink="#990099">
+
+  <!-- BEGIN TOP NAVIGATION -->
+  <table width="679" border="1" cellspacing="0" cellpadding="10" bgcolor="#CCCC99">
+   <tr>
+    <td width="655"> <p align="center"> <font face="Arial, Helvetica, sans-serif"> <font size="2">[ 
+        <a href="index.html">Slope Stability Reference Guide Home</A> ] <Br>
+        [ <a href="ssg_1toc.html">Section 1 TOC</a> ]<br>
+        [&nbsp;&lt;&nbsp;<a href="ssg_1ref.html">Section 1 references</a> ]</font><font face="Arial, Helvetica, sans-serif"><font size="2">[&nbsp;<a href="ssg_2pc.html">Sec 
+        2 Principal Contributors</a> &gt; ]</font></font><font size="2"> 
+        <!--
+     [ <a href="ssg_2toc.html">Section 2 table of contents</a>&nbsp;&gt;&nbsp;]
+-->
+        </font> </font> </p>
+    </td>
+   </tr>
+  </table>
+  <!-- END TOP NAVIGATION -->
+
+  
+<table width="680" border="0" cellspacing="2" cellpadding="2" bgcolor="#FFFFFF">
+  <tr> 
+    <td colspan="5" align="center" valign="top" height="87"> <font face="Arial, Helvetica, sans-serif"> 
+      <font size="3"><b>Slope Stability Reference Guide for<br>
+      National Forests in the United States</b></font><br>
+      <font size="4"><!--     Volume I,  --> <b><font size="3">Appendix 1.1 </font></b></font> 
+      <hr>
+      </font> </td>
+  </tr>
+  <tr> 
+    
+     <font face="Arial, Helvetica, sans-serif" size="4"> 
+      <b> 1.1 </b> </font>
+    
+    <td valign="top" colspan="4" > <div align="center"><font face="Arial, Helvetica, sans-serif" size="4"> 
+        Introduction to the Three-Level Stability Analysis Concept </font> </div></td>
+  </tr>
+  <tr> 
+    </tr>
+  <tr> 
+    <td valign="top" colspan="5"> <font size="2" face="Arial, Helvetica, sans-serif">&nbsp; 
+      </font> 
+      <hr>
+      <div align="center"><font size="2" face="Arial, Helvetica, sans-serif"><i><b>Thomas 
+        E. Koler,</b> Research Engineering Geologist, Intermountain Research Station 
+        <br>
+        <b>Kenneth G. Neal,</b> Kenneth Neal & Associates </i></font><font face="Arial, Helvetica, sans-serif"> 
+        </font><font face="Arial, Helvetica, sans-serif"> </font><font face="Arial, Helvetica, sans-serif"> 
+        </font><font face="Arial, Helvetica, sans-serif"> </font></div>
+      <font face="Arial, Helvetica, sans-serif">
+<hr>
+      </font><font size="2" face="Arial, Helvetica, sans-serif">&nbsp; </font> </td>
+  </tr>
+  <tr> 
+    <td  valign="top" >&nbsp;</td>
+    <td valign="top" colspan="4" > 
+      <p> <font face="Arial, Helvetica, sans-serif" size="2"> The following paper 
+        gives examples of the three-level analysis concept as used on steep, forested 
+        terrain in the Olympic National Forest. The paper also illustrates how 
+        slope stability analysis is initiated within the planning process (level&nbsp;I), 
+        evolving on a continuum through the project level (level&nbsp;II) and 
+        design level (level&nbsp;III). The most important point is that information 
+        used in each level can be used in the next levels and vice versa. For 
+        example, the design level analyses for road construction and reconstruction 
+        in the Binder and Chestershire timber sales were used in the planning 
+        analysis of the Backdrop timber sale. Planning boundaries for proposed 
+        timber sales frequently change as issues, concerns, and opportunities 
+        evolve in the NEPA process. Note that all data available, regardless of 
+        artificial boundaries, are viable bits of information at all three levels. 
+        </font> </p>
+      <p> <font size="2" face="Arial, Helvetica, sans-serif"> Reprinted by permission 
+        of Washington Dept. of Natural Resources from <b>Engineering Geology in 
+        Washington</b>, vol. 2, Washington Division of Geology and Earth Resources, 
+        Bulletin 78. </font> </p>
+    </td>
+  </tr>
+  <tr> 
+    <td class="shead" valign="top" colspan="5"> 
+      <hr>
+    </td>
+  </tr>
+  <tr> 
+    <td class="shead" valign="top" colspan="5"> 
+      <div align="center"> 
+        <p> <font face="Arial, Helvetica, sans-serif" size="3"> <strong>Chestershire 
+          and Backdrop Timber Sales:<br>
+          Case Histories of the Practice of Engineering Geology<br>
+          in the Olympic National Forest </strong></font> </p>
+        <p> <font face="Arial, Helvetica, sans-serif" size="2"> THOMAS E. KOLER 
+          and KENNETH G. NEAL<br>
+          U.S. Forest Service </font> 
+      </div>
+    </td>
+  </tr>
+  <tr> 
+    <td valign="top" colspan="5" height="304"> 
+      <p align="center"> <font face="Arial, Helvetica, sans-serif"> <b>INTRODUCTION</b> 
+        </font> </p>
+      <p align="center"> <font face="Arial, Helvetica, sans-serif"> <b> Background 
+        </b> </font> </p>
+      <p> <font size="2" face="Arial, Helvetica, sans-serif"> The practice of 
+        engineering geology in the Olympic National Forest (<a href="#App1.1_Fig1">Figure 
+        1</a>), as in other national forests, is a recent development resulting 
+        from environmental policy legislation enacted in the late 1960s and early 
+        1970s. These laws include the National Environmental Policy Act of 1969 
+        (NEPA), the Federal Water Pollution Control Act Amendments of 1972, the 
+        Endangered Species Act of 1973, the Safe Drinking Water Act of 1974, the 
+        Forest and Rangeland Renewable Resources Planning Act of 1974 (RPA), and 
+        the National Forest Management Act of 1976 (NFMA). Prior to this suite 
+        of legislation, the application of earth sciences in the Olympic and most 
+        other national forests was primarily the concern of soil scientists. Geologists 
+        were involved almost solely with economic mineral deposits. By 1974, engineering 
+        geologists, along with geotechnical engineers, technicians, and drill 
+        crews, were employed full-time as members of geotechnical teams in many 
+        national forests, including the Olympic. Initially, the practice of engineering 
+        geology was limited to solving problems related to road design and construction. 
+        However, it soon became apparent that the practice of engineering geology 
+        had much broader applications, particularly as related to timber sale 
+        project planning. The two case histories presented in this paper, Chestershire 
+        and Backdrop timber sales, are examples of how our profession has contributed 
+        to project work in the Olympic National Forest and how the "state of the 
+        art" has progressed since 1975. </font> </p>
+    </td>
+  </tr>
+  <tr> 
+    <td valign="top" colspan="5" height="341" bgcolor="#CCCC99"> 
+      <div align="center"> 
+        <p> <a name="App1.1_Fig1"></a> <img src="images/1/app_f01.gif" width="269" height="280" border="0"> 
+        </p>
+        <p> <font size="2" face="Arial, Helvetica, sans-serif"> Figure 1. Study 
+          site location, Olympic National Forest. </font> </p>
+      </div>
+    </td>
+  </tr>
+  <tr> 
+    <td valign="top" colspan="5" height="94"> 
+      <p align="center"> <font face="Arial, Helvetica, sans-serif" size="2"> <b>Levels 
+        of Project Investigation and Application</b> </font> </p>
+      <p> <font face="Arial, Helvetica, sans-serif" size="2"> Since 1975, a majority 
+        of project work completed by engineering geologists in the Olympic National 
+        Forest has been directed toward planning, locating, designing, and constructing 
+        low-volume, single-lane logging roads. Most of this work involves both 
+        evaluation and analysis of slope and foundation stability and evaluation 
+        of the suitability of rock and aggregate materials for use in construction. 
+        </font> </p>
+      <p> <font size="2" face="Arial, Helvetica, sans-serif"> Engineering geology 
+        projects in the Olympic National Forest are three-tiered and scale dependent. 
+        The theory behind this system is that each tier forms a base on which 
+        the next higher tier is built. Level 1, the lowest tier, consists of reconnaissance 
+        mapping for area planning purposes, at a scale of 1 in. = 2,000 ft (1:24,000). 
+        Level 2, the intermediate tier, consists of reconnaissance mapping for 
+        transportation planning, or road or facilities location, at a scale of 
+        1 in. = 300 ft (1:3,600). Level 3, the highest tier, consists of site-specific 
+        investigation, usually for design of roads or other facilities, with data 
+        collected at a scale of 1 in. = 50 ft (1:600) or less. </font> </p>
+      <p> <font size="2" face="Arial, Helvetica, sans-serif"> The level of data 
+        collected is scale dependent. The number of data points and the accuracy 
+        and reliability of data collected increase in direct proportion to the 
+        square of the percent increase in scale; for example, a section developed 
+        at 1 in. = 10 ft has 25 times as many data points as one developed at 
+        1 in. = 50 ft. In like fashion, the type of decision that can be based 
+        on a specific set of data is also scale dependent, from Level 1 decisions 
+        regarding the suitability of a parcel of land for management, modification, 
+        or use, to Level 2 decisions regarding impacts along alternative corridors 
+        through that parcel, to Level 3 decisions regarding designs to fit terrain 
+        characteristics at a specific site along the selected route (<a href="#App1.1_Fig2">Figure 
+        2</a>). </font> </p>
+    </td>
+  </tr>
+  <tr> 
+    <td valign="top" colspan="5" bgcolor="#CCCC99" height="378"> 
+      <div align="center"> 
+        <p> <a name="App1.1_Fig2"></a>
+         <a href="javascript:ShowFigure('images/1/App_F02.jpg','Figure 2. Diagram of the Forest Service three-level analysis system.',450,550)"> 
+          <img src="images/1/app_f02.jpg" width="337" height="319" border="1"> 
+          </a> </p>
+        <p> <font face="Arial, Helvetica, sans-serif" size="2"> Figure 2. Diagram 
+          of the Forest Service three-level analysis system. </font> </p>
+      </div>
+    </td>
+  </tr>
+  <tr> 
+    <td valign="top" colspan="5"> 
+      <p align="center"> <font size="2" face="Arial, Helvetica, sans-serif"> <b>Geologic 
+        Resources and Conditions Database</b> </font> </p>
+      <p> <font size="2" face="Arial, Helvetica, sans-serif"> All project data 
+        collected, regardless of level, are entered into the Olympic National 
+        Forest Geologic Resources and Conditions Database, a 1:24,000-scale map-based 
+        system consisting of project location, rock, soil, and landform overlays. 
+        Data collected from Level 2 and 3 investigations are reduced to Level 
+        1-scale accuracy and plotted on the database maps for use on future projects. 
+        The form of this database is planned to evolve from the current manual 
+        system into an integral part of a computerized Geographic Information 
+        System over the next several years. </font> </p>
+      <p align="center"> <font face="Arial, Helvetica, sans-serif" size="2"> <b>Investigative 
+        Standards</b> </font> </p>
+      <p align="left"> <font size="2" face="Arial, Helvetica, sans-serif"> Since 
+        the inception of the full-time practice of engineering geology in the 
+        Olympic National Forest, all project work has followed a set of standards. 
+        Rock and soil units designations are based on stratigraphic relations 
+        and physical characteristics. Soil units are classified in the field using 
+        the Unified Soil Classification System (Casagrande, 1948; American Society 
+        for Testing and Materials [ASTM], 1987). Rock units are classified in 
+        the field using the Unified Rock Classification System (Williamson, 1984). 
+        Designation of rock and soil units is completed at a scale appropriate 
+        for the investigative level. </font> </p>
+      <p> <font face="Arial, Helvetica, sans-serif" size="2"> For Level 1 and 
+        2 investigations, a topographic map at the pertinent scale is used for 
+        plotting of field data, and specific conditions and interpretations relative 
+        to a given location are recorded in a field notebook. Site-specific (Level 
+        3) investigative work follows the Field-Developed Cross-Section Method 
+        (Williamson et al., 1981). This method involves the measurement to scale, 
+        in section, of the distribution of terrain features and related subsurface 
+        characteristics of rock, soil, and ground water interpreted by the engineering 
+        geologist. Field-developed cross-sections are constructed using the Brunton 
+        Compass, hand clinometer, and cloth tape. </font> </p>
+      <p> <font size="2" face="Arial, Helvetica, sans-serif"> Level 3 investigations 
+        are commonly tied to engineering site surveys for reference. Subsurface 
+        exploration is conducted on Level 3 investigations as needed to confirm 
+        interpreted subsurface relations, to obtain soil and rock samples, and 
+        to conduct tests at specified locations and depths. The payoff for using 
+        these standards is a consistent methodology used by the project engineering 
+        geologist; this is essential to providing consistently high quality and 
+        reliable services to the client. </font> </p>
+      <p> <font size="2" face="Arial, Helvetica, sans-serif"> For specific project 
+        applications (usually during Level 3), representative samples of soil 
+        and rock units are tested in the materials laboratory for engineering 
+        quality and strength parameters following the testing procedures set by 
+        ASTM (1987) and the American Association of State Highway and Transportation 
+        Officials (1986). Laboratory testing is completed to confirm field testing 
+        and to provide more accurate data on materials characteristics and strength. 
+        </font> </p>
+      <p align="center"> <font size="2" face="Arial, Helvetica, sans-serif"> <b>Analytical 
+        Standards</b> </font> </p>
+      <p> <font size="2" face="Arial, Helvetica, sans-serif"> The goal of slope 
+        stability analysis is assessment of risk of failure. Prior to 1984, calculation 
+        of factor of safety for these involved "hand cranking" of values using 
+        hand-held calculators, or even slide rules. Slope stability analyses were 
+        completed only for site-specific investigations of slope movement features. 
+        Evaluations of broad areas for risk of failure were usually done subjectively; 
+        infrequently, the infinite slope equation was used for area analyses. 
+        (Methods of slope stability analysis are outlined in Morgenstern and Sangrey, 
+        1978.) </font> </p>
+      <p> <font face="Arial, Helvetica, sans-serif" size="2"> With our acquisition 
+        of programmable hand calculators and personal computers, the speed and 
+        sophistication of analysis increased several orders of magnitude. Prellwitz 
+        (1985, 1988; Prellwitz et al., 1985) employed these new tools and refined 
+        the three-level method of completing project work. Using the infinite 
+        slope equation as part of an algorithm for Levels 1 and 2, Prellwitz wrote 
+        the programs Slope Stability Infinite Slope (SSIS) and Slope Stability 
+        Infinite Slope for Critical Height (SSISCH) for use on the Hewlett-Packard 
+        41 (HP 41) hand-held programmable calculator. (Critical height refers 
+        to the maximum height of an excavated road cutslope that can be constructed 
+        without slope failure.) Prellwitz (1985) also developed the program Slope 
+        Stability Method of Slices (SSMOS) for the HP 41 for use in site-specific 
+        (Level 3) analyses; it uses three methods of analysis: Fellenius or Ordinary 
+        Method of Slices, Modified Bishop, and Simplified Janbu. Armed with these 
+        three programs and the HP 41, the engineering geologist could now finish 
+        a major portion of his/her analysis in the field utilizing a field-developed 
+        cross-section. Hammond et al. (1988) have taken this work a step further 
+        with their program Level I Stability Analysis (LISA) for IBM and other 
+        compatible personal computers. The major differences between Prellwitz's 
+        calculator-based programs and Hammond's LISA are that the latter uses 
+        probability statistics and as many as 1,000 iterations of the infinite 
+        slope equation to determine failure probabilities by area. </font> </p>
+      <p> <font face="Arial, Helvetica, sans-serif" size="2"> The Forest Service 
+        engineering geologist has transitioned through the adoption of these programs 
+        from use of a mostly subjective process for planning (Levels 1 and 2) 
+        and a somewhat cumbersome but sophisticated slope stability analyses for 
+        site-specific (Level 3) projects, to use of easily applied, highly sophisticated 
+        computer programs for slope stability analyses for all project phases, 
+        from planning (Levels 1 and 2) through design and construction (Level 
+        3). This has significantly increased project and program efficiency and 
+        effectiveness. </font> </p>
+      <p> <font face="Arial, Helvetica, sans-serif" size="2"> Analyses of rock 
+        and aggregate sources are also three-tiered. During Level 1, the quality 
+        of each designated rock or soil unit is evaluated to determine potential 
+        suitability for use, with the end-product being identification of new 
+        prospects to be investigated. During Level 2, rock and soil units are 
+        designated and evaluated for each proposed site. Suitability of each unit 
+        is evaluated, on the basis of the results of field tests, for the proposed 
+        use. The suitability and estimated quantity of rock and aggregate materials 
+        must be evaluated along with terrain characteristics and local environmental 
+        conditions and the distance of the site from the proposed application 
+        to determine whether any further investigative work is warranted. Level 
+        3 analyses consist of synthesis of data developed during measurement of 
+        field-developed cross-sections, results of lab testing, and confirmational 
+        drilling; separation of materials into suitability use zones; and, where 
+        appropriate, slope stability analyses using the previously <!-- sic? --> 
+        Level 3 methods for soils, plus Hoek and Bray's methods (1981) for analyzing 
+        wedge and planar rock failures. </font> </p>
+      <p> <font size="2" face="Arial, Helvetica, sans-serif"> To demonstrate how 
+        engineering geologists assigned to the Olympic National Forest completed 
+        project work before and after the advent of the "computer age", two case 
+        histories are discussed below. </font> </p>
+      <p align="center"> <font size="2" face="Arial, Helvetica, sans-serif"> <b>CHESTERSHIRE 
+        AND BACKDROP<br>
+        TIMBER SALE CASE HISTORIES </b> </font> </p>
+      <p> <font face="Arial, Helvetica, sans-serif" size="2"> Located within the 
+        Quinault Ranger District of the Olympic National Forest, the Chestershire 
+        and Backdrop Timber Sale planning areas overlap each other along Quinault 
+        Ridge and the upper reach of Chester Creek (<a href="#App1.1_Fig3">Figure&nbsp;3</a>). 
+        Both are discussed here because they give a historical perspective of 
+        how a Level 1 project was completed in the late 1970s (Chestershire) and 
+        the mid- to late 1980s (Backdrop). Because of the overlap, data used for 
+        both areas are the same or similar. </font> </p>
+      <p align="center"> <font size="2" face="Arial, Helvetica, sans-serif"> <b>Level 
+        1</b> </font> </p>
+      <p> <font size="2" face="Arial, Helvetica, sans-serif"> <b>Chestershire 
+        Timber Sale Planning Area</b> </font> </p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2"> An investigation 
+        of the Chestershire Timber Sale planning area was requested by the Quinault 
+        Ranger District in 1978. The stated purposes for the investigation were 
+        to: </font> 
+      <ol>
+        <li><font face="Arial, Helvetica, sans-serif" size="2">Determine the probability 
+          of reactivating the Chester Creek landslide by reopening a segment of 
+          Forest Service Road 2261 that crosses the toe of the slide;</font></li>
+        <li><font face="Arial, Helvetica, sans-serif" size="2">Locate corridors 
+          that would be suitable road location alternatives to the existing road 
+          crossing the toe of the slide; and</font></li>
+        <li><font face="Arial, Helvetica, sans-serif" size="2">Determine effects 
+          of road development and timber harvest on Chester Creek and other potential 
+          slide areas.</font></li>
+      </ol>
+      <p></p>
+      <p> <font face="Arial, Helvetica, sans-serif" size="2"> The District Ranger 
+        was concerned that a potential increase in sedimentation into Chester 
+        Creek would occur as a result of harvesting timber and constructing roads 
+        in this planning area. Since Chester Creek was identified as an anadromous 
+        fishery, any increase in sedimentation would have a potential for causing 
+        both short- and long-term adverse effects. Because of these concerns, 
+        the District Ranger requested two investigations, one (Level 1) of the 
+        Chestershire planning area, and a second (Level 3) of the Chester Creek 
+        landslide. Two teams of engineering geologists were mobilized to conduct 
+        both investigations concurrently. </font> </p>
+      <p> <font face="Arial, Helvetica, sans-serif" size="2"> Aerial photographic 
+        interpretation and field mapping of the Chestershire Planning Area were 
+        completed in 1978. Field mapping was completed according to standards 
+        discussed in the introduction of this paper. Soil and rock units were 
+        designated and classified. Areas of saturated soils and slope movement 
+        features in soil and rock were identified and mapped. Slope percent was 
+        measured in the field or derived from existing topographic maps. The map 
+        scale used for this study was 4 in. = 1 mi (1:15,840). Analyses of rock 
+        structures were completed to identify portions of slopes where the potential 
+        existed for slope movement due to road excavation. </font> </p>
+      <p> 
+      <font size="2" face="Arial, Helvetica, sans-serif"> Office analyses and 
+      documentation included the development of a series of overlays to relate 
+      physical characteristics of soil and rock materials and the distribution 
+      of ground and surface water to existing slope movement features. This formed 
+      a union/intersection of data sets, which allowed the identification of critical 
+      factors related to slope stability and erosion. These critical factors are: 
+      <ul>
+        <li><font face="Arial, Helvetica, sans-serif" size="2">Slopes greater 
+          than 70 percent;</font></li>
+        <li><font face="Arial, Helvetica, sans-serif" size="2">Hard rock units 
+          covered by shallow soil;</font></li>
+        <li><font face="Arial, Helvetica, sans-serif" size="2">Adversely oriented 
+          mass planar features in rock; and</font></li>
+        <li><font face="Arial, Helvetica, sans-serif" size="2">Saturated soils.</font></li>
+      </ul>
+      </font> 
+      <p></p>
+      <p> <font face="Arial, Helvetica, sans-serif" size="2"> A slope stability/erosion 
+        zonation map was then compiled from these data (<a href="#App1.1_Fig4">Figure 
+        4</a>). Zone 1 has stable slopes; Zone 2 has potentially unstable rock 
+        slopes; Zone 3 has slopes that have a low to moderate probability of slope 
+        movement; Zone 4 has stable slopes but a high potential for soil erosion; 
+        and Zone 5 has unstable soil slopes. Subjective estimates were then made 
+        of the potential of initiating slope movements from road construction 
+        and timber harvest activities; the scope of predicted effects was also 
+        estimated. </font> </p>
+      <p> <font face="Arial, Helvetica, sans-serif" size="2"> A short report (Neal, 
+        1979) outlining predicted impacts in each slope stability/erosion zone 
+        was submitted to the Quinault Ranger District interdisciplinary timber 
+        sale planning team (ID team) as a reference for the timber sale environmental 
+        analysis report (EAR) as required under the NFMA. This report included 
+        a geotechnical assessment of transportation and logging alternatives and 
+        an evaluation of alternative rock sources in the area. </font> </p>
+      <p> <font face="Arial, Helvetica, sans-serif" size="2"> To answer the question 
+        regarding the probability of reactivating the Chester Creek landslide 
+        by reconstruction of the existing road, a Level 3 study of the slide area 
+        was made concurrently with the Level 1 study of the Chestershire planning 
+        area, using standards specified for Level 3 (site-specific investigations) 
+        outlined in the introduction. Interpretations of subsurface conditions 
+        were confirmed by drill exploration. On the basis of analysis of the slide 
+        data, Savage and Neal (1979) recommended that no timber harvesting, road 
+        reconstruction, or new road construction be conducted adjacent to or within 
+        the landslide area. Results of this investigation were also utilized in 
+        the Chestershire Sale EAR. </font> </p>
+      <p> <font face="Arial, Helvetica, sans-serif" size="2"> It should be noted 
+        here that while the level of investigation conducted on the Chester Creek 
+        landslide was appropriate for the scope and nature of the problem, it 
+        is unusual for Level 3 standards to be applied to project planning and 
+        environmental assessment. This example shows, however, that the three-tiered 
+        system is a flexible standard that can fit most circumstances. </font> 
+      </p>
+      <p> <font size="2" face="Arial, Helvetica, sans-serif"> <b>Backdrop Timber 
+        Sale Planning Area</b> </font> </p>
+      <p> <font size="2" face="Arial, Helvetica, sans-serif"> Since the Chestershire 
+        planning area overlaps the Backdrop Timber Sale planning area (<a href="#App1.1_Fig2">Figure&nbsp;2</a>), 
+        pre-existing data collected for the former were utilized for the latter 
+        as much as possible. Additional fieldwork to cover areas not previously 
+        mapped was completed during the 1986 field season. The objectives for 
+        this project were the same as those stated for Chestershire. </font> </p>
+      <p> <font face="Arial, Helvetica, sans-serif" size="2"> A series of overlay 
+        maps was compiled to augment those used for the Chestershire area. Included 
+        as a new overlay was a map of all proposed timber sale clearcut units 
+        (<a href="#App1.1_Fig5">Figure&nbsp;5</a>). Each unit was analyzed 
+        to determine the probability of slope movement using the LISA computer 
+        program. The following data were used for these analyses: physical characteristics 
+        and depth of soil, slope percent, the ratio of ground-water depth to soil 
+        depth (dw/d), root shear strength, and tree surcharge. </font> </p>
+      <p> <font face="Arial, Helvetica, sans-serif" size="2"> As noted in the 
+        introduction, LISA analyses are completed using probability statistics; 
+        LISA generates as many as 1,000 iterations of the infinite slope equation. 
+        By using LISA, the engineering geologist provides more statistically meaningful 
+        results than those provided by the older subjective methods. <a href="#App1.1_Table_1">Table&nbsp;1</a> 
+        shows the probability of the occurrence of slope movements for each proposed 
+        timber sale clearcut unit under existing natural conditions (base level), 
+        after a 50 percent partial cut, and after clear cutting. From the data 
+        developed, it is apparent that many of the units are potentially unstable; 
+        slope movements are predicted to occur in some even without logging. Aerial 
+        photographic interpretation and field reconnaissance of existing clearcuts 
+        in the area indicate that the locations of slope movement features appear 
+        to correlate well with predictions generated with LISA. Although there 
+        are no large slope movement features in the area other than the Chester 
+        Creek landslide, there are a number of small features within each timber 
+        sale unit. </font> </p>
+      <p> <font face="Arial, Helvetica, sans-serif" size="2"> Calculations of 
+        safety factor for the Chester Creek landslide (Savage, 1979) indicated 
+        a high probability of failure. Koler (1988) synthesized the Chester Creek 
+        landslide data into a format suitable for LISA by using SSIS to back-calculate 
+        the physical parameters for input. Results from the LISA analysis for 
+        the Chester Creek landslide showed that under natural conditions 68 percent 
+        of the area would continue to fail without any timber harvest, as compared 
+        to 72 percent after a 50-percent partial timber cut, and 77 percent after 
+        clear cutting. These analyses provided a statistical probability for potential 
+        management alternatives that clearly shows that the earlier "no go" decision 
+        was valid. </font> </p>
+      <p> <font size="2" face="Arial, Helvetica, sans-serif"> Results of these 
+        analyses were compiled and documented (Koler, 1988) in a report for use 
+        in timber sale area environmental analysis. </font> </p>
+      <p> <a name="App1.1_Table_1"></a> 
+      <font size="1" face="Arial, Helvetica, sans-serif"> 
+      <blockquote> 
+        <p><font size="2">Table 1. Level 1 Stability Analysis for Backdrop Timber 
+          Sale Planning Area showing probability of the occurrence of slope movements 
+          for each proposed timber sale clearcut unit under existing natural conditions, 
+          after a 50 percent partial cut, and after clear cutting; see <a href="#App1.1_Fig5">Figure&nbsp;5</a>.</font> 
+        </p>
+      </blockquote>
+      </font> 
+      <p></p>
+      <div align="center"> 
+        <table width="69%" border="1" cellpadding="0">
+          <tr> 
+            <th width="25%" bgcolor="ivory"><font face="Arial, Helvetica, sans-serif" size="2">Timber 
+              sale unit</font></th>
+            <th width="25%" bgcolor="ivory"><font face="Arial, Helvetica, sans-serif" size="2">Natural 
+              conditions</font></th>
+            <th width="25%" bgcolor="ivory"><font face="Arial, Helvetica, sans-serif" size="2">50% 
+              partial cut</font></th>
+            <th width="25%" bgcolor="ivory"><font face="Arial, Helvetica, sans-serif" size="2">Clear 
+              cut</font></th>
+          </tr>
+          <tr> 
+            <th width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">A</font></th>
+            <td width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">16%</font></td>
+            <td width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">26%</font></td>
+            <td width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">35%</font></td>
+          </tr>
+          <tr> 
+            <th width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">B</font></th>
+            <td width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">53%</font></td>
+            <td width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">70%</font></td>
+            <td width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">78%</font></td>
+          </tr>
+          <tr> 
+            <th width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">C</font></th>
+            <td width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">32%</font></td>
+            <td width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">49%</font></td>
+            <td width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">60%</font></td>
+          </tr>
+          <tr> 
+            <th width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">D</font></th>
+            <td width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">18%</font></td>
+            <td width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">37%</font></td>
+            <td width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">46%</font></td>
+          </tr>
+          <tr> 
+            <th width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">D1/D2</font></th>
+            <td width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">68%</font></td>
+            <td width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">72%</font></td>
+            <td width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">77%</font></td>
+          </tr>
+          <tr> 
+            <th colspan=4 height="8"><font face="Arial, Helvetica, sans-serif" size="2"></font></th>
+          </tr>
+          <tr> 
+            <th width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">E1</font></th>
+            <td width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">17%</font></td>
+            <td width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">26%</font></td>
+            <td width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">40%</font></td>
+          </tr>
+          <tr> 
+            <th width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">E2</font></th>
+            <td width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">26%</font></td>
+            <td width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">45%</font></td>
+            <td width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">61%</font></td>
+          </tr>
+          <tr> 
+            <th width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">F</font></th>
+            <td width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">36%</font></td>
+            <td width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">49%</font></td>
+            <td width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">61%</font></td>
+          </tr>
+          <tr> 
+            <th width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">G</font></th>
+            <td width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">57%</font></td>
+            <td width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">74%</font></td>
+            <td width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">78%</font></td>
+          </tr>
+          <tr> 
+            <th width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">H</font></th>
+            <td width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">59%</font></td>
+            <td width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">71%</font></td>
+            <td width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">80%</font></td>
+          </tr>
+          <tr> 
+            <th colspan=4 height="8"><font face="Arial, Helvetica, sans-serif" size="2"></font></th>
+          </tr>
+          <tr> 
+            <th width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">I</font></th>
+            <td width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">55%</font></td>
+            <td width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">76%</font></td>
+            <td width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">84%</font></td>
+          </tr>
+          <tr> 
+            <th width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">J</font></th>
+            <td width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">50%</font></td>
+            <td width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">58%</font></td>
+            <td width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">66%</font></td>
+          </tr>
+          <tr> 
+            <th width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">K</font></th>
+            <td width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">52%</font></td>
+            <td width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">61%</font></td>
+            <td width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">66%</font></td>
+          </tr>
+          <tr> 
+            <th width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">K1</font></th>
+            <td width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">52%</font></td>
+            <td width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">61%</font></td>
+            <td width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">66%</font></td>
+          </tr>
+          <tr> 
+            <th width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">M, 
+              N, Q</font></th>
+            <td width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">68%</font></td>
+            <td width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">81%</font></td>
+            <td width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">84%</font></td>
+          </tr>
+          <tr> 
+            <th colspan=4 height="8"><font face="Arial, Helvetica, sans-serif" size="2"></font></th>
+          </tr>
+          <tr> 
+            <th width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">P</font></th>
+            <td width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">52%</font></td>
+            <td width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">75%</font></td>
+            <td width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">85%</font></td>
+          </tr>
+          <tr> 
+            <th width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">P1</font></th>
+            <td width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">20%</font></td>
+            <td width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">39%</font></td>
+            <td width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">52%</font></td>
+          </tr>
+          <tr> 
+            <th width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">R1</font></th>
+            <td width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">71%</font></td>
+            <td width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">86%</font></td>
+            <td width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">92%</font></td>
+          </tr>
+          <tr> 
+            <th width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">R2</font></th>
+            <td width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">21%</font></td>
+            <td width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">30%</font></td>
+            <td width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">36%</font></td>
+          </tr>
+          <tr> 
+            <th width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">R3</font></th>
+            <td width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">54%</font></td>
+            <td width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">65%</font></td>
+            <td width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">71%</font></td>
+          </tr>
+          <tr> 
+            <th colspan=4 height="8"><font face="Arial, Helvetica, sans-serif" size="2"></font></th>
+          </tr>
+          <tr> 
+            <th width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">S</font></th>
+            <td width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">58%</font></td>
+            <td width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">72%</font></td>
+            <td width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">80%</font></td>
+          </tr>
+          <tr> 
+            <th width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">T</font></th>
+            <td width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">17%</font></td>
+            <td width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">26%</font></td>
+            <td width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">35%</font></td>
+          </tr>
+          <tr> 
+            <th width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">U</font></th>
+            <td width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">46%</font></td>
+            <td width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">67%</font></td>
+            <td width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">77%</font></td>
+          </tr>
+          <tr> 
+            <th width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">U1</font></th>
+            <td width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">16%</font></td>
+            <td width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">25%</font></td>
+            <td width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">32%</font></td>
+          </tr>
+          <tr> 
+            <th width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">Z</font></th>
+            <td width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">20%</font></td>
+            <td width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">25%</font></td>
+            <td width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">31%</font></td>
+          </tr>
+          <tr> 
+            <th colspan=4 height="8"><font face="Arial, Helvetica, sans-serif" size="2"></font></th>
+          </tr>
+          <tr> 
+            <th width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">AA</font></th>
+            <td width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">54%</font></td>
+            <td width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">69%</font></td>
+            <td width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">65%</font></td>
+          </tr>
+          <tr> 
+            <th width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">BB</font></th>
+            <td width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">63%</font></td>
+            <td width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">73%</font></td>
+            <td width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">80%</font></td>
+          </tr>
+          <tr> 
+            <th width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">CC-DD</font></th>
+            <td width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">46%</font></td>
+            <td width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">58%</font></td>
+            <td width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">65%</font></td>
+          </tr>
+          <tr> 
+            <th width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">FF</font></th>
+            <td width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">31%</font></td>
+            <td width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">44%</font></td>
+            <td width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">53%</font></td>
+          </tr>
+          <tr> 
+            <th width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">3</font></th>
+            <td width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">71%</font></td>
+            <td width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">86%</font></td>
+            <td width="25%" align="center"><font face="Arial, Helvetica, sans-serif" size="2">93%</font></td>
+          </tr>
+        </table>
+      </div>
+      <p align="center"> <font size="2" face="Arial, Helvetica, sans-serif"> <b>Level 
+        2</b> </font> </p>
+      <p> <font face="Arial, Helvetica, sans-serif" size="2"> <b>Chestershire 
+        Timber Sale Planning Area</b> </font> </p>
+      <p> <font face="Arial, Helvetica, sans-serif" size="2"> The Quinault District 
+        Ranger decided, on the basis of reports by Neal (1979) and Savage and 
+        Neal (1979), to abandon the segment of Road 2261 that crossed the toe 
+        of the Chester Creek landslide. In 1981, the District Transportation Planner 
+        proposed two corridors for possible road construction (<a href="#App1.1_Fig6">Figure&nbsp;6</a>). 
+        The first corridor was planned to provide access to slopes west of the 
+        Chester Creek landslide, upslope from Road 2261. The second corridor involved 
+        the extension of Forest Service Road 2220-011 along a broad glaciofluvial 
+        terrace above the west bank of Chester Creek. This extension was planned 
+        to provide access to slopes west of Chester Creek and to tie back into 
+        Road 2261 southwest of the Chester Creek landslide. A third corridor would 
+        provide temporary access across the middle part of the Chester Creek landslide 
+        to access timber northeast of the slide, and a fourth was planned (after 
+        the third was dropped) to access that same timber from the east. Level 
+        2 geotechnical work along these corridors consisted of interpretation 
+        of aerial photographs and reconnaissance mapping along proposed alignments 
+        at 1 in. = 300 ft (1:3,600) to substantiate Level 1 interpretations and 
+        to supplement the detail of available data. During this process, each 
+        corridor was divided into terrain segments, and typical ground conditions 
+        were sketched in cross-section. Data and information were synthesized 
+        and evaluated, and several short reports were written (McBane, 1981a, 
+        1981b; Neal, 1982a, 1982b). The Quinault District Ranger's decisions, 
+        formed on the basis of these reports, included constructing a road along 
+        the second corridor, dropping the first and third corridors, and, tentatively, 
+        planning to construct a road along the fourth corridor at a later time. 
+        </font> </p>
+      <p> <font size="2" face="Arial, Helvetica, sans-serif"> In December 1983, 
+        Neal conducted a Level 2 investigation of an area at the toe of the Chester 
+        Creek landslide to evaluate the potential for increased slide activity 
+        that might result from logging there. As a result of his report (Neal, 
+        1983a), a follow-up memo (Neal, 1983b) and subsequent meetings with District 
+        and Supervisor's Office staffs, the Chester Creek landslide was removed 
+        from further consideration for timber harvesting. </font> </p>
+      <p> <font size="2" face="Arial, Helvetica, sans-serif"> As with the Level 
+        1 analyses, this Level 2 assessment predated Prellwitz's computer programs. 
+        Field and office analyses at that time were still "hand cranked". Since 
+        many of the recommendations were based on subjective conclusions, considerably 
+        more communications were necessary to reach the recommended decision than 
+        have been necessary since probability analyses using LISA have been completed 
+        on similar slopes. </font> </p>
+      <p> <font face="Arial, Helvetica, sans-serif" size="2"> <b>Backdrop Timber 
+        Sale Planning Area </b> </font> </p>
+      <p> <font face="Arial, Helvetica, sans-serif" size="2"> When the Backdrop 
+        area was first designated for timber sale planning, a great deal of attention 
+        was focused on the Quinault Ridge Road (Forest Service Road 2258, <a href="#App1.1_Fig5">Figure&nbsp;5</a>). 
+        Prior to any planning of timber sale units or boundaries, the Quinault 
+        District Ranger requested a geotechnical report for transportation planning 
+        along this road because it is the only access along Quinault Ridge and 
+        numerous road-associated slope movements have closed it. A geotechnical 
+        reconnaissance for reconstruction of the road was conducted by McBane 
+        (1981). As of early 1988, no transportation planning for the Backdrop 
+        Timber Sale has been finalized. To complete transportation planning, the 
+        1981 geotechnical work by McBane would need updating because of more recent 
+        slope movements. Future slope stability analyses will be conducted using 
+        Prellwitz's SSISCH and rock slope analysis methods developed by Hoek and 
+        Bray (1981). </font> </p>
+      <p align="center"> <font face="Arial, Helvetica, sans-serif" size="2"> <b>Level 
+        3</b> </font> </p>
+      <p align="left"> <font face="Arial, Helvetica, sans-serif" size="2"> <b>Chestershire 
+        Timber Sale -- Extension of Forest Service Road 2220-011</b> </font> </p>
+      <p> <font face="Arial, Helvetica, sans-serif" size="2"> A site-specific 
+        geotechnical investigation was conducted in 1982 along the preliminary 
+        survey line (P-line) for design of the 2220-011 tie road along Corridor 
+        2 (<a href="#App1.1_Fig5">Figure&nbsp;5</a>). This investigation 
+        built upon data collected during Levels 1 and 2 project work. The project 
+        engineering geologist divided the P-line into terrain segments. Soil, 
+        rock, topographic, and ground- and surface-water conditions were used 
+        as criteria for delineating segments. The purpose of segmentation was 
+        to provide data and portray conditions that represented typical terrain 
+        characteristics, and, in turn, to enable the development engineer to select 
+        a design that was appropriate for ground conditions encountered for each 
+        segment. The project engineering geologist completed slope stability analyses 
+        for areas of existing slope movement features, or which appeared to have 
+        the potential for slope movement to be initiated by road construction. 
+        In addition to small slope movement features, conditions encountered included 
+        steep slopes with saturated soils and spring lines, plastic soils with 
+        low shear strength values, and rock slopes with inherent adverse discontinuities. 
+        </font> </p>
+      <p> <font size="2" face="Arial, Helvetica, sans-serif"> The Modified Bishop 
+        Method of Slices (Bishop, 1955) was used to analyze features with ongoing 
+        or predicted rotational movement. The infinite slope equation was used 
+        to analyze features with ongoing or predicted translational movement. 
+        Different design alternatives were evaluated for conditions in each segment. 
+        The project engineering geologist presented analyses of alternatives and 
+        recommendations in his report (Koler, 1982). </font> </p>
+      <p> <font size="2" face="Arial, Helvetica, sans-serif"> The Wineglass pit, 
+        located roughly 6 mi northeast of the project, was selected for production 
+        of pit-run aggregate. This pit had been investigated previously; the last 
+        phase of drill exploration there prior to the Chestershire road construction 
+        was completed in 1981. The Geotechnical Section provided a rock source 
+        operating plan to be included in the timber sale contract package (Blair, 
+        1982). </font> </p>
+      <p> <font size="2" face="Arial, Helvetica, sans-serif"> The extension of 
+        Forest Service Road 2220-011 has been completed. The construction phase 
+        involved considerable consultation with an engineering geologist, primarily 
+        dealing with the suitability of subgrade materials for use at constructed 
+        grade level (Neal, 1985; Jordan, 1988). To date, no new logging has been 
+        conducted in the area because of decreased demand. Resale of some of the 
+        old Chestershire timber sale units is contemplated. </font> </p>
+      <p align="left"> <font size="2" face="Arial, Helvetica, sans-serif"> <b>Backdrop 
+        Timber Sale -- Road 2258000, Station 67+76 to 67+90</b> </font> </p>
+      <p align="left"> <font size="2" face="Arial, Helvetica, sans-serif"> In 
+        1983, subsequent to McBane's Level 2 investigation of Road 2258000 for 
+        transportation planning, a site-specific (Level 3) investigation was conducted 
+        of the segment of Road 2258000 between Stations 67+76 and 67+90 to evaluate 
+        alternative ways to regain adequate width for log haul. Road 2258000 was 
+        needed for log haul for the Binder timber sale area, located on the west 
+        slopes of Quinault Ridge. A team comprised of engineering geologists and 
+        a geotechnical engineer investigated the site using the field-developed 
+        cross-section method, Unified Rock Classification System, and Unified 
+        Soil Classification System, as outlined in the introduction. Subsurface 
+        conditions were confirmed and foundation strength characteristics were 
+        measured during drill exploration (refer to <a href="#App1.1_Fig7">Figure&nbsp;7</a>, 
+        Geotechnical Cross Section 30 for Binder Timber Sale). Road alignment 
+        alternatives were analyzed using a yarder simulator. Construction of a 
+        Hilfiker retaining wall to support the roadway was selected as the preferred 
+        alternative. Design analyses were completed using the Region 6 retaining 
+        wall design guide (Driscoll, 1979). Conclusions and recommendations were 
+        documented in a report written for design (Blair and Scheible, 1983). 
+        </font> </p>
+      <p> <font face="Arial, Helvetica, sans-serif" size="2"> Binder timber sale 
+        was dropped from the program because of environmental and economic considerations, 
+        so the retaining wall was not constructed. However, with upcoming planned 
+        logging of the Backdrop timber sale area, a contract was prepared in 1987 
+        for wall construction in 1988. After award of the contract (and after 
+        the snow had melted), additional slope movement, which resulted in loss 
+        of all remaining soil in the foundation area, was discovered. The project 
+        engineering geologist remeasured site conditions and is currently working 
+        on modifying the wall design (Jordan, 1988). </font> </p>
+      <p align="center"> <font size="2" face="Arial, Helvetica, sans-serif"> <b>CONCLUSIONS</b> 
+        </font> </p>
+      <p> <font size="2" face="Arial, Helvetica, sans-serif"> Employment of engineering 
+        geologists in the U.S. Forest Service increased significantly in the mid-1970s 
+        after enactment of federal environmental legislation. The Olympic National 
+        Forest began employing engineering geologists as part of its geotechnical 
+        staff in 1974. Engineering geologic services have greatly expanded from 
+        those early years, from investigation of rock and aggregate sources and 
+        road corridors to investigations for area planning, water well and drainfield 
+        location and design, and, most recently, review of small hydroelectric 
+        project applications. Since the mid-1970s, the geotechnical staff employed 
+        by the Olympic National Forest have been assigned to the Supervisor's 
+        Office, with their duty station at Ft. Lewis, Washington. The Geotechnical 
+        Section is comprised of a team of engineering geologists, geotechnical 
+        engineers, civil engineering and lab technicians, and a drill crew. While 
+        each of these fields is essential to the production of complete geotechnical 
+        services, none can operate independently of the others. Having all skills 
+        in a centralized location fosters teamwork. </font> </p>
+      <p> <font face="Arial, Helvetica, sans-serif" size="2"> Engineering geologists 
+        on the Olympic National Forest staff complete work within a scale-dependent, 
+        three-tiered system. Level 1, the lowest tier, comprises the area and 
+        project planning stage; data are collected and mapped to a minimum 1:24,000 
+        scale. Level 2 involves reconnaissance mapping of corridors for transportation 
+        planning or road or facilities location, at a scale of 1:3,600. Level 
+        3 is site-specific, and mapping is completed to a scale of 1:600 or greater. 
+        This paper traces the evolution of this three-tiered method of work over 
+        the past 10 years by examining two overlapping projects, the Chestershire 
+        and Backdrop Timber Sale areas, located on the Quinault Ranger District 
+        of the Olympic National Forest. During this period, the "computer age" 
+        has come into being for engineering geologists in the Forest Service. 
+        The Chestershire Timber Sale examples demonstrate past methods, which 
+        included subjective evaluations of broad areas and analyses of mathematical 
+        models developed for specific sites. The Backdrop Timber Sale examples 
+        demonstrate current methods, with expanded use of mathematical models 
+        to predict probabilities of slope movements over broad areas, with assistance 
+        from programmable calculators and personal computers. The net effect of 
+        this computerized analysis is a statistical probability of slope movement 
+        for each proposed activity during each project phase, from planning through 
+        design and construction. This adds credibility to geotechnical conclusions 
+        and recommendations and facilitates more objective management decisions 
+        regarding resource management and use. </font> </p>
+      <p align="center"> <font size="2" face="Arial, Helvetica, sans-serif"> <b>REFERENCES</b> 
+        </font> </p>
+      <p align="left"> <font size="2" face="Arial, Helvetica, sans-serif"> American 
+        Association of State Highway and Transportation Officials, 1986, Standard 
+        Specifications for Transportation Materials and Methods of Sampling and 
+        Testing--Part II, Methods of Sampling and Testing: American Association 
+        of State Highway and Transportation Officials, Washington, DC. 14th ed., 
+        1,275 p. </font> </p>
+      <p align="left"> <font size="2" face="Arial, Helvetica, sans-serif"> American 
+        Society for Testing and Materials, 1987, Description and Identification 
+        of Soils (Visual Manual Procedure): Annual Book of ASTM Standards, Vol. 
+        04.08, pp. 409-423. </font> </p>
+      <p align="left"> <font size="2" face="Arial, Helvetica, sans-serif"> Bishop, 
+        A. W,, 1955, The use of the slip circle in the stability analysis of slopes: 
+        Geotechnique, Vol. 5, No. 1, pp. 7-17. </font> </p>
+      <p align="left"> <font size="2" face="Arial, Helvetica, sans-serif"> Blair, 
+        M. R., 1982, Rock Source Operating Plan, Pit No. 2302196.0.4 (Wineglass 
+        Pit), Chestershire Timber Sale: U.S. Forest Service, Olympic National 
+        Forest Geotechnical Section, Ft. Lewis, WA, 1 p. </font> </p>
+      <p align="left"> <font size="2" face="Arial, Helvetica, sans-serif"> Blair, 
+        M. R. and Scheible, A. A., 1983, Geotechnical Investigation for Design, 
+        Road 2258000, Station 67+76 to 67+90, Binder Timber Sale, Quinault Ranger 
+        District: U.S. Forest Service, Olympic National Forest Geotechnical Section, 
+        Ft. Lewis, WA, 39p. </font> </p>
+      <p align="left"> <font size="2" face="Arial, Helvetica, sans-serif"> Casagrande, 
+        A., 1948, Classification of soils: American Society of Civil Engineers 
+        Transactions, Vol. 113, pp. 901-930. </font> </p>
+      <p align="left"> <font size="2" face="Arial, Helvetica, sans-serif"> Driscoll, 
+        D. D., 1979, Retaining Wall Design Guide, U.S. Forest Service Region 6: 
+        Foundation Sciences, Inc., Portland, OR, 428 p. </font> </p>
+      <p align="left"> <font size="2" face="Arial, Helvetica, sans-serif"> Hammond, 
+        C. J.; Miller, S. M.; and Prellwitz, R. W., 1988, Estimating probability 
+        of landslides by Monte Carlo simulation. In 24th Symposium on Engineering 
+        Geology and Soils Engineering: University of Idaho and Washington State 
+        University, Coeur d' Alene, ID, pp. 319-331. </font> </p>
+      <p align="left"> <font size="2" face="Arial, Helvetica, sans-serif"> Hoek, 
+        E. and Bray, J. W., 1981, Rock Slope Engineering: The Institute of Mining 
+        and Metallurgy, London, UK, 358 p. </font> </p>
+      <p align="left"> <font size="2" face="Arial, Helvetica, sans-serif"> Jordan, 
+        J. R., 1988, Personal communications, Engineering Geologist, U.S. Forest 
+        Service, Olympic National Forest, Ft. Lewis, WA. </font> </p>
+      <p align="left"> <font size="2" face="Arial, Helvetica, sans-serif"> Koler, 
+        T. E., 1982, Geotechnical Investigation for the Reconstruction of 2220-011 
+        Road, and the Design of the Proposed Extension of 2220-011 Road, Chestershire 
+        Timber Sale, Quinault Ranger District: U.S. Forest Service, Olympic National 
+        Forest Geotechnical Section, Ft. Lewis, WA, 15p. </font> </p>
+      <p align="left"> <font size="2" face="Arial, Helvetica, sans-serif"> Koler, 
+        T. E., 1988, Geotechnical Report for the Environmental Assessment of the 
+        Backdrop Timber Sale Planning Area in the Quinault Ranger District: U.S. 
+        Forest Service, Olympic National Forest Geotechnical Section, Ft. Lewis, 
+        WA, 9 p. </font> </p>
+      <p align="left"> <font size="2" face="Arial, Helvetica, sans-serif"> McBane, 
+        J. A., 1981a, Geotechnical Report for Transportation Planning; Road Location 
+        Alternatives to Control Point I, Impacts of Extension -- Road 2220.011, 
+        Chestershire Timber Sale, Quinault Ranger District: U.S. Forest Service, 
+        Olympic National Forest Geotechnical Section, Ft. Lewis, WA, 21 p. </font> 
+      </p>
+      <p align="left"> <font size="2" face="Arial, Helvetica, sans-serif"> McBane, 
+        J. A., 1981b, Proposed Road Location, Chestershire Timber Sale, Quinault 
+        Ranger District: U.S, Forest Service, Olympic National Forest Geotechnical 
+        Section, Ft. Lewis, WA, memo, 1 p. </font> </p>
+      <p align="left"> <font size="2" face="Arial, Helvetica, sans-serif"> Morgenstern, 
+        N. R. and Sangrey, D. A., 1978, Methods of Stability Analysis. In Schuster, 
+        R. L. and Krizek. R. J. (editors), Landslides--Analysis and Control: Transportation 
+        Research Board, Commission on Sociotechnical Systems, National Research 
+        Council Special Report 176, p. 155-171. </font> </p>
+      <p align="left"> <font size="2" face="Arial, Helvetica, sans-serif"> Neal, 
+        K. G., 1979, Geological Report for Environmental Assessment, Chestershire 
+        Timber Sale, Quinault Ranger District: U.S. Forest Service, Olympic National 
+        Forest Geotechnical Section. Ft. Lewis, WA, 13 p. </font> </p>
+      <p align="left"> <font size="2" face="Arial, Helvetica, sans-serif"> Neal, 
+        K. G,, 1982a, Trip Report; Proposed Unspecified Road Location across Chester 
+        Creek Landslide for Chestershire T.S., February 18, 1982: U.S. Forest 
+        Service, Olympic National Forest Geotechnical Section, Ft. Lewis, WA, 
+        2p. </font> </p>
+      <p align="left"> <font size="2" face="Arial, Helvetica, sans-serif"> Neal, 
+        K. G., 1982b, Geotechnical Report for Road Location; Road Alternative 
+        2 to Unit 4, Chestershire Timber Sale, Quinault Ranger District: U.S. 
+        Forest Service, Olympic National Forest Geotechnical Section, Ft. Lewis, 
+        WA, 5p. </font> </p>
+      <p align="left"> <font size="2" face="Arial, Helvetica, sans-serif"> Neal, 
+        K. G., 1983a, Slope Stability Evaluation; Proposed Clearcut Unit P, Worchester 
+        T.S., Quinault Ranger District: U.S. Forest Service, Olympic National 
+        Forest Geotechriical Section, Ft. Lewis, WA, 3 p. </font> </p>
+      <p align="left"> <font size="2" face="Arial, Helvetica, sans-serif"> Neal, 
+        K. G., 1983b, Slope Stability Evaluation; Slopes Adjacent to Chester Creek 
+        Landslide: U.S. Forest Service, Olympic National Forest Geotechnical Section, 
+        Ft. Lewis, WA, 4p. </font> </p>
+      <p align="left"> <font size="2" face="Arial, Helvetica, sans-serif"> Neal, 
+        K. G., 1985, Request by Contractor to Cross Chester Creek Landslide: U.S. 
+        Forest Service, Olympic National Forest Geotechnical Section, Ft. Lewis, 
+        WA, 1 p. </font> </p>
+      <p align="left"> <font size="2" face="Arial, Helvetica, sans-serif"> Prellwitz, 
+        R. W., 1985, Slope Stability Analyses by Three Methods of Slices with 
+        the HP 41 Programmable Calculator: U.S. Forest Service Publication EM 
+        7170-7, 66p. </font> </p>
+      <p align="left"> <font size="2" face="Arial, Helvetica, sans-serif"> Prellwitz, 
+        R. W., 1988, Preliminary Slope Stability Analysis with Hewlett-Packard 
+        HP 41 Programmable Calculator: U.S. Forest Service Publication EM 7170-9, 
+        77 p. </font> </p>
+      <p align="left"> <font size="2" face="Arial, Helvetica, sans-serif"> Prellwitz, 
+        R. W.; Howard, T. R.; and Wilson, W. D., 1985, Landslide analysis concepts 
+        for management of forest lands on residual and colluvial soils. In U.S. 
+        Forest Service Geotechnical Workshop Proceedings: U.S. Forest Service 
+        Publication EM 7170-6, pp. 146-162. </font> </p>
+      <p align="left"> <font size="2" face="Arial, Helvetica, sans-serif"> Savage, 
+        W. L. and Neal, K. G., 1979, Geotechnical Report, Road Location Alternatives--Chester 
+        Creek Landslide, Quinault Ranger District: U.S. Forest Service, Olympic 
+        National Forest Geotechnical Section, Ft. Lewis, WA, 18p. </font> </p>
+      <p align="left"> <font size="2" face="Arial, Helvetica, sans-serif"> Williamson, 
+        D. A., 1984, Unified Rock Classification System: Bulletin of the Association 
+        of Engineering Geologists, Vol. 21, No.3, pp. 345-354. </font> </p>
+      <p align="left"> <font size="2" face="Arial, Helvetica, sans-serif"> Williamson, 
+        D. A.; Neal, K. G,; and Larson, D. A., 1981, The Field-Developed Cross-Section--A 
+        Systematic Method of Presenting Dimensional Subsurface Information: U.S. 
+        Forest Service, Olympic National Forest Geotechnical Section, Ft. Lewis, 
+        WA, 35 p. </font> </p>
+  </tr>
+  <tr> 
+    <td valign="top" colspan="5" bgcolor="#CCCC99" height="343"> 
+      <div align="center"> 
+        <p> <a name="App1.1_Fig3"></a>
+         <a href="javascript:ShowFigure('images/1/App_F03.jpg','Figure 3. Locations of the Chestershire and Backdrop Timber Sale Planning Areas.',512,553)"><img src="images/1/app_f03.jpg" width="253" height="248" border="1"></a> 
+        </p>
+        <p> <font face="Arial, Helvetica, sans-serif" size="2"> Figure 3. Locations 
+          of the Chestershire and Backdrop Timber Sale Planning Areas. </font> 
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr> 
+    <td valign="top" colspan="5" bgcolor="#CCCC99"> 
+      <div align="center"> 
+        <p> <a name="App1.1_Fig4"></a>
+         <a href="javascript:ShowFigure('images/1/App_F04.jpg','Figure 4. Slope stability/erosion zone map for the Chestershire Timber Sale Planning Area.',512,553)"><img src="images/1/app_f04.jpg" width="263" height="261" border="1"></a> 
+        </p>
+        <p> <font face="Arial, Helvetica, sans-serif" size="2"> Figure 4. Slope stability/erosion zone map for the Chestershire Timber Sale Planning Area. </font> </p>
+      </div>
+    </td>
+  </tr>
+  <tr> 
+    <td valign="top" colspan="5" bgcolor="#CCCC99"> 
+      <div align="center"> 
+        <p> <a name="App1.1_Fig5"></a>
+         <a href="javascript:ShowFigure('images/1/App_F05.jpg','Figure 5. Timber sale clearcut units, Backdrop Timber Sale Planning Area.',512,553)"><img src="images/1/app_f05.jpg" width="278" height="269" border="1"></a> 
+        </p>
+        <p> <font size="2" face="Arial, Helvetica, sans-serif"> Figure 5. Timber sale clearcut units, Backdrop Timber Sale Planning Area. </font></p>
+      </div>
+    </td>
+  </tr>
+  <tr> 
+    <td valign="top" colspan="5" bgcolor="#CCCC99" height="333"> 
+      <div align="center">
+        <p> <a name="App1.1_Fig6"></a>
+         <a href="javascript:ShowFigure('images/1/App_F06.jpg','Figure 6. Alternative road corridor locations for the Chestershire Timber Sale Planning Area.',512,553)"><img src="images/1/app_f06.jpg" width="271" height="318" border="1"></a> 
+        </p>
+        <p> <font size="2" face="Arial, Helvetica, sans-serif">
+              Figure 6. Alternative road corridor locations for the Chestershire Timber Sale Planning Area.
+            </font>
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr> 
+    <td valign="top" colspan="5" bgcolor="#CCCC99"> 
+      <div align="center"> 
+        <p> <a name="App1.1_Fig7"></a>
+         <a href="javascript:ShowFigure('images/1/App_F07.jpg','Figure 7. Geotechnical cross-section 30 for the Binder Timber Sale.',797,686)"><img src="images/1/app_f07.jpg" width="270" height="262" border="1"></a> 
+        </p>
+        <p>
+         <font size="2" face="Arial, Helvetica, sans-serif">
+          Figure 7. Geotechnical cross-section 30 for the Binder Timber Sale.
+         </font>
+        </p>
+      </div>
+    </td>
+  </tr>
+</table>
+
+<!-- ======= FOOTER GRAPHIC =================================================== -->
+<p><IMG SRC="images/navbar.gif" WIDTH="703" HEIGHT="36" ALIGN="BOTTOM"
+   USEMAP="#b_pagingButtons.map" BORDER="0" ALT="Slope Stability Reference Guide for National Forests in the United States"> 
+  <!-- ========================================================================= -->
+  <br>
+  <!-- =======IMAGE MAP INFORMATION============================================== -->
+  <MAP Name="b_pagingButtons.map">
+    <!--HOME-->    <AREA SHAPE="RECT" COORDS="0,0 605,26" HREF="index.html" alt="SSG home">
+    <!--PREV-->    <AREA SHAPE="RECT" COORDS="608,0,629,26" HREF="ssg_1ref.html" alt="Section 1 references">
+    <!--NEXT-->    <AREA SHAPE="RECT" COORDS="632,0 652,26" HREF="ssg_2pc.html" alt="Section 2 principal contributors">
+  </map>
+  <!-- ========================================================================= -->
+</p>
+  <br>
+   <font face="Arial, Helvetica, sans-serif" size="1">USDA Forest Service<br>
+    <b>Slope Stability Reference Guide for National Forests in the United States, 1994.</b>
+    <br>
+    <a href="http://forest.moscowfsl.wsu.edu/ssg/">http://forest.moscowfsl.wsu.edu/ssg/</a> 
+    <br>Last Revised: 
+    <script language="javascript" type="text/javascript">
+     <!-- hide
+      document.write(document.lastModified)
+     // end hide -->
+    </script>
+   </font>
+  </p>
+ </body>
+</html>

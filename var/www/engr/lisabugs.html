@@ -1,0 +1,158 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"
+      "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+<head>
+<title>LISA and DLISA Bug List</title>
+<meta name="Author" content="Hall">
+<meta name="Expires" content="never">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="description" content="LISA and DLISA - list of software bugs">
+<meta name="keywords" content=" LISA DLISA bug list software bugs">
+
+<link rel=stylesheet href="../css/rmrs.css" type="text/css">
+</head>
+
+<body bgcolor="#CCCCFF">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr> 
+    <td rowspan="3" bgcolor="#FFFFFF" valign="top" width="149"><img src="../images/logo.gif" alt="Rocky Mountain Research Station Logo" width="149" height="116"></td>
+    <td width="100%" bgcolor="#CCCCFF" align="right" class="dk10pt">USDA Forest Service<br />
+      Rocky Mountain Research Station<br />
+      Forestry Sciences Laboratory - Moscow, Idaho</td>
+    <td bgcolor="#CCCCFF" width="11"><img src="images/spacer.gif" width="11" height="72"></td>
+  </tr>
+  <tr> 
+    <td width="100%" bgcolor="#669966" align="right" class="m1"><a href="../people/index.html" class="m1"> 
+      Moscow Personnel</a>&nbsp; |&nbsp; <a href="../siteindex.html" class="m1">Site 
+      Index</a>&nbsp; |&nbsp; <a href="../sitemap.html" class="m1">Site Map</a>&nbsp; 
+      |&nbsp; <a href="../index.html" class="m1">Moscow Home</a></td>
+    <td bgcolor="#669966" width="11"><img src="images/spacer.gif" width="11" height="20"></td>
+  </tr>
+  <tr> 
+    <td width="100%" bgcolor="#000033" align="right" class="m2"><a href="info.html" class="m2">Project 
+      Information</a>&nbsp; |&nbsp; <a href="software.html" class="m2">Modeling 
+      Software</a>&nbsp; |&nbsp; <a href="allpubs.html" class="m2">Library</a>&nbsp; 
+      |&nbsp; <a href="photos.html" class="m2">Project Photos</a>&nbsp; |&nbsp; 
+      <a href="links.html" class="m2">Offsite Links</a>&nbsp; |&nbsp; <a href="index.html" class="m2">Eng. 
+      Home</a></td>
+    <td bgcolor="#000033" width="11"><img src="images/spacer.gif" width="11" height="24"></td>
+  </tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0">
+  <tr> 
+    <td width="8" rowspan="2" bgcolor="#FFFFFF"><img src="images/spacer.gif" width="8" height="375"></td>
+    <td width="15%" rowspan="2" bgcolor="#FFFFFF" valign="top"><span class="dk10pt"><br />
+      <b>Soil &amp; Water<br />
+      Engineering Software:</b><br />
+      <br />
+      <a href="roadsw.html">Road Erosion</a><br />
+      <a href="erodesw.html">Fire Effects</a><br />
+      <a href="erodesw.html">Disturbed Forests</a><br />
+      <a href="slopesw.html">Slope Stability</a><br />
+      <a href="/fswepp/">Erosion Modeling</a><br />
+      <a href="climatesw.html">Climate Modeling</a><br /></span>
+
+<br /><p>Project Leader:<br />
+        <a href="../people/engr/welliot.html">William J. Elliot</a><br />
+        <a href="http://forest.moscowfsl.wsu.edu/cgi-bin/fswepp/commform.pl?&recipient=welliot&title=William%20Elliot"><img src="../images/mail.gif" border=0 width="32" height="21" alt="email Bill"></a> 
+        <br />
+      </p>
+        <p>
+        Last Revised: <br />
+<script>
+<!-- hide
+document.write(document.lastModified)
+// end hide -->
+</script></p>
+
+        <p>Contact Webmaster<br />
+        <a href="javascript:document.webmaster.submit()"><img src="../images/mail.gif" border=0 width="32" height="21" alt="email webmaster"></a> 
+        <br />
+      </p>
+
+<form name="webmaster" action="http://forest.moscowfsl.wsu.edu/cgi-bin/fswepp/commform.pl" method="post">
+<input type="hidden" name="recipient" value="webmaster">
+<input type="hidden" name="title" value="the Webmaster">
+</form>
+
+
+    </td>
+    <td width="85%" height="375" bgcolor="#FFFFFF" valign="top"> 
+      <table width="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td colspan="5"><img src="images/spacer.gif" width="1" height="40"></td>
+        </tr>
+        <tr> 
+          <td width="20" bgcolor="#FFFFFF"><img src="images/spacer.gif" width="20"></td>
+          <td width="6" bgcolor="#CCCCFF"><img src="images/spacer.gif" width="6"></td>
+          <td width="20" bgcolor="#FFFFFF"><img src="images/spacer.gif" width="20"></td>
+          <td width="100%" bgcolor="#FFFFFF"><a href="index.html" class="h1">Soil 
+            and Water Engineering</a><span class="h1bk"> &nbsp;&gt; &nbsp;</span><a href="software.html" class="h1">Modeling 
+            Software</a><span class="h1bk">&nbsp; &gt; &nbsp;<a href="slopesw.html" class="h1">Slope 
+            Stability Software</a>&nbsp; &gt; &nbsp;<a href="lisa0.html" class="h1">LISA 
+            and DLISA</a>&nbsp; &gt; &nbsp;</span><span class="h1r">Bug List</span><br />
+            <br />
+            <ul>
+              <li><b>LISA</b> 
+                <ul>
+                  <li>LISA appears not to keep the tree surcharge values the user 
+                    specifies throughout the factor of safety calculation. The 
+                    intermediate calculations (effective normal stress and shear 
+                    strength) use the proper tree surcharge, but the resultant 
+                    factor of safety is calculated as if tree surcharge were zero.</li>
+                  <li>We have had one report of LISA displaying a value of zero 
+                    for unit weight (gamma) when, of course, it should not be 
+                    zero. The calculations appear to be correct; only unit weight 
+                    is reported incorrectly in some circumstances.</li>
+                  <li>LISA will not run if it is installed in a Windows 95 or 
+                    Windows NT directory with a name outside the DOS eight-character 
+                    no-special-character naming convention. The error message 
+                    on selecting a map unit is "Path not found..." Any directory 
+                    above the LISA directory in the directory structure with an 
+                    extended name will also cause this error message. If only 
+                    the immediate LISA directory name is at fault, you can change 
+                    the directory name using Windows Explorer and fix the "Data 
+                    path to map units:" line in LISA. If the offending name is 
+                    further up the directory tree, it would be simplest to reinstall 
+                    LISA in a DOS-compatible path. (Alternatively, the computer-savvy 
+                    user can edit the path name in LISA's configuration file <tt>config.l1</tt> 
+                    to use the tilde-encoded directory names that DOS sees.)</li>
+                  <li>LISA will also report "Path not found..." when you try to 
+                    create or select a map unit if the "Data path to map units:" 
+                    entry (displayed just after LISA asks you for your name) is 
+                    invalid. With the cursor in the "Map unit to analyze:" field, 
+                    press the up arrow key to correct the data path. <br />
+                    <br /></li>
+                </ul></li>
+              <li><b>DLISA</b> 
+                <ul>
+                  <li>Apparently DLISA can get confused in reporting whether a 
+                    given slope is in percent or degrees. The calculation appears 
+                    to be consistent with what the user entered, but the printed 
+                    report on rare occasions may list incorrect units for the 
+                    slope value.</li>
+                  <li>DLISA will crash with an "illegal function call" on attempting 
+                    to solve for surface slope for some combinations of other 
+                    parameter values (such as extremely thin soils). [6/30/98]</li> 
+                </ul></li>
+            </ul>
+            <br /><br />
+            <div align="center"><span class="dk10pt"><a href="slope0.html">Slope 
+              Stability Information</a> &nbsp; |&nbsp; <a href="slopesw.html">Slope 
+              Stability Software (LISA and XSTABL)</a>&nbsp; |&nbsp; <a href="slopepubs.html">Slope 
+              Stability Publications</a>&nbsp; |&nbsp; <a href="slopeph.html">Slope 
+              Stability Project Photos</a>&nbsp; |&nbsp; <a href="links0.html#slope">Related 
+              Offsite Links</a>&nbsp; |&nbsp; <a href="index.html">Soil &amp; 
+              Water Engineering Home</a></span></div>
+            </td>
+          <td width="20" bgcolor="#FFFFFF"><img src="images/spacer.gif" width="20" height="1"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td width="100%" bgcolor="#FFFFFF"><img src="images/spacer.gif" width="1" height="20"></td>
+  </tr>
+</table>
+</body>
+</html>

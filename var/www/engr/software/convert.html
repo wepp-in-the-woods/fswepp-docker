@@ -1,0 +1,196 @@
+<html>
+ <head>
+  <title>Units conversion calculator (provisional)</title>
+  <script language="javascript">
+
+    //From JavaScript Handbook (Goodman) p. 374.
+    function isNumber(inputVal) {
+      oneDecimal = false
+      inputStr = "" + inputVal
+      for (var i = 0; i < inputStr.length; i++) {
+        var oneChar = inputStr.charAt(i)
+        if (i == 0 && oneChar == "-") {
+          continue
+        }
+        if (oneChar == "." && !oneDecimal) {
+          oneDecimal = true
+          continue
+        }
+        if (oneChar < "0" || oneChar > "9") {
+          return false
+        }
+      }
+      return true
+    }
+
+    function a_to_b(a,b,c,d) {      // millimeters to inches
+      if (!isNumber(document.convert.elements[a].value)) {
+         alert('Invalid entry!')
+         document.convert.elements[a].value=d
+      }
+      document.convert.elements[b].value=document.convert.elements[a].value*c
+      document.convert.elements[b].focus()
+    }
+
+   </script>
+  </head>
+ <body>
+  <center>
+   <font face="trebuchet MS, Arial, sans serif">
+
+    <h3>Units conversion calculator (provisional)</h3>
+    <form name="convert">
+     <table border=1 cellpadding=5>
+      <tr>
+       <td><font face="trebuchet MS, Arial, sans serif"><input type=text size=10 value=1 onChange="a_to_b(0,1,0.03937007874016,1)"> mm (millimeters)</font></td>
+       <th bgcolor="gold"><font face="trebuchet MS, Arial, sans serif">x 0.03937 =<br><font color="red">= 25.4 x</font></font></th>
+
+       <td><font face="trebuchet MS, Arial, sans serif"><input type=text size=10 value=0.0394 name="in2mm" onChange="a_to_b(1,0,25.4,0.03937)"> in. (inches)</font></td>
+       <th bgcolor="ivory"><font face="trebuchet MS, Arial, sans serif">length</font></th>
+      </tr>
+      <tr>
+       <td><font face="trebuchet MS, Arial, sans serif"><input type=text size=10 value=1 onChange="a_to_b(2,3,39.4,1)"> m (meters)</font></td>
+       <th bgcolor="gold"><font face="trebuchet MS, Arial, sans serif">x 39.37 =<br><font color="red">= 0.0254 x</font></font></th>
+
+       <td><font face="trebuchet MS, Arial, sans serif"><input type=text size=10 value=39.37 name="in2m" onChange="a_to_b(3,2,0.0254,39.37008)"> in. (inches)</font></td>
+       <th bgcolor="ivory"><font face="trebuchet MS, Arial, sans serif">length</font></th>
+      </tr>
+      <tr>
+       <td><font face="trebuchet MS, Arial, sans serif"><input type=text size=10 value=1 onChange="a_to_b(4,5,3.28084,1)"> m (meters)</font></td>
+       <th bgcolor="gold"><font face="trebuchet MS, Arial, sans serif">x 3.281 =<br><font color="red">= 0.3048 x</font></font></th>
+
+       <td><font face="trebuchet MS, Arial, sans serif"><input type=text size=10 value=3.281 onChange="a_to_b(5,4,0.3048,3.281)"> ft (feet)</font></td>
+       <th bgcolor="ivory"><font face="trebuchet MS, Arial, sans serif">length</font></th>
+      </tr>
+      <tr>
+       <td><font face="trebuchet MS, Arial, sans serif"><input type=text size=10 value=1 onChange="a_to_b(6,7,10.7639,1)"> m<sup>2</sup> (square meters)</font></td>
+       <th bgcolor="gold"><font face="trebuchet MS, Arial, sans serif">x 10.76391 =<br><font color="red">= 0.09290304 x</font></font></th>
+       <td><font face="trebuchet MS, Arial, sans serif"><input type=text size=10 value=10.76391 onChange="a_to_b(7,6,0.09290304,10.76391)"> ft<sup>2</sup> (square feet)</font></td>
+       <th bgcolor="ivory"><font face="trebuchet MS, Arial, sans serif">area</font></th>
+      </tr>
+      <tr>
+       <td><font face="trebuchet MS, Arial, sans serif"><input type=text size=10 value=1 onChange="a_to_b(8,9,2.2046,1)"> kg (kilograms)</font></td>
+       <th bgcolor="gold"><font face="trebuchet MS, Arial, sans serif">x 2.2046 =<br>= 0.45359 x</font></th>
+       <td><font face="trebuchet MS, Arial, sans serif"><input type=text size=10 value=2.2046 onChange="a_to_b(9,8,1/2.2046,2.2046)"> lbs (pounds avdp)</font></td>
+       <th bgcolor="ivory"><font face="trebuchet MS, Arial, sans serif">mass</font></th>
+      </tr>
+
+      <tr>
+       <td><font face="trebuchet MS, Arial, sans serif"><input type=text size=10 value=1 onChange="a_to_b(10,11,1000,1)"> t (metric tonnes)</font></td>
+       <th bgcolor="gold"><font face="trebuchet MS, Arial, sans serif"><font color="red">x 1,000 =<br>= 0.001 x</font></font></th>
+       <td><font face="trebuchet MS, Arial, sans serif"><input type=text size=10 value=1000 onChange="a_to_b(11,10,1/1000,1000)"> kg (kilograms)</font></td>
+       <th bgcolor="ivory"><font face="trebuchet MS, Arial, sans serif">mass</font></th>
+
+      </tr>
+      <tr>
+       <td><font face="trebuchet MS, Arial, sans serif"><input type=text size=10 value=1 onChange="a_to_b(12,13,1.1,1)"> t (metric tonnes)</font></td>
+       <th bgcolor="gold"><font face="trebuchet MS, Arial, sans serif">x 1.1 =<br>= 0.9091 x</font></th>
+       <td><font face="trebuchet MS, Arial, sans serif"><input type=text size=10 value=1.1 onChange="a_to_b(13,12,1/1.1,1.1)"> short tons</font></td>
+       <th bgcolor="ivory"><font face="trebuchet MS, Arial, sans serif">mass</font></th>
+
+      </tr>
+      <tr>
+       <td><font face="trebuchet MS, Arial, sans serif"><input type=text size=10 value=1 onChange="a_to_b(14,15,2000,1)"> short tons</font></td>
+       <th bgcolor="gold"><font face="trebuchet MS, Arial, sans serif"><font color="red">x 2,000 =<br>= 0.0005 x</font></font></th>
+       <td><font face="trebuchet MS, Arial, sans serif"><input type=text size=10 value=2000 onChange="a_to_b(15,14,1/2000,2000)"> lbs (pounds avdp)</font></td>
+       <th bgcolor="ivory"><font face="trebuchet MS, Arial, sans serif">mass</font></th>
+
+      </tr>
+      <tr>
+       <td><font face="trebuchet MS, Arial, sans serif"><input type=text size=10 value=1 onChange="a_to_b(16,17,10,1)"> kg m<sup>-2</sup></font></td>
+       <th bgcolor="gold"><font face="trebuchet MS, Arial, sans serif"><font color="red">x 10 =<br>= 0.1 x</font></font></th>
+       <td><font face="trebuchet MS, Arial, sans serif"><input type=text size=10 value=10 onChange="a_to_b(17,16,1/10,10)"> t ha<sup>-1</sup> (tonnes per hectare)</font></td>
+
+       <th bgcolor="ivory"><font face="trebuchet MS, Arial, sans serif">mass per area<br>(pressure)</font></th>
+      </tr>
+      <tr>
+       <td><font face="trebuchet MS, Arial, sans serif"><input type=text size=10 value=1 onChange="a_to_b(18,19,4.45,1)"> kg&nbsp;m<sup>-2</sup></font></td>
+       <th bgcolor="gold"><font face="trebuchet MS, Arial, sans serif">x 4.45 =<br>= 0.22472 x</font></th>
+       <td><font face="trebuchet MS, Arial, sans serif"><input type=text size=10 value=4.45 onChange="a_to_b(19,18,1/4.45,4.45)"> short&nbsp;tons per acre</font></td>
+       <th bgcolor="ivory"><font face="trebuchet MS, Arial, sans serif">mass per area<br>(pressure)</font></th>
+      </tr>
+      <tr>
+       <td><font face="trebuchet MS, Arial, sans serif"><input type=text size=10 value=1 onChange="a_to_b(20,21,0.445,1)"> t ha<sup>-1</sup></font></td>
+       <th bgcolor="gold"><font face="trebuchet MS, Arial, sans serif">x 0.445 =<br>= 2.2472 x</font></th>
+       <td><font face="trebuchet MS, Arial, sans serif"><input type=text size=10 value=0.445 onChange="a_to_b(21,20,1/0.445,0.445)"> short&nbsp;tons per acre</font></td>
+       <th bgcolor="ivory"><font face="trebuchet MS, Arial, sans serif">mass per area<br>(pressure)</font></th>
+      </tr>
+
+      <tr>
+       <td><font face="trebuchet MS, Arial, sans serif"><input type=text size=10 value=1 onChange="a_to_b(22,23,2.47,1)"> ha</font></td>
+       <th bgcolor="gold"><font face="trebuchet MS, Arial, sans serif">x 2.471054 =<br><font color=red>= 0.40468564224 x</font></font></th>
+       <td><font face="trebuchet MS, Arial, sans serif"><input type=text size=10 value=2.471054 onChange="a_to_b(23,22,0.40468564224,2.471054)"> acres</font></td>
+       <th bgcolor="ivory"><font face="trebuchet MS, Arial, sans serif">area</font></th>
+      </tr>
+
+      <tr>
+       <td><font face="trebuchet MS, Arial, sans serif"><input type=text size=10 value=1 onChange="a_to_b(24,25,0.002205,1)"> gm (gram)
+       <th bgcolor="gold"><font face="trebuchet MS, Arial, sans serif">x 0.002205 =<br>= 453.59 x
+       <td><font face="trebuchet MS, Arial, sans serif"><input type=text size=10 value=0.002205 onChange="a_to_b(25,24,453.59,0.002205)"> lb (pound avdp)
+       <th bgcolor="ivory"><font face="trebuchet MS, Arial, sans serif">mass
+      </tr>
+
+      <tr>
+       <td><font face="trebuchet MS, Arial, sans serif"><input type=text size=10 value=1 onChange="a_to_b(26,27,0.2641794,1)"> l (liter)</font></td>
+       <th bgcolor="gold"><font face="trebuchet MS, Arial, sans serif">x 0.2641794 =<br>= 3.785306 x</font></th>
+       <td><font face="trebuchet MS, Arial, sans serif"><input type=text size=10 value=0.2641794 onChange="a_to_b(27,26,1/0.2641794,0.2641794)"> gal (U.S. liquid gallon)</font></td>
+       <th bgcolor="ivory"><font face="trebuchet MS, Arial, sans serif">volume</font></th>
+
+      </tr>
+      <tr>
+       <td><font face="trebuchet MS, Arial, sans serif"><input type=text size=10 value=1 onChange="a_to_b(28,29,0.893,1)"> kg ha<sup>-1</sup></font></td>
+       <th bgcolor="gold"><font face="trebuchet MS, Arial, sans serif">x 0.893 =<br>= 1.1198 x</font></th>
+       <td><font face="trebuchet MS, Arial, sans serif"><input type=text size=10 value=0.893 onChange="a_to_b(29,28,1/0.893,0.893)"> lb ac<sup>-1</sup></font></td>
+
+       <th bgcolor="ivory"><font face="trebuchet MS, Arial, sans serif">mass per area<br>(pressure)</font></th>
+      </tr>
+      <tr>
+       <td><font face="trebuchet MS, Arial, sans serif"><input type=text size=10 value=1 onChange="a_to_b(30,31,0.0004461,1)"> kg ha<sup>-1</sup></font></td>
+       <th bgcolor="gold"><font face="trebuchet MS, Arial, sans serif">x 0.0004461 =<br>= 2241.7 x</font></th>
+       <td><font face="trebuchet MS, Arial, sans serif"><input type=text size=10 value=0.0004461 onChange="a_to_b(31,30,1/0.0004461,0.0004461)"> t ac<sup>-1</sup></font></td>
+
+       <th bgcolor="ivory"><font face="trebuchet MS, Arial, sans serif">mass per area<br>(pressure)</font></th>
+      </tr>
+      <tr>
+       <td><font face="trebuchet MS, Arial, sans serif"><input type=text size=10 value=1 onChange="a_to_b(32,33,0.20482,1)"> kg m<sup>-2</sup></font></td>
+       <th bgcolor="gold"><font face="trebuchet MS, Arial, sans serif">x 0.20482 =<br>= 4.8824 x</font></th>
+       <td><font face="trebuchet MS, Arial, sans serif"><input type=text size=10 value=0.20482 onChange="a_to_b(33,32,1/0.20482,0.20482)"> lb ft<sup>-2</sup> (psf)</font></td>
+
+       <th bgcolor="ivory"><font face="trebuchet MS, Arial, sans serif">mass per area<br>(pressure)</font></th>
+      </tr>
+
+      <tr>
+       <td><font face="trebuchet MS, Arial, sans serif"><input type=text size=10 value=1 onChange="a_to_b(34,35,62.428,1)"> g cm<sup>-3</sup></font></td>
+       <th bgcolor="gold"><font face="trebuchet MS, Arial, sans serif">x 62.428 =<br>= 0.01602 x</font></th>
+       <td><font face="trebuchet MS, Arial, sans serif"><input type=text size=10 value=62.428 onChange="a_to_b(35,34,1/62.428,62.428)"> lb ft<sup>-3</sup> (pcf)</font></td>
+
+       <th bgcolor="ivory"><font face="trebuchet MS, Arial, sans serif">mass per volume</font></th>
+      </tr>
+      <tr>
+       <td><font face="trebuchet MS, Arial, sans serif"><input type=text size=10 value=1 onChange="a_to_b(36,37,0.01133,1)"> kg ha<sup>-1</sup> mm<sup>-1</sup></font></td>
+       <th bgcolor="gold"><font face="trebuchet MS, Arial, sans serif">x 0.01133 =<br>= 88.256 x</font></th>
+
+       <td><font face="trebuchet MS, Arial, sans serif"><input type=text size=10 value=0.01133 onChange="a_to_b(37,36,1/0.01133,0.01133)"> t ac<sup>-1</sup> in<sup>-1</sup></font></td>
+       <th bgcolor="ivory"><font face="trebuchet MS, Arial, sans serif">mass per volume</font></th>
+      </tr>
+      <tr>
+       <td><font face="trebuchet MS, Arial, sans serif"><input type=text size=10 value=1 onChange="a_to_b(38,39,0.03937,1)"> mm hr<sup>-1</sup></font></td>
+
+       <th bgcolor="gold"><font face="trebuchet MS, Arial, sans serif">x 0.03937 =<br><font color="red">= 25.4 x</font></font></th>
+       <td><font face="trebuchet MS, Arial, sans serif"><input type=text size=10 value=0.03937 onChange="a_to_b(39,38,25.4,0.03937007874016)"> in hr<sup>-1</sup></font></td>
+       <th bgcolor="ivory"><font face="trebuchet MS, Arial, sans serif">length per time</font></th>
+      </tr>
+     </table>
+    </form>
+
+   </font>
+  </center>
+  <p>
+   <font face="trebuchet MS, Arial, sans serif">
+    <font color="red">Red color</font> indicates exact conversion rate.<br>
+     <b>USDA Forest Service, Rocky Mountain Research Station, Moscow, ID 83843</b><br>
+     July 22, 2004
+    </font>
+   </font> 
+ </body>
+</html>

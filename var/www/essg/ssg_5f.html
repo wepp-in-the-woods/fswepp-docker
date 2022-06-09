@@ -1,0 +1,607 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+ <head>
+  <title>SSG Section 5F: Soil Slopes - Level III Stability Analysis</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <!--
+    Hall, D.E.; Long, M.T.; Remboldt, M.D., editors. 1994.
+    Slope Stability Reference Guide for National Forests in the United States.
+    Prellwitz, R.W.; Koler, T.E.; Steward, J.E., coordinators.
+    Publication EM-7170-13.
+    Washington, DC: U.S. Department of Agriculture, U.S. Forest Service, Engineering Staff. 
+    3 volumes, 1091 p.
+    Corrected [2006] electronic version at http://forest.moscowfsl.wsu.edu/ssg/
+  -->
+  <style type="text/css">
+   <!--
+A{color:#0000CC; font-family:Verdana, Arial, Helvetica, sans-serif;} A:hover{color:#ff00cc;} A:visited{color:#660099;} A:visited:hover{color:#ff00cc;} 
+p, ul, ol, blockquote {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11pt}
+P.indent {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11pt; margin-left: 20px}
+.active {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11pt; color:#666666;}
+.fig {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9pt;}
+.shead {  font-family: trebuchet MS, verdana, arial, helvetica, sans-serif; font-size: 12pt; font-weight: bold}
+.head {  font-family: trebuchet MS, verdana, arial, helvetica, sans-serif; font-size: 20pt; font-weight: bold}
+.headssg {  font-family: trebuchet MS, verdana, arial, helvetica, sans-serif; font-size: 14pt; font-weight: bold}
+.symb {  font-family: symbol; font-size: 11pt; font-weight: bold;}
+BR.pageEnd {page-break-after:always;}
+.text {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11pt; text-indent: 40px;}
+.smtext { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt}
+.vari {  font-family: "Times New Roman", Times, serif; font-size: 11pt; font-style: italic; font-weight: bold}
+.figSymb { font-family: symbol; font-size: 9pt; font-style: italic }
+.figVari {  font-family: "Times New Roman", Times, serif; font-size: 9pt; font-style: italic; font-weight: bold}
+.eq_label { font-family: verdana, Helvetica, sans-serif; font-size: 11pt; text-align: right;}
+.underline {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11pt; text-decoration: underline}
+   -->
+  </style>
+  <script language="javascript" type="text/javascript">
+   <!--
+   function workWindow(theURL,winName,features) {
+     window.open(theURL,winName,features);
+   }
+   //-->
+  </script>
+ </head>
+
+ <body bgcolor="#FFFFFF" link="#3333FF" vlink="#990099">
+  <!-- BEGIN TOP NAVIGATION --> 
+  
+  <table width="635" border="1" cellspacing="0" cellpadding="8" bgcolor="#CCCC99">
+   <tr>
+    <td> 
+      <p align="center">
+       <font face="Arial, Helvetica, sans-serif" size="2">
+        [ <a href="index.html">Slope Stability Reference Guide Home</a> ]<br>
+        [ <a href="ssg_5toc.html">Section 5 TOC</a> ]<br>
+        [ &lt; <a href="ssg_5e.html">Section 5E </a> ]
+        [ <a href="ssg_5g.html">Section 5G </a> &gt; ]
+       </font>
+      </p>
+    </td>
+   </tr>
+  </table>
+<!-- END TOP NAVIGATION -->
+
+  
+<table width="635" border="0" cellspacing="2" cellpadding="2">
+  <tr> 
+    <td colspan="9" align="center" valign="top"> <font face="Arial, Helvetica, sans-serif" size="3"> 
+      <b>Slope Stability Reference Guide for National Forests in the United States 
+      <br>
+      Volume II, Chapter 5, Section F</b></font> <hr> </td>
+  </tr>
+  <tr> 
+    <td width="490" valign="top" height="44" colspan="5"> <div align="right"><strong><font face="Arial, Helvetica, sans-serif" size="4">5F.</font></strong></div></td>
+    <td valign="top" colspan="4" height="44"> <p><strong><font face="Arial, Helvetica, sans-serif" size="4"> 
+        Soil Slopes -- Level III Stability Analysis</font></strong></p></td>
+  </tr>
+  <tr> 
+    <td colspan="9"> <hr> </td>
+  </tr>
+  <tr> 
+    <td width="490" valign="top" height="29" colspan="5"><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+    <td class="fig" valign="top" colspan="4" height="29"> <p><font face="Arial, Helvetica, sans-serif" size="2"><i>Rodney 
+        W. Prellwitz, Geotechnical Engineer, Intermountain Research Station</i></font></p></td>
+  </tr>
+  <tr> 
+    <td colspan="9"> <hr> </td>
+  </tr>
+  <tr> 
+    <td  valign="top" rowspan="3" colspan="5"><font face="Arial, Helvetica, sans-serif" size="3"><a name="5F.1"></a><strong>5F.1 
+      Introduction </strong></font><strong><font face="Arial, Helvetica, sans-serif">&nbsp;</font></strong></td>
+    <td valign="top" colspan="4" rowspan="3"> <p><font face="Arial, Helvetica, sans-serif" size="2">A 
+        level III stability analysis is used for analyzing the stability of a 
+        specific site and to support the selection of a stabilization measure 
+        for that site. Various stabilization alternatives can be contrasted by 
+        this method by comparing the relative increase in stability over the unstabilized 
+        case. This comparison, in conjunction with the relative costs and risks 
+        of the alternatives, is the basis for the decision of what, if anything, 
+        to do to stabilize the site. This technique will be covered thoroughly 
+        in section <a href="ssg_6i.html">6I</a>. The method of analysis is by 
+        method of slices. These analysis methods are more complicated than those 
+        used in levels I and II because more detail must be considered for the 
+        proper evaluation of the stabilization measures. Section <a href="ssg_5a.html">5A</a> 
+        includes the derivation and comparison of the ordinary (Fellenius) method 
+        of slices, the simplified Bishop's method of slices, and the simplified 
+        Janbu's method of slices. In this section, the emphasis will be on manual 
+        computations by these three methods. The ordinary method of slices is 
+        used only to provide an initial factor of safety estimate for the other 
+        two methods. XSTABL (1992) is recommended for general use at this level. 
+        This program uses the simplified Bishop's and Janbu's methods. The sample 
+        problem hand-calculated in this subsection is correlated to the solution 
+        using this program. The user is referred to the excellent user's guide 
+        (Sharma, 1990) and companion technical manual (Sharma, 1992) for XSTABL 
+        for detailed background information.</font></p>
+      <font size="2" face="Arial, Helvetica, sans-serif">A version of XSTABL that 
+      will allow the user to do detailed interslice-force analysis using either 
+      Spencer's method of slices (Spencer, 1967) or Janbu's rigorous methods of 
+      slices (Janbu, 1973) is under development. This program will use an XSTABL 
+      data file of slice forces for a critical failure surface created through 
+      initial search by the simplified Bishop's or simplified Janbu's method.</font></td>
+  </tr>
+  <tr> </tr>
+  <tr> </tr>
+  <tr> 
+    <td  valign="top"  colspan="5"> <hr> </td>
+    <td valign="top"  colspan="4"><hr></td>
+  </tr>
+  <tr> 
+    <td valign="top" height="1" colspan="5"><font face="Arial, Helvetica, sans-serif" size="3"><strong><a name="5F.2"></a>5F.2 
+      Reiteration for Hand-Calculation</strong></font><strong><font face="Arial, Helvetica, sans-serif">&nbsp;&nbsp;</font></strong><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;&nbsp;</font></td>
+    <td valign="top"  colspan="4"> <p><font size="2" face="Arial, Helvetica, sans-serif">Both 
+        the simplified Bishop's and Janbu's methods of slices require an iterative 
+        solution (i.e., start with an estimated factor of safety value, use it 
+        to calculate an approximate factor of safety, use the approximate factor 
+        of safety to calculate a new factor of safety, and so on until two successive 
+        calculated factors of safety are the same). The analysis converges rapidly 
+        and takes very little time on a computer, but it can be quite time consuming 
+        by hand-calculation for several trials. The number of trials required 
+        by either method is reduced in the manual computation procedure used in 
+        this section using an analysis patterned after the algorithm illustrated 
+        by Lambe and Whitman (1969) which assumes a linear relationship between 
+        the calculated and assumed values for only two trials and interpolates 
+        to estimate where the two values are equal. This can be done graphically 
+        as illustrated in <a href="#Fig_5F.1">figure 5F.1</a> or by the following 
+        equation:</font></p></td>
+  </tr>
+  <tr> 
+    <td  valign="top" height="5" colspan="5">&nbsp;</td>
+    <td valign="top"  colspan="4"><table width="75%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td rowspan="2" width="13%"> <div align="right"><font face="Arial, Helvetica, sans-serif" size="2"><span class="vari">Y</span><sub></sub><sub>3</sub> 
+              &asymp;</font></div></td>
+          <td height="23" width="42%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><u>(</u><span class="vari"><u>X</u></span><sub>2</sub><u> 
+              - </u><span class="vari"><u>X</u></span><sub>1</sub><u>)</u><span class="vari"><u>Y</u></span><sub>1</sub><u> 
+              - (</u><span class="vari"><u>Y</u></span><sub>2</sub><u> - </u><span class="vari"><u>Y</u></span><sub>1</sub><u>)</u><span class="vari"><u>X</u></span><sub>1</sub></font></div></td>
+          <td rowspan="2" width="45%"> <div align="right"><font face="Arial, Helvetica, sans-serif" size="2">(5F.1)</font></div></td>
+        </tr>
+        <tr> 
+          <td width="42%"> <div align="center"><font face="Arial, Helvetica, sans-serif" size="2">(<span class="vari">X</span><sub>2</sub> 
+              - <span class="vari">X</span><sub>1</sub>) - (<span class="vari">Y</span><sub>2</sub> 
+              - <span class="vari">Y</span><sub></sub><sub>1</sub>)</font></div></td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr> 
+    <td  valign="top" height="12" colspan="5">&nbsp;</td>
+    <td valign="top"  colspan="4"><p align="left"><font face="Arial, Helvetica, sans-serif" size="2">where:</font></p>
+      <blockquote> 
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><span class="vari">Y</span><sub></sub><sub>3</sub> 
+          = <span class="vari">F</span> where calculated <span class="vari">F</span> 
+          &asymp;assumed<i> </i><span class="vari">F</span></font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><span class="vari">X</span><sub>1</sub>, 
+          <span class="vari">Y</span><sub></sub><sub>1</sub> = minimum assumed 
+          <span class="vari">F</span> and resulting calculated <span class="vari">F</span></font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><span class="vari">X</span><sub>2</sub>, 
+          <span class="vari">Y</span><sub></sub><sub>2</sub> = maximum assumed 
+          <span class="vari">F</span> and resulting calculated <span class="vari">F</span></font></p>
+      </blockquote></td>
+  </tr>
+  <tr> 
+    <td  valign="top" height="25" colspan="5">&nbsp;</td>
+    <td valign="top" bgcolor="#CCCC99" colspan="4" height="270"> <div align="center"> 
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><a name="Fig_5F.1"></a><img src="images/5/5f_f01.gif" width="377" height="234"></font></p>
+        <p><font size="2" face="Arial, Helvetica, sans-serif"><i>Figure 5F.1.-Interpolation 
+          for estimating where calculated &asymp; assumed F.</i></font></p>
+      </div></td>
+  </tr>
+  <tr> 
+    <td  valign="top"  colspan="5">&nbsp;</td>
+    <td valign="top" bgcolor="#FFFFFF" colspan="4"> <p><font face="Arial, Helvetica, sans-serif" size="2">Because 
+        the results of the ordinary method of slices (OMS) usually is conservative 
+        by 10 percent or so compared to the results of either of the other two 
+        methods, the method used in this section uses:</font></p></td>
+  </tr>
+  <tr> 
+    <td valign="top"  colspan="5">&nbsp;</td>
+    <td valign="top" bgcolor="#FFFFFF" height="23" colspan="4"><blockquote> 
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><span class="vari">X</span><sub>1</sub> 
+          = Minimum assumed <span class="vari">F</span> = OMS <span class="vari">F</span>(rounded 
+          to nearest 0.10)</font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><span class="vari">X</span><sub>2</sub> 
+          = Maximum assumed <span class="vari">F</span> = X<sub>1</sub> + 0.20</font></p>
+      </blockquote></td>
+  </tr>
+  <tr> 
+    <td  valign="top"  colspan="5">&nbsp;</td>
+    <td valign="top" bgcolor="#FFFFFF" height="23" colspan="4"><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font><font face="Arial, Helvetica, sans-serif" size="2">The 
+      results of this analysis are usually sufficiently accurate to yield a calculated 
+      <span class="vari">F</span><i> </i>approximately equal to the assumed<i> 
+      F</i> rounded to the nearest 0.01. To check, a third trial may be used with 
+      the assumed <span class="vari">F</span> equal to <span class="vari">F</span> 
+      as estimated from the interpolation. Accuracy within 0.01 is sufficient 
+      for hand-calculation and usually matches or exceeds the accuracy of the 
+      parametric values.</font><font face="Arial, Helvetica, sans-serif" size="2">&nbsp;</font></td>
+  </tr>
+  <tr> 
+    <td  valign="top"  colspan="5"><hr></td>
+    <td valign="top" bgcolor="#FFFFFF" height="23" colspan="4"><hr></td>
+  </tr>
+  <tr> 
+    <td rowspan="7" colspan="5" valign="top"><font size="2" face="Arial, Helvetica, sans-serif"><b><b><font size="3"><a name="5F.3"></a></font></b><font size="3">5F.3 
+      Spreadsheet Forms for Hand-Calculation</font></b></font><font face="Arial, Helvetica, sans-serif">&nbsp;</font> 
+      <p align="left"><font face="Arial, Helvetica, sans-serif"></font></p>
+      <font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font> 
+    </td>
+    <td valign="top" colspan="4" rowspan="2"> <p><font face="Arial, Helvetica, sans-serif" size="2">Figures 
+        <a href="#Fig_5F.2">5F.2</a> through <a href="#Fig_5F.4">5F.4</a> are 
+        spreadsheet forms for hand-calculation by the three methods of slices. 
+        The algorithms are consistent with equations <a href="ssg_5a.html#Eq_5A4">5A.4</a>, 
+        <a href="ssg_5a.html#Eq_5A9">5A.9</a>, and <a href="ssg_5a.html#Eq_5A11">5A.11</a> 
+        as modified to include hydrostatic water force in a tension crack. They 
+        have been rearranged slightly for ease in hand-calculation by all three 
+        methods. For simplicity, at most three soils (two if the weight for one 
+        is to be calculated using either a moist or saturated unit weight) and 
+        20 slices can be analyzed using these forms. Pore pressure is computed 
+        using a "phreatic" water surface as the spreadsheet computations are directed 
+        on the form. If a "piezometric" water surface is to be used, either the 
+        Cos<sup>2</sup>&alpha;<sub>w</sub> term must be eliminated or &alpha;<sub>w</sub> 
+        must be set to zero. Janbu's &fnof;<sub>o</sub> coefficient is computed 
+        from equation 5A.10. The simplified Bishop's and/or Janbu's iteration 
+        to find calculated <span class="vari">F</span> &asymp; assumed <span class="vari">F</span> 
+        is done graphically in accordance with <a href="#Fig_5F.1">figure 5F.1</a>.</font></p></td>
+  </tr>
+  <tr> </tr>
+  <tr> 
+    <td valign="top" colspan="4" rowspan="2" bgcolor="#CCCC99"> <p align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a name="Fig_5F.2"></a><a href="images/5/5f_f02.gif" target="_blank"><img src="images/5/5f_f02.gif" width="240" height="278" border="1"></a></font></p>
+      <p align="center"><font face="Arial, Helvetica, sans-serif" size="2"><i>Figure 
+        5F.2.-Spreadsheet 1 of 3 for methods of slices hand calculations.</i></font></p></td>
+  </tr>
+  <tr> </tr>
+  <tr> 
+    <td valign="top" colspan="4"  bgcolor="#CCCC99"> <div align="center"> 
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><a name="Fig_5F.3"></a><a href="images/5/5f_f03.gif" target="_blank"><img src="images/5/5f_f03.gif" width="253" height="329" border="1"></a></font></p>
+        <p><font size="2" face="Arial, Helvetica, sans-serif"><i>Figure 5F.3.-Spreadsheet 
+          2 of 3 for methods of slices hand calculations.</i></font></p>
+      </div></td>
+  </tr>
+  <tr> 
+    <td valign="top" colspan="4" bgcolor="#CCCC99" height="382" rowspan="2"> <div align="center"> 
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><a name="Fig_5F.4"></a><a href="images/5/5f_f04.gif" target="_blank"><img src="images/5/5f_f04.gif" width="269" height="338" border="1"></a></font></p>
+        <p><font size="2" face="Arial, Helvetica, sans-serif"><i>Figure 5F.4.-Spreadsheet 
+          3 of 3 for methods of slices hand calculations.</i></font></p>
+      </div></td>
+  </tr>
+  <tr> </tr>
+  <tr> 
+    <td  colspan="5" valign="top"><hr></td>
+    <td valign="top" colspan="4" bgcolor="#FFFFFF" height="23"><hr></td>
+  </tr>
+  <tr> 
+    <td  colspan="5" valign="top"><font size="2" face="Arial, Helvetica, sans-serif"><b><b><font size="3"><a name="5F.4"></a></font></b><font size="3">5F.4 
+      Hand-Calculation Sample Problem and Correlation to XSTABL Results</font></b></font><font size="2" face="Arial, Helvetica, sans-serif">&nbsp;</font> 
+      <font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font><font face="Arial, Helvetica, sans-serif">&nbsp;</font> 
+    </td>
+    <td valign="top" colspan="4" bgcolor="#FFFFFF" height="69"> <div align="left"><font face="Arial, Helvetica, sans-serif" size="2">The 
+        critical circle as defined by XSTABL for the 1.5:1 fill slope of problem 
+        <a href="ssg_5c.html#Problem_11">5C.11.C</a> will be used as a sample 
+        problem to demonstrate hand-calculation and to provide a correlation to 
+        the output file of XSTABL. The maximum segment length was increased to 
+        10 feet to reduce the number of slices necessary for hand-calculation, 
+        and XSTABL was rerun for this critical circle. Figure <a href="#Fig_5F.5">5F.5</a> 
+        is the input file and figure <a href="#Fig_5F.6">5F.6</a> is the plot 
+        of the results using the simplified Bishop's method. Figure <a href="#Fig_5F.7">5F.7</a> 
+        is a plot of the results using the simplified Janbu's method. Figure <a href="#Fig_5F.8">5F.8</a> 
+        is a portion of the output file for the simplified Bishop's analysis which 
+        summarizes the individual slice data, the modified Bishop factor of safety, 
+        and the resisting and driving moments. Also at the bottom of figure 5F.8 
+        is the portion of the output file for the simplified Janbu analysis which 
+        summarizes the corrected Janbu factor of safety, Janbu's &fnof;<sub>o</sub> 
+        factor, and the resisting shear strength and total driving shear force. 
+        The following will demonstrate how these data compare to similar data 
+        from hand-analysis. Figure <a href="#Fig_5F.9">5F.9</a> is a plot of the 
+        slice geometry as defined on figure 5F.8 for use in scaling dimensions 
+        and slopes for hand-calculation. Figures <a href="#Fig_5F.10">5F.10</a> 
+        through <a href="#Fig_5F.12">5F.12</a> are the spreadsheet hand-calculations 
+        for this problem.</font></div></td>
+  </tr>
+  <tr> 
+    <td height="-2" colspan="5" valign="top">&nbsp;</td>
+    <td valign="top" colspan="4"  bgcolor="#CCCC99"> <p align="center"> <font face="Arial, Helvetica, sans-serif" size="2"><a name="Fig_5F.5"></a><img src="images/5/5f_f05.gif" width="529" height="320"></font></p>
+      <p align="center"><font face="Arial, Helvetica, sans-serif" size="2"><i>Figure 
+        5F.5.-XSTABL input file for the critical circle of problem <a href="ssg_5c.html#Problem_11">5C.11</a> 
+        using the simplified Bishop's method of slices.</i></font></p></td>
+  </tr>
+  <tr> 
+    <td  colspan="5" valign="top">&nbsp;</td>
+    <td valign="top" colspan="4" bgcolor="#CCCC99" > <div align="center"> 
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><a name="Fig_5F.6"></a><img src="images/5/5f_f06.gif" width="482" height="351"></font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><i>Figure 5F.6.-XSTABL 
+          plot for the critical circle of problem <a href="ssg_5c.html#Problem_11">5C.11</a> 
+          using the simplified Bishop's method of slices.</i></font></p>
+      </div></td>
+  </tr>
+  <tr> 
+    <td height="-2" colspan="5" valign="top">&nbsp;</td>
+    <td valign="top" colspan="4" bgcolor="#CCCC99"> <div align="center"> 
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><a name="Fig_5F.7"></a><a href="images/5/5f_f08.gif" target="_blank"><img src="images/5/5f_f07.gif" width="497" height="337" border="1"></a></font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><i>Figure 5F.7.-XSTABL 
+          plot of the critical circle of problem <a href="ssg_5c.html#Problem_11">5C.11</a> 
+          using the simplified Janbu's method of slices.</i></font></p>
+        <p><i><font face="Arial, Helvetica, sans-serif" size="2">(Click on the 
+          picture to access <a name="Fig_5F.8"></a><i>Figure 5F.8.-Portions of 
+          the XSTABL output files for the critical circle of problem <a href="ssg_5c.html#Problem_11">5C.11</a>.</i>)</font></i></p>
+      </div></td>
+  </tr>
+  <tr> 
+    <td height="-2" colspan="5" valign="top">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td height="-1" colspan="5" valign="top">&nbsp;</td>
+    <td  valign="top" colspan="4" bgcolor="#CCCC99"> <div align="center"> 
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><a name="Fig_5F.9"></a><a href="images/5/5f_f09.gif" target="_blank"><img src="images/5/5f_f09.gif" width="360" height="226" border="1"></a></font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><i>Figure 5F.9.-Slice 
+          geometry for the critical circle of problem <a href="ssg_5c.html#Problem_11">5C.11</a> 
+          as used to measure dimensions and slopes for hand-calculation.</i></font></p>
+      </div></td>
+  </tr>
+  <tr> 
+    <td height="-1" colspan="5" valign="top">&nbsp;</td>
+    <td  valign="top" colspan="4" bgcolor="#CCCC99"> <div align="center"> 
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><a name="Fig_5F.10"></a></font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><a href="images/5/5f_f10.gif" target="_blank"><img src="images/5/5f_f10.gif" width="410" height="299" border="1"></a></font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><i>Figure 5F.10.-Spreadsheet 
+          1 of hand-calculations for the critical circle of problem <a href="ssg_5c.html#Problem_11">5C.11</a>.</i></font></p>
+      </div></td>
+  </tr>
+  <tr> 
+    <td height="0" colspan="5" valign="top">&nbsp;</td>
+    <td  valign="top" colspan="4" bgcolor="#CCCC99"> <div align="center"> 
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><a name="Fig_5F.11"></a><a href="images/5/5f_f11.gif" target="_blank"><img src="images/5/5f_f11.gif" width="385" height="286" border="1"></a></font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><i>Figure 5F.11.-Spreadsheet 
+          2 of hand-calculations for the critical circle of problem <a href="ssg_5c.html#Problem_11">5C.11</a>.</i></font></p>
+      </div></td>
+  </tr>
+  <tr> 
+    <td height="2" colspan="5" valign="top">&nbsp;</td>
+    <td  valign="top" colspan="4" bgcolor="#CCCC99" height="376"> <div align="center"> 
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><a name="Fig_5F.12"></a><a href="images/5/5f_f12.gif" target="_blank"><img src="images/5/5f_f12.gif" width="424" height="334" border="1"></a></font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><i>Figure 5F.12.-Spreadsheet 
+          3 of hand-calculations for the critical circle of problem 5C.11.</i></font></p>
+      </div></td>
+  </tr>
+  <tr> 
+    <td  colspan="5" valign="top">&nbsp;</td>
+    <td  valign="top" colspan="4"><font face="Arial, Helvetica, sans-serif" size="2">The 
+      effective normal pressure acting on the base of the slice, sigma (&sigma;'), 
+      reported by XSTABL (see <a href="#Fig_5F.8">figure 5F.8</a>) was not defined 
+      in section <a href="ssg_5a.html">5A</a> and does not appear on the hand-calculation 
+      spreadsheet. Sharma (1992) defined &sigma;' as:</font></td>
+  </tr>
+  <tr> 
+    <td  colspan="5" valign="top">&nbsp;</td>
+    <td  valign="top"><font face="Arial, Helvetica, sans-serif" size="2"><i>&sigma;</i><span class="vari">'</span><i> 
+      </i>= &Delta;<span class="vari">N</span><span class="vari">'</span>/<span class="vari">L</span> 
+      = <i>b</i>&Delta;<span class="vari">N'</span><i>/</i>cos&alpha; </font></td>
+    <td  valign="top" colspan="3"><font face="Arial, Helvetica, sans-serif" size="2">(5F.2)</font></td>
+  </tr>
+  <tr> 
+    <td colspan="5" valign="top">&nbsp;</td>
+    <td  valign="top"><font face="Arial, Helvetica, sans-serif" size="2">&Delta;<span class="vari">N</span><span class="vari">'</span>= 
+      1/<i>m</i><sub>&alpha;</sub>[&Delta;<i>W</i> - &Delta;<span class="vari">U</span><sub>&alpha;cos&alpha;</sub> 
+      - (&Delta;<span class="vari">C</span>sin&alpha;/<span class="vari">F</span>)]</font></td>
+    <td  valign="top" colspan="3"><font face="Arial, Helvetica, sans-serif" size="2">(5F.3)</font></td>
+  </tr>
+  <tr> 
+    <td  colspan="5" valign="top">&nbsp;</td>
+    <td  valign="top"><font face="Arial, Helvetica, sans-serif" size="2"><i>m</i> 
+      <sub>&alpha;</sub> = cos&alpha;[1 + (tan&alpha; tan&phi;/<span class="vari">F</span>)]</font></td>
+    <td  valign="top" colspan="3"><font face="Arial, Helvetica, sans-serif" size="2">(5F.4)</font></td>
+  </tr>
+  <tr> 
+    <td  colspan="5" valign="top">&nbsp;</td>
+    <td  valign="top" colspan="4"><font face="Arial, Helvetica, sans-serif" size="2">where 
+      &Delta;<span class="vari">N'</span><i> </i>is the effective normal force 
+      (refer to the illustration and section <a href="ssg_5a.html#5A.8">5A.8</a>).</font></td>
+  </tr>
+  <tr> 
+    <td colspan="5" valign="top">&nbsp;</td>
+    <td  valign="top" colspan="4" bgcolor="#FFFFFF" height="230"> <div align="center"><img src="images/5/5f_p658a.gif" ></div></td>
+  </tr>
+  <tr> 
+    <td colspan="5" valign="top"><hr></td>
+    <td  valign="top" colspan="4" bgcolor="#FFFFFF" height="23"><hr></td>
+  </tr>
+  <tr> 
+    <td  valign="top" colspan="5"  rowspan="12"><font size="3" face="Arial, Helvetica, sans-serif"><strong>5F.5 
+      </strong></font><strong><font size="2" face="Arial, Helvetica, sans-serif"><font size="3"><a name="5F.5"></a></font></font><font size="3" face="Arial, Helvetica, sans-serif"> 
+      Comparison of Results of Hand-Calculation to XSTABL</font><font face="Arial, Helvetica, sans-serif">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></strong><font face="Arial, Helvetica, sans-serif">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> 
+    </td>
+    <td  valign="top" colspan="4" height="68"><font face="Arial, Helvetica, sans-serif" size="2">Table 
+      <a href="#Table_5F.1">5F.1</a> shows a comparison of the individual slice 
+      data from the hand-calculation Bishop analysis to the data as summarized 
+      on figure <a href="#Fig_5F.8">5F.8</a> for the XSTABL analyses, demonstrating 
+      the utility of a computer program like XSTABL that allows the user this 
+      indepth comparison and a better understanding of the program operation.</font></td>
+  </tr>
+  <tr> 
+    <td  valign="top" colspan="4" bgcolor="#CCCC99" height="347"> <div align="center"> 
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><a name="Table_5F.1"></a><a href="images/5/5f_t01.gif" target="_blank"><img src="images/5/5f_t01.gif" width="301" height="279" border="1"></a></font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><i>Table 5F.1 - 
+          Comparison of hand-calculated analysis results to those of XSTABL for 
+          the individual slice data of figure <a href="#Fig_5F.8">5F.8</a></i></font></p>
+      </div></td>
+  </tr>
+  <tr> 
+    <td  valign="top" colspan="4" rowspan="10"> <p><font face="Arial, Helvetica, sans-serif" size="2">* 
+        <span class="vari">M</span><sub>&alpha;</sub> is given in equation 5F.4 
+        </font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">&Delta;<span class="vari">N</span><span class="vari">'</span> 
+        is given in equation 5F.3 </font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">&sigma;<span class="vari">'</span> 
+        is given in equation 5F.2 </font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">A similar table could 
+        have been developed for the individual slice data from the simplified 
+        Janbu's analysis; however, only factor "sigma" (&sigma;') is different 
+        between the XSTABL output files for individual slice data for the simplified 
+        Bishop's and Janbu's analyses. Sigma differs between the two analyses 
+        because m<sub>&alpha;</sub> and &Delta;<span class="vari">N</span><span class="vari">'</span> 
+        used in the calculation are a function of <span class="vari">F</span> 
+        which differs between the two methods.</font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">A comparison (hand-calculation 
+        results to those of XSTABL) of the factors of safety and the resisting 
+        and driving forces and/or moments for the two analysis methods shows:</font> 
+      </p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">Simplified Bishop's 
+        Method of Slices</font></p>
+      <blockquote> 
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><u>Factor of Safety</u></font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2">By hand-calculation, 
+          <i>F</i> = 0.96</font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2">From XSTABL, <i>F</i> 
+          = 0.961</font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><u>Resisting Moment</u></font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2">By hand, (<a href="#Fig_5F.12">figure 
+          5F.12</a>, interpolated for F = 0.96)</font></p>
+        <blockquote> 
+          <p><font face="Arial, Helvetica, sans-serif" size="2"> resisting force 
+            = 16,760 ppf</font><font face="Arial, Helvetica, sans-serif" size="2"><BR>
+            circle radius = 57.59 ft</font><font face="Arial, Helvetica, sans-serif" size="2"><BR>
+            resisting moment = 16,760 x 57.59 = 965,000 fppf</font></p>
+        </blockquote>
+        <p><font face="Arial, Helvetica, sans-serif" size="2">From XSTABL (<a href="#Fig_5F.8">figure 
+          5F.8</a>), resisting moment = 966,950 fppf</font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><u>Driving Moment</u></font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2">By hand, driving 
+          force (<a href="#Fig_5F.12">figure 5F.12</a>) = 17,515 ppf</font></p>
+        <blockquote> 
+          <p><font face="Arial, Helvetica, sans-serif" size="2">driving moment 
+            = 17,515 x 57.59 = 1,009,000 fppf</font></p>
+        </blockquote>
+        <p><font face="Arial, Helvetica, sans-serif" size="2">From XSTABL (<a href="#Fig_5F.8">figure 
+          5F.8</a>), driving moment = 1,006,300 fppf</font></p>
+      </blockquote>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">Simplified Janbu's 
+        Method of Slices</font></p>
+      <blockquote> 
+        <p><font size="2" face="Arial, Helvetica, sans-serif"><u>Factor of Safety</u></font></p>
+        <p><font size="2" face="Arial, Helvetica, sans-serif">By hand (figures 
+          <a href="#Fig_5F.11">5F.11</a> and <a href="#Fig_5F.12">5F.12</a>),&fnof;<sub>o</sub> 
+          = 1.054 and corrected <i>F</i> = 0.95</font></p>
+        <p><font size="2" face="Arial, Helvetica, sans-serif">From XSTABL (<a href="#Fig_5F.8">figure 
+          5F.8</a>), &fnof;<sub>o</sub> = 1.054 and corrected <i>F</i> = 0.946</font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><u>Driving Forces</u></font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2">By hand (<a href="#Fig_5F.12">figure 
+          5F.12</a> for uncorrected F = 0.90),</font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2">driving forces = 
+          19,868 ppf</font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2">From XSTABL (<a href="#Fig_5F.8">figure 
+          5F.8</a>), driving forces = 19,856 ppf</font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><u>Resisting Forces</u></font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2">By hand (<a href="#Fig_5F.12">figure 
+          5.12</a>), resisting forces = 22,179 ppf</font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2">From XSTABL (<a href="#Fig_5F.8">figure 
+          5F.8</a>), resisting forces = 22,108 ppf</font></p>
+      </blockquote></td>
+  </tr>
+  <tr> </tr>
+  <tr> </tr>
+  <tr> </tr>
+  <tr> </tr>
+  <tr> </tr>
+  <tr> </tr>
+  <tr> </tr>
+  <tr> </tr>
+  <tr> </tr>
+  <tr> 
+    <td  valign="top" colspan="5"><hr></td>
+    <td  valign="top" colspan="4"><hr></td>
+  </tr>
+  <tr> 
+    <td  valign="top" colspan="5" rowspan="8"><font size="2" face="Arial, Helvetica, sans-serif"><b><font size="3"><strong><a name="5F.6"></a></strong></font></b></font><strong><font face="Arial, Helvetica, sans-serif" size="3">5F.6 
+      Seismic Loading</font><font face="Arial, Helvetica, sans-serif">&nbsp;&nbsp;&nbsp;&nbsp;</font></strong><font face="Arial, Helvetica, sans-serif">&nbsp;&nbsp;</font> 
+    </td>
+    <td  valign="top" colspan="4" rowspan="8"><font face="Arial, Helvetica, sans-serif" size="2">Sharma 
+      (1992) gives an explanation and example of how seismic loading is incorporated 
+      into the XSTABL program by applying additional loads to the centroid of 
+      a slice in vertical and/or horizontal directions. These applied loads are 
+      a function of the slice weight (&Delta;<i>W</i>) and the seismic coefficients, 
+      <i>k<sub>v</sub></i> and <i>k<sub>h</sub></i>:</font> <p><font face="Arial, Helvetica, sans-serif" size="2">Horizontal 
+        load: &Delta;<i>H</i> = <i>k<sub>h</sub></i>&Delta;<i>W</i></font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">Vertical load: &Delta;<i>V</i> 
+        = <i>k<sub>v</sub></i>&Delta;<i>W</i></font></p>
+      <font face="Arial, Helvetica, sans-serif" size="2">The Corps of Engineers 
+      (U.S. Department of the Navy, 1982) further defines the horizontal seismic 
+      force as the mass (&Delta;<i>W</i>/<i>g</i>) involved times the horizontal 
+      acceleration (<i>a<sub>h</sub></i>):</font> <p><font face="Arial, Helvetica, sans-serif" size="2">Horizontal 
+        load: &Delta;<i>H</i> = &Delta;<i>W</i>/<i>g x a<sub>h</sub></i> = k<sub>h</sub>&Delta;<i>W</i></font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">The horizontal seismic 
+        coefficient is then equal to the horizontal acceleration divided by the 
+        acceleration due to gravity (<i>g</i> = 32 ft/sec<sup>2</sup>):</font></p>
+      <div align="center"> 
+        <p><font face="Arial, Helvetica, sans-serif" size="2"><i>k<sub>h</sub></i> 
+          = <i>a<sub>h</sub></i>/<i>g</i></font></p>
+      </div>
+      <font face="Arial, Helvetica, sans-serif" size="2">Figure <a href="#Fig_5F.13">5F.13</a> 
+      is a general seismic zone map for the United States with the corresponding 
+      seismic coefficient per zone.</font></td>
+  </tr>
+  <tr> </tr>
+  <tr> </tr>
+  <tr> </tr>
+  <tr> </tr>
+  <tr> </tr>
+  <tr> </tr>
+  <tr> </tr>
+  <tr> 
+    <td  valign="top" colspan="5">&nbsp;</td>
+    <td  valign="top" colspan="4" bgcolor="#CCCC99"> <p align="center"><font face="Arial, Helvetica, sans-serif" size="2"><a name="Fig_5F.13"></a><a href="images/5/5f_f13.gif" target="_blank"><img src="images/5/5f_f13.gif" width="370" height="336" border="1"></a></font></p>
+      <p align="center"><font face="Arial, Helvetica, sans-serif" size="2"><i>Figure 
+        5F.13.-Seismic zone map of the contiguous United States and Puerto Rico 
+        (adapted from U.S. Department of the Navy, 1982). </i></font></p></td>
+  </tr>
+  <tr> 
+    <td  valign="top" colspan="5"><hr></td>
+    <td  valign="top" colspan="4"><hr></td>
+  </tr>
+  <tr> 
+    <td  valign="top" colspan="5"><font face="Arial, Helvetica, sans-serif" size="3"><strong>5F.7 
+      <a name="5F.7"></a> Probabilistic Level III</strong></font><strong><font face="Arial, Helvetica, sans-serif">&nbsp;</font></strong></td>
+    <td  valign="top" colspan="4"> <div align="left"><font face="Arial, Helvetica, sans-serif" size="2">A 
+        probabilistic level III analysis is needed to provide the "probability 
+        of landslide occurrence" necessary for a practical risk assessment. Currently, 
+        there are analysis techniques available which use method of slices analysis 
+        with normal distribution for soil shear strength parameters as the only 
+        probabilistic variables. Our experience with level I probabilistic analysis 
+        is that soil shear strength parameters in typical forest watersheds are 
+        the least variable of parameters in the analysis and are usually the easiest 
+        to determine. Parameters such as ground water depth and soil depth are 
+        much more variable and need to be given probabilistic distributions as 
+        well. The Monte Carlo simulation used for levels I and II probabilistic 
+        analysis was a good technique for allowing the user the latitude to allow 
+        variations in more than just the soil shear strength parameters. However, 
+        Monte Carlo simulation may be too cumbersome and time-consuming for level 
+        III with search routines, and such. If the failure surface is known or 
+        predetermined in deterministic analysis, Monte Carlo simulation may still 
+        be applicable to level III. Much research will be required to perfect 
+        these techniques.</font></div></td>
+  </tr>
+  <tr> </tr>
+</table>
+<p><!-- ======= FOOTER GRAPHIC =================================================== --></p>
+<p> 
+  <!-- ========================================================================= -->
+  <img src="images/navbar.gif" width="703" height="36" align="BOTTOM"
+   usemap="#b_pagingButtons.map" border="0" alt="Slope Stability Reference Guide for National Forests in the United States"> 
+  <br>
+  <!-- =======IMAGE MAP INFORMATION============================================== -->
+  <map name="b_pagingButtons.map"> 
+    <!--HOME-->    <area shape="RECT" coords="0,0 605,26" href="index.html" alt="SSG home">
+    <!--PREV-->    <area shape="rect" coords="609,0,630,26" href="ssg_5e.html" alt="Section 5E">
+    <!--NEXT-->    <area shape="rect" coords="633,-1,652,26" href="ssg_5g.html" alt="Section 5G">
+  </map>
+  <!-- ========================================================================= -->
+  <br>
+   <font face="Arial, Helvetica, sans-serif" size="1">USDA Forest Service<br>
+    <b>Slope Stability Reference Guide for National Forests in the United States, 1994.</b>
+    <br>
+    <a href="http://forest.moscowfsl.wsu.edu/ssg/">http://forest.moscowfsl.wsu.edu/ssg/</a> 
+    <br>Last Revised: 
+    <script language="javascript" type="text/javascript">
+     <!-- hide
+      document.write(document.lastModified)
+     // end hide -->
+    </script>
+   </font>
+  </p>
+ </body>
+</html>

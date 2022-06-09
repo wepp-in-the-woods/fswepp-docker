@@ -1,0 +1,59 @@
+<html>
+ <head>
+  <title>CWE author nudge comment form</title>
+  <link rel=stylesheet href="/css/rmrs.css" type="text/css">
+
+  <script type="text/javascript" language="JavaScript">
+   <!--
+   function getParms() {   // looks for page parameters upon loading
+   //  popnudge.html?chapter=2
+     ls = location.search
+// alert (ls)
+     subject=''
+     chapter=''
+     locchapter=ls.indexOf('chapter=')
+// alert(locchapter)
+     if (locchapter>0) {chapter=ls.substring(locchapter+8)}
+     subject = 'CWE Chapter '+chapter
+
+// alert(subject)
+
+//     titlesp=title
+//     titlespace=titlesp.indexOf('%20')
+//     if (titlespace>0) {titlesp=titlesp.substring(0,titlespace) + ' ' + titlesp.substring(titlespace+3)}
+//     titlespace=titlesp.indexOf('%20')
+//     if (titlespace>0) {titlesp=titlesp.substring(0,titlespace) + ' ' + titlesp.substring(titlespace+3)}
+//     if (title) {document.forms[0].title.value=title}
+//     if (recip) {document.forms[0].recipient.value=recip}
+//     if (subject) {document.forms[0].subject.value=subject}
+       if (chapter) {document.forms[0].chapter.value=chapter}
+       document.getElementById('title1').innerHTML='Author nudge for ' + subject
+   }
+   -->
+  </script>
+ </head>
+
+ <body background="images/smokey.gif" onload="getParms();self.focus()">
+
+  <font face="trebuchet, tahoma, arial, sans serif">
+      <SPAN class="h2bk" id="title1">
+       
+      </SPAN>
+      <br>
+      <br>
+       <FORM method="post" action="http://forest.moscowfsl.wsu.edu/cgi-bin/people/popnudge.pl">
+       <SPAN class="dk10pt">Comments: (limit 900 characters)</SPAN>
+       <BR>
+       <TEXTAREA name="comment" cols="60" rows="16"></TEXTAREA>
+       <BR>
+       <BR>
+       <input type="hidden" name="chapter">
+       <INPUT type="submit" name="Submit" value="Mail comments">&nbsp;
+       <INPUT type="button" name="Cancel" value="Cancel" onClick="self.close()">
+       <BR>
+       <BR>
+      </FORM>
+      <IMG src="images/spacer.gif" width="20" height="1"></TD>
+
+ </BODY>
+</HTML>

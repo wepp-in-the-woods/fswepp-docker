@@ -1,0 +1,108 @@
+<html>
+ <head>
+  <title>XSTABL At-Least-Once-Asked Questions</title>
+ </head>
+ <body>
+
+  <center><h2>XSTABL At-Least-Once-Asked Questions</h2></center>
+
+<hr><h3><font color=blue size=+3>Q:</font>
+How do I install XSTABL under Windows 95?</h3>
+<p>
+<font color=blue size=+3>A:</font>
+ Although XSTABL is still a DOS program, it can be operated successfully
+ within Windows 95.
+<p>
+If you install XSTABL to <tt>C:\XSTABL</tt> (unzip to <tt>c:\</tt>)
+then all should be right with XSTABL.
+<p>
+   If XSTABL was installed elsewhere, 
+   you may have to set the XSTABL working directory to be the one
+   in which XSTABL is installed and you may also specify where to find
+   the custom XSTABL icon.
+<p>
+Locate <tt>XSTABL.EXE</tt>
+       using Windows Explorer (you may want to turn on "display
+       all file types" to show you the ".exe" part so you can find it
+       more easily),
+<blockquote><img src="find_xst.gif"></blockquote>
+ highlight <b>XSTABL.EXE</b>, and right-click on it.  A menu should
+       appear on your desktop; select <b>Properties</b> and then
+       the <b>Program</b> tab.  For the <b>Working Directory</b>
+       enter the name of the drive and directory in which
+       XSTABL is installed.
+<blockquote><img src="xst_prop.gif"></blockquote>
+  You may also want to click
+       the "change icon" button under program properties,
+       and specify file "XSTABL.ICO" in the XSTABL directory.
+<blockquote><img src="xst_ico.gif"></blockquote>
+
+<hr>
+<h3><font color=blue size=+3>Q:</font>
+I can not get XSTABL to print when run under Windows 95. What gives?</h3>
+<p>
+<font color=blue size=+3>A:</font>
+ XSTABL is a DOS program.  In order for DOS programs to print under
+ Windows 95, the printer driver must be installed with the <i>Print
+ from DOS</i> option specified.  
+<p>
+ Add a new printer (actually, a new driver for an existing printer)
+ under <b>Start-Settings-Printers.</b>
+
+Choose an existing printer on your system or network.
+If you have an HP Laserjet, or one that understands HP commands,
+use that one.  I haven't yet tried a corporate Lexmark printer.
+<p>
+Answer <b>yes</b> that you you want to
+<b>print from MS-DOS-based programs</b>,
+<blockquote><img src="prt_msd.gif"></blockquote>
+and specify that you want to <b>capture printer port</b> LPT1.
+<blockquote><img src="cap_port.gif"></blockquote>
+You should now be able to print XSTABL output on the newly-installed
+printer.
+
+<hr><h3><font color=blue size=+3>Q:</font>
+How do I select the printer for XSTABL?</h3>
+<p>
+<font color=blue size=+3>A:</font>
+  Good question.    Before you print, you can: <b>Start-Settings-Printers</b>,
+  right-click on the DOS printer, check <b>Set as Default</b>.
+<blockquote><img src="set_def.gif"></blockquote>
+
+It does not seem to matter to XSTABL which printer you select here, though -- the
+one (if any) that has been set to capture printer port <b>LPT1</b> seems
+to get used.
+<p>
+
+<hr><h3><font color=blue size=+3>Q:</font>
+I want to use XSTABL graphs in my documents.  How can I import them?</h3>
+<font color=blue size=+3>A:</font>
+When the graph is displayed on screen during operation of XSTABL, you
+can press <tt>Alt-PrintScrn</tt> to place the graph (the content of the
+active Windows window) in the Windows clipboard,
+from which you can paste it into many other Windows applications.
+<p>
+But, this doesn't work as well as one might hope with Microsoft Word
+because the background is all black, and I haven't found a satisfactory
+way to reverse or change the image colors in Word.
+<p>
+You can paste the image into a graphics application such as WinJPEG or
+Windows Paint.
+<ul><li>In WinJPEG, choose <tt>negative</tt> colors from the menu bar
+(exact location may vary with WinJPEG version).
+    <li>In Windows Paint, convert the image to black-and-white (under "attributes"),
+then invert colors.
+</ul>
+<p>
+A more satisfactory method may be to have XSTABL 
+save the graphic as a <tt>.WP?</tt> file, then open a Word document and
+<b>Insert Picture</b> into the document.
+That works pretty nicely.
+You have to specify that the file is a <b>Word Perfect</b> format, 
+and the Word Perfect import filter has to be loaded into
+Office the first time you try to insert such a picture.
+But it is slick and resizeable, and you can write your report around the plot.
+<p><hr>
+</body>
+</html>
+
