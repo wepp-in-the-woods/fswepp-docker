@@ -1,0 +1,471 @@
+/*===================================================================================
+/*  USDA Forest Service - Rocky Mountain Research Station - FSL. Moscow, ID
+/*===================================================================================
+/*  Program: MCC.AML Version using TOPOGRID
+/*  Purpose: Multiscale Curvature Classification for calssification of ground returns.
+/*===================================================================================
+/*  Usage: MCC <INCOVER> <OUTCOVER> <ELEVATION ITEM> <SCALE> {CURVATURE}
+/*
+/*  Arguments: INCOVER - Point coverage of LiDAR points
+/*             OUTCOVER - Coverage of classified LiDAR ground returns
+/*             ELEVATION ITEM - Info item in in-coverage containing elevation value.
+/*             SCALE - Scale parameter (can use Nominal post spacing of LiDAR data).
+/*             CURVATURE - Coefficent defining curvature threshold.
+/*===================================================================================
+/*  Notes: 
+/*
+/*  Scale Domain 1 parameters - cellsize 1 - curvature threshold 0.2 - Smoothing
+/*  Scale Domain 2 parameters - cellsize 2 - curvature threshold 0.3 - Smoothing
+/*  Scale Domain 3 parameters - cellsize 3 - curvature threshold 0.4 - Smoothing
+/*===================================================================================
+/*  Input:   LiDAR point coverage with elevation (z) values
+/*  Output:  Coverage of classified LiDAR ground returns
+/*===================================================================================
+/*  History: Jeffrey Evans - Landscape Ecologist
+/*           01/30/05 - Original coding
+/*           11/01/06 - Revised
+/*           1221 South Main, Moscow, ID 83843
+/*           (208) 882-3557
+/*           jevans02@fs.fed.us
+/*===================================================================================
+/*  References:
+/*  
+/*  Evans, J.S, and Hudak, A.T., In Press. A Multiscale Curvature Algorithm for 
+/*  Classifying Discrete Return LiDAR in Forested Environments. IEEE Transactions 
+/*  on Geoscience and Remote Sensing.
+/*
+/*  R.A. Haugerud and D. J. Harding, "Some Algorithms for Virtual Deforestation
+/*  (VDF) of Lidar Topographic Survey Data," International Archives of
+/*  Photogrammetry and Remote Sensing, Graz, Austria, vol. XXXIV-3/W4, pp. 211-
+/*  217, 2001. URL- http://pugetsoundlidar.ess.washington.edu/vdf4.pdf
+/*
+/*  Kraus, K., Pfeifer, N., 1998. Determination of Terrain Models in Wooded Areas
+/*  With Airborne Laser Scanner Data. ISPRS Journal of Photogrammetry and Remote
+/*  Sensing v.53, pp 193-203
+/*===================================================================================
+&severity &error &routine bailout
+&args incov outcov item ps cv Xdiv Ydiv
+
+&if [show PROGRAM] <> ARC &then
+  &do
+    &type Can Only Be run From ARCINFO
+       &type Please re-run mcc
+     &end
+&call init
+&call iterations
+&call cleanup
+
+&return
+/************************************************************************************
+&routine init
+/************************************************************************************
+&if [NULL %incov%] = .TRUE. &then
+  &return &inform Usage: MCC <INCOVER> <OUTCOVER> <ELEVATION ITEM> <SCALE> {CURVATURE}
+
+&if [NULL %outcov%] = .TRUE. &then
+  &return &inform Usage: MCC <INCOVER> <OUTCOVER> <ELEVATION ITEM> <SCALE> {CURVATURE}
+
+&if [NULL %item%] = .TRUE. &then
+  &return &inform Usage: MCC <INCOVER> <OUTCOVER> <ELEVATION ITEM> <SCALE> {CURVATURE}
+
+&if [NULL %ps%] = .TRUE. &then
+  &return &inform Usage: MCC <INCOVER> <OUTCOVER> <ELEVATION ITEM> <SCALE> {CURVATURE}
+
+&if [exists %incov% -point] = .FALSE. &then
+  &return &inform Coverage [upcase %incov%] does not exist!
+
+&if [exists %outcov% -point] = .TRUE. &then
+  &return &inform Coverage [upcase %outcov%] already exist!
+
+&if [iteminfo %incov%.pat -info %item% -exists] = .FALSE. &then
+&return &inform INFO ITEM [upcase %item%] DOES NOT EXIST!
+
+&type /& ERROR CHECKING AND SETTING UP MODEL PARAMETERS /&
+
+&s tmp1 [scratchname -prefix xx1] /* Tmp point coverage
+&s tmp2 [scratchname -prefix xx2] /* Surface elev grid at each itr
+&s tmp3 [scratchname -prefix xx3] /* Focalmean at each itr           
+&s tmp4 [scratchname -prefix xx4] /* Tmp query point coverage (renamed to tmp1)
+&s tmp5 [scratchname -prefix xx5] /* Grid in scattered return filter
+
+&if [exist %tmp1% -point] &then kill %tmp1% all
+&if [exist %tmp2% -grid] &then kill %tmp2% all
+&if [exist %tmp3% -grid] &then kill %tmp3% all
+&if [exist %tmp4% -point] &then kill %tmp4% all
+&if [exist %tmp5% -grid] &then kill %tmp5% all
+
+&s starttime1 = [date -time]
+
+&if [NULL %cv%] or %cv%_ = #_ &then
+  &s cv = 0.2
+&else &do
+  &s cv = %cv%
+&end
+   &set h = [CAL %ps% / 2]
+
+   &set m1cs = [CAL %ps% - %h%]
+   &set m1cv = %cv%
+   &set m2cs = %ps%
+   &set m2cv = [CAL %m1cv% + 0.1]  /*[CAL %m1cv% + %cv%]
+   &set m3cs = [CAL %ps% + %h%]
+   &set m3cv = [CAL %m2cv% + 0.1]  /*[CAL %m2cv% + %cv%]
+
+   &s PointsLostTolerance = 0.1
+   &s MaxIterations = 15
+   &s th = 30
+   &s logstart = [date -time]
+
+COPY %incov% %tmp1%
+
+/*&messages &off
+&return
+/************************************************************************************
+&routine iterations
+/************************************************************************************
+/*Eliminating Nonground Values. Iterate to Convergance
+    &s starttime1 = [date -time]
+&type /& STARTING MULTISCALE CURVATURE CLASSIICATION /&
+
+/*****************************************
+&s NIterations = 0
+  &do &until %PercentLost% <= 0.1 OR %NIterations% = %MaxIterations%
+   &s NIterations = [CAL %NIterations% + 1]
+&type ******** SCALE DOMAIN 1 - Cell Size %m1cs% Threshold %m1cv% ITERATION %NIterations% ********
+      &s itstart = [date -time]
+      &s starttime = [date -time]
+&call scaledomain1
+   &call progress
+&type /& ELAPSED TIME FOR SCALE DOMAIN 1 ITERATION %NIterations% = %ElapsedTime% /&
+&end
+
+/*****************************************
+
+&s NIterations = 0
+  &do &until %PercentLost% <= 0.1 OR %NIterations% = %MaxIterations%
+   &s NIterations = [CAL %NIterations% + 1]
+&type ******** SCALE DOMAIN 2 - Cell Size %m2cs% Threshold %m2cv% ITERATION %NIterations% *******
+   &s itstart = [date -time]
+   &s starttime = [date -time]
+&call scaledomain2
+   &call progress
+&type /& ELAPSED TIME FOR SCALE DOMAIN 2 ITERATION %NIterations% = %ElapsedTime% /&
+&end
+
+/*****************************************
+
+&s NIterations = 0
+  &do &until %PercentLost% <= 0.1 OR %NIterations% = %MaxIterations%
+   &s NIterations = [CAL %NIterations% + 1]
+&type ******** SCALE DOMAIN 3 - Cell Size %m3cs% Threshold %m3cv% ITERATION %NIterations% ********
+   &s itstart = [date -time]
+   &s starttime = [date -time]
+&call scaledomain3
+   &call progress
+
+&type /& ELAPSED TIME FOR SCALE DOMAIN 3 ITERATION %NIterations% = %ElapsedTime% /&
+&end
+
+/*****************************************
+
+&type ******** SCATTERED RETURN (NEGATIVE BLUNDER) FILTER ********
+   &s itstart = [date -time]
+   &s starttime = [date -time]
+&call scatteredreturns
+   &call progress
+&type /& ELAPSED TIME FOR SCATTERED RETURN FILTER = %ElapsedTime% /&
+
+RENAME %tmp1% %outcov%
+
+&return
+/************************************************************************************
+&routine scaledomain1
+/************************************************************************************
+&set dz1 = %m1cv%
+&set cs = %m1cs%
+&s teststring = %item% < x-Z + %dz1%
+
+&if [iteminfo %tmp1%.pat -info x-Z -exists] &then
+DROPITEM %tmp1%.pat %tmp1%.pat x-Z
+
+&type   /& INTERPOLATING %m1cs%m CURVATURE SURFACE USING IFD SPLINE
+
+TOPOGRID %tmp2% %m1cs%
+	POINT %tmp1% %item%
+	ENFORCE OFF
+	/*MARGIN %m1cs%
+END
+	 
+GRID;DISPLAY 0
+  SETWINDOW %tmp1%
+  SETCELL %m1cs%
+%tmp3% = FOCALMEAN(%tmp2%)
+QUIT
+
+&type   CALCULATING LOCAL CURVATURES
+LATTICESPOT %tmp3% %tmp1% x-Z
+INDEXITEM %tmp1%.pat x-Z
+
+KILL (! %tmp2% %tmp3% !) ALL
+
+&type   CLASSIFYING LiDAR POINTS /&
+&if [exists xx* -file] &then &sys DEL xx*
+
+RESELECT %tmp1% %tmp4% POINT # POINT
+    RESELECT %teststring%
+    ~
+    NO
+    NO
+
+/* CALCULATE PERCENT LOST AT n ITERATION
+
+  &describe %tmp1%
+  &s np1 = %DSC$POINTS%
+  &describe %tmp4%
+  &s np2 = %DSC$POINTS%
+&s PercentLost = [calc ( %np1% - %np2% ) * 100 / %np1% ]
+
+&type /& PERCENT POINTS REMOVED IN ITERATION %NIterations% = %PercentLost% /&
+&type   NUMBER OF POINTS AT START OF ITERATION: %np1%
+&type   NUMBER OF POINTS AT END OF ITERATION:   %np2% /&
+
+KILL %tmp1% all
+RENAME %tmp4% %tmp1%
+
+&return
+/************************************************************************************
+&routine scaledomain2
+/************************************************************************************
+&set dz1 = %m2cv%
+&set cs = %m2cs%
+&s teststring = %item% < x-Z + %dz1%
+
+&if [iteminfo %tmp1%.pat -info x-Z -exists] &then
+DROPITEM %tmp1%.pat %tmp1%.pat x-Z
+
+&type   /& INTERPOLATING %m2cs%m CURVATURE SURFACE USING IFD SPLINE
+
+TOPOGRID %tmp2% %m2cs%
+	POINT %tmp1% %item%
+	ENFORCE OFF
+	/*MARGIN %m2cs%
+END
+	 
+GRID;DISPLAY 0
+  SETWINDOW %tmp1%
+  SETCELL %m2cs%
+%tmp3% = FOCALMEAN(%tmp2%)
+QUIT
+
+&type   CALCULATING LOCAL CURVATURES
+LATTICESPOT %tmp3% %tmp1% x-Z
+INDEXITEM %tmp1%.pat x-Z
+
+KILL (! %tmp2% %tmp3% !) ALL
+
+&type   CLASSIFYING LiDAR POINTS /&
+&if [exists xx* -file] &then &sys DEL xx*
+
+RESELECT %tmp1% %tmp4% POINT # POINT
+    RESELECT %teststring%
+    ~
+    NO
+    NO
+
+/* CALCULATE PERCENT LOST AT n ITERATION
+
+  &describe %tmp1%
+  &s np1 = %DSC$POINTS%
+  &describe %tmp4%
+  &s np2 = %DSC$POINTS%
+&s PercentLost = [calc ( %np1% - %np2% ) * 100 / %np1% ]
+
+&type /& PERCENT POINTS REMOVED IN ITERATION %NIterations% = %PercentLost% /&
+&type   NUMBER OF POINTS AT START OF ITERATION: %np1%
+&type   NUMBER OF POINTS AT END OF ITERATION:   %np2% /&
+
+KILL %tmp1% all
+RENAME %tmp4% %tmp1%
+
+&return
+/************************************************************************************
+&routine scaledomain3
+/************************************************************************************
+&set dz1 = %m3cv%
+&set cs = %m3cs%
+&s teststring = %item% < x-Z + %dz1%
+
+&if [iteminfo %tmp1%.pat -info x-Z -exists] &then
+DROPITEM %tmp1%.pat %tmp1%.pat x-Z
+
+&type   /& INTERPOLATING %m3cs%m CURVATURE SURFACE USING IFD SPLINE
+
+TOPOGRID %tmp2% %m3cs%
+	POINT %tmp1% %item%
+	ENFORCE OFF
+	/*MARGIN %m3cs%
+END
+	 
+GRID;DISPLAY 0
+  SETWINDOW %tmp1%
+  SETCELL %m3cs%
+%tmp3% = FOCALMEAN(%tmp2%)
+QUIT
+
+&type   CALCULATING LOCAL CURVATURES
+LATTICESPOT %tmp3% %tmp1% x-Z
+INDEXITEM %tmp1%.pat x-Z
+
+KILL (! %tmp2% %tmp3% !) ALL
+
+&type   CLASSIFYING LiDAR POINTS /&
+&if [exists xx* -file] &then &sys DEL xx*
+
+RESELECT %tmp1% %tmp4% POINT # POINT
+    RESELECT %teststring%
+    ~
+    NO
+    NO
+
+/* CALCULATE PERCENT LOST AT n ITERATION
+
+  &describe %tmp1%
+  &s np1 = %DSC$POINTS%
+  &describe %tmp4%
+  &s np2 = %DSC$POINTS%
+&s PercentLost = [calc ( %np1% - %np2% ) * 100 / %np1% ]
+
+&type /& PERCENT POINTS REMOVED IN ITERATION %NIterations% = %PercentLost% /&
+&type   NUMBER OF POINTS AT START OF ITERATION: %np1%
+&type   NUMBER OF POINTS AT END OF ITERATION:   %np2% /&
+
+KILL %tmp1% all
+RENAME %tmp4% %tmp1%
+
+&return
+/************************************************************************************
+&routine scatteredreturns
+/************************************************************************************
+&type /& FILTEREING SCATTERED RETURNS (NEGATIVE BLUNDERS)
+&if [exists xx* -file] &then &sys DEL xx*
+BUILD %tmp1% POINT
+&if [exists xx* -file] &then &sys DEL xx*
+
+&type   /& INTERPOLATING %m2cs%m CURVATURE SURFACE USING IFD SPLINE
+
+TOPOGRID %tmp2% %m2cs%
+	POINT %tmp1% %item%
+	ENFORCE OFF
+	/*MARGIN %m2cs%
+END
+
+GRID;DISPLAY 0
+  SETWINDOW %tmp2%
+  SETCELL %m2cs%
+&if [exists xxmax -grid] &then KILL xxmax ALL
+&if [exists xxin -grid] &then KILL xxmin ALL  
+xxmax = CON(FOCALMAX(%tmp2%, RECTANGLE, 3, 3) > %tmp2%, 0, 1)
+xxmin = CON(FOCALMIN(%tmp2%, RECTANGLE, 3, 3) < %tmp2%, 0, 1)
+%tmp5% = xxmin + xxmax
+&if [exists xxmax -grid] &then KILL xxmax ALL
+&if [exists xxin -grid] &then KILL xxmin ALL  
+QUIT
+
+LATTICESPOT %tmp5% %tmp1% tmp-s
+
+&describe %tmp1%
+    &s np1 = %DSC$POINTS%
+&if [exists xx* -file] &then &sys DEL xx*
+&type CLASSIFYING LiDAR DATA
+ARCEDIT;DISPLAY 0
+   EDIT %tmp1% POINT
+   SEL ALL
+   RESELECT tmp-s > 0
+ &set ns = [show number select]
+   &if %ns% > 0 &then &do
+   DELETE
+   SAVE
+&end
+   &else &do
+&type /& NO POINTS IDENTIFYED /&
+&end
+
+QUIT
+   BUILD %tmp1% POINT
+&if [exists xx* -file] &then &sys DEL xx*
+  &describe %tmp1%
+    &s np2 = %DSC$POINTS%
+&s PercentLost = [calc ( %np1% - %np2% ) * 100 / %np1% ]
+&type /& PERCENT POINTS REMOVED IN SCATTERED RETURN FILTER = %PercentLost% /&
+&type   NUMBER OF POINTS AT START OF MODEL 4: %np1%
+&type   NUMBER OF POINTS AT END OF MODEL 4:   %np2% /&
+
+&if [exists %tmp2% -grid] &then KILL %tmp2% ALL
+&if [exists %tmp2% -grid] &then KILL %tmp2% ALL  
+
+&if [iteminfo %tmp1%.pat -info tmp-s -exists] &then
+DROPITEM %tmp1%.pat %tmp1%.pat tmp-s
+
+&return
+/************************************************************************************
+&routine progress
+/************************************************************************************
+  &s endtime = [date -time]
+  &s sthr = [before %starttime% .]
+  &s stmin = [after %starttime% .]
+  &s stsec = [after %stmin% .]
+  &s stmin = [before %stmin% .]
+  &s endhr = [before %endtime% .]
+  &s endmin = [after %endtime% .]
+  &s endsec = [after %endmin% .]
+  &s endmin = [before %endmin% .]
+  &s endtime =  [calc %endhr% + ( %endmin% / 60 ) + ( %endsec% / 3600 ) ]
+  &s starttime = [calc %sthr% + ( %stmin% / 60 ) + ( %stsec% / 3600 ) ]
+  &s eltime = [calc %endtime% - %starttime% ]
+  &if %eltime% < 0 &then &s eltime = [calc %eltime% + 24 ]
+  &s elhr = [trunc %eltime%]
+  &if %elhr% < 10 &then &s elhr = 0%elhr%
+  &s eltime = [calc ( %eltime% - %elhr% ) * 60 ]
+  &s elmin = [trunc %eltime%]
+  &if %elmin% < 10 &then &s elmin = 0%elmin%
+  &s elsec = [round [calc ( %eltime% - %elmin% ) * 60 ] ]
+  &if %elsec% < 10 &then &s elsec = 0%elsec%
+  &s ElapsedTime = %elhr%:%elmin%:%elsec%
+&return
+/************************************************************************************
+&routine bailout
+/************************************************************************************
+/*&if [exist %tmp1% -point] &then kill %tmp1% all
+&if [exist %tmp2% -grid] &then kill %tmp2% all
+&if [exist %tmp3% -grid] &then kill %tmp3% all
+&if [exist %tmp4% -point] &then kill %tmp4% all
+&if [exist %tmp5% -grid] &then kill %tmp5% all
+&messages &on
+   &return &error An ERROR has occured with MCC.AML...
+&return
+/************************************************************************************
+&routine cleanup
+/************************************************************************************
+&s endtime1 = [date -time]
+&type /& START TIME %starttime1%
+&type /& END TIME %endtime1% /&
+
+&type /& EXITING MCC.AML AND CLEANING UP /&
+&messages &off
+  &describe %incov%
+  &s np1 = %DSC$POINTS%
+  &describe %outcov%
+  &s np2 = %DSC$POINTS%
+&s PercentLost = [calc ( %np1% - %np2% ) * 100 / %np1% ]
+
+&type /& TOTAL PERCENT CLASSIFIED = %PercentLost% /&
+&type   NUMBER OF POINTS IN [upcase %incov%]: %np1%
+&type   NUMBER OF POINTS IN [upcase %outcov%]:  %np2% /&
+
+&if [exist %tmp1% -point] &then kill %tmp1% all
+&if [exist %tmp2% -grid] &then kill %tmp2% all
+&if [exist %tmp3% -grid] &then kill %tmp3% all
+&if [exist %tmp4% -point] &then kill %tmp4% all
+&if [exist %tmp5% -grid] &then kill %tmp5% all
+
+&messages &on
+&return

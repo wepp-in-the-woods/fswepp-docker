@@ -1,0 +1,249 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+ <HEAD>
+  <TITLE>LIDAR: Progressive Curvature Filtering</TITLE>
+  <META http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+  <META content="LIDAR Progressive Curvature Filtering" name=description>
+  <META content="LIDAR, Progressive Curvature Filtering, Forest Service" name=keywords>
+  <LINK href="/css/rmrs.css" type=text/css rel=stylesheet>
+  <style type="text/css">
+   <!--
+    P.Reference {
+        margin-top:0pt;
+        margin-left:.3in;
+        text-indent:-.3in;
+    }
+   -->
+  </style>
+  <SCRIPT language=JavaScript type=text/javascript>
+  <!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.0
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && document.getElementById) x=document.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+  //-->
+   </SCRIPT>
+ </HEAD>
+ <BODY bgColor=#ccccff>
+  <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+   <TBODY>
+    <TR>
+     <TD vAlign=top width=149 bgColor=#ffffff rowSpan=3>
+      <IMG height=116 alt="Rocky Mountain Research Station Logo" src="/images/logo.gif" width=149>
+     </TD>
+     <TD class=dk10pt align=right width="100%" bgColor=#ccccff>
+      USDA Forest Service<BR>Rocky Mountain Research Station<BR>Forestry Sciences Laboratory - Moscow, Idaho
+     </TD>
+     <TD width=11 bgColor=#ccccff>
+      <IMG height=72 src="/images/spacer.gif" width=11>
+     </TD>
+    </TR>
+    <TR>
+     <TD class=m1 align=right width="100%" bgColor=#669966>
+      <A class=m1 onfocus=if(this.blur)this.blur() href="http://forest.moscowfsl.wsu.edu/contacts.html">Moscow Personnel</A>&nbsp; |&nbsp;
+      <A class=m1 onfocus=if(this.blur)this.blur() href="http://forest.moscowfsl.wsu.edu/siteindex.html">Site Index</A>&nbsp; |&nbsp;
+      <A class=m1 onfocus=if(this.blur)this.blur() href="http://forest.moscowfsl.wsu.edu/sitemap.html">Site Map</A>&nbsp; |&nbsp;
+      <A class=m1 onfocus=if(this.blur)this.blur() href="http://forest.moscowfsl.wsu.edu/index.html">Moscow Home</A>
+     </TD>
+     <TD width=11 bgColor=#669966><IMG height=20 src="/images/spacer.gif" width=11></TD>
+    </TR>
+    <TR>
+     <TD class=m2 align=right width="100%" bgColor=#000033>
+      <A class=m2 onfocus=if(this.blur)this.blur() href="http://forest.moscowfsl.wsu.edu/gems/rust.html">White Pine Blister Rust</A>&nbsp; |&nbsp;
+      <A class=m2 onfocus=if(this.blur)this.blur() href="http://forest.moscowfsl.wsu.edu/gems/decisions.html">Decision Support Tools</A>&nbsp; |&nbsp;
+      <A class=m2 onfocus=if(this.blur)this.blur() href="http://forest.moscowfsl.wsu.edu/gems/genetics.html">Ecological Processes</A>&nbsp; |&nbsp;
+      <A class=m2 onfocus=if(this.blur)this.blur() href="http://forest.moscowfsl.wsu.edu/gems/index.html">Forest Ecosystem Processes Home</A>
+     </TD>
+     <TD width=11 bgColor=#000033><IMG height=24 src="/images/spacer.gif" width=11></TD>
+    </TR>
+   </TBODY>
+  </TABLE>
+  <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+   <TBODY>
+    <TR>
+     <TD width=8 bgColor=#ffffff rowSpan=2><IMG height=375 src="/images/spacer.gif" width=8></TD>
+     <TD vAlign=top width="15%" bgColor=#ffffff rowSpan=2>
+      <SPAN class=dk10pt><BR></SPAN>
+      <P>
+       <BR>Forest Ecosystem Processes Project Leader:<BR>
+       <A onfocus=if(this.blur)this.blur() href="http://forest.moscowfsl.wsu.edu/people/gems/deferguson.html">Dennis E. Ferguson</A>
+       <BR>
+       <A onfocus=if(this.blur)this.blur() href="/cgi-bin/fswepp/commform.pl?&recipient=deferguson&title=Dennis%20Ferguson"><IMG height=21 alt="email Dennis" src="/images/mail.gif" width=32 border=0></A>
+       <BR><br>
+       <A onfocus=if(this.blur)this.blur() href="/people/gems/jevans02.html">Jeffrey S. Evans</A> -- Landscape Ecologist<br>
+       USDA -- Forest Service<br>
+       Rocky Mt. Research Station, Forestry Sciences Lab<br>
+       1221 South Main St.<br>
+       Moscow, Idaho, 83843
+       <BR>
+       <A onfocus=if(this.blur)this.blur() href="/cgi-bin/fswepp/commform.pl?&recipient=jevans02&title=Jeffrey%20Evans"><IMG height=21 alt="email Jeffrey" src="/images/mail.gif" width=32 border=0></A>
+       <BR>
+       <BR>
+       <A onfocus=if(this.blur)this.blur() href="/people/gems/ahudak.html">Andy Hudak</A> -- Research Forester / Landscape Ecologist<br>
+       USDA -- Forest Service<br>
+       Rocky Mt. Research Station, Forestry Sciences Lab<br>
+       1221 South Main St.<br>
+       Moscow, Idaho, 83843
+       <BR>
+       <A onfocus=if(this.blur)this.blur() href="/cgi-bin/fswepp/commform.pl?&recipient=ahudak&title=Andy%20Hudak"><IMG height=21 alt="email Andy" src="/images/mail.gif" width=32 border=0></A>
+      </P>
+      <P>Last Revised: <BR>
+       <SCRIPT>
+        <!-- hide
+         document.write(document.lastModified)
+        // end hide -->
+       </SCRIPT>
+      </P>
+      <P>
+       Contact Webmaster<BR>
+       <A onfocus=if(this.blur)this.blur() href="/cgi-bin/fswepp/commform.pl?&recipient=webmaster&title=the%20Webmaster"><IMG height=21 alt="email webmaster" src="/images/mail.gif" width=32 border=0></A>
+       <BR>
+      </P>
+     </TD>
+     <TD vAlign=top width="85%" bgColor=#ffffff height=375>
+
+      <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+       <TBODY>
+        <TR>
+         <TD colSpan=5><IMG height=40 src="/images/spacer.gif" width=1></TD>
+        </TR>
+        <TR>
+         <TD width=20 bgColor=#ffffff><IMG src="/images/spacer.gif" width=20></TD>
+         <TD width=6 bgColor=#ccccff><IMG src="/images/spacer.gif" width=6></TD>
+          <TD width=20 bgColor=#ffffff><IMG src="../images/spacer.gif"            width=20></TD>
+          <TD vAlign=top width="100%" bgColor=#ffffff>
+           <P>
+            <A class=h1 onfocus=if(this.blur)this.blur() href="http://forest.moscowfsl.wsu.edu/gems/">Forest Ecosystem Processes</A>
+            <SPAN class=h1bk> &nbsp;&gt; </SPAN>
+            <A class=h1 onfocus=if(this.blur)this.blur() href="http://forest.moscowfsl.wsu.edu/gems/decisions.html">Decision Support Tools</A>
+            <SPAN class=h1bk> &nbsp;&gt; </SPAN>
+            <A class=h1 onfocus=if(this.blur)this.blur() href="http://forest.moscowfsl.wsu.edu/gems/lidar/">LIDAR study</A>
+            <SPAN class=h1bk> &nbsp;&gt; </SPAN>
+            <SPAN class=h1r>Progressive Curvature Filtering</SPAN>
+           </p>
+           <p>
+<!-- ================================================================ -->
+ Progressive Curvature Filtering (PCF) is an iterative, multiscale approach for finding positive curvatures
+ representing non-ground returns in discrete return LiDAR.
+ The complex vertical arrangement of LiDAR data requires an iterative processing approach to converge on an
+ accurate solution of identified ground returns.
+ Through nested iterations, the PCF algorithm robustly addresses topologic relationships across scales.
+ Exploiting scale and topological relationships enables removal of a large portion of the low level surface modulation
+ that other filtering approaches often miss, while simultaneously maintaining a high volume of ground returns.
+ The implementation of PCF employs simple model parameters and a minimum of input data, providing flexibility and
+ repeatability across data sets.
+ The PCF model is currently implemented in Arc Macro Language (AML) for workstation Arc/Info.
+ Development is under way to convert the model into IDL and possibly VB as an extension for ArcGIS.
+ <br><br>
+  <img src="image004.jpg" width=674 height=575>
+ <br>
+ Filter results across model loops in a high biomass forest in northern Idaho
+ <br><br>
+ <b>References:</b>
+<p align="left" class="Reference">
+ J. S. Evans, A. T. Hudak.
+ <i>A Progressive Curvature Filter for Identifying Ground Returns from Discrete Return LiDAR in Forested Environments.</i>
+ (Submitted <b>IEEE Transactions on Geoscience and Remote Sensing</b>).
+ </p>
+<p align="left" class="Reference">
+ R. A. Haugerud and D. J. Harding. 2001.
+ <i>Some Algorithms for Virtual Deforestation (VDF) of Lidar Topographic Survey Data.</i>
+ <b>International Archives of Photogrammetry and Remote Sensing</b>, Graz, Austria, vol. XXXIV-3/W4, pp. 211-217.
+ </p>
+ <p>
+ <b>Model Usage:</b>
+ <br><br>
+         Our objective was to automatically and objectively identify ground returns from raw lidar data with minimal 
+parameters and no post processing required. Four criteria were applied in developing the PCF algorithm. The first was 
+flexibility across different LiDAR data formats. The PCF algorithm requires only the X and Y coordinates and elevation 
+(Z) values as inputs, the three most basic parameters common to all LiDAR datasets. The second criterion was simplicity 
+in model parameters. Too numerous, or overly complex model parameters can introduce subjectivity or result in lack of 
+repeatability, however the only required input parameters to the PCF algorithm are the nominal post spacing and the 
+curvature coefficient. The third criterion was that the model be fully automated; i.e., the user need not intervene 
+during the filtering process, which can also introduce subjectivity. Finally, the filtering algorithm should preclude or 
+minimize the need for post-processing, which can be a very time-consuming and subjective process. In summary, the PCF 
+algorithm was designed to objectively, reliably, and repeatability identify ground returns with minimal to no need for 
+manual editing, from any discrete return LiDAR dataset acquired over a forested environment. Ground information is often 
+delivered in the form of gridded raster or normally spaced point data. Both of these deliverables generalize the data, 
+discarding the original spatial precision and volume of ground returns. The original volume of ground returns is needed 
+to build relationships between ground and vegetation returns. If an appropriate volume of ground returns is retained, 
+then the resulting interpolated surface will match the scale and precision of the original LiDAR point cloud reducing 
+bias and error in the derived heights. A simple differencing of the interpolated ground height surface from the raw 
+LiDAR elevations will provide the vegetation height at each point while preserving density relationships related to 
+vegetation cover, such as the proportion of non-ground to ground returns.
+ </p>
+ <pre>
+PCF &lt;INCOVER&gt; &lt;OUTCOVER&gt; &lt;ELEVATION ITEM&gt; &lt;POST-SPACING&gt;
+        {CURVATURE} {COLUMNS-X} {COLUMNS-Y}
+ 
+INCOVER - Point coverage of LiDAR point cloud                             
+OUTCOVER - Filtered coverage of LiDAR ground returns                 
+ELEVATION ITEM - Info item in LiDAR-coverage, containing elevation value.
+POSTSPACING - Nominal post spacing of LiDAR data.                    
+CURVATURE - Coefficient defining curvature threshold.                 
+COLUMNS-X - Number of divisions on X plane                               
+COLUMNS-Y - Number of divisions on Y plane                               
+ </pre>
+ <p>
+        The curvature coefficient for ~2 meter postspacing can be set to 0.2 - 0.3, for &lt; 1 meter postspacing depending 
+on the density of the canopy I have had to set it as small as 0.7. This may require some trial and error to find the 
+ideal starting value. The scale and curvature coefficients are defined automatically in subsequent model loops, thus 
+requiring only a starting value. The scale parameter is initially derived from the nominal postspacing. The COLUMNS-X 
+and COLUMNS-Y arguments are for an automatic tiling scheme within the model. The tiling is corrected for edge effect and 
+is meant to speed up processing and accommodate the limit of samples the spline can fit (300,000 point max). The best 
+way to determine these arguments is to take the total number of points in a given coverage and figure out the number of 
+tiles you need to have &lt;= 300,000 points per tile. The AML merges the tiles so the final coverage is a new coverage 
+containing the filtered ground returns. The model assumes an unfiltered point cloud. If the LiDAR data has been filtered 
+by the vendor is gridded, or separated into a separate dataset(s), PCF will not work.
+ <br><br>
+       The model is set up as an ATOOL. To install place in the $ARCHOME\atool\arc directory it will behave like a 
+native ArcInfo command. An example of this path, depending on your install, is; C:\arcgis\arcexe9x\atool\arc
+<br><br>
+DOWNLOADS
+ <br><br>
+ <a href="pcf.eaf" target="_aml">AML to perform Progressive Curvature Filtering</a>
+ <br><br>
+ <font size=-2>
+AML to calculate height at each LiDAR point
+ <br><br>
+Workshop information presented at the 2005 USGS AmericaView conference in Laramie, WY.
+ Details processing LiDAR data in Arc/Info
+ </font>
+
+
+ 
+<!-- ================================================================ -->
+           </p>
+           </TD>
+          <TD width=20 bgColor=#ffffff><IMG height=1 src="/images/spacer.gif" width=20></TD>
+         </TR>
+        </TBODY>
+       </TABLE>
+      </TD>
+     </TR>
+     <TR>
+      <TD width="100%" bgColor=#ffffff><IMG height=20 src="/images/spacer.gif" width=1></TD>
+     </TR>
+    </TBODY>
+   </TABLE>
+  </BODY>
+</HTML>
