@@ -1,0 +1,828 @@
+App.progressCountTotal = 103;
+App.progressCountCurrent = 0;
+fw.dismissBatchDialogWhenDone = true;
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide10.jpg');
+App.progressCountCurrent = 1;
+App.batchStatusString = 'slide10.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide10_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide10_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide10_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide10_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide10_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide10_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide11.jpg');
+App.progressCountCurrent = 2;
+App.batchStatusString = 'slide11.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide11_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide11_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide11_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide11_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide11_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide11_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide12.jpg');
+App.progressCountCurrent = 3;
+App.batchStatusString = 'slide12.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide12_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide12_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide12_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide12_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide12_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide12_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide13.jpg');
+App.progressCountCurrent = 4;
+App.batchStatusString = 'slide13.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide13_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide13_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide13_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide13_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide13_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide13_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide14.jpg');
+App.progressCountCurrent = 5;
+App.batchStatusString = 'slide14.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide14_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide14_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide14_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide14_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide14_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide14_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide15.jpg');
+App.progressCountCurrent = 6;
+App.batchStatusString = 'slide15.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide15_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide15_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide15_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide15_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide15_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide15_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide16.jpg');
+App.progressCountCurrent = 7;
+App.batchStatusString = 'slide16.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide16_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide16_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide16_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide16_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide16_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide16_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide17.jpg');
+App.progressCountCurrent = 8;
+App.batchStatusString = 'slide17.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide17_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide17_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide17_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide17_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide17_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide17_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide18.jpg');
+App.progressCountCurrent = 9;
+App.batchStatusString = 'slide18.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide18_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide18_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide18_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide18_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide18_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide18_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide19.jpg');
+App.progressCountCurrent = 10;
+App.batchStatusString = 'slide19.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide19_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide19_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide19_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide19_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide19_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide19_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide20.jpg');
+App.progressCountCurrent = 11;
+App.batchStatusString = 'slide20.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide20_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide20_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide20_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide20_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide20_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide20_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide21.jpg');
+App.progressCountCurrent = 12;
+App.batchStatusString = 'slide21.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide21_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide21_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide21_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide21_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide21_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide21_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide22.jpg');
+App.progressCountCurrent = 13;
+App.batchStatusString = 'slide22.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide22_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide22_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide22_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide22_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide22_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide22_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide23.jpg');
+App.progressCountCurrent = 14;
+App.batchStatusString = 'slide23.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide23_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide23_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide23_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide23_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide23_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide23_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide24.jpg');
+App.progressCountCurrent = 15;
+App.batchStatusString = 'slide24.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide24_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide24_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide24_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide24_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide24_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide24_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide25.jpg');
+App.progressCountCurrent = 16;
+App.batchStatusString = 'slide25.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide25_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide25_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide25_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide25_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide25_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide25_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide26.jpg');
+App.progressCountCurrent = 17;
+App.batchStatusString = 'slide26.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide26_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide26_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide26_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide26_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide26_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide26_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide27.jpg');
+App.progressCountCurrent = 18;
+App.batchStatusString = 'slide27.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide27_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide27_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide27_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide27_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide27_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide27_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide28.jpg');
+App.progressCountCurrent = 19;
+App.batchStatusString = 'slide28.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide28_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide28_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide28_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide28_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide28_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide28_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide29.jpg');
+App.progressCountCurrent = 20;
+App.batchStatusString = 'slide29.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide29_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide29_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide29_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide29_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide29_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide29_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide30.jpg');
+App.progressCountCurrent = 21;
+App.batchStatusString = 'slide30.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide30_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide30_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide30_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide30_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide30_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide30_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide31.jpg');
+App.progressCountCurrent = 22;
+App.batchStatusString = 'slide31.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide31_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide31_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide31_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide31_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide31_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide31_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide32.jpg');
+App.progressCountCurrent = 23;
+App.batchStatusString = 'slide32.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide32_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide32_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide32_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide32_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide32_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide32_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide33.jpg');
+App.progressCountCurrent = 24;
+App.batchStatusString = 'slide33.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide33_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide33_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide33_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide33_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide33_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide33_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide34.jpg');
+App.progressCountCurrent = 25;
+App.batchStatusString = 'slide34.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide34_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide34_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide34_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide34_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide34_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide34_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide35.jpg');
+App.progressCountCurrent = 26;
+App.batchStatusString = 'slide35.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide35_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide35_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide35_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide35_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide35_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide35_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide36.jpg');
+App.progressCountCurrent = 27;
+App.batchStatusString = 'slide36.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide36_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide36_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide36_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide36_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide36_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide36_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide37.jpg');
+App.progressCountCurrent = 28;
+App.batchStatusString = 'slide37.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide37_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide37_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide37_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide37_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide37_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide37_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide38.jpg');
+App.progressCountCurrent = 29;
+App.batchStatusString = 'slide38.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide38_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide38_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide38_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide38_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide38_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide38_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide39.jpg');
+App.progressCountCurrent = 30;
+App.batchStatusString = 'slide39.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide39_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide39_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide39_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide39_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide39_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide39_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide40.jpg');
+App.progressCountCurrent = 31;
+App.batchStatusString = 'slide40.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide40_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide40_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide40_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide40_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide40_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide40_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide41.jpg');
+App.progressCountCurrent = 32;
+App.batchStatusString = 'slide41.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide41_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide41_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide41_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide41_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide41_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide41_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide42.jpg');
+App.progressCountCurrent = 33;
+App.batchStatusString = 'slide42.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide42_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide42_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide42_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide42_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide42_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide42_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide43.jpg');
+App.progressCountCurrent = 34;
+App.batchStatusString = 'slide43.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide43_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide43_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide43_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide43_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide43_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide43_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide44.jpg');
+App.progressCountCurrent = 35;
+App.batchStatusString = 'slide44.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide44_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide44_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide44_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide44_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide44_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide44_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide45.jpg');
+App.progressCountCurrent = 36;
+App.batchStatusString = 'slide45.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide45_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide45_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide45_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide45_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide45_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide45_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide46.jpg');
+App.progressCountCurrent = 37;
+App.batchStatusString = 'slide46.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide46_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide46_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide46_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide46_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide46_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide46_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide47.jpg');
+App.progressCountCurrent = 38;
+App.batchStatusString = 'slide47.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide47_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide47_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide47_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide47_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide47_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide47_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide48.jpg');
+App.progressCountCurrent = 39;
+App.batchStatusString = 'slide48.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide48_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide48_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide48_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide48_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide48_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide48_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide49.jpg');
+App.progressCountCurrent = 40;
+App.batchStatusString = 'slide49.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide49_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide49_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide49_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide49_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide49_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide49_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide50.jpg');
+App.progressCountCurrent = 41;
+App.batchStatusString = 'slide50.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide50_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide50_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide50_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide50_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide50_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide50_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide51.jpg');
+App.progressCountCurrent = 42;
+App.batchStatusString = 'slide51.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide51_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide51_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide51_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide51_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide51_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide51_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide52.jpg');
+App.progressCountCurrent = 43;
+App.batchStatusString = 'slide52.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide52_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide52_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide52_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide52_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide52_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide52_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide53.jpg');
+App.progressCountCurrent = 44;
+App.batchStatusString = 'slide53.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide53_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide53_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide53_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide53_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide53_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide53_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide54.jpg');
+App.progressCountCurrent = 45;
+App.batchStatusString = 'slide54.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide54_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide54_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide54_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide54_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide54_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide54_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide55.jpg');
+App.progressCountCurrent = 46;
+App.batchStatusString = 'slide55.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide55_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide55_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide55_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide55_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide55_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide55_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide56.jpg');
+App.progressCountCurrent = 47;
+App.batchStatusString = 'slide56.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide56_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide56_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide56_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide56_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide56_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide56_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide57.jpg');
+App.progressCountCurrent = 48;
+App.batchStatusString = 'slide57.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide57_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide57_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide57_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide57_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide57_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide57_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide58.jpg');
+App.progressCountCurrent = 49;
+App.batchStatusString = 'slide58.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide58_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide58_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide58_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide58_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide58_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide58_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide59.jpg');
+App.progressCountCurrent = 50;
+App.batchStatusString = 'slide59.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide59_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide59_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide59_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide59_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide59_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide59_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide60.jpg');
+App.progressCountCurrent = 51;
+App.batchStatusString = 'slide60.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide60_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide60_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide60_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide60_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide60_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide60_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide61.jpg');
+App.progressCountCurrent = 52;
+App.batchStatusString = 'slide61.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide61_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide61_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide61_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide61_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide61_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide61_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide62.jpg');
+App.progressCountCurrent = 53;
+App.batchStatusString = 'slide62.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide62_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide62_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide62_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide62_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide62_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide62_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide63.jpg');
+App.progressCountCurrent = 54;
+App.batchStatusString = 'slide63.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide63_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide63_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide63_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide63_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide63_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide63_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide64.jpg');
+App.progressCountCurrent = 55;
+App.batchStatusString = 'slide64.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide64_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide64_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide64_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide64_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide64_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide64_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide65.jpg');
+App.progressCountCurrent = 56;
+App.batchStatusString = 'slide65.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide65_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide65_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide65_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide65_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide65_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide65_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide66.jpg');
+App.progressCountCurrent = 57;
+App.batchStatusString = 'slide66.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide66_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide66_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide66_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide66_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide66_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide66_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide67.jpg');
+App.progressCountCurrent = 58;
+App.batchStatusString = 'slide67.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide67_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide67_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide67_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide67_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide67_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide67_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide68.jpg');
+App.progressCountCurrent = 59;
+App.batchStatusString = 'slide68.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide68_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide68_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide68_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide68_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide68_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide68_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide70.jpg');
+App.progressCountCurrent = 60;
+App.batchStatusString = 'slide70.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide70_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide70_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide70_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide70_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide70_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide70_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide71.jpg');
+App.progressCountCurrent = 61;
+App.batchStatusString = 'slide71.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide71_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide71_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide71_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide71_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide71_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide71_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide72.jpg');
+App.progressCountCurrent = 62;
+App.batchStatusString = 'slide72.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide72_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide72_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide72_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide72_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide72_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide72_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide73.jpg');
+App.progressCountCurrent = 63;
+App.batchStatusString = 'slide73.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide73_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide73_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide73_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide73_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide73_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide73_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide74.jpg');
+App.progressCountCurrent = 64;
+App.batchStatusString = 'slide74.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide74_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide74_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide74_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide74_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide74_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide74_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide75.jpg');
+App.progressCountCurrent = 65;
+App.batchStatusString = 'slide75.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide75_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide75_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide75_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide75_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide75_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide75_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide76.jpg');
+App.progressCountCurrent = 66;
+App.batchStatusString = 'slide76.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide76_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide76_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide76_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide76_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide76_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide76_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide77.jpg');
+App.progressCountCurrent = 67;
+App.batchStatusString = 'slide77.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide77_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide77_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide77_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide77_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide77_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide77_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide78.jpg');
+App.progressCountCurrent = 68;
+App.batchStatusString = 'slide78.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide78_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide78_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide78_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide78_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide78_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide78_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide79.jpg');
+App.progressCountCurrent = 69;
+App.batchStatusString = 'slide79.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide79_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide79_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide79_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide79_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide79_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide79_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide80.jpg');
+App.progressCountCurrent = 70;
+App.batchStatusString = 'slide80.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide80_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide80_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide80_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide80_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide80_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide80_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide81.jpg');
+App.progressCountCurrent = 71;
+App.batchStatusString = 'slide81.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide81_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide81_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide81_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide81_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide81_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide81_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide82.jpg');
+App.progressCountCurrent = 72;
+App.batchStatusString = 'slide82.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide82_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide82_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide82_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide82_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide82_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide82_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide83.jpg');
+App.progressCountCurrent = 73;
+App.batchStatusString = 'slide83.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide83_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide83_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide83_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide83_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide83_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide83_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide84.jpg');
+App.progressCountCurrent = 74;
+App.batchStatusString = 'slide84.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide84_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide84_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide84_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide84_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide84_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide84_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide85.jpg');
+App.progressCountCurrent = 75;
+App.batchStatusString = 'slide85.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide85_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide85_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide85_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide85_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide85_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide85_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide86.jpg');
+App.progressCountCurrent = 76;
+App.batchStatusString = 'slide86.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide86_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide86_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide86_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide86_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide86_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide86_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide87.jpg');
+App.progressCountCurrent = 77;
+App.batchStatusString = 'slide87.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide87_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide87_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide87_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide87_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide87_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide87_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide88.jpg');
+App.progressCountCurrent = 78;
+App.batchStatusString = 'slide88.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide88_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide88_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide88_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide88_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide88_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide88_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide89.jpg');
+App.progressCountCurrent = 79;
+App.batchStatusString = 'slide89.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide89_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide89_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide89_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide89_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide89_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide89_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide90.jpg');
+App.progressCountCurrent = 80;
+App.batchStatusString = 'slide90.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide90_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide90_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide90_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide90_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide90_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide90_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide91.jpg');
+App.progressCountCurrent = 81;
+App.batchStatusString = 'slide91.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide91_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide91_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide91_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide91_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide91_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide91_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide92.jpg');
+App.progressCountCurrent = 82;
+App.batchStatusString = 'slide92.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide92_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide92_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide92_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide92_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide92_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide92_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide93.jpg');
+App.progressCountCurrent = 83;
+App.batchStatusString = 'slide93.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide93_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide93_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide93_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide93_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide93_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide93_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide94.jpg');
+App.progressCountCurrent = 84;
+App.batchStatusString = 'slide94.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide94_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide94_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide94_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide94_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide94_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide94_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide95.jpg');
+App.progressCountCurrent = 85;
+App.batchStatusString = 'slide95.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide95_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide95_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide95_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide95_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide95_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide95_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide96.jpg');
+App.progressCountCurrent = 86;
+App.batchStatusString = 'slide96.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide96_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide96_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide96_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide96_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide96_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide96_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide97.jpg');
+App.progressCountCurrent = 87;
+App.batchStatusString = 'slide97.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide97_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide97_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide97_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide97_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide97_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide97_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide98.jpg');
+App.progressCountCurrent = 88;
+App.batchStatusString = 'slide98.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide98_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide98_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide98_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide98_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide98_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide98_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide99.jpg');
+App.progressCountCurrent = 89;
+App.batchStatusString = 'slide99.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide99_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide99_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide99_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide99_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide99_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide99_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide1.jpg');
+App.progressCountCurrent = 90;
+App.batchStatusString = 'slide1.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide1_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide1_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide1_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide1_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide1_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide1_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide2.jpg');
+App.progressCountCurrent = 91;
+App.batchStatusString = 'slide2.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide2_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide2_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide2_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide2_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide2_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide2_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide3.jpg');
+App.progressCountCurrent = 92;
+App.batchStatusString = 'slide3.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide3_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide3_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide3_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide3_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide3_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide3_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide4.jpg');
+App.progressCountCurrent = 93;
+App.batchStatusString = 'slide4.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide4_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide4_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide4_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide4_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide4_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide4_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide5.jpg');
+App.progressCountCurrent = 94;
+App.batchStatusString = 'slide5.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide5_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide5_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide5_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide5_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide5_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide5_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide6.jpg');
+App.progressCountCurrent = 95;
+App.batchStatusString = 'slide6.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide6_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide6_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide6_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide6_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide6_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide6_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide7.jpg');
+App.progressCountCurrent = 96;
+App.batchStatusString = 'slide7.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide7_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide7_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide7_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide7_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide7_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide7_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide8.jpg');
+App.progressCountCurrent = 97;
+App.batchStatusString = 'slide8.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide8_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide8_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide8_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide8_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide8_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide8_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide9.jpg');
+App.progressCountCurrent = 98;
+App.batchStatusString = 'slide9.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide9_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide9_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide9_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide9_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide9_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide9_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide100.jpg');
+App.progressCountCurrent = 99;
+App.batchStatusString = 'slide100.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide100_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide100_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide100_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide100_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide100_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide100_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide101.jpg');
+App.progressCountCurrent = 100;
+App.batchStatusString = 'slide101.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide101_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide101_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide101_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide101_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide101_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide101_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide102.jpg');
+App.progressCountCurrent = 101;
+App.batchStatusString = 'slide102.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide102_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide102_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide102_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide102_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide102_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide102_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide103.jpg');
+App.progressCountCurrent = 102;
+App.batchStatusString = 'slide103.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide103_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide103_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide103_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide103_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide103_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide103_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/photos/original/slide104.jpg');
+App.progressCountCurrent = 103;
+App.batchStatusString = 'slide104.jpg';
+if (!Files.exists('file:///W|/hoist/photos/images/slide104_jpg.jpg') || confirm('file:///W|/hoist/photos/images/slide104_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/images/slide104_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/photos/thumbnails/slide104_jpg.jpg') || confirm('file:///W|/hoist/photos/thumbnails/slide104_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/photos/thumbnails/slide104_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+'done';

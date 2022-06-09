@@ -1,0 +1,1251 @@
+/*  GENERAL LAYOUT */
+
+body	{
+  	background: #beb3b3;
+	color: #000;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	border-top: 0;
+	text-align: center;
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-size: 76%;
+	line-height:1.4em;
+	}
+	
+img	{
+	margin: 0;  /* for Mac IE5.x 3px image margin bug */
+	border: 0;
+	padding: 0;
+	}
+
+#wrapper	{
+	background: #fff;
+	color: #000;
+	margin: 0;
+	padding: 0;
+	min-width: 720px; 
+	}
+
+#longdescwrapper	{
+	background: #fff;
+	color: #000;
+	margin: 20px;
+	padding: 10px;
+	width: 500px;
+	}
+
+* html div#longdescwrapper {  /* This is the Tan hack */ 
+	width: 520px; /* width for IE5 Win */
+	w\idth: 500px;  /* reset width for IE5 Mac and IE6 */
+	} 
+
+/* #pubwrapper	{
+	background: #fff;
+	color: #000;
+	margin: 10px;
+	padding: 0;
+	border: 1px solid #666;
+	min-width: 722px; 
+	} */
+
+* html div#pubwrapper {  /* This is the Tan hack */ 
+	min-width: 722px; 
+	min-w\idth: 720px; } 
+
+#header	{
+	background: #beb3b3;
+	color: #050;
+	border: 0;
+	border-bottom: 1px solid #ddd;
+	margin: 0;
+	padding: 10px;
+	text-align: left;
+	height: 78px;	 
+	}
+
+html>#header	{
+	height: 98px;
+	} 
+
+* html div#header {  /* This is the Tan hack */ 
+	height: 98px; 
+	he\ight: 78px; } 
+
+#solologo	{
+		float: left;
+		width: 259px;
+    }
+
+#solotitle	{
+		width: 181px;
+		float: left;
+    }
+
+#fslogo	{
+		float: right;
+		width: 75px;
+    }
+
+#rmrslogo	{
+		float: right;
+		width: 185px;
+    }
+
+#pagebody	{
+	padding: 0;
+	margin: 0;
+	border: 0;
+	text-align: left;
+	color: #333;
+	background: #fff;
+	clear: both;
+	}
+
+#pagebody	img {
+	margin: 0;  /* for Mac IE5.x 3px image margin bug */
+	border: 0;
+	padding: 0;
+	}
+
+#maincontent	{
+	margin: 0 0 0 210px;
+	padding: 10px;
+	height: 100%;
+	background: #fff;
+	overflow: visible; /* fix for WIN/IE5.5 and 6.0 italics bug - italics rendering wider than page and causing content to be bumped below floated menu bar */
+	}
+
+#fixedwidth	{
+	width: 480px;
+	}
+
+#notice {
+	margin: 0 0 10px 0;
+	border: 2px solid #f00;
+	color: #f00;
+	background: #eee;
+	padding: 10px;
+	text-align: center;
+	font-size: small;	
+	}
+
+#sidebar	{
+	float: left;
+	width: 189px; 
+	margin: 0;
+	border: 0;
+	border-right: 1px dotted #ccc;
+	border-bottom: 1px dotted #ccc;
+	padding: 10px;
+	background: #eee;
+	color: #666;
+	height: 100%;
+	}	
+
+* html div#sidebar {  /* This is the Tan hack */ 
+	width: 210px; 
+	w\idth: 189px; } 
+
+#mainnav {
+	width: 189px;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	}
+	
+#footer {
+	border: 0;
+	border-top: 1px solid #ccc;
+	color: #333;
+	background: #beb3b3;
+	padding: 10px;
+	text-align: left;
+	clear: both;
+	}
+
+#figurewrapper	{
+	margin: 0;
+	border: 0;
+	padding: 10px;
+	background: #fff;
+	color: #000;
+	}	
+
+#logdate	{ /* STYLE for Dates in SOLO "What's New?" page */
+	
+	}
+
+
+/* TYPOGRAPHY STYLES */
+
+h1, h2, h3, h4, h5, h6	{
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-weight: normal;
+	margin-top: 25px;
+	margin-bottom: 2px;
+	letter-spacing: 1px;
+	color: #000;
+	}
+	
+h1	{
+  margin-top: 0;
+	font-size: 1.6em;
+  }
+
+h2	{
+  margin-top: 35px; 
+	font-size: 1.4em;
+   	}
+
+h3	{ 
+	font-weight: bold;
+	font-size: 1.2em;
+		}
+
+h4	{ 
+	font-size: 1.1em;
+	font-weight: bold;
+		}
+
+h5, h6	{ 
+	font-size: 1.0em;
+	font-weight: bold;
+		}
+
+p	{
+	line-height: 150%;
+	text-align: left;
+	margin-top: 0;
+	margin-bottom: 1em;
+	font-size: 1.0em;
+	}
+	
+abbr {
+	font-style: normal;
+	}
+
+.topheading	{
+	text-transform: uppercase;
+	margin-top: 0;
+	margin-bottom: 10px;
+	color: #000;
+	}
+
+.firstsection { /* FIRST NEW SECTION AFTER .topheading DIVIDER */
+	margin-top: 10px;
+	}
+	
+.section { /* FOR BEGINNING A NEW SECTION - DIVIDER */
+	margin-top: 35px;
+	border: 1px dotted #ded7d7;
+	background-color: #eee9e9;
+	padding: 3px 4px;
+	}
+	
+.subsection { /* FOR BEGINNING A NEW SUBSECTION - DIVIDER */
+	margin-top: 30px;
+	border-top: 2px dotted #ded7d7;
+	padding-top: 10px;
+	}
+	
+.lastofgroup { /* FOR BEGINNING A NEW SUBSECTION - DIVIDER */
+	margin-bottom: 10px;
+	}
+	
+.topofpagelink	{
+	margin: 1.0em 0 10px 0;
+	font-size: 1.0em;
+	font-weight: normal;
+	text-align: left;
+	}
+
+.backlink	{
+	margin-top: 1.4em;
+	}
+	
+.subnav	{
+	text-transform: uppercase;
+	margin: 0 0 10px 0;
+	font-size: 0.9em;
+	font-weight: bold;
+	color: #999;
+	}
+
+.subnavhidden	{
+	text-transform: uppercase;
+	margin: 0 0 20px 0;
+	font-size: 0.9em;
+	font-weight: bold;
+	color: #999;
+	}
+
+.subnavlist {	
+	padding-bottom: 20px;
+	margin-bottom: 30px;
+	border-bottom: 2px dotted #999;
+	}
+
+.dateupdated, .note	{
+	font-size: 0.9em;
+	color: #999;
+	}
+
+.notes { 
+	color: #999999; 
+	font-size: 0.9em;
+	}
+
+.ital {
+	font-style: italic; 
+	}
+
+.new-info  {
+	color:#ab0534;
+	font-weight:bold;
+	}
+
+#biblio p { 
+	padding-left: 10px; 
+	text-indent: -10px; 
+	}
+
+#header #solotitle h1	{
+		font-family: Georgia, "Times New Roman", Times, serif;
+		color: #050;
+    margin-top: 0;
+    clear: both;
+    font-size: 12px;       
+    }
+
+#pagebody h1.welcome	{
+		color: #060;
+		text-align: center;
+    }
+
+#pagebody #maincontent #notice h2	{
+	color: #f00;
+	font-weight: bold;
+	text-decoration: underline;
+	margin-bottom: 2px;
+	margin-top: 0;
+	}	
+	
+#pagebody #maincontent #notice p	{
+	color: #f00;
+	margin-bottom: 2px;
+	}	
+	
+#maincontent dl	{
+	margin: 0;
+	padding: 0;
+	}
+	
+#maincontent dt 	{
+	font-weight: normal;
+	font-size: 1.0em;
+	}   
+	
+#maincontent dd 	{
+	padding: 0;
+	margin: 2px 0 10px 0;
+	}   	
+
+#maincontent .researchpapers li 	{
+/* to break up listings in bibliography style and make them more readable */
+	margin: 0 0 8px 0;
+	padding-left: 10px; 
+	text-indent: -10px; 
+	}   	
+
+#updatelog li 	{
+	margin: 0 0 8px 0;
+	padding-left: 10px; 
+	text-indent: -10px; 
+	}   	
+
+#updatelog li ul 	{
+	margin: 14px 0 20px 0;
+	}   	
+
+#updatelog li ul li 	{
+	margin: 0 0 8px 0;
+	padding-left: 10px; 
+	text-indent: -10px;
+	list-style-image: none;
+	}   	
+
+ul.nestedlist li	{
+/* to break up list items that contain nested lists and make them more readable */
+	margin: 0 0 8px 0;
+	}   	
+
+ul.nestedlist li ul li	{
+/* to reset bottom margin for nested lists */
+	margin: 0;
+	}   	
+
+#mainnav ul	{
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	border: 0;
+	}
+	
+#mainnav ul li	{
+	list-style: disc outside;
+	margin: 0 0 0 15px;
+	padding: 0;
+	line-height: 1.5em;
+	font-size: 0.9em;
+	}	
+
+#mainnav ul li a {
+	font-weight: normal;
+	}
+
+#mainnav dl	{
+	margin: 0;
+	padding: 0;
+	}
+	
+#mainnav dl.dividerabove1	{
+	margin: 10px 0 0 0;
+	padding: 10px 0 0 0;
+	border-top: 1px dotted #aaa;
+	}
+	
+#mainnav dt 	{
+	font-weight: normal;
+	font-size: 1.1em;
+	}   
+	
+#mainnav dd 	{
+	padding: 0;
+	margin: 2px 0 10px 0;
+	}   	
+
+#footer p {
+	font-size: 0.9em;
+	}
+
+#pagebody #maincontent img.map {
+	margin-top:10px;
+	margin-bottom:10px;
+	}
+
+/* LINK STYLES */
+
+a:link {
+	text-decoration: underline;
+	color: #960; /* was #960 */
+	background: transparent;
+	}
+	
+a:visited {
+	text-decoration: underline;
+	color: #908080; /* was #960 */
+	background: transparent;
+	}
+	
+a:hover {
+	text-decoration: underline;
+	color: #F03;
+	background: transparent;
+	}
+	
+/* a:link:focus, a:visited:focus {
+	text-decoration: underline;
+	color: #F03;
+	background: transparent;
+	} */
+	
+a:active {
+	text-decoration: underline;
+	color: #960;
+	background: transparent;
+	}
+
+#mainnav a:link {
+	text-decoration: none;
+	color: #960;
+	background: transparent;
+	}
+	
+#mainnav a:visited {
+	text-decoration: none;
+	color: #960;
+	background: transparent;
+	}
+	
+#mainnav a:hover {
+	text-decoration: underline;
+	color: #F03;
+	background: transparent; 
+	}
+	
+/* #mainnav a:link:focus, a:visited:focus {
+	text-decoration: none;
+	color: #F03;
+	background: transparent; 
+	} */
+
+#mainnav a:active {
+	text-decoration: none;
+	color: #960;
+	background: transparent;
+	}
+
+#mainnav p.whatsnew a {
+	display:block;
+	width:170px;
+	padding:5px;
+	}
+	
+#mainnav p.whatsnew a:link {
+	text-decoration: none;
+	color: #060;
+	background-color: #beb3b3;
+	border:1px solid #006600;
+	}
+	
+#mainnav p.whatsnew a:visited {
+	text-decoration: none;
+	color: #060;
+	background-color: #cfc6c6;
+	border:1px solid #006600;
+	}
+	
+#mainnav p.whatsnew a:hover {
+	text-decoration: underline;
+	color: #F03;
+	background-color: #ffffff; 
+	border:1px solid #F03;
+	}
+	
+#mainnav p.whatsnew a:active {
+	text-decoration: none;
+	color: #060;
+	background-color: #eeeeee;
+	border:1px solid #006600;
+	}
+
+.subnav a:link {
+	text-decoration: underline;
+	color: #960;
+	background: transparent;
+	}
+	
+.subnav a:visited {
+	text-decoration: underline;
+	color: #960;
+	background: transparent;
+	}
+	
+.subnav a:hover {
+	text-decoration: underline;
+	color: #F03;
+	background: transparent;
+	}
+	
+.subnav a:active {
+	text-decoration: underline;
+	color: #960;
+	background: transparent;
+	}
+
+
+
+/* ACCESSIBILITY HELPS */
+
+/*#skipnav a, #skipnav a:hover, #skipnav a:visited  
+ { 
+ position:absolute; 
+ left:0px; 
+ top:-500px; 
+ width:1px; 
+ height:1px; 
+ overflow:hidden;
+ } 
+ Ê
+ #skipnav a:active 
+ { 
+ position:static; 
+ width:auto; 
+ height:auto; 
+ } */
+ 
+/*#skipnav a:link, #skipnav a:visited, #skipnav a:link:hover, #skipnav a:visited:hover, { 
+	background-color: transparent;
+	color: #beb3b3;
+	font-size: 1px;
+	text-decoration: none;
+	width: 1px;
+	height: 1px;
+	overflow: hidden; 
+	}
+
+#skipnav a:link:active, #skipnav a:link:focus, #skipnav a:visited:active, #skipnav a:visited:focus { 
+	background-color: transparent; 
+    color: red; 
+	font-size: 1em;
+	text-decoration: underline;
+	} */
+
+a.skip {	
+	background-color: transparent;
+    color: #beb3b3;
+	font-size: 1px;
+	text-decoration: none;
+	width: 1px;
+  	height: 1px;
+  	overflow: hidden; 
+	} 
+	
+a.skip:link {	
+	background-color: transparent;
+	color: #beb3b3;
+	font-size: 1px;
+	text-decoration: none;
+	width: 1px;
+	height: 1px;
+	overflow: hidden; 
+	} 
+	
+a.skip:visited {	
+	background-color: transparent;
+	color: #beb3b3;
+	font-size: 1px;
+	text-decoration: none;
+	width: 1px;
+	height: 1px;
+	overflow: hidden; 
+	} 
+	
+a.skip:active, a.skip:focus {
+	background-color: transparent; 
+	color: red; 
+	font-size: 1em;
+	text-decoration: underline;
+	}
+	 
+a.skip:hover {	
+	background-color: transparent;
+	color: #beb3b3;
+	font-size: 1px;
+	text-decoration: none;
+	width: 1px;
+	height: 1px;
+	overflow: hidden; 
+	} 
+
+.hiddenmsg {
+	margin: 0;
+	border: 0;
+	padding: 0;
+	font-size: 1px;
+	width: 1px;
+	height: 1px;
+	overflow: hidden; 
+	}
+
+
+
+/* BEGIN SPECIAL STYLES FOR SOLO INFORMATIONAL TABLES */
+
+.navtable {
+	margin-bottom: 10px;
+	}
+
+.navtable th {
+	background: #efd39a;
+	}
+
+.navtable td {
+	vertical-align: top;
+	color: #333;
+	}
+
+.navtable ul	{
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	border: 0;
+	}
+	
+.navtable ul li	{
+	list-style: disc outside;
+	color: #333;
+	margin: 0 0 0 15px;
+	padding: 0;
+	line-height: 1.5em;
+	font-size: 1.0em;
+	}	
+
+.navtable ul li a {
+	font-weight: normal;
+	}
+
+.navtable td dl dt a {
+	font-weight: bold;
+	}
+
+
+/* BEGIN SPECIAL STYLES FOR NATIONAL FOREST PAGES */
+
+.nfsubhead	{
+	text-transform: none;
+	margin: 0;
+	font-size: 0.8em;
+	font-weight: normal;
+	color: #aa9a9a;
+	}
+
+.natforest {
+	border: 1px solid #aaa;
+	margin-bottom: 10px;
+	padding: 5px;
+	}
+
+.natforest th {
+	background: #efd39a;
+	}
+
+.natforest td {
+	vertical-align: top;
+	color: #333;
+	}
+
+.natforest ul	{
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	border: 0;
+	}
+	
+.natforest ul li	{
+	list-style: disc outside;
+	color: #999;
+	margin: 0 0 0 15px;
+	padding: 0;
+	line-height: 1.5em;
+	font-size: 1.0em;
+	}	
+
+.natforest ul li a {
+	font-weight: normal;
+	}
+
+.natforest td dl dt a {
+	font-weight: bold;
+	}
+
+.ipnf {
+	color: #0a0; /* map is #0a0 */ /* was #008000? */
+	}
+
+.clearwater {
+	color: #a0a; /* map is #a0a */ /* was #800080? */
+	}
+
+.nezperce {
+	color: #00a; /* map is #00a */ /* was #000080? */
+	}
+
+.kootenai {
+	color: #a00; /* map is #a00 */  /* was #800000? */
+	}
+
+.flathead {
+	color: #55f; /* was #3333CC? */
+	}
+
+.lolo {
+	color: #0aa; /* map is #0cc */
+	}
+
+.bitterroot {
+	color: #a50; /* map is #a50 */ /* was #663300? */
+	}
+
+.landc {
+	color: #F5F; /* was #FF00FF? */
+	}
+
+.helena {
+	color: #f00; /* was #CC3300? */
+	}
+
+.beaverhead {
+	color: #f90; /* was #0c0 - green */
+	}
+
+.gallatin {
+	color: #333;
+	}
+
+.custer {
+	color: #c93;
+	}
+
+.dakota {
+	color: #000; /* was #55f - blue */
+	}
+
+.region1www {
+	color: #060;
+	}
+
+/* END SPECIAL STYLES FOR NATIONAL FORESTS */
+
+
+
+/* HACKS */
+
+div.clearer {clear: both; line-height: 0; height: 0; }
+/* put above in bottom of floated element to cause containing element to surround it - didn't work in IE PC? */
+
+.clearfix:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    overflow: hidden;
+    clear: both; 
+    visibility: hidden;
+}
+
+/* Hides from IE-mac \*/ 
+* html .clearfix {height: 1%;}
+/* End hide from IE-mac */ 	
+
+
+/* SPECIAL PUBLICATION STYLES */
+
+#pub	{ 
+	width: auto; 
+	padding: 0;
+	border: 0; 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	text-align: left;
+	color: #000000; 
+	line-height: 1.4em; 
+	height: 100%;
+	background: #fff;
+	}
+
+#outsidesolo	{  /* FOR PUBS IF DISPLAYED OUTSIDE OF SOLO */
+	margin: 20px 5% 30px 5%;
+	background-color: #ffffff;
+	}
+
+#printpagelink	{
+	margin: 0 0 10px 0;
+	font-size: 1.0em;
+	font-weight: bold;
+	text-align: right;
+	}
+
+#pub #psubnav p {
+	text-transform: uppercase;
+	margin: 0 0 10px 0;
+	font-size: 0.9em;
+	color: #999; 
+	font-weight: bold;
+	}
+
+#pub td, #pub ul, #pub ol, #pub li, #pub blockquote { 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 1.0em;
+	color: #000000; 
+	line-height: 1.4em; }
+
+/* (PUBS OLD COLORS) A {color:#3300CC;} A:active {color:#FFCC00;} A:hover {color:#FF0033;} A:visited:hover{color:#FF0033;} A:visited {color:#666699;} */
+
+#pub p { 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 1.0em;
+	color: #000000; 
+	line-height: 1.4em; 
+	text-align: left; 
+	}
+
+#pub h1 { 
+	font-family: Georgia, "Times New Roman", Times, serif; 
+	font-weight: normal; 
+	color: #000000; 
+	line-height: 1.2em; 
+	margin-bottom: 10px; 
+	}
+
+#pub h2 { 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-weight: bold; 
+	color: #000000; 
+	line-height: 1.2em; 
+	margin-top: 25px;  
+	margin-bottom: 5px;
+	}
+
+#pub h3 { 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-weight: bold; 
+	color: #000000; 
+	line-height: 1.2em; 
+	margin-top: 25px;  
+	margin-bottom: 5px; 
+	}
+
+#pub h4, h5, h6 { 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-weight: bold; 
+	color: #000000; 
+	line-height: 1.2em; 
+	}
+
+#pub img { 
+	border: 0; 
+	margin: 0;
+	}
+
+#pub .nav { 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 0.9em;
+	color: #666666; 
+	margin-bottom: 50px; 
+	}
+
+#pub .navtext { 
+	vertical-align: 80%; 
+	}
+
+#pub .bld {
+	font-style: normal;	
+	font-weight: bold; 
+	}
+
+#pub .ital {
+	font-style: italic; 
+	font-weight: normal; 
+	}
+
+#pub .italbld {
+	font-style: italic; 
+	font-weight: bold; 
+	}
+
+#pub .italsm {
+	font-style: italic; 
+	font-weight: normal; 
+	font-size: 0.9em;
+	}
+
+#pub ul.nobullet { 
+	list-style-type: none; 
+	}
+
+#pub .overln { 
+	text-decoration: overline; 
+	}
+
+#pub .nobold { 
+	font-weight: normal; 
+	}
+
+#pub .authors { 
+	font-family: Georgia, "Times New Roman", Times, serif; 
+	font-size: 1.2em;
+	font-weight: bold; 
+	color: #000000; 
+	}
+
+#pub .ref { 
+	padding-left: 10px; 
+	text-indent: -10px; 
+	}
+
+#pub #biblio p { 
+	padding-left: 10px; 
+	text-indent: -10px; 
+	}
+
+#pub dl.glossary { 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 1.0em;
+	color: #000000; 
+	line-height: 1.4em; 
+	text-align: left; 
+	padding-left: 10px; 
+	text-indent: -10px; 
+	}
+
+#pub dl.glossary dt { 
+	display: run-in; 
+	font-weight: bold; 
+	}
+
+#pub dl.glossary dd { 
+	font-weight: normal; 
+	}
+
+#pub .notes { 
+	color: #999999; 
+	font-size: 0.9em;
+	}
+
+
+/* BEGIN SPECIAL PUBLICATION FIGURE AND TABLE STYLES */
+
+#pub .value { 
+	font-size: 0.9em;
+	font-style: italic; 
+	font-weight: normal; 
+	}
+
+#pub .figure { 
+	border-color: #999999; 
+	border-style: solid; 
+	border-width: 1px; 
+	padding: 6px; 
+	width: 548px; 
+	page-break-inside: avoid; 
+	margin-top: 30px;
+	margin-bottom: 30px;
+	}
+
+#pub .figuretbl { 
+	border-color: #999999; 
+	page-break-inside: avoid; 
+	margin-top: 30px;
+	margin-bottom: 30px;
+	}
+
+#pub caption { 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 1.0em;
+	font-weight: normal; 
+	color: #000000; 
+	text-align: left; 
+	}
+
+#pub th { 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 1.0em;
+	font-weight: bold; 
+	color: #000000; 
+	background-color: #CCCC99; 
+	text-align: center; 
+	}
+
+#pub .thsubrow { 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 1.0em;
+	font-weight: bold; 
+	color: #000000; 
+	text-align: left; 
+	background-color:	#FFFFCC;
+	}
+
+#pub .thsubcol { 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 1.0em;
+	font-weight: bold; 
+	color: #000000; 
+	text-align: center; 
+	background-color:	#FFFFCC;
+	}
+
+#pub .thsubrow2 { 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 1.0em;
+	font-weight: bold; 
+	color: #000000; 
+	text-align: left; 
+	background-color:	transparent; 
+	}
+
+#pub .thsubcol2 { 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 1.0em;
+	font-weight: bold; 
+	color: #000000; 
+	text-align: center; 
+	background-color:	transparent; 
+	}
+
+#pub .thsmbld {
+	font-size: 0.9em;
+	font-style: normal;	
+	font-weight: bold; 
+	}
+
+#pub .thplain {
+	font-weight: normal; 
+	background-color: #FFFFFF; 
+	text-align: left; 
+	}
+
+#pub thead th.thdata { 
+	vertical-align: top; 
+	}
+	
+#pub tbody th.thdata { 
+	vertical-align: top; 
+	text-align: left;
+	}
+	
+#pub td.data	{ 
+	font-family: Andale Mono, Courier, monospace; 
+	font-weight: normal; 
+	font-style: normal; 
+	text-align: right; 
+	}
+
+#pub td.datacenter	{ 
+	font-family: Andale Mono, Courier, monospace; 
+	font-weight: normal; 
+	font-style: normal; 
+	text-align: center; 
+	}
+
+#pub td.datatotal1	{ 
+	font-family: Andale Mono, Courier, monospace; 
+	font-weight: bold; 
+	font-style: normal; 
+	text-align: right; 
+	background-color: #FFFFCC; 
+	}
+
+#pub th.datatotal1	{ 
+	font-weight: bold; 
+	text-align: right; 
+	background-color: #FFFFCC; 
+	}
+
+#pub .tbllist { 
+	padding-left: 24px; 
+	text-indent: -18px; 
+	}
+
+#longdescwrapper #pub p {
+	text-transform: uppercase;
+	margin: 0 0 10px 0;
+	font-size: 1.0em;
+	color: #999; 
+	font-weight: bold;
+	}
+
+#longdescwrapper #pub dt {
+	margin: 0 0 10px 0;
+	font-size: 1.0em;
+	color: #000; 
+	font-weight: bold;
+	}
+
+/*  END SPECIAL PUBLICATION FIGURE AND TABLE STYLES */
+
+
+/* BEGIN SPECIAL STYLES FOR EQUATIONS IN PUBS */
+
+#pub div.eqnsimple { padding-left: 20px; color: #333399;}
+
+#pub div.eqn {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:4mm;
+	line-height:7mm;
+	text-align:justify;
+	margin:2mm 0 2mm 3cm;
+	color: #333399;
+	}
+
+#pub span.d, span.n {
+	display:block;
+	text-align:center;
+	}
+	
+#pub span.f {
+	line-height:7.5mm;
+	}
+	
+#pub span.f
+	{display:inline-table;
+	border-collapse:collapse;
+	vertical-align:middle;
+	white-space:nowrap;
+	text-align:center;
+	margin:0 2px;}
+#pub span.f
+	{display:inline-block;}
+#pub html > body span.f
+	{display:inline-table;}
+#pub html > body span.f
+	{display:-moz-inline-box;
+	-moz-box-orient:vertical;}
+#pub span.f sub, #pub sub sub, #pub sup sub
+	{top:0.5mm;}
+#pub span.f sup, #pub sup sup, #pub sup sup
+	{bottom:1mm;}
+#pub span.n
+	{border-bottom:solid 1px #333399;}
+#pub sub, #pub sup
+	{vertical-align:baseline;
+	font-size:80%;}
+#pub sub
+	{position:relative;
+	top:1mm;}
+#pub sup
+	{position:relative;
+	bottom:2mm;}
+@media print
+		{
+#pub div.eqn, #pub div.stat
+	{page-break-inside:avoid;}
+		}
+#pub .normalsub
+	{top: 1mm;
+	vertical-align: baseline;
+	font-size:100%;
+	position:relative;}
+#pub .normalsup
+	{bottom:1mm;
+	vertical-align: baseline;
+	font-size:100%;
+	position:relative;}
+	
+/* END SPECIAL STYLES FOR EQUATIONS IN PUBS */
+
+
+/* BEGIN SPECIAL STYLES FOR ECOLOGICAL SUBSECTIONS AND OTHER SPECIAL PUBS */
+
+#pub #ecologicalsubsection .figuretbl, #pub #splitdatatable .figuretbl { 
+	margin-top: 0;
+	margin-bottom: 20px;
+	}
+	
+#pub #splitdatatable .thsubcol2 { 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 1.0em;
+	font-weight: normal; 
+	color: #000000; 
+	text-align: left; 
+	background-color:	transparent; 
+	text-indent: 2em;
+	}
+
+#pub #splitdatatable .thsubcol { 
+	text-align: left; 
+	}
+
+#pub #splitdatatable caption { 
+	font-size: 1.2em; 
+	border-width: 2px 2px 0 2px;
+	border-style: solid;
+	border-color: #999999; 
+	background-color: #CCCC99;
+	padding: 3px;
+	}
+
+/* END SPECIAL STYLES FOR ECOLOGICAL SUBSECTIONS AND OTHER SPECIAL PUBS */
+
+
+/* DEBUGGER */
+/*div {border: 1px solid red;} */

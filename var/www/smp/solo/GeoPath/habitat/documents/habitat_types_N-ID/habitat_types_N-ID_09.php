@@ -1,0 +1,48 @@
+<?php
+require("http://forest.moscowfsl.wsu.edu/smp/solo/shared/header1.php");
+?>
+    <title>Productivity/Management Information on Pinus ponderosa (PIPO) Series</title>
+<?php
+require("http://forest.moscowfsl.wsu.edu/smp/solo/shared/stylesheet.php");
+//invoke_stylesheet();
+require("http://forest.moscowfsl.wsu.edu/smp/solo/shared/header2.php");
+?>
+		<meta name="description" content="Forest Habitat Types of Northern Idaho - Productivity and Management concerns for Pinus ponderosa (PIPO) Series" />
+		<meta name="keywords" content="Forest Habitat Types of Northern Idaho Productivity Management concerns Pinus ponderosa series PIPO" />
+<?php
+require("http://forest.moscowfsl.wsu.edu/smp/solo/shared/header3.php");
+?>
+			<h5 class="subnav"><a href="../../../../index.php">SOLO HOME</a> &gt; <a href="../../index.php">HABITAT TYPES</a> &gt; <a href="index.php">FOREST HABITAT TYPES OF NORTHERN IDAHO</a> &gt; <span class="ital">PINUS PONDEROSA</span> (PIPO) SERIES</h5>
+			<h2 class="topheading"><span class="nfsubhead">Forest Habitat Types of Northern Idaho</span><br />PRODUCTIVITY/MANAGEMENT EXCERPTS</h2>
+			<p class="note">[Excerpted from: Cooper, Stephen V.; Neiman, Kenneth E.; Roberts, David W. Rev. 1991. Forest habitat types of northern Idaho: a second approximation. Gen. Tech. Rep. INT-236. Ogden, UT: U.S. Department of Agriculture, Forest Service, Intermountain Research Station. 143 p.]</p>
+			<div class="navlist">
+				<p>[Pages: <a href="habitat_types_N-ID_08.php">&lt;&lt; Back</a>&nbsp;&nbsp;<a href="index.php">Index</a>&nbsp;&nbsp;<a href="habitat_types_N-ID_01.php">1</a>&nbsp;&nbsp;<a href="habitat_types_N-ID_02.php">2</a>&nbsp;&nbsp;<a href="habitat_types_N-ID_03.php">3</a>&nbsp;&nbsp;<a href="habitat_types_N-ID_04.php">4</a>&nbsp;&nbsp;<a href="habitat_types_N-ID_05.php">5</a>&nbsp;&nbsp;<a href="habitat_types_N-ID_06.php">6</a>&nbsp;&nbsp;<a href="habitat_types_N-ID_07.php">7</a>&nbsp;&nbsp;<a href="habitat_types_N-ID_08.php">8</a>&nbsp;&nbsp;<strong>9</strong>&nbsp;&nbsp;<a href="habitat_types_N-ID_10.php">10</a>&nbsp;&nbsp;<a href="habitat_types_N-ID_11.php">11</a>&nbsp;&nbsp;<a href="habitat_types_N-ID_app.php">Appendixes</a>&nbsp;&nbsp;<a href="habitat_types_N-ID_10.php">Next &gt;&gt;</a> ]</p>
+			</div>
+
+			<h3 class="section"><a name="set1"></a><span class="ital">PINUS PONDEROSA</span> (PIPO) SERIES</h3>
+			<p><strong>Productivity/Management</strong>&#8212;The <span class="ital">P. ponderosa</span> series is generally the least productive forest land of northern Idaho. On grass-dominated sites, productivity is very low and tree regeneration is very scarce and sporadic. Wildlife and livestock grazing is often the major use of these lands. Shrub-dominated sites are much more productive due not only to increased site index, but also to the site's ability to produce greater basal area (that is, higher stocking rates). Daubenmire (1961) found widespread <span class="ital">Arceuthobium campylopodum</span> (dwarf mistletoe) infection of trees on bunchgrass-dominated sites but virtually no parasitization of trees on shrub-dominated sites. Steele and others (1981) found infestation in 15 percent of all stands in central Idaho, while Pfister and others (1977) found none in Montana. Silvicultural controls for mistletoe have been outlined by Barrett (1979).</p>
+			<p>All silvicultural regeneration techniques have been utilized for <span class="ital">P. ponderosa</span>. Site preparation to reduce competition for soil moisture is recommended on most sites. Sites with shallow soils should not be greatly disturbed because any soil loss may irreparably degrade the site. It may therefore be prudent to forgo harvesting sites with less than 24 inches (61 cm) total soil depth. Due to the infrequent concurrent combination of a good seed crop, adequate site preparation, and a cool, moist spring, natural regeneration should not be extensively relied upon (Barrett 1979; Foiles and Curtis 1913; Harrington and Kelsey 1979; Wellner 1970b), A seed-tree treatment, when coupled with interplanting, may be the most realistic approach, accepting that a prolonged regeneration period is expected.</p>
+			<p>Light year-round use of shrubs by deer should be beneficial for tree growth (Kosco and Bartolome 1983). Three to 5 years following plantation establishment, light controlled grazing by domestic livestock should aid timber productivity by reducing herbaceous and woody competition (Currie and others 1978; Wheeler and others 1980).</p>
+									
+			<h4><a name="set1a"></a><span class="ital">Pinus ponderosa/Physocarpus malvaceus</span> h.t. <br />(PIPO/PHMA; ponderosa pine/ninebark)</h4>
+			<p><strong>Soils</strong>&#8212;parent material is mainly loess, with volcanic ash mixed in the upper horizons. Textures range from silt to silty clay-loam. Total depth ranges between 24 and 32 inches (60 and 80 cm), and pH ranges from 5.8 to 6.6. Bare soil and rock usually do not occur on these deep soil sites. Litter depth averages 1.5 inches (4 cm) and totally covers surface on undisturbed sites.</p>
+			<p><strong>Productivity/Management</strong>&#8212;Although timber productivity is low, PIPO/PHMA is still the most productive h.t. within the series. Proper stocking levels and control of highly competitive shrub species are important silvicultural considerations in this h.t. Because total site occupancy by native shrubs typically follows disturbance, planting immediately following logging and site preparation is recommended.</p>
+									
+			<h4><a name="set1b"></a><span class="ital">Pinus ponderosa/Symphoricarpos albus</span> h.t. <br />(PIPO/SYAL; ponderosa pine/common snowberry)</h4>
+			<p><strong>Soils</strong>&#8212;Soil parent materials are typical of the western-most portion of the study area being mainly loess, basalt, metasediments, and some volcanic ash. Textures are fairly heavy, being silt-loam to silty clay-loam. Total depth ranges from 15 to 35 inches (40 to 90 cm). Bare soil and rock usually do not occur on undisturbed sites, Litter depths average 2 inches (5 cm).</p>
+			<p><strong>Productivity/Management</strong>&#8212;Timber productivity in naturally occurring stands of this h.t. is low, but could be improved by means of appropriate stocking levels and control of highly competitive understory vegetation. Although natural regeneration in this h.t. is often successful, once site preparation costs are incurred, early spring planting should be considered so as to ensure prompt site occupancy by tree seedlings.</p>
+												
+			<h4><a name="set1c"></a><span class="ital">Pinus ponderosa/Festuca idahoensis</span> h.t. <br />(PIPO/FEID; ponderosa pine/Idaho fescue)</h4>
+			<p><strong>Productivity/Management</strong>&#8212;Timber productivity of this h.t. is low due to both poor individual tree growth and low site stockability. Tree regeneration will be almost as difficult as on the PIPO/AGSP h.t.; both natural and artificial regeneration will have a generally low probability of success. Forage production for domestic and wild ungulates on this h.t. is greater than on PIPO/AGSP; in southern British Columbia McLean and others (1970) measured 700 lb/acre (784 kg/ha) whereas in northeastern Oregon mean herbage production was 360 lb/acre (404 kg/ha) (Hall 1973). Overgrazing and harsh logging treatments can significantly damage soils and thus site productivity.</p>
+									
+			<h4><a name="set1d"></a><span class="ital">Pinus ponderosa/Agropyron spicatum</span> h.t. <br />(PIPO/AGSP; ponderosa pine/bluebunch wheatgrass)</h4>
+			<p><strong>Productivity/Management</strong>&#8212;This h.t. has very low timber productivity due to both poor individual tree growth and low site stockability. Regeneration of trees, whether naturally or artificially, will have low probability of success; natural site potential will allow only a low basal area stacking level. The major resource of these sites is often forage for wild and domestic ungulates. McLean and others (1970) indicate forage production to average 400 lb/acre (448 kg/ha) for the very similar PSME/AGSP association and Hall (1973) found 430 lb/acre (516 kg/ha) for the PIPO/AGSP c.t. Relatively high amounts of forage are available for cattle and elk; browse production for deer and sheep is essentially zero. Season and amount of use by livestock should be regulated if these sites serve as elk winter range.</p>
+									
+			<p class="backlink"><a href="#set0">&lt;&lt; Back to top</a></p>
+			<p class="backlink"><a href="habitat_types_N-ID_10.php">On to Other Vegetation Types &gt;&gt;</a></p>
+			<div class="navlist">
+				<p>[Pages: <a href="habitat_types_N-ID_08.php">&lt;&lt; Back</a>&nbsp;&nbsp;<a href="index.php">Index</a>&nbsp;&nbsp;<a href="habitat_types_N-ID_01.php">1</a>&nbsp;&nbsp;<a href="habitat_types_N-ID_02.php">2</a>&nbsp;&nbsp;<a href="habitat_types_N-ID_03.php">3</a>&nbsp;&nbsp;<a href="habitat_types_N-ID_04.php">4</a>&nbsp;&nbsp;<a href="habitat_types_N-ID_05.php">5</a>&nbsp;&nbsp;<a href="habitat_types_N-ID_06.php">6</a>&nbsp;&nbsp;<a href="habitat_types_N-ID_07.php">7</a>&nbsp;&nbsp;<a href="habitat_types_N-ID_08.php">8</a>&nbsp;&nbsp;<strong>9</strong>&nbsp;&nbsp;<a href="habitat_types_N-ID_10.php">10</a>&nbsp;&nbsp;<a href="habitat_types_N-ID_11.php">11</a>&nbsp;&nbsp;<a href="habitat_types_N-ID_app.php">Appendixes</a>&nbsp;&nbsp;<a href="habitat_types_N-ID_10.php">Next &gt;&gt;</a> ]</p>
+			</div>
+<?php
+require("http://forest.moscowfsl.wsu.edu/smp/solo/shared/footer.php");
+?>

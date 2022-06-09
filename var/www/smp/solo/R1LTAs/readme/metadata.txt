@@ -1,0 +1,1166 @@
+Identification_Information
+  Citation
+    Citation_Information
+      Originator:        Montana State Library
+      Publication_Date:  19970723
+      Title:             Landtype Associations of the Northern Region
+      Geospatial_Data_Presentation_Form:  map
+      Publication_Information
+        Publication_Place:  Missoula, Montana
+        Publisher:          Montana State Library
+  Description
+    Abstract:
+        Landtype association mapping was done at a scale of
+        1:100,000 by Forest Soil Scientists using a Regionally
+        consistent legend for dominant groups of landforms
+        and geologic materials occurring in repeatable patterns
+        on National Forest land.
+    Purpose:
+        This mapping is intended to support broad-scale watershed
+        and landscape level assessments. It should be used as a
+        stratification tool for defining locations with similar
+        geomorphic environments. Useful for evaluating and comparing
+        biophysical conditions across large landscapes. Directly
+        linked to distinct stream and riparian types (as controlled)
+        by geomorphic properties. Also useful for comparisions of
+        erodability, sediment production and delivery.
+  Time_Period_of_Content
+    Time_Period_Information
+      Range_of_Dates/Times
+        Beginning_Date:  
+        Ending_Date:     19970723
+    Currentness_Reference:  Publication Date
+  Status
+    Progress:  Complete
+    Maintenance_and_Update_Frequency:  Unknown
+  Spatial_Domain
+    Bounding_Coordinates
+      West_Bounding_Coordinate:   -116.755768
+      East_Bounding_Coordinate:   -96.3393326
+      North_Bounding_Coordinate:  48.5051537
+      South_Bounding_Coordinate:  44.1687202
+    Data_Set_G-Polygon
+      Data_Set_G-Polygon_Outer_G-Ring
+        G-Ring_Latitude:   49.1131
+        G-Ring_Longitude:  -117.6045
+        G-Ring_Latitude:   47.2561
+        G-Ring_Longitude:  -96.3976
+        G-Ring_Latitude:   43.6431
+        G-Ring_Longitude:  -97.2687
+        G-Ring_Latitude:   44.0574
+        G-Ring_Longitude:  -116.9444
+        G-Ring_Latitude:   49.1131
+        G-Ring_Longitude:  -117.6045
+  Keywords
+    Theme
+      Theme_Keyword_Thesaurus:  None
+      Theme_Keyword:  subsection
+      Theme_Keyword:  ecological unit
+      Theme_Keyword:  soils
+      Theme_Keyword:  land type
+      Theme_Keyword:  landtype
+      Theme_Keyword:  association
+      Theme_Keyword:  landform
+      Theme_Keyword:  geologic material
+      Theme_Keyword:  section
+    Place
+      Place_Keyword_Thesaurus:  None
+      Place_Keyword:  Montana
+      Place_Keyword:  Idaho
+      Place_Keyword:  North Dakota
+  Access_Constraints:
+        It is strongly recommended that persons wishing to use
+        this coverage obtain a copy of the original CD which
+        includes the documentation of all associated descriptive
+        data for each map unit.
+  Use_Constraints:
+        Persons using this data to create various interpretive maps
+        (ie. PNV maps) based on associating other coverages with the
+        LTA's MUST include the following statement on any such map
+        products: "This map is an interpretive map based on the R-1
+        Landtype Association Mapping. It does not represent any of
+        the levels in the National Hierarical Framework of
+        Ecological Units, and the R-1 ECOMAP Group does not
+        warrant its validity or accuracy.
+        Appropriate use limited to 1:100000 scale. For larger scales
+        the coverage should be used as a stratification tool for
+        defining locations with biophysical similarities.
+
+  Point_of_Contact
+    Contact_Information
+      Contact_Organization_Primary
+        Contact_Organization:  Northern Region, USFS
+        Contact_Person:        John Nesser
+      Contact_Position:        Regional Soil Scientist
+      Contact_Address
+        Address_Type:  mailing and physical address
+        Address:            200 East Broadway
+        City:               Missoula
+        State_or_Province:  Montana
+        Postal_Code:        59807
+        Country:            USA
+      Contact_Voice_Telephone:          (406) 329-3412
+      Contact_Facsimile_Telephone:      (406)
+      Contact_Electronic_Mail_Address:  jnesser/r1@fs.fed.us
+      Hours_of_Service:  Monday-Friday, 8-5, Mountain Time
+  Native_Data_Set_Environment:
+    Arc/Info version 7.1.1, SunOS version 5.4
+    Pathname = .../ltas
+ 
+Data_Quality_Information:
+  Attribute_Accuracy
+    Attribute_Accuracy_Report:
+        Accuracy of area and length attributes is fair.
+  Logical_Consistency_Report:
+        Polygon and arc-node topology exists.
+  Completeness_Report:
+        Data set is complete for Region 1 of USDA NFS.
+        Excludes large areas east of the Continental Divide.
+  Positional_Accuracy
+    Horizontal_Positional_Accuracy
+      Horizontal_Positional_Accuracy_Report:
+        Approximate horizontal accuracy is 51 meters, assuming
+        source data meets National Map Accuracy Standards.
+    Vertical_Positional_Accuracy
+      Vertical_Positional_Accuracy_Report:
+        NONE
+  Lineage
+    Source_Information
+      Source_Citation
+        Citation_Information
+          Originator:  USDA Forest Service Region 1
+          Publication_Date:  19971119
+          Title:  Landtype Associations of the Northern Region
+          Edition:  First
+          Geospatial_Data_Presentation_Form:  map
+          Publication_Information
+            Publication_Place:  Montana State Library
+            Publisher:  GIS-NRIS
+          Other_Citation_Details:
+            CDROM reproduced by Intermountain Research Station, Ogden Utah
+      Source_Scale_Denominator:  100000
+      Type_of_Source_Media:  cdrom
+      Source_Time_Period_of_Content
+        Time_Period_Information
+          Range_of_Dates/Times
+            Beginning_Date: 1992 
+            Ending_Date:     19970723
+        Source_Currentness_Reference:  Ground Condition
+      Source_Citation_Abbreviation:  lta1
+      Source_Contribution:
+          Coordination and correlation of mapping by Forest Soil Scientists.
+    Process_Step
+      Process_Description:
+        Imported 1:24,000 landtype (Soil Survey) coverages from
+        individual Forests.
+      Source_Used_Citation_Abbreviation:  lta1
+      Source_Used_Citation_Abbreviation:  lta1
+      Source_Used_Citation_Abbreviation:  lta1
+      Source_Used_Citation_Abbreviation:  lta1
+      Process_Date:  0
+      Source_Produced_Citation_Abbreviation:
+    Process_Step
+      Process_Description:
+        Scanned 1:100,000 delineations of quads not covered by
+        Landtype Surveys. Scanning done at 400 dpi, coverages
+        created using Arc/Cad.
+      Process_Date:  0
+      Source_Produced_Citation_Abbreviation:
+    Process_Step
+      Process_Description:
+        Coverages edge-matched in Arcedit. Plots sent to Forests
+        for corrections.
+      Process_Date:  0
+      Source_Produced_Citation_Abbreviation:
+    Process_Step
+      Process_Description:
+        Numerous iterations of corrections submitted and entered.
+      Process_Date:  0
+      Source_Produced_Citation_Abbreviation:
+    Process_Step
+      Process_Description:
+        Correlation of final legend and mapping.
+      Process_Date:  0
+      Source_Produced_Citation_Abbreviation:
+    Process_Step
+      Process_Description:
+        Mapjoin of coverages into northhalf and southhalf for Idaho
+        and Western Montana; mapjoined with remainder of coverages
+        into final draft coverage for Region 1.
+      Process_Date:  0
+      Source_Produced_Citation_Abbreviation:
+    Process_Step
+      Process_Description:
+        Dissolved on alta and forest attributes to create unique
+        LTA polygons.
+      Process_Date:  0
+      Source_Produced_Citation_Abbreviation:
+    Process_Step
+      Process_Description:
+        Added attributes for geologic material and landform based on
+        lookup tables with a_lta values and legend categories.
+      Process_Date:  0
+      Source_Produced_Citation_Abbreviation:
+    Process_Step
+      Process_Description:
+        Performed identity with subsection coverage for Region 1.
+        This added ecological Section and Subsection attributes for
+        each LTA polygon.
+      Process_Date:  0
+      Source_Produced_Citation_Abbreviation:
+    Process_Step
+      Process_Description:
+        Created regions with regionquery based on subsections.
+      Process_Date:  0
+      Source_Produced_Citation_Abbreviation:
+ 
+Spatial_Data_Organization_Information:
+  Direct_Spatial_Reference_Method:  Vector
+  Point_and_Vector_Object_Information
+    SDTS_Terms_Description
+      SDTS_Point_and_Vector_Object_Type:  Complete Chain
+      Point_and_Vector_Object_Count:   91540
+      SDTS_Point_and_Vector_Object_Type:  GT-polygon composed of chains
+      Point_and_Vector_Object_Count:   33415
+      SDTS_Point_and_Vector_Object_Type:  Area Point
+      Point_and_Vector_Object_Count:   33414
+ 
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition
+    Planar
+      Map_Projection
+        Map_Projection_Name:  Albers Conical Equal Area
+        Albers_Conical_Equal_Area
+          Standard_Parallel:  46
+          Standard_Parallel:  48
+          Longitude_of_Central_Meridian:  -109.5
+          Latitude_of_Projection_Origin:  44.25
+          False_Easting:   600000.00000
+          False_Northing:  0.00000
+      Planar_Coordinate_Information
+        Planar_Coordinate_Encoding_Method:  coordinate pair
+        Coordinate_Representation
+          Abscissa_Resolution:  .1
+          Ordinate_Resolution:  .1
+        Planar_Distance_Units:  meters
+    Geodetic_Model
+      Horizontal_Datum_Name:  North American Datum of 1927
+      Ellipsoid_Name:   Clarke 1866
+      Semi-major_Axis:  6378206.4
+      Denominator_of_Flattening_Ratio:  294.98
+ 
+Entity_and_Attribute_Information:
+  Detailed_Description
+    Entity_Type
+      Entity_Type_Label:  LTAS.PAT
+      Entity_Type_Definition:  Polygon Attribute Table
+      Entity_Type_Definition_Source:  None
+    Attribute
+      Attribute_Label:  AREA
+      Attribute_Definition:
+        Area of polygon
+      Attribute_Definition_Source:  None
+      Attribute_Domain_Values
+        Range_Domain
+          Range_Domain_Minimum:  11
+          Range_Domain_Maximum:  1547700352
+      Attribute_Units_of_Measure:  Square METERS
+      Beginning_Date_of_Attribute_Values:  19970723
+    Attribute
+      Attribute_Label:  PERIMETER
+      Attribute_Definition:
+        Perimeter of polygon
+      Attribute_Definition_Source:  None
+      Attribute_Domain_Values
+        Range_Domain
+          Range_Domain_Minimum:  22
+          Range_Domain_Maximum:  2953630.25
+      Attribute_Units_of_Measure:  METERS
+      Beginning_Date_of_Attribute_Values:  19970723
+    Attribute
+      Attribute_Label:  A_LTA
+      Attribute_Definition:
+        Landtype Association
+          Landtype Association coding, refer to documentation
+          and Region 1 LTA legend. Seventy one coded categories used
+          to describe major geomorphic categories mapped within R1
+          boundaries.
+      Attribute_Definition_Source:  None
+      Attribute_Domain_Values
+        Enumerated_Domain
+          Enumerated_Domain_Value:  0
+          Enumerated_Domain_Value_Definition:  not mapped
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  0
+          Enumerated_Domain_Value_Definition:  not mapped
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  1
+          Enumerated_Domain_Value_Definition:  Rolling Plains
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  10
+          Enumerated_Domain_Value_Definition:  Recent Deposits, coarse
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  11
+          Enumerated_Domain_Value_Definition:  Lacustrine
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  12
+          Enumerated_Domain_Value_Definition:  Glacial Terraces, Fans, Outwash, Coarse
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  13
+          Enumerated_Domain_Value_Definition:  Glacial Terraces, Fans, Outwash, Fine
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  14
+          Enumerated_Domain_Value_Definition:  Recent Deposits, fine
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  17
+          Enumerated_Domain_Value_Definition:  Loess Deposits
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  2
+          Enumerated_Domain_Value_Definition:  Rolling Plains, glaciated
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  20
+          Enumerated_Domain_Value_Definition:  Breaklands, Belt Series
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  21
+          Enumerated_Domain_Value_Definition:  Breaklands, highly weathered
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  22
+          Enumerated_Domain_Value_Definition:  Breaklands, weakly weathered
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  23
+          Enumerated_Domain_Value_Definition:  Breaklands, Gneiss and Schists
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  24
+          Enumerated_Domain_Value_Definition:  Breaklands, Volcanics
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  25
+          Enumerated_Domain_Value_Definition:  Breaklands, Sandstones and Shales
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  26
+          Enumerated_Domain_Value_Definition:  Breaklands, Gneiss and Schists, mod. weathered
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  27
+          Enumerated_Domain_Value_Definition:  Breaklands, Carbonates
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  28
+          Enumerated_Domain_Value_Definition:  Dissected Breaklands, Belt Series
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  29
+          Enumerated_Domain_Value_Definition:  Breaklands, Quartzites and Calc-Silicates
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  3
+          Enumerated_Domain_Value_Definition:  Dissected Plains
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  31
+          Enumerated_Domain_Value_Definition:  not used
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  34
+          Enumerated_Domain_Value_Definition:  Steep Mountain Slopes, Volcanics
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  35
+          Enumerated_Domain_Value_Definition:  Mtn Slopes & Ridges, Quartzites-Calc-Silicate,wkwx
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  36
+          Enumerated_Domain_Value_Definition:  Steep Mountain Slopes, Sandstones and Shales
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  37
+          Enumerated_Domain_Value_Definition:  Steep Mountain Slopes, Carbonates
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  38
+          Enumerated_Domain_Value_Definition:  not used
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  39
+          Enumerated_Domain_Value_Definition:  Steep Mtn Slopes, Gneiss & Schists, glaciated
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  4
+          Enumerated_Domain_Value_Definition:  Dissected Plains, glaciated
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  40
+          Enumerated_Domain_Value_Definition:  Steep Mountain Slopes, Belt Series, glaciated
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  41
+          Enumerated_Domain_Value_Definition:  Steep Mtn Slopes, Granitics, glaciated
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  42
+          Enumerated_Domain_Value_Definition:  Steep Mtn Slopes, Volcanics, glaciated
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  43
+          Enumerated_Domain_Value_Definition:  Steep Mtn Slopes, Carbonates, glaciated
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  44
+          Enumerated_Domain_Value_Definition:  Steep Mtn Slopes, Sandstones & Shales, glaciated
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  45
+          Enumerated_Domain_Value_Definition:  Mtn Slopes, Granitics, weakly glaciated
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  46
+          Enumerated_Domain_Value_Definition:  Glaciated Trough Walls, Granitics
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  47
+          Enumerated_Domain_Value_Definition:  Glaciated Trough Walls, Belt Series
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  5
+          Enumerated_Domain_Value_Definition:  Badlands
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  50
+          Enumerated_Domain_Value_Definition:  Mtn Slopes and Ridges, Belt Series, glaciated
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  51
+          Enumerated_Domain_Value_Definition:  Mtn Slopes and Ridges, Granitics, glaciated
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  53
+          Enumerated_Domain_Value_Definition:  Mtn Slopes and Ridges, Sandstones & Shales, glaciated
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  54
+          Enumerated_Domain_Value_Definition:  Mtn Slopes and Ridges, Volcanics, glaciated
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  57
+          Enumerated_Domain_Value_Definition:  Mtn Slopes and Ridges, Gneiss & Schists, glaciated
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  58
+          Enumerated_Domain_Value_Definition:  Glacial Till, Belt Series, highly weathered
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  59
+          Enumerated_Domain_Value_Definition:  Mountain Slopes and Ridges, Gneiss and Schists
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  6
+          Enumerated_Domain_Value_Definition:  Eroded Uplands (Volcanic Tuffs)
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  60
+          Enumerated_Domain_Value_Definition:  Mountain Slopes and Ridges, Belt Series
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  61
+          Enumerated_Domain_Value_Definition:  Mtn Slopes and Ridges, Granitics, highly weathered
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  62
+          Enumerated_Domain_Value_Definition:  Mtn Slopes and Ridges, Granitics, weakly weathered
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  63
+          Enumerated_Domain_Value_Definition:  Mountain Slopes and Ridges, Gneiss and Schists
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  64
+          Enumerated_Domain_Value_Definition:  Mtn Slopes and Ridges, Volcanics
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  65
+          Enumerated_Domain_Value_Definition:  Mountain Slopes and Ridges, Soft Sedimentary
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  66
+          Enumerated_Domain_Value_Definition:  Mountain Slopes and Ridges, Carbonates
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  67
+          Enumerated_Domain_Value_Definition:  Mtn Slopes and Ridges,Quartzites&Calc-Silicates, highly wx
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  68
+          Enumerated_Domain_Value_Definition:  Mountain Slopes and Ridges, Sandstones and Shales
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  69
+          Enumerated_Domain_Value_Definition:  Pediment, Undifferentiated, Alluvium/depositional
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  7
+          Enumerated_Domain_Value_Definition:  Plateaus and Buttes
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  70
+          Enumerated_Domain_Value_Definition:  Mountain Ridge Tops, Belt Series
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  71
+          Enumerated_Domain_Value_Definition:  Mountain Ridge Tops, Granitics, highly weathered
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  72
+          Enumerated_Domain_Value_Definition:  Mountain Ridge Tops, Granitics, weakly weathered
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  73
+          Enumerated_Domain_Value_Definition:  Mountain Ridge Tops, Volcanics
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  74
+          Enumerated_Domain_Value_Definition:  Mountain Ridge Tops, Sandstones and Shales
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  75
+          Enumerated_Domain_Value_Definition:  Mountain Ridge Tops, Quartzites & Calc-Silicates
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  77
+          Enumerated_Domain_Value_Definition:  Mountain Ridge Tops, Gneiss and Schists
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  8
+          Enumerated_Domain_Value_Definition:  Gneiss and Schists, Alluvium/Depositional
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  80
+          Enumerated_Domain_Value_Definition:  Rolling Hills, Belt Series
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  81
+          Enumerated_Domain_Value_Definition:  Rolling Hills, Granitics
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  82
+          Enumerated_Domain_Value_Definition:  Rolling Hills, Volcanics
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  83
+          Enumerated_Domain_Value_Definition:  Tertiary Sediments, Fine, Alluvium/Depositional
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  84
+          Enumerated_Domain_Value_Definition:  Rolling Hills, Gneiss & Schists, highly weathered
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  85
+          Enumerated_Domain_Value_Definition:  Rolling Hills, Gneiss & Schists, moderately weathered
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  88
+          Enumerated_Domain_Value_Definition:  Tertiary Sediments, Course, Alluvium/Depositional
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  9
+          Enumerated_Domain_Value_Definition:  Sand Hills and Sand Dunes, Alluvium/Depositional
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  90
+          Enumerated_Domain_Value_Definition:  Mass Wasted
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  91
+          Enumerated_Domain_Value_Definition:  not used
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  92
+          Enumerated_Domain_Value_Definition:  Colluvial Deposits, Mass Failures
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  99
+          Enumerated_Domain_Value_Definition:  Lakes and Reservoirs
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  99
+          Enumerated_Domain_Value_Definition:
+          Enumerated_Domain_Value_Definition_Source:  none
+      Attribute_Units_of_Measure:  none
+      Beginning_Date_of_Attribute_Values:  19970723
+    Attribute
+      Attribute_Label:  FOREST
+      Attribute_Definition:
+        National forest
+          National Forest of origin or which part of 100k quads that
+          were edgematched prior to mapjoin.
+      Attribute_Definition_Source:  None
+      Attribute_Domain_Values
+        Enumerated_Domain
+          Enumerated_Domain_Value:  NORT
+          Enumerated_Domain_Value_Definition:  northhalf, nez perce, kootenai, flathead, glacier, etc
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  LEWI
+          Enumerated_Domain_Value_Definition:  lewis and clark
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  CUST
+          Enumerated_Domain_Value_Definition:  custer
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  BOB
+          Enumerated_Domain_Value_Definition:  bob marshall wilderness from L&C forest
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  SOUT
+          Enumerated_Domain_Value_Definition:  southhalf, clearwater, lolo, etc
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  HELE
+          Enumerated_Domain_Value_Definition:  helena
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  BLA
+          Enumerated_Domain_Value_Definition:  blackfoot area from Missoula forest
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  BITT
+          Enumerated_Domain_Value_Definition:  bitterroot
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  DEER
+          Enumerated_Domain_Value_Definition:  deer lodge
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  GALL
+          Enumerated_Domain_Value_Definition:  gallatin
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  BEAV
+          Enumerated_Domain_Value_Definition:  beaverhead
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  BEAR
+          Enumerated_Domain_Value_Definition:  beartooth district of custer
+          Enumerated_Domain_Value_Definition_Source:  none
+      Beginning_Date_of_Attribute_Values:  19970723
+    Attribute
+      Attribute_Label:  SUBSECTION
+      Attribute_Definition:
+        Subsection
+          Subsection identifier from National Hierarchy of
+          Ecological Units (Nesser, et.al. 1997).
+      Attribute_Definition_Source:  None
+      Attribute_Domain_Values
+        Enumerated_Domain
+          Enumerated_Domain_Value:  251Aa
+          Enumerated_Domain_Value_Definition: Red River Valley
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  251Ab
+          Enumerated_Domain_Value_Definition: Red River Valley
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  251Ba
+          Enumerated_Domain_Value_Definition: North Central Glaciated Plains
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  251Bb
+          Enumerated_Domain_Value_Definition: North Central Glaciated Plains
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  331Aa
+          Enumerated_Domain_Value_Definition:  Camas/Weippe Basalt Plateaus
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  331Ab
+          Enumerated_Domain_Value_Definition:  Palouse Hills
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  331Ac
+          Enumerated_Domain_Value_Definition:  Clearwater Canyon Breaks
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  331Da
+          Enumerated_Domain_Value_Definition:  Rocky Mountain Front Foothills
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  331Db
+          Enumerated_Domain_Value_Definition:  Montana Isolated Mountain Ranges
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  331Dc
+          Enumerated_Domain_Value_Definition:  Belt Mountain Foothills
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  331De
+          Enumerated_Domain_Value_Definition:  Little Belt Foothills
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  331Df
+          Enumerated_Domain_Value_Definition:  Missouri River Breaks
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  331Dh
+          Enumerated_Domain_Value_Definition:  Montana Glaciated Plains
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  331Ea
+          Enumerated_Domain_Value_Definition:  Missouri Coteau
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  331Fb
+          Enumerated_Domain_Value_Definition:  Shale Scablands
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  331Fc
+          Enumerated_Domain_Value_Definition:  Pierre Shale Plains
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  331Fd
+          Enumerated_Domain_Value_Definition:  Missouri Plateau
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  331Fe
+          Enumerated_Domain_Value_Definition:  Missouri Breaks
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  331Fg
+          Enumerated_Domain_Value_Definition:  Little Missouri Badlands
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  332Ba
+          Enumerated_Domain_Value_Definition:  Central Black Glaciated Plains
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  342Ad
+          Enumerated_Domain_Value_Definition:  Bighorn Intermontane Basin
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  M331Aa
+          Enumerated_Domain_Value_Definition:  Absaroka/Gallatin Mountains
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  M331Af
+          Enumerated_Domain_Value_Definition:  Yellowstone Volcanic Plateau
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  M331Ag
+          Enumerated_Domain_Value_Definition:  Northern Absaroka Volcanic Mountains
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  M331Ah
+          Enumerated_Domain_Value_Definition:  Beartooth Mountains
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  M331Ai
+          Enumerated_Domain_Value_Definition:  Absaroka Sedimentary Mountains
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  M331Ak
+          Enumerated_Domain_Value_Definition:  West Yellowstone valley
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  M331Al
+          Enumerated_Domain_Value_Definition:  Upper Yellowstone Valley
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  M331Am
+          Enumerated_Domain_Value_Definition:  Gallatin Foothills/Spanish Peaks
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  M331Ap
+          Enumerated_Domain_Value_Definition:  Madison Mountains
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  M331Ar
+          Enumerated_Domain_Value_Definition:  Beartooth Front
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  M331Ba
+          Enumerated_Domain_Value_Definition:  Bighorn Sedimentary Mountains
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  M332Aa
+          Enumerated_Domain_Value_Definition:  Lochsa/Salmon Breaklands
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  M332Ab
+          Enumerated_Domain_Value_Definition:  Central Idaho Glaciated Mountains
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  M332Ac
+          Enumerated_Domain_Value_Definition:  Central Idaho Mountains and Basins
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  M332Ba
+          Enumerated_Domain_Value_Definition:  Bitterroot Glaciated Canyons
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  M332Bb
+          Enumerated_Domain_Value_Definition:  Bitterroot/Frenchtown Valleys
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  M332Bc
+          Enumerated_Domain_Value_Definition:  South Anaconda/Bitterroot Mountains
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  M332Bd
+          Enumerated_Domain_Value_Definition:  Anaconda/Flint Creek Mountains
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  M332Be
+          Enumerated_Domain_Value_Definition:  Flint Creek/Upper Willow Creek Basins
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  M332Bg
+          Enumerated_Domain_Value_Definition:  Garnet/Sapphire Mountains
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  M332Bk
+          Enumerated_Domain_Value_Definition:  Rattlesnake/Blackfoot/South Swan Mountains
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  M332Bp
+          Enumerated_Domain_Value_Definition:  Avon/Nevada Valleys
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  M332Ca
+          Enumerated_Domain_Value_Definition:  North Rocky Mountain Front
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  M332Cb
+          Enumerated_Domain_Value_Definition:  Middle Rocky Mountain Front
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  M332Cc
+          Enumerated_Domain_Value_Definition:  South Rocky Mountain Front
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  M332Da
+          Enumerated_Domain_Value_Definition:  Snowy Foothills
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  M332Db
+          Enumerated_Domain_Value_Definition:  Little Belt/Snowy/Judith Mountains
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  M332Dc
+          Enumerated_Domain_Value_Definition:  Crazy Mountains
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  M332De
+          Enumerated_Domain_Value_Definition:  Continental Divide Foothills
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  M332Dg
+          Enumerated_Domain_Value_Definition:  Big Belt Foothills
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  M332Dh
+          Enumerated_Domain_Value_Definition:  Big Belt Mountains
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  M332Dj
+          Enumerated_Domain_Value_Definition:  Boulder/Elkhorn Mountains
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  M332Dk
+          Enumerated_Domain_Value_Definition:  Central Montana Broad Valleys
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  M332Dm
+          Enumerated_Domain_Value_Definition:  South Elkhorn Mountains
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  M332Dn
+          Enumerated_Domain_Value_Definition:  North Tobacco Root Mountains and Foothills
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  M332Dp
+          Enumerated_Domain_Value_Definition:  Bridger Mountains and Foothills
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  M332Ea
+          Enumerated_Domain_Value_Definition:  Continental Divide Uplands
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  M332Eb
+          Enumerated_Domain_Value_Definition:  East Pioneer Mountains
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  M332Ec
+          Enumerated_Domain_Value_Definition:  Deerlodge Valley
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  M332Ee
+          Enumerated_Domain_Value_Definition:  West Pioneer Mountains
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  M332Eg
+          Enumerated_Domain_Value_Definition:  Anaconda Mountains
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  M332Eh
+          Enumerated_Domain_Value_Definition:  Beaverhead Mountains
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  M332Ej
+          Enumerated_Domain_Value_Definition:  Southwest Montana Intermontane Basins and Valleys
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  M332Ek
+          Enumerated_Domain_Value_Definition:  Ruby/Tobacco Root Mountains
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  M332En
+          Enumerated_Domain_Value_Definition:  Gravelly/Snowcrest Mountains
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  M332Ep
+          Enumerated_Domain_Value_Definition:  Blacktail Mountains
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  M332Er
+          Enumerated_Domain_Value_Definition:  Southern Beaverhead Mountains
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  M332Gd
+          Enumerated_Domain_Value_Definition:  Snake River Mountains and Canyonlands
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  M333Aa
+          Enumerated_Domain_Value_Definition:  Pend Oreille/Selkirk Low Mountains and Valleys
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  M333Ab
+          Enumerated_Domain_Value_Definition:  Selkirk Mountains
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  M333Ac
+          Enumerated_Domain_Value_Definition:  Northern Idaho valleys
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  M333Ba
+          Enumerated_Domain_Value_Definition:  Purcell/North Cabinet Mountains
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  M333Bb
+          Enumerated_Domain_Value_Definition:  Salish Mountains
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  M333Bc
+          Enumerated_Domain_Value_Definition:  Flathead River Valley
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  M333Be
+          Enumerated_Domain_Value_Definition:  Cabinet Mountains
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  M333Ca
+          Enumerated_Domain_Value_Definition:  Livingston Mountains
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  M333Cb
+          Enumerated_Domain_Value_Definition:  Whitefish/Swan Mountains
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  M333Cc
+          Enumerated_Domain_Value_Definition:  Mission/Swan Valley and Mountains
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  M333Ce
+          Enumerated_Domain_Value_Definition:  Flathead Thrust Faulted Mountains
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  M333Da
+          Enumerated_Domain_Value_Definition:  Cour d Alene Mountains
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  M333Db
+          Enumerated_Domain_Value_Definition:  St. Joe/Bitterroot Mountains
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  M333Dc
+          Enumerated_Domain_Value_Definition:  Clark Fork Valley and Mountains
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  M333Dd
+          Enumerated_Domain_Value_Definition:  North Idaho Hills and Valleys
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  M333De
+          Enumerated_Domain_Value_Definition:  Clearwater Mountains and Breaks
+          Enumerated_Domain_Value_Definition_Source:  none
+      Beginning_Date_of_Attribute_Values:  19970723
+    Attribute
+      Attribute_Label:  SECTION
+      Attribute_Definition:
+        Section
+          Section identifier from National Hierarchy of Ecological
+          Units.
+      Attribute_Definition_Source:  None
+      Attribute_Domain_Values
+        Enumerated_Domain
+          Enumerated_Domain_Value:  251A
+          Enumerated_Domain_Value_Definition: Red River Valley
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  331A
+          Enumerated_Domain_Value_Definition:  Palouse Prairie
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  331D
+          Enumerated_Domain_Value_Definition:  Northwestern Glaciated Plains
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  331E
+          Enumerated_Domain_Value_Definition:  Northern Glaciated Plains
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  331F
+          Enumerated_Domain_Value_Definition:  Norhtwestern Great Plains
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  331G
+          Enumerated_Domain_Value_Definition:  Powder River Basin
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  332A
+          Enumerated_Domain_Value_Definition:  Northeastern Glaciated Plains
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  332B
+          Enumerated_Domain_Value_Definition:  Western Glaciated Plains
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  342A
+          Enumerated_Domain_Value_Definition:  Bighorn basin
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  M331A
+          Enumerated_Domain_Value_Definition:  Yellowstone Highlands
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  M331B
+          Enumerated_Domain_Value_Definition:  Bighorn Mountains
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  M332A
+          Enumerated_Domain_Value_Definition:  Idaho Batholith
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  M332B
+          Enumerated_Domain_Value_Definition:  Bitterroot Valley
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  M332C
+          Enumerated_Domain_Value_Definition:  Rocky Mountain Front
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  M332D
+          Enumerated_Domain_Value_Definition:  Belt Mountains
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  M332E
+          Enumerated_Domain_Value_Definition:  Beaverhead Mountains
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  M332G
+          Enumerated_Domain_Value_Definition:  Blue Mountains
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  M333A
+          Enumerated_Domain_Value_Definition:  Okanagan Highlands
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  M333B
+          Enumerated_Domain_Value_Definition:  Flathead Valley
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  M333C
+          Enumerated_Domain_Value_Definition:  Northern Rockies
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  M333D
+          Enumerated_Domain_Value_Definition:  Bitterroot Mountains
+          Enumerated_Domain_Value_Definition_Source:  none
+      Beginning_Date_of_Attribute_Values:  
+    Attribute
+      Attribute_Label:  PROVINCE
+      Attribute_Definition:
+        Province
+          Province identifier from National Hierarchy of Ecological
+          Units.
+      Attribute_Definition_Source:  None
+      Attribute_Domain_Values
+        Enumerated_Domain
+          Enumerated_Domain_Value:  M333
+          Enumerated_Domain_Value_Definition:  Northern Rocky Mountain Forest-Steppe-Coniferous
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  M332
+          Enumerated_Domain_Value_Definition:  Middle Rocky Mountain Forest-Steppe-Coniferous
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  331
+          Enumerated_Domain_Value_Definition:  Great Plains-Palouse Dry Steppe
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  M331
+          Enumerated_Domain_Value_Definition:  Southern Rocky Mountain Steppe-Open Woodland-Coniferous Forest-Alpine Meadow
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  342
+          Enumerated_Domain_Value_Definition:  Intermountain Semi-Desert
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  251
+          Enumerated_Domain_Value_Definition:  Red River Valley
+          Enumerated_Domain_Value_Definition_Source:  none
+      Beginning_Date_of_Attribute_Values:  
+    Attribute
+      Attribute_Label:  PARMAT
+      Attribute_Definition:
+        Geologic material
+          Abbreviated coding for major geologic material groups
+          as they appear on the LTA legend.
+      Attribute_Definition_Source:  None
+      Attribute_Domain_Values
+        Enumerated_Domain
+          Enumerated_Domain_Value:  AL
+          Enumerated_Domain_Value_Definition:  alluvium
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  DS
+          Enumerated_Domain_Value_Definition:  alluvium, deltaic sediments
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  GNST
+          Enumerated_Domain_Value_Definition:  gneiss, schist
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  GR
+          Enumerated_Domain_Value_Definition:  granitics
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  GRHW
+          Enumerated_Domain_Value_Definition:  granitics, highly weathered
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  GRWW
+          Enumerated_Domain_Value_Definition:  granitics, weakly weathered
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  LC
+          Enumerated_Domain_Value_Definition:  alluvium, deltaic sediments
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  LO
+          Enumerated_Domain_Value_Definition:  loess
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  MIX
+          Enumerated_Domain_Value_Definition:  mixed geology
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  MS
+          Enumerated_Domain_Value_Definition:  metasediments
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  MSGT
+          Enumerated_Domain_Value_Definition:  metasediments, glacial till
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  QUCS
+          Enumerated_Domain_Value_Definition:  quartzite, calc-silicates
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  SC
+          Enumerated_Domain_Value_Definition:  carbonates
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  SHSS
+          Enumerated_Domain_Value_Definition:  shale, siltstone, sandstone
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  SSED
+          Enumerated_Domain_Value_Definition:  soft sedimentary
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  SSSH
+          Enumerated_Domain_Value_Definition:  sandstone, shale
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  TSED
+          Enumerated_Domain_Value_Definition:  tertiary sediments
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  VOL
+          Enumerated_Domain_Value_Definition:  volcanics
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  WAT
+          Enumerated_Domain_Value_Definition:  water
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  WSD
+          Enumerated_Domain_Value_Definition:  wind deposited sediments
+          Enumerated_Domain_Value_Definition_Source:  none
+      Beginning_Date_of_Attribute_Values:  19970723
+    Attribute
+      Attribute_Label:  LANDFORM
+      Attribute_Definition:
+        Landform
+          Abbreviations of landform categories as described in the
+          legend.
+      Attribute_Definition_Source:  None
+      Attribute_Domain_Values
+        Enumerated_Domain
+          Enumerated_Domain_Value:  BA
+          Enumerated_Domain_Value_Definition:  badlands
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  BK
+          Enumerated_Domain_Value_Definition:  breaks
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  BKMW
+          Enumerated_Domain_Value_Definition:  breaks, moderately weathered
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  CODP
+          Enumerated_Domain_Value_Definition:  colluvial deposits
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  DIBK
+          Enumerated_Domain_Value_Definition:  dissected breaks
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  DIPL
+          Enumerated_Domain_Value_Definition:  dissected plains
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  ERUP
+          Enumerated_Domain_Value_Definition:  eroded uplands
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  FSMORI
+          Enumerated_Domain_Value_Definition:  frost shattered mountains ridges
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  GLDIPL
+          Enumerated_Domain_Value_Definition:  dissected glaciated plains
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  GLLAPL
+          Enumerated_Domain_Value_Definition:  glaciated lacustrine plains
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  GLMS
+          Enumerated_Domain_Value_Definition:  glaciated mountain slopes
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  GLMSRI
+          Enumerated_Domain_Value_Definition:  glaciated mountain slopes and ridges
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  GLPL
+          Enumerated_Domain_Value_Definition:  glaciated plains
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  HIDU
+          Enumerated_Domain_Value_Definition:  hills and dunes
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  HIPT
+          Enumerated_Domain_Value_Definition:  hills and plateaus
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  HRMS
+          Enumerated_Domain_Value_Definition:  high relief mountain slopes
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  LHILHW
+          Enumerated_Domain_Value_Definition:  low relief hills, highly weathered
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  LHILMW
+          Enumerated_Domain_Value_Definition:  low relief hills, moderately weathered
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  LOHILL
+          Enumerated_Domain_Value_Definition:  low relief hills
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  MSRI
+          Enumerated_Domain_Value_Definition:  mountains slopes and ridges
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  MSRIMW
+          Enumerated_Domain_Value_Definition:  mountain slopes and ridges, moderately weathered
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  MWSL
+          Enumerated_Domain_Value_Definition:  mass wasted slopes
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  PED
+          Enumerated_Domain_Value_Definition:  pediment
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  PL
+          Enumerated_Domain_Value_Definition:  plains
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  PTBT
+          Enumerated_Domain_Value_Definition:  erosional plateaus and buttes
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  STGLMS
+          Enumerated_Domain_Value_Definition:  steep glaciated mountain slopes
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  TR
+          Enumerated_Domain_Value_Definition:  glacial troughs and trough walls
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  VA
+          Enumerated_Domain_Value_Definition:  valleys
+          Enumerated_Domain_Value_Definition_Source:  none
+          Enumerated_Domain_Value:  WATER
+          Enumerated_Domain_Value_Definition:  water
+          Enumerated_Domain_Value_Definition_Source:  none
+      Attribute_Units_of_Measure:  none
+      Beginning_Date_of_Attribute_Values:  19970723
+ 
+Distribution_Information:
+  Distributor
+    Contact_Information
+      Contact_Organization_Primary
+        Contact_Organization:  Region 1 USFS 
+        Contact_Person:        John Nesser
+      Contact_Position:        Regional Soil Scientist
+      Contact_Address
+        Address_Type:  mailing and physical address
+        Address:            200 East Broadway
+        City:               Missoula
+        State_or_Province:  Montana
+        Postal_Code:        59807
+        Country:            USA
+      Contact_Voice_Telephone:          (406) 329-3412
+      Contact_Facsimile_Telephone:      (406) 
+      Contact_Electronic_Mail_Address:  jnesser/r1@fs.fed.us
+      Hours_of_Service:  Monday-Friday, 8-5, Mountain Time
+  Distribution_Liability:
+    Users must assume responsibility to determine the
+    usability of this data for their purposes.
+  Standard_Order_Process
+    Non-digital_Form:
+      Contact the State Library to see if the data is
+      available as hardcopy maps.
+    Fees:
+      For-profit organizations must pay our costs to reproduce the
+      data.  Fees can be waived if doing Government work.
+  Standard_Order_Process
+    Digital_Form
+      Digital_Transfer_Information
+        Format_Name:            Arc/Info Export
+        Format_Version_Number:  7.0.2
+        Format_Version_Date:    19940915
+      Digital_Transfer_Option
+        Offline_Option
+          Offline_Media:    CDROM 
+          Recording_Format:  
+Metadata_Reference_Information:
+  Metadata_Date:  19971028
+  Metadata_Review_Date:  19971118
+  Metadata_Contact
+    Contact_Information
+      Contact_Organization_Primary
+        Contact_Organization:  Montana State Library
+        Contact_Person:        Duane F. Lund / Catherine C. Maynard
+      Contact_Address
+        Address_Type:  mailing and physical address
+        Address:            1515 East 6th Avenue
+        City:              Helena 
+        State_or_Province:  Montana
+        Postal_Code:        59620-1800
+        Country:            USA
+      Contact_Voice_Telephone:          (406) 444-4546
+      Contact_Facsimile_Telephone:      (406) 444-0581
+      Contact_Electronic_Mail_Address:  dlund@nris.mt.gov
+      Hours_of_Service:  Monday-Friday, 8-5, Mountain Time
+  Metadata_Standard_Name:  FGDC Content Standards for Digital Geospatial Metadata
+  Metadata_Standard_Version:  19940608

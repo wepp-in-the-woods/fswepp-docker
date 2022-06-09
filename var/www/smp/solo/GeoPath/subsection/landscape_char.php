@@ -1,0 +1,690 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Landscape Characteristics</title>
+<meta name="GENERATOR" content="Microsoft FrontPage 3.0">
+</head>
+
+<body>
+
+<p><b>Landscape Characteristics:</b> Till plains, terraces, fans, and floodplains formed
+in glacial till. Elevations range from 1000 to 2000 feet. Drainage density is moderate and
+glacial potholes are common.</p>
+
+<p><b>Climate:</b> Mean annual precipitation ranges from 15 to 20 inches, about 20 to 30
+percent falling as snow. The soil temperature and moisture regimes are frigid and udic.</p>
+
+<p><b>Potential Vegetation:</b> Wheatgrass-bluestem-needlegrass with Northern floodplain
+forest along major rivers and streams. Some Oak savannah also occurs.</p>
+
+<p><b>Relationships of Dominant Map Unit Components:</b></p>
+
+<table WIDTH="100%" BORDER="1" CELLSPACING="2" CELLPADDING="0">
+  <tr>
+    <th><font SIZE="-1">Landform</font>&nbsp;</th>
+    <th><font SIZE="-1">Geology</font>&nbsp;</th>
+    <th><font SIZE="-1">Soil Taxa</font>&nbsp;</th>
+  </tr>
+  <tr>
+    <td NOWRAP>&nbsp;<font SIZE="-1">Plains</font></td>
+    <td NOWRAP>&nbsp;<font SIZE="-1">Till</font></td>
+    <td NOWRAP>&nbsp;<font SIZE="-1">Argiborolls/Ustorthents/Haploborolls</font></td>
+  </tr>
+  <tr>
+    <td NOWRAP>&nbsp;<font SIZE="-1">Terraces</font></td>
+    <td NOWRAP>&nbsp;<font SIZE="-1">Till/outwash</font></td>
+    <td NOWRAP>&nbsp;<font SIZE="-1">Argiborolls/Haploborolls</font></td>
+  </tr>
+  <tr>
+    <td NOWRAP>&nbsp;<font SIZE="-1">Fans/floodplains</font></td>
+    <td NOWRAP>&nbsp;<font SIZE="-1">Outwash/alluvium</font></td>
+    <td NOWRAP>&nbsp;<font SIZE="-1">Ustochrepts/Ustifluvents</font></td>
+  </tr>
+</table>
+
+<p><b>Disturbance and Land Use:</b> The primary natural disturbance is drought. Land use
+is evenly split between wheat farming and range/pasture.</p>
+
+<p>-------------------------------------------------------------------------------</p>
+
+<p><b>Landscape Characteristics:</b> Glacial lake plain resulting from sedimentation on
+the floor of glacial Lake Souris. Some glacial potholes also occur. Elevations range from
+1000 to 1500 feet. Drainage density is low.</p>
+
+<p><b>Climate:</b> Mean annual precipitation ranges from 15 to 18 inches, about 30 percent
+falling as snow. The soil temperature and moisture regimes are frigid and udic.</p>
+
+<p><b>Potential Vegetation:</b> Wheatgrass-bluestem-needlegrass</p>
+
+<p><b>Relationships of Dominant Map Unit Components:</b></p>
+
+<table WIDTH="100%" BORDER="1" CELLSPACING="2" CELLPADDING="0">
+  <tr>
+    <th><font SIZE="-1">Landform</font>&nbsp;</th>
+    <th><font SIZE="-1">Geology</font>&nbsp;</th>
+    <th><font SIZE="-1">Soil Taxa</font>&nbsp;</th>
+  </tr>
+  <tr>
+    <td NOWRAP>&nbsp;<font SIZE="-1">Plain</font></td>
+    <td NOWRAP>&nbsp;<font SIZE="-1">Lacustrine sediment</font></td>
+    <td NOWRAP>&nbsp;<font SIZE="-1">Argiborolls/Haploborolls/Calciaquolls/Haplaquolls</font></td>
+  </tr>
+</table>
+
+<p><b>Disturbance and Land Use:</b> The primary natural disturbance is drought. Land use
+is predominantly cropland.</p>
+
+<p>-------------------------------------------------------------------------------</p>
+
+<p><b>Landscape Characteristics:</b> Glacial outwash plains with some till plains and
+moraines. Elevations range from 1000 to 1700 feet. Drainage density is low. Glacial
+potholes are common.</p>
+
+<p><b>Climate:</b> Mean annual precipitation ranges from 15 to 20 inches, about 40 percent
+falling as snow. The soil temperature and moisture regimes are frigid and udic.</p>
+
+<p><b>Potential Vegetation:</b> Wheatgrass-bluestem-needlegrass</p>
+
+<p><b>Relationships of Dominant Map Unit Components:</b></p>
+
+<table WIDTH="100%" BORDER="1" CELLSPACING="2" CELLPADDING="0">
+  <tr>
+    <th><font SIZE="-1">Landform</font>&nbsp;</th>
+    <th><font SIZE="-1">Geology</font>&nbsp;</th>
+    <th><font SIZE="-1">Soil Taxa</font>&nbsp;</th>
+  </tr>
+  <tr>
+    <td NOWRAP>&nbsp;<font SIZE="-1">Plains</font></td>
+    <td NOWRAP>&nbsp;<font SIZE="-1">Outwash/till</font></td>
+    <td NOWRAP>&nbsp;<font SIZE="-1">Argiborolls/Haploborolls/Calciaquolls/Haplaquolls</font></td>
+  </tr>
+</table>
+
+<p><b>Disturbance and Land Use:</b> The primary natural disturbance is drought. Land use
+is predominantly dryland farming.</p>
+
+<p>-------------------------------------------------------------------------------</p>
+
+<p><b>Landscape Characteristics:</b> Outwash plains and fans that formed in aeolian sands,
+river sediments, and glacial outwash. Elevations range from 1000 to 1500 feet. Drainage
+density is low. Glacial potholes also occur.</p>
+
+<p><b>Climate:</b> Mean annual precipitation ranges from 15 to 18 inches, about 40 percent
+falling as snow. The soil temperature and moisture regimes are frigid and udic.</p>
+
+<p><b>Potential Vegetation:</b> Wheatgrass-bluestem-needlegrass</p>
+
+<p><b>Relationships of Dominant Map Unit Components:</b></p>
+
+<table WIDTH="100%" BORDER="1" CELLSPACING="2" CELLPADDING="0">
+  <tr>
+    <th><font SIZE="-1">Landform</font>&nbsp;</th>
+    <th><font SIZE="-1">Geology</font>&nbsp;</th>
+    <th><font SIZE="-1">Soil Taxa</font>&nbsp;</th>
+  </tr>
+  <tr>
+    <td NOWRAP><font SIZE="-1">&nbsp;Plains/fans</font></td>
+    <td NOWRAP><font SIZE="-1">&nbsp;Glacial outwash/river sediments</font></td>
+    <td NOWRAP>&nbsp;<font SIZE="-1">Argiborolls/Haploborolls/Calciaquolls/Argialbolls</font></td>
+  </tr>
+</table>
+
+<p><b>Disturbance and Land Use:</b> The primary natural disturbance is drought. Land use
+is predominantly dryland farming.</p>
+
+<p>-------------------------------------------------------------------------------</p>
+
+<p><b>Landscape Characteristics:</b> Hummocky hills and plains that formed in glacial
+till. Elevations range from 2000 to 3000 feet. Drainage density is moderate. Glacial
+potholes also occur.</p>
+
+<p><b>Climate:</b> Mean annual precipitation ranges from 15 to 19 inches, about 50 percent
+falling as snow. The soil temperature and moisture regimes are frigid and udic.</p>
+
+<p><b>Potential Vegetation:</b> Oak savannah</p>
+
+<p><b>Relationships of Dominant Map Unit Components:</b></p>
+
+<table WIDTH="100%" BORDER="1" CELLSPACING="2" CELLPADDING="0">
+  <tr>
+    <th><font SIZE="-1">Landform</font>&nbsp;</th>
+    <th><font SIZE="-1">Geology</font>&nbsp;</th>
+    <th><font SIZE="-1">Soil Taxa</font>&nbsp;</th>
+  </tr>
+  <tr>
+    <td NOWRAP>&nbsp;<font SIZE="-1">Hills/plains</font></td>
+    <td NOWRAP>&nbsp;<font SIZE="-1">Glacial till</font></td>
+    <td NOWRAP>&nbsp;<font SIZE="-1">Eutroboralfs/Argiborolls</font></td>
+  </tr>
+</table>
+
+<p><b>Disturbance and Land Use:</b> The primary natural disturbance is fire. Land use is
+predominantly grazing and dryland farming.</p>
+
+<p>-------------------------------------------------------------------------------</p>
+
+<p><b>Landscape Characteristics:</b> Glacial lake plain formed in glacial lacustrine
+sediments. Elevations range from 650 to 985 feet. Drainage density is low.</p>
+
+<p><b>Climate:</b> Mean annual precipitation ranges from 19 to 22 inches, about 40 percent
+falling as snow. The soil temperature and moisture regimes are frigid and udic.</p>
+
+<p><b>Potential Vegetation:</b> Wheatgrass-bluestem-needlegrass</p>
+
+<p><b>Relationships of Dominant Map Unit Components:</b></p>
+
+<table WIDTH="100%" BORDER="1" CELLSPACING="2" CELLPADDING="0">
+  <tr>
+    <th><font SIZE="-1">Landform</font>&nbsp;</th>
+    <th><font SIZE="-1">Geology</font>&nbsp;</th>
+    <th><font SIZE="-1">Soil Taxa</font>&nbsp;</th>
+  </tr>
+  <tr>
+    <td NOWRAP>&nbsp;<font SIZE="-1">Lake plain</font></td>
+    <td NOWRAP>&nbsp;<font SIZE="-1">Lacustrine sediments</font></td>
+    <td NOWRAP>&nbsp;<font SIZE="-1">Argiborolls/Haploborolls/Haplaquolls</font></td>
+  </tr>
+</table>
+
+<p><b>Disturbance and Land Use:</b> The primary natural disturbance is drought and
+insects. Land use is predominantly dryland farming. </p>
+
+<p>-------------------------------------------------------------------------------</p>
+
+<p><b>Landscape Characteristics:</b> Steep, dissected mountains that formed in Tertiary
+volcanic flows and associated pyroclastic deposits. Islands of gneiss and schist also
+occur. Elevations range from 6500 to 10600 feet. Drainage density is moderate. Lakes occur
+in high elevation cirques.</p>
+
+<p><b>Climate:</b> Mean annual precipitation ranges from 50 to 110 inches, about 65
+percent falling as snow. The soil temperature and moisture regimes are cryic and typic
+ustic.</p>
+
+<p><b>Potential Vegetation:</b> Douglas-fir forest/Western spruce-fir forest with Alpine
+meadows and barren at the highest elevations.</p>
+
+<p><b>Relationships of Dominant Map Unit Components:<br>
+</b></p>
+
+<table WIDTH="100%" BORDER="1" CELLSPACING="2" CELLPADDING="0">
+  <tr>
+    <th><font SIZE="-1">Landform</font>&nbsp;</th>
+    <th><font SIZE="-1">Geology</font>&nbsp;</th>
+    <th><font SIZE="-1">Soil Taxa</font>&nbsp;</th>
+  </tr>
+  <tr>
+    <td NOWRAP>&nbsp;<font SIZE="-1">Mountainsides/ridges</font></td>
+    <td NOWRAP>&nbsp;<font SIZE="-1">Rhyolite/basalt/andesite</font></td>
+    <td NOWRAP>&nbsp;<font SIZE="-1">Cryochrepts/Cryoboralfs/Cryoborolls</font></td>
+  </tr>
+</table>
+
+<p><b>Disturbance and Land Use:</b> The primary natural disturbances are fire, insects,
+disease and mass wasting. Land use is predominantly recreation with some grazing, timber
+harvest, and mining.</p>
+
+<p>-------------------------------------------------------------------------------</p>
+
+<p>&nbsp;</p>
+
+<p><b>Landscape Characteristics:</b> High elevation mountain plateau formed in rhyolite
+flows and tuff. Some surficial deposits of alluvium, glacial till, and landslide deposits
+also occur. Elevations range from 7500 to 9200 feet. Drainage density is moderate to high.
+There are numerous geysers, lakes, and wetlands.</p>
+
+<p><b>Climate:</b> Mean annual precipitation ranges from 60 to 90 inches, about 65 percent
+falling as snow. The soil temperature and moisture regimes are cryic and udic.</p>
+
+<p><b>Potential Vegetation:</b> Douglas-fir forest</p>
+
+<p><b>Relationships of Dominant Map Unit Components:<br>
+</b></p>
+
+<table WIDTH="100%" BORDER="1" CELLSPACING="2" CELLPADDING="0">
+  <tr>
+    <th>&nbsp;<font SIZE="-1">Landform</font></th>
+    <th><font SIZE="-1">Geology</font>&nbsp;</th>
+    <th><font SIZE="-1">Soil Taxa</font>&nbsp;</th>
+  </tr>
+  <tr>
+    <td NOWRAP>&nbsp;<font SIZE="-1">Plateau</font></td>
+    <td NOWRAP>&nbsp;<font SIZE="-1">Rhyolite</font></td>
+    <td NOWRAP>&nbsp;<font SIZE="-1">Cryochrepts/Cryorthents</font></td>
+  </tr>
+</table>
+
+<p><b>Disturbance and Land Use:</b> The primary natural disturbances are fire, insects,
+disease, and geothermal activity. Land use is predominantly recreational development and
+tourist activities.</p>
+
+<p>-------------------------------------------------------------------------------</p>
+
+<p><b>Landscape Characteristics:</b> Steep mountains and ridgetops that formed in
+andesitic rocks. Elevations range from 5300 to 12000 feet. Drainage density is high.
+Wetlands and riparian areas are common. Lakes occur in some high elevation cirques.</p>
+
+<p><b>Climate:</b> Mean annual precipitation ranges from 40 to 110 inches, about 65
+percent falling as snow. The soil temperature and moisture regimes are cryic and typic
+ustic.</p>
+
+<p><b>Potential Vegetation:</b> Douglas-fir forest/Western spruce-fir forest</p>
+
+<p><b>Relationships of Dominant Map Unit Components:<br>
+</b></p>
+
+<table WIDTH="100%" BORDER="1" CELLSPACING="2" CELLPADDING="0">
+  <tr>
+    <th>&nbsp;Landform</th>
+    <th>Geology&nbsp;</th>
+    <th>&nbsp;Soil Taxa</th>
+  </tr>
+  <tr>
+    <td NOWRAP>&nbsp;Mountainsides/ridges</td>
+    <td NOWRAP>&nbsp;Andesite</td>
+    <td NOWRAP>&nbsp;Cryoboralfs/Cryoborolls/Cryochrepts</td>
+  </tr>
+  <tr>
+    <td NOWRAP>&nbsp;Valleys/foothills</td>
+    <td NOWRAP>&nbsp;Andesite</td>
+    <td NOWRAP>&nbsp;Cryoborolls/Cryochrepts</td>
+  </tr>
+</table>
+
+<p><b>Disturbance and Land Use:</b> The primary natural disturbances are fire, insects,
+disease, and mass wasting. Land use is predominantly recreational development. Some timber
+harvest and mining activities also occur.</p>
+
+<p>-------------------------------------------------------------------------------</p>
+
+<p><b>Landscape Characteristics:</b> Steep, dissected mountains and narrow valleys that
+formed in gneiss and schist. Elevations range from 6500 to 11300 feet. Drainage density is
+moderate to high. Some lakes occur at higher elevations.</p>
+
+<p><b>Climate:</b> Mean annual precipitation ranges from 40 to 110 inches, about 55
+percent falling as snow. The soil temperature and moisture regimes are cryic and udic.</p>
+
+<p><b>Potential Vegetation:</b> Douglas-fir forest/Western spruce-fir forest with some
+Alpine meadows and barren at higher elevations.</p>
+
+<p><b>Relationships of Dominant Map Unit Components:<br>
+</b></p>
+
+<table WIDTH="100%" BORDER="1" CELLSPACING="2" CELLPADDING="0">
+  <tr>
+    <th><font SIZE="-1">Landform</font>&nbsp;</th>
+    <th><font SIZE="-1">Geology</font>&nbsp;</th>
+    <th><font SIZE="-1">Soil Taxa</font>&nbsp;</th>
+  </tr>
+  <tr>
+    <td NOWRAP>&nbsp;<font SIZE="-1">Mountainsides/ridgetops</font></td>
+    <td NOWRAP>&nbsp;<font SIZE="-1">Gneiss/schist</font></td>
+    <td NOWRAP>&nbsp;<font SIZE="-1">Cryochrepts</font></td>
+  </tr>
+</table>
+
+<p><b>Disturbance and Land Use:</b> The primary natural disturbances are fire, insects,
+and disease. Land use is predominantly livestock grazing, timber harvest, and mining.</p>
+
+<p>-------------------------------------------------------------------------------</p>
+
+<p>&nbsp;</p>
+
+<p><b>Landscape Characteristics:</b> Steep mountains with narrow valleys that formed in
+sedimentary and volcanic rocks. Elevations range from 5000 to 11000 feet. Drainage density
+is moderate to high.</p>
+
+<p><b>Climate:</b> Mean annual precipitation ranges from 40 to 80 inches, about 55 percent
+falling as snow. The soil temperature and moisture regimes cryic and typic ustic.</p>
+
+<p><b>Potential Vegetation:</b> Douglas-fir forest/Western spruce-fir forest</p>
+
+<p><b>Relationships of Dominant Map Unit Components:<br>
+</b></p>
+
+<table WIDTH="100%" BORDER="1" CELLSPACING="2" CELLPADDING="0">
+  <tr>
+    <th><font SIZE="-1">Landform</font>&nbsp;</th>
+    <th><font SIZE="-1">Geology</font>&nbsp;</th>
+    <th><font SIZE="-1">Soil Taxa</font>&nbsp;</th>
+  </tr>
+  <tr>
+    <td NOWRAP>&nbsp;<font SIZE="-1">Mountainsides/ridges</font></td>
+    <td NOWRAP>&nbsp;<font SIZE="-1">Rhyolite/shale/limestone</font></td>
+    <td NOWRAP>&nbsp;<font SIZE="-1">Cryochrepts/Cryoborolls/Cryoboralfs</font></td>
+  </tr>
+</table>
+
+<p><b>Disturbance and Land Use:</b> The primary natural disturbances are fire, insects,
+disease, and mass wasting. Land use is predominantly recreational activities and
+development, and some timber harvest and mining.</p>
+
+<p>-------------------------------------------------------------------------------</p>
+
+<p><b>Landscape Characteristics:</b> Intermontane valley formed by the Madison River in
+valley fill, terrace deposits, and some glacial drift. Elevations range from 6500 to 7000
+feet. Drainage density is moderate. Hebgen Lake is in this subsection.</p>
+
+<p><b>Climate:</b> Mean annual precipitation ranges from 45 to 55 inches, about 45 percent
+falling as snow. The soil temperature and moisture regimes are cryic and typic ustic.</p>
+
+<p><b>Potential Vegetation:</b> Douglas-fir forest</p>
+
+<p><b>Relationships of Dominant Map Unit Components:<br>
+</b></p>
+
+<table WIDTH="100%" BORDER="1" CELLSPACING="2" CELLPADDING="0">
+  <tr>
+    <th>&nbsp;<font SIZE="-1">Landform</font></th>
+    <th><font SIZE="-1">Geology</font>&nbsp;</th>
+    <th><font SIZE="-1">Soil Taxa</font>&nbsp;</th>
+  </tr>
+  <tr>
+    <td NOWRAP>&nbsp;<font SIZE="-1">Valley/terraces/floodplains</font></td>
+    <td NOWRAP>&nbsp;<font SIZE="-1">Alluvium</font></td>
+    <td NOWRAP>&nbsp;<font SIZE="-1">Cryochrepts/Cryorthents</font></td>
+  </tr>
+</table>
+
+<p><b>Disturbance and Land Use:</b> The primary natural disturbances are fire and
+flooding. Land use is predominantly recreational development with some mining, grazing,
+and timber harvest.</p>
+
+<p>-------------------------------------------------------------------------------</p>
+
+<p><b>Landscape Characteristics:</b> Valley floor, terraces, toeslopes, and foothills that
+formed in alluvium and Tertiary sedimentary and volcanic rocks. Elevations range from 4500
+to 7500 feet. Drainage density is moderate and wetlands are fairly common.</p>
+
+<p><b>Climate:</b> Mean annual precipitation ranges from 15 to 40 inches, about 55 percent
+falling as snow. The soil temperature and moisture regimes are frigid and aridic ustic.</p>
+
+<p><b>Potential Vegetation:</b> Foothills prairie</p>
+
+<p><b>Relationships of Dominant Map Unit Components:<br>
+</b></p>
+
+<table WIDTH="100%" BORDER="1" CELLSPACING="2" CELLPADDING="0">
+  <tr>
+    <th><font SIZE="-1">Landform</font>&nbsp;</th>
+    <th><font SIZE="-1">Geology</font>&nbsp;</th>
+    <th><font SIZE="-1">Soil Taxa</font>&nbsp;</th>
+  </tr>
+  <tr>
+    <td NOWRAP>&nbsp;<font SIZE="-1">Valley floor/terraces</font></td>
+    <td NOWRAP>&nbsp;<font SIZE="-1">Alluvium</font></td>
+    <td NOWRAP>&nbsp;<font SIZE="-1">Haploborolls/Camborthids</font></td>
+  </tr>
+  <tr>
+    <td NOWRAP>&nbsp;<font SIZE="-1">Foothills/toeslopes</font></td>
+    <td NOWRAP>&nbsp;<font SIZE="-1">Tertiary volcanics</font></td>
+    <td NOWRAP>&nbsp;<font SIZE="-1">Argiborolls/Haploborolls</font></td>
+  </tr>
+</table>
+
+<p><b>Disturbance and Land Use:</b> The primary natural disturbance is flooding. Land use
+is predominantly recreational development, with some agriculture and livestock grazing.</p>
+
+<p>-------------------------------------------------------------------------------<br>
+</p>
+
+<p><b>Landscape Characteristics:</b> Steep, dissected mountains and rolling foothills that
+formed in sedimentary and metamorphic rocks. Elevations range from 5000 to 10500 feet.
+Drainage density is moderate to high.</p>
+
+<p><b>Climate:</b> Mean annual precipitation ranges from 20 to 100inches, about 60 percent
+falling as snow. The soil temperature and moisture regimes are cryic and typic ustic.</p>
+
+<p><b>Potential Vegetation:</b> Douglas-fir forest/Western spruce-fir forest</p>
+
+<p><b>Relationships of Dominant Map Unit Components:<br>
+</b></p>
+
+<table WIDTH="100%" BORDER="1" CELLSPACING="2" CELLPADDING="0">
+  <tr>
+    <th>&nbsp;<font SIZE="-1">Landform</font></th>
+    <th><font SIZE="-1">Geology</font>&nbsp;</th>
+    <th><font SIZE="-1">Soil Taxa</font>&nbsp;</th>
+  </tr>
+  <tr>
+    <td NOWRAP>&nbsp;<font SIZE="-1">Mountains</font></td>
+    <td NOWRAP>&nbsp;<font SIZE="-1">Sandstone/shale/limestone</font></td>
+    <td NOWRAP>&nbsp;<font SIZE="-1">Cryochrepts/Cryoboralfs</font></td>
+  </tr>
+  <tr>
+    <td NOWRAP>&nbsp;<font SIZE="-1">Foothills</font></td>
+    <td NOWRAP>&nbsp;<font SIZE="-1">Gneiss/schist</font></td>
+    <td NOWRAP>&nbsp;<font SIZE="-1">Cryoborolls/Argiborolls/Fluvaquents</font></td>
+  </tr>
+</table>
+
+<p><b>Disturbance and Land Use:</b> The primary natural disturbances are fire, insects,
+disease, and some mass wasting. Land use is predominantly timber harvest, livestock
+grazing, and ranching.</p>
+
+<p>-------------------------------------------------------------------------------<br>
+</p>
+
+<p><b>Landscape Characteristics:</b> Steep mountains that formed in predominantly
+sedimentary rock with some included volcanic rock. Elevations range from 7500 to 11200
+feet. Drainage density is moderate. Lakes occur in the high elevation cirque basins.</p>
+
+<p><b>Climate:</b> Mean annual precipitation ranges from 50 to 100 inches, about 65
+percent falling as snow. The soil temperature and moisture regimes are cryic and typic
+ustic.</p>
+
+<p><b>Potential Vegetation:</b> Douglas-fir forest/Western spruce-fir forest with some
+Alpine meadows and barren at the highest elevations.</p>
+
+<p><b>Relationships of Dominant Map Unit Components:<br>
+</b></p>
+
+<table WIDTH="100%" BORDER="1" CELLSPACING="2" CELLPADDING="0">
+  <tr>
+    <th>&nbsp;<font SIZE="-1">Landform</font></th>
+    <th>&nbsp;<font SIZE="-1">Geology</font></th>
+    <th><font SIZE="-1">Soil Taxa</font>&nbsp;</th>
+  </tr>
+  <tr>
+    <td NOWRAP>&nbsp;<font SIZE="-1">Mountainsides/ridges</font></td>
+    <td NOWRAP>&nbsp;<font SIZE="-1">Sandstone/shale/limestone/diorite</font></td>
+    <td NOWRAP>&nbsp;<font SIZE="-1">Cryochrepts/Cryoboralfs/Cryoborolls</font></td>
+  </tr>
+</table>
+
+<p><b>Disturbance and Land Use:</b> The primary natural disturbances are fire, insects,
+and disease. Land use is predominantly timber harvest, mining, and some livestock grazing.</p>
+
+<p>-------------------------------------------------------------------------------<br>
+</p>
+
+<p><b>Landscape Characteristics:</b> Rolling to steep, dissected foothills and mountain
+fronts that formed in gneiss and schist. Elevations range from 5000 to 11300 feet.
+Drainage density is high.</p>
+
+<p><b>Climate:</b> Mean annual precipitation ranges from 20 to 50 inches, about 45 percent
+falling as snow. The soil temperature and moisture regimes are cryic and typic ustic.</p>
+
+<p><b>Potential Vegetation:</b> Foothills prairie/Douglas-fir forest</p>
+
+<p><b>Relationships of Dominant Map Unit Components:<br>
+</b></p>
+
+<table WIDTH="100%" BORDER="1" CELLSPACING="2" CELLPADDING="0">
+  <tr>
+    <th><font SIZE="-1">Landform</font>&nbsp;</th>
+    <th>&nbsp;<font SIZE="-1">Geology</font></th>
+    <th><font SIZE="-1">Soil Taxa</font>&nbsp;</th>
+  </tr>
+  <tr>
+    <td NOWRAP>&nbsp;<font SIZE="-1">Mountain fronts/foothills</font></td>
+    <td NOWRAP>&nbsp;<font SIZE="-1">Gneiss/schist</font></td>
+    <td NOWRAP>&nbsp;<font SIZE="-1">Cryoborolls/Cryochrepts</font></td>
+  </tr>
+</table>
+
+<p><b>Disturbance and Land Use:</b> The primary natural disturbances are fire, insects,
+and disease. Land use is predominantly livestock grazing, agriculture, and some timber
+harvest and mining.</p>
+
+<h3>-------------------------------------------------------------------------------<br>
+</h3>
+
+<p><b>Landscape Characteristics:</b> Mountainsides, foothills, fans, and terraces that
+formed in limestone, sandstone, and shale. Some landslide deposits also occur. Elevations
+range from 5000 to 10500 feet. Drainage density is moderate.</p>
+
+<p><b>Climate:</b> Mean annual precipitation ranges from 15 to 35 inches, about 40 percent
+falling as snow. The soil temperature and moisture regimes are cryic and typic ustic.</p>
+
+<p><b>Potential Vegetation:</b> Douglas-fir forest/Foothills prairie</p>
+
+<p><b>Relationships of Dominant Map Unit Components:<br>
+</b></p>
+
+<table WIDTH="100%" BORDER="1" CELLSPACING="2" CELLPADDING="0">
+  <tr>
+    <th>&nbsp;<font SIZE="-1">Landform</font></th>
+    <th><font SIZE="-1">Geology</font>&nbsp;</th>
+    <th><font SIZE="-1">Soil Taxa</font>&nbsp;</th>
+  </tr>
+  <tr>
+    <td NOWRAP>&nbsp;<font SIZE="-1">Mountainsides</font></td>
+    <td NOWRAP>&nbsp;<font SIZE="-1">Sedimentary</font></td>
+    <td NOWRAP>&nbsp;<font SIZE="-1">Cryoborolls/Cryoboralfs</font></td>
+  </tr>
+  <tr>
+    <td NOWRAP>&nbsp;<font SIZE="-1">Foothills</font></td>
+    <td NOWRAP>&nbsp;<font SIZE="-1">Sedimentary</font></td>
+    <td NOWRAP>&nbsp;<font SIZE="-1">Argiborolls/Haploboralfs</font></td>
+  </tr>
+  <tr>
+    <td NOWRAP>&nbsp;<font SIZE="-1">Fans/terraces</font></td>
+    <td NOWRAP>&nbsp;<font SIZE="-1">Sedimentary</font></td>
+    <td NOWRAP>&nbsp;<font SIZE="-1">Cryoborolls/Argiborolls</font></td>
+  </tr>
+</table>
+
+<p><b>Disturbance and Land Use:</b> The primary natural disturbance is fire. Land use is
+predominantly livestock grazing and timber harvest.</p>
+
+<p>------------------------------------------------------------------------------- </p>
+
+<p><b>Landscape Characteristics:</b> Highly dissected stream breaklands formed in gneiss,
+schist, and granitic rocks. Volcanic ash influenced loess covers some areas. Elevations
+range from 1400 to 7000 feet. Drainage density is high.</p>
+
+<p><b>Climate:</b> Mean annual precipitation ranges from 20 to 60 inches, about 60 percent
+falling as snow. The soil temperature and moisture regimes are frigid and typic xeric.</p>
+
+<p><b>Potential Vegetation:</b> Western ponderosa forest/Grand fir-Douglas-fir forest</p>
+
+<p><b>Relationships of Dominant Map Unit Components:</b></p>
+
+<table WIDTH="100%" BORDER="1" CELLSPACING="2" CELLPADDING="0">
+  <tr>
+    <th><font SIZE="-1">Landform </font>&nbsp;</th>
+    <th><font SIZE="-1">Geology </font>&nbsp;</th>
+    <th><font SIZE="-1">Soil Taxa</font>&nbsp;</th>
+  </tr>
+  <tr>
+    <td NOWRAP>&nbsp;<font SIZE="-1">Stream breaklands</font></td>
+    <td NOWRAP>&nbsp;<font SIZE="-1">Loess/schist/gneiss/granite</font></td>
+    <td NOWRAP>&nbsp;<font SIZE="-1">Udivitrands/Haploxerolls/Haplumbrepts</font></td>
+  </tr>
+  <tr>
+    <td NOWRAP>&nbsp;<font SIZE="-1">Valley floor/terraces</font></td>
+    <td NOWRAP>&nbsp;<font SIZE="-1">Alluvium</font></td>
+    <td NOWRAP>&nbsp;<font SIZE="-1">Xerofluvents/Udivitrands/Haploxerolls</font></td>
+  </tr>
+</table>
+
+<p><b>Disturbance and Land Use:</b> The primary natural disturbances are fire, insects,
+disease, and mass wasting. Land use includes livestock grazing, mining, and timber
+harvest.</p>
+
+<p>------------------------------------------------------------------------------- </p>
+
+<p><b>Landscape Characteristics:</b> Glaciated mountain slopes, ridges, and cirquelands
+that formed in quartz monzonite, gneiss, and granite. Many surface soils are influenced by
+volcanic ash. Elevations range from 3000 to 8500 feet. Drainage density is moderate. Lakes
+occur in cirque basins and on glacial valley floors.</p>
+
+<p><b>Climate:</b> Mean annual precipitation ranges from 35 to 70 inches, about 60 to 70
+percent falling as snow. The soil temperature and moisture regimes are cryic and udic.</p>
+
+<p><b>Potential Vegetation:</b> Western spruce-fir forest/Grand fir-Douglas-fir forest</p>
+
+<p><b>Relationships of Dominant Map Unit Components:</b></p>
+
+<table WIDTH="100%" BORDER="1" CELLSPACING="2" CELLPADDING="0">
+  <tr>
+    <th><font SIZE="-1">Landform </font>&nbsp;</th>
+    <th><font SIZE="-1">Geology </font>&nbsp;</th>
+    <th><font SIZE="-1">Soil Taxa</font>&nbsp;</th>
+  </tr>
+  <tr>
+    <td NOWRAP>&nbsp;<font SIZE="-1">Valleys/terraces/moraines</font></td>
+    <td NOWRAP>&nbsp;<font SIZE="-1">Alluvium/loess</font></td>
+    <td NOWRAP>&nbsp;<font SIZE="-1">Vitricryands/Cryaquepts/Cryochrepts</font></td>
+  </tr>
+  <tr>
+    <td NOWRAP>&nbsp;<font SIZE="-1">Glaciated mountain slopes and ridges</font></td>
+    <td NOWRAP>&nbsp;<font SIZE="-1">Granitic rocks/till</font></td>
+    <td NOWRAP>&nbsp;<font SIZE="-1">Cryochrepts/Cryoboralfs/Vitricryands</font></td>
+  </tr>
+  <tr>
+    <td NOWRAP>&nbsp;<font SIZE="-1">Cirqueland</font></td>
+    <td NOWRAP>&nbsp;<font SIZE="-1">Granitic rocks</font></td>
+    <td NOWRAP>&nbsp;<font SIZE="-1">Cryochrepts</font></td>
+  </tr>
+</table>
+
+<p><b>Disturbance and Land Use: </b>The primary natural disturbances are fire, insects,
+disease, and mass wasting. Since much of the subsection is either roadless or designated
+wilderness, human disturbances are slight.</p>
+
+<p>------------------------------------------------------------------------------- </p>
+
+<p><b>Landscape Characteristics:</b> Uplands, broad basins, and breaklands that formed
+gneiss, schist, and granitic rocks. Volcanic ash caps occur throughout the area.
+Elevations range from 1600 to 8200 feet. Drainage density is moderate to high. Wetlands
+occur throughout the subsection associated with glacial till. Lakes occur in high
+elevation cirques.</p>
+
+<p><b>Climate:</b> Mean annual precipitation ranges from 25 to 80 inches, about 60 percent
+falling as snow. The soil temperature and moisture regimes are cryic and udic.</p>
+
+<p><b>Potential Vegetation:</b> Western spruce-fir forest/Grand fir-Douglas-fir forest</p>
+
+<p><b>Relationships of Dominant Map Unit Components:</b></p>
+
+<table WIDTH="100%" BORDER="1" CELLSPACING="2" CELLPADDING="0">
+  <tr>
+    <th><font SIZE="-1">Landform </font>&nbsp;</th>
+    <th><font SIZE="-1">Geology </font>&nbsp;</th>
+    <th><font SIZE="-1">Soil Taxa</font>&nbsp;</th>
+  </tr>
+  <tr>
+    <td NOWRAP>&nbsp;<font SIZE="-1">Uplands/cirquelands</font></td>
+    <td NOWRAP>&nbsp;<font SIZE="-1">Granitic rocks/till</font></td>
+    <td NOWRAP>&nbsp;<font SIZE="-1">Cryochrepts/Vitricryands/Dystrochrepts/Cryoboralfs</font></td>
+  </tr>
+  <tr>
+    <td NOWRAP>&nbsp;<font SIZE="-1">Basins/terraces/floodplains</font></td>
+    <td NOWRAP>&nbsp;<font SIZE="-1">Till/colluvium/alluvium</font></td>
+    <td NOWRAP>&nbsp;<font SIZE="-1">Aquands/Cryands/Cryochrepts/Dystrochrepts</font></td>
+  </tr>
+  <tr>
+    <td NOWRAP>&nbsp;<font SIZE="-1">Breaklands</font></td>
+    <td NOWRAP>&nbsp;<font SIZE="-1">Granitic rocks/colluvium</font></td>
+    <td NOWRAP>&nbsp;<font SIZE="-1">Dystrochrepts/Haploxerolls</font></td>
+  </tr>
+</table>
+
+<p><b>Disturbance and Land Use:</b> The primary natural disturbances are fire, insects,
+disease, and mass wasting. Land use is predominantly timber harvest and mining.</p>
+
+<p>------------------------------------------------------------------------------- </p>
+</body>
+</html>

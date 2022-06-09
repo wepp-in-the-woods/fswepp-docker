@@ -1,0 +1,602 @@
+/*  GENERAL LAYOUT */
+
+body	{
+  background: #fff;
+	color: #000;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	border-top: 0;
+	text-align: center;
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-size: 76%;
+	}
+	
+img	{
+	margin: 0;  /* for Mac IE5.x 3px image margin bug */
+	border: 0;
+	padding: 0;
+	}
+
+#wrapper	{
+	background: #fff;
+	color: #000;
+	margin: 0;
+	padding: 0;
+	min-width: 720px; 
+	}
+
+/* #pubwrapper	{
+	background: #fff;
+	color: #000;
+	margin: 10px;
+	padding: 0;
+	border: 1px solid #666;
+	min-width: 722px; 
+	} */
+
+* html div#pubwrapper {  /* This is the Tan hack */ 
+	min-width: 722px; 
+	min-w\idth: 720px; } 
+
+#pagebody	{
+	padding: 0;
+	margin: 0;
+	border: 0;
+	text-align: left;
+	color: #333;
+	background: #fff;
+	clear: both;
+	}
+
+#pagebody	img {
+	margin: 0;  /* for Mac IE5.x 3px image margin bug */
+	border: 0;
+	padding: 0;
+	}
+
+#maincontent	{
+	margin: 0 0 0 210px;
+	padding: 10px;
+	height: 100%;
+	background: #fff;
+	}
+
+.section { /* FOR BEGINNING A NEW SECTION - DIVIDER */
+	margin-top: 25px;
+	border-top: 2px solid #ddd;
+	padding-top: 25px;
+	}
+	
+.subsection { /* FOR BEGINNING A NEW SECTION - DIVIDER */
+	margin-top: 25px;
+	border-top: 2px dotted #ddd;
+	padding-top: 25px;
+	}
+	
+#biblio p { 
+	padding-left: 10px; 
+	text-indent: -10px; 
+	}
+
+
+/* TYPOGRAPHY STYLES */
+
+body	{
+  /*  font-size: small;  */
+	font-size: 76%;
+  }
+
+h1, h2, h3, h4, h5, h6	{
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-weight: normal;
+	margin-top: 25px;
+	margin-bottom: 2px;
+	letter-spacing: 1px;
+	color: #000;
+	}
+	
+h1	{
+  margin-top: 0;
+  /* font-size: large; */      
+	font-size: 1.6em;
+  }
+
+h2	{
+  margin-top: 35px; 
+  /* 	font-size: large; */      
+	font-size: 1.4em;
+   	}
+
+h3	{ 
+	font-size: 1.2em;
+	/*	font-size: medium;  */ 
+		}
+
+h4	{ 
+	font-size: 1.1em;
+	/*	font-size: small;  */ 
+		}
+
+h5	{ 
+	font-size: 1.0em;
+	/*	font-size: x-small; */  
+		}
+
+h6	{ 
+	font-size: 0.9em;
+	/*	font-size: x-small; */  
+		}
+
+.topheading	{
+	text-transform: uppercase;
+	margin-top: 0;
+	margin-bottom: 10px;
+	color: #000;
+	}
+
+.subnav	{
+	text-transform: uppercase;
+	margin: 0 0 10px 0;
+	font-size: 0.9em;
+	/*	font-size: x-small; */  
+	font-weight: bold;
+	color: #999;
+	}
+
+.subnavhidden	{
+	display: none;
+	visibility: hidden;
+	color: #ffffff;
+	}
+
+.new-info  {
+	color:#ab0534;
+	font-weight:bold;
+	}
+
+p	{
+	line-height: 140%;
+	text-align: left;
+	margin-top: 0;
+	margin-bottom: 1em;
+	font-size: 1.0em;
+	/*	font-size: small; */  
+	}
+	
+abbr {
+	font-style: normal;
+	}
+
+#header #solotitle h1	{
+		font-family: Georgia, "Times New Roman", Times, serif;
+		color: #050;
+    margin-top: 0;
+    clear: both;
+    font-size: 12px;       
+    }
+
+#pagebody h1.welcome	{
+		color: #060;
+		text-align: center;
+    }
+
+#pagebody #maincontent #notice h2	{
+	font-weight: bold;
+	text-decoration: underline;
+	margin-bottom: 2px;
+	margin-top: 0;
+	}	
+	
+#pagebody #maincontent #notice p	{
+	margin-bottom: 2px;
+	}	
+	
+#maincontent dl	{
+	margin: 0;
+	padding: 0;
+	}
+	
+#maincontent dt 	{
+	font-weight: normal;
+	font-size: 1.0em;
+	/*	font-size: small; */  
+	}   
+	
+#maincontent dd 	{
+	padding: 0;
+	margin: 2px 0 10px 0;
+	}   	
+
+
+
+/* LINK STYLES */
+
+a:link {
+	text-decoration: underline;
+	color: #960;
+	background: transparent;
+	}
+	
+a:visited {
+	text-decoration: underline;
+	color: #960;
+	background: transparent;
+	}
+	
+a:hover {
+	text-decoration: underline;
+	color: #F03;
+	background: transparent;
+	}
+	
+/* a:link:focus, a:visited:focus {
+	text-decoration: underline;
+	color: #F03;
+	background: transparent;
+	} */
+	
+a:active {
+	text-decoration: underline;
+	color: #960;
+	background: transparent;
+	}
+
+
+
+/* SPECIAL PUBLICATION STYLES */
+
+#pub	{ 
+	width: auto; 
+	padding: 0;
+	border: 0; 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	text-align: left;
+	color: #000000; 
+	line-height: 1.4em; 
+	height: 100%;
+	background: #fff;
+	}
+
+#outsidesolo	{  /* FOR PUBS IF DISPLAYED OUTSIDE OF SOLO */
+	margin: 20px 5% 30px 5%;
+	}
+
+#pub #psubnav	p {
+	text-transform: uppercase;
+	margin: 0 0 20px 0;
+	font-size: 0.9em;
+	/*	font-size: x-small; */  
+	color: #999; 
+	font-weight: bold;
+	}
+
+#pub td, #pub ul, #pub ol, #pub li, #pub blockquote { 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 1.0em;
+	/*	font-size: x-small; */  
+	color: #000000; 
+	line-height: 1.4em; }
+
+/* (PUBS OLD COLORS) A {color:#3300CC;} A:active {color:#FFCC00;} A:hover {color:#FF0033;} A:visited:hover{color:#FF0033;} A:visited {color:#666699;} */
+
+#pub p { 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 1.0em;
+	/*	font-size: x-small; */  
+	color: #000000; 
+	line-height: 1.4em; 
+	text-align: left; 
+	}
+
+#pub h1 { 
+	font-family: Georgia, "Times New Roman", Times, serif; 
+	font-weight: normal; 
+	color: #000000; 
+	line-height: 1.2em; 
+	margin-bottom: 10px; 
+	}
+
+#pub h2 { 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-weight: bold; 
+	color: #000000; 
+	line-height: 1.2em; 
+	margin-top: 25px;  
+	margin-bottom: 5px;
+	}
+
+#pub h3 { 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-weight: bold; 
+	color: #000000; 
+	line-height: 1.2em; 
+	margin-top: 25px;  
+	margin-bottom: 5px; 
+	}
+
+#pub h4, h5, h6 { 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-weight: bold; 
+	color: #000000; 
+	line-height: 1.2em; 
+	}
+
+#pub img { 
+	border: 0; 
+	margin: 0;
+	}
+
+#pub .nav { 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 0.9em;
+	/*	font-size: x-small; */  
+	color: #666666; 
+	margin-bottom: 50px; 
+	}
+
+#pub .navtext { 
+	vertical-align: 80%; 
+	}
+
+#pub .bld {
+	font-style: normal;	
+	font-weight: bold; 
+	}
+
+#pub .ital {
+	font-style: italic; 
+	font-weight: normal; 
+	}
+
+#pub .italbld {
+	font-style: italic; 
+	font-weight: bold; 
+	}
+
+#pub .italsm {
+	font-style: italic; 
+	font-weight: normal; 
+	font-size: 0.9em;
+	/*	font-size: x-small; */  
+	}
+
+#pub ul.nobullet { 
+	list-style-type: none; 
+	}
+
+#pub .overln { 
+	text-decoration: overline; 
+	}
+
+#pub .nobold { 
+	font-weight: normal; 
+	}
+
+
+/* BEGIN SPECIAL PUBLICATION STYLES */
+
+#pub .figure { 
+	border-color: #999999; 
+	border-style: solid; 
+	border-width: 1px; 
+	padding: 6px; 
+	width: 548px; 
+	page-break-inside: avoid; 
+	margin-top: 30px;
+	margin-bottom: 30px;
+	}
+
+#pub .ref { 
+	padding-left: 10px; 
+	text-indent: -10px; 
+	}
+
+#pub #biblio p { 
+	padding-left: 10px; 
+	text-indent: -10px; 
+	}
+
+#pub .value { 
+	font-size: 0.9em;
+	/*	font-size: x-small; */  
+	font-style: italic; 
+	font-weight: normal; 
+	}
+
+#pub .figuretbl { 
+	border-color: #999999; 
+	page-break-inside: avoid; 
+	margin-top: 30px;
+	margin-bottom: 30px;
+	}
+
+#pub caption { 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 1.0em;
+	/*	font-size: x-small; */  
+	font-weight: normal; 
+	color: #000000; 
+	text-align: left; 
+	}
+
+#pub .authors { 
+	font-family: Georgia, "Times New Roman", Times, serif; 
+	font-size: 1.2em;
+	/*	font-size: medium; */  
+	font-weight: bold; 
+	color: #000000; 
+	}
+
+#pub th { 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 1.0em;
+	/*	font-size: x-small; */  
+	font-weight: bold; 
+	color: #000000; 
+	background-color: #CCCC99; 
+	text-align: center; 
+	}
+
+#pub .thsubrow { 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 1.0em;
+	/*	font-size: x-small; */  
+	font-weight: bold; 
+	color: #000000; 
+	text-align: left; 
+	background-color:	#FFFFCC;
+	}
+
+#pub .thsubcol { 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 1.0em;
+	/*	font-size: x-small; */  
+	font-weight: bold; 
+	color: #000000; 
+	text-align: center; 
+	background-color:	#FFFFCC;
+	}
+
+#pub .thsubrow2 { 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 1.0em;
+	/*	font-size: x-small; */  
+	font-weight: bold; 
+	color: #000000; 
+	text-align: left; 
+	background-color:	transparent; 
+	}
+
+#pub .thsubcol2 { 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 1.0em;
+	/*	font-size: x-small; */  
+	font-weight: bold; 
+	color: #000000; 
+	text-align: center; 
+	background-color:	transparent; 
+	}
+
+#pub .thsmbld {
+	font-size: 0.9em;
+	/*	font-size: x-small; */  
+	font-style: normal;	
+	font-weight: bold; 
+	}
+
+#pub .thplain {
+	font-weight: normal; 
+	background-color: #FFFFFF; 
+	text-align: left; 
+	}
+
+#pub td.data	{ 
+	font-family: Andale Mono, Courier, monospace; 
+	font-weight: normal; 
+	font-style: normal; 
+	text-align: right; 
+	}
+
+#pub td.datacenter	{ 
+	font-family: Andale Mono, Courier, monospace; 
+	font-weight: normal; 
+	font-style: normal; 
+	text-align: center; 
+	}
+
+#pub td.datatotal1	{ 
+	font-family: Andale Mono, Courier, monospace; 
+	font-weight: bold; 
+	font-style: normal; 
+	text-align: right; 
+	background-color: #FFFFCC; 
+	}
+
+#pub th.datatotal1	{ 
+	font-weight: bold; 
+	text-align: right; 
+	background-color: #FFFFCC; 
+	}
+
+#pub .notes { 
+	color: #999999; 
+	font-size: 0.9em;
+	/*	font-size: x-small; */  
+	}
+
+/*  END SPECIAL PUBLICATION STYLES */
+
+
+/* BEGIN SPECIAL STYLES FOR EQUATIONS IN PUBS */
+
+#pub div.eqnsimple { padding-left: 20px; color: #333399;}
+
+#pub div.eqn {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:4mm;
+	line-height:7mm;
+	text-align:justify;
+	margin:2mm 0 2mm 3cm;
+	color: #333399;
+	}
+
+#pub span.d, span.n {
+	display:block;
+	text-align:center;
+	}
+	
+#pub span.f {
+	line-height:7.5mm;
+	}
+	
+#pub span.f
+	{display:inline-table;
+	border-collapse:collapse;
+	vertical-align:middle;
+	white-space:nowrap;
+	text-align:center;
+	margin:0 2px;}
+#pub span.f
+	{display:inline-block;}
+#pub html > body span.f
+	{display:inline-table;}
+#pub html > body span.f
+	{display:-moz-inline-box;
+	-moz-box-orient:vertical;}
+#pub span.f sub, #pub sub sub, #pub sup sub
+	{top:0.5mm;}
+#pub span.f sup, #pub sup sup, #pub sup sup
+	{bottom:1mm;}
+#pub span.n
+	{border-bottom:solid 1px #333399;}
+#pub sub, #pub sup
+	{vertical-align:baseline;
+	font-size:80%;}
+#pub sub
+	{position:relative;
+	top:1mm;}
+#pub sup
+	{position:relative;
+	bottom:2mm;}
+@media print
+		{
+#pub div.eqn, #pub div.stat
+	{page-break-inside:avoid;}
+		}
+#pub .normalsub
+	{top: 1mm;
+	vertical-align: baseline;
+	font-size:100%;
+	position:relative;}
+#pub .normalsup
+	{bottom:1mm;
+	vertical-align: baseline;
+	font-size:100%;
+	position:relative;}
+	
+/* END SPECIAL STYLES FOR EQUATIONS IN PUBS */
+
+
+/* DEBUGGER */
+/*div {border: 1px solid red;} */

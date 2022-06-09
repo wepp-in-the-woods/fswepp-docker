@@ -1,0 +1,53 @@
+
+h1 { font-family: Arial, Helvetica, sans-serif; font-size: 12pt; font-weight: bold; color: #000033; line-height: 1.2em; }
+
+h2 { font-family: Arial, Helvetica, sans-serif; font-size: 11pt; font-weight: bold; color: #000033; line-height: 1.2em; }
+
+h3 { font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: bold; color: #000033; line-height: 1.2em; }
+
+h4 { font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: bold; color: #000033; line-height: 1.2em; }
+
+.nav { font-family: Arial, Helvetica, sans-serif; font-size: 10px; color: #666666; }
+
+em {font-style: normal;	font-weight: bold; }
+
+em.bld {font-style: normal;	font-weight: bold; }
+
+em.ital {font-style: italic;	font-weight: normal; }
+
+.sidemenuh4 {color: #000033; font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: normal;} 
+ 
+.sidemenuol {color: #000033; font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: normal; list-style-type: decimal;} 
+ 
+.sidemenuul {color: #000033; font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: normal; list-style-type: disc; margin-left: 5px; padding-left: 5px;} 
+ 
+.sidemenuul2 {color: #000033; font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: normal; list-style-type: circle; margin-left: 5px; padding-left: 5px;} 
+ 
+.thsubrow { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; color: #000033; text-align: left; background-color:	#FFFFCC;}
+
+.thsubcol { font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-weight: bold; color: #000033; text-align: center; background-color:	#FFFFCC;}
+
+.authors { font-family: Arial, Helvetica, sans-serif; font-size: 16px; font-weight: bold; color: #000033; }
+
+caption { font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: bold; color: #000033; text-align: left; }
+
+th { font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-weight: bold; color: #000033; background-color: #CCCC99; text-align: center; }
+
+.thfig { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; color: #000033; background-color: #CCCC99; text-align: center; }
+
+.tdfig { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; color: #000033; text-align: left; }
+
+.nobold { font-weight: normal; }
+
+.figure { border-color: #999999; }
+
+.ref {padding-left: 10px; text-indent: -10px; }
+
+.notes { color: #999999; font-size: 10pt; }
+
+.g10pt {color: #999999; font-family: Arial, Helvetica,
+sans-serif; font-size: 10pt; font-weight: normal; text-decoration: none;}
+
+.figureDE { background-color: #FFFFFF; padding: 10px; border-width: 1px; border-color: #000000; border-style: solid;}
+
+.figurebeigebkgd { background-color: #E7DEDF; padding: 10px; border-width: 1px; border-color: #000000; border-style: solid;}

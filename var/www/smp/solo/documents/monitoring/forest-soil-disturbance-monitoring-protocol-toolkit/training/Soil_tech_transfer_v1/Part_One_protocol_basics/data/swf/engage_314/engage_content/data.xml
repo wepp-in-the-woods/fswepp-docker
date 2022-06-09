@@ -1,0 +1,39 @@
+<Interaction Type="Timeline" Title="Sample-size Decision Support Matrix" contentfont="Articulate" jpegquality="80" autoplay="false" autoplayduration="5" headingfont="Articulate" navfont="Articulate" soundeffects="true" volumebutton="true" audioquality="low" audiocustombitrate="br112Kbps" audiocustomfrequency="fq12KHz" audiocustomchannel="ccMono" navbuttons="true" forceorder="false" detectflashver="true" animation="bounce" version="2.2.907.1413" borderstyle="round_inset">
+  <timeline>
+    <periods>
+      <period name="Assessment and Monitoring Considerations" percent="33.3333333333333">
+        <color name="Green" valuea="0x99CC00" valueb="0x006600" inner="0x002F00" hovera="0xFFFFFF" hoverb="0x99CC00" />
+      </period>
+      <period name="Decision Matrix" percent="33.3333333333333">
+        <color name="Red" valuea="0xDD4809" valueb="0x912020" inner="0x5C1414" hovera="0xFCCFBC" hoverb="0xDD4809" />
+      </period>
+      <period name="Example of Sample-size" percent="33.3333333333333">
+        <color name="Blue" valuea="0x33CCFF" valueb="0x003399" inner="0x000000" hovera="0x79FFE1" hoverb="0x01A7A7" />
+      </period>
+    </periods>
+    <events>
+      <event percent="37.6344086021505">
+        <color name="Red" valuea="0xDD4809" valueb="0x912020" inner="0x5C1414" hovera="0xFCCFBC" hoverb="0xDD4809" />
+      </event>
+      <event percent="79.7043010752688">
+        <color name="Blue" valuea="0x33CCFF" valueb="0x003399" inner="0x000000" hovera="0x79FFE1" hoverb="0x01A7A7" />
+      </event>
+    </events>
+  </timeline>
+  <steps>
+    <Step id="c009b2f4-c3f0-4a68-b81e-9ba442faa8b3" name="Introduction" title="" number="" html="&lt;p align='left'&gt;&lt;font face='Articulate' size='16' color='#000000'&gt;The number of sample points required for your assessment and monitoring is based on three variables:&lt;/font&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;font face='Articulate' size='16' color='#000000'&gt;&lt;textformat tabstops='[0]' indent='00' leftmargin='20'&gt;1&lt;/textformat&gt;&lt;/font&gt;&lt;textformat tabstops='[0]' indent='00' leftmargin='20'&gt;&lt;font face='Articulate' size='16' color='#0000ff'&gt;&lt;b&gt;. &lt;u&gt;&lt;a target='_blank' href='asfunction:GotoStep,dce263d3-39e3-4ca2-9391-ef982e73f98a'&gt;Resources&lt;/a&gt;&lt;/u&gt;&lt;/b&gt;&lt;/font&gt;&lt;font face='Articulate' size='16' color='#000000'&gt; (time and funding) available for monitoring.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat tabstops='[0]' indent='-20' leftmargin='40'&gt;&lt;font face='Articulate' size='16' color='#000000'&gt;2.&lt;TAB&gt;&lt;/TAB&gt;Degree of &lt;/font&gt;&lt;font face='Articulate' size='16' color='#0000ff'&gt;&lt;u&gt;&lt;a target='_blank' href='asfunction:GotoStep,dce263d3-39e3-4ca2-9391-ef982e73f98a'&gt;risk or sensitivity&lt;/a&gt;&lt;/u&gt;&lt;/font&gt;&lt;font face='Articulate' size='16' color='#000000'&gt; associated with the project.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat tabstops='[0]' indent='-20' leftmargin='40'&gt;&lt;font face='Articulate' size='16' color='#000000'&gt;3.&lt;TAB&gt;&lt;/TAB&gt;The amount of &lt;/font&gt;&lt;font face='Articulate' size='16' color='#0000ff'&gt;&lt;u&gt;&lt;a target='_blank' href='asfunction:GotoStep,dce263d3-39e3-4ca2-9391-ef982e73f98a'&gt;variability&lt;/a&gt;&lt;/u&gt;&lt;/font&gt;&lt;font face='Articulate' size='16' color='#000000'&gt; within the unit being sampled.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;" intro="true">
+      <audio name="audio2.mp3" source="audioSource2.wav" duration="24900" />
+    </Step>
+    <Step id="dce263d3-39e3-4ca2-9391-ef982e73f98a" name="Decision Matrix" title="" number="" html="&lt;p&gt;&lt;font face='Articulate' size='16' color='#000000'&gt; &lt;/font&gt;&lt;br&gt;&lt;/br&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;font face='Articulate' size='16' color='#000000'&gt;Selecting the best confidence levels and intervals should be determined when developing a monitoring plan. The soil scientist may want to consult with other resource specialists, line-officers, and even adjacent forests when deciding on the monitoring intensity for the area.&lt;/font&gt;&lt;/p&gt;">
+      <image width="248" height="186" zoomheight="520" playbar="false" autoplay="false" zoomwidth="693" zoommode="Embedded" allowzoom="true" align="topright" duration="0" framerate="30" name="image0.jpg" zoomimage="imageZoom0.jpg" />
+      <audio name="audio5.mp3" source="audioSource5.wav" duration="58000" />
+    </Step>
+    <Step id="a6586f37-79dd-4b80-8087-5b03464494be" name="Examples of Sample-size" title="" number="" html="&lt;p align='left'&gt;&lt;font face='Articulate' size='16' color='#000000'&gt;Often decisions on how many sample points you monitor are determined by resources (time and money). However, some areas may be particularly prone to land management impacts and this may lead you to increasing your confidence level and subsequently sample size. Conversely, for low-risk sites with little unit variability and impacts, the number of sample points could be less. &lt;/font&gt;&lt;/p&gt;">
+      <image width="248" height="277" zoomheight="365" playbar="false" autoplay="false" zoomwidth="326" zoommode="Embedded" allowzoom="true" align="topright" duration="0" framerate="30" name="image1.jpg" zoomimage="imageZoom1.jpg" />
+      <audio name="audio6.mp3" source="audioSource6.wav" duration="18400" />
+    </Step>
+  </steps>
+  <nextslide enabled="False" text="" show="" />
+  <starttip show="false" text="Click next to continue" />
+  <resume id="3f23f975-f8e8-4700-bff8-01175fb12a2f" enabled="false" />
+</Interaction>

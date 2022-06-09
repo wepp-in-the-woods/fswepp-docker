@@ -1,0 +1,302 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META content="text/html; charset=iso-8859-1" http-equiv=Content-Type>
+<title>SQM Standardized Report Form</title>
+</HEAD>
+<BODY bgcolor="#F0FFF0">
+<form name="Soil Quality Monitoring (SOLO) Report Form" method="post" action="<!SOLO-ADDR!>">
+<input type="hidden" name="name" value="<!SOLO-NAME!>" >
+<input type="hidden" name="skey" value="<!SOLO-SKEY!>" >
+<input type="hidden" name="key"  value="data" >
+
+<TABLE border="0" cellspacing="0" cellpadding="0" width="1096">
+
+<td width="1094">
+
+<TABLE border="1" cellPadding=0 cellSpacing=1 width=1084 height="796">
+  <tr>
+    <td colspan=10 align="center" width="1021"><font size="2"><br>
+    <b>SOIL QUALITY MONITORING STANDARDIZED REPORT FORM</b><BR>REGION 1, NATIONAL FOREST SYSTEM - VERSION 3.7.2 - JANUARY 2001<BR>
+    <font size=-2>(Fill in all that apply. Click boxes to select Activities and Concerns. Text boxes will scroll to accept large amounts of information.) </font>
+    <a href="<!SOLO-ADDR!>?key=formhelp">Help</a>
+    <h4>Data Entry Form</h4></font></td>
+  </tr>
+  
+  <TR>
+    <TD colSpan=10 width="1021" height="26"><B><FONT size=-2><br>
+      </FONT><font size="2">
+      &nbsp;SITE CHARACTERISTICS</font></B></TD></TR>
+  <TR>
+    <TD width=283 colspan="4" height="37"><FONT size=-2>&nbsp;SITE NAME</FONT><BR>
+      <INPUT name="Site Name" size=27></TD>
+    <TD width=119 height="37"><FONT size=-2>&nbsp;SITE TYPE</FONT><BR>
+      <INPUT name="Site Type" size=12></TD>
+    <TD align=center width=115 height="37"><FONT size=-2>HARVEST UNIT#</FONT><BR>
+      <INPUT name="Harvest Unit" size=7></TD>
+    <TD width=205 colspan="2" height="37"><FONT size=-2>&nbsp;FOREST</FONT><BR>
+      <INPUT name=Forest size="20" value="<!SOLO-FOREST!>"></TD>
+    <TD width=298 colspan="2" height="37"><FONT size=-2>&nbsp;DISTRICT</FONT><BR>
+      <INPUT name=District size="16"></TD></TR>
+  <TR>
+    <TD width="283" colspan="4" height="14"><font size="1">&nbsp;LOCATION</font></TD>
+    <TD colspan="2" width="236" height="14"><font size="1">&nbsp;(format:&nbsp; degrees<b>,</b>minutes<b>'</b>seconds<b>&quot;</b>)</font></TD>
+    <TD width="493" colspan="4" height="14"><font size="1">&nbsp;GIS REFERENCE</font></TD></TR>
+  <TR>
+    <TD width="97" height="14"><font size="1">&nbsp;Section</font></TD>
+    <TD width="97" height="14"><font size="1">&nbsp;Township</font></TD>
+    <TD width="97" height="14"><font size="1">&nbsp;Range</font></TD>
+    <TD width="86" height="14"><font size="1">&nbsp;Meridian</font></TD>
+    <TD width="119" height="14"><font size="1">&nbsp;*Latitude</TD>
+    <TD width="115" height="14"><font size="1">&nbsp;*Longitude</font></TD>
+    <TD width="114" height="14"><font size="1">&nbsp;*Map Coverage</font></TD>
+    <TD width="90" height="14"><font size="1">&nbsp;*Polygon ID</font></TD>
+    <TD width="94" height="14"><font size="1">&nbsp;COUNTY</font></TD>
+    <TD width="198" height="14"><font size="1">&nbsp;STATE</font></TD></TR>
+  <TR>
+    <TD width="97" height="23"><font size="1"><input type="text" name="Section" size="5"></font></TD>
+    <TD width="97" height="23"><font size="1"><input type="text" name="Township" size="5"></font></TD>
+    <TD width="97" height="23"><font size="1"><input type="text" name="Range" size="5"></font></TD>
+    <TD width="86" height="23"><font size="1"><input type="text" name="Meridian" size="9"></font></TD>
+    <TD width="119" height="23"><font size="1"><input type="text" name="Latitude" size="12">N.</font></TD>
+    <TD width="115" height="23"><font size="1"><input type="text" name="Longitude" size="12">W.</font></TD>
+    <TD width="114" height="23"><font size="1"><input type="text" name="Map/Coverage" size="10"></font></TD>
+    <TD width="90" height="23"><font size="1"><input type="text" name="Polygon ID" size="9"></font></TD>
+    <TD width="94" height="23"><font size="1"><input type="text" name="County" size="10"></font></TD>
+    <TD width="198" height="23"><font size="1"><input type="text" name="State" size="4" value="<!SOLO_STATE!>"></font></TD></TR>
+  <TR>
+    <TD width="519" colspan="6" height="39">
+      <table border="0" cellPadding="0" cellSpacing="0" width="544">
+        <TR>
+          <TD width="60"><font size="1">&nbsp;SLOPE<BR>
+            <INPUT name="Slope" size=3>&nbsp;%</font></TD>
+          <TD width="65"><font size="1">&nbsp;ASPECT<BR>
+            <INPUT name="Aspect" size=4>&nbsp;Deg.</font></TD>
+          <TD width="77" nowrap><font size="1">&nbsp;ELEVATION<br>
+            <input name="Elevation" size="9">&nbsp;</font></TD>
+          <TD width="89" nowrap><font size="1"><input type="radio" name="Units" value="Feet">&nbsp;Feet<br>
+            <input type="radio" name="Units" value ="Meters" checked>&nbsp;Meters</font></TD>
+          <TD width="81" nowrap><font size="1">&nbsp;SITE AREA<br>
+            <input name="Site Area" size="8">&nbsp;</font></TD>
+          <TD width="75" nowrap><font size="1"><input type="radio" name="Area Units" value="Acres">&nbsp;Acres<br>
+            <input type="radio" name="Area Units" value ="Hectares" checked>&nbsp;Hectares</font></TD></TR>
+      </table>
+    </TD>
+    <TD width="493" colspan="4" height="39">
+      <table border="0" cellPadding="0" cellSpacing="0" width="348">
+        <TR>
+          <TD width="344"><font size="1">&nbsp;LANDFORM / TOPOGRAPHY<br>
+            <input name="Landform/Topography" size="41"></font></TD></TR>
+      </table>
+    </TD>  
+  </TR>
+  <TR>
+    <TD width="410" colspan="5" height="39">
+      <table border="0" cellpadding="0" cellspacing="0" width="419">
+        <tr>
+          <td width="125"><font size="1">&nbsp;SUBSECTION<br>
+            <input name="Subsection" size="9"></font></td>
+          <td width="290"><font size="1">&nbsp;HABITAT TYPE &amp; SYSTEM<br>
+            <input name="Habitat Type" size="36"></font></td>
+        </tr>
+      </table>
+    </TD>
+    <TD width="610" colspan="5" height="39">
+      <table border="0" cellpadding="0" cellspacing="0" width="493">
+        <tr>
+          <td width="480"><font size="1">WATERSHED NAME &amp; 4TH CODE HUC<br>
+            <input name="Watershed" size="57"></font></td>
+        </tr>
+      </table>
+    </TD>
+  </TR>
+  <TR>
+    <TD width="410" colspan="5" height="39">
+      <table border="0" cellpadding="0" cellspacing="0" width="418">
+        <tr>
+          <td width="125"><font size="1">&nbsp;LTA<br>
+            <input name="LTA" size="9"></font></td>
+          <td width="289"><font size="1">&nbsp;PARENT MATERIAL<br>
+            <input name="Parent Material" size="36"></font></td>
+        </tr>
+      </table>
+    </TD>
+    <TD width="610" colspan="5" height="39">
+      <table border="0" cellpadding="0" cellspacing="0" width="493">
+        <tr>
+          <td width="480"><font size="1">SOIL CLASSIFICATION (Family)<br>
+            <input name="Soil Family" size="57"></font></td>
+        </tr>
+      </table>
+    </TD>
+  </TR>
+  <TR>
+    <TD width="1012" colspan="10" height="39">
+      <table border="0" cellpadding="0" cellspacing="0" width="914">
+        <tr>
+          <td width="121"><font size="1">&nbsp;LANDTYPE<BR>
+            <input name="Landtype" size="9"></font></td>
+          <td width="792"><font size="1">&nbsp;REMARKS<br>
+            <input name="Remarks" size="98"></font></td>
+        </tr>
+      </table>
+    </TD>
+  </TR>
+  <TR>
+    <TD colSpan="10" width="1021" height="26"><B><FONT size=-2><br>
+      </FONT><font size="2">
+      &nbsp;ACTIVITY MONITORED</font></B></TD>
+  </TR>
+  <TR>
+    <TD width="1020" colspan="10" height="166">
+      <table border="0" cellpadding="0" cellspacing="0" width="914" height="140">
+        <tr>
+          <td width="248" valign="top" height="140"><input type="checkbox" name="Fire Activity" value="Yes">
+            <font size="1">&nbsp;FIRE</FONT><BR>
+              <input type="checkbox" name="Harvest Activity" value="Yes">
+            <font size="1">&nbsp;HARVEST</FONT><BR>
+              <input type="checkbox" name="Site Prep Activity" value="Yes">
+            <font size="1">&nbsp;SITE PREP</FONT><BR>
+              <input type="checkbox" name="Roading Activity" value="Yes">
+            <font size="1">&nbsp;ROADING</FONT><BR>
+              <input type="checkbox" name="Grazing Activity" value="Yes">
+            <font size="1">&nbsp;GRAZING</FONT><BR>
+              <input type="checkbox" name="Recreation Activity" value="Yes">
+            <font size="1">&nbsp;RECREATION</FONT><BR>
+              <input type="checkbox" name="Other Activity" value="Yes">
+            <font size="1">&nbsp;OTHER</FONT><BR></td>
+          <td width="662" valign="top" height="140"><font size="1">&nbsp;REMARKS:<br>
+            (disturbance history; conditions during this occurrence; cumulative effects; equipment/system used; etc.)</font><br>
+            <textarea name="Remarks-Monitored Activity" rows="6" cols="67"></textarea></td>
+        </tr>
+      </table>  
+    </td>
+  </tr>
+  <TR>
+    <TD width="1021" colspan="10" height="26"><b><font size="-2"><br>
+      </font><font size="2">
+      &nbsp;MONITORING CONCERN</font></b></TD>
+  </TR>
+  <TR>
+    <TD width="281" colspan="4" height="244">
+      <table border="0" cellpadding="0" cellspacing="0" width="296">
+        <tr>
+          <td width="200"><b><font size="1">Concern</font></b></td>
+          <td width="92"><font size="1">Pct of Area</font></td>
+        </tr>
+        <tr>
+          <td width="200" valign="top"><font size="1"><input type="checkbox" name="Compaction" value="Yes">
+            COMPACTION</font></td>
+          <td width="92" valign="top"><font size="1"><input name="Compaction Pct of Area" size="3"></font></td>
+        </tr>
+        <tr>
+          <td width="200" valign="top"><font size="1"><input type="checkbox" name="Displacement" value="Yes">
+            DISPLACEMENT</font></td>
+          <td width="92" valign="top"><font size="1"><input name="Displacement Pct of Area" size="3"></font></td>
+        </tr>
+        <tr>
+          <td width="200" valign="top"><input type="checkbox" name="Rutting" value="Yes">
+            <font size="1">RUTTING</font></td>
+          <td width="92" valign="top"><input name="Rutting Pct of Area" size="3"></td>
+        </tr>
+        <tr>
+          <td width="200" valign="top"><input type="checkbox" name="Burned Soil" value="Yes">
+            <font size="1">BURNED SOIL</font></td>
+          <td width="92" valign="top"><input name="Burned Soil Pct of Area" size="3"></td>
+        </tr>
+        <tr>
+          <td width="200" valign="top"><input type="checkbox" name="Surface Organics" value="Yes">
+            <font size="1">SURFACE ORGANICS</font></td>
+          <td width="92" valign="top"><input name="Surface Organics Pct of Area" size="3"></td>
+        </tr>
+        <tr>
+          <td width="200" valign="top"><input type="checkbox" name="Ground Cover" value="Yes">
+            <font size="1">GROUND COVER</font></td>
+          <td width="92" valign="top"><input name="Ground Cover Pct of Area" size="3"></td>
+        </tr>
+        <tr>
+          <td width="200" valign="top"><input type="checkbox" name="Surface Erosion" value="Yes">
+            <font size="1">SURFACE EROSION</font></td>
+          <td width="92" valign="top"><input name="Surface Erosion Pct of Area" size="3"></td>
+        </tr>
+        <tr>
+          <td width="200" valign="top"><input type="checkbox" name="Mass Movement" value="Yes">
+            <font size="1">MASS MOVEMENT</font></td>
+          <td width="92" valign="top"><input name="Mass Movement Pct of Area" size="3"></td>
+        </tr>
+      </table>
+    </TD>
+    <TD width="740" colspan="6" height="244">
+      <table border="0" cellpadding="0" cellspacing="0" width="624" height="183">
+        <tr>
+          <td valign="top" height="26" width="620"><font size="1">&nbsp;REMARKS:<br>
+            &nbsp;(reasons for concern; actions performed; methodology; results; mitigation applied; etc.)</font></td>
+        </tr>
+        <tr>
+          <td valign="top" height="183" width="620">
+            <textarea name="Remarks-Monitoring Concerns" rows="10" cols="58"></textarea></td>
+        </tr>
+      </table>
+    </TD>
+  </TR>
+  <TR>
+    <TD width="1007" colspan="10" height="19"><b><font size="1"><br>
+      </font><font size="2">
+      &nbsp;CONCLUSIONS &amp; RECOMMENDATIONS</font></b></TD>
+  </TR>
+  <TR>
+    <TD width="1007" colspan="10" height="19">
+      <textarea rows="5" name="Conclusions & Recommendations" cols="89"></textarea></TD>
+  </TR>
+  <TR>
+    <TD width="1017" colspan="10"><b><font size="1"><br>
+      </font><font size="2">
+      &nbsp;ADMINISTRATIVE INFORMATION</font></b><font size="2"><br>
+      &nbsp;(FILL ALL BOXES. Form will be submitted in your name, with the title
+      of the report printed at the top.)</font></TD>
+  </TR>
+  <TR>
+    <TD width="514" colspan="6" height="19"><font size="1">&nbsp;TITLE OF DETAILED REPORT</font><br>
+      <input type="text" name="Title of Report" size="62">      
+    </TD>
+    <TD width="205" colspan="2" height="19" align="center"><font size="1">Date Monitored</font><br>
+      <input type="text" name="Date Monitored" size="12">      
+    </TD>
+    <TD width="298" colspan="2" height="19" align="center"><font size="1">Date Reported</font><br>
+      <input type="text" name="Date Reported" size="12" value="<!SOLO-DATE!>">      
+    </TD></TR>
+  <TR>
+    <TD width="514" colspan="6" height="19"><font size="1">&nbsp;LOCATION OF DETAILED REPORT</font><br>
+      <input type="text" name="Location of Report" size="62">
+    </TD>
+    <TD width="503" colspan="4" height="57" rowspan="3" align="center" valign="middle"><u><b>Select Action:</b></u><br>
+      <select name="Submission" size="5">
+        <option value="Submit" >Submit this form now.
+        <option value="Review" selected>Suspend and reload entry.
+        <option value="Suspend">Suspend entry and logout. Resume later.
+        <option value="Abort">Abort entry and logout. &nbsp;&nbsp;No Resume.
+        <option value="Clear">Clear suspended data and logout.
+      </select>
+      <input type="submit" value="Execute Action">
+    </TD>
+  </TR>
+  <TR>
+    <TD width="172" colspan="2" height="19"><font size="1">&nbsp;SUBMITTED BY</font><br>      
+      <input type="text" name="Submitted by" value="<!SOLO-USER-NAME!>" size="20">
+    </TD>
+    <TD width="163" colspan="2" height="19"><font size="1">&nbsp;TITLE</font><br>      
+      <input type="text" name="Title" value="<!SOLO-USER-TITLE!>" size="20">
+    </TD>
+    <TD width="182" colspan="2" height="19"><font size="1">&nbsp;E-MAIL ADDRESS</font><br>      
+      <input type="text" name="email" value="<!SOLO-USER-EMAIL!>" size="20">
+    </TD>
+  </TR>
+  <TR>
+    <TD width="514" colspan="6" height="19" align="center"><b>&nbsp;<font color="#FF0000" size="1">=&gt;<u>IMPORTANT</u>:
+      AFTER SUBMITTING, <u>SAVE THE RETURNED FILE</u> TO YOUR OWN FILING
+      SYSTEM.&lt;=</font></b></TD>
+  </TR>
+</table>
+</TABLE>
+</FORM>
+</BODY>
+</HTML>

@@ -1,0 +1,23 @@
+<Interaction Type="Tabs" ContentFolder="proj_content" Title="Advantages of a National Monitoring Protocol" Numbering="0" animation="bounce" contentfont="Articulate" tabwidth="192" jpegquality="80" autoplay="false" autoplayduration="5" headingfont="Articulate" navfont="Articulate" soundeffects="true" volumebutton="true" audioquality="low" audiocustombitrate="br112Kbps" audiocustomfrequency="fq12KHz" audiocustomchannel="ccMono" navbuttons="true" forceorder="false" detectflashver="true" version="2.2.907.1413" borderstyle="round_inset">
+  <steps>
+    <Step id="0c325a8e-69d1-4148-8fa3-4b4ffd3dced4" name="Advantages of a National Monitoring Protocol" title="" number="" html="&lt;p align='left'&gt;&lt;font face='Articulate' size='13' color=''&gt;Why go to all the effort to have a standardized forest monitoring protocol?  There are several reasons, but chief among them are communicating with co-workers, line-officers and the public. &lt;/font&gt;&lt;/p&gt;" intro="true">
+      <image width="253" height="189" zoomheight="520" playbar="false" autoplay="false" zoomwidth="693" zoommode="Embedded" allowzoom="true" align="top" duration="0" framerate="30" name="image0.jpg" zoomimage="imageZoom0.jpg" />
+      <audio name="audio1.mp3" source="audioSource1.wav" duration="6600" />
+    </Step>
+    <Step id="18560d9d-7dca-43c0-9473-6c34348c04c3" name="Communicating with Co-workers" title="" number="" html="&lt;p&gt;&lt;font face='Articulate' size='16' color='#000000'&gt; &lt;/font&gt;&lt;br&gt;&lt;/br&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;font face='Articulate' size='13' color=''&gt;A common protocol improves our ability to communicate information to our co-workers since everyone is reporting and describing soil visual classes similarly. In addition, information can be shared between soil scientists on different ranger districts and forests. &lt;/font&gt;&lt;/p&gt;">
+      <image width="253" height="189" zoomheight="520" playbar="false" autoplay="false" zoomwidth="693" zoommode="Embedded" allowzoom="true" align="top" duration="0" framerate="30" name="image1.jpg" zoomimage="imageZoom1.jpg" />
+      <audio name="audio8.mp3" source="audioSource8.wav" duration="11200" />
+    </Step>
+    <Step id="3bae6bba-bbe6-4762-9960-f70d31665dcc" name="Communicating with Line-Officers" title="" number="" html="&lt;p align='left'&gt;&lt;font face='Articulate' size='13' color=''&gt;Frequently soil scientists are asked to provide line-officers a report on the effect of different management activities on the soil resource. The statistically-based protocol that uses soil-based visual indicators can be easily understood by all.&lt;/font&gt;&lt;/p&gt;">
+      <image width="285" height="190" zoomheight="466" playbar="false" autoplay="false" zoomwidth="700" zoommode="Embedded" allowzoom="true" align="top" duration="0" framerate="30" name="image4.jpg" zoomimage="imageZoom4.jpg" />
+      <audio name="audio9.mp3" source="audioSource9.wav" duration="10500" />
+    </Step>
+    <Step id="8ffe74c5-d6f7-4455-b1ba-b47f8df638c7" name="Communicating with the Public" title="" number="" html="&lt;p align='left'&gt;&lt;font face='Articulate' size='13' color=''&gt;By using the FSDMP consistently we can show the public that we are maintaining forest productivity after harvest activities and that we have the data to back up the claims.  &lt;/font&gt;&lt;/p&gt;">
+      <image width="253" height="189" zoomheight="286" playbar="false" autoplay="false" zoomwidth="381" zoommode="Embedded" allowzoom="true" align="top" duration="0" framerate="30" name="image3.jpg" zoomimage="imageZoom3.jpg" />
+      <audio name="audio11.mp3" source="audioSource11.wav" duration="6300" />
+    </Step>
+  </steps>
+  <nextslide enabled="False" text="" show="" />
+  <starttip show="false" text="Click next to continue" />
+  <resume id="04629ede-6bff-4ee3-8786-87b05b6e5ff7" enabled="false" />
+</Interaction>

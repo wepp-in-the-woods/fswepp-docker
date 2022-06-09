@@ -1,0 +1,836 @@
+/*  GENERAL LAYOUT */
+
+body	{
+  background: #fff;
+	color: #000;
+	width: auto;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	border-top: 0;
+	text-align: center;
+	font-family: "Times New Roman", Times, Georgia, serif;
+	font-size: 12pt !important;
+	line-height: 125%;
+	}
+	
+img	{
+	margin: 0;  /* for Mac IE5.x 3pt image margin bug */
+	border: 0;
+	padding: 0;
+	}
+
+#wrapper	{
+	margin: 20pt 5% 30pt 5%;	
+	width: auto;
+	background: #fff;
+	color: #000;
+	padding: 0;
+	text-align: left;
+	}
+
+#header	{
+	display: none;
+	}
+
+/*
+#solologo	{
+		float: left;
+		width: 259pt;
+    }
+
+#solotitle	{
+		width: 181pt;
+		float: left;
+    }
+
+#fslogo	{
+		float: right;
+		width: 75pt;
+    }
+
+#rmrslogo	{
+		float: right;
+		width: 185pt;
+    }
+*/
+
+#pagebody	{
+	}
+
+#pagebody	img {
+	margin: 0;  /* for Mac IE5.x 3pt image margin bug */
+	border: 0;
+	padding: 0;
+	}
+
+#maincontent	{
+	}
+
+#notice {
+	margin: 0 0 10pt 0;
+	border: 2pt solid #f00;
+	color: #f00;
+	background: #eee;
+	padding: 10pt;
+	text-align: center;
+	font-size: small;	
+	}
+
+#sidebar	{
+	display: none;
+	}	
+
+#footer {
+	border: 0;
+	border-top: 1pt solid #ccc;
+	color: #666;
+	background: #fff;
+	padding: 10pt;
+	text-align: left;
+	clear: both;
+	font-size: 10pt;
+	}
+
+
+/* TYPOGRAPHY STYLES */
+
+h1, h2, h3, h4, h5, h6	{
+	font-family: arial, helvetica, sans-serif;
+	font-weight: normal;
+	margin-top: 25pt;
+	margin-bottom: 2pt;
+	letter-spacing: 1pt;
+	color: #000;
+	line-height: 1.2em;
+	}
+	
+h1	{
+  margin-top: 0;
+	font-size: 18pt;
+  }
+
+h2	{
+  margin-top: 35pt; 
+	font-size: 16pt;
+   	}
+
+h3	{ 
+	font-size: 14pt;
+		}
+
+h4	{ 
+	font-size: 12pt;
+		}
+
+h5	{ 
+	font-size: 11pt;
+		}
+
+h6	{ 
+	font-size: 10pt;
+		}
+
+.topheading	{
+	text-transform: uppercase;
+	margin-top: 0;
+	margin-bottom: 10pt;
+	color: #000;
+	}
+
+.firstsection { /* FIRST NEW SECTION AFTER .topheading DIVIDER */
+	margin-top: 10px;
+	}
+	
+.section { /* FOR BEGINNING A NEW SECTION - DIVIDER */
+	margin-top: 25pt;
+	border-top: 2pt solid #ddd;
+	padding-top: 25pt;
+	}
+	
+.subsection { /* FOR BEGINNING A NEW SECTION - DIVIDER */
+	margin-top: 10pt;
+	border-top: 2pt dotted #ddd;
+	padding-top: 10pt;
+	}
+
+.topofpagelink	{
+	display: none;
+	}
+
+.backlink	{
+	display: none;
+	}
+
+.subnav	{
+	text-transform: uppercase;
+	margin: 0 0 10pt 0;
+	font-size: 10pt;
+	font-weight: bold;
+	color: #999;
+	}
+
+.subnavhidden	{
+	text-transform: uppercase;
+	margin: 0 0 20pt 0;
+	font-size: 10pt;
+	font-weight: bold;
+	color: #999;
+	}
+
+.navlist	{
+	display: none;
+	}
+
+.dateupdated, .note, .notes	{
+	font-size: 0.9em;
+	color: #999;
+	}
+
+.ital {
+	font-style: italic; 
+	}
+
+.new-info  {
+	color:#ab0534;
+	font-weight:bold;
+	}
+
+#biblio p { 
+	padding-left: 10pt; 
+	text-indent: -10pt; 
+	}
+
+p	{
+	text-align: left;
+	margin-top: 0;
+	margin-bottom: 1em;
+	font-size: 12pt;
+	}
+	
+abbr {
+	font-style: normal;
+	}
+
+#pagebody h1.welcome	{
+		color: #060;
+		text-align: center;
+    }
+
+#pagebody #maincontent #notice h2	{
+	color: #f00;
+	font-weight: bold;
+	text-decoration: underline;
+	margin-bottom: 2pt;
+	margin-top: 0;
+	}	
+	
+#pagebody #maincontent #notice p	{
+	color: #f00;
+	margin-bottom: 2pt;
+	}	
+	
+#maincontent dl	{
+	margin: 0;
+	padding: 0;
+	}
+	
+#maincontent dt 	{
+	font-weight: normal;
+	font-size: 12pt;
+	}   
+	
+#maincontent dd 	{
+	padding: 0;
+	margin: 2pt 0 10pt 0;
+	}   	
+
+#maincontent .researchpapers li 	{
+/* to break up listings in bibliography style and make them more readable */
+	margin: 0 0 8px 0;
+	padding-left: 10px; 
+	text-indent: -10px; 
+	}   	
+
+#updatelog li 	{
+	margin: 0 0 8px 0;
+	padding-left: 10px; 
+	text-indent: -10px; 
+	}   	
+
+#updatelog li ul li 	{
+	margin: 0 0 8px 0;
+	padding-left: 10px; 
+	text-indent: -10px;
+	list-style-image: none;
+	}   	
+
+#footer p {
+	font-size: 10pt;
+	}
+
+
+
+/* LINK STYLES */
+
+a:link {
+  font-weight: bold;
+	text-decoration: underline;
+	color: #566;
+	background: transparent;
+	}
+	
+a:visited {
+  font-weight: bold;
+	text-decoration: underline;
+	color: #566;
+	background: transparent;
+	}
+
+#content a:link:after, #content a:visited:after {
+   content: " (" attr(href) ") ";
+   font-size: 90%;
+   }
+	
+
+/* ACCESSIBILITY HELPS */
+
+a.skip {	
+	display: none; 
+	} 
+	
+/*a.skip:link {	
+	background-color: transparent;
+Ê color: #beb3b3;
+	font-size: 1px;
+	text-decoration: none;
+  width: 1px;
+  height: 1px;
+  overflow: hidden; 
+	} 
+	
+a.skip:visited {	
+	background-color: transparent;
+Ê color: #beb3b3;
+	font-size: 1px;
+	text-decoration: none;
+  width: 1px;
+  height: 1px;
+  overflow: hidden; 
+	} 
+	
+a.skip:active, a.skip:focus {
+	background-color: transparent; 
+Ê color: red; 
+	font-size: 1em;
+	text-decoration: underline;
+	}
+	 
+a.skip:hover {	
+	background-color: transparent;
+Ê color: #beb3b3;
+	font-size: 1px;
+	text-decoration: none;
+  width: 1px;
+  height: 1px;
+  overflow: hidden; 
+	} */
+
+.hiddenmsg {
+	display: none; 
+/*	margin: 0;
+	border: 0;
+	padding: 0;
+	font-size: 1px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden; */
+	}
+
+
+/* BEGIN SPECIAL STYLES FOR NATIONAL FORESTS */
+
+.natforest {
+	border: 1px solid #aaa;
+	margin-bottom: 10px;
+	padding: 5px;
+	}
+
+.natforest th {
+	background: #efd39a;
+	}
+
+.natforest td {
+	vertical-align: top;
+	color: #333;
+	}
+
+.natforest ul	{
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	border: 0;
+	}
+	
+.natforest ul li	{
+	list-style: disc outside;
+	color: #999;
+	margin: 0 0 0 15px;
+	padding: 0;
+	line-height: 1.5em;
+	font-size: 1.0em;
+	}	
+
+.natforest ul li a {
+	font-weight: normal;
+	}
+
+.ipnf {
+	color: #0a0; /* map is #0a0 */ /* was #008000? */
+	}
+
+.clearwater {
+	color: #a0a; /* map is #a0a */ /* was #800080? */
+	}
+
+.nezperce {
+	color: #00a; /* map is #00a */ /* was #000080? */
+	}
+
+.kootenai {
+	color: #a00; /* map is #a00 */  /* was #800000? */
+	}
+
+.flathead {
+	color: #55f; /* was #3333CC? */
+	}
+
+.lolo {
+	color: #0aa; /* map is #0cc */
+	}
+
+.bitterroot {
+	color: #a50; /* map is #a50 */ /* was #663300? */
+	}
+
+.landc {
+	color: #F5F; /* was #FF00FF? */
+	}
+
+.helena {
+	color: #f00; /* was #CC3300? */
+	}
+
+.beaverhead {
+	color: #f90; /* was #0c0 - green */
+	}
+
+.gallatin {
+	color: #333;
+	}
+
+.custer {
+	color: #c93;
+	}
+
+.dakota {
+	color: #000; /* was #55f - blue */
+	}
+
+.region1www {
+	color: #060;
+	}
+
+/* END SPECIAL STYLES FOR NATIONAL FORESTS */
+
+
+
+/* SPECIAL PUBLICATION STYLES */
+
+#pub	{ 
+	width: auto; 
+	padding: 0;
+	border: 0; 
+	font-family: "Times New Roman", Times, Georgia, serif; 
+	text-align: left;
+	color: #000000; 
+	line-height: 1.4em; 
+	height: 100%;
+	background: #fff;
+	}
+
+/* #outsidesolo	*/{  /* FOR PUBS IF DISPLAYED OUTSIDE OF SOLO */
+	/*margin: 20pt 5% 30pt 5%;
+	background-color: #ffffff;
+	} */
+
+#printpagelink	{
+	display: none;
+	}
+
+#pub #psubnav	p {
+	text-transform: uppercase;
+	margin: 0 0 10pt 0;
+	font-size: 10pt;
+	color: #999; 
+	font-weight: bold;
+	}
+
+#pub ul, #pub ol, #pub li, #pub blockquote { 
+	font-family: "Times New Roman", Times, Georgia, serif; 
+	font-size: 12pt;
+	color: #000000; 
+	line-height: 1.4em; 
+	}
+
+#pub p { 
+	font-family: "Times New Roman", Times, Georgia, serif; 
+	font-size: 12pt;
+	color: #000000; 
+	line-height: 1.4em; 
+	text-align: left; 
+	}
+
+#pub h1 { 
+	font-family: "Times New Roman", Times, Georgia, serif; 
+	font-weight: normal; 
+	color: #000000; 
+	line-height: 1.2em; 
+	margin-bottom: 10pt; 
+	}
+
+#pub h2 { 
+	font-family: Arial, Helvetica, sans-serif; 
+	font-weight: bold; 
+	color: #000000; 
+	line-height: 1.2em; 
+	margin-top: 25pt;  
+	margin-bottom: 5pt;
+	}
+
+#pub h3 { 
+	font-family: Arial, Helvetica, sans-serif; 
+	font-weight: bold; 
+	color: #000000; 
+	line-height: 1.2em; 
+	margin-top: 25pt;  
+	margin-bottom: 5pt; 
+	}
+
+#pub h4, h5, h6 { 
+	font-family: Arial, Helvetica, sans-serif; 
+	font-weight: bold; 
+	color: #000000; 
+	line-height: 1.2em; 
+	}
+
+#pub img { 
+	border: 0; 
+	margin: 0;
+	}
+
+#pub .nav { 
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 0.9em;
+	color: #666666; 
+	margin-bottom: 50pt; 
+	}
+
+#pub .navtext { 
+	vertical-align: 80%; 
+	}
+
+#pub .bld {
+	font-style: normal;	
+	font-weight: bold; 
+	}
+
+#pub .ital {
+	font-style: italic; 
+	font-weight: normal; 
+	}
+
+#pub .italbld {
+	font-style: italic; 
+	font-weight: bold; 
+	}
+
+#pub .italsm {
+	font-style: italic; 
+	font-weight: normal; 
+	font-size: 0.9em;
+	}
+
+#pub ul.nobullet { 
+	list-style-type: none; 
+	}
+
+#pub .overln { 
+	text-decoration: overline; 
+	}
+
+#pub .nobold { 
+	font-weight: normal; 
+	}
+
+
+/* BEGIN SPECIAL PUBLICATION STYLES */
+
+#pub .figure { 
+	border-color: #999999; 
+	border-style: solid; 
+	border-width: 1pt; 
+	padding: 6pt; 
+	width: 548pt; 
+	page-break-inside: avoid; 
+	margin-top: 30pt;
+	margin-bottom: 30pt;
+	}
+
+#pub .ref { 
+	padding-left: 10pt; 
+	text-indent: -10pt; 
+	}
+
+#pub #biblio p { 
+	padding-left: 10pt; 
+	text-indent: -10pt; 
+	}
+
+#pub .value { 
+	font-size: 10pt;
+	/*	font-size: x-small; */  
+	font-style: italic; 
+	font-weight: normal; 
+	}
+
+#pub .figuretbl { 
+	border-color: #999999; 
+	page-break-inside: avoid; 
+	margin-top: 30pt;
+	margin-bottom: 30pt;
+	}
+
+#pub caption { 
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 11pt;
+	font-weight: normal; 
+	}
+
+#pub .authors { 
+	font-family: "Times New Roman", Times, Georgia, serif; 
+	font-size: 14pt;
+	font-weight: bold; 
+	}
+
+#pub th { 
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 11pt;
+	font-weight: bold; 
+	background-color: #CCCC99; 
+	text-align: center; 
+	}
+
+#pub .thsubrow { 
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 11pt;
+	font-weight: bold; 
+	color: #000000; 
+	text-align: left; 
+	background-color:	#FFFFCC;
+	}
+
+#pub .thsubcol { 
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 11pt;
+	font-weight: bold; 
+	text-align: center; 
+	background-color:	#FFFFCC;
+	}
+
+#pub .thsubrow2 { 
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 11pt;
+	font-weight: bold; 
+	text-align: left; 
+	background-color:	transparent; 
+	}
+
+#pub .thsubcol2 { 
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 11pt;
+	font-weight: bold; 
+	text-align: center; 
+	background-color:	transparent; 
+	}
+
+#pub .thsmbld {
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 10pt;
+	font-style: normal;	
+	font-weight: bold; 
+	}
+
+#pub .thplain {
+	font-family: Arial, Helvetica, sans-serif; 
+	font-weight: normal; 
+	background-color: #FFFFFF; 
+	text-align: left; 
+	}
+
+#pub td.data	{ 
+	font-family: Andale Mono, Courier, monospace; 
+	font-weight: normal; 
+	font-style: normal; 
+	text-align: right; 
+	}
+
+#pub td.datacenter	{ 
+	font-family: Andale Mono, Courier, monospace; 
+	font-weight: normal; 
+	font-style: normal; 
+	text-align: center; 
+	}
+
+#pub td.datatotal1	{ 
+	font-family: Andale Mono, Courier, monospace; 
+	font-weight: bold; 
+	font-style: normal; 
+	text-align: right; 
+	background-color: #FFFFCC; 
+	}
+
+#pub th.datatotal1	{ 
+	font-weight: bold; 
+	text-align: right; 
+	background-color: #FFFFCC; 
+	}
+
+#pub .tbllist { 
+	padding-left: 24px; 
+	text-indent: -18px; 
+	}
+
+#pub .notes { 
+	color: #999999; 
+	font-size: 10pt;
+	}
+
+#longdescwrapper #pub p {
+	text-transform: uppercase;
+	margin: 0 0 10px 0;
+	font-size: 1.0em;
+	color: #999; 
+	font-weight: bold;
+	}
+
+#longdescwrapper #pub dt {
+	margin: 0 0 10px 0;
+	font-size: 1.0em;
+	color: #000; 
+	font-weight: bold;
+	}
+
+/*  END SPECIAL PUBLICATION STYLES */
+
+
+/* BEGIN SPECIAL STYLES FOR EQUATIONS IN PUBS */
+
+#pub div.eqnsimple { padding-left: 20pt; color: #333399;}
+
+#pub div.eqn {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:4mm;
+	line-height:7mm;
+	text-align:justify;
+	margin:2mm 0 2mm 3cm;
+	color: #333399;
+	}
+
+#pub span.d, span.n {
+	display:block;
+	text-align:center;
+	}
+	
+#pub span.f {
+	line-height:7.5mm;
+	}
+	
+#pub span.f
+	{display:inline-table;
+	border-collapse:collapse;
+	vertical-align:middle;
+	white-space:nowrap;
+	text-align:center;
+	margin:0 2pt;}
+#pub span.f
+	{display:inline-block;}
+#pub html > body span.f
+	{display:inline-table;}
+#pub html > body span.f
+	{display:-moz-inline-box;
+	-moz-box-orient:vertical;}
+#pub span.f sub, #pub sub sub, #pub sup sub
+	{top:0.5mm;}
+#pub span.f sup, #pub sup sup, #pub sup sup
+	{bottom:1mm;}
+#pub span.n
+	{border-bottom:solid 1pt #333399;}
+#pub sub, #pub sup
+	{vertical-align:baseline;
+	font-size:80%;}
+#pub sub
+	{position:relative;
+	top:1mm;}
+#pub sup
+	{position:relative;
+	bottom:2mm;}
+@media print
+		{
+#pub div.eqn, #pub div.stat
+	{page-break-inside:avoid;}
+		}
+#pub .normalsub
+	{top: 1mm;
+	vertical-align: baseline;
+	font-size:100%;
+	position:relative;}
+#pub .normalsup
+	{bottom:1mm;
+	vertical-align: baseline;
+	font-size:100%;
+	position:relative;}
+	
+/* END SPECIAL STYLES FOR EQUATIONS IN PUBS */
+
+/* BEGIN SPECIAL STYLES FOR ECOLOGICAL SUBSECTIONS AND OTHER SPECIAL PUBS */
+
+#pub #ecologicalsubsection .figuretbl, #pub #splitdatatable .figuretbl { 
+	margin-top: 0;
+	margin-bottom: 20px;
+	}
+	
+#pub #splitdatatable .thsubcol2 { 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 1.0em;
+	font-weight: normal; 
+	color: #000000; 
+	text-align: left; 
+	background-color:	transparent; 
+	text-indent: 2em;
+	}
+
+#pub #splitdatatable .thsubcol { 
+	text-align: left; 
+	}
+
+#pub #splitdatatable caption { 
+	font-size: 1.2em; 
+	border-width: 2px 2px 0 2px;
+	border-style: solid;
+	border-color: #999999; 
+	background-color: #CCCC99;
+	padding: 3px;
+	}
+
+/* END SPECIAL STYLES FOR ECOLOGICAL SUBSECTIONS AND OTHER SPECIAL PUBS */

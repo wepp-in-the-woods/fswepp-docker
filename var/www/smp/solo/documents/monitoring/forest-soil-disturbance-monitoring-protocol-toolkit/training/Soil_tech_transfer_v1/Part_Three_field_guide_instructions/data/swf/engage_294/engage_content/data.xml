@@ -1,0 +1,55 @@
+<Interaction Type="Timeline" Title="Soil Disturbance Field Guide History" contentfont="Articulate" jpegquality="80" autoplay="false" autoplayduration="5" headingfont="Articulate" navfont="Articulate" soundeffects="true" volumebutton="true" audioquality="low" audiocustombitrate="br112Kbps" audiocustomfrequency="fq12KHz" audiocustomchannel="ccMono" navbuttons="true" forceorder="false" detectflashver="true" animation="bounce" version="2.2.907.1413" borderstyle="round_inset">
+  <timeline>
+    <periods>
+      <period name="Developing the Soil Disturbance Field Guide" percent="100">
+        <color name="Aqua" valuea="0x009999" valueb="0x006666" inner="0x002F00" hovera="0xE6F2FF" hoverb="0x038D7C" />
+      </period>
+    </periods>
+    <events>
+      <event percent="11.0215053763441">
+        <color name="Aqua" valuea="0x009999" valueb="0x006666" inner="0x002F00" hovera="0xE6F2FF" hoverb="0x038D7C" />
+      </event>
+      <event percent="24.8655913978495">
+        <color name="Aqua" valuea="0x009999" valueb="0x006666" inner="0x002F00" hovera="0xE6F2FF" hoverb="0x038D7C" />
+      </event>
+      <event percent="41.2634408602151">
+        <color name="Aqua" valuea="0x009999" valueb="0x006666" inner="0x002F00" hovera="0xE6F2FF" hoverb="0x038D7C" />
+      </event>
+      <event percent="56.1827956989247">
+        <color name="Aqua" valuea="0x009999" valueb="0x006666" inner="0x002F00" hovera="0xE6F2FF" hoverb="0x038D7C" />
+      </event>
+      <event percent="75">
+        <color name="Aqua" valuea="0x009999" valueb="0x006666" inner="0x002F00" hovera="0xE6F2FF" hoverb="0x038D7C" />
+      </event>
+    </events>
+  </timeline>
+  <steps>
+    <Step id="c009b2f4-c3f0-4a68-b81e-9ba442faa8b3" name="Objective" title="" number="" html="&lt;p align='left'&gt;&lt;textformat tabstops='[0]' indent='00' leftmargin='20'&gt;&lt;font face='Articulate' size='16' color='#000000'&gt; Developing a visual guide for soil disturbance  that would : &lt;br&gt;&lt;/br&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat tabstops='[0]' indent='00' leftmargin='20'&gt;&lt;font face='Articulate' size='16' color='#000000'&gt; Improve &lt;/font&gt;&lt;font face='Articulate' size='16' color='#0000ff'&gt;&lt;u&gt;&lt;a target='_blank' href='asfunction:GotoStep,dce263d3-39e3-4ca2-9391-ef982e73f98a'&gt;communication.&lt;br&gt;&lt;/br&gt;&lt;/a&gt;&lt;/u&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat tabstops='[0]' indent='00' leftmargin='20'&gt;&lt;font face='Articulate' size='16' color='#000000'&gt; Provide a &lt;/font&gt;&lt;font face='Articulate' size='16' color='#0000ff'&gt;&lt;u&gt;&lt;a target='_blank' href='asfunction:GotoStep,a6586f37-79dd-4b80-8087-5b03464494be'&gt;common language.&lt;br&gt;&lt;/br&gt;&lt;/a&gt;&lt;/u&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat tabstops='[0]' indent='00' leftmargin='20'&gt;&lt;font face='Articulate' size='16' color='#000000'&gt; Expedite &lt;/font&gt;&lt;font face='Articulate' size='16' color='#0000ff'&gt;&lt;u&gt;&lt;a target='_blank' href='asfunction:GotoStep,a118ad88-b589-47c4-bf6c-1636707557ab'&gt;calibration.&lt;/a&gt;&lt;br&gt;&lt;/br&gt;&lt;/u&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat tabstops='[0]' indent='00' leftmargin='20'&gt;&lt;font face='Articulate' size='16' color='#000000'&gt; Facilitate &lt;/font&gt;&lt;font face='Articulate' size='16' color='#0000ff'&gt;&lt;u&gt;&lt;a target='_blank' href='asfunction:GotoStep,adadecb6-43d1-421f-ae7d-93af7fe3f22f'&gt;classification&lt;/a&gt;&lt;/u&gt;&lt;/font&gt;&lt;font face='Articulate' size='16' color='#000000'&gt; of disturbance classes.&lt;br&gt;&lt;/br&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat tabstops='[0]' indent='00' leftmargin='20'&gt;&lt;font face='Articulate' size='16' color='#000000'&gt; Allow &lt;/font&gt;&lt;font face='Articulate' size='16' color='#0000ff'&gt;&lt;u&gt;&lt;a target='_blank' href='asfunction:GotoStep,db5357b2-5221-41a5-b473-410f4a836613'&gt;stratification&lt;/a&gt;&lt;/u&gt;&lt;/font&gt;&lt;font face='Articulate' size='16' color='#000000'&gt; to further define attributes of each disturbance class.&lt;br&gt;&lt;/br&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat tabstops='[0]' indent='00' leftmargin='20'&gt;&lt;font face='Articulate' size='16' color='#000000'&gt;Illustrate attributes of the FSDMP. (need screen shot of spreadsheet)&lt;br&gt;&lt;/br&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;" intro="true">
+      <image width="215" height="309" zoomheight="520" playbar="false" autoplay="false" zoomwidth="361" zoommode="Embedded" allowzoom="true" align="topright" duration="0" framerate="30" name="image4.jpg" zoomimage="imageZoom4.jpg" />
+      <audio name="audio2.mp3" source="audioSource2.wav" duration="17900" />
+    </Step>
+    <Step id="dce263d3-39e3-4ca2-9391-ef982e73f98a" name="Communication" title="" number="" html="&lt;p align='left'&gt;&lt;font face='Articulate' size='16' color='#000000'&gt;Understanding the soil resource and sharing your soil resource objectives with the IDT.&lt;/font&gt;&lt;/p&gt;">
+      <image width="248" height="164" zoomheight="463" playbar="false" autoplay="false" zoomwidth="700" zoommode="Embedded" allowzoom="true" align="topright" duration="0" framerate="30" name="image1.jpg" zoomimage="imageZoom1.jpg" />
+      <audio name="audio7.mp3" source="audioSource7.wav" duration="23500" />
+    </Step>
+    <Step id="a6586f37-79dd-4b80-8087-5b03464494be" name="Common Language" title="" number="" html="&lt;p align='left'&gt;&lt;font face='Articulate' size='16' color='#000000'&gt;Terms and definitions are used consistently to ensure greater understanding of the existing condition of the resource, desired condition, and the necessary contract specifications required to obtain a multi-resource objective. &lt;/font&gt;&lt;/p&gt;">
+      <image width="248" height="191" zoomheight="520" playbar="false" autoplay="false" zoomwidth="674" zoommode="Embedded" allowzoom="true" align="topright" duration="0" framerate="30" name="image3.jpg" zoomimage="imageZoom3.jpg" />
+      <audio name="audio9.mp3" source="audioSource9.wav" duration="20900" />
+    </Step>
+    <Step id="a118ad88-b589-47c4-bf6c-1636707557ab" name="Calibration" title="" number="" html="&lt;p align='left'&gt;&lt;font face='Articulate' size='16' color='#000000'&gt;Maintain quality assurance and quality control by frequent calibration through field trips and unit review with other specialists. &lt;/font&gt;&lt;/p&gt;">
+      <image width="248" height="186" zoomheight="520" playbar="false" autoplay="false" zoomwidth="693" zoommode="Embedded" allowzoom="true" align="topleft" duration="0" framerate="30" name="image2.jpg" zoomimage="imageZoom2.jpg" />
+      <audio name="audio15.mp3" source="audioSource15.wav" duration="16500" />
+    </Step>
+    <Step id="adadecb6-43d1-421f-ae7d-93af7fe3f22f" name="Classification" title="" number="" html="&lt;p align='left'&gt;&lt;font face='Articulate' size='16' color=''&gt;Identify the different soil disturbance classes from undisturbed  class 0, to disturbance classes 1, 2, and 3.&lt;/font&gt;&lt;/p&gt;">
+      <image width="248" height="164" zoomheight="464" playbar="false" autoplay="false" zoomwidth="700" zoommode="Embedded" allowzoom="true" align="topleft" duration="0" framerate="30" name="image0.jpg" zoomimage="imageZoom0.jpg" />
+      <audio name="audio16.mp3" source="audioSource16.wav" duration="12200" />
+    </Step>
+    <Step id="db5357b2-5221-41a5-b473-410f4a836613" name="Stratification" title="" number="" html="&lt;p align='left'&gt;&lt;font face='Articulate' size='16' color=''&gt;The Soil Disturbance Field Guide can help to stratify a unit and sample different disturbance classes. If you want to know what is the range of soil bulk densities in a soil disturbance class 1, 2, or 3 versus the undisturbed, a sampling design can be established that allows further quantification of your observations. &lt;/font&gt;&lt;/p&gt;">
+      <image width="248" height="164" zoomheight="464" playbar="false" autoplay="false" zoomwidth="700" zoommode="Embedded" allowzoom="true" align="topleft" duration="0" framerate="30" name="image5.jpg" zoomimage="imageZoom5.jpg" />
+      <audio name="audio19.mp3" source="audioSource19.wav" duration="10300" />
+    </Step>
+  </steps>
+  <nextslide enabled="False" text="" show="" />
+  <starttip show="false" text="Click next to continue" />
+  <resume id="c2161cc7-95ce-4127-94bc-fa0d6c37ae4b" enabled="false" />
+</Interaction>

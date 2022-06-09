@@ -1,0 +1,1 @@
+function workWindow(theURL,winName,features) {  window.open(theURL,winName,features);}update = new Date(document.lastModified)theMonth = update.getMonth() + 1theDate = update.getDate()theYear = update.getYear()

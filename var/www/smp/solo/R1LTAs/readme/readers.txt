@@ -1,0 +1,24 @@
+aix_tar.Z is the reader for IBM AIX.
+hpux_tar.Z is the reader for HP Unix.
+osf_tar.Z is the reader for Digital Unix.
+solaris.Z is the reader for Sun Solaris.
+Within each compressed tarfile is a readme file that lays out the installation instructions. 
+It is usually named instguid.txt
+
+The ar16e301.exe file is the reader for Windows 3.11.
+The rs32e301.exe file is the reader for Windows 95.
+Double-click on the exe file and follow the on screen instructions.
+
+If there is a failure at any point during the installation of Acrobat Reader3.01 the installer
+performs a complete uninstall. For this reason, it is important not to close the installer
+application by clicking its close box in the upper right corner of the background window
+after clicking the "Thank You" dialog box that appears at the end of the installation. If you
+wait for a second or two, the installer will automatically close the background windows after
+the installation is complete.
+
+The installation procedure will ask you to read and accept the Electronic End-User License
+Agreement.
+
+The Adobe WEB page is http://www.adobe.com, and contains very good documentation on
+the Acrobat Reader as well as other products and downloadables.
+

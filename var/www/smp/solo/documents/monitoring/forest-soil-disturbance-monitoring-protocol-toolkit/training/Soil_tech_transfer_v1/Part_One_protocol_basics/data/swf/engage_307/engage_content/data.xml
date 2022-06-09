@@ -1,0 +1,67 @@
+<Interaction Type="Circle Diagram" Title="Soil Assessment and Monitoring" contentfont="Articulate" jpegquality="80" autoplay="false" autoplayduration="5" headingfont="Articulate" navfont="Articulate" soundeffects="true" volumebutton="true" audioquality="low" audiocustombitrate="br112Kbps" audiocustomfrequency="fq12KHz" audiocustomchannel="ccMono" navbuttons="true" forceorder="false" detectflashver="true" animation="bounce" version="2.2.907.1413" borderstyle="round_inset">
+  <autoplayorder startring="inner" clockwise="true" />
+  <introduction>
+    <Step id="c2373fdb-4bc0-4801-a463-8f15da24ce42" name="The Evolving Role of the Soil Scientist" title="" number="" html="&lt;p align='left'&gt;&lt;font face='Articulate' size='13' color='#000000'&gt;Soil scientists from every district, forest, and region are experiencing a shift in their work from responding to project proposals to being a key player in project proposal design, implementation, and monitoring.&lt;/font&gt;&lt;/p&gt;" intro="true">
+      <image width="248" height="164" zoomheight="464" playbar="false" autoplay="false" zoomwidth="700" zoommode="Embedded" allowzoom="true" align="top" duration="0" framerate="30" name="image4.jpg" zoomimage="imageZoom4.jpg" />
+      <audio name="audio1.mp3" source="audioSource1.wav" duration="2200" />
+    </Step>
+  </introduction>
+  <circles align="right">
+    <circle>
+      <color name="Green" valuea="0x99CC00" valueb="0x006600" inner="0x002F00" hovera="0xFFFFFF" hoverb="0x99CC00" />
+      <slices>
+        <slice startangle="0" endangle="360" />
+      </slices>
+      <steps>
+        <Step id="ae376813-fbe2-42fb-bd96-99701cc4f246" name="Soil Resource Objectives" title="" number="" html="&lt;p align='left'&gt;&lt;font face='Articulate' size='13' color='#000000'&gt;Soil Resource Objectives can vary from site to site due to the tremendous variability of our nation's soils.&lt;/font&gt;&lt;/p&gt;">
+          <audio name="audio2.mp3" source="audioSource2.wav" duration="40300" />
+        </Step>
+      </steps>
+    </circle>
+    <circle>
+      <color name="Red" valuea="0xDD4809" valueb="0x912020" inner="0x5C1414" hovera="0xFCCFBC" hoverb="0xDD4809" />
+      <slices>
+        <slice startangle="45" endangle="225" />
+        <slice startangle="225" endangle="405" />
+      </slices>
+      <steps>
+        <Step id="fb5c8d49-31f9-478f-974e-4b1d91ed2f93" name="Assessment" title="" number="" html="&lt;p align='left'&gt;&lt;font face='Articulate' size='13' color='#000000'&gt;Pre-treatment assessment is conducted using the &lt;/font&gt;&lt;font face='Articulate' size='13' color='#0000ff'&gt;&lt;u&gt;&lt;a target='_blank' href='http://forest.moscowfsl.wsu.edu/smp/solo/InfoPath/monitoring/index.php/'&gt;FSDMP&lt;/a&gt;&lt;/u&gt;&lt;/font&gt;&lt;font face='Articulate' size='13' color='#000000'&gt;  to monitor forest sites for physical attributes that could influence site resilience and long-term sustainability before ground-disturbing management activities.&lt;/font&gt;&lt;/p&gt;">
+          <image width="220" height="165" zoomheight="520" playbar="false" autoplay="false" zoomwidth="693" zoommode="Embedded" allowzoom="true" align="bottom" duration="0" framerate="30" name="image1.jpg" zoomimage="imageZoom1.jpg" />
+          <audio name="audio4.mp3" source="audioSource4.wav" duration="11200" />
+        </Step>
+        <Step id="728b125b-3395-4c3d-acbe-6ab2524b57f9" name="Monitoring" title="" number="" html="&lt;p align='left'&gt;&lt;font face='Articulate' size='13' color='#000000'&gt;Post-treatment monitoring is conducted on representative sites that the soil scientist, district ranger, line-officer, or forest supervisor feels is important to review to assess the success of management activities in meeting legal, regulatory, and policy objectives. By using a consistent monitoring approach, forests in every Forest Service Region can build soil resource programs to meet their specific requirements in accordance with their soil quality standards and guidelines. &lt;/font&gt;&lt;/p&gt;">
+          <image width="220" height="165" zoomheight="520" playbar="false" autoplay="false" zoomwidth="693" zoommode="Embedded" allowzoom="true" align="bottom" duration="0" framerate="30" name="image0.jpg" zoomimage="imageZoom0.jpg" />
+          <audio name="audio5.mp3" source="audioSource5.wav" duration="10800" />
+        </Step>
+      </steps>
+    </circle>
+    <circle>
+      <color name="Blue" valuea="0x33CCFF" valueb="0x003399" inner="0x000000" hovera="0x79FFE1" hoverb="0x01A7A7" />
+      <slices>
+        <slice startangle="90" endangle="210" />
+        <slice startangle="210" endangle="330" />
+        <slice startangle="330" endangle="450" />
+      </slices>
+      <steps>
+        <Step id="a18e4d30-48e6-4b0d-b771-2b6eb02e847d" name="IDT-Healty Forests" title="" number="" html="&lt;p align='left'&gt;&lt;font face='Articulate' size='13' color='#000000'&gt;The interdisciplinary team is challenged to define what a healthy forest looks like on each unique project whether it involves mechanical thinning, prescribed burning, watershed restoration, range management, fire recovery, or roads analysis. The soil scientist must be equipped with information on the soil resource to help define resource objectives, management practices, identify Best Management Practices and describe  the desired condition. &lt;/font&gt;&lt;/p&gt;">
+          <image width="248" height="164" zoomheight="464" playbar="false" autoplay="false" zoomwidth="700" zoommode="Embedded" allowzoom="true" align="bottom" duration="0" framerate="30" name="image2.jpg" zoomimage="imageZoom2.jpg" />
+          <audio name="audio6.mp3" source="audioSource6.wav" duration="17300" />
+        </Step>
+        <Step id="1dc17755-1e80-423e-8666-c5c83025c2e0" name="NEPA" title="" number="" html="&lt;p align='left'&gt;&lt;font face='Articulate' size='13' color='#000000'&gt;NEPA - Existing and Desired Condition&lt;/font&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;font face='Articulate' size='13' color='#000000'&gt;As an active team player, the soil scientist clearly communicates opportunities, concerns, and limitations based on sound pre-assessment evaluation of the soil resource. Using the Forest Soil Disturbance Monitoring Protocol (FSDMP) to evaluate physical soil disturbances enables the soil scientist to determine site resilience and long-term sustainability and hydrologic function. Monitor the attributes of surface cover, ruts, compaction, and platy structure can also be used to generate best management practices that help maintain site productivity. Together the IDT can  find solutions and develop a well-articulated proposed action. &lt;/font&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;font face='Articulate' size='13' color='#000000'&gt;&lt;br&gt;&lt;/br&gt;&lt;/font&gt;&lt;/p&gt;">
+          <audio name="audio11.mp3" source="audioSource11.wav" duration="25400" />
+        </Step>
+        <Step id="bf53a2d2-f71e-4998-83ea-c7e519254dd6" name="Implementation Monitoring" title="" number="" html="&lt;p align='left'&gt;&lt;font face='Articulate' size='13' color='#000000'&gt;Implementation Monitoring with Contracting Officers Representative,, Sale Administrator,  Harvest Inspector&lt;br&gt;&lt;/br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;font face='Articulate' size='13' color='#000000'&gt;Once a project has completed the environmental assessment phase and moves into implementation, the soil scientist can work with the COR, SA, and HI to communicate desired conditions established through the NEPA document. Using the &lt;/font&gt;&lt;font face='Articulate' size='13' color='#0000ff'&gt;&lt;u&gt;&lt;a target='_blank' href='http://forest.moscowfsl.wsu.edu/smp/solo/InfoPath/monitoring/index.php'&gt;Soil Disturbance Field Guide (SDFG),&lt;/a&gt;&lt;/u&gt;&lt;/font&gt;&lt;font face='Articulate' size='13' color='#000000'&gt; the soil scientist can ensure that everyone understands the definitions of different soil attributes from displacement to compaction. Soil disturbance class photographs from across the country can be shown to illustrate what a certain disturbance class looks like. SA's and Harvest inspectors and purchasers can complete the SDFG field monitoring sheet to get a quick idea of if the desired condition was obtained. &lt;/font&gt;&lt;/p&gt;">
+          <image width="248" height="164" zoomheight="464" playbar="false" autoplay="false" zoomwidth="700" zoommode="Embedded" allowzoom="true" align="bottom" duration="0" framerate="30" name="image3.jpg" zoomimage="imageZoom3.jpg" />
+          <audio name="audio8.mp3" source="audioSource8.wav" duration="28500" />
+        </Step>
+      </steps>
+    </circle>
+  </circles>
+  <summary>
+    <Step id="76115c49-2c6c-4588-a905-bd0b5a93af89" name="" title="" number="" html="&lt;p&gt;&lt;font face='Articulate' size='16' color='#000000'&gt; &lt;/font&gt;&lt;br&gt;&lt;/br&gt;&lt;/p&gt;" summary="true">
+    </Step>
+  </summary>
+  <nextslide enabled="False" text="" show="" />
+  <starttip show="false" text="Click next to continue" />
+  <resume id="9f19639f-88ce-41a7-8062-d9e49cc1a8b7" enabled="false" />
+</Interaction>

@@ -1,0 +1,44 @@
+App.progressCountTotal = 5;
+App.progressCountCurrent = 0;
+fw.dismissBatchDialogWhenDone = true;
+doc = fw.openDocument('file:///W|/hoist/yearbooks/original/1999.jpg');
+App.progressCountCurrent = 1;
+App.batchStatusString = '1999.jpg';
+if (!Files.exists('file:///W|/hoist/yearbooks/images/1999_jpg.jpg') || confirm('file:///W|/hoist/yearbooks/images/1999_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/yearbooks/images/1999_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/yearbooks/thumbnails/1999_jpg.jpg') || confirm('file:///W|/hoist/yearbooks/thumbnails/1999_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/yearbooks/thumbnails/1999_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/yearbooks/original/2000.jpg');
+App.progressCountCurrent = 2;
+App.batchStatusString = '2000.jpg';
+if (!Files.exists('file:///W|/hoist/yearbooks/images/2000_jpg.jpg') || confirm('file:///W|/hoist/yearbooks/images/2000_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/yearbooks/images/2000_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/yearbooks/thumbnails/2000_jpg.jpg') || confirm('file:///W|/hoist/yearbooks/thumbnails/2000_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/yearbooks/thumbnails/2000_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/yearbooks/original/2001.jpg');
+App.progressCountCurrent = 3;
+App.batchStatusString = '2001.jpg';
+if (!Files.exists('file:///W|/hoist/yearbooks/images/2001_jpg.jpg') || confirm('file:///W|/hoist/yearbooks/images/2001_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/yearbooks/images/2001_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/yearbooks/thumbnails/2001_jpg.jpg') || confirm('file:///W|/hoist/yearbooks/thumbnails/2001_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/yearbooks/thumbnails/2001_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/yearbooks/original/2002.jpg');
+App.progressCountCurrent = 4;
+App.batchStatusString = '2002.jpg';
+if (!Files.exists('file:///W|/hoist/yearbooks/images/2002_jpg.jpg') || confirm('file:///W|/hoist/yearbooks/images/2002_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/yearbooks/images/2002_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/yearbooks/thumbnails/2002_jpg.jpg') || confirm('file:///W|/hoist/yearbooks/thumbnails/2002_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/yearbooks/thumbnails/2002_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///W|/hoist/yearbooks/original/2003.jpg');
+App.progressCountCurrent = 5;
+App.batchStatusString = '2003.jpg';
+if (!Files.exists('file:///W|/hoist/yearbooks/images/2003_jpg.jpg') || confirm('file:///W|/hoist/yearbooks/images/2003_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/yearbooks/images/2003_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///W|/hoist/yearbooks/thumbnails/2003_jpg.jpg') || confirm('file:///W|/hoist/yearbooks/thumbnails/2003_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///W|/hoist/yearbooks/thumbnails/2003_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+'done';

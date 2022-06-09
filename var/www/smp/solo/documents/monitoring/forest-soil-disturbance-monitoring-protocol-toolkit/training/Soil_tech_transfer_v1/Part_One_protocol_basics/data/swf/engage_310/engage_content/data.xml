@@ -1,0 +1,79 @@
+<Interaction Type="Labeled Graphic" Title="Data Entry 101" contentfont="Articulate" dotanimation="spin" defaultimage="false" jpegquality="80" autoplay="false" autoplayduration="5" headingfont="Articulate" navfont="Articulate" soundeffects="true" volumebutton="true" audioquality="low" audiocustombitrate="br112Kbps" audiocustomfrequency="fq12KHz" audiocustomchannel="ccMono" navbuttons="true" forceorder="false" detectflashver="true" animation="bounce" version="2.2.907.1413" borderstyle="round_inset">
+  <bgimage src="image0.jpg" percent="30" originalSource="imageSource0.JPG" width="587" height="470" />
+  <labels>
+    <label char="1" panelpos="auto" iconid="6" x="70" y="68">
+      <color name="Red" valuea="0xDD4809" valueb="0x912020" inner="0x5C1414" hovera="0xFCCFBC" hoverb="0xDD4809" />
+      <steps>
+        <Step id="ca813577-cd88-4907-be5a-1051b1b7c30d" name="Header rows - auto filled" title="" number="1" audioonly="false" html="&lt;p align='left'&gt;&lt;font face='Articulate' size='13' color=''&gt;Track the areas you monitor by ensuring that unit numbers, and all records are attached.&lt;/font&gt;&lt;/p&gt;">
+          <image width="259" height="206" zoomheight="520" playbar="false" autoplay="false" zoomwidth="653" zoommode="Embedded" allowzoom="true" align="top" duration="0" framerate="30" name="image1.jpg" zoomimage="imageZoom1.jpg" />
+          <audio name="audio2.mp3" source="audioSource2.wav" duration="3700" />
+        </Step>
+      </steps>
+    </label>
+    <label char="2" panelpos="auto" iconid="6" x="78" y="87">
+      <color name="Red" valuea="0xDD4809" valueb="0x912020" inner="0x5C1414" hovera="0xFCCFBC" hoverb="0xDD4809" />
+      <steps>
+        <Step id="985a8b77-10bd-4bc1-838f-9af898c03012" name="Transect direction" title="" number="2" audioonly="false" html="&lt;p align='left'&gt;&lt;font face='Articulate' size='13' color=''&gt;Put in the transect direction when you start and at each turn point.&lt;/font&gt;&lt;/p&gt;">
+          <image width="275" height="206" zoomheight="520" playbar="false" autoplay="false" zoomwidth="693" zoommode="Embedded" allowzoom="true" align="top" duration="0" framerate="30" name="image2.jpg" zoomimage="imageZoom2.jpg" />
+          <audio name="audio5.mp3" source="audioSource5.wav" duration="5200" />
+        </Step>
+      </steps>
+    </label>
+    <label char="3" panelpos="auto" iconid="6" x="305" y="91">
+      <color name="Red" valuea="0xDD4809" valueb="0x912020" inner="0x5C1414" hovera="0xFCCFBC" hoverb="0xDD4809" />
+      <steps>
+        <Step id="f8b20583-3119-4d28-a368-ca3420487af8" name="Point spacing for transect" title="" number="3" audioonly="false" html="&lt;p align='left'&gt;&lt;font face='Articulate' size='13' color=''&gt;To determine the point spacing for the initial 30 points, measure the longest distance of the unit and divide by 30.&lt;br&gt;&lt;/br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;font face='Articulate' size='13' color=''&gt;Example 1500 feet / 30 = 50 feet.&lt;/font&gt;&lt;/p&gt;">
+          <image width="275" height="206" zoomheight="520" playbar="false" autoplay="false" zoomwidth="692" zoommode="Embedded" allowzoom="true" align="top" duration="0" framerate="30" name="image3.jpg" zoomimage="imageZoom3.jpg" />
+          <audio name="audio6.mp3" source="audioSource6.wav" duration="5500" />
+        </Step>
+      </steps>
+    </label>
+    <label char="4" panelpos="auto" iconid="6" x="486" y="89">
+      <color name="Red" valuea="0xDD4809" valueb="0x912020" inner="0x5C1414" hovera="0xFCCFBC" hoverb="0xDD4809" />
+      <steps>
+        <Step id="1f346182-6779-4afb-9351-bb3e50bde26d" name="Select confidence level" title="" number="4" audioonly="false" html="&lt;p align='left'&gt;&lt;font face='Articulate' size='13' color=''&gt;Select the confidence level desired based on monitoring objectives and resource availability. The number selected will automatically populate the Project Info tab.&lt;br&gt;&lt;/br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;font face='Articulate' size='13' color=''&gt;The confidence level, confidence interval, and site variability  will determine the sample size. &lt;/font&gt;&lt;/p&gt;">
+          <audio name="audio7.mp3" source="audioSource7.wav" duration="4600" />
+        </Step>
+      </steps>
+    </label>
+    <label char="5" panelpos="auto" iconid="6" x="91" y="127">
+      <color name="Red" valuea="0xDD4809" valueb="0x912020" inner="0x5C1414" hovera="0xFCCFBC" hoverb="0xDD4809" />
+      <steps>
+        <Step id="f142bef2-8be8-4f47-9ba6-b5d739b6c1db" name="Filling in form" title="" number="5" audioonly="false" html="&lt;p align='left'&gt;&lt;font face='Articulate' size='13' color=''&gt;Except for forest floor depth and estimated soil disturbance class, all cells are filled with either a 0= No or 1 = Yes.&lt;br&gt;&lt;/br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;font face='Articulate' size='13' color=''&gt;Forest floor depth is an actual measurement.&lt;br&gt;&lt;/br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;font face='Articulate' size='13' color=''&gt;Estimated soil disturbance class ranges from 0 to 3.&lt;/font&gt;&lt;/p&gt;">
+          <image width="252" height="206" zoomheight="520" playbar="false" autoplay="false" zoomwidth="636" zoommode="Embedded" allowzoom="true" align="bottom" duration="0" framerate="30" name="image4.jpg" zoomimage="imageZoom4.jpg" />
+          <audio name="audio11.mp3" source="audioSource11.wav" duration="39400" />
+        </Step>
+      </steps>
+    </label>
+    <label char="6" panelpos="auto" iconid="6" x="101" y="366">
+      <color name="Red" valuea="0xDD4809" valueb="0x912020" inner="0x5C1414" hovera="0xFCCFBC" hoverb="0xDD4809" />
+      <steps>
+        <Step id="e16a4c92-9800-4f33-b02d-3b3e87fdfb0c" name="Calculated Sample-size" title="" number="6" audioonly="false" html="&lt;p align='left'&gt;&lt;font face='Articulate' size='13' color=''&gt;The sample size needed to achieve the confidence interval of the specified width will be displayed here (and on the results page).&lt;/font&gt;&lt;/p&gt;">
+          <audio name="audio13.mp3" source="audioSource13.wav" duration="5400" />
+        </Step>
+      </steps>
+    </label>
+    <label char="7" panelpos="auto" iconid="6" x="99" y="395">
+      <color name="Red" valuea="0xDD4809" valueb="0x912020" inner="0x5C1414" hovera="0xFCCFBC" hoverb="0xDD4809" />
+      <steps>
+        <Step id="5746beeb-b782-4e37-b7b8-118521baf604" name=" Soil Disturbance Class" title="" number="7" audioonly="false" html="&lt;p align='left'&gt;&lt;font face='Articulate' size='13' color=''&gt;Pictures of each soil disturbance class can be found in the Soil Disturbance Field Guide.&lt;br&gt;&lt;/br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;font face='Articulate' size='13' color=''&gt;Descriptions of each soil disturbance class are also located in Volume 1.&lt;/font&gt;&lt;/p&gt;">
+          <image width="143" height="205" zoomheight="520" playbar="false" autoplay="false" zoomwidth="361" zoommode="Embedded" allowzoom="true" align="bottom" duration="0" framerate="30" name="image5.jpg" zoomimage="imageZoom5.jpg" />
+          <audio name="audio12.mp3" source="audioSource12.wav" duration="29000" />
+        </Step>
+      </steps>
+    </label>
+  </labels>
+  <introduction>
+    <label panelpos="auto" iconid="intro" x="-37" y="24">
+      <color name="Gold" valuea="0xFFCC00" valueb="0x9C7E0A" inner="0xAB6F14" hovera="0xFF4646" hoverb="0xE19D00" />
+      <steps>
+        <Step id="7e0f3a95-7e1b-41c8-9ade-6e7823805d70" name="Data Entry 101" title="" number="0" audioonly="false" html="&lt;p align='left'&gt;&lt;font face='Articulate' size='13' color=''&gt;This is the main data entry form that you will use to monitor your unit. &lt;/font&gt;&lt;/p&gt;" intro="true">
+          <audio name="audio1.mp3" source="audioSource1.wav" duration="10900" />
+        </Step>
+      </steps>
+    </label>
+  </introduction>
+  <nextslide enabled="False" text="" show="" />
+  <starttip show="false" text="Click next to continue" />
+  <resume id="e619aba2-cce9-4744-b54a-bcc4376bc7a9" enabled="false" />
+</Interaction>
