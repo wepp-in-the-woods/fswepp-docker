@@ -1,0 +1,42 @@
+body, p, caption, td, li, dd, th {font-size: x-small;}
+p {margin: 8px 0px;}
+
+/* HIDES NN4 ONLY CONTENT */
+.hidden, .nn4-only {display:none;}
+
+/* OVERIDES DISPLAY:HIDDEN IN NN4 CSS */
+.new-browsers {display:block;}
+
+/* A.HOVER SETTINGS - WON'T WORK IN NN4 */
+a.main-nav-not-current:hover {text-decoration: none; font-weight: bold;	color: #E0AE49;	background-color: transparent;}
+a.sec:hover {font-weight: bold; color: #007624;	background-color: transparent;}
+
+/* HEADERS - VARY SLIGHTLY FROM NN4 VERSION */
+h1, h2, h3, h4, h5, h6 {margin-left: 0px;}
+h2 {font-size: large; font-weight: bold; color: #D97C18; background-color: transparent; display: block; width: 100%; border-bottom: solid 1px black;}
+
+/*GLOBAL FORM AND BUTTON SETTINGS*/
+form {margin: 0px 0px 5px;}
+input.button {color: #000; background-color: #DBD594; border: 1px solid #FBF8E0; font-size: xx-small; font-weight: bold;}
+
+/*GLOBAL IMAGE SETTINGS - PHOTOS AND STOCK, NOT SLICES*/
+img.image-left {float: left; margin-right: 10px;}
+img.image-right {float: right; margin-left: 10px;}
+img.brown-1px {padding: 5px; border: 1px solid #DBD594;}
+img.brown-2px {padding: 5px; border: 2px solid #DBD594;}
+img.brown-3px {padding: 5px; border: 3px solid #DBD594;}
+img.black-1px {padding: 5px; border: 1px solid #000;}
+img.black-2px {padding: 5px; border: 2px solid #000;}
+img.black-3px {padding: 5px; border: 3px solid #000;}
+
+/*******************/
+/* LAYOUT SETTINGS */
+/*******************/
+
+/* TABLE 4.4 - RELATED LINKS - OPTIONAL */
+#related-nav-table-top-cell {background-image: url(../images/related/related-top.gif); text-align: center;}
+#related-nav-table-cen-cell {background-image: url(../images/related/related-fill.gif); padding: 5px;}
+#related-nav-table-bot-cell {background-image: url(../images/related/related-bot.gif);}
+
+/* TABLE 5 - FOOTER TABLE */
+#footer-table-right-cell {background-image: url(../images/slices/lo-rt-corner.gif); background-repeat: no-repeat; background-position: right top;}
