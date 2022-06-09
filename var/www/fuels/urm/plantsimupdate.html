@@ -1,0 +1,427 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+	<head>
+		<meta name="vs_showGrid" content="True">
+		<title>The Understory Response Model</title>
+		<SCRIPT LANGUAGE="JavaScript" type="TEXT/JAVASCRIPT">
+  <!--
+  
+function popUp(){
+
+  var mywin = window.open("","mywin","width=400,height=600,top=100,left=400,status=1,scrollbars=1,resizable=1");
+  if (mywin==null) {}
+  else {
+    if (mywin.opener==null){remote.opener=window}
+    mywin.document.writeln('<html>')
+    mywin.document.writeln(' <head>')
+    mywin.document.writeln('  <title>Search window</title>')
+    mywin.document.writeln('  <script language="JavaScript" type="text/javascript">')
+    mywin.document.writeln('')
+    mywin.document.writeln('   function set_text()')
+    mywin.document.writeln('   {')
+    mywin.document.writeln('   //	alert(opener.document.plantsimulator.species.value)')
+    mywin.document.writeln('')
+    mywin.document.writeln('     document.elena.scispecies.value = opener.document.plantsimulator.species.value')
+    mywin.document.writeln('   }')
+    mywin.document.writeln('')
+    mywin.document.writeln('//    window.opener.document.location.href="plantsim.html";')
+    mywin.document.writeln('   </script>')
+    mywin.document.writeln(' </head>')
+    mywin.document.writeln(' <body onload="set_text()">')
+    mywin.document.writeln('  <form method="post" name="elena" action="/cgi-bin/fuels/urm/plantsearch.pl">')
+    mywin.document.writeln('   <input type="text" name="scispecies" onFocus="select()"><br>')
+    mywin.document.writeln('   <input type="submit" value="search" NAME="action1">')
+    mywin.document.writeln('  </form>')
+    mywin.document.writeln(' </body>')
+    mywin.document.writeln('</html>')
+    mywin.document.close()
+    mywin.focus()
+  }
+
+}
+
+function blankStatus()
+{
+  window.status = ""
+  return true                           // p. 86
+}
+
+function showTexture()
+{
+  var which = window.document.plantsimulator.moisture_cond.selectedIndex;
+  if (which == 0)             //very dry
+     {text = "1 hr fuels 6%, 1000 hr fuel 10%, duff 20%, soil 5% "}
+   else if (which == 1)       // dry
+     {text = "1 hr fuels 10%, 1000 hr fuel 15%, duff 40%, soil 10% "}
+   else if (which == 2)       // moderate
+     {text = "1 hr fuels 16%, 1000 hr fuel 30%, duff 75%, soil 15% "}
+   else                       // wet
+     {text = "1 hr fuels 22%, 1000hr fuel 40%, duff 130%, soil 25% "}
+   window.status = text
+   return true                           // p. 86
+}
+function checktree()
+{var h=window.document.plantsimulator.life_form.selectedIndex
+if(h == 3)
+	{alert("Please use FFE-FVS. It is NOT appropriate to use this application with this selection, PLEASE change it");
+window.document.plantsimulator.life_form.selectedIndex=0;
+}
+} 
+function chekrefractory()
+{
+var seedbselection=window.document.plantsimulator.seed_banking[1].checked
+var refraselection=window.document.plantsimulator.Refractory[0].checked
+var part1="you have selected no for seed banking and yes for fire stimulated seed."
+var part2="this combination is not possible, Plese change it"
+if((seedbselection)&&(refraselection))
+{alert(part1+part2);
+window.document.plantsimulator.Refractory[1].checked=true;
+}
+}
+function checkthincanopy()
+{
+var x=parseFloat(window.document.plantsimulator.start_canopy.value);
+var y=parseFloat(window.document.plantsimulator.canopy_cover.value);
+var part11="The start canopy smaller than the canopy removed from thinning. ";
+var part21="PLEASE change your value for canopy removed from thinning";
+if(x<y)
+{
+alert(part11+part21);
+window.document.plantsimulator.canopy_cover.value = 0;
+window.document.plantsimulator.canopy_cover.focus();
+window.document.plantsimulator.canopy_cover.select();
+}
+}
+function checkstartcanopy()
+{
+var x=parseFloat(window.document.plantsimulator.start_canopy.value);
+if((x<0)||(x>100))
+{
+alert("Start Canopy must be number in the interval [0,100]");
+window.document.plantsimulator.start_canopy.value = 80;
+}
+}
+function checkfirecanopy()
+{
+var x=parseFloat(window.document.plantsimulator.start_canopy.value);
+var y=parseFloat(window.document.plantsimulator.canopy_cover.value);
+var z=parseFloat(window.document.plantsimulator.fire_canopy.value);
+var part1="The start canopy is smaller than the sum of: ";
+var part2="the canopy removed from thinning and the canopy removed due to fire";
+var part3="PLEASE change the values";
+var sum=y+z;
+if(x<sum)
+{
+alert(part1+part2+part3);
+window.document.plantsimulator.fire_canopy.value = 0;
+window.document.plantsimulator.fire_canopy.focus();
+window.document.plantsimulator.fire_canopy.select();
+}
+}
+
+  // end hide -->
+		</SCRIPT>
+	</head>
+	<body link="#99ff00" vlink="#99ff00" alink="#99ff00">
+		<table align="center" width="100%" border="0">
+			<tr>
+				<td><img src="/fuels/urm/images/muskthistle.jpg" alt="The Understory Response Model" align="left">
+				</td>
+				<td align="center"><hr>
+					<h2>The Understory Response Model</h2>
+					<hr>
+				</td>
+				<td><img src="/fuels/urm/images/beargrass12.jpg" alt="The Understory Response Model" align="right">
+				</td>
+			</tr>
+		</table>
+		<form method="post" name="plantsimulator" action="/cgi-bin/fuels/urm/ftestupdate.pl">
+		<table align="center" border="2" ID="Table2">
+				<caption>
+					<b><font size="4">Initial Stand Conditions</font></b></caption>
+				<tr>
+					<th BGCOLOR="#006009">
+						<Font color="#99ff00">Size of Treated Area (ac):</Font></th>
+					<td><SELECT size="3" NAME="area" ID="Select2">
+							<option selected value="0">1-100
+							</option>
+							<option value="1">101-1,000</option>
+							<option value="2">1001-10,000</option>
+						</SELECT></td>
+				</tr>
+				<tr>
+					<th BGCOLOR="#006009">
+						<Font color="#99ff00">Starting<br>
+							Canopy Cover:</Font></th>
+					<td><INPUT type="text" size="4" VALUE="80" NAME="start_canopy" onchange="checkstartcanopy()" ID="Text2"></td>
+				</tr>
+				<tr>
+					<th BGCOLOR="#006009">
+						<Font color="#99ff00">Duff Depth:</Font></th>
+					<td colspan="2"><SELECT size="7" NAME="duff_depth" ID="Select3">
+							<option value="6">No duff</option>
+							<option value="0">half of an inch</option>
+							<option selected value="1">one inch</option>
+							<option value="2">two inches</option>
+							<option value="3">three inches</option>
+							<option value="4">four inch</option>
+							<option value="5">five inches</option>
+						</SELECT></td>
+				</tr>
+			</table>
+			<br>
+			<table align="center" border="2" cellpadding="5" cellspacing="5">
+				<caption>
+					<b><font size="4">Plant Characteristics </font></b>
+				</caption>
+				<tr>
+					<th BGCOLOR="#006009">
+						<Font color="#99ff00">Species:<br>
+							(Scientific Name)</Font></th>
+					<td colspan="2"><INPUT type="text" size="30" VALUE="Agrostis exarata" NAME="species" ID="Text1">
+						<br>
+						<center>
+							[ <a href="" onClick="popUp();return false" onMouseOver="window.status='search all plants data base';return true" onMouseOut="window.status='The Understory Response Model'; return true">
+								<font size="4" color="#006009">Search</font></a> ]</center>
+					</td>
+				</tr>
+				<tr>
+					<th BGCOLOR="#006009">
+						<Font color="#99ff00">Site Presence:</Font></th>
+					<td><INPUT type="radio" size="15" VALUE="1" NAME="site_presence" checked>On Site</td>
+					<td><INPUT type="radio" size="15" VALUE="0" NAME="site_presence">Off Site</td>
+				</tr>
+				<tr>
+					<th BGCOLOR="#006009">
+						<Font color="#99ff00">Life Span:</Font></th>
+					<td colspan="2"><SELECT size="3" ID="Select1" NAME="life_duration">
+							<OPTION value="Annual">Annual (only reproduction track)</OPTION>
+							<option value="Biennial">Biennial</option>
+							<option selected value="Perennial">Perennial</option>
+						</SELECT>
+					</td>
+				</tr>
+				<tr>
+					<th BGCOLOR="#006009">
+						<Font color="#99ff00">Life Form:</Font></th>
+					<td colspan="2"><SELECT size="4" NAME="life_form" onchange="checktree()">
+							<OPTION selected value="Grass">Grass</OPTION>
+							<option value="Forb">Forb</option>
+							<option value="Shrub">Shrub</option>
+							<option value="Tree">Tree</option>
+						</SELECT></td>
+				</tr>
+				<tr>
+					<th BGCOLOR="#006009">
+						<Font color="#99ff00">Root Location:</Font></th>
+					<td colspan="2"><SELECT size="2" NAME="root_loc">
+							<OPTION value="duff">Duff</OPTION>
+							<option selected value="mineral">Mineral Soil</option>
+						</SELECT></td>
+				<tr>
+					<th BGCOLOR="#006009">
+						<Font color="#99ff00">Bud Location:</Font></th>
+					<td colspan="2"><SELECT size="4" NAME="bud_loc">
+							<option value="stolon">Stolon</option>
+							<option selected value="crown">Root Crown,Tap Root, Fibrous Root</option>
+							<option value="rhizome">Rhizome</option>
+							<option value="bulb">Bulb</option>
+						</SELECT></td>
+				</tr>
+				<tr>
+					<th BGCOLOR="#006009">
+						<Font color="#99ff00">Vegetative Reproduction</Font></th>
+					<td><INPUT type="radio" VALUE="1" NAME="veg_repro">Yes</td>
+					<td>
+						<INPUT type="radio" VALUE="0" NAME="veg_repro" checked>No</td>
+				</tr>
+				<tr>
+					<th BGCOLOR="#006009">
+						<Font color="#99ff00">Weed:</Font></th>
+					<td><INPUT type="radio" VALUE="1" NAME="weed">Yes</td>
+					<td>
+						<INPUT type="radio" VALUE="0" NAME="weed" checked>No</td>
+				</tr>
+				<tr>
+					<th BGCOLOR="#006009">
+						<Font color="#99ff00">Sprouts</Font></th>
+					<td><INPUT type="radio" VALUE="1" NAME="sprouts" checked>Yes</td>
+					<td>
+						<INPUT type="radio" VALUE="0" NAME="sprouts">No</td>
+				</tr>
+				<tr>
+					<th BGCOLOR="#006009">
+						<Font color="#99ff00">Preferred Light Level:</Font></th>
+					<td colspan="2"><SELECT size="3" NAME="shade_tol">
+							<OPTION value="0">Open Canopy, Early Successional, Intolerant</OPTION>
+							<option selected value="1">Partial Canopy, Mid Successional, Moderate</option>
+							<option value="2">Closed Canopy, Late Successional, Tolerant</option>
+						</SELECT>
+					</td>
+				</tr>
+				<tr>
+					<th BGCOLOR="#006009">
+						<Font color="#99ff00">Seed Dispersal:</Font></th>
+					<td colspan="2"><SELECT size="5" NAME="seed_dis">
+							<OPTION value="0">Long distance wind dispersal</OPTION>
+							<option value="1">Short distance wind dispersal</option>
+							<option selected value="2">Animal dispersal</option>
+							<option value="3">Gravity dispersal</option>
+							<option value="4">Low Seed Production</option>
+						</SELECT>
+					</td>
+				</tr>
+				<tr>
+					<th BGCOLOR="#006009">
+						<Font color="#99ff00">Seed Bank (>2 years)</Font></th>
+					<td><INPUT type="radio" VALUE="1" NAME="seed_banking">Yes</td>
+					<td>
+						<INPUT type="radio" VALUE="0" NAME="seed_banking" onclick="chekrefractory()" checked>No</td>
+				</tr>
+				<tr>
+					<th BGCOLOR="#006009">
+						<Font color="#99ff00">Fire Stimulated Seeds:</Font></th>
+					<td><INPUT type="radio" VALUE="2" NAME="Refractory" onclick="chekrefractory()">Yes</td>
+					<td><INPUT type="radio" VALUE="3" NAME="Refractory" checked>No</td>
+				</tr>
+			</table>
+			<br>
+			<table align="center" border="2">
+				<caption>
+					<b><font size="4">Thinning and Broadcast</font></b></caption>
+				<!--<tr>
+					<th BGCOLOR="#006009">
+						<Font color="#99ff00">Thinning:</Font></th>
+					<td colspan="1"><INPUT type="radio" VALUE="Yes" NAME="thinning" checked>Yes</td>
+					<td colspan="2"><INPUT type="radio" VALUE="No" NAME="thinning">No</td>
+				</tr>
+				-->
+				<!--<tr>
+					<th BGCOLOR="#006009">
+						<Font color="#99ff00">Timming of Thinning:</Font></th>
+					<td><SELECT size="2" ID="Select24" NAME="time_thin">
+							<OPTION selected value="snow">Snow</OPTION>
+							<option value="nosnow">No Snow</option>
+						</SELECT></td>
+					<th BGCOLOR="#006009">
+						<Font color="#99ff00">Thinning Method:</Font></th>
+					<td><SELECT ID="Select25" size="2" NAME="thin_method">
+							<OPTION selected value="hand">Hand</OPTION>
+							<option value="machine">Machine</option>
+						</SELECT></td>
+				</tr>-->
+				<tr>
+				<th BGCOLOR="#006009">
+						<Font color="#99ff00">Canopy
+							<br>
+							Cover After Thinning (%):</Font></th>
+					<td><INPUT type="text" size="4" VALUE="40" NAME="canopy_cover1" onchange="checkthincanopy()" ID="Text6"></td>
+				</tr>
+				<tr>
+					<th BGCOLOR="#006009">
+						<Font color="#99ff00">Mineral Soil<br>
+							Exposed Due to Thinning (%):</Font></th>
+					<td><INPUT type="text" size="4" VALUE="40" NAME="mineral_expo1" ID="Text7"></td>
+				</tr>
+				<tr>
+					<th BGCOLOR="#006009">
+						<Font color="#99ff00">Timing of Prescribed
+							<br>
+							Fire:</Font></th>
+					<td colspan="3"><SELECT size="2" NAME="timing" onBlur="blankStatus()" ID="Select4">
+							<option selected value="0">One Year After Thinning
+							</option>
+							<option value="-1">More Than One Year After Thinning</option>
+						</SELECT></td>
+				<tr>
+					<th BGCOLOR="#006009">
+						<Font color="#99ff00">Canopy
+							<br>
+							Cover After Broadcast Burning (%):</Font></th>
+					<td colspan="2"><INPUT type="text" size="4" VALUE="0" NAME="fire_canopy1" onchange="checkfirecanopy()" ID="Text3"></td>
+				</tr>
+				<tr>
+					<th BGCOLOR="#006009">
+						<Font color="#99ff00">Moisture Conditions:</Font></th>
+					<td colspan="2"><SELECT size="4" NAME="moisture_cond1" onChange="showTexture()" onBlur="blankStatus()" ID="Select5">
+							<option selected value="72.7">very dry (1 hr fuels 6%, 1,000 hr fuel 10%, duff 20%)</option>
+							<option value="50.8">dry (1 hr fuels 10%, 1000 hr fuel 15%, duff 40%, soil 10% )</option>
+							<option value="31">moderate (1 hr fuels 16%, 1000 hr fuel 30%, duff 75%, soil 15%)</option>
+							<option value="13.6">wet (1 hr fuels 22%, 1000hr fuel 40%, duff 130%, soil 25%)</option>
+						</SELECT></td>
+				</tr>
+			</table>
+			<br>
+			<table align="center" border="2" ID="Table1">
+				<caption>
+					<b><font size="4">Thinning and Pile Burning</font></b></caption>
+				<tr>
+					<th BGCOLOR="#006009">
+						<Font color="#99ff00">Canopy
+							<br>
+							Cover After Thinning (%):</Font></th>
+					<td><INPUT type="text" size="4" VALUE="40" NAME="canopy_cover2" onchange="checkthincanopy()" ID="Text4"></td>
+				</tr>
+				<tr>
+					<th BGCOLOR="#006009">
+						<Font color="#99ff00">Mineral Soil<br>
+							Exposed Due to Thinning (%):</Font></th>
+					<td><INPUT type="text" size="4" VALUE="40" NAME="mineral_expo2" ID="Text5"></td>
+				</tr>
+			</table>
+			<br>
+			<table align="center" border="2" ID="Table3">
+				<caption>
+					<b><font size="4">Prescribed Fire</font></b></caption>
+				<tr>
+					<th BGCOLOR="#006009">
+						<Font color="#99ff00">Canopy
+							<br>
+							Cover After Prescribed Fire (%):</Font></th>
+					<td colspan="2"><INPUT type="text" size="4" VALUE="0" NAME="fire_canopy3" onchange="checkfirecanopy()" ID="Text8"></td>
+				</tr>
+				<tr>
+					<th BGCOLOR="#006009">
+						<Font color="#99ff00">Moisture Conditions:</Font></th>
+					<td colspan="2"><SELECT size="3" NAME="moisture_cond3" onChange="showTexture()" onBlur="blankStatus()" ID="Select6">
+							<option value="50.8">dry (1 hr fuels 10%, 1000 hr fuel 15%, duff 40%, soil 10% )</option>
+							<option value="31">moderate (1 hr fuels 16%, 1000 hr fuel 30%, duff 75%, soil 15%)</option>
+							<option value="13.6">wet (1 hr fuels 22%, 1000hr fuel 40%, duff 130%, soil 25%)</option>
+						</SELECT></td>
+				</tr>
+			</table>
+			<br>
+			<table align="center" border="2" ID="Table4">
+				<caption>
+					<b><font size="4">Wild Fire</font></b></caption>
+				<tr>
+					<th BGCOLOR="#006009">
+						<Font color="#99ff00">Canopy
+							<br>
+							Cover After Wild Fire (%):</Font></th>
+					<td colspan="2"><INPUT type="text" size="4" VALUE="0" NAME="fire_canopy4" onchange="checkfirecanopy()" ID="Text9"></td>
+				</tr>
+				<tr>
+					<th BGCOLOR="#006009">
+						<Font color="#99ff00">Moisture Conditions:</Font></th>
+					<td colspan="2"><SELECT size="3" NAME="moisture_cond4" onChange="showTexture()" onBlur="blankStatus()" ID="Select7">
+							<option selected value="72.7">very dry (1 hr fuels 6%, 1,000 hr fuel 10%, duff 20%)</option>
+							<option value="50.8">dry (1 hr fuels 10%, 1000 hr fuel 15%, duff 40%, soil 10% )</option>
+							<option value="31">moderate (1 hr fuels 16%, 1000 hr fuel 30%, duff 75%, soil 15%)</option>
+						</SELECT></td>
+				</tr>
+			</table>
+			<br>
+			<br>
+			<br>
+			<center>
+				<INPUT type="submit" value="RUN MODEL" style="background: #cc0000; color: black; font-weight: bold; border: 3px solid #990000; font-family: courier; font-size: 1.2em; padding: 0.3em;" NAME="action1">
+			</center>
+		</form>
+		<hr>
+		<p>Plant Simulatior:<br>
+			Develop by: Steve Sutherland and Melanie Miller<br>
+			Project Manager: Elaine Sutherland<br>
+			Version: 2004.1</p>
+	</body>
+</html>

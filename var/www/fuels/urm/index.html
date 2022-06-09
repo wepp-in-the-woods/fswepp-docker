@@ -1,0 +1,261 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- 2005.01.24 DEH closed out final table; changed comments.html to inline popup -->
+<!-- 2005.01.24 DEH changed submit button text -->
+<!-- 2005.01.24 DEH received from Elena Velasquez -->
+<html>
+ <head>
+  <meta name="vs_showGrid" content="True">
+  <title>The Understory Response Model</title>
+  <SCRIPT LANGUAGE="JavaScript" type="TEXT/JAVASCRIPT">
+  <!--
+   function blankStatus() {
+    window.status = ""
+    return true                           // p. 86
+   }
+
+   function checkform() {
+    if(!document.plantsimulator.treatment[0].checked && !document.plantsimulator.treatment[1].checked && !document.plantsimulator.treatment[2].checked && !document.plantsimulator.treatment[3].checked)
+	{//no checkbox is not selected
+	//retun false;
+	alert("You must choose at least one treatment");
+	return false;
+	}
+     return true;
+   }
+
+   function popuphistory() {
+    url = '';
+    height=500;
+    width=660;
+    popupwindow = window.open(url,'popupwindow','toolbar=no,location=no,status=no,directories=no,menubar=no,scrollbars=yes,resizable=yes,width='+width+',height='+height);
+    popupwindow.document.writeln('<html>')
+    popupwindow.document.writeln(' <head>')
+    popupwindow.document.writeln('  <title>The Understory Response Model version history</title>')
+    popupwindow.document.writeln(' </head>')
+    popupwindow.document.writeln(' <body bgcolor=white>')
+    popupwindow.document.writeln('  <font face="tahoma, arial, helvetica, sans serif">')
+    popupwindow.document.writeln('  <center>')
+    popupwindow.document.writeln('   <h3>The Understory Response Model Input Version History</h3>')
+    popupwindow.document.writeln('   <p>')
+    popupwindow.document.writeln('   <table border=0 cellpadding=10>')
+    popupwindow.document.writeln('    <tr>')
+    popupwindow.document.writeln('     <th bgcolor=lightblue>Version</th>')
+    popupwindow.document.writeln('     <th bgcolor=lightblue>Comments</th>')
+    popupwindow.document.writeln('    </tr>')
+    popupwindow.document.writeln('    <tr>')
+    popupwindow.document.writeln('     <th valign=top bgcolor=lightblue>2004.09.24</th>')
+    popupwindow.document.writeln('     <td>Beta release for Boise presentation</td>')
+    popupwindow.document.writeln('    </tr>')
+    popupwindow.document.writeln('   </table>')
+    popupwindow.document.writeln('   <p>')
+    popupwindow.document.writeln('  </font>')
+    popupwindow.document.writeln('  </center>')
+    popupwindow.document.writeln(' </body>')
+    popupwindow.document.writeln('</html>')
+    popupwindow.document.close()
+    popupwindow.focus()
+  }
+
+ function popupcomment() {
+    url = '';
+    height=500;
+    width=660;
+    popupwindow = window.open(url,'popupwindow','toolbar=no,location=no,status=no,directories=no,menubar=no,scrollbars=yes,resizable=yes,width='+width+',height='+height);
+    popupwindow.document.writeln('<html>')
+    popupwindow.document.writeln(' <head>')
+    popupwindow.document.writeln('  <title>USFS URM comment form</title>')
+    popupwindow.document.writeln('')
+    popupwindow.document.writeln('  <script language="JavaScript">')
+    popupwindow.document.writeln('')
+    popupwindow.document.writeln('function checkLength() {')
+    popupwindow.document.writeln('')
+    popupwindow.document.writeln('  var textlength = document.commentform.comment.value.length')
+    popupwindow.document.writeln('  if (textlength > 800) {')
+    popupwindow.document.writeln('    alert("You have quite a long comment there!")')
+    popupwindow.document.writeln('    return false')
+    popupwindow.document.writeln('  }')
+    popupwindow.document.writeln('  else {')
+    popupwindow.document.writeln('    return true')
+    popupwindow.document.writeln('  }')
+    popupwindow.document.writeln('}')
+    popupwindow.document.writeln('')
+    popupwindow.document.writeln('  </script>')
+    popupwindow.document.writeln(' </head>')
+    popupwindow.document.writeln(' <body bgcolor="ivory">')
+    popupwindow.document.writeln('  <font face="trebuchet, tahoma, arial, sans serif">')
+    popupwindow.document.writeln('  <h3 align="center">USFS FS URM comment form</h3>')
+    popupwindow.document.writeln('')
+    popupwindow.document.writeln('   <center>')
+    popupwindow.document.writeln('    <b>')
+    popupwindow.document.writeln('     The FS URM development team welcomes your comments concerning the FS&nbsp;URM programs.')
+    popupwindow.document.writeln('    </b>')
+    popupwindow.document.writeln('   </center>')
+    popupwindow.document.writeln('   <p>')
+    popupwindow.document.writeln('   Please include an e-mail or postal address ')
+    popupwindow.document.writeln('   if you want a response to your comment.')
+    popupwindow.document.writeln('   This form does <b>not</b> automatically include your e-mail address.')
+    popupwindow.document.writeln('   <p>')
+    popupwindow.document.writeln('')
+    popupwindow.document.writeln('   <hr>')
+    popupwindow.document.writeln('   <p>')
+    popupwindow.document.writeln('   <center>')
+    popupwindow.document.writeln('    <form name="commentform" method="post"')
+    popupwindow.document.writeln('     action="/cgi-bin/fuels/comment2.pl">')
+    popupwindow.document.writeln('     <table>')
+    popupwindow.document.writeln('      <tr>')
+    popupwindow.document.writeln('       <th>')
+    popupwindow.document.writeln('        <label for="uname" accesskey="N">')
+    popupwindow.document.writeln('        <u>N</u>ame:</label>')
+    popupwindow.document.writeln('')
+    popupwindow.document.writeln('       </th>')
+    popupwindow.document.writeln('       <td>')
+    popupwindow.document.writeln('        <input type="text" id="uname" size=60 name="uname" maxlength=60>')
+    popupwindow.document.writeln('       </td>')
+    popupwindow.document.writeln('      </tr>')
+    popupwindow.document.writeln('      <tr>')
+    popupwindow.document.writeln('       <th>')
+    popupwindow.document.writeln('        <label for="source" accesskey="E">')
+    popupwindow.document.writeln('        <u>E</u>-mail:</label>')
+    popupwindow.document.writeln('')
+    popupwindow.document.writeln('       </th>')
+    popupwindow.document.writeln('       <td>')
+    popupwindow.document.writeln('        <input type="text" id="source" size=60 name="source" maxlength=60>')
+    popupwindow.document.writeln('       </td>')
+    popupwindow.document.writeln('      </tr>')
+    popupwindow.document.writeln('      <tr>')
+    popupwindow.document.writeln('       <th valign=top>')
+    popupwindow.document.writeln('        <label for="comment" accesskey="C">')
+    popupwindow.document.writeln('        <u>C</u>omment:</label>')
+    popupwindow.document.writeln('')
+    popupwindow.document.writeln('       </td>')
+    popupwindow.document.writeln('       <td>')
+    popupwindow.document.writeln('        <TEXTAREA ROWS="12" COLS="60" id="comment" name="comment" WRAP=physical onChange="checkLength()"></TEXTAREA>')
+    popupwindow.document.writeln('       </td>')
+    popupwindow.document.writeln('      </tr>')
+    popupwindow.document.writeln('     </table>')
+    popupwindow.document.writeln('     <p>')
+    popupwindow.document.writeln('     Please limit your comments to about 800 characters.')
+    popupwindow.document.writeln('     <br><br>')
+    popupwindow.document.writeln('')
+    popupwindow.document.writeln('     <input type="submit" value="[ E-mail comments to FS URM team ]">')
+    popupwindow.document.writeln('     <script language="javascript">document.writeln(\'<input type="hidden" name="referer" value="'+document.referrer+'">\')</script>')
+    popupwindow.document.writeln('     <input type="hidden" name="recipient" value="dehall">')
+    popupwindow.document.writeln('     <input type="hidden" name="title" value="the FS URM development team">')
+    popupwindow.document.writeln('    </form>')
+    popupwindow.document.writeln('   </font>')
+    popupwindow.document.writeln('  </center>')
+    popupwindow.document.writeln(' </body>')
+    popupwindow.document.writeln('</html>')
+    popupwindow.document.close()
+    popupwindow.focus()
+  }
+  // end hide -->
+  </SCRIPT>
+ </head>
+
+ <body link="#99ff00" vlink="#99ff00" alink="#99ff00">
+  <font face="tahoma, arial, helvetica, sans serif">
+
+   <table align="center" width="100%" border="0">
+    <tr>
+     <td>
+      <!--img src="C:\Inetpub\wwwroot\fuels\urm\images\muskthistle.jpg" alt="The Understory Response Model" align="left" width=164 height=153-->
+      <img src="/fuels/urm/images/muskthistle.jpg" alt="The Understory Response Model" align="left" width=164 height=153>
+     </td>
+     <td align="center">
+      <font face="tahoma, arial, helvetica, sans serif">
+       <hr>
+       <h2>The Understory Response Model</h2>
+       <hr>
+      </font>
+     </td>
+     <td>
+      <!--img src="C:\Inetpub\wwwroot\fuels\urm\images\beargrass12.jpg" alt="The Understory Response Model" align="right" width=167 height=125-->
+      <img src="/fuels/urm/images/beargrass12.jpg" alt="The Understory Response Model" align="right" width=167 height=125>
+     </td>
+    </tr>
+   </table>
+
+   <center>
+   <!--form method="post" name="plantsimulator" action="http://localhost/Scripts/fuels/urm/test/urm.pl" onsubmit="return checkform()"-->
+    <form method="post" name="plantsimulator" action="/cgi-bin/fuels/urm/urm.pl" onsubmit="return checkform()">
+     <font face="tahoma, arial, helvetica, sans serif">
+      <br>
+      <b>Treatments to Be Compared:</b> (Multiple selections are accepted)
+      <br>
+      <br>
+      <br>
+      <table align="center" border="2">
+       <caption>
+        <b><font size="4"></font></b>
+       </caption>
+       <tr>
+        <th BGCOLOR="#006009">
+         <font face="tahoma, arial, helvetica, sans serif">
+        <font color="#99ff00">Thinning and Pile Burning</font>
+          <!--<font color="#99ff00">Thinning and Broadcast Burning</font>-->
+         </font>
+        </th>
+        <td><input type="checkbox" name="treatment" value="2"></td>
+       </tr>
+       <tr>
+        <th BGCOLOR="#006009">
+         <font face="tahoma, arial, helvetica, sans serif">
+          <font color="#99ff00">Thinning and Broadcast Burning</font>
+          <!--<font color="#99ff00">Thinning and Pile Burning</font>-->
+         </font>
+        </th>
+        <td><input type="checkbox" name="treatment" value="1"></td>
+       </tr>
+       <tr>
+        <th BGCOLOR="#006009">
+         <font face="tahoma, arial, helvetica, sans serif">
+          <font color="#99ff00">Prescribed Fire</font>
+         </font>
+        </th>
+        <td><input type="checkbox" name="treatment" value="3"></td>
+       </tr>
+       <tr>
+        <th BGCOLOR="#006009">
+         <font face="tahoma, arial, helvetica, sans serif">
+          <font color="#99ff00">Wildfire</font>
+         </font>
+        </th>
+        <td><input type="checkbox" name="treatment" value="4"></td>
+       </tr>
+      </table>
+     <br>
+<!--
+    </p>
+    <p><b>Have you run FOFEM:</b> <input type="radio" name="fofem" value="1">Yes <input type="radio" name="fofem" value="0" checked>No
+    </p>
+-->
+      <br>
+      <!-- INPUT type="submit" value="Continue" style="background: #00ffff; color: #0033ff; font-weight: bold; border: 1px solid black; font-family: courier; font-size: 1.2em; padding: 0.3em;" NAME="action1" -->
+      <INPUT type="submit" value="Continue" style="background: #00ffff; color: #0033ff; font-weight: bold; border: 1px solid black; font-size: 1.2em; padding: 0.3em;" NAME="action1">
+     </form>
+    </center>
+  
+    <hr>
+    <table border=0 width=100%>
+     <tr>
+     <td valign="top" bgcolor="lightgoldenrodyellow">
+      <font face="tahoma, arial, helvetica, sans serif" size=1>
+       The Understory Response Model (<b>URM</b>)<br>
+       Input interface version
+       <a href="javascript:popuphistory()">2005.09.13</a>
+       (for review) by
+       Elena Velasquez &amp; David Hall<br>
+       Model developed by: Steve Sutherland and Melanie Miller<br>
+       Team leader Elaine Kennedy Sutherland, USDA Forest Service, Rocky Mountain Research Station<br>
+       forest.moscowfsl.wsu.edu/fuels/
+      </font>
+     </td>
+     <td valign="top">
+      <a href="javascript:popupcomment()"><img src="/fswepp/images/epaemail.gif" align="right" border=0></a>
+     </td>
+    </tr>
+   </table>
+  </font>
+ </body>
+</html>

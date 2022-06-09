@@ -1,0 +1,321 @@
+<html>
+ <head>
+  <title>FS WEPP Interfaces</title>
+ <!-- Environmental Consequences toolkit -->
+ <!-- http://forest.moscowfsl.wsu.edu/fuels/ -->
+ <!-- U.S. Department of Agriculture Forest Service -->
+ <!-- Rocky Mountain Research Station -->
+
+ <!-- Applied Wildland Fire Research in Support of Project Level Hazardous Fuels Planning -->
+ <!-- Environmental Consequences -->
+ <!-- Elaine Kennedy Sutherland, Project Leader, Missoula, MT -->
+ <!-- January 21, 2005 -->
+  <!--<bgsound src="journey.wav">-->
+
+  <style type="text/css">
+   <!--
+    body {position: relative; background: lightblue; margin: 0; padding: 0;}
+
+    div#help a {display: block; text-align: center; font: bold 1em sans-serif; 
+       padding: 5px 10px; margin: 0 2 1px; border-width: 0; 
+       text-decoration: none; color: #ffc; background: #444;
+       border-right: none;}
+    div#help a:hover {color: #411; background: #AAA;
+       display: block;
+       margin: 0 0 0px; border-width: 0;
+       border-right: none;}
+    div#help a span {display: none;}
+    div#help a:hover span {display: block;
+       position: absolute; top: 100px; left: 0; width: 125px;
+       padding: 5px; margin: 10px; z-index: 100;
+       color: #000; background: white;
+       font: 10px Verdana, sans-serif; text-align: left;}
+
+    div#content {position: absolute; top: 26px; left: 161px; right: 25px;
+       color: #BAA; background: #22232F; 
+       font: 13px Verdana, sans-serif; padding: 10px; 
+       border: solid 5px #444;}
+    div#content p {margin: 0 1em 1em;}
+    div#content h3 {margin-bottom: 0.25em;}
+
+    h1 {margin: -9px -9px 0.5em; padding: 15px 0 5px; text-align: right; background: #333; color: #667; letter-spacing: 0.5em; text-transform: lowercase; font: bold 25px sans-serif; height: 28px; vertical-align: middle; white-space: nowrap;}
+    dt {font-weight: bold;}
+    dd {margin-bottom: 0.66em;}
+    div#content a:link {color: white;}
+    div#content a:visited {color: #BBC;}
+    div#content a:link:hover {color: #FF0;}
+    div#content a:visited:hover {color: #CC0;}
+    code, pre {color: #EDC; font: 110% monospace;}
+   -->
+  </style>
+
+  <SCRIPT LANGUAGE = "JavaScript" type="TEXT/JAVASCRIPT">
+   <!--
+
+function updateUnits(r) {
+  document.CrossDrain.units.value=r
+  document.WeppRoad.units.value=r
+  document.WeppRoadBatch.units.value=r
+  document.WeppDist.units.value=r
+  document.ERMiT.units.value=r
+  document.RockClime.units.value=r
+}
+
+  function submitit(what) {
+
+    var check=0
+    if (document.unitsform.units[1].checked) {check=1}
+    if (what == 'CrossDrain') {document.CrossDrain.units.value=document.unitsform.units[check].value;document.forms.CrossDrain.submit()}
+    if (what == 'WeppRoad') {document.WeppRoad.units.value=document.unitsform.units[check].value;document.forms.WeppRoad.submit()}
+    if (what == 'WeppRoadBatch') {document.WeppRoadBatch.units.value=document.unitsform.units[check].value;document.forms.WeppRoadBatch.submit()}
+    if (what == 'WeppDist') { document.WeppDist.units.value=document.unitsform.units[check].value;document.forms.WeppDist.submit()}
+    if (what == 'ERMiT') {document.ERMiT.units.value=document.unitsform.units[check].value;document.forms.ERMiT.submit()}
+    if (what == 'RockClime') {document.RockClime.units.value=document.unitsform.units[check].value; document.forms.RockClime.submit()}
+  }
+
+  function submitit_old(what) {
+
+    var check=0
+    if (document.unitsform.units[1].checked) {check=1}
+    document.CrossDrain.units.value=document.unitsform.units[check].value
+    document.WeppRoad.units.value=document.unitsform.units[check].value
+    document.WeppRoadBatch.units.value=document.unitsform.units[check].value
+    document.WeppDist.units.value=document.unitsform.units[check].value
+    document.ERMiT.units.value=document.unitsform.units[check].value
+    document.RockClime.units.value=document.unitsform.units[check].value
+    if (what == 'CrossDrain') {document.forms.CrossDrain.submit()}
+
+    if (what == 'WeppRoad') {document.forms.WeppRoad.submit()}
+    if (what == 'WeppRoadBatch') {document.forms.WeppRoadBatch.submit()}
+    if (what == 'WeppDist') {document.forms.WeppDist.submit()}
+    if (what == 'ERMiT') {document.forms.ERMiT.submit()}
+    if (what == 'RockClime') {document.forms.RockClime.submit()}
+  }
+
+function setCookie() {
+  cookie_name = "FSWEPPuser";
+  days_to_expire = 1;
+  expiration_date = new Date();
+  expiration_date.setTime(expiration_date.getTime()+ days_to_expire *(24 * 60 * 60 * 1000));
+  expiration_date.toGMTString();
+  //  document.cookie = cookie_name + "=" + document.unitsform.user_name.value;
+  document.cookie = cookie_name + "=" + document.unitsform.user_name.value +
+                  ";expires=" + expiration_date +
+                  ";path=/";
+  //  updateMe();
+}
+
+  function MakeArray(n) {     // initialize array of length *n* [Goodman p
+    this.length = n; for (var i = 0; i<n; i++) {this[i] = 0} return this
+  }
+
+  function StartUp() {
+  }
+
+  function blankStatus() {
+    window.status = "Forest Service ERMiT"
+    return true
+  }
+
+    // end hide -->
+  </SCRIPT>
+ </head>
+
+ <!-- body bgcolor="#006009" text="black" link="#99ff00" vlink="#99ff00" alink="red" -->
+ <!-- BODY bgcolor="lightgrey" link="#555555" vlink="#555555" onLoad="StartUp()" -->
+ <BODY bgcolor="lightgrey" link="#555555" vlink="#555555">
+  <font face="Arial, Geneva, Helvetica">
+   <table width=100% border=0>
+    <tr>
+     <td> 
+       <a href="http://forest.moscowfsl.wsu.edu/fuels/">
+       <IMG src="images/fire2.jpg" width=75 height=75
+       name="fuelslogo"
+       align="left" alt="Environmental Consequences" border=0></a>
+     </td>
+     <td align="center">
+       <h2>
+        <hr>
+         Environmental Consequences Fuels Tools
+        <hr>
+      </h2>
+     </td>
+     <td align="right"> 
+      <a href="/fswepp/docs/fsweppdoc.html"
+         onMouseOver="window.status='Documentation for FS WEPP Interfaces'; return true"
+         onMouseOut="window.status='Forest Service WEPP Interfaces'; return true">
+         <img src="images/epage.gif" alt="Documentation for FS WEPP Interfaces" border="0" width="50" height="50"></a>
+      </td>
+     </tr>
+   </table>
+
+  <center>
+
+    <TABLE border="0" bgcolor="ivory">
+
+<!-- ===================  WEPP FuME  ====================== -->
+
+     <tr align=top>
+      <td align=center bgcolor="lightgrey">
+       <a href="/cgi-bin/fswepp/fume/fume.pl" target="tools">
+        <img src="/fswepp/images/fume.jpg"
+          alt="Run FuME Fuel Management model"
+          height=50 width=50 border=2
+          onMouseOver="window.status='Run FuME Fuel Management model';return true"
+          onMouseOut="window.status='Forest Service Fuels Tools'; return true"</a>
+      </td>
+      <td align="center" bgcolor="lightgrey">
+       <div id="help">
+        <a href="/cgi-bin/fswepp/fume/fume.pl" target="tools"
+             onMouseOver="window.status='Run FuME Fuel Management model';return true"
+             onMouseOut="window.status='FS Fuels Tools'; return true">FuME Fuel Management
+         <span>
+          WEPP FuME estimates background erosion rates and compares sediment loads and erosion from
+          wildfire, thinning, prescribed fire, buffer width effectiveness and low and high use road networks
+          for a given topography. Soil and water databases are the same as those used for WEPP.
+         </span>
+        </a>
+       </div>
+      </td>
+
+<!-- ===================  ART Armillaria Response Tool  ====================== -->
+
+      <td align="center" bgcolor="lightgrey">
+       <div id="help">
+        <a href="/fuels/art/" target="tools"
+             onMouseOver="window.status='Run Armillaria Response Tool';return true"
+             onMouseOut="window.status='FS Fuels Tools'; return true">Armillaria Response Tool
+         <span>
+          <i>A</i>RT models qualitative risk of Armillaria root disease due to selected fuels treatments, determining whether a given habitat supports the disease, and if so, estimating degree of risk.
+ 	 </span>
+        </a>
+       </div>
+      </td>
+      <td align=center bgcolor="lightgrey">
+       <a href="/fuels/art/" target="tools">
+        <img src="art/images/artpics.jpg"
+        width=50 height=50
+        border=2
+        alt="Run ART"
+        onMouseOver="window.status='Run ART';return true"
+        onMouseOut="window.status='Forest Service Fuels Tools'; return true"></a>
+      </td>
+     </tr>
+
+<!-- ===================  WILDLIFE HABITAT RESPONSE MODEL  ====================== -->
+
+     <TR align=top>
+       <td align=center bgcolor="lightgrey">
+        <a href="/fuels/whrm/" target="tools">
+         <img src="whrm/images/pileatedwoodpecker_evelynbull.jpg" height=50 width=50 border=2
+         alt="Run WHRM"
+         onMouseOver="window.status='Run Wildlife Habitat Response Model';return true"
+         onMouseOut="window.status='Forest Service Fuels Tools'; return true"></a>
+       </td>
+      <td align="center" bgcolor="lightgrey">
+       <div id="help">
+        <a href="/fuels/whrm/" target="tools"
+             onMouseOver="window.status='Run Wildlife Habitat Response Model';return true"
+             onMouseOut="window.status='FS Fuels Tools'; return true">Wildlife Habitat Response Model
+         <span>
+          WHRM predicts qualitative changes in habitat and populations in response to fuels treatment activities.
+          It uses species-habitat relationships and knowledge of which habitat features a given treatment will affect
+          to identify effects on reproduction, food resources, predators and hazards.
+ 	 </span>
+        </a>
+       </div>
+      </td>
+
+<!-- =================== Understory Response Model (URM)    ====================== -->
+
+      <td align="center" bgcolor="lightgrey">
+       <div id="help">
+        <a  href="/fuels/urm/ target="tools""
+             onMouseOver="window.status='Run Understory Response Model (URM)  ';return true"
+             onMouseOut="window.status='FS Fuels Tools'; return true">Understory Response Model
+         <span>
+          URM predicts qualitative changes in shrub, form, and grass biomass at 1-, 5-, and 10-year intervals
+          caused by fuels treatment activities, based on species-specific life history traits
+          (life form, shade tolerance, etc) and site-specific effects (soil heating, bare mineral soil, etc.).
+ 	 </span>
+        </a>
+       </div>
+      </td>
+       <td align=center bgcolor="lightgrey">
+        <a href="/fuels/urm/" target="tools">
+         <img src="urm/images/muskthistle.jpg" height=50 width=50 border=2
+         alt="Run Understory Response Model (URM)"
+         onMouseOver="window.status='Run Understory Response Model (URM)';return true"
+         onMouseOut="window.status='Forest Service Fuels Tools'; return true"></a>
+       </td>
+     </tr>
+    </table>
+   </center>
+     <br><br>
+
+     <font size="4" face="arial, tahoma, sans serif">
+      <b>Other Tools</b>
+     </font>
+      <ul type="circle">
+      <li>
+       <font size="2" face="arial, tahoma, sans serif">
+        <a href="http://www.frames.gov/tools/" target="right">First Order Fire Effects Model (FOFEM)</a>
+        <br><br>
+       </font>
+      </li>
+      <li>
+       <font size="2" face="arial, tahoma, sans serif">
+        <a href="http://www.fs.fed.us/fmsc/fvs/software/varfiles.php" target="right">The Fire and Fuels Extension to the Forest Vegetation Simulator (FFE-FVS)</a>
+       </font>
+      <br><br>
+      </li>
+      <li>
+       <font size="2" face="arial, tahoma, sans serif">
+        <a href="http://www.frames.gov/tools/" target="right">Smoke Impact Spreadsheet Model (SIS)</a>
+        <br><br>
+        SIS calculates 1- and 24-hour particulate matter (PM) emissions and concentrations 
+        downwind of fire (wildland, broadcast, pile burns).
+        <br><br>
+       </font>
+      </li>
+      <li>
+       <font size="2" face="arial, tahoma, sans serif">
+        <a href="http://leopold.wilderness.net/research/fprojects/F001.htm" target="_blank">Fire Effects Planning Framework (FEPF)</a>
+        <br><br>
+       </font>
+      </li>
+      <li>
+       <font size="2" face="arial, tahoma, sans serif">
+        <a href="http://www.or.blm.gov/fcp/" target="_blank">National <b>F</b>ire Plan Project Design and <b>C</b>onsultation <b>P</b>rocess (FCP)</a>
+        <br><br>
+        FCP provides effects determinations for species listed under the Endangered Species Act and other species of concern
+        for OR, ID, NV, UT, western MT, and western WY.
+       </font>
+      </li>
+     </ul>
+     <br>
+
+   <form name="unitsform">
+    <br>
+    <font size=-1>
+     <input type="text" name="user_name" size="1" onChange="setCookie()"> 
+     <a href="id_info.html"> personality</a> (a to z) 
+    </font>
+   </form>
+
+<br>
+  <font size=1>
+      <hr>
+      U.S. Department of Agriculture Forest Service<br>
+      Rocky Mountain Research Station<br>
+      <a href="http://www.fs.fed.us/fire/tech_transfer/synthesis/synthesis_index.htm" target="_blank">Applied Wildland Fire Research in Support of Project Level Hazardous Fuels Planning</a><br>
+      <a href="http://forest.moscowfsl.wsu.edu/fuels/" target="_top">Environmental Consequences</a></br>
+      Elaine Kennedy Sutherland, Team Leader, Missoula, MT<br>
+   <SCRIPT>
+    <!-- hide
+    document.write(document.lastModified)
+    // end hide -->
+   </SCRIPT>
+  </font>
+ </BODY>
+</HTML>

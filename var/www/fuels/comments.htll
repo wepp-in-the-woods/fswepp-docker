@@ -1,0 +1,80 @@
+<html>
+ <head>
+  <title>USFS Fuel Synthesis comment form</title>
+
+  <script language="JavaScript">
+
+function checkLength() {
+
+  var textlength = document.commentform.userComment.value.length
+  if (textlength > 800) {
+    alert('You have quite a long comment there!')
+    return false
+  }
+  else {
+    return true
+  }
+}
+
+  </script>
+ </head>
+ <body bgcolor="ivory">
+  <font face="trebuchet, tahoma, arial, sans serif">
+  <h3 align="center">U.S.D.A. Forest Service<br>Fuel Synthesis comment form</h3>
+   <center>
+    <b>
+     The Fuel Synthesis development team welcomes your
+     comments concerning the Fuel Synthesis project.
+    </b>
+   </center>
+   <p>
+   Please include an e-mail or postal address 
+   if you want a response to your comment.
+   This form does <b>not</b> automatically include your e-mail address.
+   <p>
+   <hr>
+   <p>
+   <center>
+    <form name="commentform" method="post"
+     action="http://forest.moscowfsl.wsu.edu/cgi-bin/fuels/comment2.pl">
+     <table>
+      <tr>
+       <th>
+        <label for="uname" accesskey="N">
+        <u>N</u>ame:</label>
+       </th>
+       <td>
+        <input type="text" id="uname" size=60 name="uname" maxlength=60>
+       </td>
+      </tr>
+      <tr>
+       <th>
+        <label for="source" accesskey="E">
+        <u>E</u>-mail:</label>
+       </th>
+       <td>
+        <input type="text" id="source" size=60 name="source" maxlength=60>
+       </td>
+      </tr>
+      <tr>
+       <th valign=top>
+        <label for="comment" accesskey="C">
+        <u>C</u>omment:</label>
+       </td>
+       <td>
+        <TEXTAREA ROWS="12" COLS="60" id="comment" name="comment" WRAP=physical onChange="checkLength()"></TEXTAREA>
+       </td>
+      </tr>
+     </table>
+     <p>
+     Please limit your comments to about 800 characters.
+     <p>
+     <input type="submit" value="[ E-mail comments to Fuel Synthesis team ]">
+     <script language=javascript>document.writeln('<input type="text" name="referer" value="'+document.referrer+'">')</script>
+     <input type="hidden" name="recipient" value="dehall">
+     <input type="hidden" name="title" value="the Fuel Synthesis team">
+    </form>
+   </font>
+  </center>
+ </body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+	<head>
+		<title>The Understory Response Model</title>
+  <!-- fronttest.pl to urm.pl DEH 2004.11.22 -->
+		<SCRIPT LANGUAGE="JavaScript" type="TEXT/JAVASCRIPT">
+  <!--
+  
+
+function blankStatus()
+{
+  window.status = ""
+  return true                           // p. 86
+}
+function checkform()
+{
+if(!document.plantsimulator.treatment[0].checked && !document.plantsimulator.treatment[1].checked && !document.plantsimulator.treatment[2].checked && !document.plantsimulator.treatment[3].checked)
+	{//no checkbox is not selected
+	//retun false;
+	alert("You must choose at least one treatment");
+	return false;
+	}
+return true;
+}
+  // end hide -->
+		</SCRIPT>
+	</head>
+	<body link="#99ff00" vlink="#99ff00" alink="#99ff00">
+		<table align="center" width="100%" border="0">
+			<tr>
+				<td><img src="/fuels/urm/images/muskthistle.jpg" alt="The Understory Response Model" align="left">
+				</td>
+				<td align="center"><hr>
+					<h2>The Understory Response Model</h2>
+ <img src='/fswepp/images/underc.gif' border=0 width=532 height=34>
+					<hr>
+				</td>
+				<td><img src="/fuels/urm/images/beargrass12.jpg" alt="The Understory Response Model" align="right">
+				</td>
+			</tr>
+		</table>
+		<center>
+			<form method="post" name="plantsimulator" action="/cgi-bin/fuels/urm/yurm.pl" onsubmit="return checkform()">
+				<p><b>Treatments to Be Compared: </b>(Multiple selections are accepted)
+					<br>
+					<br>
+					<br>
+					<table align="center" border="2">
+						<caption>
+							<b><font size="4"></font></b>
+						</caption>
+						<tr>
+							<th BGCOLOR="#006009">
+								<Font color="#99ff00">Thinning and Broadcast Burning</Font></th>
+							<td><input type="checkbox" name="treatment" value="1"></td>
+						</tr>
+						<tr>
+							<th BGCOLOR="#006009">
+								<Font color="#99ff00">Thinning and Pile Burning</Font></th>
+							<td><input type="checkbox" name="treatment" value="2"></td>
+						</tr>
+						<tr>
+							<th BGCOLOR="#006009">
+								<Font color="#99ff00">Prescribed Fire</Font></th>
+							<td><input type="checkbox" name="treatment" value="3"></td>
+						</tr>
+						<tr>
+							<th BGCOLOR="#006009">
+								<Font color="#99ff00">Wildfire</Font></th>
+							<td><input type="checkbox" name="treatment" value="4"></td>
+						</tr>
+					</table>
+					<br>
+					<!--</p>
+				<p><b>Have you run FOFEM:</b> <input type="radio" name="fofem" value="1">Yes <input type="radio" name="fofem" value="0" checked>No
+				</p>-->
+					<br>
+					<br>
+					<INPUT type="submit" value="Continue" style="background: #00ffff; color: #0033ff; font-weight: bold; border: 1px solid black; font-family: courier; font-size: 1.2em; padding: 0.3em;" NAME="action1">
+			</form>
+		</center>
+		<hr>
+		<p>Plant Simulatior:<br>
+			Develop by: Steve Sutherland and Melanie Miller<br>
+			Project Manager: Elaine Sutherland<br>
+			Version: 2004.1</p>
+	</body>
+</html>

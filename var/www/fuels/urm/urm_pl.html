@@ -1,0 +1,1677 @@
+<html>
+ <head>
+  <meta name="vs_showGrid" content="True">
+  <title>The Understory Response Model</title>
+  <SCRIPT LANGUAGE="JavaScript" type="TEXT/JAVASCRIPT">
+  <!--
+
+function popUp(){
+
+  var mywin = window.open("","mywin","width=400,height=600,top=100,left=400,status=1,scrollbars=1,resizable=1");
+  if (mywin==null) {}
+  else {
+    if (mywin.opener==null){remote.opener=window}
+    mywin.document.writeln('<html>')
+    mywin.document.writeln(' <head>')
+    mywin.document.writeln('  <title>Search window</title>')
+    mywin.document.writeln('  <script language="JavaScript" type="text/javascript">')
+    mywin.document.writeln('')
+    mywin.document.writeln('   function set_text()')
+    mywin.document.writeln('   {')
+    mywin.document.writeln('   //	alert(opener.document.plantsimulator.species.value)')
+    mywin.document.writeln('')
+    mywin.document.writeln('     document.elena.scispecies.value = opener.document.plantsimulator.species.value')
+    mywin.document.writeln('   }')
+    mywin.document.writeln('')
+    mywin.document.writeln('//    window.opener.document.location.href="plantsim.html";')
+    mywin.document.writeln('   </script>')
+    mywin.document.writeln(' </head>')
+    mywin.document.writeln(' <body onload="set_text()">')
+    mywin.document.writeln('  <font face="arial">')
+    mywin.document.writeln('   <h4>URM plant information search<br>by scientific name</h4>')
+//  mywin.document.writeln('   <form method="post" name="elena" action="http://localhost/Scripts/fuels/urm/plantsearch.pl">')
+    mywin.document.writeln('   <form method="post" name="elena" action="/cgi-bin/fuels/urm/plantsearch2.pl">')
+    mywin.document.writeln('    <input type="text" name="scispecies" onFocus="select()">&nbsp;')
+    mywin.document.writeln('    <input type="submit" value="search" NAME="action1">')
+    mywin.document.writeln('   </form>')
+    mywin.document.writeln('  </font>')
+    mywin.document.writeln(' </body>')
+    mywin.document.writeln('</html>')
+    mywin.document.close()
+    mywin.focus()
+  }
+
+}
+function explain_sizearea() {
+    newin = window.open('','road_density','width=640,scrollbars=yes,resizable=1')
+    var newWin = newin.document.open()
+    if (newWin != null) {
+      newin.document.writeln('<HTML>')
+      newin.document.writeln(' <HEAD>')
+      newin.document.writeln('  <title>Understory Response Model</title>')
+      newin.document.writeln('  <style>')
+      newin.document.writeln('   BODY')
+      newin.document.writeln('    {scrollbar-base-color:666666;scrollbar-face-color:#333333;scrollbar-highlight-color:#333333;scrollbar-shadow-color:6 66666;scrollbar-dark-shadow-color:ffffcc;scrollbar-arrow-color:ff6600}')
+      newin.document.writeln('   .question {color:ffffcc}')
+      newin.document.writeln('   .header {color:ffffcc}')
+      newin.document.writeln('   .highlight {font-weight:bold}')
+      newin.document.writeln('  </style>')
+      newin.document.writeln(' </HEAD>')
+      newin.document.writeln(' <body bgcolor="ivory" onLoad="top.window.focus()" link="#99ff00" vlink="#99ff00"  text="#006009">')
+      newin.document.writeln('  <font face="tahoma, arial, helvetica, sans serif">')
+      newin.document.writeln('   <table width=100%>')
+      newin.document.writeln('    <tr><td bgcolor="#99ff00" align="center">')
+      newin.document.writeln('     <font face="tahoma, arial, helvetica, sans serif">')
+      newin.document.writeln('      <h3>Understory Response Model<br><br>Size of Treated Area</h3><br>')
+      newin.document.writeln('     </font>')
+      newin.document.writeln('    </td></tr>')
+      newin.document.writeln('   </table>')
+//      newin.document.writeln('   Size is .')
+      newin.document.writeln('   Number of acres treated to reduce fuels.  This value affects off-site colonization.')
+      newin.document.writeln('<!--tool bar begins--><p>')
+      newin.document.writeln('  <table bgcolor="#666666" width="20%" border="0" cellspacing="1" cellpadding="5"  align="center">')
+      newin.document.writeln('   <tr>')
+      newin.document.writeln('    <td align="center" bgcolor="#333333"')
+      //newin.document.writeln(' onMouseOver="this.style.backgroundColor='#000000';"')
+      //newin.document.writeln(' onMouseOut="this.style.backgroundColor='';">')
+      newin.document.writeln(' <font face="verdana,arial,helvetica" size="1">')
+      newin.document.writeln(' <img src="/fswepp/images/shift_anim_on.gif" width=6 height=6 border=0>&nbsp;&nbsp;<a  href="javascript:self.print()">Print me</a>')
+      newin.document.writeln(' </font>')
+      newin.document.writeln('</td>')
+      newin.document.writeln('    <td align="center" bgcolor="#333333"')
+      //newin.document.writeln(' onMouseOver="this.style.backgroundColor='#000000';"')
+      //newin.document.writeln(' onMouseOut="this.style.backgroundColor='';">')
+      newin.document.writeln(' <font face="verdana,arial,helvetica" size="1">')
+      newin.document.writeln('  <img src="/fswepp/images/shift_anim_on.gif" width=6 height=6 border=0>&nbsp;&nbsp;<a  href="javascript:self.close()">Close me</a>')
+      newin.document.writeln(' </font>')
+      newin.document.writeln('</td>')
+      newin.document.writeln('   </tr>')
+      newin.document.writeln('  </table>')
+      newin.document.writeln('<!--tool bar ends-->')
+      newin.document.writeln('  </center>')
+      newin.document.writeln(' </body>')
+      newin.document.writeln('</html>')
+      newin.document.close()
+    } 
+  }
+function explain_stcanopycover() {
+    newin = window.open('','road_density','width=640,scrollbars=yes,resizable=1')
+    var newWin = newin.document.open()
+    if (newWin != null) {
+      newin.document.writeln('<HTML>')
+      newin.document.writeln(' <HEAD>')
+      newin.document.writeln('  <title>Understory Response Model</title>')
+      newin.document.writeln('  <style>')
+      newin.document.writeln('   BODY')
+      newin.document.writeln('    {scrollbar-base-color:666666;scrollbar-face-color:#333333;scrollbar-highlight-color:#333333;scrollbar-shadow-color:6 66666;scrollbar-dark-shadow-color:ffffcc;scrollbar-arrow-color:ff6600}')
+      newin.document.writeln('   .question {color:ffffcc}')
+      newin.document.writeln('   .header {color:ffffcc}')
+      newin.document.writeln('   .highlight {font-weight:bold}')
+      newin.document.writeln('  </style>')
+      newin.document.writeln(' </HEAD>')
+      newin.document.writeln(' <body bgcolor="ivory" onLoad="top.window.focus()" link="#99ff00" vlink="#99ff00"  text="#006009">')
+      newin.document.writeln('  <font face="tahoma, arial, helvetica, sans serif">')
+      newin.document.writeln('   <table width=100%>')
+      newin.document.writeln('    <tr><td bgcolor="#99ff00" align="center">')
+      newin.document.writeln('     <font face="tahoma, arial, helvetica, sans serif">')
+      newin.document.writeln('      <h3>Understory Response Model<br><br>Canopy Cover (%)</h3><br>')
+      newin.document.writeln('     </font>')
+      newin.document.writeln('    </td></tr>')
+      newin.document.writeln('   </table>')
+//      newin.document.writeln('   Site Presence is .')
+      newin.document.writeln('  Percent of ground covered by the vertical projection of the aerial portions of the plants (same as foliar cover).  Small openings in the canopy are excluded.  Values range from 0 to 100.  This value affects post-treatment plant survival and reproduction.')
+      newin.document.writeln('<!--tool bar begins--><p>')
+      newin.document.writeln('  <table bgcolor="#666666" width="20%" border="0" cellspacing="1" cellpadding="5"  align="center">')
+      newin.document.writeln('   <tr>')
+      newin.document.writeln('    <td align="center" bgcolor="#333333"')
+      //newin.document.writeln(' onMouseOver="this.style.backgroundColor='#000000';"')
+      //newin.document.writeln(' onMouseOut="this.style.backgroundColor='';">')
+      newin.document.writeln(' <font face="verdana,arial,helvetica" size="1">')
+      newin.document.writeln(' <img src="/fswepp/images/shift_anim_on.gif" width=6 height=6 border=0>&nbsp;&nbsp;<a  href="javascript:self.print()">Print me</a>')
+      newin.document.writeln(' </font>')
+      newin.document.writeln('</td>')
+      newin.document.writeln('    <td align="center" bgcolor="#333333"')
+      //newin.document.writeln(' onMouseOver="this.style.backgroundColor='#000000';"')
+      //newin.document.writeln(' onMouseOut="this.style.backgroundColor='';">')
+      newin.document.writeln(' <font face="verdana,arial,helvetica" size="1">')
+      newin.document.writeln('  <img src="/fswepp/images/shift_anim_on.gif" width=6 height=6 border=0>&nbsp;&nbsp;<a  href="javascript:self.close()">Close me</a>')
+      newin.document.writeln(' </font>')
+      newin.document.writeln('</td>')
+      newin.document.writeln('   </tr>')
+      newin.document.writeln('  </table>')
+      newin.document.writeln('<!--tool bar ends-->')
+      newin.document.writeln('  </center>')
+      newin.document.writeln(' </body>')
+      newin.document.writeln('</html>')
+      newin.document.close()
+    } 
+  }
+function explain_avgduffdepth() {
+    newin = window.open('','road_density','width=640,scrollbars=yes,resizable=1')
+    var newWin = newin.document.open()
+    if (newWin != null) {
+      newin.document.writeln('<HTML>')
+      newin.document.writeln(' <HEAD>')
+      newin.document.writeln('  <title>Understory Response Model</title>')
+      newin.document.writeln('  <style>')
+      newin.document.writeln('   BODY')
+      newin.document.writeln('    {scrollbar-base-color:666666;scrollbar-face-color:#333333;scrollbar-highlight-color:#333333;scrollbar-shadow-color:6 66666;scrollbar-dark-shadow-color:ffffcc;scrollbar-arrow-color:ff6600}')
+      newin.document.writeln('   .question {color:ffffcc}')
+      newin.document.writeln('   .header {color:ffffcc}')
+      newin.document.writeln('   .highlight {font-weight:bold}')
+      newin.document.writeln('  </style>')
+      newin.document.writeln(' </HEAD>')
+      newin.document.writeln(' <body bgcolor="ivory" onLoad="top.window.focus()" link="#99ff00" vlink="#99ff00"  text="#006009">')
+      newin.document.writeln('  <font face="tahoma, arial, helvetica, sans serif">')
+      newin.document.writeln('   <table width=100%>')
+      newin.document.writeln('    <tr><td bgcolor="#99ff00" align="center">')
+      newin.document.writeln('     <font face="tahoma, arial, helvetica, sans serif">')
+      newin.document.writeln('      <h3>Understory Response Model<br><br>Average Duff Depth (inches)</h3><br>')
+      newin.document.writeln('     </font>')
+      newin.document.writeln('    </td></tr>')
+      newin.document.writeln('   </table>')
+//      newin.document.writeln('   Site Presence is .')
+      newin.document.writeln('     Average depth, in inches, of the partially decomposed organic matter found beneath the litter layer and above the mineral soil.  This value affects soil heating and post-fire plant and seed survival.')
+      newin.document.writeln('<!--tool bar begins--><p>')
+      newin.document.writeln('  <table bgcolor="#666666" width="20%" border="0" cellspacing="1" cellpadding="5"  align="center">')
+      newin.document.writeln('   <tr>')
+      newin.document.writeln('    <td align="center" bgcolor="#333333"')
+      //newin.document.writeln(' onMouseOver="this.style.backgroundColor='#000000';"')
+      //newin.document.writeln(' onMouseOut="this.style.backgroundColor='';">')
+      newin.document.writeln(' <font face="verdana,arial,helvetica" size="1">')
+      newin.document.writeln(' <img src="/fswepp/images/shift_anim_on.gif" width=6 height=6 border=0>&nbsp;&nbsp;<a  href="javascript:self.print()">Print me</a>')
+      newin.document.writeln(' </font>')
+      newin.document.writeln('</td>')
+      newin.document.writeln('    <td align="center" bgcolor="#333333"')
+      //newin.document.writeln(' onMouseOver="this.style.backgroundColor='#000000';"')
+      //newin.document.writeln(' onMouseOut="this.style.backgroundColor='';">')
+      newin.document.writeln(' <font face="verdana,arial,helvetica" size="1">')
+      newin.document.writeln('  <img src="/fswepp/images/shift_anim_on.gif" width=6 height=6 border=0>&nbsp;&nbsp;<a  href="javascript:self.close()">Close me</a>')
+      newin.document.writeln(' </font>')
+      newin.document.writeln('</td>')
+      newin.document.writeln('   </tr>')
+      newin.document.writeln('  </table>')
+      newin.document.writeln('<!--tool bar ends-->')
+      newin.document.writeln('  </center>')
+      newin.document.writeln(' </body>')
+      newin.document.writeln('</html>')
+      newin.document.close()
+    } 
+  }
+
+function explain_sitepresence() {
+    newin = window.open('','road_density','width=640,scrollbars=yes,resizable=1')
+    var newWin = newin.document.open()
+    if (newWin != null) {
+      newin.document.writeln('<HTML>')
+      newin.document.writeln(' <HEAD>')
+      newin.document.writeln('  <title>Understory Response Model</title>')
+      newin.document.writeln('  <style>')
+      newin.document.writeln('   BODY')
+      newin.document.writeln('    {scrollbar-base-color:666666;scrollbar-face-color:#333333;scrollbar-highlight-color:#333333;scrollbar-shadow-color:6 66666;scrollbar-dark-shadow-color:ffffcc;scrollbar-arrow-color:ff6600}')
+      newin.document.writeln('   .question {color:ffffcc}')
+      newin.document.writeln('   .header {color:ffffcc}')
+      newin.document.writeln('   .highlight {font-weight:bold}')
+      newin.document.writeln('  </style>')
+      newin.document.writeln(' </HEAD>')
+      newin.document.writeln(' <body bgcolor="ivory" onLoad="top.window.focus()" link="#99ff00" vlink="#99ff00"  text="#006009">')
+      newin.document.writeln('  <font face="tahoma, arial, helvetica, sans serif">')
+      newin.document.writeln('   <table width=100%>')
+      newin.document.writeln('    <tr><td bgcolor="#99ff00" align="center">')
+      newin.document.writeln('     <font face="tahoma, arial, helvetica, sans serif">')
+      newin.document.writeln('      <h3>Understory Response Model<br><br>Plant Occurrence</h3><br>')
+      newin.document.writeln('     </font>')
+      newin.document.writeln('    </td></tr>')
+      newin.document.writeln('   </table>')
+//      newin.document.writeln('   Site Presence is .')
+      newin.document.writeln('  Does the plant occur within the treatment area (<b>on-site</b>) or outside the treatment area (<b>off-site</b>)?  This value affects on-site colonization.')
+      newin.document.writeln('<!--tool bar begins--><p>')
+      newin.document.writeln('  <table bgcolor="#666666" width="20%" border="0" cellspacing="1" cellpadding="5"  align="center">')
+      newin.document.writeln('   <tr>')
+      newin.document.writeln('    <td align="center" bgcolor="#333333"')
+      //newin.document.writeln(' onMouseOver="this.style.backgroundColor='#000000';"')
+      //newin.document.writeln(' onMouseOut="this.style.backgroundColor='';">')
+      newin.document.writeln(' <font face="verdana,arial,helvetica" size="1">')
+      newin.document.writeln(' <img src="/fswepp/images/shift_anim_on.gif" width=6 height=6 border=0>&nbsp;&nbsp;<a  href="javascript:self.print()">Print me</a>')
+      newin.document.writeln(' </font>')
+      newin.document.writeln('</td>')
+      newin.document.writeln('    <td align="center" bgcolor="#333333"')
+      //newin.document.writeln(' onMouseOver="this.style.backgroundColor='#000000';"')
+      //newin.document.writeln(' onMouseOut="this.style.backgroundColor='';">')
+      newin.document.writeln(' <font face="verdana,arial,helvetica" size="1">')
+      newin.document.writeln('  <img src="/fswepp/images/shift_anim_on.gif" width=6 height=6 border=0>&nbsp;&nbsp;<a  href="javascript:self.close()">Close me</a>')
+      newin.document.writeln(' </font>')
+      newin.document.writeln('</td>')
+      newin.document.writeln('   </tr>')
+      newin.document.writeln('  </table>')
+      newin.document.writeln('<!--tool bar ends-->')
+      newin.document.writeln('  </center>')
+      newin.document.writeln(' </body>')
+      newin.document.writeln('</html>')
+      newin.document.close()
+    } 
+  }
+
+function explain_lifeform() {
+    newin = window.open('','road_density','width=640,scrollbars=yes,resizable=1')
+    var newWin = newin.document.open()
+    if (newWin != null) {
+      newin.document.writeln('<HTML>')
+      newin.document.writeln(' <HEAD>')
+      newin.document.writeln('  <title>Understory Response Model</title>')
+      newin.document.writeln('  <style>')
+      newin.document.writeln('   BODY')
+      newin.document.writeln('    {scrollbar-base-color:666666;scrollbar-face-color:#333333;scrollbar-highlight-color:#333333;scrollbar-shadow-color:6 66666;scrollbar-dark-shadow-color:ffffcc;scrollbar-arrow-color:ff6600}')
+      newin.document.writeln('   .question {color:ffffcc}')
+      newin.document.writeln('   .header {color:ffffcc}')
+      newin.document.writeln('   .highlight {font-weight:bold}')
+      newin.document.writeln('  </style>')
+      newin.document.writeln(' </HEAD>')
+      newin.document.writeln(' <body bgcolor="ivory" onLoad="top.window.focus()" link="#99ff00" vlink="#99ff00"  text="#006009">')
+      newin.document.writeln('  <font face="tahoma, arial, helvetica, sans serif">')
+      newin.document.writeln('   <table width=100%>')
+      newin.document.writeln('    <tr><td bgcolor="#99ff00" align="center">')
+      newin.document.writeln('     <font face="tahoma, arial, helvetica, sans serif">')
+      newin.document.writeln('      <h3>Understory Response Model<br><br>Life Form</h3><br>')
+      newin.document.writeln('     </font>')
+      newin.document.writeln('    </td></tr>')
+      newin.document.writeln('   </table>')
+//     newin.document.writeln('   Life Form is.')
+      newin.document.writeln('   What is the over all morphology of a plant?  An <b>herb</b> is a non-woody plant where the stem dies back to the ground at the end of the growing season (e.g., grasses and forbs).  A <b>shrub</b> is a multi-stemmed, woody plant that is smaller than a tree.  This value affects post-fire plant survival.')
+      newin.document.writeln('<!--tool bar begins--><p>')
+      newin.document.writeln('  <table bgcolor="#666666" width="20%" border="0" cellspacing="1" cellpadding="5"  align="center">')
+      newin.document.writeln('   <tr>')
+      newin.document.writeln('    <td align="center" bgcolor="#333333"')
+      //newin.document.writeln(' onMouseOver="this.style.backgroundColor='#000000';"')
+      //newin.document.writeln(' onMouseOut="this.style.backgroundColor='';">')
+      newin.document.writeln(' <font face="verdana,arial,helvetica" size="1">')
+      newin.document.writeln(' <img src="/fswepp/images/shift_anim_on.gif" width=6 height=6 border=0>&nbsp;&nbsp;<a  href="javascript:self.print()">Print me</a>')
+      newin.document.writeln(' </font>')
+      newin.document.writeln('</td>')
+      newin.document.writeln('    <td align="center" bgcolor="#333333"')
+      //newin.document.writeln(' onMouseOver="this.style.backgroundColor='#000000';"')
+      //newin.document.writeln(' onMouseOut="this.style.backgroundColor='';">')
+      newin.document.writeln(' <font face="verdana,arial,helvetica" size="1">')
+      newin.document.writeln('  <img src="/fswepp/images/shift_anim_on.gif" width=6 height=6 border=0>&nbsp;&nbsp;<a  href="javascript:self.close()">Close me</a>')
+      newin.document.writeln(' </font>')
+      newin.document.writeln('</td>')
+      newin.document.writeln('   </tr>')
+      newin.document.writeln('  </table>')
+      newin.document.writeln('<!--tool bar ends-->')
+      newin.document.writeln('  </center>')
+      newin.document.writeln(' </body>')
+      newin.document.writeln('</html>')
+      newin.document.close()
+    } 
+  }
+function explain_lifespan() {
+    newin = window.open('','road_density','width=640,scrollbars=yes,resizable=1')
+    var newWin = newin.document.open()
+    if (newWin != null) {
+      newin.document.writeln('<HTML>')
+      newin.document.writeln(' <HEAD>')
+      newin.document.writeln('  <title>Understory Response Model</title>')
+      newin.document.writeln('  <style>')
+      newin.document.writeln('   BODY')
+      newin.document.writeln('    {scrollbar-base-color:666666;scrollbar-face-color:#333333;scrollbar-highlight-color:#333333;scrollbar-shadow-color:6 66666;scrollbar-dark-shadow-color:ffffcc;scrollbar-arrow-color:ff6600}')
+      newin.document.writeln('   .question {color:ffffcc}')
+      newin.document.writeln('   .header {color:ffffcc}')
+      newin.document.writeln('   .highlight {font-weight:bold}')
+      newin.document.writeln('  </style>')
+      newin.document.writeln(' </HEAD>')
+      newin.document.writeln(' <body bgcolor="ivory" onLoad="top.window.focus()" link="#99ff00" vlink="#99ff00"  text="#006009">')
+      newin.document.writeln('  <font face="tahoma, arial, helvetica, sans serif">')
+      newin.document.writeln('   <table width=100%>')
+      newin.document.writeln('    <tr><td bgcolor="#99ff00" align="center">')
+      newin.document.writeln('     <font face="tahoma, arial, helvetica, sans serif">')
+      newin.document.writeln('      <h3>Understory Response Model<br><br>Life Span</h3><br>')
+      newin.document.writeln('     </font>')
+      newin.document.writeln('    </td></tr>')
+      newin.document.writeln('   </table>')
+//      newin.document.writeln('   Life span is .')
+      newin.document.writeln('   Longevity or average duration of the species.  <b>Annual</b> plants complete their life cycle (germinate, grow, reproduce, and die) in one year.  <b>Biennial</b> plants complete their life cycle in two years. <b>Perennial</b> plants complete their life cycle over more than two years.  This value affects post-treatment plant survival and <b>vegetative reproduction</b>.')
+      newin.document.writeln('<!--tool bar begins--><p>')
+      newin.document.writeln('  <table bgcolor="#666666" width="20%" border="0" cellspacing="1" cellpadding="5"  align="center">')
+      newin.document.writeln('   <tr>')
+      newin.document.writeln('    <td align="center" bgcolor="#333333"')
+      //newin.document.writeln(' onMouseOver="this.style.backgroundColor='#000000';"')
+      //newin.document.writeln(' onMouseOut="this.style.backgroundColor='';">')
+      newin.document.writeln(' <font face="verdana,arial,helvetica" size="1">')
+      newin.document.writeln(' <img src="/fswepp/images/shift_anim_on.gif" width=6 height=6 border=0>&nbsp;&nbsp;<a  href="javascript:self.print()">Print me</a>')
+      newin.document.writeln(' </font>')
+      newin.document.writeln('</td>')
+      newin.document.writeln('    <td align="center" bgcolor="#333333"')
+      //newin.document.writeln(' onMouseOver="this.style.backgroundColor='#000000';"')
+      //newin.document.writeln(' onMouseOut="this.style.backgroundColor='';">')
+      newin.document.writeln(' <font face="verdana,arial,helvetica" size="1">')
+      newin.document.writeln('  <img src="/fswepp/images/shift_anim_on.gif" width=6 height=6 border=0>&nbsp;&nbsp;<a  href="javascript:self.close()">Close me</a>')
+      newin.document.writeln(' </font>')
+      newin.document.writeln('</td>')
+      newin.document.writeln('   </tr>')
+      newin.document.writeln('  </table>')
+      newin.document.writeln('<!--tool bar ends-->')
+      newin.document.writeln('  </center>')
+      newin.document.writeln(' </body>')
+      newin.document.writeln('</html>')
+      newin.document.close()
+    } 
+  }
+function explain_budlocation() {
+    newin = window.open('','road_density','width=640,scrollbars=yes,resizable=1')
+    var newWin = newin.document.open()
+    if (newWin != null) {
+      newin.document.writeln('<HTML>')
+      newin.document.writeln(' <HEAD>')
+      newin.document.writeln('  <title>Understory Response Model</title>')
+      newin.document.writeln('  <style>')
+      newin.document.writeln('   BODY')
+      newin.document.writeln('    {scrollbar-base-color:666666;scrollbar-face-color:#333333;scrollbar-highlight-color:#333333;scrollbar-shadow-color:6 66666;scrollbar-dark-shadow-color:ffffcc;scrollbar-arrow-color:ff6600}')
+      newin.document.writeln('   .question {color:ffffcc}')
+      newin.document.writeln('   .header {color:ffffcc}')
+      newin.document.writeln('   .highlight {font-weight:bold}')
+      newin.document.writeln('  </style>')
+      newin.document.writeln(' </HEAD>')
+      newin.document.writeln(' <body bgcolor="ivory" onLoad="top.window.focus()" link="#99ff00" vlink="#99ff00"  text="#006009">')
+      newin.document.writeln('  <font face="tahoma, arial, helvetica, sans serif">')
+      newin.document.writeln('   <table width=100%>')
+      newin.document.writeln('    <tr><td bgcolor="#99ff00" align="center">')
+      newin.document.writeln('     <font face="tahoma, arial, helvetica, sans serif">')
+      newin.document.writeln('      <h3>Understory Response Model<br><br>Bud Location</h3><br>')
+      newin.document.writeln('     </font>')
+      newin.document.writeln('    </td></tr>')
+      newin.document.writeln('   </table>')
+//      newin.document.writeln('   Bud location is .')
+      newin.document.writeln('   Where are the perenating tissues located?  <b>Stolons</b> are stems or branches that grow along the ground surface, taking root at their nodes.  Buds at the <b>root crown</b> are located at the transition point between the stems and root at or near the ground surface.  <b>Rhizomes</b> are stems growing beneath the ground surface with roots commonly produced from the nodes and buds produced in the leaf axils.  <b>Bulbs</b> and <b>corms</b> are underground plant storage organs that bear roots on their lower surface and fleshy leaves above.  This value affects post-fire plant survival.')
+      newin.document.writeln('	<br><br><center><img src="/fuels/urm/images/life_form.gif" width=600 height=500 border=0></center>')
+      newin.document.writeln('<!--tool bar begins--><p>')
+      newin.document.writeln('  <table bgcolor="#666666" width="20%" border="0" cellspacing="1" cellpadding="5"  align="center">')
+      newin.document.writeln('   <tr>')
+      newin.document.writeln('    <td align="center" bgcolor="#333333"')
+      //newin.document.writeln(' onMouseOver="this.style.backgroundColor='#000000';"')
+      //newin.document.writeln(' onMouseOut="this.style.backgroundColor='';">')
+      newin.document.writeln(' <font face="verdana,arial,helvetica" size="1">')
+      newin.document.writeln(' <img src="/fswepp/images/shift_anim_on.gif" width=6 height=6 border=0>&nbsp;&nbsp;<a  href="javascript:self.print()">Print me</a>')
+      newin.document.writeln(' </font>')
+      newin.document.writeln('</td>')
+      newin.document.writeln('    <td align="center" bgcolor="#333333"')
+      //newin.document.writeln(' onMouseOver="this.style.backgroundColor='#000000';"')
+      //newin.document.writeln(' onMouseOut="this.style.backgroundColor='';">')
+      newin.document.writeln(' <font face="verdana,arial,helvetica" size="1">')
+      newin.document.writeln('  <img src="/fswepp/images/shift_anim_on.gif" width=6 height=6 border=0>&nbsp;&nbsp;<a  href="javascript:self.close()">Close me</a>')
+      newin.document.writeln(' </font>')
+      newin.document.writeln('</td>')
+      newin.document.writeln('   </tr>')
+      newin.document.writeln('  </table>')
+      newin.document.writeln('<!--tool bar ends-->')
+      newin.document.writeln('  </center>')
+      newin.document.writeln(' </body>')
+      newin.document.writeln('</html>')
+      newin.document.close()
+    } 
+  }
+function explain_vegreproduction() {
+    newin = window.open('','road_density','width=640,scrollbars=yes,resizable=1')
+    var newWin = newin.document.open()
+    if (newWin != null) {
+      newin.document.writeln('<HTML>')
+      newin.document.writeln(' <HEAD>')
+      newin.document.writeln('  <title>Understory Response Model</title>')
+      newin.document.writeln('  <style>')
+      newin.document.writeln('   BODY')
+      newin.document.writeln('    {scrollbar-base-color:666666;scrollbar-face-color:#333333;scrollbar-highlight-color:#333333;scrollbar-shadow-color:6 66666;scrollbar-dark-shadow-color:ffffcc;scrollbar-arrow-color:ff6600}')
+      newin.document.writeln('   .question {color:ffffcc}')
+      newin.document.writeln('   .header {color:ffffcc}')
+      newin.document.writeln('   .highlight {font-weight:bold}')
+      newin.document.writeln('  </style>')
+      newin.document.writeln(' </HEAD>')
+      newin.document.writeln(' <body bgcolor="ivory" onLoad="top.window.focus()" link="#99ff00" vlink="#99ff00"  text="#006009">')
+      newin.document.writeln('  <font face="tahoma, arial, helvetica, sans serif">')
+      newin.document.writeln('   <table width=100%>')
+      newin.document.writeln('    <tr><td bgcolor="#99ff00" align="center">')
+      newin.document.writeln('     <font face="tahoma, arial, helvetica, sans serif">')
+      newin.document.writeln('      <h3>Understory Response Model<br><br>Vegetative Reproduction</h3><br>')
+      newin.document.writeln('     </font>')
+      newin.document.writeln('    </td></tr>')
+      newin.document.writeln('   </table>')
+//      newin.document.writeln('   Vegetative reproduction is.')
+      newin.document.writeln('   A form of asexual reproduction in which parts of the parent plant can become detached and generate new plants.  Such parts include: <b>stolons</b>, <b>rhizomes</b>, <b>bulbs</b>, and <b>corms</b>.  This value affects clonal growth.')
+      newin.document.writeln('<!--tool bar begins--><p>')
+      newin.document.writeln('  <table bgcolor="#666666" width="20%" border="0" cellspacing="1" cellpadding="5"  align="center">')
+      newin.document.writeln('   <tr>')
+      newin.document.writeln('    <td align="center" bgcolor="#333333"')
+      //newin.document.writeln(' onMouseOver="this.style.backgroundColor='#000000';"')
+      //newin.document.writeln(' onMouseOut="this.style.backgroundColor='';">')
+      newin.document.writeln(' <font face="verdana,arial,helvetica" size="1">')
+      newin.document.writeln(' <img src="/fswepp/images/shift_anim_on.gif" width=6 height=6 border=0>&nbsp;&nbsp;<a  href="javascript:self.print()">Print me</a>')
+      newin.document.writeln(' </font>')
+      newin.document.writeln('</td>')
+      newin.document.writeln('    <td align="center" bgcolor="#333333"')
+      //newin.document.writeln(' onMouseOver="this.style.backgroundColor='#000000';"')
+      //newin.document.writeln(' onMouseOut="this.style.backgroundColor='';">')
+      newin.document.writeln(' <font face="verdana,arial,helvetica" size="1">')
+      newin.document.writeln('  <img src="/fswepp/images/shift_anim_on.gif" width=6 height=6 border=0>&nbsp;&nbsp;<a  href="javascript:self.close()">Close me</a>')
+      newin.document.writeln(' </font>')
+      newin.document.writeln('</td>')
+      newin.document.writeln('   </tr>')
+      newin.document.writeln('  </table>')
+      newin.document.writeln('<!--tool bar ends-->')
+      newin.document.writeln('  </center>')
+      newin.document.writeln(' </body>')
+      newin.document.writeln('</html>')
+      newin.document.close()
+    } 
+  }
+function explain_weed() {
+    newin = window.open('','road_density','width=640,scrollbars=yes,resizable=1')
+    var newWin = newin.document.open()
+    if (newWin != null) {
+      newin.document.writeln('<HTML>')
+      newin.document.writeln(' <HEAD>')
+      newin.document.writeln('  <title>Understory Response Model</title>')
+      newin.document.writeln('  <style>')
+      newin.document.writeln('   BODY')
+      newin.document.writeln('    {scrollbar-base-color:666666;scrollbar-face-color:#333333;scrollbar-highlight-color:#333333;scrollbar-shadow-color:6 66666;scrollbar-dark-shadow-color:ffffcc;scrollbar-arrow-color:ff6600}')
+      newin.document.writeln('   .question {color:ffffcc}')
+      newin.document.writeln('   .header {color:ffffcc}')
+      newin.document.writeln('   .highlight {font-weight:bold}')
+      newin.document.writeln('  </style>')
+      newin.document.writeln(' </HEAD>')
+      newin.document.writeln(' <body bgcolor="ivory" onLoad="top.window.focus()" link="#99ff00" vlink="#99ff00"  text="#006009">')
+      newin.document.writeln('  <font face="tahoma, arial, helvetica, sans serif">')
+      newin.document.writeln('   <table width=100%>')
+      newin.document.writeln('    <tr><td bgcolor="#99ff00" align="center">')
+      newin.document.writeln('     <font face="tahoma, arial, helvetica, sans serif">')
+      newin.document.writeln('      <h3>Understory Response Model<br><br>Weed</h3><br>')
+      newin.document.writeln('     </font>')
+      newin.document.writeln('    </td></tr>')
+      newin.document.writeln('   </table>')
+//      newin.document.writeln('   Vegetative reproduction is.')
+      newin.document.writeln('   Plants that are considered by the Plants Database to be invasive or have a high potential to become invasive.  This value affects post-treatment survival and reproduction.')
+      newin.document.writeln('<!--tool bar begins--><p>')
+      newin.document.writeln('  <table bgcolor="#666666" width="20%" border="0" cellspacing="1" cellpadding="5"  align="center">')
+      newin.document.writeln('   <tr>')
+      newin.document.writeln('    <td align="center" bgcolor="#333333"')
+      //newin.document.writeln(' onMouseOver="this.style.backgroundColor='#000000';"')
+      //newin.document.writeln(' onMouseOut="this.style.backgroundColor='';">')
+      newin.document.writeln(' <font face="verdana,arial,helvetica" size="1">')
+      newin.document.writeln(' <img src="/fswepp/images/shift_anim_on.gif" width=6 height=6 border=0>&nbsp;&nbsp;<a  href="javascript:self.print()">Print me</a>')
+      newin.document.writeln(' </font>')
+      newin.document.writeln('</td>')
+      newin.document.writeln('    <td align="center" bgcolor="#333333"')
+      //newin.document.writeln(' onMouseOver="this.style.backgroundColor='#000000';"')
+      //newin.document.writeln(' onMouseOut="this.style.backgroundColor='';">')
+      newin.document.writeln(' <font face="verdana,arial,helvetica" size="1">')
+      newin.document.writeln('  <img src="/fswepp/images/shift_anim_on.gif" width=6 height=6 border=0>&nbsp;&nbsp;<a  href="javascript:self.close()">Close me</a>')
+      newin.document.writeln(' </font>')
+      newin.document.writeln('</td>')
+      newin.document.writeln('   </tr>')
+      newin.document.writeln('  </table>')
+      newin.document.writeln('<!--tool bar ends-->')
+      newin.document.writeln('  </center>')
+      newin.document.writeln(' </body>')
+      newin.document.writeln('</html>')
+      newin.document.close()
+    } 
+  }
+function explain_sprouts() {
+    newin = window.open('','road_density','width=640,scrollbars=yes,resizable=1')
+    var newWin = newin.document.open()
+    if (newWin != null) {
+      newin.document.writeln('<HTML>')
+      newin.document.writeln(' <HEAD>')
+      newin.document.writeln('  <title>Understory Response Model</title>')
+      newin.document.writeln('  <style>')
+      newin.document.writeln('   BODY')
+      newin.document.writeln('    {scrollbar-base-color:666666;scrollbar-face-color:#333333;scrollbar-highlight-color:#333333;scrollbar-shadow-color:6 66666;scrollbar-dark-shadow-color:ffffcc;scrollbar-arrow-color:ff6600}')
+      newin.document.writeln('   .question {color:ffffcc}')
+      newin.document.writeln('   .header {color:ffffcc}')
+      newin.document.writeln('   .highlight {font-weight:bold}')
+      newin.document.writeln('  </style>')
+      newin.document.writeln(' </HEAD>')
+      newin.document.writeln(' <body bgcolor="ivory" onLoad="top.window.focus()" link="#99ff00" vlink="#99ff00"  text="#006009">')
+      newin.document.writeln('  <font face="tahoma, arial, helvetica, sans serif">')
+      newin.document.writeln('   <table width=100%>')
+      newin.document.writeln('    <tr><td bgcolor="#99ff00" align="center">')
+      newin.document.writeln('     <font face="tahoma, arial, helvetica, sans serif">')
+      newin.document.writeln('      <h3>Understory Response Model<br><br>Sprouts</h3><br>')
+      newin.document.writeln('     </font>')
+      newin.document.writeln('    </td></tr>')
+      newin.document.writeln('   </table>')
+//      newin.document.writeln('   Sprouts is.')
+      newin.document.writeln('   A shoot arising from adventitious or dormant buds at the base of a woody plant (e.g., <b>shrub</b>).  This value affects post-fire survival in <b>shrubs</b>.')
+      newin.document.writeln('<!--tool bar begins--><p>')
+      newin.document.writeln('  <table bgcolor="#666666" width="20%" border="0" cellspacing="1" cellpadding="5"  align="center">')
+      newin.document.writeln('   <tr>')
+      newin.document.writeln('    <td align="center" bgcolor="#333333"')
+      //newin.document.writeln(' onMouseOver="this.style.backgroundColor='#000000';"')
+      //newin.document.writeln(' onMouseOut="this.style.backgroundColor='';">')
+      newin.document.writeln(' <font face="verdana,arial,helvetica" size="1">')
+      newin.document.writeln(' <img src="/fswepp/images/shift_anim_on.gif" width=6 height=6 border=0>&nbsp;&nbsp;<a  href="javascript:self.print()">Print me</a>')
+      newin.document.writeln(' </font>')
+      newin.document.writeln('</td>')
+      newin.document.writeln('    <td align="center" bgcolor="#333333"')
+      //newin.document.writeln(' onMouseOver="this.style.backgroundColor='#000000';"')
+      //newin.document.writeln(' onMouseOut="this.style.backgroundColor='';">')
+      newin.document.writeln(' <font face="verdana,arial,helvetica" size="1">')
+      newin.document.writeln('  <img src="/fswepp/images/shift_anim_on.gif" width=6 height=6 border=0>&nbsp;&nbsp;<a  href="javascript:self.close()">Close me</a>')
+      newin.document.writeln(' </font>')
+      newin.document.writeln('</td>')
+      newin.document.writeln('   </tr>')
+      newin.document.writeln('  </table>')
+      newin.document.writeln('<!--tool bar ends-->')
+      newin.document.writeln('  </center>')
+      newin.document.writeln(' </body>')
+      newin.document.writeln('</html>')
+      newin.document.close()
+    } 
+  }
+function explain_lightlevel() {
+    newin = window.open('','road_density','width=640,scrollbars=yes,resizable=1')
+    var newWin = newin.document.open()
+    if (newWin != null) {
+      newin.document.writeln('<HTML>')
+      newin.document.writeln(' <HEAD>')
+      newin.document.writeln('  <title>Understory Response Model</title>')
+      newin.document.writeln('  <style>')
+      newin.document.writeln('   BODY')
+      newin.document.writeln('    {scrollbar-base-color:666666;scrollbar-face-color:#333333;scrollbar-highlight-color:#333333;scrollbar-shadow-color:6 66666;scrollbar-dark-shadow-color:ffffcc;scrollbar-arrow-color:ff6600}')
+      newin.document.writeln('   .question {color:ffffcc}')
+      newin.document.writeln('   .header {color:ffffcc}')
+      newin.document.writeln('   .highlight {font-weight:bold}')
+      newin.document.writeln('  </style>')
+      newin.document.writeln(' </HEAD>')
+      newin.document.writeln(' <body bgcolor="ivory" onLoad="top.window.focus()" link="#99ff00" vlink="#99ff00"  text="#006009">')
+      newin.document.writeln('  <font face="tahoma, arial, helvetica, sans serif">')
+      newin.document.writeln('   <table width=100%>')
+      newin.document.writeln('    <tr><td bgcolor="#99ff00" align="center">')
+      newin.document.writeln('     <font face="tahoma, arial, helvetica, sans serif">')
+      newin.document.writeln('      <h3>Understory Response Model<br><br>Preferred Light Level</h3><br>')
+      newin.document.writeln('     </font>')
+      newin.document.writeln('    </td></tr>')
+      newin.document.writeln('   </table>')
+//      newin.document.writeln('   Preferred light level is .')
+      newin.document.writeln('   Relative light condition (<b>open</b>,<b>partial</b>, or <b>closed canopy</b>) that optimizes plant growth.  This can be approximated by successional (<b>early</b>,<b> mid</b>, or <b>late</b>) status or shade <b>tolerance</b> (<b>intolerant</b>, <b>moderate</b>, or <b>tolerant</b>).   This value affects plant and seedling response to changes in <b>canopy cover</b>.')
+      newin.document.writeln('<!--tool bar begins--><p>')
+      newin.document.writeln('  <table bgcolor="#666666" width="20%" border="0" cellspacing="1" cellpadding="5"  align="center">')
+      newin.document.writeln('   <tr>')
+      newin.document.writeln('    <td align="center" bgcolor="#333333"')
+      //newin.document.writeln(' onMouseOver="this.style.backgroundColor='#000000';"')
+      //newin.document.writeln(' onMouseOut="this.style.backgroundColor='';">')
+      newin.document.writeln(' <font face="verdana,arial,helvetica" size="1">')
+      newin.document.writeln(' <img src="/fswepp/images/shift_anim_on.gif" width=6 height=6 border=0>&nbsp;&nbsp;<a  href="javascript:self.print()">Print me</a>')
+      newin.document.writeln(' </font>')
+      newin.document.writeln('</td>')
+      newin.document.writeln('    <td align="center" bgcolor="#333333"')
+      //newin.document.writeln(' onMouseOver="this.style.backgroundColor='#000000';"')
+      //newin.document.writeln(' onMouseOut="this.style.backgroundColor='';">')
+      newin.document.writeln(' <font face="verdana,arial,helvetica" size="1">')
+      newin.document.writeln('  <img src="/fswepp/images/shift_anim_on.gif" width=6 height=6 border=0>&nbsp;&nbsp;<a  href="javascript:self.close()">Close me</a>')
+      newin.document.writeln(' </font>')
+      newin.document.writeln('</td>')
+      newin.document.writeln('   </tr>')
+      newin.document.writeln('  </table>')
+      newin.document.writeln('<!--tool bar ends-->')
+      newin.document.writeln('  </center>')
+      newin.document.writeln(' </body>')
+      newin.document.writeln('</html>')
+      newin.document.close()
+    } 
+  }
+function explain_seeddispersal() {
+    newin = window.open('','road_density','width=640,scrollbars=yes,resizable=1')
+    var newWin = newin.document.open()
+    if (newWin != null) {
+      newin.document.writeln('<HTML>')
+      newin.document.writeln(' <HEAD>')
+      newin.document.writeln('  <title>Understory Response Model</title>')
+      newin.document.writeln('  <style>')
+      newin.document.writeln('   BODY')
+      newin.document.writeln('    {scrollbar-base-color:666666;scrollbar-face-color:#333333;scrollbar-highlight-color:#333333;scrollbar-shadow-color:6 66666;scrollbar-dark-shadow-color:ffffcc;scrollbar-arrow-color:ff6600}')
+      newin.document.writeln('   .question {color:ffffcc}')
+      newin.document.writeln('   .header {color:ffffcc}')
+      newin.document.writeln('   .highlight {font-weight:bold}')
+      newin.document.writeln('  </style>')
+      newin.document.writeln(' </HEAD>')
+      newin.document.writeln(' <body bgcolor="ivory" onLoad="top.window.focus()" link="#99ff00" vlink="#99ff00"  text="#006009">')
+      newin.document.writeln('  <font face="tahoma, arial, helvetica, sans serif">')
+      newin.document.writeln('   <table width=100%>')
+      newin.document.writeln('    <tr><td bgcolor="#99ff00" align="center">')
+      newin.document.writeln('     <font face="tahoma, arial, helvetica, sans serif">')
+      newin.document.writeln('      <h3>Understory Response Model<br><br>Seed Dispersal</h3><br>')
+      newin.document.writeln('     </font>')
+      newin.document.writeln('    </td></tr>')
+      newin.document.writeln('   </table>')
+//      newin.document.writeln('   Seed dispersal is.')
+      newin.document.writeln('   Relative distance that seeds move from the parent plant.  <b>Long-distance</b> dispersed seeds are commonly wind dispersed (e.g., cottonwood, thistles, fireweed).  <b>Short-distance</b> dispersed seeds may be wind dispersed.  <b>Animal</b> dispersed seeds include burrs, stickers, and berries.  <b>Gravity</b> dispersed seeds are near the plant.  Plants with <b>low seed production</b> produce few or no seeds and rely on <b>vegetative reproduction</b>.  This value affects on- and off-site colonization.')
+      newin.document.writeln('<!--tool bar begins--><p>')
+      newin.document.writeln('  <table bgcolor="#666666" width="20%" border="0" cellspacing="1" cellpadding="5"  align="center">')
+      newin.document.writeln('   <tr>')
+      newin.document.writeln('    <td align="center" bgcolor="#333333"')
+      //newin.document.writeln(' onMouseOver="this.style.backgroundColor='#000000';"')
+      //newin.document.writeln(' onMouseOut="this.style.backgroundColor='';">')
+      newin.document.writeln(' <font face="verdana,arial,helvetica" size="1">')
+      newin.document.writeln(' <img src="/fswepp/images/shift_anim_on.gif" width=6 height=6 border=0>&nbsp;&nbsp;<a  href="javascript:self.print()">Print me</a>')
+      newin.document.writeln(' </font>')
+      newin.document.writeln('</td>')
+      newin.document.writeln('    <td align="center" bgcolor="#333333"')
+      //newin.document.writeln(' onMouseOver="this.style.backgroundColor='#000000';"')
+      //newin.document.writeln(' onMouseOut="this.style.backgroundColor='';">')
+      newin.document.writeln(' <font face="verdana,arial,helvetica" size="1">')
+      newin.document.writeln('  <img src="/fswepp/images/shift_anim_on.gif" width=6 height=6 border=0>&nbsp;&nbsp;<a  href="javascript:self.close()">Close me</a>')
+      newin.document.writeln(' </font>')
+      newin.document.writeln('</td>')
+      newin.document.writeln('   </tr>')
+      newin.document.writeln('  </table>')
+      newin.document.writeln('<!--tool bar ends-->')
+      newin.document.writeln('  </center>')
+      newin.document.writeln(' </body>')
+      newin.document.writeln('</html>')
+      newin.document.close()
+    } 
+  }
+function explain_seedbank() {
+    newin = window.open('','road_density','width=640,scrollbars=yes,resizable=1')
+    var newWin = newin.document.open()
+    if (newWin != null) {
+      newin.document.writeln('<HTML>')
+      newin.document.writeln(' <HEAD>')
+      newin.document.writeln('  <title>Understory Response Model</title>')
+      newin.document.writeln('  <style>')
+      newin.document.writeln('   BODY')
+      newin.document.writeln('    {scrollbar-base-color:666666;scrollbar-face-color:#333333;scrollbar-highlight-color:#333333;scrollbar-shadow-color:6 66666;scrollbar-dark-shadow-color:ffffcc;scrollbar-arrow-color:ff6600}')
+      newin.document.writeln('   .question {color:ffffcc}')
+      newin.document.writeln('   .header {color:ffffcc}')
+      newin.document.writeln('   .highlight {font-weight:bold}')
+      newin.document.writeln('  </style>')
+      newin.document.writeln(' </HEAD>')
+      newin.document.writeln(' <body bgcolor="ivory" onLoad="top.window.focus()" link="#99ff00" vlink="#99ff00"  text="#006009">')
+      newin.document.writeln('  <font face="tahoma, arial, helvetica, sans serif">')
+      newin.document.writeln('   <table width=100%>')
+      newin.document.writeln('    <tr><td bgcolor="#99ff00" align="center">')
+      newin.document.writeln('     <font face="tahoma, arial, helvetica, sans serif">')
+      newin.document.writeln('      <h3>Understory Response Model<br><br>Seed Bank</h3><br>')
+      newin.document.writeln('     </font>')
+      newin.document.writeln('    </td></tr>')
+      newin.document.writeln('   </table>')
+//      newin.document.writeln('   Seed bank is.')
+      newin.document.writeln('   Plants that maintain a significant number of viable seeds in the soil for more than 2 years.  This value affects stored seeds in the reproduction pathway.')
+      newin.document.writeln('<!--tool bar begins--><p>')
+      newin.document.writeln('  <table bgcolor="#666666" width="20%" border="0" cellspacing="1" cellpadding="5"  align="center">')
+      newin.document.writeln('   <tr>')
+      newin.document.writeln('    <td align="center" bgcolor="#333333"')
+      //newin.document.writeln(' onMouseOver="this.style.backgroundColor='#000000';"')
+      //newin.document.writeln(' onMouseOut="this.style.backgroundColor='';">')
+      newin.document.writeln(' <font face="verdana,arial,helvetica" size="1">')
+      newin.document.writeln(' <img src="/fswepp/images/shift_anim_on.gif" width=6 height=6 border=0>&nbsp;&nbsp;<a  href="javascript:self.print()">Print me</a>')
+      newin.document.writeln(' </font>')
+      newin.document.writeln('</td>')
+      newin.document.writeln('    <td align="center" bgcolor="#333333"')
+      //newin.document.writeln(' onMouseOver="this.style.backgroundColor='#000000';"')
+      //newin.document.writeln(' onMouseOut="this.style.backgroundColor='';">')
+      newin.document.writeln(' <font face="verdana,arial,helvetica" size="1">')
+      newin.document.writeln('  <img src="/fswepp/images/shift_anim_on.gif" width=6 height=6 border=0>&nbsp;&nbsp;<a  href="javascript:self.close()">Close me</a>')
+      newin.document.writeln(' </font>')
+      newin.document.writeln('</td>')
+      newin.document.writeln('   </tr>')
+      newin.document.writeln('  </table>')
+      newin.document.writeln('<!--tool bar ends-->')
+      newin.document.writeln('  </center>')
+      newin.document.writeln(' </body>')
+      newin.document.writeln('</html>')
+      newin.document.close()
+    } 
+  }
+function explain_fireseeds() {
+    newin = window.open('','road_density','width=640,scrollbars=yes,resizable=1')
+    var newWin = newin.document.open()
+    if (newWin != null) {
+      newin.document.writeln('<HTML>')
+      newin.document.writeln(' <HEAD>')
+      newin.document.writeln('  <title>Understory Response Model</title>')
+      newin.document.writeln('  <style>')
+      newin.document.writeln('   BODY')
+      newin.document.writeln('    {scrollbar-base-color:666666;scrollbar-face-color:#333333;scrollbar-highlight-color:#333333;scrollbar-shadow-color:6 66666;scrollbar-dark-shadow-color:ffffcc;scrollbar-arrow-color:ff6600}')
+      newin.document.writeln('   .question {color:ffffcc}')
+      newin.document.writeln('   .header {color:ffffcc}')
+      newin.document.writeln('   .highlight {font-weight:bold}')
+      newin.document.writeln('  </style>')
+      newin.document.writeln(' </HEAD>')
+      newin.document.writeln(' <body bgcolor="ivory" onLoad="top.window.focus()" link="#99ff00" vlink="#99ff00"  text="#006009">')
+      newin.document.writeln('  <font face="tahoma, arial, helvetica, sans serif">')
+      newin.document.writeln('   <table width=100%>')
+      newin.document.writeln('    <tr><td bgcolor="#99ff00" align="center">')
+      newin.document.writeln('     <font face="tahoma, arial, helvetica, sans serif">')
+      newin.document.writeln('      <h3>Understory Response Model<br><br>Fire Stimulated Seeds:</h3><br>')
+      newin.document.writeln('     </font>')
+      newin.document.writeln('    </td></tr>')
+      newin.document.writeln('   </table>')
+      newin.document.writeln('   Seeds that germinate in response to high temperatures and/or exposure to smoke of post-fire leachate (same as refractory seeds).  This value affects seed germination for fire-adapted species.')
+//      newin.document.writeln('   Road segments more than 200 ft (60 m) from ephemeral or perennial channels  generally can be ignored.')
+      newin.document.writeln('<!--tool bar begins--><p>')
+      newin.document.writeln('  <table bgcolor="#666666" width="20%" border="0" cellspacing="1" cellpadding="5"  align="center">')
+      newin.document.writeln('   <tr>')
+      newin.document.writeln('    <td align="center" bgcolor="#333333"')
+      //newin.document.writeln(' onMouseOver="this.style.backgroundColor='#000000';"')
+      //newin.document.writeln(' onMouseOut="this.style.backgroundColor='';">')
+      newin.document.writeln(' <font face="verdana,arial,helvetica" size="1">')
+      newin.document.writeln(' <img src="/fswepp/images/shift_anim_on.gif" width=6 height=6 border=0>&nbsp;&nbsp;<a  href="javascript:self.print()">Print me</a>')
+      newin.document.writeln(' </font>')
+      newin.document.writeln('</td>')
+      newin.document.writeln('    <td align="center" bgcolor="#333333"')
+      //newin.document.writeln(' onMouseOver="this.style.backgroundColor='#000000';"')
+      //newin.document.writeln(' onMouseOut="this.style.backgroundColor='';">')
+      newin.document.writeln(' <font face="verdana,arial,helvetica" size="1">')
+      newin.document.writeln('  <img src="/fswepp/images/shift_anim_on.gif" width=6 height=6 border=0>&nbsp;&nbsp;<a  href="javascript:self.close()">Close me</a>')
+      newin.document.writeln(' </font>')
+      newin.document.writeln('</td>')
+      newin.document.writeln('   </tr>')
+      newin.document.writeln('  </table>')
+      newin.document.writeln('<!--tool bar ends-->')
+      newin.document.writeln('  </center>')
+      newin.document.writeln(' </body>')
+      newin.document.writeln('</html>')
+      newin.document.close()
+    } 
+  }
+function explain_rootlocation() {
+    newin = window.open('','road_density','width=640,scrollbars=yes,resizable=1')
+    var newWin = newin.document.open()
+    if (newWin != null) {
+      newin.document.writeln('<HTML>')
+      newin.document.writeln(' <HEAD>')
+      newin.document.writeln('  <title>Understory Response Model</title>')
+      newin.document.writeln('  <style>')
+      newin.document.writeln('   BODY')
+      newin.document.writeln('   {scrollbar-base-color:666666;scrollbar-face-color:#333333;scrollbar-highlight-color:#333333;scrollbar-shadow-color:666666;scrollbar-dark-shadow-color:ffffcc;scrollbar-arrow-color:ff6600}')
+      newin.document.writeln('   .question {color:ffffcc}')
+      newin.document.writeln('   .header {color:ffffcc}')
+      newin.document.writeln('   .highlight {font-weight:bold}')
+      newin.document.writeln('  </style>')
+      newin.document.writeln(' </HEAD>')
+      newin.document.writeln(' <body bgcolor="ivory" onLoad="top.window.focus()" link="#99ff00" vlink="#99ff00" text="#006009">')
+      newin.document.writeln('  <font face="tahoma, arial, helvetica, sans serif">')
+      newin.document.writeln('   <table width=100%>')
+      newin.document.writeln('    <tr><td bgcolor="#99ff00" align="center">')
+      newin.document.writeln('     <font face="tahoma, arial, helvetica, sans serif">')
+      newin.document.writeln('      <h3>Understory Response Model <br><br> Root Location</h3><br>')
+      newin.document.writeln('     </font>')
+      newin.document.writeln('    </td></tr>')
+      newin.document.writeln('   </table>')
+//      newin.document.writeln('   Root Location is .')
+      newin.document.writeln('   Is the plant rooted in the <b>litter/duff</b> or <b>mineral soil</b>?  This value affects post-fire plant survival.')
+      newin.document.writeln('	<br><br><center><img src="/fuels/urm/images/life_form.gif" width=600 height=500 border=0></center>')
+      newin.document.writeln('<!--tool bar begins--><p>')
+      newin.document.writeln('  <table bgcolor="#666666" width="20%" border="0" cellspacing="1" cellpadding="5" align="center">')
+      newin.document.writeln('   <tr>')
+      newin.document.writeln('    <td align="center" bgcolor="#333333"')
+      //newin.document.writeln(' onMouseOver="this.style.backgroundColor='#000000';"')
+      //newin.document.writeln(' onMouseOut="this.style.backgroundColor='';">')
+      newin.document.writeln(' <font face="verdana,arial,helvetica" size="1">')
+      newin.document.writeln(' <img src="/fswepp/images/shift_anim_on.gif" width=6 height=6 border=0>&nbsp;&nbsp;<a href="javascript:self.print()">Print me</a>')
+      newin.document.writeln(' </font>')
+      newin.document.writeln('</td>')
+      newin.document.writeln('    <td align="center" bgcolor="#333333"')
+      //newin.document.writeln(' onMouseOver="this.style.backgroundColor='#000000';"')
+      //newin.document.writeln(' onMouseOut="this.style.backgroundColor='';">')
+      newin.document.writeln(' <font face="verdana,arial,helvetica" size="1">')
+      newin.document.writeln('  <img src="/fswepp/images/shift_anim_on.gif" width=6 height=6 border=0>&nbsp;&nbsp;<a href="javascript:self.close()">Close me</a>')
+      newin.document.writeln(' </font>')
+      newin.document.writeln('</td>')
+      newin.document.writeln('   </tr>')
+      newin.document.writeln('  </table>')
+      newin.document.writeln('<!--tool bar ends-->')
+      newin.document.writeln('  </center>')
+      newin.document.writeln(' </body>')
+      newin.document.writeln('</html>')
+      newin.document.close()
+    } 
+  }
+function explain_minsoil() {
+    newin = window.open('','road_density','width=640,scrollbars=yes,resizable=1')
+    var newWin = newin.document.open()
+    if (newWin != null) {
+      newin.document.writeln('<HTML>')
+      newin.document.writeln(' <HEAD>')
+      newin.document.writeln('  <title>Understory Response Model</title>')
+      newin.document.writeln('  <style>')
+      newin.document.writeln('   BODY')
+      newin.document.writeln('    {scrollbar-base-color:666666;scrollbar-face-color:#333333;scrollbar-highlight-color:#333333;scrollbar-shadow-color:6 66666;scrollbar-dark-shadow-color:ffffcc;scrollbar-arrow-color:ff6600}')
+      newin.document.writeln('   .question {color:ffffcc}')
+      newin.document.writeln('   .header {color:ffffcc}')
+      newin.document.writeln('   .highlight {font-weight:bold}')
+      newin.document.writeln('  </style>')
+      newin.document.writeln(' </HEAD>')
+      newin.document.writeln(' <body bgcolor="ivory" onLoad="top.window.focus()" link="#99ff00" vlink="#99ff00"  text="#006009">')
+      newin.document.writeln('  <font face="tahoma, arial, helvetica, sans serif">')
+      newin.document.writeln('   <table width=100%>')
+      newin.document.writeln('    <tr><td bgcolor="#99ff00" align="center">')
+      newin.document.writeln('     <font face="tahoma, arial, helvetica, sans serif">')
+      newin.document.writeln('      <h3>Understory Response Model<br><br>Mineral Soil Exposed</h3><br>')
+      newin.document.writeln('     </font>')
+      newin.document.writeln('    </td></tr>')
+      newin.document.writeln('   </table>')
+//      newin.document.writeln('   Site Presence is .')
+      newin.document.writeln('   Percent of ground that is not covered by vegetation, litter and duff, logs, or rocks.  The user inputs values for mineral soil exposed by thinning; fuel moisture determines mineral soil exposed by fire.  These values determine the relative amount of seedbed available for seed germination.')
+      newin.document.writeln('<!--tool bar begins--><p>')
+      newin.document.writeln('  <table bgcolor="#666666" width="20%" border="0" cellspacing="1" cellpadding="5"  align="center">')
+      newin.document.writeln('   <tr>')
+      newin.document.writeln('    <td align="center" bgcolor="#333333"')
+      //newin.document.writeln(' onMouseOver="this.style.backgroundColor='#000000';"')
+      //newin.document.writeln(' onMouseOut="this.style.backgroundColor='';">')
+      newin.document.writeln(' <font face="verdana,arial,helvetica" size="1">')
+      newin.document.writeln(' <img src="/fswepp/images/shift_anim_on.gif" width=6 height=6 border=0>&nbsp;&nbsp;<a  href="javascript:self.print()">Print me</a>')
+      newin.document.writeln(' </font>')
+      newin.document.writeln('</td>')
+      newin.document.writeln('    <td align="center" bgcolor="#333333"')
+      //newin.document.writeln(' onMouseOver="this.style.backgroundColor='#000000';"')
+      //newin.document.writeln(' onMouseOut="this.style.backgroundColor='';">')
+      newin.document.writeln(' <font face="verdana,arial,helvetica" size="1">')
+      newin.document.writeln('  <img src="/fswepp/images/shift_anim_on.gif" width=6 height=6 border=0>&nbsp;&nbsp;<a  href="javascript:self.close()">Close me</a>')
+      newin.document.writeln(' </font>')
+      newin.document.writeln('</td>')
+      newin.document.writeln('   </tr>')
+      newin.document.writeln('  </table>')
+      newin.document.writeln('<!--tool bar ends-->')
+      newin.document.writeln('  </center>')
+      newin.document.writeln(' </body>')
+      newin.document.writeln('</html>')
+      newin.document.close()
+    } 
+  }
+function explain_timesince() {
+    newin = window.open('','road_density','width=640,scrollbars=yes,resizable=1')
+    var newWin = newin.document.open()
+    if (newWin != null) {
+      newin.document.writeln('<HTML>')
+      newin.document.writeln(' <HEAD>')
+      newin.document.writeln('  <title>Understory Response Model</title>')
+      newin.document.writeln('  <style>')
+      newin.document.writeln('   BODY')
+      newin.document.writeln('    {scrollbar-base-color:666666;scrollbar-face-color:#333333;scrollbar-highlight-color:#333333;scrollbar-shadow-color:6 66666;scrollbar-dark-shadow-color:ffffcc;scrollbar-arrow-color:ff6600}')
+      newin.document.writeln('   .question {color:ffffcc}')
+      newin.document.writeln('   .header {color:ffffcc}')
+      newin.document.writeln('   .highlight {font-weight:bold}')
+      newin.document.writeln('  </style>')
+      newin.document.writeln(' </HEAD>')
+      newin.document.writeln(' <body bgcolor="ivory" onLoad="top.window.focus()" link="#99ff00" vlink="#99ff00"  text="#006009">')
+      newin.document.writeln('  <font face="tahoma, arial, helvetica, sans serif">')
+      newin.document.writeln('   <table width=100%>')
+      newin.document.writeln('    <tr><td bgcolor="#99ff00" align="center">')
+      newin.document.writeln('     <font face="tahoma, arial, helvetica, sans serif">')
+      newin.document.writeln('      <h3>Understory Response Model<br><br>Timing of Broadcast Burn</h3><br>')
+      newin.document.writeln('     </font>')
+      newin.document.writeln('    </td></tr>')
+      newin.document.writeln('   </table>')
+//      newin.document.writeln('   Site Presence is .')
+      newin.document.writeln('    Does the fire occur <b>one year</b> or <b>more than one year</b> after thinning?  This value affects post-fire plant survival.')
+      newin.document.writeln('<!--tool bar begins--><p>')
+      newin.document.writeln('  <table bgcolor="#666666" width="20%" border="0" cellspacing="1" cellpadding="5"  align="center">')
+      newin.document.writeln('   <tr>')
+      newin.document.writeln('    <td align="center" bgcolor="#333333"')
+      //newin.document.writeln(' onMouseOver="this.style.backgroundColor='#000000';"')
+      //newin.document.writeln(' onMouseOut="this.style.backgroundColor='';">')
+      newin.document.writeln(' <font face="verdana,arial,helvetica" size="1">')
+      newin.document.writeln(' <img src="/fswepp/images/shift_anim_on.gif" width=6 height=6 border=0>&nbsp;&nbsp;<a  href="javascript:self.print()">Print me</a>')
+      newin.document.writeln(' </font>')
+      newin.document.writeln('</td>')
+      newin.document.writeln('    <td align="center" bgcolor="#333333"')
+      //newin.document.writeln(' onMouseOver="this.style.backgroundColor='#000000';"')
+      //newin.document.writeln(' onMouseOut="this.style.backgroundColor='';">')
+      newin.document.writeln(' <font face="verdana,arial,helvetica" size="1">')
+      newin.document.writeln('  <img src="/fswepp/images/shift_anim_on.gif" width=6 height=6 border=0>&nbsp;&nbsp;<a  href="javascript:self.close()">Close me</a>')
+      newin.document.writeln(' </font>')
+      newin.document.writeln('</td>')
+      newin.document.writeln('   </tr>')
+      newin.document.writeln('  </table>')
+      newin.document.writeln('<!--tool bar ends-->')
+      newin.document.writeln('  </center>')
+      newin.document.writeln(' </body>')
+      newin.document.writeln('</html>')
+      newin.document.close()
+    } 
+  }
+function explain_seasonburn() {
+    newin = window.open('','road_density','width=640,scrollbars=yes,resizable=1')
+    var newWin = newin.document.open()
+    if (newWin != null) {
+      newin.document.writeln('<HTML>')
+      newin.document.writeln(' <HEAD>')
+      newin.document.writeln('  <title>Understory Response Model</title>')
+      newin.document.writeln('  <style>')
+      newin.document.writeln('   BODY')
+      newin.document.writeln('    {scrollbar-base-color:666666;scrollbar-face-color:#333333;scrollbar-highlight-color:#333333;scrollbar-shadow-color:6 66666;scrollbar-dark-shadow-color:ffffcc;scrollbar-arrow-color:ff6600}')
+      newin.document.writeln('   .question {color:ffffcc}')
+      newin.document.writeln('   .header {color:ffffcc}')
+      newin.document.writeln('   .highlight {font-weight:bold}')
+      newin.document.writeln('  </style>')
+      newin.document.writeln(' </HEAD>')
+      newin.document.writeln(' <body bgcolor="ivory" onLoad="top.window.focus()" link="#99ff00" vlink="#99ff00"  text="#006009">')
+      newin.document.writeln('  <font face="tahoma, arial, helvetica, sans serif">')
+      newin.document.writeln('   <table width=100%>')
+      newin.document.writeln('    <tr><td bgcolor="#99ff00" align="center">')
+      newin.document.writeln('     <font face="tahoma, arial, helvetica, sans serif">')
+      newin.document.writeln('      <h3>Understory Response Model<br><br>Season of Burn</h3><br>')
+      newin.document.writeln('     </font>')
+      newin.document.writeln('    </td></tr>')
+      newin.document.writeln('   </table>')
+//      newin.document.writeln('   Site Presence is .')
+      newin.document.writeln('   Does the fire occur during the <b>growing</b> season or <b>dormant</b> season for the species of concern?  This value affects post-fire plant survival.')
+      newin.document.writeln('<!--tool bar begins--><p>')
+      newin.document.writeln('  <table bgcolor="#666666" width="20%" border="0" cellspacing="1" cellpadding="5"  align="center">')
+      newin.document.writeln('   <tr>')
+      newin.document.writeln('    <td align="center" bgcolor="#333333"')
+      //newin.document.writeln(' onMouseOver="this.style.backgroundColor='#000000';"')
+      //newin.document.writeln(' onMouseOut="this.style.backgroundColor='';">')
+      newin.document.writeln(' <font face="verdana,arial,helvetica" size="1">')
+      newin.document.writeln(' <img src="/fswepp/images/shift_anim_on.gif" width=6 height=6 border=0>&nbsp;&nbsp;<a  href="javascript:self.print()">Print me</a>')
+      newin.document.writeln(' </font>')
+      newin.document.writeln('</td>')
+      newin.document.writeln('    <td align="center" bgcolor="#333333"')
+      //newin.document.writeln(' onMouseOver="this.style.backgroundColor='#000000';"')
+      //newin.document.writeln(' onMouseOut="this.style.backgroundColor='';">')
+      newin.document.writeln(' <font face="verdana,arial,helvetica" size="1">')
+      newin.document.writeln('  <img src="/fswepp/images/shift_anim_on.gif" width=6 height=6 border=0>&nbsp;&nbsp;<a  href="javascript:self.close()">Close me</a>')
+      newin.document.writeln(' </font>')
+      newin.document.writeln('</td>')
+      newin.document.writeln('   </tr>')
+      newin.document.writeln('  </table>')
+      newin.document.writeln('<!--tool bar ends-->')
+      newin.document.writeln('  </center>')
+      newin.document.writeln(' </body>')
+      newin.document.writeln('</html>')
+      newin.document.close()
+    } 
+  }
+function explain_fuelmoist() {
+    newin = window.open('','road_density','width=640,scrollbars=yes,resizable=1')
+    var newWin = newin.document.open()
+    if (newWin != null) {
+      newin.document.writeln('<HTML>')
+      newin.document.writeln(' <HEAD>')
+      newin.document.writeln('  <title>Understory Response Model</title>')
+      newin.document.writeln('  <style>')
+      newin.document.writeln('   BODY')
+      newin.document.writeln('    {scrollbar-base-color:666666;scrollbar-face-color:#333333;scrollbar-highlight-color:#333333;scrollbar-shadow-color:6 66666;scrollbar-dark-shadow-color:ffffcc;scrollbar-arrow-color:ff6600}')
+      newin.document.writeln('   .question {color:ffffcc}')
+      newin.document.writeln('   .header {color:ffffcc}')
+      newin.document.writeln('   .highlight {font-weight:bold}')
+      newin.document.writeln('  </style>')
+      newin.document.writeln(' </HEAD>')
+      newin.document.writeln(' <body bgcolor="ivory" onLoad="top.window.focus()" link="#99ff00" vlink="#99ff00"  text="#006009">')
+      newin.document.writeln('  <font face="tahoma, arial, helvetica, sans serif">')
+      newin.document.writeln('   <table width=100%>')
+      newin.document.writeln('    <tr><td bgcolor="#99ff00" align="center">')
+      newin.document.writeln('     <font face="tahoma, arial, helvetica, sans serif">')
+      newin.document.writeln('      <h3>Understory Response Model<br><br>Fuel Moisture</h3><br>')
+      newin.document.writeln('     </font>')
+      newin.document.writeln('    </td></tr>')
+      newin.document.writeln('   </table>')
+//      newin.document.writeln('   Site Presence is .')
+      newin.document.writeln('   Percent or fraction of oven dry weight of fuels of varying sizes.  Categories are from FOFEM 5.11.   This value affects soil heating (post-fire plant and seed survival) and post-fire mineral <b>soil exposure</b> (seed germination).')
+      newin.document.writeln('<!--tool bar begins--><p>')
+      newin.document.writeln('  <table bgcolor="#666666" width="20%" border="0" cellspacing="1" cellpadding="5"  align="center">')
+      newin.document.writeln('   <tr>')
+      newin.document.writeln('    <td align="center" bgcolor="#333333"')
+      //newin.document.writeln(' onMouseOver="this.style.backgroundColor='#000000';"')
+      //newin.document.writeln(' onMouseOut="this.style.backgroundColor='';">')
+      newin.document.writeln(' <font face="verdana,arial,helvetica" size="1">')
+      newin.document.writeln(' <img src="/fswepp/images/shift_anim_on.gif" width=6 height=6 border=0>&nbsp;&nbsp;<a  href="javascript:self.print()">Print me</a>')
+      newin.document.writeln(' </font>')
+      newin.document.writeln('</td>')
+      newin.document.writeln('    <td align="center" bgcolor="#333333"')
+      //newin.document.writeln(' onMouseOver="this.style.backgroundColor='#000000';"')
+      //newin.document.writeln(' onMouseOut="this.style.backgroundColor='';">')
+      newin.document.writeln(' <font face="verdana,arial,helvetica" size="1">')
+      newin.document.writeln('  <img src="/fswepp/images/shift_anim_on.gif" width=6 height=6 border=0>&nbsp;&nbsp;<a  href="javascript:self.close()">Close me</a>')
+      newin.document.writeln(' </font>')
+      newin.document.writeln('</td>')
+      newin.document.writeln('   </tr>')
+      newin.document.writeln('  </table>')
+      newin.document.writeln('<!--tool bar ends-->')
+      newin.document.writeln('  </center>')
+      newin.document.writeln(' </body>')
+      newin.document.writeln('</html>')
+      newin.document.close()
+    } 
+  }
+function blankStatus()
+{
+  window.status = ""
+  return true                           // p. 86
+}
+
+function showTexture()
+{
+  var which = window.document.plantsimulator.moisture_cond1.selectedIndex;
+  if (which == 0)             //very dry
+     {text = "1 hr fuels 6%, 1000 hr fuel 10%, duff 20%, soil 5% "}
+   else if (which == 1)       // dry
+     {text = "1 hr fuels 10%, 1000 hr fuel 15%, duff 40%, soil 10% "}
+   else if (which == 2)       // moderate
+     {text = "1 hr fuels 16%, 1000 hr fuel 30%, duff 75%, soil 15% "}
+   else                       // wet
+     {text = "1 hr fuels 22%, 1000hr fuel 40%, duff 130%, soil 25% "}
+   window.status = text
+   return true                           // p. 86
+}
+//function checktree()
+//{var h=window.document.plantsimulator.life_form.selectedIndex
+//if(h == 3)
+	//{alert("Please use FFE-FVS. It is NOT appropriate to use this application with this selection, PLEASE change it");
+//window.document.plantsimulator.life_form.selectedIndex=0;
+//}
+//} 
+function chekrefractory()
+{
+var seedbselection=window.document.plantsimulator.seed_banking[1].checked
+var refraselection=window.document.plantsimulator.Refractory[0].checked
+var part1="you have selected no for seed banking and yes for fire stimulated seed."
+var part2="this combination is not possible, Plese change it"
+if((seedbselection)&&(refraselection))
+{alert(part1+part2);
+window.document.plantsimulator.Refractory[1].checked=true;
+}
+}
+function checkstartcanopy()
+{
+var x=parseFloat(window.document.plantsimulator.start_canopy.value);
+if((x<0)||(x>100))
+{
+alert("Start Canopy must be number in the interval [0,100]");
+window.document.plantsimulator.start_canopy.value = 80;
+}
+}
+function checkthincanopy1()
+{
+var x=parseFloat(window.document.plantsimulator.start_canopy.value);
+var y=parseFloat(window.document.plantsimulator.canopy_cover1.value);
+var part11="The start canopy smaller than the canopy removed from thinning. ";
+var part21="PLEASE change your value for canopy removed from thinning";
+if(x<y)
+{
+alert(part11+part21);
+window.document.plantsimulator.canopy_cover1.value = 0;
+window.document.plantsimulator.canopy_cover1.focus();
+window.document.plantsimulator.canopy_cover1.select();
+}
+}
+function checkthincanopy2()
+{
+var x=parseFloat(window.document.plantsimulator.start_canopy.value);
+var y=parseFloat(window.document.plantsimulator.canopy_cover2.value);
+var part11="The start canopy is smaller than the canopy removed from thinning. ";
+var part21="PLEASE change your value for canopy removed from thinning";
+if(x<y)
+{
+alert(part11+part21);
+window.document.plantsimulator.canopy_cover2.value = 0;
+window.document.plantsimulator.canopy_cover2.focus();
+window.document.plantsimulator.canopy_cover2.select();
+}
+}
+
+function checkfirecanopy1()
+{
+var y=parseFloat(window.document.plantsimulator.canopy_cover1.value);
+var z=parseFloat(window.document.plantsimulator.fire_canopy1.value);
+var part1="The canopy removed from thinning must be ";
+var part2="bigger or equal than the canopy removed due to fire ";
+var part3="PLEASE change the values";
+
+if(y<z)
+{
+alert(part1+part2+part3);
+window.document.plantsimulator.fire_canopy1.value = 0;
+window.document.plantsimulator.fire_canopy1.focus();
+window.document.plantsimulator.fire_canopy1.select();
+}
+}
+
+function checkfirecanopy3()
+{
+var x=parseFloat(window.document.plantsimulator.start_canopy.value);
+var z=parseFloat(window.document.plantsimulator.fire_canopy3.value);
+var part1="The start canopy must be bigger or equal than ";
+var part2="the canopy removed due to the prescribed fire";
+var part3="PLEASE change the values";
+
+if(x<z)
+{
+alert(part1+part2+part3);
+window.document.plantsimulator.fire_canopy3.value = 0;
+window.document.plantsimulator.fire_canopy3.focus();
+window.document.plantsimulator.fire_canopy3.select();
+}
+}
+function checkfirecanopy4()
+{
+var x=parseFloat(window.document.plantsimulator.start_canopy.value);
+var z=parseFloat(window.document.plantsimulator.fire_canopy4.value);
+var part1="The start canopy must be bigger or equal than ";
+var part2="the canopy removed due to the wildfire";
+var part3="PLEASE change the values";
+
+if(x<z)
+{
+alert(part1+part2+part3);
+window.document.plantsimulator.fire_canopy4.value = 0;
+window.document.plantsimulator.fire_canopy4.focus();
+window.document.plantsimulator.fire_canopy4.select();
+}
+}
+
+ function popuphistory() {
+    url = '';
+    height=500;
+    width=660;
+    popupwindow = window.open(url,'popupwindow','toolbar=no,location=no,status=no,directories=no,menubar=no,scrollbars=yes,resizable=yes,width='+width+',height='+height);
+    popupwindow.document.writeln('<html>')
+    popupwindow.document.writeln(' <head>')
+    popupwindow.document.writeln('  <title>The Understory Response Model version history</title>')
+    popupwindow.document.writeln(' </head>')
+    popupwindow.document.writeln(' <body bgcolor=white>')
+    popupwindow.document.writeln('  <font face="tahoma, arial, helvetica, sans serif">')
+    popupwindow.document.writeln('  <center>')
+    popupwindow.document.writeln('   <h3>The Understory Response Model Input Version History</h3>')
+    popupwindow.document.writeln('   <p>')
+    popupwindow.document.writeln('   <table border=0 cellpadding=10>')
+    popupwindow.document.writeln('    <tr>')
+    popupwindow.document.writeln('     <th bgcolor=lightblue>Version</th>')
+    popupwindow.document.writeln('     <th bgcolor=lightblue>Comments</th>')
+    popupwindow.document.writeln('    </tr>')
+    popupwindow.document.writeln('    <tr>')
+    popupwindow.document.writeln('     <th valign=top bgcolor=lightblue>2004.09.24</th>')
+    popupwindow.document.writeln('     <td>Beta release for Boise presentation</td>')
+    popupwindow.document.writeln('    </tr>')
+    popupwindow.document.writeln('   </table>')
+    popupwindow.document.writeln('   <p>')
+    popupwindow.document.writeln('  </font>')
+    popupwindow.document.writeln('  </center>')
+    popupwindow.document.writeln(' </body>')
+    popupwindow.document.writeln('</html>')
+    popupwindow.document.close()
+    popupwindow.focus()
+  }
+
+  // end hide -->
+  </SCRIPT>
+ </head>
+ <body link="#99ff00" vlink="#99ff00" alink="#99ff00">
+  <table align="center" width="100%" border="0">
+   <tr>
+    <td><img src="http:/fuels/urm/images/muskthistle.jpg" alt="The Understory Response Model" align="left">
+    </td>
+    <td align="center"><hr>
+     <h2>The Understory Response Model</h2>
+     <hr>
+    </td>
+    <td><img src="http:/fuels/urm/images/beargrass12.jpg" alt="The Understory Response Model" align="right">
+    </td>
+   </tr>
+  </table>
+  <form method="post" name="plantsimulator" action="http:/cgi-bin/fuels/urm/urm2.pl">
+  <table align="center" border="2" ID="Table2">
+    <caption>
+     <b><font size="4">Initial Stand Conditions</font></b></caption>
+    <tr>
+     <th align="right" BGCOLOR="#006009">
+      <font color="#99ff00">Size of Treated Area (acres)</Font>
+       <a href="javascript:explain_sizearea()"
+               onMouseOver="window.status='Explain Size of Treated Area (acres) (new window)';return true"
+               onMouseOut="window.status='Understory Response Model'; return true">
+             <img src="/fuels/urm/images/quest.gif" width="14" height="12" border="0"></a>
+     </th>
+     <td><input type="radio" NAME="area" ID="Select2" checked value="0">1-100
+         <input type="radio" NAME="area" value="1">101-1,000
+         <input type="radio" NAME="area" value="2">1001-10,000
+     </td>
+    </tr>
+    <tr>
+     <th align="right" BGCOLOR="#006009">
+      <font color="#99ff00">Starting Canopy Cover (%)</font>
+       <a href="javascript:explain_stcanopycover()"
+               onMouseOver="window.status='Explain Starting Canopy Cover (new window)';return true"
+               onMouseOut="window.status='Understory Response Model'; return true">
+             <img src="/fuels/urm/images/quest.gif" width="14" height="12" border="0"></a>
+     </th>
+     <td><INPUT type="text" size="4" VALUE="80" NAME="start_canopy" onchange="checkstartcanopy()" ID="Text2"></td>
+    </tr>
+    <tr>
+     <th align="right" BGCOLOR="#006009">
+      <font color="#99ff00">Average Duff Depth (inches)</font>
+     <a href="javascript:explain_avgduffdepth()"
+               onMouseOver="window.status='Explain Average Duff Depth (new window)';return true"
+               onMouseOut="window.status='Understory Response Model'; return true">
+             <img src="/fuels/urm/images/quest.gif" width="14" height="12" border="0"></a>
+     </th>
+     <td>
+       <input type="radio" name="duff_depth" ID="Select3" value="6">0
+       <input type="radio" name="duff_depth" value="0">1/2
+       <input type="radio" name="duff_depth" value="1">1
+       <input type="radio" name="duff_depth" value="2">2
+       <input type="radio" name="duff_depth" value="3">3
+       <input type="radio" name="duff_depth" value="4">4
+       <input type="radio" name="duff_depth" value="5">5
+      </td>
+    </tr>
+   </table>
+   <br>
+
+   <table align="center" border="2" cellpadding="5" cellspacing="5">
+    <caption>
+     <b><font size="4">Plant Characteristics </font></b>
+    </caption>
+    <tr>
+     <th align="right" BGCOLOR="#006009">
+      <Font color="#99ff00">Species Scientific Name)</Font></th>
+     <td><INPUT type="text" size="40" VALUE="" NAME="species" ID="Text1">
+      &nbsp;
+       [ <a href="" onClick="popUp();return false" onMouseOver="window.status='search all plants data base';return true" onMouseOut="window.status='The Understory Response Model'; return true">
+        <font size="4" color="#006009">Search</font></a> ]<br>
+        (optional)
+     </td>
+    </tr>
+    <tr>
+     <th align="right" BGCOLOR="#006009">
+      <font color="#99ff00">Plant Occurrence</Font>
+       <a href="javascript:explain_sitepresence()"
+           onMouseOver="window.status='Explain Site Presence (new window)';return true"
+           onMouseOut="window.status='Understory Response Model'; return true">
+         <img src="/fuels/urm/images/quest.gif" width="14" height="12" border="0"></a>
+     </th>
+     <td><INPUT type="radio" VALUE="1" NAME="site_presence" checked>On Site
+         <INPUT type="radio" VALUE="0" NAME="site_presence">Off Site
+     </td>
+    </tr>
+    <tr>
+     <th align="right" BGCOLOR="#006009">
+      <font color="#99ff00">Life Span</font>
+       <a href="javascript:explain_lifespan()"
+           onMouseOver="window.status='Explain Life Span (new window)';return true"
+           onMouseOut="window.status='Understory Response Model'; return true">
+         <img src="/fuels/urm/images/quest.gif" width="14" height="12" border="0"></a>
+     </th>
+     <td>
+       <input type="radio" NAME="life_duration" value="Annual">Annual (only reproduction track)
+       <input type="radio" NAME="life_duration" value="Biennial">Biennial
+       <input type="radio" NAME="life_duration" checked value="Perennial">Perennial
+      </SELECT>
+     </td>
+    </tr>
+    <tr>
+     <th align="right" BGCOLOR="#006009">
+      <Font color="#99ff00">Life Form </Font>
+       <a href="javascript:explain_lifeform()"
+           onMouseOver="window.status='Explain Life Form (new window)';return true"
+           onMouseOut="window.status='Understory Response Model'; return true">
+         <img src="/fuels/urm/images/quest.gif" width="14" height="12" border="0"></a>
+     </th>
+     <td>
+       <input type="radio" NAME="life_form" value="Forb" checked>Herb (Grass or Forb)
+       <input type="radio" NAME="life_form" value="Shrub">Shrub
+     </td>
+    </tr>
+    <tr>
+     <th align="right" BGCOLOR="#006009">
+      <Font color="#99ff00">Root Location </Font>
+       <a href="javascript:explain_rootlocation()"
+           onMouseOver="window.status='Explain Root Location (new window)';return true"
+           onMouseOut="window.status='Understory Response Model'; return true">
+         <img src="/fuels/urm/images/quest.gif" width="14" height="12" border="0"></a>
+     </th>
+     <td>
+       <input type="radio" NAME="root_loc" value="duff">Duff
+       <input type="radio" NAME="root_loc" checked value="mineral">Mineral Soil
+     </td>
+    <tr>
+     <th align="right" BGCOLOR="#006009">
+      <Font color="#99ff00">Bud Location </Font>
+       <a href="javascript:explain_budlocation()"
+           onMouseOver="window.status='Explain Bud Location (new window)';return true"
+           onMouseOut="window.status='Understory Response Model'; return true">
+         <img src="/fuels/urm/images/quest.gif" width="14" height="12" border="0"></a>
+     </th>
+     <td>
+      <input type="radio" NAME="bud_loc" value="stolon">Stolon
+      <input type="radio" NAME="bud_loc" checked value="crown">Root Crown
+      <input type="radio" NAME="bud_loc" value="rhizome">Rhizome
+      <input type="radio" NAME="bud_loc" value="bulb">Bulb/Corm
+     </td>
+    </tr>
+    <tr>
+     <th align="right" BGCOLOR="#006009">
+      <Font color="#99ff00">Vegetative Reproduction?</font>
+       <a href="javascript:explain_vegreproduction()"
+           onMouseOver="window.status='Explain Vegetative Reproduction (new window)';return true"
+           onMouseOut="window.status='Understory Response Model'; return true">
+         <img src="/fuels/urm/images/quest.gif" width="14" height="12" border="0"></a>
+     </th>
+     <td><INPUT type="radio" VALUE="1" NAME="veg_repro">Yes
+         <INPUT type="radio" VALUE="0" NAME="veg_repro" checked>No</td>
+    </tr>
+    <tr>
+     <th align="right" BGCOLOR="#006009">
+      <Font color="#99ff00">Weed?</Font>
+       <a href="javascript:explain_weed()"
+           onMouseOver="window.status='Explain Weed (new window)';return true"
+           onMouseOut="window.status='Understory Response Model'; return true">
+         <img src="/fuels/urm/images/quest.gif" width="14" height="12" border="0"></a>
+     </th>
+     <td>
+      <INPUT type="radio" VALUE="1" NAME="weed">Yes
+      <INPUT type="radio" VALUE="0" NAME="weed" checked>No
+     </td>
+    </tr>
+    <tr>
+     <th align="right" BGCOLOR="#006009">
+     <Font color="#99ff00">Sprouts?</font>
+      <a href="javascript:explain_sprouts()"
+           onMouseOver="window.status='Explain Sprouts (new window)';return true"
+           onMouseOut="window.status='Understory Response Model'; return true">
+         <img src="/fuels/urm/images/quest.gif" width="14" height="12" border="0"></a> 
+     </th>
+     <td>
+      <INPUT type="radio" VALUE="1" NAME="sprouts" checked>Yes
+      <INPUT type="radio" VALUE="0" NAME="sprouts">No
+     </td>
+    </tr>
+    <tr>
+     <th align="right" BGCOLOR="#006009">
+      <Font color="#99ff00">Preferred Light Level</Font>
+       <a href="javascript:explain_lightlevel()"
+           onMouseOver="window.status='Explain Preferred Light Level (new window)';return true"
+           onMouseOut="window.status='Understory Response Model'; return true">
+         <img src="/fuels/urm/images/quest.gif" width="14" height="12" border="0"></a>
+     </th>
+     <td>
+      <input type="radio" NAME="shade_tol" value="0">Open Canopy, Early Successional, Intolerant<br>
+      <input type="radio" NAME="shade_tol" checked value="1">Partial Canopy, Mid Successional, Moderate<br>
+      <input type="radio" NAME="shade_tol" value="2">Closed Canopy, Late Successional, Tolerant
+     </td>
+    </tr>
+    <tr>
+     <th align="right" BGCOLOR="#006009">
+      <Font color="#99ff00">Seed Dispersal </Font>
+       <a href="javascript:explain_seeddispersal()"
+           onMouseOver="window.status='Explain Seed Dispersal (new window)';return true"
+           onMouseOut="window.status='Understory Response Model'; return true">
+         <img src="/fuels/urm/images/quest.gif" width="14" height="12" border="0"></a>
+     </th>
+     <td colspan="2">
+      <input type="radio" NAME="seed_dis" value="0">Long distance
+       <input type="radio" NAME="seed_dis" checked value="1">Short distance
+       <input type="radio" NAME="seed_dis" value="2">By animal
+       <input type="radio" NAME="seed_dis" value="3">By gravity<br>
+       <input type="radio" NAME="seed_dis" value="4">Low seed production
+       <input type="radio" NAME="seed_dis" value="5">Unknown
+     </td>
+    </tr>
+    <tr>
+     <th align="right" BGCOLOR="#006009">
+      <font color="#99ff00">Seed Bank</font>
+       <a href="javascript:explain_seedbank()"
+           onMouseOver="window.status='Explain Seed Bank (new window)';return true"
+           onMouseOut="window.status='Understory Response Model'; return true">
+         <img src="/fuels/urm/images/quest.gif" width="14" height="12" border="0"></a>
+     </th>
+     <td>
+      <input type="radio" NAME="seed_banking" value="1">&gt; 2 years
+      <input type="radio" NAME="seed_banking" checked value="0">&le; 2 years
+      <input type="radio" NAME="seed_banking" value="2">Unknown
+     </td>
+    </tr>
+    <tr>
+     <th align="right" BGCOLOR="#006009">
+      <Font color="#99ff00">Fire Stimulated Seeds? </Font>
+       <a href="javascript:explain_fireseeds()"
+           onMouseOver="window.status='Explain Fire Stimulated Seeds (new window)';return true"
+           onMouseOut="window.status='Understory Response Model'; return true">
+         <img src="/fuels/urm/images/quest.gif" width="14" height="12" border="0"></a>
+     </th>
+     <td>
+      <INPUT type="radio" VALUE="2" NAME="Refractory" onclick="chekrefractory()">Yes
+      <INPUT type="radio" VALUE="3" NAME="Refractory" checked>No
+     </td>
+    </tr>
+   </table>
+   <br>
+
+   <table align="center" border="2">
+    <caption>
+     <font size="5" color="#006009"><b>Thinning and Broadcast Burning</b></font>
+    </caption>
+    <tr>
+     <th align="right" BGCOLOR="#006009">
+      <font color="#99ff00">Canopy Cover after Thinning (%)</Font>
+       <a href="javascript:explain_stcanopycover()"
+            onMouseOver="window.status='Explain Canopy Cover After Thinning (new window)';return true"
+            onMouseOut="window.status='Understory Response Model'; return true">
+          <img src="/fuels/urm/images/quest.gif" width="14" height="12" border="0"></a>
+     </th>
+     <td>
+      <INPUT type="text" size="4" VALUE="50" NAME="canopy_cover1" onchange="checkthincanopy1()" ID="Text6">
+     </td>
+    </tr>
+    <tr>
+    <th align="right" BGCOLOR="#006009">
+     <Font color="#99ff00">Mineral Soil Exposed by Thinning (%)</Font>
+      <a href="javascript:explain_minsoil()"
+            onMouseOver="window.status='Explain Mineral Soil Exposed by Thinning (new window)';return true"
+            onMouseOut="window.status='Understory Response Model'; return true">
+          <img src="/fuels/urm/images/quest.gif" width="14" height="12" border="0"></a>
+  </th>
+  <td>
+   <INPUT type="text" size="4" VALUE="10" NAME="mineral_expo1">
+  </td>
+  </tr>
+  <tr>
+  <th align="right" BGCOLOR="#006009">
+  <Font color="#99ff00">Timing of Broadcast Burn </Font>
+  <a href="javascript:explain_timesince()"
+            onMouseOver="window.status='Explain Time Since Thinning (new window)';return true"
+            onMouseOut="window.status='Understory Response Model'; return true">
+          <img src="/fuels/urm/images/quest.gif" width="14" height="12" border="0"></a>
+  </th>
+  <td>
+   <input type="radio" NAME="timing" onBlur="blankStatus()" value="0">One Year After Thinning<br>
+   <input type="radio" NAME="timing" onBlur="blankStatus()" checked value="-1">More Than One Year After Thinning
+   </td>
+  </tr>
+  <tr>
+  <th align="right" BGCOLOR="#006009">
+   <Font color="#99ff00">Season of Burn</Font>
+    <a href="javascript:explain_seasonburn()"
+            onMouseOver="window.status='Explain Season of Burn (new window)';return true"
+            onMouseOut="window.status='Understory Response Model'; return true">
+          <img src="/fuels/urm/images/quest.gif" width="14" height="12" border="0"></a>
+  </th>
+  <td>
+   <input type="radio" NAME="season1" onBlur="blankStatus()" value="-1">Growing Season<br>
+   <input type="radio" NAME="season1" onBlur="blankStatus()" checked value="0">Dormant Season
+   </td>
+  </tr>
+  <tr>
+  <th align="right" BGCOLOR="#006009">
+  <Font color="#99ff00">Canopy Cover after Broadcast Burning (%) </Font>
+  <a href="javascript:explain_stcanopycover()"
+            onMouseOver="window.status='Explain Canopy Cover After Thinning (new window)';return true"
+            onMouseOut="window.status='Understory Response Model'; return true">
+          <img src="/fuels/urm/images/quest.gif" width="14" height="12" border="0"></a>
+  </th>
+  <td>
+   <INPUT type="text" size="4" VALUE="50" NAME="fire_canopy1" onchange="checkfirecanopy1()" ID="Text3">
+   </td>
+  </tr>
+  <tr>
+  <th align="right" BGCOLOR="#006009">
+  <Font color="#99ff00">Fuel Moisture </Font>
+  <a href="javascript:explain_fuelmoist()"
+            onMouseOver="window.status='Explain Fuel Moisture (new window)';return true"
+            onMouseOut="window.status='Understory Response Model'; return true">
+          <img src="/fuels/urm/images/quest.gif" width="14" height="12" border="0"></a>
+  </th>
+  <td>
+   <input type="radio" NAME="moisture_cond1" value="50.8">dry (1 hr fuels 10%, 1000 hr fuel 15%, duff 40%, soil 10% )<br>
+   <input type="radio" NAME="moisture_cond1" checked value="31">moderate (1 hr fuels 16%, 1000 hr fuel 30%, duff 75%, soil 15%)<br
+   <input type="radio" NAME="moisture_cond1" value="13.6">wet (1 hr fuels 22%, 1000hr fuel 40%, duff 130%, soil 25%)
+   </td>
+  </tr>
+  </table>
+  <br>
+
+   <table align="center" border="2" ID="Table1">
+    <caption>
+     <font size="5" color="#006009"><b>Thinning and Pile Burning</b></font>
+    </caption>
+    <tr>
+    <th align="right" BGCOLOR="#006009">
+     <Font color="#99ff00">Canopy Cover after Thinning (%) </Font>
+      <a href="javascript:explain_stcanopycover()"
+           onMouseOver="window.status='Explain Canopy Cover After Thinning (new window)';return true"
+           onMouseOut="window.status='Understory Response Model'; return true">
+         <img src="/fuels/urm/images/quest.gif" width="14" height="12" border="0"></a>
+     </th>
+     <td>
+      <INPUT type="text" size="4" VALUE="50" NAME="canopy_cover2" onchange="checkthincanopy2()" ID="Text4">
+     </td>
+    </tr>
+    <tr>
+     <th align="right" BGCOLOR="#006009">
+      <Font color="#99ff00">Mineral Soil Exposed by Thinning (%) </Font>
+       <a href="javascript:explain_minsoil()"
+           onMouseOver="window.status='Explain Mineral Soil Exposed by Thinning (new window)';return true"
+           onMouseOut="window.status='Understory Response Model'; return true">
+         <img src="/fuels/urm/images/quest.gif" width="14" height="12" border="0"></a>
+     </th>
+     <td>
+      <INPUT type="text" size="4" VALUE="10" NAME="mineral_expo2" ID="Text5">
+     </td>
+    </tr>
+   </table>
+   <br>
+
+   <table align="center" border="2" ID="Table3">
+    <caption>
+     <font size="5" color="#006009"><b>Prescribed Fire</b></font>
+    </caption>
+    <tr>
+     <th align="right" BGCOLOR="#006009">
+      <Font color="#99ff00">Canopy Cover after Prescribed Fire (%) </Font>
+       <a href="javascript:explain_stcanopycover()"
+           onMouseOver="window.status='Explain Canopy Cover After Prescribed Fire (new window)';return true"
+           onMouseOut="window.status='Understory Response Model'; return true">
+         <img src="/fuels/urm/images/quest.gif" width="14" height="12" border="0"></a>
+     </th>
+     <td>
+      <INPUT type="text" size="4" VALUE="50" NAME="fire_canopy3" onchange="checkfirecanopy3()" ID="Text8">
+     </td>
+    </tr>
+    <tr>
+     <th align="right" BGCOLOR="#006009">
+      <Font color="#99ff00">Season of Burn </Font>
+       <a href="javascript:explain_seasonburn()"
+            onMouseOver="window.status='Explain Season of Burn (new window)';return true"
+            onMouseOut="window.status='Understory Response Model'; return true">
+          <img src="/fuels/urm/images/quest.gif" width="14" height="12" border="0"></a>
+     </th>
+     <td>
+      <input type="radio" NAME="season3" onBlur="blankStatus()" value="-1">Growing Season<br>
+      <input type="radio" NAME="season3" onBlur="blankStatus()" checked value="0">Dormant Season
+     </td>
+    </tr>
+    <tr>
+     <th align="right" BGCOLOR="#006009">
+      <Font color="#99ff00">Fuel Moisture </Font>
+       <a href="javascript:explain_fuelmoist()"
+           onMouseOver="window.status='Explain Fuel Moisture (new window)';return true"
+           onMouseOut="window.status='Understory Response Model'; return true">
+         <img src="/fuels/urm/images/quest.gif" width="14" height="12" border="0"></a>
+     </th>
+     <td>
+      <input type="radio" NAME="moisture_cond3" value="50.8">dry (1 hr fuels 10%, 1000 hr fuel 15%, duff 40%, soil 10% )<br>
+      <input type="radio" NAME="moisture_cond3" checked value="31">moderate (1 hr fuels 16%, 1000 hr fuel 30%, duff 75%, soil 15%)<br>
+      <input type="radio" NAME="moisture_cond3" value="13.6">wet (1 hr fuels 22%, 1000hr fuel 40%, duff 130%, soil 25%)
+     </td>
+    </tr>
+   </table>
+   <br>
+
+   <table align="center" border="2" ID="Table4">
+    <caption>
+     <font size="5" color="#006009"><b>Wildfire</b></font>
+    </caption>
+    <tr>
+     <th align="right" BGCOLOR="#006009">
+      <font color="#99ff00">Canopy Cover after Wildfire (%) </Font>
+       <a href="javascript:explain_stcanopycover()"
+           onMouseOver="window.status='Explain Canopy Cover After Wildfire (new window)';return true"
+           onMouseOut="window.status='Understory Response Model'; return true">
+         <img src="/fuels/urm/images/quest.gif" width="14" height="12" border="0"></a>
+     </th>
+     <td>
+      <INPUT type="text" size="4" VALUE="0" NAME="fire_canopy4" onchange="checkfirecanopy4()" ID="Text9">
+     </td>
+    </tr>
+    <tr>
+     <th align="right" BGCOLOR="#006009">
+      <font color="#99ff00">Season of Burn </Font>
+       <a href="javascript:explain_seasonburn()"
+           onMouseOver="window.status='Explain Season of Burn (new window)';return true"
+           onMouseOut="window.status='Understory Response Model'; return true">
+         <img src="/fuels/urm/images/quest.gif" width="14" height="12" border="0"></a>
+     </th>
+     <td>
+      <input type="radio" NAME="season4" onBlur="blankStatus()" value="-1">Growing Season<br>
+      <input type="radio" NAME="season4" onBlur="blankStatus()" checked value="0">Dormant Season
+     </td>
+    </tr>
+    <tr>
+     <th align="right" BGCOLOR="#006009">
+      <font color="#99ff00">Fuel Moisture </Font>
+       <a href="javascript:explain_fuelmoist()"
+           onMouseOver="window.status='Explain Fuel Moisture (new window)';return true"
+           onMouseOut="window.status='Understory Response Model'; return true">
+         <img src="/fuels/urm/images/quest.gif" width="14" height="12" border="0"></a>
+     </th>
+     <td colspan="2">
+      <input type="radio" NAME="moisture_cond4" checked value="72.7">very dry (1 hr fuels 6%, 1,000 hr fuel 10%, duff 20%)<br>
+      <input type="radio" NAME="moisture_cond4" value="50.8">dry (1 hr fuels 10%, 1000 hr fuel 15%, duff 40%, soil 10% )<br>
+      <input type="radio" NAME="moisture_cond4" value="31">moderate (1 hr fuels 16%, 1000 hr fuel 30%, duff 75%, soil 15%)
+     </td>
+    </tr>
+   </table>
+   <br>
+   <INPUT type="hidden" name="treatment0" value="1"><INPUT type="hidden" name="treatment1" value="2"><INPUT type="hidden" name="treatment2" value="3"><INPUT type="hidden" name="treatment3" value="4">  <INPUT type="hidden" name="tsize" value="4">
+   <br>
+   <center>
+    <INPUT type="submit" value="RUN MODEL" style="background: #00ffff; color: #0033ff; font-weight: bold; border: 1px solid black; font-family: courier; font-size: 1.2em; padding: 0.3em;"NAME="action2">
+   </center>
+  </form>
+  <br><br>
+   <hr>
+    <table border=0>
+     <tr>
+      <td valign="top" bgcolor="lightgoldenrodyellow">
+       <font face="tahoma, arial, helvetica, sans serif" size=1>
+        The Understory Response Model: <b>URM</b>
+       </font>
+      </td>
+      <td valign="top">
+       <a href="http://forest.moscowfsl.wsu.edu/fswepp/comments.html"<img src="/fswepp/images/epaemail.gif" align="right" border=0></a>
+      </td>
+     </tr>
+     <tr>
+      <td valign="top">
+       <font face="tahoma, arial, helvetica, sans serif" size=1>
+        The Understory Response Model input interface v.
+        <a href="javascript:popuphistory()"> 2005.01.12</a>
+        (for review only) by
+        David Hall &amp; Elena Velasquez<br>
+        Model developed by: Steve Sutherland and Melanie Miller<br>
+        Team leader Elaine Kennedy Sutherland, USDA Forest Service, Rocky Mountain Research Station, Moscow, ID
+       </font>
+     </td>
+   </tr>
+  </table>
+ </body>
+</html>

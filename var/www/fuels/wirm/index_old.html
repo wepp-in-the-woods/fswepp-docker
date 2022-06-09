@@ -1,0 +1,213 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+	<head>
+		<title>Wildlife Response Model</title>
+		<script language="javascript">
+<!-- hide from old browsers...
+/*     dynamic select menus -- written by Matt Reinfeldt
+        feel free to use, modify, copy, distribute, and otherwise abuse this code!
+        if you find any problems, let me know, and I will try to find a fix for it.
+*/
+
+var info = new Array(
+    "Forest Carnivores*American marten / Martes americana|Black bear / Ursus americanus|Bobcat / Lynx rufus|Canada lynx /Lynx canadensis|Fisher / Martes pennanti|Gray wolf / Canis lupus|Grizzly bear / Ursos arctos horribilis|Long-tailed weasel / Mustela frenata|Mountain lion / Puma concolor|Short-tailed weasel / Mustela erminea|Wolverine / Gulo gulo",
+    "Ungulates*Bighorn sheep / Ovis canadensis|Elk / Cervus elaphus|Mule deer / Odocoileus hemionus|White-tailed deer / Odocoileus virginianus",
+    "Small Mammals*Abert's tassel-eared squirrel / Sciurus aberti aberti|Allen's chipmunk /  Tamias senex|Brush Mouse /  Peromyscus boylii|Bushytail woodrat /  Neotoma cinera|Cliff chipmunk /  Tamias corsalis|Coast mole /  Scapanus orarius|Colorado chipmunk /  Tamias quadrivattus|Creeping vole /  Microtus oregoni|Deer Mouse /  Peromyscus maniculatus|Desert cottontail /  Sylvilagus auduboni|Douglas' squirrel / Tamiasciurus douglasii|Dusky footed woodrat /  Neotoma fuscipes|Dwarf shrew /  Sorex nanus|Eastern cottontail /  Sylvilagus floridanus|Fog shrew /  Sorex sonomae|Golden-mantled ground squirrel /  Spermophilus lateralis|Gray-collared chipmunk /  Tamias cinereicollis|Gray-footed chipmunk /  Tamias canipes|Kaibab tassel-eared squirrel /  Sciurus aberti kaibabensis|Least chipmunk /  Tamias minumus|Masked or Common shrew /  Sorex cinereus|Mazama pocket gopher / Thomomys mazama|Meadow vole / Microtus pennsylvanicus|Mexican vole / Microtus mexicanus|Mexican woodrat / Neotoma mexicana|Montane or dusky shrew /  Sorex monticolus|Montane vole / Microtus montanus|Mountain cottontail /  Sylvilagus nuttalli|Northern flying squirrel /  Glaucomys sabrinus|Northern pocket gopher / Thomomys talpoides|Pacific jumping mouse /  Zapus trinotatus|Pacific marsh shrew /  Sorex bendirii|Pacific shrew /  Sorex pacificus|Pinyon Mouse /  Peromyscus truei|Porcupine /  Erithizondorsatum|Preble's shrew /  Sorex preblei|Pygmy shrew /  Sorex hoyi|Raccoon /  Procyon lotor|Red squirrel / Tamiasciurus hudsonicus|Red-backed vole /  Clethrionomys gapperi|Red-tailed chipmunk /  Tamias ruficaudus|Richardson vole / Microtus richardsoni|Shrew-mole /  Neurotruchus gibbsii|Snowshoe hare /  Lepus americanus|Southern pocket gopher / Thomomys umbrinus|Tassel-eared squirrel /  Sciurus aberti|Townsend's chipmunk / Tamias townsendi|Trowbridge's shrew /  Sorex trowbridgii|Uinta chipmunk /  Tamias umbrinus|Vagrant shrew /  Sorex vagrans|Water shrew /  Sorex palustris|Western jumping mouse /  Zapus princeps|Western or California red-backed vole /  Clethrionomys californicus|White-throated woodrat / Neotoma albigula|Yellow-pine chipmunk /  Tamias amoenus",
+    "Bats*Allen's big-eared bat /  Idionycteris phyllotis|Arizona occult bat /  Myotis occultus|Big brown bat /  Eptesicus fuscus|California myotis /  Myotis californicus|Eastern small-footed myotis /  Myotis leibii|Fringed myotis /  Myotis thysanodes|Hoary bat /  Lasiurus cinereus|Little-brown bat /  Myotis lucifugus|Long-eared myotis /  Myotis evotis|Long-legged myotis /  Myotis volans|Pallid bat /  Antrozous pallidus|Silver-haired bat /  Lasionycteris noctivagans|Southwestern myotis /  Myotis auriculus|Spotted bat /  Euderma maculatum|Townsend's big-eared bat /  Plecotus townsendii|Western small-footed myotis /  Myotis ciliolabrum|Yuma myotis /  Myotis yumanensis",
+    "Birds*Acorn woodpecker / Melanerpes erythrocephalus|American kestrel / Falco sparverius|American robin / Turdus migratorius|Bald eagle / Haliaeetus leucocephalus|Band-tailed pigeon / Columba fasciata|Bewick's wren / Thryomanes bewickii|Black rosy finch / Leucosticte arctoa|Black-backed woodpecker / Picoides arcticus|Black-chinned hummingbird / Archilochus alexandri|Black-headed grosbeak / Pheucticus melanocephalus|Blue grouse / Dendragapus obscurus|Boreal owl / Aegolius funereus|Broad-tailed hummingbird / Selasphorus platycercus|Brown creeper / Certhia familiaris|Brown-headed cowbird / Molothrus aeneus|Calliope hummingbird / Stellula calliope|Cassin's finch / Carpodacus cassinii|Cassin's vireo / Vireo cassinii|Chestnut-backed chickadee / Parus rufescens|Chipping sparrow / Spizella passerina|Clark's nutcracker / Nucifraga columbiana|Common nighthawk / Chordeiles minor|Cooper's hawk / Accipiter cooperii|Cordilleran flycatcher / Empidonax occidentalis|Dark-eyed junco / Junco hyemalis|Downy woodpecker / Picoides pubescens|Dusky flycatcher / Empidonax oberholseri|Evening grosbeak / Hesperiphona vespertina|Flammulated owl / Otus flammeolus|Fox sparrow / Passerella iliaca|Golden-crowned kinglet / Regulis satrapa|Golden-crowned sparrow / Zonotrichia atricapilla|Grace's warbler / Dendroica gracaiae|Gray flycatcher / Empidonax wrightii|Gray-headed junco / Junco caniceps|Great gray owl / Strix nebulosa|Green-tailed towhee / Pipilo chlorurus|Hairy woodpecker / Picoides villosus|Hammond's flycatcher / Empidonax hammondii|Harlequin duck / Histrionicus histrionicus|Hermit thrush / Catharus guttatus|Hermit warbler / Dendroica occidentalis|House wren / Troglodytes aedon|Least flycatcher / Empidonax minimus|Lewis's woodpecker / Melanerpes lewis|Lincoln's sparrow / Melospiza lincolnii|MacGillivray's warbler / Oprornis tolmici|Mexican spotted owl / Strix occidentalis lucida|Mountain bluebird / Sialia currucoides|Mountain chickadee / Parusgambeli|Mountain quail / Oreortyx pictus|Mourning dove / Zenaida macroura|Nashville warbler / Vermivora ruficapilla|Northern Flicker / Colaptes auratus|Northern goshawk / Accipter gentilis|Northern pygmy owl / Glaucidium gnoma|Northern saw-whet owl / Aegolius acadicus|Northern spotted owl / Strix occidentalis|Olive-sided flycatcher / Nuttallornis borealis|Orange-crowned warbler / Vermivora celata|Osprey / Pandion haliaetus|Peregrin falcon / Falco peregrinus|Pileated woodpecker / Dryocopus pileatus|Pine sisken / Carduelis pinus|Pinyon jay /Gymnorhinuscyanocephalus|Plumbeous vireo / Vireo plumbeus|Poor-will / Phalaenoptilus nuttallii|Purple finch / Carpodacus purpureus|Pygmy nuthatch / Sitta pygmaea|Red crossbill / Loxia curvirostra|Red-breasted nuthatch / Sitta canadensis|Red-breasted sapsucker / Sphyrapicus ruber|Red-eyed vireo / Vireo olivaceus|Red-faced warbler / Cardellilna rubrifrons|Red-naped sapsucker / Sphyrapicus nuchalis|Red-tailed hawk / Buteo jamaicensis|Rock wren / Salpinctus obsoletus|Ruby-crowned kinglet / Regulis calendula|Ruffed grouse / Bonasa umbellus|Rufous-sided towhee / Piplo erythrophthalmus|Saw-whet owl / Aegolius acadicus|Screech owl / Otus asio|Sharp-shinned hawk / Accipter striatus|Spotted towhee / Pipilo erythropthalmus|Spruce grouse /  Falcipennis canadensis|Stellar's jay / Cyanocitta stelleri|Swainson's thrush / Hyolcichla ustulata|Three-toed woodpecker / Picoides tridactylus|Townsend's solitaire / Myadestes townsendi|Townsend's warbler / Dendroica townsendii|Tree swallow / Iridoprocne bicolor|Turkey vulture / Cathartes aura|Upland sandpiper / Bartramia longicauda|Varied thrush / Ixoreus naevius|Violet green swallow / Tachycineta thalassina|Virginia's warbler / Vermivora virginiae|Warbling vireo / Vires gilvus|Western bluebird / Sialia mexicana|Western flycatcher / Empidonax difficilis|Western tanager / Piranga ludoviciana|Western wood-peewee / Contopus sordidulus|White-breasted nuthatch / Sitta carolinensis|White-crowned sparrow / Zonotrichia albicollis|White-headed woodpecker / Picoides albolarvatus|Williamson's sapsucker / Sphyrapicus thyroideus|Willow flycatcher / Empidonax traillii|Wilson's warbler / Wilsonia pusilla|Winter wren / Troglodytes troglodytes|Yellow-bellied sapsucker / Sphyrapicusvarius|Yellow-rumped warbler / Dendroica coronata",
+    "Reptiles*California Mountain Kingsnake / Lampropeltis zonata|Common Garter Snake / Thamnophis sirtalis|Easterncollared lizard / Crotophytus collaris|Eastern fence lizard / Sceloporus undulatus|Gila spotted whiptail / Cnemidophorus flagellicaudus|Gopher Snake / Pituophis catenifer|Great Plains skink / Eumeces obsoletus|Madrean alligator lizard / Elgaria kingi|Night Snake / Hypsiglena torquata|Northern Alligator Lizard / Elgaria coerulea|Northwestern Garter Snake / Thamnophis ordinoides|Ornate tree lizard / Urosaurus ornatus|Pacific Coast Aquatic Garter Snake / Thamnophis atratus|Painted Turtle / Chrysemys picta|Pigmy short horned lizard / Phrynosoma douglassi|Racer / Coluber constrictor|Ringneck Snake / Diadophis punctatus|Rubber Boa / Charina bottae|Sagebrush Lizard / Sceloporus graciosus|Sharptail Snake / Contia tenuis|Short-horned Lizard / Phrynosoma douglassii|Sonoran spotted whiptail / Cnemidophorus sonorae|Southern Alligator Lizard / Elgaria multicarinata|Striped plateau lizard / Sceloporus virgatus|Striped Whipsnake / Masticophis taeniatus|Western banded gecko / Coleonyx variegatus|Western Fence Lizard / Sceloporus occidentalis|Western Pond Turtle / Clemmys marmorata|Western Rattlesnake / Crotalus viridis|Western Skink / Eumeces skiltonianus|Western Terrestrial Garter Snake / Thamnophis elegans|Western whiptail / Cnemidophorus tigris",
+    "Amphibians*Black salamander / Aneides flavipunctatus|California slender salamander / Batrachoseps attenuatus|Cascades frog / Rana cascadae|Clouded salamander / Aneides ferreus|Columbia spotted frog / Rana luteiventris|Cope's giant salamander / Dicamptodon copei|Del Norte salamander / Plethodon elongatus|Dunn's salamander / Plethodon dunni|Ensatina /  Ensatina eschscholtzii|Jemez Mountain salamander /  Plethodon neomexicanus|Larch Mountain salamander /  Plethodon larselli|Long-toed salamander / Ambystoma macrodactylum|Northern leopard frog /  Rana pipiens|Northwestern salamander /  Ambystoma gracile|Olympic torrent salamander /  Rhyacotriton olympicus|Oregon slender salamander /  Batrachoseps wrighti|Oregon spotted frog / Rana pretiosa|Pacific treefrog /  Pseudacris regilla|Pacific giant salamander /  Dicamptodon tenebrosus|Rough-skinned newt /  Taricha granulosa|Sacramento Mountain salamander /  Aneides hardii|Western red-backed salamander /  Plethodon vehiculum|Western or boreal toad /  Bufo boreas|Tailed frog /  Ascaphus montanus"
+);
+
+/******************************************************************************************************/
+
+function stringSplit ( string, delimiter ) { 
+    if ( string == null || string == "" ) { 
+        return null; 
+    } else if ( string.split != null ) { 
+        return string.split ( delimiter ); 
+    } else { 
+        var ar = new Array(); 
+        var i = 0; 
+        var start = 0; 
+        while( start >= 0 && start < string.length ) { 
+             var end = string.indexOf ( delimiter, start ) ; 
+             if( end >= 0 ) { 
+                 ar[i++] = string.substring ( start, end ); 
+                 start = end+1; 
+             } else { 
+                 ar[i++] = string.substring ( start, string.length ); 
+                 start = -1; 
+             } 
+        } 
+        return ar; 
+    } 
+} 
+/******************************************************************************************************/
+var menu1 = new Array();
+var menu2 = new Array();
+/******************************************************************************************************/
+function createMenus () {
+
+    for ( var i=0; i < info.length; i++ ) {
+        menu1[i] = stringSplit ( info[i], '*' );
+        menu2[i] = stringSplit ( menu1[i][1], '|' );
+    }
+
+    var group = document.wildlifem.tax_group;
+    var animal = document.wildlifem.species;
+
+    group.length = menu1.length;
+    animal.length = menu2[0].length; 
+    for ( var i=0; i < menu1.length; i++ ) {
+         group.options[i].value  = menu1[i][0];
+         group.options[i].text   = menu1[i][0];
+    }
+    document.wildlifem.tax_group.selected = 0;
+    for (var x=0; x < menu2[0].length; x++) {
+         animal.options[x].text = menu2[0][x];
+         animal.options[x].value = menu2[0][x];
+    }         
+//      updateMenus (document.wildlifem.tax_group)		// DEH
+    document.wildlifem.species.selected = 0;			// DEH
+}
+
+/******************************************************************************************************/
+
+function updateMenus ( what ) {
+    var sel = what.selectedIndex;
+
+    if ( sel >= 0 && sel < menu1.length ) 
+        var temp = menu2[sel];
+    else
+        var temp = new Array ();
+    
+    what.form.species.length = temp.length;
+
+    for ( var i = 0; i < temp.length; i++ ) {
+        what.form.species.options[i].text  = temp[i];
+        what.form.species.options[i].value = temp[i];
+    }
+    what.form.species.selected=0;			// DEH
+}
+// end of hiding -->
+		</script>
+	</head>
+	<body link="#99ff00" vlink="#99ff00" alink="#99ff00" onLoad="createMenus()">
+		<table align="center" width="100%" border="0">
+			<tr>
+				<td><img src="/fuels/wirm/images/pileatedwoodpecker_evelynbull.jpg" alt="Wildlife Response Model" align="left">
+				</td>
+				<td align="center"><hr>
+					<h2>Wildlife Response Model</h2>
+ <img src="/fswepp/images/underc.gif" border=0 width=532 height=34>
+					<hr>
+				</td>
+				<td><img src="/fuels/wirm/images/flyingsquirrel_kateshick.jpg" alt="Wildlife Response Model" align="right">
+				</td>
+			</tr>
+		</table>
+		<center>
+			<form method="post" name="wildlifem" action="/cgi-bin/fuels/wirm/wildlifem.pl">  <!-- DEH -->
+				<table align="center" border="2" id="table1">
+					<caption>
+						<b><font size="4"></font></b>
+					</caption>
+					<tr>
+						<th BGCOLOR="#006009">
+							<Font color="#99ff00">Taxonomic group:</Font></th>
+						<td colspan="3"><select name="tax_group" size="8" onChange="updateMenus(this)">
+								<option selected>
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								<option>
+								<option>
+							</select>
+					</tr>
+					<tr>
+						<th BGCOLOR="#006009">
+							<Font color="#99ff00">Species:</Font></th>
+						<td colspan="3"><select name="species" size="6">
+								<option selected>
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								<option>
+								<option>
+							</select>
+					</tr>
+				</table>
+				<br>
+				<!--
+				<br>
+				<table align="center" border="2" ID="Table1">
+					<caption>
+						<b><font size="4">Project Description:</font></b>
+					</caption>
+					<tr>
+						<th BGCOLOR="#006009">
+							<Font color="#99ff00">Location:</Font></th>
+						<td colspan="3"><INPUT type="text" size="30" NAME="location" value="Montana" ID="Text1"></td>
+					</tr>
+					<tr>
+						<th BGCOLOR="#006009">
+							<Font color="#99ff00">Habitat Type:</Font></th>
+						<td colspan="3"><SELECT size="2" ID="Select1" NAME="habitat_type">
+								<OPTION selected value="Ponderosa Pine/Douglas Fir">Ponderosa Pine/Douglas Fir</OPTION>
+								<option value="Lodgepole Pine">Lodgepole Pine</option>
+							</SELECT></td>
+					<tr>
+						<th BGCOLOR="#006009">
+							<Font color="#99ff00">Treatments:</Font></th>
+						<td colspan="3"><SELECT size="5" ID="Select4" NAME="treatment">
+								<OPTION selected value="0">Thin and Pile Burn</OPTION>
+								<option value="1">Thin and Broadcast Burn(moderate burn conditions)</option>
+								<option value="2">Thin and Broadcast Burn(severe burn conditions)</option>
+								<option value="3">No Thin and Broadcast Burn(moderate burn conditions)</option>
+								<option value="4">No Thin and Wildfire</option>
+							</SELECT>
+						</td>
+					</tr>
+					<tr>
+						<th BGCOLOR="#006009">
+							<Font color="#99ff00">Size of Treated Area (ac):</Font></th>
+						<td><SELECT size="3" ID="Select200" NAME="area">
+								<option selected value="1-100 ac">1-100
+								</option>
+								<option value="101-1,000 ac">101-1,000</option>
+								<option value="1001-10,000 ac">1001-10,000</option>
+							</SELECT></td>
+					</tr>
+					<tr>
+						<th BGCOLOR="#006009">
+							<Font color="#99ff00">Temporal Scale:</Font></th>
+						<td colspan="3"><SELECT size="3" ID="Select3" NAME="tempo_scale">
+								<OPTION selected value="1 year after Treatment">1 year after Treatment</OPTION>
+								<option value="5 years after Treatment">5 years after Treatment</option>
+								<option value="10 years after Treatment">10 years after Treatment</option>
+							</SELECT></td>
+					</tr>
+				</table>
+				<br>-->
+				<br>
+				<p>The Wildlife Response Model will display the habitat associations reported<br>
+					in the scientific literature for the selected species.</p>
+				<br>
+				<table>
+		<td>
+				<INPUT type="submit" value="Display Habitat Associations" NAME="Model">
+		</td>
+		<td>
+				<INPUT type="submit" value="View Species Information" NAME="Model">
+		</td>
+
+		</table>
+			</form>
+		</center>
+		<hr>
+		<p>Wildlife Response Model:<br>
+			Developed by: David Pilliod<br>
+			Project Manager: Elaine Sutherland<br>
+			Version: 2004.1</p>
+	</body>
+</html>

@@ -1,0 +1,111 @@
+<home>
+ <head>
+  <title>
+   Armillaria Response Tools -- Fuel Synthesis
+  </title>
+ </head>
+
+ <body bgcolor="white" link="#555555" vlink="#555555">
+  <!--font face="trebuchet, tahoma, arial, sans serif, geneva, helvetica"-->
+  <font face="tahoma, trebuchet, comic sans, arial">
+
+    <table width=100%>
+     <tr bgcolor='#006009'>
+      <td align='center' width=80><a href='/fuels/'>
+      <img src='images/artpics.jpg' width=77 height=100 align='left' border=0></a></td>
+      <td align='center' valign='center' bgcolor='#006009'><font color='#99ff00'><h3>Armillaria Response Tool<br>(Under development)</h3></font></td>
+      <td align='center' width=80 bgcolor='white'>
+      <img src="../images/firetool.jpg" width="100" height="100"></td>
+     </tr>
+    </table>
+
+    The Root Disease Analyzer -- Armillaria Response Tool (<i>A</i>RT) estimates Armillaria root disease risk in
+    Rocky Mountain Montane Conifer Forest biotic communities.
+    It uses habitat type to identify sites with high and low risk that pathogenic <i>Armillaria</i> will be present,
+    and indicates how fire planning (fuels management) may affect subsequent Armillaria disease within high risk stands.
+    <br><br>
+
+<!--                  -->
+<!--    STAND-LEVEL   -->
+<!--                  -->
+
+    <table width=100%>
+     <tr bgcolor='#006009'>
+      <td align='left' bgcolor='#006009'><font color='#99ff00'><h4>Armillaria Response Tool Lite (Stand-Level Version)</h4></font></td>
+      <td width=50 align="center"><a href="docs/art_short.html" target="docs"><img src="/fswepp/images/epage.gif" border=0 width=50 height=50></a></td>
+     </tr>
+    </table>
+
+    <i>A</i>RT Lite assesses potential risk of Armillaria at the stand level as a result of fuels treatment in a stand.&nbsp;
+  </font>
+  <font color="crimson">
+  <font face="Tahoma">
+
+    <strong>Please Notice:</strong></font></span><font face="tahoma, trebuchet, comic sans, arial">&nbsp;
+  <i>A</i>RT Lite does not assess within-stand variability.&nbsp; By using <i>A</i>RT 
+  Lite, you assume all responsibility for the accuracy of habitat typing and 
+  the assessment of ecological homogeneity of your stand, and for any management 
+  decisions made based on the use of the tool.</font></font><font face="tahoma, trebuchet, comic sans, arial"><br>
+    <b>Inputs:</b> Stand location, habitat type, fuels treatment
+    <br>
+    <b>Outputs:</b> Armillaria Regimes (High or No-to-Low Risk), Effects of fuels treatments on Armillaria risk
+    <br><br>
+ <center>
+    <table border=1 align="center">
+     <tr>
+      <th bgcolor="#006009" width=50%>
+       <form method="post" action="/fuels/art/artlite.html">
+        <input type="submit" value="Run ART Lite"></form></th>
+     </tr>
+    </table>
+   </center>
+
+   <br><br>
+
+<!--                  -->
+<!--  LANDSCAPE-LEVEL -->
+<!--                  -->
+
+    <table width=100%>
+     <tr bgcolor='#006009'>
+      <td align='left' bgcolor='#006009'><font color='#99ff00'><h4>Armillaria Response Tool (Landscape-Level Version)</h4></font></td>
+      <td width=50 align="center"><a href="docs/art_short.html" target="docs"><img src="/fswepp/images/epage.gif" border=0 width=50 height=50></a></td>
+     </tr>
+    </table>
+
+    Habitat type and subseries (groups of habitat types) are the backbone of the assessment of Armillaria risk.
+    The landscape-level version of <i>A</i>RT uses GIS to assess variability in climate and terrain within forest stands.&nbsp; 
+  If significant within-stand variability is found, new habitat type and 
+  subseries assignments are made, based on a new unbiased plant community 
+  classification system. This analysis allows <i>A</i>RT to more accurately 
+  predict potential risk of Armillaria root rot as a result of fuels treatment 
+  in a stand.<br>
+  <b>Inputs:</b> Stand ID, habitat type, slope, aspect, temperature, 
+  precipitation <br>
+  <b>Output:</b> Armillaria Regimes (High or No-to-Low Risk)</font><p>
+  <font color="#ff0000" face="Tahoma" size="2">Note: This implementation of the 
+  landscape-level Armillaria Response Tool is currently limited to two (2) 
+  locales: one in Montana, and one in Oregon.&nbsp; GIS analysis has not been completed for other 
+  locations.</font><font face="tahoma, trebuchet, comic sans, arial"><font color="crimson" face="trebuchet, tahoma, arial, sans serif, geneva, helvetica"><br>
+&nbsp;</p>
+  </font>
+
+    <table border=1 align="center">
+     <tr>
+      <th bgcolor="#006009" width=50%>
+       <form method="post" action="/cgi-bin/smp/rda/rda.pl">
+        <input type="submit" value="Run ART"></form>
+      </th>
+     </tr>
+    </table>
+   <br>
+   <hr>
+   <font size=2>
+    <i>A</i>RT <a href="http://forest.moscowfsl.wsu.edu/fuels/art/">Armillaria Response Tool</a> (under development)<br>
+    USDA Forest Service, Rocky Mountain Research Station, Moscow, ID<br>
+    Microbial Processes<br>
+   </font>
+   <br>
+  </font>
+ </body>
+</html>
