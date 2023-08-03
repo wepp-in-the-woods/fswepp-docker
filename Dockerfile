@@ -21,12 +21,13 @@ RUN apt-get install -y vim
 
 ## Install Wine
 RUN dpkg --add-architecture i386
-RUN wget -nc http://dl.winehq.org/wine-builds/winehq.key
+RUN wget -nc https://dl.winehq.org/wine-builds/winehq.key -O winehq.key
 RUN mv winehq.key /usr/share/keyrings/winehq-archive.key
-RUN wget -nc https://dl.winehq.org/wine-builds/ubuntu/dists/focal/winehq-focal.sources
-RUN mv winehq-focal.sources /etc/apt/sources.list.d/
+RUN echo "deb [signed-by=/usr/share/keyrings/winehq-archive.key] https://dl.winehq.org/wine-builds/ubuntu/ focal main" | tee /etc/apt/sources.list.d/winehq.list
 RUN apt-get update
 RUN apt-get install -y --install-recommends winehq-stable
+
+
 
 ## Set Timezone
 RUN DEBIAN_FRONTEND=noninteractive TZ=America/Los_Angeles apt-get -y install tzdata
@@ -42,9 +43,7 @@ RUN a2enmod cgid
 RUN rm -R /var/www/html
 COPY ./000-default.conf /etc/apache2/sites-enabled/
 RUN echo 'ServerName 0.0.0.0' >> /etc/apache2/apache2.conf
-CMD /etc/init.d/apache2 stop && \
-    /etc/init.d/apache2 start && \
-    /bin/bash
+CMD apachectl -D FOREGROUND
 
 EXPOSE 80
 
