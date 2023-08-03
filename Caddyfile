@@ -1,0 +1,7 @@
+{
+    email rogerlew@uidaho.edu
+}
+
+forest.eecs.wsu.edu, forest.moscowfsl.wsu.edu {
+  reverse_proxy fswepp:80
+}
