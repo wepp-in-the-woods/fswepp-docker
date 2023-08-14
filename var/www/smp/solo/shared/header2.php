@@ -26,5 +26,5 @@
 		<meta http-equiv="imagetoolbar" content="no" />
 		<meta name="MSSmartTagsPreventParsing" content="true" />
         <meta http-equiv="Content-type" content="text/html; charset=iso-8859-1" />
-		<link rel="shortcut icon" href="<?php echo ("".$home_URL.""); ?>/images/favicon.ico" />		
+		<link rel="shortcut icon" href="https://forest.moscowfsl.wsu.edu/images/favicon.ico" />		
 		

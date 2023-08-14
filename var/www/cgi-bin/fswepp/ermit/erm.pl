@@ -13,12 +13,13 @@
 
 #   $pt=1;	# produce probability table as output (see tie into $me below) (also available with a link...)
 #   $zoop=1;
-#  $debug=1;
+
+$verbose=0;
 
   $debug=0;		# DEH 2014-02-07 over-ride command-line
   $new_range=1;		# 2005.09.13 DEH Solidify new range values
   $new_cligen=0;	# 2005.09.13 DEH # 2005.10.12 DEH
-  $weppversion = "6714fc";	# 2014.02.07 DEH 2000 or 2010; WEPP 2010 needs frost.txt file in ERMiT directory to give 'correct' results
+  $weppversion = "wepp_latest";	# 2014.02.07 DEH 2000 or 2010; WEPP 2010 needs frost.txt file in ERMiT directory to give 'correct' results
 
 # -rw-r--r-x    1 dhall    water      239402 Apr  2  2007 erm.pl
 # add path for gnuplot exec for new server 2009_07_13 DEH
@@ -372,7 +373,7 @@
         align="right" alt="Read the documentation" border=0></a>
     </table>
 ';
-     if ($debug) {print "Action: '$action'<br>\nAchtung: '$achtung'<br>\n"}
+     if ($verbose) {print "Action: '$action'<br>\nAchtung: '$achtung'<br>\n"}
 
      print $soil_texture,' ', $soil_symbols, '<br>', $soil_description,"\n";
 
@@ -485,7 +486,7 @@ if ($severityclass eq 'u') {		# 2013.04.19 DEH)
 
 #   $unique='wepp-' . $$;
 
-   if ($debug) {print TEMP "</center>\nUnique? filename= $unique\n<BR>"}
+   if ($verbose) {print TEMP "</center>\nUnique? filename= $unique\n<BR>"}
 
   $evo_file = $eventFile;
 
@@ -521,7 +522,7 @@ if ($severityclass eq 'u') {		# 2013.04.19 DEH)
 #           onload="removeSpinner()">
 #  <font face="Arial, Geneva, Helvetica">
 #';
-  if ($debug) { print TEMP "
+  if ($verbose) { print TEMP "
   <blockquote>
    <pre>
     ERMiT version $version
@@ -556,14 +557,7 @@ if ($severityclass eq 'u') {		# 2013.04.19 DEH)
        @args = (".\\wepp <$responseFile >$stoutFile");
      }
      else {
-       if ($weppversion eq "6714fc") {@args = ("../wepp_6714fc <$responseFile >$stoutFile 2>$sterrFile")}
-       if ($weppversion eq 2010) {@args = ("wine ../wepp2010.100.exe <$responseFile >$stoutFile 2>$sterrFile")}
-       if ($weppversion eq 2008) {@args = ("../wepp2008 <$responseFile >$stoutFile 2>$sterrFile")};  # DEH 2009.02.23
-       if ($weppversion eq 2000) {@args = ("../wepp2000 <$responseFile >$stoutFile 2>$sterrFile")};  # DEH 2009.02.23
-##      if ($weppversion eq '2008') {@args = ("../wepp2008 <$responseFile >$stoutFile 2>$sterrFile")};  # DEH 2009.02.23
-##      if ($weppversion eq '2000') 
-##       {@args = ("../wepp2000 <$responseFile >$stoutFile 2>$sterrFile")};  # DEH 2009.02.23
-#       @args = ("../wepp <$responseFile >$stoutFile 2>$sterrFile");
+       @args = ("../$weppversion <$responseFile >$stoutFile 2>$sterrFile");
      }
      if ($debug) {
       print TEMP "@args
@@ -611,11 +605,7 @@ if ($severityclass eq 'u') {            # 2013.05.03 DEH
        @args = (".\\wepp <$responseFile >$stoutFile");
      }
      else {
-       if ($weppversion eq 2010) {@args = ("wine ../wepp2010.100.exe <$responseFile >$stoutFile 2>$sterrFile")}
-       if ($weppversion eq 2008) {@args = ("../wepp2008 <$responseFile >$stoutFile 2>$sterrFile")};  # DEH 2009.02.23
-       if ($weppversion eq 2000) {@args = ("../wepp2000 <$responseFile >$stoutFile 2>$sterrFile")};  # DEH 2009.02.23
-##                                @args = ("../wepp <$responseFile >$stoutFile 2>$sterrFile");
-##         @args = ("../weppxcomp <$responseFile >$stoutFile 2>$sterrFile") if ($wgr);	# compaction
+       @args = ("../$weppversion <$responseFile >$stoutFile 2>$sterrFile");
      }
      system @args;
 
@@ -699,7 +689,7 @@ if ($severityclass eq 'u') {            # 2013.05.03 DEH
 
 # D.E. Hall 08 June 2001  USDA FS Moscow, ID
 
-   if ($debug) {print TEMP "\nParse WEPP event output EVO file: $eventFile<br>\n";}
+   if ($verbose) {print TEMP "\nParse WEPP event output EVO file: $eventFile<br>\n";}
 
 #   @selected_ranks = (5,10,20,50);
 
@@ -1479,19 +1469,15 @@ $d_day=0;   $d_month=0; $d_year =0;  $d_pcp=0;  $durr = 0; $tp = 0; $ip=0;
 #        `cp $evoFile /var/www/html/fswepp/working/evo`;			# DEH 040913
 #        `cp $ev_by_evFile /var/www/html/fswepp/working/event`;		# DEH 040913
 #       }
-       -e $evoFile and unlink $evoFile;
-       -e $ev_by_evFile and unlink $ev_by_evFile;
+#       -e $evoFile and unlink $evoFile;
+#       -e $ev_by_evFile and unlink $ev_by_evFile;
 ## warning
 #            run WEPP on climate file (4 to 16 years)
       if ($platform eq "pc") {
          @args = ("wepp <$responseFile >$stoutFile");
       }
       else {
-#        @args = ("nice -20 ../wepp <$response ile>$stoutFile 2>$sterrFile");
-      if ($weppversion eq '2008') {@args = ("nice -20 ../wepp2008 <$responseFile >$stoutFile 2>$sterrFile")};  # DEH 2009.02.23
-      if ($weppversion eq '2000') {@args = ("nice -20 ../wepp2000 <$responseFile >$stoutFile 2>$sterrFile")};  # DEH 2009.02.23
-#        @args = ("nice -20 ../wepp <$responseFile >$stoutFile 2>$sterrFile");
-        @args = ("nice -20 ../weppxcomp <$responseFile >$stoutFile 2>$sterrFile") if ($wgr);	# compaction
+        @args = ("nice -20 ../$weppversion <$responseFile >$stoutFile 2>$sterrFile") if ($wgr);	# compaction
       }
        print TEMP "@args\n" if $debug;
        system @args;
@@ -1522,7 +1508,7 @@ $d_day=0;   $d_month=0; $d_year =0;  $d_pcp=0;  $durr = 0; $tp = 0; $ip=0;
 #		store one tables by year
        @seds = &get_event_seds;
 
-       if ($debug) {
+       if ($verbose) {
 
 #         $severity_event_path = $s . '_events.out';
 #         @args = ("copy $ev_by_evFile $severity_event_path");	# TEMP DEH
@@ -1535,7 +1521,7 @@ $d_day=0;   $d_month=0; $d_year =0;  $d_pcp=0;  $durr = 0; $tp = 0; $ip=0;
 
        for $i (0..$#selected_year) {
          $sedtable[$i][$k][$sn] = @seds[$i];
-         if ($debug) {print TEMP "\t",@day[$i],"\t",@month[$i],"\t",@selected_year[$i],"\t",@seds[$i],"\n";}
+         if ($verbose) {print TEMP "\t",@day[$i],"\t",@month[$i],"\t",@selected_year[$i],"\t",@seds[$i],"\n";}
        }
      }   # Loop (k)
    }   # Loop (s)
@@ -2387,7 +2373,7 @@ sub trim($)       # http://www.somacon.com/p114.php
         `cp $evoFile /var/www/html/fswepp/working/evo`;			# DEH 040913
         `cp $ev_by_evFile /var/www/html/fswepp/working/event`;		# DEH 040913
        }
-  if ($debug) {}
+  if ($verbose) {}
   else {
     unlink $soilfile;
     unlink $tempfile;
@@ -3223,6 +3209,7 @@ cp_m944 = new MakeArray; cp_m944.length = a_len
     $scheme = @scheme[@index[$i]];				# 2005.10.25 DEH
     $sedval = @sed_yields[@index[$i]];
     if ($sedval eq '') {$sedval = '0.0'}
+    if ($sedval =~ /^\*/) {$sedval = '99'}
     print "sed_del[$j] = $sedval; scheme[$j] = '$scheme'\n";	# 2005.10.25 DEH
     print "  cp0[$j] = $cum_prob0; ";
     print "  cp1[$j] = $cum_prob1; ";

@@ -1,3 +1,0 @@
-Application tried to create a window, but no driver could be loaded.
-Make sure that your X server is running and that $DISPLAY is set correctly.
-err:systray:initialize_systray Could not create tray window

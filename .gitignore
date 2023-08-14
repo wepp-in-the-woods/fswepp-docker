@@ -1,2 +1,5 @@
 var/www/climate/customData/userData/
 var/www/cgi-bin/fswepp/working/
+var/www/cgi-bin/fswepp/_working/
+var/www/cgi-bin/fswepp/rc/working/
+var/www/cgi-bin/fswepp/rc/_working/

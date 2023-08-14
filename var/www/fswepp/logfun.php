@@ -20,7 +20,7 @@ function currentLogDir() {
 	
 	$curr_year_dir = "_" . $year;
 	
-	if (!file_exists(curr_year_dir)) {
+	if (!file_exists('/var/www/cgi-bin/fswepp/working/' . $curr_year_dir)) {
 		mkdir('/var/www/cgi-bin/fswepp/working/' . $curr_year_dir, 0777, true);
 		mkdir('/var/www/cgi-bin/fswepp/working/' . $curr_year_dir . '/wr', 0777, true);
 		mkdir('/var/www/cgi-bin/fswepp/working/' . $curr_year_dir . '/ww', 0777, true);
