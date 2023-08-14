@@ -179,7 +179,7 @@
    $CL=$parameters{'Climate'};         # get Climate (file name base)
    $climate_name=$parameters{'climate_name'};   ######### requested #########
 
-   $weppversion=$parameters{'weppversion'};     # DEH 2009.02.23
+   $weppversion = "wepp_latest";
 
    $wepphost="localhost";
    if (-e "../wepphost") {
@@ -495,15 +495,7 @@
        @args = ("..\\wepp <$responseFile >$stoutFile"); 
      }
      else {
-       if ($weppversion eq '2010')  {		# DEH 2011.03.25
-#        @args = ("nice -20 ../wepp2008 <$responseFile >$stoutFile 2>$sterFile")
-         @args = ("wine ../wepp2010.100.exe <$responseFile >$stoutFile 2>$sterFile")
-       }
-       else {
-#        if ($weppversion eq '2000')  {
-         @args = ("nice -20 ../wepp2000 <$responseFile >$stoutFile 2>$sterFile")
-       }
-#        @args = ("nice -20 ../wepp <$responseFile >$stoutFile 2>$sterFile");
+       @args = ("../$weppversion <$responseFile >$stoutFile 2>$sterFile");
      }
      system @args;
 
