@@ -19,8 +19,10 @@
 #  $version='2009.09.18';	# patch for stand-alone use (sprintf format and DOS/unix linebreaks)
 #  $version='2006.09.14';	# report climate file mods if appropriate (readPARfile()) on final results page
 #  $version='2004.07.20';
-   $debug=0;
+   $debug=1;
    $batch=1;
+
+   $weppversion="wepp_latest";
 
    $count_limit = 1000;
 #  $count_limit = 200;
@@ -832,8 +834,7 @@ $years
          @args = ("..\\wepp <$responseFile >$stoutFile"); 
        }
        else {
-#        @args = ("nice -20 ../wepp <$responseFile >$stoutFile 2>$sterFile");
-         @args = ("wine ../wepp2010.100.exe <$responseFile >$stoutFile 2>$sterFile");			# DEH 2015.02.10
+         @args = ("../$weppversion <$responseFile >$stoutFile 2>$sterFile");			# DEH 2015.02.10
        }
        system @args;
 

@@ -16,7 +16,9 @@
 
 use Scalar::Util 'looks_like_number';
 
+  $verbose=1;
 #  $debug=1;
+  $weppversion="wepp_latest";
 
 ## BEGIN HISTORY ###################################
 ## Tahoe Basin Sediment Model version history
@@ -42,6 +44,8 @@ use Scalar::Util 'looks_like_number';
 #! $version = "2010.03.03";
 
 ## END HISTORY ###################################
+
+   print "Content-type: text/html\n\n";
 
 #=========================================================================
 
@@ -78,7 +82,7 @@ use Scalar::Util 'looks_like_number';
    $climyears=$parameters{'climyears'};
    $description=$parameters{'description'};	# DEH 2007.04.04
 
-   $weppversion=$parameters{'weppversion'};     # DEH 2009.02.23
+#   $weppversion=$parameters{'weppversion'};     # DEH 2009.02.23
 
 #  determine which week the model is being run, for recording in the weekly runs log
 
@@ -234,7 +238,7 @@ $fullCliFile = $CL . '.cli';                    # DEH 2012.08.21
 
      $tahoe = "http://" . $wepphost . "/cgi-bin/fswepp/tahoe/tahoe.pl";
      $soilFilefq = $soilPath . $soilFile;
-     print "Content-type: text/html\n\n";
+     print "Content-Type: text/html\n\n";
      print '<HTML>
  <HEAD>
   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
@@ -258,7 +262,7 @@ $fullCliFile = $CL . '.cli';                    # DEH 2012.08.21
      </tr>
     </table>
 ';
-     if ($debug) {print "Action: '$action'<br>\nAchtung: '$achtung'<br>\n"}
+     if ($verbose) {print "Action: '$action'<br>\nAchtung: '$achtung'<br>\n";}
 
 #     if ($SoilType eq 'granitic') {
 #       print "Granitic ()<br>\n";
@@ -453,7 +457,7 @@ $fullCliFile = $CL . '.cli';                    # DEH 2012.08.21
 
 #  if ($host eq "") {$host = 'unknown';}
    $unique='wepp-' . $$;
-#  if ($debug) {print 'Unique? filename= ',$unique,"\n<BR>"}
+  if ($verbose) {print 'Unique? filename= ',$unique,"\n<BR>";}
 
    if ($platform eq "pc") {
      if (-e 'd:/fswepp/working') {$working = 'd:\\fswepp\\working'}
@@ -543,38 +547,34 @@ $fullCliFile = $CL . '.cli';                    # DEH 2012.08.21
 
      $ofe_width=$ofe_area*10000/($ofe1_length+$ofe2_length);
 
-     if ($debug) {print "Creating Slope File<br>\n"}
+     if ($verbose) {print "Creating Slope File<br>\n";}
      &CreateSlopeFile;
-     if ($debug) {print "Creating Management File<br>\n"}
+     if ($verbose) {print "Creating Management File<br>\n";}
 #     &CreateManagementFile;
      &CreateManagementFileT;
-     if ($debug) {print "Creating Climate File<br>\n"}
 if ($fc) {
+     if ($verbose) {print "Extracting Climate File<br>\n";}
      &ExtractCligenFile;			# 2012.08.31 DEH
 } else {
+     if ($verbose) {print "Creating Climate File<br>\n";}
      &CreateCligenFile;
 }
-     if ($debug) {print "Creating Soil File<br>\n"}
+     if ($verbose) {print "Creating Soil File<br>\n";}
      &CreateSoilFile;
-     if ($debug) {print "Creating WEPP Response File<br>\n"}
+     if ($verbose) {print "Creating WEPP Response File<br>\n"}
      &CreateResponseFile;
 
-#    @args = ("nice -20 ./wepp <$responseFile >$stoutFile 2>$sterFile");
      if ($platform eq "pc") {
-       @args = ("..\\wepp <$responseFile >$stoutFile")
+       @args = ("..\\wepp <$responseFile >$stoutFile");
      }
      else {
-#      if ($weppversion eq '2008') {@args = ("../wepp2008 <$responseFile >$stoutFile 2>$sterFile")};  # DEH 2009.02.23
-#      if ($weppversion eq '2000')
-#        {@args = ("../wepp2000 <$responseFile >$stoutFile 2>$sterFile")};  # DEH 2009.02.23
-         @args = ("wine ../wepp2010.100.exe <$responseFile >$stoutFile 2>$sterFile")
-#     @args = ("../wepp <$responseFile >$stoutFile 2>$sterFile")
+       @args = ("../$weppversion <$responseFile >$stoutFile 2>$sterFile");
      }
+
      system @args;
 
 ########################  start HTML output ###############
 
-   print "Content-type: text/html\n\n";
    print '<HTML>
  <HEAD>
   <TITLE>Tahoe Basin Sediment Model Results</TITLE>
@@ -986,7 +986,7 @@ print '
 
   # 2010.05.15 #
 
-     unlink $climateFile;    # be sure this is right file .....     # 2012.08.31 TEMP  # DEH 2015.05.27 re-unlink
+     #unlink $climateFile;    # be sure this is right file .....     # 2012.08.31 TEMP  # DEH 2015.05.27 re-unlink
 
 #    print '<HR><BR><CENTER><H3>WEPP summary</H3></CENTER>';
 #    print "\n<PRE>\n";
@@ -2863,7 +2863,7 @@ sub CreateCligenFile {
 
 # end swup
 
-   if ($debug) {print "[CreateCligenFile]<br>
+   if ($verbose) {print "[CreateCligenFile]<br>
 Arguments:    $args<br>
 ClimatePar:   $climatePar<br>
 ClimateFile:  $climateFile<br>
@@ -2890,15 +2890,16 @@ StandardOut:  $stoutfile<br>
     print RSP "n\n";
    close RSP;
 
-   unlink $climateFile;   # erase previous climate file so's CLIGEN'll run
+#   unlink $climateFile;   # erase previous climate file so's CLIGEN'll run
 
     if ($platform eq 'pc') {
        @args = ("..\\rc\\cligen43.exe <$rspfile >$stoutfile");
     }
     else {
-#      @args = ("nice -20 ../rc/cligen43 <$rspfile >$stoutfile");
        @args = ("../rc/cligen43 <$rspfile >$stoutfile");
     }
+
+#    print @args;
    system @args;
 
    $cligen_version="version unknown";
@@ -2913,8 +2914,8 @@ StandardOut:  $stoutfile<br>
    close STOUT;
 #   print $cligen_version;
 
-   unlink $rspfile;     #  "../working/c$unique.rsp"
-   unlink $stoutfile;   #  "../working/c$unique.out"
+#   unlink $rspfile;     #  "../working/c$unique.rsp"
+#   unlink $stoutfile;   #  "../working/c$unique.out"
 
 }
 

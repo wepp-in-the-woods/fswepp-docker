@@ -122,7 +122,6 @@ function getCookie(name){
  <!-- BODY link="#ffffff" vlink="lightblue" onLoad="StartUp()" -->
  <!-- BODY link="crimson" vlink="green" onLoad="StartUp()" -->
  <BODY link="green" alink="crimson" vlink="green" onLoad="StartUp()">
-  <h2>Undergoing scheduled maintentance. Check back later.</h2>
   <font face="Arial, Geneva, Helvetica">
    <table width=100% border=0>
     <tr>

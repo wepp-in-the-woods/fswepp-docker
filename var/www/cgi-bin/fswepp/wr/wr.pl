@@ -497,6 +497,7 @@
      else {
        @args = ("../$weppversion <$responseFile >$stoutFile 2>$sterFile");
      }
+
      system @args;
 
      unlink $climateFile;    # be sure this is right file .....

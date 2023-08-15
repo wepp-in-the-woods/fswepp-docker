@@ -7,6 +7,7 @@ services:
     image: result/latest
     volumes:
       - /workdir/fswepp-docker/var/www:/var/www
+      - /workdir/fswepp-baer-db/baer-db:/var/www/BAERTOOLS/baer-db
 
   caddy:
     image: caddy:2-alpine

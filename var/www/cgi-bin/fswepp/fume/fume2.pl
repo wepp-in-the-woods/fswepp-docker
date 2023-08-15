@@ -45,6 +45,7 @@ use CGI ':standard';
 
   $debug=0;
 
+  $weppversion="wepp_latest";
 # Reads user input from fume.pl,
 #   runs Disturbed WEPP (4 runs) (plus some more)
 #   runs WEPP:Road (3 times)
@@ -671,8 +672,7 @@ print "
 #      print "<p>this is arg : @args <br>\n"
      }
      else {
-#      @args = ("../wepp <$responseFile >$stoutFile 2>$sterFile")
-       @args = ("wine ../wepp2010.100.exe <$responseFile >$stoutFile 2>$sterrFile");	# DEH 2014.04.09
+       @args = ("../$weppversion <$responseFile >$stoutFile 2>$sterrFile");	# DEH 2014.04.09
      }
      system @args;
 

@@ -18,7 +18,7 @@
 # 2011.04.01 DEH -- link TAHOE model treatment/vegetation data files
 # David Hall, USDA Forest Service, Rocky Mountain Research Station
 
-   $debug=1;
+   $debug=0;
 
    print "Content-type: text/html\n\n" if ($debug);
 
