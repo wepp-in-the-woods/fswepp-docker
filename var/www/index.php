@@ -50,12 +50,6 @@ window.onload = showLastModified;
 		Moscow, ID 83843 <br />
 		(208) 882-3557 <br />
 		7:30-4:30 M-F </p>
-<!--  ALERT -->
-      <font color="crimson" size=+1>TODAY'S ALERT</font>
-      <hr>
-      <iframe src="/fswepp/working/notice.html" width=150 frameborder="0">
-       <a href="/fswepp/working/notice.html" target="_o">Notices...</a>
-      </iframe>
       <hr>
 	</div>
 </div>
