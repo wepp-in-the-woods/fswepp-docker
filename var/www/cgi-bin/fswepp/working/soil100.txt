@@ -1,8 +1,7 @@
 95.1
-#  WEPP 'clay loam' 'uuu1' chap soil input file for ERMiT
-#  80% shrub 0% grass 20% bare
-#  Data from U.S. Forest Service RMRS Air, Water and Aquatic Environments (AWAE) Project, Moscow FSL
-#  Created by 'createsoilfile' version 2014.02.06
+#  WEPP 'clay loam' 'hhh4' forest soil input file for ERMiT
+#  Data from RMRS Soil and Water Engineering Project, Moscow FSL
+#  Created by 'createsoilfile' version 2013.05.03
 1	0
-'ERMiT_u1'	'clay loam'	1	0.2	0.75	8983.4	1.9e-05	1.9	19.6
-400	25	30	1	25	20
+'ERMiT_h4'	'clay loam'	1	0.2	0.75	2000000	0.0008	4	2
+400	25	30	5	25	20

@@ -14,7 +14,7 @@
    $version = '2014.11.14';	# modify phosphorus help screen
 #  $version = '2014.04.18';	# allow for greater phosphorus sediment concentrations to match ongoing field data (200 to 2000 mg/kg)
 #  $version = '2012.11.13';	# finer target for fines analysis help text, reset to default rock values when leaving pavement
-#  $version = '2012.10.15';	# add help text to all of table header; http://www.codingforums.com/showthread.php?t=1041
+#  $version = '2012.10.15';	# add help text to all of table header; 
 #  $version = '2012.10.11';	# sort climate pick list -- personal by age, others by climate name
 #  $version = '2012.10.09';	# add help text for geometry
 #  $version = '2012.09.07';	# add burn pile
@@ -207,7 +207,6 @@ psskip:
       }			# if (index
     }			# for $f
 #  ####  index sort climate modification time  ####  #
-#  http://www.perlmonks.org/?node_id=60442
    @ind = sort {$age[$a] <=> $age[$b]} 0..$#age;  	# sort index
 #  ####  copy sorted entries into climate name and file lists  ####  #
    for my $i ( 0..$#age) {
@@ -339,7 +338,7 @@ function click_present() {
 ";
 print <<'theEnd2';
 function popupclosest() {
-url = 'https://forest.moscowfsl.wsu.edu/fswepp/rc/closest.php?units=ft';
+url = '/fswepp/rc/closest.php?units=ft';
 width=900;
 height=600;
 popupwindow = window.open(url,'popupwindow','toolbar=no,location=no,status=no,directories=no,menubar=no,scrollbars=yes,resizable=yes,width='+width+',height='+height);
@@ -943,8 +942,8 @@ print '<BODY bgcolor="white"
   <font face="Arial, Geneva, Helvetica">
   <table width=100% border=0>
     <tr><td> 
-       <a href="https://',$wepphost,'/fswepp/">
-       <IMG src="https://',$wepphost,'/fswepp/images/fsweppic2.jpg" width=75 height=75
+       <a href="/fswepp/">
+       <IMG src="/fswepp/images/fsweppic2.jpg" width=75 height=75
        align="left" alt="Back to FS WEPP menu" border=0></a>
     <td align=center>
        <hr>
@@ -956,7 +955,7 @@ print '<BODY bgcolor="white"
         align="right" alt="Tahoe Workshop worksheet (125 kb PDF)" border=0></a>
     </table>
   <center>
-  <form name="weppdist" method="post" ACTION="https://',$wepphost,'/cgi-bin/fswepp/tahoe/wt.pl">
+  <form name="weppdist" method="post" ACTION="/cgi-bin/fswepp/tahoe/wt.pl">
   <input type="hidden" size="1" name="me" value="',$me,'">
   <input type="hidden" size="1" name="units" value="',$units,'">
 <br>
@@ -1330,12 +1329,10 @@ print <<'theEnd';
 theEnd
   print '
  <font size=-1>
-  <a href="https://',$wepphost,'/fswepp/comments.html" ';
-  if ($wepphost eq 'localhost') {print 'onClick="return confirm(\'You must be connected to the Internet to e-mail comments. Shall I try?\')"'};                                  
-  print '>                                                              
+  <a href="/fswepp/comments.html" >                                                              
   <img src="/fswepp/images/epaemail.gif" align="right" border=0></a>
-  <a href="http://www.blm.gov/nv/st/en/snplma.html" target="snplma"><img src="/fswepp/images/SNPLMAlogo.png" width=100 align="right" border=o></a>
-
+  <a href="https://www.blm.gov/programs/lands-and-realty/regional-information/nevada/snplma" 
+     target="snplma"><img src="/fswepp/images/SNPLMAlogo.png" width=100 align="right" border=o></a>
   <font size=-2>
    The Tahoe Basin Sediment Model is a version of Disturbed WEPP customized for the Lake Tahoe Basin.
    <br><br>
@@ -1345,7 +1342,8 @@ theEnd
    Online at &lt;https://forest.moscowfsl.wsu.edu/fswepp&gt;.
    <br><br>
    With support from the U.S. Department of the Interior Bureau of Land Management
-   <a href="http://www.blm.gov/nv/st/en/snplma.html">Southern Nevada Public Land Management Act</a>
+   <a href="https://www.blm.gov/programs/lands-and-realty/regional-information/nevada/snplma">
+     Southern Nevada Public Land Management Act</a>
    <br><br>
    Tahoe Basin Sediment Model Interface v.
    <a href="javascript:popuphistory()">',$version,'</a><br>
