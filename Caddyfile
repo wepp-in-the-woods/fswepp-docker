@@ -3,6 +3,10 @@
 }
 
 forest.eecs.wsu.edu, forest.moscowfsl.wsu.edu {
-   reverse_proxy fswepp:80
-#  reverse_proxy http://forest-old.eecs.wsu.edu
+
+  ## reverse proxy for the main site
+  reverse_proxy fswepp:80
+
+  ## Reverse Proxy for old server
+  #  reverse_proxy http://forest-old.eecs.wsu.edu
 }
