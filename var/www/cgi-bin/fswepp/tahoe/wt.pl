@@ -16,9 +16,9 @@
 
 use Scalar::Util 'looks_like_number';
 
-  $verbose=0;
-#  $debug=1; # this likely breaks the page. wasn't tested. likely prints without ;
-  $weppversion="wepp_latest";
+$verbose=0;
+# $debug=1; # this likely breaks the page. wasn't tested. likely prints without ;
+$weppversion="wepp_latest";
 
 ## BEGIN HISTORY ###################################
 ## Tahoe Basin Sediment Model version history
@@ -179,6 +179,8 @@ $fullCliFile = $CL . '.cli';                    # DEH 2012.08.21
      close HOST;
    }
 
+   $tahoe = "https://$wepphost/cgi-bin/fswepp/tahoe/tahoe.pl";
+
    $platform = "unix";
    if (-e "../platform") {
      open PLATFORM, "<../platform";
@@ -189,7 +191,6 @@ $fullCliFile = $CL . '.cli';                    # DEH 2012.08.21
    }
 
    if (lc($action) =~ /custom/) {
-     $tahoe = "/cgi-bin/fswepp/tahoe/tahoe.pl";
      if ($platform eq "pc") {
        exec "perl ../rc/rockclim.pl -server -i$me -u$units $tahoe"
      }
@@ -200,7 +201,6 @@ $fullCliFile = $CL . '.cli';                    # DEH 2012.08.21
    }		# /custom/
 
    if (lc($achtung) =~ /describe climate/) {
-     $tahoe = "/cgi-bin/fswepp/tahoe/tahoe.pl";
      if ($platform eq "pc") {
        exec "perl ../rc/descpar.pl $CL $units $tahoe"
      }
@@ -234,7 +234,6 @@ $fullCliFile = $CL . '.cli';                    # DEH 2012.08.21
      if (substr ($surface,0,1) eq "g") {$surf = "g"}
      $soilFile = '3' . $surf . $SoilType . $conduct . '.sol';
 
-     $tahoe = "/cgi-bin/fswepp/tahoe/tahoe.pl";
      $soilFilefq = $soilPath . $soilFile;
      print "Content-Type: text/html\n\n";
      print '<HTML>

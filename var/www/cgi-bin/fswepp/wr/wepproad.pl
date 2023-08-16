@@ -381,7 +381,7 @@ theEnd
 print "
 
   function popupclosest() { 
-    url = 'https://forest.moscowfsl.wsu.edu/fswepp/rc/closest.php?units=ft'; width=900; height=600; popupwindow = 
+    url = '/fswepp/rc/closest.php?units=ft'; width=900; height=600; popupwindow = 
     window.open(url,'popupwindow','toolbar=no,location=no,status=no,directories=no,menubar=no,scrollbars=yes,resizable=yes,width='+width+',height='+height);
     popupwindow.focus ()
                           }
@@ -398,7 +398,7 @@ print "
   }
 
 function popupwidth() {
-url = 'https://",$wepphost,"/fswepp/wr/wrwidths.html';
+url = '/fswepp/wr/wrwidths.html';
 height=200;
 width=500;
 popupwindow = window.open(url,'popupwindow','toolbar=no,location=no,status=no,directories=no,menubar=no,scrollbars=yes,resizable=yes,width='+width+',height='+height);
@@ -414,7 +414,7 @@ popupwindow.focus()
 }
 
 function popupdesign() {
-url = 'https://",$wepphost,"/fswepp/wr/rddesign.html';
+url = '/fswepp/wr/rddesign.html';
 height=500;
 width=660;
 popupwindow = window.open(url,'popupwindow','toolbar=no,location=no,status=no,directories=no,menubar=no,scrollbars=yes,resizable=yes,width='+width+',height='+height);
@@ -422,7 +422,7 @@ popupwindow.focus()
 }
 
 function popuptraffic() {
-url = 'https://",$wepphost,"/fswepp/wr/traflevl.html';
+url = '/fswepp/wr/traflevl.html';
 height=500;
 width=660;
 popupwindow = window.open(url,'popupwindow','toolbar=no,location=no,status=no,directories=no,menubar=no,scrollbars=yes,resizable=yes,width='+width+',height='+height);
@@ -430,7 +430,7 @@ popupwindow.focus()
 }
 
 function popuprock() {
-url = 'https://",$wepphost,"/fswepp/wr/rockcont.html';
+url = '/fswepp/wr/rockcont.html';
 height=500;
 width=660;
 popupwindow = window.open(url,'popupwindow','toolbar=no,location=no,status=no,directories=no,menubar=no,scrollbars=yes,resizable=yes,width='+width+',height='+height);
@@ -438,7 +438,7 @@ popupwindow.focus()
 }
 
 function popupsurface() {
-url = 'https://",$wepphost,"/fswepp/wr/roadsurf.html';
+url = '/fswepp/wr/roadsurf.html';
 height=500;
 width=660;
 popupwindow = window.open(url,'popupwindow','toolbar=no,location=no,status=no,directories=no,menubar=no,scrollbars=yes,resizable=yes,width='+width+',height='+height);
@@ -454,8 +454,8 @@ print '<BODY bgcolor="white" link="#555555" vlink="#555555">
   <font face="Arial, Geneva, Helvetica">
   <table width="100%" border=0>
     <tr><td>
-       <a href="https://',$wepphost,'/fswepp/">
-       <IMG src="https://',$wepphost,'/fswepp/images/fsweppic2.jpg"
+       <a href="/fswepp/">
+       <IMG src="/fswepp/images/fsweppic2.jpg"
        width=65 height=65
        align="left" alt="Return to FSWEPP menu" border=0></a>
     <td align=center>
@@ -463,8 +463,8 @@ print '<BODY bgcolor="white" link="#555555" vlink="#555555">
        <H2>WEPP:Road<br>WEPP Forest Road Erosion Predictor</H2>
        <hr>
     <td>
-       <A HREF="https://',$wepphost,'/fswepp/docs/wroadimg.html" target="docs">
-       <IMG src="https://',$wepphost,'/fswepp/images/ipage.gif"
+       <A HREF="/fswepp/docs/wroadimg.html" target="docs">
+       <IMG src="/fswepp/images/ipage.gif"
         align="right" alt="Read the documentation" border=0></a>
     </table>
 
@@ -707,11 +707,6 @@ onFocus="showExtendedHelp()" onBlur="blankStatus()">
 theEnd
 
 print '
-  <font color=red size=-2>
-   <script>
-//    <!-- For <a href="JavaScript:popup(\'wepp2010\')"> continuity:</a> <a href="/cgi-bin/fswepp/wr/wepproadv2000.pl?units=',$units,'"> WEPP:Road 2000 </a> -->
-   </script>
-  </font>
   <br>
 
   <input type="hidden" name="climate_name">
@@ -720,8 +715,7 @@ print '
    <hr>
   </FORM>
 
-  <form name="newlog" method=post action="https://',
-      $wepphost,'/cgi-bin/fswepp/wr/logstuffwr.pl">
+  <form name="newlog" method=post action="/cgi-bin/fswepp/wr/logstuffwr.pl">
   Project description <input type="text" name="projectdescription">
   <input type="submit" name="button" value="Create new log" onClick="return confirm(\'This will delete any existing log file\')">
 ';
@@ -732,8 +726,6 @@ if (-e $logFile) {
   $remote_host = $ENV{'REMOTE_HOST'};
   $remote_address = $ENV{'REMOTE_ADDR'};  # if ($userIP eq '');
 
-# $wc  = `wc ../working/_2015/wr.log`;
-# $wc  = `wc ../working/_2016/wr.log`;
   $wc  = `wc ../working/' . currentLogDir() . '/wr.log`;
   @words = split " ", $wc;
   $runs = @words[0];
@@ -766,12 +758,10 @@ print '  </FORM>
      </font>
     </td>
     <td>
-     <a href=\"https://$wepphost/fswepp/comments.html\" 
+     <a href=\"/fswepp/comments.html\" 
 ";
-if ($wepphost eq 'localhost')
- {print 'onClick="return confirm(\'You must be connected to the Internet to e-mail comments. Shall I try?\')"'};
 print '> 
-     <img src="https://',$wepphost,'/fswepp/images/epaemail.gif" align="right" border=0></a>
+     <img src="/fswepp/images/epaemail.gif" align="right" border=0></a>
     </td>
    </tr>
   </table>

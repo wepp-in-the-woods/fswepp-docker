@@ -140,8 +140,8 @@
 #   $thisyear  -- year of the run (ie, 2012)
 #   $dayoffset -- account for which day of the week Jan 1 is: -1: Su; 0: Mo; 1: Tu; 2: We; 3: Th; 4: Fr; 5: Sa.
 
-   $thisday = 1 + (localtime)[7];               # $yday, day of the year (0..364)
-   $thisyear = 1900 + (localtime)[5];		# http://perldoc.perl.org/functions/localtime.html
+   $thisday = 1 + (localtime)[7];           # $yday, day of the year (0..364)
+   $thisyear = 1900 + (localtime)[5];		
    
    if    ($thisyear == 2010) { $dayoffset = 4 }	# Jan 1 is Friday
    elsif ($thisyear == 2011) { $dayoffset = 5 }	# Jan 1 is Saturday
@@ -388,7 +388,7 @@
       <br><br>
        <center>
         <a href="JavaScript:window.history.go(-1)">
-         <img src="https://',$wepphost,'/fswepp/images/rtis.gif"
+         <img src="/fswepp/images/rtis.gif"
           alt="Return to input screen" border="0" align=center></a>
          <input type="hidden" value="',$soilFile,'" name"filename">
      </form>
