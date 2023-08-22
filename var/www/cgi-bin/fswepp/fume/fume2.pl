@@ -338,11 +338,12 @@ end0
    }
 
   </script>
+  <link rel='stylesheet' type='text/css' href='/fswepp/notebook.css'>
  </HEAD>
 ";
 
 print '
- <BODY background="/fswepp/images/note.gif" link="#555555" vlink="#555555">
+ <BODY>
   <font face="trebuchet, tahoma, Arial, Geneva, Helvetica">
    <blockquote> 
     <table width=100% border=0>
@@ -3125,13 +3126,8 @@ sub wrdt{
 #    $zzcligen = &CreateCligenFilewr;
      $zzresp   = &CreateResponseFilewr;
 
-     if ($platform eq "pc") {
-       @args = ("c:\\Inetpub\\Scripts\\fswepp\\wepp <$responseFile >$stoutFile");#elena 
-     }
-     else {
-#      @args = ("nice -20 ../wepp <$responseFile >$stoutFile 2>$sterFile");
-       @args = ("wine ../wepp2010.100.exe <$responseFile >$stoutFile 2>$sterrFile");		# DEH 2014.04.09
-     }
+     @args = ("../$weppversion <$responseFile >$stoutFile 2>$sterrFile");	
+
      system @args;
 
 #     unlink $climateFile;    # be sure this is right file .....

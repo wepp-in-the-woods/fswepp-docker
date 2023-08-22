@@ -86,7 +86,8 @@
 ## BEGIN HISTORY ####################################################
 # WEPP:Road Version History
 
-   $version = '2015.03.02';	# Remove Provisional proviso
+  $version = '2023.08.16'; # docker refactor
+#  $version = '2015.03.02';	# Remove Provisional proviso
 #  $version = '2012.12.31';	# complete move to year-based logging (2012 through 2020)
 #  $version = '2012.11.20';	# Revise hisory display
 #  $version = "2011.03.25";	# Allow WEPP 2010 executable run
@@ -96,7 +97,7 @@
 #  $version = "2011.03.25";	# Select WEPP2000 or WEPP2010 added (altho calling screen not modified to specify)
 #  $version = "2009.10.13";	# Change display of vegetation file to allow full file display (had been truncated for brevity)
 #  $version = "2009.02.23";	# Add WEPP version option, Reduce baseline interrill erodibility (k<sub>i</sub>) for low- and no-traffic conditions
-#! $version = "2008.06.04";	# Record Lat/Long to wr.log
+#  $version = "2008.06.04";	# Record Lat/Long to wr.log
 #  $version = "2006.09.18";	# Reformat INPUT report, change extended to WEPP results, paint results table, move calculated %rock, Remove you must be connected to the Internet, shall I try? message on comment link
 #  $version = "2006.09.14";	# Report user climate parameters
 #  $version = "2006.02.23";	# Print $unique in output and in title of each file listing popup; unlink $newSoilFile
@@ -297,15 +298,16 @@
      &CreateSoilFile;
 
      print "Content-type: text/html\n\n";
-     print "<HTML>
+     print '<HTML>
  <HEAD>
   <TITLE>WEPP:Road -- Soil Parameters</TITLE>
+  <link rel="stylesheet" type="text/css" href="/fswepp/notebook.css">
  </HEAD>
- <BODY background=\"/fswepp/images/note.gif\" link=\"#1603F3\" vlink=\"#160A8C\">
-  <font face=\"Arial, Geneva, Helvetica\">
+ <BODY>
+  <font face="Arial, Geneva, Helvetica">
    <center><h1>WEPP:Road Soil Parameters</h1></center>
    <blockquote>
-";
+';
 #    &printdate;
 
      if    ($surf eq 'g') {print 'Graveled '}
@@ -505,7 +507,8 @@
      print "Content-type: text/html\n\n";
      print "<HTML>
  <HEAD>
-  <TITLE>WEPP:Road Results</TITLE>
+  <TITLE>WEPP:Road Results</TITLE>  
+  <link rel=\"stylesheet\" type=\"text/css\" href=\"/fswepp/notebook.css\">
    <script language=\"javascript\">
 
   function popuphistory() {
@@ -661,9 +664,10 @@
 ';
 
   print '
+   <link rel="stylesheet" type="text/css" href="/fswepp/notebook.css">
    </script>
  </head>
- <BODY background="/fswepp/images/note.gif" link="green" vlink="#160A8C">
+ <BODY>
   <font face="Arial, Geneva, Helvetica">
    <blockquote>
     <CENTER>
@@ -721,12 +725,13 @@
 #    | <a href="javascript:void(showvegfile())">vegetation</a>
    else {
      print "Content-type: text/html\n\n";                    
-     print "<HTML>\n";                                       
-     print " <HEAD>\n";                                      
-     print "  <TITLE>WEPP:Road -- error messages</TITLE>\n"; 
-     print " </HEAD>\n";                                     
      print '
- <BODY background="/fswepp/images/note.gif" link="green" vlink="#160A8C">
+<HTML>                                       
+ <HEAD>                                      
+   <TITLE>WEPP:Road -- error messages</TITLE>
+    <link rel="stylesheet" type="text/css" href="/fswepp/notebook.css">
+ </HEAD>                                     
+ <BODY>
   <font face="Arial, Geneva, Helvetica">
    <blockquote>
     <center>

@@ -19,7 +19,7 @@
 #  $version='2009.09.18';	# patch for stand-alone use (sprintf format and DOS/unix linebreaks)
 #  $version='2006.09.14';	# report climate file mods if appropriate (readPARfile()) on final results page
 #  $version='2004.07.20';
-   $debug=1;
+   $debug=0;
    $batch=1;
 
    $weppversion="wepp_latest";
@@ -395,11 +395,13 @@ skip_check:
       popupwindow.focus()
      }
     }
+
   </script>
+  <link rel='stylesheet' type='text/css' href='/fswepp/notebook.css'>
  </HEAD>
 ";
      print '
- <BODY background="https://',$wepphost,'/fswepp/images/note.gif" link="#ff0000">
+ <BODY>
   <font face="Arial, Geneva, Helvetica, sans serif">
 ';
      print '

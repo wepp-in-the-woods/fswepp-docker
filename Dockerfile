@@ -54,6 +54,15 @@ COPY var/www/cgi-bin/BAERTOOLS/baer-db/Query.pl /etc/perl/
 COPY var/www/cgi-bin/BAERTOOLS/baer-db/PageCommon.pl /etc/perl/
 COPY var/www/cgi-bin/BAERTOOLS/baer-db/ShowProj.pl /etc/perl/
 
+# on host
+# > sudo groupadd webgroup
+# > sudo usermod -aG webgroup your_username
+# > sudo chown -R :webgroup fswepp-docker
+# > sudo chmod g+s fswepp-docker
+# > getent group webgroup | cut -d: -f3
+RUN groupadd -g 1002 webgroup && \
+    usermod -aG webgroup www-data
+
 ## Configure Apache
 RUN a2enmod cgid
 RUN rm -R /var/www/html

@@ -35,6 +35,32 @@
     div#content a:link:hover {color: #FF0;}
     div#content a:visited:hover {color: #CC0;}
     code, pre {color: #EDC; font: 110% monospace;}
+
+/* Banner styles */
+.youtube-banner {
+    background-color: #FFFFFF; /* White background */
+    color: #FF0000; /* YouTube's primary red color for text */
+    padding: 15px 25px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto; /* Auto margins for centering */
+    font-size: 1.2em;
+    border: 1px solid #FF0000; /* YouTube's primary red color for border */
+    max-width: 500; /* Adjust this to your preferred maximum width */
+}
+
+
+.youtube-banner a {
+    color: #FF0000; /* YouTube's primary red color for link */
+    text-decoration: underline; /* Underlined link */
+    font-weight: bold;
+}
+
+.youtube-banner a:hover {
+    text-decoration: none; /* Remove underline on hover */
+}
    -->
   </style>
 
@@ -154,6 +180,12 @@ function getCookie(name){
 
   <center>
 
+
+    <!-- The banner -->
+    <div class="youtube-banner">
+        Check out our <a href="https://www.youtube.com/@fswepp4700" target="_blank">YouTube tutorials</a> and learn more!
+    </div>
+
     <TABLE border="0" bgcolor="ivory">
 
 <!-- ====================================================== -->
@@ -271,7 +303,7 @@ function getCookie(name){
 
       <td align="center" bgcolor="lightgrey">
        <div id="help">
-        <a href="batch/bERMiT.html" target="_doit"
+        <a href="batch/ermit/" target="_doit"
              onMouseOver="window.status='';return true"
              onMouseOut="window.status='FS WEPP'; return true">ERMiT batch (download)
          <span>
@@ -289,7 +321,7 @@ function getCookie(name){
        </font>
       </td>
       <td align=center bgcolor="lightgrey">
-       <a href="batch/bERMiT.html" target="_doit">
+       <a href="batch/ermit/" target="_doit">
        <img src="images/bERMiT.gif"
         alt="Batch ERMiT interface spreadsheet download"
         height=50 width=50
@@ -340,7 +372,7 @@ function getCookie(name){
 
       <td align="center" bgcolor="lightgrey">
        <div id="help">
-        <a href="batch/dWb.html" target="_doit"
+        <a href="batch/dw/" target="_doit"
              onMouseOver="window.status='Disturbed WEPP Batch interface spreadsheet download';return true"
              onMouseOut="window.status='FS WEPP'; return true">Disturbed WEPP batch (download)
          <span>
@@ -358,7 +390,7 @@ function getCookie(name){
        </font>
       </td>
       <td align=center bgcolor="lightgrey">
-       <a href="batch/dWb.html" target="_doit">
+       <a href="batch/dw/" target="_doit">
        <img src="images/dWb.gif"
         alt="Disturbed WEPP batch interface spreadsheet download"
         height=50 width=50
