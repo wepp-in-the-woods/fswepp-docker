@@ -6,9 +6,9 @@
   <font face="calibri, trebuchet, tahoma, arial, sans serif">
    <h3>Disturbed WEPP batch interface spreadsheet</h3>
     <ul>
-     <li>     <a href="Disturbed_WEPP_Batch_20220322.xlsm">Disturbed WEPP Batch ver. 2022.03.22</a> Windows 10 and Excel 2016-compatible interface spreadsheet with rock % import (2 MB .xlsm file)
-     <li>     <a href="Disturbed_WEPP_Batch_2018_04_06.xlsm">Disturbed WEPP Batch ver. 2018.04.06</a> Windows 10 and Excel 2016-compatible interface spreadsheet (2 MB .xlsm file)
-     <li>     <a href="Disturbed_WEPP_Batch_20170116.xls">Disturbed WEPP Batch ver. 2017.01.16</a> interface spreadsheet (2 MB .xls file)<br><br>
+     <li>     <a href="spreadsheets/Disturbed_WEPP_Batch_20220322.xlsm">Disturbed WEPP Batch ver. 2022.03.22</a> Windows 10 and Excel 2016-compatible interface spreadsheet with rock % import (2 MB .xlsm file)
+     <li>     <a href="spreadsheets/Disturbed_WEPP_Batch_2018_04_06.xlsm">Disturbed WEPP Batch ver. 2018.04.06</a> Windows 10 and Excel 2016-compatible interface spreadsheet (2 MB .xlsm file)
+     <li>     <a href="spreadsheets/Disturbed_WEPP_Batch_20170116.xls">Disturbed WEPP Batch ver. 2017.01.16</a> interface spreadsheet (2 MB .xls file)<br><br>
     </ul>
 
     <font color=crimson><i>We welcome any feedback you have.</i></font>

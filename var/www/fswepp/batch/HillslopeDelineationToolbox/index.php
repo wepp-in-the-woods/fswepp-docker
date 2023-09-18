@@ -13,7 +13,7 @@
     <ul>
         <li><a href="download.php?file=arcgis_v10-3">Toolbox for ArcGIS v. 10.3</a> (v. 2012.04.01 modified 2017.03.22) (.TBX file)</li>
         <li><a href="download.php?file=arcgis_v10-0">Toolbox for ArcGIS v. 10.0</a> (v. 2012.04.01) (3.4 MB TBX file)</li>
-        <li><a href="manual/10-04818-000_Hillslope_Toolbox_User_Guide-ArcGIS_10-2012_03_30.pdf">Toolbox User Manual for ArcGIS v. 10.0 (2012.04.11)</a> (40 page 3 MB PDF)</li>
+        <li><a href="manuals/10-04818-000_Hillslope_Toolbox_User_Guide-ArcGIS_10-2012_03_30.pdf">Toolbox User Manual for ArcGIS v. 10.0 (2012.04.11)</a> (40 page 3 MB PDF)</li>
     </ul>
 
     <h4>ArcGIS 9</h4>

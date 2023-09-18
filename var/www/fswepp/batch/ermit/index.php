@@ -26,9 +26,9 @@
     <blockquote>
     Download Batch ERMiT interface spreadsheet (Note: pre-2017 versions no longer work)
     <ul>
-     <li>Version <a href="ERMiT_Batch_20220322.xlsm">2022.03.22</a> (2.2 MB .xlsm file) for burned and unburned conditions &amp; PEP &ndash; Windows 10 and Excel 2016-compatible with rock % import</li>
-     <li>Version <a href="ERMiT_Batch_2018-04-01.xlsm">2018.04.01</a> (2.2 MB .xlsm file) for burned and unburned conditions &amp; PEP &ndash; Windows 10 and Excel 2016-compatible</li>
-     <li>Version <a href="ERMiT_Batch_20170203-https_modif-production.xls">2017.02.03</a> (2.4 MB .xls file) for burned and unburned conditions &amp; PEP</li>
+     <li>Version <a href="spreadsheets/ERMiT_Batch_20220322.xlsm">2022.03.22</a> (2.2 MB .xlsm file) for burned and unburned conditions &amp; PEP &ndash; Windows 10 and Excel 2016-compatible with rock % import</li>
+     <li>Version <a href="spreadsheets/ERMiT_Batch_2018-04-01.xlsm">2018.04.01</a> (2.2 MB .xlsm file) for burned and unburned conditions &amp; PEP &ndash; Windows 10 and Excel 2016-compatible</li>
+     <li>Version <a href="spreadsheets/ERMiT_Batch_20170203-https_modif-production.xls">2017.02.03</a> (2.4 MB .xls file) for burned and unburned conditions &amp; PEP</li>
     </ul>
     <font color=crimson><i>We welcome any feedback you have.</i></font>
     <br><br>

@@ -3,7 +3,7 @@
 $files = [
     'arcgis_v10-3' => 'toolbox/Hillslope_Delineation_Tools_v10-3(ism).tbx',
     'arcgis_v10-0' => 'toolbox/Hillslope_Delineation_Tools_v10.0.tbx',
-    'arcgis_v9-3'  => 'toolbox/Hillslope_Delineation_Tools_v9.3.tbx'
+    'arcgis_v9-3'  => 'toolbox/HillslopeDelineationTools9.3.tbx'
 ];
 
 // Check if the 'file' GET parameter is set and exists in our mapping
