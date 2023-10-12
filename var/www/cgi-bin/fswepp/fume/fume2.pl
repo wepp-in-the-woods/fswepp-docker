@@ -45,7 +45,7 @@ use CGI ':standard';
 
   $debug=0;
 
-  $weppversion="wepp_latest";
+  $weppversion="wepp2010_1";
 # Reads user input from fume.pl,
 #   runs Disturbed WEPP (4 runs) (plus some more)
 #   runs WEPP:Road (3 times)

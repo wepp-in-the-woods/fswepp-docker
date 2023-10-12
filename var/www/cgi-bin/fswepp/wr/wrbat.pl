@@ -22,7 +22,7 @@
    $debug=0;
    $batch=1;
 
-   $weppversion="wepp_latest";
+   $weppversion="wepp2010_1";
 
    $count_limit = 1000;
 #  $count_limit = 200;

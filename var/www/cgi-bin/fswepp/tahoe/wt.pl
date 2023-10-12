@@ -18,7 +18,7 @@ use Scalar::Util 'looks_like_number';
 
 $verbose=0;
 # $debug=1; # this likely breaks the page. wasn't tested. likely prints without ;
-$weppversion="wepp_latest";
+$weppversion="wepp2010_1";
 
 ## BEGIN HISTORY ###################################
 ## Tahoe Basin Sediment Model version history

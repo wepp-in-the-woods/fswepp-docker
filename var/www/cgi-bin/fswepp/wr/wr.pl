@@ -180,7 +180,7 @@
    $CL=$parameters{'Climate'};         # get Climate (file name base)
    $climate_name=$parameters{'climate_name'};   ######### requested #########
 
-   $weppversion = "wepp_latest";
+   $weppversion = "wepp2010_1";
 
    $wepphost="localhost";
    if (-e "../wepphost") {

@@ -19,7 +19,7 @@ $verbose=0;
   $debug=0;		# DEH 2014-02-07 over-ride command-line
   $new_range=1;		# 2005.09.13 DEH Solidify new range values
   $new_cligen=0;	# 2005.09.13 DEH # 2005.10.12 DEH
-  $weppversion = "wepp_latest";	# 2014.02.07 DEH 2000 or 2010; WEPP 2010 needs frost.txt file in ERMiT directory to give 'correct' results
+  $weppversion = "wepp2010_1";	# 2014.02.07 DEH 2000 or 2010; WEPP 2010 needs frost.txt file in ERMiT directory to give 'correct' results
 
 # -rw-r--r-x    1 dhall    water      239402 Apr  2  2007 erm.pl
 # add path for gnuplot exec for new server 2009_07_13 DEH
@@ -553,12 +553,8 @@ if ($severityclass eq 'u') {		# 2013.04.19 DEH)
 ";
     }
 
-     if ($platform eq "pc") {
-       @args = (".\\wepp <$responseFile >$stoutFile");
-     }
-     else {
-       @args = ("../$weppversion <$responseFile >$stoutFile 2>$sterrFile");
-     }
+     @args = ("../$weppversion <$responseFile >$stoutFile 2>$sterrFile");
+     
      if ($debug) {
       print TEMP "@args
     </pre>
@@ -600,13 +596,7 @@ if ($severityclass eq 'u') {            # 2013.05.03 DEH
      &CreateResponseFile;
      if ($debug) {$printfilename = $responseFile; &printfile}
 
-#    @args = ("nice -20 ./wepp <$responseFile >$stoutFile 2>$sterrFile");
-     if ($platform eq "pc") {
-       @args = (".\\wepp <$responseFile >$stoutFile");
-     }
-     else {
-       @args = ("../$weppversion <$responseFile >$stoutFile 2>$sterrFile");
-     }
+     @args = ("../$weppversion <$responseFile >$stoutFile 2>$sterrFile");
      system @args;
 
 ###
@@ -2373,7 +2363,7 @@ sub trim($)       # http://www.somacon.com/p114.php
         `cp $evoFile /var/www/html/fswepp/working/evo`;			# DEH 040913
         `cp $ev_by_evFile /var/www/html/fswepp/working/event`;		# DEH 040913
        }
-  if ($verbose) {}
+  if (1) {}
   else {
     unlink $soilfile;
     unlink $tempfile;
