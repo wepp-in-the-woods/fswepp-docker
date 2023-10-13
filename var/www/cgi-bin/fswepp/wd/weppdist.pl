@@ -779,9 +779,9 @@ print <<'theEnd';
  <table border = 7>
   <tr>
    <td bgcolor="85d2d2" colspan=2>
-    <b>Run description:</b> <input type = "text" name="description" value="" size=50>
+    <b>Run description:</b> <input type = "text" name="description" value="" size="50" tabindex="1">
     &nbsp;&nbsp;
-    <b>Years to simulate:</b> <input type="text" size="3" name="climyears" value="10"
+    <b>Years to simulate:</b> <input type="text" size="3" name="climyears" value="10" tabindex="2"
         onChange="checkYears(this.form.climyears)"
         onFocus="showRange(this.form,'Years to simulate: ',minyear, maxyear, '','')"
         onBlur="blankStatus()">
@@ -806,7 +806,7 @@ print <<'theEnd';
 theEnd
 print '
       <td align="center" bgcolor="#FAF8CC">
-       <SELECT NAME="Climate" SIZE="',$num_cli+1,'">
+       <SELECT NAME="Climate" SIZE="',$num_cli+1,'" tabindex="3">
 ';
 ### display personal climates, if any
 
@@ -822,7 +822,7 @@ print '
     }
     print "       </SELECT>
       <tr><td align=center>
-      <input type=\"hidden\" name=\"achtung\" value=\"Run WEPP\">
+      <input type=\"hidden\" name=\"achtung\" value=\"Run WEPP\" >
       <input type=\"SUBMIT\" name=\"actionc\" value=\"Custom Climate\">
       <input type=\"button\" value=\"Closest Wx\" onclick=\"javascript:popupclosest()\">
 ";
@@ -845,45 +845,25 @@ print <<'theEnd';
              onMouseOut="window.status='Forest Service Disturbed WEPP Model'; return true">
              <img src="/fswepp/images/quest_b.gif" border=0 name="soil_quest"></a>
 theEnd
-# TAHOE soils
-#print "
-#      <tr>
-#       <TD align=\"center\" bgcolor=\"#FAF8CC\">
-#       <SELECT NAME=\"SoilType\" SIZE=4
-#         onChange=\"showTexture()\"
-#         onBlur=\"blankStatus()\">
-#         <OPTION VALUE=\"granitic\" selected>granitic
-#         <OPTION VALUE=\"volcanic\">volcanic
-#         <OPTION VALUE=\"alluvial\">alluvial
-#         <OPTION VALUE=\"rockpave\">rock/pavement -&gt; alluvial
-#       </SELECT>
-#      </td>
-#     </tr>
-#    </table>
-#
-#  </td>
-#  <td>
-#";
-# Disturbed WEPP 1.0 soils
 
-print "
+print '
       <tr>
-       <TD align=\"center\" bgcolor=\"#FAF8CC\">
-        <SELECT NAME=\"SoilType\" SIZE=\"4\"
-         onChange=\"showTexture()\"
-         onBlur=\"blankStatus()\">
-         <OPTION VALUE=\"clay\" selected>clay loam
-         <OPTION VALUE=\"silt\">silt loam
-         <OPTION VALUE=\"sand\">sandy loam
-         <OPTION VALUE=\"loam\">loam
-        </SELECT>
+       <td align="center" bgcolor="#FAF8CC">
+        <select name="SoilType" size="4" taborder="3"
+         onChange="showTexture()"
+         onBlur="blankStatus()">
+         <option value="clay" selected>clay loam</option>
+         <option value="silt">silt loam</option>
+         <option value="sand">sandy loam</option>
+         <option value="loam">loam</option>
+        </select>
       </td>
      </tr>
     </table>
 
   </td>
   <td>
-";
+';
 
 
 print <<'theEnd';
@@ -921,7 +901,7 @@ print <<'theEnd';
    <tr>
     <th rowspan=2 bgcolor="#85d2d2"><font face="Arial, Geneva, Helvetica">Upper
     <TD rowspan=2 bgcolor="#FAF8CC">
-    <SELECT NAME="UpSlopeType" SIZE="8" ALIGN="top" onChange="pcover1()";>
+    <SELECT NAME="UpSlopeType" SIZE="8" ALIGN="top" onChange="pcover1()" taborder="5">
      <OPTION VALUE="OldForest" selected> Mature forest
      <OPTION VALUE="YoungForest"> Thin or young forest
      <OPTION VALUE="Shrub"> Shrubs
@@ -931,31 +911,31 @@ print <<'theEnd';
      <OPTION VALUE="HighFire"> High severity fire
      <OPTION VALUE="Skid"> Skid trail
     </SELECT>
-    <td bgcolor="#FAF8CC"><input type="text" size=5 name="ofe1_top_slope" value="0"
+    <td bgcolor="#FAF8CC"><input type="text" size=5 name="ofe1_top_slope" value="0" taborder="7"
         onChange="checkRange(ofe1_top_slope,smin,smax,ofe1tsdef,sunit,'Slope')"
         onFocus="showRange(this.form,'Slope: ',smin,smax,sunit,'')"
         onBlur="blankStatus()">
-    <td rowspan=2 bgcolor="#FAF8CC"><input type="text" size=5 name="ofe1_length" value="50"
+    <td rowspan=2 bgcolor="#FAF8CC"><input type="text" size=5 name="ofe1_length" value="50" taborder="11"
         onChange="checkRange(ofe1_length,lmin,lmax,ldef,lunit,'Upper element length')"
         onFocus="showRange(this.form,'Upper element length: ',lmin,lmax,lunit,'')"
         onBlur="blankStatus()">
-    <td rowspan=2 bgcolor="#FAF8CC"><input type="text" size=5 name="ofe1_pcover" value="100"
+    <td rowspan=2 bgcolor="#FAF8CC"><input type="text" size=5 name="ofe1_pcover" value="100" taborder="13"
         onChange="checkRange(ofe1_pcover,pcmin,pcmax,pcdef,pcunit,'Percent cover')"
         onFocus="showRange(this.form,'Percent cover: ',pcmin,pcmax,pcunit,'')"
         onBlur="blankStatus()">
-    <td rowspan=2 bgcolor="#FAF8CC"><input type="text" size=5 name="ofe1_rock" value="20"
+    <td rowspan=2 bgcolor="#FAF8CC"><input type="text" size=5 name="ofe1_rock" value="20" taborder="15"
         onChange="checkOFE1rock(ofe1_rock,rmin,rmax,rdef,runit,'Percent rock')"
         onFocus="showRange(this.form,'Percent rock: ',rmin,rmax,runit,' (50% for rock/pavement)')"
         onBlur="blankStatus()">    <!--  for Tahoe Basin model  -->
    <tr>
-    <td bgcolor="#FAF8CC"><input type="text" size=5 name="ofe1_mid_slope" value="30"
+    <td bgcolor="#FAF8CC"><input type="text" size=5 name="ofe1_mid_slope" value="30" taborder="8"
         onChange="checkRange(ofe1_mid_slope,smin,smax,ofe1msdef,sunit,'Slope')"
         onFocus="showRange(this.form,'Slope: ',smin,smax,sunit,'')"
         onBlur="blankStatus()">
    <tr>
     <th rowspan=2 bgcolor="#85d2d2"><font face="Arial, Geneva, Helvetica">Lower
     <TD rowspan=2 bgcolor="#FAF8CC">
-     <SELECT NAME="LowSlopeType" SIZE="8" ALIGN="top" onChange="pcover2()";>
+     <SELECT NAME="LowSlopeType" SIZE="8" ALIGN="top" onChange="pcover2()" taborder="6">
       <OPTION VALUE="OldForest" selected> Mature forest
       <OPTION VALUE="YoungForest"> Thin or young forest
       <OPTION VALUE="Shrub"> Shrubs
@@ -965,23 +945,23 @@ print <<'theEnd';
       <OPTION VALUE="HighFire"> High severity fire
       <OPTION VALUE="Skid"> Skid trail
      </SELECT>
-    <td bgcolor="#FAF8CC"><input type="text" size=5 name="ofe2_top_slope" value="30"
+    <td bgcolor="#FAF8CC"><input type="text" size=5 name="ofe2_top_slope" value="30" taborder="9"
         onChange="checkRange(ofe2_top_slope,smin,smax,ofe2tsdef,sunit,'Slope')"
         onFocus="showRange(this.form,'Slope range: ',smin,smax,sunit,'')"
         onBlur="blankStatus()">
-    <td rowspan=2 bgcolor="#FAF8CC"><input type="text" size=5 name="ofe2_length" value="50"
+    <td rowspan=2 bgcolor="#FAF8CC"><input type="text" size=5 name="ofe2_length" value="50" taborder="12"
         onChange="checkRange(ofe2_length,lmin,lmax,ldef,lunit,'Lower element length')"
         onFocus="showRange(this.form,'Lower element length: ',lmin,lmax,lunit,'')"
         onBlur="blankStatus()">
-    <td rowspan=2 bgcolor="#FAF8CC"><input type="text" size=5 name="ofe2_pcover" value="100"
+    <td rowspan=2 bgcolor="#FAF8CC"><input type="text" size=5 name="ofe2_pcover" value="100" taborder="14"
         onChange="checkRange(ofe2_pcover,pcmin,pcmax,pcdef,pcunit,'Percent cover')"
         onFocus="showRange(this.form,'Percent cover: ',pcmin,pcmax,pcunit,'')"
         onBlur="blankStatus()">
-    <td rowspan=2 bgcolor="#FAF8CC"><input type="text" size=5 name="ofe2_rock" value="20"
+    <td rowspan=2 bgcolor="#FAF8CC"><input type="text" size=5 name="ofe2_rock" value="20" taborder="16"
         onChange="checkRange(ofe2_rock,rmin,rmax,rdef,runit,'Percent rock')"
         onFocus="showRange(this.form,'Percent rock: ',rmin,rmax,runit,'')"
         onBlur="blankStatus()">
-   <tr><td bgcolor="#FAF8CC"><input type="text" size=5 name="ofe2_bot_slope" value="5"
+   <tr><td bgcolor="#FAF8CC"><input type="text" size=5 name="ofe2_bot_slope" value="5" taborder="10"
         onChange="checkRange(ofe2_bot_slope,smin,smax,ofe2bsdef,sunit,'Slope')"
         onFocus="showRange(this.form,'Slope range: ',smin,smax,sunit,'')"
         onBlur="blankStatus()">

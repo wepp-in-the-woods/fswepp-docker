@@ -180,7 +180,7 @@ if ($debug) {print "treatment 1: $treat1<br>\n"}
      print " <HEAD>\n";
      print "  <TITLE>Disturbed WEPP -- Soil Parameters</TITLE>\n";
      print " </HEAD>\n";
-     print ' <BODY background="/fswepp/images/note.gif" link="#ff0000">
+     print ' <BODY link="#ff0000">
   <font face="Arial, Geneva, Helvetica">
   <blockquote>
   <table width=95% border=0>
@@ -703,7 +703,7 @@ pophist
 print '
   </script>
  </HEAD>
- <BODY background="/fswepp/images/note.gif">
+ <BODY>
   <font face="Arial, Geneva, Helvetica">
   <blockquote>
    <table width=100% border=0>

@@ -1,7 +1,39 @@
-FROM ubuntu
+FROM ubuntu:20.04
+
+# based on https://github.com/suchja/wine
+ENV WINE_MONO_VERSION 0.0.8
+USER root
 
 COPY ./keyboard /etc/default/keyboard
-ENV DEBIAN_FRONTEND noninteractive
+
+# Set noninteractive installation
+ARG DEBIAN_FRONTEND=noninteractive
+
+# Set the timezone
+RUN ln -fs /usr/share/zoneinfo/Etc/UTC /etc/localtime && \
+    apt-get update && \
+    apt-get install -y tzdata && \
+    dpkg-reconfigure --frontend noninteractive tzdata
+
+
+# Install some tools required for creating the image
+RUN apt-get update \
+        && apt-get install -y --no-install-recommends \
+                curl \
+                unzip \
+                ca-certificates \
+                xvfb
+
+# Install wine and related packages
+RUN dpkg --add-architecture i386 \
+                && apt-get update -qq \
+                && apt-get install -y -qq \
+                                wine-stable \
+                                winetricks \
+                                wine32 \
+                                libgl1-mesa-glx:i386 \
+                && rm -rf /var/lib/apt/lists/*
+
 
 RUN apt-get update
 RUN apt-get install -y apt-utils
@@ -18,36 +50,6 @@ RUN apt-get install -y libxml-simple-perl
 RUN apt-get install -y libcgi-session-perl
 RUN apt install -y curl
 RUN apt-get install -y vim
-
-
-## Install Wine
-RUN apt-get install -y xvfb
-RUN Xvfb :0 -screen 0 1024x768x16 &
-
-RUN dpkg --add-architecture i386
-RUN wget -nc https://dl.winehq.org/wine-builds/winehq.key -O winehq.key
-RUN mv winehq.key /usr/share/keyrings/winehq-archive.key
-RUN echo "deb [signed-by=/usr/share/keyrings/winehq-archive.key] https://dl.winehq.org/wine-builds/ubuntu/ focal main" | tee /etc/apt/sources.list.d/winehq.list
-RUN apt-get update
-RUN apt-get install -y --install-recommends winehq-stable
-RUN apt-get install -y winetricks
-
-#RUN winetricks -q allfonts
-
-# Set up Wine to be used by the root user (adjust as needed)
-ENV WINEPREFIX /root/.wine
-ENV WINEARCH win64
-
-# If your application needs a GUI, set up xvfb to create a "fake" display
-ENV DISPLAY :0
-
-# Run winetricks to install required components
-# Use the silent install (-q) option to avoid prompts
-#RUN winetricks -q mfc42
-
-## Set Timezone
-RUN DEBIAN_FRONTEND=noninteractive TZ=America/Los_Angeles apt-get -y install tzdata
-RUN dpkg-reconfigure -f non-interactive tzdata
 
 ## Move perl dependencies
 COPY var/www/cgi-bin/BAERTOOLS/baer-db/Query.pl /etc/perl/
@@ -69,6 +71,8 @@ RUN rm -R /var/www/html
 COPY ./000-default.conf /etc/apache2/sites-enabled/
 RUN echo 'ServerName 0.0.0.0' >> /etc/apache2/apache2.conf
 CMD apachectl -D FOREGROUND
+
+RUN winetricks -q
 
 EXPOSE 80
 
