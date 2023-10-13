@@ -41,5 +41,5 @@ sudo docker exec -it fswepp-docker-fswepp-1 /bin/bash
 ## Configuration
 
 1. Check reverse proxy configuraiton in caddyfile
-2. make caddy_data directory
-3. change host name in var/www/fswepp/wepphost
+2. make `caddy_data` directory
+3. change host name in `var/www/fswepp/wepphost`
