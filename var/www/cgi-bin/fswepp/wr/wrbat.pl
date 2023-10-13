@@ -22,7 +22,7 @@
    $debug=0;
    $batch=1;
 
-   $weppversion="wepp2010_1";
+   $weppversion="wepp2010.100.exe";
 
    $count_limit = 1000;
 #  $count_limit = 200;
@@ -828,19 +828,9 @@ $years
        close NEWSOILFILE;
        if ($debug) {print "<pre>creating soil file: $newSoilFile\n", $soilFileBody, "</pre>\n"}
        &CreateSlopeFile;
-#      &CreateCligenFile;	# take out of loop (remember file name)
        &CreateResponseFile;
-#      $stoutFile = 'working' . $unique . ".sto";
-#      $sterFile = 'working' . $unique . ".ste";
-       if ($platform eq "pc") {
-         @args = ("..\\wepp <$responseFile >$stoutFile"); 
-       }
-       else {
-         @args = ("../$weppversion <$responseFile >$stoutFile 2>$sterFile");			# DEH 2015.02.10
-       }
+       @args = ("wine ../$weppversion <$responseFile >$stoutFile 2>$sterFile");			# DEH 2015.02.10
        system @args;
-
-#       unlink $climateFile;    # be sure this is right file .....  # out of loop............
 
        open weppstout, "<$stoutFile";
 

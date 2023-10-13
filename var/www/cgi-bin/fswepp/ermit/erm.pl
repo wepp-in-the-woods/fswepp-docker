@@ -7,19 +7,12 @@
 # Reads user input from ermit.pl, runs WEPP, parses output files
 # top adapted from wd.pl 8/28/2002
 
-# *** check top_slope
-
-# to do: check how leap years are handled #
-
-#   $pt=1;	# produce probability table as output (see tie into $me below) (also available with a link...)
-#   $zoop=1;
-
 $verbose=0;
 
-  $debug=0;		# DEH 2014-02-07 over-ride command-line
-  $new_range=1;		# 2005.09.13 DEH Solidify new range values
-  $new_cligen=0;	# 2005.09.13 DEH # 2005.10.12 DEH
-  $weppversion = "wepp2010_1";	# 2014.02.07 DEH 2000 or 2010; WEPP 2010 needs frost.txt file in ERMiT directory to give 'correct' results
+$debug=0;		# DEH 2014-02-07 over-ride command-line
+$new_range=1;		# 2005.09.13 DEH Solidify new range values
+$new_cligen=0;	# 2005.09.13 DEH # 2005.10.12 DEH
+$weppversion = "wepp2010.100.exe";	# 2014.02.07 DEH 2000 or 2010; WEPP 2010 needs frost.txt file in ERMiT directory to give 'correct' results
 
 # -rw-r--r-x    1 dhall    water      239402 Apr  2  2007 erm.pl
 # add path for gnuplot exec for new server 2009_07_13 DEH
@@ -185,7 +178,6 @@ $verbose=0;
            $parameters{'actionw'};
    if ($achtung . $action eq '') {&bomb; die}					# 2005.10.25 DEH
 
-#  $weppversion=$parameters{'weppversion'};     # DEH 2009.02.23		# 2014.02.07 DEH
 
    $vegtype_x = $vegtype;							# 2004.10.07 DEH
    $vegtype_x = 'chaparral' if ($vegtype eq 'chap');				# 2004.10.07 DEH
@@ -553,7 +545,7 @@ if ($severityclass eq 'u') {		# 2013.04.19 DEH)
 ";
     }
 
-     @args = ("../$weppversion <$responseFile >$stoutFile 2>$sterrFile");
+     @args = ("wine ../$weppversion <$responseFile >$stoutFile 2>$sterrFile");
      
      if ($debug) {
       print TEMP "@args
@@ -596,7 +588,7 @@ if ($severityclass eq 'u') {            # 2013.05.03 DEH
      &CreateResponseFile;
      if ($debug) {$printfilename = $responseFile; &printfile}
 
-     @args = ("../$weppversion <$responseFile >$stoutFile 2>$sterrFile");
+     @args = ("wine ../$weppversion <$responseFile >$stoutFile 2>$sterrFile");
      system @args;
 
 ###
@@ -1463,12 +1455,7 @@ $d_day=0;   $d_month=0; $d_year =0;  $d_pcp=0;  $durr = 0; $tp = 0; $ip=0;
 #       -e $ev_by_evFile and unlink $ev_by_evFile;
 ## warning
 #            run WEPP on climate file (4 to 16 years)
-      if ($platform eq "pc") {
-         @args = ("wepp <$responseFile >$stoutFile");
-      }
-      else {
-        @args = ("nice -20 ../$weppversion <$responseFile >$stoutFile 2>$sterrFile") if ($wgr);	# compaction
-      }
+       @args = ("wine ../$weppversion <$responseFile >$stoutFile 2>$sterrFile") if ($wgr);	# compaction
        print TEMP "@args\n" if $debug;
        system @args;
 

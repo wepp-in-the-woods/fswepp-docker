@@ -45,7 +45,7 @@ use CGI ':standard';
 
   $debug=0;
 
-  $weppversion="wepp2010_1";
+  $weppversion="wepp2010.100.exe";
 # Reads user input from fume.pl,
 #   runs Disturbed WEPP (4 runs) (plus some more)
 #   runs WEPP:Road (3 times)
@@ -664,17 +664,7 @@ print "
      if ($debug) {print "Creating WEPP Response File<br>\n"}
      &CreateResponseFile;
 
-#    @args = ("nice -20 ./wepp <$responseFile >$stoutFile 2>$sterFile");
-     if ($platform eq "pc") {
-#       @args = ("..\\wepp <$responseFile >$stoutFile")
-#      print "<p>I am creating args<br>\n"; #elena
-#      print "<p> this is responseFile:$responseFile"; #elena
-      @args = ("c:\\Inetpub\\Scripts\\fswepp\\wepp <$responseFile >$stoutFile"); #elena
-#      print "<p>this is arg : @args <br>\n"
-     }
-     else {
-       @args = ("../$weppversion <$responseFile >$stoutFile 2>$sterrFile");	# DEH 2014.04.09
-     }
+     @args = ("wine ../$weppversion <$responseFile >$stoutFile 2>$sterrFile");	# DEH 2014.04.09
      system @args;
 
 #  unlink $climateFile;    # be sure this is right file .....     # 2/2000

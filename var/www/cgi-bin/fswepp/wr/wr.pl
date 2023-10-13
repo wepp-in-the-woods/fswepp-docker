@@ -180,7 +180,7 @@
    $CL=$parameters{'Climate'};         # get Climate (file name base)
    $climate_name=$parameters{'climate_name'};   ######### requested #########
 
-   $weppversion = "wepp2010_1";
+   $weppversion = "wepp2010.100.exe";
 
    $wepphost="localhost";
    if (-e "../wepphost") {
@@ -486,20 +486,12 @@
      if ($slope eq 'inbare' && $surf eq 'p') {$tauC = '1'}
      $soilFile = '3' . $surf . $ST . $tauC . '.sol';
      $soilFilefq = $soilPath . $soilFile;
-#    print "<br>Soil file: $soilFilefq<br>";
      $zzsoil   = &CreateSoilFile; 
      $zzslope  = &CreateSlopeFile;
      $zzcligen = &CreateCligenFile;
      $zzresp   = &CreateResponseFile;
-#    $stoutFile = 'working' . $unique . ".sto";
-#    $sterFile = 'working' . $unique . ".ste";
-     if ($platform eq "pc") {
-       @args = ("..\\wepp <$responseFile >$stoutFile"); 
-     }
-     else {
-       @args = ("../$weppversion <$responseFile >$stoutFile 2>$sterFile");
-     }
 
+     @args = ("wine ../$weppversion <$responseFile >$stoutFile 2>$sterFile");
      system @args;
 
      unlink $climateFile;    # be sure this is right file .....

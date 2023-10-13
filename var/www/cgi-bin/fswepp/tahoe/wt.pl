@@ -18,7 +18,7 @@ use Scalar::Util 'looks_like_number';
 
 $verbose=0;
 # $debug=1; # this likely breaks the page. wasn't tested. likely prints without ;
-$weppversion="wepp2010_1";
+$weppversion="wepp2010.100.exe";
 
 ## BEGIN HISTORY ###################################
 ## Tahoe Basin Sediment Model version history
@@ -82,7 +82,6 @@ $weppversion="wepp2010_1";
    $climyears=$parameters{'climyears'};
    $description=$parameters{'description'};	# DEH 2007.04.04
 
-#   $weppversion=$parameters{'weppversion'};     # DEH 2009.02.23
 
 #  determine which week the model is being run, for recording in the weekly runs log
 
@@ -562,13 +561,7 @@ if ($fc) {
      if ($verbose) {print "Creating WEPP Response File<br>\n"}
      &CreateResponseFile;
 
-     if ($platform eq "pc") {
-       @args = ("..\\wepp <$responseFile >$stoutFile");
-     }
-     else {
-       @args = ("../$weppversion <$responseFile >$stoutFile 2>$sterFile");
-     }
-
+     @args = ("wine ../$weppversion <$responseFile >$stoutFile 2>$sterFile");
      system @args;
 
 ########################  start HTML output ###############

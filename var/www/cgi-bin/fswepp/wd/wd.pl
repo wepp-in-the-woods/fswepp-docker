@@ -20,7 +20,7 @@
 
    $debug=1;
 
-   print "Content-type: text/html\n\n" if ($debug);
+   print "Content-type: text/html\n\n";
 
    $version = '2014.04.14'; # switch to 2014 soils database
 #  $version = '2012.12.31'; # complete move to year-based logging (2012 through 2020)
@@ -60,8 +60,7 @@
    $climyears=$parameters{'climyears'};
    $description=$parameters{'description'};	# DEH 2007.04.04
 
-#   $weppversion="wepp_6714fc";
-   $weppversion="wepp2010_1";
+   $weppversion="wepp2010.100.exe";
 ### filter bad stuff out of description ###
 #   limit length to reasonable (200?)
 #   remove HTML tags ( '<' to &lt; and '>' to &gt; )
@@ -177,7 +176,6 @@ if ($debug) {print "treatment 1: $treat1<br>\n"}
 
      $weppdist = "https://" . $wepphost . "/cgi-bin/fswepp/wd/weppdist.pl";
      $soilFilefq = $soilPath . $soilFile;
-     print "Content-type: text/html\n\n";
      print "<HTML>\n";
      print " <HEAD>\n";
      print "  <TITLE>Disturbed WEPP -- Soil Parameters</TITLE>\n";
@@ -473,7 +471,7 @@ unlink $soilFile;	# DEH 01/13/2004
      if ($debug) {print "Creating WEPP Response File<br>\n"}
      &CreateResponseFile;
 
-     @args = ("../$weppversion <$responseFile >$stoutFile 2>$sterFile");
+     @args = ("wine ../$weppversion <$responseFile >$stoutFile 2>$sterFile");
 
      if ($debug) {
        print(@args);
@@ -482,7 +480,6 @@ unlink $soilFile;	# DEH 01/13/2004
 
 ########################  start HTML output ###############
 
-   print "Content-type: text/html\n\n";
    print '<HTML>
  <HEAD>
   <TITLE>Disturbed WEPP Results</TITLE>
@@ -729,7 +726,6 @@ print '
    </table>
 ';
 
-#  print $weppversion;
 
 ######################## end of top part of HTML output ###############
 
