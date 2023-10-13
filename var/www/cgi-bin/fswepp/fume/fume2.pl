@@ -45,7 +45,7 @@ use CGI ':standard';
 
   $debug=0;
 
-  $weppversion="wepp2010.100.exe";
+  $weppversion="wepp2010";
 # Reads user input from fume.pl,
 #   runs Disturbed WEPP (4 runs) (plus some more)
 #   runs WEPP:Road (3 times)
@@ -664,7 +664,7 @@ print "
      if ($debug) {print "Creating WEPP Response File<br>\n"}
      &CreateResponseFile;
 
-     @args = ("wine ../$weppversion <$responseFile >$stoutFile 2>$sterrFile");	# DEH 2014.04.09
+     @args = ("../$weppversion <$responseFile >$stoutFile 2>$sterrFile");	# DEH 2014.04.09
      system @args;
 
 #  unlink $climateFile;    # be sure this is right file .....     # 2/2000

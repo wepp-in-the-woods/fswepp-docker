@@ -60,7 +60,7 @@
    $climyears=$parameters{'climyears'};
    $description=$parameters{'description'};	# DEH 2007.04.04
 
-   $weppversion="wepp2010.100.exe";
+   $weppversion="wepp2010";
 ### filter bad stuff out of description ###
 #   limit length to reasonable (200?)
 #   remove HTML tags ( '<' to &lt; and '>' to &gt; )
@@ -471,7 +471,7 @@ unlink $soilFile;	# DEH 01/13/2004
      if ($debug) {print "Creating WEPP Response File<br>\n"}
      &CreateResponseFile;
 
-     @args = ("wine ../$weppversion <$responseFile >$stoutFile 2>$sterFile");
+     @args = ("../$weppversion <$responseFile >$stoutFile 2>$sterFile");
 
      if ($debug) {
        print(@args);

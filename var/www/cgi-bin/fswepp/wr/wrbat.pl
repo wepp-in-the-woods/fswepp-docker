@@ -22,7 +22,7 @@
    $debug=0;
    $batch=1;
 
-   $weppversion="wepp2010.100.exe";
+   $weppversion="wepp2010";
 
    $count_limit = 1000;
 #  $count_limit = 200;
@@ -829,7 +829,7 @@ $years
        if ($debug) {print "<pre>creating soil file: $newSoilFile\n", $soilFileBody, "</pre>\n"}
        &CreateSlopeFile;
        &CreateResponseFile;
-       @args = ("wine ../$weppversion <$responseFile >$stoutFile 2>$sterFile");			# DEH 2015.02.10
+       @args = ("../$weppversion <$responseFile >$stoutFile 2>$sterFile");			# DEH 2015.02.10
        system @args;
 
        open weppstout, "<$stoutFile";

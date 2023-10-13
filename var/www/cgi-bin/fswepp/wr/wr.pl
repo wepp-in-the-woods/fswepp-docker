@@ -180,7 +180,7 @@
    $CL=$parameters{'Climate'};         # get Climate (file name base)
    $climate_name=$parameters{'climate_name'};   ######### requested #########
 
-   $weppversion = "wepp2010.100.exe";
+   $weppversion = "wepp2010";
 
    $wepphost="localhost";
    if (-e "../wepphost") {
@@ -491,7 +491,7 @@
      $zzcligen = &CreateCligenFile;
      $zzresp   = &CreateResponseFile;
 
-     @args = ("wine ../$weppversion <$responseFile >$stoutFile 2>$sterFile");
+     @args = ("../$weppversion <$responseFile >$stoutFile 2>$sterFile");
      system @args;
 
      unlink $climateFile;    # be sure this is right file .....
