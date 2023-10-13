@@ -15,11 +15,20 @@ sudo docker-compose build
 2. enable serivce  `sudo systemctl enable docker-compose-fswepp`
 
 
-## Starting/Stoping service 
+## Service Management
 
+### Starting Service
 ```
 sudo systemctl start docker-compose-fswepp
+```
+
+### Stopping Service
+```
 sudo systemctl stop docker-compose-fswepp
+```
+
+### Restarting Service
+```
 sudo systemctl restart docker-compose-fswepp
 ```
 
