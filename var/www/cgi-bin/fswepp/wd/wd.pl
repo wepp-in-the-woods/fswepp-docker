@@ -718,9 +718,9 @@ print '
       <hr>
      </td>
      <td>
-      <A HREF="/fswepp/docs/distweppdoc.html">
+      <a href="/fswepp/docs/distweppdoc.html">
       <IMG src="/fswepp/images/epage.gif"
-       align="right" alt="Read the documentation" border=0></a>
+       align="right" alt="Read the documentation" border=0 /></a>
      </td>
     </tr>
    </table>

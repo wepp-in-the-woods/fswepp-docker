@@ -564,38 +564,13 @@ print <<'theEnd';
 
   function pcover1() {        // change ofe1 pcover to default for selected
     var which = window.document.weppdist.UpSlopeType.selectedIndex;
-//  comment out following 5 lines -- 3 == 'loam' not 'rock/pavement in WD!  2013.07.01
-//    if (which == 0 || which == 1) {		// old forest or young forest
-//      if (window.document.weppdist.SoilType.selectedIndex == 3) { // rock/pavement
-//        window.document.weppdist.UpSlopeType.selectedIndex = 7	// bare
-//      }
-//    }
-//  following logic may be unnecessary for WD  2013.07.01
-    if (which == 7) {		// bare
-      window.document.weppdist.ofe1_pcover.value=window.document.weppdist.ofe1_rock.value;
-      window.document.weppdist.ofe1_pcover.readonly='readonly';      // disable cover
-      window.document.weppdist.ofe1_pcover.style.background='#ddd';
-    }
-    else {
-      window.document.weppdist.ofe1_pcover.readonly='';      // enable cover
-      window.document.weppdist.ofe1_pcover.style.background='#fff';
-      window.document.weppdist.ofe1_pcover.value=default_pcover[which];
-    }
+    window.document.weppdist.ofe1_pcover.value=default_pcover[which];
     return false;
   }
 
   function pcover2() {        // change ofe2 pcover to default for selected   // 2010.05.27
     var which = window.document.weppdist.LowSlopeType.selectedIndex;
-    if (which == 7) {           // bare
-      window.document.weppdist.ofe2_pcover.value=window.document.weppdist.ofe2_rock.value;
-      window.document.weppdist.ofe2_pcover.readonly='readonly';      // disable cover
-      window.document.weppdist.ofe2_pcover.style.background='#ddd';
-    }
-    else {
-      window.document.weppdist.ofe2_pcover.readonly='';      // enable cover
-      window.document.weppdist.ofe2_pcover.style.background='#fff';
-      window.document.weppdist.ofe2_pcover.value=default_pcover[which];
-    }
+    window.document.weppdist.ofe2_pcover.value=default_pcover[which];
     return false;
   }
 
@@ -754,7 +729,10 @@ print '<BODY bgcolor="white"
        </h3>
        <hr>
     <td>
-       <!-- IMG src="/fswepp/images/epage.gif" align="right" alt="" border=0 -->
+       <a HREF="/fswepp/docs/distweppdoc.html">
+        <img src="/fswepp/images/epage.gif" align="right" alt="" border=0 />
+       </a>
+    </td>
    </table>
   <center>
   <!-- FORM name="weppdist" method="post" ACTION="https://',$wepphost,'/cgi-bin/fswepp/wdnc/wdnocalv.pl" -->
