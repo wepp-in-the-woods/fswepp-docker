@@ -91,7 +91,7 @@ $lon2         =$cgi->param('bndlon2');    # "E"
        if ($platform eq "") {$platform = "unix"}
      close PLATFORM;
    }
-#     $fume = "http://" . $wepphost . "/cgi-bin/fswepp/wd/fume.pl";#elena
+#     $fume = "https://" . $wepphost . "/cgi-bin/fswepp/wd/fume.pl";#elena
 
 # *******************************
 
@@ -105,12 +105,8 @@ $lon2         =$cgi->param('bndlon2');    # "E"
      $temp_base = "$working\\$unique";
      $temp_html_base0 = "\\fsws\\ravel\\" . $temp_base;
      $temp_html_base1 = "working\\$unique";
-#    $paramFile = $temp_base . '.param.in';
      $paramFile   = 'paraminput.txt';
-#    $demfilename = $site . '.ele';
      $demfilename = 'dem.txt';
-#    $results_dep_File = $temp_base . '.dep';
-#    $results_prod_File = $temp_base . '.prod';
      $results_dep_File = 'depgrd.txt';
      $results_prod_File = 'prodgrd.txt';
      $calibration_File = 'cal.txt';		# DEH 110422
@@ -123,28 +119,17 @@ $lon2         =$cgi->param('bndlon2');    # "E"
      $unique='ravel' . '-' . $$;
      $working = 'working';
      $temp_base = "$working/$unique";
-#     $temp_html_base0 = "/srv/www/htdocs/BAERTOOLS/ravel/working/$unique";
-#     $temp_html_base1 = "/BAERTOOLS/ravel/working/$unique";
-     $temp_cgi_base0 = "/srv/www/cgi-bin/BAERTOOLS/ravel/working/$unique";
+     $temp_cgi_base0 = "/var/www/cgi-bin/BAERTOOLS/ravel/working/$unique";
      $temp_cgi_base1 = "/cgi-bin/BAERTOOLS/ravel/working/$unique";
-     $temp_html_base0 = "/srv/www/htdocs/BAERTOOLS/ravel/working/$unique";
+     $temp_html_base0 = "/var/www/htdocs/BAERTOOLS/ravel/working/$unique";
      $temp_html_base1 = "/BAERTOOLS/ravel/working/$unique";
      $DEMparamfile = $temp_base . '.DEMinput.txt';
      $DEMerrorfile = $temp_base . '.DEMerror.txt';
      $DEMfile = $temp_base . '.DEM';
      $paramFile = $temp_base . '.paraminput.txt';
-#     $paramFile   = $working . '/paraminput.txt';
      $demfilename = $temp_base . '.dem.txt';
-#     $demfilename = $working . '/dem.txt';
-#     $demfilename = 'haymanf.dem';
-#     $demfilename = 'dem.txt';
      $results_dep_File = $temp_base . '.depgrd.txt';
-#     $results_dep_File = $working . '/depgrd.txt';
      $results_prod_File = $temp_base . '.prodgrd.txt';
-#     $results_prod_File = $working . '/prodgrd.txt';
-#     $results_dep_File = 'depgrd.txt';
-#     $results_prod_File = 'prodgrd.txt';
-#     $calibration_File = "$working/cal.txt";
      $calibration_File = "$temp_base.cal.txt";
      $stdout0 = $temp_cgi_base0 . '.stdout.txt';
      $stdout1 = $temp_cgi_base1 . '.stdout.txt';
@@ -650,7 +635,7 @@ $miss missing<br>
 #     $unique='ravel' . '-' . $$;
 #     $working = 'working';
 #     $temp_base = "$working/$unique";
-#     $temp_html_base0 = "/srv/www/htdocs/BAERTOOLS/ravel/working/$unique";
+#     $temp_html_base0 = "/var/www/htdocs/BAERTOOLS/ravel/working/$unique";
 #     $temp_html_base1 = "/BAERTOOLS/ravel/working/$unique";
 #     $DEMparamfile = $temp_base . '.DEMinput.txt';
 #     $DEMerrorfile = $temp_base . '.DEMerror.txt';
@@ -829,7 +814,7 @@ print '
 </td>
 <td valign=top>
 <iframe width='300' height='300' frameborder='0' scrolling='no' marginheight='0' marginwidth='0'
-src='http://maps.google.com/maps?f=q
+src='https://maps.google.com/maps?f=q
 &amp;source=
 &amp;t=p
 &amp;doflg=ptk
@@ -968,12 +953,12 @@ $calibration_File
 if ($debug) {
    if (-s $stdout0 > 1) {
      print "
-  <iframe src='$stdout1' width=750 height=50 frameborder=0 scrolling=yes>  </iframe>
+  <iframe src='get_results.py?fn=$unique.stdout.txt' width=750 height=50 frameborder=0 scrolling=yes>  </iframe>
 ";
    }
    if (-s $stderr0 > 1) {
      print "
-  <iframe src='$stderr1' width=750 height=50 frameborder=0 scrolling=yes>  </iframe>
+  <iframe src='get_results.py?fn=$unique.stderr.txt' width=750 height=50 frameborder=0 scrolling=yes>  </iframe>
 ";
    }
 }
@@ -1622,7 +1607,7 @@ print '
         Hall, David E.; Robichaud, Peter R.; Miller, Mary Ellen; Xiangyang Fu.
         2010.
         <b>RavelRAT-CA Ver. <a href="javascript:popuphistory()">',$version,'</a>.</b>
-        [Online at &lt;http://forest.moscowfsl.wsu.edu/BAERTOOLS/ravel/ravelrat-ca.html&gt;.]
+        [Online at &lt;https://forest.moscowfsl.wsu.edu/BAERTOOLS/ravel/ravelrat-ca.html&gt;.]
         Moscow, ID: U.S. Department of Agriculture, Forest Service, Rocky Mountain Research Station.
 
  </body>
