@@ -1,0 +1,16 @@
+[Unit]
+Description=FSWEPP Docker Compose Application Service
+Requires=docker.service
+After=docker.service
+
+[Service]
+WorkingDirectory=/workdir/fswepp-docker
+ExecStart=/usr/local/bin/docker-compose up
+ExecStop=/usr/local/bin/docker-compose down
+TimeoutStartSec=0
+Restart=always
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
+

@@ -11,7 +11,7 @@ sudo docker-compose build
 
 ## Daemonizing
 
-1. Put service file in `/etc/systemd/services`
+1. Put service file in `/etc/systemd/system`
 2. enable serivce  `sudo systemctl enable docker-compose-fswepp`
 
 
