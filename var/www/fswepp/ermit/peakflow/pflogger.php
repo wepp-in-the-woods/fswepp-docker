@@ -77,7 +77,7 @@
 
   // if any, append to log
 
-  $logfile = "../../working/pf_".$ip.".log";
+  $logfile = "/var/www/cgi-bin/fswepp/working/peakflow/pf_".$ip.".log";
 
 // echo "action: ", $action;
 
