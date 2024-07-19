@@ -13,7 +13,7 @@
 #$comefrom
 #$me
 
-# <form name="sc" ACTION="http://',$wepphost,'/cgi-bin/fswepp/rc/pclimate.cli" method="post"> [Download Describe Modify]
+# <form name="sc" ACTION="http://',$wepphost,'/cgi-bin/fswepp/rc/pclimate.pl" method="post"> [Download Describe Modify]
 # <form method="post" name="RockClim" action="../rc/rockclim.pl"> [Retreat]
 
 #  FS WEPP, USDA Forest Service, Rocky Mountain Research Station, Soil & Water Engineering
@@ -146,7 +146,7 @@ print '
 ';
 
 #      if ($action eq '-download') {
-        print '<form name="sc" ACTION="https://',$wepphost,'/cgi-bin/fswepp/rc/pclimate.cli" method="post">',"\n";
+        print '<form name="sc" ACTION="https://',$wepphost,'/cgi-bin/fswepp/rc/pclimate.pl" method="post">',"\n";
 #      }
 #      else {
 #        print '<form name="sc" ACTION="http://',$wepphost,'/cgi-bin/fswepp/rc/copypar.pl" method="post">',"\n";
