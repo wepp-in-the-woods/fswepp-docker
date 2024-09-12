@@ -1,4 +1,6 @@
-#! /usr/bin/perl
+#!/usr/bin/perl
+use warnings;
+use CGI qw(:standard escapeHTML);
 
 #  XDRAIN -- Cross Drain Sedimentation program [1999]
 #
@@ -29,6 +31,8 @@
     &ReadParse(*parameters);
 
     $units=$parameters{'units'};
+    $units = escapeHTML($units);
+
     chomp $units;
     $u="m"; $un="m"; $unit="meters"; $rw = 4;
     if (lc($units) =~ /f/) {$u="f";$un="ft";$unit="feet";$rw=12}

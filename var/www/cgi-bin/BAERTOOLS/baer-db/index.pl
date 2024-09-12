@@ -1,4 +1,6 @@
 #!/usr/bin/perl
+use warnings;
+use CGI qw(:standard escapeHTML);
 
 # index.pl
 # CGI script for main Web page for BAER DB, Moscow Forestry Sciences 
@@ -82,8 +84,17 @@ sub GetLatLonInputsHtml {
 
 	# Prefill the boxes from previous page state (URL params), if any.
 	my $DegN       = BwdPageState::DegN( $rPageState );
+	if ($DegN ne '' && $DegN !~ /^-?\d+\.?\d*$/) {
+		die "Invalid value for DegW: must be an empty string or a number.";
+	}
+
 	my $DnValAttr  = length( $DegN ) ? " value='$DegN'" : "";
 	my $DegW       = BwdPageState::DegW( $rPageState );
+	if ($DegW ne '' && $DegW !~ /^-?\d+\.?\d*$/) {
+		die "Invalid value for DegW: must be an empty string or a number.";
+	}
+
+
 	my $DwValAttr  = length( $DegW ) ? " value='$DegW'" : "";
 
 	# I'm keeping this JavaScript code close to the elements it modifies.  It

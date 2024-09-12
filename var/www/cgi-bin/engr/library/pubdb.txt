@@ -1,4 +1,4 @@
-#2021i###############################################
+#2021e###############################################
 $Title=Movement of Sediment Through a Burned Landscape:Sediment Volume Observations and Model Comparisons in the San Gabriel Mountains, California, USA.
 $Year=2021
 $Authors=Robichaud, Lewis, Brown
@@ -1204,7 +1204,7 @@ $Authors=Elliot
 $Citationt=Srivastava, A.; Dobre, M.; Wu, J. Q.; Elliot, W. J.; Bruner, E. A.; Dun, S.; Brooks, E. S.; Miller, I. S. 2013.
  <i><a>Modifying WEPP to improve streamflow simulation in a Pacific Northwest watershed.</a></i>
  <b>Transactions of the ASABE.</b> 56(2):603-611.
-$category=tranactions
+$category=transactions
 $Publisher=ASABE
 $Abstract=The assessment of water yield from hillslopes into streams is critical in managing water supply and aquatic habitat.
  Streamflow is typically composed of surface runoff, subsurface lateral flow, and groundwater baseflow; baseflow sustains the stream during the dry season.
@@ -5716,7 +5716,7 @@ $links=<a href="/engr/library/Lewis/Lewis2003m/2003m.pdf" target="_pdf">PDF</a> 
 $Title=Time to burn?
 $Year=2003
 $Authors=Robichaud
-$category=fire, duff moisture meter
+$category=fire
 $Publisher=Wildfire/Fire Chief
 $authorblock=
 $Abstract= A new Forest Service tool for measuring duff moisture

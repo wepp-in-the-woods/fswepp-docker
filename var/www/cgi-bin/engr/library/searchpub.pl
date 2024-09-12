@@ -1,4 +1,9 @@
-#! /usr/bin/perl
+#!/usr/bin/perl
+use warnings;
+use CGI qw(:standard escapeHTML);
+
+print "Content-Type: text/html\n\n";  # Ensure headers are printed first
+
 # 
 # searchpub.pl
 #
@@ -68,14 +73,49 @@
 #   $plinks             '<a href="http://forest.moscowfsl.wsu.edu/engr/library/Elliot/2001z/">PDF</a> [2 MB]'
 #   $treesearch		'pubs/29445'
 
+
+    my $cgi = CGI->new;
+
+    # Initialize parameters
+    my $category_goal    = $cgi->param('category')    || '';
+
+    # List of valid categories (including an empty string as valid)
+    my @valid_categories = qw(
+        climate
+        conference
+        disturbed
+        duff
+        erosion
+        factsheet_series
+        fire
+        gtr
+        journal
+        proceedings
+        research
+        road
+        roads
+        slope
+        transactions
+        upland
+        watershed
+        wildfire
+        ''
+    );
+    if (!grep { $_ eq $category_goal } @valid_categories) {
+        $category_goal = '';
+    }
+
+    my $author_goal    = $cgi->param('author')    || '';
+
+    $category_goal = escapeHTML($category_goal);
+    $author_goal = escapeHTML($author_goal);
+
    $library = 'pubdb.txt';
    $days_old = -M $library if -e $library;
    $days_old = int($days_old+0.5);
    &ReadParse(*parameters);
-   $author_goal=$parameters{'author'};
    $year_goal=$parameters{'year'};
    $keyword_goal=$parameters{'keyword'};
-   $category_goal=$parameters{'category'};
    $pub_goal=$parameters{'pub'};
    $bare=$parameters{'bare'};		# 2005.07.12 DEH
    $countem=$parameters{'count'};       # report number of downloads (many will be crawlers)
@@ -87,17 +127,20 @@
 
 %counthash={}; %titlehash={};
 
-   # put these in a hash -- with full name or full name and link
-      $author_goal_link = $author_goal;
-      if ($author_goal eq 'Elliot') {$author_goal_link = '<a href="/people/engr/welliot.html" target="_">Bill Elliot</a>'}
-      elsif ($author_goal eq 'Robichaud') {$author_goal_link = '<a href="/people/engr/probichaud.html" target="_">Pete Robichaud</a>'}
-      elsif ($author_goal eq 'Foltz') {$author_goal_link = '<a href="/people/engr/rfoltz.html" target="_">Randy Foltz</a>'}
-      elsif ($author_goal eq 'Hall') {$author_goal_link = '<a href="/people/engr/dehall.html" target="_">David Hall</a>'}
-      elsif ($author_goal eq 'Lewis') {$author_goal_link = '<a href="/people/engr/sarahlewis.html" target="_">Sarah Lewis</a>'}
-      elsif ($author_goal eq 'Brown') {$author_goal_link = '<a href="/people/engr/bbrown.html" target="_">Bob Brown</a>'}
-      elsif ($author_goal eq 'Miller') {$author_goal_link = '<a href="/people/engr/suemiller.html" target="_">Sue Miller</a>'}
-      elsif ($author_goal eq 'Copeland') {$author_goal_link = '<a href="/people/engr/ncopeland.html" target="_">Natalie Copeland Wagenbrenner</a>'}
-      elsif ($author_goal eq 'Burroughs') {$author_goal_link = '<a href="/people/engr/erburroughs.html" target="_">Ed Burroughs</a>'}
+  # put these in a hash -- with full name or full name and link
+  if ($author_goal eq 'Elliot') {$author_goal_link = '<a href="/people/engr/welliot.html" target="_">Bill Elliot</a>'}
+  elsif ($author_goal eq 'Robichaud') {$author_goal_link = '<a href="/people/engr/probichaud.html" target="_">Pete Robichaud</a>'}
+  elsif ($author_goal eq 'Foltz') {$author_goal_link = '<a href="/people/engr/rfoltz.html" target="_">Randy Foltz</a>'}
+  elsif ($author_goal eq 'Hall') {$author_goal_link = '<a href="/people/engr/dehall.html" target="_">David Hall</a>'}
+  elsif ($author_goal eq 'Lewis') {$author_goal_link = '<a href="/people/engr/sarahlewis.html" target="_">Sarah Lewis</a>'}
+  elsif ($author_goal eq 'Brown') {$author_goal_link = '<a href="/people/engr/bbrown.html" target="_">Bob Brown</a>'}
+  elsif ($author_goal eq 'Miller') {$author_goal_link = '<a href="/people/engr/suemiller.html" target="_">Sue Miller</a>'}
+  elsif ($author_goal eq 'Copeland') {$author_goal_link = '<a href="/people/engr/ncopeland.html" target="_">Natalie Copeland Wagenbrenner</a>'}
+  elsif ($author_goal eq 'Burroughs') {$author_goal_link = '<a href="/people/engr/erburroughs.html" target="_">Ed Burroughs</a>'}
+  else {
+    $author_goal = '';
+    $author_goal_link = '';
+  }
 
 #   &print_head ($title);
    open DB, "<$library";
@@ -161,20 +204,14 @@ print "
        }
        $publ = $publx;
      }
-#   print '
-#  <center>
-#   <form>
-#    <input type="submit" value="Back" onClick="JavaScript:window.history.go(-1)">
-#   </form>
-#  </center>
-#';
+
    }
    else {    # return multiple entries short-form
 
      $counter=0; $linkscounter=0; $treesearchcounter=0;
 
      $header='Selected Moscow FSL Engineering publications';
-     $header .= " by $author_goal_link" if ($author_goal ne '');
+     $header .= " by $author_goal_link" if ($author_goal_link ne '');
      $header .= " in $year_goal" if ($year_goal ne '');
      $header .= "; keyword $keyword_goal" if ($keyword_goal ne '');
      $header .= " on $category_goal" if ($category_goal ne '');
@@ -185,14 +222,6 @@ print "
      &print_head ($header);		# 2005.07.12 DEH
   }
      print "<p><font size=+1><b>$header</b></font></p>\n";
-
-#     print '<p><font size=+1><b>Selected Moscow FSL Engineering publications';
-#     print " by $author_goal_link" if ($author_goal ne '');
-#     print " in $year_goal" if ($year_goal ne '');
-#     print "; keyword $keyword_goal" if ($keyword_goal ne '');
-#     print " on $category_goal" if ($category_goal ne '');
-#     print "</b></font></p>\n";
-##    print "Author: $author_goal; Keyword: $keyword_goal; Year: $year_goal<br><br>\n";
 
      &get_entry;			# prime the system ...
      $pub = substr($line,1,5);
@@ -449,8 +478,7 @@ my $title = shift;
   substr($title_strip,$loc_a_open,$diff)='' if ($loc_a_open > -1);
   $title = $title_strip;
 
-print 'Content-type: text/html
-
+print '
 <html>
  <head>
   <style type="text/css">
@@ -511,23 +539,6 @@ print <<'theEnd';
       <b>Soil &amp; Water<br>
       Engineering Publications</b><br><br>
      </span>
-     <p>Project Leader:<br>
-      <a href="/people/engr/welliot.html">William J. Elliot</a><br />
-      <a href="http://forest.moscowfsl.wsu.edu/cgi-bin/fswepp/commform.pl?&recipient=welliot&title=Bill%20Elliot">
-      <img src="/images/mail.gif" border=0 align="top" width="32" height="21" alt="email Bill"></a>
-      <br>
-     </p>
-      <p>Contact Webmaster<br />
-      <a href="http://forest.moscowfsl.wsu.edu/cgi-bin/fswepp/commform.pl?&recipient=webmaster&title=the%20Webmaster">
-      <img src="/images/mail.gif" border=0 align="top" width="32" height="21" alt="email webmaster"></a>
-     </p>
-     <p>
-theEnd
-print "      Database updated<br> today" if ($days_old == 0);
-print "      Database updated<br> yesterday" if ($days_old == 1);
-print "      Database updated<br> $days_old days ago" if ($days_old > 1);
-print '
-     </p>
     </TD>
     <TD width="85%" height="375" bgcolor="#FFFFFF" valign="top"> 
      <TABLE width="100%" border="0" cellpadding="0" cellspacing="0">
@@ -539,7 +550,8 @@ print '
        <td width="6" bgcolor="#CCCCFF"><img src="/images/spacer.gif" width="6"></TD>
        <td width="20" bgcolor="#FFFFFF"><img src="/images/spacer.gif" width="20"></TD>
        <td width="100%" bgcolor="#FFFFFF">
-';
+theEnd
+
 }
 
 sub cite {

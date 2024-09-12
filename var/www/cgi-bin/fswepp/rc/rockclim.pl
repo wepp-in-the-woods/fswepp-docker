@@ -1,5 +1,7 @@
-#! /usr/bin/perl
-#!/fsapps/fssys/bin/perl
+#!/usr/bin/perl
+use warnings;
+use CGI qw(:standard escapeHTML);
+
 
 #  usage:
 #    ROCK:CLIM climate    action                units  comefrom
@@ -57,6 +59,7 @@
     $arg2 = $ARGV[2];  chomp $arg2;
     $arg3 = $ARGV[3];  chomp $arg3;
 
+
     $cookie = $ENV{'HTTP_COOKIE'};      # DEH 11/28/2000 moved up
 #    $sep = index ($cookie,"=");
 #    $me = "";
@@ -75,12 +78,20 @@
     if ($me eq " ") {$me = ""}
 
     if ($arg0 . $arg1 . $arg2 . $argv3 eq "") {
-      &ReadParse(*parameters);
-      $goback=$parameters{'goback'};
-      $units=$parameters{'units'};
-      $action=$parameters{'action'};
-      $comefrom=$parameters{'comefrom'};
-      $me=$parameters{'me'};
+      my $cgi = CGI->new;
+
+      # Initialize parameters
+      my $goback    = $cgi->param('goback')    || '';
+      my $units     = $cgi->param('units')     || '';
+      my $action    = $cgi->param('action')    || '-download';
+      my $comefrom  = $cgi->param('comefrom')  || '';
+      my $me        = $cgi->param('me')        || '';
+
+      $goback = escapeHTML($goback);
+      $units = escapeHTML($units);
+      $action = escapeHTML($action);
+      $comefrom = escapeHTML($comefrom);
+      $me = escapeHTML($me);
       if ($action eq "") {$action="-download"};
     }
     else {
@@ -476,49 +487,3 @@ print '</CENTER>
  </body>
 </html>
 ';
-
-#-------------------------------
-
-sub ReadParse {
-
-# ReadParse -- from cgi-lib.pl (Steve Brenner) from Eric Herrmann's
-# "Teach Yourself CGI Programming With PERL in a Week" p. 131
-
-# Reads GET or POST data, converts it to unescaped text, and puts
-# one key=value in each member of the list "@in"
-# Also creates key/value pairs in %in, using '\0' to separate multiple
-# selections
-
-# If a variable-glob parameter...
-
-  local (*in) = @_ if @_;
-
-  local ($i, $loc, $key, $val);
-
-#   read text
-  if ($ENV{'REQUEST_METHOD'} eq "GET") {
-    $in = $ENV{'QUERY_STRING'};
-  } elsif ($ENV{'REQUEST_METHOD'} eq "POST") {
-    read(STDIN,$in,$ENV{'CONTENT_LENGTH'});
-  }
-
-  @in = split(/&/,$in);
-
-  foreach $i (0 .. $#in) {
-    # Convert pluses to spaces
-    $in[$i] =~ s/\+/ /g;
-
-    # Split into key and value
-    ($key, $val) = split(/=/,$in[$i],2);  # splits on the first =
-
-    # Convert %XX from hex numbers to alphanumeric
-    $key =~ s/%(..)/pack("c",hex($1))/ge;
-    $val =~ s/%(..)/pack("c",hex($1))/ge;
-
-    # Associative key and value
-    $in{$key} .= "\0" if (defined($in{$key}));  # \0 is the multiple separator
-    $in{$key} .= $val;
-  }
-  return 1;
- }
-

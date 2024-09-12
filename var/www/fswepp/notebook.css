@@ -1,0 +1,11 @@
+body {
+   background-image: url('http://forest.moscowfsl.wsu.edu/fswepp/images/note.gif');
+   background-repeat: repeat-y;
+   /* Link colors */
+   --link-color: green;
+}
+
+/* Styling links based on the variables defined above */
+a:link {
+    color: var(--link-color);
+}

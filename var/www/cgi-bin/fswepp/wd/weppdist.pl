@@ -197,7 +197,12 @@ print <<'theEnd2';
   <META NAME="Source" content="Run online at https://forest.moscowfsl.wsu.edu/fswepp/">
 
   <SCRIPT LANGUAGE = "JavaScript" type="TEXT/JAVASCRIPT">
-  <!--
+
+  // these need to be global because this code is garbage
+  var para;
+  var climate_name;
+  var default_pcover;
+  var text;
 
   var minyear = 1
   var maxyear = 200
@@ -534,7 +539,7 @@ print "    climate_name = new MakeArray($num_cli);\n";
 
   for $ii (0..$num_cli) {
 #    print "    max_year[$ii] = " . $climate_year[$ii] . ";\n";
-    print "    climate_name[$ii] = ",'"',$climate_name[$ii],'"',"\n";
+    print "    climate_name[$ii] = ",'"',$climate_name[$ii],'"',";\n";
   }
 print <<'theEnd';
 //    window.document.weppdist.Climate.selectedIndex = 0;
@@ -711,7 +716,6 @@ function showTexture() {	// 2010.05.27    2011.07.08
    return true                           // p. 86
 }
 
-  // end hide -->
   </SCRIPT>
 </head>
 theEnd
@@ -735,7 +739,7 @@ print '<BODY bgcolor="white"
     </td>
    </table>
   <center>
-  <!-- FORM name="weppdist" method="post" ACTION="https://',$wepphost,'/cgi-bin/fswepp/wdnc/wdnocalv.pl" -->
+  
   <FORM name="weppdist" method="post" ACTION="wd.pl">
   <input type="hidden" size="1" name="me" value="',$me,'">
   <input type="hidden" size="1" name="units" value="',$units,'">
@@ -743,7 +747,7 @@ print '<BODY bgcolor="white"
  <table width=90% border=0 bgcolor="#FAF8CC">
   <tr>
    <td>
-    <font size=-1 id="help_text">  <!-- this is where the help text gets displayed -->
+    <font size=-1 id="help_text"> 
     </font>
    </td>
   </tr>
@@ -766,7 +770,7 @@ print <<'theEnd';
    </td>
   </tr>
   <tr valign=top>
-   <td valign=top>    <!-- CLIMATE above SOIL TEXTURE -->
+   <td valign=top> 
 
     <TABLE border="1">
      <tr align="top">
@@ -904,7 +908,7 @@ print <<'theEnd';
     <td rowspan=2 bgcolor="#FAF8CC"><input type="text" size=5 name="ofe1_rock" value="20" taborder="15"
         onChange="checkOFE1rock(ofe1_rock,rmin,rmax,rdef,runit,'Percent rock')"
         onFocus="showRange(this.form,'Percent rock: ',rmin,rmax,runit,' (50% for rock/pavement)')"
-        onBlur="blankStatus()">    <!--  for Tahoe Basin model  -->
+        onBlur="blankStatus()"> 
    <tr>
     <td bgcolor="#FAF8CC"><input type="text" size=5 name="ofe1_mid_slope" value="30" taborder="8"
         onChange="checkRange(ofe1_mid_slope,smin,smax,ofe1msdef,sunit,'Slope')"
@@ -950,29 +954,12 @@ print <<'theEnd';
 
    <input type=hidden name="climate_name">
 
-<!-- .... Summary output...
-<INPUT TYPE="CHECKBOX" NAME="Full" VALUE="1">Full output
-<INPUT TYPE="CHECKBOX" NAME="Slope" VALUE="1">Slope file input -->
-
-<!--<INPUT TYPE="SUBMIT" name="actionw" VALUE="Run WEPP"
-    onClick='RunningMsg(this.form.actionw,"Running..."); this.form.achtung.value="Run WEPP"'>
--->
-
 <br>
 <INPUT TYPE="HIDDEN" NAME="Units" VALUE="m">
 <INPUT TYPE="SUBMIT" name="actionw" VALUE="Run WEPP"
        onClick='checkeverything()'>
 
-
-<!--       onClick='RunningMsg(this.form.actionw,"Running WEPP..."); this.form.achtung.value="Run WEPP"'>
-  <input type="button" value="Exit" onClick="window.close(self)">-->
-
 <font size=1>
-<!--
-  <input type=Radio name="weppversion" value="2000">WEPP 2000 |
-  <input type=Radio name="weppversion" value="2010" checked>
-<a href="/fswepp/weppver2010.html" target="weppver">WEPP 2010</a>
--->
 </font>
 
 <BR>
@@ -1086,35 +1073,6 @@ sub make_history_popup {
 
 ## END HISTORY ######################################################
 
-# and returns body (including Javascript document.writeln instructions) for a pop-up history window
-# called pophistory.
-
-# First line after 'BEGIN HISTORY' is <title> text
-# Splits version and comment on semi-colon
-# Version must be version= then digits and periods
-# Bang in line causes line to be ignored
-# Disallowed: single and double quotes in comment part
-# Not handled: continuation lines
-
-# Usage:
-
-#print "<html>
-# <head>
-#  <title>$title</title>
-#   <script language=\"javascript\">
-#    <!-- hide from old browsers...
-#
-#  function popuphistory() {
-#    pophistory = window.open('','pophistory','')
-#";
-#    print make_history_popup();
-#print "
-#    pophistory.document.close()
-#    pophistory.focus()
-#  }
-#";
-
-# print $0,"\n";
 
   my ($line, $z, $vers, $comment);
 

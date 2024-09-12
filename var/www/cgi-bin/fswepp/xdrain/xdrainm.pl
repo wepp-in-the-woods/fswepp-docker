@@ -1,5 +1,6 @@
-#! /usr/bin/perl
-#! /fsapps/fssys/bin/perl
+#!/usr/bin/perl
+use warnings;
+use CGI qw(:standard escapeHTML);
 
 # 5/16/2000 DEH allow platform "linux" to pack like "pc"
 # 4/10/2000 DEH added "Return to Input Screen" button;
@@ -39,6 +40,19 @@
     $width=$parameters{'Width'};       # get width (unrestricted)
     $units=$parameters{'units'};        # get units (ft|m)
     $raw=$parameters{'raw'};           # <1: std XDRAIN; >0: WEPP answers
+
+    $cl=escapeHTML($cl);
+    $st=escapeHTML($st);
+    $bl=escapeHTML($bl);
+    $bs=escapeHTML($bs);
+    if ($bs !~ /^\d+$/ || $bs < 0 || $bs > 30) {
+        $bs = 1;
+    }
+    
+
+    $width=escapeHTML($width);
+    $units=escapeHTML($units);
+    $raw=escapeHTML($raw);
 
    $wepphost = "localhost";
    if (-e "../wepphost") {

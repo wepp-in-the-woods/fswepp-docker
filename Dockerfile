@@ -67,6 +67,7 @@ RUN groupadd -g 1002 webgroup && \
 
 ## Configure Apache
 RUN a2enmod cgid
+RUN a2enmod headers
 RUN rm -R /var/www/html
 COPY ./000-default.conf /etc/apache2/sites-enabled/
 RUN echo 'ServerName 0.0.0.0' >> /etc/apache2/apache2.conf
