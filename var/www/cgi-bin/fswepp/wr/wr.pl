@@ -500,8 +500,8 @@
      print "<HTML>
  <HEAD>
   <TITLE>WEPP:Road Results</TITLE>  
-  <link rel=\"stylesheet\" type=\"text/css\" href=\"/fswepp/notebook.css\">
-   <script language=\"javascript\">
+  <link rel=\"stylesheet\" type=\"text/css\" href=\"/fswepp/notebook.css\" />
+   <script>
 
   function popuphistory() {
     height=500;
@@ -656,8 +656,8 @@
 ';
 
   print '
-   <link rel="stylesheet" type="text/css" href="/fswepp/notebook.css">
    </script>
+   <link rel="stylesheet" type="text/css" href="/fswepp/notebook.css" />
  </head>
  <BODY>
   <font face="Arial, Geneva, Helvetica">
@@ -778,11 +778,6 @@
      USDA Forest Service, Rocky Mountain Research Station, Moscow, ID 83843
      <br>';    &printdate; print '<br>
      WEPP:Road run ID ',$unique,'
-    </td>
-    <td>
-      <!-- a href="https://',$wepphost,'/fswepp/comments.html" onClick="return confirm(\'You need to be connected to the Internet to e-mail comments. Shall I try?\')" -->
-      <a href="https://',$wepphost,'/fswepp/comments.html">
-      <img src="https://',$wepphost,'/fswepp/images/epaemail.gif" align="right" border=0></a>
     </td>
    </tr>
   </table>
