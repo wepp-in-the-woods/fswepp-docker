@@ -55,25 +55,13 @@
           <a href="javascript:document.ddumroese.submit()"><img src="../images/mail.gif" border=0 width="32" height="21" alt="email Debbie"></a> 
           <br />
         </p>
-        <form name="ddumroese" action="http://forest.moscowfsl.wsu.edu/cgi-bin/fswepp/commform.pl" method="post">
-          <input type="hidden" name="recipient" value="ddumroese">
-          <input type="hidden" name="title" value="Debbie Page-Dumroese">
-        </form>
         <p> Last Revised: <br />
           <script>
 <!-- hide
 document.write(document.lastModified)
 // end hide -->
 </script>
-        </p>
-        <p> Contact Webmaster<br />
-          <a href="javascript:document.webmaster.submit()"><img src="../images/mail.gif" border=0 width="32" height="21" alt="email webmaster"></a> 
-          <br />
-        </p>
-        <form name="webmaster" action="http://forest.moscowfsl.wsu.edu/cgi-bin/fswepp/commform.pl" method="post">
-          <input type="hidden" name="recipient" value="webmaster">
-          <input type="hidden" name="title" value="the Webmaster">
-        </form></td>
+        </p></td>
       <td width="550" height="400" bgcolor="#FFFFFF" valign="top"> <br> 
         <!-- ImageReady Slices (new.psd) -->
         <p align="center"><font size="4" face="Arial, Helvetica, sans-serif" color="#FF0000">Microbial 

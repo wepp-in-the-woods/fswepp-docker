@@ -109,16 +109,6 @@ A.R. Stage, USDA Forest Service (1957 Summary, 6.5 MB PDF)
 						</p>
 						<p><a href="http://www.fs.fed.us/disclaimers.shtml">Important Notices</a> | <a href="http://www.fs.fed.us/privacy.shtml">Privacy Policy</a></p>
 					</div>
-<form name="bdenner" action="http://forest.moscowfsl.wsu.edu/cgi-bin/fswepp/commform.pl" method="post">
-<input type="hidden" name="recipient" value="bdenner">
-<input type="hidden" name="title" value="Bob Denner">
-</form>
-<form name="rgraham" action="http://forest.moscowfsl.wsu.edu/cgi-bin/fswepp/commform.pl" method="post">
-<input type="hidden" name="recipient" value="rgraham">
-<input type="hidden" name="title" value="Russell T. Graham">
-</form>
-
-					
                 </div>
             </div>
         </div>

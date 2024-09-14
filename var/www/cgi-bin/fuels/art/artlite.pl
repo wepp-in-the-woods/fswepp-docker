@@ -1561,7 +1561,6 @@ print "  </script>
       </font>
      </td>
      <th bgcolor='lightgreen'>
-      <a href='/cgi-bin/fuels/commform.pl?&recipient=trice&title=Armillaria%20Response%20Tool'><img src='/fuels/images/mail.gif' border='0' width='32' height='21' alt='e-mail comments'></a>
      </th>
      <td align='right' valign='top'>
       <font size=1>

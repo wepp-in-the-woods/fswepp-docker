@@ -3,7 +3,6 @@
 # alert.pl
 
 # 2012.12    DEH adapt for use in allowing call-in alert creation for lab home page
-# 2005.07.05 DEH modify commform2.pl
 # DEH Dec 03, 2003 -- Modify generated HTML formatting
 # DEH 04/10/2000 -- limit textarea size (test)
 

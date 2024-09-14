@@ -82,13 +82,9 @@ include($_SERVER["DOCUMENT_ROOT"]."/".$shared_directory."/left_nav.php");
 					<div class="footer-information">
         <p>
          <strong>Contact:</strong> <a href="http://www.fs.fed.us/research/people/profile.php?alias=bkopyscianski">Ben Kopyscianski</a>
-         <a href="http://forest.moscowfsl.wsu.edu/cgi-bin/fswepp/commform.pl?&recipient=bkopyscianski&title=Ben%20Kopyscianski">
-         <img src="../../images/mail.gif" border="0" width="32" height="21" alt="email Bob" /></a>
          or
          <a href="http://forest.moscowfsl.wsu.edu/people/gems/rgraham.html">Russell T. Graham</a>
-         <a href="http://forest.moscowfsl.wsu.edu/cgi-bin/fswepp/commform.pl?&recipient=rtgraham&title=Russ%20Graham">
-         <img src="../../images/mail.gif" border="0" width="32" height="21" alt="email Russell" /></a>
-        </p>
+       </p>
 						<p><strong>Priest River Experimental Forest</strong> <br />
 						c/o Rocky Mountain Research Station<br />
 						1221 South Main Street<br />

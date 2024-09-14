@@ -3,7 +3,6 @@
 # Known calls from: people/who2.pl?name=sbear
 #                   /cgi-bin/people/popcomment.pl?title=Smokey%20BBear&recipient=sbear&referer=webpage.html
 
-# 2005.07.05 DEH modify commform2.pl
 # DEH Dec 03, 2003 -- Modify generated HTML formatting
 # DEH 04/10/2000 -- limit textarea size (test)
 

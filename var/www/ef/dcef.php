@@ -38,14 +38,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/shared_web/left_nav.php");
        <p>Since the 1940s western white pine on the forest has decreased due to white pine blister rust. However, regeneration, vigor, growth, and genetic studies on western white pine and other species have continued. Research has also included work on site preparation, fire effects, insects and disease, and watershed studies. The legacy of past research and high forest productivity has created a diverse and lush forest, making Deception Creek Experimental Forest an ideal location for conducting research.</p>
        <p>The forest includes the entire Deception Creek drainage, a tributary of the North Fork of the Coeur d'Alene River in northern Idaho. Deception Creek Experimental Forest is located approximately 32 km (20 miles) northeast of Coeur d' Alene, Idaho, on the Fernan Ranger District of the <a href="http://www.fs.fed.us/ipnf/">Idaho Panhandle National Forests</a>.</p>
        <div class="footer-information">
-        <p><strong>Contact:</strong> <a href="http://forest.moscowfsl.wsu.edu/people/smp/tjain.html">Theresa B. Jain</a>
-         <a href="http://forest.moscowfsl.wsu.edu/cgi-bin/fswepp/commform.pl?&recipient=tjain&title=Terrie%20Jain">
-          <img src="../images/mail.gif" border="0" width="32" height="21" alt="email Theresa" /></a>
-           or 
-         <a href="http://forest.moscowfsl.wsu.edu/people/gems/rgraham.html">Russell T. Graham</a>
-         <a href="http://forest.moscowfsl.wsu.edu/cgi-bin/fswepp/commform.pl?&recipient=rtgraham&title=Russell%20Graham">
-          <img src="../images/mail.gif" border="0" width="32" height="21" alt="email Russell" /></a>
-        </p>
+
 	<p><strong>Deception Creek Experimental Forest</strong> <br />
 	           c/o Rocky Mountain Research Station<br />
 		   1221 South Main Street<br />

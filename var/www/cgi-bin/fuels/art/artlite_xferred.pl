@@ -1560,9 +1560,6 @@ print "  </script>
        <a href='http://forest.moscowfsl.wsu.edu/fuels/'>http://forest.moscowfsl.wsu.edu/fuels/</a>
       </font>
      </td>
-     <th bgcolor='lightgreen'>
-      <a href='/cgi-bin/fuels/commform.pl?&recipient=trice&title=Armillaria%20Response%20Tool'><img src='/fuels/images/mail.gif' border='0' width='32' height='21' alt='e-mail comments'></a>
-     </th>
      <td align='right' valign='top'>
       <font size=1>
         <i>A</i>RT <a href='http://forest.moscowfsl.wsu.edu/fuels/art/docs/art_short.html' target='_docs'>overview</a> (HTM)<br>

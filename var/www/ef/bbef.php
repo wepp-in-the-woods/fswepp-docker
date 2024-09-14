@@ -45,9 +45,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/shared_web/left_nav.php");
        <p>The Boise Basin Experimental Forest is located about one hours' drive from Boise, ID.</p>
 
        <div class="footer-information">
-	<p><strong>Contact:</strong> <a href="http://forest.moscowfsl.wsu.edu/people/smp/tjain.html">Theresa B. Jain</a>,
-         <a href="http://forest.moscowfsl.wsu.edu/cgi-bin/fswepp/commform.pl?&recipient=tjain&title=Terrie%20Jain">
-          <img src="../images/mail.gif" border="0" width="32" height="21" alt="email Theresa" /></a>
+	<p><strong>Contact:</strong> <a href="http://forest.moscowfsl.wsu.edu/people/smp/tjain.html">Theresa B. Jain</a>
 	 Scientist in Charge</p>
         <p><strong>Boise Basin Experimental Forest</strong> <br />
          c/o Rocky Mountain Research Station<br />
