@@ -1,5 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
  <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta http-equiv="Content-Language" content="en-us" />
@@ -14,7 +14,7 @@
   <link rel="stylesheet" href="https://forest.moscowfsl.wsu.edu/shared_web/climate.css" type="text/css" media="screen, projection" />
   <link rel="stylesheet" href="https://forest.moscowfsl.wsu.edu/shared_web/climate-print.css" type="text/css" media="print" />
   <!--[if lt IE 8]>
-   <link rel="stylesheet" type="text/css" href="http://forest.moscowfsl.wsu.edu/shared_web/climate-oldbrowsers.css" />
+   <link rel="stylesheet" type="text/css" href="https://forest.moscowfsl.wsu.edu/shared_web/climate-oldbrowsers.css" />
   <![endif]-->
   <script src="https://forest.moscowfsl.wsu.edu/shared_web/shared_javascript.js"></script>
   <script type="text/javascript">
@@ -71,8 +71,8 @@
           for identifying positive curvatures representing non-ground returns in discrete return LiDAR.
           This old version of MCC software works on ArcInfo point coverages, is written in Arc Macro Language, and is slow.
           We recommend using the 
-          <a href="http://sourceforge.net/apps/trac/mcclidar/">current MCC-LIDAR software</a> hosted on SourceForge
-          (http://sourceforge.net/apps/trac/mcclidar/), which reads/writes lidar .las format files, is written in c++,
+          <a href="https://sourceforge.net/apps/trac/mcclidar/">current MCC-LIDAR software</a> hosted on SourceForge
+          (https://sourceforge.net/apps/trac/mcclidar/), which reads/writes lidar .las format files, is written in c++,
           and is fast.
          <br><br>
          For information regarding this algorithm please contact
@@ -178,7 +178,7 @@ COLUMNS-Y - Number of divisions on Y plane
 							<!-- below added for Safari and Google Chrome - other date script is not showing for them with this particular server set-up -->
 							<span id="lastModified">&nbsp;</span>
 						</p>
-						<p><a href="http://www.fs.fed.us/disclaimers.shtml">Important Notices</a> | <a href="http://www.fs.fed.us/privacy.shtml">Privacy Policy</a></p>
+						<p><a href="https://www.fs.fed.us/disclaimers.shtml">Important Notices</a> | <a href="https://www.fs.fed.us/privacy.shtml">Privacy Policy</a></p>
 					</div>
 					
                 </div>
