@@ -45,7 +45,7 @@ Why not monitor the vegetation itself?</h3>
 				<li>Validating standards and methods for soil quality monitoring</li>
 				<li>Understanding the fundamental relationships between soil properties, long-term productivity and forest management practices</li>
 			</ol>
-			<p><a href="http://forest.moscowfsl.wsu.edu/smp/ltsp/">The National Long-Term Soil Productivity study</a> is a research program that will meet these objectives. Findings will show us how changes in site organic matter and soil porosity affect fundamental site processes controlling forest health, productivity, and sustainability.</p>
+			<p><a href="https://forest.moscowfsl.wsu.edu/smp/ltsp/">The National Long-Term Soil Productivity study</a> is a research program that will meet these objectives. Findings will show us how changes in site organic matter and soil porosity affect fundamental site processes controlling forest health, productivity, and sustainability.</p>
 			<h3>A National Partnership</h3>
 			<p>LTSP research focuses on the joint roles of soil porosity and site organic matter and their effects on the site processes that control productivity. The study will be carried out through a standard series of experimental treatments designed to create varying degrees of stress and to provide measures of biological response and soil recovery. Work will center on National Forest lands covering major forest and soil types across the nation. The experimental sites are protected from conflicting uses and are dedicated to long-term research.</p>
 			<p>Results from this cooperative research will provide credible responses to many challenges created through public review of Forest Service Land Management Plans and timber sales.</p>

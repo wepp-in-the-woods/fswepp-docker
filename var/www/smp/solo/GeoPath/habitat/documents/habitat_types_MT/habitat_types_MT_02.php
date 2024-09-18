@@ -1,16 +1,16 @@
 <?php
-require("http://forest.moscowfsl.wsu.edu/smp/solo/shared/header1.php");
+require("https://forest.moscowfsl.wsu.edu/smp/solo/shared/header1.php");
 ?>
     <title>Successional Status of Montana Forests: Fire history, Grazing history, Logging history</title>
 <?php
-require("http://forest.moscowfsl.wsu.edu/smp/solo/shared/stylesheet.php");
+require("https://forest.moscowfsl.wsu.edu/smp/solo/shared/stylesheet.php");
 //invoke_stylesheet();
-require("http://forest.moscowfsl.wsu.edu/smp/solo/shared/header2.php");
+require("https://forest.moscowfsl.wsu.edu/smp/solo/shared/header2.php");
 ?>
 		<meta name="description" content="Successional Status of Montana Forests: Fire history, Grazing history, Logging history" />
 		<meta name="keywords" content="forest vegetation, Montana, habitat, types, plant communities, forest ecology, forest management, fire, grazing, logging" />
 <?php
-require("http://forest.moscowfsl.wsu.edu/smp/solo/shared/header3.php");
+require("https://forest.moscowfsl.wsu.edu/smp/solo/shared/header3.php");
 ?>
 			<h5 class="subnav"><a href="../../../../index.php">SOLO HOME</a> &gt; <a href="../../index.php">HABITAT TYPES</a> &gt; <a href="index.php">FOREST HABITAT TYPES OF MONTANA</a> &gt; SUCCESSIONAL STATUS OF MONTANA FORESTS</h5>
 			<h2 class="topheading"><span class="nfsubhead">Forest Habitat Types of Montana</span><br />PRODUCTIVITY/MANAGEMENT AND SOIL EXCERPTS</h2>
@@ -42,5 +42,5 @@ Beartooth Plateau was halted in the 1950s, and plant recovery has been noticeabl
 				<p>[Pages: <a href="habitat_types_MT_01.php">&lt;&lt; Back</a>&nbsp;&nbsp;<a href="index.php">Index</a>&nbsp;&nbsp;<a href="habitat_types_MT_01.php">1</a>&nbsp;&nbsp;<strong>2</strong>&nbsp;&nbsp;<a href="habitat_types_MT_03.php">3</a>&nbsp;&nbsp;<a href="habitat_types_MT_04.php">4</a>&nbsp;&nbsp;<a href="habitat_types_MT_05.php">5</a>&nbsp;&nbsp;<a href="habitat_types_MT_06.php">6</a>&nbsp;&nbsp;<a href="habitat_types_MT_07.php">7</a>&nbsp;&nbsp;<a href="habitat_types_MT_08.php">8</a>&nbsp;&nbsp;<a href="habitat_types_MT_09.php">9</a>&nbsp;&nbsp;<a href="habitat_types_MT_10.php">10</a>&nbsp;&nbsp;<a href="habitat_types_MT_11.php">11</a>&nbsp;&nbsp;<a href="habitat_types_MT_12.php">12</a>&nbsp;&nbsp;<a href="habitat_types_MT_app.php">Appendixes</a>&nbsp;&nbsp;<a href="habitat_types_MT_03.php">Next &gt;&gt;</a> ]</p>
 			</div>
 <?php
-require("http://forest.moscowfsl.wsu.edu/smp/solo/shared/footer.php");
+require("https://forest.moscowfsl.wsu.edu/smp/solo/shared/footer.php");
 ?>

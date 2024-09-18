@@ -11,7 +11,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/smp/solo/shared/header2.php");
 <?php
 include($_SERVER["DOCUMENT_ROOT"]."/smp/solo/shared/header3.php");
 ?>
-			<h5 class="subnav"><a href="http://forest.moscowfsl.wsu.edu/smp/solo/index.php">SOLO HOME</a> &gt; MISSION</h5>
+			<h5 class="subnav"><a href="https://forest.moscowfsl.wsu.edu/smp/solo/index.php">SOLO HOME</a> &gt; MISSION</h5>
 				<h1 class="topheading">Why is SOLO being created?</h1>
 				<p>In spite of Aldo Leopold's warning that soil is the basis of what is on
 the landscape, the concern for development of long-term soil management practices for

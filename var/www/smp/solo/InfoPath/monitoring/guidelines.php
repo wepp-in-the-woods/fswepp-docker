@@ -17,7 +17,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/smp/solo/shared/header3.php");
 			<p>The effects of management practices may be cumulative over time. If a guideline or combination of guidelines is exceeded in an initial harvest or other management entry, then future entries must have no additional effect unless natural recovery has taken place or mitigative measures have been applied between entries.</p>
 			<p>Soil quality guidelines will be evaluated and updated as research and local experience may indicate. Local values may be developed and submitted to the Regional Forester for standardization among Forests. The ultimate goal of soil resource management is to translate soil management guidelines into applicable (realistic) soil conservation practices.</P>
 			<p>In 2005, a national team of Forest Service scientists and line officers was formed to reevaluate and revise the Region 1 Soil Quality Standards.&nbsp; The results of this collaborative effort will become a template for development of nationally applicable soil quality monitoring methods and protocols.</P>
-			<p>Guidelines used as indicators of soil quality and as measures of conformance to soil quality standards are given for each identified <a href="http://forest.moscowfsl.wsu.edu/smp/solo/InfoPath/monitoring/concerns.php">monitoring concern</a>. </p>
+			<p>Guidelines used as indicators of soil quality and as measures of conformance to soil quality standards are given for each identified <a href="https://forest.moscowfsl.wsu.edu/smp/solo/InfoPath/monitoring/concerns.php">monitoring concern</a>. </p>
 <?php
 include($_SERVER["DOCUMENT_ROOT"]."/smp/solo/shared/footer.php");
 ?>

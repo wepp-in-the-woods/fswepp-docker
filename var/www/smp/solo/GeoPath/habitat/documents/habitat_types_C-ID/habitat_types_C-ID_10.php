@@ -1,16 +1,16 @@
 <?php
-require("http://forest.moscowfsl.wsu.edu/smp/solo/shared/header1.php");
+require("https://forest.moscowfsl.wsu.edu/smp/solo/shared/header1.php");
 ?>
     <title>Other Vegetation Types</title>
 <?php
-require("http://forest.moscowfsl.wsu.edu/smp/solo/shared/stylesheet.php");
+require("https://forest.moscowfsl.wsu.edu/smp/solo/shared/stylesheet.php");
 //invoke_stylesheet();
-require("http://forest.moscowfsl.wsu.edu/smp/solo/shared/header2.php");
+require("https://forest.moscowfsl.wsu.edu/smp/solo/shared/header2.php");
 ?>
 		<meta name="description" content="Forest Habitat Types of Central Idaho - Individual Attributes of Habitat Types: Soils and Timber Productivity" />
 		<meta name="keywords" content="Forest Habitat Types of Central Idaho Productivity Management concerns soil soils timber" />
 <?php
-require("http://forest.moscowfsl.wsu.edu/smp/solo/shared/header3.php");
+require("https://forest.moscowfsl.wsu.edu/smp/solo/shared/header3.php");
 ?>
 			<h5 class="subnav"><a href="../../../../index.php">SOLO HOME</a> &gt; <a href="../../index.php">HABITAT TYPES</a> &gt; <a href="index.php">FOREST HABITAT TYPES OF CENTRAL IDAHO</a> &gt; INDIVIDUAL ATTRIBUTES OF HABITAT TYPES</h5>
 			<h2 class="topheading"><span class="nfsubhead">Forest Habitat Types of Central Idaho</span><br />PRODUCTIVITY/MANAGEMENT AND SOIL EXCERPTS</h2>
@@ -44,5 +44,5 @@ require("http://forest.moscowfsl.wsu.edu/smp/solo/shared/header3.php");
 				<p>[Pages: <a href="habitat_types_C-ID_09.php">&lt;&lt; Back</a>&nbsp;&nbsp;<a href="index.php">Index</a>&nbsp;&nbsp;<a href="habitat_types_C-ID_01.php">1</a>&nbsp;&nbsp;<a href="habitat_types_C-ID_02.php">2</a>&nbsp;&nbsp;<a href="habitat_types_C-ID_03.php">3</a>&nbsp;&nbsp;<a href="habitat_types_C-ID_04.php">4</a>&nbsp;&nbsp;<a href="habitat_types_C-ID_05.php">5</a>&nbsp;&nbsp;<a href="habitat_types_C-ID_06.php">6</a>&nbsp;&nbsp;<a href="habitat_types_C-ID_07.php">7</a>&nbsp;&nbsp;<a href="habitat_types_C-ID_08.php">8</a>&nbsp;&nbsp;<a href="habitat_types_C-ID_09.php">9</a>&nbsp;&nbsp;<strong>10</strong>&nbsp;&nbsp;<a href="habitat_types_C-ID_11.php">11</a>&nbsp;&nbsp;<a href="habitat_types_C-ID_app.php">Appendixes</a>&nbsp;&nbsp;<a href="habitat_types_C-ID_11.php">Next &gt;&gt;</a>]</p>
 			</div>
 <?php
-require("http://forest.moscowfsl.wsu.edu/smp/solo/shared/footer.php");
+require("https://forest.moscowfsl.wsu.edu/smp/solo/shared/footer.php");
 ?>

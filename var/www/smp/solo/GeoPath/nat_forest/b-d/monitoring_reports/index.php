@@ -20,7 +20,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/smp/solo/shared/header3.php");
 			//-->
 			</script>
 			<h3>Annual Monitoring Data</h3>
-		  <p><strong>NOTE:</strong> You will need Adobe Acrobat Reader (<a href="http://www.adobe.com/">free download</a>) to view PDF files.</p>
+		  <p><strong>NOTE:</strong> You will need Adobe Acrobat Reader (<a href="https://www.adobe.com/">free download</a>) to view PDF files.</p>
 			<ul>
 				<li><a href="../../../../documents/monitoring/reports_data/b-d/B-DNF_ElkhornTS_1982.pdf">Elkhorn Timber Sale, 1982</a> (PDF - 532 KB)</li>
 				<li><a href="../../../../documents/monitoring/reports_data/b-d/B-DNF_ElkhornTS_1983.pdf">Elkhorn Timber Sale, 1983</a> (PDF - 292 KB)</li>

@@ -19,7 +19,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/smp/solo/shared/header3.php");
 <!-- END SUBNAV PATH -->
 <!--	<div id="printpagelink"><a href="print/subsections.html">&gt;&gt; Print Version</a></div> -->
 	<h1>ECOLOGICAL UNITS OF THE NORTHERN REGION: SUBSECTIONS</h1>
-			<p>(This document is now available as a <a href="http://treesearch.fs.fed.us/pubs/39453" title="Ecological Units of the Northern Region: Subsections. Gen. Tech. Rep. INT-GTR-369.">PDF file at Treesearch</a>)</p>
+			<p>(This document is now available as a <a href="https://treesearch.fs.fed.us/pubs/39453" title="Ecological Units of the Northern Region: Subsections. Gen. Tech. Rep. INT-GTR-369.">PDF file at Treesearch</a>)</p>
 			<p><a href="../subsection/documents/acknow.php#anchor344616">THE AUTHORS</a></p>
 			<p><a href="../subsection/documents/acknow.php#anchor332653">ACKNOWLEDGEMENTS</a></p>
 			<h2>Contents</h2>

@@ -8,12 +8,12 @@ include($_SERVER["DOCUMENT_ROOT"]."/smp/solo/shared/header2.php");
 ?>
 		<meta name="description" content="USFS Internet Web Home Page Required Disclaimer" />
 		<meta name="keywords" content="USFS Internet Web Home Page Required Disclaimer" />
-		<meta NAME="Author" CONTENT="http://www.fs.fed.us/intro/fs/id.htm">
+		<meta NAME="Author" CONTENT="https://www.fs.fed.us/intro/fs/id.htm">
 		<meta NAME="Expires" CONTENT="never">
 <?php
 include($_SERVER["DOCUMENT_ROOT"]."/smp/solo/shared/header3.php");
 ?>
-		<h5 class="subnav"><a href="http://forest.moscowfsl.wsu.edu/smp/solo/index.php">SOLO HOME</a> &gt; DISCLAIMER</h5>
+		<h5 class="subnav"><a href="https://forest.moscowfsl.wsu.edu/smp/solo/index.php">SOLO HOME</a> &gt; DISCLAIMER</h5>
 		<div id="notice">
       		<h1>WARNING!</h1>
       		<p>This information service operates on a U.S. Government computer system.

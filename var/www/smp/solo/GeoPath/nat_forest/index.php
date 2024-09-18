@@ -45,7 +45,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/smp/solo/shared/header3.php");
         <li><a href="l_and_c/index.php"><span class="landc">Lewis &amp; Clark National Forest</span></a></li>
         <li><a href="lolo/index.php"><span class="lolo">Lolo National Forest</span></a></li>
         <li><a href="nez_perce/index.php"><span class="nezperce">Nez Perce National Forest</span></a></li>
-        <li><a href="http://www.fs.fed.us/r1"><span class="region1www">Region 1 WWW (http://www.fs.fed.us/r1)</span></a></li>
+        <li><a href="https://www.fs.fed.us/r1"><span class="region1www">Region 1 WWW (https://www.fs.fed.us/r1)</span></a></li>
       </ol>
 <?php
 include($_SERVER["DOCUMENT_ROOT"]."/smp/solo/shared/footer.php");

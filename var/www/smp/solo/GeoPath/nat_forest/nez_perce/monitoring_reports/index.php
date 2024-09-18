@@ -21,7 +21,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/smp/solo/shared/header3.php");
 			//-->
 			</script>
 		  <h3>Soil Monitoring Reports</h3>
-		  <p><strong>NOTE:</strong> You will need Adobe Acrobat Reader (<a href="http://www.adobe.com/">free download</a>) to view PDF files.</p>
+		  <p><strong>NOTE:</strong> You will need Adobe Acrobat Reader (<a href="https://www.adobe.com/">free download</a>) to view PDF files.</p>
 		  <ul>
       	<li><a href="../../../../documents/monitoring/reports_data/nezperce/NPNF_DeadFrench_SMRs.pdf">Dead French Timber Sale - Soil Monitoring Reports - 1987, 1988</a> (PDF - 140 KB)</li>
       	<li><a href="../../../../documents/monitoring/reports_data/nezperce/NPNF_HuckHeavenRpt.pdf">Huckleberry Heaven - Soil Monitoring Reports</a> - 199? (PDF - 108 KB)</li>

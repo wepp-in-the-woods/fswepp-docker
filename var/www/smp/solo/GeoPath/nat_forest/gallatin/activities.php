@@ -34,8 +34,8 @@ include($_SERVER["DOCUMENT_ROOT"]."/smp/solo/shared/header3.php");
 			<h4>What can be done?</h4>
 			<h4>Related Documents:</h4>
             <ul>
-      			<li>Gundale, Michael J.; Thomas H. DeLuca; Carl E. Fiedler; Philip W. Ramsey; Michael G. Harrington and James E. Gannon. <a href="http://www.fs.fed.us/ffs/docs/Gundale_etal_2005.pdf">Restoration treatments in a Montana ponderosa pine forest: Effects on soil physical, chemical and biological properties</a>. 2005. For. Ecol. Mgmt. 213: 25&#8211;38.<br /><span class="dateupdated">[link to document added 02/13/2009]</span></li>
-   				<li>Schoennagel, Tania; Thomas T. Veblen and William H. Romme. The interaction of fire, fuels, and climate across Rocky Mountain forests. 2004. <a href="http://www.aibs.org/bioscience/">BioScience</a> 54(7): 661&#8211;676. <br /><span class="dateupdated">[link to journal added 02/13/2009]</span></li>
+      			<li>Gundale, Michael J.; Thomas H. DeLuca; Carl E. Fiedler; Philip W. Ramsey; Michael G. Harrington and James E. Gannon. <a href="https://www.fs.fed.us/ffs/docs/Gundale_etal_2005.pdf">Restoration treatments in a Montana ponderosa pine forest: Effects on soil physical, chemical and biological properties</a>. 2005. For. Ecol. Mgmt. 213: 25&#8211;38.<br /><span class="dateupdated">[link to document added 02/13/2009]</span></li>
+   				<li>Schoennagel, Tania; Thomas T. Veblen and William H. Romme. The interaction of fire, fuels, and climate across Rocky Mountain forests. 2004. <a href="https://www.aibs.org/bioscience/">BioScience</a> 54(7): 661&#8211;676. <br /><span class="dateupdated">[link to journal added 02/13/2009]</span></li>
             </ul>
 			<p class="backlink"><a href="#set0">&lt;&lt; Back to top</a></p>
 
@@ -55,7 +55,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/smp/solo/shared/header3.php");
 			<h4>What can be done?</h4>
 			<h4>Related Documents:</h4>
             <ul>
-      			<li>Gundale, Michael J.; Thomas H. DeLuca; Carl E. Fiedler; Philip W. Ramsey; Michael G. Harrington and James E. Gannon. <a href="http://www.fs.fed.us/ffs/docs/Gundale_etal_2005.pdf">Restoration treatments in a Montana ponderosa pine forest: Effects on soil physical, chemical and biological properties</a>. 2005. For. Ecol. Mgmt. 213: 25&#8211;38.<br /><span class="dateupdated">[link to document added 02/13/2009]</span></li>
+      			<li>Gundale, Michael J.; Thomas H. DeLuca; Carl E. Fiedler; Philip W. Ramsey; Michael G. Harrington and James E. Gannon. <a href="https://www.fs.fed.us/ffs/docs/Gundale_etal_2005.pdf">Restoration treatments in a Montana ponderosa pine forest: Effects on soil physical, chemical and biological properties</a>. 2005. For. Ecol. Mgmt. 213: 25&#8211;38.<br /><span class="dateupdated">[link to document added 02/13/2009]</span></li>
             </ul>
 			<p class="backlink"><a href="#set0">&lt;&lt; Back to top</a></p>
 			

@@ -1,16 +1,16 @@
 <?php
-require("http://forest.moscowfsl.wsu.edu/smp/solo/shared/header1.php");
+require("https://forest.moscowfsl.wsu.edu/smp/solo/shared/header1.php");
 ?>
     <title>Forest Habitat Types of Montana - Index for Productivity/Management and Soils Excerpts</title>
 <?php
-require("http://forest.moscowfsl.wsu.edu/smp/solo/shared/stylesheet.php");
+require("https://forest.moscowfsl.wsu.edu/smp/solo/shared/stylesheet.php");
 //invoke_stylesheet();
-require("http://forest.moscowfsl.wsu.edu/smp/solo/shared/header2.php");
+require("https://forest.moscowfsl.wsu.edu/smp/solo/shared/header2.php");
 ?>
 		<meta name="description" content="Forest Habitat Types of Montana - Index for Productivity/Management and Soils Excerpts - concerns for each habitat type" />
 		<meta name="keywords" content="forest vegetation, Montana, habitat, types, plant communities, forest ecology, forest management" />
 <?php
-require("http://forest.moscowfsl.wsu.edu/smp/solo/shared/header3.php");
+require("https://forest.moscowfsl.wsu.edu/smp/solo/shared/header3.php");
 ?>
 			<h5 class="subnav"><a href="../../../../index.php">SOLO HOME</a> &gt; <a href="../../index.php">HABITAT TYPES</a> &gt; FOREST HABITAT TYPES OF MONTANA</h5>
 			<h2 class="topheading"><span class="nfsubhead">Forest Habitat Types of Montana</span><br />
@@ -158,5 +158,5 @@ require("http://forest.moscowfsl.wsu.edu/smp/solo/shared/header3.php");
 				<p>[Pages: <strong>Index</strong>&nbsp;&nbsp;<a href="habitat_types_MT_01.php">1</a>&nbsp;&nbsp;<a href="habitat_types_MT_02.php">2</a>&nbsp;&nbsp;<a href="habitat_types_MT_03.php">3</a>&nbsp;&nbsp;<a href="habitat_types_MT_04.php">4</a>&nbsp;&nbsp;<a href="habitat_types_MT_05.php">5</a>&nbsp;&nbsp;<a href="habitat_types_MT_06.php">6</a>&nbsp;&nbsp;<a href="habitat_types_MT_07.php">7</a>&nbsp;&nbsp;<a href="habitat_types_MT_08.php">8</a>&nbsp;&nbsp;<a href="habitat_types_MT_09.php">9</a>&nbsp;&nbsp;<a href="habitat_types_MT_10.php">10</a>&nbsp;&nbsp;<a href="habitat_types_MT_11.php">11</a>&nbsp;&nbsp;<a href="habitat_types_MT_12.php">12</a>&nbsp;&nbsp;<a href="habitat_types_MT_app.php">Appendixes</a>&nbsp;&nbsp;<a href="habitat_types_MT_01.php">Next &gt;&gt;</a> ]</p>
 			</div>
 <?php
-require("http://forest.moscowfsl.wsu.edu/smp/solo/shared/footer.php");
+require("https://forest.moscowfsl.wsu.edu/smp/solo/shared/footer.php");
 ?>

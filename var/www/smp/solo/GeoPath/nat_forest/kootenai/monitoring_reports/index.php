@@ -21,7 +21,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/smp/solo/shared/header3.php");
 			//-->
 			</script>
 		  <h3>Soil Monitoring Reports</h3>
-		  <p><strong>NOTE:</strong> You will need Adobe Acrobat Reader (<a href="http://www.adobe.com/">free download</a>) to view PDF files.</p>
+		  <p><strong>NOTE:</strong> You will need Adobe Acrobat Reader (<a href="https://www.adobe.com/">free download</a>) to view PDF files.</p>
 		  <ul>
       	<li><a href="../../../../documents/monitoring/reports_data/kootenai/KooNF_SMR_1988-2003.pdf">1988-2003 Soil Monitoring Report - Summary</a> (PDF - 404 KB)</li>
       	<li><a href="../../../../documents/monitoring/reports_data/kootenai/Kootenai_F-4_1997.php">1997 Soil Monitoring Report</a> (HTML) OR <a href="../../../../documents/monitoring/reports_data/kootenai/KooNF_SMR_F-4_1997.pdf">1997 Soil Monitoring Report</a> (PDF - 376 KB) <br /><span class="dateupdated">[PDF added to SoLo on 07/14/2005]</span></li>

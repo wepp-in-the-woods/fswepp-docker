@@ -1,16 +1,16 @@
 <?php
-require("http://forest.moscowfsl.wsu.edu/smp/solo/shared/header1.php");
+require("https://forest.moscowfsl.wsu.edu/smp/solo/shared/header1.php");
 ?>
     <title>Successional Status of North Idaho Forests: Fire history, Logging history</title>
 <?php
-require("http://forest.moscowfsl.wsu.edu/smp/solo/shared/stylesheet.php");
+require("https://forest.moscowfsl.wsu.edu/smp/solo/shared/stylesheet.php");
 //invoke_stylesheet();
-require("http://forest.moscowfsl.wsu.edu/smp/solo/shared/header2.php");
+require("https://forest.moscowfsl.wsu.edu/smp/solo/shared/header2.php");
 ?>
 		<meta name="description" content="Forest Habitat Types of Northern Idaho - Successional Status: Fire history and Logging history" />
 		<meta name="keywords" content="Forest Habitat Types of Northern Idaho Productivity Management fire history logging history" />
 <?php
-require("http://forest.moscowfsl.wsu.edu/smp/solo/shared/header3.php");
+require("https://forest.moscowfsl.wsu.edu/smp/solo/shared/header3.php");
 ?>
 			<h5 class="subnav"><a href="../../../../index.php">SOLO HOME</a> &gt; <a href="../../index.php">HABITAT TYPES</a> &gt; <a href="index.php">FOREST HABITAT TYPES OF NORTHERN IDAHO</a> &gt; SUCCESSIONAL STATUS: FIRE HISTORY AND LOGGING HISTORY</h5>
 			<h2 class="topheading"><span class="nfsubhead">Forest Habitat Types of Northern Idaho</span><br />PRODUCTIVITY/MANAGEMENT AND SOIL EXCERPTS</h2>
@@ -40,5 +40,5 @@ require("http://forest.moscowfsl.wsu.edu/smp/solo/shared/header3.php");
 				<p>[Pages: <a href="index.php">Index</a>&nbsp;&nbsp;<strong>1</strong>&nbsp;&nbsp;<a href="habitat_types_N-ID_02.php">2</a>&nbsp;&nbsp;<a href="habitat_types_N-ID_03.php">3</a>&nbsp;&nbsp;<a href="habitat_types_N-ID_04.php">4</a>&nbsp;&nbsp;<a href="habitat_types_N-ID_05.php">5</a>&nbsp;&nbsp;<a href="habitat_types_N-ID_06.php">6</a>&nbsp;&nbsp;<a href="habitat_types_N-ID_07.php">7</a>&nbsp;&nbsp;<a href="habitat_types_N-ID_08.php">8</a>&nbsp;&nbsp;<a href="habitat_types_N-ID_09.php">9</a>&nbsp;&nbsp;<a href="habitat_types_N-ID_10.php">10</a>&nbsp;&nbsp;<a href="habitat_types_N-ID_11.php">11</a>&nbsp;&nbsp;<a href="habitat_types_N-ID_app.php">Appendixes</a>&nbsp;&nbsp;<a href="habitat_types_N-ID_02.php">Next &gt;&gt;</a> ]</p>
 			</div>
 <?php
-require("http://forest.moscowfsl.wsu.edu/smp/solo/shared/footer.php");
+require("https://forest.moscowfsl.wsu.edu/smp/solo/shared/footer.php");
 ?>

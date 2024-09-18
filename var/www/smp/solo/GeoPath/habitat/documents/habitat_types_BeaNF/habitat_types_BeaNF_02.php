@@ -1,16 +1,16 @@
 <?php
-require("http://forest.moscowfsl.wsu.edu/smp/solo/shared/header1.php");
+require("https://forest.moscowfsl.wsu.edu/smp/solo/shared/header1.php");
 ?>
     <title>Grassland Communities (Beaverhead National Forest, Montana)</title>
 <?php
-require("http://forest.moscowfsl.wsu.edu/smp/solo/shared/stylesheet.php");
+require("https://forest.moscowfsl.wsu.edu/smp/solo/shared/stylesheet.php");
 //invoke_stylesheet();
-require("http://forest.moscowfsl.wsu.edu/smp/solo/shared/header2.php");
+require("https://forest.moscowfsl.wsu.edu/smp/solo/shared/header2.php");
 ?>
 		<meta name="description" content="Plant Community Classification for Alpine Vegetation on the Beaverhead National Forest, Montana - Grassland Communities" />
 		<meta name="keywords" content="alpine habitats, vegetation classification, key to classification, parent materials, soil variables, southwestern Montana, habitat types" />
 <?php
-require("http://forest.moscowfsl.wsu.edu/smp/solo/shared/header3.php");
+require("https://forest.moscowfsl.wsu.edu/smp/solo/shared/header3.php");
 ?>
 			<h5 class="subnav"><a href="../../../../index.php">SOLO HOME</a> &gt; <a href="../../index.php">HABITAT TYPES</a> &gt; <a href="index.php">PLANT COMMUNITY CLASSIFICATION FOR ALPINE VEGETATION ON THE BEAVERHEAD NATIONAL FOREST, MONTANA</a> &gt; GRASSLAND COMMUNITIES</h5>
 			<h2 class="topheading"><span class="nfsubhead">Plant Community Classification for Alpine Vegetation on the Beaverhead National Forest, Montana</span><br />PRODUCTIVITY/MANAGEMENT AND SOIL EXCERPTS</h2>
@@ -39,5 +39,5 @@ require("http://forest.moscowfsl.wsu.edu/smp/solo/shared/header3.php");
 				<p>[Pages: <a href="habitat_types_BeaNF_01.php">&lt;&lt; Back</a>&nbsp;&nbsp;<a href="index.php">Index</a>&nbsp;&nbsp;<a href="habitat_types_BeaNF_01.php">1</a>&nbsp;&nbsp;<strong>2</strong>&nbsp;&nbsp;<a href="habitat_types_BeaNF_03.php">3</a>&nbsp;&nbsp;<a href="habitat_types_BeaNF_04.php">4</a>&nbsp;&nbsp;<a href="habitat_types_BeaNF_05.php">5</a>&nbsp;&nbsp;<a href="habitat_types_BeaNF_06.php">6</a>&nbsp;&nbsp;<a href="habitat_types_BeaNF_07.php">7</a>&nbsp;&nbsp;<a href="habitat_types_BeaNF_08.php">8</a>&nbsp;&nbsp;<a href="habitat_types_BeaNF_03.php">Next &gt;&gt;</a> ]</p>
 			</div>
 <?php
-require("http://forest.moscowfsl.wsu.edu/smp/solo/shared/footer.php");
+require("https://forest.moscowfsl.wsu.edu/smp/solo/shared/footer.php");
 ?>

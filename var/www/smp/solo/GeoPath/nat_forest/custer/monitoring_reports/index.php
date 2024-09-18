@@ -21,7 +21,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/smp/solo/shared/header3.php");
 			//-->
 			</script>
 			<h3>Annual Monitoring Data</h3>
-		  <p><strong>NOTE:</strong> You will need Adobe Acrobat Reader (<a href="http://www.adobe.com/">free download</a>) to view PDF files.</p>
+		  <p><strong>NOTE:</strong> You will need Adobe Acrobat Reader (<a href="https://www.adobe.com/">free download</a>) to view PDF files.</p>
 			<ul>
 				<li>&nbsp;</li>
 			</ul>

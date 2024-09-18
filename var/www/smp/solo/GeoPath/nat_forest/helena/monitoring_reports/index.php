@@ -21,7 +21,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/smp/solo/shared/header3.php");
 			//-->
 			</script>
 		  <h3>Soil Monitoring Reports</h3>
-		  <p><strong>NOTE:</strong> You will need Adobe Acrobat Reader (<a href="http://www.adobe.com/">free download</a>) to view PDF files.</p>
+		  <p><strong>NOTE:</strong> You will need Adobe Acrobat Reader (<a href="https://www.adobe.com/">free download</a>) to view PDF files.</p>
 		  <ul>
       	<li><a href="../../../../documents/monitoring/reports_data/helena/HelNF_ClancyU_Pre-SMR_2003.pdf">Clancy-Unionville Pre-Soil Monitoring Report - 2003</a> (PDF - 436 KB)</li>
 			</ul>

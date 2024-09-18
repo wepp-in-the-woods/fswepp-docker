@@ -25,7 +25,7 @@ for characterization of watershed properties important to
 management.</p>
 
 <p><a href="../../R1LTAs/text/chapt1_2.pdf">REFERENCE: Ford, G., C. Maynard, J. Nesser, D. Page-Dumroese. 1996. Landtype Associations of the Northern Region, A First Approximation.</a> (PDF<strong>**</strong>)<br />
-<strong>NOTE: You will need Adobe Acrobat Reader</strong> (<a href="http://www.adobe.com/">free download</a>) <strong>to view PDF files. <br />**TIP: If your browser freezes when you try to view this PDF file, you may need to download the latest verstion of Adobe Acrobat Reader. Older versions of Reader can cause some browsers to hang.</strong></p>
+<strong>NOTE: You will need Adobe Acrobat Reader</strong> (<a href="https://www.adobe.com/">free download</a>) <strong>to view PDF files. <br />**TIP: If your browser freezes when you try to view this PDF file, you may need to download the latest verstion of Adobe Acrobat Reader. Older versions of Reader can cause some browsers to hang.</strong></p>
 
 <p>The use of landforms and geologic materials as differentia is
 based on the assumption that these are the two variables which

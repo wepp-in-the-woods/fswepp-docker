@@ -14,8 +14,8 @@ include($_SERVER["DOCUMENT_ROOT"]."/smp/solo/shared/header3.php");
 			<h5 class="subnav"><a href="../../../index.html">SOLO HOME</a> &gt; <a href="../index.php">REGION I NATIONAL FORESTS</a> &gt; DAKOTA PRAIRIE NATIONAL FOREST</h5>
 			<h2 class="topheading">DAKOTA PRAIRIE NATIONAL FOREST</h2>
 			<p>Dakota Prairie National Forest Web Sites: &nbsp;&nbsp;&nbsp; <a
-href="http://www.fs.fed.us/r1/dakotaprairie/">WWW</a>&nbsp;&nbsp;&nbsp;<a
-href="http://fsweb.custer.r1.fs.fed.us/dpg/">FSWeb</a></p>
+href="https://www.fs.fed.us/r1/dakotaprairie/">WWW</a>&nbsp;&nbsp;&nbsp;<a
+href="https://fsweb.custer.r1.fs.fed.us/dpg/">FSWeb</a></p>
 
 			<table class="natforest" width="100%" height="92" border="1" cellspacing="0" cellpadding="5">
 				<thead>

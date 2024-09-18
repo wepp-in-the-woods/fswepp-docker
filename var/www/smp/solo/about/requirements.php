@@ -25,7 +25,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/smp/solo/shared/header2.php");
 include($_SERVER["DOCUMENT_ROOT"]."/smp/solo/shared/header3.php");
 ?>
 
-			<h5 class="subnav"><a href="http://forest.moscowfsl.wsu.edu/smp/solo/index.php">SOLO HOME</a> &gt; SOLO REQUIREMENTS</h5>
+			<h5 class="subnav"><a href="https://forest.moscowfsl.wsu.edu/smp/solo/index.php">SOLO HOME</a> &gt; SOLO REQUIREMENTS</h5>
 
 			<h1 class="topheading"><a NAME="anchor388720"></a>LAWS AND REGULATIONS RELATING TO SOIL QUALITY MONITORING AND LONG TERM SOIL PRODUCTIVITY</h1>
 

@@ -21,7 +21,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/smp/solo/shared/header3.php");
 			//-->
 			</script>
 			<h3>Soil Monitoring Data</h3>
-		  <p><strong>NOTE:</strong> You will need Adobe Acrobat Reader (<a href="http://www.adobe.com/">free download</a>) to view PDF files.</p>
+		  <p><strong>NOTE:</strong> You will need Adobe Acrobat Reader (<a href="https://www.adobe.com/">free download</a>) to view PDF files.</p>
 			<ul>
 				<li><a href="../../../../documents/monitoring/reports_data/flathead/FlaNF_SoilData_1960-80s.pdf">Soil Data: Collection includes data from the 1960s through the 1980s</a> (PDF - 4.1 MB) <br /><span class="dateupdated">[Document added to SoLo on 07/14/2005]</span></li>
 			</ul>

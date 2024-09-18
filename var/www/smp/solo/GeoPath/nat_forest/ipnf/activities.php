@@ -33,7 +33,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/smp/solo/shared/header3.php");
 			<h4>What can be done?</h4>
 			<h4>Related Documents:</h4>
             <ul>
-   				<li>Schoennagel, Tania; Thomas T. Veblen and William H. Romme. The interaction of fire, fuels, and climate across Rocky Mountain forests. 2004. <a href="http://www.aibs.org/bioscience/">BioScience</a> 54(7): 661&#8211;676. <br /><span class="dateupdated">[link to journal added 02/13/2009]</span></li>
+   				<li>Schoennagel, Tania; Thomas T. Veblen and William H. Romme. The interaction of fire, fuels, and climate across Rocky Mountain forests. 2004. <a href="https://www.aibs.org/bioscience/">BioScience</a> 54(7): 661&#8211;676. <br /><span class="dateupdated">[link to journal added 02/13/2009]</span></li>
             </ul>
 			<p class="backlink"><a href="#set0">&lt;&lt; Back to top</a></p>
 

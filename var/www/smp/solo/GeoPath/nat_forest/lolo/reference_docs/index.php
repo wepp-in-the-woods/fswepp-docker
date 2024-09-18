@@ -21,7 +21,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/smp/solo/shared/header3.php");
 			//-->
 			</script>
 			<h3>Reference Documents</h3>
-		  <p><strong>NOTE:</strong> You will need Adobe Acrobat Reader (<a href="http://www.adobe.com/">free download</a>) to view PDF files.</p>
+		  <p><strong>NOTE:</strong> You will need Adobe Acrobat Reader (<a href="https://www.adobe.com/">free download</a>) to view PDF files.</p>
 			<ul>
 				<li><strong>Forest Habitat Types of Montana </strong> by Pfister, Kovalchik, Arno and Presby (GTR INT-34, 1977) 
 					<ul>
@@ -41,7 +41,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/smp/solo/shared/header3.php");
 			<h3>Research Papers</h3>
 			<ul>
       			<li>Arno, Stephen F. <a href="../../../../documents/RPs/Arno_RP-INT-187_1976.pdf">The historical role of fire on the Bitterroot National Forest</a> (PDF - 2.34 MB). 1976. (<strong>RP-INT-187</strong>) <br /><span class="dateupdated">[Document added to SoLo on 08/28/2008]</span></li>
-      			<li>Zlatnik, E. J.;  T. H. DeLuca; K. S. Milner and D. F. Potts. 1999. Site Productivity and Soil Conditions on Terraced Ponderosa Pine Sites in Western Montana. <a href="http://saf.publisher.ingentaconnect.com/content/saf/wjaf/1999/00000014/00000001/art00009">Western Journal of Applied Forestry</a>. 14(1): 35&#8211;40. <br /><span class="dateupdated">[Document added to SoLo on 02/15/2008]</span></li>
+      			<li>Zlatnik, E. J.;  T. H. DeLuca; K. S. Milner and D. F. Potts. 1999. Site Productivity and Soil Conditions on Terraced Ponderosa Pine Sites in Western Montana. <a href="https://saf.publisher.ingentaconnect.com/content/saf/wjaf/1999/00000014/00000001/art00009">Western Journal of Applied Forestry</a>. 14(1): 35&#8211;40. <br /><span class="dateupdated">[Document added to SoLo on 02/15/2008]</span></li>
          	</ul> 
 
 <?php

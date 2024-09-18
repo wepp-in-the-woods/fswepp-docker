@@ -21,7 +21,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/smp/solo/shared/header3.php");
 			//-->
 			</script>
 			<h3>Reference Documents</h3>
-		  <p><strong>NOTE:</strong> You will need Adobe Acrobat Reader (<a href="http://www.adobe.com/">free download</a>) to view PDF files.</p>
+		  <p><strong>NOTE:</strong> You will need Adobe Acrobat Reader (<a href="https://www.adobe.com/">free download</a>) to view PDF files.</p>
 			<ul>
 				<li><a href="reference_docs/FlaNF_Coram_Soil_Map.pdf">Coram Experimental Forest: General Soils Map</a> (PDF - 11.2 MB)</li>			
 				<li><strong>Forest Habitat Types of Montana </strong> by Pfister, Kovalchik, Arno and Presby (GTR INT-34, 1977) 

@@ -21,7 +21,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/smp/solo/shared/header3.php");
 			//-->
 			</script>
 		  	<h3>Soil Monitoring Reports</h3>
-		  <p><strong>NOTE:</strong> You will need Adobe Acrobat Reader (<a href="http://www.adobe.com/">free download</a>) to view PDF files.</p>
+		  <p><strong>NOTE:</strong> You will need Adobe Acrobat Reader (<a href="https://www.adobe.com/">free download</a>) to view PDF files.</p>
 		  	<ul>
       			<li><a href="../../../../documents/monitoring/reports_data/gallatin/GalNF_SMR_1991.pdf">1991 Soil Monitoring Program - Summary Report</a> (PDF - 1.1 MB)</li>
       			<li><a href="../../../../documents/monitoring/reports_data/gallatin/GalNF_SMR_1990.pdf">1990 Soil Monitoring Program - Summary Report</a> (PDF - 432 KB)</li>

@@ -1,16 +1,16 @@
 <?php
-require("http://forest.moscowfsl.wsu.edu/smp/solo/shared/header1.php");
+require("https://forest.moscowfsl.wsu.edu/smp/solo/shared/header1.php");
 ?>
     <title>Idaho Panhandle National Forest: Soil Monitoring Reports - 1995</title>
 <?php
-require("http://forest.moscowfsl.wsu.edu/smp/solo/shared/stylesheet.php");
+require("https://forest.moscowfsl.wsu.edu/smp/solo/shared/stylesheet.php");
 //invoke_stylesheet();
-require("http://forest.moscowfsl.wsu.edu/smp/solo/shared/header2.php");
+require("https://forest.moscowfsl.wsu.edu/smp/solo/shared/header2.php");
 ?>
 		<meta name="description" content="Idaho Panhandle National Forest: Soil Monitoring Report - 1995" />
 		<meta name="keywords" content="Idaho Panhandle National Forest Soil Monitoring Reports 1995 report" />
 <?php
-require("http://forest.moscowfsl.wsu.edu/smp/solo/shared/header3.php");
+require("https://forest.moscowfsl.wsu.edu/smp/solo/shared/header3.php");
 ?>
 			<h5 class="subnav"><a href="../../../../index.html">SOLO HOME</a> &gt; <a href="../../index.php">REGION I NATIONAL FORESTS</a> &gt; <a href="../index.php">IDAHO PANHANDLE NATIONAL FOREST</a> &gt; <a href="index.php">MONITORING REPORTS</a> &gt; 1995</h5>
 			<h2 class="topheading"><span class="nfsubhead">Idaho Panhandle National Forest</span><br />1995 REPORT</h2>
@@ -70,5 +70,5 @@ Jerry Niehoff</p>
 </font>
 			
 <?php
-require("http://forest.moscowfsl.wsu.edu/smp/solo/shared/footer.php");
+require("https://forest.moscowfsl.wsu.edu/smp/solo/shared/footer.php");
 ?>

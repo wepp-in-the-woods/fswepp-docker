@@ -15,7 +15,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/smp/solo/shared/header3.php");
 			<h2 class="topheading">CLEARWATER NATIONAL FOREST</h2>
 			<p class="dateupdated">[Last update: 03/28/2007] <br />
 			[Most recent addition of information: 03/28/2007]</p>
-			<p>Clearwater National Forest Web Sites: &nbsp;&nbsp;&nbsp; <a href="http://www.fs.fed.us/r1/clearwater/">WWW</a>&nbsp;&nbsp;&nbsp;<a href="http://fsweb.clearwater.r1.fs.fed.us">FSWeb</a></p>
+			<p>Clearwater National Forest Web Sites: &nbsp;&nbsp;&nbsp; <a href="https://www.fs.fed.us/r1/clearwater/">WWW</a>&nbsp;&nbsp;&nbsp;<a href="https://fsweb.clearwater.r1.fs.fed.us">FSWeb</a></p>
 
 			<table class="natforest" width="100%" height="92" border="1" cellspacing="0" cellpadding="5">
 				<thead>

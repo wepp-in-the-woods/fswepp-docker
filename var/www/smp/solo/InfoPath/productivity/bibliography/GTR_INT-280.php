@@ -11,7 +11,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/smp/solo/shared/header2.php");
 <?php
 include($_SERVER["DOCUMENT_ROOT"]."/smp/solo/shared/header3.php");
 ?>
-			<h5 class="subnav"><a href="http://forest.moscowfsl.wsu.edu/smp/solo/index.php">SOLO HOME</a> &gt; <a href="http://forest.moscowfsl.wsu.edu/smp/solo/InfoPath/productivity/index.php">PRODUCTIVITY</a> &gt; PROCEEDINGS&#8212;MANAGEMENT AND PRODUCTIVITY OF WESTERN-MONTANE FOREST SOILS (April 1990 - Missoula, MT)</h5>
+			<h5 class="subnav"><a href="https://forest.moscowfsl.wsu.edu/smp/solo/index.php">SOLO HOME</a> &gt; <a href="https://forest.moscowfsl.wsu.edu/smp/solo/InfoPath/productivity/index.php">PRODUCTIVITY</a> &gt; PROCEEDINGS&#8212;MANAGEMENT AND PRODUCTIVITY OF WESTERN-MONTANE FOREST SOILS (April 1990 - Missoula, MT)</h5>
 			<h1 class="topheading">PROCEEDINGS&#8212;MANAGEMENT AND PRODUCTIVITY OF WESTERN-MONTANE FOREST SOILS (April 1990 - Missoula, MT)</h1>
 		<p>Harvey, Alan E.; Neuenschwander, Leon F., compilers. 1991. <strong>Proceedings&#8212;management and productivity of western-montane forest soils; </strong>1990 April 10&#8211;12; Boise, ID. Gen. Tech. Rep. INT-280. Ogden UT: U. S. Department of Agriculture, Forest Service, Intermountain Research Station. 254 p. </p>
 		<h2 class="topheading">Includes these papers:</h2>

@@ -1,5 +1,5 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"
-      "http://www.w3.org/TR/REC-html40/loose.dtd">
+      "https://www.w3.org/TR/REC-html40/loose.dtd">
 <html>
 <head>
 <title>Moscow FSL - Microbial Processes</title>
@@ -20,10 +20,10 @@
       <td bgcolor="#CCCCFF" width="11"><img src="../images/spacer.gif" width="11" height="72"></td>
     </tr>
     <tr> 
-      <td width="560" bgcolor="#669966" align="right" class="m1"><a href="http://forest.moscowfsl.wsu.edu/people/index.html" class="m1"> 
-        Moscow Personnel</a>&nbsp; |&nbsp; <a href="http://forest.moscowfsl.wsu.edu/siteindex.html" class="m1">Site 
-        Index</a>&nbsp; |&nbsp; <a href="http://forest.moscowfsl.wsu.edu/sitemap.html" class="m1">Site 
-        Map</a>&nbsp; |&nbsp; <a href="http://forest.moscowfsl.wsu.edu/index.html" class="m1">Moscow 
+      <td width="560" bgcolor="#669966" align="right" class="m1"><a href="https://forest.moscowfsl.wsu.edu/people/index.html" class="m1"> 
+        Moscow Personnel</a>&nbsp; |&nbsp; <a href="https://forest.moscowfsl.wsu.edu/siteindex.html" class="m1">Site 
+        Index</a>&nbsp; |&nbsp; <a href="https://forest.moscowfsl.wsu.edu/sitemap.html" class="m1">Site 
+        Map</a>&nbsp; |&nbsp; <a href="https://forest.moscowfsl.wsu.edu/index.html" class="m1">Moscow 
         Home</a></td>
       <td bgcolor="#669966" width="11"><img src="../images/spacer.gif" width="11" height="20"></td>
     </tr>
@@ -45,12 +45,12 @@
       <td width="8" rowspan="2" bgcolor="#FFFFFF"><img src="../images/spacer.gif" width="1" height="1"></td>
       <td width="160" rowspan="2" bgcolor="#FFFFFF" valign="top" class="dk10pt"><br /> 
         <b>Other Moscow Forestry Sciences Laboratory Research Projects:</b><br /> 
-        <br /> <a href="http://forest.moscowfsl.wsu.edu/engr/index.html">Soil 
-        and Water Engineering</a><br /> <br /> <a href="http://forest.moscowfsl.wsu.edu/gems/index.html">Forest 
-        Ecosystem Processes</a><br /> <br /> <a href="http://forest.moscowfsl.wsu.edu/rss/index.html">Research 
+        <br /> <a href="https://forest.moscowfsl.wsu.edu/engr/index.html">Soil 
+        and Water Engineering</a><br /> <br /> <a href="https://forest.moscowfsl.wsu.edu/gems/index.html">Forest 
+        Ecosystem Processes</a><br /> <br /> <a href="https://forest.moscowfsl.wsu.edu/rss/index.html">Research 
         Support Services</a><br /> <br /> <br /> <p><br />
           Microbial Processes Project Leader:<br />
-          <a href="http://forest.moscowfsl.wsu.edu/people/smp/ddumroese.html">Debbie 
+          <a href="https://forest.moscowfsl.wsu.edu/people/smp/ddumroese.html">Debbie 
           Page-Dumroese</a><br />
           <a href="javascript:document.ddumroese.submit()"><img src="../images/mail.gif" border=0 width="32" height="21" alt="email Debbie"></a> 
           <br />

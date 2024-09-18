@@ -17,12 +17,12 @@ include($_SERVER["DOCUMENT_ROOT"]."/smp/solo/shared/header3.php");
 ?>
 			<h1 class="topheading">Search SoLo</h1>
 <!-- Google CSE Search Box Begins -->
-  <form id="searchbox_015169904579388047845:k7s1-km0gls" action="http://forest.moscowfsl.wsu.edu/smp/solo/search.php">
+  <form id="searchbox_015169904579388047845:k7s1-km0gls" action="https://forest.moscowfsl.wsu.edu/smp/solo/search.php">
     <input type="hidden" name="cx" value="015169904579388047845:k7s1-km0gls" />
     <input type="hidden" name="cof" value="FORID:11" />
     <input name="q" type="text" size="40" />
     <input type="submit" name="sa" value="Search" />
-    <img src="http://www.google.com/coop/images/google_custom_search_smwide.gif" alt="Google Custom Search" />
+    <img src="https://www.google.com/coop/images/google_custom_search_smwide.gif" alt="Google Custom Search" />
   </form>
 <!-- Google CSE Search Box Ends -->
 
@@ -38,7 +38,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/smp/solo/shared/header3.php");
   var googleSearchDomain = "www.google.com";
   var googleSearchPath = "/cse";
 </script>
-<script type="text/javascript" src="http://www.google.com/afsonline/show_afs_search.js"></script>
+<script type="text/javascript" src="https://www.google.com/afsonline/show_afs_search.js"></script>
 <!-- Google Search Result Snippet Ends -->
 
 <?php
