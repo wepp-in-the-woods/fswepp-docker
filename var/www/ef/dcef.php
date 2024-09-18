@@ -1,8 +1,8 @@
 <?php
 require("../shared_web/resources.php");
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta http-equiv="Content-Language" content="en-us" />
@@ -36,7 +36,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/shared_web/left_nav.php");
        </ul>
        <p>Deception Creek Experimental Forest, located in the Coeur d'Alene Mountains of northern Idaho, is one of the most productive forests in the Rocky Mountains. The forest is in the heart of the western white pine forest type. When the forest was established in 1933, large old-age western white pine were important for producing lumber products. Therefore, research at Deception Creek Experimental Forest focused on the ecology and silviculture of western white pine and its associated species.</p>
        <p>Since the 1940s western white pine on the forest has decreased due to white pine blister rust. However, regeneration, vigor, growth, and genetic studies on western white pine and other species have continued. Research has also included work on site preparation, fire effects, insects and disease, and watershed studies. The legacy of past research and high forest productivity has created a diverse and lush forest, making Deception Creek Experimental Forest an ideal location for conducting research.</p>
-       <p>The forest includes the entire Deception Creek drainage, a tributary of the North Fork of the Coeur d'Alene River in northern Idaho. Deception Creek Experimental Forest is located approximately 32 km (20 miles) northeast of Coeur d' Alene, Idaho, on the Fernan Ranger District of the <a href="http://www.fs.fed.us/ipnf/">Idaho Panhandle National Forests</a>.</p>
+       <p>The forest includes the entire Deception Creek drainage, a tributary of the North Fork of the Coeur d'Alene River in northern Idaho. Deception Creek Experimental Forest is located approximately 32 km (20 miles) northeast of Coeur d' Alene, Idaho, on the Fernan Ranger District of the <a href="https://www.fs.fed.us/ipnf/">Idaho Panhandle National Forests</a>.</p>
        <div class="footer-information">
 
 	<p><strong>Deception Creek Experimental Forest</strong> <br />
@@ -46,7 +46,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/shared_web/left_nav.php");
 		   <strong>Phone:</strong> (208) 882-3557</p>
          	   <p>USDA Forest Service - RMRS - Moscow Forestry Sciences Laboratory<br />
 	</p>
-	<p><a href="http://www.fs.fed.us/disclaimers.shtml">Important Notices</a> | <a href="http://www.fs.fed.us/privacy.shtml">Privacy Policy</a></p>
+	<p><a href="https://www.fs.fed.us/disclaimers.shtml">Important Notices</a> | <a href="https://www.fs.fed.us/privacy.shtml">Privacy Policy</a></p>
        </div>
       </div>
      </div>

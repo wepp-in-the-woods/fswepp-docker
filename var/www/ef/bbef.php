@@ -3,8 +3,8 @@ require("../shared_web/resources.php");
 //require($_SERVER["DOCUMENT_ROOT"]."/".$climate_directory."/_lib/arrays.php");
 //require($_SERVER["DOCUMENT_ROOT"]."/".$climate_directory."/shared/shared_scripts.php");
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta http-equiv="Content-Language" content="en-us" />
@@ -45,7 +45,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/shared_web/left_nav.php");
        <p>The Boise Basin Experimental Forest is located about one hours' drive from Boise, ID.</p>
 
        <div class="footer-information">
-	<p><strong>Contact:</strong> <a href="http://forest.moscowfsl.wsu.edu/people/smp/tjain.html">Theresa B. Jain</a>
+	<p><strong>Contact:</strong> <a href="https://forest.moscowfsl.wsu.edu/people/smp/tjain.html">Theresa B. Jain</a>
 	 Scientist in Charge</p>
         <p><strong>Boise Basin Experimental Forest</strong> <br />
          c/o Rocky Mountain Research Station<br />
@@ -56,7 +56,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/shared_web/left_nav.php");
 	 Page last modified:
 	 <script>document.write( document.lastModified )</script>
 	 </p>
-	<p><a href="http://www.fs.fed.us/disclaimers.shtml">Important Notices</a> | <a href="http://www.fs.fed.us/privacy.shtml">Privacy Policy</a></p>
+	<p><a href="https://www.fs.fed.us/disclaimers.shtml">Important Notices</a> | <a href="https://www.fs.fed.us/privacy.shtml">Privacy Policy</a></p>
        </div>
       </div>
      </div>

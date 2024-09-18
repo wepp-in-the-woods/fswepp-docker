@@ -1,8 +1,8 @@
 <?php
 require("../../shared_web/resources.php");
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta http-equiv="Content-Language" content="en-us" />
@@ -57,7 +57,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/".$shared_directory."/left_nav.php");
 					<div class="references">
 						<p><strong>Daubenmire, R.</strong> 1968. <a href="pref_vascularFloraDaubenmire.pdf">Vascular flora of the Priest River Experimental Forest</a>. Appendix F in Wellner, C.A. 1976. <strong>Frontiers of forestry research &#8212; Priest River Experimental Forest 1911&#8211;1976.</strong> Ogden, UT: U.S. Department of Agriculture, Forest Service, Intermountain Forest and Range Experiment Station. 140&#8211;148. [8-page 3MB PDF]</p>
 						<p><strong>Daubenmire, R.</strong> 1973. A comparison of approaches to the mapping of forest land for intensive management. <strong>The Forestry Chronicle.</strong> 49: 87&#8211;91.</p>
-						<p><strong>Ferguson, D.E.; Zack, A.E.</strong> 2006. <strong>Establishment Record for the Wellner Cliffs Research Natural Area.</strong> Gen. Tech. Rep. RMRS-GTR-170WWW. Fort Collins, CO: U.S. Department of Agriculture, Forest Service, Rocky Mountain Research Station. 40 p. Online at <a href="http://www.fs.fed.us/rm/pubs/rmrs_gtr170.pdf">www.fs.fed.us/rm/pubs/rmrs_gtr170.pdf</a> [44-page 5.73 MB PDF]</p>
+						<p><strong>Ferguson, D.E.; Zack, A.E.</strong> 2006. <strong>Establishment Record for the Wellner Cliffs Research Natural Area.</strong> Gen. Tech. Rep. RMRS-GTR-170WWW. Fort Collins, CO: U.S. Department of Agriculture, Forest Service, Rocky Mountain Research Station. 40 p. Online at <a href="https://www.fs.fed.us/rm/pubs/rmrs_gtr170.pdf">www.fs.fed.us/rm/pubs/rmrs_gtr170.pdf</a> [44-page 5.73 MB PDF]</p>
 						<p><strong>Harpel, J.A.</strong> 2006. <a href="pref_bryophytesHarpel.pdf">Bryophytes Found on Lower Canyon Creek, 2001</a>. Appendix D in Ferguson, D.E.; Zack, A.E. 2006. <strong>Establishment Record for the Wellner Cliffs Research Natural Area.</strong> Gen. Tech. Rep. RMRS-GTR-170WWW. Fort Collins, CO: U.S. Department of Agriculture, Forest Service, Rocky Mountain Research Station. 34-35. [2-page 235KB PDF]</p>
 						<p><strong>Hayes, M.</strong> 2006. <a href="pref_lichensHays.pdf">Lichens observed in the RNA, July 1997</a>. Appendix E in Ferguson, D.E.; Zack, A.E. 2006. <strong>Establishment Record for the Wellner Cliffs Research Natural Area.</strong> Gen. Tech. Rep. RMRS-GTR-170WWW. Fort Collins, CO: U.S. Department of Agriculture, Forest Service, Rocky Mountain Research Station. 36. [1-page 194KB PDF]</p>
 						<p><strong>Wellner, C.A.</strong> 1976. <strong>Frontiers of forestry research &#8212; Priest River Experimental Forest 1911&#8211;1976.</strong> Ogden, UT: U.S. Department of Agriculture, Forest Service, Intermountain Forest and Range Experiment Station. 148 p.</p>
@@ -68,9 +68,9 @@ include($_SERVER["DOCUMENT_ROOT"]."/".$shared_directory."/left_nav.php");
 </iframe>
 					<div class="footer-information">
         <p>
-         <strong>Contact:</strong> <a href="http://www.fs.fed.us/rmrs/profiles/?last=Denner&first=Bob">Bob Denner</a>
+         <strong>Contact:</strong> <a href="https://www.fs.fed.us/rmrs/profiles/?last=Denner&first=Bob">Bob Denner</a>
         or
-         <a href="http://forest.moscowfsl.wsu.edu/people/gems/rgraham.html">Russell T. Graham</a>
+         <a href="https://forest.moscowfsl.wsu.edu/people/gems/rgraham.html">Russell T. Graham</a>
         </p>
 						<p><strong>Priest River Experimental Forest</strong> <br />
 						c/o Rocky Mountain Research Station<br />
@@ -81,7 +81,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/".$shared_directory."/left_nav.php");
 							Last Modified:
 							<script>document.write( document.lastModified )</script>
 						</p>
-						<p><a href="http://www.fs.fed.us/disclaimers.shtml">Important Notices</a> | <a href="http://www.fs.fed.us/privacy.shtml">Privacy Policy</a></p>
+						<p><a href="https://www.fs.fed.us/disclaimers.shtml">Important Notices</a> | <a href="https://www.fs.fed.us/privacy.shtml">Privacy Policy</a></p>
 					</div>
 					
                 </div>

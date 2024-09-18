@@ -1,8 +1,8 @@
 <?php
 require("../../shared_web/resources.php");
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta http-equiv="Content-Language" content="en-us" />
@@ -56,9 +56,9 @@ include($_SERVER["DOCUMENT_ROOT"]."/".$shared_directory."/left_nav.php");
 					<p>During the field season, PREF averages 1000 days use by Forest Service personnel and their cooperators. The residential buildings and bunkhouse have a capacity of 27 beds. During the winter months, a cabin and the bunkhouse/mess hall are shut down, reducing bed space to 18. The residential buildings are ADA compliant and provide visitors with full kitchen facilities and linen.</p>
 					<div class="footer-information">
         <p>
-         <strong>Contact:</strong> <a href="http://www.fs.fed.us/rmrs/profiles/?last=Denner&first=Bob">Bob Denner</a>
+         <strong>Contact:</strong> <a href="https://www.fs.fed.us/rmrs/profiles/?last=Denner&first=Bob">Bob Denner</a>
          or
-         <a href="http://forest.moscowfsl.wsu.edu/people/gems/rgraham.html">Russell T. Graham</a>
+         <a href="https://forest.moscowfsl.wsu.edu/people/gems/rgraham.html">Russell T. Graham</a>
         </p>
 						<p><strong>Priest River Experimental Forest</strong> <br />
 						c/o Rocky Mountain Research Station<br />
@@ -69,7 +69,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/".$shared_directory."/left_nav.php");
 							Last Modified:
 							<script>document.write( document.lastModified )</script>
 						</p>
-						<p><a href="http://www.fs.fed.us/disclaimers.shtml">Important Notices</a> | <a href="http://www.fs.fed.us/privacy.shtml">Privacy Policy</a></p>
+						<p><a href="https://www.fs.fed.us/disclaimers.shtml">Important Notices</a> | <a href="https://www.fs.fed.us/privacy.shtml">Privacy Policy</a></p>
        </div>
       </div>
      </div>

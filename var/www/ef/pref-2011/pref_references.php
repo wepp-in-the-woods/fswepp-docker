@@ -1,8 +1,8 @@
 <?php
 require("../../shared_web/resources.php");
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta http-equiv="Content-Language" content="en-us" />
@@ -70,8 +70,8 @@ include($_SERVER["DOCUMENT_ROOT"]."/".$shared_directory."/left_nav.php");
  <p>Brackebusch, Arthur P. 1975. <strong>Gain and loss of moisture in large forest fuels.</strong> Ogden, UT: USDA For. Serv. Intermt. For. and Range Exp. Stn. Res. Pap. INT-173. 50 p.</p>
  <p>Breuer, Erwin H. 1965. <strong>Thermocouples for forest fire research.</strong> Ogden, UT: USDA For. Serv. Intermt. For. and Range Exp. Stn. Res. Note INT-3l. 7 p.</p>
  <p>Brewster, D. R. 1918. Relation between height growth of larch seedlings and weather conditions. <strong>J. For.</strong> 16(8):861-870.</p>
- <p>Brewster, D. R., and J. A. Larsen. 1925. <a href="http://preserve.nal.usda.gov:8300/jag/v31/v31i3/310267/a310267.htm">Girdling as a means of removing undesirable tree species from the western white pine type</a>. <strong>J. Agric. Res.</strong> 31(3):267.</p>
- <p>Brewster, D. R., and J. A. Larsen. 1925. <a href="http://preserve.nal.usda.gov:8300/jag/v31/v31i12/311101/a311101.htm">Studies in western yellow pine nursery practice</a>. <strong>J. Agric. Res.</strong> 31(12):1101-1120.</p>
+ <p>Brewster, D. R., and J. A. Larsen. 1925. <a href="https://preserve.nal.usda.gov:8300/jag/v31/v31i3/310267/a310267.htm">Girdling as a means of removing undesirable tree species from the western white pine type</a>. <strong>J. Agric. Res.</strong> 31(3):267.</p>
+ <p>Brewster, D. R., and J. A. Larsen. 1925. <a href="https://preserve.nal.usda.gov:8300/jag/v31/v31i12/311101/a311101.htm">Studies in western yellow pine nursery practice</a>. <strong>J. Agric. Res.</strong> 31(12):1101-1120.</p>
  <p>Buchanan, T. S., G. M. Harvey, and D. S. Welch. 1951. Pole blight of western white pine: A numerical evaluation of the symptom. <strong>Phytopathology</strong> 41:199-208.</p>
  <p>Callaham, Robert Z. 1962. Geographic variability in growth of forest trees. p. 311-325 in <strong>Tree growth.</strong> Theodore T. Kozlowski, ed. Ronald Press, New York.</p>
  <p>Canfield, E. R. 1969. <strong>Ecology as a means of cull estimation in standing western redcedar.</strong> Ph.D. Thesis, Univ. Idaho.</p>
@@ -115,19 +115,19 @@ include($_SERVER["DOCUMENT_ROOT"]."/".$shared_directory."/left_nav.php");
  <p>Gisborne, H. T. 1922. <strong>Weather records applied to the fire problem.</strong> USDA For. Serv. North. Rocky Mt. For. and Range Exp. Stn. Appl. For. Note 34. 4 p.</p>
  <p>Gisborne, H. T. 1923. A million dollars a year for smoke. <strong>The Timberman</strong> 24(7):33-34.</p><p>Gisborne, H. T. 1924. Moisture content of fuels as an index of fire danger. <strong>Lumber World Rev.</strong> 45:44.</p>
  <p>Gisborne, H. T. 1925. <strong>The effect of weather on the inflammability of forest fire fuels.</strong> USDA For. Serv. North. Rocky Mt. For. and Range Exp. Stn. Appl. For. Note 58. 3 p.</p>
- <p>Gisborne, H. T. 1925. <a href="http://docs.lib.noaa.gov/rescue/mwr/053/mwr-053-02-0058.pdf" target="mwr">Using weather forecasts for predicting forest-fire danger</a>. <strong>Mon. Weather Rev.</strong> 53(2):58-60.</p>
+ <p>Gisborne, H. T. 1925. <a href="https://docs.lib.noaa.gov/rescue/mwr/053/mwr-053-02-0058.pdf" target="mwr">Using weather forecasts for predicting forest-fire danger</a>. <strong>Mon. Weather Rev.</strong> 53(2):58-60.</p>
  <p>Gisborne, H. T. 1926. Forest fire--a mother of invention. <strong>Am. For. and For. Life</strong> 32(389):265.</p>
  <p>Gisborne, H. T. 1926. More forest inventions. <strong>Am. For. and For. Life</strong> 32(390):345.</p>
  <p>Gisborne, H. T. 1926. Meteorology and forest fire prevention. p. 29 Univ. Mont., <strong>For. Kaimin.</strong></p>
- <p>Gisborne, H. T. 1926. <a href="http://docs.lib.noaa.gov/rescue/mwr/054/mwr-054-07-0281.pdf" target="mwr"> Lightning and forest fires in the northern Rocky Mountain region</a>. <strong>Mon. Weather Rev.</strong> 54(7):281-286.</p>
+ <p>Gisborne, H. T. 1926. <a href="https://docs.lib.noaa.gov/rescue/mwr/054/mwr-054-07-0281.pdf" target="mwr"> Lightning and forest fires in the northern Rocky Mountain region</a>. <strong>Mon. Weather Rev.</strong> 54(7):281-286.</p>
  <p>Gisborne, H. T. 1926. The trend of forest fire research in northern Idaho. <strong>Idaho For.</strong> 8:16.</p><p>Gisborne, H. T. 1927. The objectives of forest fire--weather research. <strong>J. For.</strong> 25(4):452-456.</p>
- <p>Gisborne, H. T. 1927. <a href="http://docs.lib.noaa.gov/rescue/mwr/055/mwr-055-02-0056.pdf" target="mwr">Meteorological factors in the Quartz Creek forest fire</a>. <strong>Mon. Weather Rev.</strong> 55(2):56-60.</p>
+ <p>Gisborne, H. T. 1927. <a href="https://docs.lib.noaa.gov/rescue/mwr/055/mwr-055-02-0056.pdf" target="mwr">Meteorological factors in the Quartz Creek forest fire</a>. <strong>Mon. Weather Rev.</strong> 55(2):56-60.</p>
  <p>Gisborne, H. T. 1928. <strong>Measuring forest-fire danger in northern Idaho.</strong> Washington, D.C.: U.S. Dep. Agric. Misc. Publ. 29. 64 p.</p><p>Gisborne, H. T. 1929. The complicated controls of fire danger. <strong>J. For.</strong> 27(3):311-312.</p><p>Gisborne, H. T. 1929. A forest fire explosion. <strong>The Frontier</strong> 10(1):13-16.</p>
  <p>Gisborne, H. T. 1929. Brush disposal. <strong>The Timberman</strong> 30(3):194.</p>
  <p>Gisborne, H. T. 1930. Forest-fire research. <strong>Sci. Mon.</strong> 31:76-80.</p>
  <p>Gisborne, H. T. 1931. Phases of fire problem. <strong>Am. Lumberman.</strong></p>
  <p>Gisborne, H. T. 1931. The scheme of forest fire control. <strong>J. For.</strong> 29(7):1077-1079.</p><p>Gisborne, H. T. 1931. Lightning on the lookouts. <strong>Am. For.</strong> 37(9):515-518,574-575. Republished in: <strong>Readers Digest,</strong> Oct. 1931. 559-561; <strong>Rangers of the Shield,</strong> Am. For. Assoc., 1934. 161-172.</p>
- <p>Gisborne, H. T. 1931. <a href="http://docs.lib.noaa.gov/rescue/mwr/059/mwr-059-04-0139.pdf" target="mwr">A five-year record of lightning storms and forest fires</a>. <strong>Mon. Weather Rev.</strong> 59(4):139-150.</p>
+ <p>Gisborne, H. T. 1931. <a href="https://docs.lib.noaa.gov/rescue/mwr/059/mwr-059-04-0139.pdf" target="mwr">A five-year record of lightning storms and forest fires</a>. <strong>Mon. Weather Rev.</strong> 59(4):139-150.</p>
  <p>Gisborne, H. T. 1933. Lightning and forest fires. <strong>Pulp and Paper of Can.</strong> 34(6):327-329.</p>
  <p>Gisborne, H. T. 1933. The wood cylinder method of measuring forest inflammability. <strong>J. For.</strong> 31(6):683-689.</p>
  <p>Gisborne, H. T. 1933. Deadwood lying on duff drier than in air. <strong>J. For.</strong> 31(8):979-980.</p>
@@ -179,11 +179,11 @@ include($_SERVER["DOCUMENT_ROOT"]."/".$shared_directory."/left_nav.php");
  <p>Hayes, G. L. 1935. <strong>Don't let a "normal" deceive you.</strong> Washington, D.C.: USDA For. Serv., Serv. Bull. 19(17):4.</p>
  <p>Hayes, G. L. 1937. <strong>Variations of some fire danger factors with altitude, aspect, and time of day.</strong> USDA For. Serv. North. Rocky Mt. For. and Range Exp. Stn. Appl. For. Note 80. 8 p.</p>
  <p>Hayes, G. Lloyd. 1941. <strong>Influence of altitude and aspect on daily variations in factors of forest fire danger.</strong> Washington, D.C.: U.S. Dep. Agric. Circ. 591. 39 p.</p>
- <p>Hayes, G. L. 1942. <a href="http://docs.lib.noaa.gov/rescue/mwr/070/mwr-070-12-0267.pdf" target="mwr">Reliability of the Forest Service type rain gage</a>. <strong>Mon. Weather Rev.</strong> 70(12):267-268.</p>
+ <p>Hayes, G. L. 1942. <a href="https://docs.lib.noaa.gov/rescue/mwr/070/mwr-070-12-0267.pdf" target="mwr">Reliability of the Forest Service type rain gage</a>. <strong>Mon. Weather Rev.</strong> 70(12):267-268.</p>
  <p>Hayes, G. L. 1942. <strong>A discussion of hygrographs.</strong> USDA For. Serv. North. Rocky Mt. For. and Range Exp. Stn. Res. Note 25. 6 p.</p>
  <p>Hayes, G. L. 1942. Differences in fire danger with altitude, aspect, and time of day. <strong>J. For.</strong> 40(4):318-323.</p>
  <p>Hayes, G. Lloyd. 1944. Where and when to measure forest fire danger. <strong>J. For.</strong> 42(10):744-751.</p>
- <p>Hayes, G. Lloyd. 1944. <a href="http://docs.lib.noaa.gov/rescue/mwr/072/mwr-072-05-0111.pdf" target="mwr">A method of measuring rainfall on windy slopes</a>. <strong>Mon. Weather Rev.</strong> 72(5):111-114.</p>
+ <p>Hayes, G. Lloyd. 1944. <a href="https://docs.lib.noaa.gov/rescue/mwr/072/mwr-072-05-0111.pdf" target="mwr">A method of measuring rainfall on windy slopes</a>. <strong>Mon. Weather Rev.</strong> 72(5):111-114.</p>
  <p>Helmers, Austin E. 1946. <strong>How heavily should western white pine be pruned?</strong> USDA For. Serv. North. Rocky Mt. For. and Range Exp. Stn. Res. Note 41. 5 p.</p>
  <p>Helmers, Austin E. 1946. <strong>Pruning wound healing on western white and ponderosa pines.</strong> USDA For. Serv. North. Rocky Mt. For. and Range Exp. Stn. Res. Note 45. 6 p.</p>
  <p>Helmers, Austin E. 1946. Effect of pruning on growth of western white pine. <strong>J. For.</strong> 44(9):673-676.</p>
@@ -199,12 +199,12 @@ include($_SERVER["DOCUMENT_ROOT"]."/".$shared_directory."/left_nav.php");
  <p>Hungerford, Kenneth E. 1957. A portable instrument shelter for ecological studies. <strong>Ecology</strong> 38(1):150-151.</p>
  <p>Hungerford, K. E. 1958. Evaluating ruffed grouse foods for habitat improvement. <strong>Trans. North Am. Wildlife Conf.</strong> 22(1957):380-395.</p>
  <p>Jemison, George M. 1932. Man-power placement and facilities for fire control. <strong>J. For.</strong> 30:626-627.</p>
- <p>Jemison, George M. 1932. <a href="http://docs.lib.noaa.gov/rescue/mwr/060/mwr-060-01-0001.pdf" target="mwr">Meteorological conditions affecting the Freeman Lake (Idaho) fire</a>. <strong>Mon. Weather Rev.</strong> 60(1):1-2.</p>
+ <p>Jemison, George M. 1932. <a href="https://docs.lib.noaa.gov/rescue/mwr/060/mwr-060-01-0001.pdf" target="mwr">Meteorological conditions affecting the Freeman Lake (Idaho) fire</a>. <strong>Mon. Weather Rev.</strong> 60(1):1-2.</p>
  <p>Jemison, G. M. 1932. <strong>Climatological summary for the Priest River Forest Experiment Station, 1912-1931, inclusive.</strong> USDA For. Serv. North. Rocky Mt. For. and Range Exp. Stn. 27 p.</p>
  <p>Jemison, George M. 1932. <strong>Drought not yet broken.</strong> USDA For. Serv. North. Rocky Mt. For. and Range Exp. Stn. Appl. For. Note 62. 2 p.</p>
- <p>Jemison, G. M. 1934. <a href="http://preserve.nal.usda.gov:8300/jag/v49/v49i01/490077/a490077.htm">Beaufort scale of wind force as adapted for use on forested areas of the northern Rocky Mountains</a>. <strong>J. Agric. Res.</strong> 49(1):77-82.</p>
+ <p>Jemison, G. M. 1934. <a href="https://preserve.nal.usda.gov:8300/jag/v49/v49i01/490077/a490077.htm">Beaufort scale of wind force as adapted for use on forested areas of the northern Rocky Mountains</a>. <strong>J. Agric. Res.</strong> 49(1):77-82.</p>
  <p>Jemison, G. M. 1934. The significance of the effect of stand density upon the weather beneath the canopy. <strong>J. For.</strong> 32(4):446-451.</p>
- <p>Jemison, George M. 1935. <a href="http://preserve.nal.usda.gov:8300/jag/v51/v51i10/510885/a510885.htm">Influence of weather factors on moisture content of light fuels in forests of the northern Rocky Mountains</a>. <strong>J. Agric. Res.</strong> 51(10):885-906.</p>
+ <p>Jemison, George M. 1935. <a href="https://preserve.nal.usda.gov:8300/jag/v51/v51i10/510885/a510885.htm">Influence of weather factors on moisture content of light fuels in forests of the northern Rocky Mountains</a>. <strong>J. Agric. Res.</strong> 51(10):885-906.</p>
  <p>Jemison, George M. 1936. <strong>The effect of low vegetation on the rate of spread of fire in the northern Rocky Mountain region.</strong> Thesis, Yale Univ. 80 p.</p>
  <p>Jemison, George M. 1937. Loss of weight of wood due to weathering. <strong>J. For.</strong> 35(5):460-462.</p>
  <p>Kachin, T., and H. T. Gisborne. 1937. The technique of duff hygrometer calibration. <strong>J. For.</strong> 35(8):736-743.</p>
@@ -220,20 +220,20 @@ include($_SERVER["DOCUMENT_ROOT"]."/".$shared_directory."/left_nav.php");
  <p>Larsen, J. A. 1921. <strong>Sunshine and air temperature in relation to forest fires.</strong> USDA For. Serv. North. Rocky Mt. For. and Range Exp. Stn. Appl. For. Note 9. 6 p.</p>
  <p>Larsen, J. A. 1922. Effect of removal of the virgin white pine stand upon the physical factors of site. <strong>Ecology</strong> 3(4):302-305.</p>
  <p>Larsen, J. A. 1922. Some characteristics of seeds of coniferous trees from the Pacific Northwest. <strong>Nat. Nurseryman</strong> 30(9):146-149.</p>
- <p>Larsen, J. A. 1922. <a href="http://docs.lib.noaa.gov/rescue/mwr/050/mwr-050-01-0013.pdf" target="mwr">Weather records at lookout stations in northern Idaho</a>. <strong>Mon. Weather Rev.</strong> 50(1):13-14; <strong>J. For.</strong> 20(3):215-219.</p>
+ <p>Larsen, J. A. 1922. <a href="https://docs.lib.noaa.gov/rescue/mwr/050/mwr-050-01-0013.pdf" target="mwr">Weather records at lookout stations in northern Idaho</a>. <strong>Mon. Weather Rev.</strong> 50(1):13-14; <strong>J. For.</strong> 20(3):215-219.</p>
 <p>Larsen, J. A. 1923. Association of trees, shrubs, and other vegetation in northern Idaho forests. <strong>Ecology</strong> 4(1):63-67.</p>
-<p>Larsen, J. A. 1924. <a href="http://docs.lib.noaa.gov/rescue/mwr/052/mwr-052-04-0218a.pdf" target="mwr">Why hardwoods do not grow naturally in the west</a>. <strong>Idaho For.</strong> 4:28-32; <strong>Mon. Weather Rev.</strong> 52(4):218.</p>
-<p>Larsen, J. A. 1924. <a href="http://preserve.nal.usda.gov:8300/jag/v28/v28i11/281149/a281149.htm">Some factors affecting reproduction after logging in northern Idaho</a>. <strong>J. Agric. Res.</strong> 28(11):1149-1157.</p>
+<p>Larsen, J. A. 1924. <a href="https://docs.lib.noaa.gov/rescue/mwr/052/mwr-052-04-0218a.pdf" target="mwr">Why hardwoods do not grow naturally in the west</a>. <strong>Idaho For.</strong> 4:28-32; <strong>Mon. Weather Rev.</strong> 52(4):218.</p>
+<p>Larsen, J. A. 1924. <a href="https://preserve.nal.usda.gov:8300/jag/v28/v28i11/281149/a281149.htm">Some factors affecting reproduction after logging in northern Idaho</a>. <strong>J. Agric. Res.</strong> 28(11):1149-1157.</p>
 <p>Larsen, J. A. 1924. Trend in silvicultural development in Germany. <strong>J. For.</strong> 22(5):506-512.</p>
-<p>Larsen, J. A. 1925. Products from immature white pine stands in Idaho. <strong>Idaho For.</strong> 7:15-16.</p><p>Larsen, J. A. 1925. <a href="http://docs.lib.noaa.gov/rescue/mwr/053/mwr-053-02-0060.pdf" target="mwr">The forest fire season at different elevations in Idaho</a>. <strong>Mon. Weather Rev.</strong> 53(2):60-63.</p>
-<p>Larsen, J. A. 1925. <a href="http://preserve.nal.usda.gov:8300/jag/v30/v30i12/301177/a301177.htm">Natural reproduction after forest fires in northern Idaho</a>. <strong>J. Agric. Res.</strong> 30(12):1177-1197.</p>
-<p>Larsen, J. A. 1925. <a href="http://preserve.nal.usda.gov:8300/jag/v31/v31i9/310889/a310889.htm">Methods of stimulating germination of western white-pine seed</a>. <strong>J. Agric. Res.</strong> 31(9):889</a>.</p><p>Larsen, J. A. 1926. Thinnings. Iowa State Univ., Ames Forester. </p><p>Larsen, J. A. 1928. Suggestions for forest research in Idaho. <strong>Idaho Forester.</strong></p>
+<p>Larsen, J. A. 1925. Products from immature white pine stands in Idaho. <strong>Idaho For.</strong> 7:15-16.</p><p>Larsen, J. A. 1925. <a href="https://docs.lib.noaa.gov/rescue/mwr/053/mwr-053-02-0060.pdf" target="mwr">The forest fire season at different elevations in Idaho</a>. <strong>Mon. Weather Rev.</strong> 53(2):60-63.</p>
+<p>Larsen, J. A. 1925. <a href="https://preserve.nal.usda.gov:8300/jag/v30/v30i12/301177/a301177.htm">Natural reproduction after forest fires in northern Idaho</a>. <strong>J. Agric. Res.</strong> 30(12):1177-1197.</p>
+<p>Larsen, J. A. 1925. <a href="https://preserve.nal.usda.gov:8300/jag/v31/v31i9/310889/a310889.htm">Methods of stimulating germination of western white-pine seed</a>. <strong>J. Agric. Res.</strong> 31(9):889</a>.</p><p>Larsen, J. A. 1926. Thinnings. Iowa State Univ., Ames Forester. </p><p>Larsen, J. A. 1928. Suggestions for forest research in Idaho. <strong>Idaho Forester.</strong></p>
 <p>Larsen, J. A. 1928. The study of natural reproduction on burned forest areas. <strong>J. For.</strong> 26:332-337. </p>
 <p>Larsen, J. A. 1929. Fires and forest succession in the Bitterroot Mountains of northern Idaho. <strong>Ecology</strong> 10(1):67-76.</p>
 <p>Larsen, J. A. 1930. Forest types of the northern Rocky Mountains and their climatic controls. <strong>Ecology</strong> 11(4):631-672.</p>
 <p>Larsen, J. A. 1940. Site factor variations and responses in temporary forest types in northern Idaho. <strong>Ecol. Monogr.</strong> 10:1-54.</p>
 <p>Larsen, J. A. 1948. Early researches in the relations of forest fires and unusual weather conditions, humidity, duff moisture, and inflammability. Iowa State Univ. <strong>J. Sci.</strong> 22(4).</p>
-<p>Larsen, J. A., and C. C. Delavan. 1922. <a href="http://docs.lib.noaa.gov/rescue/mwr/050/mwr-050-02-0055.pdf" target="mwr">Climate and forest fires in Montana and northern Idaho, 1909-1919</a>. <strong>Mon. Weather Rev.</strong> 50(2):55-68.</p>
+<p>Larsen, J. A., and C. C. Delavan. 1922. <a href="https://docs.lib.noaa.gov/rescue/mwr/050/mwr-050-02-0055.pdf" target="mwr">Climate and forest fires in Montana and northern Idaho, 1909-1919</a>. <strong>Mon. Weather Rev.</strong> 50(2):55-68.</p>
 <p>Larsen, J. A., and W. C. Lowdermilk. 1924. Slash disposal in pine forests of Idaho. <strong>West Coast Lumberman</strong> 47(553):50,59-63,75.</p>
 <p>Larsen, J. A., and W. C. Lowdermilk. 1924. <strong>Slash disposal in western white pine forests in Idaho.</strong> Washington, D.C.: U.S. Dep. Agric. Circ. 292. 20 p.</p><p>Larsen, J. A., and R. J. Smith. 1913. Concerning seed spots. <strong>For. Q.</strong> 11:67.</p>
 <p>Leaphart, Charles D. 1958. <strong>Root characteristics of western white pine and associated tree species in a stand affected with pole blight of white pine.</strong> Ogden, UT: USDA For. Serv. Intermt. For. and Range Exp. Stn. Res. Pap. 52. 11 p.</p>
@@ -274,7 +274,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/".$shared_directory."/left_nav.php");
 <p>Peffer, Al. 1950. Evolution of the fire danger meter. <strong>Am. For.</strong> 56(4):12-13.</p>
 <p>Rehfeldt, G. E., and R. J. Steinhoff. 1970. <strong>Height growth in western white pine progenies.</strong> Ogden, UT: USDA For. Serv. Intermt. For. and Range Exp. Stn. Res. Note INT-123. 4 p.</p>
 <p>Rehfeldt, G. E., and J. E. Lotan. 1970. <strong><i>Pinus contorta X banksiana</i> hybrids tested in northern Rocky Mountains.</strong> Ogden, UT: USDA For. Serv. Intermt. For. and Range Exp. Stn. Res. Note INT-126. 7 p.</p>
-<p>Richards, Leon W. 1940. <a href="http://preserve.nal.usda.gov:8300/jag/v60/v60i12/600833/a600833.htm">Effect of certain chemical attributes of vegetation on forest inflammability</a>. <strong>J. Agric. Res.</strong> 60(12):833-838.</p>
+<p>Richards, Leon W. 1940. <a href="https://preserve.nal.usda.gov:8300/jag/v60/v60i12/600833/a600833.htm">Effect of certain chemical attributes of vegetation on forest inflammability</a>. <strong>J. Agric. Res.</strong> 60(12):833-838.</p>
 <p>Satterlund, Donald R., and Harold F. Haupt. 1967. Snow catch by conifer crowns. <strong>Water Resour. Res.</strong> 3(4):1035-1039.</p><p>Satterlund, Donald R., and Harold F. Haupt. 1970. The disposition of snow caught by conifer crowns. <strong>Water Resour. Res.</strong> 6(2):649-652.</p>
 <p>Schaefer, V. J. 1949. <strong>The possibilities of modifying lightning storms in the northern Rockies.</strong> USDA For. Serv. North. Rocky Mt. For. and Range Exp. Stn. Res. Pap. 19.</p>
 <p>Schaefer, V. J. 1957. Atmospheric studies from a moving weather observatory. <strong>Bull. Am. Meteorol. Soc.</strong> 38:124-129.</p><p>Schaefer, Vincent J., and John H. Dieterich. 1959. The seeding of cumulus clouds by ground based silver iodide generators. <strong>J. Appl. Math. and Phys. (ZAMP)</strong> 10(2):174-188.</p>
@@ -299,13 +299,13 @@ include($_SERVER["DOCUMENT_ROOT"]."/".$shared_directory."/left_nav.php");
 <p>Stockstad, Dwight S., and Richard J. Barney. 1964. <strong>Conversion tables for use with the national fire-danger rating system in the Intermountain area.</strong> Ogden, UT: USDA For. Serv. Intermt. For. and Range Exp. Stn. Res. Note INT-12. 6 p.</p>
 <p>USDA Forest Service. 1949. <strong>Pole blight--this is how to recognize it.</strong> Joint Publ., Univ. Idaho Div. For. Pathol and USDA For. Serv. 5 p.</p>
 <p>USDA Forest Service, Pole Blight Investigations Steering Committee. 1952. <strong>Pole blight--what is known about it.</strong> USDA For. Serv. North. Rocky Mt. For. and Range Exp. Stn. Misc. Publ. 4. 17 p.</p>
-<p>Wahlenberg, W. G. 1924. <a href="http://preserve.nal.usda.gov:8300/jag/v28/v28i11/281127/a281127.htm">Fall sowing and delayed germination of western white pine seed</a>. <strong>J. Agric. Res.</strong> 28(11):1127-1131.</p>
-<p>Wahlenberg, W. G. 1925. <a href="http://preserve.nal.usda.gov:8300/jag/v30/v30i3/300245/a300245.htm" target="_jar"> Sowing and planting season for western yellow pine</a>. <strong>J. Agric. Res.</strong> 30(3):245-252.</p>
-<p>Wahlenberg, W. G. 1925. <a href="http://preserve.nal.usda.gov:8300/jag/v30/v30i7/300637/a300637.htm" target="_jar">Reforestation by seed sowing in the northern Rocky Mountains</a>. <strong>J. Agric. Res.</strong> 30(7):637-641.</p>
-<p>Wahlenberg, W. G. 1926. <a href="http://preserve.nal.usda.gov:8300/jag/v33/v33i7/330611/a330611.htm">Age classes of western white pine planting stock in relation to aspect of planting site in northern Idaho</a>. <strong>J. Agric. Res.</strong> 33(7):611-619.</p>
-<p>Wahlenberg, W. G. 1928. <a href="http://preserve.nal.usda.gov:8300/jag/v36/v36i12/360977/a360977.htm">Experiments with classes of stock suitable for forest planting in the northern Rocky Mountains</a>. <strong>J. Agric. Res.</strong> 36(12):977-1000.</p>
-<p>Wahlenberg, W. G. 1929. <a href="http://preserve.nal.usda.gov:8300/jag/v38/v38i04/380219/a380219.htm">Relation of quantity of seed sown and density of seedlings to the development and survival of forest planting stock</a>. <strong>J. Agric. Res.</strong> 38(4):219-227.</p>
-<p>Wahlenberg, W. G. 1930. <a href="http://preserve.nal.usda.gov:8300/jag/v41/v41i08/410601/a410601.htm">Effect of ceanothus brush on western yellow pine plantations in the northern Rocky Mountains</a>. <strong>J. Agric. Res.</strong> 41(8):601-612.</p>
+<p>Wahlenberg, W. G. 1924. <a href="https://preserve.nal.usda.gov:8300/jag/v28/v28i11/281127/a281127.htm">Fall sowing and delayed germination of western white pine seed</a>. <strong>J. Agric. Res.</strong> 28(11):1127-1131.</p>
+<p>Wahlenberg, W. G. 1925. <a href="https://preserve.nal.usda.gov:8300/jag/v30/v30i3/300245/a300245.htm" target="_jar"> Sowing and planting season for western yellow pine</a>. <strong>J. Agric. Res.</strong> 30(3):245-252.</p>
+<p>Wahlenberg, W. G. 1925. <a href="https://preserve.nal.usda.gov:8300/jag/v30/v30i7/300637/a300637.htm" target="_jar">Reforestation by seed sowing in the northern Rocky Mountains</a>. <strong>J. Agric. Res.</strong> 30(7):637-641.</p>
+<p>Wahlenberg, W. G. 1926. <a href="https://preserve.nal.usda.gov:8300/jag/v33/v33i7/330611/a330611.htm">Age classes of western white pine planting stock in relation to aspect of planting site in northern Idaho</a>. <strong>J. Agric. Res.</strong> 33(7):611-619.</p>
+<p>Wahlenberg, W. G. 1928. <a href="https://preserve.nal.usda.gov:8300/jag/v36/v36i12/360977/a360977.htm">Experiments with classes of stock suitable for forest planting in the northern Rocky Mountains</a>. <strong>J. Agric. Res.</strong> 36(12):977-1000.</p>
+<p>Wahlenberg, W. G. 1929. <a href="https://preserve.nal.usda.gov:8300/jag/v38/v38i04/380219/a380219.htm">Relation of quantity of seed sown and density of seedlings to the development and survival of forest planting stock</a>. <strong>J. Agric. Res.</strong> 38(4):219-227.</p>
+<p>Wahlenberg, W. G. 1930. <a href="https://preserve.nal.usda.gov:8300/jag/v41/v41i08/410601/a410601.htm">Effect of ceanothus brush on western yellow pine plantations in the northern Rocky Mountains</a>. <strong>J. Agric. Res.</strong> 41(8):601-612.</p>
 <p>Warnick, C. C. 1953. Experiments with windshields for precipitation gages. <strong>Trans. Am. Geophys. Union</strong> 34(3):379-388.</p>
 <p>Warnick, C. C. 1956. <strong>Influence of wind on precipitation measurements at high altitudes.</strong> Univ. Idaho, Eng. Exp. Stn., Bull. 10. 63 p.</p>
 <p>Watt, Richard F. 1950. Approach toward normal stocking in western white pine stands. <strong>Northwest Sci.</strong> 24(4):149-157.</p>
@@ -314,14 +314,14 @@ include($_SERVER["DOCUMENT_ROOT"]."/".$shared_directory."/left_nav.php");
 <p>Watt, Richard F. 1953. <strong>Site index changes in western white pine forests.</strong> USDA For. Serv. North. Rocky Mt. For. and Range Exp. Stn. Res. Note 132. 2 p.</p>
 <p>Watt, Richard F. 1954. <strong>Mortality in second-growth stands of the western white pine type.</strong> Ogden, UT: USDA For. Serv. Intermt. For. and Range Exp. Stn. Res. Note 9. 5 p.</p>
 <p>Watt, Richard F. 1960. <strong>Second-growth western white pine stands: site index and species changes; normality percentage trends; mortality.</strong> U.S. Dep. Agric. Tech. Bull. 1226. 60 p.</p>
-<p>Weidman, R. H. 1922. <strong>Intensive management on a demonstration forest.</strong> Ogden, UT: USDA For. Serv. North. Rocky Mt. For. and Range Exp. Stn. Appl. For. Note 35. 3 p.</p><p>Weidman, R. H. 1923. <a href="http://docs.lib.noaa.gov/rescue/mwr/051/mwr-051-11-0563.pdf" target="mwr">Relation of weather forecasts to the prediction of dangerous forest fire conditions</a>. <strong>Mon. Weather Rev.</strong> 51(11):563-564.</p>
+<p>Weidman, R. H. 1922. <strong>Intensive management on a demonstration forest.</strong> Ogden, UT: USDA For. Serv. North. Rocky Mt. For. and Range Exp. Stn. Appl. For. Note 35. 3 p.</p><p>Weidman, R. H. 1923. <a href="https://docs.lib.noaa.gov/rescue/mwr/051/mwr-051-11-0563.pdf" target="mwr">Relation of weather forecasts to the prediction of dangerous forest fire conditions</a>. <strong>Mon. Weather Rev.</strong> 51(11):563-564.</p>
 <p>Weidman, R. H. 1925. <strong>Ten years' trial of some introduced species at Priest River Experiment Station.</strong> USDA For. Serv. North. Rocky Mt. For. and Range Exp. Stn. Appl. For. Note 56. 3 p.</p>
 <p>Weidman, R. H. 1927. Prolific seed production in the forests of northern Idaho. <strong>Northwest Sci.</strong> 1(4):79-80.</p>
 <p>Weidman, R. H. 1928. Forest research activities in the northern Rocky Mountain region. <strong>Northwest Sci.</strong> 2(2):33-37.</p>
 <p>Weidman, R. H. 1929. What is research? <strong>Northwest Sci.</strong> 3(2):42-44.</p>
 <p>Weidman, R. H. 1933. Progress of research in silviculture in the Inland Empire. <strong>Northwest Sci</strong> 7(3):67-71.</p>
 <p>Weidman, R. H. 1937. <strong>Establishment and progress of the Priest River arboretum, 1931 to 1936.</strong> Unpubl. ms. 22 p. (Arboreta file).</p>
-<p>Weidman, R. H. 1939. <a href="http://preserve.nal.usda.gov:8300/jag/v59/v59i12/590855/a590855.htm">Evidences of racial influence in a 25-year test of ponderosa pine</a>. <strong>J. Agric. Res.</strong> 59(12):855-888.</p>
+<p>Weidman, R. H. 1939. <a href="https://preserve.nal.usda.gov:8300/jag/v59/v59i12/590855/a590855.htm">Evidences of racial influence in a 25-year test of ponderosa pine</a>. <strong>J. Agric. Res.</strong> 59(12):855-888.</p>
 <p>Welch, D. S. 1947. Study of the mortality of young western white pine trees. <strong>Univ. Idaho Sch. For. Bull.</strong> 42(6):20-23.</p>
 <p>Wellner, C. A. 1946. <strong>Improving composition in young western white pine stands.</strong> USDA For. Serv. North. Rocky Mt. For. and Range Exp. Stn. Res. Note 43. 6 p.</p>
 <p>Wellner, C. A. 1946. <strong>Estimating light intensity in residual stands in advance of cutting.</strong> USDA For. Serv. North. Rocky Mt. For. and Range Exp. Stn. Res. Note 47. 4 p.</p>
@@ -489,7 +489,7 @@ Department of Agriculture, Forest Service, Intermountain Forest and
 Range Experiment Station. 46 p.</p>
 
 <p>Harvey, A.E.; Jurgensen, M.F.; Larsen, M.J.; Graham, R.T. 1987.
- <a href="http://article.pubs.nrc-cnrc.gc.ca/ppv/RPViewDoc?_handler_=HandleInitialGet&journal=cjfr&volume=17&calyLang=eng&articleFile=x87-011.pdf" target="_pdf">Relationships
+ <a href="https://article.pubs.nrc-cnrc.gc.ca/ppv/RPViewDoc?_handler_=HandleInitialGet&journal=cjfr&volume=17&calyLang=eng&articleFile=x87-011.pdf" target="_pdf">Relationships
  among soil microsite, ectomycorrhizae, and natural
 conifer regeneration of old-growth forests in western Montana</a>.
 <strong>Canadian Journal of Forestry Research.</strong> 17(1):58-62.</p>
@@ -555,7 +555,7 @@ Research Station. 6 p.</p>
 
 <p>Jurgensen, M.F.; Larsen, M.J.; Graham, R.T.; and Harvey, A.E.
 1987. 
- <a href="http://article.pubs.nrc-cnrc.gc.ca/ppv/RPViewDoc?_handler_=HandleInitialGet&journal=cjfr&volume=17&calyLang=eng&articleFile=x87-198.pdf" target="_pdf">Nitrogen fixation in woody residue of northern Rocky
+ <a href="https://article.pubs.nrc-cnrc.gc.ca/ppv/RPViewDoc?_handler_=HandleInitialGet&journal=cjfr&volume=17&calyLang=eng&articleFile=x87-198.pdf" target="_pdf">Nitrogen fixation in woody residue of northern Rocky
 Mountain conifer forests</a>. <strong>Can. J. For. Res.</strong> 17(10):1283-1288.</p>
 
 <p>Leaphart, C.D.; Foiles, M.W. 1972. <strong>Effects of removing pole-blighted
@@ -635,13 +635,13 @@ Geographic patterns of genetic variation in <i>Pinus
 monticola</i>. <strong>Bot. Gaz.</strong> 145:229-239.</p>
 
 <p>Wykoff, W.R. 1986.
- <strong><a href="http://www.fs.fed.us/rm/pubs_int/int_gtr208.pdf" target="_pdf">Supplement to the User's Guide for the Stand
+ <strong><a href="https://www.fs.fed.us/rm/pubs_int/int_gtr208.pdf" target="_pdf">Supplement to the User's Guide for the Stand
 Prognosis Model-version 5.0</a>.</strong> General Technical Report INT-208.
 Ogden, UT: U.S. Department of Agriculture, Forest Service,
 Intermountain Research Station. 36 p.</p>
 
 <p>Wykoff, W.R.; Crookston, N.L.; Stage, A.R. 1982.
- <strong><a href="http://www.fs.fed.us/rm/pubs_int/int_gtr133.pdf" target="_pdf">User's guide to the Stand Prognosis Model</a>.</strong>
+ <strong><a href="https://www.fs.fed.us/rm/pubs_int/int_gtr133.pdf" target="_pdf">User's guide to the Stand Prognosis Model</a>.</strong>
  General Technical Report INT-133. Ogden, UT: U.S. Department of Agriculture, Forest Service, 
 Intermountain Forest and Range Experiment Station. 112 p.</p>
 </div>
@@ -651,27 +651,27 @@ Intermountain Forest and Range Experiment Station. 112 p.</p>
 <div class="references">
 <p class="ref">Duursma, R.A.; Marshall, J.D. 2006. Vertical canopy gradients in delta13C correspond with leaf nitrogen content in a mixed-species conifer forest. <strong>Trees: Structure and Function</strong> 20:496-506.</p>
 <p class="ref">Duursma, R.A.; Marshall, J.D.; Nippert, J.B.; Chambers, C.C.; Robinson, A.P. 2005. Estimating leaf-level parameters for ecosystem process models: a study in mixed conifer canopies on complex terrain. <strong>Tree Physiology</strong> 25:1347-1359.</p>
-<p class="ref">Duursma, R.A.; Marshall, J.D.; Robinson, A.P. 2003. <a href="http://www.sciencedirect.com/science?_ob=MImg&_imagekey=B6V8W-48TMF8M-3-22&_cdi=5881&_user=4250274&_orig=browse&_coverDate=09%2F30%2F2003&_sk=998819996&view=c&wchp=dGLbVtz-zSkzk&md5=572324e54ad7cabc94f7c0ea56355380&ie=/sdarticle.pdf" target="_pdf">Leaf area index inferred from solar beam transmission in mixed conifer forests on complex terrain</a>. <strong>Agricultural and Forest Meteorology</strong> 118:221-236.</p>
+<p class="ref">Duursma, R.A.; Marshall, J.D.; Robinson, A.P. 2003. <a href="https://www.sciencedirect.com/science?_ob=MImg&_imagekey=B6V8W-48TMF8M-3-22&_cdi=5881&_user=4250274&_orig=browse&_coverDate=09%2F30%2F2003&_sk=998819996&view=c&wchp=dGLbVtz-zSkzk&md5=572324e54ad7cabc94f7c0ea56355380&ie=/sdarticle.pdf" target="_pdf">Leaf area index inferred from solar beam transmission in mixed conifer forests on complex terrain</a>. <strong>Agricultural and Forest Meteorology</strong> 118:221-236.</p>
 <p class="ref">Duursma, R.A.; Marshall, J.D.; Robinson, A.P.; Pangle, R.E. In press. Description and test of a simple process-based model of forest growth for mixed-species stands. <strong>Ecological Modelling.</strong></p>
 <p class="ref">Harlow, B.A.; Duursma, R.A.; Marshall, J.D. 2005. Leaf longevity of western redcedar (<i>Thuja plicata</i> J. Donn ex D. Don) increases with depth in the canopy. <strong>Tree Physiology</strong> 25:635-640.</p>
 <p class="ref">Harlow, B.A.; Robinson, A.P.; Marshall, J.D. 2006. A multi-species comparison of d13C from whole wood, extractive-free wood, and holocellulose. <strong>Tree Physiology</strong> 26:767-774.</p>
-<p class="ref">Hultine, K.R.; Marshall, J.D. 2000. <a href="http://www.springerlink.com/content/tgaqecl77n25vk23/fulltext.pdf" target="_pdf">Altitude trends in conifer leaf morphology and stable carbon isotope composition</a>. <strong>Oecologia</strong> 123(1):32-40.</p>
-<p class="ref">McDowell, N.; Barnard, H.; Bond, B.J.; Hinckley, T.; Hubbard, R.; Ishii, H.; Kostner B.; Meinzer, F.C.; Marshall, J.D.; Magnani, F.; Phillips, N.; Ryan, M.G.; Whitehead, D. 2002. <a href="http://www.springerlink.com/content/1bdcmd2v9h4amf8d/fulltext.pdf" target="_pdf">The relationship between tree height and leaf area: sapwood area ratio</a>. <strong>Oecologia</strong> 132(1):12-20.</p>
-<p class="ref">Marshall, J.D.; Monserud, R.A. 1996. <a href="http://www.springerlink.com/content/ju57204g12n816j8/fulltext.pdf" target="_pdf">Homeostatic gas-exchange parameters inferred from <sup>13</sup>C/<sup>12</sup>C in tree rings of conifers</a>. <strong>Oecologia</strong> 105(1):13-21.</p>
-<p class="ref">Marshall, J.D.; Monserud, R.A. 2003. <a href="http://article.pubs.nrc-cnrc.gc.ca/ppv/RPViewDoc?_handler_=HandleInitialGet&amp;journal=cjfr&amp;volume=33&amp;calyLang=eng&amp;articleFile=x02-158.pdf" target="_pdf">Vertical trends in specific leaf area of three conifer species</a>. <strong>Can. J. For. Res.</strong> 33(1):164-170.</p>
+<p class="ref">Hultine, K.R.; Marshall, J.D. 2000. <a href="https://www.springerlink.com/content/tgaqecl77n25vk23/fulltext.pdf" target="_pdf">Altitude trends in conifer leaf morphology and stable carbon isotope composition</a>. <strong>Oecologia</strong> 123(1):32-40.</p>
+<p class="ref">McDowell, N.; Barnard, H.; Bond, B.J.; Hinckley, T.; Hubbard, R.; Ishii, H.; Kostner B.; Meinzer, F.C.; Marshall, J.D.; Magnani, F.; Phillips, N.; Ryan, M.G.; Whitehead, D. 2002. <a href="https://www.springerlink.com/content/1bdcmd2v9h4amf8d/fulltext.pdf" target="_pdf">The relationship between tree height and leaf area: sapwood area ratio</a>. <strong>Oecologia</strong> 132(1):12-20.</p>
+<p class="ref">Marshall, J.D.; Monserud, R.A. 1996. <a href="https://www.springerlink.com/content/ju57204g12n816j8/fulltext.pdf" target="_pdf">Homeostatic gas-exchange parameters inferred from <sup>13</sup>C/<sup>12</sup>C in tree rings of conifers</a>. <strong>Oecologia</strong> 105(1):13-21.</p>
+<p class="ref">Marshall, J.D.; Monserud, R.A. 2003. <a href="https://article.pubs.nrc-cnrc.gc.ca/ppv/RPViewDoc?_handler_=HandleInitialGet&amp;journal=cjfr&amp;volume=33&amp;calyLang=eng&amp;articleFile=x02-158.pdf" target="_pdf">Vertical trends in specific leaf area of three conifer species</a>. <strong>Can. J. For. Res.</strong> 33(1):164-170.</p>
 <p class="ref">Marshall, J.D.; Monserud, R.A. 2006. Co-occurring species differ in tree-rings; d18O trends. <strong>Tree Physiology</strong> 26:1055-1066.</p>
 <p class="ref">Marshall, J.D.; Rehfeldt, G.B.; Monserud, R.A. 2001. Family differences in photosynthetic capacity, water-use efficiency, and growth within populations of three conifer species. <strong>Tree Physiology</strong> 21:727-734. </p>
 <p class="ref">Marshall, J.D.; Zhang, J.W. 1994. Carbon isotope discrimination and water-use efficiency in native plants of the north-central Rockies. <strong>Ecology</strong> 75:1887-1895.</p>
-<p class="ref">Monserud, R.A.; Marshall, J.D. 1999. <a href="http://article.pubs.nrc-cnrc.gc.ca/ppv/RPViewDoc?_handler_=HandleInitialGet&amp;journal=cjfr&amp;volume=29&amp;calyLang=eng&amp;articleFile=x99-015.pdf" target="_pdf">Allometric crown relations in three northern Idaho conifer species</a>. <strong>Can. J. For. Res.</strong> 29(5):521-535.</p>
+<p class="ref">Monserud, R.A.; Marshall, J.D. 1999. <a href="https://article.pubs.nrc-cnrc.gc.ca/ppv/RPViewDoc?_handler_=HandleInitialGet&amp;journal=cjfr&amp;volume=29&amp;calyLang=eng&amp;articleFile=x99-015.pdf" target="_pdf">Allometric crown relations in three northern Idaho conifer species</a>. <strong>Can. J. For. Res.</strong> 29(5):521-535.</p>
 <p class="ref">Monserud, R.A.; Marshall, J.D. 2001. Time-series analysis of d13C from tree rings. I. Time trends and autocorrelation. <strong>Tree Physiology</strong> 21:1087-1102.</p>
 <p class="ref">Robinson, A.P.; Duursma, R.A.; Marshall, J.D. 2005. A regression-based equivalence test for model validation: shifting the burden of proof. <strong>Tree Physiology</strong> 25:903-913.</p>
 </div>
 
 					<div class="footer-information">
         <p>
-         <strong>Contact:</strong> <a href="http://www.fs.fed.us/rmrs/profiles/?last=Denner&first=Bob">Bob Denner</a>
+         <strong>Contact:</strong> <a href="https://www.fs.fed.us/rmrs/profiles/?last=Denner&first=Bob">Bob Denner</a>
          or
-         <a href="http://forest.moscowfsl.wsu.edu/people/gems/rgraham.html">Russell T. Graham</a>
+         <a href="https://forest.moscowfsl.wsu.edu/people/gems/rgraham.html">Russell T. Graham</a>
         </p>
 						<p><strong>Priest River Experimental Forest</strong> <br />
 						c/o Rocky Mountain Research Station<br />
@@ -682,7 +682,7 @@ Intermountain Forest and Range Experiment Station. 112 p.</p>
 							Last Modified:
 							<script>document.write( document.lastModified )</script>
 						</p>
-						<p><a href="http://www.fs.fed.us/disclaimers.shtml">Important Notices</a> | <a href="http://www.fs.fed.us/privacy.shtml">Privacy Policy</a></p>
+						<p><a href="https://www.fs.fed.us/disclaimers.shtml">Important Notices</a> | <a href="https://www.fs.fed.us/privacy.shtml">Privacy Policy</a></p>
 					</div>
                 </div>
             </div>

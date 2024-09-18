@@ -1,8 +1,8 @@
 <?php
 require("../../shared_web/resources.php");
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta http-equiv="Content-Language" content="en-us" />
@@ -72,9 +72,9 @@ Fort Collins, CO: U.S. Department of Agriculture, Forest Service, Rocky Mountain
 					</div>
 					<div class="footer-information">
         <p>
-         <strong>Contact:</strong> <a href="http://www.fs.fed.us/research/people/profile.php?alias=bkopyscianski">Ben Kopyscianski</a>
+         <strong>Contact:</strong> <a href="https://www.fs.fed.us/research/people/profile.php?alias=bkopyscianski">Ben Kopyscianski</a>
          or
-         <a href="http://forest.moscowfsl.wsu.edu/people/gems/rgraham.html">Russell T. Graham</a>
+         <a href="https://forest.moscowfsl.wsu.edu/people/gems/rgraham.html">Russell T. Graham</a>
         </p>
 						<p><strong>Priest River Experimental Forest</strong> <br />
 						c/o Rocky Mountain Research Station<br />
@@ -85,7 +85,7 @@ Fort Collins, CO: U.S. Department of Agriculture, Forest Service, Rocky Mountain
 							Last Modified:
 							<script>document.write( document.lastModified )</script>
 						</p>
-						<p><a href="http://www.fs.fed.us/disclaimers.shtml">Important Notices</a> | <a href="http://www.fs.fed.us/privacy.shtml">Privacy Policy</a></p>
+						<p><a href="https://www.fs.fed.us/disclaimers.shtml">Important Notices</a> | <a href="https://www.fs.fed.us/privacy.shtml">Privacy Policy</a></p>
        </div>			
       </div>
      </div>

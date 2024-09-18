@@ -1,8 +1,8 @@
 <?php
 require("../../shared_web/resources.php");
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta http-equiv="Content-Language" content="en-us" />
@@ -51,18 +51,18 @@ include($_SERVER["DOCUMENT_ROOT"]."/".$shared_directory."/left_nav.php");
 					<h2>Control Weather Station (CWS):</h2>
 					<p>Data (11/27/1911 to 12/31/2005) are available from several websites, under Priest River Experimental Forest, National Weather Service ID #107386.</p>
 					<ul>
-						<li><b>National Climatic Data Center (NCDC)</b> has the complete daily weather record available in a csv or pdf format.  Go to <a href="http://www.ncdc.noaa.gov/cdo-web">www.ncdc.noaa.gov/cdo-web</a> and search with the PREF station ID number.</li>
-						<li><b>Western Regional Climate Center</b> has monthly averages and station metadata. Go to <a href="http://www.wrcc.dri.edu/cgi-bin/cliMAIN.pl?idprie">www.wrcc.dri.edu/cgi-bin/cliMAIN.pl?idprie</a>. </li>
+						<li><b>National Climatic Data Center (NCDC)</b> has the complete daily weather record available in a csv or pdf format.  Go to <a href="https://www.ncdc.noaa.gov/cdo-web">www.ncdc.noaa.gov/cdo-web</a> and search with the PREF station ID number.</li>
+						<li><b>Western Regional Climate Center</b> has monthly averages and station metadata. Go to <a href="https://www.wrcc.dri.edu/cgi-bin/cliMAIN.pl?idprie">www.wrcc.dri.edu/cgi-bin/cliMAIN.pl?idprie</a>. </li>
 					</ul>
 
 					<h2>Snow Pack data sets:</h2> 
 					<p>(WY 1937 to present) are available for the Benton Meadow (elev. 2380 ft, 725 m) and Benton Spring (elev. 4775 ft, 1455 m) snowcourses:</p>
 					<ul>
-						<li><strong>Natural Resource Conservation Service (NRCS)</strong> has the full record for both snowcourses. See <a href="http://www.wcc.nrcs.usda.gov/cgibin/state-site.pl?state=ID&report=snowcourse">www.wcc.nrcs.usda.gov/cgibin/state-site.pl?state=ID&report=snowcourse</a> and select the snow course of interest (Benton Meadow or Benton Spring).</li>
+						<li><strong>Natural Resource Conservation Service (NRCS)</strong> has the full record for both snowcourses. See <a href="https://www.wcc.nrcs.usda.gov/cgibin/state-site.pl?state=ID&report=snowcourse">www.wcc.nrcs.usda.gov/cgibin/state-site.pl?state=ID&report=snowcourse</a> and select the snow course of interest (Benton Meadow or Benton Spring).</li>
 					</ul>
 
 					<h2>Atmospheric Chemistry:</h2>
-					<p>National Atmospheric Deposition Program (NADP) site was established in PREF on December 31, 2002. The site reference is <strong>ID02</strong>. Data can be found at the NADP web page at: <a href="http://nadp.sws.uiuc.edu/sites/siteinfo.asp?net=NTN&id=ID02">nadp.sws.uiuc.edu/sites/siteinfo.asp?net=NTN&id=ID02</a>.</p>
+					<p>National Atmospheric Deposition Program (NADP) site was established in PREF on December 31, 2002. The site reference is <strong>ID02</strong>. Data can be found at the NADP web page at: <a href="https://nadp.sws.uiuc.edu/sites/siteinfo.asp?net=NTN&id=ID02">nadp.sws.uiuc.edu/sites/siteinfo.asp?net=NTN&id=ID02</a>.</p>
 
 					<h2>Precipitation:</h2>
 					<ul>
@@ -71,7 +71,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/".$shared_directory."/left_nav.php");
 					</ul>
 					<h2>Stream Flow Data:</h2>
 					<p>Digitized streamflow is available in a spreadsheet format in daily and monthly time intervals, 1939 to present, from the Moscow Forestry Sciences Lab.
-                                           The flow data and metadata can be found in the <a href="http://www.fs.usda.gov/rds/archive/Product/RDS-2015-0006" target="arc">RMRS Archive</a> at http://www.fs.usda.gov/rds/archive/Product/RDS-2015-0006</p>
+                                           The flow data and metadata can be found in the <a href="https://www.fs.usda.gov/rds/archive/Product/RDS-2015-0006" target="arc">RMRS Archive</a> at https://www.fs.usda.gov/rds/archive/Product/RDS-2015-0006</p>
 
 					<h2>Tree growth data:</h2>
 					<p>available from permanent growth and yield plots, 1914 to present.</p>
@@ -92,10 +92,10 @@ include($_SERVER["DOCUMENT_ROOT"]."/".$shared_directory."/left_nav.php");
 
 					<div class="footer-information">
         <p>
-         <strong>Contact:</strong> <a href="http://www.fs.fed.us/research/people/profile.php?alias=bkopyscianski">Ben Kopyscianski</a>
+         <strong>Contact:</strong> <a href="https://www.fs.fed.us/research/people/profile.php?alias=bkopyscianski">Ben Kopyscianski</a>
        
          or
-         <a href="http://forest.moscowfsl.wsu.edu/people/gems/rgraham.html">Russell T. Graham</a>
+         <a href="https://forest.moscowfsl.wsu.edu/people/gems/rgraham.html">Russell T. Graham</a>
        
         </p>
 						<p><strong>Priest River Experimental Forest</strong> <br />
@@ -107,7 +107,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/".$shared_directory."/left_nav.php");
 							Last Modified:
 							<script>document.write( document.lastModified )</script>
 						</p>
-	<p><a href="http://www.fs.fed.us/disclaimers.shtml">Important Notices</a> | <a href="http://www.fs.fed.us/privacy.shtml">Privacy Policy</a></p>
+	<p><a href="https://www.fs.fed.us/disclaimers.shtml">Important Notices</a> | <a href="https://www.fs.fed.us/privacy.shtml">Privacy Policy</a></p>
        </div>
       </div>
      </div>
