@@ -8,10 +8,10 @@
   <font face="trebuchet, tahoma, sans serif">
   <table width=100% border=1>
    <tr bgcolor="&99cc99">
-    <th><a href="http://www.fs.fed.us">USDA Forest Service</a>
-    <th><a href="http://www.fs.fed.us/rm/">Rocky Mountain Research Station</a>
-    <th><a href="http://forest.moscowfsl.wsu.edu">Moscow FSL</a>
-    <th><a href="http://forest.moscowfsl.wsu.edu/engr/">Soil and Water Engineering</a>
+    <th><a href="https://www.fs.fed.us">USDA Forest Service</a>
+    <th><a href="https://www.fs.fed.us/rm/">Rocky Mountain Research Station</a>
+    <th><a href="https://forest.moscowfsl.wsu.edu">Moscow FSL</a>
+    <th><a href="https://forest.moscowfsl.wsu.edu/engr/">Soil and Water Engineering</a>
    </table>
       <h3>
        Interfacing Soil Erosion Models for the World Wide Web
@@ -38,7 +38,7 @@ Water Erosion Prediction Project; WEPP; CLIGEN; PRISM; FORTRAN model
     <p>The USDA Forest Service is concerned about soil erosion, particularly from highly disturbed areas such as roads or following wildfire.  Erosion may lower water quality in sensitive forest streams, adversely affecting the aquatic habitat, and reducing upland soil productivity.
     <p>Soil erosion models have been under development since the late 1930s.  Technologies for prediction began with simple tables and equations culminating in the 1950s with the Universal Soil Loss Equation (USLE).  The USLE was developed to predict average annual soil erosion rates for a number of years with the same surface cover.  Such conditions are common in agriculture where fields are tilled every year, or follow a fixed rotation of several years.  They are also typical of rangeland with a static plant community, or roads that are regularly maintained.  This is not the case with a forest disturbed by fire or other operations.  The forest recovers from the disturbance within a few years.  A difficulty in the use of the USLE technology is that only the erosion from the eroding part of the field is calculated; delivery of sediment must be estimated by some other means, generally by using a delivery ratio.  The delivery ratio is estimated by the user based on climate, soil properties, topography, and vegetation cover.
     <p>In the 1960s, digital computers allowed scientists to model numerically the physical processes that cause erosion.  These early models required complex databases and a high degree of user skill to operate.  The Water Erosion Prediction Project (WEPP) model is one of these process-based models [Laflen et al., 1997].  WEPP, while useful for research applications, could require more than 400 input parameters.  Researchers appreciated the ability to analyze the sensitivity of the model to a large number of input parameters, but field users often were frustrated before becoming competent with the model.  In the late 1990s a Windows interface was developed by the Agricultural Research Service (ARS) for the WEPP model [Flanagan et al., 1998].  That interface made it easier to navigate between input screens, but did little to address the number of variables and options available to the user.  This difficulty in use has meant that WEPP, like other process-based models, has seen little application outside of the research community.
-    <p>The WEPP model has some features important to the Forest Service.  The agency manages lands based on solid science, the foundation of WEPP.  WEPP models snowmelt erosion, and "rain-on-snow" runoff events that dominate the hydrology in many U.S. forests.  Also, because it models erosion for a number of years of typical weather, it is easier to model recovering forest conditions with WEPP than with USLE technology.  The USLE–based technology is difficult to apply to forest regrowth conditions that span decades to centuries, where remote sites have weather that is considerably different from that of the nearest weather stations, and where sediment delivery is more important than is upland erosion rate.  
+    <p>The WEPP model has some features important to the Forest Service.  The agency manages lands based on solid science, the foundation of WEPP.  WEPP models snowmelt erosion, and "rain-on-snow" runoff events that dominate the hydrology in many U.S. forests.  Also, because it models erosion for a number of years of typical weather, it is easier to model recovering forest conditions with WEPP than with USLE technology.  The USLEï¿½based technology is difficult to apply to forest regrowth conditions that span decades to centuries, where remote sites have weather that is considerably different from that of the nearest weather stations, and where sediment delivery is more important than is upland erosion rate.  
     <p>Since the mid 1980s, we have been carrying out field studies to determine erosion parameter values for forest conditions.  In the mid 1990s, we developed a number of templates and methods to apply WEPP to forest road, harvest, and fire conditions [Elliot and Hall, 1997].  Following a number of workshops, we observed that, even with our templates, the model was too complex for field specialists to use.  We found that only about two percent of specialists who attended WEPP workshops ever used the model. 
     <p>
    <b>SPECIALIZED INTERFACES TO WEPP</b>
@@ -93,19 +93,19 @@ The user can adjust the mean monthly precipitation and temperature values if loc
 <p>
  <b>MODELING ENVIRONMENT</b>
 <p>
-The <i>FS WEPP</i> interfaces run remotely over the Internet using a standard web browser.  All of the code and the databases reside on our two servers.  One site (http://forest.moscowfsl.wsu.edu/fswepp/) is accessible to anyone with access to the Internet,  and one is available only to those on the Forest Service intranet.  The software on each server is updated as we apply new features and adjust the databases.  We maintain an online history file for each interface in which are noted the dates of significant changes so that the user can correlate any changes in results to a release version.  Program documentation also is online.
+The <i>FS WEPP</i> interfaces run remotely over the Internet using a standard web browser.  All of the code and the databases reside on our two servers.  One site (https://forest.moscowfsl.wsu.edu/fswepp/) is accessible to anyone with access to the Internet,  and one is available only to those on the Forest Service intranet.  The software on each server is updated as we apply new features and adjust the databases.  We maintain an online history file for each interface in which are noted the dates of significant changes so that the user can correlate any changes in results to a release version.  Program documentation also is online.
 <p>
 By running <i>FS WEPP</i> over the Internet, users are always running the most current version.  In addition, a broad range of client computers--any type of computer that can run a modern web browser--can run <i>FS WEPP</i>. 
 <p>
 The <i>FS WEPP</i> interfaces are standard hypertext markup language (HTML) pages with JavaScript. Many of the HTML pages are generated by Common Gateway Interface (CGI) scripts written in Perl.  WEPP and CLIGEN are FORTRAN applications.
 <p>
-It is possible to install the <i>FS WEPP</i> code, the CLIGEN and WEPP executables, the CLIGEN and PRISM databases, and a Perl interpreter on a personal computer (PC) for use where an Internet connection is undesirable or is not available.  With the addition of an appropriate web server on the PC, <i>FS WEPP</i> will run locally with no recoding required. The web server is required in order to run the CGI scripts. We have developed a small web server for Windows 95 and Windows 98 machines that works with <i>FS WEPP</i> and Internet Explorer.  We have found this stand-alone operation of <i>FS WEPP</i> to be useful for workshops, presentations, and ongoing database and interface development.  The Forest Service’s San Dimas Technology and Development Center [SDTDC, 2000] released versions of <i>X-Drain</i> and <i>WEPP:Road</i> in this form.
+It is possible to install the <i>FS WEPP</i> code, the CLIGEN and WEPP executables, the CLIGEN and PRISM databases, and a Perl interpreter on a personal computer (PC) for use where an Internet connection is undesirable or is not available.  With the addition of an appropriate web server on the PC, <i>FS WEPP</i> will run locally with no recoding required. The web server is required in order to run the CGI scripts. We have developed a small web server for Windows 95 and Windows 98 machines that works with <i>FS WEPP</i> and Internet Explorer.  We have found this stand-alone operation of <i>FS WEPP</i> to be useful for workshops, presentations, and ongoing database and interface development.  The Forest Serviceï¿½s San Dimas Technology and Development Center [SDTDC, 2000] released versions of <i>X-Drain</i> and <i>WEPP:Road</i> in this form.
 <p>
  <b><i>FS WEPP</i>  OPERATION</b>
 <p>
 The user selects a climate, a soil texture, and the road surface condition (or vegetative cover and amount on the upper and lower parts of the hillslope), specifies the slope length and the slope steepness at several points along the hillside, and the number of years of weather to consider (Figures 1 and 2).  <i>FS WEPP</i> uses this information to generate a daily weather file of the specified length, a management file, a topography file, and a soil file based on both soil texture and vegetative cover.  Research has shown that both cover type and cover amount are important in determining soil erodibility in forests [Robichaud et al., 1993; Robichaud, 1996].  This is different than the assumptions of both USLE and WEPP technologies that soil properties are independent of cover. The USLE assumption may be valid for agricultural soils that are regularly tilled, but ongoing fieldwork confirms that in natural soils, both the cover type and amount are important in determining soil erodibility parameter values.  
 <p>
-<i>FS WEPP</i> creates both temporary and more permanent files for each user (Figure 4). The temporary files are created in a working directory using a unique number and are erased when the <i>FS WEPP</i> results are presented.  If a user generates personal climate statistics files or a <i>WEPP:Road</i> log file (into which inputs and results of selected runs may be recorded), those files will be stored in the same working directory for a period of time, labeled with the Internet Protocol (IP) number of the computer on which the user’s browser is running.
+<i>FS WEPP</i> creates both temporary and more permanent files for each user (Figure 4). The temporary files are created in a working directory using a unique number and are erased when the <i>FS WEPP</i> results are presented.  If a user generates personal climate statistics files or a <i>WEPP:Road</i> log file (into which inputs and results of selected runs may be recorded), those files will be stored in the same working directory for a period of time, labeled with the Internet Protocol (IP) number of the computer on which the userï¿½s browser is running.
 <p>
 <i>FS WEPP</i> reads the standard WEPP output files and returns to the user a web page reporting the input values and the most important results.  <i>WEPP:Road</i> reports average annual precipitation, runoff, erosion, and sediment yield (Figure 5). This is appropriate because roads are disturbed every year by usage and maintenance.  For <i>Disturbed WEPP</i>, however, an average value may not be appropriate because a forest is in a highly disturbed condition for only one or two years. Our data show that erosion rates for a burned forest, for example, typically drop by a factor of ten from year 1 to  year 2, and by another factor of ten from year 2 to year 3 [Robichaud and Brown, 1999].  Because of this recovery, <i>Disturbed WEPP</i> considers a number of possible climates that may occur the year following the disturbance, and it reports both an "average" erosion value and a table of return periods associated with given amounts of precipitation, runoff, erosion rates, and sediment yields (Figure 6).
 <p>
@@ -127,8 +127,8 @@ We are currently incorporating spatial and soil variability into an interface to
       </tr>
       <tr>
        <td>
-        Figure 4. -- <i>FS WEPP</i>’s interaction with permanent database files and temporary working files.
-        The "Personal climate files" and "Log files" remain in the working folder for a period of time and are stored according to the user’s computer’s Internet Protocol (IP) address.
+        Figure 4. -- <i>FS WEPP</i>ï¿½s interaction with permanent database files and temporary working files.
+        The "Personal climate files" and "Log files" remain in the working folder for a period of time and are stored according to the userï¿½s computerï¿½s Internet Protocol (IP) address.
         The other files shown in the working folder are named according to the Process Identification (PID) number of the process that started the simulation, and are erased promptly by the application upon use.
        </td>
       </tr>
@@ -171,7 +171,7 @@ Elliot, W.J., and D.E. Hall,
  <p>
 Elliot, W.J., D.E. Hall, and D.L. Scheele,
    <b>FS WEPP Forest Service interfaces for the Water Erosion Prediction Project computer model,</b>
-   online at &lt;http://forest.moscowfsl.wsu.edu/fswepp/&gt;, U.S. Department of Agriculture, Forest Service, Moscow, Idaho,  1999 and 2001. 
+   online at &lt;https://forest.moscowfsl.wsu.edu/fswepp/&gt;, U.S. Department of Agriculture, Forest Service, Moscow, Idaho,  1999 and 2001. 
  <p>
 Elliot, W.J., D.E. Hall and S.R. Graves, 
    <i>Predicting sedimentation from forest roads,</i>
@@ -231,17 +231,17 @@ San Dimas Technology and Development Center (SDTDC),
   <table border="0" cellpadding="6" width="100%">
     <tr>
      <td>
-      <a href="http://www.fs.fed.us"><img src="../../usfs_green_shield_logo.gif" border="0" align="left"></a>
+      <a href="https://www.fs.fed.us"><img src="../../usfs_green_shield_logo.gif" border="0" align="left"></a>
      </td>
      <td align="center">
       USDA Forest Service<br>
       Rocky Mountain Research Station<br>
       Moscow Forestry Sciences Laboratory<br>
       1221 South Main Street, Moscow, ID 83843<br>
-      <a href="http://forest.moscowfsl.wsu.edu/">http://forest.moscowfsl.wsu.edu/</a>
+      <a href="https://forest.moscowfsl.wsu.edu/">https://forest.moscowfsl.wsu.edu/</a>
      </td>
      <td>
-      <a href="http://www.fs.fed.us/rm/"><img src="../../rmrs_logo_sm.gif" border="0" align="right"></a>
+      <a href="https://www.fs.fed.us/rm/"><img src="../../rmrs_logo_sm.gif" border="0" align="right"></a>
      </td>
     </tr>
    </table>
