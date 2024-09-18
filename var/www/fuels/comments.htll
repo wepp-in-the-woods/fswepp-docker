@@ -36,7 +36,7 @@ function checkLength() {
    <p>
    <center>
     <form name="commentform" method="post"
-     action="http://forest.moscowfsl.wsu.edu/cgi-bin/fuels/comment2.pl">
+     action="https://forest.moscowfsl.wsu.edu/cgi-bin/fuels/comment2.pl">
      <table>
       <tr>
        <th>
