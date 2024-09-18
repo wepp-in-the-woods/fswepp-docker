@@ -3,8 +3,8 @@ function checkUncheckSome(controller,theElements) {
 	//Copyright (c) 2006-2007
 	//Updated on August 12, 2007
 	//Permission to use this function provided that it always includes this credit text
-	//  http://www.shawnolson.net
-	//Find more JavaScripts at http://www.shawnolson.net/topics/Javascript/
+	//  https://www.shawnolson.net
+	//Find more JavaScripts at https://www.shawnolson.net/topics/Javascript/
 
 	//theElements is an array of objects designated as a comma separated list of their IDs
 	//If an element in theElements is not a checkbox, then it is assumed
