@@ -10,7 +10,7 @@
 ?>
 <?php // try to open file; if exists read fsmail, user name, location, points weekly, points one-time then actions //
 
-   $today = date("Y-m-d");   // http://stackoverflow.com/questions/2113940/compare-given-date-with-today  // 2017.04.24
+   $today = date("Y-m-d");   // https://stackoverflow.com/questions/2113940/compare-given-date-with-today  // 2017.04.24
    $week2 = "2019-04-29";
    $week3 = "2019-05-06";
    $week4 = "2019-05-13";
@@ -158,7 +158,7 @@ fclose($handle);
 //$source_file = fopen( $filename, "r" ) or die("Couldn't open $filename");
 //while (!feof($source_file)) {...
 
-// http://stackoverflow.com/questions/13246597/how-to-read-a-file-line-by-line-in-php
+// https://stackoverflow.com/questions/13246597/how-to-read-a-file-line-by-line-in-php
 
 ?>
   <script language=javascript>
@@ -1367,7 +1367,7 @@ function transferCheckboxValues(){
           <font size=-1>Examples: bought food and supplies in bulk, used reusable packaging such as my own jars or bins, bought cloth napkins vs. paper,
            purchased 100% post-consumer recycled content paper.<br>
            Check out the following ideas for substitutes for 
-           plastic <a href="http://nymag.com/strategist/article/best-reusable-eco-friendly-food-storage-bags.html" target="_p">food storage bags</a>
+           plastic <a href="https://nymag.com/strategist/article/best-reusable-eco-friendly-food-storage-bags.html" target="_p">food storage bags</a>
            and <a href="https://www.shopetee.com" target="_p">other plastics</a>.
            Consider this option if you <a href="https://earth911.com/business-policy/reduce-amazon-packaging-waste" target="_p">purchase from Amazon</a>.
           </font> <font size=1>(100 pts)</h3></th>
@@ -1430,7 +1430,7 @@ function transferCheckboxValues(){
      <tr><!-- OW3 -->
       <th title='500 points'><input type=checkbox name=ow3 onClick='javascript:ow_3(this.form)' <?php if ($ow3) echo "checked"; ?>></th>
       <td align=right><span id='ow3_points'></span></td>
-      <td>I rethought my spring and summer yard after reading <a href="http://www.505outside.com/water-smart-tips" target="_w">505 Outside's Water Smart Tips</a> and use less water</a> in the process <font size=1>(500 pts)</td>
+      <td>I rethought my spring and summer yard after reading <a href="https://www.505outside.com/water-smart-tips" target="_w">505 Outside's Water Smart Tips</a> and use less water</a> in the process <font size=1>(500 pts)</td>
      </tr>
      <tr><td colspan=9 bgcolor=lightgreen></td></tr>
 
@@ -1488,7 +1488,7 @@ function transferCheckboxValues(){
     <tr>
      <th title='500 points'><input type=checkbox name=or6 onClick='javascript:or_6(this.form)' <?php if ($or6) echo "checked"; ?>></th>
      <td align=right><span id='or6_points'></span></td>
-     <td>I <a href="http://www.ecocycle.org/junkmail" target="_p">reduced junk mail</a> at work or at home. <font size=-1>
+     <td>I <a href="https://www.ecocycle.org/junkmail" target="_p">reduced junk mail</a> at work or at home. <font size=-1>
          <br><i>At work:</i> I volunteered to reduce junk mail by periodically removing RMRS or old employees from vendors' lists.
          <br><i>At home:</i> I reduced junk mail by opting out and removing my name from direct mail and charitable solicitation lists.
          <font size=1>(500 pts)</td>
@@ -1496,7 +1496,7 @@ function transferCheckboxValues(){
     <tr>
      <th title='600 points'><input type=checkbox name=or7 onClick='javascript:or_7(this.form)' <?php if ($or7) echo "checked"; ?>></th>
      <td align=right><span id='or7_points'></span></td>
-     <td>I supported <a href="http://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=2693&context=extension_curall" target="_o">local and regional food systems</a> by buying locally produced food or growing my own, shopping at farmers' markets, or joining a CSA <font size=1> (600 pts)</td>
+     <td>I supported <a href="https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=2693&context=extension_curall" target="_o">local and regional food systems</a> by buying locally produced food or growing my own, shopping at farmers' markets, or joining a CSA <font size=1> (600 pts)</td>
     </tr>
     <tr>
      <th title='1000 points'><input type=checkbox name=or8 onClick='javascript:or_8(this.form)' <?php if ($or8) echo "checked"; ?>></th>
@@ -1506,9 +1506,9 @@ function transferCheckboxValues(){
     <tr>
      <th title='1000 points'><input type=checkbox name=or9 onClick='javascript:or_9(this.form)' <?php if ($or9) echo "checked"; ?>></th>
      <td align=right><span id='or9_points'></span></td>
-     <td>I participated in recycling items not readily accepted in my community &mdash; purchased a box from <a href="http://www.terracycle.com" target="_o">TerraCycle</a>,
-         contributed hard-to-recycle plastic packaging to <a href="http://trexrecycling.com" target="_o">Trex</a>, and 
-         responsibly <a href="http://www.getsmartaboutdrugs.gov/content/national-take-back-day" target="_o">disposed of medications</a>.
+     <td>I participated in recycling items not readily accepted in my community &mdash; purchased a box from <a href="https://www.terracycle.com" target="_o">TerraCycle</a>,
+         contributed hard-to-recycle plastic packaging to <a href="https://trexrecycling.com" target="_o">Trex</a>, and 
+         responsibly <a href="https://www.getsmartaboutdrugs.gov/content/national-take-back-day" target="_o">disposed of medications</a>.
           <font size=1> (1000 pts)</td>
     </tr>
     <tr>
@@ -1532,7 +1532,7 @@ function transferCheckboxValues(){
     <tr>
      <th title='300 points'><input type=checkbox name=os2 onClick='javascript:os_2(this.form)' <?php if ($os2) echo "checked"; ?>></th>
      <td align=right><span id='os2_points'></span></td>
-     <td>I took the Center for Sustainable Economy's <a href="http://myfootprint.org/" target="q">Ecological Footprint Quiz<a/><br>
+     <td>I took the Center for Sustainable Economy's <a href="https://myfootprint.org/" target="q">Ecological Footprint Quiz<a/><br>
          <font size=-1>The ecological footprint quiz reaches two million visitors each year. The Quiz breaks an individual’s footprint into carbon, food, housing, and goods and services components, and indicates how many global acres of cropland, pastureland, marine fisheries, and forests are impacted. <font size=1>(300 pts)</td>
     </tr>
     <tr>

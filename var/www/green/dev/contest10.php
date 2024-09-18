@@ -13,16 +13,16 @@
 //  $e1_1=1;
 //  $e2_2=1;
 
-// http://php.net/manual/en/function.ctype-alnum.php
-// http://stackoverflow.com/questions/15920360/php-code-to-validate-alphanumeric-string
+// https://php.net/manual/en/function.ctype-alnum.php
+// https://stackoverflow.com/questions/15920360/php-code-to-validate-alphanumeric-string
 //if(preg_match('/^[a-zA-Z]+[a-zA-Z0-9._]+$/', input))
 //{     //Valid
 //}
 //else
 //{    //Invalid
 //}
-// http://scriptcult.com/subcategory_4/article_820-check-if-string-is-alphanumeric-plus-underscore-and-dot-with-preg-match.htm
-// http://stackoverflow.com/questions/1330693/validate-username-as-alphanumeric-with-underscores
+// https://scriptcult.com/subcategory_4/article_820-check-if-string-is-alphanumeric-plus-underscore-and-dot-with-preg-match.htm
+// https://stackoverflow.com/questions/1330693/validate-username-as-alphanumeric-with-underscores
 if (!ctype_alnum($fs_email)) {  //  echo "The string $testcase does not consist of all letters or digits.\n";
    echo "
  </head>
@@ -161,7 +161,7 @@ fclose($handle);
 //$source_file = fopen( $filename, "r" ) or die("Couldn't open $filename");
 //while (!feof($source_file)) {...
 
-// http://stackoverflow.com/questions/13246597/how-to-read-a-file-line-by-line-in-php
+// https://stackoverflow.com/questions/13246597/how-to-read-a-file-line-by-line-in-php
 
 ?>
   <script language=javascript>
@@ -1318,7 +1318,7 @@ function transferCheckboxValues(){
       <th title='100 points'><input type=checkbox name=p4 onClick='javascript:p_4(this.form)' <?php if ($p1_5) echo "checked"; ?>></th>
       <th title='100 points'><input type=checkbox name=p4 onClick='javascript:p_4(this.form)' <?php if ($p1_6) echo "checked"; ?>></th>
       <td align=right><span id='p4_points'></span></td>
-      <td>Purchased from the Bio-Preferred catalog - http://www.biopreferred.gov/bioPreferredCatalog/faces/jsp/catalogLanding.jsp</td>
+      <td>Purchased from the Bio-Preferred catalog - https://www.biopreferred.gov/bioPreferredCatalog/faces/jsp/catalogLanding.jsp</td>
      </tr>
      <tr><td colspan=9 bgcolor=lightgreen></td></tr>
 
@@ -1332,7 +1332,7 @@ function transferCheckboxValues(){
       <th title='100 points'><input type=checkbox name=s1 onClick='javascript:s_1(this.form)' <?php if ($s1_5) echo "checked"; ?>></th>
       <th title='100 points'><input type=checkbox name=s1 onClick='javascript:s_1(this.form)' <?php if ($s1_6) echo "checked"; ?>></th>
       <td align=right><span id='s1_points'></span></td>
-      <td>Visited the RMRS Green Team website: http://fsweb.rmrs.fs.fed.us/sustainable-operations</h3></th>
+      <td>Visited the RMRS Green Team website: https://fsweb.rmrs.fs.fed.us/sustainable-operations</h3></th>
      </tr>
      <tr><!-- S2 -->
       <th title='100 points'><input type=checkbox name=s2 onClick='javascript:s_2(this.form)' <?php if ($s2_1) echo "checked"; ?>></th>
@@ -1342,7 +1342,7 @@ function transferCheckboxValues(){
       <th title='100 points'><input type=checkbox name=s2 onClick='javascript:s_2(this.form)' <?php if ($s2_5) echo "checked"; ?>></th>
       <th title='100 points'><input type=checkbox name=s2 onClick='javascript:s_2(this.form)' <?php if ($s2_6) echo "checked"; ?>></th>
       <td align=right><span id='s2_points'></span></td>
-      <td>Visited the Sustainable Operations Demonstration Website: http://dvspdevpoc/sites/sus-ops</h3></th>
+      <td>Visited the Sustainable Operations Demonstration Website: https://dvspdevpoc/sites/sus-ops</h3></th>
      </tr>
      <tr><!-- S3 -->
       <th title='350 points'><input type=checkbox name=s3 onClick='javascript:s_3(this.form)' <?php if ($s3_1) echo "checked"; ?>></th>
@@ -1484,21 +1484,21 @@ function transferCheckboxValues(){
      <th title='200 points'><input type=checkbox name=op1 onClick='javascript:op_1(this.form)' <?php if ($op1) echo "checked"; ?>></th>
      <td align=right><span id='op1_points'></span></td>
      <td> Added GSA's <em>Sustainability Tool</em> to your Favorites:
-          <a href="http://sftool.gov/GreenProcurement">sftool.gov/GreenProcurement</a> (provides a list of Green Products) (200 pts)</td>
+          <a href="https://sftool.gov/GreenProcurement">sftool.gov/GreenProcurement</a> (provides a list of Green Products) (200 pts)</td>
     </tr>
     <tr>
      <th title='200 points'><input type=checkbox name=op2 onClick='javascript:op_2(this.form)' <?php if ($op2) echo "checked"; ?>></th>
      <td align=right><span id='op2_points'></span></td>
      <td> Added USDA's <em>Bio Preferred</em> catalog to your Favorites:
-          <!-- http://www.biopreferred.gov/bioPreferredCatalog/faces/jsp/catalogLanding.jsp -->
-          <a href="http://www.biopreferred.gov/BioPreferred/faces/catalog/Catalog.xhtm">www.biopreferred.gov/BioPreferred/faces/catalog/Catalog.xhtm</a> (200 pts)</td>
+          <!-- https://www.biopreferred.gov/bioPreferredCatalog/faces/jsp/catalogLanding.jsp -->
+          <a href="https://www.biopreferred.gov/BioPreferred/faces/catalog/Catalog.xhtm">www.biopreferred.gov/BioPreferred/faces/catalog/Catalog.xhtm</a> (200 pts)</td>
     </tr>
     <tr>
      <th title='300 points'><input type=checkbox name=op3 onClick='javascript:op_3(this.form)' <?php if ($op3) echo "checked"; ?>></th>
      <td align=right><span id='op3_points'></span></td>
      <td> Participated in at least one <em>Biopreferred</em> online training course:
-          <!-- http://www.biopreferred.gov/AccessTraining_Resources.aspx -->
-          <a href="http://www.biopreferred.gov/BioPreferred/faces/pages/TrainingResources.xhtml">www.biopreferred.gov/BioPreferred/faces/pages/TrainingResources.xhtml</a> (300 pts)</td>
+          <!-- https://www.biopreferred.gov/AccessTraining_Resources.aspx -->
+          <a href="https://www.biopreferred.gov/BioPreferred/faces/pages/TrainingResources.xhtml">www.biopreferred.gov/BioPreferred/faces/pages/TrainingResources.xhtml</a> (300 pts)</td>
     </tr>
     <tr>
      <th title='800 points'><input type=checkbox name=op4 onClick='javascript:op_4(this.form)' <?php if ($op4) echo "checked"; ?>></th>
@@ -1513,7 +1513,7 @@ function transferCheckboxValues(){
      <th title='200 points'><input type=checkbox name=os1 onClick='javascript:os_1(this.form)' <?php if ($os1) echo "checked"; ?>></th>
      <td align=right><span id='os1_points'></span></td>
      <td> Completed "Feedback Survey" on the Sustainable Operations Demonstration website (top of the right menu bar):
-          <a href="http://dvspdevpoc/sites/sus-ops">dvspdevpoc/sites/sus-ops</a> (200 pts)</td>
+          <a href="https://dvspdevpoc/sites/sus-ops">dvspdevpoc/sites/sus-ops</a> (200 pts)</td>
     </tr>
     <tr>
      <th title='500 points'><input type=checkbox name=os2 onClick='javascript:os_2(this.form)' <?php if ($os2) echo "checked"; ?>></th>

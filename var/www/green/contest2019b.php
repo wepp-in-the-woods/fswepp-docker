@@ -10,7 +10,7 @@
 ?>
 <?php // try to open file; if exists read fsmail, user name, location, points weekly, points one-time then actions //
 
-   $today = date("Y-m-d");   // http://stackoverflow.com/questions/2113940/compare-given-date-with-today  // 2017.04.24
+   $today = date("Y-m-d");   // https://stackoverflow.com/questions/2113940/compare-given-date-with-today  // 2017.04.24
    $week2 = "2018-04-29";
    $week3 = "2018-05-06";
    $week4 = "2018-05-13";
@@ -159,7 +159,7 @@ fclose($handle);
 //$source_file = fopen( $filename, "r" ) or die("Couldn't open $filename");
 //while (!feof($source_file)) {...
 
-// http://stackoverflow.com/questions/13246597/how-to-read-a-file-line-by-line-in-php
+// https://stackoverflow.com/questions/13246597/how-to-read-a-file-line-by-line-in-php
 
 ?>
   <script language=javascript>
@@ -1392,7 +1392,7 @@ function transferCheckboxValues(){
       <th bgcolor=lightgreen rowspan=4><h3>Water<br><font size=-1>(2500 points)</font></h3></th>
       <th title='500 points'><input type=checkbox name=ow1 onClick='javascript:ow_1(this.form)' <?php if ($ow1) echo "checked"; ?>></th>
       <td align=right><span id='ow1_points'></span></td>
-      <td>I took the <a href="http://www.watercalculator.org" target="_q">Water Footprint Quiz</a> <font size=1><br>
+      <td>I took the <a href="https://www.watercalculator.org" target="_q">Water Footprint Quiz</a> <font size=1><br>
           <font size=-1>This calculator helps you estimate your total water use. You know water comes from the tap, but do you know how much water goes into your sandwich? Your gadgets? The electricity that powers them? (500 pts)</th>
      </tr>
      <tr><!-- OW2 -->
@@ -1469,7 +1469,7 @@ function transferCheckboxValues(){
     <tr>
      <th title='500 points'><input type=checkbox name=or6 onClick='javascript:or_6(this.form)' <?php if ($or6) echo "checked"; ?>></th>
      <td align=right><span id='or6_points'></span></td>
-     <td>I <a href="http://www.ecocycle.org/junkmail" target="_p">reduced junk mail</a> at work or at home. <font size=-1>
+     <td>I <a href="https://www.ecocycle.org/junkmail" target="_p">reduced junk mail</a> at work or at home. <font size=-1>
          <br><i>At work:</i> I volunteered to reduce junk mail by periodically removing RMRS or old employees from vendors' lists.
          <br><i>At home:</i> I reduced junk mail by opting out and removing my name from direct mail and charitable solicitation lists.
          <font size=1>(500 pts)</td>
@@ -1477,7 +1477,7 @@ function transferCheckboxValues(){
     <tr>
      <th title='600 points'><input type=checkbox name=or7 onClick='javascript:or_7(this.form)' <?php if ($or7) echo "checked"; ?>></th>
      <td align=right><span id='or7_points'></span></td>
-     <td>I supported <a href="http://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=2693&context=extension_curall" target="_o">local and regional food systems</a> by buying locally produced food or growing my own, shopping at farmers' markets, or joining a CSA<br>
+     <td>I supported <a href="https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=2693&context=extension_curall" target="_o">local and regional food systems</a> by buying locally produced food or growing my own, shopping at farmers' markets, or joining a CSA<br>
          <font size=-1>(<i>The Local Food Movement: Definitions, Benefits &amp; Resources</i>)  <font size=1>(600 pts)</td>
     </tr>
     <tr>
@@ -1490,7 +1490,7 @@ function transferCheckboxValues(){
      <td align=right><span id='or9_points'></span></td>
      <td>I volunteered to recycle hard-to-recycle waste locally.<br>
          <font size=-1>Hard-to-recycle items include pens and markers, prescription drugs, tablets, phones, etc.
-         Check with local recycling facilities or <a href="http://www.terracycle.com" target="t">TerraCycle</a><br>
+         Check with local recycling facilities or <a href="https://www.terracycle.com" target="t">TerraCycle</a><br>
          Find out what plastic films besides grocery bags your local supermarket will take back for recycling.
           <font size=1>(1000 pts)</td>
     </tr>
@@ -1513,7 +1513,7 @@ function transferCheckboxValues(){
     <tr>
      <th title='300 points'><input type=checkbox name=os2 onClick='javascript:os_2(this.form)' <?php if ($os2) echo "checked"; ?>></th>
      <td align=right><span id='os2_points'></span></td>
-     <td>I took the <a href="http://www.earthday.org/take-action/footprint-calculator" target="q">Ecological Footprint Quiz<a/><br>
+     <td>I took the <a href="https://www.earthday.org/take-action/footprint-calculator" target="q">Ecological Footprint Quiz<a/><br>
          <font size=-1>The Ecological Footprint is a resource accounting tool that measures how much biologically productive land and sea is used by a given population or activity, and compares this to how much land and sea is available. Ecological Footprint accounts answer a specific research question: how much of the biological capacity of the planet is demanded by a given human activity or population? <font size=1>(300 pts)</td>
     </tr>
     <tr>

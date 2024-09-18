@@ -97,7 +97,7 @@ Location/groups:
 // echo "s,0,0,0,0,0,<br>";
 
 ## The Commify Function
-# http://code.activestate.com/recipes/202051-php-commify-function/
+# https://code.activestate.com/recipes/202051-php-commify-function/
 function commify ($str) {
         $n = strlen($str);
         if ($n <= 3) {
@@ -178,7 +178,7 @@ fclose($handle);
 
 $mypoints = $pointsw + $pointso;
 
-echo "   <h3>$fs_email reports $mypoints points on ", date("F j, Y, g:i a T"),"</h3>";  // http://php.net/manual/en/function.date.php
+echo "   <h3>$fs_email reports $mypoints points on ", date("F j, Y, g:i a T"),"</h3>";  // https://php.net/manual/en/function.date.php
 
 ?>
    <iframe src="stats.php" seamless width=100% height=600></iframe>

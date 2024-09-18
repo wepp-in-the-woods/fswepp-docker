@@ -14,7 +14,7 @@
     $pointso  = $_POST["pointso"];
 
 ## The Commify Function
-# http://code.activestate.com/recipes/202051-php-commify-function/
+# https://code.activestate.com/recipes/202051-php-commify-function/
 function commify ($str) {
         $n = strlen($str);
         if ($n <= 3) {

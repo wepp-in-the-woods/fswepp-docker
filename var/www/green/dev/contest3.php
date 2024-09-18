@@ -115,7 +115,7 @@ fclose($handle);
 //$source_file = fopen( $filename, "r" ) or die("Couldn't open $filename");
 //while (!feof($source_file)) {...
 
-// http://stackoverflow.com/questions/13246597/how-to-read-a-file-line-by-line-in-php
+// https://stackoverflow.com/questions/13246597/how-to-read-a-file-line-by-line-in-php
 
 ?>
   <script language=javascript>
@@ -765,7 +765,7 @@ function transferCheckboxValues(){
       <th title='100 points'><input type=checkbox name=p4 onClick='javascript:p_4(this.form)'></th>
       <th title='100 points'><input type=checkbox name=p4 onClick='javascript:p_4(this.form)'></th>
       <td align=right><span id='p4_points'></span></td>
-      <td>Purchased from the Biopreferred catalog - http://www.biopreferred.gov/bioPreferredCatalog/faces/jsp/catalogLanding.jsp</td>
+      <td>Purchased from the Biopreferred catalog - https://www.biopreferred.gov/bioPreferredCatalog/faces/jsp/catalogLanding.jsp</td>
    </tr>
 
 <!-- SUSTAINABILITY -->
@@ -777,7 +777,7 @@ function transferCheckboxValues(){
       <th title='100 points'><input type=checkbox name=s1 onClick='javascript:s_1(this.form)'></th>
       <th title='100 points'><input type=checkbox name=s1 onClick='javascript:s_1(this.form)'></th>
       <td align=right><span id='s1_points'></span></td>
-      <td>Visited the RMRS Green Team Website: http://fsweb.rmrs.fs.fed.us/sustainable-operations</h3></th>
+      <td>Visited the RMRS Green Team Website: https://fsweb.rmrs.fs.fed.us/sustainable-operations</h3></th>
    </tr>
    <tr>
       <th title='100 points'><input type=checkbox name=s2 onClick='javascript:s_2(this.form)'></th>
@@ -787,7 +787,7 @@ function transferCheckboxValues(){
       <th title='100 points'><input type=checkbox name=s2 onClick='javascript:s_2(this.form)'></th>
       <th title='100 points'><input type=checkbox name=s2 onClick='javascript:s_2(this.form)'></th>
       <td align=right><span id='s2_points'></span></td>
-      <td>Visited the Sustainable Operations Demonstration Website: http://dvspdevpoc/sites/sus-ops</h3></th>
+      <td>Visited the Sustainable Operations Demonstration Website: https://dvspdevpoc/sites/sus-ops</h3></th>
    </tr>
    <tr>
       <th title='350 points'><input type=checkbox name=s3 onClick='javascript:s_3(this.form)'></th>
@@ -901,7 +901,7 @@ function transferCheckboxValues(){
      <th title='500 points'><input type=checkbox name=or5 onClick='javascript:or_5(this.form)'></th>
      <td align=right><span id='or5_points'></span></td>
      <td> Created a junk mailbox at facility &amp; found volunteers to reduce junk mail by periodically removing RMRS or old employees off vendors list using
-         <a href="http://www.ecologicalmail.org">www.ecologicalmail.org</a> (500 pts)</td>
+         <a href="https://www.ecologicalmail.org">www.ecologicalmail.org</a> (500 pts)</td>
   </tr>
   <tr>
      <th title='1000 points'><input type=checkbox name=or6 onClick='javascript:or_6(this.form)'></th>
@@ -934,19 +934,19 @@ function transferCheckboxValues(){
       <th title='200 points'><input type=checkbox name=op1 onClick='javascript:op_1(this.form)'></th>
       <td align=right><span id='op1_points'></span></td>
       <td> Added GSA's <em>Sustainability Tool</em> to your Favorites:
-           <a href="http://sftool.gov/GreenProcurement">sftool.gov/GreenProcurement</a> (provides a list of Green Products) (200 pts)</td>
+           <a href="https://sftool.gov/GreenProcurement">sftool.gov/GreenProcurement</a> (provides a list of Green Products) (200 pts)</td>
    </tr>
    <tr>
       <th title='200 points'><input type=checkbox name=op2 onClick='javascript:op_2(this.form)'></th>
       <td align=right><span id='op2_points'></span></td>
       <td> Added USDA's <em>BioPreferred</em> catalog to your Favorites:
-           <a href="http://www.biopreferred.gov/bioPreferredCatalog/faces/jsp/catalogLanding.jsp">www.biopreferred.gov/bioPreferredCatalog/faces/jsp/catalogLanding.jsp</a> (200 pts)</td>
+           <a href="https://www.biopreferred.gov/bioPreferredCatalog/faces/jsp/catalogLanding.jsp">www.biopreferred.gov/bioPreferredCatalog/faces/jsp/catalogLanding.jsp</a> (200 pts)</td>
    </tr>
    <tr>
       <th title='300 points'><input type=checkbox name=op3 onClick='javascript:op_3(this.form)'></th>
       <td align=right><span id='op3_points'></span></td>
       <td> Participated in at least one <em>Biopreferred</em> online training course:
-           <a href="http://www.biopreferred.gov/AccessTraining_Resources.aspx">www.biopreferred.gov/AccessTraining_Resources.aspx</a> (300 pts)</td>
+           <a href="https://www.biopreferred.gov/AccessTraining_Resources.aspx">www.biopreferred.gov/AccessTraining_Resources.aspx</a> (300 pts)</td>
    </tr>
  
 <!-- SUSTAINABLE LEADERSHIP -->
@@ -954,7 +954,7 @@ function transferCheckboxValues(){
       <th title='200 points'><input type=checkbox name=os1 onClick='javascript:os_1(this.form)'></th>
       <td align=right><span id='os1_points'></span></td>
       <td> Completed "Feedback Survey" on the Sustainable Operations Demonstration website (top of the right menu bar):
-           <a href="http://dvspdevpoc/sites/sus-ops">dvspdevpoc/sites/sus-ops</a> (200 pts)</td>
+           <a href="https://dvspdevpoc/sites/sus-ops">dvspdevpoc/sites/sus-ops</a> (200 pts)</td>
    </tr>
    <tr>
       <th title='500 points'><input type=checkbox name=os2 onClick='javascript:os_2(this.form)'></th>

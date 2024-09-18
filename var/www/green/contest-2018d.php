@@ -19,16 +19,16 @@
 //  $e1_1=1;
 //  $e2_2=1;
 
-// http://php.net/manual/en/function.ctype-alnum.php
-// http://stackoverflow.com/questions/15920360/php-code-to-validate-alphanumeric-string
+// https://php.net/manual/en/function.ctype-alnum.php
+// https://stackoverflow.com/questions/15920360/php-code-to-validate-alphanumeric-string
 //if(preg_match('/^[a-zA-Z]+[a-zA-Z0-9._]+$/', input))
 //{     //Valid
 //}
 //else
 //{    //Invalid
 //}
-// http://scriptcult.com/subcategory_4/article_820-check-if-string-is-alphanumeric-plus-underscore-and-dot-with-preg-match.htm
-// http://stackoverflow.com/questions/1330693/validate-username-as-alphanumeric-with-underscores
+// https://scriptcult.com/subcategory_4/article_820-check-if-string-is-alphanumeric-plus-underscore-and-dot-with-preg-match.htm
+// https://stackoverflow.com/questions/1330693/validate-username-as-alphanumeric-with-underscores
 if (!ctype_alnum($fs_email)) {  //  echo "The string $testcase does not consist of all letters or digits.\n";
    echo "
  </head>
@@ -168,7 +168,7 @@ fclose($handle);
 //$source_file = fopen( $filename, "r" ) or die("Couldn't open $filename");
 //while (!feof($source_file)) {...
 
-// http://stackoverflow.com/questions/13246597/how-to-read-a-file-line-by-line-in-php
+// https://stackoverflow.com/questions/13246597/how-to-read-a-file-line-by-line-in-php
 
 ?>
   <script language=javascript>
@@ -1350,7 +1350,7 @@ document.getElementById("total").innerHTML = sub_tot + 1 * w_subtot
       <th title='100 points'><input type=checkbox name=p4 onClick='javascript:p_4(this.form)' <?php if ($p4_6) echo "checked"; ?>></th>
       <td align=right><span id='p4_points'></span></td>
       <td>Purchased from the Bio-Preferred catalog:
-          <a href="http://www.biopreferred.gov/BioPreferred/faces/Welcome.xhtml?faces-redirect=true" target="o">biopreferred.gov/BioPreferred/faces/Welcome.xhtml?faces-redirect=true</a>
+          <a href="https://www.biopreferred.gov/BioPreferred/faces/Welcome.xhtml?faces-redirect=true" target="o">biopreferred.gov/BioPreferred/faces/Welcome.xhtml?faces-redirect=true</a>
           <font size=1>(100 pts)</font><br>
       </td>
      </tr>
@@ -1366,7 +1366,7 @@ document.getElementById("total").innerHTML = sub_tot + 1 * w_subtot
       <th title='100 points'><input type=checkbox name=s1 onClick='javascript:s_1(this.form)' <?php if ($s1_5) echo "checked"; ?>></th>
       <th title='100 points'><input type=checkbox name=s1 onClick='javascript:s_1(this.form)' <?php if ($s1_6) echo "checked"; ?>></th>
       <td align=right><span id='s1_points'></span></td>
-      <td>Visited the RMRS Green Team website: <a href="http://fsweb.rmrs.fs.fed.us/sustainable-operations" target="o">fsweb.rmrs.fs.fed.us/sustainable-operations</a>
+      <td>Visited the RMRS Green Team website: <a href="https://fsweb.rmrs.fs.fed.us/sustainable-operations" target="o">fsweb.rmrs.fs.fed.us/sustainable-operations</a>
           [intranet only] <font size=1>(100 pts)</td>
      </tr>
      <tr><!-- S2 -->
@@ -1498,7 +1498,7 @@ document.getElementById("total").innerHTML = sub_tot + 1 * w_subtot
     <tr>
      <th title='500 points'><input type=checkbox name=or4 onClick='javascript:or_4(this.form)' <?php if ($or4) echo "checked"; ?>></th>
      <td align=right><span id='or4_points'></span></td>
-     <td>Created a junk mailbox at work or at home by visiting http://www.ecocycle.org/junkmail.
+     <td>Created a junk mailbox at work or at home by visiting https://www.ecocycle.org/junkmail.
          <b>At work:</b> Found volunteers to reduce junk mail by periodically removing RMRS or old employees from vendor's lists.
          <b>At home:</b> Reduced junk mail by opting out and removing your name from direct mail and charitable solicitation lists.
          <font size=1>(500 pts)</td>
@@ -1531,13 +1531,13 @@ document.getElementById("total").innerHTML = sub_tot + 1 * w_subtot
      <th title='300 points'><input type=checkbox name=op1 onClick='javascript:op_1(this.form)' <?php if ($op1) echo "checked"; ?>></th>
      <td align=right><span id='op1_points'></span></td>
      <td> Participated in at least one <em>Biopreferred</em> online training course:
-          <!-- http://www.biopreferred.gov/AccessTraining_Resources.aspx -->
-          <a href="http://www.biopreferred.gov/BioPreferred/faces/pages/TrainingResources.xhtml" target="o">www.biopreferred.gov/BioPreferred/faces/pages/TrainingResources.xhtml</a> <font size=1>(300 pts)</td>
+          <!-- https://www.biopreferred.gov/AccessTraining_Resources.aspx -->
+          <a href="https://www.biopreferred.gov/BioPreferred/faces/pages/TrainingResources.xhtml" target="o">www.biopreferred.gov/BioPreferred/faces/pages/TrainingResources.xhtml</a> <font size=1>(300 pts)</td>
     </tr>
     <tr>
      <th title='800 points'><input type=checkbox name=op2 onClick='javascript:op_2(this.form)' <?php if ($op2) echo "checked"; ?>></th>
      <td align=right><span id='op2_points'></span></td>
-     <td> Held a Green Event (virtual or hybrid) instead of one requiring travel and submitted the Participant Evaluation Form: http://www.fs.fed.us/about-agency/greening-your-events <font size=1>(400 pts)</td>
+     <td> Held a Green Event (virtual or hybrid) instead of one requiring travel and submitted the Participant Evaluation Form: https://www.fs.fed.us/about-agency/greening-your-events <font size=1>(400 pts)</td>
     </tr>
     <tr>
      <th title='200 points'><input type=checkbox name=op3 onClick='javascript:op_3(this.form)' <?php if ($op3) echo "checked"; ?>></th>
@@ -1564,7 +1564,7 @@ document.getElementById("total").innerHTML = sub_tot + 1 * w_subtot
     <tr>
      <th title='500 points'><input type=checkbox name=os3 onClick='javascript:os_3(this.form)' <?php if ($os3) echo "checked"; ?>></th>
      <td align=right><span id='os3_points'></span></td>
-     <td> Utilized the guides on the Sustainable Operations Green Team Toolkit website: http://www.fs.fed.us/sustainableoperations/greenteam-toolkit/resources-footprint.shtml  
+     <td> Utilized the guides on the Sustainable Operations Green Team Toolkit website: https://www.fs.fed.us/sustainableoperations/greenteam-toolkit/resources-footprint.shtml  
           <font size=1>(500 pts)</td>
     </tr>
     <tr>

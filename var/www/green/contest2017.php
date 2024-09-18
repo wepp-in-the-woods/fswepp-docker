@@ -10,7 +10,7 @@
 ?>
 <?php // try to open file; if exists read fsmail, user name, location, points weekly, points one-time then actions //
 
-   $today = date("Y-m-d");   // http://stackoverflow.com/questions/2113940/compare-given-date-with-today  // 2017.04.24
+   $today = date("Y-m-d");   // https://stackoverflow.com/questions/2113940/compare-given-date-with-today  // 2017.04.24
    $week2 = "2017-04-24";
    $week3 = "2017-05-01";
    $week4 = "2017-05-08";
@@ -156,7 +156,7 @@ fclose($handle);
 //$source_file = fopen( $filename, "r" ) or die("Couldn't open $filename");
 //while (!feof($source_file)) {...
 
-// http://stackoverflow.com/questions/13246597/how-to-read-a-file-line-by-line-in-php
+// https://stackoverflow.com/questions/13246597/how-to-read-a-file-line-by-line-in-php
 
 ?>
   <script language=javascript>
@@ -1271,7 +1271,7 @@ function transferCheckboxValues(){
      <tr><br>
       <th title='500 points'><input type=checkbox name=oe2 onClick='javascript:oe_2(this.form)' <?php if ($oe2) echo "checked"; ?>></th>
       <td align=right><span id='oe2_points'></span></td>
-      <td>Plugged my computer and IT peripherals into an <a href="http://www.nrel.gov/docs/fy14osti/60461.pdf" target="_p">advanced power strip</a> or Smart Strip device in an accessible area (my desk top) to remind me to shut off office electronics. <font size=1>(500 pts)</td>
+      <td>Plugged my computer and IT peripherals into an <a href="https://www.nrel.gov/docs/fy14osti/60461.pdf" target="_p">advanced power strip</a> or Smart Strip device in an accessible area (my desk top) to remind me to shut off office electronics. <font size=1>(500 pts)</td>
      </tr>
      <tr>
       <th title='1500 points'><input type=checkbox name=oe3 onClick='javascript:oe_3(this.form)' <?php if ($oe3) echo "checked"; ?>></th>
@@ -1293,7 +1293,7 @@ function transferCheckboxValues(){
       <th bgcolor=lightgreen rowspan=4><h3>Water<br><font size=-1>(2500 points)</font></h3></th>
       <th title='500 points'><input type=checkbox name=ow1 onClick='javascript:ow_1(this.form)' <?php if ($ow1) echo "checked"; ?>></th>
       <td align=right><span id='ow1_points'></span></td>
-      <td>Took the <a href="http://www.watercalculator.org" target="_q">Water Footprint Quiz</a> <font size=1>(500 pts)</th>
+      <td>Took the <a href="https://www.watercalculator.org" target="_q">Water Footprint Quiz</a> <font size=1>(500 pts)</th>
      </tr>
      <tr><!-- OW2 -->
       <th title='500 points'><input type=checkbox name=ow2 onClick='javascript:ow_2(this.form)' <?php if ($ow2) echo "checked"; ?>></th>
@@ -1365,7 +1365,7 @@ function transferCheckboxValues(){
     <tr>
      <th title='500 points'><input type=checkbox name=or6 onClick='javascript:or_6(this.form)' <?php if ($or6) echo "checked"; ?>></th>
      <td align=right><span id='or6_points'></span></td>
-     <td><a href="http://www.ecocycle.org/junkmail" target="_p">Reduced junk mail</a> at work or at home.
+     <td><a href="https://www.ecocycle.org/junkmail" target="_p">Reduced junk mail</a> at work or at home.
          <br><i>At work:</i> Found volunteers to reduce junk mail by periodically removing RMRS or old employees from vendors' lists.
          <br><i>At home:</i> Reduced junk mail by opting out and removing my name from direct mail and charitable solicitation lists.
          <font size=1>(500 pts)</td>
@@ -1380,7 +1380,7 @@ function transferCheckboxValues(){
      <td align=right><span id='or8_points'></span></td>
      <td>Set up a program at worksite to recycle hard-to-recycle waste locally.<br>
          Hard-to-recycle items include pens and markers, prescription drugs, tablets, phones, etc.
-         Check with local recycling facilities or <a href="http://www.terracycle.com" target="t">TerraCycle</a> <font size=1>(1000 pts)</td>
+         Check with local recycling facilities or <a href="https://www.terracycle.com" target="t">TerraCycle</a> <font size=1>(1000 pts)</td>
     </tr>
     <tr>
      <th title='1000 points'><input type=checkbox name=or9 onClick='javascript:or_9(this.form)' <?php if ($or9) echo "checked"; ?>></th>
@@ -1394,7 +1394,7 @@ function transferCheckboxValues(){
      <th bgcolor=lightgreen rowspan=2><h3>Green Purchasing<br><font size=-1>(1200 points)</font></h3></th>
      <th title='400 points'><input type=checkbox name=op1 onClick='javascript:op_1(this.form)' <?php if ($op1) echo "checked"; ?>></th>
      <td align=right><span id='op1_points'></span></td>
-     <td>Held a Green Event (virtual or hybrid) instead of one requiring travel and submitted the <a href="http://www.fs.fed.us/about-agency/greening-your-events" target="p">Participant Evaluation Form</a> <font size=1>(400 pts)</td>
+     <td>Held a Green Event (virtual or hybrid) instead of one requiring travel and submitted the <a href="https://www.fs.fed.us/about-agency/greening-your-events" target="p">Participant Evaluation Form</a> <font size=1>(400 pts)</td>
     </tr>
     <tr>
      <th title='800 points'><input type=checkbox name=op2 onClick='javascript:op_2(this.form)' <?php if ($op2) echo "checked"; ?>></th>
@@ -1413,7 +1413,7 @@ function transferCheckboxValues(){
     <tr>
      <th title='500 points'><input type=checkbox name=os2 onClick='javascript:os_2(this.form)' <?php if ($os2) echo "checked"; ?>></th>
      <td align=right><span id='os2_points'></span></td>
-     <td> Took the <a href="http://www.earthday.org/take-action/footprint-calculator" target="q">Ecological Footprint Quiz<a/> <font size=1>(500 pts)</td>
+     <td> Took the <a href="https://www.earthday.org/take-action/footprint-calculator" target="q">Ecological Footprint Quiz<a/> <font size=1>(500 pts)</td>
     </tr>
     <tr>
      <th title='500 points'><input type=checkbox name=os3 onClick='javascript:os_3(this.form)' <?php if ($os3) echo "checked"; ?>></th>
@@ -1434,7 +1434,7 @@ function transferCheckboxValues(){
      <th title='800 points'><input type=checkbox name=os6 onClick='javascript:os_6(this.form)' <?php if ($os6) echo "checked"; ?>></th>
      <td align=right><span id='os6_points'></span></td>
      <td> Helped plan or developed an Earth Day or Footprint Reduction activity for all employees at my unit
-          (see ideas and information, including the <a href="http://www.earthday.org/earthday/global-environmental-climate-literacy-campaign" target="q">Earth Day 2017 theme, Environmental & Climate Literacy</a>) <font size=1>(800 pts)</td>
+          (see ideas and information, including the <a href="https://www.earthday.org/earthday/global-environmental-climate-literacy-campaign" target="q">Earth Day 2017 theme, Environmental & Climate Literacy</a>) <font size=1>(800 pts)</td>
     </tr>
     <tr><td align=center bgcolor=pink colspan=4>   <input type="submit" value="Save Green Actions">  </td></tr>
    </table>
