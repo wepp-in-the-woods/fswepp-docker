@@ -346,14 +346,14 @@ print<<"end";
 	<body>
 		<table align="center" width="100%" border="0" ID="Table1">
 			<tr>
-<td><img src="http:/fuels/urm/images/ceanothus12.jpg" alt="The Understory Response Model" align="left">
+<td><img src="https:/fuels/urm/images/ceanothus12.jpg" alt="The Understory Response Model" align="left">
 				</td>
 				<td align="center"><hr>
 					<h2>The Understory Response Model Calculations</h2>
 <img src="/fswepp/images/underc.gif" border=0 width=532 height=34>
 					<hr>
 				</td>
-<td><IMG src="http:/fuels/urm/images/knapweedt.jpg" alt="The Understory Response Model" align="right">
+<td><IMG src="https:/fuels/urm/images/knapweedt.jpg" alt="The Understory Response Model" align="right">
 				</td>
 			</tr>
 		</table>
@@ -2167,7 +2167,7 @@ print<<"end_ultimo";
        </font>
       </td>
       <td valign="top">
-       <a href="http://forest.moscowfsl.wsu.edu/fswepp/comments.html"><img src="/fswepp/images/epaemail.gif" align="right" border=0></a>
+       <a href="https://forest.moscowfsl.wsu.edu/fswepp/comments.html"><img src="/fswepp/images/epaemail.gif" align="right" border=0></a>
       </td>
      </tr>
      <tr>

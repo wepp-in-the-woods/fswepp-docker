@@ -710,7 +710,7 @@ if (ht == 'TSME/XETE-VAMY') {return 'Tsuga mertensiana / Xerophyllum tenax - Vac
 //     nofire = 'This habitat type was not included in the fire manual'	// 2005.06.16
      document.getElementById('habitattype').innerHTML=myht + ' (<i>' + habitype + '</i>)'	// DEH 2005.02.28
      document.getElementById('subseries').innerHTML=subs + ' (' + soiltempregime + '/' + soilmoistureregime + ')'
-     document.getElementById('subseries2').innerHTML=subs	// http://www.w3schools.com/dhtml/tryit.asp?filename=trydhtml_demo
+     document.getElementById('subseries2').innerHTML=subs	// https://www.w3schools.com/dhtml/tryit.asp?filename=trydhtml_demo
 //     document.getElementById('firegroup').innerHTML=fire	// 2005.06.16
      if (fire != '99') {document.getElementById('firegroup').innerHTML=fire}	// 2005.06.16
      if (fire == '99') {document.getElementById('firegroup').innerHTML=''}	// 2005.06.16
@@ -1557,15 +1557,15 @@ print "  </script>
        USDA Forest Service, Rocky Mountain Research Station<br>
        Microbial Processes -- Debbie Page-Dumroese, Project Leader, Moscow, ID<br>
        Environmental Consequences -- Elaine Sutherland, Team Leader, Missoula, MT<br>
-       <a href='http://forest.moscowfsl.wsu.edu/fuels/'>http://forest.moscowfsl.wsu.edu/fuels/</a>
+       <a href='https://forest.moscowfsl.wsu.edu/fuels/'>https://forest.moscowfsl.wsu.edu/fuels/</a>
       </font>
      </td>
      <td align='right' valign='top'>
       <font size=1>
-        <i>A</i>RT <a href='http://forest.moscowfsl.wsu.edu/fuels/art/docs/art_short.html' target='_docs'>overview</a> (HTM)<br>
-        [6 MB] Draft <i>A</i>RT <a href='http://forest.moscowfsl.wsu.edu/smp/docs/docs/ART-GTR-draft_web.pdf' target='_docs'>Documentation</a> (PDF)<br>
-        [210 KB] <i>A</i>RT <a href='http://www.fs.fed.us/rm/pubs/rmrs_rn023_13.pdf' target='_docs'>Fact Sheet</a> (PDF)<br>
-        [651 KB] <a href='http://forest.moscowfsl.wsu.edu/cgi-bin/smp/library/searchsmppub.pl?pub=2000a' target='_docs'>McDonald et al. 2000</a> (PDF)
+        <i>A</i>RT <a href='https://forest.moscowfsl.wsu.edu/fuels/art/docs/art_short.html' target='_docs'>overview</a> (HTM)<br>
+        [6 MB] Draft <i>A</i>RT <a href='https://forest.moscowfsl.wsu.edu/smp/docs/docs/ART-GTR-draft_web.pdf' target='_docs'>Documentation</a> (PDF)<br>
+        [210 KB] <i>A</i>RT <a href='https://www.fs.fed.us/rm/pubs/rmrs_rn023_13.pdf' target='_docs'>Fact Sheet</a> (PDF)<br>
+        [651 KB] <a href='https://forest.moscowfsl.wsu.edu/cgi-bin/smp/library/searchsmppub.pl?pub=2000a' target='_docs'>McDonald et al. 2000</a> (PDF)
       </font>
      </td>
     </tr>

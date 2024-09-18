@@ -391,7 +391,7 @@ function resultstbf() {
   <font face="tahoma, arial, helvetica, sans serif">
  <table align="center" width="100%" border="0">
   <tr>
-  <!--<td><img src="http://localhost/fuels/whrm/images/borealtoad3_Pilliod.jpg" alt="Wildlife Habitat Response Model" align="left"></td>-->
+  <!--<td><img src="https://localhost/fuels/whrm/images/borealtoad3_Pilliod.jpg" alt="Wildlife Habitat Response Model" align="left"></td>-->
   <td><img src="/fuels/whrm/images/borealtoad3_Pilliod.jpg" alt="Wildlife Habitat Response Model" align="left" withd="156" height="117"></td>
 
   <td align="center"><hr>
@@ -399,7 +399,7 @@ function resultstbf() {
   <h2> Comparison of Selected Fuel Treatments<h2/>
   <hr>
   </td>
-  <!--<td><img src="http://localhost/fuels/whrm/images/grayjay3_Pilliod.jpg" alt="Wildlife Habitat Response Model" align="right">-->
+  <!--<td><img src="https://localhost/fuels/whrm/images/grayjay3_Pilliod.jpg" alt="Wildlife Habitat Response Model" align="right">-->
   <td><img src="/fuels/whrm/images/grayjay3_Pilliod.jpg" alt="Wildlife Habitat Response Model" align="right" withd="156" heigth="117">
 
   </td>
@@ -2240,7 +2240,7 @@ print"</font>";
 for($j=0; $j<$tsize; $j++){
 if($treatments[$j]==1)
 	{
-	print " <!--deleteform method=post name=wildlifem2 action=http://localhost/Scripts/fuels/whrm/twhrm5.pl--> ";
+	print " <!--deleteform method=post name=wildlifem2 action=https://localhost/Scripts/fuels/whrm/twhrm5.pl--> ";
         print " <form method=post name=wildlifem2 action=/cgi-bin/fuels/whrm/twhrm5.pl> ";
 	print " <input type=\"hidden\" value=\"$taxgroup\" name=\"taxgroup\"> ";
 	print " <input type=\"hidden\" value=\"$tax_group\" name=\"tax_group\"> ";
@@ -2254,7 +2254,7 @@ if($treatments[$j]==1)
 	}
 if($treatments[$j]==2)
 	{
-	print " <!--deleteform method=post name=wildlifem2 action=http://localhost/Scripts/fuels/whrm/twhrm5.pl--> ";
+	print " <!--deleteform method=post name=wildlifem2 action=https://localhost/Scripts/fuels/whrm/twhrm5.pl--> ";
         print " <form method=post name=wildlifem2 action=/cgi-bin/fuels/whrm/twhrm5.pl> ";
 	print " <input type=\"hidden\" value=\"$taxgroup\" name=\"taxgroup\"> ";
 	print " <input type=\"hidden\" value=\"$tax_group\" name=\"tax_group\"> ";
@@ -2268,7 +2268,7 @@ if($treatments[$j]==2)
 	}
 if($treatments[$j]==3)
 	{
-	print " <!--deleteform method=post name=wildlifem2 action=http://localhost/Scripts/fuels/whrm/twhrm5.pl--> ";
+	print " <!--deleteform method=post name=wildlifem2 action=https://localhost/Scripts/fuels/whrm/twhrm5.pl--> ";
         print " <form method=post name=wildlifem2 action=/cgi-bin/fuels/whrm/twhrm5.pl> ";
 	print " <input type=\"hidden\" value=\"$taxgroup\" name=\"taxgroup\"> ";
 	print " <input type=\"hidden\" value=\"$tax_group\" name=\"tax_group\"> ";
@@ -2282,7 +2282,7 @@ if($treatments[$j]==3)
 	}
 if($treatments[$j]==4)
 	{
-	print " <!--deleteform method=post name=wildlifem2 action=http://localhost/Scripts/fuels/whrm/twhrm5.pl--> ";
+	print " <!--deleteform method=post name=wildlifem2 action=https://localhost/Scripts/fuels/whrm/twhrm5.pl--> ";
         print " <form method=post name=wildlifem2 action=/cgi-bin/fuels/whrm/twhrm5.pl> ";
 	print " <input type=\"hidden\" value=\"$taxgroup\" name=\"taxgroup\"> ";
 	print " <input type=\"hidden\" value=\"$tax_group\" name=\"tax_group\"> ";
@@ -2380,7 +2380,7 @@ print<<"fin99";
 <table align=center>
 <tr>
 <td align=center>
-       <!--deleteform method="post" name="wildlifem3" action="http://localhost/Scripts/fuels/whrm/twhrm2.pl"-->
+       <!--deleteform method="post" name="wildlifem3" action="https://localhost/Scripts/fuels/whrm/twhrm2.pl"-->
        <form method="post" name="wildlifem3" action="/cgi-bin/fuels/whrm/twhrm2.pl">
 fin99
 
@@ -2397,7 +2397,7 @@ print<<"fin100";
        </form>
 </td>
 <td align=center>
-       <!--delete<form method=\"post\" name=\"wildlifem4\" action=\"http://localhost/Scripts/fuels/whrm/twhrm1.pl\">-->
+       <!--delete<form method=\"post\" name=\"wildlifem4\" action=\"https://localhost/Scripts/fuels/whrm/twhrm1.pl\">-->
        <form method="post" name="wildlifem4" action="/cgi-bin/fuels/whrm/twhrm1.pl">
 <br>
        <input type="submit" value="Select New Treatments and New Species"  NAME="indexpage">
@@ -2418,7 +2418,7 @@ print<<"fin11";
        <font face="tahoma, arial, helvetica, sans serif" size=1>
         <b>Documentation and User Manual:</b>
         [<a href="/fuels/whrm/documents/ChapterIV_WHRM_web.pdf" target="_blank">User guide</a> (21-page PDF)]
-        [<a href="http://www.fs.fed.us/rm/pubs/rmrs_rn023_04.pdf" target="_blank">Fact sheet</a> (1-page PDF)]
+        [<a href="https://www.fs.fed.us/rm/pubs/rmrs_rn023_04.pdf" target="_blank">Fact sheet</a> (1-page PDF)]
 	[<a href="/fuels/whrm/documents/MasterBibliography.pdf " target="_blank"><b>Complete WHRM bibliography</b> </a>(39-page PDF)]
         <br>
         The Wildlife Habitat Response Model: <b>WH</b><b>RM</b><br>
@@ -2430,7 +2430,7 @@ print<<"fin11";
        </font>
       </td>
       <td valign="top">
-       <a href="http://forest.moscowfsl.wsu.edu/fswepp/comments.html" target="comments"><img src="/fswepp/images/epaemail.gif" align="right" border=0></a>
+       <a href="https://forest.moscowfsl.wsu.edu/fswepp/comments.html" target="comments"><img src="/fswepp/images/epaemail.gif" align="right" border=0></a>
       </td>
      </tr>
    </table>

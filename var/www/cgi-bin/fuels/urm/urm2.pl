@@ -345,7 +345,7 @@ print<<"end";
   <font face="tahoma, arial, helvetica, sans serif">
    <table align="center" width="100%" border="0" ID="Table1">
     <tr>
-     <td><img src="http:/fuels/urm/images/ceanothus12.jpg" alt="The Understory Response Model" align="left"></td>
+     <td><img src="https:/fuels/urm/images/ceanothus12.jpg" alt="The Understory Response Model" align="left"></td>
      <td align="center">
       <font face="tahoma, arial, helvetica, sans serif">
        <hr>
@@ -354,7 +354,7 @@ print<<"end";
        <hr>
       </font>
      </td>
-     <td><IMG src="http:/fuels/urm/images/knapweedt.jpg" alt="The Understory Response Model" align="right"></td>
+     <td><IMG src="https:/fuels/urm/images/knapweedt.jpg" alt="The Understory Response Model" align="right"></td>
     </tr>
    </table>
    <center>
@@ -2189,7 +2189,7 @@ print<<"end_ultimo";
        </font>
       </td>
       <td valign="top">
-       <a href="http://forest.moscowfsl.wsu.edu/fswepp/comments.html"><img src="/fswepp/images/epaemail.gif" align="right" border=0></a>
+       <a href="https://forest.moscowfsl.wsu.edu/fswepp/comments.html"><img src="/fswepp/images/epaemail.gif" align="right" border=0></a>
       </td>
      </tr>
      <tr>

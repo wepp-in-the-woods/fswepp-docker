@@ -397,7 +397,7 @@ if($debug){print "<br> the size of cover matrix is $coverrow";}
        Select the change in each habitat element based on expected results of each planned fuel treatment.<br>
 	 Each fuel treatment has its own input table.<br>
        <br>
-       <!--deleteform method="post" name="wildlifem2" action="http://localhost/Scripts/fuels/whrm/twhrm4.pl" -->
+       <!--deleteform method="post" name="wildlifem2" action="https://localhost/Scripts/fuels/whrm/twhrm4.pl" -->
        <form method="post" name="wildlifem2" action="/cgi-bin/fuels/whrm/twhrm4.pl">
 final
 ###<!--*************************************************-->
@@ -2461,7 +2461,7 @@ else{return true;}
   <font face="tahoma, arial, helvetica, sans serif">
    <table align="center" width="100%" border="0">
     <tr>
-     <!--<td><img src="http://localhost/fuels/whrm/images/borealtoad4_Pilliod.jpg" alt="Wildlife Habitat Response Model" align="left"></td>-->
+     <!--<td><img src="https://localhost/fuels/whrm/images/borealtoad4_Pilliod.jpg" alt="Wildlife Habitat Response Model" align="left"></td>-->
      <td><img src="/fuels/whrm/images/borealtoad4_Pilliod.jpg"  alt="Wildlife Habitat Response Model" align="left"></td>
      <td align="center">
       <font face="tahoma, arial, helvetica, sans serif">
@@ -2470,7 +2470,7 @@ else{return true;}
        <hr>
       </font>
      </td>
-     <!--<td><img src="http:/fuels/whrm/images/grayjay2_Pilliod.jpg" alt="Wildlife Habitat Response Model" align="right">-->
+     <!--<td><img src="https:/fuels/whrm/images/grayjay2_Pilliod.jpg" alt="Wildlife Habitat Response Model" align="right">-->
      <td>
       <img src="/fuels/whrm/images/grayjay3_Pilliod.jpg"  alt="Wildlife Habitat Response Model" align="right" width=156 height=117>
      </td>
@@ -2493,7 +2493,7 @@ print '
        <font face="tahoma, arial, helvetica, sans serif" size=1>
         <b>Documentation and User Manual:</b>
         [<a href="/fuels/whrm/documents/Chapter_IV_DraftforWeb.pdf" target="_blank">User guide</a> (14-page PDF)]
-        [<a href="http://www.fs.fed.us/rm/pubs/rmrs_rn023_04.pdf" target="_blank">Fact sheet</a> (1-page PDF)]
+        [<a href="https://www.fs.fed.us/rm/pubs/rmrs_rn023_04.pdf" target="_blank">Fact sheet</a> (1-page PDF)]
 	[<a href="\fuels\whrm\documents\MasterBibliography.pdf " target="_blank"><b>Complete WHRM bibliography</b></a> (39-page PDF)]
         <br>
         The Wildlife Habitat Response Model: <b>WH</b><b>RM</b><br>
@@ -2505,7 +2505,7 @@ print '
        </font>
       </td>
       <td valign="top">
-       <a href="http://forest.moscowfsl.wsu.edu/fuels/comments.html" target="comments"><img src="/fswepp/images/epaemail.gif" align="right" border=0></a>
+       <a href="https://forest.moscowfsl.wsu.edu/fuels/comments.html" target="comments"><img src="/fswepp/images/epaemail.gif" align="right" border=0></a>
       </td>
      </tr>
    </table>
@@ -2524,7 +2524,7 @@ print '
        <font face="tahoma, arial, helvetica, sans serif" size=1>
         <b>Documentation and User Manual:</b>
         [<a href="/fuels/whrm/documents/Chapter_IV_DraftforWeb.pdf" target="_blank">User guide</a> (14-page PDF)]
-        [<a href="http://www.fs.fed.us/rm/pubs/rmrs_rn023_04.pdf" target="_blank">Fact sheet</a> (1-page PDF)]
+        [<a href="https://www.fs.fed.us/rm/pubs/rmrs_rn023_04.pdf" target="_blank">Fact sheet</a> (1-page PDF)]
 	[<a href="/fuels/whrm/documents/MasterBibliography.pdf " target="_blank"><b>Complete WHRM bibliography</b></a> (39-page PDF)]
         <br>
         The Wildlife Habitat Response Model: <b>WH</b><b>RM</b><br>
@@ -2536,7 +2536,7 @@ print '
        </font>
       </td>
       <td valign="top">
-       <a href="http://forest.moscowfsl.wsu.edu/fuels/comments.html" target="comments"><img src="/fswepp/images/epaemail.gif" align="right" border=0></a>
+       <a href="https://forest.moscowfsl.wsu.edu/fuels/comments.html" target="comments"><img src="/fswepp/images/epaemail.gif" align="right" border=0></a>
       </td>
      </tr>
    </table>

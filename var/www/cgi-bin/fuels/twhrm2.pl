@@ -223,7 +223,7 @@ var speciesIdx = myform.species.selectedIndex;
    </tr>
   </table>
   <center>
-   <!--form method="post" name="wildlifem" action="http://localhost/Scripts/fuels/whrm/twhrm3.pl" onsubmit="return checkform()" -->  <!-- DEH -->
+   <!--form method="post" name="wildlifem" action="https://localhost/Scripts/fuels/whrm/twhrm3.pl" onsubmit="return checkform()" -->  <!-- DEH -->
    <form method="post" name="wildlifem" action="/cgi-bin/fuels/whrm/twhrm3.pl" onsubmit="return checkform()">  <!-- DEH -->
     <table align="center" border="2" id="table1">
      <caption>
@@ -364,7 +364,7 @@ print <<"ultimo";
        <font face="tahoma, arial, helvetica, sans serif" size=1>
         <b>Documentation and User Manual:</b>
         [<a href="/fuels/whrm/documents/Chapter_IV_DraftforWeb.pdf" target="_blank">User guide</a> (14-page PDF)]
-        [<a href="http://www.fs.fed.us/rm/pubs/rmrs_rn023_04.pdf" target="_blank">Fact sheet</a> (1-page PDF)]
+        [<a href="https://www.fs.fed.us/rm/pubs/rmrs_rn023_04.pdf" target="_blank">Fact sheet</a> (1-page PDF)]
         <br>
         The Wildlife Habitat Response Model: <b>WH</b><b>RM</b><br>
         Input interface v.
@@ -375,7 +375,7 @@ print <<"ultimo";
        </font>
       </td>
       <td valign="top">
-       <a href="http://forest.moscowfsl.wsu.edu/fuels/comments.html" target="comments"><img src="/fswepp/images/epaemail.gif" align="right" border=0></a>
+       <a href="https://forest.moscowfsl.wsu.edu/fuels/comments.html" target="comments"><img src="/fswepp/images/epaemail.gif" align="right" border=0></a>
       </td>
      </tr>
    </table>

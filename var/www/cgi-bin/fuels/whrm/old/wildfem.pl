@@ -164,12 +164,12 @@ print<<"end";
 
 	<table align="center" width="100%" border="0">
 		<tr>
-		<td><img src="http:/fuels/wirm/images/borealtoad4_Pilliod.jpg" alt="Wildlife Response Model" align="left"></td>
+		<td><img src="https:/fuels/wirm/images/borealtoad4_Pilliod.jpg" alt="Wildlife Response Model" align="left"></td>
 		<td align="center"><hr>
 		<h2>Wildlife Response Matrix</h2>
 		<hr>
 		</td>
-		<td><img src="http:/fuels/wirm/images/grayjay2_Pilliod.jpg" alt="Wildlife Response Model" align="right">
+		<td><img src="https:/fuels/wirm/images/grayjay2_Pilliod.jpg" alt="Wildlife Response Model" align="right">
 		</td>
 		</tr>
 	</table>

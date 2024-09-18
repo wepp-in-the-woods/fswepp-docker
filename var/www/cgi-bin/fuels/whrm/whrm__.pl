@@ -206,7 +206,7 @@ print <<"endrank1";
 with similar life history characteristics. To view general life history information for your selected species, please use the "View Background Information" button.</p></b>
 	<br>
 	<center>
-	<!-- form method="post" name="wildlifem4" action="http://localhost/Scripts/fuels/whrm/test/whrm2.pl" -->
+	<!-- form method="post" name="wildlifem4" action="https://localhost/Scripts/fuels/whrm/test/whrm2.pl" -->
 	<form method="post" name="wildlifem4" action="/cgi-bin/fuels/whrm/whrm2_.pl">
 	<input type="hidden" value="$taxgroup" name="taxgroup">
 	<input type="hidden" value="$species" name="species">
@@ -222,7 +222,7 @@ with similar life history characteristics. To view general life history informat
        </font>
       </td>
       <td valign="top">
-       <a href="http://forest.moscowfsl.wsu.edu/fswepp/comments.html"<img src="/fswepp/images/epaemail.gif" align="right" border=0></a>
+       <a href="https://forest.moscowfsl.wsu.edu/fswepp/comments.html"<img src="/fswepp/images/epaemail.gif" align="right" border=0></a>
       </td>
      </tr>
      <tr>
@@ -572,7 +572,7 @@ for(var i=0; i<=6; i++)
 	<center>
 	<p>Select the change in each habitat element based on expected results of the planned fuel treatment.<br>If a habitat element is repeated in more than one life history requirement category, <br>please make sure the selection is the same for each category.</p>
 	<br>
-	<!-- form method="post" name="wildlifem2" action="http://localhost/Scripts/fuels/whrm/test/whrm2.pl" -->
+	<!-- form method="post" name="wildlifem2" action="https://localhost/Scripts/fuels/whrm/test/whrm2.pl" -->
 	<form method="post" name="wildlifem2" action="/cgi-bin/fuels/whrm/whrm2_.pl">
 		<table align="center" border="2">
 			<caption>
@@ -816,7 +816,7 @@ print <<"end1";
        </font>
       </td>
       <td valign="top">
-       <a href="http://forest.moscowfsl.wsu.edu/fswepp/comments.html"<img src="/fswepp/images/epaemail.gif" align="right" border=0></a>
+       <a href="https://forest.moscowfsl.wsu.edu/fswepp/comments.html"<img src="/fswepp/images/epaemail.gif" align="right" border=0></a>
       </td>
      </tr>
      <tr>
@@ -894,7 +894,7 @@ print<<"fin11";
        </font>
       </td>
       <td valign="top">
-       <a href="http://forest.moscowfsl.wsu.edu/fswepp/comments.html"<img src="/fswepp/images/epaemail.gif" align="right" border=0></a>
+       <a href="https://forest.moscowfsl.wsu.edu/fswepp/comments.html"<img src="/fswepp/images/epaemail.gif" align="right" border=0></a>
       </td>
      </tr>
      <tr>
@@ -1112,7 +1112,7 @@ print "<p>the rank in the file is: $rank and @rankm\n";
       </b>
       <br>
       <center>
-       <!--form method="post" name="wildlifem2" action="http://localhost/Scripts/fuels/whrm/test/whrm2.pl"--><!--elena-->
+       <!--form method="post" name="wildlifem2" action="https://localhost/Scripts/fuels/whrm/test/whrm2.pl"--><!--elena-->
        <form method="post" name="wildlifem2" action="/cgi-bin/fuels/whrm/whrm2_.pl">
         <input type="hidden" value="$taxgroup" name="taxgroup">
         <input type="hidden" value="$species" name="species">
@@ -1297,7 +1297,7 @@ if($debug){print "<br> the size of cover matrix is $coverrow";}
        If a habitat element is repeated in more than one life history requirement category,<br>
        please ensure the selection is the same for each category.<br>
        <br>
-       <!--form method="post" name="wildlifem2" action="http://localhost/Scripts/fuels/whrm/test/whrm2.pl"--><!--elena-->
+       <!--form method="post" name="wildlifem2" action="https://localhost/Scripts/fuels/whrm/test/whrm2.pl"--><!--elena-->
        <form method="post" name="wildlifem2" action="/cgi-bin/fuels/whrm/whrm2_.pl">
      <table align="center" border="2" ID="Table1">
       <caption>
@@ -1484,7 +1484,7 @@ print <<"end1";
       <br>
       <br>You may return to this page to examine a different fuel treatment alternative by using the back arrow or starting over.</p>
       <br>
-      <!--form method="post" name="wildlifem2" action="http://localhost/Scripts/fuels/whrm/test/whrm.pl"--><!--elena-->
+      <!--form method="post" name="wildlifem2" action="https://localhost/Scripts/fuels/whrm/test/whrm.pl"--><!--elena-->
       <form method="post" name="wildlifem2" action="/cgi-bin/fuels/whrm/whrm.pl">
        <input type="hidden" value="$taxgroup" name="taxgroup">
        <input type="hidden" value="$tax_group" name="tax_group">
@@ -1507,7 +1507,7 @@ end1
 #       </font>
 #      </td>
 #      <td valign="top">
-#       <a href="http://forest.moscowfsl.wsu.edu/fswepp/comments.html"><img src="/fswepp/images/epaemail.gif" align="right" border=0></a>
+#       <a href="https://forest.moscowfsl.wsu.edu/fswepp/comments.html"><img src="/fswepp/images/epaemail.gif" align="right" border=0></a>
 #      </td>
 #     </tr>
 #     <tr>
@@ -1739,7 +1739,7 @@ print "<html>
   <font face="tahoma, arial, helvetica, sans serif">
    <table align="center" width="100%" border="0">
     <tr>
-     <!--<td><img src="http://localhost/fuels/whrm/images/borealtoad4_Pilliod.jpg" alt="Wildlife Habitat Response Model" align="left"></td>-->
+     <!--<td><img src="https://localhost/fuels/whrm/images/borealtoad4_Pilliod.jpg" alt="Wildlife Habitat Response Model" align="left"></td>-->
      <td><img src="/fuels/whrm/images/borealtoad4_Pilliod.jpg"  alt="Wildlife Habitat Response Model" align="left"></td>
      <td align="center">
       <font face="tahoma, arial, helvetica, sans serif">
@@ -1748,7 +1748,7 @@ print "<html>
        <hr>
       </font>
      </td>
-     <!--<td><img src="http:/fuels/whrm/images/grayjay2_Pilliod.jpg" alt="Wildlife Habitat Response Model" align="right">-->
+     <!--<td><img src="https:/fuels/whrm/images/grayjay2_Pilliod.jpg" alt="Wildlife Habitat Response Model" align="right">-->
      <td>
       <img src="/fuels/whrm/images/grayjay2_Pilliod.jpg"  alt="Wildlife Habitat Response Model" align="right">
      </td>
@@ -1756,7 +1756,7 @@ print "<html>
    </table>
    <br>
    <center>
-    <!-- form method="post" name="wildlifem2" action="http://localhost/Scripts/fuels/whrm/test/whrm2.pl"-->
+    <!-- form method="post" name="wildlifem2" action="https://localhost/Scripts/fuels/whrm/test/whrm2.pl"-->
     <!--form method="post" name="wildlifem2" action="/cgi-bin/fuels/whrm/whrm2_.pl" -->
 
 end11
@@ -1802,7 +1802,7 @@ print '
        </font>
       </td>
       <td valign="top">
-       <a href="http://forest.moscowfsl.wsu.edu/fswepp/comments.html"><img src="/fswepp/images/epaemail.gif" align="right" border=0></a>
+       <a href="https://forest.moscowfsl.wsu.edu/fswepp/comments.html"><img src="/fswepp/images/epaemail.gif" align="right" border=0></a>
       </td>
      </tr>
     </table>

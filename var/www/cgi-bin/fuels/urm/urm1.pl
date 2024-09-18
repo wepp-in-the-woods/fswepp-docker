@@ -209,7 +209,7 @@ function NewWindow(){
     newWin.document.writeln(' <body onload="set_text()">')
     newWin.document.writeln('  <font face="arial">')
     newWin.document.writeln('   <h4>URM Weed search<br>by selection of the special list of Weeds</h4>')
-//elena    newWin.document.writeln('   <form method="post" name="elena1" action="http://localhost/Scripts/fuels/urm/test/weedsearch.pl">')
+//elena    newWin.document.writeln('   <form method="post" name="elena1" action="https://localhost/Scripts/fuels/urm/test/weedsearch.pl">')
     newWin.document.writeln('   <form method="post" name="elena" action="/cgi-bin/fuels/urm/weedsearch.pl">')
     newWin.document.writeln('    <input type="text" size="40" name="scispecies" onFocus="select()">&nbsp;')
     newWin.document.writeln('    <input type="submit" value="search and autofill" NAME="action1">')
@@ -247,7 +247,7 @@ function popUp(){
     mywin.document.writeln(' <body onload="set_text()">')
     mywin.document.writeln('  <font face="arial">')
     mywin.document.writeln('   <h4>URM plant information search<br>by scientific name</h4>')
-//elena  mywin.document.writeln('   <form method="post" name="elena" action="http://localhost/Scripts/fuels/urm/test/plantsearch2.pl">')
+//elena  mywin.document.writeln('   <form method="post" name="elena" action="https://localhost/Scripts/fuels/urm/test/plantsearch2.pl">')
     mywin.document.writeln('   <form method="post" name="elena" action="/cgi-bin/fuels/urm/plantsearch2.pl">')
     mywin.document.writeln('    <input type="text" name="scispecies" onFocus="select()">&nbsp;')
     mywin.document.writeln('    <input type="submit" value="search" NAME="action1">')
@@ -1059,7 +1059,7 @@ return true;}
   <font face="tahoma, arial, helvetica, sans serif">
    <table align="center" width="100%" border="0">
     <tr>
-     <td><img src="http:/fuels/urm/images/muskthistle.jpg" alt="The Understory Response Model" align="left">
+     <td><img src="https:/fuels/urm/images/muskthistle.jpg" alt="The Understory Response Model" align="left">
      </td>
      <td align="center"><hr>
       <font face="tahoma, arial, helvetica, sans serif">
@@ -1067,11 +1067,11 @@ return true;}
        <hr>
       </font>
      </td>
-     <td><img src="http:/fuels/urm/images/beargrass12.jpg" alt="The Understory Response Model" align="right">
+     <td><img src="https:/fuels/urm/images/beargrass12.jpg" alt="The Understory Response Model" align="right">
      </td>
     </tr>
    </table>
-  <!--elenaform method="post" name="plantsimulator" action="http://localhost/Scripts/fuels/urm/test/urm2.pl" onsubmit="return checkform2()"-->
+  <!--elenaform method="post" name="plantsimulator" action="https://localhost/Scripts/fuels/urm/test/urm2.pl" onsubmit="return checkform2()"-->
    <form method="post" name="plantsimulator" action="/cgi-bin/fuels/urm/urm2.pl" onsubmit="return checkform2()">
     <br>
     <table align="center" border="2" cellpadding="5" cellspacing="5">
@@ -1368,7 +1368,7 @@ print<<"end_ultimo";
        </font>
       </td>
       <td valign="top">
-       <a href="http://forest.moscowfsl.wsu.edu/fswepp/comments.html"<img src="/fswepp/images/epaemail.gif" align="right" border=0></a>
+       <a href="https://forest.moscowfsl.wsu.edu/fswepp/comments.html"<img src="/fswepp/images/epaemail.gif" align="right" border=0></a>
       </td>
      </tr>
    </table>

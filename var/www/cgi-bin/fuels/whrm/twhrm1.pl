@@ -90,7 +90,7 @@ return true;
     </tr>
    </table>
    <center>
-   <!--<form method=\"post\" name=\"twhrm1\" action=\"http://localhost/Scripts/fuels/whrm/twhrm2.pl\" onsubmit=\"return checkform()\">-->
+   <!--<form method=\"post\" name=\"twhrm1\" action=\"https://localhost/Scripts/fuels/whrm/twhrm2.pl\" onsubmit=\"return checkform()\">-->
    <form method=\"post\" name=\"twhrm1\" action=\"/cgi-bin/fuels/whrm/twhrm2.pl\" onsubmit=\"return checkform()\">
     <p><b>Treatments to Be Compared: </b>(You must select at least one)
      <br><br><br>
@@ -131,7 +131,7 @@ return true;
        <font face="tahoma, arial, helvetica, sans serif" size=1>
         <b>Documentation and User Manual:</b>
         [<a href="/fuels/whrm/documents/ChapterIV_WHRM_web.pdf" target="_blank">User guide</a> (21-page PDF)]
-        [<a href="http://www.fs.fed.us/rm/pubs/rmrs_rn023_04.pdf" target="_blank">Fact sheet</a> (1-page PDF)]
+        [<a href="https://www.fs.fed.us/rm/pubs/rmrs_rn023_04.pdf" target="_blank">Fact sheet</a> (1-page PDF)]
         <br>
         The Wildlife Habitat Response Model: <b>WHRM</b><br>
         Input interface v.
@@ -142,8 +142,8 @@ return true;
        </font>
       </td>
       <td valign="top">
-       <a href="http://forest.moscowfsl.wsu.edu/fswepp/comments.html" target="comments"><img src="/fswepp/images/epaemail.gif" align="right" border=0></a>
-       <a href="http://forest.moscowfsl.wsu.edu/fuels/comments.html" target="comments"></a>
+       <a href="https://forest.moscowfsl.wsu.edu/fswepp/comments.html" target="comments"><img src="/fswepp/images/epaemail.gif" align="right" border=0></a>
+       <a href="https://forest.moscowfsl.wsu.edu/fuels/comments.html" target="comments"></a>
       </td>
      </tr>
    </table>

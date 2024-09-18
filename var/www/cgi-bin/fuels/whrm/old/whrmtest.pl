@@ -172,7 +172,7 @@ print "<p>the rank in the file is: $rank and @rankm\n";
       </b>
       <br>
       <center>
-       <!-- form method="post" name="wildlifem4" action="http://localhost/Scripts/fuels/whrm/whrm2.pl" -->
+       <!-- form method="post" name="wildlifem4" action="https://localhost/Scripts/fuels/whrm/whrm2.pl" -->
        <form method="post" name="wildlifem4" action="/cgi-bin/fuels/whrm/whrm2.pl">
         <input type="hidden" value="$taxgroup" name="taxgroup">
         <input type="hidden" value="$species" name="species">
@@ -565,7 +565,7 @@ end1
 #       </font>
 #      </td>
 #      <td valign="top">
-#       <a href="http://forest.moscowfsl.wsu.edu/fswepp/comments.html"><img src="/fswepp/images/epaemail.gif" align="right" border=0></a>
+#       <a href="https://forest.moscowfsl.wsu.edu/fswepp/comments.html"><img src="/fswepp/images/epaemail.gif" align="right" border=0></a>
 #      </td>
 #     </tr>
 #     <tr>
@@ -780,7 +780,7 @@ print "<html>
   <font face="tahoma, arial, helvetica, sans serif">
    <table align="center" width="100%" border="0">
     <tr>
-     <!--<td><img src="http://localhost/fuels/whrm/images/borealtoad4_Pilliod.jpg" alt="Wildlife Habitat Response Model" align="left"></td>-->
+     <!--<td><img src="https://localhost/fuels/whrm/images/borealtoad4_Pilliod.jpg" alt="Wildlife Habitat Response Model" align="left"></td>-->
      <td><img src="/fuels/whrm/images/borealtoad4_Pilliod.jpg"  alt="Wildlife Habitat Response Model" align="left"></td>
      <td align="center">
       <font face="tahoma, arial, helvetica, sans serif">
@@ -789,7 +789,7 @@ print "<html>
        <hr>
       </font>
      </td>
-     <!--<td><img src="http:/fuels/whrm/images/grayjay2_Pilliod.jpg" alt="Wildlife Habitat Response Model" align="right">-->
+     <!--<td><img src="https:/fuels/whrm/images/grayjay2_Pilliod.jpg" alt="Wildlife Habitat Response Model" align="right">-->
      <td>
       <img src="/fuels/whrm/images/grayjay2_Pilliod.jpg"  alt="Wildlife Habitat Response Model" align="right">
      </td>
@@ -797,7 +797,7 @@ print "<html>
    </table>
    <br>
    <center>
-    <!-- form method="post" name="wildlifem2" action="http://localhost/Scripts/fuels/whrm/wildlifem2.pl"-->
+    <!-- form method="post" name="wildlifem2" action="https://localhost/Scripts/fuels/whrm/wildlifem2.pl"-->
     <!-- form method="post" name="wildlifem2" action="/cgi-bin/fuels/whrm/whrm2.pl" -->
 
 end11
@@ -843,7 +843,7 @@ print '
        </font>
       </td>
       <td valign="top">
-       <a href="http://forest.moscowfsl.wsu.edu/fswepp/comments.html"><img src="/fswepp/images/epaemail.gif" align="right" border=0></a>
+       <a href="https://forest.moscowfsl.wsu.edu/fswepp/comments.html"><img src="/fswepp/images/epaemail.gif" align="right" border=0></a>
       </td>
      </tr>
     </table>

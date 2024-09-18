@@ -260,7 +260,7 @@ function explain_average() {
   <font face="tahoma, arial, helvetica, sans serif">
  <table align="center" width="100%" border="0">
   <tr>
-  <!--<td><img src="http://localhost/fuels/whrm/images/borealtoad3_Pilliod.jpg" alt="Wildlife Habitat Response Model" align="left"></td>-->
+  <!--<td><img src="https://localhost/fuels/whrm/images/borealtoad3_Pilliod.jpg" alt="Wildlife Habitat Response Model" align="left"></td>-->
   <td><img src="/fuels/whrm/images/borealtoad3_Pilliod.jpg" alt="Wildlife Habitat Response Model" align="left" withd="156" height="117"></td>
 
   <td align="center"><hr>
@@ -268,7 +268,7 @@ function explain_average() {
   <h2>$treatname Details</h2>
   <hr>
   </td>
-  <!--<td><img src="http://localhost/fuels/whrm/images/grayjay3_Pilliod.jpg" alt="Wildlife Habitat Response Model" align="right">-->
+  <!--<td><img src="https://localhost/fuels/whrm/images/grayjay3_Pilliod.jpg" alt="Wildlife Habitat Response Model" align="right">-->
   <td><img src="/fuels/whrm/images/grayjay3_Pilliod.jpg" alt="Wildlife Habitat Response Model" align="right" withd="156" heigth="117">
 
   </td>
@@ -965,7 +965,7 @@ print <<"end2";
        <font face="tahoma, arial, helvetica, sans serif" size=1>
         <b>Documentation and User Manual:</b>
         [<a href="/fuels/whrm/documents/ChapterIV_WHRM_web.pdf" target="_blank">User guide</a> (21-page PDF)]
-        [<a href="http://www.fs.fed.us/rm/pubs/rmrs_rn023_04.pdf" target="_blank">Fact sheet</a> (1-page PDF)]
+        [<a href="https://www.fs.fed.us/rm/pubs/rmrs_rn023_04.pdf" target="_blank">Fact sheet</a> (1-page PDF)]
 	[<a href="/fuels/whrm/documents/MasterBibliography.pdf " target="_blank"><b>Complete WHRM bibliography</b> </a>(39-page PDF)]
         <br>
         The Wildlife Habitat Response Model: <b>WH</b><b>RM</b><br>
@@ -977,7 +977,7 @@ print <<"end2";
        </font>
       </td>
       <td valign="top">
-       <a href="http://forest.moscowfsl.wsu.edu/fswepp/comments.html" target="comments"><img src="/fswepp/images/epaemail.gif" align="right" border=0></a>
+       <a href="https://forest.moscowfsl.wsu.edu/fswepp/comments.html" target="comments"><img src="/fswepp/images/epaemail.gif" align="right" border=0></a>
       </td>
      </tr>
    </table>

@@ -155,7 +155,7 @@ print<<"endf";
   <font face="tahoma, arial, helvetica, sans serif">
  <table align="center" width="100%" border="0">
   <tr>
-  <!--<td><img src="http://localhost/fuels/whrm/images/borealtoad3_Pilliod.jpg" alt="Wildlife Habitat Response Model" align="left"></td>-->
+  <!--<td><img src="https://localhost/fuels/whrm/images/borealtoad3_Pilliod.jpg" alt="Wildlife Habitat Response Model" align="left"></td>-->
   <td><img src="/fuels/whrm/images/borealtoad3_Pilliod.jpg" alt="Wildlife Habitat Response Model" align="left"></td>
 
   <td align="center"><hr>
@@ -163,7 +163,7 @@ print<<"endf";
   <img src="/fswepp/images/underc.gif" border=0 width=532 height=34>
   <hr>
   </td>
-  <!--<td><img src="http://localhost/fuels/whrm/images/grayjay3_Pilliod.jpg" alt="Wildlife Habitat Response Model" align="right">-->
+  <!--<td><img src="https://localhost/fuels/whrm/images/grayjay3_Pilliod.jpg" alt="Wildlife Habitat Response Model" align="right">-->
   <td><img src="/fuels/whrm/images/grayjay3_Pilliod.jpg" alt="Wildlife Habitat Response Model" align="right">
 
   </td>
@@ -932,7 +932,7 @@ It should be noted that even species with large home ranges may experience popul
    To view general life history information or information about the studies used to develop this tool for your selected species, please use the "View Background Information" button.</p>
    <br>
    <center>
-    <!--form method="post" name="wildlifem3" action="http://localhost/Scripts/fuels/whrm/test/whrm2.pl"--><!elena-->
+    <!--form method="post" name="wildlifem3" action="https://localhost/Scripts/fuels/whrm/test/whrm2.pl"--><!elena-->
     <form method="post" name="wildlifem3" action="/cgi-bin/fuels/whrm/whrm2.pl">
      <input type="hidden" value="$taxgroup" name="taxgroup">
      <input type="hidden" value="$species" name="species">
@@ -957,7 +957,7 @@ It should be noted that even species with large home ranges may experience popul
       </font>
      </td>
      <td valign="top">
-      <a href="http://forest.moscowfsl.wsu.edu/fswepp/comments.html"><img src="/fswepp/images/epaemail.gif" align="right" border=0></a>
+      <a href="https://forest.moscowfsl.wsu.edu/fswepp/comments.html"><img src="/fswepp/images/epaemail.gif" align="right" border=0></a>
      </td>
     </tr>
    </table>
@@ -1058,7 +1058,7 @@ print<<"fin11";
        </font>
       </td>
       <td valign="top">
-       <a href="http://forest.moscowfsl.wsu.edu/fswepp/comments.html"<img src="/fswepp/images/epaemail.gif" align="right" border=0></a>
+       <a href="https://forest.moscowfsl.wsu.edu/fswepp/comments.html"<img src="/fswepp/images/epaemail.gif" align="right" border=0></a>
       </td>
      </tr>
     </table>

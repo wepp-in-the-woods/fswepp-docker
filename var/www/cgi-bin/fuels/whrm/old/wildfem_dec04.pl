@@ -151,7 +151,7 @@ print <<"endrank1";
 with similar life history characteristics. To view general life history information for your selected species, please use the "View Background Information" button.</p></b>
   <br>
   <center>
-  <form method="post" name="wildlifem4" action="http://localhost/Scripts/fuels/wirm/wildlifem2.pl">
+  <form method="post" name="wildlifem4" action="https://localhost/Scripts/fuels/wirm/wildlifem2.pl">
   <input type="hidden" value="$taxgroup" name="taxgroup">
   <input type="hidden" value="$species" name="species">
   <input type="hidden" value="$filename" name="filename">
