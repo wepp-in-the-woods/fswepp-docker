@@ -1,11 +1,11 @@
 <?php
-require("http://forest.moscowfsl.wsu.edu/smp/solo/shared/header1.php");
+require("https://forest.moscowfsl.wsu.edu/smp/solo/shared/header1.php");
 ?>
     <title>Long description of figure 1 for paper by Bosworth et al</title>
 <?php
-require("http://forest.moscowfsl.wsu.edu/smp/solo/shared/stylesheet.php");
+require("https://forest.moscowfsl.wsu.edu/smp/solo/shared/stylesheet.php");
 //invoke_stylesheet();
-require("http://forest.moscowfsl.wsu.edu/smp/solo/shared/header2.php");
+require("https://forest.moscowfsl.wsu.edu/smp/solo/shared/header2.php");
 ?>
 </head>
 <body>

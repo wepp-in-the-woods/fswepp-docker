@@ -1,16 +1,16 @@
 <?php
-require("http://forest.moscowfsl.wsu.edu/smp/solo/shared/header1.php");
+require("https://forest.moscowfsl.wsu.edu/smp/solo/shared/header1.php");
 ?>
     <title>North Idaho Soil-Plant Communitie</title>
 <?php
-require("http://forest.moscowfsl.wsu.edu/smp/solo/shared/stylesheet.php");
+require("https://forest.moscowfsl.wsu.edu/smp/solo/shared/stylesheet.php");
 //invoke_stylesheet();
-require("http://forest.moscowfsl.wsu.edu/smp/solo/shared/header2.php");
+require("https://forest.moscowfsl.wsu.edu/smp/solo/shared/header2.php");
 ?>
 		<meta name="description" content="North Idaho Soil-Plant Communities" />
 		<meta name="keywords" content="North Idaho Soil-Plant Communities" />
 <?php
-require("http://forest.moscowfsl.wsu.edu/smp/solo/shared/header3.php");
+require("https://forest.moscowfsl.wsu.edu/smp/solo/shared/header3.php");
 ?>
 
 <!-- BEGIN PUBLICATION -->
@@ -1036,5 +1036,5 @@ Site 112 (ABLA/MEFE, Subalpine fir series): soil type = spodisols, soil moisture
 
 <!-- END PUBLICATION -->
 <?php
-require("http://forest.moscowfsl.wsu.edu/smp/solo/shared/footer.php");
+require("https://forest.moscowfsl.wsu.edu/smp/solo/shared/footer.php");
 ?>

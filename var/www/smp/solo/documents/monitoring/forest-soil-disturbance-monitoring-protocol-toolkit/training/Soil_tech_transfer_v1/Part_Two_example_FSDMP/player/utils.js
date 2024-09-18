@@ -13,7 +13,7 @@ function WriteSwfObject(strSwfFile, nWidth, nHeight, strScale, strAlign, strQual
 	
 	if (strLocProtocol.indexOf("file") >= 0)
 	{
-		strLocProtocol = "http:";
+		strLocProtocol = "https:";
 	}
 
 	strHtml += "<object classid='clsid:d27cdb6e-ae6d-11cf-96b8-444553540000' codebase='" + strLocProtocol + "//fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,79,0' width='" + nWidth + "' height='" + nHeight + "' align='" + strAlign + "' id='player'>";

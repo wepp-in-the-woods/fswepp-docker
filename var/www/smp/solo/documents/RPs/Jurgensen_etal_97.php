@@ -1,16 +1,16 @@
 <?php
-require("http://forest.moscowfsl.wsu.edu/smp/solo/shared/header1.php");
+require("https://forest.moscowfsl.wsu.edu/smp/solo/shared/header1.php");
 ?>
     <title>Effects of Timber Harvesting</title>
 <?php
-require("http://forest.moscowfsl.wsu.edu/smp/solo/shared/stylesheet.php");
+require("https://forest.moscowfsl.wsu.edu/smp/solo/shared/stylesheet.php");
 //invoke_stylesheet();
-require("http://forest.moscowfsl.wsu.edu/smp/solo/shared/header2.php");
+require("https://forest.moscowfsl.wsu.edu/smp/solo/shared/header2.php");
 ?>
 		<meta name="description" content="Effects of Timber Harvesting" />
 		<meta name="keywords" content="Effects Timber Harvesting" />
 <?php
-require("http://forest.moscowfsl.wsu.edu/smp/solo/shared/header3.php");
+require("https://forest.moscowfsl.wsu.edu/smp/solo/shared/header3.php");
 ?>
 <!-- BEGIN PUBLICATION -->
 	<div id="pub">
@@ -2018,5 +2018,5 @@ this paper.</p>
 </div>
 <!-- END PUBLICATION -->
 <?php
-require("http://forest.moscowfsl.wsu.edu/smp/solo/shared/footer.php");
+require("https://forest.moscowfsl.wsu.edu/smp/solo/shared/footer.php");
 ?>

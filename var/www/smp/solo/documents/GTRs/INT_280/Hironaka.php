@@ -1,16 +1,16 @@
 <?php
-require("http://forest.moscowfsl.wsu.edu/smp/solo/shared/header1.php");
+require("https://forest.moscowfsl.wsu.edu/smp/solo/shared/header1.php");
 ?>
     <title>Soil - Vegetation Relationships</title>
 <?php
-require("http://forest.moscowfsl.wsu.edu/smp/solo/shared/stylesheet.php");
+require("https://forest.moscowfsl.wsu.edu/smp/solo/shared/stylesheet.php");
 //invoke_stylesheet();
-require("http://forest.moscowfsl.wsu.edu/smp/solo/shared/header2.php");
+require("https://forest.moscowfsl.wsu.edu/smp/solo/shared/header2.php");
 ?>
 		<meta name="description" content="Soil - Vegetation Relationships" />
 		<meta name="keywords" content="Soil Vegetation Relationships" />
 <?php
-require("http://forest.moscowfsl.wsu.edu/smp/solo/shared/header3.php");
+require("https://forest.moscowfsl.wsu.edu/smp/solo/shared/header3.php");
 ?>
 <!-- BEGIN PUBLICATION -->
 	<div id="pub">
@@ -76,5 +76,5 @@ Washington State University. 104 p.</p>
 </div>
 <!-- END PUBLICATION -->
 <?php
-require("http://forest.moscowfsl.wsu.edu/smp/solo/shared/footer.php");
+require("https://forest.moscowfsl.wsu.edu/smp/solo/shared/footer.php");
 ?>

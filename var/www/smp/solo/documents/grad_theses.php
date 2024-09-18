@@ -11,7 +11,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/smp/solo/shared/header2.php");
 <?php
 include($_SERVER["DOCUMENT_ROOT"]."/smp/solo/shared/header3.php");
 ?>
-			<h5 class="subnav"><a href="http://forest.moscowfsl.wsu.edu/smp/solo/index.php">SOLO HOME</a> &gt; DOCUMENTS: GRADUATE THESES</h5>
+			<h5 class="subnav"><a href="https://forest.moscowfsl.wsu.edu/smp/solo/index.php">SOLO HOME</a> &gt; DOCUMENTS: GRADUATE THESES</h5>
 
 				<h1 class="topheading">GRADUATE THESES</h1>
 				<p class="dateupdated">[Last Update: 05/23/2011]</p>

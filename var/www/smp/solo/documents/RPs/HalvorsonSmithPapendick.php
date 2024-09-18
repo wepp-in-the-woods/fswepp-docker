@@ -1,16 +1,16 @@
 <?php
-require("http://forest.moscowfsl.wsu.edu/smp/solo/shared/header1.php");
+require("https://forest.moscowfsl.wsu.edu/smp/solo/shared/header1.php");
 ?>
     <title>ISSUES OF SCALE FOR EVALUATING SOIL QUALITY</title>
 <?php
-require("http://forest.moscowfsl.wsu.edu/smp/solo/shared/stylesheet.php");
+require("https://forest.moscowfsl.wsu.edu/smp/solo/shared/stylesheet.php");
 //invoke_stylesheet();
-require("http://forest.moscowfsl.wsu.edu/smp/solo/shared/header2.php");
+require("https://forest.moscowfsl.wsu.edu/smp/solo/shared/header2.php");
 ?>
 		<meta name="description" content="ISSUES OF SCALE FOR EVALUATING SOIL QUALITY" />
 		<meta name="keywords" content="SCALE EVALUATING SOIL QUALITY" />
 <?php
-require("http://forest.moscowfsl.wsu.edu/smp/solo/shared/header3.php");
+require("https://forest.moscowfsl.wsu.edu/smp/solo/shared/header3.php");
 ?>
 <!-- BEGIN PUBLICATION -->
 	<div id="pub">
@@ -523,5 +523,5 @@ in central Iowa soils. Soil Sci. Soc. Am. J. 58:1501-1511.</p>
 <!-- END PUBLICATION -->
 </div>
 <?php
-require("http://forest.moscowfsl.wsu.edu/smp/solo/shared/footer.php");
+require("https://forest.moscowfsl.wsu.edu/smp/solo/shared/footer.php");
 ?>

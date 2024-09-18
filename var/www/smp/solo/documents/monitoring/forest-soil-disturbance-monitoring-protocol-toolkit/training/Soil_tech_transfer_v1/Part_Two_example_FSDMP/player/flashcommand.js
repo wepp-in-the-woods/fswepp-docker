@@ -55,7 +55,7 @@ function WriteSwfObject(strFileName, strSwfWidth, strSwfHeight, strFlashVars, bW
 	
 	if (strLocProtocol.indexOf("file") >= 0)
 	{
-		strLocProtocol = "http:";
+		strLocProtocol = "https:";
 	}
 
 
@@ -690,7 +690,7 @@ function OpenAttachment()
 		{
 			if (e.number == -2147024891)
 			{
-				alert("For viewing attachments when presentation is not playing from a website, view the Knowledge Base article located at http://kb.articulate.com/kb/000669.php")
+				alert("For viewing attachments when presentation is not playing from a website, view the Knowledge Base article located at https://kb.articulate.com/kb/000669.php")
 			}
 		}
 	}

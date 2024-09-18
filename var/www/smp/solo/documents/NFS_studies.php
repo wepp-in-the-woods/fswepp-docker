@@ -11,15 +11,15 @@ include($_SERVER["DOCUMENT_ROOT"]."/smp/solo/shared/header2.php");
 <?php
 include($_SERVER["DOCUMENT_ROOT"]."/smp/solo/shared/header3.php");
 ?>
-			<h5 class="subnav"><a href="http://forest.moscowfsl.wsu.edu/smp/solo/index.php">SOLO HOME</a> &gt; DOCUMENTS: <abbr title="National Forest System">NFS</abbr> STUDIES AND REPORTS</h5>
+			<h5 class="subnav"><a href="https://forest.moscowfsl.wsu.edu/smp/solo/index.php">SOLO HOME</a> &gt; DOCUMENTS: <abbr title="National Forest System">NFS</abbr> STUDIES AND REPORTS</h5>
 			<h1 class="topheading">NATIONAL FOREST SYSTEM STUDIES AND REPORTS</h1>
 			<p class="dateupdated">[Last updated: 11/06/2011]</p>
 			<h2 class="section">DOCUMENTS THAT APPLY TO MULTIPLE FORESTS</h2>
 
 		  <h3 class="firstsection">Region 1 Forest Service Documents</h3>
-		  <p><strong>NOTE:</strong> You will need Adobe Acrobat Reader (<a href="http://www.adobe.com/">free download</a>) to view PDF files.</p>
+		  <p><strong>NOTE:</strong> You will need Adobe Acrobat Reader (<a href="https://www.adobe.com/">free download</a>) to view PDF files.</p>
 		  <ul class="researchpapers">
-			<li>Nesser, J., G. Ford, C. Maynard, D. Page-Dumroese. 1997. <a href="http://treesearch.fs.fed.us/pubs/39453" title="Full document now available at TreeSearch">Ecological Units of the Northern Region: Subsections</a>.</strong> Gen. Tech. Rep. INT-GTR-369. Ogden, UT: U.S. Department of Agriculture, Forest Service, Intermountain Research Station. 88 p.</li>
+			<li>Nesser, J., G. Ford, C. Maynard, D. Page-Dumroese. 1997. <a href="https://treesearch.fs.fed.us/pubs/39453" title="Full document now available at TreeSearch">Ecological Units of the Northern Region: Subsections</a>.</strong> Gen. Tech. Rep. INT-GTR-369. Ogden, UT: U.S. Department of Agriculture, Forest Service, Intermountain Research Station. 88 p.</li>
 			<li><a href="MISC/R1_SoilCharLabData_1981.pdf">Region 1 Soil Characterization Lab Data</a> (sections for Beaverhead <abbr title="National Forest">NF</abbr>, Bitterroot <abbr title="National Forest">NF</abbr>, Clearwater <abbr title="National Forest">NF</abbr>, Custer <abbr title="National Forest">NF</abbr>, Deerlodge <abbr title="National Forest">NF</abbr>, Flathead <abbr title="National Forest">NF</abbr>, Gallatin <abbr title="National Forest">NF</abbr>, Kootenai <abbr title="National Forest">NF</abbr> and Nez Perce <abbr title="National Forest">NF</abbr>) - prepared by the University of Idaho College of Agriculture Department of Plant, Soil and Entomological Sciences for the USDA Forest Service; April 1981 (PDF - 19.3 MB)</li>
 			<li><a href="MISC/R1_compaction_study_1981.pdf">Region 1 Soil Compaction Study: Final Report to the United States Forest Service</a> (applies to Bitterroot <abbr title="National Forest">NF</abbr>, Flathead <abbr title="National Forest">NF</abbr> and Kootenai <abbr title="National Forest">NF</abbr>) - prepared by Steve Cullen and Clint Montagne; January 1981 (PDF - 5.8 MB)</li>
       		<li><a href="monitoring/r1_handbook/region1_handbook.php">Region One Soil Quality Monitoring Handbook</a> (HTML)</li>
@@ -115,7 +115,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/smp/solo/shared/header3.php");
 
 		  	<h3 class="subsection">Reference Documents</h3>
 		  	<ul>
-      			<li><a href="http://soildatamart.nrcs.usda.gov/Manuscripts/MT631/0/HelenaNF.pdf">MT631&#8212;Soil Survey of Helena National Forest Area, Montana (PDF)<br /><span class="dateupdated">[Link added to SoLo on 07/29/2011]</span></li>
+      			<li><a href="https://soildatamart.nrcs.usda.gov/Manuscripts/MT631/0/HelenaNF.pdf">MT631&#8212;Soil Survey of Helena National Forest Area, Montana (PDF)<br /><span class="dateupdated">[Link added to SoLo on 07/29/2011]</span></li>
 				</ul> 
 			      
 			<h2 class="section">IDAHO PANHANDLE NATIONAL FOREST</h2>
