@@ -24,7 +24,7 @@ print( "Content-type: text/html\n\n" );
 # This print() call is separate so as to use single-quotes around the
 # double-quotes.
 print( '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-						"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">' );
+						"https://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">' );
 
 print( "
 <html>

@@ -2,8 +2,8 @@
 
 	# ------- The graph values in the form of associative array
 
-# http://forest.moscowfsl.wsu.edu/BAERTOOLS/ravel/DEMprodGraphXYS.php?x=12&file=ravel-2265&s=1
-# http://forest.moscowfsl.wsu.edu/BAERTOOLS/ravel/DEMprodGraphXYS.php?y=12&file=ravel-2265
+# https://forest.moscowfsl.wsu.edu/BAERTOOLS/ravel/DEMprodGraphXYS.php?x=12&file=ravel-2265&s=1
+# https://forest.moscowfsl.wsu.edu/BAERTOOLS/ravel/DEMprodGraphXYS.php?y=12&file=ravel-2265
 
 # get filename to read
 # get or determine data type
@@ -13,7 +13,7 @@
 
 # $str = "file=ravel-9955&x=0&y=25";
 
-  $str = $_SERVER['QUERY_STRING'];	# http://www.php.net/manual/en/function.parse-str.php
+  $str = $_SERVER['QUERY_STRING'];	# https://www.php.net/manual/en/function.parse-str.php
   parse_str($str, $output);
 
 # echo $output['file'];
@@ -51,7 +51,7 @@
      for ($i=0; $i<$rows; $i++) {
        $line = fgets($file);
        $pieces = explode(" ", $line);
-#      $minElevThisRow=min($pieces);		# http://php.net/manual/en/function.min.php
+#      $minElevThisRow=min($pieces);		# https://php.net/manual/en/function.min.php
        $maxElevThisRow =-99999;
        $minElevThisRow = 99999;
        foreach ($pieces as $valyou) {

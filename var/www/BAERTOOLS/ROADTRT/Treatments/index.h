@@ -1,8 +1,8 @@
-<HTML xmlns="http://www.w3.org/1999/xhtml">
+<HTML xmlns="https://www.w3.org/1999/xhtml">
  <!-- #BeginTemplate "/Templates/index.dwt" -->
  <HEAD>
-  <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
-  <!-- saved from url=(0046)http://forest.moscowfsl.wsu.edu/BAERTOOLS/VAR/ --><!-- #BeginTemplate "/Templates/home_deh.dwt" --><HEAD>
+  <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "https://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+  <!-- saved from url=(0046)https://forest.moscowfsl.wsu.edu/BAERTOOLS/VAR/ --><!-- #BeginTemplate "/Templates/home_deh.dwt" --><HEAD>
   <!-- #BeginEditable "doctitle" --> 
   <TITLE>RMRS - BAER Tools - Road Treatments</TITLE>
 <!-- #EndEditable -->
@@ -48,28 +48,28 @@
    <TR>
     <TD id=glob-nav-left width=229 colSpan=2>
      <A id=top name=top></A>
-     <A class=hidden tabIndex=1 href="http://forest.moscowfsl.wsu.edu/BAERTOOLS/VAR/#content">[Jump to the main content of this page]</A>
+     <A class=hidden tabIndex=1 href="https://forest.moscowfsl.wsu.edu/BAERTOOLS/VAR/#content">[Jump to the main content of this page]</A>
      <BR>
-     <A tabIndex=2 href="http://www.fs.fed.us/">
+     <A tabIndex=2 href="https://www.fs.fed.us/">
       <IMG height=29 alt="USDA Forest Service" src="/local_resources/images/logos/usda-fs-text.gif" width=143 border=0></A>
      </TD>
     <TD id=glob-nav-right align=right width="100%">
       <FORM title="[Form]: Drop-down navigation for the USDA Forest Service." 
-      action=http://www.fs.fed.us/cgi-bin/fsnavigator.cgi method=post><LABEL for=globalnav>&nbsp;</LABEL> 
+      action=https://www.fs.fed.us/cgi-bin/fsnavigator.cgi method=post><LABEL for=globalnav>&nbsp;</LABEL> 
       <DIV class=align-right><SELECT id=globalnav tabIndex=3 name=fsnavigator> 
         <OPTION value=# selected>Forest Service National Links</OPTION>
-        <OPTION value=http://www.fs.fed.us>Forest Service Home</OPTION>
-        <OPTION value=http://www.fs.fed.us/fsjobs/forestservice/index.html>Employment</OPTION> 
-        <OPTION value=http://www.fs.fed.us/fire/>Fire and Aviation</OPTION> 
-        <OPTION value=http://www.fs.fed.us/global/>International Forestry</OPTION>
-        <OPTION value=http://www.fs.fed.us/kids/>Just for Kids</OPTION>
-        <OPTION value=http://www.fs.fed.us/maps/>Maps and Brochures</OPTION>
-        <OPTION value=http://www.fs.fed.us/passespermits/>Passes and Permits</OPTION> 
-        <OPTION value=http://www.fs.fed.us/photovideo/>Photo and Video Gallery</OPTION>
-        <OPTION value=http://www.fs.fed.us/publications/>Publications</OPTION>
-        <OPTION value=http://www.fs.fed.us/recreation/>Recreational Activities</OPTION> 
-        <OPTION value=http://www.fs.fed.us/research/>Research and Development</OPTION>
-        <OPTION value=http://www.fs.fed.us/spf/>State and Private Forestry</OPTION>
+        <OPTION value=https://www.fs.fed.us>Forest Service Home</OPTION>
+        <OPTION value=https://www.fs.fed.us/fsjobs/forestservice/index.html>Employment</OPTION> 
+        <OPTION value=https://www.fs.fed.us/fire/>Fire and Aviation</OPTION> 
+        <OPTION value=https://www.fs.fed.us/global/>International Forestry</OPTION>
+        <OPTION value=https://www.fs.fed.us/kids/>Just for Kids</OPTION>
+        <OPTION value=https://www.fs.fed.us/maps/>Maps and Brochures</OPTION>
+        <OPTION value=https://www.fs.fed.us/passespermits/>Passes and Permits</OPTION> 
+        <OPTION value=https://www.fs.fed.us/photovideo/>Photo and Video Gallery</OPTION>
+        <OPTION value=https://www.fs.fed.us/publications/>Publications</OPTION>
+        <OPTION value=https://www.fs.fed.us/recreation/>Recreational Activities</OPTION> 
+        <OPTION value=https://www.fs.fed.us/research/>Research and Development</OPTION>
+        <OPTION value=https://www.fs.fed.us/spf/>State and Private Forestry</OPTION>
        </SELECT> &nbsp;
        <INPUT class=button tabIndex=4 type=submit value=Go! name=button> 
       </DIV>
@@ -106,7 +106,7 @@
     <TD id=search-table-left-cell width=189><IMG height=14 alt="" 
       src="/local_resources/images/slices/search-head.gif" width=189> 
       <FORM id=search_form title="[Form]: Google search of Moscow FSL site." 
-      action=http://www.google.com/search method=get>
+      action=https://www.google.com/search method=get>
       <DIV><INPUT type=hidden value=forest.moscowfsl.wsu.edu name=as_sitesearch> 
       <LABEL for=search_field>&nbsp;</LABEL>
       <INPUT id=search_field 
@@ -140,7 +140,7 @@
        <TBODY>
         <TR bgColor=#ded794>
          <TD width=21><IMG height=16 alt="" src="/local_resources/images/bullets/active-link.gif" width=21></TD>
-         <TD width=168><A class=main-nav-current tabIndex=8 href="http://forest.moscowfsl.wsu.edu/">Moscow FSL Home Page</A></TD>
+         <TD width=168><A class=main-nav-current tabIndex=8 href="https://forest.moscowfsl.wsu.edu/">Moscow FSL Home Page</A></TD>
         </TR><!-- AT THE LAB -->
         <TR class=p-link-not-active-tr>
          <TD><IMG height=16 alt="" src="/local_resources/images/bullets/not-active-link.gif" width=21></TD>
@@ -190,11 +190,11 @@
        <TBODY>
         <TR>
          <TD colSpan=2 height=20><IMG height=10 alt="" src="/local_resources/images/bullets/local-link.gif" width=21></TD>
-         <TD height=20><A class=main-nav-current href="http://www.fs.fed.us/rm/">Rocky Mountain Research Station</A></TD>
+         <TD height=20><A class=main-nav-current href="https://www.fs.fed.us/rm/">Rocky Mountain Research Station</A></TD>
         </TR>
         <TR>
          <TD colSpan=2 height=20><IMG height=10 alt="" src="/local_resources/images/bullets/local-link.gif" width=21></TD>
-         <TD height=20><A class=main-nav-current href="http://www.fs.fed.us/research/">Forest Service Research</A></TD>
+         <TD height=20><A class=main-nav-current href="https://www.fs.fed.us/research/">Forest Service Research</A></TD>
         </TR>
         <TR>
          <TD colSpan=3 height=20>
@@ -252,7 +252,7 @@
          <TD>&nbsp;</TD>
          <TD height=20><IMG height=10 alt="" src="/local_resources/images/bullets/local-link.gif" width=21></TD>
          <TD height=20>
-          <A class=main-nav-current href="http://www.srs.fs.usda.gov/customer/commentcard_rmrs.htm">Evaluate Our Service</A>
+          <A class=main-nav-current href="https://www.srs.fs.usda.gov/customer/commentcard_rmrs.htm">Evaluate Our Service</A>
          </TD>
         </TR>
        </TBODY>
@@ -288,10 +288,10 @@
          </P>
          <MAP id=logos name=logos><AREA title="USDA Link" 
           shape=RECT alt="USDA Link" coords=0,1,66,48 
-          href="http://www.usda.gov/">
+          href="https://www.usda.gov/">
           <AREA title="Forest Service Link" 
           shape=RECT alt="Forest Service Link" coords=69,2,135,57 
-          href="http://www.fs.fed.us/">
+          href="https://www.fs.fed.us/">
          </MAP>
         </TD>
        </TR>
@@ -312,7 +312,7 @@
       <!-- ***************************************************************************************** -->
       <!-- ***************************************************************************************** -->
 
-      <A href="http://forest.moscowfsl.wsu.edu/BAERTOOLS/">BAER Tools</A> -&gt; 
+      <A href="https://forest.moscowfsl.wsu.edu/BAERTOOLS/">BAER Tools</A> -&gt; 
       <a href="../">Post-Fire Road Treatment Tools</a> -&gt;
       Treatments
       <FONT size=+1> 
@@ -327,21 +327,21 @@
         <a href="#Napper2006">Napper (2006)</a> chapter 4 describes details of most of these treatments,
         including primary use, description, purpose, suitable sites, cost, and construction specifications. 
         The following treatments are discussed below:
-        <a href="http://www.fs.fed.us/eng/pubs/pdf/BAERCAT/lo_res/Chap_4.pdf" target="_blank">culvert inlet/outlet modification (culvert modifications)</a>,
+        <a href="https://www.fs.fed.us/eng/pubs/pdf/BAERCAT/lo_res/Chap_4.pdf" target="_blank">culvert inlet/outlet modification (culvert modifications)</a>,
                  culvert removal, 
-        <a href="http://www.fs.fed.us/eng/pubs/pdf/BAERCAT/lo_res/Chap_4.pdf" target="_blank">culvert upgrading (culvert modifications)</a>,
+        <a href="https://www.fs.fed.us/eng/pubs/pdf/BAERCAT/lo_res/Chap_4.pdf" target="_blank">culvert upgrading (culvert modifications)</a>,
                  relief culvert,
-        <a href="http://www.fs.fed.us/eng/pubs/pdf/BAERCAT/lo_res/Chap_4.pdf" target="_blank">armored ford crossing (low-water stream crossing)</a>,
-        <a href="http://www.fs.fed.us/eng/pubs/pdf/BAERCAT/lo_res/Chap_4.pdf" target="_blank">channel debris cleaning (catchment-basin cleanout)</a>,
+        <a href="https://www.fs.fed.us/eng/pubs/pdf/BAERCAT/lo_res/Chap_4.pdf" target="_blank">armored ford crossing (low-water stream crossing)</a>,
+        <a href="https://www.fs.fed.us/eng/pubs/pdf/BAERCAT/lo_res/Chap_4.pdf" target="_blank">channel debris cleaning (catchment-basin cleanout)</a>,
                  ditch cleaning/armoring, 
-        <a href="http://www.fs.fed.us/eng/pubs/pdf/BAERCAT/lo_res/Chap_4.pdf" target="_blank">culvert risers (riser pipes)</a>,
-        <a href="http://www.fs.fed.us/eng/pubs/pdf/BAERCAT/lo_res/Chap_4.pdf">debris/trash rack</a>,
+        <a href="https://www.fs.fed.us/eng/pubs/pdf/BAERCAT/lo_res/Chap_4.pdf" target="_blank">culvert risers (riser pipes)</a>,
+        <a href="https://www.fs.fed.us/eng/pubs/pdf/BAERCAT/lo_res/Chap_4.pdf">debris/trash rack</a>,
                  road closure,
-        <a href="http://www.fs.fed.us/eng/pubs/pdf/BAERCAT/lo_res/Chap_4.pdf" target="_blank">road decommissioning</a>,
-        <a href="http://www.fs.fed.us/eng/pubs/pdf/BAERCAT/lo_res/Chap_4.pdf" target="_blank">rolling dip/water bar</a>,
-        <a href="http://www.fs.fed.us/eng/pubs/pdf/BAERCAT/lo_res/Chap_4.pdf" target="_blank">storm patrol (storm inspection and response)</a>,
-        <a href="http://www.fs.fed.us/eng/pubs/pdf/BAERCAT/lo_res/Chap_4.pdf" target="_blank">hazard/warning sign</a>, and
-        <a href="http://www.fs.fed.us/eng/pubs/pdf/BAERCAT/lo_res/Chap_4.pdf" target="_blank">outsloping road</a>.
+        <a href="https://www.fs.fed.us/eng/pubs/pdf/BAERCAT/lo_res/Chap_4.pdf" target="_blank">road decommissioning</a>,
+        <a href="https://www.fs.fed.us/eng/pubs/pdf/BAERCAT/lo_res/Chap_4.pdf" target="_blank">rolling dip/water bar</a>,
+        <a href="https://www.fs.fed.us/eng/pubs/pdf/BAERCAT/lo_res/Chap_4.pdf" target="_blank">storm patrol (storm inspection and response)</a>,
+        <a href="https://www.fs.fed.us/eng/pubs/pdf/BAERCAT/lo_res/Chap_4.pdf" target="_blank">hazard/warning sign</a>, and
+        <a href="https://www.fs.fed.us/eng/pubs/pdf/BAERCAT/lo_res/Chap_4.pdf" target="_blank">outsloping road</a>.
         Terms within parentheses were used by Napper (2006).</p>
       <p>&nbsp;</p>
       <p><font size="+1">Culvert Treatments (alphabetically)</font></p>
@@ -372,7 +372,7 @@
         Given the values at risks, the culvert upgrading must be designed and 
         implemented to maintain vehicle access and protect aquatic resources.
         To determine size of culverts to be upgraded, often culvert design tools are used, such as
-        <a href="http://www.wti.montana.edu/Documents/Reports/PDF/CMP_Hydraulics.xls" target="_blank">Circular Culvert Design Spreadsheet</a>
+        <a href="https://www.wti.montana.edu/Documents/Reports/PDF/CMP_Hydraulics.xls" target="_blank">Circular Culvert Design Spreadsheet</a>
         (<a href="#Cahoon2005">Cahoon, 2005</a>) and
         <a href="supplement.html#CulvertCapacity" target="_blank">flow capacity table</a>
         (<a href="#Robison1999">Robison and others, 1999</a>).
@@ -489,16 +489,16 @@
         <p><a name="Cahoon2005"></a>
           Cahoon, Joel. (2005 August 11-last update).
           Circular Culvert Design Spreadsheet [Online]. Available:
-          <a href="http://www.wti.montana.edu/Documents/Reports/PDF/CMP_Hydraulics.xls" target="_blank">http://www.wti.montana.edu/Documents/Reports/PDF/CMP_Hydraulics.xls</a>
+          <a href="https://www.wti.montana.edu/Documents/Reports/PDF/CMP_Hydraulics.xls" target="_blank">https://www.wti.montana.edu/Documents/Reports/PDF/CMP_Hydraulics.xls</a>
           [2008 July 8].</p>
         <p><a name="Furniss2002"></a>
           Furniss, Michael J. (2002-last update). 
           The six-D system for effective waterbars [Online]. Available:
-          <a href="http://www.fs.fed.us/r5/baer/six-d.html" target="_blank">http://www.fs.fed.us/r5/baer/six-d.html</a> 
+          <a href="https://www.fs.fed.us/r5/baer/six-d.html" target="_blank">https://www.fs.fed.us/r5/baer/six-d.html</a> 
           [2008 July 13].</p>
         <p><a name="Napper2006"></a>
           Napper, Carolyn. 2006.
-          <a href="http://www.fs.fed.us/eng/php/library_card.php?p_num=0625%201801P" target="_blank">Burned Area Emergency Response Treatment Catalog.</a>
+          <a href="https://www.fs.fed.us/eng/php/library_card.php?p_num=0625%201801P" target="_blank">Burned Area Emergency Response Treatment Catalog.</a>
           Watershed, Soil, Air Management 0625 1801-SDTDC.
           San Dimas, CA: U.S. Department of Agriculture, Forest Service, San Dimas Technology &amp; Development Center. 254&nbsp;p.
         </p>
@@ -507,12 +507,12 @@
           Hydraulic structures (3rd ed.). London, UK: Taylor &amp; Francis Group. 666&nbsp;p.</p>
         <p><a name="Robison1999"></a>
           Robison, E. George; Mirati, Albert; Allen, Marganne. 1999.
-          <a href="http://egov.oregon.gov/ODF/PRIVATE_FORESTS/docs/fp/RdStrmCrossRestorGuide.pdf" target="_blank">Oregon road/stream crossing restoration guide: spring 1999.</a>
+          <a href="https://egov.oregon.gov/ODF/PRIVATE_FORESTS/docs/fp/RdStrmCrossRestorGuide.pdf" target="_blank">Oregon road/stream crossing restoration guide: spring 1999.</a>
           Salem, OR: Oregon Department of Forestry. 79&nbsp;p.</p>
         <p><a name="FS2003"></a>
           U.S. Department of Agriculture, Forest Service. 2003.
           Forest Service Manual 7712.11, Exhibit 01. Available:
-          <a href="http://www.fs.fed.us/im/directives/dughtml/fsm.html" target="_blank">www.fs.fed.us/im/directives/dughtml/fsm.html</a>
+          <a href="https://www.fs.fed.us/im/directives/dughtml/fsm.html" target="_blank">www.fs.fed.us/im/directives/dughtml/fsm.html</a>
           [2007 May 28].</p>
         <p><a name="Watkins1984"></a>
           Watkins, L. H.; Fiddes, D. 1984.
@@ -562,8 +562,8 @@
   </TABLE>
 <!-- IMAGE MAPS -->
   <MAP id=logos>
-   <AREA shape=RECT alt="USDA logo which links to the department's national site." coords=-13,-5,65,45 href="http://www.usda.gov/">
-   <AREA shape=RECT alt="Forest Service logo which links to the agency's national site." coords=68,1,120,48 href="http://www.fs.fed.us/">
+   <AREA shape=RECT alt="USDA logo which links to the department's national site." coords=-13,-5,65,45 href="https://www.usda.gov/">
+   <AREA shape=RECT alt="Forest Service logo which links to the agency's national site." coords=68,1,120,48 href="https://www.fs.fed.us/">
   </MAP>
  </BODY>
     <!-- #EndTemplate -->

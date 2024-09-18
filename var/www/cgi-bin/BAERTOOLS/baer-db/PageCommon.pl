@@ -36,7 +36,7 @@ sub PrintBanners { my( $Title, $raExtraCrumb ) = @_;
 	print( "
 	<!-- Generic Forest Service banner. -->
 	<div>
-		<a href='http://www.fs.fed.us'>
+		<a href='https://www.fs.fed.us'>
 			<img src='/local_resources/images/logos/usda-fs-text.gif'
 					width='143' height='29' border='0'
 					alt='USDA Forest Service' />

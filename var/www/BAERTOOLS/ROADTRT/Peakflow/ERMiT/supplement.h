@@ -1,8 +1,8 @@
-<HTML xmlns="http://www.w3.org/1999/xhtml">
+<HTML xmlns="https://www.w3.org/1999/xhtml">
  <!-- #BeginTemplate "/Templates/index.dwt" -->
  <HEAD>
-  <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
-  <!-- saved from url=(0046)http://forest.moscowfsl.wsu.edu/BAERTOOLS/VAR/ --><!-- #BeginTemplate "/Templates/home_deh.dwt" --><HEAD>
+  <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "https://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+  <!-- saved from url=(0046)https://forest.moscowfsl.wsu.edu/BAERTOOLS/VAR/ --><!-- #BeginTemplate "/Templates/home_deh.dwt" --><HEAD>
   <!-- #BeginEditable "doctitle" --> 
   <TITLE>RMRS - BAER Road Treatment Tools - ERMiT Supplement</TITLE>
 <!-- #EndEditable -->
@@ -48,28 +48,28 @@
    <TR>
     <TD id=glob-nav-left width=229 colSpan=2>
      <A id=top name=top></A>
-     <A class=hidden tabIndex=1 href="http://forest.moscowfsl.wsu.edu/BAERTOOLS/VAR/#content">[Jump to the main content of this page]</A>
+     <A class=hidden tabIndex=1 href="https://forest.moscowfsl.wsu.edu/BAERTOOLS/VAR/#content">[Jump to the main content of this page]</A>
      <BR>
-     <A tabIndex=2 href="http://www.fs.fed.us/">
+     <A tabIndex=2 href="https://www.fs.fed.us/">
       <IMG height=29 alt="USDA Forest Service" src="/local_resources/images/logos/usda-fs-text.gif" width=143 border=0></A>
      </TD>
     <TD id=glob-nav-right align=right width="100%">
       <FORM title="[Form]: Drop-down navigation for the USDA Forest Service." 
-      action=http://www.fs.fed.us/cgi-bin/fsnavigator.cgi method=post><LABEL for=globalnav>&nbsp;</LABEL> 
+      action=https://www.fs.fed.us/cgi-bin/fsnavigator.cgi method=post><LABEL for=globalnav>&nbsp;</LABEL> 
       <DIV class=align-right><SELECT id=globalnav tabIndex=3 name=fsnavigator> 
         <OPTION value=# selected>Forest Service National Links</OPTION>
-        <OPTION value=http://www.fs.fed.us>Forest Service Home</OPTION>
-        <OPTION value=http://www.fs.fed.us/fsjobs/forestservice/index.html>Employment</OPTION> 
-        <OPTION value=http://www.fs.fed.us/fire/>Fire and Aviation</OPTION> 
-        <OPTION value=http://www.fs.fed.us/global/>International Forestry</OPTION>
-        <OPTION value=http://www.fs.fed.us/kids/>Just for Kids</OPTION>
-        <OPTION value=http://www.fs.fed.us/maps/>Maps and Brochures</OPTION>
-        <OPTION value=http://www.fs.fed.us/passespermits/>Passes and Permits</OPTION> 
-        <OPTION value=http://www.fs.fed.us/photovideo/>Photo and Video Gallery</OPTION>
-        <OPTION value=http://www.fs.fed.us/publications/>Publications</OPTION>
-        <OPTION value=http://www.fs.fed.us/recreation/>Recreational Activities</OPTION> 
-        <OPTION value=http://www.fs.fed.us/research/>Research and Development</OPTION>
-        <OPTION value=http://www.fs.fed.us/spf/>State and Private Forestry</OPTION>
+        <OPTION value=https://www.fs.fed.us>Forest Service Home</OPTION>
+        <OPTION value=https://www.fs.fed.us/fsjobs/forestservice/index.html>Employment</OPTION> 
+        <OPTION value=https://www.fs.fed.us/fire/>Fire and Aviation</OPTION> 
+        <OPTION value=https://www.fs.fed.us/global/>International Forestry</OPTION>
+        <OPTION value=https://www.fs.fed.us/kids/>Just for Kids</OPTION>
+        <OPTION value=https://www.fs.fed.us/maps/>Maps and Brochures</OPTION>
+        <OPTION value=https://www.fs.fed.us/passespermits/>Passes and Permits</OPTION> 
+        <OPTION value=https://www.fs.fed.us/photovideo/>Photo and Video Gallery</OPTION>
+        <OPTION value=https://www.fs.fed.us/publications/>Publications</OPTION>
+        <OPTION value=https://www.fs.fed.us/recreation/>Recreational Activities</OPTION> 
+        <OPTION value=https://www.fs.fed.us/research/>Research and Development</OPTION>
+        <OPTION value=https://www.fs.fed.us/spf/>State and Private Forestry</OPTION>
        </SELECT> &nbsp;
        <INPUT class=button tabIndex=4 type=submit value=Go! name=button> 
       </DIV>
@@ -106,7 +106,7 @@
     <TD id=search-table-left-cell width=189><IMG height=14 alt="" 
       src="/local_resources/images/slices/search-head.gif" width=189> 
       <FORM id=search_form title="[Form]: Google search of Moscow FSL site." 
-      action=http://www.google.com/search method=get>
+      action=https://www.google.com/search method=get>
       <DIV><INPUT type=hidden value=forest.moscowfsl.wsu.edu name=as_sitesearch> 
       <LABEL for=search_field>&nbsp;</LABEL>
       <INPUT id=search_field 
@@ -140,7 +140,7 @@
        <TBODY>
         <TR bgColor=#ded794>
          <TD width=21><IMG height=16 alt="" src="/local_resources/images/bullets/active-link.gif" width=21></TD>
-         <TD width=168><A class=main-nav-current tabIndex=8 href="http://forest.moscowfsl.wsu.edu/">Moscow FSL Home Page</A></TD>
+         <TD width=168><A class=main-nav-current tabIndex=8 href="https://forest.moscowfsl.wsu.edu/">Moscow FSL Home Page</A></TD>
         </TR><!-- AT THE LAB -->
         <TR class=p-link-not-active-tr>
          <TD><IMG height=16 alt="" src="/local_resources/images/bullets/not-active-link.gif" width=21></TD>
@@ -190,11 +190,11 @@
        <TBODY>
         <TR>
          <TD colSpan=2 height=20><IMG height=10 alt="" src="/local_resources/images/bullets/local-link.gif" width=21></TD>
-         <TD height=20><A class=main-nav-current href="http://www.fs.fed.us/rm/">Rocky Mountain Research Station</A></TD>
+         <TD height=20><A class=main-nav-current href="https://www.fs.fed.us/rm/">Rocky Mountain Research Station</A></TD>
         </TR>
         <TR>
          <TD colSpan=2 height=20><IMG height=10 alt="" src="/local_resources/images/bullets/local-link.gif" width=21></TD>
-         <TD height=20><A class=main-nav-current href="http://www.fs.fed.us/research/">Forest Service Research</A></TD>
+         <TD height=20><A class=main-nav-current href="https://www.fs.fed.us/research/">Forest Service Research</A></TD>
         </TR>
         <TR>
          <TD colSpan=3 height=20>
@@ -252,7 +252,7 @@
          <TD>&nbsp;</TD>
          <TD height=20><IMG height=10 alt="" src="/local_resources/images/bullets/local-link.gif" width=21></TD>
          <TD height=20>
-          <A class=main-nav-current href="http://www.srs.fs.usda.gov/customer/commentcard_rmrs.htm">Evaluate Our Service</A>
+          <A class=main-nav-current href="https://www.srs.fs.usda.gov/customer/commentcard_rmrs.htm">Evaluate Our Service</A>
          </TD>
         </TR>
        </TBODY>
@@ -288,10 +288,10 @@
          </P>
          <MAP id=logos name=logos><AREA title="USDA Link" 
           shape=RECT alt="USDA Link" coords=0,1,66,48 
-          href="http://www.usda.gov/">
+          href="https://www.usda.gov/">
           <AREA title="Forest Service Link" 
           shape=RECT alt="Forest Service Link" coords=69,2,135,57 
-          href="http://www.fs.fed.us/">
+          href="https://www.fs.fed.us/">
          </MAP>
         </TD>
        </TR>
@@ -312,7 +312,7 @@
       <!-- ***************************************************************************************** -->
       <!-- ***************************************************************************************** -->
 
-      <A href="http://forest.moscowfsl.wsu.edu/BAERTOOLS/">BAER Tools</A> -&gt;
+      <A href="https://forest.moscowfsl.wsu.edu/BAERTOOLS/">BAER Tools</A> -&gt;
       <a href="../../">Post-Fire Road Treatment Tools</a> -&gt;
       <a href="../">Post-Fire Peak Flow and Erosion Estimation</a> -&gt;
       <a href="./">ERMiT</a> -&gt;
@@ -322,8 +322,8 @@
       </FONT> 
       <p><b>Details of ERMiT</b></p>
       <p>ERMiT is an
-        <a href="http://forest.moscowfsl.wsu.edu/fswepp/" target="_blank">FS WEPP Interface</a>,
-        based on the <a href="http://topsoil.nserl.purdue.edu/nserlweb/weppmain/" target="_blank">WEPP model</a>
+        <a href="https://forest.moscowfsl.wsu.edu/fswepp/" target="_blank">FS WEPP Interface</a>,
+        based on the <a href="https://topsoil.nserl.purdue.edu/nserlweb/weppmain/" target="_blank">WEPP model</a>
         developed by an interagency group of scientists from the U.S. 
         Department of Agriculture's Agricultural Research Service, Forest Service, 
         and Soil Conservation Service (currently Natural Resources Conservation 
@@ -333,7 +333,7 @@
         weather generation, infiltration theory, hydrology, soil physics, plant 
         science, hydraulics, and erosion mechanics
         (<a href="#Flanagan1995">Flanagan and Livingston, 1995</a>).
-        The <a href="http://forest.moscowfsl.wsu.edu/fswepp/" target="_blank">Forest Service WEPP (FS WEPP) Interfaces</a>
+        The <a href="https://forest.moscowfsl.wsu.edu/fswepp/" target="_blank">Forest Service WEPP (FS WEPP) Interfaces</a>
         were developed by the USDA Forest 
         Service Rocky Mountain Research Station, Soil and Water Engineering, Moscow, 
         Idaho (<a href="#Elliot2007">Elliot, 2007</a>). They are a user-friendly 
@@ -355,7 +355,7 @@
       <p>Recent developments now allow WEPP simulations using digital sources 
         of information with Geographic Information Systems (GIS).
         This GIS wizard is called GeoWEPP
-        (<a href="http://www.geog.buffalo.edu/~rensch/geowepp/" target="_blank">http://www.geog.buffalo.edu/~rensch/geowepp/</a>),
+        (<a href="https://www.geog.buffalo.edu/~rensch/geowepp/" target="_blank">https://www.geog.buffalo.edu/~rensch/geowepp/</a>),
         and it has been under development for forest conditions since about 2002 
         with funding from the Joint Fire Science Program
         (<a href="#Renschler2003">Renschler, 2003</a>;
@@ -402,11 +402,11 @@
           Elliot, William J. (2007, January 22--last update).
           Forest Service WEPP Interfaces [Homepage of Forest Service WEPP Interfaces], [Online].
           Available:
-          <a href="http://forest.moscowfsl.wsu.edu/fswepp/" target="_blank">http://forest.moscowfsl.wsu.edu/fswepp/</a> 
+          <a href="https://forest.moscowfsl.wsu.edu/fswepp/" target="_blank">https://forest.moscowfsl.wsu.edu/fswepp/</a> 
           [2008 January 3]. </p>
         <p><a name="Flanagan1995"></a>
           Flanagan, D. C.; Livingston, S. J., eds. 1995.
-          <a href="http://topsoil.nserl.purdue.edu/nserlweb/weppmain/docs/readme.htm" target="_blank">WEPP user summary. NSERL Report No.11.</a>
+          <a href="https://topsoil.nserl.purdue.edu/nserlweb/weppmain/docs/readme.htm" target="_blank">WEPP user summary. NSERL Report No.11.</a>
           West Lafayette, IN: U.S. Department of Agriculture, Agricultural Research Service,
           National Soil Erosion Research Laboratory. 131&nbsp;p.</p>
         <p><a name="Renschler2003"></a>
@@ -417,18 +417,18 @@
           Renschler, Chris. S. (2008 March 28--last update).
           GeoWEPP: the Geo-spatial interface for the Water Erosion Prediction Project
           [Homepage of GeoWEPP], [Online]. Available:
-          <a href="http://www.geog.buffalo.edu/%7Erensch/geowepp/" target="_blank">http://www.geog.buffalo.edu/~rensch/geowepp/</a> 
+          <a href="https://www.geog.buffalo.edu/%7Erensch/geowepp/" target="_blank">https://www.geog.buffalo.edu/~rensch/geowepp/</a> 
           [2008 May 6].</p>
         <p><a name="Robichaud2006"></a>
           Robichaud, Peter R.; Elliot, William J.; Pierson, Fredrick B.; Hall, David E.; Moffet, Corey A.
           (2006 January 18--last update).
           Erosion Risk Management Tool (ERMiT) Ver. 2006.01.18. 
           [Homepage of ERMiT Erosion Risk Management Tool], [Onlline]. Available: 
-          <a href="http://forest.moscowfsl.wsu.edu/cgi-bin/fswepp/ermit/ermit.pl" target="_blank">http://forest.moscowfsl.wsu.edu/cgi-bin/fswepp/ermit/ermit.pl</a> 
+          <a href="https://forest.moscowfsl.wsu.edu/cgi-bin/fswepp/ermit/ermit.pl" target="_blank">https://forest.moscowfsl.wsu.edu/cgi-bin/fswepp/ermit/ermit.pl</a> 
           [2008 March 3].</p>
         <p><a name="Robichaud2007"></a>
           Robichaud, Peter R.; Elliot, William J.; Pierson, Fredrick B.; Hall, David E.; Moffet, Corey A.; Ashmum, Louise E. 2007.
-          <a href="http://forest.moscowfsl.wsu.edu/cgi-bin/engr/library/searchpub.pl?pub=2007c" target="_blank">Erosion Risk Management Tool (ERMiT) user manual (version 2006.01.18)</a>.
+          <a href="https://forest.moscowfsl.wsu.edu/cgi-bin/engr/library/searchpub.pl?pub=2007c" target="_blank">Erosion Risk Management Tool (ERMiT) user manual (version 2006.01.18)</a>.
           Gen. Tech. Rep. RMRS-GTR-188.
           Fort Collins, CO: U.S. Department of Agriculture, 
           Forest Service, Rocky Mountain Research Station. 24 p.</p>
@@ -478,8 +478,8 @@
   </TABLE>
 <!-- IMAGE MAPS -->
   <MAP id=logos>
-   <AREA shape=RECT alt="USDA logo which links to the department's national site." coords=-13,-5,65,45 href="http://www.usda.gov/">
-   <AREA shape=RECT alt="Forest Service logo which links to the agency's national site." coords=68,1,120,48 href="http://www.fs.fed.us/">
+   <AREA shape=RECT alt="USDA logo which links to the department's national site." coords=-13,-5,65,45 href="https://www.usda.gov/">
+   <AREA shape=RECT alt="Forest Service logo which links to the agency's national site." coords=68,1,120,48 href="https://www.fs.fed.us/">
   </MAP>
  </BODY>
     <!-- #EndTemplate -->

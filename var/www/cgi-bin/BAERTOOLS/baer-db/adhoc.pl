@@ -23,7 +23,7 @@ TheProjs::Load();	# Load from file the data we'll be querying.
 print "Content-type: text/html\n\n";
 
 print( '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-						"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">' );
+						"https://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">' );
 
 print( "
 <html>
@@ -101,7 +101,7 @@ sub Query130917 {
 	print( "Query130917.1612.<br />\n" );
 
 	for( ( "2500-8_South Fork_Boise.pdf",
-					"2500-8_Bear’S Oil, Wendover, Pleasant_Clearwater.pdf" ) ) {
+					"2500-8_Bearï¿½S Oil, Wendover, Pleasant_Clearwater.pdf" ) ) {
 		print( $_ . "<br />");
 	}
 }

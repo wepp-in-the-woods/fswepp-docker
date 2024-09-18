@@ -84,7 +84,7 @@ $lon2         =$cgi->param('bndlon2');
        if ($platform eq "") {$platform = "unix"}
      close PLATFORM;
    }
-#     $fume = "http://" . $wepphost . "/cgi-bin/fswepp/wd/fume.pl";#elena
+#     $fume = "https://" . $wepphost . "/cgi-bin/fswepp/wd/fume.pl";#elena
 
 # *******************************
 

@@ -262,7 +262,7 @@ sub PrintHttpResponse {
 	# This print() call is separate so as to use single-quotes around the
 	# double-quotes.  -CMA 2013.11.14.
 	print( '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-						"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">' );
+						"https://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">' );
 
 	print( "<html>\n" );
 	PrintHtmlHead( $raProjs );	# -CMA 2013.11.27.
@@ -281,6 +281,42 @@ sub PrintHttpResponse {
 	" );
 }	# Bwd::PrintHttpResponse.  -CMA 2013.07.25.
 
+
+# Function to validate date in YYYY-MM-DD format
+sub is_valid_date {
+    my ($date) = @_;
+    return 0 unless defined $date;
+
+    # Check basic format YYYY-MM-DD
+    if ($date =~ /^(\d{4})-(\d{2})-(\d{2})$/) {
+        my ($year, $month, $day) = ($1, $2, $3);
+
+        # Check if the date components are valid
+        eval {
+            require Time::Local;
+            Time::Local::timelocal(0, 0, 0, $day, $month - 1, $year);
+        };
+        if ($@) {
+            return 0;  # Invalid date
+        }
+        return 1;  # Valid date
+    }
+    return 0;  # Does not match format
+}
+
+# Function to escape JavaScript strings
+sub js_string_escape {
+    my ($str) = @_;
+    return '' unless defined $str;
+    $str =~ s/\\/\\\\/g;  # Escape backslashes
+    $str =~ s/'/\\'/g;    # Escape single quotes
+    $str =~ s/"/\\"/g;    # Escape double quotes
+    $str =~ s/\n/\\n/g;   # Escape newlines
+    $str =~ s/\r/\\r/g;   # Escape carriage returns
+    $str =~ s/\t/\\t/g;   # Escape tabs
+    return $str;
+}
+
 ###############################################################################
 # SUB:  Bwd::PrintLocationsSelectDiv.
 
@@ -290,6 +326,64 @@ sub PrintHttpResponse {
 # regions).
 sub PrintLocationsSelectDiv {
 	my $rPageState = TheBwdPageState::GetC();
+	
+	# Indices for 'dN' and 'dW' in $rPageState
+    my %param_indices = (
+        'dN' => 15,
+        'dW' => 18,
+    );
+
+    # Validate 'dN' and 'dW' parameters
+    foreach my $param_name (keys %param_indices) {
+        my $idx = $param_indices{$param_name};
+        my $param = $rPageState->[$idx];
+        
+        if (ref($param) eq 'ARRAY') {
+            # If it's an array, validate each element
+            my @valid_values = grep { defined($_) && /^[-+]?\d+(\.\d+)?$/ } @$param;
+            if (@valid_values) {
+                $rPageState->[$idx] = $valid_values[0]; # Keep the first valid value
+            } else {
+                $rPageState->[$idx] = '';
+            }
+        } else {
+            # It's a scalar
+            if (!defined($param) || $param !~ /^[-+]?\d+(\.\d+)?$/) {
+                $rPageState->[$idx] = '';
+            }
+        }
+    }
+
+
+    # Indices for parameters in $rPageState
+    my %param_indices = (
+        'start_date' => 2,
+        'end_date'   => 3,
+    );
+
+    # Validate 'start_date' and 'end_date' parameters
+    foreach my $param_name (keys %param_indices) {
+        my $idx = $param_indices{$param_name};
+        my $param = $rPageState->[$idx];
+
+        if (ref($param) eq 'ARRAY') {
+            # If it's an array, validate each element
+            my @valid_values = grep {
+                defined($_) && is_valid_date($_)
+            } @$param;
+            if (@valid_values) {
+                $rPageState->[$idx] = $valid_values[0];  # Keep the first valid value
+            } else {
+                $rPageState->[$idx] = '';
+            }
+        } else {
+            # It's a scalar
+            if (!defined($param) || !is_valid_date($param)) {
+                $rPageState->[$idx] = '';
+            }
+        }
+    }
+
 
 	# Create relink URLs which, when the user selects a different location type, 
 	# will reget the page with that location type active.  The location-type
@@ -302,14 +396,17 @@ sub PrintLocationsSelectDiv {
 	BwdPageState::SetLocType( $rLocTypePageState, "forest" );
 
 	my $ForestUrl = BwdQuery::GetRelinkUrl( $rLocTypePageState );
+	$ForestUrl = js_string_escape($ForestUrl);
 
 	BwdPageState::SetLocType( $rLocTypePageState, "state" );
 
 	my $StateUrl = BwdQuery::GetRelinkUrl( $rLocTypePageState );
+	$StateUrl = js_string_escape($StateUrl);
 
 	BwdPageState::SetLocType( $rLocTypePageState, "rgn" );
 
 	my $RgnUrl   = BwdQuery::GetRelinkUrl( $rLocTypePageState );
+	$RgnUrl = js_string_escape($RgnUrl);
 
 	# Create selected attributes which will preselect the currently active
 	# location type in the location-type dropdown.

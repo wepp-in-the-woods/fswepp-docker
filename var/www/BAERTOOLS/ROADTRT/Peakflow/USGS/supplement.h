@@ -1,8 +1,8 @@
-<HTML xmlns="http://www.w3.org/1999/xhtml">
+<HTML xmlns="https://www.w3.org/1999/xhtml">
  <!-- #BeginTemplate "/Templates/index.dwt" -->
  <HEAD>
-  <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
-  <!-- saved from url=(0046)http://forest.moscowfsl.wsu.edu/BAERTOOLS/VAR/ --><!-- #BeginTemplate "/Templates/home_deh.dwt" --><HEAD>
+  <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "https://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+  <!-- saved from url=(0046)https://forest.moscowfsl.wsu.edu/BAERTOOLS/VAR/ --><!-- #BeginTemplate "/Templates/home_deh.dwt" --><HEAD>
   <!-- #BeginEditable "doctitle" --> 
   <TITLE>RMRS - BAER Road Treatment Tools - USGS Regression Methods Supplement</TITLE>
 <!-- #EndEditable -->
@@ -48,28 +48,28 @@
    <TR>
     <TD id=glob-nav-left width=229 colSpan=2>
      <A id=top name=top></A>
-     <A class=hidden tabIndex=1 href="http://forest.moscowfsl.wsu.edu/BAERTOOLS/VAR/#content">[Jump to the main content of this page]</A>
+     <A class=hidden tabIndex=1 href="https://forest.moscowfsl.wsu.edu/BAERTOOLS/VAR/#content">[Jump to the main content of this page]</A>
      <BR>
-     <A tabIndex=2 href="http://www.fs.fed.us/">
+     <A tabIndex=2 href="https://www.fs.fed.us/">
       <IMG height=29 alt="USDA Forest Service" src="/local_resources/images/logos/usda-fs-text.gif" width=143 border=0></A>
      </TD>
     <TD id=glob-nav-right align=right width="100%">
       <FORM title="[Form]: Drop-down navigation for the USDA Forest Service." 
-      action=http://www.fs.fed.us/cgi-bin/fsnavigator.cgi method=post><LABEL for=globalnav>&nbsp;</LABEL> 
+      action=https://www.fs.fed.us/cgi-bin/fsnavigator.cgi method=post><LABEL for=globalnav>&nbsp;</LABEL> 
       <DIV class=align-right><SELECT id=globalnav tabIndex=3 name=fsnavigator> 
         <OPTION value=# selected>Forest Service National Links</OPTION>
-        <OPTION value=http://www.fs.fed.us>Forest Service Home</OPTION>
-        <OPTION value=http://www.fs.fed.us/fsjobs/forestservice/index.html>Employment</OPTION> 
-        <OPTION value=http://www.fs.fed.us/fire/>Fire and Aviation</OPTION> 
-        <OPTION value=http://www.fs.fed.us/global/>International Forestry</OPTION>
-        <OPTION value=http://www.fs.fed.us/kids/>Just for Kids</OPTION>
-        <OPTION value=http://www.fs.fed.us/maps/>Maps and Brochures</OPTION>
-        <OPTION value=http://www.fs.fed.us/passespermits/>Passes and Permits</OPTION> 
-        <OPTION value=http://www.fs.fed.us/photovideo/>Photo and Video Gallery</OPTION>
-        <OPTION value=http://www.fs.fed.us/publications/>Publications</OPTION>
-        <OPTION value=http://www.fs.fed.us/recreation/>Recreational Activities</OPTION> 
-        <OPTION value=http://www.fs.fed.us/research/>Research and Development</OPTION>
-        <OPTION value=http://www.fs.fed.us/spf/>State and Private Forestry</OPTION>
+        <OPTION value=https://www.fs.fed.us>Forest Service Home</OPTION>
+        <OPTION value=https://www.fs.fed.us/fsjobs/forestservice/index.html>Employment</OPTION> 
+        <OPTION value=https://www.fs.fed.us/fire/>Fire and Aviation</OPTION> 
+        <OPTION value=https://www.fs.fed.us/global/>International Forestry</OPTION>
+        <OPTION value=https://www.fs.fed.us/kids/>Just for Kids</OPTION>
+        <OPTION value=https://www.fs.fed.us/maps/>Maps and Brochures</OPTION>
+        <OPTION value=https://www.fs.fed.us/passespermits/>Passes and Permits</OPTION> 
+        <OPTION value=https://www.fs.fed.us/photovideo/>Photo and Video Gallery</OPTION>
+        <OPTION value=https://www.fs.fed.us/publications/>Publications</OPTION>
+        <OPTION value=https://www.fs.fed.us/recreation/>Recreational Activities</OPTION> 
+        <OPTION value=https://www.fs.fed.us/research/>Research and Development</OPTION>
+        <OPTION value=https://www.fs.fed.us/spf/>State and Private Forestry</OPTION>
        </SELECT> &nbsp;
        <INPUT class=button tabIndex=4 type=submit value=Go! name=button> 
       </DIV>
@@ -106,7 +106,7 @@
     <TD id=search-table-left-cell width=189><IMG height=14 alt="" 
       src="/local_resources/images/slices/search-head.gif" width=189> 
       <FORM id=search_form title="[Form]: Google search of Moscow FSL site." 
-      action=http://www.google.com/search method=get>
+      action=https://www.google.com/search method=get>
       <DIV><INPUT type=hidden value=forest.moscowfsl.wsu.edu name=as_sitesearch> 
       <LABEL for=search_field>&nbsp;</LABEL>
       <INPUT id=search_field 
@@ -140,7 +140,7 @@
        <TBODY>
         <TR bgColor=#ded794>
          <TD width=21><IMG height=16 alt="" src="/local_resources/images/bullets/active-link.gif" width=21></TD>
-         <TD width=168><A class=main-nav-current tabIndex=8 href="http://forest.moscowfsl.wsu.edu/">Moscow FSL Home Page</A></TD>
+         <TD width=168><A class=main-nav-current tabIndex=8 href="https://forest.moscowfsl.wsu.edu/">Moscow FSL Home Page</A></TD>
         </TR><!-- AT THE LAB -->
         <TR class=p-link-not-active-tr>
          <TD><IMG height=16 alt="" src="/local_resources/images/bullets/not-active-link.gif" width=21></TD>
@@ -190,11 +190,11 @@
        <TBODY>
         <TR>
          <TD colSpan=2 height=20><IMG height=10 alt="" src="/local_resources/images/bullets/local-link.gif" width=21></TD>
-         <TD height=20><A class=main-nav-current href="http://www.fs.fed.us/rm/">Rocky Mountain Research Station</A></TD>
+         <TD height=20><A class=main-nav-current href="https://www.fs.fed.us/rm/">Rocky Mountain Research Station</A></TD>
         </TR>
         <TR>
          <TD colSpan=2 height=20><IMG height=10 alt="" src="/local_resources/images/bullets/local-link.gif" width=21></TD>
-         <TD height=20><A class=main-nav-current href="http://www.fs.fed.us/research/">Forest Service Research</A></TD>
+         <TD height=20><A class=main-nav-current href="https://www.fs.fed.us/research/">Forest Service Research</A></TD>
         </TR>
         <TR>
          <TD colSpan=3 height=20>
@@ -252,7 +252,7 @@
          <TD>&nbsp;</TD>
          <TD height=20><IMG height=10 alt="" src="/local_resources/images/bullets/local-link.gif" width=21></TD>
          <TD height=20>
-          <A class=main-nav-current href="http://www.srs.fs.usda.gov/customer/commentcard_rmrs.htm">Evaluate Our Service</A>
+          <A class=main-nav-current href="https://www.srs.fs.usda.gov/customer/commentcard_rmrs.htm">Evaluate Our Service</A>
          </TD>
         </TR>
        </TBODY>
@@ -288,10 +288,10 @@
          </P>
          <MAP id=logos name=logos><AREA title="USDA Link" 
           shape=RECT alt="USDA Link" coords=0,1,66,48 
-          href="http://www.usda.gov/">
+          href="https://www.usda.gov/">
           <AREA title="Forest Service Link" 
           shape=RECT alt="Forest Service Link" coords=69,2,135,57 
-          href="http://www.fs.fed.us/">
+          href="https://www.fs.fed.us/">
          </MAP>
         </TD>
        </TR>
@@ -313,7 +313,7 @@
       <!-- ***************************************************************************************** -->
 
       <a name="Details"></a>
-      <A href="http://forest.moscowfsl.wsu.edu/BAERTOOLS/">BAER Tools</A> -&gt;
+      <A href="https://forest.moscowfsl.wsu.edu/BAERTOOLS/">BAER Tools</A> -&gt;
       <a href="../../">Post-Fire Road Treatment Tools</a> -&gt;
       <a href="../">Post-Fire Peak Flow and Erosion Estimation</a> -&gt;
       <a href="./">USGS Regression Methods</a> -&gt;
@@ -333,9 +333,9 @@
       <p>&nbsp;</p>
       <p><a name="USGSPub"></a><b>USGS Publications</b></p>
       <p>USGS regression equation methods have been incorporated into
-        <a href="http://water.usgs.gov/osw/streamstats/" target="_blank">StreamStats</a>, 
+        <a href="https://water.usgs.gov/osw/streamstats/" target="_blank">StreamStats</a>, 
         which is a web-based tool to obtain streamflow information. StreamStats 
-        are <a href="http://water.usgs.gov/osw/streamstats/ssonline.html" target="_blank">available 
+        are <a href="https://water.usgs.gov/osw/streamstats/ssonline.html" target="_blank">available 
         for many states</a>, and are being implemented for the others. Users can 
         find and use adequate USGS regression equations from USGS publications 
         if the area of interests are within the states where StreamStats is not 
@@ -356,7 +356,7 @@
         <td width="100"><div align="center">Nationwide</div></td>
         <td width="50">&nbsp;</td>
         <td width="225">
-         <a href="http://pubs.er.usgs.gov/usgspubs/wri/wri944002" target="_blank">Jennings and others (1994)</a>
+         <a href="https://pubs.er.usgs.gov/usgspubs/wri/wri944002" target="_blank">Jennings and others (1994)</a>
         </td>
         <td width="225">&nbsp;</td>
        </tr>
@@ -364,7 +364,7 @@
         <td width="100" bgcolor="#CCCCCC"><div align="center">Western U.S.</div></td>
         <td width="50" bgcolor="#CCCCCC">&nbsp;</td>
         <td width="225" bgcolor="#CCCCCC">
-         <a href="http://pubs.er.usgs.gov/usgspubs/wsp/wsp2433" target="_blank">Thomas and others (1997)</a>
+         <a href="https://pubs.er.usgs.gov/usgspubs/wsp/wsp2433" target="_blank">Thomas and others (1997)</a>
         </td>
         <td width="225" bgcolor="#CCCCCC">&nbsp;</td>
        </tr>
@@ -372,27 +372,27 @@
         <td width="100"><div align="center">AZ</div></td>
         <td width="50">&nbsp;</td>
         <td width="225">
-         <a href="http://pubs.er.usgs.gov/usgspubs/wri/wri844142" target="_blank">Eychaner (1984)</a>
+         <a href="https://pubs.er.usgs.gov/usgspubs/wri/wri844142" target="_blank">Eychaner (1984)</a>
         </td>
         <td width="225">
-         <a href="http://www.wrh.noaa.gov/wrh/05TAs/ta0501.pdf" target="_blank">Schaffner and Reed (2005)</a>
-        </td>
-       </tr>
-       <tr> 
-        <td width="100"><div align="center"></div></td>
-        <td width="50">&nbsp;</td>
-        <td width="225">
-         <a href="http://pubs.usgs.gov/fs/fs-111-98/" target="_blank">Mason and others (1999a)</a>
-        </td>
-        <td width="225">
-         <a href="http://www.wrh.noaa.gov/wrh/techMemos/TM-279.pdf" target="_blank">Reed and Schaffner (2007)</a>
+         <a href="https://www.wrh.noaa.gov/wrh/05TAs/ta0501.pdf" target="_blank">Schaffner and Reed (2005)</a>
         </td>
        </tr>
        <tr> 
         <td width="100"><div align="center"></div></td>
         <td width="50">&nbsp;</td>
         <td width="225">
-         <a href="http://www.wrh.noaa.gov/wrh/techMemos/TM-279.pdf" target="_blank">Reed and Schaffner (2007)</a>
+         <a href="https://pubs.usgs.gov/fs/fs-111-98/" target="_blank">Mason and others (1999a)</a>
+        </td>
+        <td width="225">
+         <a href="https://www.wrh.noaa.gov/wrh/techMemos/TM-279.pdf" target="_blank">Reed and Schaffner (2007)</a>
+        </td>
+       </tr>
+       <tr> 
+        <td width="100"><div align="center"></div></td>
+        <td width="50">&nbsp;</td>
+        <td width="225">
+         <a href="https://www.wrh.noaa.gov/wrh/techMemos/TM-279.pdf" target="_blank">Reed and Schaffner (2007)</a>
         </td>
         <td width="225">&nbsp;</td>
        </tr>
@@ -400,7 +400,7 @@
         <td width="100" bgcolor="#CCCCCC"><div align="center">CA</div></td>
         <td width="50" bgcolor="#CCCCCC">&nbsp;</td>
         <td width="225" bgcolor="#CCCCCC">
-         <a href="http://pubs.er.usgs.gov/usgspubs/wri/wri7721" target="_blank">Waananen and Crippen (1977)</a>
+         <a href="https://pubs.er.usgs.gov/usgspubs/wri/wri7721" target="_blank">Waananen and Crippen (1977)</a>
         </td>
         <td width="225" bgcolor="#CCCCCC">&nbsp;</td>
        </tr>
@@ -408,7 +408,7 @@
         <td width="100" bgcolor="#CCCCCC"><div align="center"></div></td>
         <td width="50" bgcolor="#CCCCCC">&nbsp;</td>
         <td width="225" bgcolor="#CCCCCC">
-         <a href="http://pubs.usgs.gov/sir/2004/5068/" target="_blank">Mann and others (2004)</a>
+         <a href="https://pubs.usgs.gov/sir/2004/5068/" target="_blank">Mann and others (2004)</a>
         </td>
         <td width="225" bgcolor="#CCCCCC">&nbsp;</td>
        </tr>
@@ -416,17 +416,17 @@
         <td width="100"><div align="center">CO</div></td>
         <td width="50">&nbsp;</td>
         <td width="225">
-         <a href="http://pubs.er.usgs.gov/usgspubs/wri/wri854086" target="_blank">Kircher and others (1985)</a>
+         <a href="https://pubs.er.usgs.gov/usgspubs/wri/wri854086" target="_blank">Kircher and others (1985)</a>
         </td>
         <td width="225">
-         <a href="http://pubs.er.usgs.gov/usgspubs/wri/wri014122" target="_blank">Moody and Martin (2001)</a>
+         <a href="https://pubs.er.usgs.gov/usgspubs/wri/wri014122" target="_blank">Moody and Martin (2001)</a>
         </td>
        </tr>
        <tr> 
         <td width="100"><div align="center"></div></td>
         <td width="50">&nbsp;</td>
         <td width="225">
-         <a href="http://pubs.usgs.gov/wri/wri99-4190/" target="_blank">Vaill (2000)</a>
+         <a href="https://pubs.usgs.gov/wri/wri99-4190/" target="_blank">Vaill (2000)</a>
         </td>
         <td width="225">&nbsp;</td>
        </tr>
@@ -434,7 +434,7 @@
         <td width="100"><div align="center">ID</div></td>
         <td width="50">&nbsp;</td>
         <td width="225">
-         <a href="http://pubs.er.usgs.gov/usgspubs/ofr/ofr81909" target="_blank">Kjelstrom and Moffatt (1981)</a>
+         <a href="https://pubs.er.usgs.gov/usgspubs/ofr/ofr81909" target="_blank">Kjelstrom and Moffatt (1981)</a>
         </td>
         <td width="225">&nbsp;</td>
        </tr>
@@ -442,7 +442,7 @@
         <td width="100"><div align="center"></div></td>
         <td width="50">&nbsp;</td>
         <td width="225">
-         <a href="http://id.water.usgs.gov/PDF/wri024170/" target="_blank">Berenbrock (2002)</a>
+         <a href="https://id.water.usgs.gov/PDF/wri024170/" target="_blank">Berenbrock (2002)</a>
         </td>
         <td width="225">&nbsp;</td>
        </tr>
@@ -450,17 +450,17 @@
         <td width="100"><div align="center">MT</div></td>
         <td width="50">&nbsp;</td>
         <td width="225">
-         <a href="http://pubs.er.usgs.gov/usgspubs/wri/wri924048" target="_blank">Omang (1992)</a>
+         <a href="https://pubs.er.usgs.gov/usgspubs/wri/wri924048" target="_blank">Omang (1992)</a>
         </td>
         <td width="225">
-         <a href="http://pubs.usgs.gov/wri/wri03-4319/" target="_blank">Parrett and others (2004</a>)
+         <a href="https://pubs.usgs.gov/wri/wri03-4319/" target="_blank">Parrett and others (2004</a>)
         </td>
        </tr>
        <tr> 
         <td width="100"><div align="center"></div></td>
         <td width="50">&nbsp;</td>
         <td width="225">
-         <a href="http://pubs.usgs.gov/sir/2004/5263/" target="_blank">Lawlor (2004)</a>
+         <a href="https://pubs.usgs.gov/sir/2004/5263/" target="_blank">Lawlor (2004)</a>
         </td>
         <td width="225">&nbsp;</td>
        </tr>
@@ -468,7 +468,7 @@
         <td width="100"><div align="center"></div></td>
         <td width="50">&nbsp;</td>
         <td width="225">
-         <a href="http://pubs.usgs.gov/wri/wri03-4308/" target="_blank">Parrett and Johnson (2004</a>)
+         <a href="https://pubs.usgs.gov/wri/wri03-4308/" target="_blank">Parrett and Johnson (2004</a>)
         </td>
         <td width="225">&nbsp;</td>
        </tr>
@@ -476,7 +476,7 @@
         <td width="100"><div align="center">NM</div></td>
         <td width="50">&nbsp;</td>
         <td width="225">
-         <a href="http://pubs.er.usgs.gov/usgspubs/wri/wri964112" target="_blank">Waltemeyer (1996)</a>
+         <a href="https://pubs.er.usgs.gov/usgspubs/wri/wri964112" target="_blank">Waltemeyer (1996)</a>
         </td>
         <td width="225">&nbsp;</td>
        </tr>
@@ -484,7 +484,7 @@
         <td width="100"><div align="center"></div></td>
         <td width="50">&nbsp;</td>
         <td width="225">
-         <a href="http://pubs.usgs.gov/fs/fs-055-00/" target="_blank">Mason and others (2000)</a>
+         <a href="https://pubs.usgs.gov/fs/fs-055-00/" target="_blank">Mason and others (2000)</a>
         </td>
         <td width="225">&nbsp;</td>
        </tr>
@@ -492,7 +492,7 @@
         <td width="100"><div align="center">NV</div></td>
         <td width="50">&nbsp;</td>
         <td width="225">
-         <a href="http://pubs.usgs.gov/fs/fs-123-98/" target="_blank">USGS (1999)</a>
+         <a href="https://pubs.usgs.gov/fs/fs-123-98/" target="_blank">USGS (1999)</a>
         </td>
         <td width="225">&nbsp;</td>
        </tr>
@@ -500,7 +500,7 @@
         <td width="100"><div align="center">OR</div></td>
         <td width="50">&nbsp;</td>
         <td width="225">
-         <a href="http://pubs.er.usgs.gov/usgspubs/ofr/ofr79553" target="_blank">Harris and others (1979)</a>
+         <a href="https://pubs.er.usgs.gov/usgspubs/ofr/ofr79553" target="_blank">Harris and others (1979)</a>
         </td>
         <td width="225">&nbsp;</td>
        </tr>
@@ -508,7 +508,7 @@
         <td width="100"><div align="center"></div></td>
         <td width="50">&nbsp;</td>
         <td width="225">
-         <a href="http://pubs.er.usgs.gov/usgspubs/wri/wri824078" target="_blank">Harris and Hubbard (1983)</a>
+         <a href="https://pubs.er.usgs.gov/usgspubs/wri/wri824078" target="_blank">Harris and Hubbard (1983)</a>
         </td>
         <td width="225">&nbsp;</td>
        </tr>
@@ -516,7 +516,7 @@
         <td width="100"><div align="center"></div></td>
         <td width="50">&nbsp;</td>
         <td width="225">
-         <a href="http://pubs.usgs.gov/sir/2005/5116/" target="_blank">Cooper (2005)</a>
+         <a href="https://pubs.usgs.gov/sir/2005/5116/" target="_blank">Cooper (2005)</a>
         </td>
         <td width="225">&nbsp;</td>
        </tr>
@@ -524,17 +524,17 @@
         <td width="100"><div align="center">SD</div></td>
         <td width="50">&nbsp;</td>
         <td width="225">
-         <a href="http://pubs.usgs.gov/wri/wri98-4055/" target="_blank">Sando (1998)</a>
+         <a href="https://pubs.usgs.gov/wri/wri98-4055/" target="_blank">Sando (1998)</a>
         </td>
         <td width="225">
-         <a href="http://pubs.usgs.gov/wri/wri034323/" target="_blank">Driscoll and Carter (2003)</a>
+         <a href="https://pubs.usgs.gov/wri/wri034323/" target="_blank">Driscoll and Carter (2003)</a>
         </td>
        </tr>
        <tr bgcolor="#CCCCCC"> 
         <td width="100"><div align="center">UT</div></td>
         <td width="50">&nbsp;</td>
         <td width="225">
-         <a href="http://pubs.usgs.gov/fs/fs-124-98/" target="_blank">Mason and others (1999b)</a>
+         <a href="https://pubs.usgs.gov/fs/fs-124-98/" target="_blank">Mason and others (1999b)</a>
         </td>
         <td width="225">&nbsp;</td>
        </tr>
@@ -542,7 +542,7 @@
         <td width="100"><div align="center"></div></td>
         <td width="50">&nbsp;</td>
         <td width="225">
-         <a href="http://pubs.usgs.gov/sir/2007/5158/" target="_blank">Kenney and others (2007)</a>
+         <a href="https://pubs.usgs.gov/sir/2007/5158/" target="_blank">Kenney and others (2007)</a>
         </td>
         <td width="225">&nbsp;</td>
        </tr>
@@ -550,7 +550,7 @@
         <td width="100"><div align="center">WA</div></td>
         <td width="50">&nbsp;</td>
         <td width="225">
-         <a href="http://wa.water.usgs.gov/pubs/wrir/flood_freq/" target="_blank">Sumioka and others (1998)</a>
+         <a href="https://wa.water.usgs.gov/pubs/wrir/flood_freq/" target="_blank">Sumioka and others (1998)</a>
         </td>
         <td width="225">&nbsp;</td>
        </tr>
@@ -558,7 +558,7 @@
         <td width="100"><div align="center"></div></td>
         <td width="50">&nbsp;</td>
         <td width="225">
-         <a href="http://pubs.usgs.gov/fs/fs-016-01/" target="_blank">Knowles and Sumioka (2001)</a>
+         <a href="https://pubs.usgs.gov/fs/fs-016-01/" target="_blank">Knowles and Sumioka (2001)</a>
         </td>
         <td width="225">&nbsp;</td>
        </tr>
@@ -566,7 +566,7 @@
         <td width="100"><div align="center">WY</div></td>
         <td width="50">&nbsp;</td>
         <td width="225">
-         <a href="http://pubs.usgs.gov/wri/wri034107/" target="_blank">Miller (2003)</a>
+         <a href="https://pubs.usgs.gov/wri/wri034107/" target="_blank">Miller (2003)</a>
         </td>
         <td width="225">&nbsp;</td>
        </tr>
@@ -664,7 +664,7 @@
       <p>REFERENCES</p>
       <blockquote> 
         <p><a name="Parrett2004"></a>Parrett, Charles; Cannon, Susan H.; Pierce, Kenneth L. 2004.
-          <a href="http://pubs.usgs.gov/wri/wri03-4319/">Wildfire-related 
+          <a href="https://pubs.usgs.gov/wri/wri03-4319/">Wildfire-related 
           floods and debris flows in Montana in 2000 and 2001. Water-Resources 
           Investigations Report 03-4319</a>. Denver, CO: U.S. Geological Survey. 
           22&nbsp;p.</p>
@@ -717,8 +717,8 @@
   </TABLE>
 <!-- IMAGE MAPS -->
   <MAP id=logos>
-   <AREA shape=RECT alt="USDA logo which links to the department's national site." coords=-13,-5,65,45 href="http://www.usda.gov/">
-   <AREA shape=RECT alt="Forest Service logo which links to the agency's national site." coords=68,1,120,48 href="http://www.fs.fed.us/">
+   <AREA shape=RECT alt="USDA logo which links to the department's national site." coords=-13,-5,65,45 href="https://www.usda.gov/">
+   <AREA shape=RECT alt="Forest Service logo which links to the agency's national site." coords=68,1,120,48 href="https://www.fs.fed.us/">
   </MAP>
  </BODY>
     <!-- #EndTemplate -->

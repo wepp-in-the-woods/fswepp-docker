@@ -1,9 +1,9 @@
-<HTML xmlns="http://www.w3.org/1999/xhtml">
+<HTML xmlns="https://www.w3.org/1999/xhtml">
  <!-- #BeginTemplate "/Templates/index.dwt" -->
  <HEAD>
 .
-  <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
-  <!-- saved from url=(0046)http://forest.moscowfsl.wsu.edu/BAERTOOLS/VAR/ --><!-- #BeginTemplate "/Templates/home_deh.dwt" --><HEAD>
+  <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "https://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+  <!-- saved from url=(0046)https://forest.moscowfsl.wsu.edu/BAERTOOLS/VAR/ --><!-- #BeginTemplate "/Templates/home_deh.dwt" --><HEAD>
   <!-- #BeginEditable "doctitle" --> 
   <TITLE>RMRS - BAER Road Treatment Tools - Peak Flow</TITLE>
 <!-- #EndEditable -->
@@ -49,28 +49,28 @@
    <TR>
     <TD id=glob-nav-left width=229 colSpan=2>
      <A id=top name=top></A>
-     <A class=hidden tabIndex=1 href="http://forest.moscowfsl.wsu.edu/BAERTOOLS/VAR/#content">[Jump to the main content of this page]</A>
+     <A class=hidden tabIndex=1 href="https://forest.moscowfsl.wsu.edu/BAERTOOLS/VAR/#content">[Jump to the main content of this page]</A>
      <BR>
-     <A tabIndex=2 href="http://www.fs.fed.us/">
+     <A tabIndex=2 href="https://www.fs.fed.us/">
       <IMG height=29 alt="USDA Forest Service" src="/local_resources/images/logos/usda-fs-text.gif" width=143 border=0></A>
      </TD>
     <TD id=glob-nav-right align=right width="100%">
       <FORM title="[Form]: Drop-down navigation for the USDA Forest Service." 
-      action=http://www.fs.fed.us/cgi-bin/fsnavigator.cgi method=post><LABEL for=globalnav>&nbsp;</LABEL> 
+      action=https://www.fs.fed.us/cgi-bin/fsnavigator.cgi method=post><LABEL for=globalnav>&nbsp;</LABEL> 
       <DIV class=align-right><SELECT id=globalnav tabIndex=3 name=fsnavigator> 
         <OPTION value=# selected>Forest Service National Links</OPTION>
-        <OPTION value=http://www.fs.fed.us>Forest Service Home</OPTION>
-        <OPTION value=http://www.fs.fed.us/fsjobs/forestservice/index.html>Employment</OPTION> 
-        <OPTION value=http://www.fs.fed.us/fire/>Fire and Aviation</OPTION> 
-        <OPTION value=http://www.fs.fed.us/global/>International Forestry</OPTION>
-        <OPTION value=http://www.fs.fed.us/kids/>Just for Kids</OPTION>
-        <OPTION value=http://www.fs.fed.us/maps/>Maps and Brochures</OPTION>
-        <OPTION value=http://www.fs.fed.us/passespermits/>Passes and Permits</OPTION> 
-        <OPTION value=http://www.fs.fed.us/photovideo/>Photo and Video Gallery</OPTION>
-        <OPTION value=http://www.fs.fed.us/publications/>Publications</OPTION>
-        <OPTION value=http://www.fs.fed.us/recreation/>Recreational Activities</OPTION> 
-        <OPTION value=http://www.fs.fed.us/research/>Research and Development</OPTION>
-        <OPTION value=http://www.fs.fed.us/spf/>State and Private Forestry</OPTION>
+        <OPTION value=https://www.fs.fed.us>Forest Service Home</OPTION>
+        <OPTION value=https://www.fs.fed.us/fsjobs/forestservice/index.html>Employment</OPTION> 
+        <OPTION value=https://www.fs.fed.us/fire/>Fire and Aviation</OPTION> 
+        <OPTION value=https://www.fs.fed.us/global/>International Forestry</OPTION>
+        <OPTION value=https://www.fs.fed.us/kids/>Just for Kids</OPTION>
+        <OPTION value=https://www.fs.fed.us/maps/>Maps and Brochures</OPTION>
+        <OPTION value=https://www.fs.fed.us/passespermits/>Passes and Permits</OPTION> 
+        <OPTION value=https://www.fs.fed.us/photovideo/>Photo and Video Gallery</OPTION>
+        <OPTION value=https://www.fs.fed.us/publications/>Publications</OPTION>
+        <OPTION value=https://www.fs.fed.us/recreation/>Recreational Activities</OPTION> 
+        <OPTION value=https://www.fs.fed.us/research/>Research and Development</OPTION>
+        <OPTION value=https://www.fs.fed.us/spf/>State and Private Forestry</OPTION>
        </SELECT> &nbsp;
        <INPUT class=button tabIndex=4 type=submit value=Go! name=button> 
       </DIV>
@@ -107,7 +107,7 @@
     <TD id=search-table-left-cell width=189><IMG height=14 alt="" 
       src="/local_resources/images/slices/search-head.gif" width=189> 
       <FORM id=search_form title="[Form]: Google search of Moscow FSL site." 
-      action=http://www.google.com/search method=get>
+      action=https://www.google.com/search method=get>
       <DIV><INPUT type=hidden value=forest.moscowfsl.wsu.edu name=as_sitesearch> 
       <LABEL for=search_field>&nbsp;</LABEL>
       <INPUT id=search_field 
@@ -141,7 +141,7 @@
        <TBODY>
         <TR bgColor=#ded794>
          <TD width=21><IMG height=16 alt="" src="/local_resources/images/bullets/active-link.gif" width=21></TD>
-         <TD width=168><A class=main-nav-current tabIndex=8 href="http://forest.moscowfsl.wsu.edu/">Moscow FSL Home Page</A></TD>
+         <TD width=168><A class=main-nav-current tabIndex=8 href="https://forest.moscowfsl.wsu.edu/">Moscow FSL Home Page</A></TD>
         </TR><!-- AT THE LAB -->
         <TR class=p-link-not-active-tr>
          <TD><IMG height=16 alt="" src="/local_resources/images/bullets/not-active-link.gif" width=21></TD>
@@ -191,11 +191,11 @@
        <TBODY>
         <TR>
          <TD colSpan=2 height=20><IMG height=10 alt="" src="/local_resources/images/bullets/local-link.gif" width=21></TD>
-         <TD height=20><A class=main-nav-current href="http://www.fs.fed.us/rm/">Rocky Mountain Research Station</A></TD>
+         <TD height=20><A class=main-nav-current href="https://www.fs.fed.us/rm/">Rocky Mountain Research Station</A></TD>
         </TR>
         <TR>
          <TD colSpan=2 height=20><IMG height=10 alt="" src="/local_resources/images/bullets/local-link.gif" width=21></TD>
-         <TD height=20><A class=main-nav-current href="http://www.fs.fed.us/research/">Forest Service Research</A></TD>
+         <TD height=20><A class=main-nav-current href="https://www.fs.fed.us/research/">Forest Service Research</A></TD>
         </TR>
         <TR>
          <TD colSpan=3 height=20>
@@ -253,7 +253,7 @@
          <TD>&nbsp;</TD>
          <TD height=20><IMG height=10 alt="" src="/local_resources/images/bullets/local-link.gif" width=21></TD>
          <TD height=20>
-          <A class=main-nav-current href="http://www.srs.fs.usda.gov/customer/commentcard_rmrs.htm">Evaluate Our Service</A>
+          <A class=main-nav-current href="https://www.srs.fs.usda.gov/customer/commentcard_rmrs.htm">Evaluate Our Service</A>
          </TD>
         </TR>
        </TBODY>
@@ -289,10 +289,10 @@
          </P>
          <MAP id=logos name=logos><AREA title="USDA Link" 
           shape=RECT alt="USDA Link" coords=0,1,66,48 
-          href="http://www.usda.gov/">
+          href="https://www.usda.gov/">
           <AREA title="Forest Service Link" 
           shape=RECT alt="Forest Service Link" coords=69,2,135,57 
-          href="http://www.fs.fed.us/">
+          href="https://www.fs.fed.us/">
          </MAP>
         </TD>
        </TR>
@@ -313,7 +313,7 @@
       <!-- ***************************************************************************************** -->
       <!-- ***************************************************************************************** -->
 
-      <a href="http://forest.moscowfsl.wsu.edu/BAERTOOLS/">BAER Tools</a> -&gt; 
+      <a href="https://forest.moscowfsl.wsu.edu/BAERTOOLS/">BAER Tools</a> -&gt; 
       <a href="../">Post-Fire Road Treatment Tools</a> -&gt; Post-Fire Peak Flow and Erosion Estimation
       <FONT size=+1><HR></FONT> 
       <p><font size=+1>Post-Fire Peak Flow and Erosion Estimation</font></p>
@@ -395,8 +395,8 @@
   </TABLE>
 <!-- IMAGE MAPS -->
   <MAP id=logos>
-   <AREA shape=RECT alt="USDA logo which links to the department's national site." coords=-13,-5,65,45 href="http://www.usda.gov/">
-   <AREA shape=RECT alt="Forest Service logo which links to the agency's national site." coords=68,1,120,48 href="http://www.fs.fed.us/">
+   <AREA shape=RECT alt="USDA logo which links to the department's national site." coords=-13,-5,65,45 href="https://www.usda.gov/">
+   <AREA shape=RECT alt="Forest Service logo which links to the agency's national site." coords=68,1,120,48 href="https://www.fs.fed.us/">
   </MAP>
  </BODY>
     <!-- #EndTemplate -->

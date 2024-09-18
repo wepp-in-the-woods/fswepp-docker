@@ -88,7 +88,7 @@ $lon2         =$cgi->param('bndlon2');    # "E"
        if ($platform eq "") {$platform = "unix"}
      close PLATFORM;
    }
-#     $fume = "http://" . $wepphost . "/cgi-bin/fswepp/wd/fume.pl";#elena
+#     $fume = "https://" . $wepphost . "/cgi-bin/fswepp/wd/fume.pl";#elena
 
 # *******************************
 
@@ -756,7 +756,7 @@ print '
 </td>
 <td valign=top>
 <iframe width='300' height='300' frameborder='0' scrolling='no' marginheight='0' marginwidth='0'
-src='http://maps.google.com/maps?f=q
+src='https://maps.google.com/maps?f=q
 &amp;source=
 &amp;t=p
 &amp;doflg=ptk
@@ -1460,7 +1460,7 @@ print '
         Hall, David E.; Robichaud, Peter R.; Miller, Mary Ellen; Xiangyang Fu.
         2010.
         <b>RavelRAT-CA Ver. <a href="javascript:popuphistory()">',$version,'</a>.</b>
-        [Online at &lt;http://forest.moscowfsl.wsu.edu/BAERTOOLS/ravel/ravelrat-ca.html&gt;.]
+        [Online at &lt;https://forest.moscowfsl.wsu.edu/BAERTOOLS/ravel/ravelrat-ca.html&gt;.]
         Moscow, ID: U.S. Department of Agriculture, Forest Service, Rocky Mountain Research Station.
 
  </body>
@@ -1679,12 +1679,12 @@ sub make_history_popup {
 sub isNumber () {
 
 #  I am looking for a function that returns true if a number is tested.
-#  http://forums.devshed.com/perl-programming-6/isnumeric-in-perl-59336.html
+#  https://forums.devshed.com/perl-programming-6/isnumeric-in-perl-59336.html
 #  From the "Programming Perl" book by Wall, Christiansen & Schwartz, published by O'Reilly
 
 # Perl Cookbook
 # 2.1. Checking Whether a String Is a Valid Number
-# http://docstore.mik.ua/orelly/perl/cookbook/ch02_02.htm
+# https://docstore.mik.ua/orelly/perl/cookbook/ch02_02.htm
 
   $tester = @_[0];
 #  print "[isNumber]: $tester\n";

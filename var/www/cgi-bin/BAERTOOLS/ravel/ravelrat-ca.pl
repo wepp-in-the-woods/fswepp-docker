@@ -1826,12 +1826,12 @@ sub make_history_popup {
 sub isNumber () {
 
 #  I am looking for a function that returns true if a number is tested.
-#  http://forums.devshed.com/perl-programming-6/isnumeric-in-perl-59336.html
+#  https://forums.devshed.com/perl-programming-6/isnumeric-in-perl-59336.html
 #  From the "Programming Perl" book by Wall, Christiansen & Schwartz, published by O'Reilly
 
 # Perl Cookbook
 # 2.1. Checking Whether a String Is a Valid Number
-# http://docstore.mik.ua/orelly/perl/cookbook/ch02_02.htm
+# https://docstore.mik.ua/orelly/perl/cookbook/ch02_02.htm
 
   $tester = @_[0];
 #  print "[isNumber]: $tester\n";

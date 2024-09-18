@@ -508,7 +508,10 @@ sub NewFromUrlParams {
 
 	# Tested by Test140201_1340.  -CMA 2014.02.01.
 	$This[ 15 ] = CGI::url_param( "dN" );		# -CMA 2014.01.24.
-
+    if (!defined($This[15]) || $This[15] !~ /^[-+]?\d+(\.\d+)?$/) {
+        $This[15] = '';
+    }
+	
 	# CMA replaced 2014.01.24.
 #	my @c_13_15 = ( "unit", "pp", "dN" );
 #	$This[ $_ ] = CGI::url_param( $c_13_15[ $_ - 13 ] ) for 13..15;
@@ -518,6 +521,10 @@ sub NewFromUrlParams {
 	$This[ 16 ] = [ CGI::url_param( "proj" ) ];
 
 	$This[ 18 ] = CGI::url_param( "dW" );
+	if (!defined($This[18]) || $This[18] !~ /^[-+]?\d+(\.\d+)?$/) {
+      $This[18] = '';
+    }
+
 	return \@This;
 }	# BwdPageState::NewFromUrlParams.  -CMA 2013.08.03.
 
@@ -1354,12 +1361,28 @@ sub Filter { #my( $raProjsParam ) = @_;
 # NOTES:  This sub is provided for efficiency, but is logically const; don't
 # modify the returned object!
 sub GetC {
+	if (!defined($_rState[15]) || $_rState[15] !~ /^[-+]?\d+(\.\d+)?$/) {
+        $_rState[15] = '';
+    }
+
+	if (!defined($_rState[18]) || $_rState[18] !~ /^[-+]?\d+(\.\d+)?$/) {
+        $_rState[18] = '';
+    }
+	
 	return $_rState;
 }	# TheBwdPageState::GetC.  -CMA 2013.08.05.
 
 ###############################################################################
 # SUB:  TheBwdPageState::GetCopy.
 sub GetCopy {
+	if (!defined($_rState[15]) || $_rState[15] !~ /^[-+]?\d+(\.\d+)?$/) {
+        $_rState[15] = '';
+    }
+	
+	if (!defined($_rState[18]) || $_rState[18] !~ /^[-+]?\d+(\.\d+)?$/) {
+        $_rState[18] = '';
+    }
+	
 	return BwdPageState::Copy( $_rState );
 }	# TheBwdPageState::GetCopy.  -CMA 2013.08.04.
 

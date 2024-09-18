@@ -71,7 +71,7 @@ $DEMfile             =$cgi->upload('uploadFileName');
        if ($platform eq "") {$platform = "unix"}
      close PLATFORM;
    }
-#     $fume = "http://" . $wepphost . "/cgi-bin/fswepp/wd/fume.pl";#elena
+#     $fume = "https://" . $wepphost . "/cgi-bin/fswepp/wd/fume.pl";#elena
 
 # *******************************
 
@@ -295,7 +295,7 @@ print "  <h4>$description</h4>
 # When called with the name of an upload field, upload() returns a filehandle-like object,
 # or undef if the parameter is not a valid filehandle.
 #     $fh = upload('uploaded_file');
-# http://perldoc.perl.org/CGI.html#CREATING-A-FILE-UPLOAD-FIELD
+# https://perldoc.perl.org/CGI.html#CREATING-A-FILE-UPLOAD-FIELD
 
 #   $DEM = upload('uploadFileName');
 
@@ -308,7 +308,7 @@ print "  <h4>$description</h4>
 # to the string "400 Bad request (malformed multipart POST)".
 # This error message is designed so that you can incorporate it into a status code to be sent to the browser.
 # Example:
-# http://perldoc.perl.org/CGI.html#CREATING-A-FILE-UPLOAD-FIELD
+# https://perldoc.perl.org/CGI.html#CREATING-A-FILE-UPLOAD-FIELD
 
 	   if (!$DEMfile && cgi_error) {
 	      print header(-status=>cgi_error);
@@ -320,7 +320,7 @@ print "  <h4>$description</h4>
 # Future browsers may send other information as well (such as modification date and size).
 # To retrieve this information, call uploadInfo().
 # It returns a reference to a hash containing all the document headers.
-# http://perldoc.perl.org/CGI.html#CREATING-A-FILE-UPLOAD-FIELD
+# https://perldoc.perl.org/CGI.html#CREATING-A-FILE-UPLOAD-FIELD
 
 #	       $filename = param('uploaded_file');
 #	       $type = uploadInfo($filename)->{'Content-Type'};

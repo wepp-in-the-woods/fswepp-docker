@@ -2,8 +2,8 @@
 
 	# ------- The graph values in the form of associative array
 
-# http://forest.moscowfsl.wsu.edu/BAERTOOLS/ravel/DEMdepGraphXY.php?x=12&file=ravel-2265
-# http://forest.moscowfsl.wsu.edu/BAERTOOLS/ravel/DEMdepGraphXY.php?y=12&file=ravel-2265
+# https://forest.moscowfsl.wsu.edu/BAERTOOLS/ravel/DEMdepGraphXY.php?x=12&file=ravel-2265
+# https://forest.moscowfsl.wsu.edu/BAERTOOLS/ravel/DEMdepGraphXY.php?y=12&file=ravel-2265
 
 # get filename to read
 # get or determine data type
@@ -12,7 +12,7 @@
 
 $str = $_SERVER['QUERY_STRING'];
 
-# http://www.php.net/manual/en/function.parse-str.php
+# https://www.php.net/manual/en/function.parse-str.php
 
 # $str = "file=9955&x=0&y=25";
 

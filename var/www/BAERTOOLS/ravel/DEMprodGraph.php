@@ -9,7 +9,7 @@
 
 $str = $_SERVER['QUERY_STRING'];
 
-# http://www.php.net/manual/en/function.parse-str.php
+# https://www.php.net/manual/en/function.parse-str.php
 
 # $str = "file=9955&x=0&y=25";
 
