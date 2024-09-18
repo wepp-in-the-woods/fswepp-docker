@@ -4,7 +4,7 @@ echo "Content-Type: application/vnd.google-earth.kml+xml\n\n";
 // echo "Content-Type: text/plain\n\n";
 
 echo '<?xml version="1.0" encoding="UTF-8"?>
-<kml xmlns="http://earth.google.com/kml/2.2">
+<kml xmlns="https://earth.google.com/kml/2.2">
 <Document>
 	<name>ERMiT climate locations</name>
 	<visibility>0</visibility>
@@ -36,7 +36,7 @@ echo '<?xml version="1.0" encoding="UTF-8"?>
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/red-pushpin.png</href>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/red-pushpin.png</href>
 			</Icon>
 		</IconStyle>
 		<LabelStyle>
@@ -57,7 +57,7 @@ echo '<?xml version="1.0" encoding="UTF-8"?>
 	<Style id="NormalSheet1Map10_copy0">
 		<IconStyle>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
 			</Icon>
 		</IconStyle>
 		<BalloonStyle>
@@ -76,7 +76,7 @@ echo '<?xml version="1.0" encoding="UTF-8"?>
 		<IconStyle>
 			<scale>0.7</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/red-pushpin.png</href>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/red-pushpin.png</href>
 			</Icon>
 		</IconStyle>
 		<LabelStyle>
@@ -107,7 +107,7 @@ echo '<?xml version="1.0" encoding="UTF-8"?>
 	<Style id="NormalSheet1Map10">
 		<IconStyle>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
 			</Icon>
 		</IconStyle>
 		<BalloonStyle>

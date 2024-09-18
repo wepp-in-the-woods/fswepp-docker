@@ -99,7 +99,7 @@ Specific to each error:
  <li>	<b>ERROR 010032</b> (eg., "Step1HydroProcessing DEMs 010032: Unable to create the scratch grid") is a permissions error
         &ndash; the user doesn't have the necessary permissions to write files to the default workspaces that are selected by ArcToolbox.
         There is specific help information on this error at:<br>
-        http://help.arcgis.com/EN/arcgisdesktop/10.0/help/#//00vq0000000n010032.htm
+        https://help.arcgis.com/EN/arcgisdesktop/10.0/help/#//00vq0000000n010032.htm
 </li>
 <li>	<b>ERROR 000303</b> (eg., "Step 2 Stream and Watershed Delineation, 000303: Field FID does not exist") occurs because the default current and scratch workspaces in ArcGIS are set as geodatabases.
         This happens by default when you install ArcGIS.
@@ -122,7 +122,7 @@ Specific to each error:
    <img src="/fswepp/images/herrera.jpg" width=162 height=46>
    <br><br>
    <font size=2>
-    <!-- a href="http://forest.moscowfsl.wsu.edu/fswepp/privacy.html" privacy notice -->
+    <!-- a href="https://forest.moscowfsl.wsu.edu/fswepp/privacy.html" privacy notice -->
    </font>
   </font>
  </body>

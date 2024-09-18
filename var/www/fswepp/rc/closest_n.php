@@ -108,7 +108,7 @@
 <?php
 
 function getDistance($latitudeFrom, $longitudeFrom, $latitudeTo, $longitudeTo, $units) {
-// http://andries.systray.be/blog/2007/07/12/calculating-a-distance-between-2-points-in-php/
+// https://andries.systray.be/blog/2007/07/12/calculating-a-distance-between-2-points-in-php/
 
 // Calculating a distance between 2 points in PHP (in km)
 // 12 Jul, 2007  Others

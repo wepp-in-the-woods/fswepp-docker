@@ -5,10 +5,10 @@
 <SCRIPT LANGUAGE="JavaScript">
 
 <!-- This script and many more are available free online at -->
-<!-- The JavaScript Source!! http://javascript.internet.com -->
+<!-- The JavaScript Source!! https://javascript.internet.com -->
 
 <!-- Begin
-// http://www.kdcgrohl.com
+// https://www.kdcgrohl.com
 
 // Depending on your server set-up,
 // you may need to use the ".shtml"
@@ -43,7 +43,7 @@ document.write("Your IP address is "+ip);
 <!-- Begin
 
 <!-- This script and many more are available free online at -->
-<!-- The JavaScript Source!! http://javascript.internet.com -->
+<!-- The JavaScript Source!! https://javascript.internet.com -->
 
 ip = "" + java.net.InetAddress.getLocalHost().getHostAddress();
 document.write("Your IP address is " + ip);
@@ -56,7 +56,7 @@ VIH_FontPix = "16";
 VIH_DisplayFormat = "You are visiting from:<br>IP Address: %%IP%%<br>Host: %%HOST%%";
 VIH_DisplayOnPage = "yes";
 </script>
-<script language="JavaScript" src="http://scripts.hashemian.com/js/visitorIPHOST.js.php"></script>
+<script language="JavaScript" src="https://scripts.hashemian.com/js/visitorIPHOST.js.php"></script>
 
 <script type="text/javascript">
 var ip = <?echo $_SERVER['REMOTE_ADDR'] ?>;

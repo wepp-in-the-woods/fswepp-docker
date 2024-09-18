@@ -506,7 +506,7 @@ function getCookie(name){
 
       <td align="center" bgcolor="lightgrey">
        <div id="help">
-        <a href="http://wepp.cloud/weppcloud#lt"
+        <a href="https://wepp.cloud/weppcloud#lt"
              onMouseOver="window.status='Run Lake Tahoe WEPP Watershed GIS Interface';return true"
              onMouseOut="window.status='FS WEPP'; return true"> Lake Tahoe WEPP Watershed GIS Interface
          <span>
@@ -516,7 +516,7 @@ function getCookie(name){
        </div>
       </td>
       <td align=center bgcolor="lightgrey">
-       <a href="http://wepp.cloud/weppcloud#lt">
+       <a href="https://wepp.cloud/weppcloud#lt">
        <img src="images/TGISlogo.jpg" height=50 width=50 border=2
            alt="Tahoe GIS"
            onMouseOver="window.status='Run Lake Tahoe WEPP Watershed GIS Interface';return true"
@@ -580,7 +580,7 @@ function getCookie(name){
 <!-- ============================================================== -->
      <tr align=top>
       <td align=center bgcolor="white">
-       <a href="http://rred.mtri.org/rred" target="new">
+       <a href="https://rred.mtri.org/rred" target="new">
         <img src="images/QWEPPlogo.png"
           alt="QWEPP"
           height=50 width=50 border=2
@@ -589,7 +589,7 @@ function getCookie(name){
       </td>
       <td align="center" bgcolor="lightgrey">
        <div id="help">
-        <a href="http://rred.mtri.org/rred" target="new"
+        <a href="https://rred.mtri.org/rred" target="new"
              onMouseOver="window.status='WEPPcloud';return true"
              onMouseOut="window.status='FS WEPP'; return true">QWEPP
          <span>
@@ -701,7 +701,7 @@ function getCookie(name){
       <td><a href="https://www.fs.fed.us/eng/techdev/sdtdc.htm"> <img src="/images/sdtd_l50.gif" height=50 width=87 alt="San Dimas logo" border=0 title="U.S. Forest Service San Dimas Technology and Development Center"></a>
       <td><a href="https://www.firescience.gov">                 <img src="/images/jfsp_l75.gif" width=75 height=102 alt="JFSP logo" border=0 title="U.S. Department of Interior Joint Fire Science Program"></a>
 <!-- a href="https://nifa.usda.gov"                    img src="https://nifa.usda.gov/sites/default/files/resource/Web_usda_nifa_vertical_rgb_72.jpg" title="USDA National Institute of Food and Agriculture" width=100 -->
-      <td><a href="http://www.usace.army.mil">                   <img src="http://trailcrew.org/wp-content/uploads/2014/12/army-corp-of-engineers.jpg" width=100 height=75" border=0 title="Army Corp of Engineers">
+      <td><a href="https://www.usace.army.mil">                   <img src="https://trailcrew.org/wp-content/uploads/2014/12/army-corp-of-engineers.jpg" width=100 height=75" border=0 title="Army Corp of Engineers">
       <td><a href="https://www.ars.usda.gov/mwa/lafayette/nserl"><img src="/images/ars_60.gif" with=60 height=45 alt="ARS logo" border=0 title="WEPP is an interagency model lead by the Agricultural Research Service's National Soil Erosion Research Laboratory"></a>
      </tr>
     </table>

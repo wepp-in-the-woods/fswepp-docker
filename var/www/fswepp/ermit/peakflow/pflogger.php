@@ -17,7 +17,7 @@
   // allow clearing log
 </script>
 
-<?php		// http://forums.digitalpoint.com/showthread.php?t=1028597
+<?php		// https://forums.digitalpoint.com/showthread.php?t=1028597
   // determine IP address
 
   if ($_SERVER['HTTP_X_FORWARD_FOR']) {
@@ -30,7 +30,7 @@
   echo '<h4>Peakflow calculator log file for IP ' . $ip . "</h4>\n\n";
 
   // read arguments Q, P, Q, A, L, Sg, CN, Tc, Fp, notes
-  // http://www.w3schools.com/php/php_post.asp
+  // https://www.w3schools.com/php/php_post.asp
   // The PHP $_REQUEST Variable
   // The predefined $_REQUEST variable contains the contents of both $_GET, $_POST, and $_COOKIE.
   // The $_REQUEST variable can be used to collect form data sent with both the GET and POST methods.
@@ -110,7 +110,7 @@
 //  echo $logfile;
   // open $logfile for read
   if ($myFile = fopen($logfile,"r")) {
-    // read tab-delimited file		http://php.net/manual/en/function.fgetcsv.php
+    // read tab-delimited file		https://php.net/manual/en/function.fgetcsv.php
     // display table
     $row=1;
     echo "\n";
