@@ -3,8 +3,8 @@ require("../../shared_web/resources.php");
 require("../../shared_web/resources_climate.php");
 require($_SERVER["DOCUMENT_ROOT"]."/".$climate_directory."/shared/shared_scripts.php");
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta http-equiv="Content-Language" content="en-us" />
@@ -41,16 +41,16 @@ include($_SERVER["DOCUMENT_ROOT"]."/".$shared_directory."/left_nav.php");
 
 					<h2>Introduction</h2>
 					<p>This document describes how we computed future climates, including references to the General Circulation Models (GCM) and scenarios we used, our naming convention, and the computational details.</p>
-					<p>Our basic approach is to first fit an <a href="http://fennerschool.anu.edu.au/research/software-datasets/anusplin">ANUSPIN</a> surface to 1961 to 1990 climate normals. For the future climate, we updated our climate normal data to reflect changes predicted by GCM outputs. We then refit the ANUSPLIN surfaces to the updated climates. This approach provides climate surfaces for each scenario and time period. Point predictions then can be made from these surfaces. The results can be considered a downscaling of GCM outputs or they can be considered a prediction of future climate.</p>
-					<p>We have three generations of climate surfaces that were developed using about the same procedures. The first delt with the "westUS" extent and was built with the mean of the green house gas scinario of the Canadian and Hadley GCMs; they were used by <a href="http://www.fs.fed.us/rm/pubs_other/rmrs_2006_rehfeldt_g001.pdf">Rehfeldt et al. (2006).</a> The second considers three GCMs and the A and B scenarios (SRES) used in the<a href="http://en.wikipedia.org/wiki/IPCC_Third_Assessment_Report"> third IPCC assessment</a>. The third is based on GCM model runs used to support the fifth assessment: <a href="http://cmip-pcmdi.llnl.gov/cmip5/">IPCC/CMIP5 AR5</a>. These models were run for various<a href="http://sedac.ciesin.columbia.edu/ddc/ar5_scenario_process/RCPs.html"> Representative Concentration Pathways (RCP)</a>; we looked at rcp4.5, rcp6.0, and rcp8.5.</p>
+					<p>Our basic approach is to first fit an <a href="https://fennerschool.anu.edu.au/research/software-datasets/anusplin">ANUSPIN</a> surface to 1961 to 1990 climate normals. For the future climate, we updated our climate normal data to reflect changes predicted by GCM outputs. We then refit the ANUSPLIN surfaces to the updated climates. This approach provides climate surfaces for each scenario and time period. Point predictions then can be made from these surfaces. The results can be considered a downscaling of GCM outputs or they can be considered a prediction of future climate.</p>
+					<p>We have three generations of climate surfaces that were developed using about the same procedures. The first delt with the "westUS" extent and was built with the mean of the green house gas scinario of the Canadian and Hadley GCMs; they were used by <a href="https://www.fs.fed.us/rm/pubs_other/rmrs_2006_rehfeldt_g001.pdf">Rehfeldt et al. (2006).</a> The second considers three GCMs and the A and B scenarios (SRES) used in the<a href="https://en.wikipedia.org/wiki/IPCC_Third_Assessment_Report"> third IPCC assessment</a>. The third is based on GCM model runs used to support the fifth assessment: <a href="https://cmip-pcmdi.llnl.gov/cmip5/">IPCC/CMIP5 AR5</a>. These models were run for various<a href="https://sedac.ciesin.columbia.edu/ddc/ar5_scenario_process/RCPs.html"> Representative Concentration Pathways (RCP)</a>; we looked at rcp4.5, rcp6.0, and rcp8.5.</p>
 					<p>Please note that we are grateful for the use of the data from the climate model centers. Their work made our work possible. Also, note that while we use the center and scenario names in our naming conventions, the files available from this site are not the GCM outputs from the respective centers. They are data we derived from their data and other data using the methods described below, under "Processing steps".</p>
 
 					<h2>GCMs, scenarios, and data files used for our second generation surfaces (based on AR3/SRES):</h2>
 					<ol>
-						<li><a href="http://www.cccma.ec.gc.ca/models/cgcm3.shtml">CGCM3 from the Canadian Center for Climate Modeling and Analysis</a> <br /><br />
+						<li><a href="https://www.cccma.ec.gc.ca/models/cgcm3.shtml">CGCM3 from the Canadian Center for Climate Modeling and Analysis</a> <br /><br />
 							This model is run at two resolutions, we used the T63 version with a 2.8 degrees resolution (in the first generation work, the T47 version was used). We used three scenarios, <strong>sresA1B</strong>, <strong>sresA2</strong>, and <strong>sresB1</strong>, by processing the following data sets:
 							<ul>
-								<li><h3>For the climate normal we used <a href="http://www.cccma.ec.gc.ca/data/cgcm3/cgcm3_t63_20c3m.shtml">20C3M</a>:</h3>
+								<li><h3>For the climate normal we used <a href="https://www.cccma.ec.gc.ca/data/cgcm3/cgcm3_t63_20c3m.shtml">20C3M</a>:</h3>
 									<ul>
 										<li>pr_a2_20c3m_1_cgcm3.1_t63_1961_2000.nc</li>
 										<li>tas_a2_20c3m_1_cgcm3.1_t63_1961_2000.nc</li>
@@ -58,7 +58,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/".$shared_directory."/left_nav.php");
 										<li>tasmin_a2_20c3m_1_cgcm3.1_t63_1961_2000.nc</li>
 									</ul>
 								</li>
-								<li><h3>For scenario <a href="http://www.cccma.ec.gc.ca/data/cgcm3/cgcm3_t63_sresa1b.shtml">sresA1B</a> we used:</h3>
+								<li><h3>For scenario <a href="https://www.cccma.ec.gc.ca/data/cgcm3/cgcm3_t63_sresa1b.shtml">sresA1B</a> we used:</h3>
 									<ul>
 										<li>pr_a1_sresa1b_1_cgcm3[1].1_t63_2001_2100.nc</li>
 										<li>tas_a1_sresa1b_1_cgcm3[1].1_t63_2001_2100.nc</li>
@@ -68,7 +68,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/".$shared_directory."/left_nav.php");
 										<li>tasmin_a2_sresa1b_1_cgcm3[1].1_t63_2051_2100.nc</li>
 									</ul>
 								</li>
-								<li><h3>For scenario <a href="http://www.cccma.ec.gc.ca/data/cgcm3/cgcm3_t63_sresa2.shtml">sresA2</a> we used:</h3>
+								<li><h3>For scenario <a href="https://www.cccma.ec.gc.ca/data/cgcm3/cgcm3_t63_sresa2.shtml">sresA2</a> we used:</h3>
 									<ul>
 										<li>pr_a1_sresa2_1_cgcm3[1].1_t63_2001_2100.nc</li>
 										<li>tas_a1_sresa2_1_cgcm3[1].1_t63_2001_2100.nc</li>
@@ -78,7 +78,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/".$shared_directory."/left_nav.php");
 										<li>tasmin_a2_sresa2_1_cgcm3[1].1_t63_2051_2100.nc</li>
 									</ul>
 								</li>
-								<li><h3>For scenario <a href="http://www.cccma.ec.gc.ca/data/cgcm3/cgcm3_t63_sresb1.shtml">sresB1</a> we used:</h3>
+								<li><h3>For scenario <a href="https://www.cccma.ec.gc.ca/data/cgcm3/cgcm3_t63_sresb1.shtml">sresB1</a> we used:</h3>
 									<ul>
 										<li>pr_a1_sresb1_1_cgcm3.1_t63_2001_2100.nc</li>
 										<li>tas_a1_sresb1_1_cgcm3.1_t63_2001_2100.nc</li>
@@ -90,7 +90,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/".$shared_directory."/left_nav.php");
 								</li>
 							</ul>
 						</li>
-						<li><a href="http://www.metoffice.gov.uk/research/hadleycentre/">HadCM3 is from the Hadley Center</a>; we got the data we used from the <a href="http://cera-www.dkrz.de/CERA/">World Data Center</a>. We used two scenarios, <strong>A2</strong> and <strong>B2</strong>, by processing the following data sets:
+						<li><a href="https://www.metoffice.gov.uk/research/hadleycentre/">HadCM3 is from the Hadley Center</a>; we got the data we used from the <a href="https://cera-www.dkrz.de/CERA/">World Data Center</a>. We used two scenarios, <strong>A2</strong> and <strong>B2</strong>, by processing the following data sets:
 							<ul>
 								<li>HADCM3_A2_tmin.grb</li>
 								<li>HADCM3_A2_tmax.grb</li>
@@ -102,7 +102,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/".$shared_directory."/left_nav.php");
 								<li>HADCM3_B2_prec.grb</li>
 							</ul>
 						</li>
-						<li><a href="http://data1.gfdl.noaa.gov/">GFDL CM2.1</a> is from the <a href="http://www.gfdl.noaa.gov/">Geophysical Fluid Dynamics Laboratory</a>. We used two scenarios, <strong>A2</strong> and <strong>B1</strong>, by processing the following data sets:
+						<li><a href="https://data1.gfdl.noaa.gov/">GFDL CM2.1</a> is from the <a href="https://www.gfdl.noaa.gov/">Geophysical Fluid Dynamics Laboratory</a>. We used two scenarios, <strong>A2</strong> and <strong>B1</strong>, by processing the following data sets:
 							<ul>
 								<li><h3>For the climate normal period, we used these data:</h3>
 									<ul>
@@ -165,7 +165,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/".$shared_directory."/left_nav.php");
 					
 					<ol>
 						<li>
-						<a href=\"http://www.cesm.ucar.edu/models/ccsm4.0/\">CCSM4: The Community Earth System Model</a><br />
+						<a href=\"https://www.cesm.ucar.edu/models/ccsm4.0/\">CCSM4: The Community Earth System Model</a><br />
 
 									<ul>
 										<li>pr_Amon_CCSM4_historical_r1i1p1_185001-200512.nc</li>
@@ -184,7 +184,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/".$shared_directory."/left_nav.php");
 						
 						</li>
 						<li>
-					  <a href=\"http://www.gfdl.noaa.gov/news-app/story.32/title.the-gfdl-cm3-model/menu.no/sec./home.\">GFDLCM3: Geophysical Fluid Dynamics Laboratory</a> <br />Note: there are too many files to list here, the * represents the appropriate date range.
+					  <a href=\"https://www.gfdl.noaa.gov/news-app/story.32/title.the-gfdl-cm3-model/menu.no/sec./home.\">GFDLCM3: Geophysical Fluid Dynamics Laboratory</a> <br />Note: there are too many files to list here, the * represents the appropriate date range.
 
 									<ul>
 										<li>pr_Amon_GFDL-CM3_historical_r1i1p1_*.nc</li>
@@ -202,7 +202,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/".$shared_directory."/left_nav.php");
 									</ul>
 					 
 					 <li>
-<a href=\"http://www.metoffice.gov.uk/research/modelling-systems/unified-model/climate-models/hadgem2\">HadGEM2ES: Met Office (UK)</a></td><br />Note: there are too many files to list here, the * represents the appropriate date range.
+<a href=\"https://www.metoffice.gov.uk/research/modelling-systems/unified-model/climate-models/hadgem2\">HadGEM2ES: Met Office (UK)</a></td><br />Note: there are too many files to list here, the * represents the appropriate date range.
 
 									<ul>
 										<li>pr_Amon_HadGEM2-ES_historical_r1i1p1_*.nc</li>
@@ -223,7 +223,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/".$shared_directory."/left_nav.php");
 						</li>
 
 					 <li>
-<a href=\"http://www.cesm.ucar.edu/experiments/cesm1.0\">CESM1BGC: NCAR/UCAR Boulder</a></td><br />
+<a href=\"https://www.cesm.ucar.edu/experiments/cesm1.0\">CESM1BGC: NCAR/UCAR Boulder</a></td><br />
 
 									<ul>
 										<li>pr_Amon_CESM1-BGC_historical_r1i1p1_185001-200512.nc</li>
@@ -241,7 +241,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/".$shared_directory."/left_nav.php");
 						</li>
 
 					 <li>
-<a href=\"http://www.cnrm.meteo.fr/cmip5/\">CNRMCM5: METEO France</a></td><br />
+<a href=\"https://www.cnrm.meteo.fr/cmip5/\">CNRMCM5: METEO France</a></td><br />
 									<ul>
 										<li>pr_Amon_CNRM-CM5_historical_r1i1p1_195001-200512.nc</li>
 										<li>tasmax_Amon_CNRM-CM5_historical_r1i1p1_195001-200512.nc</li>
@@ -301,7 +301,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/".$shared_directory."/left_nav.php");
 						<li>For each weather station (our observed normal data), we computed an updated value for each attribute and for each scenario. Updating weather stations means was done by:
 							<ol>
 								<li>Selecting a set of GCM grid cells that surrounded a weather station. In the second generation work, the number of grid cells selected was such that all cell centers lying within 400 km of the station were included. In the third generation, the GCM cell that contained the weather station was selected and all eight cells that surround that cell were also selected. </li>
-								<li>Calculating the distance from the station location to the center each grid cell in the candidate set using great-circle distance. These calculations were done in <a href="http://cran.r-project.org/">R</a>, using <a href="http://cran.r-project.org/src/contrib/Descriptions/sp.html"> Roger Bivand's function spDistsN1 in package sp</a>.</li>
+								<li>Calculating the distance from the station location to the center each grid cell in the candidate set using great-circle distance. These calculations were done in <a href="https://cran.r-project.org/">R</a>, using <a href="https://cran.r-project.org/src/contrib/Descriptions/sp.html"> Roger Bivand's function spDistsN1 in package sp</a>.</li>
 								<li>Calculating a weights for the distance as 1/((<i>d</i>+1)^2), were <i>d</i> is the distance in km.</li>
 								<li>Updating the station data using a GCM cell mean weighted by the weights computed in step d.</li>
 							</ol>
@@ -316,7 +316,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/".$shared_directory."/left_nav.php");
 							Last Modified:
 							<script>document.write( document.lastModified )</script>
 						</p>
-						<p><a href="http://www.fs.fed.us/disclaimers.shtml">Important Notices</a> | <a href="http://www.fs.fed.us/privacy.shtml">Privacy Policy</a></p>
+						<p><a href="https://www.fs.fed.us/disclaimers.shtml">Important Notices</a> | <a href="https://www.fs.fed.us/privacy.shtml">Privacy Policy</a></p>
 					</div>
 
                 </div>

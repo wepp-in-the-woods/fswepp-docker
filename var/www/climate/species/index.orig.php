@@ -5,8 +5,8 @@ require($_SERVER["DOCUMENT_ROOT"]."/".$climate_directory."/_lib/arrays.php");
 require($_SERVER["DOCUMENT_ROOT"]."/".$climate_directory."/species/species_scripts.php");
 require($_SERVER["DOCUMENT_ROOT"]."/".$climate_directory."/shared/shared_scripts.php");
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta http-equiv="Content-Language" content="en-us" />
@@ -66,15 +66,15 @@ include($_SERVER["DOCUMENT_ROOT"]."/".$shared_directory."/left_nav.php");
 								<tbody>
 									<tr>
 										<td>CGCM3</td>
-										<td><a href="http://www.cccma.ec.gc.ca/models/cgcm3.shtml">Canadian Center for Climate Modeling and Analysis</a></td>
+										<td><a href="https://www.cccma.ec.gc.ca/models/cgcm3.shtml">Canadian Center for Climate Modeling and Analysis</a></td>
 									</tr>
 									<tr>
 										<td>GFDLCM21</td>
-										<td><a href="http://www.gfdl.noaa.gov/">Geophysical Fluid Dynamics Laboratory</a></td>
+										<td><a href="https://www.gfdl.noaa.gov/">Geophysical Fluid Dynamics Laboratory</a></td>
 									</tr>
 									<tr>
 										<td>HADCM3</td>
-										<td><a href="http://www.metoffice.gov.uk/climatechange/science/projections/">Hadley Center</a>/<a href="http://cera-www.dkrz.de/CERA/">World Data Center</a></td>
+										<td><a href="https://www.metoffice.gov.uk/climatechange/science/projections/">Hadley Center</a>/<a href="https://cera-www.dkrz.de/CERA/">World Data Center</a></td>
 									</tr>
 								</tbody>
 							</table>
@@ -98,7 +98,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/".$shared_directory."/left_nav.php");
 							Last Modified:
 							<script>document.write( document.lastModified )</script>
 						</p>
-						<p><a href="http://www.fs.fed.us/disclaimers.shtml">Important Notices</a> | <a href="http://www.fs.fed.us/privacy.shtml">Privacy Policy</a></p>
+						<p><a href="https://www.fs.fed.us/disclaimers.shtml">Important Notices</a> | <a href="https://www.fs.fed.us/privacy.shtml">Privacy Policy</a></p>
 					</div>
 
                 </div>

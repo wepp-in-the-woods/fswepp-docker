@@ -3,8 +3,8 @@ require("../../shared_web/resources.php");
 require("../../shared_web/resources_climate.php");
 require($_SERVER["DOCUMENT_ROOT"]."/".$climate_directory."/shared/shared_scripts.php");
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta http-equiv="Content-Language" content="en-us" />
@@ -40,7 +40,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/".$shared_directory."/left_nav.php");
 					</ul>
 								
 					<h2>Introduction</h2>
-					<p><a href=http://www.fs.fed.us/fmsc/fvs/description/climate-fvs.shtml">Climate-FVS</a> is a modification to the <a href="http://www.fs.fed.us/fmsc/fvs/index.shtml">Forest Vegetation Simulator</a>, a stand dynamics model generally used to support forest planning, project analysis, and silvicultural prescription preparation.</p>
+					<p><a href=https://www.fs.fed.us/fmsc/fvs/description/climate-fvs.shtml">Climate-FVS</a> is a modification to the <a href="https://www.fs.fed.us/fmsc/fvs/index.shtml">Forest Vegetation Simulator</a>, a stand dynamics model generally used to support forest planning, project analysis, and silvicultural prescription preparation.</p>
 					<p>Climate-FVS reads an input a data file created from using this web page. The file includes derived variables like those available from the <a href="<?php echo ("".$home_climate_URL.""); ?>/customData/index.php">Custom Climate Data Request</a> page plus relevant species-climate profile scores described on the <a href="<?php echo ("".$home_climate_URL.""); ?>/species/index.php">Species-Climate Profiles </a> page. The data for all GCM and SRES scenarios and for all time slices that are available are included automatically. Users select which ones to use in Climate-FVS projections in that software, not here.</p>
 					<p><strong>NOTE: These data are only available for Western United States (excluding Alaska, longitude -125 to -102 and latitude 31 to 51 degrees).</strong></p>
 					<h2>How it Works</h2>
@@ -51,7 +51,7 @@ is labeled as a "PointID". These point data have 3 or 4 columns coded as space s
    PointID, Long, Lat (decimal degrees), and optionally, Elevation (meters).
    If you do not include a header record, then the order of the columns must be PointID, Long, Lat, Elev. If Elev is missing (for
    any or all points), it will be estimated from
-   <a href="http://nationalmap.gov/3DEP/index.html">USGS 1-arc second elevation data.</a> <br /><br />
+   <a href="https://nationalmap.gov/3DEP/index.html">USGS 1-arc second elevation data.</a> <br /><br />
    If you include a header record, the name you supply for the first field will be replaced with "PointID"; the
    PointID column must be the first column. The other column names are matched using the following rules:
    a name with "lat" is the latitude (case insensitive), a name with "lon" is the longitude, and a name with "ele" is the elevation. <br /><br />
@@ -68,7 +68,7 @@ is labeled as a "PointID". These point data have 3 or 4 columns coded as space s
 
 					<div class="sub-content-nav">
 						<h2>Input Form for Climate-FVS Ready Data</h2>
-						<form name="customRequestFVS" method="POST" action= "http://<?php echo ("".$_SERVER["HTTP_HOST"].""); ?>/climate/customData/customRequestFVS.php" enctype="multipart/form-data">
+						<form name="customRequestFVS" method="POST" action= "https://<?php echo ("".$_SERVER["HTTP_HOST"].""); ?>/climate/customData/customRequestFVS.php" enctype="multipart/form-data">
 							<label for="emailAddress">Your Email Address:</label><br />
 							<input type="TEXT" name="emailAddress" VALUE ="" size="50" /><br /><br />
 							<label for="uploadFileName">Specify the file name for the file upload:</label><br />
@@ -86,7 +86,7 @@ is labeled as a "PointID". These point data have 3 or 4 columns coded as space s
 							Last Modified:
 							<script>document.write( document.lastModified )</script>
 						</p>
-						<p><a href="http://www.fs.fed.us/disclaimers.shtml">Important Notices</a> | <a href="http://www.fs.fed.us/privacy.shtml">Privacy Policy</a></p>
+						<p><a href="https://www.fs.fed.us/disclaimers.shtml">Important Notices</a> | <a href="https://www.fs.fed.us/privacy.shtml">Privacy Policy</a></p>
 					</div>
 					
 				</div>

@@ -8,7 +8,7 @@
         <pubdate>Unpublished material</pubdate>
         <title>Map of Degree-days &gt;5 degrees C (based on mean monthly temperature) across All North America</title>
         <geoform>tabular digital data</geoform>
-        <onlink>http://forest.moscowfsl.wsu.edu/climate/current/</onlink>
+        <onlink>https://forest.moscowfsl.wsu.edu/climate/current/</onlink>
       </citeinfo>
     </citation>
     <descript>
@@ -86,13 +86,13 @@
       <procstep>
         <procdesc>Daily data temperature and precipitation data was collected at many stations. 
   This daily data was averaged by month. Monthly data was normalized over a 
-  thirty-year time period.  Monthly normals are available at http://forest.moscowfsl.wsu.edu/climate/current/</procdesc>
+  thirty-year time period.  Monthly normals are available at https://forest.moscowfsl.wsu.edu/climate/current/</procdesc>
         <procdate>2010-05-17</procdate>
       </procstep>
       <procstep>
         <procdesc>AnuSplin 4.3 software was used to fit continuous
   spline surfaces to monthly normals.  This software can be found here: 
-  http://cres.anu.edu.au/outputs/anusplin.php  
+  https://cres.anu.edu.au/outputs/anusplin.php  
   Spline coefficients defining the surfaces can be found on our website.  
   These surfaces represent monthly minimum, avgerage, and maximum temperatures; 
   and cumulative precipitation, as functions of lattitude, longitude, and elevation.</procdesc>
@@ -101,7 +101,7 @@
       <procstep>
         <procdesc>Surfaces were then used generate a grid of monthly temperature and precipitation values
   based on NOAA Global Land One-km Base Elevation (GLOBE) grid map.  GLOBE metadata can be found at 
-  http://www.ngdc.noaa.gov/nmmrview/xmls/fgdc.jsp?id=gov.noaa.ngdc:G01180&amp;amp;view=html</procdesc>
+  https://www.ngdc.noaa.gov/nmmrview/xmls/fgdc.jsp?id=gov.noaa.ngdc:G01180&amp;amp;view=html</procdesc>
         <procdate>2010-05-17</procdate>
       </procstep>
       <procstep>

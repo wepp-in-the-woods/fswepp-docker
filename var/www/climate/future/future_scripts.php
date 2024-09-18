@@ -44,35 +44,35 @@ function formWriteSelectOptions($path = ".", $spatial_extent_abbr = "Mex") {
 \t\t\t\t\t\t\t\t\t\t\t\t\t<tbody>
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t<tr>
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td>CGCM3</td>
-\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td><a href=\"http://www.cccma.ec.gc.ca/models/cgcm3.shtml\">Canadian Center for Climate Modeling and Analysis</a></td>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td><a href=\"https://www.cccma.ec.gc.ca/models/cgcm3.shtml\">Canadian Center for Climate Modeling and Analysis</a></td>
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t</tr>
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t<tr>
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td>GFDLCM21</td>
-\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td><a href=\"http://www.gfdl.noaa.gov/\">Geophysical Fluid Dynamics Laboratory</a></td
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td><a href=\"https://www.gfdl.noaa.gov/\">Geophysical Fluid Dynamics Laboratory</a></td
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t</tr>
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t<tr>
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td>HADCM3</td>
-\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td><a href=\"http://www.metoffice.gov.uk/climatechange/science/projections/\">Hadley Center</a></td>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td><a href=\"https://www.metoffice.gov.uk/climatechange/science/projections/\">Hadley Center</a></td>
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t</tr>
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t<tr>
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td>CCSM4</td>
-\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td><a href=\"http://www.cesm.ucar.edu/models/ccsm4.0/\">The Community Earth System Model</a></td>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td><a href=\"https://www.cesm.ucar.edu/models/ccsm4.0/\">The Community Earth System Model</a></td>
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t</tr>
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t<tr>
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td>GFDLCM3</td>
-\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td><a href=\"http://www.gfdl.noaa.gov/news-app/story.32/title.the-gfdl-cm3-model/menu.no/sec./home.\">Geophysical Fluid Dynamics Laboratory</a></td>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td><a href=\"https://www.gfdl.noaa.gov/news-app/story.32/title.the-gfdl-cm3-model/menu.no/sec./home.\">Geophysical Fluid Dynamics Laboratory</a></td>
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t</tr>
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t<tr>
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td>HadGEM2ES</td>
-\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td><a href=\"http://www.metoffice.gov.uk/research/modelling-systems/unified-model/climate-models/hadgem2\">Met Office (UK)</a></td>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td><a href=\"https://www.metoffice.gov.uk/research/modelling-systems/unified-model/climate-models/hadgem2\">Met Office (UK)</a></td>
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t</tr>
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t<tr>
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td>CESM1BGC</td>
-\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td><a href=\"http://www.cesm.ucar.edu/experiments/cesm1.0\">NCAR/UCAR Boulder</a></td>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td><a href=\"https://www.cesm.ucar.edu/experiments/cesm1.0\">NCAR/UCAR Boulder</a></td>
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t</tr>
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t<tr>
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td>CNRMCM5</td>
-\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td><a href=\"http://www.cnrm.meteo.fr/cmip5/\">METEO France</a></td>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td><a href=\"https://www.cnrm.meteo.fr/cmip5/\">METEO France</a></td>
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t</tr>
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t<tr>
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td>Ensemble</td>

@@ -2,8 +2,8 @@
 require("../shared_web/resources.php");
 require("../shared_web/resources_climate.php");
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta http-equiv="Content-Language" content="en-us" />
@@ -39,28 +39,28 @@ include($_SERVER["DOCUMENT_ROOT"]."/".$shared_directory."/left_nav.php");
 					<h2>Spatial Extents</h2>
 			        <ul>
 						<li><strong>All of North America <span class="new-info">(Preferred)</span> (longitude -177 to -52 and latitude 13.9 to 80 degrees)</strong> was recently built to support new research. It includes all the data used in the original western North America (including Mexico) extents plus data from eastern U.S. and Canada. We do not have a lot of experience using this surface yet. </li>          
-						<li><strong>Western United States <span class="new-info">(Depreciated)</span> (westUS: longitude -125 to -102 and latitude 31 to 51 degrees)</strong> is that used by <a href="http://www.fs.fed.us/rm/pubs_other/rmrs_2006_rehfeldt_g001.pdf">Rehfeldt <em>et al.</em> 2006</a> and <a href="http://www.fs.fed.us/rm/pubs/rmrs_gtr165.pdf">Rehfeldt (2006)</a>. This extent is only used in our species modeling, the original data used by <a href="http://www.fs.fed.us/rm/pubs_other/rmrs_2006_rehfeldt_g001.pdf">Rehfeldt <em>et al.</em> 2006</a> and <a href="http://www.fs.fed.us/rm/pubs/rmrs_gtr165.pdf">Rehfeldt (2006)</a> have been incorporated into the North American work.</li>
+						<li><strong>Western United States <span class="new-info">(Depreciated)</span> (westUS: longitude -125 to -102 and latitude 31 to 51 degrees)</strong> is that used by <a href="https://www.fs.fed.us/rm/pubs_other/rmrs_2006_rehfeldt_g001.pdf">Rehfeldt <em>et al.</em> 2006</a> and <a href="https://www.fs.fed.us/rm/pubs/rmrs_gtr165.pdf">Rehfeldt (2006)</a>. This extent is only used in our species modeling, the original data used by <a href="https://www.fs.fed.us/rm/pubs_other/rmrs_2006_rehfeldt_g001.pdf">Rehfeldt <em>et al.</em> 2006</a> and <a href="https://www.fs.fed.us/rm/pubs/rmrs_gtr165.pdf">Rehfeldt (2006)</a> have been incorporated into the North American work.</li>
 						<li><strong>Western North America <span class="new-info">(Depreciated)</span> (westNA: longitude -177 to -97 and latitude 25 to 79 degrees)</strong> is based on from the western U.S. (including Alaska), western Canada, and northern Mexico). This surface is based on more data than used to fit the original western U.S. surfaces, even within the original westUS extent. It is the extent we use for all our current work at the one used when <a href="<?php echo ("".$home_climate_URL.""); ?>/customData/">custom data requests</a> are made for western North America.</li>          
 						<li><strong>Mexico <span class="new-info">(Depreciated)</span> (Mexico: longitude -118 to -74 and latitude 13.9 to 33 degrees)</strong> falls under work done in cooperation with Cuauhtemoc Saenz-Romero, Universidad Michoacana de San Nicolas de Hidalgo, Mexico (csaenz@umich.mx). Weather stations included are from Mexico, parts of Southeastern U.S., and few stations from Cuba, Guatemala, and Belize. A paper has be re-submitted describing this work. <a href="<?php echo ("".$home_climate_URL."/publications.php"); ?>">See Publications.</a> 
 </li>        
 					</ul>
 
 					<h2>Spatial Resolution</h2>       
-					<p>We work with thin-plate splines <a href="http://fennerschool.anu.edu.au/research/software-datasets/anusplin">(ANUSPLIN Version 4.3)</a> which provide the ability to make point predictions. For mapping, we generally use grid cell size of 0.00833333 decimal degrees (about 1 km), but grids of other resolutions could be used.</p>
+					<p>We work with thin-plate splines <a href="https://fennerschool.anu.edu.au/research/software-datasets/anusplin">(ANUSPLIN Version 4.3)</a> which provide the ability to make point predictions. For mapping, we generally use grid cell size of 0.00833333 decimal degrees (about 1 km), but grids of other resolutions could be used.</p>
 					<h2>Temporal Information</h2>
 					<ul>
 						<li>Contemporary climate for the climate normal period from 1961 to 1990.</li>
 						<li>Future climates for the nominal years 2030 (average of 2026 to 2035), 2060, and 2090 based on updating the contemporary data with projections from three General Circulation Models.</li>
 					</ul>
 					<h2>Data Elements</h2>
-					<p>The <a href="http://fennerschool.anu.edu.au/research/software-datasets/anusplin">ANUSPLIN</a> model directly predicts monthly values for:</p>
+					<p>The <a href="https://fennerschool.anu.edu.au/research/software-datasets/anusplin">ANUSPLIN</a> model directly predicts monthly values for:</p>
 					<ul>
 						<li>average mean daily temperature (degrees C)</li>
 						<li>average minimum temperature (degrees C)</li>
 						<li>average maximum temperature (degrees C)</li>
 						<li>total precipitation (mm)</li>
 					</ul>
-					<p>From these variables, several derived climate variables <a href="<?php echo ("".$home_climate_URL."/dataNotice.php"); ?>">(see New Algorithms Used For Some Derived Variables)</a> are computed using methods presented by <a href="http://www.fs.fed.us/rm/pubs/rmrs_gtr165.pdf">Rehfeldt</a> (2006). The variables included are:</p>
+					<p>From these variables, several derived climate variables <a href="<?php echo ("".$home_climate_URL."/dataNotice.php"); ?>">(see New Algorithms Used For Some Derived Variables)</a> are computed using methods presented by <a href="https://www.fs.fed.us/rm/pubs/rmrs_gtr165.pdf">Rehfeldt</a> (2006). The variables included are:</p>
 					<ul>
 						<li><strong>d100</strong> &#8212; Julian date the sum of degree-days &gt;5 degrees C reaches 100</li>
 						<li><strong>dd0</strong> &#8212; Degree-days &lt;0 degrees C (based on mean monthly temperature)</li>
@@ -90,7 +90,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/".$shared_directory."/left_nav.php");
 						<li><strong>sdi</strong> &#8212; Summer dryness index, <strong>gsdd5/gsp</strong> or <strong>sqrt(gsdd5)/gsp</strong> (once named <strong>smi</strong>, summer moisture index)</li>
 						<li><strong>pratio</strong> &#8212; Ratio of summer precipitatioin to total precipitation, <strong>gsp/map</strong></li>
 					</ul>
-					<p>These variables are computed for the points where we have vegetation observations for the purpose of building functions that predict vegetation. The variables are computed for <a href="http://docs.codehaus.org/display/GEOTOOLS/ArcInfo+ASCII+Grid+format">Asciigrid</a> maps for the purpose of making predictions of vegetation and mapping those predictions.</p>
+					<p>These variables are computed for the points where we have vegetation observations for the purpose of building functions that predict vegetation. The variables are computed for <a href="https://docs.codehaus.org/display/GEOTOOLS/ArcInfo+ASCII+Grid+format">Asciigrid</a> maps for the purpose of making predictions of vegetation and mapping those predictions.</p>
 
 					<h2 class="mainlink"><a href="future/details.php">Also See: Details of Data/Methods Used for Future Climates</a></h2>
 
@@ -100,7 +100,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/".$shared_directory."/left_nav.php");
 							Last Modified:
 							<script>document.write( document.lastModified )</script>
 						</p>
-						<p><a href="http://www.fs.fed.us/disclaimers.shtml">Important Notices</a> | <a href="http://www.fs.fed.us/privacy.shtml">Privacy Policy</a></p>
+						<p><a href="https://www.fs.fed.us/disclaimers.shtml">Important Notices</a> | <a href="https://www.fs.fed.us/privacy.shtml">Privacy Policy</a></p>
 					</div>
 
                 </div>

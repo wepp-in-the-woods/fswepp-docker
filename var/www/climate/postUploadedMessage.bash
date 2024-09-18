@@ -9,7 +9,7 @@ mailx -t $emailAddress \
 
 Custom request completed. Get data from this link:
 
-http://forest.moscowfsl.wsu.edu/climate/$ProjectDirectory/$answerFile
+https://forest.moscowfsl.wsu.edu/climate/$ProjectDirectory/$answerFile
 
 !
 echo Message sent, emailAddress = $emailAddress, ProjectDirectory = $ProjectDirectory, answerFile = $answerFile
