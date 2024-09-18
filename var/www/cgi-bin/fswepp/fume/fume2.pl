@@ -112,7 +112,7 @@ use CGI ':standard';
 #   $dayoffset -- account for which day of the week Jan 1 is: -1: Su; 0: Mo; 1: Tu; 2: We; 3: Th; 4: Fr; 5: Sa.
 
    $thisday = 1 + (localtime)[7];               # $yday, day of the year (0..364)
-   $thisyear = 1900 + (localtime)[5];           # http://perldoc.perl.org/functions/localtime.html
+   $thisyear = 1900 + (localtime)[5];           # https://perldoc.perl.org/functions/localtime.html
 
    if    ($thisyear == 2010) { $dayoffset = 4 } # Jan 1 is Friday
    elsif ($thisyear == 2011) { $dayoffset = 5 } # Jan 1 is Saturday
@@ -198,13 +198,13 @@ use CGI ':standard';
        if ($platform eq "") {$platform = "unix"}
      close PLATFORM;
    }
-#     $weppdiro = "http://" . $wepphost . "/Scripts/fswepp/wd/weppdiro.pl";#elena
-     $fume = "http://" . $wepphost . "/cgi-bin/fswepp/wd/fume.pl";#elena
+#     $weppdiro = "https://" . $wepphost . "/Scripts/fswepp/wd/weppdiro.pl";#elena
+     $fume = "https://" . $wepphost . "/cgi-bin/fswepp/wd/fume.pl";#elena
 #     print "<p> weppdiro $fume <br>";#elena
 
    if (lc($action) =~ /custom/) {
-#     $weppdiro = "http://" . $wepphost . "/Scripts/fswepp/wd/weppdiro.pl";
-     $fume = "http://" . $wepphost . "/cgi-bin/fswepp/fume/fume.pl";		# 2004.09.21 DEH
+#     $weppdiro = "https://" . $wepphost . "/Scripts/fswepp/wd/weppdiro.pl";
+     $fume = "https://" . $wepphost . "/cgi-bin/fswepp/fume/fume.pl";		# 2004.09.21 DEH
      if ($platform eq "pc") {print "<p> I am here in wd1.pl in custom";
 #       exec "perl ../rc/rockclim.pl -server -i$me -u$units $fume"
 #       exec "perl c:\\Inetpub\\Scripts\\fswepp\\rc\\rockclim.pl -server -i$me -u$units $fume"
@@ -217,8 +217,8 @@ use CGI ':standard';
    }		# /custom/
 
    if (lc($action) ne 'run wepp fume' && lc($achtung) =~ /describe climate/) {	# 2004.11.19 DEH
-     $weppdiro = "http://" . $wepphost . "/Scripts/fswepp/wd/weppdiro.pl";
-     $fume = "http://" . $wepphost . "/cgi-bin/fswepp/fume/fume.pl";
+     $weppdiro = "https://" . $wepphost . "/Scripts/fswepp/wd/weppdiro.pl";
+     $fume = "https://" . $wepphost . "/cgi-bin/fswepp/fume/fume.pl";
      if ($platform eq "pc") {
 #elena       exec "perl ../rc/descpar.pl $CL $units $weppdiro"
        exec "perl c:\\Inetpub\\Scripts\\fswepp\\rc\\descpar.pl $CL $units $fume" #elena
@@ -2121,10 +2121,10 @@ skipjunk:
 
 
 
-print '  <a href="http://',$wepphost,'/fswepp/comments.html" ';
+print '  <a href="https://',$wepphost,'/fswepp/comments.html" ';
 if ($wepphost eq 'localhost') {print 'onClick="return confirm(\'You must be connected to the Internet to e-mail comments. Shall I try?\')"'};                                  
 print '>                                                              
-<img src="http://',$wepphost,'/fswepp/images/epaemail.gif" align="right" border=0>
+<img src="https://',$wepphost,'/fswepp/images/epaemail.gif" align="right" border=0>
 </a>
   <font size=1>
  WEPP FuME v. 
@@ -2158,7 +2158,7 @@ print "
 
 #  strip leading and trailing blanks on file name
 
-sub trim($)       # http://www.somacon.com/p114.php
+sub trim($)       # https://www.somacon.com/p114.php
 {
         my $string = shift;
         $string =~ s/^\s+//;
@@ -3660,7 +3660,7 @@ sub printWeppSummary {
          print '</PRE></font>
 <p><center><hr>
 <a href="JavaScript:window.history.go(-1)">
-<img src="http://',$wepphost,'/fswepp/images/rtis.gif"
+<img src="https://',$wepphost,'/fswepp/images/rtis.gif"
      alt="Return to input screen" border="0" aligh=center></A>
 <BR><HR></center>
 ';

@@ -14,7 +14,7 @@
    $version = '2014.11.14';	# modify phosphorus help screen
 #  $version = '2014.04.18';	# allow for greater phosphorus sediment concentrations to match ongoing field data (200 to 2000 mg/kg)
 #  $version = '2012.11.13';	# finer target for fines analysis help text, reset to default rock values when leaving pavement
-#  $version = '2012.10.15';	# add help text to all of table header; http://www.codingforums.com/showthread.php?t=1041
+#  $version = '2012.10.15';	# add help text to all of table header; https://www.codingforums.com/showthread.php?t=1041
 #  $version = '2012.10.11';	# sort climate pick list -- personal by age, others by climate name
 #  $version = '2012.10.09';	# add help text for geometry
 #  $version = '2012.09.07';	# add burn pile
@@ -207,7 +207,7 @@ psskip:
       }			# if (index
     }			# for $f
 #  ####  index sort climate modification time  ####  #
-#  http://www.perlmonks.org/?node_id=60442
+#  https://www.perlmonks.org/?node_id=60442
    @ind = sort {$age[$a] <=> $age[$b]} 0..$#age;  	# sort index
 #  ####  copy sorted entries into climate name and file lists  ####  #
    for my $i ( 0..$#age) {
@@ -1334,7 +1334,7 @@ theEnd
   if ($wepphost eq 'localhost') {print 'onClick="return confirm(\'You must be connected to the Internet to e-mail comments. Shall I try?\')"'};                                  
   print '>                                                              
   <img src="/fswepp/images/epaemail.gif" align="right" border=0></a>
-  <a href="http://www.blm.gov/nv/st/en/snplma.html" target="snplma"><img src="/fswepp/images/SNPLMAlogo.png" width=100 align="right" border=o></a>
+  <a href="https://www.blm.gov/nv/st/en/snplma.html" target="snplma"><img src="/fswepp/images/SNPLMAlogo.png" width=100 align="right" border=o></a>
 
   <font size=-2>
    The Tahoe Basin Sediment Model is a version of Disturbed WEPP customized for the Lake Tahoe Basin.
@@ -1345,7 +1345,7 @@ theEnd
    Online at &lt;https://forest.moscowfsl.wsu.edu/fswepp&gt;.
    <br><br>
    With support from the U.S. Department of the Interior Bureau of Land Management
-   <a href="http://www.blm.gov/nv/st/en/snplma.html">Southern Nevada Public Land Management Act</a>
+   <a href="https://www.blm.gov/nv/st/en/snplma.html">Southern Nevada Public Land Management Act</a>
    <br><br>
    Tahoe Basin Sediment Model Interface v.
    <a href="javascript:popuphistory()">',$version,'</a><br>

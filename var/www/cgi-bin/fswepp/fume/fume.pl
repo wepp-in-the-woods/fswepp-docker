@@ -372,7 +372,7 @@ print <<'theEnd0';
       para = para +'<font size=-1>'
       para = para +'Alberts, E. E., M. A. Nearing, M. A. Weltz, L. M. Risse, F. B. Pierson, X. C. Zhang, J. M. Laflen, and J. R. Simanton.'
       para = para +'  1995.'
-      para = para +'   <a href="http://topsoil.nserl.purdue.edu/nserlweb/weppmain/docs/chap7.pdf" target="pdf"><i>Chapter 7. Soil Component.</i></a> <b>In:</b> Flanagan, D. C. and M. A. Nearing (eds.)'
+      para = para +'   <a href="https://topsoil.nserl.purdue.edu/nserlweb/weppmain/docs/chap7.pdf" target="pdf"><i>Chapter 7. Soil Component.</i></a> <b>In:</b> Flanagan, D. C. and M. A. Nearing (eds.)'
       para = para +'   <b>USDA-Water Erosion Prediction Project Hillslope Profile and Watershed Model Documentation.</b>'
       para = para +'   NSERL Report No. 10.'
       para = para +'   W. Lafayette, IN: USDA-ARS-MWA.'

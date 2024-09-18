@@ -5,7 +5,7 @@
 #       Author:  S. R. Graves; Darrell Anderson; Bill Elliot
 #       Contact: Bill Elliot, Soil and Water Engineering
 #                U.S. Forest Service Rocky Mountain Research Station
-#                http://forest.moscowfsl.wsu.edu/fswepp
+#                https://forest.moscowfsl.wsu.edu/fswepp
 #
 High Traffic Gravelled Road
 3       0

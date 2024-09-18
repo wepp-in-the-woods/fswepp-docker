@@ -14,7 +14,7 @@
 # 2001 Oct 24     Add rock fragment field
 #
 #  usage: 
-#    <form name="wrlog" method="post" action="http://host/cgi-bin/fswepp/wr/logstuff.pl">
+#    <form name="wrlog" method="post" action="https://host/cgi-bin/fswepp/wr/logstuff.pl">
 #  parameters
 #    all:
 #      button			# 'Add to log' or 'Create new log'

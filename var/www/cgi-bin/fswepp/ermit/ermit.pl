@@ -1198,8 +1198,8 @@ function showRange(obj, head, min, max, unit) {
 }
 
 // The Central Randomizer 1.3 (C) 1997 by Paul Houle (houle@msc.cornell.edu)
-// See:  http://www.msc.cornell.edu/~houle/javascript/randomizer.html
-// http://developer.irt.org/script/343.htm
+// See:  https://www.msc.cornell.edu/~houle/javascript/randomizer.html
+// https://developer.irt.org/script/343.htm
 
 rnd.today=new Date();
 rnd.seed=rnd.today.getTime();
@@ -1484,9 +1484,9 @@ print <<'theEnd';
 theEnd
 #print '
 #  <font size=1>
-#   <a href="http://',$wepphost,'/fswepp/comments.html" ';
+#   <a href="https://',$wepphost,'/fswepp/comments.html" ';
 #if ($wepphost eq 'localhost') {print 'onClick="return confirm(\'You must be connected to the Internet to e-mail comments. Shall I try?\')"'};                                  
-#print '><img src="http://',$wepphost,'/fswepp/images/epaemail.gif" align="right" border=0></a>
+#print '><img src="https://',$wepphost,'/fswepp/images/epaemail.gif" align="right" border=0></a>
 #   Interface v. ',$version,' (for review only).<br>
 #   <b>Peter R. Robichaud</b> and <b>William J. Elliot,</b>
 #   USDA Forest Service, Rocky Mountain Research Station, Moscow, ID<br>

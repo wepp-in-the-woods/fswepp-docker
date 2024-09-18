@@ -5,7 +5,7 @@
 #       Author:  H. Rhee; Darrell Anderson
 #       Contact: Bill Elliot, Soil and Water Engineering
 #                U.S. Forest Service Rocky Mountain Research Station
-#                http://forest.moscowfsl.wsu.edu/fswepp
+#                https://forest.moscowfsl.wsu.edu/fswepp
 #
 # Paved surface insloped, rocked ditch
 # (w/ paved surface Ki & Ks and native surface Kr & tau_c) 

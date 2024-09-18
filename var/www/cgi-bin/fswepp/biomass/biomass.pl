@@ -205,7 +205,7 @@ print <<'theEnd0';
   <META NAME="Suggested use" CONTENT="">
   <META NAME="Keywords" CONTENT="">
   <META NAME="Contributors" CONTENT="USDA Forest Service, Rocky Mountain Research Station, Moscow, ID: model developed by Bill Elliot and Pete Robichaud; Interface programming by David Hall and Hakjun Rhee">
-  <META NAME="Source" content="Run online at http://forest.moscowfsl.wsu.edu/fswepp/">
+  <META NAME="Source" content="Run online at https://forest.moscowfsl.wsu.edu/fswepp/">
   <style>
    th.thhelpon {
     background-color: pink;
@@ -352,7 +352,7 @@ print <<'theEnd0';
       para = para +'<font size=-1>'
       para = para +'Alberts, E. E., M. A. Nearing, M. A. Weltz, L. M. Risse, F. B. Pierson, X. C. Zhang, J. M. Laflen, and J. R. Simanton.'
       para = para +'  1995.'
-      para = para +'   <a href="http://topsoil.nserl.purdue.edu/nserlweb/weppmain/docs/chap7.pdf" target="pdf"><i>Chapter 7. Soil Component.</i></a> <b>In:</b> Flanagan, D. C. and M. A. Nearing (eds.)'
+      para = para +'   <a href="https://topsoil.nserl.purdue.edu/nserlweb/weppmain/docs/chap7.pdf" target="pdf"><i>Chapter 7. Soil Component.</i></a> <b>In:</b> Flanagan, D. C. and M. A. Nearing (eds.)'
       para = para +'   <b>USDA-Water Erosion Prediction Project Hillslope Profile and Watershed Model Documentation.</b>'
       para = para +'   NSERL Report No. 10.'
       para = para +'   W. Lafayette, IN: USDA-ARS-MWA.'
@@ -640,7 +640,7 @@ print ' <BODY bgcolor="white" link="#000000" vlink="#000000" alink="red" onLoad=
            <font color="#006009">Biomass</font> Utilization Impacts on Soil Erosion Analysis</h3>
        <hr>
     <td>
-       <A HREF="http://www.fs.fed.us/rm/pubs_other/rmrs_2010_elliot_w001.pdf" target="docs">
+       <A HREF="https://www.fs.fed.us/rm/pubs_other/rmrs_2010_elliot_w001.pdf" target="docs">
        <IMG src="/fswepp/images/epage.gif"
         align="right" title="Effects of Forest Biomass Use on Watershed Processes in the Western United States [pdf]" border=0></a>
     </table>
@@ -919,7 +919,7 @@ print '      </SELECT>
        </font>
       </td>
       <td valign="top">
-       <a href="http://',$wepphost,'/fswepp/comments.html"<img src="/fswepp/images/epaemail.gif" align="right" border=0></a>
+       <a href="https://',$wepphost,'/fswepp/comments.html"<img src="/fswepp/images/epaemail.gif" align="right" border=0></a>
       </td>
      </tr>
      <tr>

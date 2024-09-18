@@ -61,7 +61,7 @@ print '
   <META NAME="Suggested use" CONTENT="Cross Drain can be used to determine optimum cross drain spacing for existing or planned roads, and for developing and supporting recommendations concerning road construction, reconstruction, realignment, closure, obliteration, or mitigation efforts based on sediment yield.">
   <META NAME="Keywords" CONTENT="">
   <META NAME="Contributors" CONTENT="USDA Forest Service, Rocky Mountain Research Station, Moscow, ID">
-  <META NAME="Source" content="Run online at http://forest.moscowfsl.wsu.edu/fswepp" (follow additional WEPP resources link)>
+  <META NAME="Source" content="Run online at https://forest.moscowfsl.wsu.edu/fswepp" (follow additional WEPP resources link)>
  </HEAD>
  <body bgcolor="white" link="#1603F3" vlink="#160A8C">
   <font face="Tahoma, Arial, Geneva, Helvetica">
@@ -242,10 +242,10 @@ print '
       </font>
      </td>
      <td>
-     <a href="http://',$wepphost,'/fswepp/comments.html" ';
+     <a href="https://',$wepphost,'/fswepp/comments.html" ';
  if ($wepphost eq 'localhost') {print 'onClick="return confirm(\'You must be connected to the Internet to e-mail comments. Shall I try?\')"'};
 print '>
-      <img src="http://',$wepphost,'/fswepp/images/epaemail.gif" align="right" border=0></a>
+      <img src="https://',$wepphost,'/fswepp/images/epaemail.gif" align="right" border=0></a>
      </td>
     </tr>
    </table>

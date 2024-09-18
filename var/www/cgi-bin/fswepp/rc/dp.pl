@@ -158,11 +158,11 @@
     newin.document.writeln('   <h3>$climate_name -- $lat<sup>o</sup>N$lon<sup>o</sup>E</h3>')
     newin.document.writeln('   <table border=5 cellpadding=4 bgcolor=\"black\">')
     newin.document.writeln('    <tr>')
-    newin.document.writeln('     <th><img src=\"http://tiger.census.gov/cgi-bin/mapgen?&lat=$lat&lon=$lon&on=states&iwd=400&iht=400&wid=10&ht=10&mark=$lon,$lat,redstar\" width=400 height=400><br><font color=white>10 deg x 10 deg</font></th>')
-    newin.document.writeln('     <th><img src=\"http://tiger.census.gov/cgi-bin/mapgen?&lat=$lat&lon=$lon&on=states&iwd=400&iht=400&wid=1&ht=1&mark=$lon,$lat,redstar\" width=400 height=400><br><font color=white>1 deg x 1 deg</font></th>')
+    newin.document.writeln('     <th><img src=\"https://tiger.census.gov/cgi-bin/mapgen?&lat=$lat&lon=$lon&on=states&iwd=400&iht=400&wid=10&ht=10&mark=$lon,$lat,redstar\" width=400 height=400><br><font color=white>10 deg x 10 deg</font></th>')
+    newin.document.writeln('     <th><img src=\"https://tiger.census.gov/cgi-bin/mapgen?&lat=$lat&lon=$lon&on=states&iwd=400&iht=400&wid=1&ht=1&mark=$lon,$lat,redstar\" width=400 height=400><br><font color=white>1 deg x 1 deg</font></th>')
     newin.document.writeln('    </tr>')
     newin.document.writeln('   </table>')
-    newin.document.writeln('   <a href=\"http://tiger.census.gov/cgi-bin/mapsurfer?&infact=2&outfact=2&act=move&tlevel=-&tvar=-&tmeth=i&mlat=$lat&mlon=$lon&msym=smalldot&mlabel=&murl=&lat=$lat&lon=$lon&wid=0.045&ht=0.016&conf=mapnew.con\">more</a> Tiger Census map options')
+    newin.document.writeln('   <a href=\"https://tiger.census.gov/cgi-bin/mapsurfer?&infact=2&outfact=2&act=move&tlevel=-&tvar=-&tmeth=i&mlat=$lat&mlon=$lon&msym=smalldot&mlabel=&murl=&lat=$lat&lon=$lon&wid=0.045&ht=0.016&conf=mapnew.con\">more</a> Tiger Census map options')
     newin.document.writeln('  </center>')
     newin.document.writeln(' </body>')
     newin.document.writeln('</html>')
@@ -288,10 +288,10 @@
 
 # **********************
 
-#print '<a href="http://tiger.census.gov/cgi-bin/mapgen?&lat=',$ylt;
+#print '<a href="https://tiger.census.gov/cgi-bin/mapgen?&lat=',$ylt;
 #print "&lon=$yll&on=states&iwd=400&iht=400&wid=1&ht=1&mark=$yll,$ylt,redstar";
 #print '">Generate 1<sup>o</sup> <i>x</i> 1<sup>o</sup> map</a><br>
-#       <a href="http://tiger.census.gov/cgi-bin/mapgen?&lat=',$ylt;
+#       <a href="https://tiger.census.gov/cgi-bin/mapgen?&lat=',$ylt;
 #print "&lon=$yll&on=states&iwd=400&iht=400&wid=10&ht=10&mark=$yll,$ylt,redstar";
 #print '">Generate 10<sup>o</sup> <i>x</i> 10<sup>o</sup> map</a>';
 #print "\n<center>\n";
@@ -314,7 +314,7 @@ print '
 ';
 
 #<!--
-#<form action="http://',$wepphost,'/cgi-bin/fswepp/rc/mapper.pl" method="post">
+#<form action="https://',$wepphost,'/cgi-bin/fswepp/rc/mapper.pl" method="post">
 #<input type="hidden" name="lat" value="',$lat,'">
 #<input type="hidden" name="lon" value="',$lon,'">
 #<input type="hidden" name="station" value="',$climate_name,'">
@@ -322,7 +322,7 @@ print '
 #</form>
 #<p>
 #<a href="JavaScript:window.history.go(-1)">
-#<img src="http://',$wepphost,'/fswepp/images/rtis.gif"
+#<img src="https://',$wepphost,'/fswepp/images/rtis.gif"
 #  alt="Return to input screen" border="0" align=center></A>
 #<BR>
 #-->

@@ -186,7 +186,7 @@ print <<'theEnd0';
   <META NAME="Suggested use" CONTENT="">
   <META NAME="Keywords" CONTENT="">
   <META NAME="Contributors" CONTENT="USDA Forest Service, Rocky Mountain Research Station, Moscow, ID: model developed by Bill Elliot and Pete Robichaud; interface programming by David Hall and Elena Velasquez">
-  <META NAME="Source" content="Run online at http://forest.moscowfsl.wsu.edu/fswepp/">
+  <META NAME="Source" content="Run online at https://forest.moscowfsl.wsu.edu/fswepp/">
   <style>
    th.thhelpon {
     background-color: pink;
@@ -318,7 +318,7 @@ para = para +'<br><br>'
 para = para +'<font size=-1>'
 para = para +'Alberts, E. E., M. A. Nearing, M. A. Weltz, L. M. Risse, F. B. Pierson, X. C. Zhang, J. M. Laflen, and J. R. Simanton.'
 para = para +'  1995.'
-para = para +'   <a href="http://topsoil.nserl.purdue.edu/nserlweb/weppmain/docs/chap7.pdf" target="pdf"><i>Chapter 7. Soil Component.</i></a> <b>In:</b> Flanagan, D. C. and M. A. Nearing (eds.)'
+para = para +'   <a href="https://topsoil.nserl.purdue.edu/nserlweb/weppmain/docs/chap7.pdf" target="pdf"><i>Chapter 7. Soil Component.</i></a> <b>In:</b> Flanagan, D. C. and M. A. Nearing (eds.)'
 para = para +'   <b>USDA-Water Erosion Prediction Project Hillslope Profile and Watershed Model Documentation.</b>'
 para = para +'   NSERL Report No. 10.'
 para = para +'   W. Lafayette, IN: USDA-ARS-MWA.'
@@ -754,7 +754,7 @@ print <<'theEnd';
       newin.document.writeln('<font size=-1>')
       newin.document.writeln('Alberts, E. E., M. A. Nearing, M. A. Weltz, L. M. Risse, F. B. Pierson, X. C. Zhang, J. M. Laflen, and J. R. Simanton.')
       newin.document.writeln('  1995.')
-      newin.document.writeln('   <a href="http://topsoil.nserl.purdue.edu/nserlweb/weppmain/docs/chap7.pdf" target="pdf"><i>Chapter 7. Soil Component.</i></a> <b>In:</b> Flanagan, D. C. and M. A. Nearing (eds.)')
+      newin.document.writeln('   <a href="https://topsoil.nserl.purdue.edu/nserlweb/weppmain/docs/chap7.pdf" target="pdf"><i>Chapter 7. Soil Component.</i></a> <b>In:</b> Flanagan, D. C. and M. A. Nearing (eds.)')
       newin.document.writeln('   <b>USDA-Water Erosion Prediction Project Hillslope Profile and Watershed Model Documentation.</b>')
       newin.document.writeln('   NSERL Report No. 10.')
       newin.document.writeln('   W. Lafayette, IN: USDA-ARS-MWA.')
@@ -1074,7 +1074,7 @@ print ' <BODY bgcolor="white" link="#99ff00" vlink="#99ff00" alink="red" onLoad=
  </table>
 <br>
 
-  <form name="fume" method="post" ACTION="http://',$wepphost,'/cgi-bin/fswepp/fume/fume2.pl">
+  <form name="fume" method="post" ACTION="https://',$wepphost,'/cgi-bin/fswepp/fume/fume2.pl">
   <input type="hidden" size="1" name="me" value="',$me,'">
   <table border="1">
 ';
@@ -1359,7 +1359,7 @@ print '
        </font>
       </td>
       <td valign="top">
-       <a href="http://',$wepphost,'/fswepp/comments.html"<img src="/fswepp/images/epaemail.gif" align="right" border=0></a>
+       <a href="https://',$wepphost,'/fswepp/comments.html"<img src="/fswepp/images/epaemail.gif" align="right" border=0></a>
       </td>
      </tr>
      <tr>

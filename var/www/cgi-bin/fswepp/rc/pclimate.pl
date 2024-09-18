@@ -269,15 +269,15 @@ Content-Disposition: inline; filename="climate.cli"',"\n\n";
     print "<HTML>\n";
     print "<HEAD>\n";
     print "<TITLE>CLIMATE FILE STORED ON SERVER</TITLE>\n";
-#    print '<META HTTP-EQUIV="Refresh" CONTENT="5; URL=http://forest.moscowfsl.wsu.edu/4702/wepproad/wrdyn.html">';
+#    print '<META HTTP-EQUIV="Refresh" CONTENT="5; URL=https://forest.moscowfsl.wsu.edu/4702/wepproad/wrdyn.html">';
     print "</HEAD>\n";
     print '<BODY bgcolor="white">',"\n";
     print "<CENTER><H2> $station_text CLIMATE STORED ON SERVER</H2>\n";
-#    print '<FORM name="wepproad" method=post ACTION="http://forest.moscowfsl.wsu.edu/cgi-bin/WEPP/wepproad.pl">';
+#    print '<FORM name="wepproad" method=post ACTION="https://forest.moscowfsl.wsu.edu/cgi-bin/WEPP/wepproad.pl">';
 #    print '<INPUT TYPE="SUBMIT" VALUE="Run WEPP:ROAD"></form></center>';
  
 #print "<p>\n Run ";
-#    print '<a href="http://forest.moscowfsl.wsu.edu/4702/wepproad/wepproad.html">';
+#    print '<a href="https://forest.moscowfsl.wsu.edu/4702/wepproad/wepproad.html">';
 #    print "WEPP:Road</a> select custom-file.
     print "<p><hr><p>\n";
 #    print "R_HOST:  ", $ENV{REMOTE_HOST},"<br>\n";
@@ -344,7 +344,7 @@ Content-Disposition: inline; filename="climate.cli"',"\n\n";
 #    else {
 #       print "<a href=$comefrom>"
 #    }
-#     print '<img src="http://',$wepphost,'/fswepp/images/retreat.gif"
+#     print '<img src="https://',$wepphost,'/fswepp/images/retreat.gif"
 #      alt="Retreat" border="0" align=center></A>';
 #    print "</form></body></html>\n";
 #}

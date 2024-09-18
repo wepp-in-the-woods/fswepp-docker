@@ -202,7 +202,7 @@ print <<'theEnd2';
   <META NAME="Suggested use" CONTENT="">
   <META NAME="Keywords" CONTENT="">
   <META NAME="Contributors" CONTENT="USDA Forest Service, Rocky Mountain Research Station, Moscow, ID: Bill Elliot and David Hall">
-  <META NAME="Source" content="Run online at http://forest.moscowfsl.wsu.edu/fswepp/">
+  <META NAME="Source" content="Run online at https://forest.moscowfsl.wsu.edu/fswepp/">
 
   <!--<bgsound src="journey.wav">-->
   <SCRIPT LANGUAGE = "JavaScript" type="TEXT/JAVASCRIPT">
@@ -550,20 +550,20 @@ print '<BODY bgcolor="white"
   <font face="Arial, Geneva, Helvetica">
   <table width=100% border=0>
     <tr><td> 
-       <a href="http://',$wepphost,'/fswepp/">
-       <IMG src="http://',$wepphost,'/fswepp/images/fsweppic2.jpg" width=75 height=75
+       <a href="https://',$wepphost,'/fswepp/">
+       <IMG src="https://',$wepphost,'/fswepp/images/fsweppic2.jpg" width=75 height=75
        align="left" alt="Back to FS WEPP menu" border=0></a>
     <td align=center>
        <hr>
        <h2>Disturbed WEPP</h2>
        <hr>
     <td>
-       <A HREF="http://',$wepphost,'/fswepp/docs/distweppdoc.html" target="docs">
-       <IMG src="http://',$wepphost,'/fswepp/images/epage.gif"
+       <A HREF="https://',$wepphost,'/fswepp/docs/distweppdoc.html" target="docs">
+       <IMG src="https://',$wepphost,'/fswepp/images/epage.gif"
         align="right" alt="Read the documentation" border=0></a>
     </table>
   <center>
-  <FORM name="weppdist" method="post" ACTION="http://',$wepphost,'/cgi-bin/fswepp/wd/wd.pl">
+  <FORM name="weppdist" method="post" ACTION="https://',$wepphost,'/cgi-bin/fswepp/wd/wd.pl">
   <input type="hidden" size="1" name="me" value="',$me,'">
   <input type="hidden" size="1" name="units" value="',$units,'">
   <TABLE border="1">
@@ -758,10 +758,10 @@ print <<'theEnd';
 theEnd
 print '
  <font size=-1>
-<a href="http://',$wepphost,'/fswepp/comments.html" ';
+<a href="https://',$wepphost,'/fswepp/comments.html" ';
 if ($wepphost eq 'localhost') {print 'onClick="return confirm(\'You must be connected to the Internet to e-mail comments. Shall I try?\')"'};                                  
 print '>                                                              
-<img src="http://',$wepphost,'/fswepp/images/epaemail.gif" align="right" border=0></a>
+<img src="https://',$wepphost,'/fswepp/images/epaemail.gif" align="right" border=0></a>
   Interface v. 
   <a href="javascript:popuphistory()">',$version,'</a>
   by

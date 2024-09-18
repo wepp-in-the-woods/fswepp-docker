@@ -163,7 +163,7 @@ print <<'theEnd2';
   <META NAME="Suggested use" CONTENT="">
   <META NAME="Keywords" CONTENT="">
   <META NAME="Contributors" CONTENT="USDA Forest Service, Rocky Mountain Research Station, Moscow, ID: Bill Elliot and David Hall">
-  <META NAME="Source" content="Run online at http://forest.moscowfsl.wsu.edu/fswepp/">
+  <META NAME="Source" content="Run online at https://forest.moscowfsl.wsu.edu/fswepp/">
 
   <SCRIPT LANGUAGE = "JavaScript" type="TEXT/JAVASCRIPT">
   <!--
@@ -852,7 +852,7 @@ print ' <BODY bgcolor="white" link="#555555" vlink="#555555" onLoad="StartUp()">
     </tr>
    </table>
   <center>
-   <!-- FORM name="weppdist" method="post" ACTION="http://',$wepphost,'/cgi-bin/fswepp/wasp/ww.pl" -->
+   <!-- FORM name="weppdist" method="post" ACTION="https://',$wepphost,'/cgi-bin/fswepp/wasp/ww.pl" -->
    <FORM name="wasp" method="post" ACTION="ww.pl">
    <input type="hidden" size="1" name="me" value="',$me,'">
    <input type="hidden" size="1" name="units" value="',$units,'">
@@ -1180,10 +1180,10 @@ print <<'theEnd';
 theEnd
 print '
         <font size=-1>
-         <a href="http://',$wepphost,'/fswepp/comments.html" ';
+         <a href="https://',$wepphost,'/fswepp/comments.html" ';
 if ($wepphost eq 'localhost') {print 'onClick="return confirm(\'You must be connected to the Internet to e-mail comments. Shall I try?\')"'};
 print '>
-         <img src="http://',$wepphost,'/fswepp/images/epaemail.gif" align="right" border=0></a>
+         <img src="https://',$wepphost,'/fswepp/images/epaemail.gif" align="right" border=0></a>
          Interface v. 
          <a href="javascript:popuphistory()">',$version,'</a>
          by

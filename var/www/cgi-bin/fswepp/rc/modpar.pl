@@ -850,7 +850,7 @@ function dms2dec_calc(unit) {
      print $longhemisphere;
      print '</b>
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-     <input type=image src="http://',$wepphost,'/fswepp/images/prism.gif" value=PRISM align=middle>
+     <input type=image src="https://',$wepphost,'/fswepp/images/prism.gif" value=PRISM align=middle>
 <!-- DEH 23 Jul 2002 -->
      <br>(<a href="Javascript:latlong_calc(\'',$units,'\')">lat-long calculator</a>)
      (<a href="Javascript:dms2dec_calc(\'',$units,'\')">degrees calculator</a>)
@@ -1001,7 +1001,7 @@ print '"><p>
 
 
 <!--
-<form action="http://localhost/cgi-bin/fswepp/rc/mapper.pl" method="post">
+<form action="https://localhost/cgi-bin/fswepp/rc/mapper.pl" method="post">
 <input type="hidden" name="lat" value="19.43">
 <input type="hidden" name="lon" value="-155.27">
 <input type="hidden" name="station" value="HAWAII VOLCNS NP HQ 54">
@@ -1053,7 +1053,7 @@ else {
 
 #<p>
 #<a href="JavaScript:window.history.go(-1)">
-#<img src="http://localhost/fswepp/images/rtis.gif"
+#<img src="https://localhost/fswepp/images/rtis.gif"
 #  alt="Return to input screen" border="0" align=center></A>
 
 print '<BR>

@@ -3,7 +3,7 @@
 
 #  usage:
 #    ROCK:CLIM climate    action                units  comefrom
-#             (climatea) (-server | -download) (m|ft) ('http://localhost/wr.pl')
+#             (climatea) (-server | -download) (m|ft) ('https://localhost/wr.pl')
 #  parameters:
 #    $units=$parameters{'units'};
 #    $me=$parameters{'me'};
@@ -17,7 +17,7 @@
 #    $ENV{'HTTP_COOKIE'}
 #  calls:
 #    <form method="post" action="../rc/manageclimates.pl">
-#    <form ACTION="http://',$wepphost,'/cgi-bin/fswepp/rc/showclimates.pl" method="post">
+#    <form ACTION="https://',$wepphost,'/cgi-bin/fswepp/rc/showclimates.pl" method="post">
 #    <form method="post" action="',$comefrom,'">
 
 #  FSWEPP, USDA Forest Service, Rocky Mountain Research Station, Soil & Water Engineering
@@ -147,15 +147,15 @@ if ($action ne '-download') {
 }   # end if ($action ne '-download')
 
   if ($action eq '-download') {
-    print '  <a href="http://',$wepphost,'/fswepp/">
-    <IMG src="http://',$wepphost,'/fswepp/images/fsweppic2.jpg"
+    print '  <a href="https://',$wepphost,'/fswepp/">
+    <IMG src="https://',$wepphost,'/fswepp/images/fsweppic2.jpg"
     align="left" height=75 width=75 alt="Return to FSWEPP menu" border=0></a>
-       <A HREF="http://',$wepphost,'/fswepp/docs/rcimg.html">
-       <IMG src="http://',$wepphost,'/fswepp/images/ipage.gif"
+       <A HREF="https://',$wepphost,'/fswepp/docs/rcimg.html">
+       <IMG src="https://',$wepphost,'/fswepp/images/ipage.gif"
         align="right" alt="Read the documentation" border=0></a>';
   }
   else {
-     if ($comefrom =~ /road/) {print '<img src="http://',$wepphost,'/fswepp/images/road4.gif"
+     if ($comefrom =~ /road/) {print '<img src="https://',$wepphost,'/fswepp/images/road4.gif"
                 alt="Return to WEPP:Road" border=2
                 align=left width=50 height=50
                 onMouseOver="window.status=\'Return to WEPP:Road input screen\'; return true"
@@ -163,7 +163,7 @@ if ($action ne '-download') {
                 onClick="retreat.submit()">
                 ';
      }
-     else {print '<img src="http://',$wepphost,'/fswepp/images/disturb.gif"
+     else {print '<img src="https://',$wepphost,'/fswepp/images/disturb.gif"
                 alt="Return to Disturbed WEPP" border=2
                 align=left width=50 height=50
                 onMouseOver="window.status=\'Return to Disturbed WEPP input screen\'; return true"
@@ -172,8 +172,8 @@ if ($action ne '-download') {
                 ';
      }
      print '
-     <A HREF="http://',$wepphost,'/fswepp/docs/rcwrimg.html">
-     <IMG src="http://',$wepphost,'/fswepp/images/ipage.gif"
+     <A HREF="https://',$wepphost,'/fswepp/docs/rcwrimg.html">
+     <IMG src="https://',$wepphost,'/fswepp/images/ipage.gif"
      align="right" alt="Read the documentation" border=0
      onMouseOver="window.status=\'Read the documentation\'; return true"
      onMouseOut="window.status=\' \'; return true"></a>
@@ -234,7 +234,7 @@ print "action: '$action'<br>\n";
 print '
 <h3>Select a region below</h3>
 <p>
-<form ACTION="http://',$wepphost,'/cgi-bin/fswepp/rc/showclimates.pl" method="post">
+<form ACTION="https://',$wepphost,'/cgi-bin/fswepp/rc/showclimates.pl" method="post">
 ';
 
 # print "I am $me";
@@ -309,7 +309,7 @@ print '
 </form>
 ';
 if ($comefrom eq "") {
-  print '<form name="retreat" method="post" action="http://',$wepphost,'/fswepp/">
+  print '<form name="retreat" method="post" action="https://',$wepphost,'/fswepp/">
 <input type="submit" value="Back to FSWEPP">
 </form>
 ';
@@ -334,8 +334,8 @@ print '</CENTER>
          // end hide -->
         </SCRIPT>
       <td>
-        <a href="http://',$wepphost,'/fswepp/comments.html"  onClick="return confirm(\'You need to be connected to the Internet to e-mail comments. Continue?\')">
-        <img src="http://',$wepphost,'/fswepp/images/epaemail.gif" align="right" border=0></a>
+        <a href="https://',$wepphost,'/fswepp/comments.html"  onClick="return confirm(\'You need to be connected to the Internet to e-mail comments. Continue?\')">
+        <img src="https://',$wepphost,'/fswepp/images/epaemail.gif" align="right" border=0></a>
 </table></body>
 </html>
 ';

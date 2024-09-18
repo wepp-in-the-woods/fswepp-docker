@@ -125,7 +125,7 @@ $weppversion = "wepp2010";	# 2014.02.07 DEH 2000 or 2010; WEPP 2010 needs frost.
 #   $dayoffset -- account for which day of the week Jan 1 is: -1: Su; 0: Mo; 1: Tu; 2: We; 3: Th; 4: Fr; 5: Sa.
 
    $thisday = 1 + (localtime)[7];               # $yday, day of the year (0..364)
-   $thisyear = 1900 + (localtime)[5];           # http://perldoc.perl.org/functions/localtime.html
+   $thisyear = 1900 + (localtime)[5];           # https://perldoc.perl.org/functions/localtime.html
 
    if    ($thisyear == 2010) { $dayoffset = 4 } # Jan 1 is Friday
    elsif ($thisyear == 2011) { $dayoffset = 5 } # Jan 1 is Saturday
@@ -509,7 +509,7 @@ if ($severityclass eq 'u') {		# 2013.04.19 DEH)
 #     print "  <TITLE>ERMiT -- Preliminary results</TITLE>
 #   <script language=\"Javascript\">
 #   </HEAD>\n";
-#     print ' <BODY background="http://',$wepphost,
+#     print ' <BODY background="https://',$wepphost,
 #          '/fswepp/images/note.gif" link="#ff0000"
 #           onload="removeSpinner()">
 #  <font face="Arial, Geneva, Helvetica">
@@ -2312,7 +2312,7 @@ print '
 
 #  strip leading and trailing blanks on file name
 
-sub trim($)       # http://www.somacon.com/p114.php
+sub trim($)       # https://www.somacon.com/p114.php
 {
         my $string = shift;
         $string =~ s/^\s+//;

@@ -191,7 +191,7 @@ print <<'theEnd2';
   <META NAME="Suggested use" CONTENT="">
   <META NAME="Keywords" CONTENT="">
   <META NAME="Contributors" CONTENT="USDA Forest Service, Rocky Mountain Research Station, Moscow, ID: Bill Elliot and David Hall">
-  <META NAME="Source" content="Run online at http://forest.moscowfsl.wsu.edu/fswepp/">
+  <META NAME="Source" content="Run online at https://forest.moscowfsl.wsu.edu/fswepp/">
 
   <SCRIPT LANGUAGE = "JavaScript" type="TEXT/JAVASCRIPT">
   <!--
@@ -222,7 +222,7 @@ print <<'theEnd2';
   var previous_what=''  // for show_help
 
 function popupclosest() {
-url = 'http://forest.moscowfsl.wsu.edu/fswepp/rc/closest.php?units=ft';
+url = 'https://forest.moscowfsl.wsu.edu/fswepp/rc/closest.php?units=ft';
 width=900;
 height=600;
 popupwindow = window.open(url,'popupwindow','toolbar=no,location=no,status=no,directories=no,menubar=no,scrollbars=yes,resizable=yes,width='+width+',height='+height);
@@ -338,13 +338,13 @@ para = para +'Canfield, R.H., 1941, <i>Application of the line interception meth
 para = para +'  <b>Journal of Forestry,</b> Vol. 39, No. 4, pp. 388&ndash;394.<br>'
 para = para +'Dobre, M. 2010. <b>Assessing spatial distribution of fire effects in forests using GIS.</b>'
 para = para +'  Proceedings of the 2nd Joint Federal Interagency Conference, Las Vegas, NV. 27 June &ndash; 1 July, 2010.'
-para = para +'  Online at &lt;http://acwi.gov/sos/pubs/2ndJFIC/Contents/SP06_Dobre_03_29_10_paper.pdf&gt;. Accessed Nov., 2011.<br>'
+para = para +'  Online at &lt;https://acwi.gov/sos/pubs/2ndJFIC/Contents/SP06_Dobre_03_29_10_paper.pdf&gt;. Accessed Nov., 2011.<br>'
 para = para +'Flanagan, D.C., and M.A. Nearing (eds.).  1995.'
 para = para +'  <b>USDA-Water Erosion Prediction Project (WEPP) Hillslope Profile and Watershed Model Documentation.</b>'
 para = para +'  NSERL Report No. 10, National Soil Erosion Research Laboratory, USDA-Agricultural Research Service, West Lafayette, Indiana.<br>'
 para = para +'Wollenhaupt, N.C., and J. Pingry. 1991.'
 para = para +'  <b>Estimating residue using the line transect method.</b> UWEX Bull. G3533.'
-para = para +'  Online at &lt;http://learningstore.uwex.edu/assets/pdfs/A3533.pdf&gt; Accessed Nov. 2011.'
+para = para +'  Online at &lt;https://learningstore.uwex.edu/assets/pdfs/A3533.pdf&gt; Accessed Nov. 2011.'
 para = para +'  Madison: Univ. of Wisconsin. 2&nbsp;p.<br><br>'
 
 
@@ -720,8 +720,8 @@ print '<BODY bgcolor="white"
   <font face="Arial, Geneva, Helvetica">
    <table width=100% border=0>
     <tr><td> 
-       <a href="http://',$wepphost,'/fswepp/">
-       <IMG src="http://',$wepphost,'/fswepp/images/fsweppic2.jpg" width=75 height=75
+       <a href="https://',$wepphost,'/fswepp/">
+       <IMG src="https://',$wepphost,'/fswepp/images/fsweppic2.jpg" width=75 height=75
        align="left" alt="Back to FS WEPP menu" border=0></a>
     <td align=center>
        <hr>
@@ -732,7 +732,7 @@ print '<BODY bgcolor="white"
        <!-- IMG src="/fswepp/images/epage.gif" align="right" alt="" border=0 -->
    </table>
   <center>
-  <!-- FORM name="weppdist" method="post" ACTION="http://',$wepphost,'/cgi-bin/fswepp/wdnc/wdnocalv.pl" -->
+  <!-- FORM name="weppdist" method="post" ACTION="https://',$wepphost,'/cgi-bin/fswepp/wdnc/wdnocalv.pl" -->
   <FORM name="weppdist" method="post" ACTION="wd.pl">
   <input type="hidden" size="1" name="me" value="',$me,'">
   <input type="hidden" size="1" name="units" value="',$units,'">
@@ -1000,7 +1000,7 @@ print <<'theEnd';
 theEnd
 print '
  <font size=-1>
-<a href="http://',$wepphost,'/fswepp/comments.html" ';
+<a href="https://',$wepphost,'/fswepp/comments.html" ';
 if ($wepphost eq 'localhost') {print 'onClick="return confirm(\'You must be connected to the Internet to e-mail comments. Shall I try?\')"'};                                  
 print '>                                                              
 <img src="/fswepp/images/epaemail.gif" align="right" border=0></a>
@@ -1015,7 +1015,7 @@ Disturbed WEPP allows users easily to describe numerous disturbed
 <b>Citation:</b><br>
 Elliot, William J.; Hall, David E. 2010. Disturbed WEPP Model 2.0. Ver. ', $version,'.
 Moscow, ID: U.S. Department of Agriculture, Forest Service, Rocky Mountain Research Station. 
-Online at &lt;http://forest.moscowfsl.wsu.edu/fswepp&gt;.
+Online at &lt;https://forest.moscowfsl.wsu.edu/fswepp&gt;.
 <br><br>
 <b>Disturbed WEPP version 1.0 
 (<a href="/cgi-bin/fswepp/wd1/weppdist.pl?units=m">metric</a>)

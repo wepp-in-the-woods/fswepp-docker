@@ -5,7 +5,7 @@
 # read fswepp/working/lastclimate.txt for
 
    $now = localtime;
-   $thisyear = 1900 + (localtime)[5];           # http://perldoc.perl.org/functions/localtime.html
+   $thisyear = 1900 + (localtime)[5];           # https://perldoc.perl.org/functions/localtime.html
 
    $climlog = "working/_$thisyear/lastclimate.txt";
    if (-e $climlog) {

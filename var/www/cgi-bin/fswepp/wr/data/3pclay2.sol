@@ -5,7 +5,7 @@
 #       Author:  H. Rhee; Darrell Anderson
 #       Contact: Bill Elliot, Soil and Water Engineering
 #                U.S. Forest Service Rocky Mountain Research Station
-#                http://forest.moscowfsl.wsu.edu/fswepp
+#                https://forest.moscowfsl.wsu.edu/fswepp
 #
 # Paved surface outsloped (rocked or bare ditch)
 Plume for road (07/28/00)

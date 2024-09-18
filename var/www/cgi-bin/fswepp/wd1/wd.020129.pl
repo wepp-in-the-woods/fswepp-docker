@@ -66,7 +66,7 @@
    }
 
    if (lc($action) =~ /custom/) {
-     $weppdist = "http://" . $wepphost . "/cgi-bin/fswepp/wd/weppdist.pl";
+     $weppdist = "https://" . $wepphost . "/cgi-bin/fswepp/wd/weppdist.pl";
      if ($platform eq "pc") {
        exec "perl ../rc/rockclim.pl -server -i$me -u$units $weppdist"
      }
@@ -77,7 +77,7 @@
    }		# /custom/
 
    if (lc($achtung) =~ /describe climate/) {
-     $weppdist = "http://" . $wepphost . "/cgi-bin/fswepp/wd/weppdist.pl";
+     $weppdist = "https://" . $wepphost . "/cgi-bin/fswepp/wd/weppdist.pl";
      if ($platform eq "pc") {
        exec "perl ../rc/descpar.pl $CL $weppdist"
      }
@@ -106,29 +106,29 @@
      if (substr ($surface,0,1) eq "g") {$surf = "g"}
      $soilFile = '3' . $surf . $SoilType . $conduct . '.sol';
 
-     $weppdist = "http://" . $wepphost . "/cgi-bin/fswepp/wd/weppdist.pl";
+     $weppdist = "https://" . $wepphost . "/cgi-bin/fswepp/wd/weppdist.pl";
      $soilFilefq = $soilPath . $soilFile;
      print "Content-type: text/html\n\n";
      print "<HTML>\n";
      print "<HEAD>\n";
      print "<TITLE>Disturbed WEPP -- Soil Parameters</TITLE>\n";
      print "</HEAD>\n";
-     print '<BODY background="http://',$wepphost,
+     print '<BODY background="https://',$wepphost,
           '/fswepp/images/note.gif" link="#ff0000">
   <font face="Arial, Geneva, Helvetica">
   <blockquote>
   <table width=95% border=0>
     <tr><td> 
        <a href="JavaScript:window.history.go(-1)">
-       <IMG src="http://',$wepphost,'/fswepp/images/disturb.gif"
+       <IMG src="https://',$wepphost,'/fswepp/images/disturb.gif"
        align="left" alt="Back to FS WEPP menu" border=1></a>
     <td align=center>
        <hr>
        <h2>Disturbed WEPP Soil Texture Properties</h2>
        <hr>
     <td>
-       <A HREF="http://',$wepphost,'/fswepp/docs/distweppdoc.html">
-       <IMG src="http://',$wepphost,'/fswepp/images/epage.gif"
+       <A HREF="https://',$wepphost,'/fswepp/docs/distweppdoc.html">
+       <IMG src="https://',$wepphost,'/fswepp/images/epage.gif"
         align="right" alt="Read the documentation" border=0></a>
     </table>
 ';
@@ -314,21 +314,21 @@
 <HEAD>
 <TITLE>Disturbed WEPP Results</TITLE>
 </HEAD>
-<BODY background="http://',$wepphost,'/fswepp/images/note.gif">
+<BODY background="https://',$wepphost,'/fswepp/images/note.gif">
   <font face="Arial, Geneva, Helvetica">
   <blockquote>
   <table width=100% border=0>
     <tr><td> 
        <a href="JavaScript:window.history.go(-1)">
-       <IMG src="http://',$wepphost,'/fswepp/images/disturb.gif"
+       <IMG src="https://',$wepphost,'/fswepp/images/disturb.gif"
        align="left" alt="Return to Disturbed WEPP input screen" border=1></a>
     <td align=center>
        <hr>
        <h2>Disturbed WEPP Results</h2>
        <hr>
     <td>
-       <A HREF="http://',$wepphost,'/fswepp/docs/distweppdoc.html">
-       <IMG src="http://',$wepphost,'/fswepp/images/epage.gif"
+       <A HREF="https://',$wepphost,'/fswepp/docs/distweppdoc.html">
+       <IMG src="https://',$wepphost,'/fswepp/images/epage.gif"
         align="right" alt="Read the documentation" border=0></a>
     </table>
 ';
@@ -760,7 +760,7 @@ print "
 
        print '<p><center><hr>
 <a href="JavaScript:window.history.go(-1)">
-  <img src="http://',$wepphost,'/fswepp/images/rtis.gif"
+  <img src="https://',$wepphost,'/fswepp/images/rtis.gif"
    alt="Return to input screen" border="0" align=center></A>
 <BR><HR>
 </center>';
@@ -809,7 +809,7 @@ print "
        print "<p><hr>";
        print '<center>
 <a href="JavaScript:window.history.go(-1)">
-<img src="http://',$wepphost,'/fswepp/images/rtis.gif"
+<img src="https://',$wepphost,'/fswepp/images/rtis.gif"
   alt="Return to input screen" border="0" align=center></A>
 <BR><HR></center>';
      }		# $outputf == 1
@@ -820,10 +820,10 @@ print "
 
 print "
 Disturbed WEPP Results v.";
-print ' <a href="http://',$wepphost,'/fswepp/history/wdrver.html">';
+print ' <a href="https://',$wepphost,'/fswepp/history/wdrver.html">';
 print "$version </a>
 based on WEPP $weppver
-<br><tt>http://$wepphost/fswepp</tt><br>";
+<br><tt>https://$wepphost/fswepp</tt><br>";
 &printdate;
 print "</blockquote>\n</BODY>\n</HTML>\n";
 

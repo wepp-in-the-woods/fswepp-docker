@@ -78,7 +78,7 @@
 #
 
    if (lc($action) =~ /custom/) {
-     $weppdist = "http://" . $wepphost . "/cgi-bin/fswepp/wd/weppdist.pl";
+     $weppdist = "https://" . $wepphost . "/cgi-bin/fswepp/wd/weppdist.pl";
      if ($platform eq "pc") {
        exec "perl ../rc/rockclim.pl -server -i$me -u$units $weppdist"
      }
@@ -93,7 +93,7 @@
 #
 
    if (lc($achtung) =~ /describe climate/) {
-     $weppdist = "http://" . $wepphost . "/cgi-bin/fswepp/wd/wepplf.pl";
+     $weppdist = "https://" . $wepphost . "/cgi-bin/fswepp/wd/wepplf.pl";
      if ($platform eq "pc") {
        exec "perl ../rc/descpar.pl $CL $weppdist"
      }
@@ -127,21 +127,21 @@
 #     $soilFile = '4' . $surf . $SoilType . $conduct . '.sol';
      $soilFile = '4' . $SoilType . '.sol';				## unique?
 
-     $weppdist = "http://" . $wepphost . "/cgi-bin/fswepp/wd/wepplf.pl";
+     $weppdist = "https://" . $wepphost . "/cgi-bin/fswepp/wd/wepplf.pl";
      $soilFilefq = $soilPath . $soilFile;
      print "Content-type: text/html\n\n";
      print "<HTML>\n";
      print " <HEAD>\n";
      print "  <TITLE>WEPP Lateral Flow Soil Parameters</TITLE>\n";
      print " </HEAD>\n";
-     print ' <BODY background="http://',$wepphost,'/fswepp/images/note.gif" link="#ff0000">
+     print ' <BODY background="https://',$wepphost,'/fswepp/images/note.gif" link="#ff0000">
   <font face="Arial, Geneva, Helvetica">
    <blockquote>
     <table width=95% border=0>
      <tr>
       <td> 
        <a href="JavaScript:window.history.go(-1)">
-       <IMG src="http://',$wepphost,'/fswepp/images/wolf.gif"
+       <IMG src="https://',$wepphost,'/fswepp/images/wolf.gif"
         align="left" alt="Back to FS WEPP menu" border=1></a>
       </td>
       <td align=center>
@@ -781,7 +781,7 @@ pophist
 print '
   </script>
  </HEAD>
- <BODY background="http://',$wepphost,'/fswepp/images/note.gif">
+ <BODY background="https://',$wepphost,'/fswepp/images/note.gif">
   <font face="Arial, Geneva, Helvetica">
   <blockquote>
 ';
@@ -790,15 +790,15 @@ print '
 print '  <table width=100% border=0>
     <tr><td> 
        <a href="JavaScript:window.history.go(-1)">
-       <IMG src="http://',$wepphost,'/fswepp/images/disturb.gif"
+       <IMG src="https://',$wepphost,'/fswepp/images/disturb.gif"
        align="left" alt="Return to WASP input screen" border=1></a>
     <td align=center>
        <hr>
        <h2>WASP Results</h2>
        <hr>
     <td>
-       <A HREF="http://',$wepphost,'/fswepp/docs/distweppdoc.html">
-       <IMG src="http://',$wepphost,'/fswepp/images/epage.gif"
+       <A HREF="https://',$wepphost,'/fswepp/docs/distweppdoc.html">
+       <IMG src="https://',$wepphost,'/fswepp/images/epage.gif"
         align="right" alt="Read the documentation" border=0></a>
     </table>
 ';
@@ -1312,7 +1312,7 @@ print "
    <center>
     <hr>
     <a href="JavaScript:window.history.go(-1)">
-    <img src="http://',$wepphost,'/fswepp/images/rtis.gif"
+    <img src="https://',$wepphost,'/fswepp/images/rtis.gif"
      alt="Return to input screen" border="0" align=center></A>
     <br>
     <hr>
@@ -1368,7 +1368,7 @@ print "
        print "<p><hr>";
        print '<center>
 <a href="JavaScript:window.history.go(-1)">
-<img src="http://',$wepphost,'/fswepp/images/rtis.gif"
+<img src="https://',$wepphost,'/fswepp/images/rtis.gif"
   alt="Return to input screen" border="0" align=center></A>
 <BR><HR></center>';
      }		# $outputf == 1
@@ -1403,7 +1403,7 @@ print "
      WASP Results v.";
 print '     <a href="javascript:popuphistory()">';
 print "     $version</a> based on WEPP $weppver, CLIGEN $cligen_version<br>
-     http://$wepphost/fswepp<br>";
+     https://$wepphost/fswepp<br>";
 &printdate;
 print "
      <br>
@@ -1834,11 +1834,11 @@ print "Soil file";
 #	aniso_ratio: anisotropic ratio (h vs v) of the saturated hydraulic conductivity (<0 -> 25)
 #       restrictive layer selected: $rockname
 #
-sichus jatun pacha jallp'anta tukuchinman, chay pachaqa wañuchikushian [Quechua: 'the nation that destroys its soil destroys itself' - Franklin Delano Roosevelt]
+sichus jatun pacha jallp'anta tukuchinman, chay pachaqa waï¿½uchikushian [Quechua: 'the nation that destroys its soil destroys itself' - Franklin Delano Roosevelt]
  4    1
 ";
 
-#sichus jatun pacha jallp'anta tukuchinman, chay pachaqa wañuchikushian [Quechua: 'the nation that destroys its soil destroys itself' - Franklin Delano Roosevelt]
+#sichus jatun pacha jallp'anta tukuchinman, chay pachaqa waï¿½uchikushian [Quechua: 'the nation that destroys its soil destroys itself' - Franklin Delano Roosevelt]
 # 4    1    $restrictive_layer_flag    $aniso_ratio
 #";
 

@@ -101,7 +101,7 @@
 #
 
    if (lc($action) =~ /custom/) {
-     $wasp = "http://" . $wepphost . "/cgi-bin/fswepp/wasp/wasp.pl";
+     $wasp = "https://" . $wepphost . "/cgi-bin/fswepp/wasp/wasp.pl";
      if ($platform eq "pc") {
        exec "perl ../rc/rockclim.pl -server -i$me -u$units $wasp"
      }
@@ -116,7 +116,7 @@
 #
 
    if (lc($achtung) =~ /describe climate/) {
-     $wasp = "http://" . $wepphost . "/cgi-bin/fswepp/wasp/wasp.pl";
+     $wasp = "https://" . $wepphost . "/cgi-bin/fswepp/wasp/wasp.pl";
      if ($platform eq "pc") {
        exec "perl ../rc/descpar.pl $CL $wasp"
      }
@@ -150,21 +150,21 @@
 #     $soilFile = '4' . $surf . $SoilType . $conduct . '.sol';
      $soilFile = '4' . $SoilType . '.sol';				## unique?
 
-     $wasp = "http://" . $wepphost . "/cgi-bin/fswepp/wd/wasp.pl";
+     $wasp = "https://" . $wepphost . "/cgi-bin/fswepp/wd/wasp.pl";
      $soilFilefq = $soilPath . $soilFile;
      print "Content-type: text/html\n\n";
      print "<HTML>\n";
      print " <HEAD>\n";
      print "  <TITLE>WEPP Lateral Flow Soil Parameters</TITLE>\n";
      print " </HEAD>\n";
-     print ' <BODY background="http://',$wepphost,'/fswepp/images/note.gif" link="#ff0000">
+     print ' <BODY background="https://',$wepphost,'/fswepp/images/note.gif" link="#ff0000">
   <font face="Arial, Geneva, Helvetica">
    <blockquote>
     <table width=95% border=0>
      <tr>
       <td> 
        <a href="JavaScript:window.history.go(-1)">
-       <IMG src="http://',$wepphost,'/fswepp/images/wolf.gif"
+       <IMG src="https://',$wepphost,'/fswepp/images/wolf.gif"
         align="left" alt="Back to FS WEPP menu" border=1></a>
       </td>
       <td align=center>
@@ -736,7 +736,7 @@ pophist
 print '
   </script>
  </HEAD>
- <BODY background="http://',$wepphost,'/fswepp/images/note.gif">
+ <BODY background="https://',$wepphost,'/fswepp/images/note.gif">
   <font face="Arial, Geneva, Helvetica">
   <blockquote>
 ';
@@ -747,7 +747,7 @@ print '
     <tr>
      <td>
       <a href="JavaScript:window.history.go(-1)">
-      <IMG src="http://',$wepphost,'/fswepp/images/wasp.gif"
+      <IMG src="https://',$wepphost,'/fswepp/images/wasp.gif"
       align="left" alt="Return to WASP input screen" border=1></a>
      </td>
      <td align=center>
@@ -756,8 +756,8 @@ print '
       <hr>
      </td>
      <td>
-       <A HREF="http://',$wepphost,'/fswepp/docs/distweppdoc.html">
-       <IMG src="http://',$wepphost,'/fswepp/images/epage.gif"
+       <A HREF="https://',$wepphost,'/fswepp/docs/distweppdoc.html">
+       <IMG src="https://',$wepphost,'/fswepp/images/epage.gif"
         align="right" alt="Read the documentation" border=0></a>
      </td>
     </tr>
@@ -1411,7 +1411,7 @@ skipper:
        print "<p><hr>";
        print '<center>
 <a href="JavaScript:window.history.go(-1)">
-<img src="http://',$wepphost,'/fswepp/images/rtis.gif"
+<img src="https://',$wepphost,'/fswepp/images/rtis.gif"
   alt="Return to input screen" border="0" align=center></A>
 <BR><HR></center>';
      }		# $outputf == 1
@@ -1458,7 +1458,7 @@ print "
      WASP Results v.";
 print '     <a href="javascript:popuphistory()">';
 print "     $version</a> based on WEPP $weppver, CLIGEN $cligen_version<br>
-     http://$wepphost/fswepp<br>";
+     https://$wepphost/fswepp<br>";
 &printdate;
 print "
      <br>
@@ -1572,7 +1572,7 @@ print "
 #  ($sec,$min,$hour,$mday,$mon,$year,$wday,$yday,$isdst) = localtime(time);
 #  my @abbr = qw( Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec );
 #  $year += 1900;
-#  $actual_climate_name =~ s/^\s+//;	# http://perldoc.perl.org/perlfaq4.html#How-do-I-strip-blank-space-from-the-beginning/end-of-a-string?
+#  $actual_climate_name =~ s/^\s+//;	# https://perldoc.perl.org/perlfaq4.html#How-do-I-strip-blank-space-from-the-beginning/end-of-a-string?
 #  $actual_climate_name =~ s/\s+$//;
 #print "WASP\t
 #   \"$abbr[$mon] $mday, $year\"\t
@@ -1982,11 +1982,11 @@ sub CreateSoilFile2006 {			# Create 4 OFE soil file
 #	aniso_ratio: anisotropic ratio (h vs v) of the saturated hydraulic conductivity (<0 -> 25)
 #       restrictive layer selected: $rockname
 #
-sichus jatun pacha jallp'anta tukuchinman, chay pachaqa wañuchikushian [Quechua: 'the nation that destroys its soil destroys itself' - Franklin Delano Roosevelt]
+sichus jatun pacha jallp'anta tukuchinman, chay pachaqa waï¿½uchikushian [Quechua: 'the nation that destroys its soil destroys itself' - Franklin Delano Roosevelt]
  4    1
 ";
 
-#sichus jatun pacha jallp'anta tukuchinman, chay pachaqa wañuchikushian [Quechua: 'the nation that destroys its soil destroys itself' - Franklin Delano Roosevelt]
+#sichus jatun pacha jallp'anta tukuchinman, chay pachaqa waï¿½uchikushian [Quechua: 'the nation that destroys its soil destroys itself' - Franklin Delano Roosevelt]
 # 4    1    $restrictive_layer_flag    $aniso_ratio
 #";
 
@@ -3032,7 +3032,7 @@ sub leapDay
 #************************************************************************
 #**** leapDay and reverseJulianDate based on inversion of           *****
 #*  an example of a Julian Date function provided by Thomas R. Kimpton  *
-#* http://fr2.rpmfind.net/linux/0/redhat-archive/6.2/cpan/CPAN-archive/ *
+#* https://fr2.rpmfind.net/linux/0/redhat-archive/6.2/cpan/CPAN-archive/ *
 #*       doc/FAQs/FAQ/oldfaq-html/Q4.12.html                            *
 #************************************************************************
 #****  leapDay: Return 1 if we are in a leap year else 0.           *****
@@ -3660,7 +3660,7 @@ print "selected ranks: @selected_ranks<br>\n" if ($debug);
 
 }		# end sub parse_ofe
 
-sub trim($)       # http://www.somacon.com/p114.php
+sub trim($)       # https://www.somacon.com/p114.php
 {
         my $string = shift;
         $string =~ s/^\s+//;

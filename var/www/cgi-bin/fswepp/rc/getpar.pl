@@ -40,7 +40,7 @@
 # $args . = ' -c off';					# no cache
   $args .= ' -o ' . $logfile;				# log file
   $args .= ' -O ' . $targetfile;			# target file
-  $args .= ' http://' . $sourcefile;			# source
+  $args .= ' https://' . $sourcefile;			# source
 
   `wget $args`; 
 

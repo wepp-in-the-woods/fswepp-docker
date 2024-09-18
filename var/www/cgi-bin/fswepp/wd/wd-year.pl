@@ -83,7 +83,7 @@
 #   $dayoffset -- account for which day of the week Jan 1 is: -1: Su; 0: Mo; 1: Tu; 2: We; 3: Th; 4: Fr; 5: Sa.
 
    $thisday = 1 + (localtime)[7];               # $yday, day of the year (0..364)
-   $thisyear = 1900 + (localtime)[5];           # http://perldoc.perl.org/functions/localtime.html
+   $thisyear = 1900 + (localtime)[5];           # https://perldoc.perl.org/functions/localtime.html
 
    if    ($thisyear == 2010) { $dayoffset = 4 } # Jan 1 is Friday
    elsif ($thisyear == 2011) { $dayoffset = 5 } # Jan 1 is Saturday
@@ -143,7 +143,7 @@ if ($debug) {print "treatment 1: $treat1<br>\n"}
    }
 
    if (lc($action) =~ /custom/) {
-     $weppdist = "http://" . $wepphost . "/cgi-bin/fswepp/wd/weppdist.pl";
+     $weppdist = "https://" . $wepphost . "/cgi-bin/fswepp/wd/weppdist.pl";
      if ($platform eq "pc") {
        exec "perl ../rc/rockclim.pl -server -i$me -u$units $weppdist"
      }
@@ -154,7 +154,7 @@ if ($debug) {print "treatment 1: $treat1<br>\n"}
    }		# /custom/
 
    if (lc($achtung) =~ /describe climate/) {
-     $weppdist = "http://" . $wepphost . "/cgi-bin/fswepp/wd/weppdist.pl";
+     $weppdist = "https://" . $wepphost . "/cgi-bin/fswepp/wd/weppdist.pl";
      if ($platform eq "pc") {
        exec "perl ../rc/descpar.pl $CL $units $weppdist"
      }
@@ -183,29 +183,29 @@ if ($debug) {print "treatment 1: $treat1<br>\n"}
      if (substr ($surface,0,1) eq "g") {$surf = "g"}
      $soilFile = '3' . $surf . $SoilType . $conduct . '.sol';
 
-     $weppdist = "http://" . $wepphost . "/cgi-bin/fswepp/wd/weppdist.pl";
+     $weppdist = "https://" . $wepphost . "/cgi-bin/fswepp/wd/weppdist.pl";
      $soilFilefq = $soilPath . $soilFile;
      print "Content-type: text/html\n\n";
      print "<HTML>\n";
      print " <HEAD>\n";
      print "  <TITLE>Disturbed WEPP -- Soil Parameters</TITLE>\n";
      print " </HEAD>\n";
-     print ' <BODY background="http://',$wepphost,
+     print ' <BODY background="https://',$wepphost,
           '/fswepp/images/note.gif" link="#ff0000">
   <font face="Arial, Geneva, Helvetica">
   <blockquote>
   <table width=95% border=0>
     <tr><td> 
        <a href="JavaScript:window.history.go(-1)">
-       <IMG src="http://',$wepphost,'/fswepp/images/disturb.gif"
+       <IMG src="https://',$wepphost,'/fswepp/images/disturb.gif"
        align="left" alt="Back to FS WEPP menu" border=1></a>
     <td align=center>
        <hr>
        <h2>Disturbed WEPP Soil Texture Properties</h2>
        <hr>
     <td>
-       <A HREF="http://',$wepphost,'/fswepp/docs/distweppdoc.html">
-       <IMG src="http://',$wepphost,'/fswepp/images/epage.gif"
+       <A HREF="https://',$wepphost,'/fswepp/docs/distweppdoc.html">
+       <IMG src="https://',$wepphost,'/fswepp/images/epage.gif"
         align="right" alt="Read the documentation" border=0></a>
     </table>
 ';
@@ -685,8 +685,8 @@ unlink $soilFile;	# DEH 01/13/2004
 ';
      open WEPPFILE, "<$outputFile";    binmode WEPPFILE;
       while (<WEPPFILE>) {
-#     's/\r\n/\n/';	# dos2unix:   http://www.perlmonks.org/?node_id=557248
-       s/\015$//;	# dos2unix:     http://lists.samba.org/archive/samba/2000-September/021008.html
+#     's/\r\n/\n/';	# dos2unix:   https://www.perlmonks.org/?node_id=557248
+       s/\015$//;	# dos2unix:     https://lists.samba.org/archive/samba/2000-September/021008.html
        chomp;
        print '      filewindow.document.writeln("', $_, '")',"\n";
       }
@@ -787,14 +787,14 @@ pophist
 print '
   </script>
  </HEAD>
- <BODY background="http://',$wepphost,'/fswepp/images/note.gif">
+ <BODY background="https://',$wepphost,'/fswepp/images/note.gif">
   <font face="Arial, Geneva, Helvetica">
   <blockquote>
    <table width=100% border=0>
     <tr>
      <td>
       <a href="JavaScript:window.history.go(-1)">
-      <IMG src="http://',$wepphost,'/fswepp/images/disturb.gif"
+      <IMG src="https://',$wepphost,'/fswepp/images/disturb.gif"
       align="left" alt="Return to Disturbed WEPP input screen" border=1></a>
      <td align=center>
       <hr>
@@ -802,8 +802,8 @@ print '
       <hr>
      </td>
      <td>
-      <A HREF="http://',$wepphost,'/fswepp/docs/distweppdoc.html">
-      <IMG src="http://',$wepphost,'/fswepp/images/epage.gif"
+      <A HREF="https://',$wepphost,'/fswepp/docs/distweppdoc.html">
+      <IMG src="https://',$wepphost,'/fswepp/images/epage.gif"
        align="right" alt="Read the documentation" border=0></a>
      </td>
     </tr>
@@ -1353,7 +1353,7 @@ print "
        print "<p><hr>";
        print '<center>
 <a href="JavaScript:window.history.go(-1)">
-<img src="http://',$wepphost,'/fswepp/images/rtis.gif"
+<img src="https://',$wepphost,'/fswepp/images/rtis.gif"
   alt="Return to input screen" border="0" align=center></A>
 <BR><HR></center>';
      }		# $outputf == 1
@@ -1395,7 +1395,7 @@ print "
      Disturbed WEPP 2.0 Results v.";
 print '     <a href="javascript:popuphistory()">';
 print "     $version</a> based on <b>WEPP $weppver</b>, CLIGEN $cligen_version<br>
-     http://$wepphost/fswepp<br>";
+     https://$wepphost/fswepp<br>";
 }	# if ($rcin eq '') {
 
     &printdate;
@@ -1471,7 +1471,7 @@ print "
 
 #  strip leading and trailing blanks on file name
 
-sub trim($)       # http://www.somacon.com/p114.php
+sub trim($)       # https://www.somacon.com/p114.php
 {
         my $string = shift;
         $string =~ s/^\s+//;
@@ -1528,7 +1528,7 @@ sub trim($)       # http://www.somacon.com/p114.php
 #  ($sec,$min,$hour,$mday,$mon,$year,$wday,$yday,$isdst) = localtime(time);
 #  my @abbr = qw( Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec );
 #  $year += 1900;
-#  $actual_climate_name =~ s/^\s+//;	# http://perldoc.perl.org/perlfaq4.html#How-do-I-strip-blank-space-from-the-beginning/end-of-a-string?
+#  $actual_climate_name =~ s/^\s+//;	# https://perldoc.perl.org/perlfaq4.html#How-do-I-strip-blank-space-from-the-beginning/end-of-a-string?
 #  $actual_climate_name =~ s/\s+$//;
 #print "wd\t
 #   \"$abbr[$mon] $mday, $year\"\t

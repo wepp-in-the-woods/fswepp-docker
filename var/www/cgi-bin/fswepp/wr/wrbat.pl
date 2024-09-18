@@ -125,7 +125,7 @@
 #   $dayoffset -- account for which day of the week Jan 1 is: -1: Su; 0: Mo; 1: Tu; 2: We; 3: Th; 4: Fr; 5: Sa.
 
    $thisday = 1 + (localtime)[7];               # $yday, day of the year (0..364)
-   $thisyear = 1900 + (localtime)[5];           # http://perldoc.perl.org/functions/localtime.html
+   $thisyear = 1900 + (localtime)[5];           # https://perldoc.perl.org/functions/localtime.html
 
    if    ($thisyear == 2010) { $dayoffset = 4 } # Jan 1 is Friday
    elsif ($thisyear == 2011) { $dayoffset = 5 } # Jan 1 is Saturday
@@ -716,7 +716,7 @@ goto end_page;
 # print form *********************************
 
 #  print '
-#  <form name="wrbat" action="http://166.2.22.128/cgi-bin/fswepp/wrd/wrbat.pl" method="post">
+#  <form name="wrbat" action="https://166.2.22.128/cgi-bin/fswepp/wrd/wrbat.pl" method="post">
 #  <TEXTAREA name="spread" cols="70" rows="16">',$spread,'</TEXTAREA>
 #  <input type="hidden" name="checked" value="x">
 #  <input type="submit" value="submit">
@@ -2108,7 +2108,7 @@ sub validate_length {
 sub detag {
 
   # convert some HTML tags so they won't muck the HTML code when displayed
-  # http://www.biglist.com/lists/xsl-list/archives/199807/msg00094.html
+  # https://www.biglist.com/lists/xsl-list/archives/199807/msg00094.html
 
   my $parseString=shift(@_);
 

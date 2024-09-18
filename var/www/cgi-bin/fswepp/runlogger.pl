@@ -48,7 +48,7 @@
      $valid_ip = "invalid";
  }
 
-#    http://stackoverflow.com/questions/2346869/what-regex-can-i-use-to-match-any-valid-ip-address-represented-in-dot-decimal-no
+#    https://stackoverflow.com/questions/2346869/what-regex-can-i-use-to-match-any-valid-ip-address-represented-in-dot-decimal-no
 
 #################################################
 #################################################

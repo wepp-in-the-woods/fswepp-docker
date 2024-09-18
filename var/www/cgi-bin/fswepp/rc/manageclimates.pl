@@ -57,7 +57,7 @@
 ##################
 
   $CL = $climate;
-  $iam = "http://" . $wepphost . "/cgi-bin/fswepp/rc/manageclimates.pl";
+  $iam = "https://" . $wepphost . "/cgi-bin/fswepp/rc/manageclimates.pl";
   if (lc($dowhat) eq 'describe') {
     if ($platform eq 'pc') {
       exec "perl ../rc/descpar.pl $CL $units $iam"
@@ -78,8 +78,8 @@ print '<html>
 <title>Rock:Clime</title>
 </head>
 <BODY bgcolor="white">
-  <a href="http://',$wepphost,'/fswepp/">
-  <IMG src="http://',$wepphost,'/fswepp/images/fsshield4.gif"
+  <a href="https://',$wepphost,'/fswepp/">
+  <IMG src="https://',$wepphost,'/fswepp/images/fsshield4.gif"
   align="left" alt="Back to FSWEPP menu" border=0></a>
   <CENTER>
   <H1>Rock:Clime</H1>

@@ -86,7 +86,7 @@ use Scalar::Util 'looks_like_number';
 #   $dayoffset -- account for which day of the week Jan 1 is: -1: Su; 0: Mo; 1: Tu; 2: We; 3: Th; 4: Fr; 5: Sa.
 
    $thisday = 1 + (localtime)[7];               # $yday, day of the year (0..364)
-   $thisyear = 1900 + (localtime)[5];           # http://perldoc.perl.org/functions/localtime.html
+   $thisyear = 1900 + (localtime)[5];           # https://perldoc.perl.org/functions/localtime.html
 
    if    ($thisyear == 2010) { $dayoffset = 4 } # Jan 1 is Friday
    elsif ($thisyear == 2011) { $dayoffset = 5 } # Jan 1 is Saturday
@@ -137,13 +137,13 @@ $fullCliFile = $CL . '.cli';                    # DEH 2012.08.21
    $sed_conc_min= 0; $sed_conc_max = 2000; $sed_conc_def = 1000;	# mg/kg  2014.04.18 DEH
    $sr_conc_ok=1; $lf_conc_ok=1; $sed_conc_ok=1;
 
-   if (looks_like_number $sr_conc) {		# http://stackoverflow.com/questions/288900/how-can-i-convert-a-string-to-a-number-in-perl  http://stackoverflow.com/questions/12647/how-do-i-tell-if-a-variable-has-a-numeric-value-in-perl
+   if (looks_like_number $sr_conc) {		# https://stackoverflow.com/questions/288900/how-can-i-convert-a-string-to-a-number-in-perl  https://stackoverflow.com/questions/12647/how-do-i-tell-if-a-variable-has-a-numeric-value-in-perl
      if ($sr_conc <= $sr_conc_min) {$sr_conc = $sr_conc_min; $sr_conc_ok=0}
      if ($sr_conc >= $sr_conc_max) {$sr_conc = $sr_conc_max; $sr_conc_ok=0}
    } else {
      {$sr_conc = $sr_conc_def; $sr_conc_ok=0};
    }
-#  if ($sr_conc !~ /^-?(?:\d+(?:\.\d*)?&\.\d+)$/) {$sr_conc = $sr_conc_def; $sr_conc_ok=0};	# match decimal number http://stackoverflow.com/questions/3803850/how-do-i-decide-if-a-variable-is-numeric-in-perl
+#  if ($sr_conc !~ /^-?(?:\d+(?:\.\d*)?&\.\d+)$/) {$sr_conc = $sr_conc_def; $sr_conc_ok=0};	# match decimal number https://stackoverflow.com/questions/3803850/how-do-i-decide-if-a-variable-is-numeric-in-perl
    if (looks_like_number $lf_conc) {
      if ($lf_conc <= $lf_conc_min) {$lf_conc = $lf_conc_min; $lf_conc_ok=0}
      if ($lf_conc >= $lf_conc_max) {$lf_conc = $lf_conc_max; $lf_conc_ok=0}
@@ -184,7 +184,7 @@ $fullCliFile = $CL . '.cli';                    # DEH 2012.08.21
    }
 
    if (lc($action) =~ /custom/) {
-     $tahoe = "http://" . $wepphost . "/cgi-bin/fswepp/tahoe/tahoe.pl";
+     $tahoe = "https://" . $wepphost . "/cgi-bin/fswepp/tahoe/tahoe.pl";
      if ($platform eq "pc") {
        exec "perl ../rc/rockclim.pl -server -i$me -u$units $tahoe"
      }
@@ -197,7 +197,7 @@ $fullCliFile = $CL . '.cli';                    # DEH 2012.08.21
    }		# /custom/
 
    if (lc($achtung) =~ /describe climate/) {
-     $tahoe = "http://" . $wepphost . "/cgi-bin/fswepp/tahoe/tahoe.pl";
+     $tahoe = "https://" . $wepphost . "/cgi-bin/fswepp/tahoe/tahoe.pl";
      if ($platform eq "pc") {
        exec "perl ../rc/descpar.pl $CL $units $tahoe"
      }
@@ -231,7 +231,7 @@ $fullCliFile = $CL . '.cli';                    # DEH 2012.08.21
      if (substr ($surface,0,1) eq "g") {$surf = "g"}
      $soilFile = '3' . $surf . $SoilType . $conduct . '.sol';
 
-     $tahoe = "http://" . $wepphost . "/cgi-bin/fswepp/tahoe/tahoe.pl";
+     $tahoe = "https://" . $wepphost . "/cgi-bin/fswepp/tahoe/tahoe.pl";
      $soilFilefq = $soilPath . $soilFile;
      print "Content-type: text/html\n\n";
      print '<HTML>
@@ -246,7 +246,7 @@ $fullCliFile = $CL . '.cli';                    # DEH 2012.08.21
      <tr>
       <td> 
        <a href="JavaScript:window.history.go(-1)">
-       <IMG src="http://',$wepphost,'/fswepp/images/tahoe.jpg"
+       <IMG src="https://',$wepphost,'/fswepp/images/tahoe.jpg"
        align="left" alt="Back to FS WEPP menu" border=1></a>
       </td>
       <td align=center>
@@ -661,7 +661,7 @@ if ($fc) {
      calc_sed_delivery()
      calc_total_delivery()
    }
-  function form_input_is_numeric(input) {       // http://andrewpeace.com/javascript-is-numeric.html
+  function form_input_is_numeric(input) {       // https://andrewpeace.com/javascript-is-numeric.html
     return !isNaN(input);
   }
   function markRunoffs($i) {
@@ -959,14 +959,14 @@ print '
   }
   </script>
  </HEAD>
- <BODY background="http://',$wepphost,'/fswepp/images/note.gif" link=green vlink=green>
+ <BODY background="https://',$wepphost,'/fswepp/images/note.gif" link=green vlink=green>
   <font face="Arial, Geneva, Helvetica">
   <blockquote>
    <table width=100% border=0>
     <tr>
      <td>
       <a href="JavaScript:window.history.go(-1)">
-      <IMG src="http://',$wepphost,'/fswepp/images/tahoe.jpg"
+      <IMG src="https://',$wepphost,'/fswepp/images/tahoe.jpg"
       align="left" alt="Return to Tahoe Basin Sediment Model input screen" border=1></a>
      <td align=center>
       <hr>
@@ -2064,7 +2064,7 @@ print "
        print "<p><hr>";
        print '<center>
 <a href="JavaScript:window.history.go(-1)">
-<img src="http://',$wepphost,'/fswepp/images/rtis.gif"
+<img src="https://',$wepphost,'/fswepp/images/rtis.gif"
   alt="Return to input screen" border="0" align=center></A>
 <BR><HR></center>';
      }		# $outputf == 1
@@ -2118,12 +2118,12 @@ print "
 <b>Citation:</b><br>
 Elliot, William J.; Hall, David E. 2010. Tahoe Basin Sedimet Model. Ver. $version.
 Moscow, ID: U.S. Department of Agriculture, Forest Service, Rocky Mountain Research Station.
-Online at &lt;http://forest.moscowfsl.wsu.edu/fswepp&gt;.
+Online at &lt;https://forest.moscowfsl.wsu.edu/fswepp&gt;.
 <br><br>
      Tahoe Basin Sediment Model Results v.";
 print '     <a href="javascript:popuphistory()">';
 print "     $version</a> based on <b>WEPP $weppver</b>, CLIGEN $cligen_version<br>
-     http://$wepphost/fswepp<br>";
+     https://$wepphost/fswepp<br>";
 &printdate;
 print "
      <br>
@@ -2212,7 +2212,7 @@ print "
   ($sec,$min,$hour,$mday,$mon,$year,$wday,$yday,$isdst) = localtime(time);
   my @abbr = qw( Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec );
   $year += 1900;
-  $actual_climate_name =~ s/^\s+//;	# http://perldoc.perl.org/perlfaq4.html#How-do-I-strip-blank-space-from-the-beginning/end-of-a-string?
+  $actual_climate_name =~ s/^\s+//;	# https://perldoc.perl.org/perlfaq4.html#How-do-I-strip-blank-space-from-the-beginning/end-of-a-string?
   $actual_climate_name =~ s/\s+$//;
 
       open RUNLOG, ">>$runLogFile";
@@ -3078,7 +3078,7 @@ sub readPARfile {	# ($PARfile)
    }
 }
 
-sub trim($)       # http://www.somacon.com/p114.php
+sub trim($)       # https://www.somacon.com/p114.php
 {
         my $string = shift;
         $string =~ s/^\s+//;

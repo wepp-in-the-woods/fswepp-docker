@@ -5,7 +5,7 @@
 #       Author:   ; Darrell Anderson
 #       Contact: Bill Elliot, Soil and Water Engineering
 #                U.S. Forest Service Rocky Mountain Research Station
-#                http://forest.moscowfsl.wsu.edu/fswepp
+#                https://forest.moscowfsl.wsu.edu/fswepp
 #
 # Insloped bare ditch or outsloped
 Plume for road (12/02/98)

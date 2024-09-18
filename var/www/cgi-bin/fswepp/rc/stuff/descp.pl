@@ -172,10 +172,10 @@
 
 # **********************
 
-#print '<a href="http://tiger.census.gov/cgi-bin/mapgen?&lat=',$ylt;
+#print '<a href="https://tiger.census.gov/cgi-bin/mapgen?&lat=',$ylt;
 #print "&lon=$yll&on=states&iwd=400&iht=400&wid=1&ht=1&mark=$yll,$ylt,redstar";
 #print '">Generate 1<sup>o</sup> <i>x</i> 1<sup>o</sup> map</a><br>
-#       <a href="http://tiger.census.gov/cgi-bin/mapgen?&lat=',$ylt;
+#       <a href="https://tiger.census.gov/cgi-bin/mapgen?&lat=',$ylt;
 #print "&lon=$yll&on=states&iwd=400&iht=400&wid=10&ht=10&mark=$yll,$ylt,redstar";
 #print '">Generate 10<sup>o</sup> <i>x</i> 10<sup>o</sup> map</a>';
 #print "\n<center>\n";
@@ -192,7 +192,7 @@ print '</pre>
 <center>
 
 <!--
-<form action="http://',$wepphost,'/cgi-bin/fswepp/rc/mapper.pl" method="post">
+<form action="https://',$wepphost,'/cgi-bin/fswepp/rc/mapper.pl" method="post">
 <input type="hidden" name="lat" value="',$lat,'">
 <input type="hidden" name="lon" value="',$lon,'">
 <input type="hidden" name="station" value="',$climate_name,'">
@@ -203,15 +203,15 @@ print '</pre>
 <img src="/fswepp/images/line_red2.gif">
 <p>
 <a href="JavaScript:window.history.go(-1)">
-<img src="http://',$wepphost,'/fswepp/images/rtis.gif"
+<img src="https://',$wepphost,'/fswepp/images/rtis.gif"
   alt="Return to input screen" border="0" align=center></A>
 <BR>
 </center>';
 
-#<a href="http://tiger.census.gov/cgi-bin/mapgen?&lat=',$lat;
+#<a href="https://tiger.census.gov/cgi-bin/mapgen?&lat=',$lat;
 #print "&lon=$lon&on=states&iwd=400&iht=400&wid=1&ht=1&mark=$lon,$lat,redstar";
 #print '">Generate 1<sup>o</sup> <i>x</i> 1<sup>o</sup> map</a> 
-#<a href="http://tiger.census.gov/cgi-bin/mapgen?&lat=',$lat;
+#<a href="https://tiger.census.gov/cgi-bin/mapgen?&lat=',$lat;
 #print "&lon=$lon&on=states&iwd=400&iht=400&wid=10&ht=10&mark=$lon,$lat,redstar";
 #print '"><br>Generate 10<sup>o</sup> <i>x</i> 10<sup>o</sup> map</a> 
 #<br>
@@ -220,10 +220,10 @@ print '</pre>
 #-----------------------------------------
 
 #WEPP:Road Results v.";
-#print ' <a href="http://',$wepphost,'/fswepp/history/wrrver.html">';
+#print ' <a href="https://',$wepphost,'/fswepp/history/wrrver.html">';
 #print "$wrrver</a>
 #based on WEPP $weppver
-#<br><tt>http://$wepphost/fswepp</tt>
+#<br><tt>https://$wepphost/fswepp</tt>
 print "
 </BODY>
 </HTML>\n";

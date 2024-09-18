@@ -76,7 +76,7 @@
 #   $dayoffset -- account for which day of the week Jan 1 is: -1: Su; 0: Mo; 1: Tu; 2: We; 3: Th; 4: Fr; 5: Sa.
 
    $thisday = 1 + (localtime)[7];               # $yday, day of the year (0..364)
-   $thisyear = 1900 + (localtime)[5];           # http://perldoc.perl.org/functions/localtime.html
+   $thisyear = 1900 + (localtime)[5];           # https://perldoc.perl.org/functions/localtime.html
 
    if    ($thisyear == 2010) { $dayoffset = 4 } # Jan 1 is Friday
    elsif ($thisyear == 2011) { $dayoffset = 5 } # Jan 1 is Saturday
@@ -596,8 +596,8 @@ unlink $soilFile;	# DEH 01/13/2004
 ';
      open WEPPFILE, "<$outputFile";    binmode WEPPFILE;
       while (<WEPPFILE>) {
-#     's/\r\n/\n/';	# dos2unix:   http://www.perlmonks.org/?node_id=557248
-       s/\015$//;	# dos2unix:     http://lists.samba.org/archive/samba/2000-September/021008.html
+#     's/\r\n/\n/';	# dos2unix:   https://www.perlmonks.org/?node_id=557248
+       s/\015$//;	# dos2unix:     https://lists.samba.org/archive/samba/2000-September/021008.html
        chomp;
        print '      filewindow.document.writeln("', $_, '")',"\n";
       }
@@ -1383,7 +1383,7 @@ print "
 
 #  strip leading and trailing blanks on file name
 
-sub trim($)       # http://www.somacon.com/p114.php
+sub trim($)       # https://www.somacon.com/p114.php
 {
         my $string = shift;
         $string =~ s/^\s+//;

@@ -10,7 +10,7 @@
 # DEH 06/14/2000 fix working directory path for unix [modify]
 
 #  usage:
-#    <form ACTION="http://host/cgi-bin/fswepp/rc/climate.cli" method="post">
+#    <form ACTION="https://host/cgi-bin/fswepp/rc/climate.cli" method="post">
 #  parameters:
 #    'state'         
 #    'station'       
@@ -144,7 +144,7 @@
     if ($submitbutton =~ /modify/) {
 
       $CL = $state . "/" . $station;
-      $iam = "http://" . $wepphost . "/cgi-bin/fswepp/rc/climate.cli";
+      $iam = "https://" . $wepphost . "/cgi-bin/fswepp/rc/climate.cli";
       if ($platform eq "pc") {
          exec "perl ../rc/modpar.pl $CL $units $state $comefrom"
       }
@@ -162,7 +162,7 @@
     if ($submitbutton =~ /describe/) {
 
       $CL = $state . "/" . $station;
-      $iam = "http://" . $wepphost . "/cgi-bin/fswepp/rc/climate.cli";
+      $iam = "https://" . $wepphost . "/cgi-bin/fswepp/rc/climate.cli";
       if ($platform eq "pc") {
          exec "perl ../rc/descpar.pl $CL $units $iam"
       }
@@ -285,7 +285,7 @@ Content-Disposition: inline; filename="climate.cli"',"\n\n";
 # w/in 1 day; choose {[X] custom climate}; W:R looks for
 # user_id.cli.
 
-#    print '<META HTTP-EQUIV="Refresh" CONTENT="5; URL=http://forest.moscowfsl.wsu.edu/4702/wepproad/wrdyn.html">';
+#    print '<META HTTP-EQUIV="Refresh" CONTENT="5; URL=https://forest.moscowfsl.wsu.edu/4702/wepproad/wrdyn.html">';
     print "Content-type: text/html\n\n";
     print "<HTML>
  <HEAD>
@@ -323,7 +323,7 @@ Content-Disposition: inline; filename="climate.cli"',"\n\n";
     else {
        print "<a href=$comefrom>"
     }
-    print '<img src="http://',$wepphost,'/fswepp/images/retreat.gif"
+    print '<img src="https://',$wepphost,'/fswepp/images/retreat.gif"
       alt="Retreat" border="0" align=center></A>';
     print "</body></html>\n";
    }

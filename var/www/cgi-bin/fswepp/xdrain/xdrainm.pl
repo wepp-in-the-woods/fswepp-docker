@@ -8,7 +8,7 @@ use CGI qw(:standard escapeHTML);
 
 #  perl script: xdrainm.pl [XDRAIN Multiple climate files]
 #  usage: 
-#    <FORM method=post ACTION="http://host/cgi-bin/fswepp/xdrain/xdrainm.pl">
+#    <FORM method=post ACTION="https://host/cgi-bin/fswepp/xdrain/xdrainm.pl">
 #  parameters:
 #    Climate:		# get Climate (file name base)
 #    SoilType:		# get SoilType (1..5)
@@ -77,28 +77,28 @@ use CGI qw(:standard escapeHTML);
  <HEAD>
   <TITLE>X-DRAIN Results</TITLE>
  </HEAD>
- <BODY background="http://',$wepphost,'/fswepp/images/note.gif" link="1603F3" vlink="160A8C">
+ <BODY background="https://',$wepphost,'/fswepp/images/note.gif" link="1603F3" vlink="160A8C">
   <blockquote>
    <CENTER>
     <font face="Arial, Geneva, Helvetica">
      <table width="90%">
       <tr>
        <td>
-        <a href="JavaScript:window.history.go(-1)">
-         <IMG src="http://',$wepphost,'/fswepp/images/e-drain.gif" align="left" border=1
+        <a href="./xdrain.pl">
+         <IMG src="/fswepp/images/e-drain.gif" align="left" border=1
          width=50 height=50 alt="Return to X-DRAIN input screen"
          onMouseOver="window.status=',"'Return to X-DRAIN input screen'",'; return true"
          onMouseOut="window.status=',"' '",'; return true">
        </a>
       </td>
       <td align=center>
-       <img src="http://',$wepphost,'/fswepp/images/line.gif" alt="= birds on a wire =">
+       <img src="/fswepp/images/line.gif" alt="= birds on a wire =">
        <H3>X-Drain Results</H3>
-       <img src="http://',$wepphost,'/fswepp/images/line.gif" alt="= birds on a wire =">
+       <img src="https://',$wepphost,'/fswepp/images/line.gif" alt="= birds on a wire =">
       </td>
       <td>
-       <A HREF="http://',$wepphost,'/fswepp/docs/xdrainimg.html#xdout">
-        <IMG src="http://',$wepphost,'/fswepp/images/ipage.gif"
+       <A HREF="/fswepp/docs/xdrainimg.html#xdout">
+        <IMG src="/fswepp/images/ipage.gif"
         align="right" alt="Read the documentation" border=0
         onMouseOver="window.status=',"'Read the documentation'",'; return true"
         onMouseOut="window.status=',"' '",'; return true"></a>
@@ -111,30 +111,30 @@ use CGI qw(:standard escapeHTML);
 #    print "platform: $platform<br>\n";
     $climatefile = 'data/' . $cl . '.xdr';
     if (! -e  $climatefile) {
-           print "<font color=red>Invalid climate selection $climatefile</font><BR>";
+           print "<font color=red>Invalid climate selection </font><BR>";
            $cl = 1}
     else {
       &GetClimateHeaderInfo;
 #     &checkforEOF;
     }
     if ($st < 1 || $st > 5) {
-           print "<font color=red>Invalid soil type selection $st</font><BR>";
+           print "<font color=red>Invalid soil type selection </font><BR>";
            $st = 1;}
     if ($bl < 0 || $bl > 4) {
-           print "<font color=red>Invalid buffer length selection $bl</font><BR>";
+           print "<font color=red>Invalid buffer length selection </font><BR>";
            $bl = 1;}
     if ($bs < 1 || $bs > 4) {
-           print "<font color=red>Invalid buffer steepness selection $bs</font><BR>";
+           print "<font color=red>Invalid buffer steepness selection </font><BR>";
            $bs = 1;}
     if ($units ne "m" && $units ne "ft") { # need HTML error report & log
-           print "<font color=red>Invalid units: $units </font><BR>";
+           print "<font color=red>Invalid units </font><BR>";
            $units = "m";}
     $width = $width * 1;         # iron out some non-valid entries (i.e., 4.2.3.6)
     if ($units eq "m" and ($width < 1 || $width > 30)) {
-           print "<font color=red>Road width $width limited to between 1 and 30 m</font><BR>";
+           print "<font color=red>Road width limited to between 1 and 30 m</font><BR>";
            $width = 4;}
     elsif ($units eq "ft" and ($width <= 3 || $width > 100)) {
-           print "<font color=red>Road width $width limited to between 3 and 100 ft</font><BR>";
+           print "<font color=red>Road width limited to between 3 and 100 ft</font><BR>";
            $width = 13;}
 #    print "</CENTER>\n";
 
@@ -278,7 +278,7 @@ print "$stationnamel, $region $country -- \n$filedate<br>\n$createdby<br>\n";
 print '
      <br>
      <a href="JavaScript:window.history.go(-1)">
-      <img src="http://',$wepphost,'/fswepp/images/rtis.gif"
+      <img src="https://',$wepphost,'/fswepp/images/rtis.gif"
       alt="Return to input screen" border="0" align=center></A>
     </center>
     <br>
@@ -295,8 +295,8 @@ print '
        </font>
       </td>
       <td>
-       <a href="http://',$wepphost,'/fswepp/comments.html"  onClick="return confirm(\'You need to be connected to the Internet to e-mail comments. Shall I try?\')">
-       <img src="http://',$wepphost,'/fswepp/images/epaemail.gif" align="right" border=0></a>
+       <a href="https://',$wepphost,'/fswepp/comments.html"  onClick="return confirm(\'You need to be connected to the Internet to e-mail comments. Shall I try?\')">
+       <img src="https://',$wepphost,'/fswepp/images/epaemail.gif" align="right" border=0></a>
      </td>
     </tr>
    </table>

@@ -10,19 +10,19 @@
 # 19 July 2002 DEH fixed $title"; error - caught in some browsers...
 
 #  usage:
-#    <form ACTION="http://host/cgi-bin/fswepp/rc/showclimates.pl" method="post">
+#    <form ACTION="https://host/cgi-bin/fswepp/rc/showclimates.pl" method="post">
 #  parameters:
 #    state
 #    units		'm' or 'ft'
 #    action		'-download' or '-server'
-#    comefrom		'http://host/cgi-bin/fswepp/wr/wepproad.pl' ...
+#    comefrom		'https://host/cgi-bin/fswepp/wr/wepproad.pl' ...
 #    me
 #  reads:
 #    ../wepphost
 #    $state_file
 #  calls:
-#    <form name="sc" ACTION="http://host/cgi-bin/fswepp/rc/climate.cli" method="post">
-#    <form name="sc" ACTION="http://host/cgi-bin/fswepp/rc/copypar.pl" method="post">
+#    <form name="sc" ACTION="https://host/cgi-bin/fswepp/rc/climate.cli" method="post">
+#    <form name="sc" ACTION="https://host/cgi-bin/fswepp/rc/copypar.pl" method="post">
 
 #  FSWEPP, USDA Forest Service, Rocky Mountain Research Station, Soil & Water Engineering
 #  Science by Bill Elliot et alia                                      Code by David Hall
@@ -232,7 +232,7 @@ EOD
 ';
 
 #<a href="JavaScript:window.history.go(-1)">
-#<img src="http://',$wepphost,'/fswepp/images/retreat.gif"
+#<img src="https://',$wepphost,'/fswepp/images/retreat.gif"
 #  alt="Return to input screen" border="0" align=center></A>
 #				DEH 03/05/2001
  print '</CENTER>';

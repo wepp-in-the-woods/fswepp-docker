@@ -22,7 +22,7 @@
     $user_really=$ENV{'HTTP_X_FORWARDED_FOR'};          # DEH 11/14/2002
     $user_ID=$user_really if ($user_really ne '');      # DEH 11/14/2002
     $user_ID =~ tr/./_/;
-}
+  }
 
 # $user_ID = '166_2_22_221';
 
@@ -32,16 +32,8 @@
 #   $ipd = '166_2_22_221';                      # get from caller or argument list
 #   $debug=1;
 
-print "Content-type: text/html\n\n";
-print '<html>
- <head>
-  <title>Personal Climate Lister</title>
-  <!-- climatefiles.pl version ',$version,' -->
-  <!-- https://forest.moscowfsl.wsu.edu/cgi-bin/fswepp/rc/climatefiles.pl?ip=166.2.22.221&me=a -->
-  <!-- ip is optional; me is optional: personality [a-zA-Z] -->
- </head>
- <BODY bgcolor="white" link="#1603F3" vlink="160A8C">
-';
+print "Content-type: text/plain\n\n";
+print "Personal Climate Lister\n\n";
 
 ### get custom climates, if any ###
 
@@ -66,26 +58,18 @@ print '<html>
       $num_cli += 1;
     }
 
-    print "  <h3> $num_cli personal climates for $user_ID</h3>\n";
-    if ($num_cli == 0)
-      {print "No personal climates exist<p><hr>\n"}
-    else {
-      print '
-  <form method="post" action="../rc/manageclimates.pl">
-   <SELECT NAME="Climate" SIZE="',$num_cli,'">
-    ';
+    print "$num_cli personal climates for $user_ID\n\n";
+    if ($num_cli > 0) {
       for $ii (0..$num_cli-1) {
-        print '    <OPTION VALUE="';
-        print $climate_file[$ii];
-        print '"> '. $climate_name[$ii] . "\n";
+        print $climate_file[$ii] . "\t" . $climate_name[$ii] . "\n";
       }
-      print '   </SELECT>
-  </form>
- </body>
-</html>
-';
-    }		# if ($num_cli == 0)
+      print "\n";
+    }           # if ($num_cli == 0)
+print '
 
+  <!-- https://forest.moscowfsl.wsu.edu/cgi-bin/fswepp/rc/climatefilestsv.pl?ip=166.2.22.221&me=a -->
+  <!-- ip is optional; me is optional: personality [a-zA-Z] -->
+';
 #-------------------------------
 
 sub ReadParse {
@@ -131,4 +115,5 @@ sub ReadParse {
   }
   return 1;
  }
+
 

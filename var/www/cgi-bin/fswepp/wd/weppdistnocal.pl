@@ -173,7 +173,7 @@ print <<'theEnd2';
   <META NAME="Suggested use" CONTENT="">
   <META NAME="Keywords" CONTENT="">
   <META NAME="Contributors" CONTENT="USDA Forest Service, Rocky Mountain Research Station, Moscow, ID: Bill Elliot and David Hall">
-  <META NAME="Source" content="Run online at http://forest.moscowfsl.wsu.edu/fswepp/">
+  <META NAME="Source" content="Run online at https://forest.moscowfsl.wsu.edu/fswepp/">
 
   <SCRIPT LANGUAGE = "JavaScript" type="TEXT/JAVASCRIPT">
   <!--
@@ -204,7 +204,7 @@ print <<'theEnd2';
   var previous_what=''  // for show_help
 
 function popupclosest() {
-url = 'http://forest.moscowfsl.wsu.edu/fswepp/rc/closest.php?units=ft';
+url = 'https://forest.moscowfsl.wsu.edu/fswepp/rc/closest.php?units=ft';
 width=900;
 height=600;
 popupwindow = window.open(url,'popupwindow','toolbar=no,location=no,status=no,directories=no,menubar=no,scrollbars=yes,resizable=yes,width='+width+',height='+height);
@@ -655,8 +655,8 @@ print '<BODY bgcolor="white"
   <font face="Arial, Geneva, Helvetica">
    <table width=100% border=0>
     <tr><td> 
-       <a href="http://',$wepphost,'/fswepp/">
-       <IMG src="http://',$wepphost,'/fswepp/images/fsweppic2.jpg" width=75 height=75
+       <a href="https://',$wepphost,'/fswepp/">
+       <IMG src="https://',$wepphost,'/fswepp/images/fsweppic2.jpg" width=75 height=75
        align="left" alt="Back to FS WEPP menu" border=0></a>
     <td align=center>
        <hr>
@@ -667,7 +667,7 @@ print '<BODY bgcolor="white"
        <IMG src="/fswepp/images/epage.gif" align="right" alt="" border=0>
    </table>
   <center>
-  <FORM name="weppdist" method="post" ACTION="http://',$wepphost,'/cgi-bin/fswepp/wdnc/wdnocal.pl">
+  <FORM name="weppdist" method="post" ACTION="https://',$wepphost,'/cgi-bin/fswepp/wdnc/wdnocal.pl">
   <input type="hidden" size="1" name="me" value="',$me,'">
   <input type="hidden" size="1" name="units" value="',$units,'">
 <br>
@@ -926,7 +926,7 @@ print <<'theEnd';
 theEnd
 print '
  <font size=-1>
-<a href="http://',$wepphost,'/fswepp/comments.html" ';
+<a href="https://',$wepphost,'/fswepp/comments.html" ';
 if ($wepphost eq 'localhost') {print 'onClick="return confirm(\'You must be connected to the Internet to e-mail comments. Shall I try?\')"'};                                  
 print '>                                                              
 <img src="/fswepp/images/epaemail.gif" align="right" border=0></a>
@@ -936,7 +936,7 @@ print '>
 <b>Citation:</b><br>
 Elliot, William J.; Hall, David E. 2010. Disturbed WEPP No Cal Model. Ver. ', $version,'.
 Moscow, ID: U.S. Department of Agriculture, Forest Service, Rocky Mountain Research Station. 
-Online at &lt;http://forest.moscowfsl.wsu.edu/fswepp&gt;.
+Online at &lt;https://forest.moscowfsl.wsu.edu/fswepp&gt;.
 <br><br>
   Interface v.
   <a href="javascript:popuphistory()">',$version,'</a><br>
