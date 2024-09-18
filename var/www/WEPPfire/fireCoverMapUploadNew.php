@@ -7,7 +7,7 @@
 </p>
 
 <form name="fireCoverMapReceived" method="post" 
-    action= "http://<?php echo ("".$_SERVER["HTTP_HOST"].""); ?>/WEPPfire/fireCoverMapReceive.php" 
+    action= "https://<?php echo ("".$_SERVER["HTTP_HOST"].""); ?>/WEPPfire/fireCoverMapReceive.php" 
     enctype="multipart/form-data"> <br />
   <label for="name">A short name for this map:</label><br />
   <input type="text" name="name" value="" size="50"><br />
