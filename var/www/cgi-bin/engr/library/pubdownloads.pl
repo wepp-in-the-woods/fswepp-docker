@@ -2,10 +2,10 @@
 
 # showpubhits.pl?pub=2001a&title=something
 
-# /home/dhall/logs/logs/ac2008Jan13.log:lj512351.crawl.yahoo.net - - [13/Jan/2008:07:22:35 -0800] "GET /engr/library/Hall/Hall2001a/2001a.pdf HTTP/1.0" 200 385850 "-" "Mozilla/5.0 (compatible; Yahoo! Slurp; http://help.yahoo.com/help/us/ysearch/slurp)"
-# /home/dhall/logs/logs/ac2008Mar09.log:lj512110.crawl.yahoo.net - - [09/Mar/2008:21:40:10 -0800] "GET /engr/library/Hall/Hall2001a/2001a.pdf HTTP/1.0" 200 385850 "-" "Mozilla/5.0 (compatible; Yahoo! Slurp; http://help.yahoo.com/help/us/ysearch/slurp)"
-# /home/dhall/logs/logs/ac2008Mar23.log:lj512110.crawl.yahoo.net - - [24/Mar/2008:01:06:30 -0800] "GET /engr/library/Hall/Hall2001a/2001a.pdf HTTP/1.0" 304 - "-" "Mozilla/5.0 (compatible; Yahoo! Slurp; http://help.yahoo.com/help/us/ysearch/slurp)"
-# /home/dhall/logs/logs/ac2008Mar30.log:lj512110.crawl.yahoo.net - - [31/Mar/2008:14:23:26 -0800] "GET /engr/library/Hall/Hall2001a/2001a.pdf HTTP/1.0" 304 - "-" "Mozilla/5.0 (compatible; Yahoo! Slurp; http://help.yahoo.com/help/us/ysearch/slurp)"';
+# /home/dhall/logs/logs/ac2008Jan13.log:lj512351.crawl.yahoo.net - - [13/Jan/2008:07:22:35 -0800] "GET /engr/library/Hall/Hall2001a/2001a.pdf HTTP/1.0" 200 385850 "-" "Mozilla/5.0 (compatible; Yahoo! Slurp; https://help.yahoo.com/help/us/ysearch/slurp)"
+# /home/dhall/logs/logs/ac2008Mar09.log:lj512110.crawl.yahoo.net - - [09/Mar/2008:21:40:10 -0800] "GET /engr/library/Hall/Hall2001a/2001a.pdf HTTP/1.0" 200 385850 "-" "Mozilla/5.0 (compatible; Yahoo! Slurp; https://help.yahoo.com/help/us/ysearch/slurp)"
+# /home/dhall/logs/logs/ac2008Mar23.log:lj512110.crawl.yahoo.net - - [24/Mar/2008:01:06:30 -0800] "GET /engr/library/Hall/Hall2001a/2001a.pdf HTTP/1.0" 304 - "-" "Mozilla/5.0 (compatible; Yahoo! Slurp; https://help.yahoo.com/help/us/ysearch/slurp)"
+# /home/dhall/logs/logs/ac2008Mar30.log:lj512110.crawl.yahoo.net - - [31/Mar/2008:14:23:26 -0800] "GET /engr/library/Hall/Hall2001a/2001a.pdf HTTP/1.0" 304 - "-" "Mozilla/5.0 (compatible; Yahoo! Slurp; https://help.yahoo.com/help/us/ysearch/slurp)"';
 
 use URI::Escape;
 
@@ -29,8 +29,8 @@ use URI::Escape;
 #   $keyword            'Modeling, WEPP, Forest Fire, Erosion, Variability'
 #   $authorblock        '<table width=80% align=center border=0>
 #                        <tr><td align=center>...'
-#   $links              '<a href="http://forest.moscowfsl.wsu.edu/engr/library/Elliot/2001z/">PDF</a> [2 MB]'
-#   $plinks             '<a href="http://forest.moscowfsl.wsu.edu/engr/library/Elliot/2001z/">PDF</a> [2 MB]'
+#   $links              '<a href="https://forest.moscowfsl.wsu.edu/engr/library/Elliot/2001z/">PDF</a> [2 MB]'
+#   $plinks             '<a href="https://forest.moscowfsl.wsu.edu/engr/library/Elliot/2001z/">PDF</a> [2 MB]'
 #   $treesearch         'pubs/29445'
 
 #   &print_head ($title);
@@ -56,8 +56,8 @@ chomp $title;
 use URI::Escape;
 uri_escape($title);
 # $title =~ s/([^A-Za-z0-9])/sprintf("%%%02X", ord($1))/seg;
-# http://support.internetconnection.net/CODE_LIBRARY/Perl_URL_Encode_and_Decode.shtml
-# http://melecio.org/urlencode-urldecode-in-perl
+# https://support.internetconnection.net/CODE_LIBRARY/Perl_URL_Encode_and_Decode.shtml
+# https://melecio.org/urlencode-urldecode-in-perl
 
 ###
 

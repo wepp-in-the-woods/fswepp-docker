@@ -42,7 +42,7 @@
     @counts = values %IPs;
 #   @popular = (sort { $IPs{$b} <=> $IPs{$b} } @unique)[0..4];	# show the five most popular tags from the list
 
-#	http://www.perl.com/pub/2006/11/02/all-about-hashes.html   Hash Crash Course
+#	https://www.perl.com/pub/2006/11/02/all-about-hashes.html   Hash Crash Course
 #    my %histogram;
 #    $histogram{$_}++ for @list;
 

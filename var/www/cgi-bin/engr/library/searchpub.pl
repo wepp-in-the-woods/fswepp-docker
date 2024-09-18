@@ -69,8 +69,8 @@ print "Content-Type: text/html\n\n";  # Ensure headers are printed first
 #   $keyword		'Modeling, WEPP, Forest Fire, Erosion, Variability'
 #   $authorblock	'<table width=80% align=center border=0>
 #			 <tr><td align=center>...'
-#   $links              '<a href="http://forest.moscowfsl.wsu.edu/engr/library/Elliot/2001z/">PDF</a> [2 MB]'
-#   $plinks             '<a href="http://forest.moscowfsl.wsu.edu/engr/library/Elliot/2001z/">PDF</a> [2 MB]'
+#   $links              '<a href="https://forest.moscowfsl.wsu.edu/engr/library/Elliot/2001z/">PDF</a> [2 MB]'
+#   $plinks             '<a href="https://forest.moscowfsl.wsu.edu/engr/library/Elliot/2001z/">PDF</a> [2 MB]'
 #   $treesearch		'pubs/29445'
 
 
@@ -239,8 +239,8 @@ print "
            if ($treesearch ne '') {
              print '
     [Available through
-    <img src="http://treesearch.fs.fed.us/favicon.ico" width=16 height=16>
-    <a href="http://treesearch.fs.fed.us/'.$treesearch.'" target="_tree">Treesearch</a>]
+    <img src="https://treesearch.fs.fed.us/favicon.ico" width=16 height=16>
+    <a href="https://treesearch.fs.fed.us/'.$treesearch.'" target="_tree">Treesearch</a>]
 ';
            }
            chomp $keyword;
@@ -268,10 +268,10 @@ chomp $title;
 use URI::Escape;
 uri_escape($title);
 # $title =~ s/([^A-Za-z0-9])/sprintf("%%%02X", ord($1))/seg;
-# http://support.internetconnection.net/CODE_LIBRARY/Perl_URL_Encode_and_Decode.shtml
-# http://melecio.org/urlencode-urldecode-in-perl
+# https://support.internetconnection.net/CODE_LIBRARY/Perl_URL_Encode_and_Decode.shtml
+# https://melecio.org/urlencode-urldecode-in-perl
              print "
-           <br><b><a href=\"http://forest.moscowfsl.wsu.edu/cgi-bin/engr/library/showpubhits.pl?pub=$pub&code=200&title=$title\" target=\"_hits\">Downloads</a>:</b> @pubcount[0]
+           <br><b><a href=\"https://forest.moscowfsl.wsu.edu/cgi-bin/engr/library/showpubhits.pl?pub=$pub&code=200&title=$title\" target=\"_hits\">Downloads</a>:</b> @pubcount[0]
 ";
              }
            }
@@ -304,7 +304,7 @@ if ($countem) {
  if (!$bare) {			# 2005.07.12 DEH
      print '
   <center>
-   <form action="http://forest.moscowfsl.wsu.edu/engr/library/">
+   <form action="https://forest.moscowfsl.wsu.edu/engr/library/">
     <input type="submit" value="New search">
    </form>
   </center>
@@ -503,7 +503,7 @@ print <<'theEnd';
  </head>
 
  <body link="green" bgcolor="#ffffff" onLoad="self.focus()">
-  <base href="http://forest.moscowfsl.wsu.edu/engr/">
+  <base href="https://forest.moscowfsl.wsu.edu/engr/">
   <table width="100%" border="0" cellpadding="0" cellspacing="0">
    <tr>
     <td rowspan="3" bgcolor="#FFFFFF" valign="top" width="149"><img src="/images/logo.gif" alt="Rocky Mountain Research Station Logo" width="149" height="116"></td>
@@ -517,7 +517,7 @@ print <<'theEnd';
      <a href="/people/" class="m1">Moscow Personnel</a>&nbsp;
       |&nbsp; <a href="/siteindex.html" class="m1">Site Index</a>&nbsp;
       |&nbsp; <a href="/sitemap.html" class="m1">Site Map</a>&nbsp; 
-      |&nbsp; <a href="http://forest.moscowfsl.wsu.edu/" class="m1">Moscow Home</a></td>
+      |&nbsp; <a href="https://forest.moscowfsl.wsu.edu/" class="m1">Moscow Home</a></td>
     <td bgcolor="#669966" width="11"><img src="/images/spacer.gif" width="11" height="20"></td>
   </tr>
   <tr> 
@@ -561,7 +561,7 @@ sub cite {
 #  <a href="$citationserver$citationpath?pub=$pub" target="index">"
 # in $citationta
 
-   $citationserver = 'http://forest.moscowfsl.wsu.edu';
+   $citationserver = 'https://forest.moscowfsl.wsu.edu';
    $citationpath = '/cgi-bin/engr/library/searchpub.pl';
    $anchor = index($citationt,'<a>');
    if ($anchor < 0) {

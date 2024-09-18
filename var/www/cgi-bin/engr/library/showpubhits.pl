@@ -7,10 +7,10 @@
 #		  add hover of log entry over document download number
 #  2008-04-17 09:50 showpubhits.pl
 
-# /home/dhall/logs/logs/ac2008Jan13.log:lj512351.crawl.yahoo.net - - [13/Jan/2008:07:22:35 -0800] "GET /engr/library/Hall/Hall2001a/2001a.pdf HTTP/1.0" 200 385850 "-" "Mozilla/5.0 (compatible; Yahoo! Slurp; http://help.yahoo.com/help/us/ysearch/slurp)"
-# /home/dhall/logs/logs/ac2008Mar09.log:lj512110.crawl.yahoo.net - - [09/Mar/2008:21:40:10 -0800] "GET /engr/library/Hall/Hall2001a/2001a.pdf HTTP/1.0" 200 385850 "-" "Mozilla/5.0 (compatible; Yahoo! Slurp; http://help.yahoo.com/help/us/ysearch/slurp)"
-# /home/dhall/logs/logs/ac2008Mar23.log:lj512110.crawl.yahoo.net - - [24/Mar/2008:01:06:30 -0800] "GET /engr/library/Hall/Hall2001a/2001a.pdf HTTP/1.0" 304 - "-" "Mozilla/5.0 (compatible; Yahoo! Slurp; http://help.yahoo.com/help/us/ysearch/slurp)"
-# /home/dhall/logs/logs/ac2008Mar30.log:lj512110.crawl.yahoo.net - - [31/Mar/2008:14:23:26 -0800] "GET /engr/library/Hall/Hall2001a/2001a.pdf HTTP/1.0" 304 - "-" "Mozilla/5.0 (compatible; Yahoo! Slurp; http://help.yahoo.com/help/us/ysearch/slurp)"';
+# /home/dhall/logs/logs/ac2008Jan13.log:lj512351.crawl.yahoo.net - - [13/Jan/2008:07:22:35 -0800] "GET /engr/library/Hall/Hall2001a/2001a.pdf HTTP/1.0" 200 385850 "-" "Mozilla/5.0 (compatible; Yahoo! Slurp; https://help.yahoo.com/help/us/ysearch/slurp)"
+# /home/dhall/logs/logs/ac2008Mar09.log:lj512110.crawl.yahoo.net - - [09/Mar/2008:21:40:10 -0800] "GET /engr/library/Hall/Hall2001a/2001a.pdf HTTP/1.0" 200 385850 "-" "Mozilla/5.0 (compatible; Yahoo! Slurp; https://help.yahoo.com/help/us/ysearch/slurp)"
+# /home/dhall/logs/logs/ac2008Mar23.log:lj512110.crawl.yahoo.net - - [24/Mar/2008:01:06:30 -0800] "GET /engr/library/Hall/Hall2001a/2001a.pdf HTTP/1.0" 304 - "-" "Mozilla/5.0 (compatible; Yahoo! Slurp; https://help.yahoo.com/help/us/ysearch/slurp)"
+# /home/dhall/logs/logs/ac2008Mar30.log:lj512110.crawl.yahoo.net - - [31/Mar/2008:14:23:26 -0800] "GET /engr/library/Hall/Hall2001a/2001a.pdf HTTP/1.0" 304 - "-" "Mozilla/5.0 (compatible; Yahoo! Slurp; https://help.yahoo.com/help/us/ysearch/slurp)"';
 
 # to do: 
 #    reorder -- call 'dig' only if matches code specified
@@ -39,8 +39,8 @@ use URI::Escape;
 #   $keyword            'Modeling, WEPP, Forest Fire, Erosion, Variability'
 #   $authorblock        '<table width=80% align=center border=0>
 #                        <tr><td align=center>...'
-#   $links              '<a href="http://forest.moscowfsl.wsu.edu/engr/library/Elliot/2001z/">PDF</a> [2 MB]'
-#   $plinks             '<a href="http://forest.moscowfsl.wsu.edu/engr/library/Elliot/2001z/">PDF</a> [2 MB]'
+#   $links              '<a href="https://forest.moscowfsl.wsu.edu/engr/library/Elliot/2001z/">PDF</a> [2 MB]'
+#   $plinks             '<a href="https://forest.moscowfsl.wsu.edu/engr/library/Elliot/2001z/">PDF</a> [2 MB]'
 #   $treesearch         'pubs/29445'
 
 #   &print_head ($title);
@@ -71,9 +71,9 @@ else {print "  <title>Moscow FSL - Engineering Publications search results</titl
 # following parsing works for more than 1 access file
 # dhall@forest:~/logs/logs> fgrep 2008a.pdf ac*.log | fgrep ' 200 '
 # [1 ac*.log file]
-# 65.55.106.155 - - [24/Jul/2009:14:10:48 -0700] "GET /engr/library/Robichaud/Robichaud2008a/2008a.pdf HTTP/1.1" 200 3671898 "-" "msnbot/2.0b (+http://search.msn.com/msnbot.htm)"
+# 65.55.106.155 - - [24/Jul/2009:14:10:48 -0700] "GET /engr/library/Robichaud/Robichaud2008a/2008a.pdf HTTP/1.1" 200 3671898 "-" "msnbot/2.0b (+https://search.msn.com/msnbot.htm)"
 # [>1 ac*.log file]
-# ac2009Jul21.log:65.55.106.155 - - [24/Jul/2009:14:10:48 -0700] "GET /engr/library/Robichaud/Robichaud2008a/2008a.pdf HTTP/1.1" 200 3671898 "-" "msnbot/2.0b (+http://search.msn.com/msnbot.htm)"
+# ac2009Jul21.log:65.55.106.155 - - [24/Jul/2009:14:10:48 -0700] "GET /engr/library/Robichaud/Robichaud2008a/2008a.pdf HTTP/1.1" 200 3671898 "-" "msnbot/2.0b (+https://search.msn.com/msnbot.htm)"
 
   for ($i=0; $i<=$#goop; $i++) {
 
@@ -110,7 +110,7 @@ else {print "  <title>Moscow FSL - Engineering Publications search results</titl
 # print $site;                  #       whitepine.moscow.rmrs.fs.fed.us
 
     $date=substr(@goop[$i],$loc_start2,$len_date);
-#      $ref = index(@goop[$i],'http:',0);
+#      $ref = index(@goop[$i],'https:',0);
 #      $ref = substr(@goop[$i],$ref);
 #      chomp $ref;
 

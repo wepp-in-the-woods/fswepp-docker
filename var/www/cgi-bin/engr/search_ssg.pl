@@ -4,7 +4,7 @@
 # Simple Search                 Version 1.0                                  #
 # Copyright 1996 Matt Wright    mattw@scriptarchive.com                      #
 # Created 12/16/95              Last Modified 12/16/95                       #
-# Scripts Archive at:           http://www.scriptarchive.com/                #
+# Scripts Archive at:           https://www.scriptarchive.com/                #
 ##############################################################################
 # COPYRIGHT NOTICE                                                           #
 # Copyright 1996 Matthew M. Wright  All Rights Reserved.                     #
@@ -26,16 +26,16 @@
 $version='2014.10.15';
 
 #$basedir = '/home/httpd/html/ssg/';
-#$baseurl = 'http://forest.moscowfsl.wsu.edu/ssg/';
+#$baseurl = 'https://forest.moscowfsl.wsu.edu/ssg/';
 #$basedir = '/srv/www/ssg/';						# 2004.11.04
 $basedir = '/var/www/ssg/';						# 2014.10.15
-$baseurl = 'http://forest.moscowfsl.wsu.edu/ssg/';			# 2004.11.04
+$baseurl = 'https://forest.moscowfsl.wsu.edu/ssg/';			# 2004.11.04
 @files = ('*.html');
 $title = 'Slope Stability Reference Guide for National Forests in the U.S.';
-# $title_url = 'http://forest.moscowfsl.wsu.edu/ssg/';
-# $search_url = 'http://forest.moscowfsl.wsu.edu/ssg/search_search.html';
-$title_url = 'http://forest.moscowfsl.wsu.edu/ssg/';			# 2004.11.14
-$search_url = 'http://forest.moscowfsl.wsu.edu/ssg/search_search.html';	# 2004.11.04
+# $title_url = 'https://forest.moscowfsl.wsu.edu/ssg/';
+# $search_url = 'https://forest.moscowfsl.wsu.edu/ssg/search_search.html';
+$title_url = 'https://forest.moscowfsl.wsu.edu/ssg/';			# 2004.11.14
+$search_url = 'https://forest.moscowfsl.wsu.edu/ssg/search_search.html';	# 2004.11.04
 
 # Done                                                                       #
 ##############################################################################
@@ -62,7 +62,7 @@ $search_url = 'http://forest.moscowfsl.wsu.edu/ssg/search_search.html';	# 2004.1
 ";
 
     print '
-  <form method=POST action="http://forest.moscowfsl.wsu.edu/cgi-bin/engr/search_ssg.pl">
+  <form method=POST action="https://forest.moscowfsl.wsu.edu/cgi-bin/engr/search_ssg.pl">
    <center>
     <table border=0 bgcolor="green" cellpadding=6>
      <tr>
@@ -144,7 +144,7 @@ $search_url = 'http://forest.moscowfsl.wsu.edu/ssg/search_search.html';	# 2004.1
 print "
    <hr size=7 width=75%><font size=-2>
    $version<br>
-   Search Script written by Matt Wright and can be found at <a href=\"http://www.scriptarchive.com/\">Matt's Script Archive</a>
+   Search Script written by Matt Wright and can be found at <a href=\"https://www.scriptarchive.com/\">Matt's Script Archive</a>
 ";
   print "
  </body>
@@ -321,7 +321,7 @@ sub return_html {
    </ul>
    <hr size=7 width=75%><font size=-2>
    $version<br>
-   Search Script written by Matt Wright and can be found at <a href=\"http://www.scriptarchive.com/\">Matt's Script Archive</a>
+   Search Script written by Matt Wright and can be found at <a href=\"https://www.scriptarchive.com/\">Matt's Script Archive</a>
 ";
   print "
  </body>
