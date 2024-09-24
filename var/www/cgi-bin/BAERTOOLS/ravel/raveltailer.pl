@@ -1,16 +1,14 @@
 #! /usr/bin/perl
 
-#   $lines=$ARGV[0];
+$lines = 200;
 
-   $lines=200;
+@results = `tail -$lines working/ravel.log`;
+@results = reverse(@results);
+$wc      = `wc working/ravel.log`;
+@words   = split " ", $wc;
+$runs    = @words[0];
 
-   @results=`tail -$lines working/ravel.log`;
-   @results=reverse(@results);
-   $wc  = `wc working/ravel.log`;
-   @words = split " ", $wc;
-   $runs = @words[0];
-
-   $lines=$runs if ($runs<$lines);
+$lines = $runs if ( $runs < $lines );
 
 print "Content-type: text/html\n\n";
 print "<HTML>

@@ -1,10 +1,10 @@
-#! /usr/bin/perl
-#!/fsapps/fssys/bin/perl
+#!/usr/bin/perl
+
+use CGI qw(escapeHTML);
 
 # showclimates.pl  --  
 
-  $version='2009.09.03';
-#  $version=2009.09.03;
+$version='2009.09.03';
 
 # 19 February 2003 DEH added "USDA FS Rock:Clime" and specified font
 # 19 July 2002 DEH fixed $title"; error - caught in some browsers...
@@ -43,11 +43,11 @@
 
     &ReadParse(*parameters);
 
-    $state=$parameters{'state'};       
-    $units=$parameters{'units'};
-    $action=$parameters{'action'};
-    $comefrom=$parameters{'comefrom'};
-    $me=$parameters{'me'};
+      $state = escapeHTML($parameters{'state'});       
+      $units = escapeHTML($parameters{'units'});
+      $action = escapeHTML($parameters{'action'});
+      $comefrom = escapeHTML($parameters{'comefrom'});
+      $me = escapeHTML($parameters{'me'});
 
     $unixserver="false";
 

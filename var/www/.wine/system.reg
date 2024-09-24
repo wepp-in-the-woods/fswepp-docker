@@ -30989,8 +30989,8 @@ WINE REGISTRY Version 2
 "CommonPictures"=str(2):"%PUBLIC%\\Pictures"
 "CommonVideo"=str(2):"%PUBLIC%\\Videos"
 
-[Software\\Microsoft\\Windows\\CurrentVersion\\Fonts] 1725908949
-#time=1db02ebbf889426
+[Software\\Microsoft\\Windows\\CurrentVersion\\Fonts] 1727116120
+#time=1db0de669df0540
 "Courier"="coure.fon"
 "DejaVu Sans (TrueType)"="Z:\\usr\\share\\fonts\\truetype\\dejavu\\DejaVuSans.ttf"
 "DejaVu Sans Bold (TrueType)"="Z:\\usr\\share\\fonts\\truetype\\dejavu\\DejaVuSans-Bold.ttf"
@@ -33302,8 +33302,8 @@ WINE REGISTRY Version 2
 [Software\\Microsoft\\Windows NT\\CurrentVersion\\FontMapper] 1697163568
 #time=1d9fd7bb187c20a
 
-[Software\\Microsoft\\Windows NT\\CurrentVersion\\Fonts] 1725908949
-#time=1db02ebbf8893a4
+[Software\\Microsoft\\Windows NT\\CurrentVersion\\Fonts] 1727116120
+#time=1db0de669df043c
 "Courier"="coure.fon"
 "DejaVu Sans (TrueType)"="Z:\\usr\\share\\fonts\\truetype\\dejavu\\DejaVuSans.ttf"
 "DejaVu Sans Bold (TrueType)"="Z:\\usr\\share\\fonts\\truetype\\dejavu\\DejaVuSans-Bold.ttf"
@@ -34901,9 +34901,9 @@ WINE REGISTRY Version 2
 "InfPath"="winehid.inf"
 "InfSection"="device_section"
 
-[System\\CurrentControlSet\\Control\\ComputerName\\ComputerName] 1722763195
-#time=1dae64f7872f0f8
-"ComputerName"="A4BEE8861D34"
+[System\\CurrentControlSet\\Control\\ComputerName\\ComputerName] 1727116118
+#time=1db0de66892886a
+"ComputerName"="8D6AC1DB815A"
 
 [System\\CurrentControlSet\\Control\\ContentIndex\\Language\\Neutral] 1697163568
 #time=1d9fd7bb186f4f6
@@ -34915,16 +34915,16 @@ WINE REGISTRY Version 2
 #time=1d9fd7bb1d6d002
 "DeviceInstance"="HID\\VID_0000&PID_0000\\0&WINEMOUSE&0&0"
 
-[System\\CurrentControlSet\\Control\\DeviceClasses\\{378DE44C-56EF-11D1-BC8C-00A0C91405DD}\\##?#HID#VID_0000&PID_0000#0&WINEMOUSE&0&0#{378DE44C-56EF-11D1-BC8C-00A0C91405DD}\\#] 1725908949
-#time=1db02ebbf9af774
+[System\\CurrentControlSet\\Control\\DeviceClasses\\{378DE44C-56EF-11D1-BC8C-00A0C91405DD}\\##?#HID#VID_0000&PID_0000#0&WINEMOUSE&0&0#{378DE44C-56EF-11D1-BC8C-00A0C91405DD}\\#] 1727116120
+#time=1db0de669e4d056
 "SymbolicLink"="\\\\?\\HID#VID_0000&PID_0000#0&WINEMOUSE&0&0#{378DE44C-56EF-11D1-BC8C-00A0C91405DD}"
 
 [System\\CurrentControlSet\\Control\\DeviceClasses\\{4D1E55B2-F16F-11CF-88CB-001111000030}\\##?#HID#VID_0000&PID_0000#0&WINEMOUSE&0&0#{4D1E55B2-F16F-11CF-88CB-001111000030}] 1697163569
 #time=1d9fd7bb1d6ae56
 "DeviceInstance"="HID\\VID_0000&PID_0000\\0&WINEMOUSE&0&0"
 
-[System\\CurrentControlSet\\Control\\DeviceClasses\\{4D1E55B2-F16F-11CF-88CB-001111000030}\\##?#HID#VID_0000&PID_0000#0&WINEMOUSE&0&0#{4D1E55B2-F16F-11CF-88CB-001111000030}\\#] 1725908949
-#time=1db02ebbf96e486
+[System\\CurrentControlSet\\Control\\DeviceClasses\\{4D1E55B2-F16F-11CF-88CB-001111000030}\\##?#HID#VID_0000&PID_0000#0&WINEMOUSE&0&0#{4D1E55B2-F16F-11CF-88CB-001111000030}\\#] 1727116120
+#time=1db0de6697d6b00
 "SymbolicLink"="\\\\?\\HID#VID_0000&PID_0000#0&WINEMOUSE&0&0#{4D1E55B2-F16F-11CF-88CB-001111000030}"
 
 [System\\CurrentControlSet\\Control\\hivelist] 1697163568
@@ -35620,11 +35620,11 @@ WINE REGISTRY Version 2
 #time=1d9fd7bb1b99604
 "ServiceDll"="C:\\windows\\system32\\wiaservc.dll"
 
-[System\\CurrentControlSet\\Services\\Tcpip\\Parameters] 1722763195
-#time=1dae64f7872ed60
+[System\\CurrentControlSet\\Services\\Tcpip\\Parameters] 1727116118
+#time=1db0de668928414
 "DataBasePath"="C:\\windows\\system32\\drivers"
 "Domain"=""
-"Hostname"="a4bee8861d34"
+"Hostname"="8d6ac1db815a"
 
 [System\\CurrentControlSet\\Services\\TermService] 1697163568
 #time=1d9fd7bb1b9e190

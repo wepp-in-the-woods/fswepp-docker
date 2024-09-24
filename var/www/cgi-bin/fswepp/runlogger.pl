@@ -1,4 +1,6 @@
 #!/usr/bin/perl
+use CGI qw(escapeHTML);
+
 #
 # read given FS WEPP runlog file and return HTML
 #
@@ -14,20 +16,23 @@
 #      ?ip=166.2.22.220		-- personality ''
 #      ?ip=166.2.22.220a	-- personality 'a'
 
-   &ReadParse(*parameters);
-   $ip=$parameters{'ip'};			# 166.2.22.221';
-   if ($ip ne '') {
-     $ipd = $ip;
-     $ipd =~ tr/./_/;
-   }
+&ReadParse(*parameters);
+$ip = escapeHTML($parameters{'ip'});
+# https://forest.moscowfsl.wsu.edu/cgi-bin/fswepp/runlogger.pl?ip=<meta%20http-equiv=Set-Cookie%20content="testlfyg=5195">
+
+if ( $ip ne '' ) {
+    $ipd = $ip;
+    $ipd =~ tr/./_/;
+}
+
 #   $ipd = '166_2_22_221';			# get from caller or argument list
-   else {					# who am I?
-     $ip=$ENV{'REMOTE_ADDR'};
-     $user_really=$ENV{'HTTP_X_FORWARDED_FOR'};
-     $ip=$user_really if ($user_really ne '');
-     $ipd = $ip;
-     $ipd =~ tr/./_/;
-   }
+else {    # who am I?
+    $ip          = $ENV{'REMOTE_ADDR'};
+    $user_really = $ENV{'HTTP_X_FORWARDED_FOR'};
+    $ip          = $user_really if ( $user_really ne '' );
+    $ipd         = $ip;
+    $ipd =~ tr/./_/;
+}
 
 ##################################################
 #   validate dotted quad
@@ -35,44 +40,44 @@
 
 # strip single letter (a-zA-Z)($me) off end if it exists
 
- $ipp = $ip;
- $ipp = substr($ip, 0, -1) if ($ip =~ m/[a-z]$/i);
- $me = substr($ip, -1, 1) if ($ip =~ m/[a-z]$/i);
+$ipp = $ip;
+$ipp = substr( $ip, 0,  -1 ) if ( $ip =~ m/[a-z]$/i );
+$me  = substr( $ip, -1, 1 )  if ( $ip =~ m/[a-z]$/i );
 
- if ($ipp=~/^(\d{1,3})\.(\d{1,3})\.(\d{1,3})\.(\d{1,3})$/ &&(($1<=255  && $2<=255 && $3<=255  &&$4<=255 )))
- {
-     $valid_ip = "valid";
- }
- else
- {
-     $valid_ip = "invalid";
- }
+if ( $ipp =~ /^(\d{1,3})\.(\d{1,3})\.(\d{1,3})\.(\d{1,3})$/
+    && ( ( $1 <= 255 && $2 <= 255 && $3 <= 255 && $4 <= 255 ) ) )
+{
+    $valid_ip = "valid";
+}
+else {
+    $valid_ip = "invalid";
+}
 
 #    https://stackoverflow.com/questions/2346869/what-regex-can-i-use-to-match-any-valid-ip-address-represented-in-dot-decimal-no
 
 #################################################
 #################################################
 
-   $runlogfile = 'working/'.$ipd.'.run.log';
+$runlogfile = 'working/' . $ipd . '.run.log';
 
 # WR      wepp-6551       "05:51 pm  Tuesday February 23, 2010"	"SANDPOINT EXP STA ID"	8       clay    native  200     4   13       15      50      130     25      20      inveg
 # WD      wepp-6860       "02:54 pm  Thursday January 28, 2010"	"SANTA MONICA PIER CA"	30      clay    short   50      0   30       40      20      short   50      30      5       40      20      0       m       ""
 # WF      wepp-30788      "03:31 pm  Friday January 22, 2010"	"WhiteKnob +"	sand    193     1       14      28      7   40       20      20      0       ft
-# WE      wepp-7122       "04:24 pm  Friday March 5, 1902"	"Melbourne AU +"	clay    20      forest  0       50  30       100     l    
+# WE      wepp-7122       "04:24 pm  Friday March 5, 1902"	"Melbourne AU +"	clay    20      forest  0       50  30       100     l
 # WW      wepp-5118       "05:13 pm  Monday April 12, 2010"	"Melbourne AU +"	clay    skid    50      0       30      10  20       400     skid    50      30      5       100     20      400     restricted      "fractured igneous and metamorphic" 25       9.00E-05        m
 # wt      "May 25, 2010"  "RUBICON #2 CA SNOTEL +"        granitic        OldForest       0       30      50      100       20      YoungForest     30      5       50      100     20      m	""
 
-  $wr_color='#a1a1f7';	# WEPP:Road
-  $wd_color='#77c677';	# Disturbed WEPP
-  $we_color='#e91d45';	# ERMiT
-  $wf_color='#f0a014';	# FuME
-  $wa_color='#f0f014';	# WASP
-  $wt_color='#3fe275';	# Tahoe
+$wr_color = '#a1a1f7';    # WEPP:Road
+$wd_color = '#77c677';    # Disturbed WEPP
+$we_color = '#e91d45';    # ERMiT
+$wf_color = '#f0a014';    # FuME
+$wa_color = '#f0f014';    # WASP
+$wt_color = '#3fe275';    # Tahoe
 
 #  print table header
 
-  print "Content-type: text/html\n\n";
-  print "
+print "Content-type: text/html\n\n";
+print "
 <html>
  <head>
   <title>FS WEPP run log for $ip</title>
@@ -81,14 +86,14 @@
   <font face=\"trebuchet, tahoma, arial, sans serif\" size=-3>
 ";
 
-  if ($valid_ip eq 'invalid') {
+if ( $valid_ip eq 'invalid' ) {
     print "
    <h3>Run log for [Invalid IP]</h3>
   </font>
  </body>
 </html>";
-die;
-  }
+    die;
+}
 
 print "
    <h3>Run log for IP $ipp personality '$me'</h3>
@@ -108,7 +113,7 @@ print "
 ###   WEPP:ROAD  ###
 ####################
 
-  print "
+print "
    <a name='wr'></a>
    <h2>(<a href=\"#wd\">V</a>) WEPP:Road runs</h2>
    <table border=1>
@@ -131,14 +136,19 @@ print "
      <th bgcolor=$wr_color><font size=-3>Units</th>
     </tr>";
 
-  open RUNLOG, "<$runlogfile";
-    $count=0; $gt=0;
-    while (<RUNLOG>) {
+open RUNLOG, "<$runlogfile";
+$count = 0;
+$gt    = 0;
+while (<RUNLOG>) {
 
-($prog,$rest) = split "\t",$_,0;
+    ( $prog, $rest ) = split "\t", $_, 0;
 
-      if ($prog eq 'WR') {
-($prog,$run_id,$run_time,$climate,$years2sim,$ST,$surface,$URL,$URS,$URW,$UFL,$UFS,$UBL,$UBS,$UBR,$design,$units) = split "\t",$_;
+    if ( $prog eq 'WR' ) {
+        (
+            $prog,    $run_id, $run_time, $climate, $years2sim, $ST,
+            $surface, $URL,    $URS,      $URW,     $UFL,       $UFS,
+            $UBL,     $UBS,    $UBR,      $design,  $units
+        ) = split "\t", $_;
         print "
     <tr>
      <td valign=top bgcolor=$wr_color><font size=-3>$run_id</td>
@@ -158,16 +168,16 @@ print "
      <td valign=top><font size=-3>$design</td>
      <td valign=top><font size=-3>$units</td>
     </tr>";
-    $count++;
-      }	  # if ($prog eq 'WR') 
-   } # while (<RUNLOG>)
+        $count++;
+    }    # if ($prog eq 'WR')
+}    # while (<RUNLOG>)
 
 print "
    </table>
    $count WEPP:Road runs
 ";
 
-   close RUNLOG;
+close RUNLOG;
 
 ##########################
 ###   Disturbed WEPP   ###
@@ -199,15 +209,25 @@ print "
      <th valign=bottom bgcolor=$wd_color><font size=-3>Run description</font></td>
     </tr>";
 
-   open RUNLOG, "<$runlogfile";
-    $gt += $count; $count=0;
-    while (<RUNLOG>) {
+open RUNLOG, "<$runlogfile";
+$gt += $count;
+$count = 0;
+while (<RUNLOG>) {
 
-($prog,$rest) = split "\t",$_,0;
-# print "$prog $program<br>\n";
+    ( $prog, $rest ) = split "\t", $_, 0;
 
-      if ($prog eq 'WD') {
-($prog,$run_id,$run_time,$climate,$years2sim,$soil,$treat1,$ofe1_length,$ofe1_top_slope,$ofe1_mid_slope,$ofe1_pcover,$ofe1_rock,$treat2,$ofe2_length,$ofe2_mid_slope,$ofe2_bot_slope,$ofe2_pcover,$ofe2_rock,$ofe_area,$units,$description) = split "\t",$_;
+    # print "$prog $program<br>\n";
+
+    if ( $prog eq 'WD' ) {
+        (
+            $prog,           $run_id,      $run_time,
+            $climate,        $years2sim,   $soil,
+            $treat1,         $ofe1_length, $ofe1_top_slope,
+            $ofe1_mid_slope, $ofe1_pcover, $ofe1_rock,
+            $treat2,         $ofe2_length, $ofe2_mid_slope,
+            $ofe2_bot_slope, $ofe2_pcover, $ofe2_rock,
+            $ofe_area,       $units,       $description
+        ) = split "\t", $_;
         print "
     <tr>
      <td valign=top bgcolor=$wd_color><font size=-3>$run_id</td>
@@ -230,15 +250,15 @@ print "
      <td valign=top><font size=-3>$units</font></td>
      <td valign=top><font size=-3>$description</font></td>
     </tr>";
-    $count++;
-      }	  # if ($prog eq 'WD') {
-   }	# while (<RUNLOG>) {
+        $count++;
+    }    # if ($prog eq 'WD') {
+}    # while (<RUNLOG>) {
 
 print "
    </table>
    $count Disturbed WEPP runs
 ";
-   close RUNLOG;
+close RUNLOG;
 
 ################
 ###   ERMIT  ###
@@ -265,15 +285,21 @@ print "
      <th bgcolor=$we_color><font size=-3>Units</th>
     </tr>";
 
-   open RUNLOG, "<$runlogfile";
-    $gt += $count; $count=0;
-    while (<RUNLOG>) {
+open RUNLOG, "<$runlogfile";
+$gt += $count;
+$count = 0;
+while (<RUNLOG>) {
 
-($prog,$rest) = split "\t",$_,0;
-# print "$prog $program<br>\n";
+    ( $prog, $rest ) = split "\t", $_, 0;
 
-      if ($prog eq 'WE') {
-($prog,$run_id,$run_time,$climate,$soil,$rfg,$vegetation,$top_slope,$avg_slope,$toe_slope,$h_l,$severity,$pct_shrub,$pct_grass,$units) = split "\t",$_;
+    # print "$prog $program<br>\n";
+
+    if ( $prog eq 'WE' ) {
+        (
+            $prog, $run_id,     $run_time,  $climate,   $soil,
+            $rfg,  $vegetation, $top_slope, $avg_slope, $toe_slope,
+            $h_l,  $severity,   $pct_shrub, $pct_grass, $units
+        ) = split "\t", $_;
         print "
     <tr>
      <td valign=top bgcolor=$we_color><font size=-3>$run_id</td>
@@ -291,11 +317,11 @@ print "
      <td valign=top><font size=-3>$pct_grass</td>
      <td valign=top><font size=-3>$units</td>
     </tr>";
-    $count++;
-      }	  # if ($prog eq 'WE') {
-   }	# while (<RUNLOG>) {
+        $count++;
+    }    # if ($prog eq 'WE') {
+}    # while (<RUNLOG>) {
 
-   close RUNLOG;
+close RUNLOG;
 
 print "
    </table>
@@ -327,15 +353,23 @@ print "
      <th bgcolor=$wf_color><font size=-3>Units</th>
     </tr>";
 
-   open RUNLOG, "<$runlogfile";
-    $gt += $count; $count=0;
-    while (<RUNLOG>) {
+open RUNLOG, "<$runlogfile";
+$gt += $count;
+$count = 0;
+while (<RUNLOG>) {
 
-($prog,$rest) = split "\t",$_,0;
-# print "$prog $program<br>\n";
+    ( $prog, $rest ) = split "\t", $_, 0;
 
-      if ($prog eq 'WF') {
-($prog,$run_id,$run_time,$climate,$soil,$h_l,$b_l,$ofe1_top_slope,$ofe1_mid_slope,$ofe2_bot_slope,$w_cycle,$r_cycle,$t_cycle,$roaddensity,$units) = split "\t",$_;
+    # print "$prog $program<br>\n";
+
+    if ( $prog eq 'WF' ) {
+        (
+            $prog,           $run_id,         $run_time,
+            $climate,        $soil,           $h_l,
+            $b_l,            $ofe1_top_slope, $ofe1_mid_slope,
+            $ofe2_bot_slope, $w_cycle,        $r_cycle,
+            $t_cycle,        $roaddensity,    $units
+        ) = split "\t", $_;
         print "
     <tr>
      <td valign=top bgcolor=$wf_color><font size=-3>$run_id</td>
@@ -353,16 +387,16 @@ print "
      <td valign=top><font size=-3>$roaddensity</td>
      <td valign=top><font size=-3>$units</td>
     </tr>";
-    $count++;
-      }	  # if ($prog eq 'WF') {
-   }	# while (<RUNLOG>) {
-   close RUNLOG;
+        $count++;
+    }    # if ($prog eq 'WF') {
+}    # while (<RUNLOG>) {
+close RUNLOG;
 
 print "
    </table>
    $count FuME runs
 ";
-   close RUNLOG;
+close RUNLOG;
 
 #WW
 #$prog,$run_id,$run_time,$climate_name,$yrs,$soil,$upper_treat,$50,$0,$30,$40,$20,$lower_treat,$50,$30,$5,$40,$20,$0,$units,$run_description
@@ -401,14 +435,24 @@ print "
      <th valign=bottom bgcolor=$wa_color><font size=-3>Units</font></th>
     </tr>";
 
-   open RUNLOG, "<$runlogfile";
-    $gt += $count; $count=0;
-    while (<RUNLOG>) {
+open RUNLOG, "<$runlogfile";
+$gt += $count;
+$count = 0;
+while (<RUNLOG>) {
 
-($prog,$rest) = split "\t",$_,0;
+    ( $prog, $rest ) = split "\t", $_, 0;
 
-      if ($prog eq 'WW') {
-($prog,$run_id,$run_time,$climate,$soil,$treat1,$ofe1_length,$ofe1_top_slope,$ofe1_mid_slope,$ofe1_pcover,$ofe1_rock,$ofe1_depth,$treat2,$ofe2_length,$ofe2_mid_slope,$ofe2_bot_slope,$ofe2_pcover,$ofe2_rock,$ofe2_depth,$restrict,$rocktype,$aniso,$sathydcond,$units) = split "\t",$_;
+    if ( $prog eq 'WW' ) {
+        (
+            $prog,           $run_id,         $run_time,
+            $climate,        $soil,           $treat1,
+            $ofe1_length,    $ofe1_top_slope, $ofe1_mid_slope,
+            $ofe1_pcover,    $ofe1_rock,      $ofe1_depth,
+            $treat2,         $ofe2_length,    $ofe2_mid_slope,
+            $ofe2_bot_slope, $ofe2_pcover,    $ofe2_rock,
+            $ofe2_depth,     $restrict,       $rocktype,
+            $aniso,          $sathydcond,     $units
+        ) = split "\t", $_;
         print "
     <tr>
      <td valign=top bgcolor=$wa_color><font size=-3>$run_id</td>
@@ -435,15 +479,15 @@ print "
      <td valign=top><font size=-3>$sathydcond</font></td>
      <td valign=top><font size=-3>$units</font></td>
     </tr>";
-     $count++;
-      }	  # if ($prog eq 'ww') {
-   }	# while (<RUNLOG>) {
+        $count++;
+    }    # if ($prog eq 'ww') {
+}    # while (<RUNLOG>) {
 
 print "
    </table>
    $count WASP runs
 ";
-   close RUNLOG;
+close RUNLOG;
 
 #WT
 #$prog,$run_id,$run_time,$climate_name,$soil,$193,$1,$14,$28,$7,$40,$20,$20,$0,$units
@@ -477,14 +521,24 @@ print "
      <th valign=bottom bgcolor=$wt_color><font size=-3>Run description</font></td>
     </tr>";
 
-   open RUNLOG, "<$runlogfile";
-    $gt += $count; $count = 0;
-    while (<RUNLOG>) {
-($prog,$rest) = split "\t",$_,0;
-# print "$prog $program<br>\n";
+open RUNLOG, "<$runlogfile";
+$gt += $count;
+$count = 0;
+while (<RUNLOG>) {
+    ( $prog, $rest ) = split "\t", $_, 0;
 
-      if (lc($prog) eq 'wt') {
-        ($prog,$run_id,$run_time,$climate,$soil,$treat1,$ofe1_top_slope,$ofe1_mid_slope,$ofe1_length,$ofe1_pcover,$ofe1_rock,$treat2,$ofe2_mid_slope,$ofe2_bot_slope,$ofe2_length,$ofe2_pcover,$ofe2_rock,$units,$description) = split "\t",$_;
+    # print "$prog $program<br>\n";
+
+    if ( lc($prog) eq 'wt' ) {
+        (
+            $prog,           $run_id,         $run_time,
+            $climate,        $soil,           $treat1,
+            $ofe1_top_slope, $ofe1_mid_slope, $ofe1_length,
+            $ofe1_pcover,    $ofe1_rock,      $treat2,
+            $ofe2_mid_slope, $ofe2_bot_slope, $ofe2_length,
+            $ofe2_pcover,    $ofe2_rock,      $units,
+            $description
+        ) = split "\t", $_;
         print "
     <tr>
      <td valign=top bgcolor=$wt_color><font size=-3>$run_id</td>
@@ -506,18 +560,18 @@ print "
      <td valign=top><font size=-3>$units</font></td>
      <td valign=top><font size=-3>$description</font></td>
     </tr>";
-      $count++;
-      }	  # if ($prog eq 'wt') {
-   }	# while (<RUNLOG>) {
+        $count++;
+    }    # if ($prog eq 'wt') {
+}    # while (<RUNLOG>) {
 
-   $gt += $count;
+$gt += $count;
 print "
    </table>
    <a name='end'></a>
    $count Tahoe Basin runs<br>
    $gt total runs
 ";
-   close RUNLOG;
+close RUNLOG;
 print "  </font>
  </body>
 </html>
@@ -527,25 +581,28 @@ print "  </font>
 
 sub ReadParse {
 
-# ReadParse -- from cgi-lib.pl (Steve Brenner) from Eric Herrmann's
-# "Teach Yourself CGI Programming With PERL in a Week" p. 131
+    # ReadParse -- from cgi-lib.pl (Steve Brenner) from Eric Herrmann's
+    # "Teach Yourself CGI Programming With PERL in a Week" p. 131
 
-  local (*in) = @_ if @_;
-  local ($i, $loc, $key, $val);
+    local (*in) = @_ if @_;
+    local ( $i, $loc, $key, $val );
 
-  if ($ENV{'REQUEST_METHOD'} eq "GET") {
-    $in = $ENV{'QUERY_STRING'};
-  } elsif ($ENV{'REQUEST_METHOD'} eq "POST") {
-    read(STDIN,$in,$ENV{'CONTENT_LENGTH'});
-  }
-  @in = split(/&/,$in);
-  foreach $i (0 .. $#in) {
-    $in[$i] =~ s/\+/ /g;                        # Convert pluses to spaces
-    ($key, $val) = split(/=/,$in[$i],2);        # Split into key and value
-    $key =~ s/%(..)/pack("c",hex($1))/ge;       # Convert %XX from hex numbers to alphanumeric
-    $val =~ s/%(..)/pack("c",hex($1))/ge;
-    $in{$key} .= "\0" if (defined($in{$key}));  # \0 is the multiple separator
-    $in{$key} .= $val;
-  }
-  return 1;
- }
+    if ( $ENV{'REQUEST_METHOD'} eq "GET" ) {
+        $in = $ENV{'QUERY_STRING'};
+    }
+    elsif ( $ENV{'REQUEST_METHOD'} eq "POST" ) {
+        read( STDIN, $in, $ENV{'CONTENT_LENGTH'} );
+    }
+    @in = split( /&/, $in );
+    foreach $i ( 0 .. $#in ) {
+        $in[$i] =~ s/\+/ /g;    # Convert pluses to spaces
+        ( $key, $val ) = split( /=/, $in[$i], 2 );    # Split into key and value
+        $key =~ s/%(..)/pack("c",hex($1))/ge
+          ;    # Convert %XX from hex numbers to alphanumeric
+        $val =~ s/%(..)/pack("c",hex($1))/ge;
+        $in{$key} .= "\0"
+          if ( defined( $in{$key} ) );    # \0 is the multiple separator
+        $in{$key} .= $val;
+    }
+    return 1;
+}

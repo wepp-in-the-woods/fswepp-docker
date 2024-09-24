@@ -1,5 +1,7 @@
 #! /usr/bin/perl
 
+  use CGI qw(escapeHTML);
+
 # counter.pl?chapter=5
 
 # read chapter parameter from command line
@@ -10,7 +12,7 @@
 # read argument (chapter)
 
   &ReadParse(*parameters);
-  $chapter=$parameters{'chapter'};
+  $chapter = escapeHTML($parameters{'chapter'});
 
 # clean up argument (limit to '1' to '14')
 

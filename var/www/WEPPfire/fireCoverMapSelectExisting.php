@@ -34,10 +34,6 @@ Below this code, add the capability to "add maps" to the file of possible maps.
       }
     }
 
-  //        onclick='document.write(\"<?php selection($dirs[$i]); ?>\" )' >
-    echo "<button 
-          onclick='document.write(\"<?php echo \"joe\"; ?>\" )' >
-          Select $name</button><br />";
     $i = $i + 1;
   }
 ?> 

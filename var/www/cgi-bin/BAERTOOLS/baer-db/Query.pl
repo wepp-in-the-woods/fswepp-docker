@@ -480,6 +480,7 @@ sub NewFromUrlParams {
 	$This[ 0 ] = [ grep { $_ } CGI::url_param( "forest" ) ];
 	$This[ 1 ] = [ grep { $_ } CGI::url_param( "tmt" )    ];
 
+	
 	$This[ 2 ] = _StrParam( "start_date" );		# -CMA 2014.01.24.
 	$This[ 3 ] = _StrParam( "end_date" );		# -CMA 2014.01.24.
 	$This[ 4 ] = _StrParam( "sort" );			# -CMA 2014.01.24.

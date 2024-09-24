@@ -1,6 +1,4 @@
-#! /usr/bin/perl
-#! /fsapps/fssys/bin/perl
-#!C:\Perl\bin\perl.exe T-w
+#!/usr/bin/perl
 
 #use strict;
 #use CGI ':standard';
@@ -27,7 +25,7 @@
 #  $version='2010.03.15';	#
 ## END HISTORY ##############################
 
-  $debug=1;
+  $debug=0;
 
 # Reads
 #   user input from ravel-ca.pl,
