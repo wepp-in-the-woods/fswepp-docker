@@ -1,4 +1,10 @@
-#! /usr/bin/perl
+#!/usr/bin/perl
+
+use warnings;
+use CGI qw(escapeHTML);
+use lib '/var/www/cgi-bin/fswepp/dry';
+use CligenUtils qw(GetParSummary);
+
 #
 # erm.pl
 # urm2014.pl
@@ -7,12 +13,12 @@
 # Reads user input from ermit.pl, runs WEPP, parses output files
 # top adapted from wd.pl 8/28/2002
 
-$verbose=0;
+$verbose = 0;
 
-$debug=0;		# DEH 2014-02-07 over-ride command-line
-$new_range=1;		# 2005.09.13 DEH Solidify new range values
-$new_cligen=0;	# 2005.09.13 DEH # 2005.10.12 DEH
-$weppversion = "wepp2010";	# 2014.02.07 DEH 2000 or 2010; WEPP 2010 needs frost.txt file in ERMiT directory to give 'correct' results
+$debug       = 0;           # DEH 2014-02-07 over-ride command-line
+$new_range   = 1;           # 2005.09.13 DEH Solidify new range values
+$new_cligen  = 0;           # 2005.09.13 DEH # 2005.10.12 DEH
+$weppversion = "wepp2010";  # 2014.02.07 DEH 2000 or 2010; WEPP 2010 needs frost.txt file in ERMiT directory to give 'correct' results
 
 # -rw-r--r-x    1 dhall    water      239402 Apr  2  2007 erm.pl
 # add path for gnuplot exec for new server 2009_07_13 DEH
@@ -24,8 +30,9 @@ $weppversion = "wepp2010";	# 2014.02.07 DEH 2000 or 2010; WEPP 2010 needs frost.
 #   remove WGR switch
 #                               # Return sub bomb redirect ermitnew.pl to ermit.pl
 
-#            2020.03.03         # un-unlink gnuplot work files for debugging 
-   $version='2015.05.03';	# Add log and wattle probablility table
+#            2020.03.03         # un-unlink gnuplot work files for debugging
+$version = '2015.05.03';    # Add log and wattle probablility table
+
 #  $version='2015.04.06';	# force short report for limited number of run-off storms
 #  $version='2015.04.04';	# re-expand results output for few results with storms to work with ERMiT Batch
 #  $version='2014.04.07';	# deploy unburned option
@@ -108,7 +115,7 @@ $weppversion = "wepp2010";	# 2014.02.07 DEH 2000 or 2010; WEPP 2010 needs frost.
 #                 remove worst-case 100-yr "Sediment delivery" column
 # 13 Feb 2003 DEH treat American units
 # 15 Jan 2003 DEH fix variable name error in createslopefile: abb
-# 19 Dec 2002 DEH tighten up output; add format report of input 
+# 19 Dec 2002 DEH tighten up output; add format report of input
 
 # David Hall, USDA Forest Service, Rocky Mountain Research Station
 # William J. Elliot, USDA Forest Service, Rocky Mountain Research Station
@@ -124,63 +131,58 @@ $weppversion = "wepp2010";	# 2014.02.07 DEH 2000 or 2010; WEPP 2010 needs frost.
 #   $thisyear  -- year of the run (ie, 2012)
 #   $dayoffset -- account for which day of the week Jan 1 is: -1: Su; 0: Mo; 1: Tu; 2: We; 3: Th; 4: Fr; 5: Sa.
 
-   $thisday = 1 + (localtime)[7];               # $yday, day of the year (0..364)
-   $thisyear = 1900 + (localtime)[5];           # https://perldoc.perl.org/functions/localtime.html
+$thisday = 1 + (localtime)[7];    # $yday, day of the year (0..364)
+$thisyear =
+  1900 + (localtime)[5];    # https://perldoc.perl.org/functions/localtime.html
 
-   if    ($thisyear == 2010) { $dayoffset = 4 } # Jan 1 is Friday
-   elsif ($thisyear == 2011) { $dayoffset = 5 } # Jan 1 is Saturday
-   elsif ($thisyear == 2012) { $dayoffset =-1 } # Jan 1 is Sunday
-   elsif ($thisyear == 2013) { $dayoffset = 1 } # Jan 1 is Tuesday
-   elsif ($thisyear == 2014) { $dayoffset = 2 } # Jan 1 is Wednesday
-   elsif ($thisyear == 2015) { $dayoffset = 3 } # Jan 1 is Thursday
-   elsif ($thisyear == 2016) { $dayoffset = 4 } # Jan 1 is Friday
-   elsif ($thisyear == 2017) { $dayoffset =-1 } # Jan 1 is Sunday
-   elsif ($thisyear == 2018) { $dayoffset = 0 } # Jan 1 is Monday
-   elsif ($thisyear == 2019) { $dayoffset = 1 } # Jan 1 is Tuesday
-   elsif ($thisyear == 2020) { $dayoffset = 2 } # Jan 1 is Wednesday
-   elsif ($thisyear == 2021) { $dayoffset = 4 } # Jan 1 is Friday
-   elsif ($thisyear == 2022) { $dayoffset = 5 } # Jan 1 is Saturday
-   elsif ($thisyear == 2023) { $dayoffset =-1 } # Jan 1 is Sunday
-   elsif ($thisyear == 2024) { $dayoffset = 0 } # Jan 1 is Monday
-   elsif ($thisyear == 2025) { $dayoffset = 2 } # Jan 1 is Wednesday
-   else                      { $dayoffset = 0 }
+if    ( $thisyear == 2010 ) { $dayoffset = 4 }     # Jan 1 is Friday
+elsif ( $thisyear == 2011 ) { $dayoffset = 5 }     # Jan 1 is Saturday
+elsif ( $thisyear == 2012 ) { $dayoffset = -1 }    # Jan 1 is Sunday
+elsif ( $thisyear == 2013 ) { $dayoffset = 1 }     # Jan 1 is Tuesday
+elsif ( $thisyear == 2014 ) { $dayoffset = 2 }     # Jan 1 is Wednesday
+elsif ( $thisyear == 2015 ) { $dayoffset = 3 }     # Jan 1 is Thursday
+elsif ( $thisyear == 2016 ) { $dayoffset = 4 }     # Jan 1 is Friday
+elsif ( $thisyear == 2017 ) { $dayoffset = -1 }    # Jan 1 is Sunday
+elsif ( $thisyear == 2018 ) { $dayoffset = 0 }     # Jan 1 is Monday
+elsif ( $thisyear == 2019 ) { $dayoffset = 1 }     # Jan 1 is Tuesday
+elsif ( $thisyear == 2020 ) { $dayoffset = 2 }     # Jan 1 is Wednesday
+elsif ( $thisyear == 2021 ) { $dayoffset = 4 }     # Jan 1 is Friday
+elsif ( $thisyear == 2022 ) { $dayoffset = 5 }     # Jan 1 is Saturday
+elsif ( $thisyear == 2023 ) { $dayoffset = -1 }    # Jan 1 is Sunday
+elsif ( $thisyear == 2024 ) { $dayoffset = 0 }     # Jan 1 is Monday
+elsif ( $thisyear == 2025 ) { $dayoffset = 2 }     # Jan 1 is Wednesday
+else                        { $dayoffset = 0 }
 
-   $thisdayoff=$thisday+$dayoffset;
-   $thisweek = 1 + int $thisdayoff/7;
-#  print "[$dayoffset] Julian day $thisday, $thisyear: week $thisweek\n";
+$thisdayoff = $thisday + $dayoffset;
+$thisweek   = 1 + int $thisdayoff / 7;
 
-   &ReadParse(*parameters);
+&ReadParse(*parameters);
 
-#   $new_range=1 if ($parameters{'new_range'} =~ 'on');		# 2005.09.15 DEH temporary
-#   $new_cligen=1 if ($parameters{'new_cligen'} =~ 'on');	# 2005.09.13 DEH
-#   $rtc=1 if ($parameters{'rtc'} =~ 'on');  			# 2005.10.19 DEH
-   $rtc=0;							# 2005.10.24 DEH
-   $pt=1 if ($parameters{'ptcheck'} =~ 'on');  			# 2005.10.13 DEH
-   $me=$parameters{'me'};		# $pt=1 if ($me eq 'z');# 2005.03.24 DEH
-   $units=$parameters{'units'};
-   $debug=$parameters{'debug'};		# DEH 2014.02.07
-   $CL=$parameters{'Climate'};		# get Climate (file name base)
-   $climate_name=$parameters{'climate_name'};   # requested climate #
-   $SoilType=$parameters{'SoilType'};
-#  $soil_name=$parameters{'soil_name'};
-   $rfg=$parameters{'rfg'};
-   $vegtype=$parameters{'vegetation'};
-   $top_slope=$parameters{'top_slope'};
-   $avg_slope=$parameters{'avg_slope'};
-   $toe_slope=$parameters{'toe_slope'};
-   $hillslope_length=$parameters{'length'};
-   $severityclass=$parameters{'severity'};
-   $shrub=$parameters{'pct_shrub'};
-   $grass=$parameters{'pct_grass'};
-   $bare=$parameters{'pct_bare'};
-   $achtung=$parameters{'achtung'};
-   $action=$parameters{'actionc'} . 
-           $parameters{'actionw'};
-   if ($achtung . $action eq '') {&bomb; die}					# 2005.10.25 DEH
+$rtc              = 0;
 
+$pt               = 1 if ( escapeHTML($parameters{'ptcheck'}) =~ 'on' );
+$me               = escapeHTML($parameters{'me'});
+$units            = escapeHTML($parameters{'units'});
+$debug            = escapeHTML($parameters{'debug'});
+$CL               = escapeHTML($parameters{'Climate'});
+$climate_name     = escapeHTML($parameters{'climate_name'});
+$SoilType         = escapeHTML($parameters{'SoilType'});
+$rfg              = escapeHTML($parameters{'rfg'});
+$vegtype          = escapeHTML($parameters{'vegetation'});
+$top_slope        = escapeHTML($parameters{'top_slope'});
+$avg_slope        = escapeHTML($parameters{'avg_slope'});
+$toe_slope        = escapeHTML($parameters{'toe_slope'});
+$hillslope_length = escapeHTML($parameters{'length'});
+$severityclass    = escapeHTML($parameters{'severity'});
+$shrub            = escapeHTML($parameters{'pct_shrub'});
+$grass            = escapeHTML($parameters{'pct_grass'});
+$bare             = escapeHTML($parameters{'pct_bare'});
+$achtung          = escapeHTML($parameters{'achtung'});
+$action           = escapeHTML($parameters{'actionc'}) . escapeHTML($parameters{'actionw'});
+if ( $achtung . $action eq '' ) { &bomb; die }
 
-   $vegtype_x = $vegtype;							# 2004.10.07 DEH
-   $vegtype_x = 'chaparral' if ($vegtype eq 'chap');				# 2004.10.07 DEH
+$vegtype_x = $vegtype;                                 # 2004.10.07 DEH
+$vegtype_x = 'chaparral' if ( $vegtype eq 'chap' );    # 2004.10.07 DEH
 
 #@#   $wgr = 1 if ($me eq 'g');							# DEH 2004.03.16
 ### $wgr=1; #$#$$#
@@ -189,171 +191,179 @@ $weppversion = "wepp2010";	# 2014.02.07 DEH 2000 or 2010; WEPP 2010 needs frost.
 #   $zoop = 1 if ($me eq 'q');							# DEH 2006.04.05
 #   $pt = 1 if ($me eq 'q');							# DEH 2006.04.05
 
-   if ($SoilType eq 'clay') {
-     $soil_texture = 'clay loam';
-     $soil_symbols = '(MH, CH)';
-     $soil_description = 'Shales and similar decomposing fine-grained sedimentary rock';
-   }
-   elsif ($SoilType eq 'loam') {
-     $soil_texture = 'loam';
-     $soil_symbols = '(GC, SM, SW, SP)';
-     $soil_description = 'Glacial tills, alluvium';
-   }
-     elsif ($SoilType eq 'sand') {
-     $soil_texture = 'sandy loam';
-     $soil_symbols = '(SW, SP, SM, SC)';
-     $soil_description = 'Glacial outwash areas; finer-grained granitics and sand';
-   }
-   elsif ($SoilType eq 'silt') {
-     $soil_texture = 'silt loam';
-     $soil_symbols = '(ML, CL)';
-     $soil_description = 'Ash cap or alluvial loess';
-   }
+if ( $SoilType eq 'clay' ) {
+    $soil_texture = 'clay loam';
+    $soil_symbols = '(MH, CH)';
+    $soil_description =
+      'Shales and similar decomposing fine-grained sedimentary rock';
+}
+elsif ( $SoilType eq 'loam' ) {
+    $soil_texture     = 'loam';
+    $soil_symbols     = '(GC, SM, SW, SP)';
+    $soil_description = 'Glacial tills, alluvium';
+}
+elsif ( $SoilType eq 'sand' ) {
+    $soil_texture = 'sandy loam';
+    $soil_symbols = '(SW, SP, SM, SC)';
+    $soil_description =
+      'Glacial outwash areas; finer-grained granitics and sand';
+}
+elsif ( $SoilType eq 'silt' ) {
+    $soil_texture     = 'silt loam';
+    $soil_symbols     = '(ML, CL)';
+    $soil_description = 'Ash cap or alluvial loess';
+}
 
-   $severityclass_x = 'high' if ($severityclass eq 'h');
-   $severityclass_x = 'moderate' if ($severityclass eq 'm');
-   $severityclass_x = 'low' if ($severityclass eq 'l');
-   $severityclass_x = 'unburned' if ($severityclass eq 'u');	# 2013.04.19 DEH
+$severityclass_x = 'high'     if ( $severityclass eq 'h' );
+$severityclass_x = 'moderate' if ( $severityclass eq 'm' );
+$severityclass_x = 'low'      if ( $severityclass eq 'l' );
+$severityclass_x = 'unburned' if ( $severityclass eq 'u' );    # 2013.04.19 DEH
 
-   $count = 40 if ($severityclass eq 'h');	# 2006.01.18 DEH
-   $count = 30 if ($severityclass eq 'm');	# 2006.01.18 DEH
-   $count = 20 if ($severityclass eq 'l');	# 2006.01.18 DEH
-   $count = 10 if ($severityclass eq 'u');	# 2013.04.19 DEH	# unburned
+$count = 40 if ( $severityclass eq 'h' );    # 2006.01.18 DEH
+$count = 30 if ( $severityclass eq 'm' );    # 2006.01.18 DEH
+$count = 20 if ( $severityclass eq 'l' );    # 2006.01.18 DEH
+$count = 10 if ( $severityclass eq 'u' );    # 2013.04.19 DEH	# unburned
 
-   $rfg+=0;
-   $rfg=05 if ($rfg<05);
-   $rfg=85 if ($rfg>85);
+$rfg += 0;
+$rfg = 05 if ( $rfg < 05 );
+$rfg = 85 if ( $rfg > 85 );
 
-   $wepphost = "localhost";
-   if (-e "../wepphost") {
-     open HOST, "<../wepphost";
-       $wepphost = lc(<HOST>);
-       chomp $wepphost;
-       if ($wepphost eq "") {$wepphost = "Localhost"}
-     close HOST;
-   }
+$wepphost = "localhost";
+if ( -e "../wepphost" ) {
+    open HOST, "<../wepphost";
+    $wepphost = lc(<HOST>);
+    chomp $wepphost;
+    if ( $wepphost eq "" ) { $wepphost = "Localhost" }
+    close HOST;
+}
 
-   $platform = "unix";
-   if (-e "../platform") {
-     open PLATFORM, "<../platform";
-       $platform = lc(<PLATFORM>);
-       chomp $platform;
-       if ($platform eq "") {$platform = "unix"}
-     close PLATFORM;
-   }
+$platform = "unix";
+if ( -e "../platform" ) {
+    open PLATFORM, "<../platform";
+    $platform = lc(<PLATFORM>);
+    chomp $platform;
+    if ( $platform eq "" ) { $platform = "unix" }
+    close PLATFORM;
+}
 
 ################  CUSTOM CLIMATE ############################
 
-   if (lc($action) =~ /custom/) {
-     $comefrom = "https://" . $wepphost . "/cgi-bin/fswepp/ermit/ermit.pl";
-     if ($platform eq "pc") {
-       exec "perl ../rc/rockclim.pl -server -i$me -u$units $comefrom"
-     }
-     else {
-       exec "../rc/rockclim.pl -server -i$me -u$units $comefrom"
-     }
-     die
-   }            # /custom/
+if ( lc($action) =~ /custom/ ) {
+    $comefrom = "https://" . $wepphost . "/cgi-bin/fswepp/ermit/ermit.pl";
+    if ( $platform eq "pc" ) {
+        exec "perl ../rc/rockclim.pl -server -i$me -u$units $comefrom";
+    }
+    else {
+        exec "../rc/rockclim.pl -server -i$me -u$units $comefrom";
+    }
+    die;
+}    # /custom/
 
 ############### DESCRIBE CLIMATE #################
 
-   if (lc($achtung) =~ /describe climate/) {
-     $comefrom = "https://" . $wepphost . "/cgi-bin/fswepp/ermit/ermit.pl";
-     if ($platform eq "pc") {
-#       exec "perl ../rc/descpar.pl $CL $comefrom"
-#     }
-#     else {
-#       exec "../rc/descpar.pl $CL $comefrom"
-#     }
-       exec "perl ../rc/descpar.pl $CL $units $comefrom"
-     }
-     else {
-       exec "../rc/descpar.pl $CL $units $comefrom"
-     }
-     die
-   }            # /describe climate/
+if ( lc($achtung) =~ /describe climate/ ) {
+    $comefrom = "https://" . $wepphost . "/cgi-bin/fswepp/ermit/ermit.pl";
+    if ( $platform eq "pc" ) {
+
+        #       exec "perl ../rc/descpar.pl $CL $comefrom"
+        #     }
+        #     else {
+        #       exec "../rc/descpar.pl $CL $comefrom"
+        #     }
+        exec "perl ../rc/descpar.pl $CL $units $comefrom";
+    }
+    else {
+        exec "../rc/descpar.pl $CL $units $comefrom";
+    }
+    die;
+}    # /describe climate/
 
 ####################  set up file names and paths
 
-   if ($platform eq "pc") {
-     if (-e 'd:/fswepp/working') {$working = 'd:\\fswepp\\working'}
-     elsif (-e 'c:/fswepp/working') {$working = 'c:\\fswepp\\working'}
-     else {$working = '..\\working'}
-     if (-e 'c:/fswepp/working') {$runLogFile = 'c:\\fswepp\\working\\wepprun.log'}
-     else {$runLogFile = '..\\working\\wepprun.log'}
-     $div='\\';
-   }
-   else {
-     $working = '../working';
-     $user_ID=$ENV{'REMOTE_ADDR'};
-     $user_really=$ENV{'HTTP_X_FORWARDED_FOR'};
-     $user_ID=$user_really if ($user_really ne '');
-     $user_ID =~ tr/./_/;
-     $user_ID = $user_ID . $me;
-     $runLogFile = "../working/" . $user_ID . ".run.log";
-     $div='/';
-   }
+if ( $platform eq "pc" ) {
+    if    ( -e 'd:/fswepp/working' ) { $working = 'd:\\fswepp\\working' }
+    elsif ( -e 'c:/fswepp/working' ) { $working = 'c:\\fswepp\\working' }
+    else                             { $working = '..\\working' }
+    if ( -e 'c:/fswepp/working' ) {
+        $runLogFile = 'c:\\fswepp\\working\\wepprun.log';
+    }
+    else { $runLogFile = '..\\working\\wepprun.log' }
+    $div = '\\';
+}
+else {
+    $working     = '../working';
+    $user_ID     = $ENV{'REMOTE_ADDR'};
+    $user_really = $ENV{'HTTP_X_FORWARDED_FOR'};
+    $user_ID     = $user_really if ( $user_really ne '' );
+    $user_ID =~ tr/./_/;
+    $user_ID    = $user_ID . $me;
+    $runLogFile = "../working/" . $user_ID . ".run.log";
+    $div        = '/';
+}
 
 ##### set up file names and paths #####
 
-   $unique='wepp-' . $$;
-   $workingpath    = $working . $div . $unique;
-   $datapath       = 'data' . $div;
-   $responseFile   = $workingpath . '.in';
-   $outputFile     = $workingpath . '.out';
-   $stoutFile      = $workingpath . '.stout';
-   $sterrFile      = $workingpath . '.sterr';
-   $soilFile       = $workingpath . '.sol';
-   $slopeFile      = $workingpath . '.slp';
-   $CLIfile        = $workingpath . '.cli';        #  open INCLI, "<$CLIfile" or die;
-   $shortCLIfile   = $workingpath . '_' . '.cli';  #  open OUTCLI, ">$shortCLIfile";
+$unique       = 'wepp-' . $$;
+$workingpath  = $working . $div . $unique;
+$datapath     = 'data' . $div;
+$responseFile = $workingpath . '.in';
+$outputFile   = $workingpath . '.out';
+$stoutFile    = $workingpath . '.stout';
+$sterrFile    = $workingpath . '.sterr';
+$soilFile     = $workingpath . '.sol';
+$slopeFile    = $workingpath . '.slp';
+$CLIfile      = $workingpath . '.cli';        #  open INCLI, "<$CLIfile" or die;
+$shortCLIfile = $workingpath . '_' . '.cli';  #  open OUTCLI, ">$shortCLIfile";
+
 #   $manFile        = $workingpath . '.man';
-   $manFile        = $datapath    . 'high100.man';
-   $eventFile      = $workingpath . '.event100';   # DEH 2003.02.06
-   $tempFile       = $workingpath . '.temp';
-   $gnuplotdatafile= $workingpath . '.gnudata';
-   $gnuplotjclfile = $workingpath . '.gnujcl';
-   $gnuplotgraphpng   = $workingpath . '.png';
-   $gnuplotgrapheps   = $workingpath . '.eps';
-   $gnuplotgraphpl = "https://$wepphost/cgi-bin/fswepp/ermit/servepng.pl?graph=$unique";
-   $gnuplotgraphpath = "https://$wepphost/cgi-bin/fswepp/working/$unique.png";
+$manFile         = $datapath . 'high100.man';
+$eventFile       = $workingpath . '.event100';    # DEH 2003.02.06
+$tempFile        = $workingpath . '.temp';
+$gnuplotdatafile = $workingpath . '.gnudata';
+$gnuplotjclfile  = $workingpath . '.gnujcl';
+$gnuplotgraphpng = $workingpath . '.png';
+$gnuplotgrapheps = $workingpath . '.eps';
+$gnuplotgraphpl =
+  "https://$wepphost/cgi-bin/fswepp/ermit/servepng.pl?graph=$unique";
+$gnuplotgraphpath = "https://$wepphost/cgi-bin/fswepp/working/$unique.png";
 
 # CLIGEN paths
 
-   $PARfile = $CL . '.par';
-   $crspfile = $workingpath . 'c.rsp';
-   $cstoutfile = $workingpath . 'c.out';
+$climatePar    = $CL . '.par';
+$crspfile   = $workingpath . 'c.rsp';
+$cstoutfile = $workingpath . 'c.out';
 
 # flow paths
 
 #  $slopeFilePath = $workingpath . '.slp';
 #  $stoutFilePath = $workingpath . 'stout';
 #  $sterrFilePath = $workingpath . 'sterr';
-   $evoFile = $workingpath . '.evo';
-   $ev_by_evFile = $workingpath . '.event';
-
+$evoFile      = $workingpath . '.evo';
+$ev_by_evFile = $workingpath . '.event';
 
 ################## DESCRIBE SOIL ################
 
-   if (lc($achtung) =~ /describe soil/) {   ##########
+if ( lc($achtung) =~ /describe soil/ ) {    ##########
 
-     $units=$parameters{'units'};
-     $SoilType=$parameters{'SoilType'};  # get SoilType (loam, sand, silt, clay, gloam, gsand, gsilt, gclay)
+    $units    = $parameters{'units'};
+    $SoilType = $parameters{'SoilType'}
+      ;    # get SoilType (loam, sand, silt, clay, gloam, gsand, gsilt, gclay)
 
-     $comefrom = "https://" . $wepphost . "/cgi-bin/fswepp/ermit/ermit.pl";
-#     $soilFilefq = $datapath . $soilFile;
-     print "Content-type: text/html\n\n";
-     print "<HTML>\n";
-     print " <HEAD>\n";
-     print "  <TITLE>ERMiT -- Soil Parameters</TITLE>\n";
-     print " </HEAD>\n";
-     print '<BODY link="#ff0000">
+    $comefrom = "https://" . $wepphost . "/cgi-bin/fswepp/ermit/ermit.pl";
+
+    #     $soilFilefq = $datapath . $soilFile;
+    print "Content-type: text/html\n\n";
+    print "<HTML>\n";
+    print " <HEAD>\n";
+    print "  <TITLE>ERMiT -- Soil Parameters</TITLE>\n";
+    print " </HEAD>\n";
+    print '<BODY link="#ff0000">
   <font face="Arial, Geneva, Helvetica">
   <blockquote>
   <table width=95% border=0>
     <tr><td>
        <a href="JavaScript:window.history.go(-1)">
-       <IMG src="https://',$wepphost,'/fswepp/images/ermit.gif"
+       <IMG src="https://', $wepphost, '/fswepp/images/ermit.gif"
        align="left" alt="Back to FS WEPP menu" border=1></a>
     <td align=center>
        <hr>
@@ -365,143 +375,166 @@ $weppversion = "wepp2010";	# 2014.02.07 DEH 2000 or 2010; WEPP 2010 needs frost.
         align="right" alt="Read the documentation" border=0></a>
     </table>
 ';
-     if ($verbose) {print "Action: '$action'<br>\nAchtung: '$achtung'<br>\n"}
+    if ($verbose) { print "Action: '$action'<br>\nAchtung: '$achtung'<br>\n" }
 
-     print $soil_texture,' ', $soil_symbols, '<br>', $soil_description,"\n";
+    print $soil_texture, ' ', $soil_symbols, '<br>', $soil_description, "\n";
 
-if ($severityclass eq 'u') {		# 2013.04.19 DEH)
-       $s='uuu';
-       $k=1;
-} else {
-       $s='hhh';
-       $k=4;
-}
-     open SOIL, ">$soilFile";
-       $soilfileitself = &createsoilfile;
-       print SOIL $soilfileitself;
-     close SOIL;
+    if ( $severityclass eq 'u' ) {    # 2013.04.19 DEH)
+        $s = 'uuu';
+        $k = 1;
+    }
+    else {
+        $s = 'hhh';
+        $k = 4;
+    }
+    open SOIL, ">$soilFile";
+    $soilfileitself = &createsoilfile;
+    print SOIL $soilfileitself;
+    close SOIL;
 
-     print "<hr><b><pre>\n\n";
-#    print $soilFile,"\n";
+    print "<hr><b><pre>\n\n";
 
-     open SOIL, "<$soilFile";
-     $sweppver = <SOIL>;
-     $comment = <SOIL>;
-     while (substr($comment,0,1) eq "#") {
-       chomp $comment;
-#       print $comment,"\n";
-       $comment = <SOIL>;
-     }
+    #    print $soilFile,"\n";
 
-     print "</pre></b>
+    open SOIL, "<$soilFile";
+    $sweppver = <SOIL>;
+    $comment  = <SOIL>;
+    while ( substr( $comment, 0, 1 ) eq "#" ) {
+        chomp $comment;
+
+        #       print $comment,"\n";
+        $comment = <SOIL>;
+    }
+
+    print "</pre></b>
  <center>
  <table border=1 cellpadding=8>
 ";
 
-#     $solcom = $comment;
-#     $record = <SOIL>;
+    #     $solcom = $comment;
+    #     $record = <SOIL>;
 
-     @vals = split " ", $comment;
-     $ntemp = @vals[0];      # no. flow elements or channels
-     $ksflag = @vals[1];     # 0: hold hydraulic conductivity constant
-                             # 1: use internal adjustments to hydr con
+    @vals   = split " ", $comment;
+    $ntemp  = @vals[0];    # no. flow elements or channels
+    $ksflag = @vals[1];    # 0: hold hydraulic conductivity constant
+                           # 1: use internal adjustments to hydr con
 
-     for $i (1..$ntemp) {
-       print '<tr><th colspan=3 bgcolor="85d2d2"><font face="Arial, Geneva, Helvetica">',"\n";
-       print "<font size=-1>Element $i --- \n";
-       $record = <SOIL>;
-       @descriptors = split "'", $record;
-       print "@descriptors[1]\n   ";                # slid: Road, Fill, Forest
-       print "<br>Soil texture: @descriptors[3]</font></th></tr>\n";    # texid: soil texture
-       ($nsl,$salb,$sat,$ki,$kr,$shcrit,$avke) = split " ", @descriptors[4];
-#      @vals = split " ", @descriptors[4];
-#      print "No. soil layers: $nsl\n";
-       print "<tr><th align=left><font face='Arial, Geneva, Helvetica' size=-1>Albedo of the bare dry surface soil</font></th><td align='right'><font face='Arial, Geneva, Helvetica' size=-1>$salb</font></td><td></td></tr>\n";
-       print "<tr><th align=left><font face='Arial, Geneva, Helvetica' size=-1>Initial saturation level of the soil profile porosity</font></th><td align='right'><font face='Arial, Geneva, Helvetica' size=-1>$sat</font></td><td><font face='Arial, Geneva, Helvetica' size=-1>m m<sup>-1</sup></font></td></tr>\n";
-       print "<tr><th align=left><font face='Arial, Geneva, Helvetica' size=-1>Baseline interrill erodibility parameter (k<sub>i</sub>)</td><td align='right'><font face='Arial, Geneva, Helvetica' size=-1>$ki</font></td><td><font face='Arial, Geneva, Helvetica' size=-1>kg s m<sup>-4</sup></font></td></tr>\n";
-       print "<tr><th align=left><font face='Arial, Geneva, Helvetica' size=-1>Baseline rill erodibility parameter (k<sub>r</sub>)</td><td align='right'><font face='Arial, Geneva, Helvetica' size=-1>$kr</font></td><td><font face='Arial, Geneva, Helvetica' size=-1>s m<sup>-1</sup></font></td></tr>\n";
-       print "<tr><th align=left><font face='Arial, Geneva, Helvetica' size=-1>Baseline critical shear parameter (&tau;<sub>c</sub> )</td><td align='right'><font face='Arial, Geneva, Helvetica' size=-1>$shcrit</font></td><td><font face='Arial, Geneva, Helvetica' size=-1>N m<sup>-2</sup></font></td></tr>\n";
-       print "<tr><th align=left><font face='Arial, Geneva, Helvetica' size=-1>Effective hydraulic conductivity of surface soil (k<sub>e</sub>)</td><td align='right'><font face='Arial, Geneva, Helvetica' size=-1>$avke</font></td><td><font face='Arial, Geneva, Helvetica' size=-1>mm h<sup>-1</sup></font></td></tr>\n";
-       for $layer (1..$nsl) {
-         $record = <SOIL>;
-         ($solthk,$sand,$clay,$orgmat,$cec,$rfg) = split " ", $record;
-         print "<tr><td><br></td><th colspan=2 bgcolor=85d2d2><font face='Arial, Geneva, Helvetica' size=-1>layer $layer</font></th></tr>\n";
-         print "<tr><th align=left><font face='Arial, Geneva, Helvetica' size=-1>Depth from soil surface to bottom of soil layer</font></td><td align='right'><font face='Arial, Geneva, Helvetica' size=-1>$solthk</font></td><td><font face='Arial, Geneva, Helvetica' size=-1>mm</font></td></tr>\n";
-         print "<tr><th align=left><font face='Arial, Geneva, Helvetica' size=-1>Percentage of sand</font></td><td align='right'><font face='Arial, Geneva, Helvetica' size=-1>$sand</font></td><td><font face='Arial, Geneva, Helvetica' size=-1>%</font></td></tr>\n";
-         print "<tr><th align=left><font face='Arial, Geneva, Helvetica' size=-1>Percentage of clay</font></td><td align='right'><font face='Arial, Geneva, Helvetica' size=-1>$clay</font></td><td><font face='Arial, Geneva, Helvetica' size=-1>%</font></td></tr>\n";
-         print "<tr><th align=left><font face='Arial, Geneva, Helvetica' size=-1>Percentage of organic matter (by volume)</font></th><td align='right'><font face='Arial, Geneva, Helvetica' size=-1>$orgmat</font></td><td><font face='Arial, Geneva, Helvetica' size=-1>%</font></td></tr>\n";
-         print "<tr><th align=left><font face='Arial, Geneva, Helvetica' size=-1>Cation exchange capacity</font></td><td align='right'><font face='Arial, Geneva, Helvetica' size=-1>$cec</font></td><td><font face='Arial, Geneva, Helvetica' size=-1>meq per 100 g of soil</font></td></tr>\n";
-         print "<tr><th align=left><font face='Arial, Geneva, Helvetica' size=-1>Percentage of rock fragments (by volume)</font></th><td align='right'><font face='Arial, Geneva, Helvetica' size=-1>$rfg</font></td><td><font face='Arial, Geneva, Helvetica' size=-1>%</font></td></tr>\n";
-       }
-     }
-     close SOIL;
-     print '</table><br><hr><br>';
-     print '  </center><pre>';
-     print $soilfileitself;
-     print '
+    for $i ( 1 .. $ntemp ) {
+        print
+'<tr><th colspan=3 bgcolor="85d2d2"><font face="Arial, Geneva, Helvetica">',
+          "\n";
+        print "<font size=-1>Element $i --- \n";
+        $record      = <SOIL>;
+        @descriptors = split "'", $record;
+        print "@descriptors[1]\n   ";    # slid: Road, Fill, Forest
+        print "<br>Soil texture: @descriptors[3]</font></th></tr>\n"
+          ;                              # texid: soil texture
+        ( $nsl, $salb, $sat, $ki, $kr, $shcrit, $avke ) = split " ",
+          @descriptors[4];
+
+        #      @vals = split " ", @descriptors[4];
+        #      print "No. soil layers: $nsl\n";
+        print
+"<tr><th align=left><font face='Arial, Geneva, Helvetica' size=-1>Albedo of the bare dry surface soil</font></th><td align='right'><font face='Arial, Geneva, Helvetica' size=-1>$salb</font></td><td></td></tr>\n";
+        print
+"<tr><th align=left><font face='Arial, Geneva, Helvetica' size=-1>Initial saturation level of the soil profile porosity</font></th><td align='right'><font face='Arial, Geneva, Helvetica' size=-1>$sat</font></td><td><font face='Arial, Geneva, Helvetica' size=-1>m m<sup>-1</sup></font></td></tr>\n";
+        print
+"<tr><th align=left><font face='Arial, Geneva, Helvetica' size=-1>Baseline interrill erodibility parameter (k<sub>i</sub>)</td><td align='right'><font face='Arial, Geneva, Helvetica' size=-1>$ki</font></td><td><font face='Arial, Geneva, Helvetica' size=-1>kg s m<sup>-4</sup></font></td></tr>\n";
+        print
+"<tr><th align=left><font face='Arial, Geneva, Helvetica' size=-1>Baseline rill erodibility parameter (k<sub>r</sub>)</td><td align='right'><font face='Arial, Geneva, Helvetica' size=-1>$kr</font></td><td><font face='Arial, Geneva, Helvetica' size=-1>s m<sup>-1</sup></font></td></tr>\n";
+        print
+"<tr><th align=left><font face='Arial, Geneva, Helvetica' size=-1>Baseline critical shear parameter (&tau;<sub>c</sub> )</td><td align='right'><font face='Arial, Geneva, Helvetica' size=-1>$shcrit</font></td><td><font face='Arial, Geneva, Helvetica' size=-1>N m<sup>-2</sup></font></td></tr>\n";
+        print
+"<tr><th align=left><font face='Arial, Geneva, Helvetica' size=-1>Effective hydraulic conductivity of surface soil (k<sub>e</sub>)</td><td align='right'><font face='Arial, Geneva, Helvetica' size=-1>$avke</font></td><td><font face='Arial, Geneva, Helvetica' size=-1>mm h<sup>-1</sup></font></td></tr>\n";
+        for $layer ( 1 .. $nsl ) {
+            $record = <SOIL>;
+            ( $solthk, $sand, $clay, $orgmat, $cec, $rfg ) = split " ", $record;
+            print
+"<tr><td><br></td><th colspan=2 bgcolor=85d2d2><font face='Arial, Geneva, Helvetica' size=-1>layer $layer</font></th></tr>\n";
+            print
+"<tr><th align=left><font face='Arial, Geneva, Helvetica' size=-1>Depth from soil surface to bottom of soil layer</font></td><td align='right'><font face='Arial, Geneva, Helvetica' size=-1>$solthk</font></td><td><font face='Arial, Geneva, Helvetica' size=-1>mm</font></td></tr>\n";
+            print
+"<tr><th align=left><font face='Arial, Geneva, Helvetica' size=-1>Percentage of sand</font></td><td align='right'><font face='Arial, Geneva, Helvetica' size=-1>$sand</font></td><td><font face='Arial, Geneva, Helvetica' size=-1>%</font></td></tr>\n";
+            print
+"<tr><th align=left><font face='Arial, Geneva, Helvetica' size=-1>Percentage of clay</font></td><td align='right'><font face='Arial, Geneva, Helvetica' size=-1>$clay</font></td><td><font face='Arial, Geneva, Helvetica' size=-1>%</font></td></tr>\n";
+            print
+"<tr><th align=left><font face='Arial, Geneva, Helvetica' size=-1>Percentage of organic matter (by volume)</font></th><td align='right'><font face='Arial, Geneva, Helvetica' size=-1>$orgmat</font></td><td><font face='Arial, Geneva, Helvetica' size=-1>%</font></td></tr>\n";
+            print
+"<tr><th align=left><font face='Arial, Geneva, Helvetica' size=-1>Cation exchange capacity</font></td><td align='right'><font face='Arial, Geneva, Helvetica' size=-1>$cec</font></td><td><font face='Arial, Geneva, Helvetica' size=-1>meq per 100 g of soil</font></td></tr>\n";
+            print
+"<tr><th align=left><font face='Arial, Geneva, Helvetica' size=-1>Percentage of rock fragments (by volume)</font></th><td align='right'><font face='Arial, Geneva, Helvetica' size=-1>$rfg</font></td><td><font face='Arial, Geneva, Helvetica' size=-1>%</font></td></tr>\n";
+        }
+    }
+    close SOIL;
+    print '</table><br><hr><br>';
+    print '  </center><pre>';
+    print $soilfileitself;
+    print '
     </pre>
    <br>
   </blockquote>
  </body>
 </html>
 ';
-     die
-   }            #  /describe soil/
+    die;
+}    #  /describe soil/
 
 # *******************************
 
-   $years2sim=100;		# initial run
+$years2sim = 100;    # initial run
 
 # ######### for logging ERMiT run ######################
 
-   @months=qw(January February March April May June July August September October November December);
-   @days=qw(Sunday Monday Tuesday Wednesday Thursday Friday Saturday);
-   $ampm[0] = "am";
-   $ampm[1] = "pm";
+@months =
+  qw(January February March April May June July August September October November December);
+@days    = qw(Sunday Monday Tuesday Wednesday Thursday Friday Saturday);
+$ampm[0] = "am";
+$ampm[1] = "pm";
 
-   $ampmi = 0;
-   ($sec,$min,$hour,$mday,$mon,$year,$wday,$yday,$isdst)=localtime;
-   if ($hour == 12) {$ampmi = 1}
-   if ($hour > 12) {$ampmi = 1; $hour = $hour - 12}
-   $mythisyear = $year+1900;
-   $thissyear=$mythisyear;
+$ampmi = 0;
+( $sec, $min, $hour, $mday, $mon, $year, $wday, $yday, $isdst ) = localtime;
+if ( $hour == 12 ) { $ampmi = 1 }
+if ( $hour > 12 )  { $ampmi = 1; $hour = $hour - 12 }
+$mythisyear = $year + 1900;
+$thissyear  = $mythisyear;
 
-   $host = $ENV{REMOTE_HOST};
-   $host = $ENV{REMOTE_ADDR} if ($host eq '');
-   $user_really=$ENV{'HTTP_X_FORWARDED_FOR'};           # DEH 11/14/2002
-   $host = $user_really if ($user_really ne '');        # DEH 11/14/2002
+$host        = $ENV{REMOTE_HOST};
+$host        = $ENV{REMOTE_ADDR} if ( $host eq '' );
+$user_really = $ENV{'HTTP_X_FORWARDED_FOR'};              # DEH 11/14/2002
+$host        = $user_really if ( $user_really ne '' );    # DEH 11/14/2002
 
 # ########### RUN WEPP for 100-year simulation ######################
 
 # open TEMP...
-   open TEMP, ">$tempFile";
+open TEMP, ">$tempFile";
 
 #   $unique='wepp-' . $$;
 
-   if ($verbose) {print TEMP "</center>\nUnique? filename= $unique\n<BR>"}
+if ($verbose) { print TEMP "</center>\nUnique? filename= $unique\n<BR>" }
 
-  $evo_file = $eventFile;
+$evo_file = $eventFile;
 
 #   $host = $ENV{REMOTE_HOST};
 
 #   $rcin = &checkInput;
 #   if ($rcin >= 0) {
 
-   if ($severityclass eq 'u') {		# 2013.04.19 DEH
-     $s = 'uuu';
-   } else {
-     $s = 'hhh';
-   }
+if ( $severityclass eq 'u' ) {    # 2013.04.19 DEH
+    $s = 'uuu';
+}
+else {
+    $s = 'hhh';
+}
 
 # $avg_slope - average surface slope gradient
 # $toe_slope - surface slope toe gradient
 # $hillslope_length
 
-   $avg_slope += 0;
-   $toe_slope += 0;
-   $hillslope_length += 0;
-   $hillslope_length_m = $hillslope_length;
-   if ($units eq 'ft') {$hillslope_length_m *= 0.3048}
+$avg_slope        += 0;
+$toe_slope        += 0;
+$hillslope_length += 0;
+$hillslope_length_m = $hillslope_length;
+if ( $units eq 'ft' ) { $hillslope_length_m *= 0.3048 }
 
 #     print "Content-type: text/html\n\n";
 #     print "<HTML>\n";
@@ -514,7 +547,8 @@ if ($severityclass eq 'u') {		# 2013.04.19 DEH)
 #           onload="removeSpinner()">
 #  <font face="Arial, Geneva, Helvetica">
 #';
-  if ($verbose) { print TEMP "
+if ($verbose) {
+    print TEMP "
   <blockquote>
    <pre>
     ERMiT version $version
@@ -537,66 +571,72 @@ if ($severityclass eq 'u') {		# 2013.04.19 DEH)
     Create 100-year slope file       $slopeFile
            100-year management file  $manFile
     Create 100-year climate file     $CLIfile
-                            from     $PARfile
+                            from     $climatePar
     Create 100-year soil file        $soilFile
     Create WEPP Response File        $responseFile
            temporary file            $tempFile
 </font>
 ";
-    }
+}
 
-     @args = ("../$weppversion <$responseFile >$stoutFile 2>$sterrFile");
-     
-     if ($debug) {
-      print TEMP "@args
+@args = ("../$weppversion <$responseFile >$stoutFile 2>$sterrFile");
+
+if ($debug) {
+    print TEMP "@args
     </pre>
    </blockquote>
 ";
-     }
-
- # die;
-
-     if ($debug) {print TEMP "Creating 100-year slope file $slopeFile"}
-     open SLOPE, ">$slopeFile";
-       print SLOPE &createSlopeFile;
-     close SLOPE;
-     if ($debug) {$printfilename = $slopeFile; &printfile}
-     if ($debug) {print TEMP "100-year management file "}
-#     if ($debug) {$printfilename = $manFile; &printfile}
-     if ($debug) {print TEMP "Creating 100-year climate file $CLIfile from $PARfile<br>"}
-     &createCligenFile;
-     if ($debug) {print TEMP "Creating 100-year soil file<br>\n"}
-if ($severityclass eq 'u') {            # 2013.05.03 DEH
-       $s='uuu';
-       $k=1;
-} else {
-       $s='hhh';
-       $k=4;
 }
-     open SOL, ">$soilFile";
-       print SOL &createsoilfile;
-     close SOL;
+
+# die;
+
+if ($debug) { print TEMP "Creating 100-year slope file $slopeFile" }
+open SLOPE, ">$slopeFile";
+print SLOPE &createSlopeFile;
+close SLOPE;
+if ($debug) { $printfilename = $slopeFile; &printfile }
+if ($debug) { print TEMP "100-year management file " }
+
+#     if ($debug) {$printfilename = $manFile; &printfile}
+if ($debug) {
+    print TEMP "Creating 100-year climate file $CLIfile from $climatePar<br>";
+}
+&createCligenFile;
+if ($debug) { print TEMP "Creating 100-year soil file<br>\n" }
+if ( $severityclass eq 'u' ) {                                  # 2013.05.03 DEH
+    $s = 'uuu';
+    $k = 1;
+}
+else {
+    $s = 'hhh';
+    $k = 4;
+}
+open SOL, ">$soilFile";
+print SOL &createsoilfile;
+close SOL;
+
 #       $s='hhh';			# 2103.05.03 DEH
 #       $k=4;
-     open SOL, ">../working/soil100.txt";
-       print SOL &createsoilfile;
-     close SOL;
+open SOL, ">../working/soil100.txt";
+print SOL &createsoilfile;
+close SOL;
+
 #$#$#$
 
-     if ($debug) {$printfilename = $soilFile; &printfile}
-     if ($debug) {print TEMP "Creating WEPP Response File "}
-     &CreateResponseFile;
-     if ($debug) {$printfilename = $responseFile; &printfile}
+if ($debug) { $printfilename = $soilFile; &printfile }
+if ($debug) { print TEMP "Creating WEPP Response File " }
+&CreateResponseFile;
+if ($debug) { $printfilename = $responseFile; &printfile }
 
-     @args = ("../$weppversion <$responseFile >$stoutFile 2>$sterrFile");
-     system @args;
+@args = ("../$weppversion <$responseFile >$stoutFile 2>$sterrFile");
+system @args;
 
 ###
 # die 'temporary';
 ###
 
 #     unlink $CLIfile;    # be sure this is right file .....     # 2/2000 # 2006.02.23 DEH uncomment
-     &readWEPPresults;
+&readWEPPresults;
 
 #         $storms+=0;
 #         $rainevents+=0;
@@ -607,28 +647,29 @@ if ($severityclass eq 'u') {            # 2013.05.03 DEH
 #         $syr+=0;
 #         $syp+=0;
 
-  $precipunits = 'mm';
-  $intunits = 'mm h<sup>-1</sup>';
+$precipunits = 'mm';
+$intunits    = 'mm h<sup>-1</sup>';
+
 # $sedunits = 'kg m<sup>-1</sup>';
-  $sedunits = 't ha<sup>-1</sup>';
-  $alt_sedunits = 't / ha';
-  $precipf = $precip;
-  $rrof = $rro;
-  $srof = $sro;
-  $syraf = $syr;
-  $sypaf = $syp;
+$sedunits     = 't ha<sup>-1</sup>';
+$alt_sedunits = 't / ha';
+$precipf      = $precip;
+$rrof         = $rro;
+$srof         = $sro;
+$syraf        = $syr;
+$sypaf        = $syp;
 
-  if ($units eq 'ft') {
-    $precipunits = 'in';
-    $intunits = 'in h<sup>-1</sup>';
-    $sedunits = 'ton ac<sup>-1</sup>';
+if ( $units eq 'ft' ) {
+    $precipunits  = 'in';
+    $intunits     = 'in h<sup>-1</sup>';
+    $sedunits     = 'ton ac<sup>-1</sup>';
     $alt_sedunits = 'ton / ac';
-    $precipf = sprintf '%9.2g', $precip/25.4;
-    $rrof = sprintf '%9.2g', $rro/25.4;
-    $srof = sprintf '%9.2g', $sro/25.4;
-  }
+    $precipf      = sprintf '%9.2g', $precip / 25.4;
+    $rrof         = sprintf '%9.2g', $rro / 25.4;
+    $srof         = sprintf '%9.2g', $sro / 25.4;
+}
 
-         print TEMP "<center><br>
+print TEMP "<center><br>
   <table cellspacing=8 bgcolor='ivory'>
    <tr>
     <th colspan=5 bgcolor=#ccffff>
@@ -671,104 +712,119 @@ if ($severityclass eq 'u') {            # 2013.05.03 DEH
 
 # D.E. Hall 08 June 2001  USDA FS Moscow, ID
 
-   if ($verbose) {print TEMP "\nParse WEPP event output EVO file: $eventFile<br>\n";}
+if ($verbose) {
+    print TEMP "\nParse WEPP event output EVO file: $eventFile<br>\n";
+}
 
 #   @selected_ranks = (5,10,20,50);
 
 sub numerically { $a <=> $b }
 
-   $evo_file = "<$eventFile";
+$evo_file = "<$eventFile";
 
-    open EVO, $evo_file;
-    while (<EVO>) {				# skip past header lines
-#      if ($_ =~ /------/) {last}
-      if ($_ =~ /---/) {last}
+open EVO, $evo_file;
+while (<EVO>) {    # skip past header lines
+
+    #      if ($_ =~ /------/) {last}
+    if ( $_ =~ /---/ ) { last }
+}
+
+# testing here ###
+print TEMP $_ if ($zoop);    # verify location
+
+$keep = <EVO>;
+( $day1, $month1, $year1, $precip1, $runoff1, $rest1 ) = split ' ', $keep, 6;
+$runoff1 += 0;
+$year1   += 0;               # force to numeric
+@max_run[$yr] = $keep;       # store as best so far 2004.09.15
+@run_off[$yr] = $runoff1;    # store as best so far 2004.09.15
+
+# testing here ###
+print TEMP "day: $day1\tmonth: $month1\tyear: $year1\trunoff:$runoff1\n"
+  if ($zoop);
+
+# testing here ###
+print TEMP "$evo_file -- maximal runoff event for year, sorted by year\n\n"
+  if ($zoop);
+
+while (<EVO>) {
+    ( $day, $month, $year, $precip, $runoff, $rest ) = split ' ', $_, 6;
+    $runoff += 0;
+    $year   += 0;               # force to numeric
+    if ( $year == $year1 ) {    # same year
+        if ( $runoff > $runoff1 ) {    # new runoff larger
+            $keep         = $_;        # keep the new one
+            $runoff1      = $runoff;
+            @max_run[$yr] = $keep;
+            @run_off[$yr] = $runoff;
+        }
+        else {                         # new runoff small
+        }
     }
+    else {                             # new year
 
-# testing here ###
-    print TEMP $_ if ($zoop); 	# verify location
-
-    $keep = <EVO>;
-    ($day1,$month1,$year1,$precip1,$runoff1,$rest1) = split ' ', $keep, 6;
-    $runoff1+=0; $year1+=0;			# force to numeric
-    @max_run[$yr] = $keep;			# store as best so far 2004.09.15
-    @run_off[$yr] = $runoff1;			# store as best so far 2004.09.15
-# testing here ###
-   print TEMP "day: $day1\tmonth: $month1\tyear: $year1\trunoff:$runoff1\n" if ($zoop);
-
-# testing here ###
-    print TEMP "$evo_file -- maximal runoff event for year, sorted by year\n\n" if ($zoop);
-
-    while (<EVO>) {
-      ($day,$month,$year,$precip,$runoff,$rest) = split ' ', $_, 6;
-      $runoff+=0; $year+=0;			# force to numeric
-      if ($year == $year1) {			# same year
-        if ($runoff > $runoff1) {		# new runoff larger
-          $keep = $_;				# keep the new one
-          $runoff1 = $runoff;
-          @max_run[$yr] = $keep;
-          @run_off[$yr] = $runoff;
-        }
-        else {					# new runoff small
-        }
-      }
-      else {				# new year
-# testing here ###
-        print TEMP $keep if ($zoop);	# print last year's max runoff entry
-        $yr++;				
-        $keep = $_;			# update this year's starting line
+        # testing here ###
+        print TEMP $keep if ($zoop);    # print last year's max runoff entry
+        $yr++;
+        $keep         = $_;             # update this year's starting line
         @max_run[$yr] = $keep;
         @run_off[$yr] = $runoff;
-        $year1 = $year;			# update year
-	$runoff1 = $runoff;	  	# update this year's first runoff
-      }
+        $year1        = $year;          # update year
+        $runoff1      = $runoff;        # update this year's first runoff
     }
-					# handle final year
-    if ($runoff > $runoff1) {		# new runoff larger
-      $keep = $_;			# keep the new one
-      $runoff1 = $runoff;
-      @max_run[$yr] = $keep;
-      @run_off[$yr] = $runoff;
-    }
-# testing here ###
-    print TEMP $keep if ($zoop);			# print final year's max runoff entry
-    print TEMP "\n<br>\n" if ($zoop);
-    close EVO;
+}
 
-  
-if ($debug) {$, = " "; print TEMP "\n",@run_off,"\n"; $, = "";}
+# handle final year
+if ( $runoff > $runoff1 ) {    # new runoff larger
+    $keep         = $_;        # keep the new one
+    $runoff1      = $runoff;
+    @max_run[$yr] = $keep;
+    @run_off[$yr] = $runoff;
+}
+
+# testing here ###
+print TEMP $keep      if ($zoop);    # print final year's max runoff entry
+print TEMP "\n<br>\n" if ($zoop);
+close EVO;
+
+if ($debug) { $, = " "; print TEMP "\n", @run_off, "\n"; $, = ""; }
 
 # index-sort runoff		# index sort from "Efficient FORTRAN Programming"
-				# see built-in index sort elsewhere in code...
+# see built-in index sort elsewhere in code...
 
-  $years = $#run_off;
-  for $i (0..$years) {@indx[$i]=$i}	# set up initial index into array
-  for $i (0..$years-1) {
+$years = $#run_off;
+for $i ( 0 .. $years ) { @indx[$i] = $i }    # set up initial index into array
+for $i ( 0 .. $years - 1 ) {
     $m = $i;
-    for $j ($i+1..$years) {
-      $m = $j if $run_off[$indx[$j]] > $run_off[$indx[$m]]
+    for $j ( $i + 1 .. $years ) {
+        $m = $j if $run_off[ $indx[$j] ] > $run_off[ $indx[$m] ];
     }
     $temp     = $indx[$m];
     $indx[$m] = $indx[$i];
     $indx[$i] = $temp;
-  }
+}
 
-  if ($debug) {print TEMP "<br>\n -- maximal runoff for each year, sorted by runoff\n\n";}
+if ($debug) {
+    print TEMP "<br>\n -- maximal runoff for each year, sorted by runoff\n\n";
+}
 
-  # print TEMP $#run_off;
+# print TEMP $#run_off;
 # testing here ###
-  if ($zoop) {
-    for $i (0..$years) {print TEMP @run_off[$indx[$i]],"  "}
-    print TEMP "\n\n<p>"; $, = "<br>";
-    for $i (0..$years) {print TEMP @max_run[$indx[$i]]}
-  }
+if ($zoop) {
+    for $i ( 0 .. $years ) { print TEMP @run_off[ $indx[$i] ], "  " }
+    print TEMP "\n\n<p>";
+    $, = "<br>";
+    for $i ( 0 .. $years ) { print TEMP @max_run[ $indx[$i] ] }
+}
 
 ####****###
 
 # select [5th, 10th, 20th, 50th, 75th] largest runoff event lines
 
-  $years1=$years+1;				#  Number of years with runoff
-  @selected_ranks = (5,10,20,50,75);		# 2005.09.30 If too few, do we have to adjust percentages?
+$years1         = $years + 1;             #  Number of years with runoff
+@selected_ranks = ( 5, 10, 20, 50, 75 )
+  ;    # 2005.09.30 If too few, do we have to adjust percentages?
+
 #								# keep all ranks for unBurned batch *** 2015 DEH
 #  @selected_ranks = (5,10,20,50) if ($years1<75);		# 2005.09.30
 #  @selected_ranks = (5,10,20)    if ($years1<50);
@@ -778,66 +834,84 @@ if ($debug) {$, = " "; print TEMP "\n",@run_off,"\n"; $, = "";}
 
 # print TEMP "<p>Runoff events range from ",@run_off[$indx[0]]," down to ",@run_off[$indx[$years]]," mm\n";
 # print TEMP '<br>',@years2run,"<br>\n";
-  print TEMP "<br>$years1 years out of 100 had runoff events.<br>\n" if ($years<50);
-  if ($debug) {
+print TEMP "<br>$years1 years out of 100 had runoff events.<br>\n"
+  if ( $years < 50 );
+if ($debug) {
     print TEMP "<br>Runoff events (mm)\n<br><font size=-2><pre>";
-    foreach $runner (0..$years) {
-      print TEMP @run_off[$indx[$runner]],@max_run[$indx[$runner]];
+    foreach $runner ( 0 .. $years ) {
+        print TEMP @run_off[ $indx[$runner] ], @max_run[ $indx[$runner] ];
     }
     print TEMP "</pre><font>\n";
-  }
+}
 
-  for $i (0..$#selected_ranks) {
-    @selected_ranks[$i] -= 1;			# account for base zero
-    ($day,$month,$year,$precip,$runoff,$rest) = split ' ', @max_run[$indx[$selected_ranks[$i]]], 6;
-    if ($year+0 > 0) {				# DEH crash fix start if too few events 2004.09.13
-      ($interrill_det,$avg_det,$max_det,$det_pt,$avg_dep,$max_dep,$dep_pt,$sed_del,$enrich) = split ' ', $rest; 
-      @sed_delivery[$i] = $sed_del;
-      @precip[$i] = $precip;
-      @day[$i] = $day;
-      @month[$i] = $month;
-      @selected_year[$i] = $year;
-      @previous_year[$i] = $year-1;   # DEH 2003/11/20 ***
-      if ($year == 1) {@previous_year[$i] = $year};  # DEH 2003/11/20 ***
+for $i ( 0 .. $#selected_ranks ) {
+    @selected_ranks[$i] -= 1;    # account for base zero
+    ( $day, $month, $year, $precip, $runoff, $rest ) = split ' ',
+      @max_run[ $indx[ $selected_ranks[$i] ] ], 6;
+    if ( $year + 0 > 0 ) {    # DEH crash fix start if too few events 2004.09.13
+        (
+            $interrill_det, $avg_det, $max_det,
+            $det_pt,        $avg_dep, $max_dep,
+            $dep_pt,        $sed_del, $enrich
+        ) = split ' ', $rest;
+        @sed_delivery[$i]  = $sed_del;
+        @precip[$i]        = $precip;
+        @day[$i]           = $day;
+        @month[$i]         = $month;
+        @selected_year[$i] = $year;
+        @previous_year[$i] = $year - 1;    # DEH 2003/11/20 ***
+        if ( $year == 1 ) { @previous_year[$i] = $year }
+        ;                                  # DEH 2003/11/20 ***
     }
-  }
+}
 
 #print TEMP "@selected_ranks\n";
 
-    ($max_day,$max_month,$max_year,$precip,$runoff,$rest) = split ' ', @max_run[@indx[0]], 6;
-    ($interrill_det,$avg_det,$max_det,$det_pt,$avg_dep,$max_dep,$dep_pt,$sed_del,$enrich) = split ' ', $rest; 
-    @monthnames = ('', 'January', 'February', 'March', 'April', 'May','June', 'July', 'August', 'September', 'October', 'November', 'December');
+( $max_day, $max_month, $max_year, $precip, $runoff, $rest ) = split ' ',
+  @max_run[ @indx[0] ], 6;
+(
+    $interrill_det, $avg_det, $max_det, $det_pt, $avg_dep,
+    $max_dep,       $dep_pt,  $sed_del, $enrich
+) = split ' ', $rest;
+@monthnames = (
+    '',     'January', 'February', 'March',     'April',   'May',
+    'June', 'July',    'August',   'September', 'October', 'November',
+    'December'
+);
 
 #### 2003 units
-      if ($units eq 'ft') {
-#        $run_off_f = sprintf '%9.2f', @run_off[$indx[0]]/25.4;
-         $run_off_f = sprintf '%9.2f', $runoff/25.4;
-         $precip_f = sprintf '%9.2f', $precip/25.4;
-         $sed_del_f = sprintf '%9.2f', $sed_del / $hillslope_length_m * 4.45;
-            # kg per m / m length * 4.45 --> t per ac
-      }
-      else {
-#        $run_off_f = @run_off[$indx[0]];
-         $run_off_f = $runoff;
-         $precip_f = $precip;
-         $sed_del_f = $sed_del / $hillslope_length * 10;
-            # kg per m / m length * 10 --> t per ha
-      }
+if ( $units eq 'ft' ) {
+
+    #        $run_off_f = sprintf '%9.2f', @run_off[$indx[0]]/25.4;
+    $run_off_f = sprintf '%9.2f', $runoff / 25.4;
+    $precip_f  = sprintf '%9.2f', $precip / 25.4;
+    $sed_del_f = sprintf '%9.2f', $sed_del / $hillslope_length_m * 4.45;
+
+    # kg per m / m length * 4.45 --> t per ac
+}
+else {
+    #        $run_off_f = @run_off[$indx[0]];
+    $run_off_f = $runoff;
+    $precip_f  = $precip;
+    $sed_del_f = $sed_del / $hillslope_length * 10;
+
+    # kg per m / m length * 10 --> t per ha
+}
 #### 2003 units
 
 ###############ZZZZZZZZZZZZZZZZZZZZZ################
 
 @years2run = sort numerically @selected_year, @previous_year;
- if ($debug) {print TEMP "\nYears to run: @years2run\n";}
+if ($debug) { print TEMP "\nYears to run: @years2run\n"; }
 
 # remove duplicates / clean up
 
 # $year_count = $#years2run;
-  $year_count = 1;			# count unique years
-  for $i (1 .. $#years2run) {
-    $year_count += 1 if (@years2run[$i] ne @years2run[$i-1]);
-  }
-  if ($debug) {print TEMP "<br>$year_count unique years<br></center>\n";}
+$year_count = 1;    # count unique years
+for $i ( 1 .. $#years2run ) {
+    $year_count += 1 if ( @years2run[$i] ne @years2run[ $i - 1 ] );
+}
+if ($debug) { print TEMP "<br>$year_count unique years<br></center>\n"; }
 
 # pull years out of climate file
 
@@ -852,25 +926,25 @@ if ($debug) {$, = " "; print TEMP "\n",@run_off,"\n"; $, = "";}
 
 #  print TEMP "@month<br>\n@day<br>@selected_year<br>@years2run<br>\n";    # @@@@@@@@@@@@@
 
-  sub monsoonal {
+sub monsoonal {
 
 ###### 2005.09.16 DEH Look for monsoonal climates begin
-# 'Monsoonal' if
-#     (1) total annual precip is less than 600 mm and
-#     (2) Jul, Aug, Sep precip is greater than 30% of annual precip
-# Could be intersperced with code to create short climate file (following),
-#  but we'll just do it simplemindedly for now
-# Read 100-year CLI climate file header for "observed precipitation" by month
+   # 'Monsoonal' if
+   #     (1) total annual precip is less than 600 mm and
+   #     (2) Jul, Aug, Sep precip is greater than 30% of annual precip
+   # Could be intersperced with code to create short climate file (following),
+   #  but we'll just do it simplemindedly for now
+   # Read 100-year CLI climate file header for "observed precipitation" by month
 
-  my $monsoon=0;
+    my $monsoon = 0;
 
-  open INCLI, "<$CLIfile" or goto bailer;
+    open INCLI, "<$CLIfile" or goto bailer;
 
-# read CLI file $CLIfile
-# report
-#   $obannual    Total precip (mm)
-#   $obJAS       J_A_S precip (mm)
-#   $pctJAS      $obJAS/$obannual*100
+    # read CLI file $CLIfile
+    # report
+    #   $obannual    Total precip (mm)
+    #   $obJAS       J_A_S precip (mm)
+    #   $pctJAS      $obJAS/$obannual*100
 
 ###################
 #5.22564
@@ -891,95 +965,119 @@ if ($debug) {$, = " "; print TEMP "\n",@run_off,"\n"; $, = "";}
 #  1  1    1   0.0  0.00 0.00   0.00  -0.4 -14.6 157.  5.8  252. -16.3
 #  2  1    1   0.0  0.00 0.00   0.00   1.1 -14.3 242.  3.0   97. -13.1
 
-  my ($objan,$obfeb,$obmar,$obapr,$obmay,$objun,$objul,$obaug,$obsep,$oboct,$obnov,$obdec);
+    my (
+        $objan, $obfeb, $obmar, $obapr, $obmay, $objun,
+        $objul, $obaug, $obsep, $oboct, $obnov, $obdec
+    );
 
-  my $cliver=<INCLI>; chomp $cliver;
-  my $trio=<INCLI>;
-  my $station=<INCLI>; # chomp $station; $station=substr($station,13,46);
-  my $header=<INCLI>;
-  my $line=<INCLI>;
-  # ($lat,$lon,$ele,$yobs,$ybeg,$ysim,$rest)=split ' ', $line;
-  $line=<INCLI>;
-  $line=<INCLI>;
-  $line=<INCLI>;
-  $line=<INCLI>;
-  $line=<INCLI>;
-  $line=<INCLI>;
-  $line=<INCLI>;
-  $line=<INCLI>;      # Observed monthly ave precipitation (mm)
-  close INCLI;
+    my $cliver = <INCLI>;
+    chomp $cliver;
+    my $trio    = <INCLI>;
+    my $station = <INCLI>;    # chomp $station; $station=substr($station,13,46);
+    my $header  = <INCLI>;
+    my $line    = <INCLI>;
 
-  ($objan,$obfeb,$obmar,$obapr,$obmay,$objun,$objul,$obaug,$obsep,$oboct,$obnov,$obdec)=split ' ',$line;
-  $obannual=$objan+$obfeb+$obmar+$obapr+$obmay+$objun+$objul+$obaug+$obsep+$oboct+$obnov+$obdec;
-  $obJAS=$objul+$obaug+$obsep;
-#  print "$station\n$ysim years  CLIGEN version $cliver\n";
-#  print "Observed annual precip: $obannual mm\n";
-#  print "Observed JAS precip:    $obJAS mm\n";
-  $pctJAS=0;
-  if ($obannual > 0.00001) {
-    $pctJAS=100*$obJAS/$obannual;
-    $pctJAS=sprintf '%.2f', $pctJAS;
-  #  print "Percent JAS precip:     $pctJAS\n";
-    if ($obannual<600 && $pctJAS>30) {$monsoon=1}
-  }
-bailer:
-  return $monsoon;
+    # ($lat,$lon,$ele,$yobs,$ybeg,$ysim,$rest)=split ' ', $line;
+    $line = <INCLI>;
+    $line = <INCLI>;
+    $line = <INCLI>;
+    $line = <INCLI>;
+    $line = <INCLI>;
+    $line = <INCLI>;
+    $line = <INCLI>;
+    $line = <INCLI>;          # Observed monthly ave precipitation (mm)
+    close INCLI;
+
+    (
+        $objan, $obfeb, $obmar, $obapr, $obmay, $objun,
+        $objul, $obaug, $obsep, $oboct, $obnov, $obdec
+    ) = split ' ', $line;
+    $obannual =
+      $objan + $obfeb + $obmar + $obapr + $obmay + $objun + $objul + $obaug +
+      $obsep + $oboct + $obnov + $obdec;
+    $obJAS = $objul + $obaug + $obsep;
+
+    #  print "$station\n$ysim years  CLIGEN version $cliver\n";
+    #  print "Observed annual precip: $obannual mm\n";
+    #  print "Observed JAS precip:    $obJAS mm\n";
+    $pctJAS = 0;
+    if ( $obannual > 0.00001 ) {
+        $pctJAS = 100 * $obJAS / $obannual;
+        $pctJAS = sprintf '%.2f', $pctJAS;
+
+        #  print "Percent JAS precip:     $pctJAS\n";
+        if ( $obannual < 600 && $pctJAS > 30 ) { $monsoon = 1 }
+    }
+  bailer:
+    return $monsoon;
 ###### 2005.09.16 DEH Look for monsoonal climates end
 }
 
-  $monsoon=&monsoonal;
+$monsoon = &monsoonal;
 ###  $monsoon=1;	# TEMP !!!
 
-  open INCLI, "<$CLIfile" or goto bail;
-  open OUTCLI, ">$shortCLIfile";
+open INCLI,  "<$CLIfile" or goto bail;
+open OUTCLI, ">$shortCLIfile";
 
-  for $i (0..3) {
+for $i ( 0 .. 3 ) {
     $line = <INCLI>;
     print OUTCLI $line;
-  }
+}
+
 #  Latitude Longitude Elevation (m) Obs. Years   Beginning year  Years simulated
 #    21.98  -159.35          36          43           1             100
-  $line = <INCLI>;
-  chomp $line;
-  ($lat, $long, $elev, $obs_yrs, $beg_year, $years_sim) = split ' ',$line;
-  $beg_year = @years2run[0];
+$line = <INCLI>;
+chomp $line;
+( $lat, $long, $elev, $obs_yrs, $beg_year, $years_sim ) = split ' ', $line;
+$beg_year = @years2run[0];
+
 #  $years_sim = $#years2run;
-  print OUTCLI "   $lat  $long       $elev           $obs_yrs          $beg_year              $year_count\n";
-  for $i (5..14) {
+print OUTCLI
+"   $lat  $long       $elev           $obs_yrs          $beg_year              $year_count\n";
+for $i ( 5 .. 14 ) {
     $line = <INCLI>;
     print OUTCLI $line;
-  }
+}
 
-if ($debug) {print TEMP " running @years2run<br>\n"}
-  $numyears = $#years2run;
-  $lastyear = 0;			# prime starting year
-  $dumb = '31 12 0';			# prime last year's final day entry da mo yr
-  for $i (0..$numyears) {
+if ($debug) { print TEMP " running @years2run<br>\n" }
+$numyears = $#years2run;
+$lastyear = 0;             # prime starting year
+$dumb     = '31 12 0';     # prime last year's final day entry da mo yr
+for $i ( 0 .. $numyears ) {
     $mythisyear = @years2run[$i];
-    if ($mythisyear eq '' ||		# blank if beyond number of years with events
-        $mythisyear < 1 || 		# year = -1 if no previous year in event file
-        $mythisyear == $lastyear) {
-          if ($debug) {print TEMP "Bailing on $mythisyear\n"}
-          next
-    }	# bail
+    if (
+        $mythisyear eq '' ||    # blank if beyond number of years with events
+        $mythisyear < 1   ||    # year = -1 if no previous year in event file
+        $mythisyear == $lastyear
+      )
+    {
+        if ($debug) { print TEMP "Bailing on $mythisyear\n" }
+        next;
+    }    # bail
     else {
-      if ($debug) {print TEMP "<br>Seeking year $mythisyear:  ";}
-#      print TEMP "<br>Seeking year $mythisyear:  ";
-      $yeardiff = $mythisyear - $lastyear;
-      $lastyear = $mythisyear;		# prepare next year's lastyear
-#      last if $yeardiff < 1;		# should have been taken care of: sort & same
-      $daydiff = 364 * ($yeardiff-1);	# ignoring leaps for now
-      if ($debug) {print TEMP "daydiff: $daydiff\n";}
-      for $day (1..$daydiff) {
-        $dumb = <INCLI>;		# skip to near start of correct year
-#       print TEMP "skipping $dumb";
-      }
-      					# find start of year
-nextday:
-      ($da,$mo,$yr,$rest) = split ' ',$dumb;
-#      print TEMP "$da $mo $yr\n";
-      if ($mo < 12) { $dumb = <INCLI>; goto nextday }
-      if ($da < 31) { $dumb = <INCLI>; goto nextday }
+        if ($debug) { print TEMP "<br>Seeking year $mythisyear:  "; }
+
+        #      print TEMP "<br>Seeking year $mythisyear:  ";
+        $yeardiff = $mythisyear - $lastyear;
+        $lastyear = $mythisyear;               # prepare next year's lastyear
+
+    #      last if $yeardiff < 1;		# should have been taken care of: sort & same
+        $daydiff = 364 * ( $yeardiff - 1 );    # ignoring leaps for now
+        if ($debug) { print TEMP "daydiff: $daydiff\n"; }
+        for $day ( 1 .. $daydiff ) {
+            $dumb = <INCLI>;    # skip to near start of correct year
+
+            #       print TEMP "skipping $dumb";
+        }
+
+        # find start of year
+      nextday:
+        ( $da, $mo, $yr, $rest ) = split ' ', $dumb;
+
+        #      print TEMP "$da $mo $yr\n";
+        if ( $mo < 12 ) { $dumb = <INCLI>; goto nextday }
+        if ( $da < 31 ) { $dumb = <INCLI>; goto nextday }
+
 # @@@@@@@@@@@@@
 #      $my_index = -1;
 #      for $k (0..$#selected_year) {  print TEMP "$yr @selected_year[$k]<br>\n";
@@ -988,74 +1086,83 @@ nextday:
 #          print TEMP "Year: $yr+2, Index $my_index<br>\n";    # @@@@@@@
 #        }
 #      }
-      for $day (1..364) {
-        $line = <INCLI>;
+        for $day ( 1 .. 364 ) {
+            $line = <INCLI>;
 ####    ($da,$mo,$yr,$pcpp,$durr,$tp,$ip,$rest) = split ' ',$line;   # DEH duration 040422
-        print OUTCLI $line;
+            print OUTCLI $line;
+
 #        if ($my_index > -1) {
 #          if ($mo == @month[$my_index] && $da == @day[$my_index]) {    # @@@@@@@@@@@@@@@@@@@@
 #            @duration[$yr] = $durr;
 #            print TEMP "$da $mo $yr $pcpp $durr<br>\n" ; #if correct day...  DEH duration
 #          }
 #        }
-      }
-      ($da,$mo,$yr,$pcpp,$durr,$tp,$ip,$rest) = split ' ',$line;   # DEH duration 0404022
-      while ($da < 31) {
-        $line = <INCLI>;
-#       print "$yr leap\n";
-        print OUTCLI $line;
-        ($da,$mo,$yr,$pcpp,$durr,$tp,$ip,$rest) = split ' ',$line;      # DEH duration 040422
-      }
+        }
+        ( $da, $mo, $yr, $pcpp, $durr, $tp, $ip, $rest ) = split ' ',
+          $line;    # DEH duration 0404022
+        while ( $da < 31 ) {
+            $line = <INCLI>;
+
+            #       print "$yr leap\n";
+            print OUTCLI $line;
+            ( $da, $mo, $yr, $pcpp, $durr, $tp, $ip, $rest ) = split ' ',
+              $line;    # DEH duration 040422
+        }
     }
-  }
+}
 
-  close INCLI;
-  close OUTCLI;
+close INCLI;
+close OUTCLI;
 
-  if ($wgr) {								# DEH 040316
+if ($wgr) {    # DEH 040316
+
 #    @args = "cp $shortCLIfile /var/www/html/fswepp/working/wepp.cli";	# DEH 040316
 #    system @args;							# DEH 040316
-    `cp $CLIfile /var/www/html/fswepp/working/wepp100.cli`;		# DEH 040422
-    `cp $shortCLIfile /var/www/html/fswepp/working/wepp.cli`;		# DEH 040316
-    `cp data/high100.man /var/www/html/fswepp/working/high100.man`;	# DEH 040316
-    `cp data/1ofe.man /var/www/html/fswepp/working/1ofe.man`;		# DEH 040318
-    `cp data/2ofe.man /var/www/html/fswepp/working/2ofe.man`;		# DEH 040318
-    `cp data/3ofe.man /var/www/html/fswepp/working/3ofe.man`;		# DEH 040318
-    `cp $eventFile /var/www/html/fswepp/working/event100`;              # DEH 040913
-  }									# DEH 040316
+    `cp $CLIfile /var/www/html/fswepp/working/wepp100.cli`;         # DEH 040422
+    `cp $shortCLIfile /var/www/html/fswepp/working/wepp.cli`;       # DEH 040316
+    `cp data/high100.man /var/www/html/fswepp/working/high100.man`; # DEH 040316
+    `cp data/1ofe.man /var/www/html/fswepp/working/1ofe.man`;       # DEH 040318
+    `cp data/2ofe.man /var/www/html/fswepp/working/2ofe.man`;       # DEH 040318
+    `cp data/3ofe.man /var/www/html/fswepp/working/3ofe.man`;       # DEH 040318
+    `cp $eventFile /var/www/html/fswepp/working/event100`;          # DEH 040913
+}    # DEH 040316
 
 skip:
 ###############ZZZZZZZZZZZZZZZZZZZZZ################
 
-  $durr = '-';
-  $lookfor = sprintf ' %2d %2d  %3d ', $max_day, $max_month, $max_year;
+$durr    = '-';
+$lookfor = sprintf ' %2d %2d  %3d ', $max_day, $max_month, $max_year;
+
 #  print TEMP "[$lookfor]";
 
-  open CLIMATE, "<$CLIfile";
+open CLIMATE, "<$CLIfile";
+
 # open CLIMATE, "<$shortCLIfile";
-  while (<CLIMATE>) {
-    if ($_ =~ $lookfor) {
-      ($d_day, $d_month, $d_year, $d_pcp, $durr, $tp, $ip) = split ' ' ,$_; # DEH 040422
-      last
+while (<CLIMATE>) {
+    if ( $_ =~ $lookfor ) {
+        ( $d_day, $d_month, $d_year, $d_pcp, $durr, $tp, $ip ) = split ' ',
+          $_;    # DEH 040422
+        last;
     }
-  }
-  close CLIMATE;
+}
+close CLIMATE;
 
-    $i10w=0;					# weighted i10 2005.10.18 DEH
-    @max_time_list = (10, 30);			# target durations times (min)
-    $prcp = $d_pcp;
-    $dur = $durr;
-$ip*=0.7;					# 2005.10.12 DEH counteract WEPP fudge factor
-    &peak_intensity;
+$i10w          = 0;             # weighted i10 2005.10.18 DEH
+@max_time_list = ( 10, 30 );    # target durations times (min)
+$prcp          = $d_pcp;
+$dur           = $durr;
+$ip *= 0.7;                     # 2005.10.12 DEH counteract WEPP fudge factor
+&peak_intensity;
 
-    if ($units eq 'ft') {
-      @i_peak[0] = sprintf '%9.2f', @i_peak[0]/25.4 if (@i_peak[0] ne 'N/A');
-      @i_peak[1] = sprintf '%9.2f', @i_peak[1]/25.4 if (@i_peak[1] ne 'N/A');
-    }
-    else {
-      @i_peak[0] = sprintf '%9.2f', @i_peak[0] if (@i_peak[0] ne 'N/A');
-      @i_peak[1] = sprintf '%9.2f', @i_peak[1] if (@i_peak[1] ne 'N/A');
-    }
+if ( $units eq 'ft' ) {
+    @i_peak[0] = sprintf '%9.2f', @i_peak[0] / 25.4 if ( @i_peak[0] ne 'N/A' );
+    @i_peak[1] = sprintf '%9.2f', @i_peak[1] / 25.4 if ( @i_peak[1] ne 'N/A' );
+}
+else {
+    @i_peak[0] = sprintf '%9.2f', @i_peak[0] if ( @i_peak[0] ne 'N/A' );
+    @i_peak[1] = sprintf '%9.2f', @i_peak[1] if ( @i_peak[1] ne 'N/A' );
+}
+
 #    if (@i_peak[0] eq 'N/A' || @i_peak[1] eq 'N/A') {
 #      $tp='--'; $ip='--';				# 2004.09.13
 #    }
@@ -1095,10 +1202,15 @@ print TEMP "<p>
 #   @color[3]="'#ffaaff'"; @color[4]="'#ffccff'"; @color[5]="'#ffddff'";
 #   @color[0]="#3388ff"; @color[1]="#3399ff"; @color[2]="#33aaff";
 #   @color[3]="#33bbff"; @color[4]="#33ccff"; @color[5]="#33ddff";
-   @color[0]="#ccffff"; @color[1]="#ccffff"; @color[2]="#ccffff";
-   @color[3]="#ccffff"; @color[4]="#ccffff"; @color[5]="#ccffff";
+@color[0] = "#ccffff";
+@color[1] = "#ccffff";
+@color[2] = "#ccffff";
+@color[3] = "#ccffff";
+@color[4] = "#ccffff";
+@color[5] = "#ccffff";
 
-   @probClimate = (0.075, 0.075, 0.20, 0.275, 0.375);	# rank 5, 10, 20, 50, 75  DEH 2005.09.30 10.18 move up
+@probClimate = ( 0.075, 0.075, 0.20, 0.275, 0.375 )
+  ;    # rank 5, 10, 20, 50, 75  DEH 2005.09.30 10.18 move up
 
 #### 2015.04.06 DEH shorten table so duplicates don't show if insufficient storms had runoff
 
@@ -1108,71 +1220,89 @@ print TEMP "<p>
 #  @selected_ranks = (5)          if ($years1<10);
 #  @selected_ranks = ()           if ($years1<5);
 
-   $s_r = 4;
-   $s_r = 3    if ($years1 < 75);
-   $s_r = 2    if ($years1 < 50);
-   $s_r = 1    if ($years1 < 20);
-   $s_r = 0    if ($years1 < 10);
-   $s_r = -1   if ($years1 <  5);
+$s_r = 4;
+$s_r = 3  if ( $years1 < 75 );
+$s_r = 2  if ( $years1 < 50 );
+$s_r = 1  if ( $years1 < 20 );
+$s_r = 0  if ( $years1 < 10 );
+$s_r = -1 if ( $years1 < 5 );
 
 #      for $i (0..$#selected_ranks) {
-      for $i (0..$s_r) {
+for $i ( 0 .. $s_r ) {
 
-        $durr = '--';
-  $lookfor = sprintf ' %2d %2d  %3d ', @day[$i], @month[$i], @selected_year[$i];
-#        print TEMP "[$lookfor]";
+    $durr    = '--';
+    $lookfor = sprintf ' %2d %2d  %3d ', @day[$i], @month[$i],
+      @selected_year[$i];
 
-#       open CLIMATE, "<$CLIfile";
-        open CLIMATE, "<$shortCLIfile";
-        while (<CLIMATE>) {
-          if ($_ =~ $lookfor) {
-            ($d_day, $d_month, $d_year, $d_pcp, $durr, $tp, $ip) = split ' ' ,$_;  # DEH 040422
-            last
-          }
+    #        print TEMP "[$lookfor]";
+
+    #       open CLIMATE, "<$CLIfile";
+    open CLIMATE, "<$shortCLIfile";
+    while (<CLIMATE>) {
+        if ( $_ =~ $lookfor ) {
+            ( $d_day, $d_month, $d_year, $d_pcp, $durr, $tp, $ip ) = split ' ',
+              $_;    # DEH 040422
+            last;
         }
-        close CLIMATE;
+    }
+    close CLIMATE;
 
 ### duration DEH 040422 Earth Day 2004
-#   @max_time_list = (10, 30);			# target durations times (min)
+    #   @max_time_list = (10, 30);			# target durations times (min)
     $prcp = $pcpp;
     $prcp = $d_pcp;
-    $dur = $durr;
-$ip*=0.7;					# 2005.10.12 DEH counteract WEPP fudge factor
+    $dur  = $durr;
+    $ip *= 0.7;    # 2005.10.12 DEH counteract WEPP fudge factor
     &peak_intensity;
-#      returns peak intensities (mm/h) or 'N/A' in @i_peak
-#      returns $error_text
+
+    #      returns peak intensities (mm/h) or 'N/A' in @i_peak
+    #      returns $error_text
 ### duration DEH 040422
 
-# #### 2003 units
-      if ($units eq 'ft') {
-        $run_off_f = sprintf '%9.2f', @run_off[$indx[@selected_ranks[$i]]]/25.4;
-#zxc    $run_off_f = sprintf '%9.2f', @runoff[$i]/25.4;
-        $precip_f = sprintf '%9.2f', @precip[$i]/25.4;
+    # #### 2003 units
+    if ( $units eq 'ft' ) {
+        $run_off_f = sprintf '%9.2f',
+          @run_off[ $indx[ @selected_ranks[$i] ] ] / 25.4;
+
+        #zxc    $run_off_f = sprintf '%9.2f', @runoff[$i]/25.4;
+        $precip_f       = sprintf '%9.2f', @precip[$i] / 25.4;
         $sed_delivery_f = @sed_delivery[$i];
-        $sed_delivery_f = sprintf '%9.2f', $sed_delivery_f / $hillslope_length_m * 4.45;
-        $i10w+=@probClimate[$i]*@i_peak[0] if (@i_peak[0] ne 'N/A');	# 2005.10.20 DEH
-        @i_peak[0] = sprintf '%9.2f', @i_peak[0]/25.4 if (@i_peak[0] ne 'N/A');
-        @i_peak[1] = sprintf '%9.2f', @i_peak[1]/25.4 if (@i_peak[1] ne 'N/A');
-      }
-      else {
-        $run_off_f = @run_off[$indx[@selected_ranks[$i]]];
-#zxc    $run_off_f = @runoff[$i];
-        $precip_f = @precip[$i];
+        $sed_delivery_f = sprintf '%9.2f',
+          $sed_delivery_f / $hillslope_length_m * 4.45;
+        $i10w += @probClimate[$i] * @i_peak[0]
+          if ( @i_peak[0] ne 'N/A' );    # 2005.10.20 DEH
+        @i_peak[0] = sprintf '%9.2f', @i_peak[0] / 25.4
+          if ( @i_peak[0] ne 'N/A' );
+        @i_peak[1] = sprintf '%9.2f', @i_peak[1] / 25.4
+          if ( @i_peak[1] ne 'N/A' );
+    }
+    else {
+        $run_off_f = @run_off[ $indx[ @selected_ranks[$i] ] ];
+
+        #zxc    $run_off_f = @runoff[$i];
+        $precip_f       = @precip[$i];
         $sed_delivery_f = @sed_delivery[$i];
         $sed_delivery_f = $sed_delivery_f / $hillslope_length * 10;
-        @i_peak[0] = sprintf '%9.2f', @i_peak[0] if (@i_peak[0] ne 'N/A');
-        @i_peak[1] = sprintf '%9.2f', @i_peak[1] if (@i_peak[1] ne 'N/A');
-        $i10w+=@probClimate[$i]*@i_peak[0] if (@i_peak[0] ne 'N/A');	# 2005.10.18 DEH
-      }
-#    if (@i_peak[0] eq 'N/A' || @i_peak[1] eq 'N/A') {
-#      $tp='--'; $ip='--';				# 2004.09.13
-#    }
+        @i_peak[0] = sprintf '%9.2f', @i_peak[0] if ( @i_peak[0] ne 'N/A' );
+        @i_peak[1] = sprintf '%9.2f', @i_peak[1] if ( @i_peak[1] ne 'N/A' );
+        $i10w += @probClimate[$i] * @i_peak[0]
+          if ( @i_peak[0] ne 'N/A' );    # 2005.10.18 DEH
+    }
 
-# #### 2003 units
-      $yrs=sprintf '%.0f',(100/(@selected_ranks[$i] + 1));
-      if (@selected_ranks[$i] == 74) {$yrs='1<sup>1</sup>/<sub>3</sub>'}	# 2005.10.20 DEH
-      print TEMP "            <tr>
-             <th bgcolor='@color[$i]'><font size=-2><a onMouseOver=\"window.status='",@probClimate[$i]*100,"% probability';return true\" onMouseOut=\"window.status=''; return true\">",@selected_ranks[$i] + 1,"</a><br>($yrs-year)</font></th>
+    #    if (@i_peak[0] eq 'N/A' || @i_peak[1] eq 'N/A') {
+    #      $tp='--'; $ip='--';				# 2004.09.13
+    #    }
+
+    # #### 2003 units
+    $yrs = sprintf '%.0f', ( 100 / ( @selected_ranks[$i] + 1 ) );
+    if ( @selected_ranks[$i] == 74 ) {
+        $yrs = '1<sup>1</sup>/<sub>3</sub>';
+    }    # 2005.10.20 DEH
+    print TEMP "            <tr>
+             <th bgcolor='@color[$i]'><font size=-2><a onMouseOver=\"window.status='",
+      @probClimate[$i] * 100,
+"% probability';return true\" onMouseOut=\"window.status=''; return true\">",
+      @selected_ranks[$i] + 1, "</a><br>($yrs-year)</font></th>
              <td align=right><font size=-2><b>$run_off_f</b></font></td>
              <td align=right><font size=-2><b>$precip_f</b></font></td>
              <td align=right><font size=-2><b>$durr</b></font></td>
@@ -1181,57 +1311,69 @@ $ip*=0.7;					# 2005.10.12 DEH counteract WEPP fudge factor
              <td align=right><font size=-2><b>@i_peak[0]</b></font></td>
              <td align=right><font size=-2><b>@i_peak[1]</b></font></td>
 ";
-      if (@selected_year[$i] ne '') {
+    if ( @selected_year[$i] ne '' ) {
         print TEMP "
              <td align=right><font size=-2><b>@monthnames[@month[$i]]&nbsp;@day[$i]<br>year @selected_year[$i]</b></font></td>
 ";
-      }
-      print TEMP "
+    }
+    print TEMP "
             </tr>
 ";
-    }
+}
 
-     ($min_day,$min_month,$min_year,$precip,$runoff,$rest) = split ' ', @max_run[@indx[$years]], 6;
-     ($interrill_det,$avg_det,$max_det,$det_pt,$avg_dep,$max_dep,$dep_pt,$sed_del,$enrich) = split ' ', $rest;
+( $min_day, $min_month, $min_year, $precip, $runoff, $rest ) = split ' ',
+  @max_run[ @indx[$years] ], 6;
+(
+    $interrill_det, $avg_det, $max_det, $det_pt, $avg_dep,
+    $max_dep,       $dep_pt,  $sed_del, $enrich
+) = split ' ', $rest;
 
-     $durr = '--';
-     $lookfor = sprintf ' %2d %2d  %3d ', $min_day, $min_month, $min_year;
+$durr    = '--';
+$lookfor = sprintf ' %2d %2d  %3d ', $min_day, $min_month, $min_year;
+
 #     print TEMP "[$lookfor]";
 
-     open CLIMATE, "<$CLIfile";
-     while (<CLIMATE>) {
+open CLIMATE, "<$CLIfile";
+while (<CLIMATE>) {
 
-$d_day=0;   $d_month=0; $d_year =0;  $d_pcp=0;  $durr = 0; $tp = 0; $ip=0;
-       if ($_ =~ $lookfor) {
-         ($d_day, $d_month, $d_year, $d_pcp, $durr, $tp, $ip) = split ' ',$_;   # DEH 040422
-         last
-       }
-     }
-     close CLIMATE;
+    $d_day   = 0;
+    $d_month = 0;
+    $d_year  = 0;
+    $d_pcp   = 0;
+    $durr    = 0;
+    $tp      = 0;
+    $ip      = 0;
+    if ( $_ =~ $lookfor ) {
+        ( $d_day, $d_month, $d_year, $d_pcp, $durr, $tp, $ip ) = split ' ',
+          $_;    # DEH 040422
+        last;
+    }
+}
+close CLIMATE;
 
-    $prcp = $d_pcp;
-    $dur = $durr;
-    &peak_intensity;
+$prcp = $d_pcp;
+$dur  = $durr;
+&peak_intensity;
 
-     if (@run_off[$indx[$years]] eq '') {
-       $run_off_f = ' -- ';
-       $precip_f = ' -- ';
-       $sed_del_f = ' -- ';
-     }
-     elsif ($units eq 'ft') {
-       $run_off_f = sprintf '%9.2f', @run_off[$indx[$years]]/25.4;
-       $precip_f  = sprintf '%9.2f', $precip/25.4;
-       $sed_del_f = sprintf '%9.2f', $sed_del / $hillslope_length_m * 4.45;
-       @i_peak[0] = sprintf '%9.2f', @i_peak[0]/25.4 if (@i_peak[0] ne 'N/A');
-       @i_peak[1] = sprintf '%9.2f', @i_peak[1]/25.4 if (@i_peak[1] ne 'N/A');
-     }
-     else {
-       $run_off_f = @run_off[$indx[$years]];
-       $precip_f = $precip;
-       $sed_del_f = $sed_del / $hillslope_length * 10;
-       @i_peak[0] = sprintf '%9.2f', @i_peak[0] if (@i_peak[0] ne 'N/A');
-       @i_peak[1] = sprintf '%9.2f', @i_peak[1] if (@i_peak[1] ne 'N/A');
-     }
+if ( @run_off[ $indx[$years] ] eq '' ) {
+    $run_off_f = ' -- ';
+    $precip_f  = ' -- ';
+    $sed_del_f = ' -- ';
+}
+elsif ( $units eq 'ft' ) {
+    $run_off_f = sprintf '%9.2f', @run_off[ $indx[$years] ] / 25.4;
+    $precip_f  = sprintf '%9.2f', $precip / 25.4;
+    $sed_del_f = sprintf '%9.2f', $sed_del / $hillslope_length_m * 4.45;
+    @i_peak[0] = sprintf '%9.2f', @i_peak[0] / 25.4 if ( @i_peak[0] ne 'N/A' );
+    @i_peak[1] = sprintf '%9.2f', @i_peak[1] / 25.4 if ( @i_peak[1] ne 'N/A' );
+}
+else {
+    $run_off_f = @run_off[ $indx[$years] ];
+    $precip_f  = $precip;
+    $sed_del_f = $sed_del / $hillslope_length * 10;
+    @i_peak[0] = sprintf '%9.2f', @i_peak[0] if ( @i_peak[0] ne 'N/A' );
+    @i_peak[1] = sprintf '%9.2f', @i_peak[1] if ( @i_peak[1] ne 'N/A' );
+}
 
 #      print TEMP
 #"     <tr>
@@ -1245,9 +1387,10 @@ $d_day=0;   $d_month=0; $d_year =0;  $d_pcp=0;  $durr = 0; $tp = 0; $ip=0;
 #       <td align=right>@i_peak[1]</td>
 #       <td align=right>@monthnames[$min_month]&nbsp;$min_day<br>year $min_year</td>
 #      </tr>
-      print TEMP "
+print TEMP "
      </table>
 ";
+
 #     print TEMP '<br>',@years2run,"<br>\n";
 #     print TEMP "<br>$years1 years out of 100 had runoff events.<br>\n" if ($years<50);
 
@@ -1255,7 +1398,7 @@ $d_day=0;   $d_month=0; $d_year =0;  $d_pcp=0;  $durr = 0; $tp = 0; $ip=0;
 
 # goto cutout;
 
-     $a=0;            # dummy
+$a = 0;    # dummy
 
 # ------------------------ flow 5 --------------------------------
 
@@ -1282,7 +1425,11 @@ $d_day=0;   $d_month=0; $d_year =0;  $d_pcp=0;  $durr = 0; $tp = 0; $ip=0;
 
 # -------------------------------
 
-   @monthnames = ('', 'January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December');
+@monthnames = (
+    '',     'January', 'February', 'March',     'April',   'May',
+    'June', 'July',    'August',   'September', 'October', 'November',
+    'December'
+);
 
 #   $data = 'data/';
 #   $working = 'working/';
@@ -1293,315 +1440,407 @@ $d_day=0;   $d_month=0; $d_year =0;  $d_pcp=0;  $durr = 0; $tp = 0; $ip=0;
 #  $stoutFilePath = $workingpath . 'stout';
 #  $sterrFilePath = $workingpath . 'sterr';
 
-  $climateFile = $shortCLIfile;
+$climateFile = $shortCLIfile;
 
-  if ($debug) {print TEMP "<br>
+if ($debug) {
+    print TEMP "<br>
     climateFile: $climateFile<br>
     slopeFile:  $slopeFile<br>
     management file: $manFile<br>
     evoFile: $evoFile<br>
     ev_by_evFile: $ev_by_evFile<br>
     ";
-  }
+}
 
 #  @probClimate = (0.075, 0.075, 0.20, 0.275, 0.375);	# rank 5, 10, 20, 50, 75  DEH 2005.09.30
 ### unburned ###
-  if (lc($severityclass) eq 'u') {
-# unburned
-   @probSoil0 = (0.10, 0.20, 0.40, 0.20,  0.10); # year 0
-   @probSoil1 = (0.10, 0.20, 0.40, 0.20,  0.10); # year 1
-   @probSoil2 = (0.10, 0.20, 0.40, 0.20,  0.10); # year 2
-   @probSoil3 = (0.10, 0.20, 0.40, 0.20,  0.10); # year 3
-   @probSoil4 = (0.10, 0.20, 0.40, 0.20,  0.10); # year 4
-  }
-  else {
-# untreated
-   @probSoil0 = (0.10, 0.20, 0.40, 0.20,  0.10); # year 0
-   @probSoil1 = (0.30, 0.30, 0.20, 0.19,  0.01); # year 1
-   @probSoil1 = (0.12, 0.21, 0.38, 0.195, 0.095) if ($monsoon); # year 1 # 2005.09.30 DEH
-   @probSoil2 = (0.50, 0.30, 0.18, 0.01,  0.01); # year 2
-   @probSoil3 = (0.60, 0.30, 0.08, 0.01,  0.01); # year 3
-   @probSoil4 = (0.70, 0.27, 0.01, 0.01,  0.01); # year 4
-# seeding
-   @probSoil_s0 = (0.10, 0.20, 0.40, 0.20, 0.10); # year 0
-   @probSoil_s1 = (0.50, 0.30, 0.18, 0.01, 0.01); # year 2
-   @probSoil_s2 = (0.60, 0.30, 0.08, 0.01, 0.01); # year 3
-   @probSoil_s3 = (0.70, 0.27, 0.01, 0.01, 0.01); # year 4
-   @probSoil_s4 = (0.70, 0.27, 0.01, 0.01, 0.01); # year 4
-# mulching 27% ground cover (1/2 Mg/ha; ~1/4 ton/ac)		# 2005.09.30 DEH
-#   @probSoil_mh0 = (0.30, 0.40, 0.20, 0.09, 0.01); # year 0	# 2005.09.30 DEH
-#   @probSoil_mh1 = (0.40, 0.35, 0.20, 0.04, 0.01); # year 1	# 2005.09.30 DEH
-#   @probSoil_mh2 = (0.50, 0.30, 0.18, 0.01, 0.01); # year 2	# 2005.09.30 DEH
-#   @probSoil_mh3 = (0.60, 0.30, 0.08, 0.01, 0.01); # year 3	# 2005.09.30 DEH
-#   @probSoil_mh4 = (0.70, 0.27, 0.01, 0.01, 0.01); # year 4	# 2005.09.30 DEH
-# mulching 47% ground cover (1 Mg/ha; ~1/2 ton/ac)		# 2005.09.30 DEH
-   @probSoil_m470 = (0.70, 0.20, 0.08, 0.01, 0.01); # year 0	# 2005.09.30 DEH
-   @probSoil_m471 = (0.60, 0.25, 0.13, 0.01, 0.01); # year 1	# 2005.09.30 DEH
-   @probSoil_m472 = (0.50, 0.30, 0.18, 0.01, 0.01); # year 2	# 2005.09.30 DEH
-   @probSoil_m473 = (0.60, 0.30, 0.08, 0.01, 0.01); # year 3	# 2005.09.30 DEH
-   @probSoil_m474 = (0.70, 0.27, 0.01, 0.01, 0.01); # year 4	# 2005.09.30 DEH
-# mulching 62% ground cover (1-1/2 Mg/ha; ~2/3 ton/ac)		# 2005.09.30 DEH
-#   @probSoil_moh0 = (0.80, 0.10, 0.08, 0.01, 0.01); # year 0	# 2005.09.30 DEH
-#   @probSoil_moh1 = (0.65, 0.20, 0.13, 0.01, 0.01); # year 1	# 2005.09.30 DEH
-#   @probSoil_moh2 = (0.50, 0.30, 0.18, 0.01, 0.01); # year 2	# 2005.09.30 DEH
-#   @probSoil_moh3 = (0.60, 0.30, 0.08, 0.01, 0.01); # year 3	# 2005.09.30 DEH
-#   @probSoil_moh4 = (0.70, 0.27, 0.01, 0.01, 0.01); # year 4	# 2005.09.30 DEH
-# mulching 72% ground cover (2 Mg/ha; ~1 ton/ac)		# 2005.09.30 DEH
-   @probSoil_m720 = (0.90, 0.07, 0.01, 0.01, 0.01); # year 0	# 2005.09.30 DEH
-   @probSoil_m721 = (0.70, 0.20, 0.08, 0.01, 0.01); # year 1	# 2005.09.30 DEH
-   @probSoil_m722 = (0.50, 0.30, 0.18, 0.01, 0.01); # year 2	# 2005.09.30 DEH
-   @probSoil_m723 = (0.60, 0.30, 0.08, 0.01, 0.01); # year 3	# 2005.09.30 DEH
-   @probSoil_m724 = (0.70, 0.27, 0.01, 0.01, 0.01); # year 4	# 2005.09.30 DEH
-# mulching 89% ground cover (3-1/2 Mg/ha; ~1-1/2 ton/ac)	# 2005.09.30 DEH
-   @probSoil_m890 = (0.93, 0.04, 0.01, 0.01, 0.01); # year 0	# 2005.09.30 DEH
-   @probSoil_m891 = (0.77, 0.15, 0.06, 0.01, 0.01); # year 1	# 2005.09.30 DEH
-   @probSoil_m892 = (0.50, 0.30, 0.18, 0.01, 0.01); # year 2	# 2005.09.30 DEH
-   @probSoil_m893 = (0.60, 0.30, 0.08, 0.01, 0.01); # year 3	# 2005.09.30 DEH
-   @probSoil_m894 = (0.70, 0.27, 0.01, 0.01, 0.01); # year 4	# 2005.09.30 DEH
-# mulching 94% ground cover (4-1/2 Mg/ha; ~2 ton/ac)		# 2005.09.30 DEH
-   @probSoil_m940 = (0.96, 0.01, 0.01, 0.01, 0.01); # year 0	# 2005.09.30 DEH
-   @probSoil_m941 = (0.78, 0.16, 0.04, 0.01, 0.01); # year 1	# 2005.09.30 DEH
-   @probSoil_m942 = (0.50, 0.30, 0.18, 0.01, 0.01); # year 2	# 2005.09.30 DEH
-   @probSoil_m943 = (0.60, 0.30, 0.08, 0.01, 0.01); # year 3	# 2005.09.30 DEH
-   @probSoil_m944 = (0.70, 0.27, 0.01, 0.01, 0.01); # year 4	# 2005.09.30 DEH
-  }
-   if (lc($severityclass) eq "h") {
-#    @severe = ("hhh", "lhh", "hlh", "hhl");
-     @severe = ("hhh", "lhh", "hlh", "hhl", "llh", "lhl", "hll", "lll");
-     @probspatial=([0.10, 0.30, 0.30, 0.30, 0.00, 0.00, 0.00, 0.00],
-                   [0.00, 0.25, 0.25, 0.25, 0.25, 0.00, 0.00, 0.00],
-                   [0.00, 0.00, 0.25, 0.25, 0.25, 0.25, 0.00, 0.00],
-                   [0.00, 0.00, 0.00, 0.25, 0.25, 0.25, 0.25, 0.00],
-                   [0.00, 0.00, 0.00, 0.00, 0.25, 0.25, 0.25, 0.25]);
-   }
-   if (lc($severityclass) eq "m") {
-#    @severe = ("hlh", "hhl", "llh", "lhl");
-     @severe = ("hlh", "hhl", "llh", "lhl", "hll", "lll");
-     @probspatial=([0.25, 0.25, 0.25, 0.25, 0.00, 0.00],
-                   [0.00, 0.25, 0.25, 0.25, 0.25, 0.00],
-                   [0.00, 0.00, 0.25, 0.25, 0.25, 0.25],
-                   [0.00, 0.00, 0.25, 0.25, 0.25, 0.25],
-                   [0.00, 0.00, 0.25, 0.25, 0.25, 0.25]);
-   }
-   if (lc($severityclass) eq "l") {
-     @severe = ("llh", "lhl", "hll", "lll");
-     @probspatial=([0.30, 0.30, 0.30, 0.10],
-                   [0.25, 0.25, 0.25, 0.25],
-                   [0.25, 0.25, 0.25, 0.25],
-                   [0.25, 0.25, 0.25, 0.25],
-                   [0.25, 0.25, 0.25, 0.25]);
-   }
-   if (lc($severityclass) eq "u") {		# 2013.04.19 DEH
-     @severe = ("uuu");
-     @probspatial=([1.0],
-                   [1.0],
-                   [1.0],
-                   [1.0],
-                   [1.0]);
-   }
+if ( lc($severityclass) eq 'u' ) {
 
-  if ($debug) {print TEMP "  Severity class '$severityclass'\n"}
-  if ($debug) {print TEMP '  <pre><font face="courier new, courier"><br>',"\n"}
+    # unburned
+    @probSoil0 = ( 0.10, 0.20, 0.40, 0.20, 0.10 );    # year 0
+    @probSoil1 = ( 0.10, 0.20, 0.40, 0.20, 0.10 );    # year 1
+    @probSoil2 = ( 0.10, 0.20, 0.40, 0.20, 0.10 );    # year 2
+    @probSoil3 = ( 0.10, 0.20, 0.40, 0.20, 0.10 );    # year 3
+    @probSoil4 = ( 0.10, 0.20, 0.40, 0.20, 0.10 );    # year 4
+}
+else {
+    # untreated
+    @probSoil0 = ( 0.10, 0.20, 0.40, 0.20,  0.10 );    # year 0
+    @probSoil1 = ( 0.30, 0.30, 0.20, 0.19,  0.01 );    # year 1
+    @probSoil1 = ( 0.12, 0.21, 0.38, 0.195, 0.095 )
+      if ($monsoon);                                   # year 1 # 2005.09.30 DEH
+    @probSoil2 = ( 0.50, 0.30, 0.18, 0.01, 0.01 );     # year 2
+    @probSoil3 = ( 0.60, 0.30, 0.08, 0.01, 0.01 );     # year 3
+    @probSoil4 = ( 0.70, 0.27, 0.01, 0.01, 0.01 );     # year 4
+
+    # seeding
+    @probSoil_s0 = ( 0.10, 0.20, 0.40, 0.20, 0.10 );    # year 0
+    @probSoil_s1 = ( 0.50, 0.30, 0.18, 0.01, 0.01 );    # year 2
+    @probSoil_s2 = ( 0.60, 0.30, 0.08, 0.01, 0.01 );    # year 3
+    @probSoil_s3 = ( 0.70, 0.27, 0.01, 0.01, 0.01 );    # year 4
+    @probSoil_s4 = ( 0.70, 0.27, 0.01, 0.01, 0.01 );    # year 4
+
+   # mulching 27% ground cover (1/2 Mg/ha; ~1/4 ton/ac)		# 2005.09.30 DEH
+   #   @probSoil_mh0 = (0.30, 0.40, 0.20, 0.09, 0.01); # year 0	# 2005.09.30 DEH
+   #   @probSoil_mh1 = (0.40, 0.35, 0.20, 0.04, 0.01); # year 1	# 2005.09.30 DEH
+   #   @probSoil_mh2 = (0.50, 0.30, 0.18, 0.01, 0.01); # year 2	# 2005.09.30 DEH
+   #   @probSoil_mh3 = (0.60, 0.30, 0.08, 0.01, 0.01); # year 3	# 2005.09.30 DEH
+   #   @probSoil_mh4 = (0.70, 0.27, 0.01, 0.01, 0.01); # year 4	# 2005.09.30 DEH
+   # mulching 47% ground cover (1 Mg/ha; ~1/2 ton/ac)		# 2005.09.30 DEH
+    @probSoil_m470 = ( 0.70, 0.20, 0.08, 0.01, 0.01 ); # year 0	# 2005.09.30 DEH
+    @probSoil_m471 = ( 0.60, 0.25, 0.13, 0.01, 0.01 ); # year 1	# 2005.09.30 DEH
+    @probSoil_m472 = ( 0.50, 0.30, 0.18, 0.01, 0.01 ); # year 2	# 2005.09.30 DEH
+    @probSoil_m473 = ( 0.60, 0.30, 0.08, 0.01, 0.01 ); # year 3	# 2005.09.30 DEH
+    @probSoil_m474 = ( 0.70, 0.27, 0.01, 0.01, 0.01 ); # year 4	# 2005.09.30 DEH
+
+  # mulching 62% ground cover (1-1/2 Mg/ha; ~2/3 ton/ac)		# 2005.09.30 DEH
+  #   @probSoil_moh0 = (0.80, 0.10, 0.08, 0.01, 0.01); # year 0	# 2005.09.30 DEH
+  #   @probSoil_moh1 = (0.65, 0.20, 0.13, 0.01, 0.01); # year 1	# 2005.09.30 DEH
+  #   @probSoil_moh2 = (0.50, 0.30, 0.18, 0.01, 0.01); # year 2	# 2005.09.30 DEH
+  #   @probSoil_moh3 = (0.60, 0.30, 0.08, 0.01, 0.01); # year 3	# 2005.09.30 DEH
+  #   @probSoil_moh4 = (0.70, 0.27, 0.01, 0.01, 0.01); # year 4	# 2005.09.30 DEH
+  # mulching 72% ground cover (2 Mg/ha; ~1 ton/ac)		# 2005.09.30 DEH
+    @probSoil_m720 = ( 0.90, 0.07, 0.01, 0.01, 0.01 ); # year 0	# 2005.09.30 DEH
+    @probSoil_m721 = ( 0.70, 0.20, 0.08, 0.01, 0.01 ); # year 1	# 2005.09.30 DEH
+    @probSoil_m722 = ( 0.50, 0.30, 0.18, 0.01, 0.01 ); # year 2	# 2005.09.30 DEH
+    @probSoil_m723 = ( 0.60, 0.30, 0.08, 0.01, 0.01 ); # year 3	# 2005.09.30 DEH
+    @probSoil_m724 = ( 0.70, 0.27, 0.01, 0.01, 0.01 ); # year 4	# 2005.09.30 DEH
+
+    # mulching 89% ground cover (3-1/2 Mg/ha; ~1-1/2 ton/ac)	# 2005.09.30 DEH
+    @probSoil_m890 = ( 0.93, 0.04, 0.01, 0.01, 0.01 ); # year 0	# 2005.09.30 DEH
+    @probSoil_m891 = ( 0.77, 0.15, 0.06, 0.01, 0.01 ); # year 1	# 2005.09.30 DEH
+    @probSoil_m892 = ( 0.50, 0.30, 0.18, 0.01, 0.01 ); # year 2	# 2005.09.30 DEH
+    @probSoil_m893 = ( 0.60, 0.30, 0.08, 0.01, 0.01 ); # year 3	# 2005.09.30 DEH
+    @probSoil_m894 = ( 0.70, 0.27, 0.01, 0.01, 0.01 ); # year 4	# 2005.09.30 DEH
+
+    # mulching 94% ground cover (4-1/2 Mg/ha; ~2 ton/ac)		# 2005.09.30 DEH
+    @probSoil_m940 = ( 0.96, 0.01, 0.01, 0.01, 0.01 ); # year 0	# 2005.09.30 DEH
+    @probSoil_m941 = ( 0.78, 0.16, 0.04, 0.01, 0.01 ); # year 1	# 2005.09.30 DEH
+    @probSoil_m942 = ( 0.50, 0.30, 0.18, 0.01, 0.01 ); # year 2	# 2005.09.30 DEH
+    @probSoil_m943 = ( 0.60, 0.30, 0.08, 0.01, 0.01 ); # year 3	# 2005.09.30 DEH
+    @probSoil_m944 = ( 0.70, 0.27, 0.01, 0.01, 0.01 ); # year 4	# 2005.09.30 DEH
+}
+if ( lc($severityclass) eq "h" ) {
+
+    #    @severe = ("hhh", "lhh", "hlh", "hhl");
+    @severe      = ( "hhh", "lhh", "hlh", "hhl", "llh", "lhl", "hll", "lll" );
+    @probspatial = (
+        [ 0.10, 0.30, 0.30, 0.30, 0.00, 0.00, 0.00, 0.00 ],
+        [ 0.00, 0.25, 0.25, 0.25, 0.25, 0.00, 0.00, 0.00 ],
+        [ 0.00, 0.00, 0.25, 0.25, 0.25, 0.25, 0.00, 0.00 ],
+        [ 0.00, 0.00, 0.00, 0.25, 0.25, 0.25, 0.25, 0.00 ],
+        [ 0.00, 0.00, 0.00, 0.00, 0.25, 0.25, 0.25, 0.25 ]
+    );
+}
+if ( lc($severityclass) eq "m" ) {
+
+    #    @severe = ("hlh", "hhl", "llh", "lhl");
+    @severe      = ( "hlh", "hhl", "llh", "lhl", "hll", "lll" );
+    @probspatial = (
+        [ 0.25, 0.25, 0.25, 0.25, 0.00, 0.00 ],
+        [ 0.00, 0.25, 0.25, 0.25, 0.25, 0.00 ],
+        [ 0.00, 0.00, 0.25, 0.25, 0.25, 0.25 ],
+        [ 0.00, 0.00, 0.25, 0.25, 0.25, 0.25 ],
+        [ 0.00, 0.00, 0.25, 0.25, 0.25, 0.25 ]
+    );
+}
+if ( lc($severityclass) eq "l" ) {
+    @severe      = ( "llh", "lhl", "hll", "lll" );
+    @probspatial = (
+        [ 0.30, 0.30, 0.30, 0.10 ],
+        [ 0.25, 0.25, 0.25, 0.25 ],
+        [ 0.25, 0.25, 0.25, 0.25 ],
+        [ 0.25, 0.25, 0.25, 0.25 ],
+        [ 0.25, 0.25, 0.25, 0.25 ]
+    );
+}
+if ( lc($severityclass) eq "u" ) {    # 2013.04.19 DEH
+    @severe      = ("uuu");
+    @probspatial = ( [1.0], [1.0], [1.0], [1.0], [1.0] );
+}
+
+if ($debug) { print TEMP "  Severity class '$severityclass'\n" }
+if ($debug) { print TEMP '  <pre><font face="courier new, courier"><br>', "\n" }
 
 #  for $sn (0..3) {
-   for $sn (0..$#severe) {						# 2005.10.13 DEH
+for $sn ( 0 .. $#severe ) {    # 2005.10.13 DEH
 
-     $s = @severe[$sn];							# 2005.10.13 DEH
+    $s = @severe[$sn];         # 2005.10.13 DEH
 ## 	@severe = (LLL, HLL, LHL, LLH), (LHL, LLH, LHH, HLH), (LHH, HLH, HHL, HHH)
-#       @severe = ("hhh", "lhh", "hlh", "hhl", "llh", "lhl", "hll", "lll");
-#       @severe = ("hlh", "hhl", "llh", "lhl", "hll", "lll");
-#       @severe = ("llh", "lhl", "hll", "lll");
-#       @severe = ("uuu");						# 2013.04.19 DEH
+    #       @severe = ("hhh", "lhh", "hlh", "hhl", "llh", "lhl", "hll", "lll");
+    #       @severe = ("hlh", "hhl", "llh", "lhl", "hll", "lll");
+    #       @severe = ("llh", "lhl", "hll", "lll");
+    #       @severe = ("uuu");						# 2013.04.19 DEH
 
-     &lhtoab;
+    &lhtoab;
 
-#    print TEMP "\n$s: $nofe OFEs\n" ;
+    #    print TEMP "\n$s: $nofe OFEs\n" ;
 
-     open SLOPE, ">$slopeFile";
-       $mySlopeFile = &createSlopeFile;					# DEH 040316
-#      print SLOPE &createSlopeFile;					# DEH 040316
-       print SLOPE $mySlopeFile;					# DEH 040316
-     close SLOPE;
-     if ($wgr) {							# DEH 040316
-       open TempSlp, ">/var/www/html/fswepp/working/wepp$sn.slp";	# DEH 040316
-         print TempSlp $mySlopeFile;					# DEH 040316
-       close TempSlp;							# DEH 040316
-     }									# DEH 040316
+    open SLOPE, ">$slopeFile";
+    $mySlopeFile = &createSlopeFile;    # DEH 040316
 
-     &createVegFile;
-     $manFile = $datapath . $manFileName;
-     if ($debug) {print TEMP "createVegFile: $manFile -- $severityclass -- $vegtype<br>\n"};
+    #      print SLOPE &createSlopeFile;					# DEH 040316
+    print SLOPE $mySlopeFile;           # DEH 040316
+    close SLOPE;
+    if ($wgr) {                         # DEH 040316
+        open TempSlp, ">/var/www/html/fswepp/working/wepp$sn.slp";  # DEH 040316
+        print TempSlp $mySlopeFile;                                 # DEH 040316
+        close TempSlp;                                              # DEH 040316
+    }    # DEH 040316
 
-#  for $k (0..0) {   #ZZ#
-     for $k (0..4) {			#   for conductivity (k) = (u1..u5; l1..l5; h1..h5)
-       open SOL, ">$soilFile";
-         $mySoilFile = &createsoilfile;					# DEH 040316
-         print SOL $mySoilFile;						# DEH 040316
-       close SOL;
-
-       if ($wgr) {							# DEH 040316
-         open TempSol, ">/var/www/html/fswepp/working/wepp$sn-$k.sol";	# DEH 040316
-           print TempSol $mySoilFile;					# DEH 040316
-         close TempSol;							# DEH 040316
-       }
-
-       &createResponseFile;			# create WEPP response file
-## warning
-#       if ($wgr) {
-#        `cp $evoFile /var/www/html/fswepp/working/evo`;			# DEH 040913
-#        `cp $ev_by_evFile /var/www/html/fswepp/working/event`;		# DEH 040913
-#       }
-#       -e $evoFile and unlink $evoFile;
-#       -e $ev_by_evFile and unlink $ev_by_evFile;
-## warning
-#            run WEPP on climate file (4 to 16 years)
-       @args = ("../$weppversion <$responseFile >$stoutFile 2>$sterrFile") if ($wgr);	# compaction
-       print TEMP "@args\n" if $debug;
-       system @args;
-
-       if ($debug) {$printfilename = $sterrFile; &printfile}
-
-##############
-
-    # die on bad error   2003.01.14
-
-#    die if @filetext =~ /Error/;
-
-  #   if (@filetext =~ /Error/) {
-  #     print TEMP "Dagblarnit if WEPP didn't crash!\n";
-  #     goto somewhere;
-  #   }
-  foreach (@filetext) { # iterate the array
-    if (m/Error/g) {
-      print TEMP "Dagblarnit if WEPP didn't crash!";
-      goto bail;
-#      next KLOOP;		# 2005.10.29 DEH
+    &createVegFile;
+    $manFile = $datapath . $manFileName;
+    if ($debug) {
+        print TEMP "createVegFile: $manFile -- $severityclass -- $vegtype<br>\n";
     }
-  }
+
+    #  for $k (0..0) {   #ZZ#
+    for $k ( 0 .. 4 ) {    #   for conductivity (k) = (u1..u5; l1..l5; h1..h5)
+        open SOL, ">$soilFile";
+        $mySoilFile = &createsoilfile;    # DEH 040316
+        print SOL $mySoilFile;            # DEH 040316
+        close SOL;
+
+        if ($wgr) {                       # DEH 040316
+            open TempSol,
+              ">/var/www/html/fswepp/working/wepp$sn-$k.sol";    # DEH 040316
+            print TempSol $mySoilFile;                           # DEH 040316
+            close TempSol;                                       # DEH 040316
+        }
+
+        &createResponseFile;    # create WEPP response file
+## warning
+   #       if ($wgr) {
+   #        `cp $evoFile /var/www/html/fswepp/working/evo`;			# DEH 040913
+   #        `cp $ev_by_evFile /var/www/html/fswepp/working/event`;		# DEH 040913
+   #       }
+   #       -e $evoFile and unlink $evoFile;
+   #       -e $ev_by_evFile and unlink $ev_by_evFile;
+## warning
+        #            run WEPP on climate file (4 to 16 years)
+        @args = ("../$weppversion <$responseFile >$stoutFile 2>$sterrFile")
+          if ($wgr);    # compaction
+        print TEMP "@args\n" if $debug;
+        system @args;
+
+        if ($debug) { $printfilename = $sterrFile; &printfile }
 
 ##############
 
-#        pull out 5 sediment deliveries from WEPP output
-#		store one tables by year
-       @seds = &get_event_seds;
+        # die on bad error   2003.01.14
 
-       if ($verbose) {
+        #    die if @filetext =~ /Error/;
 
-#         $severity_event_path = $s . '_events.out';
-#         @args = ("copy $ev_by_evFile $severity_event_path");	# TEMP DEH
-#         system @args;						# TEMP DEH
+        #   if (@filetext =~ /Error/) {
+        #     print TEMP "Dagblarnit if WEPP didn't crash!\n";
+        #     goto somewhere;
+        #   }
+        foreach (@filetext) {    # iterate the array
+            if (m/Error/g) {
+                print TEMP "Dagblarnit if WEPP didn't crash!";
+                goto bail;
 
-         print TEMP '<br>',"\n";
-         print TEMP "Severity $sn ('$s')\n Conductivity $k\n";
-         print TEMP "\tDay\tMonth\tYear\tSedDel\n";
-       }
+                #      next KLOOP;		# 2005.10.29 DEH
+            }
+        }
 
-       for $i (0..$#selected_year) {
-         $sedtable[$i][$k][$sn] = @seds[$i];
-         if ($verbose) {print TEMP "\t",@day[$i],"\t",@month[$i],"\t",@selected_year[$i],"\t",@seds[$i],"\n";}
-       }
-     }   # Loop (k)
-   }   # Loop (s)
+##############
 
-   if ($debug) {
-     print TEMP '</font></pre>',"\n";
-   }
-  $sp = 0;
+        #        pull out 5 sediment deliveries from WEPP output
+        #		store one tables by year
+        @seds = &get_event_seds;
 
-  if ($pt) {
-  print TEMP '
+        if ($verbose) {
+
+       #         $severity_event_path = $s . '_events.out';
+       #         @args = ("copy $ev_by_evFile $severity_event_path");	# TEMP DEH
+       #         system @args;						# TEMP DEH
+
+            print TEMP '<br>', "\n";
+            print TEMP "Severity $sn ('$s')\n Conductivity $k\n";
+            print TEMP "\tDay\tMonth\tYear\tSedDel\n";
+        }
+
+        for $i ( 0 .. $#selected_year ) {
+            $sedtable[$i][$k][$sn] = @seds[$i];
+            if ($verbose) {
+                print TEMP "\t", @day[$i], "\t", @month[$i], "\t",
+                  @selected_year[$i], "\t", @seds[$i], "\n";
+            }
+        }
+    }    # Loop (k)
+}    # Loop (s)
+
+if ($debug) {
+    print TEMP '</font></pre>', "\n";
+}
+$sp = 0;
+
+if ($pt) {
+    print TEMP '
  <p>
  <table cellpadding="2" bgcolor="ivory">
-  <tr><th colspan=5><font size=+1>SEDIMENT DELIVERY (', $sedunits,')</font></th><th>Spatial (y1 .. y5)</th></tr>',"\n";
-  }
+  <tr><th colspan=5><font size=+1>SEDIMENT DELIVERY (', $sedunits,
+      ')</font></th><th>Spatial (y1 .. y5)</th></tr>',  "\n";
+}
 
 # @selected_ranks[$i] + 1,' (',100/(@selected_ranks[$i] + 1),"- year)
 
-  for $c (0..$#selected_year) {
-   if ($pt) {
-     print TEMP '  <tr><th align="left" bgcolor="ffff99" colspan="5">', @selected_ranks[$c] + 1,' (',100/(@selected_ranks[$c] + 1),'- year) -- ',@day[$c],' ',@monthnames[@month[$c]],' year ',@selected_year[$c],' (',@probClimate[$c]*100,'%)</th><td></td></tr>',"\n";
-   }
-
-#    for $sn (0..3) {										# 2005.10.13 DEH
-    for $sn (0..$#severe) {									# 2005.10.13 DEH
-      if ($pt) {      print TEMP "<tr>\n"; }
-KLOOP: for $k (0..4) {
-        @sed_yields[$sp] = $sedtable[$c][$k][$sn];
-        @scheme[$sp] = @selected_ranks[$c]+1 . uc(@severe[$sn]) . ($k+1);			# 2005.10.25 DEH
-        if ($severityclass eq 'u') {
-# unburned
-          @probabilities0[$sp] = @probClimate[$c] * $probspatial[0][$sn] * @probSoil0[$k];
-          @probabilities1[$sp] = @probClimate[$c] * $probspatial[1][$sn] * @probSoil1[$k];
-          @probabilities2[$sp] = @probClimate[$c] * $probspatial[2][$sn] * @probSoil2[$k];
-          @probabilities3[$sp] = @probClimate[$c] * $probspatial[3][$sn] * @probSoil3[$k];
-          @probabilities4[$sp] = @probClimate[$c] * $probspatial[4][$sn] * @probSoil4[$k];
-        }
-        else {
-# untreated
-        @probabilities0[$sp] = @probClimate[$c] * $probspatial[0][$sn] * @probSoil0[$k];
-        @probabilities1[$sp] = @probClimate[$c] * $probspatial[1][$sn] * @probSoil1[$k];
-        @probabilities2[$sp] = @probClimate[$c] * $probspatial[2][$sn] * @probSoil2[$k];
-        @probabilities3[$sp] = @probClimate[$c] * $probspatial[3][$sn] * @probSoil3[$k];
-        @probabilities4[$sp] = @probClimate[$c] * $probspatial[4][$sn] * @probSoil4[$k];
-# seeding
-        @probabilities_s0[$sp] = @probClimate[$c] * $probspatial[0][$sn] * @probSoil_s0[$k];
-        @probabilities_s1[$sp] = @probClimate[$c] * $probspatial[1][$sn] * @probSoil_s1[$k];
-        @probabilities_s2[$sp] = @probClimate[$c] * $probspatial[2][$sn] * @probSoil_s2[$k];
-        @probabilities_s3[$sp] = @probClimate[$c] * $probspatial[3][$sn] * @probSoil_s3[$k];
-        @probabilities_s4[$sp] = @probClimate[$c] * $probspatial[4][$sn] * @probSoil_s4[$k];
-# mulch 047% GC	# 2005.09.30 DEH
-        @probabilities_m470[$sp] = @probClimate[$c] * $probspatial[0][$sn] * @probSoil_m470[$k];	# 2005.09.30 DEH
-        @probabilities_m471[$sp] = @probClimate[$c] * $probspatial[1][$sn] * @probSoil_m471[$k];	# 2005.09.30 DEH
-        @probabilities_m472[$sp] = @probClimate[$c] * $probspatial[2][$sn] * @probSoil_m472[$k];	# 2005.09.30 DEH
-        @probabilities_m473[$sp] = @probClimate[$c] * $probspatial[3][$sn] * @probSoil_m473[$k];	# 2005.09.30 DEH
-        @probabilities_m474[$sp] = @probClimate[$c] * $probspatial[4][$sn] * @probSoil_m474[$k];	# 2005.09.30 DEH
-# mulch 72% GC	# 2005.09.30 DEH
-        @probabilities_m720[$sp] = @probClimate[$c] * $probspatial[0][$sn] * @probSoil_m720[$k];	# 2005.09.30 DEH
-        @probabilities_m721[$sp] = @probClimate[$c] * $probspatial[1][$sn] * @probSoil_m721[$k];	# 2005.09.30 DEH
-        @probabilities_m722[$sp] = @probClimate[$c] * $probspatial[2][$sn] * @probSoil_m722[$k];	# 2005.09.30 DEH
-        @probabilities_m723[$sp] = @probClimate[$c] * $probspatial[3][$sn] * @probSoil_m723[$k];	# 2005.09.30 DEH
-        @probabilities_m724[$sp] = @probClimate[$c] * $probspatial[4][$sn] * @probSoil_m724[$k];	# 2005.09.30 DEH
-# mulch 89% GC	# 2005.09.30 DEH
-        @probabilities_m890[$sp] = @probClimate[$c] * $probspatial[0][$sn] * @probSoil_m890[$k];	# 2005.09.30 DEH
-        @probabilities_m891[$sp] = @probClimate[$c] * $probspatial[1][$sn] * @probSoil_m891[$k];	# 2005.09.30 DEH
-        @probabilities_m892[$sp] = @probClimate[$c] * $probspatial[2][$sn] * @probSoil_m892[$k];	# 2005.09.30 DEH
-        @probabilities_m893[$sp] = @probClimate[$c] * $probspatial[3][$sn] * @probSoil_m893[$k];	# 2005.09.30 DEH
-        @probabilities_m894[$sp] = @probClimate[$c] * $probspatial[4][$sn] * @probSoil_m894[$k];	# 2005.09.30 DEH
-# mulch 94% GC	# 2005.09.30 DEH
-        @probabilities_m940[$sp] = @probClimate[$c] * $probspatial[0][$sn] * @probSoil_m940[$k];	# 2005.09.30 DEH
-        @probabilities_m941[$sp] = @probClimate[$c] * $probspatial[1][$sn] * @probSoil_m941[$k];	# 2005.09.30 DEH
-        @probabilities_m942[$sp] = @probClimate[$c] * $probspatial[2][$sn] * @probSoil_m942[$k];	# 2005.09.30 DEH
-        @probabilities_m943[$sp] = @probClimate[$c] * $probspatial[3][$sn] * @probSoil_m943[$k];	# 2005.09.30 DEH
-        @probabilities_m944[$sp] = @probClimate[$c] * $probspatial[4][$sn] * @probSoil_m944[$k];	# 2005.09.30 DEH
-        }
-        if ($units eq 'ft') {     # convert sediment yield kg per m to ton per ac
-          $sed_yield = @sed_yields[$sp] / $hillslope_length * 4.45; 
-        }
-        else {     # convert sediment yield kg per m to t per ha
-          $sed_yield = @sed_yields[$sp] / $hillslope_length * 10; 
-        }
-    $sed_yield_f = sprintf '%6.2f', $sed_yield;
+for $c ( 0 .. $#selected_year ) {
     if ($pt) {
-        print TEMP "
+        print TEMP '  <tr><th align="left" bgcolor="ffff99" colspan="5">',
+          @selected_ranks[$c] + 1, ' (', 100 / ( @selected_ranks[$c] + 1 ),
+          '- year) -- ', @day[$c], ' ', @monthnames[ @month[$c] ], ' year ',
+          @selected_year[$c], ' (', @probClimate[$c] * 100,
+          '%)</th><td></td></tr>', "\n";
+    }
+
+    #    for $sn (0..3) {										# 2005.10.13 DEH
+    for $sn ( 0 .. $#severe ) {    # 2005.10.13 DEH
+        if ($pt) { print TEMP "<tr>\n"; }
+      KLOOP: for $k ( 0 .. 4 ) {
+            @sed_yields[$sp] = $sedtable[$c][$k][$sn];
+            @scheme[$sp] =
+                @selected_ranks[$c] + 1
+              . uc( @severe[$sn] )
+              . ( $k + 1 );    # 2005.10.25 DEH
+            if ( $severityclass eq 'u' ) {
+
+                # unburned
+                @probabilities0[$sp] =
+                  @probClimate[$c] * $probspatial[0][$sn] * @probSoil0[$k];
+                @probabilities1[$sp] =
+                  @probClimate[$c] * $probspatial[1][$sn] * @probSoil1[$k];
+                @probabilities2[$sp] =
+                  @probClimate[$c] * $probspatial[2][$sn] * @probSoil2[$k];
+                @probabilities3[$sp] =
+                  @probClimate[$c] * $probspatial[3][$sn] * @probSoil3[$k];
+                @probabilities4[$sp] =
+                  @probClimate[$c] * $probspatial[4][$sn] * @probSoil4[$k];
+            }
+            else {
+                # untreated
+                @probabilities0[$sp] =
+                  @probClimate[$c] * $probspatial[0][$sn] * @probSoil0[$k];
+                @probabilities1[$sp] =
+                  @probClimate[$c] * $probspatial[1][$sn] * @probSoil1[$k];
+                @probabilities2[$sp] =
+                  @probClimate[$c] * $probspatial[2][$sn] * @probSoil2[$k];
+                @probabilities3[$sp] =
+                  @probClimate[$c] * $probspatial[3][$sn] * @probSoil3[$k];
+                @probabilities4[$sp] =
+                  @probClimate[$c] * $probspatial[4][$sn] * @probSoil4[$k];
+
+                # seeding
+                @probabilities_s0[$sp] =
+                  @probClimate[$c] * $probspatial[0][$sn] * @probSoil_s0[$k];
+                @probabilities_s1[$sp] =
+                  @probClimate[$c] * $probspatial[1][$sn] * @probSoil_s1[$k];
+                @probabilities_s2[$sp] =
+                  @probClimate[$c] * $probspatial[2][$sn] * @probSoil_s2[$k];
+                @probabilities_s3[$sp] =
+                  @probClimate[$c] * $probspatial[3][$sn] * @probSoil_s3[$k];
+                @probabilities_s4[$sp] =
+                  @probClimate[$c] * $probspatial[4][$sn] * @probSoil_s4[$k];
+
+                # mulch 047% GC	# 2005.09.30 DEH
+                @probabilities_m470[$sp] =
+                  @probClimate[$c] * $probspatial[0][$sn] * @probSoil_m470[$k]
+                  ;    # 2005.09.30 DEH
+                @probabilities_m471[$sp] =
+                  @probClimate[$c] * $probspatial[1][$sn] * @probSoil_m471[$k]
+                  ;    # 2005.09.30 DEH
+                @probabilities_m472[$sp] =
+                  @probClimate[$c] * $probspatial[2][$sn] * @probSoil_m472[$k]
+                  ;    # 2005.09.30 DEH
+                @probabilities_m473[$sp] =
+                  @probClimate[$c] * $probspatial[3][$sn] * @probSoil_m473[$k]
+                  ;    # 2005.09.30 DEH
+                @probabilities_m474[$sp] =
+                  @probClimate[$c] * $probspatial[4][$sn] * @probSoil_m474[$k]
+                  ;    # 2005.09.30 DEH
+
+                # mulch 72% GC	# 2005.09.30 DEH
+                @probabilities_m720[$sp] =
+                  @probClimate[$c] * $probspatial[0][$sn] * @probSoil_m720[$k]
+                  ;    # 2005.09.30 DEH
+                @probabilities_m721[$sp] =
+                  @probClimate[$c] * $probspatial[1][$sn] * @probSoil_m721[$k]
+                  ;    # 2005.09.30 DEH
+                @probabilities_m722[$sp] =
+                  @probClimate[$c] * $probspatial[2][$sn] * @probSoil_m722[$k]
+                  ;    # 2005.09.30 DEH
+                @probabilities_m723[$sp] =
+                  @probClimate[$c] * $probspatial[3][$sn] * @probSoil_m723[$k]
+                  ;    # 2005.09.30 DEH
+                @probabilities_m724[$sp] =
+                  @probClimate[$c] * $probspatial[4][$sn] * @probSoil_m724[$k]
+                  ;    # 2005.09.30 DEH
+
+                # mulch 89% GC	# 2005.09.30 DEH
+                @probabilities_m890[$sp] =
+                  @probClimate[$c] * $probspatial[0][$sn] * @probSoil_m890[$k]
+                  ;    # 2005.09.30 DEH
+                @probabilities_m891[$sp] =
+                  @probClimate[$c] * $probspatial[1][$sn] * @probSoil_m891[$k]
+                  ;    # 2005.09.30 DEH
+                @probabilities_m892[$sp] =
+                  @probClimate[$c] * $probspatial[2][$sn] * @probSoil_m892[$k]
+                  ;    # 2005.09.30 DEH
+                @probabilities_m893[$sp] =
+                  @probClimate[$c] * $probspatial[3][$sn] * @probSoil_m893[$k]
+                  ;    # 2005.09.30 DEH
+                @probabilities_m894[$sp] =
+                  @probClimate[$c] * $probspatial[4][$sn] * @probSoil_m894[$k]
+                  ;    # 2005.09.30 DEH
+
+                # mulch 94% GC	# 2005.09.30 DEH
+                @probabilities_m940[$sp] =
+                  @probClimate[$c] * $probspatial[0][$sn] * @probSoil_m940[$k]
+                  ;    # 2005.09.30 DEH
+                @probabilities_m941[$sp] =
+                  @probClimate[$c] * $probspatial[1][$sn] * @probSoil_m941[$k]
+                  ;    # 2005.09.30 DEH
+                @probabilities_m942[$sp] =
+                  @probClimate[$c] * $probspatial[2][$sn] * @probSoil_m942[$k]
+                  ;    # 2005.09.30 DEH
+                @probabilities_m943[$sp] =
+                  @probClimate[$c] * $probspatial[3][$sn] * @probSoil_m943[$k]
+                  ;    # 2005.09.30 DEH
+                @probabilities_m944[$sp] =
+                  @probClimate[$c] * $probspatial[4][$sn] * @probSoil_m944[$k]
+                  ;    # 2005.09.30 DEH
+            }
+            if ( $units eq 'ft' )
+            {          # convert sediment yield kg per m to ton per ac
+                $sed_yield = @sed_yields[$sp] / $hillslope_length * 4.45;
+            }
+            else {     # convert sediment yield kg per m to t per ha
+                $sed_yield = @sed_yields[$sp] / $hillslope_length * 10;
+            }
+            $sed_yield_f = sprintf '%6.2f', $sed_yield;
+            if ($pt) {
+                print TEMP "
   <td align=\"right\"><a href=\"https://forest.moscowfsl.wsu.edu/cgi-bin/fswepp/ermit/soilfile.pl?s=$severe[$sn]&k=$k&SoilType=$SoilType&vegtype=$vegtype&rfg=$rfg&grass=$grass&shrub=$shrub&bare=$bare\" target=\"o\">$sed_yield_f</a></td>
 ";
+            }
+            $sp += 1;
+        }
+        if ($pt) {    # 2005.10.13 DEH
+            print TEMP '     <td bgcolor="ffff99">', @severe[$sn],
+              ' (', $probspatial[0][$sn] * 100, '%) ',
+              ' (', $probspatial[1][$sn] * 100, '%) ',
+              ' (', $probspatial[2][$sn] * 100, '%) ',
+              ' (', $probspatial[3][$sn] * 100, '%) ',
+              ' (', $probspatial[4][$sn] * 100, '%) ',
+              "    </td>\n   </tr>\n";
+        }
     }
-        $sp += 1;
-      }
-    if ($pt) {								# 2005.10.13 DEH
-      print TEMP '     <td bgcolor="ffff99">',@severe[$sn],
-                 ' (', $probspatial[0][$sn]*100, '%) ',
-                 ' (', $probspatial[1][$sn]*100, '%) ',
-                 ' (', $probspatial[2][$sn]*100, '%) ',
-                 ' (', $probspatial[3][$sn]*100, '%) ',
-                 ' (', $probspatial[4][$sn]*100, '%) ',
-                 "    </td>\n   </tr>\n";
-    }
-    }
-#    print TEMP "\n";
-  }
-    if ($pt) {
-  print TEMP '  <tr>
+
+    #    print TEMP "\n";
+}
+if ($pt) {
+    print TEMP '  <tr>
    <td align="right">soil 0</td>
    <td align="right">soil 1</td>
    <td align="right">soil 2</td>
@@ -1609,35 +1848,35 @@ KLOOP: for $k (0..4) {
    <td align="right">soil 4</td>
    <td></td>
   </tr>
-  <tr><td bgcolor="ffff99">(',$probSoil0[0]*100,'%)</td>
-   <td bgcolor="ffff99">(',$probSoil0[1]*100,'%)</td>
-   <td bgcolor="ffff99">(',$probSoil0[2]*100,'%)</td>
-   <td bgcolor="ffff99">(',$probSoil0[3]*100,'%)</td>
-   <td bgcolor="ffff99">(',$probSoil0[4]*100,'%)</td>
+  <tr><td bgcolor="ffff99">(', $probSoil0[0] * 100, '%)</td>
+   <td bgcolor="ffff99">(',    $probSoil0[1] * 100, '%)</td>
+   <td bgcolor="ffff99">(',    $probSoil0[2] * 100, '%)</td>
+   <td bgcolor="ffff99">(',    $probSoil0[3] * 100, '%)</td>
+   <td bgcolor="ffff99">(',    $probSoil0[4] * 100, '%)</td>
    <td>year 0</td></tr>
-  <tr><td bgcolor="ffff99">(',$probSoil1[0]*100,'%)</td>
-   <td bgcolor="ffff99">(',$probSoil1[1]*100,'%)</td>
-   <td bgcolor="ffff99">(',$probSoil1[2]*100,'%)</td>
-   <td bgcolor="ffff99">(',$probSoil1[3]*100,'%)</td>
-   <td bgcolor="ffff99">(',$probSoil1[4]*100,'%)</td>
+  <tr><td bgcolor="ffff99">(', $probSoil1[0] * 100, '%)</td>
+   <td bgcolor="ffff99">(',    $probSoil1[1] * 100, '%)</td>
+   <td bgcolor="ffff99">(',    $probSoil1[2] * 100, '%)</td>
+   <td bgcolor="ffff99">(',    $probSoil1[3] * 100, '%)</td>
+   <td bgcolor="ffff99">(',    $probSoil1[4] * 100, '%)</td>
    <td>year 1</td></tr>
-  <tr><td bgcolor="ffff99">(',$probSoil2[0]*100,'%)</td>
-   <td bgcolor="ffff99">(',$probSoil2[1]*100,'%)</td>
-   <td bgcolor="ffff99">(',$probSoil2[2]*100,'%)</td>
-   <td bgcolor="ffff99">(',$probSoil2[3]*100,'%)</td>
-   <td bgcolor="ffff99">(',$probSoil2[4]*100,'%)</td>
+  <tr><td bgcolor="ffff99">(', $probSoil2[0] * 100, '%)</td>
+   <td bgcolor="ffff99">(',    $probSoil2[1] * 100, '%)</td>
+   <td bgcolor="ffff99">(',    $probSoil2[2] * 100, '%)</td>
+   <td bgcolor="ffff99">(',    $probSoil2[3] * 100, '%)</td>
+   <td bgcolor="ffff99">(',    $probSoil2[4] * 100, '%)</td>
    <td>year 2</td></tr>
-  <tr><td bgcolor="ffff99">(',$probSoil3[0]*100,'%)</td>
-   <td bgcolor="ffff99">(',$probSoil3[1]*100,'%)</td>
-   <td bgcolor="ffff99">(',$probSoil3[2]*100,'%)</td>
-   <td bgcolor="ffff99">(',$probSoil3[3]*100,'%)</td>
-   <td bgcolor="ffff99">(',$probSoil3[4]*100,'%)</td>
+  <tr><td bgcolor="ffff99">(', $probSoil3[0] * 100, '%)</td>
+   <td bgcolor="ffff99">(',    $probSoil3[1] * 100, '%)</td>
+   <td bgcolor="ffff99">(',    $probSoil3[2] * 100, '%)</td>
+   <td bgcolor="ffff99">(',    $probSoil3[3] * 100, '%)</td>
+   <td bgcolor="ffff99">(',    $probSoil3[4] * 100, '%)</td>
    <td>year 3</td></tr>
-  <tr><td bgcolor="ffff99">(',$probSoil4[0]*100,'%)</td>
-   <td bgcolor="ffff99">(',$probSoil4[1]*100,'%)</td>
-   <td bgcolor="ffff99">(',$probSoil4[2]*100,'%)</td>
-   <td bgcolor="ffff99">(',$probSoil4[3]*100,'%)</td>
-   <td bgcolor="ffff99">(',$probSoil4[4]*100,'%)</td>
+  <tr><td bgcolor="ffff99">(', $probSoil4[0] * 100, '%)</td>
+   <td bgcolor="ffff99">(',    $probSoil4[1] * 100, '%)</td>
+   <td bgcolor="ffff99">(',    $probSoil4[2] * 100, '%)</td>
+   <td bgcolor="ffff99">(',    $probSoil4[3] * 100, '%)</td>
+   <td bgcolor="ffff99">(',    $probSoil4[4] * 100, '%)</td>
    <td>year 4</td></tr>
  </table>
 ';
@@ -1648,105 +1887,148 @@ KLOOP: for $k (0..4) {
 
 # index-sort runoff		# index sort from "Efficient FORTRAN Programming"
 
-  @index = sort {$sed_yields[$b] <=> $sed_yields[$a]} 0..$#sed_yields;  # sort indices
+@index =
+  sort { $sed_yields[$b] <=> $sed_yields[$a] } 0 .. $#sed_yields; # sort indices
+
 #  @rank[@index] = 0..$#sed_yields;                    # make rank
 
-  if ($debug) {print TEMP "<pre>\n";			# put following calculation block within debug "if" 2005.10.24
-# unburned
+if ($debug) {
+    print TEMP
+      "<pre>\n";  # put following calculation block within debug "if" 2005.10.24
 
-# untreated
-  $cum_prob0 = 0.01;					# 2004.03.18 DEH 0. to 0.05 per CAM
-  $cum_prob1 = 0.01;					# 2005.10.25 DEH 0.05 to 0.01 per PRR
-  $cum_prob2 = 0.01;
-  $cum_prob3 = 0.01;
-  $cum_prob4 = 0.01;
-# seeding
-  $cum_prob_s0 = 0.01;
-  $cum_prob_s1 = 0.01;
-  $cum_prob_s2 = 0.01;
-  $cum_prob_s3 = 0.01;
-  $cum_prob_s4 = 0.01;
-# mulch 47% GC	# 2005.09.30 DEH
-  $cum_prob_m470 = 0.01;	# 2005.09.30 DEH
-  $cum_prob_m471 = 0.01;	# 2005.09.30 DEH
-  $cum_prob_m472 = 0.01;	# 2005.09.30 DEH
-  $cum_prob_m473 = 0.01;	# 2005.09.30 DEH
-  $cum_prob_m474 = 0.01;	# 2005.09.30 DEH
-# mulch 72% GC	# 2005.09.30 DEH
-  $cum_prob_m720 = 0.01;	# 2005.09.30 DEH
-  $cum_prob_m721 = 0.01;	# 2005.09.30 DEH
-  $cum_prob_m722 = 0.01;	# 2005.09.30 DEH
-  $cum_prob_m723 = 0.01;	# 2005.09.30 DEH
-  $cum_prob_m724 = 0.01;	# 2005.09.30 DEH
-# mulch 89% GC	# 2005.09.30 DEH
-  $cum_prob_m890 = 0.01;	# 2005.09.30 DEH
-  $cum_prob_m891 = 0.01;	# 2005.09.30 DEH
-  $cum_prob_m892 = 0.01;	# 2005.09.30 DEH
-  $cum_prob_m893 = 0.01;	# 2005.09.30 DEH
-  $cum_prob_m894 = 0.01;	# 2005.09.30 DEH
-# mulch 94% GC	# 2005.09.30 DEH
-  $cum_prob_m940 = 0.01;	# 2005.09.30 DEH
-  $cum_prob_m941 = 0.01;	# 2005.09.30 DEH
-  $cum_prob_m942 = 0.01;	# 2005.09.30 DEH
-  $cum_prob_m943 = 0.01;	# 2005.09.30 DEH
-  $cum_prob_m944 = 0.01;	# 2005.09.30 DEH
+    # unburned
 
-    print TEMP "sed_yield\tprob\tcum_prob0\tcum_prob1\tcum_prob2\tcum_prob3\tcum_prob4\n";	# 2006.04.05
+    # untreated
+    $cum_prob0 = 0.01;    # 2004.03.18 DEH 0. to 0.05 per CAM
+    $cum_prob1 = 0.01;    # 2005.10.25 DEH 0.05 to 0.01 per PRR
+    $cum_prob2 = 0.01;
+    $cum_prob3 = 0.01;
+    $cum_prob4 = 0.01;
 
-  for $sp (0..$#sed_yields) {
-    if ($severityclass eq 'u') {
-# unburned
-    $cum_prob0 += @probabilities0[@index[$sp]];
-    $cum_prob1 += @probabilities1[@index[$sp]];
-    $cum_prob2 += @probabilities2[@index[$sp]];
-    $cum_prob3 += @probabilities3[@index[$sp]];
-    $cum_prob4 += @probabilities4[@index[$sp]];
-    }
-    else {
-# untreated
-    $cum_prob0 += @probabilities0[@index[$sp]];
-    $cum_prob1 += @probabilities1[@index[$sp]];
-    $cum_prob2 += @probabilities2[@index[$sp]];
-    $cum_prob3 += @probabilities3[@index[$sp]];
-    $cum_prob4 += @probabilities4[@index[$sp]];
-# seeding
-    $cum_prob_s0 += @probabilities_s0[@index[$sp]];
-    $cum_prob_s1 += @probabilities_s1[@index[$sp]];
-    $cum_prob_s2 += @probabilities_s2[@index[$sp]];
-    $cum_prob_s3 += @probabilities_s3[@index[$sp]];
-    $cum_prob_s4 += @probabilities_s4[@index[$sp]];
-# mulch 47% GC	# 2005.09.30 DEH
-    $cum_prob_m470 += @probabilities_m470[@index[$sp]];	# 2005.09.30 DEH
-    $cum_prob_m471 += @probabilities_m471[@index[$sp]];	# 2005.09.30 DEH
-    $cum_prob_m472 += @probabilities_m472[@index[$sp]];	# 2005.09.30 DEH
-    $cum_prob_m473 += @probabilities_m473[@index[$sp]];	# 2005.09.30 DEH
-    $cum_prob_m474 += @probabilities_m474[@index[$sp]];	# 2005.09.30 DEH
-# mulch 72% GC	# 2005.09.30 DEH
-    $cum_prob_m720 += @probabilities_m720[@index[$sp]];	# 2005.09.30 DEH
-    $cum_prob_m721 += @probabilities_m721[@index[$sp]];	# 2005.09.30 DEH
-    $cum_prob_m722 += @probabilities_m722[@index[$sp]];	# 2005.09.30 DEH
-    $cum_prob_m723 += @probabilities_m723[@index[$sp]];	# 2005.09.30 DEH
-    $cum_prob_m724 += @probabilities_m724[@index[$sp]];	# 2005.09.30 DEH
-# mulch 89% GC	# 2005.09.30 DEH
-    $cum_prob_m890 += @probabilities_m890[@index[$sp]];	# 2005.09.30 DEH
-    $cum_prob_m891 += @probabilities_m891[@index[$sp]];	# 2005.09.30 DEH
-    $cum_prob_m892 += @probabilities_m892[@index[$sp]];	# 2005.09.30 DEH
-    $cum_prob_m893 += @probabilities_m893[@index[$sp]];	# 2005.09.30 DEH
-    $cum_prob_m894 += @probabilities_m894[@index[$sp]];	# 2005.09.30 DEH
-# mulch 94% GC	# 2005.09.30 DEH
-    $cum_prob_m940 += @probabilities_m940[@index[$sp]];	# 2005.09.30 DEH
-    $cum_prob_m941 += @probabilities_m941[@index[$sp]];	# 2005.09.30 DEH
-    $cum_prob_m942 += @probabilities_m942[@index[$sp]];	# 2005.09.30 DEH
-    $cum_prob_m943 += @probabilities_m943[@index[$sp]];	# 2005.09.30 DEH
-    $cum_prob_m944 += @probabilities_m944[@index[$sp]];	# 2005.09.30 DEH
-    }
+    # seeding
+    $cum_prob_s0 = 0.01;
+    $cum_prob_s1 = 0.01;
+    $cum_prob_s2 = 0.01;
+    $cum_prob_s3 = 0.01;
+    $cum_prob_s4 = 0.01;
 
-    print TEMP @sed_yields[@index[$sp]],"\t",@probabilities0[@index[$sp]],"\t$cum_prob0\t$cum_prob1\t$cum_prob2\t$cum_prob3\t$cum_prob4\t";
-    print TEMP @day[@index[$sp]],' ',@monthnames[@month[@index[$sp]]],' ', @selected_year[@index[$sp]],"\n";	# 2006.04.05
+    # mulch 47% GC	# 2005.09.30 DEH
+    $cum_prob_m470 = 0.01;    # 2005.09.30 DEH
+    $cum_prob_m471 = 0.01;    # 2005.09.30 DEH
+    $cum_prob_m472 = 0.01;    # 2005.09.30 DEH
+    $cum_prob_m473 = 0.01;    # 2005.09.30 DEH
+    $cum_prob_m474 = 0.01;    # 2005.09.30 DEH
+
+    # mulch 72% GC	# 2005.09.30 DEH
+    $cum_prob_m720 = 0.01;    # 2005.09.30 DEH
+    $cum_prob_m721 = 0.01;    # 2005.09.30 DEH
+    $cum_prob_m722 = 0.01;    # 2005.09.30 DEH
+    $cum_prob_m723 = 0.01;    # 2005.09.30 DEH
+    $cum_prob_m724 = 0.01;    # 2005.09.30 DEH
+
+    # mulch 89% GC	# 2005.09.30 DEH
+    $cum_prob_m890 = 0.01;    # 2005.09.30 DEH
+    $cum_prob_m891 = 0.01;    # 2005.09.30 DEH
+    $cum_prob_m892 = 0.01;    # 2005.09.30 DEH
+    $cum_prob_m893 = 0.01;    # 2005.09.30 DEH
+    $cum_prob_m894 = 0.01;    # 2005.09.30 DEH
+
+    # mulch 94% GC	# 2005.09.30 DEH
+    $cum_prob_m940 = 0.01;    # 2005.09.30 DEH
+    $cum_prob_m941 = 0.01;    # 2005.09.30 DEH
+    $cum_prob_m942 = 0.01;    # 2005.09.30 DEH
+    $cum_prob_m943 = 0.01;    # 2005.09.30 DEH
+    $cum_prob_m944 = 0.01;    # 2005.09.30 DEH
+
+    print TEMP
+      "sed_yield\tprob\tcum_prob0\tcum_prob1\tcum_prob2\tcum_prob3\tcum_prob4\n"
+      ;                       # 2006.04.05
+
+    for $sp ( 0 .. $#sed_yields ) {
+        if ( $severityclass eq 'u' ) {
+
+            # unburned
+            $cum_prob0 += @probabilities0[ @index[$sp] ];
+            $cum_prob1 += @probabilities1[ @index[$sp] ];
+            $cum_prob2 += @probabilities2[ @index[$sp] ];
+            $cum_prob3 += @probabilities3[ @index[$sp] ];
+            $cum_prob4 += @probabilities4[ @index[$sp] ];
+        }
+        else {
+            # untreated
+            $cum_prob0 += @probabilities0[ @index[$sp] ];
+            $cum_prob1 += @probabilities1[ @index[$sp] ];
+            $cum_prob2 += @probabilities2[ @index[$sp] ];
+            $cum_prob3 += @probabilities3[ @index[$sp] ];
+            $cum_prob4 += @probabilities4[ @index[$sp] ];
+
+            # seeding
+            $cum_prob_s0 += @probabilities_s0[ @index[$sp] ];
+            $cum_prob_s1 += @probabilities_s1[ @index[$sp] ];
+            $cum_prob_s2 += @probabilities_s2[ @index[$sp] ];
+            $cum_prob_s3 += @probabilities_s3[ @index[$sp] ];
+            $cum_prob_s4 += @probabilities_s4[ @index[$sp] ];
+
+            # mulch 47% GC	# 2005.09.30 DEH
+            $cum_prob_m470 +=
+              @probabilities_m470[ @index[$sp] ];    # 2005.09.30 DEH
+            $cum_prob_m471 +=
+              @probabilities_m471[ @index[$sp] ];    # 2005.09.30 DEH
+            $cum_prob_m472 +=
+              @probabilities_m472[ @index[$sp] ];    # 2005.09.30 DEH
+            $cum_prob_m473 +=
+              @probabilities_m473[ @index[$sp] ];    # 2005.09.30 DEH
+            $cum_prob_m474 +=
+              @probabilities_m474[ @index[$sp] ];    # 2005.09.30 DEH
+
+            # mulch 72% GC	# 2005.09.30 DEH
+            $cum_prob_m720 +=
+              @probabilities_m720[ @index[$sp] ];    # 2005.09.30 DEH
+            $cum_prob_m721 +=
+              @probabilities_m721[ @index[$sp] ];    # 2005.09.30 DEH
+            $cum_prob_m722 +=
+              @probabilities_m722[ @index[$sp] ];    # 2005.09.30 DEH
+            $cum_prob_m723 +=
+              @probabilities_m723[ @index[$sp] ];    # 2005.09.30 DEH
+            $cum_prob_m724 +=
+              @probabilities_m724[ @index[$sp] ];    # 2005.09.30 DEH
+
+            # mulch 89% GC	# 2005.09.30 DEH
+            $cum_prob_m890 +=
+              @probabilities_m890[ @index[$sp] ];    # 2005.09.30 DEH
+            $cum_prob_m891 +=
+              @probabilities_m891[ @index[$sp] ];    # 2005.09.30 DEH
+            $cum_prob_m892 +=
+              @probabilities_m892[ @index[$sp] ];    # 2005.09.30 DEH
+            $cum_prob_m893 +=
+              @probabilities_m893[ @index[$sp] ];    # 2005.09.30 DEH
+            $cum_prob_m894 +=
+              @probabilities_m894[ @index[$sp] ];    # 2005.09.30 DEH
+
+            # mulch 94% GC	# 2005.09.30 DEH
+            $cum_prob_m940 +=
+              @probabilities_m940[ @index[$sp] ];    # 2005.09.30 DEH
+            $cum_prob_m941 +=
+              @probabilities_m941[ @index[$sp] ];    # 2005.09.30 DEH
+            $cum_prob_m942 +=
+              @probabilities_m942[ @index[$sp] ];    # 2005.09.30 DEH
+            $cum_prob_m943 +=
+              @probabilities_m943[ @index[$sp] ];    # 2005.09.30 DEH
+            $cum_prob_m944 +=
+              @probabilities_m944[ @index[$sp] ];    # 2005.09.30 DEH
+        }
+
+        print TEMP @sed_yields[ @index[$sp] ], "\t",
+          @probabilities0[ @index[$sp] ],
+          "\t$cum_prob0\t$cum_prob1\t$cum_prob2\t$cum_prob3\t$cum_prob4\t";
+        print TEMP @day[ @index[$sp] ], ' ',
+          @monthnames[ @month[ @index[$sp] ] ], ' ',
+          @selected_year[ @index[$sp] ], "\n";    # 2006.04.05
+
 #    print TEMP @sed_yields[@index[$sp]],"\t",@probabilities0[@index[$sp]],"\t$cum_prob0\t",,"\t",@probabilities1[@index[$sp]],"\t$cum_prob1\n";
-  }
+    }
     print TEMP "\n\n";
-  }  # if ($debug)
+}    # if ($debug)
 
 #  @sorted_sed_probs = sort { $a <=> $b } @sed_probs;	# sort numerically increasing
 #  for $sp (0..$#sed_probs) {
@@ -1755,26 +2037,27 @@ KLOOP: for $k (0..4) {
 
 # bail:
 
-  if (lc($severityclass) eq 'u') {
+if ( lc($severityclass) eq 'u' ) {
     open YADDA, ">$gnuplotdatafile";
-      print YADDA &createGnuplotUnburnedDatafile;   # yadda yadda
+    print YADDA &createGnuplotUnburnedDatafile;    # yadda yadda
     close YADDA;
     open YADDA, ">$gnuplotjclfile";
-     print YADDA &createGnuplotUnburnedJCLfile;   # yadda yadda
+    print YADDA &createGnuplotUnburnedJCLfile;     # yadda yadda
     close YADDA;
-  } else {
+}
+else {
     open YADDA, ">$gnuplotdatafile";
-      print YADDA &createGnuplotDatafile;   # yadda yadda
+    print YADDA &createGnuplotDatafile;            # yadda yadda
     close YADDA;
     open YADDA, ">$gnuplotjclfile";
-     print YADDA &createGnuplotJCLfile;   # yadda yadda
+    print YADDA &createGnuplotJCLfile;             # yadda yadda
     close YADDA;
-  }
+}
 
-  print TEMP `gnuplot`;
+print TEMP `gnuplot`;
 
 #  open (GP, "|gnuplot");
-#   use FileHandle;  
+#   use FileHandle;
 #   GP->autoflush(1);      # force buffer to flush after each write
 #   print GP "load '$gnuplotjclfile'\n";
 #  close GP;
@@ -1782,17 +2065,19 @@ KLOOP: for $k (0..4) {
 #   exec "/usr/local/bin/gnuplot $gnuplotjclfile";
 #   `gnuplot $gnuplotjclfile`;
 
-    @args=  ("gnuplot $gnuplotjclfile");
+@args = ("gnuplot $gnuplotjclfile");
+
 #   @args=  ("/usr/local/bin/gnuplot $gnuplotjclfile");	# add path -- needed for new server
 
 #   print TEMP @args;
-   system @args;
+system @args;
 
-   `convert -rotate 90 $gnuplotgrapheps $gnuplotgraphpng`;
+`convert -rotate 90 $gnuplotgrapheps $gnuplotgraphpng`;
+
 #  print TEMP @args;
 #   system @args;
 
-bail:					# 2005.10.29 DEH moved down
+bail:    # 2005.10.29 DEH moved down
 
 close TEMP;
 
@@ -1800,8 +2085,8 @@ close TEMP;
 #  return HTML page
 ############################
 
-   print "Content-type: text/html\n\n";	# SERVER
-   print '<HTML>
+print "Content-type: text/html\n\n";    # SERVER
+print '<HTML>
  <HEAD>
   <TITLE>ERMiT Results</TITLE>
   <style>
@@ -1843,7 +2128,7 @@ print "
     width=660;
     pophistory = window.open('','pophistory','toolbar=no,location=no,status=no,directories=no,menubar=no,scrollbars=yes,resizable=yes,width='+width+',height='+height);
 ";
-    print make_history_popup();
+print make_history_popup();
 print "
     pophistory.document.close()
     pophistory.focus()
@@ -1851,11 +2136,11 @@ print "
 ";
 
 #  &CreateJavascriptsoilfileFunction;
-  &CreateJavascriptwhatsedsFunction;
+&CreateJavascriptwhatsedsFunction;
 
 cutout:
 
-print'   </HEAD>
+print '   </HEAD>
    <BODY link="green" vlink="#160A8C">		<!-- ZZZZ -->
    <font face="Arial, Geneva, Helvetica">
    <blockquote>
@@ -1872,17 +2157,16 @@ print'   </HEAD>
 
 #   echo input parameters
 
-    print "
+print "
     <table border=1 cellpadding=3>
      <tr>
       <td bgcolor=ccffff><b>$climate_name</b>
        <br>
        <font size=1>
 ";
-    &readPARfile();
-
-    $severityclass_xx = $severityclass_x;		# 2013.06.14
-    if ($severityclass ne 'u') {$severityclass_xx .= ' soil burn severity on'}
+print &GetParSummary($climatePar);
+$severityclass_xx = $severityclass_x;    # 2013.06.14
+if ( $severityclass ne 'u' ) { $severityclass_xx .= ' soil burn severity on' }
 
 print "
        </font>
@@ -1908,13 +2192,15 @@ print "
       </td>
      </tr>
 ";
+
 #     <tr>
 #      <td bgcolor=ccffff> <b>$vegtype</b> vegetation
 #      </td>
 #     </tr>
 #";
 
-    if ($vegtype ne 'forest') {print "
+if ( $vegtype ne 'forest' ) {
+    print "
      <tr>
       <td bgcolor=ccffff>
         Prefire community <b>$shrub% shrub, $grass% grass, $bare% bare <\/b><br>
@@ -1931,17 +2217,17 @@ print "
       </td>
      </tr>
 ";
-    }
+}
 print '
     </table>
 ';
 
-   open TEMP, "<$tempFile";
-   while (<TEMP>) {
-     print $_
-   }
+open TEMP, "<$tempFile";
+while (<TEMP>) {
+    print $_;
+}
 
-   close TEMP;
+close TEMP;
 
 #   ##################### display Sediment delivery exceedance prob graph
 
@@ -1949,7 +2235,8 @@ print '
   <p>
    <a href="javascript:showtable(\'cp\',\'untreated\',\'Untreated\')"
              onMouseOver="window.status=\'Display untreated sediment yield--probability of exceedance table (new window)\'; return true"
-             onMouseOut="window.status=\'\'; return true"><img src="'.$gnuplotgraphpl.'"></a>
+             onMouseOut="window.status=\'\'; return true"><img src="'
+  . $gnuplotgraphpl . '"></a>
 ';
 
 print <<'EOP2';
@@ -2054,8 +2341,8 @@ var defprob = 0.2;	// 2012.06.27
       <th bgcolor="lightgoldenrodyellow">5th year
      </tr>
 EOP2
-if (lc($severityclass) eq 'u') {
-print "<!-- unburned -->
+if ( lc($severityclass) eq 'u' ) {
+    print "<!-- unburned -->
      <tr>
       <th bgcolor=\"lightgoldenrodyellow\" align=\"right\">Unburned
        <a href=\"javascript:showtable('cp','unburned','Unburned')\">
@@ -2071,7 +2358,7 @@ print "<!-- unburned -->
 ";
 }
 else {
- print "<!-- untreated -->
+    print "<!-- untreated -->
      <tr>
       <th bgcolor=\"lightgoldenrodyellow\" align=\"right\"> Untreated
        <a href=\"javascript:showtable('cp','untreated','Untreated')\">
@@ -2170,15 +2457,17 @@ else {
        <div align=\"right\">
         <font size=-1>
 ";
+
 #print '         I<sub>10</sub> <input type="text" name="i10" value="',$i10w,'" size="5" disabled onChange="javascript:logchange()"> <script>document.write(js_intensity_units)</script><br>';
 #print '         I<sub>10</sub> <input type="text" name="i10" value="',$i10w,'" size="5" disabled onChange="javascript:logchange()"> mm/h<br>';
-print '         <input type="hidden" name="i10" value="',$i10w,'">';
-print "
+    print '         <input type="hidden" name="i10" value="', $i10w, '">';
+    print "
          <!-- Storage --> <input type=\"hidden\" name=\"capacity\" value=\"0\"> <!-- script --><!-- document.write(js_storage_units) --><!-- /script -->
         </font>
        </div>
       </th>
 ";
+
 #<script>					# 2015.05.04 DEH
 #//      <th valign=\"top\">
 #//       <span id=\"sediment_cl0\"><script>document.write(sediment0)</script></span><br>
@@ -2196,7 +2485,7 @@ print "
 #//       <span id=\"sediment_cl4\"><script>document.write(sediment4)</script></span><br>
 #//      </th>
 #</script>
-print "      <th valign=\"top\">
+    print "      <th valign=\"top\">
        <span id=\"sediment_cl0\"><script>document.write('')</script></span><br>
       </th>
       <th valign=\"top\">
@@ -2233,8 +2522,10 @@ EOP2a
 print '
   <hr>
   <font size=-2>
-   <a href="https://forest.moscowfsl.wsu.edu/fswepp/comments.html"><img src="https://'.$wepphost.'/fswepp/images/epaemail.gif" align="right" border=0></a>
-   ERMiT  Version <a href="javascript:popuphistory()">',$version,'</a>
+   <a href="https://forest.moscowfsl.wsu.edu/fswepp/comments.html"><img src="https://'
+  . $wepphost
+  . '/fswepp/images/epaemail.gif" align="right" border=0></a>
+   ERMiT  Version <a href="javascript:popuphistory()">', $version, '</a>
    <br><br>
    <b>Citation:</b>
    <p align="left" class="Reference">
@@ -2245,17 +2536,20 @@ print '
         Moscow, ID: U.S. Department of Agriculture, Forest Service, Rocky Mountain Research Station.
 </p>
 
-   WEPP ',$weppver,'<br>
-   ERMiT run ID ',$unique,'<br>
+   WEPP ',         $weppver, '<br>
+   ERMiT run ID ', $unique,  '<br>
 ';
+
 # print " New soil parameters for range<br>\n" if ($new_range);
-  print " CLIGEN version 5.22564<br>\n" if ($new_cligen);
-  print " Observed annual precip $obannual mm; July, August, September precip $obJAS mm ($pctJAS percent):";
-  print " MONSOONAL climate<br>\n" if ($monsoon);
-  print " NON-MONSOONAL climate<br>\n" if (!$monsoon);
+print " CLIGEN version 5.22564<br>\n" if ($new_cligen);
+print
+" Observed annual precip $obannual mm; July, August, September precip $obJAS mm ($pctJAS percent):";
+print " MONSOONAL climate<br>\n"     if ($monsoon);
+print " NON-MONSOONAL climate<br>\n" if ( !$monsoon );
+
 # print " 'Range' &tau;<sub>c</sub><br>\n" if (!$rtc);
 # print " 'Forest' &tau;<sub>c</sub><br>\n" if ($rtc);
-  print "
+print "
   </font>
  </body>
 </html>
@@ -2264,47 +2558,51 @@ print '
 #  record activity in ERMiT log (if running on remote server)
 #  welog welog welog
 
-# $PARfile
+# $climatePar
 # 2008.06.04 DEH start
-   open PAR, "<$PARfile";
-    $PARline=<PAR>;                 # station name
-    $PARline=<PAR>;                 # Lat long
-    $lat_long=substr($PARline,0,26);
-    $lat=substr $lat_long,6,7;
-    $long=substr $lat_long,19,7;
-    close PAR;
+open PAR, "<$climatePar";
+$PARline  = <PAR>;                       # station name
+$PARline  = <PAR>;                       # Lat long
+$lat_long = substr( $PARline, 0, 26 );
+$lat      = substr $lat_long, 6,  7;
+$long     = substr $lat_long, 19, 7;
+close PAR;
+
 # 2008.06.04 DEH end
 
-   if (lc($wepphost) ne "localhost") {
-     open WELOG, ">>../working/_$thisyear/we.log";	# 2012.12.31 DEH
-     flock (WELOG,2);
-       print WELOG "$host\t\"";
-       printf WELOG "%0.2d:%0.2d ", $hour, $min;
-       print  WELOG $ampm[$ampmi],"  ",$days[$wday]," ",$months[$mon]," ",$mday, ", ",$thissyear,"\"\t";
-       print  WELOG '"',trim($climate_name),"\"\t";
-       print  WELOG "$lat\t$long\n";                      # 2008.06.04 DEH
-#       print  WELOG $lat_long,"\n";                      # 2008.06.04 DEH
-#      print  WELOG "$climate_name\n";
-     close WELOG;
+if ( lc($wepphost) ne "localhost" ) {
+    open WELOG, ">>../working/_$thisyear/we.log";    # 2012.12.31 DEH
+    flock( WELOG, 2 );
+    print WELOG "$host\t\"";
+    printf WELOG "%0.2d:%0.2d ", $hour, $min;
+    print WELOG $ampm[$ampmi], "  ", $days[$wday], " ", $months[$mon], " ",
+      $mday, ", ", $thissyear, "\"\t";
+    print WELOG '"', trim($climate_name), "\"\t";
+    print WELOG "$lat\t$long\n";                     # 2008.06.04 DEH
 
-     open CLIMLOG, ">../working/_$thisyear/lastclimate.txt";       # 2012.12.31 DEH
-       flock CLIMLOG,2;
-       print CLIMLOG 'ERMiT: ', $climate_name;
-     close CLIMLOG;
+    #       print  WELOG $lat_long,"\n";                      # 2008.06.04 DEH
+    #      print  WELOG "$climate_name\n";
+    close WELOG;
+
+    open CLIMLOG, ">../working/_$thisyear/lastclimate.txt";    # 2012.12.31 DEH
+    flock CLIMLOG, 2;
+    print CLIMLOG 'ERMiT: ', $climate_name;
+    close CLIMLOG;
 
 #     $thisday = 1+ (localtime)[7];                      # $yday, day of the year (0..364)
 ##    $thisdayoff=$thisday+3;                            # [Jan 1] -1: Sunday; 0: Monday
 #     $thisdayoff=$thisday+4;                            # [Jan 1] -1: Sunday; 0: Monday
 #     $thisweek = 1+ int $thisdayoff/7;
 #     print "$thisday\t $thisweek\n";
-     $ditlogfile = ">>../working/_$thisyear/we/$thisweek";	# 2012.12.31 DEH
-     open MYLOG,$ditlogfile;
-       flock MYLOG,2;			# 2005.02.09 DEH
-#      print MYLOG '.' x $count;	# 2006.01.18 DEH
-       print MYLOG '.';			# 2007.01.01 DEH
-     close MYLOG; 
+    $ditlogfile = ">>../working/_$thisyear/we/$thisweek";    # 2012.12.31 DEH
+    open MYLOG, $ditlogfile;
+    flock MYLOG, 2;                                          # 2005.02.09 DEH
 
-   }	# if (lc($wepphost) ne "localhost")
+    #      print MYLOG '.' x $count;	# 2006.01.18 DEH
+    print MYLOG '.';                                         # 2007.01.01 DEH
+    close MYLOG;
+
+}    # if (lc($wepphost) ne "localhost")
 
 ################################# start 2010.01.20 DEH   record run in user wepp run log file
 
@@ -2312,61 +2610,64 @@ print '
 
 #  strip leading and trailing blanks on file name
 
-sub trim($)       # https://www.somacon.com/p114.php
+sub trim($)    # https://www.somacon.com/p114.php
 {
-        my $string = shift;
-        $string =~ s/^\s+//;
-        $string =~ s/\s+$//;
-        return $string;
+    my $string = shift;
+    $string =~ s/^\s+//;
+    $string =~ s/\s+$//;
+    return $string;
 }
 
-    $climate_trim = trim($climate_name);
+$climate_trim = trim($climate_name);
 
-    open RUNLOG, ">>$runLogFile";
-      flock (RUNLOG,2);
-      print  RUNLOG "WE\t$unique\t",'"';
-      printf RUNLOG "%0.2d:%0.2d ", $hour, $min;
-      print  RUNLOG $ampm[$ampmi],"  ",$days[$wday]," ",$months[$mon]," ",$mday,", ",$thissyear, '"',"\t",'"';
-      print  RUNLOG $climate_trim,'"',"\t";     # Climate
-      print  RUNLOG "$SoilType\t";              # Soil texture
-      print  RUNLOG "$rfg\t";			# Rock content
-      print  RUNLOG "$vegtype\t";		# Vegetation type
-      print  RUNLOG "$top_slope\t";		# Hillslope top gradient
-      print  RUNLOG "$avg_slope\t";		# Hillslope average gradient
-      print  RUNLOG "$toe_slope\t";		# Hillslope toe gradient
-      print  RUNLOG "$hillslope_length\t";	# Hillslope length
-      print  RUNLOG "$severityclass\t";		# Burn severity
-      print  RUNLOG "$shrub\t";			# Percent shrub
-      print  RUNLOG "$grass\t";			# Percent grass
+open RUNLOG, ">>$runLogFile";
+flock( RUNLOG, 2 );
+print RUNLOG "WE\t$unique\t", '"';
+printf RUNLOG "%0.2d:%0.2d ", $hour, $min;
+print RUNLOG $ampm[$ampmi], "  ", $days[$wday], " ", $months[$mon], " ", $mday,
+  ", ", $thissyear, '"', "\t", '"';
+print RUNLOG $climate_trim, '"', "\t";    # Climate
+print RUNLOG "$SoilType\t";               # Soil texture
+print RUNLOG "$rfg\t";                    # Rock content
+print RUNLOG "$vegtype\t";                # Vegetation type
+print RUNLOG "$top_slope\t";              # Hillslope top gradient
+print RUNLOG "$avg_slope\t";              # Hillslope average gradient
+print RUNLOG "$toe_slope\t";              # Hillslope toe gradient
+print RUNLOG "$hillslope_length\t";       # Hillslope length
+print RUNLOG "$severityclass\t";          # Burn severity
+print RUNLOG "$shrub\t";                  # Percent shrub
+print RUNLOG "$grass\t";                  # Percent grass
+
 #     print  RUNLOG "$bare\t";			# Percent bare
-      print  RUNLOG "$units\n";			# units
-    close RUNLOG;
+print RUNLOG "$units\n";                  # units
+close RUNLOG;
 
 ################################# end 2010.01.20 DEH
 
-  # unlink
+# unlink
 
-       if ($wgr) {
-        `cp $evoFile /var/www/html/fswepp/working/evo`;			# DEH 040913
-        `cp $ev_by_evFile /var/www/html/fswepp/working/event`;		# DEH 040913
-       }
-  if (1) {}
-  else {
+if ($wgr) {
+    `cp $evoFile /var/www/html/fswepp/working/evo`;           # DEH 040913
+    `cp $ev_by_evFile /var/www/html/fswepp/working/event`;    # DEH 040913
+}
+if (1) { }
+else {
     unlink $soilfile;
     unlink $tempfile;
     unlink $slopefile;
-    unlink $evo_file;			# 2015.05.27 DEH uncomment
+    unlink $evo_file;    # 2015.05.27 DEH uncomment
     unlink $shortCLIfile;
     unlink $responseFile;
-    unlink $ev_by_evFile;		# 2006.02.23 DEH uncomment
+    unlink $ev_by_evFile;    # 2006.02.23 DEH uncomment
     unlink $crspfile;
     unlink $stoutfile;
     unlink $outputfile;
-    unlink $gnuplotdatafile;		# 2006.02.23 DEH uncomment
-    unlink $gnuplotjclfile;		# 2006.02.23 DEH uncomment
-#    unlink $gnuplotgrapheps;		# 2006.02.23 DEH new
+    unlink $gnuplotdatafile;    # 2006.02.23 DEH uncomment
+    unlink $gnuplotjclfile;     # 2006.02.23 DEH uncomment
 
-    unlink $workingpath . '.cli';       # 2006.02.23 DEH uncomment
+    #    unlink $gnuplotgrapheps;		# 2006.02.23 DEH new
+
+    unlink $workingpath . '.cli';    # 2006.02.23 DEH uncomment
     unlink $workingpath . '.event100';
     unlink $workingpath . '.evo';
     unlink $workingpath . '.out';
@@ -2376,161 +2677,174 @@ sub trim($)       # https://www.somacon.com/p114.php
     unlink $workingpath . '.stout';
     unlink $workingpath . '.temp';
     unlink $workingpath . 'c.out';
-  }
+}
 
-#                         E V E N T    
-#                   __________________ 
+#                         E V E N T
+#                   __________________
 #		s1 |	              |
 #               s2 |                  |
 #    C05        s3 |                  |
 #               s4 |__________________|
-#                   k1  k2  k3  k4  k5 
+#                   k1  k2  k3  k4  k5
 #
-#                   __________________ 
+#                   __________________
 #		s1 |	              |
 #               s2 |                  |
 #    C10        s3 |                  |
 #               s4 |__________________|
-#                   k1  k2  k3  k4  k5 
+#                   k1  k2  k3  k4  k5
 #
 #
-#                   __________________ 
+#                   __________________
 #		s1 |	              |
 #               s2 |                  |
 #    C20        s3 |                  |
 #               s4 |__________________|
-#                   k1  k2  k3  k4  k5 
+#                   k1  k2  k3  k4  k5
 #
-#                   __________________ 
+#                   __________________
 #		s1 |	              |
 #               s2 |                  |
 #    C50        s3 |                  |
 #               s4 |__________________|
-#                   k1  k2  k3  k4  k5 
+#                   k1  k2  k3  k4  k5
 #
-#                   __________________ 
+#                   __________________
 #		s1 |	              |
 #               s2 |                  |
 #    C75        s3 |                  |
 #               s4 |__________________|
-#                   k1  k2  k3  k4  k5 
-
+#                   k1  k2  k3  k4  k5
 
 ############################### SUBROUTINES #########################
 
-sub lhtoab {	# ######################### lhtoab
+sub lhtoab {    # ######################### lhtoab
 
 # reads:
-  # $s - spatial severity arrangement ("uuu", "lll", "lhl", "hhl" etc.)	# 2013.04.19 DEH
+# $s - spatial severity arrangement ("uuu", "lll", "lhl", "hhl" etc.)	# 2013.04.19 DEH
 
-# returns:
-  # $ab - generic representation of spatial severity arrangement
-  # $nofe - number of OFEs
+    # returns:
+    # $ab - generic representation of spatial severity arrangement
+    # $nofe - number of OFEs
 
- my $string = lc($s);
- 
- if (lc($s) eq "uuu")                    { $ab = 'aaa'; $nofe = 1 }	### aaa.slp ###
- if (lc($s) eq "lll" || lc($s) eq "hhh") { $ab = 'aaa'; $nofe = 1 }	### aaa.slp ###
- if (lc($s) eq "llh" || lc($s) eq "hhl") { $ab = 'aab'; $nofe = 2 }	### aab.slp ###
- if (lc($s) eq "lhl" || lc($s) eq "hlh") { $ab = 'aba'; $nofe = 3 }	### aba.slp ###
- if (lc($s) eq "lhh" || lc($s) eq "hll") { $ab = 'abb'; $nofe = 2 }	### abb.slp ###
+    my $string = lc($s);
 
-}
-
-sub countofes {	# ######################### countofes
-
-# $s - spatial severity arrangement ("lll", "lhl", "hhl" etc.)
-
- my $string = lc($s);
- my $ofe=0;
- my $nofe = 1;
- my $str;
- $str[0] = substr($string,0,1);
-
- for $ofe (1..2) {
-  $str[$nofe] = substr($string,$ofe,1);
-  if ($str[$nofe] ne $str[$nofe-1]) {$nofe+=1}
- }
- return $nofe
-}
-
-sub createResponseFile {	# ######################### createResponseFile
-
-# Response file for WEPP 2001.100
-#   continuous storm etc.
-#   create large graphic file based on $sn $k if $wgr				# DEH 040316
-
-# reads
-  # $soilFile -- soil file
-  # $climateFile -- climate file
-  # $manFile -- management/vegetation file
-  # $slopeFile -- slope file
-  # $wgr
-
-  # $yearcount
-
-      $wgrFile = "/var/www/html/fswepp/working/wgr$sn-$k.wgr";			# DEH 040316
-
-      open (ResponseFile, ">" . $responseFile);
-      print ResponseFile "m\n";           	# metric
-      print ResponseFile "y\n";           	# batch
-      print ResponseFile "1\n";           	# 1 = continuous
-      print ResponseFile "1\n";           	# 1 = hillslope
-      print ResponseFile "n\n";           	# hillsplope pass file out?
-      print ResponseFile "2\n";			# soil loss output -- detailed annual
-      print ResponseFile "n\n";			# initial conditions out?
-      print ResponseFile "$evoFile\n";		# soil loss out filename
-      print ResponseFile "n\n";			# water balance out?
-      print ResponseFile "n\n";			# crop out?
-      print ResponseFile "n\n";			# soil out?
-      print ResponseFile "n\n";			# dx and sed loss output?
-      if ($wgr) {								# DEH 040316
-       print ResponseFile "y\n";		# large graphics out?		# DEH 040316
-       print ResponseFile "$wgrFile\n";		# event-by-event filename	# DEH 040316
-      }										# DEH 040316
-      else {									# DEH 040316
-       print ResponseFile "n\n";		# large graphics out?		
-      }										# DEH 040316
-      print ResponseFile "y\n";       		# event-by-event out?
-      print ResponseFile "$ev_by_evFile\n";	# event-by-event filename
-      print ResponseFile "n\n";           	# element output?
-      print ResponseFile "n\n";           	# final summary out?
-      print ResponseFile "n\n";           	# daily winter out?
-      print ResponseFile "n\n";			# yield output?
-      print ResponseFile "$manFile\n";		# management file name
-      print ResponseFile "$slopeFile\n";	# slope file name
-      print ResponseFile "$climateFile\n";	# climate file name
-      print ResponseFile "$soilFile\n";		# soil file name
-      print ResponseFile "0\n";          	# 0 = no irrigation
-      print ResponseFile "$year_count\n";	# number of years to simulate
-      print ResponseFile "0\n";		  	# small event bypass
-     close ResponseFile;
-
-     return $responseFile;
+    if ( lc($s) eq "uuu" ) { $ab = 'aaa'; $nofe = 1 }    ### aaa.slp ###
+    if ( lc($s) eq "lll" || lc($s) eq "hhh" ) {
+        $ab   = 'aaa';
+        $nofe = 1;
+    }                                                    ### aaa.slp ###
+    if ( lc($s) eq "llh" || lc($s) eq "hhl" ) {
+        $ab   = 'aab';
+        $nofe = 2;
+    }                                                    ### aab.slp ###
+    if ( lc($s) eq "lhl" || lc($s) eq "hlh" ) {
+        $ab   = 'aba';
+        $nofe = 3;
+    }                                                    ### aba.slp ###
+    if ( lc($s) eq "lhh" || lc($s) eq "hll" ) {
+        $ab   = 'abb';
+        $nofe = 2;
+    }                                                    ### abb.slp ###
 
 }
 
-sub createSlopeFile {	# ######################### createSlopeFile
+sub countofes {    # ######################### countofes
 
-#	create topography file		(1, 2, or 3 OFE based on severity)
+    # $s - spatial severity arrangement ("lll", "lhl", "hhl" etc.)
 
-# $s - spatial severity representation ("lll", "lhl", "hhl" etc.)
-# $avg_slope - average surface slope gradient
-# $toe_slope - surface slope toe gradient
-# $hillslope_length
+    my $string = lc($s);
+    my $ofe    = 0;
+    my $nofe   = 1;
+    my $str;
+    $str[0] = substr( $string, 0, 1 );
 
-# print TEMP " ********* createslopefile:  $s<br>";
+    for $ofe ( 1 .. 2 ) {
+        $str[$nofe] = substr( $string, $ofe, 1 );
+        if ( $str[$nofe] ne $str[ $nofe - 1 ] ) { $nofe += 1 }
+    }
+    return $nofe;
+}
 
-# $result - slope file
+sub createResponseFile {    # ######################### createResponseFile
 
-  my $topslope=$top_slope/100;
-  my $aveslope=$avg_slope/100;
-  my $toeslope=$toe_slope/100;
+    # Response file for WEPP 2001.100
+    #   continuous storm etc.
+    #   create large graphic file based on $sn $k if $wgr				# DEH 040316
+
+    # reads
+    # $soilFile -- soil file
+    # $climateFile -- climate file
+    # $manFile -- management/vegetation file
+    # $slopeFile -- slope file
+    # $wgr
+
+    # $yearcount
+
+    $wgrFile = "/var/www/html/fswepp/working/wgr$sn-$k.wgr";    # DEH 040316
+
+    open( ResponseFile, ">" . $responseFile );
+    print ResponseFile "m\n";           # metric
+    print ResponseFile "y\n";           # batch
+    print ResponseFile "1\n";           # 1 = continuous
+    print ResponseFile "1\n";           # 1 = hillslope
+    print ResponseFile "n\n";           # hillsplope pass file out?
+    print ResponseFile "2\n";           # soil loss output -- detailed annual
+    print ResponseFile "n\n";           # initial conditions out?
+    print ResponseFile "$evoFile\n";    # soil loss out filename
+    print ResponseFile "n\n";           # water balance out?
+    print ResponseFile "n\n";           # crop out?
+    print ResponseFile "n\n";           # soil out?
+    print ResponseFile "n\n";           # dx and sed loss output?
+
+    if ($wgr) {                         # DEH 040316
+        print ResponseFile "y\n";         # large graphics out?		# DEH 040316
+        print ResponseFile "$wgrFile\n";  # event-by-event filename	# DEH 040316
+    }    # DEH 040316
+    else {    # DEH 040316
+        print ResponseFile "n\n";    # large graphics out?
+    }    # DEH 040316
+    print ResponseFile "y\n";                # event-by-event out?
+    print ResponseFile "$ev_by_evFile\n";    # event-by-event filename
+    print ResponseFile "n\n";                # element output?
+    print ResponseFile "n\n";                # final summary out?
+    print ResponseFile "n\n";                # daily winter out?
+    print ResponseFile "n\n";                # yield output?
+    print ResponseFile "$manFile\n";         # management file name
+    print ResponseFile "$slopeFile\n";       # slope file name
+    print ResponseFile "$climateFile\n";     # climate file name
+    print ResponseFile "$soilFile\n";        # soil file name
+    print ResponseFile "0\n";                # 0 = no irrigation
+    print ResponseFile "$year_count\n";      # number of years to simulate
+    print ResponseFile "0\n";                # small event bypass
+    close ResponseFile;
+
+    return $responseFile;
+
+}
+
+sub createSlopeFile {    # ######################### createSlopeFile
+
+    #	create topography file		(1, 2, or 3 OFE based on severity)
+
+    # $s - spatial severity representation ("lll", "lhl", "hhl" etc.)
+    # $avg_slope - average surface slope gradient
+    # $toe_slope - surface slope toe gradient
+    # $hillslope_length
+
+    # print TEMP " ********* createslopefile:  $s<br>";
+
+    # $result - slope file
+
+    my $topslope = $top_slope / 100;
+    my $aveslope = $avg_slope / 100;
+    my $toeslope = $toe_slope / 100;
 
 #  print "========================== slope file for '$s' ===================\n";
-  if (lc($s) eq "lll" || lc($s) eq "hhh" || lc($s) eq "uuu") {	### aaa.slp ###  # 2013.04.24 DEH
-    my $length1 = $hillslope_length_m;
-    $result = "97.5
+    if ( lc($s) eq "lll" || lc($s) eq "hhh" || lc($s) eq "uuu" )
+    {    ### aaa.slp ###  # 2013.04.24 DEH
+        my $length1 = $hillslope_length_m;
+        $result = "97.5
 #
 # Slope file created for soil condition $s average gradient $avg_slope toe gradient $toe_slope
 #
@@ -2542,12 +2856,12 @@ sub createSlopeFile {	# ######################### createSlopeFile
 4  $length1
 0.0, $topslope\t0.1, $aveslope\t0.9, $aveslope\t1.0, $toeslope
 "
-}
+    }
 
-  if (lc($s) eq "llh" || lc($s) eq "hhl") {			### aab.slp ###
-    my $length2 = $hillslope_length_m/3;
-    my $length1 = $hillslope_length_m-$length2;
-    $result = "97.5
+    if ( lc($s) eq "llh" || lc($s) eq "hhl" ) {    ### aab.slp ###
+        my $length2 = $hillslope_length_m / 3;
+        my $length1 = $hillslope_length_m - $length2;
+        $result = "97.5
 #
 # Slope file created for soil condition $s average gradient $avg_slope toe gradient $toe_slope
 #
@@ -2561,13 +2875,13 @@ sub createSlopeFile {	# ######################### createSlopeFile
 3  $length2
 0, $aveslope\t0.7, $aveslope\t1.0, $toeslope
 "
-  }
+    }
 
-  if (lc($s) eq "lhl" || lc($s) eq "hlh") {			### aba.slp ###
-    my $length1 = $hillslope_length_m/3;
-    my $length2 = $length1;
-    my $length3 = $hillslope_length_m - $length1 - $length2;
-    $result = "97.5
+    if ( lc($s) eq "lhl" || lc($s) eq "hlh" ) {    ### aba.slp ###
+        my $length1 = $hillslope_length_m / 3;
+        my $length2 = $length1;
+        my $length3 = $hillslope_length_m - $length1 - $length2;
+        $result = "97.5
 #
 # Slope file created for soil condition $s average gradient $avg_slope toe gradient $toe_slope
 #
@@ -2583,12 +2897,12 @@ sub createSlopeFile {	# ######################### createSlopeFile
 3  $length3
 0, $aveslope\t0.7, $aveslope\t1.0, $toeslope
 "
-  }
+    }
 
-  if (lc($s) eq "lhh" || lc($s) eq "hll") {			### abb.slp ###
-    my $length1 = $hillslope_length_m/3;
-    my $length2 = $hillslope_length_m-$length1;
-    $result = "97.5
+    if ( lc($s) eq "lhh" || lc($s) eq "hll" ) {    ### abb.slp ###
+        my $length1 = $hillslope_length_m / 3;
+        my $length2 = $hillslope_length_m - $length1;
+        $result = "97.5
 #
 # Slope file created for soil condition $s average gradient $avg_slope toe gradient $toe_slope
 #
@@ -2602,11 +2916,11 @@ sub createSlopeFile {	# ######################### createSlopeFile
 3  $length2
 0, $aveslope\t0.85, $aveslope\t1.0, $toeslope
 "
-  }
-  return $result;
+    }
+    return $result;
 }
 
-sub createVegFile {	# ######################### createVegFile
+sub createVegFile {    # ######################### createVegFile
 
 #	select management file
 #		(1, 2, or 3 OFE based on severity)
@@ -2616,446 +2930,494 @@ sub createVegFile {	# ######################### createVegFile
 #
 #	unburned use select management files (1 OFE, 1 for forest, 1 for range/chaparral)   DEH 2014.02.06
 
-# reads:
-  #  $nofe -- number of OFEs
-  #  $severityclass -- 'u','l','m','h'				# DEH 2014.02.06
-  #  $vegtype -- 'forest', 'range', 'chap'			# DEH 2014.02.06
-# returns:
-  #  $manFileName
+    # reads:
+    #  $nofe -- number of OFEs
+    #  $severityclass -- 'u','l','m','h'				# DEH 2014.02.06
+    #  $vegtype -- 'forest', 'range', 'chap'			# DEH 2014.02.06
+    # returns:
+    #  $manFileName
 
-# tentative naming scheme: [forest]
-# forest and range/chaparral the same -- CM 03/18/2004
-#    1ofe.man
-#    2ofe.man
-#    3ofe.man
-#    forest_95%_cover_80%_canopy.man
-#    range_40%_cover_40%_canopy.man
+    # tentative naming scheme: [forest]
+    # forest and range/chaparral the same -- CM 03/18/2004
+    #    1ofe.man
+    #    2ofe.man
+    #    3ofe.man
+    #    forest_95%_cover_80%_canopy.man
+    #    range_40%_cover_40%_canopy.man
 
-#    $manFileName = 'for_' . $nofe . 'ofe.man';
-     $manFileName = $nofe . 'ofe.man';				# DEH 2004.03.18
-     if ($severityclass eq 'u') {				# unburned -- 1 OFE
-       if ($vegtype eq 'forest') {$manFileName = 'forest_95%_cover_80%_canopy.man'}
-       else {$manFileName = $manFileName = 'range_40%_cover_40%_canopy.man'}
-     }
+    #    $manFileName = 'for_' . $nofe . 'ofe.man';
+    $manFileName = $nofe . 'ofe.man';    # DEH 2004.03.18
+    if ( $severityclass eq 'u' ) {       # unburned -- 1 OFE
+        if ( $vegtype eq 'forest' ) {
+            $manFileName = 'forest_95%_cover_80%_canopy.man';
+        }
+        else { $manFileName = $manFileName = 'range_40%_cover_40%_canopy.man' }
+    }
 }
 
 sub get_event_seds() {
 
-# reads 
-  # @month
-  # @day
-  # @selected_year
-  # $ev_by_evFile	-- event file output file name
+    # reads
+    # @month
+    # @day
+    # @selected_year
+    # $ev_by_evFile	-- event file output file name
 
-# sets
-  # 
+    # sets
+    #
 
-# returns
-  # sediment delivery (kg/m) or ''
+    # returns
+    # sediment delivery (kg/m) or ''
 
-  my $line;
-  my $counter;
-  my $event;
-  my $da;
-  my $mo;
-  my $yr;
-  my $pcp;
-  my $runoff;
-  my $IRdet;
-  my $avdet;
-  my $mxdet;
-  my $detpoint;
-  my $avdep;
-  my $maxdep;
-  my $deppoint;
-  my $seddel;
-  my $er;
-  my @idx_for_year;
-  my @days;
-  my @months;
-  my @years;
-  my @sed_dels;
-  my @seds;
-  my $i;
-  my $j;
-  my $min_year;
+    my $line;
+    my $counter;
+    my $event;
+    my $da;
+    my $mo;
+    my $yr;
+    my $pcp;
+    my $runoff;
+    my $IRdet;
+    my $avdet;
+    my $mxdet;
+    my $detpoint;
+    my $avdep;
+    my $maxdep;
+    my $deppoint;
+    my $seddel;
+    my $er;
+    my @idx_for_year;
+    my @days;
+    my @months;
+    my @years;
+    my @sed_dels;
+    my @seds;
+    my $i;
+    my $j;
+    my $min_year;
 
-  $min_year = @years2run[0];
-#  for $i (1..$#selected_year) {
-#    if ((@selected_year[$i]+0) < $min_year) {$min_year = @selected_year[$i]}
-#  }
-  if ($debug) {print TEMP "min_year: $min_year<br>\n";}
+    $min_year = @years2run[0];
 
-  open EVENTS, "<$ev_by_evFile";
+   #  for $i (1..$#selected_year) {
+   #    if ((@selected_year[$i]+0) < $min_year) {$min_year = @selected_year[$i]}
+   #  }
+    if ($debug) { print TEMP "min_year: $min_year<br>\n"; }
 
-  $line = <EVENTS>;
-  $line = <EVENTS>;
-  $line = <EVENTS>;
+    open EVENTS, "<$ev_by_evFile";
 
-  $counter = 0;
-  while (<EVENTS>) {
-    $event = $_;
-    ($da, $mo, $yr, $pcp, $runoff, $IRdet, $avdet, $mxdet, $detpoint, $avdep, $maxdep, $deppoint, $seddel, $er) = split (' ',$event);
-    $yr += $min_year -1;	# 2030 vulnerable line
-if ($yr > -1) {			# 2013.04.19 DEH
-    @idx_for_year[$yr] = $counter if (@idx_for_year[$yr] eq '');
-}
-    @days[$counter] = $da;
-    @months[$counter] = $mo;
-    @years[$counter] = $yr;
-    @sed_dels[$counter] = $seddel;
-    $counter+=1;
+    $line = <EVENTS>;
+    $line = <EVENTS>;
+    $line = <EVENTS>;
 
-#  print TEMP $event;
-#    print TEMP $da,'  ', $mo,'  ', $yr,'  ', $seddel,"\n";
-  }
+    $counter = 0;
+    while (<EVENTS>) {
+        $event = $_;
+        (
+            $da,     $mo,       $yr,     $pcp,      $runoff,
+            $IRdet,  $avdet,    $mxdet,  $detpoint, $avdep,
+            $maxdep, $deppoint, $seddel, $er
+        ) = split( ' ', $event );
+        $yr += $min_year - 1;    # 2030 vulnerable line
+        if ( $yr > -1 ) {        # 2013.04.19 DEH
+            @idx_for_year[$yr] = $counter if ( @idx_for_year[$yr] eq '' );
+        }
+        @days[$counter]     = $da;
+        @months[$counter]   = $mo;
+        @years[$counter]    = $yr;
+        @sed_dels[$counter] = $seddel;
+        $counter += 1;
 
-  close EVENTS;
-#  print TEMP "$counter\n";
-
-#  for $i (0..$#idx_for_year)  {
-#   print TEMP $i,'  ',@idx_for_year[$i],"\n" if ($idx_for_year[$i] ne '')
-#  }
-
-  for $i (0..$#selected_year) {
-#    if ($debug) {print TEMP 'Looking for day ' , @day[$i], ' month ' ,@month[$i], ' year ' , @selected_year[$i];}
-    $start_index = @idx_for_year[@selected_year[$i]];
-#    $end_index = @idx_for_year[@selected_year[$i]+1];
-    $end_index = $#sed_dels;
-#    if ($debug) {print TEMP "  starting at $start_index<br>\n";}
-    for $j ($start_index..$end_index) {
-#      if ($debug) {print TEMP '   comparing ', @days[$j],' to ',@day[$i],' and ',$months[$j],' to ',@month[$i],' and ',$years[$j],' to ',@selected_year[$i],"\n";}
-      if (@days[$j] == @day[$i] && $months[$j] == @month[$i] && $years[$j] == @selected_year[$i]) {
-#        if ($debug) {print TEMP "got it!\n";}
-        @seds[$i] = @sed_dels[$j];
-        last;
-     }
-     last if (($months[$j]+0) > (@month[$i]+0));
+        #  print TEMP $event;
+        #    print TEMP $da,'  ', $mo,'  ', $yr,'  ', $seddel,"\n";
     }
-  }
-  return @seds;
+
+    close EVENTS;
+
+    #  print TEMP "$counter\n";
+
+    #  for $i (0..$#idx_for_year)  {
+    #   print TEMP $i,'  ',@idx_for_year[$i],"\n" if ($idx_for_year[$i] ne '')
+    #  }
+
+    for $i ( 0 .. $#selected_year ) {
+
+#    if ($debug) {print TEMP 'Looking for day ' , @day[$i], ' month ' ,@month[$i], ' year ' , @selected_year[$i];}
+        $start_index = @idx_for_year[ @selected_year[$i] ];
+
+        #    $end_index = @idx_for_year[@selected_year[$i]+1];
+        $end_index = $#sed_dels;
+
+        #    if ($debug) {print TEMP "  starting at $start_index<br>\n";}
+        for $j ( $start_index .. $end_index ) {
+
+#      if ($debug) {print TEMP '   comparing ', @days[$j],' to ',@day[$i],' and ',$months[$j],' to ',@month[$i],' and ',$years[$j],' to ',@selected_year[$i],"\n";}
+            if (   @days[$j] == @day[$i]
+                && $months[$j] == @month[$i]
+                && $years[$j] == @selected_year[$i] )
+            {
+                #        if ($debug) {print TEMP "got it!\n";}
+                @seds[$i] = @sed_dels[$j];
+                last;
+            }
+            last if ( ( $months[$j] + 0 ) > ( @month[$i] + 0 ) );
+        }
+    }
+    return @seds;
 }
 
 sub printfile {
 
-#  $filename = $_;
-  open INININ, '<' . $printfilename;
-   @filetext=<INININ>;
-   print TEMP "<hr><br>$printfilename<pre>
+    #  $filename = $_;
+    open INININ, '<' . $printfilename;
+    @filetext = <INININ>;
+    print TEMP "<hr><br>$printfilename<pre>
    @filetext
    </pre>
 ";
-  close INININ;    # 2003.01.14
+    close INININ;    # 2003.01.14
 }
 
-sub CreateResponseFile {		# 100-year -- modified from wd.pl on PC43
+sub CreateResponseFile {    # 100-year -- modified from wd.pl on PC43
 
-   open (ResponseFile, ">" . $responseFile);
-     print ResponseFile "m\n";           # metric output
-     print ResponseFile "y\n";           # not watershed
-     print ResponseFile "1\n";           # 1 = continuous
-     print ResponseFile "1\n";           # 1 = hillslope
-     print ResponseFile "n\n";           # hillsplope pass file out?
-     print ResponseFile "1\n";           # 1 = annual; abbreviated
-     print ResponseFile "n\n";           # initial conditions file?
-     print ResponseFile $outputFile,"\n";  # soil loss output file
-     print ResponseFile "n\n";           # water balance output?
-     print ResponseFile "n\n";           # crop output?
-     print ResponseFile "n\n";           # soil output?
-     print ResponseFile "n\n";           # distance/sed loss output?
-     print ResponseFile "n\n";           # large graphics output?
-     print ResponseFile "y\n";           # event-by-event out?
-     print ResponseFile "$eventFile\n";   # event-by-event filename
-     print ResponseFile "n\n";           # element output?
-     print ResponseFile "n\n";           # final summary out?
-     print ResponseFile "n\n";           # daily winter out?
-     print ResponseFile "n\n";           # plant yield out?
-     print ResponseFile "$manFile\n";    # management file name
-     print ResponseFile "$slopeFile\n";  # slope file name
-     print ResponseFile "$CLIfile\n";    # climate file name
-     print ResponseFile "$soilFile\n";   # soil file name
-     print ResponseFile "0\n";           # 0 = no irrigation
-     print ResponseFile "$years2sim\n";  # no. years to simulate
-     print ResponseFile "0\n";           # 0 = route all events
+    open( ResponseFile, ">" . $responseFile );
+    print ResponseFile "m\n";                # metric output
+    print ResponseFile "y\n";                # not watershed
+    print ResponseFile "1\n";                # 1 = continuous
+    print ResponseFile "1\n";                # 1 = hillslope
+    print ResponseFile "n\n";                # hillsplope pass file out?
+    print ResponseFile "1\n";                # 1 = annual; abbreviated
+    print ResponseFile "n\n";                # initial conditions file?
+    print ResponseFile $outputFile, "\n";    # soil loss output file
+    print ResponseFile "n\n";                # water balance output?
+    print ResponseFile "n\n";                # crop output?
+    print ResponseFile "n\n";                # soil output?
+    print ResponseFile "n\n";                # distance/sed loss output?
+    print ResponseFile "n\n";                # large graphics output?
+    print ResponseFile "y\n";                # event-by-event out?
+    print ResponseFile "$eventFile\n";       # event-by-event filename
+    print ResponseFile "n\n";                # element output?
+    print ResponseFile "n\n";                # final summary out?
+    print ResponseFile "n\n";                # daily winter out?
+    print ResponseFile "n\n";                # plant yield out?
+    print ResponseFile "$manFile\n";         # management file name
+    print ResponseFile "$slopeFile\n";       # slope file name
+    print ResponseFile "$CLIfile\n";         # climate file name
+    print ResponseFile "$soilFile\n";        # soil file name
+    print ResponseFile "0\n";                # 0 = no irrigation
+    print ResponseFile "$years2sim\n";       # no. years to simulate
+    print ResponseFile "0\n";                # 0 = route all events
 
-   close ResponseFile;
-   return $responseFile;
+    close ResponseFile;
+    return $responseFile;
 }
 
-sub createCligenFile {		# modified from wd.pl on PC43
+sub createCligenFile {    # modified from wd.pl on PC43
 
-  if ($new_cligen) {
-    $station = substr($CL, length($CL)-8);
-    if ($platform eq 'pc') {
-#     @args = ("..\\rc\\cligen43.exe <$rspfile >$stoutfile");
-      @args = ("cligen43.exe <$crspfile >$cstoutfile");
-    }
-    else {
-      $startyear = 1;
-#     @args = ("nice -20 ../rc/cligen43 <$rspfile >$stoutfile");
-      @args = ("../rc/cligen522564 -i$PARfile -y$years2sim -b$startyear -t5 -o$CLIfile >$cstoutfile");
-    }
+    if ($new_cligen) {
+        $station = substr( $CL, length($CL) - 8 );
+        if ( $platform eq 'pc' ) {
 
-   if ($debug) {print TEMP "[createCligenFile]<br>
+            #     @args = ("..\\rc\\cligen43.exe <$rspfile >$stoutfile");
+            @args = ("cligen43.exe <$crspfile >$cstoutfile");
+        }
+        else {
+            $startyear = 1;
+
+            #     @args = ("nice -20 ../rc/cligen43 <$rspfile >$stoutfile");
+            @args = (
+"../rc/cligen522564 -i$climatePar -y$years2sim -b$startyear -t5 -o$CLIfile >$cstoutfile"
+            );
+        }
+
+        if ($debug) {
+            print TEMP "[createCligenFile]<br>
 Arguments:    @args<br>
 StandardOut:  $cstoutfile<br>
-";}
+";
+        }
 
-#  run CLIGEN522564 on verified user_id.par file to
-#  create user_id.cli file in FSWEPP working directory
-#  for $years2sim years.
+        #  run CLIGEN522564 on verified user_id.par file to
+        #  create user_id.cli file in FSWEPP working directory
+        #  for $years2sim years.
 
-#   unlink $PARfile;   # erase previous climate file so's CLIGEN'll run
+        #   unlink $climatePar;   # erase previous climate file so's CLIGEN'll run
 
-   system @args;
+        system @args;
 
-  }
-  else {	# if ($new_cligen)
-
-    $station = substr($CL, length($CL)-8);
-    if ($platform eq 'pc') {
-#      @args = ("..\\rc\\cligen43.exe <$rspfile >$stoutfile");
-       @args = ("cligen43.exe <$crspfile >$cstoutfile");
     }
-    else {
-#      @args = ("nice -20 ../rc/cligen43 <$rspfile >$stoutfile");
-       @args = ("../rc/cligen43 <$crspfile >$cstoutfile");
-    }
+    else {    # if ($new_cligen)
 
-   if ($debug) {print TEMP "[createCligenFile]<br>
+        $station = substr( $CL, length($CL) - 8 );
+        if ( $platform eq 'pc' ) {
+
+            #      @args = ("..\\rc\\cligen43.exe <$rspfile >$stoutfile");
+            @args = ("cligen43.exe <$crspfile >$cstoutfile");
+        }
+        else {
+            #      @args = ("nice -20 ../rc/cligen43 <$rspfile >$stoutfile");
+            @args = ("../rc/cligen43 <$crspfile >$cstoutfile");
+        }
+
+        if ($debug) {
+            print TEMP "[createCligenFile]<br>
 Arguments:    $args<br>
-PARfile:      $PARfile<br>
+PARfile:      $climatePar<br>
 CLIfile:      $CLIfile<br>
 ResponseFile: $crspfile<br>
 StandardOut:  $cstoutfile<br>
-";}
+";
+        }
 
-#  run CLIGEN43 on verified user_id.par file to
-#  create user_id.cli file in FSWEPP working directory
-#  for $years2sim years.
+        #  run CLIGEN43 on verified user_id.par file to
+        #  create user_id.cli file in FSWEPP working directory
+        #  for $years2sim years.
 
-   $startyear = 1;
+        $startyear = 1;
 
-   open RSP, ">" . $crspfile;
-     print RSP "4.31\n";
-     print RSP $PARfile,"\n";
-     print RSP "n do not display file here\n";
-     print RSP "5 Multiple-year WEPP format\n";
-     print RSP $startyear,"\n";
-     print RSP $years2sim,"\n";
-    print RSP $CLIfile,"\n";
-    print RSP "n\n";
-   close RSP;
+        open RSP, ">" . $crspfile;
+        print RSP "4.31\n";
+        print RSP $climatePar, "\n";
+        print RSP "n do not display file here\n";
+        print RSP "5 Multiple-year WEPP format\n";
+        print RSP $startyear, "\n";
+        print RSP $years2sim, "\n";
+        print RSP $CLIfile,   "\n";
+        print RSP "n\n";
+        close RSP;
 
-#   unlink $PARfile;   # erase previous climate file so's CLIGEN'll run
+        #   unlink $climatePar;   # erase previous climate file so's CLIGEN'll run
 
-   system @args;
-  }	# if ($new_cligen)
+        system @args;
+    }    # if ($new_cligen)
 
-#   if ($debug) {
-#     open STOUT, "<$cstoutfile";
-#     print "Cligen: \n";
-#     while (<STOUT>) {
-#       print $_,"\n<br>";
-#     }
-#     close STOUT;
-#   }
+    #   if ($debug) {
+    #     open STOUT, "<$cstoutfile";
+    #     print "Cligen: \n";
+    #     while (<STOUT>) {
+    #       print $_,"\n<br>";
+    #     }
+    #     close STOUT;
+    #   }
 }
 
-sub readWEPPresults  {
+sub readWEPPresults {
 
-       open weppstout, "<$stoutFile";
+    open weppstout, "<$stoutFile";
 
-print TEMP "checking $stoutFile for successful run ... " if ($debug);
-       $found = 0;
-print TEMP "<font size=-2><pre>\n" if ($debug);
-       while (<weppstout>) {
-print TEMP $_ if ($debug);
-         if (/SUCCESSFUL/) {
-           $found = 1;
-           print TEMP "successful! " if ($debug);
-           last;
-         }
-       }
-print TEMP "</pre></font>\n" if ($debug);
-       close (weppstout);
-
-########################   NAN check   ###################
-
-     open weppoutfile, "<$outputFile";
-     while (<weppoutfile>) {
-       if (/NaN/) {
-         open NANLOG, ">>../working/NANlog.log";
-         flock (NANLOG,2);
-         print NANLOG "$user_ID_\t";
-         print NANLOG "WE\t$unique\n";
-         close NANLOG;
-         last;
-       }
-     }
-     close (weppoutfile);
+    print TEMP "checking $stoutFile for successful run ... " if ($debug);
+    $found = 0;
+    print TEMP "<font size=-2><pre>\n" if ($debug);
+    while (<weppstout>) {
+        print TEMP $_ if ($debug);
+        if (/SUCCESSFUL/) {
+            $found = 1;
+            print TEMP "successful! " if ($debug);
+            last;
+        }
+    }
+    print TEMP "</pre></font>\n" if ($debug);
+    close(weppstout);
 
 ########################   NAN check   ###################
 
-       if ($found == 0) {       # unsuccessful run -- search STDOUT for error message
-         open weppstout, "<$stoutFile";
-         while (<weppstout>) {
+    open weppoutfile, "<$outputFile";
+    while (<weppoutfile>) {
+        if (/NaN/) {
+            open NANLOG, ">>../working/NANlog.log";
+            flock( NANLOG, 2 );
+            print NANLOG "$user_ID_\t";
+            print NANLOG "WE\t$unique\n";
+            close NANLOG;
+            last;
+        }
+    }
+    close(weppoutfile);
+
+########################   NAN check   ###################
+
+    if ( $found == 0 ) {   # unsuccessful run -- search STDOUT for error message
+        open weppstout, "<$stoutFile";
+        while (<weppstout>) {
             if (/ERROR/) {
-              $found = 2;
-              print TEMP "<font color=red>ERROR:\n";
-              $_ = <weppstout>;  $_ = <weppstout>; 
-              $_ = <weppstout>;  print TEMP;
-              $_ = <weppstout>;  print TEMP;
-              print TEMP "</font>\n";
-              last;
+                $found = 2;
+                print TEMP "<font color=red>ERROR:\n";
+                $_ = <weppstout>;
+                $_ = <weppstout>;
+                $_ = <weppstout>;
+                print TEMP;
+                $_ = <weppstout>;
+                print TEMP;
+                print TEMP "</font>\n";
+                last;
             }
-         }
-         close (weppstout);
-       }
-       if ($found == 0) {
-         open weppstout, "<$stoutFile";
-         while (<weppstout>) {
-           if (/error #/) {
-             $found = 4;
-             print TEMP "<font color=red>error #\n";
-             print TEMP $_;
-             print TEMP "</font>\n";
-             last;
-           }
-         }
-         close (weppstout);
-       }
-       if ($found == 0) {
-         open weppstout, "<$stoutFile";
-           while (<weppstout>) {
-             if (/\*\*\* /) {
-             $found = 3;
-             print TEMP "<font color=red>***\n";
-             $_ = <weppstout>; print TEMP $_;
-             $_ = <weppstout>; print TEMP $_;
-             $_ = <weppstout>; print TEMP $_;
-             $_ = <weppstout>; print TEMP $_;
-             print TEMP "</font>\n";
-             last;
-           }
-         }
-         close (weppstout);
-       }
-       if ($found == 0) {
-         open weppstout, "<$stoutFile";
-         while (<weppstout>) {
-           if (/MATHERRQQ/) {
-             $found = 5;
-             print TEMP "<font color=red>\n";
-             print TEMP 'WEPP has run into a mathematical anomaly.<br>
+        }
+        close(weppstout);
+    }
+    if ( $found == 0 ) {
+        open weppstout, "<$stoutFile";
+        while (<weppstout>) {
+            if (/error #/) {
+                $found = 4;
+                print TEMP "<font color=red>error #\n";
+                print TEMP $_;
+                print TEMP "</font>\n";
+                last;
+            }
+        }
+        close(weppstout);
+    }
+    if ( $found == 0 ) {
+        open weppstout, "<$stoutFile";
+        while (<weppstout>) {
+            if (/\*\*\* /) {
+                $found = 3;
+                print TEMP "<font color=red>***\n";
+                $_ = <weppstout>;
+                print TEMP $_;
+                $_ = <weppstout>;
+                print TEMP $_;
+                $_ = <weppstout>;
+                print TEMP $_;
+                $_ = <weppstout>;
+                print TEMP $_;
+                print TEMP "</font>\n";
+                last;
+            }
+        }
+        close(weppstout);
+    }
+    if ( $found == 0 ) {
+        open weppstout, "<$stoutFile";
+        while (<weppstout>) {
+            if (/MATHERRQQ/) {
+                $found = 5;
+                print TEMP "<font color=red>\n";
+                print TEMP 'WEPP has run into a mathematical anomaly.<br>
              You may be able to get around it by modifying the geometry slightly.
              ';
-             $_ = <weppstout>; print TEMP;
-             print TEMP "</font>\n";
-             last;
-           }
-         }
-         close (weppstout);
-       }
-       if ($found == 1) {       # Successful run -- get actual WEPP version number
-         open weppout, "<$outputFile";
-         $ver = 'unknown';
-         while (<weppout>) {
-           if (/VERSION/) {
-              $weppver = $_;
-              last;
-           }
-         }
-         while (<weppout>) {     # read actual climate file used from WEPP output
-           if (/CLIMATE/) {
-             $a_c_n=<weppout>;
-             $actual_climate_name=substr($a_c_n,index($a_c_n,":")+1,40);
-             $climate_name = $actual_climate_name;
-             $climate_name =~ s/^\s*(.*?)\s*$/$1/;    # strip whitespace 
-             last;
-           }
-         }
-         while (<weppout>) {
-           if (/RAINFALL AND RUNOFF SUMMARY/) {
-             $_ = <weppout>; #      -------- --- ------ -------
-             $_ = <weppout>; # 
-             $_ = <weppout>; #       total summary:  years    1 -    1
-             $_ = <weppout>; # 
-             $_ = <weppout>; #         71 storms produced 346.90 mm of precipitation
-             $storms = substr $_,1,10;
-             $_ = <weppout>; #          3 rain storm runoff events produced          0.00 mm of runoff
-             $rainevents = substr $_,1,10;
-             $_ = <weppout>; #          2 snow melts and/or
-             $snowevents = substr $_,1,10;
-             $_ = <weppout>; #              events during winter produced 0.00 mm of runoff
-             $_ = <weppout>; # 
-             $_ = <weppout>; #      annual averages
-             $_ = <weppout>; #      ---------------
-             $_ = <weppout>; #
-             $_ = <weppout>; #        Number of years   1
-             $_ = <weppout>; #        Mean annual precipitation 346.90    mm
-             $precip = substr $_,51,10;
-             $_ = <weppout>; $rro = substr $_,51,10;   # print TEMP; 
-             $_ = <weppout>; # print TEMP;
-             $_ = <weppout>; $sro = substr $_,51,10;   # print TEMP; 
-             $_ = <weppout>; # print TEMP;
-             last;
-           }
-         }
-         while (<weppout>) {
-           if (/AREA OF NET SOIL LOSS/) {
-             $_ = <weppout>;             $_ = <weppout>;
-             $_ = <weppout>;             $_ = <weppout>;
-             $_ = <weppout>;             $_ = <weppout>; # print TEMP;
-             $_ = <weppout>; # print TEMP;
-             $_ = <weppout>; # print TEMP;
-             $_ = <weppout>; # print TEMP;
-             $_ = <weppout>; # print TEMP;
-             $syr = substr $_,17,7;  
-             $effective_road_length = substr $_,9,9;
-             last;
-           }
-         }
-         while (<weppout>) {
-           if (/OFF SITE EFFECTS/) {
-             $_ = <weppout>;             $_ = <weppout>;
-             $_ = <weppout>; $syp = substr $_,49,10;   # pre-WEPP 98.4
-             $_ = <weppout>; if ($syp eq "") {
-                                              @sypline = split ' ',$_;
-                                              $syp = @sypline[0];
-                                             }
-             $_ = <weppout>;             $_ = <weppout>;
-             last;
-           }
-         }
-         close (weppout);
+                $_ = <weppstout>;
+                print TEMP;
+                print TEMP "</font>\n";
+                last;
+            }
+        }
+        close(weppstout);
+    }
+    if ( $found == 1 ) {    # Successful run -- get actual WEPP version number
+        open weppout, "<$outputFile";
+        $ver = 'unknown';
+        while (<weppout>) {
+            if (/VERSION/) {
+                $weppver = $_;
+                last;
+            }
+        }
+        while (<weppout>) {    # read actual climate file used from WEPP output
+            if (/CLIMATE/) {
+                $a_c_n = <weppout>;
+                $actual_climate_name =
+                  substr( $a_c_n, index( $a_c_n, ":" ) + 1, 40 );
+                $climate_name = $actual_climate_name;
+                $climate_name =~ s/^\s*(.*?)\s*$/$1/;    # strip whitespace
+                last;
+            }
+        }
+        while (<weppout>) {
+            if (/RAINFALL AND RUNOFF SUMMARY/) {
+                $_ = <weppout>;    #      -------- --- ------ -------
+                $_ = <weppout>;    #
+                $_ = <weppout>;    #       total summary:  years    1 -    1
+                $_ = <weppout>;    #
+                $_ = <weppout>
+                  ;    #         71 storms produced 346.90 mm of precipitation
+                $storms = substr $_, 1, 10;
+                $_ = <weppout>
+                  ; #          3 rain storm runoff events produced          0.00 mm of runoff
+                $rainevents = substr $_, 1, 10;
+                $_          = <weppout>;    #          2 snow melts and/or
+                $snowevents = substr $_, 1, 10;
+                $_          = <weppout>
+                  ; #              events during winter produced 0.00 mm of runoff
+                $_ = <weppout>;  #
+                $_ = <weppout>;  #      annual averages
+                $_ = <weppout>;  #      ---------------
+                $_ = <weppout>;  #
+                $_ = <weppout>;  #        Number of years   1
+                $_ = <weppout>;  #        Mean annual precipitation 346.90    mm
+                $precip = substr $_, 51, 10;
+                $_      = <weppout>;
+                $rro    = substr $_, 51, 10;    # print TEMP;
+                $_      = <weppout>;            # print TEMP;
+                $_      = <weppout>;
+                $sro    = substr $_, 51, 10;    # print TEMP;
+                $_      = <weppout>;            # print TEMP;
+                last;
+            }
+        }
+        while (<weppout>) {
+            if (/AREA OF NET SOIL LOSS/) {
+                $_                     = <weppout>;
+                $_                     = <weppout>;
+                $_                     = <weppout>;
+                $_                     = <weppout>;
+                $_                     = <weppout>;
+                $_                     = <weppout>;    # print TEMP;
+                $_                     = <weppout>;    # print TEMP;
+                $_                     = <weppout>;    # print TEMP;
+                $_                     = <weppout>;    # print TEMP;
+                $_                     = <weppout>;    # print TEMP;
+                $syr                   = substr $_, 17, 7;
+                $effective_road_length = substr $_, 9,  9;
+                last;
+            }
+        }
+        while (<weppout>) {
+            if (/OFF SITE EFFECTS/) {
+                $_   = <weppout>;
+                $_   = <weppout>;
+                $_   = <weppout>;
+                $syp = substr $_, 49, 10;              # pre-WEPP 98.4
+                $_   = <weppout>;
+                if ( $syp eq "" ) {
+                    @sypline = split ' ', $_;
+                    $syp     = @sypline[0];
+                }
+                $_ = <weppout>;
+                $_ = <weppout>;
+                last;
+            }
+        }
+        close(weppout);
 
-         $storms+=0;
-         $rainevents+=0;
-         $snowevents+=0;
-         $precip+=0;
-         $rro+=0;
-         $sro+=0;
-         $syr+=0;
-         $syp+=0;
-       }
-       else {           # ($found != 1)
-         print TEMP "<br><br>\nSomething has gone amiss! -- error no. $found\n<br><hr><br>\n";
-  open STERR, "<$sterrFile";
-  @STERR = <STERR>;
-print TEMP "error file $sterrFile: <br>\n";
-print TEMP @STERR;
-# die;
-       }
+        $storms     += 0;
+        $rainevents += 0;
+        $snowevents += 0;
+        $precip     += 0;
+        $rro        += 0;
+        $sro        += 0;
+        $syr        += 0;
+        $syp        += 0;
+    }
+    else {    # ($found != 1)
+        print TEMP
+"<br><br>\nSomething has gone amiss! -- error no. $found\n<br><hr><br>\n";
+        open STERR, "<$sterrFile";
+        @STERR = <STERR>;
+        print TEMP "error file $sterrFile: <br>\n";
+        print TEMP @STERR;
+
+        # die;
+    }
 }
 
 sub CreateJavascriptsoilfileFunction {
- # ******************************
+
+    # ******************************
 }
 
 sub CreateJavascriptwhatsedsFunction {
 
-print '
+    print '
 
 function MakeArray () {
   this.length = 0
@@ -3103,10 +3465,10 @@ cp_m943 = new MakeArray; cp_m943.length = a_len
 cp_m944 = new MakeArray; cp_m944.length = a_len
 ';
 
-# ###   DEH 2003/03/05 add variables to pass from perl to Javascript functions
+  # ###   DEH 2003/03/05 add variables to pass from perl to Javascript functions
 
-#  $climate_name =~ s/^\s*(.*?)\s*$/$1/;    # strip whitespace 
-  print "
+    #  $climate_name =~ s/^\s*(.*?)\s*$/$1/;    # strip whitespace
+    print "
    js_unique = '$unique'
    js_climate_name = '$climate_name'
    js_soil_texture = '$soil_texture'
@@ -3126,101 +3488,132 @@ cp_m944 = new MakeArray; cp_m944.length = a_len
    // printer='https://$wepphost/fswepp/images/hinduonnet_print2.png'
    // gostone='https://$wepphost/fswepp/images/go.gif'
 ";
-   if ($units eq 'm') {
-     print '   js_sedconv = ' . 10 / $hillslope_length,"\n";
-     print "   js_storage_units=\'Mg ha<sup>-1</sup>'\n";
-   }
-   else {
-     print '   js_sedconv = ' . 4.45 / $hillslope_length_m,"\n";
-     print "   js_storage_units='ton ac<sup>-1</sup>'\n";
-   }
+    if ( $units eq 'm' ) {
+        print '   js_sedconv = ' . 10 / $hillslope_length, "\n";
+        print "   js_storage_units=\'Mg ha<sup>-1</sup>'\n";
+    }
+    else {
+        print '   js_sedconv = ' . 4.45 / $hillslope_length_m, "\n";
+        print "   js_storage_units='ton ac<sup>-1</sup>'\n";
+    }
 
-# ###
+    # ###
 
-  $cum_prob0    =0.01; $cum_prob1    =0.01; $cum_prob2    =0.01; $cum_prob3    =0.01; $cum_prob4    =0.01;
-  $cum_prob_s0  =0.01; $cum_prob_s1  =0.01; $cum_prob_s2  =0.01; $cum_prob_s3  =0.01; $cum_prob_s4  =0.01;
-  $cum_prob_m470=0.01; $cum_prob_m471=0.01; $cum_prob_m472=0.01; $cum_prob_m473=0.01; $cum_prob_m474=0.01;
-  $cum_prob_m720=0.01; $cum_prob_m721=0.01; $cum_prob_m722=0.01; $cum_prob_m723=0.01; $cum_prob_m724=0.01;
-  $cum_prob_m890=0.01; $cum_prob_m891=0.01; $cum_prob_m892=0.01; $cum_prob_m893=0.01; $cum_prob_m894=0.01;
-  $cum_prob_m940=0.01; $cum_prob_m941=0.01; $cum_prob_m942=0.01; $cum_prob_m943=0.01; $cum_prob_m944=0.01;
+    $cum_prob0     = 0.01;
+    $cum_prob1     = 0.01;
+    $cum_prob2     = 0.01;
+    $cum_prob3     = 0.01;
+    $cum_prob4     = 0.01;
+    $cum_prob_s0   = 0.01;
+    $cum_prob_s1   = 0.01;
+    $cum_prob_s2   = 0.01;
+    $cum_prob_s3   = 0.01;
+    $cum_prob_s4   = 0.01;
+    $cum_prob_m470 = 0.01;
+    $cum_prob_m471 = 0.01;
+    $cum_prob_m472 = 0.01;
+    $cum_prob_m473 = 0.01;
+    $cum_prob_m474 = 0.01;
+    $cum_prob_m720 = 0.01;
+    $cum_prob_m721 = 0.01;
+    $cum_prob_m722 = 0.01;
+    $cum_prob_m723 = 0.01;
+    $cum_prob_m724 = 0.01;
+    $cum_prob_m890 = 0.01;
+    $cum_prob_m891 = 0.01;
+    $cum_prob_m892 = 0.01;
+    $cum_prob_m893 = 0.01;
+    $cum_prob_m894 = 0.01;
+    $cum_prob_m940 = 0.01;
+    $cum_prob_m941 = 0.01;
+    $cum_prob_m942 = 0.01;
+    $cum_prob_m943 = 0.01;
+    $cum_prob_m944 = 0.01;
 
-  for $i (0..$#sed_yields) {
-#  for $i (0..115) {						# DEH test 2005.10.21
-# untreated
-    $cum_prob0 += @probabilities0[@index[$i]];
-    $cum_prob1 += @probabilities1[@index[$i]];
-    $cum_prob2 += @probabilities2[@index[$i]];
-    $cum_prob3 += @probabilities3[@index[$i]];
-    $cum_prob4 += @probabilities4[@index[$i]];
-# seeding
-    $cum_prob_s0 += @probabilities_s0[@index[$i]];
-    $cum_prob_s1 += @probabilities_s1[@index[$i]];
-    $cum_prob_s2 += @probabilities_s2[@index[$i]];
-    $cum_prob_s3 += @probabilities_s3[@index[$i]];
-    $cum_prob_s4 += @probabilities_s4[@index[$i]];
-# mulch 47%
-    $cum_prob_m470 += @probabilities_m470[@index[$i]];
-    $cum_prob_m471 += @probabilities_m471[@index[$i]];
-    $cum_prob_m472 += @probabilities_m472[@index[$i]];
-    $cum_prob_m473 += @probabilities_m473[@index[$i]];
-    $cum_prob_m474 += @probabilities_m474[@index[$i]];
-# mulch 72%
-    $cum_prob_m720 += @probabilities_m720[@index[$i]];
-    $cum_prob_m721 += @probabilities_m721[@index[$i]];
-    $cum_prob_m722 += @probabilities_m722[@index[$i]];
-    $cum_prob_m723 += @probabilities_m723[@index[$i]];
-    $cum_prob_m724 += @probabilities_m724[@index[$i]];
-# mulch 89%
-    $cum_prob_m890 += @probabilities_m890[@index[$i]];
-    $cum_prob_m891 += @probabilities_m891[@index[$i]];
-    $cum_prob_m892 += @probabilities_m892[@index[$i]];
-    $cum_prob_m893 += @probabilities_m893[@index[$i]];
-    $cum_prob_m894 += @probabilities_m894[@index[$i]];
-# mulch 94%
-    $cum_prob_m940 += @probabilities_m940[@index[$i]];
-    $cum_prob_m941 += @probabilities_m941[@index[$i]];
-    $cum_prob_m942 += @probabilities_m942[@index[$i]];
-    $cum_prob_m943 += @probabilities_m943[@index[$i]];
-    $cum_prob_m944 += @probabilities_m944[@index[$i]];
-    $j = $i + 1;
-    $scheme = @scheme[@index[$i]];				# 2005.10.25 DEH
-    $sedval = @sed_yields[@index[$i]];
-    if ($sedval eq '') {$sedval = '0.0'}
-    if ($sedval =~ /^\*/) {$sedval = '99'}
-    print "sed_del[$j] = $sedval; scheme[$j] = '$scheme'\n";	# 2005.10.25 DEH
-    print "  cp0[$j] = $cum_prob0; ";
-    print "  cp1[$j] = $cum_prob1; ";
-    print "  cp2[$j] = $cum_prob2; ";
-    print "  cp3[$j] = $cum_prob3; ";
-    print "  cp4[$j] = $cum_prob4\n";
-    print "  cp_s0[$j] = $cum_prob_s0; ";
-    print "  cp_s1[$j] = $cum_prob_s1; ";
-    print "  cp_s2[$j] = $cum_prob_s2; ";
-    print "  cp_s3[$j] = $cum_prob_s3; ";
-    print "  cp_s4[$j] = $cum_prob_s4\n";
-    print "  cp_m470[$j] = $cum_prob_m470; ";
-    print "  cp_m471[$j] = $cum_prob_m471; ";
-    print "  cp_m472[$j] = $cum_prob_m472; ";
-    print "  cp_m473[$j] = $cum_prob_m473; ";
-    print "  cp_m474[$j] = $cum_prob_m474\n";
-    print "  cp_m720[$j] = $cum_prob_m720; ";
-    print "  cp_m721[$j] = $cum_prob_m721; ";
-    print "  cp_m722[$j] = $cum_prob_m722; ";
-    print "  cp_m723[$j] = $cum_prob_m723; ";
-    print "  cp_m724[$j] = $cum_prob_m724\n";
-    print "  cp_m890[$j] = $cum_prob_m890; ";
-    print "  cp_m891[$j] = $cum_prob_m891; ";
-    print "  cp_m892[$j] = $cum_prob_m892; ";
-    print "  cp_m893[$j] = $cum_prob_m893; ";
-    print "  cp_m894[$j] = $cum_prob_m894\n";
-    print "  cp_m940[$j] = $cum_prob_m940; ";
-    print "  cp_m941[$j] = $cum_prob_m941; ";
-    print "  cp_m942[$j] = $cum_prob_m942; ";
-    print "  cp_m943[$j] = $cum_prob_m943; ";
-    print "  cp_m944[$j] = $cum_prob_m944\n";
-  }
+    for $i ( 0 .. $#sed_yields ) {
 
-print <<'EOP';
+        #  for $i (0..115) {						# DEH test 2005.10.21
+        # untreated
+        $cum_prob0 += @probabilities0[ @index[$i] ];
+        $cum_prob1 += @probabilities1[ @index[$i] ];
+        $cum_prob2 += @probabilities2[ @index[$i] ];
+        $cum_prob3 += @probabilities3[ @index[$i] ];
+        $cum_prob4 += @probabilities4[ @index[$i] ];
+
+        # seeding
+        $cum_prob_s0 += @probabilities_s0[ @index[$i] ];
+        $cum_prob_s1 += @probabilities_s1[ @index[$i] ];
+        $cum_prob_s2 += @probabilities_s2[ @index[$i] ];
+        $cum_prob_s3 += @probabilities_s3[ @index[$i] ];
+        $cum_prob_s4 += @probabilities_s4[ @index[$i] ];
+
+        # mulch 47%
+        $cum_prob_m470 += @probabilities_m470[ @index[$i] ];
+        $cum_prob_m471 += @probabilities_m471[ @index[$i] ];
+        $cum_prob_m472 += @probabilities_m472[ @index[$i] ];
+        $cum_prob_m473 += @probabilities_m473[ @index[$i] ];
+        $cum_prob_m474 += @probabilities_m474[ @index[$i] ];
+
+        # mulch 72%
+        $cum_prob_m720 += @probabilities_m720[ @index[$i] ];
+        $cum_prob_m721 += @probabilities_m721[ @index[$i] ];
+        $cum_prob_m722 += @probabilities_m722[ @index[$i] ];
+        $cum_prob_m723 += @probabilities_m723[ @index[$i] ];
+        $cum_prob_m724 += @probabilities_m724[ @index[$i] ];
+
+        # mulch 89%
+        $cum_prob_m890 += @probabilities_m890[ @index[$i] ];
+        $cum_prob_m891 += @probabilities_m891[ @index[$i] ];
+        $cum_prob_m892 += @probabilities_m892[ @index[$i] ];
+        $cum_prob_m893 += @probabilities_m893[ @index[$i] ];
+        $cum_prob_m894 += @probabilities_m894[ @index[$i] ];
+
+        # mulch 94%
+        $cum_prob_m940 += @probabilities_m940[ @index[$i] ];
+        $cum_prob_m941 += @probabilities_m941[ @index[$i] ];
+        $cum_prob_m942 += @probabilities_m942[ @index[$i] ];
+        $cum_prob_m943 += @probabilities_m943[ @index[$i] ];
+        $cum_prob_m944 += @probabilities_m944[ @index[$i] ];
+        $j      = $i + 1;
+        $scheme = @scheme[ @index[$i] ];       # 2005.10.25 DEH
+        $sedval = @sed_yields[ @index[$i] ];
+        if ( $sedval eq '' )    { $sedval = '0.0' }
+        if ( $sedval =~ /^\*/ ) { $sedval = '99' }
+        print
+          "sed_del[$j] = $sedval; scheme[$j] = '$scheme'\n";    # 2005.10.25 DEH
+        print "  cp0[$j] = $cum_prob0; ";
+        print "  cp1[$j] = $cum_prob1; ";
+        print "  cp2[$j] = $cum_prob2; ";
+        print "  cp3[$j] = $cum_prob3; ";
+        print "  cp4[$j] = $cum_prob4\n";
+        print "  cp_s0[$j] = $cum_prob_s0; ";
+        print "  cp_s1[$j] = $cum_prob_s1; ";
+        print "  cp_s2[$j] = $cum_prob_s2; ";
+        print "  cp_s3[$j] = $cum_prob_s3; ";
+        print "  cp_s4[$j] = $cum_prob_s4\n";
+        print "  cp_m470[$j] = $cum_prob_m470; ";
+        print "  cp_m471[$j] = $cum_prob_m471; ";
+        print "  cp_m472[$j] = $cum_prob_m472; ";
+        print "  cp_m473[$j] = $cum_prob_m473; ";
+        print "  cp_m474[$j] = $cum_prob_m474\n";
+        print "  cp_m720[$j] = $cum_prob_m720; ";
+        print "  cp_m721[$j] = $cum_prob_m721; ";
+        print "  cp_m722[$j] = $cum_prob_m722; ";
+        print "  cp_m723[$j] = $cum_prob_m723; ";
+        print "  cp_m724[$j] = $cum_prob_m724\n";
+        print "  cp_m890[$j] = $cum_prob_m890; ";
+        print "  cp_m891[$j] = $cum_prob_m891; ";
+        print "  cp_m892[$j] = $cum_prob_m892; ";
+        print "  cp_m893[$j] = $cum_prob_m893; ";
+        print "  cp_m894[$j] = $cum_prob_m894\n";
+        print "  cp_m940[$j] = $cum_prob_m940; ";
+        print "  cp_m941[$j] = $cum_prob_m941; ";
+        print "  cp_m942[$j] = $cum_prob_m942; ";
+        print "  cp_m943[$j] = $cum_prob_m943; ";
+        print "  cp_m944[$j] = $cum_prob_m944\n";
+    }
+
+    print <<'EOP';
 
 function whatseds (target, array) {
 
@@ -4347,7 +4740,7 @@ function logtable () {
 
 EOP
 
-  print "
+    print "
 
 function showpt() {
 // 2013.06.27 allow for ununburned condition report
@@ -4363,35 +4756,49 @@ function showpt() {
   newinpt.document.writeln('   '+js_climate_name+'<br>'+js_soil_texture+'; '+js_rfg+'% rock; '+js_top_slope+'%, '+js_avg_slope+'%, '+js_toe_slope+'% slope; '+js_hillslope_length+' '+ js_units+'; '+js_severityclass_xx+'<br>[Run ID '+js_unique+']')
   newinpt.document.writeln('     <table cellpadding=2 bgcolor=ivory>')
   newinpt.document.writeln('      <tr>')
-  newinpt.document.writeln('       <th colspan=5><font size=2>SEDIMENT DELIVERY (", $sedunits,")</font></th>')
+  newinpt.document.writeln('       <th colspan=5><font size=2>SEDIMENT DELIVERY (",
+      $sedunits, ")</font></th>')
   newinpt.document.writeln('       <th><font size=2>Spatial (1st .. 5th yr)</font></th>')
   newinpt.document.writeln('      </tr>')
 ";
-  for $c (0..$#selected_year) {
-    print "  newinpt.document.writeln('     <tr>')\n";
-    print "  newinpt.document.writeln('      <th align=left bgcolor=",@color[$c]," colspan=5><font size=1>Rank ", @selected_ranks[$c] + 1," -- ",@monthnames[@month[$c]]," ",@day[$c]," year ",@selected_year[$c]," (",@probClimate[$c]*100,"%)</font></th>')\n";
+    for $c ( 0 .. $#selected_year ) {
+        print "  newinpt.document.writeln('     <tr>')\n";
+        print "  newinpt.document.writeln('      <th align=left bgcolor=",
+          @color[$c], " colspan=5><font size=1>Rank ", @selected_ranks[$c] + 1,
+          " -- ", @monthnames[ @month[$c] ], " ", @day[$c], " year ",
+          @selected_year[$c], " (", @probClimate[$c] * 100,
+          "%)</font></th>')\n";
+
 #   print "  newinpt.document.writeln('      <th align=left bgcolor=#ffff99 colspan=5><font size=1>", @selected_ranks[$c] + 1," (",100/(@selected_ranks[$c] + 1),"-year) -- ",@day[$c]," ",@monthnames[@month[$c]]," year ",@selected_year[$c]," (",@probClimate[$c]*100,"%)</font></th>')\n";
-    print "  newinpt.document.writeln('     <td></td>')\n";
-    print "  newinpt.document.writeln('    </tr>')\n";
-    for $sn (0..$#severe) {                                                                     # 2005.10.13 DEH
-      print "  newinpt.document.writeln('    <tr>')\n";
-      for $k (0..4) {
-        @sed_yields[$sp] = $sedtable[$c][$k][$sn];
-        if ($units eq 'ft') {     # convert sediment yield kg / m to ton / ac
-          $sed_yield = @sed_yields[$sp] / $hillslope_length * 4.45;
-        }
-        else {     # convert sediment yield kg per m to t per ha
-          $sed_yield = @sed_yields[$sp] / $hillslope_length * 10;
-        }
-        $sed_yield_f = sprintf '%6.2f', $sed_yield;
-        print "  newinpt.document.writeln('     <td align=right><font size=1>$sed_yield_f</font></td>')\n";
-        $sp += 1;
-      }	# for ($k)
-      print "  newinpt.document.writeln('        <td bgcolor=",@color[5],"><font size=1>",uc(@severe[$sn])," (", $probspatial[0][$sn]*100, "%) "," (", $probspatial[1][$sn]*100, "%) "," (", $probspatial[2][$sn]*100, "%) "," (", $probspatial[3][$sn]*100, "%) "," (", $probspatial[4][$sn]*100, "%)</font></td>')\n";
-      print "  newinpt.document.writeln('       </tr>')\n";
-    }	# for ($sn)
-  } 	# for ($c)
-  print '  newinpt.document.writeln("    <tr>")
+        print "  newinpt.document.writeln('     <td></td>')\n";
+        print "  newinpt.document.writeln('    </tr>')\n";
+        for $sn ( 0 .. $#severe ) {    # 2005.10.13 DEH
+            print "  newinpt.document.writeln('    <tr>')\n";
+            for $k ( 0 .. 4 ) {
+                @sed_yields[$sp] = $sedtable[$c][$k][$sn];
+                if ( $units eq 'ft' )
+                {    # convert sediment yield kg / m to ton / ac
+                    $sed_yield = @sed_yields[$sp] / $hillslope_length * 4.45;
+                }
+                else {    # convert sediment yield kg per m to t per ha
+                    $sed_yield = @sed_yields[$sp] / $hillslope_length * 10;
+                }
+                $sed_yield_f = sprintf '%6.2f', $sed_yield;
+                print
+"  newinpt.document.writeln('     <td align=right><font size=1>$sed_yield_f</font></td>')\n";
+                $sp += 1;
+            }    # for ($k)
+            print "  newinpt.document.writeln('        <td bgcolor=",
+              @color[5], "><font size=1>", uc( @severe[$sn] ), " (",
+              $probspatial[0][$sn] * 100, "%) ", " (",
+              $probspatial[1][$sn] * 100, "%) ", " (",
+              $probspatial[2][$sn] * 100, "%) ", " (",
+              $probspatial[3][$sn] * 100, "%) ", " (",
+              $probspatial[4][$sn] * 100, "%)</font></td>')\n";
+            print "  newinpt.document.writeln('       </tr>')\n";
+        }    # for ($sn)
+    }    # for ($c)
+    print '  newinpt.document.writeln("    <tr>")
   newinpt.document.writeln("     <td align=right><font size=1>soil 1</font></td>")
   newinpt.document.writeln("     <td align=right><font size=1>soil 2</font></td>")
   newinpt.document.writeln("     <td align=right><font size=1>soil 3</font></td>")
@@ -4399,35 +4806,60 @@ function showpt() {
   newinpt.document.writeln("     <td align=right><font size=1>soil 5</font></td>")
   newinpt.document.writeln("     <td></td>")
   newinpt.document.writeln("    </tr>")
-  newinpt.document.writeln("    <tr><td align=right bgcolor=',@color[5],'><font size=1>(',$probSoil0[0]*100,'%)</font></td>")
-  newinpt.document.writeln("     <td align=right bgcolor=',@color[5],'><font size=1>(',$probSoil0[1]*100,'%)</font></td>")
-  newinpt.document.writeln("     <td align=right bgcolor=',@color[5],'><font size=1>(',$probSoil0[2]*100,'%)</font></td>")
-  newinpt.document.writeln("     <td align=right bgcolor=',@color[5],'><font size=1>(',$probSoil0[3]*100,'%)</font></td>")
-  newinpt.document.writeln("     <td align=right bgcolor=',@color[5],'><font size=1>(',$probSoil0[4]*100,'%)</font></td>")
+  newinpt.document.writeln("    <tr><td align=right bgcolor=', @color[5],
+      '><font size=1>(', $probSoil0[0] * 100, '%)</font></td>")
+  newinpt.document.writeln("     <td align=right bgcolor=', @color[5],
+      '><font size=1>(', $probSoil0[1] * 100, '%)</font></td>")
+  newinpt.document.writeln("     <td align=right bgcolor=', @color[5],
+      '><font size=1>(', $probSoil0[2] * 100, '%)</font></td>")
+  newinpt.document.writeln("     <td align=right bgcolor=', @color[5],
+      '><font size=1>(', $probSoil0[3] * 100, '%)</font></td>")
+  newinpt.document.writeln("     <td align=right bgcolor=', @color[5],
+      '><font size=1>(', $probSoil0[4] * 100, '%)</font></td>")
   newinpt.document.writeln("     <td><font size=1>1st year</font></td></tr>")
-  newinpt.document.writeln("    <tr><td align=right bgcolor=',@color[5],'><font size=1>(',$probSoil1[0]*100,'%)</font></td>")
-  newinpt.document.writeln("     <td align=right bgcolor=',@color[5],'><font size=1>(',$probSoil1[1]*100,'%)</font></td>")
-  newinpt.document.writeln("     <td align=right bgcolor=',@color[5],'><font size=1>(',$probSoil1[2]*100,'%)</font></td>")
-  newinpt.document.writeln("     <td align=right bgcolor=',@color[5],'><font size=1>(',$probSoil1[3]*100,'%)</font></td>")
-  newinpt.document.writeln("     <td align=right bgcolor=',@color[5],'><font size=1>(',$probSoil1[4]*100,'%)</font></td>")
+  newinpt.document.writeln("    <tr><td align=right bgcolor=', @color[5],
+      '><font size=1>(', $probSoil1[0] * 100, '%)</font></td>")
+  newinpt.document.writeln("     <td align=right bgcolor=', @color[5],
+      '><font size=1>(', $probSoil1[1] * 100, '%)</font></td>")
+  newinpt.document.writeln("     <td align=right bgcolor=', @color[5],
+      '><font size=1>(', $probSoil1[2] * 100, '%)</font></td>")
+  newinpt.document.writeln("     <td align=right bgcolor=', @color[5],
+      '><font size=1>(', $probSoil1[3] * 100, '%)</font></td>")
+  newinpt.document.writeln("     <td align=right bgcolor=', @color[5],
+      '><font size=1>(', $probSoil1[4] * 100, '%)</font></td>")
   newinpt.document.writeln("     <td><font size=1>2nd year</font></td></tr>")
-  newinpt.document.writeln("    <tr><td align=right bgcolor=',@color[5],'><font size=1>(',$probSoil2[0]*100,'%)</font></td>")
-  newinpt.document.writeln("     <td align=right bgcolor=',@color[5],'><font size=1>(',$probSoil2[1]*100,'%)</font></td>")
-  newinpt.document.writeln("     <td align=right bgcolor=',@color[5],'><font size=1>(',$probSoil2[2]*100,'%)</font></td>")
-  newinpt.document.writeln("     <td align=right bgcolor=',@color[5],'><font size=1>(',$probSoil2[3]*100,'%)</font></td>")
-  newinpt.document.writeln("     <td align=right bgcolor=',@color[5],'><font size=1>(',$probSoil2[4]*100,'%)</font></td>")
+  newinpt.document.writeln("    <tr><td align=right bgcolor=', @color[5],
+      '><font size=1>(', $probSoil2[0] * 100, '%)</font></td>")
+  newinpt.document.writeln("     <td align=right bgcolor=', @color[5],
+      '><font size=1>(', $probSoil2[1] * 100, '%)</font></td>")
+  newinpt.document.writeln("     <td align=right bgcolor=', @color[5],
+      '><font size=1>(', $probSoil2[2] * 100, '%)</font></td>")
+  newinpt.document.writeln("     <td align=right bgcolor=', @color[5],
+      '><font size=1>(', $probSoil2[3] * 100, '%)</font></td>")
+  newinpt.document.writeln("     <td align=right bgcolor=', @color[5],
+      '><font size=1>(', $probSoil2[4] * 100, '%)</font></td>")
   newinpt.document.writeln("     <td><font size=1>3rd year</font></td></tr>")
-  newinpt.document.writeln("   <tr><td align=right bgcolor=',@color[5],'><font size=1>(',$probSoil3[0]*100,'%)</font></td>")
-  newinpt.document.writeln("     <td align=right bgcolor=',@color[5],'><font size=1>(',$probSoil3[1]*100,'%)</font></td>")
-  newinpt.document.writeln("     <td align=right bgcolor=',@color[5],'><font size=1>(',$probSoil3[2]*100,'%)</font></td>")
-  newinpt.document.writeln("     <td align=right bgcolor=',@color[5],'><font size=1>(',$probSoil3[3]*100,'%)</font></td>")
-  newinpt.document.writeln("     <td align=right bgcolor=',@color[5],'><font size=1>(',$probSoil3[4]*100,'%)</font></td>")
+  newinpt.document.writeln("   <tr><td align=right bgcolor=', @color[5],
+      '><font size=1>(', $probSoil3[0] * 100, '%)</font></td>")
+  newinpt.document.writeln("     <td align=right bgcolor=', @color[5],
+      '><font size=1>(', $probSoil3[1] * 100, '%)</font></td>")
+  newinpt.document.writeln("     <td align=right bgcolor=', @color[5],
+      '><font size=1>(', $probSoil3[2] * 100, '%)</font></td>")
+  newinpt.document.writeln("     <td align=right bgcolor=', @color[5],
+      '><font size=1>(', $probSoil3[3] * 100, '%)</font></td>")
+  newinpt.document.writeln("     <td align=right bgcolor=', @color[5],
+      '><font size=1>(', $probSoil3[4] * 100, '%)</font></td>")
   newinpt.document.writeln("     <td><font size=1>4th year</font></td></tr>")
-  newinpt.document.writeln("    <tr><td align=right bgcolor=',@color[5],'><font size=1>(',$probSoil4[0]*100,'%)</font></td>")
-  newinpt.document.writeln("     <td align=right bgcolor=',@color[5],'><font size=1>(',$probSoil4[1]*100,'%)</font></td>")
-  newinpt.document.writeln("     <td align=right bgcolor=',@color[5],'><font size=1>(',$probSoil4[2]*100,'%)</font></td>")
-  newinpt.document.writeln("     <td align=right bgcolor=',@color[5],'><font size=1>(',$probSoil4[3]*100,'%)</font></td>")
-  newinpt.document.writeln("     <td align=right bgcolor=',@color[5],'><font size=1>(',$probSoil4[4]*100,'%)</font></td>")
+  newinpt.document.writeln("    <tr><td align=right bgcolor=', @color[5],
+      '><font size=1>(', $probSoil4[0] * 100, '%)</font></td>")
+  newinpt.document.writeln("     <td align=right bgcolor=', @color[5],
+      '><font size=1>(', $probSoil4[1] * 100, '%)</font></td>")
+  newinpt.document.writeln("     <td align=right bgcolor=', @color[5],
+      '><font size=1>(', $probSoil4[2] * 100, '%)</font></td>")
+  newinpt.document.writeln("     <td align=right bgcolor=', @color[5],
+      '><font size=1>(', $probSoil4[3] * 100, '%)</font></td>")
+  newinpt.document.writeln("     <td align=right bgcolor=', @color[5],
+      '><font size=1>(', $probSoil4[4] * 100, '%)</font></td>")
   newinpt.document.writeln("     <td><font size=1>5th year</font></td>")
   newinpt.document.writeln("    </tr>")
   newinpt.document.writeln("   </table>")
@@ -4438,120 +4870,134 @@ function showpt() {
 }
 ';
 
-print " </script>\n";
+    print " </script>\n";
 
 }
 
-sub isNumber{
+sub isNumber {
 
-# "Selector, Lev Y" <Lev.Selector@gs.com>
-# for (  qw[ 0 abcdefg 1  -1.0  1.0e-10  10abc ]  ) {
-#   print "$_ -> ", isNumber($_), "\n";
-# }
-# 0 -> 1
-# abcdefg ->
-# 1 -> 1
-# -1.0 -> 1
-# 1.0e-10 -> 1
-# 10abc ->
+    # "Selector, Lev Y" <Lev.Selector@gs.com>
+    # for (  qw[ 0 abcdefg 1  -1.0  1.0e-10  10abc ]  ) {
+    #   print "$_ -> ", isNumber($_), "\n";
+    # }
+    # 0 -> 1
+    # abcdefg ->
+    # 1 -> 1
+    # -1.0 -> 1
+    # 1.0e-10 -> 1
+    # 10abc ->
 
-     $_[0] =~ /^(?=[-+.]*\d)[-+]?\d*\.?\d*(?:e[-+ ]?\d+)?$/i
+    $_[0] =~ /^(?=[-+.]*\d)[-+]?\d*\.?\d*(?:e[-+ ]?\d+)?$/i;
 }
 
-sub createsoilfile {                                                   
+sub createsoilfile {
 
-# return soil file for ERMiT given
-#   soil texture designation (sand, silt, clay, loam)
-#   spatial representation (lll, llh, lhl, lhh, hll, hlh, hhl, hhh, uuu)
-#   conductivity ranking for ki, kr, ksat/aveke (0..4)
-#   percent rock fragments (rfg)
+    # return soil file for ERMiT given
+    #   soil texture designation (sand, silt, clay, loam)
+    #   spatial representation (lll, llh, lhl, lhh, hll, hlh, hhl, hhh, uuu)
+    #   conductivity ranking for ki, kr, ksat/aveke (0..4)
+    #   percent rock fragments (rfg)
 
-# USDA FS RMRS Moscow FSL coding by david numbers by Bill Elliot & Corey Moffat
-#                         unbured numbers by Pete Robichaud 2013.04.18
+ # USDA FS RMRS Moscow FSL coding by david numbers by Bill Elliot & Corey Moffat
+ #                         unbured numbers by Pete Robichaud 2013.04.18
 
-  $ver = '2002.11.27';
-  $ver = '2013.05.03';
-  $ver = '2014.02.06';		# DEH 2014.02.06 add support for unburned range and chaparral
+    $ver = '2002.11.27';
+    $ver = '2013.05.03';
+    $ver = '2014.02.06'
+      ;    # DEH 2014.02.06 add support for unburned range and chaparral
 
-# reads:
-  # $s -- severity code ('hhh' .. 'lll', 'uuu')
-  # $k -- kr/ksat counter (0..4)
-  # $SoilType -- soil type
-  # $soil_texture -- soil texture
-  # $rfg -- percentage of rock fragments (by volume) in the layer (%)
-  # $vegtype
-  # $shrub, $grass, $bare
-# returns:
-  # Soil file
-# calls
-  # soil_parameters
+    # reads:
+    # $s -- severity code ('hhh' .. 'lll', 'uuu')
+    # $k -- kr/ksat counter (0..4)
+    # $SoilType -- soil type
+    # $soil_texture -- soil texture
+    # $rfg -- percentage of rock fragments (by volume) in the layer (%)
+    # $vegtype
+    # $shrub, $grass, $bare
+    # returns:
+    # Soil file
+    # calls
+    # soil_parameters
 
-#  $SoilType = 'silt';
-#  $s = 'lll';
-#  $k = 4;
-#  $rfg = 20;      # percentage of rock fragments (by volume) in the layer (%)
+  #  $SoilType = 'silt';
+  #  $s = 'lll';
+  #  $k = 4;
+  #  $rfg = 20;      # percentage of rock fragments (by volume) in the layer (%)
 
-  if ($SoilType ne 'sand' && $SoilType ne 'silt' &&
-      $SoilType ne 'clay' && $SoilType ne 'loam') {return}
+    if (   $SoilType ne 'sand'
+        && $SoilType ne 'silt'
+        && $SoilType ne 'clay'
+        && $SoilType ne 'loam' )
+    {
+        return;
+    }
 
-  my $string = lc($s);
+    my $string = lc($s);
 
-  if ($string eq 'lll' || $string eq 'hhh') { $nofe = 1 }
-  if ($string eq 'llh' || $string eq 'hhl') { $nofe = 2 }
-  if ($string eq 'lhl' || $string eq 'hlh') { $nofe = 3 }
-  if ($string eq 'lhh' || $string eq 'hll') { $nofe = 2 }
-  if ($string eq 'uuu')                     { $nofe = 1 }	# 2013.05.03
+    if ( $string eq 'lll' || $string eq 'hhh' ) { $nofe = 1 }
+    if ( $string eq 'llh' || $string eq 'hhl' ) { $nofe = 2 }
+    if ( $string eq 'lhl' || $string eq 'hlh' ) { $nofe = 3 }
+    if ( $string eq 'lhh' || $string eq 'hll' ) { $nofe = 2 }
+    if ( $string eq 'uuu' )                     { $nofe = 1 }    # 2013.05.03
 
-  $ksflag = 0;  # hold internal hydraulic conductivity constant (0 => do not adjust internally)
-  $nsl = 1;     # number of soil layers for the current OFE
-  $salb = 0.2;  # albedo of the bare dry surface soil on the current OFE
-  $sat = 0.75;  # initial saturation level of the soil profile porosity (m/m)
+    $ksflag = 0
+      ; # hold internal hydraulic conductivity constant (0 => do not adjust internally)
+    $nsl  = 1;     # number of soil layers for the current OFE
+    $salb = 0.2;   # albedo of the bare dry surface soil on the current OFE
+    $sat  = 0.75;  # initial saturation level of the soil profile porosity (m/m)
 
-# goto skip;
-# skip:
+    # goto skip;
+    # skip:
 
-  &soil_parameters;
+    &soil_parameters;
 
-  @u[0] = @ki_u[0] . "\t" . @kr_u[0] . "\t" . $tauc_u . "\t" . @ksat_u[0];	# 2013.05.03
-  @u[1] = @ki_u[1] . "\t" . @kr_u[1] . "\t" . $tauc_u . "\t" . @ksat_u[1];
-  @u[2] = @ki_u[2] . "\t" . @kr_u[2] . "\t" . $tauc_u . "\t" . @ksat_u[2];
-  @u[3] = @ki_u[3] . "\t" . @kr_u[3] . "\t" . $tauc_u . "\t" . @ksat_u[3];
-  @u[4] = @ki_u[4] . "\t" . @kr_u[4] . "\t" . $tauc_u . "\t" . @ksat_u[4];
-  @l[0] = @ki_l[0] . "\t" . @kr_l[0] . "\t" . $tauc_l . "\t" . @ksat_l[0];
-  @l[1] = @ki_l[1] . "\t" . @kr_l[1] . "\t" . $tauc_l . "\t" . @ksat_l[1];
-  @l[2] = @ki_l[2] . "\t" . @kr_l[2] . "\t" . $tauc_l . "\t" . @ksat_l[2];
-  @l[3] = @ki_l[3] . "\t" . @kr_l[3] . "\t" . $tauc_l . "\t" . @ksat_l[3];
-  @l[4] = @ki_l[4] . "\t" . @kr_l[4] . "\t" . $tauc_l . "\t" . @ksat_l[4];
-  @h[0] = @ki_h[0] . "\t" . @kr_h[0] . "\t" . $tauc_h . "\t" . @ksat_h[0];
-  @h[1] = @ki_h[1] . "\t" . @kr_h[1] . "\t" . $tauc_h . "\t" . @ksat_h[1];
-  @h[2] = @ki_h[2] . "\t" . @kr_h[2] . "\t" . $tauc_h . "\t" . @ksat_h[2];
-  @h[3] = @ki_h[3] . "\t" . @kr_h[3] . "\t" . $tauc_h . "\t" . @ksat_h[3];
-  @h[4] = @ki_h[4] . "\t" . @kr_h[4] . "\t" . $tauc_h . "\t" . @ksat_h[4];
+    @u[0] =
+        @ki_u[0] . "\t"
+      . @kr_u[0] . "\t"
+      . $tauc_u . "\t"
+      . @ksat_u[0];    # 2013.05.03
+    @u[1] = @ki_u[1] . "\t" . @kr_u[1] . "\t" . $tauc_u . "\t" . @ksat_u[1];
+    @u[2] = @ki_u[2] . "\t" . @kr_u[2] . "\t" . $tauc_u . "\t" . @ksat_u[2];
+    @u[3] = @ki_u[3] . "\t" . @kr_u[3] . "\t" . $tauc_u . "\t" . @ksat_u[3];
+    @u[4] = @ki_u[4] . "\t" . @kr_u[4] . "\t" . $tauc_u . "\t" . @ksat_u[4];
+    @l[0] = @ki_l[0] . "\t" . @kr_l[0] . "\t" . $tauc_l . "\t" . @ksat_l[0];
+    @l[1] = @ki_l[1] . "\t" . @kr_l[1] . "\t" . $tauc_l . "\t" . @ksat_l[1];
+    @l[2] = @ki_l[2] . "\t" . @kr_l[2] . "\t" . $tauc_l . "\t" . @ksat_l[2];
+    @l[3] = @ki_l[3] . "\t" . @kr_l[3] . "\t" . $tauc_l . "\t" . @ksat_l[3];
+    @l[4] = @ki_l[4] . "\t" . @kr_l[4] . "\t" . $tauc_l . "\t" . @ksat_l[4];
+    @h[0] = @ki_h[0] . "\t" . @kr_h[0] . "\t" . $tauc_h . "\t" . @ksat_h[0];
+    @h[1] = @ki_h[1] . "\t" . @kr_h[1] . "\t" . $tauc_h . "\t" . @ksat_h[1];
+    @h[2] = @ki_h[2] . "\t" . @kr_h[2] . "\t" . $tauc_h . "\t" . @ksat_h[2];
+    @h[3] = @ki_h[3] . "\t" . @kr_h[3] . "\t" . $tauc_h . "\t" . @ksat_h[3];
+    @h[4] = @ki_h[4] . "\t" . @kr_h[4] . "\t" . $tauc_h . "\t" . @ksat_h[4];
 
-  $results="95.1
+    $results = "95.1
 #  WEPP '$soil_texture' '$s$k' $vegtype soil input file for ERMiT";
-  if ($vegtype ne 'forest') {$results .= "\n#  $shrub% shrub $grass% grass $bare% bare"}
-  $results .= "
+    if ( $vegtype ne 'forest' ) {
+        $results .= "\n#  $shrub% shrub $grass% grass $bare% bare";
+    }
+    $results .= "
 #  Data from U.S. Forest Service RMRS Air, Water and Aquatic Environments (AWAE) Project, Moscow FSL
 #  Created by 'createsoilfile' version $ver
 $nofe\t0
 ";
 
-  $that_severity = '';
-  for $i (0..2) {
-    $this_severity = substr($string,$i,1);
-    $sev = $this_severity;
-    if ($this_severity ne $that_severity) {
-      if ($this_severity eq 'u') {$KiKrShcritAvke = @u[$k]}
-      if ($this_severity eq 'l') {$KiKrShcritAvke = @l[$k]}
-      if ($this_severity eq 'h') {$KiKrShcritAvke = @h[$k]}
-      $results .= "'ERMiT_$sev$k'\t'$soil_texture'\t$nsl\t$salb\t$sat\t" . $KiKrShcritAvke;
-      $results .= "\n$solthk\t$sand\t$clay\t$orgmat\t$cec\t$rfg\n";
-      $that_severity = $this_severity;
+    $that_severity = '';
+    for $i ( 0 .. 2 ) {
+        $this_severity = substr( $string, $i, 1 );
+        $sev           = $this_severity;
+        if ( $this_severity ne $that_severity ) {
+            if ( $this_severity eq 'u' ) { $KiKrShcritAvke = @u[$k] }
+            if ( $this_severity eq 'l' ) { $KiKrShcritAvke = @l[$k] }
+            if ( $this_severity eq 'h' ) { $KiKrShcritAvke = @h[$k] }
+            $results .= "'ERMiT_$sev$k'\t'$soil_texture'\t$nsl\t$salb\t$sat\t"
+              . $KiKrShcritAvke;
+            $results .= "\n$solthk\t$sand\t$clay\t$orgmat\t$cec\t$rfg\n";
+            $that_severity = $this_severity;
+        }
     }
-  }
-  return $results;
-}                                                                           
+    return $results;
+}
 
 sub soil_parameters {
 
@@ -4559,327 +5005,781 @@ sub soil_parameters {
 # 2013.04.19 added 'unburned' condition
 # 2006.06.20 adjusted range values to match 'Working Range Soil Tables(Simanton_krs).xlstable' (4/25/2006)
 
- # $vegtype ['forest' 'range' 'chaparral']
- # $SoilType ['sand' 'silt' 'clay' 'loam']
- # $shrub
- # $grass
- # $bare
+    # $vegtype ['forest' 'range' 'chaparral']
+    # $SoilType ['sand' 'silt' 'clay' 'loam']
+    # $shrub
+    # $grass
+    # $bare
 
- # @ki_u[0..4]		# unburned baseline interrill erodibility (ki) (kg s/m^4)			# 2013.04.19
- # @ki_l[0..4]          # low soil burn severity baseline interrill erodibility (ki) (kg s/m^4)
- # @ki_h[0..4]          # high soil burn severity baseline interrill erodibility (ki) (kg s/m^4)
- # @kr_u[0..4]          # unburned baseline rill erodibility (kr) (s/m)					# 2013.04.19
- # @kr_l[0..4]          # low soil burn severity baseline rill erodibility (kr) (s/m)
- # @kr_h[0..4]          # high soil burn severity baseline rill erodibility (kr) (s/m)
- # $tauc_u              # unburned baseline critical shear (shcrit) (N/m^2)				# 2013.04.19
- # $tauc_l              # low soil burn severity baseline critical shear (shcrit) (N/m^2)
- # $tauc_h              # high soil burn severity baseline critical shear (shcrit) (N/m^2)
- # @ksat_u[0..4]        # unburned effective hydraulic conductivity of surface soil (avke) (mm/h)	# 2013.04.19
- # @ksat_l[0..4]        # low severity effective hydraulic conductivity of surface soil (avke) (mm/h)
- # @ksat_h[0..4]        # high severity effective hydraulic conductivity of surface soil (avke) (mm/h)
+# @ki_u[0..4]		# unburned baseline interrill erodibility (ki) (kg s/m^4)			# 2013.04.19
+# @ki_l[0..4]          # low soil burn severity baseline interrill erodibility (ki) (kg s/m^4)
+# @ki_h[0..4]          # high soil burn severity baseline interrill erodibility (ki) (kg s/m^4)
+# @kr_u[0..4]          # unburned baseline rill erodibility (kr) (s/m)					# 2013.04.19
+# @kr_l[0..4]          # low soil burn severity baseline rill erodibility (kr) (s/m)
+# @kr_h[0..4]          # high soil burn severity baseline rill erodibility (kr) (s/m)
+# $tauc_u              # unburned baseline critical shear (shcrit) (N/m^2)				# 2013.04.19
+# $tauc_l              # low soil burn severity baseline critical shear (shcrit) (N/m^2)
+# $tauc_h              # high soil burn severity baseline critical shear (shcrit) (N/m^2)
+# @ksat_u[0..4]        # unburned effective hydraulic conductivity of surface soil (avke) (mm/h)	# 2013.04.19
+# @ksat_l[0..4]        # low severity effective hydraulic conductivity of surface soil (avke) (mm/h)
+# @ksat_h[0..4]        # high severity effective hydraulic conductivity of surface soil (avke) (mm/h)
 
-  if ($vegtype eq 'forest') {
-    if ($SoilType eq 'sand') {
-      $solthk = 400;      # depth of soil surface to bottom of soil layer (mm)
-      $sand = 55;         # percentage of sand in the layer (%)
-      $clay = 10;         # percentage of clay in the layer (%)
-      $orgmat = 5;        # percentage of organic matter (by volume) in the layer (%)
-      $cec = 15;          # cation exchange capacity in the layer (meq per 100 g of soil)
-      $tauc_u=2;	# 2013.05.03
-      $tauc_l=2;
-      $tauc_h=2;
-      @ki_u[0] =   84200; @kr_u[0] = 0.0000015; @ksat_u[0] =100;	# 2014.02.06 DEH
-      @ki_u[1] =  118700; @kr_u[1] = 0.0000018; @ksat_u[1] = 75;	# 2014.02.06 DEH
-      @ki_u[2] =  189100; @kr_u[2] = 0.0000020; @ksat_u[2] = 50;	# 2014.02.06 DEH
-      @ki_u[3] =  411900; @kr_u[3] = 0.0000021; @ksat_u[3] = 35;	# 2014.02.06 DEH
-      @ki_u[4] =  873300; @kr_u[4] = 0.0000023; @ksat_u[4] = 20;	# 2014.02.06 DEH
-      @ki_l[0] =  300000; @kr_l[0] = 0.0000030; @ksat_l[0] = 48;	# 2005.10.12 DEH
-      @ki_l[1] =  500000; @kr_l[1] = 0.00034;   @ksat_l[1] = 46;
-      @ki_l[2] =  700000; @kr_l[2] = 0.00037;   @ksat_l[2] = 44;
-      @ki_l[3] = 1000000; @kr_l[3] = 0.00040;   @ksat_l[3] = 24;
-      @ki_l[4] = 1200000; @kr_l[4] = 0.00045;   @ksat_l[4] = 14;
-      @ki_h[0] = 1000000; @kr_h[0] = 0.00040;   @ksat_h[0] = 22;
-      @ki_h[1] = 1500000; @kr_h[1] = 0.00050;   @ksat_h[1] = 13;
-      @ki_h[2] = 2000000; @kr_h[2] = 0.00060;   @ksat_h[2] =  7;
-      @ki_h[3] = 2500000; @kr_h[3] = 0.00070;   @ksat_h[3] =  6;
-      @ki_h[4] = 3000000; @kr_h[4] = 0.00100;   @ksat_h[4] =  5;
-    }
-    if ($SoilType eq 'silt') {
-      $solthk = 400;
-      $sand = 25;
-      $clay = 15;
-      $orgmat = 5;
-      $cec = 15;
-      $tauc_u=3.5;
-      $tauc_l=3.5;
-      $tauc_h=3.5;
-      @ki_u[0] =   48800; @kr_u[0] = 0.0000011; @ksat_u[0] = 65;        # 2014 DEH
-      @ki_u[1] =   68800; @kr_u[1] = 0.0000013; @ksat_u[1] = 48;        # 2014 DEH
-      @ki_u[2] =  109700; @kr_u[2] = 0.0000015; @ksat_u[2] = 32;        # 2014 DEH
-      @ki_u[3] =  238900; @kr_u[3] = 0.0000015; @ksat_u[3] = 26;        # 2014 DEH
-      @ki_u[4] =  506500; @kr_u[4] = 0.0000017; @ksat_u[4] = 20;        # 2014 DEH
- #    @ki_l[0] =  300000; @kr_l[0] = 0.0000030; @ksat_l[0] = 48;        # 2005 DEH
-      @ki_l[0] =  250000; @kr_l[0] = 0.0000020; @ksat_l[0] = 33;      # 2005.10.12 DEH
-      @ki_l[1] =  300000; @kr_l[1] = 0.00024; @ksat_l[1] = 31;
-      @ki_l[2] =  400000; @kr_l[2] = 0.00027; @ksat_l[2] = 29;
-      @ki_l[3] =  500000; @kr_l[3] = 0.00030; @ksat_l[3] = 19;
-      @ki_l[4] =  600000; @kr_l[4] = 0.00035; @ksat_l[4] =  9;
-      @ki_h[0] =  500000; @kr_h[0] = 0.00030; @ksat_h[0] = 18;
-      @ki_h[1] = 1000000; @kr_h[1] = 0.00040; @ksat_h[1] = 10;
-      @ki_h[2] = 1500000; @kr_h[2] = 0.00050; @ksat_h[2] =  6;
-      @ki_h[3] = 2000000; @kr_h[3] = 0.00060; @ksat_h[3] =  4;
-      @ki_h[4] = 2500000; @kr_h[4] = 0.00090; @ksat_h[4] =  3;
-    }
-    if ($SoilType eq 'clay') {
-      $solthk = 400;
-      $sand = 25;
-      $clay = 30;
-      $orgmat = 5;
-      $cec = 25;
-      $tauc_u = 4;
-      $tauc_l = 4;
-      $tauc_h = 4;
-      @ki_u[0] =   56400; @kr_u[0] = 0.0000024; @ksat_u[0] = 70;        # 2014.02.06 DEH
-      @ki_u[1] =   79500; @kr_u[1] = 0.0000028; @ksat_u[1] = 50;        # 2014.02.06 DEH
-      @ki_u[2] =  126700; @kr_u[2] = 0.0000032; @ksat_u[2] = 30;        # 2014.02.06 DEH
-      @ki_u[3] =  276000; @kr_u[3] = 0.0000033; @ksat_u[3] = 20;        # 2014.02.06 DEH
-      @ki_u[4] =  585100; @kr_u[4] = 0.0000036; @ksat_u[4] = 10;        # 2014.02.06 DEH
+    if ( $vegtype eq 'forest' ) {
+        if ( $SoilType eq 'sand' ) {
+            $solthk = 400;  # depth of soil surface to bottom of soil layer (mm)
+            $sand   = 55;   # percentage of sand in the layer (%)
+            $clay   = 10;   # percentage of clay in the layer (%)
+            $orgmat =
+              5;    # percentage of organic matter (by volume) in the layer (%)
+            $cec = 15
+              ;  # cation exchange capacity in the layer (meq per 100 g of soil)
+            $tauc_u    = 2;           # 2013.05.03
+            $tauc_l    = 2;
+            $tauc_h    = 2;
+            @ki_u[0]   = 84200;
+            @kr_u[0]   = 0.0000015;
+            @ksat_u[0] = 100;         # 2014.02.06 DEH
+            @ki_u[1]   = 118700;
+            @kr_u[1]   = 0.0000018;
+            @ksat_u[1] = 75;          # 2014.02.06 DEH
+            @ki_u[2]   = 189100;
+            @kr_u[2]   = 0.0000020;
+            @ksat_u[2] = 50;          # 2014.02.06 DEH
+            @ki_u[3]   = 411900;
+            @kr_u[3]   = 0.0000021;
+            @ksat_u[3] = 35;          # 2014.02.06 DEH
+            @ki_u[4]   = 873300;
+            @kr_u[4]   = 0.0000023;
+            @ksat_u[4] = 20;          # 2014.02.06 DEH
+            @ki_l[0]   = 300000;
+            @kr_l[0]   = 0.0000030;
+            @ksat_l[0] = 48;          # 2005.10.12 DEH
+            @ki_l[1]   = 500000;
+            @kr_l[1]   = 0.00034;
+            @ksat_l[1] = 46;
+            @ki_l[2]   = 700000;
+            @kr_l[2]   = 0.00037;
+            @ksat_l[2] = 44;
+            @ki_l[3]   = 1000000;
+            @kr_l[3]   = 0.00040;
+            @ksat_l[3] = 24;
+            @ki_l[4]   = 1200000;
+            @kr_l[4]   = 0.00045;
+            @ksat_l[4] = 14;
+            @ki_h[0]   = 1000000;
+            @kr_h[0]   = 0.00040;
+            @ksat_h[0] = 22;
+            @ki_h[1]   = 1500000;
+            @kr_h[1]   = 0.00050;
+            @ksat_h[1] = 13;
+            @ki_h[2]   = 2000000;
+            @kr_h[2]   = 0.00060;
+            @ksat_h[2] = 7;
+            @ki_h[3]   = 2500000;
+            @kr_h[3]   = 0.00070;
+            @ksat_h[3] = 6;
+            @ki_h[4]   = 3000000;
+            @kr_h[4]   = 0.00100;
+            @ksat_h[4] = 5;
+        }
+        if ( $SoilType eq 'silt' ) {
+            $solthk    = 400;
+            $sand      = 25;
+            $clay      = 15;
+            $orgmat    = 5;
+            $cec       = 15;
+            $tauc_u    = 3.5;
+            $tauc_l    = 3.5;
+            $tauc_h    = 3.5;
+            @ki_u[0]   = 48800;
+            @kr_u[0]   = 0.0000011;
+            @ksat_u[0] = 65;          # 2014 DEH
+            @ki_u[1]   = 68800;
+            @kr_u[1]   = 0.0000013;
+            @ksat_u[1] = 48;          # 2014 DEH
+            @ki_u[2]   = 109700;
+            @kr_u[2]   = 0.0000015;
+            @ksat_u[2] = 32;          # 2014 DEH
+            @ki_u[3]   = 238900;
+            @kr_u[3]   = 0.0000015;
+            @ksat_u[3] = 26;          # 2014 DEH
+            @ki_u[4]   = 506500;
+            @kr_u[4]   = 0.0000017;
+            @ksat_u[4] = 20;          # 2014 DEH
+             #    @ki_l[0] =  300000; @kr_l[0] = 0.0000030; @ksat_l[0] = 48;        # 2005 DEH
+            @ki_l[0]   = 250000;
+            @kr_l[0]   = 0.0000020;
+            @ksat_l[0] = 33;          # 2005.10.12 DEH
+            @ki_l[1]   = 300000;
+            @kr_l[1]   = 0.00024;
+            @ksat_l[1] = 31;
+            @ki_l[2]   = 400000;
+            @kr_l[2]   = 0.00027;
+            @ksat_l[2] = 29;
+            @ki_l[3]   = 500000;
+            @kr_l[3]   = 0.00030;
+            @ksat_l[3] = 19;
+            @ki_l[4]   = 600000;
+            @kr_l[4]   = 0.00035;
+            @ksat_l[4] = 9;
+            @ki_h[0]   = 500000;
+            @kr_h[0]   = 0.00030;
+            @ksat_h[0] = 18;
+            @ki_h[1]   = 1000000;
+            @kr_h[1]   = 0.00040;
+            @ksat_h[1] = 10;
+            @ki_h[2]   = 1500000;
+            @kr_h[2]   = 0.00050;
+            @ksat_h[2] = 6;
+            @ki_h[3]   = 2000000;
+            @kr_h[3]   = 0.00060;
+            @ksat_h[3] = 4;
+            @ki_h[4]   = 2500000;
+            @kr_h[4]   = 0.00090;
+            @ksat_h[4] = 3;
+        }
+        if ( $SoilType eq 'clay' ) {
+            $solthk    = 400;
+            $sand      = 25;
+            $clay      = 30;
+            $orgmat    = 5;
+            $cec       = 25;
+            $tauc_u    = 4;
+            $tauc_l    = 4;
+            $tauc_h    = 4;
+            @ki_u[0]   = 56400;
+            @kr_u[0]   = 0.0000024;
+            @ksat_u[0] = 70;          # 2014.02.06 DEH
+            @ki_u[1]   = 79500;
+            @kr_u[1]   = 0.0000028;
+            @ksat_u[1] = 50;          # 2014.02.06 DEH
+            @ki_u[2]   = 126700;
+            @kr_u[2]   = 0.0000032;
+            @ksat_u[2] = 30;          # 2014.02.06 DEH
+            @ki_u[3]   = 276000;
+            @kr_u[3]   = 0.0000033;
+            @ksat_u[3] = 20;          # 2014.02.06 DEH
+            @ki_u[4]   = 585100;
+            @kr_u[4]   = 0.0000036;
+            @ksat_u[4] = 10;          # 2014.02.06 DEH
+
 #     @ki_l[0] =  300000; @kr_l[0] = 0.0000030; @ksat_l[0] = 48;        # 2005.10.12 DEH
-      @ki_l[0] =  200000; @kr_l[0] = 0.0000010; @ksat_l[0] = 25;        # 2005.10.12 DEH
-      @ki_l[1] =  250000; @kr_l[1] = 0.00014; @ksat_l[1] = 24;
-      @ki_l[2] =  300000; @kr_l[2] = 0.00017; @ksat_l[2] = 23;
-      @ki_l[3] =  400000; @kr_l[3] = 0.00020; @ksat_l[3] = 14;
-      @ki_l[4] =  500000; @kr_l[4] = 0.00025; @ksat_l[4] =  8;
-      @ki_h[0] =  400000; @kr_h[0] = 0.00020; @ksat_h[0] = 13;
-      @ki_h[1] =  700000; @kr_h[1] = 0.00030; @ksat_h[1] =  7;
-      @ki_h[2] = 1000000; @kr_h[2] = 0.00040; @ksat_h[2] =  4;
-      @ki_h[3] = 1500000; @kr_h[3] = 0.00050; @ksat_h[3] =  3;
-      @ki_h[4] = 2000000; @kr_h[4] = 0.00080; @ksat_h[4] =  2;
-    }
-    if ($SoilType eq 'loam') {
-      $solthk = 400;
-      $sand = 45;
-      $clay = 20;
-      $orgmat = 5;
-      $cec = 20;
-      $tauc_u = 3;
-      $tauc_l = 3;
-      $tauc_h = 3;
-      @ki_u[0] =   72400; @kr_u[0] = 0.0000018; @ksat_u[0] = 75;        # 2013.04.19 DEH
-      @ki_u[1] =  102100; @kr_u[1] = 0.0000022; @ksat_u[1] = 56;        # 2013.04.19 DEH
-      @ki_u[2] =  162600; @kr_u[2] = 0.0000025; @ksat_u[2] = 37;        # 2013.04.19 DEH
-      @ki_u[3] =  354200; @kr_u[3] = 0.0000026; @ksat_u[3] = 26;        # 2013.04.19 DEH
-      @ki_u[4] =  751000; @kr_u[4] = 0.0000028; @ksat_u[4] = 15;        # 2013.04.19 DEH
+            @ki_l[0]   = 200000;
+            @kr_l[0]   = 0.0000010;
+            @ksat_l[0] = 25;          # 2005.10.12 DEH
+            @ki_l[1]   = 250000;
+            @kr_l[1]   = 0.00014;
+            @ksat_l[1] = 24;
+            @ki_l[2]   = 300000;
+            @kr_l[2]   = 0.00017;
+            @ksat_l[2] = 23;
+            @ki_l[3]   = 400000;
+            @kr_l[3]   = 0.00020;
+            @ksat_l[3] = 14;
+            @ki_l[4]   = 500000;
+            @kr_l[4]   = 0.00025;
+            @ksat_l[4] = 8;
+            @ki_h[0]   = 400000;
+            @kr_h[0]   = 0.00020;
+            @ksat_h[0] = 13;
+            @ki_h[1]   = 700000;
+            @kr_h[1]   = 0.00030;
+            @ksat_h[1] = 7;
+            @ki_h[2]   = 1000000;
+            @kr_h[2]   = 0.00040;
+            @ksat_h[2] = 4;
+            @ki_h[3]   = 1500000;
+            @kr_h[3]   = 0.00050;
+            @ksat_h[3] = 3;
+            @ki_h[4]   = 2000000;
+            @kr_h[4]   = 0.00080;
+            @ksat_h[4] = 2;
+        }
+        if ( $SoilType eq 'loam' ) {
+            $solthk    = 400;
+            $sand      = 45;
+            $clay      = 20;
+            $orgmat    = 5;
+            $cec       = 20;
+            $tauc_u    = 3;
+            $tauc_l    = 3;
+            $tauc_h    = 3;
+            @ki_u[0]   = 72400;
+            @kr_u[0]   = 0.0000018;
+            @ksat_u[0] = 75;          # 2013.04.19 DEH
+            @ki_u[1]   = 102100;
+            @kr_u[1]   = 0.0000022;
+            @ksat_u[1] = 56;          # 2013.04.19 DEH
+            @ki_u[2]   = 162600;
+            @kr_u[2]   = 0.0000025;
+            @ksat_u[2] = 37;          # 2013.04.19 DEH
+            @ki_u[3]   = 354200;
+            @kr_u[3]   = 0.0000026;
+            @ksat_u[3] = 26;          # 2013.04.19 DEH
+            @ki_u[4]   = 751000;
+            @kr_u[4]   = 0.0000028;
+            @ksat_u[4] = 15;          # 2013.04.19 DEH
+
 #     @ki_l[0] =  300000; @kr_l[0] = 0.0000030; @ksat_l[0] = 48;        # 2005.10.12 DEH
-      @ki_l[0] =  320000; @kr_l[0] = 0.0000015; @ksat_l[0] = 40;      # 2005.10.12 DEH
-      @ki_l[1] =  370000; @kr_l[1] = 0.00019; @ksat_l[1] = 38;
-      @ki_l[2] =  470000; @kr_l[2] = 0.00022; @ksat_l[2] = 36;
-      @ki_l[3] =  600000; @kr_l[3] = 0.00025; @ksat_l[3] = 28;
-      @ki_l[4] =  800000; @kr_l[4] = 0.00030; @ksat_l[4] = 18;
-      @ki_h[0] =  600000; @kr_h[0] = 0.00025; @ksat_h[0] = 27;
-      @ki_h[1] =  800000; @kr_h[1] = 0.00035; @ksat_h[1] = 15;
-      @ki_h[2] = 1200000; @kr_h[2] = 0.00055; @ksat_h[2] =  8;
-      @ki_h[3] = 2200000; @kr_h[3] = 0.00065; @ksat_h[3] =  5;
-      @ki_h[4] = 3200000; @kr_h[4] = 0.00085; @ksat_h[4] =  4;
-    }
-    # return
-    #   $tauc_u
-    #   $tauc_l
-    #   $tauc_h
-    #   @ki_u[0..4]
-    #   @ki_l[0..4]
-    #   @ki_h[0..4]
-    #   @kr_u[0..4]
-    #   @kr_l[0..4]
-    #   @kr_h[0..4]
-    #   @ksat_u[0..4]
-    #   @ksat_l[0..4]
-    #   @ksat_h[0..4]
+            @ki_l[0]   = 320000;
+            @kr_l[0]   = 0.0000015;
+            @ksat_l[0] = 40;          # 2005.10.12 DEH
+            @ki_l[1]   = 370000;
+            @kr_l[1]   = 0.00019;
+            @ksat_l[1] = 38;
+            @ki_l[2]   = 470000;
+            @kr_l[2]   = 0.00022;
+            @ksat_l[2] = 36;
+            @ki_l[3]   = 600000;
+            @kr_l[3]   = 0.00025;
+            @ksat_l[3] = 28;
+            @ki_l[4]   = 800000;
+            @kr_l[4]   = 0.00030;
+            @ksat_l[4] = 18;
+            @ki_h[0]   = 600000;
+            @kr_h[0]   = 0.00025;
+            @ksat_h[0] = 27;
+            @ki_h[1]   = 800000;
+            @kr_h[1]   = 0.00035;
+            @ksat_h[1] = 15;
+            @ki_h[2]   = 1200000;
+            @kr_h[2]   = 0.00055;
+            @ksat_h[2] = 8;
+            @ki_h[3]   = 2200000;
+            @kr_h[3]   = 0.00065;
+            @ksat_h[3] = 5;
+            @ki_h[4]   = 3200000;
+            @kr_h[4]   = 0.00085;
+            @ksat_h[4] = 4;
+        }
 
-  }		# $vegtype eq 'forest'
-  else {	# $vegtype ne 'forest'...  # soil parameter values 25 April 2006 added 20 June 2006
-    if ($SoilType eq 'sand') {
-      $solthk = 400;      # depth of soil surface to bottom of soil layer (mm)
-      $sand = 55;         # percentage of sand in the layer (%)
-      $clay = 10;         # percentage of clay in the layer (%)
-      $orgmat = 1;        # percentage of organic matter (by volume) in the layer (%) # per CM 2006.06.05
-      $cec = 15;          # cation exchange capacity in the layer (meq per 100 g of soil)
-      $tauc_l=2.75;      $tauc_h=2.17;	$tauc_u = 1.14;								# DEH 2014.02.06
- 
-      @ki_shrub_u[0] =   18871; @ki_grass_u[0] = 12541; @ki_bare_u[0] =  58343; @kr_u[0] = 0.0000022;		# DEH 2014.02.06
-      @ki_shrub_u[1] =   37742; @ki_grass_u[1] = 25028; @ki_bare_u[1] = 116686; @kr_u[1] = 0.0000045;
-      @ki_shrub_u[2] =   75483; @ki_grass_u[2] = 50165; @ki_bare_u[2] = 233373; @kr_u[2] = 0.000009;
-      @ki_shrub_u[3] =   94354; @ki_grass_u[3] = 62706; @ki_bare_u[3] = 291716; @kr_u[3] = 0.000011;
-      @ki_shrub_u[4] = 1723789; @ki_grass_u[4] = 85555; @ki_bare_u[4] = 788669; @kr_u[4] = 0.00259;
-      @ki_shrub_l[0] = 7.548E+4; @ki_grass_l[0] = 5.016E+4; @ki_bare_l[0] = 2.334E+5; @kr_l[0] = 8.991E-6;
-      @ki_shrub_l[1] = 1.191E+5; @ki_grass_l[1] = 1.174E+5; @ki_bare_l[1] = 2.536E+5; @kr_l[1] = 1.393E-5;
-      @ki_shrub_l[2] = 2.480E+5; @ki_grass_l[2] = 2.372E+5; @ki_bare_l[2] = 5.520E+5; @kr_l[2] = 8.042E-5;
-      @ki_shrub_l[3] = 4.093E+5; @ki_grass_l[3] = 3.921E+5; @ki_bare_l[3] = 2.187E+6; @kr_l[3] = 3.316E-4;
-      @ki_shrub_l[4] = 9.313E+5; @ki_grass_l[4] = 6.513E+5; @ki_bare_l[4] = 3.608E+6; @kr_l[4] = 7.236E-4;
-      @ki_shrub_h[0] = 2.334E+5; @ki_grass_h[0] = 1.745E+5; @ki_bare_h[0] = 2.334E+5; @kr_h[0] = 9.492E-5;
-      @ki_shrub_h[1] = 2.536E+5; @ki_grass_h[1] = 2.518E+5; @ki_bare_h[1] = 2.536E+5; @kr_h[1] = 1.346E-4;
-      @ki_shrub_h[2] = 4.630E+5; @ki_grass_h[2] = 5.520E+5; @ki_bare_h[2] = 5.520E+5; @kr_h[2] = 5.444E-4;
-      @ki_shrub_h[3] = 6.868E+5; @ki_grass_h[3] = 2.187E+6; @ki_bare_h[3] = 2.187E+6; @kr_h[3] = 1.684E-3;
-      @ki_shrub_h[4] = 9.313E+5; @ki_grass_h[4] = 3.608E+6; @ki_bare_h[4] = 3.608E+6; @kr_h[4] = 3.137E-3;
-      @ks_shrub_u[0] = 40; @ks_grass_u[0] = 30; @ks_bare_u[0] = 26;
-      @ks_shrub_u[1] = 35; @ks_grass_u[1] = 24; @ks_bare_u[1] = 15;
-      @ks_shrub_u[2] = 30; @ks_grass_u[2] = 17; @ks_bare_u[2] = 14;
-      @ks_shrub_u[3] = 23; @ks_grass_u[3] = 15; @ks_bare_u[3] = 10;
-      @ks_shrub_u[4] = 15; @ks_grass_u[4] = 12; @ks_bare_u[4] =  7;
-      @ks_shrub_l[0] = 29; @ks_grass_l[0] = 17; @ks_bare_l[0] = 14;
-      @ks_shrub_l[1] = 17; @ks_grass_l[1] = 17; @ks_bare_l[1] = 14;
-      @ks_shrub_l[2] = 15; @ks_grass_l[2] = 13; @ks_bare_l[2] = 11;
-      @ks_shrub_l[3] = 12; @ks_grass_l[3] = 12; @ks_bare_l[3] = 10;
-      @ks_shrub_l[4] =  9; @ks_grass_l[4] =  8; @ks_bare_l[4] =  7;
-      @ks_shrub_h[0] = 21; @ks_grass_h[0] = 14; @ks_bare_h[0] = 14;
-      @ks_shrub_h[1] = 12; @ks_grass_h[1] = 14; @ks_bare_h[1] = 14;
-      @ks_shrub_h[2] = 11; @ks_grass_h[2] = 11; @ks_bare_h[2] = 11;
-      @ks_shrub_h[3] =  9; @ks_grass_h[3] = 10; @ks_bare_h[3] = 10;
-      @ks_shrub_h[4] =  6; @ks_grass_h[4] =  7; @ks_bare_h[4] =  7;
-    }
-    if ($SoilType eq 'silt') {
-      $solthk = 400;
-      $sand = 25;
-      $clay = 15;
-      $orgmat = 1;
-      $cec = 15;
-      $tauc_l=3.39;      $tauc_h=2.68;	$tauc_u = 3.39;
-      @ki_shrub_u[0] =  3990; @ki_grass_u[0] =  2874; @ki_bare_u[0] = 12335; @kr_u[0] = 0.000008;
-      @ki_shrub_u[1] =  7979; @ki_grass_u[1] =  5748; @ki_bare_u[1] = 24670; @kr_u[1] = 0.000016;
-      @ki_shrub_u[2] = 15959; @ki_grass_u[2] = 11496; @ki_bare_u[2] = 49340; @kr_u[2] = 0.000033;
-      @ki_shrub_u[3] = 19948; @ki_grass_u[3] = 14370; @ki_bare_u[3] = 61675; @kr_u[3] = 0.000041;
-      @ki_shrub_u[4] = 23938; @ki_grass_u[4] = 17244; @ki_bare_u[4] = 74010; @kr_u[4] = 0.000049;
-      @ki_shrub_l[0] = 1.596E+4; @ki_grass_l[0] = 1.150E+4; @ki_bare_l[0] = 4.934E+4; @kr_l[0] = 3.276E-5;
-      @ki_shrub_l[1] = 2.933E+4; @ki_grass_l[1] = 2.070E+4; @ki_bare_l[1] = 6.247E+4; @kr_l[1] = 5.989E-5;
-      @ki_shrub_l[2] = 8.151E+4; @ki_grass_l[2] = 5.556E+4; @ki_bare_l[2] = 1.522E+5; @kr_l[2] = 1.804E-4;
-      @ki_shrub_l[3] = 1.428E+5; @ki_grass_l[3] = 9.548E+4; @ki_bare_l[3] = 5.326E+5; @kr_l[3] = 4.363E-4;
-      @ki_shrub_l[4] = 2.312E+5; @ki_grass_l[4] = 1.521E+5; @ki_bare_l[4] = 8.425E+5; @kr_l[4] = 7.787E-4;
-      @ki_shrub_h[0] = 4.934E+4; @ki_grass_h[0] = 3.998E+4; @ki_bare_h[0] = 4.934E+4; @kr_h[0] = 2.661E-4;
-      @ki_shrub_h[1] = 6.247E+4; @ki_grass_h[1] = 4.439E+4; @ki_bare_h[1] = 6.247E+4; @kr_h[1] = 4.304E-4;
-      @ki_shrub_h[2] = 1.522E+5; @ki_grass_h[2] = 1.293E+5; @ki_bare_h[2] = 1.522E+5; @kr_h[2] = 1.037E-3;
-      @ki_shrub_h[3] = 2.312E+5; @ki_grass_h[3] = 5.326E+5; @ki_bare_h[3] = 5.326E+5; @kr_h[3] = 2.096E-3;
-      @ki_shrub_h[4] = 2.312E+5; @ki_grass_h[4] = 8.425E+5; @ki_bare_h[4] = 8.425E+5; @kr_h[4] = 3.326E-3;
-      @ks_shrub_u[0] = 32; @ks_grass_u[0] = 34; @ks_bare_u[0] = 22;
-      @ks_shrub_u[1] = 27; @ks_grass_u[1] = 30; @ks_bare_u[1] = 17;
-      @ks_shrub_u[2] = 22; @ks_grass_u[2] = 26; @ks_bare_u[2] = 13;
-      @ks_shrub_u[3] = 18; @ks_grass_u[3] = 20; @ks_bare_u[3] = 11;
-      @ks_shrub_u[4] = 13; @ks_grass_u[4] = 15; @ks_bare_u[4] =  9;
-      @ks_shrub_l[0] = 22; @ks_grass_l[0] = 26; @ks_bare_l[0] = 21;
-      @ks_shrub_l[1] = 18; @ks_grass_l[1] = 20; @ks_bare_l[1] = 16;
-      @ks_shrub_l[2] = 13; @ks_grass_l[2] = 15; @ks_bare_l[2] = 12;
-      @ks_shrub_l[3] = 11; @ks_grass_l[3] = 13; @ks_bare_l[3] = 10;
-      @ks_shrub_l[4] =  8; @ks_grass_l[4] = 10; @ks_bare_l[4] =  8;
-      @ks_shrub_h[0] = 16; @ks_grass_h[0] = 21; @ks_bare_h[0] = 21;
-      @ks_shrub_h[1] = 12; @ks_grass_h[1] = 16; @ks_bare_h[1] = 16;
-      @ks_shrub_h[2] =  9; @ks_grass_h[2] = 12; @ks_bare_h[2] = 12;
-      @ks_shrub_h[3] =  8; @ks_grass_h[3] = 10; @ks_bare_h[3] = 10;
-      @ks_shrub_h[4] =  6; @ks_grass_h[4] =  8; @ks_bare_h[4] =  8;
-    }
-    if ($SoilType eq 'clay') {
-      $solthk = 400;
-      $sand = 25;
-      $clay = 30;
-      $orgmat = 1;
-      $cec = 25;
-      $tauc_l=1.9;      $tauc_h=1.5;	$tauc_u = 1.9;
+        # return
+        #   $tauc_u
+        #   $tauc_l
+        #   $tauc_h
+        #   @ki_u[0..4]
+        #   @ki_l[0..4]
+        #   @ki_h[0..4]
+        #   @kr_u[0..4]
+        #   @kr_l[0..4]
+        #   @kr_h[0..4]
+        #   @ksat_u[0..4]
+        #   @ksat_l[0..4]
+        #   @ksat_h[0..4]
 
-      @ki_shrub_u[0] =  3167; @ki_grass_u[0] =  447; @ki_bare_u[0] =  9791; @kr_u[0] = 0.000009;
-      @ki_shrub_u[1] =  6334; @ki_grass_u[1] =  954; @ki_bare_u[1] = 19581; @kr_u[1] = 0.000019;
-      @ki_shrub_u[2] = 12667; @ki_grass_u[2] = 1908; @ki_bare_u[2] = 39163; @kr_u[2] = 0.000038;
-      @ki_shrub_u[3] = 15834; @ki_grass_u[3] = 2358; @ki_bare_u[3] = 48954; @kr_u[3] = 0.000047;
-      @ki_shrub_u[4] = 19001; @ki_grass_u[4] = 2862; @ki_bare_u[4] = 58744; @kr_u[4] = 0.000056;
-      @ki_shrub_l[0] = 1.267E+4; @ki_grass_l[0] = 1.908E+3; @ki_bare_l[0] = 3.916E+4; @kr_l[0] = 3.750E-5;
-      @ki_shrub_l[1] = 2.295E+4; @ki_grass_l[1] = 3.069E+3; @ki_bare_l[1] = 4.887E+4; @kr_l[1] = 7.500E-5;
-      @ki_shrub_l[2] = 6.223E+4; @ki_grass_l[2] = 6.814E+3; @ki_bare_l[2] = 1.162E+5; @kr_l[2] = 1.500E-4;
-      @ki_shrub_l[3] = 1.075E+5; @ki_grass_l[3] = 1.055E+4; @ki_bare_l[3] = 1.721E+5; @kr_l[3] = 3.000E-4;
-      @ki_shrub_l[4] = 1.721E+5; @ki_grass_l[4] = 1.537E+4; @ki_bare_l[4] = 1.721E+5; @kr_l[4] = 6.000E-4;
-      @ki_shrub_h[0] = 3.916E+4; @ki_grass_h[0] = 6.636E+3; @ki_bare_h[0] = 3.916E+4; @kr_h[0] = 2.963E-4;
-      @ki_shrub_h[1] = 4.887E+4; @ki_grass_h[1] = 6.636E+3; @ki_bare_h[1] = 4.887E+4; @kr_h[1] = 5.149E-4;
-      @ki_shrub_h[2] = 1.162E+5; @ki_grass_h[2] = 1.586E+4; @ki_bare_h[2] = 1.162E+5; @kr_h[2] = 8.948E-4;
-      @ki_shrub_h[3] = 1.721E+5; @ki_grass_h[3] = 5.886E+4; @ki_bare_h[3] = 1.721E+5; @kr_h[3] = 1.555E-3;
-      @ki_shrub_h[4] = 1.712E+5; @ki_grass_h[4] = 8.516E+4; @ki_bare_h[4] = 1.721E+5; @kr_h[4] = 2.702E-3;
-      @ks_shrub_u[0] = 30; @ks_grass_u[0] = 20; @ks_bare_u[0] = 11;
-      @ks_shrub_u[1] = 22; @ks_grass_u[1] = 16; @ks_bare_u[1] = 10;
-      @ks_shrub_u[2] = 15; @ks_grass_u[2] = 13; @ks_bare_u[2] =  8;
-      @ks_shrub_u[3] = 11; @ks_grass_u[3] = 10; @ks_bare_u[3] =  6;
-      @ks_shrub_u[4] =  7; @ks_grass_u[4] =  6; @ks_bare_u[4] =  5;
-      @ks_shrub_l[0] = 15; @ks_grass_l[0] = 13; @ks_bare_l[0] = 10;
-      @ks_shrub_l[1] = 13; @ks_grass_l[1] = 11; @ks_bare_l[1] =  9;
-      @ks_shrub_l[2] = 10; @ks_grass_l[2] =  9; @ks_bare_l[2] =  7;
-      @ks_shrub_l[3] =  8; @ks_grass_l[3] =  6; @ks_bare_l[3] =  5;
-      @ks_shrub_l[4] =  6; @ks_grass_l[4] =  5; @ks_bare_l[4] =  4;
-      @ks_shrub_h[0] = 11; @ks_grass_h[0] = 10; @ks_bare_h[0] = 10;
-      @ks_shrub_h[1] =  9; @ks_grass_h[1] =  9; @ks_bare_h[1] =  9;
-      @ks_shrub_h[2] =  7; @ks_grass_h[2] =  7; @ks_bare_h[2] =  7;
-      @ks_shrub_h[3] =  5; @ks_grass_h[3] =  5; @ks_bare_h[3] =  5;
-      @ks_shrub_h[4] =  5; @ks_grass_h[4] =  4; @ks_bare_h[4] =  4;
-    }
-    if ($SoilType eq 'loam') {
-      $solthk = 400;
-      $sand = 45;
-      $clay = 20;
-      $orgmat = 1;
-      $cec = 20;
-      $tauc_l=0.8;      $tauc_h=0.63;	$tauc_u=0.8;
+    }    # $vegtype eq 'forest'
+    else
+    { # $vegtype ne 'forest'...  # soil parameter values 25 April 2006 added 20 June 2006
+        if ( $SoilType eq 'sand' ) {
+            $solthk = 400;  # depth of soil surface to bottom of soil layer (mm)
+            $sand   = 55;   # percentage of sand in the layer (%)
+            $clay   = 10;   # percentage of clay in the layer (%)
+            $orgmat = 1
+              ; # percentage of organic matter (by volume) in the layer (%) # per CM 2006.06.05
+            $cec = 15
+              ;  # cation exchange capacity in the layer (meq per 100 g of soil)
+            $tauc_l = 2.75;
+            $tauc_h = 2.17;
+            $tauc_u = 1.14;    # DEH 2014.02.06
 
-      @ki_shrub_u[0] =  857; @ki_grass_u[0] =  650; @ki_bare_u[0] =  2649; @kr_u[0] = 0.000013;
-      @ki_shrub_u[1] = 1714; @ki_grass_u[1] = 1301; @ki_bare_u[1] =  5299; @kr_u[1] = 0.000026;
-      @ki_shrub_u[2] = 3428; @ki_grass_u[2] = 2601; @ki_bare_u[2] = 10597; @kr_u[2] = 0.000051;
-      @ki_shrub_u[3] = 4285; @ki_grass_u[3] = 3252; @ki_bare_u[3] = 13247; @kr_u[3] = 0.000064;
-      @ki_shrub_u[4] = 5142; @ki_grass_u[4] = 3902; @ki_bare_u[4] = 15896; @kr_u[4] = 0.000077;
-      @ki_shrub_l[0] = 3.428E+3; @ki_grass_l[0] = 2.601E+3; @ki_bare_l[0] = 1.060E+4; @kr_l[0] = 5.102E-5;
-      @ki_shrub_l[1] = 6.220E+3; @ki_grass_l[1] = 4.626E+3; @ki_bare_l[1] = 1.325E+4; @kr_l[1] = 1.157E-4;
-      @ki_shrub_l[2] = 3.700E+4; @ki_grass_l[2] = 2.590E+4; @ki_bare_l[2] = 6.909E+4; @kr_l[2] = 1.991E-4;
-      @ki_shrub_l[3] = 7.866E+4; @ki_grass_l[3] = 5.368E+4; @ki_bare_l[3] = 2.994E+5; @kr_l[3] = 3.037E-4;
-      @ki_shrub_l[4] = 9.286E+4; @ki_grass_l[4] = 6.302E+4; @ki_bare_l[4] = 3.491E+5; @kr_l[4] = 4.649E-4;
-      @ki_shrub_h[0] = 1.060E+4; @ki_grass_h[0] = 9.047E+3; @ki_bare_h[0] = 1.060E+4; @kr_h[0] = 3.788E-4;
-      @ki_shrub_h[1] = 1.325E+4; @ki_grass_h[1] = 9.922E+3; @ki_bare_h[1] = 1.325E+4; @kr_h[1] = 7.273E-4;
-      @ki_shrub_h[2] = 6.909E+4; @ki_grass_h[2] = 6.028E+4; @ki_bare_h[2] = 6.909E+4; @kr_h[2] = 1.122E-3;
-      @ki_shrub_h[3] = 9.286E+4; @ki_grass_h[3] = 2.994E+5; @ki_bare_h[3] = 2.994E+5; @kr_h[3] = 1.570E-3;
-      @ki_shrub_h[4] = 9.286E+4; @ki_grass_h[4] = 3.491E+5; @ki_bare_h[4] = 3.491E+5; @kr_h[4] = 2.205E-3;
-      @ks_shrub_u[0] = 26; @ks_grass_u[0] = 23; @ks_bare_u[0] = 13;
-      @ks_shrub_u[1] = 24; @ks_grass_u[1] = 19; @ks_bare_u[1] = 11;
-      @ks_shrub_u[2] = 22; @ks_grass_u[2] = 15; @ks_bare_u[2] =  7;
-      @ks_shrub_u[3] = 15; @ks_grass_u[3] = 10; @ks_bare_u[3] =  6;
-      @ks_shrub_u[4] =  9; @ks_grass_u[4] =  6; @ks_bare_u[4] =  5;
-      @ks_shrub_l[0] = 22; @ks_grass_l[0] = 15; @ks_bare_l[0] = 12;
-      @ks_shrub_l[1] = 18; @ks_grass_l[1] = 13; @ks_bare_l[1] = 10;
-      @ks_shrub_l[2] = 13; @ks_grass_l[2] =  6; @ks_bare_l[2] =  5;
-      @ks_shrub_l[3] = 11; @ks_grass_l[3] =  6; @ks_bare_l[3] =  5;
-      @ks_shrub_l[4] =  8; @ks_grass_l[4] =  5; @ks_bare_l[4] =  4;
-      @ks_shrub_h[0] = 16; @ks_grass_h[0] = 12; @ks_bare_h[0] = 12;
-      @ks_shrub_h[1] = 12; @ks_grass_h[1] = 10; @ks_bare_h[1] = 10;
-      @ks_shrub_h[2] =  9; @ks_grass_h[2] =  5; @ks_bare_h[2] =  5;
-      @ks_shrub_h[3] =  8; @ks_grass_h[3] =  5; @ks_bare_h[3] =  5;
-      @ks_shrub_h[4] =  6; @ks_grass_h[4] =  4; @ks_bare_h[4] =  4;
-    }  # #SoilType
-    # return
-    #   $tauc_u
-    #   $tauc_l
-    #   $tauc_h
-    #   @ki_u[0..4]
-    #   @ki_l[0..4]
-    #   @ki_h[0..4]
-    #   @kr_u[0..4]
-    #   @kr_l[0..4]
-    #   @kr_h[0..4]
-    #   @ksat_u[0..4]
-    #   @ksat_l[0..4]
-    #   @ksat_h[0..4]
+            @ki_shrub_u[0] = 18871;
+            @ki_grass_u[0] = 12541;
+            @ki_bare_u[0]  = 58343;
+            @kr_u[0]       = 0.0000022;    # DEH 2014.02.06
+            @ki_shrub_u[1] = 37742;
+            @ki_grass_u[1] = 25028;
+            @ki_bare_u[1]  = 116686;
+            @kr_u[1]       = 0.0000045;
+            @ki_shrub_u[2] = 75483;
+            @ki_grass_u[2] = 50165;
+            @ki_bare_u[2]  = 233373;
+            @kr_u[2]       = 0.000009;
+            @ki_shrub_u[3] = 94354;
+            @ki_grass_u[3] = 62706;
+            @ki_bare_u[3]  = 291716;
+            @kr_u[3]       = 0.000011;
+            @ki_shrub_u[4] = 1723789;
+            @ki_grass_u[4] = 85555;
+            @ki_bare_u[4]  = 788669;
+            @kr_u[4]       = 0.00259;
+            @ki_shrub_l[0] = 7.548E+4;
+            @ki_grass_l[0] = 5.016E+4;
+            @ki_bare_l[0]  = 2.334E+5;
+            @kr_l[0]       = 8.991E-6;
+            @ki_shrub_l[1] = 1.191E+5;
+            @ki_grass_l[1] = 1.174E+5;
+            @ki_bare_l[1]  = 2.536E+5;
+            @kr_l[1]       = 1.393E-5;
+            @ki_shrub_l[2] = 2.480E+5;
+            @ki_grass_l[2] = 2.372E+5;
+            @ki_bare_l[2]  = 5.520E+5;
+            @kr_l[2]       = 8.042E-5;
+            @ki_shrub_l[3] = 4.093E+5;
+            @ki_grass_l[3] = 3.921E+5;
+            @ki_bare_l[3]  = 2.187E+6;
+            @kr_l[3]       = 3.316E-4;
+            @ki_shrub_l[4] = 9.313E+5;
+            @ki_grass_l[4] = 6.513E+5;
+            @ki_bare_l[4]  = 3.608E+6;
+            @kr_l[4]       = 7.236E-4;
+            @ki_shrub_h[0] = 2.334E+5;
+            @ki_grass_h[0] = 1.745E+5;
+            @ki_bare_h[0]  = 2.334E+5;
+            @kr_h[0]       = 9.492E-5;
+            @ki_shrub_h[1] = 2.536E+5;
+            @ki_grass_h[1] = 2.518E+5;
+            @ki_bare_h[1]  = 2.536E+5;
+            @kr_h[1]       = 1.346E-4;
+            @ki_shrub_h[2] = 4.630E+5;
+            @ki_grass_h[2] = 5.520E+5;
+            @ki_bare_h[2]  = 5.520E+5;
+            @kr_h[2]       = 5.444E-4;
+            @ki_shrub_h[3] = 6.868E+5;
+            @ki_grass_h[3] = 2.187E+6;
+            @ki_bare_h[3]  = 2.187E+6;
+            @kr_h[3]       = 1.684E-3;
+            @ki_shrub_h[4] = 9.313E+5;
+            @ki_grass_h[4] = 3.608E+6;
+            @ki_bare_h[4]  = 3.608E+6;
+            @kr_h[4]       = 3.137E-3;
+            @ks_shrub_u[0] = 40;
+            @ks_grass_u[0] = 30;
+            @ks_bare_u[0]  = 26;
+            @ks_shrub_u[1] = 35;
+            @ks_grass_u[1] = 24;
+            @ks_bare_u[1]  = 15;
+            @ks_shrub_u[2] = 30;
+            @ks_grass_u[2] = 17;
+            @ks_bare_u[2]  = 14;
+            @ks_shrub_u[3] = 23;
+            @ks_grass_u[3] = 15;
+            @ks_bare_u[3]  = 10;
+            @ks_shrub_u[4] = 15;
+            @ks_grass_u[4] = 12;
+            @ks_bare_u[4]  = 7;
+            @ks_shrub_l[0] = 29;
+            @ks_grass_l[0] = 17;
+            @ks_bare_l[0]  = 14;
+            @ks_shrub_l[1] = 17;
+            @ks_grass_l[1] = 17;
+            @ks_bare_l[1]  = 14;
+            @ks_shrub_l[2] = 15;
+            @ks_grass_l[2] = 13;
+            @ks_bare_l[2]  = 11;
+            @ks_shrub_l[3] = 12;
+            @ks_grass_l[3] = 12;
+            @ks_bare_l[3]  = 10;
+            @ks_shrub_l[4] = 9;
+            @ks_grass_l[4] = 8;
+            @ks_bare_l[4]  = 7;
+            @ks_shrub_h[0] = 21;
+            @ks_grass_h[0] = 14;
+            @ks_bare_h[0]  = 14;
+            @ks_shrub_h[1] = 12;
+            @ks_grass_h[1] = 14;
+            @ks_bare_h[1]  = 14;
+            @ks_shrub_h[2] = 11;
+            @ks_grass_h[2] = 11;
+            @ks_bare_h[2]  = 11;
+            @ks_shrub_h[3] = 9;
+            @ks_grass_h[3] = 10;
+            @ks_bare_h[3]  = 10;
+            @ks_shrub_h[4] = 6;
+            @ks_grass_h[4] = 7;
+            @ks_bare_h[4]  = 7;
+        }
+        if ( $SoilType eq 'silt' ) {
+            $solthk        = 400;
+            $sand          = 25;
+            $clay          = 15;
+            $orgmat        = 1;
+            $cec           = 15;
+            $tauc_l        = 3.39;
+            $tauc_h        = 2.68;
+            $tauc_u        = 3.39;
+            @ki_shrub_u[0] = 3990;
+            @ki_grass_u[0] = 2874;
+            @ki_bare_u[0]  = 12335;
+            @kr_u[0]       = 0.000008;
+            @ki_shrub_u[1] = 7979;
+            @ki_grass_u[1] = 5748;
+            @ki_bare_u[1]  = 24670;
+            @kr_u[1]       = 0.000016;
+            @ki_shrub_u[2] = 15959;
+            @ki_grass_u[2] = 11496;
+            @ki_bare_u[2]  = 49340;
+            @kr_u[2]       = 0.000033;
+            @ki_shrub_u[3] = 19948;
+            @ki_grass_u[3] = 14370;
+            @ki_bare_u[3]  = 61675;
+            @kr_u[3]       = 0.000041;
+            @ki_shrub_u[4] = 23938;
+            @ki_grass_u[4] = 17244;
+            @ki_bare_u[4]  = 74010;
+            @kr_u[4]       = 0.000049;
+            @ki_shrub_l[0] = 1.596E+4;
+            @ki_grass_l[0] = 1.150E+4;
+            @ki_bare_l[0]  = 4.934E+4;
+            @kr_l[0]       = 3.276E-5;
+            @ki_shrub_l[1] = 2.933E+4;
+            @ki_grass_l[1] = 2.070E+4;
+            @ki_bare_l[1]  = 6.247E+4;
+            @kr_l[1]       = 5.989E-5;
+            @ki_shrub_l[2] = 8.151E+4;
+            @ki_grass_l[2] = 5.556E+4;
+            @ki_bare_l[2]  = 1.522E+5;
+            @kr_l[2]       = 1.804E-4;
+            @ki_shrub_l[3] = 1.428E+5;
+            @ki_grass_l[3] = 9.548E+4;
+            @ki_bare_l[3]  = 5.326E+5;
+            @kr_l[3]       = 4.363E-4;
+            @ki_shrub_l[4] = 2.312E+5;
+            @ki_grass_l[4] = 1.521E+5;
+            @ki_bare_l[4]  = 8.425E+5;
+            @kr_l[4]       = 7.787E-4;
+            @ki_shrub_h[0] = 4.934E+4;
+            @ki_grass_h[0] = 3.998E+4;
+            @ki_bare_h[0]  = 4.934E+4;
+            @kr_h[0]       = 2.661E-4;
+            @ki_shrub_h[1] = 6.247E+4;
+            @ki_grass_h[1] = 4.439E+4;
+            @ki_bare_h[1]  = 6.247E+4;
+            @kr_h[1]       = 4.304E-4;
+            @ki_shrub_h[2] = 1.522E+5;
+            @ki_grass_h[2] = 1.293E+5;
+            @ki_bare_h[2]  = 1.522E+5;
+            @kr_h[2]       = 1.037E-3;
+            @ki_shrub_h[3] = 2.312E+5;
+            @ki_grass_h[3] = 5.326E+5;
+            @ki_bare_h[3]  = 5.326E+5;
+            @kr_h[3]       = 2.096E-3;
+            @ki_shrub_h[4] = 2.312E+5;
+            @ki_grass_h[4] = 8.425E+5;
+            @ki_bare_h[4]  = 8.425E+5;
+            @kr_h[4]       = 3.326E-3;
+            @ks_shrub_u[0] = 32;
+            @ks_grass_u[0] = 34;
+            @ks_bare_u[0]  = 22;
+            @ks_shrub_u[1] = 27;
+            @ks_grass_u[1] = 30;
+            @ks_bare_u[1]  = 17;
+            @ks_shrub_u[2] = 22;
+            @ks_grass_u[2] = 26;
+            @ks_bare_u[2]  = 13;
+            @ks_shrub_u[3] = 18;
+            @ks_grass_u[3] = 20;
+            @ks_bare_u[3]  = 11;
+            @ks_shrub_u[4] = 13;
+            @ks_grass_u[4] = 15;
+            @ks_bare_u[4]  = 9;
+            @ks_shrub_l[0] = 22;
+            @ks_grass_l[0] = 26;
+            @ks_bare_l[0]  = 21;
+            @ks_shrub_l[1] = 18;
+            @ks_grass_l[1] = 20;
+            @ks_bare_l[1]  = 16;
+            @ks_shrub_l[2] = 13;
+            @ks_grass_l[2] = 15;
+            @ks_bare_l[2]  = 12;
+            @ks_shrub_l[3] = 11;
+            @ks_grass_l[3] = 13;
+            @ks_bare_l[3]  = 10;
+            @ks_shrub_l[4] = 8;
+            @ks_grass_l[4] = 10;
+            @ks_bare_l[4]  = 8;
+            @ks_shrub_h[0] = 16;
+            @ks_grass_h[0] = 21;
+            @ks_bare_h[0]  = 21;
+            @ks_shrub_h[1] = 12;
+            @ks_grass_h[1] = 16;
+            @ks_bare_h[1]  = 16;
+            @ks_shrub_h[2] = 9;
+            @ks_grass_h[2] = 12;
+            @ks_bare_h[2]  = 12;
+            @ks_shrub_h[3] = 8;
+            @ks_grass_h[3] = 10;
+            @ks_bare_h[3]  = 10;
+            @ks_shrub_h[4] = 6;
+            @ks_grass_h[4] = 8;
+            @ks_bare_h[4]  = 8;
+        }
+        if ( $SoilType eq 'clay' ) {
+            $solthk = 400;
+            $sand   = 25;
+            $clay   = 30;
+            $orgmat = 1;
+            $cec    = 25;
+            $tauc_l = 1.9;
+            $tauc_h = 1.5;
+            $tauc_u = 1.9;
 
-    $pshrub = $shrub / 100;
-    $pgrass = $grass / 100;
-    $pbare = $bare / 100;
+            @ki_shrub_u[0] = 3167;
+            @ki_grass_u[0] = 447;
+            @ki_bare_u[0]  = 9791;
+            @kr_u[0]       = 0.000009;
+            @ki_shrub_u[1] = 6334;
+            @ki_grass_u[1] = 954;
+            @ki_bare_u[1]  = 19581;
+            @kr_u[1]       = 0.000019;
+            @ki_shrub_u[2] = 12667;
+            @ki_grass_u[2] = 1908;
+            @ki_bare_u[2]  = 39163;
+            @kr_u[2]       = 0.000038;
+            @ki_shrub_u[3] = 15834;
+            @ki_grass_u[3] = 2358;
+            @ki_bare_u[3]  = 48954;
+            @kr_u[3]       = 0.000047;
+            @ki_shrub_u[4] = 19001;
+            @ki_grass_u[4] = 2862;
+            @ki_bare_u[4]  = 58744;
+            @kr_u[4]       = 0.000056;
+            @ki_shrub_l[0] = 1.267E+4;
+            @ki_grass_l[0] = 1.908E+3;
+            @ki_bare_l[0]  = 3.916E+4;
+            @kr_l[0]       = 3.750E-5;
+            @ki_shrub_l[1] = 2.295E+4;
+            @ki_grass_l[1] = 3.069E+3;
+            @ki_bare_l[1]  = 4.887E+4;
+            @kr_l[1]       = 7.500E-5;
+            @ki_shrub_l[2] = 6.223E+4;
+            @ki_grass_l[2] = 6.814E+3;
+            @ki_bare_l[2]  = 1.162E+5;
+            @kr_l[2]       = 1.500E-4;
+            @ki_shrub_l[3] = 1.075E+5;
+            @ki_grass_l[3] = 1.055E+4;
+            @ki_bare_l[3]  = 1.721E+5;
+            @kr_l[3]       = 3.000E-4;
+            @ki_shrub_l[4] = 1.721E+5;
+            @ki_grass_l[4] = 1.537E+4;
+            @ki_bare_l[4]  = 1.721E+5;
+            @kr_l[4]       = 6.000E-4;
+            @ki_shrub_h[0] = 3.916E+4;
+            @ki_grass_h[0] = 6.636E+3;
+            @ki_bare_h[0]  = 3.916E+4;
+            @kr_h[0]       = 2.963E-4;
+            @ki_shrub_h[1] = 4.887E+4;
+            @ki_grass_h[1] = 6.636E+3;
+            @ki_bare_h[1]  = 4.887E+4;
+            @kr_h[1]       = 5.149E-4;
+            @ki_shrub_h[2] = 1.162E+5;
+            @ki_grass_h[2] = 1.586E+4;
+            @ki_bare_h[2]  = 1.162E+5;
+            @kr_h[2]       = 8.948E-4;
+            @ki_shrub_h[3] = 1.721E+5;
+            @ki_grass_h[3] = 5.886E+4;
+            @ki_bare_h[3]  = 1.721E+5;
+            @kr_h[3]       = 1.555E-3;
+            @ki_shrub_h[4] = 1.712E+5;
+            @ki_grass_h[4] = 8.516E+4;
+            @ki_bare_h[4]  = 1.721E+5;
+            @kr_h[4]       = 2.702E-3;
+            @ks_shrub_u[0] = 30;
+            @ks_grass_u[0] = 20;
+            @ks_bare_u[0]  = 11;
+            @ks_shrub_u[1] = 22;
+            @ks_grass_u[1] = 16;
+            @ks_bare_u[1]  = 10;
+            @ks_shrub_u[2] = 15;
+            @ks_grass_u[2] = 13;
+            @ks_bare_u[2]  = 8;
+            @ks_shrub_u[3] = 11;
+            @ks_grass_u[3] = 10;
+            @ks_bare_u[3]  = 6;
+            @ks_shrub_u[4] = 7;
+            @ks_grass_u[4] = 6;
+            @ks_bare_u[4]  = 5;
+            @ks_shrub_l[0] = 15;
+            @ks_grass_l[0] = 13;
+            @ks_bare_l[0]  = 10;
+            @ks_shrub_l[1] = 13;
+            @ks_grass_l[1] = 11;
+            @ks_bare_l[1]  = 9;
+            @ks_shrub_l[2] = 10;
+            @ks_grass_l[2] = 9;
+            @ks_bare_l[2]  = 7;
+            @ks_shrub_l[3] = 8;
+            @ks_grass_l[3] = 6;
+            @ks_bare_l[3]  = 5;
+            @ks_shrub_l[4] = 6;
+            @ks_grass_l[4] = 5;
+            @ks_bare_l[4]  = 4;
+            @ks_shrub_h[0] = 11;
+            @ks_grass_h[0] = 10;
+            @ks_bare_h[0]  = 10;
+            @ks_shrub_h[1] = 9;
+            @ks_grass_h[1] = 9;
+            @ks_bare_h[1]  = 9;
+            @ks_shrub_h[2] = 7;
+            @ks_grass_h[2] = 7;
+            @ks_bare_h[2]  = 7;
+            @ks_shrub_h[3] = 5;
+            @ks_grass_h[3] = 5;
+            @ks_bare_h[3]  = 5;
+            @ks_shrub_h[4] = 5;
+            @ks_grass_h[4] = 4;
+            @ks_bare_h[4]  = 4;
+        }
+        if ( $SoilType eq 'loam' ) {
+            $solthk = 400;
+            $sand   = 45;
+            $clay   = 20;
+            $orgmat = 1;
+            $cec    = 20;
+            $tauc_l = 0.8;
+            $tauc_h = 0.63;
+            $tauc_u = 0.8;
 
-    for ($i=0; $i<5; $i++) {
-      @ki_u[$i]   = $pshrub * @ki_shrub_u[$i] + $pgrass * @ki_grass_u[$i] + $pbare * @ki_bare_u[$i];
-      @ki_l[$i]   = $pshrub * @ki_shrub_l[$i] + $pgrass * @ki_grass_l[$i] + $pbare * @ki_bare_l[$i];
-      @ki_h[$i]   = $pshrub * @ki_shrub_h[$i] + $pgrass * @ki_grass_h[$i] + $pbare * @ki_bare_h[$i];
-      @ksat_u[$i] = $pshrub * @ks_shrub_u[$i] + $pgrass * @ks_grass_u[$i] + $pbare * @ks_bare_u[$i];
-      @ksat_l[$i] = $pshrub * @ks_shrub_l[$i] + $pgrass * @ks_grass_l[$i] + $pbare * @ks_bare_l[$i];
-      @ksat_h[$i] = $pshrub * @ks_shrub_h[$i] + $pgrass * @ks_grass_h[$i] + $pbare * @ks_bare_h[$i];
-    }
-  }     # $vegtype
+            @ki_shrub_u[0] = 857;
+            @ki_grass_u[0] = 650;
+            @ki_bare_u[0]  = 2649;
+            @kr_u[0]       = 0.000013;
+            @ki_shrub_u[1] = 1714;
+            @ki_grass_u[1] = 1301;
+            @ki_bare_u[1]  = 5299;
+            @kr_u[1]       = 0.000026;
+            @ki_shrub_u[2] = 3428;
+            @ki_grass_u[2] = 2601;
+            @ki_bare_u[2]  = 10597;
+            @kr_u[2]       = 0.000051;
+            @ki_shrub_u[3] = 4285;
+            @ki_grass_u[3] = 3252;
+            @ki_bare_u[3]  = 13247;
+            @kr_u[3]       = 0.000064;
+            @ki_shrub_u[4] = 5142;
+            @ki_grass_u[4] = 3902;
+            @ki_bare_u[4]  = 15896;
+            @kr_u[4]       = 0.000077;
+            @ki_shrub_l[0] = 3.428E+3;
+            @ki_grass_l[0] = 2.601E+3;
+            @ki_bare_l[0]  = 1.060E+4;
+            @kr_l[0]       = 5.102E-5;
+            @ki_shrub_l[1] = 6.220E+3;
+            @ki_grass_l[1] = 4.626E+3;
+            @ki_bare_l[1]  = 1.325E+4;
+            @kr_l[1]       = 1.157E-4;
+            @ki_shrub_l[2] = 3.700E+4;
+            @ki_grass_l[2] = 2.590E+4;
+            @ki_bare_l[2]  = 6.909E+4;
+            @kr_l[2]       = 1.991E-4;
+            @ki_shrub_l[3] = 7.866E+4;
+            @ki_grass_l[3] = 5.368E+4;
+            @ki_bare_l[3]  = 2.994E+5;
+            @kr_l[3]       = 3.037E-4;
+            @ki_shrub_l[4] = 9.286E+4;
+            @ki_grass_l[4] = 6.302E+4;
+            @ki_bare_l[4]  = 3.491E+5;
+            @kr_l[4]       = 4.649E-4;
+            @ki_shrub_h[0] = 1.060E+4;
+            @ki_grass_h[0] = 9.047E+3;
+            @ki_bare_h[0]  = 1.060E+4;
+            @kr_h[0]       = 3.788E-4;
+            @ki_shrub_h[1] = 1.325E+4;
+            @ki_grass_h[1] = 9.922E+3;
+            @ki_bare_h[1]  = 1.325E+4;
+            @kr_h[1]       = 7.273E-4;
+            @ki_shrub_h[2] = 6.909E+4;
+            @ki_grass_h[2] = 6.028E+4;
+            @ki_bare_h[2]  = 6.909E+4;
+            @kr_h[2]       = 1.122E-3;
+            @ki_shrub_h[3] = 9.286E+4;
+            @ki_grass_h[3] = 2.994E+5;
+            @ki_bare_h[3]  = 2.994E+5;
+            @kr_h[3]       = 1.570E-3;
+            @ki_shrub_h[4] = 9.286E+4;
+            @ki_grass_h[4] = 3.491E+5;
+            @ki_bare_h[4]  = 3.491E+5;
+            @kr_h[4]       = 2.205E-3;
+            @ks_shrub_u[0] = 26;
+            @ks_grass_u[0] = 23;
+            @ks_bare_u[0]  = 13;
+            @ks_shrub_u[1] = 24;
+            @ks_grass_u[1] = 19;
+            @ks_bare_u[1]  = 11;
+            @ks_shrub_u[2] = 22;
+            @ks_grass_u[2] = 15;
+            @ks_bare_u[2]  = 7;
+            @ks_shrub_u[3] = 15;
+            @ks_grass_u[3] = 10;
+            @ks_bare_u[3]  = 6;
+            @ks_shrub_u[4] = 9;
+            @ks_grass_u[4] = 6;
+            @ks_bare_u[4]  = 5;
+            @ks_shrub_l[0] = 22;
+            @ks_grass_l[0] = 15;
+            @ks_bare_l[0]  = 12;
+            @ks_shrub_l[1] = 18;
+            @ks_grass_l[1] = 13;
+            @ks_bare_l[1]  = 10;
+            @ks_shrub_l[2] = 13;
+            @ks_grass_l[2] = 6;
+            @ks_bare_l[2]  = 5;
+            @ks_shrub_l[3] = 11;
+            @ks_grass_l[3] = 6;
+            @ks_bare_l[3]  = 5;
+            @ks_shrub_l[4] = 8;
+            @ks_grass_l[4] = 5;
+            @ks_bare_l[4]  = 4;
+            @ks_shrub_h[0] = 16;
+            @ks_grass_h[0] = 12;
+            @ks_bare_h[0]  = 12;
+            @ks_shrub_h[1] = 12;
+            @ks_grass_h[1] = 10;
+            @ks_bare_h[1]  = 10;
+            @ks_shrub_h[2] = 9;
+            @ks_grass_h[2] = 5;
+            @ks_bare_h[2]  = 5;
+            @ks_shrub_h[3] = 8;
+            @ks_grass_h[3] = 5;
+            @ks_bare_h[3]  = 5;
+            @ks_shrub_h[4] = 6;
+            @ks_grass_h[4] = 4;
+            @ks_bare_h[4]  = 4;
+        }    # #SoilType
+             # return
+             #   $tauc_u
+             #   $tauc_l
+             #   $tauc_h
+             #   @ki_u[0..4]
+             #   @ki_l[0..4]
+             #   @ki_h[0..4]
+             #   @kr_u[0..4]
+             #   @kr_l[0..4]
+             #   @kr_h[0..4]
+             #   @ksat_u[0..4]
+             #   @ksat_l[0..4]
+             #   @ksat_h[0..4]
+
+        $pshrub = $shrub / 100;
+        $pgrass = $grass / 100;
+        $pbare  = $bare / 100;
+
+        for ( $i = 0 ; $i < 5 ; $i++ ) {
+            @ki_u[$i] =
+              $pshrub * @ki_shrub_u[$i] +
+              $pgrass * @ki_grass_u[$i] +
+              $pbare * @ki_bare_u[$i];
+            @ki_l[$i] =
+              $pshrub * @ki_shrub_l[$i] +
+              $pgrass * @ki_grass_l[$i] +
+              $pbare * @ki_bare_l[$i];
+            @ki_h[$i] =
+              $pshrub * @ki_shrub_h[$i] +
+              $pgrass * @ki_grass_h[$i] +
+              $pbare * @ki_bare_h[$i];
+            @ksat_u[$i] =
+              $pshrub * @ks_shrub_u[$i] +
+              $pgrass * @ks_grass_u[$i] +
+              $pbare * @ks_bare_u[$i];
+            @ksat_l[$i] =
+              $pshrub * @ks_shrub_l[$i] +
+              $pgrass * @ks_grass_l[$i] +
+              $pbare * @ks_bare_l[$i];
+            @ksat_h[$i] =
+              $pshrub * @ks_shrub_h[$i] +
+              $pgrass * @ks_grass_h[$i] +
+              $pbare * @ks_bare_h[$i];
+        }
+    }    # $vegtype
 }
 
 sub soil_parameters_2013 {
@@ -4887,304 +5787,650 @@ sub soil_parameters_2013 {
 # 2013.04.19 added 'unburned' condition
 # 2006.06.20 adjusted range values to match 'Working Range Soil Tables(Simanton_krs).xlstable' (4/25/2006)
 
- # $vegtype ['forest' 'range' 'chaparral']
- # $SoilType ['sand' 'silt' 'clay' 'loam']
- # $shrub
- # $grass
- # $bare
+    # $vegtype ['forest' 'range' 'chaparral']
+    # $SoilType ['sand' 'silt' 'clay' 'loam']
+    # $shrub
+    # $grass
+    # $bare
 
- # @ki_u[0..4]		# unburned baseline interrill erodibility (ki) (kg s/m^4)			# 2013.04.19
- # @ki_l[0..4]          # low soil burn severity baseline interrill erodibility (ki) (kg s/m^4)
- # @ki_h[0..4]          # high soil burn severity baseline interrill erodibility (ki) (kg s/m^4)
- # @kr_u[0..4]          # unburned baseline rill erodibility (kr) (s/m)					# 2013.04.19
- # @kr_l[0..4]          # low soil burn severity baseline rill erodibility (kr) (s/m)
- # @kr_h[0..4]          # high soil burn severity baseline rill erodibility (kr) (s/m)
- # $tauc_u              # unburned baseline critical shear (shcrit) (N/m^2)				# 2013.04.19
- # $tauc_l              # low soil burn severity baseline critical shear (shcrit) (N/m^2)
- # $tauc_h              # high soil burn severity baseline critical shear (shcrit) (N/m^2)
- # @ksat_u[0..4]        # unburned effective hydraulic conductivity of surface soil (avke) (mm/h)	# 2013.04.19
- # @ksat_l[0..4]        # low severity effective hydraulic conductivity of surface soil (avke) (mm/h)
- # @ksat_h[0..4]        # high severity effective hydraulic conductivity of surface soil (avke) (mm/h)
+# @ki_u[0..4]		# unburned baseline interrill erodibility (ki) (kg s/m^4)			# 2013.04.19
+# @ki_l[0..4]          # low soil burn severity baseline interrill erodibility (ki) (kg s/m^4)
+# @ki_h[0..4]          # high soil burn severity baseline interrill erodibility (ki) (kg s/m^4)
+# @kr_u[0..4]          # unburned baseline rill erodibility (kr) (s/m)					# 2013.04.19
+# @kr_l[0..4]          # low soil burn severity baseline rill erodibility (kr) (s/m)
+# @kr_h[0..4]          # high soil burn severity baseline rill erodibility (kr) (s/m)
+# $tauc_u              # unburned baseline critical shear (shcrit) (N/m^2)				# 2013.04.19
+# $tauc_l              # low soil burn severity baseline critical shear (shcrit) (N/m^2)
+# $tauc_h              # high soil burn severity baseline critical shear (shcrit) (N/m^2)
+# @ksat_u[0..4]        # unburned effective hydraulic conductivity of surface soil (avke) (mm/h)	# 2013.04.19
+# @ksat_l[0..4]        # low severity effective hydraulic conductivity of surface soil (avke) (mm/h)
+# @ksat_h[0..4]        # high severity effective hydraulic conductivity of surface soil (avke) (mm/h)
 
-  if ($vegtype eq 'forest') {
-    if ($SoilType eq 'sand') {
-      $solthk = 400;      # depth of soil surface to bottom of soil layer (mm)
-      $sand = 55;         # percentage of sand in the layer (%)
-      $clay = 10;         # percentage of clay in the layer (%)
-      $orgmat = 5;        # percentage of organic matter (by volume) in the layer (%)
-      $cec = 15;          # cation exchange capacity in the layer (meq per 100 g of soil)
-      $tauc_u=2;	# 2013.05.03
-      $tauc_l=2;
-      $tauc_h=2;
-      @ki_u[0] =   84182; @kr_u[0] = 0.0000015; @ksat_u[0] = 32;	# 2013.04.19 DEH
-      @ki_u[1] =  118706; @kr_u[1] = 0.0000018; @ksat_u[1] = 28;	# 2013.04.19 DEH
-      @ki_u[2] =  189119; @kr_u[2] = 0.0000020; @ksat_u[2] = 24;	# 2013.04.19 DEH
-      @ki_u[3] =  411928; @kr_u[3] = 0.0000021; @ksat_u[3] = 19;	# 2013.04.19 DEH
-      @ki_u[4] =  873292; @kr_u[4] = 0.0000023; @ksat_u[4] = 15;	# 2013.04.19 DEH
-      @ki_l[0] =  300000; @kr_l[0] = 0.0000030; @ksat_l[0] = 48;	# 2005.10.12 DEH
-      @ki_l[1] =  500000; @kr_l[1] = 0.00034;   @ksat_l[1] = 46;
-      @ki_l[2] =  700000; @kr_l[2] = 0.00037;   @ksat_l[2] = 44;
-      @ki_l[3] = 1000000; @kr_l[3] = 0.00040;   @ksat_l[3] = 24;
-      @ki_l[4] = 1200000; @kr_l[4] = 0.00045;   @ksat_l[4] = 14;
-      @ki_h[0] = 1000000; @kr_h[0] = 0.00040;   @ksat_h[0] = 22;
-      @ki_h[1] = 1500000; @kr_h[1] = 0.00050;   @ksat_h[1] = 13;
-      @ki_h[2] = 2000000; @kr_h[2] = 0.00060;   @ksat_h[2] =  7;
-      @ki_h[3] = 2500000; @kr_h[3] = 0.00070;   @ksat_h[3] =  6;
-      @ki_h[4] = 3000000; @kr_h[4] = 0.00100;   @ksat_h[4] =  5;
-    }
-    if ($SoilType eq 'silt') {
-      $solthk = 400;
-      $sand = 25;
-      $clay = 15;
-      $orgmat = 5;
-      $cec = 15;
-      $tauc_u=3.5;
-      $tauc_l=3.5;
-      $tauc_h=3.5;
-      @ki_u[0] =   48826; @kr_u[0] = 0.0000011; @ksat_u[0] = 17;        # 2013.04.19 DEH
-      @ki_u[1] =   68850; @kr_u[1] = 0.0000013; @ksat_u[1] =  9;        # 2013.04.19 DEH
-      @ki_u[2] =  109689; @kr_u[2] = 0.0000015; @ksat_u[2] =  8;        # 2013.04.19 DEH
-      @ki_u[3] =  238918; @kr_u[3] = 0.0000015; @ksat_u[3] =  7;        # 2013.04.19 DEH
-      @ki_u[4] =  506510; @kr_u[4] = 0.0000017; @ksat_u[4] =  3;        # 2013.04.19 DEH
- #    @ki_l[0] =  300000; @kr_l[0] = 0.0000030; @ksat_l[0] = 48;        # 2005.10.12 DEH
-      @ki_l[0] =  250000; @kr_l[0] = 0.0000020; @ksat_l[0] = 33;      # 2005.10.12 DEH
-      @ki_l[1] =  300000; @kr_l[1] = 0.00024; @ksat_l[1] = 31;
-      @ki_l[2] =  400000; @kr_l[2] = 0.00027; @ksat_l[2] = 29;
-      @ki_l[3] =  500000; @kr_l[3] = 0.00030; @ksat_l[3] = 19;
-      @ki_l[4] =  600000; @kr_l[4] = 0.00035; @ksat_l[4] =  9;
-      @ki_h[0] =  500000; @kr_h[0] = 0.00030; @ksat_h[0] = 18;
-      @ki_h[1] = 1000000; @kr_h[1] = 0.00040; @ksat_h[1] = 10;
-      @ki_h[2] = 1500000; @kr_h[2] = 0.00050; @ksat_h[2] =  6;
-      @ki_h[3] = 2000000; @kr_h[3] = 0.00060; @ksat_h[3] =  4;
-      @ki_h[4] = 2500000; @kr_h[4] = 0.00090; @ksat_h[4] =  3;
-    }
-    if ($SoilType eq 'clay') {
-      $solthk = 400;
-      $sand = 25;
-      $clay = 30;
-      $orgmat = 5;
-      $cec = 25;
-      $tauc_u = 4;
-      $tauc_l = 4;
-      $tauc_h = 4;
-      @ki_u[0] =   56402; @kr_u[0] = 0.0000024; @ksat_u[0] = 15;        # 2013.04.19 DEH
-      @ki_u[1] =   79533; @kr_u[1] = 0.0000028; @ksat_u[1] = 13;        # 2013.04.19 DEH
-      @ki_u[2] =  126710; @kr_u[2] = 0.0000032; @ksat_u[2] = 11;        # 2013.04.19 DEH
-      @ki_u[3] =  275992; @kr_u[3] = 0.0000033; @ksat_u[3] =  8;        # 2013.04.19 DEH
-      @ki_u[4] =  585106; @kr_u[4] = 0.0000036; @ksat_u[4] =  7;        # 2013.04.19 DEH
+    if ( $vegtype eq 'forest' ) {
+        if ( $SoilType eq 'sand' ) {
+            $solthk = 400;  # depth of soil surface to bottom of soil layer (mm)
+            $sand   = 55;   # percentage of sand in the layer (%)
+            $clay   = 10;   # percentage of clay in the layer (%)
+            $orgmat =
+              5;    # percentage of organic matter (by volume) in the layer (%)
+            $cec = 15
+              ;  # cation exchange capacity in the layer (meq per 100 g of soil)
+            $tauc_u    = 2;           # 2013.05.03
+            $tauc_l    = 2;
+            $tauc_h    = 2;
+            @ki_u[0]   = 84182;
+            @kr_u[0]   = 0.0000015;
+            @ksat_u[0] = 32;          # 2013.04.19 DEH
+            @ki_u[1]   = 118706;
+            @kr_u[1]   = 0.0000018;
+            @ksat_u[1] = 28;          # 2013.04.19 DEH
+            @ki_u[2]   = 189119;
+            @kr_u[2]   = 0.0000020;
+            @ksat_u[2] = 24;          # 2013.04.19 DEH
+            @ki_u[3]   = 411928;
+            @kr_u[3]   = 0.0000021;
+            @ksat_u[3] = 19;          # 2013.04.19 DEH
+            @ki_u[4]   = 873292;
+            @kr_u[4]   = 0.0000023;
+            @ksat_u[4] = 15;          # 2013.04.19 DEH
+            @ki_l[0]   = 300000;
+            @kr_l[0]   = 0.0000030;
+            @ksat_l[0] = 48;          # 2005.10.12 DEH
+            @ki_l[1]   = 500000;
+            @kr_l[1]   = 0.00034;
+            @ksat_l[1] = 46;
+            @ki_l[2]   = 700000;
+            @kr_l[2]   = 0.00037;
+            @ksat_l[2] = 44;
+            @ki_l[3]   = 1000000;
+            @kr_l[3]   = 0.00040;
+            @ksat_l[3] = 24;
+            @ki_l[4]   = 1200000;
+            @kr_l[4]   = 0.00045;
+            @ksat_l[4] = 14;
+            @ki_h[0]   = 1000000;
+            @kr_h[0]   = 0.00040;
+            @ksat_h[0] = 22;
+            @ki_h[1]   = 1500000;
+            @kr_h[1]   = 0.00050;
+            @ksat_h[1] = 13;
+            @ki_h[2]   = 2000000;
+            @kr_h[2]   = 0.00060;
+            @ksat_h[2] = 7;
+            @ki_h[3]   = 2500000;
+            @kr_h[3]   = 0.00070;
+            @ksat_h[3] = 6;
+            @ki_h[4]   = 3000000;
+            @kr_h[4]   = 0.00100;
+            @ksat_h[4] = 5;
+        }
+        if ( $SoilType eq 'silt' ) {
+            $solthk    = 400;
+            $sand      = 25;
+            $clay      = 15;
+            $orgmat    = 5;
+            $cec       = 15;
+            $tauc_u    = 3.5;
+            $tauc_l    = 3.5;
+            $tauc_h    = 3.5;
+            @ki_u[0]   = 48826;
+            @kr_u[0]   = 0.0000011;
+            @ksat_u[0] = 17;          # 2013.04.19 DEH
+            @ki_u[1]   = 68850;
+            @kr_u[1]   = 0.0000013;
+            @ksat_u[1] = 9;           # 2013.04.19 DEH
+            @ki_u[2]   = 109689;
+            @kr_u[2]   = 0.0000015;
+            @ksat_u[2] = 8;           # 2013.04.19 DEH
+            @ki_u[3]   = 238918;
+            @kr_u[3]   = 0.0000015;
+            @ksat_u[3] = 7;           # 2013.04.19 DEH
+            @ki_u[4]   = 506510;
+            @kr_u[4]   = 0.0000017;
+            @ksat_u[4] = 3;           # 2013.04.19 DEH
+             #    @ki_l[0] =  300000; @kr_l[0] = 0.0000030; @ksat_l[0] = 48;        # 2005.10.12 DEH
+            @ki_l[0]   = 250000;
+            @kr_l[0]   = 0.0000020;
+            @ksat_l[0] = 33;          # 2005.10.12 DEH
+            @ki_l[1]   = 300000;
+            @kr_l[1]   = 0.00024;
+            @ksat_l[1] = 31;
+            @ki_l[2]   = 400000;
+            @kr_l[2]   = 0.00027;
+            @ksat_l[2] = 29;
+            @ki_l[3]   = 500000;
+            @kr_l[3]   = 0.00030;
+            @ksat_l[3] = 19;
+            @ki_l[4]   = 600000;
+            @kr_l[4]   = 0.00035;
+            @ksat_l[4] = 9;
+            @ki_h[0]   = 500000;
+            @kr_h[0]   = 0.00030;
+            @ksat_h[0] = 18;
+            @ki_h[1]   = 1000000;
+            @kr_h[1]   = 0.00040;
+            @ksat_h[1] = 10;
+            @ki_h[2]   = 1500000;
+            @kr_h[2]   = 0.00050;
+            @ksat_h[2] = 6;
+            @ki_h[3]   = 2000000;
+            @kr_h[3]   = 0.00060;
+            @ksat_h[3] = 4;
+            @ki_h[4]   = 2500000;
+            @kr_h[4]   = 0.00090;
+            @ksat_h[4] = 3;
+        }
+        if ( $SoilType eq 'clay' ) {
+            $solthk    = 400;
+            $sand      = 25;
+            $clay      = 30;
+            $orgmat    = 5;
+            $cec       = 25;
+            $tauc_u    = 4;
+            $tauc_l    = 4;
+            $tauc_h    = 4;
+            @ki_u[0]   = 56402;
+            @kr_u[0]   = 0.0000024;
+            @ksat_u[0] = 15;          # 2013.04.19 DEH
+            @ki_u[1]   = 79533;
+            @kr_u[1]   = 0.0000028;
+            @ksat_u[1] = 13;          # 2013.04.19 DEH
+            @ki_u[2]   = 126710;
+            @kr_u[2]   = 0.0000032;
+            @ksat_u[2] = 11;          # 2013.04.19 DEH
+            @ki_u[3]   = 275992;
+            @kr_u[3]   = 0.0000033;
+            @ksat_u[3] = 8;           # 2013.04.19 DEH
+            @ki_u[4]   = 585106;
+            @kr_u[4]   = 0.0000036;
+            @ksat_u[4] = 7;           # 2013.04.19 DEH
+
 #     @ki_l[0] =  300000; @kr_l[0] = 0.0000030; @ksat_l[0] = 48;        # 2005.10.12 DEH
-      @ki_l[0] =  200000; @kr_l[0] = 0.0000010; @ksat_l[0] = 25;      # 2005.10.12 DEH
-      @ki_l[1] =  250000; @kr_l[1] = 0.00014; @ksat_l[1] = 24;
-      @ki_l[2] =  300000; @kr_l[2] = 0.00017; @ksat_l[2] = 23;
-      @ki_l[3] =  400000; @kr_l[3] = 0.00020; @ksat_l[3] = 14;
-      @ki_l[4] =  500000; @kr_l[4] = 0.00025; @ksat_l[4] =  8;
-      @ki_h[0] =  400000; @kr_h[0] = 0.00020; @ksat_h[0] = 13;
-      @ki_h[1] =  700000; @kr_h[1] = 0.00030; @ksat_h[1] =  7;
-      @ki_h[2] = 1000000; @kr_h[2] = 0.00040; @ksat_h[2] =  4;
-      @ki_h[3] = 1500000; @kr_h[3] = 0.00050; @ksat_h[3] =  3;
-      @ki_h[4] = 2000000; @kr_h[4] = 0.00080; @ksat_h[4] =  2;
-    }
-    if ($SoilType eq 'loam') {
-      $solthk = 400;
-      $sand = 45;
-      $clay = 20;
-      $orgmat = 5;
-      $cec = 20;
-      $tauc_u = 3;
-      $tauc_l = 3;
-      $tauc_h = 3;
-      @ki_u[0] =   72396; @kr_u[0] = 0.0000018; @ksat_u[0] = 30;        # 2013.04.19 DEH
-      @ki_u[1] =  102087; @kr_u[1] = 0.0000022; @ksat_u[1] = 25;        # 2013.04.19 DEH
-      @ki_u[2] =  162643; @kr_u[2] = 0.0000025; @ksat_u[2] = 20;        # 2013.04.19 DEH
-      @ki_u[3] =  354258; @kr_u[3] = 0.0000026; @ksat_u[3] = 12;        # 2013.04.19 DEH
-      @ki_u[4] =  751032; @kr_u[4] = 0.0000028; @ksat_u[4] =  5;        # 2013.04.19 DEH
+            @ki_l[0]   = 200000;
+            @kr_l[0]   = 0.0000010;
+            @ksat_l[0] = 25;          # 2005.10.12 DEH
+            @ki_l[1]   = 250000;
+            @kr_l[1]   = 0.00014;
+            @ksat_l[1] = 24;
+            @ki_l[2]   = 300000;
+            @kr_l[2]   = 0.00017;
+            @ksat_l[2] = 23;
+            @ki_l[3]   = 400000;
+            @kr_l[3]   = 0.00020;
+            @ksat_l[3] = 14;
+            @ki_l[4]   = 500000;
+            @kr_l[4]   = 0.00025;
+            @ksat_l[4] = 8;
+            @ki_h[0]   = 400000;
+            @kr_h[0]   = 0.00020;
+            @ksat_h[0] = 13;
+            @ki_h[1]   = 700000;
+            @kr_h[1]   = 0.00030;
+            @ksat_h[1] = 7;
+            @ki_h[2]   = 1000000;
+            @kr_h[2]   = 0.00040;
+            @ksat_h[2] = 4;
+            @ki_h[3]   = 1500000;
+            @kr_h[3]   = 0.00050;
+            @ksat_h[3] = 3;
+            @ki_h[4]   = 2000000;
+            @kr_h[4]   = 0.00080;
+            @ksat_h[4] = 2;
+        }
+        if ( $SoilType eq 'loam' ) {
+            $solthk    = 400;
+            $sand      = 45;
+            $clay      = 20;
+            $orgmat    = 5;
+            $cec       = 20;
+            $tauc_u    = 3;
+            $tauc_l    = 3;
+            $tauc_h    = 3;
+            @ki_u[0]   = 72396;
+            @kr_u[0]   = 0.0000018;
+            @ksat_u[0] = 30;          # 2013.04.19 DEH
+            @ki_u[1]   = 102087;
+            @kr_u[1]   = 0.0000022;
+            @ksat_u[1] = 25;          # 2013.04.19 DEH
+            @ki_u[2]   = 162643;
+            @kr_u[2]   = 0.0000025;
+            @ksat_u[2] = 20;          # 2013.04.19 DEH
+            @ki_u[3]   = 354258;
+            @kr_u[3]   = 0.0000026;
+            @ksat_u[3] = 12;          # 2013.04.19 DEH
+            @ki_u[4]   = 751032;
+            @kr_u[4]   = 0.0000028;
+            @ksat_u[4] = 5;           # 2013.04.19 DEH
+
 #     @ki_l[0] =  300000; @kr_l[0] = 0.0000030; @ksat_l[0] = 48;        # 2005.10.12 DEH
-      @ki_l[0] =  320000; @kr_l[0] = 0.0000015; @ksat_l[0] = 40;      # 2005.10.12 DEH
-      @ki_l[1] =  370000; @kr_l[1] = 0.00019; @ksat_l[1] = 38;
-      @ki_l[2] =  470000; @kr_l[2] = 0.00022; @ksat_l[2] = 36;
-      @ki_l[3] =  600000; @kr_l[3] = 0.00025; @ksat_l[3] = 28;
-      @ki_l[4] =  800000; @kr_l[4] = 0.00030; @ksat_l[4] = 18;
-      @ki_h[0] =  600000; @kr_h[0] = 0.00025; @ksat_h[0] = 27;
-      @ki_h[1] =  800000; @kr_h[1] = 0.00035; @ksat_h[1] = 15;
-      @ki_h[2] = 1200000; @kr_h[2] = 0.00055; @ksat_h[2] =  8;
-      @ki_h[3] = 2200000; @kr_h[3] = 0.00065; @ksat_h[3] =  5;
-      @ki_h[4] = 3200000; @kr_h[4] = 0.00085; @ksat_h[4] =  4;
-    }
-    # return
-    #   $tauc_u
-    #   $tauc_l
-    #   $tauc_h
-    #   @ki_u[0..4]
-    #   @ki_l[0..4]
-    #   @ki_h[0..4]
-    #   @kr_u[0..4]
-    #   @kr_l[0..4]
-    #   @kr_h[0..4]
-    #   @ksat_u[0..4]
-    #   @ksat_l[0..4]
-    #   @ksat_h[0..4]
+            @ki_l[0]   = 320000;
+            @kr_l[0]   = 0.0000015;
+            @ksat_l[0] = 40;          # 2005.10.12 DEH
+            @ki_l[1]   = 370000;
+            @kr_l[1]   = 0.00019;
+            @ksat_l[1] = 38;
+            @ki_l[2]   = 470000;
+            @kr_l[2]   = 0.00022;
+            @ksat_l[2] = 36;
+            @ki_l[3]   = 600000;
+            @kr_l[3]   = 0.00025;
+            @ksat_l[3] = 28;
+            @ki_l[4]   = 800000;
+            @kr_l[4]   = 0.00030;
+            @ksat_l[4] = 18;
+            @ki_h[0]   = 600000;
+            @kr_h[0]   = 0.00025;
+            @ksat_h[0] = 27;
+            @ki_h[1]   = 800000;
+            @kr_h[1]   = 0.00035;
+            @ksat_h[1] = 15;
+            @ki_h[2]   = 1200000;
+            @kr_h[2]   = 0.00055;
+            @ksat_h[2] = 8;
+            @ki_h[3]   = 2200000;
+            @kr_h[3]   = 0.00065;
+            @ksat_h[3] = 5;
+            @ki_h[4]   = 3200000;
+            @kr_h[4]   = 0.00085;
+            @ksat_h[4] = 4;
+        }
 
-  }		# $vegtype ew 'forest'
-  else {	# $vegtype ne 'forest'...  # soil parameter values 25 April 2006 added 20 June 2006
-    if ($SoilType eq 'sand') {
-      $solthk = 400;      # depth of soil surface to bottom of soil layer (mm)
-      $sand = 55;         # percentage of sand in the layer (%)
-      $clay = 10;         # percentage of clay in the layer (%)
-      $orgmat = 1;        # percentage of organic matter (by volume) in the layer (%) # per CM 2006.06.05
-      $cec = 15;          # cation exchange capacity in the layer (meq per 100 g of soil)
-      $tauc_l=2.75;      $tauc_h=2.17;
-      @ki_shrub_l[0] = 7.548E+4; @ki_grass_l[0] = 5.016E+4; @ki_bare_l[0] = 2.334E+5; @kr_l[0] = 8.991E-6;
-      @ki_shrub_l[1] = 1.191E+5; @ki_grass_l[1] = 1.174E+5; @ki_bare_l[1] = 2.536E+5; @kr_l[1] = 1.393E-5;
-      @ki_shrub_l[2] = 2.480E+5; @ki_grass_l[2] = 2.372E+5; @ki_bare_l[2] = 5.520E+5; @kr_l[2] = 8.042E-5;
-      @ki_shrub_l[3] = 4.093E+5; @ki_grass_l[3] = 3.921E+5; @ki_bare_l[3] = 2.187E+6; @kr_l[3] = 3.316E-4;
-      @ki_shrub_l[4] = 9.313E+5; @ki_grass_l[4] = 6.513E+5; @ki_bare_l[4] = 3.608E+6; @kr_l[4] = 7.236E-4;
-      @ki_shrub_h[0] = 2.334E+5; @ki_grass_h[0] = 1.745E+5; @ki_bare_h[0] = 2.334E+5; @kr_h[0] = 9.492E-5;
-      @ki_shrub_h[1] = 2.536E+5; @ki_grass_h[1] = 2.518E+5; @ki_bare_h[1] = 2.536E+5; @kr_h[1] = 1.346E-4;
-      @ki_shrub_h[2] = 4.630E+5; @ki_grass_h[2] = 5.520E+5; @ki_bare_h[2] = 5.520E+5; @kr_h[2] = 5.444E-4;
-      @ki_shrub_h[3] = 6.868E+5; @ki_grass_h[3] = 2.187E+6; @ki_bare_h[3] = 2.187E+6; @kr_h[3] = 1.684E-3;
-      @ki_shrub_h[4] = 9.313E+5; @ki_grass_h[4] = 3.608E+6; @ki_bare_h[4] = 3.608E+6; @kr_h[4] = 3.137E-3;
-      @ks_shrub_l[0] = 29; @ks_grass_l[0] = 17; @ks_bare_l[0] = 14;
-      @ks_shrub_l[1] = 17; @ks_grass_l[1] = 17; @ks_bare_l[1] = 14;
-      @ks_shrub_l[2] = 15; @ks_grass_l[2] = 13; @ks_bare_l[2] = 11;
-      @ks_shrub_l[3] = 12; @ks_grass_l[3] = 12; @ks_bare_l[3] = 10;
-      @ks_shrub_l[4] =  9; @ks_grass_l[4] =  8; @ks_bare_l[4] =  7;
-      @ks_shrub_h[0] = 21; @ks_grass_h[0] = 14; @ks_bare_h[0] = 14;
-      @ks_shrub_h[1] = 12; @ks_grass_h[1] = 14; @ks_bare_h[1] = 14;
-      @ks_shrub_h[2] = 11; @ks_grass_h[2] = 11; @ks_bare_h[2] = 11;
-      @ks_shrub_h[3] =  9; @ks_grass_h[3] = 10; @ks_bare_h[3] = 10;
-      @ks_shrub_h[4] =  6; @ks_grass_h[4] =  7; @ks_bare_h[4] =  7;
-    }
-    if ($SoilType eq 'silt') {
-      $solthk = 400;
-      $sand = 25;
-      $clay = 15;
-      $orgmat = 1;
-      $cec = 15;
-      $tauc_l=3.39;      $tauc_h=2.68;
-      @ki_shrub_l[0] = 1.596E+4; @ki_grass_l[0] = 1.150E+4; @ki_bare_l[0] = 4.934E+4; @kr_l[0] = 3.276E-5;
-      @ki_shrub_l[1] = 2.933E+4; @ki_grass_l[1] = 2.070E+4; @ki_bare_l[1] = 6.247E+4; @kr_l[1] = 5.989E-5;
-      @ki_shrub_l[2] = 8.151E+4; @ki_grass_l[2] = 5.556E+4; @ki_bare_l[2] = 1.522E+5; @kr_l[2] = 1.804E-4;
-      @ki_shrub_l[3] = 1.428E+5; @ki_grass_l[3] = 9.548E+4; @ki_bare_l[3] = 5.326E+5; @kr_l[3] = 4.363E-4;
-      @ki_shrub_l[4] = 2.312E+5; @ki_grass_l[4] = 1.521E+5; @ki_bare_l[4] = 8.425E+5; @kr_l[4] = 7.787E-4;
-      @ki_shrub_h[0] = 4.934E+4; @ki_grass_h[0] = 3.998E+4; @ki_bare_h[0] = 4.934E+4; @kr_h[0] = 2.661E-4;
-      @ki_shrub_h[1] = 6.247E+4; @ki_grass_h[1] = 4.439E+4; @ki_bare_h[1] = 6.247E+4; @kr_h[1] = 4.304E-4;
-      @ki_shrub_h[2] = 1.522E+5; @ki_grass_h[2] = 1.293E+5; @ki_bare_h[2] = 1.522E+5; @kr_h[2] = 1.037E-3;
-      @ki_shrub_h[3] = 2.312E+5; @ki_grass_h[3] = 5.326E+5; @ki_bare_h[3] = 5.326E+5; @kr_h[3] = 2.096E-3;
-      @ki_shrub_h[4] = 2.312E+5; @ki_grass_h[4] = 8.425E+5; @ki_bare_h[4] = 8.425E+5; @kr_h[4] = 3.326E-3;
-      @ks_shrub_l[0] = 22; @ks_grass_l[0] = 26; @ks_bare_l[0] = 21;
-      @ks_shrub_l[1] = 18; @ks_grass_l[1] = 20; @ks_bare_l[1] = 16;
-      @ks_shrub_l[2] = 13; @ks_grass_l[2] = 15; @ks_bare_l[2] = 12;
-      @ks_shrub_l[3] = 11; @ks_grass_l[3] = 13; @ks_bare_l[3] = 10;
-      @ks_shrub_l[4] =  8; @ks_grass_l[4] = 10; @ks_bare_l[4] =  8;
-      @ks_shrub_h[0] = 16; @ks_grass_h[0] = 21; @ks_bare_h[0] = 21;
-      @ks_shrub_h[1] = 12; @ks_grass_h[1] = 16; @ks_bare_h[1] = 16;
-      @ks_shrub_h[2] =  9; @ks_grass_h[2] = 12; @ks_bare_h[2] = 12;
-      @ks_shrub_h[3] =  8; @ks_grass_h[3] = 10; @ks_bare_h[3] = 10;
-      @ks_shrub_h[4] =  6; @ks_grass_h[4] =  8; @ks_bare_h[4] =  8;
-    }
-    if ($SoilType eq 'clay') {
-      $solthk = 400;
-      $sand = 25;
-      $clay = 30;
-      $orgmat = 1;
-      $cec = 25;
-      $tauc_l=1.9;      $tauc_h=1.5;
-      @ki_shrub_l[0] = 1.267E+4; @ki_grass_l[0] = 1.908E+3; @ki_bare_l[0] = 3.916E+4; @kr_l[0] = 3.750E-5;
-      @ki_shrub_l[1] = 2.295E+4; @ki_grass_l[1] = 3.069E+3; @ki_bare_l[1] = 4.887E+4; @kr_l[1] = 7.500E-5;
-      @ki_shrub_l[2] = 6.223E+4; @ki_grass_l[2] = 6.814E+3; @ki_bare_l[2] = 1.162E+5; @kr_l[2] = 1.500E-4;
-      @ki_shrub_l[3] = 1.075E+5; @ki_grass_l[3] = 1.055E+4; @ki_bare_l[3] = 1.721E+5; @kr_l[3] = 3.000E-4;
-      @ki_shrub_l[4] = 1.721E+5; @ki_grass_l[4] = 1.537E+4; @ki_bare_l[4] = 1.721E+5; @kr_l[4] = 6.000E-4;
-      @ki_shrub_h[0] = 3.916E+4; @ki_grass_h[0] = 6.636E+3; @ki_bare_h[0] = 3.916E+4; @kr_h[0] = 2.963E-4;
-      @ki_shrub_h[1] = 4.887E+4; @ki_grass_h[1] = 6.636E+3; @ki_bare_h[1] = 4.887E+4; @kr_h[1] = 5.149E-4;
-      @ki_shrub_h[2] = 1.162E+5; @ki_grass_h[2] = 1.586E+4; @ki_bare_h[2] = 1.162E+5; @kr_h[2] = 8.948E-4;
-      @ki_shrub_h[3] = 1.721E+5; @ki_grass_h[3] = 5.886E+4; @ki_bare_h[3] = 1.721E+5; @kr_h[3] = 1.555E-3;
-      @ki_shrub_h[4] = 1.712E+5; @ki_grass_h[4] = 8.516E+4; @ki_bare_h[4] = 1.721E+5; @kr_h[4] = 2.702E-3;
-      @ks_shrub_l[0] = 15; @ks_grass_l[0] = 13; @ks_bare_l[0] = 10;
-      @ks_shrub_l[1] = 13; @ks_grass_l[1] = 11; @ks_bare_l[1] =  9;
-      @ks_shrub_l[2] = 10; @ks_grass_l[2] =  9; @ks_bare_l[2] =  7;
-      @ks_shrub_l[3] =  8; @ks_grass_l[3] =  6; @ks_bare_l[3] =  5;
-      @ks_shrub_l[4] =  6; @ks_grass_l[4] =  5; @ks_bare_l[4] =  4;
-      @ks_shrub_h[0] = 11; @ks_grass_h[0] = 10; @ks_bare_h[0] = 10;
-      @ks_shrub_h[1] =  9; @ks_grass_h[1] =  9; @ks_bare_h[1] =  9;
-      @ks_shrub_h[2] =  7; @ks_grass_h[2] =  7; @ks_bare_h[2] =  7;
-      @ks_shrub_h[3] =  5; @ks_grass_h[3] =  5; @ks_bare_h[3] =  5;
-      @ks_shrub_h[4] =  5; @ks_grass_h[4] =  4; @ks_bare_h[4] =  4;
-    }
-    if ($SoilType eq 'loam') {
-      $solthk = 400;
-      $sand = 45;
-      $clay = 20;
-      $orgmat = 1;
-      $cec = 20;
-      $tauc_l=0.8;      $tauc_h=0.63;
-      @ki_shrub_l[0] = 3.428E+3; @ki_grass_l[0] = 2.601E+3; @ki_bare_l[0] = 1.060E+4; @kr_l[0] = 5.102E-5;
-      @ki_shrub_l[1] = 6.220E+3; @ki_grass_l[1] = 4.626E+3; @ki_bare_l[1] = 1.325E+4; @kr_l[1] = 1.157E-4;
-      @ki_shrub_l[2] = 3.700E+4; @ki_grass_l[2] = 2.590E+4; @ki_bare_l[2] = 6.909E+4; @kr_l[2] = 1.991E-4;
-      @ki_shrub_l[3] = 7.866E+4; @ki_grass_l[3] = 5.368E+4; @ki_bare_l[3] = 2.994E+5; @kr_l[3] = 3.037E-4;
-      @ki_shrub_l[4] = 9.286E+4; @ki_grass_l[4] = 6.302E+4; @ki_bare_l[4] = 3.491E+5; @kr_l[4] = 4.649E-4;
-      @ki_shrub_h[0] = 1.060E+4; @ki_grass_h[0] = 9.047E+3; @ki_bare_h[0] = 1.060E+4; @kr_h[0] = 3.788E-4;
-      @ki_shrub_h[1] = 1.325E+4; @ki_grass_h[1] = 9.922E+3; @ki_bare_h[1] = 1.325E+4; @kr_h[1] = 7.273E-4;
-      @ki_shrub_h[2] = 6.909E+4; @ki_grass_h[2] = 6.028E+4; @ki_bare_h[2] = 6.909E+4; @kr_h[2] = 1.122E-3;
-      @ki_shrub_h[3] = 9.286E+4; @ki_grass_h[3] = 2.994E+5; @ki_bare_h[3] = 2.994E+5; @kr_h[3] = 1.570E-3;
-      @ki_shrub_h[4] = 9.286E+4; @ki_grass_h[4] = 3.491E+5; @ki_bare_h[4] = 3.491E+5; @kr_h[4] = 2.205E-3;
-      @ks_shrub_l[0] = 22; @ks_grass_l[0] = 15; @ks_bare_l[0] = 12;
-      @ks_shrub_l[1] = 18; @ks_grass_l[1] = 13; @ks_bare_l[1] = 10;
-      @ks_shrub_l[2] = 13; @ks_grass_l[2] =  6; @ks_bare_l[2] =  5;
-      @ks_shrub_l[3] = 11; @ks_grass_l[3] =  6; @ks_bare_l[3] =  5;
-      @ks_shrub_l[4] =  8; @ks_grass_l[4] =  5; @ks_bare_l[4] =  4;
-      @ks_shrub_h[0] = 16; @ks_grass_h[0] = 12; @ks_bare_h[0] = 12;
-      @ks_shrub_h[1] = 12; @ks_grass_h[1] = 10; @ks_bare_h[1] = 10;
-      @ks_shrub_h[2] =  9; @ks_grass_h[2] =  5; @ks_bare_h[2] =  5;
-      @ks_shrub_h[3] =  8; @ks_grass_h[3] =  5; @ks_bare_h[3] =  5;
-      @ks_shrub_h[4] =  6; @ks_grass_h[4] =  4; @ks_bare_h[4] =  4;
-    }  # #SoilType
-    # return
-    #   $tauc_l
-    #   $tauc_h
-    #   @ki_l[0..4]
-    #   @ki_h[0..4]
-    #   @kr_l[0..4]
-    #   @kr_h[0..4]
-    #   @ksat_l[0..4]
-    #   @ksat_h[0..4]
+        # return
+        #   $tauc_u
+        #   $tauc_l
+        #   $tauc_h
+        #   @ki_u[0..4]
+        #   @ki_l[0..4]
+        #   @ki_h[0..4]
+        #   @kr_u[0..4]
+        #   @kr_l[0..4]
+        #   @kr_h[0..4]
+        #   @ksat_u[0..4]
+        #   @ksat_l[0..4]
+        #   @ksat_h[0..4]
 
-    $pshrub = $shrub / 100;
-    $pgrass = $grass / 100;
-    $pbare = $bare / 100;
+    }    # $vegtype ew 'forest'
+    else
+    { # $vegtype ne 'forest'...  # soil parameter values 25 April 2006 added 20 June 2006
+        if ( $SoilType eq 'sand' ) {
+            $solthk = 400;  # depth of soil surface to bottom of soil layer (mm)
+            $sand   = 55;   # percentage of sand in the layer (%)
+            $clay   = 10;   # percentage of clay in the layer (%)
+            $orgmat = 1
+              ; # percentage of organic matter (by volume) in the layer (%) # per CM 2006.06.05
+            $cec = 15
+              ;  # cation exchange capacity in the layer (meq per 100 g of soil)
+            $tauc_l        = 2.75;
+            $tauc_h        = 2.17;
+            @ki_shrub_l[0] = 7.548E+4;
+            @ki_grass_l[0] = 5.016E+4;
+            @ki_bare_l[0]  = 2.334E+5;
+            @kr_l[0]       = 8.991E-6;
+            @ki_shrub_l[1] = 1.191E+5;
+            @ki_grass_l[1] = 1.174E+5;
+            @ki_bare_l[1]  = 2.536E+5;
+            @kr_l[1]       = 1.393E-5;
+            @ki_shrub_l[2] = 2.480E+5;
+            @ki_grass_l[2] = 2.372E+5;
+            @ki_bare_l[2]  = 5.520E+5;
+            @kr_l[2]       = 8.042E-5;
+            @ki_shrub_l[3] = 4.093E+5;
+            @ki_grass_l[3] = 3.921E+5;
+            @ki_bare_l[3]  = 2.187E+6;
+            @kr_l[3]       = 3.316E-4;
+            @ki_shrub_l[4] = 9.313E+5;
+            @ki_grass_l[4] = 6.513E+5;
+            @ki_bare_l[4]  = 3.608E+6;
+            @kr_l[4]       = 7.236E-4;
+            @ki_shrub_h[0] = 2.334E+5;
+            @ki_grass_h[0] = 1.745E+5;
+            @ki_bare_h[0]  = 2.334E+5;
+            @kr_h[0]       = 9.492E-5;
+            @ki_shrub_h[1] = 2.536E+5;
+            @ki_grass_h[1] = 2.518E+5;
+            @ki_bare_h[1]  = 2.536E+5;
+            @kr_h[1]       = 1.346E-4;
+            @ki_shrub_h[2] = 4.630E+5;
+            @ki_grass_h[2] = 5.520E+5;
+            @ki_bare_h[2]  = 5.520E+5;
+            @kr_h[2]       = 5.444E-4;
+            @ki_shrub_h[3] = 6.868E+5;
+            @ki_grass_h[3] = 2.187E+6;
+            @ki_bare_h[3]  = 2.187E+6;
+            @kr_h[3]       = 1.684E-3;
+            @ki_shrub_h[4] = 9.313E+5;
+            @ki_grass_h[4] = 3.608E+6;
+            @ki_bare_h[4]  = 3.608E+6;
+            @kr_h[4]       = 3.137E-3;
+            @ks_shrub_l[0] = 29;
+            @ks_grass_l[0] = 17;
+            @ks_bare_l[0]  = 14;
+            @ks_shrub_l[1] = 17;
+            @ks_grass_l[1] = 17;
+            @ks_bare_l[1]  = 14;
+            @ks_shrub_l[2] = 15;
+            @ks_grass_l[2] = 13;
+            @ks_bare_l[2]  = 11;
+            @ks_shrub_l[3] = 12;
+            @ks_grass_l[3] = 12;
+            @ks_bare_l[3]  = 10;
+            @ks_shrub_l[4] = 9;
+            @ks_grass_l[4] = 8;
+            @ks_bare_l[4]  = 7;
+            @ks_shrub_h[0] = 21;
+            @ks_grass_h[0] = 14;
+            @ks_bare_h[0]  = 14;
+            @ks_shrub_h[1] = 12;
+            @ks_grass_h[1] = 14;
+            @ks_bare_h[1]  = 14;
+            @ks_shrub_h[2] = 11;
+            @ks_grass_h[2] = 11;
+            @ks_bare_h[2]  = 11;
+            @ks_shrub_h[3] = 9;
+            @ks_grass_h[3] = 10;
+            @ks_bare_h[3]  = 10;
+            @ks_shrub_h[4] = 6;
+            @ks_grass_h[4] = 7;
+            @ks_bare_h[4]  = 7;
+        }
+        if ( $SoilType eq 'silt' ) {
+            $solthk        = 400;
+            $sand          = 25;
+            $clay          = 15;
+            $orgmat        = 1;
+            $cec           = 15;
+            $tauc_l        = 3.39;
+            $tauc_h        = 2.68;
+            @ki_shrub_l[0] = 1.596E+4;
+            @ki_grass_l[0] = 1.150E+4;
+            @ki_bare_l[0]  = 4.934E+4;
+            @kr_l[0]       = 3.276E-5;
+            @ki_shrub_l[1] = 2.933E+4;
+            @ki_grass_l[1] = 2.070E+4;
+            @ki_bare_l[1]  = 6.247E+4;
+            @kr_l[1]       = 5.989E-5;
+            @ki_shrub_l[2] = 8.151E+4;
+            @ki_grass_l[2] = 5.556E+4;
+            @ki_bare_l[2]  = 1.522E+5;
+            @kr_l[2]       = 1.804E-4;
+            @ki_shrub_l[3] = 1.428E+5;
+            @ki_grass_l[3] = 9.548E+4;
+            @ki_bare_l[3]  = 5.326E+5;
+            @kr_l[3]       = 4.363E-4;
+            @ki_shrub_l[4] = 2.312E+5;
+            @ki_grass_l[4] = 1.521E+5;
+            @ki_bare_l[4]  = 8.425E+5;
+            @kr_l[4]       = 7.787E-4;
+            @ki_shrub_h[0] = 4.934E+4;
+            @ki_grass_h[0] = 3.998E+4;
+            @ki_bare_h[0]  = 4.934E+4;
+            @kr_h[0]       = 2.661E-4;
+            @ki_shrub_h[1] = 6.247E+4;
+            @ki_grass_h[1] = 4.439E+4;
+            @ki_bare_h[1]  = 6.247E+4;
+            @kr_h[1]       = 4.304E-4;
+            @ki_shrub_h[2] = 1.522E+5;
+            @ki_grass_h[2] = 1.293E+5;
+            @ki_bare_h[2]  = 1.522E+5;
+            @kr_h[2]       = 1.037E-3;
+            @ki_shrub_h[3] = 2.312E+5;
+            @ki_grass_h[3] = 5.326E+5;
+            @ki_bare_h[3]  = 5.326E+5;
+            @kr_h[3]       = 2.096E-3;
+            @ki_shrub_h[4] = 2.312E+5;
+            @ki_grass_h[4] = 8.425E+5;
+            @ki_bare_h[4]  = 8.425E+5;
+            @kr_h[4]       = 3.326E-3;
+            @ks_shrub_l[0] = 22;
+            @ks_grass_l[0] = 26;
+            @ks_bare_l[0]  = 21;
+            @ks_shrub_l[1] = 18;
+            @ks_grass_l[1] = 20;
+            @ks_bare_l[1]  = 16;
+            @ks_shrub_l[2] = 13;
+            @ks_grass_l[2] = 15;
+            @ks_bare_l[2]  = 12;
+            @ks_shrub_l[3] = 11;
+            @ks_grass_l[3] = 13;
+            @ks_bare_l[3]  = 10;
+            @ks_shrub_l[4] = 8;
+            @ks_grass_l[4] = 10;
+            @ks_bare_l[4]  = 8;
+            @ks_shrub_h[0] = 16;
+            @ks_grass_h[0] = 21;
+            @ks_bare_h[0]  = 21;
+            @ks_shrub_h[1] = 12;
+            @ks_grass_h[1] = 16;
+            @ks_bare_h[1]  = 16;
+            @ks_shrub_h[2] = 9;
+            @ks_grass_h[2] = 12;
+            @ks_bare_h[2]  = 12;
+            @ks_shrub_h[3] = 8;
+            @ks_grass_h[3] = 10;
+            @ks_bare_h[3]  = 10;
+            @ks_shrub_h[4] = 6;
+            @ks_grass_h[4] = 8;
+            @ks_bare_h[4]  = 8;
+        }
+        if ( $SoilType eq 'clay' ) {
+            $solthk        = 400;
+            $sand          = 25;
+            $clay          = 30;
+            $orgmat        = 1;
+            $cec           = 25;
+            $tauc_l        = 1.9;
+            $tauc_h        = 1.5;
+            @ki_shrub_l[0] = 1.267E+4;
+            @ki_grass_l[0] = 1.908E+3;
+            @ki_bare_l[0]  = 3.916E+4;
+            @kr_l[0]       = 3.750E-5;
+            @ki_shrub_l[1] = 2.295E+4;
+            @ki_grass_l[1] = 3.069E+3;
+            @ki_bare_l[1]  = 4.887E+4;
+            @kr_l[1]       = 7.500E-5;
+            @ki_shrub_l[2] = 6.223E+4;
+            @ki_grass_l[2] = 6.814E+3;
+            @ki_bare_l[2]  = 1.162E+5;
+            @kr_l[2]       = 1.500E-4;
+            @ki_shrub_l[3] = 1.075E+5;
+            @ki_grass_l[3] = 1.055E+4;
+            @ki_bare_l[3]  = 1.721E+5;
+            @kr_l[3]       = 3.000E-4;
+            @ki_shrub_l[4] = 1.721E+5;
+            @ki_grass_l[4] = 1.537E+4;
+            @ki_bare_l[4]  = 1.721E+5;
+            @kr_l[4]       = 6.000E-4;
+            @ki_shrub_h[0] = 3.916E+4;
+            @ki_grass_h[0] = 6.636E+3;
+            @ki_bare_h[0]  = 3.916E+4;
+            @kr_h[0]       = 2.963E-4;
+            @ki_shrub_h[1] = 4.887E+4;
+            @ki_grass_h[1] = 6.636E+3;
+            @ki_bare_h[1]  = 4.887E+4;
+            @kr_h[1]       = 5.149E-4;
+            @ki_shrub_h[2] = 1.162E+5;
+            @ki_grass_h[2] = 1.586E+4;
+            @ki_bare_h[2]  = 1.162E+5;
+            @kr_h[2]       = 8.948E-4;
+            @ki_shrub_h[3] = 1.721E+5;
+            @ki_grass_h[3] = 5.886E+4;
+            @ki_bare_h[3]  = 1.721E+5;
+            @kr_h[3]       = 1.555E-3;
+            @ki_shrub_h[4] = 1.712E+5;
+            @ki_grass_h[4] = 8.516E+4;
+            @ki_bare_h[4]  = 1.721E+5;
+            @kr_h[4]       = 2.702E-3;
+            @ks_shrub_l[0] = 15;
+            @ks_grass_l[0] = 13;
+            @ks_bare_l[0]  = 10;
+            @ks_shrub_l[1] = 13;
+            @ks_grass_l[1] = 11;
+            @ks_bare_l[1]  = 9;
+            @ks_shrub_l[2] = 10;
+            @ks_grass_l[2] = 9;
+            @ks_bare_l[2]  = 7;
+            @ks_shrub_l[3] = 8;
+            @ks_grass_l[3] = 6;
+            @ks_bare_l[3]  = 5;
+            @ks_shrub_l[4] = 6;
+            @ks_grass_l[4] = 5;
+            @ks_bare_l[4]  = 4;
+            @ks_shrub_h[0] = 11;
+            @ks_grass_h[0] = 10;
+            @ks_bare_h[0]  = 10;
+            @ks_shrub_h[1] = 9;
+            @ks_grass_h[1] = 9;
+            @ks_bare_h[1]  = 9;
+            @ks_shrub_h[2] = 7;
+            @ks_grass_h[2] = 7;
+            @ks_bare_h[2]  = 7;
+            @ks_shrub_h[3] = 5;
+            @ks_grass_h[3] = 5;
+            @ks_bare_h[3]  = 5;
+            @ks_shrub_h[4] = 5;
+            @ks_grass_h[4] = 4;
+            @ks_bare_h[4]  = 4;
+        }
+        if ( $SoilType eq 'loam' ) {
+            $solthk        = 400;
+            $sand          = 45;
+            $clay          = 20;
+            $orgmat        = 1;
+            $cec           = 20;
+            $tauc_l        = 0.8;
+            $tauc_h        = 0.63;
+            @ki_shrub_l[0] = 3.428E+3;
+            @ki_grass_l[0] = 2.601E+3;
+            @ki_bare_l[0]  = 1.060E+4;
+            @kr_l[0]       = 5.102E-5;
+            @ki_shrub_l[1] = 6.220E+3;
+            @ki_grass_l[1] = 4.626E+3;
+            @ki_bare_l[1]  = 1.325E+4;
+            @kr_l[1]       = 1.157E-4;
+            @ki_shrub_l[2] = 3.700E+4;
+            @ki_grass_l[2] = 2.590E+4;
+            @ki_bare_l[2]  = 6.909E+4;
+            @kr_l[2]       = 1.991E-4;
+            @ki_shrub_l[3] = 7.866E+4;
+            @ki_grass_l[3] = 5.368E+4;
+            @ki_bare_l[3]  = 2.994E+5;
+            @kr_l[3]       = 3.037E-4;
+            @ki_shrub_l[4] = 9.286E+4;
+            @ki_grass_l[4] = 6.302E+4;
+            @ki_bare_l[4]  = 3.491E+5;
+            @kr_l[4]       = 4.649E-4;
+            @ki_shrub_h[0] = 1.060E+4;
+            @ki_grass_h[0] = 9.047E+3;
+            @ki_bare_h[0]  = 1.060E+4;
+            @kr_h[0]       = 3.788E-4;
+            @ki_shrub_h[1] = 1.325E+4;
+            @ki_grass_h[1] = 9.922E+3;
+            @ki_bare_h[1]  = 1.325E+4;
+            @kr_h[1]       = 7.273E-4;
+            @ki_shrub_h[2] = 6.909E+4;
+            @ki_grass_h[2] = 6.028E+4;
+            @ki_bare_h[2]  = 6.909E+4;
+            @kr_h[2]       = 1.122E-3;
+            @ki_shrub_h[3] = 9.286E+4;
+            @ki_grass_h[3] = 2.994E+5;
+            @ki_bare_h[3]  = 2.994E+5;
+            @kr_h[3]       = 1.570E-3;
+            @ki_shrub_h[4] = 9.286E+4;
+            @ki_grass_h[4] = 3.491E+5;
+            @ki_bare_h[4]  = 3.491E+5;
+            @kr_h[4]       = 2.205E-3;
+            @ks_shrub_l[0] = 22;
+            @ks_grass_l[0] = 15;
+            @ks_bare_l[0]  = 12;
+            @ks_shrub_l[1] = 18;
+            @ks_grass_l[1] = 13;
+            @ks_bare_l[1]  = 10;
+            @ks_shrub_l[2] = 13;
+            @ks_grass_l[2] = 6;
+            @ks_bare_l[2]  = 5;
+            @ks_shrub_l[3] = 11;
+            @ks_grass_l[3] = 6;
+            @ks_bare_l[3]  = 5;
+            @ks_shrub_l[4] = 8;
+            @ks_grass_l[4] = 5;
+            @ks_bare_l[4]  = 4;
+            @ks_shrub_h[0] = 16;
+            @ks_grass_h[0] = 12;
+            @ks_bare_h[0]  = 12;
+            @ks_shrub_h[1] = 12;
+            @ks_grass_h[1] = 10;
+            @ks_bare_h[1]  = 10;
+            @ks_shrub_h[2] = 9;
+            @ks_grass_h[2] = 5;
+            @ks_bare_h[2]  = 5;
+            @ks_shrub_h[3] = 8;
+            @ks_grass_h[3] = 5;
+            @ks_bare_h[3]  = 5;
+            @ks_shrub_h[4] = 6;
+            @ks_grass_h[4] = 4;
+            @ks_bare_h[4]  = 4;
+        }    # #SoilType
+             # return
+             #   $tauc_l
+             #   $tauc_h
+             #   @ki_l[0..4]
+             #   @ki_h[0..4]
+             #   @kr_l[0..4]
+             #   @kr_h[0..4]
+             #   @ksat_l[0..4]
+             #   @ksat_h[0..4]
 
-    for ($i=0; $i<5; $i++) {
-      @ki_l[$i]   = $pshrub * @ki_shrub_l[$i] + $pgrass * @ki_grass_l[$i] + $pbare * @ki_bare_l[$i];
-      @ki_h[$i]   = $pshrub * @ki_shrub_h[$i] + $pgrass * @ki_grass_h[$i] + $pbare * @ki_bare_h[$i];
-      @ksat_l[$i] = $pshrub * @ks_shrub_l[$i] + $pgrass * @ks_grass_l[$i] + $pbare * @ks_bare_l[$i];
-      @ksat_h[$i] = $pshrub * @ks_shrub_h[$i] + $pgrass * @ks_grass_h[$i] + $pbare * @ks_bare_h[$i];
-    }
-  }     # $vegtype
+        $pshrub = $shrub / 100;
+        $pgrass = $grass / 100;
+        $pbare  = $bare / 100;
+
+        for ( $i = 0 ; $i < 5 ; $i++ ) {
+            @ki_l[$i] =
+              $pshrub * @ki_shrub_l[$i] +
+              $pgrass * @ki_grass_l[$i] +
+              $pbare * @ki_bare_l[$i];
+            @ki_h[$i] =
+              $pshrub * @ki_shrub_h[$i] +
+              $pgrass * @ki_grass_h[$i] +
+              $pbare * @ki_bare_h[$i];
+            @ksat_l[$i] =
+              $pshrub * @ks_shrub_l[$i] +
+              $pgrass * @ks_grass_l[$i] +
+              $pbare * @ks_bare_l[$i];
+            @ksat_h[$i] =
+              $pshrub * @ks_shrub_h[$i] +
+              $pgrass * @ks_grass_h[$i] +
+              $pbare * @ks_bare_h[$i];
+        }
+    }    # $vegtype
 }
 
-sub createGnuplotUnburnedJCLfile { # #######################  createGnuplotJCLfile
+sub createGnuplotUnburnedJCLfile
+{    # #######################  createGnuplotJCLfile
 
-# mod 2004.08.18 DEH for gnuplot 4.0.0 capabilities
+    # mod 2004.08.18 DEH for gnuplot 4.0.0 capabilities
 
-# $gnuplotdatafile
-# $gnuplotgrapheps
-# $sed_units
-# $soil_texture
-# $rfg
-# $top_slope
-# $avg_slope
-# $toe_slope
-# $hillslope_length
-# $units
-# $severityclass_x
-# climate_name - climate station name
-# {calculate location for climate station name}
+    # $gnuplotdatafile
+    # $gnuplotgrapheps
+    # $sed_units
+    # $soil_texture
+    # $rfg
+    # $top_slope
+    # $avg_slope
+    # $toe_slope
+    # $hillslope_length
+    # $units
+    # $severityclass_x
+    # climate_name - climate station name
+    # {calculate location for climate station name}
 
-# 'size 800,600' and 'enhanced' work from command-line but not
-# when called from within the perl program ............
-#  $result="set terminal png size 800,600 enhanced
+    # 'size 800,600' and 'enhanced' work from command-line but not
+    # when called from within the perl program ............
+    #  $result="set terminal png size 800,600 enhanced
 
-#  $result="set terminal postscript color
-  $result="set terminal pngcairo size 800,600 enhanced font 'sans,10' fontscale 1.1
+    #  $result="set terminal postscript color
+    $result =
+      "set terminal pngcairo size 800,600 enhanced font 'sans,10' fontscale 1.1
 set output '$gnuplotgraphpng'
 set title 'Sediment Delivery Exceedance Probability for unburned $climate_name'
 set xlabel 'Sediment Delivery ($alt_sedunits)'
@@ -5198,30 +6444,31 @@ set timestamp \"%m-%d-%Y -- $soil_texture; $rfg%% rock; $top_slope%%, $avg_slope
 plot [] [1:] \\
      '$gnuplotdatafile' using 1:2 t '1st year' with lines linewidth 3
 ";
-#     ''         using 1:3 t '2nd year' with lines linewidth 5,\\
-#     ''         using 1:4 t '3rd year' with lines linewidth 15,\\
-#     ''         using 1:5 t '4th year' with lines linewidth 5,\\
-#     ''         using 1:6 t '5th year' with lines lt 12 linewidth 5
-#";
+
+    #     ''         using 1:3 t '2nd year' with lines linewidth 5,\\
+    #     ''         using 1:4 t '3rd year' with lines linewidth 15,\\
+    #     ''         using 1:5 t '4th year' with lines linewidth 5,\\
+    #     ''         using 1:6 t '5th year' with lines lt 12 linewidth 5
+    #";
 }
 
-sub createGnuplotJCLfile { # #######################  createGnuplotJCLfile
+sub createGnuplotJCLfile {    # #######################  createGnuplotJCLfile
 
-# mod 2004.08.18 DEH for gnuplot 4.0.0 capabilities
+    # mod 2004.08.18 DEH for gnuplot 4.0.0 capabilities
 
-# $gnuplotdatafile
-# $gnuplotgrapheps
-# $sed_units
-# $soil_texture
-# $rfg
-# $top_slope
-# $avg_slope
-# $toe_slope
-# $hillslope_length
-# $units
-# $severityclass_x
-# climate_name - climate station name
-# {calculate location for climate station name}
+    # $gnuplotdatafile
+    # $gnuplotgrapheps
+    # $sed_units
+    # $soil_texture
+    # $rfg
+    # $top_slope
+    # $avg_slope
+    # $toe_slope
+    # $hillslope_length
+    # $units
+    # $severityclass_x
+    # climate_name - climate station name
+    # {calculate location for climate station name}
 
 # $result="set term png color
 #set output '$gnuplotgraph'
@@ -5240,13 +6487,14 @@ sub createGnuplotJCLfile { # #######################  createGnuplotJCLfile
 #     ''         using 1:6 t '5th year' with lines lt 12 linewidth 5
 #";
 
-# 'size 800,600' and 'enhanced' work from command-line but not
-# when called from within the perl program ............
-#  $result="set terminal png size 800,600 enhanced
+    # 'size 800,600' and 'enhanced' work from command-line but not
+    # when called from within the perl program ............
+    #  $result="set terminal png size 800,600 enhanced
 
-#  $result="set terminal png
-#  $result="set terminal postscript color
-  $result="set terminal pngcairo size 800,600 enhanced font 'sans,10' fontscale 1.1
+    #  $result="set terminal png
+    #  $result="set terminal postscript color
+    $result =
+      "set terminal pngcairo size 800,600 enhanced font 'sans,10' fontscale 1.1
 set output '$gnuplotgraphpng'
 set title 'Sediment Delivery Exceedance Probability for untreated $climate_name'
 set xlabel 'Sediment Delivery ($alt_sedunits)'
@@ -5265,115 +6513,123 @@ plot [] [1:] \\
      ''         using 1:6 t '5th year' with lines linewidth 3
 ";
 
-#plot [] [1:] \\
-#     '$gnuplotdatafile' using 1:2 smooth bezier t '1st year' linewidth 5,\\
-#     ''         using 1:3 sm b t '2nd year' linewidth 5,\\
-#     ''         using 1:4 sm b t '3rd year' linewidth 5,\\
-#     ''         using 1:5 sm b t '4th year' linewidth 5,\\
-#     ''         using 1:6 sm b t '5th year' linewidth 5
-#";
+    #plot [] [1:] \\
+    #     '$gnuplotdatafile' using 1:2 smooth bezier t '1st year' linewidth 5,\\
+    #     ''         using 1:3 sm b t '2nd year' linewidth 5,\\
+    #     ''         using 1:4 sm b t '3rd year' linewidth 5,\\
+    #     ''         using 1:5 sm b t '4th year' linewidth 5,\\
+    #     ''         using 1:6 sm b t '5th year' linewidth 5
+    #";
 }
 
-sub createGnuplotUnburnedDatafile {	# ##################  createGnuplotDatafile
+sub createGnuplotUnburnedDatafile {  # ##################  createGnuplotDatafile
 
-  if ($units eq 'm') {$unit_conv=$hillslope_length_m / 10}  # (x / 100) * 10 = x / (100 / 10)
-  else {$unit_conv = $hillslope_length_m / 4.45}
-  $result = "# gnuplot  data file of sed_delivery vs cumulate probs (5 years) no mit
+    if ( $units eq 'm' ) {
+        $unit_conv = $hillslope_length_m / 10;
+    }                                # (x / 100) * 10 = x / (100 / 10)
+    else { $unit_conv = $hillslope_length_m / 4.45 }
+    $result =
+      "# gnuplot  data file of sed_delivery vs cumulate probs (5 years) no mit
 # $climate_name
 # Sediment Delivery Exceedance Probability
 # Sediment Delivery ($alt_sedunits)
 # Probability (%)
 # $soil_texture; $rfg% rock; $top_slope%, $avg_slope%, $toe_slope% slope; $hillslope_length $units; $severityclass_x fire severity
 ";
-  $cum_prob0 = 0.01;
-  $cum_prob1 = 0.01;
-  $cum_prob2 = 0.01;
-  $cum_prob3 = 0.01;
-  $cum_prob4 = 0.01;
-  for $i (0..$#sed_yields) {				# 2005.09.30 DEH test 2005.10.21
-    $cum_prob0 += @probabilities0[@index[$i]];
-    $cum_prob1 += @probabilities1[@index[$i]];
-    $cum_prob2 += @probabilities2[@index[$i]];
-    $cum_prob3 += @probabilities3[@index[$i]];
-    $cum_prob4 += @probabilities4[@index[$i]];
-    $sedval = @sed_yields[@index[$i]];
-    if ($sedval eq '') {$sedval = '0.0'}
-    $cp0r = sprintf '%9.2g', $cum_prob0* 100;
-    $cp1r = sprintf '%9.2g', $cum_prob1* 100;
-    $cp2r = sprintf '%9.2g', $cum_prob2* 100;
-    $cp3r = sprintf '%9.2g', $cum_prob3* 100;
-    $cp4r = sprintf '%9.2g', $cum_prob4* 100;
-    $sedu = $sedval / $unit_conv;
-    $result .= "$sedu $cp0r $cp1r $cp2r $cp3r $cp4r\n";
-    last if ($sedval eq '0.0');
-  }
-  return $result;
+    $cum_prob0 = 0.01;
+    $cum_prob1 = 0.01;
+    $cum_prob2 = 0.01;
+    $cum_prob3 = 0.01;
+    $cum_prob4 = 0.01;
+
+    for $i ( 0 .. $#sed_yields ) {    # 2005.09.30 DEH test 2005.10.21
+        $cum_prob0 += @probabilities0[ @index[$i] ];
+        $cum_prob1 += @probabilities1[ @index[$i] ];
+        $cum_prob2 += @probabilities2[ @index[$i] ];
+        $cum_prob3 += @probabilities3[ @index[$i] ];
+        $cum_prob4 += @probabilities4[ @index[$i] ];
+        $sedval = @sed_yields[ @index[$i] ];
+        if ( $sedval eq '' ) { $sedval = '0.0' }
+        $cp0r = sprintf '%9.2g', $cum_prob0 * 100;
+        $cp1r = sprintf '%9.2g', $cum_prob1 * 100;
+        $cp2r = sprintf '%9.2g', $cum_prob2 * 100;
+        $cp3r = sprintf '%9.2g', $cum_prob3 * 100;
+        $cp4r = sprintf '%9.2g', $cum_prob4 * 100;
+        $sedu = $sedval / $unit_conv;
+        $result .= "$sedu $cp0r $cp1r $cp2r $cp3r $cp4r\n";
+        last if ( $sedval eq '0.0' );
+    }
+    return $result;
 }
 
-sub createGnuplotDatafile {	# ##################  createGnuplotDatafile
+sub createGnuplotDatafile {    # ##################  createGnuplotDatafile
 
-#  create data file of sed_delivery vs cumulate probs (5 years) untreated
+    #  create data file of sed_delivery vs cumulate probs (5 years) untreated
 
-# $units - 
-# @probabilities0[]
-# @probabilities1[]
-# @probabilities2[]
-# @probabilities3[]
-# @probabilities4[]
-# @sed_yields[]
-# @index[]
-# $climate_name - climate station name
-# $soil_texture
-# $rfg% - rock fragment
-# $top_slope% - top gradient
-# $avg_slope% - average gradient
-# $toe_slope% - toe gradient
-# $hillslope_length_m - hillslope horizontal length (m)
-# $severityclass_x - fire severity class ('low', 'moderate', 'high')
+    # $units -
+    # @probabilities0[]
+    # @probabilities1[]
+    # @probabilities2[]
+    # @probabilities3[]
+    # @probabilities4[]
+    # @sed_yields[]
+    # @index[]
+    # $climate_name - climate station name
+    # $soil_texture
+    # $rfg% - rock fragment
+    # $top_slope% - top gradient
+    # $avg_slope% - average gradient
+    # $toe_slope% - toe gradient
+    # $hillslope_length_m - hillslope horizontal length (m)
+    # $severityclass_x - fire severity class ('low', 'moderate', 'high')
 
-# $result - data file
+    # $result - data file
 
-# my $sedu, $cp0r, $cp1r, $cp2r, $cp3r, $cp4r, $result, $seddelunits;
+    # my $sedu, $cp0r, $cp1r, $cp2r, $cp3r, $cp4r, $result, $seddelunits;
 
-  if ($units eq 'm') {$unit_conv=$hillslope_length_m / 10}  # (x / 100) * 10 = x / (100 / 10)
-  else {$unit_conv = $hillslope_length_m / 4.45}
-  $result = "# gnuplot  data file of sed_delivery vs cumulate probs (5 years) no mit
+    if ( $units eq 'm' ) {
+        $unit_conv = $hillslope_length_m / 10;
+    }    # (x / 100) * 10 = x / (100 / 10)
+    else { $unit_conv = $hillslope_length_m / 4.45 }
+    $result =
+      "# gnuplot  data file of sed_delivery vs cumulate probs (5 years) no mit
 # $climate_name
 # Sediment Delivery Exceedance Probability
 # Sediment Delivery ($alt_sedunits)
 # Probability (%)
 # $soil_texture; $rfg% rock; $top_slope%, $avg_slope%, $toe_slope% slope; $hillslope_length $units; $severityclass_x fire severity
 ";
-  $cum_prob0 = 0.01;
-  $cum_prob1 = 0.01;
-  $cum_prob2 = 0.01;
-  $cum_prob3 = 0.01;
-  $cum_prob4 = 0.01;
-  for $i (0..$#sed_yields) {				# 2005.09.30 DEH test 2005.10.21
-    $cum_prob0 += @probabilities0[@index[$i]];
-    $cum_prob1 += @probabilities1[@index[$i]];
-    $cum_prob2 += @probabilities2[@index[$i]];
-    $cum_prob3 += @probabilities3[@index[$i]];
-    $cum_prob4 += @probabilities4[@index[$i]];
-    $sedval = @sed_yields[@index[$i]];
-    if ($sedval eq '') {$sedval = '0.0'}
-    $cp0r = sprintf '%9.2g', $cum_prob0* 100;
-    $cp1r = sprintf '%9.2g', $cum_prob1* 100;
-    $cp2r = sprintf '%9.2g', $cum_prob2* 100;
-    $cp3r = sprintf '%9.2g', $cum_prob3* 100;
-    $cp4r = sprintf '%9.2g', $cum_prob4* 100;
-    $sedu = $sedval / $unit_conv;
-    $result .= "$sedu $cp0r $cp1r $cp2r $cp3r $cp4r\n";
-    last if ($sedval eq '0.0');
-  }
-  return $result;
+    $cum_prob0 = 0.01;
+    $cum_prob1 = 0.01;
+    $cum_prob2 = 0.01;
+    $cum_prob3 = 0.01;
+    $cum_prob4 = 0.01;
+
+    for $i ( 0 .. $#sed_yields ) {    # 2005.09.30 DEH test 2005.10.21
+        $cum_prob0 += @probabilities0[ @index[$i] ];
+        $cum_prob1 += @probabilities1[ @index[$i] ];
+        $cum_prob2 += @probabilities2[ @index[$i] ];
+        $cum_prob3 += @probabilities3[ @index[$i] ];
+        $cum_prob4 += @probabilities4[ @index[$i] ];
+        $sedval = @sed_yields[ @index[$i] ];
+        if ( $sedval eq '' ) { $sedval = '0.0' }
+        $cp0r = sprintf '%9.2g', $cum_prob0 * 100;
+        $cp1r = sprintf '%9.2g', $cum_prob1 * 100;
+        $cp2r = sprintf '%9.2g', $cum_prob2 * 100;
+        $cp3r = sprintf '%9.2g', $cum_prob3 * 100;
+        $cp4r = sprintf '%9.2g', $cum_prob4 * 100;
+        $sedu = $sedval / $unit_conv;
+        $result .= "$sedu $cp0r $cp1r $cp2r $cp3r $cp4r\n";
+        last if ( $sedval eq '0.0' );
+    }
+    return $result;
 
 }
 
 sub bomb {
 
-     print "Content-type: text/html\n\n";
-     print '<html>
+    print "Content-type: text/html\n\n";
+    print '<html>
  <head>
   <meta http-equiv="Refresh" content="0; URL=/cgi-bin/fswepp/ermit/ermit.pl?units=m">
  </head>
@@ -5384,396 +6640,302 @@ sub bomb {
 
 sub ReadParse {
 
-# ReadParse -- from cgi-lib.pl (Steve Brenner) from Eric Herrmann's
-# "Teach Yourself CGI Programming With PERL in a Week" p. 131
+    # ReadParse -- from cgi-lib.pl (Steve Brenner) from Eric Herrmann's
+    # "Teach Yourself CGI Programming With PERL in a Week" p. 131
 
-# Reads GET or POST data, converts it to unescaped text, and puts
-# one key=value in each member of the list "@in"
-# Also creates key/value pairs in %in, using '\0' to separate multiple
-# selections
+    # Reads GET or POST data, converts it to unescaped text, and puts
+    # one key=value in each member of the list "@in"
+    # Also creates key/value pairs in %in, using '\0' to separate multiple
+    # selections
 
-   local (*in) = @_ if @_;
-   local ($i, $loc, $key, $val);
-#       read text
-   if ($ENV{'REQUEST_METHOD'} eq "GET") {
-     $in = $ENV{'QUERY_STRING'};
-   }
-   elsif ($ENV{'REQUEST_METHOD'} eq "POST") {
-     read(STDIN,$in,$ENV{'CONTENT_LENGTH'});
-   }
-   @in = split(/&/,$in);
-   foreach $i (0 .. $#in) {
-     $in[$i] =~ s/\+/ /g;         # Convert pluses to spaces
-     ($key, $val) = split(/=/,$in[$i],2);         # Split into key and value
-     $key =~ s/%(..)/pack("c",hex($1))/ge;        # Convert %XX from hex number$
-     $val =~ s/%(..)/pack("c",hex($1))/ge;
-     $in{$key} .= "\0" if (defined($in{$key}));  # \0 is the multiple separator
-     $in{$key} .= $val;
-   }
-   return 1;
+    local (*in) = @_ if @_;
+    local ( $i, $loc, $key, $val );
+
+    #       read text
+    if ( $ENV{'REQUEST_METHOD'} eq "GET" ) {
+        $in = $ENV{'QUERY_STRING'};
+    }
+    elsif ( $ENV{'REQUEST_METHOD'} eq "POST" ) {
+        read( STDIN, $in, $ENV{'CONTENT_LENGTH'} );
+    }
+    @in = split( /&/, $in );
+    foreach $i ( 0 .. $#in ) {
+        $in[$i] =~ s/\+/ /g;                     # Convert pluses to spaces
+        ( $key, $val ) = split( /=/, $in[$i], 2 );    # Split into key and value
+        $key =~ s/%(..)/pack("c",hex($1))/ge;    # Convert %XX from hex number$
+        $val =~ s/%(..)/pack("c",hex($1))/ge;
+        $in{$key} .= "\0"
+          if ( defined( $in{$key} ) );           # \0 is the multiple separator
+        $in{$key} .= $val;
+    }
+    return 1;
 }
+
 sub peak_intensity {
 
-#  Estimate peak durations
+    #  Estimate peak durations
 
-#  Input:
-#    @max_time_list in minutes
-#    $prcp	total precipitation (mm) ($prcp > 0)
-#    $dur	event duration (h) ($dur > 0)
-#    $tp	time to peak (fraction of duration) ($tp < 1)
-#		tp == (normalized time to peak intensity) / (storm duration) [WEPP]
-#    $ip	normalized peak intensity (unitless ratio) ($ip)
-#		ip == (peak intensity) / (average intensity) [WEPP manual]
+    #  Input:
+    #    @max_time_list in minutes
+    #    $prcp	total precipitation (mm) ($prcp > 0)
+    #    $dur	event duration (h) ($dur > 0)
+    #    $tp	time to peak (fraction of duration) ($tp < 1)
+    #		tp == (normalized time to peak intensity) / (storm duration) [WEPP]
+    #    $ip	normalized peak intensity (unitless ratio) ($ip)
+    #		ip == (peak intensity) / (average intensity) [WEPP manual]
 
-#  Return:
-#    @i_peak	x-minute intensity (mm/h) ['N/A' if error conditions]
-#    $error_text
+    #  Return:
+    #    @i_peak	x-minute intensity (mm/h) ['N/A' if error conditions]
+    #    $error_text
 
-#  Algorithm devised by Corey Moffett (ARS-Boise) and coded in R
-#  Recoded in Perl by David Hall (USDA-FS)  April 16, 2004
+    #  Algorithm devised by Corey Moffett (ARS-Boise) and coded in R
+    #  Recoded in Perl by David Hall (USDA-FS)  April 16, 2004
 
- my $debug = 0;
+    my $debug = 0;
 
- my $epsilon = 0.000001;
- my $eps_dur = 0.000001;
- my $eps_pcp = 0.000001;
-# my $eps_tp  = 0.000001;	# 2004.09.16
- my $eps_tp  = 0.01;		# 2004.09.16
- my $eps_b   = 0.000001;
- my $eps_d   = 0.000001;
- my $eps_mxd = 0.000001;
+    my $epsilon = 0.000001;
+    my $eps_dur = 0.000001;
+    my $eps_pcp = 0.000001;
 
- my $iteration_limit_b = 20;
- my $iteration_limit_t = 100;
+    # my $eps_tp  = 0.000001;	# 2004.09.16
+    my $eps_tp  = 0.01;       # 2004.09.16
+    my $eps_b   = 0.000001;
+    my $eps_d   = 0.000001;
+    my $eps_mxd = 0.000001;
 
- my $t_start;
- my $t_high;
- my $t_low;
- my $t_end;
- my $i_start;
- my $i_end;
- my $I_peak;
- my $starts;
- my $ends;
+    my $iteration_limit_b = 20;
+    my $iteration_limit_t = 100;
 
-#  Vulnerabilities:
-#	$dur     approaching 0.0
-#	$prcp    approaching 0.0
-#	$tp      approaching 0.0
-#	$tp      approaching 1.0
+    my $t_start;
+    my $t_high;
+    my $t_low;
+    my $t_end;
+    my $i_start;
+    my $i_end;
+    my $I_peak;
+    my $starts;
+    my $ends;
 
-#	$b       approaching 0.0
-#	$d       approaching 0.0
-#	$max_dur approaching 0.0
+    #  Vulnerabilities:
+    #	$dur     approaching 0.0
+    #	$prcp    approaching 0.0
+    #	$tp      approaching 0.0
+    #	$tp      approaching 1.0
 
- @i_peak = ('N/A') x ($#max_time_list+1);		# set all intensities to 'N/A'
+    #	$b       approaching 0.0
+    #	$d       approaching 0.0
+    #	$max_dur approaching 0.0
 
- $tp = $eps_tp if ($tp < $eps_tp);
+    @i_peak = ('N/A') x ( $#max_time_list + 1 );  # set all intensities to 'N/A'
 
- $error_text = '';
- $error_text .= 'Storm duration too small. ' if ($dur < $eps_dur);
- $error_text .= 'Too little precipitation. ' if ($prcp < $eps_pcp);
+    $tp = $eps_tp if ( $tp < $eps_tp );
+
+    $error_text = '';
+    $error_text .= 'Storm duration too small. ' if ( $dur < $eps_dur );
+    $error_text .= 'Too little precipitation. ' if ( $prcp < $eps_pcp );
+
 # $error_text .= 'Time to peak too close to 0. ' if ($tp < $eps_tp);   # 2004.09.16
- $error_text .= 'Time to peak too close to 1. ' if ($tp > 1-$eps_tp);
- return if ($error_text ne '');
+    $error_text .= 'Time to peak too close to 1. ' if ( $tp > 1 - $eps_tp );
+    return                                         if ( $error_text ne '' );
 
- my $im = $prcp / $dur;				# (average intensity) (mm/h) $dur ~ 0
+    my $im = $prcp / $dur;    # (average intensity) (mm/h) $dur ~ 0
 
-#  LEADING CURVE
+    #  LEADING CURVE
 
-#               b (x-tp)
-#     y = ip  e
-#
+    #               b (x-tp)
+    #     y = ip  e
+    #
 
-#
-#  iterate to find b (leading edge exponential coefficient) such that
-#
-#                    -b tp
-#          ip - ip e
-#     b = -----------------
-#               tp
-#
-#  "Newton's method works to solve for b if b < 60" [WEPP brown doc p. 2.9]
+    #
+    #  iterate to find b (leading edge exponential coefficient) such that
+    #
+    #                    -b tp
+    #          ip - ip e
+    #     b = -----------------
+    #               tp
+    #
+    #  "Newton's method works to solve for b if b < 60" [WEPP brown doc p. 2.9]
 
- my $last_b = 15;					# good all situations?
- my $b = 10;						# good all situations?
+    my $last_b = 15;    # good all situations?
+    my $b      = 10;    # good all situations?
 
- my $loop_count = 0;
- while (abs($b - $last_b) > $epsilon) {
-  $last_b = $b;
-  $b = ($ip - $ip*exp(-$b*$tp))/$tp;			# &the_b
-  if ($loopcount > $iteration_limit_b) {
-    $error_text .= 'Could not determine appropriate B coefficient. ';
-    last;
-  }
-  $loop_count += 1;
- }
+    my $loop_count = 0;
+    while ( abs( $b - $last_b ) > $epsilon ) {
+        $last_b = $b;
+        $b      = ( $ip - $ip * exp( -$b * $tp ) ) / $tp;    # &the_b
+        if ( $loopcount > $iteration_limit_b ) {
+            $error_text .= 'Could not determine appropriate B coefficient. ';
+            last;
+        }
+        $loop_count += 1;
+    }
 
- $error_text .= 'B coefficient too small. ' if ($b < $eps_b);
+    $error_text .= 'B coefficient too small. ' if ( $b < $eps_b );
 
-#  TRAILING CURVE
+    #  TRAILING CURVE
 
-#               d (tp-x)
-#     y = ip  e
-#
+    #               d (tp-x)
+    #     y = ip  e
+    #
 
-#           b  tp
-#     d = ---------
-#          1 - tp
+    #           b  tp
+    #     d = ---------
+    #          1 - tp
 
+    my $d = $b * $tp / ( 1 - $tp );    # $tp ~ 1.00
+    $error_text .= 'D coefficient too small. ' if ( $d < $eps_d );
 
- my $d = $b * $tp / (1-$tp);				# $tp ~ 1.00
- $error_text .= 'D coefficient too small. ' if ($d < $eps_d);
+    return if ( $error_text ne '' );
 
- return if ($error_text ne '');
-
-  if ($debug) {
-    print "
+    if ($debug) {
+        print "
 \#   Total precip: $prcp
 \#   Duration:     $dur
 \#   tp:           $tp
 \#   ip:           $ip
 \#    b:           $b
 \#    d:           $d\n\n";
-  }
-
-  my $max_time_m = 0;
-  my $max_time = 0;
-  my $peak_count = 0;
-
-  foreach $max_time_m (@max_time_list) {
-    $max_time = $max_time_m/60;				# times of interest in hours
-
-    $t_start = $tp - $max_time / $dur;			# $dur ~ 0
-    $t_high = $tp;
-    $t_low = $t_start;
-    $t_end = $tp;
-    $i_start = $ip * exp($b * ($t_start - $tp));
-    $i_end = $ip;
-
-    $loop_count = 0;
-    while (abs($i_start - $i_end) > $epsilon) {
-      $loop_count += 1;
-      if ($i_start < $i_end) { $t_low = $t_start } else { $t_high = $t_start };
-      $t_start = ($t_high+$t_low)/2;			# split the difference
-      $t_end = $t_start + $max_time / $dur;		# $dur ~ 0
-      $i_start = $ip * exp($b * ($t_start - $tp));
-      $i_end = $ip * exp($d * ($tp - $t_end));
-      if ($loop_count > $iteration_limit_t) {
-        $error_text .= 'Time iteration limit exceeded. ';
-        last;
-      }
     }
 
-    if ($t_start < 0) {
-      $starts = 0;
-      $ends = 1
-    }
-    else {
-      $starts = $t_start;
-      $ends = $t_end
-    }
+    my $max_time_m = 0;
+    my $max_time   = 0;
+    my $peak_count = 0;
 
-    my $dur_peak = $ends - $starts;
-    my  $max_dur = $max_time/$dur;				# $dur ~ 0
+    foreach $max_time_m (@max_time_list) {
+        $max_time = $max_time_m / 60;    # times of interest in hours
 
-    $error_text .= 'Maximum duration too small. ' if ($max_dur < $eps_mxd);
-    if ($error_text ne '') {
-      next
-    }
+        $t_start = $tp - $max_time / $dur;                 # $dur ~ 0
+        $t_high  = $tp;
+        $t_low   = $t_start;
+        $t_end   = $tp;
+        $i_start = $ip * exp( $b * ( $t_start - $tp ) );
+        $i_end   = $ip;
 
-    if ($dur_peak > $max_dur) {$max_dur = $dur_peak};
-    $I_peak = (($ip/$b - $ip/$b*exp($b*($starts-$tp))) + ($ip/$d - $ip/$d*exp($d*($tp-$ends))))*$im/$max_dur;
-		# $b ~ 0;  $d ~ 0;  $max_dur ~ 0;  $im ~ 0 [$prcp ~ 0]
+        $loop_count = 0;
+        while ( abs( $i_start - $i_end ) > $epsilon ) {
+            $loop_count += 1;
+            if   ( $i_start < $i_end ) { $t_low  = $t_start }
+            else                       { $t_high = $t_start }
+            $t_start = ( $t_high + $t_low ) / 2;       # split the difference
+            $t_end   = $t_start + $max_time / $dur;    # $dur ~ 0
+            $i_start = $ip * exp( $b * ( $t_start - $tp ) );
+            $i_end   = $ip * exp( $d * ( $tp - $t_end ) );
+            if ( $loop_count > $iteration_limit_t ) {
+                $error_text .= 'Time iteration limit exceeded. ';
+                last;
+            }
+        }
 
-    @i_peak[$peak_count] = sprintf '%.2f', $I_peak;
-    $peak_count += 1;
+        if ( $t_start < 0 ) {
+            $starts = 0;
+            $ends   = 1;
+        }
+        else {
+            $starts = $t_start;
+            $ends   = $t_end;
+        }
 
-    if ($debug) {
-      $starts_h = $starts * $dur;
-      $ends_h = $ends * $dur;
-      $dur_peak_m = $dur_peak * $dur * 60; 
+        my $dur_peak = $ends - $starts;
+        my $max_dur  = $max_time / $dur;    # $dur ~ 0
 
-      print "\# $max_time_m min peak intensity
+        $error_text .= 'Maximum duration too small. '
+          if ( $max_dur < $eps_mxd );
+        if ( $error_text ne '' ) {
+            next;
+        }
+
+        if ( $dur_peak > $max_dur ) { $max_dur = $dur_peak }
+        $I_peak =
+          ( ( $ip / $b - $ip / $b * exp( $b * ( $starts - $tp ) ) ) +
+              ( $ip / $d - $ip / $d * exp( $d * ( $tp - $ends ) ) ) ) *
+          $im / $max_dur;
+
+        # $b ~ 0;  $d ~ 0;  $max_dur ~ 0;  $im ~ 0 [$prcp ~ 0]
+
+        @i_peak[$peak_count] = sprintf '%.2f', $I_peak;
+        $peak_count += 1;
+
+        if ($debug) {
+            $starts_h   = $starts * $dur;
+            $ends_h     = $ends * $dur;
+            $dur_peak_m = $dur_peak * $dur * 60;
+
+            print "\# $max_time_m min peak intensity
 \#    starts    $starts_h h
 \#    ends      $ends_h h
 \#    duration  $dur_peak_m m
 \#    intensity $I_peak
 ";
-    }
-    $error_text='';
-  }
-
-# =======================================================
-
-# C:\4702\deh\ermit>perl dur_test2.pl
-
-#   Total precip: 101.6
-#   Duration:       1
-#   tp:             0.01
-#   ip:             1.01
-#    b:             1.99
-#    d:             0.02
-
-# 10 min peak intensity
-#    starts         0.008 h
-#    ends           0.175 h
-#    duration      10 m
-#    intensity    102.4
-#
-# 30 min peak intensity
-#    starts         0.005 h
-#    ends           0.505 h
-#    duration      30 m
-#    intensity    102.1
-#
-# 60 min peak intensity
-#    starts         0 h
-#    ends           1 h
-#    duration      60 m
-#    intensity    101.6
-
-
-# C:\4702\deh\ermit>perl dur_test2.p
-
-#   Total precip:  76.2
-#   Duration:       2
-#   tp:             0.75
-#   ip:             5
-#    b:             6.620
-#    d:            19.86
-
-# 10 min peak intensity
-#    starts         1.375 h
-#    ends           1.54 h
-#    duration      10 m
-#    intensity    156.0
-# 30 min peak intensity
-#    starts         1.125 h
-#    ends           1.625 h
-#    duration      30 m
-#    intensity    109.1
-# 60 min peak intensity
-#    starts         0.75 h
-#    ends           1.75 h
-#    duration      60 m
-#    intensity     70.3
-
-}
-
-sub readPARfile {			# add report of Lat, Long, Elev  2012.11.06
-
-#   $PARfile= 'working/166_2_22_167_o.par';
-
-#   $PARfile
-#   $units = 'ft';
-
-   local $line, @mean_p_if, $mean_p_base, @pww, $pww_base, @pwd, $pwd_base, @tmax_av, $tmax_av_base;
-   local @latlong, @elevs, $lat, $long, $elev, $nwetunits, $elevunits;			# 2012.11.06
-   local @tmin_av, $tmin_av_base, @month_days, @num_wet, @mean_p, $tempunits, $prcpunits, $i, $mod, $modfrom;
-
-# TOKETEE FALLS OR                        358536 0
-# LATT=  43.28 LONG=-122.45 YEARS= 40. TYPE= 2
-# ELEVATION = 2060. TP5 = 1.08 TP6= 4.08
-# MEAN P    .39   .33   .29   .23   .24   .22   .19   .25   .27   .35   .43   .43
-# S DEV P   .45   .37   .30   .25   .24   .25   .26   .26   .29   .39   .48   .50
-# SKEW  P  2.16  2.76  2.20  2.12  1.61  2.17  3.01  1.73  1.99  1.83  2.26  2.55
-# P(W/W)    .74   .77   .76   .72   .64   .59   .41   .48   .60   .64   .75   .76
-# P(W/D)    .30   .28   .31   .31   .20   .15   .06   .08   .10   .19   .33   .32
-# TMAX AV 42.29 48.29 53.67 60.86 69.80 77.65 86.12 85.43 77.99 63.48 48.60 41.95
-# TMIN AV 29.15 30.95 32.50 35.71 40.83 46.87 50.15 49.37 44.32 38.30 33.83 30.11
-
-   open PAR, "<$PARfile";
-    $line=<PAR>;                 # station name
-# print $line;
-     $line=<PAR>;                 # Lat long
-      @latlong=split '=',$line; $lat=substr($latlong[1],0,7); $long=substr($latlong[2],0,7);	# 2012.11.06
-     $line=<PAR>;                 # Elev
-      @elevs=split '=',$line; $elev=substr($elevs[1],0,7);					# 2012.11.06
-     $line=<PAR>;       # MEAN P   0.10  0.10  0.11  0.10  0.11  0.14  0.14  0.09  0.10  0.10  0.12  0.12
-       @mean_p_if = split ' ',$line; $mean_p_base = 2;
-     $line=<PAR>;       # S DEV P  0.12  0.12  0.11  0.13  0.13  0.18  0.22  0.13  0.13  0.11  0.14  0.13
-     $line=<PAR>;       # SKEW  P  1.88  2.30  2.21  2.15  2.29  2.35  3.60  3.22  2.05  2.49  2.22  1.87
-     $line=<PAR>;       # P(W/W)   0.47  0.50  0.39  0.32  0.33  0.30  0.27  0.28  0.40  0.41  0.42  0.48
-       @pww = split ' ',$line; $pww_base = 1;
-     $line=<PAR>;       # P(W/D)   0.20  0.16  0.15  0.13  0.13  0.11  0.05  0.06  0.08  0.12  0.23  0.23
-       @pwd = split ' ',$line; $pwd_base=1;
-     $line=<PAR>;       # TMAX AV 32.89 41.62 52.60 62.81 72.56 80.58 88.52 87.06 77.76 62.85 44.78 34.63
-#      @tmax_av = split ' ',$line; $tmax_av_base = 2;
-       for $ii (0..11) {@tmax_av[$ii]=substr($line,8+$ii*6,6)}; $tmax_av_base = 0;
-     $line=<PAR>;       # TMIN AV 20.31 26.55 32.33 39.12 47.69 55.39 61.58 60.31 51.52 40.17 30.33 22.81
-#      @tmin_av = split ' ',$line; $tmin_av_base = 2;
-       for $ii (0..11) {@tmin_av[$ii]=substr($line,8+$ii*6,6)}; $tmin_av_base = 0;
-
-     @month_days=(31,28,31,30,31,30,31,31,30,31,30,31);
-
-#******************************************************#
-# Calculation from parameter file for displayed values #
-#******************************************************#
-
-    for $i (1..12) {
-      @pw[$i] = @pwd[$i] / (1 + @pwd[$i] - @pww[$i]);
-    }
-
-    for $i (0..11) {
-        @tmax[$i] = @tmax_av[$i+$tmax_av_base];
-        @tmin[$i] = @tmin_av[$i+$tmin_av_base];
-        @pww[$i]  = @pww[$i+$pww_base];
-        @pwd[$i]  = @pwd[$i+$pwd_base];
-        @num_wet[$i] = sprintf '%.2f',@pw[$i+$pww_base] * @month_days[$i];
-        @mean_p[$i] = sprintf '%.2f',@num_wet[$i] * @mean_p_if[$i+$mean_p_base];
-        if ($units eq 'm') {
-           @mean_p[$i] = sprintf '%.2f',25.4 * @mean_p[$i];        # inches to mm
-           @tmax[$i] = sprintf '%.2f',(@tmax[$i] - 32) * 5/9;      # deg F to deg C
-           @tmin[$i] = sprintf '%.2f',(@tmin[$i] - 32) * 5/9;      # deg F to deg C
         }
+        $error_text = '';
     }
 
-   $nwetunits = 'days';                         # 2012.11.06
-   if ($units eq 'm') {
-     $tempunits = 'deg C';
-     $prcpunits = 'mm';
-     $elevunits = 'm';				# 2012.11.06
-     $elev = sprintf '%.1f',$elev/3.28;		# elev is in feet in .par file
-   }
-   else {
-     $tempunits = 'deg F';
-     $prcpunits = 'in';
-     $elevunits = 'ft';                         # 2012.11.06
-   }
+    # =======================================================
 
-   while (<PAR>) {
-     if (/Modified by/) {
-        $modfrom = $_;
-        $modfrom .= <PAR>;
-        last;
-     }
-   }
+    # C:\4702\deh\ermit>perl dur_test2.pl
 
-   close PAR;
+    #   Total precip: 101.6
+    #   Duration:       1
+    #   tp:             0.01
+    #   ip:             1.01
+    #    b:             1.99
+    #    d:             0.02
 
-   if ($modfrom ne '') {
-     chomp $modfrom;
-     $, = ' ';
-       print $modfrom,"<br>";
-       print 'T MAX ',@tmax,$tempunits,"<br>\n";
-       print 'T MIN ',@tmin,$tempunits,"<br>\n";
-       print 'MEANP ',@mean_p,$prcpunits,"<br>\n";
-       print '# WET ',@num_wet,$nwetunits,"<br>\n";
-       print "Latitude $lat Longitude $long Elevation $elev $elevunits<br>\n";
-     $, = '';
-   }
+    # 10 min peak intensity
+    #    starts         0.008 h
+    #    ends           0.175 h
+    #    duration      10 m
+    #    intensity    102.4
+    #
+    # 30 min peak intensity
+    #    starts         0.005 h
+    #    ends           0.505 h
+    #    duration      30 m
+    #    intensity    102.1
+    #
+    # 60 min peak intensity
+    #    starts         0 h
+    #    ends           1 h
+    #    duration      60 m
+    #    intensity    101.6
+
+    # C:\4702\deh\ermit>perl dur_test2.p
+
+    #   Total precip:  76.2
+    #   Duration:       2
+    #   tp:             0.75
+    #   ip:             5
+    #    b:             6.620
+    #    d:            19.86
+
+    # 10 min peak intensity
+    #    starts         1.375 h
+    #    ends           1.54 h
+    #    duration      10 m
+    #    intensity    156.0
+    # 30 min peak intensity
+    #    starts         1.125 h
+    #    ends           1.625 h
+    #    duration      30 m
+    #    intensity    109.1
+    # 60 min peak intensity
+    #    starts         0.75 h
+    #    ends           1.75 h
+    #    duration      60 m
+    #    intensity     70.3
+
 }
 
 sub make_history_popup {
 
-  my $version;
+    my $version;
 
-# Reads parent (perl) file and looks for a history block:
+    # Reads parent (perl) file and looks for a history block:
 ## BEGIN HISTORY ####################################################
-# WHRM Wildlife Habitat Response Model Version History
+    # WHRM Wildlife Habitat Response Model Version History
 
-  $version='2005.02.08';        # Make self-creating history popup page
+    $version = '2005.02.08';    # Make self-creating history popup page
+
 # $version = '2005.02.07';      # Fix parameter passing to tail_html; stuff after semicolon lost
 #!$version = '2005.02.07';      # Bang in line says do not use
 # $version = '2005.02.04';      # Clean up HTML formatting, add head_html and tail_html functions
@@ -5785,45 +6947,45 @@ sub make_history_popup {
 # and returns body (including Javascript document.writeln instructions) for a pop-up history window
 # called pophistory.
 
-# First line after 'BEGIN HISTORY' is <title> text
-# Splits version and comment on semi-colon
-# Version must be version= then digits and periods
-# Bang in line causes line to be ignored
-# Disallowed: single and double quotes in comment part
-# Not handled: continuation lines
+    # First line after 'BEGIN HISTORY' is <title> text
+    # Splits version and comment on semi-colon
+    # Version must be version= then digits and periods
+    # Bang in line causes line to be ignored
+    # Disallowed: single and double quotes in comment part
+    # Not handled: continuation lines
 
-# Usage:
+    # Usage:
 
-#print "<html>
-# <head>
-#  <title>$title</title>
-#   <script language=\"javascript\">
-#    <!-- hide from old browsers...
-#
-#  function popuphistory() {
-#    pophistory = window.open('','pophistory','')
-#";
-#    print make_history_popup();
-#print "
-#    pophistory.document.close()
-#    pophistory.focus()
-#  }
-#";
+    #print "<html>
+    # <head>
+    #  <title>$title</title>
+    #   <script language=\"javascript\">
+    #    <!-- hide from old browsers...
+    #
+    #  function popuphistory() {
+    #    pophistory = window.open('','pophistory','')
+    #";
+    #    print make_history_popup();
+    #print "
+    #    pophistory.document.close()
+    #    pophistory.focus()
+    #  }
+    #";
 
-# print $0,"\n";
+    # print $0,"\n";
 
-  my ($line, $z, $vers, $comment);
+    my ( $line, $z, $vers, $comment );
 
-  open MYSELF, "<$0";
+    open MYSELF, "<$0";
     while (<MYSELF>) {
 
-      next if (/!/);
+        next if (/!/);
 
-      if (/## BEGIN HISTORY/) {
-        $line = <MYSELF>;
-        chomp $line;
-        $line = substr($line,2);
-        $z = "    pophistory.document.writeln('<html>')
+        if (/## BEGIN HISTORY/) {
+            $line = <MYSELF>;
+            chomp $line;
+            $line = substr( $line, 2 );
+            $z    = "    pophistory.document.writeln('<html>')
     pophistory.document.writeln(' <head>')
     pophistory.document.writeln('  <title>$line</title>')
     pophistory.document.writeln(' </head>')
@@ -5838,35 +7000,37 @@ sub make_history_popup {
     pophistory.document.writeln('     <th bgcolor=lightblue>Comments</th>')
     pophistory.document.writeln('    </tr>')
 ";
-      } # if (/## BEGIN HISTORY/)
+        }    # if (/## BEGIN HISTORY/)
 
-      if (/version/) {
-        ($vers, $comment) = split (/;/,$_);
-        $comment =~ s/#//;
-        chomp $comment;
-        $vers =~ s/'//g;
-        $vers =~ s/ //g;
-        $vers =~ s/"//g;
-        if ($vers =~ /version=*([0-9.]+)/) {    # pull substring out of a line
-          $z .= "    pophistory.document.writeln('    <tr>')
+        if (/version/) {
+            ( $vers, $comment ) = split( /;/, $_ );
+            $comment =~ s/#//;
+            chomp $comment;
+            $vers =~ s/'//g;
+            $vers =~ s/ //g;
+            $vers =~ s/"//g;
+            if ( $vers =~ /version=*([0-9.]+)/ )
+            {    # pull substring out of a line
+                $z .= "    pophistory.document.writeln('    <tr>')
     pophistory.document.writeln('     <th valign=top bgcolor=lightblue>$1</th>')
     pophistory.document.writeln('     <td>$comment</td>')
     pophistory.document.writeln('    </tr>')
 ";
-        }       # (/version *([0-9]+)/)
-     }  # if (/version/)
+            }    # (/version *([0-9]+)/)
+        }    # if (/version/)
 
-    if (/## END HISTORY/) {
-        $z .= "    pophistory.document.writeln('   </table>')
+        if (/## END HISTORY/) {
+            $z .= "    pophistory.document.writeln('   </table>')
     pophistory.document.writeln('   </font>')
     pophistory.document.writeln('  </center>')
     pophistory.document.writeln(' </body>')
     pophistory.document.writeln('</html>')
 ";
-      last;
-    }     # if (/## END HISTORY/)
-  }     # while
-  close MYSELF;
-  return $z;
+            last;
+        }    # if (/## END HISTORY/)
+    }    # while
+    close MYSELF;
+    return $z;
 }
+
 # ------------------------ end of subroutines ----------------------------

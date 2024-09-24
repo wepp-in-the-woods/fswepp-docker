@@ -1,18 +1,17 @@
 #! /usr/bin/perl
-#! /fsapps/fssys/bin/perl
-#
+
+use CGI qw(escapeHTML);
+
 # modpar.pl
 #
 
-   $version = "2014.12.02";
-#  $version = "2014.10.06";
-#  $version = "2010.11.18";
-#  $version = "2004.06.03";
-   $debug = 0;
+$version = "2014.12.02";
+
+$debug = 0;
 
 #  usage:
 #    exec modpar.pl $CL $units $comefrom $state
-#    
+#
 #  arguments:
 #    $CL		climate file name
 #    $units		'm' or 'ft'
@@ -27,9 +26,9 @@
 #      climate_name     Climate name
 #      ppcp1..ppcp12    PRISM precip for January..December (mm or in)
 #      ppcp             PRISM annual precipitation (mm or in)
-#      comefrom         Calling program                 
-#      state            State for basis climate station 
-#      retreat                                          
+#      comefrom         Calling program
+#      state            State for basis climate station
+#      retreat
 #  reads:
 #    ../wepphost
 #    ../platform
@@ -61,167 +60,188 @@
 #  $units=$ARGV[1];		# 2014.12.01 DEH
 #  $state=$ARGV[2];		# 2014.12.01 DEH
 #  $comefrom=$ARGV[3];		# 2014.12.01 DEH
- 
-   $CL=$ARGV[0];
-   $units=$ARGV[1]; 
-   $comefrom=$ARGV[2];
-   $state=$ARGV[3];
- 
-   if ($CL . $units . $comefrom . $state eq "") { 
-      $parse=1;
-      &ReadParse(*parameters);
-      $plat = $parameters{'platitude'};
-      $plon = $parameters{'plongitude'};
-#      $lathemisphere = $parameters{'lathem'};
-#      $longhemisphere = $parameters{'longhem'};
-      $pelev = $parameters{'elev'};
-      $units = $parameters{'units'};
-      $CL = $parameters{'CL'};
-      $climate_name = $parameters{'climate_name'};
 
-       for $i (1..12) {
-          $ppcp[$i-1]=$parameters{"ppcp$i"};
-       }
-      $ppcp = $parameters{"ppcp"};
-      $comefrom = $parameters{"comefrom"};
-      $state = $parameters{"state"};
-      $retreat = $parameters{"retreat"};
-      if ($retreat eq "") {$prism = 1}
-   }
+$CL       = $ARGV[0];
+$units    = $ARGV[1];
+$comefrom = $ARGV[2];
+$state    = $ARGV[3];
+
+if ( $CL . $units . $comefrom . $state eq "" ) {
+    $parse = 1;
+    &ReadParse(*parameters);
+
+    $plat         = escapeHTML( $parameters{'platitude'} );
+    $plon         = escapeHTML( $parameters{'plongitude'} );
+    $pelev        = escapeHTML( $parameters{'elev'} );
+    $units        = escapeHTML( $parameters{'units'} );
+    $CL           = escapeHTML( $parameters{'CL'} );
+    $climate_name = escapeHTML( $parameters{'climate_name'} );
+
+    for $i ( 1 .. 12 ) {
+        $ppcp[ $i - 1 ] = escapeHTML( $parameters{"ppcp$i"} );
+    }
+    $ppcp     = escapeHTML( $parameters{"ppcp"} );
+    $comefrom = escapeHTML( $parameters{"comefrom"} );
+    $state    = escapeHTML( $parameters{"state"} );
+    $retreat  = escapeHTML( $parameters{"retreat"} );
+    if ( $retreat eq "" ) { $prism = 1 }
+}
 
 ## if still no parameters from command-line or from form, bail
 
-  if ($CL . $units . $comefrom . $state eq "") {
+if ( $CL . $units . $comefrom . $state eq "" ) {
     print "Content-type: text/html\n\n";
     print "<HTML>\n";
     print " <HEAD>\n";
-    print "  <meta http-equiv=\"Refresh\" content=\"0; URL=/cgi-bin/fswepp/rc/rockclim.pl\">\n";
+    print
+"  <meta http-equiv=\"Refresh\" content=\"0; URL=/cgi-bin/fswepp/rc/rockclim.pl\">\n";
     print " </HEAD>\n";
     print " <body>\n";
     print " Climate: $CL\n Units: $units\n Comefrom: $comefrom\n state: $state";
     print " </body>\n";
     print "</html>\n";
     die;
-  }
+}
 
-   if ($units eq '-um')  {$units = 'm'}		# DEH 07/19/00
-   if ($units eq '-uft') {$units = 'ft'}	# DEH 07/19/00
-   if ($units ne 'ft' && $units ne 'm') {
-    $state = $units if $state eq '';      	# patch for elided units
-    $units = 'ft'
-   };	# DEH 2004.06.03
- 
-   chomp $CL;
+if ( $units eq '-um' )  { $units = 'm' }     # DEH 07/19/00
+if ( $units eq '-uft' ) { $units = 'ft' }    # DEH 07/19/00
+if ( $units ne 'ft' && $units ne 'm' ) {
+    $state = $units if $state eq '';         # patch for elided units
+    $units = 'ft';
+}
+;                                            # DEH 2004.06.03
 
-   $wepphost="localhost";
-   if (-e "../wepphost") {
-     open HOST, "<../wepphost";
-     $wepphost=lc(<HOST>);
-     chomp $wepphost;
-     close HOST;
-   }
+chomp $CL;
 
-   $platform="pc";
-   if (-e "../platform") {
-     open Platform, "<../platform";
-     $platform=lc(<Platform>);
-     chomp $platform;
-     close Platform;
-   }
+$wepphost = "localhost";
+if ( -e "../wepphost" ) {
+    open HOST, "<../wepphost";
+    $wepphost = lc(<HOST>);
+    chomp $wepphost;
+    close HOST;
+}
+
+$platform = "pc";
+if ( -e "../platform" ) {
+    open Platform, "<../platform";
+    $platform = lc(<Platform>);
+    chomp $platform;
+    close Platform;
+}
 
 # DEH 03/05/2001
-  $cookie = $ENV{'HTTP_COOKIE'};
+$cookie = $ENV{'HTTP_COOKIE'};
+
 #  $sep = index ($cookie,"=");
 #  $me = "";
 #  if ($sep > -1) {$me = substr($cookie,$sep+1,1)}
 
-    $sep = index ($cookie,"FSWEPPuser=");
-    $me = "";
-    if ($sep > -1) {$me = substr($cookie,$sep+11,1)}
+$sep = index( $cookie, "FSWEPPuser=" );
+$me  = "";
+if ( $sep > -1 ) { $me = substr( $cookie, $sep + 11, 1 ) }
 
-  if ($me ne "") {
-#    $me = lc(substr($me,0,1));
-#    $me =~ tr/a-z/ /c;
-    $me = substr($me,0,1);
+if ( $me ne "" ) {
+
+    #    $me = lc(substr($me,0,1));
+    #    $me =~ tr/a-z/ /c;
+    $me = substr( $me, 0, 1 );
     $me =~ tr/a-zA-Z/ /c;
-  }
-  if ($me eq " ") {$me = ""}
+}
+if ( $me eq " " ) { $me = "" }
+
 # DEH 03/05/2001
 
-   $climateFile = $CL . '.par';
-   open PAR, "<$climateFile";
-   $line=<PAR>;                           # EPHRATA CAA AP WA                       452614 0
-   $climate_name = substr($line,1,32);
-     if ($debug) {print "climate: '$CL' ; units: '$units'<br>\n"}
+$climateFile = $CL . '.par';
+open PAR, "<$climateFile";
+$line         = <PAR>;    # EPHRATA CAA AP WA                       452614 0
+$climate_name = substr( $line, 1, 32 );
+if ($debug) { print "climate: '$CL' ; units: '$units'<br>\n" }
 
-     $line=<PAR>;                           # LATT=  47.30 LONG=-119.53 YEARS= 44. TYPE= 3
-     ($lattext, $lat, $lon) = split '=',$line;
-     $line=<PAR>;	# ELEVATION = 1260. TP5 = 0.86 TP6= 2.90
-       ($this,$that) = split '=',$line; $elev = $that + 0;
-     $line=<PAR>;	# MEAN P   0.10  0.10  0.11  0.10  0.11  0.14  0.14  0.09  0.10  0.10  0.12  0.12
-       @mean_p_if = split ' ',$line; $mean_p_base = 2;
-     $line=<PAR>;	# S DEV P  0.12  0.12  0.11  0.13  0.13  0.18  0.22  0.13  0.13  0.11  0.14  0.13
-     $line=<PAR>;	# SQEW  P  1.88  2.30  2.21  2.15  2.29  2.35  3.60  3.22  2.05  2.49  2.22  1.87
-     $line=<PAR>;	# P(W/W)   0.47  0.50  0.39  0.32  0.33  0.30  0.27  0.28  0.40  0.41  0.42  0.48
-       @pww = split ' ',$line; $pww_base = 1;
-     $line=<PAR>;	# P(W/D)   0.20  0.16  0.15  0.13  0.13  0.11  0.05  0.06  0.08  0.12  0.23  0.23
-       @pwd = split ' ',$line; $pwd_base=1;
-     $line=<PAR>;	# TMAX AV 32.89 41.62 52.60 62.81 72.56 80.58 88.52 87.06 77.76 62.85 44.78 34.63
+$line = <PAR>;            # LATT=  47.30 LONG=-119.53 YEARS= 44. TYPE= 3
+( $lattext, $lat, $lon ) = split '=', $line;
+$line = <PAR>;            # ELEVATION = 1260. TP5 = 0.86 TP6= 2.90
+( $this, $that ) = split '=', $line;
+$elev = $that + 0;
+$line = <PAR>
+  ; # MEAN P   0.10  0.10  0.11  0.10  0.11  0.14  0.14  0.09  0.10  0.10  0.12  0.12
+@mean_p_if   = split ' ', $line;
+$mean_p_base = 2;
+$line        = <PAR>
+  ; # S DEV P  0.12  0.12  0.11  0.13  0.13  0.18  0.22  0.13  0.13  0.11  0.14  0.13
+$line = <PAR>
+  ; # SQEW  P  1.88  2.30  2.21  2.15  2.29  2.35  3.60  3.22  2.05  2.49  2.22  1.87
+$line = <PAR>
+  ; # P(W/W)   0.47  0.50  0.39  0.32  0.33  0.30  0.27  0.28  0.40  0.41  0.42  0.48
+@pww      = split ' ', $line;
+$pww_base = 1;
+$line     = <PAR>
+  ; # P(W/D)   0.20  0.16  0.15  0.13  0.13  0.11  0.05  0.06  0.08  0.12  0.23  0.23
+@pwd      = split ' ', $line;
+$pwd_base = 1;
+$line     = <PAR>
+  ; # TMAX AV 32.89 41.62 52.60 62.81 72.56 80.58 88.52 87.06 77.76 62.85 44.78 34.63
+
 #      @tmax_av = split ' ',$line; $tmax_av_base = 2;
-       for $ii (0..11) {$tmax_av[$ii]=substr($line,8+$ii*6,6)}; $tmax_av_base = 0;
-     $line=<PAR>;	# TMIN AV 20.31 26.55 32.33 39.12 47.69 55.39 61.58 60.31 51.52 40.17 30.33 22.81
-#      @tmin_av = split ' ',$line; $tmin_av_base = 2;
-       for $ii (0..11) {$tmin_av[$ii]=substr($line,8+$ii*6,6)}; $tmin_av_base = 0;
-     close PAR;
+for $ii ( 0 .. 11 ) { $tmax_av[$ii] = substr( $line, 8 + $ii * 6, 6 ) }
+$tmax_av_base = 0;
+$line         = <PAR>
+  ; # TMIN AV 20.31 26.55 32.33 39.12 47.69 55.39 61.58 60.31 51.52 40.17 30.33 22.81
 
-    @month_name=qw(January February March April May June July August September October November December);
-    @month_days=(31,28,31,30,31,30,31,31,30,31,30,31);
+#      @tmin_av = split ' ',$line; $tmin_av_base = 2;
+for $ii ( 0 .. 11 ) { $tmin_av[$ii] = substr( $line, 8 + $ii * 6, 6 ) }
+$tmin_av_base = 0;
+close PAR;
+
+@month_name =
+  qw(January February March April May June July August September October November December);
+@month_days = ( 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 );
 
 #******************************************************#
 # Calculation from parameter file for displayed values #
 #******************************************************#
 
-    for $i (1..12) {
-      $pw[$i] = $pwd[$i] / (1 + $pwd[$i] - $pww[$i]);
-    }
+for $i ( 1 .. 12 ) {
+    $pw[$i] = $pwd[$i] / ( 1 + $pwd[$i] - $pww[$i] );
+}
 
-    $annual_precip = 0;
-    $annual_wet_days = 0;
-    for $i (0..11) {
-        $tmax[$i] = $tmax_av[$i+$tmax_av_base];
-        $tmin[$i] = $tmin_av[$i+$tmin_av_base];
-        $pww[$i]  = $pww[$i+$pww_base];
-        $pwd[$i]  = $pwd[$i+$pwd_base];
-        $num_wet[$i] = sprintf '%.2f',$pw[$i+$pww_base] * $month_days[$i];
-        $mean_p[$i] = sprintf '%.2f',$num_wet[$i] * $mean_p_if[$i+$mean_p_base];
-        if ($units eq 'm') {
-           $mean_p[$i] = sprintf '%.2f',25.4 * $mean_p[$i];                 # inches to mm
-           $tmax[$i] = sprintf '%.2f',($tmax[$i] - 32) * 5/9;      # deg F to deg C
-           $tmin[$i] = sprintf '%.2f',($tmin[$i] - 32) * 5/9;      # deg F to deg C
-        }
-        $annual_precip += $mean_p[$i];
-        $annual_wet_days += $num_wet[$i];
-
-       if ($prism eq "") {                 # display file values when no prism input
-           $ppcp[$i] = $mean_p[$i];
-           $ppcp = $annual_precip;
-           $plat = $lat;
-           $plon = $lon;
-           $lathemisphere='N';
-           $longhemisphere='W';
-           if ($units eq "m") {$pelev = $elev/3.28;}
-           else {$pelev = $elev;}
-       }
+$annual_precip   = 0;
+$annual_wet_days = 0;
+for $i ( 0 .. 11 ) {
+    $tmax[$i]    = $tmax_av[ $i + $tmax_av_base ];
+    $tmin[$i]    = $tmin_av[ $i + $tmin_av_base ];
+    $pww[$i]     = $pww[ $i + $pww_base ];
+    $pwd[$i]     = $pwd[ $i + $pwd_base ];
+    $num_wet[$i] = sprintf '%.2f', $pw[ $i + $pww_base ] * $month_days[$i];
+    $mean_p[$i]  = sprintf '%.2f',
+      $num_wet[$i] * $mean_p_if[ $i + $mean_p_base ];
+    if ( $units eq 'm' ) {
+        $mean_p[$i] = sprintf '%.2f', 25.4 * $mean_p[$i];       # inches to mm
+        $tmax[$i] = sprintf '%.2f', ( $tmax[$i] - 32 ) * 5 / 9; # deg F to deg C
+        $tmin[$i] = sprintf '%.2f', ( $tmin[$i] - 32 ) * 5 / 9; # deg F to deg C
     }
+    $annual_precip   += $mean_p[$i];
+    $annual_wet_days += $num_wet[$i];
+
+    if ( $prism eq "" ) {    # display file values when no prism input
+        $ppcp[$i]       = $mean_p[$i];
+        $ppcp           = $annual_precip;
+        $plat           = $lat;
+        $plon           = $lon;
+        $lathemisphere  = 'N';
+        $longhemisphere = 'W';
+        if   ( $units eq "m" ) { $pelev = $elev / 3.28; }
+        else                   { $pelev = $elev; }
+    }
+}
 
 #############
 # HTML Page #
 #############
 
-   print "Content-type: text/html\n\n";
-   print "<HTML>\n";
-   print " <HEAD>\n";
-   print "  <TITLE>Modify Climate</TITLE>\n";
+print "Content-type: text/html\n\n";
+print "<HTML>\n";
+print " <HEAD>\n";
+print "  <TITLE>Modify Climate</TITLE>\n";
 
 print '  <SCRIPT Language="JavaScript" type="TEXT/JAVASCRIPT">
     <!--
@@ -675,14 +695,14 @@ function lapsetemp() {
    if (document.mods.lapse.checked) {
  var selev = $elev/3.28\n";
 
- if ($units eq "m") { 
-   print " var lelev = parseFloat(document.mods.melev.value)
+if ( $units eq "m" ) {
+    print " var lelev = parseFloat(document.mods.melev.value)
            var maxlapse = -6.0 * ((selev-lelev)/1000)\n";
- }
- else {
-   print " var lelev = parseFloat(document.mods.ftelev.value)/3.28
+}
+else {
+    print " var lelev = parseFloat(document.mods.ftelev.value)/3.28
            var maxlapse = -6.0 * ((selev-lelev)/1000) * (9.0/5.0)\n";
- }
+}
 
 print "
    document.mods.tx1.value = precision(otx1 - maxlapse,2)
@@ -698,16 +718,16 @@ print "
    document.mods.tx11.value = precision(otx11 - maxlapse,2)
    document.mods.tx12.value = precision(otx12 - maxlapse,2)\n";
 
- if ($units eq "m") { 
-   print " var lelev = parseFloat(document.mods.melev.value)
+if ( $units eq "m" ) {
+    print " var lelev = parseFloat(document.mods.melev.value)
            var minlapse = -5.0 * ((selev-lelev)/1000)\n";
- }
- else {
-   print " var lelev = parseFloat(document.mods.ftelev.value)/3.28
+}
+else {
+    print " var lelev = parseFloat(document.mods.ftelev.value)/3.28
            var minlapse = -5.0 * ((selev-lelev)/1000) * (9.0/5.0)\n";
- }
+}
 
-print"
+print "
    document.mods.tn1.value = precision(otn1 - minlapse,2)
    document.mods.tn2.value = precision(otn2 - minlapse,2)
    document.mods.tn3.value = precision(otn3 - minlapse,2)
@@ -782,12 +802,13 @@ function dms2dec_calc(unit) {
 </SCRIPT>
 ";
 
-   print '
+print '
   </HEAD>
    <body bgcolor=white link="#1603F3" vlink="#160A8C">
     <font face="Arial, Geneva, Helvetica">';
+
 # print "modpar $CL $climateFile $units<p>\n";
-   print "
+print "
      <center>
       <table width=80%>
        <tr>
@@ -796,43 +817,47 @@ function dms2dec_calc(unit) {
          <H3>Climate parameters for<br>$climate_name</H3>
 ";
 
-     if ($debug) {print "climate: '$CL' ; units: '$units'<br>\n state: '$state'<br>\n"}
+if ($debug) {
+    print "climate: '$CL' ; units: '$units'<br>\n state: '$state'<br>\n";
+}
 
-     $lat += 0;
-     $lon += 0;
-     print '<b>';
-     printf "%.2f", abs($lat);
-     print '<sup>o</sup>';
+$lat += 0;
+$lon += 0;
+print '<b>';
+printf "%.2f", abs($lat);
+print '<sup>o</sup>';
 
-     if ($plat > 0) {
-#         print 'N ';
-         $lathemisphere = "N";
-     } 
-     else {
-#         print 'S ';
-         $lathemisphere = "S";
-     }
-     print $lathemisphere,' ';
+if ( $plat > 0 ) {
 
-     printf "%.2f", abs($lon);
-     print '<sup>o</sup>';
-     
-     if ($plon > 0) {
-#         print 'E';
-         $longhemisphere = "E";
-     }
-     else {
-#         print 'W';
-         $longhemisphere = "W";
-     }
-     print $longhemisphere;
-     if ($units eq 'm') {
-       printf "<p>%4d m elevation",$elev / 3.28;
-     }
-     else {
-       print "<p>$elev feet elevation";
-     }
-     print '</b>
+    #         print 'N ';
+    $lathemisphere = "N";
+}
+else {
+    #         print 'S ';
+    $lathemisphere = "S";
+}
+print $lathemisphere, ' ';
+
+printf "%.2f", abs($lon);
+print '<sup>o</sup>';
+
+if ( $plon > 0 ) {
+
+    #         print 'E';
+    $longhemisphere = "E";
+}
+else {
+    #         print 'W';
+    $longhemisphere = "W";
+}
+print $longhemisphere;
+if ( $units eq 'm' ) {
+    printf "<p>%4d m elevation", $elev / 3.28;
+}
+else {
+    print "<p>$elev feet elevation";
+}
+print '</b>
    <p>
    <td width=10%>&nbsp;</td>
    <td width=45%>
@@ -841,72 +866,82 @@ function dms2dec_calc(unit) {
  <a href="/fswepp/docs/modpardoc.html" target="docs"><img src="/fswepp/images/quest.gif" width="14" height="12" border="0"></a></H3>
      <form name="prism" action="/cgi-bin/fswepp/prism/prisform.pl" method=post>
      <input type=text name=platitude size=7 value=';
-     printf "%.2f", abs($plat);     print ' onChange="updateLL()"> <b><sup>o</sup>';
-     print $lathemisphere;
-     print '</b>
+printf "%.2f", abs($plat);
+print ' onChange="updateLL()"> <b><sup>o</sup>';
+print $lathemisphere;
+print '</b>
      <input type=text name=plongitude size=7 value=';
-     printf "%.2f", abs($plon);     print ' onChange="updateLL()"> <b><sup>o</sup>';
+printf "%.2f", abs($plon);
+print ' onChange="updateLL()"> <b><sup>o</sup>';
+
 #     printf "%.2f", $plon;     print ' onChange="updateLL()"> <b><sup>o</sup>';
-     print $longhemisphere;
-     print '</b>
+print $longhemisphere;
+print '</b>
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-     <input type=image src="https://',$wepphost,'/fswepp/images/prism.gif" value=PRISM align=middle>
+     <input type=image src="https://', $wepphost,
+  '/fswepp/images/prism.gif" value=PRISM align=middle>
 <!-- DEH 23 Jul 2002 -->
-     <br>(<a href="Javascript:latlong_calc(\'',$units,'\')">lat-long calculator</a>)
-     (<a href="Javascript:dms2dec_calc(\'',$units,'\')">degrees calculator</a>)
+     <br>(<a href="Javascript:latlong_calc(\'', $units,
+  '\')">lat-long calculator</a>)
+     (<a href="Javascript:dms2dec_calc(\'', $units,
+  '\')">degrees calculator</a>)
 <!-- -->
      <input type=hidden name=elev value=';
-     if ($units eq 'm') {printf "%4d", $pelev / 3.28}
-     else {print $pelev}
-     print '>
-     <input type=hidden name=latitude value=',abs($lat),'>
-     <input type=hidden name=lathem value=',$lathemisphere,'>
-     <input type=hidden name=longitude value=',abs($lon),'>
-     <input type=hidden name=longhem value=',$longhemisphere,'>
-     <input type=hidden name=units value=',$units,'>
-     <input type=hidden name=CL value=',$CL,'>
-     <input type=hidden name=state value=',$state,'>
-     <input type=hidden name=climate_name value="',$climate_name,'">';
-        for $i (0..11) {
-        print "\n     ";
-        print '<input type=hidden name="pc',$i+1,'" value="',$mean_p[$i],'">'
-        }
-     print '
-     <input type=hidden name="pc" value="',$annual_precip,'">
-     <input type=hidden name="comefrom" value="',$comefrom,'">
+if ( $units eq 'm' ) { printf "%4d", $pelev / 3.28 }
+else                 { print $pelev}
+print '>
+     <input type=hidden name=latitude value=',      abs($lat), '>
+     <input type=hidden name=lathem value=',        $lathemisphere, '>
+     <input type=hidden name=longitude value=',     abs($lon), '>
+     <input type=hidden name=longhem value=',       $longhemisphere, '>
+     <input type=hidden name=units value=',         $units,          '>
+     <input type=hidden name=CL value=',            $CL,             '>
+     <input type=hidden name=state value=',         $state,          '>
+     <input type=hidden name=climate_name value="', $climate_name,   '">';
+
+for $i ( 0 .. 11 ) {
+    print "\n     ";
+    print '<input type=hidden name="pc', $i + 1, '" value="', $mean_p[$i], '">';
+}
+print '
+     <input type=hidden name="pc" value="',       $annual_precip, '">
+     <input type=hidden name="comefrom" value="', $comefrom,      '">
      </form>
 
      <form name="mods" action="/cgi-bin/fswepp/rc/createpar.pl" method=post>
      ';
-     if ($units eq 'm') {
-       print "\n     ";
-       print '<input type=text name=melev size=7 onChange="lapsetemp()" value=';
-       printf " %4d",$pelev;
-       print '> <b>m elevation</b>';
-     }
-     else {
-       print '<input type=text name=ftelev size=7 onChange="lapsetemp()" value=';
-       printf " %4d",$pelev;
-       print '> <b>ft elevation</b>';
-     }
+if ( $units eq 'm' ) {
+    print "\n     ";
+    print '<input type=text name=melev size=7 onChange="lapsetemp()" value=';
+    printf " %4d", $pelev;
+    print '> <b>m elevation</b>';
+}
+else {
+    print '<input type=text name=ftelev size=7 onChange="lapsetemp()" value=';
+    printf " %4d", $pelev;
+    print '> <b>ft elevation</b>';
+}
 print '  
 </tr>
 </table>
 <p>
-    <input type="hidden" name="units" value="',$units,'">
-    <input type="hidden" name="climateFile" value="',$climateFile,'">
+    <input type="hidden" name="units" value="',       $units,       '">
+    <input type="hidden" name="climateFile" value="', $climateFile, '">
     <input type="hidden" name="latitude" value="';
-     printf "%.2f", abs($plat);  print '">
+printf "%.2f", abs($plat);
+print '">
     <input type="hidden" name="longitude"  value="';
-     printf "%.2f", abs($plon);  print '">
-    <input type="hidden" name="comefrom" value="',$comefrom,'">
-    <input type="hidden" name="lathemisphere" value="',$lathemisphere,'">
-    <input type="hidden" name="longhemisphere" value="',$longhemisphere,'">
-    <input type="hidden" name="me" value="',$me,'">
+printf "%.2f", abs($plon);
+print '">
+    <input type="hidden" name="comefrom" value="',       $comefrom,       '">
+    <input type="hidden" name="lathemisphere" value="',  $lathemisphere,  '">
+    <input type="hidden" name="longhemisphere" value="', $longhemisphere, '">
+    <input type="hidden" name="me" value="',             $me,             '">
     <table border=1 bgcolor="white">
 <tr>';
-     if ($units eq 'm') {
-      print '
+
+if ( $units eq 'm' ) {
+    print '
         <th bgcolor=85D2a2>Mean<br>Maximum<br>Temperature<br>(<sup>o</sup>C)
         <th bgcolor=85D2b2>Mean<br>Minimum<br>Temperature<br>(<sup>o</sup>C)
         <th bgcolor=85D2c2>Mean<br>Precipitation<br>(mm)
@@ -915,23 +950,23 @@ print '
         <th bgcolor=85D2a2>Mean<br>Maximum<br>Temperature<br>(<sup>o</sup>C)
         <th bgcolor=85D2b2>Mean<br>Minimum<br>Temperature<br>(<sup>o</sup>C)
         <th bgcolor=85D2c2>';
-        if ($prism eq "") {
-            print 'Mean';
-        }
-        else {
-            print '<font color=red>P</font>
+    if ( $prism eq "" ) {
+        print 'Mean';
+    }
+    else {
+        print '<font color=red>P</font>
                    <font color=orange>R</font>
                    <font color=gold>I</font>
                    <font color=green>S</font>
                    <font color=blue>M</font>';
-        }
-      print '<br>Precipitation<br>(mm)
+    }
+    print '<br>Precipitation<br>(mm)
         <th bgcolor=85D2D2>Number<br>of wet days
         <!-- <th bgcolor=gold>P(W:W)
         <th bgcolor=gold>P(W:D) -->';
-      } 
-      else {
-       print '<th bgcolor=85D2a2>Mean<br>Maximum<br>Temperature<br>(<sup>o</sup>F)
+}
+else {
+    print '<th bgcolor=85D2a2>Mean<br>Maximum<br>Temperature<br>(<sup>o</sup>F)
         <th bgcolor=85D2b2>Mean<br>Minimum<br>Temperature<br>(<sup>o</sup>F)
         <th bgcolor=85D2c2>Mean<br>Precipitation<br>(in)
         <th bgcolor=85D2d2>Number<br>of wet days
@@ -939,48 +974,53 @@ print '
         <th bgcolor=85D2a2>Mean<br>Maximum<br>Temperature<br>(<sup>o</sup>F)
         <th bgcolor=85D2b2>Mean<br>Minimum<br>Temperature<br>(<sup>o</sup>F)
         <th bgcolor=85D2c2>';
-        if ($prism eq "") {
-            print 'Mean';
-        }
-        else {
-            print '<font color=red>P</font>
+    if ( $prism eq "" ) {
+        print 'Mean';
+    }
+    else {
+        print '<font color=red>P</font>
                    <font color=orange>R</font>
                    <font color=gold>I</font>
                    <font color=green>S</font>
                    <font color=blue>M</font>';
-        }
-      print '<br>Precipitation<br>(in)
+    }
+    print '<br>Precipitation<br>(in)
         <th bgcolor=85D2d2>Number<br>of wet days';
-      }
-for $i (0..11) {print '
+}
+for $i ( 0 .. 11 ) {
+    print '
     <tr> 
-     <td align=right> ',$tmax[$i],'
-     <td align=right> ',$tmin[$i],'
-     <td align=right> ',$mean_p[$i],'
-     <td align=right> ',$num_wet[$i],'
-    <th bgcolor=85D2f2>',$month_name[$i],'
-     <td align=right><input type=text name="tx',$i+1,'" size=8 value="',
-$tmax[$i],'" onChange="mod_tmp(document.mods.tx',$i+1,')">
-     <td align=right><input type=text name="tn',$i+1,'" size=8 value="',
-$tmin[$i],'" onChange="mod_tmp(document.mods.tn',$i+1,')">
-     <td align=right><input type=text name="pc',$i+1,'" size=8 value="',
-$ppcp[$i],'" onChange="mod_pc(document.mods.pc',$i+1,')">
-     <td align=right><input type=text name="nw',$i+1,'" size=8 value="',
-$num_wet[$i],'" onChange="mod_nw(',$i+1,')">
-    <!-- <td align=right> --> <input type=hidden name="pww',$i+1,'" size=8 value="',$pww[$i],'">
-    <!-- <td align=right> --> <input type=hidden name="pwd',$i+1,'" size=8 value="',$pwd[$i],'">
+     <td align=right> ',  $tmax[$i],       '
+     <td align=right> ',  $tmin[$i],       '
+     <td align=right> ',  $mean_p[$i],     '
+     <td align=right> ',  $num_wet[$i],    '
+    <th bgcolor=85D2f2>', $month_name[$i], '
+     <td align=right><input type=text name="tx', $i + 1, '" size=8 value="',
+      $tmax[$i], '" onChange="mod_tmp(document.mods.tx', $i + 1, ')">
+     <td align=right><input type=text name="tn', $i + 1, '" size=8 value="',
+      $tmin[$i], '" onChange="mod_tmp(document.mods.tn', $i + 1, ')">
+     <td align=right><input type=text name="pc', $i + 1, '" size=8 value="',
+      $ppcp[$i], '" onChange="mod_pc(document.mods.pc', $i + 1, ')">
+     <td align=right><input type=text name="nw', $i + 1, '" size=8 value="',
+      $num_wet[$i], '" onChange="mod_nw(', $i + 1, ')">
+    <!-- <td align=right> --> <input type=hidden name="pww', $i + 1,
+      '" size=8 value="', $pww[$i], '">
+    <!-- <td align=right> --> <input type=hidden name="pwd', $i + 1,
+      '" size=8 value="', $pwd[$i], '">
 '
 }
 print '
     <tr><td align=right><br>
      <td align=right><br>
-     <td align=right> ',$annual_precip,'
-     <td align=right> ',$annual_wet_days,'
+     <td align=right> ', $annual_precip,   '
+     <td align=right> ', $annual_wet_days, '
      <th bgcolor=85D2f2>Annual
      <td align=right><br>
      <td align=right><br>
-     <td align=right><input type=text name="pc" size=8 value="',$ppcp,'" onChange="distribute_pcp()">
-     <td align=right><input type=text name="nw" size=8 value="',$annual_wet_days,'" onChange="distribute_wet()">
+     <td align=right><input type=text name="pc" size=8 value="', $ppcp,
+  '" onChange="distribute_pcp()">
+     <td align=right><input type=text name="nw" size=8 value="',
+  $annual_wet_days, '" onChange="distribute_wet()">
 
     <tr><th colspan=5 align=right>Change entire column (enter 0 to reset) &nbsp;&gt;&nbsp;&gt;
      <th align=right>+/-<input type=text size=5 name="txd" value="0" onChange="txdeg()"><sup>o</sup>
@@ -992,7 +1032,7 @@ print '
    <input type=checkbox name=lapse onClick="lapsetemp()"> Adjust temperature for elevation by lapse rate
    <P> 
    <b>New Climate Name:</b>  <input type=text name=newname size=30 MAXLENGTH=30 value="';
-   $climate_name =~ s/^\s*(.*?)\s*$/$1/;		# trim whitespace 2001/04/11 DEH
+$climate_name =~ s/^\s*(.*?)\s*$/$1/;    # trim whitespace 2001/04/11 DEH
 print $climate_name;
 print '"><p>
    <input type=submit value="Use these values">
@@ -1012,41 +1052,42 @@ print '"><p>
 
 #print "State: $state   CL: $CL  Units: $units  Comefrom: $comefrom";
 
-  if ($comefrom eq "") {
-     $action = "-download";
-  }
-  else {
-     $action ="-server";
-  }
+if ( $comefrom eq "" ) {
+    $action = "-download";
+}
+else {
+    $action = "-server";
+}
 
-if ($state eq "personal") {
-    if ($action eq "-server") {
-         print '<form name="modback" method="post" action="../rc/rockclim.pl">
-         <INPUT name=units type=hidden value="',$units,'">
-         <INPUT name=comefrom type=hidden value="',$comefrom,'">
-         <INPUT name=state type=hidden value="',$state,'">
-         <INPUT name=action type=hidden value="',$action,'">
-         <INPUT name=me type=hidden value="',$me,'">
+if ( $state eq "personal" ) {
+    if ( $action eq "-server" ) {
+        print '<form name="modback" method="post" action="../rc/rockclim.pl">
+         <INPUT name=units type=hidden value="',    $units,    '">
+         <INPUT name=comefrom type=hidden value="', $comefrom, '">
+         <INPUT name=state type=hidden value="',    $state,    '">
+         <INPUT name=action type=hidden value="',   $action,   '">
+         <INPUT name=me type=hidden value="',       $me,       '">
          <input type="submit" value="Retreat">
          </form>';
     }
-    else { 
-         print '<form name="modback" method="post" action="../rc/showpersonal.pl">
-         <INPUT name=units type=hidden value="',$units,'">
-         <INPUT name=comefrom type=hidden value="',$comefrom,'">
-         <INPUT name=state type=hidden value="',$state,'">
-         <INPUT name=action type=hidden value="',$action,'">
-         <INPUT name=me type=hidden value="',$me,'">
+    else {
+        print
+          '<form name="modback" method="post" action="../rc/showpersonal.pl">
+         <INPUT name=units type=hidden value="',    $units,    '">
+         <INPUT name=comefrom type=hidden value="', $comefrom, '">
+         <INPUT name=state type=hidden value="',    $state,    '">
+         <INPUT name=action type=hidden value="',   $action,   '">
+         <INPUT name=me type=hidden value="',       $me,       '">
          <input type="submit" value="Retreat">
          </form>';
     }
 }
 else {
     print '<form name="modback" method="post" action="../rc/showclimates.pl">
-    <INPUT name=units type=hidden value="',$units,'">
-    <INPUT name=comefrom type=hidden value="',$comefrom,'">
-    <INPUT name=state type=hidden value="',$state,'">
-    <INPUT name=action type=hidden value="',$action,'">
+    <INPUT name=units type=hidden value="',    $units,    '">
+    <INPUT name=comefrom type=hidden value="', $comefrom, '">
+    <INPUT name=state type=hidden value="',    $state,    '">
+    <INPUT name=action type=hidden value="',   $action,   '">
     <input type="submit" value="Retreat">
     </form>';
 }
@@ -1077,68 +1118,72 @@ comefrom: $comefrom; state: $state
 
 sub ReadParse {
 
-# ReadParse -- from cgi-lib.pl (Steve Brenner) from Eric Herrmann's
-# "Teach Yourself CGI Programming With PERL in a Week" p. 131
+    # ReadParse -- from cgi-lib.pl (Steve Brenner) from Eric Herrmann's
+    # "Teach Yourself CGI Programming With PERL in a Week" p. 131
 
-# Reads GET or POST data, converts it to unescaped text, and puts
-# one key=value in each member of the list "@in"
-# Also creates key/value pairs in %in, using '\0' to separate multiple
-# selections
+    # Reads GET or POST data, converts it to unescaped text, and puts
+    # one key=value in each member of the list "@in"
+    # Also creates key/value pairs in %in, using '\0' to separate multiple
+    # selections
 
-# If a variable-glob parameter...
+    # If a variable-glob parameter...
 
-  local (*in) = @_ if @_;
-  local ($i, $loc, $key, $val);
+    local (*in) = @_ if @_;
+    local ( $i, $loc, $key, $val );
 
-  if ($ENV{'REQUEST_METHOD'} eq "GET") {
-    $in = $ENV{'QUERY_STRING'};
-  } elsif ($ENV{'REQUEST_METHOD'} eq "POST") {
-    read(STDIN,$in,$ENV{'CONTENT_LENGTH'});
-  }
+    if ( $ENV{'REQUEST_METHOD'} eq "GET" ) {
+        $in = $ENV{'QUERY_STRING'};
+    }
+    elsif ( $ENV{'REQUEST_METHOD'} eq "POST" ) {
+        read( STDIN, $in, $ENV{'CONTENT_LENGTH'} );
+    }
 
-  @in = split(/&/,$in);
+    @in = split( /&/, $in );
 
-  foreach $i (0 .. $#in) {
-    # Convert pluses to spaces
-    $in[$i] =~ s/\+/ /g;
+    foreach $i ( 0 .. $#in ) {
 
-    # Split into key and value
-    ($key, $val) = split(/=/,$in[$i],2);  # splits on the first =
+        # Convert pluses to spaces
+        $in[$i] =~ s/\+/ /g;
 
-    # Convert %XX from hex numbers to alphanumeric
-    $key =~ s/%(..)/pack("c",hex($1))/ge;
-    $val =~ s/%(..)/pack("c",hex($1))/ge;
+        # Split into key and value
+        ( $key, $val ) = split( /=/, $in[$i], 2 );    # splits on the first =
 
-    # Associative key and value
-    $in{$key} .= "\0" if (defined($in{$key}));  # \0 is the multiple separator
-    $in{$key} .= $val;
-  }
-  return 1;
- }
+        # Convert %XX from hex numbers to alphanumeric
+        $key =~ s/%(..)/pack("c",hex($1))/ge;
+        $val =~ s/%(..)/pack("c",hex($1))/ge;
+
+        # Associative key and value
+        $in{$key} .= "\0"
+          if ( defined( $in{$key} ) );    # \0 is the multiple separator
+        $in{$key} .= $val;
+    }
+    return 1;
+}
 
 #---------------------------
 
 sub printdate {
 
-    @months=qw(January February March April May June July August September October November December);
-    @days=qw(Sunday Monday Tuesday Wednesday Thursday Friday Saturday);
+    @months =
+      qw(January February March April May June July August September October November December);
+    @days    = qw(Sunday Monday Tuesday Wednesday Thursday Friday Saturday);
     $ampm[0] = "am";
     $ampm[1] = "pm";
 
     $ampmi = 0;
-    ($sec,$min,$hour,$mday,$mon,$year,$wday,$yday,$isdst)=gmtime;
-    if ($hour == 12) {$ampmi = 1}
-    if ($hour > 12) {$ampmi = 1; $hour = $hour - 12}
+    ( $sec, $min, $hour, $mday, $mon, $year, $wday, $yday, $isdst ) = gmtime;
+    if ( $hour == 12 ) { $ampmi = 1 }
+    if ( $hour > 12 )  { $ampmi = 1; $hour = $hour - 12 }
     printf "%0.2d:%0.2d ", $hour, $min;
-    print $ampm[$ampmi],"  ",$days[$wday]," ",$months[$mon];
-    print " ",$mday,", ",$year+1900, " GMT/UTC/Zulu<br>\n";
+    print $ampm[$ampmi], "  ", $days[$wday], " ", $months[$mon];
+    print " ", $mday, ", ", $year + 1900, " GMT/UTC/Zulu<br>\n";
 
     $ampmi = 0;
-    ($sec,$min,$hour,$mday,$mon,$year,$wday,$yday,$isdst)=localtime;
-    if ($hour == 12) {$ampmi = 1}
-    if ($hour > 12) {$ampmi = 1; $hour = $hour - 12}
+    ( $sec, $min, $hour, $mday, $mon, $year, $wday, $yday, $isdst ) = localtime;
+    if ( $hour == 12 ) { $ampmi = 1 }
+    if ( $hour > 12 )  { $ampmi = 1; $hour = $hour - 12 }
     printf "%0.2d:%0.2d ", $hour, $min;
-    print $ampm[$ampmi],"  ",$days[$wday]," ",$months[$mon];
-    print " ",$mday,", ",$year+1900, " Pacific Time";
+    print $ampm[$ampmi], "  ", $days[$wday], " ", $months[$mon];
+    print " ", $mday, ", ", $year + 1900, " Pacific Time";
 }
 

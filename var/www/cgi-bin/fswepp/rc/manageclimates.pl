@@ -1,5 +1,6 @@
-#! /usr/bin/perl
-#!/fsapps/fssys/bin/perl
+#!/usr/bin/perl
+
+use CGI qw(escapeHTML);
 
 #
 # manageclimates.pl
@@ -29,44 +30,43 @@
 #			removed extraneous PRINT stuff for "remove"
 #  17 September 2014 -- add exec to modpar again
 
-      &ReadParse(*parameters);
-      $units=$parameters{'units'};
-      $climate=$parameters{'Climate'};
-      $comefrom=$parameters{'comefrom'};
-#      $me=$parameters{'me'};
-      $dowhat=$parameters{'manage'};
+&ReadParse(*parameters);
 
-  if ($units ne 'm' && $units ne 'ft') {$units = 'm'}
+$units    = escapeHTML( $parameters{'units'} );
+$climate  = escapeHTML( $parameters{'Climate'} );
+$comefrom = escapeHTML( $parameters{'comefrom'} );
+$dowhat   = escapeHTML( $parameters{'manage'} );
 
-  $wepphost='localhost';
-  if (-e '../wepphost') {
+if ( $units ne 'm' && $units ne 'ft' ) { $units = 'm' }
+
+$wepphost = 'localhost';
+if ( -e '../wepphost' ) {
     open Host, '<../wepphost';
-      $wepphost = <Host>;
-      chomp $wepphost;
+    $wepphost = <Host>;
+    chomp $wepphost;
     close Host;
-  }
+}
 
-  $platform='pc';
-  if (-e '../platform') {
+$platform = 'pc';
+if ( -e '../platform' ) {
     open Platform, '<../platform';
-      $platform=lc(<Platform>);
-      chomp $platform;
+    $platform = lc(<Platform>);
+    chomp $platform;
     close Platform;
-  }
+}
 
 ##################
 
-  $CL = $climate;
-  $iam = "https://" . $wepphost . "/cgi-bin/fswepp/rc/manageclimates.pl";
-  if (lc($dowhat) eq 'describe') {
-    if ($platform eq 'pc') {
-      exec "perl ../rc/descpar.pl $CL $units $iam"
+$CL  = $climate;
+$iam = "/cgi-bin/fswepp/rc/manageclimates.pl";
+if ( lc($dowhat) eq 'describe' ) {
+    if ( $platform eq 'pc' ) {
+        exec "perl ../rc/descpar.pl $CL $units $iam";
     }
     else {
-      exec "../rc/descpar.pl $CL $units $iam"
+        exec "../rc/descpar.pl $CL $units $iam";
     }
-  }
-
+}
 
 ##################
 
@@ -78,8 +78,8 @@ print '<html>
 <title>Rock:Clime</title>
 </head>
 <BODY bgcolor="white">
-  <a href="https://',$wepphost,'/fswepp/">
-  <IMG src="https://',$wepphost,'/fswepp/images/fsshield4.gif"
+  <a href="/fswepp/">
+  <IMG src="/fswepp/images/fsshield4.gif"
   align="left" alt="Back to FSWEPP menu" border=0></a>
   <CENTER>
   <H1>Rock:Clime</H1>
@@ -90,69 +90,61 @@ print '<html>
 ';
 
 skipit:
-  if ($debug) {print "manageclimates: $dowhat $climate"}
-  if (lc($dowhat) eq 'remove') {  # --------------------------- DEH 10/00
+if ($debug) { print "manageclimates: $dowhat $climate" }
+
+if ( lc($dowhat) eq 'remove' ) {
     $climatefile = $climate . '.par';
     unlink $climatefile;
-  }
-  else { 			#  modify ------------------------------ DEH 10/00
-#    $comefrom='dummy';
-#    exec "perl ../rc/modparsd2.pl $CL $units $comefrom $state"
-     exec "perl ../rc/modpar.pl $CL $units $comefrom $state"
-  }
+}
+else {
+    exec "perl ../rc/modpar.pl $CL $units $comefrom $state";
+}
+exec "../rc/rockclim.pl -server -u$units $comefrom";
 
-
-  if ($platform eq 'pc') {
-    exec "perl ../rc/rockclim.pl -server -u$units $comefrom"
-  }
-  else {
-    exec "../rc/rockclim.pl -server -u$units $comefrom"
-  }
-
-# print '
-# </CENTER>
-# </body></html>';
 
 sub ReadParse {
 
-# ReadParse -- from cgi-lib.pl (Steve Brenner) from Eric Herrmann's
-# "Teach Yourself CGI Programming With PERL in a Week" p. 131
+    # ReadParse -- from cgi-lib.pl (Steve Brenner) from Eric Herrmann's
+    # "Teach Yourself CGI Programming With PERL in a Week" p. 131
 
-# Reads GET or POST data, converts it to unescaped text, and puts
-# one key=value in each member of the list "@in"
-# Also creates key/value pairs in %in, using '\0' to separate multiple
-# selections
+    # Reads GET or POST data, converts it to unescaped text, and puts
+    # one key=value in each member of the list "@in"
+    # Also creates key/value pairs in %in, using '\0' to separate multiple
+    # selections
 
-# If a variable-glob parameter...
+    # If a variable-glob parameter...
 
-  local (*in) = @_ if @_;
+    local (*in) = @_ if @_;
 
-  local ($i, $loc, $key, $val);
+    local ( $i, $loc, $key, $val );
 
-#   read text
-  if ($ENV{'REQUEST_METHOD'} eq "GET") {
-    $in = $ENV{'QUERY_STRING'};
-  } elsif ($ENV{'REQUEST_METHOD'} eq "POST") {
-    read(STDIN,$in,$ENV{'CONTENT_LENGTH'});
-  }
+    #   read text
+    if ( $ENV{'REQUEST_METHOD'} eq "GET" ) {
+        $in = $ENV{'QUERY_STRING'};
+    }
+    elsif ( $ENV{'REQUEST_METHOD'} eq "POST" ) {
+        read( STDIN, $in, $ENV{'CONTENT_LENGTH'} );
+    }
 
-  @in = split(/&/,$in);
+    @in = split( /&/, $in );
 
-  foreach $i (0 .. $#in) {
-    # Convert pluses to spaces
-    $in[$i] =~ s/\+/ /g;
+    foreach $i ( 0 .. $#in ) {
 
-    # Split into key and value
-    ($key, $val) = split(/=/,$in[$i],2);  # splits on the first =
+        # Convert pluses to spaces
+        $in[$i] =~ s/\+/ /g;
 
-    # Convert %XX from hex numbers to alphanumeric
-    $key =~ s/%(..)/pack("c",hex($1))/ge;
-    $val =~ s/%(..)/pack("c",hex($1))/ge;
+        # Split into key and value
+        ( $key, $val ) = split( /=/, $in[$i], 2 );    # splits on the first =
 
-    # Associative key and value
-    $in{$key} .= "\0" if (defined($in{$key}));  # \0 is the multiple separator
-    $in{$key} .= $val;
-  }
-  return 1;
- }
+        # Convert %XX from hex numbers to alphanumeric
+        $key =~ s/%(..)/pack("c",hex($1))/ge;
+        $val =~ s/%(..)/pack("c",hex($1))/ge;
+
+        # Associative key and value
+        $in{$key} .= "\0"
+          if ( defined( $in{$key} ) );    # \0 is the multiple separator
+        $in{$key} .= $val;
+    }
+    return 1;
+}
 

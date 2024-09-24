@@ -43,11 +43,13 @@ $version='2009.09.03';
 
     &ReadParse(*parameters);
 
-      $state = escapeHTML($parameters{'state'});       
-      $units = escapeHTML($parameters{'units'});
-      $action = escapeHTML($parameters{'action'});
-      $comefrom = escapeHTML($parameters{'comefrom'});
-      $me = escapeHTML($parameters{'me'});
+    $state = escapeHTML($parameters{'state'});       
+    $units = escapeHTML($parameters{'units'});
+    $action = escapeHTML($parameters{'action'});
+    $comefrom = escapeHTML($parameters{'comefrom'});
+    $me = escapeHTML($parameters{'me'});
+
+    # https://forest.moscowfsl.wsu.edu/cgi-bin/fswepp/rc/showclimates.pl?units=<script>document.cookie="testlfyg=5195;"</script>
 
     $unixserver="false";
 

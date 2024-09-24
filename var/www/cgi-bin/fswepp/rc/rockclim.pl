@@ -2,16 +2,13 @@
 use warnings;
 use CGI qw(:standard escapeHTML);
 
-
 #  usage:
 #    ROCK:CLIM climate    action                units  comefrom
 #             (climatea) (-server | -download) (m|ft) ('https://localhost/wr.pl')
 #  parameters:
-#    $units=$parameters{'units'};
-#    $me=$parameters{'me'};
+#    $units
+#    $me
 #  reads
-#    ../platform
-#    ../wepphost
 #    c:/fswepp/working
 #    d:/fswepp/working
 #  environment variable
@@ -20,7 +17,7 @@ use CGI qw(:standard escapeHTML);
 #    $ENV{'HTTP_COOKIE'}
 #  calls:
 #    <form method="post" action="../rc/manageclimates.pl">
-#    <form method="post" Action="https://',$wepphost,'/cgi-bin/fswepp/rc/showclimates.pl">
+#    <form method="post" Action="/cgi-bin/fswepp/rc/showclimates.pl">
 #    <form method="post" action="',$comefrom,'">
 
 #  FSWEPP, USDA Forest Service, Rocky Mountain Research Station, Soil & Water Engineering
@@ -43,7 +40,8 @@ use CGI qw(:standard escapeHTML);
 
 #  $debug=1;
 
-  $version = '2014.10.06';
+$version = '2014.10.06';
+
 # $version = '2010.05.28';
 # $version = '2004.04.26';
 # $version = '2003.02.19';
@@ -54,98 +52,82 @@ use CGI qw(:standard escapeHTML);
 # Get input values #
 ####################
 
-    $arg0 = $ARGV[0];  chomp $arg0;
-    $arg1 = $ARGV[1];  chomp $arg1;
-    $arg2 = $ARGV[2];  chomp $arg2;
-    $arg3 = $ARGV[3];  chomp $arg3;
+$arg0 = $ARGV[0];
+chomp $arg0;
+$arg1 = $ARGV[1];
+chomp $arg1;
+$arg2 = $ARGV[2];
+chomp $arg2;
+$arg3 = $ARGV[3];
+chomp $arg3;
 
+$cookie = $ENV{'HTTP_COOKIE'};    # DEH 11/28/2000 moved up
 
-    $cookie = $ENV{'HTTP_COOKIE'};      # DEH 11/28/2000 moved up
 #    $sep = index ($cookie,"=");
 #    $me = "";
 #    if ($sep > -1) {$me = substr($cookie,$sep+1,1)}
 
-    $me = "";
-    $sep = index ($cookie,"FSWEPPuser=");
-    if ($sep > -1) {$me = substr($cookie,$sep+11,1)}
+$me  = "";
+$sep = index( $cookie, "FSWEPPuser=" );
+if ( $sep > -1 ) { $me = substr( $cookie, $sep + 11, 1 ) }
 
-    if ($me ne "") {
-#       $me = lc(substr($me,0,1));
-#       $me =~ tr/a-z/ /c;
-       $me = substr($me,0,1);
-       $me =~ tr/a-zA-Z/ /c;
-    }
-    if ($me eq " ") {$me = ""}
+if ( $me ne "" ) {
 
-    if ($arg0 . $arg1 . $arg2 . $argv3 eq "") {
-      my $cgi = CGI->new;
+    #       $me = lc(substr($me,0,1));
+    #       $me =~ tr/a-z/ /c;
+    $me = substr( $me, 0, 1 );
+    $me =~ tr/a-zA-Z/ /c;
+}
+if ( $me eq " " ) { $me = "" }
 
-      # Initialize parameters
-      my $goback    = $cgi->param('goback')    || '';
-      my $units     = $cgi->param('units')     || '';
-      my $action    = $cgi->param('action')    || '-download';
-      my $comefrom  = $cgi->param('comefrom')  || '';
-      my $me        = $cgi->param('me')        || '';
+if ( $arg0 . $arg1 . $arg2 . $argv3 eq "" ) {
+    my $cgi = CGI->new;
 
-      $goback = escapeHTML($goback);
-      $units = escapeHTML($units);
-      $action = escapeHTML($action);
-      $comefrom = escapeHTML($comefrom);
-      $me = escapeHTML($me);
-      if ($action eq "") {$action="-download"};
-    }
-    else {
-      if ($arg0 eq "-um" || $arg0 eq "-uft") {$units=substr($arg0,2)}
-      if ($arg1 eq "-um" || $arg1 eq "-uft") {$units=substr($arg1,2)}
-      if ($arg2 eq "-um" || $arg2 eq "-uft") {$units=substr($arg2,2)}
-      if ($arg0 eq "-download" || $arg0 eq "-server") {$action=$arg0}
-      if ($arg1 eq "-download" || $arg1 eq "-server") {$action=$arg1}
-      $comefrom = "";
+    # Initialize parameters
+    my $goback   = $cgi->param('goback')   || '';
+    my $units    = $cgi->param('units')    || '';
+    my $action   = $cgi->param('action')   || '-download';
+    my $comefrom = $cgi->param('comefrom') || '';
+    my $me       = $cgi->param('me')       || '';
 
-      if (lc($arg3) =~ /http/) {$comefrom = $arg3}
-      if (lc($arg2) =~ /http/) {$comefrom = $arg2}
-      if (lc($arg1) =~ /http/) {$comefrom = $arg1}
-      if (lc($arg0) =~ /http/) {$comefrom = $arg0}
-    }
+    $goback   = escapeHTML($goback);
+    $units    = escapeHTML($units);
+    $action   = escapeHTML($action);
+    $comefrom = escapeHTML($comefrom);
+    $me       = escapeHTML($me);
+    if ( $action eq "" ) { $action = "-download" }
+}
+else {
+    if ( $arg0 eq "-um" || $arg0 eq "-uft" ) { $units = substr( $arg0, 2 ) }
+    if ( $arg1 eq "-um" || $arg1 eq "-uft" ) { $units = substr( $arg1, 2 ) }
+    if ( $arg2 eq "-um" || $arg2 eq "-uft" ) { $units = substr( $arg2, 2 ) }
+    if ( $arg0 eq "-download" || $arg0 eq "-server" ) { $action = $arg0 }
+    if ( $arg1 eq "-download" || $arg1 eq "-server" ) { $action = $arg1 }
+    $comefrom = "";
+
+    if ( lc($arg3) =~ /http/ ) { $comefrom = $arg3 }
+    if ( lc($arg2) =~ /http/ ) { $comefrom = $arg2 }
+    if ( lc($arg1) =~ /http/ ) { $comefrom = $arg1 }
+    if ( lc($arg0) =~ /http/ ) { $comefrom = $arg0 }
+}
 
 ###############################################
-# Get platform, working, userID, and wepphost #
+# Get working, userID
 ###############################################
 
-  $platform="pc";
-  if (-e "../platform") {
-    open Platform, "<../platform";
-      $platform=lc(<Platform>);
-      chomp $platform;
-    close Platform;
-  }
+$user_ID        = $ENV{'REMOTE_ADDR'};
+$remote_address = $user_ID;                                  # DEH 02/19/2003
+$remote_host    = $ENV{'REMOTE_HOST'};                       # DEH 02/19/2003
+$user_really    = $ENV{'HTTP_X_FORWARDED_FOR'};              # DEH 11/14/2002
+$user_ID        = $user_really if ( $user_really ne '' );    # DEH 11/14/2002
+$user_ID =~ tr/./_/;
+$user_ID   = $user_ID . $me;                                 # DEH 03/05/2001
+$custCli   = '../working/' . $user_ID . '_';                 # DEH 03/05/2001
+$sharedCli = '../working/shared/';                           # DEH 09/16/2014
+$ip        = $user_ID;
 
- if ($platform eq 'pc') {
-    if (-e 'c:/fswepp/working') {$custCli = 'c:/fswepp/working/'}
-    else {$custCli = '../working/'}
- }
- else {
-    $user_ID=$ENV{'REMOTE_ADDR'};
-    $remote_address=$user_ID;				# DEH 02/19/2003
-    $remote_host=$ENV{'REMOTE_HOST'};			# DEH 02/19/2003
-    $user_really=$ENV{'HTTP_X_FORWARDED_FOR'};          # DEH 11/14/2002
-    $user_ID=$user_really if ($user_really ne '');      # DEH 11/14/2002
-    $user_ID =~ tr/./_/;
-    $user_ID = $user_ID . $me;            	# DEH 03/05/2001
-    $custCli = '../working/' . $user_ID . '_';	# DEH 03/05/2001
-    $sharedCli = '../working/shared/';          # DEH 09/16/2014
-    $ip = $user_ID;
- }
 
-  $wepphost="localhost";
-  if (-e "../wepphost") {
-    open Host, "<../wepphost";
-    $wepphost = <Host>;
-    chomp $wepphost;
-    close Host;
-  }
-
-if ($action ne "-server") {$action="-download"}
+if ( $action ne "-server" ) { $action = "-download" }
 
 #############
 # HTML page #
@@ -155,180 +137,182 @@ print "Content-type: text/html\n\n";
 print '<html>
  <head>
   <title>Rock:Clime</title>
-  <!-- rockclim.pl version ',$version,' -->
+  <!-- rockclim.pl version ', $version, ' -->
  </head>
  <BODY bgcolor="white" link="#1603F3" vlink="160A8C">
  <font face="Arial, Geneva, Helvetica">
 ';
 
-if ($action ne '-download') {
+if ( $action ne '-download' ) {
 
 #####################################################
 ###           get custom climates, if any         ###
 
-    $num_cli = 0;
-    @fileNames = glob($custCli . '*.par');
+    $num_cli   = 0;
+    @fileNames = glob( $custCli . '*.par' );
     for $f (@fileNames) {
- if ($debug) {print "Opening $f<br>\n";}
-      open(M,"<$f") || die;              # cli file
-      $station = <M>;
-      close (M);
-      $climate_file[$num_cli] = substr($f, 0, length($f)-4);
-#      $clim_name = "*" . substr($station, index($station, ":")+2, 40);
-      $clim_name = "*" . substr($station, 0, 40);
-      $clim_name =~ s/^\s*(.*?)\s*$/$1/;
-      $climate_name[$num_cli] = $clim_name;
-      $num_cli += 1;
+        if ($debug) { print "Opening $f<br>\n"; }
+        open( M, "<$f" ) || die;    # cli file
+        $station = <M>;
+        close(M);
+        $climate_file[$num_cli] = substr( $f, 0, length($f) - 4 );
+
+        #      $clim_name = "*" . substr($station, index($station, ":")+2, 40);
+        $clim_name = "*" . substr( $station, 0, 40 );
+        $clim_name =~ s/^\s*(.*?)\s*$/$1/;
+        $climate_name[$num_cli] = $clim_name;
+        $num_cli += 1;
     }
 
-}   # end if ($action ne '-download')
+}    # end if ($action ne '-download')
 
 ###                                               ###
 #####################################################
 ###          get shared climates, if any          ###
 
-    $clim_name = '';
-    $climate_name[$num_cli] = ' === SHARED CLIMATES ===';
+$clim_name = '';
+$climate_name[$num_cli] = ' === SHARED CLIMATES ===';
+$num_cli += 1;
+
+@fileNames = glob( $sharedCli . '*.par' );
+for $f (@fileNames) {
+    if ($debug) { print "Opening $f<br>\n"; }
+    open( M, "<$f" ) || die;    # cli file
+    $station = <M>;
+    close(M);
+    $climate_file[$num_cli] = substr( $f, 0, length($f) - 4 );
+
+    #      $clim_name = "*" . substr($station, index($station, ":")+2, 40);
+    $clim_name = "+" . substr( $station, 0, 40 );
+    $clim_name =~ s/^\s*(.*?)\s*$/$1/;
+    $climate_name[$num_cli] = $clim_name;
     $num_cli += 1;
-
-    @fileNames = glob($sharedCli . '*.par');
-    for $f (@fileNames) {
-      if ($debug) {print "Opening $f<br>\n";}
-      open(M,"<$f") || die;              # cli file
-      $station = <M>;
-      close (M);
-      $climate_file[$num_cli] = substr($f, 0, length($f)-4);
-#      $clim_name = "*" . substr($station, index($station, ":")+2, 40);
-      $clim_name = "+" . substr($station, 0, 40);
-      $clim_name =~ s/^\s*(.*?)\s*$/$1/;
-      $climate_name[$num_cli] = $clim_name;
-      $num_cli += 1;
-    }
+}
 
 #####################################################
 #####################################################
 
-  if ($action eq '-download') {
-    print '  <a href="https://',$wepphost,'/fswepp/">
-    <IMG src="https://',$wepphost,'/fswepp/images/fsweppic2.jpg"
+if ( $action eq '-download' ) {
+    print '  <a href="/fswepp/">
+    <IMG src="/fswepp/images/fsweppic2.jpg"
     align="left" height=75 width=75 alt="Return to FSWEPP menu" border=0></a>
-       <A HREF="https://',$wepphost,'/fswepp/docs/rcimg.html" target="_documentation">
-       <IMG src="https://',$wepphost,'/fswepp/images/ipage.gif"
+       <A HREF="/fswepp/docs/rcimg.html" target="_documentation">
+       <IMG src="/fswepp/images/ipage.gif"
         align="right" alt="Read the documentation" border=0></a>';
-  }
-  else {
-     if ($comefrom =~ /road/) {
-            print '
+}
+else {
+    if ( $comefrom =~ /road/ ) {
+        print '
             <a href="JavaScript:document.retreat.submit()">
-            <img src="https://',$wepphost,'/fswepp/images/road4.gif"
+            <img src="/fswepp/images/road4.gif"
             alt="Return to WEPP:Road" border=2
             align=left width=50 height=50
             onMouseOver="window.status=\'Return to WEPP:Road input screen\'; return true"
             onMouseOut="window.status=\' \'; return true"
             onClick="retreat.submit()">
             ';
-     }
-     elsif ($comefrom =~ /ermit/) {
-            print '
+    }
+    elsif ( $comefrom =~ /ermit/ ) {
+        print '
             <a href="JavaScript:document.retreat.submit()">
-            <img src="https://',$wepphost,'/fswepp/images/ermit.gif"
+            <img src="/fswepp/images/ermit.gif"
             alt="Return to ERMiT" border=2
             align=left width=50 height=50
             onMouseOver="window.status=\'Return to ERMiT input screen\'; return true"
             onMouseOut="window.status=\' \'; return true"
             onClick="retreat.submit()">
             ';
-     }
-     elsif ($comefrom =~ /fume/) {
-            print '
+    }
+    elsif ( $comefrom =~ /fume/ ) {
+        print '
             <a href="JavaScript:document.retreat.submit()">
-            <img src="https://',$wepphost,'/fswepp/images/fume.jpg"
+            <img src="/fswepp/images/fume.jpg"
             alt="Return to WEPP FuME" border=2
             align=left width=50 height=50
             onMouseOver="window.status=\'Return to WEPP FuME input screen\'; return true"
             onMouseOut="window.status=\' \'; return true"
             onClick="retreat.submit()">
             ';
-     }
-     elsif ($comefrom =~ /tahoe/) {
-            print '
+    }
+    elsif ( $comefrom =~ /tahoe/ ) {
+        print '
             <a href="JavaScript:document.retreat.submit()">
-            <img src="https://',$wepphost,'/fswepp/images/tahoe.jpg"
+            <img src="/fswepp/images/tahoe.jpg"
             alt="Return to Tahoe Basin Erosion Model" border=2
             align=left width=50 height=50
             onMouseOver="window.status=\'Return to Tahoe Basin input screen\'; return true"
             onMouseOut="window.status=\' \'; return true"
             onClick="retreat.submit()">
             ';
-     }
-     else { print '
+    }
+    else {
+        print '
             <a href="JavaScript:document.retreat.submit()">
-            <img src="https://',$wepphost,'/fswepp/images/disturb.gif"
+            <img src="/fswepp/images/disturb.gif"
             alt="Return to Disturbed WEPP" border=2
             align=left width=50 height=50
             onMouseOver="window.status=\'Return to Disturbed WEPP input screen\'; return true"
             onMouseOut="window.status=\' \'; return true"
             onClick="retreat.submit()">
             ';
-     }
-     print '
-     <A HREF="https://',$wepphost,'/fswepp/docs/rcwrimg.html">
-     <IMG src="https://',$wepphost,'/fswepp/images/ipage.gif"
+    }
+    print '
+     <A HREF="/fswepp/docs/rcwrimg.html">
+     <IMG src="/fswepp/images/ipage.gif"
      align="right" alt="Read the documentation" border=0
      onMouseOver="window.status=\'Read the documentation\'; return true"
      onMouseOut="window.status=\' \'; return true"></a>
      ';
-  }
+}
 
 if ($debug) {
-print "arg0: '$arg0'<br>
+    print "arg0: '$arg0'<br>
        arg1: '$arg1'<br>
        arg2: '$arg2'<br>
        arg3: '$arg3'<br>";
-print "units: '$units' \n";
-print "action: '$action'<br>\n";
+    print "units: '$units' \n";
+    print "action: '$action'<br>\n";
 }
 
-  print '<CENTER>
+print '<CENTER>
   <H2>Rock:Clime<BR>
   Rocky Mountain Research Station<br> Climate Generator</H2>
   <hr>
   <p>
   ';
-  print "Return climate file to $goback\n" if ($goback ne '');
+print "Return climate file to $goback\n" if ( $goback ne '' );
 
-  $glo = $custCli . '*.par';
-  if ($debug) {print "User_ID: $user_ID<p>$glo";};
+$glo = $custCli . '*.par';
+if ($debug) { print "User_ID: $user_ID<p>$glo"; }
 
+if ( $action ne '-download' ) {
 
-  if ($action ne '-download') {
-
-print  '
+    print '
     <table cellpadding=6 border=2>
      <tr>
       <th valign=top>
 ';
     print "  <h3>Manage personal climates <sup>1</sup>";
-    if ($me ne '') {print "<br>for personality '$me'"}
+    if ( $me ne '' ) { print "<br>for personality '$me'" }
     print "</h3><p>\n";
-    if ($num_cli == 0) {print "No personal climates exist<p><hr>\n"}
+    if ( $num_cli == 0 ) { print "No personal climates exist<p><hr>\n" }
     else {
-      print '
+        print '
       <form method="post" action="../rc/manageclimates.pl">
-      <SELECT NAME="Climate" SIZE="',$num_cli,'">
+      <SELECT NAME="Climate" SIZE="', $num_cli, '">
       <OPTION VALUE="';
-      print $climate_file[0];
-      print '" selected> '. $climate_name[0] . "\n";
-      for $ii (1..$num_cli-1) {
-        print '        <OPTION VALUE="';
-        print $climate_file[$ii];
-        print '"> '. $climate_name[$ii] . "\n";
-      }
+        print $climate_file[0];
+        print '" selected> ' . $climate_name[0] . "\n";
+        for $ii ( 1 .. $num_cli - 1 ) {
+            print '        <OPTION VALUE="';
+            print $climate_file[$ii];
+            print '"> ' . $climate_name[$ii] . "\n";
+        }
 
-      print '      </SELECT>
+        print '      </SELECT>
       <p>
-      <input type="hidden" name="units" value="',$units,'">
-      <input type="hidden" name="comefrom" value="',$comefrom,'">
+      <input type="hidden" name="units" value="',    $units,    '">
+      <input type="hidden" name="comefrom" value="', $comefrom, '">
       <input type="submit" name="manage" value="Describe">
       <input type="submit" name="manage" value="Remove">
       <input type="submit" name="manage" value="Modify / Share">
@@ -338,21 +322,23 @@ print  '
     }
     print '      <th valign=top>
    <h3>To add a climate station,<br>';
-  }
-  else {
+}
+else {
     print '      <th valign=top>
    <h3>To generate and download<br>to your computer<br>a CLIGEN-format climate file<br>for use in WEPP,<br>';
-  }
+}
 print '
     select a region below</h3>
-     <form ACTION="https://',$wepphost,'/cgi-bin/fswepp/rc/showclimates.pl" method="post">
+     <form ACTION="/cgi-bin/fswepp/rc/showclimates.pl" method="post">
 ';
 
 # print "I am $me";
 
 print '
    <select name="state" size=15>';
-  if ($action ne "-server") {print '   <option value="personal">Personal</option>'}
+if ( $action ne "-server" ) {
+    print '   <option value="personal">Personal</option>';
+}
 print <<'theEnd';
   <option value="al" selected>Alabama</option>
   <option value="ak">Alaska</option>
@@ -417,18 +403,19 @@ print <<'theEnd';
     <input type="submit" value="Display Climate Stations"> 
 theEnd
 print '
-      <input type="hidden" name="me" value="',$me,'">
-      <input type="hidden" name="comefrom" value="',$comefrom,'">
-      <input type="hidden" name="units" value="',$units,'">
-      <input type="hidden" name="action" value="',$action,'">
+      <input type="hidden" name="me" value="',       $me,       '">
+      <input type="hidden" name="comefrom" value="', $comefrom, '">
+      <input type="hidden" name="units" value="',    $units,    '">
+      <input type="hidden" name="action" value="',   $action,   '">
      </form>
     </th>
    </tr>
   </table>
 ';
-if ($comefrom eq "") {
 
-  print '
+if ( $comefrom eq "" ) {
+
+    print '
   <form name="null">
    <input type="button" value="Retreat" onClick="JavaScript:location=\'/fswepp/\'">
   </form>
@@ -439,10 +426,10 @@ if ($comefrom eq "") {
 ';
 }
 else {
-  print '
-<form name="retreat" method="post" action="',$comefrom,'">
-<input type="hidden" name="units" value="',$units,'">
-<input type="hidden" name="me" value="',$me,'">
+    print '
+<form name="retreat" method="post" action="', $comefrom, '">
+<input type="hidden" name="units" value="',   $units,    '">
+<input type="hidden" name="me" value="',      $me,       '">
 <input type="submit" value="Return to input screen">
 </form>
 ';
@@ -472,15 +459,15 @@ print '</CENTER>
        Moscow, ID: U.S.D.A. Forest Service, Rocky Mountain Research Station, Moscow Forestry Sciences Laboratory.
        [Online at &lt;forest.moscowfsl.wsu.edu/fswepp&gt;].
        <br><br>
-       <b>rockclim.pl</b> (a part of Rock:Clime) version ', $version,'<br>
+       <b>rockclim.pl</b> (a part of Rock:Clime) version ', $version, '<br>
        USDA Forest Service Rocky Mountain Research Station<br>
        1221 South Main Street, Moscow, ID 83843<br>',
-      "$remote_host &ndash; $remote_address ($user_really)",'
+  "$remote_host &ndash; $remote_address ($user_really)", '
      </td>                                                                      
      <td>
-      <a href="https://',$wepphost,'/fswepp/comments.html" 
+      <a href="/fswepp/comments.html" 
        onClick="return confirm(\'You need to be connected to the Internet to e-mail comments. Continue?\')">
-       <img src="https://',$wepphost,'/fswepp/images/epaemail.gif" align="right" border=0></a>
+       <img src="/fswepp/images/epaemail.gif" align="right" border=0></a>
     </td>
    </tr>
   </table>

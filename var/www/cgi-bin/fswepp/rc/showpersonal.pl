@@ -1,96 +1,69 @@
 #! /usr/bin/perl
 #!/fsapps/fssys/bin/perl
 
-# showpersonal.pl  --    
+# showpersonal.pl  --
 
-# 05/16/2000 DEH added " print "Content-type: text/html\n\n"; "
-# 05/16/2000 DEH moved cookies above platform
-
-  $version='2013.09.26';
+$version = '2013.09.26';
 
 #$action
 #$units
 #$comefrom
 #$me
 
-# <form name="sc" ACTION="https://',$wepphost,'/cgi-bin/fswepp/rc/pclimate.pl" method="post"> [Download Describe Modify]
-# <form method="post" name="RockClim" action="../rc/rockclim.pl"> [Retreat]
-
 #  FS WEPP, USDA Forest Service, Rocky Mountain Research Station, Soil & Water Engineering
 #  Science by Bill Elliot et alia                      Code by David Hall & Dayna Scheele
 #  19 October 1999
 
-    $arg0 = $ARGV[0];  chomp $arg0;
-    $arg1 = $ARGV[1];  chomp $arg1;
-    $arg2 = $ARGV[2];  chomp $arg2;
-    $arg3 = $ARGV[3];  chomp $arg3;
+$arg0 = $ARGV[0];
+chomp $arg0;
+$arg1 = $ARGV[1];
+chomp $arg1;
+$arg2 = $ARGV[2];
+chomp $arg2;
+$arg3 = $ARGV[3];
+chomp $arg3;
 
-    $action = $arg0;
-    $units = $arg1;
-    $comefrom = $arg2;
-    $me = $arg3;
+$action   = $arg0;
+$units    = $arg1;
+$comefrom = $arg2;
+$me       = $arg3;
 
-    $cookie = $ENV{'HTTP_COOKIE'};
-    $sep = index ($cookie,"=");
-    $me = "";
-    if ($sep > -1) {$me = substr($cookie,$sep+1,1)}
+$cookie = $ENV{'HTTP_COOKIE'};
+$sep    = index( $cookie, "=" );
+$me     = "";
+if ( $sep > -1 ) { $me = substr( $cookie, $sep + 1, 1 ) }
 
-    if ($me ne "") {
-#       $me = lc(substr($me,0,1));
-#       $me =~ tr/a-z/ /c;
-       $me = substr($me,0,1);
-       $me =~ tr/a-zA-Z/ /c;
-    }
-    if ($me eq " ") {$me = ""}
+if ( $me ne "" ) {
+    $me = substr( $me, 0, 1 );
+    $me =~ tr/a-zA-Z/ /c;
+}
+if ( $me eq " " ) { $me = "" }
 
-  $platform="pc";
-  if (-e "../platform") {
-    open Platform, "<../platform";
-      $platform=lc(<Platform>);
-      chomp $platform;
-    close Platform;
-  }
+$user_ID     = $ENV{'REMOTE_ADDR'};
+$user_really = $ENV{'HTTP_X_FORWARDED_FOR'};              # DEH 11/14/2002
+$user_ID     = $user_really if ( $user_really ne '' );    # DEH 11/14/2002
+$user_ID =~ tr/./_/;
 
-  if ($platform eq 'pc') {
-    if (-e 'd:/fswepp/working') {$custCli = 'd:/fswepp/working/'}
-    elsif (-e 'c:/fswepp/working') {$custCli = 'c:/fswepp/working/'}
-    else {$custCli = '../working/'}
-  }
-  else {
-    $user_ID=$ENV{'REMOTE_ADDR'};
-    $user_really=$ENV{'HTTP_X_FORWARDED_FOR'};          # DEH 11/14/2002
-    $user_ID=$user_really if ($user_really ne '');      # DEH 11/14/2002
-    $user_ID =~ tr/./_/;
-#2013#    $user_ID = $user_ID . $me;
-#    $custCli = '../working/' . $user_ID . $me;
-    $custCli = '../working/' . $user_ID;
-  }
-
-  $wepphost="localhost";
-  if (-e "../wepphost") {
-    open Host, "<../wepphost";
-    $wepphost = <Host>;
-    chomp $wepphost;
-    close Host;
-  }
+$custCli = '../working/' . $user_ID;
 
 ### get personal climates, if any
 
-    $num_cli = 0;
-    @fileNames = glob($custCli . '*.par');
-    for $f (@fileNames) {
- if ($debug) {print "Opening $f<br>\n";}
-      open(M,"<$f") || die;              # cli file
-      $station = <M>;
-      close (M);
-      $climate_file[$num_cli] = substr($f, 0, length($f)-4);
-      $clim_name = "*" . substr($station, index($station, ":")+2, 40);
-      $clim_name =~ s/^\s*(.*?)\s*$/$1/;
-      $climate_name[$num_cli] = $clim_name;
-#      $climate_year[$num_cli] = substr($year,66,5) * 1;
-#      chomp $climate_year[$num_cli];
-      $num_cli += 1;
-    }
+$num_cli   = 0;
+@fileNames = glob( $custCli . '*.par' );
+for $f (@fileNames) {
+    if ($debug) { print "Opening $f<br>\n"; }
+    open( M, "<$f" ) || die;    # cli file
+    $station = <M>;
+    close(M);
+    $climate_file[$num_cli] = substr( $f, 0, length($f) - 4 );
+    $clim_name = "*" . substr( $station, index( $station, ":" ) + 2, 40 );
+    $clim_name =~ s/^\s*(.*?)\s*$/$1/;
+    $climate_name[$num_cli] = $clim_name;
+
+    #      $climate_year[$num_cli] = substr($year,66,5) * 1;
+    #      chomp $climate_year[$num_cli];
+    $num_cli += 1;
+}
 
 print "Content-type: text/html\n\n";
 print '
@@ -145,57 +118,52 @@ print '
     <H2>Personal Climate Stations</H2>
 ';
 
-#      if ($action eq '-download') {
-        print '<form name="sc" ACTION="https://',$wepphost,'/cgi-bin/fswepp/rc/pclimate.pl" method="post">',"\n";
-#      }
-#      else {
-#        print '<form name="sc" ACTION="https://',$wepphost,'/cgi-bin/fswepp/rc/copypar.pl" method="post">',"\n";
-#      }
+print '<form name="sc" ACTION="/cgi-bin/fswepp/rc/pclimate.pl" method="post">', "\n";
 
-  if ($debug) {print "User_ID: $user_ID<p>$glo";};
-#    print "action:  $arg0  units: $arg1  comefrom: $arg2  me: $arg3"; 
+if ($debug) { print "User_ID: $user_ID<p>$glo"; }
 
-    if ($num_cli == 0) {print "No personal climates exist<p><hr>\n"}
-    else {
-      print ' <SELECT NAME="station" SIZE="15">
+if ( $num_cli == 0 ) { print "No personal climates exist<p><hr>\n" }
+else {
+    print ' <SELECT NAME="station" SIZE="15">
       ';
-      print '         <OPTION VALUE="';
-      print $climate_file[0];
-      print '" selected> '. $climate_name[0] . "\n";
-      for $ii (1..$num_cli-1) {
+    print '         <OPTION VALUE="';
+    print $climate_file[0];
+    print '" selected> ' . $climate_name[0] . "\n";
+    for $ii ( 1 .. $num_cli - 1 ) {
         print '        <OPTION VALUE="';
         print $climate_file[$ii];
-        print '"> '. $climate_name[$ii] . "\n";
-      }
-     }   # bracket for if no personal climates exist
-      print '
+        print '"> ' . $climate_name[$ii] . "\n";
+    }
+}    # bracket for if no personal climates exist
+print '
       </SELECT>
       <p>
-      <input type="hidden" name="state" value="',$custCli,'">
-      <input type="hidden" name="comefrom" value="',$comefrom,'">
-      <input type="hidden" name="units" value="',$units,'">
-      <input type="hidden" name="me" value="',$me,'">
+      <input type="hidden" name="state" value="',    $custCli,  '">
+      <input type="hidden" name="comefrom" value="', $comefrom, '">
+      <input type="hidden" name="units" value="',    $units,    '">
+      <input type="hidden" name="me" value="',       $me,       '">
       <input type="hidden" name="startyear" value="1">
       ';
 
-      if ($action eq '-download') {
-       print '
+if ( $action eq '-download' ) {
+    print '
     Number of years of climate <input type="text" name="simyears" value="30" size=4> (approx 26K per year)
     <p>
     <input type="submit" name="submitbutton" value="DOWNLOAD CLIMATE">
-    <input type="hidden" name="action" value="',$action,'">'
-      }
+    <input type="hidden" name="action" value="', $action, '">';
+}
+
 #      else {
 #        print '<input type="submit" name="submitbutton" value="ADD TO PERSONAL CLIMATES"> '
 #      }
-  print '
+print '
     <input type="submit" name="submitbutton" value="DESCRIBE CLIMATE">
     <input type="submit" name="submitbutton" value="MODIFY CLIMATE">
    </form>
    <form method="post" name="RockClim" action="../rc/rockclim.pl">
-    <input type="hidden" name="units" value="',$units,'">
-    <input type="hidden" name="action" value="',$action,'">
-    <input type="hidden" name="comefrom" value="',$comefrom,'">
+    <input type="hidden" name="units" value="',    $units,    '">
+    <input type="hidden" name="action" value="',   $action,   '">
+    <input type="hidden" name="comefrom" value="', $comefrom, '">
     <input type="submit" name="submit" value="Retreat">
    </form>
   </center>

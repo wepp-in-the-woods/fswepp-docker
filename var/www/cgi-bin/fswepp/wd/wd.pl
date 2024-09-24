@@ -1,6 +1,10 @@
 #!/usr/bin/perl
 use CGI qw(escapeHTML);
 
+use warnings;
+use lib '/var/www/cgi-bin/fswepp/dry';
+use CligenUtils qw(CreateCligenFile GetParSummary);
+
 #
 # wd.pl
 #
@@ -36,22 +40,21 @@ $version = '2014.04.14';    # switch to 2014 soils database
 #=========================================================================
 
 &ReadParse(*parameters);
-
 $CL             = escapeHTML( $parameters{'Climate'} );
 $soil           = escapeHTML( $parameters{'SoilType'} );
 $treat1         = escapeHTML( $parameters{'UpSlopeType'} );
-$ofe1_length    = $parameters{'ofe1_length'} + 0;
-$ofe1_top_slope = $parameters{'ofe1_top_slope'} + 0;
-$ofe1_mid_slope = $parameters{'ofe1_mid_slope'} + 0;
-$ofe1_pcover    = $parameters{'ofe1_pcover'} + 0;
-$ofe1_rock      = $parameters{'ofe1_rock'} + 0;
+$ofe1_length    = escapeHTML( $parameters{'ofe1_length'} ) + 0;
+$ofe1_top_slope = escapeHTML( $parameters{'ofe1_top_slope'} ) + 0;
+$ofe1_mid_slope = escapeHTML( $parameters{'ofe1_mid_slope'} ) + 0;
+$ofe1_pcover    = escapeHTML( $parameters{'ofe1_pcover'} ) + 0;
+$ofe1_rock      = escapeHTML( $parameters{'ofe1_rock'} ) + 0;
 $treat2         = escapeHTML( $parameters{'LowSlopeType'} );
-$ofe2_length    = $parameters{'ofe2_length'} + 0;
-$ofe2_mid_slope = $parameters{'ofe2_top_slope'} + 0;
-$ofe2_bot_slope = $parameters{'ofe2_bot_slope'} + 0;
-$ofe2_pcover    = $parameters{'ofe2_pcover'} + 0;
-$ofe2_rock      = $parameters{'ofe2_rock'} + 0;
-$ofe_area       = $parameters{'ofe_area'} + 0;
+$ofe2_length    = escapeHTML( $parameters{'ofe2_length'} ) + 0;
+$ofe2_mid_slope = escapeHTML( $parameters{'ofe2_top_slope'} ) + 0;
+$ofe2_bot_slope = escapeHTML( $parameters{'ofe2_bot_slope'} ) + 0;
+$ofe2_pcover    = escapeHTML( $parameters{'ofe2_pcover'} ) + 0;
+$ofe2_rock      = escapeHTML( $parameters{'ofe2_rock'} ) + 0;
+$ofe_area       = escapeHTML( $parameters{'ofe_area'} ) + 0;
 $action =
     escapeHTML( $parameters{'actionc'} )
   . escapeHTML( $parameters{'actionv'} )
@@ -60,7 +63,7 @@ $action =
 $me          = escapeHTML( $parameters{'me'} );
 $units       = escapeHTML( $parameters{'units'} );
 $achtung     = escapeHTML( $parameters{'achtung'} );
-$climyears   = $parameters{'climyears'};
+$climyears   = escapeHTML( $parameters{'climyears'} );
 $description = escapeHTML( $parameters{'description'} );
 
 $weppversion = "wepp2010";
@@ -127,43 +130,15 @@ if ( $treat2 eq 'skid' )   { $treat2 = 'Skid' }
 
 if ($debug) { print "treatment 1: $treat1<br>\n" }
 
-$wepphost = "localhost";
-if ( -e "../wepphost" ) {
-    open HOST, "<../wepphost";
-    $wepphost = lc(<HOST>);
-    chomp $wepphost;
-    if ( $wepphost eq "" ) { $wepphost = "Localhost" }
-    close HOST;
-}
-
-$platform = "unix";
-if ( -e "../platform" ) {
-    open PLATFORM, "<../platform";
-    $platform = lc(<PLATFORM>);
-    chomp $platform;
-    if ( $platform eq "" ) { $platform = "unix" }
-    close PLATFORM;
-}
-
 if ( lc($action) =~ /custom/ ) {
-    $weppdist = "https://" . $wepphost . "/cgi-bin/fswepp/wd/weppdist.pl";
-    if ( $platform eq "pc" ) {
-        exec "perl ../rc/rockclim.pl -server -i$me -u$units $weppdist";
-    }
-    else {
-        exec "../rc/rockclim.pl -server -i$me -u$units $weppdist";
-    }
+    $weppdist = "/cgi-bin/fswepp/wd/weppdist.pl";
+    exec "../rc/rockclim.pl -server -i$me -u$units $weppdist";
     die;
 }    # /custom/
 
 if ( lc($achtung) =~ /describe climate/ ) {
-    $weppdist = "https://" . $wepphost . "/cgi-bin/fswepp/wd/weppdist.pl";
-    if ( $platform eq "pc" ) {
-        exec "perl ../rc/descpar.pl $CL $units $weppdist";
-    }
-    else {
-        exec "../rc/descpar.pl $CL $units $weppdist";
-    }
+    $weppdist = "/cgi-bin/fswepp/wd/weppdist.pl";
+    exec "../rc/descpar.pl $CL $units $weppdist";
     die;
 }    # /describe climate/
 
@@ -179,7 +154,7 @@ if ( lc($achtung) =~ /describe soil/ ) {    ##########
     if ( substr( $surface, 0, 1 ) eq "g" ) { $surf = "g" }
     $soilFile = '3' . $surf . $SoilType . $conduct . '.sol';
 
-    $weppdist   = "https://" . $wepphost . "/cgi-bin/fswepp/wd/weppdist.pl";
+    $weppdist   = "/cgi-bin/fswepp/wd/weppdist.pl";
     $soilFilefq = $soilPath . $soilFile;
     print "<HTML>\n";
     print " <HEAD>\n";
@@ -374,26 +349,13 @@ if ( lc($achtung) =~ /describe soil/ ) {    ##########
 
 ############################ start 2009.11.02 DEH
 
-if ( $platform eq "pc" ) {
-    if ( -e 'd:/fswepp/working' ) {
-        $runLogFile = 'd:\\fswepp\\working\\wepprun.log';
-    }
-    elsif ( -e 'c:/fswepp/working' ) {
-        $runLogFile = 'c:\\fswepp\\working\\wepprun.log';
-    }
-    else { $runLogFile = '..\\working\\wepprun.log' }
-
-    #    $logFile = "..\\working\\wepprun.log";
-}
-else {
-    $user_ID     = $ENV{'REMOTE_ADDR'};
-    $user_really = $ENV{'HTTP_X_FORWARDED_FOR'};              # DEH 11/14/2003
-    $user_ID     = $user_really if ( $user_really ne '' );    # DEH 11/14/2003
-    $user_ID =~ tr/./_/;
-    $user_ID    = $user_ID . $me;
-    $user_ID_   = $user_ID;
-    $runLogFile = "../working/" . $user_ID . ".run.log";
-}
+$user_ID     = $ENV{'REMOTE_ADDR'};
+$user_really = $ENV{'HTTP_X_FORWARDED_FOR'};              # DEH 11/14/2003
+$user_ID     = $user_really if ( $user_really ne '' );    # DEH 11/14/2003
+$user_ID =~ tr/./_/;
+$user_ID    = $user_ID . $me;
+$user_ID_   = $user_ID;
+$runLogFile = "../working/" . $user_ID . ".run.log";
 
 ############################ end 2009.11.02 DEH
 
@@ -409,7 +371,6 @@ $outputFile   = "$working/$unique" . '.out';
 $soilFile     = "$working/$unique" . '.sol';
 $slopeFile    = "$working/$unique" . '.slp';
 $cropFile     = "$working/$unique" . '.crp';
-$climateFile  = "$CL" . '.cli';
 $stoutFile    = "$working/$unique" . ".stout";
 $sterFile     = "$working/$unique" . ".sterr";
 $manFile      = "$working/$unique" . ".man";
@@ -475,12 +436,16 @@ if ( $rcin eq '' ) {
 
     if ($debug) { print "Creating Slope File<br>\n" }
     &CreateSlopeFile;
+
     if ($debug) { print "Creating Management File<br>\n" }
     &CreateManagementFileT;
+
     if ($debug) { print "Creating Climate File<br>\n" }
-    &CreateCligenFile;
+    ($climateFile, $climatePar) = &CreateCligenFile( $CL, $unique, $years2sim, $debug );
+
     if ($debug) { print "Creating Soil File<br>\n" }
     &CreateSoilFile;
+
     if ($debug) { print "Creating WEPP Response File<br>\n" }
     &CreateResponseFile;
 
@@ -754,10 +719,6 @@ pophist
 
     #------------------------------
 
-    #  unlink $climateFile;    # be sure this is right file .....     # 2/2000
-
-    #    print '<HR><BR><CENTER><H3>WEPP summary</H3></CENTER>';
-    #    print "\n<PRE>\n";
 
     open weppstout, "<$stoutFile";
 
@@ -989,8 +950,7 @@ pophist
        <br>
        <font size=1>
 ";
-        $PARfile = $climatePar;    # for &readPARfile()
-        &readPARfile();
+        print &GetParSummary($climatePar);
         print "
        </font>
       </td>
@@ -1370,8 +1330,7 @@ if ( $rcin eq '' ) {
      Disturbed WEPP 2.0 Results v.";
     print '     <a href="javascript:popuphistory()">';
     print
-"     $version</a> based on <b>WEPP $weppver</b>, CLIGEN $cligen_version<br>
-     $wepphost/fswepp<br>";
+"     $version</a> based on <b>WEPP $weppver</b>, CLIGEN $cligen_version<br>";
 }    # if ($rcin eq '') {
 
 &printdate;
@@ -1406,44 +1365,35 @@ close PAR;
 
 #  record activity in Disturbed WEPP log (if running on remote server)
 
-if ( lc($wepphost) ne "localhost" ) {
-    open WDLOG, ">>../working/_$thisyear/wd2.log";    # 2012.12.31 DEH
-    flock( WDLOG, 2 );
+open WDLOG, ">>../working/_$thisyear/wd2.log";    # 2012.12.31 DEH
+flock( WDLOG, 2 );
 
-    #      $host = $ENV{REMOTE_HOST};
-    #      if ($host eq "") {$host = $ENV{REMOTE_ADDR} };
-    print WDLOG "$host\t\"";
-    printf WDLOG "%0.2d:%0.2d ", $hour, $min;
-    print WDLOG $ampm[$ampmi], "  ", $days[$wday], " ", $months[$mon], " ",
-      $mday, ", ", $thisyear, "\"\t";
-    print WDLOG $years2sim, "\t";
-    print WDLOG '"', trim($climate_name), "\"\t";
+#      $host = $ENV{REMOTE_HOST};
+#      if ($host eq "") {$host = $ENV{REMOTE_ADDR} };
+print WDLOG "$host\t\"";
+printf WDLOG "%0.2d:%0.2d ", $hour, $min;
+print WDLOG $ampm[$ampmi], "  ", $days[$wday], " ", $months[$mon], " ",
+  $mday, ", ", $thisyear, "\"\t";
+print WDLOG $years2sim, "\t";
+print WDLOG '"', trim($climate_name), "\"\t";
 
-    #       print WDLOG $lat_long,"\n";                      # 2008.06.04 DEH
-    print WDLOG "$lat\t$long\n";    # 2008.06.04 DEH
+#       print WDLOG $lat_long,"\n";                      # 2008.06.04 DEH
+print WDLOG "$lat\t$long\n";    # 2008.06.04 DEH
 
-    #       print WDLOG $climate_name,"\n";
-    close WDLOG;
+#       print WDLOG $climate_name,"\n";
+close WDLOG;
 
-    #    open CLIMLOG, '>../working/lastclimate.txt';       # 2005.07.14 DEH
-    open CLIMLOG, ">../working/_$thisyear/lastclimate.txt";    # 2012.12.31 DEH
-    flock CLIMLOG, 2;
-    print CLIMLOG 'Disturbed WEPP 2.0: ', trim($climate_name);
-    close CLIMLOG;
+#    open CLIMLOG, '>../working/lastclimate.txt';       # 2005.07.14 DEH
+open CLIMLOG, ">../working/_$thisyear/lastclimate.txt";    # 2012.12.31 DEH
+flock CLIMLOG, 2;
+print CLIMLOG 'Disturbed WEPP 2.0: ', trim($climate_name);
+close CLIMLOG;
 
-#     $thisday = 1+ (localtime)[7];                      # $yday, day of the year (0..364)
-##    $thisdayoff=$thisday+3;                            # [Jan 1] -1: Sunday; 0: Monday
-#     $thisdayoff=$thisday+4;                            # [Jan 1] -1: Su; 0: Mo; 1: Tu; 2: We; 3: Th; 4: Fr; 5: Sa
-#     $thisweek = 1+ int $thisdayoff/7;
-#     $ditlogfile = '>>../working/wd/' . $thisweek;      # modify this
-    $ditlogfile = ">>../working/_$thisyear/wd2/$thisweek";    # 2013.01.07 DEH
-    open MYLOG, $ditlogfile;
-    flock MYLOG, 2;                                           # 2005.02.09 DEH
-    print MYLOG '.';
-    close MYLOG;
-
-}
-
+$ditlogfile = ">>../working/_$thisyear/wd2/$thisweek";     # 2013.01.07 DEH
+open MYLOG, $ditlogfile;
+flock MYLOG, 2;                                            # 2005.02.09 DEH
+print MYLOG '.';
+close MYLOG;
 ################################# start 2009.11.02 DEH
 
 #  record run in user wepp run log file
@@ -2542,102 +2492,6 @@ sub parsead {    ############### parsead
     }
 }
 
-sub CreateCligenFile {
-
-    # stuff what was working on PC but not on WHITEPINE
-
-    $climatePar = "$CL" . '.par';
-    $station    = substr( $CL, length($CL) - 8 );
-    $user_ID    = 'getalife';
-    $outfile    = $climateFile;
-
-    $climateFile = "$working\\$station.cli";
-    $outfile     = $climateFile;
-    $rspfile     = "$working\\" . $user_ID . ".rsp";
-    $stoutfile   = "$working\\" . $user_ID . ".out";
-
-    # end of stuff what was working
-
-    # swupped from wr.pl which works on WHITEPINE -- still works on PC
-
-    $climatePar = "$CL" . '.par';
-
-    #   $user_ID = 'getalife';
-    if ( $platform eq 'pc' ) {
-        $station     = substr( $CL, length($CL) - 8 );
-        $climateFile = "$working\\$station.cli";
-        $outfile     = $climateFile;
-        $rspfile     = "$working\\cligen.rsp";
-        $stoutfile   = "$working\\cligen.out";
-    }
-    else {
-        #     $user_ID = '';
-        #     $climateFile = '..\\working' . "$station.cli";
-        $climateFile = "../working/$unique.cli";
-        $outfile     = $climateFile;
-
-        #     $rspfile = "../working/$user_ID.rsp";
-        #     $stoutfile = "../working/$user_ID.out";
-        $rspfile   = "../working/c$unique.rsp";
-        $stoutfile = "../working/c$unique.out";
-    }
-
-    # end swup
-
-    if ($debug) {
-        print "[CreateCligenFile]<br>
-Arguments:    $args<br>
-ClimatePar:   $climatePar<br>
-ClimateFile:  $climateFile<br>
-OutputFile:   $outfile<br>
-ResponseFile: $rspfile<br>
-StandardOut:  $stoutfile<br>
-";
-    }
-
-    #  run CLIGEN43 on verified user_id.par file to
-    #  create user_id.cli file in FSWEPP working directory
-    #  for specified # years.
-
-    $startyear = 1;
-
-    open RSP, ">" . $rspfile;
-    print RSP "4.31\n";
-    print RSP $climatePar, "\n";
-    print RSP "n do not display file here\n";
-    print RSP "5 Multiple-year WEPP format\n";
-    print RSP $startyear, "\n";
-
-    #  print RSP $years,"\n";
-    print RSP $years2sim,   "\n";
-    print RSP $climateFile, "\n";
-    print RSP "n\n";
-    close RSP;
-
-    unlink $climateFile;    # erase previous climate file so's CLIGEN'll run
-
-    #                        randseed to keep the results the same
-    @args = ("../rc/cligen43 -r12345 <$rspfile >$stoutfile");
-    system @args;
-
-    $cligen_version = "version unknown";
-    open STOUT, "<$stoutfile";
-    while (<STOUT>) {
-        if (/VERSION/) {
-            $chomp;
-            $cligen_version = lc($_);
-            last;
-        }
-    }
-    close STOUT;
-
-    #   print $cligen_version;
-
-    unlink $rspfile;      #  "../working/c$unique.rsp"
-    unlink $stoutfile;    #  "../working/c$unique.out"
-
-}
-
 sub getAnnualPrecip {
 
     # in:  $climatePar
@@ -2684,136 +2538,6 @@ sub getAnnualPrecip {
             $ap_mean_p *= 25.4;    # inches to mm
         }
         $ap_annual_precip += $ap_mean_p;
-    }
-}
-
-sub readPARfile {    # add report of Lat, Long, Elev  2012.11.06
-
-    #   $PARfile= 'working/166_2_22_167_o.par';
-
-    #   $PARfile
-    #   $units = 'ft';
-
-    local $line, @mean_p_if, $mean_p_base, @pww, $pww_base, @pwd, $pwd_base,
-      @tmax_av, $tmax_av_base;
-    local @latlong, @elevs, $lat, $long, $elev, $nwetunits,
-      $elevunits;    # 2012.11.06
-    local @tmin_av, $tmin_av_base, @month_days, @num_wet, @mean_p, $tempunits,
-      $prcpunits, $i, $mod, $modfrom;
-
-# TOKETEE FALLS OR                        358536 0
-# LATT=  43.28 LONG=-122.45 YEARS= 40. TYPE= 2
-# ELEVATION = 2060. TP5 = 1.08 TP6= 4.08
-# MEAN P    .39   .33   .29   .23   .24   .22   .19   .25   .27   .35   .43   .43
-# S DEV P   .45   .37   .30   .25   .24   .25   .26   .26   .29   .39   .48   .50
-# SKEW  P  2.16  2.76  2.20  2.12  1.61  2.17  3.01  1.73  1.99  1.83  2.26  2.55
-# P(W/W)    .74   .77   .76   .72   .64   .59   .41   .48   .60   .64   .75   .76
-# P(W/D)    .30   .28   .31   .31   .20   .15   .06   .08   .10   .19   .33   .32
-# TMAX AV 42.29 48.29 53.67 60.86 69.80 77.65 86.12 85.43 77.99 63.48 48.60 41.95
-# TMIN AV 29.15 30.95 32.50 35.71 40.83 46.87 50.15 49.37 44.32 38.30 33.83 30.11
-
-    open PAR, "<$PARfile";
-    $line = <PAR>;    # station name
-
-    # print $line;
-    $line    = <PAR>;                          # Lat long
-    @latlong = split '=', $line;
-    $lat     = substr( $latlong[1], 0, 7 );
-    $long    = substr( $latlong[2], 0, 7 );    # 2012.11.06
-    $line    = <PAR>;                          # Elev
-    @elevs   = split '=', $line;
-    $elev    = substr( $elevs[1], 0, 7 );      # 2012.11.06
-    $line    = <PAR>
-      ; # MEAN P   0.10  0.10  0.11  0.10  0.11  0.14  0.14  0.09  0.10  0.10  0.12  0.12
-    @mean_p_if   = split ' ', $line;
-    $mean_p_base = 2;
-    $line        = <PAR>
-      ; # S DEV P  0.12  0.12  0.11  0.13  0.13  0.18  0.22  0.13  0.13  0.11  0.14  0.13
-    $line = <PAR>
-      ; # SKEW  P  1.88  2.30  2.21  2.15  2.29  2.35  3.60  3.22  2.05  2.49  2.22  1.87
-    $line = <PAR>
-      ; # P(W/W)   0.47  0.50  0.39  0.32  0.33  0.30  0.27  0.28  0.40  0.41  0.42  0.48
-    @pww      = split ' ', $line;
-    $pww_base = 1;
-    $line     = <PAR>
-      ; # P(W/D)   0.20  0.16  0.15  0.13  0.13  0.11  0.05  0.06  0.08  0.12  0.23  0.23
-    @pwd      = split ' ', $line;
-    $pwd_base = 1;
-    $line     = <PAR>
-      ; # TMAX AV 32.89 41.62 52.60 62.81 72.56 80.58 88.52 87.06 77.76 62.85 44.78 34.63
-
-    #      @tmax_av = split ' ',$line; $tmax_av_base = 2;
-    for $ii ( 0 .. 11 ) { @tmax_av[$ii] = substr( $line, 8 + $ii * 6, 6 ) };
-    $tmax_av_base = 0;
-    $line         = <PAR>
-      ; # TMIN AV 20.31 26.55 32.33 39.12 47.69 55.39 61.58 60.31 51.52 40.17 30.33 22.81
-
-    #      @tmin_av = split ' ',$line; $tmin_av_base = 2;
-    for $ii ( 0 .. 11 ) { @tmin_av[$ii] = substr( $line, 8 + $ii * 6, 6 ) };
-    $tmin_av_base = 0;
-
-    @month_days = ( 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 );
-
-    #******************************************************#
-    # Calculation from parameter file for displayed values #
-    #******************************************************#
-
-    for $i ( 1 .. 12 ) {
-        @pw[$i] = @pwd[$i] / ( 1 + @pwd[$i] - @pww[$i] );
-    }
-
-    for $i ( 0 .. 11 ) {
-        @tmax[$i]    = @tmax_av[ $i + $tmax_av_base ];
-        @tmin[$i]    = @tmin_av[ $i + $tmin_av_base ];
-        @pww[$i]     = @pww[ $i + $pww_base ];
-        @pwd[$i]     = @pwd[ $i + $pwd_base ];
-        @num_wet[$i] = sprintf '%.2f', @pw[ $i + $pww_base ] * @month_days[$i];
-        @mean_p[$i]  = sprintf '%.2f',
-          @num_wet[$i] * @mean_p_if[ $i + $mean_p_base ];
-        if ( $units eq 'm' ) {
-            @mean_p[$i] = sprintf '%.2f', 25.4 * @mean_p[$i];    # inches to mm
-            @tmax[$i]   = sprintf '%.2f',
-              ( @tmax[$i] - 32 ) * 5 / 9;    # deg F to deg C
-            @tmin[$i] = sprintf '%.2f',
-              ( @tmin[$i] - 32 ) * 5 / 9;    # deg F to deg C
-        }
-    }
-
-    $nwetunits = 'days';                     # 2012.11.06
-    if ( $units eq 'm' ) {
-        $tempunits = 'deg C';
-        $prcpunits = 'mm';
-        $elevunits = 'm';                        # 2012.11.06
-        $elev = sprintf '%.1f', $elev / 3.28;    # elev is in feet in .par file
-    }
-    else {
-        $tempunits = 'deg F';
-        $prcpunits = 'in';
-        $elevunits = 'ft';                       # 2012.11.06
-    }
-
-################
-
-    while (<PAR>) {
-        if (/Modified by/) {
-            $modfrom = $_;
-            $modfrom .= <PAR>;
-            last;
-        }
-    }
-
-    close PAR;
-
-    if ( $modfrom ne '' ) {
-        chomp $modfrom;
-        $, = ' ';
-        print $modfrom, "<br>";
-        print 'T MAX ', @tmax,    $tempunits, "<br>\n";
-        print 'T MIN ', @tmin,    $tempunits, "<br>\n";
-        print 'MEANP ', @mean_p,  $prcpunits, "<br>\n";
-        print '# WET ', @num_wet, $nwetunits, "<br>\n";
-        print "Latitude $lat Longitude $long Elevation $elev $elevunits<br>\n";
-        $, = '';
     }
 }
 

@@ -1,5 +1,7 @@
 #!/usr/bin/perl
 
+use CGI qw(escapeHTML);
+
 #
 #  Tahoe Basin Sediment Model input screen
 #
@@ -11,10 +13,11 @@
 ## BEGIN HISTORY ###################################
 ## Tahoe Basin Sediment Model version history
 
-   $version = '2014.11.14';	# modify phosphorus help screen
+$version = '2014.11.14';    # modify phosphorus help screen
+
 #  $version = '2014.04.18';	# allow for greater phosphorus sediment concentrations to match ongoing field data (200 to 2000 mg/kg)
 #  $version = '2012.11.13';	# finer target for fines analysis help text, reset to default rock values when leaving pavement
-#  $version = '2012.10.15';	# add help text to all of table header; 
+#  $version = '2012.10.15';	# add help text to all of table header;
 #  $version = '2012.10.11';	# sort climate pick list -- personal by age, others by climate name
 #  $version = '2012.10.09';	# add help text for geometry
 #  $version = '2012.09.07';	# add burn pile
@@ -27,7 +30,7 @@
 #  $version = '2011.02.14';	# Adjust handling of sod and bunchgrass
 #  $version = '2010.12.09';	# Modify "closest" button to work under IE8
 #  $version = '2010.06.01';	# Preliminary release
-#! $version = '2010.05.21';	# 
+#! $version = '2010.05.21';	#
 
 ## END HISTORY ###################################
 
@@ -45,8 +48,6 @@
 #       QUERY_STRING
 #       CONTENT_LENGTH
 #  reads:
-#    ../wepphost        # localhost or other
-#    ../platform        # pc or unix
 #    ../climates/*.par  # standard climate parameter files
 #    $working/*.par     # personal climate parameter files
 #    ../rc/tahoe/fc/    # future climate file directory and files
@@ -54,7 +55,7 @@
 #    tahoe run log file
 #    climate log
 #    WEPP results file (abundant output)
-#    working files soil, climate, vegetation, response, 
+#    working files soil, climate, vegetation, response,
 #  calls:
 #    /cgi-bin/fswepp/tahoe/wt.pl
 #  popup links:
@@ -62,196 +63,192 @@
 #  FS WEPP, USDA Forest Service, Rocky Mountain Research Station, Moscow
 #  AWAE
 #  Science by Bill Elliot et alia
-#  Code by David Hall 
+#  Code by David Hall
 
-    &ReadParse(*parameters);
-    $units=$parameters{'units'};
-    if ($units eq 'm') {$areaunits='ha'}
-    elsif ($units eq 'ft') {$areaunits='ac'}
-    else {$units = 'ft'; $areaunits='ac'}
-    $fc=$parameters{'fc'};
+&ReadParse(*parameters);
+
+$units = escapeHTML( $parameters{'units'} );
+
+if    ( $units eq 'm' )  { $areaunits = 'ha' }
+elsif ( $units eq 'ft' ) { $areaunits = 'ac' }
+else                     { $units     = 'ft'; $areaunits = 'ac' }
+$fc = escapeHTML( $parameters{'fc'} );
 
 ###   find personality ###
-    $cookie = $ENV{'HTTP_COOKIE'};
-    $sep = index ($cookie,"FSWEPPuser=");
-    $me = "";
-    if ($sep > -1) {$me = substr($cookie,$sep+11,1)}
+$cookie = $ENV{'HTTP_COOKIE'};
+$sep    = index( $cookie, "FSWEPPuser=" );
+$me     = "";
+if ( $sep > -1 ) { $me = substr( $cookie, $sep + 11, 1 ) }
 
-    if ($me ne "") {
-#       $me = lc(substr($me,0,1));
-       $me = substr($me,0,1);
-       $me =~ tr/a-zA-Z/ /c;
-    }
-    if ($me eq " ") {$me = ""}
+if ( $me ne "" ) {
 
-  $wepphost="localhost";
-  if (-e "../wepphost") {
-    open Host, "<../wepphost";
-    $wepphost = <Host>;
-    chomp $wepphost;
-    close H;
-  }
+    #       $me = lc(substr($me,0,1));
+    $me = substr( $me, 0, 1 );
+    $me =~ tr/a-zA-Z/ /c;
+}
+if ( $me eq " " ) { $me = "" }
 
-  $platform="pc";
-  if (-e "../platform") {
-    open Platform, "<../platform";
-      $platform=lc(<Platform>);
-      chomp $platform;
-    close Platform;
-  }
-  if ($platform eq "pc") {
-    if (-e 'd:/fswepp/working') {$working = 'd:\\fswepp\\working\\'}
-    elsif (-e 'c:/fswepp/working') {$working = 'c:\\fswepp\\working\\'}
-    else {$working = '..\\working\\'}			# 2004.10.13 DEH
-    $public = $working . '\\public\\'; 
-    $logFile = "$working\\wdwepp.log";
-    $cliDir = '..\\climates\\';
-    $custCli = "$working";
-  }
-  else {
-    $working='../working/';                             # DEH 08/22/2000
-    $public = $working . 'public/';                     # DEH 09/21/2000
-    $remote_address = $ENV{'REMOTE_ADDR'};
-    $user_really=$ENV{'HTTP_X_FORWARDED_FOR'};          # DEH 11/14/2002
-    $user_ID=$remote_address;
-    $user_ID=$user_really if ($user_really ne '');      # DEH 11/14/2002
-    $user_ID =~ tr/./_/;
-    $user_ID = $user_ID . $me . '_';			# DEH 03/05/2001
-    $logFile = '../working/' . $user_ID . '.log';
-    $cliDir = '../climates/';
-    $custCli = '../working/' . $user_ID;		# DEH 03/02/2001
-  }
+$working        = '../working/';                             # DEH 08/22/2000
+$public         = $working . 'public/';                      # DEH 09/21/2000
+$remote_address = $ENV{'REMOTE_ADDR'};
+$user_really    = $ENV{'HTTP_X_FORWARDED_FOR'};              # DEH 11/14/2002
+$user_ID        = $remote_address;
+$user_ID        = $user_really if ( $user_really ne '' );    # DEH 11/14/2002
+$user_ID =~ tr/./_/;
+$user_ID = $user_ID . $me . '_';                             # DEH 03/05/2001
+$logFile = '../working/' . $user_ID . '.log';
+$cliDir  = '../climates/';
+$custCli = '../working/' . $user_ID;                         # DEH 03/02/2001
 
 ########################################
 
-    $num_cli=0;
+$num_cli = 0;
 
 if ($fc) {
 
 ### get future climates
 
-    opendir CLIMDIR, '../rc/tahoe/fc/';                     # DEH 08/20/2012
-    @allfiles=readdir CLIMDIR;                          # DEH 05/05/2000
-    close CLIMDIR;                                      # DEH 05/05/2000
+    opendir CLIMDIR, '../rc/tahoe/fc/';    # DEH 08/20/2012
+    @allfiles = readdir CLIMDIR;           # DEH 05/05/2000
+    close CLIMDIR;                         # DEH 05/05/2000
 
-    for $f (@allfiles) {                                # DEH 05/05/2000
-      $f = '../rc/tahoe/fc/' . $f;                         # DEH 05/05/2000
-      if (substr($f,-4) eq '.cli') {                    # DEH 05/05/2000
-        open(M,$f) || goto fcskip;                       # DEH 05/05/2000
-          $lined = <M>; $lined = <M>;
-          $station = <M>;
-        close (M);
-#  print STDERR "$f\n";
-        $climate_file_fc[$num_cli] = substr($f, 0, -4);
-        $clim_name = substr($station, index($station, ":")+2, 40);
-        $clim_name =~ s/^\s*(.*?)\s*$/$1/;
-        $climate_name_fc[$num_cli] = $clim_name;
-        $num_cli += 1;
-fcskip:                                                  # DEH 05/05/2000
-      }		# if (substr($f,-4) eq '.cli')          # DEH 05/05/2000
-    }		# for $f (@allfiles) {
-#  ####  index sort climate name  ####  #
-   @ind = sort {$climate_name_fc[$a] cmp $climate_name_fc[$b]} 0..$#climate_name_fc;        # sort index
-#  ####  copy sorted entries into climate name and file lists  ####  #
-   for my $i (0..$#climate_name_fc) {
-     $climate_name[$i] = $climate_name_fc[$ind[$i]];
-     $climate_file[$i] = $climate_file_fc[$ind[$i]];
-   }
-} else {
+    for $f (@allfiles) {                   # DEH 05/05/2000
+        $f = '../rc/tahoe/fc/' . $f;           # DEH 05/05/2000
+        if ( substr( $f, -4 ) eq '.cli' ) {    # DEH 05/05/2000
+            open( M, $f ) || goto fcskip;      # DEH 05/05/2000
+            $lined   = <M>;
+            $lined   = <M>;
+            $station = <M>;
+            close(M);
+
+            #  print STDERR "$f\n";
+            $climate_file_fc[$num_cli] = substr( $f, 0, -4 );
+            $clim_name = substr( $station, index( $station, ":" ) + 2, 40 );
+            $clim_name =~ s/^\s*(.*?)\s*$/$1/;
+            $climate_name_fc[$num_cli] = $clim_name;
+            $num_cli += 1;
+          fcskip:                              # DEH 05/05/2000
+        }    # if (substr($f,-4) eq '.cli')          # DEH 05/05/2000
+    }    # for $f (@allfiles) {
+
+    #  ####  index sort climate name  ####  #
+    @ind = sort { $climate_name_fc[$a] cmp $climate_name_fc[$b] }
+      0 .. $#climate_name_fc;    # sort index
+
+    #  ####  copy sorted entries into climate name and file lists  ####  #
+    for my $i ( 0 .. $#climate_name_fc ) {
+        $climate_name[$i] = $climate_name_fc[ $ind[$i] ];
+        $climate_file[$i] = $climate_file_fc[ $ind[$i] ];
+    }
+}
+else {
 
 ### get personal climates, if any
 
-    opendir CLIMDIR, $working;                          # DEH 06/14/2000
-      @allpfiles=readdir CLIMDIR;                       # DEH 05/05/2000
-    close CLIMDIR;                                      # DEH 05/05/2000
+    opendir CLIMDIR, $working;       # DEH 06/14/2000
+    @allpfiles = readdir CLIMDIR;    # DEH 05/05/2000
+    close CLIMDIR;                   # DEH 05/05/2000
 
-$sortpersonalbyage=1;
-if (!$sortpersonalbyage) {
-#   @fileNames = glob($custCli . '*.par');
-#   for $f (@fileNames) {
-    for $f (@allpfiles) {                               # DEH 05/05/2000
-      if (index($f,$user_ID)==0) {			# DEH 09/15/2000
-        if (substr($f,-4) eq '.par') {                  # DEH 05/05/2000
-          $f = $working . $f;                           # DEH 06/14/2000
-          open(M,"<$f") || goto pskip;                  # DEH 05/05/2000
-            $station = <M>;
-          close (M);
-#  print STDERR "$f\n";
-          $climate_file[$num_cli] = substr($f, 0, -4);
-          $clim_name = '*' . substr($station, index($station, ":")+2, 40);
-          $clim_name =~ s/^\s*(.*?)\s*$/$1/;
-          $climate_name[$num_cli] = $clim_name;
-          $num_cli += 1;
+    $sortpersonalbyage = 1;
+    if ( !$sortpersonalbyage ) {
+
+        #   @fileNames = glob($custCli . '*.par');
+        #   for $f (@fileNames) {
+        for $f (@allpfiles) {    # DEH 05/05/2000
+            if ( index( $f, $user_ID ) == 0 ) {    # DEH 09/15/2000
+                if ( substr( $f, -4 ) eq '.par' ) {    # DEH 05/05/2000
+                    $f = $working . $f;                # DEH 06/14/2000
+                    open( M, "<$f" ) || goto pskip;    # DEH 05/05/2000
+                    $station = <M>;
+                    close(M);
+
+                    #  print STDERR "$f\n";
+                    $climate_file[$num_cli] = substr( $f, 0, -4 );
+                    $clim_name =
+                      '*' . substr( $station, index( $station, ":" ) + 2, 40 );
+                    $clim_name =~ s/^\s*(.*?)\s*$/$1/;
+                    $climate_name[$num_cli] = $clim_name;
+                    $num_cli += 1;
+                }
+              pskip:    # DEH 05/05/2000
+            }    # DEH 05/05/2000
         }
-pskip:                                                  # DEH 05/05/2000
-      }                                                 # DEH 05/05/2000
     }
-} else {		# if (!$sortpersonalbyage)
-    for $f (@allpfiles) {                               # DEH 05/05/2000
-      if (index($f,$user_ID)==0) {                      # DEH 09/15/2000
-        if (substr($f,-4) eq '.par') {                  # DEH 05/05/2000
-          $f = $working . $f;                           # DEH 06/14/2000
-          open(M,"<$f") || goto psskip;                  # DEH 05/05/2000
-            $station = <M>;
-          close (M);
-#  ####  get file creation date  ####  #
-          $age[$num_cli_ps] = -M $f;		# age of the file in days since the last modification
+    else {       # if (!$sortpersonalbyage)
+        for $f (@allpfiles) {    # DEH 05/05/2000
+            if ( index( $f, $user_ID ) == 0 ) {    # DEH 09/15/2000
+                if ( substr( $f, -4 ) eq '.par' ) {    # DEH 05/05/2000
+                    $f = $working . $f;                 # DEH 06/14/2000
+                    open( M, "<$f" ) || goto psskip;    # DEH 05/05/2000
+                    $station = <M>;
+                    close(M);
+
+                    #  ####  get file creation date  ####  #
+                    $age[$num_cli_ps] = -M $f
+                      ;    # age of the file in days since the last modification
 ########################################
-          $climate_file_ps[$num_cli_ps] = substr($f, 0, -4);
-          $clim_name_ps = '*' . substr($station, index($station, ":")+2, 40);
-          $clim_name_ps =~ s/^\s*(.*?)\s*$/$1/;
-          $climate_name_ps[$num_cli_ps] = $clim_name_ps;
-          $num_cli_ps += 1;
-        }		# if (substr
-psskip:
-      }			# if (index
-    }			# for $f
-#  ####  index sort climate modification time  ####  #
-   @ind = sort {$age[$a] <=> $age[$b]} 0..$#age;  	# sort index
-#  ####  copy sorted entries into climate name and file lists  ####  #
-   for my $i ( 0..$#age) {
-     $climate_name[$num_cli] = $climate_name_ps[$ind[$i]];
-     $climate_file[$num_cli] = $climate_file_ps[$ind[$i]];
-     $num_cli ++;
-   }
-}			# if ($sortpersonalbyage)	# DEH 2012.10.11
+                    $climate_file_ps[$num_cli_ps] = substr( $f, 0, -4 );
+                    $clim_name_ps =
+                      '*' . substr( $station, index( $station, ":" ) + 2, 40 );
+                    $clim_name_ps =~ s/^\s*(.*?)\s*$/$1/;
+                    $climate_name_ps[$num_cli_ps] = $clim_name_ps;
+                    $num_cli_ps += 1;
+                }    # if (substr
+              psskip:
+            }    # if (index
+        }    # for $f
+
+        #  ####  index sort climate modification time  ####  #
+        @ind = sort { $age[$a] <=> $age[$b] } 0 .. $#age;    # sort index
+
+        #  ####  copy sorted entries into climate name and file lists  ####  #
+        for my $i ( 0 .. $#age ) {
+            $climate_name[$num_cli] = $climate_name_ps[ $ind[$i] ];
+            $climate_file[$num_cli] = $climate_file_ps[ $ind[$i] ];
+            $num_cli++;
+        }
+    }    # if ($sortpersonalbyage)	# DEH 2012.10.11
 
 ### get standard climates
 
-    opendir CLIMDIR, '../climates';                     # DEH 05/05/2000
-    @allfiles=readdir CLIMDIR;                          # DEH 05/05/2000
-    close CLIMDIR;                                      # DEH 05/05/2000
+    opendir CLIMDIR, '../climates';    # DEH 05/05/2000
+    @allfiles = readdir CLIMDIR;       # DEH 05/05/2000
+    close CLIMDIR;                     # DEH 05/05/2000
 
-#   while (<../climates/*.par>) {                       # DEH 05/05/2000
-#     $f = $_;                                          # DEH 05/05/2000
+    #   while (<../climates/*.par>) {                       # DEH 05/05/2000
+    #     $f = $_;                                          # DEH 05/05/2000
 
-    $num_cli_s=0;
-    $num_cli_start=$num_cli;
-    for $f (@allfiles) {                                # DEH 05/05/2000
-      $f = '../climates/' . $f;                         # DEH 05/05/2000
-      if (substr($f,-4) eq '.par') {                    # DEH 05/05/2000
-        open(M,$f) || goto sskip;                       # DEH 05/05/2000
-          $station = <M>;
-        close (M);
-#  print STDERR "$f\n";
-        $climate_file_s[$num_cli_s] = substr($f, 0, -4);
-        $clim_name = substr($station, index($station, ":")+2, 40);
-        $clim_name =~ s/^\s*(.*?)\s*$/$1/;
-        $climate_name_s[$num_cli_s] = $clim_name;
-        $num_cli_s += 1;
-sskip:                                                  # DEH 05/05/2000
-      }                                                 # DEH 05/05/2000
+    $num_cli_s     = 0;
+    $num_cli_start = $num_cli;
+    for $f (@allfiles) {    # DEH 05/05/2000
+        $f = '../climates/' . $f;              # DEH 05/05/2000
+        if ( substr( $f, -4 ) eq '.par' ) {    # DEH 05/05/2000
+            open( M, $f ) || goto sskip;       # DEH 05/05/2000
+            $station = <M>;
+            close(M);
+
+            #  print STDERR "$f\n";
+            $climate_file_s[$num_cli_s] = substr( $f, 0, -4 );
+            $clim_name = substr( $station, index( $station, ":" ) + 2, 40 );
+            $clim_name =~ s/^\s*(.*?)\s*$/$1/;
+            $climate_name_s[$num_cli_s] = $clim_name;
+            $num_cli_s += 1;
+          sskip:                               # DEH 05/05/2000
+        }    # DEH 05/05/2000
     }
-#  ####  index sort climate name  ####  #
-   @ind = sort {$climate_name_s[$a] cmp $climate_name_s[$b]} 0..$#climate_name_s;        # sort index
-#  ####  copy sorted entries into climate name and file lists  ####  #
-   for my $i (0..$#climate_name_s) {
-     $climate_name[$i+$num_cli_start] = $climate_name_s[$ind[$i]];
-     $climate_file[$i+$num_cli_start] = $climate_file_s[$ind[$i]];
-     $num_cli++;
-   }
-}			# if ($fc)			# DEH 08/28/2012
-    $num_cli -= 1;
+
+    #  ####  index sort climate name  ####  #
+    @ind = sort { $climate_name_s[$a] cmp $climate_name_s[$b] }
+      0 .. $#climate_name_s;    # sort index
+
+    #  ####  copy sorted entries into climate name and file lists  ####  #
+    for my $i ( 0 .. $#climate_name_s ) {
+        $climate_name[ $i + $num_cli_start ] = $climate_name_s[ $ind[$i] ];
+        $climate_file[ $i + $num_cli_start ] = $climate_file_s[ $ind[$i] ];
+        $num_cli++;
+    }
+}    # if ($fc)			# DEH 08/28/2012
+$num_cli -= 1;
 
 ###################################################
 
@@ -311,15 +308,15 @@ print <<'theEnd2';
 
   var runit = '%'
   var rmin = 1
-  var rmin = 0		//dehdehdeh2004//
-  var rmax = 50		// DEH 2012.10.16 based on help text upper limit in WEPP is 50%
+  var rmin = 0
+  var rmax = 50
   var rdef = 20
 
   var previous_what=''  // for show_help
 theEnd2
 
-  if ($fc) {print "  var NowIs = 'future'\n";}
-  else {print "  var NowIs = 'current'\n";}
+if   ($fc) { print "  var NowIs = 'future'\n"; }
+else       { print "  var NowIs = 'current'\n"; }
 
 print "
 function click_future() {
@@ -347,17 +344,17 @@ popupwindow.focus()
 
 theEnd2
 
-if ($units eq "m") {
-  $lunit = ' m';
-  $lmin = 0.5;
-  $lmax = 400;
-  $ldef = 50;
+if ( $units eq "m" ) {
+    $lunit = ' m';
+    $lmin  = 0.5;
+    $lmax  = 400;
+    $ldef  = 50;
 }
 else {
-  $lunit = ' ft';
-  $lmin = 1.5;
-  $lmax = 1200;
-  $ldef = 150;
+    $lunit = ' ft';
+    $lmin  = 1.5;
+    $lmax  = 1200;
+    $ldef  = 150;
 }
 
 print "  var lunit = '$lunit'
@@ -655,7 +652,7 @@ print "
     width=660;
     pophistory = window.open('','pophistory','toolbar=no,location=no,status=no,directories=no,menubar=no,scrollbars=yes,resizable=yes,width='+width+',height='+height);
 ";
-    print make_history_popup();
+print make_history_popup();
 print "
     pophistory.document.close()
     pophistory.focus()
@@ -709,13 +706,15 @@ print <<'theEnd';
 
 theEnd
 print "function StartUp() {\n";
+
 #print "    max_year = new MakeArray($num_cli);\n\n";
 print "    climate_name = new MakeArray($num_cli);\n";
 
-  for $ii (0..$num_cli) {
-#    print "    max_year[$ii] = " . $climate_year[$ii] . ";\n";
-    print "    climate_name[$ii] = ",'"',$climate_name[$ii],'"',"\n";
-  }
+for $ii ( 0 .. $num_cli ) {
+
+    #    print "    max_year[$ii] = " . $climate_year[$ii] . ";\n";
+    print "    climate_name[$ii] = ", '"', $climate_name[$ii], '"', "\n";
+}
 print <<'theEnd';
 //    window.document.weppdist.Climate.selectedIndex = 0;
 //    window.document.weppdist.climyears.value = max_year[0];
@@ -956,8 +955,8 @@ print '<BODY bgcolor="white"
     </table>
   <center>
   <form name="weppdist" method="post" ACTION="/cgi-bin/fswepp/tahoe/wt.pl">
-  <input type="hidden" size="1" name="me" value="',$me,'">
-  <input type="hidden" size="1" name="units" value="',$units,'">
+  <input type="hidden" size="1" name="me" value="',    $me,    '">
+  <input type="hidden" size="1" name="units" value="', $units, '">
 <br>
  <table width=90% border=0 bgcolor="pink">
   <tr>
@@ -991,31 +990,34 @@ print "
 ";
 print '
       <td align="center" bgcolor="#FAF8CC">
-       <SELECT NAME="Climate" SIZE="',$num_cli+1,'">
+       <SELECT NAME="Climate" SIZE="', $num_cli + 1, '">
 ';
 ### display personal climates, if any
 
-    if ($num_cli > 0) {
-      print '        <OPTION VALUE="';
-      print $climate_file[0];
-      print '" selected> ', $climate_name[0] , "\n";
-    }
-    for $ii (1..$num_cli) {
-      print '        <OPTION VALUE="';
-      print $climate_file[$ii];
-      print '"> ', $climate_name[$ii] , "\n";
-    }
-    print "       </SELECT>
+if ( $num_cli > 0 ) {
+    print '        <OPTION VALUE="';
+    print $climate_file[0];
+    print '" selected> ', $climate_name[0], "\n";
+}
+for $ii ( 1 .. $num_cli ) {
+    print '        <OPTION VALUE="';
+    print $climate_file[$ii];
+    print '"> ', $climate_name[$ii], "\n";
+}
+print "       </SELECT>
       <tr>
        <td align=center class=\"tdhelpoff\" onmouseover=\"className='tdhelpon'\" onmouseout=\"className='tdhelpoff'\" onClick=\"JavaScript:show_help('climate_buttons')\">
       <input type=\"hidden\" name=\"achtung\" value=\"Run WEPP\">
 ";
-if (!$fc) { print "
+if ( !$fc ) {
+    print "
       <input type=\"SUBMIT\" name=\"actionc\" value=\"Custom\">
       <input type=button value=Future onclick=\"javascript:click_future()\">
       <input type=\"button\" value=\"Closest\" onclick=\"javascript:popupclosest()\">
       <input type=\"hidden\" name=\"fc\" value=\"\">\n";
-} else { print "      <input type=\"hidden\" name=\"fc\" value=\"*\">
+}
+else {
+    print "      <input type=\"hidden\" name=\"fc\" value=\"*\">
       <input type=button value='Current climates' onclick=\"javascript:click_present()\">\n";
 }
 #################
@@ -1268,7 +1270,7 @@ print <<'theEnd';
 theEnd
 #####################################
 if ($fc) {
-print <<'theEnd';
+    print <<'theEnd';
     <th bgcolor="#85d2d2" title="20-year simulation starting 2001 to 2080">
      <font size=-1>
       <b>Starting year</b>
@@ -1284,8 +1286,9 @@ print <<'theEnd';
      </font>
     </td>
 theEnd
-} else {
-print <<'theEnd';
+}
+else {
+    print <<'theEnd';
     <th bgcolor="#85d2d2">
      <font size=-1>
       <b>Simulation Length</b>
@@ -1327,7 +1330,7 @@ print <<'theEnd';
 <P>
 <HR>
 theEnd
-  print '
+print '
  <font size=-1>
   <a href="/fswepp/comments.html" >                                                              
   <img src="/fswepp/images/epaemail.gif" align="right" border=0></a>
@@ -1337,7 +1340,8 @@ theEnd
    The Tahoe Basin Sediment Model is a version of Disturbed WEPP customized for the Lake Tahoe Basin.
    <br><br>
    <b>Citation:</b><br>
-   Elliot, William J.; Hall, David E. 2010. Tahoe Basin Sediment Model. Ver. ', $version,'.
+   Elliot, William J.; Hall, David E. 2010. Tahoe Basin Sediment Model. Ver. ',
+  $version, '.
    Moscow, ID: U.S. Department of Agriculture, Forest Service, Rocky Mountain Research Station. 
    Online at &lt;https://forest.moscowfsl.wsu.edu/fswepp&gt;.
    <br><br>
@@ -1346,18 +1350,19 @@ theEnd
      Southern Nevada Public Land Management Act</a>
    <br><br>
    Tahoe Basin Sediment Model Interface v.
-   <a href="javascript:popuphistory()">',$version,'</a><br>
+   <a href="javascript:popuphistory()">', $version, '</a><br>
 ';
-  $remote_host = $ENV{'REMOTE_HOST'};
-  $remote_address = $ENV{'REMOTE_ADDR'};
+$remote_host    = $ENV{'REMOTE_HOST'};
+$remote_address = $ENV{'REMOTE_ADDR'};
 
 # $wc  = `wc ../working/_2016/wt.log`;
 # $wc  = `wc ../working/_2017/wt.log`;
-  $wc  = `wc ../working/' . currentLogDir() . '/wt.log`;
-  @words = split " ", $wc;
-  $runs = @words[0];
+$wc    = `wc ../working/' . currentLogDir() . '/wt.log`;
+@words = split " ", $wc;
+$runs  = @words[0];
 
-print "Internet host &ndash; address (forwarded) 'personality': $remote_host &ndash; $remote_address ($user_really) '<b>$me</b>'<br>
+print
+"Internet host &ndash; address (forwarded) 'personality': $remote_host &ndash; $remote_address ($user_really) '<b>$me</b>'<br>
   Log of FS WEPP runs for IP and personality <a href=\"/cgi-bin/fswepp/runlogger.pl?ip=$remote_address$me\" target=\"_rl\">$remote_address$me</a><br>
   <b>$runs</b> Tahoe Basin Sediment Model runs YTD
  </body>
@@ -1368,54 +1373,58 @@ print "Internet host &ndash; address (forwarded) 'personality': $remote_host &nd
 
 sub ReadParse {
 
-# ReadParse -- from cgi-lib.pl (Steve Brenner) from Eric Herrmann's
-# "Teach Yourself CGI Programming With PERL in a Week" p. 131
+    # ReadParse -- from cgi-lib.pl (Steve Brenner) from Eric Herrmann's
+    # "Teach Yourself CGI Programming With PERL in a Week" p. 131
 
-# Reads GET or POST data, converts it to unescaped text, and puts
-# one key=value in each member of the list "@in"
-# Also creates key/value pairs in %in, using '\0' to separate multiple
-# selections
+    # Reads GET or POST data, converts it to unescaped text, and puts
+    # one key=value in each member of the list "@in"
+    # Also creates key/value pairs in %in, using '\0' to separate multiple
+    # selections
 
-# If a variable-glob parameter...
+    # If a variable-glob parameter...
 
-  local (*in) = @_ if @_;
-  local ($i, $loc, $key, $val);
+    local (*in) = @_ if @_;
+    local ( $i, $loc, $key, $val );
 
-  if ($ENV{'REQUEST_METHOD'} eq "GET") {
-    $in = $ENV{'QUERY_STRING'};
-  } elsif ($ENV{'REQUEST_METHOD'} eq "POST") {
-    read(STDIN,$in,$ENV{'CONTENT_LENGTH'});
-  }
+    if ( $ENV{'REQUEST_METHOD'} eq "GET" ) {
+        $in = $ENV{'QUERY_STRING'};
+    }
+    elsif ( $ENV{'REQUEST_METHOD'} eq "POST" ) {
+        read( STDIN, $in, $ENV{'CONTENT_LENGTH'} );
+    }
 
-  @in = split(/&/,$in);
+    @in = split( /&/, $in );
 
-  foreach $i (0 .. $#in) {
-    # Convert pluses to spaces
-    $in[$i] =~ s/\+/ /g;
+    foreach $i ( 0 .. $#in ) {
 
-    # Split into key and value
-    ($key, $val) = split(/=/,$in[$i],2);  # splits on the first =
+        # Convert pluses to spaces
+        $in[$i] =~ s/\+/ /g;
 
-    # Convert %XX from hex numbers to alphanumeric
-    $key =~ s/%(..)/pack("c",hex($1))/ge;
-    $val =~ s/%(..)/pack("c",hex($1))/ge;
+        # Split into key and value
+        ( $key, $val ) = split( /=/, $in[$i], 2 );    # splits on the first =
 
-    # Associative key and value
-    $in{$key} .= "\0" if (defined($in{$key}));  # \0 is the multiple separator
-    $in{$key} .= $val;
-  }
-  return 1;
- }
+        # Convert %XX from hex numbers to alphanumeric
+        $key =~ s/%(..)/pack("c",hex($1))/ge;
+        $val =~ s/%(..)/pack("c",hex($1))/ge;
+
+        # Associative key and value
+        $in{$key} .= "\0"
+          if ( defined( $in{$key} ) );    # \0 is the multiple separator
+        $in{$key} .= $val;
+    }
+    return 1;
+}
 
 sub make_history_popup {
 
-  my $version;
+    my $version;
 
-# Reads parent (perl) file and looks for a history block:
+    # Reads parent (perl) file and looks for a history block:
 ## BEGIN HISTORY ####################################################
-# ERMiT Version History
+    # ERMiT Version History
 
-  $version='2005.02.08';        # Make self-creating history popup page
+    $version = '2005.02.08';    # Make self-creating history popup page
+
 # $version = '2005.02.07';      # Fix parameter passing to tail_html; stuff after semicolon lost
 #!$version = '2005.02.07';      # Bang in line says do not use
 # $version = '2005.02.04';      # Clean up HTML formatting, add head_html and tail_html functions
@@ -1427,45 +1436,45 @@ sub make_history_popup {
 # and returns body (including Javascript document.writeln instructions) for a pop-up history window
 # called pophistory.
 
-# First line after 'BEGIN HISTORY' is <title> text
-# Splits version and comment on semi-colon
-# Version must be version= then digits and periods
-# Bang in line causes line to be ignored
-# Disallowed: single and double quotes in comment part
-# Not handled: continuation lines
+    # First line after 'BEGIN HISTORY' is <title> text
+    # Splits version and comment on semi-colon
+    # Version must be version= then digits and periods
+    # Bang in line causes line to be ignored
+    # Disallowed: single and double quotes in comment part
+    # Not handled: continuation lines
 
-# Usage:
+    # Usage:
 
-#print "<html>
-# <head>
-#  <title>$title</title>
-#   <script language=\"javascript\">
-#    <!-- hide from old browsers...
-#
-#  function popuphistory() {
-#    pophistory = window.open('','pophistory','')
-#";
-#    print make_history_popup();
-#print "
-#    pophistory.document.close()
-#    pophistory.focus()
-#  }
-#";
+    #print "<html>
+    # <head>
+    #  <title>$title</title>
+    #   <script language=\"javascript\">
+    #    <!-- hide from old browsers...
+    #
+    #  function popuphistory() {
+    #    pophistory = window.open('','pophistory','')
+    #";
+    #    print make_history_popup();
+    #print "
+    #    pophistory.document.close()
+    #    pophistory.focus()
+    #  }
+    #";
 
-# print $0,"\n";
+    # print $0,"\n";
 
-  my ($line, $z, $vers, $comment);
+    my ( $line, $z, $vers, $comment );
 
-  open MYSELF, "<$0";
+    open MYSELF, "<$0";
     while (<MYSELF>) {
 
-      next if (/!/);
+        next if (/!/);
 
-      if (/## BEGIN HISTORY/) {
-        $line = <MYSELF>;
-        chomp $line;
-        $line = substr($line,2);
-        $z = "    pophistory.document.writeln('<html>')
+        if (/## BEGIN HISTORY/) {
+            $line = <MYSELF>;
+            chomp $line;
+            $line = substr( $line, 2 );
+            $z    = "    pophistory.document.writeln('<html>')
     pophistory.document.writeln(' <head>')
     pophistory.document.writeln('  <title>$line</title>')
     pophistory.document.writeln(' </head>')
@@ -1480,34 +1489,35 @@ sub make_history_popup {
     pophistory.document.writeln('     <th bgcolor=lightblue>Comments</th>')
     pophistory.document.writeln('    </tr>')
 ";
-      } # if (/## BEGIN HISTORY/)
+        }    # if (/## BEGIN HISTORY/)
 
-      if (/version/) {
-        ($vers, $comment) = split (/;/,$_);
-        $comment =~ s/#//;
-        chomp $comment;
-        $vers =~ s/'//g;
-        $vers =~ s/ //g;
-        $vers =~ s/"//g;
-        if ($vers =~ /version=*([0-9.]+)/) {    # pull substring out of a line
-          $z .= "    pophistory.document.writeln('    <tr>')
+        if (/version/) {
+            ( $vers, $comment ) = split( /;/, $_ );
+            $comment =~ s/#//;
+            chomp $comment;
+            $vers =~ s/'//g;
+            $vers =~ s/ //g;
+            $vers =~ s/"//g;
+            if ( $vers =~ /version=*([0-9.]+)/ )
+            {    # pull substring out of a line
+                $z .= "    pophistory.document.writeln('    <tr>')
     pophistory.document.writeln('     <th valign=top bgcolor=lightblue>$1</th>')
     pophistory.document.writeln('     <td>$comment</td>')
     pophistory.document.writeln('    </tr>')
 ";
-        }       # (/version *([0-9]+)/)
-     }  # if (/version/)
+            }    # (/version *([0-9]+)/)
+        }    # if (/version/)
 
-    if (/## END HISTORY/) {
-        $z .= "    pophistory.document.writeln('   </table>')
+        if (/## END HISTORY/) {
+            $z .= "    pophistory.document.writeln('   </table>')
     pophistory.document.writeln('   </font>')
     pophistory.document.writeln('  </center>')
     pophistory.document.writeln(' </body>')
     pophistory.document.writeln('</html>')
 ";
-      last;
-    }     # if (/## END HISTORY/)
-  }     # while
-  close MYSELF;
-  return $z;
+            last;
+        }    # if (/## END HISTORY/)
+    }    # while
+    close MYSELF;
+    return $z;
 }

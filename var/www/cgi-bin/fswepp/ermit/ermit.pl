@@ -1,5 +1,7 @@
 #!/usr/bin/perl
 
+use CGI qw(escapeHTML);
+
 #
 #  ERMiT input screen
 #
@@ -8,7 +10,8 @@
 ## BEGIN HISTORY ###################################
 ## WEPP ERMiT version history
 
-   $version='2014.04.07';	# Provide unburned option
+$version = '2014.04.07';    # Provide unburned option
+
 #! $version='2013.04.30';       # Oops, fix run count report for 2013
 #  $version='2013.03.01';	# Sort personal climates (newest at top) and standard climates (by name)
 #  $version='2009.09.17';	# Adjust FSWEPPuser personality
@@ -79,163 +82,171 @@
 #    /fswepp/wr/wrwidths.html
 #    /fswepp/wr/rddesign.html
 
-#  FSWEPP, USDA Forest Service, Rocky Mountain Research Station, 
+#  FSWEPP, USDA Forest Service, Rocky Mountain Research Station,
 #  Soil & Water Engineering
 #  Science by Bill Elliot et alia
-#  Code by David Hall 
+#  Code by David Hall
 
-  $remote_host = $ENV{'REMOTE_HOST'};
-  $remote_address = $ENV{'REMOTE_ADDR'};  # if ($userIP eq '');
+$remote_host    = $ENV{'REMOTE_HOST'};
+$remote_address = $ENV{'REMOTE_ADDR'};    # if ($userIP eq '');
 
-  $http_x_forwarded_for = $ENV{'HTTP_X_FORWARDED_FOR'};
-  $http_cache_control = $ENV{'HTTP_CACHE_CONTROL'};
+$http_x_forwarded_for = $ENV{'HTTP_X_FORWARDED_FOR'};
+$http_cache_control   = $ENV{'HTTP_CACHE_CONTROL'};
 
-    &ReadParse(*parameters);
-    $units=$parameters{'units'};
-    $debug=$parameters{'debug'};			# DEH 2014-02-07
-    if ($units eq 'm') {$areaunits='ha'}
-    elsif ($units eq 'ft') {$areaunits='ac'}
-    else {$units = 'ft'; $areaunits='ac'}
-#    $me=$parameters{'me'};
-    $cookie = $ENV{'HTTP_COOKIE'};
-#    $sep = index ($cookie,"=");
-#    $me = "";
-#    if ($sep > -1) {$me = substr($cookie,$sep+1,1)}
-  $sep = index ($cookie,"FSWEPPuser=");
-  $me = "";
-  if ($sep > -1) {$me = substr($cookie,$sep+11,1)}      # DEH 2009.09.17
+&ReadParse(*parameters);
+$units = escapeHTML($parameters{'units'});
+$debug = escapeHTML($parameters{'debug'});
 
-    if ($me ne "") {
-       $me = lc(substr($me,0,1));
-       $me =~ tr/a-z/ /c;
-    }
-    if ($me eq " ") {$me = ""}
-  $wepphost="localhost";
-  if (-e "../wepphost") {
+if    ( $units eq 'm' )  { $areaunits = 'ha' }
+elsif ( $units eq 'ft' ) { $areaunits = 'ac' }
+else                     { $units     = 'ft'; $areaunits = 'ac' }
+
+$cookie = $ENV{'HTTP_COOKIE'};
+
+$sep = index( $cookie, "FSWEPPuser=" );
+$me  = "";
+if ( $sep > -1 ) { $me = substr( $cookie, $sep + 11, 1 ) }    # DEH 2009.09.17
+
+if ( $me ne "" ) {
+    $me = lc( substr( $me, 0, 1 ) );
+    $me =~ tr/a-z/ /c;
+}
+if ( $me eq " " ) { $me = "" }
+$wepphost = "localhost";
+if ( -e "../wepphost" ) {
     open Host, "<../wepphost";
     $wepphost = <Host>;
     chomp $wepphost;
     close H;
-  }
-  $platform="pc";
-  if (-e "../platform") {
+}
+$platform = "pc";
+if ( -e "../platform" ) {
     open Platform, "<../platform";
-      $platform=lc(<Platform>);
-      chomp $platform;
+    $platform = lc(<Platform>);
+    chomp $platform;
     close Platform;
-  }
-  if ($platform eq "pc") {
-    if (-e 'd:/fswepp/working') {$working = 'd:\\fswepp\\working\\'}
-    elsif (-e 'c:/fswepp/working') {$working = 'c:\\fswepp\\working\\'}
-    else {$working = '..\\working\\'}
-    $public = $working . '\\public\\'; 
+}
+if ( $platform eq "pc" ) {
+    if    ( -e 'd:/fswepp/working' ) { $working = 'd:\\fswepp\\working\\' }
+    elsif ( -e 'c:/fswepp/working' ) { $working = 'c:\\fswepp\\working\\' }
+    else                             { $working = '..\\working\\' }
+    $public  = $working . '\\public\\';
     $logFile = "$working\\wdwepp.log";
-    $cliDir = '..\\climates\\';
+    $cliDir  = '..\\climates\\';
     $custCli = "$working";
-  }
-  else {
-    $working='../working/';                             # DEH 08/22/2000
-    $public = $working . 'public/';                     # DEH 09/21/2000
-    $user_ID=$ENV{'REMOTE_ADDR'};
-    $user_really=$ENV{'HTTP_X_FORWARDED_FOR'};          # DEH 11/14/2002
-    $user_ID=$user_really if ($user_really ne '');      # DEH 11/14/2002
+}
+else {
+    $working     = '../working/';                             # DEH 08/22/2000
+    $public      = $working . 'public/';                      # DEH 09/21/2000
+    $user_ID     = $ENV{'REMOTE_ADDR'};
+    $user_really = $ENV{'HTTP_X_FORWARDED_FOR'};              # DEH 11/14/2002
+    $user_ID     = $user_really if ( $user_really ne '' );    # DEH 11/14/2002
     $user_ID =~ tr/./_/;
-    $user_ID = $user_ID . $me . '_';			# DEH 03/05/2001
+    $user_ID = $user_ID . $me . '_';                          # DEH 03/05/2001
     $logFile = '../working/' . $user_ID . '.log';
-    $cliDir = '../climates/';
-    $custCli = '../working/' . $user_ID;		# DEH 03/02/2001
-  }
+    $cliDir  = '../climates/';
+    $custCli = '../working/' . $user_ID;                      # DEH 03/02/2001
+}
 
 ########################################
 
-    $num_cli=0;
+$num_cli = 0;
 
 ### get public climates, if any
 
-    opendir PUBLICDIR, $public;
-    @allpfiles=readdir PUBLICDIR;
-    close PUBLICDIR;
+opendir PUBLICDIR, $public;
+@allpfiles = readdir PUBLICDIR;
+close PUBLICDIR;
 
-    for $f (@allpfiles) {
-      if (substr($f,-4) eq '.par') {
+for $f (@allpfiles) {
+    if ( substr( $f, -4 ) eq '.par' ) {
         $f = $public . $f;
-        open(M,"<$f") || goto vskip;
-          $station = <M>;
-        close (M);
-        $climate_file[$num_cli] = substr($f, 0, -4);
-        $clim_name = '- ' . substr($station, index($station, ":")+2, 40);
+        open( M, "<$f" ) || goto vskip;
+        $station = <M>;
+        close(M);
+        $climate_file[$num_cli] = substr( $f, 0, -4 );
+        $clim_name = '- ' . substr( $station, index( $station, ":" ) + 2, 40 );
         $clim_name =~ s/^\s*(.*?)\s*$/$1/;
         $climate_name[$num_cli] = $clim_name;
         $num_cli += 1;
-vskip:
-      }
+      vskip:
     }
+}
 
 ### get personal climates, if any
 
-    opendir CLIMDIR, $working;
-      @allpfiles=readdir CLIMDIR;
-    close CLIMDIR;
+opendir CLIMDIR, $working;
+@allpfiles = readdir CLIMDIR;
+close CLIMDIR;
 
-    for $f (@allpfiles) {
-      if (index($f,$user_ID)==0) {
-        if (substr($f,-4) eq '.par') {
-          $f = $working . $f;
-          open(M,"<$f") || goto psskip;
+for $f (@allpfiles) {
+    if ( index( $f, $user_ID ) == 0 ) {
+        if ( substr( $f, -4 ) eq '.par' ) {
+            $f = $working . $f;
+            open( M, "<$f" ) || goto psskip;
             $station = <M>;
-          close (M);
-#  ####  get file creation date  ####  #
-          $age[$num_cli_ps] = -M $f;            # age of the file in days since the last modification
-          $climate_file_ps[$num_cli_ps] = substr($f, 0, -4);
-          $clim_name_ps = '*' . substr($station, index($station, ":")+2, 40);
-          $clim_name_ps =~ s/^\s*(.*?)\s*$/$1/;
-          $climate_name_ps[$num_cli_ps] = $clim_name_ps;
-          $num_cli_ps += 1;
-        }               # if (substr
-psskip:
-      }                 # if (index
-    }                   # for $f
+            close(M);
+
+            #  ####  get file creation date  ####  #
+            $age[$num_cli_ps] =
+              -M $f;    # age of the file in days since the last modification
+            $climate_file_ps[$num_cli_ps] = substr( $f, 0, -4 );
+            $clim_name_ps =
+              '*' . substr( $station, index( $station, ":" ) + 2, 40 );
+            $clim_name_ps =~ s/^\s*(.*?)\s*$/$1/;
+            $climate_name_ps[$num_cli_ps] = $clim_name_ps;
+            $num_cli_ps += 1;
+        }    # if (substr
+      psskip:
+    }    # if (index
+}    # for $f
+
 #  ####  index sort climate modification time           www.perlmonks.org/?node_id=60442
-   @ind = sort {$age[$a] <=> $age[$b]} 0..$#age;        # sort index
+@ind = sort { $age[$a] <=> $age[$b] } 0 .. $#age;    # sort index
+
 #  ####  copy sorted entries into climate name and file lists  ####  #
-   for my $i ( 0..$#age) {
-     $climate_name[$num_cli] = $climate_name_ps[$ind[$i]];
-     $climate_file[$num_cli] = $climate_file_ps[$ind[$i]];
-     $num_cli ++;
-   }
+for my $i ( 0 .. $#age ) {
+    $climate_name[$num_cli] = $climate_name_ps[ $ind[$i] ];
+    $climate_file[$num_cli] = $climate_file_ps[ $ind[$i] ];
+    $num_cli++;
+}
 
 ### get standard climates
 
-    opendir CLIMDIR, '../climates';
-      @allfiles=readdir CLIMDIR;
-    close CLIMDIR;
+opendir CLIMDIR, '../climates';
+@allfiles = readdir CLIMDIR;
+close CLIMDIR;
 
-    $num_cli_s=0;
-    $num_cli_start=$num_cli;
-    for $f (@allfiles) {
-      $f = '../climates/' . $f;
-      if (substr($f,-4) eq '.par') {
-        open(M,$f) || goto sskip;
-          $station = <M>;
-        close (M);
-#  print STDERR "$f\n";
-        $climate_file_s[$num_cli_s] = substr($f, 0, -4);
-        $clim_name = substr($station, index($station, ":")+2, 40);
+$num_cli_s     = 0;
+$num_cli_start = $num_cli;
+for $f (@allfiles) {
+    $f = '../climates/' . $f;
+    if ( substr( $f, -4 ) eq '.par' ) {
+        open( M, $f ) || goto sskip;
+        $station = <M>;
+        close(M);
+
+        #  print STDERR "$f\n";
+        $climate_file_s[$num_cli_s] = substr( $f, 0, -4 );
+        $clim_name = substr( $station, index( $station, ":" ) + 2, 40 );
         $clim_name =~ s/^\s*(.*?)\s*$/$1/;
         $climate_name_s[$num_cli_s] = $clim_name;
         $num_cli_s += 1;
-sskip:
-      }
+      sskip:
     }
+}
+
 #  ####  index sort climate name  ####  #
-   @ind = sort {$climate_name_s[$a] cmp $climate_name_s[$b]} 0..$#climate_name_s;        # sort index
+@ind = sort { $climate_name_s[$a] cmp $climate_name_s[$b] }
+  0 .. $#climate_name_s;    # sort index
+
 #  ####  copy sorted entries into climate name and file lists  ####  #
-   for my $i (0..$#climate_name_s) {
-     $climate_name[$i+$num_cli_start] = $climate_name_s[$ind[$i]];
-     $climate_file[$i+$num_cli_start] = $climate_file_s[$ind[$i]];
-     $num_cli++;
-   }
-   $num_cli -= 1;
+for my $i ( 0 .. $#climate_name_s ) {
+    $climate_name[ $i + $num_cli_start ] = $climate_name_s[ $ind[$i] ];
+    $climate_file[ $i + $num_cli_start ] = $climate_file_s[ $ind[$i] ];
+    $num_cli++;
+}
+$num_cli -= 1;
 
 ###################################################
 
@@ -289,7 +300,7 @@ print "
     width=660;
     pophistory = window.open('','pophistory','toolbar=no,location=no,status=no,directories=no,menubar=no,scrollbars=yes,resizable=yes,width='+width+',height='+height);
 ";
-    print make_history_popup();
+print make_history_popup();
 print <<'theEnd';
     pophistory.document.close()
     pophistory.focus()
@@ -1037,13 +1048,15 @@ print <<'theEnd';
 
 theEnd
 print "function StartUp() {\n";
+
 #print "    max_year = new MakeArray($num_cli);\n\n";
 print "    climate_name = new MakeArray($num_cli);\n";
 
-  for $ii (0..$num_cli) {
-#    print "    max_year[$ii] = " . $climate_year[$ii] . ";\n";
-    print "    climate_name[$ii] = ",'"',$climate_name[$ii],'"',"\n";
-  }
+for $ii ( 0 .. $num_cli ) {
+
+    #    print "    max_year[$ii] = " . $climate_year[$ii] . ";\n";
+    print "    climate_name[$ii] = ", '"', $climate_name[$ii], '"', "\n";
+}
 print <<'theEnd';
 
   }
@@ -1219,14 +1232,16 @@ function randomintegeroneto(number) {
   </SCRIPT>
  </head>
 theEnd
+
 #print ' <BODY background="/fswepp/ermit/under_dev__.gif"
 #       link="#555555" vlink="#555555" onLoad="StartUp()">   <!-- ZZZZ -->
 print ' <BODY link="#555555" vlink="#555555" onLoad="StartUp()">
   <font face="Arial, Geneva, Helvetica">
   <table width=100% border=0>
     <tr><td> 
-       <a href="https://',$wepphost,'/fswepp/">
-       <IMG src="https://',$wepphost,'/fswepp/images/fsweppic2.jpg" width=75 height=75
+       <a href="https://', $wepphost, '/fswepp/">
+       <IMG src="https://', $wepphost,
+  '/fswepp/images/fsweppic2.jpg" width=75 height=75
        name="fswepplogo"
        align="left" alt="Back to FS WEPP menu" border=0></a>
     <td align=center>
@@ -1239,16 +1254,19 @@ print ' <BODY link="#555555" vlink="#555555" onLoad="StartUp()">
         <hr>
       </h2>
       <td>
-       <a href="https://',$wepphost,'/fswepp/docs/ermit/" target="docs">
-       <img src="https://',$wepphost,'/fswepp/images/epage.gif" title="Read ERMiT documentation online"
+       <a href="https://', $wepphost, '/fswepp/docs/ermit/" target="docs">
+       <img src="https://', $wepphost,
+  '/fswepp/images/epage.gif" title="Read ERMiT documentation online"
         align="right" alt="Read the documentation" border=0></a>
     </table>
   <center>
-  <!-- FORM name="ermit" method="post" ACTION="https://',$wepphost,'/cgi-bin/fswepp/ermit/erm100cfl.pl" -->
-  <FORM name="ermit" method="post" ACTION="https://',$wepphost,'/cgi-bin/fswepp/ermit/erm.pl">
-<input type="hidden" size="1" name="me" value="',$me,'">
-<input type="hidden" size="1" name="units" value="',$units,'">
-<input type="hidden" size="1" name="debug" value="',$debug,'">
+  <!-- FORM name="ermit" method="post" ACTION="https://', $wepphost,
+  '/cgi-bin/fswepp/ermit/erm100cfl.pl" -->
+  <FORM name="ermit" method="post" ACTION="https://', $wepphost,
+  '/cgi-bin/fswepp/ermit/erm.pl">
+<input type="hidden" size="1" name="me" value="',    $me,    '">
+<input type="hidden" size="1" name="units" value="', $units, '">
+<input type="hidden" size="1" name="debug" value="', $debug, '">
   <TABLE border="1" bgcolor="ivory">
 ';
 print <<'theEnd';
@@ -1292,16 +1310,16 @@ theEnd
 
 ### display personal climates, if any
 
-    if ($num_cli > 0) {
-      print '<OPTION VALUE="';
-      print $climate_file[0];
-      print '" selected> ', $climate_name[0] , "\n";
-    }
-    for $ii (1..$num_cli) {
-      print '<OPTION VALUE="';
-      print $climate_file[$ii];
-      print '"> ', $climate_name[$ii] , "\n";
-    }
+if ( $num_cli > 0 ) {
+    print '<OPTION VALUE="';
+    print $climate_file[0];
+    print '" selected> ', $climate_name[0], "\n";
+}
+for $ii ( 1 .. $num_cli ) {
+    print '<OPTION VALUE="';
+    print $climate_file[$ii];
+    print '"> ', $climate_name[$ii], "\n";
+}
 
 #################
 print <<'theEnd1';
@@ -1404,22 +1422,26 @@ print <<'theEnd1';
            onBlur="blankStatus()">  %</b>&nbsp;&nbsp;
        </td>
 theEnd1
-if ($units eq 'm') { print '      <td align="center"><b>
+if ( $units eq 'm' ) {
+    print '      <td align="center"><b>
        &nbsp;&nbsp;<input type="text" size="5" name="length"  value="100"
            onChange="checkRange(length,\'hillslope horizontal length\',0,300,100,\' m\')"
            onFocus="showRange(this.form,\'Hillslope horizontal length: \',0,300,\' m\')"
            onBlur="blankStatus()">
        m</b>&nbsp;&nbsp;
       </td>
-'}
-else { print '      <td align="center"><b>
+';
+}
+else {
+    print '      <td align="center"><b>
        &nbsp;&nbsp;<input type="text" size="5" name="length"  value="300"
            onChange="checkRange(length,\'hillslope horizontal length\',0,1000,300,\' ft\')"
            onFocus="showRange(this.form,\'Hillslope horizontal length: \',0,1000,\' ft\')"
            onBlur="blankStatus()">
        ft</b>&nbsp;&nbsp;
       </td>
-'};
+';
+}
 print <<'theEnd';
       <td>
        <input type="radio" name="severity" value="h"'> <b>High</b><br>
@@ -1482,10 +1504,11 @@ print <<'theEnd';
   <p>
 
 theEnd
+
 #print '
 #  <font size=1>
 #   <a href="https://',$wepphost,'/fswepp/comments.html" ';
-#if ($wepphost eq 'localhost') {print 'onClick="return confirm(\'You must be connected to the Internet to e-mail comments. Shall I try?\')"'};                                  
+#if ($wepphost eq 'localhost') {print 'onClick="return confirm(\'You must be connected to the Internet to e-mail comments. Shall I try?\')"'};
 #print '><img src="https://',$wepphost,'/fswepp/images/epaemail.gif" align="right" border=0></a>
 #   Interface v. ',$version,' (for review only).<br>
 #   <b>Peter R. Robichaud</b> and <b>William J. Elliot,</b>
@@ -1498,9 +1521,9 @@ theEnd
 #
 # $wc  = `wc ../working/_2016/we.log`;
 # $wc  = `wc ../working/_2017/we.log`;
-  $wc  = `wc ../working/' . currentLogDir() . '/we.log`;
-  @words = split " ", $wc;
-  $runs = @words[0];
+$wc    = `wc ../working/' . currentLogDir() . '/we.log`;
+@words = split " ", $wc;
+$runs  = @words[0];
 
 # print "personality '<b>$me</b>'<br><b>$runs</b> ERMiT runs in 2005 (<b>1,550</b> runs in 2004)<br>\n";
 
@@ -1508,7 +1531,7 @@ theEnd
 #  @words = split " ", $wc;
 #  $runs = @words[0];
 
-  print '
+print '
 
    <hr>
     <table border=0>
@@ -1520,7 +1543,7 @@ theEnd
         following wildfire.
 <br><br>
 
-ERMiT version <a href="javascript:popuphistory()">',$version,'</a>
+ERMiT version <a href="javascript:popuphistory()">', $version, '</a>
 <br><br>
 <b>Citation:</b>
  <p align="left" class="Reference">
@@ -1548,22 +1571,27 @@ ERMiT version <a href="javascript:popuphistory()">',$version,'</a>
 <!--        runs in 2005 -->
 <!--  1,550 runs in 2004 -->
 
-        <b>',$runs,'</b> ERMiT runs YTD<br>
+        <b>', $runs, '</b> ERMiT runs YTD<br>
 ';
-     print "        $remote_host &ndash; $remote_address ($user_really) personality '<b>$me</b>'<br>
+print
+"        $remote_host &ndash; $remote_address ($user_really) personality '<b>$me</b>'<br>
         $user_ID_really<br>";
 
-   print "Log of FS WEPP runs for IP and personality <a href=\"/cgi-bin/fswepp/runlogger.pl?ip=$remote_address$me\" target=\"_rl\">$remote_address$me</a>";
+print
+"Log of FS WEPP runs for IP and personality <a href=\"/cgi-bin/fswepp/runlogger.pl?ip=$remote_address$me\" target=\"_rl\">$remote_address$me</a>";
 
-  if ($debug) {print "
+if ($debug) {
+    print "
     Host: $remote_host &ndash;
     Address: $remote_address &ndash;
-    Forwarded for: $http_x_forwarded_for"}
+    Forwarded for: $http_x_forwarded_for";
+}
 print '
        </font>
       </td>
       <td valign="top" rowspan=2>
-       <a href="https://',$wepphost,'/fswepp/comments.html" title="Send comments to the FS WEPP development team"><img src="/fswepp/images/epaemail.gif" align="right" border=0></a>
+       <a href="https://', $wepphost,
+'/fswepp/comments.html" title="Send comments to the FS WEPP development team"><img src="/fswepp/images/epaemail.gif" align="right" border=0></a>
       </td>
      </tr>
      <tr>
@@ -1587,53 +1615,58 @@ print '
 
 sub ReadParse {
 
-# ReadParse -- from cgi-lib.pl (Steve Brenner) from Eric Herrmann's
-# "Teach Yourself CGI Programming With PERL in a Week" p. 131
+    # ReadParse -- from cgi-lib.pl (Steve Brenner) from Eric Herrmann's
+    # "Teach Yourself CGI Programming With PERL in a Week" p. 131
 
-# Reads GET or POST data, converts it to unescaped text, and puts
-# one key=value in each member of the list "@in"
-# Also creates key/value pairs in %in, using '\0' to separate multiple
-# selections
+    # Reads GET or POST data, converts it to unescaped text, and puts
+    # one key=value in each member of the list "@in"
+    # Also creates key/value pairs in %in, using '\0' to separate multiple
+    # selections
 
-# If a variable-glob parameter...
+    # If a variable-glob parameter...
 
-  local (*in) = @_ if @_;
-  local ($i, $loc, $key, $val);
+    local (*in) = @_ if @_;
+    local ( $i, $loc, $key, $val );
 
-  if ($ENV{'REQUEST_METHOD'} eq "GET") {
-    $in = $ENV{'QUERY_STRING'};
-  } elsif ($ENV{'REQUEST_METHOD'} eq "POST") {
-    read(STDIN,$in,$ENV{'CONTENT_LENGTH'});
-  }
+    if ( $ENV{'REQUEST_METHOD'} eq "GET" ) {
+        $in = $ENV{'QUERY_STRING'};
+    }
+    elsif ( $ENV{'REQUEST_METHOD'} eq "POST" ) {
+        read( STDIN, $in, $ENV{'CONTENT_LENGTH'} );
+    }
 
-  @in = split(/&/,$in);
+    @in = split( /&/, $in );
 
-  foreach $i (0 .. $#in) {
-    # Convert pluses to spaces
-    $in[$i] =~ s/\+/ /g;
+    foreach $i ( 0 .. $#in ) {
 
-    # Split into key and value
-    ($key, $val) = split(/=/,$in[$i],2);  # splits on the first =
+        # Convert pluses to spaces
+        $in[$i] =~ s/\+/ /g;
 
-    # Convert %XX from hex numbers to alphanumeric
-    $key =~ s/%(..)/pack("c",hex($1))/ge;
-    $val =~ s/%(..)/pack("c",hex($1))/ge;
+        # Split into key and value
+        ( $key, $val ) = split( /=/, $in[$i], 2 );    # splits on the first =
 
-    # Associative key and value
-    $in{$key} .= "\0" if (defined($in{$key}));  # \0 is the multiple separator
-    $in{$key} .= $val;
-  }
-  return 1;
- }
+        # Convert %XX from hex numbers to alphanumeric
+        $key =~ s/%(..)/pack("c",hex($1))/ge;
+        $val =~ s/%(..)/pack("c",hex($1))/ge;
+
+        # Associative key and value
+        $in{$key} .= "\0"
+          if ( defined( $in{$key} ) );    # \0 is the multiple separator
+        $in{$key} .= $val;
+    }
+    return 1;
+}
+
 sub make_history_popup {
 
-  my $version;
+    my $version;
 
-# Reads parent (perl) file and looks for a history block:
+    # Reads parent (perl) file and looks for a history block:
 ## BEGIN HISTORY ####################################################
-# ERMiT Version History
+    # ERMiT Version History
 
-  $version='2005.02.08';        # Make self-creating history popup page
+    $version = '2005.02.08';    # Make self-creating history popup page
+
 # $version = '2005.02.07';      # Fix parameter passing to tail_html; stuff after semicolon lost
 #!$version = '2005.02.07';      # Bang in line says do not use
 # $version = '2005.02.04';      # Clean up HTML formatting, add head_html and tail_html functions
@@ -1645,45 +1678,45 @@ sub make_history_popup {
 # and returns body (including Javascript document.writeln instructions) for a pop-up history window
 # called pophistory.
 
-# First line after 'BEGIN HISTORY' is <title> text
-# Splits version and comment on semi-colon
-# Version must be version= then digits and periods
-# Bang in line causes line to be ignored
-# Disallowed: single and double quotes in comment part
-# Not handled: continuation lines
+    # First line after 'BEGIN HISTORY' is <title> text
+    # Splits version and comment on semi-colon
+    # Version must be version= then digits and periods
+    # Bang in line causes line to be ignored
+    # Disallowed: single and double quotes in comment part
+    # Not handled: continuation lines
 
-# Usage:
+    # Usage:
 
-#print "<html>
-# <head>
-#  <title>$title</title>
-#   <script language=\"javascript\">
-#    <!-- hide from old browsers...
-#
-#  function popuphistory() {
-#    pophistory = window.open('','pophistory','')
-#";
-#    print make_history_popup();
-#print "
-#    pophistory.document.close()
-#    pophistory.focus()
-#  }
-#";
+    #print "<html>
+    # <head>
+    #  <title>$title</title>
+    #   <script language=\"javascript\">
+    #    <!-- hide from old browsers...
+    #
+    #  function popuphistory() {
+    #    pophistory = window.open('','pophistory','')
+    #";
+    #    print make_history_popup();
+    #print "
+    #    pophistory.document.close()
+    #    pophistory.focus()
+    #  }
+    #";
 
-# print $0,"\n";
+    # print $0,"\n";
 
-  my ($line, $z, $vers, $comment);
+    my ( $line, $z, $vers, $comment );
 
-  open MYSELF, "<$0";
+    open MYSELF, "<$0";
     while (<MYSELF>) {
 
-      next if (/!/);
+        next if (/!/);
 
-      if (/## BEGIN HISTORY/) {
-        $line = <MYSELF>;
-        chomp $line;
-        $line = substr($line,2);
-        $z = "    pophistory.document.writeln('<html>')
+        if (/## BEGIN HISTORY/) {
+            $line = <MYSELF>;
+            chomp $line;
+            $line = substr( $line, 2 );
+            $z    = "    pophistory.document.writeln('<html>')
     pophistory.document.writeln(' <head>')
     pophistory.document.writeln('  <title>$line</title>')
     pophistory.document.writeln(' </head>')
@@ -1698,36 +1731,36 @@ sub make_history_popup {
     pophistory.document.writeln('     <th bgcolor=lightblue>Comments</th>')
     pophistory.document.writeln('    </tr>')
 ";
-      } # if (/## BEGIN HISTORY/)
+        }    # if (/## BEGIN HISTORY/)
 
-      if (/version/) {
-        ($vers, $comment) = split (/;/,$_);
-        $comment =~ s/#//;
-        chomp $comment;
-        $vers =~ s/'//g;
-        $vers =~ s/ //g;
-        $vers =~ s/"//g;
-        if ($vers =~ /version=*([0-9.]+)/) {    # pull substring out of a line
-          $z .= "    pophistory.document.writeln('    <tr>')
+        if (/version/) {
+            ( $vers, $comment ) = split( /;/, $_ );
+            $comment =~ s/#//;
+            chomp $comment;
+            $vers =~ s/'//g;
+            $vers =~ s/ //g;
+            $vers =~ s/"//g;
+            if ( $vers =~ /version=*([0-9.]+)/ )
+            {    # pull substring out of a line
+                $z .= "    pophistory.document.writeln('    <tr>')
     pophistory.document.writeln('     <th valign=top bgcolor=lightblue>$1</th>')
     pophistory.document.writeln('     <td>$comment</td>')
     pophistory.document.writeln('    </tr>')
 ";
-        }       # (/version *([0-9]+)/)
-     }  # if (/version/)
+            }    # (/version *([0-9]+)/)
+        }    # if (/version/)
 
-    if (/## END HISTORY/) {
-        $z .= "    pophistory.document.writeln('   </table>')
+        if (/## END HISTORY/) {
+            $z .= "    pophistory.document.writeln('   </table>')
     pophistory.document.writeln('   </font>')
     pophistory.document.writeln('  </center>')
     pophistory.document.writeln(' </body>')
     pophistory.document.writeln('</html>')
 ";
-      last;
-    }     # if (/## END HISTORY/)
-  }     # while
-  close MYSELF;
-  return $z;
+            last;
+        }    # if (/## END HISTORY/)
+    }    # while
+    close MYSELF;
+    return $z;
 }
-
 

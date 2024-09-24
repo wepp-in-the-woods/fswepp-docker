@@ -472,7 +472,7 @@ print '<BODY bgcolor="white" link="#555555" vlink="#555555">
   $glo = $custCli . $user_ID . '*.par';
 if ($debug) {print "I am '$me' with units $units\nUser_ID: $user_ID<p>$glo<p>"}
 print "  <br clear=all>\n";
-print '  <FORM name="wepproad" method=post onSubmit="return validate()" ACTION="/cgi-bin/fswepp/wr/wr.pl">';
+print '  <FORM name="wepproad" method=post onSubmit="return validate()" ACTION="wr.pl">';
 print "\n";
 print '      <input type="hidden" name="me" value="',$me,'">';
 #print '      <input type="hidden" name=units" value="',$units,'">'; 

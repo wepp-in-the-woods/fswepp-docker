@@ -10,9 +10,6 @@
 #    $CL		climate file name
 #    $units		'm' or 'ft' or '-um' or '-uft'
 #    $wherefrom
-#  reads:
-#    ../wepphost
-#    ../platform
 
 #  FSWEPP, USDA Forest Service, Rocky Mountain Research Station, Soil & Water Engineering
 #  Science by Bill Elliot et alia                                      Code by David Hall
@@ -35,29 +32,11 @@
 
    $CL=$ARGV[0];
    $units=$ARGV[1];
-#  $wherefrom=$ARGV[2];
 
    chomp $CL;
    $units = 'm' if ($units eq '-um');	# 2005.06.07 DEH
 
-   $wepphost="localhost";
-   if (-e "../wepphost") {
-     open HOST, "<../wepphost";
-     $wepphost=lc(<HOST>);
-     chomp $wepphost;
-     close HOST;
-   }
-
-   $platform="pc";
-   if (-e "../platform") {
-     open Platform, "<../platform";
-     $platform=lc(<Platform>);
-     chomp $platform;
-     close Platform;
-   }
-
    $climateFile = $CL . '.par';
-#  $climate_name=$parameters{'climate_name'};
 
    open PAR, "<$climateFile";
    $line=<PAR>;                           # EPHRATA CAA AP WA                       452614 0
@@ -239,10 +218,6 @@
 
 #-----------------------------------
 
-#    $lathemisphere = "N";
-#    $longhemisphere = "W";
-#    if ($lat<0) {$lathemisphere = "S"}
-#    if ($lon>0) {$longhemisphere = "E"} 
      $tempunit = '<sup>o</sup>F';
      $pcpunit='in';
      if ($units eq 'm') {$tempunit = '<sup>o</sup>C'; $pcpunit='mm'}
@@ -251,9 +226,6 @@
        $pw[$i] = $pwd[$i] / (1 + $pwd[$i] - $pww[$i]);
      }
 
-#    print abs($lat),"<sup>o</sup>$lathemisphere",
-#          abs($lon),"<sup>o</sup>$longhemisphere<br>\n";
-#    print '<center>';
 
      print "
     <table border=1 bgcolor=white>
@@ -295,21 +267,6 @@
 
 # **********************
 
-#print '<a href="https://tiger.census.gov/cgi-bin/mapgen?&lat=',$ylt;
-#print "&lon=$yll&on=states&iwd=400&iht=400&wid=1&ht=1&mark=$yll,$ylt,redstar";
-#print '">Generate 1<sup>o</sup> <i>x</i> 1<sup>o</sup> map</a><br>
-#       <a href="https://tiger.census.gov/cgi-bin/mapgen?&lat=',$ylt;
-#print "&lon=$yll&on=states&iwd=400&iht=400&wid=10&ht=10&mark=$yll,$ylt,redstar";
-#print '">Generate 10<sup>o</sup> <i>x</i> 10<sup>o</sup> map</a>';
-#print "\n<center>\n";
-
-#    print "<p><input type=submit value=test>\n";
-#    print "</form></body></html>\n";
-#    }      # DESCRIBE
-
-#-----------------------------------
-
-#if ($climate_name eq "") {$climate_name = $CL}  # should remove path and .cli
 
 print '
     <img src="/fswepp/images/line_red2.gif">
@@ -320,19 +277,6 @@ print '
     </form>
 ';
 
-#<!--
-#<form action="https://',$wepphost,'/cgi-bin/fswepp/rc/mapper.pl" method="post">
-#<input type="hidden" name="lat" value="',$lat,'">
-#<input type="hidden" name="lon" value="',$lon,'">
-#<input type="hidden" name="station" value="',$climate_name,'">
-#<input type="submit" value="Display map">
-#</form>
-#<p>
-#<a href="JavaScript:window.history.go(-1)">
-#<img src="https://',$wepphost,'/fswepp/images/rtis.gif"
-#  alt="Return to input screen" border="0" align=center></A>
-#<BR>
-#-->
 
   if ($interpolated) {
 print '
