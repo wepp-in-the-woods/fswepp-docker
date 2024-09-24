@@ -76,7 +76,6 @@ function updateUnits(r) {
    document.WASP.units.value=r
    document.tahoe.units.value=r
    document.RockClime.units.value=r
-   document.biomass.units.value=r
 }
 
   function submitit(what) {
@@ -92,7 +91,6 @@ function updateUnits(r) {
     if (what == 'FuME') {document.forms.FuME.submit()}
 //    if (what == 'WASP') {document.WASP.units.value=document.unitsform.units[check].value; document.forms.WASP.submit()}
     if (what == 'tahoe') {document.tahoe.units.value=document.unitsform.units[check].value; document.forms.tahoe.submit()}
-    if (what == 'biomass') {document.biomass.units.value=document.unitsform.units[check].value; document.forms.biomass.submit()}
     if (what == 'RockClime') {document.RockClime.units.value=document.unitsform.units[check].value; document.forms.RockClime.submit()}
   }
 
@@ -643,9 +641,6 @@ function getCookie(name){
     <input type="hidden" name="units" value="m">
    </form>
    <form method="post" name="WASP" action="/cgi-bin/fswepp/wasp/wasp.pl">
-    <input type="hidden" name="units" value="m">
-   </form>
-   <form method="post" name="biomass" action="/cgi-bin/fswepp/biomass/biomass.pl">
     <input type="hidden" name="units" value="m">
    </form>
    <form method="post" name="FuME" action="/cgi-bin/fswepp/fume/fume.pl">

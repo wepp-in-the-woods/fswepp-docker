@@ -1,5 +1,7 @@
 #! /usr/bin/perl
-#
+
+use CGI qw(escapeHTML);
+
 # wd.pl
 #
 # Disturbed WEPP workhorse
@@ -45,227 +47,236 @@
 
 #  $debug=1;
 
-   $version = "2009.02.23";
+$version = "2009.02.23";
+
 #   $version = "2007.04.04";
 #   $version = "2006.01.20";
 #   $version = "2004.02.13";
 
 #=========================================================================
 
-   &ReadParse(*parameters);
+&ReadParse(*parameters);
 
-   $CL=$parameters{'Climate'};         # get Climate (file name base)
-#  $climate_name=$parameters{'climate_name'};   # requested climate #
-   $soil=$parameters{'SoilType'};
-#  $soil_name=$parameters{'soil_name'};
-   $treat1=$parameters{'UpSlopeType'};
-   $ofe1_length=$parameters{'ofe1_length'}+0;
-   $ofe1_top_slope=$parameters{'ofe1_top_slope'}+0;
-   $ofe1_mid_slope=$parameters{'ofe1_mid_slope'}+0;
-   $ofe1_pcover=$parameters{'ofe1_pcover'}+0;
-   $ofe1_rock=$parameters{'ofe1_rock'}+0;
-   $treat2=$parameters{'LowSlopeType'};
-   $ofe2_length=$parameters{'ofe2_length'}+0;
-   $ofe2_mid_slope=$parameters{'ofe2_top_slope'}+0;
-   $ofe2_bot_slope=$parameters{'ofe2_bot_slope'}+0;
-   $ofe2_pcover=$parameters{'ofe2_pcover'}+0;
-   $ofe2_rock=$parameters{'ofe2_rock'}+0;
-   $ofe_area=$parameters{'ofe_area'}+0;
-#  $outputs=$parameters{'Summary'};
-#  $outputf=$parameters{'Full'};
-#  $outputi=$parameters{'Slope'};
-   $action=$parameters{'actionc'} . 
-           $parameters{'actionv'} . 
-           $parameters{'actionw'} .
-           $parameters{'ActionCD'};
-#  chomp $action;
-   $me=$parameters{'me'};		# DEH 05/24/2000
-   $units=$parameters{'units'};
-   $achtung=$parameters{'achtung'};
-   $climyears=$parameters{'climyears'};
-   $description=$parameters{'description'};	# DEH 2007.04.04
-
-   $weppversion=$parameters{'weppversion'};     # DEH 2009.02.23
+$CL             = escapeHTML($parameters{'Climate'});
+$soil           = escapeHTML($parameters{'SoilType'});
+$treat1         = escapeHTML($parameters{'UpSlopeType'});
+$ofe1_length    = $parameters{'ofe1_length'} + 0;
+$ofe1_top_slope = $parameters{'ofe1_top_slope'} + 0;
+$ofe1_mid_slope = $parameters{'ofe1_mid_slope'} + 0;
+$ofe1_pcover    = $parameters{'ofe1_pcover'} + 0;
+$ofe1_rock      = $parameters{'ofe1_rock'} + 0;
+$treat2         = escapeHTML($parameters{'LowSlopeType'});
+$ofe2_length    = $parameters{'ofe2_length'} + 0;
+$ofe2_mid_slope = $parameters{'ofe2_top_slope'} + 0;
+$ofe2_bot_slope = $parameters{'ofe2_bot_slope'} + 0;
+$ofe2_pcover    = $parameters{'ofe2_pcover'} + 0;
+$ofe2_rock      = $parameters{'ofe2_rock'} + 0;
+$ofe_area       = $parameters{'ofe_area'} + 0;
+$action =
+  escapeHTML($parameters{'actionc'})
+  . escapeHTML($parameters{'actionv'})
+  . escapeHTML($parameters{'actionw'})
+  . escapeHTML($parameters{'ActionCD'});
+$me          = escapeHTML($parameters{'me'});
+$units       = escapeHTML($parameters{'units'});
+$achtung     = escapeHTML($parameters{'achtung'});
+$climyears   = $parameters{'climyears'} + 0;
+$description = escapeHTML($parameters{'description'});
+$weppversion = escapeHTML($parameters{'weppversion'});
 
 ### filter bad stuff out of description ###
 #   limit length to reasonable (200?)
 #   remove HTML tags ( '<' to &lt; and '>' to &gt; )
-    $description = substr($description,0,100);
-    $description =~ s/</&lt;/g;
-    $description =~ s/>/&gt;/g;
+$description = substr( $description, 0, 100 );
+$description =~ s/</&lt;/g;
+$description =~ s/>/&gt;/g;
 ###
 
-   $wepphost = "localhost";
-   if (-e "../wepphost") {
-     open HOST, "<../wepphost";
-       $wepphost = lc(<HOST>);
-       chomp $wepphost;
-       if ($wepphost eq "") {$wepphost = "Localhost"}
-     close HOST;
-   }
+$wepphost = "localhost";
+if ( -e "../wepphost" ) {
+    open HOST, "<../wepphost";
+    $wepphost = lc(<HOST>);
+    chomp $wepphost;
+    if ( $wepphost eq "" ) { $wepphost = "Localhost" }
+    close HOST;
+}
 
-   $platform = "unix";
-   if (-e "../platform") {
-     open PLATFORM, "<../platform";
-       $platform = lc(<PLATFORM>);
-       chomp $platform;
-       if ($platform eq "") {$platform = "unix"}
-     close PLATFORM;
-   }
+$platform = "unix";
+if ( -e "../platform" ) {
+    open PLATFORM, "<../platform";
+    $platform = lc(<PLATFORM>);
+    chomp $platform;
+    if ( $platform eq "" ) { $platform = "unix" }
+    close PLATFORM;
+}
 
-   if (lc($action) =~ /custom/) {
-     $weppdist = "https://" . $wepphost . "/cgi-bin/fswepp/wd/weppdist.pl";
-     if ($platform eq "pc") {
-       exec "perl ../rc/rockclim.pl -server -i$me -u$units $weppdist"
-     }
-     else {
-       exec "../rc/rockclim.pl -server -i$me -u$units $weppdist"
-     }
-     die
-   }		# /custom/
+if ( lc($action) =~ /custom/ ) {
+    $weppdist = "https://" . $wepphost . "/cgi-bin/fswepp/wd/weppdist.pl";
+    if ( $platform eq "pc" ) {
+        exec "perl ../rc/rockclim.pl -server -i$me -u$units $weppdist";
+    }
+    else {
+        exec "../rc/rockclim.pl -server -i$me -u$units $weppdist";
+    }
+    die;
+}    # /custom/
 
-   if (lc($achtung) =~ /describe climate/) {
-     $weppdist = "https://" . $wepphost . "/cgi-bin/fswepp/wd/weppdist.pl";
-     if ($platform eq "pc") {
-       exec "perl ../rc/descpar.pl $CL $units $weppdist"
-     }
-     else {
-       exec "../rc/descpar.pl $CL $units $weppdist"
-     }
-     die
-   }		# /describe climate/
+if ( lc($achtung) =~ /describe climate/ ) {
+    $weppdist = "https://" . $wepphost . "/cgi-bin/fswepp/wd/weppdist.pl";
+    if ( $platform eq "pc" ) {
+        exec "perl ../rc/descpar.pl $CL $units $weppdist";
+    }
+    else {
+        exec "../rc/descpar.pl $CL $units $weppdist";
+    }
+    die;
+}    # /describe climate/
 
-   if (lc($achtung) =~ /describe soil/) {   ##########
+if ( lc($achtung) =~ /describe soil/ ) {    ##########
 
-     $units=$parameters{'units'};
-     $SoilType=$parameters{'SoilType'};  # get SoilType (loam, sand, silt, clay, gloam, gsand, gsilt, gclay)
-#     $surface=$parameters{'surface'};    # graveled or native
-#     $slope=$parameters{'SlopeType'};    # get slope type (outunrut...)
+    $units    = $parameters{'units'};
+    $SoilType = $parameters{'SoilType'}
+      ;    # get SoilType (loam, sand, silt, clay, gloam, gsand, gsilt, gclay)
 
-#     if    ($slope eq 'inveg')    {$conduct='10'}
-#     elsif ($slope eq "outunrut") {$conduct = '2'}
-#     elsif ($slope eq "outrut")   {$conduct = '2'}
-#     elsif ($slope eq "inbare")   {$conduct = '2'}
+    #     $surface=$parameters{'surface'};    # graveled or native
+    #     $slope=$parameters{'SlopeType'};    # get slope type (outunrut...)
 
-     if ($platform eq "pc") {$soilPath = 'data\\'}
-     else                   {$soilPath = 'data/'}
+    #     if    ($slope eq 'inveg')    {$conduct='10'}
+    #     elsif ($slope eq "outunrut") {$conduct = '2'}
+    #     elsif ($slope eq "outrut")   {$conduct = '2'}
+    #     elsif ($slope eq "inbare")   {$conduct = '2'}
 
-     $surf = "";
-     if (substr ($surface,0,1) eq "g") {$surf = "g"}
-     $soilFile = '3' . $surf . $SoilType . $conduct . '.sol';
+    if   ( $platform eq "pc" ) { $soilPath = 'data\\' }
+    else                       { $soilPath = 'data/' }
 
-     $weppdist = "https://" . $wepphost . "/cgi-bin/fswepp/wd/weppdist.pl";
-     $soilFilefq = $soilPath . $soilFile;
-     print "Content-type: text/html\n\n";
-     print "<HTML>\n";
-     print " <HEAD>\n";
-     print "  <TITLE>Disturbed WEPP -- Soil Parameters</TITLE>\n";
-     print " </HEAD>\n";
-     print ' <BODY background="https://',$wepphost,
-          '/fswepp/images/note.gif" link="#ff0000">
+    $surf = "";
+    if ( substr( $surface, 0, 1 ) eq "g" ) { $surf = "g" }
+    $soilFile = '3' . $surf . $SoilType . $conduct . '.sol';
+
+    $weppdist   = "https://" . $wepphost . "/cgi-bin/fswepp/wd/weppdist.pl";
+    $soilFilefq = $soilPath . $soilFile;
+    print "Content-type: text/html\n\n";
+    print "<HTML>\n";
+    print " <HEAD>\n";
+    print "  <TITLE>Disturbed WEPP -- Soil Parameters</TITLE>\n";
+    print " </HEAD>\n";
+    print ' <BODY background="https://', $wepphost,
+      '/fswepp/images/note.gif" link="#ff0000">
   <font face="Arial, Geneva, Helvetica">
   <blockquote>
   <table width=95% border=0>
     <tr><td> 
        <a href="JavaScript:window.history.go(-1)">
-       <IMG src="https://',$wepphost,'/fswepp/images/disturb.gif"
+       <IMG src="https://', $wepphost, '/fswepp/images/disturb.gif"
        align="left" alt="Back to FS WEPP menu" border=1></a>
     <td align=center>
        <hr>
        <h2>Disturbed WEPP Soil Texture Properties</h2>
        <hr>
     <td>
-       <A HREF="https://',$wepphost,'/fswepp/docs/distweppdoc.html">
-       <IMG src="https://',$wepphost,'/fswepp/images/epage.gif"
+       <A HREF="https://',  $wepphost, '/fswepp/docs/distweppdoc.html">
+       <IMG src="https://', $wepphost, '/fswepp/images/epage.gif"
         align="right" alt="Read the documentation" border=0></a>
     </table>
 ';
-     if ($debug) {print "Action: '$action'<br>\nAchtung: '$achtung'<br>\n"}
+    if ($debug) { print "Action: '$action'<br>\nAchtung: '$achtung'<br>\n" }
 
-     if ($SoilType eq 'clay') {
-#       if ($surf eq 'g') {print 'Graveled '}
-       print "clay loam (MH, CH)<br>\n";
-       print "Shales and similar decomposing fine-grained sedimentary rock<br>\n";
-#       if ($conduct == 2) {print 'Low '} else {print 'High '}
-#       print "conductivity<br>\n";
-     }
-     elsif ($SoilType eq 'loam') {
-#       if ($surf eq 'g') {print 'Graveled '}
-       print "loam<br>\n";
-       print "<br>\n";
-#       if ($conduct == 2) {print 'Low '} else {print 'High '}
-#       print "conductivity<br>\n";
-     }
-     elsif ($SoilType eq 'sand') {
-#       if ($surf eq 'g') {print 'Graveled '}
-       print "sandy loam (SW, SP, SM, SC)<br>\n";
-       print "Glacial outwash areas; finer-grained granitics and sand<br>\n";
-#       if ($conduct == 2) {print 'Low '} else {print 'High '}
-#       print "conductivity<br>\n";
-     }
-     elsif ($SoilType eq 'silt') {
-#       if ($surf eq 'g') {print 'Graveled '}
-       print "silt loam (ML, CL)<br>\n";
-       print "Ash cap or alluvial loess<br>\n";
-#       if ($conduct == 2) {print 'Low '} else {print 'High '}
-#       print "conductivity<br>\n";
-     }
-#
-   if ($platform eq "pc") {
-     if (-e 'd:/fswepp/working') {$working = 'd:\\fswepp\\working'}
-     elsif (-e 'c:/fswepp/working') {$working = 'c:\\fswepp\\working'}
-     else {$working = '..\\working'}
-     $soilFile     = "$working\\wdwepp.sol";
-     $soilPath     = 'data\\';
-   }
-   else {
-     $working = '../working';
-     $unique='wepp-' . $$;       # DEH 01/13/2004
-     $soilFile     = "$working/$unique" . '.sol';
-     $soilPath     = 'data/';
-   }
-#
-     &CreateSoilFile;
+    if ( $SoilType eq 'clay' ) {
 
-     open SOIL, "<$soilFile";
-     $weppver = <SOIL>;
-     $comment = <SOIL>;
-     while (substr($comment,0,1) eq "#") {
-       chomp $comment;
-#       print $comment,"\n";
-       $comment = <SOIL>;
-     }
+        #       if ($surf eq 'g') {print 'Graveled '}
+        print "clay loam (MH, CH)<br>\n";
+        print
+          "Shales and similar decomposing fine-grained sedimentary rock<br>\n";
 
-     print "<hr>
+        #       if ($conduct == 2) {print 'Low '} else {print 'High '}
+        #       print "conductivity<br>\n";
+    }
+    elsif ( $SoilType eq 'loam' ) {
+
+        #       if ($surf eq 'g') {print 'Graveled '}
+        print "loam<br>\n";
+        print "<br>\n";
+
+        #       if ($conduct == 2) {print 'Low '} else {print 'High '}
+        #       print "conductivity<br>\n";
+    }
+    elsif ( $SoilType eq 'sand' ) {
+
+        #       if ($surf eq 'g') {print 'Graveled '}
+        print "sandy loam (SW, SP, SM, SC)<br>\n";
+        print "Glacial outwash areas; finer-grained granitics and sand<br>\n";
+
+        #       if ($conduct == 2) {print 'Low '} else {print 'High '}
+        #       print "conductivity<br>\n";
+    }
+    elsif ( $SoilType eq 'silt' ) {
+
+        #       if ($surf eq 'g') {print 'Graveled '}
+        print "silt loam (ML, CL)<br>\n";
+        print "Ash cap or alluvial loess<br>\n";
+
+        #       if ($conduct == 2) {print 'Low '} else {print 'High '}
+        #       print "conductivity<br>\n";
+    }
+    #
+    if ( $platform eq "pc" ) {
+        if    ( -e 'd:/fswepp/working' ) { $working = 'd:\\fswepp\\working' }
+        elsif ( -e 'c:/fswepp/working' ) { $working = 'c:\\fswepp\\working' }
+        else                             { $working = '..\\working' }
+        $soilFile = "$working\\wdwepp.sol";
+        $soilPath = 'data\\';
+    }
+    else {
+        $working  = '../working';
+        $unique   = 'wepp-' . $$;                  # DEH 01/13/2004
+        $soilFile = "$working/$unique" . '.sol';
+        $soilPath = 'data/';
+    }
+    #
+    &CreateSoilFile;
+
+    open SOIL, "<$soilFile";
+    $weppver = <SOIL>;
+    $comment = <SOIL>;
+    while ( substr( $comment, 0, 1 ) eq "#" ) {
+        chomp $comment;
+
+        #       print $comment,"\n";
+        $comment = <SOIL>;
+    }
+
+    print "<hr>
   <center>
    <table border=1 cellpadding=3>
 ";
 
-#      $solcom = $comment;
+    #      $solcom = $comment;
 
-     $record = <SOIL>;
-     @vals = split " ", $record;
-     $ntemp = @vals[0];      # no. flow elements or channels
-     $ksflag = @vals[1];     # 0: hold hydraulic conductivity constant
-                             # 1: use internal adjustments to hydr con
-     for $i (1..$ntemp) {
-       print "
+    $record = <SOIL>;
+    @vals   = split " ", $record;
+    $ntemp  = @vals[0];    # no. flow elements or channels
+    $ksflag = @vals[1];    # 0: hold hydraulic conductivity constant
+                           # 1: use internal adjustments to hydr con
+    for $i ( 1 .. $ntemp ) {
+        print "
    <tr>
     <th colspan=5 bgcolor=\"85d2d2\"><font face=\"Arial, Geneva, Helvetica\">
      Element $i ---
 ";
-       $record = <SOIL>;
-       @descriptors = split "'", $record;
-       $my_soilID = lc(@descriptors[1]);
-       $my_texture =lc(@descriptors[3]);
-       print "$my_soilID;&nbsp;&nbsp;   ";        # slid: Road, Fill, Forest
-       print "texture:$my_texture\n";        # texid: soil texture
-       ($nsl,$salb,$sat,$ki,$kr,$shcrit,$avke) = split " ", @descriptors[4];
-#      @vals = split " ", @descriptors[4];
-#      print "No. soil layers: $nsl\n";
-       $avke_e = sprintf "%.2f", $avke / 25.4;
+        $record      = <SOIL>;
+        @descriptors = split "'", $record;
+        $my_soilID   = lc( @descriptors[1] );
+        $my_texture  = lc( @descriptors[3] );
+        print "$my_soilID;&nbsp;&nbsp;   ";    # slid: Road, Fill, Forest
+        print "texture:$my_texture\n";         # texid: soil texture
+        ( $nsl, $salb, $sat, $ki, $kr, $shcrit, $avke ) = split " ",
+          @descriptors[4];
 
-       print "
+        #      @vals = split " ", @descriptors[4];
+        #      print "No. soil layers: $nsl\n";
+        $avke_e = sprintf "%.2f", $avke / 25.4;
+
+        print "
     <tr>
      <th align=left><font face=\"Arial, Geneva, Helvetica\">Albedo of the bare dry surface soil
      <td><font face=\"Arial, Geneva, Helvetica\">$salb
@@ -293,11 +304,11 @@
      <td><font face=\"Arial, Geneva, Helvetica\">$avke_e
      <td><font face=\"Arial, Geneva, Helvetica\">in hr<sup>-1</sup>
 ";
-       for $layer (1..$nsl) {
-         $record = <SOIL>;
-         ($solthk,$sand,$clay,$orgmat,$cec,$rfg) = split " ", $record;
-         $solthk_e = sprintf "%.2f", $solthk / 25.4;
-         print "
+        for $layer ( 1 .. $nsl ) {
+            $record = <SOIL>;
+            ( $solthk, $sand, $clay, $orgmat, $cec, $rfg ) = split " ", $record;
+            $solthk_e = sprintf "%.2f", $solthk / 25.4;
+            print "
     <tr>
      <td>&nbsp;
      <th colspan=4 bgcolor=\"85d2d2\"><font face=\"Arial, Geneva, Helvetica\">layer $layer
@@ -328,38 +339,39 @@
      <td><font face=\"Arial, Geneva, Helvetica\">$rfg
      <td><font face=\"Arial, Geneva, Helvetica\">%
 ";
-       }
-     }
-     close SOIL;
-#           <form method="post" action="',$soilFilefq,'">
-     print '   </table>
+        }
+    }
+    close SOIL;
+
+    #           <form method="post" action="',$soilFilefq,'">
+    print '   </table>
   <p>
   <hr>
   <p>
 <!-- <form method="post" action="wepproad.sol">
     <input type="submit" value="DOWNLOAD">
-    <input type="hidden" value="',$soilFile,'" name="filename">
+    <input type="hidden" value="', $soilFile, '" name="filename">
    </form>
 -->
 ';
 
-     open SOIL, "<$soilFile";
-     print '
+    open SOIL, "<$soilFile";
+    print '
    </center>
    <p>
    <pre>
 ';
-     print <SOIL>;
-     print '
+    print <SOIL>;
+    print '
    </pre>
   </blockquote>
  </body>
 </html>
 ';
-     
-unlink $soilFile;	# DEH 01/13/2004
-     die
-   }            #  /describe soil/
+
+    unlink $soilFile;    # DEH 01/13/2004
+    die;
+}    #  /describe soil/
 
 # ################################
 # ########### RUN WEPP ###########
@@ -367,20 +379,25 @@ unlink $soilFile;	# DEH 01/13/2004
 
 ############################ start 2009.11.02 DEH
 
-    if ($platform eq "pc") {
-      if (-e 'd:/fswepp/working') {$runLogFile = 'd:\\fswepp\\working\\wepprun.log'}
-      elsif (-e 'c:/fswepp/working') {$runLogFile = 'c:\\fswepp\\working\\wepprun.log'}
-      else {$runLogFile = '..\\working\\wepprun.log'}
- #    $logFile = "..\\working\\wepprun.log";
+if ( $platform eq "pc" ) {
+    if ( -e 'd:/fswepp/working' ) {
+        $runLogFile = 'd:\\fswepp\\working\\wepprun.log';
     }
-    else {
-      $user_ID=$ENV{'REMOTE_ADDR'};
-      $user_really=$ENV{'HTTP_X_FORWARDED_FOR'};          # DEH 11/14/2003
-      $user_ID=$user_really if ($user_really ne '');      # DEH 11/14/2003
-      $user_ID =~ tr/./_/;
-      $user_ID = $user_ID . $me;
-      $runLogFile = "../working/" . $user_ID . ".run.log";
+    elsif ( -e 'c:/fswepp/working' ) {
+        $runLogFile = 'c:\\fswepp\\working\\wepprun.log';
     }
+    else { $runLogFile = '..\\working\\wepprun.log' }
+
+    #    $logFile = "..\\working\\wepprun.log";
+}
+else {
+    $user_ID     = $ENV{'REMOTE_ADDR'};
+    $user_really = $ENV{'HTTP_X_FORWARDED_FOR'};              # DEH 11/14/2003
+    $user_ID     = $user_really if ( $user_really ne '' );    # DEH 11/14/2003
+    $user_ID =~ tr/./_/;
+    $user_ID    = $user_ID . $me;
+    $runLogFile = "../working/" . $user_ID . ".run.log";
+}
 
 # if ($user_ID eq '207_115_83_37') {
 ## if ($user_ID eq '166_2_22_221') {
@@ -404,120 +421,126 @@ unlink $soilFile;	# DEH 01/13/2004
 
 ############################ end 2009.11.02 DEH
 
-   $years2sim=$climyears;
-   if ($years2sim > 100) {$years2sim=100}
+$years2sim = $climyears;
+if ( $years2sim > 100 ) { $years2sim = 100 }
 
 #  if ($host eq "") {$host = 'unknown';}
-   $unique='wepp-' . $$;
+$unique = 'wepp-' . $$;
+
 #  if ($debug) {print 'Unique? filename= ',$unique,"\n<BR>"}
 
-   if ($platform eq "pc") {
-     if (-e 'd:/fswepp/working') {$working = 'd:\\fswepp\\working'}
-     elsif (-e 'c:/fswepp/working') {$working = 'c:\\fswepp\\working'}
-     else {$working = '..\\working'}
+if ( $platform eq "pc" ) {
+    if    ( -e 'd:/fswepp/working' ) { $working = 'd:\\fswepp\\working' }
+    elsif ( -e 'c:/fswepp/working' ) { $working = 'c:\\fswepp\\working' }
+    else                             { $working = '..\\working' }
 
-     $responseFile = "$working\\wdwepp.in";
-     $outputFile   = "$working\\wdwepp.out";
-     $stoutFile    = "$working\\wdwepp.sto";
-     $sterFile     = "$working\\wdwepp.err";
-     $slopeFile    = "$working\\wdwepp.slp";
-     $soilFile     = "$working\\wdwepp.sol";
-     $cropFile     = "$working\\wdwepp.crp";
-     $climateFile  = "$CL" . '.cli';
-     $manFile      = "$working\\wdwepp.man";
-     $soilPath     = 'data\\';
-     $manPath      = 'data\\';
-   }
-   else {
-     $working = '../working';
-#    $unique='wepp' . time . '-' . $$;
-     $unique='wepp' . '-' . $$;
-     $responseFile = "$working/$unique" . '.in';
-     $outputFile   = "$working/$unique" . '.out';
-     $soilFile     = "$working/$unique" . '.sol';
-     $slopeFile    = "$working/$unique" . '.slp';
-     $cropFile     = "$working/$unique" . '.crp';
-     $climateFile  = "$CL" . '.cli';
-     $stoutFile    = "$working/$unique" . ".stout";
-     $sterFile     = "$working/$unique" . ".sterr";
-     $manFile      = "$working/$unique" . ".man";
-     $soilPath     = 'data/';
-     $manPath      = 'data/';
-   }
+    $responseFile = "$working\\wdwepp.in";
+    $outputFile   = "$working\\wdwepp.out";
+    $stoutFile    = "$working\\wdwepp.sto";
+    $sterFile     = "$working\\wdwepp.err";
+    $slopeFile    = "$working\\wdwepp.slp";
+    $soilFile     = "$working\\wdwepp.sol";
+    $cropFile     = "$working\\wdwepp.crp";
+    $climateFile  = "$CL" . '.cli';
+    $manFile      = "$working\\wdwepp.man";
+    $soilPath     = 'data\\';
+    $manPath      = 'data\\';
+}
+else {
+    $working = '../working';
+
+    #    $unique='wepp' . time . '-' . $$;
+    $unique       = 'wepp' . '-' . $$;
+    $responseFile = "$working/$unique" . '.in';
+    $outputFile   = "$working/$unique" . '.out';
+    $soilFile     = "$working/$unique" . '.sol';
+    $slopeFile    = "$working/$unique" . '.slp';
+    $cropFile     = "$working/$unique" . '.crp';
+    $climateFile  = "$CL" . '.cli';
+    $stoutFile    = "$working/$unique" . ".stout";
+    $sterFile     = "$working/$unique" . ".sterr";
+    $manFile      = "$working/$unique" . ".man";
+    $soilPath     = 'data/';
+    $manPath      = 'data/';
+}
 
 # make hash of treatments
 
-   $treatments = {};
-   $treatments{skid} = 'skid trail';
-   $treatments{high} = 'high severity fire';
-   $treatments{low} = 'low severity fire';
-   $treatments{short} = 'short prairie grass';
-   $treatments{tall} = 'tall prairie grass';
-   $treatments{shrub} = 'shrubs';
-   $treatments{tree5} = '5 year old trees';
-   $treatments{tree20} = '20 year old trees';
+$treatments         = {};
+$treatments{skid}   = 'skid trail';
+$treatments{high}   = 'high severity fire';
+$treatments{low}    = 'low severity fire';
+$treatments{short}  = 'short prairie grass';
+$treatments{tall}   = 'tall prairie grass';
+$treatments{shrub}  = 'shrubs';
+$treatments{tree5}  = '5 year old trees';
+$treatments{tree20} = '20 year old trees';
 
 # make hash of soil types
 
-   $soil_type = {};
-   $soil_type{sand} = 'sandy loam';
-   $soil_type{silt} = 'silt loam';
-   $soil_type{clay} = 'clay loam';
-   $soil_type{loam} = 'loam';
+$soil_type       = {};
+$soil_type{sand} = 'sandy loam';
+$soil_type{silt} = 'silt loam';
+$soil_type{clay} = 'clay loam';
+$soil_type{loam} = 'loam';
 
 # ----------------------------
 
-   $host = $ENV{REMOTE_HOST};
+$host = $ENV{REMOTE_HOST};
 
-   $user_ofe1_length=$ofe1_length;
-   $user_ofe2_length=$ofe2_length;
+$user_ofe1_length = $ofe1_length;
+$user_ofe2_length = $ofe2_length;
 
-   $rcin = &checkInput;
-   if ($rcin eq '') {
+$rcin = &checkInput;
+if ( $rcin eq '' ) {
 
-     if ($units eq 'm') {
-#       $user_ofe1_length=$ofe1_length;
-#       $user_ofe2_length=$ofe2_length;
-       $user_ofe_area=$ofe_area;
-     }
-     if ($units eq 'ft') {
-#       $user_ofe1_length=$ofe1_length;
-#       $user_ofe2_length=$ofe2_length;
-       $user_ofe_area=$ofe_area;
-       $ofe1_length=$ofe1_length/3.28;		# 3.28 ft == 1 m
-       $ofe2_length=$ofe2_length/3.28;		# 3.28 ft == 1 m
-       $ofe_area=$ofe_area/2.47;		# 2.47 ac == 1 ha; Schwab Fangmeier Elliot Frevert
-     }
+    if ( $units eq 'm' ) {
 
-     $ofe_width=$ofe_area*10000/($ofe1_length+$ofe2_length);
+        #       $user_ofe1_length=$ofe1_length;
+        #       $user_ofe2_length=$ofe2_length;
+        $user_ofe_area = $ofe_area;
+    }
+    if ( $units eq 'ft' ) {
 
-     if ($debug) {print "Creating Slope File<br>\n"}
-     &CreateSlopeFile;
-     if ($debug) {print "Creating Management File<br>\n"}
-     &CreateManagementFile;
-     if ($debug) {print "Creating Climate File<br>\n"}
-     &CreateCligenFile;
-     if ($debug) {print "Creating Soil File<br>\n"}
-     &CreateSoilFile;
-     if ($debug) {print "Creating WEPP Response File<br>\n"}
-     &CreateResponseFile;
+        #       $user_ofe1_length=$ofe1_length;
+        #       $user_ofe2_length=$ofe2_length;
+        $user_ofe_area = $ofe_area;
+        $ofe1_length   = $ofe1_length / 3.28;    # 3.28 ft == 1 m
+        $ofe2_length   = $ofe2_length / 3.28;    # 3.28 ft == 1 m
+        $ofe_area =
+          $ofe_area / 2.47;   # 2.47 ac == 1 ha; Schwab Fangmeier Elliot Frevert
+    }
 
-#    @args = ("nice -20 ./wepp <$responseFile >$stoutFile 2>$sterFile");
-     if ($platform eq "pc") {
-       @args = ("..\\wepp <$responseFile >$stoutFile")
-     }
-     else {
+    $ofe_width = $ofe_area * 10000 / ( $ofe1_length + $ofe2_length );
+
+    if ($debug) { print "Creating Slope File<br>\n" }
+    &CreateSlopeFile;
+    if ($debug) { print "Creating Management File<br>\n" }
+    &CreateManagementFile;
+    if ($debug) { print "Creating Climate File<br>\n" }
+    &CreateCligenFile;
+    if ($debug) { print "Creating Soil File<br>\n" }
+    &CreateSoilFile;
+    if ($debug) { print "Creating WEPP Response File<br>\n" }
+    &CreateResponseFile;
+
+    #    @args = ("nice -20 ./wepp <$responseFile >$stoutFile 2>$sterFile");
+    if ( $platform eq "pc" ) {
+        @args = ("..\\wepp <$responseFile >$stoutFile");
+    }
+    else {
 #      if ($weppversion eq '2008') {@args = ("../wepp2008 <$responseFile >$stoutFile 2>$sterFile")};  # DEH 2009.02.23
 #      if ($weppversion eq '2000')
- {@args = ("../wepp2000 <$responseFile >$stoutFile 2>$sterFile")};  # DEH 2009.02.23
-#     @args = ("../wepp <$responseFile >$stoutFile 2>$sterFile")
-     }
-     system @args;
+        { @args = ("../wepp2000 <$responseFile >$stoutFile 2>$sterFile") }; # DEH 2009.02.23
+
+        #     @args = ("../wepp <$responseFile >$stoutFile 2>$sterFile")
+    }
+    system @args;
 
 ########################  start HTML output ###############
 
-   print "Content-type: text/html\n\n";
-   print '<HTML>
+    print "Content-type: text/html\n\n";
+    print '<HTML>
  <HEAD>
   <TITLE>Disturbed WEPP Results</TITLE>
 <!-- new 2004 -->
@@ -531,19 +554,20 @@ unlink $soilFile;	# DEH 01/13/2004
       filewindow.focus
       filewindow.document.writeln("<html>")
       filewindow.document.writeln(" <head>")
-      filewindow.document.writeln("  <title>WEPP slope file ',$unique,'<\/title>")
+      filewindow.document.writeln("  <title>WEPP slope file ', $unique,
+      '<\/title>")
       filewindow.document.writeln(" <\/head>")
       filewindow.document.writeln(" <body>")
       filewindow.document.writeln("  <font face=\'courier\'>")
       filewindow.document.writeln("   <pre>")
 ';
-      open WEPPFILE, "<$slopeFile";
-      while (<WEPPFILE>) {
-       chomp;
-       print '      filewindow.document.writeln("', $_, '")',"\n";
-      }
-      close WEPPFILE;
-      print '      filewindow.document.writeln("   <\/pre>")
+    open WEPPFILE, "<$slopeFile";
+    while (<WEPPFILE>) {
+        chomp;
+        print '      filewindow.document.writeln("', $_, '")', "\n";
+    }
+    close WEPPFILE;
+    print '      filewindow.document.writeln("   <\/pre>")
       filewindow.document.writeln("  <\/font>")
       filewindow.document.writeln(" <\/body>")
       filewindow.document.writeln("<\/html>")
@@ -558,16 +582,17 @@ unlink $soilFile;	# DEH 01/13/2004
      filewindow.document.open()
      if (filewindow && filewindow.open && !filewindow.closed) {
       filewindow.focus
-      filewindow.document.writeln("<head><title>WEPP soil file ',$unique,'<\/title><\/head>")
+      filewindow.document.writeln("<head><title>WEPP soil file ', $unique,
+      '<\/title><\/head>")
       filewindow.document.writeln("<body><font face=\'courier\'><pre>")
 ';
-      open WEPPFILE, "<$soilFile";
-      while (<WEPPFILE>) {
-       chomp;
-       print '      filewindow.document.writeln("', $_, '")',"\n";
-      }
-      close WEPPFILE;
-      print '      filewindow.document.writeln("<\/pre><\/font><\/body><\/html>")
+    open WEPPFILE, "<$soilFile";
+    while (<WEPPFILE>) {
+        chomp;
+        print '      filewindow.document.writeln("', $_, '")', "\n";
+    }
+    close WEPPFILE;
+    print '      filewindow.document.writeln("<\/pre><\/font><\/body><\/html>")
       filewindow.document.close()
      }
      return false
@@ -579,16 +604,17 @@ unlink $soilFile;	# DEH 01/13/2004
      filewindow.document.open()
      if (filewindow && filewindow.open && !filewindow.closed) {
       filewindow.focus
-      filewindow.document.writeln("<head><title>WEPP response file ',$unique,'<\/title><\/head>")
+      filewindow.document.writeln("<head><title>WEPP response file ', $unique,
+      '<\/title><\/head>")
       filewindow.document.writeln("<body><pre>")
 ';
-      open WEPPFILE, "<$responseFile";
-      while (<WEPPFILE>) {
-       chomp;
-       print '      filewindow.document.writeln("', $_, '")',"\n";
-      }
-      close WEPPFILE;
-      print '      filewindow.document.writeln("<\/pre><\/body><\/html>")
+    open WEPPFILE, "<$responseFile";
+    while (<WEPPFILE>) {
+        chomp;
+        print '      filewindow.document.writeln("', $_, '")', "\n";
+    }
+    close WEPPFILE;
+    print '      filewindow.document.writeln("<\/pre><\/body><\/html>")
       filewindow.document.close()
      }
      return false
@@ -600,20 +626,22 @@ unlink $soilFile;	# DEH 01/13/2004
      filewindow.document.open()
      if (filewindow && filewindow.open && !filewindow.closed) {
       filewindow.focus
-      filewindow.document.writeln("<head><title>WEPP vegetation file ',$unique,'<\/title><\/head>")
+      filewindow.document.writeln("<head><title>WEPP vegetation file ', $unique,
+      '<\/title><\/head>")
       filewindow.document.writeln("<body><pre>")
 ';
-      $line = 0;
-      open WEPPFILE, "<$manFile";
-      while (<WEPPFILE>) {
-       chomp;
-       print '      filewindow.document.writeln("', $_, '")',"\n";
-       $line +=1;
-#       last if ($line > 100);
-       last if (/Management Section/);
-      }
-      close WEPPFILE;
-      print '      filewindow.document.writeln("<\/pre><\/body><\/html>")
+    $line = 0;
+    open WEPPFILE, "<$manFile";
+    while (<WEPPFILE>) {
+        chomp;
+        print '      filewindow.document.writeln("', $_, '")', "\n";
+        $line += 1;
+
+        #       last if ($line > 100);
+        last if (/Management Section/);
+    }
+    close WEPPFILE;
+    print '      filewindow.document.writeln("<\/pre><\/body><\/html>")
       filewindow.document.close()
      }
      return false
@@ -630,16 +658,17 @@ unlink $soilFile;	# DEH 01/13/2004
       return false
      }
      filewindow.focus
-     filewindow.document.writeln("<head><title>WEPP output file ',$unique,'<\/title><\/head>")
+     filewindow.document.writeln("<head><title>WEPP output file ', $unique,
+      '<\/title><\/head>")
      filewindow.document.writeln("<body><font face=\'courier\'><pre>")
 ';
-     open WEPPFILE, "<$outputFile";
-      while (<WEPPFILE>) {
-       chomp;
-       print '      filewindow.document.writeln("', $_, '")',"\n";
-      }
-     close WEPPFILE;
-     print '      filewindow.document.writeln("<\/pre><\/font><\/body><\/html>")
+    open WEPPFILE, "<$outputFile";
+    while (<WEPPFILE>) {
+        chomp;
+        print '      filewindow.document.writeln("', $_, '")', "\n";
+    }
+    close WEPPFILE;
+    print '      filewindow.document.writeln("<\/pre><\/font><\/body><\/html>")
      filewindow.document.close()
      return false
     }
@@ -650,17 +679,20 @@ unlink $soilFile;	# DEH 01/13/2004
      filewindow.document.open()
      if (filewindow && filewindow.open && !filewindow.closed) {
       filewindow.focus
-      filewindow.document.writeln("<head><title>WEPP weather file ',$unique,'<\/title><\/head>")
+      filewindow.document.writeln("<head><title>WEPP weather file ', $unique,
+      '<\/title><\/head>")
       filewindow.document.writeln("<body><pre>")
 ';
+
 #     print '      filewindow.document.writeln("climate file: ', $climateFile, '")$
-      open WEPPFILE, "<$climatePar";
-      while (<WEPPFILE>) {
-       chomp; chop;
-       print '      filewindow.document.writeln("', $_, '")',"\n";
-      }
-      close WEPPFILE;
-      print '      filewindow.document.writeln("<\/pre><\/body><\/html>")
+    open WEPPFILE, "<$climatePar";
+    while (<WEPPFILE>) {
+        chomp;
+        chop;
+        print '      filewindow.document.writeln("', $_, '")', "\n";
+    }
+    close WEPPFILE;
+    print '      filewindow.document.writeln("<\/pre><\/body><\/html>")
       filewindow.document.close()
      }
      return false
@@ -668,7 +700,7 @@ unlink $soilFile;	# DEH 01/13/2004
   <!-- end new 2004 -->
 ';
 
-print <<'pophist';
+    print <<'pophist';
 function popuphistory() {
 url = '';
 height=500;
@@ -778,17 +810,17 @@ popupwindow.focus()
 
 pophist
 
-print '
+    print '
   </script>
  </HEAD>
- <BODY background="https://',$wepphost,'/fswepp/images/note.gif">
+ <BODY background="https://', $wepphost, '/fswepp/images/note.gif">
   <font face="Arial, Geneva, Helvetica">
   <blockquote>
    <table width=100% border=0>
     <tr>
      <td>
       <a href="JavaScript:window.history.go(-1)">
-      <IMG src="https://',$wepphost,'/fswepp/images/disturb.gif"
+      <IMG src="https://', $wepphost, '/fswepp/images/disturb.gif"
       align="left" alt="Return to Disturbed WEPP input screen" border=1></a>
      <td align=center>
       <hr>
@@ -796,203 +828,224 @@ print '
       <hr>
      </td>
      <td>
-      <A HREF="https://',$wepphost,'/fswepp/docs/distweppdoc.html">
-      <IMG src="https://',$wepphost,'/fswepp/images/epage.gif"
+      <A HREF="https://',  $wepphost, '/fswepp/docs/distweppdoc.html">
+      <IMG src="https://', $wepphost, '/fswepp/images/epage.gif"
        align="right" alt="Read the documentation" border=0></a>
      </td>
     </tr>
    </table>
 ';
 
-#  print $weppversion;
+    #  print $weppversion;
 
 ######################## end of top part of HTML output ###############
 
-#------------------------------
+    #------------------------------
 
-  unlink $climateFile;    # be sure this is right file .....     # 2/2000
+    unlink $climateFile;    # be sure this is right file .....     # 2/2000
 
-#    print '<HR><BR><CENTER><H3>WEPP summary</H3></CENTER>';
-#    print "\n<PRE>\n";
+    #    print '<HR><BR><CENTER><H3>WEPP summary</H3></CENTER>';
+    #    print "\n<PRE>\n";
 
-     open weppstout, "<$stoutFile";
+    open weppstout, "<$stoutFile";
 
-     $found = 0;
-     while (<weppstout>) {
-       if (/SUCCESSFUL/) {
-         $found = 1;
-         last;
-       }
-     }
-     close (weppstout);
+    $found = 0;
+    while (<weppstout>) {
+        if (/SUCCESSFUL/) {
+            $found = 1;
+            last;
+        }
+    }
+    close(weppstout);
 
-     if ($found == 0) {
-       open weppstout, "<$stoutFile";
-       while (<weppstout>) {
-         if (/ERROR/) {
-           $found = 2;
-           print "<font color=red>\n";
-           $_ = <weppstout>; # print;
-           $_ = <weppstout>; # print;
-           $_ = <weppstout>;  print;
-           $_ = <weppstout>;  print;
-           print "</font>\n";
-           last;
-         }
-       }
-       close (weppstout);
-       open weppstout, "<$stoutFile";
-       while (<weppstout>) {
-         if (/error #/) {
-           $found = 4;
-           print "<font color=red>\n";
-           print;
-           last;
-           print "</font>\n";
-         }
-       }
-       close (weppstout);
-       open weppstout, "<$stoutFile";
-       while (<weppstout>) {
-         if (/\*\*\* /) {
-           $found = 3;
-           print "<font color=red>\n";
-           $_ = <weppstout>; print;
-           $_ = <weppstout>; print;
-           $_ = <weppstout>; print;
-           $_ = <weppstout>; print;
-           print "</font>\n";
-           last;
-         }
-       }
-       close (weppstout);
-     }		# $found == 0
+    if ( $found == 0 ) {
+        open weppstout, "<$stoutFile";
+        while (<weppstout>) {
+            if (/ERROR/) {
+                $found = 2;
+                print "<font color=red>\n";
+                $_ = <weppstout>;    # print;
+                $_ = <weppstout>;    # print;
+                $_ = <weppstout>;
+                print;
+                $_ = <weppstout>;
+                print;
+                print "</font>\n";
+                last;
+            }
+        }
+        close(weppstout);
+        open weppstout, "<$stoutFile";
+        while (<weppstout>) {
+            if (/error #/) {
+                $found = 4;
+                print "<font color=red>\n";
+                print;
+                last;
+                print "</font>\n";
+            }
+        }
+        close(weppstout);
+        open weppstout, "<$stoutFile";
+        while (<weppstout>) {
+            if (/\*\*\* /) {
+                $found = 3;
+                print "<font color=red>\n";
+                $_ = <weppstout>;
+                print;
+                $_ = <weppstout>;
+                print;
+                $_ = <weppstout>;
+                print;
+                $_ = <weppstout>;
+                print;
+                print "</font>\n";
+                last;
+            }
+        }
+        close(weppstout);
+    }    # $found == 0
 
-     if ($found == 1) {
-       open weppout, "<$outputFile";
-       $_ = <weppout>;
-       if (/Annual; detailed/) {$outputfiletype="annualdetailed"}
-       $ver = 'unknown';
-       while (<weppout>) {
-         if (/VERSION/) {
-           $weppver = lc($_);
-           chomp $weppver;
-           last;
-         }
-       }
+    if ( $found == 1 ) {
+        open weppout, "<$outputFile";
+        $_ = <weppout>;
+        if (/Annual; detailed/) { $outputfiletype = "annualdetailed" }
+        $ver = 'unknown';
+        while (<weppout>) {
+            if (/VERSION/) {
+                $weppver = lc($_);
+                chomp $weppver;
+                last;
+            }
+        }
 
-# ############# actual climate station name #####################
+        # ############# actual climate station name #####################
 
-       while (<weppout>) {     ######## actual ########
-         if (/CLIMATE/) {
-#          print;
-           $a_c_n=<weppout>;
-           $actual_climate_name=substr($a_c_n,index($a_c_n,":")+1,40);
-           $climate_name = $actual_climate_name;
-           last;
-         }
-       }
+        while (<weppout>) {    ######## actual ########
+            if (/CLIMATE/) {
+
+                #          print;
+                $a_c_n = <weppout>;
+                $actual_climate_name =
+                  substr( $a_c_n, index( $a_c_n, ":" ) + 1, 40 );
+                $climate_name = $actual_climate_name;
+                last;
+            }
+        }
 
 #################################################################
 
-#      if ($outputfiletype eq "annualdetailed") {
-         while (<weppout>) {
-           if (/ANNUAL AVERAGE SUMMARIES/) {print ""; last}
-         }
-#      }
+        #      if ($outputfiletype eq "annualdetailed") {
+        while (<weppout>) {
+            if (/ANNUAL AVERAGE SUMMARIES/) { print ""; last }
+        }
 
-       while (<weppout>) {
-         if (/RAINFALL AND RUNOFF SUMMARY/) {
-           $_ = <weppout>; #      -------- --- ------ -------
-           $_ = <weppout>; # 
-           $_ = <weppout>; #       total summary:  years    1 -    1
-           $simyears = substr $_,35,10; chomp $simyears; $simyears += 0;
-           $_ = <weppout>; # 
-           $_ = <weppout>; #         71 storms produced                          346.90 mm of precipitation
-           $storms = substr $_,1,10;
-           $_ = <weppout>; #          3 rain storm runoff events produced          0.00 mm of runoff
-           $rainevents = substr $_,1,10;
-           $_ = <weppout>; #          2 snow melts and/or
-           $snowevents = substr $_,1,10;
-           $_ = <weppout>; #              events during winter produced            0.00 mm of runoff
-           $_ = <weppout>; # 
-           $_ = <weppout>; #      annual averages
-           $_ = <weppout>; #      ---------------
-           $_ = <weppout>; #
-           $_ = <weppout>; #        Number of years                                    1
-           $_ = <weppout>; #        Mean annual precipitation                     346.90    mm
-           $precip = substr $_,51,10; #print "precip: ";
-           $_ = <weppout>; 
-           $rro = substr $_,51,10;    #print; 
-           $_ = <weppout>; # print;
-           $_ = <weppout>;
-           $sro = substr $_,51,10;    #print; 
-           $_ = <weppout>; # print;
-           last;
-         }
-       }
+        #      }
 
-       while (<weppout>) {
-         if (/AREA OF NET SOIL LOSS/) {
-           $_ = <weppout>;
-           $_ = <weppout>;
-           $_ = <weppout>;
-           $_ = <weppout>;
-           $_ = <weppout>;
-           $_ = <weppout>; # print;
-           $_ = <weppout>; # print;
-           $_ = <weppout>; # print;
-           $_ = <weppout>; # print;
-           $_ = <weppout>; 
-           $syr = substr $_,17,7;  
-           $effrdlen = substr $_,9,9; # print;
-           last;
-         }
-       }
+        while (<weppout>) {
+            if (/RAINFALL AND RUNOFF SUMMARY/) {
+                $_        = <weppout>; #      -------- --- ------ -------
+                $_        = <weppout>; #
+                $_        = <weppout>; #       total summary:  years    1 -    1
+                $simyears = substr $_, 35, 10;
+                chomp $simyears;
+                $simyears += 0;
+                $_ = <weppout>;        #
+                $_ = <weppout>
+                  ; #         71 storms produced                          346.90 mm of precipitation
+                $storms = substr $_, 1, 10;
+                $_ = <weppout>
+                  ; #          3 rain storm runoff events produced          0.00 mm of runoff
+                $rainevents = substr $_, 1, 10;
+                $_          = <weppout>;    #          2 snow melts and/or
+                $snowevents = substr $_, 1, 10;
+                $_          = <weppout>
+                  ; #              events during winter produced            0.00 mm of runoff
+                $_ = <weppout>;    #
+                $_ = <weppout>;    #      annual averages
+                $_ = <weppout>;    #      ---------------
+                $_ = <weppout>;    #
+                $_ = <weppout>
+                  ; #        Number of years                                    1
+                $_ = <weppout>
+                  ; #        Mean annual precipitation                     346.90    mm
+                $precip = substr $_, 51, 10;    #print "precip: ";
+                $_      = <weppout>;
+                $rro    = substr $_, 51, 10;    #print;
+                $_      = <weppout>;            # print;
+                $_      = <weppout>;
+                $sro    = substr $_, 51, 10;    #print;
+                $_      = <weppout>;            # print;
+                last;
+            }
+        }
 
-       while (<weppout>) {
-         if (/OFF SITE EFFECTS/) {
-           $_ = <weppout>;
-           $_ = <weppout>;
-           $_ = <weppout>; $syp = substr $_,50,9;
-           $_ = <weppout>; if ($syp eq "") {$syp = substr $_,10,9}
-           $_ = <weppout>;
-           $_ = <weppout>;
-           last;
-         }
-       }
-       close (weppout);
+        while (<weppout>) {
+            if (/AREA OF NET SOIL LOSS/) {
+                $_        = <weppout>;
+                $_        = <weppout>;
+                $_        = <weppout>;
+                $_        = <weppout>;
+                $_        = <weppout>;
+                $_        = <weppout>;           # print;
+                $_        = <weppout>;           # print;
+                $_        = <weppout>;           # print;
+                $_        = <weppout>;           # print;
+                $_        = <weppout>;
+                $syr      = substr $_, 17, 7;
+                $effrdlen = substr $_, 9,  9;    # print;
+                last;
+            }
+        }
 
-#-----------------------------------
+        while (<weppout>) {
+            if (/OFF SITE EFFECTS/) {
+                $_   = <weppout>;
+                $_   = <weppout>;
+                $_   = <weppout>;
+                $syp = substr $_, 50, 9;
+                $_   = <weppout>;
+                if ( $syp eq "" ) { $syp = substr $_, 10, 9 }
+                $_ = <weppout>;
+                $_ = <weppout>;
+                last;
+            }
+        }
+        close(weppout);
 
-       $storms=$storms*1;
-       $rainevents=$rainevents*1;
-       $snowevents=$snowevents*1;
-       $precip=$precip*1;
-       $rro=$rro*1;
-       $sro=$sro*1;
-       $syr=$syr*1;
-       $syp=$syp*1;
-       $effrdlen=$effrdlen*1;
-       $syra=$syr;  # * $effrdlen * $effrdwidth;
-       $sypa=$syp;  # * $effrdwidth;
-       if ($units eq 'm') {
-         $user_ofe_width = $ofe_width
-       }
-       if ($units eq 'ft') {
-         $user_ofe_width = $ofe_width * 3.28	# 1 m = 3.28 ft
-       }
-       $rofe_width =  sprintf "%.2f", $user_ofe_width;
-       $slope_length = $ofe1_length + $ofe2_length;
-       $asyra=$syra * 10;   # kg.m^2 * 10 = t/ha
+        #-----------------------------------
+
+        $storms     = $storms * 1;
+        $rainevents = $rainevents * 1;
+        $snowevents = $snowevents * 1;
+        $precip     = $precip * 1;
+        $rro        = $rro * 1;
+        $sro        = $sro * 1;
+        $syr        = $syr * 1;
+        $syp        = $syp * 1;
+        $effrdlen   = $effrdlen * 1;
+        $syra       = $syr;              # * $effrdlen * $effrdwidth;
+        $sypa       = $syp;              # * $effrdwidth;
+
+        if ( $units eq 'm' ) {
+            $user_ofe_width = $ofe_width;
+        }
+        if ( $units eq 'ft' ) {
+            $user_ofe_width = $ofe_width * 3.28    # 1 m = 3.28 ft
+        }
+        $rofe_width   = sprintf "%.2f", $user_ofe_width;
+        $slope_length = $ofe1_length + $ofe2_length;
+        $asyra        = $syra * 10;                    # kg.m^2 * 10 = t/ha
+
 #       $asypa= sprintf "%.2f", $sypa * $ofe_width / (100000 * $ofe_area);  # kg/m width * m width * (1 t / 1000 kg) / area-in-ha
-       $asypa = sprintf "%.2f", $sypa * 10 / $slope_length; 
-#       if ($units eq 'm') {$areaunits='ha'}
-#       if ($units eq 'ft') {$areaunits='ac'}
-       $areaunits='ha' if $units eq 'm';
-       $areaunits='ac' if $units eq 'ft';
+        $asypa = sprintf "%.2f", $sypa * 10 / $slope_length;
 
-       print "   </pre>
+        #       if ($units eq 'm') {$areaunits='ha'}
+        #       if ($units eq 'ft') {$areaunits='ac'}
+        $areaunits = 'ha' if $units eq 'm';
+        $areaunits = 'ac' if $units eq 'ft';
+
+        print "   </pre>
   <center>
    <h3>User inputs</h3>
     <table border=1>
@@ -1002,9 +1055,9 @@ print '
        <br>
        <font size=1>
 ";
-     $PARfile = $climatePar;                      # for &readPARfile()
-&readPARfile();
-print "
+        $PARfile = $climatePar;    # for &readPARfile()
+        &readPARfile();
+        print "
        </font>
       </td>
      </tr>
@@ -1049,25 +1102,27 @@ print "
     <p>
 ";
 
-if ($units eq 'm') {
-   $user_precip = sprintf "%.1f", $precip;
-   $user_rro = sprintf "%.1f", $rro;
-   $user_sro = sprintf "%.1f", $sro;
-   $user_asyra = sprintf "%.3f", $asyra;		# 2004.10.14 DEH
-   $user_asypa = sprintf "%.3f", $asypa;		# 2004.10.14 DEH
-   $rate = 't ha<sup>-1</sup>';
-   $pcp_unit = 'mm'
-}
-if ($units eq 'ft') {
-   $user_precip = sprintf "%.2f", $precip*0.0394;	# mm to in
-   $user_rro = sprintf "%.2f", $rro*0.0394;		# mm to in
-   $user_sro = sprintf "%.2f", $sro*0.0394;		# mm to in
-   $user_asyra = sprintf "%.3f", $asyra*0.445;		# t/ha to t/ac # 2004.10.14 DEH
-   $user_asypa = sprintf "%.3f", $asypa*0.445;		# t/ha to t/ac # 2004.10.14 DEH
-   $rate = 't ac<sup>-1</sup>';
-   $pcp_unit = 'in.'
-}
-   print "
+        if ( $units eq 'm' ) {
+            $user_precip = sprintf "%.1f", $precip;
+            $user_rro    = sprintf "%.1f", $rro;
+            $user_sro    = sprintf "%.1f", $sro;
+            $user_asyra  = sprintf "%.3f", $asyra;    # 2004.10.14 DEH
+            $user_asypa  = sprintf "%.3f", $asypa;    # 2004.10.14 DEH
+            $rate        = 't ha<sup>-1</sup>';
+            $pcp_unit    = 'mm';
+        }
+        if ( $units eq 'ft' ) {
+            $user_precip = sprintf "%.2f", $precip * 0.0394;    # mm to in
+            $user_rro    = sprintf "%.2f", $rro * 0.0394;       # mm to in
+            $user_sro    = sprintf "%.2f", $sro * 0.0394;       # mm to in
+            $user_asyra  = sprintf "%.3f",
+              $asyra * 0.445;    # t/ha to t/ac # 2004.10.14 DEH
+            $user_asypa = sprintf "%.3f",
+              $asypa * 0.445;    # t/ha to t/ac # 2004.10.14 DEH
+            $rate     = 't ac<sup>-1</sup>';
+            $pcp_unit = 'in.';
+        }
+        print "
    <p><hr><p>
    <h3>Mean annual averages for $simyears years</h3>
     <table border=0 cellpadding=4>
@@ -1113,42 +1168,42 @@ if ($units eq 'ft') {
 ";
 
 #####
-       if (lc($action) =~ /vegetation/) {
-         &cropper;
-         print "<center>\n";
-         print "<p><hr><p><h2>Vegetation check for $simyears years</h2>\n";
-         if ($units eq "ft") {
-           print "<table border=1>
+        if ( lc($action) =~ /vegetation/ ) {
+            &cropper;
+            print "<center>\n";
+            print "<p><hr><p><h2>Vegetation check for $simyears years</h2>\n";
+            if ( $units eq "ft" ) {
+                print "<table border=1>
            <tr><th>Element
                <th>Biomass<br>(t ac<sup>-1</sup>)
                <th>Cover<br>(%)
            <tr><th>Upper<td align=right>";
-           printf "%.4f", $livebiomean[1]*4.45;
-           print "<td align=right>";
-           printf "%7.2f", $rillmean[1]*100;
-           print "  <tr><th>Lower<td align=right>";
-           printf "%.4f", $livebiomean[2]*4.45;
-           print "<td align=right>";
-           printf "%7.2f", $rillmean[2]*100;
-           print "  </table></center>\n";
-         }
-         else {     # ($units eq "m")
-           print "<table border=1>
+                printf "%.4f", $livebiomean[1] * 4.45;
+                print "<td align=right>";
+                printf "%7.2f", $rillmean[1] * 100;
+                print "  <tr><th>Lower<td align=right>";
+                printf "%.4f", $livebiomean[2] * 4.45;
+                print "<td align=right>";
+                printf "%7.2f", $rillmean[2] * 100;
+                print "  </table></center>\n";
+            }
+            else {    # ($units eq "m")
+                print "<table border=1>
            <tr><th>Element<th>Biomass<br>(kg m<sup>-2</sup>)<th>Cover<br>(%)
            <tr><th>Upper<td align=right>";
-           printf "%.4f", $livebiomean[1];
-           print "<td align=right>";
-           printf "%7.2f", $rillmean[1]*100;
-           print "  <tr><th>Lower<td align=right>";
-           printf "%.4f", $livebiomean[2];
-           print "<td align=right>";
-           printf "%7.2f", $rillmean[2]*100;
-           print "  </table></center>\n";
-         }
-       }
-       else {
-         &parsead;
-         print "
+                printf "%.4f", $livebiomean[1];
+                print "<td align=right>";
+                printf "%7.2f", $rillmean[1] * 100;
+                print "  <tr><th>Lower<td align=right>";
+                printf "%.4f", $livebiomean[2];
+                print "<td align=right>";
+                printf "%7.2f", $rillmean[2] * 100;
+                print "  </table></center>\n";
+            }
+        }
+        else {
+            &parsead;
+            print "
    <center>
     <p><hr><p>
     <h3>Return period analysis<br>
@@ -1163,20 +1218,29 @@ if ($units eq 'ft') {
       <th bgcolor=85d2d2><font face='Arial, Geneva, Helvetica'>Sediment<br>($rate)</th>
      </tr>";
 
-$rcf = 1; $dcf = 1;					# rate conversion factor; depth conversion factor
-if ($units eq 'ft') {$rcf = 0.445; $dcf = 0.0394}	# t/ha to t/ac; mm to in.
-$ii = 0;
-@rp_year_text=('1st','2nd','5th','10th','20th');
-for $rp_year (1,2,5,10,20) {
-   $rp = $simyears/$rp_year;
-   if ($rp >= 1) {
-      $user_pcpa = sprintf "%.2f", $pcpa[$rp_year-1] * $dcf;
-      $user_ra   = sprintf "%.2f", $ra[$rp_year-1] * $dcf;
-      $asyr = sprintf "%.2f", $detach[$rp_year-1] * 10 * $rcf;					# kg.m^2 * 10 = t/ha * 0.445 = t/ac
-#     $asyp = sprintf "%.2f", $sed_del[$rp_year-1] * $ofe_width / (100000 * $ofe_area) * $rcf;	# kg/m width * m width * (1 t / 1000 kg) / area-in-ha
-      $asyp = sprintf "%.4f", $sed_del[$rp_year-1] * 10 / $slope_length * $rcf;			# 2006.01.20 DEH
+            $rcf = 1;
+            $dcf = 1;    # rate conversion factor; depth conversion factor
+            if ( $units eq 'ft' ) {
+                $rcf = 0.445;
+                $dcf = 0.0394;
+            }            # t/ha to t/ac; mm to in.
+            $ii           = 0;
+            @rp_year_text = ( '1st', '2nd', '5th', '10th', '20th' );
+            for $rp_year ( 1, 2, 5, 10, 20 ) {
+                $rp = $simyears / $rp_year;
+                if ( $rp >= 1 ) {
+                    $user_pcpa = sprintf "%.2f", $pcpa[ $rp_year - 1 ] * $dcf;
+                    $user_ra   = sprintf "%.2f", $ra[ $rp_year - 1 ] * $dcf;
+                    $asyr      = sprintf "%.2f", $detach[ $rp_year - 1 ] * 10 *
+                      $rcf;    # kg.m^2 * 10 = t/ha * 0.445 = t/ac
 
-      print "
+#     $asyp = sprintf "%.2f", $sed_del[$rp_year-1] * $ofe_width / (100000 * $ofe_area) * $rcf;	# kg/m width * m width * (1 t / 1000 kg) / area-in-ha
+                    $asyp = sprintf "%.4f",
+                      $sed_del[ $rp_year - 1 ] * 10 /
+                      $slope_length *
+                      $rcf;    # 2006.01.20 DEH
+
+                    print "
      <tr>
       <th bgcolor=85d2d2><font face='Arial, Geneva, Helvetica'>
         <a onMouseOver=\"window.status='For year with $rp_year_text[$ii] largest values';return true;\"
@@ -1187,14 +1251,14 @@ for $rp_year (1,2,5,10,20) {
       <td align=right><font face='Arial, Geneva, Helvetica'>$asyp</td>
      </tr>
 ";
-      $ii += 1;
-   }
-}
-   $user_avg_pcp = sprintf "%.2f", $avg_pcp*$dcf;
-   $user_avg_ro  = sprintf "%.2f", $avg_ro*$dcf;
-   $user_asyra   = sprintf "%.2f", $asyra*$rcf;
-   $user_asypa   = sprintf "%.4f", $asypa*$rcf;			# 2006.01.20 DEH
-   print "
+                    $ii += 1;
+                }
+            }
+            $user_avg_pcp = sprintf "%.2f", $avg_pcp * $dcf;
+            $user_avg_ro  = sprintf "%.2f", $avg_ro * $dcf;
+            $user_asyra   = sprintf "%.2f", $asyra * $rcf;
+            $user_asypa   = sprintf "%.4f", $asypa * $rcf;     # 2006.01.20 DEH
+            print "
      <tr>
       <th bgcolor=yellow><font face='Arial, Geneva, Helvetica'>Average</th>
       <td align=right><font face='Arial, Geneva, Helvetica'>$user_avg_pcp</td>
@@ -1204,13 +1268,13 @@ for $rp_year (1,2,5,10,20) {
      </tr>
     </table>
 ";
-         $base_size=100;
-         $prob_no_pcp      = sprintf "%.2f", $nzpcp/$simyears;
-         $prob_no_runoff   = sprintf "%.2f", $nzra/$simyears;
-         $prob_no_erosion  = sprintf "%.2f", $nzdetach/$simyears;
-         $prob_no_sediment = sprintf "%.2f", $nzsed_del/$simyears;
+            $base_size        = 100;
+            $prob_no_pcp      = sprintf "%.2f", $nzpcp / $simyears;
+            $prob_no_runoff   = sprintf "%.2f", $nzra / $simyears;
+            $prob_no_erosion  = sprintf "%.2f", $nzdetach / $simyears;
+            $prob_no_sediment = sprintf "%.2f", $nzsed_del / $simyears;
 
-print "
+            print "
     <p>
     <hr>
 <!--
@@ -1222,48 +1286,54 @@ print "
      <tr>
       <th align=right><font face='Arial, Geneva, Helvetica'>Probability there is runoff
       <td><font face='Arial, Geneva, Helvetica'>";
-     printf "%.0f",(1-$prob_no_runoff)*100
-   ; print " %</td>
+            printf "%.0f", ( 1 - $prob_no_runoff ) * 100;
+            print " %</td>
       <td><font face='Arial, Geneva, Helvetica'>
         <a onMouseOver=\"window.status='$nnzra year(s) in $simyears had runoff';return true;\"
            onMouseOut=\"window.status='';return true;\">
-        <img src=\"/fswepp/images/rouge.gif\" height=15 width=",(1-$prob_no_runoff)*$base_size,"></a>
+        <img src=\"/fswepp/images/rouge.gif\" height=15 width=",
+              ( 1 - $prob_no_runoff ) * $base_size, "></a>
         <a onMouseOver=\"window.status='$nzra year(s) in $simyears had no runoff';return true;\"
            onMouseOut=\"window.status='';return true;\">
-        <img src=\"/fswepp/images/green.gif\" height=15 width=",($prob_no_runoff)*$base_size,"></a></td>
+        <img src=\"/fswepp/images/green.gif\" height=15 width=",
+              ($prob_no_runoff) * $base_size, "></a></td>
      </tr>
      <tr>
       <th align=right><font face='Arial, Geneva, Helvetica'>Probability there is erosion</th>
       <td>";
-     printf "%.0f",(1-$prob_no_erosion)*100;
-     print " %</td>
+            printf "%.0f", ( 1 - $prob_no_erosion ) * 100;
+            print " %</td>
       <td><font face='Arial, Geneva, Helvetica'>
        <a onMouseOver=\"window.status='$nnzdetach year(s) in $simyears had erosion';return true;\"
            onMouseOut=\"window.status='';return true;\">
-        <img src=\"/fswepp/images/rouge.gif\" height=15 width=",(1-$prob_no_erosion)*$base_size,"></a>
+        <img src=\"/fswepp/images/rouge.gif\" height=15 width=",
+              ( 1 - $prob_no_erosion ) * $base_size, "></a>
         <a onMouseOver=\"window.status='$nzdetach year(s) in $simyears had no erosion';return true;\"
            onMouseOut=\"window.status='';return true;\">
-        <img src=\"/fswepp/images/green.gif\" height=15 width=",($prob_no_erosion)*$base_size,"></a></td>
+        <img src=\"/fswepp/images/green.gif\" height=15 width=",
+              ($prob_no_erosion) * $base_size, "></a></td>
      </tr>
      <tr>
       <th align=right><font face='Arial, Geneva, Helvetica'>Probability there is sediment delivery</th>
       <td><font face='Arial, Geneva, Helvetica'>";
-     printf "%.0f", (1-$prob_no_sediment)*100;
-     print " %</td>
+            printf "%.0f", ( 1 - $prob_no_sediment ) * 100;
+            print " %</td>
       <td><font face='Arial, Geneva, Helvetica'>
           <a onMouseOver=\"window.status='$nnzsed_del year(s) in $simyears had sediment delivery';return true;\"
              onMouseOut=\"window.status='';return true;\">
-          <img src=\"/fswepp/images/rouge.gif\" height=15 width=",(1-$prob_no_sediment)*$base_size,"></a>
+          <img src=\"/fswepp/images/rouge.gif\" height=15 width=",
+              ( 1 - $prob_no_sediment ) * $base_size, "></a>
           <a onMouseOver=\"window.status='$nzsed_del year(s) in $simyears had no sediment delivery';return true;\"
              onMouseOut=\"window.status='';return true;\">
-          <img src=\"/fswepp/images/green.gif\" height=15 width=",($prob_no_sediment)*$base_size,"></a></td>
+          <img src=\"/fswepp/images/green.gif\" height=15 width=",
+              ($prob_no_sediment) * $base_size, "></a></td>
      </tr>
     </table>
    </center>
 ";
-       }  	#	else case of if (lc($action) =~ /vegetation/)
+        }    #	else case of if (lc($action) =~ /vegetation/)
 
-       print '
+        print '
    <p>
    <center>
     <hr>
@@ -1275,64 +1345,66 @@ print "
 
 #####
 
-# print "<hr width=50%> \n";
+        # print "<hr width=50%> \n";
 
-       if ($outputi==1){
-         print '
+        if ( $outputi == 1 ) {
+            print '
    <hr>
    <p>
     <h3 align=center>Generated slope file</h3>
     <pre>
 ';
-         open slopef, "<$slopeFile";
-           while (<slopef>){
-             print;
-           }
-         close slopef;
-         print '</PRE>';
-       }		# $outputi == 1
-#----------------------
-     }		# $found == 1
-     else {          #  $found == 1
-       print "<p><font color=red>Something seems to have gone awry!</font>\n<p><hr><p>\n";
-     }          # $found == 1
+            open slopef, "<$slopeFile";
+            while (<slopef>) {
+                print;
+            }
+            close slopef;
+            print '</PRE>';
+        }    # $outputi == 1
 
-#-----------------------------------------
+        #----------------------
+    }    # $found == 1
+    else {    #  $found == 1
+        print
+"<p><font color=red>Something seems to have gone awry!</font>\n<p><hr><p>\n";
+    }         # $found == 1
 
-     if ($outputf==1) {
-       print '<BR><CENTER><H2>WEPP output</H2></CENTER>';
-       print '<PRE>';
-       open weppout, "<$outputFile";
-       for $line (0..38) {
-         $_ = <weppout>;
-         print;
-       }
-       print "\n\n";
-       while (<weppout>){    # skip 'til "ANNUAL AVERAGE SUMMARIES"
-         if (/ANNUAL AVERAGE SUMMARIES/) {	# DEH 03/07/2001 patch
-           last
-         }
-       }
-       print;
-       while (<weppout>) {			# DEH 03/07/2001 patch
-         print
-       }
-       close weppout;
-       print '</PRE>';
-       print "<p><hr>";
-       print '<center>
+    #-----------------------------------------
+
+    if ( $outputf == 1 ) {
+        print '<BR><CENTER><H2>WEPP output</H2></CENTER>';
+        print '<PRE>';
+        open weppout, "<$outputFile";
+        for $line ( 0 .. 38 ) {
+            $_ = <weppout>;
+            print;
+        }
+        print "\n\n";
+        while (<weppout>) {    # skip 'til "ANNUAL AVERAGE SUMMARIES"
+            if (/ANNUAL AVERAGE SUMMARIES/) {    # DEH 03/07/2001 patch
+                last;
+            }
+        }
+        print;
+        while (<weppout>) {                      # DEH 03/07/2001 patch
+            print;
+        }
+        close weppout;
+        print '</PRE>';
+        print "<p><hr>";
+        print '<center>
 <a href="JavaScript:window.history.go(-1)">
-<img src="https://',$wepphost,'/fswepp/images/rtis.gif"
+<img src="https://', $wepphost, '/fswepp/images/rtis.gif"
   alt="Return to input screen" border="0" align=center></A>
 <BR><HR></center>';
-     }		# $outputf == 1
+    }    # $outputf == 1
 
-#-------------------------------------
+    #-------------------------------------
 
-   }		# $rcin eq ''
-   else {
-   print "Content-type: text/html\n\n";
-   print '<HTML>
+}    # $rcin eq ''
+else {
+    print "Content-type: text/html\n\n";
+    print '<HTML>
  <HEAD>
   <TITLE>Disturbed WEPP Results</TITLE>
  </head>
@@ -1342,11 +1414,11 @@ print "
 ';
     print $rcin;
     print "   <br><br>\n";
-  } 
+}
 
-if ($rcin eq '') {
+if ( $rcin eq '' ) {
 
-       print '  <br><center>
+    print '  <br><center>
     [ <a href="javascript:void(showslopefile())">slope</a>
     | <a href="javascript:void(showsoilfile())">soil</a>
     | <a href="javascript:void(showvegfile())">vegetation</a>
@@ -1356,16 +1428,17 @@ if ($rcin eq '') {
     </center>
 ';
 
-print "
+    print "
     <br><br>
     <font size=-2>
      Disturbed WEPP Results v.";
-print '     <a href="javascript:popuphistory()">';
-print "     $version</a> based on <b>WEPP $weppver</b>, CLIGEN $cligen_version<br>
+    print '     <a href="javascript:popuphistory()">';
+    print
+"     $version</a> based on <b>WEPP $weppver</b>, CLIGEN $cligen_version<br>
      https://$wepphost/fswepp<br>";
-}	# if ($rcin eq '') {
+}    # if ($rcin eq '') {
 
-    &printdate;
+&printdate;
 print "
      <br>
      Disturbed WEPP Run ID $unique
@@ -1377,56 +1450,63 @@ print "
 
 #  system "rm working/$unique.*";
 
-   #################################################    unlink <$working/$unique.*>;       # da
+#################################################    unlink <$working/$unique.*>;       # da
 
-   $host = $ENV{REMOTE_HOST};                    
-   $host = $ENV{REMOTE_ADDR} if ($host eq '');
-   $user_really=$ENV{'HTTP_X_FORWARDED_FOR'};		# DEH 11/14/2002
-   $host = $user_really if ($user_really ne '');	# DEH 11/14/2002
+$host        = $ENV{REMOTE_HOST};
+$host        = $ENV{REMOTE_ADDR} if ( $host eq '' );
+$user_really = $ENV{'HTTP_X_FORWARDED_FOR'};              # DEH 11/14/2002
+$host        = $user_really if ( $user_really ne '' );    # DEH 11/14/2002
 
 # 2008.06.04 DEH start
-   open PAR, "<$climatePar";
-    $PARline=<PAR>;                 # station name
-    $PARline=<PAR>;                 # Lat long
-    $lat_long=substr($PARline,0,26);
-    $lat=substr $lat_long,6,7;
-    $long=substr $lat_long,19,7;
-   close PAR;
+open PAR, "<$climatePar";
+$PARline  = <PAR>;                                        # station name
+$PARline  = <PAR>;                                        # Lat long
+$lat_long = substr( $PARline, 0, 26 );
+$lat      = substr $lat_long, 6,  7;
+$long     = substr $lat_long, 19, 7;
+close PAR;
+
 # 2008.06.04 DEH end
 
 #  record activity in Disturbed WEPP log (if running on remote server)
 
-   if (lc($wepphost) ne "localhost") {
-     open WDLOG, ">>../working/wd.log";
-       flock (WDLOG,2);
-#      $host = $ENV{REMOTE_HOST};
-#      if ($host eq "") {$host = $ENV{REMOTE_ADDR} };
-       print WDLOG "$host\t\"";
-       printf WDLOG "%0.2d:%0.2d ", $hour, $min;
-       print WDLOG $ampm[$ampmi],"  ",$days[$wday]," ",$months[$mon]," ",$mday, ", ",$thisyear, "\"\t";
-       print WDLOG $years2sim,"\t";
-       print WDLOG '"',trim($climate_name),"\"\t";
-#       print WDLOG $lat_long,"\n";                      # 2008.06.04 DEH
-       print WDLOG "$lat\t$long\n";                      # 2008.06.04 DEH
-#       print WDLOG $climate_name,"\n";
-     close WDLOG;
+if ( lc($wepphost) ne "localhost" ) {
+    open WDLOG, ">>../working/wd.log";
+    flock( WDLOG, 2 );
 
-     open CLIMLOG, '>../working/lastclimate.txt';       # 2005.07.14 DEH
-       flock CLIMLOG,2;
-       print CLIMLOG 'Disturbed WEPP: ', trim($climate_name);
-     close CLIMLOG;
+    #      $host = $ENV{REMOTE_HOST};
+    #      if ($host eq "") {$host = $ENV{REMOTE_ADDR} };
+    print WDLOG "$host\t\"";
+    printf WDLOG "%0.2d:%0.2d ", $hour, $min;
+    print WDLOG $ampm[$ampmi], "  ", $days[$wday], " ", $months[$mon], " ",
+      $mday, ", ", $thisyear, "\"\t";
+    print WDLOG $years2sim, "\t";
+    print WDLOG '"', trim($climate_name), "\"\t";
 
-     $thisday = 1+ (localtime)[7];                      # $yday, day of the year (0..364)
+    #       print WDLOG $lat_long,"\n";                      # 2008.06.04 DEH
+    print WDLOG "$lat\t$long\n";    # 2008.06.04 DEH
+
+    #       print WDLOG $climate_name,"\n";
+    close WDLOG;
+
+    open CLIMLOG, '>../working/lastclimate.txt';    # 2005.07.14 DEH
+    flock CLIMLOG, 2;
+    print CLIMLOG 'Disturbed WEPP: ', trim($climate_name);
+    close CLIMLOG;
+
+    $thisday = 1 + (localtime)[7];    # $yday, day of the year (0..364)
+
 #    $thisdayoff=$thisday+3;                            # [Jan 1] -1: Sunday; 0: Monday
-     $thisdayoff=$thisday+4;                            # [Jan 1] -1: Su; 0: Mo; 1: Tu; 2: We; 3: Th; 4: Fr; 5: Sa
-     $thisweek = 1+ int $thisdayoff/7;
-     $ditlogfile = '>>../working/wd/' . $thisweek;      # modify this
-     open MYLOG,$ditlogfile;
-       flock MYLOG,2;                  # 2005.02.09 DEH
-       print MYLOG '.';
-     close MYLOG;
+    $thisdayoff =
+      $thisday + 4;   # [Jan 1] -1: Su; 0: Mo; 1: Tu; 2: We; 3: Th; 4: Fr; 5: Sa
+    $thisweek   = 1 + int $thisdayoff / 7;
+    $ditlogfile = '>>../working/wd/' . $thisweek;    # modify this
+    open MYLOG, $ditlogfile;
+    flock MYLOG, 2;                                  # 2005.02.09 DEH
+    print MYLOG '.';
+    close MYLOG;
 
-   }
+}
 
 ################################# start 2009.11.02 DEH
 
@@ -1436,41 +1516,44 @@ print "
 
 #  strip leading and trailing blanks on file name
 
-sub trim($)       # https://www.somacon.com/p114.php
+sub trim($)    # https://www.somacon.com/p114.php
 {
-        my $string = shift;
-        $string =~ s/^\s+//;
-        $string =~ s/\s+$//;
-        return $string;
+    my $string = shift;
+    $string =~ s/^\s+//;
+    $string =~ s/\s+$//;
+    return $string;
 }
 
-    $climate_trim = trim($climate_name);
-    $climate_trim = $CL if ($climate_trim eq '');	# 2010.04.22 capture filename in case of failed run
+$climate_trim = trim($climate_name);
+$climate_trim = $CL
+  if ( $climate_trim eq '' )
+  ;            # 2010.04.22 capture filename in case of failed run
 
-    open RUNLOG, ">>$runLogFile";
-      flock (RUNLOG,2);
-      print  RUNLOG "WD\t$unique\t",'"';
-      printf RUNLOG "%0.2d:%0.2d ", $hour, $min;
-      print  RUNLOG $ampm[$ampmi],"  ",$days[$wday]," ",$months[$mon]," ",$mday,", ",$year+1900, '"',"\t",'"';
-      print  RUNLOG $climate_trim,'"',"\t";
-      print  RUNLOG "$years2sim\t";
-      print  RUNLOG "$soil\t";
-      print  RUNLOG "$treat1\t";
-      print  RUNLOG "$user_ofe1_length\t";		# 2010.04.22 Earthday 40
-      print  RUNLOG "$ofe1_top_slope\t";
-      print  RUNLOG "$ofe1_mid_slope\t";
-      print  RUNLOG "$ofe1_pcover\t";
-      print  RUNLOG "$ofe1_rock\t";
-      print  RUNLOG "$treat2\t";
-      print  RUNLOG "$user_ofe2_length\t";              # 2010.04.22 Earthday 40
-      print  RUNLOG "$ofe2_mid_slope\t";
-      print  RUNLOG "$ofe2_bot_slope\t";
-      print  RUNLOG "$ofe2_pcover\t";
-      print  RUNLOG "$ofe2_rock\t";
-      print  RUNLOG "$ofe_area\t";
-      print  RUNLOG "$units\t";
-      print  RUNLOG '"',$description,'"',"\n";
-    close RUNLOG;
+open RUNLOG, ">>$runLogFile";
+flock( RUNLOG, 2 );
+print RUNLOG "WD\t$unique\t", '"';
+printf RUNLOG "%0.2d:%0.2d ", $hour, $min;
+print RUNLOG $ampm[$ampmi], "  ", $days[$wday], " ", $months[$mon], " ", $mday,
+  ", ", $year + 1900, '"', "\t", '"';
+print RUNLOG $climate_trim, '"', "\t";
+print RUNLOG "$years2sim\t";
+print RUNLOG "$soil\t";
+print RUNLOG "$treat1\t";
+print RUNLOG "$user_ofe1_length\t";    # 2010.04.22 Earthday 40
+print RUNLOG "$ofe1_top_slope\t";
+print RUNLOG "$ofe1_mid_slope\t";
+print RUNLOG "$ofe1_pcover\t";
+print RUNLOG "$ofe1_rock\t";
+print RUNLOG "$treat2\t";
+print RUNLOG "$user_ofe2_length\t";    # 2010.04.22 Earthday 40
+print RUNLOG "$ofe2_mid_slope\t";
+print RUNLOG "$ofe2_bot_slope\t";
+print RUNLOG "$ofe2_pcover\t";
+print RUNLOG "$ofe2_rock\t";
+print RUNLOG "$ofe_area\t";
+print RUNLOG "$units\t";
+print RUNLOG '"', $description, '"', "\n";
+close RUNLOG;
 
 ################################# end 2009.11.02 DEH
 
@@ -1519,109 +1602,112 @@ sub trim($)       # https://www.somacon.com/p114.php
 #
 # #####
 
-
 # ------------------------ subroutines ---------------------------
 
 sub ReadParse {
 
-# ReadParse -- from cgi-lib.pl (Steve Brenner) from Eric Herrmann's
-# "Teach Yourself CGI Programming With PERL in a Week" p. 131
+    # ReadParse -- from cgi-lib.pl (Steve Brenner) from Eric Herrmann's
+    # "Teach Yourself CGI Programming With PERL in a Week" p. 131
 
-# Reads GET or POST data, converts it to unescaped text, and puts
-# one key=value in each member of the list "@in"
-# Also creates key/value pairs in %in, using '\0' to separate multiple
-# selections
+    # Reads GET or POST data, converts it to unescaped text, and puts
+    # one key=value in each member of the list "@in"
+    # Also creates key/value pairs in %in, using '\0' to separate multiple
+    # selections
 
-   local (*in) = @_ if @_;
-   local ($i, $loc, $key, $val);
-#       read text
-   if ($ENV{'REQUEST_METHOD'} eq "GET") {
-     $in = $ENV{'QUERY_STRING'};
-   }
-   elsif ($ENV{'REQUEST_METHOD'} eq "POST") {
-     read(STDIN,$in,$ENV{'CONTENT_LENGTH'});
-   }
-   @in = split(/&/,$in);
-   foreach $i (0 .. $#in) { 
-     $in[$i] =~ s/\+/ /g;	  # Convert pluses to spaces
-     ($key, $val) = split(/=/,$in[$i],2);	  # Split into key and value
-     $key =~ s/%(..)/pack("c",hex($1))/ge;	  # Convert %XX from hex numbers to alphanumeric
-     $val =~ s/%(..)/pack("c",hex($1))/ge;
-     $in{$key} .= "\0" if (defined($in{$key}));  # \0 is the multiple separator
-     $in{$key} .= $val;
-   }
-   return 1;
+    local (*in) = @_ if @_;
+    local ( $i, $loc, $key, $val );
+
+    #       read text
+    if ( $ENV{'REQUEST_METHOD'} eq "GET" ) {
+        $in = $ENV{'QUERY_STRING'};
+    }
+    elsif ( $ENV{'REQUEST_METHOD'} eq "POST" ) {
+        read( STDIN, $in, $ENV{'CONTENT_LENGTH'} );
+    }
+    @in = split( /&/, $in );
+    foreach $i ( 0 .. $#in ) {
+        $in[$i] =~ s/\+/ /g;    # Convert pluses to spaces
+        ( $key, $val ) = split( /=/, $in[$i], 2 );    # Split into key and value
+        $key =~ s/%(..)/pack("c",hex($1))/ge
+          ;    # Convert %XX from hex numbers to alphanumeric
+        $val =~ s/%(..)/pack("c",hex($1))/ge;
+        $in{$key} .= "\0"
+          if ( defined( $in{$key} ) );    # \0 is the multiple separator
+        $in{$key} .= $val;
+    }
+    return 1;
 }
 
 #---------------------------
 
 sub printdate {
 
-   @months=qw(January February March April May June July August September October November December);
-   @days=qw(Sunday Monday Tuesday Wednesday Thursday Friday Saturday);
-   $ampm[0] = "am";
-   $ampm[1] = "pm";
+    @months =
+      qw(January February March April May June July August September October November December);
+    @days    = qw(Sunday Monday Tuesday Wednesday Thursday Friday Saturday);
+    $ampm[0] = "am";
+    $ampm[1] = "pm";
 
-#   $ampmi = 0;
-#   ($sec,$min,$hour,$mday,$mon,$year,$wday,$yday,$isdst)=gmtime;
-#   if ($hour == 12) {$ampmi = 1}
-#   if ($hour > 12) {$ampmi = 1; $hour -= 12}
-#   printf "%0.2d:%0.2d ", $hour, $min;
-#   print $ampm[$ampmi],"  ",$days[$wday]," ",$months[$mon];
-#   print " ",$mday,", ",$year+1900, " GMT/UTC/Zulu<br>\n";
+    #   $ampmi = 0;
+    #   ($sec,$min,$hour,$mday,$mon,$year,$wday,$yday,$isdst)=gmtime;
+    #   if ($hour == 12) {$ampmi = 1}
+    #   if ($hour > 12) {$ampmi = 1; $hour -= 12}
+    #   printf "%0.2d:%0.2d ", $hour, $min;
+    #   print $ampm[$ampmi],"  ",$days[$wday]," ",$months[$mon];
+    #   print " ",$mday,", ",$year+1900, " GMT/UTC/Zulu<br>\n";
 
-   $ampmi = 0;
-   ($sec,$min,$hour,$mday,$mon,$year,$wday,$yday,$isdst)=localtime;
-   if ($hour == 12) {$ampmi = 1}
-   if ($hour > 12) {$ampmi = 1; $hour = $hour - 12}
-   $thisyear = $year+1900;
-   printf "%0.2d:%0.2d ", $hour, $min;
-   print $ampm[$ampmi],"  ",$days[$wday]," ",$months[$mon];
-   print " ",$mday,", ",$thisyear, " Pacific Time\n";
+    $ampmi = 0;
+    ( $sec, $min, $hour, $mday, $mon, $year, $wday, $yday, $isdst ) = localtime;
+    if ( $hour == 12 ) { $ampmi = 1 }
+    if ( $hour > 12 )  { $ampmi = 1; $hour = $hour - 12 }
+    $thisyear = $year + 1900;
+    printf "%0.2d:%0.2d ", $hour, $min;
+    print $ampm[$ampmi], "  ", $days[$wday], " ", $months[$mon];
+    print " ", $mday, ", ", $thisyear, " Pacific Time\n";
 }
 
 sub CreateSlopeFile {
 
-# create slope file from specified geometry
+    # create slope file from specified geometry
 
-   $top_slope1 = $ofe1_top_slope / 100;
-   $mid_slope1 = $ofe1_mid_slope / 100;
-   $mid_slope2 = $ofe2_mid_slope / 100;
-   $bot_slope2 = $ofe2_bot_slope / 100;
-   $avg_slope = ($mid_slope1 + $mid_slope2) / 2;
-   $ofe_width=100 if $ofe_area == 0;
-   open (SlopeFile, ">".$slopeFile);
+    $top_slope1 = $ofe1_top_slope / 100;
+    $mid_slope1 = $ofe1_mid_slope / 100;
+    $mid_slope2 = $ofe2_mid_slope / 100;
+    $bot_slope2 = $ofe2_bot_slope / 100;
+    $avg_slope  = ( $mid_slope1 + $mid_slope2 ) / 2;
+    $ofe_width  = 100 if $ofe_area == 0;
+    open( SlopeFile, ">" . $slopeFile );
 
-     print SlopeFile "97.3\n";           # datver
-     print SlopeFile "#\n# Slope file generated for Disturbed WEPP\n#\n";
-     print SlopeFile "2\n";              # no. OFE
-     print SlopeFile "100 $ofe_width\n";        # aspect; representative profile width
-                                         # OFE 1 (upper)
-     printf SlopeFile "%d  %.2f\n",   3  ,$ofe1_length;   # no. points, length
-     printf SlopeFile "%.2f, %.2f  ", 0  ,$top_slope1;    # dx, gradient
-     printf SlopeFile "%.2f, %.2f  ", 0.5,$mid_slope1;    # dx, gradient
-     printf SlopeFile "%.2f, %.2f\n", 1  ,$avg_slope;     # dx, gradient
-                                   # OFE 2 (lower)
-     printf SlopeFile "%d  %.2f\n",   3,   $ofe2_length;  # no. points, length
-     printf SlopeFile "%.2f, %.2f  ", 0,   $avg_slope;    # dx, gradient
-     printf SlopeFile "%.2f, %.2f  ", 0.5, $mid_slope2;   # dx, gradient
-     printf SlopeFile "%.2f, %.2f\n", 1,   $bot_slope2;   # dx, gradient
+    print SlopeFile "97.3\n";                              # datver
+    print SlopeFile "#\n# Slope file generated for Disturbed WEPP\n#\n";
+    print SlopeFile "2\n";                # no. OFE
+    print SlopeFile "100 $ofe_width\n";   # aspect; representative profile width
+                                          # OFE 1 (upper)
+    printf SlopeFile "%d  %.2f\n",   3,   $ofe1_length;    # no. points, length
+    printf SlopeFile "%.2f, %.2f  ", 0,   $top_slope1;     # dx, gradient
+    printf SlopeFile "%.2f, %.2f  ", 0.5, $mid_slope1;     # dx, gradient
+    printf SlopeFile "%.2f, %.2f\n", 1,   $avg_slope;      # dx, gradient
+                                                           # OFE 2 (lower)
+    printf SlopeFile "%d  %.2f\n",   3,   $ofe2_length;    # no. points, length
+    printf SlopeFile "%.2f, %.2f  ", 0,   $avg_slope;      # dx, gradient
+    printf SlopeFile "%.2f, %.2f  ", 0.5, $mid_slope2;     # dx, gradient
+    printf SlopeFile "%.2f, %.2f\n", 1,   $bot_slope2;     # dx, gradient
 
-   close SlopeFile;
-   return $slopeFile;
- }
+    close SlopeFile;
+    return $slopeFile;
+}
 
 sub CreateManagementFile {
 
-     $climatePar = $CL . '.par';
-     &getAnnualPrecip;			# open .par file and calculate annual precipitation
-     if ($debug) {print "Annual Precip: $ap_annual_precip mm<br>\n"}
+    $climatePar = $CL . '.par';
+    &getAnnualPrecip;    # open .par file and calculate annual precipitation
+    if ($debug) { print "Annual Precip: $ap_annual_precip mm<br>\n" }
 
-#  $treat1 = "skid";   $treat2 = "tree5";
+    #  $treat1 = "skid";   $treat2 = "tree5";
 
-   open MANFILE, ">$manFile";
+    open MANFILE, ">$manFile";
 
-   print MANFILE "97.3
+    print MANFILE "97.3
 #
 #\tCreated for Disturbed WEPP by wd.pl (v. $version)
 #\tNumbers by: Bill Elliot (USFS) et alia
@@ -1638,57 +1724,75 @@ $years2sim\t# (total) years in simulation
 
 ";
 
-   open PS1, "<data/$treat1.wps";      # WEPP plant scenario
-#  read 14 lines (base 0); line 9 entry 2 will change (biomass) as f(climate)
+    open PS1, "<data/$treat1.wps";    # WEPP plant scenario
+
+   #  read 14 lines (base 0); line 9 entry 2 will change (biomass) as f(climate)
 
 #  $beinp is biomass energy ratio (real ~ 0 to 1000): plant scenario 7.3 (p. 33)
 #  the following equation relates biomass ratio to cover (whole) percent and precipitation in mm
 #  from work December 1999 by W.J. Elliot unpublished.
 
-#   ($ofe1_pcover > 100) ? $pcover = 100 : $pcover = $ofe1_pcover;
-   $pcover = $ofe1_pcover;	# decided not to limit input cover to 100%; use whatever is entered (for now)
-   $precip_cap = 450;		# max precip in mm to put into biomass equation (curve flattens out)
-   ($ap_annual_precip < $precip_cap) ? $capped_precip = $ap_annual_precip : $capped_precip = $precip_cap;
-   $beinp = sprintf "%.1f", 8.17 * exp(0.031 * $pcover - 0.0023 * $capped_precip);
+    #   ($ofe1_pcover > 100) ? $pcover = 100 : $pcover = $ofe1_pcover;
+    $pcover = $ofe1_pcover
+      ; # decided not to limit input cover to 100%; use whatever is entered (for now)
+    $precip_cap =
+      450;  # max precip in mm to put into biomass equation (curve flattens out)
+    ( $ap_annual_precip < $precip_cap )
+      ? $capped_precip = $ap_annual_precip
+      : $capped_precip = $precip_cap;
+    $beinp = sprintf "%.1f",
+      8.17 * exp( 0.031 * $pcover - 0.0023 * $capped_precip );
 
-   while (<PS1>) {
-    if (/beinp/) {				# read file search for token to replace with value
-       $index_beinp = index($_,'beinp');		# where does token start?
-       $wps_left = substr($_,0,$index_beinp);		# grab stuff to left of token
-       $wps_right = substr($_,$index_beinp+5);		# grab stuff to right of token end
-       $_ = $wps_left . $beinp . $wps_right;		# stuff value inbetween the two ends
-       if ($debug) {print "<b>wps1:</b><br>
+    while (<PS1>) {
+        if (/beinp/) {    # read file search for token to replace with value
+            $index_beinp = index( $_, 'beinp' );    # where does token start?
+            $wps_left =
+              substr( $_, 0, $index_beinp );    # grab stuff to left of token
+            $wps_right =
+              substr( $_, $index_beinp + 5 ); # grab stuff to right of token end
+            $_ =
+                $wps_left
+              . $beinp
+              . $wps_right;    # stuff value inbetween the two ends
+            if ($debug) {
+                print "<b>wps1:</b><br>
                            pcover: $pcover<br>
-                           beinp: $beinp<br><pre> $_<br>\n"}
+                           beinp: $beinp<br><pre> $_<br>\n";
+            }
+        }
+        print MANFILE $_;    # print line to management file
     }
-    print MANFILE $_;				# print line to management file
-   }
-   close PS1;
+    close PS1;
 
-   open PS2, "<data/$treat2.wps";
-#  read 14 lines (base 0); line 9 entry 2 will change (biomass) as f(climate)
+    open PS2, "<data/$treat2.wps";
 
-#   ($ofe2_pcover > 100)? $pcover = 100 : $pcover = $ofe2_pcover;
-   $pcover = $ofe2_pcover;
-   ($ap_annual_precip < $precip_cap) ? $capped_precip = $ap_annual_precip : $capped_precip = $precip_cap;
-   $beinp = sprintf "%.1f", 8.17 * exp(0.031 * $pcover - 0.0023 * $capped_precip);;
+   #  read 14 lines (base 0); line 9 entry 2 will change (biomass) as f(climate)
 
-   while (<PS2>) {
-    if (/beinp/) {
-       $index_beinp = index($_,'beinp');
-       $wps_left = substr($_,0,$index_beinp);
-       $wps_right = substr($_,$index_beinp+5);
-       $_ = $wps_left . $beinp . $wps_right;
-       if ($debug) {print "</pre><b>wps2:</b><br>
+    #   ($ofe2_pcover > 100)? $pcover = 100 : $pcover = $ofe2_pcover;
+    $pcover = $ofe2_pcover;
+    ( $ap_annual_precip < $precip_cap )
+      ? $capped_precip = $ap_annual_precip
+      : $capped_precip = $precip_cap;
+    $beinp = sprintf "%.1f",
+      8.17 * exp( 0.031 * $pcover - 0.0023 * $capped_precip );
+
+    while (<PS2>) {
+        if (/beinp/) {
+            $index_beinp = index( $_, 'beinp' );
+            $wps_left    = substr( $_, 0, $index_beinp );
+            $wps_right   = substr( $_, $index_beinp + 5 );
+            $_           = $wps_left . $beinp . $wps_right;
+            if ($debug) {
+                print "</pre><b>wps2:</b><br>
                            pcover: $pcover<br>
-                           beinp: $beinp<br><pre> $_<br>\n"}
+                           beinp: $beinp<br><pre> $_<br>\n";
+            }
+        }
+        print MANFILE $_;
     }
-    print MANFILE $_;
-   }
-   close PS2;
+    close PS2;
 
-   print MANFILE 
-"#####################
+    print MANFILE "#####################
 # Operation Section #
 #####################
 
@@ -1706,61 +1810,62 @@ $years2sim\t# (total) years in simulation
 #  $rilcov is initial rill cover (real 0-1): initial conditions 9.3 (p. 37)
 #  December 1999 by W.J. Elliot unpublished.
 
-   ($ofe1_pcover > 100)? $pcover = 100 : $pcover = $ofe1_pcover;
-   $inrcov = sprintf "%.2f", $pcover/100;
-   $rilcov = $inrcov;
+    ( $ofe1_pcover > 100 ) ? $pcover = 100 : $pcover = $ofe1_pcover;
+    $inrcov = sprintf "%.2f", $pcover / 100;
+    $rilcov = $inrcov;
 
-   open IC, "<data/$treat1.ics";        # Initial Conditions Scenario file
-#  read 14 lines (base 0); change line 8 values 1 and 5; line 11 value 2
+    open IC, "<data/$treat1.ics";    # Initial Conditions Scenario file
 
-   while (<IC>) {
-     if (/iresd/) {substr ($_,0,1) = "1"}
-     if (/inrcov/) {
-       $index_pos = index($_,'inrcov');
-       $ics_left = substr($_,0,$index_pos);
-       $ics_right = substr($_,$index_pos+6);
-       $_ = $ics_left . $inrcov . $ics_right;
-       if ($debug) {print "<b>ics1:</b><br>$_<br>\n"}
-     }
-     if (/rilcov/) {
-       $index_pos = index($_,'rilcov');
-       $ics_left = substr($_,0,$index_pos);
-       $ics_right = substr($_,$index_pos+6);
-       $_ = $ics_left . $rilcov . $ics_right;
-       if ($debug) {print "$_<br>\n"}
-     }
-     print MANFILE $_;
-   }
-   close IC;
+    #  read 14 lines (base 0); change line 8 values 1 and 5; line 11 value 2
 
-   ($ofe2_pcover > 100)? $pcover = 100 : $pcover = $ofe2_pcover;
-   $inrcov = sprintf "%.2f", $pcover/100;
-   $rilcov = $inrcov;
+    while (<IC>) {
+        if (/iresd/) { substr( $_, 0, 1 ) = "1" }
+        if (/inrcov/) {
+            $index_pos = index( $_, 'inrcov' );
+            $ics_left  = substr( $_, 0, $index_pos );
+            $ics_right = substr( $_, $index_pos + 6 );
+            $_         = $ics_left . $inrcov . $ics_right;
+            if ($debug) { print "<b>ics1:</b><br>$_<br>\n" }
+        }
+        if (/rilcov/) {
+            $index_pos = index( $_, 'rilcov' );
+            $ics_left  = substr( $_, 0, $index_pos );
+            $ics_right = substr( $_, $index_pos + 6 );
+            $_         = $ics_left . $rilcov . $ics_right;
+            if ($debug) { print "$_<br>\n" }
+        }
+        print MANFILE $_;
+    }
+    close IC;
 
-   open IC, "<data/$treat2.ics";
-#  read 14 lines (base 0); change line 8 values 1 and 5; line 11 value 2
-   while (<IC>) {
-     if (/iresd/) {substr ($_,0,1) = "2"}
-     if (/inrcov/) {
-       $index_pos = index($_,'inrcov');
-       $ics_left = substr($_,0,$index_pos);
-       $ics_right = substr($_,$index_pos+6);
-       $_ = $ics_left . $inrcov . $ics_right;
-       if ($debug) {print "<b>ics2:</b><br>$_<br>\n"}
-     }
-     if (/rilcov/) {
-       $index_pos = index($_,'rilcov');
-       $ics_left = substr($_,0,$index_pos);
-       $ics_right = substr($_,$index_pos+6);
-       $_ = $ics_left . $rilcov . $ics_right;
-       if ($debug) {print "$_</pre><br>\n"}
-     }
-     print MANFILE $_;
-   }
-   close IC;
+    ( $ofe2_pcover > 100 ) ? $pcover = 100 : $pcover = $ofe2_pcover;
+    $inrcov = sprintf "%.2f", $pcover / 100;
+    $rilcov = $inrcov;
 
-   print MANFILE
-"###########################
+    open IC, "<data/$treat2.ics";
+
+    #  read 14 lines (base 0); change line 8 values 1 and 5; line 11 value 2
+    while (<IC>) {
+        if (/iresd/) { substr( $_, 0, 1 ) = "2" }
+        if (/inrcov/) {
+            $index_pos = index( $_, 'inrcov' );
+            $ics_left  = substr( $_, 0, $index_pos );
+            $ics_right = substr( $_, $index_pos + 6 );
+            $_         = $ics_left . $inrcov . $ics_right;
+            if ($debug) { print "<b>ics2:</b><br>$_<br>\n" }
+        }
+        if (/rilcov/) {
+            $index_pos = index( $_, 'rilcov' );
+            $ics_left  = substr( $_, 0, $index_pos );
+            $ics_right = substr( $_, $index_pos + 6 );
+            $_         = $ics_left . $rilcov . $ics_right;
+            if ($debug) { print "$_</pre><br>\n" }
+        }
+        print MANFILE $_;
+    }
+    close IC;
+
+    print MANFILE "###########################
 # Surface Effects Section #
 ###########################
 
@@ -1786,22 +1891,21 @@ $years2sim\t# (total) years in simulation
 
 ";
 
-   open YS, "<data/$treat1.ys";      # Yearly Scenario
-   while (<YS>) {
-     if (/itype/) {substr ($_,0,1) = "1"}
-     print MANFILE $_;
-   }
-   close YS;
+    open YS, "<data/$treat1.ys";    # Yearly Scenario
+    while (<YS>) {
+        if (/itype/) { substr( $_, 0, 1 ) = "1" }
+        print MANFILE $_;
+    }
+    close YS;
 
-   open YS, "<data/$treat2.ys";
-   while (<YS>) {
-     if (/itype/) {substr ($_,0,1) = "2"}
-     print MANFILE $_;
-   }
-   close YS;
+    open YS, "<data/$treat2.ys";
+    while (<YS>) {
+        if (/itype/) { substr( $_, 0, 1 ) = "2" }
+        print MANFILE $_;
+    }
+    close YS;
 
-   print MANFILE
-"######################
+    print MANFILE "######################
 # Management Section #
 ######################
 DISTWEPP
@@ -1815,8 +1919,8 @@ $years2sim\t# `nrots' - <rotation repeats..>
 1\t# `nyears' - <years in rotation>
 ";
 
-   for $i (1..$years2sim) {
-     print MANFILE "#
+    for $i ( 1 .. $years2sim ) {
+        print MANFILE "#
 #	Rotation $i : year $i to $i
 #
 \t1\t# `nycrop' - <plants/yr; Year of Rotation :  $i - OFE : 1>
@@ -1824,45 +1928,44 @@ $years2sim\t# `nrots' - <rotation repeats..>
 \t1\t# `nycrop' - <plants/yr; Year of Rotation :  $i - OFE : 2>
 \t\t2\t# `YEAR indx' - <$treat2>
 ";
-   }
-   close MANFILE;
+    }
+    close MANFILE;
 }
 
 sub CreateSoilFile {
 
-#  $soil = 'loam';
-#  $treat1 = $ofe1;   # 'short'
-#  $treat2 = $ofe2;   # 'tree5'
-   $fcover1 = $ofe1_pcover/100;
-   $fcover2 = $ofe2_pcover/100;
+    #  $soil = 'loam';
+    #  $treat1 = $ofe1;   # 'short'
+    #  $treat2 = $ofe2;   # 'tree5'
+    $fcover1 = $ofe1_pcover / 100;
+    $fcover2 = $ofe2_pcover / 100;
 
-# make outer_offset hash
+    # make outer_offset hash
 
-   $outer_offset = {};
-   $outer_offset{sand} = 5;
-   $outer_offset{silt} = 24;
-   $outer_offset{clay} = 43;
-   $outer_offset{loam} = 62;
+    $outer_offset       = {};
+    $outer_offset{sand} = 5;
+    $outer_offset{silt} = 24;
+    $outer_offset{clay} = 43;
+    $outer_offset{loam} = 62;
 
-# make inner_offset hash
+    # make inner_offset hash
 
-   $inner_offset = {};
-   $inner_offset{skid} = 0;
-   $inner_offset{high} = 2;
-   $inner_offset{low} = 4;
-   $inner_offset{short} = 6;
-   $inner_offset{tall} = 8;
-   $inner_offset{shrub} = 10;
-   $inner_offset{tree5} = 12;
-   $inner_offset{tree20} = 14;
+    $inner_offset         = {};
+    $inner_offset{skid}   = 0;
+    $inner_offset{high}   = 2;
+    $inner_offset{low}    = 4;
+    $inner_offset{short}  = 6;
+    $inner_offset{tall}   = 8;
+    $inner_offset{shrub}  = 10;
+    $inner_offset{tree5}  = 12;
+    $inner_offset{tree20} = 14;
 
-   $line_number1 = $outer_offset{$soil} + $inner_offset{$treat1};
-   $line_number2 = $outer_offset{$soil} + $inner_offset{$treat2};
+    $line_number1 = $outer_offset{$soil} + $inner_offset{$treat1};
+    $line_number2 = $outer_offset{$soil} + $inner_offset{$treat2};
 
-   open SOLFILE, ">$soilFile";
+    open SOLFILE, ">$soilFile";
 
-   print SOLFILE 
-"97.3
+    print SOLFILE "97.3
 #
 #      Created by 'wd.pl' (v $version)
 #      Numbers by: Bill Elliot (USFS)
@@ -1871,456 +1974,523 @@ Isn't the sky blue today?
  2    1
 ";
 
-   open SOILDB, "<data/soilbase";
-   for $i (1..$line_number1) {
-     $in = <SOILDB>;
-   }
-   chomp $in;
-    print SOLFILE $in,"\n";
+    open SOILDB, "<data/soilbase";
+    for $i ( 1 .. $line_number1 ) {
+        $in = <SOILDB>;
+    }
+    chomp $in;
+    print SOLFILE $in, "\n";
 
-   $in = <SOILDB>;
-$index_rfg = index($in,'rfg');
-$left = substr($in,0,$index_rfg);
-$right = substr ($in, $index_rfg+3);
-$in = $left . $ofe1_rock . $right;
+    $in        = <SOILDB>;
+    $index_rfg = index( $in, 'rfg' );
+    $left      = substr( $in, 0, $index_rfg );
+    $right     = substr( $in, $index_rfg + 3 );
+    $in        = $left . $ofe1_rock . $right;
 
-   print SOLFILE $in;
-   close SOILDB;
+    print SOLFILE $in;
+    close SOILDB;
 
-   open SOILDB, "<data/soilbase";
-   for $i (1..$line_number2) {
-     $in = <SOILDB>;
-   }
-   chomp $in;
-    print SOLFILE $in,"\n";
-   $in = <SOILDB>;
-$index_rfg = index($in,'rfg');
-$left = substr($in,0,$index_rfg);
-$right = substr ($in, $index_rfg+3);
-$in = $left . $ofe2_rock . $right;
+    open SOILDB, "<data/soilbase";
+    for $i ( 1 .. $line_number2 ) {
+        $in = <SOILDB>;
+    }
+    chomp $in;
+    print SOLFILE $in, "\n";
+    $in        = <SOILDB>;
+    $index_rfg = index( $in, 'rfg' );
+    $left      = substr( $in, 0, $index_rfg );
+    $right     = substr( $in, $index_rfg + 3 );
+    $in        = $left . $ofe2_rock . $right;
 
-   print SOLFILE $in;
-   close SOILDB;
-   close SOLFILE;
+    print SOLFILE $in;
+    close SOILDB;
+    close SOLFILE;
 }
 
 sub CreateResponseFile {
 
-   open (ResponseFile, ">" . $responseFile);
-     print ResponseFile "98.4\n";        # datver
-     print ResponseFile "y\n";           # not watershed
-     print ResponseFile "1\n";           # 1 = continuous
-     print ResponseFile "1\n";           # 1 = hillslope
-     print ResponseFile "n\n";           # hillsplope pass file out?
-     if (lc($action) =~ /vegetation/) {
-       print ResponseFile "1\n";           # 1 = annual; abbreviated
-     }
-     else {
-       print ResponseFile "2\n";           # 2 = annual; detailed
-     }
-     print ResponseFile "n\n";           # initial conditions file?
-     print ResponseFile $outputFile,"\n";  # soil loss output file
-     print ResponseFile "n\n";           # water balance output?
-     if (lc($action) =~ /vegetation/) {
-       print ResponseFile "y\n";           # crop output?
-       print ResponseFile $cropFile,"\n";  # crop output file name
-     }
-     else {
-       print ResponseFile "n\n";           # crop output?
-     }
-     print ResponseFile "n\n";           # soil output?
-     print ResponseFile "n\n";           # distance/sed loss output?
-     print ResponseFile "n\n";           # large graphics output?
-     print ResponseFile "n\n";           # event-by-event out?
-     print ResponseFile "n\n";           # element output?
-     print ResponseFile "n\n";           # final summary out?
-     print ResponseFile "n\n";           # daily winter out?
-     print ResponseFile "n\n";           # plant yield out?
-     print ResponseFile "$manFile\n";      # management file name
-     print ResponseFile "$slopeFile\n";          # slope file name
-     print ResponseFile "$climateFile\n";        # climate file name
-     print ResponseFile "$soilFile\n";           # soil file name
-     print ResponseFile "0\n";           # 0 = no irrigation
-     print ResponseFile "$years2sim\n";         # no. years to simulate
-     print ResponseFile "0\n";           # 0 = route all events
+    open( ResponseFile, ">" . $responseFile );
+    print ResponseFile "98.4\n";    # datver
+    print ResponseFile "y\n";       # not watershed
+    print ResponseFile "1\n";       # 1 = continuous
+    print ResponseFile "1\n";       # 1 = hillslope
+    print ResponseFile "n\n";       # hillsplope pass file out?
+    if ( lc($action) =~ /vegetation/ ) {
+        print ResponseFile "1\n";    # 1 = annual; abbreviated
+    }
+    else {
+        print ResponseFile "2\n";    # 2 = annual; detailed
+    }
+    print ResponseFile "n\n";                # initial conditions file?
+    print ResponseFile $outputFile, "\n";    # soil loss output file
+    print ResponseFile "n\n";                # water balance output?
+    if ( lc($action) =~ /vegetation/ ) {
+        print ResponseFile "y\n";              # crop output?
+        print ResponseFile $cropFile, "\n";    # crop output file name
+    }
+    else {
+        print ResponseFile "n\n";              # crop output?
+    }
+    print ResponseFile "n\n";               # soil output?
+    print ResponseFile "n\n";               # distance/sed loss output?
+    print ResponseFile "n\n";               # large graphics output?
+    print ResponseFile "n\n";               # event-by-event out?
+    print ResponseFile "n\n";               # element output?
+    print ResponseFile "n\n";               # final summary out?
+    print ResponseFile "n\n";               # daily winter out?
+    print ResponseFile "n\n";               # plant yield out?
+    print ResponseFile "$manFile\n";        # management file name
+    print ResponseFile "$slopeFile\n";      # slope file name
+    print ResponseFile "$climateFile\n";    # climate file name
+    print ResponseFile "$soilFile\n";       # soil file name
+    print ResponseFile "0\n";               # 0 = no irrigation
+    print ResponseFile "$years2sim\n";      # no. years to simulate
+    print ResponseFile "0\n";               # 0 = route all events
 
-   close ResponseFile;
-   return $responseFile;
+    close ResponseFile;
+    return $responseFile;
 }
 
 sub checkInput {
 
-   $rc = '';
-   if ($CL eq "") {$rc .= "No climate selected<br>\n"}
-   if ($soil ne "sand" && $soil ne "silt" && $soil ne "clay" && $soil ne "loam")
-       {$rc .= "Invalid soil: ".$soil."<br>\n"}
-#  if ($treat1 ne "skid" && $treat1 ne "high" && $treat1 ne "low"
-#      && $treat1 ne "short" && $treat1 ne "tall" && $treat1 ne "shrub"
-#      && $treat1 ne "tree5" && $treat1 ne "tree20")
-   if ($treatments{$treat1} eq "")
-      {$rc .= "Invalid upper treatment: ".$treat1."<br>\n"}
-   if ($treatments{$treat2} eq "")
-      {$rc .= "Invalid lower treatment: ".$treat2."<br>\n"}
-   if ($units eq 'm') {
-     if ($ofe1_length < 0 || $ofe1_length > 3000)
-        {$rc .= "Invalid upper length; range 0 to 3000 m<br>\n"}
-     if ($ofe2_length < 0 || $ofe2_length > 3000)
-        {$rc .= "Invalid lower length; range 0 to 3000 m<br>\n"}
-   }
-   else {
-     if ($ofe1_length < 0 || $ofe1_length > 9000)
-        {$rc .= "Invalid upper length; range 0 to 9000 ft<br>\n"}
-     if ($ofe2_length < 0 || $ofe2_length > 9000)
-        {$rc .= "Invalid lower length; range 0 to 9000 ft<br>\n"}
-   }
-   if ($ofe1_top_slope < 0 || $ofe1_top_slope > 1000)
-      {$rc .= "Invalid upper top gradient; range 0 to 1000 %<br>\n"}
-   if ($ofe1_mid_slope < 0 || $ofe1_mid_slope > 1000)
-      {$rc .= "Invalid upper mid gradient; range 0 to 1000 %<br>\n"}
-   if ($ofe2_mid_slope < 0 || $ofe2_mid_slope > 1000)
-      {$rc .= "Invalid lower mid gradient; range 0 to 1000 %<br>\n"}
-   if ($ofe2_bot_slope < 0 || $ofe2_bot_slope > 1000)
-      {$rc .= "Invalid lower toe gradient; range 0 to 1000 %<br>\n"}
-#   if ($ofe1_pcover < 0 || $ofe1_pcover > 100)
-#      {$rc .= "Invalid upper percent cover; range 0 to 100 %<br>\n"}
-#   if ($ofe2_pcover < 0 || $ofe2_pcover > 100)
-#      {$rc .= "Invalid lower percent cover; range 0 to 100 %<br>\n"}
-   if ($rc ne '') {$rc = '<font color="red"><b>' . $rc . "</b></font>\n"}
-   return $rc;
+    $rc = '';
+    if ( $CL eq "" ) { $rc .= "No climate selected<br>\n" }
+    if (   $soil ne "sand"
+        && $soil ne "silt"
+        && $soil ne "clay"
+        && $soil ne "loam" )
+    {
+        $rc .= "Invalid soil: " . $soil . "<br>\n";
+    }
+
+    #  if ($treat1 ne "skid" && $treat1 ne "high" && $treat1 ne "low"
+    #      && $treat1 ne "short" && $treat1 ne "tall" && $treat1 ne "shrub"
+    #      && $treat1 ne "tree5" && $treat1 ne "tree20")
+    if ( $treatments{$treat1} eq "" ) {
+        $rc .= "Invalid upper treatment: " . $treat1 . "<br>\n";
+    }
+    if ( $treatments{$treat2} eq "" ) {
+        $rc .= "Invalid lower treatment: " . $treat2 . "<br>\n";
+    }
+    if ( $units eq 'm' ) {
+        if ( $ofe1_length < 0 || $ofe1_length > 3000 ) {
+            $rc .= "Invalid upper length; range 0 to 3000 m<br>\n";
+        }
+        if ( $ofe2_length < 0 || $ofe2_length > 3000 ) {
+            $rc .= "Invalid lower length; range 0 to 3000 m<br>\n";
+        }
+    }
+    else {
+        if ( $ofe1_length < 0 || $ofe1_length > 9000 ) {
+            $rc .= "Invalid upper length; range 0 to 9000 ft<br>\n";
+        }
+        if ( $ofe2_length < 0 || $ofe2_length > 9000 ) {
+            $rc .= "Invalid lower length; range 0 to 9000 ft<br>\n";
+        }
+    }
+    if ( $ofe1_top_slope < 0 || $ofe1_top_slope > 1000 ) {
+        $rc .= "Invalid upper top gradient; range 0 to 1000 %<br>\n";
+    }
+    if ( $ofe1_mid_slope < 0 || $ofe1_mid_slope > 1000 ) {
+        $rc .= "Invalid upper mid gradient; range 0 to 1000 %<br>\n";
+    }
+    if ( $ofe2_mid_slope < 0 || $ofe2_mid_slope > 1000 ) {
+        $rc .= "Invalid lower mid gradient; range 0 to 1000 %<br>\n";
+    }
+    if ( $ofe2_bot_slope < 0 || $ofe2_bot_slope > 1000 ) {
+        $rc .= "Invalid lower toe gradient; range 0 to 1000 %<br>\n";
+    }
+
+    #   if ($ofe1_pcover < 0 || $ofe1_pcover > 100)
+    #      {$rc .= "Invalid upper percent cover; range 0 to 100 %<br>\n"}
+    #   if ($ofe2_pcover < 0 || $ofe2_pcover > 100)
+    #      {$rc .= "Invalid lower percent cover; range 0 to 100 %<br>\n"}
+    if ( $rc ne '' ) { $rc = '<font color="red"><b>' . $rc . "</b></font>\n" }
+    return $rc;
 }
 
 sub cropper {
 
-# average crop (.crp) file rill cover and live biomass
-#    by OFE  (ignoring spikes to zero?)
-#
-# Knuth: recurrent mean calculation is:
-#
-#   M(1) = x(1)
-#   M(k) = M(k-1) + (x(k)-M(k-1) / k
-#
-# (Seminumerical Methods, p. 232, Section 4.2.2, No. 15)
+    # average crop (.crp) file rill cover and live biomass
+    #    by OFE  (ignoring spikes to zero?)
+    #
+    # Knuth: recurrent mean calculation is:
+    #
+    #   M(1) = x(1)
+    #   M(k) = M(k-1) + (x(k)-M(k-1) / k
+    #
+    # (Seminumerical Methods, p. 232, Section 4.2.2, No. 15)
 
-   open CROP, "<" . $cropFile;
-   if ($debug) {print "Cropper: opening $cropFile<br>\n"}
-   # read 15 lines of headers
+    open CROP, "<" . $cropFile;
+    if ($debug) { print "Cropper: opening $cropFile<br>\n" }
 
-   for $line (1..15) {
-     $header = <CROP>
-   }
+    # read 15 lines of headers
 
-   $_ = <CROP>;
-#  chomp;
-   @fields = split ' ',$_;
-   $rillmean[1] = $fields[5];
-   $livebiomean[1] = $fields[8];
-   $_ = <CROP>;
-#  chomp;
-   @fields = split ' ',$_;
-   $rillmean[2] = $fields[5];
-   $livebiomean[2] = $fields[8];
-   $count = 1;
+    for $line ( 1 .. 15 ) {
+        $header = <CROP>;
+    }
 
-   while (<CROP>) {
-#    $record1 = <CROP>;
-     if ($_ eq "") {last}
-     $count += 1;
-#    chomp;
-     @fields = split ' ',$_;
-     $ofe = $fields[7];
-#    print "\n ",$fields[5],"  ",$fields[7],"  ",$fields[8];
-     $rillcover[$ofe] = $fields[5];
-     $livebiomass[$ofe] = $fields[8];
-     $rillmean[$ofe] += ($rillcover[$ofe]-$rillmean[$ofe]) / $count;
-     $livebiomean[$ofe] += ($livebiomass[$ofe]-$livebiomean[$ofe]) / $count;
-   }
-   close CROP;
+    $_ = <CROP>;
 
-#  print "<pre>\n";
-#  print "OFE 1   Mean rill cover =   ", $rillmean[1],"\n";
-#  print "        Mean live biomass = ",$livebiomean[1],"\n";
-#  print "OFE 2   Mean rill cover =   ", $rillmean[2],"\n";
-#  print "        Mean live biomass = ",$livebiomean[2],"\n";
-#  print "Count = ", $count;
-#  print "</pre>";
+    #  chomp;
+    @fields         = split ' ', $_;
+    $rillmean[1]    = $fields[5];
+    $livebiomean[1] = $fields[8];
+    $_              = <CROP>;
+
+    #  chomp;
+    @fields         = split ' ', $_;
+    $rillmean[2]    = $fields[5];
+    $livebiomean[2] = $fields[8];
+    $count          = 1;
+
+    while (<CROP>) {
+
+        #    $record1 = <CROP>;
+        if ( $_ eq "" ) { last }
+        $count += 1;
+
+        #    chomp;
+        @fields = split ' ', $_;
+        $ofe    = $fields[7];
+
+        #    print "\n ",$fields[5],"  ",$fields[7],"  ",$fields[8];
+        $rillcover[$ofe]   = $fields[5];
+        $livebiomass[$ofe] = $fields[8];
+        $rillmean[$ofe] += ( $rillcover[$ofe] - $rillmean[$ofe] ) / $count;
+        $livebiomean[$ofe] +=
+          ( $livebiomass[$ofe] - $livebiomean[$ofe] ) / $count;
+    }
+    close CROP;
+
+    #  print "<pre>\n";
+    #  print "OFE 1   Mean rill cover =   ", $rillmean[1],"\n";
+    #  print "        Mean live biomass = ",$livebiomean[1],"\n";
+    #  print "OFE 2   Mean rill cover =   ", $rillmean[2],"\n";
+    #  print "        Mean live biomass = ",$livebiomean[2],"\n";
+    #  print "Count = ", $count;
+    #  print "</pre>";
 
 }
 
 sub numerically { $b <=> $a }
 
-sub parsead {                       ############### parsead
+sub parsead {    ############### parsead
 
-   $dailyannual = "<" . $outputFile;
-#   if ($debug) {print "\nParsead: opening $outputFile<br>\n"}
-   open AD, $dailyannual;
-   $_ = <AD>;
+    $dailyannual = "<" . $outputFile;
 
-   if (/Annual; detailed/) {    # Good file
-     for $i (2..8) {$_ = <AD>}
-#    if (/VERSION *([0-9.]+)/) {$version = $1}
-#    print "\n", $version,"\n";
+    #   if ($debug) {print "\nParsead: opening $outputFile<br>\n"}
+    open AD, $dailyannual;
+    $_ = <AD>;
 
-#======================== yearly precip and runoff events and amounts
+    if (/Annual; detailed/) {    # Good file
+        for $i ( 2 .. 8 ) { $_ = <AD> }
 
-#    print "</center><pre>\n";
-#    print "    \t       \t       \t storm \t storm \t melt  \t melt\n";
-#    print "    \t precip\t precip\t runoff\t runoff\t runoff\t runoff\n";
-#    print "year\t events\t amount\t events\t amount\t events\t amount\n\n";
-     while (<AD>) {
-       if (/year: *([0-9]+)/) {
-         $year = $1;
-#        print $year,"  ";
-         for $i (1..6) {$_ = <AD>}
-         ($pcpe[$year], $pcpa[$year], $sre[$year], $sra[$year], $mre[$year], $mra[$year]) = split ' ',$_;
+        #    if (/VERSION *([0-9.]+)/) {$version = $1}
+        #    print "\n", $version,"\n";
+
+        #======================== yearly precip and runoff events and amounts
+
+    #    print "</center><pre>\n";
+    #    print "    \t       \t       \t storm \t storm \t melt  \t melt\n";
+    #    print "    \t precip\t precip\t runoff\t runoff\t runoff\t runoff\n";
+    #    print "year\t events\t amount\t events\t amount\t events\t amount\n\n";
+        while (<AD>) {
+            if (/year: *([0-9]+)/) {
+                $year = $1;
+
+                #        print $year,"  ";
+                for $i ( 1 .. 6 ) { $_ = <AD> }
+                (
+                    $pcpe[$year], $pcpa[$year], $sre[$year],
+                    $sra[$year],  $mre[$year],  $mra[$year]
+                ) = split ' ', $_;
+
 #        print "\t",$pcpe[$year],"\t",$pcpa[$year],"\t",$sre[$year],"\t",$sra[$year],"\t",$mre[$year],"\t",$mra[$year],"\n";
-         $re[$year] = $sre[$year] + $mre[$year];
-         $ra[$year] = $sra[$year] + $mra[$year];
-       }
-     }
-     close AD;
+                $re[$year] = $sre[$year] + $mre[$year];
+                $ra[$year] = $sra[$year] + $mra[$year];
+            }
+        }
+        close AD;
 
-#======================== yearly sediment leaving profile
+        #======================== yearly sediment leaving profile
 
-     open AD, $dailyannual;
-#    print "\nyear\tSediment\n\tleaving\n\tprofile\n\n";
-     while (<AD>) {
-       if (/SEDIMENT LEAVING PROFILE for year *([0-9]+) *([0-9.]+)/) {
-         $year = $1;
-         $sed_del[$year] = $2;
-#       print "$year\t$sed_del[$year]\n";
-       }
-     }
-     close AD;
+        open AD, $dailyannual;
 
-#====== Net detachment (not all years are represented; final is an average)
+        #    print "\nyear\tSediment\n\tleaving\n\tprofile\n\n";
+        while (<AD>) {
+            if (/SEDIMENT LEAVING PROFILE for year *([0-9]+) *([0-9.]+)/) {
+                $year = $1;
+                $sed_del[$year] = $2;
 
-     open AD, $dailyannual;
-#    print "\nArea of net soil loss\n\n";
-     $detcount = 0;
-     while (<AD>) {
-#      if (/Net Detachment *([A-Za-z.( )=]+) *([0-9.]+)/) {
-       if (/Net Detachment *([A-Za-z( )=]+) *([0-9.]+)/) {
-         $detachx[$detcount] = $2;
-#        print "$detachx[$detcount]\n";
-         $detcount += 1;
-       }
-     }
-     $detcount -= 1;
-     $avg_det = $detachx[$detcount];
-     $detcount -= 1;
-     for $looper (0..$detcount) {$detach[$looper] = $detachx[$looper]};
-     close AD;
+                #       print "$year\t$sed_del[$year]\n";
+            }
+        }
+        close AD;
 
-#===================== Mean annual values for various parameters
+     #====== Net detachment (not all years are represented; final is an average)
 
-     open AD, $dailyannual;
-     while (<AD>) {
-       if (/Mean annual precipitation *([0-9.]+)/) {
-         $avg_pcp = $1;
-#        print "\n\nAverage annual precip: $avg_pcp\n";
-         $_ = <AD>;
-         if (/Mean annual runoff from rainfall *([0-9.]+)/) {
-           $avg_rro = $1;
-#          print "Average annual runoff from rainfall: $avg_rro\n";
-         }
-         $_ = <AD>;
-         $_ = <AD>;
-         if (/rain storm during winter *([0-9.]+)/) {
-           $avg_sro = $1;
-#          print "Average annual runoff from snowmelt: $avg_sro\n";
-         }
-       }
-       if (/AVERAGE ANNUAL SEDIMENT LEAVING PROFILE/) {
-#        print $_;
-         if (/AVERAGE ANNUAL SEDIMENT LEAVING PROFILE *([0-9.]+)/) {  # WEPP pre-98.4
-           $avg_sed = $1;
-         }
-         else {   # WEPP 98.4
-           $_ = <AD>;  # print;
-           if (/ *([0-9.]+)/) {$avg_sed = $1}
-         }
-#        print "Average sediment delivery = $avg_sed\n";
-       }
-     }
-     close AD;
+        open AD, $dailyannual;
 
-     @pcpa = sort numerically @pcpa;
-#    print @pcpa,"\n";
-     @ra = sort numerically @ra;
-#    print @ra,"\n";
-     @detach = sort numerically @detach;
-#    print @detach,"\n";
-     @sed_del = sort numerically @sed_del;
-#    print @sed_del,"\n";
+        #    print "\nArea of net soil loss\n\n";
+        $detcount = 0;
+        while (<AD>) {
 
-     $nnzpcp=0;
-     $nnzra=0;
-     $nnzdetach=0;
-     $nnzsed_del=0;
-     foreach $elem (@pcpa) {$nnzpcp += 1 if ($elem*1 != 0)}
-     foreach $elem (@ra) {$nnzra += 1 if ($elem*1 != 0)}
-     foreach $elem (@detach) {$nnzdetach += 1 if ($elem*1 != 0)}
-     foreach $elem (@sed_del) {$nnzsed_del += 1 if ($elem*1 != 0)}
-     $nzpcp = $simyears-$nnzpcp;
-     $nzra = $simyears-$nnzra;			$omnzra=1-$nzra;
-     $nzdetach = $simyears-$nnzdetach;		$omnzdetach=1-$nzdetach;
-     $nzsed_del = $simyears-$nnzsed_del;	$omnzsed_del=1-$nzsed_del;
+            #      if (/Net Detachment *([A-Za-z.( )=]+) *([0-9.]+)/) {
+            if (/Net Detachment *([A-Za-z( )=]+) *([0-9.]+)/) {
+                $detachx[$detcount] = $2;
 
-     $avg_ro = $avg_rro + $avg_sro;
-     #print $year;
-     #print "\n================================\n";
-     #print "\t precip\trunoff\terosion\tsed\n\n";
-     # print "#(x=0)\t pcp= $nnzpcp\t sra= $nnzra\t det= $nnzdetach\t sed_del= $nnzsed_del\n";
-     # print "#(x=0)\t pcp= $nzpcp\t sra= $nzra\t det= $nzdetach\t sed_del= $nzsed_del\n";
-     #print "p(x=0)\t",($nzpcp)/$year,
-     #            "\t",($nzra)/$year,
-     #            "\t",($nzdetach)/$year,
-     #            "\t",($nzsed_del)/$year,"\n";
-     #print "Average $avg_pcp\t$avg_ro\t$avg_det\t$avg_sed\n";
-     #print "return\nperiod\n";
-     #print "100\t$pcpa[0]\t$ra[0]\t$detach[0]\t$sed_del[0]\n";    # 1
-     #print " 50\t$pcpa[1]\t$ra[1]\t$detach[1]\t$sed_del[1]\n";    # 2
-     #print " 20\t$pcpa[4]\t$ra[4]\t$detach[4]\t$sed_del[4]\n";    # 5
-     #print " 10\t$pcpa[9]\t$ra[9]\t$detach[9]\t$sed_del[9]\n";    # 10
-     #print "  5\t$pcpa[19]\t$ra[19]\t$detach[19]\t$sed_del[19]\n";    # 20
-     #print "</pre><center>\n";
+                #        print "$detachx[$detcount]\n";
+                $detcount += 1;
+            }
+        }
+        $detcount -= 1;
+        $avg_det = $detachx[$detcount];
+        $detcount -= 1;
+        for $looper ( 0 .. $detcount ) { $detach[$looper] = $detachx[$looper] }
+        close AD;
+
+        #===================== Mean annual values for various parameters
+
+        open AD, $dailyannual;
+        while (<AD>) {
+            if (/Mean annual precipitation *([0-9.]+)/) {
+                $avg_pcp = $1;
+
+                #        print "\n\nAverage annual precip: $avg_pcp\n";
+                $_ = <AD>;
+                if (/Mean annual runoff from rainfall *([0-9.]+)/) {
+                    $avg_rro = $1;
+
+             #          print "Average annual runoff from rainfall: $avg_rro\n";
+                }
+                $_ = <AD>;
+                $_ = <AD>;
+                if (/rain storm during winter *([0-9.]+)/) {
+                    $avg_sro = $1;
+
+             #          print "Average annual runoff from snowmelt: $avg_sro\n";
+                }
+            }
+            if (/AVERAGE ANNUAL SEDIMENT LEAVING PROFILE/) {
+
+                #        print $_;
+                if (/AVERAGE ANNUAL SEDIMENT LEAVING PROFILE *([0-9.]+)/)
+                {    # WEPP pre-98.4
+                    $avg_sed = $1;
+                }
+                else {    # WEPP 98.4
+                    $_ = <AD>;    # print;
+                    if (/ *([0-9.]+)/) { $avg_sed = $1 }
+                }
+
+                #        print "Average sediment delivery = $avg_sed\n";
+            }
+        }
+        close AD;
+
+        @pcpa = sort numerically @pcpa;
+
+        #    print @pcpa,"\n";
+        @ra = sort numerically @ra;
+
+        #    print @ra,"\n";
+        @detach = sort numerically @detach;
+
+        #    print @detach,"\n";
+        @sed_del = sort numerically @sed_del;
+
+        #    print @sed_del,"\n";
+
+        $nnzpcp     = 0;
+        $nnzra      = 0;
+        $nnzdetach  = 0;
+        $nnzsed_del = 0;
+        foreach $elem (@pcpa)    { $nnzpcp     += 1 if ( $elem * 1 != 0 ) }
+        foreach $elem (@ra)      { $nnzra      += 1 if ( $elem * 1 != 0 ) }
+        foreach $elem (@detach)  { $nnzdetach  += 1 if ( $elem * 1 != 0 ) }
+        foreach $elem (@sed_del) { $nnzsed_del += 1 if ( $elem * 1 != 0 ) }
+        $nzpcp       = $simyears - $nnzpcp;
+        $nzra        = $simyears - $nnzra;
+        $omnzra      = 1 - $nzra;
+        $nzdetach    = $simyears - $nnzdetach;
+        $omnzdetach  = 1 - $nzdetach;
+        $nzsed_del   = $simyears - $nnzsed_del;
+        $omnzsed_del = 1 - $nzsed_del;
+
+        $avg_ro = $avg_rro + $avg_sro;
+
+#print $year;
+#print "\n================================\n";
+#print "\t precip\trunoff\terosion\tsed\n\n";
+# print "#(x=0)\t pcp= $nnzpcp\t sra= $nnzra\t det= $nnzdetach\t sed_del= $nnzsed_del\n";
+# print "#(x=0)\t pcp= $nzpcp\t sra= $nzra\t det= $nzdetach\t sed_del= $nzsed_del\n";
+#print "p(x=0)\t",($nzpcp)/$year,
+#            "\t",($nzra)/$year,
+#            "\t",($nzdetach)/$year,
+#            "\t",($nzsed_del)/$year,"\n";
+#print "Average $avg_pcp\t$avg_ro\t$avg_det\t$avg_sed\n";
+#print "return\nperiod\n";
+#print "100\t$pcpa[0]\t$ra[0]\t$detach[0]\t$sed_del[0]\n";    # 1
+#print " 50\t$pcpa[1]\t$ra[1]\t$detach[1]\t$sed_del[1]\n";    # 2
+#print " 20\t$pcpa[4]\t$ra[4]\t$detach[4]\t$sed_del[4]\n";    # 5
+#print " 10\t$pcpa[9]\t$ra[9]\t$detach[9]\t$sed_del[9]\n";    # 10
+#print "  5\t$pcpa[19]\t$ra[19]\t$detach[19]\t$sed_del[19]\n";    # 20
+#print "</pre><center>\n";
 #==================
-   }		# if /Annual detailed/
-   else {
-     chomp;
-     s/^\s*(.*?)\s*$/$1/;
-     print "\nExpecting 'Annual; detailed' file; you gave me a '$_' file\n";
-   }
+    }    # if /Annual detailed/
+    else {
+        chomp;
+        s/^\s*(.*?)\s*$/$1/;
+        print "\nExpecting 'Annual; detailed' file; you gave me a '$_' file\n";
+    }
 }
 
 sub CreateCligenFile {
 
-# stuff what was working on PC but not on WHITEPINE
-
-   $climatePar = "$CL" . '.par';
-   $station = substr($CL, length($CL)-8);
-   $user_ID = 'getalife';
-   $outfile = $climateFile;
-
-   $climateFile = "$working\\$station.cli";
-   $outfile = $climateFile;
-   $rspfile = "$working\\" . $user_ID . ".rsp";
-   $stoutfile = "$working\\" . $user_ID . ".out";
-
-# end of stuff what was working
-
-# swupped from wr.pl which works on WHITEPINE -- still works on PC
+    # stuff what was working on PC but not on WHITEPINE
 
     $climatePar = "$CL" . '.par';
-#   $user_ID = 'getalife';
-    if ($platform eq 'pc') {
-      $station = substr($CL, length($CL)-8);
-      $climateFile = "$working\\$station.cli";
-      $outfile = $climateFile;
-      $rspfile = "$working\\cligen.rsp";
-      $stoutfile = "$working\\cligen.out";
-    } else {
-#     $user_ID = '';
-#     $climateFile = '..\\working' . "$station.cli";
-      $climateFile = "../working/$unique.cli";
-      $outfile = $climateFile;
-#     $rspfile = "../working/$user_ID.rsp";
-#     $stoutfile = "../working/$user_ID.out";
-      $rspfile = "../working/c$unique.rsp";
-      $stoutfile = "../working/c$unique.out";
+    $station    = substr( $CL, length($CL) - 8 );
+    $user_ID    = 'getalife';
+    $outfile    = $climateFile;
+
+    $climateFile = "$working\\$station.cli";
+    $outfile     = $climateFile;
+    $rspfile     = "$working\\" . $user_ID . ".rsp";
+    $stoutfile   = "$working\\" . $user_ID . ".out";
+
+    # end of stuff what was working
+
+    # swupped from wr.pl which works on WHITEPINE -- still works on PC
+
+    $climatePar = "$CL" . '.par';
+
+    #   $user_ID = 'getalife';
+    if ( $platform eq 'pc' ) {
+        $station     = substr( $CL, length($CL) - 8 );
+        $climateFile = "$working\\$station.cli";
+        $outfile     = $climateFile;
+        $rspfile     = "$working\\cligen.rsp";
+        $stoutfile   = "$working\\cligen.out";
+    }
+    else {
+        #     $user_ID = '';
+        #     $climateFile = '..\\working' . "$station.cli";
+        $climateFile = "../working/$unique.cli";
+        $outfile     = $climateFile;
+
+        #     $rspfile = "../working/$user_ID.rsp";
+        #     $stoutfile = "../working/$user_ID.out";
+        $rspfile   = "../working/c$unique.rsp";
+        $stoutfile = "../working/c$unique.out";
     }
 
-# end swup
+    # end swup
 
-   if ($debug) {print "[CreateCligenFile]<br>
+    if ($debug) {
+        print "[CreateCligenFile]<br>
 Arguments:    $args<br>
 ClimatePar:   $climatePar<br>
 ClimateFile:  $climateFile<br>
 OutputFile:   $outfile<br>
 ResponseFile: $rspfile<br>
 StandardOut:  $stoutfile<br>
-";}
+";
+    }
 
-#  run CLIGEN43 on verified user_id.par file to
-#  create user_id.cli file in FSWEPP working directory
-#  for specified # years.
+    #  run CLIGEN43 on verified user_id.par file to
+    #  create user_id.cli file in FSWEPP working directory
+    #  for specified # years.
 
-   $startyear = 1;
+    $startyear = 1;
 
-   open RSP, ">" . $rspfile;
-     print RSP "4.31\n";
-     print RSP $climatePar,"\n";
-     print RSP "n do not display file here\n";
-     print RSP "5 Multiple-year WEPP format\n";
-     print RSP $startyear,"\n";
-#  print RSP $years,"\n";
-     print RSP $years2sim,"\n";
-    print RSP $climateFile,"\n";
+    open RSP, ">" . $rspfile;
+    print RSP "4.31\n";
+    print RSP $climatePar, "\n";
+    print RSP "n do not display file here\n";
+    print RSP "5 Multiple-year WEPP format\n";
+    print RSP $startyear, "\n";
+
+    #  print RSP $years,"\n";
+    print RSP $years2sim,   "\n";
+    print RSP $climateFile, "\n";
     print RSP "n\n";
-   close RSP;
+    close RSP;
 
-   unlink $climateFile;   # erase previous climate file so's CLIGEN'll run
+    unlink $climateFile;    # erase previous climate file so's CLIGEN'll run
 
-    if ($platform eq 'pc') {
-       @args = ("..\\rc\\cligen43.exe <$rspfile >$stoutfile");
+    if ( $platform eq 'pc' ) {
+        @args = ("..\\rc\\cligen43.exe <$rspfile >$stoutfile");
     }
     else {
-#      @args = ("nice -20 ../rc/cligen43 <$rspfile >$stoutfile");
-       @args = ("../rc/cligen43 <$rspfile >$stoutfile");
+        #      @args = ("nice -20 ../rc/cligen43 <$rspfile >$stoutfile");
+        @args = ("../rc/cligen43 <$rspfile >$stoutfile");
     }
-   system @args;
+    system @args;
 
-   $cligen_version="version unknown";
-   open STOUT, "<$stoutfile";
-   while (<STOUT>) {
-     if (/VERSION/) {
-        $chomp;
-        $cligen_version = lc($_);
-        last;
-     }
-   }
-   close STOUT;
-#   print $cligen_version;
+    $cligen_version = "version unknown";
+    open STOUT, "<$stoutfile";
+    while (<STOUT>) {
+        if (/VERSION/) {
+            $chomp;
+            $cligen_version = lc($_);
+            last;
+        }
+    }
+    close STOUT;
 
-   unlink $rspfile;     #  "../working/c$unique.rsp"
-   unlink $stoutfile;   #  "../working/c$unique.out"
+    #   print $cligen_version;
+
+    unlink $rspfile;      #  "../working/c$unique.rsp"
+    unlink $stoutfile;    #  "../working/c$unique.out"
 
 }
 
 sub getAnnualPrecip {
 
-# in:  $climatePar
-# out: $ap_mean_precip
+    # in:  $climatePar
+    # out: $ap_mean_precip
 
     open PAR, "<$climatePar";
-      $line=<PAR>;                           # EPHRATA CAA AP WA                       452614 0
-if ($debug) {print $line,"<br>\n"}
-      $line=<PAR>;                           # LATT=  47.30 LONG=-119.53 YEARS= 44. TYPE= 3
-      $line=<PAR>;	# ELEVATION = 1260. TP5 = 0.86 TP6= 2.90
-      $line=<PAR>;	# MEAN P   0.10  0.10  0.11  0.10  0.11  0.14  0.14  0.09  0.10  0.10  0.12  0.12
-      @ap_mean_p_if = split ' ',$line; $ap_mean_p_base = 2;
-      $line=<PAR>;	# S DEV P  0.12  0.12  0.11  0.13  0.13  0.18  0.22  0.13  0.13  0.11  0.14  0.13
-      $line=<PAR>;	# SQEW  P  1.88  2.30  2.21  2.15  2.29  2.35  3.60  3.22  2.05  2.49  2.22  1.87
-      $line=<PAR>;	# P(W/W)   0.47  0.50  0.39  0.32  0.33  0.30  0.27  0.28  0.40  0.41  0.42  0.48
-      @ap_pww = split ' ',$line; $ap_pww_base = 1;
-      $line=<PAR>;	# P(W/D)   0.20  0.16  0.15  0.13  0.13  0.11  0.05  0.06  0.08  0.12  0.23  0.23
-      @ap_pwd = split ' ',$line; $ap_pwd_base=1;
+    $line = <PAR>;    # EPHRATA CAA AP WA                       452614 0
+    if ($debug) { print $line, "<br>\n" }
+    $line = <PAR>;    # LATT=  47.30 LONG=-119.53 YEARS= 44. TYPE= 3
+    $line = <PAR>;    # ELEVATION = 1260. TP5 = 0.86 TP6= 2.90
+    $line = <PAR>
+      ; # MEAN P   0.10  0.10  0.11  0.10  0.11  0.14  0.14  0.09  0.10  0.10  0.12  0.12
+    @ap_mean_p_if   = split ' ', $line;
+    $ap_mean_p_base = 2;
+    $line           = <PAR>
+      ; # S DEV P  0.12  0.12  0.11  0.13  0.13  0.18  0.22  0.13  0.13  0.11  0.14  0.13
+    $line = <PAR>
+      ; # SQEW  P  1.88  2.30  2.21  2.15  2.29  2.35  3.60  3.22  2.05  2.49  2.22  1.87
+    $line = <PAR>
+      ; # P(W/W)   0.47  0.50  0.39  0.32  0.33  0.30  0.27  0.28  0.40  0.41  0.42  0.48
+    @ap_pww      = split ' ', $line;
+    $ap_pww_base = 1;
+    $line        = <PAR>
+      ; # P(W/D)   0.20  0.16  0.15  0.13  0.13  0.11  0.05  0.06  0.08  0.12  0.23  0.23
+    @ap_pwd      = split ' ', $line;
+    $ap_pwd_base = 1;
     close PAR;
 
-    @ap_month_days=(31,28,31,30,31,30,31,31,30,31,30,31);
+    @ap_month_days = ( 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 );
 
-    $ap_units='m';
-#   $pcpunit='in';
-    for $ap_i (1..12) {
-      $ap_pw[$ap_i] = $ap_pwd[$ap_i] / (1 + $ap_pwd[$ap_i] - $ap_pww[$ap_i]);
+    $ap_units = 'm';
+
+    #   $pcpunit='in';
+    for $ap_i ( 1 .. 12 ) {
+        $ap_pw[$ap_i] =
+          $ap_pwd[$ap_i] / ( 1 + $ap_pwd[$ap_i] - $ap_pww[$ap_i] );
     }
-    $ap_annual_precip = 0;
+    $ap_annual_precip   = 0;
     $ap_annual_wet_days = 0;
-    for $ap_i (0..11) {
-        $ap_num_wet = $ap_pw[$ap_i+$ap_pww_base] * $ap_month_days[$ap_i];
-        $ap_mean_p = $ap_num_wet * $ap_mean_p_if[$ap_i+$ap_mean_p_base];
-        if ($ap_units eq 'm') {
-           $ap_mean_p *= 25.4;                 # inches to mm
+    for $ap_i ( 0 .. 11 ) {
+        $ap_num_wet = $ap_pw[ $ap_i + $ap_pww_base ] * $ap_month_days[$ap_i];
+        $ap_mean_p  = $ap_num_wet * $ap_mean_p_if[ $ap_i + $ap_mean_p_base ];
+        if ( $ap_units eq 'm' ) {
+            $ap_mean_p *= 25.4;    # inches to mm
         }
         $ap_annual_precip += $ap_mean_p;
     }
@@ -2328,13 +2498,15 @@ if ($debug) {print $line,"<br>\n"}
 
 sub readPARfile {
 
-#   $PARfile= 'working/166_2_22_167_o.par';
+    #   $PARfile= 'working/166_2_22_167_o.par';
 
-#   $PARfile
-#   $units = 'ft';
+    #   $PARfile
+    #   $units = 'ft';
 
-   local $line, @mean_p_if, $mean_p_base, @pww, $pww_base, @pwd, $pwd_base, @tmax_av, $tmax_av_base;
-   local @tmin_av, $tmin_av_base, @month_days, @num_wet, @mean_p, $tempunits, $prcpunits, $i, $mod, $modfrom;
+    local $line, @mean_p_if, $mean_p_base, @pww, $pww_base, @pwd, $pwd_base,
+      @tmax_av, $tmax_av_base;
+    local @tmin_av, $tmin_av_base, @month_days, @num_wet, @mean_p, $tempunits,
+      $prcpunits, $i, $mod, $modfrom;
 
 # TOKETEE FALLS OR                        358536 0
 # LATT=  43.28 LONG=-122.45 YEARS= 40. TYPE= 2
@@ -2347,84 +2519,102 @@ sub readPARfile {
 # TMAX AV 42.29 48.29 53.67 60.86 69.80 77.65 86.12 85.43 77.99 63.48 48.60 41.95
 # TMIN AV 29.15 30.95 32.50 35.71 40.83 46.87 50.15 49.37 44.32 38.30 33.83 30.11
 
-   open PAR, "<$PARfile";
-    $line=<PAR>;                 # station name
-# print $line;
-    $line=<PAR>;                 # Lat long
-    $line=<PAR>;                 # Elev
+    open PAR, "<$PARfile";
+    $line = <PAR>;    # station name
+
+    # print $line;
+    $line = <PAR>;    # Lat long
+    $line = <PAR>;    # Elev
 
 ################
 
-     $line=<PAR>;       # MEAN P   0.10  0.10  0.11  0.10  0.11  0.14  0.14  0.09  0.10  0.10  0.12  0.12
-       @mean_p_if = split ' ',$line; $mean_p_base = 2;
-     $line=<PAR>;       # S DEV P  0.12  0.12  0.11  0.13  0.13  0.18  0.22  0.13  0.13  0.11  0.14  0.13
-     $line=<PAR>;       # SKEW  P  1.88  2.30  2.21  2.15  2.29  2.35  3.60  3.22  2.05  2.49  2.22  1.87
-     $line=<PAR>;       # P(W/W)   0.47  0.50  0.39  0.32  0.33  0.30  0.27  0.28  0.40  0.41  0.42  0.48
-       @pww = split ' ',$line; $pww_base = 1;
-     $line=<PAR>;       # P(W/D)   0.20  0.16  0.15  0.13  0.13  0.11  0.05  0.06  0.08  0.12  0.23  0.23
-       @pwd = split ' ',$line; $pwd_base=1;
-     $line=<PAR>;       # TMAX AV 32.89 41.62 52.60 62.81 72.56 80.58 88.52 87.06 77.76 62.85 44.78 34.63
-#      @tmax_av = split ' ',$line; $tmax_av_base = 2;
-       for $ii (0..11) {@tmax_av[$ii]=substr($line,8+$ii*6,6)}; $tmax_av_base = 0;
-     $line=<PAR>;       # TMIN AV 20.31 26.55 32.33 39.12 47.69 55.39 61.58 60.31 51.52 40.17 30.33 22.81
-#      @tmin_av = split ' ',$line; $tmin_av_base = 2;
-       for $ii (0..11) {@tmin_av[$ii]=substr($line,8+$ii*6,6)}; $tmin_av_base = 0;
+    $line = <PAR>
+      ; # MEAN P   0.10  0.10  0.11  0.10  0.11  0.14  0.14  0.09  0.10  0.10  0.12  0.12
+    @mean_p_if   = split ' ', $line;
+    $mean_p_base = 2;
+    $line        = <PAR>
+      ; # S DEV P  0.12  0.12  0.11  0.13  0.13  0.18  0.22  0.13  0.13  0.11  0.14  0.13
+    $line = <PAR>
+      ; # SKEW  P  1.88  2.30  2.21  2.15  2.29  2.35  3.60  3.22  2.05  2.49  2.22  1.87
+    $line = <PAR>
+      ; # P(W/W)   0.47  0.50  0.39  0.32  0.33  0.30  0.27  0.28  0.40  0.41  0.42  0.48
+    @pww      = split ' ', $line;
+    $pww_base = 1;
+    $line     = <PAR>
+      ; # P(W/D)   0.20  0.16  0.15  0.13  0.13  0.11  0.05  0.06  0.08  0.12  0.23  0.23
+    @pwd      = split ' ', $line;
+    $pwd_base = 1;
+    $line     = <PAR>
+      ; # TMAX AV 32.89 41.62 52.60 62.81 72.56 80.58 88.52 87.06 77.76 62.85 44.78 34.63
 
-     @month_days=(31,28,31,30,31,30,31,31,30,31,30,31);
+    #      @tmax_av = split ' ',$line; $tmax_av_base = 2;
+    for $ii ( 0 .. 11 ) { @tmax_av[$ii] = substr( $line, 8 + $ii * 6, 6 ) };
+    $tmax_av_base = 0;
+    $line         = <PAR>
+      ; # TMIN AV 20.31 26.55 32.33 39.12 47.69 55.39 61.58 60.31 51.52 40.17 30.33 22.81
 
-#******************************************************#
-# Calculation from parameter file for displayed values #
-#******************************************************#
+    #      @tmin_av = split ' ',$line; $tmin_av_base = 2;
+    for $ii ( 0 .. 11 ) { @tmin_av[$ii] = substr( $line, 8 + $ii * 6, 6 ) };
+    $tmin_av_base = 0;
 
-    for $i (1..12) {
-      @pw[$i] = @pwd[$i] / (1 + @pwd[$i] - @pww[$i]);
+    @month_days = ( 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 );
+
+    #******************************************************#
+    # Calculation from parameter file for displayed values #
+    #******************************************************#
+
+    for $i ( 1 .. 12 ) {
+        @pw[$i] = @pwd[$i] / ( 1 + @pwd[$i] - @pww[$i] );
     }
 
-    for $i (0..11) {
-        @tmax[$i] = @tmax_av[$i+$tmax_av_base];
-        @tmin[$i] = @tmin_av[$i+$tmin_av_base];
-        @pww[$i]  = @pww[$i+$pww_base];
-        @pwd[$i]  = @pwd[$i+$pwd_base];
-        @num_wet[$i] = sprintf '%.2f',@pw[$i+$pww_base] * @month_days[$i];
-        @mean_p[$i] = sprintf '%.2f',@num_wet[$i] * @mean_p_if[$i+$mean_p_base];
-        if ($units eq 'm') {
-           @mean_p[$i] = sprintf '%.2f',25.4 * @mean_p[$i];        # inches to mm
-           @tmax[$i] = sprintf '%.2f',(@tmax[$i] - 32) * 5/9;      # deg F to deg C
-           @tmin[$i] = sprintf '%.2f',(@tmin[$i] - 32) * 5/9;      # deg F to deg C
+    for $i ( 0 .. 11 ) {
+        @tmax[$i]    = @tmax_av[ $i + $tmax_av_base ];
+        @tmin[$i]    = @tmin_av[ $i + $tmin_av_base ];
+        @pww[$i]     = @pww[ $i + $pww_base ];
+        @pwd[$i]     = @pwd[ $i + $pwd_base ];
+        @num_wet[$i] = sprintf '%.2f', @pw[ $i + $pww_base ] * @month_days[$i];
+        @mean_p[$i]  = sprintf '%.2f',
+          @num_wet[$i] * @mean_p_if[ $i + $mean_p_base ];
+        if ( $units eq 'm' ) {
+            @mean_p[$i] = sprintf '%.2f', 25.4 * @mean_p[$i];    # inches to mm
+            @tmax[$i]   = sprintf '%.2f',
+              ( @tmax[$i] - 32 ) * 5 / 9;    # deg F to deg C
+            @tmin[$i] = sprintf '%.2f',
+              ( @tmin[$i] - 32 ) * 5 / 9;    # deg F to deg C
         }
     }
 
-   if ($units eq 'm') {
-     $tempunits = 'deg C';
-     $prcpunits = 'mm';
-   }
-   else {
-     $tempunits = 'deg F';
-     $prcpunits = 'in';
-   }
+    if ( $units eq 'm' ) {
+        $tempunits = 'deg C';
+        $prcpunits = 'mm';
+    }
+    else {
+        $tempunits = 'deg F';
+        $prcpunits = 'in';
+    }
 
 ################
 
-   while (<PAR>) {
-     if (/Modified by/) {
-        $modfrom = $_;
-        $modfrom .= <PAR>;
-        last;
-     }
-   }
+    while (<PAR>) {
+        if (/Modified by/) {
+            $modfrom = $_;
+            $modfrom .= <PAR>;
+            last;
+        }
+    }
 
-   close PAR;
+    close PAR;
 
-   if ($modfrom ne '') {
-     chomp $modfrom;
-     $, = ' ';
-       print $modfrom,"<br>";
-       print 'T MAX ',@tmax,$tempunits,"<br>\n";
-       print 'T MIN ',@tmin,$tempunits,"<br>\n";
-       print 'MEANP ',@mean_p,$prcpunits,"<br>\n";
-       print '# WET ',@num_wet,"<br>\n";
-     $, = '';
-   }
+    if ( $modfrom ne '' ) {
+        chomp $modfrom;
+        $, = ' ';
+        print $modfrom, "<br>";
+        print 'T MAX ', @tmax,    $tempunits, "<br>\n";
+        print 'T MIN ', @tmin,    $tempunits, "<br>\n";
+        print 'MEANP ', @mean_p,  $prcpunits, "<br>\n";
+        print '# WET ', @num_wet, "<br>\n";
+        $, = '';
+    }
 }
 
 # ------------------------ end of subroutines ----------------------------
