@@ -16,9 +16,11 @@ use CGI qw(escapeHTML);
 #      ?ip=166.2.22.220		-- personality ''
 #      ?ip=166.2.22.220a	-- personality 'a'
 
-&ReadParse(*parameters);
-$ip = escapeHTML($parameters{'ip'});
-   # https://forest.moscowfsl.wsu.edu/cgi-bin/fswepp/runlogger.pl?ip=<meta%20http-equiv=Set-Cookie%20content="testlfyg=5195">
+my $cgi        = CGI->new;
+my %parameters = map { $_ => escapeHTML( $cgi->param($_) ) } $cgi->param;
+$ip = escapeHTML( $parameters{'ip'} );
+
+# https://forest.moscowfsl.wsu.edu/cgi-bin/fswepp/runlogger.pl?ip=<meta%20http-equiv=Set-Cookie%20content="testlfyg=5195">
 
 if ( $ip ne '' ) {
     $ipd = $ip;
@@ -576,33 +578,3 @@ print "  </font>
  </body>
 </html>
 ";
-
-# ------------------------ subroutines ---------------------------
-
-sub ReadParse {
-
-    # ReadParse -- from cgi-lib.pl (Steve Brenner) from Eric Herrmann's
-    # "Teach Yourself CGI Programming With PERL in a Week" p. 131
-
-    local (*in) = @_ if @_;
-    local ( $i, $loc, $key, $val );
-
-    if ( $ENV{'REQUEST_METHOD'} eq "GET" ) {
-        $in = $ENV{'QUERY_STRING'};
-    }
-    elsif ( $ENV{'REQUEST_METHOD'} eq "POST" ) {
-        read( STDIN, $in, $ENV{'CONTENT_LENGTH'} );
-    }
-    @in = split( /&/, $in );
-    foreach $i ( 0 .. $#in ) {
-        $in[$i] =~ s/\+/ /g;    # Convert pluses to spaces
-        ( $key, $val ) = split( /=/, $in[$i], 2 );    # Split into key and value
-        $key =~ s/%(..)/pack("c",hex($1))/ge
-          ;    # Convert %XX from hex numbers to alphanumeric
-        $val =~ s/%(..)/pack("c",hex($1))/ge;
-        $in{$key} .= "\0"
-          if ( defined( $in{$key} ) );    # \0 is the multiple separator
-        $in{$key} .= $val;
-    }
-    return 1;
-}

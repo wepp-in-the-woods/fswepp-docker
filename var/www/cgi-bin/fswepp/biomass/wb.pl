@@ -1,10 +1,14 @@
 #!/usr/bin/perl
 
-use CGI ':standard';
-use CGI 'qw(escapeHTML)';
 use warnings;
+use CGI;
+use CGI qw(escapeHTML);
 use lib '/var/www/cgi-bin/fswepp/dry';
 use CligenUtils qw(CreateCligenFile GetParSummary);
+use FsWeppUtils qw(printdate);
+use String::Util qw(trim);
+
+my $cgi = new CGI;
 
 #  wb.pl -- BIOMASS workhorse
 #  Modified by HR from fume2.pl 2013.03.01
@@ -37,6 +41,8 @@ $version = '2015.05.27';    # Unlink temporary and WEPP output files when done
 
 #=========================================================================
 
+my $debug = 0;
+
 my @out_asypa;
 
 #####  TEMPORARY KLUGE TO FORCE VALUES TO MAKE THE MODEL RUN  #####
@@ -64,31 +70,28 @@ $roaddensity      = 15;
 ########################################
 
 #####  Read user input parameters  #####
+$wildfire_cycle = escapeHTML( scalar $cgi->param('wildfire_cycle') ) + 0;  # 2004.09.16
+$rx_fire_cycle  = escapeHTML( scalar $cgi->param('rx_fire_cycle') ) + 0;   # 2004.09.16
+$harvest_cycle  = escapeHTML( scalar $cgi->param('harvest_cycle') ) + 0;   # 2004.09.16
 
-&ReadParse(*parameters);
-
-$wildfire_cycle = escapeHTML( $parameters{'wildfire_cycle'} ) + 0;  # 2004.09.16
-$rx_fire_cycle  = escapeHTML( $parameters{'rx_fire_cycle'} ) + 0;   # 2004.09.16
-$harvest_cycle  = escapeHTML( $parameters{'harvest_cycle'} ) + 0;   # 2004.09.16
-
-$CL               = escapeHTML( $parameters{'Climate'} );
-$soil             = escapeHTML( $parameters{'SoilType'} );
-$hillslope_length = escapeHTML( $parameters{'totall'} ) + 0;
-$ofe1_top_slope   = escapeHTML( $parameters{'ofe1_top_slope'} ) + 0;
-$ofe1_mid_slope   = escapeHTML( $parameters{'ofe1_mid_slope'} ) + 0;
-$ofe2_bot_slope   = escapeHTML( $parameters{'ofe2_bot_slope'} ) + 0;
-$buffer_length    = escapeHTML( $parameters{'buffl'} ) + 0;
-$ofe_area         = escapeHTML( $parameters{'ofe_area'} ) + 0;
+$CL               = escapeHTML( $cgi->param('Climate') );
+$soil             = escapeHTML( $cgi->param('SoilType') );
+$hillslope_length = escapeHTML( scalar $cgi->param('totall') ) + 0;
+$ofe1_top_slope   = escapeHTML( scalar $cgi->param('ofe1_top_slope') ) + 0;
+$ofe1_mid_slope   = escapeHTML( scalar $cgi->param('ofe1_mid_slope') ) + 0;
+$ofe2_bot_slope   = escapeHTML( scalar $cgi->param('ofe2_bot_slope') ) + 0;
+$buffer_length    = escapeHTML( scalar $cgi->param('buffl') ) + 0;
+$ofe_area         = escapeHTML( scalar $cgi->param('ofe_area') ) + 0;
 $action =
-    escapeHTML( $parameters{'actionc'} )
-  . escapeHTML( $parameters{'actionv'} )
-  . escapeHTML( $parameters{'actionw'} )
-  . escapeHTML( $parameters{'ActionCD'} );
-$me          = escapeHTML( $parameters{'me'} );
-$units       = escapeHTML( $parameters{'units'} );
-$achtung     = escapeHTML( $parameters{'achtung'} );
-$climyears   = escapeHTML( $parameters{'climyears'} );
-$roaddensity = escapeHTML( $parameters{'road_density'} );
+    escapeHTML( $cgi->param('actionc') )
+  . escapeHTML( $cgi->param('actionv') )
+  . escapeHTML( $cgi->param('actionw') )
+  . escapeHTML( $cgi->param('ActionCD') );
+$me          = escapeHTML( $cgi->param('me') );
+$units       = escapeHTML( $cgi->param('units') );
+$achtung     = escapeHTML( $cgi->param('achtung') );
+$climyears   = escapeHTML( $cgi->param('climyears') );
+$roaddensity = escapeHTML( $cgi->param('road_density') );
 
 skipper:
 
@@ -2376,18 +2379,6 @@ print "
 
 ################################# start 2010.01.20 DEH   record run in user wepp run log file
 
-#  print date\trun_id\tmodel\tclimate_name\tfilename\tparams
-
-#  strip leading and trailing blanks on file name
-
-sub trim($)    # https://www.somacon.com/p114.php
-{
-    my $string = shift;
-    $string =~ s/^\s+//;
-    $string =~ s/\s+$//;
-    return $string;
-}
-
 $climate_trim = trim($climatename);
 
 open RUNLOG, ">>$runLogFile";
@@ -2469,67 +2460,6 @@ unlink $solFile;         # 2015.05.27 DEH
 
 # ------------------------ subroutines ---------------------------
 
-sub ReadParse {
-
-    # ReadParse -- from cgi-lib.pl (Steve Brenner) from Eric Herrmann's
-    # "Teach Yourself CGI Programming With PERL in a Week" p. 131
-
-    # Reads GET or POST data, converts it to unescaped text, and puts
-    # one key=value in each member of the list "@in"
-    # Also creates key/value pairs in %in, using '\0' to separate multiple
-    # selections
-
-    local (*in) = @_ if @_;
-    local ( $i, $loc, $key, $val );
-
-    #       read text
-    if ( $ENV{'REQUEST_METHOD'} eq "GET" ) {
-        $in = $ENV{'QUERY_STRING'};
-    }
-    elsif ( $ENV{'REQUEST_METHOD'} eq "POST" ) {
-        read( STDIN, $in, $ENV{'CONTENT_LENGTH'} );
-    }
-    @in = split( /&/, $in );
-    foreach $i ( 0 .. $#in ) {
-        $in[$i] =~ s/\+/ /g;    # Convert pluses to spaces
-        ( $key, $val ) = split( /=/, $in[$i], 2 );    # Split into key and value
-        $key =~ s/%(..)/pack("c",hex($1))/ge
-          ;    # Convert %XX from hex numbers to alphanumeric
-        $val =~ s/%(..)/pack("c",hex($1))/ge;
-        $in{$key} .= "\0"
-          if ( defined( $in{$key} ) );    # \0 is the multiple separator
-        $in{$key} .= $val;
-    }
-    return 1;
-}
-
-#---------------------------
-
-sub printdate {
-
-    @months =
-      qw(January February March April May June July August September October November December);
-    @days    = qw(Sunday Monday Tuesday Wednesday Thursday Friday Saturday);
-    $ampm[0] = "am";
-    $ampm[1] = "pm";
-
-    #   $ampmi = 0;
-    #   ($sec,$min,$hour,$mday,$mon,$year,$wday,$yday,$isdst)=gmtime;
-    #   if ($hour == 12) {$ampmi = 1}
-    #   if ($hour > 12) {$ampmi = 1; $hour -= 12}
-    #   printf "%0.2d:%0.2d ", $hour, $min;
-    #   print $ampm[$ampmi],"  ",$days[$wday]," ",$months[$mon];
-    #   print " ",$mday,", ",$year+1900, " GMT/UTC/Zulu<br>\n";
-
-    $ampmi = 0;
-    ( $sec, $min, $hour, $mday, $mon, $year, $wday, $yday, $isdst ) = localtime;
-    if ( $hour == 12 ) { $ampmi = 1 }
-    if ( $hour > 12 )  { $ampmi = 1; $hour = $hour - 12 }
-    $thisyear = $year + 1900;
-    printf "%0.2d:%0.2d ", $hour, $min;
-    print $ampm[$ampmi], "  ", $days[$wday], " ", $months[$mon];
-    print " ", $mday, ", ", $thisyear, " Pacific Time\n";
-}
 
 sub CreateSlopeFile {
 

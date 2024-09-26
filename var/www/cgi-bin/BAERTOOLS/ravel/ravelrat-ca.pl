@@ -1,13 +1,13 @@
 #!/usr/bin/perl
 
-#use strict;
-#use CGI ':standard';
-#use File::Basename;
+use warnings;
+use CGI;
+use CGI qw(escapeHTML);
+use lib '/var/www/cgi-bin/fswepp/dry';
+use FsWeppUtils qw(printdate);
 
-    use CGI;
-    ###	Set Maximum Upload size (2048=2MB) (prevent ppl from uploading extremely large files or other such malicious stuff)
-#   $CGI::POST_MAX = 200;
-    my $cgi = new CGI;
+my $cgi = new CGI;
+
 #
 #  ravelrat-ca.pl -- Ravel workhorse
 #
@@ -48,8 +48,6 @@
 #=========================================================================
 
 #####  Read user input parameters  #####
-
-#   &ReadParse(*parameters);
 
 $description         =$cgi->param('description');
 $vegetationSize      =$cgi->param('stemsize')+0;
@@ -1613,66 +1611,6 @@ print '
 ';
 
 # ------------------------ subroutines ---------------------------
-
-sub ReadParse {
-
-# ReadParse -- from cgi-lib.pl (Steve Brenner) from Eric Herrmann's
-# "Teach Yourself CGI Programming With PERL in a Week" p. 131
-
-# Reads GET or POST data, converts it to unescaped text, and puts
-# one key=value in each member of the list "@in"
-# Also creates key/value pairs in %in, using '\0' to separate multiple
-# selections
-
-   local (*in) = @_ if @_;
-   local ($i, $loc, $key, $val);
-#       read text
-   if ($ENV{'REQUEST_METHOD'} eq "GET") {
-     $in = $ENV{'QUERY_STRING'};
-   }
-   elsif ($ENV{'REQUEST_METHOD'} eq "POST") {
-     read(STDIN,$in,$ENV{'CONTENT_LENGTH'});
-   }
-   @in = split(/&/,$in);
-   foreach $i (0 .. $#in) { 
-     $in[$i] =~ s/\+/ /g;	  # Convert pluses to spaces
-     ($key, $val) = split(/=/,$in[$i],2);	  # Split into key and value
-     $key =~ s/%(..)/pack("c",hex($1))/ge;	  # Convert %XX from hex numbers to alphanumeric
-     $val =~ s/%(..)/pack("c",hex($1))/ge;
-     $in{$key} .= "\0" if (defined($in{$key}));  # \0 is the multiple separator
-     $in{$key} .= $val;
-   }
-   return 1;
-}
-
-#---------------------------
-
-sub printdate {
-
-   @months=qw(January February March April May June July August September October November December);
-   @days=qw(Sunday Monday Tuesday Wednesday Thursday Friday Saturday);
-   $ampm[0] = "am";
-   $ampm[1] = "pm";
-
-#   $ampmi = 0;
-#   ($sec,$min,$hour,$mday,$mon,$year,$wday,$yday,$isdst)=gmtime;
-#   if ($hour == 12) {$ampmi = 1}
-#   if ($hour > 12) {$ampmi = 1; $hour -= 12}
-#   printf "%0.2d:%0.2d ", $hour, $min;
-#   print $ampm[$ampmi],"  ",$days[$wday]," ",$months[$mon];
-#   print " ",$mday,", ",$year+1900, " GMT/UTC/Zulu<br>\n";
-
-   $ampmi = 0;
-   ($sec,$min,$hour,$mday,$mon,$year,$wday,$yday,$isdst)=localtime;
-   if ($hour == 12) {$ampmi = 1}
-   if ($hour > 12) {$ampmi = 1; $hour = $hour - 12}
-   $thisyear = $year+1900;
-   printf "%0.2d:%0.2d ", $hour, $min;
-   print $ampm[$ampmi],"  ",$days[$wday]," ",$months[$mon];
-   print " ",$mday,", ",$thisyear, " Pacific Time\n";
-}
-
-
 
 
 # ------------------------ end of subroutines ----------------------------

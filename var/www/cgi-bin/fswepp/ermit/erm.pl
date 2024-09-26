@@ -5,6 +5,8 @@ use CGI qw(escapeHTML);
 use lib '/var/www/cgi-bin/fswepp/dry';
 use CligenUtils qw(GetParSummary);
 
+use String::Util qw(trim);
+
 #
 # erm.pl
 # urm2014.pl
@@ -2605,18 +2607,6 @@ if ( lc($wepphost) ne "localhost" ) {
 }    # if (lc($wepphost) ne "localhost")
 
 ################################# start 2010.01.20 DEH   record run in user wepp run log file
-
-#  print date\trun_id\tmodel\tclimate_name\tfilename\tparams
-
-#  strip leading and trailing blanks on file name
-
-sub trim($)    # https://www.somacon.com/p114.php
-{
-    my $string = shift;
-    $string =~ s/^\s+//;
-    $string =~ s/\s+$//;
-    return $string;
-}
 
 $climate_trim = trim($climate_name);
 

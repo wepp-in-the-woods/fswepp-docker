@@ -6,6 +6,8 @@ use Scalar::Util 'looks_like_number';
 use lib '/var/www/cgi-bin/fswepp/dry';
 use CligenUtils qw(CreateCligenFile GetParSummary);
 
+use String::Util qw(trim);
+
 #
 # wt.pl        Tahoe Basin Sediment Model
 #
@@ -3040,13 +3042,6 @@ sub getAnnualPrecip {
         }
         $ap_annual_precip += $ap_mean_p;
     }
-}
-
-sub trim($) {
-    my $string = shift;
-    $string =~ s/^\s+//;
-    $string =~ s/\s+$//;
-    return $string;
 }
 
 sub CreateManagementFileT {

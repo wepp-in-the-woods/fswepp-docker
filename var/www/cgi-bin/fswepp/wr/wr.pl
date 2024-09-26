@@ -5,6 +5,8 @@ use CGI qw(:standard escapeHTML);
 use lib '/var/www/cgi-bin/fswepp/dry';
 use CligenUtils qw(CreateCligenFile GetParSummary);
 
+use String::Util qw(trim);
+
 #  wr.pl -- WEPP:Road workhorse
 
 #  *** modify for each new year *** $thisdayoff
@@ -775,17 +777,6 @@ unlink $newSoilFile;    # 2006.02.23 DEH
 
 #  record run in user wepp run log file
 
-#   print date\trun_id\tmodel\tclimate_name\tfilename\tparams
-
-#  strip leading and trailing blanks on file name
-
-sub trim($) {    # https://www.somacon.com/p114.php
-
-    my $string = shift;
-    $string =~ s/^\s+//;
-    $string =~ s/\s+$//;
-    return $string;
-}
 
 $climate_trim = trim($climate_name);
 

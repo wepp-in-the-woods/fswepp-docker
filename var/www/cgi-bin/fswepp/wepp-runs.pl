@@ -561,10 +561,8 @@ sub resolve_dq {
         $answer = "Improper format: $dottedquad<br>example: 166.2.22.128";
     }
 
-    # print "dq: $answer\n";
 
     return $answer;
 
-    # print @result;
 
 }

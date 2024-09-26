@@ -5,6 +5,8 @@ use CGI qw(escapeHTML);
 use lib '/var/www/cgi-bin/fswepp/dry';
 use CligenUtils qw(CreateCligenFile GetParSummary);
 
+use String::Util qw(trim);
+
 # wd.pl
 #
 # Disturbed WEPP workhorse
@@ -1397,18 +1399,6 @@ close PAR;
 ################################# start 2009.11.02 DEH
 
 #  record run in user wepp run log file
-
-#   print date\trun_id\tmodel\tclimate_name\tfilename\tparams
-
-#  strip leading and trailing blanks on file name
-
-sub trim($)    # https://www.somacon.com/p114.php
-{
-    my $string = shift;
-    $string =~ s/^\s+//;
-    $string =~ s/\s+$//;
-    return $string;
-}
 
 $climate_trim = trim($climate_name);
 $climate_trim = $CL

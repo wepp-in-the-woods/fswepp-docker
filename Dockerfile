@@ -51,6 +51,17 @@ RUN apt-get install -y libcgi-session-perl
 RUN apt install -y curl
 RUN apt-get install -y vim
 
+RUN apt-get update && apt-get install -y \
+    cpanminus \
+    gcc \
+    make
+
+RUN cpanm CGI 
+RUN cpanm Config::Simple
+RUN cpanm Path::Tiny
+RUN cpanm String::Util
+RUN cpanm DateTime
+
 ## Move perl dependencies
 COPY var/www/cgi-bin/BAERTOOLS/baer-db/Query.pl /etc/perl/
 COPY var/www/cgi-bin/BAERTOOLS/baer-db/PageCommon.pl /etc/perl/

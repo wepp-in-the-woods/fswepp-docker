@@ -1,6 +1,12 @@
 #!/usr/bin/perl
+
 use warnings;
-use CGI qw(:standard escapeHTML);
+use CGI;
+use CGI qw(escapeHTML);
+use lib '/var/www/cgi-bin/fswepp/dry';
+use FsWeppUtils qw(printdate);
+
+my $cgi = new CGI;
 
 print "Content-Type: text/html\n\n";    # Ensure headers are printed first
 
@@ -74,7 +80,6 @@ print "Content-Type: text/html\n\n";    # Ensure headers are printed first
 
 # https://forest.moscowfsl.wsu.edu/cgi-bin/engr/library/searchpub.pl?year=<meta%20http-equiv=Set-Cookie%20content="testlfyg=5195">
 
-my $cgi = CGI->new;
 
 # Initialize parameters
 my $category_goal = $cgi->param('category') || '';
@@ -114,13 +119,11 @@ $author_goal   = escapeHTML($author_goal);
 $library  = 'pubdb.txt';
 $days_old = -M $library if -e $library;
 $days_old = int( $days_old + 0.5 );
-
-&ReadParse(*parameters);
-$year_goal    = escapeHTML( $parameters{'year'} );
-$keyword_goal = escapeHTML( $parameters{'keyword'} );
-$pub_goal     = escapeHTML( $parameters{'pub'} );
-$bare         = escapeHTML( $parameters{'bare'} );      # 2005.07.12 DEH
-$countem      = escapeHTML( $parameters{'count'} )
+$year_goal    = escapeHTML( $cgi->param('year') );
+$keyword_goal = escapeHTML( $cgi->param('keyword') );
+$pub_goal     = escapeHTML( $cgi->param('pub') );
+$bare         = escapeHTML( $cgi->param('bare') );      # 2005.07.12 DEH
+$countem      = escapeHTML( $cgi->param('count') );
   ;    # report number of downloads (many will be crawlers)
 
 $skipcode = '*';    # column 1 code to ignore entry in database
@@ -333,7 +336,7 @@ else {    # return multiple entries short-form
 
     #      <img src=\"/images/epage_s.gif\" border=0>
     print "<p align=center>$counter matching $publication_s found;
-      $linkscounter with full text;
+      $linkscounter with full text;";
 
     if ($countem) {
 
@@ -361,50 +364,6 @@ close DB;
 &print_tail;
 
 # ------------------------------- subroutines -----------------------------------------
-
-sub ReadParse {
-
-    # ReadParse -- from cgi-lib.pl (Steve Brenner) from Eric Herrmann's
-    # "Teach Yourself CGI Programming With PERL in a Week" p. 131
-
-    # Reads GET or POST data, converts it to unescaped text, and puts
-    # one key=value in each member of the list "@in"
-    # Also creates key/value pairs in %in, using '\0' to separate multiple
-    # selections
-
-    # If a variable-glob parameter...
-
-    local (*in) = @_ if @_;
-    local ( $i, $loc, $key, $val );
-
-    if ( $ENV{'REQUEST_METHOD'} eq "GET" ) {
-        $in = $ENV{'QUERY_STRING'};
-    }
-    elsif ( $ENV{'REQUEST_METHOD'} eq "POST" ) {
-        read( STDIN, $in, $ENV{'CONTENT_LENGTH'} );
-    }
-
-    @in = split( /&/, $in );
-
-    foreach $i ( 0 .. $#in ) {
-
-        # Convert pluses to spaces
-        $in[$i] =~ s/\+/ /g;
-
-        # Split into key and value
-        ( $key, $val ) = split( /=/, $in[$i], 2 );    # splits on the first =
-
-        # Convert %XX from hex numbers to alphanumeric
-        $key =~ s/%(..)/pack("c",hex($1))/ge;
-        $val =~ s/%(..)/pack("c",hex($1))/ge;
-
-        # Associative key and value
-        $in{$key} .= "\0"
-          if ( defined( $in{$key} ) );    # \0 is the multiple separator
-        $in{$key} .= $val;
-    }
-    return 1;
-}
 
 sub get_entry {
     $authors     = '';
