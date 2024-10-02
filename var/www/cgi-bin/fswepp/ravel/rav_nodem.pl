@@ -26,103 +26,40 @@ $debug = 0;
 
 #####  Read user input parameters  #####
 
-&ReadParse(*parameters);
 
-$description          = escapeHTML($parameters{'description'});
-$vegetationSize       = escapeHTML($parameters{'stemsize'}) + 0;
-$vegetationDensity    = escapeHTML($parameters{'density'}) + 0;
-$fireImpactDepth      = escapeHTML($parameters{'brndep'}) + 0;
-$staticFrictionAngle  = escapeHTML($parameters{'static'}) + 0;
-$kineticFrictionAngle = escapeHTML($parameters{'kinetic'}) + 0;
-$bulkDensity          = escapeHTML($parameters{'bulk'}) + 0;
+my $cgi = new CGI;
 
-##   $site='working/050810';	#######################################################
+$description          = escapeHTML( $cgi->param('description') );
+$vegetationSize       = escapeHTML( $cgi->param('stemsize') ) + 0;
+$vegetationDensity    = escapeHTML( $cgi->param('density') ) + 0;
+$fireImpactDepth      = escapeHTML( $cgi->param('brndep') ) + 0;
+$staticFrictionAngle  = escapeHTML( $cgi->param('static') ) + 0;
+$kineticFrictionAngle = escapeHTML( $cgi->param('kinetic') ) + 0;
+$bulkDensity          = escapeHTML( $cgi->param('bulk') ) + 0;
 
-$me    = $parameters{'me'};      # DEH 05/24/2000
-$units = $parameters{'units'};
+$me    = escapeHTML( $cgi->param('me') );      # DEH 05/24/2000
+$units = escapeHTML( $cgi->param('units') );
 
 #####  Set other parameters values  #####
 
-$wepphost = "localhost";
-if ( -e "../wepphost" ) {
-    open HOST, "<../wepphost";
-    $wepphost = lc(<HOST>);
-    chomp $wepphost;
-    if ( $wepphost eq "" ) { $wepphost = "Localhost" }
-    close HOST;
-}
-
-$platform = "";
-
-#   print "<p>the value of platform is: $platform";  #elena
-if ( -e "../platform" ) {
-    open PLATFORM, "<../platform";
-    $platform = lc(<PLATFORM>);
-    chomp $platform;
-    if ( $platform eq "" ) { $platform = "unix" }
-    close PLATFORM;
-}
-
-#     $fume = "https://" . $wepphost . "/cgi-bin/fswepp/wd/fume.pl";#elena
-
 # *******************************
 
-#  $path='pointinput.txt';
+$unique            = 'ravel' . '-' . $$;
+$working           = '../working';
+$temp_base         = "$working/$unique";
+$temp_html_base0   = "/srv/www/htdocs/fswepp/working/$unique";
+$temp_html_base1   = "/fswepp/working/$unique";
+$paramFile         = $temp_base . '.paraminput.txt';
+$demfilename       = $working . '/dem.txt';
+$demfilename       = 'haymanf.dem';
+$results_dep_File  = $temp_base . '.depgrd.txt';
+$results_prod_File = $temp_base . '.prodgrd.txt';
 
-if ( $platform eq 'pc' ) {
-
-    #    $site = 'data/' . $site;
-    $unique          = 'ravel';
-    $working         = '../working';
-    $datadir         = 'data';
-    $temp_base       = "$working\\$unique";
-    $temp_html_base0 = "\\fsws\\ravel\\" . $temp_base;
-    $temp_html_base1 = "working\\$unique";
-
-    #    $paramFile = $temp_base . '.param.in';
-    $paramFile = 'paraminput.txt';
-
-    #    $demfilename = $site . '.ele';
-    $demfilename = 'dem.txt';
-
-    #    $results_dep_File = $temp_base . '.dep';
-    #    $results_prod_File = $temp_base . '.prod';
-    $results_dep_File  = 'depgrd.txt';
-    $results_prod_File = 'prodgrd.txt';
-    $stdout0           = 'stdout.txt';
-    $stdout1           = 'stdout.txt';
-    $stderr0           = 'stderr.txt';
-    $stderr1           = 'stderr.txt';
-}
-else {
-    $unique          = 'ravel' . '-' . $$;
-    $working         = '../working';
-    $temp_base       = "$working/$unique";
-    $temp_html_base0 = "/srv/www/htdocs/fswepp/working/$unique";
-    $temp_html_base1 = "/fswepp/working/$unique";
-    $paramFile       = $temp_base . '.paraminput.txt';
-
-    #     $paramFile   = $working . '/paraminput.txt';
-    #     $demfilename = $temp_base . '/dem.txt';
-    $demfilename = $working . '/dem.txt';
-    $demfilename = 'haymanf.dem';
-
-    #     $demfilename = 'dem.txt';
-    $results_dep_File = $temp_base . '.depgrd.txt';
-
-    #     $results_dep_File = $working . '/depgrd.txt';
-    $results_prod_File = $temp_base . '.prodgrd.txt';
-
-    #     $results_prod_File = $working . '/prodgrd.txt';
-    #     $results_dep_File = 'depgrd.txt';
-    #     $results_prod_File = 'prodgrd.txt';
-    #     $calibration_File = "$working/cal.txt";
-    $calibration_File = "$temp_base.cal.txt";
-    $stdout0          = $temp_html_base0 . '.stdout.txt';
-    $stdout1          = $temp_html_base1 . '.stdout.txt';
-    $stderr0          = $temp_html_base0 . '.stderr.txt';
-    $stderr1          = $temp_html_base1 . '.stderr.txt';
-}
+$calibration_File = "$temp_base.cal.txt";
+$stdout0          = $temp_html_base0 . '.stdout.txt';
+$stdout1          = $temp_html_base1 . '.stdout.txt';
+$stderr0          = $temp_html_base0 . '.stderr.txt';
+$stderr1          = $temp_html_base1 . '.stderr.txt';
 
 if ( -e $demfilename ) {
 
@@ -224,7 +161,6 @@ if ( -e $demfilename ) {
     </th>
    </tr>
   </table>
-platform:	$platform<br>
 description:	$description<br>
 vegsize:	$vegetationSize<br>
 vegdense:	$vegetationDensity<br>
@@ -545,40 +481,7 @@ $calibration_File
 
     print '<br>starting simulation.......<br>';
 
-    #   system 'working/dryravel';
-    if ( $platform eq 'pc' ) {
-
-        #     open DEM, ">pointinput.txt";
-        #      open DEM2, $demfilename;
-        #       @elevs=<DEM2>;
-        #       print DEM @elevs;
-        #      close DEM2;
-        #     close DEM;
-        #    print  "copy $demfilename pointinput.txt<br>\n";
-        #     system "copy $demfilename pointinput.txt";
-        print "dryravel >$stdout0 2>$stderr0<br>\n";
-#########################################################################    system "dryravel >$stdout0 2>$stderr0";
-    }
-    else {    # linux server
-
-        #   system "./dryravelxx $temp_base $demfilename >$stdout 2>$stderr";
-        #    print "./dryravelxx $temp_base $site >$stdout0 2>$stderr0<br>\n";
-        #    system "./dryravelxx $temp_base $site >$stdout0 2>$stderr0";
-
-        system "./ravel $paramFile $demfilename >$stdout0 2>$stderr0";
-
-    }    # platform
-
-    #   open SO, "<$stdout";
-    #    print "   Standard OUTPUT: <pre>\n";
-    #    print <SO>;
-    #    print "   </pre>\n<hr>";
-    #   close SO;
-    #   open SE, "<$stderr";
-    #    print "   STANDARD ERROR: <pre>\n";
-    #    print <SE>;
-    #    print "   </pre>\n";
-    #   close SE;
+    system "./ravel $paramFile $demfilename >$stdout0 2>$stderr0";
 
     if ( -e $stderr ) {
         print '[<a href="javascript:void(showSTDERR())">STDERR</a>]';
@@ -954,42 +857,6 @@ print "
 </html>
 ";
 
-# ------------------------ subroutines ---------------------------
-
-sub ReadParse {
-
-    # ReadParse -- from cgi-lib.pl (Steve Brenner) from Eric Herrmann's
-    # "Teach Yourself CGI Programming With PERL in a Week" p. 131
-
-    # Reads GET or POST data, converts it to unescaped text, and puts
-    # one key=value in each member of the list "@in"
-    # Also creates key/value pairs in %in, using '\0' to separate multiple
-    # selections
-
-    local (*in) = @_ if @_;
-    local ( $i, $loc, $key, $val );
-
-    #       read text
-    if ( $ENV{'REQUEST_METHOD'} eq "GET" ) {
-        $in = $ENV{'QUERY_STRING'};
-    }
-    elsif ( $ENV{'REQUEST_METHOD'} eq "POST" ) {
-        read( STDIN, $in, $ENV{'CONTENT_LENGTH'} );
-    }
-    @in = split( /&/, $in );
-    foreach $i ( 0 .. $#in ) {
-        $in[$i] =~ s/\+/ /g;    # Convert pluses to spaces
-        ( $key, $val ) = split( /=/, $in[$i], 2 );    # Split into key and value
-        $key =~ s/%(..)/pack("c",hex($1))/ge
-          ;    # Convert %XX from hex numbers to alphanumeric
-        $val =~ s/%(..)/pack("c",hex($1))/ge;
-        $in{$key} .= "\0"
-          if ( defined( $in{$key} ) );    # \0 is the multiple separator
-        $in{$key} .= $val;
-    }
-    return 1;
-}
-
 #---------------------------
 
 sub printdate {
@@ -999,15 +866,7 @@ sub printdate {
     @days    = qw(Sunday Monday Tuesday Wednesday Thursday Friday Saturday);
     $ampm[0] = "am";
     $ampm[1] = "pm";
-
-    #   $ampmi = 0;
-    #   ($sec,$min,$hour,$mday,$mon,$year,$wday,$yday,$isdst)=gmtime;
-    #   if ($hour == 12) {$ampmi = 1}
-    #   if ($hour > 12) {$ampmi = 1; $hour -= 12}
-    #   printf "%0.2d:%0.2d ", $hour, $min;
-    #   print $ampm[$ampmi],"  ",$days[$wday]," ",$months[$mon];
-    #   print " ",$mday,", ",$year+1900, " GMT/UTC/Zulu<br>\n";
-
+    
     $ampmi = 0;
     ( $sec, $min, $hour, $mday, $mon, $year, $wday, $yday, $isdst ) = localtime;
     if ( $hour == 12 ) { $ampmi = 1 }

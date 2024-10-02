@@ -1,6 +1,7 @@
-#! /usr/bin/perl
-#! /fsapps/fssys/bin/perl
+#!/usr/bin/perl
 
+use warnings;
+use CGI;
 use CGI qw(escapeHTML);
 
 # copypar.pl
@@ -24,8 +25,6 @@ use CGI qw(escapeHTML);
 #    'me'
 #    'units'
 #  reads
-#    ../wepphost
-#    ../platform
 #  calls
 #   /describe/
 #     exec "perl ../rc/descpar.pl $CL $units $iam"
@@ -41,57 +40,26 @@ use CGI qw(escapeHTML);
 
 $version = '2014.10.06';
 
-&ReadParse(*parameters);
-
-$state        = escapeHTML($parameters{'state'});
-$station      = escapeHTML($parameters{'station'});
-$comefrom     = escapeHTML($parameters{'comefrom'});
-$submitbutton = lc(escapeHTML($parameters{'submitbutton'}));
-$units        = escapeHTML($parameters{'units'});
-$me           = escapeHTML($parameters{'me'});
+$cgi = CGI->new;
+$state        = escapeHTML( $cgi->param('state') );
+$station      = escapeHTML( $cgi->param('station') );
+$comefrom     = escapeHTML( $cgi->param('comefrom') );
+$submitbutton = lc( escapeHTML( $cgi->param('submitbutton') ) );
+$units        = escapeHTML( $cgi->param('units') );
+$me           = escapeHTML( $cgi->param('me') );
 
 if ( $me ne "" ) {
-
-    #       $me = lc(substr($me,0,1));
-    #       $me =~ tr/a-z/ /c;
     $me = substr( $me, 0, 1 );
     $me =~ tr/a-zA-Z/ /c;
 }
 if ( $me eq " " ) { $me = "" }
 
-$wepphost = "localhost";
-if ( -e "../wepphost" ) {
-    open Host, "<../wepphost";
-    $wepphost = <Host>;
-    chomp $wepphost;
-    close Host;
-}
-
-$platform = "pc";
-if ( -e "../platform" ) {
-    open Platform, "<../platform";
-    $platform = lc(<Platform>);
-    chomp $platform;
-    close Platform;
-}
-
-# get user_ID and remove weirdness
-# get user PID for temp files
-
-# get user_ID and remove weirdness
-# get user PID for temp files
-
-if ( $platform eq 'pc' ) {
-    $user_ID = 'climate';
-}
-else {
-    $user_ID     = $ENV{REMOTE_ADDR};
-    $user_really = $ENV{'HTTP_X_FORWARDED_FOR'};              # DEH 11/14/2002
-    $user_ID     = $user_really if ( $user_really ne '' );    # DEH 11/14/2002
-    $user_ID =~ tr/./_/;
-    $user_ID = $user_ID . $me . '_';                          # DEH 03/05/2001
-    if ( $user_ID eq "" ) { $user_ID = "custom" }
-}
+$user_ID     = $ENV{REMOTE_ADDR};
+$user_really = $ENV{'HTTP_X_FORWARDED_FOR'};              # DEH 11/14/2002
+$user_ID     = $user_really if ( $user_really ne '' );    # DEH 11/14/2002
+$user_ID =~ tr/./_/;
+$user_ID = $user_ID . $me . '_';                          # DEH 03/05/2001
+if ( $user_ID eq "" ) { $user_ID = "custom" }
 
 #  verify filename entry no .. ~ leading / etc.
 #  verify state entry AL..WY or whatever
@@ -118,18 +86,8 @@ for (@states) { $states{$_}++; }
 
 if ( $states{$state} && $station =~ /^[\w.]*$/ ) {
 
-    #  build state_ID/filename + ".par"
-
-    if ( $platform eq "pc" ) {
-        if    ( -e 'd:/fswepp/working' ) { $working = 'd:\\fswepp\\working' }
-        elsif ( -e 'c:/fswepp/working' ) { $working = 'c:\\fswepp\\working' }
-        else                             { $working = '..\\working' }
-        $climate_file = $state . '\\' . $station . '.par';
-    }
-    else {
-        $working      = '../working';
-        $climate_file = $state . '/' . $station . '.par';
-    }
+    $working      = '../working';
+    $climate_file = $state . '/' . $station . '.par';
 
     # open specified .par file, verify content, and close
 
@@ -147,16 +105,8 @@ if ( $states{$state} && $station =~ /^[\w.]*$/ ) {
     if ( $submitbutton =~ /modify/ ) {
 
         $CL  = $state . "/" . $station;
-        $iam = "https://" . $wepphost . "/cgi-bin/fswepp/rc/copypar.pl";
-        if ( $platform eq "pc" ) {
-
-#        exec "perl ../rc/modpar.pl $CL $units $state $comefrom"	# 2014-12-01 DEH
-            exec "perl ../rc/modpar.pl $CL $units $comefrom $state";
-        }
-        else {
-   #        exec "../rc/modpar.pl $CL $units $state $comefrom"		# 2014.12.01 DEH
-            exec "../rc/modpar.pl $CL $units $comefrom $state";
-        }
+        $iam = "/cgi-bin/fswepp/rc/copypar.pl";
+        exec "../rc/modpar.pl $CL $units $comefrom $state";
     }
 
 ####################################################################
@@ -167,13 +117,8 @@ if ( $states{$state} && $station =~ /^[\w.]*$/ ) {
 
     if ( $submitbutton =~ /describe/ ) {
         $CL  = $state . "/" . $station;
-        $iam = "https://" . $wepphost . "/cgi-bin/fswepp/rc/climate.cli";
-        if ( $platform eq "pc" ) {
-            exec "perl ../rc/descpar.pl $CL $units $iam";
-        }
-        else {
-            exec "../rc/descpar.pl $CL $units $iam";
-        }
+        $iam = "/cgi-bin/fswepp/rc/climate.cli";
+        exec "../rc/descpar.pl $CL $units $iam";
     }
 
 ####################################################################
@@ -185,24 +130,12 @@ if ( $states{$state} && $station =~ /^[\w.]*$/ ) {
     if ( $submitbutton =~ /personal/ ) {
         for $letter ( 'a' .. 'e' ) {
             $nextletter = $letter;
-            if ( $platform eq 'pc' ) {
-                $filename = "$working\\" . $user_ID . $letter . '.par';
-            }
-            else {
-                $filename = "$working/" . $user_ID . $letter . '.par';
-            }
+            $filename   = "$working/" . $user_ID . $letter . '.par';
             if ( !( -e $filename ) ) { last }
         }
-        if ( $platform eq 'pc' ) {
-            $dest = "$working\\" . $user_ID . $nextletter . '.par';
-            `copy $climate_file $dest`;
-            exec "perl ../rc/rockclim.pl -server -u$units $comefrom";
-        }
-        else {
-            $dest = "$working/" . $user_ID . $nextletter . '.par';
-            `cp $climate_file $dest`;
-            exec "../rc/rockclim.pl -server -u$units $comefrom";
-        }
+        $dest = "$working/" . $user_ID . $nextletter . '.par';
+        `cp $climate_file $dest`;
+        exec "../rc/rockclim.pl -server -u$units $comefrom";
     }    # /personal/
 
     if ( $comefrom eq "" ) {
@@ -211,7 +144,7 @@ if ( $states{$state} && $station =~ /^[\w.]*$/ ) {
     else {
         print "<a href=$comefrom>";
     }
-    print '<img src="https://', $wepphost, '/fswepp/images/retreat.gif"
+    print '<img src="/fswepp/images/retreat.gif"
        alt="Retreat" border="0" align=center></a>';
     print "<font size=-2>
 copypar.pl version $version, (a part of Rock:Clim)<br>
@@ -220,39 +153,3 @@ U.S.D.A. Forest Service, Rocky Mountain Research Station
 ";
     print "</body></html>\n";
 }    # end state and station OK
-
-# ------------------------------
-
-sub ReadParse {
-
-    # ReadParse -- from cgi-lib.pl (Steve Brenner) from Eric Herrmann's
-    # "Teach Yourself CGI Programming With PERL in a Week" p. 131
-
-    # Reads GET or POST data, converts it to unescaped text, and puts
-    # one key=value in each member of the list "@in"
-    # Also creates key/value pairs in %in, using '\0' to separate multiple
-    # selections
-
-    # If a variable-glob parameter...
-
-    local (*in) = @_ if @_;
-    local ( $i, $loc, $key, $val );
-    if ( $ENV{'REQUEST_METHOD'} eq "GET" ) {
-        $in = $ENV{'QUERY_STRING'};
-    }
-    elsif ( $ENV{'REQUEST_METHOD'} eq "POST" ) {
-        read( STDIN, $in, $ENV{'CONTENT_LENGTH'} );
-    }
-    @in = split( /&/, $in );
-    foreach $i ( 0 .. $#in ) {
-        $in[$i] =~ s/\+/ /g;    # Convert pluses to spaces
-        ( $key, $val ) = split( /=/, $in[$i], 2 );    # Split into key and value
-        $key =~ s/%(..)/pack("c",hex($1))/ge
-          ;    # Convert %XX from hex numbers to alphanumeric
-        $val =~ s/%(..)/pack("c",hex($1))/ge;
-        $in{$key} .= "\0"
-          if ( defined( $in{$key} ) );    # \0 is the multiple separator
-        $in{$key} .= $val;
-    }
-    return 1;
-}

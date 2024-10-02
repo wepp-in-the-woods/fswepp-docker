@@ -1,4 +1,4 @@
-#! /usr/bin/perl
+#!/usr/bin/perl
 
 # whrmtail.pl ## report last *lines* lines of WHRM run log
 

@@ -1,4 +1,4 @@
-#! /usr/bin/perl
+#!/usr/bin/perl
 
 #  scan Fuels Synthesis run logs to report number of entries, and age of last entry
 #  allow click to individual model run log report

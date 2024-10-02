@@ -1,4 +1,4 @@
-#! /fsapps/fssys/bin/perl
+
 
   @par = <*.par>;
   foreach $par (@par) {

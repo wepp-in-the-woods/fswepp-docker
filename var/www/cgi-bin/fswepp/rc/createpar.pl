@@ -1,5 +1,6 @@
-#! /usr/bin/perl
+#!/usr/bin/perl
 
+use CGI;
 use CGI qw(escapeHTML);
 
 # createpar.pl
@@ -15,29 +16,29 @@ use CGI qw(escapeHTML);
 # 07/19/2000 DEH added user_ID code; worked on working directory spec
 # 05/16/2000 DEH changed climate par file suffix letter a..e to v..z (a..e for unmodified personal, v..z for modified)
 
-&ReadParse(*parameters);
+$cgi = CGI->new;
 
-$ftelev         = escapeHTML( $parameters{'ftelev'} );
-$melev          = escapeHTML( $parameters{'melev'} );
-$units          = escapeHTML( $parameters{'units'} );
-$newlat         = escapeHTML( $parameters{'latitude'} );
-$newlong        = escapeHTML( $parameters{'longitude'} );
-$climateFile    = escapeHTML( $parameters{'climateFile'} );
-$lathemisphere  = escapeHTML( $parameters{'lathemisphere'} );
-$longhemisphere = escapeHTML( $parameters{'longhemisphere'} );
+$ftelev         = escapeHTML( $cgi->param('ftelev') );
+$melev          = escapeHTML( $cgi->param('melev') );
+$units          = escapeHTML( $cgi->param('units') );
+$newlat         = escapeHTML( $cgi->param('latitude') );
+$newlong        = escapeHTML( $cgi->param('longitude') );
+$climateFile    = escapeHTML( $cgi->param('climateFile') );
+$lathemisphere  = escapeHTML( $cgi->param('lathemisphere') );
+$longhemisphere = escapeHTML( $cgi->param('longhemisphere') );
 
 for $i ( 1 .. 12 ) {
-    $mean_p[ $i - 1 ]  = escapeHTML( $parameters{"pc$i"} );
-    $tmn[ $i - 1 ]     = escapeHTML( $parameters{"tn$i"} );
-    $tmx[ $i - 1 ]     = escapeHTML( $parameters{"tx$i"} );
-    $num_wet[ $i - 1 ] = escapeHTML( $parameters{"nw$i"} );
-    $pww[ $i - 1 ]     = escapeHTML( $parameters{"pww$i"} );
-    $pwd[ $i - 1 ]     = escapeHTML( $parameters{"pwd$i"} );
+    $mean_p[ $i - 1 ]  = escapeHTML( $cgi->param("pc$i") );
+    $tmn[ $i - 1 ]     = escapeHTML( $cgi->param("tn$i") );
+    $tmx[ $i - 1 ]     = escapeHTML( $cgi->param("tx$i") );
+    $num_wet[ $i - 1 ] = escapeHTML( $cgi->param("nw$i") );
+    $pww[ $i - 1 ]     = escapeHTML( $cgi->param("pww$i") );
+    $pwd[ $i - 1 ]     = escapeHTML( $cgi->param("pwd$i") );
 }
 
-$comefrom  = escapeHTML( $parameters{'comefrom'} );
-$newheader = escapeHTML( $parameters{'newname'} );
-$me        = escapeHTML( $parameters{'me'} );
+$comefrom  = escapeHTML( $cgi->param('comefrom') );
+$newheader = escapeHTML( $cgi->param('newname') );
+$me        = escapeHTML( $cgi->param('me') );
 
 if ( $me ne "" ) {
     $me = substr( $me, 0, 1 );
@@ -216,51 +217,6 @@ else {
 
 #---------------------------
 
-sub ReadParse {
-
-    # ReadParse -- from cgi-lib.pl (Steve Brenner) from Eric Herrmann's
-    # "Teach Yourself CGI Programming With PERL in a Week" p. 131
-
-    # Reads GET or POST data, converts it to unescaped text, and puts
-    # one key=value in each member of the list "@in"
-    # Also creates key/value pairs in %in, using '\0' to separate multiple
-    # selections
-
-    # If a variable-glob parameter...
-
-    local (*in) = @_ if @_;
-    local ( $i, $loc, $key, $val );
-
-    if ( $ENV{'REQUEST_METHOD'} eq "GET" ) {
-        $in = $ENV{'QUERY_STRING'};
-    }
-    elsif ( $ENV{'REQUEST_METHOD'} eq "POST" ) {
-        read( STDIN, $in, $ENV{'CONTENT_LENGTH'} );
-    }
-
-    @in = split( /&/, $in );
-
-    foreach $i ( 0 .. $#in ) {
-
-        # Convert pluses to spaces
-        $in[$i] =~ s/\+/ /g;
-
-        # Split into key and value
-        ( $key, $val ) = split( /=/, $in[$i], 2 );    # splits on the first =
-
-        # Convert %XX from hex numbers to alphanumeric
-        $key =~ s/%(..)/pack("c",hex($1))/ge;
-        $val =~ s/%(..)/pack("c",hex($1))/ge;
-
-        # Associative key and value
-        $in{$key} .= "\0"
-          if ( defined( $in{$key} ) );    # \0 is the multiple separator
-        $in{$key} .= $val;
-    }
-    return 1;
-}
-
-#---------------------------
 
 sub printdate {
 
@@ -275,19 +231,7 @@ sub printdate {
     if ( $hour == 12 ) { $ampmi = 1 }
     if ( $hour > 12 )  { $ampmi = 1; $hour = $hour - 12 }
 
-    #    printf NEWPAR "%0.2d:%0.2d ", $hour, $min;
-    #    print NEWPAR $ampm[$ampmi],"  ",$days[$wday],";
     print NEWPAR $months[$mon];
     print NEWPAR " ", $mday, ", ", $year + 1900;
 
-    #    print NEWPAR " GMT/UTC/Zulu<br>\n";
-
-    #    $ampmi = 0;
-    #    ($sec,$min,$hour,$mday,$mon,$year,$wday,$yday,$isdst)=localtime;
-    #    if ($hour == 12) {$ampmi = 1}
-    #    if ($hour > 12) {$ampmi = 1; $hour = $hour - 12}
-    #    printf NEWPAR "%0.2d:%0.2d ", $hour, $min;
-    #    print NEWPAR $ampm[$ampmi],"  ",$days[$wday],";
-    #    print NEWPAR $months[$mon];
-    #    print NEWPAR " ",$mday,", ",$year+1900, " Pacific Time";
 }

@@ -1,4 +1,4 @@
-#! /usr/bin/perl
+#!/usr/bin/perl
 
 # read file name from command line
 # clean up -- 'wepp-ddddd'

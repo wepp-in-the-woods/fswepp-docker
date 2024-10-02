@@ -1,4 +1,4 @@
-#! /usr/bin/perl
+#!/usr/bin/perl
 
 # Known calls from: people/who2.pl?name=sbear
 #                   /cgi-bin/people/popcomment.pl?title=Smokey%20BBear&recipient=sbear&referer=webpage.html

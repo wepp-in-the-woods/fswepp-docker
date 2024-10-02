@@ -1,6 +1,7 @@
-#! /usr/bin/perl
+#!/usr/bin/perl
 
 use warnings;
+use CGI;
 use CGI qw(escapeHTML);
 use Scalar::Util 'looks_like_number';
 use lib '/var/www/cgi-bin/fswepp/dry';
@@ -31,7 +32,8 @@ $weppversion = "wepp2010";
 ## BEGIN HISTORY ###################################
 ## Tahoe Basin Sediment Model version history
 
-$version = '2014.04.38'; # Increase phosphate sediment concentration upper limit to reflect ongoing research results
+$version = '2014.04.38'
+  ; # Increase phosphate sediment concentration upper limit to reflect ongoing research results
 
 #  $version = '2012.12.31';     # complete move to year-based logging (2012 through 2020)
 #  $version = '2012.11.13';	# Fix fines analysis to pick up varying percent silt and clay in all size classes
@@ -58,32 +60,32 @@ print "Content-type: text/html\n\n";
 
 #=========================================================================
 
-&ReadParse(*parameters);    # 2012.08.31 DEH
-$CL             = escapeHTML( $parameters{'Climate'} );
-$soil           = escapeHTML( $parameters{'SoilType'} );
-$treat1         = escapeHTML( $parameters{'UpSlopeType'} );
-$ofe1_length    = escapeHTML( $parameters{'ofe1_length'} ) + 0;
-$ofe1_top_slope = escapeHTML( $parameters{'ofe1_top_slope'} ) + 0;
-$ofe1_mid_slope = escapeHTML( $parameters{'ofe1_mid_slope'} ) + 0;
-$ofe1_pcover    = escapeHTML( $parameters{'ofe1_pcover'} ) + 0;
-$ofe1_rock      = escapeHTML( $parameters{'ofe1_rock'} ) + 0;
-$treat2         = escapeHTML( $parameters{'LowSlopeType'} );
-$ofe2_length    = escapeHTML( $parameters{'ofe2_length'} ) + 0;
-$ofe2_mid_slope = escapeHTML( $parameters{'ofe2_top_slope'} ) + 0;
-$ofe2_bot_slope = escapeHTML( $parameters{'ofe2_bot_slope'} ) + 0;
-$ofe2_pcover    = escapeHTML( $parameters{'ofe2_pcover'} ) + 0;
-$ofe2_rock      = escapeHTML( $parameters{'ofe2_rock'} ) + 0;
-$ofe_area       = escapeHTML( $parameters{'ofe_area'} ) + 0;
+my $cgi = CGI->new;
+$CL             = escapeHTML( $cgi->param('Climate') );
+$soil           = escapeHTML( $cgi->param('SoilType') );
+$treat1         = escapeHTML( $cgi->param('UpSlopeType') );
+$ofe1_length    = escapeHTML( $cgi->param('ofe1_length') ) + 0;
+$ofe1_top_slope = escapeHTML( $cgi->param('ofe1_top_slope') ) + 0;
+$ofe1_mid_slope = escapeHTML( $cgi->param('ofe1_mid_slope') ) + 0;
+$ofe1_pcover    = escapeHTML( $cgi->param('ofe1_pcover') ) + 0;
+$ofe1_rock      = escapeHTML( $cgi->param('ofe1_rock') ) + 0;
+$treat2         = escapeHTML( $cgi->param('LowSlopeType') );
+$ofe2_length    = escapeHTML( $cgi->param('ofe2_length') ) + 0;
+$ofe2_mid_slope = escapeHTML( $cgi->param('ofe2_top_slope') ) + 0;
+$ofe2_bot_slope = escapeHTML( $cgi->param('ofe2_bot_slope') ) + 0;
+$ofe2_pcover    = escapeHTML( $cgi->param('ofe2_pcover') ) + 0;
+$ofe2_rock      = escapeHTML( $cgi->param('ofe2_rock') ) + 0;
+$ofe_area       = escapeHTML( $cgi->param('ofe_area') ) + 0;
 $action =
-    escapeHTML( $parameters{'actionc'} )
-  . escapeHTML( $parameters{'actionv'} )
-  . escapeHTML( $parameters{'actionw'} )
-  . escapeHTML( $parameters{'ActionCD'} );
-$me          = escapeHTML( $parameters{'me'} );
-$units       = escapeHTML( $parameters{'units'} );
-$achtung     = escapeHTML( $parameters{'achtung'} );
-$climyears   = escapeHTML( $parameters{'climyears'} );
-$description = escapeHTML( $parameters{'description'} );
+    escapeHTML( $cgi->param('actionc') )
+  . escapeHTML( $cgi->param('actionv') )
+  . escapeHTML( $cgi->param('actionw') )
+  . escapeHTML( $cgi->param('ActionCD') );
+$me          = escapeHTML( $cgi->param('me') );
+$units       = escapeHTML( $cgi->param('units') );
+$achtung     = escapeHTML( $cgi->param('achtung') );
+$climyears   = escapeHTML( $cgi->param('climyears') );
+$description = escapeHTML( $cgi->param('description') );
 
 #  determine which week the model is being run, for recording in the weekly runs log
 
@@ -116,24 +118,23 @@ $thisdayoff = $thisday + $dayoffset;
 $thisweek   = 1 + int $thisdayoff / 7;
 
 #  print "[$dayoffset] Julian day $thisday, $thisyear: week $thisweek\n";
-
 # future climates
-$fc          = escapeHTML( $parameters{'fc'} );    # future climate input screen
-$startYear   = escapeHTML( $parameters{'startyear'} );    # DEH 2012.08.27
+$fc          = escapeHTML( $cgi->param('fc') );    # future climate input screen
+$startYear   = escapeHTML( $cgi->param('startyear') );    # DEH 2012.08.27
 $fullCliFile = escapeHTML( $CL . '.cli' );                # DEH 2012.08.21
 
 # fines
-$fines_upper = escapeHTML( $parameters{'fines_upper'} )
+$fines_upper = escapeHTML( $cgi->param('fines_upper') )
   ;    # upper limit for fines analysis (microns) [4..62.5]
 
 # phosphorus concentration parameter input values
 
-$sr_conc = escapeHTML( $parameters{'sr_conc'} )
+$sr_conc = escapeHTML( $cgi->param('sr_conc') )
   ;    # surface runoff phosphorus concentration
 $lf_conc =
-  escapeHTML( $parameters{'lf_conc'} );  # lateral flow phosphorus concentration
+  escapeHTML( $cgi->param('lf_conc') );  # lateral flow phosphorus concentration
 $sed_conc =
-  escapeHTML( $parameters{'sed_conc'} );    # sediment phosphorus concentration
+  escapeHTML( $cgi->param('sed_conc') );    # sediment phosphorus concentration
 
 $sr_conc_in        = $sr_conc;
 $lf_conc_in        = $lf_conc;
@@ -216,8 +217,8 @@ if ( lc($achtung) =~ /describe climate/ ) {
 }    # /describe climate/
 
 if ( lc($achtung) =~ /describe soil/ ) {    ##########
-    $units    = escapeHTML( $parameters{'units'} );
-    $SoilType = escapeHTML( $parameters{'SoilType'} );
+    $units    = escapeHTML( $cgi->param('units') );
+    $SoilType = escapeHTML( $cgi->param('SoilType') );
     $soilPath = 'data/';
 
     $surf = "";
@@ -510,7 +511,8 @@ if ( $rcin eq '' ) {
     }
     else {
         if ($verbose) { print "Creating Climate File<br>\n"; }
-        ($climateFile, $climatePar) = &CreateCligenFile($CL, $unique, $years2sim, $debug);
+        ( $climateFile, $climatePar ) =
+          &CreateCligenFile( $CL, $unique, $years2sim, $debug );
     }
     if ($verbose) { print "Creating Soil File<br>\n"; }
     &CreateSoilFile;
@@ -2318,42 +2320,6 @@ close RUNLOG;
 
 # ------------------------ subroutines ---------------------------
 
-sub ReadParse {
-
-    # ReadParse -- from cgi-lib.pl (Steve Brenner) from Eric Herrmann's
-    # "Teach Yourself CGI Programming With PERL in a Week" p. 131
-
-    # Reads GET or POST data, converts it to unescaped text, and puts
-    # one key=value in each member of the list "@in"
-    # Also creates key/value pairs in %in, using '\0' to separate multiple
-    # selections
-
-    local (*in) = @_ if @_;
-    local ( $i, $loc, $key, $val );
-
-    #       read text
-    if ( $ENV{'REQUEST_METHOD'} eq "GET" ) {
-        $in = $ENV{'QUERY_STRING'};
-    }
-    elsif ( $ENV{'REQUEST_METHOD'} eq "POST" ) {
-        read( STDIN, $in, $ENV{'CONTENT_LENGTH'} );
-    }
-    @in = split( /&/, $in );
-    foreach $i ( 0 .. $#in ) {
-        $in[$i] =~ s/\+/ /g;    # Convert pluses to spaces
-        ( $key, $val ) = split( /=/, $in[$i], 2 );    # Split into key and value
-        $key =~ s/%(..)/pack("c",hex($1))/ge
-          ;    # Convert %XX from hex numbers to alphanumeric
-        $val =~ s/%(..)/pack("c",hex($1))/ge;
-        $in{$key} .= "\0"
-          if ( defined( $in{$key} ) );    # \0 is the multiple separator
-        $in{$key} .= $val;
-    }
-    return 1;
-}
-
-#---------------------------
-
 sub printdate {
 
     @months =
@@ -3380,7 +3346,6 @@ $years2sim\t# `nrots' - <rotation repeats..>
 #####################################
 
 sub WaterBalanceSum() {    ###################### Water Balance
-
 
 # returns total precip, Q, Ep, Es, Dp, latqcc, sum from bottom OFE
 # variable-OFE file

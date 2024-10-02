@@ -1,4 +1,4 @@
-#! /usr/bin/perl
+#!/usr/bin/perl
 
 use CGI qw(escapeHTML);
 
@@ -17,11 +17,11 @@ use CGI qw(escapeHTML);
 
 #  to do: verify
 
-&ReadParse(*parameters);
+my $cgi = CGI->new;
 
-$count   = escapeHTML($parameters{'count'});
-$version = escapeHTML($parameters{'version'});
-$climate = escapeHTML($parameters{'climate'});
+$count   = escapeHTML($cgi->param('count'));
+$version = escapeHTML($cgi->param('version'));
+$climate = escapeHTML($cgi->param('climate'));
 
 #   Determine caller's ID
 
@@ -78,39 +78,3 @@ print $count,   "\t";
 
 #      print  '"',trim($location),"\"\n";
 print '"', $climate, "\"\n";
-
-# ------------------------ subroutines ---------------------------
-
-sub ReadParse {
-
-    # ReadParse -- from cgi-lib.pl (Steve Brenner) from Eric Herrmann's
-    # "Teach Yourself CGI Programming With PERL in a Week" p. 131
-
-    # Reads GET or POST data, converts it to unescaped text, and puts
-    # one key=value in each member of the list "@in"
-    # Also creates key/value pairs in %in, using '\0' to separate multiple
-    # selections
-
-    local (*in) = @_ if @_;
-    local ( $i, $loc, $key, $val );
-
-    #       read text
-    if ( $ENV{'REQUEST_METHOD'} eq "GET" ) {
-        $in = $ENV{'QUERY_STRING'};
-    }
-    elsif ( $ENV{'REQUEST_METHOD'} eq "POST" ) {
-        read( STDIN, $in, $ENV{'CONTENT_LENGTH'} );
-    }
-    @in = split( /&/, $in );
-    foreach $i ( 0 .. $#in ) {
-        $in[$i] =~ s/\+/ /g;    # Convert pluses to spaces
-        ( $key, $val ) = split( /=/, $in[$i], 2 );    # Split into key and value
-        $key =~ s/%(..)/pack("c",hex($1))/ge
-          ;    # Convert %XX from hex numbers to alphanumeric
-        $val =~ s/%(..)/pack("c",hex($1))/ge;
-        $in{$key} .= "\0"
-          if ( defined( $in{$key} ) );    # \0 is the multiple separator
-        $in{$key} .= $val;
-    }
-    return 1;
-}

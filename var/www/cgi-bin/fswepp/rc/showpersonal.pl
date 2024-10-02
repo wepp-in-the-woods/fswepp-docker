@@ -1,4 +1,4 @@
-#! /usr/bin/perl
+#!/usr/bin/perl
 #!/fsapps/fssys/bin/perl
 
 # showpersonal.pl  --

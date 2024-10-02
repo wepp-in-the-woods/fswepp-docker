@@ -1,5 +1,5 @@
 #!/usr/bin/perl
-
+use CGI;
 use CGI qw(escapeHTML);
 
 #
@@ -93,9 +93,9 @@ $remote_address = $ENV{'REMOTE_ADDR'};    # if ($userIP eq '');
 $http_x_forwarded_for = $ENV{'HTTP_X_FORWARDED_FOR'};
 $http_cache_control   = $ENV{'HTTP_CACHE_CONTROL'};
 
-&ReadParse(*parameters);
-$units = escapeHTML($parameters{'units'});
-$debug = escapeHTML($parameters{'debug'});
+my $cgi = new CGI;
+$units = escapeHTML( $cgi->param('units') );
+$debug = escapeHTML( $cgi->param('debug') );
 
 if    ( $units eq 'm' )  { $areaunits = 'ha' }
 elsif ( $units eq 'ft' ) { $areaunits = 'ac' }
@@ -112,41 +112,17 @@ if ( $me ne "" ) {
     $me =~ tr/a-z/ /c;
 }
 if ( $me eq " " ) { $me = "" }
-$wepphost = "localhost";
-if ( -e "../wepphost" ) {
-    open Host, "<../wepphost";
-    $wepphost = <Host>;
-    chomp $wepphost;
-    close H;
-}
-$platform = "pc";
-if ( -e "../platform" ) {
-    open Platform, "<../platform";
-    $platform = lc(<Platform>);
-    chomp $platform;
-    close Platform;
-}
-if ( $platform eq "pc" ) {
-    if    ( -e 'd:/fswepp/working' ) { $working = 'd:\\fswepp\\working\\' }
-    elsif ( -e 'c:/fswepp/working' ) { $working = 'c:\\fswepp\\working\\' }
-    else                             { $working = '..\\working\\' }
-    $public  = $working . '\\public\\';
-    $logFile = "$working\\wdwepp.log";
-    $cliDir  = '..\\climates\\';
-    $custCli = "$working";
-}
-else {
-    $working     = '../working/';                             # DEH 08/22/2000
-    $public      = $working . 'public/';                      # DEH 09/21/2000
-    $user_ID     = $ENV{'REMOTE_ADDR'};
-    $user_really = $ENV{'HTTP_X_FORWARDED_FOR'};              # DEH 11/14/2002
-    $user_ID     = $user_really if ( $user_really ne '' );    # DEH 11/14/2002
-    $user_ID =~ tr/./_/;
-    $user_ID = $user_ID . $me . '_';                          # DEH 03/05/2001
-    $logFile = '../working/' . $user_ID . '.log';
-    $cliDir  = '../climates/';
-    $custCli = '../working/' . $user_ID;                      # DEH 03/02/2001
-}
+
+$working     = '../working/';                                 # DEH 08/22/2000
+$public      = $working . 'public/';                          # DEH 09/21/2000
+$user_ID     = $ENV{'REMOTE_ADDR'};
+$user_really = $ENV{'HTTP_X_FORWARDED_FOR'};                  # DEH 11/14/2002
+$user_ID     = $user_really if ( $user_really ne '' );        # DEH 11/14/2002
+$user_ID =~ tr/./_/;
+$user_ID = $user_ID . $me . '_';                              # DEH 03/05/2001
+$logFile = '../working/' . $user_ID . '.log';
+$cliDir  = '../climates/';
+$custCli = '../working/' . $user_ID;                          # DEH 03/02/2001
 
 ########################################
 
@@ -1239,9 +1215,8 @@ print ' <BODY link="#555555" vlink="#555555" onLoad="StartUp()">
   <font face="Arial, Geneva, Helvetica">
   <table width=100% border=0>
     <tr><td> 
-       <a href="https://', $wepphost, '/fswepp/">
-       <IMG src="https://', $wepphost,
-  '/fswepp/images/fsweppic2.jpg" width=75 height=75
+       <a href="/fswepp/">
+       <IMG src="/fswepp/images/fsweppic2.jpg" width=75 height=75
        name="fswepplogo"
        align="left" alt="Back to FS WEPP menu" border=0></a>
     <td align=center>
@@ -1254,16 +1229,12 @@ print ' <BODY link="#555555" vlink="#555555" onLoad="StartUp()">
         <hr>
       </h2>
       <td>
-       <a href="https://', $wepphost, '/fswepp/docs/ermit/" target="docs">
-       <img src="https://', $wepphost,
-  '/fswepp/images/epage.gif" title="Read ERMiT documentation online"
+       <a href="/fswepp/docs/ermit/" target="docs">
+       <img src="/fswepp/images/epage.gif" title="Read ERMiT documentation online"
         align="right" alt="Read the documentation" border=0></a>
     </table>
   <center>
-  <!-- FORM name="ermit" method="post" ACTION="https://', $wepphost,
-  '/cgi-bin/fswepp/ermit/erm100cfl.pl" -->
-  <FORM name="ermit" method="post" ACTION="https://', $wepphost,
-  '/cgi-bin/fswepp/ermit/erm.pl">
+  <FORM name="ermit" method="post" ACTION="/cgi-bin/fswepp/ermit/erm.pl">
 <input type="hidden" size="1" name="me" value="',    $me,    '">
 <input type="hidden" size="1" name="units" value="', $units, '">
 <input type="hidden" size="1" name="debug" value="', $debug, '">
@@ -1480,12 +1451,6 @@ print <<'theEnd';
            onFocus="showRange(this.form,'Bare cover calculated: ',0,100,'%')"
            onBlur="javascvript:bare()">  %&nbsp;bare <!-- no change -->
        </td>
-       <td>
-        <font size=-2><!-- input name="ptcheck" type="checkbox" --><!-- prob. table -->
-                      <!-- input name="rtc" type="checkbox" --><!-- &tau;_c --></font>
-        <font size=-2><!-- input name="new_cligen" type="checkbox" --><!-- Cligen 5.22564 --></font>
-        <font size=-2><!-- input name="new_range" type="checkbox"  --><!-- New range soils --></font>
-       </td>
      </tr>
   </TABLE>
    <input type="hidden" name="climate_name">
@@ -1495,9 +1460,6 @@ print <<'theEnd';
      <INPUT TYPE="SUBMIT" name="actionw" VALUE="Run ERMiT"
        onClick='RunningMsg3(this.form.actionw,"Running ERMiT..."); this.form.achtung.value="Run WEPP"'>
        <font size=1>
-  <!-- input type=Radio name="weppversion" value="2000" -->
-  <!-- input type=Radio name="weppversion" value="2008" checked -->
-  <!-- a href="/fswepp/weppver2008.html" target="weppver" WEPP 2008 /a -->
        </font>
    </center>
   </form>
@@ -1505,22 +1467,6 @@ print <<'theEnd';
 
 theEnd
 
-#print '
-#  <font size=1>
-#   <a href="https://',$wepphost,'/fswepp/comments.html" ';
-#if ($wepphost eq 'localhost') {print 'onClick="return confirm(\'You must be connected to the Internet to e-mail comments. Shall I try?\')"'};
-#print '><img src="https://',$wepphost,'/fswepp/images/epaemail.gif" align="right" border=0></a>
-#   Interface v. ',$version,' (for review only).<br>
-#   <b>Peter R. Robichaud</b> and <b>William J. Elliot,</b>
-#   USDA Forest Service, Rocky Mountain Research Station, Moscow, ID<br>
-#   <b>Fredrick B. Pierson</b> and <b>Corey A. Moffet,</b>
-#   USDA Agricultural Research Service, Northwest Watershed Research Center, Boise, ID<br>';
-
-#
-# to do: calculate value of year below and for report at end (or YTD) or ultimately have fancier report
-#
-# $wc  = `wc ../working/_2016/we.log`;
-# $wc  = `wc ../working/_2017/we.log`;
 $wc    = `wc ../working/' . currentLogDir() . '/we.log`;
 @words = split " ", $wc;
 $runs  = @words[0];
@@ -1554,22 +1500,6 @@ ERMiT version <a href="javascript:popuphistory()">', $version, '</a>
         [Online at &lt;https://forest.moscowfsl.wsu.edu/fswepp/&gt;.]
         Moscow, ID: U.S. Department of Agriculture, Forest Service, Rocky Mountain Research Station.
 </p>
-        <!-- Peter R. Robichaud, William J. Elliot, and <b>David E. Hall,
-        USDA Forest Service, Rocky Mountain Research Station, Moscow, ID
-        Fredrick B. Pierson and Corey A. Moffet,
-        USDA Agricultural Research Service, Northwest Watershed Research Center, Boise, ID
-        -->
-
-<!-- 17,507 runs in 2013 -->
-<!--        runs in 2012 -->
-<!--        runs in 2011 -->
-<!--        runs in 2010 -->
-<!--  2,110 runs in 2009 -->
-<!--  2,687 runs in 2008 -->
-<!--  2,874 runs in 2007 -->
-<!--  2,066 runs in 2006 -->
-<!--        runs in 2005 -->
-<!--  1,550 runs in 2004 -->
 
         <b>', $runs, '</b> ERMiT runs YTD<br>
 ';
@@ -1590,8 +1520,6 @@ print '
        </font>
       </td>
       <td valign="top" rowspan=2>
-       <a href="https://', $wepphost,
-'/fswepp/comments.html" title="Send comments to the FS WEPP development team"><img src="/fswepp/images/epaemail.gif" align="right" border=0></a>
       </td>
      </tr>
      <tr>
@@ -1612,50 +1540,6 @@ print '
 ';
 
 # --------------------- subroutines
-
-sub ReadParse {
-
-    # ReadParse -- from cgi-lib.pl (Steve Brenner) from Eric Herrmann's
-    # "Teach Yourself CGI Programming With PERL in a Week" p. 131
-
-    # Reads GET or POST data, converts it to unescaped text, and puts
-    # one key=value in each member of the list "@in"
-    # Also creates key/value pairs in %in, using '\0' to separate multiple
-    # selections
-
-    # If a variable-glob parameter...
-
-    local (*in) = @_ if @_;
-    local ( $i, $loc, $key, $val );
-
-    if ( $ENV{'REQUEST_METHOD'} eq "GET" ) {
-        $in = $ENV{'QUERY_STRING'};
-    }
-    elsif ( $ENV{'REQUEST_METHOD'} eq "POST" ) {
-        read( STDIN, $in, $ENV{'CONTENT_LENGTH'} );
-    }
-
-    @in = split( /&/, $in );
-
-    foreach $i ( 0 .. $#in ) {
-
-        # Convert pluses to spaces
-        $in[$i] =~ s/\+/ /g;
-
-        # Split into key and value
-        ( $key, $val ) = split( /=/, $in[$i], 2 );    # splits on the first =
-
-        # Convert %XX from hex numbers to alphanumeric
-        $key =~ s/%(..)/pack("c",hex($1))/ge;
-        $val =~ s/%(..)/pack("c",hex($1))/ge;
-
-        # Associative key and value
-        $in{$key} .= "\0"
-          if ( defined( $in{$key} ) );    # \0 is the multiple separator
-        $in{$key} .= $val;
-    }
-    return 1;
-}
 
 sub make_history_popup {
 

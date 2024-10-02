@@ -1,4 +1,4 @@
-#! /usr/bin/perl
+#!/usr/bin/perl
 
 use URI::Escape;
 use CGI qw(:standard);

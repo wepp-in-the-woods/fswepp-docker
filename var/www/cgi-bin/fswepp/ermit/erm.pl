@@ -1,10 +1,10 @@
 #!/usr/bin/perl
 
 use warnings;
+use CGI;
 use CGI qw(escapeHTML);
 use lib '/var/www/cgi-bin/fswepp/dry';
-use CligenUtils qw(GetParSummary);
-
+use CligenUtils qw(CreateCligenFile GetParSummary);
 use String::Util qw(trim);
 
 #
@@ -20,7 +20,8 @@ $verbose = 0;
 $debug       = 0;           # DEH 2014-02-07 over-ride command-line
 $new_range   = 1;           # 2005.09.13 DEH Solidify new range values
 $new_cligen  = 0;           # 2005.09.13 DEH # 2005.10.12 DEH
-$weppversion = "wepp2010";  # 2014.02.07 DEH 2000 or 2010; WEPP 2010 needs frost.txt file in ERMiT directory to give 'correct' results
+$weppversion = "wepp2010"
+  ; # 2014.02.07 DEH 2000 or 2010; WEPP 2010 needs frost.txt file in ERMiT directory to give 'correct' results
 
 # -rw-r--r-x    1 dhall    water      239402 Apr  2  2007 erm.pl
 # add path for gnuplot exec for new server 2009_07_13 DEH
@@ -158,40 +159,34 @@ else                        { $dayoffset = 0 }
 $thisdayoff = $thisday + $dayoffset;
 $thisweek   = 1 + int $thisdayoff / 7;
 
-&ReadParse(*parameters);
+$rtc = 0;
 
-$rtc              = 0;
+my $cgi = CGI->new;
 
-$pt               = 1 if ( escapeHTML($parameters{'ptcheck'}) =~ 'on' );
-$me               = escapeHTML($parameters{'me'});
-$units            = escapeHTML($parameters{'units'});
-$debug            = escapeHTML($parameters{'debug'});
-$CL               = escapeHTML($parameters{'Climate'});
-$climate_name     = escapeHTML($parameters{'climate_name'});
-$SoilType         = escapeHTML($parameters{'SoilType'});
-$rfg              = escapeHTML($parameters{'rfg'});
-$vegtype          = escapeHTML($parameters{'vegetation'});
-$top_slope        = escapeHTML($parameters{'top_slope'});
-$avg_slope        = escapeHTML($parameters{'avg_slope'});
-$toe_slope        = escapeHTML($parameters{'toe_slope'});
-$hillslope_length = escapeHTML($parameters{'length'});
-$severityclass    = escapeHTML($parameters{'severity'});
-$shrub            = escapeHTML($parameters{'pct_shrub'});
-$grass            = escapeHTML($parameters{'pct_grass'});
-$bare             = escapeHTML($parameters{'pct_bare'});
-$achtung          = escapeHTML($parameters{'achtung'});
-$action           = escapeHTML($parameters{'actionc'}) . escapeHTML($parameters{'actionw'});
+$pt               = 1 if ( $cgi->param('ptcheck') =~ 'on' );
+$me               = escapeHTML($cgi->param('me'));
+$units            = escapeHTML($cgi->param('units'));
+$debug            = escapeHTML($cgi->param('debug'));
+$CL               = escapeHTML($cgi->param('Climate'));
+$climate_name     = escapeHTML($cgi->param('climate_name'));
+$SoilType         = escapeHTML($cgi->param('SoilType'));
+$rfg              = escapeHTML($cgi->param('rfg'));
+$vegtype          = escapeHTML($cgi->param('vegetation'));
+$top_slope        = escapeHTML($cgi->param('top_slope'));
+$avg_slope        = escapeHTML($cgi->param('avg_slope'));
+$toe_slope        = escapeHTML($cgi->param('toe_slope'));
+$hillslope_length = escapeHTML($cgi->param('length'));
+$severityclass    = escapeHTML($cgi->param('severity'));
+$shrub            = escapeHTML($cgi->param('pct_shrub'));
+$grass            = escapeHTML($cgi->param('pct_grass'));
+$bare             = escapeHTML($cgi->param('pct_bare'));
+$achtung          = escapeHTML($cgi->param('achtung'));
+$action           = escapeHTML($cgi->param('actionc')) . escapeHTML($cgi->param('actionw'));
+
 if ( $achtung . $action eq '' ) { &bomb; die }
 
 $vegtype_x = $vegtype;                                 # 2004.10.07 DEH
 $vegtype_x = 'chaparral' if ( $vegtype eq 'chap' );    # 2004.10.07 DEH
-
-#@#   $wgr = 1 if ($me eq 'g');							# DEH 2004.03.16
-### $wgr=1; #$#$$#
-#   $debug = 1 if ($wgr);							# DEH 2004.03.18
-#   $debug = 1 if ($me eq 'q');							# DEH 2006.04.05
-#   $zoop = 1 if ($me eq 'q');							# DEH 2006.04.05
-#   $pt = 1 if ($me eq 'q');							# DEH 2006.04.05
 
 if ( $SoilType eq 'clay' ) {
     $soil_texture = 'clay loam';
@@ -230,78 +225,32 @@ $rfg += 0;
 $rfg = 05 if ( $rfg < 05 );
 $rfg = 85 if ( $rfg > 85 );
 
-$wepphost = "localhost";
-if ( -e "../wepphost" ) {
-    open HOST, "<../wepphost";
-    $wepphost = lc(<HOST>);
-    chomp $wepphost;
-    if ( $wepphost eq "" ) { $wepphost = "Localhost" }
-    close HOST;
-}
-
-$platform = "unix";
-if ( -e "../platform" ) {
-    open PLATFORM, "<../platform";
-    $platform = lc(<PLATFORM>);
-    chomp $platform;
-    if ( $platform eq "" ) { $platform = "unix" }
-    close PLATFORM;
-}
-
 ################  CUSTOM CLIMATE ############################
 
 if ( lc($action) =~ /custom/ ) {
-    $comefrom = "https://" . $wepphost . "/cgi-bin/fswepp/ermit/ermit.pl";
-    if ( $platform eq "pc" ) {
-        exec "perl ../rc/rockclim.pl -server -i$me -u$units $comefrom";
-    }
-    else {
-        exec "../rc/rockclim.pl -server -i$me -u$units $comefrom";
-    }
+    $comefrom = "/cgi-bin/fswepp/ermit/ermit.pl";
+    exec "../rc/rockclim.pl -server -i$me -u$units $comefrom";
     die;
-}    # /custom/
+}                                            # /custom/
 
 ############### DESCRIBE CLIMATE #################
 
 if ( lc($achtung) =~ /describe climate/ ) {
-    $comefrom = "https://" . $wepphost . "/cgi-bin/fswepp/ermit/ermit.pl";
-    if ( $platform eq "pc" ) {
-
-        #       exec "perl ../rc/descpar.pl $CL $comefrom"
-        #     }
-        #     else {
-        #       exec "../rc/descpar.pl $CL $comefrom"
-        #     }
-        exec "perl ../rc/descpar.pl $CL $units $comefrom";
-    }
-    else {
-        exec "../rc/descpar.pl $CL $units $comefrom";
-    }
+    $comefrom = "/cgi-bin/fswepp/ermit/ermit.pl";
+    exec "../rc/descpar.pl $CL $units $comefrom";
     die;
-}    # /describe climate/
+}                                            # /describe climate/
 
 ####################  set up file names and paths
 
-if ( $platform eq "pc" ) {
-    if    ( -e 'd:/fswepp/working' ) { $working = 'd:\\fswepp\\working' }
-    elsif ( -e 'c:/fswepp/working' ) { $working = 'c:\\fswepp\\working' }
-    else                             { $working = '..\\working' }
-    if ( -e 'c:/fswepp/working' ) {
-        $runLogFile = 'c:\\fswepp\\working\\wepprun.log';
-    }
-    else { $runLogFile = '..\\working\\wepprun.log' }
-    $div = '\\';
-}
-else {
-    $working     = '../working';
-    $user_ID     = $ENV{'REMOTE_ADDR'};
-    $user_really = $ENV{'HTTP_X_FORWARDED_FOR'};
-    $user_ID     = $user_really if ( $user_really ne '' );
-    $user_ID =~ tr/./_/;
-    $user_ID    = $user_ID . $me;
-    $runLogFile = "../working/" . $user_ID . ".run.log";
-    $div        = '/';
-}
+$working     = '../working';
+$user_ID     = $ENV{'REMOTE_ADDR'};
+$user_really = $ENV{'HTTP_X_FORWARDED_FOR'};
+$user_ID     = $user_really if ( $user_really ne '' );
+$user_ID =~ tr/./_/;
+$user_ID    = $user_ID . $me;
+$runLogFile = "../working/" . $user_ID . ".run.log";
+$div        = '/';
 
 ##### set up file names and paths #####
 
@@ -318,20 +267,19 @@ $CLIfile      = $workingpath . '.cli';        #  open INCLI, "<$CLIfile" or die;
 $shortCLIfile = $workingpath . '_' . '.cli';  #  open OUTCLI, ">$shortCLIfile";
 
 #   $manFile        = $workingpath . '.man';
-$manFile         = $datapath . 'high100.man';
-$eventFile       = $workingpath . '.event100';    # DEH 2003.02.06
-$tempFile        = $workingpath . '.temp';
-$gnuplotdatafile = $workingpath . '.gnudata';
-$gnuplotjclfile  = $workingpath . '.gnujcl';
-$gnuplotgraphpng = $workingpath . '.png';
-$gnuplotgrapheps = $workingpath . '.eps';
-$gnuplotgraphpl =
-  "https://$wepphost/cgi-bin/fswepp/ermit/servepng.pl?graph=$unique";
-$gnuplotgraphpath = "https://$wepphost/cgi-bin/fswepp/working/$unique.png";
+$manFile          = $datapath . 'high100.man';
+$eventFile        = $workingpath . '.event100';    # DEH 2003.02.06
+$tempFile         = $workingpath . '.temp';
+$gnuplotdatafile  = $workingpath . '.gnudata';
+$gnuplotjclfile   = $workingpath . '.gnujcl';
+$gnuplotgraphpng  = $workingpath . '.png';
+$gnuplotgrapheps  = $workingpath . '.eps';
+$gnuplotgraphpl   = "/cgi-bin/fswepp/ermit/servepng.pl?graph=$unique";
+$gnuplotgraphpath = "/cgi-bin/fswepp/working/$unique.png";
 
 # CLIGEN paths
 
-$climatePar    = $CL . '.par';
+$climatePar = $CL . '.par';
 $crspfile   = $workingpath . 'c.rsp';
 $cstoutfile = $workingpath . 'c.out';
 
@@ -345,13 +293,11 @@ $ev_by_evFile = $workingpath . '.event';
 
 ################## DESCRIBE SOIL ################
 
-if ( lc($achtung) =~ /describe soil/ ) {    ##########
+if ( lc($achtung) =~ /describe soil/ ) {
+    $units    = escapeHTML($cgi->param('units'));
+    $SoilType = escapeHTML($cgi->param('SoilType'));
 
-    $units    = $parameters{'units'};
-    $SoilType = $parameters{'SoilType'}
-      ;    # get SoilType (loam, sand, silt, clay, gloam, gsand, gsilt, gclay)
-
-    $comefrom = "https://" . $wepphost . "/cgi-bin/fswepp/ermit/ermit.pl";
+    $comefrom = "/cgi-bin/fswepp/ermit/ermit.pl";
 
     #     $soilFilefq = $datapath . $soilFile;
     print "Content-type: text/html\n\n";
@@ -365,15 +311,15 @@ if ( lc($achtung) =~ /describe soil/ ) {    ##########
   <table width=95% border=0>
     <tr><td>
        <a href="JavaScript:window.history.go(-1)">
-       <IMG src="https://', $wepphost, '/fswepp/images/ermit.gif"
+       <IMG src="/fswepp/images/ermit.gif"
        align="left" alt="Back to FS WEPP menu" border=1></a>
     <td align=center>
        <hr>
        <h3>ERMiT Soil Texture Properties</h3>
        <hr>
     <td>
-       <A HREF="https://$wepphost/fswepp/docs/ermit/.html">
-       <IMG src="https://$wepphost/fswepp/images/epage.gif"
+       <A HREF="/fswepp/docs/ermit/.html">
+       <IMG src="/fswepp/images/epage.gif"
         align="right" alt="Read the documentation" border=0></a>
     </table>
 ';
@@ -538,17 +484,6 @@ $hillslope_length += 0;
 $hillslope_length_m = $hillslope_length;
 if ( $units eq 'ft' ) { $hillslope_length_m *= 0.3048 }
 
-#     print "Content-type: text/html\n\n";
-#     print "<HTML>\n";
-#     print " <HEAD>\n";
-#     print "  <TITLE>ERMiT -- Preliminary results</TITLE>
-#   <script language=\"Javascript\">
-#   </HEAD>\n";
-#     print ' <BODY background="https://',$wepphost,
-#          '/fswepp/images/note.gif" link="#ff0000"
-#           onload="removeSpinner()">
-#  <font face="Arial, Geneva, Helvetica">
-#';
 if ($verbose) {
     print TEMP "
   <blockquote>
@@ -603,7 +538,10 @@ if ($debug) { print TEMP "100-year management file " }
 if ($debug) {
     print TEMP "Creating 100-year climate file $CLIfile from $climatePar<br>";
 }
-&createCligenFile;
+
+( $climateFile, $climatePar ) =
+  &CreateCligenFile( $CL, $unique, $years2sim, $debug );
+
 if ($debug) { print TEMP "Creating 100-year soil file<br>\n" }
 if ( $severityclass eq 'u' ) {                                  # 2013.05.03 DEH
     $s = 'uuu';
@@ -1593,7 +1531,8 @@ for $sn ( 0 .. $#severe ) {    # 2005.10.13 DEH
     &createVegFile;
     $manFile = $datapath . $manFileName;
     if ($debug) {
-        print TEMP "createVegFile: $manFile -- $severityclass -- $vegtype<br>\n";
+        print TEMP
+          "createVegFile: $manFile -- $severityclass -- $vegtype<br>\n";
     }
 
     #  for $k (0..0) {   #ZZ#
@@ -2524,9 +2463,6 @@ EOP2a
 print '
   <hr>
   <font size=-2>
-   <a href="https://forest.moscowfsl.wsu.edu/fswepp/comments.html"><img src="https://'
-  . $wepphost
-  . '/fswepp/images/epaemail.gif" align="right" border=0></a>
    ERMiT  Version <a href="javascript:popuphistory()">', $version, '</a>
    <br><br>
    <b>Citation:</b>
@@ -2572,39 +2508,31 @@ close PAR;
 
 # 2008.06.04 DEH end
 
-if ( lc($wepphost) ne "localhost" ) {
-    open WELOG, ">>../working/_$thisyear/we.log";    # 2012.12.31 DEH
-    flock( WELOG, 2 );
-    print WELOG "$host\t\"";
-    printf WELOG "%0.2d:%0.2d ", $hour, $min;
-    print WELOG $ampm[$ampmi], "  ", $days[$wday], " ", $months[$mon], " ",
-      $mday, ", ", $thissyear, "\"\t";
-    print WELOG '"', trim($climate_name), "\"\t";
-    print WELOG "$lat\t$long\n";                     # 2008.06.04 DEH
+open WELOG, ">>../working/_$thisyear/we.log";    # 2012.12.31 DEH
+flock( WELOG, 2 );
+print WELOG "$host\t\"";
+printf WELOG "%0.2d:%0.2d ", $hour, $min;
+print WELOG $ampm[$ampmi], "  ", $days[$wday], " ", $months[$mon], " ",
+  $mday, ", ", $thissyear, "\"\t";
+print WELOG '"', trim($climate_name), "\"\t";
+print WELOG "$lat\t$long\n";                     # 2008.06.04 DEH
 
-    #       print  WELOG $lat_long,"\n";                      # 2008.06.04 DEH
-    #      print  WELOG "$climate_name\n";
-    close WELOG;
+#       print  WELOG $lat_long,"\n";                      # 2008.06.04 DEH
+#      print  WELOG "$climate_name\n";
+close WELOG;
 
-    open CLIMLOG, ">../working/_$thisyear/lastclimate.txt";    # 2012.12.31 DEH
-    flock CLIMLOG, 2;
-    print CLIMLOG 'ERMiT: ', $climate_name;
-    close CLIMLOG;
+open CLIMLOG, ">../working/_$thisyear/lastclimate.txt";    # 2012.12.31 DEH
+flock CLIMLOG, 2;
+print CLIMLOG 'ERMiT: ', $climate_name;
+close CLIMLOG;
 
-#     $thisday = 1+ (localtime)[7];                      # $yday, day of the year (0..364)
-##    $thisdayoff=$thisday+3;                            # [Jan 1] -1: Sunday; 0: Monday
-#     $thisdayoff=$thisday+4;                            # [Jan 1] -1: Sunday; 0: Monday
-#     $thisweek = 1+ int $thisdayoff/7;
-#     print "$thisday\t $thisweek\n";
-    $ditlogfile = ">>../working/_$thisyear/we/$thisweek";    # 2012.12.31 DEH
-    open MYLOG, $ditlogfile;
-    flock MYLOG, 2;                                          # 2005.02.09 DEH
+$ditlogfile = ">>../working/_$thisyear/we/$thisweek";      # 2012.12.31 DEH
+open MYLOG, $ditlogfile;
+flock MYLOG, 2;                                            # 2005.02.09 DEH
 
-    #      print MYLOG '.' x $count;	# 2006.01.18 DEH
-    print MYLOG '.';                                         # 2007.01.01 DEH
-    close MYLOG;
-
-}    # if (lc($wepphost) ne "localhost")
+#      print MYLOG '.' x $count;	# 2006.01.18 DEH
+print MYLOG '.';                                           # 2007.01.01 DEH
+close MYLOG;
 
 ################################# start 2010.01.20 DEH   record run in user wepp run log file
 
@@ -3101,95 +3029,6 @@ sub CreateResponseFile {    # 100-year -- modified from wd.pl on PC43
     return $responseFile;
 }
 
-sub createCligenFile {    # modified from wd.pl on PC43
-
-    if ($new_cligen) {
-        $station = substr( $CL, length($CL) - 8 );
-        if ( $platform eq 'pc' ) {
-
-            #     @args = ("..\\rc\\cligen43.exe <$rspfile >$stoutfile");
-            @args = ("cligen43.exe <$crspfile >$cstoutfile");
-        }
-        else {
-            $startyear = 1;
-
-            #     @args = ("nice -20 ../rc/cligen43 <$rspfile >$stoutfile");
-            @args = (
-"../rc/cligen522564 -i$climatePar -y$years2sim -b$startyear -t5 -o$CLIfile >$cstoutfile"
-            );
-        }
-
-        if ($debug) {
-            print TEMP "[createCligenFile]<br>
-Arguments:    @args<br>
-StandardOut:  $cstoutfile<br>
-";
-        }
-
-        #  run CLIGEN522564 on verified user_id.par file to
-        #  create user_id.cli file in FSWEPP working directory
-        #  for $years2sim years.
-
-        #   unlink $climatePar;   # erase previous climate file so's CLIGEN'll run
-
-        system @args;
-
-    }
-    else {    # if ($new_cligen)
-
-        $station = substr( $CL, length($CL) - 8 );
-        if ( $platform eq 'pc' ) {
-
-            #      @args = ("..\\rc\\cligen43.exe <$rspfile >$stoutfile");
-            @args = ("cligen43.exe <$crspfile >$cstoutfile");
-        }
-        else {
-            #      @args = ("nice -20 ../rc/cligen43 <$rspfile >$stoutfile");
-            @args = ("../rc/cligen43 <$crspfile >$cstoutfile");
-        }
-
-        if ($debug) {
-            print TEMP "[createCligenFile]<br>
-Arguments:    $args<br>
-PARfile:      $climatePar<br>
-CLIfile:      $CLIfile<br>
-ResponseFile: $crspfile<br>
-StandardOut:  $cstoutfile<br>
-";
-        }
-
-        #  run CLIGEN43 on verified user_id.par file to
-        #  create user_id.cli file in FSWEPP working directory
-        #  for $years2sim years.
-
-        $startyear = 1;
-
-        open RSP, ">" . $crspfile;
-        print RSP "4.31\n";
-        print RSP $climatePar, "\n";
-        print RSP "n do not display file here\n";
-        print RSP "5 Multiple-year WEPP format\n";
-        print RSP $startyear, "\n";
-        print RSP $years2sim, "\n";
-        print RSP $CLIfile,   "\n";
-        print RSP "n\n";
-        close RSP;
-
-        #   unlink $climatePar;   # erase previous climate file so's CLIGEN'll run
-
-        system @args;
-    }    # if ($new_cligen)
-
-    #   if ($debug) {
-    #     open STOUT, "<$cstoutfile";
-    #     print "Cligen: \n";
-    #     while (<STOUT>) {
-    #       print $_,"\n<br>";
-    #     }
-    #     close STOUT;
-    #   }
-}
-
 sub readWEPPresults {
 
     open weppstout, "<$stoutFile";
@@ -3475,8 +3314,6 @@ cp_m944 = new MakeArray; cp_m944.length = a_len
    js_sedunits = '$sedunits'
    js_alt_sedunits = '$alt_sedunits'
    js_intensity_units='$intunits'
-   // printer='https://$wepphost/fswepp/images/hinduonnet_print2.png'
-   // gostone='https://$wepphost/fswepp/images/go.gif'
 ";
     if ( $units eq 'm' ) {
         print '   js_sedconv = ' . 10 / $hillslope_length, "\n";
@@ -6626,39 +6463,6 @@ sub bomb {
 </html>
 ';
 
-}
-
-sub ReadParse {
-
-    # ReadParse -- from cgi-lib.pl (Steve Brenner) from Eric Herrmann's
-    # "Teach Yourself CGI Programming With PERL in a Week" p. 131
-
-    # Reads GET or POST data, converts it to unescaped text, and puts
-    # one key=value in each member of the list "@in"
-    # Also creates key/value pairs in %in, using '\0' to separate multiple
-    # selections
-
-    local (*in) = @_ if @_;
-    local ( $i, $loc, $key, $val );
-
-    #       read text
-    if ( $ENV{'REQUEST_METHOD'} eq "GET" ) {
-        $in = $ENV{'QUERY_STRING'};
-    }
-    elsif ( $ENV{'REQUEST_METHOD'} eq "POST" ) {
-        read( STDIN, $in, $ENV{'CONTENT_LENGTH'} );
-    }
-    @in = split( /&/, $in );
-    foreach $i ( 0 .. $#in ) {
-        $in[$i] =~ s/\+/ /g;                     # Convert pluses to spaces
-        ( $key, $val ) = split( /=/, $in[$i], 2 );    # Split into key and value
-        $key =~ s/%(..)/pack("c",hex($1))/ge;    # Convert %XX from hex number$
-        $val =~ s/%(..)/pack("c",hex($1))/ge;
-        $in{$key} .= "\0"
-          if ( defined( $in{$key} ) );           # \0 is the multiple separator
-        $in{$key} .= $val;
-    }
-    return 1;
 }
 
 sub peak_intensity {

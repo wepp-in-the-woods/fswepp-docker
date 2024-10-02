@@ -1,4 +1,4 @@
-#! /usr/bin/perl
+#!/usr/bin/perl
 
    $lines=50;
 
@@ -16,9 +16,9 @@
    }
 
 print "Content-type: text/html\n\n";
-print "<HTML>
- <HEAD>
-  <TITLE>FS WEPP NaN run log</TITLE>
+print "<html>
+ <head>
+  <title>FS WEPP NaN run log</title>
  </head>
  <body onLoad='self.focus()'>
   <font face='tahoma, arial, sans serif'>

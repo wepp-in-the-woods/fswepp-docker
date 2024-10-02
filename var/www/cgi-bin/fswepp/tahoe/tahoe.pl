@@ -1,5 +1,6 @@
 #!/usr/bin/perl
 
+use CGI;
 use CGI qw(escapeHTML);
 
 #
@@ -65,14 +66,14 @@ $version = '2014.11.14';    # modify phosphorus help screen
 #  Science by Bill Elliot et alia
 #  Code by David Hall
 
-&ReadParse(*parameters);
+my $cgi = CGI->new;
 
-$units = escapeHTML( $parameters{'units'} );
+$units = escapeHTML( $cgi->param('units') );
 
 if    ( $units eq 'm' )  { $areaunits = 'ha' }
 elsif ( $units eq 'ft' ) { $areaunits = 'ac' }
 else                     { $units     = 'ft'; $areaunits = 'ac' }
-$fc = escapeHTML( $parameters{'fc'} );
+$fc = escapeHTML( $cgi->param('fc') );
 
 ###   find personality ###
 $cookie = $ENV{'HTTP_COOKIE'};
@@ -1371,49 +1372,6 @@ print
 
 # --------------------- subroutines
 
-sub ReadParse {
-
-    # ReadParse -- from cgi-lib.pl (Steve Brenner) from Eric Herrmann's
-    # "Teach Yourself CGI Programming With PERL in a Week" p. 131
-
-    # Reads GET or POST data, converts it to unescaped text, and puts
-    # one key=value in each member of the list "@in"
-    # Also creates key/value pairs in %in, using '\0' to separate multiple
-    # selections
-
-    # If a variable-glob parameter...
-
-    local (*in) = @_ if @_;
-    local ( $i, $loc, $key, $val );
-
-    if ( $ENV{'REQUEST_METHOD'} eq "GET" ) {
-        $in = $ENV{'QUERY_STRING'};
-    }
-    elsif ( $ENV{'REQUEST_METHOD'} eq "POST" ) {
-        read( STDIN, $in, $ENV{'CONTENT_LENGTH'} );
-    }
-
-    @in = split( /&/, $in );
-
-    foreach $i ( 0 .. $#in ) {
-
-        # Convert pluses to spaces
-        $in[$i] =~ s/\+/ /g;
-
-        # Split into key and value
-        ( $key, $val ) = split( /=/, $in[$i], 2 );    # splits on the first =
-
-        # Convert %XX from hex numbers to alphanumeric
-        $key =~ s/%(..)/pack("c",hex($1))/ge;
-        $val =~ s/%(..)/pack("c",hex($1))/ge;
-
-        # Associative key and value
-        $in{$key} .= "\0"
-          if ( defined( $in{$key} ) );    # \0 is the multiple separator
-        $in{$key} .= $val;
-    }
-    return 1;
-}
 
 sub make_history_popup {
 

@@ -5,7 +5,9 @@
 ## BEGIN HISTORY ###################################
 ## WEPP:Road version history
 
-  $version = '2014.09.05';	# Remove WEPP version 2000 compatibility option, update $runs to count 2014 runs
+$version = '2014.09.05'
+  ; # Remove WEPP version 2000 compatibility option, update $runs to count 2014 runs
+
 # $version = '2012.10.30';	# Recode history popup
 # $version = '2012.10.29';	# Add help text and graphics
 # $version = '2011.12.22';	# Force WEPP 2010 executable
@@ -48,9 +50,7 @@
 #       REQUEST_METHOD
 #       QUERY_STRING
 #       CONTENT_LENGTH
-#  reads: 
-#    ../wepphost	# localhost or other
-#    ../platform	# pc or unix
+#  reads:
 #    ../climates/*.par	# standard climate parameter files
 #    $working/*.par	# personal climate parameter files
 #  calls:
@@ -75,62 +75,35 @@
 #  18 May 2000 DEH personal climates for "" limited to "" no "a", "b"...
 #  19 October 1999
 
-  &ReadParse(*parameters);
-  $units=$parameters{'units'};
-  if ($units eq '') {$units = 'ft'}	# DEH 01/05/2001
-# $me=$parameters{'me'};
-  $cookie = $ENV{'HTTP_COOKIE'};
-#  $sep = index ($cookie,"=");
-#  $me = "";
-#  if ($sep > -1) {$me = substr($cookie,$sep+1,1)} 
-  $sep = index ($cookie,"FSWEPPuser=");
-  $me = "";
-  if ($sep > -1) {$me = substr($cookie,$sep+11,1)}      # DEH 2009.09.17
+&ReadParse(*parameters);
+$units = $parameters{'units'};
+if ( $units eq '' ) { $units = 'ft' }    # DEH 01/05/2001
 
-  if ($me ne "") {
-#    $me = lc(substr($me,0,1));
-#    $me =~ tr/a-z/ /c;
-    $me = substr($me,0,1);
+$cookie = $ENV{'HTTP_COOKIE'};
+
+$sep = index( $cookie, "FSWEPPuser=" );
+$me  = "";
+if ( $sep > -1 ) { $me = substr( $cookie, $sep + 11, 1 ) }    # DEH 2009.09.17
+
+if ( $me ne "" ) {
+
+    #    $me = lc(substr($me,0,1));
+    #    $me =~ tr/a-z/ /c;
+    $me = substr( $me, 0, 1 );
     $me =~ tr/a-zA-Z/ /c;
-  }
-  if ($me eq " ") {$me = ""}
+}
+if ( $me eq " " ) { $me = "" }
 
-  $wepphost="localhost";
-  if (-e "../wepphost") {
-    open Host, "<../wepphost";
-    $wepphost = <Host>;
-    chomp $wepphost;
-    close H;
-  }
-
-  $platform="pc";
-  if (-e "../platform") {
-    open Platform, "<../platform";
-      $platform=lc(<Platform>);
-      chomp $platform;
-    close Platform;
-  }
-
-  if ($platform eq "pc") {
-    if (-e 'd:/fswepp/working') {$working = 'd:\\fswepp\\working'}
-    elsif (-e 'c:/fswepp/working') {$working = 'c:\\fswepp\\working'}
-    else {$working = '..\\working'}
-    $logFile = "$working\\wrwepp.log";
-    $cliDir = '..\\climates\\';
-    $custCli = "$working\\";
-  }
-  else {
-    $public = $working . 'public/';                     # DEH 03/06/2001
-    $user_ID = $ENV{'REMOTE_ADDR'};
-    $user_really = $ENV{'HTTP_X_FORWARDED_FOR'};        # DEH 10/15/2003
-    $user_ID = $user_really if ($user_really ne '');    # DEH 10/15/2002
-    $user_ID =~ tr/./_/;
-    $user_ID = $user_ID . $me;
-    $user_ID_ = $user_ID . '_';				# DEH 03/05/2001
-    $logFile = '../working/' . $user_ID . '.wrlog';
-    $cliDir = '../climates/';
-    $custCli = '../working/' . $user_ID . '_';		# DEH 05/18/2000
-  }
+$public      = $working . 'public/';                      # DEH 03/06/2001
+$user_ID     = $ENV{'REMOTE_ADDR'};
+$user_really = $ENV{'HTTP_X_FORWARDED_FOR'};              # DEH 10/15/2003
+$user_ID     = $user_really if ( $user_really ne '' );    # DEH 10/15/2002
+$user_ID =~ tr/./_/;
+$user_ID  = $user_ID . $me;
+$user_ID_ = $user_ID . '_';                               # DEH 03/05/2001
+$logFile  = '../working/' . $user_ID . '.wrlog';
+$cliDir   = '../climates/';
+$custCli  = '../working/' . $user_ID . '_';               # DEH 05/18/2000
 
 ##########################################
 
@@ -139,38 +112,41 @@
 #    $user_ID=$ENV{'REMOTE_ADDR'};
 #    $user_ID =~ tr/./_/;
 
-    $num_cli=0;
+$num_cli = 0;
+
 #   @fileNames = glob($custCli . $user_ID . '*.par');
-    @fileNames = glob($custCli . '*.par');
-    for $f (@fileNames) {
-#     open(M,"<$f") || die;              # par file
-      if (open(M,"<$f")) {              # par file 2004.11.10 DEH
-          $station = <M>;
-        close (M);
-        $climate_file[$num_cli] = substr($f, 0, length($f)-4);
-        $clim_name = '*' . substr($station, index($station, ":")+2, 40); 
+@fileNames = glob( $custCli . '*.par' );
+for $f (@fileNames) {
+
+    #     open(M,"<$f") || die;              # par file
+    if ( open( M, "<$f" ) ) {    # par file 2004.11.10 DEH
+        $station = <M>;
+        close(M);
+        $climate_file[$num_cli] = substr( $f, 0, length($f) - 4 );
+        $clim_name = '*' . substr( $station, index( $station, ":" ) + 2, 40 );
         $clim_name =~ s/^\s*(.*?)\s*$/$1/;
         $climate_name[$num_cli] = $clim_name;
         $num_cli += 1;
-      }					# 2004.11.10 DEH
-    }
+    }                            # 2004.11.10 DEH
+}
 
 ### get standard climates
 
-    while (<../climates/*.par>) {
-      $f = $_;
-#      open(M,$f) || die;		# 2004.11.10 DEH
-      if (open(M,$f)) {			# 2004.11.10 DEH
-          $station = <M>;
-        close (M);
-        $climate_file[$num_cli] = substr($f, 0, length($f)-4);
-        $clim_name = substr($station, index($station, ":")+2, 40);
+while (<../climates/*.par>) {
+    $f = $_;
+
+    #      open(M,$f) || die;		# 2004.11.10 DEH
+    if ( open( M, $f ) ) {       # 2004.11.10 DEH
+        $station = <M>;
+        close(M);
+        $climate_file[$num_cli] = substr( $f, 0, length($f) - 4 );
+        $clim_name = substr( $station, index( $station, ":" ) + 2, 40 );
         $clim_name =~ s/^\s*(.*?)\s*$/$1/;
         $climate_name[$num_cli] = $clim_name;
         $num_cli += 1;
-      }					# 2004.11.10 DEH
-    }
-    $num_cli -= 1;
+    }                            # 2004.11.10 DEH
+}
+$num_cli -= 1;
 
 ##########################################
 
@@ -231,26 +207,68 @@ function readCookie() {
 
 //  mperf=1/3.29
 ';
-if ($units eq "m") {
-  $RLmin=1;   $RLdef=60; $RLmax=300; $RLunit='m';
-  $RSmin=0.1; $RSdef=4;  $RSmax=40;  $RSunit='%';
-  $RWmin=0.3; $RWdef=4;  $RWmax=100; $RWunit='m';
-  $FLmin=0.3; $FLdef=5;  $FLmax=100; $FLunit='m';
-  $FSmin=0.1; $FSdef=50; $FSmax=150; $FSunit='%';
-  $BLmin=0.3; $BLdef=40; $BLmax=300; $BLunit='m';
-  $BSmin=0.1; $BSdef=25; $BSmax=100; $BSunit='%';
+if ( $units eq "m" ) {
+    $RLmin  = 1;
+    $RLdef  = 60;
+    $RLmax  = 300;
+    $RLunit = 'm';
+    $RSmin  = 0.1;
+    $RSdef  = 4;
+    $RSmax  = 40;
+    $RSunit = '%';
+    $RWmin  = 0.3;
+    $RWdef  = 4;
+    $RWmax  = 100;
+    $RWunit = 'm';
+    $FLmin  = 0.3;
+    $FLdef  = 5;
+    $FLmax  = 100;
+    $FLunit = 'm';
+    $FSmin  = 0.1;
+    $FSdef  = 50;
+    $FSmax  = 150;
+    $FSunit = '%';
+    $BLmin  = 0.3;
+    $BLdef  = 40;
+    $BLmax  = 300;
+    $BLunit = 'm';
+    $BSmin  = 0.1;
+    $BSdef  = 25;
+    $BSmax  = 100;
+    $BSunit = '%';
 }
 else {
-  $RLmin=3;   $RLdef=200; $RLmax=1000; $RLunit='ft';
-  $RSmin=0.3; $RSdef=4;   $RSmax=40;   $RSunit='%';
-  $RWmin=1;   $RWdef=13;  $RWmax=300;  $RWunit='ft';
-  $FLmin=1;   $FLdef=15;  $FLmax=1000;  $FLunit='ft';  #  29685 Jan  3  2007 wepproad.pl   was 300 max
+    $RLmin  = 3;
+    $RLdef  = 200;
+    $RLmax  = 1000;
+    $RLunit = 'ft';
+    $RSmin  = 0.3;
+    $RSdef  = 4;
+    $RSmax  = 40;
+    $RSunit = '%';
+    $RWmin  = 1;
+    $RWdef  = 13;
+    $RWmax  = 300;
+    $RWunit = 'ft';
+    $FLmin  = 1;
+    $FLdef  = 15;
+    $FLmax  = 1000;
+    $FLunit = 'ft';    #  29685 Jan  3  2007 wepproad.pl   was 300 max
 
-  $FSmin=0.3; $FSdef=50;  $FSmax=150;  $FSunit='%';
-  $BLmin=1;   $BLdef=130; $BLmax=1000; $BLunit='ft';
-  $BSmin=0.3; $BSdef=25;  $BSmax=100;  $BSunit='%';
+    $FSmin  = 0.3;
+    $FSdef  = 50;
+    $FSmax  = 150;
+    $FSunit = '%';
+    $BLmin  = 1;
+    $BLdef  = 130;
+    $BLmax  = 1000;
+    $BLunit = 'ft';
+    $BSmin  = 0.3;
+    $BSdef  = 25;
+    $BSmax  = 100;
+    $BSunit = '%';
 }
-  print "
+print "
   RSmin=$RSmin; RSdef=$RSdef; RSmax=$RSmax; RSunit='$RSunit'
   RLmin=$RLmin; RLdef=$RLdef; RLmax=$RLmax; RLunit='$RLunit'
   RWmin=$RWmin; RWdef=$RWdef; RWmax=$RWmax; RWunit='$RWunit'
@@ -391,7 +409,7 @@ print "
     width=660;
     pophistory = window.open('','pophistory','toolbar=no,location=no,status=no,directories=no,menubar=no,scrollbars=yes,resizable=yes,width='+width+',height='+height);
 ";
-    print make_history_popup();
+print make_history_popup();
 print "
     pophistory.document.close()
     pophistory.focus()
@@ -468,14 +486,18 @@ print '<BODY bgcolor="white" link="#555555" vlink="#555555">
         align="right" alt="Read the documentation" border=0></a>
     </table>
 
-<CENTER>',"\n";
-  $glo = $custCli . $user_ID . '*.par';
-if ($debug) {print "I am '$me' with units $units\nUser_ID: $user_ID<p>$glo<p>"}
+<CENTER>', "\n";
+$glo = $custCli . $user_ID . '*.par';
+if ($debug) {
+    print "I am '$me' with units $units\nUser_ID: $user_ID<p>$glo<p>";
+}
 print "  <br clear=all>\n";
-print '  <FORM name="wepproad" method=post onSubmit="return validate()" ACTION="wr.pl">';
+print
+'  <FORM name="wepproad" method=post onSubmit="return validate()" ACTION="wr.pl">';
 print "\n";
-print '      <input type="hidden" name="me" value="',$me,'">';
-#print '      <input type="hidden" name=units" value="',$units,'">'; 
+print '      <input type="hidden" name="me" value="', $me, '">';
+
+#print '      <input type="hidden" name=units" value="',$units,'">';
 print <<'theEnd';
   <TABLE border="1">
    <TR align="top">
@@ -501,74 +523,75 @@ theEnd
 #    $user_ID=$ENV{'REMOTE_ADDR'};
 #    $user_ID =~ tr/./_/;
 
-    $num_cli=0;
+$num_cli = 0;
 ### get published climates, if any                      # DEH 03/06/2001
 
-    opendir PUBLICDIR, $public;
-    @allpfiles=readdir PUBLICDIR;
-    close PUBLICDIR;
+opendir PUBLICDIR, $public;
+@allpfiles = readdir PUBLICDIR;
+close PUBLICDIR;
 
-    for $f (@allpfiles) {
-      if (substr($f,-4) eq '.par') {
+for $f (@allpfiles) {
+    if ( substr( $f, -4 ) eq '.par' ) {
         $f = $public . $f;
-        open(M,"<$f") || goto v_skip;
-          $station = <M>;
-        close (M);
-        $climate_file[$num_cli] = substr($f, 0, -4);
-        $clim_name = '- ' . substr($station, index($station, ":")+2, 40);
+        open( M, "<$f" ) || goto v_skip;
+        $station = <M>;
+        close(M);
+        $climate_file[$num_cli] = substr( $f, 0, -4 );
+        $clim_name = '- ' . substr( $station, index( $station, ":" ) + 2, 40 );
         $clim_name =~ s/^\s*(.*?)\s*$/$1/;
         $climate_name[$num_cli] = $clim_name;
         $num_cli += 1;
-v_skip:
-      }
+      v_skip:
     }
+}
 
 ### get personal climates
 
-    $num_cli=0;
+$num_cli = 0;
+
 #   @fileNames = glob($custCli . $user_ID . '*.par');
-    @fileNames = glob($custCli . '*.par');
-    for $f (@fileNames) {
-      open(M,"<$f") || die;              # par file
-        $station = <M>;
-      close (M);
-      $climate_file[$num_cli] = substr($f, 0, length($f)-4);
-      $clim_name = '*' . substr($station, index($station, ":")+2, 40); 
-      $clim_name =~ s/^\s*(.*?)\s*$/$1/;
-      $climate_name[$num_cli] = $clim_name;
-      $num_cli += 1;
-    }
+@fileNames = glob( $custCli . '*.par' );
+for $f (@fileNames) {
+    open( M, "<$f" ) || die;    # par file
+    $station = <M>;
+    close(M);
+    $climate_file[$num_cli] = substr( $f, 0, length($f) - 4 );
+    $clim_name = '*' . substr( $station, index( $station, ":" ) + 2, 40 );
+    $clim_name =~ s/^\s*(.*?)\s*$/$1/;
+    $climate_name[$num_cli] = $clim_name;
+    $num_cli += 1;
+}
 
 ### get standard climates
 
-    while (<../climates/*.par>) {
-      $f = $_;
-      open(M,$f) || die;
-        $station = <M>;
-      close (M);
-      $climate_file[$num_cli] = substr($f, 0, length($f)-4);
-      $clim_name = substr($station, index($station, ":")+2, 40);
-      $clim_name =~ s/^\s*(.*?)\s*$/$1/;
-      $climate_name[$num_cli] = $clim_name;
-      $num_cli += 1;
-    }
-    $num_cli -= 1;
+while (<../climates/*.par>) {
+    $f = $_;
+    open( M, $f ) || die;
+    $station = <M>;
+    close(M);
+    $climate_file[$num_cli] = substr( $f, 0, length($f) - 4 );
+    $clim_name = substr( $station, index( $station, ":" ) + 2, 40 );
+    $clim_name =~ s/^\s*(.*?)\s*$/$1/;
+    $climate_name[$num_cli] = $clim_name;
+    $num_cli += 1;
+}
+$num_cli -= 1;
 
 #    $user_ID=$ENV{'REMOTE_ADDR'};
 #    $user_ID =~ tr/./_/;
 #    $fileName = "../rc/working/" . $user_ID;
 #    $fileNameE = $fileName . ".cli";
 
-    if ($num_cli > 0) {
-      print '    <OPTION VALUE="';
-      print $climate_file[0];
-      print '" selected> '. $climate_name[0] . "\n";
-    }
-    for $ii (1..$num_cli) {
-      print '    <OPTION VALUE="';
-      print $climate_file[$ii];
-      print '"> '. $climate_name[$ii] . "\n";
-    }
+if ( $num_cli > 0 ) {
+    print '    <OPTION VALUE="';
+    print $climate_file[0];
+    print '" selected> ' . $climate_name[0] . "\n";
+}
+for $ii ( 1 .. $num_cli ) {
+    print '    <OPTION VALUE="';
+    print $climate_file[$ii];
+    print '"> ' . $climate_name[$ii] . "\n";
+}
 
 #################
 print <<'theEnd';
@@ -613,9 +636,11 @@ print <<'theEnd';
     <TH>
     <TH bgcolor="#85D2D2"><font face="Arial, Geneva, Helvetica">Gradient<br> (%)</font></th>
 theEnd
-print "    <TH bgcolor=#85D2D2><font face='Arial, Geneva, Helvetica'>Length<br> ($units)</font></th>\n";
+print
+"    <TH bgcolor=#85D2D2><font face='Arial, Geneva, Helvetica'>Length<br> ($units)</font></th>\n";
 print '    <TH bgcolor=#85D2D2><a href="JavaScript:popup(\'wrwidths\')">';
-print "     <font face='Arial, Geneva, Helvetica'>Width</a><br> ($units)</font></th>\n";
+print
+"     <font face='Arial, Geneva, Helvetica'>Width</a><br> ($units)</font></th>\n";
 print '    
    <tr>
     <TD rowspan=4>
@@ -627,17 +652,17 @@ print '
      </SELECT>
     </td>
     <TH bgcolor="#85D2D2"><font face="Arial, Geneva, Helvetica"><a href="JavaScript:popup(\'road\')">Road</a></font></th>
-    <TD><INPUT NAME="RS" TYPE="TEXT" SIZE="5" VALUE="',$RSdef,'"
+    <TD><INPUT NAME="RS" TYPE="TEXT" SIZE="5" VALUE="', $RSdef, '"
         onChange="checkRange(RS,\'road gradient\',RSmin, RSmax, RSdef, RSunit)"
         onFocus="showRange(this.form,\'Road gradient: \',RSmin, RSmax, RSunit)"
         onBlur="blankStatus()">
     </td>
-    <TD><INPUT NAME="RL" TYPE="TEXT" SIZE="5" VALUE="',$RLdef,'"
+    <TD><INPUT NAME="RL" TYPE="TEXT" SIZE="5" VALUE="', $RLdef, '"
         onChange="checkRange(RL,\'road length\',RLmin, RLmax, RLdef, RLunit)"
         onFocus="showRange(this.form,\'Road length: \',RLmin, RLmax, RLunit)"
         onBlur="blankStatus()">
     </td>
-    <TD><INPUT NAME="RW" TYPE="TEXT" SIZE="5" VALUE="',$RWdef,'"
+    <TD><INPUT NAME="RW" TYPE="TEXT" SIZE="5" VALUE="', $RWdef, '"
         onChange="checkRange(RW,\'road width\',RWmin, RWmax, RWdef,RWunit)"
         onFocus="showWidthHelp(this.form,\'Road width: \',RWmin, RWmax, RWunit)"
         onBlur="blankStatus()">
@@ -645,33 +670,33 @@ print '
    </tr>
    <TR>
     <TH bgcolor="#85D2D2"><font face="Arial, Geneva, Helvetica"><a href="JavaScript:popup(\'fill\')">Fill</a></font></th>
-    <TD><INPUT NAME="FS" TYPE="TEXT" SIZE="5" VALUE="',$FSdef,'"
+    <TD><INPUT NAME="FS" TYPE="TEXT" SIZE="5" VALUE="', $FSdef, '"
         onChange="checkRange(FS,\'fill gradient\',FSmin, FSmax, FSdef, FSunit)"
         onFocus="showRange(this.form,\'Fill gradient: \',FSmin, FSmax, FSunit)"
         onBlur="blankStatus()">
     </td>
-    <TD><INPUT NAME="FL" TYPE="TEXT" SIZE="5" VALUE="',$FLdef,'"
+    <TD><INPUT NAME="FL" TYPE="TEXT" SIZE="5" VALUE="', $FLdef, '"
         onChange="checkRange(FL,\'fill length\',FLmin, FLmax, FLdef, FLunit)"
         onFocus="showRange(this.form,\'Fill length: \',FLmin, FLmax, FLunit)"
         onBlur="blankStatus()">
     </td>
-<!--    <TD><INPUT NAME="FW" TYPE="TEXT" SIZE="5" VALUE="',$FWdef,'"
+<!--    <TD><INPUT NAME="FW" TYPE="TEXT" SIZE="5" VALUE="', $FWdef, '"
         onChange="checkRange(FW,\'fill width\',FWmin, FWmax, FWdef,FWunit)"
         onFocus="showWidthHelp(this.form,\'Fill width: \',FWmin, FWmax, FWunit)"
         onBlur="blankStatus()">  -->
 <TR><TH bgcolor="#85D2D2"><a href="JavaScript:popup(\'buffer\')">Buffer</a>
-    <TD><INPUT NAME="BS" TYPE="TEXT" SIZE="5" VALUE="',$BSdef,'"
+    <TD><INPUT NAME="BS" TYPE="TEXT" SIZE="5" VALUE="', $BSdef, '"
         onChange="checkRange(BS,\'buffer gradient\',BSmin, BSmax, BSdef, BSunit)"
         onFocus="showRange(this.form,\'Buffer gradient: \',BSmin, BSmax, BSunit)"
         onBlur="blankStatus()">
     </td>
-    <TD><INPUT NAME="BL" TYPE="TEXT" SIZE="5" VALUE="',$BLdef,'"
+    <TD><INPUT NAME="BL" TYPE="TEXT" SIZE="5" VALUE="', $BLdef, '"
         onChange="checkRange(BL,\'buffer length\',BLmin, BLmax, BLdef, BLunit)"
         onFocus="showRange(this.form,\'Buffer length: \',BLmin, BLmax, BLunit)"
         onBlur="blankStatus()">
     </td>
 <!--
-    <TD><INPUT NAME="BW" TYPE="TEXT" SIZE="5" VALUE="',$BWdef,'"
+    <TD><INPUT NAME="BW" TYPE="TEXT" SIZE="5" VALUE="', $BWdef, '"
         onChange="checkRange(BW,\'road width\',BWmin, BWmax, BWdef,BWunit)"
         onFocus="showWidthHelp(this.form,\'Buffer width: \',BWmin, BWmax, BWunit)"
         onBlur="blankStatus()">  
@@ -710,7 +735,7 @@ print '
   <br>
 
   <input type="hidden" name="climate_name">
-   <INPUT TYPE="HIDDEN" NAME="units" VALUE="',$units,'">
+   <INPUT TYPE="HIDDEN" NAME="units" VALUE="', $units, '">
    <p>
    <hr>
   </FORM>
@@ -719,16 +744,17 @@ print '
   Project description <input type="text" name="projectdescription">
   <input type="submit" name="button" value="Create new log" onClick="return confirm(\'This will delete any existing log file\')">
 ';
-if (-e $logFile) {
-  print '  <input type="submit" name="button" value="Display log">'
+
+if ( -e $logFile ) {
+    print '  <input type="submit" name="button" value="Display log">';
 }
 
-  $remote_host = $ENV{'REMOTE_HOST'};
-  $remote_address = $ENV{'REMOTE_ADDR'};  # if ($userIP eq '');
+$remote_host    = $ENV{'REMOTE_HOST'};
+$remote_address = $ENV{'REMOTE_ADDR'};    # if ($userIP eq '');
 
-  $wc  = `wc ../working/' . currentLogDir() . '/wr.log`;
-  @words = split " ", $wc;
-  $runs = @words[0];
+$wc    = `wc ../working/' . currentLogDir() . '/wr.log`;
+@words = split " ", $wc;
+$runs  = @words[0];
 
 print '  </FORM>
   </center>
@@ -740,10 +766,10 @@ print '  </FORM>
      <font face="Arial, Geneva, Helvetica" size=-2>
       WEPP:Road input screen version
       <!--a href="/fswepp/history/wrver.html"-->
-      <a href="javascript:popuphistory()">', $version,'</a><br>
+      <a href="javascript:popuphistory()">', $version, '</a><br>
       USDA Forest Service Rocky Mountain Research Station<br>
       1221 South Main Street, Moscow, ID 83843<br>',
-      "$remote_host &ndash; $remote_address ($user_really) personality '<b>$me</b>'<br>
+"$remote_host &ndash; $remote_address ($user_really) personality '<b>$me</b>'<br>
       Log of FS WEPP runs for IP and personality <a href=\"/cgi-bin/fswepp/runlogger.pl?ip=$remote_address$me\" target=\"_rl\">$remote_address$me</a><br>
       <b>$runs</b> WEPP:Road runs YTD
    <!--
@@ -773,46 +799,51 @@ print '>
 
 sub ReadParse {
 
-# ReadParse -- from cgi-lib.pl (Steve Brenner) from Eric Herrmann's
-# "Teach Yourself CGI Programming With PERL in a Week" p. 131
+    # ReadParse -- from cgi-lib.pl (Steve Brenner) from Eric Herrmann's
+    # "Teach Yourself CGI Programming With PERL in a Week" p. 131
 
-  local (*in) = @_ if @_;
-  local ($i, $loc, $key, $val);
+    local (*in) = @_ if @_;
+    local ( $i, $loc, $key, $val );
 
-  if ($ENV{'REQUEST_METHOD'} eq "GET") {
-    $in = $ENV{'QUERY_STRING'}} 
-  elsif ($ENV{'REQUEST_METHOD'} eq "POST") {
-    read(STDIN,$in,$ENV{'CONTENT_LENGTH'})}
+    if ( $ENV{'REQUEST_METHOD'} eq "GET" ) {
+        $in = $ENV{'QUERY_STRING'};
+    }
+    elsif ( $ENV{'REQUEST_METHOD'} eq "POST" ) {
+        read( STDIN, $in, $ENV{'CONTENT_LENGTH'} );
+    }
 
-  @in = split(/&/,$in);
+    @in = split( /&/, $in );
 
-  foreach $i (0 .. $#in) {
-    # Convert pluses to spaces
-    $in[$i] =~ s/\+/ /g;
+    foreach $i ( 0 .. $#in ) {
 
-    # Split into key and value
-    ($key, $val) = split(/=/,$in[$i],2);  # splits on the first =
+        # Convert pluses to spaces
+        $in[$i] =~ s/\+/ /g;
 
-    # Convert %XX from hex numbers to alphanumeric
-    $key =~ s/%(..)/pack("c",hex($1))/ge;
-    $val =~ s/%(..)/pack("c",hex($1))/ge;
+        # Split into key and value
+        ( $key, $val ) = split( /=/, $in[$i], 2 );    # splits on the first =
 
-    # Associative key and value
-    $in{$key} .= "\0" if (defined($in{$key}));  # \0 is the multiple separator
-    $in{$key} .= $val;
-  }
-  return 1;
- }
+        # Convert %XX from hex numbers to alphanumeric
+        $key =~ s/%(..)/pack("c",hex($1))/ge;
+        $val =~ s/%(..)/pack("c",hex($1))/ge;
+
+        # Associative key and value
+        $in{$key} .= "\0"
+          if ( defined( $in{$key} ) );    # \0 is the multiple separator
+        $in{$key} .= $val;
+    }
+    return 1;
+}
 
 sub make_history_popup {
 
-  my $version;
+    my $version;
 
-# Reads parent (perl) file and looks for a history block:
+    # Reads parent (perl) file and looks for a history block:
 ## BEGIN HISTORY ####################################################
-# ERMiT Version History
+    # ERMiT Version History
 
-  $version='2005.02.08';        # Make self-creating history popup page
+    $version = '2005.02.08';    # Make self-creating history popup page
+
 # $version = '2005.02.07';      # Fix parameter passing to tail_html; stuff after semicolon lost
 #!$version = '2005.02.07';      # Bang in line says do not use
 # $version = '2005.02.04';      # Clean up HTML formatting, add head_html and tail_html functions
@@ -824,45 +855,45 @@ sub make_history_popup {
 # and returns body (including Javascript document.writeln instructions) for a pop-up history window
 # called pophistory.
 
-# First line after 'BEGIN HISTORY' is <title> text
-# Splits version and comment on semi-colon
-# Version must be version= then digits and periods
-# Bang in line causes line to be ignored
-# Disallowed: single and double quotes in comment part
-# Not handled: continuation lines
+    # First line after 'BEGIN HISTORY' is <title> text
+    # Splits version and comment on semi-colon
+    # Version must be version= then digits and periods
+    # Bang in line causes line to be ignored
+    # Disallowed: single and double quotes in comment part
+    # Not handled: continuation lines
 
-# Usage:
+    # Usage:
 
-#print "<html>
-# <head>
-#  <title>$title</title>
-#   <script language=\"javascript\">
-#    <!-- hide from old browsers...
-#
-#  function popuphistory() {
-#    pophistory = window.open('','pophistory','')
-#";
-#    print make_history_popup();
-#print "
-#    pophistory.document.close()
-#    pophistory.focus()
-#  }
-#";
+    #print "<html>
+    # <head>
+    #  <title>$title</title>
+    #   <script language=\"javascript\">
+    #    <!-- hide from old browsers...
+    #
+    #  function popuphistory() {
+    #    pophistory = window.open('','pophistory','')
+    #";
+    #    print make_history_popup();
+    #print "
+    #    pophistory.document.close()
+    #    pophistory.focus()
+    #  }
+    #";
 
-# print $0,"\n";
+    # print $0,"\n";
 
-  my ($line, $z, $vers, $comment);
+    my ( $line, $z, $vers, $comment );
 
-  open MYSELF, "<$0";
+    open MYSELF, "<$0";
     while (<MYSELF>) {
 
-      next if (/!/);
+        next if (/!/);
 
-      if (/## BEGIN HISTORY/) {
-        $line = <MYSELF>;
-        chomp $line;
-        $line = substr($line,2);
-        $z = "    pophistory.document.writeln('<html>')
+        if (/## BEGIN HISTORY/) {
+            $line = <MYSELF>;
+            chomp $line;
+            $line = substr( $line, 2 );
+            $z    = "    pophistory.document.writeln('<html>')
     pophistory.document.writeln(' <head>')
     pophistory.document.writeln('  <title>$line</title>')
     pophistory.document.writeln(' </head>')
@@ -877,35 +908,36 @@ sub make_history_popup {
     pophistory.document.writeln('     <th bgcolor=lightblue>Comments</th>')
     pophistory.document.writeln('    </tr>')
 ";
-      } # if (/## BEGIN HISTORY/)
+        }    # if (/## BEGIN HISTORY/)
 
-      if (/version/) {
-        ($vers, $comment) = split (/;/,$_,2);
-        $comment =~ s/#//;
-        $comment =~ s(;)(<br>)g;
-        chomp $comment;
-        $vers =~ s/'//g;
-        $vers =~ s/ //g;
-        $vers =~ s/"//g;
-        if ($vers =~ /version=*([0-9.]+)/) {    # pull substring out of a line
-          $z .= "    pophistory.document.writeln('    <tr>')
+        if (/version/) {
+            ( $vers, $comment ) = split( /;/, $_, 2 );
+            $comment =~ s/#//;
+            $comment =~ s(;)(<br>)g;
+            chomp $comment;
+            $vers =~ s/'//g;
+            $vers =~ s/ //g;
+            $vers =~ s/"//g;
+            if ( $vers =~ /version=*([0-9.]+)/ )
+            {    # pull substring out of a line
+                $z .= "    pophistory.document.writeln('    <tr>')
     pophistory.document.writeln('     <th valign=top bgcolor=lightblue>$1</th>')
     pophistory.document.writeln('     <td>$comment</td>')
     pophistory.document.writeln('    </tr>')
 ";
-        }       # (/version *([0-9]+)/)
-     }  # if (/version/)
+            }    # (/version *([0-9]+)/)
+        }    # if (/version/)
 
-    if (/## END HISTORY/) {
-        $z .= "    pophistory.document.writeln('   </table>')
+        if (/## END HISTORY/) {
+            $z .= "    pophistory.document.writeln('   </table>')
     pophistory.document.writeln('   </font>')
     pophistory.document.writeln('  </center>')
     pophistory.document.writeln(' </body>')
     pophistory.document.writeln('</html>')
 ";
-      last;
-    }     # if (/## END HISTORY/)
-  }     # while
-  close MYSELF;
-  return $z;
+            last;
+        }    # if (/## END HISTORY/)
+    }    # while
+    close MYSELF;
+    return $z;
 }

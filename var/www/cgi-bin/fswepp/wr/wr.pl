@@ -1,4 +1,4 @@
-#! /usr/bin/perl
+#!/usr/bin/perl
 
 use warnings;
 use CGI qw(:standard escapeHTML);

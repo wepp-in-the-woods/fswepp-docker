@@ -1,4 +1,5 @@
 #!/usr/bin/perl
+use CGI;
 use CGI qw(escapeHTML);
 
 use warnings;
@@ -42,6 +43,8 @@ $version = '2014.04.14';    # switch to 2014 soils database
 #=========================================================================
 
 &ReadParse(*parameters);
+
+
 $CL             = escapeHTML( $parameters{'Climate'} );
 $soil           = escapeHTML( $parameters{'SoilType'} );
 $treat1         = escapeHTML( $parameters{'UpSlopeType'} );

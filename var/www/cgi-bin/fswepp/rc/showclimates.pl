@@ -2,9 +2,9 @@
 
 use CGI qw(escapeHTML);
 
-# showclimates.pl  --  
+# showclimates.pl  --
 
-$version='2009.09.03';
+$version = '2009.09.03';
 
 # 19 February 2003 DEH added "USDA FS Rock:Clime" and specified font
 # 19 July 2002 DEH fixed $title"; error - caught in some browsers...
@@ -18,11 +18,7 @@ $version='2009.09.03';
 #    comefrom		'https://host/cgi-bin/fswepp/wr/wepproad.pl' ...
 #    me
 #  reads:
-#    ../wepphost
 #    $state_file
-#  calls:
-#    <form name="sc" ACTION="https://host/cgi-bin/fswepp/rc/climate.cli" method="post">
-#    <form name="sc" ACTION="https://host/cgi-bin/fswepp/rc/copypar.pl" method="post">
 
 #  FSWEPP, USDA Forest Service, Rocky Mountain Research Station, Soil & Water Engineering
 #  Science by Bill Elliot et alia                                      Code by David Hall
@@ -32,75 +28,67 @@ $version='2009.09.03';
 #  05 March 2001 DEH 	add 'me' to retreat button
 #		 DEH	finish off HTML body for successful page
 #  19 October 1999
+my $cgi = CGI->new;
 
-    $wepphost="localhost";
-    if (-e "../wepphost") {
-      open Host, "<../wepphost";
-      $wepphost = <Host>;
-      chomp $wepphost;
-      close Host;
-    }
+$state    = escapeHTML( $cgi->param('state') );
+$units    = escapeHTML( $cgi->param('units') );
+$action   = escapeHTML( $cgi->param('action') );
+$comefrom = escapeHTML( $cgi->param('comefrom') );
+$me       = escapeHTML( $cgi->param('me') );
 
-    &ReadParse(*parameters);
+# https://forest.moscowfsl.wsu.edu/cgi-bin/fswepp/rc/showclimates.pl?units=<script>document.cookie="testlfyg=5195;"</script>
 
-    $state = escapeHTML($parameters{'state'});       
-    $units = escapeHTML($parameters{'units'});
-    $action = escapeHTML($parameters{'action'});
-    $comefrom = escapeHTML($parameters{'comefrom'});
-    $me = escapeHTML($parameters{'me'});
-
-    # https://forest.moscowfsl.wsu.edu/cgi-bin/fswepp/rc/showclimates.pl?units=<script>document.cookie="testlfyg=5195;"</script>
-
-    $unixserver="false";
+$unixserver = "false";
 
 ################################
 # Go to Show Personal Climates #
 ################################
 
-    if ($state eq "personal") {
-      if ($unixserver eq "false") {
-         exec "perl ../rc/showpersonal.pl $action $units $comefrom $me"
-      }
-      else {
-         exec "../rc/showpersonal.pl $action $units $comefrom $me"
-      }
-    }  
+if ( $state eq "personal" ) {
+        exec "../rc/showpersonal.pl $action $units $comefrom $me";
+}
 
 #########################################
 # Verify state entry AL..WY or whatever #
 #########################################
 
-    if ($state eq "") {$state = "id"};
-                 # store valid states (plus) in array @states and
-    @states = ('al','az','ar','ca','co','ct','de','fl','ga','id',
-               'il','in','ia','ks','ky','la','me','md','ma','mi',
-               'mn','ms','mo','mt','ne','nv','nh','nj','nm','ny',
-               'nc','nd','oh','ok','or','pa','ri','sc','sd','tn',
-               'tx','ut','vt','va','wa','wv','wi','wy','dc','ak',
-               'hi','pr','pi','vi','if','nonus','tahoe');
-    for (@states) {$states{$_}++;}
- 
+if ( $state eq "" ) { $state = "id" }
+
+# store valid states (plus) in array @states and
+@states = (
+    'al', 'az', 'ar', 'ca', 'co', 'ct', 'de', 'fl',
+    'ga', 'id', 'il', 'in', 'ia', 'ks', 'ky', 'la',
+    'me', 'md', 'ma', 'mi', 'mn', 'ms', 'mo', 'mt',
+    'ne', 'nv', 'nh', 'nj', 'nm', 'ny', 'nc', 'nd',
+    'oh', 'ok', 'or', 'pa', 'ri', 'sc', 'sd', 'tn',
+    'tx', 'ut', 'vt', 'va', 'wa', 'wv', 'wi', 'wy',
+    'dc', 'ak', 'hi', 'pr', 'pi', 'vi', 'if', 'nonus',
+    'tahoe'
+);
+for (@states) { $states{$_}++; }
+
 ####################################################
 #  build state climate filename and get state name #
 ####################################################
 
-    if ($states{$state}) {       
-      $state_file = $state . "/" . $state . "_climates";
-		# open specified state climate and serve 
-      print "Content-type: text/html\n\n";
-      open CLIM, "<" . $state_file;  # || die "can't open file!";
-        $state_name = <CLIM>;
-        chomp $state_name;
-      close CLIM;
+if ( $states{$state} ) {
+    $state_file = $state . "/" . $state . "_climates";
+
+    # open specified state climate and serve
+    print "Content-type: text/html\n\n";
+    open CLIM, "<" . $state_file;    # || die "can't open file!";
+    $state_name = <CLIM>;
+    chomp $state_name;
+    close CLIM;
 
 #############
-# HTML page #
+    # HTML page #
 #############
 
-print "<html>
+    print "<html>
   <head>
    <title>Rock:Clime -- $state_name Climate Stations</title>";
-print <<'EOD';
+    print <<'EOD';
       
     <SCRIPT Language="JavaScript">
 
@@ -149,99 +137,88 @@ print <<'EOD';
   <font face="arial, sans serif">
    <CENTER>
 EOD
-      print "<H3>USDA FS Rock:Clime<br>$state_name Climate Stations</H3>\n";
-#    print "$me<br>\n";
-      if ($action eq '-download') {
-        print '<form name="sc" ACTION="https://',$wepphost,'/cgi-bin/fswepp/rc/climate.cli" method="post">',"\n";
-      }
-      else {
-        print '<form name="sc" ACTION="https://',$wepphost,'/cgi-bin/fswepp/rc/copypar.pl" method="post">',"\n";
-      }
+    print "<H3>USDA FS Rock:Clime<br>$state_name Climate Stations</H3>\n";
 
-#     print "User agent: ', $ENV{'HTTP_USER_AGENT'};
-##    $browser =  $ENV{'HTTP_USER_AGENT'};
-##    $unixserver = "true";
-##    if ($browser =~ /MSIE/   {
-         
-##}
+    #    print "$me<br>\n";
+    if ( $action eq '-download' ) {
+        print
+'<form name="sc" ACTION="/cgi-bin/fswepp/rc/climate.cli" method="post">',
+          "\n";
+    }
+    else {
+        print
+'<form name="sc" ACTION="/cgi-bin/fswepp/rc/copypar.pl" method="post">',
+          "\n";
+    }
 
-      print '<input type="hidden" name="comefrom" value="',$comefrom,'">
-<input type="hidden" name="me" value="',$me,'">
-<input type="hidden" name="units" value="',$units,'">
+
+    print '<input type="hidden" name="comefrom" value="', $comefrom, '">
+<input type="hidden" name="me" value="',    $me,    '">
+<input type="hidden" name="units" value="', $units, '">
 <input type="hidden" name="startyear" value="1"><br>
 ';
-          if ($unixserver eq 'true') {
-           open M, "<" . $state_file;
-           $st=<M>;    # California
-#          print $st,"\n";
-           $st=<M>;    # <input type="hidden" name="state" value="ca">
-           print $st,"\n";
-           $_=<M>;     # <select name="station">
-           print '<input type="hidden" name="station">',"\n";
-           while (<M>) {
-             chomp;
-              if ($_ ne '</select>') {
-               ($optval, $file, $stat) = split /\"/;
-               $stat = substr($stat,1);
-               chomp $stat;
-               print '<a href="/fswepp/need_js.html" onClick="Submit(';
-               print "'",$file,"'); return false",'">',$stat,"</a><br>\n";
-              }
-           }
-           close M;
-          }        #  $unixserver true
-          else {
-            open M, "<" . $state_file;
-            $st=<M>;
-              while (<M>) {
-              print;
-              } 
-            close M;
-          }      # $unixserver false
+    if ( $unixserver eq 'true' ) {
+        open M, "<" . $state_file;
+        $st = <M>;    # California
 
+        #          print $st,"\n";
+        $st = <M>;    # <input type="hidden" name="state" value="ca">
+        print $st, "\n";
+        $_ = <M>;     # <select name="station">
+        print '<input type="hidden" name="station">', "\n";
+        while (<M>) {
+            chomp;
+            if ( $_ ne '</select>' ) {
+                ( $optval, $file, $stat ) = split /\"/;
+                $stat = substr( $stat, 1 );
+                chomp $stat;
+                print '<a href="/fswepp/need_js.html" onClick="Submit(';
+                print "'", $file, "'); return false", '">', $stat, "</a><br>\n";
+            }
+        }
+        close M;
+    }    #  $unixserver true
+    else {
+        open M, "<" . $state_file;
+        $st = <M>;
+        while (<M>) {
+            print;
+        }
+        close M;
+    }    # $unixserver false
 
-      print "<P>\n";
+    print "<P>\n";
 
-# <a href="none" onClick="Submit('ca049866'); return false">YREKA CA</a>
-
-      if ($action eq '-download') {
-      print 'Number of years of climate <input type="text" name="simyears" value="30" size=4> (approx 26K per year)
+    if ( $action eq '-download' ) {
+        print
+'Number of years of climate <input type="text" name="simyears" value="30" size=4> (approx 26K per year)
   <p>
   <input type="submit" name="submitbutton" value="DOWNLOAD CLIMATE">
-  <input type="hidden" name="action" value="',$action,'">'
-      }
-      else {
-        print '<input type="submit" name="submitbutton" value="ADD TO PERSONAL CLIMATES"> '
-      }
-  print '
+  <input type="hidden" name="action" value="', $action, '">';
+    }
+    else {
+        print
+'<input type="submit" name="submitbutton" value="ADD TO PERSONAL CLIMATES"> ';
+    }
+    print '
   <input type="submit" name="submitbutton" value="DESCRIBE CLIMATE">
   <input type="submit" name="submitbutton" value="MODIFY CLIMATE">
 </form>
 
-<!--
-<form name="displaypar" method="post" action="showpar.pl">
-  <input type="text" name="parfilename">
-</form>
--->
 
 <form method="post" name="RockClim" action="../rc/rockclim.pl">
-<input type="hidden" name="units" value="',$units,'">
-<input type="hidden" name="action" value="',$action,'">
-<input type="hidden" name="me" value="',$me,'">
-<input type="hidden" name="comefrom" value="',$comefrom,'">
+<input type="hidden" name="units" value="',    $units,    '">
+<input type="hidden" name="action" value="',   $action,   '">
+<input type="hidden" name="me" value="',       $me,       '">
+<input type="hidden" name="comefrom" value="', $comefrom, '">
 <input type="submit" name="submit" value="Retreat">
 </form> 
 ';
 
-#<a href="JavaScript:window.history.go(-1)">
-#<img src="https://',$wepphost,'/fswepp/images/retreat.gif"
-#  alt="Return to input screen" border="0" align=center></A>
-#				DEH 03/05/2001
- print '</CENTER>';
-#PAR   <p><a href="javascript:displayPar()">Display climate .PAR file</a> 
-#PAR -- for power WEPP users only!
-#PAR <p>
- print "   <font size=-2>
+    
+    print '</CENTER>';
+
+    print "   <font size=-2>
     <hr>
     <b>showclimates</b> version $version (a part of <b>Rock:Clime</b>)<br>
     USDA Forest Service Rocky Mountain Research Station<br>
@@ -250,54 +227,57 @@ EOD
  </body>
 </html>
 ";
- }
- else {
-      print "Content-type: text/html\n\n";
-      print "<HTML>\n";
-      print " <HEAD>\n";
-      print "  <TITLE>Something is wrong!</TITLE>\n";
-      print " </HEAD>\n";
-      print ' <BODY background="https://',$wepphost,'/fswepp/images/rcdraft.gif">',"\n";
-      print '  <font face="tahoma, arial">',"\n";
-      print "   <CENTER><H2>Excuse me!</H2></CENTER>\n";
-      print "   I don't like the values of some of the parameters I received.<p>\n";
-      print '   state:   ', $state,"<br>\n";
-      print "   <br><br><br>\n";
-      print "   Rock:clime (showclimates.pl version $version)\n";
-      print "  </font>\n";
-      print " </body>\n";
-      print "</html>\n";
- }
+}
+else {
+    print "Content-type: text/html\n\n";
+    print "<HTML>\n";
+    print " <HEAD>\n";
+    print "  <TITLE>Something is wrong!</TITLE>\n";
+    print " </HEAD>\n";
+    print ' <BODY background="/fswepp/images/rcdraft.gif">', "\n";
+    print '  <font face="tahoma, arial">', "\n";
+    print "   <CENTER><H2>Excuse me!</H2></CENTER>\n";
+    print "   I don't like the values of some of the parameters I received.<p>\n";
+    print '   state:   ', $state, "<br>\n";
+    print "   <br><br><br>\n";
+    print "   Rock:clime (showclimates.pl version $version)\n";
+    print "  </font>\n";
+    print " </body>\n";
+    print "</html>\n";
+}
 
 # ------------------------------------------------------------
 
 sub ReadParse {
 
-# ReadParse -- from cgi-lib.pl (Steve Brenner) from Eric Herrmann's
-# "Teach Yourself CGI Programming With PERL in a Week" p. 131
+    # ReadParse -- from cgi-lib.pl (Steve Brenner) from Eric Herrmann's
+    # "Teach Yourself CGI Programming With PERL in a Week" p. 131
 
-# Reads GET or POST data, converts it to unescaped text, and puts
-# one key=value in each member of the list "@in"
-# Also creates key/value pairs in %in, using '\0' to separate multiple
-# selections
+    # Reads GET or POST data, converts it to unescaped text, and puts
+    # one key=value in each member of the list "@in"
+    # Also creates key/value pairs in %in, using '\0' to separate multiple
+    # selections
 
-# If a variable-glob parameter...
+    # If a variable-glob parameter...
 
-  local (*in) = @_ if @_;
-  local ($i, $loc, $key, $val);
-  if ($ENV{'REQUEST_METHOD'} eq "GET") {
-    $in = $ENV{'QUERY_STRING'};
-  } elsif ($ENV{'REQUEST_METHOD'} eq "POST") {
-    read(STDIN,$in,$ENV{'CONTENT_LENGTH'});
-  }
-  @in = split(/&/,$in);
-  foreach $i (0 .. $#in) {
-    $in[$i] =~ s/\+/ /g;    # Convert pluses to spaces
-    ($key, $val) = split(/=/,$in[$i],2);   # Split into key and value
-    $key =~ s/%(..)/pack("c",hex($1))/ge;  # Convert %XX from hex numbers to alphanumeric
-    $val =~ s/%(..)/pack("c",hex($1))/ge;
-    $in{$key} .= "\0" if (defined($in{$key}));  # \0 is the multiple separator
-    $in{$key} .= $val;
-  }
-  return 1;
- }
+    local (*in) = @_ if @_;
+    local ( $i, $loc, $key, $val );
+    if ( $ENV{'REQUEST_METHOD'} eq "GET" ) {
+        $in = $ENV{'QUERY_STRING'};
+    }
+    elsif ( $ENV{'REQUEST_METHOD'} eq "POST" ) {
+        read( STDIN, $in, $ENV{'CONTENT_LENGTH'} );
+    }
+    @in = split( /&/, $in );
+    foreach $i ( 0 .. $#in ) {
+        $in[$i] =~ s/\+/ /g;    # Convert pluses to spaces
+        ( $key, $val ) = split( /=/, $in[$i], 2 );    # Split into key and value
+        $key =~ s/%(..)/pack("c",hex($1))/ge
+          ;    # Convert %XX from hex numbers to alphanumeric
+        $val =~ s/%(..)/pack("c",hex($1))/ge;
+        $in{$key} .= "\0"
+          if ( defined( $in{$key} ) );    # \0 is the multiple separator
+        $in{$key} .= $val;
+    }
+    return 1;
+}

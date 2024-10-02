@@ -1,4 +1,4 @@
-#! /usr/bin/perl 
+#!/usr/bin/perl 
 
   $in = $ENV{'QUERY_STRING'};
   ($dummy,$unique) = split '=',$in;

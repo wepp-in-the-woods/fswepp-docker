@@ -1,5 +1,5 @@
-#! /usr/bin/perl
-#! /fsapps/fssys/bin/perl
+#!/usr/bin/perl
+
 
 print "\n\nCreate select box for state climate .par files\n";
 print "Enter state name (not abbreviation): ";

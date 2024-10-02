@@ -1,5 +1,5 @@
-#! /usr/bin/perl
-#! /fsapps/fssys/bin/perl
+#!/usr/bin/perl
+
 #
 # logstuffwr.pl
 #

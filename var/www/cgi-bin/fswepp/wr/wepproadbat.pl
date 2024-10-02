@@ -1,11 +1,12 @@
-#! /usr/bin/perl
-#! /fsapps/fssys/bin/perl
+#!/usr/bin/perl
 
-   $debug=0;
+
+$debug = 0;
 
 #  wepproadbat.pl -- input screen for WEPP:Road Batch
 
-  $version = '2009.09.17';	# Adjust FSWEPPuser personality
+$version = '2009.09.17';    # Adjust FSWEPPuser personality
+
 # $version = "2008.10.23";
 # $version = "2004.06.30";
 
@@ -40,14 +41,13 @@
 #       REQUEST_METHOD
 #       QUERY_STRING
 #       CONTENT_LENGTH
-#  reads: 
+#  reads:
 #    ../wepphost	# localhost or other
 #    ../platform	# pc or unix
 #    ../climates/*.par	# standard climate parameter files
 #    $working/*.par	# personal climate parameter files
 #  calls:
 #    /cgi-bin/fswepp/wr/wrbat.pl
-#    /cgi-bin/fswepp/wr/logstuffwr.pl
 #  popup links:
 #    /fswepp/wr/wrwidthsb.html
 #    /fswepp/wr/rddesignb.html
@@ -59,58 +59,60 @@
 #  FS WEPP, USDA Forest Service, Rocky Mountain Research Station, Soil & Water Engineering
 #  Science by Bill Elliot et alia                                       Code by David Hall
 
-  &ReadParse(*parameters);
-  $units=$parameters{'units'};
-  if ($units eq '') {$units = 'ft'}	# DEH 01/05/2001
-  $cookie = $ENV{'HTTP_COOKIE'};
-# $sep = index ($cookie,"=");
-  $sep = index ($cookie,"FSWEPPuser=");
-  $me = "";
-  if ($sep > -1) {$me = substr($cookie,$sep+11,1)}	# DEH 2009.09.17
-  if ($me ne "") {
-#    $me = lc(substr($me,0,1));
-#    $me =~ tr/a-z/ /c;
-    $me = substr($me,0,1);
-    $me =~ tr/a-zA-Z/ /c;
-  }
-  if ($me eq ' ') {$me = ''}
+&ReadParse(*parameters);
+$units = $parameters{'units'};
+if ( $units eq '' ) { $units = 'ft' }    # DEH 01/05/2001
+$cookie = $ENV{'HTTP_COOKIE'};
 
-  $wepphost="localhost";
-  if (-e "../wepphost") {
+# $sep = index ($cookie,"=");
+$sep = index( $cookie, "FSWEPPuser=" );
+$me  = "";
+if ( $sep > -1 ) { $me = substr( $cookie, $sep + 11, 1 ) }    # DEH 2009.09.17
+if ( $me ne "" ) {
+
+    #    $me = lc(substr($me,0,1));
+    #    $me =~ tr/a-z/ /c;
+    $me = substr( $me, 0, 1 );
+    $me =~ tr/a-zA-Z/ /c;
+}
+if ( $me eq ' ' ) { $me = '' }
+
+$wepphost = "localhost";
+if ( -e "../wepphost" ) {
     open Host, "<../wepphost";
     $wepphost = <Host>;
     chomp $wepphost;
     close H;
-  }
+}
 
-  $platform="pc";
-  if (-e "../platform") {
+$platform = "pc";
+if ( -e "../platform" ) {
     open Platform, "<../platform";
-      $platform=lc(<Platform>);
-      chomp $platform;
+    $platform = lc(<Platform>);
+    chomp $platform;
     close Platform;
-  }
+}
 
-  if ($platform eq "pc") {
-    if (-e 'd:/fswepp/working') {$working = 'd:\\fswepp\\working'}
-    elsif (-e 'c:/fswepp/working') {$working = 'c:\\fswepp\\working'}
-    else {$working = '..\\working'}
+if ( $platform eq "pc" ) {
+    if    ( -e 'd:/fswepp/working' ) { $working = 'd:\\fswepp\\working' }
+    elsif ( -e 'c:/fswepp/working' ) { $working = 'c:\\fswepp\\working' }
+    else                             { $working = '..\\working' }
     $logFile = "$working\\wrbwepp.log";
-    $cliDir = '..\\climates\\';
+    $cliDir  = '..\\climates\\';
     $custCli = "$working\\";
-  }
-  else {
-    $public = $working . 'public/';                     # DEH 03/06/2001
-    $user_ID = $ENV{'REMOTE_ADDR'};
-    $user_really = $ENV{'HTTP_X_FORWARDED_FOR'};        # DEH 10/15/2003
-    $user_ID = $user_really if ($user_really ne '');    # DEH 10/15/2002
+}
+else {
+    $public      = $working . 'public/';                      # DEH 03/06/2001
+    $user_ID     = $ENV{'REMOTE_ADDR'};
+    $user_really = $ENV{'HTTP_X_FORWARDED_FOR'};              # DEH 10/15/2003
+    $user_ID     = $user_really if ( $user_really ne '' );    # DEH 10/15/2002
     $user_ID =~ tr/./_/;
-    $user_ID = $user_ID . $me;
-    $user_ID_ = $user_ID . '_';				# DEH 03/05/2001
-    $logFile = '../working/' . $user_ID . '.wrblog';
-    $cliDir = '../climates/';
-    $custCli = '../working/' . $user_ID . '_';		# DEH 05/18/2000
-  }
+    $user_ID  = $user_ID . $me;
+    $user_ID_ = $user_ID . '_';                               # DEH 03/05/2001
+    $logFile  = '../working/' . $user_ID . '.wrblog';
+    $cliDir   = '../climates/';
+    $custCli  = '../working/' . $user_ID . '_';               # DEH 05/18/2000
+}
 
 ##########################################
 
@@ -119,65 +121,115 @@
 #    $user_ID=$ENV{'REMOTE_ADDR'};
 #    $user_ID =~ tr/./_/;
 
-    $num_cli=0;
-    @fileNames = glob($custCli . '*.par');
-    for $f (@fileNames) {
-      open(M,"<$f") || die;              # par file
-        $station = <M>;
-      close (M);
-      $climate_file[$num_cli] = substr($f, 0, length($f)-4);
-      $clim_name = '*' . substr($station, index($station, ":")+2, 40); 
-      $clim_name =~ s/^\s*(.*?)\s*$/$1/;
-      $climate_name[$num_cli] = $clim_name;
-      $num_cli += 1;
-    }
+$num_cli   = 0;
+@fileNames = glob( $custCli . '*.par' );
+for $f (@fileNames) {
+    open( M, "<$f" ) || die;    # par file
+    $station = <M>;
+    close(M);
+    $climate_file[$num_cli] = substr( $f, 0, length($f) - 4 );
+    $clim_name = '*' . substr( $station, index( $station, ":" ) + 2, 40 );
+    $clim_name =~ s/^\s*(.*?)\s*$/$1/;
+    $climate_name[$num_cli] = $clim_name;
+    $num_cli += 1;
+}
 
 ### get standard climates
 
-    while (<../climates/*.par>) {
-      $f = $_;
-      open(M,$f) || die;
-        $station = <M>;
-      close (M);
-      $climate_file[$num_cli] = substr($f, 0, length($f)-4);
-      $clim_name = substr($station, index($station, ":")+2, 40);
-      $clim_name =~ s/^\s*(.*?)\s*$/$1/;
-      $climate_name[$num_cli] = $clim_name;
-      $num_cli += 1;
-    }
-    $num_cli -= 1;
+while (<../climates/*.par>) {
+    $f = $_;
+    open( M, $f ) || die;
+    $station = <M>;
+    close(M);
+    $climate_file[$num_cli] = substr( $f, 0, length($f) - 4 );
+    $clim_name = substr( $station, index( $station, ":" ) + 2, 40 );
+    $clim_name =~ s/^\s*(.*?)\s*$/$1/;
+    $climate_name[$num_cli] = $clim_name;
+    $num_cli += 1;
+}
+$num_cli -= 1;
 
 ##########################################
 
-    if ($units eq 'm') {
-     $zz  = 'IV N L 6 60 5 60 5 30 10 20 Typical low use road\n';
-     $zz .= 'IB N L 6 60 5 60 5 30 10 20 Same road, but the ditch is graded\n';
-     $zz .= 'OR N H 6 60 5 60 5 30 10 20 Same road, but rutted from heavy logging traffic\n';
-     $zz .= 'OU N L 6 60 5 60 5 30 10 20 Same road, regraded after logging with low traffic\n';
-     $zz .= 'OU N N 6 60 5 60 5 30 10 20 Same road, no traffic allowed after outsloping';
-     $RLmin=1;   $RLdef=60; $RLmax=300; $RLunit='m';
-     $RSmin=0.1; $RSdef=4;  $RSmax=40;  $RSunit='%';
-     $RWmin=0.3; $RWdef=4;  $RWmax=100; $RWunit='m';
-     $FLmin=0.3; $FLdef=5;  $FLmax=100; $FLunit='m';
-     $FSmin=0.1; $FSdef=50; $FSmax=150; $FSunit='%';
-     $BLmin=0.3; $BLdef=40; $BLmax=300; $BLunit='m';
-     $BSmin=0.1; $BSdef=25; $BSmax=100; $BSunit='%';
-   }
-   else {
-     $zz  = 'IV N L 6 200 16 60 16 30 30 20 Typical low use road\n';
-     $zz .= 'IB N L 6 200 16 60 16 30 30 20 Same road, but the ditch is graded\n';
-     $zz .= 'OR N H 6 200 16 60 16 30 30 20 Same road, but rutted from heavy logging traffic\n';
-     $zz .= 'OU N L 6 200 16 60 16 30 30 20 Same road, regraded after logging with low traffic\n';
-     $zz .= 'OU N N 6 200 16 60 16 30 30 20 Same road, no traffic allowed after outsloping';
-     $RLmin=3;   $RLdef=200; $RLmax=1000; $RLunit='ft';
-     $RSmin=0.3; $RSdef=4;   $RSmax=40;   $RSunit='%';
-     $RWmin=1;   $RWdef=13;  $RWmax=300;  $RWunit='ft';
-#    $FLmin=1;   $FLdef=15;  $FLmax=300;  $FLunit='ft';
-     $FLmin=1;   $FLdef=15;  $FLmax=1000;  $FLunit='ft';
-     $FSmin=0.3; $FSdef=50;  $FSmax=150;  $FSunit='%';
-     $BLmin=1;   $BLdef=130; $BLmax=1000; $BLunit='ft';
-     $BSmin=0.3; $BSdef=25;  $BSmax=100;  $BSunit='%';
-   }
+if ( $units eq 'm' ) {
+    $zz = 'IV N L 6 60 5 60 5 30 10 20 Typical low use road\n';
+    $zz .= 'IB N L 6 60 5 60 5 30 10 20 Same road, but the ditch is graded\n';
+    $zz .=
+'OR N H 6 60 5 60 5 30 10 20 Same road, but rutted from heavy logging traffic\n';
+    $zz .=
+'OU N L 6 60 5 60 5 30 10 20 Same road, regraded after logging with low traffic\n';
+    $zz .=
+'OU N N 6 60 5 60 5 30 10 20 Same road, no traffic allowed after outsloping';
+    $RLmin  = 1;
+    $RLdef  = 60;
+    $RLmax  = 300;
+    $RLunit = 'm';
+    $RSmin  = 0.1;
+    $RSdef  = 4;
+    $RSmax  = 40;
+    $RSunit = '%';
+    $RWmin  = 0.3;
+    $RWdef  = 4;
+    $RWmax  = 100;
+    $RWunit = 'm';
+    $FLmin  = 0.3;
+    $FLdef  = 5;
+    $FLmax  = 100;
+    $FLunit = 'm';
+    $FSmin  = 0.1;
+    $FSdef  = 50;
+    $FSmax  = 150;
+    $FSunit = '%';
+    $BLmin  = 0.3;
+    $BLdef  = 40;
+    $BLmax  = 300;
+    $BLunit = 'm';
+    $BSmin  = 0.1;
+    $BSdef  = 25;
+    $BSmax  = 100;
+    $BSunit = '%';
+}
+else {
+    $zz = 'IV N L 6 200 16 60 16 30 30 20 Typical low use road\n';
+    $zz .=
+      'IB N L 6 200 16 60 16 30 30 20 Same road, but the ditch is graded\n';
+    $zz .=
+'OR N H 6 200 16 60 16 30 30 20 Same road, but rutted from heavy logging traffic\n';
+    $zz .=
+'OU N L 6 200 16 60 16 30 30 20 Same road, regraded after logging with low traffic\n';
+    $zz .=
+'OU N N 6 200 16 60 16 30 30 20 Same road, no traffic allowed after outsloping';
+    $RLmin  = 3;
+    $RLdef  = 200;
+    $RLmax  = 1000;
+    $RLunit = 'ft';
+    $RSmin  = 0.3;
+    $RSdef  = 4;
+    $RSmax  = 40;
+    $RSunit = '%';
+    $RWmin  = 1;
+    $RWdef  = 13;
+    $RWmax  = 300;
+    $RWunit = 'ft';
+
+    #    $FLmin=1;   $FLdef=15;  $FLmax=300;  $FLunit='ft';
+    $FLmin  = 1;
+    $FLdef  = 15;
+    $FLmax  = 1000;
+    $FLunit = 'ft';
+    $FSmin  = 0.3;
+    $FSdef  = 50;
+    $FSmax  = 150;
+    $FSunit = '%';
+    $BLmin  = 1;
+    $BLdef  = 130;
+    $BLmax  = 1000;
+    $BLunit = 'ft';
+    $BSmin  = 0.3;
+    $BSdef  = 25;
+    $BSmax  = 100;
+    $BSunit = '%';
+}
 
 print "Content-type: text/html\n\n";
 print '<html>
@@ -199,7 +251,7 @@ print '<html>
    <!--
 
    function example_record() {
-     zz="',$zz,'"
+     zz="', $zz, '"
      if (document.wrbat.spread.value == "") {
        document.wrbat.spread.value=zz;
      }
@@ -240,7 +292,7 @@ print '<html>
 //  mperf=1/3.29
 ';
 
-  print "
+print "
   RSmin=$RSmin; RSdef=$RSdef; RSmax=$RSmax; RSunit='$RSunit'
   RLmin=$RLmin; RLdef=$RLdef; RLmax=$RLmax; RLunit='$RLunit'
   RWmin=$RWmin; RWdef=$RWdef; RWmax=$RWmax; RWunit='$RWunit'
@@ -402,9 +454,9 @@ print <<'theEnd';
 
 theEnd
 
-  print "
+print "
   function popup(url,height,width) {
-    uurl = 'https://",$wepphost,"' + url;
+    uurl = 'https://", $wepphost, "' + url;
 //    height=200;
 //    width=500;
     popupwindow = window.open(uurl,'popupwindow','toolbar=no,location=no,status=no,directories=no,menubar=no,scrollbars=yes,resizable=yes,width='+width+',height='+height);
@@ -420,8 +472,8 @@ print ' <body bgcolor="#eeddcc" link="#555555" vlink="#555555">
   <font face="Arial, Geneva, Helvetica">
   <table width="100%" border=0>
     <tr><td>
-       <a href="https://',$wepphost,'/fswepp/">
-       <IMG src="https://',$wepphost,'/fswepp/images/fsweppic2.gif"
+       <a href="https://',  $wepphost, '/fswepp/">
+       <IMG src="https://', $wepphost, '/fswepp/images/fsweppic2.gif"
        width=65 height=65
        align="left" alt="Return to FS WEPP menu" border=0></a>
     </td>
@@ -435,8 +487,9 @@ print ' <body bgcolor="#eeddcc" link="#555555" vlink="#555555">
     </td>
 <!--
     <td>
-       <A HREF="https://',$wepphost,'/fswepp/docs/wroadimg.html" target="docs">
-       <IMG src="https://',$wepphost,'/fswepp/images/ipage.gif"
+       <A HREF="https://', $wepphost,
+  '/fswepp/docs/wroadimg.html" target="docs">
+       <IMG src="https://', $wepphost, '/fswepp/images/ipage.gif"
         align="right" alt="Read the documentation" border=0></a>
 -->
      </tr>
@@ -446,20 +499,22 @@ print ' <body bgcolor="#eeddcc" link="#555555" vlink="#555555">
 
 ';
 
-   $glo = $custCli . $user_ID . '*.par';
-   if ($debug) {
+$glo = $custCli . $user_ID . '*.par';
+if ($debug) {
     print "Cookie $cookie -- ";
     print "I am '$me'<br>
      Units: $units<br>
      User_ID: $user_ID<br>
-"}
+";
+}
 
-    print '
+print '
    <hr>
 ';
 
 print '
-     <FORM name="wrbat" method=post ACTION="https://',$wepphost,'/cgi-bin/fswepp/wr/wrbat.pl">
+     <FORM name="wrbat" method=post ACTION="https://', $wepphost,
+  '/cgi-bin/fswepp/wr/wrbat.pl">
         <a
           onMouseOver="window.status=\'Project title will be displayed on output log\';return true"
           onMouseOut="window.status=\'Forest Service WEPP:Road Batch\'">
@@ -467,15 +522,15 @@ print '
       <input type="text" name="projectdescription" size=50>
       &nbsp;&nbsp;
 ';
-    if (-e $logFile) {
-     print '   <a
+if ( -e $logFile ) {
+    print '   <a
           onMouseOver="window.status=\'Display results from your last run (they will be lost with the next run)\';return true"
           onMouseOut="window.status=\'Forest Service WEPP:Road Batch\'">
    <input type="submit" name="old_log" value="Display previous log">
   </a>'
-    }
-print '    <input type="hidden" name="me" value="',$me,'">',"\n";
-print '    <input type="hidden" name="units" value="',$units,'">'; 
+}
+print '    <input type="hidden" name="me" value="', $me, '">', "\n";
+print '    <input type="hidden" name="units" value="', $units, '">';
 print <<'theEnd';
     <hr>
 
@@ -518,74 +573,75 @@ theEnd
 #    $user_ID=$ENV{'REMOTE_ADDR'};
 #    $user_ID =~ tr/./_/;
 
-    $num_cli=0;
+$num_cli = 0;
 ### get published climates, if any                      # DEH 03/06/2001
 
-    opendir PUBLICDIR, $public;
-    @allpfiles=readdir PUBLICDIR;
-    close PUBLICDIR;
+opendir PUBLICDIR, $public;
+@allpfiles = readdir PUBLICDIR;
+close PUBLICDIR;
 
-    for $f (@allpfiles) {
-      if (substr($f,-4) eq '.par') {
+for $f (@allpfiles) {
+    if ( substr( $f, -4 ) eq '.par' ) {
         $f = $public . $f;
-        open(M,"<$f") || goto v_skip;
-          $station = <M>;
-        close (M);
-        $climate_file[$num_cli] = substr($f, 0, -4);
-        $clim_name = '- ' . substr($station, index($station, ":")+2, 40);
+        open( M, "<$f" ) || goto v_skip;
+        $station = <M>;
+        close(M);
+        $climate_file[$num_cli] = substr( $f, 0, -4 );
+        $clim_name = '- ' . substr( $station, index( $station, ":" ) + 2, 40 );
         $clim_name =~ s/^\s*(.*?)\s*$/$1/;
         $climate_name[$num_cli] = $clim_name;
         $num_cli += 1;
-v_skip:
-      }
+      v_skip:
     }
+}
 
 ### get personal climates
 
-    $num_cli=0;
+$num_cli = 0;
+
 #   @fileNames = glob($custCli . $user_ID . '*.par');
-    @fileNames = glob($custCli . '*.par');
-    for $f (@fileNames) {
-      open(M,"<$f") || die;              # par file
-        $station = <M>;
-      close (M);
-      $climate_file[$num_cli] = substr($f, 0, length($f)-4);
-      $clim_name = '*' . substr($station, index($station, ":")+2, 40); 
-      $clim_name =~ s/^\s*(.*?)\s*$/$1/;
-      $climate_name[$num_cli] = $clim_name;
-      $num_cli += 1;
-    }
+@fileNames = glob( $custCli . '*.par' );
+for $f (@fileNames) {
+    open( M, "<$f" ) || die;    # par file
+    $station = <M>;
+    close(M);
+    $climate_file[$num_cli] = substr( $f, 0, length($f) - 4 );
+    $clim_name = '*' . substr( $station, index( $station, ":" ) + 2, 40 );
+    $clim_name =~ s/^\s*(.*?)\s*$/$1/;
+    $climate_name[$num_cli] = $clim_name;
+    $num_cli += 1;
+}
 
 ### get standard climates
 
-    while (<../climates/*.par>) {
-      $f = $_;
-      open(M,$f) || die;
-        $station = <M>;
-      close (M);
-      $climate_file[$num_cli] = substr($f, 0, length($f)-4);
-      $clim_name = substr($station, index($station, ":")+2, 40);
-      $clim_name =~ s/^\s*(.*?)\s*$/$1/;
-      $climate_name[$num_cli] = $clim_name;
-      $num_cli += 1;
-    }
-    $num_cli -= 1;
+while (<../climates/*.par>) {
+    $f = $_;
+    open( M, $f ) || die;
+    $station = <M>;
+    close(M);
+    $climate_file[$num_cli] = substr( $f, 0, length($f) - 4 );
+    $clim_name = substr( $station, index( $station, ":" ) + 2, 40 );
+    $clim_name =~ s/^\s*(.*?)\s*$/$1/;
+    $climate_name[$num_cli] = $clim_name;
+    $num_cli += 1;
+}
+$num_cli -= 1;
 
 #    $user_ID=$ENV{'REMOTE_ADDR'};
 #    $user_ID =~ tr/./_/;
 #    $fileName = "../rc/working/" . $user_ID;
 #    $fileNameE = $fileName . ".cli";
 
-    if ($num_cli > 0) {
-      print '        <OPTION VALUE="';
-      print $climate_file[0];
-      print '" selected> '. $climate_name[0] . "\n";
-    }
-    for $ii (1..$num_cli) {
-      print '        <OPTION VALUE="';
-      print $climate_file[$ii];
-      print '"> '. $climate_name[$ii] . "\n";
-    }
+if ( $num_cli > 0 ) {
+    print '        <OPTION VALUE="';
+    print $climate_file[0];
+    print '" selected> ' . $climate_name[0] . "\n";
+}
+for $ii ( 1 .. $num_cli ) {
+    print '        <OPTION VALUE="';
+    print $climate_file[$ii];
+    print '"> ' . $climate_name[$ii] . "\n";
+}
 
 #################
 print <<'theEnd';
@@ -647,7 +703,7 @@ print <<'theEnd';
 <!--                                    -->
 theEnd
 
-  print "
+print "
 <font size=-1>
 Enter parameter values in the table below tab- or space-separated, one road segment per line.<br>
 Click the 'Example runs' button (above) to place sample parameter values in the table, or<br>
@@ -760,12 +816,12 @@ print <<'theEnd';
 
 theEnd
 
-  $remote_host = $ENV{'REMOTE_HOST'};
-  $remote_address = $ENV{'REMOTE_ADDR'};  # if ($userIP eq '');
+$remote_host    = $ENV{'REMOTE_HOST'};
+$remote_address = $ENV{'REMOTE_ADDR'};    # if ($userIP eq '');
 
-  $wc  = `wc ../working/wr.log`;
-  @words = split " ", $wc;
-  $runs = @words[0];
+$wc    = `wc ../working/wr.log`;
+@words = split " ", $wc;
+$runs  = @words[0];
 
 print '
   <P>
@@ -774,10 +830,10 @@ print '
     <td>
      <font face="Arial, Geneva, Helvetica" size=-1>
       WEPP:Road Batch input screen version
-      <a href="javascript:popuphistory()">', $version,'</a><br>
+      <a href="javascript:popuphistory()">', $version, '</a><br>
       USDA Forest Service Rocky Mountain Research Station<br>
       1221 South Main Street, Moscow, ID 83843<br>',
-      "$remote_host &ndash; $remote_address ($user_really) personality '<b>$me</b>'<br>
+"$remote_host &ndash; $remote_address ($user_really) personality '<b>$me</b>'<br>
 <script>
 //  16,000 road segments modeled Jan 1 to Sept 1, 2010<br>
 //  18,739 road segments modeled in 2009<br>
@@ -787,10 +843,13 @@ print '
     </td>
     <td>
      <a href=\"https://$wepphost/fswepp/comments.html\" ";
-if ($wepphost eq 'localhost')
- {print "\n",'onClick="return confirm(\'You must be connected to the Internet to e-mail comments. Shall I try?\')"'};
+if ( $wepphost eq 'localhost' ) {
+    print "\n",
+'onClick="return confirm(\'You must be connected to the Internet to e-mail comments. Shall I try?\')"';
+}
 print '>
-     <img src="https://',$wepphost,'/fswepp/images/epaemail.gif" align="right" border=0></a>
+     <img src="https://', $wepphost,
+  '/fswepp/images/epaemail.gif" align="right" border=0></a>
     </td>
    </tr>
   </table>
@@ -802,33 +861,37 @@ print '>
 
 sub ReadParse {
 
-# ReadParse -- from cgi-lib.pl (Steve Brenner) from Eric Herrmann's
-# "Teach Yourself CGI Programming With PERL in a Week" p. 131
+    # ReadParse -- from cgi-lib.pl (Steve Brenner) from Eric Herrmann's
+    # "Teach Yourself CGI Programming With PERL in a Week" p. 131
 
-  local (*in) = @_ if @_;
-  local ($i, $loc, $key, $val);
+    local (*in) = @_ if @_;
+    local ( $i, $loc, $key, $val );
 
-  if ($ENV{'REQUEST_METHOD'} eq "GET") {
-    $in = $ENV{'QUERY_STRING'}} 
-  elsif ($ENV{'REQUEST_METHOD'} eq "POST") {
-    read(STDIN,$in,$ENV{'CONTENT_LENGTH'})}
+    if ( $ENV{'REQUEST_METHOD'} eq "GET" ) {
+        $in = $ENV{'QUERY_STRING'};
+    }
+    elsif ( $ENV{'REQUEST_METHOD'} eq "POST" ) {
+        read( STDIN, $in, $ENV{'CONTENT_LENGTH'} );
+    }
 
-  @in = split(/&/,$in);
+    @in = split( /&/, $in );
 
-  foreach $i (0 .. $#in) {
-    # Convert pluses to spaces
-    $in[$i] =~ s/\+/ /g;
+    foreach $i ( 0 .. $#in ) {
 
-    # Split into key and value
-    ($key, $val) = split(/=/,$in[$i],2);  # splits on the first =
+        # Convert pluses to spaces
+        $in[$i] =~ s/\+/ /g;
 
-    # Convert %XX from hex numbers to alphanumeric
-    $key =~ s/%(..)/pack("c",hex($1))/ge;
-    $val =~ s/%(..)/pack("c",hex($1))/ge;
+        # Split into key and value
+        ( $key, $val ) = split( /=/, $in[$i], 2 );    # splits on the first =
 
-    # Associative key and value
-    $in{$key} .= "\0" if (defined($in{$key}));  # \0 is the multiple separator
-    $in{$key} .= $val;
-  }
-  return 1;
- }
+        # Convert %XX from hex numbers to alphanumeric
+        $key =~ s/%(..)/pack("c",hex($1))/ge;
+        $val =~ s/%(..)/pack("c",hex($1))/ge;
+
+        # Associative key and value
+        $in{$key} .= "\0"
+          if ( defined( $in{$key} ) );    # \0 is the multiple separator
+        $in{$key} .= $val;
+    }
+    return 1;
+}

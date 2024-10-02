@@ -1,5 +1,6 @@
-#! /usr/bin/perl
+#!/usr/bin/perl
 
+use CGI;
 use CGI qw(escapeHTML);
 
 # modpar.pl
@@ -30,8 +31,6 @@ $debug = 0;
 #      state            State for basis climate station
 #      retreat
 #  reads:
-#    ../wepphost
-#    ../platform
 
 #  FSWEPP, USDA Forest Service, Rocky Mountain Research Station, Soil & Water Engineering
 #  Science by Bill Elliot et alia                    Code by David Hall and Dayna Scheele
@@ -68,22 +67,23 @@ $state    = $ARGV[3];
 
 if ( $CL . $units . $comefrom . $state eq "" ) {
     $parse = 1;
-    &ReadParse(*parameters);
 
-    $plat         = escapeHTML( $parameters{'platitude'} );
-    $plon         = escapeHTML( $parameters{'plongitude'} );
-    $pelev        = escapeHTML( $parameters{'elev'} );
-    $units        = escapeHTML( $parameters{'units'} );
-    $CL           = escapeHTML( $parameters{'CL'} );
-    $climate_name = escapeHTML( $parameters{'climate_name'} );
+    my $cgi = CGI->new;
 
-    for $i ( 1 .. 12 ) {
-        $ppcp[ $i - 1 ] = escapeHTML( $parameters{"ppcp$i"} );
+    $plat         = escapeHTML( $cgi->param('platitude') );
+    $plon         = escapeHTML( $cgi->param('plongitude') );
+    $pelev        = escapeHTML( $cgi->param('elev') );
+    $units        = escapeHTML( $cgi->param('units') );
+    $CL           = escapeHTML( $cgi->param('CL') );
+    $climate_name = escapeHTML( $cgi->param('climate_name') );
+
+    for my $i ( 1 .. 12 ) {
+        $ppcp[ $i - 1 ] = escapeHTML( $cgi->param("ppcp$i") );
     }
-    $ppcp     = escapeHTML( $parameters{"ppcp"} );
-    $comefrom = escapeHTML( $parameters{"comefrom"} );
-    $state    = escapeHTML( $parameters{"state"} );
-    $retreat  = escapeHTML( $parameters{"retreat"} );
+    $ppcp     = escapeHTML( $cgi->param("ppcp") );
+    $comefrom = escapeHTML( $cgi->param("comefrom") );
+    $state    = escapeHTML( $cgi->param("state") );
+    $retreat  = escapeHTML( $cgi->param("retreat") );
     if ( $retreat eq "" ) { $prism = 1 }
 }
 
@@ -112,22 +112,6 @@ if ( $units ne 'ft' && $units ne 'm' ) {
 ;                                            # DEH 2004.06.03
 
 chomp $CL;
-
-$wepphost = "localhost";
-if ( -e "../wepphost" ) {
-    open HOST, "<../wepphost";
-    $wepphost = lc(<HOST>);
-    chomp $wepphost;
-    close HOST;
-}
-
-$platform = "pc";
-if ( -e "../platform" ) {
-    open Platform, "<../platform";
-    $platform = lc(<Platform>);
-    chomp $platform;
-    close Platform;
-}
 
 # DEH 03/05/2001
 $cookie = $ENV{'HTTP_COOKIE'};
@@ -878,8 +862,7 @@ print ' onChange="updateLL()"> <b><sup>o</sup>';
 print $longhemisphere;
 print '</b>
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-     <input type=image src="https://', $wepphost,
-  '/fswepp/images/prism.gif" value=PRISM align=middle>
+     <input type=image src="/fswepp/images/prism.gif" value=PRISM align=middle>
 <!-- DEH 23 Jul 2002 -->
      <br>(<a href="Javascript:latlong_calc(\'', $units,
   '\')">lat-long calculator</a>)
@@ -1115,52 +1098,6 @@ comefrom: $comefrom; state: $state
 ";
 
 # ************************
-
-sub ReadParse {
-
-    # ReadParse -- from cgi-lib.pl (Steve Brenner) from Eric Herrmann's
-    # "Teach Yourself CGI Programming With PERL in a Week" p. 131
-
-    # Reads GET or POST data, converts it to unescaped text, and puts
-    # one key=value in each member of the list "@in"
-    # Also creates key/value pairs in %in, using '\0' to separate multiple
-    # selections
-
-    # If a variable-glob parameter...
-
-    local (*in) = @_ if @_;
-    local ( $i, $loc, $key, $val );
-
-    if ( $ENV{'REQUEST_METHOD'} eq "GET" ) {
-        $in = $ENV{'QUERY_STRING'};
-    }
-    elsif ( $ENV{'REQUEST_METHOD'} eq "POST" ) {
-        read( STDIN, $in, $ENV{'CONTENT_LENGTH'} );
-    }
-
-    @in = split( /&/, $in );
-
-    foreach $i ( 0 .. $#in ) {
-
-        # Convert pluses to spaces
-        $in[$i] =~ s/\+/ /g;
-
-        # Split into key and value
-        ( $key, $val ) = split( /=/, $in[$i], 2 );    # splits on the first =
-
-        # Convert %XX from hex numbers to alphanumeric
-        $key =~ s/%(..)/pack("c",hex($1))/ge;
-        $val =~ s/%(..)/pack("c",hex($1))/ge;
-
-        # Associative key and value
-        $in{$key} .= "\0"
-          if ( defined( $in{$key} ) );    # \0 is the multiple separator
-        $in{$key} .= $val;
-    }
-    return 1;
-}
-
-#---------------------------
 
 sub printdate {
 

@@ -1,4 +1,4 @@
-#! /usr/bin/perl
+#!/usr/bin/perl
 
 use CGI qw(escapeHTML);
 
@@ -26,30 +26,30 @@ $user_ID     = $ENV{'REMOTE_ADDR'};
 $user_really = $ENV{'HTTP_X_FORWARDED_FOR'};
 $user_ID     = $user_really if ( $user_really ne '' );
 
-&ReadParse(*parameters);
+my $cgi = CGI->new;
 
-$latitude     = escapeHTML($parameters{'latitude'});
-$longitude    = escapeHTML($parameters{'longitude'});
-$platitude    = escapeHTML($parameters{'platitude'});
-$plongitude   = escapeHTML($parameters{'plongitude'});
-$lathem       = escapeHTML($parameters{'lathem'});
-$longhem      = escapeHTML($parameters{'longhem'});
-$elev         = escapeHTML($parameters{'elev'});
-$units        = escapeHTML($parameters{'units'});
-$CLfile       = escapeHTML($parameters{'CL'});
-$climate_name = escapeHTML($parameters{'climate_name'});
+$latitude     = escapeHTML($cgi->param('latitude'));
+$longitude    = escapeHTML($cgi->param('longitude'));
+$platitude    = escapeHTML($cgi->param('platitude'));
+$plongitude   = escapeHTML($cgi->param('plongitude'));
+$lathem       = escapeHTML($cgi->param('lathem'));
+$longhem      = escapeHTML($cgi->param('longhem'));
+$elev         = escapeHTML($cgi->param('elev'));
+$units        = escapeHTML($cgi->param('units'));
+$CLfile       = escapeHTML($cgi->param('CL'));
+$climate_name = escapeHTML($cgi->param('climate_name'));
 
 if ( $units eq '-uft' )                { $units = 'ft' }    # DEH 07/19/00
 if ( $units eq '-um' )                 { $units = 'm' }     # DEH 07/19/00
 if ( $units ne 'ft' && $units ne 'm' ) { $units = 'ft' }
 ;                                                           # DEH 2004.06.03
 
-for $i ( 1 .. 12 ) {
-    $mean_p[ $i - 1 ] = $parameters{"pc$i"};
+for my $i (1 .. 12) {
+    $mean_p[$i - 1] = escapeHTML($cgi->param("pc$i"));
 }
-$mean_p[12] = $parameters{"pc"};
-$comefrom   = $parameters{"comefrom"};
-$state      = $parameters{"state"};
+$mean_p[12] = escapeHTML($cgi->param("pc"));
+$comefrom   = escapeHTML($cgi->param("comefrom"));
+$state      = escapeHTML($cgi->param("state"));
 
 if ( $platitude eq "" ) {
     $platitude  = $latitude;
@@ -792,49 +792,3 @@ print "
  </BODY>
 </HTML>
 ";
-
-# ************************
-
-sub ReadParse {
-
-    # ReadParse -- from cgi-lib.pl (Steve Brenner) from Eric Herrmann's
-    # "Teach Yourself CGI Programming With PERL in a Week" p. 131
-
-    # Reads GET or POST data, converts it to unescaped text, and puts
-    # one key=value in each member of the list "@in"
-    # Also creates key/value pairs in %in, using '\0' to separate multiple
-    # selections
-
-    # If a variable-glob parameter...
-
-    local (*in) = @_ if @_;
-    local ( $i, $loc, $key, $val );
-
-    if ( $ENV{'REQUEST_METHOD'} eq "GET" ) {
-        $in = $ENV{'QUERY_STRING'};
-    }
-    elsif ( $ENV{'REQUEST_METHOD'} eq "POST" ) {
-        read( STDIN, $in, $ENV{'CONTENT_LENGTH'} );
-    }
-
-    @in = split( /&/, $in );
-
-    foreach $i ( 0 .. $#in ) {
-
-        # Convert pluses to spaces
-        $in[$i] =~ s/\+/ /g;
-
-        # Split into key and value
-        ( $key, $val ) = split( /=/, $in[$i], 2 );    # splits on the first =
-
-        # Convert %XX from hex numbers to alphanumeric
-        $key =~ s/%(..)/pack("c",hex($1))/ge;
-        $val =~ s/%(..)/pack("c",hex($1))/ge;
-
-        # Associative key and value
-        $in{$key} .= "\0"
-          if ( defined( $in{$key} ) );    # \0 is the multiple separator
-        $in{$key} .= $val;
-    }
-    return 1;
-}
