@@ -1,5 +1,9 @@
 #!/usr/bin/perl
 
+use warnings;
+use CGI;
+use CGI qw(escapeHTML);
+
 #  wepproad.pl -- input screen for WEPP:Road
 
 ## BEGIN HISTORY ###################################
@@ -75,8 +79,9 @@ $version = '2014.09.05'
 #  18 May 2000 DEH personal climates for "" limited to "" no "a", "b"...
 #  19 October 1999
 
-&ReadParse(*parameters);
-$units = $parameters{'units'};
+$cgi = CGI->new;
+
+$units = escapeHTML($cgi->param('units'));
 if ( $units eq '' ) { $units = 'ft' }    # DEH 01/05/2001
 
 $cookie = $ENV{'HTTP_COOKIE'};
@@ -797,42 +802,6 @@ print '>
 
 # ------------------------ subroutines ---------------------------------
 
-sub ReadParse {
-
-    # ReadParse -- from cgi-lib.pl (Steve Brenner) from Eric Herrmann's
-    # "Teach Yourself CGI Programming With PERL in a Week" p. 131
-
-    local (*in) = @_ if @_;
-    local ( $i, $loc, $key, $val );
-
-    if ( $ENV{'REQUEST_METHOD'} eq "GET" ) {
-        $in = $ENV{'QUERY_STRING'};
-    }
-    elsif ( $ENV{'REQUEST_METHOD'} eq "POST" ) {
-        read( STDIN, $in, $ENV{'CONTENT_LENGTH'} );
-    }
-
-    @in = split( /&/, $in );
-
-    foreach $i ( 0 .. $#in ) {
-
-        # Convert pluses to spaces
-        $in[$i] =~ s/\+/ /g;
-
-        # Split into key and value
-        ( $key, $val ) = split( /=/, $in[$i], 2 );    # splits on the first =
-
-        # Convert %XX from hex numbers to alphanumeric
-        $key =~ s/%(..)/pack("c",hex($1))/ge;
-        $val =~ s/%(..)/pack("c",hex($1))/ge;
-
-        # Associative key and value
-        $in{$key} .= "\0"
-          if ( defined( $in{$key} ) );    # \0 is the multiple separator
-        $in{$key} .= $val;
-    }
-    return 1;
-}
 
 sub make_history_popup {
 

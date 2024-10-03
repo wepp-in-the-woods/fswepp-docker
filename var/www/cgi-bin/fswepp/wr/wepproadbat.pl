@@ -1,5 +1,8 @@
 #!/usr/bin/perl
 
+use warnings;
+use CGI;
+use CGI qw(escapeHTML);
 
 $debug = 0;
 
@@ -42,8 +45,6 @@ $version = '2009.09.17';    # Adjust FSWEPPuser personality
 #       QUERY_STRING
 #       CONTENT_LENGTH
 #  reads:
-#    ../wepphost	# localhost or other
-#    ../platform	# pc or unix
 #    ../climates/*.par	# standard climate parameter files
 #    $working/*.par	# personal climate parameter files
 #  calls:
@@ -59,8 +60,10 @@ $version = '2009.09.17';    # Adjust FSWEPPuser personality
 #  FS WEPP, USDA Forest Service, Rocky Mountain Research Station, Soil & Water Engineering
 #  Science by Bill Elliot et alia                                       Code by David Hall
 
-&ReadParse(*parameters);
-$units = $parameters{'units'};
+my $cgi = CGI->new;
+
+my $units = escapeHTML( $cgi->param('units') );
+
 if ( $units eq '' ) { $units = 'ft' }    # DEH 01/05/2001
 $cookie = $ENV{'HTTP_COOKIE'};
 
@@ -77,49 +80,20 @@ if ( $me ne "" ) {
 }
 if ( $me eq ' ' ) { $me = '' }
 
-$wepphost = "localhost";
-if ( -e "../wepphost" ) {
-    open Host, "<../wepphost";
-    $wepphost = <Host>;
-    chomp $wepphost;
-    close H;
-}
-
-$platform = "pc";
-if ( -e "../platform" ) {
-    open Platform, "<../platform";
-    $platform = lc(<Platform>);
-    chomp $platform;
-    close Platform;
-}
-
-if ( $platform eq "pc" ) {
-    if    ( -e 'd:/fswepp/working' ) { $working = 'd:\\fswepp\\working' }
-    elsif ( -e 'c:/fswepp/working' ) { $working = 'c:\\fswepp\\working' }
-    else                             { $working = '..\\working' }
-    $logFile = "$working\\wrbwepp.log";
-    $cliDir  = '..\\climates\\';
-    $custCli = "$working\\";
-}
-else {
-    $public      = $working . 'public/';                      # DEH 03/06/2001
-    $user_ID     = $ENV{'REMOTE_ADDR'};
-    $user_really = $ENV{'HTTP_X_FORWARDED_FOR'};              # DEH 10/15/2003
-    $user_ID     = $user_really if ( $user_really ne '' );    # DEH 10/15/2002
-    $user_ID =~ tr/./_/;
-    $user_ID  = $user_ID . $me;
-    $user_ID_ = $user_ID . '_';                               # DEH 03/05/2001
-    $logFile  = '../working/' . $user_ID . '.wrblog';
-    $cliDir   = '../climates/';
-    $custCli  = '../working/' . $user_ID . '_';               # DEH 05/18/2000
-}
+$public      = $working . 'public/';                      # DEH 03/06/2001
+$user_ID     = $ENV{'REMOTE_ADDR'};
+$user_really = $ENV{'HTTP_X_FORWARDED_FOR'};              # DEH 10/15/2003
+$user_ID     = $user_really if ( $user_really ne '' );    # DEH 10/15/2002
+$user_ID =~ tr/./_/;
+$user_ID  = $user_ID . $me;
+$user_ID_ = $user_ID . '_';                               # DEH 03/05/2001
+$logFile  = '../working/' . $user_ID . '.wrblog';
+$cliDir   = '../climates/';
+$custCli  = '../working/' . $user_ID . '_';               # DEH 05/18/2000
 
 ##########################################
 
 ### get personal climates, if any
-
-#    $user_ID=$ENV{'REMOTE_ADDR'};
-#    $user_ID =~ tr/./_/;
 
 $num_cli   = 0;
 @fileNames = glob( $custCli . '*.par' );
@@ -456,10 +430,7 @@ theEnd
 
 print "
   function popup(url,height,width) {
-    uurl = 'https://", $wepphost, "' + url;
-//    height=200;
-//    width=500;
-    popupwindow = window.open(uurl,'popupwindow','toolbar=no,location=no,status=no,directories=no,menubar=no,scrollbars=yes,resizable=yes,width='+width+',height='+height);
+    popupwindow = window.open(url,'popupwindow','toolbar=no,location=no,status=no,directories=no,menubar=no,scrollbars=yes,resizable=yes,width='+width+',height='+height);
     popupwindow.focus()
   }
 
@@ -472,26 +443,14 @@ print ' <body bgcolor="#eeddcc" link="#555555" vlink="#555555">
   <font face="Arial, Geneva, Helvetica">
   <table width="100%" border=0>
     <tr><td>
-       <a href="https://',  $wepphost, '/fswepp/">
-       <IMG src="https://', $wepphost, '/fswepp/images/fsweppic2.gif"
+       <a href="/fswepp/">
+       <IMG src="/fswepp/images/fsweppic2.gif"
        width=65 height=65
        align="left" alt="Return to FS WEPP menu" border=0></a>
     </td>
     <td align=center>
        <h2>WEPP:Road Batch<br>WEPP Forest Road Erosion Predictor</h2>
-        <!-- a
-          onMouseOver="window.status=\'You takes your chances\';return true"
-          onMouseOut="window.status=\'Forest Service WEPP:Road Batch\';return true" -->
-         <!-- img src="/fswepp/images/underc.gif" -->
-        <!-- /a -->
     </td>
-<!--
-    <td>
-       <A HREF="https://', $wepphost,
-  '/fswepp/docs/wroadimg.html" target="docs">
-       <IMG src="https://', $wepphost, '/fswepp/images/ipage.gif"
-        align="right" alt="Read the documentation" border=0></a>
--->
      </tr>
     </table>
 
@@ -513,8 +472,7 @@ print '
 ';
 
 print '
-     <FORM name="wrbat" method=post ACTION="https://', $wepphost,
-  '/cgi-bin/fswepp/wr/wrbat.pl">
+     <FORM name="wrbat" method=post ACTION="/cgi-bin/fswepp/wr/wrbat.pl">
         <a
           onMouseOver="window.status=\'Project title will be displayed on output log\';return true"
           onMouseOut="window.status=\'Forest Service WEPP:Road Batch\'">
@@ -840,58 +798,11 @@ print '
 // 388,501 road segments modeled in 2008
 </script>
      </font>
-    </td>
-    <td>
-     <a href=\"https://$wepphost/fswepp/comments.html\" ";
-if ( $wepphost eq 'localhost' ) {
-    print "\n",
-'onClick="return confirm(\'You must be connected to the Internet to e-mail comments. Shall I try?\')"';
-}
+    </td>";
+
 print '>
-     <img src="https://', $wepphost,
-  '/fswepp/images/epaemail.gif" align="right" border=0></a>
-    </td>
    </tr>
   </table>
  </BODY>
 </HTML>
 ';
-
-# ------------------------ subroutines ---------------------------------
-
-sub ReadParse {
-
-    # ReadParse -- from cgi-lib.pl (Steve Brenner) from Eric Herrmann's
-    # "Teach Yourself CGI Programming With PERL in a Week" p. 131
-
-    local (*in) = @_ if @_;
-    local ( $i, $loc, $key, $val );
-
-    if ( $ENV{'REQUEST_METHOD'} eq "GET" ) {
-        $in = $ENV{'QUERY_STRING'};
-    }
-    elsif ( $ENV{'REQUEST_METHOD'} eq "POST" ) {
-        read( STDIN, $in, $ENV{'CONTENT_LENGTH'} );
-    }
-
-    @in = split( /&/, $in );
-
-    foreach $i ( 0 .. $#in ) {
-
-        # Convert pluses to spaces
-        $in[$i] =~ s/\+/ /g;
-
-        # Split into key and value
-        ( $key, $val ) = split( /=/, $in[$i], 2 );    # splits on the first =
-
-        # Convert %XX from hex numbers to alphanumeric
-        $key =~ s/%(..)/pack("c",hex($1))/ge;
-        $val =~ s/%(..)/pack("c",hex($1))/ge;
-
-        # Associative key and value
-        $in{$key} .= "\0"
-          if ( defined( $in{$key} ) );    # \0 is the multiple separator
-        $in{$key} .= $val;
-    }
-    return 1;
-}

@@ -1,6 +1,7 @@
 #!/usr/bin/perl
 
 use warnings;
+use CGI;
 use CGI qw(escapeHTML);
 use lib '/var/www/cgi-bin/fswepp/dry';
 use CligenUtils qw(CreateCligenFile GetParSummary);
@@ -50,7 +51,7 @@ use String::Util qw(trim);
 # 04 November 1999
 # David Hall, USDA Forest Service, Rocky Mountain Research Station
 
-$debug=1;
+$debug = 1;
 
 $version = "2009.02.23";
 
@@ -60,35 +61,34 @@ $version = "2009.02.23";
 
 #=========================================================================
 
-&ReadParse(*parameters);
+$cgi = CGI->new;
 
-$CL             = escapeHTML( $parameters{'Climate'} );
-$soil           = escapeHTML( $parameters{'SoilType'} );
-$treat1         = escapeHTML( $parameters{'UpSlopeType'} );
-$ofe1_length    = $parameters{'ofe1_length'} + 0;
-$ofe1_top_slope = $parameters{'ofe1_top_slope'} + 0;
-$ofe1_mid_slope = $parameters{'ofe1_mid_slope'} + 0;
-$ofe1_pcover    = $parameters{'ofe1_pcover'} + 0;
-$ofe1_rock      = $parameters{'ofe1_rock'} + 0;
-$treat2         = escapeHTML( $parameters{'LowSlopeType'} );
-$ofe2_length    = $parameters{'ofe2_length'} + 0;
-$ofe2_mid_slope = $parameters{'ofe2_top_slope'} + 0;
-$ofe2_bot_slope = $parameters{'ofe2_bot_slope'} + 0;
-$ofe2_pcover    = $parameters{'ofe2_pcover'} + 0;
-$ofe2_rock      = $parameters{'ofe2_rock'} + 0;
-$ofe_area       = $parameters{'ofe_area'} + 0;
+$CL             = escapeHTML( $cgi->param('Climate') );
+$soil           = escapeHTML( $cgi->param('SoilType') );
+$treat1         = escapeHTML( $cgi->param('UpSlopeType') );
+$ofe1_length    = $cgi->param('ofe1_length') + 0;
+$ofe1_top_slope = $cgi->param('ofe1_top_slope') + 0;
+$ofe1_mid_slope = $cgi->param('ofe1_mid_slope') + 0;
+$ofe1_pcover    = $cgi->param('ofe1_pcover') + 0;
+$ofe1_rock      = $cgi->param('ofe1_rock') + 0;
+$treat2         = escapeHTML( $cgi->param('LowSlopeType') );
+$ofe2_length    = $cgi->param('ofe2_length') + 0;
+$ofe2_mid_slope = $cgi->param('ofe2_top_slope') + 0;
+$ofe2_bot_slope = $cgi->param('ofe2_bot_slope') + 0;
+$ofe2_pcover    = $cgi->param('ofe2_pcover') + 0;
+$ofe2_rock      = $cgi->param('ofe2_rock') + 0;
+$ofe_area       = $cgi->param('ofe_area') + 0;
 $action =
-    escapeHTML( $parameters{'actionc'} )
-  . escapeHTML( $parameters{'actionv'} )
-  . escapeHTML( $parameters{'actionw'} )
-  . escapeHTML( $parameters{'ActionCD'} );
-$me          = escapeHTML( $parameters{'me'} );
-$units       = escapeHTML( $parameters{'units'} );
-$achtung     = escapeHTML( $parameters{'achtung'} );
-$climyears   = $parameters{'climyears'} + 0;
-$description = escapeHTML( $parameters{'description'} );
-$weppversion = escapeHTML( $parameters{'weppversion'} );
-
+    escapeHTML( $cgi->param('actionc') )
+  . escapeHTML( $cgi->param('actionv') )
+  . escapeHTML( $cgi->param('actionw') )
+  . escapeHTML( $cgi->param('ActionCD') );
+$me          = escapeHTML( $cgi->param('me') );
+$units       = escapeHTML( $cgi->param('units') );
+$achtung     = escapeHTML( $cgi->param('achtung') );
+$climyears   = $cgi->param('climyears') + 0;
+$description = escapeHTML( $cgi->param('description') );
+$weppversion = escapeHTML( $cgi->param('weppversion') );
 
 $outputf = 0;
 
@@ -99,7 +99,6 @@ $description = substr( $description, 0, 100 );
 $description =~ s/</&lt;/g;
 $description =~ s/>/&gt;/g;
 ###
-
 
 if ( lc($action) =~ /custom/ ) {
     $weppdist = "/cgi-bin/fswepp/wd/weppdist.pl";
@@ -114,9 +113,8 @@ if ( lc($achtung) =~ /describe climate/ ) {
 }    # /describe climate/
 
 if ( lc($achtung) =~ /describe soil/ ) {    ##########
-
-    $units    = $parameters{'units'};
-    $SoilType = $parameters{'SoilType'};
+    $units    = $cgi->param('units');
+    $SoilType = $cgi->param('SoilType');
 
     $soilPath = "data/";
 
@@ -188,7 +186,7 @@ if ( lc($achtung) =~ /describe soil/ ) {    ##########
         #       if ($conduct == 2) {print 'Low '} else {print 'High '}
         #       print "conductivity<br>\n";
     }
-    
+
     $working  = '../working';
     $unique   = 'wepp-' . $$;                  # DEH 01/13/2004
     $soilFile = "$working/$unique" . '.sol';
@@ -426,12 +424,13 @@ if ( $rcin eq '' ) {
     if ($debug) { print "Creating Management File<br>\n" }
     &CreateManagementFile;
     if ($debug) { print "Creating Climate File<br>\n" }
-    ($climateFile, $climatePar) = &CreateCligenFile( $CL, $unique, $years2sim, $debug );
+    ( $climateFile, $climatePar ) =
+      &CreateCligenFile( $CL, $unique, $years2sim, $debug );
     if ($debug) { print "Creating Soil File<br>\n" }
     &CreateSoilFile;
     if ($debug) { print "Creating WEPP Response File<br>\n" }
     &CreateResponseFile;
-    
+
     @args = ("../wepp2000 <$responseFile >$stoutFile 2>$sterFile");
     system @args;
 
@@ -1325,7 +1324,7 @@ if ( $rcin eq '' ) {
      Disturbed WEPP Results v.";
     print '     <a href="javascript:popuphistory()">';
     print
-"     $version</a> based on <b>WEPP $weppversion</b>, CLIGEN 4.3.1<br>";
+      "     $version</a> based on <b>WEPP $weppversion</b>, CLIGEN 4.3.1<br>";
 }    # if ($rcin eq '') {
 
 &printdate;
@@ -1360,41 +1359,40 @@ close PAR;
 
 #  record activity in Disturbed WEPP log (if running on remote server)
 
+open WDLOG, ">>../working/wd.log";
+flock( WDLOG, 2 );
 
-    open WDLOG, ">>../working/wd.log";
-    flock( WDLOG, 2 );
+#      $host = $ENV{REMOTE_HOST};
+#      if ($host eq "") {$host = $ENV{REMOTE_ADDR} };
+print WDLOG "$host\t\"";
+printf WDLOG "%0.2d:%0.2d ", $hour, $min;
+print WDLOG $ampm[$ampmi], "  ", $days[$wday], " ", $months[$mon], " ",
+  $mday, ", ", $thisyear, "\"\t";
+print WDLOG $years2sim, "\t";
+print WDLOG '"', trim($climate_name), "\"\t";
 
-    #      $host = $ENV{REMOTE_HOST};
-    #      if ($host eq "") {$host = $ENV{REMOTE_ADDR} };
-    print WDLOG "$host\t\"";
-    printf WDLOG "%0.2d:%0.2d ", $hour, $min;
-    print WDLOG $ampm[$ampmi], "  ", $days[$wday], " ", $months[$mon], " ",
-      $mday, ", ", $thisyear, "\"\t";
-    print WDLOG $years2sim, "\t";
-    print WDLOG '"', trim($climate_name), "\"\t";
+#       print WDLOG $lat_long,"\n";                      # 2008.06.04 DEH
+print WDLOG "$lat\t$long\n";    # 2008.06.04 DEH
 
-    #       print WDLOG $lat_long,"\n";                      # 2008.06.04 DEH
-    print WDLOG "$lat\t$long\n";    # 2008.06.04 DEH
+#       print WDLOG $climate_name,"\n";
+close WDLOG;
 
-    #       print WDLOG $climate_name,"\n";
-    close WDLOG;
+open CLIMLOG, '>../working/lastclimate.txt';    # 2005.07.14 DEH
+flock CLIMLOG, 2;
+print CLIMLOG 'Disturbed WEPP: ', trim($climate_name);
+close CLIMLOG;
 
-    open CLIMLOG, '>../working/lastclimate.txt';    # 2005.07.14 DEH
-    flock CLIMLOG, 2;
-    print CLIMLOG 'Disturbed WEPP: ', trim($climate_name);
-    close CLIMLOG;
-
-    $thisday = 1 + (localtime)[7];    # $yday, day of the year (0..364)
+$thisday = 1 + (localtime)[7];    # $yday, day of the year (0..364)
 
 #    $thisdayoff=$thisday+3;                            # [Jan 1] -1: Sunday; 0: Monday
-    $thisdayoff =
-      $thisday + 4;   # [Jan 1] -1: Su; 0: Mo; 1: Tu; 2: We; 3: Th; 4: Fr; 5: Sa
-    $thisweek   = 1 + int $thisdayoff / 7;
-    $ditlogfile = '>>../working/wd/' . $thisweek;    # modify this
-    open MYLOG, $ditlogfile;
-    flock MYLOG, 2;                                  # 2005.02.09 DEH
-    print MYLOG '.';
-    close MYLOG;
+$thisdayoff =
+  $thisday + 4;    # [Jan 1] -1: Su; 0: Mo; 1: Tu; 2: We; 3: Th; 4: Fr; 5: Sa
+$thisweek   = 1 + int $thisdayoff / 7;
+$ditlogfile = '>>../working/wd/' . $thisweek;    # modify this
+open MYLOG, $ditlogfile;
+flock MYLOG, 2;                                  # 2005.02.09 DEH
+print MYLOG '.';
+close MYLOG;
 
 ################################# start 2009.11.02 DEH
 
@@ -1403,7 +1401,7 @@ close PAR;
 $climate_trim = trim($climate_name);
 $climate_trim = $CL
   if ( $climate_trim eq '' )
-  ;            # 2010.04.22 capture filename in case of failed run
+  ;    # 2010.04.22 capture filename in case of failed run
 
 open RUNLOG, ">>$runLogFile";
 flock( RUNLOG, 2 );
@@ -1433,86 +1431,7 @@ close RUNLOG;
 
 ################################# end 2009.11.02 DEH
 
-# #####
-#    record run to user IP run log
-
-#     if ($platform eq 'pc') {
-#       $runlogFile = "$working\\run.log";
-#     }
-#     else {
-#       $Iam = $ENV{REMOTE_ADDR};
-#       $Iam_really=$ENV{'HTTP_X_FORWARDED_FOR'};      	# DEH 11/14/2002
-#       $Iam=$Iam_really if ($Iam_really ne '');  	# DEH 11/14/2002
-#       $Iam =~ tr/./_/;
-#       $Iam = $Iam . $me . '_';				# DEH 03/05/2001
-#       $runlogFile = "$working/$Iam" . 'runlog';
-#     }
-## open runlogFile for append // print // close #
-#print "Run log: $runlogFile\n";
-#  ($sec,$min,$hour,$mday,$mon,$year,$wday,$yday,$isdst) = localtime(time);
-#  my @abbr = qw( Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec );
-#  $year += 1900;
-#  $actual_climate_name =~ s/^\s+//;	# https://perldoc.perl.org/perlfaq4.html#How-do-I-strip-blank-space-from-the-beginning/end-of-a-string?
-#  $actual_climate_name =~ s/\s+$//;
-#print "wd\t
-#   \"$abbr[$mon] $mday, $year\"\t
-#   $units\t
-#   \"$actual_climate_name\"\t
-#   $soil\t
-#   $treat1\t
-#   $ofe1_length\t
-#   $ofe1_top_slope\t
-#   $ofe1_mid_slope\t
-#   $ofe1_pcover\t
-#   $ofe1_rock\t
-#   $ofe1_depth\t
-#   $treat2\t
-#   $ofe2_length\t
-#   $ofe2_mid_slope\t
-#   $ofe2_bot_slope\t
-#   $ofe2_pcover\t
-#   $ofe2_rock\t
-#   $ofe2_depth\t
-#   $ofe_area\t
-#   $climyears\n";
-#
-# #####
-
 # ------------------------ subroutines ---------------------------
-
-sub ReadParse {
-
-    # ReadParse -- from cgi-lib.pl (Steve Brenner) from Eric Herrmann's
-    # "Teach Yourself CGI Programming With PERL in a Week" p. 131
-
-    # Reads GET or POST data, converts it to unescaped text, and puts
-    # one key=value in each member of the list "@in"
-    # Also creates key/value pairs in %in, using '\0' to separate multiple
-    # selections
-
-    local (*in) = @_ if @_;
-    local ( $i, $loc, $key, $val );
-
-    #       read text
-    if ( $ENV{'REQUEST_METHOD'} eq "GET" ) {
-        $in = $ENV{'QUERY_STRING'};
-    }
-    elsif ( $ENV{'REQUEST_METHOD'} eq "POST" ) {
-        read( STDIN, $in, $ENV{'CONTENT_LENGTH'} );
-    }
-    @in = split( /&/, $in );
-    foreach $i ( 0 .. $#in ) {
-        $in[$i] =~ s/\+/ /g;    # Convert pluses to spaces
-        ( $key, $val ) = split( /=/, $in[$i], 2 );    # Split into key and value
-        $key =~ s/%(..)/pack("c",hex($1))/ge
-          ;    # Convert %XX from hex numbers to alphanumeric
-        $val =~ s/%(..)/pack("c",hex($1))/ge;
-        $in{$key} .= "\0"
-          if ( defined( $in{$key} ) );    # \0 is the multiple separator
-        $in{$key} .= $val;
-    }
-    return 1;
-}
 
 #---------------------------
 

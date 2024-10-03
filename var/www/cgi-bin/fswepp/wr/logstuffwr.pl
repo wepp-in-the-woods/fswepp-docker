@@ -1,5 +1,9 @@
 #!/usr/bin/perl
 
+use warnings;
+use CGI;
+use CGI qw(escapeHTML);
+
 #
 # logstuffwr.pl
 #
@@ -13,7 +17,7 @@
 # 2003 Oct 13 DEH Add traffic to surface field
 # 2001 Oct 24     Add rock fragment field
 #
-#  usage: 
+#  usage:
 #    <form name="wrlog" method="post" action="https://host/cgi-bin/fswepp/wr/logstuff.pl">
 #  parameters
 #    all:
@@ -49,7 +53,6 @@
 #       QUERY_STRING
 #       CONTENT_LENGTH
 #  reads:
-#    ../platform
 #  writes
 #    $working\\wrwepp.log
 #  creates
@@ -59,80 +62,64 @@
 #  Science by Bill Elliot et alia                                      Code by David Hall
 #  19 October 1999
 
-    &ReadParse(*parameters);
+$cgi     = CGI->new;
+$button  = escapeHTML( $cgi->param('button') );
+$project = escapeHTML( $cgi->param('projectdescription') );
+if ( $button eq "Add to log" ) {
+    $climate     = escapeHTML( $cgi->param('climate') );
+    $soil        = escapeHTML( $cgi->param('soil') );
+    $rock        = escapeHTML( $cgi->param('rock') );
+    $surface     = escapeHTML( $cgi->param('surface') );
+    $traffic     = escapeHTML( $cgi->param('traffic') );
+    $design      = escapeHTML( $cgi->param('design') );
+    $years       = escapeHTML( $cgi->param('years') );
+    $road_grad   = escapeHTML( $cgi->param('road_grad') );
+    $road_length = escapeHTML( $cgi->param('road_length') );
+    $road_width  = escapeHTML( $cgi->param('road_width') );
+    $fill_grad   = escapeHTML( $cgi->param('fill_grad') );
+    $fill_length = escapeHTML( $cgi->param('fill_length') );
+    $buff_grad   = escapeHTML( $cgi->param('buff_grad') );
+    $buff_length = escapeHTML( $cgi->param('buff_length') );
+    $precip      = escapeHTML( $cgi->param('precip') );
+    $rro         = escapeHTML( $cgi->param('rro') );
+    $sro         = escapeHTML( $cgi->param('sro') );
+    $syr         = escapeHTML( $cgi->param('syr') );
+    $syp         = escapeHTML( $cgi->param('syp') );
+    $comment     = escapeHTML( $cgi->param('rundescription') );
+    $units       = escapeHTML( $cgi->param('units') );
+}
 
-    $button=$parameters{'button'};
-    $project=$parameters{'projectdescription'};
-    if ($button eq "Add to log") {
-      $climate=$parameters{'climate'};
-      $soil=$parameters{'soil'};
-      $rock=$parameters{'rock'};
-      $surface=$parameters{'surface'};
-      $traffic=$parameters{'traffic'};
-      $design=$parameters{'design'};
-      $years=$parameters{'years'};
-      $road_grad=$parameters{'road_grad'};
-      $road_length=$parameters{'road_length'};
-      $road_width=$parameters{'road_width'};
-      $fill_grad=$parameters{'fill_grad'};
-      $fill_length=$parameters{'fill_length'};
-      $buff_grad=$parameters{'buff_grad'};
-      $buff_length=$parameters{'buff_length'};
-      $precip=$parameters{'precip'};
-      $rro=$parameters{'rro'};
-      $sro=$parameters{'sro'};
-      $syr=$parameters{'syr'};
-      $syp=$parameters{'syp'};
-      $comment=$parameters{'rundescription'};
-      $units=$parameters{'units'};
-#      $me=$parameters{'me'};
-    }
+$cookie = $ENV{'HTTP_COOKIE'};
+$sep    = index( $cookie, "=" );
+$me     = "";
+if ( $sep > -1 ) { $me = substr( $cookie, $sep + 1, 1 ) }
 
-    $cookie = $ENV{'HTTP_COOKIE'};
-    $sep = index ($cookie,"=");
-    $me = "";
-    if ($sep > -1) {$me = substr($cookie,$sep+1,1)}
+if ( $me ne "" ) {
+    $me = lc( substr( $me, 0, 1 ) );
+    $me =~ tr/a-z/ /c;
+}
+if ( $me eq " " ) { $me = "" }
 
-    if ($me ne "") {
-       $me = lc(substr($me,0,1));
-       $me =~ tr/a-z/ /c;
-    }
-    if ($me eq " ") {$me = ""}
+$user_ID     = $ENV{'REMOTE_ADDR'};
+$user_really = $ENV{'HTTP_X_FORWARDED_FOR'};              # DEH 11/14/2003
+$user_ID     = $user_really if ( $user_really ne '' );    # DEH 11/14/2003
+$user_ID =~ tr/./_/;
+$user_ID = $user_ID . $me;
+$logFile = "../working/" . $user_ID . ".wrlog";
 
-    $platform="pc";
-    if (-e "../platform") {
-      open Platform, "<../platform";
-      $platform=lc(<Platform>);
-      chomp $platform;
-      close Platform;
-    }
+$host = $ENV{REMOTE_HOST};
 
-    if ($platform eq "pc") {
-      if (-e 'd:/fswepp/working') {$logFile = 'd:\\fswepp\\working\\wrwepp.log'}
-      elsif (-e 'c:/fswepp/working') {$logFile = 'c:\\fswepp\\working\\wrwepp.log'}
-      else {$logFile = '..\\working\\wrwepp.log'}
- #    $logFile = "..\\working\\wrwepp.log";
-    }
-    else {
-      $user_ID=$ENV{'REMOTE_ADDR'};
-      $user_really=$ENV{'HTTP_X_FORWARDED_FOR'};          # DEH 11/14/2003
-      $user_ID=$user_really if ($user_really ne '');      # DEH 11/14/2003
-      $user_ID =~ tr/./_/;
-      $user_ID = $user_ID . $me;
-      $logFile = "../working/" . $user_ID . ".wrlog";
-    }
-
-    $host = $ENV{REMOTE_HOST};
-
-    if ($button eq 'Create new log' || ($button eq 'Add to log' && (! -e $logFile))) {
-       open LOG, ">" . $logFile;
-       print LOG time,"\n";
-       print LOG $project,"\n";
-       close LOG;
-    }
-    if ($button eq "Add to log") {
-      open LOG, ">>" . $logFile;
-      print LOG "$units
+if ( $button eq 'Create new log'
+    || ( $button eq 'Add to log' && ( !-e $logFile ) ) )
+{
+    open LOG, ">" . $logFile;
+    print LOG time, "\n";
+    print LOG $project, "\n";
+    close LOG;
+}
+if ( $button eq "Add to log" ) {
+    open LOG, ">>" . $logFile;
+    print LOG "$units
 $years
 $climate
 $soil
@@ -153,11 +140,11 @@ $syr
 $syp
 $comment
 ";
-      close LOG;
-    }
+    close LOG;
+}
 
-    print "Content-type: text/html\n\n";
-    print '<HTML>
+print "Content-type: text/html\n\n";
+print '<HTML>
  <HEAD>
   <TITLE>WEPP:Road log</TITLE>
  </HEAD>
@@ -168,23 +155,28 @@ $comment
   <HR>
   <center>
 ';
-    if (-e $logFile) {
-      # now display it
-      open LOG, "<" .$logFile;
-      $logtime = <LOG>;
-      ($sec,$min,$hour,$mday,$mon,$year,$wday,$yday,$isdst) =localtime($logtime);
-      $thisday=(Sun,Mon,Tue,Wed,Thu,Fri,Sat) [$wday];
+if ( -e $logFile ) {
 
-      $project=<LOG>;
+    # now display it
+    open LOG, "<" . $logFile;
+    $logtime = <LOG>;
+    ( $sec, $min, $hour, $mday, $mon, $year, $wday, $yday, $isdst ) =
+      localtime($logtime);
+    $thisday = ( Sun, Mon, Tue, Wed, Thu, Fri, Sat )[$wday];
 
-      print "
+    $project = <LOG>;
+
+    print "
   <center>
    <h2>$project</h2>
-   <h2>$thisday"," ",
-            (January,February,March,April,May,June,July,August,September,October,November,December) [$mon]," ",
-            $mday,", ",1900+$year," ",$hour,":",$min,"</h2>\n";         
-  #    ($sec,$min,$hour,$mday,$mon,$year,$wday,$yday,$isdst) = localtime($logtime);
-      print "
+   <h2>$thisday", " ",
+      ( January, February, March, April, May, June,
+        July, August, September, October, November, December
+      )[$mon], " ",
+      $mday, ", ", 1900 + $year, " ", $hour, ":", $min, "</h2>\n";
+
+#    ($sec,$min,$hour,$mday,$mon,$year,$wday,$yday,$isdst) = localtime($logtime);
+    print "
     <table border=1>
      <tr>
       <th><font face='Arial, Geneva, Helvetica'>Yrs</font></th>
@@ -208,74 +200,69 @@ $comment
       <th><font face='Arial, Geneva, Helvetica'>Comment</font></th>
      </tr>
 ";
-      while (! eof LOG) {
+    while ( !eof LOG ) {
         print "    <tr>";
-        $units=<LOG>; chomp $units;
-        if ($units eq "ft") {$lu = "ft"; $du = "in"; $vu = "lb"}
-        else                {$lu = "m";  $du = "mm"; $vu = "kg"}
-        $t=<LOG>; print "<td><font face='Arial, Geneva, Helvetica'>$t\n";		# Years
-        $t=<LOG>; print "<td><font face='Arial, Geneva, Helvetica'>$t\n";		# Climate
-        $t=<LOG>; print "<td><font face='Arial, Geneva, Helvetica'>$t\n";		# Soil type
-        $t=<LOG>; print "<td><font face='Arial, Geneva, Helvetica'>$t %\n";		# Rock %
-        $t=<LOG>; print "<td><font face='Arial, Geneva, Helvetica'>$t\n";		# Surface
-        $t=<LOG>; print "<td><font face='Arial, Geneva, Helvetica'>$t\n";		# Road design
-        $t=<LOG>; print "<td><font face='Arial, Geneva, Helvetica'>$t %\n";		# Road gradient
-        $t=<LOG>; print "<td><font face='Arial, Geneva, Helvetica'>$t $lu\n";		# Road length
-        $t=<LOG>; print "<td><font face='Arial, Geneva, Helvetica'>$t $lu\n";		# Road width
-        $t=<LOG>; print "<td><font face='Arial, Geneva, Helvetica'>$t %\n";		# Fill gradient
-        $t=<LOG>; print "<td><font face='Arial, Geneva, Helvetica'>$t $lu\n";		# Fill length
-        $t=<LOG>; print "<td><font face='Arial, Geneva, Helvetica'>$t %\n";		# Buffer gradient
-        $t=<LOG>; print "<td><font face='Arial, Geneva, Helvetica'>$t $lu\n";		# Buffer length
-        $t=<LOG>; print "<td><font face='Arial, Geneva, Helvetica'>$t $du\n";		# Precipitation
-        $t=<LOG>; print "<td><font face='Arial, Geneva, Helvetica'>$t $du\n";		# Rain runoff
-        $t=<LOG>; print "<td><font face='Arial, Geneva, Helvetica'>$t $du\n";		# Snow runoff
-        $t=<LOG>; print "<td><font face='Arial, Geneva, Helvetica'>$t $vu\n";		# Sediment yield from road
-        $t=<LOG>; print "<td><font face='Arial, Geneva, Helvetica'>$t $vu\n";		# Sediment yield from profile
-        $t=<LOG>; print "<td><font face='Arial, Geneva, Helvetica'>$t\n";		# User comment
-      }
-      close LOG;
-      print "   </tr>\n";
-      print "  </table>\n<br>\n<font size=-1>$logFile</font>\n</center>\n";
+        $units = <LOG>;
+        chomp $units;
+        if   ( $units eq "ft" ) { $lu = "ft"; $du = "in"; $vu = "lb" }
+        else                    { $lu = "m";  $du = "mm"; $vu = "kg" }
+        $t = <LOG>;
+        print "<td><font face='Arial, Geneva, Helvetica'>$t\n";      # Years
+        $t = <LOG>;
+        print "<td><font face='Arial, Geneva, Helvetica'>$t\n";      # Climate
+        $t = <LOG>;
+        print "<td><font face='Arial, Geneva, Helvetica'>$t\n";      # Soil type
+        $t = <LOG>;
+        print "<td><font face='Arial, Geneva, Helvetica'>$t %\n";    # Rock %
+        $t = <LOG>;
+        print "<td><font face='Arial, Geneva, Helvetica'>$t\n";      # Surface
+        $t = <LOG>;
+        print "<td><font face='Arial, Geneva, Helvetica'>$t\n";    # Road design
+        $t = <LOG>;
+        print
+          "<td><font face='Arial, Geneva, Helvetica'>$t %\n";    # Road gradient
+        $t = <LOG>;
+        print
+          "<td><font face='Arial, Geneva, Helvetica'>$t $lu\n";    # Road length
+        $t = <LOG>;
+        print "<td><font face='Arial, Geneva, Helvetica'>$t $lu\n"; # Road width
+        $t = <LOG>;
+        print
+          "<td><font face='Arial, Geneva, Helvetica'>$t %\n";    # Fill gradient
+        $t = <LOG>;
+        print
+          "<td><font face='Arial, Geneva, Helvetica'>$t $lu\n";    # Fill length
+        $t = <LOG>;
+        print
+          "<td><font face='Arial, Geneva, Helvetica'>$t %\n";  # Buffer gradient
+        $t = <LOG>;
+        print
+          "<td><font face='Arial, Geneva, Helvetica'>$t $lu\n";  # Buffer length
+        $t = <LOG>;
+        print
+          "<td><font face='Arial, Geneva, Helvetica'>$t $du\n";  # Precipitation
+        $t = <LOG>;
+        print
+          "<td><font face='Arial, Geneva, Helvetica'>$t $du\n";    # Rain runoff
+        $t = <LOG>;
+        print
+          "<td><font face='Arial, Geneva, Helvetica'>$t $du\n";    # Snow runoff
+        $t = <LOG>;
+        print "<td><font face='Arial, Geneva, Helvetica'>$t $vu\n"
+          ;    # Sediment yield from road
+        $t = <LOG>;
+        print "<td><font face='Arial, Geneva, Helvetica'>$t $vu\n"
+          ;    # Sediment yield from profile
+        $t = <LOG>;
+        print "<td><font face='Arial, Geneva, Helvetica'>$t\n";   # User comment
     }
-    else {
-      print "No log file found\n";
-    }
+    close LOG;
+    print "   </tr>\n";
+    print "  </table>\n<br>\n<font size=-1>$logFile</font>\n</center>\n";
+}
+else {
+    print "No log file found\n";
+}
 
-    print " </body>\n</html>\n";
-
-# ------------------------ subroutines ---------------------------
-
-sub ReadParse {
-
-# ReadParse -- from cgi-lib.pl (Steve Brenner) from Eric Herrmann's
-# "Teach Yourself CGI Programming With PERL in a Week" p. 131
-
-  local (*in) = @_ if @_;
-  local ($i, $loc, $key, $val);
-
-  if ($ENV{'REQUEST_METHOD'} eq "GET") {
-    $in = $ENV{'QUERY_STRING'};
-  } elsif ($ENV{'REQUEST_METHOD'} eq "POST") {
-    read(STDIN,$in,$ENV{'CONTENT_LENGTH'});
-  }
-
-  @in = split(/&/,$in);
-
-  foreach $i (0 .. $#in) {
-    # Convert pluses to spaces
-    $in[$i] =~ s/\+/ /g;
-
-    # Split into key and value
-    ($key, $val) = split(/=/,$in[$i],2);  # splits on the first =
-
-    # Convert %XX from hex numbers to alphanumeric
-    $key =~ s/%(..)/pack("c",hex($1))/ge;
-    $val =~ s/%(..)/pack("c",hex($1))/ge;
-
-    # Associative key and value
-    $in{$key} .= "\0" if (defined($in{$key}));  # \0 is the multiple separator
-    $in{$key} .= $val;
-  }
-  return 1;
- }
+print " </body>\n</html>\n";
 

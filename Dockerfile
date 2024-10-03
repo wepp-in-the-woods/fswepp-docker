@@ -62,6 +62,7 @@ RUN cpanm Path::Tiny
 RUN cpanm String::Util
 RUN cpanm DateTime
 RUN cpanm Date::Calc
+RUN cpanm Template
 
 ## Move perl dependencies
 COPY var/www/cgi-bin/BAERTOOLS/baer-db/Query.pl /etc/perl/

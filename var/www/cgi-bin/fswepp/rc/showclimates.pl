@@ -45,7 +45,7 @@ $unixserver = "false";
 ################################
 
 if ( $state eq "personal" ) {
-        exec "../rc/showpersonal.pl $action $units $comefrom $me";
+    exec "../rc/showpersonal.pl $action $units $comefrom $me";
 }
 
 #########################################
@@ -151,7 +151,6 @@ EOD
           "\n";
     }
 
-
     print '<input type="hidden" name="comefrom" value="', $comefrom, '">
 <input type="hidden" name="me" value="',    $me,    '">
 <input type="hidden" name="units" value="', $units, '">
@@ -215,7 +214,6 @@ EOD
 </form> 
 ';
 
-    
     print '</CENTER>';
 
     print "   <font size=-2>
@@ -235,49 +233,14 @@ else {
     print "  <TITLE>Something is wrong!</TITLE>\n";
     print " </HEAD>\n";
     print ' <BODY background="/fswepp/images/rcdraft.gif">', "\n";
-    print '  <font face="tahoma, arial">', "\n";
+    print '  <font face="tahoma, arial">',                   "\n";
     print "   <CENTER><H2>Excuse me!</H2></CENTER>\n";
-    print "   I don't like the values of some of the parameters I received.<p>\n";
+    print
+      "   I don't like the values of some of the parameters I received.<p>\n";
     print '   state:   ', $state, "<br>\n";
     print "   <br><br><br>\n";
     print "   Rock:clime (showclimates.pl version $version)\n";
     print "  </font>\n";
     print " </body>\n";
     print "</html>\n";
-}
-
-# ------------------------------------------------------------
-
-sub ReadParse {
-
-    # ReadParse -- from cgi-lib.pl (Steve Brenner) from Eric Herrmann's
-    # "Teach Yourself CGI Programming With PERL in a Week" p. 131
-
-    # Reads GET or POST data, converts it to unescaped text, and puts
-    # one key=value in each member of the list "@in"
-    # Also creates key/value pairs in %in, using '\0' to separate multiple
-    # selections
-
-    # If a variable-glob parameter...
-
-    local (*in) = @_ if @_;
-    local ( $i, $loc, $key, $val );
-    if ( $ENV{'REQUEST_METHOD'} eq "GET" ) {
-        $in = $ENV{'QUERY_STRING'};
-    }
-    elsif ( $ENV{'REQUEST_METHOD'} eq "POST" ) {
-        read( STDIN, $in, $ENV{'CONTENT_LENGTH'} );
-    }
-    @in = split( /&/, $in );
-    foreach $i ( 0 .. $#in ) {
-        $in[$i] =~ s/\+/ /g;    # Convert pluses to spaces
-        ( $key, $val ) = split( /=/, $in[$i], 2 );    # Split into key and value
-        $key =~ s/%(..)/pack("c",hex($1))/ge
-          ;    # Convert %XX from hex numbers to alphanumeric
-        $val =~ s/%(..)/pack("c",hex($1))/ge;
-        $in{$key} .= "\0"
-          if ( defined( $in{$key} ) );    # \0 is the multiple separator
-        $in{$key} .= $val;
-    }
-    return 1;
 }

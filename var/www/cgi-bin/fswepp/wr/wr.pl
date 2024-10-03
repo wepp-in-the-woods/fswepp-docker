@@ -1,7 +1,8 @@
 #!/usr/bin/perl
 
 use warnings;
-use CGI qw(:standard escapeHTML);
+use CGI;
+use CGI qw(escapeHTML header);
 use lib '/var/www/cgi-bin/fswepp/dry';
 use CligenUtils qw(CreateCligenFile GetParSummary);
 
@@ -170,21 +171,20 @@ else                        { $dayoffset = 0 }
 $thisdayoff = $thisday + $dayoffset;
 $thisweek   = 1 + int $thisdayoff / 7;
 
-&ReadParse(*parameters);
-
+$cgi = CGI->new;
 $action =
-    escapeHTML( $parameters{'ActionC'} )
-  . escapeHTML( $parameters{'ActionW'} )
-  . escapeHTML( $parameters{'ActionCD'} )
-  . escapeHTML( $parameters{'ActionSD'} );
+    escapeHTML( $cgi->param('ActionC') )
+  . escapeHTML( $cgi->param('ActionW') )
+  . escapeHTML( $cgi->param('ActionCD') )
+  . escapeHTML( $cgi->param('ActionSD') );
 chomp $action;
 
-$traffic      = escapeHTML( $parameters{'traffic'} );
-$me           = escapeHTML( $parameters{'me'} );
-$units        = escapeHTML( $parameters{'units'} );
-$achtung      = escapeHTML( $parameters{'achtung'} );
-$CL           = escapeHTML( $parameters{'Climate'} );
-$climate_name = escapeHTML( $parameters{'climate_name'} );
+$traffic      = escapeHTML( $cgi->param('traffic') );
+$me           = escapeHTML( $cgi->param('me') );
+$units        = escapeHTML( $cgi->param('units') );
+$achtung      = escapeHTML( $cgi->param('achtung') );
+$CL           = escapeHTML( $cgi->param('Climate') );
+$climate_name = escapeHTML( $cgi->param('climate_name') );
 
 $weppversion = "wepp2010";
 
@@ -216,13 +216,13 @@ if ( $achtung =~ /Describe Climate/ ) {
 # ======================  DESCRIBE SOIL  ======================
 
 if ( $achtung =~ /Describe Soil/ ) {
-    $UBR   = escapeHTML( $parameters{'Rock'} ) * 1;   # Rock fragment percentage
-    $units = escapeHTML( $parameters{'units'} );
-    $SoilType = escapeHTML( $parameters{'SoilType'} )
+    $UBR   = escapeHTML( $cgi->param('Rock') ) * 1;   # Rock fragment percentage
+    $units = escapeHTML( $cgi->param('units') );
+    $SoilType = escapeHTML( $cgi->param('SoilType') )
       ;    # get SoilType (loam, ... pclay) # HR
-    $surface = escapeHTML( $parameters{'surface'} )
+    $surface = escapeHTML( $cgi->param('surface') )
       ;    # paved, graveled or native      # HR
-    $slope = escapeHTML( $parameters{'SlopeType'} );    # get slope type
+    $slope = escapeHTML( $cgi->param('SlopeType') );    # get slope type
     if    ( substr( $surface, 0, 1 ) eq 'g' ) { $surf = 'g' }    # HR
     elsif ( substr( $surface, 0, 1 ) eq 'p' ) { $surf = 'p' }    # HR
     else                                      { $surf = '' }     # HR
@@ -373,18 +373,18 @@ if ( $achtung =~ /Describe Soil/ ) {
 }    # if ($achtung =~ /Describe Soil/)
 
 # =======================  Run WEPP  =========================
-$units   = escapeHTML( $parameters{'units'} );
-$ST      = escapeHTML( $parameters{'SoilType'} ); # Soil type (loam, ..., pclay)
-$surface = escapeHTML( $parameters{'surface'} );  # Paved, graveled or native
-$URL     = $parameters{'RL'} * 1;      # Road length -- buffer spacing (free)
-$URS     = $parameters{'RS'} * 1;      # Road gradient (free)
-$URW     = $parameters{'RW'} * 1;      # Road width (free)
-$UFL     = $parameters{'FL'} * 1;      # Fill length (free)
-$UFS     = $parameters{'FS'} * 1;      # Fill steepness (free)
-$UBL     = $parameters{'BL'} * 1;      # Buffer length (free)
-$UBS     = $parameters{'BS'} * 1;      # Buffer steepness (free)
-$UBR     = $parameters{'Rock'} * 1;    # Rock fragment percentage
-$slope   = escapeHTML( $parameters{'SlopeType'} )
+$units   = escapeHTML( $cgi->param('units') );
+$ST      = escapeHTML( $cgi->param('SoilType') ); # Soil type (loam, ..., pclay)
+$surface = escapeHTML( $cgi->param('surface') );  # Paved, graveled or native
+$URL     = $cgi->param('RL') * 1;      # Road length -- buffer spacing (free)
+$URS     = $cgi->param('RS') * 1;      # Road gradient (free)
+$URW     = $cgi->param('RW') * 1;      # Road width (free)
+$UFL     = $cgi->param('FL') * 1;      # Fill length (free)
+$UFS     = $cgi->param('FS') * 1;      # Fill steepness (free)
+$UBL     = $cgi->param('BL') * 1;      # Buffer length (free)
+$UBS     = $cgi->param('BS') * 1;      # Buffer steepness (free)
+$UBR     = $cgi->param('Rock') * 1;    # Rock fragment percentage
+$slope   = escapeHTML( $cgi->param('SlopeType') )
   ;    # Slope type (outunrut, inbare, inveg, outrut)
 $design = $slope;
 if    ( $slope eq "outunrut" ) { $design = "Outsloped, unrutted" }
@@ -404,9 +404,9 @@ elsif ( $slope eq "outunrut" ) { $slopex = 'outsloped unrutted' }
 elsif ( $slope eq "outrut" )   { $slopex = 'outsloped rutted' }
 elsif ( $slope eq "inbare" )   { $slopex = 'insloped bare' }
 
-$outputf = escapeHTML( $parameters{'Full'} );
-$outputi = escapeHTML( $parameters{'Slope'} );
-$years   = escapeHTML( $parameters{'years'} );
+$outputf = escapeHTML( $cgi->param('Full') );
+$outputi = escapeHTML( $cgi->param('Slope') );
+$years   = escapeHTML( $cgi->param('years') );
 
 $working = '../working';
 
@@ -444,13 +444,14 @@ if ( $rcin >= 0 ) {
     }
     $zzveg = $manPath . $manfile;
     if ( $slope eq 'inbare' && $surf eq 'p' ) { $tauC = '1' }
-    $soilFile    = '3' . $surf . $ST . $tauC . '.sol';
-    $soilFilefq  = $soilPath . $soilFile;
-    $zzsoil      = &CreateSoilFile;
-    $zzslope     = &CreateSlopeFile;
-    ($climateFile, $climatePar) = &CreateCligenFile( $CL, $unique, $years2sim, $debug );
-    $climatePar  = "$CL.par";
-    $zzresp      = &CreateResponseFile;
+    $soilFile   = '3' . $surf . $ST . $tauC . '.sol';
+    $soilFilefq = $soilPath . $soilFile;
+    $zzsoil     = &CreateSoilFile;
+    $zzslope    = &CreateSlopeFile;
+    ( $climateFile, $climatePar ) =
+      &CreateCligenFile( $CL, $unique, $years2sim, $debug );
+    $climatePar = "$CL.par";
+    $zzresp     = &CreateResponseFile;
 
     @args = ("../$weppversion <$responseFile >$stoutFile 2>$sterFile");
     system @args;
@@ -777,7 +778,6 @@ unlink $newSoilFile;    # 2006.02.23 DEH
 
 #  record run in user wepp run log file
 
-
 $climate_trim = trim($climate_name);
 
 open RUNLOG, ">>$runLogFile";
@@ -837,10 +837,6 @@ flock CLIMLOG, 2;
 print CLIMLOG 'WEPP:Road: ', trim($climate_name);
 close CLIMLOG;
 
-#    $thisday = 1+ (localtime)[7];                      # $yday, day of the year (0..364|365)
-#    $thisdayoff=$thisday+4;				# [Jan 1] -1: Sunday; 0: Monday # +3: 2009
-#    $thisweek = 1+ int $thisdayoff/7;
-
 # if (!-e "../working/_$thisyear") create it
 # if (!-e "../working/_$thisyear/wr") create it
 
@@ -853,36 +849,6 @@ print MYLOG '.';
 close MYLOG;
 
 # ------------------------ subroutines ---------------------------
-
-sub ReadParse {
-
-    # ReadParse -- from cgi-lib.pl (Steve Brenner) from Eric Herrmann's
-    # "Teach Yourself CGI Programming With PERL in a Week" p. 131
-
-    local (*in) = @_ if @_;
-    local ( $i, $loc, $key, $val );
-
-    if ( $ENV{'REQUEST_METHOD'} eq "GET" ) {
-        $in = $ENV{'QUERY_STRING'};
-    }
-    elsif ( $ENV{'REQUEST_METHOD'} eq "POST" ) {
-        read( STDIN, $in, $ENV{'CONTENT_LENGTH'} );
-    }
-    @in = split( /&/, $in );
-    foreach $i ( 0 .. $#in ) {
-        $in[$i] =~ s/\+/ /g;    # Convert pluses to spaces
-        ( $key, $val ) = split( /=/, $in[$i], 2 );    # Split into key and value
-        $key =~ s/%(..)/pack("c",hex($1))/ge
-          ;    # Convert %XX from hex numbers to alphanumeric
-        $val =~ s/%(..)/pack("c",hex($1))/ge;
-        $in{$key} .= "\0"
-          if ( defined( $in{$key} ) );    # \0 is the multiple separator
-        $in{$key} .= $val;
-    }
-    return 1;
-}
-
-#---------------------------
 
 sub printdate {
 

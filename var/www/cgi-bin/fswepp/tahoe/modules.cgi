@@ -780,7 +780,7 @@ END
 	print "</textarea>";
 	if($RunCommand eq "File saved!")
 	{
-		print '<script type="text/javascript">document.getElementById("data").innerHTML="File ?? ?c l?u thành công!";</script>';
+		print '<script type="text/javascript">document.getElementById("data").innerHTML="File ?? ?c l?u thï¿½nh cï¿½ng!";</script>';
 	}
 	&PrintPageFooter;
 }

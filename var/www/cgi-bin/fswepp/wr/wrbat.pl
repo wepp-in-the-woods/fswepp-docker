@@ -1,9 +1,11 @@
 #!/usr/bin/perl
 
 use warnings;
-use CGI qw(escapeHTML);
+use CGI;
+use CGI qw(escapeHTML header);
 use lib '/var/www/cgi-bin/fswepp/dry';
-use CligenUtils qw(CreateCligenFile);
+use CligenUtils qw(CreateCligenFile GetParSummary);
+
 
 # wrbat.pl
 #
@@ -79,28 +81,21 @@ $count_limit = 1000;
 #  2004.05.06	Allow only display of previous log file
 #  2004.05.03 DEH add switch for "extended output"
 
-&ReadParse(*parameters);
 
-###
-
-#  $me=$parameters{'me'};
-#  $units=$parameters{'units'};
-#  $traffic=$parameters{'traffic'};
-$action =
-    $parameters{'ActionC'}
-  . $parameters{'ActionW'}
-  . $parameters{'ActionCD'}
-  . $parameters{'ActionSD'}
-  . $parameters{'old_log'}
-  . $parameters{'submit'};
+my $cgi = CGI->new;
+$action = 
+    $cgi->param('ActionC') 
+  . $cgi->param('ActionW') 
+  . $cgi->param('ActionCD') 
+  . $cgi->param('ActionSD') 
+  . $cgi->param('old_log') 
+  . $cgi->param('submit');
 chomp $action;
-$achtung = $parameters{'achtung'};
+$achtung = $cgi->param('achtung');
 
-#   $climate_name=$parameters{'climate_name'};   ######### requested #########
-$extended = $parameters{'extended'};
+$extended = $cgi->param('extended');
 
-#  $extended=1;						##### DEH 2004
-$project_title = &detag( $parameters{'projectdescription'} );
+$project_title = escapeHTML($cgi->param('projectdescription'));
 
 ####
 
@@ -149,16 +144,12 @@ if ( ( $action . $achtung ) eq '' ) {
 }
 
 ####
-
-#   $action=$parameters{'submit'};
-$spread    = $parameters{'spread'};
-$CL        = $parameters{'Climate'};     # get Climate (file name base)
-$ST        = $parameters{'SoilType'};
-$units     = $parameters{'units'};
-$years     = $parameters{'years'};
-$climyears = $parameters{'climyears'};
-
-#   $me=$parameters{'me'};
+$spread    = $cgi->param('spread');
+$CL        = $cgi->param('Climate');     # get Climate (file name base)
+$ST        = $cgi->param('SoilType');
+$units     = $cgi->param('units');
+$years     = $cgi->param('years');
+$climyears = $cgi->param('climyears');
 
 if ( $units ne 'm' && $units ne 'ft' ) { $units = 'm' }
 
@@ -175,6 +166,7 @@ $user_ID     = $ENV{'REMOTE_ADDR'};
 $user_really = $ENV{'HTTP_X_FORWARDED_FOR'};
 $user_ID     = $user_really if ( $user_really ne '' );
 $user_ID =~ tr/./_/;
+$me = '';  # Initialize $me variable
 $user_ID = $user_ID . $me;
 $logFile = "../working/" . $user_ID . ".wrblog";
 if ( $host eq "" ) { $host = 'unknown' }
@@ -417,7 +409,7 @@ goto skip_run if ( lc($action) eq 'display previous log' );
 display_errors:
 
 if ($batch) {
-    $spread = $parameters{'spread'};
+    $spread = $cgi->param('spread');
 
     #!
     #   $spread = 'ib n l 12 100 4 45 12 75 20 20 comment 1';
@@ -741,9 +733,6 @@ for $record ( 1 .. $count ) {
     $UBL *= 1;    # Buffer length (free)
     $UBS *= 1;    # Buffer steepness (free)
     $UBR *= 1;    # Rock fragment percentage
-
-#  $design=$parameters{'SlopeType'};    # slope type (outunrut, inbare, inveg, outrut)
-#  $design=$slope;
 
     if ( $design eq 'ou' || $design eq 'outunrut' ) {    # DEH
         $designw = 'Outsloped, unrutted';
@@ -1479,34 +1468,6 @@ done:
 $x = 'done';
 
 # ------------------------ subroutines ---------------------------
-
-sub ReadParse {
-
-    # ReadParse -- from cgi-lib.pl (Steve Brenner) from Eric Herrmann's
-    # "Teach Yourself CGI Programming With PERL in a Week" p. 131
-
-    local (*in) = @_ if @_;
-    local ( $i, $loc, $key, $val );
-
-    if ( $ENV{'REQUEST_METHOD'} eq "GET" ) {
-        $in = $ENV{'QUERY_STRING'};
-    }
-    elsif ( $ENV{'REQUEST_METHOD'} eq "POST" ) {
-        read( STDIN, $in, $ENV{'CONTENT_LENGTH'} );
-    }
-    @in = split( /&/, $in );
-    foreach $i ( 0 .. $#in ) {
-        $in[$i] =~ s/\+/ /g;    # Convert pluses to spaces
-        ( $key, $val ) = split( /=/, $in[$i], 2 );    # Split into key and value
-        $key =~ s/%(..)/pack("c",hex($1))/ge
-          ;    # Convert %XX from hex numbers to alphanumeric
-        $val =~ s/%(..)/pack("c",hex($1))/ge;
-        $in{$key} .= "\0"
-          if ( defined( $in{$key} ) );    # \0 is the multiple separator
-        $in{$key} .= $val;
-    }
-    return 1;
-}
 
 sub whatdate {
 

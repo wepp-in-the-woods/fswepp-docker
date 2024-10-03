@@ -1,5 +1,8 @@
 #!/usr/bin/perl
 
+use CGI;
+use CGI qw(escapeHTML);
+
 #
 #  Disturbed WEPP input screen -- new format, no veg calibration needed
 #
@@ -37,8 +40,6 @@ $version = '2014.04.14';    # Describe changes to soil database parameter values
 #       QUERY_STRING
 #       CONTENT_LENGTH
 #  reads:
-#    ../wepphost        # localhost or other
-#    ../platform        # pc or unix
 #    ../climates/*.par  # standard climate parameter files
 #    $working/*.par     # personal climate parameter files
 #  calls:
@@ -50,8 +51,9 @@ $version = '2014.04.14';    # Describe changes to soil database parameter values
 #  Science by Bill Elliot et alia
 #  Code by David Hall
 
-&ReadParse(*parameters);
-$units = $parameters{'units'};
+$cgi = CGI->new;
+
+$units = escapeHTML($cgi->param('units'));
 if    ( $units eq 'm' )  { $areaunits = 'ha' }
 elsif ( $units eq 'ft' ) { $areaunits = 'ac' }
 else                     { $units     = 'ft'; $areaunits = 'ac' }
@@ -70,31 +72,6 @@ if ( $me ne "" ) {
 }
 if ( $me eq " " ) { $me = "" }
 
-$wepphost = "localhost";
-if ( -e "../wepphost" ) {
-    open Host, "<../wepphost";
-    $wepphost = <Host>;
-    chomp $wepphost;
-    close H;
-}
-
-$platform = "pc";
-if ( -e "../platform" ) {
-    open Platform, "<../platform";
-    $platform = lc(<Platform>);
-    chomp $platform;
-    close Platform;
-}
-if ( $platform eq "pc" ) {
-    if    ( -e 'd:/fswepp/working' ) { $working = 'd:\\fswepp\\working\\' }
-    elsif ( -e 'c:/fswepp/working' ) { $working = 'c:\\fswepp\\working\\' }
-    else { $working = '..\\working\\' }    # 2004.10.13 DEH
-    $public  = $working . '\\public\\';
-    $logFile = "$working\\wdwepp.log";
-    $cliDir  = '..\\climates\\';
-    $custCli = "$working";
-}
-else {
     $working     = '../working/';                             # DEH 08/22/2000
     $public      = $working . 'public/';                      # DEH 09/21/2000
     $user_ID     = $ENV{'REMOTE_ADDR'};
@@ -105,7 +82,6 @@ else {
     $logFile = '../working/' . $user_ID . '.log';
     $cliDir  = '../climates/';
     $custCli = '../working/' . $user_ID;                      # DEH 03/02/2001
-}
 
 ########################################
 
@@ -735,9 +711,8 @@ print '<BODY bgcolor="white"
   <font face="Arial, Geneva, Helvetica">
    <table width=100% border=0>
     <tr><td> 
-       <a href="https://', $wepphost, '/fswepp/">
-       <IMG src="https://', $wepphost,
-  '/fswepp/images/fsweppic2.jpg" width=75 height=75
+       <a href="/fswepp/">
+       <IMG src="/fswepp/images/fsweppic2.jpg" width=75 height=75
        align="left" alt="Back to FS WEPP menu" border=0></a>
     <td align=center>
        <hr>
@@ -980,16 +955,9 @@ print <<'theEnd';
 <P>
 <HR>
 theEnd
-print '
- <font size=-1>
-<a href="https://', $wepphost, '/fswepp/comments.html" ';
-if ( $wepphost eq 'localhost' ) {
-    print
-'onClick="return confirm(\'You must be connected to the Internet to e-mail comments. Shall I try?\')"';
-}
-print '>                                                              
-<img src="/fswepp/images/epaemail.gif" align="right" border=0></a>
 
+
+print '>                                                              
 
 <font size=-2>
 Disturbed WEPP allows users easily to describe numerous disturbed
@@ -1030,50 +998,6 @@ print "
 ";
 
 # --------------------- subroutines
-
-sub ReadParse {
-
-    # ReadParse -- from cgi-lib.pl (Steve Brenner) from Eric Herrmann's
-    # "Teach Yourself CGI Programming With PERL in a Week" p. 131
-
-    # Reads GET or POST data, converts it to unescaped text, and puts
-    # one key=value in each member of the list "@in"
-    # Also creates key/value pairs in %in, using '\0' to separate multiple
-    # selections
-
-    # If a variable-glob parameter...
-
-    local (*in) = @_ if @_;
-    local ( $i, $loc, $key, $val );
-
-    if ( $ENV{'REQUEST_METHOD'} eq "GET" ) {
-        $in = $ENV{'QUERY_STRING'};
-    }
-    elsif ( $ENV{'REQUEST_METHOD'} eq "POST" ) {
-        read( STDIN, $in, $ENV{'CONTENT_LENGTH'} );
-    }
-
-    @in = split( /&/, $in );
-
-    foreach $i ( 0 .. $#in ) {
-
-        # Convert pluses to spaces
-        $in[$i] =~ s/\+/ /g;
-
-        # Split into key and value
-        ( $key, $val ) = split( /=/, $in[$i], 2 );    # splits on the first =
-
-        # Convert %XX from hex numbers to alphanumeric
-        $key =~ s/%(..)/pack("c",hex($1))/ge;
-        $val =~ s/%(..)/pack("c",hex($1))/ge;
-
-        # Associative key and value
-        $in{$key} .= "\0"
-          if ( defined( $in{$key} ) );    # \0 is the multiple separator
-        $in{$key} .= $val;
-    }
-    return 1;
-}
 
 sub make_history_popup {
 

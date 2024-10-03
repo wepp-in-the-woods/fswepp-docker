@@ -1,12 +1,17 @@
 #!/usr/bin/perl
 
+use warnings;
+use CGI;
+use CGI qw(escapeHTML);
+
 #
 #  Disturbed WEPP input screen
 #
 
 #  weppdist.pl -- input screen for Disturbed WEPP
 
-    $version = '2009.09.17';		# Adjust FSWEPPuser personality
+$version = '2009.09.17';    # Adjust FSWEPPuser personality
+
 #   $version = '2009.02.23';		# Adjust FSWEPPuser personality
 #   $version = '2007.04.04';
 #   $version = '2004.12.20';
@@ -32,7 +37,7 @@
 #  2001.04.24  DEH [forest's 2000.10.13]
 #              DEH added more EXPLAIN links; into documentation
 #      to do:      move climate explanation into documentation
-#      to do:      add graphic for slope explanation           
+#      to do:      add graphic for slope explanation
 #  2001.04.10  DEH add checkYears to # yrs (from WEPP:Road)
 #		add call to checkYears
 #		and call to existing showRange
@@ -60,8 +65,6 @@
 #       QUERY_STRING
 #       CONTENT_LENGTH
 #  reads:
-#    ../wepphost        # localhost or other
-#    ../platform        # pc or unix
 #    ../climates/*.par  # standard climate parameter files
 #    $working/*.par     # personal climate parameter files
 #  calls:
@@ -71,125 +74,96 @@
 #    /fswepp/wr/wrwidths.html
 #    /fswepp/wr/rddesign.html
 
-#  FSWEPP, USDA Forest Service, Rocky Mountain Research Station, 
+#  FSWEPP, USDA Forest Service, Rocky Mountain Research Station,
 #  Soil & Water Engineering
 #  Science by Bill Elliot et alia
-#  Code by David Hall 
+#  Code by David Hall
 
-    &ReadParse(*parameters);
-    $units=$parameters{'units'};
-    if ($units eq 'm') {$areaunits='ha'}
-    elsif ($units eq 'ft') {$areaunits='ac'}
-    else {$units = 'ft'; $areaunits='ac'}
-#    $me=$parameters{'me'};
-    $cookie = $ENV{'HTTP_COOKIE'};
-#    $sep = index ($cookie,"=");
-#    $me = "";
-#    if ($sep > -1) {$me = substr($cookie,$sep+1,1)}
-  $sep = index ($cookie,"FSWEPPuser=");
-  $me = "";
-  if ($sep > -1) {$me = substr($cookie,$sep+11,1)}      # DEH 2009.09.17
+$cgi = CGI->new;
 
-    if ($me ne "") {
-#       $me = lc(substr($me,0,1));
-#       $me =~ tr/a-z/ /c;
-       $me = substr($me,0,1);
-       $me =~ tr/a-zA-Z/ /c;
-    }
-    if ($me eq " ") {$me = ""}
+$units = $cgi->param('units');
+if    ( $units eq 'm' )  { $areaunits = 'ha' }
+elsif ( $units eq 'ft' ) { $areaunits = 'ac' }
+else                     { $units     = 'ft'; $areaunits = 'ac' }
 
-  $wepphost="localhost";
-  if (-e "../wepphost") {
-    open Host, "<../wepphost";
-    $wepphost = <Host>;
-    chomp $wepphost;
-    close H;
-  }
+$cookie = $ENV{'HTTP_COOKIE'};
 
-  $platform="pc";
-  if (-e "../platform") {
-    open Platform, "<../platform";
-      $platform=lc(<Platform>);
-      chomp $platform;
-    close Platform;
-  }
-  if ($platform eq "pc") {
-    if (-e 'd:/fswepp/working') {$working = 'd:\\fswepp\\working\\'}
-    elsif (-e 'c:/fswepp/working') {$working = 'c:\\fswepp\\working\\'}
-    else {$working = '..\\working\\'}			# 2004.10.13 DEH
-    $public = $working . '\\public\\'; 
-    $logFile = "$working\\wdwepp.log";
-    $cliDir = '..\\climates\\';
-    $custCli = "$working";
-  }
-  else {
-    $working='../working/';                             # DEH 08/22/2000
-    $public = $working . 'public/';                     # DEH 09/21/2000
-    $user_ID=$ENV{'REMOTE_ADDR'};
-    $user_really=$ENV{'HTTP_X_FORWARDED_FOR'};          # DEH 11/14/2002
-    $user_ID=$user_really if ($user_really ne '');      # DEH 11/14/2002
-    $user_ID =~ tr/./_/;
-    $user_ID = $user_ID . $me . '_';			# DEH 03/05/2001
-    $logFile = '../working/' . $user_ID . '.log';
-    $cliDir = '../climates/';
-    $custCli = '../working/' . $user_ID;		# DEH 03/02/2001
-  }
+$sep = index( $cookie, "FSWEPPuser=" );
+$me  = "";
+if ( $sep > -1 ) { $me = substr( $cookie, $sep + 11, 1 ) }    # DEH 2009.09.17
+
+if ( $me ne "" ) {
+    $me = substr( $me, 0, 1 );
+    $me =~ tr/a-zA-Z/ /c;
+}
+if ( $me eq " " ) { $me = "" }
+
+$working     = '../working/';                                 # DEH 08/22/2000
+$public      = $working . 'public/';                          # DEH 09/21/2000
+$user_ID     = $ENV{'REMOTE_ADDR'};
+$user_really = $ENV{'HTTP_X_FORWARDED_FOR'};                  # DEH 11/14/2002
+$user_ID     = $user_really if ( $user_really ne '' );        # DEH 11/14/2002
+$user_ID =~ tr/./_/;
+$user_ID = $user_ID . $me . '_';                              # DEH 03/05/2001
+$logFile = '../working/' . $user_ID . '.log';
+$cliDir  = '../climates/';
+$custCli = '../working/' . $user_ID;                          # DEH 03/02/2001
 
 ########################################
 
 ### get personal climates, if any
 
-    $num_cli=0;
+$num_cli = 0;
 
-    opendir CLIMDIR, $working;                          # DEH 06/14/2000
-    @allpfiles=readdir CLIMDIR;                         # DEH 05/05/2000
-    close CLIMDIR;                                      # DEH 05/05/2000
+opendir CLIMDIR, $working;                                    # DEH 06/14/2000
+@allpfiles = readdir CLIMDIR;                                 # DEH 05/05/2000
+close CLIMDIR;                                                # DEH 05/05/2000
 
 #   @fileNames = glob($custCli . '*.par');
 #   for $f (@fileNames) {
-    for $f (@allpfiles) {                               # DEH 05/05/2000
-      if (index($f,$user_ID)==0) {			# DEH 09/15/2000
-        if (substr($f,-4) eq '.par') {                  # DEH 05/05/2000
-          $f = $working . $f;                           # DEH 06/14/2000
-          open(M,"<$f") || goto pskip;                  # DEH 05/05/2000
+for $f (@allpfiles) {    # DEH 05/05/2000
+    if ( index( $f, $user_ID ) == 0 ) {    # DEH 09/15/2000
+        if ( substr( $f, -4 ) eq '.par' ) {    # DEH 05/05/2000
+            $f = $working . $f;                # DEH 06/14/2000
+            open( M, "<$f" ) || goto pskip;    # DEH 05/05/2000
             $station = <M>;
-          close (M);
-#  print STDERR "$f\n";
-          $climate_file[$num_cli] = substr($f, 0, -4);
-          $clim_name = '*' . substr($station, index($station, ":")+2, 40);
-          $clim_name =~ s/^\s*(.*?)\s*$/$1/;
-          $climate_name[$num_cli] = $clim_name;
-          $num_cli += 1;
+            close(M);
+
+            #  print STDERR "$f\n";
+            $climate_file[$num_cli] = substr( $f, 0, -4 );
+            $clim_name =
+              '*' . substr( $station, index( $station, ":" ) + 2, 40 );
+            $clim_name =~ s/^\s*(.*?)\s*$/$1/;
+            $climate_name[$num_cli] = $clim_name;
+            $num_cli += 1;
         }
-pskip:                                                  # DEH 05/05/2000
-      }                                                 # DEH 05/05/2000
-    }
+      pskip:    # DEH 05/05/2000
+    }    # DEH 05/05/2000
+}
 
 ### get standard climates
 
-    opendir CLIMDIR, '../climates';                     # DEH 05/05/2000
-    @allfiles=readdir CLIMDIR;                          # DEH 05/05/2000
-    close CLIMDIR;                                      # DEH 05/05/2000
+opendir CLIMDIR, '../climates';    # DEH 05/05/2000
+@allfiles = readdir CLIMDIR;       # DEH 05/05/2000
+close CLIMDIR;                     # DEH 05/05/2000
 
-#   while (<../climates/*.par>) {                       # DEH 05/05/2000
-#     $f = $_;                                          # DEH 05/05/2000
+for $f (@allfiles) {    # DEH 05/05/2000
+    $f = '../climates/' . $f;              # DEH 05/05/2000
+    if ( substr( $f, -4 ) eq '.par' ) {    # DEH 05/05/2000
+        open( M, $f ) || goto sskip;       # DEH 05/05/2000
+        $station = <M>;
+        close(M);
 
-    for $f (@allfiles) {                                # DEH 05/05/2000
-      $f = '../climates/' . $f;                         # DEH 05/05/2000
-      if (substr($f,-4) eq '.par') {                    # DEH 05/05/2000
-        open(M,$f) || goto sskip;                       # DEH 05/05/2000
-          $station = <M>;
-        close (M);
-#  print STDERR "$f\n";
-        $climate_file[$num_cli] = substr($f, 0, -4);
-        $clim_name = substr($station, index($station, ":")+2, 40);
+        #  print STDERR "$f\n";
+        $climate_file[$num_cli] = substr( $f, 0, -4 );
+        $clim_name = substr( $station, index( $station, ":" ) + 2, 40 );
         $clim_name =~ s/^\s*(.*?)\s*$/$1/;
         $climate_name[$num_cli] = $clim_name;
         $num_cli += 1;
-sskip:                                                  # DEH 05/05/2000
-      }                                                 # DEH 05/05/2000
-    }
-    $num_cli -= 1;
+      sskip:                               # DEH 05/05/2000
+    }    # DEH 05/05/2000
+}
+$num_cli -= 1;
 
 ###################################################
 
@@ -240,17 +214,17 @@ print <<'theEnd2';
 
 theEnd2
 
-if ($units eq "m") {
-  $lunit = ' m';
-  $lmin = 0.5;
-  $lmax = 400;
-  $ldef = 50;
+if ( $units eq "m" ) {
+    $lunit = ' m';
+    $lmin  = 0.5;
+    $lmax  = 400;
+    $ldef  = 50;
 }
 else {
-  $lunit = ' ft';
-  $lmin = 1.5;
-  $lmax = 1200;
-  $ldef = 150;
+    $lunit = ' ft';
+    $lmin  = 1.5;
+    $lmax  = 1200;
+    $ldef  = 150;
 }
 
 print "  var lunit = '$lunit'
@@ -408,13 +382,15 @@ popupwindow.focus()
 
 theEnd
 print "function StartUp() {\n";
+
 #print "    max_year = new MakeArray($num_cli);\n\n";
 print "    climate_name = new MakeArray($num_cli);\n";
 
-  for $ii (0..$num_cli) {
-#    print "    max_year[$ii] = " . $climate_year[$ii] . ";\n";
-    print "    climate_name[$ii] = ",'"',$climate_name[$ii],'"',"\n";
-  }
+for $ii ( 0 .. $num_cli ) {
+
+    #    print "    max_year[$ii] = " . $climate_year[$ii] . ";\n";
+    print "    climate_name[$ii] = ", '"', $climate_name[$ii], '"', "\n";
+}
 print <<'theEnd';
 //    window.document.weppdist.Climate.selectedIndex = 0;
 //    window.document.weppdist.climyears.value = max_year[0];
@@ -557,23 +533,22 @@ print '<BODY bgcolor="white"
   <font face="Arial, Geneva, Helvetica">
   <table width=100% border=0>
     <tr><td> 
-       <a href="https://',$wepphost,'/fswepp/">
-       <IMG src="https://',$wepphost,'/fswepp/images/fsweppic2.jpg" width=75 height=75
+       <a href="/fswepp/">
+       <IMG src="/fswepp/images/fsweppic2.jpg" width=75 height=75
        align="left" alt="Back to FS WEPP menu" border=0></a>
     <td align=center>
        <hr>
        <h2>Disturbed WEPP</h2>
        <hr>
     <td>
-       <A HREF="https://',$wepphost,'/fswepp/docs/distweppdoc.html" target="docs">
-       <IMG src="https://',$wepphost,'/fswepp/images/epage.gif"
+       <A HREF="/fswepp/docs/distweppdoc.html" target="docs">
+       <IMG src="/fswepp/images/epage.gif"
         align="right" alt="Read the documentation" border=0></a>
     </table>
   <center>
-  <!-- FORM name="weppdist" method="post" ACTION="https://',$wepphost,'/cgi-bin/fswepp/wd/wd.pl" -->
   <FORM name="weppdist" method="post" ACTION="wd.pl">
-  <input type="hidden" size="1" name="me" value="',$me,'">
-  <input type="hidden" size="1" name="units" value="',$units,'">
+  <input type="hidden" size="1" name="me" value="',    $me,    '">
+  <input type="hidden" size="1" name="units" value="', $units, '">
   <TABLE border="1">
 ';
 print <<'theEnd';
@@ -604,16 +579,16 @@ theEnd
 
 ### display personal climates, if any
 
-    if ($num_cli > 0) {
-      print '<OPTION VALUE="';
-      print $climate_file[0];
-      print '" selected> ', $climate_name[0] , "\n";
-    }
-    for $ii (1..$num_cli) {
-      print '<OPTION VALUE="';
-      print $climate_file[$ii];
-      print '"> ', $climate_name[$ii] , "\n";
-    }
+if ( $num_cli > 0 ) {
+    print '<OPTION VALUE="';
+    print $climate_file[0];
+    print '" selected> ', $climate_name[0], "\n";
+}
+for $ii ( 1 .. $num_cli ) {
+    print '<OPTION VALUE="';
+    print $climate_file[$ii];
+    print '"> ', $climate_name[$ii], "\n";
+}
 
 #################
 print <<'theEnd';
@@ -649,7 +624,8 @@ print <<'theEnd';
          Explain</a> ]
 
 theEnd
-print "    <th bgcolor=85d2d2><font face=\"Arial, Geneva, Helvetica\">Horizontal<br>Length ($units)
+print
+"    <th bgcolor=85d2d2><font face=\"Arial, Geneva, Helvetica\">Horizontal<br>Length ($units)
            <th bgcolor=85d2d2><font face=\"Arial, Geneva, Helvetica\">Cover (%)\n";
 print <<'theEnd';
  <br> [ <a href="/fswepp/docs/distweppdoc.html#cover" target="_popup"
@@ -765,26 +741,23 @@ print <<'theEnd';
 <P>
 <HR>
 theEnd
-print '
- <font size=-1>
-<a href="https://',$wepphost,'/fswepp/comments.html" ';
-if ($wepphost eq 'localhost') {print 'onClick="return confirm(\'You must be connected to the Internet to e-mail comments. Shall I try?\')"'};                                  
+
 print '>                                                              
-<img src="https://',$wepphost,'/fswepp/images/epaemail.gif" align="right" border=0></a>
   Interface v. 
-  <a href="javascript:popuphistory()">',$version,'</a>
+  <a href="javascript:popuphistory()">', $version, '</a>
   by
   David Hall, 
   Project Leader  Bill Elliot<BR>
   USDA Forest Service, Rocky Mountain Research Station, Moscow, ID<br>';
-  $remote_host = $ENV{'REMOTE_HOST'};                          
-  $remote_address = $ENV{'REMOTE_ADDR'};
+$remote_host    = $ENV{'REMOTE_HOST'};
+$remote_address = $ENV{'REMOTE_ADDR'};
 
-  $wc  = `wc ../working/wd.log`;    
-  @words = split " ", $wc;          
-  $runs = @words[0];                
+$wc    = `wc ../working/wd.log`;
+@words = split " ", $wc;
+$runs  = @words[0];
 
-print "  $remote_host &ndash; $remote_address ($user_really) personality '<b>$me</b>'<br>
+print
+"  $remote_host &ndash; $remote_address ($user_really) personality '<b>$me</b>'<br>
   <b>$runs</b> Disturbed WEPP runs since Jan 1, 2011
   <!--  9,875 runs in 2009 -->
   <!-- 18,970 runs in 2008 -->
@@ -800,45 +773,3 @@ print "  $remote_host &ndash; $remote_address ($user_really) personality '<b>$me
 ";
 
 # --------------------- subroutines
-
-sub ReadParse {
-
-# ReadParse -- from cgi-lib.pl (Steve Brenner) from Eric Herrmann's
-# "Teach Yourself CGI Programming With PERL in a Week" p. 131
-
-# Reads GET or POST data, converts it to unescaped text, and puts
-# one key=value in each member of the list "@in"
-# Also creates key/value pairs in %in, using '\0' to separate multiple
-# selections
-
-# If a variable-glob parameter...
-
-  local (*in) = @_ if @_;
-  local ($i, $loc, $key, $val);
-
-  if ($ENV{'REQUEST_METHOD'} eq "GET") {
-    $in = $ENV{'QUERY_STRING'};
-  } elsif ($ENV{'REQUEST_METHOD'} eq "POST") {
-    read(STDIN,$in,$ENV{'CONTENT_LENGTH'});
-  }
-
-  @in = split(/&/,$in);
-
-  foreach $i (0 .. $#in) {
-    # Convert pluses to spaces
-    $in[$i] =~ s/\+/ /g;
-
-    # Split into key and value
-    ($key, $val) = split(/=/,$in[$i],2);  # splits on the first =
-
-    # Convert %XX from hex numbers to alphanumeric
-    $key =~ s/%(..)/pack("c",hex($1))/ge;
-    $val =~ s/%(..)/pack("c",hex($1))/ge;
-
-    # Associative key and value
-    $in{$key} .= "\0" if (defined($in{$key}));  # \0 is the multiple separator
-    $in{$key} .= $val;
-  }
-  return 1;
- }
-

@@ -42,34 +42,32 @@ $version = '2014.04.14';    # switch to 2014 soils database
 
 #=========================================================================
 
-&ReadParse(*parameters);
-
-
-$CL             = escapeHTML( $parameters{'Climate'} );
-$soil           = escapeHTML( $parameters{'SoilType'} );
-$treat1         = escapeHTML( $parameters{'UpSlopeType'} );
-$ofe1_length    = escapeHTML( $parameters{'ofe1_length'} ) + 0;
-$ofe1_top_slope = escapeHTML( $parameters{'ofe1_top_slope'} ) + 0;
-$ofe1_mid_slope = escapeHTML( $parameters{'ofe1_mid_slope'} ) + 0;
-$ofe1_pcover    = escapeHTML( $parameters{'ofe1_pcover'} ) + 0;
-$ofe1_rock      = escapeHTML( $parameters{'ofe1_rock'} ) + 0;
-$treat2         = escapeHTML( $parameters{'LowSlopeType'} );
-$ofe2_length    = escapeHTML( $parameters{'ofe2_length'} ) + 0;
-$ofe2_mid_slope = escapeHTML( $parameters{'ofe2_top_slope'} ) + 0;
-$ofe2_bot_slope = escapeHTML( $parameters{'ofe2_bot_slope'} ) + 0;
-$ofe2_pcover    = escapeHTML( $parameters{'ofe2_pcover'} ) + 0;
-$ofe2_rock      = escapeHTML( $parameters{'ofe2_rock'} ) + 0;
-$ofe_area       = escapeHTML( $parameters{'ofe_area'} ) + 0;
+$cgi            = CGI->new;
+$CL             = escapeHTML( $cgi->param('Climate') );
+$soil           = escapeHTML( $cgi->param('SoilType') );
+$treat1         = escapeHTML( $cgi->param('UpSlopeType') );
+$ofe1_length    = escapeHTML( $cgi->param('ofe1_length') ) + 0;
+$ofe1_top_slope = escapeHTML( $cgi->param('ofe1_top_slope') ) + 0;
+$ofe1_mid_slope = escapeHTML( $cgi->param('ofe1_mid_slope') ) + 0;
+$ofe1_pcover    = escapeHTML( $cgi->param('ofe1_pcover') ) + 0;
+$ofe1_rock      = escapeHTML( $cgi->param('ofe1_rock') ) + 0;
+$treat2         = escapeHTML( $cgi->param('LowSlopeType') );
+$ofe2_length    = escapeHTML( $cgi->param('ofe2_length') ) + 0;
+$ofe2_mid_slope = escapeHTML( $cgi->param('ofe2_top_slope') ) + 0;
+$ofe2_bot_slope = escapeHTML( $cgi->param('ofe2_bot_slope') ) + 0;
+$ofe2_pcover    = escapeHTML( $cgi->param('ofe2_pcover') ) + 0;
+$ofe2_rock      = escapeHTML( $cgi->param('ofe2_rock') ) + 0;
+$ofe_area       = escapeHTML( $cgi->param('ofe_area') ) + 0;
 $action =
-    escapeHTML( $parameters{'actionc'} )
-  . escapeHTML( $parameters{'actionv'} )
-  . escapeHTML( $parameters{'actionw'} )
-  . escapeHTML( $parameters{'ActionCD'} );
-$me          = escapeHTML( $parameters{'me'} );
-$units       = escapeHTML( $parameters{'units'} );
-$achtung     = escapeHTML( $parameters{'achtung'} );
-$climyears   = escapeHTML( $parameters{'climyears'} );
-$description = escapeHTML( $parameters{'description'} );
+    escapeHTML( $cgi->param('actionc') )
+  . escapeHTML( $cgi->param('actionv') )
+  . escapeHTML( $cgi->param('actionw') )
+  . escapeHTML( $cgi->param('ActionCD') );
+$me          = escapeHTML( $cgi->param('me') );
+$units       = escapeHTML( $cgi->param('units') );
+$achtung     = escapeHTML( $cgi->param('achtung') );
+$climyears   = escapeHTML( $cgi->param('climyears') );
+$description = escapeHTML( $cgi->param('description') );
 
 $weppversion = "wepp2010";
 ### filter bad stuff out of description ###
@@ -148,9 +146,8 @@ if ( lc($achtung) =~ /describe climate/ ) {
 }    # /describe climate/
 
 if ( lc($achtung) =~ /describe soil/ ) {    ##########
-
-    $units    = $parameters{'units'};
-    $SoilType = $parameters{'SoilType'};
+    $units    = escapeHTML( $cgi->param('units') );
+    $SoilType = escapeHTML( $cgi->param('SoilType') );
 
     if   ( $platform eq "pc" ) { $soilPath = 'data\\' }
     else                       { $soilPath = 'data/' }    # DEH 20110408
@@ -446,7 +443,8 @@ if ( $rcin eq '' ) {
     &CreateManagementFileT;
 
     if ($debug) { print "Creating Climate File<br>\n" }
-    ($climateFile, $climatePar) = &CreateCligenFile( $CL, $unique, $years2sim, $debug );
+    ( $climateFile, $climatePar ) =
+      &CreateCligenFile( $CL, $unique, $years2sim, $debug );
 
     if ($debug) { print "Creating Soil File<br>\n" }
     &CreateSoilFile;
@@ -723,7 +721,6 @@ pophist
 ######################## end of top part of HTML output ###############
 
     #------------------------------
-
 
     open weppstout, "<$stoutFile";
 
@@ -1406,7 +1403,7 @@ close MYLOG;
 $climate_trim = trim($climate_name);
 $climate_trim = $CL
   if ( $climate_trim eq '' )
-  ;            # 2010.04.22 capture filename in case of failed run
+  ;    # 2010.04.22 capture filename in case of failed run
 
 open RUNLOG, ">>$runLogFile";
 flock( RUNLOG, 2 );
@@ -1435,42 +1432,6 @@ print RUNLOG '"', $description, '"', "\n";
 close RUNLOG;
 
 ################################# end 2009.11.02 DEH
-
-# ------------------------ subroutines ---------------------------
-
-sub ReadParse {
-
-    # ReadParse -- from cgi-lib.pl (Steve Brenner) from Eric Herrmann's
-    # "Teach Yourself CGI Programming With PERL in a Week" p. 131
-
-    # Reads GET or POST data, converts it to unescaped text, and puts
-    # one key=value in each member of the list "@in"
-    # Also creates key/value pairs in %in, using '\0' to separate multiple
-    # selections
-
-    local (*in) = @_ if @_;
-    local ( $i, $loc, $key, $val );
-
-    #       read text
-    if ( $ENV{'REQUEST_METHOD'} eq "GET" ) {
-        $in = $ENV{'QUERY_STRING'};
-    }
-    elsif ( $ENV{'REQUEST_METHOD'} eq "POST" ) {
-        read( STDIN, $in, $ENV{'CONTENT_LENGTH'} );
-    }
-    @in = split( /&/, $in );
-    foreach $i ( 0 .. $#in ) {
-        $in[$i] =~ s/\+/ /g;    # Convert pluses to spaces
-        ( $key, $val ) = split( /=/, $in[$i], 2 );    # Split into key and value
-        $key =~ s/%(..)/pack("c",hex($1))/ge
-          ;    # Convert %XX from hex numbers to alphanumeric
-        $val =~ s/%(..)/pack("c",hex($1))/ge;
-        $in{$key} .= "\0"
-          if ( defined( $in{$key} ) );    # \0 is the multiple separator
-        $in{$key} .= $val;
-    }
-    return 1;
-}
 
 #---------------------------
 
