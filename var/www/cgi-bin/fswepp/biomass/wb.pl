@@ -5,6 +5,7 @@ use CGI;
 use CGI qw(escapeHTML);
 use lib '/var/www/cgi-bin/fswepp/dry';
 use CligenUtils qw(CreateCligenFile GetParSummary);
+use FsWeppUtils qw(CreateSlopeFile CreateSlopeFileWeppRoad);
 use FsWeppUtils qw(printdate);
 use String::Util qw(trim);
 
@@ -70,9 +71,12 @@ $roaddensity      = 15;
 ########################################
 
 #####  Read user input parameters  #####
-$wildfire_cycle = escapeHTML( scalar $cgi->param('wildfire_cycle') ) + 0;  # 2004.09.16
-$rx_fire_cycle  = escapeHTML( scalar $cgi->param('rx_fire_cycle') ) + 0;   # 2004.09.16
-$harvest_cycle  = escapeHTML( scalar $cgi->param('harvest_cycle') ) + 0;   # 2004.09.16
+$wildfire_cycle =
+  escapeHTML( scalar $cgi->param('wildfire_cycle') ) + 0;    # 2004.09.16
+$rx_fire_cycle =
+  escapeHTML( scalar $cgi->param('rx_fire_cycle') ) + 0;     # 2004.09.16
+$harvest_cycle =
+  escapeHTML( scalar $cgi->param('harvest_cycle') ) + 0;     # 2004.09.16
 
 $CL               = escapeHTML( $cgi->param('Climate') );
 $soil             = escapeHTML( $cgi->param('SoilType') );
@@ -522,7 +526,8 @@ print TEMP '
      </tr>
 ';
 
-($climateFile, $climatePar) = &CreateCligenFile( $CL, $unique, $years2sim, $debug );
+( $climateFile, $climatePar ) =
+  &CreateCligenFile( $CL, $unique, $years2sim, $debug );
 
 ########################### new loop #############################
 
@@ -600,8 +605,13 @@ for ( $i = 0 ; $i < $#intreat1 + 1 ; $i++ ) {    # 2004.11.19 DEH
 
         $ofe_width = $ofe_area * 10000 / ( $ofe1_length + $ofe2_length );
 
-        if ( $debug > 1 ) { print "Creating Slope File<br>\n" }
-        &CreateSlopeFile;
+        &CreateSlopeFile(
+            $ofe1_top_slope, $ofe1_mid_slope, $ofe2_mid_slope,
+            $ofe2_bot_slope, $ofe1_length,    $ofe2_length,
+            $ofe_area,       $slopeFile,      $ofe_width,
+            $debug
+        );
+
         if ( $debug > 1 ) { print "Creating Management File<br>\n" }
         &CreateManagementFile;
         if ( $debug > 1 ) { print "Creating Soil File<br>\n" }
@@ -2460,38 +2470,6 @@ unlink $solFile;         # 2015.05.27 DEH
 
 # ------------------------ subroutines ---------------------------
 
-
-sub CreateSlopeFile {
-
-    # create slope file from specified geometry
-    #   print "<p> in slopefile ofe1_length is $ofe1_length";#elena
-    $top_slope1 = $ofe1_top_slope / 100;
-    $mid_slope1 = $ofe1_mid_slope / 100;
-    $mid_slope2 = $ofe2_mid_slope / 100;
-    $bot_slope2 = $ofe2_bot_slope / 100;
-    $avg_slope  = ( $mid_slope1 + $mid_slope2 ) / 2;
-    $ofe_width  = 100 if $ofe_area == 0;
-    open( SlopeFile, ">" . $slopeFile );
-
-    print SlopeFile "97.3\n";                              # datver
-    print SlopeFile "#\n# Slope file generated for Disturbed WEPP\n#\n";
-    print SlopeFile "2\n";                # no. OFE
-    print SlopeFile "100 $ofe_width\n";   # aspect; representative profile width
-                                          # OFE 1 (upper)
-    printf SlopeFile "%d  %.2f\n",   3,   $ofe1_length;    # no. points, length
-    printf SlopeFile "%.2f, %.2f  ", 0,   $top_slope1;     # dx, gradient
-    printf SlopeFile "%.2f, %.2f  ", 0.5, $mid_slope1;     # dx, gradient
-    printf SlopeFile "%.2f, %.2f\n", 1,   $avg_slope;      # dx, gradient
-                                                           # OFE 2 (lower)
-    printf SlopeFile "%d  %.2f\n",   3,   $ofe2_length;    # no. points, length
-    printf SlopeFile "%.2f, %.2f  ", 0,   $avg_slope;      # dx, gradient
-    printf SlopeFile "%.2f, %.2f  ", 0.5, $mid_slope2;     # dx, gradient
-    printf SlopeFile "%.2f, %.2f\n", 1,   $bot_slope2;     # dx, gradient
-
-    close SlopeFile;
-    return $slopeFile;
-}
-
 sub CreateManagementFile {
 
     $climatePar = $CL . '.par';
@@ -3221,15 +3199,9 @@ sub wrdt {
     local $traffic = @intraffic[$i];
     local $slope   = @inslope[$i];
 
-    #   $slope=$inslope[$i]; #elena
-    #   $surface=$insurface[$i]; #elena
-    #   $traffic=$intraffic[$i]; #elena
-
     # =======================  Run WEPP  =========================
 
     $design = $slope;
-
-    #   $years=30;
 
     if ( &CheckInputwr >= 0 ) {
         if    ( substr( $surface, 0, 1 ) eq 'g' ) { $surf = 'g' }    #HR
@@ -3252,7 +3224,10 @@ sub wrdt {
         $soilFilefq = $soilPath . $soilFile;
 
         $zzsoil  = &CreateSoilFilewr;
-        $zzslope = &CreateSlopeFilewr;
+        $zzslope = &CreateSlopeFileWeppRoad(
+            $URS, $UFS,   $UBS,   $URW,       $URL, $UFL,
+            $UBL, $units, $slope, $slopeFile, $debug
+        );
 
         $zzresp = &CreateResponseFilewr;
         @args   = ("../wepp2010 <$responseFile >$stoutFile 2>$sterFile");
@@ -3269,79 +3244,16 @@ sub wrdt {
 
 # ------------------------ subroutines ---------------------------
 
-sub CreateSlopeFilewr {
-
-    # create slope file from specified geometry
-
-    $userRoadSlope = $URS / 100;    # road slope in decimal percent
-    $userFillSlope = $UFS / 100;
-    $userBuffSlope = $UBS / 100;
-    if ( $units eq 'm' ) {
-        $userRoadWidth  = $URW;     # road width in meters
-        $userRoadLength = $URL;
-        $userFillLength = $UFL;
-        $userBuffLength = $UBL;
-    }
-    else {
-        $tom            = 0.3048;
-        $userRoadWidth  = sprintf "%.2f", $URW * $tom;
-        $userRoadLength = sprintf "%.2f", $URL * $tom;
-        $userFillLength = sprintf "%.2f", $UFL * $tom;
-        $userBuffLength = sprintf "%.2f", $UBL * $tom;
-    }
-    $WeppRoadSlope  = $userRoadSlope;
-    $WeppRoadLength = $userRoadLength;
-    $WeppFillSlope  = $userFillSlope;
-    $WeppFillLength = $userFillLength;
-    $WeppBuffSlope  = $userBuffSlope;
-    $WeppBuffLength = $userBuffLength;
-    if ( $WeppRoadLength < 1 ) { $WeppRoadLength = 1 } # minimum 1 m road length
-
-    if ( $slope eq 'outunrut' ) {
-        $outslope = 0.04;
-        $WeppRoadSlope =
-          sqrt( $outslope * $outslope + $WeppRoadSlope * $WeppRoadSlope )
-          ;                                            # 11/1999
-        $WeppRoadLength = $userRoadWidth * $WeppRoadSlope / $outslope;
-        $WeppRoadWidth  = $userRoadLength * $userRoadWidth / $WeppRoadLength;
-    }
-    else {
-        $WeppRoadWidth = $userRoadWidth;
-    }
-
-    open( SlopeFile, ">" . $slopeFile );
-    print SlopeFile "97.3\n";    # datver
-    print SlopeFile "# Slope file for $slope by WEPP:Road Interface\n";
-    print SlopeFile "3\n";                   # no. OFE
-    print SlopeFile "100 $WeppRoadWidth\n";  # aspect; profile width			# 11/1999
-                                             # OFE 1 (road)
-    printf SlopeFile "%d  %.2f\n", 2, $WeppRoadLength;  # no. points, OFE length
-    printf SlopeFile "%.2f, %.2f  ", 0, $WeppRoadSlope;    # dx, gradient
-    printf SlopeFile "%.2f, %.2f\n", 1, $WeppRoadSlope;    # dx, gradient
-                                                           # OFE 2 (fill)
-    printf SlopeFile "%d  %.2f\n", 3, $WeppFillLength;  # no. points, OFE length
-    printf SlopeFile "%.2f, %.2f  ", 0,    $WeppRoadSlope;    # dx, gradient
-    printf SlopeFile "%.2f, %.2f  ", 0.05, $WeppFillSlope;    # dx, gradient
-    printf SlopeFile "%.2f, %.2f\n", 1,    $WeppFillSlope;    # dx, gradient
-                                                              # OFE 3 (buffer)
-    printf SlopeFile "%d  %.2f\n", 3, $WeppBuffLength;  # no. points, OFE length
-    printf SlopeFile "%.2f, %.2f  ", 0,    $WeppFillSlope;    # dx, gradient
-    printf SlopeFile "%.2f, %.2f  ", 0.05, $WeppBuffSlope;    # dx, gradient
-    printf SlopeFile "%.2f, %.2f\n", 1,    $WeppBuffSlope;    # dx, gradient
-    close SlopeFile;
-    return $slopeFile;
-}
-
 sub CreateResponseFilewr {
 
     open( ResponseFile, ">" . $responseFile );
-    print ResponseFile "97.3\n";    # datver
-    print ResponseFile "y\n";       # not watershed
-    print ResponseFile "1\n";       # 1 = continuous
-    print ResponseFile "1\n";       # 1 = hillslope
-    print ResponseFile "n\n";       # hillsplope pass file out?
-    print ResponseFile "1\n";       # 1 = abreviated annual out
-    print ResponseFile "n\n";       # initial conditions file?
+    print ResponseFile "97.3\n";               # datver
+    print ResponseFile "y\n";                  # not watershed
+    print ResponseFile "1\n";                  # 1 = continuous
+    print ResponseFile "1\n";                  # 1 = hillslope
+    print ResponseFile "n\n";                  # hillsplope pass file out?
+    print ResponseFile "1\n";                  # 1 = abreviated annual out
+    print ResponseFile "n\n";                  # initial conditions file?
     print ResponseFile "$outputFile", "\n";    # soil loss output file
     print ResponseFile "n\n";                  # water balance output?
     print ResponseFile "n\n";                  # crop output?

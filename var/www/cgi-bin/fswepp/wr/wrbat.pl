@@ -409,12 +409,12 @@ goto skip_run if ( lc($action) eq 'display previous log' );
 display_errors:
 
 if ($batch) {
-    $spread = $cgi->param('spread');
+    $spread = escapeHTML($cgi->param('spread'));
 
     #!
     #   $spread = 'ib n l 12 100 4 45 12 75 20 20 comment 1';
     $spread .= "\n";
-    $spreadx = &detag($spread);
+    $spreadx = $spread;
 }
 
 #   print $spreadx;
@@ -701,9 +701,6 @@ die if ( $num_invalid_records > 0 );
 
 # =======================  Create new log ====================
 
-#   $climate_name = &getCligenStationName;
-
-#  $project_title='for testing only';
 $project_title = &whatdate if ( $project_title eq '' );
 open LOG, ">" . $logFile;
 print LOG "$project_title
@@ -1688,95 +1685,6 @@ sub CreateSoilFile {
     return $body;
 }
 
-sub createSoilFile {
-
-    # Read a WEPP:Road soil file template and create a usable soil file.
-    # File may have 'urr', 'ufr' and 'ubr' as placeholders for rock fragments
-    # percentage
-    # Adjust road surface Kr downward for traffic levels of 'low' or 'none'
-
-    # David Hall and Darrell Anderson
-    # November 26, 2001
-
-# uses: $soilFilefq   fully qualified input soil file name
-#       $newSoilFile  name of soil file to be created
-#       $surface      native, graveled, paved
-#       $traffic      High, Low, None
-#       $UBR          user-specified rock fragment decimal percentage for buffer
-# sets: $URR          calculated rock fragment decimal percentage for road
-#       $UFR          calculated rock fragment decimal percentage for fill
-
-    my $in;
-    my ( $pos1, $pos2, $pos3, $pos4 );
-    my ( $ind, $left, $right );
-
-    open SOILFILE,    "<$soilFilefq";
-    open NEWSOILFILE, ">$newSoilFile";
-
-    if    ( $surface eq 'graveled' ) { $URR = 65;   $UFR = ( $UBR + 65 ) / 2 }
-    elsif ( $surface eq 'paved' )    { $URR = 95;   $UFR = ( $UBR + 65 ) / 2 }
-    else                             { $URR = $UBR; $UFR = $UBR }
-
-    # modify 'Kr' for 'no traffic' and 'low traffic'
-
-    if ( $traffic eq 'low' || $traffic eq 'none' ) {
-        $in = <SOILFILE>;
-        print NEWSOILFILE $in;    # line 1; version control number - datver
-        $in = <SOILFILE>;         # first comment line
-        print NEWSOILFILE $in;
-        while ( substr( $in, 0, 1 ) eq '#' ) {    # gobble up comment lines
-            $in = <SOILFILE>;
-            print NEWSOILFILE $in;
-        }
-        $in = <SOILFILE>;
-        print NEWSOILFILE $in;                    # line 3: ntemp, ksflag
-        $in   = <SOILFILE>;
-        $pos1 = index( $in, "'" );                # location of first apostrophe
-        $pos2 = index( $in, "'", $pos1 + 1 );    # location of second apostrophe
-        $pos3 = index( $in, "'", $pos2 + 1 );    # location of third apostrophe
-        $pos4 = index( $in, "'", $pos3 + 1 );    # location of fourth apostrophe
-        my $slid_texid = substr( $in, 0, $pos4 + 1 );    # slid; texid
-        my $rest       = substr( $in, $pos4 + 1 );
-        my ( $nsl, $salb, $sat, $ki, $kr, $shcrit, $avke ) = split ' ', $rest;
-        $kr /= 4;
-        print NEWSOILFILE "$slid_texid\t";
-        print NEWSOILFILE "$nsl\t$salb\t$sat\t$ki\t$kr\t$shcrit\t$avke\n";
-    }
-
-    while (<SOILFILE>) {
-        $in = $_;
-        if (/urr/) {    # user-specified road rock fragment
-
-            #        print 'found urr';
-            $ind   = index( $in, 'urr' );
-            $left  = substr( $in, 0, $ind );
-            $right = substr( $in, $ind + 3 );
-            $in    = $left . $URR . $right;
-        }
-        elsif (/ufr/) {    # calculated fill rock fragment
-
-            #        print 'found ufr';
-            $ind   = index( $in, 'ufr' );
-            $left  = substr( $in, 0, $ind );
-            $right = substr( $in, $ind + 3 );
-            $in    = $left . $UFR . $right;
-        }
-        elsif (/ubr/) {    # calculated buffer rock fragment
-
-            #        print 'found ubr';
-            $ind   = index( $in, 'ubr' );
-            $left  = substr( $in, 0, $ind );
-            $right = substr( $in, $ind + 3 );
-            $in    = $left . $UBR . $right;
-        }
-
-        #     print $in;
-        print NEWSOILFILE $in;
-    }
-    close SOILFILE;
-    close NEWSOILFILE;
-}
-
 sub checkInput {
 
     if ( $units eq "m" ) {
@@ -2081,33 +1989,6 @@ sub validate_length {
         return 0;
     }
     return 1;
-}
-
-sub detag {
-
-    # convert some HTML tags so they won't muck the HTML code when displayed
-    # https://www.biglist.com/lists/xsl-list/archives/199807/msg00094.html
-
-    my $parseString = shift(@_);
-
-    # Convert plus's to spaces
-    #  $parseString =~ s/\+/ /g;
-
-    # Convert %xx URLencoded to equiv ASCII characters
-    #  $parseString =~ s/%(..)/chr(hex($1))/ge;
-
-    # Browsers don't display "<" chars as it could represent a tag in
-    # html. To get round the problem, you need to do the following
-    # conversion for the 'main' special characters in HTML.
-
-    # Convert < > & " to 'html' special characters.
-    $parseString =~ s/&/\&amp;/g;     # &amp;   & (The ampersand sign itself)
-    $parseString =~ s/</\&lt;/g;      # &lt;    < (less than sign)
-    $parseString =~ s/>/\&gt;/g;      # &gt;    > (greater than sign)
-    $parseString =~ s/"/\&quot;/g;    # &quot;  " (double quote)
-
-    return $parseString;
-
 }
 
 sub soilfilename {

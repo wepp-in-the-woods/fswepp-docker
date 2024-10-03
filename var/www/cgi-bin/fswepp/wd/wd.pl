@@ -5,6 +5,7 @@ use CGI qw(escapeHTML);
 use warnings;
 use lib '/var/www/cgi-bin/fswepp/dry';
 use CligenUtils qw(CreateCligenFile GetParSummary);
+use FsWeppUtils qw(CreateSlopeFile);
 
 use String::Util qw(trim);
 
@@ -436,8 +437,11 @@ if ( $rcin eq '' ) {
 
     $ofe_width = $ofe_area * 10000 / ( $ofe1_length + $ofe2_length );
 
-    if ($debug) { print "Creating Slope File<br>\n" }
-    &CreateSlopeFile;
+    &CreateSlopeFile(
+        $ofe1_top_slope, $ofe1_mid_slope, $ofe2_mid_slope, $ofe2_bot_slope,
+        $ofe1_length,    $ofe2_length,    $ofe_area,       $slopeFile,
+        $ofe_width,      $debug
+    );
 
     if ($debug) { print "Creating Management File<br>\n" }
     &CreateManagementFileT;
@@ -1459,43 +1463,6 @@ sub printdate {
     printf "%0.2d:%0.2d ", $hour, $min;
     print $ampm[$ampmi], "  ", $days[$wday], " ", $months[$mon];
     print " ", $mday, ", ", $thisyear, " Pacific Time\n";
-}
-
-sub CreateSlopeFile {
-
-    # create slope file from specified geometry
-
-    $top_slope1 = $ofe1_top_slope / 100;
-    $mid_slope1 = $ofe1_mid_slope / 100;
-    $mid_slope2 = $ofe2_mid_slope / 100;
-    $bot_slope2 = $ofe2_bot_slope / 100;
-####   Counteract calculation difficulties in WEPP 2010.100 if slope is unchanging.  2012.10.03 DEH Hint from JRF
-    $slope_fuzz = 0.001;
-    if ( abs( $mid_slope1 - $mid_slope2 ) < $slope_fuzz ) {
-        $mid_slope2 += 0.01;
-    }
-###
-    $avg_slope = ( $mid_slope1 + $mid_slope2 ) / 2;
-    $ofe_width = 100 if $ofe_area == 0;
-    open( SlopeFile, ">" . $slopeFile );
-
-    print SlopeFile "97.3\n";                              # datver
-    print SlopeFile "#\n# Slope file generated for Disturbed WEPP\n#\n";
-    print SlopeFile "2\n";                # no. OFE
-    print SlopeFile "100 $ofe_width\n";   # aspect; representative profile width
-                                          # OFE 1 (upper)
-    printf SlopeFile "%d  %.2f\n",   3,   $ofe1_length;    # no. points, length
-    printf SlopeFile "%.2f, %.2f  ", 0,   $top_slope1;     # dx, gradient
-    printf SlopeFile "%.2f, %.2f  ", 0.5, $mid_slope1;     # dx, gradient
-    printf SlopeFile "%.2f, %.2f\n", 1,   $avg_slope;      # dx, gradient
-                                                           # OFE 2 (lower)
-    printf SlopeFile "%d  %.2f\n",   3,   $ofe2_length;    # no. points, length
-    printf SlopeFile "%.2f, %.2f  ", 0,   $avg_slope;      # dx, gradient
-    printf SlopeFile "%.2f, %.2f  ", 0.5, $mid_slope2;     # dx, gradient
-    printf SlopeFile "%.2f, %.2f\n", 1,   $bot_slope2;     # dx, gradient
-
-    close SlopeFile;
-    return $slopeFile;
 }
 
 sub CreateManagementFileT {
