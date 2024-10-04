@@ -63,6 +63,10 @@ RUN cpanm String::Util
 RUN cpanm DateTime
 RUN cpanm Date::Calc
 RUN cpanm Template
+RUN cpanm JSON
+RUN cpanm File::Slurp
+RUN cpanm YAML::XS
+
 
 ## Move perl dependencies
 COPY var/www/cgi-bin/BAERTOOLS/baer-db/Query.pl /etc/perl/

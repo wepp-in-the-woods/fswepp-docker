@@ -149,9 +149,7 @@ if ( lc($achtung) =~ /describe climate/ ) {
 if ( lc($achtung) =~ /describe soil/ ) {    ##########
     $units    = escapeHTML( $cgi->param('units') );
     $SoilType = escapeHTML( $cgi->param('SoilType') );
-
-    if   ( $platform eq "pc" ) { $soilPath = 'data\\' }
-    else                       { $soilPath = 'data/' }    # DEH 20110408
+    $soilPath = 'data/';
 
     $surf = "";
     if ( substr( $surface, 0, 1 ) eq "g" ) { $surf = "g" }
@@ -201,20 +199,11 @@ if ( lc($achtung) =~ /describe soil/ ) {    ##########
         print "Ash cap or alluvial loess<br>\n";
     }
 
-    if ( $platform eq "pc" ) {
-        if    ( -e 'd:/fswepp/working' ) { $working = 'd:\\fswepp\\working' }
-        elsif ( -e 'c:/fswepp/working' ) { $working = 'c:\\fswepp\\working' }
-        else                             { $working = '..\\working' }
-        $soilFile = "$working\\wdwepp.sol";
-        $soilPath = 'data\\';
-    }
-    else {
-        $working  = '../working';
-        $unique   = 'wepp-' . $$;                  # DEH 01/13/2004
-        $soilFile = "$working/$unique" . '.sol';
-        $soilPath = 'data/';                       # DEH 20110408
-    }
-    #
+    $working  = '../working';
+    $unique   = 'wepp-' . $$;                  # DEH 01/13/2004
+    $soilFile = "$working/$unique" . '.sol';
+    $soilPath = 'data/';                       # DEH 20110408
+    
     &CreateSoilFile;
 
     open SOIL, "<$soilFile";
@@ -1998,21 +1987,14 @@ $years2sim\t# `nrots' - <rotation repeats..>
 
 sub CreateSoilFile {
 
-    #  $soil = 'loam';
-    #  $treat1 = $ofe1;   # 'short'
-    #  $treat2 = $ofe2;   # 'tree5'
     $fcover1 = $ofe1_pcover / 100;
     $fcover2 = $ofe2_pcover / 100;
-
-    # make outer_offset hash
 
     $outer_offset       = {};
     $outer_offset{sand} = 5;
     $outer_offset{silt} = 24;
     $outer_offset{clay} = 43;
     $outer_offset{loam} = 62;
-
-    # make inner_offset hash
 
     $inner_offset         = {};
     $inner_offset{skid}   = 0;
