@@ -67,11 +67,13 @@ RUN cpanm JSON
 RUN cpanm File::Slurp
 RUN cpanm YAML::XS
 
+ENV PERL5LIB=/etc/perl/MoscowFSL:$PERL5LIB
 
 ## Move perl dependencies
 COPY var/www/cgi-bin/BAERTOOLS/baer-db/Query.pl /etc/perl/
 COPY var/www/cgi-bin/BAERTOOLS/baer-db/PageCommon.pl /etc/perl/
 COPY var/www/cgi-bin/BAERTOOLS/baer-db/ShowProj.pl /etc/perl/
+
 
 # on host
 # > sudo groupadd webgroup

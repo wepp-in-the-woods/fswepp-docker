@@ -3,13 +3,13 @@
 use warnings;
 use CGI;
 use CGI qw(escapeHTML);
-use lib '/var/www/cgi-bin/fswepp/dry';
-use CligenUtils qw(CreateCligenFile GetParSummary);
-use FsWeppUtils qw(CreateSlopeFile CreateSlopeFileWeppRoad);
-use FsWeppUtils qw(printdate);
 use String::Util qw(trim);
 
-my $cgi = new CGI;
+use MoscowFSL::FSWEPP::CligenUtils qw(CreateCligenFile GetParSummary);
+use MoscowFSL::FSWEPP::FsWeppUtils
+  qw(CreateSlopeFile CreateSlopeFileWeppRoad printdate CreateSoilFile);
+
+my $debug = 0;
 
 #  wb.pl -- BIOMASS workhorse
 #  Modified by HR from fume2.pl 2013.03.01
@@ -42,8 +42,6 @@ $version = '2015.05.27';    # Unlink temporary and WEPP output files when done
 
 #=========================================================================
 
-my $debug = 0;
-
 my @out_asypa;
 
 #####  TEMPORARY KLUGE TO FORCE VALUES TO MAKE THE MODEL RUN  #####
@@ -71,6 +69,11 @@ $roaddensity      = 15;
 ########################################
 
 #####  Read user input parameters  #####
+
+my $cgi = new CGI;
+
+my $debug = escapeHTML( scalar $cgi->param('debug') ) || 0;
+
 $wildfire_cycle =
   escapeHTML( scalar $cgi->param('wildfire_cycle') ) + 0;    # 2004.09.16
 $rx_fire_cycle =
@@ -614,8 +617,13 @@ for ( $i = 0 ; $i < $#intreat1 + 1 ; $i++ ) {    # 2004.11.19 DEH
 
         if ( $debug > 1 ) { print "Creating Management File<br>\n" }
         &CreateManagementFile;
-        if ( $debug > 1 ) { print "Creating Soil File<br>\n" }
-        &CreateSoilFile;
+
+        my $soil_db_file = '/var/www/cgi-bin/fswepp/biomass/dat/soilbase.yaml';
+        CreateSoilFile(
+            "97.3",    $soil,         $treat1,
+            $treat2,   $ofe1_rock,    $ofe2_rock,
+            $soilFile, $soil_db_file, $debug
+        );
         if ( $debug > 1 ) { print "Creating WEPP Response File<br>\n" }
         &CreateResponseFile;
 
@@ -849,7 +857,6 @@ for ( $i = 0 ; $i < $#intreat1 + 1 ; $i++ ) {    # 2004.11.19 DEH
                 $user_asypa    = sprintf "%.2f", $asypa;
                 $out_asypa[$i] = $user_asypa;
 
-                #elena   print "<p> this is out_asypa[$i]: $out_asypa[$i]";
                 $rate     = 't ha<sup>-1</sup>';
                 $pcp_unit = 'mm';
             }
@@ -860,15 +867,11 @@ for ( $i = 0 ; $i < $#intreat1 + 1 ; $i++ ) {    # 2004.11.19 DEH
                 $user_asyra  = sprintf "%.2f", $asyra * 0.445;    # t/ha to t/ac
                 $user_asypa  = sprintf "%.2f", $asypa * 0.445;    # t/ha to t/ac
 
-                #   print "<p> the value of user_asypa is $user_asypa";
                 $out_asypa[$i] = $user_asypa;
 
-                #    print "<p> this is out_asypa[$i]: $out_asypa[$i]";
                 $rate     = 't ac<sup>-1</sup>';
                 $pcp_unit = 'in.';
             }
-
-#####
 
             &parsead;
 
@@ -889,7 +892,6 @@ for ( $i = 0 ; $i < $#intreat1 + 1 ; $i++ ) {    # 2004.11.19 DEH
                     $asyr      = sprintf "%.2f", $detach[ $rp_year - 1 ] * 10 *
                       $rcf;    # kg.m^2 * 10 = t/ha * 0.445 = t/ac
 
-#     $asyp      = sprintf "%.2f", $sed_del[$rp_year-1] * $ofe_width / (100000 * $ofe_area) * $rcf;	# kg/m width * m width * (1 t / 1000 kg) / area-in-ha
                     $asyp = sprintf "%.2f",
                       $sed_del[ $rp_year - 1 ] * 10 / $slope_length * $rcf;
 
@@ -927,11 +929,6 @@ for ( $i = 0 ; $i < $#intreat1 + 1 ; $i++ ) {    # 2004.11.19 DEH
     $host        = $ENV{REMOTE_ADDR} if ( $host eq '' );
     $user_really = $ENV{'HTTP_X_FORWARDED_FOR'};
     $host        = $user_really if ( $user_really ne '' );
-
-    #   $undisturbe=$out_asypa[0]*640;
-    #   $harvest=($out_asypa[1]*640)/$fuelmangcycle;
-    #   $prescribe=($out_asypa[2]*640)/$fuelmangcycle;
-    #   $wildfire=($out_asypa[3]*640)/$wildfire_cycle;
 
     $z_out_asypa   = @out_asypa[$i] * 640;
     $slope_lengthf = sprintf "%.1f", $slope_length;
@@ -1249,40 +1246,9 @@ if ($doroad) {
 
 close TEMP;    # 2004.09.15
 
-#################################################################
-######################## DEVELOPMENT ############################
-
-#  @out_asypa[1]=1;		# sediment delivery harvesting      ($thinraw)
-#  @out_asypa[2]=2;		# sediment delivery prescribed fire ($presraw)
-#  @out_asypa[3]=3;		# sediment delivery wildfire        ($wildraw)
-#  @out_asypa[4]=4;		#
-#  @out_asypa[5]=5;		#
-#  @out_asypa[6]=6;		#
-#  @out_asypa[7]=7;		# $wildmodraw
-
-#  $harvest_cycle=20;		# harvesting cycle (years)
-#  $rx_fire_cycle=20;		# prescribed burn cycle (years)
-#  $wildfire_cycle=20;		# wildfire cycle (years)
-
-# road
-
-#  $no_road_min=&min((@z_sypaf[0],@z_syraf[0],@z_sypaf[1],@z_syraf[1]));
-#  $no_road_max=&max((@z_sypaf[0],@z_syraf[0],@z_sypaf[1],@z_syraf[1]));
-#  $tr_road_min=&min((@z_sypaf[1],@z_syraf[1],@z_sypaf[2],@z_syraf[2]));
-#  $tr_road_max=&max((@z_sypaf[1],@z_syraf[1],@z_sypaf[2],@z_syraf[2]));
-
-#  @z_sypaf[0]=10;		# sediment delivery (low access road)
-#  @z_sypaf[1]=11;		# sediment delivery (high access road)
-#  @z_sypaf[2]=12;		#
-
-#  @z_syraf[0]=13;		#
-#  @z_syraf[1]=14;		# sediment delivery (low access road)
-#  @z_syraf[2]=15;		# sediment delivery (high access road)
-
 ######################## DEVELOPMENT ############################
 #################################################################
 
-#  $undiraw=@out_asypa[0]*640;
 $thinraw    = @out_asypa[1] * 640;
 $presraw    = @out_asypa[2] * 640;
 $wildraw    = @out_asypa[3] * 640;
@@ -1293,9 +1259,6 @@ $harvest    = sprintf '%.1f', $thinraw / $harvest_cycle;
 $prescribe  = sprintf '%.1f', $presraw / $rx_fire_cycle;
 $wildfire   = sprintf '%.1f', $wildraw / $wildfire_cycle;
 
-#  $harvest   = sprintf '%.1f',($out_asypa[1]*640)/$harvest_cycle;
-#  $prescribe = sprintf '%.1f',($out_asypa[2]*640)/$rx_fire_cycle;
-#  $wildfire  = sprintf '%.1f',($out_asypa[3]*640)/$wildfire_cycle;
 $notbackground = $undisturbe + $wildfire;
 $witbackground = $harvest + $prescribe;
 $withbperofnotb =
@@ -1323,12 +1286,10 @@ if ($doroad) {
     print @z_sypa[0];
     $no_road_low  = $notbackground + $no_road_min;
     $no_road_high = $notbackground + $no_road_max;
-##
-    #  Insert A [line 1307]		Line 1307: Insert the following.
 
     $no_thin_low1  = $notbackground + $thinning + $no_road_min;
     $no_thin_high1 = $notbackground + $thinning + $no_road_max;
-##
+
     $tr_road_low   = $thinrx + $tr_road_min;
     $tr_road_high  = $thinrx + $tr_road_max;
     $tr_thin_low   = $thin + $tr_road_min;
@@ -2354,16 +2315,15 @@ print "
   <font size=-1>
 ";
 
-print '>                                                              
+print "&gt;                                                            
   <font size=1>
  WEPP BIOMASS v. 
- <a href="javascript:popuphistory()"> ', $version, '</a>
- (for review only) 
+ <a href='javascript:popuphistory()'>$version</a> ($unique)
  <br>Interface by David Hall, Elena Velasquez, and Hakjun Rhee
  <br>Model by Hakjun Rhee, Bill Elliot and Pete Robichaud
  <br>USDA Forest Service, Rocky Mountain Research Station, Moscow, ID 83843<br><br>
 
- Disturbed WEPP soil database: ', $soildbcomment, '<br>';
+ Disturbed WEPP soil database: $soildbcomment<br>";
 
 $wc    = `wc ../working/_$thisyear/wb.log`;
 @words = split " ", $wc;
@@ -2399,7 +2359,6 @@ print RUNLOG $ampm[$ampmi], "  ", $days[$wday], " ", $months[$mon], " ", $mday,
   ", ", $year + 1900, '"', "\t", '"';
 print RUNLOG $climate_trim, '"', "\t";    # Climate
 
-#     print  RUNLOG "$soil_type{$soil}\t";	# Soil texture
 print RUNLOG "$soil\t";                   # Soil texture
 print RUNLOG "$hillslope_length\t";       # Hillslope length
 print RUNLOG "$buffer_length\t";          # Buffer length
@@ -2728,77 +2687,6 @@ $years2sim\t# `nrots' - <rotation repeats..>
     close MANFILE;
 }
 
-sub CreateSoilFile {
-
-    $fcover1 = $ofe1_pcover / 100;
-    $fcover2 = $ofe2_pcover / 100;
-
-    $outer_offset       = {};
-    $outer_offset{sand} = 5;
-    $outer_offset{silt} = 24;
-    $outer_offset{clay} = 43;
-    $outer_offset{loam} = 62;
-
-    $inner_offset         = {};
-    $inner_offset{skid}   = 0;
-    $inner_offset{high}   = 2;
-    $inner_offset{low}    = 4;
-    $inner_offset{short}  = 6;
-    $inner_offset{tall}   = 8;
-    $inner_offset{shrub}  = 10;
-    $inner_offset{tree5}  = 12;
-    $inner_offset{tree20} = 14;
-
-    $line_number1 = $outer_offset{$soil} + $inner_offset{$treat1};
-    $line_number2 = $outer_offset{$soil} + $inner_offset{$treat2};
-
-    open SOLFILE, ">$soilFile";
-
-    print SOLFILE "97.3
-#
-#      Created by 'wb.pl' (v 2013.10.18)
-#      Numbers by: Bill Elliot (USFS)
-#
-Isn't the sky blue today?
- 2    1
-";
-
-    open SOILDB, "<dat/soilbase";    #elena
-    $soildbcomment = <SOILDB>;       # 2015.05.06 DEH
-
-    #  for $i (1..$line_number1) {
-    for $i ( 2 .. $line_number1 ) {
-        $in = <SOILDB>;
-    }
-    chomp $in;
-    print SOLFILE $in, "\n";
-
-    $in        = <SOILDB>;
-    $index_rfg = index( $in, 'rfg' );
-    $left      = substr( $in, 0, $index_rfg );
-    $right     = substr( $in, $index_rfg + 3 );
-    $in        = $left . $ofe1_rock . $right;
-
-    print SOLFILE $in;
-    close SOILDB;
-
-    open SOILDB, "<dat/soilbase";
-    for $i ( 1 .. $line_number2 ) {
-        $in = <SOILDB>;
-    }
-    chomp $in;
-    print SOLFILE $in, "\n";
-    $in        = <SOILDB>;
-    $index_rfg = index( $in, 'rfg' );
-    $left      = substr( $in, 0, $index_rfg );
-    $right     = substr( $in, $index_rfg + 3 );
-    $in        = $left . $ofe2_rock . $right;
-
-    print SOLFILE $in;
-    close SOILDB;
-    close SOLFILE;
-}
-
 sub CreateResponseFile {
 
     open( ResponseFile, ">" . $responseFile );
@@ -2905,10 +2793,6 @@ sub checkInput {
         $rc -= 1;
     }
 
-   #   if ($ofe1_pcover < 0 || $ofe1_pcover > 100)
-   #      {print "Invalid upper percent cover; range 0 to 100 %<br>\n"; $rc -=1}
-   #   if ($ofe2_pcover < 0 || $ofe2_pcover > 100)
-   #      {print "Invalid lower percent cover; range 0 to 100 %<br>\n"; $rc -=1}
     print "</b></font>\n";
     return $rc;
 }
@@ -3185,8 +3069,6 @@ sub getAnnualPrecip {
 
 sub wrdt {
 
-    # use CGI ':standard';
-
     $i = shift;
     local $surface = @insurface[$i];
     local $traffic = @intraffic[$i];
@@ -3412,8 +3294,6 @@ sub CheckInputwr {
         print "Fill length must be between $minUFL and $maxUFL $lu<BR>\n";
     }
 
-# 2005.04.29 DEH begin
-#    if ($UFS < $minUFS or $UFS > $maxUFS) {$rc=$rc-1; print "Fill gradient must be between $minUFS and $maxUFS %<BR>\n"}
     if ( $UFS < $minUFS ) {
         $rc = $rc - 1;
         print "Fill gradient must be greater than $minUFS %<BR>\n";
@@ -3422,7 +3302,6 @@ sub CheckInputwr {
         $UFS = $maxUFS;
     }
 
-    # 2005.04.29 DEH end
     if ( $UBL < $minUBL or $UBL > $maxUBL ) {
         $rc = $rc - 1;
         print "Buffer length must be between $minUBL and $maxUBL $lu<BR>\n";
@@ -3432,7 +3311,6 @@ sub CheckInputwr {
         print "Buffer gradient must be between $minUBS and $maxUBS %<BR>\n";
     }
 
-    #@#     $years2sim=$years*1;
     if ( $years2sim < 1 )   { $years2sim = 1 }
     if ( $years2sim > 200 ) { $years2sim = 200 }
     return $rc;

@@ -2,7 +2,6 @@
 # Secondary "library" file containing code for displaying BAER project
 # information in our Web page.  By Conrad Albrecht (CMA) 2014.01.13.
 
-use strict;
 use warnings;
 
 ################################# "#INCLUDES" ##################################

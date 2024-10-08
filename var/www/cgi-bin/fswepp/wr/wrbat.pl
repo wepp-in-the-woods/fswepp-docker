@@ -6,7 +6,6 @@ use CGI qw(escapeHTML header);
 use lib '/var/www/cgi-bin/fswepp/dry';
 use CligenUtils qw(CreateCligenFile GetParSummary);
 
-
 # wrbat.pl
 #
 # WEPP:Road batch
@@ -17,9 +16,9 @@ use CligenUtils qw(CreateCligenFile GetParSummary);
 # 31 January 2002
 # David Hall, USDA Forest Service, Rocky Mountain Research Station
 
-$version = '2015.03.02'; 
-$debug = 0;
-$batch = 1;
+$version = '2015.03.02';
+$debug   = 0;
+$batch   = 1;
 
 $weppversion = "wepp2010";
 
@@ -81,21 +80,20 @@ $count_limit = 1000;
 #  2004.05.06	Allow only display of previous log file
 #  2004.05.03 DEH add switch for "extended output"
 
-
 my $cgi = CGI->new;
-$action = 
-    $cgi->param('ActionC') 
-  . $cgi->param('ActionW') 
-  . $cgi->param('ActionCD') 
-  . $cgi->param('ActionSD') 
-  . $cgi->param('old_log') 
+$action =
+    $cgi->param('ActionC')
+  . $cgi->param('ActionW')
+  . $cgi->param('ActionCD')
+  . $cgi->param('ActionSD')
+  . $cgi->param('old_log')
   . $cgi->param('submit');
 chomp $action;
 $achtung = $cgi->param('achtung');
 
 $extended = $cgi->param('extended');
 
-$project_title = escapeHTML($cgi->param('projectdescription'));
+$project_title = escapeHTML( $cgi->param('projectdescription') );
 
 ####
 
@@ -166,7 +164,7 @@ $user_ID     = $ENV{'REMOTE_ADDR'};
 $user_really = $ENV{'HTTP_X_FORWARDED_FOR'};
 $user_ID     = $user_really if ( $user_really ne '' );
 $user_ID =~ tr/./_/;
-$me = '';  # Initialize $me variable
+$me      = '';                                     # Initialize $me variable
 $user_ID = $user_ID . $me;
 $logFile = "../working/" . $user_ID . ".wrblog";
 if ( $host eq "" ) { $host = 'unknown' }
@@ -409,7 +407,7 @@ goto skip_run if ( lc($action) eq 'display previous log' );
 display_errors:
 
 if ($batch) {
-    $spread = escapeHTML($cgi->param('spread'));
+    $spread = escapeHTML( $cgi->param('spread') );
 
     #!
     #   $spread = 'ib n l 12 100 4 45 12 75 20 20 comment 1';
@@ -697,7 +695,8 @@ die if ( $num_invalid_records > 0 );
 
 # =======================  Create CLIGEN file ====================
 
-($climateFile, $climatePar) = &CreateCligenFile( $CL, $unique, $years, $debug );
+( $climateFile, $climatePar ) =
+  &CreateCligenFile( $CL, $unique, $years, $debug );
 
 # =======================  Create new log ====================
 
@@ -800,7 +799,10 @@ for $record ( 1 .. $count ) {
             print "<pre>creating soil file: $newSoilFile\n", $soilFileBody,
               "</pre>\n";
         }
-        &CreateSlopeFile;
+        $zzslope = &CreateSlopeFileWeppRoad(
+            $URS, $UFS,   $UBS,   $URW,       $URL, $UFL,
+            $UBL, $units, $slope, $slopeFile, $debug
+        );
         &CreateResponseFile;
         @args = ("../$weppversion <$responseFile >$stoutFile 2>$sterFile")
           ;    # DEH 2015.02.10
@@ -1491,80 +1493,17 @@ sub whatdate {
 
 #---------------------------
 
-sub CreateSlopeFile {
-
-    # create slope file from specified geometry
-
-    $userRoadSlope = $URS / 100;    # road slope in decimal percent
-    $userFillSlope = $UFS / 100;
-    $userBuffSlope = $UBS / 100;
-    if ( $units eq 'm' ) {
-        $userRoadWidth  = $URW;     # road width in meters
-        $userRoadLength = $URL;
-        $userFillLength = $UFL;
-        $userBuffLength = $UBL;
-    }
-    else {
-        $tom            = 0.3048;
-        $userRoadWidth  = sprintf "%.2f", $URW * $tom;
-        $userRoadLength = sprintf "%.2f", $URL * $tom;
-        $userFillLength = sprintf "%.2f", $UFL * $tom;
-        $userBuffLength = sprintf "%.2f", $UBL * $tom;
-    }
-    $WeppRoadSlope  = $userRoadSlope;
-    $WeppRoadLength = $userRoadLength;
-    $WeppFillSlope  = $userFillSlope;
-    $WeppFillLength = $userFillLength;
-    $WeppBuffSlope  = $userBuffSlope;
-    $WeppBuffLength = $userBuffLength;
-    if ( $WeppRoadLength < 1 ) { $WeppRoadLength = 1 } # minimum 1 m road length
-
-    if ( $design eq 'outunrut' || $design eq 'ou' ) {
-        $outslope = 0.04;
-        $WeppRoadSlope =
-          sqrt( $outslope * $outslope + $WeppRoadSlope * $WeppRoadSlope )
-          ;                                            # 11/1999
-        $WeppRoadLength = $userRoadWidth * $WeppRoadSlope / $outslope;
-        $WeppRoadWidth  = $userRoadLength * $userRoadWidth / $WeppRoadLength;
-    }
-    else {
-        $WeppRoadWidth = $userRoadWidth;
-    }
-
-    open( SlopeFile, ">" . $slopeFile );
-    print SlopeFile "97.3\n";    # datver
-    print SlopeFile "# Slope file for $slope by WEPP:Road Interface\n";
-    print SlopeFile "3\n";                   # no. OFE
-    print SlopeFile "100 $WeppRoadWidth\n";  # aspect; profile width			# 11/1999
-                                             # OFE 1 (road)
-    printf SlopeFile "%d  %.2f\n", 2, $WeppRoadLength;  # no. points, OFE length
-    printf SlopeFile "%.2f, %.2f  ", 0, $WeppRoadSlope;    # dx, gradient
-    printf SlopeFile "%.2f, %.2f\n", 1, $WeppRoadSlope;    # dx, gradient
-                                                           # OFE 2 (fill)
-    printf SlopeFile "%d  %.2f\n", 3, $WeppFillLength;  # no. points, OFE length
-    printf SlopeFile "%.2f, %.2f  ", 0,    $WeppRoadSlope;    # dx, gradient
-    printf SlopeFile "%.2f, %.2f  ", 0.05, $WeppFillSlope;    # dx, gradient
-    printf SlopeFile "%.2f, %.2f\n", 1,    $WeppFillSlope;    # dx, gradient
-                                                              # OFE 3 (buffer)
-    printf SlopeFile "%d  %.2f\n", 3, $WeppBuffLength;  # no. points, OFE length
-    printf SlopeFile "%.2f, %.2f  ", 0,    $WeppFillSlope;    # dx, gradient
-    printf SlopeFile "%.2f, %.2f  ", 0.05, $WeppBuffSlope;    # dx, gradient
-    printf SlopeFile "%.2f, %.2f\n", 1,    $WeppBuffSlope;    # dx, gradient
-    close SlopeFile;
-    return $slopeFile;
-}
-
 sub CreateResponseFile {
 
     if ($debug) { print "creating $responseFile<br>\n"; }
     open( ResponseFile, ">$responseFile" );
-    print ResponseFile "97.3\n";    # datver
-    print ResponseFile "y\n";       # not watershed
-    print ResponseFile "1\n";       # 1 = continuous
-    print ResponseFile "1\n";       # 1 = hillslope
-    print ResponseFile "n\n";       # hillsplope pass file out?
-    print ResponseFile "1\n";       # 1 = abreviated annual out
-    print ResponseFile "n\n";       # initial conditions file?
+    print ResponseFile "97.3\n";               # datver
+    print ResponseFile "y\n";                  # not watershed
+    print ResponseFile "1\n";                  # 1 = continuous
+    print ResponseFile "1\n";                  # 1 = hillslope
+    print ResponseFile "n\n";                  # hillsplope pass file out?
+    print ResponseFile "1\n";                  # 1 = abreviated annual out
+    print ResponseFile "n\n";                  # initial conditions file?
     print ResponseFile "$outputFile", "\n";    # soil loss output file
     print ResponseFile "n\n";                  # water balance output?
     print ResponseFile "n\n";                  # crop output?
@@ -2194,7 +2133,7 @@ sub display_log {
             print "    <tr>
 ";
             if ($subs) { my $preci = <LOG> }
-            ;
+
             $subs = 1;
             my $run = <LOG>;
 

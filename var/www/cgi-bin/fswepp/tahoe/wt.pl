@@ -2359,12 +2359,6 @@ sub CreateSoilFile {    # 2010.05.27
     #  read: $treat1, $treat2, $soil $ofe1_rock, $ofe2_rock
     #  reads: soilbase_bp.tahoe
 
-    #  $soil = 'alluvial';
-    #  $treat1 = $ofe1;   # 'short'
-    #  $treat2 = $ofe2;   # 'tree5'
-    #  local   $fcover1 = $ofe1_pcover/100;
-    #  local   $fcover2 = $ofe2_pcover/100;
-
     local $i, $in;
     local $soil1 = $soil;
     local $soil2 = $soil;
@@ -2375,16 +2369,10 @@ sub CreateSoilFile {    # 2010.05.27
 
     local $outer_offset = {};
 
-    #   $outer_offset{granitic} = 6;
-    #   $outer_offset{volcanic} = 36;
-    #   $outer_offset{alluvial} = 66;
-    #   $outer_offset{rockpave} = 96;
     $outer_offset{granitic} = 6;
     $outer_offset{volcanic} = 38;
     $outer_offset{alluvial} = 70;
     $outer_offset{rockpave} = 102;
-
-    # make inner_offset hash        2009.08.28 DEH
 
     local $inner_offset = {};
     $inner_offset{Skid}        = 0;

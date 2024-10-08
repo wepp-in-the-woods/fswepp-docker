@@ -1,7 +1,8 @@
 95.1
-#  WEPP 'loam' 'hhh4' forest soil input file for ERMiT
+#  WEPP 'sandy loam' 'hhh4' range soil input file for ERMiT
+#  15% shrub 75% grass 10% bare
 #  Data from U.S. Forest Service RMRS Air, Water and Aquatic Environments (AWAE) Project, Moscow FSL
 #  Created by 'createsoilfile' version 2014.02.06
 1	0
-'ERMiT_h4'	'loam'	1	0.2	0.75	3200000	0.00085	3	4
-400	45	20	5	20	50
+'ERMiT_h4'	'sandy loam'	1	0.2	0.75	3206495	0.003137	2.17	6.85
+400	55	10	1	15	30

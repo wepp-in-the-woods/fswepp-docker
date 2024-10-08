@@ -2,7 +2,6 @@
 # Secondary "library" file containing common code used by our Web pages.
 # By Conrad Albrecht (CMA) 2013.11.15.
 
-use strict;
 use warnings;
 
 ################################# "#INCLUDES" ##################################

@@ -7,6 +7,7 @@ services:
     image: result/latest
     volumes:
       - /workdir/fswepp-docker/var/www:/var/www
+      - /workdir/fswepp-docker/etc/perl/MoscowFSL:/etc/perl/MoscowFSL
       - /workdir/fswepp-baer-db/baer-db:/var/www/BAERTOOLS/baer-db
 
   caddy:
