@@ -4,9 +4,8 @@ use warnings;
 use CGI;
 use CGI qw(escapeHTML);
 use Scalar::Util 'looks_like_number';
-use lib '/var/www/cgi-bin/fswepp/dry';
-use CligenUtils qw(CreateCligenFile GetParSummary);
-use FsWeppUtils qw(CreateSlopeFile);
+use MoscowFSL::FSWEPP::CligenUtils qw(CreateCligenFile GetParSummary);
+use MoscowFSL::FSWEPP::FsWeppUtils qw(CreateSlopeFile get_version printdate);
 
 use String::Util qw(trim);
 
@@ -16,8 +15,6 @@ use String::Util qw(trim);
 # Tahoe Basin Sediment Model workhorse * with phosphorus *
 # Reads user input from tahoe.pl, runs WEPP, parses output files
 
-# Needed update: automatic history popup
-
 # 2020.08.17 REB -- Removed * provisional * from header title
 # 2012.10.29 DEH -- Have createSlopeFile() put a bit of a bump in the slope if it is entirely flat
 # 2012.10.29 DEH -- Report WEPP calculation anomaly to user
@@ -25,17 +22,17 @@ use String::Util qw(trim);
 # 2011.11.27 DEH -- Add phosphorus analysis, tidy up code and displays
 # 2009.08.24 DEH -- Modify from wd.pl
 
-$verbose = 0;
+my $verbose = 0;
 
 # $debug=1; # this likely breaks the page. wasn't tested. likely prints without ;
-$weppversion = "wepp2010";
+my $weppversion = "wepp2010";
 
 ## BEGIN HISTORY ###################################
 ## Tahoe Basin Sediment Model version history
 
-$version = '2014.04.38'
-  ; # Increase phosphate sediment concentration upper limit to reflect ongoing research results
+my $version = get_version(__FILE__);
 
+# $version = '2014.04.38';  Increase phosphate sediment concentration upper limit to reflect ongoing research results
 #  $version = '2012.12.31';     # complete move to year-based logging (2012 through 2020)
 #  $version = '2012.11.13';	# Fix fines analysis to pick up varying percent silt and clay in all size classes
 #  $version = '2012.11.02';	# Match Disturbed WEPP functionality of variable canopy cover in CreateManagementFileT Initial Conditions and modify .ini files
@@ -909,18 +906,7 @@ if ( $rcin eq '' ) {
   <!-- end new 2004 -->
 ';
 
-    print "
-  function popuphistory() {
-    height=500;
-    width=660;
-    pophistory = window.open('','pophistory','toolbar=no,location=no,status=no,directories=no,menubar=no,scrollbars=yes,resizable=yes,width='+width+',height='+height);
-";
-    print make_history_popup();
-
     print '
-    pophistory.document.close()
-    pophistory.focus()
-  }
   </script>
   <link rel="stylesheet" type="text/css" href="/fswepp/notebook.css">
  </HEAD>
@@ -2218,7 +2204,7 @@ Moscow, ID: U.S. Department of Agriculture, Forest Service, Rocky Mountain Resea
 Online at &lt;https://forest.moscowfsl.wsu.edu/fswepp&gt;.
 <br><br>
      Tahoe Basin Sediment Model Results v.";
-print '     <a href="javascript:popuphistory()">';
+print '     <a href="https://github.com/wepp-in-the-woods/fswepp-docker/commits/main/var/www/cgi-bin/fswepp/tahoe/wt.pl">';
 print
   "     $version</a> based on <b>WEPP $weppver</b>, CLIGEN $cligen_version<br>";
 &printdate;
@@ -2324,33 +2310,6 @@ close RUNLOG;
 
 # #####
 
-# ------------------------ subroutines ---------------------------
-
-sub printdate {
-
-    @months =
-      qw(January February March April May June July August September October November December);
-    @days    = qw(Sunday Monday Tuesday Wednesday Thursday Friday Saturday);
-    $ampm[0] = "am";
-    $ampm[1] = "pm";
-
-    #   $ampmi = 0;
-    #   ($sec,$min,$hour,$mday,$mon,$year,$wday,$yday,$isdst)=gmtime;
-    #   if ($hour == 12) {$ampmi = 1}
-    #   if ($hour > 12) {$ampmi = 1; $hour -= 12}
-    #   printf "%0.2d:%0.2d ", $hour, $min;
-    #   print $ampm[$ampmi],"  ",$days[$wday]," ",$months[$mon];
-    #   print " ",$mday,", ",$year+1900, " GMT/UTC/Zulu<br>\n";
-
-    $ampmi = 0;
-    ( $sec, $min, $hour, $mday, $mon, $year, $wday, $yday, $isdst ) = localtime;
-    if ( $hour == 12 ) { $ampmi = 1 }
-    if ( $hour > 12 )  { $ampmi = 1; $hour = $hour - 12 }
-    $thisyear = $year + 1900;
-    printf "%0.2d:%0.2d ", $hour, $min;
-    print $ampm[$ampmi], "  ", $days[$wday], " ", $months[$mon];
-    print " ", $mday, ", ", $thisyear, " Pacific Time\n";
-}
 
 # ###########################    CreateSoilFile    #########################
 
@@ -2895,65 +2854,12 @@ sub ExtractCligenFile {
 
 }
 
-sub getAnnualPrecip {
-
-    # in:  $climatePar
-    # out: $ap_mean_precip
-
-    open PAR, "<$climatePar";
-    $line = <PAR>;    # EPHRATA CAA AP WA                       452614 0
-    if ($debug) { print $line, "<br>\n" }
-    $line = <PAR>;    # LATT=  47.30 LONG=-119.53 YEARS= 44. TYPE= 3
-    $line = <PAR>;    # ELEVATION = 1260. TP5 = 0.86 TP6= 2.90
-    $line = <PAR>
-      ; # MEAN P   0.10  0.10  0.11  0.10  0.11  0.14  0.14  0.09  0.10  0.10  0.12  0.12
-    @ap_mean_p_if   = split ' ', $line;
-    $ap_mean_p_base = 2;
-    $line           = <PAR>
-      ; # S DEV P  0.12  0.12  0.11  0.13  0.13  0.18  0.22  0.13  0.13  0.11  0.14  0.13
-    $line = <PAR>
-      ; # SQEW  P  1.88  2.30  2.21  2.15  2.29  2.35  3.60  3.22  2.05  2.49  2.22  1.87
-    $line = <PAR>
-      ; # P(W/W)   0.47  0.50  0.39  0.32  0.33  0.30  0.27  0.28  0.40  0.41  0.42  0.48
-    @ap_pww      = split ' ', $line;
-    $ap_pww_base = 1;
-    $line        = <PAR>
-      ; # P(W/D)   0.20  0.16  0.15  0.13  0.13  0.11  0.05  0.06  0.08  0.12  0.23  0.23
-    @ap_pwd      = split ' ', $line;
-    $ap_pwd_base = 1;
-    close PAR;
-
-    @ap_month_days = ( 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 );
-
-    $ap_units = 'm';
-
-    #   $pcpunit='in';
-    for $ap_i ( 1 .. 12 ) {
-        $ap_pw[$ap_i] =
-          $ap_pwd[$ap_i] / ( 1 + $ap_pwd[$ap_i] - $ap_pww[$ap_i] );
-    }
-    $ap_annual_precip   = 0;
-    $ap_annual_wet_days = 0;
-    for $ap_i ( 0 .. 11 ) {
-        $ap_num_wet = $ap_pw[ $ap_i + $ap_pww_base ] * $ap_month_days[$ap_i];
-        $ap_mean_p  = $ap_num_wet * $ap_mean_p_if[ $ap_i + $ap_mean_p_base ];
-        if ( $ap_units eq 'm' ) {
-            $ap_mean_p *= 25.4;    # inches to mm
-        }
-        $ap_annual_precip += $ap_mean_p;
-    }
-}
 
 sub CreateManagementFileT {
 
 # new TAHOE management files
 # Add lines from Disturbed WEPP CreateManagementFileT for variable pcover  2012.11.02 DEH
 
-#     $climatePar = $CL . '.par';
-#     &getAnnualPrecipT ($climatePar);                  # open .par file and calculate annual precipitation
-#     if ($debug) {print "Annual Precip: $ap_annual_precip mm<br>\n"}
-
-    #  $treat1 = "skid";   $treat2 = "tree5";
 
     open MANFILE, ">$manFile";
 
@@ -2986,21 +2892,8 @@ $years2sim\t# (total) years in simulation
     $pcover = $ofe1_pcover
       ; # decided not to limit input cover to 100%; use whatever is entered (for now)
 
-#   $precip_cap = 450;           # max precip in mm to put into biomass equation (curve flattens out)
-#   ($ap_annual_precip < $precip_cap) ? $capped_precip = $ap_annual_precip : $capped_precip = $precip_cap;
-#   $beinp = sprintf "%.1f", 8.17 * exp(0.031 * $pcover - 0.0023 * $capped_precip);
 
     while (<PS1>) {
-
-#    if (/beinp/) {                              # read file search for token to replace with value
-#       $index_beinp = index($_,'beinp');                # where does token start?
-#       $wps_left = substr($_,0,$index_beinp);           # grab stuff to left of token
-#       $wps_right = substr($_,$index_beinp+5);          # grab stuff to right of token end
-#       $_ = $wps_left . $beinp . $wps_right;            # stuff value inbetween the two ends
-#       if ($debug) {print "<b>wps1:</b><br>
-#                           pcover: $pcover<br>
-#                           beinp: $beinp<br><pre> $_<br>\n"}
-#    }
         print MANFILE $_;    # print line to management file
     }
     close PS1;
@@ -3012,22 +2905,9 @@ $years2sim\t# (total) years in simulation
     #   ($ofe2_pcover > 100)? $pcover = 100 : $pcover = $ofe2_pcover;
     $pcover = $ofe2_pcover;
 
-#   ($ap_annual_precip < $precip_cap) ? $capped_precip = $ap_annual_precip : $capped_precip = $precip_cap;
-#   $beinp = sprintf "%.1f", 8.17 * exp(0.031 * $pcover - 0.0023 * $capped_precip);;
-
     print MANFILE "\n";
 
     while (<PS2>) {
-
-        #    if (/beinp/) {
-        #       $index_beinp = index($_,'beinp');
-        #       $wps_left = substr($_,0,$index_beinp);
-        #       $wps_right = substr($_,$index_beinp+5);
-        #       $_ = $wps_left . $beinp . $wps_right;
-        #       if ($debug) {print "</pre><b>wps2:</b><br>
-        #                           pcover: $pcover<br>
-        #                           beinp: $beinp<br><pre> $_<br>\n"}
-        #    }
         print MANFILE $_;
     }
     close PS2;
@@ -3377,12 +3257,8 @@ sub WaterBalanceSum() {    ###################### Water Balance
 
         $first = 0;
 
-#    $latqcc/=4;        # four OFEs -- multiply by (bottom OFE length / full length)
-# delay gratification -- we don't know OFE or hillslope lengths
-#   $total = $RM + $Q + $Ep + $Es + $Dp + $latqcc;
         $total = $Q + $Ep + $Es + $Dp + $latqcc;
 
-        #   print "$OFE\t$P\t$RM\t$Q\t$Ep\t$Es\t$Dp\t$latqcc\t$total\n";
         $sumRM     += $RM;
         $sumQ      += $Q;
         $sumP      += $P;
@@ -3396,136 +3272,9 @@ sub WaterBalanceSum() {    ###################### Water Balance
 
     close WTRFILE;
 
-    #print "\n Totals\n";
-    #print "\tP\tRM\tQ\tEp\tEs\tDp\tLatqcc\tTotal\n";
-##print "\t$sumP\t$sumRM\t$sumQ\t$sumEp\t$sumEs\t$sumDp\t$sumLatqcc\t$sumTotal\n";
-#printf "\t%d\t%d\t%d\t%d\t%d\t%d\t%d\t%d\n", $sumP,$sumRM,$sumQ,$sumEp,$sumEs,$sumDp,$sumLatqcc,$sumTotal;
-
-    # $sumP/=$years2sim;             # $years2sim year run --> average year
-    # $sumRM/=$years2sim;
-    # $sumQ/=$years2sim;
-    # $sumEp/=$years2sim;
-    # $sumEs/=$years2sim;
-    # $sumDp/=$years2sim;
-    # $sumLatqcc/=$years2sim;
-    # $sumTotal/=$years2sim;
-
-# print "\t$sumP\t$sumRM\t$sumQ\t$sumEp\t$sumEs\t$sumDp\t$sumLatqcc\t$sumTotal\n";
-# $results = sprintf "\t%d\t%d\t%d\t%d\t%d\t%d\t%d\t%d\n", $sumP,$sumRM,$sumQ,$sumEp,$sumEs,$sumDp,$sumLatqcc,$sumTotal;
-# @results = split ' ',$results;
     @results = (
         $sumP, $sumRM, $sumQ, $sumEp, $sumEs, $sumDp, $sumLatqcc, $sumTotal,
         $firstTotalSoilWater, $lastTotalSoilWater, $OFEsoff
     );
     return @results;
 }
-
-#####################################
-sub make_history_popup {
-
-    my $version;
-
-    # Reads parent (perl) file and looks for a history block:
-## BEGIN HISTORY ####################################################
-    # ERMiT Version History
-
-    $version = '2005.02.08';    # Make self-creating history popup page
-
-# $version = '2005.02.07';      # Fix parameter passing to tail_html; stuff after semicolon lost
-#!$version = '2005.02.07';      # Bang in line says do not use
-# $version = '2005.02.04';      # Clean up HTML formatting, add head_html and tail_html functions
-#                               # Continuation line not handled
-# $version = '2005.01.08';      # Initial beta release
-
-## END HISTORY ######################################################
-
-# and returns body (including Javascript document.writeln instructions) for a pop-up history window
-# called pophistory.
-
-    # First line after 'BEGIN HISTORY' is <title> text
-    # Splits version and comment on semi-colon
-    # Version must be version= then digits and periods
-    # Bang in line causes line to be ignored
-    # Disallowed: single and double quotes in comment part
-    # Not handled: continuation lines
-
-    # Usage:
-
-    #print "<html>
-    # <head>
-    #  <title>$title</title>
-    #   <script language=\"javascript\">
-    #    <!-- hide from old browsers...
-    #
-    #  function popuphistory() {
-    #    pophistory = window.open('','pophistory','')
-    #";
-    #    print make_history_popup();
-    #print "
-    #    pophistory.document.close()
-    #    pophistory.focus()
-    #  }
-    #";
-
-    # print $0,"\n";
-
-    my ( $line, $z, $vers, $comment );
-
-    open MYSELF, "<$0";
-    while (<MYSELF>) {
-
-        next if (/!/);
-
-        if (/## BEGIN HISTORY/) {
-            $line = <MYSELF>;
-            chomp $line;
-            $line = substr( $line, 2 );
-            $z    = "    pophistory.document.writeln('<html>')
-    pophistory.document.writeln(' <head>')
-    pophistory.document.writeln('  <title>$line</title>')
-    pophistory.document.writeln(' </head>')
-    pophistory.document.writeln(' <body bgcolor=white>')
-    pophistory.document.writeln('  <font face=\"trebuchet, tahoma, arial, helvetica, sans serif\">')
-    pophistory.document.writeln('  <center>')
-    pophistory.document.writeln('   <h4>$line</h4>')
-    pophistory.document.writeln('   <p>')
-    pophistory.document.writeln('   <table border=0 cellpadding=10>')
-    pophistory.document.writeln('    <tr>')
-    pophistory.document.writeln('     <th bgcolor=lightblue>Version</th>')
-    pophistory.document.writeln('     <th bgcolor=lightblue>Comments</th>')
-    pophistory.document.writeln('    </tr>')
-";
-        }    # if (/## BEGIN HISTORY/)
-
-        if (/version/) {
-            ( $vers, $comment ) = split( /;/, $_ );
-            $comment =~ s/#//;
-            chomp $comment;
-            $vers =~ s/'//g;
-            $vers =~ s/ //g;
-            $vers =~ s/"//g;
-            if ( $vers =~ /version=*([0-9.]+)/ )
-            {    # pull substring out of a line
-                $z .= "    pophistory.document.writeln('    <tr>')
-    pophistory.document.writeln('     <th valign=top bgcolor=lightblue>$1</th>')
-    pophistory.document.writeln('     <td>$comment</td>')
-    pophistory.document.writeln('    </tr>')
-";
-            }    # (/version *([0-9]+)/)
-        }    # if (/version/)
-
-        if (/## END HISTORY/) {
-            $z .= "    pophistory.document.writeln('   </table>')
-    pophistory.document.writeln('   </font>')
-    pophistory.document.writeln('  </center>')
-    pophistory.document.writeln(' </body>')
-    pophistory.document.writeln('</html>')
-";
-            last;
-        }    # if (/## END HISTORY/)
-    }    # while
-    close MYSELF;
-    return $z;
-}
-
-# ------------------------ end of subroutines ----------------------------

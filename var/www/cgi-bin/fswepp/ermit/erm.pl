@@ -3,8 +3,8 @@
 use warnings;
 use CGI;
 use CGI qw(escapeHTML);
-use lib '/var/www/cgi-bin/fswepp/dry';
-use CligenUtils qw(CreateCligenFile GetParSummary);
+use MoscowFSL::FSWEPP::CligenUtils qw(CreateCligenFile GetParSummary);
+use MoscowFSL::FSWEPP::FsWeppUtils qw(get_version);
 use String::Util qw(trim);
 
 #
@@ -33,9 +33,10 @@ $weppversion = "wepp2010"
 #   remove WGR switch
 #                               # Return sub bomb redirect ermitnew.pl to ermit.pl
 
-#            2020.03.03         # un-unlink gnuplot work files for debugging
-$version = '2015.05.03';    # Add log and wattle probablility table
+my $version = get_version(__FILE__);
 
+#  $version='2020.03.03';         # un-unlink gnuplot work files for debugging
+#  $version='2015.05.03';    # Add log and wattle probablility table
 #  $version='2015.04.06';	# force short report for limited number of run-off storms
 #  $version='2015.04.04';	# re-expand results output for few results with storms to work with ERMiT Batch
 #  $version='2014.04.07';	# deploy unburned option
@@ -157,31 +158,32 @@ elsif ( $thisyear == 2025 ) { $dayoffset = 2 }     # Jan 1 is Wednesday
 else                        { $dayoffset = 0 }
 
 $thisdayoff = $thisday + $dayoffset;
-$thisweek   = 1 + int $thisdayoff / 7;
+$thisweek   = 1 + int $thisday / 7;
 
 $rtc = 0;
 
 my $cgi = CGI->new;
 
 $pt               = 1 if ( $cgi->param('ptcheck') =~ 'on' );
-$me               = escapeHTML($cgi->param('me'));
-$units            = escapeHTML($cgi->param('units'));
-$debug            = escapeHTML($cgi->param('debug'));
-$CL               = escapeHTML($cgi->param('Climate'));
-$climate_name     = escapeHTML($cgi->param('climate_name'));
-$SoilType         = escapeHTML($cgi->param('SoilType'));
-$rfg              = escapeHTML($cgi->param('rfg'));
-$vegtype          = escapeHTML($cgi->param('vegetation'));
-$top_slope        = escapeHTML($cgi->param('top_slope'));
-$avg_slope        = escapeHTML($cgi->param('avg_slope'));
-$toe_slope        = escapeHTML($cgi->param('toe_slope'));
-$hillslope_length = escapeHTML($cgi->param('length'));
-$severityclass    = escapeHTML($cgi->param('severity'));
-$shrub            = escapeHTML($cgi->param('pct_shrub'));
-$grass            = escapeHTML($cgi->param('pct_grass'));
-$bare             = escapeHTML($cgi->param('pct_bare'));
-$achtung          = escapeHTML($cgi->param('achtung'));
-$action           = escapeHTML($cgi->param('actionc')) . escapeHTML($cgi->param('actionw'));
+$me               = escapeHTML( $cgi->param('me') );
+$units            = escapeHTML( $cgi->param('units') );
+$debug            = escapeHTML( $cgi->param('debug') );
+$CL               = escapeHTML( $cgi->param('Climate') );
+$climate_name     = escapeHTML( $cgi->param('climate_name') );
+$SoilType         = escapeHTML( $cgi->param('SoilType') );
+$rfg              = escapeHTML( $cgi->param('rfg') );
+$vegtype          = escapeHTML( $cgi->param('vegetation') );
+$top_slope        = escapeHTML( $cgi->param('top_slope') );
+$avg_slope        = escapeHTML( $cgi->param('avg_slope') );
+$toe_slope        = escapeHTML( $cgi->param('toe_slope') );
+$hillslope_length = escapeHTML( $cgi->param('length') );
+$severityclass    = escapeHTML( $cgi->param('severity') );
+$shrub            = escapeHTML( $cgi->param('pct_shrub') );
+$grass            = escapeHTML( $cgi->param('pct_grass') );
+$bare             = escapeHTML( $cgi->param('pct_bare') );
+$achtung          = escapeHTML( $cgi->param('achtung') );
+$action =
+  escapeHTML( $cgi->param('actionc') ) . escapeHTML( $cgi->param('actionw') );
 
 if ( $achtung . $action eq '' ) { &bomb; die }
 
@@ -294,8 +296,8 @@ $ev_by_evFile = $workingpath . '.event';
 ################## DESCRIBE SOIL ################
 
 if ( lc($achtung) =~ /describe soil/ ) {
-    $units    = escapeHTML($cgi->param('units'));
-    $SoilType = escapeHTML($cgi->param('SoilType'));
+    $units    = escapeHTML( $cgi->param('units') );
+    $SoilType = escapeHTML( $cgi->param('SoilType') );
 
     $comefrom = "/cgi-bin/fswepp/ermit/ermit.pl";
 
@@ -2063,20 +2065,6 @@ function sediments(x) {
 }
 ';
 
-print "
-  function popuphistory() {
-    height=500;
-    width=660;
-    pophistory = window.open('','pophistory','toolbar=no,location=no,status=no,directories=no,menubar=no,scrollbars=yes,resizable=yes,width='+width+',height='+height);
-";
-print make_history_popup();
-print "
-    pophistory.document.close()
-    pophistory.focus()
-  }
-";
-
-#  &CreateJavascriptsoilfileFunction;
 &CreateJavascriptwhatsedsFunction;
 
 cutout:
@@ -2463,7 +2451,8 @@ EOP2a
 print '
   <hr>
   <font size=-2>
-   ERMiT  Version <a href="javascript:popuphistory()">', $version, '</a>
+   ERMiT  Version <a href="https://github.com/wepp-in-the-woods/fswepp-docker/commits/main/var/www/cgi-bin/fswepp/ermit/erm.pl">',
+  $version, '</a>
    <br><br>
    <b>Citation:</b>
    <p align="left" class="Reference">
@@ -5609,629 +5598,6 @@ sub soil_parameters {
     }    # $vegtype
 }
 
-sub soil_parameters_2013 {
-
-# 2013.04.19 added 'unburned' condition
-# 2006.06.20 adjusted range values to match 'Working Range Soil Tables(Simanton_krs).xlstable' (4/25/2006)
-
-    # $vegtype ['forest' 'range' 'chaparral']
-    # $SoilType ['sand' 'silt' 'clay' 'loam']
-    # $shrub
-    # $grass
-    # $bare
-
-# @ki_u[0..4]		# unburned baseline interrill erodibility (ki) (kg s/m^4)			# 2013.04.19
-# @ki_l[0..4]          # low soil burn severity baseline interrill erodibility (ki) (kg s/m^4)
-# @ki_h[0..4]          # high soil burn severity baseline interrill erodibility (ki) (kg s/m^4)
-# @kr_u[0..4]          # unburned baseline rill erodibility (kr) (s/m)					# 2013.04.19
-# @kr_l[0..4]          # low soil burn severity baseline rill erodibility (kr) (s/m)
-# @kr_h[0..4]          # high soil burn severity baseline rill erodibility (kr) (s/m)
-# $tauc_u              # unburned baseline critical shear (shcrit) (N/m^2)				# 2013.04.19
-# $tauc_l              # low soil burn severity baseline critical shear (shcrit) (N/m^2)
-# $tauc_h              # high soil burn severity baseline critical shear (shcrit) (N/m^2)
-# @ksat_u[0..4]        # unburned effective hydraulic conductivity of surface soil (avke) (mm/h)	# 2013.04.19
-# @ksat_l[0..4]        # low severity effective hydraulic conductivity of surface soil (avke) (mm/h)
-# @ksat_h[0..4]        # high severity effective hydraulic conductivity of surface soil (avke) (mm/h)
-
-    if ( $vegtype eq 'forest' ) {
-        if ( $SoilType eq 'sand' ) {
-            $solthk = 400;  # depth of soil surface to bottom of soil layer (mm)
-            $sand   = 55;   # percentage of sand in the layer (%)
-            $clay   = 10;   # percentage of clay in the layer (%)
-            $orgmat =
-              5;    # percentage of organic matter (by volume) in the layer (%)
-            $cec = 15
-              ;  # cation exchange capacity in the layer (meq per 100 g of soil)
-            $tauc_u    = 2;           # 2013.05.03
-            $tauc_l    = 2;
-            $tauc_h    = 2;
-            @ki_u[0]   = 84182;
-            @kr_u[0]   = 0.0000015;
-            @ksat_u[0] = 32;          # 2013.04.19 DEH
-            @ki_u[1]   = 118706;
-            @kr_u[1]   = 0.0000018;
-            @ksat_u[1] = 28;          # 2013.04.19 DEH
-            @ki_u[2]   = 189119;
-            @kr_u[2]   = 0.0000020;
-            @ksat_u[2] = 24;          # 2013.04.19 DEH
-            @ki_u[3]   = 411928;
-            @kr_u[3]   = 0.0000021;
-            @ksat_u[3] = 19;          # 2013.04.19 DEH
-            @ki_u[4]   = 873292;
-            @kr_u[4]   = 0.0000023;
-            @ksat_u[4] = 15;          # 2013.04.19 DEH
-            @ki_l[0]   = 300000;
-            @kr_l[0]   = 0.0000030;
-            @ksat_l[0] = 48;          # 2005.10.12 DEH
-            @ki_l[1]   = 500000;
-            @kr_l[1]   = 0.00034;
-            @ksat_l[1] = 46;
-            @ki_l[2]   = 700000;
-            @kr_l[2]   = 0.00037;
-            @ksat_l[2] = 44;
-            @ki_l[3]   = 1000000;
-            @kr_l[3]   = 0.00040;
-            @ksat_l[3] = 24;
-            @ki_l[4]   = 1200000;
-            @kr_l[4]   = 0.00045;
-            @ksat_l[4] = 14;
-            @ki_h[0]   = 1000000;
-            @kr_h[0]   = 0.00040;
-            @ksat_h[0] = 22;
-            @ki_h[1]   = 1500000;
-            @kr_h[1]   = 0.00050;
-            @ksat_h[1] = 13;
-            @ki_h[2]   = 2000000;
-            @kr_h[2]   = 0.00060;
-            @ksat_h[2] = 7;
-            @ki_h[3]   = 2500000;
-            @kr_h[3]   = 0.00070;
-            @ksat_h[3] = 6;
-            @ki_h[4]   = 3000000;
-            @kr_h[4]   = 0.00100;
-            @ksat_h[4] = 5;
-        }
-        if ( $SoilType eq 'silt' ) {
-            $solthk    = 400;
-            $sand      = 25;
-            $clay      = 15;
-            $orgmat    = 5;
-            $cec       = 15;
-            $tauc_u    = 3.5;
-            $tauc_l    = 3.5;
-            $tauc_h    = 3.5;
-            @ki_u[0]   = 48826;
-            @kr_u[0]   = 0.0000011;
-            @ksat_u[0] = 17;          # 2013.04.19 DEH
-            @ki_u[1]   = 68850;
-            @kr_u[1]   = 0.0000013;
-            @ksat_u[1] = 9;           # 2013.04.19 DEH
-            @ki_u[2]   = 109689;
-            @kr_u[2]   = 0.0000015;
-            @ksat_u[2] = 8;           # 2013.04.19 DEH
-            @ki_u[3]   = 238918;
-            @kr_u[3]   = 0.0000015;
-            @ksat_u[3] = 7;           # 2013.04.19 DEH
-            @ki_u[4]   = 506510;
-            @kr_u[4]   = 0.0000017;
-            @ksat_u[4] = 3;           # 2013.04.19 DEH
-             #    @ki_l[0] =  300000; @kr_l[0] = 0.0000030; @ksat_l[0] = 48;        # 2005.10.12 DEH
-            @ki_l[0]   = 250000;
-            @kr_l[0]   = 0.0000020;
-            @ksat_l[0] = 33;          # 2005.10.12 DEH
-            @ki_l[1]   = 300000;
-            @kr_l[1]   = 0.00024;
-            @ksat_l[1] = 31;
-            @ki_l[2]   = 400000;
-            @kr_l[2]   = 0.00027;
-            @ksat_l[2] = 29;
-            @ki_l[3]   = 500000;
-            @kr_l[3]   = 0.00030;
-            @ksat_l[3] = 19;
-            @ki_l[4]   = 600000;
-            @kr_l[4]   = 0.00035;
-            @ksat_l[4] = 9;
-            @ki_h[0]   = 500000;
-            @kr_h[0]   = 0.00030;
-            @ksat_h[0] = 18;
-            @ki_h[1]   = 1000000;
-            @kr_h[1]   = 0.00040;
-            @ksat_h[1] = 10;
-            @ki_h[2]   = 1500000;
-            @kr_h[2]   = 0.00050;
-            @ksat_h[2] = 6;
-            @ki_h[3]   = 2000000;
-            @kr_h[3]   = 0.00060;
-            @ksat_h[3] = 4;
-            @ki_h[4]   = 2500000;
-            @kr_h[4]   = 0.00090;
-            @ksat_h[4] = 3;
-        }
-        if ( $SoilType eq 'clay' ) {
-            $solthk    = 400;
-            $sand      = 25;
-            $clay      = 30;
-            $orgmat    = 5;
-            $cec       = 25;
-            $tauc_u    = 4;
-            $tauc_l    = 4;
-            $tauc_h    = 4;
-            @ki_u[0]   = 56402;
-            @kr_u[0]   = 0.0000024;
-            @ksat_u[0] = 15;          # 2013.04.19 DEH
-            @ki_u[1]   = 79533;
-            @kr_u[1]   = 0.0000028;
-            @ksat_u[1] = 13;          # 2013.04.19 DEH
-            @ki_u[2]   = 126710;
-            @kr_u[2]   = 0.0000032;
-            @ksat_u[2] = 11;          # 2013.04.19 DEH
-            @ki_u[3]   = 275992;
-            @kr_u[3]   = 0.0000033;
-            @ksat_u[3] = 8;           # 2013.04.19 DEH
-            @ki_u[4]   = 585106;
-            @kr_u[4]   = 0.0000036;
-            @ksat_u[4] = 7;           # 2013.04.19 DEH
-
-#     @ki_l[0] =  300000; @kr_l[0] = 0.0000030; @ksat_l[0] = 48;        # 2005.10.12 DEH
-            @ki_l[0]   = 200000;
-            @kr_l[0]   = 0.0000010;
-            @ksat_l[0] = 25;          # 2005.10.12 DEH
-            @ki_l[1]   = 250000;
-            @kr_l[1]   = 0.00014;
-            @ksat_l[1] = 24;
-            @ki_l[2]   = 300000;
-            @kr_l[2]   = 0.00017;
-            @ksat_l[2] = 23;
-            @ki_l[3]   = 400000;
-            @kr_l[3]   = 0.00020;
-            @ksat_l[3] = 14;
-            @ki_l[4]   = 500000;
-            @kr_l[4]   = 0.00025;
-            @ksat_l[4] = 8;
-            @ki_h[0]   = 400000;
-            @kr_h[0]   = 0.00020;
-            @ksat_h[0] = 13;
-            @ki_h[1]   = 700000;
-            @kr_h[1]   = 0.00030;
-            @ksat_h[1] = 7;
-            @ki_h[2]   = 1000000;
-            @kr_h[2]   = 0.00040;
-            @ksat_h[2] = 4;
-            @ki_h[3]   = 1500000;
-            @kr_h[3]   = 0.00050;
-            @ksat_h[3] = 3;
-            @ki_h[4]   = 2000000;
-            @kr_h[4]   = 0.00080;
-            @ksat_h[4] = 2;
-        }
-        if ( $SoilType eq 'loam' ) {
-            $solthk    = 400;
-            $sand      = 45;
-            $clay      = 20;
-            $orgmat    = 5;
-            $cec       = 20;
-            $tauc_u    = 3;
-            $tauc_l    = 3;
-            $tauc_h    = 3;
-            @ki_u[0]   = 72396;
-            @kr_u[0]   = 0.0000018;
-            @ksat_u[0] = 30;          # 2013.04.19 DEH
-            @ki_u[1]   = 102087;
-            @kr_u[1]   = 0.0000022;
-            @ksat_u[1] = 25;          # 2013.04.19 DEH
-            @ki_u[2]   = 162643;
-            @kr_u[2]   = 0.0000025;
-            @ksat_u[2] = 20;          # 2013.04.19 DEH
-            @ki_u[3]   = 354258;
-            @kr_u[3]   = 0.0000026;
-            @ksat_u[3] = 12;          # 2013.04.19 DEH
-            @ki_u[4]   = 751032;
-            @kr_u[4]   = 0.0000028;
-            @ksat_u[4] = 5;           # 2013.04.19 DEH
-
-#     @ki_l[0] =  300000; @kr_l[0] = 0.0000030; @ksat_l[0] = 48;        # 2005.10.12 DEH
-            @ki_l[0]   = 320000;
-            @kr_l[0]   = 0.0000015;
-            @ksat_l[0] = 40;          # 2005.10.12 DEH
-            @ki_l[1]   = 370000;
-            @kr_l[1]   = 0.00019;
-            @ksat_l[1] = 38;
-            @ki_l[2]   = 470000;
-            @kr_l[2]   = 0.00022;
-            @ksat_l[2] = 36;
-            @ki_l[3]   = 600000;
-            @kr_l[3]   = 0.00025;
-            @ksat_l[3] = 28;
-            @ki_l[4]   = 800000;
-            @kr_l[4]   = 0.00030;
-            @ksat_l[4] = 18;
-            @ki_h[0]   = 600000;
-            @kr_h[0]   = 0.00025;
-            @ksat_h[0] = 27;
-            @ki_h[1]   = 800000;
-            @kr_h[1]   = 0.00035;
-            @ksat_h[1] = 15;
-            @ki_h[2]   = 1200000;
-            @kr_h[2]   = 0.00055;
-            @ksat_h[2] = 8;
-            @ki_h[3]   = 2200000;
-            @kr_h[3]   = 0.00065;
-            @ksat_h[3] = 5;
-            @ki_h[4]   = 3200000;
-            @kr_h[4]   = 0.00085;
-            @ksat_h[4] = 4;
-        }
-
-        # return
-        #   $tauc_u
-        #   $tauc_l
-        #   $tauc_h
-        #   @ki_u[0..4]
-        #   @ki_l[0..4]
-        #   @ki_h[0..4]
-        #   @kr_u[0..4]
-        #   @kr_l[0..4]
-        #   @kr_h[0..4]
-        #   @ksat_u[0..4]
-        #   @ksat_l[0..4]
-        #   @ksat_h[0..4]
-
-    }    # $vegtype ew 'forest'
-    else
-    { # $vegtype ne 'forest'...  # soil parameter values 25 April 2006 added 20 June 2006
-        if ( $SoilType eq 'sand' ) {
-            $solthk = 400;  # depth of soil surface to bottom of soil layer (mm)
-            $sand   = 55;   # percentage of sand in the layer (%)
-            $clay   = 10;   # percentage of clay in the layer (%)
-            $orgmat = 1
-              ; # percentage of organic matter (by volume) in the layer (%) # per CM 2006.06.05
-            $cec = 15
-              ;  # cation exchange capacity in the layer (meq per 100 g of soil)
-            $tauc_l        = 2.75;
-            $tauc_h        = 2.17;
-            @ki_shrub_l[0] = 7.548E+4;
-            @ki_grass_l[0] = 5.016E+4;
-            @ki_bare_l[0]  = 2.334E+5;
-            @kr_l[0]       = 8.991E-6;
-            @ki_shrub_l[1] = 1.191E+5;
-            @ki_grass_l[1] = 1.174E+5;
-            @ki_bare_l[1]  = 2.536E+5;
-            @kr_l[1]       = 1.393E-5;
-            @ki_shrub_l[2] = 2.480E+5;
-            @ki_grass_l[2] = 2.372E+5;
-            @ki_bare_l[2]  = 5.520E+5;
-            @kr_l[2]       = 8.042E-5;
-            @ki_shrub_l[3] = 4.093E+5;
-            @ki_grass_l[3] = 3.921E+5;
-            @ki_bare_l[3]  = 2.187E+6;
-            @kr_l[3]       = 3.316E-4;
-            @ki_shrub_l[4] = 9.313E+5;
-            @ki_grass_l[4] = 6.513E+5;
-            @ki_bare_l[4]  = 3.608E+6;
-            @kr_l[4]       = 7.236E-4;
-            @ki_shrub_h[0] = 2.334E+5;
-            @ki_grass_h[0] = 1.745E+5;
-            @ki_bare_h[0]  = 2.334E+5;
-            @kr_h[0]       = 9.492E-5;
-            @ki_shrub_h[1] = 2.536E+5;
-            @ki_grass_h[1] = 2.518E+5;
-            @ki_bare_h[1]  = 2.536E+5;
-            @kr_h[1]       = 1.346E-4;
-            @ki_shrub_h[2] = 4.630E+5;
-            @ki_grass_h[2] = 5.520E+5;
-            @ki_bare_h[2]  = 5.520E+5;
-            @kr_h[2]       = 5.444E-4;
-            @ki_shrub_h[3] = 6.868E+5;
-            @ki_grass_h[3] = 2.187E+6;
-            @ki_bare_h[3]  = 2.187E+6;
-            @kr_h[3]       = 1.684E-3;
-            @ki_shrub_h[4] = 9.313E+5;
-            @ki_grass_h[4] = 3.608E+6;
-            @ki_bare_h[4]  = 3.608E+6;
-            @kr_h[4]       = 3.137E-3;
-            @ks_shrub_l[0] = 29;
-            @ks_grass_l[0] = 17;
-            @ks_bare_l[0]  = 14;
-            @ks_shrub_l[1] = 17;
-            @ks_grass_l[1] = 17;
-            @ks_bare_l[1]  = 14;
-            @ks_shrub_l[2] = 15;
-            @ks_grass_l[2] = 13;
-            @ks_bare_l[2]  = 11;
-            @ks_shrub_l[3] = 12;
-            @ks_grass_l[3] = 12;
-            @ks_bare_l[3]  = 10;
-            @ks_shrub_l[4] = 9;
-            @ks_grass_l[4] = 8;
-            @ks_bare_l[4]  = 7;
-            @ks_shrub_h[0] = 21;
-            @ks_grass_h[0] = 14;
-            @ks_bare_h[0]  = 14;
-            @ks_shrub_h[1] = 12;
-            @ks_grass_h[1] = 14;
-            @ks_bare_h[1]  = 14;
-            @ks_shrub_h[2] = 11;
-            @ks_grass_h[2] = 11;
-            @ks_bare_h[2]  = 11;
-            @ks_shrub_h[3] = 9;
-            @ks_grass_h[3] = 10;
-            @ks_bare_h[3]  = 10;
-            @ks_shrub_h[4] = 6;
-            @ks_grass_h[4] = 7;
-            @ks_bare_h[4]  = 7;
-        }
-        if ( $SoilType eq 'silt' ) {
-            $solthk        = 400;
-            $sand          = 25;
-            $clay          = 15;
-            $orgmat        = 1;
-            $cec           = 15;
-            $tauc_l        = 3.39;
-            $tauc_h        = 2.68;
-            @ki_shrub_l[0] = 1.596E+4;
-            @ki_grass_l[0] = 1.150E+4;
-            @ki_bare_l[0]  = 4.934E+4;
-            @kr_l[0]       = 3.276E-5;
-            @ki_shrub_l[1] = 2.933E+4;
-            @ki_grass_l[1] = 2.070E+4;
-            @ki_bare_l[1]  = 6.247E+4;
-            @kr_l[1]       = 5.989E-5;
-            @ki_shrub_l[2] = 8.151E+4;
-            @ki_grass_l[2] = 5.556E+4;
-            @ki_bare_l[2]  = 1.522E+5;
-            @kr_l[2]       = 1.804E-4;
-            @ki_shrub_l[3] = 1.428E+5;
-            @ki_grass_l[3] = 9.548E+4;
-            @ki_bare_l[3]  = 5.326E+5;
-            @kr_l[3]       = 4.363E-4;
-            @ki_shrub_l[4] = 2.312E+5;
-            @ki_grass_l[4] = 1.521E+5;
-            @ki_bare_l[4]  = 8.425E+5;
-            @kr_l[4]       = 7.787E-4;
-            @ki_shrub_h[0] = 4.934E+4;
-            @ki_grass_h[0] = 3.998E+4;
-            @ki_bare_h[0]  = 4.934E+4;
-            @kr_h[0]       = 2.661E-4;
-            @ki_shrub_h[1] = 6.247E+4;
-            @ki_grass_h[1] = 4.439E+4;
-            @ki_bare_h[1]  = 6.247E+4;
-            @kr_h[1]       = 4.304E-4;
-            @ki_shrub_h[2] = 1.522E+5;
-            @ki_grass_h[2] = 1.293E+5;
-            @ki_bare_h[2]  = 1.522E+5;
-            @kr_h[2]       = 1.037E-3;
-            @ki_shrub_h[3] = 2.312E+5;
-            @ki_grass_h[3] = 5.326E+5;
-            @ki_bare_h[3]  = 5.326E+5;
-            @kr_h[3]       = 2.096E-3;
-            @ki_shrub_h[4] = 2.312E+5;
-            @ki_grass_h[4] = 8.425E+5;
-            @ki_bare_h[4]  = 8.425E+5;
-            @kr_h[4]       = 3.326E-3;
-            @ks_shrub_l[0] = 22;
-            @ks_grass_l[0] = 26;
-            @ks_bare_l[0]  = 21;
-            @ks_shrub_l[1] = 18;
-            @ks_grass_l[1] = 20;
-            @ks_bare_l[1]  = 16;
-            @ks_shrub_l[2] = 13;
-            @ks_grass_l[2] = 15;
-            @ks_bare_l[2]  = 12;
-            @ks_shrub_l[3] = 11;
-            @ks_grass_l[3] = 13;
-            @ks_bare_l[3]  = 10;
-            @ks_shrub_l[4] = 8;
-            @ks_grass_l[4] = 10;
-            @ks_bare_l[4]  = 8;
-            @ks_shrub_h[0] = 16;
-            @ks_grass_h[0] = 21;
-            @ks_bare_h[0]  = 21;
-            @ks_shrub_h[1] = 12;
-            @ks_grass_h[1] = 16;
-            @ks_bare_h[1]  = 16;
-            @ks_shrub_h[2] = 9;
-            @ks_grass_h[2] = 12;
-            @ks_bare_h[2]  = 12;
-            @ks_shrub_h[3] = 8;
-            @ks_grass_h[3] = 10;
-            @ks_bare_h[3]  = 10;
-            @ks_shrub_h[4] = 6;
-            @ks_grass_h[4] = 8;
-            @ks_bare_h[4]  = 8;
-        }
-        if ( $SoilType eq 'clay' ) {
-            $solthk        = 400;
-            $sand          = 25;
-            $clay          = 30;
-            $orgmat        = 1;
-            $cec           = 25;
-            $tauc_l        = 1.9;
-            $tauc_h        = 1.5;
-            @ki_shrub_l[0] = 1.267E+4;
-            @ki_grass_l[0] = 1.908E+3;
-            @ki_bare_l[0]  = 3.916E+4;
-            @kr_l[0]       = 3.750E-5;
-            @ki_shrub_l[1] = 2.295E+4;
-            @ki_grass_l[1] = 3.069E+3;
-            @ki_bare_l[1]  = 4.887E+4;
-            @kr_l[1]       = 7.500E-5;
-            @ki_shrub_l[2] = 6.223E+4;
-            @ki_grass_l[2] = 6.814E+3;
-            @ki_bare_l[2]  = 1.162E+5;
-            @kr_l[2]       = 1.500E-4;
-            @ki_shrub_l[3] = 1.075E+5;
-            @ki_grass_l[3] = 1.055E+4;
-            @ki_bare_l[3]  = 1.721E+5;
-            @kr_l[3]       = 3.000E-4;
-            @ki_shrub_l[4] = 1.721E+5;
-            @ki_grass_l[4] = 1.537E+4;
-            @ki_bare_l[4]  = 1.721E+5;
-            @kr_l[4]       = 6.000E-4;
-            @ki_shrub_h[0] = 3.916E+4;
-            @ki_grass_h[0] = 6.636E+3;
-            @ki_bare_h[0]  = 3.916E+4;
-            @kr_h[0]       = 2.963E-4;
-            @ki_shrub_h[1] = 4.887E+4;
-            @ki_grass_h[1] = 6.636E+3;
-            @ki_bare_h[1]  = 4.887E+4;
-            @kr_h[1]       = 5.149E-4;
-            @ki_shrub_h[2] = 1.162E+5;
-            @ki_grass_h[2] = 1.586E+4;
-            @ki_bare_h[2]  = 1.162E+5;
-            @kr_h[2]       = 8.948E-4;
-            @ki_shrub_h[3] = 1.721E+5;
-            @ki_grass_h[3] = 5.886E+4;
-            @ki_bare_h[3]  = 1.721E+5;
-            @kr_h[3]       = 1.555E-3;
-            @ki_shrub_h[4] = 1.712E+5;
-            @ki_grass_h[4] = 8.516E+4;
-            @ki_bare_h[4]  = 1.721E+5;
-            @kr_h[4]       = 2.702E-3;
-            @ks_shrub_l[0] = 15;
-            @ks_grass_l[0] = 13;
-            @ks_bare_l[0]  = 10;
-            @ks_shrub_l[1] = 13;
-            @ks_grass_l[1] = 11;
-            @ks_bare_l[1]  = 9;
-            @ks_shrub_l[2] = 10;
-            @ks_grass_l[2] = 9;
-            @ks_bare_l[2]  = 7;
-            @ks_shrub_l[3] = 8;
-            @ks_grass_l[3] = 6;
-            @ks_bare_l[3]  = 5;
-            @ks_shrub_l[4] = 6;
-            @ks_grass_l[4] = 5;
-            @ks_bare_l[4]  = 4;
-            @ks_shrub_h[0] = 11;
-            @ks_grass_h[0] = 10;
-            @ks_bare_h[0]  = 10;
-            @ks_shrub_h[1] = 9;
-            @ks_grass_h[1] = 9;
-            @ks_bare_h[1]  = 9;
-            @ks_shrub_h[2] = 7;
-            @ks_grass_h[2] = 7;
-            @ks_bare_h[2]  = 7;
-            @ks_shrub_h[3] = 5;
-            @ks_grass_h[3] = 5;
-            @ks_bare_h[3]  = 5;
-            @ks_shrub_h[4] = 5;
-            @ks_grass_h[4] = 4;
-            @ks_bare_h[4]  = 4;
-        }
-        if ( $SoilType eq 'loam' ) {
-            $solthk        = 400;
-            $sand          = 45;
-            $clay          = 20;
-            $orgmat        = 1;
-            $cec           = 20;
-            $tauc_l        = 0.8;
-            $tauc_h        = 0.63;
-            @ki_shrub_l[0] = 3.428E+3;
-            @ki_grass_l[0] = 2.601E+3;
-            @ki_bare_l[0]  = 1.060E+4;
-            @kr_l[0]       = 5.102E-5;
-            @ki_shrub_l[1] = 6.220E+3;
-            @ki_grass_l[1] = 4.626E+3;
-            @ki_bare_l[1]  = 1.325E+4;
-            @kr_l[1]       = 1.157E-4;
-            @ki_shrub_l[2] = 3.700E+4;
-            @ki_grass_l[2] = 2.590E+4;
-            @ki_bare_l[2]  = 6.909E+4;
-            @kr_l[2]       = 1.991E-4;
-            @ki_shrub_l[3] = 7.866E+4;
-            @ki_grass_l[3] = 5.368E+4;
-            @ki_bare_l[3]  = 2.994E+5;
-            @kr_l[3]       = 3.037E-4;
-            @ki_shrub_l[4] = 9.286E+4;
-            @ki_grass_l[4] = 6.302E+4;
-            @ki_bare_l[4]  = 3.491E+5;
-            @kr_l[4]       = 4.649E-4;
-            @ki_shrub_h[0] = 1.060E+4;
-            @ki_grass_h[0] = 9.047E+3;
-            @ki_bare_h[0]  = 1.060E+4;
-            @kr_h[0]       = 3.788E-4;
-            @ki_shrub_h[1] = 1.325E+4;
-            @ki_grass_h[1] = 9.922E+3;
-            @ki_bare_h[1]  = 1.325E+4;
-            @kr_h[1]       = 7.273E-4;
-            @ki_shrub_h[2] = 6.909E+4;
-            @ki_grass_h[2] = 6.028E+4;
-            @ki_bare_h[2]  = 6.909E+4;
-            @kr_h[2]       = 1.122E-3;
-            @ki_shrub_h[3] = 9.286E+4;
-            @ki_grass_h[3] = 2.994E+5;
-            @ki_bare_h[3]  = 2.994E+5;
-            @kr_h[3]       = 1.570E-3;
-            @ki_shrub_h[4] = 9.286E+4;
-            @ki_grass_h[4] = 3.491E+5;
-            @ki_bare_h[4]  = 3.491E+5;
-            @kr_h[4]       = 2.205E-3;
-            @ks_shrub_l[0] = 22;
-            @ks_grass_l[0] = 15;
-            @ks_bare_l[0]  = 12;
-            @ks_shrub_l[1] = 18;
-            @ks_grass_l[1] = 13;
-            @ks_bare_l[1]  = 10;
-            @ks_shrub_l[2] = 13;
-            @ks_grass_l[2] = 6;
-            @ks_bare_l[2]  = 5;
-            @ks_shrub_l[3] = 11;
-            @ks_grass_l[3] = 6;
-            @ks_bare_l[3]  = 5;
-            @ks_shrub_l[4] = 8;
-            @ks_grass_l[4] = 5;
-            @ks_bare_l[4]  = 4;
-            @ks_shrub_h[0] = 16;
-            @ks_grass_h[0] = 12;
-            @ks_bare_h[0]  = 12;
-            @ks_shrub_h[1] = 12;
-            @ks_grass_h[1] = 10;
-            @ks_bare_h[1]  = 10;
-            @ks_shrub_h[2] = 9;
-            @ks_grass_h[2] = 5;
-            @ks_bare_h[2]  = 5;
-            @ks_shrub_h[3] = 8;
-            @ks_grass_h[3] = 5;
-            @ks_bare_h[3]  = 5;
-            @ks_shrub_h[4] = 6;
-            @ks_grass_h[4] = 4;
-            @ks_bare_h[4]  = 4;
-        }    # #SoilType
-             # return
-             #   $tauc_l
-             #   $tauc_h
-             #   @ki_l[0..4]
-             #   @ki_h[0..4]
-             #   @kr_l[0..4]
-             #   @kr_h[0..4]
-             #   @ksat_l[0..4]
-             #   @ksat_h[0..4]
-
-        $pshrub = $shrub / 100;
-        $pgrass = $grass / 100;
-        $pbare  = $bare / 100;
-
-        for ( $i = 0 ; $i < 5 ; $i++ ) {
-            @ki_l[$i] =
-              $pshrub * @ki_shrub_l[$i] +
-              $pgrass * @ki_grass_l[$i] +
-              $pbare * @ki_bare_l[$i];
-            @ki_h[$i] =
-              $pshrub * @ki_shrub_h[$i] +
-              $pgrass * @ki_grass_h[$i] +
-              $pbare * @ki_bare_h[$i];
-            @ksat_l[$i] =
-              $pshrub * @ks_shrub_l[$i] +
-              $pgrass * @ks_grass_l[$i] +
-              $pbare * @ks_bare_l[$i];
-            @ksat_h[$i] =
-              $pshrub * @ks_shrub_h[$i] +
-              $pgrass * @ks_grass_h[$i] +
-              $pbare * @ks_bare_h[$i];
-        }
-    }    # $vegtype
-}
-
 sub createGnuplotUnburnedJCLfile
 {    # #######################  createGnuplotJCLfile
 
@@ -6718,113 +6084,6 @@ sub peak_intensity {
     #    duration      60 m
     #    intensity     70.3
 
-}
-
-sub make_history_popup {
-
-    my $version;
-
-    # Reads parent (perl) file and looks for a history block:
-## BEGIN HISTORY ####################################################
-    # WHRM Wildlife Habitat Response Model Version History
-
-    $version = '2005.02.08';    # Make self-creating history popup page
-
-# $version = '2005.02.07';      # Fix parameter passing to tail_html; stuff after semicolon lost
-#!$version = '2005.02.07';      # Bang in line says do not use
-# $version = '2005.02.04';      # Clean up HTML formatting, add head_html and tail_html functions
-#                               # Continuation line not handled
-# $version = '2005.01.08';      # Initial beta release
-
-## END HISTORY ######################################################
-
-# and returns body (including Javascript document.writeln instructions) for a pop-up history window
-# called pophistory.
-
-    # First line after 'BEGIN HISTORY' is <title> text
-    # Splits version and comment on semi-colon
-    # Version must be version= then digits and periods
-    # Bang in line causes line to be ignored
-    # Disallowed: single and double quotes in comment part
-    # Not handled: continuation lines
-
-    # Usage:
-
-    #print "<html>
-    # <head>
-    #  <title>$title</title>
-    #   <script language=\"javascript\">
-    #    <!-- hide from old browsers...
-    #
-    #  function popuphistory() {
-    #    pophistory = window.open('','pophistory','')
-    #";
-    #    print make_history_popup();
-    #print "
-    #    pophistory.document.close()
-    #    pophistory.focus()
-    #  }
-    #";
-
-    # print $0,"\n";
-
-    my ( $line, $z, $vers, $comment );
-
-    open MYSELF, "<$0";
-    while (<MYSELF>) {
-
-        next if (/!/);
-
-        if (/## BEGIN HISTORY/) {
-            $line = <MYSELF>;
-            chomp $line;
-            $line = substr( $line, 2 );
-            $z    = "    pophistory.document.writeln('<html>')
-    pophistory.document.writeln(' <head>')
-    pophistory.document.writeln('  <title>$line</title>')
-    pophistory.document.writeln(' </head>')
-    pophistory.document.writeln(' <body bgcolor=white>')
-    pophistory.document.writeln('  <font face=\"trebuchet, tahoma, arial, helvetica, sans serif\">')
-    pophistory.document.writeln('  <center>')
-    pophistory.document.writeln('   <h4>$line</h4>')
-    pophistory.document.writeln('   <br><br>')
-    pophistory.document.writeln('   <table border=0 cellpadding=10>')
-    pophistory.document.writeln('    <tr>')
-    pophistory.document.writeln('     <th bgcolor=lightblue>Version</th>')
-    pophistory.document.writeln('     <th bgcolor=lightblue>Comments</th>')
-    pophistory.document.writeln('    </tr>')
-";
-        }    # if (/## BEGIN HISTORY/)
-
-        if (/version/) {
-            ( $vers, $comment ) = split( /;/, $_ );
-            $comment =~ s/#//;
-            chomp $comment;
-            $vers =~ s/'//g;
-            $vers =~ s/ //g;
-            $vers =~ s/"//g;
-            if ( $vers =~ /version=*([0-9.]+)/ )
-            {    # pull substring out of a line
-                $z .= "    pophistory.document.writeln('    <tr>')
-    pophistory.document.writeln('     <th valign=top bgcolor=lightblue>$1</th>')
-    pophistory.document.writeln('     <td>$comment</td>')
-    pophistory.document.writeln('    </tr>')
-";
-            }    # (/version *([0-9]+)/)
-        }    # if (/version/)
-
-        if (/## END HISTORY/) {
-            $z .= "    pophistory.document.writeln('   </table>')
-    pophistory.document.writeln('   </font>')
-    pophistory.document.writeln('  </center>')
-    pophistory.document.writeln(' </body>')
-    pophistory.document.writeln('</html>')
-";
-            last;
-        }    # if (/## END HISTORY/)
-    }    # while
-    close MYSELF;
-    return $z;
 }
 
 # ------------------------ end of subroutines ----------------------------

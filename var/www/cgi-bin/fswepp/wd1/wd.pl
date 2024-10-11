@@ -3,9 +3,8 @@
 use warnings;
 use CGI;
 use CGI qw(escapeHTML);
-use lib '/var/www/cgi-bin/fswepp/dry';
-use CligenUtils qw(CreateCligenFile GetParSummary);
-use FsWeppUtils qw(CreateSlopeFile);
+use MoscowFSL::FSWEPP::CligenUtils qw(CreateCligenFile GetParSummary GetAnnualPrecip);
+use MoscowFSL::FSWEPP::FsWeppUtils qw(CreateSlopeFile printdate);
 
 use String::Util qw(trim);
 
@@ -1436,43 +1435,13 @@ close RUNLOG;
 
 ################################# end 2009.11.02 DEH
 
-# ------------------------ subroutines ---------------------------
 
-#---------------------------
-
-sub printdate {
-
-    @months =
-      qw(January February March April May June July August September October November December);
-    @days    = qw(Sunday Monday Tuesday Wednesday Thursday Friday Saturday);
-    $ampm[0] = "am";
-    $ampm[1] = "pm";
-
-    #   $ampmi = 0;
-    #   ($sec,$min,$hour,$mday,$mon,$year,$wday,$yday,$isdst)=gmtime;
-    #   if ($hour == 12) {$ampmi = 1}
-    #   if ($hour > 12) {$ampmi = 1; $hour -= 12}
-    #   printf "%0.2d:%0.2d ", $hour, $min;
-    #   print $ampm[$ampmi],"  ",$days[$wday]," ",$months[$mon];
-    #   print " ",$mday,", ",$year+1900, " GMT/UTC/Zulu<br>\n";
-
-    $ampmi = 0;
-    ( $sec, $min, $hour, $mday, $mon, $year, $wday, $yday, $isdst ) = localtime;
-    if ( $hour == 12 ) { $ampmi = 1 }
-    if ( $hour > 12 )  { $ampmi = 1; $hour = $hour - 12 }
-    $thisyear = $year + 1900;
-    printf "%0.2d:%0.2d ", $hour, $min;
-    print $ampm[$ampmi], "  ", $days[$wday], " ", $months[$mon];
-    print " ", $mday, ", ", $thisyear, " Pacific Time\n";
-}
 
 sub CreateManagementFile {
 
     $climatePar = $CL . '.par';
-    &getAnnualPrecip;    # open .par file and calculate annual precipitation
+    my $ap_annual_precip = &GetAnnualPrecip($climatePar);
     if ($debug) { print "Annual Precip: $ap_annual_precip mm<br>\n" }
-
-    #  $treat1 = "skid";   $treat2 = "tree5";
 
     open MANFILE, ">$manFile";
 
@@ -2108,54 +2077,6 @@ sub parsead {    ############### parsead
     }
 }
 
-sub getAnnualPrecip {
-
-    # in:  $climatePar
-    # out: $ap_mean_precip
-
-    open PAR, "<$climatePar";
-    $line = <PAR>;    # EPHRATA CAA AP WA                       452614 0
-    if ($debug) { print $line, "<br>\n" }
-    $line = <PAR>;    # LATT=  47.30 LONG=-119.53 YEARS= 44. TYPE= 3
-    $line = <PAR>;    # ELEVATION = 1260. TP5 = 0.86 TP6= 2.90
-    $line = <PAR>
-      ; # MEAN P   0.10  0.10  0.11  0.10  0.11  0.14  0.14  0.09  0.10  0.10  0.12  0.12
-    @ap_mean_p_if   = split ' ', $line;
-    $ap_mean_p_base = 2;
-    $line           = <PAR>
-      ; # S DEV P  0.12  0.12  0.11  0.13  0.13  0.18  0.22  0.13  0.13  0.11  0.14  0.13
-    $line = <PAR>
-      ; # SQEW  P  1.88  2.30  2.21  2.15  2.29  2.35  3.60  3.22  2.05  2.49  2.22  1.87
-    $line = <PAR>
-      ; # P(W/W)   0.47  0.50  0.39  0.32  0.33  0.30  0.27  0.28  0.40  0.41  0.42  0.48
-    @ap_pww      = split ' ', $line;
-    $ap_pww_base = 1;
-    $line        = <PAR>
-      ; # P(W/D)   0.20  0.16  0.15  0.13  0.13  0.11  0.05  0.06  0.08  0.12  0.23  0.23
-    @ap_pwd      = split ' ', $line;
-    $ap_pwd_base = 1;
-    close PAR;
-
-    @ap_month_days = ( 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 );
-
-    $ap_units = 'm';
-
-    #   $pcpunit='in';
-    for $ap_i ( 1 .. 12 ) {
-        $ap_pw[$ap_i] =
-          $ap_pwd[$ap_i] / ( 1 + $ap_pwd[$ap_i] - $ap_pww[$ap_i] );
-    }
-    $ap_annual_precip   = 0;
-    $ap_annual_wet_days = 0;
-    for $ap_i ( 0 .. 11 ) {
-        $ap_num_wet = $ap_pw[ $ap_i + $ap_pww_base ] * $ap_month_days[$ap_i];
-        $ap_mean_p  = $ap_num_wet * $ap_mean_p_if[ $ap_i + $ap_mean_p_base ];
-        if ( $ap_units eq 'm' ) {
-            $ap_mean_p *= 25.4;    # inches to mm
-        }
-        $ap_annual_precip += $ap_mean_p;
-    }
-}
 
 # ------------------------ end of subroutines ----------------------------
 

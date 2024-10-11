@@ -3,9 +3,9 @@
 use warnings;
 use CGI;
 use CGI qw(escapeHTML header);
-use lib '/var/www/cgi-bin/fswepp/dry';
-use CligenUtils qw(CreateCligenFile GetParSummary);
-use FsWeppUtils qw(CreateSlopeFileWeppRoad);
+
+use MoscowFSL::FSWEPP::CligenUtils qw(CreateCligenFile GetParSummary);
+use MoscowFSL::FSWEPP::FsWeppUtils qw(CreateSlopeFileWeppRoad get_version printdate);
 
 use String::Util qw(trim);
 
@@ -92,8 +92,9 @@ $| = 1;    # flush output buffers
 ## BEGIN HISTORY ####################################################
 # WEPP:Road Version History
 
-$version = '2023.08.16';    # docker refactor
+$version = get_version(__FILE__);
 
+# $version = '2023.08.16';    # docker refactor
 #  $version = '2015.03.02';	# Remove Provisional proviso
 #  $version = '2012.12.31';	# complete move to year-based logging (2012 through 2020)
 #  $version = '2012.11.20';	# Revise hisory display
@@ -257,7 +258,6 @@ if ( $achtung =~ /Describe Soil/ ) {
     print '<HTML>
  <HEAD>
   <TITLE>WEPP:Road -- Soil Parameters</TITLE>
-  <link rel="stylesheet" type="text/css" href="/fswepp/notebook.css">
  </HEAD>
  <BODY>
   <font face="Arial, Geneva, Helvetica">
@@ -468,18 +468,8 @@ if ( $rcin >= 0 ) {
   <TITLE>WEPP:Road Results</TITLE>  
   <link rel=\"stylesheet\" type=\"text/css\" href=\"/fswepp/notebook.css\" />
    <script>
+";
 
-  function popuphistory() {
-    height=500;
-    width=660;
-    pophistory = window.open('','pophistory','toolbar=no,location=no,status=no,directories=no,menubar=no,scrollbars=yes,resizable=yes,width='+width+',height='+height);
-";
-    print make_history_popup();
-    print "
-    pophistory.document.close()
-    pophistory.focus()
-  }
-";
     print '
   function showslopefile() {
     var properties="menubar,scrollbars,resizable"
@@ -490,9 +480,8 @@ if ( $rcin >= 0 ) {
       filewindow.document.writeln("<head><title>WEPP slope file ', $unique,
       '<\/title><\/head>")
       filewindow.document.writeln("<body><font face=\'courier\'><pre>")
-//      filewindow.document.writeln("I am the walrus")
-//      filewindow.document.writeln("koo koo ka choo")
 ';
+
     open WEPPFILE, "<$zzslope";
 
     while (<WEPPFILE>) {
@@ -750,7 +739,7 @@ print '
      <td><font face="Arial, Geneva, Helvetica" size=-2>
      WEPP:Road results version 
 <!--a href="/fswepp/history/wrrver.html"-->
-<a href="javascript:popuphistory()">',
+<a href="https://github.com/wepp-in-the-woods/fswepp-docker/commits/main/var/www/cgi-bin/fswepp/wr/wr.pl">',
   $version, '</a> based on WEPP ', $weppver, '<br>
      by 
      <a HREF="https://forest.moscowfsl.wsu.edu/people/engr/dehall.html" target="o">Hall</A> and
@@ -854,31 +843,6 @@ close MYLOG;
 
 # ------------------------ subroutines ---------------------------
 
-sub printdate {
-
-    @months =
-      qw(January February March April May June July August September October November December);
-    @days    = qw(Sunday Monday Tuesday Wednesday Thursday Friday Saturday);
-    $ampm[0] = "am";
-    $ampm[1] = "pm";
-    $ampmi   = 0;
-    ( $sec, $min, $hour, $mday, $mon, $year, $wday, $yday, $isdst ) = gmtime;
-    if ( $hour == 12 ) { $ampmi = 1 }
-    if ( $hour > 12 )  { $ampmi = 1; $hour = $hour - 12 }
-    printf "%0.2d:%0.2d ", $hour, $min;
-    print $ampm[$ampmi], "  ", $days[$wday], " ", $months[$mon];
-    print " ", $mday, ", ", $year + 1900, " GMT<br>\n";
-
-    $ampmi = 0;
-    ( $sec, $min, $hour, $mday, $mon, $year, $wday, $yday, $isdst ) = localtime;
-    if ( $hour == 12 ) { $ampmi = 1 }
-    if ( $hour > 12 )  { $ampmi = 1; $hour = $hour - 12 }
-    printf "%0.2d:%0.2d ", $hour, $min;
-    print $ampm[$ampmi], "  ", $days[$wday], " ", $months[$mon];
-    print " ", $mday, ", ", $year + 1900, " Pacific Time";
-}
-
-#---------------------------
 
 sub CreateResponseFile {
 
@@ -1518,111 +1482,4 @@ sub printWeppSummary {
       <hr>
      </center>
 ';
-}
-
-sub make_history_popup {
-
-    my $version;
-
-    # Reads parent (perl) file and looks for a history block:
-## BEGIN HISTORY ####################################################
-    # Example Version History
-
-    $version = '2005.02.08';    # Make self-creating history popup page
-
-# $version = '2005.02.07';      # Fix parameter passing to tail_html; stuff after semicolon lost
-#!$version = '2005.02.07';      # Bang in line says do not use
-# $version = '2005.02.04';      # Clean up HTML formatting, add head_html and tail_html functions
-#                               # Continuation line not handled
-# $version = '2005.01.08';      # Initial beta release
-
-## END HISTORY ######################################################
-
-    # and returns body (including Javascript document.writeln instructions)
-    # for a pop-up history window called 'pophistory'.
-
-    # First line after 'BEGIN HISTORY' is <title> text
-    # Splits version and comment on semi-colon
-    # Version must be version= then digits and periods
-    # Bang in line causes line to be ignored
-    # Disallowed: single and double quotes in comment part
-    # Not handled: continuation lines
-
-    # Usage:
-
-    #print "<html>
-    # <head>
-    #  <title>$title</title>
-    #   <script language=\"javascript\">
-    #    <!-- hide from old browsers...
-    #
-    #  function popuphistory() {
-    #    pophistory = window.open('','pophistory','')
-    #";
-    #    print make_history_popup();
-    #print "
-    #    pophistory.document.close()
-    #    pophistory.focus()
-    #  }
-    #";
-
-    # print $0,"\n";
-
-    my ( $line, $z, $vers, $comment );
-
-    open MYSELF, "<$0";
-    while (<MYSELF>) {
-        next if (/!/);
-        if (/## BEGIN HISTORY/) {
-            $line = <MYSELF>;
-            chomp $line;
-            $line = substr( $line, 2 );
-            $z    = "    pophistory.document.writeln('<html>')
-    pophistory.document.writeln(' <head>')
-    pophistory.document.writeln('  <title>$line</title>')
-    pophistory.document.writeln(' </head>')
-    pophistory.document.writeln(' <body bgcolor=white>')
-    pophistory.document.writeln('  <font face=\"trebuchet, tahoma, arial, helvetica, sans serif\">')
-    pophistory.document.writeln('  <center>')
-    pophistory.document.writeln('   <h4>$line</h4>')
-    pophistory.document.writeln('   <p>')
-    pophistory.document.writeln('   <table border=0 cellpadding=10>')
-    pophistory.document.writeln('    <tr>')
-    pophistory.document.writeln('     <th bgcolor=lightblue>Version</th>')
-    pophistory.document.writeln('     <th bgcolor=lightblue>Comments</th>')
-    pophistory.document.writeln('    </tr>')
-";
-        }    # if (/## BEGIN HISTORY/)
-        if (/version/) {
-            ( $vers, $comment ) = split( /;/, $_, 2 );
-            $comment //= '';    # Initialize $comment if undefined
-            $comment =~ s/#//;
-            $comment =~ s(;)(<br>)g;
-            chomp $comment;
-            $vers =~ s/'//g;
-            $vers =~ s/ //g;
-            $vers =~ s/"//g;
-
-            if ( $vers =~ /version=*([0-9.]+)/ )
-            {                   # pull substring out of a line
-                $z .= "    pophistory.document.writeln('    <tr>')
-    pophistory.document.writeln('     <th valign=top bgcolor=lightblue>$1</th>')
-    pophistory.document.writeln('     <td>$comment</td>')
-    pophistory.document.writeln('    </tr>')
-";
-            }                   # (/version *([0-9]+)/)
-        }    # if (/version/)
-
-        if (/## END HISTORY/) {
-            $z .= "    pophistory.document.writeln('   </table>')
-    pophistory.document.writeln('   </font>')
-    pophistory.document.writeln('  </center>')
-    pophistory.document.writeln(' </body>')
-    pophistory.document.writeln('</html>')
-";
-            last;
-        }    # if (/## END HISTORY/)
-    }    # while
-    close MYSELF;
-    return $z;
 }

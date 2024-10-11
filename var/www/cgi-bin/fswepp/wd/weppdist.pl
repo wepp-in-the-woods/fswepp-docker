@@ -1,7 +1,11 @@
 #!/usr/bin/perl
 
+use warnings;
+
 use CGI;
 use CGI qw(escapeHTML);
+
+use MoscowFSL::FSWEPP::FsWeppUtils qw(CreateSlopeFile printdate get_version);
 
 #
 #  Disturbed WEPP input screen -- new format, no veg calibration needed
@@ -16,8 +20,10 @@ use CGI qw(escapeHTML);
 ## BEGIN HISTORY ###################################
 ## Disturbed WEPP 2.0 version history
 
-$version = '2014.04.14';    # Describe changes to soil database parameter values
+my $file = __FILE__;
+my $version = get_version($file);
 
+#  $version = '2014.04.14';    # Describe changes to soil database parameter values
 #  $version = '2013.07.01';	# Fix Tahoe Basin artifact limiting OFE1 veg options for "rock/pavement" (loam)
 #  $version = '2013.03.01';	# Sort personal climates (newest at top) and standard climates (by name)
 #  $version = '2011.11.22';	# Expand help text for cover parameter
@@ -53,7 +59,7 @@ $version = '2014.04.14';    # Describe changes to soil database parameter values
 
 $cgi = CGI->new;
 
-$units = escapeHTML($cgi->param('units'));
+$units = escapeHTML( $cgi->param('units') );
 if    ( $units eq 'm' )  { $areaunits = 'ha' }
 elsif ( $units eq 'ft' ) { $areaunits = 'ac' }
 else                     { $units     = 'ft'; $areaunits = 'ac' }
@@ -72,16 +78,16 @@ if ( $me ne "" ) {
 }
 if ( $me eq " " ) { $me = "" }
 
-    $working     = '../working/';                             # DEH 08/22/2000
-    $public      = $working . 'public/';                      # DEH 09/21/2000
-    $user_ID     = $ENV{'REMOTE_ADDR'};
-    $user_really = $ENV{'HTTP_X_FORWARDED_FOR'};              # DEH 11/14/2002
-    $user_ID     = $user_really if ( $user_really ne '' );    # DEH 11/14/2002
-    $user_ID =~ tr/./_/;
-    $user_ID = $user_ID . $me . '_';                          # DEH 03/05/2001
-    $logFile = '../working/' . $user_ID . '.log';
-    $cliDir  = '../climates/';
-    $custCli = '../working/' . $user_ID;                      # DEH 03/02/2001
+$working     = '../working/';                             # DEH 08/22/2000
+$public      = $working . 'public/';                      # DEH 09/21/2000
+$user_ID     = $ENV{'REMOTE_ADDR'};
+$user_really = $ENV{'HTTP_X_FORWARDED_FOR'};              # DEH 11/14/2002
+$user_ID     = $user_really if ( $user_really ne '' );    # DEH 11/14/2002
+$user_ID =~ tr/./_/;
+$user_ID = $user_ID . $me . '_';                          # DEH 03/05/2001
+$logFile = '../working/' . $user_ID . '.log';
+$cliDir  = '../climates/';
+$custCli = '../working/' . $user_ID;                      # DEH 03/02/2001
 
 ########################################
 
@@ -459,18 +465,6 @@ popupwindow = window.open(url,'popupclosest','toolbar=no,location=no,status=no,d
 }
 theEnd
 
-print "
-  function popuphistory() {
-    height=500;
-    width=660;
-    pophistory = window.open('','pophistory','toolbar=no,location=no,status=no,directories=no,menubar=no,scrollbars=yes,resizable=yes,width='+width+',height='+height);
-";
-print make_history_popup();
-print "
-    pophistory.document.close()
-    pophistory.focus()
-  }
-";
 
 print <<'theEnd';
 
@@ -956,7 +950,6 @@ print <<'theEnd';
 <HR>
 theEnd
 
-
 print '>                                                              
 
 <font size=-2>
@@ -976,13 +969,11 @@ Online at &lt;https://forest.moscowfsl.wsu.edu/fswepp&gt;.
 (<a href="/cgi-bin/fswepp/wd1/weppdist.pl">U.S. units</a>) available for continuity</b>
 <br><br>
   Interface v.
-  <a href="javascript:popuphistory()">', $version, '</a><br>
+  <a href="https://github.com/wepp-in-the-woods/fswepp-docker/commits/main/var/www/cgi-bin/fswepp/wd/weppdist.pl">', $version, '</a><br>
 ';
 $remote_host    = $ENV{'REMOTE_HOST'};
 $remote_address = $ENV{'REMOTE_ADDR'};
 
-# $wc  = `wc ../working/_2016/wd2.log`;
-# $wc  = `wc ../working/_2017/wd2.log`;
 $wc    = `wc ../working/' . currentLogDir() . '/wd2.log`;
 @words = split " ", $wc;
 $runs  = @words[0];
@@ -996,82 +987,3 @@ print "
  </body>
 </html>
 ";
-
-# --------------------- subroutines
-
-sub make_history_popup {
-
-    my $version;
-
-    # Reads parent (perl) file and looks for a history block:
-## BEGIN HISTORY ####################################################
-    # ERMiT Version History
-
-    $version = '2005.02.08';    # Make self-creating history popup page
-
-# $version = '2005.02.07';      # Fix parameter passing to tail_html; stuff after semicolon lost
-#!$version = '2005.02.07';      # Bang in line says do not use
-# $version = '2005.02.04';      # Clean up HTML formatting, add head_html and tail_html functions
-#                               # Continuation line not handled
-# $version = '2005.01.08';      # Initial beta release
-
-## END HISTORY ######################################################
-
-    my ( $line, $z, $vers, $comment );
-
-    open MYSELF, "<$0";
-    while (<MYSELF>) {
-
-        next if (/!/);
-
-        if (/## BEGIN HISTORY/) {
-            $line = <MYSELF>;
-            chomp $line;
-            $line = substr( $line, 2 );
-            $z    = "    pophistory.document.writeln('<html>')
-    pophistory.document.writeln(' <head>')
-    pophistory.document.writeln('  <title>$line</title>')
-    pophistory.document.writeln(' </head>')
-    pophistory.document.writeln(' <body bgcolor=white>')
-    pophistory.document.writeln('  <font face=\"trebuchet, tahoma, arial, helvetica, sans serif\">')
-    pophistory.document.writeln('  <center>')
-    pophistory.document.writeln('   <h4>$line</h4>')
-    pophistory.document.writeln('   <p>')
-    pophistory.document.writeln('   <table border=0 cellpadding=10>')
-    pophistory.document.writeln('    <tr>')
-    pophistory.document.writeln('     <th bgcolor=lightblue>Version</th>')
-    pophistory.document.writeln('     <th bgcolor=lightblue>Comments</th>')
-    pophistory.document.writeln('    </tr>')
-";
-        }    # if (/## BEGIN HISTORY/)
-
-        if (/version/) {
-            ( $vers, $comment ) = split( /;/, $_ );
-            $comment =~ s/#//;
-            chomp $comment;
-            $vers =~ s/'//g;
-            $vers =~ s/ //g;
-            $vers =~ s/"//g;
-            if ( $vers =~ /version=*([0-9.]+)/ )
-            {    # pull substring out of a line
-                $z .= "    pophistory.document.writeln('    <tr>')
-    pophistory.document.writeln('     <th valign=top bgcolor=lightblue>$1</th>')
-    pophistory.document.writeln('     <td>$comment</td>')
-    pophistory.document.writeln('    </tr>')
-";
-            }    # (/version *([0-9]+)/)
-        }    # if (/version/)
-
-        if (/## END HISTORY/) {
-            $z .= "    pophistory.document.writeln('   </table>')
-    pophistory.document.writeln('   </font>')
-    pophistory.document.writeln('  </center>')
-    pophistory.document.writeln(' </body>')
-    pophistory.document.writeln('</html>')
-";
-            last;
-        }    # if (/## END HISTORY/)
-    }    # while
-    close MYSELF;
-    return $z;
-}

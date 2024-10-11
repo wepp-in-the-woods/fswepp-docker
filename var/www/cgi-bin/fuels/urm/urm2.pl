@@ -6,6 +6,8 @@
 # 2005.09.13 EV -- ??
 # 2005.01.31 DEH re-introduced run logging
 
+use MoscowFSL::FSWEPP::FsWeppUtils qw(printdate);
+
 #use strict;
 use CGI ':standard';
 ##########################################
@@ -2241,27 +2243,3 @@ end_ultimo
        print URMLOG @ampm[$ampmi],"  ",@days[$wday]," ",@months[$mon]," ",$mday,", ",$year+1900, "\t";
        print URMLOG $species,"\n";
      close URMLOG;
-
-sub printdate {
-
-   @months=qw(January February March April May June July August September October November December);
-   @days=qw(Sunday Monday Tuesday Wednesday Thursday Friday Saturday);
-   $ampm[0] = "am";
-   $ampm[1] = "pm";
-
-   $ampmi = 0;
-   ($sec,$min,$hour,$mday,$mon,$year,$wday,$yday,$isdst)=localtime;
-   if ($hour == 12) {$ampmi = 1}
-   if ($hour > 12) {$ampmi = 1; $hour = $hour - 12}
-   $thisyear = $year+1900;
-   $result = sprintf "%0.2d:%0.2d ", $hour, $min;
-   $result .= $ampm[$ampmi] . "  " . $days[$wday] . " " . $months[$mon];
-   $result .= " $mday, $thisyear Pacific Time\n";
-   return $result;
-}
-
-
-#if($seedbankflag)
-#{
-#print "<p>$pnote";
-#}

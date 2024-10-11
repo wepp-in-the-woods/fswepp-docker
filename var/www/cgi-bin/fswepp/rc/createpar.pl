@@ -3,6 +3,8 @@
 use CGI;
 use CGI qw(escapeHTML);
 
+use MoscowFSL::FSWEPP::FsWeppUtils qw(printdate);
+
 # createpar.pl
 
 # 2015.04.30 DEH allow f..z for everyone for modified climates ($exceptions)
@@ -218,20 +220,3 @@ else {
 #---------------------------
 
 
-sub printdate {
-
-    @months =
-      qw(January February March April May June July August September October November December);
-    @days    = qw(Sunday Monday Tuesday Wednesday Thursday Friday Saturday);
-    $ampm[0] = "am";
-    $ampm[1] = "pm";
-
-    $ampmi = 0;
-    ( $sec, $min, $hour, $mday, $mon, $year, $wday, $yday, $isdst ) = gmtime;
-    if ( $hour == 12 ) { $ampmi = 1 }
-    if ( $hour > 12 )  { $ampmi = 1; $hour = $hour - 12 }
-
-    print NEWPAR $months[$mon];
-    print NEWPAR " ", $mday, ", ", $year + 1900;
-
-}

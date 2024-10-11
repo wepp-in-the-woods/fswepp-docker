@@ -427,30 +427,3 @@ print "
  </BODY>
 </HTML>\n";
 
-#-----------------------------------------
-
-
-sub printdate {
-
-    @months =
-      qw(January February March April May June July August September October November December);
-    @days    = qw(Sunday Monday Tuesday Wednesday Thursday Friday Saturday);
-    $ampm[0] = "am";
-    $ampm[1] = "pm";
-
-    $ampmi = 0;
-    ( $sec, $min, $hour, $mday, $mon, $year, $wday, $yday, $isdst ) = gmtime;
-    if ( $hour == 12 ) { $ampmi = 1 }
-    if ( $hour > 12 )  { $ampmi = 1; $hour = $hour - 12 }
-    printf "%0.2d:%0.2d ", $hour, $min;
-    print $ampm[$ampmi], "  ", $days[$wday], " ", $months[$mon];
-    print " ", $mday, ", ", $year + 1900, " GMT/UTC/Zulu<br>\n";
-
-    $ampmi = 0;
-    ( $sec, $min, $hour, $mday, $mon, $year, $wday, $yday, $isdst ) = localtime;
-    if ( $hour == 12 ) { $ampmi = 1 }
-    if ( $hour > 12 )  { $ampmi = 1; $hour = $hour - 12 }
-    printf "%0.2d:%0.2d ", $hour, $min;
-    print $ampm[$ampmi], "  ", $days[$wday], " ", $months[$mon];
-    print " ", $mday, ", ", $year + 1900, " Pacific Time";
-}

@@ -1,6 +1,9 @@
 #!/usr/bin/perl
 #use strict;
 use CGI ':standard';
+
+use MoscowFSL::FSWEPP::FsWeppUtils qw(printdate);
+
 ##########################################
 # code name: twhrm4.pl                    #
 ##########################################            
@@ -2454,23 +2457,6 @@ for($i=0; $i<=$size-1;$i++)
     if(($array[$i]==32)||($array[$i]==38)||($array[$i]==44)){$array[$i]=26}
 }
 return @array;
-}
-sub printdate {
-
-   @months=qw(January February March April May June July August September October November December);
-   @days=qw(Sunday Monday Tuesday Wednesday Thursday Friday Saturday);
-   $ampm[0] = "am";
-   $ampm[1] = "pm";
-
-   $ampmi = 0;
-   ($sec,$min,$hour,$mday,$mon,$year,$wday,$yday,$isdst)=localtime;
-   if ($hour == 12) {$ampmi = 1}
-   if ($hour > 12) {$ampmi = 1; $hour = $hour - 12}
-   $thisyear = $year+1900;
-   $result = sprintf "%0.2d:%0.2d ", $hour, $min;
-   $result .= $ampm[$ampmi] . "  " . $days[$wday] . " " . $months[$mon];
-   $result .= " $mday, $thisyear Pacific Time\n";
-   return $result;
 }
 
 ####    2004.12.13 DEH log the run

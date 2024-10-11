@@ -4,8 +4,7 @@ use strict;
 use warnings;
 use CGI;
 use CGI qw(escapeHTML);
-use lib '/var/www/cgi-bin/fswepp/dry';
-use FsWeppUtils qw(commify);
+use MoscowFSL::FSWEPP::FsWeppUtils qw(commify);
 
 my $cgi = CGI->new;
 

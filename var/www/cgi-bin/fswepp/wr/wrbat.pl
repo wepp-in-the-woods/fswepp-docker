@@ -3,8 +3,10 @@
 use warnings;
 use CGI;
 use CGI qw(escapeHTML header);
-use lib '/var/www/cgi-bin/fswepp/dry';
-use CligenUtils qw(CreateCligenFile GetParSummary);
+use MoscowFSL::FSWEPP::CligenUtils qw(CreateCligenFile GetParSummary);
+use MoscowFSL::FSWEPP::FsWeppUtils qw(printdate get_version);
+
+use POSIX qw(strftime);
 
 # wrbat.pl
 #
@@ -16,13 +18,15 @@ use CligenUtils qw(CreateCligenFile GetParSummary);
 # 31 January 2002
 # David Hall, USDA Forest Service, Rocky Mountain Research Station
 
-$version = '2015.03.02';
-$debug   = 0;
-$batch   = 1;
+my $version = get_version(__FILE__);
+my $debug = 0;
+my $batch = 1;
 
-$weppversion = "wepp2010";
+my $weppversion = "wepp2010";
 
-$count_limit = 1000;
+my $count_limit = 1000;
+
+my $now = strftime("%I:%M %p %A %B %d, %Y", localtime);
 
 #  $count_limit = 200;
 #-rwxrwxr-x 1 dhall 502 85296 2011-07-18 13:13 wrbat.pl
@@ -31,7 +35,6 @@ $count_limit = 1000;
 # To do:
 #
 #       Appears not to write to .dit files (2014, 2015) [allows tracking wrb road segment count]
-#       Auto-history popup
 #	better validate Climate '../climates/ca045983'
 #	doesn't recognize personality (a..z)
 #  X	less apparent precision in results
@@ -214,73 +217,6 @@ print "<HTML>
  <HEAD>
   <TITLE>WEPP:Road batch results</TITLE>
    <script language=\"javascript\">
-
-    function popuphistory() {
-     url = '';
-     height=500;
-     width=660;
-     popupwindow = window.open(url,'popupwindow','toolbar=no,location=no,status=no,directories=no,menubar=no,scrollbars=yes,resizable=yes,width='+width+',height='+height);
-     if (popupwindow != null) {
-      popupwindow.document.writeln('<html>')
-      popupwindow.document.writeln(' <head>')
-      popupwindow.document.writeln('  <title>WEPP:Road Batch version history</title>')
-      popupwindow.document.writeln(' </head>')
-      popupwindow.document.writeln(' <body bgcolor=white>')
-      popupwindow.document.writeln('  <font face=\"arial, helvetica, sans serif\">')
-      popupwindow.document.writeln('  <center>')
-      popupwindow.document.writeln('   <h4>WEPP:Road Batch version history</h4>')
-
-      popupwindow.document.writeln('   <p>')
-      popupwindow.document.writeln('   <table border=0 cellpadding=10>')
-      popupwindow.document.writeln('    <tr>')
-      popupwindow.document.writeln('     <th bgcolor=85d2d2>Version</th>')
-      popupwindow.document.writeln('     <th bgcolor=85d2d2>Comments</th>')
-      popupwindow.document.writeln('    </tr>')
-
-      popupwindow.document.writeln('    <tr>')
-      popupwindow.document.writeln('     <th valign=top bgcolor=85d2d2>2015.03.02</th>')
-      popupwindow.document.writeln('     <td>Correct reporting of sediment leaving buffer from previous revision; remove provisional warnings</td>')
-      popupwindow.document.writeln('    </tr>')
-
-      popupwindow.document.writeln('    <tr>')
-      popupwindow.document.writeln('     <th valign=top bgcolor=85d2d2>2015.02.10</th>')
-      popupwindow.document.writeln('     <td>Switch to WEPP 2010.100</td>')
-      popupwindow.document.writeln('    </tr>')
-
-      popupwindow.document.writeln('    <tr>')
-      popupwindow.document.writeln('     <th valign=top bgcolor=85d2d2>2011.06.30</th>')
-      popupwindow.document.writeln('     <td>log road segment count</td>')
-      popupwindow.document.writeln('    </tr>')
-
-      popupwindow.document.writeln('    <tr>')
-      popupwindow.document.writeln('     <th valign=top bgcolor=85d2d2>2004.06.30</th>')
-      popupwindow.document.writeln('     <td>')
-      popupwindow.document.writeln('     Modify Ki as well as Kr soil parameters for low/no traffic;<br>')
-      popupwindow.document.writeln('     Correctly report rock fragment to log file;<br>')
-      popupwindow.document.writeln('     Include number-of-years run to log<br>')
-      popupwindow.document.writeln('       (Note: this will cause bad load of old-format \"previous log\");<br>')
-      popupwindow.document.writeln('     Add undocumented \"Extended output\" checkbox<br>')
-      popupwindow.document.writeln('     Adjust validation of slope, length, and rock;<br>')
-      popupwindow.document.writeln('     Align right (good) and left (bad) for check-input table;<br>')
-      popupwindow.document.writeln('     Color code provisional status for no traffic<br>')
-      popupwindow.document.writeln('     </td>')
-      popupwindow.document.writeln('    </tr>')
-
-      popupwindow.document.writeln('    <tr>')
-      popupwindow.document.writeln('     <th valign=top bgcolor=85d2d2>2004.06.18</th>')
-      popupwindow.document.writeln('     <td>Initial release</td>')
-      popupwindow.document.writeln('    </tr>')
-
-      popupwindow.document.writeln('   </table>')
-      popupwindow.document.writeln('   <p>')
-      popupwindow.document.writeln('  </font>')
-      popupwindow.document.writeln('  </center>')
-      popupwindow.document.writeln(' </body>')
-      popupwindow.document.writeln('</html>')
-      popupwindow.document.close()
-      popupwindow.focus()
-     }
-    }
 
     function popupcopyhelp() {
      url = '';
@@ -700,7 +636,7 @@ die if ( $num_invalid_records > 0 );
 
 # =======================  Create new log ====================
 
-$project_title = &whatdate if ( $project_title eq '' );
+$project_title = $now if ( $project_title eq '' );
 open LOG, ">" . $logFile;
 print LOG "$project_title
 $climate_name
@@ -1386,8 +1322,9 @@ print '
      <td>
       <font face="Arial, Geneva, Helvetica, sans serif" size=2>
        WEPP:Road batch results version
-       <a href="javascript:popuphistory()">', $version, '</a>
-       based on WEPP ',                       $weppver, '<br> by
+       <a href="https://github.com/wepp-in-the-woods/fswepp-docker/commits/main/var/www/cgi-bin/fswepp/wr/wrbat.pl">',
+  $version, '</a>
+       based on WEPP ', $weppver, '<br> by
        <a href="https://forest.moscowfsl.wsu.edu/people/engr/dehall.html">David Hall</a>
        and 
        Darrell Anderson;
@@ -1398,8 +1335,7 @@ print '
        <br>
 ';
 
-#      &printdate;
-print &whatdate;
+print $now;
 print '
      </td>
      <td>
@@ -1428,14 +1364,12 @@ print '
 
 if ( lc($action) eq 'run wepp' ) {
 
-    $todaysdate = &whatdate;
     open WRBLOG, ">>../working/_$thisyear/wrb.log";    # 2013.01.01 DEH
     flock( WRBLOG, 2 );
     $host = $ENV{REMOTE_HOST};
     if ( $host eq "" ) { $host = $ENV{REMOTE_ADDR} }
 
- #      print WRBLOG "$host\t$todaysdate\t$years2sim * $count\t$climate_name\n";
-    print WRBLOG "$host\t$todaysdate\t$years2sim\t$count\t$climate_name\n";
+    print WRBLOG "$host\t$now\t$years2sim\t$count\t$climate_name\n";
     close WRBLOG;
 
     open CLIMLOG, ">../working/_$thisyear/lastclimate.txt";    # 2013.01.01 DEH
@@ -1467,31 +1401,6 @@ done:
 $x = 'done';
 
 # ------------------------ subroutines ---------------------------
-
-sub whatdate {
-
-    my @months =
-      qw(January February March April May June July August September October November December);
-    my @days  = qw(Sunday Monday Tuesday Wednesday Thursday Friday Saturday);
-    my @ampm  = ( 'am', 'pm' );
-    my $ampmi = 0;
-    my ( $sec, $min, $hour, $mday, $mon, $year, $wday, $yday, $isdst );
-    $ampmi = 0;
-    ( $sec, $min, $hour, $mday, $mon, $year, $wday, $yday, $isdst ) = localtime;
-    if ( $hour == 12 ) { $ampmi = 1 }
-    if ( $hour > 12 )  { $ampmi = 1; $hour = $hour - 12 }
-    my $Year = $year + 1900;
-    $temp = sprintf "%0.2d:%0.2d ", $hour, $min;
-    $temp .= @ampm[$ampmi] . "  " . @days[$wday] . " " . @months[$mon];
-
-    #     $temp .= " " . $mday . ", " . $Year . " (Pacific Time)";
-    $temp .= " " . $mday . ", " . $Year;
-    return $temp;
-
-    #    }
-}
-
-#---------------------------
 
 sub CreateResponseFile {
 

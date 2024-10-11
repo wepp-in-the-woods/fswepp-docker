@@ -4,8 +4,8 @@
 #use File::Basename;
 
 use warnings;
-use lib '/var/www/cgi-bin/fswepp/dry';
-use FsWeppUtils qw(ParseHttpRequest);
+use CGI;
+use MoscowFSL::FSWEPP::FsWeppUtils qw(CreateSlopeFile printdate get_version);
 
 #
 #  rav.pl -- Ravel workhorse
@@ -13,8 +13,10 @@ use FsWeppUtils qw(ParseHttpRequest);
 
 ## BEGIN HISTORY ##############################
 # RMRS Ravel Results history
-$version = '2010.03.15';    #
-$version = '2010.09.01';    # California DEMs
+
+my $version = get_version(__FILE__);
+#  $version = '2010.03.15';    #
+#  $version = '2010.09.01';    # California DEMs
 ## END HISTORY ##############################
 
 $debug = 0;
@@ -41,7 +43,9 @@ $debug = 0;
 
 #####  Read user input parameters  #####
 
-my %parameters = ParseHttpRequest();
+my $cgi = CGI->new;
+
+my %parameters = $cgi->Vars;
 
 $description          = escapeHTML( $parameters{'description'} );
 $vegetationSize       = escapeHTML( $parameters{'stemsize'} ) + 0;
@@ -93,16 +97,7 @@ print '<html>
   <title>RMRS Ravel results for ', $unique, '</title>
    <script language = "JavaScript" type="TEXT/JAVASCRIPT">
 ';
-print "   function popuphistory() {
-     height=500;
-     width=660;
-     pophistory = window.open('','pophistory','toolbar=no,location=no,status=no,directories=no,menubar=no,scrollbars=yes,resizable=yes,width='+width+',height='+height);
-";
-print make_history_popup();
 print '
-     pophistory.document.close()
-     pophistory.focus()
-   }
 
    function showSTDERR() {
      var properties="menubar,scrollbars,resizable"
@@ -1078,145 +1073,3 @@ print "
  </body>
 </html>
 ";
-
-# ------------------------ subroutines ---------------------------
-
-#---------------------------
-
-sub printdate {
-
-    @months =
-      qw(January February March April May June July August September October November December);
-    @days    = qw(Sunday Monday Tuesday Wednesday Thursday Friday Saturday);
-    $ampm[0] = "am";
-    $ampm[1] = "pm";
-
-    #   $ampmi = 0;
-    #   ($sec,$min,$hour,$mday,$mon,$year,$wday,$yday,$isdst)=gmtime;
-    #   if ($hour == 12) {$ampmi = 1}
-    #   if ($hour > 12) {$ampmi = 1; $hour -= 12}
-    #   printf "%0.2d:%0.2d ", $hour, $min;
-    #   print $ampm[$ampmi],"  ",$days[$wday]," ",$months[$mon];
-    #   print " ",$mday,", ",$year+1900, " GMT/UTC/Zulu<br>\n";
-
-    $ampmi = 0;
-    ( $sec, $min, $hour, $mday, $mon, $year, $wday, $yday, $isdst ) = localtime;
-    if ( $hour == 12 ) { $ampmi = 1 }
-    if ( $hour > 12 )  { $ampmi = 1; $hour = $hour - 12 }
-    $thisyear = $year + 1900;
-    printf "%0.2d:%0.2d ", $hour, $min;
-    print $ampm[$ampmi], "  ", $days[$wday], " ", $months[$mon];
-    print " ", $mday, ", ", $thisyear, " Pacific Time\n";
-}
-
-# ------------------------ end of subroutines ----------------------------
-
-sub make_history_popup {
-
-    my $version;
-
-    # Reads parent (perl) file and looks for a history block:
-## BEGIN HISTORY ####################################################
-    # WHRM Wildlife Habitat Response Model Version History
-
-    $version = '2005.02.08';    # Make self-creating history popup page
-
-# $version = '2005.02.07';      # Fix parameter passing to tail_html; stuff after semicolon lost
-#!$version = '2005.02.07';      # Bang in line says do not use
-# $version = '2005.02.04';      # Clean up HTML formatting, add head_html and tail_html functions
-#                               # Continuation line not handled
-# $version = '2005.01.08';      # Initial beta release
-
-## END HISTORY ######################################################
-
-# and returns body (including Javascript document.writeln instructions) for a pop-up history window
-# called pophistory.
-
-    # First line after 'BEGIN HISTORY' is <title> text
-    # Splits version and comment on semi-colon
-    # Version must be version= then digits and periods
-    # Bang in line causes line to be ignored
-    # Disallowed: single and double quotes in comment part
-    # Not handled: continuation lines
-
-    # Usage:
-
-#print "<html>
-# <head>
-#  <title>$title</title>
-#   <script language=\"javascript\">
-#    <!-- hide from old browsers...
-#
-#  function popuphistory() {
-#    height=500;
-#    width=660;
-#    pophistory = window.open('','pophistory','toolbar=no,location=no,status=no,directories=no,menubar=no,scrollbars=yes,resizable=yes,width='+width+',height='+height);
-
-    #";
-    #    print make_history_popup();
-    #    print "
-    #    pophistory.document.close()
-    #    pophistory.focus()
-    #  }
-    #";
-
-    # print $0,"\n";
-
-    my ( $line, $z, $vers, $comment );
-
-    open MYSELF, "<$0";
-    while (<MYSELF>) {
-
-        next if (/!/);
-
-        if (/## BEGIN HISTORY/) {
-            $line = <MYSELF>;
-            chomp $line;
-            $line = substr( $line, 2 );
-            $z    = "    pophistory.document.writeln('<html>')
-    pophistory.document.writeln(' <head>')
-    pophistory.document.writeln('  <title>$line</title>')
-    pophistory.document.writeln(' </head>')
-    pophistory.document.writeln(' <body bgcolor=white>')
-    pophistory.document.writeln('  <font face=\"trebuchet, tahoma, arial, helvetica, sans serif\">')
-    pophistory.document.writeln('  <center>')
-    pophistory.document.writeln('   <h4>$line</h4>')
-    pophistory.document.writeln('   <p>')
-    pophistory.document.writeln('   <table border=0 cellpadding=10>')
-    pophistory.document.writeln('    <tr>')
-    pophistory.document.writeln('     <th bgcolor=lightblue>Version</th>')
-    pophistory.document.writeln('     <th bgcolor=lightblue>Comments</th>')
-    pophistory.document.writeln('    </tr>')
-";
-        }    # if (/## BEGIN HISTORY/)
-
-        if (/version/) {
-            ( $vers, $comment ) = split( /;/, $_ );
-            $comment =~ s/#//;
-            chomp $comment;
-            $vers =~ s/'//g;
-            $vers =~ s/ //g;
-            $vers =~ s/"//g;
-            if ( $vers =~ /version=*([0-9.]+)/ )
-            {    # pull substring out of a line
-                $z .= "    pophistory.document.writeln('    <tr>')
-    pophistory.document.writeln('     <th valign=top bgcolor=lightblue>$1</th>')
-    pophistory.document.writeln('     <td>$comment</td>')
-    pophistory.document.writeln('    </tr>')
-";
-            }    # (/version *([0-9]+)/)
-        }    # if (/version/)
-
-        if (/## END HISTORY/) {
-            $z .= "    pophistory.document.writeln('   </table>')
-    pophistory.document.writeln('   </font>')
-    pophistory.document.writeln('  </center>')
-    pophistory.document.writeln(' </body>')
-    pophistory.document.writeln('</html>')
-";
-            last;
-        }    # if (/## END HISTORY/)
-    }    # while
-    close MYSELF;
-    return $z;
-}
