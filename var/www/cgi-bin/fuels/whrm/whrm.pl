@@ -713,18 +713,8 @@ print "<html>
    <script language=\"javascript\">
     <!-- hide from old browsers...
 
-  function popuphistory() {
-    url = '';
-    height=500;
-    width=660;
-    pophistory = window.open(url,'pophistory','toolbar=no,location=no,status=no,directories=no,menubar=no,scrollbars=yes,resizable=yes,width='+width+',height='+height);
 ";
-    print make_history_popup();
-    print "
-    pophistory.document.close()
-    pophistory.focus()
-  }
-";
+  
 
   print "  var arnest=new Array();\n";
   for ($i=0;$i<$nestrow; $i++) {
@@ -1274,9 +1264,6 @@ print '
         forest.moscowfsl.wsu.edu/fuels/
        </font>
       </td>
-      <td valign="top">
-       <a href="https://forest.moscowfsl.wsu.edu/fswepp/comments.html"><img src="/fswepp/images/epaemail.gif" align="right" border=0></a>
-      </td>
      </tr>
     </table>
    </center>
@@ -1304,9 +1291,6 @@ print '
         forest.moscowfsl.wsu.edu/fuels/
        </font>
       </td>
-      <td valign="top">
-       <a href="https://forest.moscowfsl.wsu.edu/fswepp/comments.html"><img src="/fswepp/images/epaemail.gif" align="right" border=0></a>
-      </td>
      </tr>
     </table>
    </center>
@@ -1316,123 +1300,47 @@ print '
 ';
 }
 
-
-sub make_history_popup {
-
-# 2005.02.08 DEH sub make_history_popup()
-
-# Reads parent (perl) file and looks for a history block:
-## BEGIN HISTORY ####################################################
-#! WHRM Wildlife Habitat Response Model Version History
-
-#!  $version='2005.02.08';	# Make self-creating history popup page
-#! $version = '2005.02.07';	# Fix parameter passing to tail_html; stuff after semicolon lost
-#!$version = '2005.02.07';	# Bang in line says do not use
-#! $version = '2005.02.04';	# Clean up HTML formatting, add head_html and tail_html functions
-# 				# Continuation line not handled
-#! $version = '2005.01.08';	# Initial beta release
-
-## END HISTORY ######################################################
-
-# and returns body (including Javascript document.writeln instructions) for a pop-up history window
-# called pophistory.
-
-# First line after 'BEGIN HISTORY' is <title> text
-# Splits version and comment on semi-colon
-# Version must be version= then digits and periods
-# Bang in line causes line to be ignored
-# Disallowed: single and double quotes in comment part
-# Not handled: continuation lines
-
-# Usage:
-
-#print "<html>
-# <head>
-#  <title>$title</title>
-#   <script language=\"javascript\">
-#    <!-- hide from old browsers...
-#
-#  function popuphistory() {
-#    pophistory = window.open('','pophistory','')
-#";
-#    print make_history_popup();
-#print "
-#    pophistory.document.close()
-#    pophistory.focus()
-#  }
-#";
-
-# print $0,"\n";
-
-  my ($line, $z, $vers, $comment);
-
-  open MYSELF, "<$0";
-    while (<MYSELF>) {
-
-      next if (/!/);
-
-      if (/## BEGIN HISTORY/) {
-        $line = <MYSELF>;
-        chomp $line;
-        $line = substr($line,2);
-        $z = "    pophistory.document.writeln('<html>')
-    pophistory.document.writeln(' <head>')
-    pophistory.document.writeln('  <title>$line</title>')
-    pophistory.document.writeln(' </head>')
-    pophistory.document.writeln(' <body bgcolor=white>')
-    pophistory.document.writeln('  <font face=\"trebuchet, tahoma, arial, helvetica, sans serif\">')
-    pophistory.document.writeln('  <center>')
-    pophistory.document.writeln('   <h4>$line</h4>')
-    pophistory.document.writeln('   <p>')
-    pophistory.document.writeln('   <table border=0 cellpadding=10>')
-    pophistory.document.writeln('    <tr>')
-    pophistory.document.writeln('     <th bgcolor=lightblue>Version</th>')
-    pophistory.document.writeln('     <th bgcolor=lightblue>Comments</th>')
-    pophistory.document.writeln('    </tr>')
-";
-      }	# if (/## BEGIN HISTORY/)
-
-      if (/version/) {
-        ($vers, $comment) = split (/;/,$_);
-        $comment =~ s/#//;
-        chomp $comment;
-        $vers =~ s/'//g;
-        $vers =~ s/ //g;
-        $vers =~ s/"//g;
-        if ($vers =~ /version=*([0-9.]+)/) {    # pull substring out of a line
-          $z .= "    pophistory.document.writeln('    <tr>')
-    pophistory.document.writeln('     <th valign=top bgcolor=lightblue>$1</th>')
-    pophistory.document.writeln('     <td>$comment</td>')
-    pophistory.document.writeln('    </tr>')
-";
-        }	# (/version *([0-9]+)/)
-     }	# if (/version/)
-
-    if (/## END HISTORY/) {
-        $z .= "    pophistory.document.writeln('   </table>')
-    pophistory.document.writeln('   </font>')
-    pophistory.document.writeln('  </center>')
-    pophistory.document.writeln(' </body>')
-    pophistory.document.writeln('</html>')
-";
-      last;
-    }	  # if (/## END HISTORY/)
-  }	# while
-  close MYSELF;
-  return $z;
-}
-sub featurecheck{
-my @array=@_;
-my $size;
-$size=(@array);
-for($i=0; $i<=$size-1;$i++)
-{
-	if(($array[$i]==27)||($array[$i]==33)||($array[$i]==39)){$array[$i]=21}
-	if(($array[$i]==28)||($array[$i]==34)||($array[$i]==40)){$array[$i]=22}
-	if(($array[$i]==29)||($array[$i]==35)||($array[$i]==41)){$array[$i]=23}
-	if(($array[$i]==30)||($array[$i]==36)||($array[$i]==42)){$array[$i]=24}
-	if(($array[$i]==31)||($array[$i]==37)||($array[$i]==43)){$array[$i]=25}
-	if(($array[$i]==32)||($array[$i]==38)||($array[$i]==44)){$array[$i]=26}
-}
-return @array;
+sub featurecheck {
+    my @array = @_;
+    my $size;
+    $size = (@array);
+    for ( $i = 0 ; $i <= $size - 1 ; $i++ ) {
+        if (   ( $array[$i] == 27 )
+            || ( $array[$i] == 33 )
+            || ( $array[$i] == 39 ) )
+        {
+            $array[$i] = 21;
+        }
+        if (   ( $array[$i] == 28 )
+            || ( $array[$i] == 34 )
+            || ( $array[$i] == 40 ) )
+        {
+            $array[$i] = 22;
+        }
+        if (   ( $array[$i] == 29 )
+            || ( $array[$i] == 35 )
+            || ( $array[$i] == 41 ) )
+        {
+            $array[$i] = 23;
+        }
+        if (   ( $array[$i] == 30 )
+            || ( $array[$i] == 36 )
+            || ( $array[$i] == 42 ) )
+        {
+            $array[$i] = 24;
+        }
+        if (   ( $array[$i] == 31 )
+            || ( $array[$i] == 37 )
+            || ( $array[$i] == 43 ) )
+        {
+            $array[$i] = 25;
+        }
+        if (   ( $array[$i] == 32 )
+            || ( $array[$i] == 38 )
+            || ( $array[$i] == 44 ) )
+        {
+            $array[$i] = 26;
+        }
+    }
+    return @array;
 }

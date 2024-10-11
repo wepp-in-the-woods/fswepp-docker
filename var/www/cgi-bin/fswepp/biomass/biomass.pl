@@ -435,20 +435,11 @@ para = para +'   Road segments more than 200 ft (60 m) from ephemeral or perenni
       document.hillslope.width=hillpixels
     }
 
-  function popuphistory() {
-    height=500;
-    width=660;
-    pophistory = window.open('','pophistory','toolbar=no,location=no,status=no,directories=no,menubar=no,scrollbars=yes,resizable=yes,width='+width+',height='+height);
 theEnd0
-print make_history_popup();
 print <<'theEnd';
-    pophistory.document.close()
-    pophistory.focus()
-  }
 
   function submitme(which) {
     document.forms.fume.achtung.value=which
-//    document.forms.weppdiro.submit.value="Describe"
     document.forms.fume.submit()
     return true
   }
@@ -962,113 +953,3 @@ print "  <font face='tahoma, arial, helvetica, sans serif' size=1>
  </body>
 </html>
 ";
-
-# --------------------- subroutines
-
-sub make_history_popup {
-
-    my $version;
-
-    # Reads parent (perl) file and looks for a history block:
-## BEGIN HISTORY ####################################################
-    # WHRM Wildlife Habitat Response Model Version History
-
-    $version = '2005.02.08';    # Make self-creating history popup page
-
-# $version = '2005.02.07';      # Fix parameter passing to tail_html; stuff after semicolon lost
-#!$version = '2005.02.07';      # Bang in line says do not use
-# $version = '2005.02.04';      # Clean up HTML formatting, add head_html and tail_html functions
-#                               # Continuation line not handled
-# $version = '2005.01.08';      # Initial beta release
-
-## END HISTORY ######################################################
-
-# and returns body (including Javascript document.writeln instructions) for a pop-up history window
-# called pophistory.
-
-    # First line after 'BEGIN HISTORY' is <title> text
-    # Splits version and comment on semi-colon
-    # Version must be version= then digits and periods
-    # Bang in line causes line to be ignored
-    # Disallowed: single and double quotes in comment part
-    # Not handled: continuation lines
-
-    # Usage:
-
-    #print "<html>
-    # <head>
-    #  <title>$title</title>
-    #   <script language=\"javascript\">
-    #    <!-- hide from old browsers...
-    #
-    #  function popuphistory() {
-    #    pophistory = window.open('','pophistory','')
-    #";
-    #    print make_history_popup();
-    #print "
-    #    pophistory.document.close()
-    #    pophistory.focus()
-    #  }
-    #";
-
-    # print $0,"\n";
-
-    my ( $line, $z, $vers, $comment );
-
-    open MYSELF, "<$0";
-    while (<MYSELF>) {
-
-        next if (/!/);
-
-        if (/## BEGIN HISTORY/) {
-            $line = <MYSELF>;
-            chomp $line;
-            $line = substr( $line, 2 );
-            $z    = "    pophistory.document.writeln('<html>')
-    pophistory.document.writeln(' <head>')
-    pophistory.document.writeln('  <title>$line</title>')
-    pophistory.document.writeln(' </head>')
-    pophistory.document.writeln(' <body bgcolor=white>')
-    pophistory.document.writeln('  <font face=\"trebuchet, tahoma, arial, helvetica, sans serif\">')
-    pophistory.document.writeln('  <center>')
-    pophistory.document.writeln('   <h4>$line</h4>')
-    pophistory.document.writeln('   <p>')
-    pophistory.document.writeln('   <table border=0 cellpadding=10>')
-    pophistory.document.writeln('    <tr>')
-    pophistory.document.writeln('     <th bgcolor=lightblue>Version</th>')
-    pophistory.document.writeln('     <th bgcolor=lightblue>Comments</th>')
-    pophistory.document.writeln('    </tr>')
-";
-        }    # if (/## BEGIN HISTORY/)
-
-        if (/version/) {
-            ( $vers, $comment ) = split( /;/, $_ );
-            $comment =~ s/#//;
-            chomp $comment;
-            $vers =~ s/'//g;
-            $vers =~ s/ //g;
-            $vers =~ s/"//g;
-            if ( $vers =~ /version=*([0-9.]+)/ )
-            {    # pull substring out of a line
-                $z .= "    pophistory.document.writeln('    <tr>')
-    pophistory.document.writeln('     <th valign=top bgcolor=lightblue>$1</th>')
-    pophistory.document.writeln('     <td>$comment</td>')
-    pophistory.document.writeln('    </tr>')
-";
-            }    # (/version *([0-9]+)/)
-        }    # if (/version/)
-
-        if (/## END HISTORY/) {
-            $z .= "    pophistory.document.writeln('   </table>')
-    pophistory.document.writeln('   </font>')
-    pophistory.document.writeln('  </center>')
-    pophistory.document.writeln(' </body>')
-    pophistory.document.writeln('</html>')
-";
-            last;
-        }    # if (/## END HISTORY/)
-    }    # while
-    close MYSELF;
-    return $z;
-}
-

@@ -7,7 +7,7 @@ use String::Util qw(trim);
 
 use MoscowFSL::FSWEPP::CligenUtils qw(CreateCligenFile GetParSummary GetAnnualPrecip);
 use MoscowFSL::FSWEPP::FsWeppUtils
-  qw(CreateSlopeFile CreateSlopeFileWeppRoad printdate CreateSoilFile);
+  qw(CreateSlopeFile CreateSlopeFileWeppRoad printdate CreateSoilFile get_thisyear_and_thisweek get_version);
 
 my $debug = 0;
 
@@ -17,8 +17,9 @@ my $debug = 0;
 ## BEGIN HISTORY ##############################
 # WEPP BIOMASS Results history
 
-$version = '2015.05.27';    # Unlink temporary and WEPP output files when done
+$version = get_version(__FILE__);
 
+#  $version = '2015.05.27';    # Unlink temporary and WEPP output files when done
 #  $version = '2015.05.06';	# Run WEPP 2010.100 and update roads soil data
 #  $version = '2014.02.22';	# Add new calculations A through F
 #  $version = '2014.02.21';
@@ -102,40 +103,7 @@ $roaddensity = escapeHTML( $cgi->param('road_density') );
 
 skipper:
 
-#####
-
-#  determine which week the model is being run, for recording in the weekly runs log
-
-#   $thisday   -- day of the year (1..365)
-#   $thisyear  -- year of the run (ie, 2012)
-#   $dayoffset -- account for which day of the week Jan 1 is: -1: Su; 0: Mo; 1: Tu; 2: We; 3: Th; 4: Fr; 5: Sa.
-
-$thisday = 1 + (localtime)[7];    # $yday, day of the year (0..364)
-$thisyear =
-  1900 + (localtime)[5];    # https://perldoc.perl.org/functions/localtime.html
-
-if    ( $thisyear == 2010 ) { $dayoffset = 4 }     # Jan 1 is Friday
-elsif ( $thisyear == 2011 ) { $dayoffset = 5 }     # Jan 1 is Saturday
-elsif ( $thisyear == 2012 ) { $dayoffset = -1 }    # Jan 1 is Sunday
-elsif ( $thisyear == 2013 ) { $dayoffset = 1 }     # Jan 1 is Tuesday
-elsif ( $thisyear == 2014 ) { $dayoffset = 2 }     # Jan 1 is Wednesday
-elsif ( $thisyear == 2015 ) { $dayoffset = 3 }     # Jan 1 is Thursday
-elsif ( $thisyear == 2016 ) { $dayoffset = 4 }     # Jan 1 is Friday
-elsif ( $thisyear == 2017 ) { $dayoffset = -1 }    # Jan 1 is Sunday
-elsif ( $thisyear == 2018 ) { $dayoffset = 0 }     # Jan 1 is Monday
-elsif ( $thisyear == 2019 ) { $dayoffset = 1 }     # Jan 1 is Tuesday
-elsif ( $thisyear == 2020 ) { $dayoffset = 2 }     # Jan 1 is Wednesday
-elsif ( $thisyear == 2021 ) { $dayoffset = 4 }     # Jan 1 is Friday
-elsif ( $thisyear == 2022 ) { $dayoffset = 5 }     # Jan 1 is Saturday
-elsif ( $thisyear == 2023 ) { $dayoffset = -1 }    # Jan 1 is Sunday
-elsif ( $thisyear == 2024 ) { $dayoffset = 0 }     # Jan 1 is Monday
-elsif ( $thisyear == 2025 ) { $dayoffset = 2 }     # Jan 1 is Wednesday
-else                        { $dayoffset = 0 }
-
-$thisdayoff = $thisday + $dayoffset;
-$thisweek   = 1 + int $thisdayoff / 7;
-
-#  print "[$dayoffset] Julian day $thisday, $thisyear: week $thisweek\n";
+my ( $thisyear, $thisweek ) = get_thisyear_and_thisweek();
 
 #####  Set other Disturbed WEPP parameters values  #####
 
@@ -283,21 +251,11 @@ print <<'end0';
      popupwindow.document.close();
      popupwindow.focus()
    }
-
-   function popuphistory() {
-     height=500;
-     width=660;
-     pophistory = window.open('','pophistory','toolbar=no,location=no,status=no,directories=no,menubar=no,scrollbars=yes,resizable=yes,width='+width+',height='+height);
-end0
-print make_history_popup();
-print "
-     pophistory.document.close()
-     pophistory.focus()
-   }
-
   </script>
  </HEAD>
-";
+
+end0
+
 
 print '
  <BODY link="#555555" vlink="#555555">
@@ -2402,11 +2360,6 @@ flock CLIMLOG, 2;
 print CLIMLOG 'BIOMASS: ', $climate_name;
 close CLIMLOG;
 
-#     $thisday = 1+ (localtime)[7];			# $yday, day of the year (0..364)
-##    $thisdayoff=$thisday+3;                            # [Jan 1] -1: Sunday; 0: Monday # +3: 2009 Jan 1 is a Thursday
-#     $thisdayoff=$thisday+4;                            # [Jan 1] -1: Sunday; 0: Monday # +3: 2009 Jan 1 is a Thursday
-#     $thisweek = 1+ int $thisdayoff/7;
-#     print "$thisday\t $thisweek\n";
 $ditlogfile = ">>../working/_$thisyear/wb/$thisweek";    # 2012.12.31 DEH
 open WBLOG2, $ditlogfile;
 flock WBLOG2, 2;                                         # 2005.02.09 DEH
@@ -3540,114 +3493,4 @@ sub max () {
         $max = $val if $max < $val;
     }
     return $max;
-}
-
-sub make_history_popup {
-
-    my $version;
-
-    # Reads parent (perl) file and looks for a history block:
-## BEGIN HISTORY ####################################################
-    # WHRM Wildlife Habitat Response Model Version History
-
-    $version = '2005.02.08';    # Make self-creating history popup page
-
-# $version = '2005.02.07';      # Fix parameter passing to tail_html; stuff after semicolon lost
-#!$version = '2005.02.07';      # Bang in line says do not use
-# $version = '2005.02.04';      # Clean up HTML formatting, add head_html and tail_html functions
-#                               # Continuation line not handled
-# $version = '2005.01.08';      # Initial beta release
-
-## END HISTORY ######################################################
-
-# and returns body (including Javascript document.writeln instructions) for a pop-up history window
-# called pophistory.
-
-    # First line after 'BEGIN HISTORY' is <title> text
-    # Splits version and comment on semi-colon
-    # Version must be version= then digits and periods
-    # Bang in line causes line to be ignored
-    # Disallowed: single and double quotes in comment part
-    # Not handled: continuation lines
-
-    # Usage:
-
-#print "<html>
-# <head>
-#  <title>$title</title>
-#   <script language=\"javascript\">
-#    <!-- hide from old browsers...
-#
-#  function popuphistory() {
-#    height=500;
-#    width=660;
-#    pophistory = window.open('','pophistory','toolbar=no,location=no,status=no,directories=no,menubar=no,scrollbars=yes,resizable=yes,width='+width+',height='+height);
-
-    #";
-    #    print make_history_popup();
-    #    print "
-    #    pophistory.document.close()
-    #    pophistory.focus()
-    #  }
-    #";
-
-    # print $0,"\n";
-
-    my ( $line, $z, $vers, $comment );
-
-    open MYSELF, "<$0";
-    while (<MYSELF>) {
-
-        next if (/!/);
-
-        if (/## BEGIN HISTORY/) {
-            $line = <MYSELF>;
-            chomp $line;
-            $line = substr( $line, 2 );
-            $z    = "    pophistory.document.writeln('<html>')
-    pophistory.document.writeln(' <head>')
-    pophistory.document.writeln('  <title>$line</title>')
-    pophistory.document.writeln(' </head>')
-    pophistory.document.writeln(' <body bgcolor=white>')
-    pophistory.document.writeln('  <font face=\"trebuchet, tahoma, arial, helvetica, sans serif\">')
-    pophistory.document.writeln('  <center>')
-    pophistory.document.writeln('   <h4>$line</h4>')
-    pophistory.document.writeln('   <p>')
-    pophistory.document.writeln('   <table border=0 cellpadding=10>')
-    pophistory.document.writeln('    <tr>')
-    pophistory.document.writeln('     <th bgcolor=lightblue>Version</th>')
-    pophistory.document.writeln('     <th bgcolor=lightblue>Comments</th>')
-    pophistory.document.writeln('    </tr>')
-";
-        }    # if (/## BEGIN HISTORY/)
-
-        if (/version/) {
-            ( $vers, $comment ) = split( /;/, $_ );
-            $comment =~ s/#//;
-            chomp $comment;
-            $vers =~ s/'//g;
-            $vers =~ s/ //g;
-            $vers =~ s/"//g;
-            if ( $vers =~ /version=*([0-9.]+)/ )
-            {    # pull substring out of a line
-                $z .= "    pophistory.document.writeln('    <tr>')
-    pophistory.document.writeln('     <th valign=top bgcolor=lightblue>$1</th>')
-    pophistory.document.writeln('     <td>$comment</td>')
-    pophistory.document.writeln('    </tr>')
-";
-            }    # (/version *([0-9]+)/)
-        }    # if (/version/)
-
-        if (/## END HISTORY/) {
-            $z .= "    pophistory.document.writeln('   </table>')
-    pophistory.document.writeln('   </font>')
-    pophistory.document.writeln('  </center>')
-    pophistory.document.writeln(' </body>')
-    pophistory.document.writeln('</html>')
-";
-            last;
-        }    # if (/## END HISTORY/)
-    }    # while
-    close MYSELF;
-    return $z;
 }

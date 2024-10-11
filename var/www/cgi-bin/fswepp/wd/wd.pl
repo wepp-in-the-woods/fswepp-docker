@@ -3,8 +3,10 @@ use CGI;
 use CGI qw(escapeHTML);
 
 use warnings;
-use MoscowFSL::FSWEPP::CligenUtils qw(CreateCligenFile GetParSummary GetAnnualPrecip);
-use MoscowFSL::FSWEPP::FsWeppUtils qw(CreateSlopeFile printdate get_version);
+use MoscowFSL::FSWEPP::CligenUtils
+  qw(CreateCligenFile GetParSummary GetAnnualPrecip);
+use MoscowFSL::FSWEPP::FsWeppUtils
+  qw(CreateSlopeFile printdate get_version get_thisyear_and_thisweek);
 
 use String::Util qw(trim);
 
@@ -14,31 +16,13 @@ use String::Util qw(trim);
 # Disturbed WEPP 2.0 workhorse
 # Reads user input from weppdist.pl, runs WEPP, parses output files
 
-
-# *** Modify each new year ***
-#     $thisdayoff=$thisday+3;                            # [Jan 1] -1: Sunday; 0: Monday
-
-# 2012.10.03 DEH -- Have createslopefile() put a bit of a bump in the slope if it is entirely flat
-# 2012.10.02 DEH -- Report WEPP calculation anomaly to user
-# 2012.09.27 DEH -- Search extended output for NaN result and log run if found
-# 2011.04.27 DEH -- Adjust CreateManagementFileT -- variable ground cover in initial conditions
-# 2011.04.14 DEH -- Default WEPP version to 2010
-# 2011.04.01 DEH -- link TAHOE model treatment/vegetation data files
-# David Hall, USDA Forest Service, Rocky Mountain Research Station
-
 my $debug = 0;
 
 print "Content-type: text/html\n\n";
 
 my $current_file = __FILE__;
-my $version = get_version($current_file);
-#  $version = '2014.04.14';    # switch to 2014 soils database
-#  $version = '2012.12.31'; # complete move to year-based logging (2012 through 2020)
-#  $version = '2012.11.06';	# Report latitude, longitude, elevation for modified climates
-#  $version = '2012.10.03';	# Have createslopefile() put a bit of a bump in the slope if it is entirely flat
-#  $version = '2012.10.02';	# Check for WEPP calculation error and report to user
-#  $version = '2011.05.01';
-#  $version = '2011.04.27';
+my $version      = get_version($current_file);
+my ( $thisyear, $thisweek ) = get_thisyear_and_thisweek();
 
 #=========================================================================
 
@@ -77,39 +61,6 @@ $description = substr( $description, 0, 100 );
 $description =~ s/</&lt;/g;
 $description =~ s/>/&gt;/g;
 ###
-
-#  determine which week the model is being run, for recording in the weekly runs log  2012.12.31 DEH
-
-#   $thisday   -- day of the year (1..365)
-#   $thisyear  -- year of the run (ie, 2012)
-#   $dayoffset -- account for which day of the week Jan 1 is: -1: Su; 0: Mo; 1: Tu; 2: We; 3: Th; 4: Fr; 5: Sa.
-
-$thisday = 1 + (localtime)[7];    # $yday, day of the year (0..364)
-$thisyear =
-  1900 + (localtime)[5];    # https://perldoc.perl.org/functions/localtime.html
-
-if    ( $thisyear == 2010 ) { $dayoffset = 4 }     # Jan 1 is Friday
-elsif ( $thisyear == 2011 ) { $dayoffset = 5 }     # Jan 1 is Saturday
-elsif ( $thisyear == 2012 ) { $dayoffset = -1 }    # Jan 1 is Sunday
-elsif ( $thisyear == 2013 ) { $dayoffset = 1 }     # Jan 1 is Tuesday
-elsif ( $thisyear == 2014 ) { $dayoffset = 2 }     # Jan 1 is Wednesday
-elsif ( $thisyear == 2015 ) { $dayoffset = 3 }     # Jan 1 is Thursday
-elsif ( $thisyear == 2016 ) { $dayoffset = 4 }     # Jan 1 is Friday
-elsif ( $thisyear == 2017 ) { $dayoffset = -1 }    # Jan 1 is Sunday
-elsif ( $thisyear == 2018 ) { $dayoffset = 0 }     # Jan 1 is Monday
-elsif ( $thisyear == 2019 ) { $dayoffset = 1 }     # Jan 1 is Tuesday
-elsif ( $thisyear == 2020 ) { $dayoffset = 2 }     # Jan 1 is Wednesday
-elsif ( $thisyear == 2021 ) { $dayoffset = 4 }     # Jan 1 is Friday
-elsif ( $thisyear == 2022 ) { $dayoffset = 5 }     # Jan 1 is Saturday
-elsif ( $thisyear == 2023 ) { $dayoffset = -1 }    # Jan 1 is Sunday
-elsif ( $thisyear == 2024 ) { $dayoffset = 0 }     # Jan 1 is Monday
-elsif ( $thisyear == 2025 ) { $dayoffset = 2 }     # Jan 1 is Wednesday
-else                        { $dayoffset = 0 }
-
-$thisdayoff = $thisday + $dayoffset;
-$thisweek   = 1 + int $thisdayoff / 7;
-
-#  print "[$dayoffset] Julian day $thisday, $thisyear: week $thisweek\n";
 
 ### back-compatibility for Disturbed WEPP Batch calls    DEH 2011.04.08
 
@@ -1253,7 +1204,8 @@ if ( $rcin eq '' ) {
     <br><br>
     <font size=-2>
      Disturbed WEPP 2.0 Results v.";
-    print '     <a href="https://github.com/wepp-in-the-woods/fswepp-docker/commits/main/var/www/cgi-bin/fswepp/wd/wd.pl">';
+    print
+'     <a href="https://github.com/wepp-in-the-woods/fswepp-docker/commits/main/var/www/cgi-bin/fswepp/wd/wd.pl">';
     print
 "     $version</a> based on <b>WEPP $weppver</b>, CLIGEN $cligen_version<br>";
 }
@@ -2290,7 +2242,6 @@ sub parsead {    ############### parsead
         print "\nExpecting 'Annual; detailed' file; you gave me a '$_' file\n";
     }
 }
-
 
 # ------------------------ end of subroutines ----------------------------
 

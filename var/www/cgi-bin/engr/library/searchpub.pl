@@ -3,8 +3,7 @@
 use warnings;
 use CGI;
 use CGI qw(escapeHTML);
-use lib '/var/www/cgi-bin/fswepp/dry';
-use FsWeppUtils qw(printdate);
+use MoscowFSL::FSWEPP::FsWeppUtils qw(printdate);
 
 my $cgi = new CGI;
 

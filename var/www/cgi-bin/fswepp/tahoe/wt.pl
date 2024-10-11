@@ -5,7 +5,8 @@ use CGI;
 use CGI qw(escapeHTML);
 use Scalar::Util 'looks_like_number';
 use MoscowFSL::FSWEPP::CligenUtils qw(CreateCligenFile GetParSummary);
-use MoscowFSL::FSWEPP::FsWeppUtils qw(CreateSlopeFile get_version printdate);
+use MoscowFSL::FSWEPP::FsWeppUtils qw(CreateSlopeFile get_version printdate get_thisyear_and_thisweek);
+
 
 use String::Util qw(trim);
 
@@ -15,44 +16,14 @@ use String::Util qw(trim);
 # Tahoe Basin Sediment Model workhorse * with phosphorus *
 # Reads user input from tahoe.pl, runs WEPP, parses output files
 
-# 2020.08.17 REB -- Removed * provisional * from header title
-# 2012.10.29 DEH -- Have createSlopeFile() put a bit of a bump in the slope if it is entirely flat
-# 2012.10.29 DEH -- Report WEPP calculation anomaly to user
-# 2012.09.27 DEH -- Search extended output for NaN result and log run if found
-# 2011.11.27 DEH -- Add phosphorus analysis, tidy up code and displays
-# 2009.08.24 DEH -- Modify from wd.pl
+my $verbose = 0; 
 
-my $verbose = 0;
-
-# $debug=1; # this likely breaks the page. wasn't tested. likely prints without ;
+# $debug=1; # this breaks the page;
 my $weppversion = "wepp2010";
 
-## BEGIN HISTORY ###################################
-## Tahoe Basin Sediment Model version history
-
 my $version = get_version(__FILE__);
+my ($thisyear, $thisweek) = get_thisyear_and_thisweek();
 
-# $version = '2014.04.38';  Increase phosphate sediment concentration upper limit to reflect ongoing research results
-#  $version = '2012.12.31';     # complete move to year-based logging (2012 through 2020)
-#  $version = '2012.11.13';	# Fix fines analysis to pick up varying percent silt and clay in all size classes
-#  $version = '2012.11.02';	# Match Disturbed WEPP functionality of variable canopy cover in CreateManagementFileT Initial Conditions and modify .ini files
-#  $version = '2012.10.29';	# Have createSlopeFile() put a bit of a bump in the slope if it is entirely flat
-#  $version = '2012.10.25';	# formatting changes
-#  $version = '2012.08.31';	# bring in future climate capabilities
-#  $version = '2012.07.23';	# nicer formatting for precip- etc. table
-#  $version = '2012.07.18';	# continue fines calculations
-#  $version = '2012.04.25';	# add fines analysis
-#  $version = '2012.04.09';	# move phosphorus inputs to input table; interaction not needed
-#  $version = '2011.12.09';     # combine phosphorus table with precipitation/erosion table
-#  $version = '2011.11.30';	# read WEPP water file to determine lateral flow
-#  $version = '2011.11.27';	# Continue putting phosphorus table in
-#  $version = '2011.11.18';	# Start putting phosphorus table in
-#  $version = '2011.02.14';     # Adjust handling of sod and bunchgrass
-#  $version = '2010.06.01';	# Model release
-#! $version = "2010.05.27";
-#! $version = "2010.03.03";
-
-## END HISTORY ###################################
 
 print "Content-type: text/html\n\n";
 
@@ -85,37 +56,6 @@ $achtung     = escapeHTML( $cgi->param('achtung') );
 $climyears   = escapeHTML( $cgi->param('climyears') );
 $description = escapeHTML( $cgi->param('description') );
 
-#  determine which week the model is being run, for recording in the weekly runs log
-
-#   $thisday   -- day of the year (1..365)
-#   $thisyear  -- year of the run (ie, 2012)
-#   $dayoffset -- account for which day of the week Jan 1 is: -1: Su; 0: Mo; 1: Tu; 2: We; 3: Th; 4: Fr; 5: Sa.
-
-$thisday  = 1 + (localtime)[7];      # $yday, day of the year (0..364)
-$thisyear = 1900 + (localtime)[5];
-
-if    ( $thisyear == 2010 ) { $dayoffset = 4 }     # Jan 1 is Friday
-elsif ( $thisyear == 2011 ) { $dayoffset = 5 }     # Jan 1 is Saturday
-elsif ( $thisyear == 2012 ) { $dayoffset = -1 }    # Jan 1 is Sunday
-elsif ( $thisyear == 2013 ) { $dayoffset = 1 }     # Jan 1 is Tuesday
-elsif ( $thisyear == 2014 ) { $dayoffset = 2 }     # Jan 1 is Wednesday
-elsif ( $thisyear == 2015 ) { $dayoffset = 3 }     # Jan 1 is Thursday
-elsif ( $thisyear == 2016 ) { $dayoffset = 4 }     # Jan 1 is Friday
-elsif ( $thisyear == 2017 ) { $dayoffset = -1 }    # Jan 1 is Sunday
-elsif ( $thisyear == 2018 ) { $dayoffset = 0 }     # Jan 1 is Monday
-elsif ( $thisyear == 2019 ) { $dayoffset = 1 }     # Jan 1 is Tuesday
-elsif ( $thisyear == 2020 ) { $dayoffset = 2 }     # Jan 1 is Wednesday
-elsif ( $thisyear == 2021 ) { $dayoffset = 4 }     # Jan 1 is Friday
-elsif ( $thisyear == 2022 ) { $dayoffset = 5 }     # Jan 1 is Saturday
-elsif ( $thisyear == 2023 ) { $dayoffset = -1 }    # Jan 1 is Sunday
-elsif ( $thisyear == 2024 ) { $dayoffset = 0 }     # Jan 1 is Monday
-elsif ( $thisyear == 2025 ) { $dayoffset = 2 }     # Jan 1 is Wednesday
-else                        { $dayoffset = 0 }
-
-$thisdayoff = $thisday + $dayoffset;
-$thisweek   = 1 + int $thisdayoff / 7;
-
-#  print "[$dayoffset] Julian day $thisday, $thisyear: week $thisweek\n";
 # future climates
 $fc          = escapeHTML( $cgi->param('fc') );    # future climate input screen
 $startYear   = escapeHTML( $cgi->param('startyear') );    # DEH 2012.08.27
@@ -229,7 +169,6 @@ if ( lc($achtung) =~ /describe soil/ ) {    ##########
  <HEAD>
   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
   <TITLE>Tahoe Basin Sediment Model -- Soil Parameters</TITLE>
-  <link rel="stylesheet" type="text/css" href="/fswepp/notebook.css">
  </HEAD>
  <BODY>
   <font face="Arial, Geneva, Helvetica">
@@ -908,7 +847,6 @@ if ( $rcin eq '' ) {
 
     print '
   </script>
-  <link rel="stylesheet" type="text/css" href="/fswepp/notebook.css">
  </HEAD>
  <BODY>
   <font face="Arial, Geneva, Helvetica">

@@ -4,7 +4,7 @@ use warnings;
 use CGI;
 use CGI qw(escapeHTML header);
 use MoscowFSL::FSWEPP::CligenUtils qw(CreateCligenFile GetParSummary);
-use MoscowFSL::FSWEPP::FsWeppUtils qw(printdate get_version);
+use MoscowFSL::FSWEPP::FsWeppUtils qw(printdate get_version get_thisyear_and_thisweek);
 
 use POSIX qw(strftime);
 
@@ -21,67 +21,10 @@ use POSIX qw(strftime);
 my $version = get_version(__FILE__);
 my $debug = 0;
 my $batch = 1;
-
 my $weppversion = "wepp2010";
-
 my $count_limit = 1000;
-
 my $now = strftime("%I:%M %p %A %B %d, %Y", localtime);
-
-#  $count_limit = 200;
-#-rwxrwxr-x 1 dhall 502 85296 2011-07-18 13:13 wrbat.pl
-
-# NOTE: one instance of 'fsweb.rmrs...'
-# To do:
-#
-#       Appears not to write to .dit files (2014, 2015) [allows tracking wrb road segment count]
-#	better validate Climate '../climates/ca045983'
-#	doesn't recognize personality (a..z)
-#  X	less apparent precision in results
-
-#  2015.03.02 DEH lost sediment leaving buffer (always zero) after last change.  Remove provisional warnings.
-#  2011.06.30 DEH log road segment count directly into WEPP:Road counts as well as log model run count
-#  2009.12.02 DEH report Latitude, Longitude, Elevation for modified climate
-#  2009.09.18 DEH patch for stand-alone use (sprintf format and DOS/unix linebreaks)
-#  2006.09.14 DEH report climate file mods if appropriate (readPARfile()) on final results page
-#  2004.07.20 Color code provisional status for 'no' traffic only
-#  2004.06.30 Color code provisional status for 'low' and 'no' traffic
-#		Update &createsoilfile to adjust Ki as well for low/none
-#		Print $UBR not $rf to logfile
-#  2004.06.29 Write number-of-years to WRBLOG after "units" (and read it back in)
-#		Note: this will cause bad load of old-format 'previous log'
-#		Add undocumented "Extended output" checkbox
-#  2004.06.28 Changed 'ne' to '!=' in validate-slope and validate_length
-#		and validate_rock
-#		Align right (good) and left (bad) for check-input table
-#  2004.06.28 Notified that low-traffic results did not match non-batch
-#		%rock value not tracked correctly in log
-#             Also: number of years of run not in log
-#		validate_slope and validate_length not working
-#  2004.06.18 Note that results are Average Annual values
-#  2004.06.14 highlight error text in red if any on input data check
-#		'invalid run' or 'invalid runs' depending
-#		'Make corrections below' message if errors; allow check only
-#		'Comment' is input; color it green
-#		help screen for pasting results into Excel
-#		move precip report out of loop (all same for a sequence)
-#		  thus change order of wrblog fields
-#		remove 'die' and add footer on check-only run
-#		Redirect to /fswepp/ if no parameters (bad bookmark/link)
-#		Record in WRBLOG only if run (not if check input)
-#  2004.05.13 Change order of columns in "spreadsheet"
-#		Use run time and date for project title in log if null
-#		validate years
-#		validate units 'm' 'ft'
-#		validate Climate '../climates/ca045983'
-#		validate SoilType 'clay' 'loam' 'silt' 'sand'
-#  2004.05.12 Increase units-sensitive input-error-checking
-#	      detag projectdescription
-#  2004.05.07 Pull climate and soil texture out of log loop
-#		Change log table order to match input table (poor as it is)
-#		Color code input and output columns in log table
-#  2004.05.06	Allow only display of previous log file
-#  2004.05.03 DEH add switch for "extended output"
+my ($thisyear, $thisweek) = get_thisyear_and_thisweek();
 
 my $cgi = CGI->new;
 $action =
@@ -97,41 +40,6 @@ $achtung = $cgi->param('achtung');
 $extended = $cgi->param('extended');
 
 $project_title = escapeHTML( $cgi->param('projectdescription') );
-
-####
-
-#  determine which week the model is being run, for recording in the weekly runs log
-
-#   $thisday   -- day of the year (1..365)
-#   $thisyear  -- year of the run (ie, 2012)
-#   $dayoffset -- account for which day of the week Jan 1 is: -1: Su; 0: Mo; 1: Tu; 2: We; 3: Th; 4: Fr; 5: Sa.
-
-$thisday = 1 + (localtime)[7];    # $yday, day of the year (0..364)
-$thisyear =
-  1900 + (localtime)[5];    # https://perldoc.perl.org/functions/localtime.html
-
-if    ( $thisyear == 2010 ) { $dayoffset = 4 }     # Jan 1 is Friday
-elsif ( $thisyear == 2011 ) { $dayoffset = 5 }     # Jan 1 is Saturday
-elsif ( $thisyear == 2012 ) { $dayoffset = -1 }    # Jan 1 is Sunday
-elsif ( $thisyear == 2013 ) { $dayoffset = 1 }     # Jan 1 is Tuesday
-elsif ( $thisyear == 2014 ) { $dayoffset = 2 }     # Jan 1 is Wednesday
-elsif ( $thisyear == 2015 ) { $dayoffset = 3 }     # Jan 1 is Thursday
-elsif ( $thisyear == 2016 ) { $dayoffset = 4 }     # Jan 1 is Friday
-elsif ( $thisyear == 2017 ) { $dayoffset = -1 }    # Jan 1 is Sunday
-elsif ( $thisyear == 2018 ) { $dayoffset = 0 }     # Jan 1 is Monday
-elsif ( $thisyear == 2019 ) { $dayoffset = 1 }     # Jan 1 is Tuesday
-elsif ( $thisyear == 2020 ) { $dayoffset = 2 }     # Jan 1 is Wednesday
-elsif ( $thisyear == 2021 ) { $dayoffset = 4 }     # Jan 1 is Friday
-elsif ( $thisyear == 2022 ) { $dayoffset = 5 }     # Jan 1 is Saturday
-elsif ( $thisyear == 2023 ) { $dayoffset = -1 }    # Jan 1 is Sunday
-elsif ( $thisyear == 2024 ) { $dayoffset = 0 }     # Jan 1 is Monday
-elsif ( $thisyear == 2025 ) { $dayoffset = 2 }     # Jan 1 is Wednesday
-else                        { $dayoffset = 0 }
-
-$thisdayoff = $thisday + $dayoffset;
-$thisweek   = 1 + int $thisdayoff / 7;
-
-#  print "[$dayoffset] Julian day $thisday, $thisyear: week $thisweek\n";
 
 if ( ( $action . $achtung ) eq '' ) {
     print "Content-type: text/html\n\n";
@@ -286,7 +194,6 @@ print "<HTML>
     }
 
   </script>
-  <link rel='stylesheet' type='text/css' href='/fswepp/notebook.css'>
  </HEAD>
 ";
 print '

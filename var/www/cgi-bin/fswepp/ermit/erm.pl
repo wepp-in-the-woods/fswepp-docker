@@ -4,7 +4,7 @@ use warnings;
 use CGI;
 use CGI qw(escapeHTML);
 use MoscowFSL::FSWEPP::CligenUtils qw(CreateCligenFile GetParSummary);
-use MoscowFSL::FSWEPP::FsWeppUtils qw(get_version);
+use MoscowFSL::FSWEPP::FsWeppUtils qw(get_version get_thisyear_and_thisweek);
 use String::Util qw(trim);
 
 #
@@ -129,36 +129,7 @@ my $version = get_version(__FILE__);
 
 #=========================================================================
 
-#  determine which week the model is being run, for recording in the weekly runs log
-
-#   $thisday   -- day of the year (1..365)
-#   $thisyear  -- year of the run (ie, 2012)
-#   $dayoffset -- account for which day of the week Jan 1 is: -1: Su; 0: Mo; 1: Tu; 2: We; 3: Th; 4: Fr; 5: Sa.
-
-$thisday = 1 + (localtime)[7];    # $yday, day of the year (0..364)
-$thisyear =
-  1900 + (localtime)[5];    # https://perldoc.perl.org/functions/localtime.html
-
-if    ( $thisyear == 2010 ) { $dayoffset = 4 }     # Jan 1 is Friday
-elsif ( $thisyear == 2011 ) { $dayoffset = 5 }     # Jan 1 is Saturday
-elsif ( $thisyear == 2012 ) { $dayoffset = -1 }    # Jan 1 is Sunday
-elsif ( $thisyear == 2013 ) { $dayoffset = 1 }     # Jan 1 is Tuesday
-elsif ( $thisyear == 2014 ) { $dayoffset = 2 }     # Jan 1 is Wednesday
-elsif ( $thisyear == 2015 ) { $dayoffset = 3 }     # Jan 1 is Thursday
-elsif ( $thisyear == 2016 ) { $dayoffset = 4 }     # Jan 1 is Friday
-elsif ( $thisyear == 2017 ) { $dayoffset = -1 }    # Jan 1 is Sunday
-elsif ( $thisyear == 2018 ) { $dayoffset = 0 }     # Jan 1 is Monday
-elsif ( $thisyear == 2019 ) { $dayoffset = 1 }     # Jan 1 is Tuesday
-elsif ( $thisyear == 2020 ) { $dayoffset = 2 }     # Jan 1 is Wednesday
-elsif ( $thisyear == 2021 ) { $dayoffset = 4 }     # Jan 1 is Friday
-elsif ( $thisyear == 2022 ) { $dayoffset = 5 }     # Jan 1 is Saturday
-elsif ( $thisyear == 2023 ) { $dayoffset = -1 }    # Jan 1 is Sunday
-elsif ( $thisyear == 2024 ) { $dayoffset = 0 }     # Jan 1 is Monday
-elsif ( $thisyear == 2025 ) { $dayoffset = 2 }     # Jan 1 is Wednesday
-else                        { $dayoffset = 0 }
-
-$thisdayoff = $thisday + $dayoffset;
-$thisweek   = 1 + int $thisday / 7;
+my ($thisyear, $thisweek) = get_thisyear_and_thisweek();
 
 $rtc = 0;
 

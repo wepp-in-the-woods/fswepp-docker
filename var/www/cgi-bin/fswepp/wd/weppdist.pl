@@ -1,11 +1,11 @@
 #!/usr/bin/perl
 
-use warnings;
-
 use CGI;
 use CGI qw(escapeHTML);
 
-use MoscowFSL::FSWEPP::FsWeppUtils qw(CreateSlopeFile printdate get_version);
+use warnings;
+
+use MoscowFSL::FSWEPP::FsWeppUtils qw(get_version);
 
 #
 #  Disturbed WEPP input screen -- new format, no veg calibration needed
@@ -20,9 +20,7 @@ use MoscowFSL::FSWEPP::FsWeppUtils qw(CreateSlopeFile printdate get_version);
 ## BEGIN HISTORY ###################################
 ## Disturbed WEPP 2.0 version history
 
-my $file = __FILE__;
-my $version = get_version($file);
-
+my $version = get_version(__FILE__);
 #  $version = '2014.04.14';    # Describe changes to soil database parameter values
 #  $version = '2013.07.01';	# Fix Tahoe Basin artifact limiting OFE1 veg options for "rock/pavement" (loam)
 #  $version = '2013.03.01';	# Sort personal climates (newest at top) and standard climates (by name)
@@ -59,7 +57,7 @@ my $version = get_version($file);
 
 $cgi = CGI->new;
 
-$units = escapeHTML( $cgi->param('units') );
+$units = escapeHTML($cgi->param('units'));
 if    ( $units eq 'm' )  { $areaunits = 'ha' }
 elsif ( $units eq 'ft' ) { $areaunits = 'ac' }
 else                     { $units     = 'ft'; $areaunits = 'ac' }
@@ -78,16 +76,16 @@ if ( $me ne "" ) {
 }
 if ( $me eq " " ) { $me = "" }
 
-$working     = '../working/';                             # DEH 08/22/2000
-$public      = $working . 'public/';                      # DEH 09/21/2000
-$user_ID     = $ENV{'REMOTE_ADDR'};
-$user_really = $ENV{'HTTP_X_FORWARDED_FOR'};              # DEH 11/14/2002
-$user_ID     = $user_really if ( $user_really ne '' );    # DEH 11/14/2002
-$user_ID =~ tr/./_/;
-$user_ID = $user_ID . $me . '_';                          # DEH 03/05/2001
-$logFile = '../working/' . $user_ID . '.log';
-$cliDir  = '../climates/';
-$custCli = '../working/' . $user_ID;                      # DEH 03/02/2001
+    $working     = '../working/';                             # DEH 08/22/2000
+    $public      = $working . 'public/';                      # DEH 09/21/2000
+    $user_ID     = $ENV{'REMOTE_ADDR'};
+    $user_really = $ENV{'HTTP_X_FORWARDED_FOR'};              # DEH 11/14/2002
+    $user_ID     = $user_really if ( $user_really ne '' );    # DEH 11/14/2002
+    $user_ID =~ tr/./_/;
+    $user_ID = $user_ID . $me . '_';                          # DEH 03/05/2001
+    $logFile = '../working/' . $user_ID . '.log';
+    $cliDir  = '../climates/';
+    $custCli = '../working/' . $user_ID;                      # DEH 03/02/2001
 
 ########################################
 
@@ -950,6 +948,7 @@ print <<'theEnd';
 <HR>
 theEnd
 
+
 print '>                                                              
 
 <font size=-2>
@@ -974,6 +973,8 @@ Online at &lt;https://forest.moscowfsl.wsu.edu/fswepp&gt;.
 $remote_host    = $ENV{'REMOTE_HOST'};
 $remote_address = $ENV{'REMOTE_ADDR'};
 
+# $wc  = `wc ../working/_2016/wd2.log`;
+# $wc  = `wc ../working/_2017/wd2.log`;
 $wc    = `wc ../working/' . currentLogDir() . '/wd2.log`;
 @words = split " ", $wc;
 $runs  = @words[0];
@@ -987,3 +988,4 @@ print "
  </body>
 </html>
 ";
+

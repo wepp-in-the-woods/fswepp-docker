@@ -4,7 +4,7 @@ use warnings;
 use CGI;
 use CGI qw(escapeHTML);
 use MoscowFSL::FSWEPP::CligenUtils qw(CreateCligenFile GetParSummary GetAnnualPrecip);
-use MoscowFSL::FSWEPP::FsWeppUtils qw(CreateSlopeFile printdate);
+use MoscowFSL::FSWEPP::FsWeppUtils qw(CreateSlopeFile printdate get_version get_thisyear_and_thisweek);
 
 use String::Util qw(trim);
 
@@ -13,51 +13,9 @@ use String::Util qw(trim);
 # Disturbed WEPP workhorse
 # Reads user input from weppdist.pl, runs WEPP, parses output files
 
-# Needed update: automatic history popup
-
-# *** Modify each new year ***
-#     $thisdayoff=$thisday+3;                            # [Jan 1] -1: Sunday; 0: Monday
-
-# 2010.06.11 DEH -- Correct call to descpar.pl
-# 2010.04.22 DEH -- fix log report $ofe1_length to $user_ofe1_length etc (Earthday 40)
-# 2010.04.22 DEH -- more error-checking
-# 2009.11.02 DEH -- Add user IP logging
-# 2009.02.23 DEH -- Switch to WEPP version 2008.907 (optional)
-# 2008.06.04 DEH -- Record LAT/Long to wd.log
-# 2007.04.04 DEH -- Make aware of Description user input field
-# 2006.02.23 DEH -- Report Run ID ($unique)
-# 2006.01.20 DEH -- Increase Sed yield $asyp $user_asypa to 4 decimal places from 2
-# 2004.10.14 DEH -- increase 2 to 3 decimal places $user_asyra $user_asypa
-# 2004.02.18 DEH  -- Add popup history rather than external file
-#			remove "full output" connect from input screen
-# 2004.02.13 DEH  -- call showslopefile etc; move to after files created
-# 11 Feb 2004 DEH -- add Javascript functions showslopefile etc.
-#                    :: need to add calls and retain data
-# 13 Jan 2004 DEH -- include $unique in "describe soil"
-#                    make version number active in "describe soil"
-# 07 Jan 2004 DEH -- 'based of' to 'based on'; report CLIGEN version
-# 06 Jan 2004 DEH -- Font, English units to soil description plus touchups
-# 28 Nov 2003 DEH -- Print soil file as created at end
-# 24 Nov 2003 DEH -- Font face and size cleanup
-# 08 Jul 2003 DEH -- Correct spelling of "occurrence"
-# 14 Nov 2002 DEH -- Handle proxy IP block for log file
-# 10 Oct 2001 SDA -- Handle Rock Fragment % and remove AREA
-# 07 Mar 2001 DEH -- Patch for extendedoutput (WP only)
-# 25 Sep 2000 DEH -- Change heading on probability table
-# 24 May 2000 DEH -- Fix input-check for proper units
-# 24 May 2000 DEH -- Get user ID ($me) from form; shrubbery
-# 10 Apr 2000 DEH -- Veg check biomass in t/ac
-# 06 Jan 2000
-# 04 November 1999
-# David Hall, USDA Forest Service, Rocky Mountain Research Station
-
-$debug = 1;
-
-$version = "2009.02.23";
-
-#   $version = "2007.04.04";
-#   $version = "2006.01.20";
-#   $version = "2004.02.13";
+my $debug = 1;
+my $version = get_version(__FILE__);
+my ( $thisyear, $thisweek ) = get_thisyear_and_thisweek();
 
 #=========================================================================
 
@@ -1386,12 +1344,6 @@ flock CLIMLOG, 2;
 print CLIMLOG 'Disturbed WEPP: ', trim($climate_name);
 close CLIMLOG;
 
-$thisday = 1 + (localtime)[7];    # $yday, day of the year (0..364)
-
-#    $thisdayoff=$thisday+3;                            # [Jan 1] -1: Sunday; 0: Monday
-$thisdayoff =
-  $thisday + 4;    # [Jan 1] -1: Su; 0: Mo; 1: Tu; 2: We; 3: Th; 4: Fr; 5: Sa
-$thisweek   = 1 + int $thisdayoff / 7;
 $ditlogfile = '>>../working/wd/' . $thisweek;    # modify this
 open MYLOG, $ditlogfile;
 flock MYLOG, 2;                                  # 2005.02.09 DEH

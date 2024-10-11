@@ -212,22 +212,17 @@ var speciesIdx = myform.species.selectedIndex;
    <tr>
     <td>
      <img src="/fuels/whrm/images/borealtoad4_Pilliod.jpg"  alt="Wildlife Habitat Response Model" align="left">
-     <!--img src="/fuels/whrm/images/borealowl.jpg" alt="Wildlife Habitat Response Model" align="left" width="104" height="124"-->
     </td>
     <td align="center"><hr>
      <h2>Wildlife Habitat Response Model</h2>
-     <!--<img src="src="/fswepp/images/underc.gif" border=0 width=532 height=34>-->
-     <!--<img src="/fswepp/images/underc.gif" border=0 width=532 height=34>-->
      <hr>
     </td>
     <td>
      <img src="/fuels/whrm/images/grayjay3_Pilliod.jpg"  alt="Wildlife Habitat Response Model" align="right" width=156 height=117>
-<!--img src="/fuels/whrm/images/flyingsquirrel_kateshick.jpg" alt="Wildlife Habitat Response Model" align="right" width="87" height="123"-->
     </td>
    </tr>
   </table>
   <center>
-   <!--form method="post" name="wildlifem" action="https://localhost/Scripts/fuels/whrm/twhrm3.pl" onsubmit="return checkform()" -->  <!-- DEH -->
    <form method="post" name="wildlifem" action="/cgi-bin/fuels/whrm/twhrm3.pl" onsubmit="return checkform()">  <!-- DEH -->
     <table align="center" border="2" id="table1">
      <caption>

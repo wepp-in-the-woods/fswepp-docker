@@ -5,13 +5,12 @@ use CGI;
 use CGI qw(escapeHTML header);
 
 use MoscowFSL::FSWEPP::CligenUtils qw(CreateCligenFile GetParSummary);
-use MoscowFSL::FSWEPP::FsWeppUtils qw(CreateSlopeFileWeppRoad get_version printdate);
+use MoscowFSL::FSWEPP::FsWeppUtils qw(CreateSlopeFileWeppRoad get_version printdate get_thisyear_and_thisweek);
 
 use String::Util qw(trim);
 
 #  wr.pl -- WEPP:Road workhorse
 
-#  *** modify for each new year *** $thisdayoff
 #
 #  FS WEPP
 #  USDA Forest Service, Rocky Mountain Research Station
@@ -89,91 +88,12 @@ use String::Util qw(trim);
 
 $| = 1;    # flush output buffers
 
-## BEGIN HISTORY ####################################################
-# WEPP:Road Version History
+my $version = get_version(__FILE__);
+my $debug = 0;
+my ($thisyear, $thisweek) = get_thisyear_and_thisweek();
+my $weppversion = "wepp2010";
 
-$version = get_version(__FILE__);
-
-# $version = '2023.08.16';    # docker refactor
-#  $version = '2015.03.02';	# Remove Provisional proviso
-#  $version = '2012.12.31';	# complete move to year-based logging (2012 through 2020)
-#  $version = '2012.11.20';	# Revise hisory display
-#  $version = "2011.03.25";	# Allow WEPP 2010 executable run
-#  $version = "2011.04.12";	# CRLF of results file also broke sediment delivery parse -- fixed (needed a "chomp" for $syp)
-#  $version = "2011.04.12";	# Fixed another break in 2011, CRLF effect of results file broke Javascript of display of files
-#    2011.03.29 DEH Oops, I broke it Friday with the 2000/2010 option. Fixed.
-#  $version = "2011.03.25";	# Select WEPP2000 or WEPP2010 added (altho calling screen not modified to specify)
-#  $version = "2009.10.13";	# Change display of vegetation file to allow full file display (had been truncated for brevity)
-#  $version = "2009.02.23";	# Add WEPP version option, Reduce baseline interrill erodibility (k<sub>i</sub>) for low- and no-traffic conditions
-#  $version = "2008.06.04";	# Record Lat/Long to wr.log
-#  $version = "2006.09.18";	# Reformat INPUT report, change extended to WEPP results, paint results table, move calculated %rock, Remove you must be connected to the Internet, shall I try? message on comment link
-#  $version = "2006.09.14";	# Report user climate parameters
-#  $version = "2006.02.23";	# Print $unique in output and in title of each file listing popup; unlink $newSoilFile
-#!   2005.07.14 DEH Write climate name to working/lastclimate.txt
-#  $version = "2004.01.06";	# reduce Ki to 25% for low- and no-traffic
-#    24 Dec 2003 DEH move wrdev to wr and change internal pointers
-#  $version = "2003.12.19";	# Print almost proper error page for users who skate by the input checks (history popup inactive on error report page)
-#    18 Nov 2003 DEH remove "mailto:" links (link to personnel pages)
-#  $version = "2003.1114";	# logstuff.pl to logstuffwr.pl, Adjust critical shear values for some soil files, Report traffic level and rock content inputs, Report derived rock content for road, fill, and buffer, Add link to display WEPP slope input file, Add link to display WEPP soil input file, Add link to display part of WEPP vegetation (management) input file, Add link to display WEPP weather station (climate) parameter file, Add link to display WEPP extended output file, Change results version history to pop-up window, Clean up type faces
-#    09 Oct 2003 DEH Extend report from "vegetation" (.man file)
-#    2002.11.14  proxy/NAT workaround (HTTP_X_FORWARDED_FOR)
-#    09 Jul 2002 DEH messed about...
-#    18 Jun 2002 SDA rebuilt ".man" files and corrected "$traffic"
-#    21 Dec 2001 SDA changed ("$traffic eq 'none') adjustment
-#    05 Nov 2001 SDA changed ".man" files
-#    18 Apr 2001 DEH changed "awry" error message
-#    07 Mar 2001 DEH add missing "paved" mod (to CreateResponse)
-#    06 Mar 2001 DEH from "forest" changes 08/21/00 08/03/00
-#       Hakjun Rhee -- add pavement capability
-#    13 October 2000 DEH add "align=right" for snowmelt table...
-#                  Display WEPP error file if unsuccessful run.
-#                  Adjust alignment for snowmelt table
-#                  Make unit-conversion consistent with other server (change signif. digits for precipitation
-#    2000.08.21 Add pavement capability
-#    August 02, 2000 fixed unrutted < -- > rutted management (thanks, Jun!)
-#     Modified <pre> to <font face=courier><pre> for Netscape
-#     Removed one extraneous </pre>      03/31/2000  DEH
-#     Corrected unlink to delete used-up files.
-#    07 June 2000     DEH  changed sig. dig. output for English precip, rro, sro;
-#                          align right same
-#    13 April 2000    DEH  'clay' -> 'clay loam' etc. for input report and wr log
-#                        'inbare' -> 'insloped bare' etc. for wr log
-#                        removed document.write(lastmodified) -- bad date under NN!
-## END HISTORY ######################################################
-
-$debug = 0;
-
-#  determine which week the model is being run, for recording in the weekly runs log
-
-#   $thisday   -- day of the year (1..365)
-#   $thisyear  -- year of the run (ie, 2012)
-#   $dayoffset -- account for which day of the week Jan 1 is: -1: Su; 0: Mo; 1: Tu; 2: We; 3: Th; 4: Fr; 5: Sa.
-
-$thisday  = 1 + (localtime)[7];      # $yday, day of the year (0..364)
-$thisyear = 1900 + (localtime)[5];
-
-if    ( $thisyear == 2010 ) { $dayoffset = 4 }     # Jan 1 is Friday
-elsif ( $thisyear == 2011 ) { $dayoffset = 5 }     # Jan 1 is Saturday
-elsif ( $thisyear == 2012 ) { $dayoffset = -1 }    # Jan 1 is Sunday
-elsif ( $thisyear == 2013 ) { $dayoffset = 1 }     # Jan 1 is Tuesday
-elsif ( $thisyear == 2014 ) { $dayoffset = 2 }     # Jan 1 is Wednesday
-elsif ( $thisyear == 2015 ) { $dayoffset = 3 }     # Jan 1 is Thursday
-elsif ( $thisyear == 2016 ) { $dayoffset = 4 }     # Jan 1 is Friday
-elsif ( $thisyear == 2017 ) { $dayoffset = -1 }    # Jan 1 is Sunday
-elsif ( $thisyear == 2018 ) { $dayoffset = 0 }     # Jan 1 is Monday
-elsif ( $thisyear == 2019 ) { $dayoffset = 1 }     # Jan 1 is Tuesday
-elsif ( $thisyear == 2020 ) { $dayoffset = 2 }     # Jan 1 is Wednesday
-elsif ( $thisyear == 2021 ) { $dayoffset = 4 }     # Jan 1 is Friday
-elsif ( $thisyear == 2022 ) { $dayoffset = 5 }     # Jan 1 is Saturday
-elsif ( $thisyear == 2023 ) { $dayoffset = -1 }    # Jan 1 is Sunday
-elsif ( $thisyear == 2024 ) { $dayoffset = 0 }     # Jan 1 is Monday
-elsif ( $thisyear == 2025 ) { $dayoffset = 2 }     # Jan 1 is Wednesday
-else                        { $dayoffset = 0 }
-
-$thisdayoff = $thisday + $dayoffset;
-$thisweek   = 1 + int $thisdayoff / 7;
-
-$cgi = CGI->new;
+my $cgi = CGI->new;
 $action =
     escapeHTML( $cgi->param('ActionC') )
   . escapeHTML( $cgi->param('ActionW') )
@@ -187,8 +107,6 @@ $units        = escapeHTML( $cgi->param('units') );
 $achtung      = escapeHTML( $cgi->param('achtung') );
 $CL           = escapeHTML( $cgi->param('Climate') );
 $climate_name = escapeHTML( $cgi->param('climate_name') );
-
-$weppversion = "wepp2010";
 
 ############################ start 2009.10.29 DEH
 
@@ -466,7 +384,6 @@ if ( $rcin >= 0 ) {
     print "<HTML>
  <HEAD>
   <TITLE>WEPP:Road Results</TITLE>  
-  <link rel=\"stylesheet\" type=\"text/css\" href=\"/fswepp/notebook.css\" />
    <script>
 ";
 
@@ -623,7 +540,6 @@ if ( $rcin >= 0 ) {
 
     print '
    </script>
-   <link rel="stylesheet" type="text/css" href="/fswepp/notebook.css" />
  </head>
  <BODY>
   <font face="Arial, Geneva, Helvetica">
@@ -691,7 +607,6 @@ else {
 <HTML>                                       
  <HEAD>                                      
    <TITLE>WEPP:Road -- error messages</TITLE>
-    <link rel="stylesheet" type="text/css" href="/fswepp/notebook.css">
  </HEAD>                                     
  <BODY>
   <font face="Arial, Geneva, Helvetica">
