@@ -558,12 +558,14 @@ foreach my $ii ( 0 .. $#climates ) {
     print '> ', $climates[$ii]->{'clim_name'}, "\n";
 }
 
-print "       </SELECT>
-      <tr><td align=center>
-      <input type=\"hidden\" name=\"achtung\" value=\"Run WEPP\" >
-      <input type=\"SUBMIT\" name=\"actionc\" value=\"Custom Climate\">
-      <input type=\"button\" value=\"Closest Wx\" onclick=\"javascript:popupclosest()\">
-";
+print qq(
+    </SELECT>
+    <tr><td align="center">
+    <input type="hidden" name="achtung" value="Run WEPP">
+    <button type="button" onclick="window.location.href='/cgi-bin/fswepp/rc/rockclim.pl?comefrom=wd&units=$units'">Custom Climate</button>
+    <input type="button" value="Closest Wx" onclick="popupclosest()">
+);
+
 #################
 #
 #      SOIL TEXTURES SELECTION
@@ -739,10 +741,6 @@ Elliot, William J.; Hall, David E. 2010. Disturbed WEPP Model 2.0. Ver. ',
 Moscow, ID: U.S. Department of Agriculture, Forest Service, Rocky Mountain Research Station. 
 Online at &lt;https://forest.moscowfsl.wsu.edu/fswepp&gt;.
 <br><br>
-<b>Disturbed WEPP version 1.0 
-(<a href="/cgi-bin/fswepp/wd1/weppdist.pl?units=m">metric</a>)
-(<a href="/cgi-bin/fswepp/wd1/weppdist.pl">U.S. units</a>) available for continuity</b>
-<br><br>
   Interface v.
   <a href="https://github.com/wepp-in-the-woods/fswepp-docker/commits/main/var/www/cgi-bin/fswepp/wd/weppdist.pl">',
   $version, '</a><br>
@@ -756,7 +754,7 @@ $runs  = @words[0];
 
 print "
    $remote_host &ndash; $remote_address ($user_really) personality '<b>$me</b>'<br>
-   Log of FS WEPP runs for IP and personality <a href=\"/cgi-bin/fswepp/runlogger.pl?ip=$remote_address$me\" target=\"_rl\">$remote_address$me</a>
+   Log of FS WEPP runs for IP and personality <a href=\"/cgi-bin/fswepp/runlogger.pl\" target=\"_rl\">$remote_address$me</a>
    <br>
    <b>$runs</b> Disturbed WEPP 2.0 Model runs YTD
    <br>

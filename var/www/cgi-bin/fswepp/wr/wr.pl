@@ -1202,7 +1202,7 @@ sub parseWeppResults {
        <font face='Arial, Geneva, Helvetica'>$climate_name<br>
         <font size=1>
 ";
-        print &GetParSummary($climatePar);
+        print &GetParSummary($climatePar, $units);
         print "
         </font>
        </font>

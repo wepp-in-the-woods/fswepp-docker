@@ -607,7 +607,7 @@ print <<'theEnd';
   <tr>
    <td align=center>
     <input type="hidden" name="achtung" value="Run WEPP">
-    <input type="SUBMIT" name="ActionC" value="Custom Climate">
+    <button type="button" onclick="window.location.href='/cgi-bin/fswepp/rc/rockclim.pl?comefrom=road&units=$units'">Custom Climate</button>
     <input type="button" value="Closest Wx" onclick="javascript:popupclosest()">
 
 <!--    <input type="submit" name="ActionCD" value="Describe">
@@ -765,7 +765,7 @@ print '  </FORM>
       USDA Forest Service Rocky Mountain Research Station<br>
       1221 South Main Street, Moscow, ID 83843<br>',
 "$remote_host &ndash; $remote_address ($user_really) personality '<b>$me</b>'<br>
-      Log of FS WEPP runs for IP and personality <a href=\"/cgi-bin/fswepp/runlogger.pl?ip=$remote_address$me\" target=\"_rl\">$remote_address$me</a><br>
+      Log of FS WEPP runs for IP and personality <a href=\"/cgi-bin/fswepp/runlogger.pl\" target=\"_rl\">$remote_address$me</a><br>
       <b>$runs</b> WEPP:Road runs YTD
      </font>
     </td>

@@ -605,11 +605,7 @@ for $ii ( 1 .. $num_cli ) {
 print <<'theEnd';
        </SELECT>
        <br>
-        <a
-          onMouseOver="window.status='Choose from 1600 climate stations, or modify one to suit your needs';return true"
-          onMouseOut="window.status='Forest Service WEPP:Road Batch';return true">
-         <input type="submit" name="ActionC" value="Custom Climate">
-        </a>
+         <button type="button" onclick="window.location.href='/cgi-bin/fswepp/rc/rockclim.pl?comefrom=wrbat&units=$units'">Custom Climate</button>
       </td>
       <td>
       </td>

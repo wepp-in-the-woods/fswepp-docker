@@ -577,7 +577,6 @@ foreach my $ii ( 0 .. $#climates ) {
 }
 
 #################
-# print <<'theEnd';
 print '      </SELECT>
       </td>
       <TD align="center" bgcolor="lightblue">
@@ -600,7 +599,7 @@ print '      </SELECT>
        <td align=center>
         <input type="hidden" size="5" name="climyears" value="50">
         <input type="hidden" name="achtung" value="Run BIOMASS">
-        <input type="SUBMIT" name="actionc" value="Custom Climate">
+        <button type="button" onclick="window.location.href='/cgi-bin/fswepp/rc/rockclim.pl?comefrom=biomass&units=$units'">Custom Climate</button>
        </td>
       </tr>
     </table>

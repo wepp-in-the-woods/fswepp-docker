@@ -1158,7 +1158,7 @@ if ( $rcin eq '' ) {
        <font size=1>
 ";
         if ( !$fc ) {
-            print &GetParSummary($climatePar);
+            print &GetParSummary($climatePar, $units);
         }
         print "
        </font>

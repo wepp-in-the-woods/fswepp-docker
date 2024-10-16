@@ -80,12 +80,6 @@ $user_ID = $user_ID . $me;
 $logFile = "../working/" . $user_ID . ".wrblog";
 if ( $host eq "" ) { $host = 'unknown' }
 
-# ======================  CUSTOM CLIMATE  ======================
-
-if ( lc($action) =~ /custom/ ) {
-    $wepproadbat = "/cgi-bin/fswepp/wr/wepproadbat.pl";
-    exec "../rc/rockclim.pl -server -i$me -u$units $wepproadbat";
-}
 
 # ======================  DESCRIBE CLIMATE  ======================
 
@@ -1823,7 +1817,7 @@ sub display_log {
         <font face='arial, helvetica, sans serif'>$climate_name<br>
          <font size=1>
 ";
-        print &GetParSummary($climatePar);
+        print &GetParSummary($climatePar, $units);
         print "
          </font>
         </font>

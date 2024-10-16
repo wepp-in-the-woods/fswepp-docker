@@ -3,10 +3,11 @@ use CGI;
 use CGI qw(escapeHTML);
 
 use warnings;
+
 use MoscowFSL::FSWEPP::CligenUtils
   qw(CreateCligenFile GetParSummary GetAnnualPrecip);
 use MoscowFSL::FSWEPP::FsWeppUtils
-  qw(CreateSlopeFile printdate get_version get_thisyear_and_thisweek);
+  qw(CreateSlopeFile printdate get_version get_thisyear_and_thisweek CreateSoilFile);
 
 use String::Util qw(trim);
 
@@ -20,49 +21,41 @@ my $debug = 0;
 
 print "Content-type: text/html\n\n";
 
-my $current_file = __FILE__;
-my $version      = get_version($current_file);
+my $version      = get_version(__FILE__);
 my ( $thisyear, $thisweek ) = get_thisyear_and_thisweek();
 
 #=========================================================================
 
-$cgi            = CGI->new;
-$CL             = escapeHTML( $cgi->param('Climate') );
-$soil           = escapeHTML( $cgi->param('SoilType') );
-$treat1         = escapeHTML( $cgi->param('UpSlopeType') );
-$ofe1_length    = escapeHTML( $cgi->param('ofe1_length') ) + 0;
-$ofe1_top_slope = escapeHTML( $cgi->param('ofe1_top_slope') ) + 0;
-$ofe1_mid_slope = escapeHTML( $cgi->param('ofe1_mid_slope') ) + 0;
-$ofe1_pcover    = escapeHTML( $cgi->param('ofe1_pcover') ) + 0;
-$ofe1_rock      = escapeHTML( $cgi->param('ofe1_rock') ) + 0;
-$treat2         = escapeHTML( $cgi->param('LowSlopeType') );
-$ofe2_length    = escapeHTML( $cgi->param('ofe2_length') ) + 0;
-$ofe2_mid_slope = escapeHTML( $cgi->param('ofe2_top_slope') ) + 0;
-$ofe2_bot_slope = escapeHTML( $cgi->param('ofe2_bot_slope') ) + 0;
-$ofe2_pcover    = escapeHTML( $cgi->param('ofe2_pcover') ) + 0;
-$ofe2_rock      = escapeHTML( $cgi->param('ofe2_rock') ) + 0;
-$ofe_area       = escapeHTML( $cgi->param('ofe_area') ) + 0;
-$action =
+my $cgi            = CGI->new;
+my $CL             = escapeHTML( $cgi->param('Climate') );
+my $soil           = escapeHTML( $cgi->param('SoilType') );
+my $treat1         = escapeHTML( $cgi->param('UpSlopeType') );
+my $ofe1_length    = escapeHTML( $cgi->param('ofe1_length') ) + 0;
+my $ofe1_top_slope = escapeHTML( $cgi->param('ofe1_top_slope') ) + 0;
+my $ofe1_mid_slope = escapeHTML( $cgi->param('ofe1_mid_slope') ) + 0;
+my $ofe1_pcover    = escapeHTML( $cgi->param('ofe1_pcover') ) + 0;
+my $ofe1_rock      = escapeHTML( $cgi->param('ofe1_rock') ) + 0;
+my $treat2         = escapeHTML( $cgi->param('LowSlopeType') );
+my $ofe2_length    = escapeHTML( $cgi->param('ofe2_length') ) + 0;
+my $ofe2_mid_slope = escapeHTML( $cgi->param('ofe2_top_slope') ) + 0;
+my $ofe2_bot_slope = escapeHTML( $cgi->param('ofe2_bot_slope') ) + 0;
+my $ofe2_pcover    = escapeHTML( $cgi->param('ofe2_pcover') ) + 0;
+my $ofe2_rock      = escapeHTML( $cgi->param('ofe2_rock') ) + 0;
+my $ofe_area       = escapeHTML( $cgi->param('ofe_area') ) + 0;
+my $action =
     escapeHTML( $cgi->param('actionc') )
   . escapeHTML( $cgi->param('actionv') )
   . escapeHTML( $cgi->param('actionw') )
   . escapeHTML( $cgi->param('ActionCD') );
-$me          = escapeHTML( $cgi->param('me') );
-$units       = escapeHTML( $cgi->param('units') );
-$achtung     = escapeHTML( $cgi->param('achtung') );
-$climyears   = escapeHTML( $cgi->param('climyears') );
-$description = escapeHTML( $cgi->param('description') );
+my $me          = escapeHTML( $cgi->param('me') );
+my $units       = escapeHTML( $cgi->param('units') );
+my $achtung     = escapeHTML( $cgi->param('achtung') );
+my $climyears   = escapeHTML( $cgi->param('climyears') );
 
-$weppversion = "wepp2010";
-### filter bad stuff out of description ###
-#   limit length to reasonable (200?)
-#   remove HTML tags ( '<' to &lt; and '>' to &gt; )
-$description = substr( $description, 0, 100 );
-$description =~ s/</&lt;/g;
-$description =~ s/>/&gt;/g;
-###
+my $weppversion = "wepp2010";
+my $description = escapeHTML( $cgi->param('description') );
 
-### back-compatibility for Disturbed WEPP Batch calls    DEH 2011.04.08
+my $soil_db_file = '/var/www/cgi-bin/fswepp/wd/data/soilbase2014.yaml';
 
 if ( $treat1 eq 'tree20' ) { $treat1 = 'OldForest' }
 if ( $treat1 eq 'tree5' )  { $treat1 = 'YoungForest' }
@@ -154,8 +147,12 @@ if ( lc($achtung) =~ /describe soil/ ) {    ##########
     $soilFile = "$working/$unique" . '.sol';
     $soilPath = 'data/';                       # DEH 20110408
 
-    &CreateSoilFile;
-
+    CreateSoilFile(
+        "97.3",    $soil,         $treat1,
+        $treat2,   $ofe1_rock,    $ofe2_rock,
+        $soilFile, $soil_db_file, $debug
+    );
+    
     open SOIL, "<$soilFile";
     $weppver = <SOIL>;
     $comment = <SOIL>;
@@ -260,11 +257,7 @@ if ( lc($achtung) =~ /describe soil/ ) {    ##########
   <p>
   <hr>
   <p>
-<!-- <form method="post" action="wepproad.sol">
-    <input type="submit" value="DOWNLOAD">
-    <input type="hidden" value="', $soilFile, '" name="filename">
-   </form>
--->
+
 ';
 
     open SOIL, "<$soilFile";
@@ -389,8 +382,11 @@ if ( $rcin eq '' ) {
     ( $climateFile, $climatePar ) =
       &CreateCligenFile( $CL, $unique, $years2sim, $debug );
 
-    if ($debug) { print "Creating Soil File<br>\n" }
-    &CreateSoilFile;
+    CreateSoilFile(
+        "97.3",    $soil,         $treat1,
+        $treat2,   $ofe1_rock,    $ofe2_rock,
+        $soilFile, $soil_db_file, $debug
+    );
 
     if ($debug) { print "Creating WEPP Response File<br>\n" }
     &CreateResponseFile;
@@ -826,7 +822,7 @@ if ( $rcin eq '' ) {
        <br>
        <font size=1>
 ";
-        print &GetParSummary($climatePar);
+        print &GetParSummary($climatePar, $units);
         print "
        </font>
       </td>
@@ -1833,82 +1829,6 @@ $years2sim\t# `nrots' - <rotation repeats..>
     close MANFILE;
 }
 
-sub CreateSoilFile {
-
-    $fcover1 = $ofe1_pcover / 100;
-    $fcover2 = $ofe2_pcover / 100;
-
-    $outer_offset       = {};
-    $outer_offset{sand} = 5;
-    $outer_offset{silt} = 24;
-    $outer_offset{clay} = 43;
-    $outer_offset{loam} = 62;
-
-    $inner_offset         = {};
-    $inner_offset{skid}   = 0;
-    $inner_offset{high}   = 2;
-    $inner_offset{low}    = 4;
-    $inner_offset{short}  = 6;
-    $inner_offset{tall}   = 8;
-    $inner_offset{shrub}  = 10;
-    $inner_offset{tree5}  = 12;
-    $inner_offset{tree20} = 14;
-
-    $inner_offset{Skid}        = 0;
-    $inner_offset{HighFire}    = 2;
-    $inner_offset{LowFire}     = 4;
-    $inner_offset{Sod}         = 6;
-    $inner_offset{Bunchgrass}  = 8;
-    $inner_offset{Shrub}       = 10;
-    $inner_offset{YoungForest} = 12;
-    $inner_offset{OldForest}   = 14;
-
-    $line_number1 = $outer_offset{$soil} + $inner_offset{$treat1};
-    $line_number2 = $outer_offset{$soil} + $inner_offset{$treat2};
-
-    open SOLFILE, ">$soilFile";
-
-    print SOLFILE "97.3
-#
-#      Created by 'wd.pl' (v $version)
-#      Numbers by: Bill Elliot (USFS)
-#
-2014 Disturbed WEPP database
- 2    1
-";
-
-    open SOILDB, "<data/soilbase2014";
-    for $i ( 1 .. $line_number1 ) {
-        $in = <SOILDB>;
-    }
-    chomp $in;
-    print SOLFILE $in, "\n";
-
-    $in        = <SOILDB>;
-    $index_rfg = index( $in, 'rfg' );
-    $left      = substr( $in, 0, $index_rfg );
-    $right     = substr( $in, $index_rfg + 3 );
-    $in        = $left . $ofe1_rock . $right;
-
-    print SOLFILE $in;
-    close SOILDB;
-
-    open SOILDB, "<data/soilbase2014";
-    for $i ( 1 .. $line_number2 ) {
-        $in = <SOILDB>;
-    }
-    chomp $in;
-    print SOLFILE $in, "\n";
-    $in        = <SOILDB>;
-    $index_rfg = index( $in, 'rfg' );
-    $left      = substr( $in, 0, $index_rfg );
-    $right     = substr( $in, $index_rfg + 3 );
-    $in        = $left . $ofe2_rock . $right;
-
-    print SOLFILE $in;
-    close SOILDB;
-    close SOLFILE;
-}
 
 sub CreateResponseFile {
 

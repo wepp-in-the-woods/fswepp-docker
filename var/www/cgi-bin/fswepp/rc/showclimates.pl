@@ -38,8 +38,6 @@ $me       = escapeHTML( $cgi->param('me') );
 
 # https://forest.moscowfsl.wsu.edu/cgi-bin/fswepp/rc/showclimates.pl?units=<script>document.cookie="testlfyg=5195;"</script>
 
-$unixserver = "false";
-
 ################################
 # Go to Show Personal Climates #
 ################################
@@ -127,7 +125,6 @@ if ( $states{$state} ) {
      document.sc.station.options[document.sc.station.selectedIndex].text
    alert('Look for this feature shortly: ' + station)
    document.displaypar.parfilename.value = filename
-//   document.displaypar.submit()
   }
 
 // -->
@@ -156,35 +153,13 @@ EOD
 <input type="hidden" name="units" value="', $units, '">
 <input type="hidden" name="startyear" value="1"><br>
 ';
-    if ( $unixserver eq 'true' ) {
-        open M, "<" . $state_file;
-        $st = <M>;    # California
 
-        #          print $st,"\n";
-        $st = <M>;    # <input type="hidden" name="state" value="ca">
-        print $st, "\n";
-        $_ = <M>;     # <select name="station">
-        print '<input type="hidden" name="station">', "\n";
-        while (<M>) {
-            chomp;
-            if ( $_ ne '</select>' ) {
-                ( $optval, $file, $stat ) = split /\"/;
-                $stat = substr( $stat, 1 );
-                chomp $stat;
-                print '<a href="/fswepp/need_js.html" onClick="Submit(';
-                print "'", $file, "'); return false", '">', $stat, "</a><br>\n";
-            }
-        }
-        close M;
-    }    #  $unixserver true
-    else {
-        open M, "<" . $state_file;
-        $st = <M>;
-        while (<M>) {
-            print;
-        }
-        close M;
-    }    # $unixserver false
+    open M, "<" . $state_file;
+    $st = <M>;
+    while (<M>) {
+        print;
+    }
+    close M;
 
     print "<P>\n";
 

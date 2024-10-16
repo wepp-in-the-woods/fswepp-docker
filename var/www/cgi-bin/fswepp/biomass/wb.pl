@@ -311,7 +311,7 @@ print "
         <b>$climatename</b><br>
         <font size=1>
 ";
-print &GetParSummary($climatePar);
+print &GetParSummary($climatePar, $units);
 print "
         </font>
       </td>

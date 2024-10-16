@@ -178,8 +178,6 @@ print <<'theEnd';
 
   function submitme(which) {
     document.forms.ermit.achtung.value=which
-//    if (which === "Describe Soil")
-//      document.forms.ermit.action = '/cgi-bin/fswepp/ermit/describe_soil.pl';
 
     document.forms.ermit.submit()
     return true
@@ -188,7 +186,6 @@ print <<'theEnd';
   function bushes() {
 
     var vegtype = document.ermit.vegetation.value
-//    alert(vegtype)
 
     if (vegtype == 'range') {
       document.ermit.pct_shrub.value = 15
@@ -1171,7 +1168,7 @@ foreach my $ii ( 0 .. $#climates ) {
 }
 
 #################
-print <<'theEnd1';
+print qq(
        </SELECT>
        <TD align="center">
         <SELECT NAME="SoilType" SIZE="4"
@@ -1204,7 +1201,7 @@ print <<'theEnd1';
       <tr>
        <td align=center>
       <input type="hidden" name="achtung" value="Run WEPP">
-      <input type="SUBMIT" name="actionc" value="Custom Climate">
+      <button type="button" onclick="window.location.href='/cgi-bin/fswepp/rc/rockclim.pl?comefrom=ermit&units=$units'">Custom Climate</button>
       <input type="button" value="Closest Wx" onclick="javascript:popupclosest()">
        </td>
        <td align="center">
@@ -1270,7 +1267,8 @@ print <<'theEnd1';
            onFocus="showRange(this.form,'Hillslope toe gradient: ',0,100,'%')"
            onBlur="blankStatus()">  %</b>&nbsp;&nbsp;
        </td>
-theEnd1
+);
+
 if ( $units eq 'm' ) {
     print '      <td align="center"><b>
        &nbsp;&nbsp;<input type="text" size="5" name="length"  value="100"
@@ -1387,7 +1385,7 @@ print
         $user_ID_really<br>";
 
 print
-"Log of FS WEPP runs for IP and personality <a href=\"/cgi-bin/fswepp/runlogger.pl?ip=$remote_address$me\" target=\"_rl\">$remote_address$me</a>";
+"Log of FS WEPP runs for IP and personality <a href=\"/cgi-bin/fswepp/runlogger.pl\" target=\"_rl\">$remote_address$me</a>";
 
 if ($debug) {
     print "

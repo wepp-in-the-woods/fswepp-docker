@@ -2024,7 +2024,7 @@ print "
        <br>
        <font size=1>
 ";
-print &GetParSummary($climatePar);
+print &GetParSummary($climatePar, $units);
 $severityclass_xx = $severityclass_x;    # 2013.06.14
 if ( $severityclass ne 'u' ) { $severityclass_xx .= ' soil burn severity on' }
 

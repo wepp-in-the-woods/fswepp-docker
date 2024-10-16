@@ -768,11 +768,12 @@ print "       </SELECT>
       <input type=\"hidden\" name=\"achtung\" value=\"Run WEPP\">
 ";
 if ( !$fc ) {
-    print "
-      <input type=\"SUBMIT\" name=\"actionc\" value=\"Custom\">
-      <input type=button value=Future onclick=\"javascript:click_future()\">
-      <input type=\"button\" value=\"Closest\" onclick=\"javascript:popupclosest()\">
-      <input type=\"hidden\" name=\"fc\" value=\"\">\n";
+    print qq (
+      <button type="button" onclick="window.location.href='/cgi-bin/fswepp/rc/rockclim.pl?comefrom=tahoe&units=$units'">Custom Climate</button>
+      <input type=button value=Future onclick="javascript:click_future()">
+      <input type="button" value="Closest" onclick="javascript:popupclosest()">
+      <input type="hidden" name="fc" value="">\n
+    );
 }
 else {
     print "      <input type=\"hidden\" name=\"fc\" value=\"*\">
@@ -1120,7 +1121,7 @@ $runs  = @words[0];
 
 print
 "Internet host &ndash; address (forwarded) 'personality': $remote_host &ndash; $remote_address ($user_really) '<b>$me</b>'<br>
-  Log of FS WEPP runs for IP and personality <a href=\"/cgi-bin/fswepp/runlogger.pl?ip=$remote_address$me\" target=\"_rl\">$remote_address$me</a><br>
+  Log of FS WEPP runs for IP and personality <a href=\"/cgi-bin/fswepp/runlogger.pl\" target=\"_rl\">$remote_address$me</a><br>
   <b>$runs</b> Tahoe Basin Sediment Model runs YTD
  </body>
 </html>

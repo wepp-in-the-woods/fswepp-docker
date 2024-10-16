@@ -2,100 +2,45 @@
 use warnings;
 use CGI qw(:standard escapeHTML);
 
-#  usage:
-#    ROCK:CLIM climate    action                units  comefrom
-#             (climatea) (-server | -download) (m|ft) ('https://localhost/wr.pl')
-#  parameters:
-#    $units
-#    $me
-#  reads
-#    c:/fswepp/working
-#    d:/fswepp/working
-#  environment variable
-#    $ENV{'REMOTE_ADDR'}
-#    $ENV{'HTTPD_X_FORWARDED_FOR'}
-#    $ENV{'HTTP_COOKIE'}
-#  calls:
-#    <form method="post" action="../rc/manageclimates.pl">
-#    <form method="post" Action="/cgi-bin/fswepp/rc/showclimates.pl">
-#    <form method="post" action="',$comefrom,'">
+use MoscowFSL::FSWEPP::FsWeppUtils qw(get_version get_user_id);
 
-#  FSWEPP, USDA Forest Service, Rocky Mountain Research Station, Soil & Water Engineering
-#  Science by Bill Elliot et alia                            Code by David Hall
-
-#  2014.10.06 DEH Modify 'Modify' button to include 'Share' and change 'SHOW ME' button text
-#  2014.09.30 DEH Search 'shared' directory and populate climate pick list from there
-#  2010.05.28 DEH reformat and tweak
-#  2010.05.28 DEH fix personality -- eek!
-#  2005.08.22 DEH add AOL connection warning
-#  26 Feb 2004 DEH Replace graphic "Return" button on stand-alone w/ "button"
-#                  add rockclim.pl version tag in html header
-#  19 Feb 2003 DEH add diagnostic user_address, user_host, user_really report
-#  23 Jul 2002 DEH removed nonfunctional "modify" button
-#  20 Apr 2001 DEH changed station parse from index(":") to 0..40
-#  02 Mar 2001 DEH Move user_ID check up a'la whitepine
-#	       DEH remove date stamp script for HTML page
-#	 	   This version uses *glob*
-#  19 Oct 1999 DEH
-
-#  $debug=1;
-
-$version = '2014.10.06';
-
-# $version = '2010.05.28';
-# $version = '2004.04.26';
-# $version = '2003.02.19';
-# $version = '2002.07.23';
-# $version = '2001.04.20';
+my $debug = 0;
+my $version = get_version(__FILE__);
+my $user_ID = get_user_id();
 
 ####################
 # Get input values #
 ####################
 
-$arg0 = $ARGV[0];
+my $arg0 = $ARGV[0];
 chomp $arg0;
-$arg1 = $ARGV[1];
+my $arg1 = $ARGV[1];
 chomp $arg1;
-$arg2 = $ARGV[2];
+my $arg2 = $ARGV[2];
 chomp $arg2;
-$arg3 = $ARGV[3];
+my $arg3 = $ARGV[3];
 chomp $arg3;
 
-$cookie = $ENV{'HTTP_COOKIE'};    # DEH 11/28/2000 moved up
-
-#    $sep = index ($cookie,"=");
-#    $me = "";
-#    if ($sep > -1) {$me = substr($cookie,$sep+1,1)}
-
-$me  = "";
-$sep = index( $cookie, "FSWEPPuser=" );
-if ( $sep > -1 ) { $me = substr( $cookie, $sep + 11, 1 ) }
-
-if ( $me ne "" ) {
-
-    #       $me = lc(substr($me,0,1));
-    #       $me =~ tr/a-z/ /c;
-    $me = substr( $me, 0, 1 );
-    $me =~ tr/a-zA-Z/ /c;
-}
-if ( $me eq " " ) { $me = "" }
-
-if ( $arg0 . $arg1 . $arg2 . $argv3 eq "" ) {
+my ($goback, $units, $action, $comefrom);
+if ( $arg0 . $arg1 . $arg2 . $arg3 eq "" ) {
     my $cgi = CGI->new;
 
+    print $cgi->header;
+    # print the cgi parameter names and values without dump
+    print $cgi->param('comefrom'), "\n";
+
+
     # Initialize parameters
-    my $goback   = $cgi->param('goback')   || '';
-    my $units    = $cgi->param('units')    || '';
-    my $action   = $cgi->param('action')   || '-download';
-    my $comefrom = $cgi->param('comefrom') || '';
-    my $me       = $cgi->param('me')       || '';
+    $goback   = $cgi->param('goback');
+    $units    = $cgi->param('units');
+    $action   = $cgi->param('action')   || '-download';
+    $comefrom = $cgi->param('comefrom');
 
     $goback   = escapeHTML($goback);
     $units    = escapeHTML($units);
     $action   = escapeHTML($action);
     $comefrom = escapeHTML($comefrom);
-    $me       = escapeHTML($me);
-    if ( $action eq "" ) { $action = "-download" }
+
 }
 else {
     if ( $arg0 eq "-um" || $arg0 eq "-uft" ) { $units = substr( $arg0, 2 ) }
@@ -109,22 +54,11 @@ else {
     if ( lc($arg2) =~ /http/ ) { $comefrom = $arg2 }
     if ( lc($arg1) =~ /http/ ) { $comefrom = $arg1 }
     if ( lc($arg0) =~ /http/ ) { $comefrom = $arg0 }
+
+    
 }
 
-###############################################
-# Get working, userID
-###############################################
-
-$user_ID        = $ENV{'REMOTE_ADDR'};
-$remote_address = $user_ID;                                  # DEH 02/19/2003
-$remote_host    = $ENV{'REMOTE_HOST'};                       # DEH 02/19/2003
-$user_really    = $ENV{'HTTP_X_FORWARDED_FOR'};              # DEH 11/14/2002
-$user_ID        = $user_really if ( $user_really ne '' );    # DEH 11/14/2002
-$user_ID =~ tr/./_/;
-$user_ID   = $user_ID . $me;                                 # DEH 03/05/2001
-$custCli   = '../working/' . $user_ID . '_';                 # DEH 03/05/2001
-$sharedCli = '../working/shared/';                           # DEH 09/16/2014
-$ip        = $user_ID;
+$custCli = '../working/' . $user_ID . '_';    # DEH 03/05/2001
 
 if ( $action ne "-server" ) { $action = "-download" }
 
@@ -140,7 +74,9 @@ print '<html>
  </head>
  <BODY bgcolor="white" link="#1603F3" vlink="160A8C">
  <font face="Arial, Geneva, Helvetica">
+
 ';
+
 
 if ( $action ne '-download' ) {
 
@@ -170,23 +106,6 @@ if ( $action ne '-download' ) {
 ###          get shared climates, if any          ###
 
 $clim_name = '';
-$climate_name[$num_cli] = ' === SHARED CLIMATES ===';
-$num_cli += 1;
-
-@fileNames = glob( $sharedCli . '*.par' );
-for $f (@fileNames) {
-    if ($debug) { print "Opening $f<br>\n"; }
-    open( M, "<$f" ) || die;    # cli file
-    $station = <M>;
-    close(M);
-    $climate_file[$num_cli] = substr( $f, 0, length($f) - 4 );
-
-    #      $clim_name = "*" . substr($station, index($station, ":")+2, 40);
-    $clim_name = "+" . substr( $station, 0, 40 );
-    $clim_name =~ s/^\s*(.*?)\s*$/$1/;
-    $climate_name[$num_cli] = $clim_name;
-    $num_cli += 1;
-}
 
 #####################################################
 #####################################################
@@ -207,6 +126,17 @@ else {
             alt="Return to WEPP:Road" border=2
             align=left width=50 height=50
             onMouseOver="window.status=\'Return to WEPP:Road input screen\'; return true"
+            onMouseOut="window.status=\' \'; return true"
+            onClick="retreat.submit()">
+            ';
+    }
+    elsif ( $comefrom =~ /wd/ ) {
+        print '
+            <a href="/cgi-bin/fswepp/wd/">
+            <img src="/fswepp/images/ermit.gif"
+            alt="Return to Disturbed WEPP" border=2
+            align=left width=50 height=50
+            onMouseOver="window.status=\'Return to ERMiT input screen\'; return true"
             onMouseOut="window.status=\' \'; return true"
             onClick="retreat.submit()">
             ';
@@ -268,7 +198,8 @@ if ($debug) {
     print "arg0: '$arg0'<br>
        arg1: '$arg1'<br>
        arg2: '$arg2'<br>
-       arg3: '$arg3'<br>";
+       arg3: '$arg3'<br>
+       comefrom: '$comefrom'<br>";
     print "units: '$units' \n";
     print "action: '$action'<br>\n";
 }
@@ -291,7 +222,7 @@ if ( $action ne '-download' ) {
      <tr>
       <th valign=top>
 ';
-    print "  <h3>Manage personal climates <sup>1</sup>";
+    print "  <h3>Manage personal climates";
     if ( $me ne '' ) { print "<br>for personality '$me'" }
     print "</h3><p>\n";
     if ( $num_cli == 0 ) { print "No personal climates exist<p><hr>\n" }
@@ -330,8 +261,6 @@ print '
     select a region below</h3>
      <form ACTION="/cgi-bin/fswepp/rc/showclimates.pl" method="post">
 ';
-
-# print "I am $me";
 
 print '
    <select name="state" size=15>';
@@ -451,8 +380,7 @@ print '</CENTER>
        <br><br>
        <b>rockclim.pl</b> (a part of Rock:Clime) version ', $version, '<br>
        USDA Forest Service Rocky Mountain Research Station<br>
-       1221 South Main Street, Moscow, ID 83843<br>',
-  "$remote_host &ndash; $remote_address ($user_really)", '
+       1221 South Main Street, Moscow, ID 83843<br>
      </td>                                                                      
      <td>
       <a href="/fswepp/comments.html" 

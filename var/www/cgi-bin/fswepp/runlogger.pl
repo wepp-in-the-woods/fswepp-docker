@@ -1,5 +1,9 @@
 #!/usr/bin/perl
+
+use warnings;
 use CGI qw(escapeHTML);
+
+use MoscowFSL::FSWEPP::FsWeppUtils qw(get_user_id);
 
 #
 # read given FS WEPP runlog file and return HTML
@@ -17,24 +21,20 @@ use CGI qw(escapeHTML);
 #      ?ip=166.2.22.220a	-- personality 'a'
 
 my $cgi        = CGI->new;
-my %parameters = map { $_ => escapeHTML( $cgi->param($_) ) } $cgi->param;
-$ip = escapeHTML( $parameters{'ip'} );
+$ip = escapeHTML( $cgi->param('ip') );
 
 # https://forest.moscowfsl.wsu.edu/cgi-bin/fswepp/runlogger.pl?ip=<meta%20http-equiv=Set-Cookie%20content="testlfyg=5195">
 
 if ( $ip ne '' ) {
     $ipd = $ip;
-    $ipd =~ tr/./_/;
 }
 
 #   $ipd = '166_2_22_221';			# get from caller or argument list
 else {    # who am I?
-    $ip          = $ENV{'REMOTE_ADDR'};
-    $user_really = $ENV{'HTTP_X_FORWARDED_FOR'};
-    $ip          = $user_really if ( $user_really ne '' );
-    $ipd         = $ip;
-    $ipd =~ tr/./_/;
+    $ip  = $ENV{'REMOTE_ADDR'};
+    $ipd = get_user_id();
 }
+$ipd =~ tr/./_/;
 
 ##################################################
 #   validate dotted quad
