@@ -3,8 +3,8 @@
 use warnings;
 use CGI;
 use CGI qw(escapeHTML header);
-use MoscowFSL::FSWEPP::CligenUtils qw(CreateCligenFile GetParSummary);
-use MoscowFSL::FSWEPP::FsWeppUtils qw(printdate get_version get_thisyear_and_thisweek);
+use MoscowFSL::FSWEPP::CligenUtils qw(CreateCligenFile GetParSummary GetStationName);
+use MoscowFSL::FSWEPP::FsWeppUtils qw(printdate get_version get_thisyear_and_thisweek );
 
 use POSIX qw(strftime);
 
@@ -62,8 +62,8 @@ $climyears = $cgi->param('climyears');
 
 if ( $units ne 'm' && $units ne 'ft' ) { $units = 'm' }
 
-$climatePar   = "$CL" . '.par';
-$climate_name = &getCligenStationName;
+my $climatePar   = "$CL" . '.par';
+my $climate_name = GetStationName($climatePar);
 
 if    ( $ST eq 'clay' ) { $STx = 'clay loam' }
 elsif ( $ST eq 'silt' ) { $STx = 'silt loam' }
@@ -1520,27 +1520,6 @@ sub checkInput {
     if ( $years2sim < 1 )   { $years2sim = 1 }
     if ( $years2sim > 200 ) { $years2sim = 200 }
     return $rc;
-}
-
-sub getCligenStationName {
-
-    #  $CL
-    #  $climatePar
-    #  $debug
-
-    #   my $climatePar = "$CL" . '.par';
-    if ( -e $climatePar ) {
-        open PAR, "<$climatePar";
-        my $station = <PAR>;
-        close PAR;
-        $station = substr( $station, 0, 40 );
-
-        #    if ($debug) {print "[getCligenStationName]<br>
-        #      ClimatePar:      $climatePar<br>
-        #      Station name:    $station<br>";
-        #    }
-        return $station;
-    }
 }
 
 sub printfield {

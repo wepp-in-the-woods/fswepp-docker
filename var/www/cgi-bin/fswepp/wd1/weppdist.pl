@@ -4,166 +4,22 @@ use warnings;
 use CGI;
 use CGI qw(escapeHTML);
 
+use MoscowFSL::FSWEPP::FsWeppUtils qw(get_user_id get_version get_units);
+use MoscowFSL::FSWEPP::CligenUtils qw(GetClimates);
+
 #
 #  Disturbed WEPP input screen
 #
 
-#  weppdist.pl -- input screen for Disturbed WEPP
-
-$version = '2009.09.17';    # Adjust FSWEPPuser personality
-
-#   $version = '2009.02.23';		# Adjust FSWEPPuser personality
-#   $version = '2007.04.04';
-#   $version = '2004.12.20';
-
-#  2009.09.17 DEH Patch for change in FSWEPPuser cookie
-#  2009.02.23 DEH Add radio button for WEPP version
-#  2007.04.04 DEH Add Description user input
-#  2004.12.20 DEH Modify "checkeverything" -- Error: 'this.form.climyears' is null or not an object (IE?)
-#						'this.form' has no properties (Mozilla)
-#  2004.10.13 DEH Add trailing '\\' to $working for platform eq 'pc'
-#  2004.02.18  DEH Remove Extended Output checkbox
-#  2004.01.05  DEH Adjust run counter message
-#  2003.12.03  DEH Add metric and non-metric limits on input (require adj)
-#  2003.11.28  DEH Add calls to checkRange (function already there)
-#                  "Explain treatment" to "Explain soil texture"
-#                  "Explain Cover" to "Explain cover"
-#                  "Explain Rock" to "Explain rock content"
-#  2002.11.14  DEH Patch for IP blocking
-#  2002.11.04  DEH Report remote_host and remote_address
-#  2002.01.08  DEH Removed errant return link of "dindex.html" & wrap pbs
-#  2001.10.10  SDA Removed AREA input, added ROCK FRAGMENT inputs
-#  2001.04.24  DEH Changed upper, lower treatment display 4 to 8
-#  2001.04.24  DEH [forest's 2000.10.13]
-#              DEH added more EXPLAIN links; into documentation
-#      to do:      move climate explanation into documentation
-#      to do:      add graphic for slope explanation
-#  2001.04.10  DEH add checkYears to # yrs (from WEPP:Road)
-#		add call to checkYears
-#		and call to existing showRange
-#		add minyears, maxyears, defyears
-#		add isNumber (existing call in CheckRange)
-#  2001.03.05  DEH fix $user_ID
-#  2000.12.05  DEH move documentation target to separate "docs" window
-#  2000.11.27  Update contact e-mails (Hall & Elliot)
-#  2000.09.15a Add capability to read PUBLIC (!) climates [03/02/2001]
-#  2000.09.15  Filter on $user_ID again for personal climates
-#  2000.08.22  Switched from [glob] to DIY climate file name extraction
-#                following lead in wepproad.pl
-#              Updated personal climate search a'la wepproad.pl
-
-#  usage:
-#    action = "weppdist.pl"
-#  parameters:
-#    units:             # unit scheme (ft|m)
-#    me
-#  reads environment variables:
-#       HTTP_COOKIE
-#       REMOTE_ADDR
-#       HTTP_X_FORWARDED_FOR
-#       REQUEST_METHOD
-#       QUERY_STRING
-#       CONTENT_LENGTH
-#  reads:
-#    ../climates/*.par  # standard climate parameter files
-#    $working/*.par     # personal climate parameter files
-#  calls:
-#    /cgi-bin/fswepp/wr/wr.pl
-#    /cgi-bin/fswepp/wr/logstuff.pl
-#  popup links:
-#    /fswepp/wr/wrwidths.html
-#    /fswepp/wr/rddesign.html
-
-#  FSWEPP, USDA Forest Service, Rocky Mountain Research Station,
-#  Soil & Water Engineering
-#  Science by Bill Elliot et alia
-#  Code by David Hall
-
-$cgi = CGI->new;
-
-$units = $cgi->param('units');
-if    ( $units eq 'm' )  { $areaunits = 'ha' }
-elsif ( $units eq 'ft' ) { $areaunits = 'ac' }
-else                     { $units     = 'ft'; $areaunits = 'ac' }
-
-$cookie = $ENV{'HTTP_COOKIE'};
-
-$sep = index( $cookie, "FSWEPPuser=" );
-$me  = "";
-if ( $sep > -1 ) { $me = substr( $cookie, $sep + 11, 1 ) }    # DEH 2009.09.17
-
-if ( $me ne "" ) {
-    $me = substr( $me, 0, 1 );
-    $me =~ tr/a-zA-Z/ /c;
-}
-if ( $me eq " " ) { $me = "" }
+my $version = get_version(__FILE__);
+my ($units, $areaunits)   = get_units();
+my $user_ID = get_user_id();
 
 $working     = '../working/';                                 # DEH 08/22/2000
-$public      = $working . 'public/';                          # DEH 09/21/2000
-$user_ID     = $ENV{'REMOTE_ADDR'};
-$user_really = $ENV{'HTTP_X_FORWARDED_FOR'};                  # DEH 11/14/2002
-$user_ID     = $user_really if ( $user_really ne '' );        # DEH 11/14/2002
-$user_ID =~ tr/./_/;
-$user_ID = $user_ID . $me . '_';                              # DEH 03/05/2001
 $logFile = '../working/' . $user_ID . '.log';
-$cliDir  = '../climates/';
 $custCli = '../working/' . $user_ID;                          # DEH 03/02/2001
 
-########################################
-
-### get personal climates, if any
-
-$num_cli = 0;
-
-opendir CLIMDIR, $working;                                    # DEH 06/14/2000
-@allpfiles = readdir CLIMDIR;                                 # DEH 05/05/2000
-close CLIMDIR;                                                # DEH 05/05/2000
-
-#   @fileNames = glob($custCli . '*.par');
-#   for $f (@fileNames) {
-for $f (@allpfiles) {    # DEH 05/05/2000
-    if ( index( $f, $user_ID ) == 0 ) {    # DEH 09/15/2000
-        if ( substr( $f, -4 ) eq '.par' ) {    # DEH 05/05/2000
-            $f = $working . $f;                # DEH 06/14/2000
-            open( M, "<$f" ) || goto pskip;    # DEH 05/05/2000
-            $station = <M>;
-            close(M);
-
-            #  print STDERR "$f\n";
-            $climate_file[$num_cli] = substr( $f, 0, -4 );
-            $clim_name =
-              '*' . substr( $station, index( $station, ":" ) + 2, 40 );
-            $clim_name =~ s/^\s*(.*?)\s*$/$1/;
-            $climate_name[$num_cli] = $clim_name;
-            $num_cli += 1;
-        }
-      pskip:    # DEH 05/05/2000
-    }    # DEH 05/05/2000
-}
-
-### get standard climates
-
-opendir CLIMDIR, '../climates';    # DEH 05/05/2000
-@allfiles = readdir CLIMDIR;       # DEH 05/05/2000
-close CLIMDIR;                     # DEH 05/05/2000
-
-for $f (@allfiles) {    # DEH 05/05/2000
-    $f = '../climates/' . $f;              # DEH 05/05/2000
-    if ( substr( $f, -4 ) eq '.par' ) {    # DEH 05/05/2000
-        open( M, $f ) || goto sskip;       # DEH 05/05/2000
-        $station = <M>;
-        close(M);
-
-        #  print STDERR "$f\n";
-        $climate_file[$num_cli] = substr( $f, 0, -4 );
-        $clim_name = substr( $station, index( $station, ":" ) + 2, 40 );
-        $clim_name =~ s/^\s*(.*?)\s*$/$1/;
-        $climate_name[$num_cli] = $clim_name;
-        $num_cli += 1;
-      sskip:                               # DEH 05/05/2000
-    }    # DEH 05/05/2000
-}
-$num_cli -= 1;
+my @climates = GetClimates($user_ID);
 
 ###################################################
 
@@ -383,23 +239,9 @@ popupwindow.focus()
 theEnd
 print "function StartUp() {\n";
 
-#print "    max_year = new MakeArray($num_cli);\n\n";
-print "    climate_name = new MakeArray($num_cli);\n";
-
-for $ii ( 0 .. $num_cli ) {
-
-    #    print "    max_year[$ii] = " . $climate_year[$ii] . ";\n";
-    print "    climate_name[$ii] = ", '"', $climate_name[$ii], '"', "\n";
-}
 print <<'theEnd';
-//    window.document.weppdist.Climate.selectedIndex = 0;
-//    window.document.weppdist.climyears.value = max_year[0];
-
     default_pcover = new MakeArray(7);
-//    default_pcover[0] = 2;	// forest road
     default_pcover[7] = 10;	// skid trail
-//    default_pcover[6] = 15;	// high fire       DEH 06/07/2000
-//    default_pcover[5] = 50;	// low fire        DEH 06/07/2000
     default_pcover[6] = 45;	// high fire
     default_pcover[5] = 85;	// low fire
     default_pcover[4] = 40;	// short grass
@@ -407,8 +249,6 @@ print <<'theEnd';
     default_pcover[2] = 80;	// shrub
     default_pcover[1] = 100;	// trees 5 year
     default_pcover[0] = 100;	// trees 20 year
-//   window.document.weppdist.ofe1.selectedIndex = 0;
-//   window.document.weppdist.ofe2.selectedIndex = 7;
     if (window.document.weppdist.Climate.selectedIndex == "") {
         window.document.weppdist.Climate.selectedIndex = 0;
     }
@@ -429,14 +269,7 @@ print <<'theEnd';
 
   function climYear() {        // change climate years to max for selected
     var which = window.document.weppdist.Climate.selectedIndex;
-//    window.document.weppdist.climyears.value=max_year[which];
     window.document.weppdist.climate_name.value=climate_name[which];
-//    var vegyear=Math.min (max_year[which],10);
-//    var simyear=Math.min (max_year[which],100);
-//    window.document.weppdist.actionv.value=vegyear + "vegetation calibration";
-//    window.document.weppdist.actionw.value=simyear + "WEPP run";
-//    window.document.weppdist.actionv.value="vegetation calibration";
-//    window.document.weppdist.actionw.value="WEPP run";
     window.document.weppdist.achtung.value="Calibrate vegetation";
     window.document.weppdist.achtung.value="WEPP run";
     return false;
@@ -577,17 +410,10 @@ print <<'theEnd';
        <TD align="center"><SELECT NAME="Climate" SIZE="5">
 theEnd
 
-### display personal climates, if any
-
-if ( $num_cli > 0 ) {
-    print '<OPTION VALUE="';
-    print $climate_file[0];
-    print '" selected> ', $climate_name[0], "\n";
-}
-for $ii ( 1 .. $num_cli ) {
-    print '<OPTION VALUE="';
-    print $climate_file[$ii];
-    print '"> ', $climate_name[$ii], "\n";
+foreach my $ii ( 0 .. $#climates ) {
+    print '<OPTION VALUE="', $climates[$ii]->{'clim_file'}, '"';
+    print ' selected' if $ii == 0;
+    print '> ', $climates[$ii]->{'clim_name'}, "\n";
 }
 
 #################

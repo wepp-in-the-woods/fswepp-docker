@@ -5,8 +5,8 @@ use CGI;
 use CGI qw(escapeHTML);
 use Scalar::Util 'looks_like_number';
 use MoscowFSL::FSWEPP::CligenUtils qw(CreateCligenFile GetParSummary);
-use MoscowFSL::FSWEPP::FsWeppUtils qw(CreateSlopeFile get_version printdate get_thisyear_and_thisweek);
-
+use MoscowFSL::FSWEPP::FsWeppUtils
+  qw(CreateSlopeFile get_version printdate get_thisyear_and_thisweek);
 
 use String::Util qw(trim);
 
@@ -16,14 +16,13 @@ use String::Util qw(trim);
 # Tahoe Basin Sediment Model workhorse * with phosphorus *
 # Reads user input from tahoe.pl, runs WEPP, parses output files
 
-my $verbose = 0; 
+my $verbose = 0;
 
 # $debug=1; # this breaks the page;
 my $weppversion = "wepp2010";
 
 my $version = get_version(__FILE__);
-my ($thisyear, $thisweek) = get_thisyear_and_thisweek();
-
+my ( $thisyear, $thisweek ) = get_thisyear_and_thisweek();
 
 print "Content-type: text/html\n\n";
 
@@ -441,7 +440,6 @@ if ( $rcin eq '' ) {
         $ofe1_length,    $ofe2_length,    $ofe_area,       $slopeFile,
         $ofe_width,      $debug
     );
-
 
     if ($verbose) { print "Creating Management File<br>\n"; }
 
@@ -1159,7 +1157,9 @@ if ( $rcin eq '' ) {
        <br>
        <font size=1>
 ";
-        print &GetParSummary($climatePar);
+        if ( !$fc ) {
+            print &GetParSummary($climatePar);
+        }
         print "
        </font>
       </td>
@@ -2142,7 +2142,8 @@ Moscow, ID: U.S. Department of Agriculture, Forest Service, Rocky Mountain Resea
 Online at &lt;https://forest.moscowfsl.wsu.edu/fswepp&gt;.
 <br><br>
      Tahoe Basin Sediment Model Results v.";
-print '     <a href="https://github.com/wepp-in-the-woods/fswepp-docker/commits/main/var/www/cgi-bin/fswepp/tahoe/wt.pl">';
+print
+'     <a href="https://github.com/wepp-in-the-woods/fswepp-docker/commits/main/var/www/cgi-bin/fswepp/tahoe/wt.pl">';
 print
   "     $version</a> based on <b>WEPP $weppver</b>, CLIGEN $cligen_version<br>";
 &printdate;
@@ -2247,7 +2248,6 @@ print RUNLOG "\"$description\"\n";
 close RUNLOG;
 
 # #####
-
 
 # ###########################    CreateSoilFile    #########################
 
@@ -2792,12 +2792,10 @@ sub ExtractCligenFile {
 
 }
 
-
 sub CreateManagementFileT {
 
 # new TAHOE management files
 # Add lines from Disturbed WEPP CreateManagementFileT for variable pcover  2012.11.02 DEH
-
 
     open MANFILE, ">$manFile";
 
@@ -2829,7 +2827,6 @@ $years2sim\t# (total) years in simulation
     #   ($ofe1_pcover > 100) ? $pcover = 100 : $pcover = $ofe1_pcover;
     $pcover = $ofe1_pcover
       ; # decided not to limit input cover to 100%; use whatever is entered (for now)
-
 
     while (<PS1>) {
         print MANFILE $_;    # print line to management file

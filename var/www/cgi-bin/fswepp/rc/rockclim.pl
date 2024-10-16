@@ -126,7 +126,6 @@ $custCli   = '../working/' . $user_ID . '_';                 # DEH 03/05/2001
 $sharedCli = '../working/shared/';                           # DEH 09/16/2014
 $ip        = $user_ID;
 
-
 if ( $action ne "-server" ) { $action = "-download" }
 
 #############
@@ -399,7 +398,6 @@ print <<'theEnd';
   <option value="nonus">International</option>
     </select>
 <br><br>
-    <!-- input type="submit" value="SHOW ME THE CLIMATES" --> 
     <input type="submit" value="Display Climate Stations"> 
 theEnd
 print '
@@ -419,10 +417,6 @@ if ( $comefrom eq "" ) {
   <form name="null">
    <input type="button" value="Retreat" onClick="JavaScript:location=\'/fswepp/\'">
   </form>
-<!--  <a href="JavaScript:location=\'/fswepp/\'">
-  <img src="/fswepp/images/retreat.gif"
-  alt="Return to input screen" border="0" align=center></A>
--->
 ';
 }
 else {
@@ -437,10 +431,6 @@ else {
 print '</CENTER>
  <P>
   <hr>
-   <font size=-2>
-  <sup>1</sup> Note: Personal climates are unreliable for AOL users. We are seeking a solution.
-               If you have an alternative connection to the Internet, we recommend using it.
-   </font>
    <table width=100% border=0>
     <tr>
      <td>

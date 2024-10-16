@@ -1,31 +1,32 @@
 #!/usr/bin/perl
-##
-#!C:\Perl\bin\perl.exe T-w
 
-#use strict;
+use warnings;
 use CGI ':standard';
 
-$year_min   = 1;
-$year_def   = 5;
-$year_max   = 200;
-$totl_l_min = 1.1;
-$totl_l_def = 200;
-$totl_l_max = 1500;    # total hill length
-$buff_l_min = 1;
-$buff_l_def = 50;
-$buff_l_max = 1000;    # buffer length
-$hill_g_min = 0.5;
-$hill_g_def = 30;
-$hill_g_max = 90;      # hillslope gradient
-$wfc_min    = 1;
-$wfc_def    = 40;
-$wfc_max    = 400;     # wildfire cycle
-$fmc_min    = 1;
-$fmc_def    = 20;
-$fmc_max    = 200;     # fuel management cycle
-$rd_den_min = 0;
-$rd_den_def = 4;
-$rd_den_max = 20;      # road density
+use MoscowFSL::FSWEPP::FsWeppUtils qw(get_version);
+use MoscowFSL::FSWEPP::CligenUtils qw(GetClimates);
+
+my $year_min   = 1;
+my $year_def   = 5;
+my $year_max   = 200;
+my $totl_l_min = 1.1;
+my $totl_l_def = 200;
+my $totl_l_max = 1500;    # total hill length
+my $buff_l_min = 1;
+my $buff_l_def = 50;
+my $buff_l_max = 1000;    # buffer length
+my $hill_g_min = 0.5;
+my $hill_g_def = 30;
+my $hill_g_max = 90;      # hillslope gradient
+my $wfc_min    = 1;
+my $wfc_def    = 40;
+my $wfc_max    = 400;     # wildfire cycle
+my $fmc_min    = 1;
+my $fmc_def    = 20;
+my $fmc_max    = 200;     # fuel management cycle
+my $rd_den_min = 0;
+my $rd_den_def = 4;
+my $rd_den_max = 20;      # road density
 
 #  WEPP Biomass utilization Impacts On Soil Erosion (BIOMASS) input screen
 #
@@ -35,7 +36,7 @@ $rd_den_max = 20;      # road density
 ## BEGIN HISTORY ###################################
 ## WEPP Biomass Input Screen version history
 
-$version = '2015.03.10';    # Publish
+my $version = get_version(__FILE__);
 
 #  $version='2013.09.27';       # Modification of 2013.03.01 WEPP BIOMASS input screen
 
@@ -77,7 +78,6 @@ if ( $me ne "" ) {
 if ( $me eq " " ) { $me = "" }
 
 $working     = '../working/';                             # DEH 08/22/2000
-$public      = $working . 'public/';                      # DEH 09/21/2000
 $user_ID     = $ENV{'REMOTE_ADDR'};
 $user_really = $ENV{'HTTP_X_FORWARDED_FOR'};              # 2004.09.21 DEH
 $user_ID     = $user_really if ( $user_really ne '' );    # 2004.09.21 DEH
@@ -88,101 +88,7 @@ $custCli = '../working/' . $user_ID;                      # DEH 03/02/2001
 
 ########################################
 
-$num_cli = 0;
-
-### get public climates, if any
-
-opendir PUBLICDIR, $public;
-@allpfiles = readdir PUBLICDIR;
-close PUBLICDIR;
-
-for $f (@allpfiles) {
-    if ( substr( $f, -4 ) eq '.par' ) {
-        $f = $public . $f;
-        open( M, "<$f" ) || goto vskip;
-        $station = <M>;
-        close(M);
-        $climate_file[$num_cli] = substr( $f, 0, -4 );
-        $clim_name = '- ' . substr( $station, index( $station, ":" ) + 2, 40 );
-        $clim_name =~ s/^\s*(.*?)\s*$/$1/;
-        $climate_name[$num_cli] = $clim_name;
-        $num_cli += 1;
-      vskip:
-    }
-}
-
-### get personal climates, if any
-
-opendir CLIMDIR, $working;
-@allpfiles = readdir CLIMDIR;
-close CLIMDIR;
-
-for $f (@allpfiles) {
-    if ( index( $f, $user_ID ) == 0 ) {
-        if ( substr( $f, -4 ) eq '.par' ) {
-            $f = $working . $f;
-            open( M, "<$f" ) || goto psskip;
-            $station = <M>;
-            close(M);
-
-            #  ####  get file creation date  ####  #
-            $age[$num_cli_ps] =
-              -M $f;    # age of the file in days since the last modification
-            $climate_file_ps[$num_cli_ps] = substr( $f, 0, -4 );
-            $clim_name_ps =
-              '*' . substr( $station, index( $station, ":" ) + 2, 40 );
-            $clim_name_ps =~ s/^\s*(.*?)\s*$/$1/;
-            $climate_name_ps[$num_cli_ps] = $clim_name_ps;
-            $num_cli_ps += 1;
-        }    # if (substr
-      psskip:
-    }    # if (index
-}    # for $f
-
-#  ####  index sort climate modification time  		www.perlmonks.org/?node_id=60442
-@ind = sort { $age[$a] <=> $age[$b] } 0 .. $#age;    # sort index
-
-#  ####  copy sorted entries into climate name and file lists  ####  #
-for my $i ( 0 .. $#age ) {
-    $climate_name[$num_cli] = $climate_name_ps[ $ind[$i] ];
-    $climate_file[$num_cli] = $climate_file_ps[ $ind[$i] ];
-    $num_cli++;
-}
-
-### get standard climates
-
-opendir CLIMDIR, '../climates';                      # DEH 05/05/2000
-@allfiles = readdir CLIMDIR;                         # DEH 05/05/2000
-close CLIMDIR;                                       # DEH 05/05/2000
-
-$num_cli_s     = 0;
-$num_cli_start = $num_cli;
-for $f (@allfiles) {    # DEH 05/05/2000
-    $f = '../climates/' . $f;              # DEH 05/05/2000
-    if ( substr( $f, -4 ) eq '.par' ) {    # DEH 05/05/2000
-        open( M, $f ) || goto sskip;       # DEH 05/05/2000
-        $station = <M>;
-        close(M);
-        $climate_file_s[$num_cli_s] = substr( $f, 0, -4 );
-        $clim_name = substr( $station, index( $station, ":" ) + 2, 40 );
-        $clim_name =~ s/^\s*(.*?)\s*$/$1/;
-        $climate_name_s[$num_cli_s] = $clim_name;
-        $num_cli_s++;
-      sskip:                               # DEH 05/05/2000
-    }    # DEH 05/05/2000
-}
-
-#  ####  index sort climate name  ####  #
-@ind = sort { $climate_name_s[$a] cmp $climate_name_s[$b] }
-  0 .. $#climate_name_s;    # sort index
-
-#  ####  copy sorted entries into climate name and file lists  ####  #
-for my $i ( 0 .. $#climate_name_s ) {
-    $climate_name[ $i + $num_cli_start ] = $climate_name_s[ $ind[$i] ];
-    $climate_file[ $i + $num_cli_start ] = $climate_file_s[ $ind[$i] ];
-    $num_cli++;
-}
-$num_cli -= 1;
+my @climates = GetClimates($user_ID);
 
 ###################################################
 
@@ -471,23 +377,8 @@ print <<'theEnd';
   }
 
 theEnd
-print "function StartUp() {\n";
 
-#print "    max_year = new MakeArray($num_cli);\n\n";
-print "    climate_name = new MakeArray($num_cli);\n";
-
-for $ii ( 0 .. $num_cli ) {
-
-    #    print "    max_year[$ii] = " . $climate_year[$ii] . ";\n";
-    print "    climate_name[$ii] = ", '"', $climate_name[$ii], '"', "\n";
-}
 print <<'theEnd';
-
-    if (window.document.fume.Climate.selectedIndex == "") {
-        window.document.fume.Climate.selectedIndex = 0;
-    }
-    climYear();
-  }
 
   function pcover1() {        // change ofe1 pcover to default for selected
     var which = window.document.fume.UpSlopeType.selectedIndex;
@@ -501,13 +392,6 @@ print <<'theEnd';
     return false;
   }
 
-  function climYear() {        // change climate years to max for selected
-//    var which = window.document.fume.Climate.selectedIndex;
-//    window.document.fume.climate_name.value=climate_name[which];
-//    window.document.fume.achtung.value="Calibrate vegetation";
-//    window.document.fume.achtung.value="WEPP run";
-//    return false;
-  }
 
 function RunningMsg (obj, text) {
 //  var hill_l=parseFloat(document.forms[0].hillslope_length.value)
@@ -615,7 +499,7 @@ function showTexture() {
 </head>
 theEnd
 print
-' <BODY bgcolor="white" link="#000000" vlink="#000000" alink="red" onLoad="StartUp()">
+' <BODY bgcolor="white" link="#000000" vlink="#000000" alink="red">
   <font face="tahoma, arial, helvetica, sans serif">
    <table width=100% border=0>
     <tr>
@@ -686,15 +570,10 @@ theEnd
 
 ### display personal climates, if any
 
-if ( $num_cli > 0 ) {
-    print '         <OPTION VALUE="';
-    print $climate_file[0];
-    print '" selected> ', $climate_name[0], "\n";
-}
-for $ii ( 1 .. $num_cli ) {
-    print '         <OPTION VALUE="';
-    print $climate_file[$ii];
-    print '"> ', $climate_name[$ii], "\n";
+foreach my $ii ( 0 .. $#climates ) {
+    print '<OPTION VALUE="', $climates[$ii]->{'clim_file'}, '"';
+    print ' selected' if $ii == 0;
+    print '> ', $climates[$ii]->{'clim_name'}, "\n";
 }
 
 #################

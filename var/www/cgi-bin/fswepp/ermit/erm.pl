@@ -9,18 +9,15 @@ use String::Util qw(trim);
 
 #
 # erm.pl
-# urm2014.pl
 #
 # ermit workhorse
 # Reads user input from ermit.pl, runs WEPP, parses output files
 # top adapted from wd.pl 8/28/2002
 
-$verbose = 0;
+my $verbose = 0;
 
-$debug       = 0;           # DEH 2014-02-07 over-ride command-line
-$new_range   = 1;           # 2005.09.13 DEH Solidify new range values
-$new_cligen  = 0;           # 2005.09.13 DEH # 2005.10.12 DEH
-$weppversion = "wepp2010"
+my $debug       = 0;           # DEH 2014-02-07 over-ride command-line
+my $weppversion = "wepp2010"
   ; # 2014.02.07 DEH 2000 or 2010; WEPP 2010 needs frost.txt file in ERMiT directory to give 'correct' results
 
 # -rw-r--r-x    1 dhall    water      239402 Apr  2  2007 erm.pl
@@ -129,31 +126,29 @@ my $version = get_version(__FILE__);
 
 #=========================================================================
 
-my ($thisyear, $thisweek) = get_thisyear_and_thisweek();
-
-$rtc = 0;
+my ( $thisyear, $thisweek ) = get_thisyear_and_thisweek();
 
 my $cgi = CGI->new;
 
-$pt               = 1 if ( $cgi->param('ptcheck') =~ 'on' );
-$me               = escapeHTML( $cgi->param('me') );
-$units            = escapeHTML( $cgi->param('units') );
-$debug            = escapeHTML( $cgi->param('debug') );
-$CL               = escapeHTML( $cgi->param('Climate') );
-$climate_name     = escapeHTML( $cgi->param('climate_name') );
-$SoilType         = escapeHTML( $cgi->param('SoilType') );
-$rfg              = escapeHTML( $cgi->param('rfg') );
-$vegtype          = escapeHTML( $cgi->param('vegetation') );
-$top_slope        = escapeHTML( $cgi->param('top_slope') );
-$avg_slope        = escapeHTML( $cgi->param('avg_slope') );
-$toe_slope        = escapeHTML( $cgi->param('toe_slope') );
-$hillslope_length = escapeHTML( $cgi->param('length') );
-$severityclass    = escapeHTML( $cgi->param('severity') );
-$shrub            = escapeHTML( $cgi->param('pct_shrub') );
-$grass            = escapeHTML( $cgi->param('pct_grass') );
-$bare             = escapeHTML( $cgi->param('pct_bare') );
-$achtung          = escapeHTML( $cgi->param('achtung') );
-$action =
+my $pt    = 1 if ( $cgi->param('ptcheck') =~ 'on' );
+my $me    = escapeHTML( $cgi->param('me') );
+my $units = escapeHTML( $cgi->param('units') );
+$debug = escapeHTML( $cgi->param('debug') );
+my $CL               = escapeHTML( $cgi->param('Climate') );
+my $climate_name     = escapeHTML( $cgi->param('climate_name') );
+my $SoilType         = escapeHTML( $cgi->param('SoilType') );
+my $rfg              = escapeHTML( $cgi->param('rfg') );
+my $vegtype          = escapeHTML( $cgi->param('vegetation') );
+my $top_slope        = escapeHTML( $cgi->param('top_slope') );
+my $avg_slope        = escapeHTML( $cgi->param('avg_slope') );
+my $toe_slope        = escapeHTML( $cgi->param('toe_slope') );
+my $hillslope_length = escapeHTML( $cgi->param('length') );
+my $severityclass    = escapeHTML( $cgi->param('severity') );
+my $shrub            = escapeHTML( $cgi->param('pct_shrub') );
+my $grass            = escapeHTML( $cgi->param('pct_grass') );
+my $bare             = escapeHTML( $cgi->param('pct_bare') );
+my $achtung          = escapeHTML( $cgi->param('achtung') );
+my $action =
   escapeHTML( $cgi->param('actionc') ) . escapeHTML( $cgi->param('actionw') );
 
 if ( $achtung . $action eq '' ) { &bomb; die }
@@ -189,6 +184,7 @@ $severityclass_x = 'moderate' if ( $severityclass eq 'm' );
 $severityclass_x = 'low'      if ( $severityclass eq 'l' );
 $severityclass_x = 'unburned' if ( $severityclass eq 'u' );    # 2013.04.19 DEH
 
+# $count doesn't do anything RL
 $count = 40 if ( $severityclass eq 'h' );    # 2006.01.18 DEH
 $count = 30 if ( $severityclass eq 'm' );    # 2006.01.18 DEH
 $count = 20 if ( $severityclass eq 'l' );    # 2006.01.18 DEH
@@ -1523,32 +1519,15 @@ for $sn ( 0 .. $#severe ) {    # 2005.10.13 DEH
         }
 
         &createResponseFile;    # create WEPP response file
-## warning
-   #       if ($wgr) {
-   #        `cp $evoFile /var/www/html/fswepp/working/evo`;			# DEH 040913
-   #        `cp $ev_by_evFile /var/www/html/fswepp/working/event`;		# DEH 040913
-   #       }
-   #       -e $evoFile and unlink $evoFile;
-   #       -e $ev_by_evFile and unlink $ev_by_evFile;
-## warning
+
         #            run WEPP on climate file (4 to 16 years)
         @args = ("../$weppversion <$responseFile >$stoutFile 2>$sterrFile")
-          if ($wgr);    # compaction
+          if ($wgr);            # compaction
         print TEMP "@args\n" if $debug;
         system @args;
 
         if ($debug) { $printfilename = $sterrFile; &printfile }
 
-##############
-
-        # die on bad error   2003.01.14
-
-        #    die if @filetext =~ /Error/;
-
-        #   if (@filetext =~ /Error/) {
-        #     print TEMP "Dagblarnit if WEPP didn't crash!\n";
-        #     goto somewhere;
-        #   }
         foreach (@filetext) {    # iterate the array
             if (m/Error/g) {
                 print TEMP "Dagblarnit if WEPP didn't crash!";
@@ -1557,8 +1536,6 @@ for $sn ( 0 .. $#severe ) {    # 2005.10.13 DEH
                 #      next KLOOP;		# 2005.10.29 DEH
             }
         }
-
-##############
 
         #        pull out 5 sediment deliveries from WEPP output
         #		store one tables by year
@@ -1597,8 +1574,6 @@ if ($pt) {
   <tr><th colspan=5><font size=+1>SEDIMENT DELIVERY (', $sedunits,
       ')</font></th><th>Spatial (y1 .. y5)</th></tr>',  "\n";
 }
-
-# @selected_ranks[$i] + 1,' (',100/(@selected_ranks[$i] + 1),"- year)
 
 for $c ( 0 .. $#selected_year ) {
     if ($pt) {
@@ -1970,26 +1945,11 @@ else {
 
 print TEMP `gnuplot`;
 
-#  open (GP, "|gnuplot");
-#   use FileHandle;
-#   GP->autoflush(1);      # force buffer to flush after each write
-#   print GP "load '$gnuplotjclfile'\n";
-#  close GP;
-
-#   exec "/usr/local/bin/gnuplot $gnuplotjclfile";
-#   `gnuplot $gnuplotjclfile`;
-
 @args = ("gnuplot $gnuplotjclfile");
 
-#   @args=  ("/usr/local/bin/gnuplot $gnuplotjclfile");	# add path -- needed for new server
-
-#   print TEMP @args;
 system @args;
 
 `convert -rotate 90 $gnuplotgrapheps $gnuplotgraphpng`;
-
-#  print TEMP @args;
-#   system @args;
 
 bail:    # 2005.10.29 DEH moved down
 
@@ -2207,11 +2167,6 @@ var defprob = 0.2;	// 2012.06.27
      sediment_m944 = rounder(whatseds (defprob, cp_m944)*js_sedconv,2)	// 2005.09.30 DEH
     </script>
 
-<!== == == ==  ALL NEW TABLE == == == ->
-<!== == == ==  ALL NEW TABLE == == == ->
-<!== == == ==  ALL NEW TABLE == == == ->
-<!== == == ==  ALL NEW TABLE == == == ->
-
     <table border=1>
      <tr><th colspan=6 bgcolor="gold">Sediment Delivery</th></tr>
      <tr>
@@ -2358,8 +2313,6 @@ else {
         <font size=-1>
 ";
 
-#print '         I<sub>10</sub> <input type="text" name="i10" value="',$i10w,'" size="5" disabled onChange="javascript:logchange()"> <script>document.write(js_intensity_units)</script><br>';
-#print '         I<sub>10</sub> <input type="text" name="i10" value="',$i10w,'" size="5" disabled onChange="javascript:logchange()"> mm/h<br>';
     print '         <input type="hidden" name="i10" value="', $i10w, '">';
     print "
          <!-- Storage --> <input type=\"hidden\" name=\"capacity\" value=\"0\"> <!-- script --><!-- document.write(js_storage_units) --><!-- /script -->
@@ -2368,23 +2321,6 @@ else {
       </th>
 ";
 
-#<script>					# 2015.05.04 DEH
-#//      <th valign=\"top\">
-#//       <span id=\"sediment_cl0\"><script>document.write(sediment0)</script></span><br>
-#//      </th>
-#//      <th valign=\"top\">
-#//       <span id=\"sediment_cl1\"><script>document.write(sediment1)</script></span><br>
-#//      </th>
-#//      <th valign=\"top\">
-#//       <span id=\"sediment_cl2\"><script>document.write(sediment2)</script></span><br>
-#//      </th>
-#//      <th valign=\"top\">
-#//       <span id=\"sediment_cl3\"><script>document.write(sediment3)</script></span><br>
-#//      </th>
-#//      <th valign=\"top\">
-#//       <span id=\"sediment_cl4\"><script>document.write(sediment4)</script></span><br>
-#//      </th>
-#</script>
     print "      <th valign=\"top\">
        <span id=\"sediment_cl0\"><script>document.write('')</script></span><br>
       </th>
@@ -2406,12 +2342,6 @@ else {
 }
 
 print <<'EOP2a';
-
-<!== == == ==  END NEW TABLE == == == ->
-<!== == == ==  END NEW TABLE == == == ->
-<!== == == ==  END NEW TABLE == == == ->
-<!== == == ==  END NEW TABLE == == == ->
-
    </form>
   </center>
   <form><input type="submit" value="Return to input screen" onclick="JavaScript:window.history.go(-1); return false;"></form>
@@ -2438,15 +2368,11 @@ print '
    ERMiT run ID ', $unique,  '<br>
 ';
 
-# print " New soil parameters for range<br>\n" if ($new_range);
-print " CLIGEN version 5.22564<br>\n" if ($new_cligen);
 print
 " Observed annual precip $obannual mm; July, August, September precip $obJAS mm ($pctJAS percent):";
 print " MONSOONAL climate<br>\n"     if ($monsoon);
 print " NON-MONSOONAL climate<br>\n" if ( !$monsoon );
 
-# print " 'Range' &tau;<sub>c</sub><br>\n" if (!$rtc);
-# print " 'Forest' &tau;<sub>c</sub><br>\n" if ($rtc);
 print "
   </font>
  </body>
@@ -2625,23 +2551,6 @@ sub lhtoab {    # ######################### lhtoab
         $nofe = 2;
     }                                                    ### abb.slp ###
 
-}
-
-sub countofes {    # ######################### countofes
-
-    # $s - spatial severity arrangement ("lll", "lhl", "hhl" etc.)
-
-    my $string = lc($s);
-    my $ofe    = 0;
-    my $nofe   = 1;
-    my $str;
-    $str[0] = substr( $string, 0, 1 );
-
-    for $ofe ( 1 .. 2 ) {
-        $str[$nofe] = substr( $string, $ofe, 1 );
-        if ( $str[$nofe] ne $str[ $nofe - 1 ] ) { $nofe += 1 }
-    }
-    return $nofe;
 }
 
 sub createResponseFile {    # ######################### createResponseFile
@@ -3438,9 +3347,7 @@ function whatseds (target, array) {
       k = k + 1
     }
   } 
-//  alert ('dropped out of whatseds')
   return 0				// 2005.12.30 DEH
-//  return sed_del[array.length]
 }
 
 function whatprob (n, array) {
@@ -3504,8 +3411,6 @@ function logchange () {
    var diameter=document.doit.diameter.value	// DEH 2005.09
    var spacing=document.doit.spacing.value	// DEH 2005.09
    var i10=document.doit.i10.value		// DEH 2005.09
-//   var js_avg_slope=document.doit.slope.value	// DEH 2005.09.23 ***
-//   alert (js_avg_slope)
 
 // set minima, maxima, and default values for slope, spacing, and diameter user input values
 
@@ -3568,21 +3473,6 @@ function logchange () {
      document.getElementById('sediment_cl2').innerHTML = sediment_2
      document.getElementById('sediment_cl3').innerHTML = sediment_3
      document.getElementById('sediment_cl4').innerHTML = sediment_4
-//     document.getElementById('eff0').innerHTML = ''
-//     document.getElementById('eff1').innerHTML = ''
-//     document.getElementById('eff2').innerHTML = ''
-//     document.getElementById('eff3').innerHTML = ''
-//     document.getElementById('eff4').innerHTML = ''
-//     document.getElementById('caught0').innerHTML = 0
-//     document.getElementById('caught1').innerHTML = 0
-//     document.getElementById('caught2').innerHTML = 0
-//     document.getElementById('caught3').innerHTML = 0
-//     document.getElementById('caught4').innerHTML = 0
-//     document.getElementById('capacity0').innerHTML = ''
-//     document.getElementById('capacity1').innerHTML = ''
-//     document.getElementById('capacity2').innerHTML = ''
-//     document.getElementById('capacity3').innerHTML = ''
-//     document.getElementById('capacity4').innerHTML = ''
    }
    else {
 
@@ -3594,10 +3484,8 @@ function logchange () {
      if (js_soil_texture == 'silt loam') sediment_bulk_density = 0.97
      if (js_soil_texture == 'sandy loam') sediment_bulk_density = 1.23
      if (js_soil_texture == 'loam') sediment_bulk_density = 1.16
-//   alert (js_soil_texture + ' sediment bulk density: ' + sediment_bulk_density)
      coeff_slope = 1342			// slope in whole percent i.e. '30'
      coeff_diam = 0.0029		// diam^2 for diam in cm
-//   coeff_spacing = 544		// spacing in m
      coeff_spacing = 272		// spacing in m
      intercept = -35.4
      capacity_vol = coeff_slope/js_avg_slope+coeff_diam*diam_cm*diam_cm+coeff_spacing/spacing_m+intercept
@@ -3631,27 +3519,6 @@ function logchange () {
      document.getElementById('sediment_cl2').innerHTML = rounder(sediment_2-caught_2,2)
      document.getElementById('sediment_cl3').innerHTML = rounder(sediment_3-caught_3,2)
      document.getElementById('sediment_cl4').innerHTML = rounder(sediment_4-caught_4,2)
-//     if (sediment_4 < (sediment_3-caught_3)) {
-//       document.getElementById('sediment_cl4').innerHTML = sediment_4
-//     }
-//     else {
-//       document.getElementById('sediment_cl4').innerHTML = rounder(sediment_3-caught_3,2)
-//     }
-//     document.getElementById('eff0').innerHTML = rounder(eff_0,0)
-//     document.getElementById('eff1').innerHTML = rounder(eff_1,0)
-//     document.getElementById('eff2').innerHTML = rounder(eff_2,0)
-//     document.getElementById('eff3').innerHTML = rounder(eff_3,0)
-//     document.getElementById('eff4').innerHTML = rounder(eff_4,0)
-//     document.getElementById('caught0').innerHTML = rounder(caught_0,2)
-//     document.getElementById('caught1').innerHTML = rounder(caught_1,2)
-//     document.getElementById('caught2').innerHTML = rounder(caught_2,2)
-//     document.getElementById('caught3').innerHTML = rounder(caught_3,2)
-//     document.getElementById('caught4').innerHTML = rounder(caught_4,2)
-//     document.getElementById('capacity0').innerHTML = rounder(capacity,2)		// 2005.10.20 DEH
-//     document.getElementById('capacity1').innerHTML = rounder(capacity,2)
-//     document.getElementById('capacity2').innerHTML = rounder(capacity,2)
-//     document.getElementById('capacity3').innerHTML = rounder(capacity,2)
-//     document.getElementById('capacity4').innerHTML = rounder(capacity,2)
   }
 }
 
@@ -3703,22 +3570,12 @@ function sedchange () {
     document.doit.probability_m943.value = rounder(whatprob(sedval/js_sedconv, eval('cp_m943'))*100,2)
     document.doit.probability_m944.value = rounder(whatprob(sedval/js_sedconv, eval('cp_m944'))*100,2)
 
-//    document.doit.probability_cl0.value = rounder(whatprobcl(sedval/js_sedconv, eval('cp0'))*100,2)
-//    document.doit.probability_cl1.value = rounder(whatprobcl(sedval/js_sedconv, eval('cp1'))*100,2)
-//    document.doit.probability_cl2.value = rounder(whatprobcl(sedval/js_sedconv, eval('cp2'))*100,2)
-//    document.doit.probability_cl3.value = rounder(whatprobcl(sedval/js_sedconv, eval('cp3'))*100,2)
-//    document.doit.probability_cl4.value = rounder(whatprobcl(sedval/js_sedconv, eval('cp4'))*100,2)
-
-//  printprobs()
-
 }
 
 function probchange () {
 
   var myprob=document.doit.probability0x.value
-//  if (!isNumber (myprob)) {myprob = 10}
   if (!isNumber (myprob)) {myprob = 20}		// 2012.06.27
-//  if (myprob < 0.1)       {myprob = .1}
   if (myprob < 1.0)       {myprob = 1.0}
   if (myprob > 99.9)      {myprob = 99.9}
   document.doit.probability0x.value = myprob
@@ -3760,16 +3617,8 @@ function probchange () {
   document.getElementById("sediment_m943").innerHTML = rounder(whatseds (myprob,eval('cp_m943')) * js_sedconv,2)
   document.getElementById("sediment_m944").innerHTML = rounder(whatseds (myprob,eval('cp_m944')) * js_sedconv,2)
 
-//  document.getElementById("sediment_cl0").innerHTML = rounder(whatsedscl (myprob,eval('cp0')) * js_sedconv,2)
-//  document.getElementById("sediment_cl1").innerHTML = rounder(whatsedscl (myprob,eval('cp1')) * js_sedconv,2)
-//  document.getElementById("sediment_cl2").innerHTML = rounder(whatsedscl (myprob,eval('cp2')) * js_sedconv,2)
-//  document.getElementById("sediment_cl3").innerHTML = rounder(whatsedscl (myprob,eval('cp3')) * js_sedconv,2)
-//  document.getElementById("sediment_cl4").innerHTML = rounder(whatsedscl (myprob,eval('cp4')) * js_sedconv,2)
-//document.doit.sediment_cl4.value = rounder(whatsedscl (myprob,eval('cp4')) * js_sedconv,2)
-
    logchange()	// 2005.10.21 DEH
 
-//  printprobs()
 
 }
 
@@ -4688,8 +4537,6 @@ sub createsoilfile {
  # USDA FS RMRS Moscow FSL coding by david numbers by Bill Elliot & Corey Moffat
  #                         unbured numbers by Pete Robichaud 2013.04.18
 
-    $ver = '2002.11.27';
-    $ver = '2013.05.03';
     $ver = '2014.02.06'
       ;    # DEH 2014.02.06 add support for unburned range and chaparral
 
@@ -4710,14 +4557,8 @@ sub createsoilfile {
   #  $s = 'lll';
   #  $k = 4;
   #  $rfg = 20;      # percentage of rock fragments (by volume) in the layer (%)
-
-    if (   $SoilType ne 'sand'
-        && $SoilType ne 'silt'
-        && $SoilType ne 'clay'
-        && $SoilType ne 'loam' )
-    {
-        return;
-    }
+    die "Invalid SoilType: $SoilType"
+      unless $SoilType =~ /^(sand|silt|clay|loam)$/;
 
     my $string = lc($s);
 
@@ -4798,7 +4639,7 @@ sub soil_parameters {
     # $grass
     # $bare
 
-# @ki_u[0..4]		# unburned baseline interrill erodibility (ki) (kg s/m^4)			# 2013.04.19
+# @ki_u[0..4]		       # unburned baseline interrill erodibility (ki) (kg s/m^4)			# 2013.04.19
 # @ki_l[0..4]          # low soil burn severity baseline interrill erodibility (ki) (kg s/m^4)
 # @ki_h[0..4]          # high soil burn severity baseline interrill erodibility (ki) (kg s/m^4)
 # @kr_u[0..4]          # unburned baseline rill erodibility (kr) (s/m)					# 2013.04.19

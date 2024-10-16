@@ -5,164 +5,17 @@ use CGI qw(escapeHTML);
 
 use warnings;
 
-use MoscowFSL::FSWEPP::FsWeppUtils qw(get_version);
+use MoscowFSL::FSWEPP::FsWeppUtils qw(get_version get_user_id get_units);
+use MoscowFSL::FSWEPP::CligenUtils qw(GetClimates);
 
 #
 #  Disturbed WEPP input screen -- new format, no veg calibration needed
 #
 
-#  weppdistnocal.pl -- input screen for Disturbed WEPP (no veg calibration needed)
-
-#  2011.05.13 DEH Remove Tahoe help text for mulch, bare, roads (veg & cover)
-#  2010.03.28 DEH Modify Tahoe Basin Sediment Model tahoe.pl for Disturbed WEPP nocal
-#  2009.08.24 DEH Modify Disturbed WEPP input screen weppdist.pl for Tahoe Basin Sediment Model
-
-## BEGIN HISTORY ###################################
-## Disturbed WEPP 2.0 version history
-
 my $version = get_version(__FILE__);
-#  $version = '2014.04.14';    # Describe changes to soil database parameter values
-#  $version = '2013.07.01';	# Fix Tahoe Basin artifact limiting OFE1 veg options for "rock/pavement" (loam)
-#  $version = '2013.03.01';	# Sort personal climates (newest at top) and standard climates (by name)
-#  $version = '2011.11.22';	# Expand help text for cover parameter
-#  $version = '2011.07.08';	# Remove Tahoe artifact limiting treatments for some soil types
-#  $version = '2011.05.01';	# May Day -- beta release
-#  $version = '2011.04.01';	# April Fools Day -- alpha release
-
-## END HISTORY ###################################
-
-#  usage:
-#    action = "weppdist.pl"	# call WD engine
-#  parameters:
-#    units:             # unit scheme (ft|m)
-#    me			# user personality
-#  reads environment variables:
-#       HTTP_COOKIE	# FSWEPPuser
-#       REMOTE_ADDR
-#       HTTP_X_FORWARDED_FOR
-#       REQUEST_METHOD
-#       QUERY_STRING
-#       CONTENT_LENGTH
-#  reads:
-#    ../climates/*.par  # standard climate parameter files
-#    $working/*.par     # personal climate parameter files
-#  calls:
-#    /cgi-bin/fswepp/wd/wd.pl
-#  popup links:
-
-#  FS WEPP, USDA Forest Service, Rocky Mountain Research Station, Moscow
-#  AWAE
-#  Science by Bill Elliot et alia
-#  Code by David Hall
-
-$cgi = CGI->new;
-
-$units = escapeHTML($cgi->param('units'));
-if    ( $units eq 'm' )  { $areaunits = 'ha' }
-elsif ( $units eq 'ft' ) { $areaunits = 'ac' }
-else                     { $units     = 'ft'; $areaunits = 'ac' }
-
-###   find personality ###
-$cookie = $ENV{'HTTP_COOKIE'};
-$sep    = index( $cookie, "FSWEPPuser=" );
-$me     = "";
-if ( $sep > -1 ) { $me = substr( $cookie, $sep + 11, 1 ) }
-
-if ( $me ne "" ) {
-
-    #       $me = lc(substr($me,0,1));
-    $me = substr( $me, 0, 1 );
-    $me =~ tr/a-zA-Z/ /c;
-}
-if ( $me eq " " ) { $me = "" }
-
-    $working     = '../working/';                             # DEH 08/22/2000
-    $public      = $working . 'public/';                      # DEH 09/21/2000
-    $user_ID     = $ENV{'REMOTE_ADDR'};
-    $user_really = $ENV{'HTTP_X_FORWARDED_FOR'};              # DEH 11/14/2002
-    $user_ID     = $user_really if ( $user_really ne '' );    # DEH 11/14/2002
-    $user_ID =~ tr/./_/;
-    $user_ID = $user_ID . $me . '_';                          # DEH 03/05/2001
-    $logFile = '../working/' . $user_ID . '.log';
-    $cliDir  = '../climates/';
-    $custCli = '../working/' . $user_ID;                      # DEH 03/02/2001
-
-########################################
-
-### get personal climates, if any
-
-$num_cli = 0;
-
-opendir CLIMDIR, $working;
-@allpfiles = readdir CLIMDIR;
-close CLIMDIR;
-
-for $f (@allpfiles) {
-    if ( index( $f, $user_ID ) == 0 ) {
-        if ( substr( $f, -4 ) eq '.par' ) {
-            $f = $working . $f;
-            open( M, "<$f" ) || goto psskip;
-            $station = <M>;
-            close(M);
-
-            #  ####  get file creation date  ####  #
-            $age[$num_cli_ps] =
-              -M $f;    # age of the file in days since the last modification
-            $climate_file_ps[$num_cli_ps] = substr( $f, 0, -4 );
-            $clim_name_ps =
-              '*' . substr( $station, index( $station, ":" ) + 2, 40 );
-            $clim_name_ps =~ s/^\s*(.*?)\s*$/$1/;
-            $climate_name_ps[$num_cli_ps] = $clim_name_ps;
-            $num_cli_ps += 1;
-        }    # if (substr
-      psskip:
-    }    # if (index
-}    # for $f
-
-#  ####  index sort climate modification time           www.perlmonks.org/?node_id=60442
-@ind = sort { $age[$a] <=> $age[$b] } 0 .. $#age;    # sort index
-
-#  ####  copy sorted entries into climate name and file lists  ####  #
-for my $i ( 0 .. $#age ) {
-    $climate_name[$num_cli] = $climate_name_ps[ $ind[$i] ];
-    $climate_file[$num_cli] = $climate_file_ps[ $ind[$i] ];
-    $num_cli++;
-}
-
-### get standard climates
-
-opendir CLIMDIR, '../climates';
-@allfiles = readdir CLIMDIR;
-close CLIMDIR;
-
-$num_cli_s     = 0;
-$num_cli_start = $num_cli;
-for $f (@allfiles) {
-    $f = '../climates/' . $f;
-    if ( substr( $f, -4 ) eq '.par' ) {
-        open( M, $f ) || goto sskip;
-        $station = <M>;
-        close(M);
-        $climate_file_s[$num_cli_s] = substr( $f, 0, -4 );
-        $clim_name = substr( $station, index( $station, ":" ) + 2, 40 );
-        $clim_name =~ s/^\s*(.*?)\s*$/$1/;
-        $climate_name_s[$num_cli_s] = $clim_name;
-        $num_cli_s += 1;
-      sskip:
-    }
-}
-
-#  ####  index sort climate name  ####  #
-@ind = sort { $climate_name_s[$a] cmp $climate_name_s[$b] }
-  0 .. $#climate_name_s;    # sort index
-
-#  ####  copy sorted entries into climate name and file lists  ####  #
-for my $i ( 0 .. $#climate_name_s ) {
-    $climate_name[ $i + $num_cli_start ] = $climate_name_s[ $ind[$i] ];
-    $climate_file[ $i + $num_cli_start ] = $climate_file_s[ $ind[$i] ];
-    $num_cli++;
-}
-$num_cli -= 1;
+my ($units, $areaunits) = get_units();
+my $user_ID = get_user_id();
+my @climates = GetClimates($user_ID);
 
 ###################################################
 
@@ -189,7 +42,6 @@ print <<'theEnd2';
 
   // these need to be global because this code is garbage
   var para;
-  var climate_name;
   var default_pcover;
   var text;
 
@@ -463,7 +315,6 @@ popupwindow = window.open(url,'popupclosest','toolbar=no,location=no,status=no,d
 }
 theEnd
 
-
 print <<'theEnd';
 
   function checkeverything() {
@@ -511,18 +362,7 @@ print <<'theEnd';
 
 theEnd
 print "function StartUp() {\n";
-
-#print "    max_year = new MakeArray($num_cli);\n\n";
-print "    climate_name = new MakeArray($num_cli);\n";
-
-for $ii ( 0 .. $num_cli ) {
-
-    #    print "    max_year[$ii] = " . $climate_year[$ii] . ";\n";
-    print "    climate_name[$ii] = ", '"', $climate_name[$ii], '"', ";\n";
-}
 print <<'theEnd';
-//    window.document.weppdist.Climate.selectedIndex = 0;
-//    window.document.weppdist.climyears.value = max_year[0];
 
     default_pcover = new MakeArray(12);
     default_pcover[12] = 10;	// skid trail
@@ -538,8 +378,6 @@ print <<'theEnd';
     default_pcover[2] = 80;	// shrubs
     default_pcover[1] = 100;	// thin or young forest
     default_pcover[0] = 100;	// mature forest
-//   window.document.weppdist.ofe1.selectedIndex = 0;
-//   window.document.weppdist.ofe2.selectedIndex = 7;
     if (window.document.weppdist.Climate.selectedIndex == "") {
         window.document.weppdist.Climate.selectedIndex = 0;
     }
@@ -560,14 +398,7 @@ print <<'theEnd';
 
   function climYear() {        // change climate years to max for selected
     var which = window.document.weppdist.Climate.selectedIndex;
-//    window.document.weppdist.climyears.value=max_year[which];
     window.document.weppdist.climate_name.value=climate_name[which];
-//    var vegyear=Math.min (max_year[which],10);
-//    var simyear=Math.min (max_year[which],100);
-//    window.document.weppdist.actionv.value=vegyear + "vegetation calibration";
-//    window.document.weppdist.actionw.value=simyear + "WEPP run";
-//    window.document.weppdist.actionv.value="vegetation calibration";
-//    window.document.weppdist.actionw.value="WEPP run";
     window.document.weppdist.achtung.value="Calibrate vegetation";
     window.document.weppdist.achtung.value="WEPP run";
     return false;
@@ -578,15 +409,8 @@ function RunningMsg (obj, text) {
 
   function checkOFE1rock(obj,min,max,def,unit,text) {
     var which = window.document.weppdist.SoilType.selectedIndex;
-// alert (which)
-//  comment out following conditional for WD  2013.07.01
-//    if (which == 3)      {		//  rock/pavement
-//       obj.value=50
-//    }
-//    else {
-   checkRange(obj,min,max,def,unit,text)
-      }
-//  }
+    checkRange(obj,min,max,def,unit,text)
+  }
 
   function checkRange(obj,min,max,def,unit,thistext) {
      if (isNumber(obj.value)) {                   // obj == document.weppdist.BS
@@ -600,14 +424,10 @@ function RunningMsg (obj, text) {
          obj.value=max
          alert(alert_text)
        }
-//      alert(obj.name);
-//
     var which = window.document.weppdist.UpSlopeType.selectedIndex;
     if (obj.name=='ofe1_rock' && which == 7) {           // bare
       window.document.weppdist.ofe1_pcover.value=window.document.weppdist.ofe1_rock.value;
-//      var which = window.document.weppdist.UpSlopeType.selectedIndex;
     }
-//
      } else {
          obj.value=def
          alert("Invalid entry for " + thistext + "!")
@@ -646,52 +466,14 @@ function showRange(obj, head, min, max, unit, more) {
   return true                           // p. 86
 }
 
-//function showHelp(obj, head, min, max, unit) {
-//  var which = window.document.weppdist.SlopeType.selectedIndex;
-//     if (which == 0) {vhead = "Ditch width + traveledway width: "}
-//     else if (which == 1) {vhead = "Ditch width + traveledway width: "}
-//     else if (which == 2) {vhead = "Traveledway width: "}
-//     else {vhead = "Rut spacing + rut width: "}
-//  range = vhead + min + " to " + max + unit	
-//  window.status = range
-//  return true                           // p. 86
-//}
-
 function showTexture() {	// 2010.05.27    2011.07.08
    var which = window.document.weppdist.SoilType.selectedIndex;
-// alert (which)
-// window.document.weppdist.ofe1_rock.readonly='';	// enable rock for OFE1 (may be disabled below)
-// window.document.weppdist.ofe1_rock.style.background='#fff';
    if (which == 0)           {text = "clay loam"}
    else if (which == 1)      {text = "silt loam"}
    else if (which == 2)      {text = "sandy loam"}
    else if (which == 3)      {text = "loam"}
-//   if (which == 0)           {text = "Granitic"}
-//   else if (which == 1)      {text = "Volcanic"}
-//   else if (which == 2)      {text = "Alluvial"}
-//   else if (which == 3)      {
-//      text = "rock/pavement over alluvial";
-//      var whichUpSlopeType = window.document.weppdist.UpSlopeType.selectedIndex;
-//      if (whichUpSlopeType == 0 || whichUpSlopeType == 1) {
-//        window.document.weppdist.UpSlopeType.selectedIndex = 7	// move off forest to bare
-//      }
-//    window.document.weppdist.UpSlopeType[0].disabled=1;     // disable Old forest
-//    window.document.weppdist.UpSlopeType[1].disabled=1;     // disable Young forest
-//    window.document.weppdist.ofe1_rock.value=50;	      // set rock fragment to 50% for all rock/pave soils
-//    window.document.weppdist.ofe1_rock.readonly='readonly';		// and disable rock input
-//    window.document.weppdist.ofe1_rock.style.color='green';
-//    window.document.weppdist.ofe1_rock.style.background='#ddd';
-//    if (window.document.weppdist.UpSlopeType.selectedIndex == 7) {	// bare
-//      window.document.weppdist.ofe1_pcover.value=50;	// set cover to 50% as well for bare soil
-//    }
-//      alert ("rock")
-// }
    else {text = 'Unknown soil texture selection'}
    window.status = text
-// if (which == 0 || which == 1 || which == 2) {               // Granitic or Volcanic or Alluvial
-//    window.document.weppdist.UpSlopeType[0].disabled=0;      // enable Old forest
-//    window.document.weppdist.UpSlopeType[1].disabled=0;      // enable Young forest
-// }
    return true                           // p. 86
 }
 
@@ -769,18 +551,13 @@ print '
       <td align="center" bgcolor="#FAF8CC">
        <SELECT NAME="Climate" SIZE="', $num_cli + 1, '" tabindex="3">
 ';
-### display personal climates, if any
 
-if ( $num_cli > 0 ) {
-    print '<OPTION VALUE="';
-    print $climate_file[0];
-    print '" selected> ', $climate_name[0], "\n";
+foreach my $ii ( 0 .. $#climates ) {
+    print '<OPTION VALUE="', $climates[$ii]->{'clim_file'}, '"';
+    print ' selected' if $ii == 0;
+    print '> ', $climates[$ii]->{'clim_name'}, "\n";
 }
-for $ii ( 1 .. $num_cli ) {
-    print '<OPTION VALUE="';
-    print $climate_file[$ii];
-    print '"> ', $climate_name[$ii], "\n";
-}
+
 print "       </SELECT>
       <tr><td align=center>
       <input type=\"hidden\" name=\"achtung\" value=\"Run WEPP\" >
@@ -948,7 +725,6 @@ print <<'theEnd';
 <HR>
 theEnd
 
-
 print '>                                                              
 
 <font size=-2>
@@ -968,13 +744,12 @@ Online at &lt;https://forest.moscowfsl.wsu.edu/fswepp&gt;.
 (<a href="/cgi-bin/fswepp/wd1/weppdist.pl">U.S. units</a>) available for continuity</b>
 <br><br>
   Interface v.
-  <a href="https://github.com/wepp-in-the-woods/fswepp-docker/commits/main/var/www/cgi-bin/fswepp/wd/weppdist.pl">', $version, '</a><br>
+  <a href="https://github.com/wepp-in-the-woods/fswepp-docker/commits/main/var/www/cgi-bin/fswepp/wd/weppdist.pl">',
+  $version, '</a><br>
 ';
 $remote_host    = $ENV{'REMOTE_HOST'};
 $remote_address = $ENV{'REMOTE_ADDR'};
 
-# $wc  = `wc ../working/_2016/wd2.log`;
-# $wc  = `wc ../working/_2017/wd2.log`;
 $wc    = `wc ../working/' . currentLogDir() . '/wd2.log`;
 @words = split " ", $wc;
 $runs  = @words[0];

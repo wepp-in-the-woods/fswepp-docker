@@ -3,7 +3,8 @@
 use CGI;
 use CGI qw(escapeHTML);
 
-use MoscowFSL::FSWEPP::FsWeppUtils qw(get_version);
+use MoscowFSL::FSWEPP::FsWeppUtils qw(get_version get_user_id);
+use MoscowFSL::FSWEPP::CligenUtils qw(GetClimates GetFutureClimates);
 #
 #  Tahoe Basin Sediment Model input screen
 #
@@ -16,241 +17,34 @@ use MoscowFSL::FSWEPP::FsWeppUtils qw(get_version);
 ## Tahoe Basin Sediment Model version history
 
 my $version = get_version(__FILE__);
-
-#  $version = '2014.11.14';  # modify phosphorus help screen
-#  $version = '2014.04.18';	# allow for greater phosphorus sediment concentrations to match ongoing field data (200 to 2000 mg/kg)
-#  $version = '2012.11.13';	# finer target for fines analysis help text, reset to default rock values when leaving pavement
-#  $version = '2012.10.15';	# add help text to all of table header;
-#  $version = '2012.10.11';	# sort climate pick list -- personal by age, others by climate name
-#  $version = '2012.10.09';	# add help text for geometry
-#  $version = '2012.09.07';	# add burn pile
-#  $version = '2102.08.28';	# start pulling in future climate options
-#  $version = '2012.05.15';	# adjust units and details
-#  $version = '2012.04.25';	# add Fines upper size
-#  $version = '2012.04.09';	# move phosphorus concentration inputs to input page; no need to be interactive
-#  $version = '2012.01.27';	# Phosphorus calculations
-#  $version = '2011.12.01';	# Reformat a bit
-#  $version = '2011.02.14';	# Adjust handling of sod and bunchgrass
-#  $version = '2010.12.09';	# Modify "closest" button to work under IE8
-#  $version = '2010.06.01';	# Preliminary release
-#! $version = '2010.05.21';	#
-
-## END HISTORY ###################################
-
-#  usage:
-#   tahoe.pl     -- standard version
-#  parameters:
-#    units      -- unit scheme (ft|m)
-#    me		-- user personality (a..zA..Z)
-#    fc         -- future climates version ()
-#  reads environment variables:
-#       HTTP_COOKIE	# FSWEPPuser
-#       REMOTE_ADDR
-#       HTTP_X_FORWARDED_FOR
-#       REQUEST_METHOD
-#       QUERY_STRING
-#       CONTENT_LENGTH
-#  reads:
-#    ../climates/*.par  # standard climate parameter files
-#    $working/*.par     # personal climate parameter files
-#    ../rc/tahoe/fc/    # future climate file directory and files
-#  writes:
-#    tahoe run log file
-#    climate log
-#    WEPP results file (abundant output)
-#    working files soil, climate, vegetation, response,
-#  calls:
-#    /cgi-bin/fswepp/tahoe/wt.pl
-#  popup links:
-
-#  FS WEPP, USDA Forest Service, Rocky Mountain Research Station, Moscow
-#  AWAE
-#  Science by Bill Elliot et alia
-#  Code by David Hall
+my $user_ID = get_user_id();
 
 my $cgi = CGI->new;
 
-$units = escapeHTML( $cgi->param('units') );
+my $units = escapeHTML( $cgi->param('units') );
 
+my $areaunits;
 if    ( $units eq 'm' )  { $areaunits = 'ha' }
 elsif ( $units eq 'ft' ) { $areaunits = 'ac' }
 else                     { $units     = 'ft'; $areaunits = 'ac' }
-$fc = escapeHTML( $cgi->param('fc') );
+my $fc = escapeHTML( $cgi->param('fc') );
 
-###   find personality ###
-$cookie = $ENV{'HTTP_COOKIE'};
-$sep    = index( $cookie, "FSWEPPuser=" );
-$me     = "";
-if ( $sep > -1 ) { $me = substr( $cookie, $sep + 11, 1 ) }
-
-if ( $me ne "" ) {
-
-    #       $me = lc(substr($me,0,1));
-    $me = substr( $me, 0, 1 );
-    $me =~ tr/a-zA-Z/ /c;
-}
-if ( $me eq " " ) { $me = "" }
-
-$working        = '../working/';                             # DEH 08/22/2000
-$public         = $working . 'public/';                      # DEH 09/21/2000
-$remote_address = $ENV{'REMOTE_ADDR'};
-$user_really    = $ENV{'HTTP_X_FORWARDED_FOR'};              # DEH 11/14/2002
-$user_ID        = $remote_address;
-$user_ID        = $user_really if ( $user_really ne '' );    # DEH 11/14/2002
-$user_ID =~ tr/./_/;
-$user_ID = $user_ID . $me . '_';                             # DEH 03/05/2001
-$logFile = '../working/' . $user_ID . '.log';
-$cliDir  = '../climates/';
-$custCli = '../working/' . $user_ID;                         # DEH 03/02/2001
+my $working = '../working/';                       # DEH 08/22/2000
+my $logFile = '../working/' . $user_ID . '.log';
+my $custCli = '../working/' . $user_ID;            # DEH 03/02/2001
 
 ########################################
 
 $num_cli = 0;
 
+my @climates;
+
 if ($fc) {
-
-### get future climates
-
-    opendir CLIMDIR, '../rc/tahoe/fc/';    # DEH 08/20/2012
-    @allfiles = readdir CLIMDIR;           # DEH 05/05/2000
-    close CLIMDIR;                         # DEH 05/05/2000
-
-    for $f (@allfiles) {                   # DEH 05/05/2000
-        $f = '../rc/tahoe/fc/' . $f;           # DEH 05/05/2000
-        if ( substr( $f, -4 ) eq '.cli' ) {    # DEH 05/05/2000
-            open( M, $f ) || goto fcskip;      # DEH 05/05/2000
-            $lined   = <M>;
-            $lined   = <M>;
-            $station = <M>;
-            close(M);
-
-            $climate_file_fc[$num_cli] = substr( $f, 0, -4 );
-            $clim_name = substr( $station, index( $station, ":" ) + 2, 40 );
-            $clim_name =~ s/^\s*(.*?)\s*$/$1/;
-            $climate_name_fc[$num_cli] = $clim_name;
-            $num_cli += 1;
-          fcskip:                              # DEH 05/05/2000
-        }    # if (substr($f,-4) eq '.cli')          # DEH 05/05/2000
-    }    # for $f (@allfiles) {
-
-    #  ####  index sort climate name  ####  #
-    @ind = sort { $climate_name_fc[$a] cmp $climate_name_fc[$b] }
-      0 .. $#climate_name_fc;    # sort index
-
-    #  ####  copy sorted entries into climate name and file lists  ####  #
-    for my $i ( 0 .. $#climate_name_fc ) {
-        $climate_name[$i] = $climate_name_fc[ $ind[$i] ];
-        $climate_file[$i] = $climate_file_fc[ $ind[$i] ];
-    }
+    @climates = GetFutureClimates('../rc/tahoe/fc/');
 }
 else {
-
-### get personal climates, if any
-
-    opendir CLIMDIR, $working;       # DEH 06/14/2000
-    @allpfiles = readdir CLIMDIR;    # DEH 05/05/2000
-    close CLIMDIR;                   # DEH 05/05/2000
-
-    $sortpersonalbyage = 1;
-    if ( !$sortpersonalbyage ) {
-
-        #   @fileNames = glob($custCli . '*.par');
-        #   for $f (@fileNames) {
-        for $f (@allpfiles) {    # DEH 05/05/2000
-            if ( index( $f, $user_ID ) == 0 ) {    # DEH 09/15/2000
-                if ( substr( $f, -4 ) eq '.par' ) {    # DEH 05/05/2000
-                    $f = $working . $f;                # DEH 06/14/2000
-                    open( M, "<$f" ) || goto pskip;    # DEH 05/05/2000
-                    $station = <M>;
-                    close(M);
-
-                    #  print STDERR "$f\n";
-                    $climate_file[$num_cli] = substr( $f, 0, -4 );
-                    $clim_name =
-                      '*' . substr( $station, index( $station, ":" ) + 2, 40 );
-                    $clim_name =~ s/^\s*(.*?)\s*$/$1/;
-                    $climate_name[$num_cli] = $clim_name;
-                    $num_cli += 1;
-                }
-              pskip:    # DEH 05/05/2000
-            }    # DEH 05/05/2000
-        }
-    }
-    else {       # if (!$sortpersonalbyage)
-        for $f (@allpfiles) {    # DEH 05/05/2000
-            if ( index( $f, $user_ID ) == 0 ) {    # DEH 09/15/2000
-                if ( substr( $f, -4 ) eq '.par' ) {    # DEH 05/05/2000
-                    $f = $working . $f;                 # DEH 06/14/2000
-                    open( M, "<$f" ) || goto psskip;    # DEH 05/05/2000
-                    $station = <M>;
-                    close(M);
-
-                    #  ####  get file creation date  ####  #
-                    $age[$num_cli_ps] = -M $f
-                      ;    # age of the file in days since the last modification
-########################################
-                    $climate_file_ps[$num_cli_ps] = substr( $f, 0, -4 );
-                    $clim_name_ps =
-                      '*' . substr( $station, index( $station, ":" ) + 2, 40 );
-                    $clim_name_ps =~ s/^\s*(.*?)\s*$/$1/;
-                    $climate_name_ps[$num_cli_ps] = $clim_name_ps;
-                    $num_cli_ps += 1;
-                }    # if (substr
-              psskip:
-            }    # if (index
-        }    # for $f
-
-        #  ####  index sort climate modification time  ####  #
-        @ind = sort { $age[$a] <=> $age[$b] } 0 .. $#age;    # sort index
-
-        #  ####  copy sorted entries into climate name and file lists  ####  #
-        for my $i ( 0 .. $#age ) {
-            $climate_name[$num_cli] = $climate_name_ps[ $ind[$i] ];
-            $climate_file[$num_cli] = $climate_file_ps[ $ind[$i] ];
-            $num_cli++;
-        }
-    }    # if ($sortpersonalbyage)	# DEH 2012.10.11
-
-### get standard climates
-
-    opendir CLIMDIR, '../climates';    # DEH 05/05/2000
-    @allfiles = readdir CLIMDIR;       # DEH 05/05/2000
-    close CLIMDIR;                     # DEH 05/05/2000
-
-    #   while (<../climates/*.par>) {                       # DEH 05/05/2000
-    #     $f = $_;                                          # DEH 05/05/2000
-
-    $num_cli_s     = 0;
-    $num_cli_start = $num_cli;
-    for $f (@allfiles) {    # DEH 05/05/2000
-        $f = '../climates/' . $f;              # DEH 05/05/2000
-        if ( substr( $f, -4 ) eq '.par' ) {    # DEH 05/05/2000
-            open( M, $f ) || goto sskip;       # DEH 05/05/2000
-            $station = <M>;
-            close(M);
-
-            #  print STDERR "$f\n";
-            $climate_file_s[$num_cli_s] = substr( $f, 0, -4 );
-            $clim_name = substr( $station, index( $station, ":" ) + 2, 40 );
-            $clim_name =~ s/^\s*(.*?)\s*$/$1/;
-            $climate_name_s[$num_cli_s] = $clim_name;
-            $num_cli_s += 1;
-          sskip:                               # DEH 05/05/2000
-        }    # DEH 05/05/2000
-    }
-
-    #  ####  index sort climate name  ####  #
-    @ind = sort { $climate_name_s[$a] cmp $climate_name_s[$b] }
-      0 .. $#climate_name_s;    # sort index
-
-    #  ####  copy sorted entries into climate name and file lists  ####  #
-    for my $i ( 0 .. $#climate_name_s ) {
-        $climate_name[ $i + $num_cli_start ] = $climate_name_s[ $ind[$i] ];
-        $climate_file[ $i + $num_cli_start ] = $climate_file_s[ $ind[$i] ];
-        $num_cli++;
-    }
-}    # if ($fc)			# DEH 08/28/2012
-$num_cli -= 1;
+    @climates = GetClimates($user_ID);
+}
 
 ###################################################
 
@@ -648,7 +442,6 @@ para = para +'   cover, as there are cases where that may be inappropriate.'
   }
 theEnd
 
-
 print <<'theEnd';
 
   function checkeverything() {
@@ -697,20 +490,8 @@ print <<'theEnd';
 theEnd
 print "function StartUp() {\n";
 
-#print "    max_year = new MakeArray($num_cli);\n\n";
-print "    climate_name = new MakeArray($num_cli);\n";
-
-for $ii ( 0 .. $num_cli ) {
-
-    #    print "    max_year[$ii] = " . $climate_year[$ii] . ";\n";
-    print "    climate_name[$ii] = ", '"', $climate_name[$ii], '"', "\n";
-}
 print <<'theEnd';
-//    window.document.weppdist.Climate.selectedIndex = 0;
-//    window.document.weppdist.climyears.value = max_year[0];
-
     default_pcover = new MakeArray(13);
-//  default_pcover = new MakeArray(12);
     default_pcover[13] = 10;	// skid trail		# 2012
     default_pcover[12] = 20;	// burn pile		# 2012
     default_pcover[11] = 10;	// high traffic road
@@ -725,8 +506,6 @@ print <<'theEnd';
     default_pcover[2] = 80;	// shrubs
     default_pcover[1] = 100;	// thin or young forest
     default_pcover[0] = 100;	// mature forest
-//   window.document.weppdist.ofe1.selectedIndex = 0;
-//   window.document.weppdist.ofe2.selectedIndex = 7;
     if (window.document.weppdist.Climate.selectedIndex == "") {
         window.document.weppdist.Climate.selectedIndex = 0;
     }
@@ -770,14 +549,8 @@ print <<'theEnd';
 
   function climYear() {        // change climate years to max for selected
     var which = window.document.weppdist.Climate.selectedIndex;
-//    window.document.weppdist.climyears.value=max_year[which];
     window.document.weppdist.climate_name.value=climate_name[which];
-//    var vegyear=Math.min (max_year[which],10);
-//    var simyear=Math.min (max_year[which],100);
-//    window.document.weppdist.actionv.value=vegyear + "vegetation calibration";
-//    window.document.weppdist.actionw.value=simyear + "WEPP run";
-//    window.document.weppdist.actionv.value="vegetation calibration";
-//    window.document.weppdist.actionw.value="WEPP run";
+    // this is dumb. the select input already has this. why is it duplicating input to climate_name? why is the name of this climYear? this has nothing to do with Year! why David, why?
     window.document.weppdist.achtung.value="Calibrate vegetation";
     window.document.weppdist.achtung.value="WEPP run";
     return false;
@@ -972,7 +745,7 @@ print "
           onmouseover=\"className='thhelpon'\"
           onmouseout=\"className='thhelpoff'\"
           onClick=\"JavaScript:show_help('climate')\"
-          title='Click the link to display select climate parameter values for the selected climate file || Climate files collected for IP: $remote_address ($user_really) personality \"$me\"'>
+          title='Click the link to display select climate parameter values for the selected climate file || Climate files collected for IP: $user_ID'>
        <b><a href=\"JavaScript:submitme('Describe Climate')\">
              Climate</a></b>
       </td>
@@ -982,18 +755,13 @@ print '
       <td align="center" bgcolor="#FAF8CC">
        <SELECT NAME="Climate" SIZE="', $num_cli + 1, '">
 ';
-### display personal climates, if any
 
-if ( $num_cli > 0 ) {
-    print '        <OPTION VALUE="';
-    print $climate_file[0];
-    print '" selected> ', $climate_name[0], "\n";
+foreach my $ii ( 0 .. $#climates ) {
+    print '<OPTION VALUE="', $climates[$ii]->{'clim_file'}, '"';
+    print ' selected' if $ii == 0;
+    print '> ', $climates[$ii]->{'clim_name'}, "\n";
 }
-for $ii ( 1 .. $num_cli ) {
-    print '        <OPTION VALUE="';
-    print $climate_file[$ii];
-    print '"> ', $climate_name[$ii], "\n";
-}
+
 print "       </SELECT>
       <tr>
        <td align=center class=\"tdhelpoff\" onmouseover=\"className='tdhelpon'\" onmouseout=\"className='tdhelpoff'\" onClick=\"JavaScript:show_help('climate_buttons')\">
@@ -1340,13 +1108,12 @@ print '
      Southern Nevada Public Land Management Act</a>
    <br><br>
    Tahoe Basin Sediment Model Interface v.
-   <a href="https://github.com/wepp-in-the-woods/fswepp-docker/commits/main/var/www/cgi-bin/fswepp/tahoe/tahoe.pl">', $version, '</a><br>
+   <a href="https://github.com/wepp-in-the-woods/fswepp-docker/commits/main/var/www/cgi-bin/fswepp/tahoe/tahoe.pl">',
+  $version, '</a><br>
 ';
 $remote_host    = $ENV{'REMOTE_HOST'};
 $remote_address = $ENV{'REMOTE_ADDR'};
 
-# $wc  = `wc ../working/_2016/wt.log`;
-# $wc  = `wc ../working/_2017/wt.log`;
 $wc    = `wc ../working/' . currentLogDir() . '/wt.log`;
 @words = split " ", $wc;
 $runs  = @words[0];
