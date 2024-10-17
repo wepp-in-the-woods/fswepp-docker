@@ -128,31 +128,6 @@ else {
     { $sed_conc = $sed_conc_def; $sed_conc_ok = 0 };
 }
 
-### filter bad stuff out of description ###
-#   limit length to reasonable (200?)
-#   remove HTML tags ( '<' to &lt; and '>' to &gt; )
-$description = substr( $description, 0, 100 );
-$description =~ s/</&lt;/g;
-$description =~ s/>/&gt;/g;
-###
-
-$tahoe = "/cgi-bin/fswepp/tahoe/tahoe.pl";
-
-if ( lc($action) =~ /custom/ ) {
-    exec "../rc/rockclim.pl -server -i$me -u$units $tahoe";
-    die;
-}    # /custom/
-
-if ( lc($achtung) =~ /describe climate/ ) {
-    if ($fc) {
-        exec "../rc/desccli.pl $CL $units";
-    }
-    else {
-        exec "../rc/descpar.pl $CL $units $tahoe";
-    }
-    die;
-}    # /describe climate/
-
 if ( lc($achtung) =~ /describe soil/ ) {    ##########
     $units    = escapeHTML( $cgi->param('units') );
     $SoilType = escapeHTML( $cgi->param('SoilType') );

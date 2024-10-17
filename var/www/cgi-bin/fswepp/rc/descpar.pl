@@ -9,14 +9,15 @@ use MoscowFSL::FSWEPP::FsWeppUtils qw(get_version);
 # descpar.pl
 #
 
-my @debug    = 0;
+my $debug    = 0;
 my $version  = get_version(__FILE__);
-my $query    = CGI->new;
+
 my $referrer = $ENV{'HTTP_REFERER'};
 if ( !$referrer ) {
     $referrer = '/fswepp/';
 }
 
+my $query    = CGI->new;
 my $CL = $query->param('CL') || $ARGV[0];
 chomp $CL;
 
@@ -61,13 +62,6 @@ for $ii ( 0 .. 11 ) { $tmin_av[$ii] = substr( $line, 8 + $ii * 6, 6 ) }
 $tmin_av_base = 0;
 
 while (<PAR>) {
-
-    #     print;
-    #     $/="\n"; chomp;     # some lines have 0d0d0a so remove all CR LF
-    #     $/="\r"; chomp;
-    #     $/="\n";
-    #     tr/ //;
-    #     if (/^$/) {last};		# look for blank line -- not working...?
     last if (/CALM/);
 }
 
@@ -145,41 +139,26 @@ $lon += 0;
 ##########################
 $climate_name_filt = $climate_name;
 $climate_name_filt =~ s/'/`/;
+
 print "Content-type: text/html\n\n";
-print "<HTML>\n";
-print " <HEAD>\n";
-print "  <TITLE>Climate Parameters</TITLE>\n";
-print "  <script language=Javascript>
 
-   function ShowPar() {
-    newin = window.open('','par',',scrollbars=yes,resizable=yes,height=600,width=900,status=yes')                       
-    newin.document.open()
-    newin.document.writeln('<html><body onload=\"self.focus()\"><pre>')
-";
-open PAR, "<$climateFile";
-
-while (<PAR>) {
-    tr/'/`/;
-
-    #    s/'/ /;
-    $/ = "\n";
-    chomp;    # some lines have 0d0d0a so remove all CR LF
-    $/ = "\r";
-    chomp;
-    $/ = "\n";
-    print "    newin.document.writeln('$_')\n";
-}
-close PAR;
-print "
-    newin.document.close()
-   }
-  </script>
-";
-print " </HEAD>\n";
-print ' <body bgcolor=white link="#1603F3" vlink="#160A8C">
-  <font face="Arial, Geneva, Helvetica">', "\n";
-print "   <center>
-    <h2>Climate parameters for $climate_name</h2>\n";
+print qq (
+<html>
+  <head>
+    <title>Climate Parameters</title>
+    <script type="text/javascript">
+      function ShowPar() {
+          var CL = '$CL';
+          var url = 'showpar.pl?CL=' + encodeURIComponent(CL);
+          window.open(url, 'parWindow', 'scrollbars=yes,resizable=yes,height=600,width=900,status=yes');
+        }
+    </script>
+  </head>
+  <body bgcolor=white link="#1603F3" vlink="#160A8C">
+    <font face="Arial, Geneva, Helvetica">
+    <center>
+      <h2>Climate parameters for $climate_name</h2>
+);
 
 if ($debug) { print "climate: '$CL' ; units: '$units'<br>\n" }
 ##########################
@@ -249,8 +228,6 @@ printf "      <td align=right>%7.2f</td>\n", $annual_precip;
 printf "      <td align=right>%7.1f</td>\n", $annual_wet_days;
 print "     </tr>\n";
 print "    </table>\n    <br><br>\n";
-
-# **********************
 
 print qq(
     <img src="/fswepp/images/line_red2.gif">

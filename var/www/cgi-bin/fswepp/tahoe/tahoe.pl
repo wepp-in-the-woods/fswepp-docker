@@ -746,16 +746,26 @@ print qq(
           onmouseout="className='thhelpoff'"
           onClick="JavaScript:show_help('climate')"
           title='Click the link to display select climate parameter values for the selected climate file || Climate files collected for IP: $user_ID'>
-          
+);
+if ( $fc ) {
+print qq(
+       <a href="#" onclick="
+          var climateValue = document.getElementById('Climate').value;
+          window.location.href = '/cgi-bin/fswepp/rc/desccli.pl?CL=' + climateValue + '&units=$units'">
+          Climate</a>
+);
+}
+else {
+print qq(
        <a href="#" onclick="
           var climateValue = document.getElementById('Climate').value;
           window.location.href = '/cgi-bin/fswepp/rc/descpar.pl?CL=' + climateValue + '&units=$units'">
-          Climate</a></b>
+          Climate</a>
+);
+}
+print '</b>
       </td>
      <tr align=top>
-);
-
-print '
       <td align="center" bgcolor="#FAF8CC">
        <SELECT NAME="Climate" SIZE="', $num_cli + 1, '">
 ';

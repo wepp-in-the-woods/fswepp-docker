@@ -8,73 +8,20 @@ use MoscowFSL::FSWEPP::FsWeppUtils qw(get_user_id);
 #
 # read given FS WEPP runlog file and return HTML
 #
+my $ipd = get_user_id();
 
-# to do: validate [ddd].[ddd].[ddd].[ddd][a-zA-Z]
+my $runlogfile = 'working/' . $ipd . '.run.log';
 
-#    add color on first table box to indicate model (all the way down, not just the header)
-#    read from argument list the IP
-#    166.2.22.221 or 166_2_22_221
-# if not there, read from user machine
-#    what about 'me'?
-#
-#      ?ip=166.2.22.220		-- personality ''
-#      ?ip=166.2.22.220a	-- personality 'a'
-
-my $cgi        = CGI->new;
-$ip = escapeHTML( $cgi->param('ip') );
-
-# https://forest.moscowfsl.wsu.edu/cgi-bin/fswepp/runlogger.pl?ip=<meta%20http-equiv=Set-Cookie%20content="testlfyg=5195">
-
-if ( $ip ne '' ) {
-    $ipd = $ip;
+if ( !-e $runlogfile ) {
+    die "Run log file: $runlogfile not found";
 }
 
-#   $ipd = '166_2_22_221';			# get from caller or argument list
-else {    # who am I?
-    $ip  = $ENV{'REMOTE_ADDR'};
-    $ipd = get_user_id();
-}
-$ipd =~ tr/./_/;
-
-##################################################
-#   validate dotted quad
-##################################################
-
-# strip single letter (a-zA-Z)($me) off end if it exists
-
-$ipp = $ip;
-$ipp = substr( $ip, 0,  -1 ) if ( $ip =~ m/[a-z]$/i );
-$me  = substr( $ip, -1, 1 )  if ( $ip =~ m/[a-z]$/i );
-
-if ( $ipp =~ /^(\d{1,3})\.(\d{1,3})\.(\d{1,3})\.(\d{1,3})$/
-    && ( ( $1 <= 255 && $2 <= 255 && $3 <= 255 && $4 <= 255 ) ) )
-{
-    $valid_ip = "valid";
-}
-else {
-    $valid_ip = "invalid";
-}
-
-#    https://stackoverflow.com/questions/2346869/what-regex-can-i-use-to-match-any-valid-ip-address-represented-in-dot-decimal-no
-
-#################################################
-#################################################
-
-$runlogfile = 'working/' . $ipd . '.run.log';
-
-# WR      wepp-6551       "05:51 pm  Tuesday February 23, 2010"	"SANDPOINT EXP STA ID"	8       clay    native  200     4   13       15      50      130     25      20      inveg
-# WD      wepp-6860       "02:54 pm  Thursday January 28, 2010"	"SANTA MONICA PIER CA"	30      clay    short   50      0   30       40      20      short   50      30      5       40      20      0       m       ""
-# WF      wepp-30788      "03:31 pm  Friday January 22, 2010"	"WhiteKnob +"	sand    193     1       14      28      7   40       20      20      0       ft
-# WE      wepp-7122       "04:24 pm  Friday March 5, 1902"	"Melbourne AU +"	clay    20      forest  0       50  30       100     l
-# WW      wepp-5118       "05:13 pm  Monday April 12, 2010"	"Melbourne AU +"	clay    skid    50      0       30      10  20       400     skid    50      30      5       100     20      400     restricted      "fractured igneous and metamorphic" 25       9.00E-05        m
-# wt      "May 25, 2010"  "RUBICON #2 CA SNOTEL +"        granitic        OldForest       0       30      50      100       20      YoungForest     30      5       50      100     20      m	""
-
-$wr_color = '#a1a1f7';    # WEPP:Road
-$wd_color = '#77c677';    # Disturbed WEPP
-$we_color = '#e91d45';    # ERMiT
-$wf_color = '#f0a014';    # FuME
-$wa_color = '#f0f014';    # WASP
-$wt_color = '#3fe275';    # Tahoe
+my $wr_color = '#a1a1f7';    # WEPP:Road
+my $wd_color = '#77c677';    # Disturbed WEPP
+my $we_color = '#e91d45';    # ERMiT
+my $wf_color = '#f0a014';    # FuME
+my $wa_color = '#f0f014';    # WASP
+my $wt_color = '#3fe275';    # Tahoe
 
 #  print table header
 
@@ -82,23 +29,14 @@ print "Content-type: text/html\n\n";
 print "
 <html>
  <head>
-  <title>FS WEPP run log for $ip</title>
+  <title>FS WEPP run log for $ipd</title>
  </head>
  <body link=black vlink=black alink=crimson>
   <font face=\"trebuchet, tahoma, arial, sans serif\" size=-3>
 ";
 
-if ( $valid_ip eq 'invalid' ) {
-    print "
-   <h3>Run log for [Invalid IP]</h3>
-  </font>
- </body>
-</html>";
-    die;
-}
-
 print "
-   <h3>Run log for IP $ipp personality '$me'</h3>
+   <h3>Run log for IP $ipd'</h3>
    <table border=1 cellpadding=7>
     <tr>
      <th bgcolor=#a1a1f7><a href='#wr'>WEPP:Road</a></th>
@@ -139,11 +77,11 @@ print "
     </tr>";
 
 open RUNLOG, "<$runlogfile";
-$count = 0;
-$gt    = 0;
+my $count = 0;
+my $gt    = 0;
 while (<RUNLOG>) {
 
-    ( $prog, $rest ) = split "\t", $_, 0;
+    my ( $prog, $rest ) = split "\t", $_, 0;
 
     if ( $prog eq 'WR' ) {
         (

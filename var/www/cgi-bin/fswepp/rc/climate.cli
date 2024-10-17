@@ -4,59 +4,28 @@
 use CGI;
 use CGI qw(escapeHTML);
 
+use warnings;
+use MoscowFSL::FSWEPP::FsWeppUtils qw(get_user_id);
+
 # climate.cli  --  disguised perl script to generate & return climate
 
-# called from showclimates.pl for download (copypar.pl called from withing WEPP:Road, etc.)
+my $user_ID = get_user_id();
 
-# DEH 04/19/2010 add Tahoe basin support
-# DEH 01/24/2001 unlink (erase) .cli file after download
-# DEH 06/14/2000 fix working directory path for unix [modify]
-
-#  usage:
-#    <form ACTION="https://host/cgi-bin/fswepp/rc/climate.cli" method="post">
-#  parameters:
-#    'state'
-#    'station'
-#    'startyear'   	# should be numeric
-#    'simyears'		# should 1..200
-#    'action'		# '-download' or '-server'
-#    'comefrom'
-#    'submitbutton'	# 'describe' or 'download' or 'modify'
-#    'me'
-#    'units'		# 'm' or 'ft'
-#  reads:
-#    d:\fswepp\working
-#    $climate_file
-#  calls:
-#    exec "perl ../rc/descpar.pl $CL $units $iam"
-#    exec "perl ../rc/modpar.pl $CL $units $iam"
-#    system "cligen43 <$rspfile >$stoutfile"
-
-#  FSWEPP, USDA Forest Service, Rocky Mountain Research Station, Soil & Water Engineering
-#  Science by Bill Elliot et alia                                      Code by David Hall
-#  19 October 1999
-
-$cgi = new CGI;
+$cgi = CGI->new;
 $state        = escapeHTML( $cgi->param('state') );
 $station      = escapeHTML( $cgi->param('station') );
 $startyear    = escapeHTML( $cgi->param('startyear') );
 $simyears     = escapeHTML( $cgi->param('simyears') );
 $action       = escapeHTML( $cgi->param('action') );
 $comefrom     = escapeHTML( $cgi->param('comefrom') );
-$submitbutton = lc( escapeHTML( $cgi->param('submitbutton') ) );
-$units        = escapeHTML( $cgi->param('units') );
-$me           = escapeHTML( $cgi->param('me') );
+$submitbutton = $cgi->param('submitbutton');
 
-if ( $me ne "" ) {
-    $me = lc( substr( $me, 0, 1 ) );
-    $me =~ tr/a-z/ /c;
+if (!defined $submitbutton) {
+    die "unexpected routing";
 }
-if ( $me eq " " ) { $me = "" }
 
-$user_ID = $ENV{REMOTE_ADDR};
-$user_ID =~ tr/./_/;
-$user_ID = $user_ID . $me;
-if ( $user_ID eq "" ) { $user_ID = "custom" }
+$submitbutton = defined $submitbutton ? lc( escapeHTML($submitbutton) ) : '';
+$units        = escapeHTML( $cgi->param('units') );
 
 $unique = 'wepp' . '-' . $$;
 
@@ -73,6 +42,8 @@ $simyears = int($simyears);
 if ( $simyears < $minyear ) { $simyears = $minyear }
 if ( $simyears > $maxyear ) { $simyears = $maxyear }
 if ( $action eq "" )        { $action   = "-server" }
+
+
 
 # store valid states (plus) in array @states and
 # construct a hash (Wall, Programming Perl, p. 537)

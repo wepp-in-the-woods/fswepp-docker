@@ -60,7 +60,6 @@ $lat2 = escapeHTML( $parameters{'bndlat2'} );
 $lon1 = escapeHTML( $parameters{'bndlon1'} );
 $lon2 = escapeHTML( $parameters{'bndlon2'} );
 
-$me    = escapeHTML( $parameters{'me'} );
 $units = escapeHTML( $parameters{'units'} );
 
 #####  Set other parameters values  #####

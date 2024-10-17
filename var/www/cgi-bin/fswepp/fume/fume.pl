@@ -4,7 +4,7 @@
 #use CGI ':standard';
 
 use warnings;
-use MoscowFSL::FSWEPP::FsWeppUtils qw(get_version);
+use MoscowFSL::FSWEPP::FsWeppUtils qw(get_version get_user_id);
 use MoscowFSL::FSWEPP::CligenUtils qw(GetClimates);
 
 my $year_min   = 1;
@@ -90,23 +90,10 @@ my $version = get_version(__FILE__);
 #  Code by David Hall
 print "Content-type: text/html\n\n";
 
-$cookie = $ENV{'HTTP_COOKIE'};
-$sep    = index( $cookie, "FSWEPPuser=" );
-$me     = "";
-if ( $sep > -1 ) { $me = substr( $cookie, $sep + 11, 1 ) }
-if ( $me ne "" ) {
-    $me = lc( substr( $me, 0, 1 ) );
-    $me =~ tr/a-z/ /c;
-}
-if ( $me eq " " ) { $me = "" }
+my $user_ID = get_user_id();
 
-$working     = '../working/';                             # DEH 08/22/2000
-$user_ID     = $ENV{'REMOTE_ADDR'};
-$user_really = $ENV{'HTTP_X_FORWARDED_FOR'};              # 2004.09.21 DEH
-$user_ID     = $user_really if ( $user_really ne '' );    # 2004.09.21 DEH
-$user_ID =~ tr/./_/;
-$user_ID = $user_ID . $me . '_';                          # DEH 03/05/2001
-$custCli = '../working/' . $user_ID;                      # DEH 03/02/2001
+my $working     = '../working/';                
+my $custCli = '../working/' . $user_ID;     
 
 my @climates = GetClimates($user_ID);
 
@@ -562,7 +549,6 @@ print
 <br>
 
   <form name="fume" method="post" ACTION="/cgi-bin/fswepp/fume/fume2.pl">
-  <input type="hidden" size="1" name="me" value="', $me, '">
   <table border="1">
 ';
 print qq(
@@ -815,17 +801,14 @@ print qq(
     </table>
 );
 
-$remote_host    = $ENV{'REMOTE_HOST'};
-$remote_address = $ENV{'REMOTE_ADDR'};
 
-# $wc  = `wc ../working/_2016/wf.log`;
 $wc    = `wc ../working/' . currentLogDir() . '/wf.log`;
 @words = split " ", $wc;
 $runs  = @words[0];
 
 
 print "  <font face='tahoma, arial, helvetica, sans serif' size=1>
-   $remote_host &ndash; $remote_address ($user_really) personality '<b>$me</b>'<br>
+   $user_ID<br>
    <b>$runs</b> WEPP FuME runs YTD
   </font>
  </body>

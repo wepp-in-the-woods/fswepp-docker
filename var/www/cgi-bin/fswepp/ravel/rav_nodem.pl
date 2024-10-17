@@ -37,7 +37,6 @@ $staticFrictionAngle  = escapeHTML( $cgi->param('static') ) + 0;
 $kineticFrictionAngle = escapeHTML( $cgi->param('kinetic') ) + 0;
 $bulkDensity          = escapeHTML( $cgi->param('bulk') ) + 0;
 
-$me    = escapeHTML( $cgi->param('me') );      # DEH 05/24/2000
 $units = escapeHTML( $cgi->param('units') );
 
 #####  Set other parameters values  #####
@@ -449,24 +448,6 @@ $results_prod_File
 $calibration_File
 ";
     close PARAM;
-
-    #   $size_default=2;
-    #   $mmo_default=0.1;
-    #   $vegsize_default=0.05;
-    #   $vegdensity_default=1;
-
-#   print "Size:              [$size_default]    ";
-#   $size=<STDIN>;   chomp $size;   $size=$size_default if ($size eq '');
-#   print "Minimum mass out   [$mmo_default]  ";
-#   $minMassOut=<STDIN>;   chomp $minMassOut;   $minMassOut=$mmo_default if ($minMassOut eq '');
-#   print "Vegetation size    [$vegsize_default] ";
-#   $vegetationsize=<STDIN>;   chomp $vegetationsize;   $vegetationsize=$vegsize_default if ($vegsize eq '');
-#   print "Vegetation density [$vegdensity_default]    ";
-#   $vegetationdensity=<STDIN>;   chomp $vegetationdensity;   $vegetationdensity=$vegdensity_default if ($vegetationdensity eq '');
-
-#   open PARAM, '>paraminput.txt';
-#     print PARAM "$num_rows\t$num_cols\t$size\t$minMassOut\t$vegetationsize\t$vegetationdensity\n";
-#   close PARAM;
 
     print '<br>starting simulation.......<br>';
 

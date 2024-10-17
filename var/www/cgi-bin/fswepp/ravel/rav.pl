@@ -2,32 +2,16 @@
 
 use CGI;
 use CGI qw(escapeHTML);
-my $cgi = new CGI;
+
+use MoscowFSL::FSWEPP::FsWeppUtils qw(get_user_id get_version);
 
 #
 #  rav.pl -- Ravel workhorse
 #
+my $debug = 0;
+my $version = get_version(__FILE__);
+my $cgi = new CGI;
 
-## BEGIN HISTORY ##############################
-# RMRS Ravel Results history
-$version = '2010.03.15';    #
-## END HISTORY ##############################
-
-$debug = 1;
-
-# Reads user input from ravel.pl,
-# Metric units only at present
-
-# Writes:
-#
-
-# to do:
-
-# David Hall, USDA Forest Service, Rocky Mountain Research Station, Moscow
-
-#=========================================================================
-
-#####  Read user input parameters  #####
 
 $description          = escapeHTML( $cgi->param('description') );
 $vegetationSize       = escapeHTML( $cgi->param('stemsize') ) + 0;
@@ -556,10 +540,6 @@ Range: $range m ($min_elev to $max_elev)
 #### if display DEM only, stop here ###
 #######################################
 
-    # die;
-
-    #  &createParamFile;
-
     open PARAM, ">$paramFile";
     print PARAM "$vegetationSize
 $vegetationDensity
@@ -572,24 +552,6 @@ $results_prod_File
 $calibration_File
 ";
     close PARAM;
-
-    #   $size_default=2;
-    #   $mmo_default=0.1;
-    #   $vegsize_default=0.05;
-    #   $vegdensity_default=1;
-
-#   print "Size:              [$size_default]    ";
-#   $size=<STDIN>;   chomp $size;   $size=$size_default if ($size eq '');
-#   print "Minimum mass out   [$mmo_default]  ";
-#   $minMassOut=<STDIN>;   chomp $minMassOut;   $minMassOut=$mmo_default if ($minMassOut eq '');
-#   print "Vegetation size    [$vegsize_default] ";
-#   $vegetationsize=<STDIN>;   chomp $vegetationsize;   $vegetationsize=$vegsize_default if ($vegsize eq '');
-#   print "Vegetation density [$vegdensity_default]    ";
-#   $vegetationdensity=<STDIN>;   chomp $vegetationdensity;   $vegetationdensity=$vegdensity_default if ($vegetationdensity eq '');
-
-#   open PARAM, '>paraminput.txt';
-#     print PARAM "$num_rows\t$num_cols\t$size\t$minMassOut\t$vegetationsize\t$vegetationdensity\n";
-#   close PARAM;
 
     print '<br>starting simulation ... ';
 

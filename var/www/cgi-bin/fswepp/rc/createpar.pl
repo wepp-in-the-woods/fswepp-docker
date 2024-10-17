@@ -1,24 +1,16 @@
 #!/usr/bin/perl
 
+use warnings;
 use CGI;
 use CGI qw(escapeHTML);
 
-use MoscowFSL::FSWEPP::FsWeppUtils qw(printdate);
+use MoscowFSL::FSWEPP::FsWeppUtils qw(printdate get_user_id);
 
 # createpar.pl
 
-# 2015.04.30 DEH allow f..z for everyone for modified climates ($exceptions)
-# 2014.12.01 DEH code formatting
-# 2014.08.17 DEH
-# 2012.03.21 DEH Add exception IPs for increased number of modified personal climates (f..z from v..z)
-# 2010.05.25 DEH chomp $old_station_no (would print blank line 2 for SNOTEL stations)
-# 2004.02.03 DEH Comment out errant print statement of station name
-# 04/19/2001 DEH changed history headers only
-# 03/05/2001 DEH added '_' to $user_ID
-# 07/19/2000 DEH added user_ID code; worked on working directory spec
-# 05/16/2000 DEH changed climate par file suffix letter a..e to v..z (a..e for unmodified personal, v..z for modified)
+my $cgi = CGI->new;
 
-$cgi = CGI->new;
+my $user_ID = get_user_id();
 
 $ftelev         = escapeHTML( $cgi->param('ftelev') );
 $melev          = escapeHTML( $cgi->param('melev') );
@@ -38,55 +30,23 @@ for $i ( 1 .. 12 ) {
     $pwd[ $i - 1 ]     = escapeHTML( $cgi->param("pwd$i") );
 }
 
-$comefrom  = escapeHTML( $cgi->param('comefrom') );
-$newheader = escapeHTML( $cgi->param('newname') );
-$me        = escapeHTML( $cgi->param('me') );
+my $comefrom  = escapeHTML( $cgi->param('comefrom') );
+my $newheader = escapeHTML( $cgi->param('newname') );
 
-if ( $me ne "" ) {
-    $me = substr( $me, 0, 1 );
-    $me =~ tr/a-zA-Z/ /c;
-}
-if ( $me eq " " ) { $me = "" }
+my @num_days = ( 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 );
 
-$user_ID     = $ENV{REMOTE_ADDR};
-$user_really = $ENV{'HTTP_X_FORWARDED_FOR'};              # DEH 11/14/2002
-$user_ID     = $user_really if ( $user_really ne '' );    # DEH 11/14/2002
-$user_ID_    = $user_ID;                                  # DEH 2012.03.21
-$user_ID =~ tr/./_/;
-$user_ID = $user_ID . $me . '_';                          # DEH 03/05/2001
-if ( $user_ID eq "" ) { $user_ID = "custom" }
+my $working = '../working';    # DEH 07/19/00
 
-$exceptions = 0;
-$exceptions = 1 if ( $user_ID_ eq 'climate' );
-$exceptions = 1
-  if ( $user_ID_ eq '166.2.22.221'
-    || $user_ID_ eq '166.4.226.86'
-    || $user_ID_ eq '166.4.226.113' );
-$exceptions = 1;                                          # DEH 2015.04.30
+my $startletter = 'f';
+my $endletter   = 'z';
 
-#      print "Content-type: text/html\n\n";
-#     print "Header:	$newheader
-#Lat:		$newlat
-#Long:		$newlong
-#Source:		$climateFile
-#Units:		$units\n";
-
-@num_days = ( 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 );
-
-$working = '../working';    # DEH 07/19/00
-
-#         $climateFile = $state . '/' . $station . '.par';
-#         $outfile = "../working/" . $user_ID . ".par";		# DEH 06/05/2000
-$startletter = 'v';
-$endletter   = 'z';
-if ($exceptions) { $startletter = 'f'; $endletter = 'z' }
-for $letter ( $startletter .. $endletter ) {
+for my $letter ( $startletter .. $endletter ) {
     $nextletter = $letter;
     $outfile    = "$working/" . $user_ID . $letter . '.par';
     if ( !( -e $outfile ) ) { last }
 }
 
-#      $infilename = $climateFile;
+
 if ( $lathemisphere eq "S" )  { $newlat  *= -1 }
 if ( $longhemisphere eq "W" ) { $newlong *= -1 }
 #
@@ -99,9 +59,6 @@ else {
     $new_elev = $ftelev;
 }
 
-#     open DEBUG, '>../working/test';
-#     print DEBUG $outfile;
-#     close DEBUG;
 
 open INPAR,  "<$climateFile";
 open NEWPAR, ">$outfile";
@@ -216,7 +173,3 @@ if ( $comefrom eq "" ) {
 else {
     exec "../rc/rockclim.pl -server -u$units $comefrom";
 }
-
-#---------------------------
-
-

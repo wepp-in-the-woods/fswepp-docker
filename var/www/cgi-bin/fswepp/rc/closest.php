@@ -220,19 +220,10 @@ if (is_numeric ($my_latitude) && is_numeric($my_longitude)
      <input type="submit" name="submitbutton" value="MODIFY CLIMATE">
     </form>
 ';
-
-//    var_dump($dist);
-//    var_dump($file);
-//    var_dump($stat);
     }
     else {
       echo "sort failed<br><br>\n";
     }
-
-//    var_dump($dist);
-//    var_dump($file);
-//    var_dump($stat);
-
 }
 ?>
    </font>

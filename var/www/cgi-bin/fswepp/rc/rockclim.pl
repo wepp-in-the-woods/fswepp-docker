@@ -3,10 +3,14 @@ use warnings;
 use CGI qw(:standard escapeHTML);
 
 use MoscowFSL::FSWEPP::FsWeppUtils qw(get_version get_user_id);
+use MoscowFSL::FSWEPP::CligenUtils qw(GetPersonalClimates);
 
-my $debug = 0;
+my $debug   = 0;
 my $version = get_version(__FILE__);
 my $user_ID = get_user_id();
+
+my @climates = GetPersonalClimates($user_ID);
+my $num_cli  = scalar @climates;
 
 ####################
 # Get input values #
@@ -21,15 +25,16 @@ chomp $arg2;
 my $arg3 = $ARGV[3];
 chomp $arg3;
 
-my ($goback, $units, $action, $comefrom);
+my ( $goback, $units, $action, $comefrom );
 if ( $arg0 . $arg1 . $arg2 . $arg3 eq "" ) {
     my $cgi = CGI->new;
 
     # Initialize parameters
-    $goback   = escapeHTML($cgi->param('goback'));
-    $units    = escapeHTML($cgi->param('units'));
-    $action   = escapeHTML($cgi->param('action')   || '-download'); # why is the default '-download'?
-    $comefrom = escapeHTML($cgi->param('comefrom'));
+    $goback = escapeHTML( $cgi->param('goback') );
+    $units  = escapeHTML( $cgi->param('units') );
+    $action = escapeHTML( $cgi->param('action') || '-download' )
+      ;    # why is the default '-download'?
+    $comefrom = escapeHTML( $cgi->param('comefrom') );
 }
 else {
     # this is bad.
@@ -65,38 +70,7 @@ print '<html>
 
 ';
 
-
-if ( $action ne '-download' ) {
-
-#####################################################
-###           get custom climates, if any         ###
-
-    $num_cli   = 0;
-    @fileNames = glob( $custCli . '*.par' );
-    for $f (@fileNames) {
-        if ($debug) { print "Opening $f<br>\n"; }
-        open( M, "<$f" ) || die;    # cli file
-        $station = <M>;
-        close(M);
-        $climate_file[$num_cli] = substr( $f, 0, length($f) - 4 );
-
-        #      $clim_name = "*" . substr($station, index($station, ":")+2, 40);
-        $clim_name = "*" . substr( $station, 0, 40 );
-        $clim_name =~ s/^\s*(.*?)\s*$/$1/;
-        $climate_name[$num_cli] = $clim_name;
-        $num_cli += 1;
-    }
-
-}    # end if ($action ne '-download')
-
-###                                               ###
-#####################################################
-###          get shared climates, if any          ###
-
 $clim_name = '';
-
-#####################################################
-#####################################################
 
 if ( $action eq '-download' ) {
     print '  <a href="/fswepp/">
@@ -175,17 +149,6 @@ else {
      onMouseOut="window.status=\' \'; return true"></a>
      ';
 }
-
-if ($debug) {
-    print "arg0: '$arg0'<br>
-       arg1: '$arg1'<br>
-       arg2: '$arg2'<br>
-       arg3: '$arg3'<br>
-       comefrom: '$comefrom'<br>";
-    print "units: '$units' \n";
-    print "action: '$action'<br>\n";
-}
-
 print '<CENTER>
   <H2>Rock:Clime<br>Rocky Mountain Research Station<br>Climate Generator</H2>
   <hr>
@@ -203,24 +166,19 @@ if ( $action ne '-download' ) {
      <tr>
       <th valign=top>
 ';
-    print "  <h3>Manage personal climates";
-    if ( $me ne '' ) { print "<br>for personality '$me'" }
-    print "</h3><p>\n";
+    print "  <h3>Manage personal climates</h3><p>\n";
     if ( $num_cli == 0 ) { print "No personal climates exist<p><hr>\n" }
     else {
-        print '
+        print qq(
       <form method="post" action="../rc/manageclimates.pl">
       <SELECT NAME="Climate" SIZE="', $num_cli, '">
-      <OPTION VALUE="';
-        print $climate_file[0];
-        print '" selected> ' . $climate_name[0] . "\n";
-        for $ii ( 1 .. $num_cli - 1 ) {
-            print '        <OPTION VALUE="';
-            print $climate_file[$ii];
-            print '"> ' . $climate_name[$ii] . "\n";
+      );
+        foreach my $ii ( 0 .. $#climates ) {
+            print '<option value="', $climates[$ii]->{'clim_file'}, '"';
+            print ' selected' if $ii == 0;
+            print '> ', $climates[$ii]->{'clim_name'}, "\n";
         }
-
-        print '      </SELECT>
+        print '      </select>
       <p>
       <input type="hidden" name="units" value="',    $units,    '">
       <input type="hidden" name="comefrom" value="', $comefrom, '">
@@ -321,32 +279,34 @@ print '
   </table>
 ';
 
-    my $url;
-    if ( $comefrom =~ /road/ ) {
-        $url = "/cgi-bin/fswepp/wr/";
-    }
-    elsif ( $comefrom =~ /wrbat/ ) {
-        $url = "/cgi-bin/fswepp/wrbat/";
-    }
-    elsif ( $comefrom =~ /wd/ ) {
-        $url = "/cgi-bin/fswepp/wd/";
-    }
-    elsif ( $comefrom =~ /ermit/ ) {
-        $url = "/cgi-bin/fswepp/ermit/";
-    }
-    elsif ( $comefrom =~ /fume/ ) {
-        $url = "/cgi-bin/fswepp/fume/";
-    }
-    elsif ( $comefrom =~ /tahoe/ ) {
-        $url = "/cgi-bin/fswepp/tahoe/";
-    }
+my $url;
+if ( $comefrom =~ /road/ ) {
+    $url = "/cgi-bin/fswepp/wr/";
+}
+elsif ( $comefrom =~ /wrbat/ ) {
+    $url = "/cgi-bin/fswepp/wrbat/";
+}
+elsif ( $comefrom =~ /wd/ ) {
+    $url = "/cgi-bin/fswepp/wd/";
+}
+elsif ( $comefrom =~ /ermit/ ) {
+    $url = "/cgi-bin/fswepp/ermit/";
+}
+elsif ( $comefrom =~ /fume/ ) {
+    $url = "/cgi-bin/fswepp/fume/";
+}
+elsif ( $comefrom =~ /tahoe/ ) {
+    $url = "/cgi-bin/fswepp/tahoe/";
+}
 
-    if ($comefrom ne '') {
-        print qq (<button onclick="window.location.href='$url'">Return to input screen</button>);
-    }
-    else {
-        print qq (<button onclick="window.location.href='/fswepp/'">Return to FSWEPP</button>);
-    }
+if ( $comefrom ne '' ) {
+    print
+qq (<button onclick="window.location.href='$url'">Return to input screen</button>);
+}
+else {
+    print
+qq (<button onclick="window.location.href='/fswepp/'">Return to FSWEPP</button>);
+}
 
 print '</CENTER>
  <P>

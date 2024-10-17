@@ -3,62 +3,14 @@
 use CGI;
 use CGI qw(escapeHTML);
 
+use warnings;
+use MoscowFSL::FSWEPP::FsWeppUtils qw(get_version);
+
 # modpar.pl
 #
 
-$version = "2014.12.02";
-
-$debug = 0;
-
-#  usage:
-#    exec modpar.pl $CL $units $comefrom $state
-#
-#  arguments:
-#    $CL		climate file name
-#    $units		'm' or 'ft'
-#    $comefrom          wepp:road or disturbed wepp path
-#    $state             for retreat
-#    form:
-#      platitude        PRISM location latitude  (always positive)
-#      plongitude       PRISM location longitude (always positive)
-#      elev             PRISM location elevation (units m or ft)
-#      units            User's unit scheme ('-um', '-uft', 'm', or 'ft')
-#      CL               Basis climate file name
-#      climate_name     Climate name
-#      ppcp1..ppcp12    PRISM precip for January..December (mm or in)
-#      ppcp             PRISM annual precipitation (mm or in)
-#      comefrom         Calling program
-#      state            State for basis climate station
-#      retreat
-#  reads:
-
-#  FSWEPP, USDA Forest Service, Rocky Mountain Research Station, Soil & Water Engineering
-#  Science by Bill Elliot et alia                    Code by David Hall and Dayna Scheele
-
-# 2014.12.02 DEH fix updateLL to take user-entered values from PRISM form to MODS form, check transfer of modified precip
-# 2014.12.01 cheange order of command-line args to match documentation above, and programs that call it command-line
-# 2010.11.18 DEH try to avoid NAN in function mod_nw(i)
-# 2006.10.04 DEH customize PCP and Temp input ranges for metric and US customary
-# 2004.06.03 DEH Check for bad units
-#  15 Oct 2003 DEH Rock:Clime USFS plus reroute to rockclim.pl if bookmarked
-#  23 July 2002 DEH remove "calculator" link for now (calculator not available)
-#  22 July 2002 DEH add "Modpar version" report [but keep at 2002.04.2001]
-#  22 July 2002 DEH copied from "whitpine" to "forest" [object bug]
-#  19 April    2001 Add "me" to form for personality tracking
-#  06 April    2001 Add numerical entry checks for user entries main body
-#  19 December 2000 change window.creator to work with (newer) IE...
-#  14 December 2000 Include PRISM lat long AND station lat long in "prism" form
-#  05 December 2000 "Modify" button to "Use values"
-#                   Temp percent to degrees column change (& instruction)
-#  19 July     2000 DEH units "-um" -> "m" and "-uft" -> "ft"
-#  12 April    2000
-#  18 December 1999
-#  02 December 1999
-
-#  $CL=$ARGV[0];		# 2014.12.01 DEH
-#  $units=$ARGV[1];		# 2014.12.01 DEH
-#  $state=$ARGV[2];		# 2014.12.01 DEH
-#  $comefrom=$ARGV[3];		# 2014.12.01 DEH
+my $debug = 0;
+my $version = get_version(__FILE__);
 
 $CL       = $ARGV[0];
 $units    = $ARGV[1];

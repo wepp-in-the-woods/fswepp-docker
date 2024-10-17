@@ -3,83 +3,28 @@
 use warnings;
 use CGI;
 use CGI qw(escapeHTML);
+use MoscowFSL::FSWEPP::FsWeppUtils qw(get_version);
 
 #
 # desccli.pl
 #
-#  usage:
-#    exec desccli.pl $CL $units
-#  arguments:
-#    $CL		climate file name
-#    $units		'm' or 'ft' or '-um' or '-uft'
-#  reads:
 
-# Read .CLI file headers
-# Display headers formatted
+my $debug    = 0;
+my $version  = get_version(__FILE__);
 
-#     4.3
-#       1     1   0
-# Station:  SNOTEL - Fallen Leaf Snotel A2
-# Latitude Longitude Elevation (m) Obs. Years   Beginning year  Years simulated
-#   38.935        -120.045   2028.96      99    2001      99
-# Observed monthly ave max temperature (C)
-#      5.6     6.6     9.3    10.9    14.9    19.3    24.0    23.6    21.4    15.8     8.6     4.8
-# Observed monthly ave min temperature (C)
-#     -7.7    -7.5    -6.0    -4.4    -1.3     1.2     4.5     4.3     2.1    -1.3    -5.3    -8.0
-# Observed monthly ave solar radiation (Langleys/day)
-#    213.5   283.3   408.6   498.4   589.3   674.2   684.2   610.1   503.7   381.5   252.1   201.5
-# Observed monthly ave precipitation (mm)
-#    324.7   268.5   255.5   133.6    98.6    32.2     3.2     7.8    25.6    82.0   200.2   332.6
+my $referrer = $ENV{'HTTP_REFERER'};
+if ( !$referrer ) {
+    $referrer = '/fswepp/';
+}
 
-#  1	CLIGEN version
-#  2a	simulation mode (1: continuous; 2: single storm)
-#  2b	breakpoint data flag (0: no bp data; 1: bp data used)
-#  2c	wind information/ET equation flag (0: wind info, use Penman ET eq; 1: no wind info, use Priestly-Taylor ET eq)
-#  3	Station ID, etc
-#  5	Latitude Longitude Elevation (m) Obs. Years   Beginning year  Years simulated
-#  7	Observed monthly ave max temperature (C)
-#  9	Observed monthly ave min temperature (C)
-# 11	Observed monthly ave solar radiation (Langleys[/day])
-# 13	Observed monthly ave precipitation (mm)
-BREAKPOINT:
-
-# 16a	day of simulation (0..31)
-# 16b	month of simulation (0..12)
-# 16c	year of simulation
-# 16d	number of breakpoints (0..50)
-# 16e	maximum daily tmperature (C)
-# 16f	minimum daily temperature (C)
-# 16g	daily solar radiation (langley/day)
-# 16h	wind velocity (m/sec)
-# 16i	wind direction (deg from N)
-# 16j	dew point tep (C)
-# 17a	time after midnight (h)
-# 17b	cumulative precip at this time (mm of water)
-
-#  FSWEPP, USDA Forest Service, Rocky Mountain Research Station, Soil & Water Engineering
-#  Science by Bill Elliot et alia                                      Code by David Hall
-
-#  2012.08.31 DEH built atop of descpar.pl
-#  2010.06.11 DEH filter single quote out of par file climate name for display of .par and map
-#  2005.06.07 DEH Fix units to recognize '-um' as well as 'm'
-#  07 October 2004 DEH -- ?
-#  24 April 2003   DEH add map popup and PAR file popup, and remove RTIS.gif
-#  27 March 2003   DEH add displayPAR file  to Corey Moffett remove Chris Pyke
-#  18 April 2002   DEH add display PAR file for Chris Pyke [limit to his IP and ours]
-#  23 August 2000  DEH add table reporting interpolation stations and record
-#  12 April 2000   DEH fixed parsing of temperature lines (Jan standalone fix)
-#  19 October 1999
-
-$version = '2012.08.31';
-
-$CL    = $ARGV[0];
-$units = $ARGV[1];
-
+my $query    = CGI->new;
+my $CL = $query->param('CL') || $ARGV[0];
 chomp $CL;
-$units = 'm' if ( $units eq '-um' );
-$units = 'm' if ( $units eq '' );
 
-$climateFile = $CL . '.cli';
+my $units = $query->param('units') || $ARGV[1];
+$units = 'm' if ( $units eq '-um' );
+
+my $climateFile = $CL . '.cli';
 
 open CLI, "<$climateFile";
 $line = <CLI>;    #     4.3
@@ -226,7 +171,10 @@ print "</font><br><br>\n";
 print '
     <img src="/fswepp/images/line_red2.gif">
     <form>
-     <input type="submit" value="Return to input screen" onClick="window.history.go(-1); return false;">                            
+    <input type="submit" value="Return to input screen" onClick="
+     var referrer='$referrer';
+     history.replaceState(null, '', referrer);
+    window.location.href=referrer;">                            
     </form>
 ';
 

@@ -3,7 +3,7 @@
 use warnings;
 use CGI;
 use CGI qw(escapeHTML);
-use MoscowFSL::FSWEPP::CligenUtils qw(CreateCligenFile GetParSummary);
+use MoscowFSL::FSWEPP::CligenUtils qw(CreateCligenFile GetParSummary GetParLatLong);
 use MoscowFSL::FSWEPP::FsWeppUtils qw(get_version get_thisyear_and_thisweek);
 use String::Util qw(trim);
 
@@ -17,112 +17,9 @@ use String::Util qw(trim);
 my $verbose = 0;
 
 my $debug       = 0;           # DEH 2014-02-07 over-ride command-line
-my $weppversion = "wepp2010"
-  ; # 2014.02.07 DEH 2000 or 2010; WEPP 2010 needs frost.txt file in ERMiT directory to give 'correct' results
-
-# -rw-r--r-x    1 dhall    water      239402 Apr  2  2007 erm.pl
-# add path for gnuplot exec for new server 2009_07_13 DEH
-# remove path for gnuplot new new server 2014-02 DEH
-
-## BEGIN HISTORY ###################################
-## WEPP ERMiT version history
-
-#   remove WGR switch
-#                               # Return sub bomb redirect ermitnew.pl to ermit.pl
+my $weppversion = "wepp2010"; # 2014.02.07 DEH 2000 or 2010; WEPP 2010 needs frost.txt file in ERMiT directory to give 'correct' results
 
 my $version = get_version(__FILE__);
-
-#  $version='2020.03.03';         # un-unlink gnuplot work files for debugging
-#  $version='2015.05.03';    # Add log and wattle probablility table
-#  $version='2015.04.06';	# force short report for limited number of run-off storms
-#  $version='2015.04.04';	# re-expand results output for few results with storms to work with ERMiT Batch
-#  $version='2014.04.07';	# deploy unburned option
-#  $version='2014.02.11';	# modify  management/vegetation file for unburned forest and range/chaparral
-#  $version='2014.02.10';	# switch to WEPP 2010.100 and allow comand-line "debug=1"
-#  $version='2014.02.06';	# adjust soil file parameter values per PRR, add new management files for unburned forest and range/chaparral
-#  $version='2013.06.27';	# clean up display
-#  $version='2013.04.19';	# model unburned condition
-#  $version='2012.12.31';	# complete move to year-based logging (2012 through 2020)
-#  $version='2012.11.06';	# report latitude, longitude, elevation for modified climates
-#  $version='2012.06.27';	# Change default prob target for Mitigation Treatment Comparisons from 10 to 20
-#  $version='2012.01.25';	# Adjust spacing coefficient to reflect mod in spacing input (CFL/wattles table)
-#  $version='2011.06.28';	# Fix run logging year error
-#  $version='2009.02.23';	# Add allowance for WEPP 2000 or WEPP 2008
-#  $version='2006.06.20';	# Change soil parameter values for range and chaparral
-#  $version='2006.06.05';	# Reduce Organic Matter for range/chaparral from 5% to 1%
-#! $version='2006.04.27';	# Change user guide link
-#! $version='2006.04.06';	# Add USCS and description for loam soil texture properties report
-#! $version='2006.02.23';	# Delete remaining working files
-#! $version='2006.02.22';	# Line 2054 No mitigation to Untreated (popup table)
-#! $version='2006.02.17';	# Change definition for spacing for erosion barrier
-#! $version='2006.02.16';	# Report WEPP version (and soil WEPP version $weppver to $sweppver)
-#  $version='2006.01.18';	# ERMiT released
-#! $version='2006.01.18';	# ditlog counts WEPP runs (20, 30, or 40), not ERMiT runs
-#! $version='2006.01.17';	# fix erosion barrier limits for non-metric units (need to report to status line still)
-#! $version='2005.12.30';	# Mitigation Treatment Comparisons calculator changes
-#! $version='2005.11.21';	# Tweak terminology a bit
-#! $version='2005.11.02';	# Specify range for log spacing and diameter<br>Change some table headings<br>Assume efficiency for 5th year erosion barrier
-#! $version='2005.10.28';	# Bump management file up to 10 years max
-#! $version='2005.10.27';	# Add contour-felled log table (function logtable)<br>Make function whatseds handle noise
-#! $version='2005.10.25';	# Modify showtable to report run conditions<br>Stamp showtable, graph and printseds with FS WEPP run code<br>Fix crash on bookmark of results<br>Reduce minimum probability to 1% from 5%<br>Add showpt popup function
-#! $version='2005.10.24';	# Move graphic key<br>Adjust minimum probability from 0% to 5%<br>Final range critical shear<br>Modify showtable
-#! $version='2005.10.21';	# Shore up math in function whatsed and call logchange when probability is changed
-#! $version='2005.10.20';	# Remove some working displays
-#! $version='2005.10.18';	# Estimate I10 for erosion barriers (option A)
-#! $version='2005.10.13';	# Run all lower severity scenarios (8 for H, 6 for M, 4 for L)
-#! $version='2005.10.12';	# Adjust IP to account for internal WEPP intensity fudge factor,<br>Adjust low Kr value for forest
-#! $version='2005.10.05';	# Correct Kr for clay range table, temporary save of working files
-#! $version='2005.10.04';	# Tweak forest and range Ke (Ksat) values for CLIGEN 5.22 operation
-#! $version='2005.09.30';	# New mulch tables for 47, 72, 89, 94% ground cover<br>Add a fifth (rank 75) event
-#! $version='2005.09.29';	# Activate contour-felled log and wattle calculations
-#! $version='2005.09.16';	# Add check for monsoonal climates (sub monsoonal) for altered recovery
-#! $version='2005.09.13';	# Solidify new range values. Look for incoming switch for which CLIGEN to run.
-#! $version='2005.05.24';	# Modify soil parameter values for rangeland and chaparral, and allow different tau_c for high and low severity
-#! $version='2005.04.20';	# Change <i>fire severity</i> to <i>soil burn severity</i> or <i>soil condition</i><br>Add history pop-up
-# 2005.02.07 DEH Add 'flock' for WELOG
-#! $version='2004.12.13';	# Add Corey Moffet and Fred Pierson to tagline
-#! $version='2004.10.12';	# DEH Change mulching rate values back (underlying data not updated to match)
-#		 Check SA version for .png fixes
-# 2004.10.07 DEH Add readPARfile subroutine to report missing link to climate parameters
-#		 Pass descpar.pl unit scheme... hmmm..
-# 2004.10.05 DEH Change mulching rate values (0.5, 1, 1.5, 2 t/ha to 0.5, 1, 1.5, 2 ton/ac)
-#		 Start putting contour-felled logs back in
-# 2004.09.16 DEH Change @probClimate from (0.05, 0.1, 0.3, 0.5) to (0.075, 0.075, 0.20, 0.65) again
-#		 Set $tp to lower limit of 0.01 to allow calculation to proceed.
-# $version='2004.09.15';	# Keep first event (screws up list if it is largest of year)<br>Create gnuplot postscript file then convert .eps to .png
-#           2004.09.14 DEH Finish fix for less than 50 years with runoff events
-# $version='2004.09.13';	# Allow for short event list<br>$tp, $ip = <b>--</b> if peak events are <b>N/A</b>
-#		 Removed $tp, $ip = '--' -- wiped out too much
-# $version='2004.04.23';	# Report 10- and 30-min peak intensities in English if desired
-# $version='2004.04.22';	# Pump 100-year climate files to <i>working</i> if <b>g</b> ID<br>Add storm duration estimation calculation (metric)<br>Specify <b>year <i>nn</i></b> under <b>Storm date</b>
-# 19 Mar 2004 DEH change @probClimate values (0.05, 0.05, 0.10, 0.3)
-#                 to                         (0.05, 0.1, 0.3, 0.5);
-# 18 Mar 2004 DEH remove "Target event sediment delivery" table (popup?)
-#                 add links behind printer icon for untreated, seeding, ...
-# 		  change from 'for_1ofe.man' etc to '1ofe.man'
-#		  change @probClimate values (0.075, 0.075, 0.20, 0.65)
-#		  to                         (0.05, 0.05, 0.10, 0.3)
-#		  fix spurrious value in @probSoil_mt1 (2 Mg/ha mulch) .2 to .08
-#		  change &creategnuplotjclfile (smooth bezier) (station) (untreated)
-#		  change base cum_prom from 0 to 0.05 (5%)
-#		  break on 'showtable' results *after* first zero, not before
-# 16 Mar 2004 DEH pump 20 sol, 4 slp, 4 man, 1 cli files to 'working' if 'g'
-#                 create 20 WGR files for validation (Corey Moffet) if 'g'
-# 20 Nov 2003 DEH handle year-1 case (don't add 0 to @previous_year)
-# 25 Aug 2003 DEH complete t/ac t/ha headings; add aural indicator
-# 19 Aug 2003 DEH start logging runs ($climate_name empty...?)
-# 18 Aug 2003 DEH mulching amount labels to English (Later: adjust values)
-#                 remove "Sediment delivery ranges from..."
-#                 remove worst-case 100-yr "Sediment delivery" column
-# 13 Feb 2003 DEH treat American units
-# 15 Jan 2003 DEH fix variable name error in createslopefile: abb
-# 19 Dec 2002 DEH tighten up output; add format report of input
-
-# David Hall, USDA Forest Service, Rocky Mountain Research Station
-# William J. Elliot, USDA Forest Service, Rocky Mountain Research Station
-## END HISTORY ###################################
-
-#   $rfg = 20;
 
 #=========================================================================
 
@@ -131,9 +28,7 @@ my ( $thisyear, $thisweek ) = get_thisyear_and_thisweek();
 my $cgi = CGI->new;
 
 my $pt    = 1 if ( $cgi->param('ptcheck') =~ 'on' );
-my $me    = escapeHTML( $cgi->param('me') );
 my $units = escapeHTML( $cgi->param('units') );
-$debug = escapeHTML( $cgi->param('debug') );
 my $CL               = escapeHTML( $cgi->param('Climate') );
 my $climate_name     = escapeHTML( $cgi->param('climate_name') );
 my $SoilType         = escapeHTML( $cgi->param('SoilType') );
@@ -193,24 +88,6 @@ $count = 10 if ( $severityclass eq 'u' );    # 2013.04.19 DEH	# unburned
 $rfg += 0;
 $rfg = 05 if ( $rfg < 05 );
 $rfg = 85 if ( $rfg > 85 );
-
-################  CUSTOM CLIMATE ############################
-
-if ( lc($action) =~ /custom/ ) {
-    $comefrom = "/cgi-bin/fswepp/ermit/ermit.pl";
-    exec "../rc/rockclim.pl -server -i$me -u$units $comefrom";
-    die;
-}                                            # /custom/
-
-############### DESCRIBE CLIMATE #################
-
-if ( lc($achtung) =~ /describe climate/ ) {
-    $comefrom = "/cgi-bin/fswepp/ermit/ermit.pl";
-    exec "../rc/descpar.pl $CL $units $comefrom";
-    die;
-}                                            # /describe climate/
-
-####################  set up file names and paths
 
 $working     = '../working';
 $user_ID     = $ENV{'REMOTE_ADDR'};
@@ -2380,17 +2257,8 @@ print "
 ";
 
 #  record activity in ERMiT log (if running on remote server)
-#  welog welog welog
 
-# $climatePar
-# 2008.06.04 DEH start
-open PAR, "<$climatePar";
-$PARline  = <PAR>;                       # station name
-$PARline  = <PAR>;                       # Lat long
-$lat_long = substr( $PARline, 0, 26 );
-$lat      = substr $lat_long, 6,  7;
-$long     = substr $lat_long, 19, 7;
-close PAR;
+my ($lat, $long) = GetParLatLong($climatePar);
 
 # 2008.06.04 DEH end
 

@@ -5,7 +5,7 @@ use CGI qw(escapeHTML);
 use warnings;
 
 use MoscowFSL::FSWEPP::CligenUtils
-  qw(CreateCligenFile GetParSummary GetAnnualPrecip);
+  qw(CreateCligenFile GetParSummary GetAnnualPrecip GetParLatLong);
 use MoscowFSL::FSWEPP::FsWeppUtils
   qw(CreateSlopeFile printdate get_version get_thisyear_and_thisweek CreateSoilFile);
 
@@ -77,17 +77,6 @@ if ( $treat2 eq 'skid' )   { $treat2 = 'Skid' }
 
 if ($debug) { print "treatment 1: $treat1<br>\n" }
 
-if ( lc($action) =~ /custom/ ) {
-    $weppdist = "/cgi-bin/fswepp/wd/weppdist.pl";
-    exec "../rc/rockclim.pl -server -i$me -u$units $weppdist";
-    die;
-}    # /custom/
-
-if ( lc($achtung) =~ /describe climate/ ) {
-    $weppdist = "/cgi-bin/fswepp/wd/weppdist.pl";
-    exec "../rc/descpar.pl $CL $units $weppdist";
-    die;
-}    # /describe climate/
 
 if ( lc($achtung) =~ /describe soil/ ) {    ##########
     $units    = escapeHTML( $cgi->param('units') );
@@ -1225,14 +1214,8 @@ $host        = $ENV{REMOTE_ADDR} if ( $host eq '' );
 $user_really = $ENV{'HTTP_X_FORWARDED_FOR'};              # DEH 11/14/2002
 $host        = $user_really if ( $user_really ne '' );    # DEH 11/14/2002
 
-# 2008.06.04 DEH start
-open PAR, "<$climatePar";
-$PARline  = <PAR>;                                        # station name
-$PARline  = <PAR>;                                        # Lat long
-$lat_long = substr( $PARline, 0, 26 );
-$lat      = substr $lat_long, 6,  7;
-$long     = substr $lat_long, 19, 7;
-close PAR;
+
+my ($lat, $long) = GetParLatLong($climatePar);
 
 # 2008.06.04 DEH end
 

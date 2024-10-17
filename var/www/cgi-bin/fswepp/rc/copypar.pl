@@ -4,41 +4,17 @@ use warnings;
 use CGI;
 use CGI qw(escapeHTML);
 
+use MoscowFSL::FSWEPP::FsWeppUtils qw(get_version get_user_id);
+
 # copypar.pl
+
+my $user_ID = get_user_id();
 
 #  FS WEPP, USDA Forest Service,
 #  Rocky Mountain Research Station, Soil & Water Engineering
 #  Science by Bill Elliot et alia         Code by David Hall
-#  2009.08.24 DEH   Allow 'tahoe' climates
-#  07/19/2000 DEH	fix for unix platform multiple personal files
-#  03/03/2001 DEH	add '_' to $user_ID
-#  19 October 1999
 
-# place copy of user's newly-selected personal climate into the working
-#   directory using a name based on the client IP address
-
-#  parameters
-#    'state'
-#    'station'
-#    'comefrom'
-#    'submitbutton'	=~ /describe/    /modify/    /personal/
-#    'me'
-#    'units'
-#  reads
-#  calls
-#   /describe/
-#     exec "perl ../rc/descpar.pl $CL $units $iam"
-#     exec "../rc/descpar.pl $CL $units $iam"
-#   /modify/
-#     exec "perl ../rc/modpar.pl $CL $units $state $comefrom"
-#     exec "../rc/modpar.pl $CL $units $state $comefrom"
-#   /personal/
-#     `copy $climate_file $dest`;
-#     exec "perl ../rc/rockclim.pl -server -u$units $comefrom"
-#     `cp $climate_file $dest`;
-#     exec "../rc/rockclim.pl -server $units $comefrom"
-
-$version = '2014.10.06';
+my $version = get_version(__FILE__);
 
 $cgi = CGI->new;
 $state        = escapeHTML( $cgi->param('state') );
@@ -46,20 +22,6 @@ $station      = escapeHTML( $cgi->param('station') );
 $comefrom     = escapeHTML( $cgi->param('comefrom') );
 $submitbutton = lc( escapeHTML( $cgi->param('submitbutton') ) );
 $units        = escapeHTML( $cgi->param('units') );
-$me           = escapeHTML( $cgi->param('me') );
-
-if ( $me ne "" ) {
-    $me = substr( $me, 0, 1 );
-    $me =~ tr/a-zA-Z/ /c;
-}
-if ( $me eq " " ) { $me = "" }
-
-$user_ID     = $ENV{REMOTE_ADDR};
-$user_really = $ENV{'HTTP_X_FORWARDED_FOR'};              # DEH 11/14/2002
-$user_ID     = $user_really if ( $user_really ne '' );    # DEH 11/14/2002
-$user_ID =~ tr/./_/;
-$user_ID = $user_ID . $me . '_';                          # DEH 03/05/2001
-if ( $user_ID eq "" ) { $user_ID = "custom" }
 
 #  verify filename entry no .. ~ leading / etc.
 #  verify state entry AL..WY or whatever

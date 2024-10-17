@@ -5,7 +5,7 @@ use CGI;
 use CGI qw(escapeHTML);
 use String::Util qw(trim);
 
-use MoscowFSL::FSWEPP::CligenUtils qw(CreateCligenFile GetParSummary GetAnnualPrecip);
+use MoscowFSL::FSWEPP::CligenUtils qw(CreateCligenFile GetParSummary GetAnnualPrecip GetParLatLong GetStationName);
 use MoscowFSL::FSWEPP::FsWeppUtils
   qw(CreateSlopeFile CreateSlopeFileWeppRoad printdate CreateSoilFile get_thisyear_and_thisweek get_version);
 
@@ -158,14 +158,6 @@ $runLogFile = "../working/" . $user_ID . ".run.log";
 
 $fume = "/cgi-bin/fswepp/wd/fume.pl";                           #elena
 
-if ( lc($action) ne 'run wepp biomass' && lc($achtung) =~ /describe climate/ )
-{    # 2004.11.19 DEH
-    $weppdiro = "/Scripts/fswepp/wd/weppdiro.pl";
-    $fume     = "/cgi-bin/fswepp/biomass/biomass.pl";
-    exec "../rc/descpar.pl $CL $units $fume";
-    die;
-}   
-
 # ########### RUN WEPP ###########
 
 print "Content-type: text/html\n\n";
@@ -213,15 +205,9 @@ $soil_type{clay} = 'clay loam';
 $soil_type{loam} = 'loam';
 
 #   print "Content-type: text/html\n\n";
-$climatePar = $CL . '.par';
+my $climatePar = $CL . '.par';
+my $climatename = GetStationName($climatePar);
 
-#   print "<p>the value of climatePar is $climatePar";
-open PAR, "<$climatePar";
-$climatename1 = <PAR>;
-
-#   print "<p>this is climatename1 $climatename1 ";
-$climatename = substr( $climatename1, 1, length($climatename1) - 10 );
-close PAR;
 
 print <<'end0';
 <HTML>
@@ -2318,16 +2304,7 @@ close RUNLOG;
 
 ################################# end 2010.01.20 DEH
 
-# Record run in log
-
-# 2008.06.04 DEH start
-open PAR, "<$climatePar";
-$PARline  = <PAR>;                       # station name
-$PARline  = <PAR>;                       # Lat long
-$lat_long = substr( $PARline, 0, 26 );
-$lat      = substr $lat_long, 6,  7;
-$long     = substr $lat_long, 19, 7;
-close PAR;
+my ($lat, $long) = GetParLatLong($climatePar);
 
 # 2008.06.04 DEH end
 

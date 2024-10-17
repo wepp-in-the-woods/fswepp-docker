@@ -4,7 +4,7 @@ use warnings;
 use CGI;
 use CGI qw(escapeHTML header);
 
-use MoscowFSL::FSWEPP::CligenUtils qw(CreateCligenFile GetParSummary);
+use MoscowFSL::FSWEPP::CligenUtils qw(CreateCligenFile GetParSummary GetParLatLong);
 use MoscowFSL::FSWEPP::FsWeppUtils qw(CreateSlopeFileWeppRoad get_version printdate get_thisyear_and_thisweek);
 
 use String::Util qw(trim);
@@ -114,12 +114,6 @@ $user_ID    = $user_ID . $me;
 $runLogFile = "../working/" . $user_ID . ".run.log";
 
 
-# ======================  DESCRIBE CLIMATE  ======================
-
-if ( $achtung =~ /Describe Climate/ ) {
-    exec "../rc/descpar.pl $CL $units $wepproad";
-    die;
-}
 
 # ======================  DESCRIBE SOIL  ======================
 
@@ -702,14 +696,8 @@ close RUNLOG;
 
 #  record activity in WEPP:Road log (if running on remote server)
 
-# 2008.06.04 DEH start
-open PAR, "<$climatePar";
-$PARline  = <PAR>;                       # station name
-$PARline  = <PAR>;                       # Lat long
-$lat_long = substr( $PARline, 0, 26 );
-$lat      = substr $lat_long, 6,  7;
-$long     = substr $lat_long, 19, 7;
-close PAR;
+
+my ($lat, $long) = GetParLatLong($climatePar);
 
 # 2008.06.04 DEH end
 open WRLOG, ">>../working/_$thisyear/wr.log";    # 2012.12.31 DEH

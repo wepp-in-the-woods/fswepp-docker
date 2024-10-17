@@ -100,11 +100,9 @@ function setCookie() {
   expiration_date = new Date();
   expiration_date.setTime(expiration_date.getTime()+ days_to_expire *(24 * 60 * 60 * 1000));
   expiration_date.toGMTString();
-  //  document.cookie = cookie_name + "=" + document.unitsform.user_name.value;
   document.cookie = cookie_name + "=" + document.unitsform.user_name.value +
                   ";expires=" + expiration_date +
                   ";path=/";
-  //  updateMe();
 }
 
 function getCookie(name){
@@ -130,7 +128,6 @@ function getCookie(name){
     var me = getCookie('FSWEPPuser')
     if (me == null) {me = ''}
     document.unitsform.user_name.value = me
-//    alert('Me: ' + me)
     self.focus();
   }
 
