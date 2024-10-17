@@ -158,27 +158,13 @@ $runLogFile = "../working/" . $user_ID . ".run.log";
 
 $fume = "/cgi-bin/fswepp/wd/fume.pl";                           #elena
 
-if ( lc($action) =~ /custom/ ) {
-    $fume = "/cgi-bin/fswepp/biomass/biomass.pl";
-    exec "../rc/rockclim.pl -server -i$me -u$units $fume";
-    die;
-}                                                               # /custom/
-
 if ( lc($action) ne 'run wepp biomass' && lc($achtung) =~ /describe climate/ )
 {    # 2004.11.19 DEH
     $weppdiro = "/Scripts/fswepp/wd/weppdiro.pl";
     $fume     = "/cgi-bin/fswepp/biomass/biomass.pl";
     exec "../rc/descpar.pl $CL $units $fume";
     die;
-}    # /describe climate/
-
-# *******************************
-
-if ( lc($achtung) =~ /describe soil/ ) {    ##########
-
-}                                           #  /describe soil/
-
-# *******************************
+}   
 
 # ########### RUN WEPP ###########
 

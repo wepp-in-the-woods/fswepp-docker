@@ -734,23 +734,27 @@ print '<BODY bgcolor="white"
 
 # print "units: $units<br>";
 
-print "
+print qq(
  <table border=5>
   <tr valign=top>
    <td valign=top>    <!-- CLIMATE above SOIL TEXTURE above FINES -->
 
     <TABLE border=1>
      <tr align=top>
-      <th class=\"thhelpoff\"
-          onmouseover=\"className='thhelpon'\"
-          onmouseout=\"className='thhelpoff'\"
-          onClick=\"JavaScript:show_help('climate')\"
+      <th class="thhelpoff"
+          onmouseover="className='thhelpon'"
+          onmouseout="className='thhelpoff'"
+          onClick="JavaScript:show_help('climate')"
           title='Click the link to display select climate parameter values for the selected climate file || Climate files collected for IP: $user_ID'>
-       <b><a href=\"JavaScript:submitme('Describe Climate')\">
-             Climate</a></b>
+          
+       <a href="#" onclick="
+          var climateValue = document.getElementById('Climate').value;
+          window.location.href = '/cgi-bin/fswepp/rc/descpar.pl?CL=' + climateValue + '&units=$units'">
+          Climate</a></b>
       </td>
      <tr align=top>
-";
+);
+
 print '
       <td align="center" bgcolor="#FAF8CC">
        <SELECT NAME="Climate" SIZE="', $num_cli + 1, '">

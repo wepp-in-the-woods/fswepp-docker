@@ -518,7 +518,7 @@ print '<BODY bgcolor="white"
 
 # print "units: $units<br>";
 
-print <<'theEnd';
+print qq(
  <table border = 7>
   <tr>
    <td bgcolor="85d2d2" colspan=2>
@@ -536,21 +536,19 @@ print <<'theEnd';
     <TABLE border="1">
      <tr align="top">
       <td align="center" bgcolor="#85d2d2">
-       <b><a href="JavaScript:submitme('Describe Climate')"
-             onMouseOver="window.status='Describe climate';return true"
-             onMouseOut="window.status='Forest Service Disturbed WEPP Model'; return true">
-             Climate</a></b>
+      <a href="#" onclick="
+          var climateValue = document.getElementById('Climate').value;
+          window.location.href = '/cgi-bin/fswepp/rc/descpar.pl?CL=' + climateValue + '&units=$units'">
+          Climate</a></b>
           <a href="JavaScript:show_help('climate')"
              onMouseOver="window.status='Explain climate symbols';return true"
              onMouseOut="window.status='Forest Service Disturbed WEPP Model';return true">
              <img src="/fswepp/images/quest_b.gif" border=0 name="gradient_quest" align=right></a>
       </td>
      <tr align=top>
-theEnd
-print '
       <td align="center" bgcolor="#FAF8CC">
-       <SELECT NAME="Climate" SIZE="', $num_cli + 1, '" tabindex="3">
-';
+       <SELECT NAME="Climate" id="Climate" SIZE="', $num_cli + 1, '" tabindex="3">
+);
 
 foreach my $ii ( 0 .. $#climates ) {
     print '<OPTION VALUE="', $climates[$ii]->{'clim_file'}, '"';
@@ -570,7 +568,7 @@ print qq(
 #
 #      SOIL TEXTURES SELECTION
 #
-print <<'theEnd';
+print qq(
      <tr>
       <td height=5 bgcolor="red"></td>
      <tr>
@@ -584,7 +582,7 @@ print <<'theEnd';
              onMouseOver="window.status='Explain soil texture';return true"
              onMouseOut="window.status='Forest Service Disturbed WEPP Model'; return true">
              <img src="/fswepp/images/quest_b.gif" border=0 name="soil_quest"></a>
-theEnd
+);
 
 print '
       <tr>

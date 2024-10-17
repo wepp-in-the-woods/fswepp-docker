@@ -565,7 +565,7 @@ print
   <input type="hidden" size="1" name="me" value="', $me, '">
   <table border="1">
 ';
-print <<'theEnd';
+print qq(
      <tr align="top">
 
     <th class="thhelpoff"
@@ -573,7 +573,10 @@ print <<'theEnd';
         onClick="JavaScript:show_help('climate')">
      <font face="Arial, Geneva, Helvetica">
        <a title="* Personal climate (your computer created)">(*)</a> &nbsp;&nbsp;
-       <a href="JavaScript:submitme('Describe Climate')">Climate</a> &nbsp;&nbsp;
+       <a href="#" onclick="
+          var climateValue = document.getElementById('Climate').value;
+          window.location.href = '/cgi-bin/fswepp/rc/descpar.pl?CL=' + climateValue + '&units=$units'">
+          Climate</a>&nbsp;&nbsp;
        <a title="+ Climate parameters modified">(+)
      </font>
     </th>
@@ -594,8 +597,8 @@ print <<'theEnd';
      </tr>
     <tr align=top>
        <TD align="center" bgcolor="lightblue">
-        <SELECT NAME="Climate" SIZE="5">
-theEnd
+        <SELECT NAME="Climate" id="Climate" SIZE="5">
+);
 
 ### display personal climates, if any
 
@@ -607,8 +610,9 @@ foreach my $ii ( 0 .. $#climates ) {
 
 
 #################
-# print <<'theEnd';
-print '      </SELECT>
+
+print qq(
+      </SELECT>
       </td>
       <TD align="center" bgcolor="lightblue">
        <SELECT NAME="SoilType" SIZE="4"
@@ -634,28 +638,6 @@ print '      </SELECT>
        </td>
       </tr>
     </table>
-
-<!--
-   <table border="2">
-    <tr>
-     <th bgcolor="#006009">
-      <font face="tahoma, arial, helvetica, sans serif" color="#99ff00">
-       Road density (mi mi<sup>-2</sup>)
-     </td>
-    </tr>
-    <tr>
-     <th bgcolor="lightblue">
-      <font face="tahoma, arial, helvetica, sans serif">
-       Simulation period (yr)
-     </td>
-     <td>
-      <input type="text" size="5" name="climyears" value="5"
-        onChange="checkYears(this.form.climyears)"
-        title="Years to simulate: ', $year_min, ' to ', $year_max, '">
-     </td>
-    </tr>
-   </table>
--->
    <br>
 
    <table border=2 cellpadding=4>
@@ -799,11 +781,6 @@ print '      </SELECT>
       </b>
      </p>
 
-<!--
-      <input type="radio" name="units" value="m"><b>metric</b>
-      <input type="radio" name="units" value="ft" checked><b>English</b>
--->
-
      <p>
       <input type="SUBMIT" name="actionw" VALUE="Run FuME"
        onClick=\'RunningMsg(this.form.actionw,"Running FuME..."); this.form.achtung.value="Run WEPP FuME"\'>
@@ -836,7 +813,7 @@ print '      </SELECT>
       </td>
      </tr>
     </table>
-';
+);
 
 $remote_host    = $ENV{'REMOTE_HOST'};
 $remote_address = $ENV{'REMOTE_ADDR'};
@@ -846,10 +823,6 @@ $wc    = `wc ../working/' . currentLogDir() . '/wf.log`;
 @words = split " ", $wc;
 $runs  = @words[0];
 
-##       674 funs in 2009
-##     1,170 runs in 2008
-##     1,621 runs in 2007
-##       842 runs in 2006
 
 print "  <font face='tahoma, arial, helvetica, sans serif' size=1>
    $remote_host &ndash; $remote_address ($user_really) personality '<b>$me</b>'<br>

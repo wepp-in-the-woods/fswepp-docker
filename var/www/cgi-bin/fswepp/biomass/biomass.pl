@@ -3,7 +3,7 @@
 use warnings;
 use CGI ':standard';
 
-use MoscowFSL::FSWEPP::FsWeppUtils qw(get_version);
+use MoscowFSL::FSWEPP::FsWeppUtils qw(get_version get_user_id);
 use MoscowFSL::FSWEPP::CligenUtils qw(GetClimates);
 
 my $year_min   = 1;
@@ -31,68 +31,21 @@ my $rd_den_max = 20;      # road density
 #  WEPP Biomass utilization Impacts On Soil Erosion (BIOMASS) input screen
 #
 #  biomass.pl -- input screen for BIOMASS
-#  David Hall, USDA FS RMRS Moscow Forestry Siences Lab & ...
-
-## BEGIN HISTORY ###################################
-## WEPP Biomass Input Screen version history
-
-my $version = get_version(__FILE__);
-
-#  $version='2013.09.27';       # Modification of 2013.03.01 WEPP BIOMASS input screen
-
-## END HISTORY ###################################
-
-#  usage:
-#    action = "biomass.pl"
-#  parameters:
-#    units:             # unit scheme (ft|m)
-#    me
-#  reads environment variables:
-#       HTTP_COOKIE
-#       REMOTE_ADDR
-#       REQUEST_METHOD
-#       QUERY_STRING
-#       CONTENT_LENGTH
-#  reads:
-#    ../wepphost        # localhost or other
-#    ../platform        # pc or unix
-#    ../climates/*.par  # standard climate parameter files
-#    $working/*.par     # personal climate parameter files
-#  calls:
-#    /fswepp/biomass/wb.pl
-
 #  FSWEPP, USDA Forest Service, Rocky Mountain Research Station,
 #  Soil & Water Engineering
 #  Science by Bill Elliot et alia
 #  Code by David Hall and Hakjun Rhee
+
+my $version = get_version(__FILE__);
+my $user_ID = get_user_id();
+
 print "Content-type: text/html\n\n";
 
-$cookie = $ENV{'HTTP_COOKIE'};
-$sep    = index( $cookie, "FSWEPPuser=" );
-$me     = "";
-if ( $sep > -1 ) { $me = substr( $cookie, $sep + 11, 1 ) }
-if ( $me ne "" ) {
-    $me = lc( substr( $me, 0, 1 ) );
-    $me =~ tr/a-z/ /c;
-}
-if ( $me eq " " ) { $me = "" }
-
-$working     = '../working/';                             # DEH 08/22/2000
-$user_ID     = $ENV{'REMOTE_ADDR'};
-$user_really = $ENV{'HTTP_X_FORWARDED_FOR'};              # 2004.09.21 DEH
-$user_ID     = $user_really if ( $user_really ne '' );    # 2004.09.21 DEH
-$user_ID =~ tr/./_/;
-$user_ID = $user_ID . $me . '_';                          # DEH 03/05/2001
-$cliDir  = '../climates/';
-$custCli = '../working/' . $user_ID;                      # DEH 03/02/2001
-
-########################################
+my $working     = '../working/';
+my $custCli = '../working/' . $user_ID;  
 
 my @climates = GetClimates($user_ID);
 
-###################################################
-
-#print "Content-type: text/html\n\n";
 print <<'theEnd0';
 <html>
  <head>
@@ -544,7 +497,9 @@ print <<'theEnd';
         onClick="JavaScript:show_help('climate')">
      <font face="Arial, Geneva, Helvetica">
        <a title="* Personal climate (your computer created)">(*)</a> &nbsp;&nbsp;
-       <a href="JavaScript:submitme('Describe Climate')">Climate</a> &nbsp;&nbsp;
+       <a href="#" onclick="
+          var climateValue = document.getElementById('Climate').value;
+          window.location.href = '/cgi-bin/fswepp/rc/descpar.pl?CL=' + climateValue + '&units=$units'">Climate</a>&nbsp;&nbsp;
        <a title="+ Climate parameters modified">(+)
      </font>
     </th>
@@ -565,7 +520,7 @@ print <<'theEnd';
      </tr>
     <tr align=top>
        <TD align="center" bgcolor="lightblue">
-        <SELECT NAME="Climate" SIZE="5">
+        <SELECT NAME="Climate" id="Climate" SIZE="5">
 theEnd
 
 ### display personal climates, if any

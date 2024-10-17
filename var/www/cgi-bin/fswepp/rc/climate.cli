@@ -303,7 +303,8 @@ Content-Disposition: inline; filename="climate.cli"', "\n\n";
             print "<hr><p>";
 
             if ( $comefrom eq "" ) {
-                print '<a href="JavaScript:window.history.go(-1)">';
+                my $referer = $ENV{'HTTP_REFERER'} || 'javascript:history.back()';
+                print "<a href=\"$referer\">";
             }
             else {
                 print "<a href=$comefrom>";

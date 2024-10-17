@@ -25,24 +25,14 @@ my ($goback, $units, $action, $comefrom);
 if ( $arg0 . $arg1 . $arg2 . $arg3 eq "" ) {
     my $cgi = CGI->new;
 
-    print $cgi->header;
-    # print the cgi parameter names and values without dump
-    print $cgi->param('comefrom'), "\n";
-
-
     # Initialize parameters
-    $goback   = $cgi->param('goback');
-    $units    = $cgi->param('units');
-    $action   = $cgi->param('action')   || '-download';
-    $comefrom = $cgi->param('comefrom');
-
-    $goback   = escapeHTML($goback);
-    $units    = escapeHTML($units);
-    $action   = escapeHTML($action);
-    $comefrom = escapeHTML($comefrom);
-
+    $goback   = escapeHTML($cgi->param('goback'));
+    $units    = escapeHTML($cgi->param('units'));
+    $action   = escapeHTML($cgi->param('action')   || '-download'); # why is the default '-download'?
+    $comefrom = escapeHTML($cgi->param('comefrom'));
 }
 else {
+    # this is bad.
     if ( $arg0 eq "-um" || $arg0 eq "-uft" ) { $units = substr( $arg0, 2 ) }
     if ( $arg1 eq "-um" || $arg1 eq "-uft" ) { $units = substr( $arg1, 2 ) }
     if ( $arg2 eq "-um" || $arg2 eq "-uft" ) { $units = substr( $arg2, 2 ) }
@@ -54,8 +44,6 @@ else {
     if ( lc($arg2) =~ /http/ ) { $comefrom = $arg2 }
     if ( lc($arg1) =~ /http/ ) { $comefrom = $arg1 }
     if ( lc($arg0) =~ /http/ ) { $comefrom = $arg0 }
-
-    
 }
 
 $custCli = '../working/' . $user_ID . '_';    # DEH 03/05/2001
@@ -121,13 +109,12 @@ if ( $action eq '-download' ) {
 else {
     if ( $comefrom =~ /road/ ) {
         print '
-            <a href="JavaScript:document.retreat.submit()">
+            <a href="/cgi-bin/fswepp/wr/">
             <img src="/fswepp/images/road4.gif"
             alt="Return to WEPP:Road" border=2
             align=left width=50 height=50
             onMouseOver="window.status=\'Return to WEPP:Road input screen\'; return true"
-            onMouseOut="window.status=\' \'; return true"
-            onClick="retreat.submit()">
+            onMouseOut="window.status=\' \'; return true">
             ';
     }
     elsif ( $comefrom =~ /wd/ ) {
@@ -137,52 +124,47 @@ else {
             alt="Return to Disturbed WEPP" border=2
             align=left width=50 height=50
             onMouseOver="window.status=\'Return to ERMiT input screen\'; return true"
-            onMouseOut="window.status=\' \'; return true"
-            onClick="retreat.submit()">
+            onMouseOut="window.status=\' \'; return true">
             ';
     }
     elsif ( $comefrom =~ /ermit/ ) {
         print '
-            <a href="JavaScript:document.retreat.submit()">
+            <a href="/cgi-bin/fswepp/ermit/">
             <img src="/fswepp/images/ermit.gif"
             alt="Return to ERMiT" border=2
             align=left width=50 height=50
             onMouseOver="window.status=\'Return to ERMiT input screen\'; return true"
-            onMouseOut="window.status=\' \'; return true"
-            onClick="retreat.submit()">
+            onMouseOut="window.status=\' \'; return true">
             ';
     }
     elsif ( $comefrom =~ /fume/ ) {
         print '
-            <a href="JavaScript:document.retreat.submit()">
+            <a href="/cgi-bin/fswepp/fume/">
             <img src="/fswepp/images/fume.jpg"
             alt="Return to WEPP FuME" border=2
             align=left width=50 height=50
             onMouseOver="window.status=\'Return to WEPP FuME input screen\'; return true"
-            onMouseOut="window.status=\' \'; return true"
-            onClick="retreat.submit()">
+            onMouseOut="window.status=\' \'; return true">
             ';
     }
     elsif ( $comefrom =~ /tahoe/ ) {
         print '
-            <a href="JavaScript:document.retreat.submit()">
+            <a href="/cgi-bin/fswepp/tahoe/">
             <img src="/fswepp/images/tahoe.jpg"
             alt="Return to Tahoe Basin Erosion Model" border=2
             align=left width=50 height=50
             onMouseOver="window.status=\'Return to Tahoe Basin input screen\'; return true"
-            onMouseOut="window.status=\' \'; return true"
-            onClick="retreat.submit()">
+            onMouseOut="window.status=\' \'; return true">
             ';
     }
     else {
         print '
-            <a href="JavaScript:document.retreat.submit()">
+            <a href="/fswepp/">
             <img src="/fswepp/images/disturb.gif"
             alt="Return to Disturbed WEPP" border=2
             align=left width=50 height=50
             onMouseOver="window.status=\'Return to Disturbed WEPP input screen\'; return true"
-            onMouseOut="window.status=\' \'; return true"
-            onClick="retreat.submit()">
+            onMouseOut="window.status=\' \'; return true">
             ';
     }
     print '
@@ -205,8 +187,7 @@ if ($debug) {
 }
 
 print '<CENTER>
-  <H2>Rock:Clime<BR>
-  Rocky Mountain Research Station<br> Climate Generator</H2>
+  <H2>Rock:Clime<br>Rocky Mountain Research Station<br>Climate Generator</H2>
   <hr>
   <p>
   ';
@@ -340,23 +321,33 @@ print '
   </table>
 ';
 
-if ( $comefrom eq "" ) {
+    my $url;
+    if ( $comefrom =~ /road/ ) {
+        $url = "/cgi-bin/fswepp/wr/";
+    }
+    elsif ( $comefrom =~ /wrbat/ ) {
+        $url = "/cgi-bin/fswepp/wrbat/";
+    }
+    elsif ( $comefrom =~ /wd/ ) {
+        $url = "/cgi-bin/fswepp/wd/";
+    }
+    elsif ( $comefrom =~ /ermit/ ) {
+        $url = "/cgi-bin/fswepp/ermit/";
+    }
+    elsif ( $comefrom =~ /fume/ ) {
+        $url = "/cgi-bin/fswepp/fume/";
+    }
+    elsif ( $comefrom =~ /tahoe/ ) {
+        $url = "/cgi-bin/fswepp/tahoe/";
+    }
 
-    print '
-  <form name="null">
-   <input type="button" value="Retreat" onClick="JavaScript:location=\'/fswepp/\'">
-  </form>
-';
-}
-else {
-    print '
-<form name="retreat" method="post" action="', $comefrom, '">
-<input type="hidden" name="units" value="',   $units,    '">
-<input type="hidden" name="me" value="',      $me,       '">
-<input type="submit" value="Return to input screen">
-</form>
-';
-}
+    if ($comefrom ne '') {
+        print qq (<button onclick="window.location.href='$url'">Return to input screen</button>);
+    }
+    else {
+        print qq (<button onclick="window.location.href='/fswepp/'">Return to FSWEPP</button>);
+    }
+
 print '</CENTER>
  <P>
   <hr>
@@ -381,12 +372,7 @@ print '</CENTER>
        <b>rockclim.pl</b> (a part of Rock:Clime) version ', $version, '<br>
        USDA Forest Service Rocky Mountain Research Station<br>
        1221 South Main Street, Moscow, ID 83843<br>
-     </td>                                                                      
-     <td>
-      <a href="/fswepp/comments.html" 
-       onClick="return confirm(\'You need to be connected to the Internet to e-mail comments. Continue?\')">
-       <img src="/fswepp/images/epaemail.gif" align="right" border=0></a>
-    </td>
+     </td>
    </tr>
   </table>
  </body>

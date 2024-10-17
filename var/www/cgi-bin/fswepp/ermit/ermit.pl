@@ -2,7 +2,7 @@
 use CGI;
 use CGI qw(escapeHTML);
 
-use MoscowFSL::FSWEPP::FsWeppUtils qw(get_version);
+use MoscowFSL::FSWEPP::FsWeppUtils qw(get_version get_user_id get_current_url get_units);
 use MoscowFSL::FSWEPP::CligenUtils qw(GetClimates);
 
 #
@@ -10,122 +10,15 @@ use MoscowFSL::FSWEPP::CligenUtils qw(GetClimates);
 #
 #  ERMiT.pl -- input screen for ERMiT
 
-## BEGIN HISTORY ###################################
-## WEPP ERMiT version history
-
+my $debug = 0;
 my $version = get_version(__FILE__);
+my $user_ID = get_user_id();
+my ($units, $areaunits) = get_units();
+my $this_url = get_current_url();
 
-# $version = '2014.04.07';    # Provide unburned option
-#! $version='2013.04.30';       # Oops, fix run count report for 2013
-#  $version='2013.03.01';	# Sort personal climates (newest at top) and standard climates (by name)
-#  $version='2009.09.17';	# Adjust FSWEPPuser personality
-#  $version='2009.02.23';	# Add WEPP version user selection
-#! $version='2006.07.19';	# remove background='under_dev__.gif' was  85910 Apr 27 14:45 ermit.pl
-#! $version='2006.04.27';	# Change link to users guide
-#! $version='2006.04.06';	# USCS: Unified
-#  $version='2006.01.18';	# ERMiT released
-#! $version='2005.11.21';	# Change soil burn severity explanation popup text and graphics
-#! $version='2005.10.26';	# Remove probability table option
-#! $version='2005.10.24';	# Temporary probability table option, remove range soils test option
-#! $version='2005.09.30';	# Remove options for CLIGEN, call 5-storm ERMiT engine
-#! $version='2005.09.13';	# Remove new range values switch. Add switch for CLIGEN 5.22564
-#! $version = '2005.04.20';	# Change <i>burn severity</i> to <i>soil burn severity</i><br>Add history pop-up
-#! $version = '2004.12.13';	# Add Corey Moffet, USDA-ARS, to tagline
-#! $version = '2004.09.16';	# Add Fred Pierson, USDA-ARS, to tagline<br>Place temporary <i>ravel check</i> graphic
-#! $version = '2004.06.07';	# Convert help text to pop-ups<br>Correct mouseover status line text
-#! $version = '2003.09.04';	# Add input checking for hillslope horizontal length
-
-# 2009.09.17 DEH Keep up with change in FSWEPPuser cookie
-# 2004.12.13 DEH Add Corey Moffet, USDA-ARS to tagline;
-# 2004.11.01 DEH change "no ravel" graphic; make "rock" new table cell "rock content"
-# 2004.10.28 DEH non-breaking space on '% grass' etc.
-# 2004.10.13 DEH Add trailing '\\' for $working for platform eq 'pc'
-# 2004.09.16 DEH Add Fred Pierson, USDA-ARS to tagline; reduce fontsize of tagline; remove "Rock" link to dox.
-#	  Place temporary graphic for ravelcheck instead of button
-# 2004.06.07 DEH Correct status notes, add colors to shrub/grass/bare
-#	  Change help screens to pop-ups
-# 2004.03.24 DEH Instability warning removed
-# 2004.03.16 DEH Instability warning
-# 2003.09.04 DEH Input checking for hillslope horizontal length
-# 2003.08.19 DEH Add run count report
-# 2003.03.04 DEH Remove 'host' echo; add Pete to tagline; reinstate "Risk"
-# 2002.12.30 DEH add sample result screen for dry ravel
-# 2002.11.21 DEH use HTTP_X_FORWARDRD_FOR a user IP if not blank
-# 2002.11.12 DEH check HTTP_X_FORWARDED_FOR
-# 2002.11.06 DEH added % shrub %grass %bare for range / chaparral
-# 2002.08.22 DEH transformed weppdist.pl from "forest"
-# 2002.01.08 DEH Removed errant return link to "dindex.html" & wrap pbs
-## END HISTORY ###################################
-
-#  usage:
-#    action = "ermit.pl"
-#  parameters:
-#    debug
-#    units             # unit scheme (ft|m)
-#    me
-#  reads environment variables:
-#       HTTP_COOKIE
-#       REMOTE_ADDR
-#       REMOTE_HOST
-
-#       HTTP_X_FORWARDED_FOR
-#       HTTP_CACHE_CONTROL
-
-#       REQUEST_METHOD
-#       QUERY_STRING
-#       CONTENT_LENGTH
-#  reads:
-#    ../wepphost        # localhost or other
-#    ../platform        # pc or unix
-#    ../climates/*.par  # standard climate parameter files
-#    $working/*.par     # personal climate parameter files
-#  calls:
-#    /cgi-bin/fswepp/wr/wr.pl
-#    /cgi-bin/fswepp/wr/logstuff.pl
-#  popup links:
-#    /fswepp/wr/wrwidths.html
-#    /fswepp/wr/rddesign.html
-
-#  FSWEPP, USDA Forest Service, Rocky Mountain Research Station,
-#  Soil & Water Engineering
-#  Science by Bill Elliot et alia
-#  Code by David Hall
-
-$remote_host    = $ENV{'REMOTE_HOST'};
-$remote_address = $ENV{'REMOTE_ADDR'};    # if ($userIP eq '');
-
-$http_x_forwarded_for = $ENV{'HTTP_X_FORWARDED_FOR'};
-$http_cache_control   = $ENV{'HTTP_CACHE_CONTROL'};
-
-my $cgi = new CGI;
-$units = escapeHTML( $cgi->param('units') );
-$debug = escapeHTML( $cgi->param('debug') );
-
-if    ( $units eq 'm' )  { $areaunits = 'ha' }
-elsif ( $units eq 'ft' ) { $areaunits = 'ac' }
-else                     { $units     = 'ft'; $areaunits = 'ac' }
-
-$cookie = $ENV{'HTTP_COOKIE'};
-
-$sep = index( $cookie, "FSWEPPuser=" );
-$me  = "";
-if ( $sep > -1 ) { $me = substr( $cookie, $sep + 11, 1 ) }    # DEH 2009.09.17
-
-if ( $me ne "" ) {
-    $me = lc( substr( $me, 0, 1 ) );
-    $me =~ tr/a-z/ /c;
-}
-if ( $me eq " " ) { $me = "" }
-
-$working     = '../working/';                                 # DEH 08/22/2000
-$user_ID     = $ENV{'REMOTE_ADDR'};
-$user_really = $ENV{'HTTP_X_FORWARDED_FOR'};                  # DEH 11/14/2002
-$user_ID     = $user_really if ( $user_really ne '' );        # DEH 11/14/2002
-$user_ID =~ tr/./_/;
-$user_ID = $user_ID . $me . '_';                              # DEH 03/05/2001
-$logFile = '../working/' . $user_ID . '.log';
-$cliDir  = '../climates/';
-$custCli = '../working/' . $user_ID;                          # DEH 03/02/2001
+my $working     = '../working/';                                 # DEH 08/22/2000
+my $logFile = '../working/' . $user_ID . '.log';
+my $custCli = '../working/' . $user_ID;                          # DEH 03/02/2001
 
 my @climates = GetClimates($user_ID);
 
@@ -224,11 +117,7 @@ print <<'theEnd';
       }
       else {
         if (shrub + grass > 100.1) {
-//          alert(shrub + grass, 'is too big') 
           grass = 100 - shrub
-        }
-        else {
-//          alert('not too big')
         }
       }
       bare = 100 - shrub - grass
@@ -261,11 +150,7 @@ print <<'theEnd';
       }
       else {
         if (grass + shrub > 100.1) {
-//          alert(shrub + grass, 'is too big') 
           shrub = 100 - grass
-        }
-        else {
-//          alert('not too big')
         }
       }
       bare = 100 - shrub - grass
@@ -1120,7 +1005,7 @@ print ' <BODY link="#555555" vlink="#555555">
 <input type="hidden" size="1" name="debug" value="', $debug, '">
   <TABLE border="1" bgcolor="ivory">
 ';
-print <<'theEnd';
+print qq(
      <tr align="top">
       <td align="center" bgcolor="#85d2d2">
        (<a onMouseOver="window.status='Ownership code -: Public (any computer could create)';return true"
@@ -1128,9 +1013,9 @@ print <<'theEnd';
         <a onMouseOver="window.status='Ownership code *: Personal climate (your computer created)';return true"
            onMouseOut="window.status='Forest Service ERMiT'; return true">*</a>)
        &nbsp;&nbsp;&nbsp;&nbsp;
-       <a href="JavaScript:submitme('Describe Climate')"
-             onMouseOver="window.status='Describe climate';return true"
-             onMouseOut="window.status='Forest Service ERMiT'; return true">
+       <a href="#" onclick="
+          var climateValue = document.getElementById('Climate').value;
+          window.location.href = '/cgi-bin/fswepp/rc/descpar.pl?CL=' + climateValue + '&units=$units'">
        <b>Climate</b></a>
        &nbsp;&nbsp;&nbsp;&nbsp;
         <a href="javascript:explain_climate_symbols()"
@@ -1156,8 +1041,8 @@ print <<'theEnd';
      </tr>
      <tr align=top>
       <td align="center" rowspan=3>
-       <SELECT NAME="Climate" SIZE="7">
-theEnd
+       <SELECT NAME="Climate" id="Climate" SIZE="7">
+);
 
 ### display climates
 
@@ -1381,18 +1266,11 @@ ERMiT version <a href="https://github.com/wepp-in-the-woods/fswepp-docker/commit
         <b>', $runs, '</b> ERMiT runs YTD<br>
 ';
 print
-"        $remote_host &ndash; $remote_address ($user_really) personality '<b>$me</b>'<br>
-        $user_ID_really<br>";
+"        $user_ID<br>";
 
 print
-"Log of FS WEPP runs for IP and personality <a href=\"/cgi-bin/fswepp/runlogger.pl\" target=\"_rl\">$remote_address$me</a>";
+"Log of FS WEPP runs for IP and personality <a href=\"/cgi-bin/fswepp/runlogger.pl\" target=\"_rl\">$user_ID</a>";
 
-if ($debug) {
-    print "
-    Host: $remote_host &ndash;
-    Address: $remote_address &ndash;
-    Forwarded for: $http_x_forwarded_for";
-}
 print '
        </font>
       </td>

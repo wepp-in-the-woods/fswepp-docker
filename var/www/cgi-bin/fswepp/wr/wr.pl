@@ -23,7 +23,6 @@ use String::Util qw(trim);
 
 #  usage: wr.pl (called from web HTML form)
 #  parameters:
-#     ActionC		# Custom Climate selection submit button
 #     ActionW		# Run WEPP selection submit button
 #     ActionCD		# Describe Climate selection submit button
 #     ActionSD		# Describe Soil selection submit button
@@ -78,7 +77,6 @@ use String::Util qw(trim);
 #  erases:
 #    $working\$station.cli	# CLIGEN output file
 #  calls:
-#    ../rc/rockclim.pl -server -i$me -u$units $wepproad		# custom
 #    ../rc/descpar.pl $CL $units $wepproad			# Describe Climate
 #    custom.sol
 #    wepproad.sol						# Describe Soil
@@ -108,8 +106,6 @@ $achtung      = escapeHTML( $cgi->param('achtung') );
 $CL           = escapeHTML( $cgi->param('Climate') );
 $climate_name = escapeHTML( $cgi->param('climate_name') );
 
-############################ start 2009.10.29 DEH
-
 $user_ID     = $ENV{'REMOTE_ADDR'};
 $user_really = $ENV{'HTTP_X_FORWARDED_FOR'};              # DEH 11/14/2003
 $user_ID     = $user_really if ( $user_really ne '' );    # DEH 11/14/2003
@@ -117,14 +113,6 @@ $user_ID =~ tr/./_/;
 $user_ID    = $user_ID . $me;
 $runLogFile = "../working/" . $user_ID . ".run.log";
 
-############################ end 2009.10.29 DEH
-
-# ======================  CUSTOM CLIMATE  ======================
-
-if ( lc($action) =~ /custom/ ) {
-    $wepproad = "/cgi-bin/fswepp/wr/wepproad.pl";
-    exec "../rc/rockclim.pl -server -i$me -u$units $wepproad";
-}
 
 # ======================  DESCRIBE CLIMATE  ======================
 

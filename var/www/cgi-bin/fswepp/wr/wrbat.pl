@@ -4,7 +4,7 @@ use warnings;
 use CGI;
 use CGI qw(escapeHTML header);
 use MoscowFSL::FSWEPP::CligenUtils qw(CreateCligenFile GetParSummary GetStationName);
-use MoscowFSL::FSWEPP::FsWeppUtils qw(printdate get_version get_thisyear_and_thisweek );
+use MoscowFSL::FSWEPP::FsWeppUtils qw(printdate get_version get_thisyear_and_thisweek CreateSlopeFileWeppRoad );
 
 use POSIX qw(strftime);
 
@@ -79,17 +79,6 @@ $me      = '';                                     # Initialize $me variable
 $user_ID = $user_ID . $me;
 $logFile = "../working/" . $user_ID . ".wrblog";
 if ( $host eq "" ) { $host = 'unknown' }
-
-
-# ======================  DESCRIBE CLIMATE  ======================
-
-if ( $achtung =~ /Describe Climate/ && $action eq '' ) {
-    $wepproadbat = "/cgi-bin/fswepp/wr/wepproadbat.pl";
-    exec "../rc/descpar.pl $CL $units $wepproadbat";
-    die;
-}
-
-#=========================================================================
 
 goto skip_check if ( lc($action) =~ /display previous log/ );
 
@@ -478,7 +467,7 @@ if ($checkonly) {
 #######################   check continue
     $spread =~ s/\r//g;    # DEH 2009.09.18 unix to DOS format
     print "
-     <FORM name=\"wrbat\" method=post ACTION=\"/cgi-bin/fswepp/wr/wrbat.pl\">
+     <form name=\"wrbat\" method=post ACTION=\"/cgi-bin/fswepp/wr/wrbat.pl\">
       <input type=\"hidden\" name=\"me\" value=$me>
       <input type=\"hidden\" name=\"units\" value=$units>
       <input type=\"hidden\" name=\"Climate\" value=$CL>
@@ -1252,14 +1241,6 @@ print '
  </body>
 </html>
 ';
-
-#   unlink <"$working/$unique.*">;
-
-###   unlink $responseFile;
-###   unlink $outputFile;
-###   unlink $stoutFile;
-###   unlink $sterFile;
-###   unlink $slopeFile;
 
 #  record activity in WEPP:Road log (if running on remote server)
 

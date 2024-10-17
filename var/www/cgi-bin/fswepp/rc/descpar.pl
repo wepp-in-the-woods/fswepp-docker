@@ -1,42 +1,29 @@
 #!/usr/bin/perl
 
+use warnings;
+use CGI;
+use CGI qw(escapeHTML);
+use MoscowFSL::FSWEPP::FsWeppUtils qw(get_version);
+
 #
 # descpar.pl
 #
-#  usage:
-#    exec descpar.pl $CL $units
-#    exec descpar.pl $CL $units $wherefrom
-#  arguments:
-#    $CL		climate file name
-#    $units		'm' or 'ft' or '-um' or '-uft'
-#    $wherefrom
 
-#  FSWEPP, USDA Forest Service, Rocky Mountain Research Station, Soil & Water Engineering
-#  Science by Bill Elliot et alia                                      Code by David Hall
+my @debug    = 0;
+my $version  = get_version(__FILE__);
+my $query    = CGI->new;
+my $referrer = $ENV{'HTTP_REFERER'};
+if ( !$referrer ) {
+    $referrer = '/fswepp/';
+}
 
-#  2010.06.11 DEH filter single quote out of par file climate name for display of .par and map
-#  2005.06.07 DEH Fix units to recognize '-um' as well as 'm'
-#  07 October 2004 DEH -- ?
-#  24 April 2003   DEH add map popup and PAR file popup, and remove RTIS.gif
-#  27 March 2003   DEH add displayPAR file  to Corey Moffett remove Chris Pyke
-#  18 April 2002   DEH add display PAR file for Chris Pyke [limit to his IP and ours]
-#  23 August 2000  DEH add table reporting interpolation stations and record
-#  12 April 2000   DEH fixed parsing of temperature lines (Jan standalone fix)
-#  19 October 1999
-
-# $lotsofoutput=1;
-
-#  $version = "2005.06.07";
-$version =
-  '2010.04.08';   # allow random trailing text to be displayed (for SNOTEL, etc)
-
-$CL    = $ARGV[0];
-$units = $ARGV[1];
-
+my $CL = $query->param('CL') || $ARGV[0];
 chomp $CL;
-$units = 'm' if ( $units eq '-um' );    # 2005.06.07 DEH
 
-$climateFile = $CL . '.par';
+my $units = $query->param('units') || $ARGV[1];
+$units = 'm' if ( $units eq '-um' );
+
+my $climateFile = $CL . '.par';
 
 open PAR, "<$climateFile";
 $line         = <PAR>;    # EPHRATA CAA AP WA                       452614 0
@@ -66,11 +53,11 @@ $pwd_base = 1;
 $line     = <PAR>
   ; # TMAX AV 32.89 41.62 52.60 62.81 72.56 80.58 88.52 87.06 77.76 62.85 44.78 34.63
 
-for $ii ( 0 .. 11 ) { $tmax_av[$ii] = substr( $line, 8 + $ii * 6, 6 ) };
+for $ii ( 0 .. 11 ) { $tmax_av[$ii] = substr( $line, 8 + $ii * 6, 6 ) }
 $tmax_av_base = 0;
 $line         = <PAR>
   ; # TMIN AV 20.31 26.55 32.33 39.12 47.69 55.39 61.58 60.31 51.52 40.17 30.33 22.81
-for $ii ( 0 .. 11 ) { $tmin_av[$ii] = substr( $line, 8 + $ii * 6, 6 ) };
+for $ii ( 0 .. 11 ) { $tmin_av[$ii] = substr( $line, 8 + $ii * 6, 6 ) }
 $tmin_av_base = 0;
 
 while (<PAR>) {
@@ -163,30 +150,8 @@ print "<HTML>\n";
 print " <HEAD>\n";
 print "  <TITLE>Climate Parameters</TITLE>\n";
 print "  <script language=Javascript>
-   function ShowMap() {
-    newin = window.open('','map',',scrollbars=yes,resizable=yes,height=600,width=900,status=yes')
-    newin.document.open()                                                        
-    newin.document.writeln('<html>')
-    newin.document.writeln(' <head>')
-    newin.document.writeln('  <title>Map of $climate_name_filt</title>')
-    newin.document.writeln(' </head>')
-    newin.document.writeln(' <body bgcolor=ivory onLoad=\"self.focus()\">')
-    newin.document.writeln('  <center>')
-    newin.document.writeln('   <h3>$climate_name_filt -- $lat<sup>o</sup>N$lon<sup>o</sup>E</h3>')
-    newin.document.writeln('   <table border=5 cellpadding=4 bgcolor=\"black\">')
-    newin.document.writeln('    <tr>')
-    newin.document.writeln('     <th><img src=\"https://tiger.census.gov/cgi-bin/mapgen?&lat=$lat&lon=$lon&on=states&iwd=400&iht=400&wid=10&ht=10&mark=$lon,$lat,redstar\" width=400 height=400><br><font color=white>10 deg x 10 deg</font></th>')
-    newin.document.writeln('     <th><img src=\"https://tiger.census.gov/cgi-bin/mapgen?&lat=$lat&lon=$lon&on=states&iwd=400&iht=400&wid=1&ht=1&mark=$lon,$lat,redstar\" width=400 height=400><br><font color=white>1 deg x 1 deg</font></th>')
-    newin.document.writeln('    </tr>')
-    newin.document.writeln('   </table>')
-    newin.document.writeln('   <a href=\"https://tiger.census.gov/cgi-bin/mapsurfer?&infact=2&outfact=2&act=move&tlevel=-&tvar=-&tmeth=i&mlat=$lat&mlon=$lon&msym=smalldot&mlabel=&murl=&lat=$lat&lon=$lon&wid=0.045&ht=0.016&conf=mapnew.con\">more</a> Tiger Census map options')
-    newin.document.writeln('  </center>')
-    newin.document.writeln(' </body>')
-    newin.document.writeln('</html>')
-    newin.document.close()
-   }
+
    function ShowPar() {
-// alert ('ShowPar')
     newin = window.open('','par',',scrollbars=yes,resizable=yes,height=600,width=900,status=yes')                       
     newin.document.open()
     newin.document.writeln('<html><body onload=\"self.focus()\"><pre>')
@@ -238,28 +203,6 @@ else {
 }
 print "<br>$yr_rec years of record</h3>\n";
 print '    <img src="/fswepp/images/line_red2.gif"><p>', "\n";
-if ($lotsofoutput) {
-    print '     <table border=1>
-               <tr><th bgcolor="#85D2D2">Month
-                   <th bgcolor="#85D2D2">Avg precip
-                   <th bgcolor="#85D2D2">p(w/w)
-                   <th bgcolor="#85D2D2">p(w/d)
-                   <th bgcolor="#85D2D2">tmaxav
-                   <th bgcolor="#85D2D2">tminav', "\n";
-    for $i ( 0 .. 11 ) {
-        print '      <tr><th>', $month_name[$i], "</th>\n",
-          '       <td align=right>', $mean_p_if[ $i + $mean_p_base ], "</td>\n",
-          '       <td align=right>', $pww[ $i + $pww_base ],          "</td>\n",
-          '       <td align=right>', $pwd[ $i + $pwd_base ],          "</td>\n",
-          '       <td align=right>', $tmax_av[ $i + $tmax_av_base ],  "</td>\n",
-          '       <td align=right>', $tmin_av[ $i + $tmin_av_base ],  "</td>\n";
-    }
-    print '</table>
-    <br><br>
-';
-}    # lotsofoutput
-
-#-----------------------------------
 
 $tempunit = '<sup>o</sup>F';
 $pcpunit  = 'in';
@@ -309,14 +252,16 @@ print "    </table>\n    <br><br>\n";
 
 # **********************
 
-print '
+print qq(
     <img src="/fswepp/images/line_red2.gif">
     <form>
-     <input type="hidden" value="Show map" onClick="ShowMap(); return false;">
      <input type="submit" value="Show PAR" onClick="ShowPar(); return false;">
-     <input type="submit" value="Return to input screen" onClick="window.history.go(-1); return false;">                            
+     <input type="submit" value="Return to input screen" onClick="
+     var referrer='$referrer';
+     history.replaceState(null, '', referrer);
+    window.location.href=referrer;">                            
     </form>
-';
+);
 
 if ($interpolated) {
     print '
@@ -390,29 +335,6 @@ $comment
    </pre>
 ";
 }
-
-goto goop;
-
-### Display PAR file ###
-### limit to IP of 166.2.22.* and 128.111.110.220 [Chris Pyke pyke@icess.ucsb.edu]
-$user_ID     = $ENV{'REMOTE_ADDR'};
-$user_really = $ENV{'HTTP_X_FORWARDED_FOR'};              # DEH 11/14/2002
-$user_ID     = $user_really if ( $user_really ne '' );    # DEH 11/14/2002
-if (
-    index( $user_ID, '166.2.22.' ) == 0 ||                # Moscow lab
-    index( $user_ID, '199.133.140.156' ) == 0
-  )
-{    # Corey Moffett 3/2002
-    print "
-<hr><pre><font face='courier'>
-";
-    open PAR, "<$climateFile";
-    while (<PAR>) {
-        print $_;
-    }
-}
-###
-goop:
 
 print "
   </center>

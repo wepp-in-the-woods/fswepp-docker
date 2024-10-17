@@ -493,14 +493,15 @@ print "\n";
 print '      <input type="hidden" name="me" value="', $me, '">';
 
 #print '      <input type="hidden" name=units" value="',$units,'">';
-print <<'theEnd';
+print qq(
   <TABLE border="1">
    <TR align="top">
     <TD align="center" bgcolor="#85D2D2">
-    <B><a href="JavaScript:submitme('Describe Climate')"
-             onMouseOver="window.status='Describe climate';return true"
-             onMouseOut="window.status='Forest Service WEPP:Road'; return true">
-             Climate Station</a></B>
+    <B>
+    <a href="#" onclick="
+          var climateValue = document.getElementById('Climate').value;
+          window.location.href = '/cgi-bin/fswepp/rc/descpar.pl?CL=' + climateValue + '&units=$units'">
+          Climate Station</a></B>
   <td width=10>
   <TD align="center" bgcolor="#85D2D2">
     <B><a href="JavaScript:submitme('Describe Soil')"
@@ -510,8 +511,8 @@ print <<'theEnd';
 <!--  <td width=10>  -->
 <TR>
   <TD align=center>
-  <SELECT NAME="Climate" SIZE="4">
-theEnd
+  <SELECT NAME="Climate" id="Climate" SIZE="5">
+);
 
 # ##################################################################
 
