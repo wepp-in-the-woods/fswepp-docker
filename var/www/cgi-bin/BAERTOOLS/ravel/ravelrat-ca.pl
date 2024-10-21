@@ -64,7 +64,6 @@ $lat2 = $cgi->param('bndlat2');    # "N"
 $lon1 = $cgi->param('bndlon1');    # "W"
 $lon2 = $cgi->param('bndlon2');    # "E"
 
-$me    = $cgi->param('me'); 
 $units = $cgi->param('units');
 
 #####  Set other parameters values  #####

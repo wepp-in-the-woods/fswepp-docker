@@ -747,8 +747,8 @@ print qq(
           onClick="JavaScript:show_help('climate')"
           title='Click the link to display select climate parameter values for the selected climate file || Climate files collected for IP: $user_ID'>
 );
-if ( $fc ) {
-print qq(
+if ($fc) {
+    print qq(
        <a href="#" onclick="
           var climateValue = document.getElementById('Climate').value;
           window.location.href = '/cgi-bin/fswepp/rc/desccli.pl?CL=' + climateValue + '&units=$units'">
@@ -756,7 +756,7 @@ print qq(
 );
 }
 else {
-print qq(
+    print qq(
        <a href="#" onclick="
           var climateValue = document.getElementById('Climate').value;
           window.location.href = '/cgi-bin/fswepp/rc/descpar.pl?CL=' + climateValue + '&units=$units'">

@@ -4,12 +4,12 @@ use CGI;
 use CGI qw(escapeHTML);
 
 use warnings;
-use MoscowFSL::FSWEPP::FsWeppUtils qw(get_version);
+use MoscowFSL::FSWEPP::FsWeppUtils qw(get_version get_user_id);
 
 # modpar.pl
 #
 
-my $debug = 0;
+my $debug   = 0;
 my $version = get_version(__FILE__);
 
 $CL       = $ARGV[0];
@@ -42,17 +42,7 @@ if ( $CL . $units . $comefrom . $state eq "" ) {
 ## if still no parameters from command-line or from form, bail
 
 if ( $CL . $units . $comefrom . $state eq "" ) {
-    print "Content-type: text/html\n\n";
-    print "<HTML>\n";
-    print " <HEAD>\n";
-    print
-"  <meta http-equiv=\"Refresh\" content=\"0; URL=/cgi-bin/fswepp/rc/rockclim.pl\">\n";
-    print " </HEAD>\n";
-    print " <body>\n";
-    print " Climate: $CL\n Units: $units\n Comefrom: $comefrom\n state: $state";
-    print " </body>\n";
-    print "</html>\n";
-    die;
+    die "No parameters passed to modpar.pl";
 }
 
 if ( $units eq '-um' )  { $units = 'm' }     # DEH 07/19/00
@@ -64,6 +54,8 @@ if ( $units ne 'ft' && $units ne 'm' ) {
 ;                                            # DEH 2004.06.03
 
 chomp $CL;
+
+my $user_ID = get_user_id();
 
 # DEH 03/05/2001
 $cookie = $ENV{'HTTP_COOKIE'};

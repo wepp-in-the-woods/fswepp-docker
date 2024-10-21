@@ -4,7 +4,7 @@ use warnings;
 use CGI;
 use CGI qw(escapeHTML);
 use Scalar::Util 'looks_like_number';
-use MoscowFSL::FSWEPP::CligenUtils qw(CreateCligenFile GetParSummary);
+use MoscowFSL::FSWEPP::CligenUtils qw(CreateCligenFile GetParSummary GetParLatLong);
 use MoscowFSL::FSWEPP::FsWeppUtils
   qw(CreateSlopeFile get_version printdate get_thisyear_and_thisweek);
 
@@ -2140,16 +2140,8 @@ $host        = $ENV{REMOTE_ADDR} if ( $host eq '' );
 $user_really = $ENV{'HTTP_X_FORWARDED_FOR'};              # DEH 11/14/2002
 $host        = $user_really if ( $user_really ne '' );    # DEH 11/14/2002
 
-# 2008.06.04 DEH start
-open PAR, "<$climatePar";
-$PARline  = <PAR>;                                        # station name
-$PARline  = <PAR>;                                        # Lat long
-$lat_long = substr( $PARline, 0, 26 );
-$lat      = substr $lat_long, 6,  7;
-$long     = substr $lat_long, 19, 7;
-close PAR;
+my ($lat, $long) = GetParLatLong($climatePar);
 
-# 2008.06.04 DEH end
 
 #  record activity in Tahoe log (if running on remote server)
 

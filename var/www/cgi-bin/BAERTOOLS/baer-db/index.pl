@@ -102,6 +102,10 @@ Bwd::PrintHttpResponse();  # Generate the Web page.
         return "
 <script type='text/javascript'>
 	function TakeDistOrigin( lat, lon ) {
+		// 3 decimal places is ~100 yards, which is plenty close for finding
+		// fires and reduces clutter on the page.
+		// document.getElementById( 'inDn' ).value = lat.toFixed( 3 );
+		// document.getElementById( 'inDw' ).value = lon.toFixed( 3 );
 	}
 </script>
 

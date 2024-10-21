@@ -59,7 +59,6 @@ $ofe2_bot_slope   = 10;
 $buffer_length    = 30;
 $ofe_area         = 100;
 $action           = '';
-$me               = '';
 $units            = '';
 $achtung          = '';
 $climyears        = 2;
@@ -95,7 +94,6 @@ $action =
   . escapeHTML( $cgi->param('actionv') )
   . escapeHTML( $cgi->param('actionw') )
   . escapeHTML( $cgi->param('ActionCD') );
-$me          = escapeHTML( $cgi->param('me') );
 $units       = escapeHTML( $cgi->param('units') );
 $achtung     = escapeHTML( $cgi->param('achtung') );
 $climyears   = escapeHTML( $cgi->param('climyears') );

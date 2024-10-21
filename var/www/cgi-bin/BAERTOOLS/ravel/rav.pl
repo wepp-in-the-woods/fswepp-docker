@@ -31,7 +31,6 @@ $kineticFrictionAngle = escapeHTML( $cgi->param('kinetic') ) + 0;
 $bulkDensity          = escapeHTML( $cgi->param('bulk') ) + 0;
 $DEMfile              = $cgi->upload('uploadFileName');
 
-$me    = escapeHTML( $cgi->param('me') );      # DEH 05/24/2000
 $units = escapeHTML( $cgi->param('units') );
 
 #####  Set other parameters values  #####

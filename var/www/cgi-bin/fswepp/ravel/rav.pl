@@ -10,6 +10,7 @@ use MoscowFSL::FSWEPP::FsWeppUtils qw(get_user_id get_version);
 #
 my $debug = 0;
 my $version = get_version(__FILE__);
+my $user_ID = get_user_id();
 my $cgi = new CGI;
 
 
@@ -22,7 +23,6 @@ $kineticFrictionAngle = escapeHTML( $cgi->param('kinetic') ) + 0;
 $bulkDensity          = escapeHTML( $cgi->param('bulk') ) + 0;
 $DEMfile              = $cgi->upload('uploadFileName');
 
-$me    = escapeHTML( $cgi->param('me') );
 $units = escapeHTML( $cgi->param('units') );
 
 #####  Set other parameters values  #####
@@ -133,7 +133,6 @@ print "  </script>
   </table>
 ";
 
-#   $DEM = upload('uploadFileName');
 if ($debug) {
     print "
 description:	$description<br>
