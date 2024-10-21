@@ -5,88 +5,15 @@ use CGI;
 use CGI qw(escapeHTML header);
 
 use MoscowFSL::FSWEPP::CligenUtils qw(CreateCligenFile GetParSummary GetParLatLong);
-use MoscowFSL::FSWEPP::FsWeppUtils qw(CreateSlopeFileWeppRoad get_version printdate get_thisyear_and_thisweek);
+use MoscowFSL::FSWEPP::FsWeppUtils qw(CreateSlopeFileWeppRoad get_version printdate get_thisyear_and_thisweek get_user_id);
 
 use String::Util qw(trim);
-
-#  wr.pl -- WEPP:Road workhorse
-
-#
-#  FS WEPP
-#  USDA Forest Service, Rocky Mountain Research Station
-#  Soil & Water Engineering
-#  Science by Bill Elliot et alia
-#  Code by David Hall
-#  Reads user input from wepproad.pl, runs CLIGEN and WEPP, parses output files
-#  October 1999
-#  David Hall, USDA Forest Service, Rocky Mountain Research Station
-
-#  usage: wr.pl (called from web HTML form)
-#  parameters:
-#     ActionW		# Run WEPP selection submit button
-#     ActionCD		# Describe Climate selection submit button
-#     ActionSD		# Describe Soil selection submit button
-#     me
-#     units		# English (ft) or metric (m) units
-#     achtung		# Alternative action selection from text links
-#     Climate
-#     climate_name
-#    Describe Soil
-#      units
-#      SoilType         # Soil type (loam,  sand,  silt,  clay,
-#                                   gloam, gsand, gsilt, gclay,
-#                                   ploam, psand, psilt, pclay)   # HR 08 99
-#      surface		# graveled, paved, or native surface
-#      SlopeType	# slope type (outunrut, inbare, inveg, outrut)
-#    else
-#      units
-#      SoilType         # Soil type (loam,  sand,  silt,  clay,
-#                                   gloam, gsand, gsilt, gclay,
-#                                   ploam, psand, psilt, pclay)   # HR 08 99
-#      surface		# graveled, paved, or native surface
-#      RL		# Road length -- buffer spacing (free)
-#      RS		# Road gradient (free)
-#      RW		# road width (free)
-#      FL		# fill length (free)
-#      FS		# fill steepness (free)
-#      BL		# Buffer length (free)
-#      BS		# Buffer steepness (free)
-#      SlopeType	# slope type (outunrut, inbare, inveg, outrut)
-#      Full
-#      Slope
-#      climate_name
-#      years
-#  reads environment variables:
-#       HTTP_COOKIE
-#       REMOTE_ADDR
-#       REQUEST_METHOD
-#       QUERY_STRING
-#       CONTENT_LENGTH
-#  reads:
-#    ../climates/*.par		# standard climate parameter files
-#    $working/*.par		# personal climate parameter files
-#    $soilFilefq		# soil file
-#    $slopeFile			# slope file
-#    stoutFile			# WEPP run standard output file (error messages)
-#    outputFile			# WEPP run summary output file
-#    $working\$user_ID.out	# CLIGEN standard output file
-#  writes:
-#    ../working/wr.log
-#    $slopeFile			# slope file
-#    $working\$user_ID.rsp	# CLIGEN response file
-#  erases:
-#    $working\$station.cli	# CLIGEN output file
-#  calls:
-#    ../rc/descpar.pl $CL $units $wepproad			# Describe Climate
-#    custom.sol
-#    wepproad.sol						# Describe Soil
-#    /cgi-bin/fswepp/wr/logstuffwr.pl
-#    ..\rc\cligen43.exe <$rspfile >$stoutfile
-#    ..\wepp <$responseFile >$stoutFile
 
 $| = 1;    # flush output buffers
 
 my $version = get_version(__FILE__);
+my $user_ID = get_user_id();
+
 my $debug = 0;
 my ($thisyear, $thisweek) = get_thisyear_and_thisweek();
 my $weppversion = "wepp2010";
@@ -100,17 +27,11 @@ $action =
 chomp $action;
 
 $traffic      = escapeHTML( $cgi->param('traffic') );
-$me           = escapeHTML( $cgi->param('me') );
 $units        = escapeHTML( $cgi->param('units') );
 $achtung      = escapeHTML( $cgi->param('achtung') );
 $CL           = escapeHTML( $cgi->param('Climate') );
 $climate_name = escapeHTML( $cgi->param('climate_name') );
 
-$user_ID     = $ENV{'REMOTE_ADDR'};
-$user_really = $ENV{'HTTP_X_FORWARDED_FOR'};              # DEH 11/14/2003
-$user_ID     = $user_really if ( $user_really ne '' );    # DEH 11/14/2003
-$user_ID =~ tr/./_/;
-$user_ID    = $user_ID . $me;
 $runLogFile = "../working/" . $user_ID . ".run.log";
 
 
@@ -558,16 +479,9 @@ if ( $rcin >= 0 ) {
      </table>
     </center>
 ';
-    if ($debug) { print "I am '$me', units '$units' <br>\n" }
-
-    # 12/19/2003 DEH
-    #   print $error_message, "<br>\n";
 
     $found = &parseWeppResults;
 
-    #    if ($outputf==1) {
-    #      &printWeppSummary;
-    #    }
     print '  <br><center><font size=-1>WEPP files: 
     [ <a href="javascript:void(showslopefile())">slope</a>
     | <a href="javascript:void(showsoilfile())">soil</a>
@@ -1306,7 +1220,6 @@ sub parseWeppResults {
         print '
      <font face="Arial, Geneva, Helvetica">
       <form name="wrlog" method="post" action="/cgi-bin/fswepp/wr/logstuffwr.pl">
-       <input type="hidden" name="me" value="',          $me,           '">
        <input type="hidden" name="units" value="',       $units,        '">
        <input type="hidden" name="years" value="',       $years2sim,    '">
        <input type="hidden" name="climate" value="',     $climate_name, '">

@@ -4,7 +4,7 @@ use warnings;
 use CGI;
 use CGI qw(escapeHTML header);
 use MoscowFSL::FSWEPP::CligenUtils qw(CreateCligenFile GetParSummary GetStationName);
-use MoscowFSL::FSWEPP::FsWeppUtils qw(printdate get_version get_thisyear_and_thisweek CreateSlopeFileWeppRoad );
+use MoscowFSL::FSWEPP::FsWeppUtils qw(printdate get_version get_thisyear_and_thisweek CreateSlopeFileWeppRoad get_user_id );
 
 use POSIX qw(strftime);
 
@@ -19,6 +19,7 @@ use POSIX qw(strftime);
 # David Hall, USDA Forest Service, Rocky Mountain Research Station
 
 my $version = get_version(__FILE__);
+my $user_ID = get_user_id();
 my $debug = 0;
 my $batch = 1;
 my $weppversion = "wepp2010";
@@ -70,13 +71,6 @@ elsif ( $ST eq 'silt' ) { $STx = 'silt loam' }
 elsif ( $ST eq 'sand' ) { $STx = 'sandy loam' }
 elsif ( $ST eq 'loam' ) { $STx = 'loam' }
 
-$host        = $ENV{REMOTE_HOST};
-$user_ID     = $ENV{'REMOTE_ADDR'};
-$user_really = $ENV{'HTTP_X_FORWARDED_FOR'};
-$user_ID     = $user_really if ( $user_really ne '' );
-$user_ID =~ tr/./_/;
-$me      = '';                                     # Initialize $me variable
-$user_ID = $user_ID . $me;
 $logFile = "../working/" . $user_ID . ".wrblog";
 if ( $host eq "" ) { $host = 'unknown' }
 
@@ -468,7 +462,6 @@ if ($checkonly) {
     $spread =~ s/\r//g;    # DEH 2009.09.18 unix to DOS format
     print "
      <form name=\"wrbat\" method=post ACTION=\"/cgi-bin/fswepp/wr/wrbat.pl\">
-      <input type=\"hidden\" name=\"me\" value=$me>
       <input type=\"hidden\" name=\"units\" value=$units>
       <input type=\"hidden\" name=\"Climate\" value=$CL>
       <input type=\"hidden\" name=\"SoilType\" value=$ST>
@@ -598,7 +591,7 @@ for $record ( 1 .. $count ) {
      UBR: $UBR<br>
      Design: $design<br>
      Designw: $designw<br>
-     I am '$me', units '$units' <br>
+     units '$units' <br>
 "
     }
 

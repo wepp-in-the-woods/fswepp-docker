@@ -502,7 +502,6 @@ print '<BODY bgcolor="white"
   <center>
   
   <FORM name="weppdist" method="post" ACTION="wd.pl">
-  <input type="hidden" size="1" name="me" value="',    $me,    '">
   <input type="hidden" size="1" name="units" value="', $units, '">
 <br>
  <table width=90% border=0 bgcolor="#FAF8CC">
@@ -751,8 +750,8 @@ $wc    = `wc ../working/' . currentLogDir() . '/wd2.log`;
 $runs  = @words[0];
 
 print "
-   $remote_host &ndash; $remote_address ($user_really) personality '<b>$me</b>'<br>
-   Log of FS WEPP runs for IP and personality <a href=\"/cgi-bin/fswepp/runlogger.pl\" target=\"_rl\">$remote_address$me</a>
+   $user_ID<br>
+   Log of FS WEPP runs for IP and personality <a href=\"/cgi-bin/fswepp/runlogger.pl\" target=\"_rl\">$user_ID</a>
    <br>
    <b>$runs</b> Disturbed WEPP 2.0 Model runs YTD
    <br>

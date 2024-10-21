@@ -486,7 +486,6 @@ print
 <br>
 
   <form name="fume" method="post" ACTION="/cgi-bin/fswepp/biomass/wb.pl">
-  <input type="hidden" size="1" name="me" value="', $me, '">
   <table border="1">
 ';
 print <<'theEnd';
@@ -523,7 +522,6 @@ print <<'theEnd';
         <SELECT NAME="Climate" id="Climate" SIZE="5">
 theEnd
 
-### display personal climates, if any
 
 foreach my $ii ( 0 .. $#climates ) {
     print '<OPTION VALUE="', $climates[$ii]->{'clim_file'}, '"';
@@ -531,7 +529,6 @@ foreach my $ii ( 0 .. $#climates ) {
     print '> ', $climates[$ii]->{'clim_name'}, "\n";
 }
 
-#################
 print '      </SELECT>
       </td>
       <TD align="center" bgcolor="lightblue">
@@ -770,13 +767,9 @@ $wc    = `wc ../working/_2017/wb.log`;
 @words = split " ", $wc;
 $runs  = @words[0];
 
-##       674 funs in 2009
-##     1,170 runs in 2008
-##     1,621 runs in 2007
-##       842 runs in 2006
 
 print "  <font face='tahoma, arial, helvetica, sans serif' size=1>
-   $remote_host &ndash; $remote_address ($user_really) personality '<b>$me</b>'<br>
+$user_ID<br>
    <b>$runs</b> WEPP BIOMASS runs YTD
    <br><br>
     This project was supported by the Agriculture and Food Research Initiative,

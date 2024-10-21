@@ -6,7 +6,7 @@ use CGI qw(escapeHTML);
 use Scalar::Util 'looks_like_number';
 use MoscowFSL::FSWEPP::CligenUtils qw(CreateCligenFile GetParSummary GetParLatLong);
 use MoscowFSL::FSWEPP::FsWeppUtils
-  qw(CreateSlopeFile get_version printdate get_thisyear_and_thisweek);
+  qw(CreateSlopeFile get_version printdate get_thisyear_and_thisweek get_user_id);
 
 use String::Util qw(trim);
 
@@ -22,6 +22,8 @@ my $verbose = 0;
 my $weppversion = "wepp2010";
 
 my $version = get_version(__FILE__);
+my $user_ID = get_user_id();
+
 my ( $thisyear, $thisweek ) = get_thisyear_and_thisweek();
 
 print "Content-type: text/html\n\n";
@@ -49,7 +51,6 @@ $action =
   . escapeHTML( $cgi->param('actionv') )
   . escapeHTML( $cgi->param('actionw') )
   . escapeHTML( $cgi->param('ActionCD') );
-$me          = escapeHTML( $cgi->param('me') );
 $units       = escapeHTML( $cgi->param('units') );
 $achtung     = escapeHTML( $cgi->param('achtung') );
 $climyears   = escapeHTML( $cgi->param('climyears') );
@@ -2174,11 +2175,6 @@ close MYLOG;
 # #####
 #    record run to user IP run log
 
-$user_ID     = $ENV{'REMOTE_ADDR'};
-$user_really = $ENV{'HTTP_X_FORWARDED_FOR'};              # DEH 11/14/2003
-$user_ID     = $user_really if ( $user_really ne '' );    # DEH 11/14/2003
-$user_ID =~ tr/./_/;
-$user_ID    = $user_ID . $me;
 $runLogFile = "../working/" . $user_ID . ".run.log";
 
 ## open runLogFile for append // print // close #

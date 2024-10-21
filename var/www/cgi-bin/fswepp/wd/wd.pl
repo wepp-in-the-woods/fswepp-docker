@@ -7,7 +7,7 @@ use warnings;
 use MoscowFSL::FSWEPP::CligenUtils
   qw(CreateCligenFile GetParSummary GetAnnualPrecip GetParLatLong);
 use MoscowFSL::FSWEPP::FsWeppUtils
-  qw(CreateSlopeFile printdate get_version get_thisyear_and_thisweek CreateSoilFile);
+  qw(CreateSlopeFile printdate get_version get_thisyear_and_thisweek CreateSoilFile get_user_id);
 
 use String::Util qw(trim);
 
@@ -22,6 +22,7 @@ my $debug = 0;
 print "Content-type: text/html\n\n";
 
 my $version      = get_version(__FILE__);
+my $user_ID      = get_user_id();
 my ( $thisyear, $thisweek ) = get_thisyear_and_thisweek();
 
 #=========================================================================
@@ -47,7 +48,6 @@ my $action =
   . escapeHTML( $cgi->param('actionv') )
   . escapeHTML( $cgi->param('actionw') )
   . escapeHTML( $cgi->param('ActionCD') );
-my $me          = escapeHTML( $cgi->param('me') );
 my $units       = escapeHTML( $cgi->param('units') );
 my $achtung     = escapeHTML( $cgi->param('achtung') );
 my $climyears   = escapeHTML( $cgi->param('climyears') );
@@ -273,12 +273,6 @@ if ( lc($achtung) =~ /describe soil/ ) {    ##########
 
 ############################ start 2009.11.02 DEH
 
-$user_ID     = $ENV{'REMOTE_ADDR'};
-$user_really = $ENV{'HTTP_X_FORWARDED_FOR'};              # DEH 11/14/2003
-$user_ID     = $user_really if ( $user_really ne '' );    # DEH 11/14/2003
-$user_ID =~ tr/./_/;
-$user_ID    = $user_ID . $me;
-$user_ID_   = $user_ID;
 $runLogFile = "../working/" . $user_ID . ".run.log";
 
 ############################ end 2009.11.02 DEH

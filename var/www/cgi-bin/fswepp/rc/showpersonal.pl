@@ -10,7 +10,7 @@ use MoscowFSL::FSWEPP::CligenUtils qw(GetPersonalClimates);
 #  Science by Bill Elliot et alia                      Code by David Hall & Dayna Scheele
 #  19 October 1999
 
-my ( $action, $units, $comefrom, $me ) = map { chomp; $_ } @ARGV[ 0 .. 3 ];
+my ( $action, $units, $comefrom) = map { chomp; $_ } @ARGV[ 0 .. 3 ];
 my $version = get_version(__FILE__); 
 my $user_ID = get_user_id();
 
@@ -91,7 +91,6 @@ print '
       <input type="hidden" name="state" value="',    $custCli,  '">
       <input type="hidden" name="comefrom" value="', $comefrom, '">
       <input type="hidden" name="units" value="',    $units,    '">
-      <input type="hidden" name="me" value="',       $me,       '">
       <input type="hidden" name="startyear" value="1">
       ';
 

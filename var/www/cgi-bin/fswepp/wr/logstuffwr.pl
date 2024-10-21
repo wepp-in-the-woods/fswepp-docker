@@ -4,63 +4,13 @@ use warnings;
 use CGI;
 use CGI qw(escapeHTML);
 
+use MoscowFSL::FSWEPP::FsWeppUtils qw( get_user_id );
+
 #
 # logstuffwr.pl
 #
-# take form data from wr.pl and add it to WEPP:Road log
-#
-#  need to fix log create time stamp (4:02 pm reported as 16:2) **
 
-# 2003 Nov 14 DEH from logstuff.pl ("wr" to differentiate potential wd, we logs)
-#                 change log to ".wrlog" from ".log"
-#                 add $user_really (log created was wcio.../199_141_125_33.wrlog)
-# 2003 Oct 13 DEH Add traffic to surface field
-# 2001 Oct 24     Add rock fragment field
-#
-#  usage:
-#    <form name="wrlog" method="post" action="https://host/cgi-bin/fswepp/wr/logstuff.pl">
-#  parameters
-#    all:
-#      button			# 'Add to log' or 'Create new log'
-#      projectdescription	# project description
-#    for "Add to log"
-#      climate			# climate
-#      soil			# soil type
-#      rock                     # percentage of rock fragments
-#      surface			# road surface
-#      traffic                  # traffic level
-#      design			# road design
-#      years			# years
-#      road_grad		# road gradient
-#      road_length		# road length
-#      road_width		# road width
-#      fill_grad		# fill gradient
-#      fill_length		# fill length
-#      buff_grad		# buffer gradient
-#      buff_length		# buffer length
-#      precip			# precip amount
-#      rro			# rain run off
-#      sro			# snow run off
-#      syr			# sediment yield from road
-#      syp			# sediment yield from prism
-#      rundescription		# comments for run
-#      units			# units for run ("m" or "ft")
-#      me
-#  reads environment variables:
-#       HTTP_COOKIE
-#       REMOTE_ADDR
-#       REQUEST_METHOD
-#       QUERY_STRING
-#       CONTENT_LENGTH
-#  reads:
-#  writes
-#    $working\\wrwepp.log
-#  creates
-#    $working\\wrwepp.log	# for "Create" or ("Add"  if non-existent)
-
-#  FSWEPP, USDA Forest Service, Rocky Mountain Research Station, Soil & Water Engineering
-#  Science by Bill Elliot et alia                                      Code by David Hall
-#  19 October 1999
+my $user_ID = get_user_id();
 
 $cgi     = CGI->new;
 $button  = escapeHTML( $cgi->param('button') );
@@ -89,22 +39,6 @@ if ( $button eq "Add to log" ) {
     $units       = escapeHTML( $cgi->param('units') );
 }
 
-$cookie = $ENV{'HTTP_COOKIE'};
-$sep    = index( $cookie, "=" );
-$me     = "";
-if ( $sep > -1 ) { $me = substr( $cookie, $sep + 1, 1 ) }
-
-if ( $me ne "" ) {
-    $me = lc( substr( $me, 0, 1 ) );
-    $me =~ tr/a-z/ /c;
-}
-if ( $me eq " " ) { $me = "" }
-
-$user_ID     = $ENV{'REMOTE_ADDR'};
-$user_really = $ENV{'HTTP_X_FORWARDED_FOR'};              # DEH 11/14/2003
-$user_ID     = $user_really if ( $user_really ne '' );    # DEH 11/14/2003
-$user_ID =~ tr/./_/;
-$user_ID = $user_ID . $me;
 $logFile = "../working/" . $user_ID . ".wrlog";
 
 $host = $ENV{REMOTE_HOST};

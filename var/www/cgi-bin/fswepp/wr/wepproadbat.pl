@@ -359,20 +359,13 @@ print ' <body bgcolor="#eeddcc" link="#555555" vlink="#555555">
 ';
 
 $glo = $custCli . $user_ID . '*.par';
-if ($debug) {
-    print "Cookie $cookie -- ";
-    print "I am '$me'<br>
-     Units: $units<br>
-     User_ID: $user_ID<br>
-";
-}
 
 print '
    <hr>
 ';
 
 print '
-     <FORM name="wrbat" method=post ACTION="/cgi-bin/fswepp/wr/wrbat.pl">
+     <form name="wrbat" method=post ACTION="/cgi-bin/fswepp/wr/wrbat.pl">
         <a
           onMouseOver="window.status=\'Project title will be displayed on output log\';return true"
           onMouseOut="window.status=\'Forest Service WEPP:Road Batch\'">
@@ -387,7 +380,6 @@ if ( -e $logFile ) {
    <input type="submit" name="old_log" value="Display previous log">
   </a>'
 }
-print '    <input type="hidden" name="me" value="', $me, '">', "\n";
 print '    <input type="hidden" name="units" value="', $units, '">';
 print qq(
     <hr>
@@ -586,11 +578,9 @@ click 'Excel input template' to retrieve a spreadsheet with example data from wh
 
 print <<'theEnd';
 
-      <TEXTAREA name="spread" cols="100" rows="16"></TEXTAREA>
+      <textarea name="spread" cols="100" rows="16">ib n h 30 300 10 20 10 20 30 5</textarea>
       <br><br>
       <input type="submit" name="ActionW" value="check input">
-      <!-- input type="submit" name="ActionW" value="run this puppy" -->
-      <!-- input type="submit" name="ActionW" value="check input & run WEPP" -->
       <input type="hidden" name="climate_name">
    <br>
 <!-- submit was here -->
@@ -617,18 +607,12 @@ print '
       <a href="javascript:popuphistory()">', $version, '</a><br>
       USDA Forest Service Rocky Mountain Research Station<br>
       1221 South Main Street, Moscow, ID 83843<br>',
-"$remote_host &ndash; $remote_address ($user_really) personality '<b>$me</b>'<br>
+"$user_ID<br>
 <script>
-//  16,000 road segments modeled Jan 1 to Sept 1, 2010<br>
-//  18,739 road segments modeled in 2009<br>
-// 388,501 road segments modeled in 2008
 </script>
      </font>
-    </td>";
-
-print '>
+    </td>
    </tr>
   </table>
  </BODY>
-</HTML>
-';
+</HTML>";

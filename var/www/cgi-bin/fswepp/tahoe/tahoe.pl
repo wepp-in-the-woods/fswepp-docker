@@ -718,7 +718,6 @@ print '<BODY bgcolor="white"
     </table>
   <center>
   <form name="weppdist" method="post" ACTION="/cgi-bin/fswepp/tahoe/wt.pl">
-  <input type="hidden" size="1" name="me" value="',    $me,    '">
   <input type="hidden" size="1" name="units" value="', $units, '">
 <br>
  <table width=90% border=0 bgcolor="pink">
@@ -1134,8 +1133,8 @@ $wc    = `wc ../working/' . currentLogDir() . '/wt.log`;
 $runs  = @words[0];
 
 print
-"Internet host &ndash; address (forwarded) 'personality': $remote_host &ndash; $remote_address ($user_really) '<b>$me</b>'<br>
-  Log of FS WEPP runs for IP and personality <a href=\"/cgi-bin/fswepp/runlogger.pl\" target=\"_rl\">$remote_address$me</a><br>
+"$user_ID<br>
+  Log of FS WEPP runs for IP and personality <a href=\"/cgi-bin/fswepp/runlogger.pl\" target=\"_rl\">$user_ID</a><br>
   <b>$runs</b> Tahoe Basin Sediment Model runs YTD
  </body>
 </html>

@@ -12,7 +12,6 @@ $state    = escapeHTML( $cgi->param('state') );
 $units    = escapeHTML( $cgi->param('units') );
 $action   = escapeHTML( $cgi->param('action') );
 $comefrom = escapeHTML( $cgi->param('comefrom') );
-$me       = escapeHTML( $cgi->param('me') );
 
 # https://forest.moscowfsl.wsu.edu/cgi-bin/fswepp/rc/showclimates.pl?units=<script>document.cookie="testlfyg=5195;"</script>
 
@@ -21,7 +20,7 @@ $me       = escapeHTML( $cgi->param('me') );
 ################################
 
 if ( $state eq "personal" ) {
-    exec "../rc/showpersonal.pl $action $units $comefrom $me";
+    exec "../rc/showpersonal.pl $action $units $comefrom";
 }
 
 #########################################
@@ -117,7 +116,6 @@ if ( $states{$state} ) {
 <form method="post" name="RockClim" action="../rc/rockclim.pl">
 <input type="hidden" name="units" value="',    $units,    '">
 <input type="hidden" name="action" value="',   $action,   '">
-<input type="hidden" name="me" value="',       $me,       '">
 <input type="hidden" name="comefrom" value="', $comefrom, '">
 <input type="submit" name="submit" value="Retreat">
 </form> 

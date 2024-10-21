@@ -269,7 +269,6 @@ print <<'theEnd';
     <input type="submit" value="Display Climate Stations"> 
 theEnd
 print '
-      <input type="hidden" name="me" value="',       $me,       '">
       <input type="hidden" name="comefrom" value="', $comefrom, '">
       <input type="hidden" name="units" value="',    $units,    '">
       <input type="hidden" name="action" value="',   $action,   '">

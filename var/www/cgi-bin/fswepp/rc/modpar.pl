@@ -57,27 +57,6 @@ chomp $CL;
 
 my $user_ID = get_user_id();
 
-# DEH 03/05/2001
-$cookie = $ENV{'HTTP_COOKIE'};
-
-#  $sep = index ($cookie,"=");
-#  $me = "";
-#  if ($sep > -1) {$me = substr($cookie,$sep+1,1)}
-
-$sep = index( $cookie, "FSWEPPuser=" );
-$me  = "";
-if ( $sep > -1 ) { $me = substr( $cookie, $sep + 11, 1 ) }
-
-if ( $me ne "" ) {
-
-    #    $me = lc(substr($me,0,1));
-    #    $me =~ tr/a-z/ /c;
-    $me = substr( $me, 0, 1 );
-    $me =~ tr/a-zA-Z/ /c;
-}
-if ( $me eq " " ) { $me = "" }
-
-# DEH 03/05/2001
 
 $climateFile = $CL . '.par';
 open PAR, "<$climateFile";
@@ -863,7 +842,6 @@ print '">
     <input type="hidden" name="comefrom" value="',       $comefrom,       '">
     <input type="hidden" name="lathemisphere" value="',  $lathemisphere,  '">
     <input type="hidden" name="longhemisphere" value="', $longhemisphere, '">
-    <input type="hidden" name="me" value="',             $me,             '">
     <table border=1 bgcolor="white">
 <tr>';
 
@@ -993,7 +971,6 @@ if ( $state eq "personal" ) {
          <INPUT name=comefrom type=hidden value="', $comefrom, '">
          <INPUT name=state type=hidden value="',    $state,    '">
          <INPUT name=action type=hidden value="',   $action,   '">
-         <INPUT name=me type=hidden value="',       $me,       '">
          <input type="submit" value="Retreat">
          </form>';
     }
@@ -1004,7 +981,6 @@ if ( $state eq "personal" ) {
          <INPUT name=comefrom type=hidden value="', $comefrom, '">
          <INPUT name=state type=hidden value="',    $state,    '">
          <INPUT name=action type=hidden value="',   $action,   '">
-         <INPUT name=me type=hidden value="',       $me,       '">
          <input type="submit" value="Retreat">
          </form>';
     }
@@ -1030,7 +1006,7 @@ print '<BR>
 print "
   <font size=-2>
    <hr>
-   Personality '$me'<br>
+   '$user_ID'<br>
    <b>modpar</b> version $version
    (a part of <b>Rock:Clime</b>)<br>
    USDA Forest Service Rocky Mountain Research Station<br>

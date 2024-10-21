@@ -4,156 +4,21 @@ use warnings;
 use CGI;
 use CGI qw(escapeHTML);
 
-use MoscowFSL::FSWEPP::FsWeppUtils qw(get_version);
+use MoscowFSL::FSWEPP::CligenUtils qw(GetClimates);
+use MoscowFSL::FSWEPP::FsWeppUtils qw(get_version get_user_id get_units);
 
 #  wepproad.pl -- input screen for WEPP:Road
 
-## BEGIN HISTORY ###################################
-## WEPP:Road version history
-
 my $version = get_version(__FILE__);
+my $user_ID = get_user_id();
+my ($units, $areaunits) = get_units();
 
-# $version = '2014.09.05';  # Remove WEPP version 2000 compatibility option, update $runs to count 2014 runs
-# $version = '2012.10.30';	# Recode history popup
-# $version = '2012.10.29';	# Add help text and graphics
-# $version = '2011.12.22';	# Force WEPP 2010 executable
-# $version = '2009.09.17';	# Adjust FSWEPPuser personality
-# $version = "2009.02.23";	# Add option for WEPP version
-# $version = "2005.08.15";	# Add metadata to generated HTML page
-# $version = "2003.11.24";	# Restrict confirm of unrutted high traffic to native surface
-# $version = "2003.11.14";	# Add rock content field to log file; Add traffic level to surface field; Remove "extended output" option (now always available); Remove "paved" warning; Add "road surface" popup help; Add traffic level radio buttons for "low" and "no" traffic; Add "rock content" input (was 20% for buffer before); Display user IP for diagnostic purposes (enhanced); Display counter for number of runs; Move history report to popup window; Clean up type faces
-# $version = "2001.01.04";	# If no units specified (bookmarked), use "ft"
-# $version = "2000.09.21";	# Add paved surface button
+my $cgi = CGI->new;
 
-## END HISTORY ###################################
-
-#  2009.09.17 DEH Keep up with FSWEPPuser personality
-#  2009.02.23 DEH Add option for WEPP version
-#  2005.08.15 DEH Add metadata to generated HTML page
-#  2004.11.10 DEH Remove '||die' in collecting personal & standard climates
-#  2004.01.05 DEH Adjust run counter message
-#  2003.12.24 DEH move wrdev to wr and change internal pointers
-#  2003.11.24 DEH restrict confirm of unrutted high traffic to native surface
-#  2003.11.14 DEH .log to .wrlog to differentiate from old wr log and
-#                    from upcoming wd and we logs
-#                 logstuff.pl to logstuffwr.pl to ditto
-#  2003.10.15 DEH Display IP and run counter
-#  2003.10.14 DEH clean up fonts
-#  2001.01.25 DEH default units is 'ft' (bookmarked?)
-#  2001.03.05 DEH Filter climate names on $user_ID_ instead of $user_ID
-#		note: still globbed
-#  2000.09.21   Add paved button according to Hakjun Rhee instructions
-#               Add capability to read PUBLIC (!) climates
-#		added 10/24/2001 from "forest" version
-#  usage:
-#    action = "wepproad.pl"
-#  parameters:
-#    units:		# unit scheme (ft|m)
-#    me
-#  reads environment variables:
-#       HTTP_COOKIE
-#       REMOTE_ADDR
-#       REQUEST_METHOD
-#       QUERY_STRING
-#       CONTENT_LENGTH
-#  reads:
-#    ../climates/*.par	# standard climate parameter files
-#    $working/*.par	# personal climate parameter files
-#  calls:
-#    /cgi-bin/fswepp/wrd/wr.pl
-#    /cgi-bin/fswepp/wrd/logstuffwr.pl
-#  popup links:
-#    /fswepp/wr/wrwidths.html
-#    /fswepp/wr/rddesign.html
-#    /fswepp/wr/rockcont.html
-#    /fswepp/wr/traflevl.html
-#    /fswepp/wr/roadsurf.html
-#    /fswepp/wr/road.html		# 2012
-#    /fswepp/wr/fill.html		# 2012
-#    /fswepp/wr/buffer.html		# 2012
-#    /fswepp/wr/wepp2010.html		# 2012
-#    history
-
-#  FSWEPP, USDA Forest Service, Rocky Mountain Research Station, Soil & Water Engineering
-#  Science by Bill Elliot et alia                                      Code by David Hall
-
-#  05 December 2000 DEH  documentation to target "docs"
-#  18 May 2000 DEH personal climates for "" limited to "" no "a", "b"...
-#  19 October 1999
-
-$cgi = CGI->new;
-
-$units = escapeHTML( $cgi->param('units') );
-if ( $units eq '' ) { $units = 'ft' }    # DEH 01/05/2001
-
-$cookie = $ENV{'HTTP_COOKIE'};
-
-$sep = index( $cookie, "FSWEPPuser=" );
-$me  = "";
-if ( $sep > -1 ) { $me = substr( $cookie, $sep + 11, 1 ) }    # DEH 2009.09.17
-
-if ( $me ne "" ) {
-
-    #    $me = lc(substr($me,0,1));
-    #    $me =~ tr/a-z/ /c;
-    $me = substr( $me, 0, 1 );
-    $me =~ tr/a-zA-Z/ /c;
-}
-if ( $me eq " " ) { $me = "" }
-
-$public      = $working . 'public/';                      # DEH 03/06/2001
-$user_ID     = $ENV{'REMOTE_ADDR'};
-$user_really = $ENV{'HTTP_X_FORWARDED_FOR'};              # DEH 10/15/2003
-$user_ID     = $user_really if ( $user_really ne '' );    # DEH 10/15/2002
-$user_ID =~ tr/./_/;
-$user_ID  = $user_ID . $me;
-$user_ID_ = $user_ID . '_';                               # DEH 03/05/2001
 $logFile  = '../working/' . $user_ID . '.wrlog';
-$cliDir   = '../climates/';
 $custCli  = '../working/' . $user_ID . '_';               # DEH 05/18/2000
 
-##########################################
-
-### get personal climates, if any
-
-#    $user_ID=$ENV{'REMOTE_ADDR'};
-#    $user_ID =~ tr/./_/;
-
-$num_cli = 0;
-
-#   @fileNames = glob($custCli . $user_ID . '*.par');
-@fileNames = glob( $custCli . '*.par' );
-for $f (@fileNames) {
-
-    #     open(M,"<$f") || die;              # par file
-    if ( open( M, "<$f" ) ) {    # par file 2004.11.10 DEH
-        $station = <M>;
-        close(M);
-        $climate_file[$num_cli] = substr( $f, 0, length($f) - 4 );
-        $clim_name = '*' . substr( $station, index( $station, ":" ) + 2, 40 );
-        $clim_name =~ s/^\s*(.*?)\s*$/$1/;
-        $climate_name[$num_cli] = $clim_name;
-        $num_cli += 1;
-    }                            # 2004.11.10 DEH
-}
-
-### get standard climates
-
-while (<../climates/*.par>) {
-    $f = $_;
-
-    #      open(M,$f) || die;		# 2004.11.10 DEH
-    if ( open( M, $f ) ) {       # 2004.11.10 DEH
-        $station = <M>;
-        close(M);
-        $climate_file[$num_cli] = substr( $f, 0, length($f) - 4 );
-        $clim_name = substr( $station, index( $station, ":" ) + 2, 40 );
-        $clim_name =~ s/^\s*(.*?)\s*$/$1/;
-        $climate_name[$num_cli] = $clim_name;
-        $num_cli += 1;
-    }                            # 2004.11.10 DEH
-}
-$num_cli -= 1;
+my @climates = GetClimates($user_ID);
 
 ##########################################
 
@@ -483,14 +348,11 @@ print '<BODY bgcolor="white" link="#555555" vlink="#555555">
 
 <CENTER>', "\n";
 $glo = $custCli . $user_ID . '*.par';
-if ($debug) {
-    print "I am '$me' with units $units\nUser_ID: $user_ID<p>$glo<p>";
-}
+
 print "  <br clear=all>\n";
 print
 '  <FORM name="wepproad" method=post onSubmit="return validate()" ACTION="wr.pl">';
 print "\n";
-print '      <input type="hidden" name="me" value="', $me, '">';
 
 #print '      <input type="hidden" name=units" value="',$units,'">';
 print qq(
@@ -514,82 +376,12 @@ print qq(
   <SELECT NAME="Climate" id="Climate" SIZE="5">
 );
 
-# ##################################################################
-
-#    $user_ID=$ENV{'REMOTE_ADDR'};
-#    $user_ID =~ tr/./_/;
-
-$num_cli = 0;
-### get published climates, if any                      # DEH 03/06/2001
-
-opendir PUBLICDIR, $public;
-@allpfiles = readdir PUBLICDIR;
-close PUBLICDIR;
-
-for $f (@allpfiles) {
-    if ( substr( $f, -4 ) eq '.par' ) {
-        $f = $public . $f;
-        open( M, "<$f" ) || goto v_skip;
-        $station = <M>;
-        close(M);
-        $climate_file[$num_cli] = substr( $f, 0, -4 );
-        $clim_name = '- ' . substr( $station, index( $station, ":" ) + 2, 40 );
-        $clim_name =~ s/^\s*(.*?)\s*$/$1/;
-        $climate_name[$num_cli] = $clim_name;
-        $num_cli += 1;
-      v_skip:
-    }
+foreach my $ii ( 0 .. $#climates ) {
+    print '<OPTION VALUE="', $climates[$ii]->{'clim_file'}, '"';
+    print ' selected' if $ii == 0;
+    print '> ', $climates[$ii]->{'clim_name'}, "\n";
 }
 
-### get personal climates
-
-$num_cli = 0;
-
-#   @fileNames = glob($custCli . $user_ID . '*.par');
-@fileNames = glob( $custCli . '*.par' );
-for $f (@fileNames) {
-    open( M, "<$f" ) || die;    # par file
-    $station = <M>;
-    close(M);
-    $climate_file[$num_cli] = substr( $f, 0, length($f) - 4 );
-    $clim_name = '*' . substr( $station, index( $station, ":" ) + 2, 40 );
-    $clim_name =~ s/^\s*(.*?)\s*$/$1/;
-    $climate_name[$num_cli] = $clim_name;
-    $num_cli += 1;
-}
-
-### get standard climates
-
-while (<../climates/*.par>) {
-    $f = $_;
-    open( M, $f ) || die;
-    $station = <M>;
-    close(M);
-    $climate_file[$num_cli] = substr( $f, 0, length($f) - 4 );
-    $clim_name = substr( $station, index( $station, ":" ) + 2, 40 );
-    $clim_name =~ s/^\s*(.*?)\s*$/$1/;
-    $climate_name[$num_cli] = $clim_name;
-    $num_cli += 1;
-}
-$num_cli -= 1;
-
-#    $user_ID=$ENV{'REMOTE_ADDR'};
-#    $user_ID =~ tr/./_/;
-#    $fileName = "../rc/working/" . $user_ID;
-#    $fileNameE = $fileName . ".cli";
-
-if ( $num_cli > 0 ) {
-    print '    <OPTION VALUE="';
-    print $climate_file[0];
-    print '" selected> ' . $climate_name[0] . "\n";
-}
-for $ii ( 1 .. $num_cli ) {
-    print '    <OPTION VALUE="';
-    print $climate_file[$ii];
-    print '"> ' . $climate_name[$ii] . "\n";
-}
-
-#################
 print <<'theEnd';
   </SELECT>
   <td>
@@ -765,19 +557,13 @@ print '  </FORM>
       <a href="https://github.com/wepp-in-the-woods/fswepp-docker/commits/main/var/www/cgi-bin/fswepp/wr/wepproad.pl">', $version, '</a><br>
       USDA Forest Service Rocky Mountain Research Station<br>
       1221 South Main Street, Moscow, ID 83843<br>',
-"$remote_host &ndash; $remote_address ($user_really) personality '<b>$me</b>'<br>
-      Log of FS WEPP runs for IP and personality <a href=\"/cgi-bin/fswepp/runlogger.pl\" target=\"_rl\">$remote_address$me</a><br>
+"$user_ID<br>
+      Log of FS WEPP runs for IP and personality <a href=\"/cgi-bin/fswepp/runlogger.pl\" target=\"_rl\">$user_ID</a><br>
       <b>$runs</b> WEPP:Road runs YTD
      </font>
-    </td>
-    <td>
-     <a href=\"/fswepp/comments.html\" 
-";
-print '> 
-     <img src="/fswepp/images/epaemail.gif" align="right" border=0></a>
     </td>
    </tr>
   </table>
  </BODY>
 </HTML>
-';
+";

@@ -4,7 +4,7 @@ use warnings;
 use CGI;
 use CGI qw(escapeHTML);
 use MoscowFSL::FSWEPP::CligenUtils qw(CreateCligenFile GetParSummary GetParLatLong);
-use MoscowFSL::FSWEPP::FsWeppUtils qw(get_version get_thisyear_and_thisweek);
+use MoscowFSL::FSWEPP::FsWeppUtils qw(get_version get_thisyear_and_thisweek get_user_id);
 use String::Util qw(trim);
 
 #
@@ -20,7 +20,7 @@ my $debug       = 0;           # DEH 2014-02-07 over-ride command-line
 my $weppversion = "wepp2010"; # 2014.02.07 DEH 2000 or 2010; WEPP 2010 needs frost.txt file in ERMiT directory to give 'correct' results
 
 my $version = get_version(__FILE__);
-
+my $user_ID = get_user_id();
 #=========================================================================
 
 my ( $thisyear, $thisweek ) = get_thisyear_and_thisweek();
@@ -90,11 +90,6 @@ $rfg = 05 if ( $rfg < 05 );
 $rfg = 85 if ( $rfg > 85 );
 
 $working     = '../working';
-$user_ID     = $ENV{'REMOTE_ADDR'};
-$user_really = $ENV{'HTTP_X_FORWARDED_FOR'};
-$user_ID     = $user_really if ( $user_really ne '' );
-$user_ID =~ tr/./_/;
-$user_ID    = $user_ID . $me;
 $runLogFile = "../working/" . $user_ID . ".run.log";
 $div        = '/';
 
@@ -336,7 +331,7 @@ if ($verbose) {
    <pre>
     ERMiT version $version
     WEPP version $weppversion requested
-    I am $me
+    I am $user_ID
     units = $units
     climate file = $CL
     climate_name = $climate_name

@@ -7,41 +7,14 @@ use String::Util qw(trim);
 
 use MoscowFSL::FSWEPP::CligenUtils qw(CreateCligenFile GetParSummary GetAnnualPrecip GetParLatLong GetStationName);
 use MoscowFSL::FSWEPP::FsWeppUtils
-  qw(CreateSlopeFile CreateSlopeFileWeppRoad printdate CreateSoilFile get_thisyear_and_thisweek get_version);
+  qw(CreateSlopeFile CreateSlopeFileWeppRoad printdate CreateSoilFile get_thisyear_and_thisweek get_version get_user_id);
 
 my $debug = 0;
 
 #  wb.pl -- BIOMASS workhorse
-#  Modified by HR from fume2.pl 2013.03.01
 
-## BEGIN HISTORY ##############################
-# WEPP BIOMASS Results history
-
-$version = get_version(__FILE__);
-
-#  $version = '2015.05.27';    # Unlink temporary and WEPP output files when done
-#  $version = '2015.05.06';	# Run WEPP 2010.100 and update roads soil data
-#  $version = '2014.02.22';	# Add new calculations A through F
-#  $version = '2014.02.21';
-#  $version = '2013.09.27';	# "Thinning" to "Harvest" etc.
-#  $version = '2013.03.01';     # Modified from FuME
-## END HISTORY ##############################
-
-# Reads user input from biomass.pl
-#   runs Disturbed WEPP (4 runs) (plus some more)
-#   runs WEPP:Road (3 times)
-#   parses output files
-# English units only at present
-
-# Writes:
-#   ../working/_[year]/wb.log
-
-# to do: Road network will add...
-#	unlink working files
-
-# David Hall and Hakjun Rhee, USDA Forest Service, Rocky Mountain Research Station, Moscow, ID
-
-#=========================================================================
+my $version = get_version(__FILE__);
+my $user_ID = get_user_id();
 
 my @out_asypa;
 
@@ -124,11 +97,6 @@ else                     { $units     = 'ft'; $areaunits = 'ac' }    #kova
 
 ############################ start 2010.01.20 DEH
 
-$user_ID     = $ENV{'REMOTE_ADDR'};
-$user_really = $ENV{'HTTP_X_FORWARDED_FOR'};              # DEH 11/14/2003
-$user_ID     = $user_really if ( $user_really ne '' );    # DEH 11/14/2003
-$user_ID =~ tr/./_/;
-$user_ID    = $user_ID . $me;
 $runLogFile = "../working/" . $user_ID . ".run.log";
 
 ############################ end 2010.01.20 DEH
@@ -902,7 +870,6 @@ for ( $i = 0 ; $i < $#intreat1 + 1 ; $i++ ) {    # 2004.11.19 DEH
    <input type='hidden' name='ofe2_pcover' value='$ofe2_pcover'>
    <input type='hidden' name='ofe2_rock' value='$ofe2_rock'>
    <input type='hidden' name='actionc' value=''>
-   <input type='hidden' name='me' value='$me'>
    <input type='hidden' name='units' value='ft'>
    <input type='hidden' name='achtung' value=''>
    <input type='hidden' name='climyears' value='$years2sim'>
@@ -1140,7 +1107,6 @@ if ($doroad) {
       </font>
 <!-- =================== -->
   <form method='post' action='/cgi-bin/fswepp/wr/wr.pl'>
-   <input type='hidden' name='me' value='$me'>
    <input type='hidden' name='units' value='ft'>
    <input type='hidden' name='Climate' value='$CLx'>
    <input type='hidden' name='SoilType' value='$soil'>
