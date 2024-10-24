@@ -66,6 +66,7 @@ RUN cpanm Template
 RUN cpanm JSON
 RUN cpanm File::Slurp
 RUN cpanm YAML::XS
+RUN cpanm DBD::SQLite
 
 ENV PERL5LIB=/etc/perl/MoscowFSL:$PERL5LIB
 
