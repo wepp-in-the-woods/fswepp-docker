@@ -583,7 +583,6 @@ print <<'theEnd';
       <input type="submit" name="ActionW" value="check input">
       <input type="hidden" name="climate_name">
    <br>
-<!-- submit was here -->
    <p>
    <hr>
   </form>
