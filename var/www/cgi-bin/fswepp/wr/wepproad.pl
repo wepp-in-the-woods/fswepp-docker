@@ -1,6 +1,8 @@
 #!/usr/bin/perl
 
 use warnings;
+use strict;
+
 use CGI;
 use CGI qw(escapeHTML);
 
@@ -11,12 +13,12 @@ use MoscowFSL::FSWEPP::FsWeppUtils qw(get_version get_user_id get_units);
 
 my $version = get_version(__FILE__);
 my $user_ID = get_user_id();
-my ($units, $areaunits) = get_units();
+my ( $units, $areaunits ) = get_units();
 
 my $cgi = CGI->new;
 
-$logFile  = '../working/' . $user_ID . '.wrlog';
-$custCli  = '../working/' . $user_ID . '_';               # DEH 05/18/2000
+my $logFile = '../working/' . $user_ID . '.wrlog';
+my $custCli = '../working/' . $user_ID . '_';
 
 my @climates = GetClimates($user_ID);
 
@@ -56,7 +58,6 @@ function validate() {
   }
   else {
     document.wepproad.ActionW.value="Running...";
-    document.wepproad.achtung.value="Run WEPP";
     return true
   }
 }
@@ -66,6 +67,36 @@ function validate() {
 ';
 
 # TODO: use the same variable names as wr.pl and load the min, max, and default values from a common source
+
+my $RLmin  = 3;
+my $RLdef  = 200;
+my $RLmax  = 1000;
+my $RLunit = 'ft';
+my $RSmin  = 0.3;
+my $RSdef  = 4;
+my $RSmax  = 40;
+my $RSunit = '%';
+my $RWmin  = 1;
+my $RWdef  = 13;
+my $RWmax  = 300;
+my $RWunit = 'ft';
+my $FLmin  = 1;
+my $FLdef  = 15;
+my $FLmax  = 1000;
+my $FLunit = 'ft';
+my $FSmin  = 0.3;
+my $FSdef  = 50;
+my $FSmax  = 150;
+my $FSunit = '%';
+my $BLmin  = 1;
+my $BLdef  = 130;
+my $BLmax  = 1000;
+my $BLunit = 'ft';
+my $BSmin  = 0.3;
+my $BSdef  = 25;
+my $BSmax  = 100;
+my $BSunit = '%';
+
 if ( $units eq "m" ) {
     $RLmin  = 1;
     $RLdef  = 60;
@@ -96,37 +127,6 @@ if ( $units eq "m" ) {
     $BSmax  = 100;
     $BSunit = '%';
 }
-else {
-    $RLmin  = 3;
-    $RLdef  = 200;
-    $RLmax  = 1000;
-    $RLunit = 'ft';
-    $RSmin  = 0.3;
-    $RSdef  = 4;
-    $RSmax  = 40;
-    $RSunit = '%';
-    $RWmin  = 1;
-    $RWdef  = 13;
-    $RWmax  = 300;
-    $RWunit = 'ft';
-    $FLmin  = 1;
-    $FLdef  = 15;
-    $FLmax  = 1000;
-    $FLunit = 'ft';    #  29685 Jan  3  2007 wepproad.pl   was 300 max
-
-    $FSmin  = 0.3;
-    $FSdef  = 50;
-    $FSmax  = 150;
-    $FSunit = '%';
-    $BLmin  = 1;
-    $BLdef  = 130;
-    $BLmax  = 1000;
-    $BLunit = 'ft';
-    $BSmin  = 0.3;
-    $BSdef  = 25;
-    $BSmax  = 100;
-    $BSunit = '%';
-}
 print "
   RSmin=$RSmin; RSdef=$RSdef; RSmax=$RSmax; RSunit='$RSunit'
   RLmin=$RLmin; RLdef=$RLdef; RLmax=$RLmax; RLunit='$RLunit'
@@ -141,12 +141,6 @@ print <<'theEnd';
   var minyear = 1
   var maxyear = 200
   var defyear = 30
-
-  function submitme(which) {
-    document.forms.wepproad.achtung.value=which
-    document.forms.wepproad.submit()
-    return true
-  }
 
   function isNumber(inputVal) {
   // Determine whether a suspected numeric input
@@ -333,14 +327,12 @@ print '<BODY bgcolor="white" link="#555555" vlink="#555555">
     </table>
 
 <CENTER>', "\n";
-$glo = $custCli . $user_ID . '*.par';
 
 print "  <br clear=all>\n";
 print
 '  <FORM name="wepproad" method=post onSubmit="return validate()" ACTION="wr.pl">';
 print "\n";
 
-#print '      <input type="hidden" name=units" value="',$units,'">';
 print qq(
   <TABLE border="1">
    <TR align="top">
@@ -389,7 +381,6 @@ print <<'theEnd';
 
   <tr>
    <td align=center>
-    <input type="hidden" name="achtung" value="Run WEPP">
     <button type="button" onclick="window.location.href='/cgi-bin/fswepp/rc/rockclim.pl?comefrom=road&units=$units'">Custom Climate</button>
     <input type="button" value="Closest Wx" onclick="javascript:popupclosest()">
 
@@ -454,10 +445,6 @@ print '
         onFocus="showRange(this.form,\'Fill length: \',FLmin, FLmax, FLunit)"
         onBlur="blankStatus()">
     </td>
-<!--    <TD><INPUT NAME="FW" TYPE="TEXT" SIZE="5" VALUE="', $FWdef, '"
-        onChange="checkRange(FW,\'fill width\',FWmin, FWmax, FWdef,FWunit)"
-        onFocus="showWidthHelp(this.form,\'Fill width: \',FWmin, FWmax, FWunit)"
-        onBlur="blankStatus()">  -->
 <TR><TH bgcolor="#85D2D2"><a href="JavaScript:popup(\'buffer\')">Buffer</a>
     <TD><INPUT NAME="BS" TYPE="TEXT" SIZE="5" VALUE="', $BSdef, '"
         onChange="checkRange(BS,\'buffer gradient\',BSmin, BSmax, BSdef, BSunit)"
@@ -469,13 +456,6 @@ print '
         onFocus="showRange(this.form,\'Buffer length: \',BLmin, BLmax, BLunit)"
         onBlur="blankStatus()">
     </td>
-<!--
-    <TD><INPUT NAME="BW" TYPE="TEXT" SIZE="5" VALUE="', $BWdef, '"
-        onChange="checkRange(BW,\'road width\',BWmin, BWmax, BWdef,BWunit)"
-        onFocus="showWidthHelp(this.form,\'Buffer width: \',BWmin, BWmax, BWunit)"
-        onBlur="blankStatus()">  
-    </td>
--->
 ';
 print <<'theEnd';
     </TD>
@@ -523,9 +503,9 @@ if ( -e $logFile ) {
     print '  <input type="submit" name="button" value="Display log">';
 }
 
-$wc    = `wc ../working/' . currentLogDir() . '/wr.log`;
-@words = split " ", $wc;
-$runs  = @words[0];
+my $wc    = `wc ../working/' . currentLogDir() . '/wr.log`;
+my @words = split " ", $wc;
+my $runs  = @words[0];
 
 print '  </FORM>
   </center>
@@ -537,10 +517,10 @@ print '  </FORM>
      <font face="Arial, Geneva, Helvetica" size=-2>
       WEPP:Road input screen version
       <!--a href="/fswepp/history/wrver.html"-->
-      <a href="https://github.com/wepp-in-the-woods/fswepp-docker/commits/main/var/www/cgi-bin/fswepp/wr/wepproad.pl">', $version, '</a><br>
+      <a href="https://github.com/wepp-in-the-woods/fswepp-docker/commits/main/var/www/cgi-bin/fswepp/wr/wepproad.pl">',
+  $version, '</a><br>
       USDA Forest Service Rocky Mountain Research Station<br>
-      1221 South Main Street, Moscow, ID 83843<br>',
-"$user_ID<br>
+      1221 South Main Street, Moscow, ID 83843<br>', "$user_ID<br>
       Log of FS WEPP runs for IP and personality <a href=\"/cgi-bin/fswepp/runlogger.pl\" target=\"_rl\">$user_ID</a><br>
       <b>$runs</b> WEPP:Road runs YTD
      </font>

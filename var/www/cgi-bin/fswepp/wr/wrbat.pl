@@ -5,7 +5,7 @@ use CGI;
 use CGI qw(escapeHTML header);
 use MoscowFSL::FSWEPP::CligenUtils qw(CreateCligenFile GetParSummary GetStationName);
 use MoscowFSL::FSWEPP::FsWeppUtils qw(printdate get_version get_thisyear_and_thisweek get_user_id );
-use MoscowFSL::FSWEPP::WeppRoad qw(CreateSlopeFileWeppRoad);
+use MoscowFSL::FSWEPP::WeppRoad qw(CreateSlopeFileWeppRoad CreateSoilFileWeppRoad CheckInputWeppRoad GetSoilFileTemplate);
 use POSIX qw(strftime);
 
 # wrbat.pl

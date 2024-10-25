@@ -15,7 +15,42 @@ use POSIX qw(strftime);
 use Time::Local;
 
 our @EXPORT_OK =
-  qw(commify printdate CreateSlopeFile CreateSoilFile get_version get_thisyear_and_thisweek get_user_id get_units get_current_url);
+  qw(commify printdate CreateSlopeFile CreateSoilFile 
+     get_version get_thisyear_and_thisweek get_user_id get_units get_current_url
+     LogUserRun);
+
+sub LogUserRun {
+
+    my ($model, $runLogFile, $climate_name, $unique, @data) = @_;
+
+    $climate_name = trim($climate_name);
+
+    my @months =
+      qw(January February March April May June July August September October November December);
+    my @days    = qw(Sunday Monday Tuesday Wednesday Thursday Friday Saturday);
+    my @ampm = ("am", "pm");
+
+    my ( $sec, $min, $hour, $mday, $mon, $year, $wday, $yday, $isdst ) = localtime;
+    
+    my $ispm = 0;
+    if ( $hour == 12 ) { $ispm = 1 }
+    if ( $hour > 12 )  { $ispm = 1; $hour =- 12 }
+    my $gregorian_year  = $year + 1900;
+
+    open RUNLOG, ">>$runLogFile";
+    flock( RUNLOG, 2 );
+    print RUNLOG "$model\t$unique\t\"";
+    print RUNLOG sprintf("%02d:%02d ", $hour, $min);
+    print RUNLOG "$ampm[$ispm] $days[$wday] $months[$mon] $mday, $gregorian_year\"\t\"";
+    print RUNLOG "$climate_name\"\t";
+
+    foreach my $value (@data) {
+        print RUNLOG "$value\t";
+    }
+    print RUNLOG "\n";
+
+    close RUNLOG;
+}
 
 sub get_current_url {
     my $cgi          = CGI->new;
@@ -41,6 +76,7 @@ sub get_units {
 }
 
 sub get_user_id {
+
     # DEH was using passing ip and me values as form parameters.
     # It's just double bookkeeping to do it that way...
 
@@ -54,7 +90,7 @@ sub get_user_id {
     }
     if ( $me eq " " ) { $me = "" }
 
-    my $user_ID = $ENV{'REMOTE_ADDR'} // '';
+    my $user_ID     = $ENV{'REMOTE_ADDR'}          // '';
     my $remote_host = $ENV{'REMOTE_HOST'}          // '';
     my $user_really = $ENV{'HTTP_X_FORWARDED_FOR'} // '';
 

@@ -2244,6 +2244,7 @@ print "
 
 ################################# start 2010.01.20 DEH   record run in user wepp run log file
 
+# TODO: refactor this to use a subroutine that takes an array of values to write to the log file
 $climate_trim = trim($climatename);
 
 open RUNLOG, ">>$runLogFile";
