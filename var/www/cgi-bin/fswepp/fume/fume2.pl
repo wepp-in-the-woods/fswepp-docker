@@ -7,8 +7,8 @@ use CGI qw(escapeHTML);
 use MoscowFSL::FSWEPP::CligenUtils
   qw(CreateCligenFile GetParSummary GetAnnualPrecip GetParLatLong GetStationName);
 use MoscowFSL::FSWEPP::FsWeppUtils
-  qw(CreateSlopeFile CreateSlopeFileWeppRoad printdate get_version get_thisyear_and_thisweek get_user_id);
-
+  qw(CreateSlopeFile  printdate get_version get_thisyear_and_thisweek get_user_id);
+use MoscowFSL::FSWEPP::WeppRoad qw(CreateSlopeFileWeppRoad);
 use String::Util qw(trim);
 
 #  fume2.pl -- FuME workhorse
@@ -2834,7 +2834,7 @@ sub wrdt {
         # print "Surface $i: $surface<br>\n";
 
         $zzsoil  = &CreateSoilFilewr;
-        $zzslope = &CreateSlopeFileWeppRoad(
+        ($zzslope, $WeppRoadSlope, $WeppRoadWidth, $WeppRoadLength) = &CreateSlopeFileWeppRoad(
             $URS, $UFS,   $UBS,   $URW,       $URL, $UFL,
             $UBL, $units, $slope, $slopeFile, $debug
         );

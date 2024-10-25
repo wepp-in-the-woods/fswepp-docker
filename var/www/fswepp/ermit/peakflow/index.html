@@ -2,17 +2,14 @@
  <head>
   <title>FS Peak Flow Calculator -- Estimated peak flow for burned areas using Curve Number technology</title>
   <style type="text/css">
-   <!--
     P.Reference {
         margin-top:0pt;
         margin-left:.3in;
         text-indent:-.3in;
     }
-   -->
   </style>
   <script language="JavaScript" type="TEXT/JAVASCRIPT">
-   <!--
-
+  
 //
 // Peak flow using Curve Number technology
 // USDA Forest Service, Rocky Mountain Research Station, Moscow, ID
@@ -20,16 +17,18 @@
 //
 
 version = '2015.04.05';
+
+// ToFixed is now stanard to Javascript so the fixed variable could be removed and all the if (fixed) statements could be removed
 fixed = false
 dummy=1
-if (dummy.toFixed) {fixed=true}
-// if (fixed) {alert('true')}
+if (dummy.toFixed) {fixed=true} 
+
 winHeight=640
 winWidth=1280
 h_padding=0;
 v_padding=0;
 
-function arg( name ) {		// https://www.netlobo.com/url_query_string_javascript.html
+function arg( name ) {
   name = name.replace(/[\[]/,"\\\[").replace(/[\]]/,"\\\]");
   var regexS = "[\\?&]"+name+"=([^&#]*)";
   var regex = new RegExp( regexS );
@@ -166,7 +165,6 @@ function Calculate_SI() {
      document.PeakFlow.h_.value=h
    }
    document.PeakFlow.Sg_.value = document.PeakFlow.Sg.value
-//   document.PeakFlow.h_.value =  document.PeakFlow.h.value
    document.PeakFlow.Tc_.value = document.PeakFlow.Tc.value
    document.PeakFlow.CN_.value = document.PeakFlow.CN.value
    document.PeakFlow.Fp_.value = document.PeakFlow.Fp.value
@@ -178,7 +176,6 @@ function Calculate_SI() {
    Estimate_qu()
    Calc_q()
    Calc_D()
-//   Calc_h()
 
    //transfer SI results to US values
 
@@ -198,9 +195,7 @@ function Calculate_SI() {
    document.PeakFlow.IaOnP_.value = document.PeakFlow.IaOnP.value
    var qu = document.PeakFlow.qu.value
    if (isNumber(qu)) {
-// alert (qu);
      qu = qu * 35.31 / 2.471 / 25.4		// 1 m^3 per 35.31 ft^3, 1 ha per 2.471 ac, 25.4 mm per in
-// alert (qu);
      if (fixed) qu=qu.toFixed(4)
      document.PeakFlow.qu_.value=qu
    }
@@ -252,7 +247,6 @@ function Calculate_US() {
      document.PeakFlow.h.value=h_
    }
    document.PeakFlow.Sg.value = document.PeakFlow.Sg_.value
-//   document.PeakFlow.h.value  = document.PeakFlow.h_.value
    document.PeakFlow.Tc.value = document.PeakFlow.Tc_.value
    document.PeakFlow.CN.value = document.PeakFlow.CN_.value
    document.PeakFlow.Fp.value = document.PeakFlow.Fp_.value
@@ -264,7 +258,6 @@ function Calculate_US() {
    Estimate_qu()
    Calc_q()
    Calc_D()
-//   Calc_h()
 
    //transfer SI results to US values
 
@@ -284,7 +277,6 @@ function Calculate_US() {
    document.PeakFlow.IaOnP_.value = document.PeakFlow.IaOnP.value
    var qu = document.PeakFlow.qu.value
    if (isNumber(qu)) {
-   // alert (qu)
      qu = qu * 35.31 / 2.471 / 25.4		// 1 m^3 per 35.31 ft^3, 1 ha per 2.471 ac, 25.4 mm per in 
      if (fixed) qu=qu.toFixed(4)
      document.PeakFlow.qu_.value=qu
@@ -402,7 +394,6 @@ function Estimate_qu() {			// From figure 5.4
   if (isNumber(tc) && isNumber(iap)) {
     if (tc < .1) {qu=''}
     else if (tc <= .2) {
-//      if (iap < .10) {}
       if (iap <= .30) {qu=twodinterp(iap,tc,.10,.30,.1,.2,4.60,4.10,3.44,3.00)}
       else if (iap <= .35) {qu=twodinterp(iap,tc,.30,.35,.1,.2,4.10,3.80,3.00,2.28)}
       else if (iap <= .40) {qu=twodinterp(iap,tc,.35,.40,.1,.2,3.80,3.50,2.28,2.47)}
@@ -411,7 +402,6 @@ function Estimate_qu() {			// From figure 5.4
       else {qu=twodinterp(iap,tc,.45,.50,.1,.2,3.00,2.28,2.90,1.60)}
     }
     else if (tc <= .4) {
-//      if (iap < .10) {qu=''}
       if (iap <= .30) {qu=twodinterp(iap,tc,.10,.30,.2,.4,3.44,3.00,2.55,2.10)}
       else if (iap <= .35) {qu=twodinterp(iap,tc,.30,.35,.2,.4,3.00,2.82,2.10,1.88)}
       else if (iap <= .40) {qu=twodinterp(iap,tc,.35,.40,.2,.4,2.82,2.47,1.88,1.70)}
@@ -420,7 +410,6 @@ function Estimate_qu() {			// From figure 5.4
       else {qu=twodinterp(iap,tc,.45,.50,.2,.4,2.90,1.60,1.42,1.15)}
     }
     else if (tc <= .6) {
-//      if (iap < .10) {qu=''}
       if (iap <= .30) {qu=twodinterp(iap,tc,.10,.30,.4,.6,2.55,2.10,1.95,1.67)}
       else if (iap <= .35) {qu=twodinterp(iap,tc,.30,.35,.4,.6,2.10,1.88,1.67,1.51)}
       else if (iap <= .40) {qu=twodinterp(iap,tc,.35,.40,.4,.6,1.88,1.70,1.51,1.38)}
@@ -429,7 +418,6 @@ function Estimate_qu() {			// From figure 5.4
       else {qu=twodinterp(iap,tc,.45,.50,.4,.6,1.42,1.15,1.15,0.95)}
     }
     else if (tc <= .8) {
-//      if (iap < .10) {qu=''}
       if (iap <= .30) {qu=twodinterp(iap,tc,.10,.30,.6,.8,1.95,1.67,1.70,1.49)}
       else if (iap <= .35) {qu=twodinterp(iap,tc,.30,.35,.6,.8,1.67,1.51,1.49,1.33)}
       else if (iap <= .40) {qu=twodinterp(iap,tc,.35,.40,.6,.8,1.51,1.38,1.33,1.19)}
@@ -438,7 +426,6 @@ function Estimate_qu() {			// From figure 5.4
       else {qu=twodinterp(iap,tc,.45,.50,.6,.8,1.15,0.95,0.98,0.79)}
     }
     else if (tc <= 1) {
-//      if (iap < .10) {qu=''}
       if (iap <= .30) {qu=twodinterp(iap,tc,.10,.30,.8,1,1.70,1.49,1.50,1.35)}
       else if (iap <= .35) {qu=twodinterp(iap,tc,.30,.35,.8,1,1.49,1.33,1.35,1.20)}
       else if (iap <= .40) {qu=twodinterp(iap,tc,.35,.40,.8,1,1.33,1.19,1.20,1.03)}
@@ -447,7 +434,6 @@ function Estimate_qu() {			// From figure 5.4
       else {qu=twodinterp(iap,tc,.45,.50,.8,1,0.98,0.79,0.88,0.70)}
     }
     else if (tc <= 2) {
-//      if (iap < .10) {qu=''}
       if (iap <= .30) {qu=twodinterp(iap,tc,.10,.30,1,2,1.50,1.35,1.00,0.80)}
       else if (iap <= .35) {qu=twodinterp(iap,tc,.30,.35,1,2,1.35,1.20,0.80,0.75)}
       else if (iap <= .40) {qu=twodinterp(iap,tc,.35,.40,1,2,1.20,1.03,0.75,0.66)}
@@ -456,7 +442,6 @@ function Estimate_qu() {			// From figure 5.4
       else {qu=twodinterp(iap,tc,.45,.50,1,2,0.88,0.70,0.56,0.48)}
     }
     else if (tc <= 4) {
-//      if (iap < .10) {qu=''}
       if (iap <= .30) {qu=twodinterp(iap,tc,.10,.30,2,4,1.00,0.80,0.58,0.47)}
       else if (iap <= .35) {qu=twodinterp(iap,tc,.30,.35,2,4,0.80,0.75,0.47,0.45)}
       else if (iap <= .40) {qu=twodinterp(iap,tc,.35,.40,2,4,0.75,0.66,0.45,0.43)}
@@ -465,7 +450,6 @@ function Estimate_qu() {			// From figure 5.4
       else {qu=twodinterp(iap,tc,.45,.50,2,4,0.56,0.48,0.38,0.35)}
     }
     else if (tc <= 6) {
-//      if (iap < .10) {qu=''}
       if (iap <= .30) {qu=twodinterp(iap,tc,.10,.30,4,6,0.58,0.47,0.42,0.36)}
       else if (iap <= .35) {qu=twodinterp(iap,tc,.30,.35,4,6,0.47,0.45,0.36,0.35)}
       else if (iap <= .40) {qu=twodinterp(iap,tc,.35,.40,4,6,0.45,0.425,0.35,0.33)}
@@ -474,7 +458,6 @@ function Estimate_qu() {			// From figure 5.4
       else {qu=twodinterp(iap,tc,.45,.50,4,6,0.38,0.35,0.30,0.28)}
     }
     else if (tc <= 8) {
-//      if (iap < .10) {qu=''}
       if (iap <= .30) {qu=twodinterp(iap,tc,.10,.30,6,8,0.42,0.36,0.325,0.28)}
       else if (iap <= .35) {qu=twodinterp(iap,tc,.30,.35,6,8,0.36,0.35,0.28,0.27)}
       else if (iap <= .40) {qu=twodinterp(iap,tc,.35,.40,6,8,0.35,0.33,0.27,0.26)}
@@ -483,7 +466,6 @@ function Estimate_qu() {			// From figure 5.4
       else {qu=twodinterp(iap,tc,.45,.50,6,8,0.30,0.28,0.25,0.24)}
     }
     else if (tc <= 10) {
-//      if (iap < .10) {qu=''}
       if (iap <= .30) {qu=twodinterp(iap,tc,.10,.30,8,10,0.325,0.275,0.255,0.235)}
       else if (iap <= .35) {qu=twodinterp(iap,tc,.30,.35,8,10,0.275,0.27,0.235,0.23)}
       else if (iap <= .40) {qu=twodinterp(iap,tc,.35,.40,8,10,0.27,0.26,0.23,0.225)}
@@ -508,7 +490,6 @@ function Calc_q() {
   var A  = document.PeakFlow.A.value		// A  = watershed area (ha)
   var Q  = document.PeakFlow.Q.value		// Q = runoff depth from a 24-h storm of the desired period (mm)
   var Fp = document.PeakFlow.Fp.value		// pond and swamp adjustment factor
-//  var Fp = 1					// pond and swamp adjustment factor
   q = ''
   if (isNumber(qu) && isNumber(A) && isNumber(Q)) {
     q  = qu * A * Q * Fp			// peak runoff rate (cu m/s); equation 5.11
@@ -520,33 +501,25 @@ function Calc_q() {
 }
 
 function Calc_D() {				// type:   for a culvert gradient > ~5%
-//alert('Calc_D')
   var q = document.PeakFlow.q.value		// q  = peak flow rate (m^3 s^-1)
   var Sg = document.PeakFlow.Sg.value		// Sg = average watershed gradient
   var h  = document.PeakFlow.h_.value		// h  = distance center of culvert to 1 ft below road surface (ft) [1..60] *
   var g = 32.2					// g  = acceleration due to gravity
   var pi = 3.1415926				// pi = pi
 //  var h  = 2					// h  = distance center of culvert to 1 ft below road surface (ft) [1..60] *
-//  alert("h = " + h)
   if (isNumber(q)) {
    q = q * 35.31				// cubic meters per second to cubic feet per second
   }
-//alert ("q = " + q)
-//alert ("Sg = " + Sg)
   if (isNumber(q) && isNumber(Sg) && Sg > .05 && isNumber(h) && h>1 && h<60) {
     var num = 8 * q
-//alert ("num = " + num)
     var den = pi * Math.sqrt(2*g*h)
-//alert ("den = " + den)
     D = 12 * Math.sqrt(num / den)
-//  D = (sqrt(8 q) / (pi * sqrt(2 g h))) * 12
   }
   else {
     D = ''
     ClearResults()
   }
   document.PeakFlow.D.value = D
-//  alert(D)
   if (isNumber(D) && D.toFixed(2)) {
     document.PeakFlow.D_.value = D.toFixed(2)
     D = D * 2.54
@@ -716,8 +689,6 @@ function  showBubble(e, str, area) {
   }
    b.visibility='visible';
 }
-////////////////////////////////////////////////////////////////////////
-   -->
   </script>
  </head>
  <body link=green vlink=green alink=crimson>
@@ -759,7 +730,6 @@ function  showBubble(e, str, area) {
        <font face="comic sans, trebuchet, tahoma" size=-1><a title="(from ERMiT)">Storm runoff,</a> <b>Q</b>&nbsp;</font></td>
      <td colspan=2 bgcolor=lightgreen><font face="comic sans, trebuchet, tahoma" size=-1>
 <script>
-//  var Q_param = arg( 'Q' );
   document.writeln('      <input type=text size=10 name=Q value=\'',arg('Q'),'\' onchange="Calculate_SI()">')
 </script>
      &nbsp;mm</font></td>

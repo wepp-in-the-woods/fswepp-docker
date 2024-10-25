@@ -15,7 +15,7 @@ use POSIX qw(strftime);
 use Time::Local;
 
 our @EXPORT_OK =
-  qw(commify printdate CreateSlopeFile CreateSlopeFileWeppRoad CreateSoilFile get_version get_thisyear_and_thisweek get_user_id get_units get_current_url);
+  qw(commify printdate CreateSlopeFile CreateSoilFile get_version get_thisyear_and_thisweek get_user_id get_units get_current_url);
 
 sub get_current_url {
     my $cgi          = CGI->new;
@@ -148,83 +148,6 @@ sub CreateSlopeFile {
     printf $SlopeFile " %.2f, %.3f  ", 0.5, $mid_slope2;    # dx, gradient
     printf $SlopeFile " %.2f, %.3f\n", 1,   $bot_slope2;    # dx, gradient
 
-    close $SlopeFile;
-    return $slopeFile;
-}
-
-sub CreateSlopeFileWeppRoad {
-    my (
-        $URS, $UFS,   $UBS,   $URW,       $URL, $UFL,
-        $UBL, $units, $slope, $slopeFile, $debug
-    ) = @_;
-
-    if ($debug) {
-        print "FsWeppUtils::CreateSlopeFileWeppRoad\n";
-    }
-
-    # create slope file from specified geometry
-
-    my $userRoadSlope = $URS / 100;    # road slope in decimal percent
-    my $userFillSlope = $UFS / 100;
-    my $userBuffSlope = $UBS / 100;
-    my ( $userRoadWidth, $userRoadLength, $userFillLength, $userBuffLength );
-
-    if ( $units eq 'm' ) {
-        $userRoadWidth  = $URW;        # road width in meters
-        $userRoadLength = $URL;
-        $userFillLength = $UFL;
-        $userBuffLength = $UBL;
-    }
-    else {
-        my $tom = 0.3048;
-        $userRoadWidth  = sprintf "%.2f", $URW * $tom;
-        $userRoadLength = sprintf "%.2f", $URL * $tom;
-        $userFillLength = sprintf "%.2f", $UFL * $tom;
-        $userBuffLength = sprintf "%.2f", $UBL * $tom;
-    }
-
-    my $WeppRoadSlope  = $userRoadSlope;
-    my $WeppRoadLength = $userRoadLength;
-    my $WeppFillSlope  = $userFillSlope;
-    my $WeppFillLength = $userFillLength;
-    my $WeppBuffSlope  = $userBuffSlope;
-    my $WeppBuffLength = $userBuffLength;
-
-    if ( $WeppRoadLength < 1 ) { $WeppRoadLength = 1 } # minimum 1 m road length
-
-    my $WeppRoadWidth;
-    if ( $slope eq 'outunrut' ) {
-        my $outslope = 0.04;
-        $WeppRoadSlope =
-          sqrt( $outslope * $outslope + $WeppRoadSlope * $WeppRoadSlope )
-          ;    # 11/1999
-        $WeppRoadLength = $userRoadWidth * $WeppRoadSlope / $outslope;
-        $WeppRoadWidth  = $userRoadLength * $userRoadWidth / $WeppRoadLength;
-    }
-    else {
-        $WeppRoadWidth = $userRoadWidth;
-    }
-
-    open( my $SlopeFile, ">", $slopeFile )
-      or die "Cannot open file $slopeFile: $!";
-    print $SlopeFile "97.3\n";                                 # datver
-    print $SlopeFile "# Slope file for $slope by WEPP:Road Interface\n";
-    print $SlopeFile "3\n";                  # no. OFE
-    print $SlopeFile "100 $WeppRoadWidth\n"; # aspect; profile width			# 11/1999
-                                             # OFE 1 (road)
-    printf $SlopeFile "%d  %.2f\n", 2, $WeppRoadLength; # no. points, OFE length
-    printf $SlopeFile "%.2f, %.2f  ", 0, $WeppRoadSlope;    # dx, gradient
-    printf $SlopeFile "%.2f, %.2f\n", 1, $WeppRoadSlope;    # dx, gradient
-                                                            # OFE 2 (fill)
-    printf $SlopeFile "%d  %.2f\n", 3, $WeppFillLength; # no. points, OFE length
-    printf $SlopeFile "%.2f, %.2f  ", 0,    $WeppRoadSlope;    # dx, gradient
-    printf $SlopeFile "%.2f, %.2f  ", 0.05, $WeppFillSlope;    # dx, gradient
-    printf $SlopeFile "%.2f, %.2f\n", 1,    $WeppFillSlope;    # dx, gradient
-                                                               # OFE 3 (buffer)
-    printf $SlopeFile "%d  %.2f\n", 3, $WeppBuffLength; # no. points, OFE length
-    printf $SlopeFile "%.2f, %.2f  ", 0,    $WeppFillSlope;    # dx, gradient
-    printf $SlopeFile "%.2f, %.2f  ", 0.05, $WeppBuffSlope;    # dx, gradient
-    printf $SlopeFile "%.2f, %.2f\n", 1,    $WeppBuffSlope;    # dx, gradient
     close $SlopeFile;
     return $slopeFile;
 }

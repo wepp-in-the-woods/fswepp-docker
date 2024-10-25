@@ -4,8 +4,8 @@ use warnings;
 use CGI;
 use CGI qw(escapeHTML header);
 use MoscowFSL::FSWEPP::CligenUtils qw(CreateCligenFile GetParSummary GetStationName);
-use MoscowFSL::FSWEPP::FsWeppUtils qw(printdate get_version get_thisyear_and_thisweek CreateSlopeFileWeppRoad get_user_id );
-
+use MoscowFSL::FSWEPP::FsWeppUtils qw(printdate get_version get_thisyear_and_thisweek get_user_id );
+use MoscowFSL::FSWEPP::WeppRoad qw(CreateSlopeFileWeppRoad);
 use POSIX qw(strftime);
 
 # wrbat.pl
@@ -614,11 +614,12 @@ for $record ( 1 .. $count ) {
         open NEWSOILFILE, ">$newSoilFile";
         print NEWSOILFILE &CreateSoilFile;
         close NEWSOILFILE;
+
         if ($debug) {
             print "<pre>creating soil file: $newSoilFile\n", $soilFileBody,
               "</pre>\n";
         }
-        $zzslope = &CreateSlopeFileWeppRoad(
+        ($zzslope, $WeppRoadSlope, $WeppRoadWidth, $WeppRoadLength) = &CreateSlopeFileWeppRoad(
             $URS, $UFS,   $UBS,   $URW,       $URL, $UFL,
             $UBL, $units, $slope, $slopeFile, $debug
         );

@@ -7,7 +7,8 @@ use String::Util qw(trim);
 
 use MoscowFSL::FSWEPP::CligenUtils qw(CreateCligenFile GetParSummary GetAnnualPrecip GetParLatLong GetStationName);
 use MoscowFSL::FSWEPP::FsWeppUtils
-  qw(CreateSlopeFile CreateSlopeFileWeppRoad printdate CreateSoilFile get_thisyear_and_thisweek get_version get_user_id);
+  qw(CreateSlopeFile printdate CreateSoilFile get_thisyear_and_thisweek get_version get_user_id);
+use MoscowFSL::FSWEPP::WeppRoad qw(CreateSlopeFileWeppRoad);
 
 my $debug = 0;
 
@@ -2932,7 +2933,7 @@ sub wrdt {
         $soilFilefq = $soilPath . $soilFile;
 
         $zzsoil  = &CreateSoilFilewr;
-        $zzslope = &CreateSlopeFileWeppRoad(
+        ($zzslope, $WeppRoadSlope, $WeppRoadWidth, $WeppRoadLength) = &CreateSlopeFileWeppRoad(
             $URS, $UFS,   $UBS,   $URW,       $URL, $UFL,
             $UBL, $units, $slope, $slopeFile, $debug
         );
@@ -3030,7 +3031,7 @@ sub CreateSoilFilewr {
         $in = <SOILFILE>;
         print NEWSOILFILE $in;                    # line 3: ntemp, ksflag
         $in   = <SOILFILE>;
-        $pos1 = index( $in, "'" );                # location of first apostrophe
+        $pos1 = index( $in, "'" );               # location of first apostrophe
         $pos2 = index( $in, "'", $pos1 + 1 );    # location of second apostrophe
         $pos3 = index( $in, "'", $pos2 + 1 );    # location of third apostrophe
         $pos4 = index( $in, "'", $pos3 + 1 );    # location of fourth apostrophe

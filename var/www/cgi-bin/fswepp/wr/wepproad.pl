@@ -40,7 +40,6 @@ print '<HTML>
   <META NAME="Contributors" CONTENT="USDA Forest Service, Rocky Mountain Research Station, Moscow, ID">
   <META NAME="Source" content="Run online at https://forest.moscowfsl.wsu.edu/fswepp/">
   <SCRIPT Language="JavaScript" type="TEXT/JAVASCRIPT">
-<!--
 function validate() {
 
   if (window.document.wepproad.traffic[0].checked
@@ -62,23 +61,11 @@ function validate() {
   }
 }
 
-function readCookie() {
-   var cookie_name = "FSWEPPuser";
-//   if(document.cookie) {
-      index = document.cookie.indexOf(cookie_name);
-      var cookiebeg = (document.cookie.indexOf("=",index)+1);
-      var cookieend = document.cookie.indexOf(";",index);
-      if (cookieend==-1) {cookieend=document.cookie.length}
-//      var LastUsercode = document.cookie.substring(cookiebeg,cookieend);
-      var LastUsercode = document.cookie.substring(cookiebeg,cookiebeg+1);
-      document.wepproad.me.value = LastUsercode;
-//   } else {
-//      document.wepproad.me.value = "z";
-//   }
-}
 
 //  mperf=1/3.29
 ';
+
+# TODO: use the same variable names as wr.pl and load the min, max, and default values from a common source
 if ( $units eq "m" ) {
     $RLmin  = 1;
     $RLdef  = 60;
@@ -243,7 +230,6 @@ function showWidthHelp(obj, head, min, max, unit) {
   return true
 }
     function hide_help() {
-//    alert('hide_help')
       previous_what=''
       document.getElementById("help_text").innerHTML = '';
     }
@@ -274,6 +260,7 @@ print "
     url = '/fswepp/rc/closest.php?units=ft'; width=900; height=600; popupwindow = 
     window.open(url,'popupwindow','toolbar=no,location=no,status=no,directories=no,menubar=no,scrollbars=yes,resizable=yes,width='+width+',height='+height);
     popupwindow.focus ()
+}
 
 function popupwidth() {
 url = '/fswepp/wr/wrwidths.html';
@@ -323,7 +310,6 @@ popupwindow = window.open(url,'popupwindow','toolbar=no,location=no,status=no,di
 popupwindow.focus()
 }
 
-// -->
 </SCRIPT>
 </HEAD>
 ";
@@ -366,34 +352,38 @@ print qq(
           Climate Station</a></B>
   <td width=10>
   <TD align="center" bgcolor="#85D2D2">
-    <B><a href="JavaScript:submitme('Describe Soil')"
-             onMouseOver="window.status='Describe soil';return true"
-             onMouseOut="window.status='Forest Service WEPP:Road'; return true">
-             Soil Texture</B>
-<!--  <td width=10>  -->
+    <B><a href="#" onclick="
+          var rock = document.querySelector('#rock').value;
+          var soil_type = document.querySelector('#soilSelect').value;
+          var traffic = document.querySelector('input[name=traffic]:checked').value
+          var surface = document.querySelector('input[name=surface]:checked').value;
+          var slope = document.querySelector('#slopeSelect').value;
+          window.location.href = '/cgi-bin/fswepp/wr/describe_soil.pl?soil_type=' + soil_type + '&traffic=' + traffic + '&surface=' + surface + '&slope=' + slope + '&rock=' + rock + '&units=$units'">
+             Soil Texture</a></B>
+  </td>
 <TR>
   <TD align=center>
-  <SELECT NAME="Climate" id="Climate" SIZE="5">
+  <select name="Climate" id="Climate" SIZE="5">
 );
 
 foreach my $ii ( 0 .. $#climates ) {
-    print '<OPTION VALUE="', $climates[$ii]->{'clim_file'}, '"';
+    print '<option value="', $climates[$ii]->{'clim_file'}, '"';
     print ' selected' if $ii == 0;
     print '> ', $climates[$ii]->{'clim_name'}, "\n";
 }
 
 print <<'theEnd';
-  </SELECT>
+  </select>
   <td>
   <TD align=center>
-  <SELECT NAME="SoilType" SIZE="4" 
+  <select id="soilSelect" name="SoilType" SIZE="4" 
        onChange="showTexture()"
        onBlur="blankStatus()">
-   <OPTION VALUE="clay" SELECTED>clay loam
-   <OPTION VALUE="silt">silt loam
-   <OPTION VALUE="sand">sandy loam
-   <OPTION VALUE="loam">loam
-  </SELECT>
+   <option value="clay" SELECTED>clay loam
+   <option value="silt">silt loam
+   <option value="sand">sandy loam
+   <option value="loam">loam
+  </select>
   </TD>
 </TR>
 
@@ -403,14 +393,10 @@ print <<'theEnd';
     <button type="button" onclick="window.location.href='/cgi-bin/fswepp/rc/rockclim.pl?comefrom=road&units=$units'">Custom Climate</button>
     <input type="button" value="Closest Wx" onclick="javascript:popupclosest()">
 
-<!--    <input type="submit" name="ActionCD" value="Describe">
-    <td>
-    <td><input type="submit" name="ActionSD" value="Soil">
- -->
     <td></td>
     <TH bgcolor="#85D2D2">
      <font face="Arial, Geneva, Helvetica">
-      <a href="javascript:popuprock()">Rock</a> (%)&nbsp;<INPUT NAME="Rock" SIZE="5" VALUE="20">
+      <a href="javascript:popuprock()">Rock</a> (%)&nbsp;<input id="rock" name="Rock" SIZE="5" VALUE="20">
      </font>
     </th>
    </tr>
@@ -432,12 +418,12 @@ print
 print '    
    <tr>
     <TD rowspan=4>
-     <SELECT NAME="SlopeType" SIZE="4" ALIGN="top">
-      <OPTION VALUE="inbare"> Insloped, bare ditch
-      <OPTION VALUE="inveg" SELECTED> Insloped, vegetated or rocked ditch
-      <OPTION VALUE="outrut"> Outsloped, rutted
-      <OPTION VALUE="outunrut"> Outsloped, unrutted
-     </SELECT>
+     <select id="slopeSelect" name="SlopeType" SIZE="4" ALIGN="top">
+      <option value="inbare"> Insloped, bare ditch</option>
+      <option value="inveg" SELECTED> Insloped, vegetated or rocked ditch</option>
+      <option value="outrut"> Outsloped, rutted</option>
+      <option value="outunrut"> Outsloped, unrutted</option>
+     </select>
     </td>
     <TH bgcolor="#85D2D2"><font face="Arial, Geneva, Helvetica"><a href="JavaScript:popup(\'road\')">Road</a></font></th>
     <TD><INPUT NAME="RS" TYPE="TEXT" SIZE="5" VALUE="', $RSdef, '"
@@ -536,9 +522,6 @@ print '
 if ( -e $logFile ) {
     print '  <input type="submit" name="button" value="Display log">';
 }
-
-$remote_host    = $ENV{'REMOTE_HOST'};
-$remote_address = $ENV{'REMOTE_ADDR'};    # if ($userIP eq '');
 
 $wc    = `wc ../working/' . currentLogDir() . '/wr.log`;
 @words = split " ", $wc;
