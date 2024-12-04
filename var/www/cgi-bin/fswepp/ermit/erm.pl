@@ -3,8 +3,10 @@
 use warnings;
 use CGI;
 use CGI qw(escapeHTML);
-use MoscowFSL::FSWEPP::CligenUtils qw(CreateCligenFile GetParSummary GetParLatLong);
-use MoscowFSL::FSWEPP::FsWeppUtils qw(get_version get_thisyear_and_thisweek get_user_id);
+use MoscowFSL::FSWEPP::CligenUtils
+  qw(CreateCligenFile GetParSummary GetParLatLong);
+use MoscowFSL::FSWEPP::FsWeppUtils
+  qw(get_version get_thisyear_and_thisweek get_user_id);
 use String::Util qw(trim);
 
 #
@@ -17,18 +19,20 @@ use String::Util qw(trim);
 my $verbose = 0;
 
 my $debug       = 0;           # DEH 2014-02-07 over-ride command-line
-my $weppversion = "wepp2010"; # 2014.02.07 DEH 2000 or 2010; WEPP 2010 needs frost.txt file in ERMiT directory to give 'correct' results
+my $weppversion = "wepp2010"
+  ; # 2014.02.07 DEH 2000 or 2010; WEPP 2010 needs frost.txt file in ERMiT directory to give 'correct' results
 
 my $version = get_version(__FILE__);
 my $user_ID = get_user_id();
+
 #=========================================================================
 
 my ( $thisyear, $thisweek ) = get_thisyear_and_thisweek();
 
 my $cgi = CGI->new;
 
-my $pt    = 1 if ( $cgi->param('ptcheck') =~ 'on' );
-my $units = escapeHTML( $cgi->param('units') );
+my $pt               = 1 if ( $cgi->param('ptcheck') =~ 'on' );
+my $units            = escapeHTML( $cgi->param('units') );
 my $CL               = escapeHTML( $cgi->param('Climate') );
 my $climate_name     = escapeHTML( $cgi->param('climate_name') );
 my $SoilType         = escapeHTML( $cgi->param('SoilType') );
@@ -89,7 +93,7 @@ $rfg += 0;
 $rfg = 05 if ( $rfg < 05 );
 $rfg = 85 if ( $rfg > 85 );
 
-$working     = '../working';
+$working    = '../working';
 $runLogFile = "../working/" . $user_ID . ".run.log";
 $div        = '/';
 
@@ -358,6 +362,8 @@ if ($verbose) {
 }
 
 @args = ("../$weppversion <$responseFile >$stoutFile 2>$sterrFile");
+
+# wtf is this here. it isn't running wepp. it redefines this on 413
 
 if ($debug) {
     print TEMP "@args
@@ -1459,7 +1465,7 @@ for $c ( 0 .. $#selected_year ) {
     #    for $sn (0..3) {										# 2005.10.13 DEH
     for $sn ( 0 .. $#severe ) {    # 2005.10.13 DEH
         if ($pt) { print TEMP "<tr>\n"; }
-      KLOOP: for $k ( 0 .. 4 ) {
+      KLOOP: for $k ( 0 .. 4 ) { # KLOOP doesn't do anything! RL
             @sed_yields[$sp] = $sedtable[$c][$k][$sn];
             @scheme[$sp] =
                 @selected_ranks[$c] + 1
@@ -1653,143 +1659,6 @@ if ($pt) {
 
 #  @rank[@index] = 0..$#sed_yields;                    # make rank
 
-if ($debug) {
-    print TEMP
-      "<pre>\n";  # put following calculation block within debug "if" 2005.10.24
-
-    # unburned
-
-    # untreated
-    $cum_prob0 = 0.01;    # 2004.03.18 DEH 0. to 0.05 per CAM
-    $cum_prob1 = 0.01;    # 2005.10.25 DEH 0.05 to 0.01 per PRR
-    $cum_prob2 = 0.01;
-    $cum_prob3 = 0.01;
-    $cum_prob4 = 0.01;
-
-    # seeding
-    $cum_prob_s0 = 0.01;
-    $cum_prob_s1 = 0.01;
-    $cum_prob_s2 = 0.01;
-    $cum_prob_s3 = 0.01;
-    $cum_prob_s4 = 0.01;
-
-    # mulch 47% GC	# 2005.09.30 DEH
-    $cum_prob_m470 = 0.01;    # 2005.09.30 DEH
-    $cum_prob_m471 = 0.01;    # 2005.09.30 DEH
-    $cum_prob_m472 = 0.01;    # 2005.09.30 DEH
-    $cum_prob_m473 = 0.01;    # 2005.09.30 DEH
-    $cum_prob_m474 = 0.01;    # 2005.09.30 DEH
-
-    # mulch 72% GC	# 2005.09.30 DEH
-    $cum_prob_m720 = 0.01;    # 2005.09.30 DEH
-    $cum_prob_m721 = 0.01;    # 2005.09.30 DEH
-    $cum_prob_m722 = 0.01;    # 2005.09.30 DEH
-    $cum_prob_m723 = 0.01;    # 2005.09.30 DEH
-    $cum_prob_m724 = 0.01;    # 2005.09.30 DEH
-
-    # mulch 89% GC	# 2005.09.30 DEH
-    $cum_prob_m890 = 0.01;    # 2005.09.30 DEH
-    $cum_prob_m891 = 0.01;    # 2005.09.30 DEH
-    $cum_prob_m892 = 0.01;    # 2005.09.30 DEH
-    $cum_prob_m893 = 0.01;    # 2005.09.30 DEH
-    $cum_prob_m894 = 0.01;    # 2005.09.30 DEH
-
-    # mulch 94% GC	# 2005.09.30 DEH
-    $cum_prob_m940 = 0.01;    # 2005.09.30 DEH
-    $cum_prob_m941 = 0.01;    # 2005.09.30 DEH
-    $cum_prob_m942 = 0.01;    # 2005.09.30 DEH
-    $cum_prob_m943 = 0.01;    # 2005.09.30 DEH
-    $cum_prob_m944 = 0.01;    # 2005.09.30 DEH
-
-    print TEMP
-      "sed_yield\tprob\tcum_prob0\tcum_prob1\tcum_prob2\tcum_prob3\tcum_prob4\n"
-      ;                       # 2006.04.05
-
-    for $sp ( 0 .. $#sed_yields ) {
-        if ( $severityclass eq 'u' ) {
-
-            # unburned
-            $cum_prob0 += @probabilities0[ @index[$sp] ];
-            $cum_prob1 += @probabilities1[ @index[$sp] ];
-            $cum_prob2 += @probabilities2[ @index[$sp] ];
-            $cum_prob3 += @probabilities3[ @index[$sp] ];
-            $cum_prob4 += @probabilities4[ @index[$sp] ];
-        }
-        else {
-            # untreated
-            $cum_prob0 += @probabilities0[ @index[$sp] ];
-            $cum_prob1 += @probabilities1[ @index[$sp] ];
-            $cum_prob2 += @probabilities2[ @index[$sp] ];
-            $cum_prob3 += @probabilities3[ @index[$sp] ];
-            $cum_prob4 += @probabilities4[ @index[$sp] ];
-
-            # seeding
-            $cum_prob_s0 += @probabilities_s0[ @index[$sp] ];
-            $cum_prob_s1 += @probabilities_s1[ @index[$sp] ];
-            $cum_prob_s2 += @probabilities_s2[ @index[$sp] ];
-            $cum_prob_s3 += @probabilities_s3[ @index[$sp] ];
-            $cum_prob_s4 += @probabilities_s4[ @index[$sp] ];
-
-            # mulch 47% GC	# 2005.09.30 DEH
-            $cum_prob_m470 +=
-              @probabilities_m470[ @index[$sp] ];    # 2005.09.30 DEH
-            $cum_prob_m471 +=
-              @probabilities_m471[ @index[$sp] ];    # 2005.09.30 DEH
-            $cum_prob_m472 +=
-              @probabilities_m472[ @index[$sp] ];    # 2005.09.30 DEH
-            $cum_prob_m473 +=
-              @probabilities_m473[ @index[$sp] ];    # 2005.09.30 DEH
-            $cum_prob_m474 +=
-              @probabilities_m474[ @index[$sp] ];    # 2005.09.30 DEH
-
-            # mulch 72% GC	# 2005.09.30 DEH
-            $cum_prob_m720 +=
-              @probabilities_m720[ @index[$sp] ];    # 2005.09.30 DEH
-            $cum_prob_m721 +=
-              @probabilities_m721[ @index[$sp] ];    # 2005.09.30 DEH
-            $cum_prob_m722 +=
-              @probabilities_m722[ @index[$sp] ];    # 2005.09.30 DEH
-            $cum_prob_m723 +=
-              @probabilities_m723[ @index[$sp] ];    # 2005.09.30 DEH
-            $cum_prob_m724 +=
-              @probabilities_m724[ @index[$sp] ];    # 2005.09.30 DEH
-
-            # mulch 89% GC	# 2005.09.30 DEH
-            $cum_prob_m890 +=
-              @probabilities_m890[ @index[$sp] ];    # 2005.09.30 DEH
-            $cum_prob_m891 +=
-              @probabilities_m891[ @index[$sp] ];    # 2005.09.30 DEH
-            $cum_prob_m892 +=
-              @probabilities_m892[ @index[$sp] ];    # 2005.09.30 DEH
-            $cum_prob_m893 +=
-              @probabilities_m893[ @index[$sp] ];    # 2005.09.30 DEH
-            $cum_prob_m894 +=
-              @probabilities_m894[ @index[$sp] ];    # 2005.09.30 DEH
-
-            # mulch 94% GC	# 2005.09.30 DEH
-            $cum_prob_m940 +=
-              @probabilities_m940[ @index[$sp] ];    # 2005.09.30 DEH
-            $cum_prob_m941 +=
-              @probabilities_m941[ @index[$sp] ];    # 2005.09.30 DEH
-            $cum_prob_m942 +=
-              @probabilities_m942[ @index[$sp] ];    # 2005.09.30 DEH
-            $cum_prob_m943 +=
-              @probabilities_m943[ @index[$sp] ];    # 2005.09.30 DEH
-            $cum_prob_m944 +=
-              @probabilities_m944[ @index[$sp] ];    # 2005.09.30 DEH
-        }
-
-        print TEMP @sed_yields[ @index[$sp] ], "\t",
-          @probabilities0[ @index[$sp] ],
-          "\t$cum_prob0\t$cum_prob1\t$cum_prob2\t$cum_prob3\t$cum_prob4\t";
-        print TEMP @day[ @index[$sp] ], ' ',
-          @monthnames[ @month[ @index[$sp] ] ], ' ',
-          @selected_year[ @index[$sp] ], "\n";    # 2006.04.05
-
-#    print TEMP @sed_yields[@index[$sp]],"\t",@probabilities0[@index[$sp]],"\t$cum_prob0\t",,"\t",@probabilities1[@index[$sp]],"\t$cum_prob1\n";
-    }
-    print TEMP "\n\n";
-}    # if ($debug)
 
 #  @sorted_sed_probs = sort { $a <=> $b } @sed_probs;	# sort numerically increasing
 #  for $sp (0..$#sed_probs) {
@@ -1896,7 +1765,7 @@ print "
        <br>
        <font size=1>
 ";
-print &GetParSummary($climatePar, $units);
+print &GetParSummary( $climatePar, $units );
 $severityclass_xx = $severityclass_x;    # 2013.06.14
 if ( $severityclass ne 'u' ) { $severityclass_xx .= ' soil burn severity on' }
 
@@ -2253,7 +2122,7 @@ print "
 
 #  record activity in ERMiT log (if running on remote server)
 
-my ($lat, $long) = GetParLatLong($climatePar);
+my ( $lat, $long ) = GetParLatLong($climatePar);
 
 # 2008.06.04 DEH end
 
@@ -3138,8 +3007,7 @@ cp_m944 = new MakeArray; cp_m944.length = a_len
         $sedval = @sed_yields[ @index[$i] ];
         if ( $sedval eq '' )    { $sedval = '0.0' }
         if ( $sedval =~ /^\*/ ) { $sedval = '99' }
-        print
-          "sed_del[$j] = $sedval; scheme[$j] = '$scheme'\n";    # 2005.10.25 DEH
+        print "sed_del[$j] = $sedval; scheme[$j] = '$scheme'\n";    # 2005.10.25 DEH
         print "  cp0[$j] = $cum_prob0; ";
         print "  cp1[$j] = $cum_prob1; ";
         print "  cp2[$j] = $cum_prob2; ";
