@@ -299,7 +299,7 @@ print '
      </table>
     </center>
 ';
-my $found = &parseWeppResults;
+my $successful = &parseWeppResults;
 
 print '  <br><center><font size=-1>WEPP files: 
     [ <a href="javascript:void(showslopefile())">slope</a>
@@ -405,17 +405,15 @@ sub parseWeppResults {
 
     open weppstout, "<$stoutFile";
 
-    $found = 0;
+    my $successful = 0;
     while (<weppstout>) {
         if (/SUCCESSFUL/) {
-            $found = 1;
+            $successful = 1;
             last;
         }
     }
 
     close(weppstout);
-
-########################   NAN check   ###################
 
     open weppoutfile, "<$outputFile";
     while (<weppoutfile>) {
@@ -430,7 +428,6 @@ sub parseWeppResults {
     }
     close(weppoutfile);
 
-########################   NAN check   ###################
 
     my (
         $storms, $rainevents, $snowevents, $precip,
@@ -439,11 +436,11 @@ sub parseWeppResults {
         @sypline, $effective_road_length, 
     );
 
-    if ( $found == 0 ) {   # unsuccessful run -- search STDOUT for error message
+    if ( $successful == 0 ) {   # unsuccessful run -- search STDOUT for error message
         open weppstout, "<$stoutFile";
         while (<weppstout>) {
             if (/ERROR/) {
-                $found = 2;
+                $successful = 2;
                 print "<font color=red>\n";
                 $_ = <weppstout>;
                 $_ = <weppstout>;
@@ -458,11 +455,11 @@ sub parseWeppResults {
         close(weppstout);
     }
 
-    if ( $found == 0 ) {
+    if ( $successful == 0 ) {
         open weppstout, "<$stoutFile";
         while (<weppstout>) {
             if (/error #/) {
-                $found = 4;
+                $successful = 4;
                 print "<font color=red>\n";
                 print;
                 print "</font>\n";
@@ -472,11 +469,11 @@ sub parseWeppResults {
         close(weppstout);
     }
 
-    if ( $found == 0 ) {
+    if ( $successful == 0 ) {
         open weppstout, "<$stoutFile";
         while (<weppstout>) {
             if (/\*\*\* /) {
-                $found = 3;
+                $successful = 3;
                 print "<font color=red>\n";
                 $_ = <weppstout>;
                 print;
@@ -491,13 +488,13 @@ sub parseWeppResults {
             }
         }
         close(weppstout);
-    }    # if ($found == 0)
+    }    # if ($successful == 0)
 
-    if ( $found == 0 ) {
+    if ( $successful == 0 ) {
         open weppstout, "<$stoutFile";
         while (<weppstout>) {
             if (/MATHERRQQ/) {
-                $found = 5;
+                $successful = 5;
                 print '     <font color=red>
            WEPP has run into a mathematical anomaly.<br>
            You may be able to get around it by modifying the geometry slightly;
@@ -510,9 +507,9 @@ sub parseWeppResults {
             }
         }
         close(weppstout);
-    }    # if ($found == 0)
+    }    # if ($successful == 0)
 
-    if ( $found == 1 ) {    # Successful run -- get actual WEPP version number
+    if ( $successful == 1 ) {    # Successful run -- get actual WEPP version number
         open weppout, "<$outputFile";
         my $weppver;
         while (<weppout>) {
@@ -571,13 +568,13 @@ sub parseWeppResults {
                 $_ = <weppout>;
                 $_ = <weppout>;
                 $_ = <weppout>;
-                $_ = <weppout>;                 # print;
-                $_ = <weppout>;                 # print;
-                $_ = <weppout>;                 # print;
-                $_ = <weppout>;                 # print;
-                $_ = <weppout>;                 # print;
-                $syr                   = substr $_, 17, 7;
-                $effective_road_length = substr $_, 9,  9;
+                $_ = <weppout>;
+                $_ = <weppout>;
+                $_ = <weppout>;
+                $_ = <weppout>;
+                $_ = <weppout>;
+                $syr                   = substr $_, 17, 7; # Soil Loss MEAN  (kg/m2)
+                $effective_road_length = substr $_, 9,  9; # Area of 
 
                 last;
             }
@@ -774,7 +771,7 @@ sub parseWeppResults {
       <br>
      </center>
 ';
-    }    # if ($found == 1)
+    }    # if ($successful == 1)
     else {
         print "    <br><br>
     I'm sorry; WEPP did not run successfully.
@@ -783,33 +780,6 @@ sub parseWeppResults {
     <hr>
     <br><br>
 ";
-    }    # if ($found == 1)
-    return $found;
-}
-
-# ---------------------  WEPP summary output  --------------------
-
-sub printWeppSummary {
-
-    print '      <center><h2>WEPP output</h2></center>
-      <font face=courier>
-       <pre>
-';
-    open weppout, "<$outputFile";
-    while (<weppout>) {
-        print;
-    }
-    close weppout;
-    print '       </pre>
-      </font>
-      <br><br>
-      <center>
-       <hr>
-       <a href="JavaScript:window.history.go(-1)">
-        <img src="/fswepp/images/rtis.gif"
-             alt="Return to input screen" border="0" align=center></a>
-       <br>
-      <hr>
-     </center>
-';
+    }    # if ($successful == 1)
+    return $successful;
 }

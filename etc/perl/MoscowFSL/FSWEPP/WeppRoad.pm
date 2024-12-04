@@ -19,6 +19,7 @@ our @EXPORT_OK =
   qw(CreateSoilFileWeppRoad CreateSlopeFileWeppRoad CheckInputWeppRoad GetSoilFileTemplate LogWeppRoadRun);
 
 sub LogWeppRoadRun {
+    use MoscowFSL::FSWEPP::FsWeppUtils qw(get_thisyear_and_thisweek);
     use MoscowFSL::FSWEPP::CligenUtils qw(GetParLatLong);
 
 
@@ -47,7 +48,7 @@ sub LogWeppRoadRun {
     print WRLOG $ampm[$ispm], "  ", $days[$wday], " ", $months[$mon], " ",
       $mday, ", ", $gregorian_year, "\"\t";
     print WRLOG $years, "\t";
-    print WRLOG '"', trim($climate_name), "\"\t";
+    print WRLOG '"', $climate_name, "\"\t";
     print WRLOG "$lat\t$long\n";    
 
     close WRLOG;

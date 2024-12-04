@@ -23,7 +23,7 @@ sub LogUserRun {
 
     my ($model, $runLogFile, $climate_name, $unique, @data) = @_;
 
-    $climate_name = trim($climate_name);
+    $climate_name =~ s/^\s+|\s+$//g;
 
     my @months =
       qw(January February March April May June July August September October November December);
