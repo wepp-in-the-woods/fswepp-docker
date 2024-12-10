@@ -685,8 +685,7 @@ function getCookie(name){
       <td><a href="https://www.fs.fed.us/rmrs">                  <img src="images/rmrs_small.gif" width="75" alt="RMRS logo" border=0 title="U.S. Forest Service Rocky Mountain Research Station"></a>
       <td><a href="https://www.fs.fed.us/eng/techdev/sdtdc.htm"> <img src="/images/sdtd_l50.gif" height=50 width=87 alt="San Dimas logo" border=0 title="U.S. Forest Service San Dimas Technology and Development Center"></a>
       <td><a href="https://www.firescience.gov">                 <img src="/images/jfsp_l75.gif" width=75 height=102 alt="JFSP logo" border=0 title="U.S. Department of Interior Joint Fire Science Program"></a>
-<!-- a href="https://nifa.usda.gov"                    img src="https://nifa.usda.gov/sites/default/files/resource/Web_usda_nifa_vertical_rgb_72.jpg" title="USDA National Institute of Food and Agriculture" width=100 -->
-      <td><a href="https://www.usace.army.mil">                   <img src="https://trailcrew.org/wp-content/uploads/2014/12/army-corp-of-engineers.jpg" width=100 height=75" border=0 title="Army Corp of Engineers">
+      <td><a href="https://www.usace.army.mil">                  <img src="/images/United_States_Army_Corps_of_Engineers-Logo.wine.png" width=100 height=75" border=0 title="Army Corp of Engineers">
       <td><a href="https://www.ars.usda.gov/mwa/lafayette/nserl"><img src="/images/ars_60.gif" with=60 height=45 alt="ARS logo" border=0 title="WEPP is an interagency model lead by the Agricultural Research Service's National Soil Erosion Research Laboratory"></a>
      </tr>
     </table>
