@@ -108,10 +108,6 @@ include($_SERVER["DOCUMENT_ROOT"]."/smp/solo/shared/header3.php");
 			  <li>Soil texture</li>
 			  <li>Soil bulk density</li>
 			</ul>
-			<h3>Links</h3>
-            	<ul>
-                	<li>San Dimas Technology and Development Center <br />(<a href="https://fsweb.sdtdc.wo.fs.fed.us/programs/im/Soil%20Projects/Compaction/im%20template.shtml">https://fsweb.sdtdc.wo.fs.fed.us/programs/im/Soil%20Projects/Compaction/im%20template.shtml</a>)</li>
-              	</ul>
 			<h3>Literature</h3>
 			<ul class="researchpapers">
       			<li>Adams, P. W.; H. A. Froehlich. <a href="../../documents/RPs/Adams_Froehlich_1984.pdf">Compaction of Forest Soils</a> (PDF - 1.3 MB). 1984.</li>

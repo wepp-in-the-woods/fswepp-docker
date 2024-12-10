@@ -319,8 +319,7 @@
       <TR>
         <TD id=footer-table-left-cell height=25><A href="#top">top</A></TD>
         <TD id=footer-table-right-cell colSpan=2>
-          <DIV><!-- #BeginLibraryItem "/Library/footer-disclaimers.lbi" -->
-            <!-- #EndLibraryItem -->
+          <DIV>
           </DIV>
         </TD>
       </TR>
