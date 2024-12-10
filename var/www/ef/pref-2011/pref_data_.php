@@ -69,7 +69,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/".$shared_directory."/left_nav.php");
 						<li>Benton gaging dam (elev. 2640 ft, 805 m), recording rain gauge stripcharts and spreadsheets of monthly totals, beginning from 1961 to present.</li>
 					</ul>
 					<h2>Hydrographs from Benton gaging dam:</h2>
-					<p>Digitized gage heights from 1955 to 1964, and 1976 to 1997. Electronic data have been collected from 1997 to the present. Efforts are now underway to complete the digitizing of all available paper records from the dam, precipitation gages and climate variables from the Benton Creek watershed. (<a href="ftp://forest.moscowfsl.wsu.edu/water/benton/" target="_ftp">LINK TO FTP SITE</a>)</p>
+					<p>Digitized gage heights from 1955 to 1964, and 1976 to 1997. Electronic data have been collected from 1997 to the present. Efforts are now underway to complete the digitizing of all available paper records from the dam, precipitation gages and climate variables from the Benton Creek watershed. </p>
 					<h2>Tree growth data:</h2>
 					<p>available from permanent growth and yield plots, 1914 to present.</p>
 
