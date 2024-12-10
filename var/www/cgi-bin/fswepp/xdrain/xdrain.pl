@@ -241,8 +241,6 @@ print "       Release $version";
 print '
       </font>
      </td>
-    
-print '>
     </tr>
    </table>
   </FONT>
