@@ -665,13 +665,6 @@ function getCookie(name){
       <br>
       <font size=-1>
        <a href="WEPPlinks.html" target="new">Other WEPP Resources</a><br>
-       [ <a href="fsw_help.html" target="o">FS WEPP hints and requirements</a>
-       | <a href="/fswepp/comments.html" target="o">Send FS WEPP developers your comments on these Interfaces</a> ]
-       <br>
-       [ <!-- a href="https://www.srs.fs.usda.gov/customer/commentcard_rmrs.htm" target="o" --> <!-- Send FS Washington, DC office your comments on the Forest Service WEPP Interfaces --> <!-- /a -->
-        <!-- a href="/commentcard_rmrs_fswepp.htm" target="o" | -->
-
-       <a href="privacy.html" target="o">FS WEPP privacy disclaimer</a> ]
       </font>
       <br>
        <img src="images/line_red2.gif">

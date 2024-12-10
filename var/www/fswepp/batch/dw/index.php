@@ -30,9 +30,6 @@
    <img src="/fswepp/images/rmrs_logo_tiny.jpg" width=100><br><br>
    <img src="/fswepp/images/herrera.jpg" width=162 height=46>
    <br><br>
-   <font size=2>
-    <a href="/fswepp//privacy.html">privacy notice</a>
-   </font>
   </font>
  </body>
 </html>

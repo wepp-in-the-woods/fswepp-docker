@@ -85,7 +85,7 @@ Fort Collins, CO: U.S. Department of Agriculture, Forest Service, Rocky Mountain
 							Last Modified:
 							<script>document.write( document.lastModified )</script>
 						</p>
-						<p><a href="https://www.fs.fed.us/disclaimers.shtml">Important Notices</a> | <a href="https://www.fs.fed.us/privacy.shtml">Privacy Policy</a></p>
+						
        </div>			
       </div>
      </div>

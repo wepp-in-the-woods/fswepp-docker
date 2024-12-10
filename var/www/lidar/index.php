@@ -178,7 +178,7 @@ COLUMNS-Y - Number of divisions on Y plane
 							<!-- below added for Safari and Google Chrome - other date script is not showing for them with this particular server set-up -->
 							<span id="lastModified">&nbsp;</span>
 						</p>
-						<p><a href="https://www.fs.fed.us/disclaimers.shtml">Important Notices</a> | <a href="https://www.fs.fed.us/privacy.shtml">Privacy Policy</a></p>
+						
 					</div>
 					
                 </div>

@@ -316,13 +316,6 @@
         </TD>
         <!-- MAIN CONTENT CELL WITH CONTENT ANCHOR STOP -->
       </TR>
-      <!-- ROW 4.0A - MAIN LAYOUT TABLE STOP -->
-      <!-- ROW 5.0 - FOOTER LAYOUT TABLE START 
-    TAB INDEX: NONE
-    INCLUDES:
-     LINK TO TOP OF PAGE
-     DISCLAIMER, PRIVACY, AND PRINT LINKS
-     ROUND IMAGE LOWER RIGHT CORNER  -->
       <TR>
         <TD id=footer-table-left-cell height=25><A href="#top">top</A></TD>
         <TD id=footer-table-right-cell colSpan=2>

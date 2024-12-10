@@ -46,7 +46,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/shared_web/left_nav.php");
 		   <strong>Phone:</strong> (208) 882-3557</p>
          	   <p>USDA Forest Service - RMRS - Moscow Forestry Sciences Laboratory<br />
 	</p>
-	<p><a href="https://www.fs.fed.us/disclaimers.shtml">Important Notices</a> | <a href="https://www.fs.fed.us/privacy.shtml">Privacy Policy</a></p>
+	
        </div>
       </div>
      </div>

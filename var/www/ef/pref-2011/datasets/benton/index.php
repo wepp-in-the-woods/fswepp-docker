@@ -107,7 +107,7 @@ A.R. Stage, USDA Forest Service (1957 Summary, 6.5 MB PDF)
 							Last Modified:
 							<script>document.write( document.lastModified )</script>
 						</p>
-						<p><a href="https://www.fs.fed.us/disclaimers.shtml">Important Notices</a> | <a href="https://www.fs.fed.us/privacy.shtml">Privacy Policy</a></p>
+						
 					</div>
                 </div>
             </div>
