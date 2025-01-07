@@ -1,18 +1,3 @@
-#2022a###############################################
-$Title=New Erodibility Parameterization for Applying WEPP On Rangelands Using ERMiT.
-$Year=2022
-$Authors=Robichaud, Elliot
-$Citationt=Al-Hamdan O.Z., Pierson F.B., Robichaud P.R., et al, 2022.
- <i><a>New Erodibility Parameterization For Applying WEPP On Rangelands Using ERMiT.</a></i>.
- <b>Natural Resources & Environmental Systems Community of ASABE (2022).</b> 65,2 251-264. DOI: 10.13031/ja.14564.
-$category=
-$Publisher=American Society of Agricultural and Biological Engineers
-$Abstract=The USDA Water Erosion Prediction Project (WEPP) is a process-based soil erosion prediction model. WEPP uses three soil erodibility parameters: rill erodibility (Kr), interrill erodibility (Ki), and critical hydraulic shear stress (τc). In this study, a new parameterization approach for estimating erodibility was developed for WEPP applications on rangelands. Data from overland flow experiments on disturbed and undisturbed rangelands were used to develop empirical equations to predict rill erodibility variation as a function of vegetation cover and soil texture. Data from rainfall simulation experiments were analyzed by piecewise regression to develop empirical equations for predicting the variability of interrill erodibility before and after disturbance and across a wide range of soil textures as a function of vegetation cover and soil texture. Critical shear values corresponding to the developed rill and interrill erodibility parameters were proposed. Our results show that the new erodibility approach predicts erosion at the plot scale with a satisfactory range of error (PBIAS =35.6 and Nash-Sutcliffe efficiency = 0.49). The new approach was used to provide soil erodibility values for the Erosion Risk Management Tool (ERMiT), which uses WEPP as the runoff and erosion calculation engine.
-$Keywords=ERMiT, Erosion, Interrill, Rangeland management, Rill, Shrub, Soil burn severity, WEPP
-$type=
-$treesearch=
-$plynx=
-$links=<a href="/2022/Robichaud2022a/(A)Al-Hamdan_etal._2022_Trans_ASABE_Erobidility_ERMiT_Rangelands.pdf" target="_pdf">PDF</a> [755 KB]
 #2021e###############################################
 $Title=Movement of Sediment Through a Burned Landscape:Sediment Volume Observations and Model Comparisons in the San Gabriel Mountains, California, USA.
 $Year=2021
