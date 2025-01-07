@@ -1,3 +1,320 @@
+#2024c###############################################
+$Title=Informing Sustainable Forest Management: Remote Sensing Strategies for Assessing Soil Disturbance after: Wildfire and Salvage Logging.
+$Year=2024
+$Authors=Lewis, Robichaud, Hudak
+$Citationt=Lewis S.A., Robichaud P.R., Archer V.A., Hudak A.T., Eitel J.U.H., Strand E.K. 2024.
+ <i><a>Informing Sustainable Forest Management: Remote Sensing Strategies for Assessing Soil Disturbance after: Wildfire and Salvage Logging.</a></i>
+ <b>Forests (2024).</b> 14, 2218 DOI: 10.3390/f14112218.
+$category=
+$Publisher=MDPI
+$Abstract=Wildfires have nearly become a guaranteed annual event in most western National Forests. Severe fire effects can be mitigated with a goal of minimizing the hydrologic response and promoting soil and vegetation recovery towards the pre-disturbance condition. Sometimes, post-fire actions include salvage logging to recover timber value and to remove excess fuels. Salvage logging was conducted after three large wildfires on the Lolo National Forest in Montana, USA, between 2017 and 2019. We evaluated detrimental soil disturbance (DSD) on seven units that were burned at low, moderate, and high soil burn severity in 2022, three to five years after the logging occurred. We found a range of exposed soil of 5%–25% and DSD from 3% to 20%, and these values were significantly correlated at r = 0.88. Very-high-resolutionWorldView-2 imagery that coincided with the field campaign was used to calculate Normal Differenced Vegetation Index (NDVI) across the salvaged areas; we found that NDVI values were significantly correlated to DSD at r = 0.87. We were able to further examine this relationship and determined NDVI threshold values that corresponded to high-DSD areas, as well as develop a model to estimate the contributions of equipment type, seasonality, topography, and burn severity to DSD. A decision-making tool which combines these factors and NDVI is presented to support land managers in planning, evaluating, and monitoring disturbance from post-fire salvage logging.
+$Keywords=salvage logging; soil burn severity; WorldView; NDVI; detrimental soil disturbance
+$type=
+$treesearch=
+$plynx=
+$links=<a href="/2024/Lewis2024c/(C)Lewis_et_al_2024_Forest_Remote_sense_salvage.pdf" target="_pdf">PDF</a> [7,863 KB]
+#2024b###############################################
+$Title=Runoff And Erosion Following A Prescribed Fire On A Sagebrush-Steppe Rangeland In Idaho, Usa.
+$Year=2024
+$Authors=Elliot
+$Citationt=Elliot W.J. 2024
+ <i><a>Runoff And Erosion Following A Prescribed Fire On A Sagebrush-Steppe Rangeland In Idaho, USA.</a></i>
+ <b>ASABE (2024).</b> 67(6), 1481-1498 DOI: 10.13031/ja.15738.
+$category=
+$Publisher=American Society of Agricultural and Biological Engineers
+$Abstract=A study was carried out to compare runoff and erosion from natural rainfall on plots that had been treated with prescribed fire to unburned plots on a sagebrush-steppe rangeland in Southeast Idaho, U.S. Prescribed fire on rangeland sites is intended to maintain healthy shrub-steppe ecosystems but sometimes results in undesirable consequences such as increased runoff and soil erosion. Information is lacking on plot-scale erosion studies from natural precipitation in this ecosystem. Such plot-scale studies are needed to better understand sediment sources (uplands or channels) to support the management and modeling of rangeland watersheds. In this study, there were two treatments: four prescribed burn plots and three adjacent unburned control plots. Runoff and erosion were measured from natural rainfall for water years (WY) 2004 to 2010 following a prescribed burn in October 2003. Runoff and erosion were also measured from nearby unburned plots for WY 2005–2010. Ground cover on the burned plots averaged 57% (standard error (s.e. = 4%) in the summer of 2004, compared to 95% (s.e. = 5%) on the unburned plots. By the end of the study in 2010, ground cover had increased to 81% (s.e. = 4%) on the burned plots but decreased to 74% (s.e. = 5%) on the unburned plots. Annual runoff averaged 6 mm (s.e. = 7) from four burned plots, compared to 34 mm (s.e. = 8.7) from three unburned plots. In WY 2006, high rates of runoff from snowmelt on the unburned plots resulted in 122 mm (s.e. = 16) of runoff compared to only 12 mm (s.e. = 14) of runoff from the burned plots. An analysis of variance showed significant differences in runoff due to either precipitation (p = 0002) or year (p = 0.004) and treatment (burned vs. unburned; p=0.03). There were also significant differences in seasonal runoff (p = 0.05), as 90% of the measured runoff occurred in the spring, with all large runoff events associated with snowmelt. Erosion on the burned plots averaged 233 kg ha-1 (s.e. = 21) compared to 133 kg ha-1 (s.e. = 29) on the unburned plots. From two years after the burn and for the remainder of the study, there were no significant differences in erosion between burned and unburned plots (p < 0.05). Future studies are needed to link upland runoff and erosion with channel deposition, erosion, and sediment delivery, and more detailed studies on erosion associated with snowmelt on rangelands are needed to aid in the development of watershed modeling tools. Future studies should include observations of plant community regeneration in addition to ground cover, runoff, and sediment delivery.
+$Keywords=Erosion, Hydrology, Prescribed fire, Rangelands
+$type=
+$treesearch=
+$plynx=
+$links=<a href="/2024/Elliot2024b/(B)Elliot_2024_Rangeland_Erosion.pdf" target="_pdf">PDF</a> [5,515 KB]
+#2024a###############################################
+$Title=Corrigendum To “Estimating Wepp Cropland Erodibility Values From Soil Properties”.
+$Year=2024
+$Authors=Elliot
+$Citationt=Elliot W.J., Flanagan D.C. 2024.
+ <i><a> Corrigendum To “Estimating Wepp Cropland Erodibility Values From Soil Properties”.</a></i>
+ <b>ASABE (2024).</b> 67(5), 1241-1244 DOI: 10.13031/ja.16069.
+$category=
+$Publisher=American Society of Agricultural and Biological Engineers
+$Abstract=In Elliot and Flanagan (2023), the interrill and rill soil erodibility of 36 cropland soils was reported, along with correlations among soil erodibility and other soil properties, and equations to estimate erodibility from readily measured soil properties. Early versions of the Water Erosion Prediction Project (WEPP) model had linked interrill detachment rate to the square of the rainfall intensity and an interrill soil erodibility constant Ki1. By the time the WEPP model was released for general use in 1995, the developers had changed the interrill detachment rate to be a function of the product of rainfall intensity and runoff and a different interrill erodibility constant, Ki2. The interrill erodibilities (Ki2) with this altered relationship were not the same as Ki1 values developed to support earlier releases of the WEPP model. The authors, when reviewing some of the past literature supporting Elliot and Flanagan (2023), had mistakenly reported Ki2 values when the numbers reported were in fact Ki1 values. A closer examination of the entire data set and the identification of a published source for the correct Ki2 values confirmed this mistake. This corrigendum reports the corrected Ki2 values, the correlation of those revised values with other soil properties, and confirmation of a 1995 regression equation relating Ki2 to three readily measured soil properties: sand content, very fine sand content, and clay content. The coefficient of determination for the 1995 regression equation was 0.80. We recommend that all references to Ki2 in Elliot and Flanagan (2023) be changed to Ki1 except the discussion about the findings of Mirzaee and Ghorbani-Dashtaki (2021), discussion about Ki2 in Alberts et al. (1995), and equations 2 and A16. A marked up copy of Elliot and Flanagan (2023) showing these changes can be downloaded from https://www.fs.usda.gov/rm/pubs_journals/2023/rmrs_2023_elliot_w001_corr.pdf.
+$Keywords=Cropland Soils, Interrill Erodibility, Water Erosion Prediction Project.
+$type=
+$treesearch=
+$plynx=
+$links=<a href="/2024/Elliot2024a/(A)Elliot_Flanagan_2024_Interrill_Erodibility.pdf" target="_pdf">PDF</a> [444 KB]
+#2023k###############################################
+$Title=Mitigating Potential Sediment Delivery from Post-Fire Salvage Logging.
+$Year=2023
+$Authors=Wagenbrenner
+$Citationt=Wagenbrenner J., Coe D., and Olsen W. 2023.
+ <i><a>Mitigating Potential Sediment Delivery from Post-Fire Salvage Logging.</a></i>
+ <b>California Forestry Report (2023).</b> No.7 February 2023.
+$category=
+$Publisher=California Department of Forestry & Fire Protection
+$Abstract=Post-fire salvage logging using ground-based heavy equipment can impact soils and vegetation, and lead to various effects that can increase or decrease post-fire runoff and erosion (removal of soil or sediment from its initial position). This document briefly outlines the current understanding of these effects and provides an overview of best management practices (BMPs) designed to mitigate the negative effects related to sediment delivery to streams and other aquatic resources. It is based on the best available scientific information regarding BMPs that may be used to reduce sediment delivery from post-fire salvage logging activities as well as the authors’ knowledge on this topic. The document is intended to complement state, regional, and national regulations and/or guidance for timber harvest activities in unburned and burned forests (California Department of Forestry and Fire Protection (CAL FIRE), 2023; U.S. Environmental Protection Agency, 2005; USDA Forest Service, 2000, 2012). This document focuses on implementation on lands subject to California’s Forest Practice Rules (FPRs), although the process-based approach allows more broad application of this guidance with appropriate caution, including consideration for climate, landscape setting, and operational conditions or constraints. The primary audience for this document is forestry and watershed professionals. Abbreviated operational guidance will be provided for licensed timber operators in a subsequent product. Research results informing the various effects and guidance are provided in reference materials. No attempt is made to address the ecological aspects of post-fire salvage logging, which are covered elsewhere. Site preparation for reforestation can occur with or without salvage logging, but few studies have addressed the effects of those practices on runoff and erosion (Cole et al., 2020). Similarly, this document does not address best management practices for fire suppression repair, although some of the practices presented herein may apply to suppression repair activities.
+$Keywords=Salvage Logging, Soil erosion, Postfire assessment, Water quality
+$type=
+$treesearch=
+$plynx=
+$links=<a href="/2023/Wagenbrenner2023k/(K)2023_CALIFORNIA_FORESTRY_NOTE_Salvage_Guidance.pdf" target="_pdf">PDF</a> [2,700 KB]
+#2023j###############################################
+$Title=Chemical characteristics of wildfire ash across the globe and their environmental and socio-economic implications.
+$Year=2023
+$Authors=Robichaud
+$Citationt=S´anchez-García C., Santín C., Neris J., Sigmund G., Otero X.L., Manley J., Gonz´alez-Rodríguez G., Belcher C.M., Cerd`a A., Marcotte A.L., Murphy S.F., Rhoades C., Sheridan G., Strydom T., Robichaud P.R., Doerr S.H. 2023.
+ <i><a>Chemical characteristics of wildfire ash across the globe and their environmental and socio-economic implications.</a></i>
+ <b>Environment International (2023).</b> 178,108065 DOI: 10.1016/j.envint.2023.108065.
+$category=
+$Publisher=Elsevier Ltd.
+$Abstract=The mobilization of potentially harmful chemical constituents in wildfire ash can be a major consequence of wildfires, posing widespread societal risks. Knowledge of wildfire ash chemical composition is crucial to anticipate and mitigate these risks. Here we present a comprehensive dataset on the chemical characteristics of a wide range of wildfire ashes (42 types and a total of 148 samples) from wildfires across the globe and examine their potential societal and environmental implications. An extensive review of studies analysing chemical composition in ash was also performed to complement and compare our ash dataset. Most ashes in our dataset had an alkaline reaction (mean pH 8.8, ranging between 6 and 11.2). Important constituents of wildfire ash were organic carbon (mean: 204 g kg􀀀 1), calcium, aluminium, and iron (mean: 47.9, 17.9 and 17.1 g kg􀀀 1). Mean nitrogen and phosphorus ranged between 1 and 25 g kg􀀀 1, and between 0.2 and 9.9 g kg􀀀 1, respectively. The largest concentrations of metals of concern for human and ecosystem health were observed for manganese (mean: 1488 mg kg􀀀 1; three ecosystems > 1000 mg kg􀀀 1), zinc (mean: 181 mg kg􀀀 1; two ecosystems > 500 mg kg􀀀 1) and lead (mean: 66.9 mg kg􀀀 1; two ecosystems > 200 mg kg􀀀 1). Burn severity and sampling timing were key factors influencing ash chemical characteristics like pH, carbon and nitrogen concentrations. The highest readily dissolvable fractions (as a % of ash dry weight) in water were observed for sodium (18 %) and magnesium (11.4 %). Although concentrations of elements of concern were very close to, or exceeded international contamination standards in some ashes, the actual effect of ash will depend on factors like ash loads and the dilution into environmental matrices such as water, soil and sediment. Our approach can serve as an initial methodological standardization of wildfire ash sampling and chemical analysis protocols.
+$Keywords=Water contamination and eutrophication, Wildfire impacts, Mobilization, Water quality, Ash redistribution, Biogeochemical cycles
+$type=
+$treesearch=
+$plynx=
+$links=<a href="/2023/Robichaud2023j/(J)Sanchez_et_al._2023_Envir_Intl_Wildfire-Ash.pdf" target="_pdf">PDF</a> [6,026 KB]
+#2023i###############################################
+$Title=Post-Fire Field Guide: Create and Use Post-Fire Soil Burn Severity Maps.
+$Year=2023
+$Authors=Robichaud
+$Citationt=Robichaud P.R. 2023.
+ <i><a>Post-Fire Field Guide: Create and Use Post-Fire Soil Burn Severity Maps.</a></i>
+ <b>Rocky Mountain Research Station Science You Can Use (2023).</b> October 2023.
+$category=
+$Publisher=USDA Forest Service Research & Development.
+$Abstract=In the weeks following the 2022 Cedar Creek Fire, an Interagency Burned Area Emergency Response (BAER) team was mobilized to identify and mitigate risks to human life and safety and critical water resources in the surrounding communities, including Oakridge, Oregon. During their assessment, the BAER team used a field guide developed by the Rocky Mountain Research Station to create a soil burn severity map and identify areas prone to elevated erosion. Their field work led to quick assessment of potential harm to water quality in Waldo Lake.
+$Keywords=BAER, Burn severity, Soil erosion, Postfire assessment, Water quality
+$type=
+$treesearch=
+$plynx=
+$links=<a href="/2023/Robichaud2023i/(I)Robichaud_SYU5_2023_10_soil_map_en.pdf" target="_pdf">PDF</a> [3,003 KB]
+#2023h###############################################
+$Title=Drinking water under fire: Water utilities' vulnerability to wildfires in the Pacific Northwest.
+$Year=2023
+$Authors=Robichaud
+$Citationt=Robichaud P.R., Padowski, J.C. 2023.
+ <i><a>Drinking water under fire: Water utilities' vulnerability to wildfires in the Pacific Northwest.</a></i>
+ <b>Journal of the American Water Resources Association (2023).</b> 00,1–13 DOI: 10.1111/1752-1688.13174.
+$category=
+$Publisher=Wiley Periodicals LLC
+$Abstract=Increased wildfire activity in the western United States can lead to detrimental cascading effects to water quality. After fires, burned areas may experience significant runoff-induced erosion and sediment transport into rivers and reservoirs, which could rapidly overwhelm existing drinking water treatment plants. This paper couples an assessment of wildfire risk with an evaluation of water utility preparedness to understand where key fire-related drinking water vulnerabilities exist. Wildfire risk assessments were constructed and expanded from a commonly used methodology codeveloped between researchers and water managers (Edel et al., 2002), to understand drinking water impacts on water quality after wildfires. A water utility preparedness index was created for this study using publicly available information to contextualize how well utilities may be able to respond to water quality degradation after fires. Results indicate that 22% of utilities studied (10% of the population served) were underprepared for fire and 11% of watersheds used were at greater risk of wildfire (9% of the population served). However, nearly three-quarters of utilities (76% of the population served) showed a moderate risk of fire and some need for improved fire preparedness. Information developed here could provide a useful framework from which utility managers can better assess their likely wildfire risk and preparation plans. 
+$Keywords=wildfire, source water, water utilities, preparedness
+$type=
+$treesearch=
+$plynx=
+$links=<a href="/2023/Robichaud2023h/(H)Robichaud_PJL_Padowski_2023_J_American_Water_Resour_Assoc_Drinking_Water_Under_Fire.pdf" target="_pdf">PDF</a> [12,866 KB]
+#2023g###############################################
+$Title=Characterization of Environmental Seismic Signals in a Post-Wildfire Environment: Examples from the Museum Fire, AZ.
+$Year=2023
+$Authors=Robichaud
+$Citationt=Porter R., Joyal T., Beers R., Youberg A., Loverich J., Schenk E., Robichaud P.R. 2023.
+ <i><a>Characterization of Environmental Seismic Signals in a Post-Wildfire Environment: Examples from the Museum Fire, AZ.</a></i>
+ <b>Journal of Geophysical Research: Earth Surface (2023).</b> 128. DOI: 10.1029/2022JF006962.
+$category=
+$Publisher=American Geophysical Union
+$Abstract=The 2019 Museum Fire burned in a mountainous region near the city of Flagstaff, AZ, USA. Due to the high risk of post-fire debris flows and flooding entering the city, we deployed a network of seismometers within the burn area and downstream drainages to examine the efficacy of seismic monitoring for post-fire flows. Seismic instruments were deployed during the 2019, 2020, and 2021 monsoon seasons following the fire and recorded several debris flow and flood events, as well as signals associated with rainfall, lightning and wind. Signal power, frequency content, and wave polarization were measured for multiple events and compared to rain gauge records and images recorded by cameras installed in the study area. We use these data to test the efficacy of seismic recordings to (a) detect and differentiate between different energy sources, (b) estimate the timing of lightning strikes, (c) calculate rainfall intensities, and (d) determine debris flow timing, size, velocity, and location. We then calculate forward models of seismic signals associated with debris flows and rainfall to better interpret our results and characterize these events. Our observations and modeling show that we can differentiate between these sources and that seismic data can provide insight into post-fire debris flow characteristics, including relative particle sizes and velocity.
+$Keywords= Postfire, Debris flows, Rainfall, Burned areas, Flood detection
+$type=
+$treesearch=
+$plynx=
+$links=<a href="/2023/Robichaud2023g/(G)Porter_et_al_2023_JGR_Earth_Surface-Character_Seismic_Signals_Post‐Wildfire_Museum_Fire.pdf" target="_pdf">PDF</a> [6,459 KB]
+#2023f###############################################
+$Title=Soil erosion after fire in volcanic terrain: Assessment and implications for post-fire soil losses.
+$Year=2023
+$Authors=Robichaud, Wagenbrenner, Brown,
+$Citationt=Neris J., Robichaud P.R., Wagenbrenner J.W., Brown R.E., Doerr S.H. 2023.
+ <i><a>Soil erosion after fire in volcanic terrain: Assessment and implications for post-fire soil losses.</a></i>
+ <b>Journal of Hydrology (2023).</b> 625,129923 DOI: 10.1016/j.jhydrol.2023.129923.
+$category=
+$Publisher=Elsevier B.V.
+$Abstract=Wildfires can dramatically modify the hydrologic and erosion response of ecosystems, increasing risks to population and assets downslope of fire affected hillslopes. This applies especially to volcanic areas in fire-prone regions which often exhibit steep terrain and high population densities. However, the effects of fire on key hydrologic and erosion parameters, which are critical for modelling runoff-erosion processes, predicting related post-fire risks and for selecting effective mitigation measures, have not been extensively assessed in this terrain type. Here we evaluate water erosion processes of two contrasting volcanic soils in recently burned forest areas of Tenerife (Canary Islands, Spain) at hillslope scale using erosion plots monitoring and rill erosion simulation experiments. The results show that both the lithology and the degree of weathering of the volcanic material govern the post-fire water erosion by concentrated flow (rill erosion experiments) and by the combination of interrill and rill erosion (erosion plots). Mature volcanic soils showed less susceptibility to erosion than weakly weathered volcanic soils and soils with non-volcanic lithologies. The results also show that the availability of easily detachable and transportable soil particles swiftly decreases after the fire, leading to the exhaustion of sediments and a decrease of the erosion rates with cumulative runoff events. These findings have direct implications for the modelling of runoff-erosion processes in volcanic terrain.
+$Keywords=Wildfire, Runoff-erosion processes, Rill erosion, Sediment exhaustion, Andisols, Post-fire management
+$type=
+$treesearch=
+$plynx=
+$links=<a href="/2023/Robichaud2023f/(F)Neris_et_al._2023_J_Hydrology_Postfire_erosion_volcanic_soils.pdf" target="_pdf">PDF</a> [4,532 KB]
+#2023e###############################################
+$Title=Informing Sustainable Forest Management: Remote Sensing Strategies for Assessing Soil Disturbance after Wildfire and Salvage Logging.
+$Year=2023
+$Authors=Lewis, Hudak, Robichaud
+$Citationt=Lewis S.A., Robichaud P.R., Archer V.A., Hudak A.T., Eitel J.U.H., Strand E.K. 2023.
+ <i><a>Informing Sustainable Forest Management: Remote Sensing Strategies for Assessing Soil Disturbance after Wildfire and Salvage Logging.</a></i>
+ <b>Forests (2023).</b>14,2218. DOI: 10.3390/f14112218.
+$category=
+$Publisher=MDPI
+$Abstract=Wildfires have nearly become a guaranteed annual event in most western National Forests. Severe fire effects can be mitigated with a goal of minimizing the hydrologic response and promoting soil and vegetation recovery towards the pre-disturbance condition. Sometimes, post-fire actions include salvage logging to recover timber value and to remove excess fuels. Salvage logging was conducted after three large wildfires on the Lolo National Forest in Montana, USA, between 2017 and 2019. We evaluated detrimental soil disturbance (DSD) on seven units that were burned at low, moderate, and high soil burn severity in 2022, three to five years after the logging occurred. We found a range of exposed soil of 5%–25% and DSD from 3% to 20%, and these values were significantly correlated at r = 0.88. Very-high-resolutionWorldView-2 imagery that coincided with the field campaign was used to calculate Normal Differenced Vegetation Index (NDVI) across the salvaged areas; we found that NDVI values were significantly correlated to DSD at r = 0.87. We were able to further examine this relationship and determined NDVI threshold values that corresponded to high-DSD areas, as well as develop a model to estimate the contributions of equipment type, seasonality, topography, and burn severity to DSD. A decision-making tool which combines these factors and NDVI is presented to support land managers in planning, evaluating, and monitoring disturbance from post-fire salvage logging.
+$Keywords=Salvage Logging; Soil Burn Severity; Worldview; NDVI; Detrimental Soil Disturbance
+$type=
+$treesearch=
+$plynx=
+$links=<a href="/2023/Lewis2023e/(E)Lewis_et_al.2023_Forests_Salvage_logging_detrimental_soil_disturbance_mapping.pdf" target="_pdf">PDF</a> [7,863 KB] 
+#2023d###############################################
+$Title=Drinking water under fire: Water utilities' vulnerability to wildfires in the Pacific Northwest.
+$Year=2023
+$Authors=Robichaud
+$Citationt=Robichaud P.R., Padowski J.C. 2023.
+ <i><a>Drinking water under fire: Water utilities' vulnerability to wildfires in the Pacific Northwest.</a></i>
+ <b>J Am Water Resour Assoc. (2023).</b> 60,590–602 DOI: 10.1111/1752-1688.13174.
+$category=
+$Publisher=Wiley Periodicals LLC
+$Abstract=Increased wildfire activity in the western United States can lead to detrimental cascading effects to water quality. After fires, burned areas may experience significant runoff-induced erosion and sediment transport into rivers and reservoirs, which could rapidly overwhelm existing drinking water treatment plants. This paper couples an assessment of wildfire risk with an evaluation of water utility preparedness to understand where key fire-related drinking water vulnerabilities exist. Wildfire risk assessments were constructed and expanded from a commonly used methodology codeveloped between researchers and water managers (Edel et al., 2002), to understand drinking water impacts on water quality after wildfires. A water utility preparedness index was created for this study using publicly available information to contextualize how well utilities may be able to respond to water quality degradation after fires. Results indicate that 22% of utilities studied (10% of the population served) were underprepared for fire and 11% of watersheds used were at greater risk of wildfire (9% of the population served). However, nearly three-quarters of utilities (76% of the population served) showed a moderate risk of fire and some need for improved fire preparedness. Information developed here could provide a useful framework from which utility managers can better assess their likely wildfire risk and preparation plans.
+$Keywords=Wildfire, Source Water, Water Utilities, Preparedness
+$type=
+$treesearch=
+$plynx=
+$links=<a href="/2023/Robichaud2023d/(D)J_American_Water_Resour_Assoc-2023-Robichaud-Drinking_water_under_fire_Water_utilities_vulnerability_to_wildfires.pdf" target="_pdf">PDF</a> [12,886 KB]
+#2023c###############################################
+$Title=Measuring and Modeling Impacts of Gravel Road Design On Sediment Generation In The Southeastern U.S.
+$Year=2023
+$Authors=Elliot, Lewis
+$Citationt=Elliot J.W., Lewis S.A., Cannard C.L. 2023.
+ <i><a> Measuring and Modeling Impacts of Gravel Road Design On Sediment Generation In The Southeastern U.S.</a></i>
+ <b>ASABE (2023).</b> 66(5),1229-1254 DOI: doi.org/10.13031/ja.15539.
+$category=
+$Publisher=ASABE
+$Abstract=The purposes of this study were to support a watershed modeling analysis by evaluating the ability to the Water Erosion Prediction Project (WEPP) model to estimate sediment generated by high traffic gravel roads, and to determine the erodibility of two designs of high-traffic gravel roads. In many watersheds, the road network can be a major source of sediment. The ability to predict erosion from roads, evaluate the effects of design and management on road sedimentation, and compare sediment from roads to other sources of sediment in the watershed is an ongoing need by watershed managers. The Water Erosion Prediction Project (WEPP) model is a widely used model for predicting sediment from forest roads. There has, however, been little information published on erosion from high traffic gravel roads and WEPP applications to such roads. To evaluate road erosion predictions, a study was conducted incorporating two road designs at Fort Benning, Georgia, U.S. One design followed a common practice of starting with a native material road and adding gravel and grading as required. Erosion and rutting on the road surface were common occurrences on this type of road. The improved design was a “graded aggregate base” design, built with compacted aggregate layers. To evaluate erosion risks for these two road designs, runoff and sediment delivery were measured from ten plots ranging in size from 63 to 150 m2. Runoff depths up to 50 mm occurred from daily rainfall amounts up to nearly 60 mm, with least square mean event runoff values of 6.5 mm from unimproved plots and 14.9 mm from improved road plots. Delivered sediment ranged from zero to 18 Mg ha-1 from individual storms with least square mean amounts of 2.27 Mg ha-1 of sediment delivered from unimproved road plots compared to only 0.026 Mg ha-1 delivered from improved road design plots for a given runoff event. Hydraulic conductivity was found by calibration to be 3.0 mm h-1 for unimproved roads and 1.3 mm h-1 for improved road segments. Rill erodibility was 0.09 s m-1 for unimproved roads and 0.0008 s m-1 for improved roads, values that were greater than had been measured on road erosion studies elsewhere that were typically less than 0.0004 s m-1. The critical shear for the unimproved roads was the minimum that the WEPP model would accept, 0.0001 Pa, but was a more typical value of 1.5 Pa for the improved road segments. When applying the calibrated erodibility values to a validation data set, the Willmott indices of agreement were 0.62 and 0.82 for runoff for unimproved and improved roads, respectively, and 0.67 and 0.66 for sediment delivery from unimproved and improved roads, respectively, indicating good agreement between observed and WEPP-estimated runoff and erosion rates. A sensitivity analysis and calibration analysis found that the WEPP model was not sensitive to interrill erosion for this application. A sensitivity analysis coupled with a WEPP validation analysis showed that WEPP could incorporate weather, topography, soil, and road design features to predict sediment delivery from highly erodible road segments. The study suggests that there is a need for a simulated runoff study to determine high values of rill erodibility more precisely on unimproved high traffic roads, and that there is a need to incorporate more erodible road erodibility values into the online WEPP:Road interface for the WEPP model. The road erosion rates and effectiveness of improved road designs for reducing off-road sediment reported in this study will be useful to managers seeking to quantify and reduce road erosion.
+$Keywords=Erodibility, Gravel Roads, Soil Erosion, WEPP.
+$type=
+$treesearch=
+$plynx=
+$links=<a href="/2023/Elliot2023c/(C)Elliot_Lewis_et_al_2023_ ASABE_gravel_roads_erosion.pdf" target="_pdf">PDF</a> [3,798 KB]
+#2023b###############################################
+$Title=Estimating WEPP Cropland Erodibility Values from Soil Properties.
+$Year=2023
+$Authors=Elliot
+$Citationt=Elliot W.J., Flanagan, D.C. 2021.
+ <i><a>Estimating WEPP Cropland Erodibility Values from Soil Properties.</a></i>
+ <b>ASABE (2023).</b> 66(2),329-351 DOI: 10.13031/ja.15218.
+$category=
+$Publisher=ASABE
+$Abstract=In the late 1980s, the USDA Agricultural Research Service, along with other federal agencies and multiple universities, collaborated to develop a new physically based soil erosion model, the Water Erosion Prediction Project (WEPP) Model. The WEPP model was intended to replace the Universal Soil Loss Equation and was to include estimates for upland runoff and erosion, sediment delivery to first order channels, and runoff and sediment routing through a down-stream channel network. The WEPP technology estimated erosion from raindrop splash and sheet flow (interrill erosion) and concentrated channel flow (rill erosion). To make these erosion estimates, WEPP required new soil erodibility values for interrill erodibility (Ki). rill erodibility (Kr), and critical shear (𝜏𝜏c) for concentrated flow erosion. The WEPP Core team determined that they needed to estimate these three erodibility values from measurable soil properties for a wide range of soil conditions. To develop relationships between WEPP soil erodibility variables and other soil properties, a field study was carried out using rainfall and runoff simulation to measure the three erodibility values for 36 soils. Sites were identified on croplands from Washington to Georgia and Maine to California, USA for erodibility measurement. Concurrently, the USDA Soil Conservation Service (SCS) carried out detailed soil surveys and laboratory analyses for all sites to provide a large database of soil physical, chemical, and engineering properties. Correlation and regression analyses were carried out to develop relationships between SCS measurable soil properties and WEPP soil erodibility values. This article provides a summary of the field procedures, data analyses, and subsequent predictive equations that were developed. The predictive equations that were finalized in the WEPP User Summary used sand, very fine sand, clay, and organic carbon contents to predict cropland soil erodibility, but the Coefficient of Determination (r2) values were 0.55 or less. More complex predictive equations were developed with soil physical, chemical, mineralogical, and geomorphic properties, with r2 values up to 0.81. Most of the better predictive equations included terms for soil texture and clay mineralogy, often with additional chemical properties. A set of simplified erodibility equations using only the readily available properties of soil texture, organic car-bon, cation exchange capacity, slope steepness, and taxonomic order were derived for use within the WEPP Model, with r2 values greater than 0.5 for all three equations for estimating soil erodibility from measurable soil properties.
+$Keywords=Critical Shear, Interrill, Erodibility, Rill, Erodibility, Soil Properties, WEPP
+$type=
+$treesearch=
+$plynx=
+$links=<a href="/2023/Elliot2023b/(B)Elliot_Flanagan_2023_ASABE_Estimating_Erodibility.pdf" target="_pdf">PDF</a> [1,803 KB]
+#2023a###############################################
+$Title=Changes in Soil Properties over Time after a Wildfire and Implications to Slope Stability.
+$Year=2023
+$Authors=Robichaud
+$Citationt=Akin I.D., Akinleye T.O., Robichaud P.R. 2023.
+ <i><a>Changes in Soil Properties over Time after a Wildfire and Implications to Slope Stability.</a></i>
+ <b>Geotech Geoenviron Eng (2023).</b>149(7),04023045 DOI: 10.1061/JGGEFK.GTENG-11348.
+$category=
+$Publisher=ASCE
+$Abstract=Post wildfire forests are dynamic environments. Wetting-induced shallow landslides are observed at varying times after wildfires, but the reasons are not fully known. This study investigates the time-dependent changes in soil properties and mechanical and hydrologic soil behavior of hillslopes after the 2019 Williams Flats Wildfire near Keller, WA and demonstrates the implications of these changes to slope stability. Soil water repellency, organic content, fine content, soil water retention curve, hydraulic conductivity, friction angle, and in-situ suction-saturation data provides initial evidence that soil properties fluctuate over a year after the wildfire. The results therefore suggest that
+soil properties that are measured immediately after the wildfire are misleading for long-term slope stability analysis. The stability of a steep (45°) slope is found to be most affected by the fluctuations in friction angle and soil water retention over the year. The comparison of suction saturation response near a burned and unburned location demonstrates the effects of macropores that are formed after the wildfire and evapotranspiration on slope stability. The hillslope stability at the unburned location reduces rapidly in April upon snowmelt, whereas the stability at the burned location, which has macropores, shows the rapid decrease in late-January, with the onset of snowfall.
+$Keywords=Postfire, Landslides, Slope Stability, Wildfire, Soil Hydrology, Erosion
+$type=
+$treesearch=
+$plynx=
+$links=<a href="/2023/Robichaud2023a/(A)Akin_et_al._2023_J_Geotech_postfire_soil_slope_stability.pdf" target="_pdf">PDF</a> [1,302 KB]
+#2022g###############################################
+$Title=Guía de campo para trazar un mapa de la severidad de del incendio en el suelo.
+$Year=2022
+$Authors=Robichaud, Lewis
+$Citationt=Parsons A., Robichaud P.R., Lewis S.A., Napper C., Clark J.T. 2022.
+ <i><a>Guía de campo para trazar un mapa de la severidad de del incendio en el suelo.</a></i>
+ <b>Rocky Mountain Research Station (2022).</b> RMRS-GTR-243.
+$category=
+$Publisher=US Forest Service Traducción proporcionada por Schreiber Translations, Inc.
+$Abstract=Tras los incendios forestales en Estados Unidos, el Departamento de Agricultura y el Departamento del Interior movilizan equipos de respuesta de emergencia en zonas quemadas (BAER) para evaluar las condiciones inmediatas de las cuencas hidrográficas tras el incendio. Los equipos BAER deben determinar las amenazas de inundación, erosión del suelo e inestabilidad. La elaboración de un mapa de severidad del incendio en el suelo tras el incendio es un primer paso importante en el proceso de evaluación rápida. Permite a los equipos de BAER priorizar las revisiones de campo y localizar las zonas quemadas que pueden suponer un riesgo para los valores críticos dentro o aguas abajo de la zona quemada. Al ayudar a identificar los indicadores de las condiciones del suelo que diferencian las clases de severidad del incendio en el suelo, esta guía de campo ayudará a los equipos de BAER a interpretar, validar sobre el terreno y cartografiar de forma coherente la severidad del incendio en el suelo.
+$Keywords=BAER, series fotográficas, cartografía posterior al incendio, rehabilitación posterior al incendio, teledetección
+$type=
+$treesearch=
+$plynx=
+$links=<a href="/2022/Robichaud2022g/(G)Parsons_et_al_2022_Suelo_Incendio_Guia_RMRS_GTR243_ES.pdf" target="_pdf">PDF</a> [6,496 KB]
+#2022f###############################################
+$Title=WEPPcloud: An online watershed-scale hydrologic modeling tool. Part I. Model description.
+$Year=2022
+$Authors=Lew, Dobre, Brooks, Elliot, Robichaud
+$Citationt=Lew R., Srivastava A., Brooks E.S., Elliot W.J., Robichaud P.R., Flanagan D.C. 2022.
+ <i><a>WEPPcloud: An online watershed-scale hydrologic modeling tool. Part I. Model description.</a></i>
+ <b>Journal of Hydrology (2022).</b> 608,127603 DOI: 10.1016/j.jhydrol.2022.127603.
+$category=
+$Publisher=Elsevier B.V.
+$Abstract=We developed a new online interface for the Water Erosion Prediction Project (WEPP) model (WEPPcloud) with a framework that allows the incorporation and development of several other models and applications to make hydrologic models more accessible to land managers and facilitate the decision-making process. All inputs to WEPP, such as topography, soils, land use, and weather, are automatically created from publicly available online international databases and converted into input formats readable by the model. The WEPPcloud interface can be applied to forested, cropland, and rangeland conditions, but it is specialized for undisturbed forest conditions, post-wildfire, and pre- and post-wildfire management scenarios such as forest thinning, prescribed fire, or postwildfire mulching. Users only need a computer or device with a web browser and an internet connection to perform advanced hydrologic simulations. All the model runs are stored remotely on WEPPcloud, which can be accessed by the users at any given time. This modeling tool is presented in two parts: Part I: Model description and parameterization, and Part II: Model performance assessment and applications to forest management and wildfires.
+$Keywords=Decision-support tools, Water Erosion Prediction Project, WEPPcloud, Gauged-ungauged watersheds, Soil erosion, Forest management, Post-fire
+$type=
+$treesearch=
+$plynx=
+$links=<a href="/2022/Lew2022f/(F)Lew_et_al_2022_J_Hydro_WEPPcloud_Part_I_Model_Description.pdf" target="_pdf">PDF</a> [13,137 KB]
+#2022e###############################################
+$Title=From burned slopes to streams: how wildfire affects nitrogen cycling and retention in forests and fire-prone watersheds.
+$Year=2022
+$Authors=Robichaud, Elliot
+$Citationt=Gustine R.N., Hanan E.J., Robichaud P.R., Elliot W.J. 2022.
+ <i><a>From burned slopes to streams: how wildfire affects nitrogen cycling and retention in forests and fire-prone watersheds.</a></i>
+ <b>Biogeochemistry (2022).</b> 157,51–68 DOI: 10.1007/s10533-021-00861-0.
+$category=
+$Publisher=Springer
+$Abstract=Wildfire is a major driver of nitrogen (N) cycling and export from terrestrial to aquatic systems. While fire is a natural process in many watersheds, it can still degrade water quality by rapidly flushing N to streams. This can be particularly problematic in watersheds that experience high levels of N deposition or where climate change is promoting larger and more severe fires. The extent and duration of postfire N export, and the potential consequences for downstream water quality, depend on how N inputs, internal cycling, and outputs vary before, during, and after fire. Here we review the major factors controlling N cycling and retention in forests and adjacent shrublands, and how fire modifies these controls. We connect burned slopes to streams to describe how fire exports N to aquatic environments. We also consider the implications for municipal watersheds and water resources management. We close by identifying critical knowledge gaps in projecting how fire will affect watershed N cycling and retention in the future.
+$Keywords=Wildfire, Nitrogen cycling, Nitrogen retention, Water quality, Drinking water
+$type=
+$treesearch=
+$plynx=
+$links=<a href="/2022/Robichaud2022e/(E)Gustine_et_al_2022_BioBeoChemWildfire_and_Nitrogen.pdf" target="_pdf">PDF</a> [563 KB]
+#2022d###############################################
+$Title=WEPPcloud: An online watershed-scale hydrologic modeling tool. Part II. Model performance assessment and applications to forest management and wildfires.
+$Year=2022
+$Authors=Dobre, Lew, Brooks, Robichaud, Elliot
+$Citationt=Dobre M., Srivastava A., Lew R., Deval C., Brooks E.S., Elliot W.J., Robichaud P.R. 2022.
+ <i><a>WEPPcloud: An online watershed-scale hydrologic modeling tool. Part II. Model performance assessment and applications to forest management and wildfires.</a></i>
+ <b>Journal of Hydrology (2022).</b> 610:127776 DOI: 10.1016/j.jhydrol.2022.127776.
+$category=
+$Publisher=Elsevier B.V.
+$Abstract=Suspended sediment and nutrients following forest management activities or wildfires are transported to streams and lakes via surface runoff and are a major threat to water quality. Land and water managers resort to hydrologic models to test hypotheses that can help them make informed decisions to minimize disturbances and protect water resources. We present applications of an online interface, WEPPcloud, for the Water Erosion Prediction Project (WEPP) model as a pre- and post-disturbance management tool to model various gauged and ungauged forested watersheds throughout the western U.S. We compare simulated streamflow, sediment, and phosphorus to observations at USGS gauging stations and assess the accuracy of the online interface with minimal or no calibration. Specifically, we present modeling results from 28 relatively undisturbed forested watersheds in the states of California, Nevada, Oregon, Washington, and Idaho. Across all watersheds, the NSEs based on the daily streamflow values, were in the range of 0.43 to 0.64 indicating satisfactory agreement between modeled and observed values. Similarly, annual average NSE for sediment yield was 0.61, while for phosphorus it was 0.75, 0.71, and 0.66, for total, particulate, and soluble reactive phosphorus, respectively. Additionally, we demonstrate the utility of the WEPPcloud interface as a tool to compare model results for ungauged watersheds from various disturbed conditions including prescribed fire, thinning, and wildfire to undisturbed model results to better understand the effects of forest management and wildfires on water quality and quantity.
+$Keywords=Decision-support tools, WEPPcloud, Gauged-ungauged watersheds, Soil erosion, Forest management, Phosphorous, Sediment yield
+$type=
+$treesearch=
+$plynx=
+$links=<a href="/2022/Dobre2022d/(D)Dobre_et_al._2022_J_Hydrology_WEPPcloud_Part_II.pdf" target="_pdf">PDF</a> [6,862 KB]
+#2022c###############################################
+$Title=WEPPcloud hydrologic and erosion simulation datasets from 28 watersheds in US Pacific Northwest and calibrating model parameters for undisturbed and disturbed forest management conditions.
+$Year=2022
+$Authors=Dobre, Lew, Elliot, Brooks, Robichaud
+$Citationt=Dobre, M., A. Srivastava, R. Lew, D. Chinmay, E.S. Brooks, W.J., Elliot, P.R. Robichaud 2022.
+ <i><a>WEPPcloud hydrologic and erosion simulation datasets from 28 watersheds in US Pacific Northwest and calibrating model parameters for undisturbed and disturbed forest management conditions.</a></i>
+ <b>Data in Brief (2022).</b> 42:108251 DOI: 10.1016/j.jhydrol.2022.127776.
+$category=
+$Publisher=Elsevier Inc.
+$Abstract=The WEPPcloud interface is a new online decision-support tool for the Water Erosion Prediction Project (WEPP) model that facilitates data preparation and model runs, and summarizes model outputs into tables and maps that are easily interpretable by users. The interface can be used by land and water managers in the United States, Europe, and Australia interested in simulating streamflow, sediment and pollutant loads from both undisturbed and disturbed (e.g. post- wildfire or post-treatment such as thinning or prescribed fires) forested watersheds. This article contains full hydro- logic model runs for 28 forested watersheds in the U.S. Pacific Northwest with the WEPPcloud online interface. It also includes links to repositories with the individual model runs, a table containing default model parameters for disturbed conditions, and figures with model outputs as compared to observed data. The data in the repositories include all the raw data input and output from the model as well as the processed data, which can be accessed through tables and shapefiles to provide additional insights into the model out- puts. Lastly, the article describes how the data are organized and the content of each folder containing the data. These model runs are useful for anyone interested in modeling forested watersheds with the WEPPcloud interface.
+$Keywords=Hydrologic model outputs, Water Erosion Prediction Project, WEPP, Forested watersheds, Calibration Decision-support tool
+$type=
+$treesearch=
+$plynx=
+$links=<a href="/2022/Dobre2022c/(C)Dobre_et_al_2022_Data_in_Brief_WEPPcloud.pdf" target="_pdf">PDF</a> [5,204 KB]
+#2022b###############################################
+$Title=Pi-VAT: A web-based visualization tool for decision support using spatially complex water quality model outputs.
+$Year=2022
+$Authors=Brooks, Dobre, Lew, Robichaud
+$Citationt=Deval C., Brooks E.S., Dobre M., Lew R., Robichaud P.R., et al, 2022.
+ <i><a>Pi-VAT: A web-based visualization tool for decision support using spatially
+complex water quality model outputs.</a></i>
+ <b>Journal of Hydrology (2022).</b> 607 DOI: 10.1016/j.jhydrol.2022.127529.
+$category=
+$Publisher=Elsevier B.V. 
+$Abstract=Effective watershed management and protection of water resources from non-point source pollution require identification, prioritization, and targeting of pollutant source areas. Process-based hydrology and water quality models are powerful heuristic tools for land and water resources managers. However, because of their complexity, such models are often under-utilized as management prioritization and planning tools. In this paper, we present a prioritization, interactive visualization, and analysis tool (Pi-VAT) that is programmed to synthesize multi-scenario, multi-watershed outputs from process-based geospatial models. We demonstrate the utility of Pi- VAT to examine simulated hydrologic, sediment, and water quality response at the hillslope/hydrologic response unit (HRU) scale. We apply Pi-VAT to output from multiple watersheds and for multiple management scenarios and treatments from two geospatial models for watershed management: Water Erosion Prediction Project (WEPP) and Soil & Water Assessment Tool (SWAT). Pi-VAT was developed using the Shiny web application framework for the R programming language. In a matter of minutes, Pi-VAT can synthesize overwhelming amounts of output from process-based models into information useful for land and water resources managers. We illustrate the use of Pi-VAT to interactively identify, quantify, and visualize areas that are most susceptible to disturbance under different scenarios and provide a synthesis approach based on land use, soil type, and slope steepness. This approach guides land and water resources managers in prioritizing the areas of the watershed that provide the maximum reduction in pollutant loads while treating the least amount of area. Pi-VAT provides a flexible reactive platform for the development of decision support tools based on process-based models intended for watershed management and research applications.
+$Keywords=Decision-support tools, Targeted management, Prioritization, Process-based models, WEPP, SWAT 
+$type=
+$treesearch=
+$plynx=
+$links=<a href="/2022/Brooks2022b/(B)Devan_et_al_2022_J_Hydro_PiVat_Interface.pdf" target="_pdf">PDF</a> [6,576 KB]
+#2022a###############################################
+$Title=New Erodibility Parameterization for Applying WEPP On Rangelands Using ERMiT.
+$Year=2022
+$Authors=Robichaud, Elliot
+$Citationt=Al-Hamdan O.Z., Pierson F.B., Robichaud P.R., et al, 2022.
+ <i><a>New Erodibility Parameterization For Applying WEPP On Rangelands Using ERMiT.</a></i>.
+ <b>Natural Resources & Environmental Systems Community of ASABE (2022).</b> 65,2 251-264. DOI: 10.13031/ja.14564.
+$category=
+$Publisher=American Society of Agricultural and Biological Engineers
+$Abstract=The USDA Water Erosion Prediction Project (WEPP) is a process-based soil erosion prediction model. WEPP uses three soil erodibility parameters: rill erodibility (Kr), interrill erodibility (Ki), and critical hydraulic shear stress (τc). In this study, a new parameterization approach for estimating erodibility was developed for WEPP applications on rangelands. Data from overland flow experiments on disturbed and undisturbed rangelands were used to develop empirical equations to predict rill erodibility variation as a function of vegetation cover and soil texture. Data from rainfall simulation experiments were analyzed by piecewise regression to develop empirical equations for predicting the variability of interrill erodibility before and after disturbance and across a wide range of soil textures as a function of vegetation cover and soil texture. Critical shear values corresponding to the developed rill and interrill erodibility parameters were proposed. Our results show that the new erodibility approach predicts erosion at the plot scale with a satisfactory range of error (PBIAS =35.6 and Nash-Sutcliffe efficiency = 0.49). The new approach was used to provide soil erodibility values for the Erosion Risk Management Tool (ERMiT), which uses WEPP as the runoff and erosion calculation engine.
+$Keywords=ERMiT, Erosion, Interrill, Rangeland management, Rill, Shrub, Soil burn severity, WEPP
+$type=
+$treesearch=
+$plynx=
+$links=<a href="/2022/Robichaud2022a/(A)Al-Hamdan_etal._2022_Trans_ASABE_Erobidility_ERMiT_Rangelands.pdf" target="_pdf">PDF</a> [755 KB]
 #2021e###############################################
 $Title=Movement of Sediment Through a Burned Landscape:Sediment Volume Observations and Model Comparisons in the San Gabriel Mountains, California, USA.
 $Year=2021
