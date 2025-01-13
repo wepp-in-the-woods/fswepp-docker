@@ -899,6 +899,21 @@ $type=
 $treesearch=
 $plynx=
 $links=<a href="/engr/library/Lewis/Lewis2017a/2017a.pdf" target="_pdf">PDF</a> [1.18 MB]
+#2016h###############################################
+$Title=Rapid-response tools and datasets for post-fire remediation: linking remote sensing and process-based hydrological models.
+$Year=2016
+$Authors=Elliot, Robichaud
+$Citationt=Miller M.E., Elliot W.J., Billmire M., Robichaud P.R., Endsley K.A. 2016
+ <i><a>Rapid-response tools and datasets for post-fire remediation: linking remote sensing and process-based hydrological models.</a></i>
+ <b>IAWF (2016).</b> 25, 1061–1073 DOI: 10.1071/WF15162.
+$category=
+$Publisher=CSIRO
+$Abstract=Post-wildfire flooding and erosion can threaten lives, property and natural resources. Increased peak flows and sediment delivery due to the loss of surface vegetation cover and fire-induced changes in soil properties are of great concern to public safety. Burn severity maps derived from remote sensing data reflect fire-induced changes in vegetative cover and soil properties. Slope, soils, land cover and climate are also important factors that require consideration. Many modelling tools and datasets have been developed to assist remediation teams, but process-based and spatially explicit models are currently underutilised compared with simpler, lumped models because they are difficult to set up and require properly formatted spatial inputs. To facilitate the use of models in conjunction with remote sensing observations, we developed an online spatial database that rapidly generates properly formatted modelling datasets modified by usersupplied soil burn severity maps. Although assembling spatial model inputs can be both challenging and time-consuming, the methods we developed to rapidly update these inputs in response to a natural disaster are both simple and repeatable. Automating the creation of model inputs facilitates the wider use of more accurate, process-based models for spatially explicit predictions of post-fire erosion and runoff.
+$Keywords=database, forest fire, forestry, hazards, hydrology
+$type=
+$treesearch=
+$plynx=
+$links=<a href="/engr/library/Elliot/Elliot2016h/(2016h)Miller et al_2016_IJWF_Modeling.pdf" target="_pdf">PDF</a> [1,865 KB]
 #2016g###############################################
 $Title=Rill erosion in burned and salvage logged western montane forests: Effects of logging equipment type, traffic level, and slash treatment
 $Year=2016
@@ -1291,7 +1306,7 @@ richness and diversity was highest for the hydromulch + seed treatment.
 Ten non-native species were found, but never with more than 2% canopy cover, each. Although the inference of our small-plot work is limited, our results
 suggest that post-fire rehabilitation treatments apparently altered the abundance and diversity of native perennial understory plants for one to six years
 post fire &ndash; effects that could persist for decades.
-$Keywords=burned area emergency response, hydromulch, invasive species, post-fire rehabilitation, seeding, species diversity, wheat straw mulch, wood strand mulch
+$Keywords=burned area emergency response, hydromulch, invasive species, post-fire rehabilitation, seeding, species diversity, wheat straw mulch, wood strand mulch, 2005 School Fire, Washington
 $type=
 $treesearch=
 $plynx=
@@ -1314,7 +1329,7 @@ $Abstract=Measurement of particle-size distribution (PSD) of soil with large-siz
  The nested method shows great potential for determining PSDs of the soil and aggregate material with large-sized particles and should be tested on other forest soils and road aggregates.
  The nested sampling and analysis method allows for the same number of samples to be collected but requires less laboratory time, making it more efficient and economical for testing the soil
  and aggregate material with large-sized particles such as forest road aggregate.
-$Keywords=grain-size distribution,  gravel road,  soil grading,  soil sampling,  unpaved road
+$Keywords=grain-size distribution,  gravel road,  soil grading,  soil sampling,  unpaved road, Idaho
 $type=journal
 $treesearch=pubs/45650
 $plynx=
@@ -1338,7 +1353,7 @@ $Abstract=The convolution of an input with a response function has been widely u
  The mass balance error is negligible when there are more than 1.8 time steps on the rising limb of the kernel function.
  The fewer time steps on the rising limb, the greater risk of high mass balance errors.
  When the average kernel function values are used for the DHC solution, however, the mass balance is always maintained, since the integration of the discrete kernel function is always unity.
-$Keywords=linear diffusion-wave channel routing, discrete Hayami convolution, kernel function values, mass-balance error, temporal resolution, lateral inflow
+$Keywords=linear diffusion-wave channel routing, discrete Hayami convolution, kernel function values, mass-balance error, temporal resolution, lateral inflow, Washington, Idaho
 $type=
 $treesearch=pubs/45558
 $plynx=
@@ -1363,7 +1378,7 @@ $Abstract=Post-fire sediment yields can be up to three orders of magnitude great
  related to the ratio of the plot lengths than the ratio of plot areas. The developed statistical relationships will help
  quantify post-fire sediment delivery rates across spatial scales in the interior western United States and develop
  process-based scaling relationships.
-$Keywords=erosion; hillslope; catchment; sedimentation; rainfall intensity
+$Keywords=erosion; hillslope; catchment; sedimentation; rainfall intensity, western US
 $type=
 $treesearch=
 $plynx=
@@ -1396,7 +1411,7 @@ $Abstract=Changes in the properties of an ash layer with time may affect the amo
  temporal changes indicate that the timing of ash sampling can alter the predictions as to whether the ash layer is effecting
  post-fire infiltration and runoff. Despite the reduction in infiltration capacity, the formation of post-fire ash crusts could
  prove beneficial to post-fire hazard mitigation by stabilising the ash layer, and reducing aeolian mixing and erosion.
-$Keywords=ash crust formation, ash evolution, wildfires
+$Keywords=ash crust formation, ash evolution, wildfires, Montana
 $type=
 $treesearch=
 $plynx=
@@ -1421,7 +1436,7 @@ $Abstract=Over 1200 post-fire assessment and treatment implementation reports fr
  (5) seeding was the most frequently used land treatment, but declined in use over time;
  (6) use of post-fire agricultural straw mulch has steadily increased because of proven success; and
  (7) the greatest post-fire expenditures have been for land treatments applied over large areas to protect important resources (e.g. municipal water sources).
-$Keywords=BAER, Burned Area Emergency Response, erosion control, post-fire assessment, rehabilitation, treatment expenditure, values-at-risk.
+$Keywords=BAER, Burned Area Emergency Response, erosion control, post-fire assessment, rehabilitation, treatment expenditure, values-at-risk, western US
 $type=
 $treesearch=
 $plynx=
@@ -1451,7 +1466,7 @@ $Abstract=The recent increase in wildfire activity across the rangeland&ndash;xe
  suggests that improved risk assessment requires better understanding in several key areas including quantification of
  interactions between varying storm intensities and measures of site susceptibility, the varying effects of soil water
  repellency, and the spatial scaling of post-fire hydrologic response across rangeland&ndash;xeric forest plant communities.
-$Keywords=cheatgrass, climate change, fire effects, grass-fire cycle, Great Basin, hydrologic risk, invasive plants, juniper, pinyon, runoff, sagebrush, wildland-urban interface, woodland encroachment
+$Keywords=cheatgrass, climate change, fire effects, grass-fire cycle, Great Basin, hydrologic risk, invasive plants, juniper, pinyon, runoff, sagebrush, wildland-urban interface, woodland encroachment, western US
 $type=
 $treesearch=
 $plynx=
@@ -1473,7 +1488,7 @@ $Abstract=Four years post-wildfire, we measured soil and plant properties on hil
  Mulch applications after wildfire may enhance N availability by increasing soil moisture, promoting microbial N mineralization, or by increasing biological nitrogen fixation.
  Because inference is limited for this case study, we call for additional replicated experiments investigating effects of mulch treatments on soil carbon and nitrogen cycling
  with links to plant regeneration.
-$Keywords=soil rehabilitation, restoration, fire effects, respiration, nitrogen
+$Keywords=soil rehabilitation, restoration, fire effects, respiration, nitrogen, School Fire, Washington State
 $type=
 $treesearch=pubs/46330
 $plynx=
@@ -1495,7 +1510,7 @@ $Abstract=In cold regions, frozen soil has a significant influence on runoff and
  Fieldobserved runoff and erosion events during 1984-1990 were used to estimate WEPP hydraulic and erosion parameters, including soil effective hydraulic conductivity, critical shear stress (Tc), and rill erodibility (Kr).
  The parameters for each event were best-fitted using WEPP single-event simulations to reproduce the observed runoff and sediment yield on both plots.
  The results suggest that the adjustment factors for Tc and Kr of frozen and thawing soils in the WEPP model could be modified to better describe the changes of these parameters in winter.
-$Keywords=critical shear, frozen soil, rill erodibility, soil erosion, thawing soil, WEPP
+$Keywords=critical shear, frozen soil, rill erodibility, soil erosion, thawing soil, WEPP, Washington State
 $type=
 $treesearch=pubs/43829
 $plynx=
@@ -1520,7 +1535,7 @@ $Abstract=The assessment of water yield from hillslopes into streams is critical
  In contrast, the WEPP simulations without including baseflow resulted in an overall NSE of 0.57 and Dv of 47%.
  On average, the simulated baseflow accounted for 43% of the streamflow and 12% of precipitation annually.
  Integration of WEPP with a baseflow routine improved the model's applicability to watersheds where groundwater contributes to streamflow.
-$Keywords= baseflow,  deep seepage,  forest watershed,  hydrologic modeling,  subsurface lateral flow,  surface runoff,  WEPP
+$Keywords= baseflow,  deep seepage,  forest watershed,  hydrologic modeling,  subsurface lateral flow,  surface runoff,  WEPP, Pacific NW
 $type=
 $treesearch=pubs/43824
 $plynx=
