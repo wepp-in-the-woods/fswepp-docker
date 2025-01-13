@@ -1589,7 +1589,7 @@ $Abstract=In the northwestern U.S., the greatest amounts of forest erosion usual
  Online and GIS interfaces were developed using the Water Erosion Prediction Project (WEPP) model, including soil, vegetation, and climate databases.
  The online interfaces were developed to allow users to more easily predict soil erosion and sediment delivery for a wide range of climatic and forest conditions, including roads, fires, and timber harvest.
  There have been ongoing efforts to improve the online watershed interface to better model channel processes, road networks, and spatial variability associated with wildfire and weather.
-$Keywords=ATV impacts, channel erosion, forest roads, logging, mass wasting, wildfire
+$Keywords=ATV impacts, channel erosion, forest roads, logging, mass wasting, wildfire, Pacific NW
 $type=
 $treesearch=pubs/43831
 $plynx=
@@ -1614,7 +1614,7 @@ $Abstract=A new version of the online Water Erosion Prediction Project (WEPP) GI
  The online WEPP reasonably simulated average annual runoff and the annual maximum runoff series for both watersheds, but overpredicted sediment yield for the annual average and annual maximums.
  The online WEPP simulation results accurately reflected the differences between the two watersheds in their hydrological characteristics.
  The online WEPP GIS interface is a user-friendly, web-based computer package that can be used by scientists, researchers, and practitioners as a cost-effective simulation tool for watershed management.
-$Keywords=forest watershed, GIS interface, hydrologic modeling, online WEPP, water erosion
+$Keywords=forest watershed, GIS interface, hydrologic modeling, online WEPP, water erosion, Great Lakes
 $type=
 $treesearch=pubs/43832
 $plynx=
@@ -1633,12 +1633,12 @@ $Abstract=Forest Service, BLM, and state forest roads provide access for timber 
  Culverts used on these roads were historically designed to convey water under the road with little attention given to passage of aquatic organisms.
  In the past decade or so, driven largely by the Endangered Species Act listing of various salmonids in the Pacific Northwest, managers have designed and installed culverts to accommodate passage of aquatic species.
  Many existing culverts designed under the old criteria are impediments to passage and are replaced with culverts or bridges designed to accommodate aquatic species passage. Managers weigh the short-term negative impacts of sediment in the stream during culvert replacement against the positive long-term impacts of improved passage when considering which culverts to replace.
-$Keywords= culverts,  sediment,  aquatic species passage
+$Keywords= culverts,  sediment,  aquatic species passage, Idaho
 $type=
 $treesearch=pubs/43870
 $plynx=
 $lynx=
-*2013i###############################################
+#2013i###############################################
 $Title=Post-fire bedload sediment delivery across spatial scales in the interior western United States
 $Year=2013
 $Authors=Wagenbrenner, Robichaud
@@ -1659,7 +1659,7 @@ $Abstract=Post-fire sediment yields can be up to three orders of magnitude great
  quantify post-fire sediment delivery rates across spatial scales in the interior western United States and develop
  process-based scaling relationships.<br>
  Published online in Wiley Online Library (wileyonlinelibrary.com) DOI: 10.1002/esp.3488
-$Keywords=erosion; hillslope; catchment; sedimentation; rainfall intensity
+$Keywords=erosion; hillslope; catchment; sedimentation; rainfall intensity, western US
 $treesearch=
 $plynx=
 $links=<a href="https://onlinelibrary.wiley.com/doi/10.1002/esp.3488/pdf" target="_pdf">PDF</a>
@@ -1690,7 +1690,7 @@ $Abstract=Wildland fires often cause extreme changes in the landscape that drast
  of cover is more important than the type of cover. Three studies and 5 years after beginning the studies,
  we think the best approach to assessing the effectiveness of post-fire BAER road treatments is to
  gain a limited knowledge of many sites along a road system rather than a detailed knowledge of a few sites.
-$Keywords=erosion, assessment, values at risk, recovery, road failures
+$Keywords=erosion, assessment, values at risk, recovery, road failures, Pacific NW
 $type=GTR
 $treesearch=pubs/44322
 $plynx=
@@ -1747,7 +1747,7 @@ $Abstract=Wind erosion and aeolian transport processes are under studied compare
  plume that was visible in satellite imagery. The peak PM<sub>10</sub> concentration measured on-site at a height of
  2 m in the downwind portion of the burned area was 690 mg m <sup>-3</sup>. Our results indicate that wildfire can
  convert a relatively stable landscape into one that is a major dust source.
-$Keywords=Post-fire, Wind erosion, PM10, Dust, Horizontal sediment flux, Vertical flux
+$Keywords=Post-fire, Wind erosion, PM10, Dust, Horizontal sediment flux, Vertical flux, Idaho
 $type=
 $treesearch=
 $plynx=
@@ -1787,7 +1787,7 @@ $Abstract=Guidelines for the production and aerial application of wood shred mul
  However, the advantages of wood shreds&mdash;on- or near-site availability, greater stability in high winds and on
  steep slopes, and lack of unwanted plant seeds from off-site&mdash;make wood shred mulch useful in areas where
  agricultural straw mulch may not be desirable.
-$Keywords=heli-mulching, aerial mulching, wood mulch, post-fire, Burned Area Emergency Response (BAER), erosion mitigation
+$Keywords=heli-mulching, aerial mulching, wood mulch, post-fire, Burned Area Emergency Response (BAER), erosion mitigation, Arizona, Colorado
 $type=
 $treesearch=pubs/43920
 $plynx=
@@ -1798,9 +1798,7 @@ $Year=2013
 $Authors=Robichaud
 $category=
 $Publisher=Elsevier Earth-Sciene Reviews
-$Abstract=Research into post-wildfire effects began in the United Statesmore than 70 years ago and only later extended to
- other parts of the world. Post-wildfire responses are typically transient, episodic, variable in space and time, dependent
- on thresholds, and involve multiple processes measured by different methods. These characteristics
+$Abstract=Research into post-wildfire effects began in the United States more than 70 years ago and only later extended to other parts of the world. Post-wildfire responses are typically transient, episodic, variable in space and time, dependent on thresholds, and involve multiple processes measured by different methods. These characteristics
  tend to hinder research progress, but the large empirical knowledge base amassed in different regions of the
  world suggests that it should now be possible to synthesize the data and make a substantial improvement in
  the understanding of post-wildfire runoff and erosion response. Thus, it is important to identify and prioritize
@@ -1852,7 +1850,7 @@ $Abstract=After the 2009 Terrace Mountain fire near Kelowna, BC, Canada, wood sh
  that wood shred mulch was similarly effective in reducing post-fire runoff and sediment yields. Thus, the
  choice of agricultural straw or wood shreds for a post-fire mulch treatment may be based on the performance
  characteristics (longevity, potential to carry invasive species seeds, cost, etc.) that best fit the needs of the site.
-$Keywords=Erosion control, Runoff, Burned Area Emergency Response (BAER), Post-fire, Mitigation
+$Keywords=Erosion control, Runoff, Burned Area Emergency Response (BAER), Post-fire, Mitigation, British Columbia
 $type=
 $treesearch=pubs/44231
 $plynx=
@@ -1903,7 +1901,7 @@ $Abstract=Agricultural straw, hydromulch, and wood shred or wood strand mulches 
  were at least double the sediment yields measured on hillslope plots. The longer periods of greater erosion
  rates in the catchments likely reflect the addition of channel erosion processes and a difference in hydrologic
  connectivity at the catchment scale.
-$Keywords=Straw mulch, Hydromulch, Post-fire recovery, Treatment effectiveness
+$Keywords=Straw mulch, Hydromulch, Post-fire recovery, Treatment effectiveness, California, Colorado
 $type=
 $treesearch=pubs/43348
 $plynx=
@@ -1951,7 +1949,7 @@ $Abstract=Mulch treatments often are used to mitigate post-fire increases in run
   in any post-fire year. The greater variability in the combined data resulted in fewer statistically significant treatment
   effects being observed as compared to the individual fire analyses.We believe the fire-specific results provide
   the more accurate representation of potential post-fire mulch treatment effectiveness.
-$Keywords=Post-fire rehabilitation, Wheat straw mulch, Wood strand mulch, Hydromulch, Seeding, Needle cast
+$Keywords=Post-fire rehabilitation, Wheat straw mulch, Wood strand mulch, Hydromulch, Seeding, Needle cast, western US
 $type=
 $treesearch=pubs/43349
 $plynx=
@@ -1980,14 +1978,14 @@ $Abstract=This study tested the erosion mitigation effectiveness of agricultural
  sediment production from originally bare, unvegetated soil strips resulting from forest road
  decommissioning. The amount of effective ground cover provided by mulch, plants, and litter
  appeared to be more important than the type of mulch.
-$Keywords=erosion control, mulch, straw, wood shreds, wood strands
+$Keywords=erosion control, mulch, straw, wood shreds, wood strands, northern Rocky Mountains
 $type=
 $treesearch=
 $plynx=
 $links=<a href="/engr/library/Foltz/Foltz2012e/2012e.pdf" target="_pdf">PDF</a> [0.6 MB]
 $lynx=
-*2012d###############################################
-$Title=
+#2012d###############################################
+$Title=Estimating phosphorus loading from forested hillslopes and watersheds with the WEPP model.
 $Year=2012
 $Authors=Elliot, Hall
 $Citationt=Elliot, B.; Hall, D.; Brooks, E.; Traeumer, D.; Bruner, E. 2012.
@@ -1996,7 +1994,7 @@ $Citationt=Elliot, B.; Hall, D.; Brooks, E.; Traeumer, D.; Bruner, E. 2012.
 $category=
 $Publisher=
 $Abstract=
-$Keywords=
+$Keywords=WEPP, 
 $type=
 $treesearch=
 $plynx=
@@ -2018,7 +2016,7 @@ $treesearch=
 $plynx=
 $links=<a href="/engr/library/Robichaud/Robichaud2012c/2012c.pdf" target="_pdf">PDF</a> [1.6 MB]
 $lynx=
-*2012b###############################################
+#2012b###############################################
 $Title=Tools to aid post-wildfire assessment and erosion-mitigation treatment decisions
 $Year=2012
 $Authors=Robichaud, Ashmun
