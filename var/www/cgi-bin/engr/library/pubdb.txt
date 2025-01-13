@@ -1994,7 +1994,7 @@ $Citationt=Elliot, B.; Hall, D.; Brooks, E.; Traeumer, D.; Bruner, E. 2012.
 $category=
 $Publisher=
 $Abstract=
-$Keywords=WEPP, 
+$Keywords=WEPP, modeling, phosphorus loading
 $type=
 $treesearch=
 $plynx=
@@ -2010,7 +2010,7 @@ $Citationt=Robichaud, P.R.; Ashmun, L.E. 2012.
 $category=
 $Publisher=geoinstitute.org
 $Abstract=
-$Keywords=
+$Keywords=postfire, erosion mitigation, post-wildfire assessment
 $type=Journal article
 $treesearch=
 $plynx=
@@ -2030,8 +2030,7 @@ $Abstract=A considerable investment in post-fire research over the past decade h
  have developed several tools to assist land managers with post-wildfire assessment and treatment decisions, such as
  prediction models, research syntheses, equipment and methods for field measurements, reference catalogues and
  databases of past-practice, and spreadsheets for calculating resource valuation and cost.benefit analysis. These tools
- provide relevant science to post-fire assessment teams and land managers in formats that often can be directly entered into
- assessment and treatment decision-making protocols. Providing public access to these tools through the internet not only
+ provide relevant science to post-fire assessment teams and land managers in formats that often can be directly entered into assessment and treatment decision-making protocols. Providing public access to these tools through the internet not only
  has increased their dissemination, but also has allowed them to be updated and improved as new knowledge and
  technology become available. The use of these science-based tools has facilitated a broader application of current
  knowledge to post-fire management in the United States and in other fire-prone areas around the world.
@@ -2070,7 +2069,7 @@ $Abstract=Remotely sensed imagery provides a useful tool for land managers to as
  to identify disturbance due to vegetation regrowth.
  These results indicate that soil exposure (ground disturbance) by salvage operation can be detected with remotely sensed
  imagery especially if the images are taken less than two years after the salvage operation.
-$Keywords=QuickBird; NAIP; School Fire; Red Eagle Fire; Tripod Fire; spectral mixture analysis
+$Keywords=QuickBird; NAIP; School Fire; Red Eagle Fire; Tripod Fire; spectral mixture analysis, Montana, Washington State
 $type=
 $treesearch=pubs/41111
 $plynx=
@@ -2086,7 +2085,7 @@ $Citationt=Foltz, R.B., Robichaud, P.R. January 2011.
 $category=
 $Publisher=USFS
 $Abstract=
-$Keywords=
+$Keywords=Colorado, post-fire assessment, road treatments, BAER
 $treesearch=
 $plynx=
 $links=<a href="https://www.stream.fs.fed.us/news/streamnt/pdf/SN_01_11.pdf" target="_pdf">PDF</a>
@@ -2117,7 +2116,7 @@ $Abstract=Many forests and their associated water resources are at increasing ri
 demonstrate the feasibility of predicting post-fire erosion rates on a large scale. The validation and sensitivity analysis
 indicated that the predictions are most useful for prioritising fuel reduction treatments on a local rather than interregional
 scale, and they also helped identify model improvements and research needs.
-$Keywords=ground cover, modelling, sensitivity analysis, WEPP
+$Keywords=ground cover, modelling, sensitivity analysis, WEPP, western US
 $type=
 $treesearch=
 $plynx=
@@ -2146,7 +2145,7 @@ $Abstract=High severity wildfire can make watersheds susceptible to accelerated 
  rain event.  Hydromulch had no effect on regrowing plant cover, shrub seedling density, or species richness.
  Thus, in chaparral watersheds, aerial hydromulch appears to be an effective post-fire erosion control measure that is
  environmentally benign.
-$Keywords=wildfire, erosion control, hydromulch
+$Keywords=wildfire, erosion control, hydromulch, California
 $Citationt=Wohlgemuth, P.M.; Beyers, J.L.; Robichaud, P.R. 2011.
  <i><a>The Effectiveness of Aerial Hydromulch as an Erosion Control Treatment in Burned Chaparral Watersheds, Southern California.</a></i>
  The Fourth Interagency Conference on Research in the Watersheds. 26-30 September 2011, Fairbanks, AK.
@@ -2173,7 +2172,7 @@ $Abstract=Wildfires often produce large increases in runoff and erosion rates (e
  experiments provided measurements of the magnitude of rill erosion in burned areas as
  compared to rates in unburned areas and also were used to calculate the rill erosion
  parameters needed for accurate prediction of post-fire erosion rates.
-$Keywords=Wildfire, burn severity, rill erosion, forest disturbance, sediment flux
+$Keywords=Wildfire, burn severity, rill erosion, forest disturbance, sediment flux, western US
 $Citationt=Wagenbrenner, J.W.; Robichaud, P.R. 2011.
  <i><a>Rill erosion rates in burned forests.</a></i>
  3<sup>rd</sup> International Meeting of Fire Effects on Soil Properties.
@@ -2216,7 +2215,7 @@ $Abstract=In the past decade, wildfires around the world have continued to incre
  log erosion barriers were commonly used to mitigate hillslope erosion on forested landscapes;
  but this treatment is seldom used today. Since 2002, mulches, especially agricultural straw, are
  increasingly used for post-fire hillslope stabilization.
-$Keywords=Rill erosion, Mulching, Contour-felled logs, Paired watersheds, Concentrated flow experiments
+$Keywords=Rill erosion, Mulching, Contour-felled logs, Paired watersheds, Concentrated flow experiments, western US
 $Citationt=Robichaud, P.R.; Brown, R.E.; Wohlgemuth, P.M.; Wagenbrenner, J.W. 2011.
  <i><a>Getting results: measuring post-wildfire erosion control treatment effectiveness.</a></i>
  ISELE Paper Number 11071.
@@ -2247,7 +2246,7 @@ $Abstract=Wind erosion and aeolian transport processes are largely unstudied in 
  These initial results indicate that wildfire can convert a relatively wind-resistant landscape into one that
  produces as much soil and dust as some of the most wind erodible landscapes known, including the US
  southern high plains and the Loess Plateau in China.
-$Keywords=Wind erosion, Wildfire, Ash, PM10, Burned soil, Air quality
+$Keywords=Wind erosion, Wildfire, Ash, PM10, Burned soil, Air quality, Idaho
 $Citationt=Wagenbrenner, N.S.; Germino, M.J.; Lamb, B.K.; Foltz, R.B.; Robichaud, P.R. 2011.
  <i><a>Wind erosion of soils burned by wildfire.</a></i>
  ISELE Paper Number 11021.
@@ -2288,7 +2287,7 @@ $Abstract=The decision of whether or not to apply post-fire hillslope erosion mi
  characteristics in the climate generator, and reducing the occurrence of snow melt erosion response.
  Postfire assessment teams are actively using the ERMiT model for making hillslope mitigation
  treatment decisions based on the probability of damaging sediment delivery occurring after a wildfire.
-$Keywords=ERMiT, Wildfire, Erosion, WEPP, Postfire, Validation
+$Keywords=ERMiT, Wildfire, Erosion, WEPP, Postfire, Validation, western US
 $Citationt=Robichaud, P.R.; Elliot, W.J.; Wagenbrenner, J.W. 2011.
  <i><a>Probabilistic soil erosion modeling using the Erosion Risk Management Tool (ERMiT) after wildfires.</a></i>
  ISELE Paper Number 11039.
@@ -2322,7 +2321,7 @@ $Abstract=The greatest amounts of forest erosion usually follow infrequent wildf
  interfaces were developed to allow users to more easily predict soil erosion for a wide range of climatic and
  forest conditions, including roads, fires, and timber harvest. The interfaces have been designed to allow users to
  compare the effects of the most common management practices for each application.
-$Keywords=Forest fire, Forest roads, Slope stability, WEPP
+$Keywords=Forest fire, Forest roads, Slope stability, WEPP, Pacific NW
 $Citationt=Elliot, W.J.;Robichaud, P.R.; Foltz, R.B. 2011.
  <i><a>Erosion processes and prediction in NW U.S. forests.</a></i>
  ISELE Paper Number 11002.
@@ -2355,7 +2354,7 @@ $Abstract=Broadcast seeding is one of the most commonly used post-fire rehabilit
  ecosystems that involved the Forest Service during the period 2000 to 2007 &ndash; an increase of 192% compared with the
  average spent during the previous 30 years. The percentage of the total burned area seeded averaged 21% in the 1970s,
  compared with only 4% between 2000 and 2007.
-$Keywords=annual cereal grains, Burned Area Emergency Response, native plant species, seeding, ground cover, native seed
+$Keywords=annual cereal grains, Burned Area Emergency Response, native plant species, seeding, ground cover, native seed, western US
 $type=journal
 $treesearch=pubs/38534
 $plynx=
@@ -2401,7 +2400,7 @@ $Abstract=Nursery irrigation regimes that recharged container capacity when targ
  and regardless of irrigation regime, seedlings became 1.3&permil; more depleted of <sup>13</sup>C as the growing season progressed.
  Refinement of sampling procedures, with focus on ontogenetics, may improve subsequent use of stable carbon isotopes in
  nursery research.
-$Keywords=carbon
+$Keywords=nitrogen status, carbon stable isotope ponderosa pine
 $type=
 $treesearch=
 $plynx=
@@ -2430,7 +2429,7 @@ $Abstract=Agricultural straw mulch is a commonly applied treatment for protectin
  may be possible if the time between the image acquisition and field validation
  was shorter. Our results encourage further exploration of the use of high-resolution
  imagery for research applications and postfire management.
-$Keywords=QuickBird, remote sensing, straw mulch, Tripod Fire, Burned Area Emergency Response (BAER), erosion mitigation
+$Keywords=QuickBird, remote sensing, straw mulch, Tripod Fire, Burned Area Emergency Response (BAER), erosion mitigation, 2006 Tripod Fire, Washington
 $type=research note
 $treesearch=pubs/37685
 $plynx=
@@ -2457,7 +2456,7 @@ $Abstract=Wildfire is a major forest disturbance in interior Alaska that can bot
  be predicted by a map of green (live) moss. Given that the depth of the post-fire forest floor is ecologically significant, the
  method of mapping the condition of the organic forest floor with hyperspectral imagery presented here may be a useful tool
  to assess the effect of future fires in the boreal region.
-$Keywords=burn severity, carbon, duff, hyperspectral remote sensing, moss, hyperspectral, ground cover
+$Keywords=burn severity, carbon, duff, hyperspectral remote sensing, moss, hyperspectral, ground cover, Alaska
 $type=
 $treesearch=pubs/37505
 $plynx=
@@ -2480,7 +2479,7 @@ $Abstract=This report provides managers with the current state of knowledge rega
  A case study focuses on WUI fuel treatments that were burned in the 2007 East Zone and Cascade megafires in central Idaho.
  Both the literature review and case study results support a manager consensus that forest thinning followed by some form
  of slash removal is most effective for reducing subsequent wildfire severity.
-$Keywords=fire severity, fuel treatment, National Fire Plan, post-fire effects, wildland-urban interface (WUI)
+$Keywords=fire severity, fuel treatment, National Fire Plan, post-fire effects, wildland-urban interface (WUI), Idaho
 $type=
 $treesearch=pubs/37405
 $plynx=
@@ -2597,7 +2596,7 @@ $Abstract=Following a wildfire in the Santa Ana Mountains of northeast Orange Co
  Differences in pre-fire shrub composition and post-fire herbaceous species composition makes it impossible
  to separate the hydromulch effects from inherent site differences on plant response, suggesting that
  there was no treatment effect on vegetation recovery.
-$Keywords=mulch, hydromulch
+$Keywords=mulch, hydromulch, California
 $type=
 $treesearch=pubs/36573
 $plynx=
@@ -2630,7 +2629,7 @@ $Abstract=As forest management scenarios become more complex, the ability to mor
  variables (soil shear stress, stream power, unit stream power, and unit length shear force)
  explained much of the variability in sediment flux rates across the five levels of
  disturbance when evaluated in the linear form of the erosion models under consideration.
-$Keywords=rill erosion
+$Keywords=rill erosion, Pacific NW
 $type=
 $treesearch=
 $plynx=
@@ -2660,7 +2659,7 @@ $Abstract=Rill erosion can be a large portion of the total erosion in disturbed 
  sediment flux rates generally were greater in the initial stage of each inflow period than in the
  steady state condition, but there was no corresponding transient effect in runoff rates. Rill
  erosion modeling implications based on these data are presented in part 2 of this study.
-$Keywords=rill erosion
+$Keywords=rill erosion, rainfall simulator, sediment fluxes, Pacific NW
 $type=
 $treesearch=
 $plynx=
@@ -2734,7 +2733,7 @@ $Abstract=As society looks to our nation's forests as sources of energy, there i
 This report gives an overview of watershed processes, discusses the impacts of biomass removal on those processes,
 provides some guidelines to minimize adverse impacts, and describes an approach for estimating the effects of
 biomass removal on soil erosion.
-$Keywords=energy, wood fuel, timber harvest, biomass, watershed
+$Keywords=energy, wood fuel, timber harvest, biomass, watershed, western US
 $type=
 $treesearch=pubs/34478
 $plynx=
@@ -2790,7 +2789,7 @@ $Abstract=As the severity and extent of wildfires increase, efforts to reduce fo
  Although forest managers attempt to minimize impacts of fuel management activities, the removal of vegetation and the
  alteration of soil properties due to logging, road building, and prescribed fire may affect site conditions,
  forest runoff, and water quality (Lindeburgh 1990; Lousier 1990; Rice and Datzman 1981; Tiedemann and others 1979).
-$Keywords=cumulative effects, watershed, wildfire, fuel management, water quality, soil erosion
+$Keywords=cumulative effects, watershed, wildfire, fuel management, water quality, soil erosion, western US
 $type=
 $treesearch=pubs/34310
 $plynx=
@@ -2849,7 +2848,7 @@ $Abstract=The 2000 Bitterroot Valley wildfires provided an opportunity to measur
  The high variability in sediment yields was related to 10-minute maximum rainfall
  intensity (<b>I</b><sub>10</sub>), but not to soil water repellency or vegetative cover. The results of this
  study may assist in decisions about post-wildfire land management.
-$Keywords=erosion, rainfall intensity, soil water repellency, vegetative recovery, postfire, ssediement yield
+$Keywords=erosion, rainfall intensity, soil water repellency, vegetative recovery, postfire, sediement yield, Montana
 $type=
 $treesearch=
 $plynx=
@@ -2873,7 +2872,7 @@ $Abstract=This study measured runoff and sediment concentration from the tire tr
  regrowth was not sufficient to allow recovery of infiltration to values similar to an undisturbed forest.
  The study also found a significant dynamic behavior in interrill erodibility with respect to antecedent
  rainfall. Forest road erosion models that fail to account for this change will overestimate sediment yields.
-$Keywords=road, road recommissioning
+$Keywords=road, road recommissioning, Idaho, interrill erodibility
 $type=
 $treesearch=
 $plynx=
@@ -2906,7 +2905,7 @@ level of sediment yield for a given location, and this information can be used a
 the value of resources at risk and acceptable loss thresholds to make postfire erosion treatment decisions. The
 objectives of this paper are to describe: 1) the conceptual framework and components of the ERMiT model;
 and 2) an application of ERMiT from 2009 Victoria, Australia bushfires.
-$Keywords=sediment yield, wildfire, WEPP, ERMiT, Victoria Bushfires, probabilistic
+$Keywords=sediment yield, wildfire, WEPP, ERMiT, Australian bushfires, probabilistic
 $type=proceedings
 $treesearch=pubs/34125
 $plynx=
@@ -2978,7 +2977,7 @@ $Abstract=Appropriate use of satellite data in predicting &gt;1 year post-fire e
  Although
  further research is clearly warranted to evaluate fire effects data available 2.20 years after fire, char and green vegetation
  fractions may be viable alternatives to dNBR and similar indices to predict longer-term post-fire ecological effects.
-$Keywords=burn severity, char, Landsat ETM+, ponderosa pine, subpixel, unmixing
+$Keywords=burn severity, char, Landsat, ponderosa pine, subpixel, unmixing, South Dakota
 $type=
 $treesearch=
 $plynx=
@@ -3188,7 +3187,7 @@ $Abstract=There has been an increasing public concern over forest stream polluti
  For the period of 1995.2000, average annual precipitation for the study area was 954 mm.
  Simulated annual watershed discharge was negligible using WEPP v2004.7, and was 262 mm using WEPP v2008.9,
  agreeable with field-observed 275 mm.
-$Keywords=Forest watershed; Surface runoff; Subsurface lateral flow; Soil erosion; Hydrologic modeling; WEPP
+$Keywords=Forest watershed; Surface runoff; Subsurface lateral flow; Soil erosion; Hydrologic modeling; WEPP, Idaho
 $type=
 $treesearch=
 $plynx=
@@ -3288,7 +3287,7 @@ $Abstract=The recent modification of the Water Erosion Prediction Project (WEPP)
  significantly different erosion simulations. WEPP v2006.201 using the 10&nbsp;m LiDAR DEM (vs. using other DEMs) produced
  a total amount of as well as seasonal patterns of watershed discharge and sediment yield that were closest to field
  observations.
-$Keywords=DEM, Forest watershed, GIS, LiDAR, Water erosion modeling, WEPP
+$Keywords=DEM, Forest watershed, GIS, LiDAR, Water erosion modeling, WEPP, Idaho
 $type=
 $treesearch=
 $plynx=
@@ -3334,7 +3333,7 @@ $Abstract=Dense, small-diameter stands generally require thinning from below to 
  Below the market value of $40 per bone dry ton for hog fuel, breaking even or realizing profit would remain difficult.
  Other values, such as reducing fire risks, preventing smoke pollutions, and creating renewable energy sources,
  should increase the attractiveness of harvesting forest biomass for energy.
-$Keywords=small-diameter trees, forest biomass, energy, harvest productivity, biomass
+$Keywords=small-diameter trees, forest biomass, energy, harvest productivity, biomass, Arizona
 $type=
 $treesearch=
 $plynx=
@@ -3365,7 +3364,7 @@ $Abstract=What amount of extra energy can be generated after subtracting the tot
  A one dollar per gallon diesel price increase added $0.34/million BTUs to the energy cost.
  Forest biomass energy has an encouraging net energy ratio compared with other biomass sources,
  but the high production cost and energy cost can impede the use of forest biomass for energy.
-$Keywords=energy output, forest biomass energy, harvesting, small-diameter trees, mechanized system
+$Keywords=energy output, forest biomass energy, harvesting, small-diameter trees, mechanized system, Arizona
 $type=
 $treesearch=
 $plynx=
@@ -3397,7 +3396,7 @@ $Abstract=Quantifying critical conditions of rill formation can be useful for a 
  Soil critical shear stress determined in this study ranged from 1.33 to 2.63 Pa, with an average of 1.94 Pa.
  Soil critical shear stress was inversely related to slope and was not influenced by rainfall intensity.
  The results of this study were comparable with those of previous investigators.
-$Keywords=critical condition, critical shear, erosion, hillslope, rill initiation
+$Keywords=critical condition, critical shear, erosion, hillslope, rill initiation, China
 $type=
 $treesearch=
 $plynx=
@@ -3428,7 +3427,7 @@ $Abstract=Mulching after wildfires is a common treatment designed to protect bar
  failure of the sediment fence. Vegetation cover was low on all sites; ground cover from pellets
  decreased more than did straw or chips by mid-October, probably accounting for the lower
  effectiveness in reducing erosion compared to straw.
-$Keywords=mulch
+$Keywords=mulch, Arizona, sediment yield, erosion mitigation
 $treesearch=
 $plynx=
 $links=<a href="/engr/library/Robichaud/Robichaud2008n/2008n.pdf" target="_pdf">PDF</a> [290 KB]
@@ -3484,7 +3483,7 @@ $Abstract=After the Valley Complex Fire burned 86 000 ha in western Montana in 2
  and 0.2 Mg ha<sup>-1</sup> in 2003. The
  erosion barrier sediment storage used was less than the total available storage capacity; runoff and sediment were observed
  going over the top and around the ends of the barriers even when the barriers were less than half filled.
-$Keywords=erosion mitigation; silt fence; contour-felled log; straw wattles; contour trenches; rainfall simulation; erosion barrier
+$Keywords=erosion mitigation; silt fence; contour-felled log; straw wattles; contour trenches; rainfall simulation; erosion barrier, Montana
 $type=
 $links=<a href="/engr/library/Robichaud/Robichaud2008l/2008l.pdf" target="_pdf">PDF</a> [1.1 MB]
 #2008k###############################################
@@ -3504,7 +3503,7 @@ $Abstract=This study investigated the effect of cumulative overland flow on rill
  change will probably over-estimate sediment yields. An exponential function describing the relationship
  between rill erodibility and cumulative overland flow depth is presented as a basis for future model
  development for simulating erosion on native surface roads.
-$Keywords=soil erosion, forestry, sediment depletion, overland flow, simulation, Idaho, shear stress, road
+$Keywords=soil erosion, forestry, sediment depletion, overland flow, simulation, Idaho, shear stress, road, Idaho
 $type=
 $treesearch=
 $links=<a href="https://www.fs.fed.us/rm/pubs_other/rmrs_2008_foltz_r002.pdf" target="_pdf">PDF</a> (115 K)
@@ -3527,7 +3526,7 @@ $Abstract=An erosion control product made by shredding on-site woody materials w
  wood shred cover.
  Wood shreds appear to be a viable alternative to agricultural straw. A wood shred cover of 50% appears optimal,
  but the appropriate coverage rate will depend on the amount of expected concentrated flow and soil type.
-$Keywords=Erosion; Erosion control; Mitigation; Mulch; Wood shreds
+$Keywords=Erosion mitigation, Erosion control; Mulch; Wood shreds
 $type=
 $treesearch=
 $links=<a href="/engr/library/Foltz/Foltz2008j/2008j.pdf" target="_pdf">PDF</a> (300 KB)
@@ -3552,7 +3551,7 @@ reduced by an order of magnitude, but did not change the turbidity values suffic
 an average of 810m downstream of the culvert outlet were similar to sediment concentrations above the culvert for the entire excavation
 period and turbidity regulations were met. Mitigation consisting of two straw bales placed in the stream caused a significant reduction in
 sediment yield from an average of 67 kg to an average of 1.6 kg.
-$Keywords=Soil erosion; Road obliteration; Sediment; Stream water quality; Culvert removal; sediment concentration
+$Keywords=Soil erosion; Road obliteration; Sediment; Stream water quality; Culvert removal; sediment concentration, Idaho, washington
 $type=
 $treesearch=
 $lynx=<a href="/engr/library/Foltz/Foltz2008i/JEM2008i.pdf" target="_pdf">PDF</a>
@@ -3579,7 +3578,7 @@ $Abstract=Between 1998 and 2002, six sites were established immediately after la
  periods. Improper installation and degradation over time reduced the effectiveness of contour-felled log erosion barriers.
  Rainfall characteristics and installation procedures should be carefully considered before choosing contour-felled log
  erosion barriers for post-fire hillslope stabilisation.
-$Keywords=catchment, LEB, sediment yield, watershed, erosion barrier
+$Keywords=catchment, LEB, sediment yield, watershed, erosion barrier, western US
 $type=
 $treesearch=
 $links=<a href="/engr/library/Robichaud/Robichaud2008h/2008h.pdf" target="_pdf">PDF</a> [830 KB]
@@ -3605,7 +3604,7 @@ $Abstract=Meaningful relationships between forest structure attributes measured 
  important species in each plot with regard to BA and TD. We concluded that RF was the most robust and flexible among the imputation methods
  we tested. We also concluded that canopy structure and topographic metrics derived from LiDAR surveys can be very useful for species-level
  imputation.
-$Keywords=Forestry; k-NN imputation; LiDAR remote sensing; Mapping; Random forest
+$Keywords=Forestry; k-NN imputation; LiDAR remote sensing; Mapping; Random forest, Idaho
 $type=
 $treesearch=
 $links=<a href="https://www.sciencedirect.com/science?_ob=MImg&_imagekey=B6V6V-4S02K0C-2-W&_cdi=5824&_user=4250274&_orig=search&_coverDate=05%2F15%2F2008&_sk=998879994&view=c&wchp=dGLbVlb-zSkzS&md5=c1449e871790b603b085a56a25b900d3&ie=/sdarticle.pdf" target="_pdf">PDF</a> [1.7 MB] ScienceDirect
@@ -3677,7 +3676,7 @@ $Abstract=Post-fire runoff and erosion from wildlands has been well researched,
  burned steep sagebrush landscapes vary significantly by microsite and process,
  exhibiting seasonal fluctuation in degree, and
  that fire-induced increases in runoff and erosion may require more than 3 years to return to background levels.
-$Keywords=erosion; fire; infiltration; interrill; rangeland; rills; runoff; sagebrush; water-repellent soils
+$Keywords=erosion; fire; infiltration; interrill; rangeland; rills; runoff; sagebrush; water-repellent soils, Nevada
 $type=
 $links=<a href="/engr/library/Robichaud/Robichaud2008e/2008e.pdf" target="_pdf">PDF</a> [434 KB]
 #2008d###############################################
@@ -3714,7 +3713,7 @@ $Abstract=A principal task of evaluating large wildfires is to assess fire's eff
  likelihood map of soil water repellency.
  This map is a good indicator of areas where soil experienced severe fire effects--areas that
  likely have strong water repellent soil conditions and higher potential for post-fire erosion.
-$Keywords=Burn severity; Ash; Water repellent soils; Hayman Fire; Remote sensing; water repellency
+$Keywords=Burn severity; Ash; Water repellent soils; Hayman Fire; Remote sensing; water repellency, Colorado
 $type=
 $links=<a href="/engr/library/Lewis/Lewis2008d/2008d.pdf" target="_pdf">PDF</a> [1.09 MB]
 #2008c###############################################
@@ -3745,7 +3744,7 @@ $Abstract=This paper reports soil losses and observed sediment deposition for 16
  forest roads in the southern region of the U.S.
  The information reported is useful in soil erosion prediction models to validate predictions and create
  forest road management scenarios.
-$Keywords=soil erosion, modeling, forest, roads, sediment deposition, WEPP, road
+$Keywords=soil erosion, modeling, forest, roads, sediment deposition, WEPP, road, Southeastern US
 $type=
 $treesearch=pubs/29445
 $links=<a href="https://www.srs.fs.usda.gov/pubs/ja/ja_grace032.pdf" target="_pdf">PDF</a> (402 KB)
@@ -3760,7 +3759,7 @@ $Citationt=MacDonald, L.H.; Robichaud, P.R. 2008.
 $category=
 $Publisher=
 $Abstract=
-$Keywords=emergency rehabilitation
+$Keywords=emergency rehabilitation, post-fire erosion
 $type=
 $links=<a href="https://www.stream.fs.fed.us/news/streamnt/pdf/SN_01_08.pdf" target="_pdf">pdf</a>
 #2008a###############################################
@@ -3780,7 +3779,7 @@ $Abstract=The Mini-disk Infiltrometer has been adapted for use as a field test o
  test. Fire-induced soil water repellency has high spatial variability and requires a valid sampling method if the data are to be
  credible. The MDI test protocol and sampling method described in this Research Note were developed for post-fire assessment,
  and provide a practical evaluation of burned soil infiltration characteristics in a limited time.
-$Keywords=water repellency
+$Keywords=water repellency, western US
 $Citationt=Robichaud, P.R.; Lewis, S.A.; Ashmun, L.E. 2008.
  <b><a>New procedure for sampling infiltration to assess post-fire soil water repellency</a></b>.
  Res. Note. RMRS-RN-33. Fort Collins, CO: U.S. Department of Agriculture,
@@ -3863,7 +3862,7 @@ $Abstract=Forest roads are obliterated to lower the risks of surface erosion and
  while the other high elevation (1800&nbsp;m and 2200&nbsp;m) sites had 8% after four years.
  We conclude that four years was not sufficient time for obliterated roads to return to the pre-road (forest floor)
  conditions, especially for infiltration capacity.
-$Keywords= Erosion, Forest roads, Infiltration, Interrill erodibility, Obliteration, Rainfall simulation, Saturated hydraulic conductivity, Vegetation recovery, WEPP, road obliteration
+$Keywords= Erosion, Forest roads, Infiltration, Interrill erodibility, Obliteration, Rainfall simulation, Saturated hydraulic conductivity, Vegetation recovery, WEPP, road obliteration, Idaho
 $type=
 $treesearch=
 $plynx=<a href="https://asae.frymulti.com/request.asp?search=1&JID=3&AID=24089&CID=t2007&v=50&i=6&T=1" target="ASABE">HTML</a> [ASABE subscription]
@@ -3900,7 +3899,7 @@ $Abstract=After the Valley Complex Fire burned 86 000 ha in western Montana in 2
  and 0.2 Mg ha<sup>-1</sup> in 2003. The
  erosion barrier sediment storage used was less than the total available storage capacity; runoff and sediment were observed
  going over the top and around the ends of the barriers even when the barriers were less than half filled.
-$Keywords=erosion mitigation; silt fence; contour-felled log; straw wattles; contour trenches; rainfall simulation
+$Keywords=erosion mitigation; silt fence; contour-felled log; straw wattles; contour trenches; rainfall simulation, Montana
 $type=
 $links=<a href="/engr/library/Robichaud/Robichaud2007o/2007o.pdf" target="_pdf">PDF</a> [1.1 MB]
 #2007n###############################################
@@ -3930,7 +3929,7 @@ $Abstract=Accelerated runoff and erosion commonly occur following forest fires d
  was small. Minimal amounts of Mg, Ca, and K were detected in the eroded sediments. The mean annual erosion rate predicted
  by Disturbed WEPP (Water Erosion Prediction Project) was 15% less than the mean annual erosion rate measured, which is
  within the accuracy range of the model.
-$Keywords=hillslope erosion; forest fire; silt fences; WEPP; rainfall intensity; water repellency; site productivity
+$Keywords=hillslope erosion; forest fire; silt fences; WEPP; rainfall intensity; water repellency; site productivity, Montana
 $type=
 $treesearch=
 $links=<a href="/engr/library/Robichaud/Robichaud2007n/2007n.pdf" target="_pdf">PDF</a> [592 KB]
@@ -3969,7 +3968,7 @@ post-fire burn severity across the three ecosystems sampled. Our future research
 spectral mixture analysis (SMA) because it acknowledges that pixel refl ectance is fundamentally a
 mixture of charred, dead, green and nonphotosynthetic vegetation, soil, rock and ash materials that
 are highly variable at fine scales.
-$Keywords=burn severity, change detection, char, Landsat, normalized burn ratio, remote sensing, soils, spectral mixture analysis, vegetation, wildfire
+$Keywords=burn severity, change detection, char, Landsat, normalized burn ratio, remote sensing, soils, spectral mixture analysis, vegetation, wildfire, Montana, Alaska, California
 $type=
 $treesearch=pubs/29489
 $links=<a href="/engr/library/Lewis/Lewis2007m/2007m.pdf" target="_pdf">PDF</a> [309 KB]
@@ -4007,7 +4006,7 @@ this is characteristic in Alaska, but uncharacteristic of chaparral fires, espec
 proportion of non-native species post-fi re in our chaparral sites. All fi res had a mosaic of different
 burn severities (as indicated by delta Normalized Burn Ratio, dNBR) with highly variable patch
 size (mean 1.3 ha to 14.4 ha, range from &lt;1 ha to over 100,000 ha).
-$Keywords=dNBR, delta Normalized Burn Ratio, fire effects, remote sensing, species diversity, species richness
+$Keywords=dNBR, delta Normalized Burn Ratio, fire effects, remote sensing, species diversity, species richness, Montana, Alaska, California
 $type=
 $treesearch=pubs/29509
 $links=<a href="/engr/library/Lewis/Lewis2007l/2007l.pdf" target="_pdf">PDF</a> [207 KB]
@@ -4041,7 +4040,7 @@ ground data, yet did not consistently correlate well with any specific ground co
 of post-wildfire ground cover and condition, especially exposed soil and remaining vegetative
 cover, is a good indicator of the fire's effect on the ground surface and the resulting potential for
 hydrologic response.
-$Keywords=burn severity, dNBR, erosion potential, hyperspectral data, Relative dNBR, southern California wildfires, spectral mixture analysis, ground cover
+$Keywords=burn severity, dNBR, erosion potential, hyperspectral data, Relative dNBR, California, spectral mixture analysis, ground cover
 $type=
 $treesearch=pubs/29508
 $links=<a href="/engr/library/Lewis/Lewis2007k/2007k.pdf" target="_pdf">PDF</a> [673 KB]
@@ -4089,7 +4088,7 @@ $Abstract=Wildfire is an important ecological process and management issue on we
  aster (<i>Symphyotrichum ascendens</i>). Greater infiltration capacity was correlated with
  increasing cover of Idaho fescue (<i>Festuca idahoensis</i>) and mountain big sagebrush. Future
  analysis will evaluate conditions after the first years growing season and beyond.
-$Keywords=
+$Keywords=water repellency, wildfire effects, western US
 $type=
 $treesearch=pubs/28359
 $links=<a href="https://www.fs.fed.us/rm/pubs/rmrs_p047/rmrs_p047_062_068.pdf" target="_pdf">PDF</a> [425 KB] (Station) |
@@ -4186,7 +4185,7 @@ $Abstract=After prescribed burns at three locations and one wildfire, rainfall s
  few centimeters beneath the soil surface. With the simulated rainfall, the non-water repellent surface
  layer became saturated; thus making the soil above the water repellent layer highly erodible&ndash;especially
  during high intensity rainfall.
-$Keywords=water repellent soils, rainfall simulation, burn severity, runoff, erosion, ash
+$Keywords=water repellent soils, rainfall simulation, burn severity, runoff, erosion, ash, Idaho, Montana
 $type=
 $treesearch=pubs/26215
 $links=<a href="/engr/library/Robichaud/Robichaud2007f/2007f.pdf" target="_pdf">PDF</a> [237 KB]
@@ -4216,7 +4215,7 @@ $Abstract=Burn severity is mapped after wildfires to evaluate immediate and long
  accurately assess the effects of the fire on the soil surface by identifying discrete ground cover characteristics.
  These surface effects, especially soil and ash cover and the lack of any remaining vegetative cover,
  directly relate to potential postfire watershed response processes.
-$Keywords=Hayman Fire; Ash; Mixture tuned matched filter; Hyperspectral; Burn severity
+$Keywords=Hayman Fire; Ash; Mixture tuned matched filter; Hyperspectral; Burn severity, Colorado
 $type=
 $treesearch=pubs/29030
 $links=<a href="/engr/library/Robichaud/Robichaud2007e/2007e.pdf" target="_pdf">PDF</a> [1.9 MB]
@@ -4296,7 +4295,7 @@ network. The simple interface has a large database of climates, vegetation files
 soil properties to support this and other interfaces, including Disturbed WEPP for forests and
 WEPP:Road for road segment analyses. The soil databases for roads and disturbed forested
 hillslopes are based on rainfall simulation and natural rainfall studies.
-$Keywords=WEPP, FS WEPP, FuME
+$Keywords=WEPP, FS WEPP, FuME, Idaho
 $Citationt=Elliot, W.; Miller, I.S.; Hall, D. 2007.
  <i><a>WEPP FuME analysis for a north Idaho site.</a></i>
  Summary of poster paper.
@@ -4315,7 +4314,7 @@ $Authors=Elliot, Miller, Glaza
 $category=
 $Publisher=USDA FS
 $Abstract=
-$Keywords=ash, School Fire
+$Keywords=ash, 2005 School Fire, Washington State
 $Citationt=Elliot, W.; Miller, I.S.; Glaza, B. 2007.
  <i><a>Erosion risks in selected watersheds for the 2005 School Fire located near Pomeroy, Washington on predominately ash-cap soils</a>.</i>
  Summary of poster paper.
@@ -4346,7 +4345,7 @@ $Abstract=An empirical modeling of road related and non-road related landslide h
  landslide hazard was necessary because spatial prediction and predictor variables were different for these models.
  The probabilistic models of landslide potential may be used as a decision support tool in forest planning
  involving the maintenance, obliteration or development of new forest roads in steep mountainous terrain.
-$Keywords=landslide
+$Keywords=landslide risk, Idaho, modeling, GIS
 $plinks=<a href="https://www3.interscience.wiley.com/cgi-bin/fulltext/118566620/PDFSTART">PDF</a>
 #2006s###############################################
 $Title=Sensitivity of Landsat image-derived burn severity indices to immediate post-fire effects
@@ -4365,7 +4364,7 @@ requires NBR values from both immediate post-fire and pre-fire Landsat images, t
 satellite image source. The objective was to compare NBR, dNBR, and other indices with
 potential to indicate burn severity, using as the evaluation measure the correlation strength
 between the burn severity indices (BSI) and post-fire effects (PFE) measured on the ground.
-$Keywords= burn severity, LANDSAT
+$Keywords=burn severity, LANDSAT, post-fire effects
 $type=
 $treesearch=pubs/26200
 $links=<a href="/engr/library/Lewis/Lewis2006s/2006s.pdf" target="_pdf">PDF</a> [112 KB]
@@ -4392,7 +4391,7 @@ models. predictions of peak flow rate and total flow volume were not significant
 sediment concentrations were significantly different from observed values, but within typical ranges for sediment transport
 equations. We recommend that the WEPP model be improved to allow access to sub-daily time scale results so that it can be
 better integrated with other watershed models.
-$Keywords=Erosion modeling, Hydrodynamic modeling, Watershed models, TMDLs, CCHE1D, WEPP, sediment transport
+$Keywords=Erosion modeling, Hydrodynamic modeling, Watershed models, TMDLs, CCHE1D, WEPP, sediment transport, California
 $type=
 $treesearch=pubs/26823
 $links=<a href="https://www.fs.fed.us/rm/boise/AWAE/scientists/profiles/Elliot/06%20Conroy%20et%20al.pdf">PDF</a>
@@ -4409,7 +4408,7 @@ $Citationt=Elliot, W.J. 2006.
   Wallingford, Oxfordshire, UK: Commonwealth Agricultural Bureau International.
   177-185.
 $Abstract=
-$Keywords=
+$Keywords=soil erosion, human impacts
 $links=<a href="/engr/library/Elliot/Elliot2006q/2006q.pdf" target="_pdf">PDF</a> [318 KB]
 #2006p###############################################
 $Title=Remote sensing techniques to assess active fire characteristics and post-fire effects
@@ -4454,7 +4453,7 @@ managers to discuss information needs and challenges and to make recommendations
 characteristics and post-fire effects. This paper provides a summary of this panel discussion, which highlighted
 challenges relating to terminology, interpretation, data availability, etc; and suggested recommendations for
 partnerships and strategies to address these challenges.
-$Keywords=mapping
+$Keywords=mapping, post-fire effects, Utah
 $type=
 $links=<a href="/engr/library/Lewis/Lewis2006o/2006o.pdf" target="_pdf">PDF</a> [70 KB]
 #2006n###############################################
@@ -4478,7 +4477,7 @@ $Abstract=The effects of a wildfire on the ground surface are indicative of the 
  component. Significant correlations (<i>r</i> &gt; 0.2, <i>p</i>-value &lt; 0.0001) were found between the fractional cover interpreted
  from hyperspectral images and corresponding field measurements indicating that these methods are appropriate for
  mapping post-fire ground conditions.
-$Keywords=mapping, ground cover
+$Keywords=mapping, ground cover, hyperspectral, remote sensing, California
 $type=
 $links=<a href="/engr/library/Lewis/Lewis2006n/2006n.pdf" target="_pdf">PDF</a> [161 KB]
 #2006m###############################################
@@ -4494,7 +4493,7 @@ $Citationt=Foltz, R.B.; Tyler, K.Y. 2006.
 $category=
 $Publisher=ASABE
 $Abstract=
-$Keywords=infiltration
+$Keywords=infiltration, modeling, erosion control
 $type=
 $lynx=
 #2006l###############################################
@@ -4510,7 +4509,7 @@ $Citationt=Lanning, D.N.; Burks, J.E.; Foltz, R.B. 2006.
 $category=
 $Publisher=ASABE
 $Abstract=
-$Keywords=mulch, straw
+$Keywords=mulch, straw, erosion control
 $type=
 $lynx=<a href="https://www.forestconcepts.com/docs/Wood-strand.Field.Performance.11-08-2005.pdf" target="_pdf">PDF</a>
 #2006k###############################################
@@ -4581,7 +4580,7 @@ $Abstract=Adequate and reliable erosion prediction tools are needed for sound fo
       in a forest setting; and
   (2) application of the modified model produced satisfactory results,
       demonstrating the adequacy of the model modifications.
-$Keywords=forest watershed, surface runoff, subsurface lateral flow, soil erosion, hydrologic modeling, WEPP
+$Keywords=forest watershed, surface runoff, subsurface lateral flow, soil erosion, hydrologic modeling, WEPP, Idaho
 $type=
 $links=<a href="https://forest.moscowfsl.wsu.edu/engr/library/Elliot/Elliot2006j/2006j.pdf">PDF</a> [841 KB]
 #2006i###############################################
@@ -4611,7 +4610,7 @@ $Abstract=Wind erosion is a widespread problem in much of the western United Sta
  while wheat straw is only stable at wind speeds of up to 6.5 m/s. At a wind velocity of 18 m/s, the
  straw, due to its instability, did not reduce soil loss; however, wood strands reduced total sediment
  loss and peak dust emissions by over 90% when compared to a bare soil.
-$Keywords=Wind erosion, Erosion control, Wind tunnel, Wood strands, PM10 emissions, Air quality
+$Keywords=Wind erosion, Erosion control, Wind tunnel, Wood strands, Air quality, western US
 $type=
 $lynx=
 $plinks=<a href="https://asae.frymulti.com/azdez.asp?search=1&JID=5&AID=22058&CID=por2006&T=2" target="_pdf">PDF</a> [ASABE subscription]
@@ -4673,7 +4672,7 @@ $Abstract=Erosion following wildfire can be as much as 1000 times the erosion fr
   and the benefits of mulching those slopes.
   Within the three days available for analysis, about 38 percent of the burned area was analyzed.
   This paper summarizes the analytical methods, and the findings of the prediction runs.
-$Keywords=Wildfire, Erosion control, Flooding, Forests, Hydrologic modeling, WEPP
+$Keywords=Wildfire, Erosion control, Flooding, Forests, Hydrologic modeling, WEPP, Washington State
 $type=
 $links=<a href="https://forest.moscowfsl.wsu.edu/engr/library/Elliot/Elliot2006g/2006g.pdf">PDF</a> [400 KB]
 #2006f###############################################
@@ -4699,7 +4698,7 @@ $Abstract=Sediment budget analyses require watershed scale evaluation of road er
  1,017 km of road divided into 6,955 road segments.
  The availability of analysis capabilities of the WEPP results from large road networks within GIS provides a
  spatially explicit tool for the management and evaluation of sediment production throughout large road networks.
-$Keywords=Sediment; Runoff; Watershed management; Erosion; Roadside hazards, road
+$Keywords=Sediment; Runoff; Watershed management; Erosion; Roadside hazards, road, Idaho
 $type=
 $treesearch=pubs/23560
 $links=<a href="https://www.fs.fed.us/rm/pubs_other/rmrs_2001_elliot_w001.pdf">PDF</a> [214 KB]
@@ -4747,7 +4746,7 @@ $abstract=After the 1998 North 25 Fire in the Wenatchee National Forest, eight s
  severely burned hillslopes to examine the effectiveness of postfire seeding and fertilizing treatments in
  increasing cover to reduce hillslope erosion, and to measure the nutrient content of the eroded sediment.
  ...
-$keywords=Erosion rate, wildfire, grass seeding, silt fence, monitoring, rehabilitation, seeding
+$keywords=Erosion rate, wildfire, grass seeding, silt fence, monitoring, rehabilitation, seeding, Washington State
 $type=
 $links=<a href="https://www.sciencedirect.com/science?_ob=MImg&_imagekey=B6VCG-4JT3SB8-1-7&_cdi=5954&_user=4250274&_orig=search&_coverDate=08%2F15%2F2006&_sk=999329998&view=c&wchp=dGLzVlz-zSkWb&md5=5117081fb1dd1cf41a6a65060f36e213&ie=/sdarticle.pdf">PDF</a> [380 KB]
  <a href="https://www.sciencedirect.com/science?_ob=ArticleURL&_udi=B6VCG-4JT3SB8-1&_user=4250274&_coverDate=08%2F15%2F2006&_alid=552283449&_rdoc=1&_fmt=full&_orig=search&_cdi=5954&_sort=d&_docanchor=&view=c&_ct=1&_acct=C000052423&_version=1&_urlVersion=0&_userid=4250274&md5=3fd640545104738b85d55fedc6f2dbe1">HTML</a>
@@ -4806,7 +4805,7 @@ $Citationt=Graham, R.T.; Finney, M.A.; Cohen, J.; Robichaud, P.R.; Romme, W.; Ke
 $category=
 $Publisher=
 $Abstract=
-$Keywords=Hayman Fire
+$Keywords=Hayman Fire, Colorado
 $type=
 $links=<a href="/engr/library/Robichaud/Robichaud2005o/2005o.pdf" target="_pdf">PDF</a> [179 KB]
 #2005n###############################################
@@ -4821,7 +4820,7 @@ $Citationt=Robichaud, P.R.; Beyers, J.L.; Neary, D.G. 2005.
 $category=fire effects
 $Publisher=USDA FS
 $Abstract=
-$Keywords=watershed
+$Keywords=watershed restoration, wildfire effects
 $type=non-peer-reviewed
 $links=<a href="/engr/library/Robichaud/Robichaud2005n/2005n.pdf">PDF</a> [661 KB]
 #2005m###############################################
@@ -4836,7 +4835,7 @@ $Citationt=Ryan, K.; Elliot, W.J. 2005.
 $category=fire effects
 $Publisher=USDA FS
 $Abstract=
-$Keywords=WEPP, fire effects
+$Keywords=WEPP, fire effects, modeling, wildfire effects
 $type=non-peer-reviewed
 $links=<a href="/engr/library/Elliot/Elliot2005m/2005m.pdf">PDF</a> [249 KB]
 #2005l###############################################
@@ -4872,7 +4871,7 @@ $Abstract=An important element of evaluating a large wildfire is to assess its e
  hence, results from both tests reflect that variability, accounting for much of the remaining variance.
  The MDI is easier to use, takes about 1 min to assess a strongly water repellent soil and provides two indicators of
  water repellency: the time to start of infiltration and a relative infiltration rate.
-$Keywords=forest fire; water repellent soils; erosion; burn severity; water drop penetration time (WDPT); mini-disk infiltrometer (MDI), water repellency, Hayman Fire
+$Keywords=forest fire; water repellent soils; erosion; burn severity; water drop penetration time (WDPT); mini-disk infiltrometer (MDI), water repellency, Hayman Fire, Colorado
 $type=
 $links=<a href="/engr/library/Lewis/Lewis2005l/2005l.pdf" target="_pdf">PDF</a> [213 KB]
  <a href="https://www3.interscience.wiley.com/cgi-bin/fulltext/111082744/PDFSTART" target="_pdf">Through Wiley</a>
@@ -4912,7 +4911,7 @@ simulation and concentrated flow (rill) techniques to obtain infiltration and er
 parameters for a variety of burn severities, soil textures and rehabilitation treatments
 (straw mulch, hydromulch, contour-felled logs, straw wattles). Model validation ef-forts
 are ongoing at nine paired watershed sites around the western United States.
-$Keywords=
+$Keywords=modeling, burn severity, ERMiT, western US, WEPP
 $lynx=www.cosis.net/abstracts/EGU05/00608/EGU05-J-00608.pdf [abstract]
 #2005j###############################################
 $Title=Measurement of post-fire hillslope erosion to evaluate and model rehabilitation treatment effectiveness and recovery
@@ -5002,7 +5001,7 @@ $Abstract=The Nez Perce National Forest and the Rocky Mountain Research Station 
  during a precipitation event. Turbidity values exceeded the Idaho Department of
  Environmental Quality limit of 50 NTU above background immediately below the
  culvert, but not at the watershed mouth.
-$Keywords=road obliteration, water quality
+$Keywords=road obliteration, water quality, Idaho
 $Citationt=Foltz, R.B.; Yanosek, K.A. 2005.
 <i><a>Effects of road obliteration on stream water quality.</a></i>
  In Moglen, G.E., ed.,
@@ -5030,7 +5029,7 @@ $Abstract=The US Forest Service has identified unmanaged all terrain vehicle (AT
  lands. Factors which may determine impacts of ATVs include site characteristics, such as soil
  moisture, soil types, existing terrain, and storm events, and ATV attributes such as vehicle type,
  tire tread, amount of trail use, and rider attitude.
-$Keywords=all terrain vehicles, ATV
+$Keywords=all terrain vehicles, ATV, soil erosion, wetland ecosystems
 $Citationt=Foltz, R.B.; Yanosek, K.A. 2005.
  <i><a>Impacts of all terrain vehicles (ATV) on National Forest Lands and Grasslands.</a></i>
  In Moglen, G.E., ed.,
