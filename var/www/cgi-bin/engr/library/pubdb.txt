@@ -5374,7 +5374,7 @@ $Citationt=Covert, S.A.; Robichaud, P.R.; ELliot, W.J. Under review.
  <a><b>Accuracy assessment of WEPP-based erosion models for harvested and burned forest watersheds.</b></a>
  USDA Forest Service, Rocky Mountain Research Station.
 $lynxs=<a href="https://forest.moscowfsl.wsu.edu/engr/library/other/Covert2004m/2004m.pdf">PDF</a>
-#2004l###############################################
+*2004l###############################################
 $Title=The effectiveness of postfire mitigation treatments
 $Year=2004
 $Authors=Elliot, Robichaud
@@ -5610,7 +5610,7 @@ $Abstract=Increased runoff and erosion commonly occur after wildfires with the o
 $Keywords=erosion, sedimentation, paired watersheds, instrumentation, data logger, Colorado, Washington State, California, Montana
 $type=
 $links=<a href="/engr/library/Robichaud/Robichaud2003z/2003z.pdf" target="_pdf">PDF</a> [145 KB]
-#2003y###############################################
+*2003y###############################################
 $Title=Proposed modifications to the WEPP model to improve sediment yield predictions for TMDL scenario analyses
 $Year=2003
 $Authors=Elliot
@@ -5682,7 +5682,7 @@ $Citationt=Rummer, B.; Prestemon, J.; May, D.; Miles, P.; Vissage, J.; McRoberts
  Washington, DC: U.S. Department of Agriculture,
  Forest Service, Research and Development. 21&nbsp;p.
 $links=<a href="https://www.fs.fed.us/research/pdf/Western_final.pdf" target="o">USFS PDF</a> (342KB)
-#2003v###############################################
+*2003v###############################################
 $Title=Effectiveness of needle cast at reducing erosion after forest fires
 $Year=2003
 $Authors= Pannkuk, Robichaud
@@ -5765,7 +5765,7 @@ $Abstract=Wildfire is an important ecological process and
   hydrologic impacts of prescribed fire used as a tool
   to manage vegetation and mitigate the impacts of
   catastrophic wildfire events.
-$Keywords=sagebrush, interrill erosion, infiltration, water repellent soil
+$Keywords=sagebrush, interrill erosion, infiltration, water repellent soil, Idaho, Nevada
 $Citationt=Pierson, F.B.; Robichaud, P.R.; Spaeth, K.E.; Moffet, C.A. 2003.
   <a><i>Impacts of fire on hydrology and erosion in steep mountain big sagebrush communities.</i></a>
   <b>First interagency conference on research in the watersheds.</b>
@@ -5985,7 +5985,7 @@ model erosion with the incorporation of digital elevation data, but lacks the ab
 accurately represent forest hydrology. The incorporation of a WEPP algorithm that
 represent forest soils more realistically would improve the results of GeoWEPP
 predictions.
-$Keywords=GeoWEPP, erosion models, forested watersheds, WEPP
+$Keywords=GeoWEPP, erosion models, forested watersheds, WEPP, Pacific NW
 $links=<a href="https://forest.moscowfsl.wsu.edu/engr/library/other/Covert2003n/2003n.pdf">PDF</a> [498 KB]
 #2003m##############################################
 $Title=Hyperspectral remote sensing of fire induced water repellent soils
@@ -6025,7 +6025,7 @@ $Abstract=The summer of 2002 was one of the worst fire seasons in history, espec
  the ability to identify the presence of soil water repellency was nearly 80 percent.
  According to the classification, approximately 20 percent of the Hayman Fire was at a high
  risk for soil erosion, and these are the areas on which erosion mitigation should be focused.
-$Keywords=hydrophobic soil, water repellent soil, hyperspectral, water repellency
+$Keywords=hydrophobic soil, water repellent soil, hyperspectral, water repellency, Hayman Fire, Colorado
 $links=<a href="/engr/library/Lewis/Lewis2003m/2003m.pdf" target="_pdf">PDF</a> [3.1 MB]
 #2003l##############################################
 $Title=Time to burn?
@@ -6068,7 +6068,7 @@ $Abstract=Roads have been identified as a major source of sediment loading to st
  and unique physical attributes for each road segment.
  Analysis of the WEPP results within a GIS provides a spatially explicit tool for the management and evaluation
  of sediment production throughout large road networks.
-$Keywords=sediment yield, runoff, low-volume roads, watershed modeling, TMDL, road
+$Keywords=sediment yield, runoff, low-volume roads, watershed modeling, TMDL, road erosion, Idaho
 $Citationt=Brooks, E.S.; Boll, J.; Elliot, W.J. 2003.
  <i><a>GPS-assisted road surveys and GIS-based road erosion modeling using the WEPP model.</a></i>
  Paper No. PNW-03-109.
@@ -6125,7 +6125,7 @@ $Abstract=Agricultural straw is widely used as an erosion mitigation measure on 
   of a wood analog.
   Work is continuing to improve the wood strand properties for further field
   testing.
-$Keywords=erosion control, mitigation, mulch, overland flow, residue, sediment control, straw mulch, wood strand
+$Keywords=erosion control, mitigation, mulch, overland flow, residue, sediment control, straw mulch, wood strand, Idaho
 $Citationt=Foltz, R.B.; Dooley, J.H. 2003.
  <i><a>Comparison of erosion reduction between wood strands and agricultural straw.</a></i>
  <b>Transactions of the ASAE</b> 46(5) 1389-1396.
@@ -6275,7 +6275,7 @@ $Abstract=Mass failure is one of the most common failures of low-volume roads in
  were observed to have occurred. A comparison of the predicted FSs
  from the regression equations with the FS values predicted by the infinite
  slope equation showed that both methods predicted similar FSs.
-$Keywords=road stability, slope stability
+$Keywords=road stability, slope stability, Idaho
 $Citationt=Elliot, W. J.; Ballerini, M.; Hall, D.E.  2003.
  <a><i>Simplified methods for evaluating road prism stability</i></a>.
  <b>Transportation Research Record,</b> Transportation Research Board,
@@ -6319,6 +6319,7 @@ $category=fire effects
 $publisher=USDA FS RMRS
 $authors=Robichaud, Storrar
 $authorblock=<b>Peter R. Robichaud<br>Chapin S. Storrar</b>
+$Keywords=soil erosion, erosion monitoring
 $citationt=Robichaud Peter R.; Storrar, Chapin S. 2002.
    <i><a>Silt happens: Gathering erosion data.</a></i>
    General Technical Report RMRS-93-CD.
@@ -6331,7 +6332,7 @@ $category=upland watersheds, erosion modeling
 $publisher=ASAE
 $authors=Elliot
 $authorblock=<b>William J. Elliot</b>
-$keyword=TMDL, WEPP, modeling
+$Keyword=TMDL, WEPP, modeling, Oregon
 $citationt=Elliot, W.J. 2002.
    <a><i>Predicting sediment TMDLs for forest conditions with the WEPP model.</i></a>
    In: Saleh, A., ed., <b>Total Maximum Daily Load (TMDL) Environmental Regulations:</b> Proceedings of the March 11-13 ASAE Conference,
@@ -6538,7 +6539,7 @@ catchments are due to the twofold difference in the estimated soil water-holding
 appears that the deeper soils in the untreated watershed were able to retain most of the precipitation, releasing less water
 to the channels and thereby reducing erosion and sediment yield. Thus, the test of LEB effectiveness was inconclusive
 in this study, because soil depth and soil water-holding capacity may have masked their performance.
-$Keywords=sediment yield; hydrologic response; fire; erosion control; log erosion barriers; upland watersheds; soil depth; water repellency; erosion barrier
+$Keywords=sediment yield; hydrologic response; fire; erosion control; log erosion barriers; upland watersheds; soil depth; water repellency; erosion barrier, California
 $alinks=<a href="https://gsa.confex.com/gsa/2002AM/finalprogram/abstract_43362.htm" target="o">GSA abstract</a>
 $links=<a href="/engr/library/Robichaud/Robichaud2001t/2001t.pdf" target="_pdf">PDF</a> [433 KB]
 $type=refereed
@@ -6568,7 +6569,7 @@ $Abstract=Wildfire is a major ecological process and management issue on western
  The impact of the fire on infiltration and erosion was reduced, but still evident, 1 year after fire.
  Significant temporal variability in infiltration between years was observed on both burned and unburned areas,
  complicating the interpretation of fire impacts and hydrologic recovery following wildfire.
-$Keywords=rangeland; wildfire; infiltration; runoff; post-fire erosion; water-repellency; rainfall simulation
+$Keywords=rangeland; wildfire; infiltration; runoff; post-fire erosion; water-repellency; rainfall simulation, 1999 Denio fire, Nevada
 $links=<a href="/engr/library/Robichaud/Robichaud2001s/2001s.pdf" target="_pdf">PDF</a> [118 KB]
 $type=refereed
 #2001r####################################################
