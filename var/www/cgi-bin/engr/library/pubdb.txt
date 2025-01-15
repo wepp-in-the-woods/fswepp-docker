@@ -6842,7 +6842,7 @@ $Abstract=A study to determine the infiltration parameters for filter windrows w
  filter windrow and from 60 to 1400 mm/hr in the forest floor. While the 1400 mm/hr value appeared to be due
  to macropores, hydraulic conductivity values of 400 mm/hr for the forest floor were required for proper WEPP
  simulation. These values will be incorporated in the U.S. Forest Service WEPP Road interface.
-$Keywords=Filter windrows, Hydrophobic conditions, Hydraulic conductivity, WEPP, infiltration, road infiltration
+$Keywords=Filter windrows, Hydrophobic conditions, Hydraulic conductivity, WEPP, infiltration, road infiltration, Idaho
 $links=<a href="https://forest.moscowfsl.wsu.edu/engr/library/Foltz/Foltz2001h/2001h.pdf">PDF</a> [98k]<br>
 $zlinks=<a target="o" href="https://asae.frymulti.com/request2.asp?JID=1&AID=3190&CID=se2001&v=&i=&T=2">ASAE pdf</a> (subscription) |
         <a target="o" href="https://asae.frymulti.com/request2.asp?JID=1&AID=3190&CID=se2001&v=&i=&T=1">ASAE html</a> (subscription)
@@ -6899,7 +6899,7 @@ $Abstract=Rangeland runoff and erosion rates are highly dependent on the type an
  sedimentation. The WEPP rangeland templates underpredicted erosion and overpredicted runoff. Both
  versions of WEPP were able to predict runoff as a function of upland topography and vegetation, making future
  development of more complex rangeland watershed sedimentation prediction feasible.
-$Keywords= Erosion models, Modeling, Rangeland, RUSLE, WEPP
+$Keywords= Erosion models, Modeling, Rangeland, RUSLE, WEPP, Colorado
 $links=<a href="https://forest.moscowfsl.wsu.edu/engr/library/Elliot/Elliot2001f/2001f.pdf">PDF</a> [147k]<br>
 $zlinks=<a target="o" href="https://asae.frymulti.com/request2.asp?JID=1&AID=3289&CID=se2001&v=&i=&T=2">ASAE pdf</a> (subscription) |
         <a target="o" href="https://asae.frymulti.com/request2.asp?JID=1&AID=3289&CID=se2001&v=&i=&T=1">ASAE html</a> (subscription)
@@ -6973,7 +6973,7 @@ $Abstract=Wildfire and forest operations remove vegetation and disturb forest so
 	with adequate buffers, result in lower long-term erosion rates than those experienced following
 	wildfire, which is inevitable if fuel loads are not reduced. The effects of reducing
 	fire-induced flood flows on forest stream systems, however, are unknown.
-$Keywords=Soil Erosion, Forest operations, Forest fires, WEPP
+$Keywords=Soil Erosion, Forest operations, Forest fires, WEPP, Pacific NW
 $links=<a href="https://forest.moscowfsl.wsu.edu/engr/library/Elliot/Elliot2001c/2001c.pdf">PDF</a> [144k]
 *2001b####################################################
 $Title=Use of WEPP modeling in watershed analysis and timber harvest planning
@@ -7062,7 +7062,7 @@ $Abstract=Fuel and land management activities in the past
 	the upland watershed/catchment scale. Data collection has begun from a burned-over catchment
 	and preliminary results are presented. Additional discussion addresses methodologies and
 	approaches to evaluate and model erosion risk and hazard.
-$Keywords=soil erosion, fire severity, risk assessment, modeling, fuel management
+$Keywords=soil erosion, fire severity, risk assessment, modeling, fuel management, Pacific NW, Southeastern US
 $lynx=[ <a href="https://www.nifc.gov/joint_fire_sci/conferenceproc/Mo-07Robichaudetal.pdf"  class="pdf">PDF</a> (31k) -- broken 6/2003 ]
 #2000v########################################################
 $title=Impact of roads and other corridors
@@ -7511,7 +7511,7 @@ $Abstract=Most common soil erosion models were developed for agricultural condit
 	RUSLE overpredicted sediment yields by a factor of 3, and the WEPP
 	rangeland predictions were 1/6 the observed sediment yields. In a sensitivity analysis
 	with the FS WEPP interface, as cover increases, differences in runoff and erosion between soils decreases.
-$Keywords=watershed erosion, FSWEPP, WEPP, modeling
+$Keywords=watershed erosion, FSWEPP, WEPP, modeling, Colorado
 $lynx=<a href="https://forest.moscowfsl.wsu.edu/engr/library/Elliot/Elliot2000d/2000d.pdf">PDF</a> [108k]
 $plinks=<a href="https://ascelibrary.aip.org/getpdf/servlet/GetPDFServlet?filetype=pdf&id=ASCECP000105040499000033000001&idtype=cvips ">PDF</a>&nbsp;(101 kB)&nbsp;&nbsp;ASCE
 #2000c###########################################################################################################
@@ -7590,7 +7590,7 @@ $Abstract=With the growing public use of the national forests, forest engineers,
 	approach also was attempted for sediment delivery across a buffer with less success.
 	This is possibly due to complications from antecedent moisture conditions, vegetative
 	cover, and sediment loading in runoff.
-$Keywords=road, WEPP, forest management
+$Keywords=road erosion, WEPP, forest management
 $links=<a href="https://forest.moscowfsl.wsu.edu/engr/library/Elliot/Elliot2000b/2000b.pdf">PDF</a> [231k]
 $plynx=<a href="https://ascelibrary.aip.org/getpdf/servlet/GetPDFServlet?filetype=pdf&id=ASCECP000105040499000046000001&idtype=cvips ">PDF</a>&nbsp;(222 kB)&nbsp;&nbsp;ASCE
 #2000a##############################################################
@@ -7630,7 +7630,7 @@ $Abstract=This study investigated the sediment production from various aggregate
 	aggregate quality were Sand Equivalent and Oregon Air P20 test results. Knowledge of
 	whether an aggregate was classified as good or marginal was not sufficient to estimate
 	sediment production. The best indicator of sediment production was the percent passing the number 30 sieve.
-$Keywords=aggregate, road erosion, erodibility
+$Keywords=aggregate, road erosion, erodibility, Pacific NW
 $lynx=<a href="https://forest.moscowfsl.wsu.edu/engr/library/Foltz/Foltz2000a/2000a.pdf">PDF</a> [80k]
 $plinks=<a href="https://ascelibrary.aip.org/getpdf/servlet/GetPDFServlet?filetype=pdf&id=ASCECP000105040499000045000001&idtype=cvips ">PDF</a>&nbsp;(70 kB)&nbsp;&nbsp;ASCE
 #1999t###############################
@@ -7709,7 +7709,7 @@ $Abstract=Prescribed fire is used as a site treatment after timber harvesting.
   This is believed to be due to both the heat generated by the fire drying out the upper portions of the units, thus consuming more duff material, and the thinner preburn duff thickness due to ground-based harvesting techniques.
   Attempts to predict duff consumption and subsequent post-burn duff thickness were successful using a trend surface model developed for this site and a general duff consumption model.
   Knowledge of spatial patterns of duff remaining may help land managers adjust prescriptions and alter ignition patterns to reduce areas where total consumption of duff might occur.
-$Keywords=Geostatistics, Forest floor, Duff water content, Spatial patterns, Northern Rocky Mountains
+$Keywords=Geostatistics, Forest floor, Duff water content, Spatial patterns, northern Rocky Mountains
 $links=<a href="/engr/library/Robichaud/Robichaud1999q/1999q.pdf">PDF</a> [567 KB]
 $type=refereed
 #1999p###########################################################################################################
@@ -7733,7 +7733,7 @@ $Abstract=Low-volume roads can be a major source of sediment to streams in fores
  hillslopes.  Watershed applications of WEPP predicted erosion and sedimentation values for insloping 
  roads that can be described as microwatersheds.  How well WEPP models insloping roads through a 
  sensitivity analysis and validation process using two studies in the Oregon Coast Range is discussed.
-$Keywords=Road Erosion, WEPP, soil erosion
+$Keywords=Road Erosion, WEPP, soil erosion, Oregon
 $lynx= [ <a href="https://forest.moscowfsl.wsu.edu/engr/reports/LMT_trb1652.pdf" class="pdf">PDF - Transportation Research Record No. 1652, volume 2. 250-256 (1042k)</a> ]
 #1999o###########################################################################################################
 $Title=Modeling low-volume road erosion
@@ -7819,7 +7819,7 @@ $Abstract=Fuel and land management activities in the past century have placed wi
  erosion rates and estimates of sediment production after wildfires at the upland watershed/catchment 
  scale. Data collection has begun from a burned over catchment and preliminary results will be presented.
  Additional discussion will address methodologies and approaches to evaluate and model erosion risk and hazard.
-$Keywords=soil erosion, fire severity, risk assessment, modeling
+$Keywords=soil erosion, fire severity, risk assessment, modeling, Pacific NW, Southeastern US
 $lynx=<a href="https://forest.moscowfsl.wsu.edu/engr/library/Robichaud/Robichaud1999m/1999m.pdf">PDF</a> [69k]
 #1999l#################################################
 $title=Predicting sedimentation from forest roads
@@ -7860,7 +7860,7 @@ $Abstract= A computer program can help managers anticipate erosion and sediment 
  channel; less sediment comes from the traveledway and the cutslope.  Mitigation
  measures to minimize ditch erosion and channel flow rates will have the greatest 
  effects on reducing sediment delivered from insloped forest roads.
-$keyword=road erosion, WEPP
+$keyword=road erosion, WEPP, Oregon
 $links=<a href="https://forest.moscowfsl.wsu.edu/engr/library/Elliot/Elliot1999k/1999k.pdf">PDF</a> [5914k]
 #1999j##################################################
 $title=Measuring rill erosion rates in a steep forest environment
@@ -8819,7 +8819,7 @@ $Abstract=Several logging road subgrades and cut slopes failed under wet
  road construction conditions on the Olympic Peninsula was proven correct.
  A combined field and laboratory testing procedure was developed for
  identifying these soils.
-$Keywords=soil identification; Pacific NW; soil strength
+$Keywords=soil identification; Washington State; soil strength
 $lynx=
 #1995i###########################################################################################################
 $Title=Erosion prediction in the republic of Lithuania with the WEPP model
@@ -9326,7 +9326,7 @@ $abstract=Slash burning is a common site preparation technique used after timber
  differences in forest floor characteristics and infiltration rates.
  Conditions of high-severity resulted when burning was conducted with relatively dry fuels.
  Sediment yields were 40-times greater for the high-severity treatment areas than the low-severity treatment areas.
-$keywords=erosion, runoff, sediment yield, site preparation burning, timber harvest
+$keywords=erosion, runoff, sediment yield, site preparation burning, timber harvest, Southeastern US
 $type=refereed
 $plinks=<a href="https://www3.interscience.wiley.com/cgi-bin/fulltext/119284428/PDFSTART" target="_pdf">PDF</a>
 #1994a#################################################
@@ -9355,7 +9355,7 @@ $abstract=Postharvest residue burning is a common site preparation treatment use
   Low erosion rates and nutrient losses were measured from this burn treatment.
   These results could help in making land management decisions concerning timing of burning as related
    to onsite sediment production, fuel reduction and long-term site productivity. 
-$keywords=erosion, prescribed burning, nitrogen loss, soil heating, sediment yield, sediment production
+$keywords=erosion, prescribed burning, nitrogen loss, soil heating, sediment yield, sediment production, Pacific NW
 $lynx=<a href="https://forest.moscowfsl.wsu.edu/engr/library/Robichaud/Robichaud1994a/1994a.html">HTML</a> [26k]
        <a href="https://forest.moscowfsl.wsu.edu/engr/library/Robichaud/Robichaud1994a/1994a.pdf">PDF</a> [429k]
 $type=peer reviewed
@@ -9423,7 +9423,7 @@ $Abstract=Information about differences in surface conditions on timber harvest 
  sampled included bladed skid roads with and without treatments, many pass skid trails, few pass 
  skid trails, low burn severity harvest sites, high burn severity harvest sites, and undisturbed forest.
  Results suggest these conditions can be divided into two or three groups for modeling purposes.
-$Keywords=surface conditions
+$Keywords=surface conditions, Southeastern US
 $Citationt=Robichaud, P.R.; Luce, C.H.; Brown, R.E.
 	1993.
 	<a><i>Variation among different surface conditions in timber harvest sites in the southern Appalachians.</i></a>
@@ -9540,7 +9540,7 @@ $category=disturbed forests, road erosion
 $Publisher=Our California Environment
 $authorblock=
 $Abstract=
-$Keywords=road
+$Keywords=road erosion, erosion modeling
 $Citationt=Burroughs, E.R., Jr.; Foltz, R.B.; Robichaud, P.R. 1991.
  <a><i>Sediment production from forest roads and timber harvest areas.</i></a>
  <b>Our California Environment</b> 1(4): 4-6. Fort Dodge, IA: Land and Water, Inc.
@@ -9569,7 +9569,7 @@ $Abstract=Runoff and sediment production was measured under simulated and natura
  However, temporary hydrophobic conditions caused by a dry organic layer
  produced relatively high runoff rates and high sediment for the first few
  minutes of runoff for some of the simulated rainfall applications.
-$Keywords=runoff, sediment production, hydrophobicity, burning, Georgia Piedmont
+$Keywords=runoff, sediment production, hydrophobicity, burning, Southeastern US
 $Citationt=Shahlaee, A.K.; Nutter, W.L.; Burroughs, E.R., Jr.; Morris, L.A.
  1991.
  <a><i>Runoff and sediment production from burned forest sites in the Georgia Piedmont.</i></a>
@@ -9603,7 +9603,7 @@ higher ground pressures on the normal tire pressure plot caused significant
 rutting while the road surface of the reduced tire pressure plot had only minor
 ruts.  These tests clearly indicate that the use of VTP has a significant
 potential to reduce adverse impcts on water quality.
-$Keywords=tire pressure
+$Keywords=tire pressure, road eorion
 $Citationt=Bellitto, M.; Burroughs, E.R. Jr.; Foltz, R.B. 1991.
 <a><b>The effect of reduced tire pressure on sediment production from a forest road.</b></a>
 A report on a cooperative study between the Intermountain Research Station, WO Engineering and San Dimas Technology and Development Center.
@@ -9702,7 +9702,7 @@ $abstract=The United States Forest Service is developing a surface erosion model
  Data from a laboratory study of the relative erodibility of wildland soils were used to estimate interrill sediment detachment as a function of soil texture and clay mineralogy.
  Simulated rainfall on bounded road plots up to 38 m long showed that wheel ruts increased sediment production by a factor of two to four over similar unrutted road sections.
  The difference in the increase was a function of relative soil erodibility.
-$keywords=road
+$keywords=road erosion
 $type=peer reviewed
 #1991d#########################################################
 $title=A test of normal tire pressure and reduced tire pressure on forest roads: sedimentation effects
@@ -9734,7 +9734,7 @@ $abstract=Two 30-m forest road sections were bladed and used to measure sediment
   while the road surface of the reduced tire pressure treatment area had only minor ruts.
   These tests clearly indicate that the use of reduced tire pressure has a significant potential to reduce
   adverse impacts on water quality.
-$keywords=road, tire pressure
+$keywords=road erosion, tire pressure
 #1991c#########################################################
 $Title=Landslide hazard assessment using Monte Carlo simulation
 $Year=1991
@@ -9749,7 +9749,7 @@ This paper describes a rational means for considering both natural variability a
 Monte Carlo simulation is used to simulate the frequency distribution of the factor of safety on a given landform or slope.
 The probability of failure is taken as the relative frequency with which the factors of safety are less than or equal to one.
 The simulation program is written for IBM PCs and compatibles, includes a menu-driven user interface, and allows the use of seven different input probability distributions to describe the natural variability and uncertainty of each input variable.
-$Keywords=landslide, probabilistic
+$Keywords=landslide, probabilistic, Alaska
 $Citationt=Hammond, C.J.; Prellwitz, R.W.; Miller, S.M. 1991.
   <i><a>Landslide hazard assessment using Monte Carlo simulation.</a></i>
   Bell, D.H., ed. <b>Landslides/Glissements de terrain.</b>
@@ -9766,7 +9766,7 @@ $Abstract=Clear water flow and sediment yield from simulated wheel ruts in a for
 five different sites in the Northern Rocky Mountains. These measurements provided information on
 the Darcy-Weisbach friction factor and Reynolds number relationship. The rill erodibility and
 critical shear were also determined.
-$keywords=sedimentation; wheel ruts; forest roads; erosion processes; hydraulics; hydraulic roughness; road
+$keywords=sedimentation; wheel ruts; forest roads; erosion processes; hydraulics; hydraulic roughness; northern Rocky Mountains
 $citationt=Foltz, R.B.; Rauch, K.S.; Burroughs, E.R., Jr. 1991.
            <a><i>Hydraulic roughness and sediment yield in wheel ruts on forest roads.</i></a>
      In: <b>Proceedings of Hydraulic Engineering 1991 EE, IR, WW Div./ASCE national conference on hydraulic engineering;</b>
@@ -9858,7 +9858,7 @@ $Abstract=Artificial rainfall was applied to two sets of
  plots did not show a significant sediment depletion.
  This difference was a result of concentrated flow versus
  sheet flow.
-$Keywords=road
+$Keywords=road erosion, rainfall simulation
 $Citationt=Foltz, R.B.; Burroughs, E.R., Jr. 1990.
            <a><i>Sediment production from forest roads with wheel ruts.</i></a>
    <i>In:</i> <b>Proceedings from Watershed Planning and Analysis in Action.</b>
@@ -9966,7 +9966,7 @@ harvest areas, and woodlands are obtained.
 Simulated rainfall will be used to develop relationships between model parameters
 and site characteristics such as bulk density, soil texture, etc.
 A description of the methodology follows.
-$Keywords=Erosion, sedimentation, forests, roads
+$Keywords=Erosion, sedimentation, forests, road erosion
 $Citationt=Burroughs, E.R., Jr.; J. Nordin. 1987.
  <a><i>Proposed onsite sediment yield model for forest conditions.</i></a>
  Paper No. 87-2583.
@@ -9996,7 +9996,7 @@ $Abstract=Simulated rainfall was used to generate runoff and sediment yield
  sediment yield by 99.6 percent of that from a bare slope with a loose soil
  surface. Wood fiber mulch and a sediment barrier of cull logs and logging
  slash reduce bare slope sediment yield by 91 and 87 percent, respectively.
-$Keywords=road
+$Keywords=road erosion, Montana, Idaho
 $Citationt=Burroughs, E.R., Jr.; King, J.G. 1985.
  <a><i>Surface erosion control on roads in granitic soils.</i></a>
  <b>Proceedings of Symposium Sponsored by Committee on Watershed Management,</b>
@@ -10011,7 +10011,7 @@ $publisher=ASCE
 $authors=Burroughs
 $authorblock=<b>Edward R. Burroughs, Jr.</b>
 $abstract= The landslide hazard rating system for shallow soils on steep terrain over hard sandstone has three components: ground water response to precipitation, soil shear strength (including root strength), and a factor of safety model. Ground water rise over a hyperbolic-shaped bedrock surface in debris avalanche terrain is empirically derived as a function of easily measured site characteristics. Data on soil shear strength (� and c) are based on triaxial tests on samples from sites with a high potential for translational failure. Root strength is the sum of the residual strength of Douglas-fir roots as they decline with time after clearcutting and the passive resistance to sliding of an alder soil-root mass. Driving and resisting forces are calculated for a three-dimensional block using estimated ground water rise for a selected design storm, soil shear strength, and estimated root strength.
-$keywords=slope stability, landslide
+$keywords=slope stability, landslide, Oregon
 $citationt=Burroughs, E.R., Jr. 1985.
    <i><a>Landslide Hazard Rating for the Oregon Coast Range</a>.</i>
    <b>Proceedings of Symposium Sponsored by Committee on Watershed Management,</b>
@@ -10105,14 +10105,14 @@ $Abstract=
  road sections to record rainfall, runoff, and sediment yield. This approach
  is expensive and subject to the vagaries of the weather, and will require
  several years of operation to accumulate a reliable data set.
-$Keywords=road, surface
+$Keywords=road erosion, surface processes
 $Citationt=Burroughs, E.R., Jr.; Watts, F.J.; Haber, D.F.  1984.
  <a><i>Surfacing to Reduce Erosion of Forest Roads Built in Granitic Soils.</i></a>
  Presented at the
  <b>Symposium on Effects of Forest Land Use on Erosion and Slope Stability,</b>
  University of Hawaii, Honolulu, HI, U.S.A., May 7-11, 1984.
 $lynx=
-*19882b###########################################################################################################
+*1982b###########################################################################################################
 $Title=SEAMPLAN -- a computer tool for surface mine reclamation planning
 $Year=1982
 $Authors=Burroughs
