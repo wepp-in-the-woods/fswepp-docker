@@ -53,7 +53,7 @@ $Citationt=Wagenbrenner J., Coe D., and Olsen W. 2023.
 $category=
 $Publisher=California Department of Forestry & Fire Protection
 $Abstract=Post-fire salvage logging using ground-based heavy equipment can impact soils and vegetation, and lead to various effects that can increase or decrease post-fire runoff and erosion (removal of soil or sediment from its initial position). This document briefly outlines the current understanding of these effects and provides an overview of best management practices (BMPs) designed to mitigate the negative effects related to sediment delivery to streams and other aquatic resources. It is based on the best available scientific information regarding BMPs that may be used to reduce sediment delivery from post-fire salvage logging activities as well as the authors’ knowledge on this topic. The document is intended to complement state, regional, and national regulations and/or guidance for timber harvest activities in unburned and burned forests (California Department of Forestry and Fire Protection (CAL FIRE), 2023; U.S. Environmental Protection Agency, 2005; USDA Forest Service, 2000, 2012). This document focuses on implementation on lands subject to California’s Forest Practice Rules (FPRs), although the process-based approach allows more broad application of this guidance with appropriate caution, including consideration for climate, landscape setting, and operational conditions or constraints. The primary audience for this document is forestry and watershed professionals. Abbreviated operational guidance will be provided for licensed timber operators in a subsequent product. Research results informing the various effects and guidance are provided in reference materials. No attempt is made to address the ecological aspects of post-fire salvage logging, which are covered elsewhere. Site preparation for reforestation can occur with or without salvage logging, but few studies have addressed the effects of those practices on runoff and erosion (Cole et al., 2020). Similarly, this document does not address best management practices for fire suppression repair, although some of the practices presented herein may apply to suppression repair activities.
-$Keywords=Salvage Logging, Soil erosion, Postfire assessment, Water quality, California
+$Keywords=Salvage Logging, Soil erosion, Post-fire assessment, Water quality, California
 $type=
 $treesearch=
 $plynx=
@@ -83,7 +83,7 @@ $Citationt=Robichaud P.R. 2023.
 $category=
 $Publisher=USDA Forest Service Research & Development.
 $Abstract=In the weeks following the 2022 Cedar Creek Fire, an Interagency Burned Area Emergency Response (BAER) team was mobilized to identify and mitigate risks to human life and safety and critical water resources in the surrounding communities, including Oakridge, Oregon. During their assessment, the BAER team used a field guide developed by the Rocky Mountain Research Station to create a soil burn severity map and identify areas prone to elevated erosion. Their field work led to quick assessment of potential harm to water quality in Waldo Lake.
-$Keywords=BAER, Burn severity, Soil erosion, Postfire assessment, Water quality, Cedar Creek Fire, Oregon
+$Keywords=BAER, Burn severity, Soil erosion, Post-fire assessment, Water quality, Cedar Creek Fire, Oregon
 $type=
 $treesearch=
 $plynx=
@@ -98,7 +98,7 @@ $Citationt=Porter R., Joyal T., Beers R., Youberg A., Loverich J., Schenk E., Ro
 $category=
 $Publisher=American Geophysical Union
 $Abstract=The 2019 Museum Fire burned in a mountainous region near the city of Flagstaff, AZ, USA. Due to the high risk of post-fire debris flows and flooding entering the city, we deployed a network of seismometers within the burn area and downstream drainages to examine the efficacy of seismic monitoring for post-fire flows. Seismic instruments were deployed during the 2019, 2020, and 2021 monsoon seasons following the fire and recorded several debris flow and flood events, as well as signals associated with rainfall, lightning and wind. Signal power, frequency content, and wave polarization were measured for multiple events and compared to rain gauge records and images recorded by cameras installed in the study area. We use these data to test the efficacy of seismic recordings to (a) detect and differentiate between different energy sources, (b) estimate the timing of lightning strikes, (c) calculate rainfall intensities, and (d) determine debris flow timing, size, velocity, and location. We then calculate forward models of seismic signals associated with debris flows and rainfall to better interpret our results and characterize these events. Our observations and modeling show that we can differentiate between these sources and that seismic data can provide insight into post-fire debris flow characteristics, including relative particle sizes and velocity.
-$Keywords= Postfire, Debris flows, Rainfall, Burned areas, Flood detection, Museum Fire, Arizona
+$Keywords= Post-fire, Debris flows, Rainfall, Burned areas, Flood detection, 2019 Museum Fire, Arizona
 $type=
 $treesearch=
 $plynx=
@@ -117,7 +117,7 @@ $Keywords=Wildfire, Runoff-erosion processes, Rill erosion, Sediment exhaustion,
 $type=
 $treesearch=
 $plynx=
-$links=<a href="/engr/library/2023/Robichaud2023f/(F)Neris_et_al._2023_J_Hydrology_Postfire_erosion_volcanic_soils.pdf" target="_pdf">PDF</a> [4,532 KB]
+$links=<a href="/engr/library/2023/Robichaud2023f/(F)Neris_et_al._2023_J_Hydrology_post-fire_erosion_volcanic_soils.pdf" target="_pdf">PDF</a> [4,532 KB]
 #2023e###############################################
 $Title=Informing Sustainable Forest Management: Remote Sensing Strategies for Assessing Soil Disturbance after Wildfire and Salvage Logging.
 $Year=2023
@@ -188,11 +188,11 @@ $Citationt=Akin I.D., Akinleye T.O., Robichaud P.R. 2023.
 $category=
 $Publisher=ASCE
 $Abstract=Post wildfire forests are dynamic environments. Wetting-induced shallow landslides are observed at varying times after wildfires, but the reasons are not fully known. This study investigates the time-dependent changes in soil properties and mechanical and hydrologic soil behavior of hillslopes after the 2019 Williams Flats Wildfire near Keller, WA and demonstrates the implications of these changes to slope stability. Soil water repellency, organic content, fine content, soil water retention curve, hydraulic conductivity, friction angle, and in-situ suction-saturation data provides initial evidence that soil properties fluctuate over a year after the wildfire. The results therefore suggest that soil properties that are measured immediately after the wildfire are misleading for long-term slope stability analysis. The stability of a steep (45°) slope is found to be most affected by the fluctuations in friction angle and soil water retention over the year. The comparison of suction saturation response near a burned and unburned location demonstrates the effects of macropores that are formed after the wildfire and evapotranspiration on slope stability. The hillslope stability at the unburned location reduces rapidly in April upon snowmelt, whereas the stability at the burned location, which has macropores, shows the rapid decrease in late-January, with the onset of snowfall.
-$Keywords=Postfire, Landslides, Slope Stability, Wildfire, Soil Hydrology, Erosion, Washington State
+$Keywords=Post-fire, Landslides, Slope Stability, Wildfire, Soil Hydrology, Erosion, Washington State
 $type=
 $treesearch=
 $plynx=
-$links=<a href="/engr/library/2023/Robichaud2023a/(A)Akin_et_al._2023_J_Geotech_postfire_soil_slope_stability.pdf" target="_pdf">PDF</a> [1,302 KB]
+$links=<a href="/engr/library/2023/Robichaud2023a/(A)Akin_et_al._2023_J_Geotech_post-fire_soil_slope_stability.pdf" target="_pdf">PDF</a> [1,302 KB]
 #2022g###############################################
 $Title=Guía de campo para trazar un mapa de la severidad de del incendio en el suelo.
 $Year=2022
@@ -232,7 +232,7 @@ $Citationt=Gustine R.N., Hanan E.J., Robichaud P.R., Elliot W.J. 2022.
  <b>Biogeochemistry (2022).</b> 157,51–68 DOI: 10.1007/s10533-021-00861-0.
 $category=
 $Publisher=Springer
-$Abstract=Wildfire is a major driver of nitrogen (N) cycling and export from terrestrial to aquatic systems. While fire is a natural process in many watersheds, it can still degrade water quality by rapidly flushing N to streams. This can be particularly problematic in watersheds that experience high levels of N deposition or where climate change is promoting larger and more severe fires. The extent and duration of postfire N export, and the potential consequences for downstream water quality, depend on how N inputs, internal cycling, and outputs vary before, during, and after fire. Here we review the major factors controlling N cycling and retention in forests and adjacent shrublands, and how fire modifies these controls. We connect burned slopes to streams to describe how fire exports N to aquatic environments. We also consider the implications for municipal watersheds and water resources management. We close by identifying critical knowledge gaps in projecting how fire will affect watershed N cycling and retention in the future.
+$Abstract=Wildfire is a major driver of nitrogen (N) cycling and export from terrestrial to aquatic systems. While fire is a natural process in many watersheds, it can still degrade water quality by rapidly flushing N to streams. This can be particularly problematic in watersheds that experience high levels of N deposition or where climate change is promoting larger and more severe fires. The extent and duration of post-fire N export, and the potential consequences for downstream water quality, depend on how N inputs, internal cycling, and outputs vary before, during, and after fire. Here we review the major factors controlling N cycling and retention in forests and adjacent shrublands, and how fire modifies these controls. We connect burned slopes to streams to describe how fire exports N to aquatic environments. We also consider the implications for municipal watersheds and water resources management. We close by identifying critical knowledge gaps in projecting how fire will affect watershed N cycling and retention in the future.
 $Keywords=Wildfire, Nitrogen cycling, Nitrogen retention, Water quality, Drinking water
 $type=
 $treesearch=
@@ -294,7 +294,7 @@ $Citationt=Al-Hamdan O.Z., Pierson F.B., Robichaud P.R., et al, 2022.
 $category=
 $Publisher=American Society of Agricultural and Biological Engineers
 $Abstract=The USDA Water Erosion Prediction Project (WEPP) is a process-based soil erosion prediction model. WEPP uses three soil erodibility parameters: rill erodibility (Kr), interrill erodibility (Ki), and critical hydraulic shear stress (τc). In this study, a new parameterization approach for estimating erodibility was developed for WEPP applications on rangelands. Data from overland flow experiments on disturbed and undisturbed rangelands were used to develop empirical equations to predict rill erodibility variation as a function of vegetation cover and soil texture. Data from rainfall simulation experiments were analyzed by piecewise regression to develop empirical equations for predicting the variability of interrill erodibility before and after disturbance and across a wide range of soil textures as a function of vegetation cover and soil texture. Critical shear values corresponding to the developed rill and interrill erodibility parameters were proposed. Our results show that the new erodibility approach predicts erosion at the plot scale with a satisfactory range of error (PBIAS =35.6 and Nash-Sutcliffe efficiency = 0.49). The new approach was used to provide soil erodibility values for the Erosion Risk Management Tool (ERMiT), which uses WEPP as the runoff and erosion calculation engine.
-$Keywords=ERMiT, Erosion, Interrill, Rangeland management, Rill, Shrub, Soil burn severity, WEPP
+$Keywords=ERMiT, Erosion, Interrill, Rangelands, Rill, Shrub, Soil burn severity, WEPP
 $type=
 $treesearch=
 $plynx=
@@ -414,7 +414,7 @@ size, and velocity, as well as, a tool for better assessing the
 efficacy of using seismic readings for post-wildfire monitoring.
 We encourage their use by the scientific community and
 general public.
-$Keywords=debris flow, wildfire, seismic monitoring, natural hazard, mass wasting, sediment transport, Museum Fire, Arizona
+$Keywords=debris flow, wildfire, seismic monitoring, natural hazard, mass wasting, sediment transport, 2019 Museum Fire, Arizona
 $type=
 $links=<a href="/engr/library/Robichaud/Robichaud2021f/2021f.pdf" target="_pdf">PDF</a> [2,089 KB]
 #2021e###############################################
@@ -464,12 +464,12 @@ socio-economic and environmental consequences. Among the largest fires was the 2
 which burned large forested areas of the Warragamba catchment. This protected catchment provides critical ecosystem
 services for Lake Burragorang, one of Australia's largest urban supply reservoirs delivering ~85% of the water used in Greater
 Sydney. Water New South Wales (WaterNSW) is the utility responsible for managing water quality in Lake Burragorang. Its
-postfire risk assessment, done in collaboration with researchers in Australia, the UK, and United States, involved (i) identifying
+post-fire risk assessment, done in collaboration with researchers in Australia, the UK, and United States, involved (i) identifying
 pyrogenic contaminants in ash and soil; (ii) quantifying ash loads and contaminant concentrations across the burned area;
 and (iii) estimating the probability and quantity of soil, ash, and associated contaminant entrainment for different rainfall
 scenarios. The work included refining the capabilities of the new WEPPcloud-WATAR-AU model (Water Erosion Prediction
 Project cloud-Wildfire Ash Transport And Risk-Australia) for predicting sediment, ash, and contaminant transport, aided by
-outcomes from previous collaborative postfire research in the catchment. Approximately two weeks after the Green Wattle
+outcomes from previous collaborative post-fire research in the catchment. Approximately two weeks after the Green Wattle
 Creek Fire was contained, an extreme rainfall event (~276mm in 72 h) caused extensive ash and sediment delivery into the
 reservoir. The risk assessment informed on-ground monitoring and operational mitigation measures (deployment of debriscatching
 booms and adjustment of the water supply system configuration), ensuring the continuity of safe water supply to
@@ -499,7 +499,7 @@ rapidly flushing N to streams. This can be particularly
 problematic in watersheds that experience high levels
 of N deposition or where climate change is promoting
 larger and more severe fires. The extent and duration
-of postfire N export, and the potential consequences
+of post-fire N export, and the potential consequences
 for downstream water quality, depend on how N
 inputs, internal cycling, and outputs vary before,
 during, and after fire. Here we review the major factors
@@ -573,22 +573,22 @@ $Citationt=Gourley, J. J., H. Vergara, A. Arthur, R. A. Clark III, D. Staley, J.
 $category=
 $Publisher=Wiley
 $Abstract=There is a wide range of postwildfire preparedness and mitigation activities that can and often do take place on the hillslopes, in the channels, and within the communities themselves. The physical mitigation efforts are guided by hydrologic models that account for changes in erosion, sediment delivery, and runoff in response to wildfire disturbances to the soil properties and overlying vegetation(Robichaud and Ashmun 2013). The workshop focused more on the modeling, alerting, and public warning of hydrologic responses given forecasts or estimates of rainfall in real time rather than using design rainstorms for planning purposes. The overarching goal of the workshop was to develop a dialogue among the partners to share tools and techniques for forecasting flash floods, severe erosion, and debris flows in response to intense rainfall, to highlight research and development needs for improving prediction, and to identify both short- and long-term methodologies that can be considered for transitioning to operational weather forecasting centers. 
-$Keywords=post-wildfire, debris flow, erosion, modeling, remote sensing, forecasting
+$Keywords=post-fire, debris flow, erosion, modeling, remote sensing, forecasting
 $type=
 $treesearch=
 $plynx=
 $links=<a href="/engr/library/Robichaud/Robichaud2020e/2020e.pdf" target="_pdf">PDF</a> [343 KB]
 #2020d###############################################
-$Title=Quantifying longterm postfire sediment delivery and erosion mitigation effectiveness.
+$Title=Quantifying longterm post-fire sediment delivery and erosion mitigation effectiveness.
 $Year=2020
 $Authors=Robichaud, Lewis, Brown, Wagenbrenner
 $Citationt=Robichaud, P. R., Lewis, S. A., Wagenbrenner, J. W., Brown, R. E., and Pierson, F. B. 2020.
- <i><a>Quantifying longterm postfire sediment delivery and erosion mitigation effectiveness.</a></i>
+ <i><a>Quantifying longterm post-fire sediment delivery and erosion mitigation effectiveness.</a></i>
  <b>Earth Surface Processes and Landforms</b> 45, 771-782.
 $category=
 $Publisher=Wiley
 1). The burned control plots had high sediment flux rates until post-fire year 3, when flux rates significantly decreased and were statistically no longer higher than the unburned levels from year 4 and 10. These results will inform managers of the longer-term post-fire sediment delivery rates and of the ability of post-fire emergency hillslope treatments to mitigate erosion rates. Published 2019. This article is a U.S. Government work and is in the public domain in the USA. 
-$Keywords=rill erosion, wood mulch, wood strands, scarification, Hayman Fire, straw mulch, post-wildfire, recovery
+$Keywords=rill erosion, wood mulch, wood strands, scarification, Hayman Fire, straw mulch, post-fire, recovery
 $type=
 $treesearch=
 $plynx=
@@ -604,7 +604,7 @@ $category=
 $Publisher=Wiley
 $Abstract=Wildfire is a natural component of sagebrush (Artemisia spp.) steppe rangelands that induces temporal shifts in plant
 community physiognomy, ground surface conditions, and erosion rates. Fire alteration of the vegetation structure and ground cover in these ecosystems commonly amplifies soil losses by wind- and water-driven erosion. Much of the fire-related erosion research for sagebrush steppe has focused on either erosion by wind over gentle terrain or water-driven erosion under high-intensity rainfall on complex topography. However, many sagebrush rangelands are geographically positioned in snow-dominated uplands with complex terrain in which runoff and sediment delivery occur primarily in winter months associated with cold-season hydrology. Current understanding is limited regarding fire effects on the interaction of wind- and cold-season hydrologic-driven erosion processes for these ecosystems. In this study, we evaluated fire impacts on vegetation, ground cover, soils, and erosion across spatial scales at a snowdominated mountainous sagebrush site over a 2-year period post-fire. Vegetation, ground cover, and soil conditions were assessed at various plot scales (8m2 to 3.42 ha) through standard field measures. Erosion was quantified through a network of silt fences (n = 24) spanning hillslope and side channel or swale areas, ranging from 0.003 to 3.42 ha in size. Sediment delivery at the watershed scale (129 ha) was assessed by suspended sediment samples of streamflow through a drop-box v-notch weir. Wildfire  consumed nearly all above-ground live vegetation at the site and resulted in more than 60% bare ground (bare soil, ash, and rock) in the immediate post-fire period.Widespread wind-driven sediment loading of swales was observed over the first month post-fire and extensive snow drifts were formed in these swales each winter season during the study. In the first year, sediment yields from north- and south-facing aspects averaged 0.998.62 t h1 at the short-hillslope scale (~0.004 ha), 0.021.65 t h1 at the long-hillslope scale (0.020.46 ha), and 0.24 0.71 t h1 at the swale scale (0.653.42 ha), and watershed scale sediment yield was 2.47 t h1. By the second year post fire, foliar cover exceeded 120% across the site, but bare ground remained more than 60%. Sediment yield in the second year was greatly reduced across short- to long-hillslope scales (0.020.04 t h1), but was similar to first-year measures for swale plots (0.240.61 t h1) and at the watershed scale (3.05 t h1). Nearly all the sediment collected across all spatial scales was delivered during runoff events associated with cold-season hydrologic processes, including rain-on-snow, rain-on-frozen soils, and snowmelt runoff. Approximately 8599% of annual sediment collected across all silt fence plots each year was from swales. The high levels of sediment delivered across hillslope to watershed scales in this study are attributed to observed preferential loading of fine sediments into swale channels by aeolian processes in the immediate post-fire period and subsequent flushing of these sediments by runoff from cold-season hydrologic processes. Our results suggest that the interaction of aeolian and cold-season hydrologic-driven erosion processes is an important component for consideration in post-fire erosion assessment and prediction and can have profound implications for soil loss from these ecosystems. 
-$Keywords=cold-season hydrology, fire effects, hillslope processes, rangeland hydrology, sagebrush, sediment production, sediment yield, silt fence, snowmelt runoff, wind erosion
+$Keywords=cold-season hydrology, fire effects, hillslope processes, rangelands, sagebrush, sediment production, sediment yield, silt fence, snowmelt runoff, wind erosion
 $type=
 $treesearch=
 $plynx=
@@ -623,11 +623,11 @@ $Keywords=post-fire, recovery, rill erosion, salvage logging, silt fence, skid t
 $type=
 $links=<a href="/engr/library/Robichaud/Robichaud2020b/2020b.pdf" target="_pdf">PDF</a> [2,506 KB]
 #2020a###############################################
-$Title=Effectiveness of postfire salvage logging stream buffer management for hillslope erosion in the U.S. Inland Northwest Mountains.
+$Title=Effectiveness of post-fire salvage logging stream buffer management for hillslope erosion in the U.S. Inland Northwest Mountains.
 $Year=2020
 $Authors=Robichaud, Lewis, Brown.
 $Citationt=Robichaud PR, Bone ED, Lewis SA, Brooks ES, Brown RE. 2020.
- <a><i>Effectiveness of postfire salvage logging stream buffer management for hillslope erosion in the U.S. Inland Northwest Mountains.</i></a>.
+ <a><i>Effectiveness of post-fire salvage logging stream buffer management for hillslope erosion in the U.S. Inland Northwest Mountains.</i></a>.
  <b>Hydrological Processes</b> 2020;1-15. DOI: 10.1002/hyp.13943.
 $category=
 $Publisher=Wiley InterScience
@@ -645,7 +645,7 @@ $Citationt=Robichaud P.R., Lewis S.A.,  Wagenbrenner, J.W., Brown R.E.,Pierson F
 $category=
 $Publisher=Wiley
 $Abstract=Large wildfires can have profound and lasting impacts not only from direct consumption of vegetation but also longerterm effects such as persistent soil erosion. The 2002 Hayman Fire burned in one of the watersheds supplying water to the Denver metropolitan area; thus there was concern regarding hillslope erosion and sedimentation in the reservoirs. The efficacy of various treatments for reducing erosion was tested, including hand scarification on contour, agricultural straw mulch, wood mulch, burned controls and unburned reference plots. Simulated rill erosion experiments were used both immediately after the fire and again 10 years post fire. To better understand untreated recovery, the same experiments were applied to control plots in post-fire years 1, 2, 3 and 4, and in unburned reference plots in years 4 and 10. Results indicate that control and scarified plots produced significantly greater sediment flux rates � 1.9 and 2.8 g s1 respectively � than the straw and wood mulch treatments � 0.9 and 1.1 g s1 � immediately after the fire. Mulch treatments reduced runoff rate, runoff velocity, and sediment concentration and flux rate. The straw mulch cover was no longer present, whereas the wood mulch was still there in year 10. Vegetation regrowth was slow and mulch treatments provided effective cover to reduce sediment right after the fire. In post-fire year 10, there were no significant differences in sediment flux rates across treatments; it is notable, however, that the wood mulch treatment (0.09 g s1) most closely approached the unburned condition (0.07 g s1). The burned control plots had high sediment flux rates until post-fire year 3, when flux rates significantly decreased and were statistically no longer higher than the unburned levels from year 4 and 10. These results will inform managers of the longer-term post-fire sediment delivery rates and of the ability of post-fire emergency hillslope treatments to mitigate erosion rates. Published 2019. This article is a U.S. Government work and is in the public domain in the USA.
-$Keywords=rill erosion; wood mulch; wood strands; scarification; 2002 Hayman Fire; straw mulch; post-wildfire; recovery
+$Keywords=rill erosion; wood mulch; wood strands; scarification; 2002 Hayman Fire; straw mulch; post-fire; recovery
 $type=
 $treesearch=
 $plynx=
@@ -705,7 +705,7 @@ downstream resources and ecosystem recovery. Although C and N losses in combusti
 extensively, soil C and N transported by post-fire erosion has rarely been quantified in burned landscapes. To better understand the magnitude and temporal pattern of these losses, we analysed the C and N content of sediment collected in severely burned hillslopes and catchments across the western USA over the first 4 post-fire years. We also compared soil C and N losses from areas receiving common erosion-mitigation treatments and untreated, burned areas. The concentrations of C andNin the eroded material (0.23�0.98 g C kg 1 and 0.01�0.04 gNkg
 1) were similar to those of mineral soils rather than organic soil horizons or combusted vegetation. Losses of eroded soil C and N were highly variable across sites, and were highest the first 2 years after fire. Cumulative erosional losses from untreated, burned areas ranged from 73 to 2253 kg C ha 1 and from 3.3 to 110 kgNha 1 over 4 post-fire years. Post-fire erosion-mitigation treatments reduced C and Nlosses by up to 75% compared with untreated areas. Losses in post-fire erosion are estimated to be,10% of the total soil C and N combusted during severe wildfire and ,10% of post-fire soil C and N stocks remaining in the upper 20 cm of
 mineral soil. Although loss of soil C and N in post-fire erosion is unlikely to impair the productivity of recovering vegetation, export of C and N may influence downstream water quality and aquatic ecosystems.
-$Keywords=post-wildfire recovery, sediment, watershed biogeochemistry, western US
+$Keywords=post-fire rehabilitation, sediment, watershed biogeochemistry, western US
 $type=
 $treesearch=
 $plynx=
@@ -718,7 +718,7 @@ $Citationt=Klauberg C, Hudak AT, Alberto Silvac C, Lewis SA, Robichaud PR, Jain 
 $category=journal
 $Publisher=Ecological Modelling 
 $Abstract=Post-fire assessment is made after a wildfire incident to provide details about damage level and its distribution over burned areas. Such assessments inform restoration plans and future monitoring of ecosystem recovery. Due to the high cost and time to conduct fieldwork, remote sensing is an appealing alternative to assess post-fire condition over larger areas than can be surveyed practically in the field. The aim of this study is to use remote sensing data to characterize post-fire severity at tree level in a mixed conifer forest following the Cascade and East Zone megafires of 2007 in central Idaho, USA. We used remote sensing metrics derived from Airborne Laser Scanning (ALS) data (2008) and high-resolution QuickBird (QB) multispectral satellite imagery (2007�2009) for calibrating and validating predictive models with field data (2008). We compared fire effects on trees in open canopies within recent fuel treatments to similar trees in closed canopies on adjacent, untreated sites. We observed more trees with charred crowns in high fire severity sites, mostly untreated, whereas we observed more trees with live crowns in low fire severity sites, independent of the treatment. Individual trees were more accurately detected from ALS data in treated sites with open canopies than untreated sites with closed canopies. For detected trees, the response variables predicted from ALS and QB metrics were total height (Ht), crown base height (CBH), total basal area (BAT), live basal area (BAL), scorched basal area (BAS), charred basal area (BAC) and crown severity (CS). None of the selected QB metrics were strongly correlated with the selected ALS metrics, which justified combining both data types into the predictive models. Random Forest regression models combining ALS+QB metrics or using ALS metrics alone performed similarly but clearly better than models using only QB metrics. This study shows the superiority of ALS data to high resolution, multispectral QB imagery for mapping fire severity at tree level. Managers with limited resources to plan for restoration of fire affected forests are advised to prioritize spending for data collection on ALS data and a modest number of field inventory plots, rather than QB or other broadband satellite imagery.
-$Keywords=BAER, mulch, post-fire recovery, species diversity, tree regeneration, US Interior West, Idaho
+$Keywords=BAER, mulch, post-fire rehabilitation, species diversity, tree regeneration, Idaho
 $type=
 $treesearch=
 $plynx=
@@ -749,13 +749,13 @@ paired plots.
 Results: Mulch did not influence understory plant diversity, species richness, or fractional ground cover. However, on mulched plots, tree seedlings grew taller faster, especially on north-facing aspects, and there was slightly more graminoid cover. Mulch did not affect overall tree seedling density, but there were fewer ponderosa pine (Pinus ponderosa Lawson & C. Lawson) and more Douglas-fir (Pseudotsuga menziesii [Mirb.] Franco) in mulched areas, especially on south-facing slopes.
 Conclusions: Managers will be able to weigh the long-term implications of mulching against the short-term reductions
 in soil erosion potential. While there are many concerns about vegetation suppression and exotic species introduction from using straw mulch, our study suggests that the long-term effects are subtle 9 to 13 years after post-fire mulching.
-$Keywords=BAER, mulch, post-fire recovery, species diversity, tree regeneration, US Interior West, western US
+$Keywords=BAER, mulch, post-fire rehabilitation, species diversity, tree regeneration, western US
 $type=
 $treesearch=
 $plynx=
 $links=<a href="/engr/library/Robichaud/Robichaud2019a/2019a.pdf" target="_pdf">PDF</a> [1.00 MB]
 #2018a###############################################
-$Title=Measuring effectiveness of three postfire hillslope erosion barrier treatments, western Montana, USA
+$Title=Measuring effectiveness of three post-fire hillslope erosion barrier treatments, western Montana, USA
 $Year=2018
 $Authors=Robichaud, Elliot.
 $Citationt=Nunes JP, Doerr SH, Sheridan G, Santin C, Emleko MB, Silins U, Robichaud PR, Elliot WJ. 2018.
@@ -988,7 +988,7 @@ expands the ecological foundation of the overall ESD concept for rangeland manag
 with resilience-based, adaptive management of US rangelands. The proposed enhancement of ESDs will improve
 communication between private land owners and resource managers and researchers across multiple disciplines
 in the field of rangeland management.
-$Keywords=adaptive management, ecological site, erosion, infiltration, monitoring, multiple stable states, rangeland, rangeland health, resilience, Rangeland Hydrology and Erosion Model, runoff, state-and-transition models
+$Keywords=adaptive management, ecological site, erosion, infiltration, monitoring, multiple stable states, rangelands, rangeland health, resilience, Rangeland Hydrology and Erosion Model, runoff, state-and-transition models
 $type=
 $treesearch=
 $plynx=
@@ -1147,7 +1147,7 @@ burned sites decreased as soil moisture increased; however, strong soil water re
 soil surface whenever unburned soils were dry. Fire-altered soil water repellency influenced the infiltration capacity
 and increased runoff rates immediately after the fire; however, the loss of protective ground cover was
 a more significant factor for the increased sediment concentrations and sediment yields.
-$Keywords=Ground cover, Post-fire recovery, Rainfall simulation, Sediment yield, Soil water repellency, Water drop penetration time, Montana, 2000 Valley Complex wildfire
+$Keywords=Ground cover, post-fire rehabilitation, Rainfall simulation, Sediment yield, Soil water repellency, Water drop penetration time, Montana, 2000 Valley Complex wildfire
 $type=
 $treesearch=
 $plynx=
@@ -1204,7 +1204,7 @@ infiltration, runoff, and erosion by water, and of
 the effectiveness of various mitigation treatments
 in the reduction of runoff and erosion in the years
 following the fire.
-$Keywords=Postfire erosion, Rangelands, Wildfire, Erosion Mitigation
+$Keywords=Post-fire erosion, Rangelands, Wildfire, Erosion Mitigation
 $Citationt=Pierson, Frederick B., Williams, C. Jason, Robichaud, Peter R. 2015 
 <i><a>Assessing Impacts of Fire and Post-fire on Runoff and Erosion from Rangelands Mitigation</a></i>
 <b>Great Basin Factsheet Series Number</b> 11:1-6.
@@ -1306,7 +1306,7 @@ richness and diversity was highest for the hydromulch + seed treatment.
 Ten non-native species were found, but never with more than 2% canopy cover, each. Although the inference of our small-plot work is limited, our results
 suggest that post-fire rehabilitation treatments apparently altered the abundance and diversity of native perennial understory plants for one to six years
 post fire &ndash; effects that could persist for decades.
-$Keywords=burned area emergency response, hydromulch, invasive species, post-fire rehabilitation, seeding, species diversity, wheat straw mulch, wood strand mulch, 2005 School Fire, Washington
+$Keywords=burned area emergency response, hydromulch, invasive species, post-fire rehabilitation, seeding, species diversity, wheat straw mulch, wood strands, 2005 School Fire, Washington
 $type=
 $treesearch=
 $plynx=
@@ -1400,13 +1400,13 @@ $Abstract=Changes in the properties of an ash layer with time may affect the amo
  term ash crusting could contribute to the observed changes in post-fire runoff. This research addresses these topics by
  studying the evolution over time of highly combusted ash layers from two high-severity wildfires that occurred in Montana
  in 2011. More specifically, this research was designed to assess the potential for ash crusts to form and thereby contribute
- to the observed decreases in infiltration after forest fires. Results indicate that high-combustion ash can evolve due to postfire
+ to the observed decreases in infiltration after forest fires. Results indicate that high-combustion ash can evolve due to post-fire
  rainfall. Plots that exhibited a visible ash crust also displayed a significant decrease in effective porosity and hydraulic
  conductivity. These decreases in ash layer characteristics were attributed to raindrop compaction and ash hydration
  resulting in the formation of carbonate crystals, which decreased effective porosity and flow within the ash layer. During
  this same time period, inorganic carbon content more than doubled from 11 to 26% and bulk density significantly
  increased from 0.22 to 0.39&nbsp;g&nbsp;cm&nbsp;<sup>-3</sup> on crusted plots. Although raindrop impact increased the robustness of the ash crust,
- mineralogical transformations must occur to produce a hydrologically relevant ash crust. These results indicate that postfire
+ mineralogical transformations must occur to produce a hydrologically relevant ash crust. These results indicate that post-fire
  rainfall is an important control on the properties of the ash layer after burning and on crust formation. The observed
  temporal changes indicate that the timing of ash sampling can alter the predictions as to whether the ash layer is effecting
  post-fire infiltration and runoff. Despite the reduction in infiltration capacity, the formation of post-fire ash crusts could
@@ -1510,7 +1510,7 @@ $Abstract=In cold regions, frozen soil has a significant influence on runoff and
  Fieldobserved runoff and erosion events during 1984-1990 were used to estimate WEPP hydraulic and erosion parameters, including soil effective hydraulic conductivity, critical shear stress (Tc), and rill erodibility (Kr).
  The parameters for each event were best-fitted using WEPP single-event simulations to reproduce the observed runoff and sediment yield on both plots.
  The results suggest that the adjustment factors for Tc and Kr of frozen and thawing soils in the WEPP model could be modified to better describe the changes of these parameters in winter.
-$Keywords=critical shear, frozen soil, rill erodibility, soil erosion, thawing soil, WEPP, Washington State
+$Keywords=critical shear, frozen soil, rill erosion, soil erosion, thawing soil, WEPP, Washington State
 $type=
 $treesearch=pubs/43829
 $plynx=
@@ -1901,7 +1901,7 @@ $Abstract=Agricultural straw, hydromulch, and wood shred or wood strand mulches 
  were at least double the sediment yields measured on hillslope plots. The longer periods of greater erosion
  rates in the catchments likely reflect the addition of channel erosion processes and a difference in hydrologic
  connectivity at the catchment scale.
-$Keywords=Straw mulch, Hydromulch, Post-fire recovery, Treatment effectiveness, California, Colorado
+$Keywords=Straw mulch, Hydromulch, post-fire rehabilitation, Treatment effectiveness, California, Colorado
 $type=
 $treesearch=pubs/43348
 $plynx=
@@ -1949,7 +1949,7 @@ $Abstract=Mulch treatments often are used to mitigate post-fire increases in run
   in any post-fire year. The greater variability in the combined data resulted in fewer statistically significant treatment
   effects being observed as compared to the individual fire analyses.We believe the fire-specific results provide
   the more accurate representation of potential post-fire mulch treatment effectiveness.
-$Keywords=Post-fire rehabilitation, Wheat straw mulch, Wood strand mulch, Hydromulch, Seeding, Needle cast, western US
+$Keywords=Post-fire rehabilitation, Wheat straw mulch, Wood strands, Hydromulch, Seeding, Needle cast, western US
 $type=
 $treesearch=pubs/43349
 $plynx=
@@ -2010,7 +2010,7 @@ $Citationt=Robichaud, P.R.; Ashmun, L.E. 2012.
 $category=
 $Publisher=geoinstitute.org
 $Abstract=
-$Keywords=postfire, erosion mitigation, post-wildfire assessment
+$Keywords=post-fire, erosion mitigation, post-fire assessment
 $type=Journal article
 $treesearch=
 $plynx=
@@ -2069,7 +2069,7 @@ $Abstract=Remotely sensed imagery provides a useful tool for land managers to as
  to identify disturbance due to vegetation regrowth.
  These results indicate that soil exposure (ground disturbance) by salvage operation can be detected with remotely sensed
  imagery especially if the images are taken less than two years after the salvage operation.
-$Keywords=QuickBird; NAIP; 2005 School Fire; Red Eagle Fire; Tripod Fire; spectral mixture analysis, Montana, Washington State
+$Keywords=QuickBird; NAIP; 2005 School Fire; Red Eagle Fire; 2006 Tripod Fire; spectral mixture analysis, Montana, Washington State
 $type=
 $treesearch=pubs/41111
 $plynx=
@@ -2161,7 +2161,7 @@ $Authors=Wagenbrenner, Robichaud
 $category=conference proceedings
 $Publisher=
 $Abstract=Wildfires often produce large increases in runoff and erosion rates (e.g., Moody and
- Martin, 2009), and land managers need to predict the frequency and magnitude of postfire
+ Martin, 2009), and land managers need to predict the frequency and magnitude of post-fire
  erosion to determine the needs for hazard response and possible erosion mitigation to
  reduce the impacts of increased erosion on public safety and valued resources. The Water
  Erosion Prediction Project (WEPP) hillslope erosion model uses parameters based on
@@ -2193,14 +2193,14 @@ $Abstract=In the past decade, wildfires around the world have continued to incre
  public infrastructure, water quality, and valued natural resources at risk from wildfire and secondary
  fire effects. Major concerns after wildfires are the increased runoff and erosion due to loss of the
  protective forest floor layer, loss of water storage, and creation of water repellent soil conditions. To
- reduce the potential postfire erosion and flooding, various postfire mitigation treatments are commonly
+ reduce the potential post-fire erosion and flooding, various post-fire mitigation treatments are commonly
  used on highly erodible areas. We have developed and implemented rapid response approaches to
  compare treatment effectiveness by monitoring sediment yield and runoff response from hillslopes and
  small catchments. High-intensity rainfall simulation and concentrated flow (rill) experiments are done
  to compare treated and untreated areas within a burned area. Small watershed impoundments and/or
  sediment fence barriers are established within weeks following a forest fire and are monitored for three
  to five years to measure runoff and sediment yields from natural rainfall. These rapid response
- protocols allow measurements to be made during the first postfire year when runoff and erosion are
+ protocols allow measurements to be made during the first post-fire year when runoff and erosion are
  likely to be greatest with continued monitoring through the initial recovery period. Our study sites in
  the Western U.S. encompass a range of rainfall regimes including monsoonal rains in the southwest
  (Arizona and New Mexico), thunderstorms in the Colorado Front Range and Northern Rockies, and
@@ -2273,9 +2273,9 @@ $Abstract=The decision of whether or not to apply post-fire hillslope erosion mi
  event variability with spatial and temporal variability of soil burn severity and soil properties, which
  are then used as WEPP input parameter values. Based on 20 to 40 individual WEPP runs, ERMiT
  produces a distribution of single sediment delivery rates with a probability of occurrence for each of
- five postfire years. In addition, sediment delivery rate distributions are generated for postfire hillslopes
+ five post-fire years. In addition, sediment delivery rate distributions are generated for post-fire hillslopes
  that have been treated with seeding, straw mulch, and erosion barriers such as contour-felled logs or
- straw wattles. Using postfire sediment data from 21 small instrumented watersheds (&lt; 14 ha), we
+ straw wattles. Using post-fire sediment data from 21 small instrumented watersheds (&lt; 14 ha), we
  compared each storm.s measured sediment delivery to the ERMiT-predicted delivery. Observed
  delivery rates were within the predicted range of values 77 percent of the time, with 14 percent of the
  observed values being greater than the estimated range, and 9 percent being less than the predicted
@@ -2285,9 +2285,9 @@ $Abstract=The decision of whether or not to apply post-fire hillslope erosion mi
  of the predicted values were influenced by snow melt. Based on these results, we are considering
  improvements such as incorporating erodibility values for more forest soil types, adjusting the weather
  characteristics in the climate generator, and reducing the occurrence of snow melt erosion response.
- Postfire assessment teams are actively using the ERMiT model for making hillslope mitigation
+ post-fire assessment teams are actively using the ERMiT model for making hillslope mitigation
  treatment decisions based on the probability of damaging sediment delivery occurring after a wildfire.
-$Keywords=ERMiT, Wildfire, Erosion, WEPP, Postfire, Validation, western US
+$Keywords=ERMiT, Wildfire, Erosion, WEPP, Post-fire, Validation, western US
 $Citationt=Robichaud, P.R.; Elliot, W.J.; Wagenbrenner, J.W. 2011.
  <i><a>Probabilistic soil erosion modeling using the Erosion Risk Management Tool (ERMiT) after wildfires.</a></i>
  ISELE Paper Number 11039.
@@ -2428,8 +2428,8 @@ $Abstract=Agricultural straw mulch is a commonly applied treatment for protectin
  straw cover amounts on the plots with a rank correlation of &rho; = 0.40. Better correlations
  may be possible if the time between the image acquisition and field validation
  was shorter. Our results encourage further exploration of the use of high-resolution
- imagery for research applications and postfire management.
-$Keywords=QuickBird, remote sensing, straw mulch, Tripod Fire, Burned Area Emergency Response (BAER), erosion mitigation, 2006 Tripod Fire, Washington
+ imagery for research applications and post-fire management.
+$Keywords=QuickBird, remote sensing, straw mulch, 2006 Tripod Fire, Burned Area Emergency Response (BAER), erosion mitigation, Washington
 $type=research note
 $treesearch=pubs/37685
 $plynx=
@@ -2565,7 +2565,7 @@ $Abstract=The assessment teams who make post-fire stabilization and treatment de
  The other two blends were effective in reducing runoff but not sediment concentration compared to a bare soil.
  The wood shred manufacturing and blending process resulted in two statistically different relationships between
  application rate and ground cover; relationships were controlled by the amount of fines.
-$Keywords=wood shred, erosion control, burned soil, forest fire, rainfall simulation
+$Keywords=wood shreds, erosion control, burned soil, forest fire, rainfall simulation
 $type=
 $treesearch=pubs/36969
 $plynx=
@@ -2659,7 +2659,7 @@ $Abstract=Rill erosion can be a large portion of the total erosion in disturbed 
  sediment flux rates generally were greater in the initial stage of each inflow period than in the
  steady state condition, but there was no corresponding transient effect in runoff rates. Rill
  erosion modeling implications based on these data are presented in part 2 of this study.
-$Keywords=rill erosion, rainfall simulator, sediment fluxes, Pacific NW
+$Keywords=rill erosion, rainfall simulation, sediment fluxes, Pacific NW
 $type=
 $treesearch=
 $plynx=
@@ -2677,7 +2677,7 @@ $category=
 $Publisher=USDA FS, RMRS
 $Abstract=Following wildfires in the United States, the U.S. Department of Agriculture and U.S. Department of the
  Interior mobilize Burned Area Emergency Response (BAER) teams to assess immediate post-fire watershed
- conditions. BAER teams must determine threats from flooding, soil erosion, and instability. Developing a postfire
+ conditions. BAER teams must determine threats from flooding, soil erosion, and instability. Developing a post-fire
  soil burn severity map is an important first step in the rapid assessment process. It enables BAER teams to
  prioritize field reviews and locate burned areas that may pose a risk to critical values within or downstream of
  the burned area. By helping to identify indicators of soil conditions that differentiate soil burn severity classes,
@@ -2716,7 +2716,7 @@ $Abstract=This synthesis of post-fire treatment effectiveness reviews the past d
  shown that dry mulches can be highly effective in reducing post-fire runoff and erosion.
  Hydromulches have been used after some fires, but they have been less effective than dry mulches in stabilizing
  burned hillslopes and generally decompose or degrade within a year.
-$Keywords=BAER, contour-felled logs, hydromulch, LEB, straw mulch, PAM, wood shreds, wood strands, postfire treatment, stabilization, ground cover
+$Keywords=BAER, contour-felled logs, hydromulch, LEB, straw mulch, PAM, wood shreds, wood strands, post-fire treatment, stabilization, ground cover
 $treesearch=pubs/35691
 $plynx=
 $links=<a href="/engr/library/Robichaud/Robichaud2010e/2010e.pdf" target="_pdf">PDF</a> [4.97 MB]
@@ -2848,7 +2848,7 @@ $Abstract=The 2000 Bitterroot Valley wildfires provided an opportunity to measur
  The high variability in sediment yields was related to 10-minute maximum rainfall
  intensity (<b>I</b><sub>10</sub>), but not to soil water repellency or vegetative cover. The results of this
  study may assist in decisions about post-wildfire land management.
-$Keywords=erosion, rainfall intensity, soil water repellency, vegetative recovery, postfire, sediement yield, Montana
+$Keywords=erosion, rainfall intensity, soil water repellency, vegetative recovery, post-fire, sediement yield, Montana
 $type=
 $treesearch=
 $plynx=
@@ -2878,11 +2878,11 @@ $treesearch=
 $plynx=
 $links=<a href="/engr/library/Foltz/Foltz2009p/2009p.pdf" target="_pdf">PDF</a> (500 KB)
 #2009o###############################################
-$Title=A probabilistic approach to modeling postfire erosion after the 2009 Australian bushfires 
+$Title=A probabilistic approach to modeling post-fire erosion after the 2009 Australian bushfires 
 $Year=2009
 $Authors=Robichaud, Elliot, Hall
 $Citationt=Robichaud, P.R.; Elliot, W.J.; Pierson, F.B.; Hall, D.E.; Moffet, C.A. 2009.
-  <a><i>A probabilistic approach to modeling postfire erosion after the 2009 Australian bushfires</i></a>.
+  <a><i>A probabilistic approach to modeling post-fire erosion after the 2009 Australian bushfires</i></a>.
   In Anderssen, R.S.; Braddock, R.D.; Newham, L.T.H., eds. 
   <b>Proceedings of the 
   18th World IMACS / MODSIM Congress,</b> Cairns, Australia, 13-17 July 2009.
@@ -2892,9 +2892,9 @@ $category=
 $Publisher=
 $Abstract=Major concerns after bushfires and wildfires include increased flooding, erosion and debris flows
 due to loss of the protective forest floor layer, loss of water storage, and creation of water repellent soil
-conditions. To assist postfire assessment teams in their efforts to evaluate fire effects and make postfire
+conditions. To assist post-fire assessment teams in their efforts to evaluate fire effects and make post-fire
 treatment decisions, a web-based Erosion Risk Management Tool (ERMiT) has been developed. ERMiT uses
-the Water Erosion Prediction Project (WEPP) model to predict postfire hillslope erosion and to evaluate the
+the Water Erosion Prediction Project (WEPP) model to predict post-fire hillslope erosion and to evaluate the
 potential effectiveness of some common hillslope erosion mitigation practices. The model uses a probabilistic
 approach that incorporates variability in climate, soil properties, and burn severity for forests, rangeland, and
 chaparral hillslopes. For user specified climate, burn severity, and soil conditions, ERMiT produces a
@@ -2902,7 +2902,7 @@ distribution of erosion rates with a likelihood of their occurrence for each of 
 also provides single-event erosion rate distributions for hillslopes that have been treated with seed, straw
 mulch, and erosion barriers. ERMiT's outputs help managers establish the probability associated with a given
 level of sediment yield for a given location, and this information can be used along with information about
-the value of resources at risk and acceptable loss thresholds to make postfire erosion treatment decisions. The
+the value of resources at risk and acceptable loss thresholds to make post-fire erosion treatment decisions. The
 objectives of this paper are to describe: 1) the conceptual framework and components of the ERMiT model;
 and 2) an application of ERMiT from 2009 Victoria, Australia bushfires.
 $Keywords=sediment yield, wildfire, WEPP, ERMiT, Australian bushfires, probabilistic
@@ -3194,11 +3194,11 @@ $plynx=
 $links=<a href="https://www.sciencedirect.com/science?_ob=MImg&_imagekey=B6V6C-4V8VS8F-1-H&_cdi=5811&_user=4250274&_orig=search&_coverDate=03%2F15%2F2009&_sk=996339998&view=c&wchp=dGLzVzz-zSkzk&md5=a77f7f2fbe84704a51e0010ff84493d6&ie=/sdarticle.pdf" target="_pdf">PDF</a> (673 KB) |
  <a href="https://www.sciencedirect.com/science?_ob=ArticleURL&_udi=B6V6C-4V8VS8F-1&_user=4250274&_rdoc=1&_fmt=&_orig=search&_sort=d&_docanchor=&view=c&_searchStrId=983044256&_rerunOrigin=scholar.google&_acct=C000052423&_version=1&_urlVersion=0&_userid=4250274&md5=04e4b428fbef72a9413e39acdbb9c30c" target="_html">HTML</a> 
 #2009c###############################################was 2008o treesearch says 2008 but doc says 2009 
-$Title=A synthesis of postfire road treatments for BAER teams: methods, treatment effectiveness, and decisionmaking tools for rehabilitation
+$Title=A synthesis of post-fire road treatments for BAER teams: methods, treatment effectiveness, and decisionmaking tools for rehabilitation
 $Year=2009
 $Authors=Foltz, Robichaud, Rhee 
 $Citationt=Foltz, R.B.; Robichaud, P.R.; Rhee, H. 2009.
- <a><b>A synthesis of postfire road treatments for BAER teams: methods, treatment effectiveness,
+ <a><b>A synthesis of post-fire road treatments for BAER teams: methods, treatment effectiveness,
  and decisionmaking tools for rehabilitation</b></a>.
  Gen. Tech. Rep. RMRS-GTR-228.
  Fort Collins, CO: U.S. Department of Agriculture, Forest Service, Rocky Mountain Research Station. 152&nbsp;p.
@@ -3214,7 +3214,7 @@ $Abstract=We synthesized post-fire road treatment information to assist BAER spe
  and NRCS Curve Number methods are used for smaller watersheds (&lt;5 mi<sup>2</sup>).
  These methods are not parameterized and validated for post-fire conditions.
  Many BAER team members used their own rules to determine parameter values for USGS regression and NRCS CN methods;
- therefore, there is no consistent way to estimate postfire peak flow.
+ therefore, there is no consistent way to estimate post-fire peak flow.
  Many BAER road treatments for individual stream crossings were prescribed based on road/culvert surveys,
  without considering capacities of existing road structure and increased post-fire peak flow.
  For all regions, rolling dips/water bars, culvert upgrading, and ditch cleaning/armoring are the most frequently
@@ -3406,7 +3406,7 @@ $Title=
 $Year=2008
 $Authors=Robichaud
 $Citationt=Riechers, G.H.; Beyers, J.L.; Robichaud, P.R.; Jennings, K.; Kreutz, E.; Moll, J. 2008.
-<b><a>Effects of Three Mulch Treatments on Initial Postfire Erosion in North-Central Arizona</a></b>. Session C.
+<b><a>Effects of Three Mulch Treatments on Initial post-fire Erosion in North-Central Arizona</a></b>. Session C.
 USDA Forest Service Gen. Tech. Rep. PSW-GTR-189. 107-113.
 $category=
 $Publisher=USFS PSW
@@ -3452,17 +3452,17 @@ $treesearch=
 $plynx=
 $links=<a href="/engr/library/Robichaud/Robichaud2008m/2008m.pdf" target="_pdf">PDF</a> [1.6 MB]
 #2008l###############################################
-$Title=Measuring effectiveness of three postfire hillslope erosion barrier treatments, western Montana, USA
+$Title=Measuring effectiveness of three post-fire hillslope erosion barrier treatments, western Montana, USA
 $Year=2008
 $Authors=Robichaud, Brown, Wagenbrenner.
 $Citationt=Robichaud, P.R.; Pierson, F.B.; Brown, R.E.; Wagenbrenner, J.W. 2008.
- <a><i>Measuring effectiveness of three postfire hillslope erosion barrier treatments, western Montana, USA</i></a>.
+ <a><i>Measuring effectiveness of three post-fire hillslope erosion barrier treatments, western Montana, USA</i></a>.
  <b>Hydrological Processes</b> 22:159-170.
 $category=
 $Publisher=Wiley InterScience
 $Abstract=After the Valley Complex Fire burned 86 000 ha in western Montana in 2000,
  two studies were conducted to determine the effectiveness of contour-felled log, straw wattle,
- and hand-dug contour trench erosion barriers in mitigating postfire runoff and erosion.
+ and hand-dug contour trench erosion barriers in mitigating post-fire runoff and erosion.
  Sixteen plots were located across a steep, severely burned slope, with a single barrier installed in 12 plots (four
  per treatment and four plots left untreated as controls.
  In a rainfall-plus-inflow simulation, 26 mm h<sup>-1</sup> rainfall was applied
@@ -3635,7 +3635,7 @@ $Abstract=Millions of dollars are spent each year in the United States to mitiga
  increases in runoff are more influenced by fire removal of ground and canopy cover than fire effects on soil
  water repellency and that the degree of these impacts may be significantly influenced by short-term
  fluctuations in water repellent soil conditions.
-$Keywords=Rangeland, Sagebrush, Fire, Infiltration, Runoff, Hydrophobicity; water repellency
+$Keywords=Rangelands, Sagebrush, Fire, Infiltration, Runoff, Hydrophobicity; water repellency
 $type=
 $treesearch=
 $links=<a href="/engr/library/Robichaud/Robichaud2008f/2008f.pdf" target="_pdf">PDF</a> [1.29 MB]
@@ -3676,7 +3676,7 @@ $Abstract=Post-fire runoff and erosion from wildlands has been well researched,
  burned steep sagebrush landscapes vary significantly by microsite and process,
  exhibiting seasonal fluctuation in degree, and
  that fire-induced increases in runoff and erosion may require more than 3 years to return to background levels.
-$Keywords=erosion; fire; infiltration; interrill; rangeland; rills; runoff; sagebrush; water-repellent soils, Nevada
+$Keywords=erosion; fire; infiltration; interrill; rangelands; rills; runoff; sagebrush; water-repellent soils, Nevada
 $type=
 $links=<a href="/engr/library/Robichaud/Robichaud2008e/2008e.pdf" target="_pdf">PDF</a> [434 KB]
 #2008d###############################################
@@ -3713,7 +3713,7 @@ $Abstract=A principal task of evaluating large wildfires is to assess fire's eff
  likelihood map of soil water repellency.
  This map is a good indicator of areas where soil experienced severe fire effects--areas that
  likely have strong water repellent soil conditions and higher potential for post-fire erosion.
-$Keywords=Burn severity; Ash; Water repellent soils; Hayman Fire; Remote sensing; water repellency, Colorado
+$Keywords=Burn severity; Ash; Water repellent soil; Hayman Fire; Remote sensing; water repellency, Colorado
 $type=
 $links=<a href="/engr/library/Lewis/Lewis2008d/2008d.pdf" target="_pdf">PDF</a> [1.09 MB]
 #2008c###############################################
@@ -3804,7 +3804,7 @@ WEPP parameterization equations related to the rill erosion process need improve
 modifying regression-estimated values of rill erodibility. Also, the interactions of rill width and surface roughness on soil shear stress estimates
 may also need to be modified. In this paper we report the effects of prescribed fire on runoff, soil erosion, and rill hydraulics and compare WEPP
 estimated erosion for several modeling options with measured erosion.
-$Keywords=WEPP; Rill erosion; Darcy-Weisbach roughness; Shear stress; Rill erodibility; Rill width, sagebrush
+$Keywords=WEPP; Rill erosion; Darcy-Weisbach roughness; Shear stress; Rill erosion; Rill width, sagebrush
 $type=
 $lynx=[403 K]
 $links=<a href="/engr/library/Robichaud/Robichaud2007r/2007r.pdf" target="_pdf">PDF</a> [404 KB]
@@ -3868,17 +3868,17 @@ $treesearch=
 $plynx=<a href="https://asae.frymulti.com/request.asp?search=1&JID=3&AID=24089&CID=t2007&v=50&i=6&T=1" target="ASABE">HTML</a> [ASABE subscription]
 $links=<a href="https://www.fs.fed.us/rm/pubs_other/rmrs_2007_foltz_r001.pdf" target="_pdf">PDF</a> (153 KB)
 *2007o######################################## to 2008l
-$Title=Measuring effectiveness of three postfire hillslope erosion barrier treatments, western Montana, USA
+$Title=Measuring effectiveness of three post-fire hillslope erosion barrier treatments, western Montana, USA
 $Year=2007
 $Authors=Robichaud, Brown, Wagenbrenner.
 $Citationt=Robichaud, P.R.; Pierson, F.B.; Brown, R.E.; Wagenbrenner, J.W. 2007.
- <a><i>Measuring effectiveness of three postfire hillslope erosion barrier treatments, western Montana, USA</i></a>.
+ <a><i>Measuring effectiveness of three post-fire hillslope erosion barrier treatments, western Montana, USA</i></a>.
  <b>Hydrological Processes</b> Published online.
 $category=
 $Publisher=Wiley InterScience
 $Abstract=After the Valley Complex Fire burned 86 000 ha in western Montana in 2000,
  two studies were conducted to determine the effectiveness of contour-felled log, straw wattle,
- and hand-dug contour trench erosion barriers in mitigating postfire runoff and erosion.
+ and hand-dug contour trench erosion barriers in mitigating post-fire runoff and erosion.
  Sixteen plots were located across a steep, severely burned slope, with a single barrier installed in 12 plots (four
  per treatment and four plots left untreated as controls.
  In a rainfall-plus-inflow simulation, 26 mm h<sup>-1</sup> rainfall was applied
@@ -4174,7 +4174,7 @@ $Citationt=Robichaud, P.R.; Pierson, F.B.; Brown, R.E. 2007.
 $category=
 $Publisher=USFS
 $Abstract=After prescribed burns at three locations and one wildfire, rainfall simulations studies were completed
- to compare postfire runoff rates and sediment yields on ash-cap soil in conifer forest regions of northern
+ to compare post-fire runoff rates and sediment yields on ash-cap soil in conifer forest regions of northern
  Idaho and western Montana. The measured fire effects were differentiated by burn severity (unburned,
  low, moderate, and high).
  <br><br>
@@ -4185,16 +4185,16 @@ $Abstract=After prescribed burns at three locations and one wildfire, rainfall s
  few centimeters beneath the soil surface. With the simulated rainfall, the non-water repellent surface
  layer became saturated; thus making the soil above the water repellent layer highly erodible&ndash;especially
  during high intensity rainfall.
-$Keywords=water repellent soils, rainfall simulation, burn severity, runoff, erosion, ash, Idaho, Montana
+$Keywords=water repellent soil, rainfall simulation, burn severity, runoff, erosion, ash, Idaho, Montana
 $type=
 $treesearch=pubs/26215
 $links=<a href="/engr/library/Robichaud/Robichaud2007f/2007f.pdf" target="_pdf">PDF</a> [237 KB]
 #2007e###############################################
-$Title=Postfire soil burn severity mapping with hyperspectral image unmixing
+$Title=post-fire soil burn severity mapping with hyperspectral image unmixing
 $Year=2007
 $Authors=Robichaud, Lewis, Hudak
 $Citationt=Robichaud, P.R.; Lewis, S.A.; Laes, D.Y.M.; Hudak, A.T.; Kokaly, R.F.; Zamudio, J.A. 2007.
- <i><a>Postfire soil burn severity mapping with hyperspectral image unmixing</a>.</i>
+ <i><a>post-fire soil burn severity mapping with hyperspectral image unmixing</a>.</i>
  <b>Remote Sensing of Environment</b> (2007), doi:10.1016/j.rse.2006.11.027. 14&nbsp;p.
 $category=
 $Publisher=Remote Sensing of Environment
@@ -4214,28 +4214,28 @@ $Abstract=Burn severity is mapped after wildfires to evaluate immediate and long
  However, the quantitative information provided by the fine-scale hyperspectral imagery makes it possible to more
  accurately assess the effects of the fire on the soil surface by identifying discrete ground cover characteristics.
  These surface effects, especially soil and ash cover and the lack of any remaining vegetative cover,
- directly relate to potential postfire watershed response processes.
+ directly relate to potential post-fire watershed response processes.
 $Keywords=Hayman Fire; Ash; Mixture tuned matched filter; Hyperspectral; Burn severity, Colorado
 $type=
 $treesearch=pubs/29030
 $links=<a href="/engr/library/Robichaud/Robichaud2007e/2007e.pdf" target="_pdf">PDF</a> [1.9 MB]
 #2007d###############################################
-$Title=Predicting postfire erosion and mitigation effectiveness with a web-based probabilistic erosion model
+$Title=Predicting post-fire erosion and mitigation effectiveness with a web-based probabilistic erosion model
 $Year=2007
 $Authors=Robichaud, Elliot, Hall
 $category=
 $Publisher=Catena Elsevier
 $Citationt=Robichaud, P.R.; Elliot, W.J.; Pierson, F.B.; Hall, D.E.; Moffet, C.A. 2007.
-<i><a>Predicting postfire erosion and mitigation effectiveness with a web-based probabilistic erosion model.</a></i>
+<i><a>Predicting post-fire erosion and mitigation effectiveness with a web-based probabilistic erosion model.</a></i>
 <b>Catena</b> 71(2):229-241.
-$Abstract=The decision of where, when, and how to apply the most effective postfire erosion mitigation treatments requires land managers to assess the
+$Abstract=The decision of where, when, and how to apply the most effective post-fire erosion mitigation treatments requires land managers to assess the
 risk of damaging runoff and erosion events occurring after a fire. To meet this challenge, the Erosion Risk Management Tool (ERMiT) was
 developed. ERMiT is a web-based application that uses the Water Erosion Prediction Project (WEPP) technology to estimate erosion, in
 probabilistic terms, on burned and recovering forest, range, and chaparral lands with and without the application of mitigation treatments. User
 inputs are processed by ERMiT to combine rain event variability with spatial and temporal variabilities of hillslope burn severity and soil
 properties, which are then used as WEPP input parameter values. Based on 20 to 40 individual WEPP runs, ERMiT produces a distribution of rain
-event erosion rates with a probability of occurrence for each of five postfire years. In addition, rain event erosion rate distributions are generated
-for postfire hillslopes that have been treated with seeding, straw mulch, and erosion barriers such as contour-felled logs or straw wattles.
+event erosion rates with a probability of occurrence for each of five post-fire years. In addition, rain event erosion rate distributions are generated
+for post-fire hillslopes that have been treated with seeding, straw mulch, and erosion barriers such as contour-felled logs or straw wattles.
 $AbstractOld=Attempts to mitigate the impact of post-wildfire runoff and erosion on life, property, and
  natural resources have cost the United States government tens of millions of dollars over
  the past decade. The decision of where, when, and how to apply the most effective
@@ -4248,7 +4248,7 @@ $AbstractOld=Attempts to mitigate the impact of post-wildfire runoff and erosion
  with spatial and temporal variabilities of hillslope burn severity, soil properties, and
  ground cover to estimate WEPP input parameter values. Based on 20 to 40 individual
  WEPP runs, ERMiT produces a distribution of rain event erosion rates with a probability
- of occurrence for each of five postfire years. In addition, rain event erosion rate
+ of occurrence for each of five post-fire years. In addition, rain event erosion rate
  distributions are generated for hillslopes that have been treated with seeding, straw
  mulch, straw wattles and contour-felled log erosion barriers.
 $Keywords=sediment yield, wildfire, WEPP, FS WEPP, ERMiT, probabilistic
@@ -4628,14 +4628,14 @@ $Citationt=Robichaud, P.R.; Elliot, W.J. 2006.
 $category=
 $Publisher=ASABE
 $Abstract=Erosion in the first year after a wildfire can be up to three orders of magnitude greater than
-the erosion from undisturbed forests. To mitigate potential postfire erosion, various erosion control
+the erosion from undisturbed forests. To mitigate potential post-fire erosion, various erosion control
 treatments are applied on highly erodible areas with downstream resources in need of protection.
-Because postfire erosion rates generally decline by an order of magnitude for each year of recovery,
+Because post-fire erosion rates generally decline by an order of magnitude for each year of recovery,
 effective erosion mitigation treatments are most needed during the first year or two after a fire.
-Postfire treatments include broadcast seeding, scarification and trenching, physical erosion barriers
+post-fire treatments include broadcast seeding, scarification and trenching, physical erosion barriers
 such as contour-felled logs and straw wattles, and mulching with wheat straw, wood straw, and
 hydromulch. This paper summarizes data from more than seven years of studies to evaluate the
-effectiveness of postfire erosion mitigation treatments at the hillslope and small watershed-scale in
+effectiveness of post-fire erosion mitigation treatments at the hillslope and small watershed-scale in
 the western U.S. Results suggest that some mitigation treatments may help reduce erosion for
 some, but not all, rainfall events. Generally, mulching is more effective than seeding, scarifying, or
 erosion barriers. For small rainfall events, reduction in first year erosion rates have been measured
@@ -4733,17 +4733,17 @@ $type=
 $links=<a href="https://forest.moscowfsl.wsu.edu/engr/library/Foltz/Foltz2006e/ASABE2006e.pdf">PDF</a>
 $zlinks=<a href="https://asae.frymulti.com/request.asp?JID=5&AID=21056&CID=por2006&T=2">PDF</a> (653 KB) [ASABE subscription]
 #2006d###############################################
-$title=Effects of postfire seeding and fertilization on hillslope erosion in north-central Washington, USA
+$title=Effects of post-fire seeding and fertilization on hillslope erosion in north-central Washington, USA
 $year=2006
 $authors=Robichaud, Wagenbrenner
 $citationt=Robichaud, P.R.; Lillybridge, T.R.; Wagenbrenner, J.W. 2006.
- <i><a>Effects of postfire seeding and fertilization on hillslope erosion in north-central Washington, USA</a></i>.
+ <i><a>Effects of post-fire seeding and fertilization on hillslope erosion in north-central Washington, USA</a></i>.
  <b>Catena</b> 67: 56-67.
  "Available online at www.sciencedirect.com"
 $category=
 $publisher=Catena Elsevier
 $abstract=After the 1998 North 25 Fire in the Wenatchee National Forest, eight study sites were established on steep,
- severely burned hillslopes to examine the effectiveness of postfire seeding and fertilizing treatments in
+ severely burned hillslopes to examine the effectiveness of post-fire seeding and fertilizing treatments in
  increasing cover to reduce hillslope erosion, and to measure the nutrient content of the eroded sediment.
  ...
 $keywords=Erosion rate, wildfire, grass seeding, silt fence, monitoring, rehabilitation, seeding, Washington State
@@ -4871,7 +4871,7 @@ $Abstract=An important element of evaluating a large wildfire is to assess its e
  hence, results from both tests reflect that variability, accounting for much of the remaining variance.
  The MDI is easier to use, takes about 1 min to assess a strongly water repellent soil and provides two indicators of
  water repellency: the time to start of infiltration and a relative infiltration rate.
-$Keywords=forest fire; water repellent soils; erosion; burn severity; water drop penetration time (WDPT); mini-disk infiltrometer (MDI), water repellency, Hayman Fire, Colorado
+$Keywords=forest fire; water repellent soil; erosion; burn severity; water drop penetration time (WDPT); mini-disk infiltrometer (MDI), water repellency, Hayman Fire, Colorado
 $type=
 $links=<a href="/engr/library/Lewis/Lewis2005l/2005l.pdf" target="_pdf">PDF</a> [213 KB]
  <a href="https://www3.interscience.wiley.com/cgi-bin/fulltext/111082744/PDFSTART" target="_pdf">Through Wiley</a>
@@ -4892,7 +4892,7 @@ water storage, and in some cases, creation of water repellent soil conditions. T
 conditions increase the potential for flooding, debris flows, and sedimentation, which
 are of special concern to people who live and mange resources in the areas adjacent to
 burned areas. A web-based erosion risk management tool, ERMiT, has been developed
-to predict erosion from postfire hillslopes and to evaluate the potential effectiveness
+to predict erosion from post-fire hillslopes and to evaluate the potential effectiveness
 of various erosion mitigation practices. The model uses a probabilistic approach that
 incorporates variability in climate, soil properties, and burn severity for forests, range-land,
 and chaparral hillslopes. The Water Erosion Prediction Project (WEPP) engine
@@ -4977,7 +4977,7 @@ $Publisher=USFS
 $Abstract=The U.S. Department of Agriculture Forest Service s considering alternative methods of erosion control
  when decommissioning roads and when protecting lands burned by wildland fires.
  This article is the second in a series of tech tips that discuss the use of wood shreddings for erosion control.
-$Keywords=wood shreddings, BAER, Burned Area Emergency Response, overland flow, Purdue-type simulators, rain damage, rainfall simulators, simulations, soil conservation, wood shred
+$Keywords=wood shreddings, BAER, Burned Area Emergency Response, overland flow, Purdue-type simulators, rain damage, rainfall simulation, simulations, soil conservation, wood shreds
 $Citationt=Groenier, J."S"., Foltz, R.; Showers, C. 2005.
  <i><a>Using rainfall simulators to test wood shreddings for erosion control.</a></i>
  Tech Tip 0571-2329-MTDC. August 2005.
@@ -5041,7 +5041,7 @@ $links=<a href="https://forest.moscowfsl.wsu.edu/engr/library/Foltz/Foltz2005f/2
 $plinks=<a href="https://www.pubs.asce.org/WWWdisplay.cgi?0523364" target="_new">By subscription from ASCE</a>
 $lynx=[40763-6991.pdf]
 #2005e###############################################
-$Title=Postfire rehabilitation treatments: are we learning what works?
+$Title=post-fire rehabilitation treatments: are we learning what works?
 $Year=2005
 $Authors=Robichaud, Brown
 $category=
@@ -5049,9 +5049,9 @@ $Publisher=ASCE
 $authorblock=
 $Abstract=Major concerns after wildfires are the increased erosion and flooding potential
  due to loss of the protective forest floor layer, loss of water storage, and the creation
- of water repellent soil conditions. Treatments to mitigate postfire erosion and runoff
+ of water repellent soil conditions. Treatments to mitigate post-fire erosion and runoff
  are commonly applied on highly erodible areas; however the effectiveness of these
- treatments has had limited scientific evaluation. In recent years postfire hillslope
+ treatments has had limited scientific evaluation. In recent years post-fire hillslope
  treatment effectiveness has been evaluated by using sediment fences and small
  catchments to directly measure sediment yields from burned hillslopes and relate
  those results to the specific rain events that caused them. In addition, the erosion from
@@ -5067,7 +5067,7 @@ $Abstract=Major concerns after wildfires are the increased erosion and flooding 
  erosion by 50 to 70%.
 $Keywords=rehabilitation, erosion mitigation, post-fire effects
 $Citationt=Robichaud, P.R.; Brown, R.E. 2005.
- <i><a>Postfire rehabilitation treatments: are we learning what works?</a></i>
+ <i><a>post-fire rehabilitation treatments: are we learning what works?</a></i>
  In Moglen, G.E., ed.,
  <b>Managing Watersheds for Human and Natural Impacts: Engineering, Ecological, and Economic Challenges.</b>
  Proceedings of the 2005 Watershed Management Conference, July 19-22, 2005, Williamsburg, VA;
@@ -5236,13 +5236,13 @@ $Citationt=Foltz, R.B.; Truebe, M. 2004.
   0477 1308--SDTDC. July 2004. 2&nbsp;p.
 $links=<a href="https://fsweb.sdtdc.wo.fs.fed.us/pubs/pdf/04771308.pdf">PDF</a> [24 KB]
 #2004p##############################################
-$Title=Postfire burn-severity classification of the Hayman Fire, CO: based on hyperspectral data
+$Title=post-fire burn-severity classification of the Hayman Fire, CO: based on hyperspectral data
 $Year=2004
 $Authors=Lewis, Robichaud
 $category=
 $Publisher=USFS
 $Citationt=Laes, D.; Maus, P.; Lewis, S.; Robichaud, P.; Kokaly, R. 2004.
- <b><a>Postfire burn-severity classification of the Hayman Fire, CO: based on hyperspectral data.</a></b>
+ <b><a>post-fire burn-severity classification of the Hayman Fire, CO: based on hyperspectral data.</a></b>
  JFSP RFP 2001-2 Task 1.
  Remote Sensing Applications Center Project Report RSAC-0068-RPT1.
  Salt Lake City, UT: US Department of Agriculture Forest Service, Remote Sensing Application Center. 29&nbsp;p.
@@ -5287,7 +5287,7 @@ $Keywords=burn severity, Hayman fire, Colorado, water repellency, burn severity 
 $links=<a href="/engr/library/Robichaud/Robichaud2004p/2004p.pdf">PDF</a> [2.8 MB]
  <a href="https://fsweb.rsac.fs.fed.us/documents/0068-RPT1.pdf">From RSAC site</a>
 #2004o###############################################
-$Title=Hyperspectral Remote Sensing of Postfire Soil Properties
+$Title=Hyperspectral Remote Sensing of post-fire Soil Properties
 $Year=2004
 $Authors=Lewis, Robichaud, Elliot
 $category=
@@ -5301,7 +5301,7 @@ $Abstract=Forest fires may induce changes in soil organic properties that often 
  classified image, nearly 20 percent of the Hayman Fire had water repellent soils.
 $Keywords=hyperspectral, remote sensing, Colorado, Hayman fire, water repellency
 $Citationt=Lewis, S.A.; Robichaud, P.R.; Elliot, W.J.; Frazier, B.E.; and Wu, J.Q. 2004.
- <i><a>Hyperspectral Remote Sensing of Postfire Soil Properties.</a></i>
+ <i><a>Hyperspectral Remote Sensing of post-fire Soil Properties.</a></i>
  In: <b>Remote Sensing for Field Users,</b>
  Proceedings of the Tenth Forest Service Remote Sensing Applications Conference,
  Salt Lake City, Utah, April 5-9, 2004.
@@ -5375,16 +5375,16 @@ $Citationt=Covert, S.A.; Robichaud, P.R.; ELliot, W.J. Under review.
  USDA Forest Service, Rocky Mountain Research Station.
 $lynxs=<a href="https://forest.moscowfsl.wsu.edu/engr/library/other/Covert2004m/2004m.pdf">PDF</a>
 *2004l###############################################
-$Title=The effectiveness of postfire mitigation treatments
+$Title=The effectiveness of post-fire mitigation treatments
 $Year=2004
 $Authors=Elliot, Robichaud
 $category=fire
 $Publisher=USFS RMRS
 $authorblock=
 $Abstract=
-$Keywords=postfire effects, erosion mitigation
+$Keywords=post-fire effects, erosion mitigation
 $Citationt=Elliot, W.J.; Robichaud, P.R. 2004.
- <i><a>The effectiveness of postfire mitigation treatments.</a></i>
+ <i><a>The effectiveness of post-fire mitigation treatments.</a></i>
  Presented at the <b>2004 BAER Training Workshop,</b>
  April 30, 2004, Denver, CO.
  Rocky Mountain Research Station, Moscow, ID.
@@ -5449,16 +5449,16 @@ $Citationt=Robichaud, P.R. 2004.
   American Society of Agricultural Engineers.  
 $links=<a href="https://www.asae.org/imis/StaticContent/4/May_2004/p_11_12_E_meter.pdf" target="o">PDF</a> [783KB]
 *2004i###############################################
-$Title=Initial findings of postfire rehabilitation treatment effectiveness
+$Title=Initial findings of post-fire rehabilitation treatment effectiveness
 $Year=2004
 $Authors=Robichaud
 $category=
 $Publisher=Journal of Forestry
 $authorblock=
 $Abstract=
-$Keywords=postfire rehabilitation, postfire monitoring
+$Keywords=post-fire rehabilitation, post-fire monitoring
 $Citationt=Robichaud, P.R. 2004.
-  Initial findings of postfire rehabilitation treatment effectiveness
+  Initial findings of post-fire rehabilitation treatment effectiveness
 $lynx=
 $type=
 *2004h###############################################
@@ -5577,11 +5577,11 @@ $category=duff moisture meter
 $links=<a href="/engr/library/Robichaud/Robichaud2004a/2004a.pdf">PDF</a> [109 KB]
 $type=peer reviewed
 #2003z###############################################
-$Title=Quick Response Small Catchment Monitoring Techniques For Comparing Postfire Rehabilitation Treatment Effectiveness
+$Title=Quick Response Small Catchment Monitoring Techniques For Comparing post-fire Rehabilitation Treatment Effectiveness
 $Year=2003
 $Authors=Robichaud, Brown
 $Citationt=Robichaud, P.R.; Brown, R.E. 2003.
- <i><a>Quick Response Small Catchment Monitoring Techniques For Comparing Postfire Rehabilitation Treatment Effectiveness</i></a>.
+ <i><a>Quick Response Small Catchment Monitoring Techniques For Comparing post-fire Rehabilitation Treatment Effectiveness</i></a>.
  p.&nbsp;663-666 in 
  <b>First Interagency Conference on Research in the Watersheds</b>, 2003.
  Renard, Kenneth G., McElroy, Stephen A., Gburek, William J., Canfield, H. Evan, and Scott, Russell L., eds.
@@ -5775,7 +5775,7 @@ $lynx=<a href="https://www.glti.nrcs.usda.gov/technical/published_papers/" targe
 $links=<a href="/engr/library/Robichaud/Robichaud2003t/2003t.pdf" target="_pdf">PDF</a> [153 KB]
 $type=peer reviewed
 #2003s###############################################
-$Title=Quick response small catchment monitoring techniques for comparing postfire rehabilitation treatment effectiveness
+$Title=Quick response small catchment monitoring techniques for comparing post-fire rehabilitation treatment effectiveness
 $Year=2003
 $Authors=Robichaud, Brown
 $category=fire
@@ -5806,21 +5806,21 @@ $Abstract=Increased runoff and erosion commonly occur after wildfires with the o
   an assessment of treatment effectiveness.
 $Keywords=erosion, sedimentation, paired watersheds, instrumentation, data logger, Colorado, Washington, California,  Montana
 $Citationt=Robichaud, P.R.; Brown, R.E. 2003.
-  <a><i>Quick response small catchment monitoring techniques for comparing postfire rehabilitation treatment effectiveness.</i></a>
+  <a><i>Quick response small catchment monitoring techniques for comparing post-fire rehabilitation treatment effectiveness.</i></a>
   <b>First interagency conference on research in the watersheds.</b>
   Agricultural Research Service. 663-667.
 $links=<a href="https://forest.moscowfsl.wsu.edu/engr/library/Robichaud/Robichaud2003s/2003s.pdf">PDF</a> [306 KB]
        <a href="https://forest.moscowfsl.wsu.edu/engr/library/Robichaud/Robichaud2003s/2003s.html">HTML</a>
 $type=peer reviewed
 #2003r#########################################################################
-$title=Postfire rehabilitation of the Hayman Fire
+$title=post-fire rehabilitation of the Hayman Fire
 $year=2003
 $category=fire effects
 $publisher=USDA Forest Service
 $authors=Robichaud, Ashmun
 $citationt=Robichaud, P.R.; MacDonald, L.; Freeouf, J.; Neary, D.; Martin, D.; Ashmun, L.
    2003.
-  <a><i>Postfire rehabilitation of the Hayman Fire.</i></a>
+  <a><i>post-fire rehabilitation of the Hayman Fire.</i></a>
   P.&nbsp;293-313 in:
   Graham, Russell T., Technical Editor.
   2003.
@@ -5831,17 +5831,17 @@ $citationt=Robichaud, P.R.; MacDonald, L.; Freeouf, J.; Neary, D.; Martin, D.; A
   396&nbsp;p.
 $abstract=
   Our team was asked to analyze and comment on the
-  existing knowledge and science related to postfire
+  existing knowledge and science related to post-fire
   rehabilitation treatments, with particular emphasis
   on the known effectiveness of these treatments.
   The general effects of fire on Western forested landscapes
   are well documented (Agee 1993; DeBano and others
   1998; Kozlowski and Ahlgren 1974) and have been
   thoroughly discussed in other chapters of this report.
-  However, postfire erosion and rehabilitation treatment
+  However, post-fire erosion and rehabilitation treatment
   effectiveness have not been studied extensively.
   <br><br>
-  The first part of this chapter describes the postfire
+  The first part of this chapter describes the post-fire
   conditions, as identified by the Burned Area Emergency Rehabilitation (BAER) team,
   and the subsequent BAER team recommendations for rehabilitation treatment.
   The next sections describe the different treatments, where they were applied on the Hayman
@@ -5849,15 +5849,15 @@ $abstract=
   The recommendations for monitoring treatment effectiveness will answer the specific question,
   "What types of monitoring protocol and reports should Forest Service and other jurisdictions
   put in place to continue to learn from this fire?"
-  and outline a general process for monitoring postfire rehabilitation efforts.
+  and outline a general process for monitoring post-fire rehabilitation efforts.
   This is followed by a description of the sites currently established within the
   Hayman Fire burned area to evaluate the effectiveness of various rehabilitation treatments.
   The need to establish control sites (burned but not treated) to
   provide a basis for comparison and monitor natural recovery is also discussed.
   The final section identifies the knowledge gaps that need to be addressed to
-  guide the selection of postfire rehabilitation treatments on future fires in the Colorado Front Range
+  guide the selection of post-fire rehabilitation treatments on future fires in the Colorado Front Range
   and similar environments.
-$keywords=Hayman Fire, Colorado, postfire rehabilitation
+$keywords=Hayman Fire, Colorado, post-fire rehabilitation
 $links=<a href="https://forest.moscowfsl.wsu.edu/engr/library/Robichaud/Robichaud2003r/rmrs_gtr114_5.pdf">PDF</a> [650 KB]
 $type=peer reviewed
 *2003q###############################################
@@ -6381,7 +6381,7 @@ $Abstract=Wildfire is a major ecological process and management issue in the wes
 $Keywords=
 $links=<a href="https://gsa.confex.com/gsa/2002AM/finalprogram/abstract_38041.htm" target="o">GSA abstract</a>
 *2002d#########################################################################
-$title=Hayman fire case study analysis: postfire rehabilitation
+$title=Hayman fire case study analysis: post-fire rehabilitation
 $year=2002
 $category=fire effects
 $publisher=USDA Forest Service
@@ -6392,23 +6392,23 @@ $authorblock=<b>P.R. Robichaud</b>,
   D. Neary,
   D. Martin
 $citationt=Robichaud, P.R.; MacDonald, L.; Freeouf, J.; Neary, D.; Martin, D. 2002.
-  <a><i>Hayman fire case study analysis: postfire rehabilitation.</i></a>
+  <a><i>Hayman fire case study analysis: post-fire rehabilitation.</i></a>
   Chapter&nbsp;5 in: Graham, R.T., ed. <b>Interim Hayman Fire Case Study Analysis.</b> 11&nbsp;p.
-$abstract=Our team has been asked to review and comment on immediate postfire effects.
+$abstract=Our team has been asked to review and comment on immediate post-fire effects.
  Specifically, we were asked to review the existing knowledge and science on changes
-  in watershed responses and effectiveness of postfire rehabilitation treatments.
+  in watershed responses and effectiveness of post-fire rehabilitation treatments.
  We will review monitoring protocols and techniques related to erosion, water
   quality, and treatment effectiveness that are appropriate for burned areas.
  Additionally, we will identify appropriate untreated areas that should be established
   to allow meaningful comparison to natural recovery.
  Finally, we will identify knowledge gaps that need to be addressed to guide the selection of
-  postfire rehabilitation treatments.
+  post-fire rehabilitation treatments.
  <br><br>
- Our approach first builds on the current literature pertaining to postfire changes in watershed
+ Our approach first builds on the current literature pertaining to post-fire changes in watershed
   response and sedimentation.
  Then we describe the soils, hydrology, values at risk, and selection of treatment methods
   for the Hayman Fire area.
- This is followed by current knowledge of postfire rehabilitation treatment effectiveness with
+ This is followed by current knowledge of post-fire rehabilitation treatment effectiveness with
   a focus on treatments that are being used on the Hayman Fire area.
  We continue with a discussion of monitoring protocols.
  We finish by delineating the shortfalls in our knowledge and the uncertainty we have in the
@@ -6569,7 +6569,7 @@ $Abstract=Wildfire is a major ecological process and management issue on western
  The impact of the fire on infiltration and erosion was reduced, but still evident, 1 year after fire.
  Significant temporal variability in infiltration between years was observed on both burned and unburned areas,
  complicating the interpretation of fire impacts and hydrologic recovery following wildfire.
-$Keywords=rangeland; wildfire; infiltration; runoff; post-fire erosion; water-repellency; rainfall simulation, 1999 Denio fire, Nevada
+$Keywords=rangelands; wildfire; infiltration; runoff; post-fire erosion; water-repellency; rainfall simulation, 1999 Denio fire, Nevada
 $links=<a href="/engr/library/Robichaud/Robichaud2001s/2001s.pdf" target="_pdf">PDF</a> [118 KB]
 $type=refereed
 #2001r####################################################
@@ -6818,7 +6818,7 @@ $Citationt=Brady, J.; Robichaud, P.R.; Pierson, F.B. 2001.
 	Technical Session 21: <i>Forest soil erosion and water quality.</i>
 	St.&nbsp;Joseph, MI: ASAE.
 $Abstract=
-$Keywords=infiltration, Montana, postfire assessment
+$Keywords=infiltration, Montana, post-fire assessment
 $lynx=<a href="https://forest.moscowfsl.wsu.edu/engr/library/Robichaud/Robichaud2001i/2001i.pdf">PDF</a> [146k]
 $links=<a href="https://forest.moscowfsl.wsu.edu/engr/library/Robichaud/Robichaud2001i/2001i.html">HTML</a> 
 #2001h####################################################
@@ -6899,7 +6899,7 @@ $Abstract=Rangeland runoff and erosion rates are highly dependent on the type an
  sedimentation. The WEPP rangeland templates underpredicted erosion and overpredicted runoff. Both
  versions of WEPP were able to predict runoff as a function of upland topography and vegetation, making future
  development of more complex rangeland watershed sedimentation prediction feasible.
-$Keywords= Erosion models, Modeling, Rangeland, RUSLE, WEPP, Colorado
+$Keywords= Erosion models, Modeling, Rangelands, RUSLE, WEPP, Colorado
 $links=<a href="https://forest.moscowfsl.wsu.edu/engr/library/Elliot/Elliot2001f/2001f.pdf">PDF</a> [147k]<br>
 $zlinks=<a target="o" href="https://asae.frymulti.com/request2.asp?JID=1&AID=3289&CID=se2001&v=&i=&T=2">ASAE pdf</a> (subscription) |
         <a target="o" href="https://asae.frymulti.com/request2.asp?JID=1&AID=3289&CID=se2001&v=&i=&T=1">ASAE html</a> (subscription)
@@ -7215,7 +7215,7 @@ $links=<a href="https://www.watershed.org/wmc/news/win_02/2_hillslope_fire.htm>H
 $type=peer reviewed
          <a target="o" href="https://www.fs.fed.us/rm/pubs/rmrs_gtr63.pdf" class="pdf">PDF (882k)</a> ]
 #2000n#################################################
-$Title=Evaluating the effectiveness of postfire rehabilitation treatments
+$Title=Evaluating the effectiveness of post-fire rehabilitation treatments
 $Year=2000
 $category=fire effects
 $Publisher=USDA USFS RMRS
@@ -7224,11 +7224,11 @@ $authorblock=<b>Peter R. Robichaud</b><br>
 	Jan L. Beyers<br>
 	Daniel G. Neary
 $Citationt=Robichaud, P.R.; Beyers, J.L.; Neary D.G. 2000.
-	<a><b>Evaluating the Effectiveness of Postfire Rehabilitation Treatments.</b></a>
+	<a><b>Evaluating the Effectiveness of post-fire Rehabilitation Treatments.</b></a>
 	Gen. Tech. Rep. RMRS-GTR-63.
 	Fort Collins, CO: U.S. Department of Agriculture, Forest Service, Rocky Mountain Research Station.
 	85&nbsp;p.
-$Abstract=Spending on postfire emergency watershed rehabilitation has increased during the past decade.
+$Abstract=Spending on post-fire emergency watershed rehabilitation has increased during the past decade.
   A west-wide evaluation of USDA Forest Service burned area emergency rehabilitation (BAER) treatment
   effectiveness was undertaken as a joint project by USDA Forest Service Research and National Forest
   System staffs. This evaluation covers 470 fires and 321 BAER projects, from 1973 through 1998 in USDA
@@ -7239,15 +7239,15 @@ $Abstract=Spending on postfire emergency watershed rehabilitation has increased 
   are closer to the wildland-urban interface. Existing literature on treatment effectiveness is limited, thus
   making treatment comparisons difficult. The amount of protection provided by any treatment is small.
   Of the available treatments, contour-felled logs show promise as an effective hillslope treatment because
-  they provide some immediate watershed protection, especially during the first postfire year. Seeding has
+  they provide some immediate watershed protection, especially during the first post-fire year. Seeding has
   a low probability of reducing the first season erosion because most of the benefits of the seeded grass
   occurs after the initial damaging runoff events. To reduce road failures, treatments such as properly
   spaced rolling dips, water bars, and culvert reliefs can move water past the road prism. Channel
   treatments such as straw bale check dams should be used sparingly because onsite erosion control is
   more effective than offsite sediment storage in channels in reducing sedimentation from burned
   watersheds. From this review, we recommend increased treatment effectiveness monitoring at the
-  hillslope and sub-catchment scale, streamlined postfire data collection needs, increased training on
-  evaluation postfire watershed conditions, and development of an easily accessible knowledge base of
+  hillslope and sub-catchment scale, streamlined post-fire data collection needs, increased training on
+  evaluation post-fire watershed conditions, and development of an easily accessible knowledge base of
   BAER techniques.
 $treesearch=pubs/23617
 $treesearch=pubs/4571
@@ -8993,7 +8993,7 @@ $abstract=Rainfall simulators are commonly used to estimate erodibility paramete
  variability in the kinetic energy field raises questions about the validity of erodibility
  values derived from the simulator.
  Further testing of the piezoelectric crystal instrument will help validate these results.
-$keywords=kinetic energy, rainfall simulator, erodibility
+$keywords=kinetic energy, rainfall simulation, erodibility
 $lynx=<a href="https://forest.moscowfsl.wsu.edu/engr/library/Foltz/Foltz1995c/1995c.pdf">PDF</a> [271k]
 #1995b#################################################
 $title=Effect of aggregate quality on sediment production from a forest road
