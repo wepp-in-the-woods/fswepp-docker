@@ -4,7 +4,7 @@ user warnings;
 use CGI;
 use CGI qw(escapeHTML);
 
-use MoscowFSL::FSWEPP::FsWeppUtils qw( get_user_ID get_units);
+use MoscowFSL::FSWEPP::FsWeppUtils qw( get_user_id get_units);
 
 # pclimate.cli  --  disguised perl script to generate & return climate for personal climates
 
