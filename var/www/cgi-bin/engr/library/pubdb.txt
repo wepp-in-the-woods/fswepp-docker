@@ -102,7 +102,7 @@ $Keywords= Post-fire, Debris flows, Rainfall, Burned areas, Flood detection, 201
 $type=
 $treesearch=
 $plynx=
-$links=<a href="/engr/library/2023/Robichaud2023g/(G)Porter_et_al_2023_JGR_Earth_Surface-Character_Seismic_Signals_Post‐Wildfire_Museum_Fire.pdf" target="_pdf">PDF</a> [6,459 KB]
+$links=<a href="https://doi.org/10.1029/2022JF006962" target="_pdf">PDF</a> [6,459 KB]
 #2023f###############################################
 $Title=Soil erosion after fire in volcanic terrain: Assessment and implications for post-fire soil losses.
 $Year=2023
@@ -117,7 +117,7 @@ $Keywords=Wildfire, Runoff-erosion processes, Rill erosion, Sediment exhaustion,
 $type=
 $treesearch=
 $plynx=
-$links=<a href="/engr/library/2023/Robichaud2023f/(F)Neris_et_al._2023_J_Hydrology_post-fire_erosion_volcanic_soils.pdf" target="_pdf">PDF</a> [4,532 KB]
+$links=<a href="https://doi.org/10.1016/j.jhydrol.2023.129923" target="_pdf">PDF</a> [4,532 KB]
 #2023e###############################################
 $Title=Informing Sustainable Forest Management: Remote Sensing Strategies for Assessing Soil Disturbance after Wildfire and Salvage Logging.
 $Year=2023
@@ -192,7 +192,7 @@ $Keywords=Post-fire, Landslides, Slope Stability, Wildfire, Soil Hydrology, Eros
 $type=
 $treesearch=
 $plynx=
-$links=<a href="/engr/library/2023/Robichaud2023a/(A)Akin_et_al._2023_J_Geotech_post-fire_soil_slope_stability.pdf" target="_pdf">PDF</a> [1,302 KB]
+$links=<a href="https://doi.org/10.1061/JGGEFK.GTENG-11348" target="_pdf">PDF</a> [1,302 KB]
 #2022g###############################################
 $Title=Guía de campo para trazar un mapa de la severidad de del incendio en el suelo.
 $Year=2022
@@ -587,7 +587,11 @@ $Citationt=Robichaud, P. R., Lewis, S. A., Wagenbrenner, J. W., Brown, R. E., an
  <b>Earth Surface Processes and Landforms</b> 45, 771-782.
 $category=
 $Publisher=Wiley
-1). The burned control plots had high sediment flux rates until post-fire year 3, when flux rates significantly decreased and were statistically no longer higher than the unburned levels from year 4 and 10. These results will inform managers of the longer-term post-fire sediment delivery rates and of the ability of post-fire emergency hillslope treatments to mitigate erosion rates. Published 2019. This article is a U.S. Government work and is in the public domain in the USA. 
+$Abstract=Large wildfires can have profound and lasting impacts not only from direct consumption of vegetation but also longerterm effects such as persistent soil erosion. The 2002 Hayman Fire burned in one of the watersheds supplying water to the Denver metropolitan area; thus there was concern regarding hillslope erosion and sedimentation in the reservoirs. The efficacy of various
+treatments for reducing erosion was tested, including hand scarification on contour, agricultural straw mulch, wood mulch, burned controls and unburned reference plots. Simulated rill erosion experiments were used both immediately after the fire and again 10 years post fire. To better understand untreated recovery, the same experiments were applied to control plots in post-fire years
+1, 2, 3 and 4, and in unburned reference plots in years 4 and 10. Results indicate that control and scarified plots produced significantly greater sediment flux rates – 1.9 and 2.8 g s1 respectively – than the straw and wood mulch treatments – 0.9 and 1.1 g s1 – immediately after the fire. Mulch treatments reduced runoff rate, runoff velocity, and sediment concentration and flux rate. The
+straw mulch cover was no longer present, whereas the wood mulch was still there in year 10. Vegetation regrowth was slow and mulch treatments provided effective cover to reduce sediment right after the fire. In post-fire year 10, there were no significant differences in sediment flux rates across treatments; it is notable, however, that the wood mulch treatment (0.09 g s1) most closely approached the unburned condition (0.07 g s1). The burned control plots had high sediment flux rates until post-fire year 3, when flux rates significantly decreased and were statistically no longer higher than the unburned levels from year 4 and 10. These results will inform managers of the longer-term post-fire sediment delivery rates and of the ability of post-fire emergency hillslope treatments
+to mitigate erosion rates.
 $Keywords=rill erosion, wood mulch, wood strands, scarification, Hayman Fire, straw mulch, post-fire, recovery
 $type=
 $treesearch=
@@ -879,7 +883,7 @@ $Title=Indicators of burn severity at extended temporal scales: a decade of ecos
 $Year=2017
 $Authors=Lewis, Hudak, Robichaud
 $Citationt=Lewis Sarah A., Hudak Andrew T., Robichaud Peter R., Morgan Penelope, Satterberg Kevin L., Strand Eva K., Smith Alistair M. S., Zamudio Joseph A., Lentile Leigh B. (2017) 
-<i><a>Indicators of burn severity at extended temporal scales: a decade of ecosystem response in mixed-conifer forests of western Montana.</a></i> <b>International Journal of Wildland Fire</b> 26, 755-771.
+<i><a>Indicators of burn severity at extended temporal scales: a decade of ecosystem response in mixed-conifer forests of western Montana.</a></i> <b>International Journal of Wildland Fire</b> 26, 755-771 https://doi.org/10.1071/WF17019.
 $category=
 $Publisher=CSIRO
 $Abstract=We collected field and remotely sensed data spanning 10 years after three 2003 Montana wildfires to monitor
@@ -898,7 +902,7 @@ $Keywords=char, hyperspectral remote sensing, multiple endmember spectral mixtur
 $type=
 $treesearch=
 $plynx=
-$links=<a href="/engr/library/Lewis/Lewis2017a/2017a.pdf" target="_pdf">PDF</a> [1.18 MB]
+$links=<a href="https://doi.org/10.1071/WF17019" target="_pdf">PDF</a> [1.18 MB]
 #2016h###############################################
 $Title=Rapid-response tools and datasets for post-fire remediation: linking remote sensing and process-based hydrological models.
 $Year=2016
@@ -1159,7 +1163,7 @@ $Year=2015
 $Authors=Lewis, Robichaud, Hudak
 $Citationt=Morgan, P., M. Moy, C.A. Droske, S.A. Lewis, L.B. Lentile, P.R. Robichaud, A.T. Hudak,
 and C.J. Williams. 2015. <i><a>Vegetation response to burn severity, native grass seeding, and
-salvage logging.</i></a> <b>Fire Ecology</b> 11(2): 31�58.
+salvage logging.</i></a> <b>Fire Ecology</b> 11(2): 31�58. https://doi.org/10.4996/fireecology.1102031.
 $category=journal
 $Publisher=Fire Ecology
 $Abstract=As the size and extent of wildfires has increased in recent decades, so has the cost and extent of post-fire management,
@@ -1190,7 +1194,7 @@ $Keywords=fire effects, mixed conifer forests, plant succession, post-fire rehab
 $type=
 $treesearch=
 $plynx=
-$links=<a href="/engr/library/Lewis/Lewis2015d/2015d.pdf" target="_pdf">PDF</a> [3.20 MB]
+$links=<a href="https://doi.org/10.4996/fireecology.1102031" target="_pdf">PDF</a> [3.20 MB]
 #2015c###############################################
 $Title=Assessing Impacts of Fire and Post-fire on Runoff and Erosion from Rangelands Mitigation
 $Year=2015
@@ -1317,9 +1321,9 @@ $Year=2014
 $Authors=Foltz
 $Citationt=Rhee, Hakjun; Foltz, Randy B.; Fridley, James L.; Krogstad, Finn; Page-Dumroese, Deborah S. 2014.
  <i><a>An alternative method for determining particle-size distribution of forest road aggregate and soil with large-sized particles.</a></i>
- <b>Canadian Journal of Forest Research</b> 44:101-105.
+ <b>Canadian Journal of Forest Research</b> 44:101-105. DOI: 10.1139/cjfr-2013-0327.
 $category=
-$Publisher=
+$Publisher=Canadian Science Publishing
 $Abstract=Measurement of particle-size distribution (PSD) of soil with large-sized particles (e.g., 25.4 mm diameter) requires a large sample and numerous particle-size analyses (PSAs).
  A new method is needed that would reduce time, effort, and cost for PSAs of the soil and aggregate material with large-sized particles.
  We evaluated a nested method for sampling and PSA by comparing it with the methods that follow the American Association of State Highway and Transportation Officials (AASHTO) standard
@@ -1333,6 +1337,7 @@ $Keywords=grain-size distribution,  gravel road,  soil grading,  soil sampling, 
 $type=journal
 $treesearch=pubs/45650
 $plynx=
+$links=<a href="https://doi.org/10.1139/cjfr-2013-0327" target="_pdf">PDF</a> [377 KB]
 $lynx=
 #2014f###############################################
 $Title=Linear diffusion-wave channel routing using a discrete Hayami convolution method
@@ -1340,9 +1345,9 @@ $Year=2014
 $Authors=Elliot
 $Citationt=Wang, Li; Wu, Joan Q.; Elliot, William J.; Feidler, Fritz R.; Lapin, Sergey. 2014.
  <i><a>Linear diffusion-wave channel routing using a discrete Hayami convolution method.</a></i>
- <b>Journal of Hydrology</b> 509:282-294.
+ <b>Journal of Hydrology</b> 509:282-294. DOI: 10.1016/j.jhydrol.2013.11.046.
 $category=journal
-$Publisher=
+$Publisher=Elsevier
 $Abstract=The convolution of an input with a response function has been widely used in hydrology as a means to solve various problems analytically.
  Due to the high computation demand in solving the functions using numerical integration, it is often advantageous to use the discrete convolution instead of the integration of the continuous functions.
  This approach greatly reduces the amount of the computational work; however, it increases the possibility for mass balance errors.
@@ -1357,6 +1362,7 @@ $Keywords=linear diffusion-wave channel routing, discrete Hayami convolution, ke
 $type=
 $treesearch=pubs/45558
 $plynx=
+$links=<a href="https://doi.org/10.1016/j.jhydrol.2013.11.046" target="_pdf">PDF</a> [1,871 KB]
 $lynx=
 #2014e###############################################
 $Title=Post-fire bedload sediment delivery across spatial scales in the interior western United States
@@ -1499,7 +1505,7 @@ $Year=2013
 $Authors=Elliot
 $Citationt=McCool, D. K.; Dun, S.; Wu, J. Q.; Elliot, W. J.; Brooks, E. S. 2013.
  <i><a>Seasonal change of WEPP erodibility parameters for two fallow plots on a Palouse silt loam.</a></i>
- <b>Transactions of the ASABE.</b> 56(2):711-718.
+ <b>Transactions of the ASABE.</b> 56(2):711-718. DOI: 10.13031/2013.42690.
 $category=transactions
 $Publisher=ASABE
 $Abstract=In cold regions, frozen soil has a significant influence on runoff and water erosion.
@@ -1514,6 +1520,7 @@ $Keywords=critical shear, frozen soil, rill erosion, soil erosion, thawing soil,
 $type=
 $treesearch=pubs/43829
 $plynx=
+$links=<a href="https://www.fs.usda.gov/rm/pubs_other/rmrs_2013_mccool_c001.pdf" target="_pdf">HTML</a> [1,173 KB]
 $lynx=
 #2013n###############################################
 $Title=Modifying WEPP to improve streamflow simulation in a Pacific Northwest watershed
@@ -1539,6 +1546,7 @@ $Keywords= baseflow,  deep seepage,  forest watershed,  hydrologic modeling,  su
 $type=
 $treesearch=pubs/43824
 $plynx=
+$links=<a href="https://www.fs.usda.gov/rm/pubs_other/rmrs_2013_srivastava_a001.pdf" target="_pdf">HTML</a> [762 KB]
 $lynx=
 #2013m###############################################
 $Title=Geospatial application of the Water Erosion Prediction Project (WEPP) model
@@ -1566,6 +1574,7 @@ $Keywords=geographic information systems, prediction, soil erosion, WEPP
 $type=
 $treesearch=pubs/43830
 $plynx=
+$links=<a href="https://www.fs.usda.gov/rm/pubs_other/rmrs_2013_flanagan_d001.pdf" target="_pdf">HTML</a> [2,230 KB]
 $lynx=
 #2013l###############################################
 $Title=Erosion processes and prediction with WEPP technology in forests in the Northwestern U.S.
@@ -1593,6 +1602,7 @@ $Keywords=ATV impacts, channel erosion, forest roads, logging, mass wasting, wil
 $type=
 $treesearch=pubs/43831
 $plynx=
+$links=<a href="https://www.fs.usda.gov/rm/pubs_other/rmrs_2013_elliot_w001.pdf" target="_pdf">HTML</a> [1.96 MB]
 $lynx=
 #2013k###############################################
 $Title=Applying online WEPP to assess forest watershed hydrology
@@ -1600,7 +1610,7 @@ $Year=2013
 $Authors=Elliot
 $Citationt=Dun, S.; Wu, J. Q.; Elliot, W. J.; Frankenberger, J. R.; Flanagan, D. C.; McCool, D. K. 2013.
  <i><a>Applying online WEPP to assess forest watershed hydrology.</a></i>
- <b>Transactions of the ASABE.</b> 56(2):581-590.
+ <b>Transactions of the ASABE.</b> 56(2):581-590. https://doi.org/10.13031/2013.42689.
 $category=transactions
 $Publisher=ASABE
 $Abstract=A new version of the online Water Erosion Prediction Project (WEPP) GIS interface has been developed to assist in evaluating sediment sources associated with forests and forest management within the Great Lakes basin.
@@ -1618,6 +1628,7 @@ $Keywords=forest watershed, GIS interface, hydrologic modeling, online WEPP, wat
 $type=
 $treesearch=pubs/43832
 $plynx=
+$links=<a href="https://www.fs.usda.gov/rm/pubs_other/rmrs_2013_dun_s001.pdf" target="_pdf">HTML</a> [935 KB]
 $lynx=
 #2013j###############################################
 $Title=Turbidity changes during culvert to bridge upgrades at Carmen Creek, Idaho
@@ -1637,6 +1648,7 @@ $Keywords= culverts,  sediment,  aquatic species passage, Idaho
 $type=
 $treesearch=pubs/43870
 $plynx=
+$links=<a href="https://www.fs.usda.gov/rm/pubs/rmrs_rn054.pdf" target="_pdf">HTML</a> [1.12 MB]
 $lynx=
 #2013i###############################################
 $Title=Post-fire bedload sediment delivery across spatial scales in the interior western United States
@@ -2009,7 +2021,20 @@ $Citationt=Robichaud, P.R.; Ashmun, L.E. 2012.
  <b>Geo-Strata</b> July/August 2012. 22-28.
 $category=
 $Publisher=geoinstitute.org
-$Abstract=
+$Abstract=Fire is a natural phenomenon in many ecosystems, 
+but land use and climate change have altered many 
+natural fire regimes. In the western U.S., a century 
+of fire suppression has resulted in forests with large 
+fuel loads—thick stands of trees and large amounts of forest 
+floor material—that are primed to burn by increasingly hot 
+dry summer weather. The result has been a significant increase 
+in the number, size and severity of wildfires in the past two 
+decades. High severity fires are of particular concern not only 
+because of the vegetation consumed and the large amounts of 
+smoke and ash that are produced, but also because of a fire’s 
+effects on surface soil that can significantly alter watershed 
+response to rainfall. After consumption and charring of vegetation, increased erosion and flooding are the most visible and 
+striking physical consequences of fire.
 $Keywords=post-fire, erosion mitigation, post-fire assessment
 $type=Journal article
 $treesearch=
@@ -2084,11 +2109,27 @@ $Citationt=Foltz, R.B., Robichaud, P.R. January 2011.
  Fort Collins, CO: Stream Systems Technology Center, U.S. Forest Service, Rocky Mountain Research Station. 8&nbsp;p.
 $category=
 $Publisher=USFS
-$Abstract=
+$Abstract=Watersheds with satisfactory hydrologic conditions (greater than 
+75% of the ground covered with vegetation and litter) and adequate 
+rainfall sustain stream baseflow conditions for much or all of the year 
+and produce little sediment and erosion. Fire consumes accumulated 
+forest floor material and vegetation, altering infiltration by exposing soils 
+to raindrop impact or creating water repellent soil conditions, thus
+reducing infiltration and consequently increasing runoff.
+Runoff plot studies show that, when severe fire produces hydrologic
+conditions that are poor (less than 10% of the ground surface covered 
+with plants and litter), surface runoff can increase more than 70% and 
+erosion can increase by three orders of magnitude (DeBano and others 
+1998; Robichaud 2005). Roads are one of the most impacted forest 
+infrastructures (fig. 1). In the postfire environment, road drainage
+features must accommodate flows under these changed and variable 
+conditions to prevent failure (fig. 2). Road structures designed for the
+unburned forest condition are often unable to accommodate increased 
+runoff, sediment, and debris following fire. 
 $Keywords=Colorado, post-fire assessment, road treatments, BAER
 $treesearch=
 $plynx=
-$links=<a href="https://www.stream.fs.fed.us/news/streamnt/pdf/SN_01_11.pdf" target="_pdf">PDF</a>
+$links=<a href="https://www.fs.usda.gov/biology/nsaec/assets/sn_01_11.pdf" target="_pdf">PDF</a> [7,184 KB]
 #2011m###############################################
 $Title=Predicting post-fire hillslope erosion in forest lands of the western United States
 $Year=2011
@@ -2096,7 +2137,7 @@ $Authors=Probichaud, Elliot
 $Citationt=Miller, M.E.; MacDonald, L.H.; Robichaud, P.R.; Elliot, W.J. 2011.
  <i><a>Predicting post-fire hillslope erosion in forest lands of the western United States.</a></i>
  <b>International Journal of Wildland Fire</b> 20:982-999.
- https://dx.doi.org/10.1071/WF09142
+ https://dx.doi.org/10.1071/WF09142.
 $category=
 $Publisher=CSIRO
 $Abstract=Many forests and their associated water resources are at increasing risk from large and severe wildfires due to
@@ -2120,6 +2161,7 @@ $Keywords=ground cover, modelling, sensitivity analysis, WEPP, western US
 $type=
 $treesearch=
 $plynx=
+$links=<a href="https://dx.doi.org/10.1071/WF09142" target="_pdf">PDF</a> [1,019 KB]
 $lynx=
 #2011l###############################################
 $Title=The Effectiveness of Aerial Hydromulch as an Erosion Control Treatment in Burned Chaparral Watersheds, Southern California.
@@ -2486,11 +2528,11 @@ $plynx=
 $links=<a href="/engr/library/Lewis/Lewis2011a/2011a.pdf" target="_pdf">PDF</a> [2.4 MB]
 $lynx=https://www.fs.fed.us/rm/pubs/rmrs_gtr252.pdf
 #2010l###############################################
-$Tite=Modeling erosion under future climates with the WEPP model
+$Title=Modeling erosion under future climates with the WEPP model
 $Year=2010
 $Authors=Elliot
 $category=
-$Publisher=
+$Publisher=USFS
 $Abstract=The Water Erosion Prediction Project Climate Assessment Tool (WEPPCAT) was
  developed to be an easy-to-use, web-based erosion model that allows users to adjust climate
  inputs for user-specified climate scenarios. WEPPCAT allows the user to modify monthly mean
@@ -2503,12 +2545,13 @@ $Abstract=The Water Erosion Prediction Project Climate Assessment Tool (WEPPCAT)
  This paper presents the conceptual and technical basis for WEPPCAT, and an example
  application is given for sediment delivery on a transect running north-south from Minnesota to
  Louisiana under several climate change scenarios.
-$Keywords=
+$Keywords=WEPP, modeling, soil erosion, erosion mitigation
 $Citationt=Bayley, T.; Elliot, W.; Nearing, M.A.; Guertin, D.P.; Johnson, T.; Goodrich, D.; Flanagan, D. 2010.
  <b><a>Modeling erosion under future climates with the WEPP model.</a></b>
  2nd Joint Federal Interagency Conference, Las Vegas, NV, June 27 - July 1, 2010
-$treesearch=
+$treesearch=pub/40464
 $plynx=
+$links=<a href="https://www.fs.usda.gov/rm/pubs_other/rmrs_2010_bayley_t001.pdf" target="_pdf">PDF</a> [462 KB]
 $lynx=
 #end  ################################################2010k###############################################
 $Title=Incorporating groundwater flow into the WEPP model
@@ -2521,7 +2564,7 @@ $Citationt=Elliot, William; Brooks, Erin; Link, Tim; Miller, Sue  2010.
  [9th Federal Interagency Sedimentation Conference and 4th Federal Interagency Hydrologic Modeling Conference];
  27 June - 1 July; Las Vegas, NV. 12&nbsp;p.
 $category=proceedings
-$Publisher=
+$Publisher=USFS
 $Abstract=The water erosion prediction project (WEPP) model is a physically-based hydrology and erosion model.
  In recent years, the hydrology prediction within the model has been improved for forest watershed modeling by
  incorporating shallow lateral flow into watershed runoff prediction.
@@ -2536,16 +2579,16 @@ $Keywords=water erosion prediction project, WEPP, groundwater flow, watershed, T
 $type=
 $treesearch=pubs/36309
 $plynx=
-$links=<a href="https://www.fs.fed.us/rm/pubs_other/rmrs_2010_elliot_w002.pdf" target="_pdf">PDF</a> [851.6 KB]
+$links=<a href="https://www.fs.usda.gov/rm/pubs_other/rmrs_2010_elliot_w002.pdf" target="_pdf">PDF</a> [852 KB]
 #2010j###############################################
 $Title=An evaluation of three wood shred blends for post-fire erosion control using indoor simulated rain events on small plots
 $Year=2010
-$Authors=Foltz, Copeland
+$Authors=Foltz, Wagenbrenner
 $Citationt=Foltz, R.B.; Wagenbrenner, N.S. 2010
   <a><i>An evaluation of three wood shred blends for post-fire erosion control using indoor simulated rain events on small plots</i></a>.
-  <b>Catena</b> 80: 86-94.
+  <b>Catena</b> 80: 86-94. DOI: 10.1016/j.catena.2009.09.003
 $category=journal
-$Publisher=Catena
+$Publisher=Elsevier B.V.
 $Abstract=The assessment teams who make post-fire stabilization and treatment decisions are under pressure to employ
  more effective and economic post-fire treatments, as wild fire activity and severity has increased in recent years
  across the western United States.
@@ -2569,7 +2612,7 @@ $Keywords=wood shreds, erosion control, burned soil, forest fire, rainfall simul
 $type=
 $treesearch=pubs/36969
 $plynx=
-$links=<a href="https://www.fs.fed.us/rm/pubs_other/rmrs_2010_foltz_r001.pdf" target=_pdf">PDF</a> [557.02 KB]
+$links=<a href="https://doi.org/10.1016/j.catena.2009.09.003" target=_pdf">PDF</a> [570 KB]
 #2010i###############################################
 $Title=The Effectiveness of aerial hydromulch as a post-fire erosion control treatment in southern California
 $Year=2010
@@ -2580,7 +2623,7 @@ $Citationt=Wohlgemuth, P.M.; Beyers, J.L.; Robichaud, P.R. 2010.
  9th Federal Interagency Sedimentation Conference and 4th Federal Interagency Hydrologic Modeling Conference,
  June 27-July 1, 2010, Las Vegas, NV. 12&nbsp;p.
 $category=proceedings
-$Publisher=
+$Publisher=USFS
 $Abstract=Following a wildfire in the Santa Ana Mountains of northeast Orange County, California,
  a monitoring project was established to test whether aerial hydromulch reduced post-fire hillslope and
  small watershed erosion, and to document its impact on re-growing vegetation.
@@ -2600,7 +2643,7 @@ $Keywords=mulch, hydromulch, California
 $type=
 $treesearch=pubs/36573
 $plynx=
-$links=<a href="https://www.fs.fed.us/psw/publications/wohlgemuth/psw_2010_wohlgemuth002.pdf" target="_pdf">PDF</a> [72.56 KB]
+$links=<a href="https://www.fs.usda.gov/psw/publications/wohlgemuth/psw_2010_wohlgemuth002.pdf" target="_pdf">PDF</a> [72.0 KB]
 #2010h###############################################
 $Title=Rill erosion in natural and disturbed forests: 2. Modeling approaches
 $Year=2010
@@ -2800,7 +2843,7 @@ $Year=2010
 $Authors=Elliot, Miller
 $Citationt=Elliot, William J.; Miller, Ina Sue; Audin, Lisa., eds. 2010.
  <b><a>Cumulative watershed effects of fuel management in the western United States</a></b>.
- Gen. Tech. Rep. RMRS-GTR-231.
+ Gen. Tech. Rep. RMRS-GTR-231. https://doi.org/10.2737/RMRS-GTR-231
  Fort Collins, CO: U.S. Department of Agriculture, Forest Service, Rocky Mountain Research Station. 299 p.
 $category=
 $Publisher=USFS RMRS
@@ -2825,6 +2868,7 @@ $Keywords=cumulative effects, watershed, wildfire, fuel management, water qualit
 $type=
 $treesearch=pubs/34301
 $plynx=
+$links=<a href="https://www.fs.usda.gov/rm/pubs/rmrs_gtr231.pdf" target="_pdf">PDF</a> [4,440 KB]
 $lynx=
 #2009q###############################################
 $Title=Three years of hillslope sediment yields following the Valley Complex fires, western Montana
