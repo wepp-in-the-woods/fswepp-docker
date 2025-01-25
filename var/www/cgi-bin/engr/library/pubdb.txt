@@ -3032,7 +3032,7 @@ $Year=2009
 $Authors=Robichaud, Lewis, Brown, Ashmun
 $Citationt=Robichaud, P.R.; Lewis, S.A.; Brown, R.E.; Ashmun, L.E. 2009.
  <a><i>Emergency post-fire rehabilitation treatment effects on burned area ecology and long-term restoration</i></a>.
- <b>Fire Ecology</b> Special Issue 5(1):115-128.
+ <b>Fire Ecology</b> Special Issue 5(1):115-128. https://doi.org/10.4996/fireecology.0501115
 $category=
 $Publisher=Fire Ecology
 $Abstract=The predicted continuation of strong drying and warming trends in the southwestern United States
@@ -3054,10 +3054,10 @@ $Abstract=The predicted continuation of strong drying and warming trends in the 
  findings available to BAER teams.
 $Keywords=BAER treatments, burn severity map, mulching, native seed, remote sensing, seeding, treatment monitoring, values-at-risk
 $type=
-$treesearch=
+$treesearch=pub/34124
 $plynx=
 $lynx=<a href="https://fireecology.brinkster.net/Journal/pdf/Volume05/Issue01/115.pdf" target="_pdf">PDF</a> (1.8 MB)
-$links=<a href="https://fireecology.net/Journal/pdf/Volume05/Issue01/115.pdf" target="_pdf">PDF</a> (1.8 MB)
+$links=<a href="https://doi.org/10.4996/fireecology.0501115" target="_pdf">PDF</a> (1.8 MB)
 #2009k###############################################
 $Title=Summary and Remarks
 $Year=2009
@@ -3067,16 +3067,16 @@ $Citationt=Robichaud, Peter R.; Cerd�, Artemi. 2009.
  Chapter 21 in:
  Cerd�, A.; Robichaud, P.R., eds.
   <b>Fire Effects on Soils and Restoration Strategies</b>. 2009.
-  Enfield, NH: Science Publishers.
-  569&nbsp;ff.
+  Enfield, NH: Science Publishers. 569. DOI: 10.1201/9781439843338.
 $category=
 $Publisher=Science Publishers
-$Abstract=
+$Abstract=This publication, Fire Effects on Soils and Restoration Strategies, provides a global view of current knowledge of fire effects on soil and potential mitigation of those effects for use by scientists, policy-makers, land managers, and students. This final chapter will summarize the collected expertise of the contributing authors, and identify the themes that link the chapters within each section— Section I: Fire Effects on Soil (Chapters 2 to 9); Section II: Rehabilitation and Restoration Strategies (Chapters 10 to 14); and Section III: Regional Strategies (Chapters 15 to 20).
 $Keywords=fire effects, restoration
 $type=book chapter
 $treesearch=
 $plinks=<a href="https://www.scipub.net/environmental-science/fire-effects-soils-restoration-strategies.html" target="other">book from Science Publishers</a>
 $lynx=
+$links=<a href="https://www.taylorfrancis.com/reader/download/99379cf8-a4ce-4f67-922a-684f92b89afd/chapter/pdf?context=ubx" target="_pdf">PDF</a> (0.06 MB)
 #2009j###############################################
 $Title=Post-fire Mulching
 $Year=2009
@@ -3087,15 +3087,18 @@ $Citationt=Bautista, Susana; Robichaud, Peter R.; Blad�, Carme. 2009.
  Cerd�, A.; Robichaud, P.R., eds.
   <b>Fire Effects on Soils and Restoration Strategies</b>. 2009.
   Enfield, NH: Science Publishers.
-  353-372.
+  353-372. DOI: 10.1201/9781439843338.
 $category=
 $Publisher=Science Publishers
-$Abstract=
+$Abstract=In post-fire rehabilitation, mulches are applied as emergency hillslope treatments intended to reduce the effects of rain impact and overland flow and keep the soil in place. Mulch immediately increases ground cover on the treated areas and is most effective during the critical first post-fire year when erosion is likely to be the greatest. A wide range of mulch materials (e.g., agricultural straw, wood chips, wood shreds) have been shown to be effective in reducing post-fire erosion. These advantages make mulching one of the most effective post-fire rehabilitation treatments available. However, mulch is a relatively expensive post-fire treatment, and this limits its use to burned areas with a high potential for soil erosion and important down stream values at risk.
+The main disadvantage of mulching is the potential introduction of nonnative plants (invasive weeds) with straw mulch. The use of certified 'weedfree’ straw or straw from plants that will not grow in the burned area (e.g., rice straw applied on burned upland forest) can reduce this risk. Mulches made from shredded or manufactured forest materials generally do not contribute to the spread of invasive weeds. Thick mulches can suppress growth of vegetation. This is an advantage when mulches suppress invasive weeds and undesirable plants that spread after fires; however, it is a significant disadvantage when mulches inhibit natural recovery, endangered plant species, or seeded species.
+Developments of new mulch materials and application methods (helimulching) have expanded the areas where mulch treatment successfully can be applied. As ecological restoration principles are integrated into postfire rehabilitation, use of mulching treatments composed of local, site-specific 354forest materials (wood chips, pine needles, shredded debris from post-fire logging, etc.) become more of a priority.
 $Keywords=mulch, fire effects, restoration
 $type=book chapter
 $treesearch=
 $plinks=<a href="https://www.scipub.net/environmental-science/fire-effects-soils-restoration-strategies.html" target="other">book from Science Publishers</a>
 $plynx=
+$links=<a href="https://www.taylorfrancis.com/reader/download/9bfebd1b-f104-48b3-a01c-959d41778e7c/chapter/pdf?context=ubx" target="_pdf">PDF</a> (1.36 MB)
 $lynx=
 #2009i###############################################
 $Title=Using Erosion Barriers for Post-fire Stabilization
@@ -3107,15 +3110,16 @@ $Citationt=Robichaud, Peter R. 2009.
  Cerd�, A.; Robichaud, P.R., eds.
   <b>Fire Effects on Soils and Restoration Strategies</b>. 2009.
   Enfield, NH: Science Publishers.
-  337-352.
+  337-352. DOI: 10.1201/9781439843338.
 $category=
 $Publisher=Science Publishers
-$Abstract=
+$Abstract=Erosion barriers, made from a range of natural and engineered materials, have been used for the past 30 years to provide mechanical barriers to overland flow, promote infiltration, and trap sediment on burned hillsides through out the United States. Until recently, managers assumed that erosion barriers which trapped and held sediment on the burned hillslope were functioning as designed and reducing hillslope erosion. However, results from several studies where sediment from treated and untreated sites were measured and compared, have indicated that post-fire erosion barrier treatment effectiveness is less than expected. Immediately after installation, erosion barriers provide their best performance; however, the installation process can disturb and loosen soil making it easier to erode. Although erosion barriers can be effective for low to moderate intensity rainfall events, their effectiveness is greatly reduced for high-intensity rainfall events. Erosion barrier effectiveness is also dependent on the quality of the installation and decreases over time as the sediment storage areas above the logs become filled and the barrier can no longer trap mobilized sediment. The impact of these results has been a reduction in the use of erosion barriers for post-fire hillslope stabilization, especially when the potential storm size is considered.
 $Keywords=fire effects, restoration, erosion barrier, stabilization
 $type=book chapter
 $treesearch=
 $plinks=<a href="https://www.scipub.net/environmental-science/fire-effects-soils-restoration-strategies.html" target="other">book from Science Publishers</a>
 $plynx=
+$links=<a href="https://www.taylorfrancis.com/reader/download/fef7561b-68f5-48c8-8505-d9ba51ec0734/chapter/pdf?context=ubx" target="_pdf">PDF</a> (1.15 MB)
 $lynx=
 #2009h###############################################
 $Title=Post-fire Stabilization and Rehabilitation
@@ -3127,15 +3131,16 @@ $Citationt=Robichaud, Peter R. 2009.
  Cerd�, A.; Robichaud, P.R., eds.
   <b>Fire Effects on Soils and Restoration Strategies</b>. 2009.
   Enfield, NH: Science Publishers.
-  299-320.
+  299-320. DOI: 10.1201/9781439843338.
 $category=
-$Publisher=
-$Abstract=
+$Publisher=Science Publishers
+$Abstract=After a wildfire, potential increases in runoff, flooding, erosion, and sedimentation are a threat to valued resources both within and downstream of the burned area. Post-fire stabilization treatments, applied to hillslopes, roads, and channels, can reduce flooding and erosion for some, but not all, rain events. The decision of where and when to use post-fire stabilization treatments requires an evaluation of soil burn severity, climate, soils, topography, watershed hydrology, and the resources at risk for damage. Post-fire assessment, including the use of predictive modeling tools, is used to evaluate the need for erosion mitigation. In many cases, it is justifiable and cost effective to choose the ‘no treatment option’. Natural mulch (conifer needle cast), which provides immediate ground cover, or natural recovery rates (erosion generally decreases by up to an order of magnitude annually as the site recovers) may be sufficient to avoid long-term damage to natural and man-made resources at risk. Since post-fire stabilization treatments are expensive, they should only be applied if unacceptable levels of flooding, erosion, and/or sedimentation are expected within and downstream of the burned area. Monitoring the effectiveness of post-fire rehabilitation treatments is essential to determine if treatments are functioning as desired, compare treatment effectiveness, identify conditions that enhance or limit treatment effectiveness, and evaluate new treatments as they are implemented.
 $Keywords=fire effects, restoration, stabilization
 $type=book chapter
 $treesearch=
 $plinks=<a href="https://www.scipub.net/environmental-science/fire-effects-soils-restoration-strategies.html" target="other">book from Science Publishers</a>
 $plynx=
+$links=<a href="https://www.taylorfrancis.com/reader/download/a15dff7e-1551-4d95-8b37-7ae46f8997a2/chapter/pdf?context=ubx" target="_pdf">PDF</a> (1.34 MB)
 $lynx=
 #2009g###############################################
 $Title=Soil erosion after forest fire
@@ -3147,15 +3152,16 @@ $Citationt=Scott, David F.; Curran, Michael P.; Robichaud, Peter R.; Wagenbrenne
  Cerd�, A.; Robichaud, P.R., eds.
   <b>Fire Effects on Soils and Restoration Strategies</b>. 2009.
   Enfield, NH: Science Publishers.
-  177-196.
+  177-196. DOI: 10.1201/9781439843338.
 $category=
 $Publisher=Science Publishers
-$Abstract=
+$Abstract=Soil erosion is a three-part process consisting of detachment, transport, and deposition of soil particles. All of these processes are controlled by erosive energy and soil properties, which can be either directly or indirectly affected by wildfire. These post-fire changes often lead to erosion rates that are several orders of magnitude greater than in forested environments which have adequate vegetation and forest floor material protecting the mineral soil. Concentrated overland flow or rill flow is one of the main hillslope erosion processes after wildfires. Since the forest floor is often consumed, overland flow velocities increase due to the reduced surface roughness, allowing for greater sediment transport capacity. The result is both increased overland flow and erosion. Erosion of hillslopes, the formation of rills, and the incision of gullies and stream channels produces high concentrations of sediment that can result in sediment-rich flood events such as debris floods and debris flows. However, the erosional response to wildfires is highly variable and reflects the specific site characteristics, such as watershed area, topography, and rainfall characteristics (e.g., intensity and duration) in combination with the severity of the fire and its effects on the forest floor and soil properties. Therefore, the change in the amount of erosion resulting from a wildfire will depend on the soil burn severity including: the proportion of exposed mineral soil and the quality of any remaining forest floor; the degree of soil heating and presence of soil water repellency that may increase runoff; the physiographic factors such as drainage and slope characteristics that may influence erosion energy and concentration times of surface water runoff; and the inherent erosivity of the site, in particular the probability of high intensity rainstorms in the first years after fire. Some forms of gravity-driven erosion, namely dry ravel and mass failures, are also important in some areas. Wind erosion is less common, though it may be significant in drier environments with erodible soils.
 $Keywords=fire effects, restoration
 $type=book chapter
 $treesearch=
 $plinks=<a href="https://www.scipub.net/environmental-science/fire-effects-soils-restoration-strategies.html" target="other">book from Science Publishers</a>
 $plynx=
+$links=<a href="https://www.taylorfrancis.com/reader/download/09569646-ee91-4944-a72f-d3cb7cb7cdd4/chapter/pdf?context=ubx" target="_pdf">PDF</a> (0.36 MB)
 $lynx=
 #2009f###############################################
 $Title=Fire Effects on Soil Infiltration
@@ -3166,16 +3172,16 @@ $Citationt=Cerd�, Artemi; Robichaud, Peter R. 2009.
  Chapter 3 in:
  Cerd�, A.; Robichaud, P.R., eds.
   <b>Fire Effects on Soils and Restoration Strategies</b>. 2009.
-  Enfield, NH: Science Publishers.
-  81-104.
+  Enfield, NH: Science Publishers. 81-104. DOI: 10.1201/9781439843338.
 $category=
 $Publisher=Science Publishers
-$Abstract=
-$Keywords=
+$Abstract=Within the hydrological cycle, infiltration plays the key role in partitioning rainfall into surface runoff and subsurface flows. Fire modifies the soil as well as the vegetation/litter cover on the soil, thus altering the infiltration process on burned lands. Fire effects on the infiltration process and infiltration rates are described and illustrated with data from studies where infiltration was measured before and after wildfires or compared in paired (burned and unburned) plots. Some research shows that immediately after a fire, ash absorbs the rainfall and briefly enhances the infiltration into the mineral soil. As the ash is washed downslope due to raindrop impact and surface runoff, it clogs the soil pores causing surface sealing, and infiltration reaches its lowest values. The extent and degree of fire-induced or enhanced soil water repellency is directly related to the reduction in infiltration. As vegetation recovery enhances the hydrological functioning of the soil and soil water repellency decreases, infiltration recovers approaching its pre-fire infiltration values within a few years.
+$Keywords=infiltration, surface runoff, post-fire effects
 $type=book chapter
 $treesearch=
 $plinks=<a href="https://www.scipub.net/environmental-science/fire-effects-soils-restoration-strategies.html" target="other">book from Science Publishers</a>
 $plynx=
+$links=<a href="https://www.taylorfrancis.com/reader/download/6b68dc85-880b-42f3-80ff-57ead372067b/chapter/pdf?context=ubx" target="_pdf">PDF</a> (1.39 MB) 
 $lynx=
 #2009e###############################################
 $Title=Fire Effects on Soils and Restoration Strategies
@@ -3184,7 +3190,7 @@ $Authors=Robichaud
 $Citationt=Cerd�, Artemi; Robichaud, Peter R., eds. 2009.
   <a><b>Fire Effects on Soils and Restoration Strategies</b></a>.
   Enfield, NH: Science Publishers (USA). Volume 5 of <i>Land Reconstruction and Management</i> series.
-  605 pages. ISBN 978-1-57808-526-2.
+  605 pages. ISBN 978-1-57808-526-2. https://doi.org/10.1201/9781439843338
 $category=
 $Publisher=Science Publishers
 $Abstract=This book has been published a decade after <b>Fire's Effects on Ecosystems</b>
@@ -3197,7 +3203,8 @@ $Keywords=forest fires, fire ecology, soil ecology, forest restoration
 $type=book
 $treesearch=
 $plinks=<a href="https://www.scipub.net/environmental-science/fire-effects-soils-restoration-strategies.html" target="other">book from Science Publishers</a>
-$plynx= 
+$plynx=
+$links=<a href="https://doi.org/10.1201/9781439843338" target="_pdf">PDF</a> (15.56 MB) 
 $lynx=https://www.scipub.net/environmental-science/fire-effects-soils-restoration-strategies.html 
 #2009d###############################################
 $Title=Adapting the Water Erosion Prediction Project (WEPP) model for forest applications
@@ -3206,9 +3213,9 @@ $Authors=Elliot, Robichaud, Brown
 $Citationt=Dun, S.; Wu, J.Q.; Elliot, W.J.; Robichaud, P.R.; Flanagan, D.C.; Frankenberger, J.R.; Brown, R.E.; Xu, A.D.
   2009.
   <a><i>Adapting the Water Erosion Prediction Project (WEPP) model for forest applications</i></a>.
-  <b>Journal of Hydrology</b> 336(1-4):45-54.
+  <b>Journal of Hydrology</b> 336(1-4):45-54. DOI: 10.1016/j.jhydrol.2008.12.019.
 $category=
-$Publisher=Jpurnal of Hydrology
+$Publisher=Journal of Hydrology
 $Abstract=There has been an increasing public concern over forest stream pollution by excessive sedimentation
  due to natural or human disturbances.
  Adequate erosion simulation tools are needed for sound management of forest resources.
@@ -3235,8 +3242,7 @@ $Keywords=Forest watershed; Surface runoff; Subsurface lateral flow; Soil erosio
 $type=
 $treesearch=
 $plynx=
-$links=<a href="https://www.sciencedirect.com/science?_ob=MImg&_imagekey=B6V6C-4V8VS8F-1-H&_cdi=5811&_user=4250274&_orig=search&_coverDate=03%2F15%2F2009&_sk=996339998&view=c&wchp=dGLzVzz-zSkzk&md5=a77f7f2fbe84704a51e0010ff84493d6&ie=/sdarticle.pdf" target="_pdf">PDF</a> (673 KB) |
- <a href="https://www.sciencedirect.com/science?_ob=ArticleURL&_udi=B6V6C-4V8VS8F-1&_user=4250274&_rdoc=1&_fmt=&_orig=search&_sort=d&_docanchor=&view=c&_searchStrId=983044256&_rerunOrigin=scholar.google&_acct=C000052423&_version=1&_urlVersion=0&_userid=4250274&md5=04e4b428fbef72a9413e39acdbb9c30c" target="_html">HTML</a> 
+$links=<a href="https://doi.org/10.1016/j.jhydrol.2008.12.019" target="_pdf">PDF</a> (673 KB) 
 #2009c###############################################was 2008o treesearch says 2008 but doc says 2009 
 $Title=A synthesis of post-fire road treatments for BAER teams: methods, treatment effectiveness, and decisionmaking tools for rehabilitation
 $Year=2009
@@ -3314,7 +3320,7 @@ $Year=2009
 $Authors=Elliot
 $Citationt=Zhang, J.X.; Wu, J.Q.; Chang, K.; Elliot, W.J.; Dun, S.  2009.
  <a><i>Effects of DEM source and resolution on WEPP hydrologic and erosion simulation: A case study of two forest watersheds in Northern Idaho</i></a>.
- <b>Transactions of the ASABE</b> 52(2):447-457.
+ <b>Transactions of the ASABE</b> 52(2):447-457. doi: 10.13031/2013.26838.
 $category=
 $Publisher=ASABE
 $Abstract=The recent modification of the Water Erosion Prediction Project (WEPP) model has improved its applicability to
@@ -3335,7 +3341,7 @@ $Keywords=DEM, Forest watershed, GIS, LiDAR, Water erosion modeling, WEPP, Idaho
 $type=
 $treesearch=
 $plynx=
-$links=<a href="/engr/library/Elliot/Elliot2009a.pdf" target="_pdf">PDF</a> (700 KB)
+$links=<a href="https://www.fs.usda.gov/rm/pubs_other/rmrs_2009_zhang_j001.pdf" target="_pdf">PDF</a> (700 KB)
 #2008s###############################################
 $Title=Effects of All Terrain Vehicles on Forested Lands and grasslands
 $Year=2008
@@ -3359,7 +3365,7 @@ $Citationt=Pan, F.; Han, H.-S.; Johnson, L.R.; Elliot, W.J. 2008.
  <a><i>Production and cost of harvesting, processing, and transporting small-diameter (&lt; 5 inches) trees for energy</i></a>.
  <b>Forest Products Journal.</b> 58(5):47-53.
 $category=
-$Publisher=
+$Publisher=USFS
 $Abstract=Dense, small-diameter stands generally require thinning from below to improve fire-tolerance.
  The resulting forest biomass can be used for energy production.
  The cost of harvesting, processing, and transporting small-diameter trees often exceeds revenues due to high costs
@@ -3381,7 +3387,7 @@ $Keywords=small-diameter trees, forest biomass, energy, harvest productivity, bi
 $type=
 $treesearch=
 $plynx=
-$links=<a href="https://www.fs.fed.us/rm/pubs_other/rmrs_2008_pan_f002.pdf">PDF</a> (185 K)
+$links=<a href="https://www.fs.usda.gov/rm/pubs_other/rmrs_2008_pan_f002.pdf">PDF</a> (185 K)
 #2008q###############################################
 $Title=Net energy output from harvesting small-diameter trees using a mechanized system
 $Year=2008
@@ -3390,7 +3396,7 @@ $Citationt=Pan, Fei; Han, Han-Sup; Johnson, Leonard R.; Elliot, William J. 2008.
  <a><i>Net energy output from harvesting small-diameter trees using a mechanized system</i></a>.
  <b>Forest Products Journal.</b> 58(1/2):25-30.
 $category=
-$Publisher=
+$Publisher=USFS
 $Abstract=What amount of extra energy can be generated after subtracting the total energy consumed to produce the
  biomass energy?
  Knowing the ratio between energy output and input is a valid question when highly mechanized systems that consume
@@ -3410,9 +3416,9 @@ $Abstract=What amount of extra energy can be generated after subtracting the tot
  but the high production cost and energy cost can impede the use of forest biomass for energy.
 $Keywords=energy output, forest biomass energy, harvesting, small-diameter trees, mechanized system, Arizona
 $type=
-$treesearch=
+$treesearch=pub/30846
 $plynx=
-$links=<a href="https://www.fs.fed.us/rm/pubs_other/rmrs_2008_pan_f001.pdf" target="_pdf">PDF</a> (160 K)
+$links=<a href="https://www.fs.usda.gov/rm/pubs_other/rmrs_2008_pan_f001.pdf" target="_pdf">PDF</a> (160 K)
 #2008p###############################################
 $Title=Critical conditions for rill initiation
 $Year=2008
@@ -3446,7 +3452,7 @@ $treesearch=
 $plynx=
 $links=<a href="https://www.fs.fed.us/rm/pubs_other/rmrs_2008_yao_c001.pdf" target=_pdf">PDF</a> (300 K)
 #2008n###############################################
-$Title=
+$Title=Effects of Three Mulch Treatments on Initial post-fire Erosion in North-Central Arizona
 $Year=2008
 $Authors=Robichaud
 $Citationt=Riechers, G.H.; Beyers, J.L.; Robichaud, P.R.; Jennings, K.; Kreutz, E.; Moll, J. 2008.
@@ -3501,7 +3507,7 @@ $Year=2008
 $Authors=Robichaud, Brown, Wagenbrenner.
 $Citationt=Robichaud, P.R.; Pierson, F.B.; Brown, R.E.; Wagenbrenner, J.W. 2008.
  <a><i>Measuring effectiveness of three post-fire hillslope erosion barrier treatments, western Montana, USA</i></a>.
- <b>Hydrological Processes</b> 22:159-170.
+ <b>Hydrological Processes</b> 22:159-170. DOI: 10.1002/hyp.6558.
 $category=
 $Publisher=Wiley InterScience
 $Abstract=After the Valley Complex Fire burned 86 000 ha in western Montana in 2000,
@@ -3529,7 +3535,7 @@ $Abstract=After the Valley Complex Fire burned 86 000 ha in western Montana in 2
  going over the top and around the ends of the barriers even when the barriers were less than half filled.
 $Keywords=erosion mitigation; silt fence; contour-felled log; straw wattles; contour trenches; rainfall simulation; erosion barrier, Montana
 $type=
-$links=<a href="/engr/library/Robichaud/Robichaud2008l/2008l.pdf" target="_pdf">PDF</a> [1.1 MB]
+$links=<a href="https://www.fs.usda.gov/rm/pubs_other/rmrs_2008_robichaud_p003.pdf" target="_pdf">PDF</a> [1.1 MB]
 #2008k###############################################
 $Title=Modeling changes in rill erodibility and critical shear stress on native surface roads
 $Year=2008
@@ -3550,7 +3556,7 @@ $Abstract=This study investigated the effect of cumulative overland flow on rill
 $Keywords=soil erosion, forestry, sediment depletion, overland flow, simulation, Idaho, shear stress, road, Idaho
 $type=
 $treesearch=
-$links=<a href="https://www.fs.fed.us/rm/pubs_other/rmrs_2008_foltz_r002.pdf" target="_pdf">PDF</a> (115 K)
+$links=<a href="https://www.fs.usda.gov/rm/pubs_other/rmrs_2008_foltz_r002.pdf" target="_pdf">PDF</a> (115 K)
 $plinks=<a href="https://www3.interscience.wiley.com/cgi-bin/fulltext/120780027/PDFSTART">PDF</a>
 #2008j###############################################
 $Title=Evaluating the efficacy of wood shreds for mitigating erosion
@@ -3582,7 +3588,7 @@ $Year=2008
 $Authors=Foltz, Yanosek
 $Citationt=Foltz, R.B.; Yanosek, Y.A.; Brown, T.M. 2008.
  <a><i>Sediment concentration and turbidity changes during culvert removals</i></a>.
- <b>Journal of Environmental Management</b> 87(3):329-340. May 2008.
+ <b>Journal of Environmental Management</b> 87(3):329-340. May 2008. doi:10.1016/j.jenvman.2007.01.047.
 $category=
 $Publisher=Journal of Environmental Management, Elsevier
 $Abstract=The concentrations of sediment and turbidity in stream water were monitored during culvert removals to determine the short term
@@ -3599,7 +3605,7 @@ $Keywords=Soil erosion; Road obliteration; Sediment; Stream water quality; Culve
 $type=
 $treesearch=
 $lynx=<a href="/engr/library/Foltz/Foltz2008i/JEM2008i.pdf" target="_pdf">PDF</a>
-$links=<a href="https://www.fs.fed.us/rm/pubs_other/rmrs_2008_foltz_r001.pdf" target="_pdf">PDF</a> (505 K)
+$links=<a href="https://www.fs.usda.gov/rm/pubs_other/rmrs_2008_foltz_r001.pdf" target="_pdf">PDF</a> (505 K)
 $plinks=<a href="https://www.sciencedirect.com/science?_ob=MImg&_imagekey=B6WJ7-4NF2HPP-4-H&_cdi=6871&_user=4250274&_orig=browse&_coverDate=05%2F31%2F2008&_sk=999129996&view=c&wchp=dGLbVtz-zSkWz&md5=81182a7eb8236c4af0c1a9366b697daa&ie=/sdarticle.pdf" target="pdf">PDF</a> (536 KB) [Elsevier subscription]
 #2008h###############################################
 $Title=Evaluating the effectiveness of contour-felled log erosion barriers as a post-fire runoff and erosion mitigation
@@ -3632,7 +3638,7 @@ $Year=2008
 $Authors=Hall
 $Citationt=Hudak, A.T.; Crookston, N.L.; Evans, J.S.; Hall, D.E.; Falkowski, M.J. 2008.
  <i><a>Nearest neighbor imputation of species-level, plot-scale forest structure attributes from LiDAR data</a></i>.
- <b>Remote Sensing of Environment</b> 112:2232-2245.
+ <b>Remote Sensing of Environment</b> 112:2232-2245. DOI: 10.1016/j.rse.2007.10.009.
 $category=
 $Publisher=Elsevier; Remote Sensing of Environment
 $Abstract=Meaningful relationships between forest structure attributes measured in representative field plots on the ground and remotely sensed data
@@ -3651,7 +3657,7 @@ $Abstract=Meaningful relationships between forest structure attributes measured 
 $Keywords=Forestry; k-NN imputation; LiDAR remote sensing; Mapping; Random forest, Idaho
 $type=
 $treesearch=
-$links=<a href="https://www.sciencedirect.com/science?_ob=MImg&_imagekey=B6V6V-4S02K0C-2-W&_cdi=5824&_user=4250274&_orig=search&_coverDate=05%2F15%2F2008&_sk=998879994&view=c&wchp=dGLbVlb-zSkzS&md5=c1449e871790b603b085a56a25b900d3&ie=/sdarticle.pdf" target="_pdf">PDF</a> [1.7 MB] ScienceDirect
+$links=<a href="https://doi.org/10.1016/j.rse.2007.10.009" target="_pdf">PDF</a> [1.7 MB] ScienceDirect
 #2008f###############################################
 $Title=Soil water repellency and infiltration in coarse-textured soils of burned and unburned sagebrush ecosystems
 $Year=2008
@@ -3801,11 +3807,32 @@ $Citationt=MacDonald, L.H.; Robichaud, P.R. 2008.
  <b>Stream Notes</b> January 2008. Stream Systems Technology Center, USDA Forest Service,
  Rocky Mountain Research Center. 1-6.
 $category=
-$Publisher=
-$Abstract=
+$Publisher=RMRS
+$Abstract=High-severity wildfires can increase 
+runoff and erosion rates by one or 
+more orders of magnitude, and these 
+increases can threaten life and 
+property as well as severely 
+degrading water quality and aquatic 
+ecosystems. Each year millions of 
+dollars are spent on emergency postfire rehabilitation treatments to 
+minimize flood runoff and soil 
+erosion. Few data have been 
+available to systematically evaluate 
+the effectiveness of these treatments 
+over time, much less understand why 
+the different treatments might vary in 
+their effectiveness. There also is an 
+urgent need to develop and test 
+models for predicting post-fire 
+erosion and the likely effects of 
+different post-fire treatments. In 
+response to these needs, we initiated 
+a series of detailed studies after the 
+2002 wildfires in Colorado. 
 $Keywords=emergency rehabilitation, post-fire erosion
 $type=
-$links=<a href="https://www.stream.fs.fed.us/news/streamnt/pdf/SN_01_08.pdf" target="_pdf">pdf</a>
+$links=<a href="https://www.fs.usda.gov/rm/pubs_other/rmrs_2008_macdonald_l001.pdf" target="_pdf">pdf</a>
 #2008a###############################################
 $Title=New procedure for sampling infiltration to assess post-fire soil water repellency
 $Year=2008
@@ -3885,7 +3912,7 @@ $Year=2007
 $Authors=Foltz, Rhee, Yanosek
 $Citationt=Foltz, R.B.; Rhee, H.; Yanosek, K.A. 2007.
  <a><i>Infiltration, erosion, and vegetation recovery following road obliteration</i></a>.
- <b>Transactions of the ASABE</b> 50(6):1937-1943. December 2007.
+ <b>Transactions of the ASABE</b> 50(6):1937-1943. December 2007. DOI:10.13031/2013.24089.
 $category=
 $Publisher=ASABE
 $Abstract=Forest roads are obliterated to lower the risks of surface erosion and mass failures.
@@ -3910,42 +3937,7 @@ $Keywords= Erosion, Forest roads, Infiltration, Interrill erodibility, Obliterat
 $type=
 $treesearch=
 $plynx=<a href="https://asae.frymulti.com/request.asp?search=1&JID=3&AID=24089&CID=t2007&v=50&i=6&T=1" target="ASABE">HTML</a> [ASABE subscription]
-$links=<a href="https://www.fs.fed.us/rm/pubs_other/rmrs_2007_foltz_r001.pdf" target="_pdf">PDF</a> (153 KB)
-*2007o######################################## to 2008l
-$Title=Measuring effectiveness of three post-fire hillslope erosion barrier treatments, western Montana, USA
-$Year=2007
-$Authors=Robichaud, Brown, Wagenbrenner.
-$Citationt=Robichaud, P.R.; Pierson, F.B.; Brown, R.E.; Wagenbrenner, J.W. 2007.
- <a><i>Measuring effectiveness of three post-fire hillslope erosion barrier treatments, western Montana, USA</i></a>.
- <b>Hydrological Processes</b> Published online.
-$category=
-$Publisher=Wiley InterScience
-$Abstract=After the Valley Complex Fire burned 86 000 ha in western Montana in 2000,
- two studies were conducted to determine the effectiveness of contour-felled log, straw wattle,
- and hand-dug contour trench erosion barriers in mitigating post-fire runoff and erosion.
- Sixteen plots were located across a steep, severely burned slope, with a single barrier installed in 12 plots (four
- per treatment and four plots left untreated as controls.
- In a rainfall-plus-inflow simulation, 26 mm h<sup>-1</sup> rainfall was applied
- to each plot for 1 h and 48 L min <sup>-1</sup> of overland flow was added for the last 15 min.
- Total runoff from the contour-felled log
- (0.58 mm) and straw wattle (0.40 mm) plots was significantly less than from the control plots (2.0 mm), but the contour trench
- plots (1.3 mm) showed no difference.
- The total sediment yield from the straw wattle plots (0.12 Mg ha<sup>-1</sup>) was significantly
- less than the control plots (2.2Mg ha<sup>-1</sup>); the sediment yields in the contour-felled log plots
- (0.58 Mg ha<sup>-1</sup>) were not significantly different.
- trench plots (2.5 Mg ha<sup>-1</sup>) were not significantly different.
- <br><br>
- After the simulations, sediment fences were installed to trap sediment eroded by natural rainfall. During the subsequent
- 3 years, sediment yields from individual events increased significantly with increasing 10 min maximum intensity and rainfall
- amounts. High-intensity rainfall occurred early in the study and the erosion barriers were filled with sediment. There were no
- significant differences in event or annual sediment yields among treated and control plots. In 2001, the overall mean annual
- sediment yield was 21 Mg ha<sup>-1</sup>; this value declined significantly to 0.6 Mg ha<sup>-1</sup> in 2002
- and 0.2 Mg ha<sup>-1</sup> in 2003. The
- erosion barrier sediment storage used was less than the total available storage capacity; runoff and sediment were observed
- going over the top and around the ends of the barriers even when the barriers were less than half filled.
-$Keywords=erosion mitigation; silt fence; contour-felled log; straw wattles; contour trenches; rainfall simulation, Montana
-$type=
-$links=<a href="/engr/library/Robichaud/Robichaud2007o/2007o.pdf" target="_pdf">PDF</a> [1.1 MB]
+$links=<a href="https://www.fs.usda.gov/rm/pubs_other/rmrs_2007_foltz_r001.pdf" target="_pdf">PDF</a> (153 KB)
 #2007n###############################################
 $Title=First-year post-fire erosion rates in Bitterroot National Forest, Montana
 $Year=2007
@@ -4187,7 +4179,7 @@ $Abstract=Rapid Response Research is conducted during and immediately after wild
 $Keywords=Rapid Response Research, wildland fire, Incident Management Teams, Joint Fire Science Program, burn severity
 $type=
 $treesearch=pubs/27666
-$links=<a href="https://www.fs.fed.us/rm/pubs/rmrs_gtr193.pdf" target="_pdf">PDF</a> [1.5 MB]
+$links=<a href="https://www.fs.usda.gov/rm/pubs/rmrs_gtr193.pdf" target="_pdf">PDF</a> [1.5 MB]
 #2007g###############################################
 $Title=Lessons learned from rapid response research on wildland fires
 $Year=2007
@@ -4307,7 +4299,7 @@ $Citationt=Robichaud, P.R.; Elliot, W.J.; Pierson, F.B.; Hall, D.E.; Moffet, C.A
  2007.
  <b><a>Erosion Risk Management Tool (ERMiT) user manual (version 2006.01.18)</a>.</b>
  Gen. Tech. Rep. RMRS-GTR-188.
- Fort Collins, CO: U.S. Department of Agriculture, Forest Service, Rocky Mountain Research Station. 24&nbsp;p.
+ Fort Collins, CO: U.S. Department of Agriculture, Forest Service, Rocky Mountain Research Station. 24. https://doi.org/10.2737/RMRS-GTR-188.
 $category=
 $Publisher=USDA FS
 $Abstract=The decision of where, when, and how to apply the most effective post-fire erosion mitigation treatments requires
@@ -4325,7 +4317,7 @@ $Abstract=The decision of where, when, and how to apply the most effective post-
  erosion barriers such as contour-felled logs or straw wattles.
 $Keywords=erosion prediction model, FS WEPP, post-fire assessment, BAER treatments, ERMiT, erosion risk
 $treesearch=pubs/26687
-$links=<a href="https://www.fs.fed.us/rm/pubs/rmrs_gtr188.pdf" target="_pdf">PDF</a> [2.9 MB]
+$links=<a href="https://www.fs.usda.gov/rm/pubs/rmrs_gtr188.pdf" target="_pdf">PDF</a> [2.9 MB]
 #2007b###############################################
 $Title=WEPP FuME analysis for a north Idaho site
 $Year=2007
@@ -4357,7 +4349,12 @@ $Year=2007
 $Authors=Elliot, Miller, Glaza
 $category=
 $Publisher=USDA FS
-$Abstract=
+$Abstract=A limited erosion potential analysis was carried out on the 50,000 acre School Fire. Three
+WEPP interfaces were used for the analysis, a GIS wizard, an online interface and a windows interface. Ten watersheds within the fire area were modeled with the GeoWEPP tool (a
+geo-spatial interface for WEPP, Water Erosion Predication Project). The watersheds covered
+18,823 acres, or about 38 percent of the total burned area. Hillslopes were specified high,
+moderate or low burn severity by examining the BAER (Burned Area Emergency Response)
+severity map.
 $Keywords=ash, 2005 School Fire, Washington State
 $Citationt=Elliot, W.; Miller, I.S.; Glaza, B. 2007.
  <i><a>Erosion risks in selected watersheds for the 2005 School Fire located near Pomeroy, Washington on predominately ash-cap soils</a>.</i>
@@ -4377,7 +4374,7 @@ $Publisher=AWRA, Transactions in GIS
 $Authors=Gorsevski, Foltz, Elliot
 $Citationt=Gorsevski, P.V.; Gessler, P.E.; Foltz, R.B.; Elliot, W.J. 2006.
    <a><i>Spatial Prediction of Landslide Hazard Using Logistic Regression and ROC Analysis.</i></a>
-   <b>Transactions in GIS</b> 10(3):395-415.
+   <b>Transactions in GIS</b> 10(3):395-415. DOI:10.1111/j.1467-9671.2006.01004.x.
 $Abstract=An empirical modeling of road related and non-road related landslide hazard for a large geographical area
  using logistic regression in tandem with signal detection theory is presented.
  This modeling was developed using geographic information system (GIS) and remote sensing data,
@@ -4390,7 +4387,7 @@ $Abstract=An empirical modeling of road related and non-road related landslide h
  The probabilistic models of landslide potential may be used as a decision support tool in forest planning
  involving the maintenance, obliteration or development of new forest roads in steep mountainous terrain.
 $Keywords=landslide risk, Idaho, modeling, GIS
-$plinks=<a href="https://www3.interscience.wiley.com/cgi-bin/fulltext/118566620/PDFSTART">PDF</a>
+$plinks=<a href="http://dx.doi.org/10.1111/j.1467-9671.2006.01004.x">PDF</a>
 #2006s###############################################
 $Title=Sensitivity of Landsat image-derived burn severity indices to immediate post-fire effects
 $Year=2006
@@ -4418,7 +4415,7 @@ $Year=2006
 $Authors=Elliot
 $Citationt=Conroy, W. J.; Hotchkiss, R. H.; Elliot, W. J.  2006.
  <i><a>A coupled upland-erosion and instream hydrodynamic-sediment transport model for evaluating sediment transport in forested watersheds.</a></i>
- <b>Transactions of the American Society of Agricultural and Biological Engineers.</b> 49(6): 1-10.
+ <b>Transactions of the American Society of Agricultural and Biological Engineers.</b> 49(6): 1-10. DOI:10.13031/2013.22294.
 $category=
 $Publisher=ASABE
 $Abstract=This article describes a prototype modeling system for assessing forest management-related erosion at its source
@@ -4438,7 +4435,7 @@ better integrated with other watershed models.
 $Keywords=Erosion modeling, Hydrodynamic modeling, Watershed models, TMDLs, CCHE1D, WEPP, sediment transport, California
 $type=
 $treesearch=pubs/26823
-$links=<a href="https://www.fs.fed.us/rm/boise/AWAE/scientists/profiles/Elliot/06%20Conroy%20et%20al.pdf">PDF</a>
+$links=<a href="https://www.fs.usda.gov/rm/pubs_other/rmrs_2006_conroy_w001.pdf">PDF</a> [436 KB]
 #2006q###############################################
 $Title=The roles of natural and human disturbances in forest soil erosion
 $Year=2006
@@ -4451,7 +4448,15 @@ $Citationt=Elliot, W.J. 2006.
   <b>Soil Erosion and Sediment Redistribution in River Catchments.</b>
   Wallingford, Oxfordshire, UK: Commonwealth Agricultural Bureau International.
   177-185.
-$Abstract=
+$Abstract=Forests provide numerous benefits for society,
+including fibre, wildlife and recreation. Forest
+managers are challenged to balance ecosystem
+health with maintaining public forest lands for
+multiple uses. During the first half of the last
+century, public forest management emphasized
+the harvesting of forest resources. In recent
+years, public forest management goals have
+shifted to long-term sustainability.
 $Keywords=soil erosion, human impacts
 $links=<a href="/engr/library/Elliot/Elliot2006q/2006q.pdf" target="_pdf">PDF</a> [318 KB]
 #2006p###############################################
@@ -4539,6 +4544,7 @@ $Publisher=ASABE
 $Abstract=
 $Keywords=infiltration, modeling, erosion control
 $type=
+$links=<a href="/engr/library/Lewis/Lewis2006n/2006n.pdf" target="_pdf">PDF</a> [161 KB]
 $lynx=
 #2006l###############################################
 $Title=Field performance of long-strand wood erosion control mulch and agricultural straw under natural rainfall events
