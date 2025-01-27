@@ -1996,7 +1996,7 @@ $treesearch=
 $plynx=
 $links=<a href="/engr/library/Foltz/Foltz2012e/2012e.pdf" target="_pdf">PDF</a> [0.6 MB]
 $lynx=
-#2012d###############################################
+*2012d###############################################
 $Title=Estimating phosphorus loading from forested hillslopes and watersheds with the WEPP model.
 $Year=2012
 $Authors=Elliot, Hall
@@ -2007,7 +2007,7 @@ $category=
 $Publisher=
 $Abstract=
 $Keywords=WEPP, modeling, phosphorus loading
-$type=
+$type=presentation?? Pete said possibly remove
 $treesearch=
 $plynx=
 $lynx=
@@ -4529,7 +4529,7 @@ $Abstract=The effects of a wildfire on the ground surface are indicative of the 
 $Keywords=mapping, ground cover, hyperspectral, remote sensing, California
 $type=
 $links=<a href="/engr/library/Lewis/Lewis2006n/2006n.pdf" target="_pdf">PDF</a> [161 KB]
-#2006m###############################################
+*2006m###############################################
 $Title=Modeling infiltration under wood byproducts used for erosion control
 $Year=2006
 $Authors=Foltz, Yanosek
@@ -4543,10 +4543,10 @@ $category=
 $Publisher=ASABE
 $Abstract=
 $Keywords=infiltration, modeling, erosion control
-$type=
+$type=presentation?? Pete said possibly remove
 $links=<a href="/engr/library/Lewis/Lewis2006n/2006n.pdf" target="_pdf">PDF</a> [161 KB]
 $lynx=
-#2006l###############################################
+*2006l###############################################
 $Title=Field performance of long-strand wood erosion control mulch and agricultural straw under natural rainfall events
 $Year=2006
 $Authors=Foltz
@@ -4560,9 +4560,9 @@ $category=
 $Publisher=ASABE
 $Abstract=
 $Keywords=mulch, straw, erosion control
-$type=
+$type=presentation?? Pete said possibly remove
 $lynx=<a href="https://www.forestconcepts.com/docs/Wood-strand.Field.Performance.11-08-2005.pdf" target="_pdf">PDF</a>
-#2006k###############################################
+*2006k###############################################
 $Title=Effects of DEM resolution on forest hydrologic and erosion prediction using WEPP
 $Year=2006
 $Authors=
@@ -4590,7 +4590,7 @@ erosion results using the six DEMs were compared with the field-observed data. F
 watersheds, DEMs with different resolutions and sources generated varied topographic and
 hydrologic attributes, which in turn led to significantly different erosion predictions by WEPP.
 $Keywords=forest watershed, water erosion modeling, WEPP, GIS, DEM, LiDAR
-$type=
+$type=presentation?? Pete said possibly remove
 $lynx=
 #2006j###############################################
 $Title=Adapting the Water Erosion Prediction Project (WEPP) model to forest conditions
@@ -4731,7 +4731,7 @@ $Year=2006
 $Authors=Elliot
 $Citationt=Brooks, E.S.; Boll, J.; Elliot, W.J.; Dechert, T. 2006.
  <i><a>Global Positioning System/GIS-based approach for modeling erosion from large road networks</a></i>.
- <b>Journal of Hydrologic Engineering</b> 11(5), September/October. 418-426.
+ <b>Journal of Hydrologic Engineering</b> 11(5), September/October. 418-426. DOI:10.1061/(ASCE)1084-0699(2006)11:5(418)
 $category=
 $Publisher=Journal of Hydrologic Engineering
 $Abstract=Sediment budget analyses require watershed scale evaluation of road erosion and delivery.
@@ -4750,8 +4750,8 @@ $Abstract=Sediment budget analyses require watershed scale evaluation of road er
  spatially explicit tool for the management and evaluation of sediment production throughout large road networks.
 $Keywords=Sediment; Runoff; Watershed management; Erosion; Roadside hazards, road, Idaho
 $type=
-$treesearch=pubs/23560
-$links=<a href="https://www.fs.fed.us/rm/pubs_other/rmrs_2001_elliot_w001.pdf">PDF</a> [214 KB]
+$treesearch=
+$links=<a href="http://dx.doi.org/10.1061/(ASCE)1084-0699(2006)11:5(418)">PDF</a> [214 KB]
 $plinks=<a href="https://scitation.aip.org/getpdf/servlet/GetPDFServlet?filetype=pdf&id=JHYEFF000011000005000418000001&idtype=cvips" title="size: 656 KB">ASCE PDF</a> [656 KB]
 #2006e###############################################
 $Title=Erosion from all terrain vehicle (ATV) trails on National Forest lands
@@ -4788,17 +4788,13 @@ $year=2006
 $authors=Robichaud, Wagenbrenner
 $citationt=Robichaud, P.R.; Lillybridge, T.R.; Wagenbrenner, J.W. 2006.
  <i><a>Effects of post-fire seeding and fertilization on hillslope erosion in north-central Washington, USA</a></i>.
- <b>Catena</b> 67: 56-67.
- "Available online at www.sciencedirect.com"
+ <b>Catena</b> 67: 56-67. DOI: 10.1016/j.catena.2006.03.001.
 $category=
 $publisher=Catena Elsevier
-$abstract=After the 1998 North 25 Fire in the Wenatchee National Forest, eight study sites were established on steep,
- severely burned hillslopes to examine the effectiveness of post-fire seeding and fertilizing treatments in
- increasing cover to reduce hillslope erosion, and to measure the nutrient content of the eroded sediment.
- ...
+$abstract=After the 1998 North 25 Fire in the Wenatchee National Forest, eight study sites were established on steep, severely burned hillslopes to examine the effectiveness of postfire seeding and fertilizing treatments in increasing cover to reduce hillslope erosion, and to measure the nutrient content of the eroded sediment. At each site, four 4 by 9 m plots were located with four randomly applied treatments: seed (winter wheat, Triticum estivum) at 34 kg ha− 1, fertilizer (75% ammonium nitrate and 25% ammonium sulfate) at 31 kg ha− 1, seed and fertilizer, and untreated control. Sediment fences were installed at the base of each plot to measure erosion rates and sample the eroded sediments. In addition, precipitation amounts and intensities, surface cover, canopy cover, and nutrient concentrations in the eroded sediments were measured for four years after the fire. Total precipitation was below average during the four-year study period, and most erosion occurred during short duration, moderate intensity summer rainfall events. The overall first year mean erosion rate was 16 Mg ha− 1 yr− 1, and this decreased significantly in the second year to 0.66 Mg ha− 1 yr− 1. There were no significant differences in erosion rates between treatments. In the first year, the seeded winter wheat provided 4.5% canopy cover, about a fourth of the total canopy cover, on the seeded plots; however, the total canopy cover on the seeded plots did not differ from the unseeded plots. The below average precipitation in the spring after seeding may have affected the winter wheat survival rate. In the fourth year of the study, the mean canopy cover in the fertilization treatment plots was 74%, and this was greater than the 55% mean canopy cover in the unfertilized plots (p = 0.04); however, there was no accompanying reduction in erosion rate for either the seeding or fertilization treatments. Revegetation by naturally occurring species was apparently not impacted by seeding during the four years of this study. The pH of the sediment as well as the concentrations of NO3–N, NH4–N, and K was not affected by seeding or fertilizing. The nutrient loads in the eroded sediment were minimal, with most of the nutrient loss occurring in the first postfire year. These results confirm that seeding success is highly dependent on rainfall intensity, amounts, and timing, and that soil nutrients lost in eroded sediments are unlikely to impair the site productivity.
 $keywords=Erosion rate, wildfire, grass seeding, silt fence, monitoring, rehabilitation, seeding, Washington State
 $type=
-$links=<a href="https://www.sciencedirect.com/science?_ob=MImg&_imagekey=B6VCG-4JT3SB8-1-7&_cdi=5954&_user=4250274&_orig=search&_coverDate=08%2F15%2F2006&_sk=999329998&view=c&wchp=dGLzVlz-zSkWb&md5=5117081fb1dd1cf41a6a65060f36e213&ie=/sdarticle.pdf">PDF</a> [380 KB]
+$links=<a href="https://doi.org/10.1016/j.catena.2006.03.001">PDF</a> [380 KB]
  <a href="https://www.sciencedirect.com/science?_ob=ArticleURL&_udi=B6VCG-4JT3SB8-1&_user=4250274&_coverDate=08%2F15%2F2006&_alid=552283449&_rdoc=1&_fmt=full&_orig=search&_cdi=5954&_sort=d&_docanchor=&view=c&_ct=1&_acct=C000052423&_version=1&_urlVersion=0&_userid=4250274&md5=3fd640545104738b85d55fedc6f2dbe1">HTML</a>
 *2006c###############################################
 $Title=
@@ -4821,7 +4817,7 @@ $category=
 $Publisher=
 $Abstract=
 $Keywords=
-$type=invited
+$type=invited/presentation??? Pete said possibly remove
 $lynx=
 #2006a###############################################
 $title=Performance assessment of wood strand erosion control materials among varying slopes, soil textures, and cover amounts
@@ -4853,8 +4849,8 @@ $Authors=Graham, Robichaud
 $Citationt=Graham, R.T.; Finney, M.A.; Cohen, J.; Robichaud, P.R.; Romme, W.; Kent, B. 2005.
  <i><a>Hayman fire impacts</a>.</i> <b>Fire Management Today</b> 65(1):19-22.
 $category=
-$Publisher=
-$Abstract=
+$Publisher=USFS
+$Abstract= The Hayman Fire near Denver, CO was the largest in Colorado history. First reported on June 8, 2002, the fire did not stop its destructive march until 20 days later. Fuel conditions, coupled with dry and windy weather, produced the ideal wildland fire medium. Ecological, social, and economic impacts were colossal and will haunt the local community for years, perhaps centuries. 
 $Keywords=Hayman Fire, Colorado
 $type=
 $links=<a href="/engr/library/Robichaud/Robichaud2005o/2005o.pdf" target="_pdf">PDF</a> [179 KB]
@@ -4869,7 +4865,15 @@ $Citationt=Robichaud, P.R.; Beyers, J.L.; Neary, D.G. 2005.
   Gen Tech Rep RMRS-GTR-42-vol.4. Ogden, UT: USDA Forest Service, Rocky Mountain Research Station. 179-197.
 $category=fire effects
 $Publisher=USDA FS
-$Abstract=
+$Abstract=Recent large, high severity fires in the United States,
+coupled with subsequent major hydrological events,
+have generated renewed interest in the linkage between fire and onsite and downstream effects (fig. 10.1).
+Fire is a natural and important disturbance mechanism in many ecosystems. However, the intentional
+human suppression of fires in the Western United States, beginning in the early 1900s, altered natural
+fire regimes in many areas (Agee 1993). Fire suppression can allow fuel loading and forest floor material to
+increase, resulting in fires of greater intensity and
+extent than might have occurred otherwise (Norris
+1990).
 $Keywords=watershed restoration, wildfire effects
 $type=non-peer-reviewed
 $links=<a href="/engr/library/Robichaud/Robichaud2005n/2005n.pdf">PDF</a> [661 KB]
@@ -4884,7 +4888,16 @@ $Citationt=Ryan, K.; Elliot, W.J. 2005.
   Gen Tech Rep RMRS-GTR-42-vol.4. Ogden, UT: USDA Forest Service, Rocky Mountain Research Station. 171-177.
 $category=fire effects
 $Publisher=USDA FS
-$Abstract=
+$Abstract=In many cases, decisions about fire have to be made
+in short timeframes with limited information. Fire
+effects models have been developed or adapted to help
+land and fire managers make decisions on the potential and actual effects of both prescribed fires and
+wildfires on ecosystem resources (fig. 9.1). Fire effects
+models and associated erosion and runoff models apply the best fire science to crucial management decisions. These models are undergoing constant revision
+and update to make the latest information available to
+fire managers using the state-of-the-art computer
+hardware and software. Use of these models requires
+a commitment to understand their assumptions, benefits, and shortcomings, and a commitment to constant professional development.
 $Keywords=WEPP, fire effects, modeling, wildfire effects
 $type=non-peer-reviewed
 $links=<a href="/engr/library/Elliot/Elliot2005m/2005m.pdf">PDF</a> [249 KB]
@@ -4926,7 +4939,7 @@ $type=
 $links=<a href="/engr/library/Lewis/Lewis2005l/2005l.pdf" target="_pdf">PDF</a> [213 KB]
  <a href="https://www3.interscience.wiley.com/cgi-bin/fulltext/111082744/PDFSTART" target="_pdf">Through Wiley</a>
 $lynx=https://www3.interscience.wiley.com/cgi-bin/abstract/111082744/ABSTRACT?CRETRY=1&SRETRY=0#search=%22%22Assessing%20burn%20severity%22%20%22Hayman%20Fire%22%22
-*2005k###############################################
+#2005k###############################################
 $Title=Modeling soil erosion and mitigation after fires
 $Year=2005
 $Authors=Robichaud, Elliot
@@ -4962,6 +4975,7 @@ parameters for a variety of burn severities, soil textures and rehabilitation tr
 (straw mulch, hydromulch, contour-felled logs, straw wattles). Model validation ef-forts
 are ongoing at nine paired watershed sites around the western United States.
 $Keywords=modeling, burn severity, ERMiT, western US, WEPP
+$links=<a href="https://meetings.copernicus.org/www.cosis.net/abstracts/EGU05/00608/EGU05-J-00608.pdf" target="_pdf">PDF</a> [213 KB]
 $lynx=www.cosis.net/abstracts/EGU05/00608/EGU05-J-00608.pdf [abstract]
 #2005j###############################################
 $Title=Measurement of post-fire hillslope erosion to evaluate and model rehabilitation treatment effectiveness and recovery
@@ -5179,14 +5193,14 @@ $Citationt=Elliot, William; Robichaud, Pete. 2005.
  Fuels planning: science synthesis and integration; environmental consequences fact sheet 8.
  Res. Note RMRS-RN-23-08-WWW.
  Fort Collins, CO: U.S. Department of Agriculture, Rocky Mountain Research Station. 2&nbsp;p.
-$links=[<a href="https://www.fs.fed.us/rm/pubs/rmrs_rn023_08.pdf" target="_pdf">PDF</a> (150 KB)]
+$links=[<a href="https://www.fs.usda.gov/rm/pubs/rmrs_rn023_08.pdf" target="_pdf">PDF</a> (150 KB)]
 #2005b###############################################
 $Title=Fact sheet 13: Root Disease Analyzer -- Armillaria Response Tool (ART)
 $Year=2005
 $Authors=Hall
 $category=
 $Publisher=USFS RMRS
-$Abstract=The Root Disease Analyzer -- <i>Armillaria</i> Response Tool (<i>A</i>RT) is a Web-based tool that estimates Armillaria root disease risk in dry forests of the Western United States. This fact sheet identifies the intended users and uses, required inputs, what the model does and does not do, and tells the user how to obtain the model.
+$Abstract=The Root Disease Analyzer is a Web-based tool that estimates Armillaria root disease risk in dry forests of the Western United States. This fact sheet identifies the intended users and uses, required inputs, what the model does and does not do, and tells the user how to obtain the model.
 $Keywords=root disease, Armillaria
 $Citationt=McDonald, Geral I.; Tanimoto, Philip D.; Rice, Thomas M.; Hall, David E.; Stewart, Jane E.; Zambino, Paul J.; Tonn, Jonalea R.; Klopfenstein, Ned B.; Kim, Mee-Sook.
  2005.
@@ -5194,7 +5208,7 @@ $Citationt=McDonald, Geral I.; Tanimoto, Philip D.; Rice, Thomas M.; Hall, David
  Fuels planning: science synthesis and integration; environmental consequences fact sheet 13.
  Res. Note RMRS-RN-23-13-WWW.
  Fort Collins, CO: U.S. Department of Agriculture, Rocky Mountain Research Station. 2&nbsp;p.
-$links=[<a href="https://www.fs.fed.us/rm/pubs/rmrs_rn023_13.pdf>PDF</a> (210 KB)]
+$links=<a href="https://www.fs.usda.gov/rm/pubs/rmrs_rn023_13.pdf>PDF</a> (210 KB)
 #2005a###############################################
 $Title=Fact sheet 12: Water Erosion Prediction Project (WEPP) Fuel Management (FuMe) tool
 $Year=2005
@@ -5207,7 +5221,7 @@ $Citationt=Elliot, William; Hall, David. 2005.
  <b><a>Water Erosion Prediction Project (WEPP) Fuel Management (FuMe) tool.</a></b>
  Fuels planning: science synthesis and integration; environmental consequences fact sheet 12.
  Res. Note RMRS-RN-23-12-WWW. Fort Collins, CO: U.S. Department of Agriculture, Rocky Mountain Research Station. 2&nbsp;p.
-$links=[<a href="https://www.fs.fed.us/rm/pubs/rmrs_rn023_12.pdf">PDF</a> (200 KB)]
+$links=<a href="https://www.fs.usda.gov/rm/pubs/rmrs_rn023_12.pdf">PDF</a> (200 KB)
 #2004s###############################################
 $Title=The relationship of field burn severity measures to satellite-derived Burned Area Reflectance Classification (BARC) maps
 $Year=2004
@@ -5234,8 +5248,9 @@ $Abstract=Preliminary results are presented from ongoing research on spatial var
  other forest types and to consider erosion processes, such as soil water infiltration following fire.
 $Keywords=Fire effects, 2003 Cooney Ridge Fire, 2003 Black Mountain Two Fire, Montana, SPOT, Landsat 
 $type=
-$treesearch=
+$treesearch=pub/26195
 $plynx=
+$links=<a href="https://www.fs.usda.gov/rm/pubs_other/rmrs_2004_hudak_a003.pdf" target="_pdf">PDF</a> [372 KB]
 $lynx=
 #2004r###############################################
 $Title=Wood strands as an alternative to agricultural straw for erosion control
@@ -5391,8 +5406,8 @@ $Abstract=The USFS Remote Sensing Applications Center (RSAC) and the USGS EROS D
  (and assign their own severity thresholds as needed) more than the classified BARC product, which oversimplifies
  highly heterogeneous burn severity characteristics on the ground.
 $Keywords=BARC, burn severity mapping, Montana, California, NDVI, Landsat
-$links=<a href="/gems/library/2004n.pdf">PDF</a> [790K]
-*2004m###############################################
+$links=<a href="https://www.fs.usda.gov/rm/pubs_other/rmrs_2004_hudak_a001.pdf">PDF</a> [549K]
+#2004m###############################################
 $title=Accuracy assessment of WEPP-based erosion models for harvested and burned forest watersheds
 $Year=2004
 $Authors=Covert, Robichaud, Elliot
@@ -5423,7 +5438,7 @@ $Keywords=GeoWEPP, erosion models, forested watersheds
 $Citationt=Covert, S.A.; Robichaud, P.R.; ELliot, W.J. Under review.
  <a><b>Accuracy assessment of WEPP-based erosion models for harvested and burned forest watersheds.</b></a>
  USDA Forest Service, Rocky Mountain Research Station.
-$lynxs=<a href="https://forest.moscowfsl.wsu.edu/engr/library/other/Covert2004m/2004m.pdf">PDF</a>
+$lynxs=<a href="https://forest.moscowfsl.wsu.edu/engr/library/other/Covert2003n/2003n.pdf">PDF</a>
 *2004l###############################################
 $Title=The effectiveness of post-fire mitigation treatments
 $Year=2004
@@ -5466,7 +5481,7 @@ $Citationt=Elliot, W.J. April 2004.
 $lynx=
 $links=<a href="/engr/library/Elliot/Elliot2004k/2004k.pdf" target="_pdf">PDF</a> (940 KB)
 $plinks=<a href="https://www3.interscience.wiley.com/cgi-bin/fulltext/118801673/PDFSTART" target="o">Wiley Interscience website</a>
-#2004j###############################################
+2004j###############################################
 $Title=Portable electronic meter: measuring water content of organic materials
 $Year=2004
 $Authors=Robichaud
@@ -5497,7 +5512,7 @@ $Citationt=Robichaud, P.R. 2004.
   <b>Resource.</b>
   May 2004 11(4): 10-11.
   American Society of Agricultural Engineers.  
-$links=<a href="https://www.asae.org/imis/StaticContent/4/May_2004/p_11_12_E_meter.pdf" target="o">PDF</a> [783KB]
+$links=<a href="https://www.thefreelibrary.com/Portable+electronic+meter%3a+measuring+water+content+of+organic...-a0117669310" target="o">PDF</a> [783KB]
 *2004i###############################################
 $Title=Initial findings of post-fire rehabilitation treatment effectiveness
 $Year=2004
@@ -5511,18 +5526,19 @@ $Citationt=Robichaud, P.R. 2004.
   Initial findings of post-fire rehabilitation treatment effectiveness
 $lynx=
 $type=
-*2004h###############################################
+#2004h###############################################
 $Title=Onsite sediment production and nutrient losses from a low, moderate, and high severity burn in the interior Northwest
 $Year=2004
 $Authors=Robichaud, Graham, Jain
 $category=
 $Publisher=Soil Science Society of America
 $authorblock=
-$Abstract=
+$Abstract=Postharvest residue burning is a common site preparation treatment used in the interior Northwest to reduce forest fuels and prepare sites for tree regeneration. A study was conducted to measure runoff, sediment production, and nutrient changes caused by broadcast burning of logging slash. The site was a northern Idaho mixed conifer forest of western hemlock, grand fir, western white pine, western larch and Douglas-fir. A spring burn (1992) consumed about 50 percent of the litter, 22 percent of the humus, and 79 percent of the woody fuels less than 8 cm in diameter. Heat penetration into the mineral soil was minimal due to moisture present in the lower duff and mineral soil. Temperatures at the mineral soil surface did not exceed 77ï¿½C. Four replications of three, 30-minute simulated rainfall events (50 mm/hr) were used. Low erosion rates and nutrient losses were measured from this burn treatment. These results could help land management decisions concerning timing of burning as related to onsite sediment production, fuel reduction and long-term site productivity.
 $Keywords=fire severity, nutrient loss, sedimentation 
 $Citationt=Robichaud, P.R.; Graham, R.T.; Hungerford, R.D.; Jain, T.B. 2004.
   Onsite sediment production and nutrient losses from a low, moderate, and high severity burn in the interior Northwest
 $lynx=
+$links=<a href="https://forest.moscowfsl.wsu.edu/engr/library/Robichaud/Robichaud1994a/1994a.html" target="_pdf">HTML</a> [377 KB]
 $type=peer reviewed
 *2004g###############################################
 $Title=First year erosion rates after the 2000 Bitterroot fires
@@ -5536,6 +5552,7 @@ $Keywords=2000 Bitterroot fires, Montana, erosion rates
 $Citationt=Spigel, K.; Robichaud, P.R. 2004.
   First year erosion rates after the 2000 Bitterroot fires
 $lynx=
+$links=<a href="https://forest.moscowfsl.wsu.edu/engr/library/Robichaud/Robichaud1994a/1994a.html" target="_pdf">HTML</a> [377 KB]
 *2004f###############################################
 $Title=Snowpack outflow and streamflow on a burned watershed in Northwestern Montana
 $Year=2004
@@ -5660,21 +5677,21 @@ $Abstract=Increased runoff and erosion commonly occur after wildfires with the o
 $Keywords=erosion, sedimentation, paired watersheds, instrumentation, data logger, Colorado, Washington State, California, Montana
 $type=
 $links=<a href="/engr/library/Robichaud/Robichaud2003z/2003z.pdf" target="_pdf">PDF</a> [145 KB]
-*2003y###############################################
+#2003y###############################################
 $Title=Proposed modifications to the WEPP model to improve sediment yield predictions for TMDL scenario analyses
 $Year=2003
 $Authors=Elliot
 $category=
 $Publisher=ASAE
 $authorblock=
-$Abstract=
+$Abstract=This paper describes a project to develop and implement procedural changes in the WEPP (Water Erosion Prediction Project) model’s FORTRAN code for improving surface water routing. This improvement is important in increasing the overall accuracy of surface runoff/erosion estimates associated with implementation of effective erosion control measures within ungaged watersheds. With the new procedures in place and validated, the WEPP model would be available for use in modeling effectiveness of varying BMP systems used for sediment TMDL implementation, such that multiple, spatially varied management activities can be modeled and evaluated. Several runoff routing models are described and assessed for applicability in the WEPP model. For a physically based model, such as WEPP, it is inappropriate to use simplified, empirical runoff routing techniques (e.g., Rational Method, regional regression equations). At a minimum, it is appropriate to include a kinematic wave flood routing model. Other appropriate models include the diffusion wave and Muskingum-Cunge techniques.
 $Keywords=TMDL, WEPP
-$Citationt=Conroy, W.J.; Wu, J.; Elliot, W.
- 2003.
+$Citationt=Conroy, W.J.; Wu, J.; Elliot, W. 2003.
  <i><a>Proposed modifications to the WEPP model to improve sediment yield predictions for TMDL scenario analyses</a></i>
  ANOVA of instream turbidity measurements for
  In: <b>ASAE annual international meeting;</b> 2003 July 27-30; Las Vegas, NV.
- Paper No. 032055. St. Joseph, MI: American Society of Agricultural Engineers.
+ Paper No. 032055. St. Joseph, MI: American Society of Agricultural Engineers. DOI:10.13031/2013.14939
+$links=<a href="http://dx.doi.org/10.13031/2013.14939" target="_pdf">PDF</a> 
 $zlinks=<a href="https://asae.frymulti.com/request.asp?search=1&JID=5&AID=14939&CID=lnv2003&T=2">ASAE PDF</A> (by subscription)
 #2003x###############################################
 $Title=Modification of the evapotranspiration routines in the WEPP model: part 1.
@@ -5731,8 +5748,8 @@ $Citationt=Rummer, B.; Prestemon, J.; May, D.; Miles, P.; Vissage, J.; McRoberts
  <b><a>A strategic assessment of forest biomass and fuel reduction treatments in Western States.</a></b>
  Washington, DC: U.S. Department of Agriculture,
  Forest Service, Research and Development. 21&nbsp;p.
-$links=<a href="https://www.fs.fed.us/research/pdf/Western_final.pdf" target="o">USFS PDF</a> (342KB)
-*2003v###############################################
+$links=<a href="https://www.researchgate.net/publication/368663343_A_Strategic_Assessment_of_Forest_Biomass_and_Fuel_Reduction_Treatments_in_Western_States" target="o">USFS PDF</a> (356 KB)
+#2003v###############################################
 $Title=Effectiveness of needle cast at reducing erosion after forest fires
 $Year=2003
 $Authors= Pannkuk, Robichaud
@@ -5760,9 +5777,9 @@ $Citationt=Pannkuk, C.K.; Robichaud, P.R. 2003.
 $links=
     [<a href="https://www.agu.org/pubs/crossref/2003/2003WR002318.shtml" target="_o">Abstract</a> (AGU)]
     [<a href="https://www.agu.org/journals/wr/wr0312/2003WR002318/index.html" target="_o">HTML</a> (AGU members only)]
-    [<a href="https://www.agu.org/journals/wr/wr0312/2003WR002318/2003WR002318.pdf" target="_o">PDF</a> (AGU members only)]
+    [<a href=" https://doi.org/10.1029/2003WR002318" target="_o">PDF</a>]
 $type=refereed
-#2003u###############################################
+*2003u###############################################
 $Title=Effects of fire on water repellency: Infiltration rates after prescribed fire in Northern Rocky Mountain forests
 $Year=2003
 $Authors=Robichaud
@@ -5780,6 +5797,7 @@ $Citationt=Robichaud, P.R. 2003.
   <b>Soil water repellency.</b>
   Elsevier, London.
 $lynx=
+$links=<a href="https://www.researchgate.net/publication/368663343_A_Strategic_Assessment_of_Forest_Biomass_and_Fuel_Reduction_Treatments_in_Western_States" target="o">USFS PDF</a> (356 KB)
 $type=
 #2003t###############################################
 $Title=Impacts of fire on hydrology and erosion in steep mountain big sagebrush communities
@@ -5910,60 +5928,12 @@ $abstract=
 $keywords=Hayman Fire, Colorado, post-fire rehabilitation
 $links=<a href="https://forest.moscowfsl.wsu.edu/engr/library/Robichaud/Robichaud2003r/rmrs_gtr114_5.pdf">PDF</a> [650 KB]
 $type=peer reviewed
-*2003q###############################################
-$Title=Sediment measurements from multiple aggregate sources: not all aggregates perform identically
-$Year=2003
-$Authors=Foltz
-$category=
-$Publisher=SDTDC
-$authorblock=*** moved to 2004q ***
-$Abstract=The Rocky Mountain Research Station and the Willamette National Forest
-  performed a study to investigate the sediment production of several aggregates.
-  Nine basalts, three quartzites, two welded tuffs, two alluvial, and one each
-  of glacial outwash and limestone were tested.
-  The sediment production from the most erodible aggregate was 100 times that
-  of the least erodible; a large range that should be considered when choosing
-  aggregate surfacing material.
-$Keywords=aggregate, Oregon, erodibility
-$Citationt=Foltz, R.B.; Truebe, M. 2003.
-  <i><a>Sediment measurements from multiple aggregate sources: not all aggregates perform identically.</a></i>
-  U.S. Department of Agriculture, Forest Service,
-  San Dimas Technology and Development Program, 7700.
-  0377 13XX--SDTDC. December 2003. 2&nbsp;p.
-$links=<a href="https://fsweb.sdtdc.wo.fs.fed.us/pubs/pdf/04771308.pdf">PDF</a> [24 KB]
-*2003p###############################################
-$Title=Wood strands as an alternative to agricultural straw for erosion control
-$Year=2003
-$Authors=Foltz
-$category=
-$Publisher=SDTDC
-$authorblock= *** moved to 2004r ***
-$Abstract=Agricultural straw is used in forested areas of the United States for
-  erosion control on burned areas, harvest landings, decommissioned road prisms,
-  road cuts and fills, and other areas of disturbed soil.
-  Two blends of wood strands were statistically equal to straw in
-  reducing both runoff and sediment production.
-  Both the straw and each of the wood fiber mixes reduced erosion by 98 percent
-  as compared to the bare soil.
-  This result implies that wood fibers are an acceptable alternative to
-  agricultural straw in erosion control applications.
-  Further work is underway to determine optimum width and length mixes,
-  application rates, and decomposition rates for the wood fibers.
-$Keywords=wood straw, wood strand, erosion control
-$Citationt=Foltz, R.B.; Dooley, J.H. 2003.
-  <i><a>Wood strands as an alternative to agricultural straw for erosion control.</a></i>
-  U.S. Department of Agriculture, Forest Service,
-  San Dimas Technology and Development Program, 2300.
-  0423 131302--SDTDC. December 2003. 4&nbsp;p.
-$links=<a href="https://fsweb.sdtdc.wo.fs.fed.us/cgi-bin/pubs/library_card.pl?pub_select=434">SDTDC Library card</a> |
-  <a href="/engr/library/Foltz/Foltz2003p/2003p.pdf">PDF</a> [72 dpi 131 KB] |
-  <a href="https://fsweb.sdtdc.wo.fs.fed.us/pubs/pdf/hi_res/04231302hi.pdf">PDF</a> [Hi-res PDF]
 #2003o###############################################
 $Title=The challenges in developing the WEPP cumulative effects model
 $Year=2003
 $Authors=Elliot, Foltz
 $category=
-$Publisher=
+$Publisher=USFS RMRS
 $authorblock=
 $Abstract=Many of the forests in the U.S. and elsewhere in the world are
   source areas for water.
@@ -5998,7 +5968,7 @@ $Citationt=Elliot, W.J.; Foltz, R.B. 2003.
   Vaxj&ouml;, Sweden
  In: Wide, M.I.; Baryd, B., eds.
  Uppsala, Sweden: Skogforsk: 55-58.
-$typ=poster
+$typ=
 $links=<a href="https://forest.moscowfsl.wsu.edu/engr/library/Elliot/Elliot2003o/2003o.pdf">PDF</a> [625 KB]
        <a href="https://forest.moscowfsl.wsu.edu/engr/library/Elliot/Elliot2003o/2003o.html">HTML</a>
 #2003n###############################################
@@ -6214,7 +6184,8 @@ $Citationt=Foltz, R.B.; Malliard, E. 2003.
  Written for presentation at the
  <b>2003 ASAE Annual International Meeting</b> sponsored by ASAE.
  Riviera Hotel and Convention Center, Las Vegas, NV, USA. 27-30 July 2003.
- St. Joseph, MI: American Society of Agricultural Engineers.
+ St. Joseph, MI: American Society of Agricultural Engineers. doi: 10.13031/2013.15043
+$links=<a href="https://elibrary.asabe.org/abstract.asp?aid=15043" target="_pdf">PDF</a> [3.1 MB]
 $lynx=
 *2003f###############################################
 $Title=Infiltration characteristics of filter windrows adjacent to forest roads
@@ -6226,13 +6197,14 @@ $Abstract=A study to determine the infiltration parameters for filter windrows w
 $Keywords=
 $Citationt=Foltz, R.B.; Elliot, W.J. 2001.
   <i><a>Infiltration characteristics of filter windrows adjacent to forest roads.</a></i>
+$links=<a href="" target="_pdf">PDF</a> [MB]
 $lynx=
 #2003e###########################################################################################################
 $Title=Environmental impacts of forest roads: an overview of the state of the knowledge
 $Year=2003
 $Authors=Foltz
 $category=road erosion
-$Publisher=
+$Publisher=USFS
 $authorblock=<b>Randy B. Foltz</b>
 $Abstract=This paper reviews the environmental impacts of forest roads at the on-site and the
  watershed scale. The components of a road prism--the cut slopem ditch, running
@@ -6255,19 +6227,34 @@ $Citationt=Foltz, R.B. 2003.
  12-15 May 2003, V�xj�, Sweden. V�xj� Concert Hall.
  In: Wide, M.I.; Baryd, B., eds.
  Uppsala, Sweden: Skogforsk: 121-128.
-$leenk=https://www.skogforsk.se/fec/
+$links=<a href="https://www.fs.usda.gov/rm/pubs_journals/2003/rmrs_2003_foltz_r001.pdf" target="_pdf">PDF</a> [266 KB]
 $lynx=
-*2003d###########################################################################################################
+#2003d###########################################################################################################
 $Title=The Potential of U.S. Forest Soils to Sequester Carbon and Mitigate the Greenhouse Effect
 $Year=2003
 $Authors=Elliot
 $category=
-$Publisher=
+$Publisher=CRC Press LLC
 $authorblock=<b>William J. Elliot</b>
-$Abstract=
-$Keywords=
+$Abstract=Previous work (Lal et d,, f 998; Follett et al., 2001) described the potential of U.S. cropland 
+and grazing land soils to sequester clubon (C) and be managed to hefp mitigate greenhouse-gas 
+emissions. Activities to sequester C in mptands iacludcd land conversion, land restomtion, 
+impd mpphg systems, and intensified management using consemation tillage and improved 
+water md fertility management, La1 et d. (1998) estimated that ~lopl8tlld &oils could sequmter 75 
+to 208 million rncbric tons C per year (Mt CYyear) (mean = 142). while 43 Mt crj,ear was estimated 
+to be emitted from production inputs, Thus, the net potential sequestration was estimated at 100 
+Mt Uyeat on a cropland area of 136.6 million hectares (Mh) (Cal et d., 1998). Activities to 
+sequester C in grazing lads inchrdcd controlling soil erosion lasses, restoring eroded and deg;rraded 
+soils, laml conversion, and improved pasture and rangeland management, which involved fertility 
+management, phtin8 improved species, and grazing management. The overall potential of U.S. 
+grazing lands to sequester C ranged fiPm 29.5 to 110 Mt C/year (man = 69.8) duriollg a 25-year 
+period, with emission losses of 12.0 to 19.5 Mt Clyear (mean = 1 %8 Mt C/ya)* The net potential 
+stquestration of grasslands was about 53.5 Mt C/ye8it on a land base of appru,ximatdy 336 Ma.
+$Keywords=Carbon Sequestration, erosion mitigation, greenhouse-gas emission
 $Citationt=Elliot, W.J. 2003.
   <i><a>The Potential of U.S. Forest Soils to Sequester Carbon and Mitigate the greenhouse effect.</a></i>
+$treesearch=pub/6979
+$links=<a href="https://www.fs.usda.gov/ne/newtown_square/publications/other_publishers/OCR/ne_2003heath01.pdf" target="_pdf">PDF</a> [1.38 KB]
 $lynx=
 #2003c###########################################################################################################
 $Title=Locally available aggregate and sediment production
@@ -6341,6 +6328,7 @@ $category=
 $publisher=CRC Press
 $authors=Elliot
 $authorblock=<b>W.J. Elliot</b>
+$Abstract=This chapter presents the processes that are associated with soil erosion and transport of sediment and soil carbon down forested hillsides to forest streams. Soil erosion is the detachment and transport of sediment by erosive agents, such as wind, water, and gravity, and soil carbon is contained in those moving sediments. When soils erode, carbon is transported from the forest surface into the stream system with the eroded sediments. Erosion properties of forest soils are more dependent on vegetation influences than on soil physical or chemical properties. The effect of topography on erosion can vary, but forest erosion is greatest from steep hillsides. The main human disturbances in forests are timber harvest and roads. Road erosion is much higher per unit area, but timber harvest activities can impact a much larger area within a forest.
 $citationt=Elliot, W.J. 2003.
  <i><a>Soil erosion in forest ecosystems and carbon dynamics.</a></i>
  In:
@@ -6348,6 +6336,7 @@ $citationt=Elliot, W.J. 2003.
  <b>The potential of U.S. forest soils to sequester carbon and mitigate the greenhouse effect.</b>
  Boca Raton, FL: CRC Press: 175-190.
 $keyword=carbon dynamics, soil erosion
+$links=<a href="https://www.taylorfrancis.com/reader/download/e25166ef-cc8c-418f-9346-20b6b4e616ff/chapter/pdf?context=ubx" target="_pdf">PDF</a> [2.03 MB]
 $lynx=
 *2002h#########################################################################
 $Title=Restoration after wildfire: preserving what remains
@@ -6361,20 +6350,23 @@ $Keywords=Soil Restoration, Forest Fires, interview
 $Citationt=Rohden, S.M. (compiler). 2002.
    <a><i>Restoration after wildfire: preserving what remains.</i></a>
    <b>Land and Water</b> <a href="https://www.landandwater.com/index/main.php?view=issue&vol=46&no=5" target="o">46(5): September/October 2002.</a> 54-58, 60-61.
+$links=<a href="http://www.landandwater.com/index/%5Eview=issue&vol=46&no=5/default.htm.htm" target="_pdf">PDF</a>
 $lynx=
-#2002g#########################################################################
+*2002g#########################################################################
 $title=Silt happens: Gathering erosion data
 $year=2002
 $category=fire effects
 $publisher=USDA FS RMRS
 $authors=Robichaud, Storrar
 $authorblock=<b>Peter R. Robichaud<br>Chapin S. Storrar</b>
+$Abstract=
 $Keywords=soil erosion, erosion monitoring
 $citationt=Robichaud Peter R.; Storrar, Chapin S. 2002.
    <i><a>Silt happens: Gathering erosion data.</a></i>
    General Technical Report RMRS-93-CD.
    Fort Collins, CO: U.S. Department of Agriculture, Forest Service,
    Rocky Mountain Research Station. 14 minute video on CD.
+$links=<a href="http://www.landandwater.com/index/%5Eview=issue&vol=46&no=5/default.htm.htm" target="_pdf">PDF</a>
 #2002f#########################################################################
 $title=Predicting sediment TMDLs for forest conditions with the WEPP model
 $year=2002
