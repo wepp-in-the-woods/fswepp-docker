@@ -1996,21 +1996,6 @@ $treesearch=
 $plynx=
 $links=<a href="/engr/library/Foltz/Foltz2012e/2012e.pdf" target="_pdf">PDF</a> [0.6 MB]
 $lynx=
-*2012d###############################################
-$Title=Estimating phosphorus loading from forested hillslopes and watersheds with the WEPP model.
-$Year=2012
-$Authors=Elliot, Hall
-$Citationt=Elliot, B.; Hall, D.; Brooks, E.; Traeumer, D.; Bruner, E. 2012.
- <i><a>Estimating phosphorus loading from forested hillslopes and watersheds with the WEPP model.</a></i>
- Presented at the 2012 Annual International Meeting of the ASABE. 29&nbsp;July&ndash;1&nbsp;August, Dallas, TX.
-$category=
-$Publisher=
-$Abstract=
-$Keywords=WEPP, modeling, phosphorus loading
-$type=presentation?? Pete said possibly remove
-$treesearch=
-$plynx=
-$lynx=
 #2012c###############################################
 $Title=What happens after the smoke clears? Post-wildfire assessment and stabilization strategies
 $Year=2012
@@ -4546,23 +4531,7 @@ $Keywords=infiltration, modeling, erosion control
 $type=presentation?? Pete said possibly remove
 $links=<a href="/engr/library/Lewis/Lewis2006n/2006n.pdf" target="_pdf">PDF</a> [161 KB]
 $lynx=
-*2006l###############################################
-$Title=Field performance of long-strand wood erosion control mulch and agricultural straw under natural rainfall events
-$Year=2006
-$Authors=Foltz
-$Citationt=Lanning, D.N.; Burks, J.E.; Foltz, R.B. 2006.
- <i><a>Field performance of long-strand wood erosion control mulch and agricultural straw under natural rainfall events.</a></i>
- Written for presentation at the <b>2006 ASABE Annual International Meeting.</b>
- Sponsored by ASABE, Portland Convention Center, Portland, OR. 9 - 12 July 2006.
- ASABE Paper No. 068028.
- American Society of Agricultural and Biological Engineers.
-$category=
-$Publisher=ASABE
-$Abstract=
-$Keywords=mulch, straw, erosion control
-$type=presentation?? Pete said possibly remove
-$lynx=<a href="https://www.forestconcepts.com/docs/Wood-strand.Field.Performance.11-08-2005.pdf" target="_pdf">PDF</a>
-*2006k###############################################
+#2006k###############################################
 $Title=Effects of DEM resolution on forest hydrologic and erosion prediction using WEPP
 $Year=2006
 $Authors=
@@ -4590,7 +4559,8 @@ erosion results using the six DEMs were compared with the field-observed data. F
 watersheds, DEMs with different resolutions and sources generated varied topographic and
 hydrologic attributes, which in turn led to significantly different erosion predictions by WEPP.
 $Keywords=forest watershed, water erosion modeling, WEPP, GIS, DEM, LiDAR
-$type=presentation?? Pete said possibly remove
+$type=
+$links=<a href="https://elibrary.asabe.org/azdez.asp?search=1&JID=5&AID=20742&CID=por2006&v=&i=&T=1&urlRedirect=" target="_pdf">PDF</a> [161 KB]
 $lynx=
 #2006j###############################################
 $Title=Adapting the Water Erosion Prediction Project (WEPP) model to forest conditions
@@ -4806,18 +4776,6 @@ $Publisher=
 $Abstract=
 $Keywords=
 $type=
-$lynx=
-*2006b###############################################
-$Title=
-$Year=2006
-$Authors=Robichaud
-$Citationt=Soil Systems Sciences symposium.
- "Wildfire Effects on Soil Organic Carbon Dynamics, Soil Degradation, and Soil Redistribution," Vienna, Austria, April 2-7, 2006.
-$category=
-$Publisher=
-$Abstract=
-$Keywords=
-$type=invited/presentation??? Pete said possibly remove
 $lynx=
 #2006a###############################################
 $title=Performance assessment of wood strand erosion control materials among varying slopes, soil textures, and cover amounts
@@ -5439,21 +5397,6 @@ $Citationt=Covert, S.A.; Robichaud, P.R.; ELliot, W.J. Under review.
  <a><b>Accuracy assessment of WEPP-based erosion models for harvested and burned forest watersheds.</b></a>
  USDA Forest Service, Rocky Mountain Research Station.
 $lynxs=<a href="https://forest.moscowfsl.wsu.edu/engr/library/other/Covert2003n/2003n.pdf">PDF</a>
-*2004l###############################################
-$Title=The effectiveness of post-fire mitigation treatments
-$Year=2004
-$Authors=Elliot, Robichaud
-$category=fire
-$Publisher=USFS RMRS
-$authorblock=
-$Abstract=
-$Keywords=post-fire effects, erosion mitigation
-$Citationt=Elliot, W.J.; Robichaud, P.R. 2004.
- <i><a>The effectiveness of post-fire mitigation treatments.</a></i>
- Presented at the <b>2004 BAER Training Workshop,</b>
- April 30, 2004, Denver, CO.
- Rocky Mountain Research Station, Moscow, ID.
-$lynx=
 #2004k###############################################
 $Title=WEPP Internet interfaces for forest erosion prediction
 $Year=2004
@@ -5481,7 +5424,7 @@ $Citationt=Elliot, W.J. April 2004.
 $lynx=
 $links=<a href="/engr/library/Elliot/Elliot2004k/2004k.pdf" target="_pdf">PDF</a> (940 KB)
 $plinks=<a href="https://www3.interscience.wiley.com/cgi-bin/fulltext/118801673/PDFSTART" target="o">Wiley Interscience website</a>
-2004j###############################################
+#2004j###############################################
 $Title=Portable electronic meter: measuring water content of organic materials
 $Year=2004
 $Authors=Robichaud
@@ -5552,7 +5495,7 @@ $Keywords=2000 Bitterroot fires, Montana, erosion rates
 $Citationt=Spigel, K.; Robichaud, P.R. 2004.
   First year erosion rates after the 2000 Bitterroot fires
 $lynx=
-$links=<a href="https://forest.moscowfsl.wsu.edu/engr/library/Robichaud/Robichaud1994a/1994a.html" target="_pdf">HTML</a> [377 KB]
+$links=
 *2004f###############################################
 $Title=Snowpack outflow and streamflow on a burned watershed in Northwestern Montana
 $Year=2004
@@ -5797,7 +5740,6 @@ $Citationt=Robichaud, P.R. 2003.
   <b>Soil water repellency.</b>
   Elsevier, London.
 $lynx=
-$links=<a href="https://www.researchgate.net/publication/368663343_A_Strategic_Assessment_of_Forest_Biomass_and_Fuel_Reduction_Treatments_in_Western_States" target="o">USFS PDF</a> (356 KB)
 $type=
 #2003t###############################################
 $Title=Impacts of fire on hydrology and erosion in steep mountain big sagebrush communities
@@ -6338,35 +6280,6 @@ $citationt=Elliot, W.J. 2003.
 $keyword=carbon dynamics, soil erosion
 $links=<a href="https://www.taylorfrancis.com/reader/download/e25166ef-cc8c-418f-9346-20b6b4e616ff/chapter/pdf?context=ubx" target="_pdf">PDF</a> [2.03 MB]
 $lynx=
-*2002h#########################################################################
-$Title=Restoration after wildfire: preserving what remains
-$Year=2002
-$category=fire effects
-$Publisher=Land And Water
-$Authors=Robichaud
-$authorblock=Compiled by Shelly M. Rohden
-$Abstract=Article about Pete Robichaud's work.
-$Keywords=Soil Restoration, Forest Fires, interview
-$Citationt=Rohden, S.M. (compiler). 2002.
-   <a><i>Restoration after wildfire: preserving what remains.</i></a>
-   <b>Land and Water</b> <a href="https://www.landandwater.com/index/main.php?view=issue&vol=46&no=5" target="o">46(5): September/October 2002.</a> 54-58, 60-61.
-$links=<a href="http://www.landandwater.com/index/%5Eview=issue&vol=46&no=5/default.htm.htm" target="_pdf">PDF</a>
-$lynx=
-*2002g#########################################################################
-$title=Silt happens: Gathering erosion data
-$year=2002
-$category=fire effects
-$publisher=USDA FS RMRS
-$authors=Robichaud, Storrar
-$authorblock=<b>Peter R. Robichaud<br>Chapin S. Storrar</b>
-$Abstract=
-$Keywords=soil erosion, erosion monitoring
-$citationt=Robichaud Peter R.; Storrar, Chapin S. 2002.
-   <i><a>Silt happens: Gathering erosion data.</a></i>
-   General Technical Report RMRS-93-CD.
-   Fort Collins, CO: U.S. Department of Agriculture, Forest Service,
-   Rocky Mountain Research Station. 14 minute video on CD.
-$links=<a href="http://www.landandwater.com/index/%5Eview=issue&vol=46&no=5/default.htm.htm" target="_pdf">PDF</a>
 #2002f#########################################################################
 $title=Predicting sediment TMDLs for forest conditions with the WEPP model
 $year=2002
@@ -6391,7 +6304,7 @@ $abstract=Water quality laws require regulatory agencies to identify the benefic
 $links=<a href="https://forest.moscowfsl.wsu.edu/engr/library/Elliot/Elliot2002f/ASAE2002f.pdf">PDF</a>
 $zlinks=<a target="o" href="https://asae.frymulti.com/request2.asp?JID=1&AID=7611&CID=tmdl2002&v=&i=&T=2">ASAE pdf</a> (subscription) |
        <a target="o" href="https://asae.frymulti.com/request2.asp?JID=1&AID=7611&CID=tmdl2002&v=&i=&T=1">ASAE html</a> (subscription)
-*2002e#########################################################################
+#2002e#########################################################################
 $Title=Wildfire and erosion: when to expect the unexpected
 $Year=2002
 $category=fire effects
@@ -6421,8 +6334,8 @@ $Abstract=Wildfire is a major ecological process and management issue in the wes
  But during intense summer thunderstorms (40 mm/hr, 10-min max intensity) there were smaller differences between treatments with the straw wattles showing the most reduction in erosion.
  Other laboratory studies suggest that brown needles that commonly fall to the ground after low and moderate severity burns may reduce rill erosion by 30 to 40 percent and interrill erosion by 50 to 70 percent.
 $Keywords=
-$links=<a href="https://gsa.confex.com/gsa/2002AM/finalprogram/abstract_38041.htm" target="o">GSA abstract</a>
-*2002d#########################################################################
+$links=<a href="https://gsa.confex.com/gsa/2002AM/webprogram/Paper38041.html" target="o">GSA abstract</a>
+#2002d#########################################################################
 $title=Hayman fire case study analysis: post-fire rehabilitation
 $year=2002
 $category=fire effects
@@ -6455,7 +6368,7 @@ $abstract=Our team has been asked to review and comment on immediate post-fire e
  We continue with a discussion of monitoring protocols.
  We finish by delineating the shortfalls in our knowledge and the uncertainty we have in the
   effectiveness of the rehabilitation treatments currently being used.
-$lynx=<a href="https://www.fs.fed.us/rm/hayman_fire/05robichaud.pdf">PDF</a> [3.6 MB]<br>
+$lynx=<a href="https://forest.moscowfsl.wsu.edu/engr/library/Robichaud/Robichaud2002d/2002d.pdf">PDF</a> [3.6 MB]<br>
 $links=<a href="https://forest.moscowfsl.wsu.edu/engr/library/Robichaud/Robichaud2002d/2002d.pdf">PDF</a> [3.6 MB]
 #2002c#########################################################################
 $Title=Predicting peak runoff rates from snowmelt with the WEPP model
@@ -6478,7 +6391,8 @@ $Abstract=The WEPP model is a daily runoff and erosion prediction model.  We pro
  which were similar to observed values.  Both methods underpredicted 24-hr runoff amounts, but 
  WEPP more closely predicted peak runoff rates.
 $Keywords=Soil Erosion, WEPP, Runoff, Erosion, Snowmelt, Forest Fires
-$lynx=
+$links=<a href="http://cwt33.ecology.uga.edu/publications/1577.pdf">PDF</a>
+$lynx=http://cwt33.ecology.uga.edu/publications/1577.pdf
 #2002b#########################################################################
 $Title=Estimating erosion impacts from implementing the National Fire Plan
 $Year=2002
@@ -6492,15 +6406,14 @@ $Citationt=Elliot, W.J.; Miller, I.S. 2002.
 	2002 ASAE annual international meeting/CIGR XVth world congress.
 	July 28-31, 2002, Chicago, IL
 	ASAE meeting paper no. 02-5011.
-	St. Joseph, MI: ASAE.
+	St. Joseph, MI: ASAE. doi: 10.13031/2013.10541.
 $Abstract=The WEPP model was used to compare erosion rates from fuel management
  operations, including roads, to erosion following wildfire, the inevitable disturbance in the 
  absence of fuel management, for climates across the western U.S.  The results show that
  erosion from fuel management operations, including thinning and prescribed fire, are less than
  from wildfire, even when road erosion rates are included.
 $Keywords=Soil Erosion, WEPP, Forest Fires, Rangelands, Fuel Management
-$plinks=<a target="o" href="https://asae.frymulti.com/request2.asp?JID=5&AID=10541&CID=cil2002&v=&i=&T=2">ASAE pdf</a> (subscription) |
-       <a target="o" href="https://asae.frymulti.com/request2.asp?JID=5&AID=10541&CID=cil2002&v=&i=&T=1">ASAE html</a> (subscription)
+$plinks=<a target="o" href="http://dx.doi.org/10.13031/2013.10541">ASAE pdf</a> 
 #2002a#########################################################################
 $Title=Silt fences: an economical technique for measuring hillslope soil erosion
 $Year=2002
@@ -6527,7 +6440,7 @@ $Abstract=Measuring hillslope erosion has historically been a costly, time-consu
  gauge provide an easy, low-cost method to quantify precipitation/hillslope erosion relationships. Trap efficiency
  of the silt fences is greater that 90 percent, thus making them suitable for use in estimating hillslope erosion.
 $Keywords=silt fence, erosion, erosion rate, sediment, measurement techniques, erosion monitoring
-$links=<a href="https://www.fs.fed.us/rm/pubs/rmrs_gtr94.pdf">PDF</a> (2,969 KB)
+$links=<a href="https://www.fs.usda.gov/rm/pubs/rmrs_gtr094.pdf">PDF</a> (2,969 KB)
 $type=peer reviewed
 #2001u####################################################
 $Title=Evaluation and enhancement of the CLIGEN weather generator
@@ -6663,6 +6576,7 @@ in the Idaho Batholith. Elliot and Parker use stratigraphic and geomorphic evide
 deposits. They use this information to develop recurrence probabilities for fire&ndash;flood sequences.
 $Keywords=Soil Hydrology, Wildfire assessment, Surficial processes, Idaho
 $lynx=
+$links=<a href="https://onlinelibrary.wiley.com/toc/10991085/2001/15/15?msockid=133a652bbc906b5c3d387046bddc6aac" target="_pdf">PDF</a> 
 $type=refereed
 #2001q####################################################
 $Title=Should ditches be graded? Testing unpaved roads with a computer program
@@ -6707,34 +6621,8 @@ $Abstract=A model for spatial prediction of landslide hazard is applied to an ex
  observed landslide locations to test the strength of the model.
 $Keywords=landslides, hazards, modeling, geographical information systems (GIS)
 $treesearch=pubs/23558
-$links=<a href="https://www.fs.fed.us/rm/pubs_other/rmrs_2001_foltz_r001.pdf">PDF</a> {224 KB -- USFS]|
+$links=<a href="https://www.fs.usda.gov/rm/pubs_other/rmrs_2001_foltz_r001.pdf">PDF</a> {224 KB -- USFS]|
  <a href="https://www.webpages.uidaho.edu/~peceg/Papers/Nevada_conference.pdf">PDF</a> [225K uidaho.edu]
-#2001o#############################################
-$title=After the fire, before the storm: post-erosion control efforts explored
-$year=2001
-$category=fire effects
-$publisher=CE News
-$authors=Robichaud
-$citationt=Robichaud, P.R.; Beyers, J.L.; Neary, D.G.
-	February 2001.
-	<a><i>After the fire, before the storm: Post-erosion control efforts explored.</i></a>
-	<b>CE News</b> 54-62.
-$abstract=
-$links= <a target="o" href="https://www.cenews.com/ederosion0201.html">HTML - CE News</a>
-$type=peer-reviewed
-*2001n#############################################
-$title=After the storm, before the rain
-$year=2001
-$category=fire effects
-$publisher=ASCE
-$authors=Robichaud
-$citationt=Robichaud, P.R.; Beyers, J.L.; Neary, D.G.
-	February 2001.
-	<a><i>After the storm, before the rain.</i></a>
-	<b>American Society of Civil Engineers Bulletin</b> 3(6): 3.
-$abstract=
-$links=
-$type=invited article
 #2001m###########################################################################################################
 $Title=		Validation of the FS WEPP interfaces for forest roads and disturbances
 $Year=		2001
@@ -6757,27 +6645,6 @@ $Keywords= Soil Erosion, WEPP, Forest Roads, Forest Engineering, FS WEPP
 $links=<a href="https://forest.moscowfsl.wsu.edu/engr/library/Elliot/Elliot2001m/2001m.pdf">PDF</a><br>
 $zlinks=<a target="o" href="https://asae.frymulti.com/request2.asp?JID=5&AID=5553&CID=sca2001&v=&i=&T=2">ASAE pdf</a> (subscription) |
         <a target="o" href="https://asae.frymulti.com/request2.asp?JID=5&AID=5553&CID=sca2001&v=&i=&T=1">ASAE html</a> (subscription)
-*2001l###########################################################################################################
-$Title=Modified WEPP hydrology routines for forest watershed application description and validation
-$Year=2001
-$category=upland watersheds, erosion modeling
-$Publisher=ASAE
-$Authors=Elliot
-$authorblock=Joan Q. Wu<br>
-	Arthur C. Xu<br>
-	<b>William J. Elliot</b>
-$Citationt= Wu, J.Q.; Xu, A.C.; Elliot, W.J. 2001.
-	<a><i>Modified WEPP hydrology routines for forest watershed application description and validation.</i></a>
-	ASAE paper number 01-8008, presented at the <b>2001 ASAE Annual International Meeting</b>
-	sponsored by American Society of Agricultural Engineers, Sacramento Convention Center, Sacramento, California, USA,
-	July 30--August 1, 2001.
-	<b>ASAE--2001: An Engineering Odyssey</b>.
-	Technical Session 21: <i>Forest soil erosion and water quality.</i>
-	St.&nbsp;Joseph, MI: ASAE.
-$comment=I received an email from Joan Wu who informed me that the paper was never written, it was just presented.  We should therefore remove it from our list of pubs! [welliot 10/17/2003]
-$Abstract=
-$Keywords=probabilistic
-$lynx=
 #2001k####################################################
 $Title=A probabilistic approach to modeling erosion for spatially-varied conditions
 $Year=2001
@@ -6859,7 +6726,9 @@ $Citationt=Brady, J.; Robichaud, P.R.; Pierson, F.B. 2001.
 	<a href="https://asae.org/meetings/am2001/technical.pdf" target="o"><b>ASAE--2001: An Engineering Odyssey</b></a>.
 	Technical Session 21: <i>Forest soil erosion and water quality.</i>
 	St.&nbsp;Joseph, MI: ASAE.
-$Abstract=
+$Abstract=Recent fires have renewed interest in fire's effect on different components of the ecosystem, in particular fire's effects on infiltration and runoff. Forests subjected to high severity burns often develop water repellent soil conditions. Under this condition, the infiltration of water into the soil is lowered and consequently additional runoff occurs. Increased runoff can contribute to surface erosion and lead to sediment deposition in downstream areas.
+In this study, a rainfall simulator was used to compare infiltration rates from plots located in high severity burned areas to plots in undisturbed areas on the Sula Ranger District, Bitterroot National Forest in western Montana after the 2000 fire season. Simulated rainfall was applied to 102 0.5 m2 plots for 60 min at 100 mm hr-1. Bottles collected runoff at 1 and 2-min intervals. There were 15 plots for each of the four burned sites, and 14 plots for the three unburned sites, half of which had their rootmat removed.
+      Results indicate naturally occurring water repellent soil conditions of the surface on the unburned, rootmat-removed treatment, which had the lowest infiltration rates. The burned plots on the other hand had a water repellent layer centimeters beneath the soil surface. This allowed for some water storage in the surface layer while also maintaining low infiltration rates even below what was expected, especially towards the end of the simulation runs. These results are most likely due to the extremely dry state of the soil and the natural water repellent condition that is common in volcanic ash-cap soils.
 $Keywords=infiltration, Montana, post-fire assessment
 $lynx=<a href="https://forest.moscowfsl.wsu.edu/engr/library/Robichaud/Robichaud2001i/2001i.pdf">PDF</a> [146k]
 $links=<a href="https://forest.moscowfsl.wsu.edu/engr/library/Robichaud/Robichaud2001i/2001i.html">HTML</a> 
@@ -6977,21 +6846,6 @@ $links=<a target="o" href="https://forest.moscowfsl.wsu.edu/engr/library/Elliot/
  <a target="o" href="https://forest.moscowfsl.wsu.edu/engr/library/Elliot/Elliot2001e/2001e.html">HTML</a>
 $zlinks=<a target="o" href="https://asae.frymulti.com/request2.asp?JID=1&AID=3290&CID=se2001&v=&i=&T=2">ASAE pdf</a> (subscription) |
         <a target="o" href="https://asae.frymulti.com/request2.asp?JID=1&AID=3290&CID=se2001&v=&i=&T=1">ASAE html</a> (subscription)
-#2001d####################################################
-$Title=After the fire, before the storm
-$Year=2001
-$category=fire effects
-$Publisher=ASCE
-$Authors=Robichaud
-$authorblock=<b>Peter R. Robichaud</b><br>
-	Jan L. Beyers<br>
-	Daniel G. Neary
-$Citationt=Robichaud, P.R.; Beyers, J.L.; Neary, D.G. 2001.
-	<a><i>After the fire, before the storm.</i></a>
-	<b>ASCE Bulletin</b> Inland Empire Section, March 2001; 3(6): 3.
-$Abstract=Post-fire erosion control efforts explored
-$Keywords=erosion control, post-fire erosion
-$links=<a href="https://www.cenews.com/ederosion0201.html">HTML -- CE News</a>
 #2001c####################################################
 $Title=Comparing erosion risks from forest operations to wildfire
 $Year=2001
@@ -7017,7 +6871,7 @@ $Abstract=Wildfire and forest operations remove vegetation and disturb forest so
 	fire-induced flood flows on forest stream systems, however, are unknown.
 $Keywords=Soil Erosion, Forest operations, Forest fires, WEPP, Pacific NW
 $links=<a href="https://forest.moscowfsl.wsu.edu/engr/library/Elliot/Elliot2001c/2001c.pdf">PDF</a> [144k]
-*2001b####################################################
+#2001b####################################################
 $Title=Use of WEPP modeling in watershed analysis and timber harvest planning
 $Year=2001
 $category=upland watersheds, erosion modeling
@@ -7031,9 +6885,10 @@ $Citationt=Conroy. 2001.
 	July 30--August 1, 2001.
 	<a href="https://asae.org/meetings/am2001/technical.pdf" target="o"><b>ASAE--2001: An Engineering Odyssey</b></a>.
 	Technical Session 21: <i>Forest soil erosion and water quality.</i>
-	St.&nbsp;Joseph, MI: ASAE.
-$Abstract=
-$Keywords=
+	St.&nbsp;Joseph, MI: ASAE. DOI:10.13031/2013.7501
+$Abstract=As part of its Habitat Conservation Plan, the Pacific Lumber Company is evaluating the effects of its management activities on the water quality parameters of the streams within its 225,000- acre ownership. Our Science Staff, in conjunction with U.S. Forest Service researchers, have developed procedures for estimating the amount of sediment delivered to watercourses from past, present, and future timber harvest operations. These analyses are conducted at both large (Watershed Analysis) and small (Timber Harvest Plan project) levels. The evaluation tool we designed allows resource managers to compare the effects of varying levels of disturbance (e.g., silvicultural intensity, harvesting method, and site preparation method) so that they can develop appropriate management plans and, site-specific mitigation measures to minimize or completely offset the detrimental impacts. Currently, we are conducting research and monitoring activities to validate the model’s accuracy, and to expand the usage of the model to other areas of our operation. In the future, we expect that our procedures can be used by other resource professionals, instead of the ownership-specific usage of it’s current application.
+$Keywords=soil erosion, WEEP, modeling, timber harvest
+$links=<a href="http://dx.doi.org/10.13031/2013.7501">PDF</a> [144k]
 $lynx=
 #2001a####################################################
 $Title=Interfacing soil erosion models for the World Wide Web
@@ -7070,43 +6925,7 @@ $Abstract=Soil erosion models have been under development since the late 1930s. 
 	model and for slope stability modeling.
 $Keywords=Water Erosion Prediction Project; WEPP; CLIGEN; PRISM; FS WEPP
 $links=<a href="https://forest.moscowfsl.wsu.edu/engr/library/Hall/Hall2001a/2001a.html">HTML</a>
-#2000w###########################################################################################################
-$Title=Risk assessment of fuel management practices on hillslope erosion processes
-$Year=2000
-$category=fire effects
-$Publisher=University of Idaho
-$Authors=Robichaud, Elliot
-$authorblock=<b>Peter R. Robichaud</b><br>
-	<b>William J. Elliot</b><br>
-	Frederick B. Pierson<br>
-	Peter M. Wohlgemuth
-$Citationt=Robichaud, P.R.; Elliot, W.J.; Pierson, F.B.; Wohlgemuth, P.M. 2000. 
-	<a><i>Risk assessment of fuel management practices on hillslope erosion processes.</i></a>
-	<i>In:</i> Neuenschwander, L.F.; Ryan, K.C., tech. eds.,
-	<b>Proceedings from the Joint Fire Science Conference and Workshop --
-	 "Crossing the Millennium: Integrating Spatial Technologies and Ecological Principles for a New Age in Fire Management";</b>
-	June 15-17, 1999; Boise, ID. 
-	Moscow, ID: University of Idaho; Vol. II: 58-64.
-$Abstract=Fuel and land management activities in the past
-	century have placed wildland values such as soil and water quality at greater risk due to increased soil erosion.
-	Eroded sediment can lead to decreased long-term soil productivity and can adversely impact aquatic ecosystems.
-	Higher runoff rates from severely burned landscapes can lead to flooding and increased risk to human life and property.
-	Over the past ten years, we have completed studies on eight sites in the Northwestern and Southeastern U.S. measuring erosion impacts associated with prescribed burning.
-	We are now carrying out field and laboratory studies addressing knowledge gaps in our understanding of
-	fuel management practices on soil erosion, and developing a user-friendly computer interface 
-	to evaluate the risk and consequences of erosion hazards following wildfires, mitigation treatments,
-	and prescribed burns. Specific tasks that we are addressing include: determining hillslope
-	characteristics that govern dry ravel processes such as slope steepness, vegetation density, soil texture
-	and disturbance impacts; determining the spatial and temporal variability in infiltration and erosion
-	parameters needed to predict overland flow and soil detachment after wildfire; quantifying effectiveness
-	of three mitigation practices in reducing sediment production for specified design storms following
-	wildfires; and evaluating measured erosion rates and estimates of sediment production after wildfires at
-	the upland watershed/catchment scale. Data collection has begun from a burned-over catchment
-	and preliminary results are presented. Additional discussion addresses methodologies and
-	approaches to evaluate and model erosion risk and hazard.
-$Keywords=soil erosion, fire severity, risk assessment, modeling, fuel management, Pacific NW, Southeastern US
-$lynx=[ <a href="https://www.nifc.gov/joint_fire_sci/conferenceproc/Mo-07Robichaudetal.pdf"  class="pdf">PDF</a> (31k) -- broken 6/2003 ]
-#2000v########################################################
+*2000v########################################################
 $title=Impact of roads and other corridors
 $year=2000
 $category=road erosion
@@ -7134,7 +6953,24 @@ $Citationt=Robichaud, P.R.; Hungerford, R.D.; Gasvoda, D.S., inventors;
 	2000.
 	<a><b>Method for the measurement of forest duff moisture content.</b></a>
 	U.S. Patent 6,078,181. June 20. 9 p. Int. Cl<sup>7</sup>G01R 27/26. 
-$Abstract=
+$Abstract=An apparatus and method for the moisture 
+content measurement of compressible materials 
+using pressure to firmly hold surface probes against the material to be measured. The 
+apparatus uses moisture measurement circuitry 
+employed in frequency domain impedance or 
+time domain reflectometry devices to obtain 
+moisture content readings from materials. These 
+moisture content readings are based on the 
+apparent dielectric constant of the measured 
+material. Subsurface air voids or gaps found in loose, layered materials undesirably influence 
+moisture measurement readings by reducing the 
+apparent dielectric constant of the measured 
+material. Pressure is supplied through the 
+apparatus to the material in the proximity of the 
+surface probes, thereby reducing air voids to 
+enhance measurement accuracy. The apparatus and method are especially useful for 
+compressible organic materials such as forest 
+duff, hay and soil.
 $Keywords=duff moisture meter
 $lynx=
 $links=<a href="/engr/library/Robichaud/Robichaud2000u/2000u.pdf">PDF</a> [865KB]
@@ -7159,7 +6995,7 @@ $Abstract=This paper presents an initial study to determine whether the hydrolog
 	may be over-predicting water content of deeper soils, and that the regression model may
 	be under-predicting the factor of safety.
 $Keywords=Forest roads, Slope stability, Forest hydrology, Erosion models, WEPP, XSTABL, Factor of safety
-$lynx=<a href="https://forest.moscowfsl.wsu.edu/engr/library/Elliot/Elliot2000t/2000t.pdf">PDF</a> [275k]
+$links=<a href="https://forest.moscowfsl.wsu.edu/engr/library/Elliot/Elliot2000t/2000k.pdf">PDF</a> [275k]
 #2000s#################################################
 $Title=Effectiveness of needle cast from burnt conifer trees on reducing erosion
 $Year=2000
@@ -7182,6 +7018,7 @@ $Abstract=Wildfires in steep forest environments can often produce disasterous r
   A log-decay relationship provided a good fit of the data.
   These relationships will be useful for the assessment of erosion potential after forest fires from a practical as well as a modeling standpoint.
 $Keywords=Residue cover, Forest, Surface runoff, Erosion, Fires, needle cast
+$links=<a href="https://forest.moscowfsl.wsu.edu/engr/library/Robichaud/Robichaud2000s/2000s.pdf">PDF</a> 
 $lynx=
 #2000r#################################################
 $Title=The Forest Service WEPP interfaces
@@ -7229,8 +7066,8 @@ $Abstract=Following wildfires, burned areas are assessed by special teams to det
  [This is a summary of our findings from <a target="o" href="https://www.fs.fed.us/rm/pubs/rmrs_gtr63.pdf" class="pdf">GTR-63</a> (882k .pdf)]
 $Keywords=BAER, Burned area emergency rehabilitation, erosion mitigation
 $lynx=<a href="https://www.fs.fed.us/rm/pubs/stewardship/375_378.pdf">PDF</A> [25 MB]
-$links=<a href="https://www.fs.fed.us/rm/pubs/rmrs_p013/rmrs_p013_375_378.pdf" target="_pdf">PDF</a>
-#2000p#################################################
+$links=<a href="https://www.fs.usda.gov/rm/pubs/rmrs_p013/rmrs_p013_375_378.pdf" target="_pdf">PDF</a>
+*2000p#################################################
 $Title=Forest fire effects on hillslope erosion: what we know
 $Year=2000
 $category=fire effects
@@ -7255,7 +7092,7 @@ $Abstract=Increased awareness of the role of fire in healthy ecosystems has focu
 $Keywords=Prescribed Fire, post-fire effects, forest management, western US
 $links=<a href="https://www.watershed.org/wmc/news/win_02/2_hillslope_fire.htm>HTML</a>
 $type=peer reviewed
-         <a target="o" href="https://www.fs.fed.us/rm/pubs/rmrs_gtr63.pdf" class="pdf">PDF (882k)</a> ]
+         <a target="o" href="https://www.fs.usda.gov/rm/pubs/rmrs_gtr63.pdf" class="pdf">PDF (882k)</a> ]
 #2000n#################################################
 $Title=Evaluating the effectiveness of post-fire rehabilitation treatments
 $Year=2000
@@ -7357,7 +7194,7 @@ $Abstract=Environmental attributes relevant for spatial prediction of landslides
 $Keywords=Landslide Hazard, Slope Stability, Geographic Information System, Spatial Prediction, Multivariate Models, Discriminant Analysis 
 $treesearch=pubs/23566
 $links=<!-- a href="https://www.webpages.uidaho.edu/~peceg/Papers/Denver_paper.pdf">PDF [295K uidaho.edu] -->
- <a href="https://www.fs.fed.us/rm/pubs_other/rmrs_2000_foltz_r001.pdf">PDF</a> [294K USFS]
+ <a href="https://www.fs.usda.gov/rm/pubs_other/rmrs_2000_foltz_r001.pdf">PDF</a> [294K USFS]
 #2000j###################################################
 $Title=Adapting WEPP (Water Erosion Prediction Project) for forest watershed erosion modeling
 $Year=2000
@@ -7373,9 +7210,19 @@ $Citationt=Wu, J.Q.; Xu, A.C.; Elliot, W.J. 2000.
 	 <a><i>Adapting WEPP (Water Erosion Prediction Project) for Forest Watershed Erosion Modeling.</i></a>
                Paper No. 002069. Presented at the 2000 International ASAE Meeting, 9-12 July, Milwaukee, WI.
                St. Joseph, MI: ASAE. 9&nbsp;p.
-$Abstract=
+$Abstract=Due to elevated public concerns of forest stream pollution by excessive sedimentation caused by human
+activities, there is an increasing need in forest management for prediction tools which can provide accurate
+information about sedimentation from hillslopes to streams and rivers. Yet most quantitative methods for
+evaluating sedimentation are limited by a poor understanding of the hydrological processes involved
+(Klemes, 1986). The Water Erosion Prediction Project (WEPP) watershed model, a computer-implemented,
+physically-based, distributed-parameter erosion prediction software developed by the U.S. Department of
+Agriculture, has demonstrated its usefulness in such forest applications as modeling erosion from a segment
+of insloped or outsloped road, harvested units, and burned units (Morfin et al., 1996; Elliot and Hall, 1997;
+Tysdal et al., 1997). However, when used for modeling flow and sediment discharges from a forest watershed
+of complex topography and channel systems, WEPP consistently underestimates these quantities, in
+particular, the flow discharge at the watershed outlet (J. Boll and R. Foltz, personal communication, 1999).
 $Keywords=WEPP, erosion modeling, forested watersheds
-$lynx=<a href="https://forest.moscowfsl.wsu.edu/engr/library/Elliot/Elliot2000j/2000j.pdf">PDF</a> [94k]
+$links=<a href="https://forest.moscowfsl.wsu.edu/engr/library/Elliot/Elliot2000j/2000j.pdf">PDF</a> [94 KB]
 #2000i#################################################
 $Title=Spatial prediction of landslide hazard using logistic regression and GIS
 $Year=2000
@@ -7400,7 +7247,7 @@ $Abstract=The Inland Northwest U.S. has experienced significant and widespread l
   The resulting product may be used for forest planning and decision support for maintenance, obliteration or development of forest roads.
   Predictions of increased local climate variability and extreme events portend that hazard maps are critical for minimizing negative impacts on forest infrastructure and environmental degradation due to sediment pulses and stream course obliteration. 
 $Keywords=Landslides, Landslide hazard, Slope stability, Geographic Information System, Spatial Prediction, Multivariate models, Logistic Regression, Idaho
-$links=<a href="https://www.colorado.edu/research/cires/banff/pubpapers/110/">HTML</a> [colorado.edu]
+$links=<a href="https://www.researchgate.net/publication/313666224_Spatial_prediction_of_landslides_hazard_using_logistic_regression_and_GIS">PDF</a>
 #2000h#################################################
 $Title=Measuring and modelling soil erosion processes in forests
 $Year=2000
@@ -7440,7 +7287,7 @@ $Abstract=A prime forest resource is clean water for downstream beneficial uses.
  current WEPP model and user-friendly interfaces have been developed to assist field
  managers to apply this technology to various forest conditions.
 $Keywords=erosion modeling, WEPP, Sedimentation
-$lynx=<a href="https://forest.moscowfsl.wsu.edu/engr/library/Elliot/Elliot2000h/2000h.pdf">PDF</a> [692k]
+$links=<a href="https://forest.moscowfsl.wsu.edu/engr/library/Elliot/Elliot2000h/2000h.pdf">PDF</a> [692k]
 #2000g###########################################################################################################
 $Title=Fire effects on infiltration rates after prescribed fire in northern Rocky Mountain forests, USA
 $Year=2000
@@ -7521,6 +7368,30 @@ $citationt=Robichaud, P.R. 2000.
 	<i>In:</i>
 	Flug, Marshall; Frevert, Donald; Watkins, Jr., David W., eds. <b>Proceedings from the Conference on Watershed Management and Operations Management,</b> June 20-24, 2000, Fort Collins, CO.
 	Reston, VA: American Society of Civil Engineers. 11&nbsp;p.
+$Abstract=Spending on postfire emergency watershed rehabilitation has increased during the past decade. A
+west-wide evaluation of USDA Forest Service burned area emergency rehabilitation (BAER) treatment
+effectiveness was undertaken as a joint project by USDA Forest Service Research and National Forest
+System staffs. This evaluation covers 470 fires and 321 BAER projects, from 1973 through 1998 in USDA
+Forest Service Regions 1 through 6. A literature review, interviews with key Regional and Forest BAER
+specialists, analysis of burned area reports, and review of Forest and District monitoring reports were
+used in the evaluation. The study found that spending on rehabilitation has increased to over $48 million
+during the past decade because the perceived threat of debris flows and floods has increased where fires
+are closer to the wildland-urban interface. Existing literature on treatment effectiveness is limited, thus
+making treatment comparisons difficult. The amount of protection provided by any treatment is small. Of
+the available treatments, contour-felled logs show promise as an effective hillslope treatment because
+they provide some immediate watershed protection, especially during the first postfire year. Seeding has
+a low probability of reducing the first season erosion because most of the benefits of the seeded grass
+occurs after the initial damaging runoff events. To reduce road failures, treatments such as properly
+spaced rolling dips, water bars, and culvert reliefs can move water past the road prism. Channel
+treatments such as straw bale check dams should be used sparingly because onsite erosion control is
+more effective than offsite sediment storage in channels in reducing sedimentation from burned
+watersheds. From this review, we recommend increased treatment effectiveness monitoring at the
+hillslope and sub-catchment scale, streamlined postfire data collection needs, increased training on
+evaluation postfire watershed conditions, and development of an easily accessible knowledge base of
+BAER techniques.
+$Keywords=burn severity, erosion control, BAER, burned area emergency rehabilitation, erosion mitigation,
+seeding, monitoring
+$links=<a href="https://www.fs.usda.gov/rm/boise/AWAE/labs/awae_flagstaff/publications/rmrs_gtr063_robichaud_etal_evaleffectpostfire.pdf">PDF</a> [795k]
 $plinks=<a href="https://ascelibrary.aip.org/getpdf/servlet/GetPDFServlet?filetype=pdf&id=ASCECP000105040499000036000001&idtype=cvips ">PDF</a>&nbsp;(363 kB)&nbsp;&nbsp;ASCE
 #2000d###########################################################################################################
 $Title=Modeling rangeland watershed erosion processes
@@ -7554,8 +7425,7 @@ $Abstract=Most common soil erosion models were developed for agricultural condit
 	rangeland predictions were 1/6 the observed sediment yields. In a sensitivity analysis
 	with the FS WEPP interface, as cover increases, differences in runoff and erosion between soils decreases.
 $Keywords=watershed erosion, FSWEPP, WEPP, modeling, Colorado
-$lynx=<a href="https://forest.moscowfsl.wsu.edu/engr/library/Elliot/Elliot2000d/2000d.pdf">PDF</a> [108k]
-$plinks=<a href="https://ascelibrary.aip.org/getpdf/servlet/GetPDFServlet?filetype=pdf&id=ASCECP000105040499000033000001&idtype=cvips ">PDF</a>&nbsp;(101 kB)&nbsp;&nbsp;ASCE
+$links=<a href="https://forest.moscowfsl.wsu.edu/engr/library/Elliot/Elliot2000d/2000d.pdf">PDF</a> [108k]
 #2000c###########################################################################################################
 $Title=Modeling soil erosion from insloping forest roads with impoundment or surface cross drain structures
 $Year=2000
@@ -7598,8 +7468,7 @@ $Abstract=Soil erosion is one of the key concerns in forest resource management.
 	WEPP is a useful tool in predicting water erosion from insloping forest roads with
 	impoundment or cross drain structures as well as in helping establish optimum road drainage system designs.
 $Keywords=road erosion, impoundment, soil erosion, WEPP
-$lynx=<a href="https://forest.moscowfsl.wsu.edu/engr/library/Elliot/Elliot2000c/2000c.pdf">PDF</a> [992k]
-$plinks=<a href="https://ascelibrary.aip.org/getpdf/servlet/GetPDFServlet?filetype=pdf&id=ASCECP000105040499000047000001&idtype=cvips ">PDF</a>&nbsp;(956 kB)&nbsp;&nbsp;ASCE
+$links=<a href="https://forest.moscowfsl.wsu.edu/engr/library/Elliot/Elliot2000c/2000c.pdf">PDF</a> [992k]
 #2000b#########################################################
 $Title=Road erosion estimation equations derived using a WEPP database
 $Year=2000
@@ -7673,8 +7542,7 @@ $Abstract=This study investigated the sediment production from various aggregate
 	whether an aggregate was classified as good or marginal was not sufficient to estimate
 	sediment production. The best indicator of sediment production was the percent passing the number 30 sieve.
 $Keywords=aggregate, road erosion, erodibility, Pacific NW
-$lynx=<a href="https://forest.moscowfsl.wsu.edu/engr/library/Foltz/Foltz2000a/2000a.pdf">PDF</a> [80k]
-$plinks=<a href="https://ascelibrary.aip.org/getpdf/servlet/GetPDFServlet?filetype=pdf&id=ASCECP000105040499000045000001&idtype=cvips ">PDF</a>&nbsp;(70 kB)&nbsp;&nbsp;ASCE
+$links=<a href="https://forest.moscowfsl.wsu.edu/engr/library/Foltz/Foltz2000a/2000a.pdf">PDF</a> [80kb]
 #1999t###############################
 $title=Post-fire burned area emergency rehabilitation treatments: do they work in the Southwest?
 $citation=Neary, D.G.; Robichaud, P.R.; Beyers, J.L.; Hubbert, K.R.;
