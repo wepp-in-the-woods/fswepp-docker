@@ -9338,7 +9338,7 @@ the effects of gravel surfaces, mulches on fillslopes, rock blankets in drainage
 pressure; and the effects of site preparation on the residual root mass.
 $ref= [https://www.for.gov.bc.ca/cariboo/research/hydro/ErosionBibliography.pdf] [www.stream.fs.fed.us/water-road/ w-r-pdf/bibliography.pdf]
 $type=peer reviewed
-#1993b##############################################
+*1993b##############################################
 $title=Validation of the WEPP model for forest roads
 $year=1993
 $category=erosion modeling, road erosion
@@ -9412,7 +9412,8 @@ $Abstract=A method to develop erodibility prediction equations was developed
 $Keywords=sediment yield, rainfall simulation, erosion, California, interrill erosion
 $Citationt=Burroughs, E.R., Jr.; Luce, C.H.; Phillips, F. 1992.
  <a><i>Estimating interrill erodibility of forest soils.</i></a>
- <b>Transactions of the ASAE,</b> Sept.-Oct. 1992, 35(5): 1489-1495.
+ <b>Transactions of the ASAE,</b> Sept.-Oct. 1992, 35(5): 1489-1495. DOI: 10.13031/2013.28757.
+$links=<a href="https://doi.org/10.13031/2013.28757" target="_pdf">PDF</a> 
 $lynx=
 #1992b###########################################################################################################
 $Title=A set of continuous univariate pseudo-random number generation routines for use in computer simulation
@@ -9457,6 +9458,7 @@ $Citationt=Hall, D.E. 1992.
 	<a><b>A set of continuous univariate pseudo-random number generation routines for use in computer simulation.</b></a>
 	M.S. thesis.
 	Moscow, ID: University of Idaho. 98&nbsp;p.
+$links=<a href="" target="_pdf">PDF</a> 
 #1992a###########################################################################################################
 $Title=Level I Stability Analysis (LISA) documentation for version 2.0
 $Year=1992
@@ -9467,7 +9469,7 @@ $authorblock=<b>Carol J. Hammond</b><br>
 	<b>David E. Hall</b><br>
 	Stanley Miller<br>
 	<b>Paul G. Swetik</b>
-$Abstract=
+$Abstract=The Level 1 Stability Analysis (LISA) computer program is a tool to help estimate the relative stability of natural slopes or landforms. LISA results areintended to support management decision at the multi-project or resouce allocation level of planning. The primary use of the probability of failure estimated using LISA to make qualitative, relative comparisons between the stability of landforms, and to identify areas that should be targeted for additional analysis. LISA also can be used to estimate the relative decrease in stability of landform after timber harvet due to a potential reduction in estimated tree root strength and an increase in groundwater levels. The probability of failure also can be used quantitatively in a risk analysis, such as an expected monetary value (EMV) decision analysis. 
 $Keywords=LISA, slope stability, landslide
 $Citationt=Hammond, C.; Hall, D.; Miller, S.; Swetik, P.
 	1992.
@@ -9475,8 +9477,9 @@ $Citationt=Hammond, C.; Hall, D.; Miller, S.; Swetik, P.
 	General Technical Report INT-285.
 	Ogden, UT: U.S. Department of Agriculture, Forest Service, Intermountain Research Station.
 	190&nbsp;p.
-$links=<a href="lisadoc.html">HTML - Overview of Level I Stability Analysis (LISA)</a> <br>
-       <a href="lisaerr.html">HTML - Errata for Level I Stability Analysis (LISA)</a> <br>
+$links=<a href="https://forest.moscowfsl.wsu.edu/engr/library/Hammond/Hammond1992a/LISA%20Chpt%201%20and%202.pdf" target="_pdf">PDF</a> 
+<a href="lisadoc.html">HTML - Overview of Level I Stability Analysis (LISA)</a> <br>
+<a href="lisaerr.html">HTML - Errata for Level I Stability Analysis (LISA)</a> <br>
 <a href="/engr/library/Hammond/Hammond1992a/LISA Chpt 1 and 2.pdf" target="_pdf">Chapters 1 and 2, graphic PDF</a> [3.5 MB] <br>
 <a href="/engr/library/Hammond/Hammond1992a/LISA Chpt 3 and 4.pdf" target="_pdf">Chapters 3 and 4, graphic PDF</a> [1.5 MB] <br>
 <a href="/engr/library/Hammond/Hammond1992a/LISA Chpt 5 and 6.pdf" target="_pdf">Chapters 5 and 6, graphic PDF</a> [6.5 MB] <br>
@@ -9524,7 +9527,7 @@ $Citationt=Shahlaee, A.K.; Nutter, W.L.; Burroughs, E.R., Jr.; Morris, L.A.
  1991.
  <a><i>Runoff and sediment production from burned forest sites in the Georgia Piedmont.</i></a>
  <b>Water Resources Bulletin,</b> June 1991, 27(3): 485-493.
-$lynx=
+$links=<a href="https://doi.org/10.1111/j.1752-1688.1991.tb01449.x" target="_pdf">PDF</a> 
 #1991h###########################################################################################################
 $Title=The effect of reduced tire pressure on sediment production from a forest road
 $Year=1991
@@ -9558,6 +9561,7 @@ $Citationt=Bellitto, M.; Burroughs, E.R. Jr.; Foltz, R.B. 1991.
 <a><b>The effect of reduced tire pressure on sediment production from a forest road.</b></a>
 A report on a cooperative study between the Intermountain Research Station, WO Engineering and San Dimas Technology and Development Center.
 Internal Document. 28&nbsp;p.
+$links=
 $lynx=
 #1991g###########################################################################################################
 $Title=Sediment processes in wheel ruts on unsurfaced forest roads
@@ -9727,15 +9731,15 @@ $Title=WEPP soil erodibility experiments for rangeland and cropland soils
 $Year=1991
 $category=
 $Authors=Elliot
-$Publisher=
+$Publisher=Soil and Water Coservation Society
 $authorblock=John Laflen<br><b>William J. Elliot</b><br>R. Simanton<br>S. Holzhey<br>K. Kohl
-$abstract=
+$abstract=The experimental determination of soil erodibility values for WEPP requires the use of different plot areas, procedures, and measurements than those for determining USLE soil erodibility. A study on rangeland and cropland soils has been conducted over much of the United States to produce the data base needed to estimate soil erodibility for application of WEPP to the nation's soils. Analyses indicate that the soil erodibility values bear little quantitative resemblance to USLE soil erodibility values, but variables important in determining USLE soil erodibility values, such as particle size distribution and organic matter content, may also be important in determining WEPP soil erodibility values. Extremely high erosion rates may occur in rills, particularly if flow rates are high and slopes are fairly steep.
 $Keywords=WEPP
 $Citationt=Laflen, J. M., W. J. Elliot, R. Simanton, S. Holzhey and K. D. Kohl.
 	1991.
 	<a><i>WEPP Soil Erodibility experiments for rangeland and cropland soils.</i></a>
         <b>J. Soil and Water Conserv.</b> 46(1):39-44.  1991.
-$lynx=
+$links=<a href="https://www.researchgate.net/publication/43257960_WEPP_Soil_Erodibility_Experiments_for_Rangeland_and_Cropland_Soils" target="_pdf">PDF</a> 
 #1990d###############################################
 $Title=Measuring soil roughness changes with an ultrasonic profiler
 $Year=1990
@@ -9770,8 +9774,8 @@ $Keywords=random roughness, surface change, tillage
 $type=
 $treesearch=
 $plynx=
-$lynx=
-#1990c###############################################
+$links=<a href="https://www.researchgate.net/publication/33810374_An_ultrasonic_profiler_for_the_measurement_of_soil_surface_roughness" target="_pdf">PDF</a> 
+*1990c###############################################
 $Title=Reducing stream siltation through slash filter windrows
 $Year=1990
 $category=disturbed forests
@@ -9791,7 +9795,7 @@ $Citationt=Cain, C.; Burroughs, E.R., Jr. 1990.
  Presented at the <b>1990 International Winter Meeting,</b>
  American Society of Agricultural Enginers, Hyatt Regency Chicago Hotel,
  Chicago, IL, December 18-21, 1990. 8&nbsp;p.
-$lynx=
+$links=<a href="" target="_pdf">PDF</a> 
 #1990b###########################################################################################################
 $Title=Sediment production from forest roads with wheel ruts
 $Year=1990
@@ -9868,7 +9872,7 @@ $Keywords=WEPP
 $Citationt=Elliot, W.J.; Liebenow, A.M.; Laflen, J.M.; Kohl, K.D. 1989.
 <a>A Compendium of Soil Erodibility Data from WEPP Cropland Soil Field Erodibility Experiments 1987 and 1988.</a>
 NSERL Report No. 3, The Ohio State University, and USDA Agricultural Research Service
-$links=<a href="https://topsoil.nserl.purdue.edu/nserlweb/weppmain/comp/comp.html">HTML</a>
+$links=<a href="https://babel.hathitrust.org/cgi/pt?id=umn.31951002974677l&seq=1">HTML</a>
 #1989a###########################################################################################################
 $Title=Reduction of soil erosion on forest roads
 $Year=1989
@@ -9892,17 +9896,6 @@ $links=<a href="https://forest.moscowfsl.wsu.edu/engr/library/Burroughs/Burrough
  <!-- a href=https://www.fs.fed.us/rm/pubs_int/int_gtr264.pdf -->
  <!-- a href="https://forest.moscowfsl.wsu.edu/engr/library/Burroughs/Burroughs1989a/1989a.html" -->
  <!-- Request from a href="mailto:rschneider@fs.fed.us?subject=INT-RP-264" -->
-*1988a###########################################################################################################
-$Title=
-$Year=1988
-$Authors=Hammond
-$category=
-$Publisher=
-$authorblock=
-$Abstract=
-$Keywords=
-$Citationt=
-$lynx=
 #1987a###########################################################################################################
 $Title=Proposed onsite sediment yield model for forest conditions
 $Year=1987
@@ -10023,46 +10016,7 @@ $Citationt=Burroughs, E.R., Jr.; Watts, F.J.; King, J.G.; Hansen, D. 1984.
  <a><b>Relative effectiveness of fillslope treatments in reducing surface erosion, Horse Creek Road, Nezperce National Forest, Idaho.</b></a>
  Intermountain Forest and Range Experiment Station, Moscow, ID. Unpublished report. January 1984.
 $lynx=
-#1984b###########################################################################################################
-$Title=Surfacing to reduce erosion of forest roads built in granitic soils
-$Year=1984
-$Authors=Burroughs
-$category=road erosion
-$Publisher=
-$authorblock=
-$Abstract=
- Over much of the northwestern United States, easily accessed timber stands
- have been roaded and many of the remaining timber stands are on steep sites
- with fragile soils where watershed and fishery values are high.
- Although erosion control is an important consideration in forest road
- construction, we have limited capability to estimate sediment yield from
- forest roads or to evaluate the effectiveness of erosion control treatments.
- This paper describes a series of studies on this subject conducted
- cooperatively by the Engineering Research Project, Intermountain Forest and
- Range Experiment Station, Forest Service, U.S. Department of Agriculture and
- the Civil Engineering Department, University of Idaho. The ultimate goal of
- this research effort is to develop technology for engineers to design
- cost-effective erosion control treatments for forest roads.
- <br><br>
- Several runoff and sediment yield models are available for adaptation to the
- forest road situation. These are: Road Sediment (ROSED) (Simons and others
- 1977, 1979; Li 1979), which is a detailed process model; and Simplified Road
- Sediment (SIRSED) (Simons and others 1976), which is a simplified version of
- ROSED. Required input data for these models is the geometry of the proposed
- road, expected climatic events, and several soils characteristics.
- ROSED and SIRSED require field calibration to relate site characteristics to
- parameters used in each model. These models may be calibrated by instrumenting
- road sections to record rainfall, runoff, and sediment yield. This approach
- is expensive and subject to the vagaries of the weather, and will require
- several years of operation to accumulate a reliable data set.
-$Keywords=road erosion, surface processes
-$Citationt=Burroughs, E.R., Jr.; Watts, F.J.; Haber, D.F.  1984.
- <a><i>Surfacing to Reduce Erosion of Forest Roads Built in Granitic Soils.</i></a>
- Presented at the
- <b>Symposium on Effects of Forest Land Use on Erosion and Slope Stability,</b>
- University of Hawaii, Honolulu, HI, U.S.A., May 7-11, 1984.
-$lynx=
-*1982b###########################################################################################################
+#1982b###########################################################################################################
 $Title=SEAMPLAN -- a computer tool for surface mine reclamation planning
 $Year=1982
 $Authors=Burroughs
@@ -10073,7 +10027,7 @@ $Keywords=mine reclamation, SEAMPLAN, reclamation planning computer model
 $Citationt=Burroughs, E.R., Jr.; Scott, M.D. 1982.
   <i><a>SEAMPLAN -- a computer tool for surface mine reclamation planning.</a></i>
   <b>Forestry Research West</b> Sept, 14-17.
-$lynx=
+$links=<a href="https://archive.org/details/CAT10751505/mode/2up?ref=ol&view=theater">HTML</a>
 #1982a###########################################################################################################
 $Title=Experience with a process-oriented road sediment model
 $Year=1982
@@ -10152,20 +10106,7 @@ $Citationt=Burroughs, E.R., Jr.; Thomas, B.R. 1977.
  Research Paper INT-190. USDA Forest Service.
  Intermountain Forest and Range Experiment Station. 27&nbsp;p.
 $lynx=
-#2004z###############################################
-$Title=
-$Year=
-$Authors=
-$Citationt=
-$category=
-$Publisher=
-$Abstract=
-$Keywords=
-$type=
-$treesearch=
-$plynx=
-$lynx=
-#2004z###############################################
+#code template###############################################
 $Title=
 $Year=
 $Authors=
@@ -10175,7 +10116,6 @@ $authorblock=
 $Abstract=
 $Keywords=
 $Citationt=
-$treesearch=
 $plynx=
-$lynx=
+$links=
 #end  ###############################################
