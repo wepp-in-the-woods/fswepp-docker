@@ -7776,44 +7776,6 @@ $Abstract= A computer program can help managers anticipate erosion and sediment 
  effects on reducing sediment delivered from insloped forest roads.
 $keyword=road erosion, WEPP, Oregon
 $links=<a href="https://forest.moscowfsl.wsu.edu/engr/library/Elliot/Elliot1999k/1999k.pdf">PDF</a> [5914k]
-#1999j##################################################
-$title=Measuring rill erosion rates in a steep forest environment
-$year=1999
-$category=disturbed forests
-$publisher=USDA FS RMRS
-$authors=Robichaud, Brown
-$authorblock=<b>Peter R. Robichaud</b><br><b>Robert E. Brown</b>
-$citationt=Robichaud, P.R.; Brown, R.E.
-	1999
-	<a><i>Measuring Rill Erosion Rates in a Steep Forest Environment.</i></a>
-        Presented at the
-        <b>1999 American Geophysical Union Spring Meeting,</b>
-        June&nbsp;1-4, Boston, MA.
-	Poster.
-$abstract=Erosion rates in a forest environment are generally small except
-when the ground surface is disturbed by human or natural causes.
-Concentrated flow can detach soil particles if the hydraulic
-energy is greater than the erosion resistance of the soil.
-In steep forest environments ample hydraulic energy is available to move
-the sediment load down slope; thus erosion is generally limited by the
-amount of detached sediment available for transport.
-The objective of this study was to measure the rill erosion rates for
-various surface conditions and slope steepness. 
-Rills were allowed to form naturally in each of four surface conditions
-[natural cover, low severity burn areas, high severity burn areas, and
-skid trails] at two field sites for three replications.
-Concentrated flow was projected downslope at
-five discharge rates (7, 22, 15, 30, 48 l&nbsp;min<sup>-1</sup>) on
-three slopes classes (20, 45, 65 %) for a 4 m length.
-Timed bottle samples, velocities, and flow depths were measured for each flow rate.
-Results suggest a detachment limiting condition existed with
-sediment concentration decreasing with each flow discharge rate.
-Calculated erosion rates were greater for the highly disturbed
-surface conditions than the less-disturbed surface conditions. 
-$type=poster
-$keywords=rill erosion
-$links=<a href="">PDF</a> [5914k]
-$lynx=<a href="reports/meas_rill.pdf" class="pdf">PDF (383k)</a>
 #1999i##################################################
 $title=Apparatus and method for the measurement of forest duff moisture content
 $year=1999
@@ -7851,23 +7813,6 @@ $Abstract=The Water Erosion Prediction Project (WEPP) model was run to predict s
 $Keywords=WEPP:Road, Erosion prediction, Interface, road, XDRAIN
 $links=<a href="https://forest.moscowfsl.wsu.edu/engr/library/Elliot/Elliot1999h/1999h.pdf">PDF</a> [524kB]
 $lynx=<a href="https://forest.moscowfsl.wsu.edu/engr/library/Elliot/Elliot1999h/1999h.pdf">PDF</a> [524k]
-#1999g##################################################
-$title=Water repellant soils in northern Rocky Mountains, USA
-$year=1999
-$category=
-$publisher=USDA FS RMRS IPNF
-$authors=Robichaud
-$authorblock=<b>Peter R. Robichaud</b><br>
-	G. Ford
-$citationt=Robichaud, P.; Ford, G.
-	1999.
-	<a><i>Water Repellant Soils in Northern Rocky Mountains, USA.</i></a>
-	U.S.D.A. Forest Service Rocky Mountain Research Station and Idaho Panhandle National Forests.
-	Poster.
-$keywords=water repellency, northern Rocky Mountains
-$type=poster
-$lynx=[ <a href="reports/water_rep.html">HTML abstract</a> 
-       | <a href="reports/water_rep.pdf" class="pdf">PDF (104k)</a> ]
 #1999f#################################################
 $Title=Measuring and modeling soil erosion in forests
 $Year=1999
@@ -9528,7 +9473,7 @@ $Citationt=Shahlaee, A.K.; Nutter, W.L.; Burroughs, E.R., Jr.; Morris, L.A.
  <a><i>Runoff and sediment production from burned forest sites in the Georgia Piedmont.</i></a>
  <b>Water Resources Bulletin,</b> June 1991, 27(3): 485-493.
 $links=<a href="https://doi.org/10.1111/j.1752-1688.1991.tb01449.x" target="_pdf">PDF</a> 
-#1991h###########################################################################################################
+*1991h###########################################################################################################
 $Title=The effect of reduced tire pressure on sediment production from a forest road
 $Year=1991
 $Authors=Burroughs, Foltz
@@ -9585,7 +9530,7 @@ $Keywords=sediment modeling; road erosion; wheel ruts; erosion processes; road
 $Citationt=Foltz, R.B. 1991. <a><b>Sediment processes in wheel ruts on unsurfaced forest roads.</b></a>
     Moscow, ID: University of Idaho. 177 p. Ph.D. thesis.
 $lynx=
-#1991f#########################################################
+*1991f#########################################################
 $title=Forest Service Engineering research to develop a model of onsite sediment production from forest roads and timber harvest areas
 $year=1991
 $category=erosion modeling, disturbed forests, road erosion
@@ -9631,7 +9576,7 @@ $abstract=Forest land management activities in the United States have extended a
  A lesser volume comes from surface erosion on the forest road prism, and a
  much smaller volume from landslides and surface erosion on timber harvest areas. Fall and winter
  rains, and spring snowmelt runoff in the west, provide ample energy for surface erosion.
-#1991e#########################################################
+*1991e#########################################################
 $title=United States Forest Service research on sediment production from forest roads and timber harvest areas
 $year=1991
 $category=disturbed forests, road erosion
@@ -9710,7 +9655,7 @@ $Citationt=Hammond, C.J.; Prellwitz, R.W.; Miller, S.M. 1991.
   Proceedings of the Sixth International Symposium, 10-14 February 1992, Christchurch, New Zealand.
   Rotterdam, The Netherlands: A.A. Balkema. Vol. 2, 959-964.
 $links=<a href="https://forest.moscowfsl.wsu.edu/engr/library/Hammond/Hammond1991c/1991c.html">HTML</a>
-#1991b#########################################################
+*1991b#########################################################
 $title=Hydraulic roughness and sediment yield in wheel ruts on forest roads
 $year=1991
 $category=road erosion
@@ -9896,7 +9841,7 @@ $links=<a href="https://forest.moscowfsl.wsu.edu/engr/library/Burroughs/Burrough
  <!-- a href=https://www.fs.fed.us/rm/pubs_int/int_gtr264.pdf -->
  <!-- a href="https://forest.moscowfsl.wsu.edu/engr/library/Burroughs/Burroughs1989a/1989a.html" -->
  <!-- Request from a href="mailto:rschneider@fs.fed.us?subject=INT-RP-264" -->
-#1987a###########################################################################################################
+*1987a###########################################################################################################
 $Title=Proposed onsite sediment yield model for forest conditions
 $Year=1987
 $Authors=Burroughs
@@ -9961,7 +9906,7 @@ $citationt=Burroughs, E.R., Jr. 1985.
    Irrigation & Drainage Div., ASCE.
    Denver, CO: ASCE Convention, April 30-May 1, 1985. 132-139.
 $links=<a href="https://forest.moscowfsl.wsu.edu/engr/library/Burroughs/Burroughs1985a/1985a.html" target="o">HTML</a>
-#1984c###############################################
+*1984c###############################################
 $Title=Relative effectiveness of fillslope treatments in reducing surface erosion, Horse Creek Road, Nezperce National Forest, Idaho
 $Year=1984
 $Authors=Burroughs, King
