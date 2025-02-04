@@ -9297,54 +9297,6 @@ $abstract=Postharvest residue burning is a common site preparation treatment use
 $keywords=erosion, prescribed burning, nitrogen loss, soil heating, sediment yield, sediment production, Pacific NW
 $links=<a href="https://forest.moscowfsl.wsu.edu/engr/library/Robichaud/Robichaud1994a/1994a.pdf">PDF</a> [429k]
 $type=peer reviewed
-#1993c######################################################
-$title=Development of an on-site prediction model for forest roads and timber harvest areas
-$year=1993
-$category=disturbed forests, road erosion, erosion modeling
-$publisher=IAHS
-$authors=Robichaud, Foltz, Luce
-$authorblock=<b>Peter R. Robichaud<br>Randy B. Foltz<br>Charlie H. Luce</b>
-$citationt=Robichaud, P.R.; Foltz, R.B;  Luce, C.H. 1993.
-   <i><a>Development of an on-site prediction model for forest roads and timber harvest areas.</a></i>
-   In: Hadley, R.F.; Mizuyama, T. (eds.).
-   <b>Sediment problems: Strategies for monitoring, prediction and control.</b>
-   Proceedings of the Yokohama Symposium, July 1993.
-   IAHS Publ. No. 217. 135-140.
-$abstract=The paper describes the development of a process-based model which is based on the
-  Water Erosion Prediction Project (WEPP) model developed for agricultural and range land.
-  The model is intended primarily for forest roads and disturbed harvest areas.
-  Parameter estimation techniques from field and laboratory methods are described.
- <br><br>
-USDA.s Water Erosion Prediction Project (WEPP) was initiated to predict sheet and rill erosion and
-to calculate annual sediment production on crop and rangelands. WEPP has been developed to
-replace the Universal Soil Loss Equation. Efforts are under way to extrapolate the WEPP cropland
-and rangeland model to forest areas. The development of a weather simulator is described, which
-will be capable of estimating weather parameters without nearby weather records. Model
-parameterization is described for road construction and timber harvest, based on field
-experiments. Parameters being addressed include: runoff flow in wheel ruts and drainage ditches;
-the effects of gravel surfaces, mulches on fillslopes, rock blankets in drainage ditches, and tire
-pressure; and the effects of site preparation on the residual root mass.
-$ref= [https://www.for.gov.bc.ca/cariboo/research/hydro/ErosionBibliography.pdf] [www.stream.fs.fed.us/water-road/ w-r-pdf/bibliography.pdf]
-$type=peer reviewed
-*1993b##############################################
-$title=Validation of the WEPP model for forest roads
-$year=1993
-$category=erosion modeling, road erosion
-$publisher=ASAE
-$authors=Elliot, Foltz, Luce
-$authorblock=<b>William J. Elliot</b>, <b>Randy B. Foltz</b>, <b>Charlie H. Luce</b>
-$abstract=Runoffs and erosion rates observed on forest road erosion plots
-were compared to values predicted by the WEPP version 93.1
-Runoffs were closely predicted for most soils.
-Interrill erosion rates were slightly overpredicted when using cropland
-interrill prediction methods.
-Rill erosion rates for wheel ruts were closely predicted from rangeland methods.
-$keywords=WEPP, forest roads, erosion prediction
-$citationt=Elliot, W.J.; Foltz, R.b.; Luce, C.H. 1993.
-  <a><i>Validation of the WEPP model for forest roads.</i></a>
-  Presented at the <b>1993 ASAE International Winter Meeting,</b>
-  December 14-17, 1993, Chicago, IL. ASAE.
-$lynx=
 #1993a##############################################
 $Title=Variation among different surface conditions in timber harvest sites in the southern Appalachians
 $Year=1993
@@ -9573,79 +9525,6 @@ $Keywords=sediment modeling; road erosion; wheel ruts; erosion processes; road
 $Citationt=Foltz, R.B. 1991. <a><b>Sediment processes in wheel ruts on unsurfaced forest roads.</b></a>
     Moscow, ID: University of Idaho. 177 p. Ph.D. thesis.
 $lynx=
-*1991f#########################################################
-$title=Forest Service Engineering research to develop a model of onsite sediment production from forest roads and timber harvest areas
-$year=1991
-$category=erosion modeling, disturbed forests, road erosion
-$authors=Burroughs
-$authorblock=<b>Edward R. Burroughs, Jr.</b>
-$publisher=ASAE
-$citationt=Burroughs, E.R., Jr. 1991.
-   <i><a>Forest Service Engineering research to develop a model of onsite sediment production from
-   forest roads and timber harvest areas.</a></i>
-   In: <b>Proc. Forestry and Environment - Engineering Solutions,</b>
-   Am. Soc. Agric. Eng., 1991, New Orleans, LA. 151-160.
-$abstract=Forest land management activities in the United States have extended and accelerated in the past
- four decades into steep, mountainous lands, and into more economically and environmentally
- marginal operating situations.
- Also, increasing environmental awareness over the last 25 years
- has focused considerable attention on the potential impacts of any forest-based activity upon the
- environment. Of particular concern is soil loss leading to reduction of future forest productive
- capacity, water quality degradation, damage to aquatic ecosystems, and visual degradation.
- In many parts of the nation, particularly the Pacific Northwest, forest land managers have found that
- their management alternatives are constrained by limits on turbidity and sediment concentration
- allowed in receiving streams.
- It is essential that managers have the means to predict, with
- acceptable accuracy, sediment production from alternative road construction and maintenance
- plans and alternative harvest area treatment practices.
-  <br><br>
- In 1986, the U.S. Department of Agriculture, Agricultural Research Service, initiated the Water
- Erosion Prediction Project (WEPP) for use on croplands and rangelands to replace the Universal
- Soil Loss Equation.
- The Forest Service joined the WEPP effort because of our interest in estimating sediment production from disturbed forest lands.
- The WEPP model cannot be used in its present form on forest sites because of the many hydrologic and erosion conditions
- that are not considered in the cropland WEPP model.
- The goal of our work is to develop physical process
- models of onsite runoff and sediment production for use on forest roads and timber harvest areas
- nationwide. To do this, we must develop algorithms to estimate model parameters using easily
- measured site characteristics from field sites across the nation. This "forest model" will become
- an integral part of the general WEPP model.
-  <br><br>
- Observations and experience by forest land managers and technical specialists nationwide indicate
- that forest roads are the greatest single source of sediment delivered to receiving streams.
- Probably the greatest volume of sediment produced from Alaska to California and the northern
- and central Rocky Mountains comes from mass erosion associated with forest road construction
- and maintenance.
- A lesser volume comes from surface erosion on the forest road prism, and a
- much smaller volume from landslides and surface erosion on timber harvest areas. Fall and winter
- rains, and spring snowmelt runoff in the west, provide ample energy for surface erosion.
-*1991e#########################################################
-$title=United States Forest Service research on sediment production from forest roads and timber harvest areas
-$year=1991
-$category=disturbed forests, road erosion
-$authors=Burroughs, Foltz, Robichaud
-$authorblock=<b>Edward R. Burroughs, Jr.<br>Randy B. Foltz<br>Peter R. Robichaud</b>
-$publisher=FAO
-$citationt=Burroughs, E.R., Jr.; Foltz, R.B.; Robichaud, P.R. 1991.
-  <i><a>United States Forest Service research on sediment production from forest roads and timber harvest areas.</a></i>
-  In: <b>Actes Proceedings Actes 2: 10th World Forestry Congress;</b>
-  1991 September 18-22; Paris, France.
-  Rev. For. Francaise 2.
-  Rome, Italy: Food and Agricultural Organization of the United Nations: 187-193.
-$abstract=The United States Forest Service is developing a surface erosion model for disturbed forest sites,
- principally forest roads and timber harvest areas.
- Simulated rainfall is used on bounded plots of various sizes to generate runoff and sediment production from a wide range of soil textures and land management situations.
- The usual sequence of rainfall at a selected intensity is a 30-minute application with the soil in a dry condition, followed 24-hours later by a second application, then followed as soon as possible by a third.
- Two rainfall intensities are used on forest roads: 25 mm/hr and 51 mm/hr.
- Several rainfall intensities are used on timber harvest sites, ranging from 51 mm/hr to 102 mm/hr.
- Data from simulated rainfall on small field plots, burned and unburned, with and without the residual root mat removed, showed the increases in sediment yield to be expected from severe slash treatment/site preparation burns.
- Field plots on timber harvest areas that were unburned and burned with and without machine compaction provided data on the effects of these treatments under natural rainfall conditions.
- Results of a laboratory study of the hydraulic roughness of overland sheet flow with rainfall and a field study of the hydraulics of concentrated flow in wheel ruts were used in an analytic model of runoff from forest roads.
- Data from a laboratory study of the relative erodibility of wildland soils were used to estimate interrill sediment detachment as a function of soil texture and clay mineralogy.
- Simulated rainfall on bounded road plots up to 38 m long showed that wheel ruts increased sediment production by a factor of two to four over similar unrutted road sections.
- The difference in the increase was a function of relative soil erodibility.
-$keywords=road erosion
-$type=peer reviewed
 #1991d#########################################################
 $title=A test of normal tire pressure and reduced tire pressure on forest roads: sedimentation effects
 $year=1991
@@ -9698,22 +9577,6 @@ $Citationt=Hammond, C.J.; Prellwitz, R.W.; Miller, S.M. 1991.
   Proceedings of the Sixth International Symposium, 10-14 February 1992, Christchurch, New Zealand.
   Rotterdam, The Netherlands: A.A. Balkema. Vol. 2, 959-964.
 $links=<a href="https://forest.moscowfsl.wsu.edu/engr/library/Hammond/Hammond1991c/1991c.html">HTML</a>
-*1991b#########################################################
-$title=Hydraulic roughness and sediment yield in wheel ruts on forest roads
-$year=1991
-$category=road erosion
-$authors=Foltz, Burroughs
-$authorblock=<b>Randy B. Foltz<br>Kevin S. Rauch<br>Edward R. Burroughs, Jr.</b>
-$Abstract=Clear water flow and sediment yield from simulated wheel ruts in a forest road were measured at
-five different sites in the Northern Rocky Mountains. These measurements provided information on
-the Darcy-Weisbach friction factor and Reynolds number relationship. The rill erodibility and
-critical shear were also determined.
-$keywords=sedimentation; wheel ruts; forest roads; erosion processes; hydraulics; hydraulic roughness; northern Rocky Mountains
-$citationt=Foltz, R.B.; Rauch, K.S.; Burroughs, E.R., Jr. 1991.
-           <a><i>Hydraulic roughness and sediment yield in wheel ruts on forest roads.</i></a>
-     In: <b>Proceedings of Hydraulic Engineering 1991 EE, IR, WW Div./ASCE national conference on hydraulic engineering;</b>
-     1991 July 29-August 2; Nashville, TN.
-     New York: American Society of Civil Engineers: 1108-1113.
 #1991a#########################################################
 $Title=WEPP soil erodibility experiments for rangeland and cropland soils
 $Year=1991
@@ -9884,28 +9747,6 @@ $links=<a href="https://forest.moscowfsl.wsu.edu/engr/library/Burroughs/Burrough
  <!-- a href=https://www.fs.fed.us/rm/pubs_int/int_gtr264.pdf -->
  <!-- a href="https://forest.moscowfsl.wsu.edu/engr/library/Burroughs/Burroughs1989a/1989a.html" -->
  <!-- Request from a href="mailto:rschneider@fs.fed.us?subject=INT-RP-264" -->
-*1987a###########################################################################################################
-$Title=Proposed onsite sediment yield model for forest conditions
-$Year=1987
-$Authors=Burroughs
-$category=erosion modeling, disturbed forests
-$Publisher=ASAE
-$authorblock=<b>Edward R. Burroughs, Jr.,</b> Research Engineer, USDA Forest Service, Intermountain Research Station<br>
- John Nordin, Soil Resource Specialist, USDA Foest Service, Watershed and Air Management Staff
-$Abstract=Characteristics and conditions that affect modeling of onsite surface erosion and sediment yield from forest roads,
-harvest areas, and woodlands are obtained.
-Simulated rainfall will be used to develop relationships between model parameters
-and site characteristics such as bulk density, soil texture, etc.
-A description of the methodology follows.
-$Keywords=Erosion, sedimentation, forests, road erosion
-$Citationt=Burroughs, E.R., Jr.; J. Nordin. 1987.
- <a><i>Proposed onsite sediment yield model for forest conditions.</i></a>
- Paper No. 87-2583.
- Written for presentation at the <b>1987 International Meeting of the
- American Society of Agricultural Engineers,</b>
- Hyatt Regency Chicago, Illinois Center, December 15-18, 1987.
- St. Joseph, MI: American Society of Agricultural Engineers. 18&nbsp;p.
-$lynx=
 #1985b###########################################################################################################
 $Title=Surface erosion control on roads in granitic soils
 $Year=1985
@@ -9949,61 +9790,6 @@ $citationt=Burroughs, E.R., Jr. 1985.
    Irrigation & Drainage Div., ASCE.
    Denver, CO: ASCE Convention, April 30-May 1, 1985. 132-139.
 $links=<a href="https://forest.moscowfsl.wsu.edu/engr/library/Burroughs/Burroughs1985a/1985a.html" target="o">HTML</a>
-*1984c###############################################
-$Title=Relative effectiveness of fillslope treatments in reducing surface erosion, Horse Creek Road, Nezperce National Forest, Idaho
-$Year=1984
-$Authors=Burroughs, King
-$category=road erosion
-$Publisher=USDA FS
-$authorblock=
-$Abstract=Two 70-foot long segments of a 1-1/2:1 fillslope, constructed on
- "border zone" soils, were subjected to repeated simulated rainfall events.
- Water and sediment yield were monitored for a total of 20 runs.
- For each run, about 0.8 inch of precipitation was applied in 23-30 minutes
- with a kinetic energy estimated at about 60% of the energy associated with
- a natural event of this intensity.
- <br><br>
- Both fillslope plots had an existing 6-year old stand of planted
- vegetation consisting primarily of orchard grass, smooth brome, timothy,
- and Idaho fescue.  Aerial cover on plot 1 was 97.1% and the weight per unit
- area of vegetal material was 2.67 tons per acre, with litter comprising 63%
- of the dry weight biomass.  On plot 2 aerial cover was 76.7% and the weight
- per unit area of vegetal material was 1.47 tons per acre, with litter
- comprising 51% of the biomass.
- <br><br>
- Four rainfall applications were made on plot 1 in a vegetates condition
- (three runs on plot 2).
- THe vegetation and sod were stripped from the plot, followed by four
- rainfall applications on the bare soil plot (only one run on plot 2).
- An additional four rainfall application were made on plot 1, protected
- with a wood fiber mulch which provided 80.6% aerial cover, and again with
- a slash filter windrow.
- The windrow provided essentially complete cover on the lower half of the
- fillslope, while the upper half of the slope was in a bare soil condition.
- <br><br>
- In their vegetated condition, plots 1 and 2 respectively reduced sediment
- yields by 99.55% and 99.46% compared to the sediment yields from the bare plots.
- The wood fiber mulch reduced sediment yield by 91% and the slash filter
- windrow reduced sediment yield by 87%.
- <br><br>
- Both the wood fiber mulch and the filter windrow provide good immediate
- protection of the fillslopes following construction until planted grass
- can become established.
- Once fillslopes become well vegetated, sediment yields are reduced to about
- 0.5% of thoose from bare slopes.
- <br><br>
- THis study does not reflect the type of detachment and transport processes
- occurring during natural rainstorms or snowmelt.
- Therefore, these data should not be used to extrapolate to seasonal or annual
- sediment production.
- The estimates of relative effectiveness of the fillslope treatments in
- reducing sediment yields are probably realistic for the granitic "border zone"
- materials in the Northern Rocky Mountains.
-$Keywords=fillslope, filter windrow, wood fiber mulch, erosion, roads
-$Citationt=Burroughs, E.R., Jr.; Watts, F.J.; King, J.G.; Hansen, D. 1984.
- <a><b>Relative effectiveness of fillslope treatments in reducing surface erosion, Horse Creek Road, Nezperce National Forest, Idaho.</b></a>
- Intermountain Forest and Range Experiment Station, Moscow, ID. Unpublished report. January 1984.
-$lynx=
 #1982b###########################################################################################################
 $Title=SEAMPLAN -- a computer tool for surface mine reclamation planning
 $Year=1982
