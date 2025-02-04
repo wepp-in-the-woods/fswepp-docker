@@ -2325,7 +2325,7 @@ $Citationt=Wagenbrenner, N.S.; Germino, M.J.; Lamb, B.K.; Foltz, R.B.; Robichaud
  ASABE Publication Number 711P0311cd. 9&nbsp;p.
 $treesearch=
 $plynx=
-$lynx=  679 KB
+$lynx= 
 $links=<a href="/engr/library/Copeland/Copeland2011i/2011i.pdf" target="_pdf">PDF</a> [679 KB]
 #2011h###############################################
 $Title=Probabilistic soil erosion modeling using the Erosion Risk Management Tool (ERMiT) after wildfires.
@@ -4709,10 +4709,7 @@ treated and non-treated areas.
 $Keywords=erosion mitigation, sediment yield, forest fire
 $type=
 $treesearch=pubs/24606
-$links=<a href="https://www.fs.fed.us/rm/pubs_other/rmrs_2006_robichaud_p001.pdf">PDF</a> (775 KB) (Station) |
- <a href="https://forest.moscowfsl.wsu.edu/engr/library/Robichaud/Robichaud2006h/ASABE2006h.pdf">PDF</a> [426 KB] (Moscow lab)
- <!-- a href="https://asae.frymulti.com/request.asp?search=1&JID=5&AID=21054&CID=por2006&v=&i=&T=1" target="ASABE" ASCE HTML -->
-$zlinks=<A HREF="https://asae.frymulti.com/request.asp?search=1&JID=5&AID=21054&CID=por2006&v=&i=&T=2" target="ASABE">ASABE PDF</a>
+$links=<a href="https://forest.moscowfsl.wsu.edu/engr/library/Robichaud/Robichaud2006h/ASABE2006h.pdf">PDF</a> [426 KB] (Moscow lab)
 #2006g###############################################
 $Title=Using WEPP technology to predict erosion and runoff following wildfire
 $Year=2006
@@ -4794,7 +4791,6 @@ ATV traffic induced erosion and assist in the managing of ATV use.
 $Keywords=All Terrain Vehicles (ATV), recreation, hydraulic conductivity, interrill erodibility, rainfall simulation
 $type=
 $links=<a href="https://forest.moscowfsl.wsu.edu/engr/library/Foltz/Foltz2006e/ASABE2006e.pdf">PDF</a>
-$zlinks=<a href="https://asae.frymulti.com/request.asp?JID=5&AID=21056&CID=por2006&T=2">PDF</a> (653 KB) [ASABE subscription]
 #2006d###############################################
 $title=Effects of post-fire seeding and fertilization on hillslope erosion in north-central Washington, USA
 $year=2006
@@ -6177,7 +6173,7 @@ $Title=Infiltration characteristics of filter windrows adjacent to forest roads
 $Year=2003
 $Authors=Foltz, Elliot
 $category=roads
-$Publisher=ASAE
+$Publisher=ASABE
 $Abstract=A study to determine the infiltration parameters for filter windrows was undertaken.
 $Keywords=
 $Citationt=Foltz, R.B.; Elliot, W.J. 2001.
