@@ -5188,7 +5188,7 @@ $Citationt=Elliot, William; Hall, David. 2005.
  Fuels planning: science synthesis and integration; environmental consequences fact sheet 12.
  Res. Note RMRS-RN-23-12-WWW. Fort Collins, CO: U.S. Department of Agriculture, Rocky Mountain Research Station. 2&nbsp;p.
 $links=<a href="https://www.fs.usda.gov/rm/pubs/rmrs_rn023_12.pdf">PDF</a> (200 KB)
-*2004t###############################################
+#2004t###############################################
 $Title=Wood strands: an alternative to agricultural straw for erosion reduction
 $Year=2003
 $Authors=Foltz
@@ -5201,7 +5201,7 @@ $Abstract=Agricultural straw is used in forested areas of the United States for 
 $Keywords=erosion control, agricultural straw, road decommission
 $type=
 $treesearch=
-$links=<a href="" target="_pdf">PDF</a> [ KB]
+$links=<a href="/engr/library/Foltz/Foltz2004t/Foltz_2004t_Wood_Strands_as_an_Alternative_to_Agricultural_Straw_for_Erosion_Control.pdf" target="_pdf">PDF</a> [ KB]
 #2004s###############################################
 $Title=The relationship of field burn severity measures to satellite-derived Burned Area Reflectance Classification (BARC) maps
 $Year=2004
@@ -5984,18 +5984,6 @@ $note=To be submitted to <b>Applied Agricultural Engineer.</b>
 $links=<a href="https://forest.moscowfsl.wsu.edu/engr/library/Elliot/Elliot2003k/ASAE2003k.pdf">PDF</a>
 $zlinks=<a href="https://asae.frymulti.com/request.asp?JID=8&AID=15702&CID=smppnr&T=1">ASAE HTML</a> |
        <a href="https://asae.frymulti.com/request.asp?JID=8&AID=15702&CID=smppnr&T=1">ASAE PDF</a> (1157KB)
-*2003i###############################################
-$Title=Wood strands: an alternative to agricultural straw for erosion reduction
-$Year=2003
-$Authors=Foltz
-$category=
-$Publisher=
-$authorblock=
-$Abstract=
-$Keywords=woood strand
-$Citationt=Foltz, R.B.; 2003.
- <i><a>Wood strands: an alternative to agricultural straw for erosion reduction.</a></i>
-$lynx=
 #2003h###############################################
 $Title=Comparison of erosion reduction between wood strands and agricultural straw
 $Year=2003
