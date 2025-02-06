@@ -5201,7 +5201,7 @@ $Abstract=Agricultural straw is used in forested areas of the United States for 
 $Keywords=erosion control, agricultural straw, road decommission
 $type=
 $treesearch=
-$links=<a href="/engr/library/Foltz/Foltz2004t/Foltz_2004t_Wood_Strands_as_an_Alternative_to_Agricultural_Straw_for_Erosion_Control.pdf" target="_pdf">PDF</a> [ KB]
+$links=<a href="/engr/library/Foltz/Foltz2004t/Foltz_2004t_Wood_Strands_as_an_Alternative_to_Agricultural_Straw_for_Erosion_Control.pdf" target="_pdf">PDF</a> [88 KB]
 #2004s###############################################
 $Title=The relationship of field burn severity measures to satellite-derived Burned Area Reflectance Classification (BARC) maps
 $Year=2004
@@ -7403,12 +7403,20 @@ $Abstract=This study investigated the sediment production from various aggregate
 	sediment production. The best indicator of sediment production was the percent passing the number 30 sieve.
 $Keywords=aggregate, road erosion, erodibility, Pacific NW
 $links=<a href="https://forest.moscowfsl.wsu.edu/engr/library/Foltz/Foltz2000a/2000a.pdf">PDF</a> [80kb]
-*1999t###############################
+#1999t###############################
 $title=Post-fire burned area emergency rehabilitation treatments: do they work in the Southwest?
+$Year=1999
+$category=
+$Publisher=USDA FS RMRS
+$Authors=Robichaud
 $citation=Neary, D.G.; Robichaud, P.R.; Beyers, J.L.; Hubbert, K.R.;
    TenPas, J.L.; Nelson, B.E. 1999.
    <i><a>Post-fire burned area emergency rehabilitation treatments:
    do they work in the Southwest?</a></i>
+$Abstract=
+$Keywords=BAER, post-fire treatments, Southwest US
+$links=<a href="/engr/library/Robichaud/Robichaud1999t/Robichaud_1999t_Post-Fire_Burned_Aera_Emergency_Rehabilitation_Treatments_Do_They_Work_in_the_Southwest.pdf">PDF</a> [245 KB]
+$type=
 #1999q##################################################
 $Title=Spatial interpolation and simulation of post-burn duff thickness after prescribed fire
 $Year=1999
@@ -8506,7 +8514,7 @@ $Abstract=Several logging road subgrades and cut slopes failed under wet
  identifying these soils.
 $Keywords=soil identification; Washington State; soil strength
 $links=<a href="https://doi.org/10.2113/gseegeosci.I.2.129">PDF</a> 
-*1995i###########################################################################################################
+#1995i###########################################################################################################
 $Title=Erosion prediction in the republic of Lithuania with the WEPP model
 $Year=1995
 $Authors=Robichaud
@@ -8528,7 +8536,7 @@ $Abstract=Soil erosion damages about 35 percent of the total land area in Lithua
  As new releases of the model become available, additional testing and validating will be completed for agricultural and
  forestry practices at the plot and watershed scale.
 $Keywords=erosion, erosion prediction, WEPP, Lithuania
-$links=<a href="">PDF</a> []
+$links=<a href="/engr/library/Robichaud/Robichaud1995i/Robichaud_1995i_Erosion_Prediction_in_the_Republic_of_Lithuania_with_WEPP_Model.pdf" target="_pdf">PDF</a> [1,369 KB]">PDF</a> [150 KB]
 $type=peer reviewed
 #1995h###########################################################################################################
 $Title=Validation of Water Erosion Prediction Project (WEPP) model for low-volume forest roads
@@ -9017,6 +9025,23 @@ $abstract=Postharvest residue burning is a common site preparation treatment use
 $keywords=erosion, prescribed burning, nitrogen loss, soil heating, sediment yield, sediment production, Pacific NW
 $links=<a href="https://forest.moscowfsl.wsu.edu/engr/library/Robichaud/Robichaud1994a/1994a.pdf">PDF</a> [429k]
 $type=peer reviewed
+#1993b##############################################
+$Title=Validation of the WEPP Model for Forest Roads
+$Year=1993
+$category=
+$Publisher=ASAE
+$Authors=Elliot, Foltz
+$authorblock=<b>William J. Elliot</b><br>
+	<b>Randy B. Foltz</b><br>
+	<b>Charlie H. Luce</b>
+$Abstract=Runoffs and erosion rates observed on forest road erosion plots were compared to values predicted by the WEPP Version 93.1. Runoffs were closely predicted for most soils. Interril erosion rates were slightly overpredicted when using corplandinterril erodibility prediction methods. Rill erosion rates for wheel ruts were closely predicted from rangeland methods.
+$Keywords=Runoff, erosion rates, wheel ruts, forest roads
+$Citationt=Elliot W.J., Foltz R.B., Luce C.H.
+	1993.
+	<a><i>Validation of the WEPP Model for Forest Roads.</i></a>
+	<b>Written for Presentation at the 1993 ASAE International Winter Meeting (1993),</b>
+	Chicago, Illinios December 14-17, 1993.
+$links=<a href="/engr/library/Elliot/Elliot1993b/Elliot_1993b_Validation_of_the_WEPP_Model_for_Forest_Roads.pdf" target="_pdf">PDF</a> [541k]
 #1993a##############################################
 $Title=Variation among different surface conditions in timber harvest sites in the southern Appalachians
 $Year=1993
@@ -9043,7 +9068,7 @@ $Citationt=Robichaud, P.R.; Luce, C.H.; Brown, R.E.
 	September 1993, Moscow, Russia.
 	West Lafayette, IN: The Center for Technology Transfer and Pollution Prevention, Purdue University. 231-241.
 $links=<a href="/engr/library/Robichaud/Robichaud1993a/1993a.pdf" target="_pdf">PDF</a> [541k]
-*1992c###########################################################################################################
+#1992c###########################################################################################################
 $Title=Estimating interrill erodibility of forest soils
 $Year=1992
 $Authors=Burroughs, Luce
@@ -9073,52 +9098,7 @@ $Keywords=sediment yield, rainfall simulation, erosion, California, interrill er
 $Citationt=Burroughs, E.R., Jr.; Luce, C.H.; Phillips, F. 1992.
  <a><i>Estimating interrill erodibility of forest soils.</i></a>
  <b>Transactions of the ASAE,</b> Sept.-Oct. 1992, 35(5): 1489-1495. DOI: 10.13031/2013.28757.
-$links=<a href="https://doi.org/10.13031/2013.28757" target="_pdf">PDF</a> 
-$lynx=
-*1992b###########################################################################################################
-$Title=A set of continuous univariate pseudo-random number generation routines for use in computer simulation
-$Year=1992
-$category=
-$Publisher=University of Idaho
-$Authors=Hall
-$authorblock=<b>David E. Hall</b>
-$Abstract=Many existing pseudo-random number generators in commercial software and textbooks are bad.
- I studied the literature to compare methods used in generators of various
- distribution types, and compiled a set of "good" functions which return pseudo-random
- independent sequences of numbers fitting the
-   standard uniform,
-   triangular,
-   general normal,
-   lognormal,
-   exponential and
-   beta distributions.
- They have a consistent calling convention, are intended to be portable
- across hardware and software,
- are coded in a high-level language, produce theoretically defensible
- results and
- allow easy splitting of the sequences into disjoint subsequences.
- <br><br>
- I have described the computational model and given algorithms in BASIC
- for each distribution type.
- Discussion of each distribution type also includes a review of other
- generation methods.
- A test result is given in the comments of the code for each generator to
- help the user ensure that
- the routines have been implemented correctly on his or her system.
- <br><br>
- Plots of running values of mean and variance from returned sequences of 2
- to 600 values for each generator
- show visually the sensitivity of the generators to number of samples.
- These plots for the uniform generator for different seed values also show
- its sensitivity to seed value.
- <br><br>
- The pseudo-random uniform generator routine is also coded in APL, C, and FORTRAN.
-$Keywords=random number generator, beta distribution, triangular distribution, lognormal distribution
-$Citationt=Hall, D.E. 1992.
-	<a><b>A set of continuous univariate pseudo-random number generation routines for use in computer simulation.</b></a>
-	M.S. thesis.
-	Moscow, ID: University of Idaho. 98&nbsp;p.
-$links=<a href="" target="_pdf">PDF</a> 
+$links=<a href="/engr/library/Burroughs/Burroughs1992c/Burroughs_1992c_Trans_ASABE_Interrill_erodibility_forest_soils.pdf" target="_pdf">PDF</a> [1255 KB]
 #1992a###########################################################################################################
 $Title=Level I Stability Analysis (LISA) documentation for version 2.0
 $Year=1992
@@ -9197,7 +9177,7 @@ $Keywords=sediment modeling; road erosion; wheel ruts; erosion processes; road
 $Citationt=Foltz, R.B. 1991. <a><b>Sediment processes in wheel ruts on unsurfaced forest roads.</b></a>
     Moscow, ID: University of Idaho. 177 p. Ph.D. thesis.
 $lynx=
-*1991d#########################################################
+#1991d#########################################################
 $title=A test of normal tire pressure and reduced tire pressure on forest roads: sedimentation effects
 $year=1991
 $category=road erosion
@@ -9228,6 +9208,7 @@ $abstract=Two 30-m forest road sections were bladed and used to measure sediment
   These tests clearly indicate that the use of reduced tire pressure has a significant potential to reduce
   adverse impacts on water quality.
 $keywords=road erosion, tire pressure
+$links=<a href="/engr/library/Foltz/Foltz1991d/Foltz_1991d_A_Test_of_Normal_Tire_Pressure_and_Reduced_Tire_Pressure_on_Forest_Roads_Sedimentation_Effects.pdf" target="_pdf">PDF</a> [580 KB]
 #1991c#########################################################
 $Title=Landslide hazard assessment using Monte Carlo simulation
 $Year=1991
@@ -9453,7 +9434,7 @@ $Citationt=Burroughs, E.R., Jr.; Scott, M.D. 1982.
   <i><a>SEAMPLAN -- a computer tool for surface mine reclamation planning.</a></i>
   <b>Forestry Research West</b> Sept, 14-17.
 $links=<a href="https://archive.org/details/CAT10751505/mode/2up?ref=ol&view=theater">HTML</a>
-*1982a###########################################################################################################
+#1982a###########################################################################################################
 $Title=Experience with a process-oriented road sediment model
 $Year=1982
 $Authors=Burroughs
@@ -9494,8 +9475,8 @@ $Citationt=Sundberg, E.; Johnston, R.S.; Burroughs, E.R., Jr. 1982.
  the International Symposium on rainfall-runoff modeling, May 18-21, 1981,
  Mississippi State University.
  Littleton, CO: Water Resources Publications. 577-590.
-$lynx=
-*1977a###########################################################################################################
+$links=<a href="/engr/library/Burroughs/Burroughs1982a/Burroughs_1982a_Modeling_Components_of_Hydrologic_Cycle.pdf" target="_pdf">PDF</a> [439 KB]
+#1977a###########################################################################################################
 $Title=Declining root strength in Douglas-fir after felling as a factor in slope stability
 $Year=1977
 $Authors=Burroughs
@@ -9531,6 +9512,7 @@ $Citationt=Burroughs, E.R., Jr.; Thomas, B.R. 1977.
  Research Paper INT-190. USDA Forest Service.
  Intermountain Forest and Range Experiment Station. 27&nbsp;p.
 $lynx=
+$links=<a href="/engr/library/Burroughs/Burroughs1977a/Burroughs_1977_Declining_Root_Strenght-in_Douglas-Fir_after_felling_as_a_factor_in_slope_stability.pdf" target="_pdf">PDF</a> [1,966 KB]
 #code template###############################################
 $Title=
 $Year=
