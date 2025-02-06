@@ -3963,8 +3963,6 @@ $Abstract=Forest roads are obliterated to lower the risks of surface erosion and
  conditions, especially for infiltration capacity.
 $Keywords= Erosion, Forest roads, Infiltration, Interrill erodibility, Obliteration, Rainfall simulation, Saturated hydraulic conductivity, Vegetation recovery, WEPP, road obliteration, Idaho
 $type=
-$treesearch=
-$plynx=<a href="https://asae.frymulti.com/request.asp?search=1&JID=3&AID=24089&CID=t2007&v=50&i=6&T=1" target="ASABE">HTML</a> [ASABE subscription]
 $links=<a href="https://www.fs.usda.gov/rm/pubs_other/rmrs_2007_foltz_r001.pdf" target="_pdf">PDF</a> (153 KB)
 #2007n###############################################
 $Title=First-year post-fire erosion rates in Bitterroot National Forest, Montana
@@ -4557,23 +4555,6 @@ $Abstract=The effects of a wildfire on the ground surface are indicative of the 
 $Keywords=mapping, ground cover, hyperspectral, remote sensing, California
 $type=
 $links=<a href="/engr/library/Lewis/Lewis2006n/2006n.pdf" target="_pdf">PDF</a> [161 KB]
-*2006m###############################################
-$Title=Modeling infiltration under wood byproducts used for erosion control
-$Year=2006
-$Authors=Foltz, Yanosek
-$Citationt=Foltz, R.B.; Tyler, K.Y. 2006.
- <i><a>Modeling infiltration under wood byproducts used for erosion control.</a></i>
- Written for presentation at the <b>2006 ASABE Annual International Meeting.</b>
- Sponsored by ASABE, Portland Convention Center, Portland, OR. 9 - 12 July 2006.
- ASABE Paper No. 068053.
- American Society of Agricultural and Biological Engineers.
-$category=
-$Publisher=ASABE
-$Abstract=
-$Keywords=infiltration, modeling, erosion control
-$type=presentation?? Pete said possibly remove
-$links=<a href="/engr/library/Lewis/Lewis2006n/2006n.pdf" target="_pdf">PDF</a> [161 KB]
-$lynx=
 #2006k###############################################
 $Title=Effects of DEM resolution on forest hydrologic and erosion prediction using WEPP
 $Year=2006
@@ -4676,8 +4657,7 @@ $Abstract=Wind erosion is a widespread problem in much of the western United Sta
 $Keywords=Wind erosion, Erosion control, Wind tunnel, Wood strands, Air quality, western US
 $type=
 $lynx=
-$plinks=<a href="https://asae.frymulti.com/azdez.asp?search=1&JID=5&AID=22058&CID=por2006&T=2" target="_pdf">PDF</a> [ASABE subscription]
-   <a href="https://www.forestconcepts.com/docs/Wind.Erosion.Wood.Strands.ASABE.062199.pdf" target="_pdf">PDF</a>
+$links=<a href="https://www.forestconcepts.com/docs/Wind.Erosion.Wood.Strands.ASABE.062199.pdf" target="_pdf">PDF</a> [128 KB]
 #2006h###############################################
 $Title=Protection from erosion following wildfire
 $Year=2006
@@ -5498,19 +5478,6 @@ $Citationt=Robichaud, P.R. 2004.
   May 2004 11(4): 10-11.
   American Society of Agricultural Engineers.  
 $links=<a href="https://www.thefreelibrary.com/Portable+electronic+meter%3a+measuring+water+content+of+organic...-a0117669310" target="o">PDF</a> [783KB]
-*2004i###############################################
-$Title=Initial findings of post-fire rehabilitation treatment effectiveness
-$Year=2004
-$Authors=Robichaud
-$category=
-$Publisher=Journal of Forestry
-$authorblock=
-$Abstract=
-$Keywords=post-fire rehabilitation, post-fire monitoring
-$Citationt=Robichaud, P.R. 2004.
-  Initial findings of post-fire rehabilitation treatment effectiveness
-$lynx=
-$type=
 #2004h###############################################
 $Title=Onsite sediment production and nutrient losses from a low, moderate, and high severity burn in the interior Northwest
 $Year=2004
@@ -5525,74 +5492,6 @@ $Citationt=Robichaud, P.R.; Graham, R.T.; Hungerford, R.D.; Jain, T.B. 2004.
 $lynx=
 $links=<a href="https://forest.moscowfsl.wsu.edu/engr/library/Robichaud/Robichaud1994a/1994a.html" target="_pdf">HTML</a> [377 KB]
 $type=peer reviewed
-*2004g###############################################
-$Title=First year erosion rates after the 2000 Bitterroot fires
-$Year=2004
-$Authors=Robichaud
-$category=
-$Publisher=Hydrological Processes
-$authorblock=
-$Abstract=
-$Keywords=2000 Bitterroot fires, Montana, erosion rates
-$Citationt=Spigel, K.; Robichaud, P.R. 2004.
-  First year erosion rates after the 2000 Bitterroot fires
-$lynx=
-$links=
-*2004f###############################################
-$Title=Snowpack outflow and streamflow on a burned watershed in Northwestern Montana
-$Year=2004
-$Authors=Robichaud
-$category=
-$Publisher=RMRS
-$authorblock=
-$Abstract=
-$Keywords=Montana, streamflow
-$Citationt=Luce, J.M.; Molnau, M.; Robichaud, P.; Johnson, S.; Luce, C. 2004.
-  Snowpack outflow and streamflow on a burned watershed in Northwestern Montana
-  USDA Forest Service, Rocky Mountain Research Station.
-  GTR-RMRS-xxx.
-  25&nbsp;p.
-$lynx=
-$type=peer reviewed
-*2004e###############################################
-$Title=Detecting water repellent soil conditions with hyperspectral imaging after the Hayman Fire
-$Year=2004
-$Authors=Robichaud, Elliot
-$category=
-$Publisher=Hydrological Processes
-$authorblock=
-$Abstract=
-$Keywords=
-$Citationt=Lewis, S.A.; Wu, Q.J.; Robichaud, P.R.; Fraser, B.; Elliot, W.J. 2004.
-  Detecting water repellent soil conditions with hyperspectral imaging after the Hayman Fire.
-  Hydrological Processes.
-$lynx=
-*2004d###############################################
-$Title=Evaluating the WEPP-based erosion prediction for three small timber harvested watersheds
-$Year=2004
-$Authors=Robichaud, Elliot, Covert
-$category=
-$Publisher=ASAE
-$authorblock=
-$Abstract=
-$Keywords=
-$Citationt=Covert, S.A.; Robichaud, P.R.; Elliot, W.J.; Link, T. 2004.
-  Evaluating the WEPP-based erosion prediction for three small timber harvested watersheds.
-  Transactions of the ASAE.
-$lynx=
-*2004c###############################################
-$Title=Comparing water repellent soil monitoring with two methods
-$Year=2004
-$Authors=Robichaud, Lewis
-$category=
-$Publisher=Hydrologic Processes
-$authorblock=
-$Abstract=
-$Keywords=
-$Citationt=Lewis, S.A.; Wu, Q.J.; Robichaud, P.R. 2004.
-  Comparing water repellent soil monitoring with two methods
-  Hydrological Processes
-$lynx=
 #2004b###############################################
 $Title=Measuring duff moisture content in the field using a portable meter sensitive to dielectric permittivity
 $Year=2004
@@ -5764,7 +5663,7 @@ $links=
     [<a href="https://www.agu.org/journals/wr/wr0312/2003WR002318/index.html" target="_o">HTML</a> (AGU members only)]
     [<a href=" https://doi.org/10.1029/2003WR002318" target="_o">PDF</a>]
 $type=refereed
-*2003u###############################################
+#2003u###############################################
 $Title=Effects of fire on water repellency: Infiltration rates after prescribed fire in Northern Rocky Mountain forests
 $Year=2003
 $Authors=Robichaud
@@ -6085,18 +5984,6 @@ $note=To be submitted to <b>Applied Agricultural Engineer.</b>
 $links=<a href="https://forest.moscowfsl.wsu.edu/engr/library/Elliot/Elliot2003k/ASAE2003k.pdf">PDF</a>
 $zlinks=<a href="https://asae.frymulti.com/request.asp?JID=8&AID=15702&CID=smppnr&T=1">ASAE HTML</a> |
        <a href="https://asae.frymulti.com/request.asp?JID=8&AID=15702&CID=smppnr&T=1">ASAE PDF</a> (1157KB)
-*2003j###############################################
-$Title=An approach to modeling sediment armoring and recovery on forest roads
-$Year=2003
-$Authors=Foltz, Elliot
-$category=roads
-$Publisher=
-$authorblock=
-$Abstract=
-$Keywords=
-$Citationt=Foltz, R.B.; Elliot, W.J. 2003.
- <i><a>An approach to modeling sediment armoring and recovery on forest roads.</a></i>
-$lynx=
 *2003i###############################################
 $Title=Wood strands: an alternative to agricultural straw for erosion reduction
 $Year=2003
@@ -6170,18 +6057,6 @@ $Citationt=Foltz, R.B.; Malliard, E. 2003.
  Riviera Hotel and Convention Center, Las Vegas, NV, USA. 27-30 July 2003.
  St. Joseph, MI: American Society of Agricultural Engineers. doi: 10.13031/2013.15043
 $links=<a href="https://elibrary.asabe.org/abstract.asp?aid=15043" target="_pdf">PDF</a> [3.1 MB]
-$lynx=
-*2003f###############################################
-$Title=Infiltration characteristics of filter windrows adjacent to forest roads
-$Year=2003
-$Authors=Foltz, Elliot
-$category=roads
-$Publisher=ASABE
-$Abstract=A study to determine the infiltration parameters for filter windrows was undertaken.
-$Keywords=
-$Citationt=Foltz, R.B.; Elliot, W.J. 2001.
-  <i><a>Infiltration characteristics of filter windrows adjacent to forest roads.</a></i>
-$links=<a href="" target="_pdf">PDF</a> [MB]
 $lynx=
 #2003e###########################################################################################################
 $Title=Environmental impacts of forest roads: an overview of the state of the knowledge
@@ -6666,11 +6541,11 @@ $treesearch=pubs/23558
 $links=<a href="https://www.fs.usda.gov/rm/pubs_other/rmrs_2001_foltz_r001.pdf">PDF</a> {224 KB -- USFS]|
  <a href="https://www.webpages.uidaho.edu/~peceg/Papers/Nevada_conference.pdf">PDF</a> [225K uidaho.edu]
 #2001m###########################################################################################################
-$Title=		Validation of the FS WEPP interfaces for forest roads and disturbances
-$Year=		2001
+$Title=Validation of the FS WEPP interfaces for forest roads and disturbances
+$Year=2001
 $category=erosion modeling, fire effects, road erosion
-$Publisher=	ASAE
-$Authors=	Elliot
+$Publisher=ASAE
+$Authors=Elliot
 $Citationt= Elliot, W.J.; Foltz, M. 2001.
 	<a><i>Validation of the FS WEPP Interfaces for Forest Roads and Disturbances.</i></a>
 	ASAE paper number 01-8009, presented at the <b>2001 ASAE Annual International Meeting</b>
@@ -6714,18 +6589,18 @@ $links=<a href="https://forest.moscowfsl.wsu.edu/engr/library/Elliot/Elliot2001k
 $zlinks=<a target="o" href="https://asae.frymulti.com/request2.asp?JID=5&AID=5552&CID=sca2001&v=&i=&T=2">ASAE pdf</a> (subscription) |
         <a target="o" href="https://asae.frymulti.com/request2.asp?JID=5&AID=5552&CID=sca2001&v=&i=&T=1">ASAE html</a> (subscription)
 #2001j####################################################
-$Title=		A probabilistic approach to modeling erosion for spatially-varied conditions
-$Year=		2001
-$Publisher=	ASAE
+$Title=A probabilistic approach to modeling erosion for spatially-varied conditions
+$Year=2001
+$Publisher=ASAE
 $category=erosion modeling, disturbed forests
-$Authors=	Elliot, Robichaud, Hall, Cuhaciyan
-$authorblock=	<b>William J. Elliot</b><br>
+$Authors=Elliot, Robichaud, Hall, Cuhaciyan
+$authorblock=<b>William J. Elliot</b><br>
 		<b>Peter R. Robichaud</b><br>
 		<b>David E. Hall</b><br>
 		<b>Christopher O. Cuhaciyan</b><br>
 		Frederick B. Pierson<br>
 		Peter M. Wohlgemuth
-$authorstuff=	<b>William&nbsp;J.&nbsp;Elliot</b><br>Project Leader,
+$authorstuff=<b>William&nbsp;J.&nbsp;Elliot</b><br>Project Leader,
 		<b>Peter&nbsp;R.&nbsp;Robichaud</b><br> Research Engineer,
 		<b>David&nbsp;E.&nbsp;Hall</b><br> Computer Specialist,
 		USDA Forest Service, Rocky Mountain Research Station, Moscow, ID;
@@ -6735,18 +6610,18 @@ $authorstuff=	<b>William&nbsp;J.&nbsp;Elliot</b><br>Project Leader,
 		USDA Agricultural Research Service, NW Watershed Research Center, Boise, ID;
 		<b>Peter&nbsp;M.&nbsp;Wohlgemuth,</b> Research Geologist, 
 		USDA Forest Service, Pacific SW Research Station, Riverside, CA
-$Citationt= Elliot, W.J.; Robichaud, P.R.; Hall, D.E.; Cuhaciyan, C.O.; Pierson, F.B.; Wohlgemuth, P.M. 2001.
+$Citationt=Elliot, W.J.; Robichaud, P.R.; Hall, D.E.; Cuhaciyan, C.O.; Pierson, F.B.; Wohlgemuth, P.M. 2001.
    <a><i>A probabilistic approach to modeling erosion for spatially-varied conditions.</i></a>
    ASAE paper number 01-8006, presented at the <b>2001 ASAE Annual International Meeting</b>
    sponsored by American Society of Agricultural Engineers, Sacramento Convention Center,
    Sacramento, California, USA, July 30--August 1, 2001. St.&nbsp;Joseph, MI: ASAE. 16&nbsp;p.
-$Abstract= In the years following a major forest disturbance, such as fire, the erosion rate is greatly influenced by variability in weather, in soil properties,
+$Abstract=In the years following a major forest disturbance, such as fire, the erosion rate is greatly influenced by variability in weather, in soil properties,
     and in spatial distribution. This paper presents a method to incorporate these variabilities into the erosion rate predicted by the Water Erosion Prediction
     Project model. It appears that it is not necessary to describe both the soil and the vegetation effects of the disturbance. Incorporating the vegetation effects
     on soil erodibility, and its associated variability, is sufficient--when combined with weather and spatial variability--to predict the probabilities of single storm
     and annual soil erosion rates in the years following the disturbance. By redefining the probability distributions of the soils, erosion during the recovering years
     and impacts of mitigation on erosion can be determined from the same initial set of computer runs. 
-$Keywords= Modeling, WEPP, Forest Fire, Erosion, Variability, probabilistic
+$Keywords=Modeling, WEPP, Forest Fire, Erosion, Variability, probabilistic
 $links=<a href="https://forest.moscowfsl.wsu.edu/engr/library/Elliot/Elliot2001j/ASAE2001j.pdf">PDF</a> |
     <a target="o" href="https://forest.moscowfsl.wsu.edu/engr/library/Elliot/Elliot2001j/2001j.html">HTML</a>
 $zlinks=<a href="https://asae.frymulti.com/request.asp?search=1&JID=5&AID=5552&CID=sca2001&T=2">ASAE PDF</A> (by subscription)
@@ -6797,8 +6672,6 @@ $Abstract=A study to determine the infiltration parameters for filter windrows w
  simulation. These values will be incorporated in the U.S. Forest Service WEPP Road interface.
 $Keywords=Filter windrows, Hydrophobic conditions, Hydraulic conductivity, WEPP, infiltration, road infiltration, Idaho
 $links=<a href="https://forest.moscowfsl.wsu.edu/engr/library/Foltz/Foltz2001h/2001h.pdf">PDF</a> [98k]<br>
-$zlinks=<a target="o" href="https://asae.frymulti.com/request2.asp?JID=1&AID=3190&CID=se2001&v=&i=&T=2">ASAE pdf</a> (subscription) |
-        <a target="o" href="https://asae.frymulti.com/request2.asp?JID=1&AID=3190&CID=se2001&v=&i=&T=1">ASAE html</a> (subscription)
 #2001g####################################################
 $Title=Trap efficiency of silt fences used in hillslope erosion studies
 $Year=2001
@@ -6967,22 +6840,6 @@ $Abstract=Soil erosion models have been under development since the late 1930s. 
 	model and for slope stability modeling.
 $Keywords=Water Erosion Prediction Project; WEPP; CLIGEN; PRISM; FS WEPP
 $links=<a href="https://forest.moscowfsl.wsu.edu/engr/library/Hall/Hall2001a/2001a.html">HTML</a>
-*2000v########################################################
-$title=Impact of roads and other corridors
-$year=2000
-$category=road erosion
-$publisher=USFS SRS
-$authors=Elliot
-$authorblock=<b>William J. Elliot</b>
-$citationt=Elliot, W.J.
-	2000.
-	<a><i>Impact of roads and other corridors.</i></a>
-	Chapter 9 in:
-	G. Dissmeyer (ed.). 
-	<b>Drinking Water from Forests and Grasslands - A Synthesis of the Scientific Literature.</b> 
-        USDA Forest Service Southern Research Station General Technical Report SRS-39: 85-100.
-$keywords=road erosion, drinking water, water resources
-$links=<a href="https://www.srs.fs.fed.us/pubs/gtr/gtr_srs039/">HTML</a>
 #2000u########################################################
 $Title=Method for the measurement of forest duff moisture content 
 $Year=2000
@@ -7109,32 +6966,6 @@ $Abstract=Following wildfires, burned areas are assessed by special teams to det
 $Keywords=BAER, Burned area emergency rehabilitation, erosion mitigation
 $lynx=<a href="https://www.fs.fed.us/rm/pubs/stewardship/375_378.pdf">PDF</A> [25 MB]
 $links=<a href="https://www.fs.usda.gov/rm/pubs/rmrs_p013/rmrs_p013_375_378.pdf" target="_pdf">PDF</a>
-*2000p#################################################
-$Title=Forest fire effects on hillslope erosion: what we know
-$Year=2000
-$category=fire effects
-$Publisher=Watershed Management Council Networker
-$Authors=Robichaud
-$authorblock=<b>Peter R. Robichaud</b>
-$Citationt=Robichaud, P.R. 2000.
-	<a><i>Forest Fire Effects on Hillslope Erosion: What We Know.</i></a>
-	<b>Watershed Management Council Networker</b> 9(1): Winter 2000.
-	Available online at &lt;https://watershed.org/news/win_00/2_hillslope_fire.htm&gt; [October 2001].
-$Abstract=Increased awareness of the role of fire in healthy ecosystems has focused attention on some of the effects of fires, wild and prescribed, on watershed condition and health.
-  Precipitation events after forest fires may cause high sediment inputs, destruction of aquatic habitat and downstream flooding, all of which may be part of the natural ecosystem response.
-  However, if the fires are more severe due to past fire suppression activities, then the fire effects may be greater than natural.
-  Fire and erosion are both natural processes that have been impacted by forest management activities such as fire suppression, logging, and road building during the last century.
-  Management activities may contribute to increased streamflows and increased sediment supplies to streams and rivers.
-  Additional sediment places streams and rivers at a higher risk for degradation.
-  Sediment adversely affects spawning and rearing sites for anadromous and resident fish species, mobilizes in-stream sediment, and destroys aquatic habitat.
-  Therefore, various management and mitigation strategies are often devised to reduce the threat of increased sediment.
-  This paper reviews the effects of fire on hillslope erosion and the associated risks on watershed health. 
-  Fire is a natural and important part of the disturbance regime for forested terrestrial and aquatic systems, especially in the western USA.
-  However, much uncertainty exists in quantifying fire effects on ecosystem components such as watershed condition and health.
-$Keywords=Prescribed Fire, post-fire effects, forest management, western US
-$links=<a href="https://www.watershed.org/wmc/news/win_02/2_hillslope_fire.htm>HTML</a>
-$type=peer reviewed
-         <a target="o" href="https://www.fs.usda.gov/rm/pubs/rmrs_gtr63.pdf" class="pdf">PDF (882k)</a> ]
 #2000n#################################################
 $Title=Evaluating the effectiveness of post-fire rehabilitation treatments
 $Year=2000
@@ -7584,13 +7415,13 @@ $Abstract=This study investigated the sediment production from various aggregate
 	sediment production. The best indicator of sediment production was the percent passing the number 30 sieve.
 $Keywords=aggregate, road erosion, erodibility, Pacific NW
 $links=<a href="https://forest.moscowfsl.wsu.edu/engr/library/Foltz/Foltz2000a/2000a.pdf">PDF</a> [80kb]
-#1999t###############################
+*1999t###############################
 $title=Post-fire burned area emergency rehabilitation treatments: do they work in the Southwest?
 $citation=Neary, D.G.; Robichaud, P.R.; Beyers, J.L.; Hubbert, K.R.;
    TenPas, J.L.; Nelson, B.E. 1999.
    <i><a>Post-fire burned area emergency rehabilitation treatments:
    do they work in the Southwest?</a></i>
-#1999s#########################################################
+*1999s#########################################################
 $title=Level of detail necessary for predicting forest road surface erosion
 $year=1999
 $category=road erosion, erosion modeling
@@ -7632,15 +7463,6 @@ $abstract=Increasing pressure on natural resources has extended forest land mana
  The results of this study indicated that road grade reversal was a sufficient criterion for input information for the sediment produced from the roads.
  Buffer slope information required considering major slope breaks.
 $keywords=road erosion, Idaho, WEPP
-*1999r#########################################################
-$title=Comparison of methods for determining bulk densities of rocky forest soils
-$year=1999
-$category=
-$authors=Foltz, Burroughs
-$authorblock=
-$abstract=
-$keywords=
-$citationt=
 #1999q##################################################
 $Title=Spatial interpolation and simulation of post-burn duff thickness after prescribed fire
 $Year=1999
@@ -7853,24 +7675,6 @@ $Abstract=The Water Erosion Prediction Project (WEPP) model was run to predict s
 $Keywords=WEPP:Road, Erosion prediction, Interface, road, XDRAIN
 $links=<a href="https://forest.moscowfsl.wsu.edu/engr/library/Elliot/Elliot1999h/1999h.pdf">PDF</a> [524kB]
 $lynx=<a href="https://forest.moscowfsl.wsu.edu/engr/library/Elliot/Elliot1999h/1999h.pdf">PDF</a> [524k]
-#1999f#################################################
-$Title=Measuring and modeling soil erosion in forests
-$Year=1999
-$category=erosion modeling
-$Publisher=Institution of Agricultural Engineers
-$Authors=Elliot, Foltz, Robichaud
-$authorblock=<b>William J. Elliot</b><br>
-	<b>Randy B. Foltz</b><br>
-	<b>Peter R. Robichaud</b>
-$Citationt=Elliot, W.J.; Foltz, R.B.; Robichaud, P.R.  1999.  
-   <a><i>Measuring and modeling soil erosion in forests.</i></a>
-   <b>Proceedings of <i>Forest Engineering for Tomorrow.</i></b>
-   Forestry Engineering Technical Papers, Paper 3.
-   Silsoe, UK: Institution of Agricultural Engineers,
-   Forest Engineering Group.
-$Abstract=
-$Keywords=erosion modeling, soil erosion, WEPP, modeling
-$lynx=
 #1999d###########################################################
 $Title=What happened after the smoke cleared: onsite erosion rates after a wildfire in eastern Oregon
 $Year=1999
@@ -8756,7 +8560,7 @@ $Abstract=Several logging road subgrades and cut slopes failed under wet
  identifying these soils.
 $Keywords=soil identification; Washington State; soil strength
 $links=<a href="https://doi.org/10.2113/gseegeosci.I.2.129">PDF</a> 
-#1995i###########################################################################################################
+*1995i###########################################################################################################
 $Title=Erosion prediction in the republic of Lithuania with the WEPP model
 $Year=1995
 $Authors=Robichaud
@@ -8778,7 +8582,7 @@ $Abstract=Soil erosion damages about 35 percent of the total land area in Lithua
  As new releases of the model become available, additional testing and validating will be completed for agricultural and
  forestry practices at the plot and watershed scale.
 $Keywords=erosion, erosion prediction, WEPP, Lithuania
-$links=<a href="https://forest.moscowfsl.wsu.edu/engr/library/Elliot/Elliot1996a/1996a.pdf">PDF</a> [164k]
+$links=<a href="">PDF</a> []
 $type=peer reviewed
 #1995h###########################################################################################################
 $Title=Validation of Water Erosion Prediction Project (WEPP) model for low-volume forest roads
@@ -8985,7 +8789,7 @@ $abstract=The use of lowered tire pressures has the capability
  Both lowered tire pressure systems had shallower, less well defined wheel ruts resulting in less
  frequent road maintenance requirements.
 $links=<a href="https://forest.moscowfsl.wsu.edu/engr/library/Foltz/Foltz1995a/1995a.pdf">PDF</a> [188k]
-#1994f###########################################################################################################
+*1994f###########################################################################################################
 $Title=A tool for estimating disturbed forest site sediment production
 $Year=1994
 $Authors=Elliot, Foltz, Robichaud
@@ -9320,12 +9124,12 @@ $Citationt=Robichaud, P.R.; Luce, C.H.; Brown, R.E.
 	September 1993, Moscow, Russia.
 	West Lafayette, IN: The Center for Technology Transfer and Pollution Prevention, Purdue University. 231-241.
 $links=<a href="/engr/library/Robichaud/Robichaud1993a/1993a.pdf" target="_pdf">PDF</a> [541k]
-#1992c###########################################################################################################
+*1992c###########################################################################################################
 $Title=Estimating interrill erodibility of forest soils
 $Year=1992
 $Authors=Burroughs, Luce
 $category=
-$Publisher=ASAE
+$Publisher=ASABE
 $authorblock=
 $Abstract=A method to develop erodibility prediction equations was developed
  and tested using published data.
@@ -9352,7 +9156,7 @@ $Citationt=Burroughs, E.R., Jr.; Luce, C.H.; Phillips, F. 1992.
  <b>Transactions of the ASAE,</b> Sept.-Oct. 1992, 35(5): 1489-1495. DOI: 10.13031/2013.28757.
 $links=<a href="https://doi.org/10.13031/2013.28757" target="_pdf">PDF</a> 
 $lynx=
-#1992b###########################################################################################################
+*1992b###########################################################################################################
 $Title=A set of continuous univariate pseudo-random number generation routines for use in computer simulation
 $Year=1992
 $category=
@@ -9422,7 +9226,7 @@ $links=<a href="https://forest.moscowfsl.wsu.edu/engr/library/Hammond/Hammond199
 <a href="/engr/library/Hammond/Hammond1992a/LISA Chpt 5 and 6.pdf" target="_pdf">Chapters 5 and 6, graphic PDF</a> [6.5 MB] <br>
 <a href="/engr/library/Hammond/Hammond1992a/LISA Part 2 Program Operation.pdf" target="_pdf">Part 2 &ndash; Program Operation, graphic PDF</a> [6.5 MB] <br>
 <a href="/engr/library/Hammond/Hammond1992a/LISA References and Appendicies.pdf" target="_pdf">References &amp; Appendices, graphic PDF</a> [4.3 MB]
-#1991j####################################
+*1991j####################################
 $Title=Sediment production from forest roads and timber harvest areas
 $Year=1991
 $Authors=Burroughs, Foltz, Robichaud
@@ -9465,41 +9269,6 @@ $Citationt=Shahlaee, A.K.; Nutter, W.L.; Burroughs, E.R., Jr.; Morris, L.A.
  <a><i>Runoff and sediment production from burned forest sites in the Georgia Piedmont.</i></a>
  <b>Water Resources Bulletin,</b> June 1991, 27(3): 485-493.
 $links=<a href="https://doi.org/10.1111/j.1752-1688.1991.tb01449.x" target="_pdf">PDF</a> 
-*1991h###########################################################################################################
-$Title=The effect of reduced tire pressure on sediment production from a forest road
-$Year=1991
-$Authors=Burroughs, Foltz
-$category=road erosion
-$Publisher=USFS
-$authorblock=
-$Abstract=Two 100-ft forest road section (plots) were bladed and used to measure
-sediment production from a loaded logging truck using normal (95 psi) tire pressure
-on one section and reduced (70 psi for steering axle and 50 psi elsewhere) tire
-pressure on the other. Each insloped road plot was divided lengthwise into two
-subplots 100 feet long by 5.7 feet wide to define one wheel track. Three
-simulated rainstorms at a rate of 2 inches per hour for 30 minutes each were
-applied to each plot before truck travel and three more were applied after truck
-travel. Increases in sediment production (kg) from the normal tire pressure
-plot ranged from +8% (dry run) to +121% (wet run) for the three rainfall
-applications, with an average value of +67%, compared to the reduced tire
-pressure plot. Increases in sediment concentration from the normal tire 
-pressure plot ranged from +32% (dry run) to +132% (very wet run) for the three
-rainfall applications, with an average value of +74%, compared to the reduced
-tire pressure plot. These increases in sediment production and sediment
-concentration were caused by more concentrated flow, with more erosive power, in
-the deeper ruts formed in the normal tire pressure plot.  Soil moisture contents
-for 3 of the 4 subplots were greater than the optimum for compaction, but the
-higher ground pressures on the normal tire pressure plot caused significant
-rutting while the road surface of the reduced tire pressure plot had only minor
-ruts.  These tests clearly indicate that the use of VTP has a significant
-potential to reduce adverse impcts on water quality.
-$Keywords=tire pressure, road eorion
-$Citationt=Bellitto, M.; Burroughs, E.R. Jr.; Foltz, R.B. 1991.
-<a><b>The effect of reduced tire pressure on sediment production from a forest road.</b></a>
-A report on a cooperative study between the Intermountain Research Station, WO Engineering and San Dimas Technology and Development Center.
-Internal Document. 28&nbsp;p.
-$links=
-$lynx=
 #1991g###########################################################################################################
 $Title=Sediment processes in wheel ruts on unsurfaced forest roads
 $Year=1991
@@ -9522,7 +9291,7 @@ $Keywords=sediment modeling; road erosion; wheel ruts; erosion processes; road
 $Citationt=Foltz, R.B. 1991. <a><b>Sediment processes in wheel ruts on unsurfaced forest roads.</b></a>
     Moscow, ID: University of Idaho. 177 p. Ph.D. thesis.
 $lynx=
-#1991d#########################################################
+*1991d#########################################################
 $title=A test of normal tire pressure and reduced tire pressure on forest roads: sedimentation effects
 $year=1991
 $category=road erosion
@@ -9623,27 +9392,6 @@ $type=
 $treesearch=
 $plynx=
 $links=<a href="https://www.researchgate.net/publication/33810374_An_ultrasonic_profiler_for_the_measurement_of_soil_surface_roughness" target="_pdf">PDF</a> 
-*1990c###############################################
-$Title=Reducing stream siltation through slash filter windrows
-$Year=1990
-$category=disturbed forests
-$Authors=Burroughs
-$Publisher=ASAE
-$authorblock=
-$Abstract=Slash filter windrows at the base of fills on forest
- roads trap 75 to 85% of the sediment produced and
- reduce the distance it travels by 84%. Windrows built
- by hydraulic excavators with right-of-way slash also
- offer significant savings in the cost of forest road
- construction.
-$Keywords=filter windrow, sedimentation, erosion, hydraulic excavator, roads, forests
-$Citationt=Cain, C.; Burroughs, E.R., Jr. 1990.
- <a><i>Reducing stream siltation through slash filter windrows.</i></a>
- Paper No. 907533.
- Presented at the <b>1990 International Winter Meeting,</b>
- American Society of Agricultural Enginers, Hyatt Regency Chicago Hotel,
- Chicago, IL, December 18-21, 1990. 8&nbsp;p.
-$links=<a href="" target="_pdf">PDF</a> 
 #1990b###########################################################################################################
 $Title=Sediment production from forest roads with wheel ruts
 $Year=1990
@@ -9799,7 +9547,7 @@ $Citationt=Burroughs, E.R., Jr.; Scott, M.D. 1982.
   <i><a>SEAMPLAN -- a computer tool for surface mine reclamation planning.</a></i>
   <b>Forestry Research West</b> Sept, 14-17.
 $links=<a href="https://archive.org/details/CAT10751505/mode/2up?ref=ol&view=theater">HTML</a>
-#1982a###########################################################################################################
+*1982a###########################################################################################################
 $Title=Experience with a process-oriented road sediment model
 $Year=1982
 $Authors=Burroughs
@@ -9841,7 +9589,7 @@ $Citationt=Sundberg, E.; Johnston, R.S.; Burroughs, E.R., Jr. 1982.
  Mississippi State University.
  Littleton, CO: Water Resources Publications. 577-590.
 $lynx=
-#1977a###########################################################################################################
+*1977a###########################################################################################################
 $Title=Declining root strength in Douglas-fir after felling as a factor in slope stability
 $Year=1977
 $Authors=Burroughs
