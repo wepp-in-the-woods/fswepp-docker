@@ -7421,48 +7421,6 @@ $citation=Neary, D.G.; Robichaud, P.R.; Beyers, J.L.; Hubbert, K.R.;
    TenPas, J.L.; Nelson, B.E. 1999.
    <i><a>Post-fire burned area emergency rehabilitation treatments:
    do they work in the Southwest?</a></i>
-*1999s#########################################################
-$title=Level of detail necessary for predicting forest road surface erosion
-$year=1999
-$category=road erosion, erosion modeling
-$authors=Foltz, Elliot
-$authorblock=<b>Hakjun Rhee,</b> Graduate Student, College of Forest Resources, Univ. of Washington, Seattle<br.
-    <b>Randy B. Foltz,</b> Research Engineer, Rocky Mountain Research Station<br>
-    <b>William J. Elliot,</b> Research Engineer and Project Leader, Rocky Mountain Research Station<br>
-    James L. Fridley, Professor, College of Forest Resources, Univ. of Washington, Seattle<br>
-    Susan M. Bolton, Associate Professor, College of Forest Resources and Center for Streamside Studies, Univ. of Washington, Seattle
-$publisher=ASCE
-$citationt=Rhee, H.; Foltz, R.B.; Elliot, W.J.; Fridley, J.L.; Bolton, S.M.
-   1999.
-   <a><i>Level of detail necessary for predicting forest road surface erosion.</i></a>
-   Presented at the American Society of Civil Engineers
-   <b>1999 International Water Resources Engineering Conference,</b>
-   August 7-11, 1999, Seattle, WA.
-   Also, <i>Appendix C</i> in Rhee, H.; Fridley, J.L.; Bolton, S.M. 1999.
-   <b>Modeled outsloped forest road surface erosion using the Water Erosion Prediction Project (WEPP) model.</b>
-   Final Report for Contract INT-95124-RJVA.
-   USDA Forest Service Rocky Mountain Research Station, Moscow, ID.
-   September 1999.
-$abstract=Increasing pressure on natural resources has extended forest land management activities into remote moutainous areas.
- Forest roads are an essential element for forest and watershed management.
- However, forest roads are also a major source of sediment production.
- <br><br>
- We used the Water Erosion Prediction Project (WEPP) model to predict sediment from the roads in a timber sale on the Boise National Forest, Idaho.
- The outsloped 4.4 km road was divided into road segments of different lengths, using three levels of detail (high, intermediate, and low).
- Results from each set of runs were assessed to determine what level of detail was necessary.
- For the high detail method, the road segments were identified by changes in road grade and azimuth angle.
- This resulted in 145 segments with an average length of 31 m.
- Buffer slope was determined from 40 ft (12 m) contours along the flow path, with an average buffer length of 370 m.
- For the intermediate detail method, the criterion was less than 2 percentage points of road grade difference between, resulting in 91 segments with an average length of 49 m.
- Buffer slope was measured where major slope breaks occurred along the flow path, with an average buffer length of 360 m.
- For the low detail method, the road segments were identified by road grade reversal.
- This resulted in 41 segments with an average length of 110 m.
- The horizontal distance and elevation difference between two points, road and stream, were measured for each segment.
- The average buffer length was 320 m.
- <br><br>
- The results of this study indicated that road grade reversal was a sufficient criterion for input information for the sediment produced from the roads.
- Buffer slope information required considering major slope breaks.
-$keywords=road erosion, Idaho, WEPP
 #1999q##################################################
 $Title=Spatial interpolation and simulation of post-burn duff thickness after prescribed fire
 $Year=1999
@@ -8789,33 +8747,6 @@ $abstract=The use of lowered tire pressures has the capability
  Both lowered tire pressure systems had shallower, less well defined wheel ruts resulting in less
  frequent road maintenance requirements.
 $links=<a href="https://forest.moscowfsl.wsu.edu/engr/library/Foltz/Foltz1995a/1995a.pdf">PDF</a> [188k]
-*1994f###########################################################################################################
-$Title=A tool for estimating disturbed forest site sediment production
-$Year=1994
-$Authors=Elliot, Foltz, Robichaud
-$category=disturbed forests
-$Publisher=WSU
-$authorblock=Elliot, Foltz, Robichaud
-$Abstract=The Forest Service, U.S. Department of Agriculture, is
-developing a process-based model of rainfall-runoff and sediment erosion
-on disturbed forest sites, principally forest roads and timber harvest
-areas. The basis of the developing model is the Water Erosion Prediction
-Project (WEPP) model developed for agriculture and rangelands. The major
-challenges in adapting this model to mountainous forest conditions are
-differences in parameter estimation techniques, weather prediction,
-vegetation effects, and management activities. Simulated and natural
-rainfall experiments are used for parameter estimations from forest roads
-and timber harvest areas. Several model components and parameter
-estimations from field and laboratory experiments are discussed.
-$Keywords=soil erosion, modeling, erosion prediction, WEPP
-$Citationt=Elliot, W.J.; Foltz, R.B.; Robichaud, P.R. 1994.
- <a><i>A tool for estimating disturbed forest site sediment production.</i></a>
- In: Baumgartner, D.M.; Lotan, J.E.; Tonn, J.R., eds.
- <b>Proceedings, Interior Cedar-Hemlock-White Pine Forests: Ecology and Management;</b>
- 1993 March 2-4; Spokane, WA.
- Pullman, WA: Washington State University Cooperative Extension: 233-236.
-$lynx=
-$type=peer reviewed
 #1994e###########################################################################################################
 $Title=Slope stability reference guide for national forests in the United States
 $Year=1994
@@ -9226,19 +9157,6 @@ $links=<a href="https://forest.moscowfsl.wsu.edu/engr/library/Hammond/Hammond199
 <a href="/engr/library/Hammond/Hammond1992a/LISA Chpt 5 and 6.pdf" target="_pdf">Chapters 5 and 6, graphic PDF</a> [6.5 MB] <br>
 <a href="/engr/library/Hammond/Hammond1992a/LISA Part 2 Program Operation.pdf" target="_pdf">Part 2 &ndash; Program Operation, graphic PDF</a> [6.5 MB] <br>
 <a href="/engr/library/Hammond/Hammond1992a/LISA References and Appendicies.pdf" target="_pdf">References &amp; Appendices, graphic PDF</a> [4.3 MB]
-*1991j####################################
-$Title=Sediment production from forest roads and timber harvest areas
-$Year=1991
-$Authors=Burroughs, Foltz, Robichaud
-$category=disturbed forests, road erosion
-$Publisher=Our California Environment
-$authorblock=
-$Abstract=
-$Keywords=road erosion, erosion modeling
-$Citationt=Burroughs, E.R., Jr.; Foltz, R.B.; Robichaud, P.R. 1991.
- <a><i>Sediment production from forest roads and timber harvest areas.</i></a>
- <b>Our California Environment</b> 1(4): 4-6. Fort Dodge, IA: Land and Water, Inc.
-$lynx=
 #1991i####################################
 $Title=Runoff and sediment production from burned forest sites in the Georgia Piedmont
 $Year=1991
