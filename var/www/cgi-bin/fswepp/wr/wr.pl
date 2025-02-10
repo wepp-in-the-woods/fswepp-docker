@@ -272,7 +272,7 @@ print '
       <table width="90%">
        <tr>
         <td>
-         <a href="JavaScript:window.history.go(-1)">
+         <a href="/cgi-bin/fswepp/wr/wepproad.pl">
           <img src="/fswepp/images/road4.gif"
           align=left border=1
           width=50 height=50
@@ -767,7 +767,9 @@ sub parseWeppResults {
        <input type="submit" name="button" value="Add to log">
       </form>
       <br><br>
-      <input type="button" value="Return to Input Screen" onClick="JavaScript:window.history.go(-1)">
+      <a href="/cgi-bin/fswepp/wr/wepproad.pl">
+        <input type="button" value="Return to Input Screen">
+      </a>
       <br>
      </center>
 ';

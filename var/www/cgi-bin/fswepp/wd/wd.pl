@@ -98,7 +98,7 @@ if ( lc($achtung) =~ /describe soil/ ) {    ##########
   <blockquote>
   <table width=95% border=0>
     <tr><td> 
-       <a href="JavaScript:window.history.go(-1)">
+       <a href="/cgi-bin/fswepp/wd/weppdist.pl">
        <IMG src="/fswepp/images/disturb.gif"
        align="left" alt="Back to FS WEPP menu" border=1></a>
     <td align=center>
@@ -554,7 +554,7 @@ if ( $rcin eq '' ) {
    <table width=100% border=0>
     <tr>
      <td>
-      <a href="JavaScript:window.history.go(-1)">
+      <a href="/cgi-bin/fswepp/wd/weppdist.pl">
       <IMG src="/fswepp/images/disturb.gif"
       align="left" alt="Return to Disturbed WEPP input screen" border=1></a>
      <td align=center>
@@ -1086,7 +1086,9 @@ if ( $rcin eq '' ) {
    <p>
    <center>
     <hr>
-     <input type="button" value="Return to Input Screen" onClick="JavaScript:window.history.go(-1)">
+    <a href="/cgi-bin/fswepp/wd/weppdist.pl" style="text-decoration: none;">
+        <input type="button" value="Return to Input Screen">
+    </a>
     <br>
     <hr>
    </center>
@@ -1142,7 +1144,7 @@ if ( $rcin eq '' ) {
         print '</PRE>';
         print "<p><hr>";
         print '<center>
-<a href="JavaScript:window.history.go(-1)">
+<a href="/cgi-bin/fswepp/wd/weppdist.pl">
 <img src="/fswepp/images/rtis.gif"
   alt="Return to input screen" border="0" align=center></A>
 <BR><HR></center>';

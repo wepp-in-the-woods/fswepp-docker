@@ -151,7 +151,7 @@ if ( lc($achtung) =~ /describe soil/ ) {    ##########
     <table width=95% border=0>
      <tr>
       <td> 
-       <a href="JavaScript:window.history.go(-1)">
+       <a href="/cgi-bin/fswepp/tahoe/tahoe.pl">
        <IMG src="/fswepp/images/tahoe.jpg"
        align="left" alt="Back to FS WEPP menu" border=1></a>
       </td>
@@ -828,7 +828,7 @@ if ( $rcin eq '' ) {
    <table width=100% border=0>
     <tr>
      <td>
-      <a href="JavaScript:window.history.go(-1)">
+      <a href="/cgi-bin/fswepp/tahoe/tahoe.pl">
       <IMG src="/fswepp/images/tahoe.jpg"
       align="left" alt="Return to Tahoe Basin Sediment Model input screen" border=1></a>
      <td align=center>
@@ -1968,40 +1968,19 @@ $class5
    </td></tr></table>
    </center>
       ";
-#
-#     <tr>
-#      <td><font size=-2>
-#$, = " ";
-#print "yearly runoff amounts (storm runoff amount + melt runoff amount, mm): @ra<br>\n";
-#print "$nnzra year(s) with runoff<br>\n";
-#print "$nzra year(s) ($simyears - $nnzra) with no runoff<br>\n";
-#print "probability no runoff = $prob_no_runoff = $nzra / $simyears<br>\n";
-#print "<hr>";
-#print "yearly erosion amounts (mm): @detach<br>\n";
-#print "$nnzdetach year(s) with erosion<br>\n";
-#print "$nzdetach year(s) ($simyears - $nnzdetach) with no erosion<br>\n";
-#print "probability no erosion = $prob_no_erosion = $nzdetach / $simyears<br>\n";
-#print "<hr>";
-#print "yearly sediment delivery amounts (mm): @sed_del<br>\n";
-#print "$nnzsed_del year(s) with sediment delivery<br>\n";
-#print "$nzsed_del year(s) ($simyears - $nnzsed_del) with no sediment delivery<br>\n";
-#print "probability no sediment delivery = $prob_no_sediment = $nzsed_del / $simyears<br>\n";
-#$, = "";
-#print "
-#";
 
         print '
    <p>
    <center>
-    <input type=button value="Return to Input Screen" onClick="JavaScript:window.history.go(-1)">
+   <a href="/cgi-bin/fswepp/tahoe/tahoe.pl">
+    <input type=button value="Return to Input Screen">
+    </a>
     <br>
     <hr>
    </center>
 ';
 
 #####
-
-        # print "<hr width=50%> \n";
 
         if ( $outputi == 1 ) {
             print '

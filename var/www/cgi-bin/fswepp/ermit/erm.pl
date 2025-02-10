@@ -155,7 +155,7 @@ if ( lc($achtung) =~ /describe soil/ ) {
   <blockquote>
   <table width=95% border=0>
     <tr><td>
-       <a href="JavaScript:window.history.go(-1)">
+       <a href="/cgi-bin/fswepp/ermit/ermit.pl">
        <IMG src="/fswepp/images/ermit.gif"
        align="left" alt="Back to FS WEPP menu" border=1></a>
     <td align=center>
@@ -2085,7 +2085,7 @@ else {
 print <<'EOP2a';
    </form>
   </center>
-  <form><input type="submit" value="Return to input screen" onclick="JavaScript:window.history.go(-1); return false;"></form>
+  <a href="/cgi-bin/fswepp/ermit/ermit.pl">Return to input screen</a>
   </center>
   <br>
   <br>

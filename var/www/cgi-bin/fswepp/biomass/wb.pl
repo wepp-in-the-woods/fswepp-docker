@@ -203,7 +203,7 @@ print '
     <table width=100% border=0>
      <tr>
       <td>
-       <a href="JavaScript:window.history.go(-1)"
+       <a href="/cgi-bin/fswepp/biomass/biomass.pl"
          onMouseOver="window.status=\'Return to WEPP:BIOMASS input screen\'; return true"
          onMouseOut="window.status=\' \'; return true">
         <img src="/fswepp/images/fume.jpg"
@@ -3401,7 +3401,7 @@ sub printWeppSummary {
     close weppout;
     print '</PRE></font>
 <p><center><hr>
-<a href="JavaScript:window.history.go(-1)">
+<a href="/cgi-bin/fswepp/biomass/biomass.pl"">
 <img src="/fswepp/images/rtis.gif"
      alt="Return to input screen" border="0" aligh=center></A>
 <BR><HR></center>

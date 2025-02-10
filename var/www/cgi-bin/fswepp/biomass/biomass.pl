@@ -528,8 +528,8 @@ foreach my $ii ( 0 .. $#climates ) {
     print ' selected' if $ii == 0;
     print '> ', $climates[$ii]->{'clim_name'}, "\n";
 }
-
-print '      </SELECT>
+print <<'HTML';
+    </SELECT>
       </td>
       <TD align="center" bgcolor="lightblue">
        <SELECT NAME="SoilType" SIZE="4"
@@ -544,7 +544,7 @@ print '      </SELECT>
      <td align="center" bgcolor="lightblue">
       <input type="text" size="5" name="road_density" value="4"
         onChange="checkRange(this.form.road_density,rd_den_min,rd_den_max,rd_den_def,\' mi/sq mi\',\'road density\')"
-        title="Road density: ', $rd_den_min, ' to ', $rd_den_max, '">
+        title="Road density:  $rd_den_min  to  $rd_den_max">
      </td>
       </tr>
       <tr>
@@ -556,27 +556,6 @@ print '      </SELECT>
       </tr>
     </table>
 
-<!--
-   <table border="2">
-    <tr>
-     <th bgcolor="#006009">
-      <font face="tahoma, arial, helvetica, sans serif" color="#99ff00">
-       Road density (mi mi<sup>-2</sup>)
-     </td>
-    </tr>
-    <tr>
-     <th bgcolor="lightblue">
-      <font face="tahoma, arial, helvetica, sans serif">
-       Simulation period (yr)
-     </td>
-     <td>
-      <input type="text" size="5" name="climyears" value="5"
-        onChange="checkYears(this.form.climyears)"
-        title="Years to simulate: ', $year_min, ' to ', $year_max, '">
-     </td>
-    </tr>
-   </table>
--->
    <br>
 
    <table border=2 cellpadding=4>
@@ -595,7 +574,7 @@ print '      </SELECT>
       <font face="tahoma, arial, helvetica, sans serif">
        <input type="text" size=8 value="200" name="totall"
         onChange="checkRange(this.form.totall,total_l_min,total_l_max,total_l_def,\' ft\',\'hillslope length\');return true"
-        title="Hillslope length: ', $totl_l_min, ' to ', $totl_l_max, '">
+        title="Hillslope length: $totl_l_min to $totl_l_max">
        <b><a title="Horizontal length of hillslope, including buffer">Total hillslope</a></b>
       </font>
      </td>
@@ -615,7 +594,7 @@ print '      </SELECT>
       <font face="tahoma, arial, helvetica, sans serif">
        <input type="text" size=8 name="buffl" value="50"
         onChange="checkRange(this.form.buffl,buff_l_min,buff_l_max,buff_l_def,\' ft\',\'buffer length\');return true"
-        title="Buffer length: ', $buff_l_min, ' to ', $buff_l_max, '">
+        title="Buffer length: $buff_l_min to  $buff_l_max">
        <b><a title="Horizontal length of hillslope buffer">Buffer</a></b>
       </font>
      </td>
@@ -644,8 +623,7 @@ print '      </SELECT>
        <br>
        <input type="text" size=8 value="0" name="ofe1_top_slope"
               onChange="checkRange(this.form.ofe1_top_slope,hill_g_min,hill_g_max,hill_g_def,\' %\',\'hillslope gradient\')"
-              title="Hillslope top gradient: ', $hill_g_min, ' to ',
-  $hill_g_max, '">
+              title="Hillslope top gradient: $hill_g_min to $hill_g_max">
       </font>
      </th>
      <th bgcolor="lightblue" title="Gradient of hillslope middle (percent)">
@@ -654,8 +632,7 @@ print '      </SELECT>
        <br>
        <input type="text" size=8 value="30" name="ofe1_mid_slope"
               onChange="checkRange(this.form.ofe1_mid_slope,hill_g_min,hill_g_max,hill_g_def,\' %\',\'hillslope gradient\')"
-              title="Hillslope middle gradient: ', $hill_g_min, ' to ',
-  $hill_g_max, '">
+              title="Hillslope middle gradient: $hill_g_min to $hill_g_max">
       </font>
      </th>
      <th bgcolor="lightblue" title="Gradient of hillslope toe (%)">
@@ -664,8 +641,7 @@ print '      </SELECT>
        <br>
        <input type="text" size=8 value="15" name="ofe2_bot_slope"
               onChange="checkRange(this.form.ofe2_bot_slope,hill_g_min,hill_g_max,hill_g_def,\' %\',\'hillslope gradient\')"
-              title="Hillslope toe gradient: ', $hill_g_min, ' to ',
-  $hill_g_max, '">
+              title="Hillslope toe gradient: $hill_g_min to $hill_g_max">
       </font>
      </th>
     </tr>
@@ -689,7 +665,7 @@ print '      </SELECT>
        <br>
        <input type="text" size=8 value="40" name="wildfire_cycle"
         onChange="checkRange(this.form.wildfire_cycle,wfc_min,wfc_max,wfc_def,\' yr\',\'wildfire cycle\')"
-        title="Wildfire cycle: ', $wfc_min, ' to ', $wfc_max, '">
+        title="Wildfire cycle:  $wfc_min to  $wfc_max">
       </font>
      </th>
      <th bgcolor="lightblue" title="Number of years between prescribed fires">
@@ -698,7 +674,7 @@ print '      </SELECT>
        <br>
        <input type="text" size=8 value="20" name="rx_fire_cycle"
         onChange="checkRange(this.form.rx_fire_cycle,fmc_min,fmc_max,fmc_def,\' yr\',\'prescribed fire cycle\')"
-        title="Prescribed fire cycle: ', $fmc_min, ' to ', $fmc_max, '">
+        title="Prescribed fire cycle: $fmc_min  to  $fmc_max">
       </font>
      </th>
      <th bgcolor="lightblue" title="Number of years between harvests">
@@ -707,7 +683,7 @@ print '      </SELECT>
        <br>
        <input type="text" size=8 value="20" name="harvest_cycle"
         onChange="checkRange(this.form.harvest_cycle,fmc_min,fmc_max,fmc_def,\' yr\',\'harvest cycle\')"
-        title="Harvest cycle: ', $fmc_min, ' to ', $fmc_max, '">
+        title="Harvest cycle: $fmc_min to $fmc_max">
       </font>
      </th>
     </tr>
@@ -720,10 +696,6 @@ print '      </SELECT>
       </b>
      </p>
 
-<!--
-      <input type="radio" name="units" value="m"><b>metric</b>
-      <input type="radio" name="units" value="ft" checked><b>English</b>
--->
 
      <p>
       <input type="SUBMIT" name="actionw" VALUE="Run BIOMASS"
@@ -749,7 +721,7 @@ print '      </SELECT>
       <td valign="top">
        <font face="tahoma, arial, helvetica, sans serif" size=1>
         WEPP BIOMASS input interface v.
-        <a href="javascript:popuphistory()"> ', $version, '</a>
+        <a href="javascript:popuphistory()"> $version </a>
         by
         David Hall and Hakjun Rhee<br>
         Model developed by Bill Elliot &amp; Pete Robichaud, USDA Forest Service, Rocky Mountain Research Station, Moscow, ID
@@ -757,7 +729,8 @@ print '      </SELECT>
       </td>
      </tr>
     </table>
-';
+
+HTML
 
 $remote_host    = $ENV{'REMOTE_HOST'};
 $remote_address = $ENV{'REMOTE_ADDR'};

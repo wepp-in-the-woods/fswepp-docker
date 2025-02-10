@@ -184,7 +184,7 @@ print '
    <table width="90%">
     <tr>
      <td>
-      <a href="JavaScript:window.history.go(-1)">
+      <a href="/cgi-bin/fswepp/wr/wepproadbat.pl">
       <img src="/fswepp/images/roadb.gif"
         align=left border=1
         width=50 height=50
@@ -490,7 +490,6 @@ if ($checkonly) {
      </a>
 " if ( $num_invalid_records_x == 0 && $count > 0 );
 
-#      <input type=\"button\" name=\"rtis\" value=\"Return to previous screen\" onClick=\"JavaScript:window.history.go(-1)\">
     print "
      </form>
      <br>
@@ -1162,13 +1161,12 @@ $rf
         close weppout;
         print '</PRE></font>
      <form>
-      <a onMouseOver="window.status=\'Return to input screen (may be previous incarnations of this screen along the way)\';return true"
-          onMouseOut="window.status=\'Forest Service WEPP:Road Batch\'">
-       <input type="button" name="rtis" value="Return to previous screen" onClick="JavaScript:window.history.go(-1)">
+      <a href="/cgi-bin/fswepp/wr/wepproadbat.pl">
+       <input type="button"  value="Return to previous screen" >
       </a>
      </form>
 <p><center><hr>
-<a href="JavaScript:window.history.go(-1)">
+<a href="/cgi-bin/fswepp/wr/wepproadbat.pl">
 <img src="/fswepp/images/rtis.gif"
      alt="Return to input screen" border="0" aligh=center></A>
 <BR><HR></center>
@@ -1193,9 +1191,8 @@ print '
    <center>
     <form name="wrblog" method="post" action="/cgi-bin/fswepp/wr/logstuffwr.pl">
      <!-- input type="submit" name="button" value="Display log" -->
-     <a onMouseOver="window.status=\'Return to input screen (may be previous incarnations of this screen along the way)\';return true"
-        onMouseOut="window.status=\'Forest Service WEPP:Road Batch\'">
-      <input type="button" name="rtis" value="Return to previous screen" onClick="JavaScript:window.history.go(-1)">
+     <a href="/cgi-bin/fswepp/wr/wepproadbat.pl">
+      <input type="button" value="Return to previous screen">
      </a>
     </form>
     <br>
