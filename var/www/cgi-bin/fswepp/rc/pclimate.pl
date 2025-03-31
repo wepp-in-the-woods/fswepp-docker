@@ -1,6 +1,6 @@
 #!/usr/bin/perl
 
-user warnings;
+use warnings;
 use CGI;
 use CGI qw(escapeHTML);
 
